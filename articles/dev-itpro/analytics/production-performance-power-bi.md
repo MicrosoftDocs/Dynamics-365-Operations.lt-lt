@@ -1,13 +1,13 @@
 ---
-title: "„Power BI“ turinys Gamybos našumas"
-description: "Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+title: „Power BI“ turinys Gamybos našumas
+description: Šioje temoje aprašoma, kas įtraukta į „Power BI“ turinį Gamybos našumas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,38 +16,37 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365965"
 ---
-
 # <a name="production-performance-power-bi-content"></a>„Power BI“ turinys Gamybos našumas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kas įtraukta į „Microsoft Power BI“ turinį **Gamybos našumas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
-„Power BI‟ turinys **Gamybos našumas** skirtas gamybos vadovams ar organizacijos asmenims, atsakingiems už gamybos kontrolę.
+„Power BI“ turinys **Gamybos našumas** skirtas gamybos vadovams ar organizacijos asmenims, atsakingiems už gamybos kontrolę.
 
-Pasitelkę įtrauktas ataskaitas galite naudodami „Power BI‟ stebėti gamybos operacijų našumą vykdymo laiko, kokybės ir kaštų atžvilgiu. Ataskaitose naudojami operaciniai duomenys iš gamybos užsakymų ir paketinių užsakymų; jose pateikiamas tiek sujungtas visos įmonės gamybos metrikų rodinys, tiek pagal produktą ir išteklių paskirstytas metrikų rodinys.
+Pasitelkę įtrauktas ataskaitas galite naudodami „Power BI“ stebėti gamybos operacijų našumą vykdymo laiko, kokybės ir kaštų atžvilgiu. Ataskaitose naudojami operaciniai duomenys iš gamybos užsakymų ir paketinių užsakymų; jose pateikiamas tiek sujungtas visos įmonės gamybos metrikų rodinys, tiek pagal produktą ir išteklių paskirstytas metrikų rodinys.
 
-„Power BI‟ turinys pažymi organizacijos gebėjimą gamybą baigti laiku ir visa apimtimi. Būsimas našumas numatomas pagal gamybos planus. Išsamiose ataskaitose pateikiama detalių įžvalgų apie produktų defektus, atsiradusius gamybos metu, bei išteklių ir operacijų defektų dažnį.
+„Power BI“ turinys pažymi organizacijos gebėjimą gamybą baigti laiku ir visa apimtimi. Būsimas našumas numatomas pagal gamybos planus. Išsamiose ataskaitose pateikiama detalių įžvalgų apie produktų defektus, atsiradusius gamybos metu, bei išteklių ir operacijų defektų dažnį.
 
-Naudodami šį „Power BI‟ turinį taip pat galite analizuoti gamybos nuokrypius. Gamybos nuokrypiai apskaičiuojami kaip įvertintų kaštų ir realizuotų kaštų skirtumas. Gamybos nuokrypiai skaičiuojami gamybos užsakymams ar paketiniams užsakymams pasiekus būseną **Baigtas**.
+Naudodami šį „Power BI“ turinį taip pat galite analizuoti gamybos nuokrypius. Gamybos nuokrypiai apskaičiuojami kaip įvertintų kaštų ir realizuotų kaštų skirtumas. Gamybos nuokrypiai skaičiuojami gamybos užsakymams ar paketiniams užsakymams pasiekus būseną **Baigtas**.
 
-„Power BI‟ turinyje **Gamybos našumas** yra duomenų, kilusių iš gamybos užsakymų ir paketinių užsakymų. Ataskaitose nėra duomenų, susijusių su „kanban‟ gamyba.
+„Power BI“ turinyje **Gamybos našumas** yra duomenų, kilusių iš gamybos užsakymų ir paketinių užsakymų. Ataskaitose nėra duomenų, susijusių su „kanban‟ gamyba.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 „Power BI“ turinys **Gamybos našumas** rodomas puslapyje **Gamybos našumas** (**Gamybos kontrolė** \> **Užklausos ir ataskaitos** \> **Gamybos našumo analizė** \> **Gamybos našumas**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 
-„Power BI‟ turinyje **Gamybos našumas** pateikiama keletas ataskaitų puslapių. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys.
+„Power BI“ turinyje **Gamybos našumas** pateikiama keletas ataskaitų puslapių. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys.
 
 Toliau pateikiamoje lentelėje apžvelgiamos įtrauktos vizualizacijos.
 
@@ -63,9 +62,9 @@ Toliau pateikiamoje lentelėje apžvelgiamos įtrauktos vizualizacijos.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
-Tolesni duomenys naudojami „Power BI‟ turinio **Gamybos našumas** ataskaitų puslapiuose. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Norėdami daugiau sužinoti apie objektų saugyklą, žr. [„Power BI‟ integravimas su objektų saugykla](power-bi-integration-entity-store.md).
+Tolesni duomenys naudojami „Power BI“ turinio **Gamybos našumas** ataskaitų puslapiuose. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Norėdami daugiau sužinoti apie objektų saugyklą, žr. [„Power BI“ integravimas su objektų saugykla](power-bi-integration-entity-store.md).
 
-Tolesnėje lentelėje parodyti pagrindiniai agreguoti matavimo vienetai, naudojami kaip „Power BI‟ turinio pagrindas.
+Tolesnėje lentelėje parodyti pagrindiniai agreguoti matavimo vienetai, naudojami kaip „Power BI“ turinio pagrindas.
 
 | Objektas                   | Pagrindiniai agreguoti matavimo vienetai  | „Finance and Operations“ duomenų šaltinis | Laukas              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
@@ -130,4 +129,3 @@ Tolesnėje lentelėje parodytos pagrindinės dimensijos, naudojamos kaip filtrai
 | Objektai                  | ID ir pavadinimas                                                   |
 | Ištekliai                 | Ištekliaus ID, ištekliaus pavadinimas, ištekliaus tipas ir išteklių grupė |
 | Produktai                  | Produkto numeris, produkto pavadinimas, prekės ID ir prekių grupė         |
-

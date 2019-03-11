@@ -1,13 +1,13 @@
 ---
 title: Paketo balansavimas
-description: "Šioje temoje aprašomas paketų balansavimo procesas."
+description: Šioje temoje aprašomas paketų balansavimo procesas.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358628"
 ---
-
 # <a name="batch-balancing"></a>Paketo balansavimas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip palaikomas paketų balansavimo procesas. 
 
-Žiūrėkite [vaizdo įrašą apie partijų balansavimą programoje „Microsoft Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
+Žiūrėti [vaizdo įrašą apie partijų balansavimą programoje „Microsoft Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 Vykdant paketų balansavimo procesą, gamybos pakete naudotinas ingredientų kiekis apskaičiuojamas pagal aktyviųjų ingredientų koncentraciją pasirinktuose produktų paketuose.
 
@@ -194,4 +193,3 @@ Taisyklė, kad paketiniams užsakymams galima taikyti paketų balansavimo funkci
 Jei formulėje yra produkto, su kuriuo galima vykdyti sandėlio valdymo procesus, aktyvusis ingredientas, tačiau rezervavimo hierarchijoje reikšmė Paketo numeris yra žemiau reikšmės Vieta, paketiniam užsakymui paketų balansavimo funkcijos taikyti negalima.
 
 Paketiniam užsakymui, kuriam negalima taikyti paketų balansavimo funkcijos, taikomas įprastas paketinių užsakymų apdorojimo ciklas.
-

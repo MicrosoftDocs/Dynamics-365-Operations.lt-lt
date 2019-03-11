@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo užklausos konfigūracijos"
-description: "Šioje temoje aprašomi laukai, kuriuos reikia užpildyti naujoje tiekėjo užklausoje."
+title: Tiekėjo užklausos konfigūracijos
+description: Šioje temoje aprašomi laukai, kuriuos reikia užpildyti naujoje tiekėjo užklausoje.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: josaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: d238e0dbb754e88dcffa171456aa0a2336238cab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332523"
 ---
-
 # <a name="vendor-request-configurations"></a>Tiekėjo užklausos konfigūracijos
 [!include [banner](../includes/banner.md)]
 
@@ -54,5 +53,4 @@ Taip pat galite įvesti patvirtinimo pranešimą, kuris bus rodomas, kai vedlys 
 3.  Spustelėkite **Įrašyti**.
 4.  Atidarykite skirtuką **Šalis / regionas**, kad pasirinktumėte šalį / regioną, kuriam konfigūracija skirta.
 5.  Nustatykite konfigūraciją, vadovaudamiesi numatytosios konfigūracijos nustatymo instrukcijomis.
-
 

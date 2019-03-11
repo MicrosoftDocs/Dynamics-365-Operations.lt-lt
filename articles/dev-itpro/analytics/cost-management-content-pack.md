@@ -1,13 +1,13 @@
 ---
-title: "Išlaidų valdymo „Power BI“ turinys"
-description: "Šioje temoje paaiškinama, kas įtraukta į išlaidų valdymo „Power BI“ turinį."
+title: „Power BI“ turinys Išlaidų valdymas
+description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Išlaidų valdymas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,24 +19,23 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327808"
 ---
-
-# <a name="cost-management-power-bi-content"></a>Išlaidų valdymo „Power BI“ turinys
+# <a name="cost-management-power-bi-content"></a>„Power BI“ turinys Išlaidų valdymas
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Peržiūrėti
 
-**Išlaidų valdymo** „Microsoft Power BI“ turinys yra skirtas atsargų apskaitininkams arba organizacijoje dirbantiems asmenims, kurie yra atsakingi už atsargų būsenos arba nebaigtos gamybos (NG) statusą ar tiems, kurie šiuo statusu domisi, arba yra atsakingi už standartinės savikainos analizavimą ar tuo domisi.
+„Microsoft Power BI“ turinys **Išlaidų valdymas** yra skirtas atsargų apskaitininkams arba organizacijoje dirbantiems asmenims, kurie yra atsakingi už atsargų būsenos arba nebaigtos gamybos (NG) statusą ar tiems, kurie šiuo statusu domisi, arba yra atsakingi už standartinės savikainos analizavimą ar tuo domisi.
 
 > [!NOTE]
-> **Išlaidų valdymo** „Power BI“ turinys, aprašytas šioje temoje, taikomas „Dynamics 365 for Finance and Operations“ 8.0.
+> „Power BI“ turinys **Išlaidų valdymas**, aprašytas šioje temoje, taikomas „Dynamics 365 for Finance and Operations“ 8.0.
 > 
 > „Power BI“ turinio paketas **Išlaidų valdymas** prieinamas svetainėje „AppSource“, yra netinkamas. Daugiau informacijos apie nebenaudojimo priežastis žr. temoje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
@@ -48,7 +47,7 @@ Kiekvieną kartą atnaujinus **CostObjectStatementCache** lentelę, prieš atnau
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 
-**Išlaidų valdymo** „Power BI“ turinys rodomas darbo srityse **Išlaidų administravimas** ir **Išlaidų analizė**.
+„Power BI“ turinys **Išlaidų valdymas** rodomas darbo srityse **Išlaidų administravimas** ir **Išlaidų analizė**.
 
 Darbo srityje **Išlaidų administravimas** pateikiami toliau nurodyti skirtukai.
 
@@ -65,9 +64,9 @@ Darbo srityje **Išlaidų analizė** pateikiami toliau nurodyti skirtukai.
 
 ## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtraukti ataskaitos puslapiai
 
-„Power BI‟ turinyje **Kaštų valdymas** pateikiamas ataskaitos puslapių, sudarytų iš metrikų rinkinio, rinkinys. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės 
+„Power BI“ turinyje **Kaštų valdymas** pateikiamas ataskaitos puslapių, sudarytų iš metrikų rinkinio, rinkinys. Šios metrikos vaizduojamos kaip diagramos, plytelės ir lentelės 
 
-Toliau pateiktose lentelėse pateikiama **išlaidų valdymo** „Power BI“ turinio vizualizacijų apžvalga.
+Toliau pateiktose lentelėse pateikiama „Power BI“ turinio **Išlaidų valdymas** vizualizacijų apžvalga.
 
 ### <a name="inventory-accounting-status"></a>Atsargų apskaitos būsena
 
@@ -173,9 +172,9 @@ Toliau pateiktose lentelėse pateikiama **išlaidų valdymo** „Power BI“ tur
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
-„Microsoft Dynamics 365 for Finance and Operations“ duomenys naudojami ataskaitos puslapiams **išlaidų valdymo** „Power BI“ turinyje užpildyti. Šie duomenys pateikiami kaip agreguoto matavimo vienetai, paskirstyti objekto parduotuvėje, kuri yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+„Microsoft Dynamics 365 for Finance and Operations“ duomenys naudojami ataskaitos puslapiams „Power BI“ turinyje **Išlaidų valdymas** užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
-Toliau pateiktų objektų agreguoti matavimo vienetai yra naudojami kaip „Power BI‟ turinio pagrindas.
+Toliau pateiktų objektų agreguoti matavimo vienetai yra naudojami kaip „Power BI“ turinio pagrindas.
 
 | Objektas                          | Pagrindiniai agreguoti matavimo vienetai | „Finance and Operations“ duomenų šaltinis | Laukas               |
 |---------------------------------|----------------------------|----------------------------------------|---------------------|
@@ -209,4 +208,3 @@ Tolesnės pagrindinės dimensijos naudojamos kaip filtrai agreguotiems matavimo 
 | Juridiniai subjektai                                          | Juridinių subjektų pavadinimai                              |
 | Finansiniai kalendoriai                                        | Finansinis kalendorius, metai, ketvirtis, laikotarpis, mėnuo   |
 | Svetainė                                                    | ID, pavadinimas, adresas, valstybė, šalis               |
-

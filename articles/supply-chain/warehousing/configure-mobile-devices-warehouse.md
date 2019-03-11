@@ -1,13 +1,13 @@
 ---
-title: "Mobiliųjų įrenginių nustatymas darbui sandėlyje"
-description: "Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu."
+title: Mobiliųjų įrenginių nustatymas darbui sandėlyje
+description: Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347956"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
 [!include [banner](../includes/banner.md)]
@@ -208,7 +207,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </thead>
 <tbody>
 <tr class="odd">
-<td>None</td>
+<td>Joks</td>
 <td>Pagal šią numatytąją reikšmę darbas neapdorojamas.</td>
 </tr>
 <tr class="even">
@@ -246,7 +245,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="even">
 <td>Ciklo skaičiavimo grupavimas</td>
-<td>Darbuotojas pasirenka zoną, darbo telkinį arba vietą, o „Microsoft Dynamics 365 for Finance and Operations“ paskirsto darbus pagal pasirinkimą. Jei pasirinksite šią parinktį, veiksmo srityje galėsite spustelėti <strong>Ciklo skaičiavimas</strong> ir nurodyti papildomą rodytiną informaciją. Taip pat galite nurodyti, kiek kartų darbuotojas turi kartoti skaičiavimą, jei randama skirtumų.</td>
+<td>Darbuotojas pasirenka zoną, darbo telkinį arba vietą, o „Microsoft Dynamics 365 for Finance and Operations“ paskirstys darbus pagal pasirinkimą. Jei pasirinksite šią parinktį, veiksmo srityje galėsite spustelėti <strong>Ciklo skaičiavimas</strong> ir nurodyti papildomą rodytiną informaciją. Taip pat galite nurodyti, kiek kartų darbuotojas turi kartoti skaičiavimą, jei randama skirtumų.</td>
 </tr>
  <tr class="odd">
 <td>Transportuojamų krovinių krovimas</td>
@@ -310,7 +309,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="even">
 <td>Rodyti paketo perdavimo kodą</td>
-<td>Pasirinkite šią parinktį, kad būtų rodomi paketų perdavimo kodai. Pavyzdžiui, paketų perdavimo kodai gali būti rodomi, kai gaunate grąžintą paketą. Tada darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti reikiamą kodą. Paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams. Jei nepasirinksite šios parinkties, bus naudojamas vienas iš šių paketo perdavimo kodų:
+<td>Pasirinkite šią parinktį, kad būtų rodomi paketų perdavimo kodai. Pavyzdžiui, paketų perdavimo kodai gali būti rodomi, kai gaunate grąžintą paketą. Tada darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti reikiamą kodą. Paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams. Jei nepasirinksite šios parinkties, bus naudojamas vienas iš šių paketo perdavimo kodų.
 <ul>
 <li>Jei gaunate naują paketo numerį, numatytasis paketo perdavimo kodas, nurodytas prekės modelių grupėje</li>
 <li>Paketo perdavimo kodas, jau priskirtas paketui</li>
@@ -420,6 +419,5 @@ Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galit
 
 [Mobiliojo įrenginio meniu elemento nustatymas registruoti gautas prekes (užduočių vedlys)](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [Atsargų būsenų naudojimo privalumai](../inventory/inventory-statuses.md)
-
 
 

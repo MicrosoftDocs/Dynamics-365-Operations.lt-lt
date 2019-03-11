@@ -1,13 +1,13 @@
 ---
-title: "Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI‟"
-description: "Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Power BI“ tarnybas."
+title: Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
+description: Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Power BI“ tarnybas.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335789"
 ---
-
-# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI‟
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip galima naudoti elektroninio ataskaitų (ER) konfigūraciją, norint išdėstyti duomenų perkėlimą iš „Finance and Operations“ egzemplioriaus į „Power BI“ tarnybas. Šioje temoje pateikiamame pavyzdyje „Intrastat“ operacijos naudojamos kaip verslo duomenys, kuriuos reikia perkelti. „Power BI“ schemos vizualizacijoje naudojami šie „Intrastat“ operacijų duomenys, kad „Power BI“ ataskaitoje būtų pateiktas įmonės importavimo / eksportavimo veiklų analizės rodinys.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
 „Microsoft Power BI“ yra programinės įrangos paslaugų, programų ir jungčių, kurios kartu naudojamos norint išorinius duomenų šaltinius paversti nuosekliomis, vizualiai įtraukiančiomis ir interaktyvių įžvalgomis, rinkinys. Elektroninės ataskaitos (ER) „Microsoft Dynamics 365 for Finance and Operations“ vartotojams suteikia galimybę lengvai konfigūruoti duomenų šaltinius ir išdėstyti duomenų perkėlimą iš „Finance and Operations“ į „Power BI“. Duomenys perkeliami kaip failai „OpenXML“ darbalapio („Microsoft Excel“ darbaknygės failų) formatu. Perkelti failai saugomi „Microsoft SharePoint Server“, kuris šiuo tikslu sukonfigūruotas. Saugomi failai naudojami „Power BI“ norint kurti ataskaitas su vizualizacijomis (lentelėmis, diagramomis, schemomis ir t.t.). „Power BI“ ataskaitas bendrai naudoja „Power BI“ vartotojai, ir jas galima pasiekti „Power BI“ ataskaitų srityse bei „Finance and Operations“ puslapiuose. Šioje temoje paaiškinamos toliau nurodytos užduotys.
 
@@ -151,7 +150,7 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
 
     [![Duomenų rinkinio kūrimas](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png)
 
-2. Pasirinkite parinktį **„SharePoint“ – komandos svetainės**, tada įveskite naudojamo „SharePoint Server“ kelią (pateiktame pavyzdyje – `https://ax7partner.litware.com`).
+2. Pasirinkite parinktį **SharePoint – komandos svetainės**, tada įveskite naudojamo „SharePoint Server“ kelią (pateiktame pavyzdyje – `https://ax7partner.litware.com`).
 3. Nueikite į aplanką **/Shared Documents/GER data/PowerBI** bei pasirinkite „Excel“ failą, kurį sukūrėte kaip naujo „Power BI“ duomenų rinkinio duomenų šaltinį.
 
     [![„Excel“ failo pasirinkimas](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png)
@@ -170,7 +169,7 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
     - Duomenų rinkinio lauką **Amount** priskirkite schemos vizualizacijos laukui **Spalvų sotis**.
     - Duomenų rinkinio laukus **Veikla** ir **Metai** įtraukite schemos vizualizacijos laukų rinkinį **Filtrai**.
 
-3. Įrašyti „Power BI“ ataskaitą **Importavimo ir eksportavimo informacijos ataskaita**.
+3. Įrašykite „Power BI“ ataskaitą kaip ataskaitą **Importavimo ir eksportavimo informacija**.
 
     [![Importavimo ir eksportavimo informacijos ataskaita](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png)
 
@@ -185,10 +184,10 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
     [![Atnaujinta schema](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Pasiekite„Power BI“ ataskaitą programoje „Finance and Operations“.
-Nustatykite „Finance and Operations“ ir „Power BI“ integravimą. Daugiau informacijos rasite puslapyje [„Power BI‟ integravimo konfigūravimas darbo sritims](configure-power-bi-integration.md).
+Nustatykite „Finance and Operations“ ir „Power BI“ integravimą. Daugiau informacijos rasite puslapyje [„Power BI“ integravimo konfigūravimas darbo sritims](configure-power-bi-integration.md).
 
 1. Darbo sričių puslapyje **Elektroninės ataskaitos**, kuriame palaikomas „Power BI“ integravimas (**Organizacijos administravimas** &gt; **Darbo sritys** &gt; **Elektroninių ataskaitų darbo sritis**), spustelėkite **Parinktys** &gt; **Atidaryti ataskaitų katalogą**.
-2. Pasirinkite sukurtą „Power BI“ ataskaitą **Importavimo ir eksportavimo informaciją**, kad ta ataskaita pasirinktame puslapyje būtų rodoma kaip veiksmo elementas.
+2. Pasirinkite sukurtą „Power BI“ ataskaitą **Importavimo ir eksportavimo informacija**, kad ta ataskaita pasirinktame puslapyje būtų rodoma kaip veiksmo elementas.
 3. Spustelėkite veiksmo elementą, norėdami atidaryti „Finance and Operations“ puslapį, kuriame rodoma ataskaita, sukurta naudojant „Power BI“.
 
     [![Importavimo ir eksportavimo informacijos ataskaita](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
@@ -198,4 +197,3 @@ Nustatykite „Finance and Operations“ ir „Power BI“ integravimą. Daugiau
 [Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md)
 
 [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
-

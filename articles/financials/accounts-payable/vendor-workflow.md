@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo darbo eiga"
-description: "Keiskite tiekėjo informaciją ir naudokite darbo eigą, kad ją patvirtintumėte."
+title: Tiekėjo darbo eiga
+description: Keiskite tiekėjo informaciją ir naudokite darbo eigą, kad ją patvirtintumėte.
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329694"
 ---
-
 # <a name="vendor-workflow"></a>Tiekėjo darbo eiga
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,7 @@ Norėdami naudoti darbo eigos funkciją, turite ją įjungti.
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>Tiekėjo informacijos keitimas ir pakeitimų pateikimas į darbo eigą
 
-Pakeitus lauką, kurio darbo eiga įjungta, rodomas puslapis **Siūlomi pakeitimai**. Šiame puslapyje rodoma pradinė lauko reikšmė ir nauja įvesta reikšmė. Nustatoma pradinė pakeisto lauko reikšmė. Būsenos pranešimas taip pat nurodo, kad pakeitimai nebuvo pateikti. 
+Pakeitus lauką, kurio darbo eiga įjungta, rodomas puslapis **Siūlomi pakeitimai**. Šiame puslapyje rodoma pradinė lauko reikšmė ir jūsų įvesta nauja reikšmė. Nustatoma pradinė pakeisto lauko reikšmė. Būsenos pranešimas taip pat nurodo, kad pakeitimai nebuvo pateikti. 
 
 Kiekvieną kartą pakeitus lauką, kurio darbo eiga įjungta, tas laukas įtraukiamas į sąrašą puslapyje **Siūlomi pakeitimai**. Norėdami atmesti siūlomą lauko reikšmę, naudokite mygtuką **Atmesti**, pateiktą šalia lauko sąraše. Norėdami atmesti visus keitimus, naudokite mygtuką **Atmesti visus keitimus** puslapio apačioje. Pasirinkite **Gerai** ir uždarykite puslapį.
 
@@ -59,7 +58,6 @@ Kai pateikiamas bent vienas siūlomas pakeitimas, veiksmų srityje rodomi du pap
 1. Pasirinkite **Siūlomi pakeitimai**, kad atidarytumėte puslapį **Siūlomi pakeitimai** ir peržiūrėtumėte savo pakeitimus.
 2. Pasirinkite **Darbo eiga \> Pateikti**, kad pateiktumėte pakeitimus į darbo eigą.
 
-    Puslapio būsena pakeičiama į **Pakeitimai laukia patvirtinimo**.
+    Puslapio būsena pakeičiama į **Patvirtinimo laukiantys keitimai**.
 
-Darbo eiga seka standartinį darbo eigos procesą „Microsoft Dynamics 365 for Finance and Operations“. Tvirtintojas nukreipiamas į puslapį **Tiekėjas**, kuriame jis gali peržiūrėti pakeitimus puslapyje **Siūlomi pakeitimai**, pasirinkti **Darbo eiga \> Patvirtinti** ir patvirtinti darbo eigą. Viską patvirtinus, laukai atnaujinami reikšmėmis, kurias pasiūlėte.
-
+Ši darbo eiga vykdoma pagal standartinį „Microsoft Dynamics 365 for Finance and Operations“ darbo eigų procesą. Tvirtintojas nukreipiamas į puslapį **Tiekėjas**, kuriame jis gali peržiūrėti pakeitimus puslapyje **Siūlomi pakeitimai**, pasirinkti **Darbo eiga \> Patvirtinti** ir patvirtinti darbo eigą. Viską patvirtinus, laukai yra atnaujinami jūsų pasiūlytomis reikšmėmis.

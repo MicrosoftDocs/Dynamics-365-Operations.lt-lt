@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti tiekėjo mokėjimo mokesčius"
-description: "Nustatykite tiekėjų mokėjimų mokesčius."
+---
+title: Nustatyti tiekėjo mokėjimo mokesčius
+description: Nustatykite tiekėjų mokėjimų mokesčius.
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363205"
 ---
 # <a name="define-vendor-payment-fees"></a>Nustatyti tiekėjo mokėjimo mokesčius
 
@@ -58,5 +58,4 @@ Nustatykite tiekėjų mokėjimų mokesčius. Šioje užduotyje naudojama demonst
 17. Lauke Mokesčio valiuta pasirinkite valiutą, kuria mokestis bus taikomas.
     * Tai – mokesčio valiuta. Mokėjimo valiuta naudojama apibrėžti, kada mokesčių taisyklė turėtų būti taikoma pagal mokėjimo valiutą. Pvz., bankas gali taikyti mokestį, kai mokėjimas atliekamas eurais, tačiau visiems kitiems mokėjimams mokestis netaikomas.  
 18. Spustelėkite Įrašyti.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Kompensacijų ir išmokų „Power BI“ turinys"
-description: "Šioje temoje aprašytas „Finance and Operations“ kompetencijų ir išmokų „Power BI“ turinys."
+title: Kompensacijų ir išmokų „Power BI“ turinys
+description: Šioje temoje aprašytas „Finance and Operations“ kompetencijų ir išmokų „Power BI“ turinys.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6834940b16749461066e8f1000cbb7c2d4371109
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327440"
 ---
-
 # <a name="compensation-and-benefits-power-bi-content"></a>Kompensacijų ir išmokų „Power BI“ turinys
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ Prijungus turinio paketą prie „Finance and Operations“ duomenų, ataskaitos
 | Workforce\_WorkerName             | Vardas, pavardė ir vardas bei pavardė                                                                       | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTitle            | Pareigos ir paaukštinimo data                                                                                   | Workforce\_CurrentWorker, Workforce\_TerminatedWorker, Workforce\_WorkerTrend |
 | Workforce\_WorkerTrend            | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job, Workforce\_WorkerBenefit |
-

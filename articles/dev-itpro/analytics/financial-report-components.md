@@ -1,13 +1,13 @@
 ---
-title: "Finansinės ataskaitos komponentai"
-description: "Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Straipsnis paaiškina, kaip blokus organizuoti ir užrakinti ir kaip naudoti kūrimo blokų grupes."
+title: Finansinės ataskaitos komponentai
+description: Šiame straipsnyje aprašoma, kaip ataskaitų aprašų komponentai (arba kūrimo blokai) naudojami finansinėse ataskaitose. Šie kūrimo blokai apima eilučių aprašus, stulpelių aprašus ir ataskaitų medžio aprašus. Straipsnis paaiškina, kaip blokus organizuoti ir užrakinti ir kaip naudoti kūrimo blokų grupes.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368150"
 ---
-
 # <a name="financial-report-components"></a>Finansinės ataskaitos komponentai
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,7 @@ Galite peržiūrėti visus kūrimo bloko grupei priskirtus kūrimo blokus. Kūri
 
 ### <a name="export-a-building-block-group"></a>Kūrimo blokų grupės eksportavimas
 
-Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blokus, esančius kūrimo blokų grupėje. Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Eksportuotus duomenis taip pat galite kopijuoti į kitas „Finance and Operations“ programas. Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
+Galite eksportuoti kūrimo blokų grupę arba konkrečius ataskaitų kūrimo blokus, esančius kūrimo blokų grupėje.Eksportuotą kūrimo blokų grupę galite naudoti kaip atsarginę kopiją. Eksportuotus duomenis taip pat galite kopijuoti į kitas „Finance and Operations“ programas.Ataskaitų dizaino įrankyje nurodyti šriftų stiliai ir dimensijų rinkiniai pateikiami kartu su kūrimo blokų grupe.
 
 1. Ataskaitos dizaino įrankio meniu **Įmonė** spustelėkite **Kūrimo bloko grupės**.
 2. Dialogo lange **Kūrimo blokų grupės** pasirinkite eksportuotiną kūrimo blokų grupę ir spustelėkite **Eksportuoti**.
@@ -128,4 +127,3 @@ Atidarę kūrimo bloką kiti vartotojai gali pasiekti tą kūrimo bloką tik ska
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-

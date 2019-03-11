@@ -1,13 +1,13 @@
 ---
-title: "Užsakymų vykdymo perspektyva"
-description: "Šiame straipsnyje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės."
+title: Užsakymų vykdymo perspektyva
+description: Šiame straipsnyje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312352"
 ---
-
 # <a name="order-promising"></a>Užsakymų vykdymo perspektyva
 
 [!include [banner](../includes/banner.md)]
@@ -71,7 +70,6 @@ Sukuriate produkto pardavimo užsakymo eilutę ir kaip kiekį įvedate **150**.
 Kadangi pristatymo datos kontrolės būdas yra ATP, skaičiuojami ATP duomenys, siekiant rasti anksčiausią galimą siuntimo datą. Pagal nuostatas atsižvelgiama į atidėtą pirkimo užsakymą ir pardavimo užsakymą, ir dabartinei datai gautas ATP kiekis yra 0. Rytoj, kai atidėtą pirkimo užsakymą tikimasi gauti, ATP kiekis apskaičiuojamas kaip didesnis nei 0 (šiuo atveju apskaičiuojama 125). Tačiau, po 10 dienų, kai tikimasi gauti papildomą 100 vienetų pirkimo užsakymą, ATP kiekis tampa didesnis nei 150.  
 
 Todėl pagal ATP skaičiavimą siuntimo data nustatoma po 10 dienų. Todėl klientui pasakote, kad pageidaujamą kiekį galima pristatyti po 10 dienų.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Atšaukti gamybos užsakymo būseną"
-description: "Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną."
+title: Atšaukti gamybos užsakymo būseną
+description: Šioje temoje aprašoma, kaip atšaukti gamybos užsakymo būseną.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367322"
 ---
-
 # <a name="reverse-the-production-order-status"></a>Atšaukti gamybos užsakymo būseną
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Grąžinus gamybos užsakymo būseną iš **Išleista** į **Suplanuota**, pasik
 
 ## <a name="from-started-to-released"></a>Iš Pradėta į Išleista
 Grąžinus gamybos užsakymo būseną iš **Pradėta** į **Išleista**, visos prekės, kurios buvo paskelbtos baigtomis, bus grąžintos. Jei medžiagos buvo surinktos arba jei gautos ir siunčiamos siuntos buvo gaminamos, šie parametrai atšaukiami. Gamybos užsakymo KS eilučių lauko **Likučio būsena** vertė pasikeičia iš **Baigta** į **Medžiagų suvartojimas**. Jei buvo užregistruotas laikas arba gamybos maršruto operacijai nustatytas kiekis buvo paskelbtas baigtu, šie parametrai bus atšaukti. Gamybos maršruto lauke **Likučio būsena** pasikeičia iš **Baigta** į **Maršruto suvartojimas**. Atšaukiami visų prekių, kurios užregistruotos kaip apdorojamos arba kurių gamyba nebaigta, parametrai. **Gamybos užsakymo informacijos** puslapio laukai, kuriuose nurodomas pradėtas gaminti arba paskelbtas baigtu kiekis, nustatomi iš naujo. Šių operacijų datos taip pat nustatomos iš naujo.
-
 
 
 

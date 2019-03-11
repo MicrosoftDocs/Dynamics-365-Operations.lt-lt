@@ -1,13 +1,13 @@
 ---
-title: "Pridėtinių išlaidų skaičiavimas"
-description: "Šioje temoje aprašomi įprasti pridėtinių išlaidų skaičiavimo ir paskirstymo procesai."
+title: Pridėtinių išlaidų skaičiavimas
+description: Šioje temoje aprašomi įprasti pridėtinių išlaidų skaičiavimo ir paskirstymo procesai.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
 ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335122"
 ---
-
 # <a name="overhead-calculation"></a>Pridėtinių išlaidų skaičiavimas
 
 [!include [banner](../includes/banner.md)]
@@ -1413,7 +1412,6 @@ Finansinėje apskaitoje 10 000,00 išlaidos už elektrą registruojamos fiktyvia
 
 > [!NOTE]
 > Šioje temoje parodytas pirminio išlaidų elemento, 10001 Elektros energija, srautas per išlaidų objektus. Todėl šios pridėtinės išlaidos paskirstomos žemiausiu organizacijos lygiu. Kitaip tariant, išlaidas padengia žemiausio lygio išlaidų objektai. Jei reikia vizualiai pateikto išlaidų srauto tarp išlaidų objektų, galite naudoti išlaidų sumavimo strategijos taisykles, kad vizualiai pateiktumėte išlaidų srautą. Išsamesnės informacijos žr. temoje [Išlaidų sumavimas](cost-rollup.md).
-
 
 
 

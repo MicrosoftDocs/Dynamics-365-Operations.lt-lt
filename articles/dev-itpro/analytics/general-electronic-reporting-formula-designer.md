@@ -1,13 +1,13 @@
 ---
-title: "Elektroninių ataskaitų (ER) formulių kūrimo įrankis"
-description: "Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER)."
+title: Elektroninių ataskaitų (ER) formulių kūrimo įrankis
+description: Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331281"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
 [!include [banner](../includes/banner.md)]
@@ -625,7 +624,7 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>„Finance and Operations“ žymė SYS18389, kur nurodytas toks tekstas:
 <ul>
-<li><strong>EN-US kalba:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
+<li><strong>LT kalba:</strong> &quot;Klientas %1 sustabdytas %2.&quot;</li>
 <li><strong>DE kalba:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
@@ -731,7 +730,7 @@ Nurodę šiuos duomenų šaltinius, galite naudoti išraišką, pvz., <strong>FI
 | FA\_BALANCE (ilgalaikio turto kodas, vertinimo modelio kodas, ataskaitiniai metai, ataskaitų data) | Pateikti paruoštą ilgalaikio turto balanso duomenų konteinerį. Ataskaitiniai metai turi būti nurodyti kaip „Finance and Operations“ išvardijimo **AssetYear** reikšmė. | **FA\_SUM („COMP-000001“, "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** pateikia paruoštą ilgalaikio turto **COMP-000001**, kurio dabartinio „365 for Finance and Operations“ seanso dieną vertinimo modelis – **„Dabartinis“**, balansų duomenų konteinerį. |
 | TABLENAME2ID (eilutė) | Pateikti nurodyto pavadinimo lentelės ID sveikuoju skaičiumi. | **TABLENAME2ID ("Intrastat")** pateikia **1510**. |
 | ISVALIDCHARACTERISO7064 (eilutė) | Pateikti Būlio logikos reikšmę **TRUE**, kai nurodyta eilutė rodo tinkamą tarptautinį banko sąskaitos numerį (IBAN). Kitu atveju pateikti Būlio logikos reikšmę **FALSE**. | **ISVALIDCHARACTERISO7064 („AT61 1904 3002 3457 3201“)** pateikia **TEISINGA**. **ISVALIDCHARACTERISO7064 („AT61“)** pateikia **KLAIDINGA**. |
-| NUMSEQVALUE (numeracijos kodas, apimtis, apimties id) | Pateikite naują sukurtą numeracijos vertę (pagal nurodytą numeracijos kodą, apimtį ir apimties ID). Apimtis turi būti nurodyta kaip numeracijos **ERExpressionNumberSequenceScopeType** vertė (**Bendrinama**, **Juridinis subjektas** arba **Įmonė**). Jei apimtis **Bendrinama**, kaip apimties ID nurodykite tuščią eilutę. Jei apimtis **Įmonė** arba **Juridinis subjektas**, kaip apimties ID nurodykite įmonės kodą. Jei apimtis **Įmonė** arba **Juridinis subjektas** ir kaip apimties ID nurodote tuščią eilutę, naudojamas dabartinis įmonės kodas. | Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:<ul><li>**enumScope** (tipas **„Dynamics 365 for Operations“ išvardijimas**), kuriame nurodomas išvardijimas **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipas **Apskaičiuotasis laukas**), kuriame pateikiama išraiška **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numeracijos **Gene\_1**, sukonfigūruotos taip, kad būtų pritaikyta kontekstą, pagal kurį vykdomas ER formatas, teikiančiai įmonei, vertė. |
+| NUMSEQVALUE (numeracijos kodas, apimtis, apimties id) | Pateikite naują sukurtą numeracijos vertę (pagal nurodytą numeracijos kodą, apimtį ir apimties ID). Apimtis turi būti nurodyta kaip numeracijos **ERExpressionNumberSequenceScopeType** vertė (**Bendrinama**, **Juridinis subjektas** arba **Įmonė**). Jei apimtis **Bendrinama**, kaip apimties ID nurodykite tuščią eilutę. Jei apimtis **Įmonė** arba **Juridinis subjektas**, kaip apimties ID nurodykite įmonės kodą. Jei apimtis **Įmonė** arba **Juridinis subjektas** ir kaip apimties ID nurodote tuščią eilutę, naudojamas dabartinis įmonės kodas. | Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:<ul><li>**enumScope** (tipas **„Dynamics 365 for Operations“ išvardijimas**), kuriame nurodomas išvardijimas E**RExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipas **Apskaičiuotasis laukas**), kuriame pateikiama išraiška **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numeracijos **Gene\_1**, sukonfigūruotos taip, kad būtų pritaikyta kontekstą, pagal kurį vykdomas ER formatas, teikiančiai įmonei, vertė. |
 | NUMSEQVALUE (numeracijos kodas) | Pateikite naują sukurtą numeracijos vertę (pagal pateiktą numeraciją, apimtį **Įmonė** ir (kaip apimties ID) kontekstą, pagal kurį vykdomas ER formatas, teikiančios įmonės kodą). | Nustatote šį savo modelio susiejimo duomenų šaltinį: **NumSeq** (tipas **Apskaičiuotasis laukas**). Šiame duomenų šaltinyje yra išraiška **NUMSEQVALUE ("Gene\_1")**. Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numeracijos **Gene\_1**, sukonfigūruotos taip, kad būtų pritaikyta kontekstą, pagal kurį vykdomas ER formatas, teikiančiai įmonei, vertė. |
 | NUMSEQVALUE (numeracijos įrašo ID) | Pateikite naują sukurtą numeracijos vertę (pagal nurodytą numeracijos įrašo ID). | Apibrėžkite šiuos modelio susiejimo duomenų šaltinius:<ul><li>**LedgerParms** (tipas **Lentelė**), kuriame pateikiama nuoroda į „LedgerParameters“ lentelę</li><li>**NumSeq** (tipas **Apskaičiuotasis laukas**), kuriame pateikiama išraiška **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Kai iškviečiamas duomenų šaltinis **NumSeq**, pateikiama nauja sukurta numeracijos, pagal DK parametrus sukonfigūruotos taip, kad būtų pritaikyta kontekstą, pagal kurį vykdomas ER formatas, teikiančiai įmonei, vertė. Ši numeracija unikaliai identifikuoja žurnalus ir naudojama kaip operacijas siejantis paketo numeris. |
 
@@ -743,4 +742,3 @@ ER leidžia papildyti ER išraiškose naudojamų funkcijų sąrašą. Tam reikė
 
 - [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas](general-electronic-reporting-formulas-list-extension.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "Peržvalgų naudojimas informacijai surasti"
-description: "Programoje „Microsoft Dynamics 365 for Finance and Operations“ daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti teisingą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje."
+title: Informacijos ieška naudojant peržvalgas
+description: Programoje „Microsoft Dynamics 365 for Finance and Operations“ daugelyje laukų yra peržvalgos, kurias naudodami galite lengvai surasti teisingą ar norimą reikšmę. Į peržvalgas buvo įtrauktos kelios patobulintos funkcijos, todėl šiuos valdiklius bus galima dažniau naudoti, o vartotojai dirbs našiau. Šioje temoje aprašomos šios naujos peržvalgos funkcijos ir pateikiami keli naudingi patarimai apie optimalų peržvalgų naudojimą sistemoje.
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328360"
 ---
-
-# <a name="find-information-by-using-lookups"></a>Peržvalgų naudojimas informacijai surasti
+# <a name="find-information-by-using-lookups"></a>Informacijos ieška naudojant peržvalgas
 
 [!include [banner](../includes/banner.md)]
 
@@ -85,4 +84,3 @@ Vartotojas turi išvalyti peržvalgos valdiklio reikšmę, atidaryti peržvalgos
 Pritaikęs filtrą (žr. toliau pateiktą vaizdą) vartotojas gali įprastai surasti ir pasirinkti eilutę.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-

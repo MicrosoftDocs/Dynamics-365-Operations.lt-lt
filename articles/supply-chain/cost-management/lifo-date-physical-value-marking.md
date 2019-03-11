@@ -1,13 +1,13 @@
 ---
-title: "LIFO data su faktine verte ir žymėjimu"
-description: "Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka."
+title: LIFO data su faktine verte ir žymėjimu
+description: Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0b94d3f23c929c45a67894bd08706144c9226491
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311731"
 ---
-
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine verte ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ Naudojant LIFO datos atsargų modelį, rekomenduojama reguliariai atlikti atsarg
 -   2b. 1 vieneto, kurio kaina 20,00 USD, finansinis gavimas į atsargas.
 -   3a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 25,00 USD už vienetą.
 -   4a. Faktinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
--   4a. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
+-   4b. Finansinis atsargų išdavimas, kai kiekis yra 1, o vieneto savikaina 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
 -   5a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   5b. Finansinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   6. Atsargų uždarymas atliktas. Remiantis LIFO datos metodu paskutinis finansiškai atnaujintas išdavimas bus pagal datą sudengtas su paskutiniu finansiškai atnaujintu gavimu. Išdavimo operacijoje bus atliktas 5,00 USD dydžio koregavimas. Šios operacijos bus sudengtos viena pagal kitą.
@@ -68,7 +67,7 @@ Toliau pateiktoje iliustracijoje parodytas LIFO datos atsargų modelio poveikis,
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -103,7 +102,7 @@ Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, kai p
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -149,14 +148,13 @@ Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis, naudo
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliaustuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė, kuri nėra skliaustuose, rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
 - Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 - Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 - Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
-
 
 
 

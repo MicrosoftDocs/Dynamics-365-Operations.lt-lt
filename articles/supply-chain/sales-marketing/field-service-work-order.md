@@ -1,32 +1,31 @@
 ---
-title: "„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Field Service“ darbo užsakymus su „Finance and Operations“ pardavimo užsakymais."
+title: „Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Field Service“ darbo užsakymus su „Finance and Operations“ pardavimo užsakymais.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
-ms.contentlocale: lt-lt
-ms.lasthandoff: 06/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324105"
 ---
-
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-finance-and-operations"></a>„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais
 
 [!include[banner](../includes/banner.md)]
@@ -273,4 +272,3 @@ Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatu
 Filtras: (msdynce_headersystemstatus ne 690970005) ir (msdynce_headersystemstatus ne 690970000) ir (msdynce_orderhasexternalmaintainedproductsonly lygtis teisinga) ir ((msdyn_linestatus lygtis 690970001) arba (msdynce_headersystemstatus lygtis 690970004) arba (msdyn_allocated ne teisinga))
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
-

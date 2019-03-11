@@ -1,13 +1,13 @@
 ---
-title: "Lokalizavimo ir reguliavimo priemonės"
-description: "Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas."
+title: Lokalizavimo ir reguliavimo priemonės
+description: Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302655"
 ---
-
 # <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations“ turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/ax-availabilityguide). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
+„Microsoft Dynamics 365 for Finance and Operations‟ turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/dynamics_365_international_availability_deck). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
 Šioje temoje pateikiama išteklių, galinčių padėti atlikti tolesnius veiksmus, sąrašų. 
 - Daugiau sužinoti apie konkrečioms šalims / regionams skirtų sprendimų kūrimą.
@@ -45,10 +44,11 @@ Tolesniuose ištekliuose pateikiami nurodymai ir informacija, kurie gali padėti
 -   [Lokalizavimo priemonių klasifikavimas](classify-localization-features.md)
 -   [Šalių kodai – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>Lokalizavimo naujinimai ir ryšys
+## <a name="regulatory-updates-and-communication"></a>Reglamentavimo naujinimai ir ryšys
 Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas lokalizavimo priemones. 
 
-### <a name="localization-updates"></a>Lokalizavimo naujinimai
+### <a name="regulatory-updates"></a>Reglamentavimo naujinimai
+-   [Reglamentavimo naujinimai](../../financials/localizations/regulatory-updates.md)
 -   [Lokalizavimo portalas](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (naujinama kas savaitę)
 -   [LCS problemų ieška](../lifecycle-services/issue-search-lcs.md) (naujinama kasdien)
 
@@ -68,7 +68,7 @@ Elektroninių ataskaitų (ER) įrankiu galite pagal teisinius įvairių šalių�
 -   [Elektroninių ataskaitų paskirties vietos](../analytics/electronic-reporting-destinations.md)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../analytics/download-electronic-reporting-configuration-lcs.md)
 -   [Elektroninių ataskaitų konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Įrankio Elektroninės ataskaitos konfigūravimas duomenims perkelti į „Power BI‟](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Įrankio Elektroninės ataskaitos konfigūravimas duomenims perkelti į „Power BI“](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas naudojant įrankį Elektroninės ataskaitos](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>Užduočių vedliai
@@ -118,7 +118,6 @@ Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-and-ops/get-st
         - [Jungtinės Valstijos](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Išoriniai mažmeninės prekybos įrenginiai"
-description: "Šioje temoje paaiškintos su išoriniais mažmeninės prekybos įrenginiais susijusios koncepcijos."
+title: Išoriniai mažmeninės prekybos įrenginiai
+description: Šioje temoje paaiškintos su išoriniais mažmeninės prekybos įrenginiais susijusios koncepcijos.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347864"
 ---
-
 # <a name="retail-peripherals"></a>Išoriniai mažmeninės prekybos įrenginiai
 
 [!include [banner](includes/banner.md)]
@@ -46,7 +45,7 @@ Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; 
 
 „Modern POS“ yra EKA programa, skirta „Microsoft Windows“. Ją galima įdiegti „Windows 10“ operacinėse sistemose (OS).
 
-### <a name="cloud-pos"></a>Cloud POS
+### <a name="cloud-pos"></a>„Cloud POS“
 
 „Cloud POS“ yra naršyklėje veikianti „Modern POS“ programos versija, kurią galima pasiekti žiniatinklio naršyklėje.
 
@@ -203,7 +202,7 @@ Išsamesnės informacijos žr. [Mažmeninės prekybos aparatūros stoties konfig
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>„Windows“ skirtos „Modern POS“ nustatymas ir konfigūracija
 
-Išsamesnės informacijos žr. [„Retail Modern POS“ konfigūracija ir diegimas](retail-modern-pos-device-activation.md).
+Informacijos apie konfigūravimą rasite [„Retail Modern POS“ konfigūravimas ir diegimas](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OEKA įrenginio nustatymas ir konfigūracija
 
@@ -223,9 +222,9 @@ Toliau pateikiamoje lentelėje parodyti palaikomi topologijų ir įdiegimo scena
 | Klientas      | IPC aparatūros stotis | IIS aparatūros stotis |
 |-------------|----------------------|----------------------|
 | „Windows“ programa | Taip                  | Taip                  |
-| Cloud POS   | Nr.                   | Taip                  |
-| „Android“     | Nr.                   | Taip                  |
-| „iOS“         | Nr.                   | Taip                  |
+| „Cloud POS“   | nr.                   | Taip                  |
+| Android     | nr.                   | Taip                  |
+| „iOS“         | nr.                   | Taip                  |
 
 ### <a name="network-peripherals"></a>Išoriniai tinklo įrenginiai
 
@@ -234,9 +233,9 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 | Klientas      | IPC aparatūros stotis | IIS aparatūros stotis |
 |-------------|----------------------|----------------------|
 | „Windows“ programa | Taip                  | Taip                  |
-| Cloud POS   | Nr.                   | Taip                  |
-| „Android“     | Nr.                   | Taip                  |
-| „iOS“         | Nr.                   | Taip                  |
+| „Cloud POS“   | nr.                   | Taip                  |
+| Android     | nr.                   | Taip                  |
+| „iOS“         | nr.                   | Taip                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Palaikomų įrenginių tipai pagal aparatūros stoties tipą
 
@@ -296,7 +295,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>[!NOTE] Tik vienas stalčius gali būti nustatytas, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<blockquote>PASTABA. Tik vienas stalčius gali būti nustatytas, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>[!NOTE] Tik vienas stalčius gali būti nustatytas, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<blockquote>PASTABA. Tik vienas stalčius gali būti nustatytas, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>„Windows“ tvarkyklė
-<blockquote>[!NOTE] Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</blockquote>
+<blockquote>PASTABA. Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</blockquote>
 </li>
 <li>Tinklas</li>
 </ul>
@@ -405,7 +404,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>[!NOTE] Viename aparatūros šablone galima nustatyti tik vieną stalčių, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<blockquote>PASTABA. Viename aparatūros šablone galima nustatyti tik vieną stalčių, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>„Windows“ tvarkyklė
-<blockquote>[!NOTE] Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</blockquote>
+<blockquote>PASTABA. Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</blockquote>
 </li>
 <li>Tinklas</li>
 </ul>
@@ -492,7 +491,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>[!NOTE] Viename aparatūros šablone galima nustatyti tik vieną stalčių, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<blockquote>PASTABA. Viename aparatūros šablone galima nustatyti tik vieną stalčių, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
 </li>
 </ul>
 </td>
@@ -742,8 +741,7 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant paskirtą (ne b
 | „Epson“        | Tm-T88IV | OEKA      |                           |
 | „Epson“        | TM-T88V  | OEKA      |                           |
 | „Star“         | TSP650II | OEKA      |                           |
-| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą     |
-| „Star“         | TSP100   | OEKA      | Reikia TSP650II tvarkyklių |
+| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą     |
 | „HP“           | F7M67AA  | OEKA      | Teikiamas USB               |
 
 #### <a name="bar-code-scanner"></a>Brūkšninio kodo skaitytuvas
@@ -817,8 +815,7 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 | „Epson“        | Tm-T88IV | OEKA      |                           |
 | „Epson“        | TM-T88V  | OEKA      |                           |
 | „Star“         | TSP650II | OEKA      |                           |
-| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą     |
-| „Star“         | TSP100   | OEKA      | Reikia TSP650II tvarkyklių |
+| „Star“         | TSP650II | Pasirinktinis    | Prijungtas per tinklą     |
 | „HP“           | F7M67AA  | OEKA      | Teikiamas USB               |
 
 #### <a name="payment-terminal"></a>Mokėjimo terminalas
@@ -894,4 +891,3 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [„Retail” periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
-

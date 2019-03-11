@@ -1,13 +1,13 @@
 ---
-title: "Biudžeto planavimo naujinimas"
-description: "Biudžeto planavimas „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Finance and Operations“ labai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus."
+title: Biudžeto planavimo naujinimas
+description: Biudžeto planavimas „Microsoft Dynamics AX 2012“ ir „Microsoft Dynamics 365 for Finance and Operations“ labai skiriasi. Kai kurios funkcijos nebuvo atnaujintos, todėl jas reikia perkonfigūruoti. Šioje temoje paaiškinama, ką reikia perkonfigūruoti, taip pat aprašomos naujos funkcijos, į kurias reiktų atkreipti dėmesį atnaujinus.
 author: ryansandness
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a39f516bb6d023ea18492ba3dfe721bd1127c60e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342965"
 ---
-
 # <a name="upgrade-budget-planning"></a>Biudžeto planavimo naujinimas
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Atlikta daug svarbių „Finance and Operations“ biudžeto sudarymo funkcijos 
 -   Scenarijaus apribojimai (biudžeto planavimo konfigūracija)
 -   Biudžeto planavimo etapų taisyklių ir šablonų šablonai (biudžeto planavimo procesas)
 -   Darbalapių šablonų matricos laukai
--   Biudžeto plano „Microsoft Excel‟ šablonų vedlys
+-   Biudžeto plano „Microsoft Excel“ šablono vedlys
 
 Kai kurių naujų sampratų negalima tiesiogiai atnaujinti naudojant ankstesnes funkcijas. Todėl turite perkonfigūruoti kai kuriuos parametrus, kad šios naujos koncepcijos veiktų. Toliau pateikiamuose skyriuose aprašomos sampratos, kurios pakeitė ankstesnio sąrašo elementus.
 
@@ -160,7 +159,6 @@ Jei yra keli sumų, kurias reikia paskirstyti, šaltiniai, galite nurodyti, kad 
 -   Biudžeto plano prioritetai
 -   Biudžeto plano stulpeliai
 -   Biudžeto plano maketo elementai
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus"
-description: "Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas."
+title: Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus
+description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325416"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus
 
 [!include [banner](../includes/banner.md)]
@@ -163,4 +162,3 @@ Pažymėkite norėdami paketų strategijas naudoti prekėms, kurioms įgalinti p
 Šiame pavyzdyje svarstomas pirkimo užsakymo procesas, kai vietos nurodymas turi sandėlyje rasti laisvos vietos atsargų prekėms, kurios buvo ką tik užregistruotos gavimo rampoje. Pirmiausia reikia sandėlyje rasti laisvos vietos, konsoliduojant esamas atsargas. Jei konsoliduoti negalima, tada reikia rasti tuščią vietą. 
 
 Pagal šį scenarijų turite nustatyti du vietos nurodymo veiksmus. Pirmasis sekos veiksmas turi naudoti strategiją **Konsoliduoti**, o antrasis – strategiją **Tuščia vieta, kurioje negaunama darbo**. Jei nenustatysite trečio veiksmo, skirto perpildos scenarijui tvarkyti, kai sandėlyje nėra vietos, galimi du rezultatai: darbą galima kurti net jei nėra nurodytų vietų arba darbo kūrimo procesas gali nepavykti. Rezultatas nustatomas pagal sąranką puslapyje **Vietos nurodymo klaidos**, kuriame galite nuspręsti, ar norite kiekvienam darbo užsakymų tipui nustatyti parinktį **Stabdyti darbą esant vietos nurodymo klaidai**.
-

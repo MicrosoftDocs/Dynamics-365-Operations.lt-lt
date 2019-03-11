@@ -1,13 +1,13 @@
 ---
-title: "Mobilioji darbo sritis Išlaidų kontrolė"
-description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Savikainos kontrolė. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje."
+title: Mobilioji darbo sritis Išlaidų kontrolė
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Savikainos kontrolė. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,23 +17,22 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317573"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>Mobilioji darbo sritis Išlaidų kontrolė
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Savikainos kontrolė**. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 Mobilioji darbo sritis **Išlaidų kontrolė** suteikia esamo išlaidų centrų efektyvumo momentinį rodinį, palygindama faktines išlaidas ir biudžeto išlaidas. Galite detalizuoti atskirų išlaidų elementų būseną.
 
 Pavyzdžiui, darbuotojas gauna kvietimą į tarptautinę konferenciją, bet organizacija turi padengti visas kelionės išlaidas. Darbuotojas klausia savo vadovo, ar jis gali dalyvauti konferencijoje. Vadovas greitai atidaro mobiliąją darbo sritį **Išlaidų kontrolė** savo mobiliajame įrenginyje, kad peržiūrėtų biudžetą ir nuspręstų, ar darbuotojas gali dalyvauti konferencijoje.
@@ -63,7 +62,7 @@ Mobiliojoje darbo srityje **Savikainos kontrolė** pateikiami šie veiksmai, rod
     -   Faktinė ir biudžeto sumos (nuo metų pradžios iki šios dienos)
     -   Faktinė ir patikslinta biudžeto sumos (nuo metų pradžios iki šios dienos)
 
-    Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Nuokrypio ir Nuokrypio %.
+    Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Nuokrypio ir Nuokrypio %.
 
 -   **Saitai**
 
@@ -71,7 +70,7 @@ Mobiliojoje darbo srityje **Savikainos kontrolė** pateikiami šie veiksmai, rod
     -   Ankstesnio laikotarpio informacija
     -   Informacija nuo metų pradžios iki šiandien
 
-    Pasirinkus saitą, rodoma kiekvieno išlaidų elemento kortelė. Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Biudžeto nuokrypio, Biudžeto nuokrypio %, Patikslinta biudžeto, Patikslinta biudžeto nuokrypio ir Patikslinta biudžeto nuokrypio %.
+    Pasirinkus saitą, rodoma kiekvieno išlaidų elemento kortelė. Šios sumos rodomos kiekvienoje kortelėje: Faktinė, Biudžeto, Biudžeto nuokrypio, Biudžeto nuokrypio %, Patikslinta biudžeto, Patikslinta biudžeto nuokrypio ir Patikslinta biudžeto nuokrypio %.
     
     [![Išlaidų elemento kortelė](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
@@ -82,7 +81,7 @@ Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai 
 Jei jūsų organizacijoje įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi paskelbti mobiliąją darbo sritį **Savikainos kontrolė**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas.
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas.
 
 <table>
 <thead>
@@ -99,7 +98,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 
 <td>KB 4013633 yra X++ naujinimas arba karštoji metaduomenų pataisa su mobiliąja darbo sritimi <strong>Savikainos kontrolė</strong>. Norėdamas įdiegti KB 4013633, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
@@ -144,5 +143,4 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 10. Pasirinkite saitą **Dabartinio laikotarpio informacija**.
 11. Peržiūrėkite atskirų išlaidų elementų efektyvumą.
 12. Taip pat galite ieškoti konkrečių išlaidų elementų.
-
 

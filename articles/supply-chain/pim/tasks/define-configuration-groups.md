@@ -1,13 +1,13 @@
---- 
-title: "Apibrėžti konfigūracijos grupes"
-description: "Ši procedūra nurodo, kaip nustatyti produkto konfigūracijos grupes sukuriant dvi grupes demonstracinių duomenų įmonėje „USMF Company“."
+---
+title: Apibrėžti konfigūracijos grupes
+description: Ši procedūra nurodo, kaip nustatyti produkto konfigūracijos grupes sukuriant dvi grupes demonstracinių duomenų įmonėje „USMF Company“.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConfigGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a8abcb5b56d695fbb466556f638ae19e9b2ad4fa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6cb4803cc862d4eb508316ac49f1ea92b910f43a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364861"
 ---
 # <a name="define-configuration-groups"></a>Apibrėžti konfigūracijos grupes
 
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
     * Įveskite konfigūracijos grupės pavadinimą, kuris bus naudojama KS medžiagų eilutėse.  
 7. Lauke Pavadinimas surinkite reikšmę.
 8. Uždarykite puslapį.
-
 

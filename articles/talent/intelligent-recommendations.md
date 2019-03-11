@@ -1,14 +1,14 @@
 ---
 title: Sumaniosios rekomendacijos
-description: "Šioje temoje paaiškinama, kaip naudojantis mašininiu mokymu galima pateikti darbų ir kandidatų į darbo vietas rekomendacijas."
+description: Šioje temoje paaiškinama, kaip naudojantis mašininiu mokymu galima pateikti darbų ir kandidatų į darbo vietas rekomendacijas.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305481"
 ---
-
 # <a name="intelligent-recommendations"></a>Sumaniosios rekomendacijos
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ Bet kurio rekomenduojamo kandidato kortelėje galite pasirinkti **Peržiūrėti 
 ## <a name="job-recommendations"></a>Darbo rekomendacijos 
 
 Kai pretendentas į darbo vietą, pasinaudojęs karjeros svetaine, pateikia prašymą dėl darbo, rekomenduojamos kitos organizacijoje siūlomos pareigos. Šios rekomendacijos paremtos ankstesniais potencialaus kliento prašymais dėl darbo, taip pat jo ar jos CV ar kandidato profiliu. Todėl darbo rekomendacijos padeda potencialiems klientams greičiau išsiaiškinti, kuris darbas jiems tinkamiausias. Darbo rekomendacijos potencialiems klientams pateikiamos tuo atveju, kai karjeros svetainėje užregistruota daugiau negu dešimt darbų. Potencialūs klientai gali atidaryti rekomendacijos kortelėje pateikiamą informaciją apie darbo skelbimą. Jie taip pat gali pateikti atsiliepimų apie rekomendaciją, kurie padėtų patobulinti būsimas rekomendacijas.
-

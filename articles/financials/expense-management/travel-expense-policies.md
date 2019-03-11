@@ -1,13 +1,13 @@
 ---
-title: "Išlaidų strategijų apibrėžimas"
-description: "Galite apibrėžti išlaidų strategijas, kurių turi laikytis jūsų darbuotojai įvesdami ir pateikdami išlaidų ataskaitas bei kelionių paraiškas sprendime „Microsoft Dynamics 365 for Finance and Operations“."
+title: Išlaidų strategijų apibrėžimas
+description: Galite apibrėžti išlaidų strategijas, kurių jūsų darbuotojai turi laikytis įvesdami ir pateikdami išlaidų ataskaitas ir kelionių paraiškas programoje „Microsoft Dynamics 365 for Finance and Operations“.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342436"
 ---
-
 # <a name="expense-policies"></a>Išlaidų strategija
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ Galite apibrėžti trijų tolesnių tipų strategijas.
   į Niujorką gali būti brangesni atostogų kelionių piko metu Galite nustatyti skrydžių išlaidų taisyklę, kuri apribotų      
   skrydžių į Niujorką išlaidas iki 5000 Danijos kronų, ir galite nustatyti, kad ši taisyklė galiotų nuo kovo 15 d. iki      
   rugsėjo 15 d.
-

@@ -1,13 +1,13 @@
 ---
-title: "Finansinės įžvalgos"
-description: "Darbo srityje Finansų įžvalgos naudojant „Microsoft Power BI“, kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos."
+title: Finansinės įžvalgos
+description: Darbo srityje Finansų įžvalgos naudojant „Microsoft Power BI“, kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos.
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308856"
 ---
-
 # <a name="financial-insights"></a>Finansinės įžvalgos
 
 [!include [banner](../includes/banner.md)]
 
-Darbo srityje **Finansų įžvalgos** naudojant „Microsoft Power BI“, kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos. „Power BI“ yra įdėtas į „Microsoft Dynamics 365 for Finance and Operations“. Darbo srityje **Finansinės įžvalgos** dėmesys skiriamas analizės ataskaitoms. Visos organizacijos asmenys gali peržiūrėti, tirti, suprasti ir veikti. 
+Darbo srityje **Finansų įžvalgos** naudojant „Microsoft Power BI“ kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos. „Power BI“ yra įdėtas į „Microsoft Dynamics 365 for Finance and Operations“. Darbo srityje **Finansinės įžvalgos** dėmesys skiriamas analizės ataskaitoms. Visos organizacijos asmenys gali peržiūrėti, tirti, suprasti ir veikti. 
 
 Sujungdama didžiosios knygos ir papildomų knygų duomenis, darbo sritis **Finansinės įžvalgos** pateikia visapusiškesnį organizacijos finansinės padėties vaizdą.
 
@@ -87,7 +86,7 @@ Galite nustatyti pasikartojančią paketinę užduotį, kuri reguliariai atnauji
 |-----------------------------------------|-------|------------|
 | Peržiūrėti CFO peržiūros darbo sritį             | Finansų direktorius | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
 | Finansinių dabartinės įmonės įžvalgų peržiūra | <ul><li>Buhalteris</li><li>Apskaitos vadovas</li><li>Apskaitos prižiūrėtojas</li><li>Auditorius</li><li>Biudžeto vadybininkas</li><li>Generalinis direktorius</li><li>Finansų direktorius</li><li>Finansų kontrolierius</li></ul> | Ši pareiga suteikia prieigą prie darbo srities Finansinės įžvalgos. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Kitų juridinių subjektų įtraukti negalite. |
-| Finansinių visų įmonių įžvalgų peržiūra   | Sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3‟ ši pareiga vaidmeniui nepriskirta. Būsimame leidime ši pareiga bus paskirta vaidmeniui Finansų direktorius. | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga meniu elemento. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
+| Finansinių visų įmonių įžvalgų peržiūra   | Sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ ši pareiga vaidmeniui nepriskirta. Būsimame leidime ši pareiga bus paskirta vaidmeniui Finansų direktorius. | Ši pareiga suteikia prieigą prie darbo srities CFO apžvalga meniu elemento. Pagal numatytuosius parametrus kaip filtras naudojama aktyvioji įmonė. Tačiau galite įtraukti visus juridinius subjektus, nesvarbu, ar vartotojas turi prieigą prie kitų juridinių subjektų. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Finansinės ataskaitos ir finansinės įžvalgos
@@ -250,4 +249,3 @@ Norint gamybos aplinkoje įjungti įdėtąsias darbo sričių **CFO apžvalga** 
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

@@ -1,13 +1,13 @@
 ---
-title: "Išplėstinio banko suderinimo apžvalga"
-description: "Šiame straipsnyje aprašytas pažangus banko suderinimo proceso srautas. Pažangaus banko suderinimo funkcija leidžia importuoti banko išrašus, kuriuos galima automatiškai suderinti iš banko operacijas."
+title: Išplėstinio banko suderinimo apžvalga
+description: Šiame straipsnyje aprašytas pažangus banko suderinimo proceso srautas. Pažangaus banko suderinimo funkcija leidžia importuoti banko išrašus, kuriuos galima automatiškai suderinti iš banko operacijas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c6cec76ebc8328f221ecb6c30ae93716bd9bfe9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358214"
 ---
-
 # <a name="advanced-bank-reconciliation-overview"></a>Išplėstinio banko suderinimo apžvalga
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Naudodamiesi išplėstinio banko suderinimo funkcija galite importuoti banko iš
     -   Peržiūrėkite banko išrašus ir „Finance and Operations“ banko operacijas vieną šalia kito.
     -   Automatiškai registruokite „Finance and Operations“ banko operacijas, jei jos rodomos banko išraše, bet nebus rodomos „Finance and Operations“.
     -   Sugeneruokite derinimo išrašą.
-
 
 
 

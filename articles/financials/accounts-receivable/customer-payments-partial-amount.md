@@ -1,13 +1,13 @@
 ---
-title: "Kliento dalinės sumos mokėjimai"
-description: "Kartais klientai atlieka mokėjimą, kuris yra mažesnis nei sąskaitos faktūros suma. Šiame straipsnyje aprašytos įvairios pasirinktys šiai situacijai tvarkyti. Jums prieinamos parinktys priklauso nuo jūsų verslo poreikių ir konfigūracijų."
+title: Kliento dalinės sumos mokėjimai
+description: Kartais klientai atlieka mokėjimą, kuris yra mažesnis nei sąskaitos faktūros suma. Šiame straipsnyje aprašytos įvairios pasirinktys šiai situacijai tvarkyti. Jums prieinamos parinktys priklauso nuo jūsų verslo poreikių ir konfigūracijų.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 510fda7bf35e459e0da5595b083e041bb708c873
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/17/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341378"
 ---
-
 # <a name="customer-payments-for-a-partial-amount"></a>Kliento dalinės sumos mokėjimai
 
 [!include [banner](../includes/banner.md)]
@@ -61,4 +60,3 @@ Klientai gali atlikti dalinį mokėjimą, jei likusi suma nebus mokama, tačiau 
 
 
 Daugiau informacijos žr. [Mokėti kliento mokėjimus](tasks/deposit-customer-payments.md).
-

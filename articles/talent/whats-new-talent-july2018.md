@@ -1,36 +1,35 @@
 ---
-title: "Kas nauja ir kas pasikeitė „Dynamics 365 for Talent“ „Core HR“ (2018 m. liepos mėn.)"
-description: "Šioje temoje aprašomos naujos ir pakeistos šio „Microsoft Dynamics 365 for Talent“ „Core HR“ funkcijos."
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
 author: josaw1
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
 ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305509"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Kas nauja ir kas pasikeitė „Dynamics 365 for Talent“ „Core HR“ (2018 m. liepos mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos šio „Microsoft Dynamics 365 for Talent“ „Core HR“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
 
 ## <a name="powerapps-personalization"></a>„PowerApps“ personalizavimas
 
@@ -60,4 +59,3 @@ Daugiau informacijos žr. [Algalapių integravimo konfigūravimas](configure-pay
 ## <a name="benefit-enrollment-status-report"></a>Išmokos registracijos būsenos ataskaita
 
 Naudodamiesi integruotomis ataskaitomis apie atvirą registraciją išmokoms gauti, lengvai sužinosite, kuriame atviros registracijos etape yra jūsų darbuotajai. Galite sužinoti, kiek darbuotojų perėjo visus proceso etapus, kiek pereis netrukus ir kiek dar neperėjo.  Be to, galite greitai peržiūrėti visas problemas, iškilusias registruojant darbuotojus, ir visą darbuotojų pateikimų žurnalą. Todėl lengvai galite patikrinti ir audituoti darbuotojų pateikimus.
-

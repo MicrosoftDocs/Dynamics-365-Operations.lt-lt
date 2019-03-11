@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti ISO20022 tiesioginio debeto įmonės banko sąskaitas"
-description: "Ši užduotis apžvelgia, kaip nustatyti konkrečios įmonės banko sąskaitos informaciją, kurios reikia norint generuoti kliento mokėjimo failus."
+---
+title: Nustatyti ISO20022 tiesioginio debeto įmonės banko sąskaitas
+description: Ši užduotis apžvelgia, kaip nustatyti konkrečios įmonės banko sąskaitos informaciją, kurios reikia norint generuoti kliento mokėjimo failus.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 290d0eeb383dc3808935809e21b1bf6c99a8550a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 6b61495342b18d6dbadb36d8ca146f5a68ba9f6c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353522"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Nustatyti ISO20022 tiesioginio debeto įmonės banko sąskaitas
 
@@ -59,5 +59,4 @@ Tai yra antroji iš penkių procedūrų, kuriose apibūdinamas kliento mokėjimo
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
     * Pavyzdžiui: pasirinkite DEMF OPER banko kodą.  
 6. Spustelėkite Įrašyti.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Išlaidų pokyčio modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją"
-description: "Šiame straipsnyje paaiškinta, kaip modeliuoti išlaidų pokyčio poveikį pagamintos prekės apskaičiuotoms išlaidoms naudojant atskirą suplanuotų išlaidų įkainojimo versiją."
+title: Išlaidų pokyčio modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją
+description: Šiame straipsnyje paaiškinta, kaip modeliuoti išlaidų pokyčio poveikį pagamintos prekės apskaičiuotoms išlaidoms naudojant atskirą suplanuotų išlaidų įkainojimo versiją.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318884"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Išlaidų pokyčio modeliavimas naudojant suplanuotų išlaidų įkainojimo versiją
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ Toliau pateiktais scenarijais iliustruojama, kaip įkainojimo modeliavimo versij
 -   Netiesioginių išlaidų skaičiavimo formulėje sumodeliuokite išlaidų pokytį. Pvz., išlaidų pokytis gali atspindėti numatomą gamybos pridėtinių išlaidų padidėjimą ar sumažėjimą. Norėdami nurodyti netiesioginių išlaidų skaičiavimo formulės pokytį, naudodami puslapį **Įkainojimo lapo nustatymas** įkainojimo modeliavimo versijoje įveskite įrašą apie laukiančias išlaidas, patikrinkite ir įrašykite keitimą.
 
 Įvedę sumodeliuotus išlaidų pokyčius, apskaičiuokite pagamintų prekių, kurias paveikė išlaidų pokyčiai, išlaidas. Įkainojimo modeliavimo versijai naudodami puslapį **Skaičiavimas** nustatykite pasirinktas pagamintas prekes, kurioms turės įtakos išlaidų pokyčiai. KS skaičiavimai taikomi visoms pagamintoms prekėms, nebent jūs pasirenkate konkrečias prekes. Taip pat galite naudoti KS skaičiavimo pasirinktį, skirtą duomenų apie naudojimą atnaujinimams. Norėdami analizuoti, kaip modeliuojami išlaidų pokyčiai veikia pasirinktų pagamintų prekių išlaidas, peržiūrėkite prekės išlaidų įrašus įkainojimo modeliavimo versijoje. Norėdami peržiūrėti ir analizuoti išlaidas naudokite puslapius **Prekės kaina** ir **Skaičiuoti prekės savikainą**.
-
 
 
 

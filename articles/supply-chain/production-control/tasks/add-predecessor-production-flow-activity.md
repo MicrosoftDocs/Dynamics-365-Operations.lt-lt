@@ -1,13 +1,13 @@
---- 
-title: "Ankstesnės veiklos įtraukimas į gamybos eigos veiklą"
-description: "Gamybos eigos versijoje visos veiklos turi būti įtrauktos seką."
+---
+title: Ankstesnės veiklos įtraukimas į gamybos eigos veiklą
+description: Gamybos eigos versijoje visos veiklos turi būti įtrauktos seką.
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9acb1c2672af70f535f3dce1c8f5a97e8d479158
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d19fb20e8cc941daeaa506e4bf1cb0c7031cf2ee
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343678"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Ankstesnės veiklos įtraukimas į gamybos eigos veiklą
 
@@ -51,5 +51,4 @@ Norėdami sužinoti daugiau, skaitykite dokumentą „Lean manufacturing“ gamy
 4. Lauke Ciklo laiko koeficientas įveskite skaičių.
     * Numatytasis veiklos ryšio ciklo laiko koeficientas yra 1. Tai reiškia, kad abi veiklos yra vykdomos tuo pačiu tempu ir jų vieneto gamybos laikai sutampa. Jei ankstesnė veikla vykdoma didesniu tempu (trumpesnis vieneto gamybos laikas), koeficientas turėtų būti mažesnis už 1, jei ankstesnė veikla vykdoma mažesniu tempu (ilgesnis vieneto gamybos laikas), ciklo laiko koeficientas yra didesnis už 1.  
 5. Spustelėkite GERAI.
-
 

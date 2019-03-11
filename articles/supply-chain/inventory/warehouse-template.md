@@ -1,32 +1,31 @@
 ---
-title: "Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną"
-description: "Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną."
+title: Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
+description: Šioje temoje paaiškinama, kaip nustatyti sandėlį naudojant sandėlio konfigūracijos šabloną.
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338066"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ Galite atsisiųsti duomenų paketo ZIP failą. Šiame faile visi duomenys pateik
 
 Žurnale **Vykdymo peržiūra** pateikiama išsami informacija apie kiekvieną duomenų objektą, kuris yra importuotas. Galite naudoti išdėstymo duomenų rodinį, norėdami greitai pasiekti paskirties duomenis. Tokiu būdu galite peržiūrėti, kaip importuoti duomenys rodomi susijusiuose programos puslapiuose. Naudojant numatytuosius duomenų šablonus, kiekvieno duomenų objekto importavimo seka vykdoma iš anksto nustatytu būdu, siekiant užtikrinti, kad pirmiausia importuojami visi priklausomi duomenys. Jei pasirinktiniai duomenų objektai yra projekto dalis, turite įsitikinti, kad apibrėžta teisinga seka. Daugiau informacijos žr. [ Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Norėdami sužinoti daugiau apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, peržiūrėkite šį 3 minučių trukmės „YouTube“ vaizdo įrašą: [Konfigūracijos kopijavimas naudojant sandėlio šabloną programoje „Microsoft Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
+Norėdami daugiau sužinoti apie tai, kaip naudojant sandėlio šabloną nukopijuoti sandėlio konfigūraciją iš vienos įmonės į naują įmonę tame pačiame egzemplioriuje, žr. šį 3 minučių „YouTube“ vaizdo įrašą: [Konfigūracijos kopijavimas naudojant sandėlio šabloną programoje „Microsoft Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Susijusi tema
 
 [Konfigūracijos duomenų šablonai](../../dev-itpro/data-entities/configuration-data-templates.md)
-

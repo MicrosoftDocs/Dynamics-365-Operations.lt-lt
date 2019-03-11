@@ -1,33 +1,32 @@
 ---
-title: "„Field Service“ sutarčių SF sinchronizavimas su „Finance and Operations“ laisvos formos SF"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Field Service“ sutarčių SF su „Microsoft Dynamics 365 for Finance and Operations“ laisvos formos SF."
+title: „Field Service“ sutarčių SF sinchronizavimas su „Finance and Operations“ laisvos formos SF
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Field Service“ sutarčių SF su „Microsoft Dynamics 365 for Finance and Operations“ laisvos formos SF.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333259"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>„Field Service“ sutarčių SF sinchronizavimas su „Finance and Operations“ laisvos formos SF
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>„Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
 
 [!include[banner](../includes/banner.md)]
 
@@ -107,4 +106,3 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Sutarčių SF (iš „Field Service“ į „Finance and Operations“): SF eilutės
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

@@ -1,13 +1,13 @@
 ---
-title: "„Microsoft Project“ kliento integravimas"
-description: "Planuoti ir tvarkyti projekto grafiką gali būti sudėtinga, todėl projektų vadovai turi naudoti įrankius, padedančius šią užduotį valdyti. Atlikus integravimą su „Microsoft Project“ klientu, galima atidaryti ir valdyti projekto darbo paskirstymo struktūrą."
+title: „Microsoft Project“ kliento integravimas
+description: Planuoti ir tvarkyti projekto grafiką gali būti sudėtinga, todėl projektų vadovai turi naudoti įrankius, padedančius šią užduotį valdyti. Atlikus integravimą su „Microsoft Project“ klientu, galima atidaryti ir valdyti projekto darbo paskirstymo struktūrą.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317481"
 ---
-
 # <a name="microsoft-project-client-integration"></a>„Microsoft Project“ kliento integravimas
 
 [!include [banner](../includes/banner.md)]
@@ -43,14 +42,14 @@ Norint įjungti integravimo su „Microsoft Project“ klientu funkciją, vartot
 •   Paraginti spustelėkite **Atidaryti**, tada – **Paleisti**.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Esamo darbo paskirstymo struktūros juodraščio atidarymas ir redagavimas „Microsoft Project“ kliente
-Jei „Finance and Operations“ projektui darbo paskirstymo struktūra jau sukurta ir ji yra juodraščio būsenos, ją galima atidaryti „Microsoft Project“ kliento programoje. Norėdami ją atidaryti puslapyje **Projektas**, skirtuke **Planas** spustelėkite saitą **Atidaryti naudojant „Microsoft Project“**. Šį puslapį taip pat galima atidaryti „Microsoft Project“ kliento programoje, skirtuke **„Microsoft Dynamics 365“** spustelėjus **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.
+Jei „Finance and Operations“ projektui darbo paskirstymo struktūra jau sukurta ir ji yra juodraščio būsenos, ją galima atidaryti „Microsoft Project“ kliento programoje. Norėdami ją atidaryti puslapyje **Projektas**, skirtuke **Planas** spustelėkite saitą **Atidaryti naudojant „Microsoft Project“**. Šį puslapį taip pat galima atidaryti „Microsoft Project“ kliento programoje, skirtuke **„Microsoft Dynamics 365**“ spustelėjus **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.
 
 > [!NOTE]
 > Jei kaip naršyklę naudojate „Internet Explorer“, turėsite spustelėti **Įrašyti**, kad failą galėtumėte rankiniu būdu atidaryti iš vietos, kurioje jis atsiunčiamas. Arba spustelėkite **Įrašyti ir atidaryti**, kad failą atidarytumėte „Microsoft Project“ kliente. Įrašydami failą, jo nepervardykite.
 
-Prieš failą redaguodami „Microsoft Project“ kliente, jį turite paimti ir užrakinti. Skirtuke **„Microsoft Dynamics 365“** spustelėkite **Paimti ir užrakinti**. Tai neleis kitiems vartotojams tuo pačiu metu darbo paskirstymo struktūros redaguoti naudojant „Finance and Operations“. Jei, baigę redaguoti darbo paskirstymo struktūrą, norite ją publikuoti, skirtuke **„Microsoft Dynamics 365“** spustelėkite **Įrašyti ir atrakinti**.
+Prieš failą redaguodami „Microsoft Project“ kliente, jį turite paimti ir užrakinti. Skirtuke **Microsoft Dynamics 365** spustelėkite **Paimti ir užrakinti**. Tai neleis kitiems vartotojams tuo pačiu metu darbo paskirstymo struktūros redaguoti naudojant „Finance and Operations“. Jei, baigę redaguoti darbo paskirstymo struktūrą, norite ją publikuoti, skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti ir atrakinti**.
 
-Jei į „Finance and Operations“ projektą jau įtraukta projekto komanda, išteklių sąrašas bus užpildytas komandos nariais. Jei projekto komanda į projektą dar neįtraukta, galite pasirinkti išteklių ir komandą sukurti „Microsoft Project“ kliente – skirtuke **„Microsoft Dynamics 365“** spustelėkite mygtuką **Ištekliai**. 
+Jei į „Finance and Operations“ projektą jau įtraukta projekto komanda, išteklių sąrašas bus užpildytas komandos nariais. Jei projekto komanda į projektą dar neįtraukta, galite pasirinkti išteklių ir komandą sukurti „Microsoft Project“ kliente – skirtuke **Microsoft Dynamics 365** spustelėkite mygtuką **Ištekliai**. 
 
 Įrašymo ir atrakinimo proceso metu su „Finance and Operations“ vėl bus sinchronizuojami tolesni duomenys.
 
@@ -83,15 +82,15 @@ Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paski
 
 1.  Atidarykite „Microsoft Project“ klientą.
 
-2.  Skirtuke **„Microsoft Dynamics 365“** spustelėkite **Atidaryti**.
+2.  Skirtuke **Microsoft Dynamics 365** spustelėkite **Atidaryti**.
 
 3.  Pasirinkite projekto **juridinį subjektą**.
 
 4.  Pasirinkite **Projektas**.
 
-5.  Skirtuke **„Microsoft Dynamics 365“** spustelėkite **Paimti ir užrakinti**.
+5.  Skirtuke **Microsoft Dynamics 365** spustelėkite **Paimti ir užrakinti**.
 
-6.  Kai būsite pasirengę ją publikuoti sprendime „Finance and Operations“, skirtuke **„Microsoft Dynamics 365“** spustelėkite **Įrašyti ir atrakinti**.
+6.  Kai būsite pasirengę ją publikuoti sprendime „Finance and Operations“, skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti ir atrakinti**.
 
 ## <a name="replace-the-existing-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a>Esamo projekto esamos darbo paskirstymo struktūros pakeitimas naudojant „Microsoft Project“ klientą
 Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paskirstymo struktūrą ir pakeisti esamo projekto esamą darbo paskirstymo struktūrą, atlikite tolesnius veiksmus.
@@ -100,7 +99,7 @@ Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paski
 
 2.  „Microsoft Project“ kliente sukurkite grafiką.
 
-3.  Skirtuke **„Microsoft Dynamics 365“** spustelėkite **Įrašyti keitimus** > **Pakeisti esamą projektą**.
+3.  Skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti keitimus** >  **Pakeisti esamą projektą**.
 
 4.  Pasirinkite projekto **juridinį subjektą**.
 
@@ -115,7 +114,7 @@ Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paski
 
 2.  „Microsoft Project“ kliente sukurkite grafiką.
 
-3.  Skirtuke **„Microsoft Dynamics 365“** spustelėkite **Įrašyti keitimus** > **Įrašyti į naują projektą**.
+3.  Skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti keitimus** > **Įrašyti į naują projektą**.
 
 4.  Pasirinkite projekto **juridinį subjektą**.
 
@@ -128,4 +127,3 @@ Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paski
 8.  Pasirinkite **kalendorių**, kuris bus naudojamas su ištekliais.
 
 11. Spustelėkite **Gerai**.
-

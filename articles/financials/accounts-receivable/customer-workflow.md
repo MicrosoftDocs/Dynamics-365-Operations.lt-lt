@@ -1,13 +1,13 @@
 ---
 title: Kliento darbo eiga
-description: "Šioje temoje pateikiama informacijos apie kliento darbo eigą. Galite keisti konkrečius kliento laukus ir, naudodami šią darbo eigą, tuos keitimus siųsti tvirtinti, prieš juos įtraukiant prie kliento."
+description: Šioje temoje pateikiama informacijos apie kliento darbo eigą. Galite keisti konkrečius kliento laukus ir, naudodami šią darbo eigą, tuos keitimus siųsti tvirtinti, prieš juos įtraukiant prie kliento.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302641"
 ---
-
 # <a name="customer-workflow"></a>Kliento darbo eiga
 
 [!include [banner](../includes/banner.md)]
 
-Kliento darbo eiga įtraukta į „Microsoft Dynamics 365 for Finance and Operations“ 8.0.4 versiją. Galite keisti konkrečius kliento laukus ir, naudodami šią darbo eigą, tuos keitimus siųsti tvirtinti, prieš juos įtraukiant prie kliento.
+Į „Microsoft Dynamics 365 for Finance and Operations“ 8.0.4 versiją įtraukta klientų darbo eiga. Galite keisti konkrečius kliento laukus ir, naudodami šią darbo eigą, tuos keitimus siųsti tvirtinti, prieš juos įtraukiant prie kliento.
 
 ## <a name="set-up-the-customer-workflow"></a>Kliento darbo eigos nustatymas
 
@@ -62,4 +61,3 @@ Kai turite bent vieną siūlomą keitimą, veiksmų srityje atsiranda du papildo
     Puslapio būsena pakeičiama į **Patvirtinimo laukiantys keitimai**.
 
 Ši darbo eiga vykdoma pagal standartinį „Finance and Operations“ darbo eigų procesą. Tvirtintojas nukreipiamas į puslapį **Klientas**, kurio puslapyje **Siūlomi keitimai** jis gali peržiūrėti keitimus ir, pasirinkdamas **Darbo eiga \> Patvirtinti**, patvirtinti darbo eigą. Viską patvirtinus, laukai yra atnaujinami jūsų pasiūlytomis reikšmėmis.
-

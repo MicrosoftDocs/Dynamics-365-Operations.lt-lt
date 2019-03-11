@@ -1,13 +1,13 @@
---- 
-title: "Samdyti esamus darbuotojus naudojant įdarbinimo funkciją"
-description: "Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai."
+---
+title: Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
+description: Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų organizacijos darbuotojai.
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365390"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Samdyti esamus darbuotojus naudojant įdarbinimo funkciją
 
@@ -40,5 +40,4 @@ Kartais laisvas darbo vietas gali būti užimti kandidatai, kurie jau yra jūsų
 8. Jei norite, galite pažymėti priežasties kodą. Pavyzdys: Reorganizacija
 9. Spustelėkite „Pakeisti pareigas“.
     * Šiuo metu taip pat galite pakeisti atlyginimą. Jei šiuo metu atlyginimo nepriskirsite, galite jį pakeisti darbuotojo formoje atidarę skirtuką „Atlyginimas“ ir pasirinkę „Fiksuotas planas“. Kai pažymėsite „Keisti pareigas“, prašymo būsena bus atnaujinta į „Įdarbintas“.  
-
 

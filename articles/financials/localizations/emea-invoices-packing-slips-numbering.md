@@ -1,13 +1,13 @@
 ---
-title: "SF ir važtaraščių numeravimas (Latvija ir Lietuva)"
-description: "Šioje temoje paaiškinama, kaip nustatyti SF bei važtaraščių numeraciją ir kaip nustatyti automatinio dokumento numeravimo diapazonus."
+title: SF ir važtaraščių numeravimas (Latvija ir Lietuva)
+description: Šioje temoje paaiškinama, kaip nustatyti SF bei važtaraščių numeraciją ir kaip nustatyti automatinio dokumento numeravimo diapazonus.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LtInvoiceAutoNumberingGroups, LtInvoiceAutonumberingTable, NumberSequenceTableListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2dfd1a1c9574083f33a3312a20a9910d2ed6895c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e995d361313eb6f30f887af2f1a8231ff7c94f06
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371200"
 ---
-
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>SF ir važtaraščių numeravimas (Latvija ir Lietuva)
 
 [!include [banner](../includes/banner.md)]
@@ -126,7 +125,6 @@ Be to, toliau nurodytos formos pateikiamos lauke **Dokumentai atnaujinti**.
 -   Pirkimo registravimo produkto gavimo dokumento forma
 
 Laukas **Dokumentai naujinti** turi įtakos puslapių **Važtaraščių žurnalas** ir **SF žurnalas** lauko **Dokumento būsena** rodiniui. Kai kuriamas **Važtaraštis** lauko **Dokumento būsena** vertė yra **Nėra**. Jei lauke **Dokumentai naujinti** buvo pasirinktas bet koks **Važtaraštis**, tada jo **Dokumento būsena** bus **Sugadintas**, o **važtaraščio** **Dokumento būsena** toje vietoje, kurioje jis buvo sukurtas, bus **Atšaukta**.
-
 
 
 

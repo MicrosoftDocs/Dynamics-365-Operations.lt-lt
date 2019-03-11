@@ -1,14 +1,14 @@
 ---
-title: "Ataskaita Užregistruotų ilgalaikio turto keitimų taikymas"
-description: "Šioje temoje paaiškinama, kaip naudoti ataskaitą Užregistruotų ilgalaikio turto keitimų taikymas."
+title: Ataskaita Užregistruotų ilgalaikio turto keitimų taikymas
+description: Šioje temoje paaiškinama, kaip naudoti ataskaitą Užregistruotų ilgalaikio turto keitimų taikymas.
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313755"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Ataskaita Užregistruotų ilgalaikio turto keitimų taikymas
 
@@ -33,7 +33,7 @@ Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** lengvai skait
 
 Ataskaitoje **Užregistruotų ilgalaikio turto keitimų taikymas** naudojama elektroninių ataskaitų (ER) sistema. Kad galėtumėte vykdyti ataskaitą, iš „Microsoft Dynamics Lifecycle Services“ (LCS) reikia importuoti konfigūracijas Ilgalaikio turto modelis ir Užregistruotų ilgalaikio turto keitimų taikymas. Instrukcijų ieškokite [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
-Ši ataskaita pasiekiama sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ arba kaip „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.) karštoji pataisa. Aplinkose su 2017 m. liepos mėn. leidimu reikia pritaikyti tris tolesnes karštąsias pataisas.
+Ši ataskaita pasiekiama sprendime „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ arba kaip „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.) karštoji pataisa. Aplinkose su 2017 m. liepos mėn. leidimu reikia pritaikyti tris tolesnes karštąsias pataisas.
 
 - **KB 4041754:** iš LCS nepavyksta atsisiųsti elektroninių ataskaitų (ER) konfigūracijos, nes, pritaikius platformos naujinimo paketą, dabartinei programos versijai tai netaikytina
 - **KB 4056107:** elektroninių ataskaitų (GER) 5 kaupiamasis naujinimas
@@ -66,5 +66,4 @@ Toliau pateikiamoje lentelėje aprašomi laukai, kuriuos galima naudoti ataskait
 |            Likvidavimai: pardavimo vertė            |                                                                                               Ilgalaikio turto knygos su likvidavimo – pardavimo operacija pardavimo vertė.                                                                                                |
 |           Likvidavimai: likvidacinė vertė            |                                                                                               Ilgalaikio turto knygos su likvidavimo – nurašymo operacija likvidacinė vertė.                                                                                               |
 |           Likvidavimai: pelnas / nuostolis            |                                                                                 Pelno arba nuostolio vertė, apskaičiuojama atliekant ilgalaikio turto knygos likvidavimo operaciją.                                                                                 |
-
 

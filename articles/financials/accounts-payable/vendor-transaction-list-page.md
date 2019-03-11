@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo operacijų sąrašo puslapis"
-description: "Šioje temoje pateikiama informacija apie puslapį Tiekėjo operacijų sąrašas, skirtas „Microsoft Dynamics 365 for Finance and Operations“"
+title: Tiekėjo operacijų sąrašo puslapis
+description: Šioje temoje pateikiama informacija apie puslapį Tiekėjo operacijų sąrašas, skirtas „Microsoft Dynamics 365 for Finance and Operations“.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 99a169bd51e14f15c085f7547ec240b2787258cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 45033b8b015d468b7ee0f6c3fba5e6fb6201433e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341746"
 ---
-
 # <a name="vendor-transactions-list-page"></a>Tiekėjo operacijų sąrašo puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Veiksmų srities mygtukas **Sudengimų peržiūra** suteikia greitą prieigą pr
 
 4. Šiame dialogo lange galite atlikti įvairias užduotis. Pasirinkite vieną arba daugiau kvitų, o tada paspauskite vieną iš toliau nurodytų mygtukų.
 
-    - **Peržiūrėti susijusius mokėjimus** – Rodyti visas mokėjimų žurnalo operacijas, sukurtas mokėjimo žurnale, kuris susijęs su pasirinktu dokumentu. Be to, rodomi visi sudengimai, susiję su tais mokėjimais. Peržiūrint susijusius mokėjimus šio mygtuko žyma pasikeičia į **Sudengimų peržiūra**. Pasirinkite **Sudengimų peržiūra**, kad būtų rodomos tik tos operacijos, kurios buvo rodomos, kai pirmą kartą atidarėte dialogo langą **Sudengimų peržiūra**.
+    - **Peržiūrėti susijusius** – rodykite visas tiekėjo mokėjimų žurnalo operacijas ir bendrojo žurnalo operacijas, sukurtas žurnaluose, kuriuose sukurti sąraše rodomi dokumentai. Pavyzdžiui, jei rodomas mokėjimas, tada bus rodomi visi mokėjimai iš mokėjimo žurnalo, kuriame jis buvo sukurtas. Jei rodoma SF arba mokėjimas ir jis buvo sukurtas bendrajame žurnale, tada bus rodomi visi dokumentai iš bendrojo žurnalo, kuriame jis buvo sukurtas. Be to, taip pat rodomi visi sudengimai, susiję su dokumentų sąrašu. Peržiūrint susijusius mokėjimus šio mygtuko žyma pasikeičia į **Sudengimų peržiūra**. Pasirinkite **Sudengimų peržiūra**, kad būtų rodomos tik tos operacijos, kurios buvo rodomos, kai pirmą kartą atidarėte dialogo langą **Sudengimų peržiūra**.
     - **Peržiūrėti retrospektyvą** – Rodyti kvitų sudengimo retrospektyvą. Pasirinkite **Uždaryti** norėdami uždaryti dialogo langą.
     - **Peržiūrėti apskaitą** – Rodyti visus su pasirinktais dokumentais susijusius kvitus. Pasirinkite **Uždaryti** norėdami uždaryti dialogo langą.
     - **Eksportuoti** – eksportuokite pasirinktus kvitus į „Microsoft Excel“.
@@ -98,4 +97,3 @@ Kekvieno lauko poveikis redaguojamai operacijai skirtingas.
 - **Mokėjimo nuolaidos sąlygų koregavimas** – mokėjimo nuolaidos keičiamos atsižvelgiant į pagrindinę datą ir mokėjimo nuolaidos sąlygas.
 
 Baigę redaguoti mokėjimo parametrus, pasirinkite **Uždaryti** ir įrašykite pakeitimus.
-

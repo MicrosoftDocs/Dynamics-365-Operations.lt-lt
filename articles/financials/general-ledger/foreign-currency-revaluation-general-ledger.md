@@ -1,13 +1,13 @@
 ---
-title: "DK užsienio valiutos kurso pasikeitimas"
-description: "Šioje temoje apžvelgiami šie DK užsienio valiutos kurso pasikeitimo proceso aspektai: sąranka, proceso paleidimas, procesas skaičiavimas ir tai, kaip atšaukti perkainojimo operacijas, jei reikia."
+title: DK užsienio valiutos kurso pasikeitimas
+description: 'Šioje temoje apžvelgiami šie DK užsienio valiutos kurso pasikeitimo proceso aspektai: sąranka, proceso paleidimas, procesas skaičiavimas ir tai, kaip atšaukti perkainojimo operacijas, jei reikia.'
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f967854e9a39c7b2d76559744bbc1e16a53d7f6a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315549"
 ---
-
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>DK užsienio valiutos kurso pasikeitimas
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Sukuriamas toliau nurodytas apskaitos įrašas.
 Jei norite atšaukti perkainojimo operaciją, pasirinkite puslapio **Užsienio valiutos kurso pasikeitimas** mygtuką **Atšaukti operaciją**. Bus sukurtas naujas užsienio valiutos kurso pasikeitimo retrospektyvos įrašas, skirtas tvarkyti audito retrospektyvą ir sekti, kada buvo vykdytas arba atšauktas perkainojimas. 
 
 Galite atšaukti perkainojimo, įvykdyto neatsižvelgiant į datų tvarką, rezultatus, tačiau gali reikėti taip pat atšaukti dabartinį perkainojimą, norint užtikrinti, kad kiekvienos perkainotos pagrindinės sąskaitos balansai yra teisingi. Atšaukimai gali būti vykdomi neatsižvelgiant į datų tvarką, nes nėra jokių būdų kontroliuoti, kaip dažnai ir kurios pagrindinės sąskaitos yra perkainojamos. Pvz., organizacija gali pasirinkti perkainoti grynųjų pinigų pagrindines sąskaitas kas ketvirtį, o visas kitas pagrindines sąskaitas – kas mėnesį.
-
 
 
 

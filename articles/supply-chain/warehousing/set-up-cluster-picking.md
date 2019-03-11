@@ -1,13 +1,13 @@
 ---
-title: "Klasterio paėmimo nustatymas"
-description: "Šioje temoje aprašoma, kaip nustatyti klasterio paėmimą ir kaip taikyti prekės patvirtinimą naudojant klasterio paėmimą."
+title: Klasterio paėmimo nustatymas
+description: Šioje temoje aprašoma, kaip nustatyti klasterio paėmimą ir kaip taikyti prekės patvirtinimą naudojant klasterio paėmimą.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364102"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Klasterio paėmimo nustatymas
@@ -81,4 +80,3 @@ Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų gali
 1.  Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** \> **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Mobiliojo įrenginio meniu elementai**.
 
 2.  Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**. Naudodamiesi parinktimi **Produkto patvirtinimas** mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.
-

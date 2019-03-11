@@ -1,13 +1,13 @@
 ---
-title: "Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir darbas su jomis"
-description: "Šioje temoje aprašoma, kaip dirbti su užsakymo sulaikymo funkcijomis naudojant „Microsoft Dynamics 365 for Retail“."
+title: Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir darbas su jomis
+description: Šioje temoje aprašoma, kaip dirbti su užsakymo sulaikymo funkcijomis naudojant „Microsoft Dynamics 365 for Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335306"
 ---
-
-# <a name="configure-and-work-with-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir darbas su jomis
+# <a name="configure-and-work-with-call-center-order-holds"></a>Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
 
 [!include [banner](includes/banner.md)]
 
@@ -104,4 +103,3 @@ Jei vartotojai nori išvalyti sulaikymą ir pakeisti užsakymą prieš jį išle
 ## <a name="reporting-options"></a>Ataskaitų parinktys
 
 Eikite į **Mažmeninė prekyba** \> **Užklausos ir ataskaitos** \> **Skambučių centro ataskaitos** \> **Užsakymų sulaikymų ataskaita**, kad sugeneruotumėte ataskaitą apie sulaikytus užsakymus pagal datos diapazoną, sulaikymo kodą ar kitus susijusius kriterijus.
-

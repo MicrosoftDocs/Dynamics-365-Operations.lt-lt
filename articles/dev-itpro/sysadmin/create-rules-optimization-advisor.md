@@ -1,32 +1,31 @@
 ---
-title: "Optimizavimo patariamojo įrankio taisyklių kūrimas"
-description: "Šioje temoje aptariama, kaip į optimizavimo patariamąjį įrankį įtraukti naujų taisyklių."
+title: Optimizavimo patariamojo įrankio taisyklių kūrimas
+description: Šioje temoje aptariama, kaip į optimizavimo patariamąjį įrankį įtraukti naujų taisyklių.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354166"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>Optimizavimo patariamojo įrankio taisyklių kūrimas
 
 [!include [banner](../includes/banner.md)]
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 Taisyklė bus rodoma formoje **Diagnostikos tikrinimo taisyklė**, kurią galima rasti dalyje **Sistemos administravimas** > **Periodinės užduotys** > **Tvarkyti diagnostikos tikrinimo taisyklę**. Norėdami ją įvertinti, eikite į **Sistemos administravimas** > **Periodinės užduotys** > **Planuoti diagnostikos tikrinimo taisyklę**, pasirinkite taisyklės dažnį, pvz., **Kasdien**. Spustelėkite **Gerai**. Norėdami peržiūrėti naująją galimybę, eikite į **Sistemos administravimas** > **Optimizavimo patariamasis įrankis**. 
 
-Toliau pateiktas pavyzdys yra kodo fragmentas su taisyklės griaučiais, apimančiais visus reikiamus metodus ir atributus. Tai jums padės pradėti rašyti naujas taisykles. Pavyzdyje pateiktos etiketės ir veiksmų meniu elementai naudojami tik demonstraciniais tikslais.
+Toliau pateiktas pavyzdys yra kodo fragmentas su taisyklės griaučiais, apimančiais visus reikiamus metodus ir atributus. Tai jums padės pradėti rašyti naujas taisykles.Pavyzdyje pateiktos etiketės ir veiksmų meniu elementai naudojami tik demonstraciniais tikslais.
 
 ```
 [DiagnosticsRuleAttribute]
@@ -255,5 +254,4 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 }
 ```
 
-Norėdami gauti daugiau informacijos, peržiūrėkite trumpą „YouTube“ vaizdo įrašą: [Optimizavimo patarėjas naudojant „Dynamics 365 for Finance and Operations‟](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-
+Norėdami gauti daugiau informacijos, peržiūrėkite trumpą „YouTube“ vaizdo įrašą: [Optimizavimo patarėjas naudojant „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

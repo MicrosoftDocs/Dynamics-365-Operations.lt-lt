@@ -1,13 +1,13 @@
 ---
-title: "Svertinis vidurkis su faktine verte ir žymėjimu"
-description: "Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas."
+title: Svertinis vidurkis su faktine verte ir žymėjimu
+description: Svertinis vidurkis yra atsargų modelis, pagrįstas svertinio vidurkio principu, kai išdavimas iš atsargų įvertinamas taikant vidutinę prekių, kurios gautos į atsargas atsargų uždarymo laikotarpiu, vertę, taip pat – visas iš ankstesnio laikotarpio turimas atsargas.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355684"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Svertinis vidurkis su faktine verte ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -111,7 +110,7 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -140,7 +139,7 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -173,7 +172,7 @@ Toliau pateiktoje diagramoje parodytas šių operacijų serijos poveikis, pasiri
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Quantity@Unitprice“.
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
@@ -221,14 +220,13 @@ Pateiktoje diagramoje parodyta operacijų serija, kai pasirenkamas svertinio vid
 - Atsargų operacijos parodomos vertikaliomis rodyklėmis.
 - Atsargų gavimai parodomi vertikaliomis rodyklėmis virš laiko juostos.
 - Atsargų išdavimai parodomi vertikaliomis rodyklėmis po laiko juosta.
-- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu Kiekis@"Unitprice".
+- Virš (arba po) kiekviena vertikalia rodykle atsargų operacijos vertė nustatyta formatu „Kiekis@Prekėskaina“.
 - Atsargų operacijos vertė skliausteliuose rodo, kad atsargų operacija atsargose užregistruota fiziškai.
 - Atsargų operacijos vertė be skliaustelių rodo, kad atsargų operacija atsargose užregistruota finansiškai.
 - Kiekviena nauja gavimo arba išdavimo operacija pažymima nauja žyme.
 - Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje seką.
 - Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme Atsargų uždarymas.
 - Iki atsargų uždarymo atlikti sudengimai rodomi punktyrinėmis raudonomis rodyklėmis, einančiomis įstrižai nuo gavimo prie išdavimo.
-
 
 
 

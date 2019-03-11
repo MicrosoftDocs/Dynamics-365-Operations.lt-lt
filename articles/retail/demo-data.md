@@ -1,39 +1,38 @@
 ---
-title: "Demonstraciniai duomenų ekrano maketai „Retail Modern POS“ (MPOS) ir „Cloud POS“"
-description: "Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Microsoft Dynamics 365 for Retail“."
+title: „Retail Modern POS“ MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
+description: Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Microsoft Dynamics 365 for Retail“.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352487"
 ---
-
-# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Demonstraciniai duomenų ekrano maketai „Retail Modern POS“ (MPOS) ir „Cloud POS“
+# <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Microsoft Dynamics 365 for Retail“.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Peržiūrėti
 
 Pavyzdinio ekrano maketuose, įtrauktuose kartu su „Retail“ demonstraciniais duomenimis, pateikiamas turinys, optimizuotas įvairiems mažmeninės prekybos segmentams, parduotuvės darbuotojo vaidmenims ir įrenginiams. Viename makete gali būti keletas maketų dydžių ir mygtukynų kombinacijų, skirtų siekiant užtikrinti apimtį parduotuvės darbuotojams judant tarp įrenginių ir stočių. Šioje temoje aprašomi šių maketų skirtumai, teikiamos operacijos ir bendras jų naudojimas.
 
@@ -108,7 +107,7 @@ Toliau pateiktoje lentelėje nurodyti įprasto ekrano skiriamosios gebos maketo 
 \* Šie papildomi maketų dydžiai pasiekiami tik „Adventure Works“ ir „Fabrikam“ maketuose.
 
 > [!TIP]
-> EKA automatiškai parenka maketo dydžius, pritaikydamas juos pagal labiausiai dabartinio programos lango proporcijas atitinkantį dydį. Norėdami rasti tuo metu naudojamą ekrano maketo ID ir maketo skiriamąją gebą, „Retail Modern POS“ (MPOS) arba „Retail Cloud POS“ (CPOS) atidarykite puslapį **Parametrai** ir ieškokite dalyje **Seanso informacija**. Taip pat galite matyti faktinę lango gebą, pritaikytą jūsų dabartinės programos arba naršyklės rėmeliui. Kai jau žinosite šią informaciją, maketo turinio šaltinį galėsite rasti apsilankę „Retail“ parinktyje **Kanalo nustatymas** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
+> EKA automatiškai parenka maketo dydžius, pritaikydamas juos pagal labiausiai dabartinio programos lango proporcijas atitinkantį dydį. Norėdami rasti tuo metu naudojamą ekrano maketo ID ir maketo skiriamąją gebą, „Retail Modern POS“ MPOS arba „Retail Cloud POS“ (CPOS) atidarykite puslapį **Parametrai** ir ieškokite dalyje **Seanso informacija**. Taip pat galite matyti faktinę lango gebą, pritaikytą jūsų dabartinės programos arba naršyklės rėmeliui. Kai jau žinosite šią informaciją, maketo turinio šaltinį galėsite rasti apsilankę „Retail“ parinktyje **Kanalo nustatymas** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
 
 ![Ekrano maketai ir maketo gebos / dydžiai, pateikiami „Retail“ ir EKA](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ Vartotojams pateikiami įvairūs ekrano maketai. Naudodamiesi toliau pateikta le
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

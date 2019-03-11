@@ -1,13 +1,13 @@
 ---
-title: "Informacija, naudojama KS skaičiavimuose su standartinėmis išlaidomis"
-description: "Komplektavimo specifikacijų (KS) skaičiavimai naudoja duomenis iš kelių šaltinių, kad apskaičiuotų standartinę pagamintos prekės savikainą. Šaltiniai apima informaciją apie prekes, vekselių kelvadas, netiesioginių išlaidų apskaičiavimo formules ir įkainojimo versiją."
+title: Informacija, naudojama KS skaičiavimuose su standartinėmis išlaidomis
+description: Komplektavimo specifikacijų (KS) skaičiavimai naudoja duomenis iš kelių šaltinių, kad apskaičiuotų standartinę pagamintos prekės savikainą. Šaltiniai apima informaciją apie prekes, vekselių kelvadas, netiesioginių išlaidų apskaičiavimo formules ir įkainojimo versiją.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4ec6ffe41d6dae10693b1a1ebd6e5012c32bc2e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333765"
 ---
-
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informacija, naudojama KS skaičiavimuose su standartinėmis išlaidomis
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ Gamybos papildomų duomenų informaciją, kuri naudojama skaičiuojant standarti
 -   Įkainojimo versijos turinyje turi būti išlaidos − turinyje turi būti išlaidos. Čia pasirinktinai įtraukiamos pardavimo kainos, kad būtų apskaičiuotos pagamintoms prekėms siūlomos pardavimo kainos.
 
 Pradedant KS skaičiavimą gali būti nurodomi keli informacijos šaltiniai. Tarp jų gali būti teritorija, skaičiavimo data ir įkainojimo versija.
-
 
 
 

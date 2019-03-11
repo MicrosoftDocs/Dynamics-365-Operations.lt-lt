@@ -1,13 +1,13 @@
 ---
 title: Registracijos ID
-description: "Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą."
+description: Šioje temoje pateikiama informacija apie registracijos ID nustatymą ir naudojimą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350509"
 ---
-
 # <a name="registration-ids"></a>Registracijos ID
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ Registracijos kategorija yra šalies / regiono registracijos identifikatorius, k
 |-----------------------|----------------|
 | Registracijos tipas     | Registracijos tipas konkrečioje šalyje / regione.|
 | Apribota iki         | Mokesčių registracijos tipui taikomo apribojimo rūšis: Nėra, Asmuo, Organizacija.|
-| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Toliau pateikiamas visas naudojant „Microsoft Dynamics 365 for Finance and Operations“ palaikomų kategorijų sąrašas. |
+| Registracijos kategorija | Unikalus registracijos identifikatorius, patvirtintas naudoti šalyje. Toliau pateikiamas visas „Microsoft Dynamics 365 for Finance and Operations“ palaikomų kategorijų sąrašas. |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Visuotinės adresų knygelės įrašų registracijos ID įvedimas
 
@@ -109,7 +108,6 @@ Norėdami daugiau informacijos apie registracijos ID apdorojimą, įskaitant bū
 -   PVM ID nustatymas
 -   Tiekėjo PVM ID registracija
 -   : šalies ieška naudojant PVM ID
-
 
 
 

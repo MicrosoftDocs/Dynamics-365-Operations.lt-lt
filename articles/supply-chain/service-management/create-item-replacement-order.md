@@ -1,30 +1,29 @@
 ---
-title: "Prekės pakeitimo užsakymo kūrimas"
-description: "Prekių pakeitimo užsakymai dažniausiai kuriami tada, kai produktas yra jau grąžintas ir patikrintas."
+title: Prekės pakeitimo užsakymo kūrimas
+description: Prekių pakeitimo užsakymai dažniausiai kuriami tada, kai produktas yra jau grąžintas ir patikrintas.
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355017"
 ---
-
 # <a name="create-an-item-replacement-order"></a>Prekės pakeitimo užsakymo kūrimas 
 
 [!include [banner](../includes/banner.md)]
@@ -66,6 +65,5 @@ Prekių pakeitimo užsakymai dažniausiai kuriami tada, kai produktas yra jau gr
     
     Jei pardavimo sutarties identifikatorius automatiškai rodomas lauke **Pardavimo sutarties ID**, tada pardavimo sutartis buvo susieta su prekės pakeitimo užsakymo pardavimo užsakymo antrašte. Jei yra taikomas dar neįvykdytas įsipareigojimas pardavimo sutartyje, ir pardavimo užsakymas sukurtas iki pardavimo sutarties galiojimo pabaigos, yra nustatomas saitas tarp pardavimo sutarties eilutės ir pardavimo užsakymo eilutės. Todėl informacija iš pardavimo sutarties, pvz., prekės kaina, kopijuojama į naują pardavimo užsakymo eilutę. 
   
-
 
 

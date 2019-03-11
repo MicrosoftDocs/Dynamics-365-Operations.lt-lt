@@ -1,32 +1,30 @@
 ---
-title: "Neišsiųstų aptarnavimo užsakymų peržiūra"
-description: "Šioje temoje aprašoma, kaip aptarnavimo užsakyme peržiūrėti veiklas, kurioms nėra priskirtas darbuotojas iš išsiuntimo komandos."
+title: Neišsiųstų aptarnavimo užsakymų peržiūra
+description: Šioje temoje aprašoma, kaip aptarnavimo užsakyme peržiūrėti veiklas, kurioms nėra priskirtas darbuotojas iš išsiuntimo komandos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 349836c788d8ed5a70af57ff74944d02a04815ad
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3315d028f0b65dda59052180d20abc88145d6d4b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318401"
 ---
-
-
 # <a name="view-undispatched-service-orders"></a>Neišsiųstų aptarnavimo užsakymų peržiūra 
 
 [!include [banner](../includes/banner.md)]
@@ -61,6 +59,5 @@ ms.lasthandoff: 05/08/2018
 [Pakartotinis operacijų priskyrimas](reassign-activities.md)
 
   
-
 
 

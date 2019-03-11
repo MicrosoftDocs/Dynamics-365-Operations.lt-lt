@@ -1,13 +1,13 @@
 ---
-title: "Pirkimo užsakymų tvirtinimas"
-description: "Šioje temoje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą."
+title: Pirkimo užsakymų tvirtinimas
+description: Šioje temoje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą.
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -15,18 +15,17 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336962"
 ---
-
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkimo užsakymų tvirtinimas
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Sukūrus pirkimo užsakymą (PU), jį gali reikėti patvirtinti. Kai tiekėjas u
 ## <a name="approval-of-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
 PU, kuriuose nenaudojamas keitimų valdymas, būsena nustatoma kaip **Patvirtinta** iš karto juos sukūrus, o PU, kuriuose naudojamas keitimų valdymas,būsena nustatoma kaip **Juodraštis**, pirmą kartą juos sukūrus. PU, kuris buvo sukurtas patvirtinus suplanuotą užsakymą iš bendrojo planavimo, būsena visada nustatoma kaip **Patvirtinta**, nepriklausomai nuo keitimų valdymo parametrų. PU sukuria atsargų operacijas tik tada, kai jo būsena pasikeičia į **Patvirtinta**. Todėl nerodoma, kad tas atsargas galima rezervuoti arba žymėti, kol užsakymas nepatvirtintas.  
 
-PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai** nustatant parinktį **Aktyvinti pokyčių valdymą**. Suaktyvinus keitimų valdymą, užbaigtiems PU turi būti taikoma patvirtinimo darbo eiga. „Microsoft Dynamics 365 for Finance and Operations“ teikia darbo eigos procesų rengyklę, kurioje galima nurodyti patvirtinimo proceso darbo eigą. Ši darbo eiga gali apimti automatinio patvirtinimo taisykles, taisykles, nurodančias, ką priskirti konkrečiam PU tvirtinti, ir taisyklės, skirtas darbo eigai, kuri laukia patvirtinimo ilgą laiką, perskirti. Galite suaktyvinti visų tiekėjų arba konkrečių tiekėjų keitimų valdymo procesą. Taip pat galite nustatyti procesą, kad jį būtų galima perrašyti atskiriems PU.  
+PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai** nustatant parinktį **Aktyvinti pokyčių valdymą**. Suaktyvinus keitimų valdymą, užbaigtiems PU turi būti taikoma patvirtinimo darbo eiga. „Microsoft Dynamics 365 for Finance and Operations“ teikia eigos proceso rengyklę, kurioje galima nurodyti patvirtinimo proceso darbo eigą. Ši darbo eiga gali apimti automatinio patvirtinimo taisykles, taisykles, nurodančias, ką priskirti konkrečiam PU tvirtinti, ir taisyklės, skirtas darbo eigai, kuri laukia patvirtinimo ilgą laiką, perskirti. Galite suaktyvinti visų tiekėjų arba konkrečių tiekėjų keitimų valdymo procesą. Taip pat galite nustatyti procesą, kad jį būtų galima perrašyti atskiriems PU.  
 
 Įgalinus keitimų valdymą, naudojamos šešios PU patvirtinimo būsenos, nuo **Juodraštis** iki **Baigta**. Patvirtinus užsakymą, jį modifikuoti norintys vartotojai turi naudoti veiksmą **Reikalauti keitimo**.
 
@@ -86,7 +85,6 @@ Patvirtinus užsakymą jo panaikinti nebegalima. Tačiau užsakyme galite atšau
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
 [Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

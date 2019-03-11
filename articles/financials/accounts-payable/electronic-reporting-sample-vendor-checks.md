@@ -1,29 +1,28 @@
 ---
-title: "Elektroninės ataskaitos tiekėjo čekių pavyzdžiai"
-description: "Šioje temoje pateikiama bendra informacija apie tai, kaip naudoti elektroninės ataskaitos čekių formatų pavyzdžius."
+title: Elektroninės ataskaitos tiekėjo čekių pavyzdžiai
+description: Šioje temoje pateikiama bendra informacija apie tai, kaip naudoti elektroninės ataskaitos čekių formatų pavyzdžius.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 6cae0ce1ec88f0500f8d281d314d59dc7001a384
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359686"
 ---
-
 [!include [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a>Elektroninės ataskaitos čekių formatų pavyzdžiai
@@ -32,7 +31,7 @@ Norėdami formatuoti tiekėjo čekius, galite naudoti elektronines ataskaitas (E
 
 ## <a name="what-check-formats-are-currently-supported"></a>Kokie čekio formatai šiuo metu palaikomi?
 
-Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics“ skirtą „Lifecycle Services“ (LCS) ir peržiūrėti dabartinį prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą, kad galėtumėte peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
+Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics Lifecycle Services“ (LCS) ir peržiūrėti dabartinį prieinamų failų, kurių turto tipas yra **GER konfigūracija**, sąrašą. Kitame skyriuje – „Ką turiu nustatyti?“ – pateikiama nuoroda į temą, kurioje paaiškinta, kaip sukurti LCS saugyklą, kad galėtumėte peržiūrėti galimas konfigūracijas ir importuoti pasirinktas konfigūracijas.
 
 „Microsoft Dynamics 365 for Finance and Operations“ pateikiamas formato, kai čekis yra viršuje ir po jo eina dvi pavedimo dalys, pavyzdys. Taip pat pateikiamas formato, kai čekis yra viduryje, tarp dviejų pavedimo dalių, pavyzdys. Šių formatų pavyzdžiai atitinka „Deluxe“ verslo čekių formatus.
 
@@ -45,4 +44,3 @@ Visada turite eiti į bendrai naudojamo turto biblioteką „Microsoft Dynamics�
 - Kai mokėjimo žurnale generuojate sukonfigūruotos banko sąskaitos mokėjimus, čekiai bus spausdinami naudojant nurodytą formatą.
 
 Daugiau informacijos rasite [Elektroninių ataskaitų formato modifikavimas](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
-

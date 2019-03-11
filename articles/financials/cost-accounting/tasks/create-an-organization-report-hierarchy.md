@@ -1,13 +1,13 @@
---- 
-title: "Kurti organizacijos ataskaitų hierarchija"
-description: "Naudokite šią procedūrą, norėdami sukurti ataskaitų hierarchiją organizacijos ataskaitoms."
+---
+title: Kurti organizacijos ataskaitų hierarchija
+description: Naudokite šią procedūrą, norėdami sukurti ataskaitų hierarchiją organizacijos ataskaitoms.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9a06a67f851e4a73df90f999683d5ea27f38e66
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365505"
 ---
 # <a name="create-an-organization-report-hierarchy"></a>Kurti organizacijos ataskaitų hierarchija
 
@@ -94,5 +94,4 @@ Naudokite šią procedūrą, norėdami sukurti ataskaitų hierarchiją organizac
 58. Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.
     * Pasirinkite dimensijos narį, atitinkantį mazgą.  
 59. Spustelėkite Įrašyti.
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Apibrėžti naujas užduotis"
-description: "Šia užduotimi dėmesys skiriamas naujo darbo sukūrimui."
+---
+title: Apibrėžti naujas užduotis
+description: Šia užduotimi dėmesys skiriamas naujo darbo sukūrimui.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347933"
 ---
 # <a name="define-new-jobs"></a>Apibrėžti naujas užduotis
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/14/2018
 21. Sąraše raskite ir pasirinkite norimą įrašą.
 22. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 23. Perjunkite dalies Įgūdžiai išplėtimą.
-    * Atkreipkite dėmesį, kad laukai „FastTab‟ Įgūdžiai, Išsilavinimas ir Sertifikatai yra tušti. Informaciją nukopijavus iš darbo šablono, informacija šiuose laukuose bus įvedama vienu veiksmu.   
+    * Atkreipkite dėmesį, kad laukai „FastTab‟ Įgūdžiai, Išsilavinimas ir Sertifikatai yra tušti. Informaciją nukopijavus iš darbo šablono, informacija šiuose laukuose bus įvedama vienu veiksmu.   
 24. Spustelėkite Įrašyti.
 25. Spustelėkite Kopijuoti iš.
 26. Spustelėkite Kopijuoti iš šablono.
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 32. Perjunkite dalies Sertifikatai išplėtimą.
 33. Perjunkite dalies Išsilavinimas išplėtimą.
 34. Spustelėkite Įrašyti.
-
 

@@ -1,28 +1,27 @@
 ---
-title: "Nauji ar atnaujinti užduočių vedliai (2017 m. gruodžio mėn.)"
-description: "Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gruodžio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka."
+title: Nauji ar atnaujinti užduočių vedliai (2017 m. gruodžio mėn.)
+description: Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. gruodžio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 101eb8fd03303eb590dfef6f598ca507dc8f5548
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319643"
 ---
-
 # <a name="new-or-updated-task-guides-december-2017"></a>Nauji ar atnaujinti užduočių vedliai (2017 m. gruodžio mėn.)
 
 [!include [banner](../includes/banner.md)]
@@ -370,4 +369,3 @@ Panaikinus BPM eilutę, užduoties vadovas, kuris buvo susietas su BPM eilute, t
 **Panaikinta BPM eilutė**
 
 - Perkelti suplanuotas „kanban“ užduotis
-

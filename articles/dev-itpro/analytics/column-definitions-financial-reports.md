@@ -1,13 +1,13 @@
 ---
-title: "Finansinių ataskaitų stulpelių aprašai"
-description: "Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose."
+title: Finansinių ataskaitų stulpelių aprašai
+description: Šiame straipsnyje pateikiama informacija apie stulpelių aprašus. Stulpelio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris nurodo ataskaitos stulpelių turinį. Kaip ir eilučių aprašai, pagrindiniai stulpelių aprašai gali būti naudojami keli ataskaitose.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356351"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
 [!include [banner](../includes/banner.md)]
@@ -121,11 +120,11 @@ Toliau pateikiamoje lentelėje aprašomi stulpelio apribojimo kodai.
 | ADJ                     | Apriboti stulpelio sumas, kad būtų rodomos tik laikotarpio koregavimo sumos, jei šios sumos galimos. |
 | XAD                     | Apriboti stulpelio sumas, kad būtų nerodomos laikotarpio koregavimo sumos. |
 | SP                      | Apriboti stulpelio sumas, kad būtų įtraukiamos tik užregistruotos operacijos, jei šios operacijos galimos. |
-| UPT                     | Apriboti stulpelio sumas, kad būtų įtraukiamos tik neužregistruotos operacijos, jei šios operacijos galimos.<blockquote>[!NOTE] Ne visi duomenų teikėjai palaiko neužregistruotas operacijas. Norėdami gauti daugiau informacijos, žr. savo „Microsoft Dynamics ERP“ sistemos <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>duomenų integravimo vadovą</a>.</blockquote> |
+| UPT                     | Apriboti stulpelio sumas, kad būtų įtraukiamos tik neužregistruotos operacijos, jei šios operacijos galimos.<blockquote>[!NOTE] Ne visi duomenų teikėjai palaiko neužregistruotas operacijas. Daugiau informacijos žr. „Microsoft Dynamics ERP“ sistemos <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>duomenų integravimo vadove</a>.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Stulpelio apibojimas iki ataskaitinio vieneto
 
-1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
+1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti stulpelių aprašą.
 2. Norėdami apriboti stulpelį, dukart spustelėkite langelį **Ataskaitinis vienetas**.
 3. Dialogo lango **Ataskaitinio vieneto pasirinkimas** sąraše **Ataskaitų medis** pasirinkite medį.
 4. Išplėskite arba sutraukite vienetų sąrašą, pasirinkite ataskaitinį vienetą, tada spustelėkite **Gerai**.
@@ -171,13 +170,13 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 ### <a name="create-an-automatically-generated-header"></a>Automatiškai sugeneruotos antraštės kūrimas
 
-Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC**, **FD** ir **WKS**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniais kalendoriniais metais, naudojant **@CalMonthLong** **7** mėnuo pasikeičia į **Liepa**. Jeigu mėnesio pavadinimas turėtų būti rašomas didžiosiomis raidėmis (pvz., **LIEPA**), lauke **Stulpelio antraštės tekstas** įveskite didžiųjų raidžių simboliais parašytą automatinio teksto kodą. Pavyzdžiui, įveskite **@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis @FiscalPeriod-@FiscalYear nuo @StartDate iki @EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**.
+Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC**, **FD** ir **WKS**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniais kalendoriniais metais, naudojant **@CalMonthLong** **7** mėnuo pasikeičia į **Liepa**. Jei mėnesio pavadinimas turėtų būti rodomas didžiosiomis raidėmis (pavyzdžiui, **LIEPA**), **Stulpelio antraštės teksto** lauke autoteksto kodą įveskite didžiosiomis raidėmis. Pavyzdžiui, įveskite **@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis @FiscalPeriod-@FiscalYear nuo @StartDate iki @EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**.
 
 > [!NOTE]
 > Kai kurio teksto, pvz., ilgosios datos, formatas priklauso nuo jūsų „Finance and Operations“ serverio regiono parametrų. Norėdami pakeisti šiuos parametrus, spustelėkite mygtuką **Pradžia**, spustelėkite **Valdymo skydas**, tada spustelėkite **Regionas ir kalba**. Toliau pateikiamoje lentelėje išvardijamos galimos stulpelio antraščių automatinio teksto pasirinktys.
 
 
-| Automatinio teksto pasirinktis ir kodas                | aprašymas |
+| Automatinio teksto pasirinktis ir kodas                | Prekės/Paslaugos pavadinimas |
 |-----------------------------------------|-------------|
 | Mėnesio pavadinimas (@CalMonthLong)              | Spausdinti dabartinio mėnesio pavadinimą stulpelio antraštėje. Jei ataskaitoje nuspręsite apvalinti sumas iki tūkstančių, milijonų ar milijardų, arba jei nustatysite mažesnį negu devynių simbolių ataskaitos stulpelio plotį, mėnesio pavadinimas trumpinamas iki pirmųjų trijų simbolių. |
 | Sutrumpintas mėnesio pavadinimas (@CalMonthShort) | Spausdinti pasirinkto ataskaitinio laikotarpio mėnesio sutrumpintą pavadinimą. |
@@ -216,7 +215,7 @@ Sąlyginės aprėpiančios antraštės gali aprėpti kelis tam tikro laikotarpio
 Phyllis kuria dinaminės šešių mėnesių prognozės ataskaitą. Ji nori, kad žodis „Faktinis“ būtų išspausdintas stulpeliuose, kuriuose yra faktiniai duomenys, o žodis „Biudžetas“ būtų išspausdintas stulpeliuose, kuriuose yra biudžeto prognozės. Kiekvieną mėnesį, kada paleidžiama ataskaita, faktinių stulpelių yra vienu daugiau, o biudžeto stulpelių – vienu mažiau. Nors norėdama koreguoti antraštes, kiekvieną kartą, kai generuojama ataskaita, Phyllis gali pati keisti stulpelio aprašą, tam, kad sutaupytų laiko ir pastangų, ji nusprendžia sukurti sąlygines aprėpiančias antraštes, kurios kiekvieną kartą paleidus ataskaitą atitinkamuose stulpeliuose automatiškai sukurs antraštes. Phyllis atidaro ataskaitų dizaino įrankį, naršymo srityje spusteli **Stulpelio aprašas** ir atidaro ataskaitos stulpelio aprašą. Tada ji įveda toliau nurodomą informaciją. Ataskaitos apraše nurodytas pagrindinis laikotarpis yra 4.
 
 
-|                     |  A   | Mlrd.             | K             | D             | E             | Pn.             | Ž             | H             | I             | J             | Tūkst.             | L             | P             |
+|                     |  A   | B             | C             | D             | E             | Pn.             | Ž             | H             | I             | J             | Tūkst.             | L             | Mln.             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | 1 antraštė            |      | Faktinis        | Biudžetas        |               |               |               |               |               |               |               |               |               |               |
 | 2 antraštė            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
@@ -612,4 +611,3 @@ Galite padalyti stulpelio sumą į nurodytą laikotarpių skačių. Pavyzdžiui,
 [Finansinių ataskaitų eilučių aprašai](row-definitions-financial-reporting.md)
 
 [Išplėstinės finansinių ataskaitų formatavimo parinktys](advanced-formatting-options-financial-reporting.md)
-

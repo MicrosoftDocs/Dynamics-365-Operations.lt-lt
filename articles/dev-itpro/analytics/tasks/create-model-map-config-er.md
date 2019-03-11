@@ -1,13 +1,13 @@
---- 
-title: "Elektroninės ataskaitos (ER) modelio susiejimo konfigūracijų kūrimas"
-description: "Naudokite šią procedūrą norėdami sukurti naują elektroninių ataskaitų (ER) modelio susiejimo konfigūraciją ir, siekiant efektyviai sutelkti skaičiavimus, naudoti integruotas ER funkcijas."
+---
+title: Elektroninės ataskaitos (ER) modelio susiejimo konfigūracijų kūrimas
+description: Naudokite šią procedūrą norėdami sukurti naują elektroninių ataskaitų (ER) modelio susiejimo konfigūraciją ir, siekiant efektyviai sutelkti skaičiavimus, naudoti integruotas ER funkcijas.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357179"
 ---
 # <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Elektroninės ataskaitos (ER) modelio susiejimo konfigūracijų kūrimas
 
@@ -65,5 +65,4 @@ Naudokite šią procedūrą norėdami sukurti naują elektroninių ataskaitų (E
 4. Lauke Pavadinimas įveskite „Intrastat pavyzdžio susiejimas“.
     * „Intrastat“ pavyzdžio susiejimas  
 5. Spustelėkite Sukurti konfigūraciją.
-
 

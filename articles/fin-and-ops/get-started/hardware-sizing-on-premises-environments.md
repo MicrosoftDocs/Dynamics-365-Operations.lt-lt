@@ -1,30 +1,29 @@
 ---
-title: "Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose"
-description: "Šioje temoje pateikiami aparatūros dydžio reikalavimai vietinėje aplinkose."
+title: Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
+description: Šioje temoje pateikiami aparatūros dydžio reikalavimai vietinėje aplinkose.
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340734"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS su
 ## <a name="virtualization-and-oversubscription"></a>Virtualizavimas ir perviršinis rezervavimas
 
 Kritiškai svarbios tarnybos, pavyzdžiui, AOS, turi būti nuomojamos virtualiuosiuose kompiuteriuose, turinčiuose tam skirtus išteklius – branduolius, atmintį ir diską.
-

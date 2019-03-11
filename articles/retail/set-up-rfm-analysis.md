@@ -1,13 +1,13 @@
 ---
-title: "„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas"
-description: "Šioje temoje aiškinama, kaip nustatyti jūsų klientų „Recency“, dažnumo ir piniginę (RFM) analizę."
+title: „Recency“, dažnumo ir piniginės (RFM) analizės nustatymas
+description: Šioje temoje aiškinama, kaip nustatyti jūsų klientų „Recency“, dažnumo ir piniginę (RFM) analizę.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRRFMDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336640"
 ---
-
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas
 
 [!include [banner](includes/banner.md)]
@@ -98,4 +97,3 @@ Naudokite šią procedūrą norėdami peržiūrėti arba išvalyti RFM analizės
 2. Puslapyje **RFM analizė** pasirinkite norimą peržiūrėti įrašą.
 3. Norėdami peržiūrėti įrašo retrospektyvą, pasirinkite „FastTab“**Retrospektyva**.
 4. Norėdami išvalyti įrašo retrospektyvą, pasirinkite **Išvalyti retrospektyvą**.
-

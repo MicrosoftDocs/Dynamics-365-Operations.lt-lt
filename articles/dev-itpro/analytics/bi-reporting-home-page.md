@@ -1,13 +1,13 @@
 ---
-title: "Verslo įžvalgų (BI) ir ataskaitų pagrindinis puslapis"
-description: "Šioje temoje nurodomi ištekliai, kuriuos naudodami galite daugiau sužinoti apie verslo įžvalgų ir ataskaitų įrankius, pasiekiamus „Microsoft Dynamics 365 for Finance and Operations“."
+title: Verslo įžvalgų (BI) ir ataskaitų pagrindinis puslapis
+description: Šioje temoje nurodomi ištekliai, kuriuos naudodami galite daugiau sužinoti apie verslo įžvalgų ir ataskaitų įrankius, pasiekiamus „Microsoft Dynamics 365 for Finance and Operations“.
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302623"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Verslo įžvalgų (BI) ir ataskaitų pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 - [„Power BI Embedded“ integravimas](power-bi-embedded-integration.md)
 - [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](add-analytics-tab-workspaces.md)
 - [Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“](secure-analytical-workspaces.md)
-- [„Finance and Operations“ „Power BI‟ turinys](power-bi-home-page.md)
+- [„Finance and Operations“ „Power BI“ turinys](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Verslo dokumentai ir spausdinimas
 Ataskaitų sprendimai dažnai naudojami verslo operacijų informacijai fiksuoti ir perduoti. Todėl ataskaitų sprendimas turi gebėti naudodamas esamus įrenginius, pvz., tinklo spausdintuvus, kurti fizines verslo duomenų kopijas. Verslo dokumentų pavyzdžiai: pardavimo sąskaitos faktūros, klientų sąskaitų suderinimo aktai ir čekiai.
@@ -91,4 +90,3 @@ Tolesnėse ataskaitose pateikiama nuorodų informacijos apie „Finance and Oper
 - [Licencijų kodų ir konfigūracijos raktų ataskaita](../sysadmin/license-codes-configuration-keys-report.md)
 - [Ataskaita apie „SQL Server Reporting Services“ ataskaitas](SSRS-report.md)
 - [Darbo eigos tipų ataskaita](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

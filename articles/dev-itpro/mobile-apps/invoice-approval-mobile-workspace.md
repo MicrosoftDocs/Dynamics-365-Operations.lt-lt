@@ -1,13 +1,13 @@
 ---
-title: "Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas"
-description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Sąskaitos faktūros tvirtinimas Šioje darbo srityje pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas."
+title: Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Sąskaitos faktūros tvirtinimas Šioje darbo srityje pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327003"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>Mobilioji darbo sritis Sąskaitos faktūros tvirtinimas
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Sąskaitos faktūros tvirtinimas**. Šioje darbo srityje pateikiamas sąskaitų faktūrų, kurios buvo jums priskirtos tiekėjo SF antraštės darbo eigos procese, sąrašas. 
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
 Mobilioji darbo sritis **Sąskaitos faktūros tvirtinimas** leidžia mokėtinų sumų tarnautojams ir vadovams peržiūrėti sąskaitas faktūras, jiems priskirtas vykdant tiekėjo SF antraštės darbo eigos procesą. Galite peržiūrėti sąskaitos faktūros informaciją, ir netgi eilutės bei paskirstymo informaciją, kad galėtumėte priimti pagrįstus sprendimus dėl patvirtinimo. Darbo srityje galite atlikti veiksmus ir perkelti sąskaitą faktūrą darbo eigos procese. 
 
@@ -49,7 +48,7 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 </thead>
 <tbody>
 <tr class="odd">
-<td>Jūsų organizacijoje turi būti visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“.</td>
+<td>Jūsų organizacijoje turi būti visuotinai įdiegta „Microsoft Dynamics 365 for Finance and Operations“.</td>
 <td>Sistemos administratorius</td>
 <td>Žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>.
 </td>
@@ -88,4 +87,3 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 7.  Pasirinkite **Priedai**, kad peržiūrėtumėte prie sąskaitos faktūros pridėtas pastabas ar failus.
 8.  Puslapyje **Sąskaitos faktūros informacija** pasirinkite atitinkamą darbo eigos veiksmą, kad užbaigtumėte savo peržiūros procesą.
 9.  Pasirinkite **Atlikta**.
-

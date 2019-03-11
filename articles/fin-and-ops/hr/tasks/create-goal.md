@@ -1,13 +1,13 @@
---- 
-title: "Tikslo kūrimas"
-description: "Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti tikslus su apžvalga."
+---
+title: Tikslo kūrimas
+description: Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti tikslus su apžvalga.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350716"
 ---
 # <a name="create-a-goal"></a>Tikslo kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti tikslus su apžvalga. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti tikslus su apžvalga. Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 1. Pasirinkite Visos darbo sritys > Darbuotojų savitarna.
 2. Spustelėkite Peržiūrėti visus tikslus
@@ -59,5 +59,4 @@ Galite kurti tikslus, įtraukti į tikslus veiklų, sekti matavimus ir susieti t
     * Dažnai būna tikslų, kurie yra bendri komandos nariams arba visiems darbuotojams.     Jūsų personalo administratorius arba vadovas gali kurti šių tikslų šablonus. Galite įtraukti tikslą iš šabloną, o tada jį modifikuoti, kad jis atitiktų jūsų laiko planavimo juostą.  
     * Dažnai būna keli tikslai, kurie yra bendri komandos nariams arba visiems darbuotojams.     Jūsų personalo administratorius arba vadovas gali kurti tikslų grupes, kuriose yra vienas ar daugiau tikslų šablonų. Galite įtraukti tikslų iš tikslų grupės, o tada juos modifikuoti, kad jie atitiktų jūsų laiko planavimo juostą.  
     * Sukūrę apžvalgą, galite į ją įtraukti tikslų. Žr. užduočių vedlio dalį, skirtą apžvalgoms, kad sužinotumėte, kaip į apžvalgas galite įtraukti tikslų.  
-
 

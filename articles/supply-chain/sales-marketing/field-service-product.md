@@ -1,33 +1,32 @@
 ---
-title: "Sinchronizuoti „Finance and Operations“ produktus su „Field Service“ produktais"
-description: "Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“."
+title: Sinchronizuoti „Finance and Operations“ produktus su „Field Service“ produktais
+description: Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 3f26240ec289f5ddcc2682e598bbf93f516b99af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: bf5de13fee6db1b467c1cf4d5cc65b46c67b29fe
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316331"
 ---
-
-# <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>Sinchronizuoti „Finance and Operations“ produktus su „Field Service“ produktais
+# <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>„Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais
 
 [!include[banner](../includes/banner.md)]
 
@@ -74,4 +73,3 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funk
 ### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>„Field Service“ produktai (iš „Finance and Operations“ į „Field Service“): Produktai – produktai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct.png)](./media/FSProduct.png)
-

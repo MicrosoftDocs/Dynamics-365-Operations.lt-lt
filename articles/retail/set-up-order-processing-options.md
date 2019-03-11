@@ -1,13 +1,13 @@
 ---
-title: "Skambučių centro kanalų nustatymas"
-description: "Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant „Microsoft Dynamics 365 for Retail“."
+title: Skambučių centro kanalų nustatymas
+description: Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant „Microsoft Dynamics 365 for Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334846"
 ---
-
 # <a name="set-up-call-center-channels"></a>Skambučių centro kanalų nustatymas
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ Pagal numatytuosius nustatymus visų to skambučių centro vartotojų sukurtų p
 Su skambučių centro kanalu nesusieti vartotojai naudojasi standartinėmis „Microsoft Dynamics 365 for Finance and Operations“ užsakymo įvedimo funkcijomis. Šių vartotojų pildant pardavimo užsakymo įvedimo formą įvestų užsakymų sistema nepripažįsta kaip mažmeninės prekybos užsakymų. Be to, šiems šių vartotojų įvestiems užsakymams netaikomos jokios baigto užsakymo apdorojimo taisyklės, mažmeninės prekybos kainų logika ar kiti atliekant skambučių centro kanalo konfigūraciją arba nurodant skambučių centro sistemos parametrus galimi taikyti kriterijai.
 
 Baigę konfigūruoti skambučių centro kanalą ir nurodę kanalo vartotojus, siekdami užtikrinti reikiamą sistemos elgseną, įsitikinkite, kad srityje **Mažmeninė prekyba** \> **Kanalo sąranka** \> **Skambučių centro sąranka** \> **Skambučių centro parametrai** nurodyti visi reikiami skambučių centro parametrai. Įsitikinkite, kad būtų nurodomos ir susijusios numeracijos.
-

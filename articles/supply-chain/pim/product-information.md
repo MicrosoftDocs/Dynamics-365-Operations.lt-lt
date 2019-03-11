@@ -1,32 +1,31 @@
 ---
-title: "Produktų informacijos peržiūra"
-description: "Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų."
+title: Produktų informacijos peržiūra
+description: Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363021"
 ---
-
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
 [!include [banner](../includes/banner.md)]
@@ -58,15 +57,15 @@ Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tač
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Produkto duomenų platinimas, eksportavimas ir importavimas
 
-Produkto apibrėžtį galima sukurti „Microsoft Dynamics 365 for Finance and Operations‟. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas „Finance and Operations‟ egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
+Produkto apibrėžtį galima sukurti „Microsoft Dynamics 365 for Finance and Operations“. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas „Finance and Operations‟ egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
 
-Kad produktų duomenis galėtumėte platinti keliuose egzemplioriuose, „Finance and Operations‟ leidžia naudoti „Common Data Service‟. Produktų apibrėžtis iš „Finance and Operations‟ egzemplioriaus galima eksportuoti į „Common Data Service‟. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Microsoft Dynamics 365 for Sales‟, užpildyti produktų duomenimis.
+Kad produktų duomenis galėtumėte platinti keliuose egzemplioriuose, „Finance and Operations“ leidžia naudoti „Common Data Service“. Produktų apibrėžtis iš „Finance and Operations“ egzemplioriaus galima eksportuoti į „Common Data Service“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Microsoft Dynamics 365 for Sales“, užpildyti produktų duomenimis.
 
 Atkreipkite dėmesį, kad dinamiškose ir lanksčiose organizacijose produktų informacijos duomenys keičiasi kiekvieną dieną. Todėl tikslių ir faktinių produktų duomenų priežiūra yra labai svarbus atskiras verslo procesas.
 
 ## <a name="product-masters-and-product-variants"></a>Bendrieji produktai ir produktų variantai
 
-Lanksčiame pasaulyje, kuriame produktus reikia greitai pritaikyti pagal klientų reikalavimus, produktų apibrėžtyse nurodomas produktų rinkinys, o ne išskirtieji produktai. Sprendime „Microsoft Dynamics 365 for Finance and Operations‟ tokie produktai vadinami *bendraisiais produktais*. Bendruosiuose produktuose apibrėžiama ir pateikiamos taisyklės, kaip išskirtieji produktai aprašomi ir veikia vykstant verslo procesams. Pagal šias apibrėžtis galima generuoti išskirtuosius produktus. Šie išskirtieji produktai vadinami *produktų variantais*.
+Lanksčiame pasaulyje, kuriame produktus reikia greitai pritaikyti pagal klientų reikalavimus, produktų apibrėžtyse nurodomas produktų rinkinys, o ne išskirtieji produktai. Sprendime „Microsoft Dynamics 365 for Finance and Operations“ tokie produktai vadinami *bendraisiais produktais*. Bendruosiuose produktuose apibrėžiama ir pateikiamos taisyklės, kaip išskirtieji produktai aprašomi ir veikia vykstant verslo procesams. Pagal šias apibrėžtis galima generuoti išskirtuosius produktus. Šie išskirtieji produktai vadinami *produktų variantais*.
 
 Sprendime „Finance and Operations‟ bendrasis produktas susiejamas su produktų dimensijų grupe ir konfigūravimo technologija, kad būtų galima nurodyti verslo taisykles. Produktų dimensijos (Spalva, Dydis, Stilius ir Konfigūracija) yra konkretus atributų rinkinys, kurį naudojant programoje galima apibrėžti ir sekti konkretų susijusių produktų veikimą. Šios dimensijos taip pat vartotojams padeda ieškoti produktų ir juos nustatyti.
 
@@ -97,4 +96,3 @@ Darbo sritį sudaro plytelių ir dviejų sąrašų suvestinė. Sąraše **Atviri
 ### <a name="manually-creating-a-new-released-product"></a>Naujo pateikto produkto kūrimas rankiniu būdu
 
 Rankiniu būdu sukurti pateiktą produktą galite vienu veiksmu – tai priklauso nuo organizacijos verslo procesų ir taisyklių, nurodančių, ar turi būti naudojama ši funkcija. Naudojant šią funkciją sukuriamas naujas produktas, kuris automatiškai pateikiamas dabartiniam juridiniam subjektui. Norėdami sukurti naują produktą, darbo srityje **Pateiktų produktų priežiūra** arba sąrašo puslapyje **Pateiktas produktas** spustelėkite **Pateikti produktai**.
-

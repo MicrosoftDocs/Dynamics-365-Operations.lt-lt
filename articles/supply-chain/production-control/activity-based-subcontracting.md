@@ -1,13 +1,13 @@
 ---
-title: "Veikla pagrįsta subranga"
-description: "Šioje temoje išsamiai paaiškinama, kaip naudoti subrangos veiklas „lean manufacturing“ gamybos eigoje."
+title: Veikla pagrįsta subranga
+description: Šioje temoje išsamiai paaiškinama, kaip naudoti subrangos veiklas „lean manufacturing“ gamybos eigoje.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 59b41b31931a128898ee70a583bfb9c515f90abc
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350049"
 ---
-
 # <a name="activity-based-subcontracting"></a>Veikla pagrįsta subranga
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ Dažnai žmonės galvoja, kad transportas nėra produktyvus ir nekuria jokios ve
 “Lean manufacturing“ veikla pagrįsta subranga suteikia galimybę integruoti vežėjus ir transporto tiekėjus, kurie gabena medžiagas ir produktus iš vienos gamybos eigos vietos į kitą. Modeliuodami perkėlimo veiklą galite priskirti vežėją arba tiekėją. Perkėlimo veiklos / užduotis yra pagrįsta aptarnavimo bei pirkimo sutartimi ir jūs pirkimo užsakymus bei gavimo patariamuosius dokumentus galite kurti pagal faktines perkėlimo užduotis. Ši funkcija yra tokia pati kaip subrangos proceso veiklų funkcija.  
 
 Todėl „Finance and Operations“ dabar palaiko KS skaičiavimą, kuris apima transporto paslaugas, susijusių pirkimo užsakymų kūrimą, integruotą gavimo registravimą ir transporto paslaugų išlaidų integravimą į gamybos eigos išlaidas.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Įdarbinimo „Power BI“ turinys"
-description: "Šioje temoje aprašomas „Power BI‟ turinys Įdarbinimas. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+title: „Power BI“ turinys Įdarbinimas
+description: Šioje temoje aprašomas „Power BI“ turinys Įdarbinimas. Jame paaiškinta, kaip pasiekti ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348002"
 ---
-
-# <a name="recruiting-power-bi-content"></a>Įdarbinimo „Power BI“ turinys
+# <a name="recruiting-power-bi-content"></a>„Power BI“ turinys Įdarbinimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas „Microsoft Power BI‟ turinys **Įdarbinimas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šioje temoje aprašomas „Microsoft Power BI“ turinys **Įdarbinimas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 „Power BI“ turinys **Įdarbinimas** rodomas darbo srityje **Įdarbinimo valdymas**.
@@ -48,7 +47,7 @@ Darbo srityje **Įdarbinimo valdymas** yra skirtukas **Analizė**. Šiame skirtu
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
-Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power BI‟ turinys **Įdarbinimas**.
+Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power BI“ turinys **Įdarbinimas**.
 
 | Objektas               | Turinys                                                         | Ryšiai su kitais objektais |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
@@ -66,4 +65,3 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais buvo pagrįstas „Power
 | Našumas          | Įvertinimas, aprašas ir įvertinimo modelis                            | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Įdarbinimo projektas  | Projekto aprašas, projekto būsena ir laisvos vietos                | Pretendentas, dirbantis pretendentas, atleistas pretendentas |
 | Atleistas pretendentas | Atleisti pretendentai, priežastis, veiklos efektyvumas ir atleidimo data | Įmonė, kalendoriaus poslinkis, data, geografinė vieta, našumas, demografiniai duomenys, įdarbinimas, medija, įdarbinimo projektas, pretendento vardas, pavardė |
-

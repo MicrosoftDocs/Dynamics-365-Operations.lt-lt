@@ -1,13 +1,13 @@
---- 
-title: "Kurti kalendorių ir generuoti darbo laikus"
-description: "Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas."
+---
+title: Kurti kalendorių ir generuoti darbo laikus
+description: Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas.
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 8a556367857890acdb926ed29518cf2f2f2b92ea
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336019"
 ---
 # <a name="create-calendar-and-generate-working-times"></a>Kurti kalendorių ir generuoti darbo laikus
 
@@ -48,5 +48,4 @@ Kalendoriuje apibūdinamas operacijos išteklius ir pajėgumas ir darbo laikas. 
     * Darbo laiko šablonas nurodo kiekvienos savaitės dienos darbo valandas.  
 13. Spustelėkite GERAI.
 14. Uždarykite puslapį.
-
 

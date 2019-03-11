@@ -1,13 +1,13 @@
 ---
-title: "„Project Service Automation“"
-description: "Šioje temoje pateikiama informacija apie „Project Service Automation“ integravimo į „Finance and Operations“ sprendimą. Šiame integravimo sprendime naudojant funkciją Duomenų integravimas ir „Common Data Service“ sinchronizuojami duomenys „Microsoft Dynamics 365 for Finance and Operations“ ir „Microsoft Dynamics 365 for Project Service Automation“ egzemplioriuose."
+title: „Project Service Automation“
+description: Šioje temoje pateikiama informacija apie „Project Service Automation“ integravimo į „Finance and Operations“ sprendimą. Šiame integravimo sprendime naudojant funkciją Duomenų integravimas ir „Common Data Service“ sinchronizuojami duomenys „Microsoft Dynamics 365 for Finance and Operations“ ir „Microsoft Dynamics 365 for Project Service Automation“ egzemplioriuose.
 author: KimANelson
 manager: AnnBe
 ms.date: 06/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 4b1d2ae69899a2937d47f6547ee4ba72b2d1ece4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335697"
 ---
-
 # <a name="project-service-automation"></a>„Project Service Automation“
 
 [!include[banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 Integravimo iš „Project Service Automation“ į „Finance and Operations“ sprendime naudojant funkciją Duomenų integravimas ir „Common Data Service“ sinchronizuojami duomenys „Microsoft Dynamics 365 for Finance and Operations“ ir „Microsoft Dynamics 365 for Project Service Automation“ egzemplioriuose. Naudojantis integravimo šablonais, kurie pasiekiami naudojantis funkcija Duomenų integravimas, įgalinamas projektų, projekto sutarčių, projekto sutarčių eilučių, projekto sutarties eilutės etapų, projekto užduočių, išlaidų operacijų kategorijų, apytikslių grafiko reikšmių ir apytikslių išlaidų reikšmių srautas iš „Project Service Automation“ į „Finance and Operations“.
 
 > [!NOTE]
-> - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0“, įdiegę KB 4132657 ir KB 4132660 naudodami šablonus galėsite integruoti projekto užduotis, išlaidų operacijos kategorijas, apytiksles grafiko reikšmes, apytiksles išlaidų reikšmes ir faktines reikšmes, taip pat konfigūruoti funkcijų užrakinimą. Prireikus iš naujo nustatyti apskaitos paskirstymus, rekomenduojame įdiegti ir KB 4131710.
+> - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0“, įdiegę KB 4132657 ir KB 4132660 naudodami šablonus galėsite integruoti projekto užduotis, išlaidų operacijos kategorijas, apytiksles grafiko reikšmes, apytiksles išlaidų reikšmes ir faktines reikšmes, taip pat konfigūruoti funkcijų užrakinimą. Prireikus iš naujo nustatyti apskaitos paskirstymus, rekomenduojame įdiegti ir KB 4131710.
 > - Jei naudojate „Finance and Operations“ versiją 7.3.0, turite įdiegti KB 4074835. Tada galėsite integruoti fiksuotos kainos projektus.
 > - Jei naudojate „Finance and Operations 7.3.0“ ir atliekate mokesčio operacijas naudodami „Project Service Automation“, turite įdiegti KB 4345320, kad šie mokesčiai būtų įtraukti į projekto SF.
 > - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“ versiją 8.0, galėsite naudotis projekto užduoties integravimu, išlaidų operacijos kategorijomis, apytikslėmis grafiko reikšmėmis, apytikslėmis išlaidų reikšmėmis ir funkcijų užrakinimu.
@@ -63,17 +62,16 @@ Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami duomenys atliekan
 
 ## <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 
-Norėdami naudotis integravimo iš „Project Service Automation“ į „Finance and Operations“ sprendimu, turite įdiegti „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ su 12 ar naujesniu platformos naujinimu.
+Norėdami naudotis integravimo iš „Project Service Automation“ į „Finance and Operations“ sprendimu, turite įdiegti „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ su 12 ar naujesniu platformos naujinimu.
 
 ## <a name="system-requirements-for-project-service-automation"></a>„Project Service Automation“ sistemos reikalavimai
 
 Norėdami naudotis integravimo iš „Project Service Automation“ į „Finance and Operations“ sprendimu, turite įdiegti toliau nurodytus komponentus.
 
 - „Microsoft Dynamics 365 for Project Service Automation“ 9.0.0.0 arba naujesnė versija
-- „Microsoft Dynamics 365 for Sales“ skirto sprendimo Potencialūs klientai ir grynieji pinigai versija 1.14.0.0 (v14) arba naujesnė
+- Sprendimui „Microsoft Dynamics 365 for Sales“ skirto sprendimo Potencialūs klientai ir grynieji pinigai versija 1.14.0.0 (v14) arba naujesnė
 - „Project Service Automation to Finance and Operations“ sprendimas, skirtas „Microsoft Dynamics 365 for Project Service Automation“ 1.0.0.0 arba naujesnei versijai
 
 ## <a name="install-the-project-service-automation-to-finance-and-operations-integration-solution-in-your-project-service-automation-instance"></a>„Project Service Automation“ integravimo į „Finance and Operations“ sprendimo diegimas „Project Service Automation“ egzemplioriuje
 
 Atsisiųskite „Project Service Automation“ integravimo į „Finance and Operations“ sprendimą iš [„Microsoft“ atsisiuntimo centro](https://www.microsoft.com/en-us/download/details.aspx?id=57016) ir sekite prie sprendimo pridėtas instrukcijas.
-

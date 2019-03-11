@@ -1,13 +1,13 @@
 ---
-title: "Importuoti valiutų kursus"
-description: "Jei juridinis subjektas gavo SF užsienio valiuta, svarbu užsienio valiutą konvertuoti į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias internete skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą."
+title: Importuoti valiutų kursus
+description: Jei juridinis subjektas gavo SF užsienio valiuta, svarbu užsienio valiutą konvertuoti į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias internete skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333397"
 ---
-
 # <a name="import-currency-exchange-rates"></a>Importuoti valiutų kursus
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Galite importuoti valiutų kursus iš valiutų kursų teikėjų šaltinio ir juo
 | **Sukurti būtinas valiutų poras**    | Pagal šį žymės langelį nustatomas automatinis valiutų porų kūrimas, jei importuojamų valiutų porų nėra. Pasirinkus kai kuriuos teikėjus, šios parinkties naudoti negalima.                                                                                                                                                                                               |
 | **Nepaisyti esamų valiutų kursų**   | Pagal šį žymės langelį nustatomas esamo valiutų poros kurso naujinimas, kai tam tikros datos valiutos kursas jau nustatytas. Jei šio žymės langelio nepažymėsite, tam tikrų datų valiutos kursas nebus importuotas, kai nustatytas kitas valiutos kursas.                                                                                       |
 | **Neleisti importuoti nacionalinės šventės metu** | Pagal šį žymės langelį nustatomas datos, kuri yra valstybinė šventė, valiutos kurso importavimas. Pavyzdžiui, jei pažymėsite šį žymės langelį ir kaip valiutų kursų teikėją naudosite Europos centrinį banką, sistema nenaujins valiutos kurso per valstybinę šventę, susijusią su dabartiniu juridiniu subjektu. Pasirinkus kai kuriuos teikėjus, šios parinkties naudoti negalima. |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "„Attract“ funkcijos ir galimybės"
-description: "Šioje temoje aprašomos „Attract“ funkcijos, skirtos naujų talentų samdymo procesui valdyti."
+title: „Attract“ funkcijos ir galimybės
+description: Šioje temoje aprašomos „Attract“ funkcijos, skirtos naujų talentų samdymo procesui valdyti.
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305476"
 ---
 # <a name="attract-features-and-capabilities"></a>„Attract“ funkcijos ir galimybės
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 10/22/2018
 Šioje temoje aprašomos „Attract“ suteikiamos funkcijos.
 
 ## <a name="attract-dashboard"></a>„Attract“ ataskaitų sritis
-Ataskaitų srityje samdos komandos nariai gali peržiūrėti užduočių, kuriose jie dalyvauja, informaciją. Be to, ataskaitų srityje samdos vadovas ar įdarbintojas taip pat gali į „Attract“ įtraukti naujų darbo vietų – jas sukurti atskirai arba tuo pačiu metu importuoti kelias darbo vietas iš „ Microsoft Excel“ skaičiuoklės.
+Ataskaitų srityje samdos komandos nariai gali peržiūrėti užduočių, kuriose jie dalyvauja, informaciją. Be to, ataskaitų srityje samdos vadovas ar įdarbintojas taip pat gali į „Attract“ įtraukti naujų darbo vietų – jas sukurti atskirai arba tuo pačiu metu importuoti kelias darbo vietas iš „Microsoft Excel“ skaičiuoklės.
 
 ## <a name="jobs"></a>Pareigos
 Puslapyje **Darbo vieta** galima peržiūrėti ir redaguoti tokią informaciją kaip darbo vietos aprašas ir darbo vietos vieta. Puslapyje **Darbo vieta** taip pat suburiama samdos komanda ir jame galite įtraukti komandos įdarbintojų ir kalbintojų arba juos keisti. Puslapyje **Darbo vieta** taip pat galima įtraukti naujus kandidatus.
@@ -46,4 +46,3 @@ Naudojant „Attract“ galima taikyti iš anksto nustatytą samdos procesą, ku
 
 ## <a name="candidate-app"></a>Kandidatų programa
 Kai tik kandidatai įtraukiami į darbo vietą, jie gauna el. laišką su saitu, kurį naudodami jie gali gauti šią programą. Programa pateikia išsamios informacijos apie darbo vietą ir yra bendravimo su samdos komanda įrankis. Ją naudodami kandidatai taip pat gali nurodyti, kada jie gali dalyvauti pokalbiuose.
-

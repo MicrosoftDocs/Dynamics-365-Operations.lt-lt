@@ -1,13 +1,13 @@
 ---
-title: "125 procentų mažėjančios vertės metodas"
-description: "Šiame straipsnyje apžvelgtas 125 % nusidėvėjimo mažėjančios vertės metodas."
+title: 125 procentų mažėjančios vertės metodas
+description: Šiame straipsnyje apžvelgtas 125 % nusidėvėjimo mažėjančios vertės metodas.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f7af5413376a98c3b2b7ded46c757c9156a3fadf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ec88d799c44e035b6490861383557f8c3beda41
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362722"
 ---
-
 # <a name="125-percent-reducing-balance-depreciation"></a>125 procentų mažėjančios vertės metodas
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ Naudojant 125 % mažėjančios vertės metodą, 125 procentai padalijami iš dė
 
 > [!NOTE] 
 > Paprastai, kai suma, kuri apskaičiuojama naudojant 125 % mažėjančios vertės nusidėvėjimo metodą, tampa mažesnė nei suma, kuri būtų apskaičiuota naudojant tiesiogiai proporcingą metodą, visam likusiam laikotarpiui pereinama prie tiesiogiai proporcingo metodo.
-
 
 
 

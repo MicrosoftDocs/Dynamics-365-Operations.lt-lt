@@ -1,13 +1,13 @@
 ---
 title: Europa
-description: "Šioje temoje pateikiami „Microsoft Dynamics 365 for Finance and Operations“ dokumetų išteklių, skirtų Europai, saitai."
+description: Šioje temoje pateikiami „Microsoft Dynamics 365 for Finance and Operations“ dokumetų išteklių, skirtų Europai, saitai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321736"
 ---
-
 # <a name="europe"></a>Europa 
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ ms.lasthandoff: 10/16/2018
 - [Failo formatai mokėjimo metodams](emea-select-file-formats-for-the-method-of-payments.md)
 - [Finansų tarnybos (ESR) integravimas](emea-fiscal-service-integration.md)
 - [Ilgalaikio turto likvidavimas Estijoje ir Lietuvoje](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Atsargų perkėlimo įmonės viduje perkėlimo dokumentų generavimas](tasks/transfer-document-internal-inventory-transfer.md)
+- [Atsargų perkėlimo įmonės viduje perkėlimo dokumento generavimas](tasks/transfer-document-internal-inventory-transfer.md)
 - [ES pardavimo sąrašo ataskaitos generavimas](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 failai
   - [ISO20022 failų importavimas](emea-ISO20022-file-formats.md)
@@ -99,5 +98,4 @@ ms.lasthandoff: 10/16/2018
 
 - [Elektroninių ataskaitų apžvalga](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-
 

@@ -1,13 +1,13 @@
---- 
-title: "Kurti ir priskirti savikainos paskirstymo strategiją savikainos kontrolės įtaisui"
-description: "Savikainos paskirstymo taisyklės naudojamos norint paskirstyti savikainą, kuri buvo finansiškai apskaičiuota kolektyviniame išlaidų centre."
+---
+title: Kurti ir priskirti savikainos paskirstymo strategiją savikainos kontrolės įtaisui
+description: Savikainos paskirstymo taisyklės naudojamos norint paskirstyti savikainą, kuri buvo finansiškai apskaičiuota kolektyviniame išlaidų centre.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 46ba6322f2cea7828033c214502accdf73f073be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbd44816fc2f2569dd477fc21f59418a575bb835
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308465"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Kurti ir priskirti savikainos paskirstymo strategiją savikainos kontrolės įtaisui
 
@@ -71,5 +71,4 @@ Savikainos paskirstymo taisyklės naudojamos norint paskirstyti savikainą, kuri
     * Pasirinkite tinkamų finansinių metų rugsėjo 1.  
 5. Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.
 6. Spustelėkite Įrašyti.
-
 

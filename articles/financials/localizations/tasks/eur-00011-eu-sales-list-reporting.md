@@ -1,13 +1,13 @@
---- 
-title: "EUR-00011, ES pardavimo sąrašo ataskaitų nustatymas"
-description: "Ši užduotis skirta jums padėti peržiūrėti būtinąsias sąlygas, kurių reikia laikytis norint teikti ES pardavimo sąrašo ataskaitas."
+---
+title: EUR-00011, ES pardavimo sąrašo ataskaitų nustatymas
+description: Ši užduotis skirta jums padėti peržiūrėti būtinąsias sąlygas, kurių reikia laikytis norint teikti ES pardavimo sąrašo ataskaitas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, SysQueryForm, SysQueryFieldLookUp,  TaxTable, TaxGroup, TaxItemGroup, TaxCountryRegionParameters, TaxVATNumTable, IntrastatParameters, CustTable, DirPartyQuickCreateForm
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: aef1d19aabb7937fcd961a9657b8ca65c064b0b1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371174"
 ---
 # <a name="eur-00011-set-up-eu-sales-list-reporting"></a>EUR-00011, ES pardavimo sąrašo ataskaitų nustatymas
 
@@ -128,5 +128,4 @@ ES pardavimo sąrašo ataskaitų „wiki‟ puslapį. Vadovas buvo sukurtas naud
 7. Lauke PVM mokėtojo kodas pasirinkite „PT12345“.
 8. Lauke Šalis / regionas įveskite „PRT“
 9. Spustelėkite Įrašyti.
-
 

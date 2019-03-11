@@ -1,14 +1,14 @@
 ---
-title: "„Attract“ išplečiamumas"
-description: "Šioje temoje aprašoma, kaip naudodami „Microsoft Power Platform“ galite išplėsti programą „Microsoft Dynamics 365 for Talent - Attract“."
+title: „Attract“ išplečiamumas
+description: Šioje temoje aprašoma, kaip naudodami „Microsoft Power Platform“ galite išplėsti programą „Dynamics 365 for Talent - Attract“.
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 0af60a0aea0f7a5de793631445aaebb37dbb0d74
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305451"
 ---
-
 # <a name="extensibility-in-attract"></a>„Attract“ išplečiamumas
 
 [!include[banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Talent“ sukurta kaip programoms skirtos paslaugos „Common Data Service (CDS)“ platformos papildas ir ją galima išplėsti naudojantis „Microsoft Power Platform“ ir programoms skirtos paslaugos „Common Data Service“ siūlomomis galimybėmis. Todėl galite konfigūruoti ir pritaikyti sistemą (naudodamiesi „Microsoft PowerApps“ ir „Microsoft Flow“). Taip pat naudodamiesi „Microsoft Power BI“ galite gauti papildomų analitinių duomenų apie žmones. Be to, naudojantis naujomis pasirinktinėmis veiklomis, pvz., „PowerApps“ ir interneto turinio („iframe“) veiklomis, samdos procesas gali būti daug lengviau pritaikomas nei bet kada. Naudodamiesi šiomis veiklomis samdos procesą galite pritaikyti pagal savo verslo poreikius ir procesus, taip pat galite būti tikri, kad samdos komanda ir kandidatai turi atitinkamos nuoseklios patirties.
+„Microsoft Dynamics 365 for Talent“ sukurta kaip programoms skirtos paslaugos „Common Data Service“ (CDS) platformos papildas ir ją galima išplėsti naudojantis „Microsoft Power Platform“ ir programoms skirtos paslaugos „Common Data Service“ siūlomomis galimybėmis. Todėl galite konfigūruoti ir pritaikyti sistemą (naudodamiesi „Microsoft PowerApps“ ir „Microsoft Flow“). Taip pat naudodamiesi „Microsoft Power BI“ galite gauti papildomų analitinių duomenų apie žmones. Be to, naudojantis naujomis pasirinktinėmis veiklomis, pvz., „PowerApps“ ir interneto turinio („iframe“) veiklomis, samdos procesas gali būti daug lengviau pritaikomas nei bet kada. Naudodamiesi šiomis veiklomis samdos procesą galite pritaikyti pagal savo verslo poreikius ir procesus, taip pat galite būti tikri, kad samdos komanda ir kandidatai turi atitinkamos nuoseklios patirties.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Naudojimasis „Microsoft Power Platform“ 
 
@@ -40,9 +39,9 @@ Kadangi visi duomenys iš „Attract“ laikomi programoms skirtoje paslaugoje �
 
 Naudojantis „PowerApps“ paprasta kurti prie „Attract“ duomenų prisijungiančias programas, taip pat programas, kurios, naudodamos išraiškas (pvz., „Microsoft Excel“ išraiškas), įtraukia logiką. Naudojantis „PowerApps“ sukurtas programas galima paleisti žiniatinklyje, „Apple iOS“ ir „Google Android“ įrenginiuose.
 
-Pavyzdžiui, galite sukurti supaprastintą programą, kuria naudodamiesi darbaviai gali peržiūrėti CV ir priskirti kandidatams atitinkamas „Attract“ nurodytas pareigas – tokiu būdu universiteto karjeros mugės jiems tampa paprastesnės. Arba galite sukurti programą, kuri padėtų įgyvendinti jūsų organizacijos atitikties reikalavimus. Daugiau informacijos apie „PowerApps“ ir apie tai, kaip ja naudojantis kurti programas ieškokite [Duomenų integravimas į programoms skirtą „Common Data Service“](https://docs.microsoft.com/en-us/powerapps).
+Pavyzdžiui, galite sukurti supaprastintą programą, kuria naudodamiesi darbaviai gali peržiūrėti CV ir priskirti kandidatams atitinkamas „Attract“ nurodytas pareigas – tokiu būdu universiteto karjeros mugės jiems tampa paprastesnės. Arba galite sukurti programą, kuri padėtų įgyvendinti jūsų organizacijos atitikties reikalavimus. Daugiau informacijos apie „PowerApps“ ir apie tai, kaip ja naudojantis kurti programas ieškokite [Duomenų integravimas į programoms skirtą „Common Data Service“.](https://docs.microsoft.com/en-us/powerapps)
 
-### <a name="microsoft-flow"></a>„Microsoft Flow“ 
+### <a name="microsoft-flow"></a>Microsoft Flow 
 
 Naudodamiesi „Microsoft Flow“ galite sukurti automatinių šalia „Attract“ duomenų veikiančių darbo eigų. Paprasta prijungti prie šimtų populiarių programų ir paslaugų, kadangi nereikia rašyti kodo. Sukurdami eigas, kurios sąveikauja su programoms skirtos „Common Data Service“ „Attract“ objektais Pareigos, Kandidatas ir Pareiškimas, galite automatizuoti įvairius veiksmus. Pavyzdžiui, kai kandidatas priima pasiūlymą, galima nusiųsti pranešimą supažindinimo komandai arba apie tai galima paskelbti „Twitter“. Daugiau informacijos apie eigas ieškokite [„Microsoft Flow“ dokumentacijoje](https://docs.microsoft.com/en-us/flow/).
 
@@ -67,4 +66,3 @@ Naudodamiesi žiniatinklio turinio („iframe“) veikla galite įterpti vykstan
 
 > [!NOTE]
 > Žiniatinklio turinio veiklą galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu.
-

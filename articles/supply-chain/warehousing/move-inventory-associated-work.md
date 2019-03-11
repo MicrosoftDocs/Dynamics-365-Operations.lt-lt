@@ -1,13 +1,13 @@
 ---
-title: "Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas"
-description: "Šioje temoje aprašoma, kaip nustatyti ir taikyti vienetų paėmimo patvirtinimą iš mobiliojo įrenginio."
+title: Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas
+description: Šioje temoje aprašoma, kaip nustatyti ir taikyti vienetų paėmimo patvirtinimą iš mobiliojo įrenginio.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorker
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 618942ff22b6a81c75bd472955e4add14e6f4d84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7b330d6aa8e972d3c35bb7783ec0a39f09775011
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347657"
 ---
-
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -59,5 +58,4 @@ Norėdami pažymėti darbininką, kuriam turėtų būti leidžiama perkelti reze
 
 Ši funkcija taip pat buvo perkelta į „Microsoft Dynamics AX 2012 R3“ ir bus pasiekiama kaip CU12 dalis.
 Ją taip pat galima atsisiųsti atskirai KB numeriu 3192548. 
-
 

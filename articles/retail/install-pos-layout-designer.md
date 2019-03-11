@@ -1,13 +1,13 @@
 ---
-title: "Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas"
-description: "Galite naudoti vieno spustelėjimo dizaino įrankį, norėdami kurti skirtingus „Retail Modern POS“ (MPOS) ir „Cloud POS“ horizontalaus arba vertikalaus režimo maketus, skirtus parduotuvėms, registrams, kasininkams ir vadovams."
+title: Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas
+description: Galite naudoti vieno spustelėjimo dizaino įrankį, norėdami kurti skirtingus „Retail Modern POS“ (MPOS) ir „Cloud POS“ horizontalaus arba vertikalaus režimo maketus, skirtus parduotuvėms, registrams, kasininkams ir vadovams.
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327647"
 ---
-
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas
 
 [!include [banner](includes/banner.md)]
@@ -37,9 +36,9 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
 
 ## <a name="install-the-one-click-designer"></a>Vieno spustelėjimo dizaino įrankio diegimas
 
-1. Norėdami pasirinkti **Mažmeninė prekyba** **ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**, programoje „Microsoft Dynamics 365 for Retail“ naudokite meniu, esantį viršutiniame kairiajame kampe.
+1. „Microsoft Dynamics 365 for Retail“ naudokite meniu, esantį viršutiniame kairiajame kampe, norėdami pasirinkti **Mažmeninė prekyba** **ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
 2. Pasirinkite maketą, kurio programos tipas yra **Modern POS for Windows** arba **Cloud POS**, o tada spustelėkite **Maketo dizaino įrankis**.
-3. „Internet Explorer“ apačioje rodomoje pranešimų juostoje spustelėkite **Atidaryti**, kad įdiegtumėte vieno spustelėjimo dizaino įrankį. (Kitose naršyklėse pranešimų juosta gali būti rodoma kitoje vietoje.)
+3. „Internet Explorer“ apačioje rodomoje pranešimų juostoje spustelėkite **Atidaryti**, kad diegtumėte vieno spustelėjimo dizaino įrankį. (Kitose naršyklėse pranešimų juosta gali būti rodoma kitoje vietoje.)
 4. Pasirodančiame pranešimo lauke **Programos paleidimas – saugos įspėjimas** spustelėkite **Paleisti**, kad įdiegtumėte „Retail“ dizaino įrankį. Vykdymo indikatorius rodo diegimo proceso eigą.
 5. Baigus diegti, puslapyje **Prisijungimas** įveskite savo „Microsoft Dynamics 365 for Retail“ vartotojo vardą ir slaptažodį, tada spustelėkite **Prisijungti**, kad paleistumėte dizaino įrankį.
 6. Kai kredencialai patvirtinti ir dizaino įrankis paleistas, galima kurti savo maketą arba modifikuoti esamą maketą.
@@ -64,4 +63,3 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [„Retail Modern POS“ konfigūravimas, atsisiuntimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md)
-

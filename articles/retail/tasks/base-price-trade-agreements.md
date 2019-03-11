@@ -1,13 +1,13 @@
---- 
+---
 title: " Bazinė kaina ir prekybos sutartys"
-description: "Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis."
+description: Ši procedūra padeda kurti konkretaus kanalo pardavimo kainos prekybos sutartis.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PriceDiscGroup, RetailStoreTable, RetailChannelPriceGroup, EcoResProductDetailsExtended, PriceDiscAdmTable, PriceDiscAdm
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4830ac553318cfbb3cb74395d1662e74dff75290
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 81c70921718e41719470c7428c05a9f7ae77354a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320425"
 ---
 # <a name="base-price-and-trade-agreements"></a> Bazinė kaina ir prekybos sutartys
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 02/07/2018
 37. Uždarykite puslapį.
 38. Veiksmų srityje spustelėkite Parduoti.
 39. Spustelėkite Pardavimo kaina.
-
 

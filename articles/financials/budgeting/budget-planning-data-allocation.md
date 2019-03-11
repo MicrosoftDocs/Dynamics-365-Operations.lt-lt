@@ -1,13 +1,13 @@
 ---
-title: "Biudžeto planavimo duomenų paskirstymas"
-description: "Šiame straipsnyje aprašyti įvairūs paskirstymo metodai, kuriuos galima naudoti „Microsoft Dynamics 365 for Finance and Operations“, ir kaip juos naudoti."
+title: Biudžeto planavimo duomenų paskirstymas
+description: Šiame straipsnyje aprašyti įvairūs paskirstymo metodai, kuriuos galima naudoti „Microsoft Dynamics 365 for Finance and Operations“, ir kaip juos naudoti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352510"
 ---
-
 # <a name="budget-planning-data-allocation"></a>Biudžeto planavimo duomenų paskirstymas
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ Po to puslapyje **Biudžeto planavimo konfigūracija** sukurkite etapo paskirsty
 Galiausiai pridėkite norimo darbo eigos etapo biudžeto planavimo etapo paskirstymo automatizuotą užduotį. Šiame pavyzdyje į darbo eigą įtraukti du biudžeto planavimo etapo paskirstymai (pažymėti raudonai).
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Ciklo skaičiavimas"
-description: "Šiame straipsnyje aprašoma, kaip ciklo skaičiavimą galite naudoti su sandėliavimo sprendimu, prieinamu modulyje Sandėlio valdymas. Šis straipsnis netaikomas sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas."
+title: Ciklo skaičiavimas
+description: Šiame straipsnyje aprašoma, kaip ciklo skaičiavimą galite naudoti su sandėliavimo sprendimu, prieinamu modulyje Sandėlio valdymas. Šis straipsnis netaikomas sandėliavimo sprendimui, kuris prieinamas modulyje Atsargų valdymas.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323231"
 ---
-
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audituoti turimas atsargų prekes. Ciklo skaičiavimo procesą galima apibūdinti tolesniais trimis veiksmais.
 
 1.  **Ciklo skaičiavimo darbo kūrimas** – ciklo skaičiavimo darbas gali būti sukuriamas automatiškai, atsižvelgiant į prekių ribinių reikšmių parametrus, arba naudojant ciklo skaičiavimo planą. Taip pat ciklo skaičiavimo darbą galite kurti rankiniu būdu, naudodami prekės arba sandėlio parametrus puslapyje **Ciklų skaičiavimo darbas pagal prekę** arba **Ciklų skaičiavimo darbas pagal vietą**.
-2.  **Ciklo skaičiavimo apdorojimas** – kai ciklo skaičiavimo darbas sukurtas, jį atliekate suskaičiuodami prekes sandėlio vietoje ir mobiliuoju įrenginiu įvesdami rezultatą į „Microsoft Dynamics 365 for Finance and Operations“ . Taip pat galite skaičiuoti prekes sandėlio vietoje nekurdami ciklo skaičiavimo darbo. Šis procesas vadinamas *ciklo skaičiavimu vietoje*.
+2.  **Ciklo skaičiavimo apdorojimas** – kai ciklo skaičiavimo darbas sukurtas, jį atliekate suskaičiuodami prekes sandėlio vietoje ir mobiliuoju įrenginiu įvesdami rezultatą į „Microsoft Dynamics 365 for Finance and Operations“. Taip pat galite skaičiuoti prekes sandėlio vietoje nekurdami ciklo skaičiavimo darbo. Šis procesas vadinamas *ciklo skaičiavimu vietoje*.
 3.  **Apskaičiuotos reikšmės skirtumų pašalinimas** – atlikus ciklo skaičiavimą, visų prekių, kurių apskaičiuota reikšmė skiriasi, darbo būsena puslapyje **Visi darbai** bus **Laukiama peržiūros**. Šiuos skirtumus pašalinti galite puslapyje **Peržiūros laukiantis ciklo skaičiavimo darbas**.
 
 Toliau pateiktoje iliustracijoje parodytas ciklo skaičiavimo procesas. ![Ciklo skaičiavimo proceso eiga](./media/performcyclecountinginawarehouselocation.jpg)
@@ -138,7 +137,6 @@ Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reik
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 [Mobiliųjų įrenginių konfigūravimas darbui sandėlyje](configure-mobile-devices-warehouse.md)
-
 
 
 

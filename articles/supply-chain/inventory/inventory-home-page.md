@@ -1,13 +1,13 @@
 ---
-title: "Atsargų valdymo pagrindinis puslapis"
-description: "Šioje temoje pateikiama visų atsargų valdymo peržiūra."
+title: Atsargų valdymo pagrindinis puslapis
+description: Šioje temoje pateikiama visų atsargų valdymo peržiūra.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364930"
 ---
-
 # <a name="inventory-management"></a>Atsargų valdymas 
 
 [!include [banner](../includes/banner.md)]
@@ -49,16 +48,15 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365 Roadmap‟](https://roadmap.dynamics.com/) svetainę.
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).
 
 ### <a name="inventory-accounting"></a>Atsargų apskaita 
 Norėdami sužinoti daugiau, žr. [Kaštų valdymo atsargų apskaita](../cost-management/inventory-close.md).
 
 ### <a name="manufacturing-and-supply-chain-management-blogs"></a>Gamybos ir tiekimo grandinės valdymo tinklaraščiai
-Nuomonių, naujienų ir kitos informacijos apie atsargų valdymą galima rasti [„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+Nuomonių, naujienų ir kitos informacijos apie atsargų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Supply Chain Management“ sprendimo „Dynamics AX“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Užduočių vedliai
 Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką **Žinynas**.
-
 
 

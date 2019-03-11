@@ -1,13 +1,13 @@
 ---
-title: "Klausimynų rezultatų peržiūra ir įvertinimas"
-description: "Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus."
+title: Klausimynų rezultatų peržiūra ir įvertinimas
+description: Šioje temoje paaiškinama, kaip galite peržiūrėti ir įvertinti respondentų užpildytų klausimynų rezultatus.
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305537"
 ---
-
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Klausimynų rezultatų peržiūra ir įvertinimas
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/09/2018
 
 Respondentams užpildžius klausimyną, jo rezultatus peržiūrėti ir įvertinti galite tolesniais būdais.
 
--   **Užpildyti atsakymų seansai** – peržiūrėkite informaciją apie respondentų užpildytus klausimynus ir generuokite ataskaitas sumuoti atsakymams bei visiems gautiems taškams.
+-   **Užpildyti atsakymų seansai** – peržiūrėkite informaciją apie respondentų užpildytus klausimynus ir generuokite ataskaitas sumuoti atsakymams bei visiems gautiems taškams.
 -   **Rezultatų grupės** – Peržiūrėkite klausimynų rezultatų grupių informaciją ir statistiką. Galima generuoti vieno klausimyno atsakymų seanso arba visų atsakymų seansų rezultatų grupių statistiką.
 -   **Klausimyno statistika** – nurodykite kriterijus skaičiuoti tam tikros respondentų grupės statistikai.
 
@@ -46,7 +45,7 @@ Taip pat galite generuoti įvairias ataskaitas ir peržiūrėti rezultatus, sur�
 -   Grįžtamojo ryšio analizė
 
 ## <a name="answer-session-results"></a>Atsakymų seansų rezultatai
-Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakymų seansų rezultatus. Atsakymų seansas yra vieno naudotojo atsakymas į klausimyną. Išsamią informaciją apie užpildytus atsakymų seansus galite peržiūrėti **Atsakymų** puslapyje. Atsakymų seansai, įtraukti **Atsakymų** puslapyje, filtruojami įvairiais būdais – tai priklauso nuo to, kaip puslapį atidarote.
+Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakymų seansų rezultatus. Atsakymų seansas yra vieno naudotojo atsakymas į klausimyną. Išsamią informaciją apie užpildytus atsakymų seansus galite peržiūrėti **Atsakymų** puslapyje. Atsakymų seansai, įtraukti **Atsakymų** puslapyje, filtruojami įvairiais būdais – tai priklauso nuo to, kaip puslapį atidarote.
 
 -   Visi klausimynai
 -   Konkretus klausimynas
@@ -81,5 +80,4 @@ Jūsų nustatytos nuostatos įrašomos ir gali būti naudojamos periodiškai per
 [Klausimynų naudojimas](questionnaires.md)
 
 [Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
-
 

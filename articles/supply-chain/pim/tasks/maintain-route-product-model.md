@@ -1,13 +1,13 @@
---- 
-title: "Tvarkyti produkto modelio maršrutą"
-description: "Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos modelis."
+---
+title: Tvarkyti produkto modelio maršrutą
+description: Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos modelis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0e793466e021671501570aed06959d684d5e9c15
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317159"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Tvarkyti produkto modelio maršrutą
 
@@ -66,5 +66,4 @@ Norint paleisti šią procedūrą, reikia, kad būtų produkto konfigūracijos m
     * Nuspręskite, ar norite nurodyti konkrečius išteklius ar galimybes, kurias jie turi turėti.  
 15. Lauke Reikalavimai įveskite arba pasirinkite vertę.
 16. Spustelėkite GERAI.
-
 

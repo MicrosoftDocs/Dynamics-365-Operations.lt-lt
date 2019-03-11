@@ -1,13 +1,13 @@
 ---
 title: Valiutos kurso koregavimai
-description: "Šioje temoje pateikiama informacija apie valiutos kurso koregavimo funkciją, skirtą vartotojams, kurių juridiniai subjektai yra Estijoje, Čekijos Respublikoje, Latvijoje, Lietuvoje, Lenkijoje ir Rusijoje."
+description: Šioje temoje pateikiama informacija apie valiutos kurso koregavimo funkciją, skirtą vartotojams, kurių juridiniai subjektai yra Estijoje, Čekijos Respublikoje, Latvijoje, Lietuvoje, Lenkijoje ir Rusijoje.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: eece22113824fd520568dc46bbd384bda23c3c8d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dbc715a23e14d96e0ac93e47ff793e49fad24b93
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371248"
 ---
-
 # <a name="exchange-rate-adjustments"></a>Valiutos kurso koregavimai
 
 [!include [banner](../includes/banner.md)]
@@ -95,7 +94,6 @@ Atkreipkite dėmesį, kad šiame perkainojimo pavyzdyje 2013 m. sausio 1 d. į
 |13-01-03 | Kreditas | 0 CAD / 5 000 USD | Negautas valiutos koregavimo pelnas | Užsienio valiutos kurso pasikeitimas | Valiutos kurso pelnas | X |   |
 
 Sistema veikia taip pat, nepaisant to, ar puslapio **DK parametrai** dalies **Operacijos atšaukimas** parinktis **Koregavimas** nustatyta į **Taip**, ar **Ne**.
-
 
 
 

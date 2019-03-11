@@ -1,32 +1,31 @@
 ---
-title: "Prekių pakankamų atsargų pildymas"
-description: "Šioje temoje aptariamas pakankamų atsargų pildymas ir tai, kaip nustatyti prekių pakankamų atsargų kiekį."
+title: Prekių pakankamų atsargų pildymas
+description: Šioje temoje aptariamas pakankamų atsargų pildymas ir tai, kaip nustatyti prekių pakankamų atsargų kiekį.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341539"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>Prekių pakankamų atsargų pildymas
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ Pakankamų atsargų poreikio pildymo operacijos prioritetas sumažinamas, jei si
 Bendrojo planavimo padengimo etapo metu pakankamų atsargų papildymo prioritetas nebėra mažinamas. Turimas atsargas galima naudoti prieš bet kokį kitą poreikio tipą. Skaičiuojant atidėjimą, įtraukiama nauja logika atidėtų pardavimo eilučių, KS eilučių poreikiams ir visų kitų tipų poreikiui patikrinti, kad būtų nustatyta, ar jie gali pristatyti laiku, jei naudojamos pakankamos atsargos. Jei sistema nustato, kad atidėjimas gali būti sumažintas naudojant pakankamas atsargas, tada pradinis pardavimo eilučių arba KS eilučių padengimas bus pakeistas pakankamomis atsargomis, o sistema suaktyvins papildymą naudojant pakankamas atsargas.
 
 Jei nenustatytas plano ar prekės atidėjimo skaičiavimas, tada pakankamų atsargų apribojimo prioritetas bus toks pat kaip bet kurio kito tipo poreikio prioritetas. Tai reiškia, kad yra turimų ir kitų atsargų rezervas prieš kitų tipų poreikį.
-

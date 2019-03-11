@@ -1,13 +1,13 @@
 ---
-title: "PVM skaičiavimo metodas lauke Kilmė"
-description: "Šiame straipsnyje paaiškinamos PVM kodų puslapio lauko Kilmė parinktys ir tai, kaip PVM skaičiuojamas pagal pasirinktą PVM kodo parinktį."
+title: PVM skaičiavimo metodas lauke Kilmė
+description: Šiame straipsnyje paaiškinamos PVM kodų puslapio lauko Kilmė parinktys ir tai, kaip PVM skaičiuojamas pagal pasirinktą PVM kodo parinktį.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 1473eeb2950296f5ae6250d7a53794af3d9cba81
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330683"
 ---
-
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>PVM skaičiavimo metodas lauke Kilmė
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,6 @@ Dokumento / žurnalo parametras Sumos, įskaitant PVM = Ne Operacijos eilutės s
 [PVM tarifų nustatymas pagal Bazinės ribos ir Skaičiavimo metodo laukus](marginal-base-field.md)
 
 [Visa suma ir PVM kodų intervalo skaičiavimo parinktys](whole-amount-interval-options-sales-tax-codes.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Pašalintos arba nebenaudojamos funkcijos"
-description: "Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti."
+title: Pašalintos arba nebenaudojamos funkcijos
+description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329257"
 ---
-
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
 [!include [banner](../includes/banner.md)]
@@ -95,9 +94,9 @@ Funkcija, skirta naujiems pelno mokesčio registrų šablonams kurti. Ši funkci
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcija nesuderinama su „Dynamics 365 for Finance and Operations“ išplėtimo modeliu. |
-| **Pakeitė kita funkcija?**   | Nr. |
+| **Pakeitė kita funkcija?**   | nr. |
 | **Paveiktos produkto sritys**         | Mokesčiai |
-| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 8.1 versijos su 20 platformos naujiniu. |
 
 
@@ -106,7 +105,7 @@ Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudoj
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ su 12 platformos naujiniu
 
-### <a name="personalized-product-recommendations"></a>Personalizuotos produkto rekomendacijos 
+### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
 Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
 
 |   |  |
@@ -126,7 +125,7 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Pakeitė kita funkcija?**   | Nėra. Kai reikalinga nauja įtaisytoji funkcija, naują išplėtimo užklausą reikia skirti ER sistemos komandai.<br><br>Kol ER komanda kuria pageidaujamą funkciją, šią problemą galima laikinai išspręsti – reikalingą logiką galima suprogramuoti kaip pasirinktinės programos klasės metodą. Šį metodą galima pasiekti ER išraiškoje kaip įtraukto ER duomenų šaltinio, kurio tipas **Programa \ klasė**, ypatybę, nurodančią tą pasirinktinę programos klasę.  |
 | **Paveiktos produkto sritys**         | Elektroninių ataskaitų sistema                                                      |
 | **Visuotinio diegimo parinktis**              | Visos                                                                                      |
-| **Būsena**                         | Pašalinta iš „Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“    |
+| **Būsena**                         | Pašalinta iš „Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Atsargos pagal prekių grupę ir atsargos pagal atsargų dimensijų skirstymo pagal terminus ataskaitas
 
@@ -141,12 +140,12 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Būsena**                       | Nebenaudojama: abiejų ataskaitų meniu elementai buvo pašalinti iš 7.3 versijos. Tačiau į produktą vis dar įtrauktas ataskaitų kodas. Kodą planuojama pašalinti iš būsimo leidimo. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>„Power BI“ turinio paketai, prieinami „AppSource“
-Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Mažmeninės prekybos kanalo efektyvumas**, prieinami svetainėje [„Microsoft AppSource“](https://appsource.microsoft.com) yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat yra nebenaudojami „Finance and Operations“.
+Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat yra nebenaudojami „Finance and Operations“.
 
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Power BI“ produkto naujiniai. |
-| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Mažmeninės prekybos kanalo efektyvumas**, prieinami svetainėje [„AppSource“](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [AppSource](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Paveiktos produkto sritys**         | Išlaidų valdymas, „Finance“ ir „Retail“                                                                                               |
 | **Visuotinio diegimo parinktis**              | Tik debesyje (integravimas su PowerBI.com nepalaikomas vietinėse įdiegtyse.)                                                                                                            |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2018 m. antrasis ketvirtis.    |
@@ -209,9 +208,9 @@ Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 | **Būsena**                                  | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.  |    
 
 
-## <a name="dynamics-365-for-retail-72"></a>„Dynamics 365 for Retail 7.2‟
+## <a name="dynamics-365-for-retail-72"></a>„Dynamics 365 for Retail 7.2“
 
-### <a name="personalized-product-recommendations"></a>Personalizuotos produkto rekomendacijos 
+### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
 Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
 
 |   |  |
@@ -223,7 +222,7 @@ Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produ
 | **Būsena**                         |Pašalinta nuo 2018 m. vasario 15 d. Tai turės įtakos klientams, naudojantiems „Dynamics 365 for Retail 7.2“ ir vėlesnes versijas. |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition“ 2017 m. liepos mėn. versija su 8 platformos naujiniu
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition“ (2017 m. liepos mėn.) su 8 platformos naujiniu
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>Valiutos konvertavimas, skirtas apskaitos ir ataskaitų valiutoms
 
@@ -261,7 +260,7 @@ Gretinimo taisyklė buvo naudojama norint pasirinkti ir pažymėti banko dokumen
 | **Visuotinio diegimo parinktis**              | Visos                                                                                    |
 | **Būsena**                         | Pašalinta 2017 m. liepos mėn.                                                               |
 
-## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>„Dynamics 365 for Operations 1611“ su 3 platformos naujiniu
+## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>„Dynamics 365 for Operations 1611“ su 3 platformos naujinimu
 
 ### <a name="aeb-payment-formats-for-spain"></a>AEB mokėjimo formatai, skirti Ispanijai
 
@@ -573,8 +572,8 @@ Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietin
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas**, dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas**, kuris buvo išleistas programoje „Microsoft Dynamics AX 2012 R3‟.                                                                         |
-| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas**, kuris buvo išleistas programoje AX 2012 R3, „Microsoft Dynamics AX 2012 R3 CU8‟ ir „Microsoft Dynamics AX 2012 R3 CU9‟, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
+| **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas**, dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas**, kuris buvo išleistas programoje „Microsoft Dynamics AX 2012 R3“.                                                                         |
+| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas**, kuris buvo išleistas programoje „AX 2012 R3“, „Microsoft Dynamics AX 2012 R3 CU8“ ir „Microsoft Dynamics AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
 | **Paveiktos produkto sritys**         | Atsargų valdymas, Pardavimas ir rinkodara, Įsigijimas ir šaltinio parinkimas   |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos.    |
 
@@ -595,7 +594,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Dynamics 365 Finance and Operations“ efektyvumo valdymas buvo visiškai perkurtas.     |
+| **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Dynamics 365 for Finance and Operations“ efektyvumo valdymas buvo visiškai perkurtas.     |
 | **Pakeitė kita funkcija?**   | Perkurta efektyvumo valdymo funkcija suteikia galimybę geriau kontroliuoti tikslų turinį, matavimus, naudojamus eigai sekti, ir patvirtinamųjų dokumentų pridėjimą. Tikslai gali būti saugomi kaip šablonai ir naudojami pakartotinai. Naudodami šią funkciją galite greičiau nustatyti papildomus darbuotojų tikslus. |
 | **Paveiktos produkto sritys**         | Žmogiškojo kapitalo valdymas                 |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos. |
@@ -614,7 +613,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ir AxBC integracijos
 
-Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX‟ apima paslaugas, paremtas dokumentais ir „.NET Business Connector‟ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX‟ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<dokumentų\>** klases.
+Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<dokumentų\>** klases.
 
 |   |  |
 |------------|--------------------|
@@ -625,7 +624,7 @@ Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis gali
 
 ### <a name="boms-without-bom-versions"></a>KS be KS versijų
 
-Kai **KS versijų** konfigūracijos raktas buvo išjungtas, komplektavimo specifikacijų (KS) versijos buvo paslėptos visose formose, ir sistema tarp išleistų produktų ir KS priverstinai taikė ryšį 1:1. Dabartinėje „Dynamics AX‟ versijoje konfigūracijos rakto **KS versijos** išjungti negalima.
+Kai **KS versijų** konfigūracijos raktas buvo išjungtas, komplektavimo specifikacijų (KS) versijos buvo paslėptos visose formose, ir sistema tarp išleistų produktų ir KS priverstinai taikė ryšį 1:1. Dabartinėje „Dynamics AX“ versijoje konfigūracijos rakto **KS versijos** išjungti negalima.
 
 |   |  |
 |------------|--------------------|
@@ -674,7 +673,7 @@ ICMS mokesčio federalinių mokesčių ataskaita
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė kita funkcija.   |
-| **Pakeitė kita funkcija?**   | „Microsoft Power BI‟ turinio pakete Stebėti finansinį našumą bus įtraukta pagrindinė finansų metrika, kuri anksčiau buvo prieinama programoje „Business Analyzer‟. |
+| **Pakeitė kita funkcija?**   | „Microsoft Power BI“ turinio pakete Stebėti finansinį našumą bus įtraukta pagrindinė finansų metrika, kuri anksčiau buvo prieinama programoje „Business Analyzer“. |
 | **Paveiktos produkto sritys**         | DK      |
 | **Būsena**                         | Nebenaudojama: „Business Analyzer“ nebenaudojama.    |
 
@@ -685,7 +684,7 @@ Verslo statistikos užklausų, galinčių padėti analizuoti organizacijos efekt
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Senesnės verslo įžvalgų (BI) versijos, mažas klientų naudojimas ir ribotas funkcijų rinkinys |
-| **Pakeitė kita funkcija?**   | Nauji dabartinės „Dynamics AX‟ versijos BI sprendimai                                      |
+| **Pakeitė kita funkcija?**   | Nauji dabartinės „Dynamics AX“ versijos BI sprendimai                                      |
 | **Paveiktos produkto sritys**         | Įsigijimas ir šaltinio parinkimas, Mokėtinos sumos, Pardavimas ir rinkodara, Gautinos sumos         |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.                                                               |
 
@@ -713,14 +712,14 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų. „Microsoft SharePoint‟ apima tuos pačius pajėgumus, kurie buvo prieinami atitikties centre. |
+| **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų. „Microsoft SharePoint“ apima tuos pačius pajėgumus, kurie buvo prieinami atitikties centre. |
 | **Pakeitė kita funkcija?**   | Nr.   |
 | **Paveiktos produkto sritys**         | Atitikties ir vidiniai valdikliai  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.    |
 
 ### <a name="connector-for-microsoft-dynamics"></a>„Microsoft Dynamics“ jungtis
 
-Šis įrankis buvo naudojamas integruoti pagrindiniams duomenims iš „Microsoft Dynamics CRM‟ į „Microsoft Dynamics ERP‟ programas.
+Šis įrankis buvo naudojamas integruoti pagrindiniams duomenims iš „Microsoft Dynamics CRM“ į „Microsoft Dynamics ERP“ programas.
 
 |   |  |
 |------------|--------------------|
@@ -734,7 +733,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos |
-| **Pakeitė kita funkcija?**   | Taip. Nuo AX 2012 šią funkciją pakeitė konsoliduotųjų paketinius užsakymų funkcijų rinkinys. Šis funkcijų rinkinys apima konsoliduotąjį turimų objektų rodinį. |
+| **Pakeitė kita funkcija?**   | Taip. Nuo „AX 2012“ šią funkciją pakeitė konsoliduotųjų paketinius užsakymų funkcijų rinkinys. Šis funkcijų rinkinys apima konsoliduotąjį turimų objektų rodinį. |
 | **Paveiktos produkto sritys**         | Produktų informacijos valdymas, Gamybos kontrolė, Atsargų valdymas, Pardavimas ir rinkodara  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“. |
 
@@ -801,7 +800,7 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Microsoft Dynamic
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | „Dynamics AX‟ kliento patirtis perkurta, siekiant pagerinti naudojimą keliose platformose ir įrenginiuose.                      |
+| **Nebenaudojimo / pašalinimo priežastis** | „Dynamics AX“ kliento patirtis perkurta, siekiant pagerinti naudojimą keliose platformose ir įrenginiuose.                      |
 | **Pakeitė kita funkcija?**   | Naujasis žiniatinklio klientas paremtas darbalaukio formos metaduomenimis ir programavimo modeliu, kurie modifikuoti siekiant suteikti turiningą žiniatinklio platformą. |
 | **Paveiktos produkto sritys**         | Visi moduliai  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.   |
@@ -860,7 +859,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „ActiveX‟ ir Tvarkomo pagrindinio kompiuterio valdikliai paremti pasenusiu darbalaukio klientu. |
-| **Pakeitė kita funkcija?**   | Išplečiamoji valdymo sistema palaiko naujų valdiklių, paremtų HTML, CSS ir „JavaScript‟, kūrimą ir yra aukščiausios klasės valdiklis „Microsoft Visual Studio‟ įrankių aplinkoje. |
+| **Pakeitė kita funkcija?**   | Išplečiamoji valdymo sistema palaiko naujų valdiklių, paremtų HTML, CSS ir „JavaScript“, kūrimą ir yra aukščiausios klasės valdiklis „Microsoft Visual Studio“ įrankių aplinkoje. |
 | **Paveiktos produkto sritys**         | Visi moduliai     |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.       |
 
@@ -917,9 +916,9 @@ Ataskaitos, kurios apima šiuos meniu elementus, pašalintos: **Bandomojo balans
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Finansines „Microsoft SQL‟ serverio ataskaitų tarnybų (SSRS) ataskaitas pakeitė „Management Reporter‟ galimybės ir numatytosios ataskaitos. |
-| **Pakeitė kita funkcija?**   | „Management Reporter‟ (dabartinėje „Dynamics AX‟ versijoje pažymėta **Finansinės ataskaitos**)    |
-| **Paveiktos produkto sritys**         | DK   |
+| **Nebenaudojimo / pašalinimo priežastis** | Finansines „Microsoft SQL Server“ serverio ataskaitų tarnybų (SSRS) ataskaitas pakeitė „Management Reporter“ galimybės ir numatytosios ataskaitos. |
+| **Pakeitė kita funkcija?**   | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta **Finansinės ataskaitos**)    |
+| **Paveiktos produkto sritys**         | Didžioji knyga   |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.   |
 
 ### <a name="infopart-and-formpart-metadata"></a>„InfoPart‟ ir „FormPart‟ metaduomenys
@@ -939,7 +938,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Balanso informacija pagal sąskaitą ir dimensiją prieinama **Bandomojo balanso** sąrašo puslapyje.  |
 | **Pakeitė kita funkcija?**   | **Pagrindinėse sąskaitose** yra tas pats sąskaitų sąrašas, kuris buvo **Pagrindinės sąskaitos** sąrašo puslapyje. **Pagrindinių sąskaitų** tinklelio rodinyje taip pat rodomas dar mažesnis, tinklelio vaizdas. |
-| **Paveiktos produkto sritys**         | DK      |
+| **Paveiktos produkto sritys**         | Didžioji knyga      |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.    |
 
 ### <a name="malaysia-and-singapore-bank-cash-flow-report"></a>Malaizijos ir Singapūro bankų grynųjų pinigų srauto ataskaita
@@ -966,7 +965,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 
 ### <a name="mexico-realized-and-unrealized-vat"></a>Meksikos sumokėtas ir nesumokėtas PVM
 
-„Microsoft Dynamics AX 2012‟ nesumokėtą pridėtinės vertės mokestį (PVM) valdė naudodama tik Meksikai skirtas nesumokėto mokesčio funkcijas.
+„Microsoft Dynamics AX 2012“ nesumokėtą pridėtinės vertės mokestį (PVM) valdė naudodama tik Meksikai skirtas nesumokėto mokesčio funkcijas.
 
 |   |  |
 |------------|--------------------|
@@ -982,7 +981,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė „Microsoft Exchange Server“ integracija. |
 | **Pakeitė kita funkcija?**   | Taip                                                                            |
-| **Paveiktos produkto sritys**         | Pardavimas ir rinkodara                                                            |
+| **Paveiktos produkto sritys**         | „Sales and marketing“                                                            |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.                                                 |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Privatus atsargų ir sandėlio valdymo žurnalų blokavimas
@@ -1002,7 +1001,7 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Produkto generatorius X++ kodą rodydavo galutiniams naudotojams ir dabartinėje „Dynamics AX‟ versijoje nėra palaikomas. Jis pašalintas siekiant išvengti besidubliuojančių priežiūros darbų sutampančiose, keičiamo dydio kodų bazėse.  |
+| **Nebenaudojimo / pašalinimo priežastis** | Produkto generatorius X++ kodą rodydavo galutiniams naudotojams ir dabartinėje „Dynamics AX“ versijoje nėra palaikomas. Jis pašalintas siekiant išvengti besidubliuojančių priežiūros darbų sutampančiose, keičiamo dydio kodų bazėse.  |
 | **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Paveiktos produkto sritys**         | Produktų informacijos valdymas, Pardavimas ir rinkodara  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.      |
@@ -1024,7 +1023,7 @@ Tai programa, skirta planšetiniams įrenginiams, kuriuose veikia „Windows 8.1
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Dabartinė „Dynamics AX‟ versija nepalaiko etikečių keitimo vykdymo metu. |
+| **Nebenaudojimo / pašalinimo priežastis** | Dabartinė „Dynamics AX“ versija nepalaiko etikečių keitimo vykdymo metu. |
 | **Pakeitė kita funkcija?**   | Nr.                                                                            |
 | **Paveiktos produkto sritys**         | Produkto informacijos valdymas                                                |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.                                                |
@@ -1037,14 +1036,14 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Dėl naujų saugos reikalavimuų dabar palaikomas tik saugus ryšys naudojant TLS 1.2 (arba naujesnę versiją, jei yra). Savitarnos diegimo programa automatiškai sukonfigūruos kompiuterį šiam ryšiui užmegzti. |
 | **Pakeitė kita funkcija?**   | Nr. Dabar palaikomas tik standartinis HTTPS ryšys. |
-| **Paveiktos produkto sritys**         | „Retail Server“  |
+| **Paveiktos produkto sritys**         | Parduotuvės serveris  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“. |
 
 ### <a name="role-center-pages"></a>Vaidmenų centrų puslapiai
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Vaidmenų centrų puslapiai buvo sukurti pasenusioje įmonės portalo platformoje, kurią dabartinėje „Dynamics AX‟ versijoje pakeitė naujoji žiniatinklio kliento programa. |
+| **Nebenaudojimo / pašalinimo priežastis** | Vaidmenų centrų puslapiai buvo sukurti pasenusioje įmonės portalo platformoje, kurią dabartinėje „Dynamics AX“ versijoje pakeitė naujoji žiniatinklio kliento programa. |
 | **Pakeitė kita funkcija?**   | Naujasis Darbo srities formos modelis naudotojams pateikia į procesą orientuotą dizainą, kuris suteikia lengvą prieigą prie dažniausiai naudojamų užduočių tame procese.                       |
 | **Paveiktos produkto sritys**         | Visi moduliai    |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“   |
@@ -1090,11 +1089,11 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="virtual-company-accounts"></a>Virtualios įmonės
 
-Virtualių įmonių funkcija programoje „Dynamics AX‟ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
+Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
 
 |   |  | 
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | - Prieš lentelėse saugant duomenis, reikia nustatyti virtualias įmones. Virtualias įmones pertvarkyti į esamą diegimą yra labai sunku.<br><br>- Kadangi dabartinėje „Microsoft Dynamics AX‟ versijoje buvo tiek daug duomenų normalizavimo, pasidarė sudėtinga sužinoti, ką įtraukti į lentelių rinkinius. Pvz., sunku žinoti, kurias lenteles bendrai naudoti. Taip pat reikia pridėti visas lenteles, į kurias nurodoma iš lentelių, esančių virtualioje įmonėje. Dėl lentelių normalizavimo net paprasti bendrieji duomenys, paskirstyti daugybėje lentelių, turi būti virtualios įmonės dalis. Bet kokia čia padaryta klaida sukels funkcinių problemų.<br><br>- Kai lentelė yra virtualios įmonės dalis, ji praranda informaciją apie duomenų šaltinį, ir įrašoma tik virtuali įmonė.   |
+| **Nebenaudojimo / pašalinimo priežastis** | - Prieš lentelėse saugant duomenis, reikia nustatyti virtualias įmones. Virtualias įmones pertvarkyti į esamą diegimą yra labai sunku.<br><br>- Kadangi dabartinėje „Microsoft Dynamics AX“ versijoje buvo tiek daug duomenų normalizavimo, pasidarė sudėtinga sužinoti, ką įtraukti į lentelių rinkinius. Pvz., sunku žinoti, kurias lenteles bendrai naudoti. Taip pat reikia pridėti visas lenteles, į kurias nurodoma iš lentelių, esančių virtualioje įmonėje. Dėl lentelių normalizavimo net paprasti bendrieji duomenys, paskirstyti daugybėje lentelių, turi būti virtualios įmonės dalis. Bet kokia čia padaryta klaida sukels funkcinių problemų.<br><br>- Kai lentelė yra virtualios įmonės dalis, ji praranda informaciją apie duomenų šaltinį, ir įrašoma tik virtuali įmonė.   |
 | **Pakeitė kita funkcija?** | Kad lentelės būtų pasiekiamos iš visų įmonių, gali būti naudojamos visuotinės lentelės. Šiuo metu nėra pakeitimo. |   
 | **Paveiktos produkto sritys**       | Visi moduliai |   
 | **Būsena**                       | Pašalinta iš „Dynamics AX 7.0“.   |   
@@ -1124,8 +1123,7 @@ Virtualių įmonių funkcija programoje „Dynamics AX‟ nebepalaikoma. Virtual
 |                                                 |                                                                                                          |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Nebenaudojimo / pašalinimo priežastis</strong> |                         Šią funkciją pakeitė kita funkcija.                         |
-|  <strong>Pakeitė kita funkcija?</strong>  | „Management Reporter‟ (dabartinėje „Dynamics AX‟ versijoje pažymėta <strong>Finansinės ataskaitos</strong>) |
-|     <strong>Paveiktos produkto sritys</strong>     |                                              DK                                              |
+|  <strong>Pakeitė kita funkcija?</strong>  | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta <strong>Finansinės ataskaitos</strong>) |
+|     <strong>Paveiktos produkto sritys</strong>     |                                              Didžioji knyga                                              |
 |             <strong>Būsena</strong>             |                                      Pašalinta iš „Dynamics AX 2012“                                      |
-
 

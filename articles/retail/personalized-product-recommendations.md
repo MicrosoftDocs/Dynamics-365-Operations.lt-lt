@@ -1,13 +1,13 @@
 ---
-title: Personalizuotos produkto rekomendacijos
-description: "Šioje temoje pateikiama informacija apie „Dynamics 365 for Retail“ produkto rekomendacijas, kurios gali būti rodomos elektroninio kasos aparato (EKA) įrenginyje."
+title: Personalizuotų produktų rekomendacijos
+description: Šioje temoje pateikiama informacija apie „Dynamics 365 for Retail“ produkto rekomendacijas, kurios gali būti rodomos elektroninio kasos aparato (EKA) įrenginyje.
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326474"
 ---
-
 # <a name="personalized-product-recommendations"></a>Personalizuotos produkto rekomendacijos
 
 [!include [banner](includes/banner.md)]
@@ -94,4 +93,3 @@ Kai įjungiate **Įjungti rekomendacijas** ir paleidžiate konfigūracijos uždu
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Rekomendacijų valdiklio įtraukimas į EKA įrenginio operacijų puslapį](add-recommendations-control-pos-screen.md)
-

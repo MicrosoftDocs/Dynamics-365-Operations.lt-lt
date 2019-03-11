@@ -1,13 +1,13 @@
---- 
-title: "Kurti bendrąjį produktą"
-description: "Sukurkite iš anksto nustatytų variantų bendrąjį produktą."
+---
+title: Kurti bendrąjį produktą
+description: Sukurkite iš anksto nustatytų variantų bendrąjį produktą.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e34f7c630e872468d888938e0f1aa57f3f0d4c4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f944258e7efdd5c9eba7daf9a80c67058a6cc055
-ms.openlocfilehash: 6e5cf92f7736523faf25ac97278a8a273e14ff88
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/25/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326083"
 ---
 # <a name="create-a-product-master"></a>Kurti bendrąjį produktą
 
@@ -66,5 +66,4 @@ Sukurkite iš anksto nustatytų variantų bendrąjį produktą. Kuriant šią pr
 9. Spustelėkite Gerai.
 10. Spustelėkite Įrašyti.
 11. Uždarykite puslapį.
-
 

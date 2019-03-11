@@ -1,13 +1,13 @@
 ---
-title: "Mobilioji darbo sritis Išlaidų valdymas"
-description: "Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Išlaidų valdymas. Ši darbo sritis vartotojams suteikia galimybę fiksuoti ir įkelti kvitą, kad jie galėtų jį pridėti prie išlaidų ataskaitos vėliau. Be to, vartotojai gali greitai kurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas."
+title: Mobilioji darbo sritis Išlaidų valdymas
+description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Išlaidų valdymas. Ši darbo sritis vartotojams suteikia galimybę fiksuoti ir įkelti kvitą, kad jie galėtų jį pridėti prie išlaidų ataskaitos vėliau. Be to, vartotojai gali greitai kurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344345"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>Išlaidų valdymo mobilioji darbo sritis
 
 [!include [banner](../includes/banner.md)]
@@ -32,10 +31,10 @@ ms.lasthandoff: 03/26/2018
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Išlaidų valdymas**. Ši darbo sritis vartotojams suteikia galimybę fiksuoti ir įkelti kvitą, kad jie galėtų jį pridėti prie išlaidų ataskaitos vėliau. Be to, vartotojai gali greitai kurti išlaidų eilutę naudodami pridėtą kvitą ir kurti bei valdyti savo išlaidų ataskaitas. Be to, mobiliąją darbo sritį **Išlaidų valdymas** tvirtintojai gali naudoti norėdami peržiūrėti jiems priskirtas išlaidų ataskaitas ir jas tvirtinti arba atmesti.
 
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
 
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
 Daugelis organizacijų reikalauja, kad prie kompensacijai gauti darbuotojo pateikiamos išlaidų ataskaitos būtų pridėta su kelionėmis arba verslu susijusio kvito kopija. Mobilioji darbo sritis **Išlaidų valdymas** vartotojams suteikia galimybę greitai kurti naujas išlaidų eilutes pasirinktame mobiliajame įrenginyje naudojant pridėtą kvito nuotrauką. Taip pat vartotojai gali nufotografuoti kvitą ir kopiją pridėti prie išlaidų ataskaitos vėliau. Darbuotojai taip pat gali kurti bei valdyti savo išlaidų ataskaitas ir tada pateikti jas patvirtinti bei kompensacijai gauti naudojant savo mobilųjį įrenginį.
 
@@ -64,7 +63,7 @@ Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai 
 Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Išlaidų valdymas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 4019015 yra X++ atnaujinimas arba metaduomenų karštoji pataisa, kurioje yra mobilioji darbo sritis <strong>Išlaidų valdymas</strong>. Norėdamas įdiegti KB 4019015, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modeliai <strong>ApplicationSuite</strong> ir <strong>ExpenseMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
@@ -94,7 +93,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Mobiliosios programos „Dynamics 365 for Operations“ atsisiuntimas ir diegimas
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Atsisiųskite ir įdiekite „Dynamics 365 for Operations“ mobiliąją programą
 Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
 
 - [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
@@ -243,4 +242,3 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 22. Pasirinkite **Pateikti**.
 23. Įveskite tvirtintojo komentarus.
 24. Pasirinkite **Atlikta**.
-

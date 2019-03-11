@@ -1,29 +1,29 @@
 ---
-title: "Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)"
-description: "Šioje temoje aprašomos naujos ir pakeistos šio „Microsoft Dynamics 365 for Talent“ „Core HR“ funkcijos."
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 09936c7161a7e303a0ada2f48ef3281b81a67295
 ms.openlocfilehash: 6fae56d2feeec8e5c26fc86bdf89b8ab4c282144
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/10/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305544"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
 
@@ -62,7 +62,7 @@ Pradedant nuo platformos 22 naujinimo, operatorius „vienas iš“ filtro srity
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>JK algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
-Integravimą tarp „Microsoft Dynamics 365 for Talent“ ir „Ceridian Dayforce“ galima peržiūrėti JK. Daugiau informacijos žr. šioje temoje [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration).
+Integravimą tarp „Dynamics 365 for Talent“ ir „Ceridian Dayforce“ galima peržiūrėti JK. Daugiau informacijos žr. šioje temoje [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -142,5 +142,4 @@ Atnaujinti susiejimai turėtų atrodyti taip.
 ![Darbuotojų, skirtų darbuotojui, užduotis](./media/WorkerMapping.png)
 
 ![Lyties lauko transformacija](./media/WorkerTransform.png)
-
 

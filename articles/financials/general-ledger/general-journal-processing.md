@@ -1,13 +1,13 @@
 ---
-title: "Bendrųjų žurnalų apdorojimas"
-description: "Šioje temoje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė."
+title: Bendrųjų žurnalų apdorojimas
+description: Šioje temoje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358444"
 ---
-
 # <a name="general-journal-processing"></a>Bendrųjų žurnalų apdorojimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.  
+Šioje temoje aprašytos programos „Microsoft Dynamics 365 for Finance and Operations“ galimybės, galinčios padėti lengviau atlikti bendrąjį žurnalo apdorojimą, taip pat gali padėti užtikrinti, kad užfiksuoti tinkami duomenys ir nėra pažeidžiama vidinė kontrolė.  
 
 ## <a name="journal-names"></a>Žurnalų pavadinimai
 
@@ -97,4 +96,3 @@ Daugiau informacijos ieškokite šiose temose:
 Funkciją **Modeliuoti registravimą** dažniausiai galite rasti žurnalų meniu **Tikrinti**. Kai tikrinant žurnalą naudojamasi funkcija  **Tikrinti**, sistema patikrina, ar žurnalas neatitinka konkrečių klaidų sąlygų. Jei naudojate funkciją **Modeliuoti registravimą**, sistema vykdo tuos pačius procesus, kurie vykdomi registruojant, nors iš tiesų žurnalas neregistruojamas. Tada galite peržiūrėti rodomus registravimo pranešimus, ištaisyti rastas klaidas, paskui, spustelėję meniu **Registruoti** užregistruoti žurnalą. 
 
 Atliekant paketinį apdorojimą funkcija **Modeliuoti registravimą** naudotis negalima. Tačiau, norint modeliuoti paketo registravimą, galima naudoti kodą ir kūrėjai, išplėtoję kodą, gali įtraukti šią funkciją.  
-

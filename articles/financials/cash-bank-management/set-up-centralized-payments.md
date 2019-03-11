@@ -1,13 +1,13 @@
 ---
-title: "Centralizuotų mokėjimų nustatymas"
-description: "Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juridiniame subjekte kitų jūsų organizacijos juridinių subjektų vardu."
+title: Centralizuotų mokėjimų nustatymas
+description: Atlikite šiuos veiksmus, norėdami pasiruošti apdoroti mokėjimus viename juridiniame subjekte kitų jūsų organizacijos juridinių subjektų vardu.
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361917"
 ---
-
 # <a name="set-up-centralized-payments"></a>Centralizuotų mokėjimų nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ Kai sukuriate mokėjimą viename juridiniame subjekte, kuris sudengia SF kituose
 
 ## <a name="set-up-default-descriptions"></a>Numatytųjų aprašų nustatymas
 Galite nustatyti numatytuosius vidinės įmonės sudengimo kvitų aprašus. Numatytasis aprašas įtraukiamas į operacijas, mokėtinas iki ir nuo tam tikros datos, visos įmonės sudengimo proceso metu. Puslapyje **Numatytieji aprašymai** pasirinkdami kalbą ir įvesdami tekstą galite sukurti naujus aprašymus, tinkamus, kai atliekamas **Vidinės įmonės klientų sudengimas** ir **Vidinės įmonės tiekėjų sudengimas**.
-
 
 
 

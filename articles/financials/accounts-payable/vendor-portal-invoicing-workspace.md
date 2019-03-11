@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra"
-description: "Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities."
+title: Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra
+description: Šioje temoje paaiškinama, kaip galite peržiūrėti tiekėjo sąskaitas faktūras ir pateikti sąskaitas faktūras iš tiekėjo bendradarbiavimo SF išrašymo darbo srities.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 5520012a00e918e8748b974773eeaf2450f0c55e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2368fae3913f67d9d2ce0bbe6b2e0bee7968bb15
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340527"
 ---
-
 # <a name="vendor-collaboration-invoicing-workspace"></a>Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ Naujos tiekėjo SF kūrimas naudojant pirkimo užsakymą
 Naują tiekėjo sąskaitą faktūrą galite sukurti pažymėdami darbo srities **Tiekėjo bendradarbiavimo SF išrašymas** veiksmą **Nauja**. Pirkimo užsakymo numerį ir sąskaitos faktūros numerį privalo pateikti tiekėjas. Pagal numatytąjį nustatymą visos tiekėjo pirkimo užsakymo eilutės rodomos naujoje SF. Kiekio ir kainos informaciją galima redaguoti prieš pateikiant tiekėjo SF darbo eigai. Prieš pateikdami SF prie jos galite pridėti failų, pastabų, vaizdų ir URL.
 
 Jei reikia daugiau informacijos, žr. temą [Tiekėjų bendradarbiavimas su išoriniais tiekėjais](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
-
 
 
 

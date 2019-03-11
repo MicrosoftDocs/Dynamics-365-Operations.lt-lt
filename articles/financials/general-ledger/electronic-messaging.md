@@ -1,28 +1,27 @@
 ---
-title: "Elektroniniai pranešimai"
-description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ elektroninių pranešimų apžvalga ir nustatymo informacija."
+title: Elektroniniai pranešimai
+description: Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ elektroninių pranešimų apžvalga ir nustatymo informacija.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357938"
 ---
-
 # <a name="electronic-messaging"></a>Elektroniniai pranešimai
 
 [!include [banner](../includes/banner.md)]
@@ -452,4 +451,3 @@ Dabar galite panaikinti arba atnaujinti pranešimo būseną. Norėdami atnaujint
 ![Atnaujinti pranešimo būseną](media/update-status.png)
 
 Pranešimo būsena atnaujinta į **Parengta** ir dabar galite generuoti ataskaitą pasirinkdami **Generuoti ataskaitą**. Ataskaita sugeneruota, o pranešimo būsena ir veiksmų žurnalas atnaujinti. Norėdami peržiūrėti sugeneruotą ataskaitą, veiksmų srityje pasirinkite mygtuką **Priedas**.
-

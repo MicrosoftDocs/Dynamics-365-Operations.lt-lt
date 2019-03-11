@@ -1,13 +1,13 @@
 ---
-title: "Konfigūracijos raktai ir duomenų objektai"
-description: "Šioje temoje aprašomas ryšys tarp „Microsoft Dynamics 365 for Finance and Operations“ konfigūracijos raktų ir duomenų objektų."
+title: Konfigūracijos raktai ir duomenų objektai
+description: Šioje temoje aprašomas ryšys tarp „Microsoft Dynamics 365 for Finance and Operations“ konfigūracijos raktų ir duomenų objektų.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336479"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>Konfigūracijos raktai ir duomenų objektai
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ Naudojant konfigūracijos raktų metaduomenis, sukurtus atnaujinant objektų są
 Kai tik objekto, lentelės ar lauko lygiu atnaujinate objekto konfigūracijos raktus, reikia atnaujinti duomenų valdymo sistemoje esantį objektų sąrašą. Šiuo procesu užtikrinama, kad sistema naudoja naujausius konfigūracijos raktų parametrus. Kol nebus atnaujintas objektų sąrašas, objektų sąrašų puslapyje bus rodomas tolesnis įspėjamasis pranešimas. Atnaujinti konfigūracijos raktų keitimai įsigalios iš karto po to, kai bus atnaujintas objektų sąrašas. Rekomenduojame patikrinti esamus duomenų projektus ir užduotis, kad įsitikintumėte, jog, įsigaliojus konfigūracijos raktų keitimams, jie veikia taip, kaip tikėtasi.
 
 ![Paskirties laukai](./media/Target_fields_3.png)
-

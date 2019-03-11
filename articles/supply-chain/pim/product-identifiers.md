@@ -1,32 +1,31 @@
 ---
 title: Produkto identifikatoriai
-description: "Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių."
+description: Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335421"
 ---
-
 # <a name="product-identifiers"></a>Produkto identifikatoriai 
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Kai su produktais ceche arba sandėlyje dirbate naudodami „Microsoft Dynamics�
 
 ## <a name="unique-product-numberproduct-id"></a>Unikalus produkto numeris / produkto ID
 
-„Microsoft Dynamics 365 Finance and Operations“ pirminis produkto identifikatorius yra produkto numeris (t. y. unikalus produkto ID). Šį numerį galima sugeneruoti automatiškai naudojant skaičių seką arba rankiniu būdu susieti su produktu. Produkto variantų atveju numerius galima nustatyti naudojant produkto nomenklatūros šabloną.
+„Microsoft Dynamics 365 for Finance and Operations“ pirminis produkto identifikatorius yra produkto numeris (t. y. unikalus produkto ID). Šį numerį galima sugeneruoti automatiškai naudojant skaičių seką arba rankiniu būdu susieti su produktu. Produkto variantų atveju numerius galima nustatyti naudojant produkto nomenklatūros šabloną.
 
 Daugeliu atvejų produkto numerio „Finance and Operations“ iš pradžių nesukuria. Vietoj to, numeris su produktu susiejamas produktų ciklo valdymo (PLM) sistemoje arba produktų duomenų valdymo (PDM) sistemoje. Tokius atveju produktams ir produkto variantams importuoti reikia naudoti duomenų objektus. Tada „Finance and Operations“ numerius naudoja visose operacijose.
 
@@ -186,4 +185,3 @@ Dabar identifikatoriams iš bet kurios paskirties sistemos eksportuoti galite na
 ## <a name="related-topic"></a>Susijusi tema
 
 [Ieškoti produktų ir produkto variantų įvedant užsakymą](search-products-product-variants.md)
-

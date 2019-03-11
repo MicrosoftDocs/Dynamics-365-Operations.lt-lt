@@ -1,13 +1,13 @@
 ---
-title: "Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose"
-description: "Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose."
+title: Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
+description: Šioje temoje aprašoma, kaip galite naudoti prekės sekimą norėdami nustatyti, kur prekės arba žaliavos buvo naudojami, naudojami arba bus naudojami gamybos ir pardavimo procesuose.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310075"
 ---
-
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
 
 [!include [banner](../includes/banner.md)]
@@ -131,7 +130,7 @@ Jei norite naudoti parinktį **Naujas atgalinis sekimas** arba **Naujas sekimas 
 Informaciją skirtuke <strong>Išsami informacija</strong> galite įrašyti kaip XML failą – veiksmų srityje po veiksmu *<strong><em>Sekimas</em></strong>* spustelėkite <strong>Eksportuoti</strong>. Be sekimo duomenų XML faile pateikiami ir sekimo kriterijai, pirminis mazgas ir turimas kiekis. Galimybė įrašyti sekimo duomenis yra naudinga, jei, pavyzdžiui, norite pridėti informacijos prie kokybės užsakymo arba kitų atitikties dokumentų. Galite nurodyti, kur failas bus išsaugotas. Norėdami failą peržiūrėti iš karto, pasirinkite parinktį <strong>Rodyti dokumentą</strong>. <strong>Pastaba.</strong> Failas visada įrašomas, net ir tuo atveju, jei norite jį tik peržiūrėti. Pagal numatytuosius nustatymus XML failas atidaromas naršyklės lange. Tačiau failą galite spustelėti dešiniuoju pelės mygtuku, pasirinkti <strong>Atidaryti naudojant</strong> ir pasirinkti programą turiniui rodyti.
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>Ar galiu apskaičiuoti konkrečios prekės ar ingrediento balansą?
-Informaciją iš suvestinės puslapių galite eksportuoti į „Microsoft Excel“. Atidarykite aktualų puslapį, spustelėkite piktogramą **Atidaryti naudojant „Microsoft Office“** ir pasirinkite **Eksportuoti į „Microsoft Excel‟**. Ši funkcija ypač naudinga, kai norite apskaičiuoti prekės ar ingrediento masės balansą iš puslapio **Operacijų suvestinė**. Puslapyje **Operacijų suvestinė** galite filtruoti pagal prekę arba ingredientą ir, jei reikia, pagal paketą, ir tada eksportuoti informaciją į „Excel“. Programoje „Excel“ galite atskirti, pavyzdžiui, turimą kiekį, parduotą kiekį ir kiekį, panaudotą gamyboje.
+Informaciją iš suvestinės puslapių galite eksportuoti į „Microsoft Excel“. Atidarykite aktualų puslapį, spustelėkite piktogramą **Atidaryti naudojant „Microsoft Office“** ir pasirinkite **Eksportuoti į „Microsoft Excel“**. Ši funkcija ypač naudinga, kai norite apskaičiuoti prekės ar ingrediento masės balansą iš puslapio **Operacijų suvestinė**. Puslapyje **Operacijų suvestinė** galite filtruoti pagal prekę arba ingredientą ir, jei reikia, pagal paketą, ir tada eksportuoti informaciją į „Excel“. Programoje „Excel“ galite atskirti, pavyzdžiui, turimą kiekį, parduotą kiekį ir kiekį, panaudotą gamyboje.
 
 ## <a name="can-i-investigate-whether-there-is-a-history-of-issues-with-items-or-raw-materials"></a>Ar galiu ištirti, ar yra problemų su prekėmis arba žaliavomis retrospektyva?
 Sekimo duomenyse pateikiama informacija apie kokybės užsakymus ir neatitiktis, susijusius su prekėmis arba žaliavomis. Norėdami peržiūrėti kokybės užsakymų ir neatitikčių suvestinę, veiksmų srityje spustelėkite **Kokybės užsakymai** arba **Neatitiktys**. **Pastaba.** Ardomieji kokybės užsakymai sekimo duomenyse gali būti rodomi daugiau nei vieną kartą. Jei dokumente sukuriamas ardomasis kokybės užsakymas, pvz., pirkimo užsakymas, jis rodomas prie visų šio dokumento operacijų.
@@ -141,4 +140,3 @@ Galite generuoti ataskaitą **Išsiųsta klientams**, norėdami nustatyti, koks 
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Ar galiu sekti sudėtinius produktus ir šalutinius produktus?
 Galite sekti sudėtinius produktus, tačiau negalite sekti šalutinių produktų, nes sekimo dimensijos paprastai nėra priskirtos šalutiniams produktams. Kai sekate prekę, sekimo duomenys apima visus susijusius sudėtinius produktus. Mazgo, kuriame yra sudėtinis produktas, informacijoje nurodomi žodžiai „sudėtinis produktas“. Taip pat galite peržiūrėti išsamią informaciją apie sudėtinį produktą, sekimo duomenyse pasirinkdami mazgą ir spustelėdami „FastTab“ skirtuką **Gamyba**.
-

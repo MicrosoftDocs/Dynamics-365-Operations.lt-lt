@@ -1,32 +1,31 @@
 ---
-title: "Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“"
-description: "Šioje temoje pateikiama informacija mašininio mokymo naudojimą norint gauti darbų ir kandidatų į darbo vietas rekomendacijas."
+title: Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“
+description: Šioje temoje pateikiama informacija mašininio mokymo naudojimą norint gauti darbų ir kandidatų į darbo vietas rekomendacijas.
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305423"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“
 [!include[banner](../includes/banner.md)]
 
@@ -127,7 +126,7 @@ Naudodami „LinkedIn Recruiter“ galite sekti, ar kandidatas pateikė prašym�
 
 ### <a name="inmail-history"></a>„InMail“ retrospektyva
 
-„LinkedIn InMail“ retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti visą „InMail“ restrospektyvą, susijusią su kandidatais. Taip pat galite peržiūrėti, kas dar iš jūsų organizacijos susirašinėjo su kandidatu naudodami „InMail“, tačiau negalite peržiūrėti jų žinučių.
+„LinkedIn“ „InMail“ pastabų retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti visą „InMail“ restrospektyvą, susijusią su kandidatais. Taip pat galite peržiūrėti, kas dar iš jūsų organizacijos susirašinėjo su kandidatu naudodami „InMail“, tačiau negalite peržiūrėti jų žinučių.
 
 Norėdami peržiūrėti „InMail“ retrospektyvą, atidarykite kandidato profilį, pasirinkite skirtuką **LinkedIn** ir slinkite į puslapio apačią, kad peržiūrėtumėte retrospektyvą. „InMail“ retrospektyvą galite peržiūrėti, jei diskutavote su kandidatu. Pranešimai iš „InMail“ sinchronizuojami su „Attract“ kas kelias valandas.
 
@@ -142,4 +141,3 @@ Norėdami peržiūrėti pastabų retrospektyvą, atidarykite kandidato profilį,
 „InMail“ šaknelės retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Jei kandidatai sutinka bendrinti savo „LinkedIn“ profilį su bet kuriuo vartotoju jūsų organizacijoje, galėsite sekti kandidatus „Attract“ bus sukurtas kiekvieno kandidato įrašas. Galite peržiūrėti kandidato el. pašto adresą, jei kandidatas ir jo el. pašto adresas jau yra sistemoje arba jei jis nusprendė pasidalyti savo adresu su darbdaviu.
 
 Norėdami peržiūrėti kandidatų sąrašą, pasirinkite **Talentų telkinius**, kad peržiūrėtumėte sistemos sukurtą „LinkedIn“ talentų telkinį. Šiame talentų telkinyje kandidatai ir jų šaknelės profiliai pateikiami pagal „LinkedIn“ sistemą, kuriame rodomi kandidato vardas ir pavardė. Kandidato el. pašto adreso ID bus rodomas, jei kandidatas pasirinko bendrinti savo el. pašto adresą.
-

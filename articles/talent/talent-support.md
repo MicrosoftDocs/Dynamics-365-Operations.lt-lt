@@ -1,13 +1,13 @@
 ---
-title: "Gaukite su „Talent“ susijusią pagalbą"
-description: "Šioje temoje paaiškinama, kaip gauti pagalbos naudojantis „Dynamics 365 for Talent“."
+title: „Talent“ palaikymo gavimas
+description: Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Dynamics 365 for Talent“.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305549"
 ---
-
-# <a name="get-support-for-talent"></a>Gaukite su „Talent“ susijusią pagalbą
+# <a name="get-support-for-talent"></a>„Talent“ palaikymo gavimas
 
 [!include [banner](includes/banner.md)]
 
@@ -55,4 +54,3 @@ Norėdami gauti „Attract“ ir „Onboard“ palaikymą, naudokite toliau pate
 | Pranešti apie problemą                                                        | Paspauskite meniu piktogramą **?** ir pasirinkite parinktį, kad galėtumėte pranešti apie problemą. Aprašymo lauke įveskite klausimą ir, jeigu norite būti informuoti apie praneštos problemos sprendimo eigą, nurodykite el. pašto adresą.                                                                                           |
 | Pagalba iškilus klausimų apie „Talent“ licencijavimą                         | Susisiekite su partneriu ar „Microsoft“ pardavimo atstovu.                                                                                                                                                                                                                                        |
 | Prašymas naudotis naujomis „Attract“ ir „Onboard“ savybėmis ir funkcijomis | Spustelėkite piktogramą **?** ir pasirinkite **Idėjos** arba, pasinaudodami toliau pateiktomis nuorodomis, peržiūrėkite idėjas, ieškokite idėjų, balsuokite už idėjas arba įtraukite naujų idėjų. [„Attract“](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) arba [„Onboard“](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard). |
-

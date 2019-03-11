@@ -1,13 +1,13 @@
 ---
-title: "Vėlesni čekiai"
-description: "Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Finance and Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos."
+title: Vėlesni čekiai
+description: Šiame straipsnyje pateikta informacija apie palaikymą dėl vėlesnių čekių „Microsoft Dynamics 365 for Finance and Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362929"
 ---
-
 # <a name="postdated-checks"></a>Vėlesni čekiai
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikta informacija apie vėlesnių čekių palaikymą programoje „Microsoft Dynamics 365 for Finance and Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
+Šiame straipsnyje pateikta informacija apie palaikymą dėl vėlesnių čekių „Microsoft Dynamics 365 for Finance and Operations“. Vėlesni čekiai yra čekiai, išrašomi norint atlikti ir gauti mokėjimus ateityje. Todėl čekio negalima išgryninti iki nurodytos datos.
 
-„Microsoft Dynamics 365 for Finance and Operations“ palaiko visą vėlesnių čekių valdymo ciklą ir Gautinose sumose, ir Mokėtinose sumose, kaip parodyta pateiktoje lentelėje.
+„Microsoft Dynamics 365 for Finance and Operations“ palaiko visą vėlesnių čekių valdymo ciklą ir gautinose sumos, ir mokėtinose sumose, kaip parodyta pateiktoje lentelėje.
 <table>
 <colgroup>
 <col width="50%" />
@@ -97,7 +96,6 @@ Daugiau informacijos ieškokite šiose temose:
 [Registruoti tiekėjo vėlesnį čekį](tasks/register-post-postdated-check-vendor.md) 
 
 [Vėlesnio tiekėjo čekio sudengimas](tasks/settle-postdated-check-vendor.md)
-
 
 
 

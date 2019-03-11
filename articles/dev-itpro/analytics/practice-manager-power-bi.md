@@ -1,37 +1,36 @@
 ---
-title: "„Power BI“ turinys Praktikos vadovas"
-description: "Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Praktikos vadovas. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turiniui kurti."
+title: „Power BI“ turinys Praktikos vadovas
+description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Praktikos vadovas. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudojamus turiniui kurti.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367805"
 ---
-
 # <a name="practice-manager-power-bi-content"></a>„Power BI“ turinys Praktikos vadovas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Praktikos vadovas**. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.
+Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Praktikos vadovas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
 „Power BI“ turinys **Praktikos vadovas** sukurtas praktikos vadovams ir projektų vadovams. Jame pateikiamos pagrindinės metrikos, susijusios su organizacijos vykdomais projektais. Ataskaitų srityje pateikiama projektų ir susijusių klientų apžvalga. Ataskaitos lygio filtrą galima naudoti norint teikti konkrečių juridinių subjektų ataskaitas. Šis „Power BI“ turinys duomenis gauna iš projektų apskaitos sujungtų matavimo vienetų.
 
@@ -59,7 +58,7 @@ Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekvien
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
-Tolesniais duomenimis pildomi „Power BI‟ turinio **Praktikos vadovas** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+Tolesniais duomenimis pildomi „Power BI“ turinio **Praktikos vadovas** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
 Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo vienetai.
 
@@ -119,4 +118,3 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Pagrindiniai sujungti matavimo vienetai       | Laukas               | aprašymas |
 |---------------------------------|---------------------|-------------|
 | Užbaigtos veiklos suplanuotos išlaidos | Sum(TotalCostPrice) | Visų projekto operacijų tipų su užbaigtomis užduotimis numatoma bendroji savikaina. |
-

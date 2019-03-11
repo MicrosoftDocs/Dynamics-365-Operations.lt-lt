@@ -1,13 +1,13 @@
 ---
-title: "Kokybės valdymo peržiūra"
-description: "Šioje temoje aprašoma, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę."
+title: Kokybės valdymo peržiūra
+description: Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338319"
 ---
-
 # <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
+Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 
-Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Microsoft Dynamics 365 for Finance and Operations‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
+Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Microsoft Dynamics 365 for Finance and Operations“ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
 
 Be funkcijų, skirtų valdyti neatitikimui, kokybės valdymas apima funkcijas, skirtas problemoms sekti pagal jų tipą (net vidaus problemoms) ir sprendimams identifikuoti kaip trumpalaikiams ar ilgalaikiams. Statistika apie pagrindinius našumo indikatorius (KPI) teikia įžvalgų apie ankstesnių neatitikimo problemų istoriją ir sprendimus, kurie buvo naudojami joms taisyti. Galite naudoti praeities duomenis ir peržiūrėti ankstesnių kokybės priemonių efektyvumą bei nustatyti tinkamas priemones, kurios bus naudojamos ateityje.
 
@@ -338,7 +337,7 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 </tr>
 <tr class="even">
 <td>Prekių kokybės grupės</td>
-<td>Naudodami šį puslapį galite nustatyti, redaguoti ir peržiūrėti kokybės grupei priskirtas prekes arba kokybės grupes, priskirtas prekei. Kokybės grupė nurodo bendruosius prekių tikrinimo reikalavimus. <strong>Bandymų grupių</strong> puslapyje apibrėžę bandymų reikalavimus, galite apibrėžti taisykles, skirtas automatiškai generuoti kokybės užsakymams. Kad procesas būtų paprastesnis, nenustatinėkite taisyklių atskiroms prekėms. Vietoj to taisykles apibrėžiate kokybės grupei, naudodami <strong>Kokybės susiejimų</strong> puslapį. Taip pat galite naudoti pasirinktos kokybės grupės <strong>Prekių kokybės grupių</strong> puslapį, kad tai grupei priskirtumėte aktualias prekes. Taip pat galite naudoti pasirinktos prekės <strong>Prekių kokybės grupių</strong> puslapį, kad tai prekei priskirtumėte aktualias kokybės grupes.</td>
+<td>Naudodami šį puslapį galite nustatyti, redaguoti ir peržiūrėti kokybės grupei priskirtas prekes arba kokybės grupes, priskirtas prekei. Kokybės grupė nurodo bendruosius prekių tikrinimo reikalavimus. <strong>Bandymų grupių</strong> puslapyje apibrėžę bandymų reikalavimus, galite apibrėžti taisykles, skirtas automatiškai generuoti kokybės užsakymams. Kad procesas būtų paprastesnis, nenustatinėjate taisyklių atskiroms prekėms. Vietoj to taisykles apibrėžiate kokybės grupei, naudodami <strong>Kokybės susiejimų</strong> puslapį. Taip pat galite naudoti pasirinktos kokybės grupės <strong>Prekių kokybės grupių</strong> puslapį, kad tai grupei priskirtumėte aktualias prekes. Taip pat galite naudoti pasirinktos prekės <strong>Prekių kokybės grupių</strong> puslapį, kad tai prekei priskirtumėte aktualias kokybės grupes.</td>
 <td>Gamybos įmonė perka įvairių žaliavų, kurių gaunamų objektų patikrinimo bandymų reikalavimai tokie patys. Įmonė apibrėžia kokybės grupę ir tada tai grupei priskiria prekių numerius, susietus su žaliavomis. Vėliau įmonė perka naują žaliavos tipą, kurio bandymų reikalavimai tokie patys. Užuot nustatydama naujosios medžiagos naujus bandymų reikalavimus, įmonė naujos medžiagos prekės numerį prideda į esamą kokybės grupę. Ta pati gamybos įmonė taip pat gamina prekes, kurių gamybos bandymų reikalavimai tokie patys, ir siunčia prekes, kurių tie patys reikalavimai bandymams prieš siuntimą. Įmonė apibrėžia dvi papildomas kokybės grupes ir tada kiekvienai grupei priskiria atitinkamus prekių numerius.</td>
 </tr>
 <tr class="odd">
@@ -362,4 +361,3 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 [Kokybės valdymo procesai](quality-management-processes.md)
 
 [Neatitikimo valdymo įgalinimas](enable-nonconformance-management.md)
-

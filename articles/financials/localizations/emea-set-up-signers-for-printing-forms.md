@@ -1,13 +1,13 @@
 ---
-title: "Spausdintų formų pasirašančiųjų nustatymas"
-description: "Jei pagrindinis juridinio subjekto adresas yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje, Lenkijoje arba Rusijoje, galite nustatyti klientų ir tiekėjų, kurie spausdina dokumentus, pvz., SF ir grynųjų pinigų užsakymus, pasirašančiuosius ir pareigas."
+title: Spausdintų formų pasirašančiųjų nustatymas
+description: Jei pagrindinis juridinio subjekto adresas yra Čekijos Respublikoje, Estijoje, Vengrijoje, Lietuvoje, Latvijoje, Lenkijoje arba Rusijoje, galite nustatyti klientų ir tiekėjų, kurie spausdina dokumentus, pvz., SF ir grynųjų pinigų užsakymus, pasirašančiuosius ir pareigas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c81625e9a042bf88268759065727bde332d37ea9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 51449f2f8448a493ebf7e4496cebdb90d902869a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371218"
 ---
-
 # <a name="set-up-signers-for-print-forms"></a>Spausdintų formų pasirašančiųjų nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -163,7 +162,6 @@ Funkcija Tarnautojai nurodo numatytuosius iš anksto nustatytus pasirašančiuos
 -   Grynųjų užsakymas
 
 **Pastaba.** Užregistravus dokumentą, tarnautojų redaguoti negalima.
-
 
 
 

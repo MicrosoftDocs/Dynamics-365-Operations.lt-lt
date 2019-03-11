@@ -1,13 +1,13 @@
 ---
 title: Intrastat
-description: "Šioje temoje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos."
+description: Šioje temoje pateikta informacija apie Intrastat ataskaitas už prekybą prekėmis ir, kai kuriais atvejais, paslaugomis Europos Sąjungos (ES) šalyse / regionuose. Jame pateikta ataskaitų proceso apžvalga ir aprašyti reikiami parametrai ir būtinosios sąlygos.
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: b4b3d8f7da4fbb107353a25ff177492a0744b4c1
 ms.openlocfilehash: 50eb50c636d70dbdc374e8cfc89438433fb1f1b0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371222"
 ---
-
 # <a name="intrastat"></a>Intrastat
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,7 @@ Toliau pateikiamoje lentelėje nurodytos Intrastat ataskaitų būtinosios sąly
 </tr>
 <tr class="even">
 <td>Elektroninė ataskaita</td>
-<td>Nustatykite elektroninių ataskaitų konfigūracijas, kad Intrastat duomenys būtų eksportuojami elektroninio failo formatu, kurio reikalauja aktualios institucijos, ir kad Intrastat duomenis peržiūrėtumėte naudotojui patogiu, įskaitomu formatu (pvz., „Microsoft Excel‟).</td>
+<td>Nustatykite elektroninių ataskaitų konfigūracijas, kad Intrastat duomenys būtų eksportuojami elektroninio failo formatu, kurio reikalauja aktualios institucijos, ir kad Intrastat duomenis peržiūrėtumėte naudotojui patogiu, įskaitomu formatu (pvz., „Microsoft Excel“).</td>
 </tr>
 <tr class="even">
 <td>Sandėliavimas</td>
@@ -240,5 +239,4 @@ Norėdami nustatyti toliau pateiktos lentelės parametrus, naudokite **Užsienio
 </tr>
 </tbody>
 </table>
-
 

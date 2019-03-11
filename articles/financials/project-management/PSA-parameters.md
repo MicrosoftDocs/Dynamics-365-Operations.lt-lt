@@ -1,13 +1,13 @@
 ---
-title: "„Project Service Automation“ integravimo parametrai"
-description: "Šioje temoje paaiškinama, kaip konfigūruoti numatytųjų duomenų įvedimo būdą integruojant „Microsoft Dynamics 365 for Project Service Automation“ su „Microsoft Dynamics 365 for Finance and Operations“."
+title: „Project Service Automation“ integravimo parametrai
+description: Šioje temoje paaiškinama, kaip konfigūruoti numatytųjų duomenų įvedimo būdą integruojant „Microsoft Dynamics 365 for Project Service Automation“ su „Microsoft Dynamics 365 for Finance and Operations“.
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347059"
 ---
-
 # <a name="project-service-automation-integration-parameters"></a>„Project Service Automation“ integravimo parametrai
 
 [!include[banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ Puslapyje **„Project Service Automation“ integravimo parametrai** galite kon
 > [!NOTE]
 > - Projekto užduočių integravimas, išlaidų operacijų kategorijos, apytikslės grafiko reikšmės, apytikslės išlaidų reikšmės ir funkcijų užrakinimas pasiekiamas naudojantis „Microsoft Dynamics 365 for Finance and Operations“ versiją 8.0.
 > - Faktinių projekto reikšmių integravimą galima atlikti naudojant „Microsoft Dynamics 365 for Finance and Operations“ 8.0.1 ar naujasnę versiją.
-> - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3.0“, įdiegę KB 4132657 ir KB 4132660 naudodami šablonus galėsite integruoti projekto užduotis, išlaidų operacijos kategorijas, apytiksles grafiko reikšmes, apytiksles išlaidų reikšmes ir faktines reikšmes, taip pat konfigūruoti funkcijų užrakinimą. Prireikus iš naujo nustatyti apskaitos paskirstymus, rekomenduotume įdiegti ir KB 4131710.
+> - Jei naudojate „Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3.0“, įdiegę KB 4132657 ir KB 4132660 naudodami šablonus galėsite integruoti projekto užduotis, išlaidų operacijos kategorijas, apytiksles grafiko reikšmes, apytiksles išlaidų reikšmes ir faktines reikšmes, taip pat konfigūruoti funkcijų užrakinimą. Prireikus iš naujo nustatyti apskaitos paskirstymus, rekomenduotume įdiegti ir KB 4131710.
 
 | Skirtukas                    | Laukas                | aprašymas |
 |------------------------|----------------------|-------------|
@@ -46,4 +45,3 @@ Puslapyje **„Project Service Automation“ integravimo parametrai** galite kon
 | Numatytosios atsiskaitymo tipų reikšmės  | Atsiskaitymo tipas         | Spustelėkite **Nauja**, kad įtrauktumėte eilutę, kurioje galėtumėte pasirinkti atsiskaitymo tipą, kuriam bus nustatoma numatytoji eilutės ypatybė. Atliekant konfigūraciją konkretų atsiskaitymo tipą galima pasirinkti tik vieną kartą. |
 |                        | Eilutės ypatybė        | Pasirinkite numatytąją eilutės ypatybę pasirinkto atsiskaitymo tipui. Sinchronizuojant naujas apytiksles grafiko reikšmes, naujas apytiksles išlaidų reikšmes arba naujas faktines reikšmes iš „Project Service Automation“, laukui **Eilutės ypatybė** numatytoji reikšmė nustatoma pagal atsiskaitymo tipą. |
 | Funkcijų užrakinimas  | Netaikoma       | Pasirinkite norimą išjungti iš „Project Service Automation“ sukurtų projektų ir sutarčių funkciją naudojantis „Finance and Operations“. Pavyzdžiui, galite išjungti galimybę naudojantis „Finance and Operations“ redaguoti sutartis ir projektus, kurti darbo paskirstymo struktūras ir įvesti tabelius. Su apskaita susiję laukai išliks įgalinti, net jei pakeičiant parametro nuostatą bus padaroma, kad jie būtų nepasiekiami. Pagal numatytuosius parametrus įgalinamos visos funkcijos. |
-

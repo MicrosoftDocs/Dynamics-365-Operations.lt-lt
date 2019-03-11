@@ -1,13 +1,13 @@
 ---
 title: Generuoti finansines ataskaitas
-description: "Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą."
+description: Šioje temoje parašoma informacija apie finansinės ataskaitos generavimą.
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340895"
 ---
-
 # <a name="generate-financial-reports"></a>Generuoti finansines ataskaitas
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Galima naudoti toliau nurodytas ataskaitų generavimo parinktis.
 
 Generuojant ataskaitą, naudojamos parinktys, kurias nurodėte skirtukuose Ataskaitos aprašas.
 
-## <a name="generate-a-financial-report"></a>Finansinės ataskaitos generavimas
+## <a name="generate-a-financial-report"></a>Generuoti finansinę ataskaitą
 
 Norėdami generuoti finansinę ataskaitą naudodami „Microsoft Dynamics 365 for Finance and Operations“, pasirinkite **Didžioji knyga** \> **Užklausos ir ataskaitos** \> **Finansinės ataskaitos**.
 
@@ -115,7 +114,7 @@ Trūkstamos sąskaitos nustatomos naudojant mažiausią ir didžiausią reikšme
 > [!TIP]
 > Tikrinimo tikslais šį procesą reikia paleisti prieš generuojant mėnesio ataskaitas ir kuriant naujus kūrimo blokus.
 
-Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diapazonus. Jei įmanoma, naudokite diapazonus kūrimo bloke, kad būtų įtrauktos naujos sukurtos sąskaitos. Jei nustatyta, kad ataskaitos aprašas yra @ANY įmonės, galite prisijungti prie konkrečios įmonės ir vykdyti tos įmonės trūkstamų sąskaitų analizę.
+Mažiau tikėtina, kad sąskaitų truks ataskaitose, turinčiose reikšmių diapazonus. Jei įmanoma, naudokite diapazonus kūrimo bloke, kad būtų įtrauktos naujos sukurtos sąskaitos. Jei kurios nors ataskaitos apraše įmonės nuostata yra @ANY, galima įeiti į konkrečią įmonę ir įvykdyti tos įmonės duomenyse trūkstamų sąskaitų analizę.
 
 > [!NOTE]
 > Jei buvo įtraukta nauja įmonė, turite įtraukti naują įmonę į ataskaitų medžius visose esamose ataskaitose, arba įmonė nebus įtraukta į trūkstamų sąskaitų analizę.
@@ -158,4 +157,3 @@ Vykdant trūkstamų sąskaitų analizę, galima naudoti toliau nurodytus klaviat
 [Finansinės ataskaitos](financial-reporting-intro.md)
 
 [Ataskaitų dizaino įrankio sąsaja](report-designer-interface.md)
-

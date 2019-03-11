@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti ISO20022 kredito pervedimų įmonės banko sąskaitas"
-description: "Šioje procedūroje parodoma, kaip nustatyti konkrečios įmonės banko kodo informaciją, kurios reikia norint generuoti mokėjimo failą."
+---
+title: Nustatyti ISO20022 kredito pervedimų įmonės banko sąskaitas
+description: Šioje procedūroje parodoma, kaip nustatyti konkrečios įmonės banko kodo informaciją, kurios reikia norint generuoti mokėjimo failą.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2a84408ea24e4221b041782b681c2a2bf1bd8436
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1d0eabdfdeb5ed7d0bdb6df87ebdfa0d41e87492
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334938"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>Nustatyti ISO20022 kredito pervedimų įmonės banko sąskaitas
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 
 Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DEMF.
 
-Tai yra antroji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo naudojant elektroninių ataskaitų konfigūracijas procesas. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Tai yra antroji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo naudojant elektroninių ataskaitų konfigūracijas procesas. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 
 ## <a name="set-up-iban-and-swift-code"></a>IBAN ir SWIFT kodo nustatymas
@@ -51,5 +51,4 @@ Tai yra antroji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo na
 3. Išplėskite skyrių Banko sąskaitos informacija.
 4. Lauke Banko sąskaita įveskite arba pasirinkite reikšmę.
 5. Spustelėkite Įrašyti.
-
 

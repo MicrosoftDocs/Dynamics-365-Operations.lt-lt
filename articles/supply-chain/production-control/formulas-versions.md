@@ -1,32 +1,31 @@
 ---
-title: "Formulės ir formulių versijos"
-description: "Šioje temoje pateikiama informacijos apie formules ir formulių versijas. Formule apibrėžiamos konkretaus proceso gamybos proceso medžiagos, ingredientai ir rezultatai. Proceso gamyboje formulės naudojamos produktams planuoti ir gaminti."
+title: Formulės ir formulių versijos
+description: Šioje temoje pateikiama informacijos apie formules ir formulių versijas. Formule apibrėžiamos konkretaus proceso gamybos proceso medžiagos, ingredientai ir rezultatai. Proceso gamyboje formulės naudojamos produktams planuoti ir gaminti.
 author: cvocph
 manager: AnnBe
 ms.date: 09/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bbffc298ff5d2442092f8f0c987b7e79a7934a84
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4475695b1a00213ab7e3b5060fd38cc71883d2bd
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350118"
 ---
-
 # <a name="formulas-and-formula-versions"></a>Formulės ir formulių versijos
 
 [!include [banner](../includes/banner.md)]
@@ -72,4 +71,3 @@ Funkciją Keičiama galima naudoti, tik jei visi formulės elementų komponentai
 
 ## <a name="use-step-consumption"></a>Funkcijos Pakopinis vartojimas naudojimas
 Naudojant funkciją Pakopinis vartojimas, ingrediento skirtuke **Formulės eilutė** nebereikia įvesti kiekio. Todėl funkcija Pakopinis vartojimas sukonfigūruota taip, kad joje būtų reikšmės **Iš serijos** ir **Kiekis**. Pasirenkama informacija iš įrašo Pakopinis serijos vartojimas, atitinkanti paketinio užsakymo kiekį. Funkcija Pakopinis vartojimas naudinga, kai suvartojimo rodiklis paketinio užsakymo dydžio atžvilgiu nėra linijinis ir, pasiekus konkrečią kiekio ribą, tik padidina poreikį. Norėdami šią funkciją įjungti naujai formulei, grupėje **Suvartojimo skaičiavimas** taikytino ingrediento formulės parametrą iš **Standartinis** pakeiskite į **Pakopinis**. Šis suvartojimo metodas nurodomas puslapio **Formulės eilutė** skirtuke **Sąranka**.
-

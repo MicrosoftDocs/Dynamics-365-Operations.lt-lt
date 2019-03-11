@@ -1,32 +1,31 @@
 ---
-title: "Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ sąskaitas sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“."
+title: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos „Microsoft Dynamics 365 for Sales“ paskyras sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: a0cabdab63d4d44010e52303d6f487db1e910059
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317895"
 ---
-
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 11/01/2018
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ sąskaitas sinchronizuojant tiesiogiai su „Microsoft Dynamics 365 for Finance and Operations“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos „Microsoft Dynamics 365 for Sales“ paskyras tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
@@ -115,5 +114,4 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 [Tiesioginis „Finance and Operations“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](sales-order-template-mapping-direct-two-ways.md)
 
 [Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“](sales-invoice-template-mapping-direct.md)
-
 

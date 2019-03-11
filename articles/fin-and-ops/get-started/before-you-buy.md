@@ -1,13 +1,13 @@
 ---
-title: "Prieš perkant"
-description: "Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 for Finance and Operations“."
+title: Prieš perkant
+description: Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 for Finance and Operations“.
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345472"
 ---
-
 # <a name="before-you-buy"></a>Prieš perkant
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,7 @@ Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis ga
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
 
-Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos žr. [„Dynamics 365 for Finance and Operations“ (vietinė versija) pirkimas](purchase-on-premises.md)
+Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos apie pirkimo kūrimą ieškokite [„Dynamics 365 for Finance and Operations“ (vietinė versija) pirkimas](purchase-on-premises.md).
 
 ### <a name="choose-your-support-option"></a>Pasirinkite reikiamos pagalbos parinktį
 
@@ -97,4 +96,3 @@ Daugiau informacijos:
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 
 Jei esate klientas, naujinantis iš „Microsoft Dynamics AX 2012“ arba pereinantis iš „Microsoft Dynamics AX 2009“, jums gali būti skirta ilgesnė bandomoji versija. Jei reikia daugiau informacijos, susisiekite adresu <daxcf@microsoft.com>.
-

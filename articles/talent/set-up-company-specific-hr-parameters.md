@@ -1,13 +1,13 @@
 ---
-title: "Konkrečios įmonės personalo (HR) parametrų nustatymas"
-description: "Kai kurie modulio Personalas (HR) parametrai naudojami keliose įmonėse, o kiti – konkrečioje įmonėje. Šiame straipsnyje paaiškinama, kaip nustatyti konkrečios įmonės HR parametrus."
+title: Konkrečios įmonės personalo (HR) parametrų nustatymas
+description: Kai kurie modulio Personalas (HR) parametrai naudojami keliose įmonėse, o kiti – konkrečioje įmonėje. Šiame straipsnyje paaiškinama, kaip nustatyti konkrečios įmonės HR parametrus.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305538"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Konkrečios įmonės personalo (HR) parametrų nustatymas
 
 [!include [banner](includes/banner.md)]
@@ -34,10 +33,10 @@ Kai kurie modulio Personalas (HR) parametrai naudojami keliose įmonėse, o kiti
 
 Personalo parametrams nustatyti naudojami du puslapiai. Jei parametrai yra bendrai naudojami keliose įmonėse, galite naudoti puslapį **Bendrai naudojami žmogiškųjų išteklių parametrai**. Jei parametrai skirti konkrečiai įmonei (kitaip tariant, parametrai taikomi prie vienai įmonei), naudokite puslapį **Personalo parametrai**. Puslapyje **Personalo parametrai** parametrai suskirstyti į šešis toliau pateiktus skirtukus.
 
--   Bendra
--   Įdarbinimas – sprendime „Dynamics 365 for Talent‟ jo nėra
+-   Bendri
+-   Įdarbinimas – sprendime „Dynamics 365 for Talent“ jo nėra
 -   Kompensacija
--   Numeravimai
+-   Numeracijos
 -   Nedarbingumo dėl ligos ar slaugymo aktas (FMLA)
 -   Darbuotojų savitarna
 
@@ -50,7 +49,7 @@ Skirtuko **Kompensacija** nustatymai apibrėžia, ar vartotojai turi patvirtinti
 ### <a name="previously-released-functionality"></a>Anksčiau išleistos funkcijos
 Skirtuko **Numeracija** parametrai nurodo sekas, naudojamas ID automatiškai priskirti elementams personalo srityje, pvz., prašymams, neatvykimo registracijoms, kompensavimo proceso rezultatams, atvejų numeriams, kursams ir kursų darbotvarkei. Norėdami prižiūrėti numeracijų nuorodas ir kodus, naudokite **Numeracijos** sąrašo puslapį (spustelėkite **Organizacijos administravimas** &gt; **Numeracijos** &gt; **Numeracijos**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Jei naudojate „Dynamics 365 for Talent‟
+### <a name="if-youre-using-dynamics-365-for-talent"></a>Jei naudojate „Dynamics 365 for Talent“
 Skirtuko **Numeracija** parametrai nurodo sekas, naudojamas ID automatiškai priskirti elementams personalo srityje, pvz., prašymams, neatvykimo registracijoms, kompensavimo proceso rezultatams, atvejų numeriams, kursams ir kursų darbotvarkei. Norėdami tvarkyti numeracijų nuorodas ir kodus, naudokite sąrašo puslapį **Numeracijos** (spustelėkite **Sistemos administravimas** &gt; **skirtuką Saitai** &gt; **Numeracijos** &gt; **Numeracijos**). 
 
 Skirtuko **FMLA** parametrai nurodo, kiek valandų ir kokį laikotarpį darbuotojas turi išdirbęs tam, kad galėtų gauti FMLA išmokas, ir darbo pradžios datą, kuri naudojama siekiant nustatyti darbo trukmę. Parametrai taip pat apibrėžia darbuotojams skirtą FMLA valandų skaičių FMLA atostogų kalendorių, pagal kurį skaičiuojama, kiek FMLA valandų darbuotojai išnaudojo. Skirtuką **FMLA** gali naudoti tik įmonės, esančios Jungtinėse Amerikos Valstijose. 
@@ -61,7 +60,6 @@ Skirtuko **FMLA** parametrai nurodo, kiek valandų ir kokį laikotarpį darbuoto
 --------
 
 [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "200 procentų mažėjančios vertės metodas"
-description: "Šiame straipsnyje apžvelgiamas 200 % nusidėvėjimo mažėjančios vertės metodas."
+title: 200 procentų mažėjančios vertės metodas
+description: Šiame straipsnyje apžvelgiamas 200 % nusidėvėjimo mažėjančios vertės metodas.
 author: saraschi2
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ec51f9e12e31e81c56fab9e82d0fc18d45beb5e6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 24f677cd3b416c6301a664629cb73e3cbae9f457
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322725"
 ---
-
 # <a name="200-percent-reducing-balance-depreciation"></a>200 procentų mažėjančios vertės metodas
 
 [!include [banner](../includes/banner.md)]
@@ -82,13 +81,12 @@ Naudojant 200 % mažėjančios vertės metodą, 200 procentų padalijami iš dė
 
 | Laikotarpis | Metinio nusidėvėjimo sumos skaičiavimas | Knygos vertė             | Balansinės vertė metų pabaigoje |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| 1 metai | (11 000 – 1000) × 40 % = 4000                | 11 000 – 4000 = 7000 | 11 000 – 1000 – 4000 = 6000        |
-| 2 metai | 6000 × 40 % = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
-| 3 metai | 3600 × 40 % = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
+| 1 metai | (11 000 – 1000) × 40 % = 4000                | 11 000 – 4000 = 7000 | 11 000 – 1000 – 4000 = 6000        |
+| 2 metai | 6000 × 40 % = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
+| 3 metai | 3600 × 40 % = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
 
 > [!NOTE] 
 > Paprastai, kai suma, kuri apskaičiuojama naudojant 200 % mažėjančios vertės nusidėvėjimo metodą, tampa mažesnė nei suma, kuri būtų apskaičiuota naudojant tiesiogiai proporcingą metodą, visam likusiam laikotarpiui pereinama prie tiesiogiai proporcingo metodo.
-
 
 
 

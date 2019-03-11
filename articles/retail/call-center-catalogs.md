@@ -1,13 +1,13 @@
 ---
-title: "Skambučių centro katalogai"
-description: "Šioje temoje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Microsoft Dynamics 365 for Retail“."
+title: Skambučių centro katalogai
+description: Šioje temoje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Microsoft Dynamics 365 for Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322748"
 ---
-
 # <a name="call-center-catalogs"></a>Skambučių centro katalogai
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ Skirtuke **Katalogai** taip pat pasiekiamos parinktys, skirtos **mokėjimo grafi
 ## <a name="additional-notes"></a>Papildomos pastabos
 
 Tuo metu, kai šaltinio kodo ID taikomas skambučių centro pardavimo užsakymui, jis naudojamas nustatant kainas, akcijas, scenarijus ir papildomą / kryžminį pardavimą, būdingą konkrečiam katalogui. Sistema nedraus ir leis pardavimo užsakyme užsakyti produktą, kurio nėra kataloge. Jei užsakoma prekė, kuri nepriklauso tam katalogui, sistema prekės kainai arba akcijoms pirmiausia taikys tą **kainų grupę**, kuri apibrėžta skambučių centro kanale (**Mažmeninė prekyba** \> **Kanalai** \> **Skambučių centrai** \> **Visi skambučių centrai**). Jei konkreti kanalo kaina nerandama, bus taikoma bazinė prekės pardavimo kaina.
-

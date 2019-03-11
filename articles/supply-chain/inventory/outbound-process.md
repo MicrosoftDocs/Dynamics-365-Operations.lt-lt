@@ -1,13 +1,13 @@
 ---
 title: Siuntimo procesas
-description: "Šioje temoje apžvelgiamas modulio Atsargų valdymas siuntimo procesas."
+description: Šioje temoje apžvelgiamas modulio Atsargų valdymas siuntimo procesas.
 author: perlynne
 manager: AnnBe
 ms.date: 10/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 5ac3260f128acbc819d7207f68f17adb085da11c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: f2cae64263769b5168d2bb9614d6388b42e23b49
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334386"
 ---
-
 # <a name="outbound-process"></a>Siuntimo procesas
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ Generuojant išrinkimo dokumentus rezervuojamos dar nerezervuotos atsargos. Netu
 Kai tik paimamos visos puslapio **Išrinkimo dokumento registravimas** paėmimo eilutės, susietoji siunta baigiama. Tada pagal paimtas atsargas galima inicijuoti pardavimo užsakymo važtaraščių procesą.
 
 [![Siunčiamų siuntų naujinimas](./media/outbound-shipments.png)](./media/outbound-shipments.png)
-

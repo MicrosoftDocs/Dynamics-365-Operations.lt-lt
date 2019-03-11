@@ -1,13 +1,13 @@
 ---
-title: "Vidinės įmonės apskaitos nustatymas"
-description: "Šioje temoje paaiškinta, kaip nustatyti vidinės įmonės apskaitą taip, kad vidinės įmonės žurnalus galėtumėte naudoti DK paskirstymuose ir finansiniuose žurnaluose, pvz., kasdieniniuose žurnaluose, tiekėjo SF žurnaluose ir mokėjimo žurnaluose."
+title: Vidinės įmonės apskaitos nustatymas
+description: Šioje temoje paaiškinta, kaip nustatyti vidinės įmonės apskaitą taip, kad vidinės įmonės žurnalus galėtumėte naudoti DK paskirstymuose ir finansiniuose žurnaluose, pvz., kasdieniniuose žurnaluose, tiekėjo SF žurnaluose ir mokėjimo žurnaluose.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363987"
 ---
-
 # <a name="intercompany-accounting-setup"></a>Vidinės įmonės apskaitos nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Pradiniame ir paskirties juridiniuose subjektuose nustatykite parinktis **Debeto
 Galiausiai pasirinkite, kuriam juridiniam subjektui bus teikiama galimų sumų apskaita, pvz., centralizuotų mokėjimų nuolaidos arba gauto pelno / patirto nuostolio apskaita. 
 
 Abipusį ryšį galima lengvai nustatyti puslapyje **Vidinės įmonės apskaita** naudojant mygtuką **Kurti abipusį ryšį**, kai pirmoji juridinių subjektų pora jau sukurta. Kai abipusio ryšio pora sukurta, paskirties įmonės informacija nukopijuojama į pradinę įmonę (ir atvirkščiai). Nustatytas paskirties įmonės žurnalas liks toks pat. Dauguma organizacijų naudoja tokią pačią savo žurnalų pavadinimų kūrimo strategiją, kad jų žurnalo pavadinimas būtų toks pat. Jei žurnalo pavadinimas kitoks, lauke bus rodomas pranešimas, įspėjantis, kad žurnalo nėra ir galima pasirinkti kitą žurnalą.
-
 
 
 

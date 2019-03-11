@@ -1,13 +1,13 @@
 ---
-title: "Pardavimo grąžinimai"
-description: "Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui."
+title: Pardavimo grąžinimai
+description: Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362699"
 ---
-
 # <a name="sales-returns"></a>Pardavimo grąžinimai
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 
-Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Po to, kai gaunamas kliento prašymas, sprendime „Microsoft Dynamics 365 for Finance and Operations“ sukuriamas grąžinimo užsakymas.
+Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Po to, kai gaunamas kliento prašymas, „Microsoft Dynamics 365 for Finance and Operations“ sukuriamas grąžinimo užsakymas.
 
 ## <a name="return-order-process"></a>Grąžinimo užsakymo procesas
 Toliau esančiame paveikslėlyje pateikiama grąžinimo užsakymo proceso apžvalga.  
@@ -133,7 +132,7 @@ Be to, kad reikia nustatyti, kaip grąžintos prekės turi būti likviduotos, gr
 <ul>
 <li>Tarp šalių yra pakankamas pasitikėjimas.</li>
 <li>Prekės su defektu grąžinimo savikaina yra draudžiamoji.</li>
-<li>Prekių negalima grąžinti atgal į atsargas. Dėl kitų sąlygų fizinio grąžinimo nereikalaujama.</li>
+<li>Prekių negalima grąžinti atgal į atsargas. Dėl kitų sąlygų, fizinio grąžinimo nereikalaujama.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -329,7 +328,6 @@ Grąžinimo užsakymas nenurodo į kliento sąskaitą faktūrą. Grąžinta prek
 ![Grąžinimo užsakymo eilutė, kuri sukurta naudojant funkciją Rasti pardavimo užsakymą ](./media/SalesReturn11.png)  
 
 >[Pastaba!] **Nuolaida** ir **Grąžinimo savikaina** nustatytos tinkamai. Todėl įvyksta kliento sąskaitos faktūros tikslus atšaukimas.
-
 
 
 

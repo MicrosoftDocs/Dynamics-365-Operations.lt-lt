@@ -1,13 +1,13 @@
 ---
-title: "Kreditas ir mokėjimai Gautinų sumų modulyje"
-description: "Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje, naudojant „Microsoft Dynamics 365 for Finance and Operations‟ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai."
+title: Kreditas ir mokėjimai Gautinų sumų modulyje
+description: Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje naudojant „Microsoft Dynamics 365 for Finance and Operations“ puslapį Surinkimas. Naudodami šį centrinį rodinį kredito ir surinkimo vadovai gali valdyti surinkimą. Surinkimo agentai pradėti surinkimo procesą gali iš klientų sąrašų, kurie sugeneruojami naudojant iš anksto apibrėžtus surinkimo kriterijus, arba iš puslapio Klientai.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351682"
 ---
-
 # <a name="credit-and-collections-in-accounts-receivable"></a>Kreditas ir mokėjimai Gautinų sumų modulyje
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Kiekvienam skirstymo pagal terminus laikotarpiui skirstymo pagal terminus laikot
 Klientų telkiniai yra užklausos, nustatančios klientų įrašų grupę, kurią galima rodyti ir valdyti mokėjimų priežiūros ar skirstymo pagal terminus procesams. Naudokite klientų telkinius, norėdami filtruoti informaciją sąrašo puslapiuose Pagal terminus suskirstyti balansai, Mokėjimų priežiūros veiklos rūšys ir Rinkinių atvejai. Taip pat klientų telkinius galima naudoti filtruoti klientų sąskaitas, kurios įtraukiamos kuriant skirstymo pagal terminus momentines kopijas.
 
 ## <a name="collections-agents"></a>Mokėjimų priežiūros agentai
-Pagal numatytuosius nustatymus „Microsoft Dynamics 365 for Finance and Operations“ vartotojai gali peržiūrėti visą informaciją apie klientą mokėjimų priežiūros sąrašų puslapiuose. Galite naudoti mokėjimų priežiūros agento įrašus, norėdami nustatyti klientų telkinius, kuriuose galima filtruoti informaciją apie mokėjimų priežiūros sąrašų puslapius ir informaciją mokėjimų priežiūros puslapyje. 
+Pagal numatytuosius parametrus „Microsoft Dynamics 365 for Finance and Operations“ vartotojai gali peržiūrėti visą informaciją apie klientą mokėjimų priežiūros sąrašų puslapiuose. Galite naudoti mokėjimų priežiūros agento įrašus, norėdami nustatyti klientų telkinius, kuriuose galima filtruoti informaciją apie mokėjimų priežiūros sąrašų puslapius ir informaciją mokėjimų priežiūros puslapyje. 
 
 Mokėjimų priežiūros agentas yra asmuo, kuris dirba su klientais siekdamas užtikrinti, kad mokėjimai yra surenkami laiku. „Finance and Operations“ mokėjimų priežiūros agentai yra darbuotojai, paskirti vartotojams vartotojo nustatymų puslapyje.
 
@@ -107,7 +106,6 @@ Daugiau informacijos žr. [Kurti kliento nurašymo žurnalą](tasks/create-write
 --------------------------------------------
 
 NSF mokėjimus galite tvarkyti paspaudę NSF mokėjimą Mokėjimų priežiūros puslapyje. Kai paspausite šį mygtuką, mokėjimas bus atšauktas. Jei klientui taikomas NSF mokestis, sukuriama mokesčio operacija mokėjimo žurnale. Mokesčio suma grindžiama automatinių mokesčių parametrais. NSF mokėjimams automatiškai taikomi mokesčiai, kurie nurodomi pagal mokesčių grupę, pasirenkamą banko sąskaitų puslapyje atitinkamai banko sąskaitai.
-
 
 
 

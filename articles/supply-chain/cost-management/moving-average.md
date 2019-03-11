@@ -1,13 +1,13 @@
 ---
 title: Slankusis vidurkis
-description: "Slankusis vidurkis yra nuolatinis įkainojimo metodas, paremtas vidurkio principu, kai kintant pirkimo išlaidoms išduodamų atsargų savikainos nekinta. Skirtumas kapitalizuojamas ir pagrindžiamas proporcingu skaičiavimu. Likusi suma įtraukiama į išlaidų sąskaitą."
+description: Slankusis vidurkis yra nuolatinis įkainojimo metodas, paremtas vidurkio principu, kai kintant pirkimo išlaidoms išduodamų atsargų savikainos nekinta. Skirtumas kapitalizuojamas ir pagrindžiamas proporcingu skaičiavimu. Likusi suma įtraukiama į išlaidų sąskaitą.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348071"
 ---
-
 # <a name="moving-average"></a>Slankusis vidurkis
 
 [!include [banner](../includes/banner.md)]
@@ -113,8 +112,7 @@ Puslapyje **Atsargų operacijos** matyti, kad dabartinio produkto slankusis vidu
 | Spalio 8 d.        | Spalio 8 d.    | Perkeliamas vidutinis perkainojimas |          | 4,00   | 16,00             |
 |                  | Spalio 31 d.   | Bendroji suma                      | 2        | 32,00  | 16,00             |
 
- **Pastaba.** Negalite suderinti DK ir atsargų naudodami parinktį **Rūšiavimas pagal operacijos laiką**. Ataskaita turi būti spausdinama naudojant parinktį **Registravimo data**.
-
+ **Pastaba.** Negalite suderinti DK ir atsargų naudodami parinktį **Rūšiavimas pagal operacijos laiką**. Ataskaita turi būti spausdinama naudojant parinktį **Registravimo data**.
 
 
 

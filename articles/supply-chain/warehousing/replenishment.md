@@ -1,13 +1,13 @@
 ---
 title: Papildymas
-description: "Šioje temoje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojamos modulio Sandėlio valdymas funkcijos."
+description: Šioje temoje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojamos modulio Sandėlio valdymas funkcijos.
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344529"
 ---
-
 # <a name="replenishment"></a>Papildymas
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ Poreikio papildymo funkciją galima naudoti su pardavimo užsakymais, perkėlimo
 ## <a name="minmax-replenishment"></a>Min. / maks. papildymas
 Naudojant Min. / maks. papildymą, atsargos papildomos tarp didžiausios ir mažiausios nustatytos ribos. Paprastai šis procesas vykdomas vieną kartą per dieną, siekiant užtikrinti, kad prieš pradedant paėmimo procesą visos paėmimo vietos būtų užpildytos atsargomis iki didžiausios galimos ribos. 
 
-Didžiausi ir mažiausi galimi kiekiai yra nustatomi papildymo šablone. Daugelis kitų šablono parametrų yra panašūs į parametrus tuose šablonuose, kurie naudojami bangos poreikio papildyme. Šablone turi būti po vieną eilutę kiekvienai prekei ir vietai. Kai atliekate papildymą naudodami paketinę užduotį, „Microsoft Dynamics 365 for Finance and Operations“ įvertina, ar reikia papildymo, naudodama eilutes tokia seka, kokia jos išdėstytos. 
+Didžiausi ir mažiausi galimi kiekiai yra nustatomi papildymo šablone. Daugelis kitų šablono parametrų yra panašūs į parametrus tuose šablonuose, kurie naudojami bangos poreikio papildyme. Šablone turi būti po vieną eilutę kiekvienai prekei ir vietai. Kai pildote naudodami paketinę užduotį, „Microsoft Dynamics 365 for Finance and Operations“ eilučių išdėstymo tvarka įvertina, ar reikia pildyti. 
 
 Atkreipkite dėmesį, kad naudojant min. / maks. papildymo strategiją negalima papildyti tuščios vietos, išskyrus atvejus, kai vieta yra nustatyta kaip fiksuota prekės vieta. Jei vieta, kurią reikia papildyti, nėra fiksuota vieta, sistema negali nustatyti, kurią prekę reikia papildyti. Todėl prieš vykdant papildymą vietoje turi būti bent šiek tiek turimo prekės kiekio.
 
@@ -77,5 +76,4 @@ Užuot poreikį sumuodami paskirstymo proceso pabaigoje ir papildymo procesą at
 |    Vietos šablonai    |                                                                                                        Vietos šablonai yra būtini, siekiant kurti vietas.                                                                                                        |
 |   Vietos nurodymai   |                                                       Vietų nurodymai yra būtini, siekiant nukreipti darbą į vietas, kurias reikia papildyti, ir į vietas, iš kurių paimamos atsargos.                                                        |
 |     Darbo šablonai      |                                                   Tipo <strong>Papildymas</strong> darbo šablonas yra būtini, siekiant sukurti papildymo darbą, kad atsargas būtų galima perkelti į norimas vietas.                                                    |
-
 

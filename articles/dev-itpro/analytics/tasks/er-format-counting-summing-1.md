@@ -1,13 +1,13 @@
---- 
-title: "ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis – Formato kūrimas)"
-description: "Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis."
+---
+title: 'ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis – Formato kūrimas)'
+description: Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362262"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (1 dalis: formato kūrimas)
 
@@ -31,7 +31,7 @@ Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas si
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“.
 
-Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Gaukite prieigą prie „Microsoft“ teikiamų konfigūracijų sąrašo
@@ -56,5 +56,4 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje
 7. Spustelėkite Ataskaitų konfigūracijos.
 8. Medyje išplėskite „Intrastat“ modelis.
 9. Medyje pasirinkite Intrastat model\Intrastat (DE).
-
 

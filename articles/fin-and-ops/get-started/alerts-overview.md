@@ -1,13 +1,13 @@
 ---
-title: "Įspėjimai"
-description: "Šioje temoje pateikiama bendra informacija apie įspėjimus „Microsoft Dynamics 365 for Finance and Operations“. Įspėjimus galite naudoti, kad būtumėte informuoti apie įvykius, kuriuos norite sekti darbo dienos metu."
+title: Įspėjimai
+description: Šioje temoje pateikiama bendra informacija apie įspėjimus „Microsoft Dynamics 365 for Finance and Operations“. Įspėjimus galite naudoti, kad būtumėte informuoti apie įvykius, kuriuos norite sekti darbo dienos metu.
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367460"
 ---
-
 # <a name="alerts"></a>Įspėjimai
 
 [!include [banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais n
 ## <a name="email-notifications-from-alerts"></a>Įspėjimų el. paštu siunčiami pranešimai
 
 Įspėjimų el. paštu siunčiami pranešimai dar neįgalinti. Ši funkcija bus įgalinta būsimame naujinime.
-

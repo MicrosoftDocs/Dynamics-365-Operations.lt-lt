@@ -1,13 +1,13 @@
 ---
-title: "Medžiagų išimčių matomumas"
-description: "Šioje temoje aprašoma, kaip galima padidinti gamybos užsakymų ir paketinių užsakymų žaliavų išimčių matomumą."
+title: Medžiagų išimčių matomumas
+description: Šioje temoje aprašoma, kaip galima padidinti gamybos užsakymų ir paketinių užsakymų žaliavų išimčių matomumą.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344759"
 ---
 # <a name="visibility-into-material-exceptions"></a>Medžiagų išimčių matomumas
 
@@ -67,4 +67,3 @@ Pasirinkus plytelę, atidaromas puslapis **Visos gamybos bangos**. Šis puslapis
 Plytelėje **Atidarytas sandėlio darbas, į kurį reikia atkreipti dėmesį** rodomas KS ir formulės eilučių, kurios išleistos į sandėlį, turi neapdoroto darbo ir kurių žaliavų data yra ankstesnė arba tokia pati kaip darbo srities data, skaičius. Eilutes taip pat turi suvartoti operacijos išteklius, taikomas darbo srities filtrui.
 
 Pasirinkus plytelę, atidaromas puslapis **Visas darbas**. Šis puslapis filtruojamas pagal atidarytų darbo antraščių, kuriose yra išleistų KS ir formulės eilučių darbo eilučių, atitinkančių plytelės kriterijus, skaičių. Puslapyje **Visas darbas** galite neautomatiškai apdoroti darbą.
-

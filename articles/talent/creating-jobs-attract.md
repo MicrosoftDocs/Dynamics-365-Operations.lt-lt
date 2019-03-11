@@ -1,39 +1,38 @@
 ---
-title: "Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“"
-description: "Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą."
+title: Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
+description: Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305497"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi darbo elementai: „Microsoft Dynamics 365 for Talent: Attract“. Taip pat paaiškinama, kaip sukurti darbą.
+Šioje temoje aprašomi „Microsoft Dynamics 365 for Talent: Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
 
-## <a name="job-creation"></a>Darbo kūrimas
+## <a name="job-creation"></a>Darbo vietos kūrimas
 
 Darbo vietas gali kurti administratoriai, darbdaviai ir samdos vadovai. Kai sukursite darbą, būsite paraginti pasirinkti savo proceso vaidmenį: samdos vadovas arba įdarbintojas. Pasirinkę vaidmenį, būsite paraginti pasirinkti proceso šabloną. Jei pasirinksite **Praleisti**, naudojamas numatytasis šablonas. Daugiau informacijos apie proceso šablonus žr. [Proceso šablono kūrimas sprendime „Attract“](./process-templates-attract.md).
 
@@ -169,4 +168,3 @@ Norėdami kurti darbą, atlikite toliau nurodytus veiksmus.
 
 13. Norėdami suaktyvinti darbą, pasirinkite **Aktyvinti**.
 14. Norėdami registruoti užduotį, pasirinkite **Registravimas**, tada pasirinkite parinktį **Registruoti dabar**, pateiktą talentų karjeros svetainėje arba „LinkedIn“.
-

@@ -1,32 +1,31 @@
 ---
 title: Gamybos parametrai modulyje Gamybos vykdymas
-description: "Šioje temoje pateikiama informacijos apie gamybos parametrų sąranką modulyje Gamybos vykdymas."
+description: Šioje temoje pateikiama informacijos apie gamybos parametrų sąranką modulyje Gamybos vykdymas.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgProdParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bf1afd18132e92cf081b7bde5067e1be90314467
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339469"
 ---
-
 # <a name="production-parameters-in-manufacturing-execution"></a>Gamybos parametrai modulyje Gamybos vykdymas
 
 [!include [banner](../includes/banner.md)]
@@ -154,5 +153,4 @@ Tolesnius parametrus galite naudoti, jei medžiagas iš atsargų visada reikia a
 |     „Operations‟     |   Automatinis KS suvartojimas    | <strong>Niekada</strong>  |
 | Skelbti baigtu |   Automatinis KS suvartojimas    | <strong>Niekada</strong>  |
 | Skelbti baigtu | Atnaujinti pabaigtą ataskaitą tinkle | <strong>Būsena</strong> |
-
 

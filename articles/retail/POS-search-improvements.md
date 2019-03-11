@@ -1,31 +1,30 @@
 ---
-title: "Produktų ir klientų paieška elektroniniame kasos aparate (EKA)"
-description: "Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija."
+title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
+description: Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313594"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ Lauke **Rodymo tvarka** laukas nurodoma tvarka, kuria nuorodos rodomos EKA. Rodo
 
 > [!NOTE]
 > Į išvardijimą įtraukta pasirinktinė ypatybė, neturi įtakos standartiniam klientų ieškos algoritmui. Kitaip tariant, klientų ieškos algoritmas neieškos pasirinktinėje ypatybėje. Vartotojai ieškodami gali naudoti pasirinktines ypatybes tik jei tos pasirinktinės ypatybės yra įtrauktos kaip nuorodos arba jei numatytasis ieškos algoritmas yra perrašytas.
-

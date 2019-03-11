@@ -1,13 +1,13 @@
 ---
-title: "„Finance and Operations‟ arba „Lifecycle Services“ (LCS) palaikymo gavimas"
-description: "Šiame straipsnyje paaiškinta, kaip gauti pagalbos dėl „Microsoft Dynamics 365 for Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS)."
+title: „Finance and Operations‟ arba „Lifecycle Services“ (LCS) palaikymo gavimas
+description: Šiame straipsnyje paaiškinta, kaip gauti pagalbos dėl „Microsoft Dynamics 365 for Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334777"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>„Finance and Operations‟ arba „Lifecycle Services“ (LCS) palaikymo gavimas
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Norėdami gauti pagalbos dėl „Finance and Operations“ arba LCS, naudokite t
 <tbody>
 <tr class="odd">
 <td>Klauskite bendruomenės.</td>
-<td>Atidarykite puslapį <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">„Dynamics 365 for Finance and Operations“ bendruomenė</span></a>, kad gautumėte atsakymų į savo klausimus iš „Dynamics“ bendruomenės.</td>
+<td>Atidarykite bendruomenės puslapį <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">„Dynamics 365 for Finance and Operations“</span></a>, kad gautumėte atsakymų į savo klausimus iš „Dynamics“ bendruomenės.</td>
 </tr>
 <tr class="even">
 <td>Naudokite problemų ieškos įrankį.</td>
@@ -75,7 +74,7 @@ Pastaba: „Microsoft“ „Premier“ klientai ir partneriai taip pat gali pate
 <li>Klaidos, kurios įvyksta naudojant LCS, arba problemos, kurios kyla bandant pasiekti LCS.</li>
 <li>Klaidos, kurios įvyksta naudojant „Finance and Operations“.</li>
 </ul>
-Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „CustomerSource“, el. mokymų ieškos, žinių bazės, failų atsisiuntimo puslapio ar sistemos klaidų, eikite į <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Svetainės palaikymas</span></a>.</td>
+Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „CustomerSource“, el. mokymosi, ieškos, žinių bazės, failų atsisiuntimo ir puslapio arba sistemos klaidų, eikite į <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Svetainės palaikymas</span></a>.</td>
 </tr>
 <tr class="odd">
 <td>Gaukite pagalbos dėl klausimų apie „Finance and Operations“ licencijavimą.</td>
@@ -93,5 +92,4 @@ Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „Custome
 - [„Dynamics 365 for Retail“ palaikymo gavimas](../../retail/retail-support.md)
 - [„Dynamics 365 for Talent“ palaikymo gavimas](../../talent/talent-support.md)
 - Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx).
-
 

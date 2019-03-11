@@ -1,13 +1,13 @@
 ---
-title: "Planuoti krovinių transportavimo maršrutus su keliomis stotelėmis"
-description: "Šiame straipsnyje aprašomi įvairūs elementai, naudojami transportavimo maršrutams programoje „Dynamics 365 for Finance and Operations“ planuoti."
+title: Planuoti krovinių transportavimo maršrutus su keliomis stotelėmis
+description: Šiame straipsnyje aprašomi įvairūs elementai, naudojami transportavimo maršrutams programoje „Dynamics 365 for Finance and Operations“ planuoti.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328314"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planuoti krovinių transportavimo maršrutus su keliomis stotelėmis
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ Suplanuotas maršrutas yra iš anksto nustatytas maršruto planas, kuriame nurod
 
 ## <a name="load-building-workbench"></a>Krovinio kūrimo darbo sritis
 Kroviniams nurodyti puslapyje Krovinio kūrimo darbo sritis naudojami klientų adresai ir pristatymo datos iš pardavimo užsakymų bei galimi suplanuoti maršrutai. Pagal numatytuosius parametrus darbo srityje įvedamos maršrute nurodytos reikšmės. Tačiau galite pasirinkti pradžios datą, kuri yra ankstesnė nei maršrute nurodyta pradžios data. Kai krovinys nurodomas, tikrinami visų atvirų pardavimo užsakymų pristatymo adresai ir pristatymo datos. Jei pristatymo adreso pašto kodas atitinka nurodytą tranzito punkto pašto kodą, o pristatymo data yra patenka į kriterijuose nurodytą diapazoną, kroviniui kurti pasiūlomas pardavimo užsakymas. Taip pat atsižvelgiama į krovinių šablone nurodytą apimtį. Vienu metu siūlomas tik vienas krovinys. Jei yra neįtrauktų pardavimo užsakymų, gali prireikti naudoti kitą krovinio šabloną (pvz., krovinio šabloną, skirtą didesniam sunkvežimiui ar konteineriui) arba suplanuoti papildomą pristatymą.
-
 
 
 

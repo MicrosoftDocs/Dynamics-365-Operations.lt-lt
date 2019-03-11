@@ -1,13 +1,13 @@
 ---
-title: "Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas"
-description: "Šioje temoje paaiškinama, kaip nustatyti taisykles, kad klientų aptarnavimo atstovai užsakymų apdorojimo metu būtų įspėjami apie galimai apgaulingą informaciją. Galite apibrėžti konkrečius kodus, kuriuos naudojant galima automatiškai arba rankiniu būdu sulaikyti įtartinus užsakymus."
+title: Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
+description: Šioje temoje paaiškinama, kaip nustatyti taisykles, kad klientų aptarnavimo atstovai užsakymų apdorojimo metu būtų įspėjami apie galimai apgaulingą informaciją. Galite apibrėžti konkrečius kodus, kuriuos naudojant galima automatiškai arba rankiniu būdu sulaikyti įtartinus užsakymus.
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361503"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ Užsakymas įrašomas, bet jis pažymimas žyme **Neapdoroti**. Ši žymė paded
 Norėdami peržiūrėti ir tvarkyti užsakymus, kurie sulaikyti ir kuriuos reikia peržiūrėti dėl apgaulės, eikite į **Mažmeninė prekyba** \> **Klientai** \> **Užsakymo sulaikymas**. Puslapyje **Užsakymo sulaikymas** esančiame sąraše pasirinkite įrašą ir spustelėkite **Užsakymo sulaikymas**, kad pamatytumėte išsamesnį rodinį, kuriame pateikiama informacija apie sulaikymo priežastį. „FastTab“ **Apgaulės informacija** galite peržiūrėti sistemoje nustatytus apgaulės kriterijus, pagal kuriuos rasta atitikmenų užsakyme, ir pritaikytas rezultatų vertes. Jei užsakymas buvo sulaikytas rankiniu būdu, galite peržiūrėti užsakymą sulaikiusio vartotojo įvestus komentarus „FastTab“ **Pastabos** skyriuje **Apgaulės pastabos**.
 
 Daugiau informacijos apie tai, kaip dirbti su sulaikytais užsakymais, žr. [Užsakymo sulaikymas](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-

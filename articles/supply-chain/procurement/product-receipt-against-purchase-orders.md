@@ -1,13 +1,13 @@
 ---
-title: "Produkto gavimas pagal pirkimo užsakymą"
-description: "Šioje temoje aprašomos įvairios produktų registravimo kaip baigtų produktų parinktys."
+title: Produkto gavimas pagal pirkimo užsakymą
+description: Šioje temoje aprašomos įvairios produktų registravimo kaip baigtų produktų parinktys.
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356673"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>Produkto gavimas pagal pirkimo užsakymą
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ Galite kurti PU eilutes, kuriose suaktyvinta parinktis **Naujas ilgalaikis turta
 
 Galite pasirinkti kelis užsakymus ir kartu apdoroti visų užsakymų gavimą. Šis metodas nėra labai dažnai naudojamas, bet jį naudoti gali būti naudinga, jei tiekėjas konsolidavo siuntas į vieną krovinį. Perkamo produkto gavimo metu galima atlikti suminių naujinimų. Suminiai naujinimai suteikia galimybę vieną tiekėjo važtaraštį užregistruoti daugiau nei vienam PU.  
 
-PU galima kurti iš pardavimo užsakymo, kuriame pažymėta parinktis **Tiesioginis pristatymas**. Naudojant tiesioginį pristatymą, produktai niekada nepristatomi į jūsų sandėlį, bet yra tiesiogiai siunčiami iš tiekėjo klientui. Tokiu atveju gavimas paprastai užregistruojamas tiesiai PU. Gavimą galima atlikti automatiškai, pvz., naudojant elektroninių duomenų apsikeitimo (EDI) integraciją su tiekėju. Arba, jei PU yra vidinės įmonės PU, „Microsoft Dynamics 365 for Finance and Operations“ siuntimo metu automatizuoja vidinės įmonės pardavimo užsakymo gavimą. Naudojant tiesioginį pristatymą, produktai vis tiek apskaitomi kaip atsargos, nors jie fiziškai nėra pristatomi į sandėlį. Todėl, kai PU užregistruojamas produkto gavimas, pardavimo užsakymas yra automatiškai atnaujinamas pridedant važtaraštį, kad bendras atsargų pokytis būtų 0 (nulis). Naudojant tiesioginį pristatymą, išankstinė registracija nereikalinga. Jei naudojate sandėlius, kuriuose galima naudoti sandėlio valdymo funkciją, numerio lentelės registravimo reikalavimą galite apeiti nurodydami virtualų sandėlį. Šis sandėlis nurodomas produkto lauke **Tiesioginio pristatymo sandėlis**. 
+PU galima kurti iš pardavimo užsakymo, kuriame pažymėta parinktis **Tiesioginis pristatymas**. Naudojant tiesioginį pristatymą, produktai niekada nepristatomi į jūsų sandėlį, bet yra tiesiogiai siunčiami iš tiekėjo klientui. Tokiu atveju gavimas paprastai užregistruojamas tiesiai PU. Gavimą galima atlikti automatiškai, pvz., naudojant elektroninių duomenų apsikeitimo (EDI) integraciją su tiekėju. Jei PU yra vidinės įmonės PU, „Microsoft Dynamics 365 for Finance and Operations“ siuntimo metu automatizuoja vidinės įmonės pardavimo užsakymo gavimą. Naudojant tiesioginį pristatymą, produktai vis tiek apskaitomi kaip atsargos, nors jie fiziškai nėra pristatomi į sandėlį. Todėl, kai PU užregistruojamas produkto gavimas, pardavimo užsakymas yra automatiškai atnaujinamas pridedant važtaraštį, kad bendras atsargų pokytis būtų 0 (nulis). Naudojant tiesioginį pristatymą, išankstinė registracija nereikalinga. Jei naudojate sandėlius, kuriuose galima naudoti sandėlio valdymo funkciją, numerio lentelės registravimo reikalavimą galite apeiti nurodydami virtualų sandėlį. Šis sandėlis nurodomas produkto lauke **Tiesioginio pristatymo sandėlis**. 
 
 PU apdorojus produkto gavimą, PU būsena nustatoma kaip **Gauta**, siekiant nurodyti, kad galima apdoroti užsakymo SF. Galite peržiūrėti informaciją apie jau gautus produktus puslapyje **Produktų gavimo žurnalai**.  
 
@@ -69,7 +68,6 @@ PU apdorojus produkto gavimą, PU būsena nustatoma kaip **Gauta**, siekiant nur
 [Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
 
 [Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

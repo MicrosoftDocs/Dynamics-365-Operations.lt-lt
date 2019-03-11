@@ -1,13 +1,13 @@
---- 
-title: "Duomenų modelio aprašo pasirinkimas, kuriant formatus"
-description: "Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją“ ir pažymėti jį kaip aktyvų."
+---
+title: Duomenų modelio aprašo pasirinkimas, kuriant formatus
+description: Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją“ ir pažymėti jį kaip aktyvų.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334501"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Duomenų modelio aprašo pasirinkimas, kuriant formatus
 
@@ -81,7 +81,7 @@ Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūr
     * Naudokite ER kūrimo priemonę nurodyti modelio susiejimus reikalingiems šakniniams elementams.  
 2. Spustelėkite Konstruktorius.
     * Modeliuokite pasirinktą modelio susiejimo nustatymą pasirinkto modelio šakniniam elementui.  
-3. Medyje pasirinkite „Dynamics 365 for Operations\Table records“.
+3. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 4. Spustelėkite „Įtraukti šaknį“.
 5. Lauke Pavadinimas įveskite „Didžioji knyga“.
 6. Lauke „Lentelė“, įveskite „LedgerJournalTrans“.
@@ -98,5 +98,4 @@ Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūr
 4. Lauke Duomenų modelio aprašas įveskite arba pasirinkite reikšmę.
     * Žinokite, kad dabar tik vieną šakninį elementą galima susieti su programos duomenų šaltiniais. Kai bent vienas modelio susiejimas yra įvestas, tik modelio šakniniai elementai, susieti su programos duomenų šaltiniais, gali būti pasirinkti kaip modelio apibrėžtis, kai pridėtas ER formatas.   
 5. Uždarykite puslapį.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Trišalės atitikimo strategijos"
-description: "Šioje temoje pateikiami trišalio atitikimo pavyzdžiai."
+title: Trišalės atitikimo strategijos
+description: Šioje temoje pateikiami trišalio atitikimo pavyzdžiai.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318953"
 ---
-
 # <a name="three-way-matching-policies"></a>Trišalės atitikimo strategijos
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,7 @@ ms.lasthandoff: 03/26/2018
 1.  Sammy, „Fabrikam“ gavimo padalinio darbuotojas, gavo visą kiekį įrenginių, išsiųstų iš „Contoso“. Produkto gavimo dokumente jis įveda kiekį 5. Kadangi gautas visas pirkimo užsakymas, pirkimo užsakymo būsena pasikeičia į Gauta.
 2.  April, „Fabrikam“ mokėtinų sumų koordinatorė, įveda ir patikrina sąskaitą faktūrą, kurią pateikė „Contoso“. Ji patikrina šią informaciją:
     -   Prekėms, kurioms reikalingas trišalis atitikimas, ar kiekis sąskaitos faktūros eilutėje atitinka gautą kiekį. Gautas kiekis nurodytas produkto gavimo kvite, kuris sugretintas su sąskaita faktūra.
-    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, ar sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti programoje „Microsoft Dynamics 365 for Finance and Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
+    -   Prekėms, kurioms reikalingas dvišalis arba trišalis atitikimas, sąskaitos faktūros eilutės kainos patenka į leistinus nuokrypius, kurie apibrėžti sprendime „Microsoft Dynamics 365 for Finance and Operations“. Tai apima toliau nurodytus kainų gretinimo tipus.
         -   Grynosios vieneto kainos gretinimas – grynoji vieneto kaina sąskaitos faktūros eilutėje atitinka grynąją vieneto kainą pirkimo užsakymo eilutėje leistino nuokrypio procento ribose. Šiame pavyzdyje grynosios vieneto kainos leistinas nuokrypis yra + 8 %.
         -   Kainų grynųjų sumų gretinimas – grynoji suma sąskaitos faktūros eilutėje atitinka grynąją sumą pirkimo užsakymo eilutėje leistino nuokrypio procento, sumos arba procento ir sumos ribose. Šiame pavyzdyje kainų grynųjų sumų leistinas nuokrypis yra + 15 %.
 
@@ -143,7 +142,6 @@ Jei reikalingas registruojamų sąskaitų faktūrų su jų gretinimo nesutapimai
 
 
 Jei reikia daugiau informacijos, žr. temą [Mokėtinų sumų SF gretinimas](accounts-payable-invoice-matching.md).
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Įrašyti prekių gavimą pirkimo užsakyme"
-description: "Šioje procedūroje parodoma, kaip prekių gavimą registruoti tiesiogiai pirkimo užsakyme."
+---
+title: Įrašyti prekių gavimą pirkimo užsakyme
+description: Šioje procedūroje parodoma, kaip prekių gavimą registruoti tiesiogiai pirkimo užsakyme.
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14d1d43479f9864d8fd5ed94a98a654e75eeedf0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343218"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Įrašyti prekių gavimą pirkimo užsakyme
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
 6. Sutraukite sekciją Eilutės.
 7. Spustelėkite GERAI.
     * Dabar pirkimo užsakyme prekės užregistruotos kaip gautos, o tai atsispindi sukurtame produktų gavimo kvitų žurnale. Galite naudoti veiksmą Produkto gavimo kvitas, norėdami peržiūrėti žurnalus, sukurtus su pirkimo užsakymu, ir sužinoti, kas ir kada buvo gauta.  
-
 

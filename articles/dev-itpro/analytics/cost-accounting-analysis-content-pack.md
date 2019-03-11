@@ -1,13 +1,13 @@
 ---
-title: "Kaštų apskaitos analizės „Power BI“ turinys"
-description: "Šioje temoje paaiškinta, kas įtraukiama į išlaidų apskaitos analizės „Power BI“ turinio paketą. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti."
+title: „Power BI“ Kaštų apskaitos analizė
+description: Šioje temoje paaiškinta, kas įtraukiama į „Power BI“ turinio Kaštų apskaitos analizė. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347450"
 ---
-
-# <a name="cost-accounting-analysis-power-bi-content"></a>Kaštų apskaitos analizės „Power BI“ turinys
+# <a name="cost-accounting-analysis-power-bi-content"></a>„Power BI“ Kaštų apskaitos analizė
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Power BI“ turinio paketą **Išlaidų apskaitos analizė**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
+Šioje temoje paaiškinta, kas įtraukiama į „Microsoft Power BI“ paketą **Kaštų apskaitos analizė**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
 „Power BI“ turinys **Kaštų apskaitos analizė** skirtas išlaidų kontrolieriams arba bet kam, kas yra atsakingas už organizacijos išlaidų valdymą. Jis apima pagrindinius duomenis, pvz., išlaidas, reikšmę ir išlaidų koeficientą pagal faktines išlaidas, biudžeto išlaidas ir kintamas biudžeto išlaidas. Jame naudojami operacijų duomenys iš modulio **Išlaidų apskaita** ir pateikiamas sujungtas visos įmonės išlaidų rodinys viena ataskaitų valiuta. Vadovai gali filtruoti duomenis pagal išlaidų objektus, kad atliktų savo organizacijos vienetų išlaidų kontrolę, net jei organizacija turėtų kelis juridinius subjektus.
 
@@ -41,20 +40,20 @@ Turinys **Kaštų apskaitos analizė** išlaidų buhalteriams suteikia galimybę
 
 Norėdami daugiau sužinoti apie išlaidų apskaitą, žr. [Išlaidų apskaitos pagrindinis puslapis](../../financials/cost-accounting/cost-accounting-home-page.md).
 
-Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie **išlaidų apskaitos analizės** „Power BI“ turinio. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
+Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Power BI“ eilutės lygio sauga, visiems išlaidų objektų savininkams galite suteikti prieigą prie „Power BI“ turinio **Kaštų apskaitos analizė**. Tada visi vaizdinių priemonių duomenys bus filtruojami pagal išlaidų apskaitos valdomą prieigos lygį. Norėdami daugiau sužinoti apie prieigos lygio saugą ir eilutės lygio saugą, žr. temą [„Power BI“išlaidų apskaitos turinio saugos nustatymas](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
-**Išlaidų apskaitos analizės** „Power BI“turinį galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+„Power BI“turinį **Kaštų apskaitos analizė** galite rasti bendrai naudojamo turto bibliotekoje „Microsoft Dynamics Lifecycle Services“ (LCS). Norėdami gauti daugiau informacijos apie tai, kaip atsisiųsti turinį ir įdiegti jį savo organizacijoje, žr. [„Power BI“ turinys LCS iš „Microsoft“ ir jūsų partnerių](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
-Įsitikinkite, kad atsisiunčiate tą turinį **Kaštų apskaitos analizė**, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365‟ versijai.
+Įsitikinkite, kad atsisiunčiate tą turinį **Kaštų apskaitos analizė**, kuris taikomas jūsų naudojamai „Microsoft Dynamics 365“ versijai.
 
 > [!NOTE]
 > KB 4011327 yra būtinoji šio „Power BI“ turinio sąlyga. Prisijungę prie LCS, KB galite pasiekti adresu <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
-Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **išlaidų apskaitos analizės** „Power BI“ turinio vizualizacijų apžvalga.
+Į turinį įtrauktas ataskaitų puslapių rinkinys. Kiekvieną puslapį sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama „Power BI“ turinio **Kaštų apskaitos analizė** vizualizacijų apžvalga.
 
 | Ataskaitų puslapis                      | Diagrama                                                                                                                         | Išklotinė                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
@@ -75,7 +74,7 @@ Nustatydami kaštų apskaitos prieigos lygio saugą ir ją suderindami su „Pow
 |                                  | Faktinės išlaidos pagal išlaidų objekto dimensijos nario pavadinimą ir išlaidų elemento dimensijos nario pavadinimą                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+Tolesniais duomenimis pildomi „Power BI“ turinio **Kaštų apskaitos analizė** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
 Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
 
@@ -127,4 +126,3 @@ Tolesniais duomenimis pildomi „Power BI‟ turinio **Kaštų apskaitos analiz�
 | Finansiniai kalendoriai                   | Kalendorius, kalendoriaus aprašymas                                                                                       |
 | Finansiniai metai                       | Kalendoriniai metai                                                                                                        |
 | Ataskaitiniai laikotarpiai                     | Kalendorinių metų laikotarpis                                                                                                 |
-

@@ -1,13 +1,13 @@
 ---
 title: Personalas
-description: "Personalo valdymo modulis racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis. Šios sritys apima įdarbinimą ir darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą."
+description: Personalo valdymo modulis racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis. Šios sritys apima įdarbinimą ir darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą.
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341769"
 ---
-
 # <a name="human-resources"></a>Personalas
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ Be kompensacijų darbuotojams mokant darbo užmokestį, atlyginimus ir premijas,
 
 - [Išmokų programos valdymas](../../talent/manage-benefit-program.md)
 - [Teisės į išmoką strategijos](../../talent/benefit-eligibility-policies.md)
-- [Darbuotojams paskolintų prekių valdymas](../../talent/loan-items.md)
+- [Darbininkams paskolintų prekių valdymas](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Darbo vietos saugos ir atitikties užtikrinimas
 
@@ -95,4 +94,3 @@ Galite sudaryti ir administruoti klausimynus informacijai įvairiems tikslams ri
 - [Klausimyno sudarymas](../../talent/design-questionnaires.md)
 - [Klausimyno platinimas ir pildymas](../../talent/distribute-questionnaires.md)
 - [Klausimyno rezultatų peržiūra ir įvertinimas](../../talent/evaluate-questionnaire-results.md)
-

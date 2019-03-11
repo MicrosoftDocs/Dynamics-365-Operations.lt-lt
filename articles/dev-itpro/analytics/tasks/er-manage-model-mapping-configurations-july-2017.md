@@ -1,13 +1,13 @@
---- 
-title: "Atskirų ER konfigūracijų ER modelio susiejimo valdymas"
-description: "Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali valdyti elektroninių ataskaitų (ER) modelio susiejimus atskirose ER konfigūracijose."
+---
+title: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
+description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali valdyti elektroninių ataskaitų (ER) modelio susiejimus atskirose ER konfigūracijose.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349152"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Atskirų ER konfigūracijų ER modelio susiejimo valdymas
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 08/09/2018
 
 Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali valdyti elektroninių ataskaitų (ER) modelio susiejimus atskirose ER konfigūracijose. Šiame užduočių vedlyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti užduočių vedlio veiksmus, pirmiausia turite užbaigti užduočių vedlio „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
 
-Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių vedlį, naudodami jūsų pasirinktą įmonės duomenų rinkinį. Šio užduočių vedlio funkcijas galima naudoti, jei įdiegėte vieną iš tolesnių karštųjų pataisų: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872, skirtą „Dynamics AX“ 7.0 versijai arba https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871,  skirtą „Dynamics 365 for Operations“ versijai.
+Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių vedlį, naudodami jūsų pasirinktą įmonės duomenų rinkinį. Šio užduočių vedlio funkcijas galima naudoti, jei įdiegėte vieną iš tolesnių karštųjų pataisų: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872, skirtą „Dynamics AX“ 7.0 versijai arba https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871, skirtą „Dynamics 365 for Operations“ versijai.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti užduočių vedlio „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.   
@@ -70,7 +70,7 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 6. Spustelėkite Konstruktorius.
     * Atkreipkite dėmesį, kad sukurto modelio susiejimo konfigūracijoje yra naujas tuščias susiejimas tokiu pačiu pavadinimu, kaip sukurta konfigūracija. Žinokite, kad kai pasirinktoje pirminio modelio konfigūracijoje yra modelio susiejimų, jie bus nukopijuoti į naują modelio susiejimo konfigūraciją.   
 7. Spustelėkite Konstruktorius.
-8. Medyje pasirinkite „Dynamics 365 for Operations\Table“.
+8. Medyje pasirinkite Dynamics 365 for Operations\Table.
 9. Spustelėkite „Įtraukti šaknį“.
 10. Lauke „Pavadinimas“ įveskite „Įmonė“.
     * Įmonė  
@@ -123,7 +123,7 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 5. Spustelėkite Sukurti konfigūraciją.
 6. Spustelėkite Konstruktorius.
 7. Spustelėkite Konstruktorius.
-8. Medyje pasirinkite „Dynamics 365 for Operations\Table“.
+8. Medyje pasirinkite Dynamics 365 for Operations\Table.
 9. Spustelėkite „Įtraukti šaknį“.
 10. Lauke „Pavadinimas“ įveskite „Įmonė“.
     * Įmonė  
@@ -161,5 +161,4 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 6. Spustelėkite Vykdyti.
 7. Spustelėkite GERAI.
     * Atkreipkite dėmesį, kad numatytąją modelio susiejimo konfigūraciją naudoja ši formato konfigūracija elektroniniam dokumentui generuoti (sukurtoje išvestyje yra įmonės kodas).  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo bendradarbiavimo mobilioji darbo sritis"
-description: "Šioje temoje pateikiama informacijos apie tiekėjų bendradarbiavimo mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus."
+title: Tiekėjo bendradarbiavimo mobilioji darbo sritis
+description: Šioje temoje pateikiama informacijos apie tiekėjų bendradarbiavimo mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,24 +17,23 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358651"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacijos apie **Tiekėjų bendradarbiavimo** mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
 
-## <a name="overview"></a>Apžvalga 
-**Tiekėjų bendradarbiavimo** mobilioji darbo sritis suteikia tiekėjams informacijos apie naujus pirkimo užsakymus, tad jie gali juos peržiūrėti ir reaguoti naudodami „Microsoft Dynamics 365 for Finance and Operations“ žiniatinklio klientą. 
+## <a name="overview"></a>Peržiūrėti 
+Mobilioji darbo sritis **Tiekėjų bendradarbiavimas** suteikia tiekėjams informacijos apie naujus pirkimo užsakymus, tad jie gali juos peržiūrėti ir reaguoti naudodami „Microsoft Dynamics 365 for Finance and Operations“ žiniatinklio klientą. 
 
 >[!NOTE]
 > Mobilioji darbo sritis turėtų būti naudojama kaip tiekėjų bendradarbiavimo žiniatinklio sąsajos papildymas, bet ne pakaitalas. 
@@ -61,10 +60,10 @@ Tiekėjo bendradarbiavimo žiniatinklio sąsaja žiniatinklio kliente turi būti
 Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“ 
-Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi paskelbti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
 
 <table>
 <thead>
@@ -80,7 +79,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 3216943 yra dvejetainis naujinimas, būtinas, jei naudojate platformos 3 naujinimą. Norėdamas įdiegti šią KB, sistemos administratorius turi atlikti šiuos veiksmus.
 <ol>
-<li>Atsisiųskite KB 3216943 iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).</li>
+<li>Atsisiųskite KB 3216943 iš „Microsoft Dynamics Lifecycle Services“ (LCS).</li>
 <li>Įdiekite dvejetainį naujinimą, kuris pristatomas kaip įdiegiamas paketas. Informacijos apie tai, kaip taikyti įdiegiamą paketą, rasite <a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai įdiegiamo paketo taikymas</a>.</li>
 </ol></td>
 </tr>
@@ -171,4 +170,3 @@ Rodomi visi pakeitimai, atlikti užsakymo eilutės atsakyme. Tačiau nerodomos �
 
 ### <a name="open-confirmed-orders"></a>Atidaryti patvirtintus užsakymus
 Kai klientas patvirtins pirkimo užsakymą (t. y. jo būsena bus pakeista į **Patvirtinta**), užsakymas pasirodys atidarytame patvirtiname užsakyme. Šiame sąraše jis bus rodomas tol, kol bus užregistruotas kaip gautas kliento.
-

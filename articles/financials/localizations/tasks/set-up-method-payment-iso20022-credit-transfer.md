@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti ISO20022 kredito pervedimo mokėjimo būdą"
-description: "Šioje procedūroje parodoma, kaip nustatyti tiekėjo mokėjimo būdą, skirtą atlikti ISO20022 kredito pervedimą arba kito tipo mokėjimą, naudojant elektronines ataskaitas failui generuoti."
+---
+title: Nustatyti ISO20022 kredito pervedimo mokėjimo būdą
+description: Šioje procedūroje parodoma, kaip nustatyti tiekėjo mokėjimo būdą, skirtą atlikti ISO20022 kredito pervedimą arba kito tipo mokėjimą, naudojant elektronines ataskaitas failui generuoti.
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c9209006074fb9da2c3c2ffaa2af4adecfcc1aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311823"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>Nustatyti ISO20022 kredito pervedimo mokėjimo būdą
 
@@ -33,7 +33,7 @@ Prieš atlikdami šią užduotį, turite nustatyti eksporto formato konfigūraci
 
 Ši užduotis buvo sukurta naudojant demonstracinių duomenų įmonę DEMF.
 
-Tai yra trečioji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo naudojant elektroninių ataskaitų konfigūracijas procesas. Ši procedūra yra skirta funkcijai, įtrauktai į „Dynamics 365 for Operations“ 1611 versiją.
+Tai yra trečioji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo naudojant elektroninių ataskaitų konfigūracijas procesas. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 1. Pasirinkite Mokėtinos sumos > Mokėjimų sąranka > Mokėjimo būdai.
 2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Mokėjimo būdas reikšme „SEPA CT“.
@@ -47,5 +47,4 @@ Tai yra trečioji iš penkių procedūrų, kuriose aprašomas kliento mokėjimo 
 9. Lauke Kliento sąskaita pasirinkite „Bankas‟.
 10. Lauke Mokėjimo sąskaita nurodykite reikšmes „DEMF OPER‟.
 11. Spustelėkite Įrašyti.
-
 

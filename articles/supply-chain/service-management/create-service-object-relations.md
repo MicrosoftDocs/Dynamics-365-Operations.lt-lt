@@ -1,31 +1,30 @@
 ---
-title: "Aptarnavimo objekto ryšių kūrimas"
-description: "Šioje temoje aprašoma, kaip sukurti aptarnavimo objekto ryšius aptarnavimo sutarčiai ir aptarnavimo užsakymui."
+title: Aptarnavimo objekto ryšių kūrimas
+description: Šioje temoje aprašoma, kaip sukurti aptarnavimo objekto ryšius aptarnavimo sutarčiai ir aptarnavimo užsakymui.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 792ceea52a9caa1a99217c77bb3fe4aafb80a0eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c27070436139f784af690900a3f1ab108a809d03
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339446"
 ---
-
 # <a name="create-service-object-relations"></a>Aptarnavimo objekto ryšių kūrimas 
 
 [!include [banner](../includes/banner.md)]
@@ -71,6 +70,5 @@ Norėdami sukurti aptarnavimo objekto ryšį aptarnavimo užsakymui, atlikite š
 [Šabloninės KS](template-boms.md)
 
   
-
 
 

@@ -1,13 +1,13 @@
---- 
-title: "Vėlesnių čekių nustatymas"
-description: "Šioje temoje paaiškinama, kaip nurodyti, ar registruoti vėlesnių čekių žurnalo įrašus ir kuriuos registravimo žurnalus naudoti su tarpuskaitos įrašais bei tiekėjo mokėjimais."
+---
+title: Vėlesnių čekių nustatymas
+description: Šioje temoje paaiškinama, kaip nurodyti, ar registruoti vėlesnių čekių žurnalo įrašus ir kuriuos registravimo žurnalus naudoti su tarpuskaitos įrašais bei tiekėjo mokėjimais.
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e4b18ebe1388998b45e5ef38318b0ade9153f7c8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d83713f9d54b396a10894995024ac1c8dd47a6f1
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342620"
 ---
 # <a name="set-up-postdated-checks"></a>Vėlesnių čekių nustatymas
 
@@ -64,5 +64,4 @@ ms.lasthandoff: 09/29/2017
 24. Lauke Mokėjimo sąskaita nurodykite norimas reikšmes.
     * Pasirinkite banko sąskaitą, naudojamą atskaityti SF sumai.  
 25. Uždarykite puslapį.
-
 

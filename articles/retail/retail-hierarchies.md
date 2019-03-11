@@ -1,13 +1,13 @@
 ---
-title: "Mažmeninės prekybos hierarchijos"
-description: "Šiame straipsnyje aprašytos „Microsoft Dynamics 365 for Retail“ mažmeninės prekybos hierarchijos."
+title: Mažmeninės prekybos hierarchijos
+description: Šiame straipsnyje aprašytos „Microsoft Dynamics 365 for Retail“ mažmeninės prekybos hierarchijos.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e94b59540c9ef188a07e2e24ef4a04829b9d37f8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341907"
 ---
-
 # <a name="retail-hierarchies"></a>Mažmeninės prekybos hierarchijos
 
 [!include [banner](includes/banner.md)]
@@ -46,4 +45,3 @@ Tolesnėje lentelėje nurodyti galimi mažmeninės kategorijų hierarchijų tipa
 | Mažmeninės prekybos naršymo hierarchija   | Naudokite šio tipo hierarchiją, norėdami grupuoti ir tvarkyti produktus į kategorijas, kad produktus būtų galima naršyti internete arba EKA. |
 
 Naudodami mažmeninės prekybos kategorijų hierarchiją savo produktus struktūrizuoti, galite nustatyti ir prižiūrėti produkto atributus ir ypatybes kategorijos lygiu. Šie atributai ir ypatybės apima produktų dimensijų ir EKA parametrus. Visiems produktams, kuriuos priskiriate kategorijoms, automatiškai priskiriami jūsų nurodyti atributai ir ypatybės. Taip pat galite nukopijuoti bet kurio produkto ypatybių parametrus, norėdami vienu metu padidinti pasirinktos kategorijos produktų skaičių.
-

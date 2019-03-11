@@ -1,13 +1,13 @@
 ---
-title: "Darbo eigos patvirtinimo veiksmų konfigūravimas"
-description: "Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes."
+title: Darbo eigos patvirtinimo veiksmų konfigūravimas
+description: Šioje temoje paaiškinama, kaip konfigūruoti patvirtinimo veiksmo ypatybes.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368058"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Darbo eigos patvirtinimo veiksmų konfigūravimas
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ Atlikite šiuos veiksmus, kad nurodytumėte, kam patvirtinimo veiksmas turėtų 
     </tr>
     <tr>
     <td>Vartotojas</td>
-    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations‟ vartotojai</td>
+    <td>Konkretūs „Microsoft Dynamics 365 for Finance and Operations“ vartotojai</td>
     <td>
     <ol>
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
@@ -278,4 +277,3 @@ Jei per skirtąjį laiką vartotojas nesiims veiksmų su dokumentu, dokumentas l
 
 5. Pakartokite 3 ir 4 veiksmus su kiekvienu vartotoju, kuris turėtų būti įtrauktas į perskyrimo maršrutą. Galite keisti vartotojų tvarką.
 6. Jei perskyrimo maršrute esantys vartotojai per skirtąjį laiką nesureaguoja, sistema atliks veiksmą su dokumentu automatiškai. Norėdami nurodyti veiksmą, kurį sistema atliks, pasirinkite eilutę **Veiksmas** ir tada skirtuke **Pabaigos veiksmas** pasirinkite veiksmą.
-

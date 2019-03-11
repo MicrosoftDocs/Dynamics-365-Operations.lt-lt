@@ -1,13 +1,13 @@
---- 
-title: "Klausimyno rezultatų analizavimas"
-description: "Klausimyno statistiką galima naudoti skaičiuojant vidurkius, bendrąsias sumas ir procentus, remiantis demografinių duomenų rinkiniu."
+---
+title: Klausimyno rezultatų analizavimas
+description: Klausimyno statistiką galima naudoti skaičiuojant vidurkius, bendrąsias sumas ir procentus, remiantis demografinių duomenų rinkiniu.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a70ea145d8c7134a32e8f0fc6980daca9a010bb0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332753"
 ---
 # <a name="analyzing-questionnaire-results"></a>Klausimyno rezultatų analizavimas
 
@@ -68,5 +68,4 @@ Klausimyno statistiką galima naudoti skaičiuojant vidurkius, bendrąsias sumas
 1. Spustelėkite Rezultatas.
 2. Spustelėkite Rezultatas.
 3. Uždarykite puslapį.
-
 

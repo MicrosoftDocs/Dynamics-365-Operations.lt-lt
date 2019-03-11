@@ -1,13 +1,13 @@
 ---
-title: "Laukų aprašų peržiūra ir eksportas"
-description: "Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus."
+title: Laukų aprašų peržiūra ir eksportas
+description: Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
 ms.reviewer: rschloma
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7be1495fc42b5f19884a7d9df747f6bec9b64680
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359341"
 ---
-
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
 
 [!include [banner](../includes/banner.md)]
 
 Šiame straipsnyje aprašoma, kaip peržiūrėti laukų aprašymus ir kaip naudoti puslapį Laukų aprašymai, norint eksportuoti aprašymus.
 
-„Microsoft Dynamics 365 for Finance and Operations“ pateikiami kai kurių sudėtingesnių laukų aprašai. Šie aprašymai bus rodomi, kai užveskite pelės žymeklį virš lauko. Puslapyje **Laukų aprašymai** aprašymus taip pat galite peržiūrėti ir eksportuoti.
+„Microsoft Dynamics 365 for Finance and Operations“ pateikiami kai kurių sudėtingesnių laukų aprašymai. Šie aprašymai bus rodomi, kai užveskite pelės žymeklį virš lauko. Puslapyje **Laukų aprašymai** aprašymus taip pat galite peržiūrėti ir eksportuoti.
 
 Laukų aprašai yra ne visuose puslapiuose. Norime pateikti tik sudėtingesnių laukų aprašymus, o ne tų, kurių naudojimas yra aiškus. Todėl kai kuriuose puslapiuose aprašymai nerodomi, kai kuriuose puslapiuose rodomi keli aprašymai, o kai kuriuose sudėtingesniuose puslapiuose, pvz., daugelyje parametrų puslapių, rodoma daug aprašymų.
 
@@ -109,4 +108,3 @@ Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Lauko žinyno tinkinimas](../../dev-itpro/user-interface/customize-field-help.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "KS skaičiavimo grupės"
-description: "Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijų (KS) skaičiavimo grupes ir tai, kaip jas nustatyti. Norėdami vykdyti KS skaičiavimą, turite nustatyti skaičiavimo grupes ir priskirti jas atskiroms prekėms arba nustatyti numatytąją skaičiavimo grupę. Tada skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje KS skaičiavimas."
+title: KS skaičiavimo grupės
+description: Šiame straipsnyje pateikiama informacija apie komplektavimo specifikacijų (KS) skaičiavimo grupes ir tai, kaip jas nustatyti. Norėdami vykdyti KS skaičiavimą, turite nustatyti skaičiavimo grupes ir priskirti jas atskiroms prekėms arba nustatyti numatytąją skaičiavimo grupę. Tada skaičiuojant KS skaičiavimo grupės skaičiavimo parametrai naudojami kaip numatytosios reikšmės puslapyje KS skaičiavimas.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362883"
 ---
-
 # <a name="bom-calculations-groups"></a>KS skaičiavimo grupės
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ KS skaičiavimas generuoja įspėjimo pranešimus. Galite peržiūrėti pasirink
 -   Nustatyti, kai prekės KS eilutėje pelningumo procentai yra mažesni nei jūs pageidaujate.
 
 Galite nustatyti kelias KS skaičiavimo grupės, priklausomai nuo to, kiek skirtingų įspėjimo pranešimų norite. Pavyzdžiui, gali pakakti vienos KS skaičiavimo grupės, taikant perspėjimo sąlygas dėl aktyvios KS, kai tiek komponento kiekis, tiek komponento išlaidos lygūs 0 (nuliui). Perspėjimo sąlygos, susietos su KS skaičiavimo grupe, gali būti perrašomos inicijuojant KS skaičiavimą. Taip pat galima įspėjimo sąlygų pridėti arba pašalinti. Pavyzdžiui, galite pašalinti aktyvaus maršruto perspėjimo sąlygą, kai į esamą situaciją nėra įtraukti maršruto duomenys. **Pastaba.** Modulyje Laikas ir buvimas darbe teikiamas puslapis **Skaičiavimo grupės**, bet tas nesusijęs su KS skaičiavimo grupėmis. Taikant modulį Laikas ir buvimas darbe, darbuotojus galima priskirti skaičiavimo grupėms, kurios atspindi su tuo pačiu prižiūrėtoju arba vadovu susijusių darbuotojų grupavimą. Darbuotojų registracijų skaičiavimą galima atlikti automatiškai arba neautomatiniu būdu jį gali atlikti prižiūrėtojas ar vadovas.
-
 
 
 

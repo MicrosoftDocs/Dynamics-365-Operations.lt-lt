@@ -1,32 +1,31 @@
 ---
-title: "Atsargų peržvalga elektroniniame kasos aparate (EKA)"
-description: "Šioje temoje aprašomos parinktys, kuriomis galima peržiūrėti atsargų informaciją elektroniniame kasos aparate (EKA)."
+title: Atsargų peržvalga elektroniniame kasos aparate (EKA)
+description: Šioje temoje aprašomos parinktys, kuriomis galima peržiūrėti atsargų informaciją elektroniniame kasos aparate (EKA).
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314422"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Atsargų peržvalga elektroniniame kasos aparate (EKA)
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ Atsargų peržvalga elektroniniame kasos aparate (EKA) padeda mažmenininkams re
 
 Tikslus visos organizacijos atsargų vaizdas realiuoju laiku parduotuvių atstovams padeda teikti savalaikį aukščiausios kokybės klientų aptarnavimą. Svarbiausias yra tas momentas, kai klientas yra pasirengęs priimti pirkimo sprendimą. Parduotuvių kasininkams svarbu po ranka turėti realiuoju laiku matomą atsargų informaciją, kad galėtų tiksliai planuoti produktų pristatymą ir paėmimą.
 
-Galite atidaryti puslapį **Atsargų peržvalga** iš darbo srities **„Retail Modern POS“** arba darbo srities **„Retail Cloud POS“**.
+Galite atidaryti puslapį **Atsargų peržvalga** iš darbo srities **Retail Modern POS** arba darbo srities **Retail Cloud POS**.
 
 ![Atsargų peržvalgos dalis EKA pagrindiniame puslapyje](media/POSHomepage.png)
 
@@ -116,4 +115,3 @@ Be to, rodinyje **Dimensijų matrica** galima atlikti daugiau veiksmų ir tokiu 
 | Prieinamumas         | Rodykite ATP informaciją apie pasirinktą variantų derinį pasirinktoje vietoje. |
 | Visų vietų rodymas   | Pereikite į standartinį atsargų peržvalgos rodinį ir pažymėkite informaciją apie prekės varianto atsargų likučius visose parduotuvėse parduotuvių lokatorių grupėje, taip pat **Standartinio / Numatytojo** tipo platinimo centruose. |
 | Peržiūrėti produkto informaciją | Nukreipkite vartotoją į susieto bendrojo produkto puslapį **Produkto informacija**. |
-

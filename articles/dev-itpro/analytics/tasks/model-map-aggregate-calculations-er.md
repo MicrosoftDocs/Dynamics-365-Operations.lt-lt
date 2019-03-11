@@ -1,13 +1,13 @@
---- 
-title: "Modelio susiejimo konfigūracijų naudojimas agreguotiems skaičiavimams duomenų bazės lygiu"
-description: "Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują elektroninių ataskaitų (ER) modelio susiejimo konfigūraciją ir, siekiant efektyviai sutelkti skaičiavimus, naudoti integruotas ER funkcijas."
+---
+title: Modelio susiejimo konfigūracijų naudojimas agreguotiems skaičiavimams duomenų bazės lygiu
+description: Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują elektroninių ataskaitų (ER) modelio susiejimo konfigūraciją ir, siekiant efektyviai sutelkti skaičiavimus, naudoti integruotas ER funkcijas.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313640"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modelio susiejimo konfigūracijų naudojimas agreguotiems skaičiavimams duomenų bazės lygiu
 
@@ -37,7 +37,7 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 3. Medyje pasirinkite „Intrastat model\Intrastat sample mapping“ (Intrastat modelis\Intrastat pavyzdinis susiejimas).
 4. Spustelėkite Konstruktorius.
 5. Spustelėkite Konstruktorius.
-6. Medyje pasirinkite „Dynamics 365 for Operations\Table records“.
+6. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 7. Spustelėkite „Įtraukti šaknį“.
     * Įtraukite naują duomenų šaltinį, apimantį norimus grupuoti įrašus.  
 8. Lauke „Pavadinimas“, įveskite „Operacijos“.
@@ -116,5 +116,4 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 67. Medyje išplėskite „Commodity record(Intrastat)“.
 68. Spustelėkite Įrašyti.
     * Atkreipkite dėmesį į tai, kad lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku atmintyje, nors nėra nurodytų telkimų, o pasirinktas tipo „Lentelės įrašai“ duomenų šaltinis paremtas ta pačia „Intrastat“ lentele. Taip yra todėl, kad duomenų šaltinyje yra keletas apskaičiuotų laukų, kurie dar negali būti konvertuoti į SQL duomenų bazės lygį.  
-
 

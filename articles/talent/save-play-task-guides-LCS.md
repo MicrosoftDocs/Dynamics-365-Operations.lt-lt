@@ -1,30 +1,29 @@
 ---
-title: "Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas"
-description: "Šioje temoje aiškinama, kaip įrašyti užduoties vedlius į „Microsoft Dynamics Lifecycle Services“ (LCS) ir leisti juos pakartotinai."
+title: Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
+description: Šioje temoje aiškinama, kaip įrašyti užduoties vedlius į „Microsoft Dynamics Lifecycle Services“ (LCS) ir leisti juos pakartotinai.
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305492"
 ---
-
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
 
 [!include [banner](includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 12/04/2018
 
 „Microsoft Dynamics 365 for Talent“, įdiegtas naudojant „Microsoft Dynamics Lifecycle Services“ (LCS)
 
-**Problema**
+**Išduoti**
 
 Klientas nori įrašyti naują užduoties įrašą į savo LCS projektą, tada pakartotinai leisti įrašytus užduoties vedlius.
 
@@ -66,4 +65,3 @@ Norėdami pakartotinai paleisti LCS užduoties vedlį, atlikite toliau nurodytus
 2. Pasirinkite **Atidaryti iš LCS**.
 3. Pasirinkite biblioteką ir BPM mazgą, kuriame yra įrašytas užduoties vedlys.
 4. Atidarykite užduoties vedlį.
-

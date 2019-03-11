@@ -1,33 +1,32 @@
 ---
-title: "„Sales“ pardavimo pasiūlymų antraščių ir eilučių tiesioginis sinchronizavimas su „Finance and Operations“"
-description: "Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo pasiūlymo antraštes ir eilutes tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“."
+title: „Sales“ pardavimo pasiūlymų antraščių ir eilučių tiesioginis sinchronizavimas su „Finance and Operations“
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo pasiūlymo antraštes ir eilutes tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: efe943f5c874ed041ce7984272ebc19f57cca6ef
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313801"
 ---
-
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>„Sales“ pardavimo pasiūlymų antraščių ir eilučių tiesioginis sinchronizavimas su „Finance and Operations“
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“
 
 [!include [banner](../includes/banner.md)]
 
@@ -141,5 +140,4 @@ Tolesnėse iliustracijose pateikiamas šablono susiejimo pavyzdys duomenų integ
 ## <a name="related-topics"></a>Susijusios temos
 
 [Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
-
 

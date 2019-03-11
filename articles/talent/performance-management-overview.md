@@ -1,13 +1,13 @@
 ---
-title: "Našumo valdymas"
-description: "Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų."
+title: Našumo valdymas
+description: Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305418"
 ---
-
 # <a name="performance-management"></a>Našumo valdymas
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ Kai pasiekiama iš **ESS** darbo srities, puslapyje **Našumo žurnalas** galima
 
 Be to, galite susieti našumo žurnalą su išorine svetaine išsaugodami tos svetainės URL. Jei žurnalas yra susijęs su tikslų arba našumo apžvalgomis, taip pat galite susieti jį su viena ar keliomis apžvalgomis. Kai našumo žurnalas pasiekiamas iš **MSS** puslapio, galite įvesti tą pačią informaciją, kurią įvedėte darbuotojo žurnalui. Be to, galite nurodyti darbuotoją, kuriam žurnalas kuriamas. Galite pasirinkti, ar bendrinti vadovo žurnalą su savo darbuotoju.
 
-### <a name="praise"></a>Pagyrimas
+### <a name="send-feedback"></a>Siųsti atsiliepimą
 
-Našumo žurnale yra papildoma funkcija Pagyrimas. Spustelėję **Siųsti pagyrimą** galite pasirinkti darbuotoją ir pateikti tam darbuotojui atsiliepimą el. paštu. Pranešimas nusiunčiamas giriamam darbuotojui, to darbuotojo vadovui, pagyrimą siunčiančiam darbuotojui ir to darbuotojo vadovui. Našumo žurnalo įrašas sukuriamas kiekvienam asmeniui, kuris gauna pagyrimo pranešimą.
+Našumo žurnale yra papildoma funkcija Atsiliepimas. Spustelėję **Siųsti atsiliepimą** galite pasirinkti darbuotoją ir pateikti tam darbuotojui atsiliepimą el. paštu. Pranešimas nusiunčiamas atsiliepimą gaunančiam darbuotojui, to darbuotojo vadovui, atsiliepimą siunčiančiam darbuotojui ir to darbuotojo vadovui. Našumo žurnalo įrašas sukuriamas kiekvienam asmeniui, kuris gauna atsiliepimo pranešimą.
 
 ## <a name="goals"></a>Tikslai
 Puslapis **Našumo tikslai** padeda jums sekti tikslus, kuriuos jūs ir jūsų vadovas jums sukūrė. Galite sukurti bet kokį skaičių tikslų ir šie tikslai gali apimti skirtingų laikotarpių ir našumo apžvalgas. Be to, galite kurti paprastus arba sudėtingus tikslus, atsižvelgdami į informaciją, kurią norite įvesti apie tikslą. Tikslai nėra reikalingi našumo apžvalgoms. 
@@ -151,7 +150,6 @@ Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Gali
 ### <a name="review-types"></a>Apžvalgos tipai
 
 Našumo apžvalgos tipai padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.
-
 
 
 

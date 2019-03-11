@@ -1,13 +1,13 @@
 ---
 title: Pardavimas ir rinkodara
-description: "Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą."
+description: Galite naudoti pardavimą ir rinkodarą norėdami gauti, saugoti ir naudoti įvairių tipų pardavimo srauto duomenis. Šie duomenys apima pradinę pardavimo iniciatyvą, tolesnę sekimo veiklą ir papildomą pardavimą.
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321069"
 ---
-
 # <a name="sales-and-marketing"></a>Pardavimas ir rinkodara
 
 [!include [banner](../includes/banner.md)]
@@ -126,4 +125,3 @@ Išankstinė SF yra tokia sąskaita, kuri parengiama kaip faktinių sąskaitos s
 #### <a name="blogs"></a>Tinklaraščiai
 
 Galite rasti užregistruotą pardavimo proceso apžvalgą [Kaip pardavimai veikia „Dynamics 365 for Finance and Operations“](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
-

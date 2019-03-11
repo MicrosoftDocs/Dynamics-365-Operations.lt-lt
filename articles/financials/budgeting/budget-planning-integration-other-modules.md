@@ -1,13 +1,13 @@
 ---
-title: "Biudžeto planavimo integravimas su kitais moduliais"
-description: "Biudžeto planus galima generuoti iš kelių skirtingų išteklių. Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų išteklių elementai."
+title: Biudžeto planavimo integravimas su kitais moduliais
+description: Biudžeto planus galima generuoti iš kelių skirtingų išteklių. Pagrindiniai periodinio proceso elementai yra tie patys, kaip ir visų išteklių elementai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353039"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>Biudžeto planavimo integravimas su kitais moduliais
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ Pasirinkite eilutę ir spustelėkite mygtuką **Biudžeto plano eilutės**, nor�
 Naudokite mygtukus **Tiekimo prognozė** ir **Poreikio prognozė** šioms užklausoms pateikti. Abiem atvejais užklausa ieško prognozės eilučių, kurios galėjo sukurti biudžeto plano eilutes. 
 
 Galima naudoti vieną iš papildomų ataskaitų – **Prognozės pozicijos pagal biudžeto planą**. Ši ataskaita yra ypač naudinga, kai norite nustatyti, ar pozicija buvo tinkamai priskirta biudžeto planams.
-
 
 
 

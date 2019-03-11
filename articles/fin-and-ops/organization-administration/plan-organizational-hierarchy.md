@@ -1,13 +1,13 @@
 ---
 title: Organizacijos hierarchijos planavimas
-description: "Prieš nustatydami organizacijas ir hierarchijas įsitikinkite, kad suprantate, kaip geriausia modeliuoti savo verslą."
+description: Prieš nustatydami organizacijas ir hierarchijas įsitikinkite, kad suprantate, kaip geriausia modeliuoti savo verslą.
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331994"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>Organizacijos hierarchijos planavimas
 
 [!include [banner](../includes/banner.md)]
 
-Prieš nustatydami organizacijas ir organizacijos hierarchijas programoje „Microsoft Dynamics 365 for Finance and Operations“ būtinai suplanuokite, kaip bus modeliuojamas jūsų verslas. Organizacijos modelis turi didelės įtakos „Finance and Operations“ diegimui ir verslo procesams.
+Prieš nustatydami organizacijas ir hierarchijas programoje „Microsoft Dynamics 365 for Finance and Operations“, būtinai suplanuokite, kaip bus modeliuojamas jūsų verslas. Organizacijos modelis turi didelės įtakos „Finance and Operations“ diegimui ir verslo procesams.
 
 Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro verslą. Todėl modeliuojant organizacijas svarbiausias aspektas yra jūsų verslo struktūra. Rekomenduojame organizacijos struktūras apibrėžti naudojantis atsiliepimais, gautais iš vadovų ir vyresniųjų vadybininkų, dirbančių įvairiose veiklos srityse, pvz., finansų ir apskaitos, personalo, pagrindinės veiklos, pirkimo ir pardavimo bei rinkodaros.
 
-Planuojant hierarchijas taip pat svarbu atsižvelgti į ryšį tarp organizacijos hierarchijos ir finansinių dimensijų. Galite nustatyti kelias organizacijos hierarchijas, kurios atspindės skirtingus jūsų verslo aspektus. Naudodami finansines dimensijas galite kurti ataskaitas pagal šiuos aspektus. Dirbdami su savo „Microsoft Dynamics 365 for Finance and Operations“ partneriu, kurkite hierarchijas, skirtas tiek organizacinio, tiek įstatymuose numatyto ataskaitų teikimo poreikiams.
+Planuojant hierarchijas taip pat svarbu atsižvelgti į ryšį tarp organizacijos hierarchijos ir finansinių dimensijų. Galite nustatyti kelias organizacijos hierarchijas, kurios atspindės skirtingus jūsų verslo aspektus. Naudodami finansines dimensijas galite kurti ataskaitas pagal šiuos aspektus. Dirbdami su savo „Microsoft Dynamics 365 for Finance and Operations“ partneriu kurkite hierarchijas, skirtas tiek organizacinio, tiek įstatymuose numatyto ataskaitų teikimo poreikiams.
 
 > [!NOTE]
 > Nors juridinius subjektus atstovaujančias finansines dimensijas galite naudoti programoje „Finance and Operations“ nesukurdami juridinių subjektų, finansinės dimensijos nėra skirtos juridinių subjektų veiklos ar verslo poreikiams. Susijusių vienetų apskaitos funkcija programoje „Finance and Operations“ yra skirta tik apskaitos įrašams, kuriuos sukuria kiekviena operacija.
@@ -168,7 +167,7 @@ Valdymo vienetai naudoja pirminio juridinio subjekto šalies aplinką. Tam pači
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Ar organizacija modeliuojama kaip juridinis subjektas
 
-Šalims / regionams, kuriuos palaiko „Finance and Operations“, galima sukurti daugumą privalomųjų ataskaitų. Informacijos apie tai, kokios ataskaitos prieinamos kiekvienoje šalyje / regione, ieškokite [„Microsoft Dynamics“ lokalizavimo portale](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC), skirtame „Finance and Operations“. (Reikia „CustomerSource“ prisijungimo.)
+Šalims / regionams, kuriuos palaiko „Finance and Operations“, galima sukurti daugumą privalomųjų ataskaitų. Informacijos apie tai, kokios ataskaitos prieinamos kiekvienoje šalyje / regione, ieškokite [„Microsoft Dynamics“ lokalizavimo portale, skirtame „Finance and Operations“](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Reikia „CustomerSource“ prisijungimo.)
 
 > [!NOTE]
 > Sprendime „Finance and Operations“ didžiosios knygos registravimo sluoksnis suteikia galimybę atlikti koregavimo įrašus pirminei įmonei, naudojančiai kitą apskaitos standartą nei antrinė įmonė. Pavyzdžiui, įmonėje, kuri naudoja Jungtinės Karalystės visuotinai priimtą apskaitos praktiką (UK GAAP), galite atlikti koregavimo įrašus registravimo sluoksnyje. Šiuos įrašus galima konsoliduoti į pirminę įmonę, kuri naudoja JAV visuotinai priimtus apskaitos principus (GAAP). Koregavimo įrašai neturi įtakos UK GAAP ataskaitoms.
@@ -243,4 +242,3 @@ Keisti įmonių nereikia norint pasiekti duomenis iš kelių valdymo vienetų. K
 - Prieš modeliuodami pagrindinius pertvarkymo scenarijus, poveikio analizei ir tikrinimo bandymui atlikti naudokite hierarchijos įsigaliojimo datas.
 - Naudodami juodraščio režimą pakeiskite hierarchiją prieš publikuodami naują versiją gamybos aplinkoje.
 - Ribokite skaičių žmonių, turinčių teisę įtraukti organizacijos į hierarchiją arba šalinti iš jos gamybos aplinkoje. Mažesnis skaičius sumažina brangių klaidų ir reikalingų taisymų pavojų.
-

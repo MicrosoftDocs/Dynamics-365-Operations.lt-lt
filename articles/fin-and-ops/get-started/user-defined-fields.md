@@ -1,13 +1,13 @@
 ---
-title: "Pasirinktinių laukų kūrimas ir darbas su jais"
-description: "Šioje temoje parodoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ kai kuriems vartotojams leidžia kurti pasirinktinius laukus ir programą pritaikyti savo verslui."
+title: Pasirinktinių laukų kūrimas ir naudojimas
+description: Šioje temoje parodoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ kai kuriems vartotojams leidžia kurti pasirinktinius laukus ir programą pritaikyti savo verslui.
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348025"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>Pasirinktinių laukų kūrimas ir darbas su jais
+# <a name="create-and-work-with-custom-fields"></a>Pasirinktinių laukų kūrimas ir naudojimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +31,7 @@ Nors „Microsoft Dynamics 365 for Finance and Operations“ suteikia platų par
 
 Galimybė pridėti pasirinktinius laukus pasiekiama 13-ame ir vėlesniuose platformos naujinimuose.
 
-Šiame vaizdo įraše pademonstruojama, kaip lengva į puslapį įtraukti pasirinktinį lauką: [Pasirinktinių laukų įtraukimas naudojant „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
+Šiame vaizdo įraše rodoma, kaip lengva į puslapį įtraukti pasirinktinį lauką [Pasirinktinių laukų įtraukimas naudojant „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
 ## <a name="creating-custom-fields"></a>Pasirinktinių laukų kūrimas
 
@@ -160,4 +159,3 @@ Dėl našumo ir techninių priežasčių pasirinktinių laukų galima įtraukti 
 - Kitos lentelės naudojant šią lentelę išplėsti negalima.
 - Lentelės negalima pažymėti sistemos lentele.
 - Lentelė negali būti laikina.
-

@@ -1,13 +1,13 @@
---- 
-title: "Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus"
-description: "Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai."
+---
+title: Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus
+description: Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353108"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus
 
@@ -48,5 +48,4 @@ Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti ski
     * Pasirinkite taisyklę.  
 2. Spustelėkite Tikrinti pareigas ir vaidmenis.
     * Jei esami vaidmenys pažeidžia pasirinktą taisyklę, rodomas pranešimas, kuriame pateikiamas vaidmens pavadinimas ir nesuderinamų pareigų pavadinimai. Administratorius turi nurodyti saugos rizikos mažinimą arba modifikuoti vaidmenį, kad jis nepažeistų pareigų atskyrimo taisyklių.     Jei nėra vaidmenų, kurie pažeistų pasirinktą taisyklę, pranešime rodoma, kad visi vaidmenys atitinka.  
-
 

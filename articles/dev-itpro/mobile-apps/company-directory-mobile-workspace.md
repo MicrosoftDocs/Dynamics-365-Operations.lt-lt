@@ -1,13 +1,13 @@
 ---
-title: "Įmonės katalogo mobilioji darbo sritis"
-description: "Šioje temoje pateikiama informacija apie įmonės katalogo mobiliąją darbo sritį, kurią naudodami vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti."
+title: Įmonės katalogo mobilioji darbo sritis
+description: Šioje temoje pateikiama informacija apie įmonės katalogo mobiliąją darbo sritį, kurią naudodami vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,23 +15,22 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308626"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>Įmonės katalogo mobilioji darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Įmonės katalogas**. Naudodami šią darbo sritį vartotojai gali peržiūrėti duomenis apie kitus organizacijos darbuotojus ir su jais susisiekti.
 
-Šią mobiliąją darbo sritį galima naudoti kartu su mobiliąja programa „Microsoft Dynamics 365 for Unified Operations“.
+Šią mobiliąją darbo sritį galima naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 Naudodami mobiliąją darbo sritį **Įmonės katalogas** vartotojai gali atlikti šias užduotis:
 
 - Peržiūrėti organizacijos darbuotojų sąrašą.
@@ -53,12 +52,12 @@ Tam, kad galėtumėte naudoti šią mobiliąją darbo sritį, turi būti laikoma
 <tbody>
 <tr class="odd">
 <td>Jūsų organizacijoje turi būti įdiegtas vienas iš šių produktų:
-<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<ul><li>„Microsoft Dynamics 365 for Finance and Operations“</li>
+<li>„Microsoft Dynamics 365 for Talent“</li>
 </ul>
 </td>
 <td>Sistemos administratorius</td>
-<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations”, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje jau yra įdiegta programa „Talent“, sistemos administratorius gali naudoti puslapyje <a href="https://www.microsoft.com/en-us/dynamics365/talent">„Talent‟ tinklapis</a> esančią bandomąją versiją.
+<td>Jeigu jūsų organizacijoje dar neįdiegta programa „Finance and Operations“, žr. <a href="../deployment/deploy-demo-environment.md">Demonstracinės aplinkos diegimas</a>. Jeigu jūsų organizacijoje jau yra įdiegta programa „Talent“, sistemos administratorius gali naudoti puslapyje <a href="https://www.microsoft.com/en-us/dynamics365/talent">„Talent“ tinklapis</a> esančią bandomąją versiją.
 </td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Ope
 1.  Mobiliojoje programoje pasirinkite darbo sritį **Įmonės katalogas**.
 2.  Norėdami pradėti paiešką, lauke **Ieška** įveskite darbuotojo vardą, pavardę, pareigas arba skyrių.
 3.  Pasirinkite darbuotoją. Rodomas puslapis **Darbuotojo profilis**. Šiame puslapyje esanti informacija apima darbuotojo vardą, pavardę, pareigas ir skyrių.
-

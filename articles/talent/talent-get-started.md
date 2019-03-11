@@ -1,13 +1,13 @@
 ---
-title: "Darbo su „Talent“ pradžia"
-description: "Šioje temoje pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas, taip pat, kaip prisijungti prie produkte ir svetainėje docs.microsoft.com pateikiamų žinyno išteklių."
+title: Darbo su „Talent“ pradžia
+description: Šioje temoje pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas, taip pat, kaip prisijungti prie produkte ir svetainėje docs.microsoft.com pateikiamų žinyno išteklių.
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305543"
 ---
 # <a name="get-started-with-talent"></a>Darbo su „Talent“ pradžia
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 Programoje „Microsoft Dynamics 365 for Talent“ lengva modifikuoti vartotojo sąsają ir nustatyti parinktis, paverčiančias programinę įrangą intuityvesne jūsų poreikiams. Šioje temoje pateikiami saitai į temas, kuriose pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas. Šioje temoje taip pat pateikiami saitai, nukreipiantys į informaciją, galinčią padėti efektyviai ir tiksliai rasti sistemoje pateikiamą informaciją. 
 
 > [!NOTE] 
-> Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> Toliau išvardyti produktai yra glaudžiai susiję: „Dynamics 365 for Finance and Operations“, „Dynamics 365 for Retail“ ir „Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 ## <a name="personalizing-talent"></a>„Talent“ personalizavimas 
 Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Talent“ funkcijų, padedančių atlikti jūsų užduotis laiku. 
@@ -58,12 +58,11 @@ Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Tal
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365 Roadmap‟](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80) svetainę.
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80).
 
 ### <a name="blogs"></a>Tinklaraščiai
-[„Dynamics 365 for Talent“](https://community.dynamics.com/enterprise/b/dynamics365fortalent) galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus. 
+Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus [„Dynamics 365 for Talent“ tinklaraštyje](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Vaizdo įrašai
-Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
+Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 

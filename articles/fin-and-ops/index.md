@@ -1,28 +1,23 @@
 ---
-title: "„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija"
-description: "„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija."
+# required metadata
+title: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
+description: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija.
 author: margoc
 manager: AnnBe
 ms.date: 08/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
@@ -31,7 +26,7 @@ ms.lasthandoff: 08/09/2018
 
 Sužinokite, kaip „Microsoft Dynamics 365 for Finance and Operations“ pritaikyti savo verslui – naudodami toliau pateiktus išteklius rasite puikaus turinio galutiniams vartotojams, programuotojams ir IT profesionalams. 
 
-Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: „Microsoft Dynamics 365 for Retail‟ ir „Microsoft Dynamics 365 for Talent‟. 
+Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. 
 
 <table>
 <colgroup>
@@ -115,13 +110,13 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 </td>
 <td>
 <h3>Susiję produktai</h3>
-<h4><a href="../retail/index.md">„Dynamics 365 for Retail‟</a></h4>
+<h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Skambučių centras</p>
-<p><a href="../retail/define-maintain-retail-channels.md">Kanalų sąranka ir valdymas</p>
+<p><a href="../retail/define-maintain-retail-channels.md">Kanalo nustatymas ir valdymas</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS ir „Cloud POS‟</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">„Retail“ programavimas ir administravimas</p>
 
-<h4><a href="../talent/index.md">„Dynamics 365 for Talent‟</a></h4>
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
 <p><a href="../talent/manage-benefit-program.md">Išmokos</a></p>
 <p><a href="../talent/performance-management-overview.md">Darbuotojų tobulinimas ir mokymas</a></p>
 <p><a href="../talent/questionnaires.md">Klausimynas</a></p>
@@ -131,4 +126,3 @@ Didelę šio turinio dalį taip pat galima pritaikyti susijusiems produktams: �
 
 </tbody>
 </table>
-

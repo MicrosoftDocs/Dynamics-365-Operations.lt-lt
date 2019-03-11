@@ -1,13 +1,13 @@
 ---
-title: "Kelionių paraiškos"
-description: "Šioje temoje pateikiama informacijos apie kelionių paraiškas. Kelionės paraiškoje dokumentuojamos išlaidos, kurios bus patirtos keliaujant."
+title: Kelionių paraiškos
+description: Šioje temoje pateikiama informacijos apie kelionių paraiškas. Kelionės paraiškoje dokumentuojamos išlaidos, kurios bus patirtos keliaujant.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e69cf1112dcb4fd31c79592bf0d7a2ecd4a21adf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 135d787d03fe6d3ec3ca8d2324ac3055b72f2962
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339722"
 ---
-
 # <a name="travel-requisitions"></a>Kelionių paraiškos
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ Jūsų organizacija gali reikalauti, kad kelionės paraiška būtų pateikiama p
 Naudojant kelionių paraiškas ir strategijas, galima lengviau kontroliuoti biudžetą. Pavyzdžiui, jei jūsų organizacija dirba su fiksuotos kainos projektu, kurio metu reikia keliauti, projekto komandos narių kelionių išlaidos turi tilpti į projekto biudžetą. Reikalaudama, kad kelionių išlaidos būtų patvirtinamos prieš jas patiriant, organizacija gali lengviau užtikrinti, kad nebus viršytas projekto biudžetas.
 
 Kelionių paraiškų strategijas galite nustatyti puslapyje **Kelionės paraiška**.
-

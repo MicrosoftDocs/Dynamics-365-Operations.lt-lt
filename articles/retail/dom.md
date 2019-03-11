@@ -1,29 +1,29 @@
 ---
-title: "Paskirstytų užsakymų tvarkymas (DOM)"
-description: "Šioje temoje aprašoma „Microsoft Dynamics 365 for Retail“ paskirstytų užsakymų tvarkymo (DOM) funkcija."
+title: Paskirstytų užsakymų tvarkymas (DOM)
+description: Šioje temoje aprašoma „Microsoft Dynamics 365 for Retail“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302645"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
@@ -229,4 +229,3 @@ Naudojant DOM funkciją reikėtų atsižvelgti į tolesnius dalykus.
 - Šiuo metu DOM analizuoja tik tuos užsakymus, kurie yra sukurti iš mažmeninės prekybos kanalų. Kai parinktis **Mažmeninė prekyba** yra nustatyta kaip **Taip**, pardavimo užsakymai identifikuojami kaip mažmeninės prekybos pardavimo užsakymai.
 - Su išplėstinėmis sandėlio valdymo funkcijomis „Microsoft“ DOM neišbandė. Klientai ir partneriai turi atidžiai nustatyti, ar DOM yra suderinama su jiems aktualiomis išplėstinėmis sandėlio valdymo galimybėmis ir procesais.
 - DOM pasiekiama tik naudojant „Retail“ debesies versiją. Vietinėse įdiegtyse ji nėra palaikoma.
-

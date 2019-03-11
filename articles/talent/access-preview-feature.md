@@ -1,14 +1,14 @@
 ---
-title: "Prieiga prie „Talent“ peržiūros funkcijų"
-description: "Šioje temoje aprašoma, kaip administratorius gali įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje."
+title: Prieiga prie „Talent“ peržiūros funkcijų
+description: Šioje temoje aprašoma, kaip administratorius gali įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305457"
 ---
-
 # <a name="access-preview-features-in-talent"></a>Prieiga prie „Talent“ peržiūros funkcijų
 
 [!include[banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ Naudodami parametrą **Peržiūros funkcijos** „Microsoft Dynamics 365 for Tal
 
 ### <a name="enable-or-disable-preview-features-for-your-organization"></a>Peržiūros funkcijų įjungimas arba išjungimas jūsų organizacijoje
 
-#### <a name="attract"></a>„Attract“
+#### <a name="attract"></a>Traukti
 
 1. Prisijunkite prie „Microsoft Dynamics 365 for Talent: Attract“.
 2. Meniu **Sąranka** (krumpliaračio simbolis) viršutiniame dešiniajame kampe pasirinkite **Administratoriaus parametrai**.
@@ -92,4 +91,3 @@ Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identif
 
 > [!TIP]
 > Pasižymėkite šią temą ir dažnai prie jos grįžkite, kad sužinotumėte apie naujas peržiūros funkcijas, kai jas išleisime.
-

@@ -1,32 +1,30 @@
 ---
-title: "Pakeitimų išsiuntimo informacijos lentoje atšaukimas"
-description: "Šioje temoje aprašoma, kaip atšaukti neįrašytus pakeitimus, kuriuos atliekate išsiuntimo informacijos lentoje."
+title: Pakeitimų išsiuntimo informacijos lentoje atšaukimas
+description: Šioje temoje aprašoma, kaip atšaukti neįrašytus pakeitimus, kuriuos atliekate išsiuntimo informacijos lentoje.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc55c1ab0a9ad7af3b55e49079185062fd119cc7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 38995faf7c83af2f2807b700693392540ce5e735
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344828"
 ---
-
-
 # <a name="reverse-changes-in-a-dispatch-board"></a>Pakeitimų išsiuntimo informacijos lentoje atšaukimas 
 
 [!include [banner](../includes/banner.md)]
@@ -51,6 +49,5 @@ Norėdami atšaukti neįrašytus pakeitimus išsiuntimo informacijos lentoje, at
 [Aptarnavimo operacijos](service-activities.md)
 
  
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)"
-description: "Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka."
+title: Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)
+description: Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics AX“. Išleista jokia nauja darbo pradžios biblioteka.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344644"
 ---
-
 # <a name="new-or-updated-task-guides-august-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)
 
 [!include [banner](../includes/banner.md)]
@@ -101,4 +100,3 @@ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
 [Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)](new-task-guides-november-2016.md)
-

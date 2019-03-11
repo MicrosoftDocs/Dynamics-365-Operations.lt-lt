@@ -1,13 +1,13 @@
 ---
-title: "Išskaidyti laikotarpiai periodiniuose žurnaluose"
-description: "Šioje temoje pateikiama informacija apie išskaidytus laikotarpius periodiniuose ar pasikartojančiuose žurnaluose juridiniams asmenims Čekijoje, Estijoje, Latvijoje, Lenkijoje, Lietuvoje, Rusijoje ir Vengrijoje."
+title: Išskaidyti laikotarpiai periodiniuose žurnaluose
+description: Šioje temoje pateikiama informacija apie išskaidytus laikotarpius periodiniuose ar pasikartojančiuose žurnaluose juridiniams asmenims Čekijoje, Estijoje, Latvijoje, Lenkijoje, Lietuvoje, Rusijoje ir Vengrijoje.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c7a2acd8565c33d0e6dccf92fc66a1413b3c7263
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 60c8b10af7c77cf8ae566014e2cacd939d01c9e8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371184"
 ---
-
 # <a name="split-periods-in-periodic-journals"></a>Išskaidyti laikotarpiai periodiniuose žurnaluose
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ Draudimo įmonė siūlo jūsų organizacijai nuolaidą už išankstinį draudimo
 | **Laikotarpio intervalas**   | Nustatykite intervalą tarp registravimo laikotarpių.                                                                                                                                                              |
 
 Pvz., norėdami generuoti ketvirčio registravimus, įveskite **4** lauke **Laikotarpių skaičius**, lauke **Vienetas** pasirinkite **Mėnesiai** ir lauke **Laikotarpio intervalas** įveskite **3**. Sistema sugeneruos keturias žurnalo eilutes, po vieną kiekvienam ketvirtadaliui visos įvestos žurnalo eilutės sumos, 3 mėnesių intervalais. Panaši funkcija taip pat pateikiama bendrajame žurnale. Peržiūrėdami bendrojo žurnalo eilutes, pasirinkite **Periodiniai žurnalai** &gt; **Įrašyti žurnalą**.
-
 
 
 

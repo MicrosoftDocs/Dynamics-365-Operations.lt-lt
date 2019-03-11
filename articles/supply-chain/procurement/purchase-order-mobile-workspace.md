@@ -1,13 +1,13 @@
 ---
-title: "Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas"
-description: "Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Pirkimo užsakymų tvirtinimas, kurioje galite peržiūrėti pirkimo užsakymus ir į juos reaguoti veiksmais. Pavyzdžiui, pirkimo užsakymą galite patvirtinti arba atmesti."
+title: Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
+description: Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį Pirkimo užsakymų tvirtinimas, kurioje galite peržiūrėti pirkimo užsakymus ir į juos reaguoti veiksmais. Pavyzdžiui, pirkimo užsakymą galite patvirtinti arba atmesti.
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348853"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai 
 Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations‟ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
+Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
 
 <table>
 <thead>
@@ -61,7 +60,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <td>Sistemos administratorius</td>
 <td>KB 4017918 yra X++ naujinimas arba karštoji metaduomenų pataisa su mobiliąja darbo sritimi <strong>Pirkimo užsakymų tvirtinimas</strong>. Norėdamas įdiegti KB 4017918, sistemos administratorius turi atlikti tolesnius veiksmus.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąsias pataisas iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
+<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Atsisiųsti metaduomenų karštąją pataisą iš „Microsoft Dynamics Lifecycle Services“ (LCS)</a>.</li>
 <li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Įdiekite metaduomenų karštąją pataisą</a>.</li>
 <li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Sukurkite diegiamą paketą</a>, kuriame yra modelis <strong>SCMMobile</strong>, o tada įkelkite diegiamą paketą į LCS.</li>
 <li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Visuotinai diegiamo paketo taikymas</a>.</li>
@@ -76,7 +75,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Atsisiųskite ir įdiekite mobiliąją programą „Microsoft Dynamics 365 for Unified Operations“.
+Atsisiųskite ir įdiekite mobiliąją programą „Microsoft Dynamics 365 for Unified Operations“:
 
 - [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 - [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -116,4 +115,3 @@ Peržiūrėję jums priskirtą pirkimo užsakymą ir perskaitę darbo eigos inst
 5. Pasirinkite atitinkamą veiksmą.
 6. Puslapyje **Užduoties baigimas** įveskite komentarą. Atkreipkite dėmesį, kad pasirinkę veiksmą **Perduoti** turite pasirinkti vartotoją, kuriam reikia perduoti užduotį.
 7. Pasirinkite **Atlikta**. Atnaujinus darbo sritį, pirkimo užsakymo jūsų sąraše nebebus. 
-

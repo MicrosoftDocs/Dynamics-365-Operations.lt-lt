@@ -1,13 +1,13 @@
 ---
-title: "Pagrindinis biudžeto sudarymo puslapis"
-description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ biudžeto sudarymo funkcinių komponentų, biudžeto kūrimo įrankių ir ataskaitų kūrimo galimybių apžvalga."
+title: Pagrindinis biudžeto sudarymo puslapis
+description: Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ biudžeto sudarymo funkcinių komponentų, įrankių ir ataskaitų kūrimo galimybių apžvalga.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "302649"
 ---
-
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ Galiausiai, labai brandžios organizacijos gali nustatyti tokią organizacijos k
 -   [Biudžeto planavimas: apžvalga ir konfigūravimas](budget-planning-overview-configuration.md)
 -   [Pareigų prognozavimas](position-forecasting.md)
 -   [Biudžeto planavimo pagrindimo dokumentai](budget-planning-justification-docs.md)
--   [„Microsoft Excel‟ šablonai biudžetui planuoti](budget-planning-excel-templates.md)
+-   [„Microsoft Excel“ biudžeto planavimo šablonai](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools-in-finance-and-operations"></a>„Finance and Operations“ biudžeto sudarymo įrankiai
 [![Biudžeto sudarymo įrankiai](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
@@ -66,7 +65,6 @@ Norėdami gauti informacijos apie tai, kaip planavimo duomenis iš kitų moduli�
 Sprendime „Finance and Operations‟ vartotojai biudžeto planus gali kurti tiesiai „Finance and Operations‟ kliente (naudodami konfigūruojamą biudžeto plano dokumento puslapį), arba naudodami „Excel‟. „Excel‟ suteikia keletą papildomų galimybių. Pavyzdžiui, kaip biudžeto plano šaltinį galite naudoti išorinius duomenis, atlikti pasirinktinius skaičiavimus ir naudoti „Microsoft PivotTable“ bei diagramas. Galima konfigūruoti daugumą biudžeto planavimo proceso kintamųjų. 
 
 Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biudžetą ir kaip šis procesas atrodo. Nors biudžetams planuoti galite naudoti „Excel‟, „Finance and Operations‟ lieka vieninteliu tiesos šaltiniu ir padeda išvengti biudžeto kontrolės problemų. Naudojant periodinius procesus, pradinius biudžeto sudarymo duomenis galima perkelti į biudžeto planą. Kuriant ataskaitas, „Finance and Operations‟ siūlo keletą standartinių užklausų puslapių, kuriuose galima peržiūrėti ir analizuoti biudžeto sudarymo duomenis. Biudžetų planų duomenis galima pasiekti naudojant „Management Reporter‟, o „Management Reporter‟ ataskaitoje kaip stulpeliai gali būti rodomi atskiri biudžetų planų scenarijai.
-
 
 
 

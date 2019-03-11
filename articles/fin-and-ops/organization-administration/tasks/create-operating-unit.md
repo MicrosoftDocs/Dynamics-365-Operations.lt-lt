@@ -1,13 +1,13 @@
---- 
-title: "Valdymo vieneto kūrimas"
-description: "Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams valdyti ir verslo veiklos procesams skirstyti."
+---
+title: Valdymo vieneto kūrimas
+description: Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams valdyti ir verslo veiklos procesams skirstyti.
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, OMInternalOrganizationSelector
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9c49000b09fdbac10dfa952718453bf82cbb1498
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 838d1c2d5d1ab2524e9f4be423fbf529b89f5f59
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332638"
 ---
 # <a name="create-an-operating-unit"></a>Valdymo vieneto kūrimas
 
@@ -42,5 +42,4 @@ Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams v
     * Jei reikia, išplėskite skyrių „Kontaktinė informacija“.  
     * Įveskite informaciją apie komunikacijos priemones, pvz., elektroninio pašto adresus, URL ir telefono numerius. Norėdami įvesti naują komunikacijos įrašą, spustelėkite „Naujas“. Norėdami modifikuoti esamą komunikacijos įrašą, spustelėkite Daugiau parinkčių > Išplėstiniai nustatymai.   
 6. Spustelėkite Įrašyti.
-
 

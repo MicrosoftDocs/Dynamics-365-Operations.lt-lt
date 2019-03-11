@@ -1,13 +1,13 @@
 ---
-title: "PVM tarifai pagal bazinę ribą ir skaičiavimo metodus"
-description: "Šioje temoje aiškinama, kaip naudojant vertes laukuose Bazinės ribos ir Skaičiavimo metodas nustatomas (-i) pardavimo ir pirkimo operacijų mokesčių tarifas (-ai)."
+title: PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
+description: Šioje temoje aiškinama, kaip naudojant vertes laukuose Bazinės ribos ir Skaičiavimo metodas nustatomas (-i) pardavimo ir pirkimo operacijų mokesčių tarifas (-ai).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0128743e608ec56bea2301ac576551065a1ff290
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf0f8f2e3f553ea181e8cc9ab5b712fce64a89d4
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366425"
 ---
-
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>PVM tarifai pagal bazinę ribą ir skaičiavimo metodus
 
 [!include [banner](../includes/banner.md)]
@@ -184,7 +183,6 @@ Bazinė riba: **SF suma, įskaitant kitas PVM sumas** Skaičiavimo metodas: **In
 Kiekvienai lempai taikomas specialus 5,00 muito mokestis. Prieš skaičiuojant PVM, šis muito mokestis pridedamas prie grynosios sumos. Perkate 8 lempas, kurių kiekviena kainuoja 25,00. Grynoji SF suma yra 200,00. Bendra SF suma yra 200,00 + (8 x 5,00) = 240,00. Mokestis apskaičiuojamas taip: Bendras PVM = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 Bendra muito mokesčio suma = 5,00 x 8 = 40,00 Bendra SF suma = 200,00 + 39,00 + 40,00 = 279,00
 
 Daugiau informacijos žr. temose [Visa suma ir PVM kodų intervalo skaičiavimo pasirinktys](whole-amount-interval-options-sales-tax-codes.md) ir [PVM skaičiavimo metodai lauke Kilmė](sales-tax-calculation-methods-origin-field.md).
-
 
 
 

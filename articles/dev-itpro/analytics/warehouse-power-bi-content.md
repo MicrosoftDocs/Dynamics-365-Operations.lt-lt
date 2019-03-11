@@ -1,13 +1,13 @@
 ---
-title: "Sandėlio efektyvumo „Power BI“ turinys"
-description: "Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti."
+title: „Power BI“ turinys Sandėlio našumas
+description: Šioje temoje paaiškinama, kas įtraukta į sandėlio efektyvumo „Power BI“ turinį. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,25 +18,24 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365367"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>Sandėlio efektyvumo „Power BI“ turinys
+# <a name="warehouse-performance-power-bi-content"></a>„Power BI“ turinys Sandėlio našumas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kas įtraukta į **Sandėlio efektyvumo** „Microsoft Power BI“ turinį. Joje paaiškinama, kaip pasiekti „Power BI“ ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, kurie naudojami turiniui kurti.
+Šioje temoje paaiškinama, kas įtraukta į „Microsoft Power BI“ turinį **Sandėlio našumas**. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūrėti
 
-**Sandėlio efektyvumo** „Power BI“ turinys sukurtas tam, kad sandėlio ir operacijų vadovai galėtų stebėti svarbias gavimo, siuntimo ir atsargų metrikas. Jame naudojami sandėlio valdymo, produktų ir kiti operacijų duomenys iš jūsų sistemos bei pateikiamas tiek sujungtas sandėlio efektyvumo rodinys, tiek rodinys, skirtas tiekėjams, produktų grupėms bei produktams ir teritorijai bei sandėliams.
+„Power BI“ turinys **Sandėlio našumas**sukurtas tam, kad sandėlio ir operacijų vadovai galėtų stebėti svarbias gavimo, siuntimo ir atsargų metrikas. Jame naudojami sandėlio valdymo, produktų ir kiti operacijų duomenys iš jūsų sistemos bei pateikiamas tiek sujungtas sandėlio efektyvumo rodinys, tiek rodinys, skirtas tiekėjams, produktų grupėms bei produktams ir teritorijai bei sandėliams.
 
-**Sandėlio efektyvumo** „Power BI“ turinį sandėlio vadovai gali naudoti toliau nurodytoms sritims nustatyti.
+„Power BI“ turinį **Sandėlio našumas** sandėlio vadovai gali naudoti toliau nurodytoms sritims nustatyti.
 
 - **Gavimo efektyvumas** – nustatykite tiekėjo efektyvumą pagal kliento reikalavimus (kitaip sakant, nustatykite pristatymo efektyvumą) ir nustatykite padėjimo efektyvumą, kad galėtumėte identifikuoti problemas, tam tikru laikotarpiu susijusias su darbininkais arba prekėmis. Svarbu žinoti, ar tiekėjai pristato laiku, anksti, ar pavėluotai, kad galėtumėte nustatyti, kaip tiekėjų efektyvumas veikia visą padėjimo efektyvumą. Tiekėjas, kuris prekes pristato ne sutartomis dienomis, gali padidinti sandėlio apkrovą dėl nenumatyto darbo ir pailginti vidutinį padėjimo laiką.
 - **Siuntimo efektyvumas** – nustatykite, ar jūsų sandėlis klientams viską išsiunčia laiku (kitaip sakant, nustatykite siuntimo ir pristatymo efektyvumą), kad galėtumėte identifikuoti problemas, susijusias su produktais, teritorijomis, sandėliais arba paskirtais klientais. Jei pastebėsite, kad į konkrečius regionus arba miestus siunčiate pavėluotai, galbūt turėsite daugiau dėmesio skirti transportavimui arba sąskaitai valdyti.
@@ -46,7 +45,7 @@ ms.lasthandoff: 08/13/2018
 „Power BI“ turinys **Sandėlio našumas** rodomas puslapyje **Sandėlio našumas** (**Sandėlio valdymas** \> **Užklausos ir ataskaitos** \> **Sandėlio našumo analizė** \> **Sandėlio našumas**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
-Į **sandėlio efektyvumo** „Power BI“turinį įtraukta ataskaita. Šią ataskaitą sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama **sandėlio efektyvumo** „Power BI“ turinio vaizdinių priemonių apžvalga.
+Į „Power BI“turinį **Sandėlio našumas** įtraukta ataskaita. Šią ataskaitą sudaro metrikų, pavaizduotų diagramomis, plytelėmis ir lentelėmis, rinkinys. Toliau pateiktoje lentelėje pateikiama „Power BI“ turinio **Sandėlio našumas** vizualizacijų apžvalga.
 
 | Ataskaitų puslapis                 | Diagramos                                   | aprašymas |
 |-----------------------------|------------------------------------------|-------------|
@@ -79,7 +78,7 @@ ms.lasthandoff: 08/13/2018
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | Anksčiau, laiku arba pavėluotai išsiųstų prekių procentas pagal teritoriją arba sandėlį. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Duomenų modelio ir skaičiavimų supratimas
-Tolesniais duomenimis pildomi **Sandėlio našumo** „Power BI‟ turinio ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI‟ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+Tolesniais duomenimis pildomi „Power BI“ turinio **Sandėlio našumas** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
 Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
 
@@ -113,4 +112,3 @@ Tolesniais duomenimis pildomi **Sandėlio našumo** „Power BI‟ turinio atask
 | Siuntimo efektyvumas        | Išsiųsta pagal produktą                       | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal klientą                      | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | CustPackingSlipOnTimeStatus           | Anksti, Laiku ir Pavėluotai (žr. anksčiau šioje lentelėje pateiktus aprašymus). |
-

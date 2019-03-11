@@ -1,14 +1,14 @@
 ---
-title: "El. laiško šablonai"
-description: "Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Talent - Attract“ galimus sukurti ir naudoti el. laiško šablonus."
+title: El. laiško šablonai
+description: Šioje temoje pateikiama informacija apie „Dynamics 365 for Talent - Attract“ galimus sukurti ir naudoti el. laiško šablonus.
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "305517"
 ---
-
 # <a name="email-templates"></a>El. laiško šablonai
 [!include[banner](../includes/banner.md)]
 
@@ -81,4 +80,3 @@ Siųsdama el. laišką samdos komanda gali naudoti administratoriaus sukurtus š
 
 > [!NOTE] 
 > Jei el. laiškai siunčiami automatiškai, galima sukurti kelis šablonus. Tačiau aktyviu nustatyti galima tik vieną šabloną. Kadangi šį procesą suaktyvina įvykiai, tik administratorius gali nuspręsti, kurį šabloną naudoti, pagal šablonų bibliotekos ženklų kombinaciją **Numatytasis** ir **Išsiųsta automatiškai**.
-

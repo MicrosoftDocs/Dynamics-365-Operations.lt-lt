@@ -1,13 +1,13 @@
---- 
-title: "Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį"
-description: "Ši procedūra padeda konfigūruoti ir vykdyti pasikartojančias paketines užduotis, norint kurti ir apskaičiuoti pasirinktos parduotuvės arba parduotuvių grupės išrašus."
+---
+title: Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį
+description: Ši procedūra padeda konfigūruoti ir vykdyti pasikartojančias paketines užduotis, norint kurti ir apskaičiuoti pasirinktos parduotuvės arba parduotuvių grupės išrašus.
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f52603672e95d0ae4973844851c4ed260484e5f0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365183"
 ---
 # <a name="configure-and-run-job-to-calculate-statements"></a>Konfigūruoti ir vykdyti išrašų skaičiavimo užduotį
 
@@ -44,5 +44,4 @@ ms.lasthandoff: 10/16/2018
 10. Lauke Per įveskite skaičių.
 11. Spustelėkite GERAI.
 12. Spustelėkite GERAI.
-
 

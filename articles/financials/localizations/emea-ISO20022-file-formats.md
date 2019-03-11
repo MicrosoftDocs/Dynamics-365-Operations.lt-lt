@@ -1,13 +1,13 @@
 ---
-title: "ISO20022 failų importavimas"
-description: "Šioje temoje paaiškinama, kaip importuoti ISO 20022 mokėjimo failų camt.054 ir pain.002 formatų failus į „Microsoft Dynamics 365 for Finance and Operations“."
+title: ISO20022 failų importavimas
+description: Šioje temoje paaiškinama, kaip importuoti ISO 20022 mokėjimo failų camt.054 ir pain.002 formatų failus į „Microsoft Dynamics 365 for Finance and Operations“.
 author: neserovleo
 manager: AnnBe
 ms.date: 07/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPaymMode, CustBankAccounts, VendPaymMode, VendBankAccounts
 audience: Application User
 ms.reviewer: shylaw
@@ -16,15 +16,14 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: d91e937c62d4d498e67d753e39676514835f4161
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f55e8fbc4d13f84686298cb8dbcebb4baf134cf3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371192"
 ---
-
-# <a name="import-iso20022-files"></a>Importuoti ISO20022 failus
+# <a name="import-iso20022-files"></a>ISO20022 failų importavimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -130,4 +129,3 @@ Daugiau informacijos apie elektronines ataskaitas žr. [Elektroninių ataskaitų
 - [Nustatyti ISO20022 kredito pervedimo mokėjimo būdą](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [ISO20022 tiesioginio debeto mokėjimo būdo nustatymas](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Nustatyti ISO20022 kredito pervedimų tiekėjus ir tiekėjų banko sąskaitas](./tasks/set-up-vendor-iso20022-credit-transfers.md)
-

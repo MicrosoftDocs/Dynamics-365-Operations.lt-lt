@@ -1,13 +1,13 @@
 ---
-title: "„Finance and Operations” kliento DUK"
-description: "Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 for Finance and Operations“ klientą."
+title: „Finance and Operations” kliento DUK
+description: Šiame straipsnyje pateikiami atsakymai į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 for Finance and Operations“ klientą.
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316722"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>„Finance and Operations” kliento DUK
 
 [!include [banner](../includes/banner.md)]
@@ -35,10 +34,10 @@ ms.lasthandoff: 12/18/2018
 
 Simboliai gali būt netinkamai įkelti dėl jūsų naršyklės saugos nuostatų. Norėdami išspręsti šią problemą, pabandykite atlikti tolesnius veiksmus.
 
-- Jei ši problema kyla naršyklėje „Internet Explorer‟, spustelėkite **Įrankiai**, o tada spustelėkite **Interneto parinktys**. Tada dialogo lange Interneto parinktys, skirtuke **Privatumas** spustelėkite **Pasirinktinis lygis** ir įsitikinkite, kad pasirinkta parinktis **Šrifto atsisiuntimas**.
+- Jei ši problema kyla naršyklėje „Internet Explorer“, spustelėkite **Įrankiai**, o tada spustelėkite **Interneto parinktys**. Tada dialogo lange Interneto parinktys, skirtuke **Privatumas** spustelėkite **Pasirinktinis lygis** ir įsitikinkite, kad pasirinkta parinktis **Šrifto atsisiuntimas**.
 - Kitu atveju gali tekti „Finance and Operations‟ svetainę įtraukti į patikimų svetainių sąrašą.
 
-## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Pasigendu „Dynamics AX 2012‟ juostelės. Ar galima veiksmų srities skirtukus visada laikyti atidarytus?
+## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>Pasigendu „Dynamics AX 2012“ juostelės. Ar galima veiksmų srities skirtukus visada laikyti atidarytus?
 
 Planuojame šią funkciją ne už ilgo įdiegti. Tada naudotojai galės veiksmų sričių skirtukus visada laikyti atidarytus. Kitu atveju, kai skirtukai nenaudojami, jie bus sutraukiami, kad ekrane būtų daugiau vietos puslapiui.
 
@@ -56,4 +55,3 @@ Parinktis **Peržiūrėti išsamią informaciją** prieinama dviem būdais.
 
 - Jei valdiklis turi pajėgumą **Peržiūrėti išsamią informaciją** ir jei valdiklis turi reikšmę, ši reikšmė rodoma kaip hipersaitas. Spustelėję hipersaitą, atidarysite puslapį, kuriame pateikiama papildomos informacijos.
 - **Peržiūrėti išsamią informaciją** taip pat yra „Finance and Operations‟ sparčiųjų meniu parinktis. Daugiau informacijos apie tai, kada, spustelėjus dešiniuoju pelės mygtuku, rodomi „Finance and Operations‟ spartieji meniu, rasite ankstesniame skyriuje.
-

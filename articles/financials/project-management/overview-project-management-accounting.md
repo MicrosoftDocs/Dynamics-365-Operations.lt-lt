@@ -1,13 +1,13 @@
 ---
-title: "Projektų valdymas ir apskaita"
-description: "Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norint teikti paslaugas, pagaminti produktų arba pasiekti rezultatą."
+title: Projektų valdymas ir apskaita
+description: Projektų valdymo ir apskaitos funkciją galima naudoti keliose pramonėse norint teikti paslaugas, pagaminti produktų arba pasiekti rezultatą.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c21587499a68143d403760ad32bea65948d7fbc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311340"
 ---
-
 # <a name="project-management-and-accounting"></a>Projektų valdymas ir apskaita
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ Projektų valdymo ir apskaitos funkcijas galima naudoti keliose pramonės šakos
 
 [![Įvairių pramonės šakų projektai](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks projektų pavadinimas naudojamas, jie apima išteklius, grafikus bei išlaidas, o „Microsoft Dynamics 365 for Finance and Operations‟ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
+Skambučių centre bilietą galima naudoti norint apibūdinti veiksmus, kurių reikia siekiant išspręsti skambutį. Konsultavimo įmonės, pvz., valdymo ar techninio konsultavimo organizacijos arba reklamos agentūros savo veiklą vadina projektais. Rinkodaroje kampanija nurodo įvairų darbą, kurį reikia pristatyti. Projektais paremtoje gamyboje gamybos užsakymas susieja įvairų darbą, kurį reikia atlikti norint pagaminti galutinių prekių. Kad ir koks jų pavadinimas naudojamas, šie projektai apima išteklius, grafikus bei išlaidas, ir „Microsoft Dynamics 365 for Finance and Operations“ projektų valdymo ir apskaitos funkcijos gali padėti šiuos projektus planuoti, vykdyti ir analizuoti.
 
 ## <a name="project-phases"></a>Projekto etapai
 Nors tolesnis proceso srautas skirtas išoriniams projektams arba projektams, atliktiems vienam ar keliems klientams, funkcijos taip pat taikytinos vidiniams, tik išlaidų projektams. 
@@ -206,7 +205,7 @@ Užsakyti prekių, skirtų sunaudoti projekte, galite iš įmonės atsargų. Tai
 
 Kaip užsakote prekes priklauso nuo to, iš kur jas užsakote.
 
--   Norėdami prekes užsakyti iš įmonės atsargų, užsakymą turite įvesti kaip prekės poreikį. Naudodami puslapį **Reikalavimai prekei** galite nustatyti reikalavimą, kad prekes gautumėte kaip dalinį pristatymą. Todėl galite atidėti prekių kiekio vartojimą, kol prekių prireikia.
+-   Norėdami prekes užsakyti iš įmonės atsargų, užsakymą turite įvesti kaip prekės poreikį. Naudodami puslapį **Reikalavimai prekei** galite nustatyti reikalavimą, kad prekes gautumėte kaip dalinį pristatymą.Todėl galite atidėti prekių kiekio vartojimą, kol prekių prireikia.
 -   Norėdami prekes užsakyti iš išorinio tiekėjo, puslapyje **Pirkimo užsakymas** užsakymą turite sukurti kaip pirkimo užsakymą.
 
 > [!NOTE] 
@@ -301,7 +300,7 @@ Atsižvelgiant į jūsų sąranką, galima prognozuoti pasirinkto projekto gryn�
 -   **Projekto data:** 2012 m. kovo 5 d.
 -   **SF data:** 2012 m. kovo 31 d. Ši data nustatoma pagal SF dažnį. Šiame pavyzdyje SF dažnį reikia nustatyti į šį mėnesį. Todėl visoms kovo mėnesį užregistruotoms operacijoms SF išrašomos paskutinę mėnesio dieną.
 -   **Terminas:** 2012 m. balandžio 14 d. Ši data nustatoma pagal nustatytas projekto mokėjimo sąlygas. Šiame pavyzdyje pasirinkote 14 dienų mokėjimo sąlygas. Todėl į SF pridedamos 14 dienų, ir SF pristatymo terminas yra 2012 m. balandžio 14 d.
--   **Numatoma pardavimo mokėjimo data:** 2012 m. balandžio 27 d. Ši data apskaičiuojama dienų skaičių, nurodytą puslapio **Projektų valdymo ir apskaitos parametrai** lauke **Bendros papildomos dienos**, pridėjus prie dienų skaičiaus, nurodyto puslapio **Projekto sutartys** lauke **Atskiros papildomos dienos** ir tada šią bendrąją sumą pridėjus prie dienų skaičiaus lauke **Terminas**. Šiame pavyzdyje **Bendrų papildomų dienų** lauke įvedėte **3**, o **Atskirų papildomų dienų** lauke – **10**. Todėl prie termino pridedamos 13 dienų, ir numatoma pardavimo mokėjimo data yra 2012 m. balandžio 27 d.
+-   **Numatoma pardavimo mokėjimo data:** 2012 m. balandžio 27 d. Ši data apskaičiuojama dienų skaičių, nurodytą puslapio **Projektų valdymo ir apskaitos parametrai** lauke **Bendros papildomos dienos**, pridėjus prie dienų skaičiaus, nurodyto puslapio **Projekto sutartys** lauke **Atskiros papildomos dienos**, ir tada šią bendrąją sumą pridėjus prie dienų skaičiaus lauke **Terminas**. Šiame pavyzdyje **Bendrų papildomų dienų** lauke įvedėte **3**, o **Atskirų papildomų dienų** lauke – **10**. Todėl prie termino pridedamos 13 dienų, ir numatoma pardavimo mokėjimo data yra 2012 m. balandžio 27 d.
 
 Bendros papildomos dienos gali pakeisti atskiras papildomas dienas arba jas prie atskirų papildomų dienų galima pridėti.
 
@@ -441,4 +440,3 @@ Kai išrašas apskaičiuotas, įvairiuose **Projekto išrašų** puslapio skirtu
 -   **Sunaudojimas** – informacija apie valandų, prekių, išlaidų ir algalapio operacijų sunaudojimą.
 -   **SF** – informacija apie sąskaitas faktūras ir laisvos formos sąskaitų faktūrų išrašymą.
 -   **Valandos įkainis** – valandų, kurios užregistruotos įplaukų ir išlaidų sąskaitose, įkainiai.
-

@@ -1,13 +1,13 @@
 ---
-title: "Standartinių savikainos atnaujinimų valdymas"
-description: "Standartinių savikainos atnaujinimų duomenis galima valdyti dviem būdais: vienos versijos būdu arba dviejų versijų būdu."
+title: Standartinių savikainos atnaujinimų valdymas
+description: 'Standartinių savikainos atnaujinimų duomenis galima valdyti dviem būdais: vienos versijos būdu arba dviejų versijų būdu.'
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367552"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Standartinių savikainos atnaujinimų valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ Dviejų versijų būdui naudojama viena versija, kurioje yra pradinės savikaino
 -   **Savikainos duomenų naujinimo dviejų versijų būdas** − dviejų versijų būdui reikia papildomų sąnaudų versijos kurioje yra tik sąnaudų atnaujinimai. Šios versijos identifikatorius yra 2016-STD-CHANGES. Savikainos atnaujinimai yra įrašyti 2016-STD-CHANGES ir jiems nustatyta būsena „Laukiama“. Naudojant dviejų versijų būdą, pagamintų prekių KS laukiančių sąnaudų skaičiavimams atlikti reikalingas atsarginis duomenų šaltinis. Taip yra todėl, papildoma savikainos nustatymo versija 2016-STD-CHANGES turi tik savikainos duomenų poaibį. Atsarginis skaičiavimas gali būti išreikštas kaip aktyvi savikaina ar kaip įkainojimo versija 2016-STD, nes abi jos nustato savikainos duomenų šaltinį, kurio 2016-STD-CHANGES nėra. Aktyvavus laukiančiąsias savikainas, įkainojimo versijoje 2016-STD-CHANGES bus esančios aktyvios savikainos, kuriose atsižvelgta į naujinimus, o originali įkainojimo versija 2016-STD liks nepakeista. Kai naudojamas dviejų versijų būdas, originalios įkainojimo versijos blokuojančiosios strategijos nustatomos taip, kad uždraustų naujinimus. Identišką blokavimo politiką reikia nustatyti papildomai savikainos nustatymo versijai, išskyrus nurodytą nuo-datos ir pasirinktinį blokavimo politikos naudojimą, kad būtų galima atlikti atnaujinimus. Nurodyta pradžios data turi būti atnaujinta kiekvienam pakeitimų paketui, kad atspindėtų suplanuotą aktyvinimo datą.
 
 Šiame pavyzdyje naudojama viena papildoma įkainojimo versija naujinimų valdymui 2016 m. Gali būti naudojama daugiau nei viena papildoma įkainojimo versija, pavyzdžiui, atskira versija kiekvienam naujinimo paketui. Kai naudojamas daugiau nei vienas papildomas sąnaudų skaičiavimas, atsarginius duomenis reikia išreikšti kaip aktyvią savikainą, nes aktyvi savikaina paskirstoma kelioms savikainos versijoms.
-
 
 
 

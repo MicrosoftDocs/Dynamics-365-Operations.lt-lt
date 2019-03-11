@@ -1,13 +1,13 @@
 ---
-title: "Išlaidų valdymo parametrai"
-description: "Toliau pateikti parametrai kontroliuoja išlaidų valdymo veikimo būdą."
+title: Išlaidų valdymo parametrai
+description: Toliau pateikti parametrai kontroliuoja išlaidų valdymo veikimo būdą.
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355937"
 ---
-
 # <a name="expense-management-parameters"></a>Išlaidų valdymo parametrai
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ Parametrai kontroliuoja bendrąjį išlaidų valdymo veikimo būdą.
 |  <strong>Rodyti kovos su korupcija patvirtinimą</strong>  | Pasirinkite šią parinktį, norėdami rodyti kovos su korupcija tekstą, kai kuriama nauja išlaidų ataskaita. Tada galima įjungti konkrečias išlaidų kategorijas, kurias nustačius išlaidų ataskaitoje reikės pasirinkti kovos su korupcija patvirtinimą. Pavyzdžiui, nustačius su vyriausybės pareigūno išlaidomis susijusią dovanų kategoriją, darbuotojui gali reikėti patvirtinti, kad išlaidos yra suderinamos su įmonės strategija, skirta vyriausybės tarnautojams. |
 | <strong>Kovos su korupcija pranešimas, skirtas pateikėjui</strong> |                                                                                             Įveskite tekstą, kuris bus rodomas darbuotojui kuriant naują išlaidų ataskaitą. Spustelėkite mygtuką <strong>Vertimai</strong>, norėdami įvesti tekstą konkrečia kalba, kuris bus rodomas atsižvelgiant į vartotojo kalbą.                                                                                             |
 | <strong>Kovos su korupcija pranešimas, skirtas tvirtintojui</strong>  |                                                                                             Įveskite tekstą, kuris bus rodomas tvirtintojui kuriant naują išlaidų ataskaitą. Spustelėkite mygtuką <strong>Vertimai</strong>, norėdami įvesti tekstą konkrečia kalba, kuris bus rodomas atsižvelgiant į vartotojo kalbą.                                                                                             |
-
 

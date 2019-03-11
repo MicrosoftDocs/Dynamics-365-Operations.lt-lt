@@ -1,13 +1,13 @@
---- 
-title: "Tvarkyti darbuotojo sužeidimų ir ligų informaciją"
-description: "Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų informacijos sąranka“, nes čia naudojama kai kuri sąrankos informacija."
+---
+title: Tvarkyti darbuotojo sužeidimų ir ligų informaciją
+description: Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų informacijos sąranka“, nes čia naudojama kai kuri sąrankos informacija.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332615"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Tvarkyti darbuotojo sužeidimų ir ligų informaciją
 
@@ -92,5 +92,4 @@ Rekomenduojama pirmiausia užbaigti užduočių vadovą „Sužeidimų ir ligų 
     * Pavyzdys: lūžis patvirtintas peršvietus rentgeno spinduliais, dėvėti įtvarą  
 36. Spustelėkite Įrašyti.
     * Atvejo būseną galima naujinti bet kuriuo metu.  Nustatykite atvejį kaip nebaigtą, jei sužalojimas arba liga yra apdorojama.  Incidentą uždarę galite tik pridėti arba šalinti išlaidas, gydymą arba su incidentu susijusius failus.  Norėdami keisti kitą informaciją, iš naujo atidarykite atvejį.  
-
 

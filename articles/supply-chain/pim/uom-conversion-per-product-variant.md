@@ -1,14 +1,14 @@
 ---
 title: Produkto varianto matavimo vieneto konvertavimas
-description: "Šioje temoje paaiškinama, kaip galima nustatyti produkto variantų matavimo vienetą."
+description: Šioje temoje paaiškinama, kaip galima nustatyti produkto variantų matavimo vienetą.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 12/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345932"
 ---
-
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
 [!include [banner](../includes/banner.md)]
@@ -94,4 +93,3 @@ Išleisto produkto variantų Mažas, Vidutinis ir Didelis vieneto konvertavimas 
 Jei produktas turi daug produkto variantų su skirtingų vienetų konvertavimu, naudinga eksportuoti vieneto konvertavimą iš puslapio **Vieneto konvertavimas** į „Excel“ skaičiuoklę, atnaujinti konvertavimą ir tada juos publikuoti „Finance and Operations“.
 
 Parinktis eksportuoti į „Excel“ ir vėl publikuoti „Finance and Operations“ redagavimą įgalinta per meniu elementą **Atidaryti naudojant „Microsoft Office“**, esantį veiksmų srities puslapyje **Vieneto konvertavimas**.
-

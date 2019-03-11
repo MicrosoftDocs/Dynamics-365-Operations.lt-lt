@@ -1,13 +1,13 @@
 ---
 title: Pirkimo strategijos
-description: "Šiame straipsnyje pateikta informacija apie pirkimo strategijas. Pirkimo strategija yra taisyklių rinkinys, valdantis paraiškos procesą. Pirkimo strategijos padeda įsigijimo administratoriams įgyvendinti įsigijimo strategiją sukuriant strategijos struktūrą, suderintą su organizacijos strateginio pirkimo reikalavimais."
+description: Šiame straipsnyje pateikta informacija apie pirkimo strategijas. Pirkimo strategija yra taisyklių rinkinys, valdantis paraiškos procesą. Pirkimo strategijos padeda įsigijimo administratoriams įgyvendinti įsigijimo strategiją sukuriant strategijos struktūrą, suderintą su organizacijos strateginio pirkimo reikalavimais.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 675a7a8b0da228e789ee37ca8fe1d0c0ea01c283
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358766"
 ---
-
 # <a name="purchasing-policies"></a>Pirkimo strategijos
 
 [!include [banner](../includes/banner.md)]
@@ -148,7 +147,6 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
     -   **Neleisti poreikio konsolidacijos** – negalima konsoliduoti jokių patvirtintų pirkimo paraiškos eilučių poreikio. Ši parinktis yra įjungta pagal numatytuosius parametrus ir taikoma tik pirkimo paraiškos eilutėms, kurioms reikalingas pirkimo užsakymo kūrimo neautomatinis apdorojimas.
     -   **Visada leisti poreikio konsolidaciją** – galima konsoliduoti visų patvirtintų pirkimo paraiškos eilučių poreikį. **Pastaba:** jei skirtuke **Poreikio konsolidavimas** pasirinksite parinktį **Visada leisti poreikio konsolidaciją**, o skirtuke **Neautomatinis pirkimo užsakymo kūrimas** pasirinksite parinktį **Automatiškai kurti pirkimo užsakymus**, visos pirkimo paraiškos bus apdorojamos neautomatiniu būdu.
     -   **Leisti poreikio konsolidaciją esant šioms sąlygoms** – nurodykite kriterijus, pagal kuriuos nustatoma, ar galima konsoliduoti patvirtintų pirkimo paraiškos eilučių poreikį. Kiekvienos rūšies pirkimo paraiškos eilutei galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją. Jei pasirenkate **Leisti poreikio konsolidaciją esant šioms sąlygoms**, galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją kiekvienos rūšies pirkimo paraiškos eilutei. Kai pasirenkate įsigijimo kategoriją, bet kokios tos įsigijimo kategorijos subkategorijos taip pat pasirenkamos. Jei pasirenkate parinktį **Visos** konkrečiam eilutės tipui, galima konsoliduoti visų to eilutės tipo pirkimo paraiškos eilučių poreikį.
-
 
 
 

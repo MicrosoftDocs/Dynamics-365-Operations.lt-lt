@@ -1,13 +1,13 @@
 ---
-title: "Atsargų žurnalai"
-description: "Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti."
+title: Atsargų žurnalai
+description: Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361687"
 ---
-
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
 
-Atsargų žurnalai programoje „Microsoft Dynamics 365 for Finance and Operations‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
+Atsargų žurnalai programoje „Microsoft Dynamics 365 for Finance and Operations“ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
 
 ## <a name="types-of-inventory-journals"></a>Atsargų žurnalų tipai
 Galima rinktis iš toliau nurodytų atsargų žurnalų tipų.
@@ -120,4 +119,3 @@ Kitas skirtumas tarp žurnalo duomenų objektų yra galimybė naudoti sudėtiniu
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Duomenų objektai](../../dev-itpro/data-entities/data-entities.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "„Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas"
-description: "Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“ – versiją „Warehousing“."
+title: „Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing“ diegimas ir konfigūravimas
+description: Šioje temoje aprašoma, kaip diegti ir konfigūruoti „Microsoft Dynamics 365 for Finance and Operations“ – versiją „Warehousing“.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316124"
 ---
-
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>„Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas
+# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>„Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing“ diegimas ir konfigūravimas
 
 [!include [banner](../includes/banner.md)]
 
@@ -45,23 +44,25 @@ Programą galima naudoti operacinėse sistemose „Android“ ir „Windows“. 
 
 | Platforma                    | Versija                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| „Android“                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | „Windows 10“ (visos versijos)                                                                                                                                                   |
-| „Finance and Operations” | „Microsoft Dynamics 365 for Operations“ versija 1611 <br>Arba <br>„Microsoft Dynamics AX“ 7.0 / 7.0.1 versijos ir „Microsoft Dynamics AX“ platformos 2 naujinimas su karštosiomis pataisomis KB 3210014 |
+| „Finance and Operations” | „Microsoft Dynamics 365 for Operations“ 1611 versija <br>Arba <br>„Microsoft Dynamics AX“ 7.0 / 7.0.1 versijos ir „Microsoft Dynamics AX“ platformos 2 naujinimas su karštosiomis pataisomis KB 3210014 |
 
 ## <a name="get-the-app"></a>Gaukite programą
 -   Windows (UWP)
      - [„Finance and Operations – Warehousing“ parduotuvėje „Microsoft Store“](https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   „Android“
+-   Android
     - [„Finance and Operations“ – versija „Warehousing“ „Google Play“ parduotuvėje](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - [„Finance and Operations“ – versija „Warehousing“ „Zebra“ programų galerijoje](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
+
+> [!NOTE]
+> „Zebra“ programų galerija nebenaudojama, o tai reiškia, kad „Finance and Operations – Warehousing“ programos nebebus galima atsisiųsti iš tos vietos.
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 Norėdami įjungti programos sąveiką su konkrečiu „Finance and Operations“ serveriu, žiniatinklio tarnybos programą turite užregistruoti „Finance and Operations“ nuomotojo „Azure Active Directory“. Saugumo sumetimais rekomenduojame sukurti kiekvieno naudojamo įrenginio žiniatinklio tarnybos programą. Norėdami žiniatinklio tarnybos programą kurti „Azure Active Directory“ („Azure AD“), atlikite tolesnius veiksmus.
 
 1.  Interneto naršyklėje eikite į <https://portal.azure.com>.
 2.  Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, pavadinimą ir slaptažodį.
-3.  „Azure“ portalo dešiniojoje naršymo srityje spustelėkite **„Azure Active Directory“**.[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  „Azure“ portalo dešiniojoje naršymo srityje spustelėkite **Azure Active Directory**[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
 4.  Įsitikinkite, kad „Active Directory“ egzempliorių naudoja „Finance and Operations“.
 5.  Sąraše spustelėkite **Programų registracijos**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
 6.  Viršutinėje srityje spustelėkite **Naujos programos registracija**. Paleidžiamas vedlys **Įtraukti programą**.
@@ -80,7 +81,7 @@ Norėdami leisti „Finance and Operations“ naudoti jūsų „Azure AD“ prog
     3.  Priskirkite sandėlio mobiliojo įrenginio vartotoją, kaip parodyta tolesnėje ekrano kopijoje. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  Susiekite savo „Azure Active Directory“ programą su sandėliavimo programos vartotoju.
-    1.  Programoje „Finance and Operations“ eikite į **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programos**.
+    1.  Programoje „Finance and Operations“ pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programos**.
     2.  Sukurkite naują eilutę.
     3.  Įveskite **Kliento ID** (gautą anksčiau), suteikite jam pavadinimą ir pasirinkite anksčiau sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius, kad juos pametę galėtumėte lengvai pašalinti jų prieigą prie „Finance and Operations“ iš šio puslapio. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
@@ -103,7 +104,7 @@ Norėdami gauti informacijos apie tai, kaip nustatyti, kad „Dynamics 365 for F
 ## <a name="remove-access-for-a-device"></a>Įrenginio prieigos šalinimas
 Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrenginio prieigą prie „Finance and Operations“. Tolesni veiksmai aprašo rekomenduojamą prieigos šalinimo procesą.
 
-1.  Programoje „Finance and Operations“ eikite į **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programos**.
+1.  Programoje „Finance and Operations“ pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programos**.
 2.  Panaikinkite eilutę, atitinkančią įrenginį, kurio prieigą norite šalinti. Įsiminkite su pašalintu įrenginiu naudotą **kliento ID**, jo jums reikės vėliau.
 3.  Prisijunkite prie „Azure“ portalo adresu <https://portal.azure.com>.
 4.  Kairiajame meniu spustelėkite piktogramą **„Active Directory“** ir įsitikinkite, kad esate teisingame kataloge.
@@ -111,4 +112,3 @@ Jei įrenginys buvo pamestas arba pažeista jo sauga, turite pašalinti įrengin
 6.  Įsitikinkite, kad programos **kliento ID** yra toks pats, kaip šio skyriaus 2 veiksme.
 7.  Viršutinėje srityje spustelėkite mygtuką **Naikinti**.
 8.  Patvirtinimo pranešime spustelėkite **Taip**.
-

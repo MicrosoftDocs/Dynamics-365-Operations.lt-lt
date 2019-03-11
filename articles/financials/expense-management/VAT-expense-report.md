@@ -1,13 +1,13 @@
 ---
-title: "PVM susigrąžinimas modulyje Išlaidų valdymas"
-description: "Šioje temoje paaiškinama, kaip susigrąžinti lėšas už atitinkamas pridėtinės vertės mokesčio (PVM) operacijas."
+title: PVM susigrąžinimas modulyje Išlaidų valdymas
+description: Šioje temoje paaiškinama, kaip susigrąžinti lėšas už atitinkamas pridėtinės vertės mokesčio (PVM) operacijas.
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359571"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>PVM susigrąžinimas modulyje Išlaidų valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Kai Arnie'is yra pasirengęs išlaidų ataskaitos duomenis nusiųsti trečiosios
 Arnie's turi patikrinti, ar galima susigrąžinti PVM už išlaidų ataskaitų operacijas ir ar prie ataskaitų pridėti skaitmeniniai kvitai. Norėdamas pradėti apdoroti išlaidas, už kurias galima susigrąžinti vietinį PVM, Arnie's atidaro puslapį **Išlaidų mokesčių susigrąžinimas** ir pasirenka išlaidų ataskaitą, kurią reikia patikrinti. Jis patikrina, ar kvitai yra įmonės, o ne darbuotojo vardu. Norint susigrąžinti PVM, kvitai turi būti įmonės vardu. Tada Arnie'is patvirtina, kad buvo pritaikyti teisingi PVM grupė ir prekės PVM kodai.
 
 Gavęs popierinius kvitus, Arnie'is išlaidų ataskaitos būseną pakeičia į **Paruošta sugrąžinti**. Tada susigrąžinimo prašymą jis gali pateikti atitinkamai mokesčių inspekcijai. Šiuo atveju atitinkama JAV mokesčių inspekcija yra „Internal Revenue Service“ (IRS).
-

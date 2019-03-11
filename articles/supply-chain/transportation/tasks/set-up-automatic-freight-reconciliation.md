@@ -1,13 +1,13 @@
---- 
+---
 title: Automatinio transportavimo derinimo nustatymas
-description: "Šioje procedūroje parodoma, kaip nustatyti automatinio transportavimo derinimo duomenis."
+description: Šioje procedūroje parodoma, kaip nustatyti automatinio transportavimo derinimo duomenis.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
 ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357478"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Automatinio transportavimo derinimo nustatymas
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 10/17/2018
     * Jei piniginė suma transportavimo sąskaitoje ir vežėjo SF skiriasi, permokėjimo ir neprimokėjimo priežasties kodai nurodo sąskaitas, kuriose skirtumas turi būti užregistruotas, jei skirtumas neviršija leistinų lygių.  
 11. Lauke Neprimokėjimo priežasties įveskite arba pasirinkite reikšmę.
 12. Uždarykite puslapį.
-
 

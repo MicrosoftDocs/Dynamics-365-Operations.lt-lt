@@ -1,13 +1,13 @@
 ---
-title: "Grynųjų pinigų srautų prognozavimas"
-description: "Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius."
+title: Grynųjų pinigų srautų prognozavimas
+description: Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 681817f2879034d65b53666a9d56ec00cc175ad8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9aefc79897d0abcee14c05f33516181b3eb05e55
-ms.contentlocale: lt-lt
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324496"
 ---
-
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,7 @@ Darbo srityje **Pinigų apžvalga – visos įmonės** rodoma pinigų srauto pro
 
 Darbo srityje **Pinigų apžvalga – dabartinė įmonė** rodoma pinigų srautų prognozavimo analizė įmonės nurodyta apskaitos valiuta. Analizei naudojama apskaitos valiuta nurodoma puslapyje **Didžioji knyga**. Šioje darbo srityje rodoma pinigų srauto prognozavimo ir dabartinės įmonės banko sąskaitų likučių apžvalga. Grynųjų pinigų įplaukų ir išmokų diagramoje apžvelgiami būsimi pinigų perkėlimai ir likučiai apskaitos valiuta, taip pat pateikiama išsami informacija apie numatytas operacijas. Taip pat galite matyti prognozuojamus valiutos likučius.
 
-Norėdami gauti daugiau informacijos apie pinigų srautų prognozavimo analizę, žr. temą Power BI turinio grynųjų pinigų apžvalga.
+Norėdami gauti daugiau informacijos apie pinigų srautų prognozavimo analizę, žr. temą „Power BI“ turinio grynųjų pinigų apžvalga.
 
 Be to, toliau nurodytuose puslapiuose galite peržiūrėti tam tikrų sąskaitų, užsakymų ir prekių pinigų srautų prognozavimo duomenis.
 
@@ -138,5 +137,4 @@ Be to, toliau nurodytuose puslapiuose galite peržiūrėti tam tikrų sąskaitų
 - **Visi pirkimo užsakymai**: skirtuke **Sąskaita faktūra** norėdami peržiūrėti pasirinkto pirkimo užsakymo prognozuojamą pinigų poveikį, pasirinkite **Pinigų srautų prognozės**.
 - **Tiekimo prognozė**: norėdami peržiūrėti būsimus su pasirinktos prekės tiekimo prognoze susietus pinigų srautus, pasirinkite **Pinigų srautų prognozės**.
 - **Poreikio prognozė**: norėdami peržiūrėti būsimus su pasirinktos prekės poreikio prognoze susietus pinigų srautus, pasirinkite **Pinigų srautų prognozės**.
-
 

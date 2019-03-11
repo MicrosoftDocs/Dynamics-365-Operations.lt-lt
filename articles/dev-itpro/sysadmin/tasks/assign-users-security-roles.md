@@ -1,13 +1,13 @@
---- 
-title: "Vartotojų priskyrimas saugos vaidmenims"
-description: "Norėdami pasiekti „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimą, vartotojams turi būti priskirti saugos vaidmenys."
+---
+title: Vartotojų priskyrimas saugos vaidmenims
+description: Kad vartotojai galėtų pasiekti Microsoft Dynamics 365 for Finance and Operations redakciją įmonėms, jiems reikia priskirti saugos vaidmenis.
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecRolesEditUsers, SysSecAssignmentQueryLookup, SysQueryForm, SysSecRoleExcludeUsers
 audience: Application User
 ms.reviewer: margoc
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349957"
 ---
 # <a name="assign-users-to-security-roles"></a>Vartotojų priskyrimas saugos vaidmenims
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Norėdami pasiekti „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimą, vartotojams turi būti priskirti saugos vaidmenys. Šia procedūra paaiškinama, kaip sistemos administratoriai gali automatiškai pagal verslo duomenis priskirti vartotojus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Kad vartotojai galėtų pasiekti Microsoft Dynamics 365 for Finance and Operations redakciją įmonėms, jiems reikia priskirti saugos vaidmenis. Šia procedūra paaiškinama, kaip sistemos administratoriai gali automatiškai pagal verslo duomenis priskirti vartotojus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
 
 ## <a name="automatically-assign-users-to-roles"></a>Automatinis vartotojų priskyrimas vaidmenims
@@ -52,5 +52,4 @@ Norėdami pasiekti „Microsoft Dynamics 365 for Finance and Operations“, „E
     * Pasirinkite vartotoją.  
 6. Spustelėkite Pašalinti iš vaidmens.
     * Spustelėkite Pašalinti iš vaidmens, kad pasirinktus vartotojus pašalintumėte iš vaidmens. Norėdami pašalinti pašalinimus, pasirinkite vartotojus, kurių pašalinimus norite pašalinti ir spustelėkite Grąžinti būseną. Kai pašalinate pašalinimą grąžindami vartotojo būseną, vartotojo vaidmuo vėl priskiriamas automatiškai. Tačiau, grąžinus būseną, vartotojas ne iš kato priskiriamas vaidmeniui ar iš vaidmens pašalinamas. Vartotojas vaidmeniui priskiriamas arba iš vaidmens pašalinamas kitą kartą vykdant automatinio vaidmenų priskyrimo taisykles.  
-
 

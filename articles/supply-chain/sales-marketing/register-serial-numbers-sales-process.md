@@ -1,13 +1,13 @@
 ---
-title: "Serijos numerių registravimas pardavimo proceso metu"
-description: "Šioje temoje aiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo."
+title: Serijos numerių registravimas pardavimo proceso metu
+description: Šioje temoje aiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo.
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350417"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>Serijos numerių registravimas pardavimo proceso metu
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 
 Šioje temoje aiškinama, kaip pardavimo proceso metu galite registruoti važtaraščių ar SF serijos numerius. Ši funkcija naudinga, jei įmonė nori užfiksuoti serijos numerius paslaugų ir garantijos tikslais, tačiau nenori tvarkyti serijos numerių atsargose nuo gavimo iki išdavimo.
 
-Daug įmonių tiesiog nori užfiksuoti serijinius numerius paslaugų ir garantijos tikslais, ir nenori turėti serijinių numerių atsargose nuo gavimo iki išdavimo. Šiose situacijose „Microsoft Dynamics 365 for Finance and Operations“ važtaraščių ar sąskaitų faktūrų serijos numerius leidžia registruoti produktus parduodant. Jei produktai yra vėliau grąžinami, galite atsekti kiekvieną produktą sąskaitoje faktūroje ir nustatyti, ar pardavėte produktą ar paslaugą ir ar galioja garantiniai įsipareigojimai.
+Daug įmonių tiesiog nori užfiksuoti serijinius numerius paslaugų ir garantijos tikslais, ir nenori turėti serijinių numerių atsargose nuo gavimo iki išdavimo. Šiuose scenarijuose „Microsoft Dynamics 365 for Finance and Operations“ leidžia užregistruoti serijinius numerius ant pakuotės lapelių ar sąskaitų faktūrų, kai produktai parduodami. Jei produktai yra vėliau grąžinami, galite atsekti kiekvieną produktą sąskaitoje faktūroje ir nustatyti, ar pardavėte produktą ar paslaugą ir ar galioja garantiniai įsipareigojimai.
 
 Pardavimo procesui turite įjungti serijinius numerius, pasirinkdami **Aktyvus pardavimų procese** parinktį iš **Sekimo dimensijos grupių** puslapio. Tada sprendime „Microsoft Dynamics 365 for Finance and Operations“ įvyksta tolesni įvykiai.
 -   Iš **Serijos numerių** „FastTab“ pasirenkama **Serijos numerių kontrolė** parinktis. Pažymėję šią parinktį, turite užregistruoti vieną serijinį numerį kiekvienai prekei ant važtaraščio arba sąskaitos faktūros.
@@ -58,8 +57,8 @@ Jei serijos numeris neįskaitomas ir nenuskanuojamas, galite sukurti prekei tuš
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Ar galiu pataisyti arba pakeisti serijos numerius užregistruotam pardavimo užsakymui?
 Taip, galite ištaisyti serijos numerius, jei įvykdomos šios sąlygos:
--   **Sąskaitos** – galite pakeisti serijos numerius prekių, kurioms dar neišrašėte sąskaitos. Tada atnaujinamas ir važtaraštis. Tačiau jei pardavimo užsakymo eilutė buvo ištaisyta registruojant neigiamą kiekį, serijos numerių pardavimo užsakymo eilutei pakeisti negalite.
--   **Važtaraščiai** – galite dalinai pataisyti važtaraščio eilutę, kurioje yra serijos prekės. Turite atšaukti visą tos eilutės kiekį. Jeigu važtaraštis buvo atšauktas arba taisytas, nereikia vėl registruoti atvirkštinių serijos numerių, kai kuriate naują tų pačių serijinių prekių važtaraštį. Bus naudojami užregistruoti numeriai.
+-   **Sąskaitos** – galite pakeisti serijos numerius prekių, kurioms dar neišrašėte sąskaitos. Tada atnaujinamas ir važtaraštis. Tačiau jei pardavimo užsakymo eilutė buvo ištaisyta registruojant neigiamą kiekį, serijos numerių pardavimo užsakymo eilutei pakeisti negalite.
+-   **Važtaraščiai** – galite dalinai pataisyti važtaraščio eilutę, kurioje yra serijos prekės. Turite atšaukti visą tos eilutės kiekį. Jeigu važtaraštis buvo atšauktas arba taisytas, nereikia vėl registruoti atvirkštinių serijos numerių, kai kuriate naują tų pačių serijinių prekių važtaraštį. Bus naudojami užregistruoti numeriai.
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>Ar galiu peržiūrėti serijos numerius, atsiųstus kartu su konkrečiu važtaraščiu, arba tuos, kurie buvo įtraukti į sąskaitą faktūrą?
 Taip, galite atlikti užklausą važtaraščio žurnalo eilutėje arba sąskaitos faktūros žurnalo eilutėje ir peržiūrėti visų serijos numerių, įtrauktų į tą dokumentą, sąrašą.
@@ -78,7 +77,6 @@ Taip, mažmeninės prekybos taškas (EKA) paskatins vartotoją įvesti serijos n
 Ši funkcija yra prieinama visiems vaidmenims, kurie gali tvarkyti pardavimų važtaraščius ir pardavimo sąskaitas faktūras. Šie vaidmenys leidžia darbuotojams redaguoti serijos numerius ir registruoti tuščius serijos numerių įrašus, kurių negalima įskaityti ar nuskenuoti:
 -   Tvarkyti serijos numerių koregavimą
 -   Tvarkyti neįskaitomų serijos numerių registravimą
-
 
 
 

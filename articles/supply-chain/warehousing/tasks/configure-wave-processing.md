@@ -1,13 +1,13 @@
---- 
-title: "Bangos apdorojimo konfigūravimas"
-description: "Šiame vadove aprašoma, kaip nustatyti kriterijus, pagal kuriuos nustatoma, koks darbas sugeneruojamas sandėliui apdorojus bangą ir ar bangos apdorojamos rankiniu būdu, ar automatiškai."
+---
+title: Bangos apdorojimo konfigūravimas
+description: Šiame vadove aprašoma, kaip nustatyti kriterijus, pagal kuriuos nustatoma, koks darbas sugeneruojamas sandėliui apdorojus bangą ir ar bangos apdorojamos rankiniu būdu, ar automatiškai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337514"
 ---
 # <a name="configure-wave-processing"></a>Bangos apdorojimo konfigūravimas
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 24. Lauke Išleisti į sandėlį pasirinkite parinktį.
     * Pardavimo užsakymų ir „kanban“ užsakymų atsargos turi būti rezervuotos prie išleidžiant užsakymą į sandėlį. Kitu atveju prekės arba paskirstymo eilutės negalės būti apdorojamos bangoje. Gamybos užsakymuose taip pat galite pasirinkti Leisti dalinį rezervavimą. Pvz., tai naudinga, jei turite medžiagų, kurių reikia, kad galėtumėte pradėti gamybą, ir galite palaukti, kol taps pasiekiamos papildomos medžiagos procesui baigti. Jei pasirinksite šią parinktį, turėsite rankiniu būdu kartoti išleidimo į sandėlį procesą, kai taps pasiekiama papildomų medžiagų.  
 25. Uždarykite puslapį.
-
 

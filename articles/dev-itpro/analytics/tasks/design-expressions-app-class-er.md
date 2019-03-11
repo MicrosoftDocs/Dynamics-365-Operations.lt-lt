@@ -1,13 +1,13 @@
---- 
-title: "ER išraiškų kūrimas siekiant iškviesti programos klasių metodus"
-description: "Šiame vadove pateikiama informacija, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų (ER) konfigūracijomis ir iškviečiant reikiamus ER išraiškų programos klasių metodus."
+---
+title: ER išraiškų kūrimas siekiant iškviesti programos klasių metodus
+description: Šiame vadove pateikiama informacija, kaip pakartotinai naudoti esamą programos logiką naudojantis elektroninių ataskaitų (ER) konfigūracijomis ir iškviečiant reikiamus ER išraiškų programos klasių metodus.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357248"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER išraiškų kūrimas siekiant iškviesti programos klasių metodus
 
@@ -34,7 +34,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.   
-    * Tarkime, kad jūs kuriate gaunamų banko išrašų analizavimo procesą, skirtą atlikti programos duomenų naujinimą. Banko išrašus gausite kaip TXT failus, kuriuose nurodyti IBAN kodai. Atlikdami banko išrašo importavimo procesą, turite patikrinti, ar šie IBAN kodai teisingi, pagal logiką, kuri jau prieinama „Dynamics 365 for Finance and Operations“.   
+    * Tarkime, kad jūs kuriate gaunamų banko išrašų analizavimo procesą, skirtą atlikti programos duomenų naujinimą. Banko išrašus gausite kaip TXT failus, kuriuose nurodyti IBAN kodai. Kadangi atliekamas banko išrašo importavimo procesas, turite patikrinti, ar šie IBAN kodai teisingi, naudodami logiką, kuri jau prieinama naudojant „Dynamics 365 for Finance and Operations“.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importuoti naują ER modelio konfigūraciją
 1. Sąraše raskite ir pasirinkite norimą įrašą.
@@ -157,5 +157,4 @@ Bandymams atlikti formato susiejimą vykdykite naudodami anksčiau atsisiųstą 
     * Spustelėkite Naršyti ir suraskite anksčiau atsisiųstą failą SampleIncomingMessage.txt.  
 2. Spustelėkite GERAI.
     * Peržiūrėkite išvestį XML formatu, kuriuo rodomi iš pasirinkto failo importuoti ir į duomenų modelį perkelti duomenys. Atkreipkite dėmesį, kad apdorotos tik 3 importuojamo TXT failo eilutės. 4 eilutėje esantis netinkamas IBAN kodas praleistas ir sistemos pranešime pateikiamas klaidos pranešimas.  
-
 

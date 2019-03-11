@@ -1,13 +1,13 @@
 ---
-title: "„Retail“ smulkių išlaidų valdymas (Rytų Europa)"
-description: "Šioje temoje aprašoma, kaip nustatyti ir naudoti „Retail“ grynųjų pinigų valdymo funkcijas Rytų Europoje."
+title: „Retail“ smulkių išlaidų valdymas (Rytų Europa)
+description: Šioje temoje aprašoma, kaip nustatyti ir naudoti „Retail“ grynųjų pinigų valdymo funkcijas Rytų Europoje.
 author: epopov
 manager: annbe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,15 +15,14 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 01239f0eff3e59f62188fca64f99e93be843d2e2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: c198cedba9268229dc1057711d9f16ca33acebac
-ms.contentlocale: lt-lt
-ms.lasthandoff: 10/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371186"
 ---
-
 # <a name="petty-cash-management-for-retail-for-eastern-europe"></a>„Retail“ smulkių išlaidų valdymas (Rytų Europa)
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ Naudokite šią procedūrą norėdami nustatyti mokėjimų grynaisiais pinigais 
 
 > [!NOTE]
 > Parduotuvėje būtina nustatyti ir mokėjimo grynaisiais pinigais priemonės, ir mokėjimo priemonės šalinimo arba pinigų srauto įrašo mokėjimo būdo korespondentines sąskaitas. Tokiu būdu sukuriami subalansuoti mokėjimo priemonės šalinimo arba pinigų srauto operacijų DK įrašai.
-

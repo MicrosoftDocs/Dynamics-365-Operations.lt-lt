@@ -1,13 +1,13 @@
 ---
-title: "Išankstinio mokėjimo SF ir išankstiniai mokėjimai"
-description: "Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus."
+title: Išankstinio mokėjimo SF ir išankstiniai mokėjimai
+description: Šioje temoje aprašomi ir priešpriešinami du išankstinių mokėjimų būdai, kuriuos gali naudoti organizacijos. Naudojant vieną būdą, sukuriama išankstinio mokėjimo SF, susieta su pirkimo užsakymu. Naudojant kitą būdą, išankstinio mokėjimo žurnalo kvitai kuriami sukuriant žurnalo įrašus ir pažymint juos kaip išankstinio mokėjimo žurnalo kvitus.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c81045b72d15f4474d82040d7725740cff5eba91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310144"
 ---
-
 # <a name="prepayment-invoices-vs-prepayments"></a>Išankstinio mokėjimo SF ir išankstiniai mokėjimai
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Daugelyje šalių/regionų norint atlikti apskaitą, reikia, kad išankstiniai a
 3.  Sukurkite mokėjimo žurnalą, o tada sukurkite naują mokėjimą.
 4.  Mokėjimą galite pažymėti kaip išankstinį mokėjimą. Jei mokėjimas pažymėtas kaip išankstinis mokėjimas, mokėjimas užregistruojamas DK sąskaitose, nurodytose registravimo šablone, kurį nustatėte atlikdami 1 ir 2 veiksmus. Be to, jei mokėjimas pažymėtas kaip išankstinis mokėjimas, skaičiuojami mokesčiai. Kai kurios vyriausybės reikalauja, kad mokesčiai būtų sumokami, kai įrašomas išankstinis apmokėjimas, net jei SF nėra.
 5.  Užregistruokite išankstinį apmokėjimą.
-6.  Pasirinktinai: išankstinį mokėjimą galite sudengti pagal pirkimo arba pardavimo užsakymą prieš kurdami SF. Pardavimo užsakymo arba pirkimo užsakymo puslapio veiksmų srityje pasirinkite **Sudengti operacijas**.
+6.  Pasirinktinai: išankstinį mokėjimą galite sudengti pagal pirkimo arba pardavimo užsakymą prieš kurdami SF.Pardavimo užsakymo arba pirkimo užsakymo puslapio veiksmų srityje pasirinkite **Sudengti operacijas**.
 7.  Po to, kai tiekėjas pristato prekes arba paslaugas, įrašykite SF. Jei išankstinį mokėjimą sudengiate pagal pirkimo arba pardavimo užsakymą (6 veiksmas), išankstinis mokėjimas yra automatiškai sudengiamas pagal jūsų sukurtą SF. Jei išankstinio mokėjimo pagal pirkimo arba pardavimo užsakymą nesudengėte, galite jį neautomatiškai sudengti pagal SF, kliento arba tiekėjo puslapyje pasirinkdami **Sudengti operacijas**. Tada išankstinio mokėjimo suma yra atšaukiama iš laikinos AP/AR DK sąskaitos. Be to, jei buvo apskaičiuoti mokesčiai, jie bus atšaukti, nes SF pateikiami faktiniai mokesčiai.
 
 ## <a name="overview-of-the-prepayment-invoicing-process"></a>Išankstinio mokėjimo SF išrašymo proceso apžvalga
@@ -63,7 +62,6 @@ Išankstinio mokėjimo SF versle yra įprastos. Tiekėjas išduoda išankstinio 
 3.  Mokėtinų sumų koordinatorius užregistruoja išankstinio mokėjimo SF pagal pirkimo užsakymą, o tada išankstinio mokėjimo SF yra apmokama.
 4.  Po to, kai tiekėjas pristato prekes arba paslaugas, o susijusios tiekėjo SF yra gautos, mokėtinų sumų koordinatorius taiko išankstinio mokėjimo sumą, kuri jau buvo sudengta pagal SF.
 5.  Mokėtinų sumų koordinatorius moka ir sudengia likusią SF sumą.
-
 
 
 

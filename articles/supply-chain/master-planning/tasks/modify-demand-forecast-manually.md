@@ -1,13 +1,13 @@
---- 
-title: "Modifikuoti poreikio prognozę neautomatiškai"
-description: "Ši procedūra nurodo, kaip modifikuoti prekės prognozę."
+---
+title: Modifikuoti poreikio prognozę neautomatiškai
+description: Ši procedūra nurodo, kaip modifikuoti prekės prognozę.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 063554c98b8a6261ebe69073f214a8e45850c623
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323599"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>Modifikuoti poreikio prognozę neautomatiškai
 
@@ -43,8 +43,7 @@ ms.lasthandoff: 09/29/2017
 7. Spustelėkite Įrašyti.
 
 ## <a name="modify-the-forecast-in-excel"></a>Modifikuoti prognozę „Excel“ programoje
-1. Spustelėkite „Atidaryti naudojant „Microsoft Office“.
+1. Spustelėkite Atidaryti programoje „Microsoft Office“.
 2. Spustelėkite „Redaguoti poreikio prognozę „Excel“ programoje“.
-    * „Excel“ programoje galite pridėti, ištrinti ir redaguoti poreikio prognozės eilutes. Jei negalite matyti duomenų „Excel“, turite prisijungti prie „Microsoft Dynamics 365 for Finance and Operations“, „Enterprise“ leidimą ir įjungti parinktį „Palikite mane prisijungusį", taip pat turite pasitikėti duomenų ryšio programa.  
-
+    * „Excel“ programoje galite pridėti, ištrinti ir redaguoti poreikio prognozės eilutes. Jei negalite matyti duomenų „Excel“, turite prisijungti prie Microsoft Dynamics 365 for Finance and Operations redakcijos įmonei ir įjungti parinktį „Palikite mane prisijungusį", taip pat turite pasitikėti duomenų ryšio programa.  
 

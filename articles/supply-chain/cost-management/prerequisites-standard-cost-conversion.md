@@ -1,13 +1,13 @@
 ---
-title: "Būtinos standartinių išlaidų konvertavimo sąlygos"
-description: "Šioje temoje aptariama užduotis, kurią reikia atlikti prieš vykdant standartinių išlaidų konvertavimą."
+title: Būtinos standartinių išlaidų konvertavimo sąlygos
+description: Šioje temoje aptariama užduotis, kurią reikia atlikti prieš vykdant standartinių išlaidų konvertavimą.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351935"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>Būtinos standartinių išlaidų konvertavimo sąlygos
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ Prieš atlikdami standartinių išlaidų konvertavimą, atlikite šiuos veiksmus
 
         Aktyvus išlaidų paskirstymas reiškia, kad, suaktyvinus pagamintos prekės išlaidas, rezultatas bus saugomas išlaidų grupių segmentavime prekės išlaidų įraše. Jei lauke **Išlaidų paskirstymas** neįvesite vertės, išlaidų grupės segmentavimas nebus išsaugotas standartinių išlaidų komponentams. Vadinasi, pagamintų prekių standartinės išlaidos bus apskaičiuotos ir liks vienintelė suma be išlaidų grupių segmentavimo o pagamintų komponentų išlaidų įnašai bus sujungti į vieną sumą.
     -   Naudokite lauką **Nuokrypiai nuo standarto** norėdami pasirinkti susumuotą grupę ar grupę pagal išlaidas. Pasirinkus grupę pagal išlaidas galima identifikuoti pirkimo kainų nuokrypius ir gamybos nuokrypius pagal išlaidų grupę. Tai taip pat leidžia identifikuoti keturis gamybos nuokrypių tipus (partijos dydis, kiekis, kaina ir pakaitalų nuokrypiai). Pasirinkę susumuotą grupę negalėsite identifikuoti nuokrypių pagal išlaidų grupę ir negalėsite identifikuoti keturių gamybos nuokrypių tipų. Galėsite tik peržiūrėti susumuotus gamybos nuokrypius. Standartinė nuokrypių strategija yra nepriklausoma nuo išlaidų paskirstymo strategijos. Tai reiškia, galite nepasirinkti jokios išlaidų paskirstymo strategijos ir pasirinkti išlaidų grupės nuokrypius taip, kad gamybos nuokrypiai pagal išlaidų grupę vis tiek bus užfiksuoti.
-
 
 
 

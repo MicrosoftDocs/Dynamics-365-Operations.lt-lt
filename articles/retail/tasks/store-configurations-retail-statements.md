@@ -1,13 +1,13 @@
---- 
+---
 title: " Mažmeninės prekybos išrašų parduotuvės konfigūracijos"
-description: "Ši procedūra nurodo mažmeninės prekybos parduotuvės konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami mažmeninės prekybos išrašai."
+description: Ši procedūra nurodo mažmeninės prekybos parduotuvės konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami mažmeninės prekybos išrašai.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354718"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Mažmeninės prekybos išrašų parduotuvės konfigūracijos
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
     * Pasirinkite „Taip“, jei po vidurnakčio atliktos operacijos turėtų būti registruojamos kaip ankstesnės dienos operacijos.  
     * Pasirinkite „Taip“, jei norite, kad būtų sukurti kiekvieno nurodyto išrašo metodo išrašai. Tai gali būti naudinga, jei registravimo efektyvumą reikia tobulinti parduotuvėse, kuriose atliekama daug operacijų, nes tokiu atveju būtų sukurta daug mažesnių išrašų, kuriuos galima apdoroti lygiagrečiai.  
     * Lauke Numatytasis klientas galite pasirinkti kliento sąskaitą, skirtą naudoti pardavimo operacijose su į parduotuvę atėjusiais klientais.  
-
 

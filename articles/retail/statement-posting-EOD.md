@@ -1,13 +1,13 @@
 ---
-title: "Išrašų registravimo funkcionalumo patobulinimai"
-description: "Šioje temoje aprašomi išrašų registravimo funkcijai atlikti patobulinimai."
+title: Išrašų registravimo funkcionalumo patobulinimai
+description: Šioje temoje aprašomi išrašų registravimo funkcijai atlikti patobulinimai.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,19 +16,18 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321437"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
 
 [!include[banner](includes/banner.md)]
 
-Šioje temoje aprašomas pirmas išrašų registravimo funkcijai atliktų patobulinimų rinkinys. Šiais patobulinimais galima naudotis programoje „Microsoft Dynamics 365 for Finance and Operations 7.3.2“.
+Šioje temoje aprašomas pirmas išrašų registravimo funkcijai atliktų patobulinimų rinkinys. Šie patobulinimai pateikiami „Microsoft Dynamics 365 for Finance and Operations 7.3.2“.
 
 ## <a name="activation"></a>Aktyvinimas
 
@@ -171,4 +170,3 @@ Kiti vidiniai vartotojų matomi išrašų registravimo funkcijai atlikti patobul
 
     - Eikite į **Mažmeninė prekyba** \> **„Headquarters“ sąranka** \> **Parametrai** \> **Mažmeninės prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuko **Atsargų atnaujinimas** lauke **Detalumo lygis** pasirinkite **Suvestinė**.
     - Eikite į **Mažmeninė prekyba** \> **„Headquarters“ sąranka** \> **Parametrai** \> **Mažmeninės prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuke **Telkimas** nustatykite parinkties **Kvito operacijos** reikšmę **Taip**.
-

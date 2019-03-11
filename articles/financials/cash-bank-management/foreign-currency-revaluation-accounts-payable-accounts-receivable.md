@@ -1,13 +1,13 @@
 ---
-title: "Mokėtinų ir Gautinų sumų užsienio valiutos kurso pasikeitimas"
-description: "Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę."
+title: Mokėtinų ir Gautinų sumų užsienio valiutos kurso pasikeitimas
+description: Dėl valiutos kursų svyravimų laikui bėgant kinta atvirų operacijų užsienio valiutomis teorinė vertė (balansinė vertė). Šiame straipsnyje pateikiama informacija apie užsienio valiutos kurso pasikeitimo procesą, kuris vykdomas norint atnaujinti atvirų operacijų Mokėtinų ir Gautinų sumų vertę.
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341332"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Mokėtinų ir Gautinų sumų užsienio valiutos kurso pasikeitimas
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Sukuriamas įrašas kiekvieną kartą, kai vykdote užsienio valiutos kurso pasi
     -   **Nėra** – neužregistruota jokių finansinių dimensijų. Jei jūsų sąskaitos struktūroje yra reikiama finansinė dimensija, perkainojimo procesas vis dar vykdomas ir sukuriami apskaitos įrašai, kurie neturi finansinių dimensijų. Pirma gausite perspėjimo pranešimą, kad galėtumėte atšaukti perkainojimą.
     -   **Lentelė** – kliento sąskaitos arba tiekėjo sąskaitos finansinės dimensijos užregistruotos užsienio valiutos kurso pasikeitimo operacijose.
     -   **Registravimas** – perkainojamos ir užsienio valiutos pasikeitimo operacijoje registruojamos operacijos finansinė dimensija. Pagal numatytuosius nustatymus, finansinės dimensijos iš pradinės operacijos AR / AP didžiosios knygos sąskaitos bus naudojama perkainavimo operacijos AR / AP pagrindinėje sąskaitoje, o finansinės dimensijos iš pradinės operacijos išlaidų / turto / įplaukų didžiosios knygos sąskaitos bus naudojamos perkainojimo operacijos negauto pelno / nepatirtų nuostolių pagrindinėje sąskaitoje.
-
 
 
 

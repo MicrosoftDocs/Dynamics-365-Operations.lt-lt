@@ -1,13 +1,13 @@
 ---
-title: "Eilutės apibrėžimo langelių keitimas"
-description: "Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti."
+title: Eilutės apibrėžimo langelių keitimas
+description: Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323645"
 ---
-
 # <a name="modify-row-definition-cells"></a>Eilutės apibrėžimo langelių keitimas
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ Galite apriboti eilutę esamu knygos kodu. Stulpelio apraše turi būti bent vie
 Kai kurios apskaitos sistemos palaiko finansinių duomenų sąskaitos atributus ir operacijos atributus. Šie atributai veikia kaip virtualieji sąskaitos segmentai ir juose gali būti papildoma informacija apie sąskaitą arba operaciją. Ši papildoma informacija gali būti sąskaitos ID, paketo ID, pašto indeksai ar kiti atributai. Jei jūsų apskaitos sistema palaiko atributus, eilutės apraše kaip eilutės modifikatorius galite naudoti sąskaitos atributus arba operacijos atributus. Informacijos apie tai, kaip nepaisyti eilutės informacijos rasite pirmiau pateiktame šio straipsnio skyriuje „Stulpelio aprašo nepaisymas“.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Langelio Saitas su finansinėmis dimensijomis nurodymas
-Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje pateikiamos dimensijų reikšmės, bet vietoj segmento reikšmių arba dimensijų reikšmių arba papildomai prie jų galite nurodyti „Microsoft Excel“ darbalapio langelius. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**.
+Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje yra dimensijų vertės, tačiau vietoj segmentų verčių ar dimensijų verčių arba kartu su jomis galite nurodyti „Microsoft Excel“ darbalapio langelius. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**.
 
 > [!NOTE]
-> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], {, arba }. Norėdami nurodyti informaciją, kuri jau yra eilutės apibrėžime, įtraukite informaciją į langelį **Saitas su finansinėmis dimensijomis**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &; \*, \[, \], {, arba }. Norėdami nurodyti į eilučių aprašą įtrauktos eilutės informaciją, informaciją įtraukite langelyje **Saitas į finansines dimensijas**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
 
 | Pasirinktas saito tipas       | Saito stulpelio aprašas pasikeičia į šį |
 |----------------------------------|----------------------------------------------------|
@@ -429,14 +428,14 @@ Dialogo lange **Dimensijos** įvedus fizinio segmento reikšmę pakaitos simbol�
 Galite nurodyti segmentų reikšmių arba dimensijų reikšmių intervalą. Nurodyti intervalą naudinga todėl, kad jums nereikės atnaujinti eilutės aprašo kiekvieną kartą, kai į finansinius duomenis įtraukiama nauja segmento reikšmė arba dimensijos reikšmė. Pavyzdžiui, kai intervalas **+Sąskaita=\[6100:6900\]**, į eilutės sumą įtraukiamos reikšmės iš sąskaitų, kurių skaičiai nuo 6100 iki 6900. Kai intervale yra pakaitos simbolis (?), ataskaitų dizaino įrankis neįvertina intervalo pagal kiekvieną simbolį. Vietoj to nustatomos mažiausia ir didžiausia intervalo reikšmės, tada įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės.
 
 > [!NOTE]
-> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], {, arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &; \*, \[, \], {, arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Kelių segmentų arba kelių dimensijų intervalai
 
 Įvedus intervalą, kai naudojamos kelių dimensijų reikšmių kombinacijos, intervalo palyginimas atliekamas ..\\financial-dimensions\\dimension-by-dimension pagrindu. Intervalo palyginimo negalima atlikti pagal kiekvieną simbolį arba pagal segmento dalį. Pavyzdžiui, intervalas  **+Sąskaita=\[5000:6000\], Padalinys=\[1000:2000\], Išlaidų centras=\[00\]** apima tik tas sąskaitas, kurios atitinka kiekvieną segmentą. Pagal šį scenarijų pirmosios dimensijos intervalas turi būti nuo 5000 iki 6000, antros dimensijos intervalas – nuo 1000 iki 2000, o paskutinė dimensija turi būti 00. Pavyzdžiui, **+Sąskaita=\[5100\], Padalinys=\[1100\], Išlaidų centras=\[01\]** į ataskaitą neįtraukiama, nes paskutinis segmentas nepatenka į nurodytą intervalą. Jei segmento reikšmėje yra tarpų, tą reikšmę rašykite laužtiniuose skliaustuose (\[ \]). Keturių simbolių segmentui tinkamos šios reikšmės: **\[ 234\], \[123 \], \[1 34\]**. Dimensijos reikšmės turi būti rašomos laužtiniuose skliaustuose (\[ \]), o ataskaitų dizaino įrankis parašo šiuos skliaustus už jus. Kai į kelių segmentų arba kelių dimensijų intervalą įtraukti pakaitos simboliai (? arba \*), nustatomos mažiausia ir didžiausia viso kelių segmentų arba kelių dimensijų intervalo reikšmės, o po to įtraukiamos pabaigos reikšmės ir tarp jų esančios reikšmės. Jei intervalas ilgas, pvz., visos sąskaitos nuo 40000 iki 99999, jei įmanoma, turite nurodyti tinkamą pradžios sąskaitą ir pabaigos sąskaitą.
 
 > [!NOTE] 
-> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &amp;, \*, \[, \], {, arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
+> Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &; \*, \[, \], {, arba }. Ampersendą (&) įtraukti galite tik tada, kai naudodami dialogo langą **Įterpti eilutes iš dimensijų** automatiškai kuriate eilučių aprašus.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Pridėti prie kitų eilutės aprašo sąskaitų arba iš jų atimti
 Norėdami sudėti vienos sąskaitos pinigines sumas ir kitos sąskaitos pinigines sumas arba jas vieną iš kitos atimti, galite naudoti langelio **Saitas su finansinėmis dimensijomis** pliuso ženklą (+) arba minuso ženklą (-). Toliau pateikiamoje lentelėje nurodomi priimtini formatai, naudojami sudedant arba atimant saitus su finansiniais duomenimis.
@@ -456,10 +455,10 @@ Norėdami sudėti vienos sąskaitos pinigines sumas ir kitos sąskaitos pinigine
 | Atimkite segmentų reikšmių intervalą.                                                     | -Sąskaita=\[1200:1205\]                                                                                       |
 | Atimkite segmentų reikšmių, kuriose yra pakaitos simbolių, intervalą.                    | -Sąskaita=\[120?:130?\]                                                                                       |
 
-Nors galite keisti sąskaitas tiesiogiai, norėdami taikyti tinkamą formatavimą savo finansinių duomenų saitams, taip pat galite naudoti dialogo langą **Dimensijos**. Bet kurioje iš reikšmių gali būti pakaitos simbolių (? arba \*). Tačiau, taskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &, \*, \[, \], { arba }.
+Nors galite keisti sąskaitas tiesiogiai, norėdami taikyti tinkamą formatavimą savo finansinių duomenų saitams, taip pat galite naudoti dialogo langą **Dimensijos**. Bet kurioje iš reikšmių gali būti pakaitos simbolių (? arba \*). Tačiau ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &; \*, \[, \], {, arba }.
 
 > [!NOTE]
-> Norėdami atimti reikšmes, turite tas reikšmes rašyti skliausteliuose. Pavyzdžiui, jei įvedate **450?-(4509)**, rodoma **+Sąskaita=\[4509\]-Sąskaita=\[450?\]** ir jūs nurodote, kad ataskaitų dizaino įrankis atimtų 4509 sąskaitos segmento sumą iš bet kurio skaičiais 450 prasidedančio sąskaitos segmento sumos.
+> Norėdami atimti vertes, turite jas apskliausti. Pavyzdžiui, jei įvedate **450?-(4509)**, rodoma **+Sąskaita=\[4509\]-Sąskaita=\[450?\]** ir jūs nurodote, kad ataskaitų dizaino įrankis atimtų 4509 sąskaitos segmento sumą iš bet kurio skaičiais 450 prasidedančio sąskaitos segmento sumos.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Sąskaitų pridėjimas prie kitų sąskaitų arba atėmimas iš kitų sąskaitų
 
@@ -533,4 +532,3 @@ Dimensijų reikšmių rinkinys yra pavadinimą turinti dimensijų reikšmių gru
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-

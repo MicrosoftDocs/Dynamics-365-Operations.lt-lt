@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjų sąskaitų nustatymas"
-description: "Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai."
+title: Tiekėjų sąskaitų nustatymas
+description: Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: lt-lt
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329142"
 ---
-
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ Galite saugoti tiekėjo kontaktus. Šiuos kontaktus galima naudoti dokumentuose,
 
 Norėdami įtraukti tiekėjo kontaktus, puslapio **Visi tiekėjai** skirtuko **Tiekėjas** grupėje **Nustatyti** spustelėkite **Kontaktai** &gt; **Įtraukti kontaktus**.  
 
-Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informaciją iš kito asmens, kuris jau užregistruotas sprendime „Microsoft Dynamics 365 for Finance and Operations“, ir pagal poreikį informaciją redaguoti.  
+Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informaciją iš kito asmens, kuris jau užregistruotas „Microsoft Dynamics 365 for Finance and Operations“, ir pagal poreikį informaciją redaguoti.  
 
 **Pastaba.** Tiekėjo kontakto įtraukimas ir tiekėjo kontaktinės informacijos įtraukimas nėra tas pats veiksmas. Nors galite įtraukti bendrą tiekėjo kontaktinę informaciją, gali būti, kad toje įmonėje kontaktai yra keli konkretūs žmonės ir jie visi turi savo kontaktinę informaciją.  
 
@@ -116,7 +115,6 @@ Jei mokėjimus turite atlikti į tiekėjo banko sąskaitą, galite įvesti infor
 Galite nurodyti numatytąsias sąskaitas, kurios bus automatiškai rodomos nurodyto tiekėjo SF žurnaluose. Ši funkcija gali būti naudinga, jei paprastai mokate už tos pačios rūšies prekes arba paslaugas iš tų pačių tiekėjų. Kai nurodote numatytąją sąskaitą, SF žurnale galite greitai ir efektyviai įvesti žurnalo įrašus. Jūsų nurodytos numatytosios sąskaitos nėra naudojamos pirkimo užsakymuose arba tiekėjo SF, kurias įvedate puslapyje **Tiekėjo SF**.  
 
 Numatytąsias sąskaitas galite pasirinkti puslapyje **Numatytosios sąskaitos nustatymas**, kurį galite atidaryti naudodami tiekėjo įrašo skirtuką **SF**. Čia pasirinktos sąskaitos rodomos filtruotame tiekėjo sąskaitų sąraše, kai įvedate žurnalo įrašą. Vieną iš sąskaitų galite nustatyti kaip numatytąją sąskaitą.
-
 
 
 

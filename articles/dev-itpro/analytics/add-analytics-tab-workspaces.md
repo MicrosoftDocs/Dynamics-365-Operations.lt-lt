@@ -1,13 +1,13 @@
 ---
-title: "Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“"
-description: "Šioje temoje rodoma, kaip įterpti „Power BI“ ataskaitą darbo srities skirtuke Analizė."
+title: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
+description: Šioje temoje rodoma, kaip įterpti „Power BI“ ataskaitą darbo srities skirtuke Analizė.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355224"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
 [!include [banner](../includes/banner.md)]
@@ -30,12 +29,12 @@ ms.lasthandoff: 08/13/2018
 > [!NOTE]
 > Šią funkcija palaiko 7.2 arba vėlesnės versijos „Dynamics 365 for Finance and Operations“.
 
-## <a name="introduction"></a>Įvadas
+## <a name="introduction"></a>Įžanga
 Šioje temoje rodoma, kaip įterpti „Microsoft Power BI“ ataskaitą darbo srities skirtuke **Analizė**. Čia pateiktame pavyzdyje išplėsime Transporto parko valdymo programos darbo sritį **Rezervacijų valdymas**, kad skirtuke **Analizė** galėtume įterpti analizės darbo sritį.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 + Prieiga prie projektuotojo terpės, kurioje veikia 8-asis ar naujesnis platformos atnaujinimas.
-+ Naudojant „Microsoft Power BI Dekstop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
++ Naudojant „Microsoft Power BI Desktop Dekstop“ programą sukurta analizės ataskaita (.pbix failas), kurioje yra iš objekto parduotuvės duomenų bazės gaunamas duomenų modelis.
 
 ## <a name="overview"></a>Apžvalga
 Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo sritį, informatyviems ir interaktyviems verslo duomenų rodiniams pristatyti galite naudoti įdėtuosius analizės rodinius. Analizės darbo srities įtraukimo procesą sudaro keturi veiksmai.
@@ -46,10 +45,10 @@ Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo 
 4. Pasirinktina: įtraukite plėtinius, kad tinkintumėte rodinį.
 
 > [!NOTE]
-> Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Dekstop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šis puslapis – puikus įžvalgų, galinčių padėti kurti patrauklius sprendimus analizės ataskaitoms, šaltinis.
+> Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Desktop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šis puslapis – puikus įžvalgų, galinčių padėti kurti patrauklius sprendimus analizės ataskaitoms, šaltinis.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Įtraukite .pbix failą kaip išteklių.
-Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią įdėsite į darbo sritį. Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Dekstop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią įdėsite į darbo sritį. Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Desktop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
 Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio“ projekto artefaktą.
 
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Būlio logikos vertė, kuria nurodoma, ar filtro sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**).     |
 | showNavPane      | Būlio logikos vertė, kuria nurodoma, ar naršymo sritis turi būti rodoma (**true**), ar paslėpta (**klaidinga**). |
 | defaultFilters   | Numatytieji „Power BI“ ataskaitos filtrai.                                                                 |
-

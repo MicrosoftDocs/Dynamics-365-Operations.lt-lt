@@ -1,13 +1,13 @@
 ---
-title: "SF išdavimo data"
-description: "Šiame straipsnyje paaiškinama, kaip nustatyti parametrus ir apskaičiuoti klientų SF ir tiekėjų SF išdavimo terminus Europos Sąjungoje (ES)."
+title: SF išdavimo data
+description: Šiame straipsnyje paaiškinama, kaip nustatyti parametrus ir apskaičiuoti klientų SF ir tiekėjų SF išdavimo terminus Europos Sąjungoje (ES).
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, LedgerInvoiceIssueDueDateSetup_W
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 942b48170d7c164e16d2b8f5544b8777668adab3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 34dac634e09a8daa8a22b9f1efbc18ca44444e21
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371228"
 ---
-
 # <a name="invoice-issue-deadline"></a>SF išdavimo data
 
 [!include [banner](../includes/banner.md)]
@@ -118,7 +117,6 @@ Jei neturite prieigos prie puslapių, kurie naudojami šiame straipsnyje minimom
 </tr>
 </tbody>
 </table>
-
 
 
 

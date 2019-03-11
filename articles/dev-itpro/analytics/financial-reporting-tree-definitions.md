@@ -1,13 +1,13 @@
 ---
-title: "Ataskaitų dizaino įrankio ataskaitų medžio aprašai"
-description: "Šiame straipsnyje pateikiama informacija ataskaitų medžių aprašus. Ataskaitų medžio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris padeda nustatyti organizacijos struktūrą ir hierarchiją."
+title: Ataskaitų dizaino įrankio ataskaitų medžio aprašai
+description: Šiame straipsnyje pateikiama informacija ataskaitų medžių aprašus. Ataskaitų medžio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris padeda nustatyti organizacijos struktūrą ir hierarchiją.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316952"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio aprašai
 
 [!include [banner](../includes/banner.md)]
@@ -49,9 +48,9 @@ Galite sukurti neribotą skaičių ataskaitų medžių, kad galėtumėte perži�
 ## <a name="create-a-reporting-tree-definition"></a> Ataskaitų medžio aprašo kūrimas
 Ataskaitų medžio apraše yra šioje lentelėje aprašytų stulpelių.
 
-| Ataskaitų medžio stulpelis | aprašymas |
+| Ataskaitų medžio stulpelis | Prekės/Paslaugos pavadinimas |
 |-----------------------|-------------|
-| Įmonė               | Ataskaitinio vieneto įmonės pavadinimas. Reikšmė **@ANY**, kuri paprastai priskiriama tik suvestinės lygiui, leidžia ataskaitų medį naudoti visoms įmonėms. Visoms antrinėms šakoms priskiriama įmonė. |
+| Įmonė               | Ataskaitinio vieneto įmonės pavadinimas. **@ANY** vertė, paprastai priskiriama tik suvestinės lygiu, teikia galimybę naudoti ataskaitų medį visoms įmonėms. Visoms antrinėms šakoms priskiriama įmonė. |
 | Vieneto pavadinimas             | Kodas, nurodantis šį ataskaitinį vienetą grafiniame ataskaitų medyje. Būtinai sukurkite unikalią kodavimo sistemą, kuri būtų nuosekli ir lengvai suprantama vartotojams. |
 | Vieneto aprašas      | Ataskaitos aprašo skirtuke **Antraštės ir poraštės** įvedus kodą **UnitDesc**, ataskaitos antraštėje arba poraštėje bus rodomas ataskaitinio vieneto pavadinimas. Įvedus **UnitDesc** eilutės apibrėžimo langelyje **Aprašas**, pavadinimas bus rodomas ataskaitos eilutės apraše. |
 | Dimensijos            | Ataskaitinis vienetas, kurio informacija imama tiesiai iš finansinių duomenų. Jis nustato sąskaitos ir susijusių segmentų loginį išdėstymą ir ilgį. Šiame stulpelyje kiekviena ataskaitinio vieneto eilutė turi turėti dimensiją. Taip pat galite padėti dimensiją ataskaitinio vieneto eilutėje (pavyzdžiui, išlaidų, tiesiogiai susijusių su tuo vienetu). Įvedus dimensiją suvestinio vieneto eilutėje, sąskaitų, naudojamų pirminiuose vienetuose, negalima naudoti antriniuose vienetuose. Priešingu atveju sumos gali dubliuotis. |
@@ -166,9 +165,9 @@ Galite neleisti tam tikriems vartotojams ir grupėms pasiekti ataskaitinį viene
 3. Dialogo lange **Vieneto sauga** pasirinkite pavadinimą, tada spustelėkite **Pašalinti**.
 4. Spustelėkite **GERAI**.
 
-### <a name="link-to-reports"></a>Saitas į ataskaitas
+### <a name="link-toreports"></a>Saitas į ataskaitas
 
-Eilutės apraše sukūrę **ataskaitos** stulpelį ir nurodę ataskaitą, kurią norite įtraukti į ataskaitą, turite atnaujinti ataskaitų medį pridėdami susietą stulpelį ir ataskaitos informaciją. Ataskaitą galima importuoti į bet kurį ataskaitinio medžio vienetą.
+Eilutės apraše sukūrę  **ataskaitos** stulpelį ir nurodę ataskaitą, kurią norite įtraukti į ataskaitą, turite atnaujinti ataskaitų medį pridėdami susietą stulpelį ir ataskaitos informaciją. Ataskaitą galima importuoti į bet kurį ataskaitinio medžio vienetą.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Ataskaitos nustatymas ataskaitų medyje
 
@@ -222,4 +221,3 @@ Gautas ataskaitų medžio aprašas surūšiuotas pagal verslo vienetą, tada –
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Finansinės ataskaitos](financial-reporting-intro.md)
-

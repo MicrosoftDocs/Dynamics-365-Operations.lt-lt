@@ -1,13 +1,13 @@
 ---
 title: Asortimento valdymas
-description: "Šioje temoje paaiškinamos pagrindinės asortimento valdymo sprendime „Microsoft Dynamics 365 for Retail“ sąvokos ir nurodoma, apie ką reikėtų pagalvoti diegiant projektą."
+description: Šioje temoje paaiškinamos pagrindinės asortimento valdymo sprendime „Microsoft Dynamics 365 for Retail“ sąvokos ir nurodoma, apie ką reikėtų pagalvoti diegiant projektą.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: lt-lt
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365045"
 ---
-
 # <a name="assortment-management"></a>Asortimento valdymas
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Peržiūrėti
 
 Sprendime „Microsoft Dynamics 365 for Retail“ galima naudoti *asortimentus*, kurie leidžia valdyti produktų prieinamumą įvairiuose kanaluose. Asortimentais nustatoma, kurių produktų galima įsigyti konkrečiose parduotuvėse ir konkrečiu laikotarpiu.
 
@@ -108,4 +107,3 @@ Planuodami ir valdydami savo mažmeninės prekybos asortimentus, apsvarstykite t
 - **Į asortimentus neįtrauktų produktų pardavimas ir grąžinimas** – ši galimybė mažmenininkams padeda efektyviai valdyti savo asortimentus – leidžiama prieinamus produktus apriboti iki produktų, kurie priklauso pagrindiniam parduotuvės produktų deriniui. Ši galimybė mažmenininkams taip pat padeda valdyti situacijas, kai produktas buvo klaidingai neįtrauktas į asortimentą arba kai produktas buvo grąžintas pasibaigus asortimento galiojimui.
 
 Jei kanalo duomenų bazėje nėra produktų duomenų, EKA realiuoju laiku kreipiasi į būstinę, kad gautų reikiamą informaciją ir kad produktą būtų galima parduoti, grąžinti ar įtraukti į kliento užsakymą. Taip gauta produktų informacija prieinama tik tos operacijos aprėptyje. Produktas į asortimento apibrėžtį neįtraukiamas. Todėl vėliau realiuoju laiku kreiptis į būstinę reikės pagal poreikį.
-

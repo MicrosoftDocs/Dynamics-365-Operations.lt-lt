@@ -1,13 +1,13 @@
 ---
-title: "Sandėlio darbuotojų valdymas"
-description: "Šiame straipsnyje aprašoma, kaip „Dynamics 365 for Finance and Operations“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai."
+title: Sandėlio darbuotojų valdymas
+description: Šiame straipsnyje aprašoma, kaip „Dynamics 365 for Finance and Operations“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
-ms.contentlocale: lt-lt
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310995"
 ---
-
 # <a name="manage-warehouse-workers"></a>Sandėlio darbuotojų valdymas
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ Laiko, reikalingo darbo elementams apdoroti, analizė gali padėti gerinti sand�
 
 -   **Darbas pagal vartotoją** – šioje ataskaitoje rodomas darbuotojų efektyvumas, atsižvelgiant į faktinį ir numatomą laiką.
 -   **Darbas pagal darbo operacijos tipą** – šią ataskaitą galima naudoti norint ištirti konkrečių sandėlio procesų neefektyvumą. Pvz., pastebite, kad perkėlimo užsakymų paėmimai šią savaitę trunka ilgiau nei ankstesnes savaites. Tada šią informaciją galite naudoti tolimesniame tyrime.
-
 
 
 

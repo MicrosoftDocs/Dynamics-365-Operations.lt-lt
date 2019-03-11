@@ -1,13 +1,13 @@
 ---
 title: Produktams su serijos numeriais taikomi elektroninio kasos aparato (EKA) patobulinimai
-description: "Šioje temoje išvardyti patobulinimai, skirti produktams su serijos numeriais, kad galėtumėte sutaupyti laiko ir būti produktyvesni."
+description: Šioje temoje išvardyti patobulinimai, skirti produktams su serijos numeriais, kad galėtumėte sutaupyti laiko ir būti produktyvesni.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,14 +16,13 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
-ms.contentlocale: lt-lt
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346208"
 ---
-
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Produktams su serijos numeriais taikomi elektroninio kasos aparato (EKA) patobulinimai
 
 [!include [banner](includes/banner.md)]
@@ -43,4 +42,3 @@ Pagal modulio Mažmeninių pardavimų valdymas parametrus produktus galima klasi
 - **Norint pateikti klientų užsakymus, serijos numeriai nėra būtini** klientų užsakymus galima pateikti vienoje parduotuvėje, o įvykdyti kitoje. Kasininkas, kuris pateikia kliento užsakymą, neprivalo nurodyti serijos numerio. Serijos numeris bus nurodytas atliekant išrinkimo arba paėmimo veiksmą. Tačiau serijos numerį reikia nurodyti visoms eilutės prekėms, kurioms parinktas pristatymo tipas **Išsinešti**. Kitu atveju operacijos baigti negalima.
 - **Produktai su serijos numeriais netelkiami operacijų ekrane** – puslapio **Funkcijų šablonas** laukų grupės **Terminalas** parametras **Telkti produktus** leidžia operacijų ekrane telkti tuos pačius serijos numerių neturinčius produktus. Telkiant tuos pačius produktus, juos lengviau matyti operacijų tinklelyje. Tačiau, kadangi serijos numeriai paprastai yra unikalūs ir pardavimo darbuotojai jų neprivalo įvesti iki tikrinimo etapo, parametras **Telkti produktus** produktams su serijos numeriais netaikomas. Todėl, jei pasirinktas parametras **Telkti produktus**, operacijų ekrane produktai su serijos numeriais nebus telkiami.
 - **Galimybė ieškoti žurnalų pagal serijos numerį** – dabar žurnalų galima ieškoti papildomai pagal serijos numerius. Norėdami tai padaryti, atidarykite operaciją Žurnalai ir programos juostoje paspauskite mygtuką Išplėstinė ieška. Naudodami mygtuką Įtraukti filtrą, ieškai pagal serijos numerius galite taip pat galite taikyti filtrą.
-

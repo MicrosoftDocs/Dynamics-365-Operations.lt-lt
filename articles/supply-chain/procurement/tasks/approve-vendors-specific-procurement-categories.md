@@ -1,13 +1,13 @@
---- 
-title: "Tvirtinti konkrečių įsigijimo kategorijų tiekėjus"
-description: "Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos."
+---
+title: Tvirtinti konkrečių įsigijimo kategorijų tiekėjus
+description: Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, DirPartyEcoResCategory, EcoResCategorySingleLookup, ProcCategoryHierarchyManagement
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b783d1ce8f02ad119dc6768e6d9cd3c61ae07e70
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83945932d56abf6bf44476e5647f8ae7abdc3602
-ms.contentlocale: lt-lt
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308396"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Tvirtinti konkrečių įsigijimo kategorijų tiekėjus
 
@@ -46,5 +46,4 @@ Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidau
 13. Medyje pasirinkite Žirklės.
 14. Lauke Perimti tiekėjus iš pirminės kategorijos pasirinkite Ne.
 15. Lauke Perimti tiekėjus iš pirminės kategorijos pasirinkite Taip.
-
 

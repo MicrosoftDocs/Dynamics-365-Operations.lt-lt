@@ -1,13 +1,13 @@
 ---
-title: "Tiekėjo bendradarbiavimas su išoriniais tiekėjais"
-description: "Šioje temoje aprašoma, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas."
+title: Tiekėjo bendradarbiavimas su išoriniais tiekėjais
+description: Šioje temoje aprašoma, kaip naudodami pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais, norėdami apsikeisti informacija apie pirkimo užsakymus ir konsignacijos atsargas.
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: lt-lt
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350026"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
 [!include [banner](../includes/banner.md)]
 
-Modulis **Tiekėjų bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations‟. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
+Modulis **Tiekėjo bendradarbiavimas** skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics 365 for Finance and Operations“. Jis tiekėjams suteikia galimybę dirbti su pirkimo užsakymais (PU), SF, konsignacijos atsargų informacija ir pasiūlymo užklausomis (RFQ), taip pat jis suteikia galimybę pasiekti savo tiekėjo bendrųjų duomenų dalis. Šioje temoje paaiškinama, kaip galite bendradarbiauti su išoriniais tiekėjais, kurie naudoja tiekėjo bendradarbiavimo sąsają, norėdami dirbti su PU, RFQ ir konsignacijos atsargomis. Joje taip pat paaiškinama, kaip tiekėjo bendradarbiavimo funkciją įjungti konkrečiam tiekėjui ir kaip nurodyti informaciją, kurią matys visi tiekėjai, atsakydami į PU.
 
 Daugiau informacijos apie tai, ką išoriniai tiekėjai gali atlikti tiekėjo bendradarbiavimo sąsajoje, ieškokite puslapyje [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
@@ -260,4 +259,3 @@ Vartotojas, kuris nustato RFQ proceso parametrus, gali kurti kelis el. laiškų 
 - %createddate%
 
 Jei pakeitimas yra būtinas ir yra išsiunčiamas po to, kai išsiunčiama RFQ, RFQ bus pakartotinai išsiųsta visiems pakviestiems tiekėjams. Publikuotas dokumentas taip pat bus atnaujinamas puslapyje **Atviri paskelbti pasiūlymų patvirtinimai**.
-

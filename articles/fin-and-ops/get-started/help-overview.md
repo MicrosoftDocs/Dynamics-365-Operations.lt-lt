@@ -1,13 +1,13 @@
 ---
-title: "„Finance and Operations” žinyno sistema"
-description: "Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga."
+title: „Finance and Operations” žinyno sistema
+description: Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: lt-lt
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350739"
 ---
-
 # <a name="finance-and-operations-help-system"></a>„Finance and Operations” žinyno sistema
 
 [!include [banner](../includes/banner.md)]
@@ -33,13 +32,13 @@ ms.lasthandoff: 12/18/2018
 Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga.
 
 > [!NOTE]
-> Toliau išvardyti produktai yra glaudžiai susiję: „Microsoft Dynamics 365 for Finance and Operations“, „Microsoft Dynamics 365 for Retail“ ir „Microsoft Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> Toliau išvardyti produktai yra glaudžiai susiję: „Dynamics 365 for Finance and Operations“, „Dynamics 365 for Retail“ ir „Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 Žinyno sistema yra bendrai naudojama tolesniuose produktuose:
 
-- „Dynamics 365 for Finance and Operations‟
-- „Dynamics 365 for Retail‟
-- „Dynamics 365 for Talent‟
+- „Dynamics 365 for Finance and Operations”
+- „Dynamics 365 for Retail“
+- Dynamics 365 for Talent
 
 Programoje „Finance and Operations‟ yra žinyno sistema, paremta dviem pagrindiniais komponentais:
 
@@ -60,7 +59,7 @@ Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations
 - **Prieiga prie naujausio turinio** – svetainė suteikia greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jis padeda užtikrinti, kad turėtumėte prieigą prie vėliausios techninės informacijos.
 - **Ekspertų parašytas turinys** – svetainėje pateikiamas turiningesnis produktų dokumentacijos rinkinys, kurį bendruomenės nariai gali gerinti tiek „Microsoft‟ viduje, tiek išorėje.
 - **Prieiga prie skirtingų turinio tipų** – svetainė leidžia greitai pasiekti skirtingus turinio apie „Finance and Operations‟ tipus, pvz., užduočių vedlius, vaizdo įrašus ir temas.
-- **Turinys, kuris palaiko jūsų verslo procesus** – svetainėje naudojant „Microsoft Dynamics‟ „Lifecycle Services‟ (LCS) verslo proceso modeliavimo įrankio (BPM) privalumus pateikiamas į verslo procesus orientuotas turinys.
+- **Turinys, kuris palaiko jūsų verslo procesus** – svetainėje naudojant „Microsoft Dynamics Lifecycle Services“ (LCS) verslo proceso modeliavimo įrankio (BPM) privalumus pateikiamas į verslo procesus orientuotas turinys.
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Ieška puslapyje docs.microsoft.com
 
@@ -137,7 +136,7 @@ Norėdami pasiekti „Finance and Operations‟ žinyno turinį, spustelėkite p
 Iš žinyno srities galite pasiekti straipsnius, taikomus „Finance and Operations‟ klientui. Pirmą kartą atidarydami žinyno sritį ir spustelėję skirtuką **Žinynas**, matysite straipsnius, taikomus „Finance and Operations“ puslapiui, kuriame dabar esate. Jei nerasite nė vieno straipsnio, įvedę raktažodžius galite patikslinti iešką. Kai straipsnį spustelėjate žinyno srityje, jūsų naršyklėje atidaromas naujas skirtukas ir rodomas tas straipsnis.
 
 > [!IMPORTANT]
-> Šis skyrius netaikomas „Dynamics 365 for Talent‟. „Talent‟ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Talent“ negalima sukurti pasirinktinių užduočių vedlių.
+> Šis skyrius netaikomas „Dynamics 365 for Talent“. „Talent‟ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Talent“ negalima sukurti pasirinktinių užduočių vedlių.
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Užduočių vedlių pasiekimas iš žinyno srities
 
@@ -158,7 +157,7 @@ Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
 2. Pasirinkite, prie kurio „Lifecycle Services‟ projekto prisijungti.
 3. Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.
 
-    - Programoje „Finance and Operations” norėdami pasiekti „Microsoft” turinį, pasirinkite „Microsoft Dynamics 365 for Finance and Operations“ 2017 m. vasario mėn. QPC bendrąją biblioteką.
+    - Programoje „Finance and Operations“ norėdami pasiekti „Microsoft“ turinį, pasirinkite „Microsoft Dynamics 365 for Finance and Operations“ 2017 m. vasario mėn. QPC bendrąją biblioteką.
     - Programai „Retail“ biblioteką išleisime liepos mėn.
     - Jums nereikia pasirinkti bibliotekos „Talent“ atveju – ryšys su tinkama biblioteka jau sukurtas.
 
@@ -193,11 +192,10 @@ Galite sukurti pasirinktinų užduočių vedlių ir taip sukurti vartotojams ski
 | Svetainė                                                                                           | aprašymas |
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Visos „Dynamics 365‟ produktų dokumentacijos pagrindiniai kompiuteriai arba saitai į ją. |
-| [„Microsoft Learn“](https://docs.microsoft.com/learn/)                                           | Nemokama „Microsoft“ „eLearning“ svetainė. |
-| [„Lifecycle Services‟](https://lcs.dynamics.com/)\*                                              | Suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti „Dynamics 365 for Finance and Operations‟ projektus – nuo priešpardaviminės veiklos iki diegimo ir operacijų. Ši svetainė naudinga visais įgyvendinimo etapais. |
-| [Palaikymo tinklaraštis](http://aka.ms/AXSupportBlog)                                                    | Pateikia patarimų, kuriuos skelbia „Dynamics 365 for Finance and Operations‟ palaikymo komanda. |
+| [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Nemokama „Microsoft“ „eLearning“ svetainė. |
+| [„Lifecycle Services“](https://lcs.dynamics.com/)\*                                              | Suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti „Dynamics 365 for Finance and Operations“ projektus – nuo priešpardaviminės veiklos iki įgyvendinimo ir operacijų. Ši svetainė naudinga visais įgyvendinimo etapais. |
+| [Palaikymo tinklaraštis](http://aka.ms/AXSupportBlog)                                                    | Pateikia patarimų, kuriuos skelbia „Dynamics 365 for Finance and Operations“ palaikymo komanda. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Čia pateikiamas ankstesnių leidimų turinys. |
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/)                                          | Saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Pateikiama vertinimo ir pardavimo informacija. |
-| [Kliento šaltinis](https://mbs.microsoft.com/customersource/)\*                                  | Čia pateikiama kai kurių „Finance and Operations“ mokymo išteklių, galimų atsisiųsti ataskaitų ir techninės dokumentacijos ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti aptarnavimo plano. |
-
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Čia pateikiama kai kurių „Finance and Operations“ mokymo išteklių, galimų atsisiųsti ataskaitų ir techninės dokumentacijos ir tai yra pagrindinė aptarnavimo plano turėtojams skirta svetainė. Norint pasiekti kai kuriuos svetainės išteklius, gali prireikti aptarnavimo plano. |

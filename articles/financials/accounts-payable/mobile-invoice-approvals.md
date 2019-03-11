@@ -1,13 +1,13 @@
 ---
-title: "SF patvirtinimai mobiliąja programa"
-description: "Šioje temoje pateikiamas praktinis mobiliųjų įrenginių scenarijų kūrimo metodas programoje „Dynamics 365 for Finance and Operations‟, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose."
+title: SF patvirtinimai mobiliąja programa
+description: Šioje temoje pateikiamas praktinis „Dynamics 365 for Finance and Operations“ mobiliųjų įrenginių scenarijų kūrimo metodas, pavyzdyje naudojant tiekėjo SF tvirtinimus mobiliuosiuose įrenginiuose.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: lt-lt
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: lt-LT
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314399"
 ---
-
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 05/08/2018
 | Būtinoji sąlyga                                                                                            | aprašymas                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Išankstinis mobiliųjų įrenginių vadovo perskaitymas                                                                                |[Mobilioji platforma](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
-| „Dynamics 365 for Finance and Operations“                                                                             | Aplinka, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
+| „Dynamics 365 for Finance and Operations”                                                                             | Aplinka, kurioje yra „Microsoft Dynamics 365 for Operations“ 1611 versijos ir „Microsoft Dynamics for Operations“ 3 platformos naujinimas (2016 m. lapkričio mėn.)                   |
 | Įdiekite karštąsias pataisas KB 3204341.                                                                              | Užduočių įrašymo priemonė gali klaidingai įrašyti dvi išplečiamųjų dialogų komandas Uždaryti; tai įtraukta į „Dynamics 365 for Operations“ 3 platformos naujinį (2016 m. lapkričio mėn. naujinys) |
 | Įdiekite karštąsias pataisas KB 3207800.                                                                              | Įdiegus šias karštąsias pataisas priedus galima peržiūrėti mobiliajame kliente; tai įtraukta į „Dynamics 365 for Operations“ 3 platformos naujinį (2016 m. lapkričio mėn. naujinys).           |
 | Įdiekite karštąsias pataisas KB 3208224.                                                                              | Tiekėjo SF mobiliuosiuose įrenginiuose tvirtinimo programos kodas; tai įtraukta į „Microsoft Dynamics AX“ 7.0.1 programos versiją (2016 m. gegužės mėn.).                          |
@@ -139,7 +138,7 @@ Paprastai dirbant su mobiliųjų įrenginių dizaino įrankiu patariama nepamir�
 
 Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, kurios priskirtos vartotojui peržiūrėti, sąrašas. Norėdami kurti šį mobiliųjų įrenginių puslapį, naudokite „Finance and Operations“ puslapį **VendMobileInvoiceAssignedToMeListPage**. Prieš baigdami šią procedūrą įsitikinkite, kad bent viena tiekėjo SF yra jums priskirta peržiūrėti ir kad SF eilutėje yra du paskirstymai. Ši sąranka atitinka šio scenarijaus reikalavimus.
 
-1.  „Finance Operations“ URL pakeiskite meniu elemento pavadinimą į **VendMobileInvoiceAssignedToMeListPage**, kad atidarytumėte sąrašo puslapio **Man priskirtos laukiančios tiekėjo SF** mobiliąją versiją modulyje **Mokėtinos sumos**. Atsižvelgiant į SF, kurios jūsų sistemoje jums priskirtos, skaičių, šiame puslapyje bus rodomos tos SF. Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia, kad jums būtų priskirta kokia nors SF, jog galėtumėte kurti mobiliųjų įrenginių puslapį. Nauji puslapiai, kuriuos galima naudoti, buvo specialiai sukurti tiekėjo SF mobiliųjų įrenginių scenarijams kurti. Todėl turite šiuos puslapius naudoti. URL turėtų būti toks, kaip toliau toliau, ir įvedus URL turi būti rodomas puslapis su iliustracija: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![Puslapis Man priskirtos laukiančios tiekėjo SF](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  „Finance Operations“ URL pakeiskite meniu elemento pavadinimą į **VendMobileInvoiceAssignedToMeListPage**, kad atidarytumėte sąrašo puslapio **Man priskirtos laukiančios tiekėjo SF** mobiliąją versiją modulyje **Mokėtinos sumos**. Atsižvelgiant į SF, kurios jūsų sistemoje jums priskirtos, skaičių, šiame puslapyje bus rodomos tos SF. Norėdami rasi konkrečią SF, galite naudoti dešinėje pusėje pateiktą filtrą. Tačiau šiame pavyzdyje konkreti SF nėra reikalinga. Tereikia, kad jums būtų priskirta kokia nors SF, jog galėtumėte kurti mobiliųjų įrenginių puslapį. Nauji puslapiai, kuriuos galima naudoti, buvo specialiai sukurti tiekėjo SF mobiliųjų įrenginių scenarijams kurti. Todėl turite šiuos puslapius naudoti. URL turėtų būti toks, kaip toliau, ir įvedus URL turi būti rodomas puslapis su iliustracija: https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![ Puslapis Man priskirtos laukiančios tiekėjo SF](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  Spustelėkite viršutiniame dešiniajame puslapio kampe esantį (krumpliaračio) mygtuką **Parametrai“** ir tada spustelėkite **Mobilioji programa**
 3.  Pasirinkite savo darbo sritį ir spustelėkite **Redaguoti**.
 4.  Spustelėkite **Įtraukti puslapį**, kad sukurtumėte pirmą mobiliųjų įrenginių puslapį.
@@ -488,7 +487,6 @@ Galima vykdyti tolesnius 1 scenarijaus variantus, atsižvelgiant į 2 scenarijau
     3.  Geriausia šiame scenarijuje būtų paskirstymus rodyti SF eilutės kontekste. Todėl įsitikinkite, kad vartotojas gali detalizuoti eilutę ir peržiūrėti paskirstymų puslapį. Naudokite puslapio saito galimybę, kad nustatytumėte detalizavimo funkciją (kaip tai atlikote 1 scenarijuje nustatydami antraštės ir informacijos puslapių detalizavimo funkciją).
 
 2.  Kadangi 2 scenarijuje tikimasi daugiau nei vieno tipo sumos paskirstymų (PVM, išlaidos ir t. t.), būtų naudinga parodyti sumos tipo aprašą. (1 scenarijuje šia informaciją praleidome.)
-
 
 
 
