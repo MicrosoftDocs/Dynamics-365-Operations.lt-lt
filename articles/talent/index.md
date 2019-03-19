@@ -75,7 +75,7 @@ Galite parengti planus, skirtus veiksmingai ir teisingai valdyti kompensaciją, 
 
 ## <a name="develop-and-train-employees"></a>Darbuotojų tobulinimas ir mokymas
 
-Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinant svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir sesijas, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
+Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinat svarbius verslo poreikius, galite nustatyti tikslus, kurti našumo apžvalgas ir sekti atsiliepimus. Kad darbuotojai galėtų lengviau įgyti reikiamų įgūdžių, taip pat galite nustatyti instruktorius, kursų tipus, kursus, kursų aprašus, darbotvarkes, specializacijas ir seansus, o tada kursui priskirti instruktorių arba kursuose registruoti asmenis. Instruktoriai jau turi egzistuoti kaip darbuotojai, pretendentai arba kontaktai.
 
 -   [Našumo valdymas](performance-management-overview.md)
 -   [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](skills.md)

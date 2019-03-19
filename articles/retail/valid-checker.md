@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: db01a12b92574b41f1f4fe7281c23992e0d36027
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 8b373ce3cfd1183a082e2b1ebaf8c907b16e581e
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302647"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379998"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mažmeninės prekybos operacijų vientisumo tikrintuvas
 
@@ -45,7 +45,7 @@ Kai nesuderinamos operacijos paimamos į išrašo registravimo procesą, sukuria
 
 ![Išrašų registravimo procesas naudojant mažmeninės prekybos operacijų vientisumo tikrintuvą](./media/validchecker.png "Išrašų registravimo procesas naudojant mažmeninės prekybos operacijų vientisumo tikrintuvą")
 
-Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina mažmeninės prekybos operacijų lentelių vientisumą šiais aspektais.
+Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina mažmeninės prekybos operacijų lentelių vientisumą tolesniais aspektais.
 
 - Kliento kodas – tikrinama, ar kliento kodas, nurodytas mažmeninės prekybos operacijų lentelėse, yra HQ kliento bendruosiuose duomenyse.
 - Eilučių skaičius – tikrinama, ar eilučių skaičius, nurodytas operacijos antraštės lentelėje, sutampa su pardavimo operacijų lentelių eilučių skaičiumi.

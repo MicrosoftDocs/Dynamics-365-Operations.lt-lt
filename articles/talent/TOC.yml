@@ -1,48 +1,56 @@
 items:
-- name: Dynamics 365 for Talent
+- name: „Dynamics 365 for Talent”
   href: index.md
   items:
   - name: Pradžia
     href: talent-get-started.md
     items:
-    - name: Kas nauja ar pasikeitė
+    - name: Kas nauja ar pasikeitė sprendime „Talent”
       href: whats-new.md
       items:
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 31 d.)
+      - name: 2019 m. kovo 5 d.
+        href: whats-new-talent-march-5.md
+      - name: 2019 m. vasario 27 d.
+        href: whats-new-talent-feb-27.md
+      - name: 2019 m. vasario 14 d.
+        href: whats-new-talent-feb14.md
+      - name: 2019 m. vasario 7 d.
+        href: whats-new-talent-february-7.md
+      - name: 2019 m. sausio 31 d.
         href: whats-new-talent-january-29.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 23 d.)
+      - name: 2019 m. sausio 23 d.
         href: whats-new-talent-january-23.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 17 d.)
+      - name: 2019 m. sausio 17 d.
         href: whats-new-talent-january-17.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 11 d.)
+      - name: 2019 m. sausio 11 d.
         href: whats-new-talent-january-11.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)
+      - name: 2018 m. gruodžio 14 d.
         href: whats-new-talent-december-14.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
+      - name: 2018 m. gruodžio 6 d.
         href: whats-new-talent-december-6.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. lapkričio 27 d.)
+      - name: 2018 m. lapkričio 27 d.
         href: whats-new-talent-november-27.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. lapkričio 15 d.)
+      - name: 2018 m. lapkričio 15 d.
         href: whats-new-talent-november-15.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 31 d.)
+      - name: 2018 m. spalio 31 d.
         href: whats-new-talent-october-31.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 19 d.)
+      - name: 2018 m. spalio 19 d.
         href: whats-new-talent-october-19.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 15 d.)
+      - name: 2018 m. spalio 15 d.
         href: whats-new-talent-october-11.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 8 d.)
+      - name: 2018 m. spalio 8 d.
         href: whats-new-talent-october-8.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 1 d.)
+      - name: 2018 m. spalio 1 d.
         href: whats-new-talent-october-01.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 24 d.)
+      - name: 2018 m. rugsėjo 24 d.
         href: whats-new-talent-september-24.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 17 d.)
+      - name: 2018 m. rugsėjo 17 d.
         href: whats-new-talent-september-17-2018.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 10 d.)
+      - name: 2018 m. rugsėjo 10 d.
         href: whats-new-talent-september-10.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugpjūčio mėn.)
+      - name: 2018 m. rugpjūčio mėn.
         href: whats-new-talent-august2018.md
-      - name: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
+      - name: 2018 m. liepos mėn.
         href: whats-new-talent-july2018.md
     - name: Sistemos reikalavimai ir naujinimo strategija
       href: talent-versions-update-policy.md
@@ -193,6 +201,8 @@ items:
       href: data-integration.md
     - name: Su integravimu susiję DUK
       href: talent-fo-integration.md
+    - name: Pasikartojantis duomenų eksportavimas naudojant „Azure Logic Apps”
+      href: tutorial-integration-recurring-export.md
   - name: „Office“ integravimas
     items:
     - name: „Office“ integravimo mokomoji programa
@@ -322,9 +332,9 @@ items:
       href: talent-FO-integration.md
     - name: „Azure Active Directory“ vartotojų žmonių parinkiklyje nerasta
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
+ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374832"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "782757"

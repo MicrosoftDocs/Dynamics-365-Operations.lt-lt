@@ -1,10 +1,14 @@
 items:
-- name: Sveiki, čia „Dynamics 365 for Retail“
+- name: Sveiki, čia – „Dynamics 365 for Retail”
   href: index.md
 - name: Pradžia
   items:
   - name: Kas nauja ar pasikeitė
     href: get-started/whats-new.md
+  - name: „Dynamics 365 for Retail” 10.0.1 peržiūros funkcijos
+    href: get-started/whats-new-10-0-1.md
+  - name: Kas nauja ir pasikeitė sprendime „Dynamics 365 for Retail” (2019 m. balandžio mėn.)
+    href: get-started/april-whats-new.md
   - name: Prieš perkant „Retail“
     href: get-started/before-you-buy.md
   - name: Registravimasis peržiūros versijos prenumeratai gauti
@@ -108,8 +112,12 @@ items:
     href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
   - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-- name: Daugiakanalės papildomos automatinės išlaidos
-  href: omni-auto-charges.md
+- name: Integruoto kanalo išplėstinės automatinės išlaidos
+  items:
+  - name: Išplėstinių automatinių išlaidų konfigūravimas ir naudojimas
+    href: omni-auto-charges.md
+  - name: Automatinių antraštės išlaidų proporcingas skirstymas ir grupavimas
+    href: pro-rate-charges-matching-lines.md
 - name: Skambučių centras
   items:
   - name: Skambučių centro pardavimo funkcijos
@@ -387,7 +395,7 @@ items:
     - name: Kasos aparato funkcijos
       href: localizations/emea-swe-cash-registers.md
     - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: „Retail“ užduotys
   items:
   - name: Sukurti produktą
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: EKA užklausų apdorojimo programos perrašymas
       href: dev-itpro/pos-handler.md
+    - name: EKA plėtinių paketų informacijos peržiūra
+      href: view-pos-extension-package-details.md
   - name: „Hardware Station“ ir išplečiamumas
     href: dev-itpro/hardware-station-extensibility.md
   - name: „Retail Server“ išplečiamumas
@@ -659,9 +669,9 @@ items:
     items:
     - name: Lojalumo pratęsimas
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377256"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791643"
