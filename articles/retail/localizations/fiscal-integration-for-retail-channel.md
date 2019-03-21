@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377140"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773282"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
 
@@ -30,7 +30,7 @@ ms.locfileid: "377140"
 
 ## <a name="introduction"></a>Įžanga
 
-Ši tema yra fiskalinės integracijos galimybių, teikiamų „Microsoft Dynamics 365 for Retail“, apžvalga. Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina mažmeninės prekybos pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija. 
+Ši tema yra fiskalinės integracijos galimybių, teikiamų „Microsoft Dynamics 365 for Retail“, apžvalga. Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina mažmeninės prekybos pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija.
 
 - Užregistruokite mažmeninės prekybos pardavimą finansiniame įrenginyje, prijungtame prie mažmeninės prekybos elektroninio kasos aparato (EKA), pvz., fiskalinio spausdintuvo, ir išspausdinkite klientui skirtą fiskalinį kvitą.
 - Saugiai pateikite informaciją, susijusią su pardavimu ir grąžinimu, kurie yra užbaigti „Retail POS“, į išorinę žiniatinklio tarnybą, kurią valdo mokesčių inspekcija.
@@ -87,6 +87,7 @@ Kai operacijos arba įvykio fiskalinė registracija sėkminga, finansinė operac
 
 *P užduotis* perkelia finansines operacijas į mažmeninių pardavimų valdymą kartu su mažmeninės prekybos operacijomis. Puslapio **Mažmeninės prekybos parduotuvės operacijos** „FastTab“ **Finansinės operacijos** galite peržiūrėti finansines operacijas, susietas su mažmeninės prekybos operacijomis.
 
+
 Finansinėje operacijoje saugoma toliau nurodyta informacija.
 
 - Fiskalinės registracijos proceso informacija (procesas, jungčių grupė, jungtis ir t. t.). Jos lauke **Registro numeris** taip pat saugomas finansinio įrenginio serijos numeris, jei ši informacija įtraukta į finansinį atsakymą.
@@ -115,4 +116,5 @@ Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SD
 
 - [Prancūzijos skaitmeninis parašas](emea-fra-cash-registers.md)
 - [Norvegijos skaitmeninis parašas](emea-nor-cash-registers.md)
-- [Švedijos kontrolės įtaiso integracijos pavyzdys](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [Švedijos kontrolės įtaiso integracijos pavyzdys](./retail-sdk-control-unit-sample.md)
+

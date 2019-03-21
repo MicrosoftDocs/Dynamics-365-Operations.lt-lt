@@ -3,7 +3,7 @@ title: Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai
 description: Šiame straipsnyje aptarti finansiniai kalendoriai, finansiniai metai ir laikotarpiai ir kaip juos naudoti juridiniams subjektams, ilgalaikiam turtui ir biudžeto sudarymui.
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361664"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778206"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>Ataskaitiniai kalendoriai, ataskaitiniai metai ir laikotarpiai
 
@@ -43,7 +43,7 @@ Uždarymo laikotarpis naudojamas siekiant atskirti didžiosios knygos operacijas
 Kurdami uždarymo laikotarpį, pasirinkite laikotarpį, kurio būsena yra Atidarytas ir kuriame yra norimos naudoti datos. Naujasis uždarymo laikotarpis nukopijuos esamo laikotarpio pradžios ir pabaigos datas. Pradinis laikotarpis ir toliau egzistuos. Pavyzdžiui, pasirenkate 12 laikotarpį, kuris yra paskutinis finansinių metų laikotarpis ir kuriame yra datos nuo rugpjūčio 1 d. iki rugpjūčio 31 d. Įvedate uždarymo laikotarpio pavadinimą, pvz., Uždarymas. Sukūrę naują uždarymo laikotarpį, turite pradinį laikotarpį ir uždarymo laikotarpį. Abu turi datas, kurios prasideda rugpjūčio 1 d. ir baigiasi rugpjūčio 31 d.
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>Finansinių kalendorių pasirinkimas didžiosioms knygoms, ilgalaikiam turtui ir biudžeto ciklams
-Finansiniai kalendoriai naudojami su ilgalaikio turto nusidėvėjimu, finansinėmis operacijomis ir biudžeto ciklais. Sukūrę finansinį kalendorių, galite naudoti jį keliems tikslams. Galite pasirinkti vertinimo modelio arba nusidėvėjimo knygos finansinį kalendorių ir paversti jį ilgalaikio turto kalendoriumi. Galite pasirinkti finansinį kalendorių didžiajai knygai ir paversti jį didžiosios knygos kalendoriumi. Taip pat galite pasirinkti finansinį kalendorių biudžeto ciklui ir paversti jį biudžeto kalendoriumi. Visiems jiems galite naudoti tą patį finansinį kalendorių.
+Finansiniai kalendoriai naudojami su ilgalaikio turto nusidėvėjimu, finansinėmis operacijomis ir biudžeto ciklais. Sukūrę finansinį kalendorių, galite naudoti jį keliems tikslams. Galite pasirinkti ilgalaikio turto knygos finansinį kalendorių ir paversti jį ilgalaikio turto kalendoriumi. Galite pasirinkti finansinį kalendorių didžiajai knygai ir paversti jį didžiosios knygos kalendoriumi. Taip pat galite pasirinkti finansinį kalendorių biudžeto ciklui ir paversti jį biudžeto kalendoriumi. Visiems jiems galite naudoti tą patį finansinį kalendorių.
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>Juridinio subjekto finansinio kalendoriaus pasirinkimas
 
@@ -51,7 +51,7 @@ Pasirinkite ataskaitinį kalendorių, kurį norite naudoti savo juridinio subjek
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>Ilgalaikio turto finansinio kalendoriaus pasirinkimas
 
-Galite pasirinkti finansinį kalendorių vertinimo modeliui arba nusidėvėjimo knygai, ir tas finansinis kalendorius bus naudojamas ilgalaikiam turtui, kuris naudoja pasirinktą vertinimo modelį arba nusidėvėjimo knygą. Galite pasirinkti iš bet kurio ataskaitinio kalendoriaus, apibrėžto puslapyje Ataskaitiniai kalendoriai.
+Galite pasirinkti ilgalaikio turto knygos finansinį kalendorių, ir tą finansinį kalendorių naudos ilgalaikis turtas, kuris naudoja pasirinktą knygą. Galite pasirinkti iš bet kurio ataskaitinio kalendoriaus, apibrėžto puslapyje Ataskaitiniai kalendoriai.
 
 ### <a name="define-budget-cycle-time-spans"></a>Biudžeto ciklo trukmės apibrėžimas
 

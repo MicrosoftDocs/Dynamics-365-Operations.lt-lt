@@ -3,7 +3,7 @@ title: Importuoti akredityvą
 description: Ši procedūra padeda importuoti akredityvą.
 author: kweekley
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/28/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1768494182a79d7a33044498c1e768e61d937d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3d5539fbd17c880d8bbadd47444c9cc53fce039c
+ms.sourcegitcommit: 0c1deb100d0bf6dacd14b328968bbc7a9d92583a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313571"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "771236"
 ---
 # <a name="import-letter-of-credit"></a>Importuoti akredityvą
 
@@ -111,8 +111,7 @@ ms.locfileid: "313571"
 1. Eikite į Grynųjų pinigų ir banko valdymas > Akredityvai > Importo akredityvas ir importo rinkinys.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Patikrinkite importo akredityvo būseną.    
-    *   
+    * Patikrinkite importo akredityvo būseną.     
 4. Uždarykite puslapį.
 5. Uždarykite puslapį.
 

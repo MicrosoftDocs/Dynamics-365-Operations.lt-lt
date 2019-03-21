@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d636e77888fff383849b3a91bf643475a6d516ac
-ms.sourcegitcommit: 383a344deb5abf48584ea2ee7774b8dbbbec49b3
+ms.openlocfilehash: efda4e39f63155785386ecec6d21973e01a0f69f
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "377883"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770898"
 ---
 # <a name="integration-with-microsoft-dynamics-365-for-field-service"></a>Integravimas su „Microsoft Dynamics 365 for Field Service“
 
@@ -75,7 +75,7 @@ Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnav
 ### <a name="system-requirements-for-finance-and-operations"></a>„Finance and Operations“ sistemos reikalavimai
 „Field Service“ integravimas palaikomas toliau nurodytose versijose.
 
-- „Dynamics 365 for Finance and Operations“ 8.1.2 versija (2019 m. gruodžio mėn.) išleista 2019 m. gruodį ir jos programos versijos numeris yra 8.1.195, o platformos atnaujinimas – 22 (7.0.5095). 
+- „Dynamics 365 for Finance and Operations“ 8.1.2 versija (2018 m. gruodžio mėn.) išleista 2018 m. gruodį ir jos programos versijos numeris yra 8.1.195, o platformos atnaujinimas – 22 (7.0.5095). 
 
 ### <a name="system-requirements-for-field-service"></a>„Field Service“ sistemos reikalavimai
 Norėdami naudoti sprendimą „Field Service“, turite įdiegti toliau nurodytus komponentus.

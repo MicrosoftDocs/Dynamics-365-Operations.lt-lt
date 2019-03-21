@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340734"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768419"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
@@ -86,7 +86,7 @@ Norėdami suprasti dydžio reikalavimus, turite žinoti didžiausią operacijų,
     - Papildomų funkcijų, pvz., duomenų bazės žurnalo ir įspėjimų, naudojimas. Detalus duomenų bazės registravimas dar labiau sumažins našumą per valandą branduolyje iki mažiau 3 000 eilučių.
     - Duomenų struktūros sudėtingumas – paprastas sąskaitų planas, lyginant su išsamiu sąskaitų planu, daro netiesioginę įtaką našumui (kaip pavyzdys).
     - Operacijos apibūdinimas.
-    - Nuo 2 GB iki 4 GB atminties kiekviename branduolyje.
+    - Nuo 2 GB iki 16 GB atminties kiekviename branduolyje.
     - Pagalbinės duomenų bazės duomenų bazės serveryje, pvz., „Management reporter“ ir SSRS duomenų bazės.
     - Laikinoji duomenų bazė = 15 % duomenų bazės dydžio, su tiek failų, kiek yra faktinių procesorių.
     - SAN dydis ir našumas atsižvelgiant į bendrą vienu metu vykstančių operacijų kiekį / naudojimą.

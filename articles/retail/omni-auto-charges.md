@@ -3,7 +3,7 @@ title: Daugiakanalės papildomos automatinės išlaidos
 description: Šioje temoje aprašomos Mažmeninės prekybos kanalo užsakymų papildomų užsakymo išlaidų valdymo galimybės naudojant autonatinių išlaidų funkcijas.
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345564"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789776"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Daugiakanalės papildomos automatinės išlaidos
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama informacija apie išplėstinės automatinių išlaidų funkcijos, kurią galima rasti „Dynamics 365 for Retail“ 10.0 versijoje, konfigūracijas ir diegimą.
@@ -67,6 +66,8 @@ Toliau nurodytos naujos operacijos.
 - **143 – perskaičiuoti išlaidas**. Naudokite šią operaciją, kad atliktumėte visą pardavimo operacijos išlaidų perskaičiavimą. Visos anksčiau vartotojo perrašytos automatinės išlaidos bus perskaičiuotos pagal dabartinę krepšelio konfigūraciją.  
 
 Kaip ir tvarkant visas POS operacijas, prieš vykdant operaciją galima reikalauti vadovo saugos konfigūracijas.
+
+Svarbu atkreipti dėmesį, kad pirmiau išvardytas EKA operacijas taip pat galima įtraukti į EKA maketą, net jei parametras **Naudoti išplėstines automatines išlaidas** yra išjungtas. Tokiu atveju organizacijos vis tiek gaus papildomas galimybes peržiūrėti neautomatiškai įtrauktas išlaidas ir jas redaguoti naudojant operaciją **Valdyti išlaidas**. Vartotojai taip pat gali naudoti EKA operacijas **Įtraukti antraštės išlaidas** ir **Įtraukti eilutės išlaidas**, net kai parametras **Naudoti išplėstines automatines išlaidas** yra išjungtas. Operacija **Perskaičiuoti išlaidas** yra mažiau funkcionali, jei naudojama, kai parametras **Naudoti išplėstines automatines išlaidas** yra išjungtas. Tokiu atveju jokios sumos nebūtų perskaičiuojamos, o bet kokios išlaidos, neautomatiškai įtrauktos į operaciją, būtų tiesiog nustatytos į 0,00 USD.
 
 ## <a name="use-case-examples"></a>Naudojimo atvejų pavyzdžiai
 Šiame skyriuje pristatomi naudojimo atvejų pavyzdžiai, kurie padės suprasti automatinių išlaidų ir įvairių išlaidų konfigūracijas ir naudojimą mažmeninės prekybos kanalo užsakymų kontekste. Šie pavyzdžiai iliustruoja programos veikimą, kai parametras **Naudoti išplėstines automatines išlaidas** įjungtas.
@@ -207,3 +208,7 @@ Organizacijoms rekomenduojama taip pat įtraukti laisvos formos teksto laukų į
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>Draudimas išlaidas skaičiuoti, kol EKA užsakymas nebaigtas
 
 Kai kurios organizacijos norės palaukti, kol vartotojas baigs įtraukti visas pardavimo eilutes į EKA operaciją, prieš skaičiuodamos išlaidas. Norėdami drausti skaičiuoti išlaidas, kol prekės įtraukiamos į EKA operaciją, įjunkite parametrą **Neautomatinis išlaidų skaičiavimas**, pateiktą parduotuvės naudojamame **funkcijų šablone**. Įjungus šį parametrą EKA vartotojas privalės naudoti operaciją **Apskaičiuoti bendras sumas**, kai jis baigs įtraukti produktus į EKA operaciją. Tada operacija **Apskaičiuoti bendras sumas** suaktyvins užsakymo antraštės arba eilučių taikomų automatinių išlaidų skaičiavimą.
+
+### <a name="charges-override-reports"></a>Išlaidų perrašymo ataskaitos
+
+Jei vartotojai neautomatiškai perrašo apskaičiuotas išlaidas arba įtraukia neautomatines išlaidas į operaciją, šiuos duomenis bus galima patikrinti ataskaitoje **Išlaidų perrašymo retrospektyva**. Ataskaitą galima rasti pasirinkus **Mažmeninė prekyba \> Užklausos ir ataskaitos \> Išlaidų perrašymo retrospektyva**.  Svarbu atkreipti dėmesį, kad šioje ataskaitoje reikalingi duomenys yra importuojami iš kanalo duomenų bazės HQ naudojant „P“ paskirstymo grafiko užduotis. Todėl informacija apie perrašymus, neseniai atliktus EKA, gali būti pateikiama šioje ataskaitoje ne iš karto, kol ši užduotis nenusiuntė parduotuvės operacijos duomenų į HQ. 

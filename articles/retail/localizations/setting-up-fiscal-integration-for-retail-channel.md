@@ -3,7 +3,7 @@ title: Mažmeninės prekybos kanalų fiskalinės integracijos nustatymas
 description: Šioje temoje pateikiamos mažmeninės prekybos kanalų fiskalinės integracijos nustatymo gairės.
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377319"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773332"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos nustatymas
 
@@ -175,7 +175,7 @@ Kai kuriais atvejais specialus tekstas turi būti išspausdintas ant finansinio 
     3. Lauke **Finansinio kvito tekstas** nurodykite finansinį tekstą, kuris turi būti spausdinamas ant finansinio kvito.
 
     > [!NOTE]
-    > Jei kelios nuolaidos taikomos tai pačiai operacijos eilutei, finansiniame kvite bus finansinis tekstas iš visų nuolaidų, kurios susietos su ta operacijos eilute. 
+    > Jei kelios nuolaidos taikomos tai pačiai operacijos eilutei, finansiniame kvite bus finansinis tekstas iš visų nuolaidų, kurios susietos su ta operacijos eilute.
 
 ## <a name="set-error-handling-settings"></a>Klaidų tvarkymo parametrų nustatymas
 
@@ -210,3 +210,4 @@ Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumė
     2. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį X** ypatybes.
     3. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį Z** ypatybes.
     4. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
+

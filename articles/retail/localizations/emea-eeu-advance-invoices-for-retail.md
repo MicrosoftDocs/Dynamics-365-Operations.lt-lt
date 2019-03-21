@@ -16,14 +16,15 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ba2cfb176242e2e611375c9943a9e4da2b2bb02a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0dd49d6fc3294342ebc13d16eb871d0b20229b0c
+ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371180"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "760704"
 ---
 # <a name="advance-invoices-for-retail-for-eastern-europe"></a>Išankstinės „Retail“ SF (Rytų Europa)
+
 [!include [banner](../includes/banner.md)]
 
 Šioje temoje pateikta informacija taikoma atliekant lokalizavimą Rytų Europoje ir yra susijusi su mažmeninės prekybos verslu.
@@ -32,7 +33,7 @@ Jei Lenkijoje, Vengrijoje ir Čekijos Respublikoje išankstinis apmokėjimas iš
 
 Galiausiai užregistravus pardavimo užsakymo SF, galutiniame dokumente turi būti išankstinė SF ir turi būti nurodyti visi išankstiniai mokėjimai.
 
-Jei pardavimo užsakymus kuriate iš dalies Gautinos sumos, pasinaudodami dalyje [Išankstinės SF, skirtos Rytų Europai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) nurodyta procedūra, turite būtinai patys sukurti išankstines SF. Pardavimo užsakymus kuriant naudojantis EKA, išankstines SF sukuria ir užregistruoja sistema.
+Jei pardavimo užsakymus kuriate iš dalies Gautinos sumos, pasinaudodami dalyje [Išankstinės SF, skirtos Rytų Europai](https://docs.microsoft.com/dynamics365/unified-operations/financials/localizations/emea-advance-invoice) nurodyta procedūra, turite būtinai patys sukurti išankstines SF. Pardavimo užsakymus kuriant naudojantis EKA, išankstines SF sukuria ir užregistruoja sistema.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 

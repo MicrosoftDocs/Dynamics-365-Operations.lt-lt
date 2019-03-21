@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356351"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832153"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -62,7 +62,7 @@ Stulpelio apraše gali būti nuo dviejų iki 255 stulpelių.
 Stulpelio apraše pateikiama ši informacija:
 
 - Stulpelis, kuriame pateikiami eilutės apibrėžimo aprašymai
-- Sumos stulpeliai, kuriuose rodomi finansinių duomenų duomenys, „Microsoft Excel“ darbalapis arba skaičiavimai pagal kitus stulpelio aprašo duomenis
+- Sumos stulpeliai, kuriuose rodomi finansinių duomenų duomenys arba skaičiavimai pagal kitus stulpelio aprašo duomenis
 - Stulpelių formatavimas
 - Atributų stulpeliai
 
@@ -170,7 +170,7 @@ Norėdami pridėti, modifikuoti ir panaikinti ataskaitos stulpelių viršuje rod
 
 ### <a name="create-an-automatically-generated-header"></a>Automatiškai sugeneruotos antraštės kūrimas
 
-Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC**, **FD** ir **WKS**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniais kalendoriniais metais, naudojant **@CalMonthLong** **7** mėnuo pasikeičia į **Liepa**. Jei mėnesio pavadinimas turėtų būti rodomas didžiosiomis raidėmis (pavyzdžiui, **LIEPA**), **Stulpelio antraštės teksto** lauke autoteksto kodą įveskite didžiosiomis raidėmis. Pavyzdžiui, įveskite **@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis @FiscalPeriod-@FiscalYear nuo @StartDate iki @EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**.
+Ataskaitų dizaino įrankis gali automatiškai sugeneruoti stulpelių antraštes pagal automatinio teksto kodus. Automatinio teksto kodai yra kintamieji, kurie atnaujinami kiekvieną kartą, kai sugeneruojama ataskaita. Šie kodai gali būti bet kurio stulpelio antraštėje ir juose nurodoma ataskaitos informacija, kuri gali kisti, pvz., datos ar laikotarpio numeriai. Todėl galite naudoti vieną stulpelio aprašą keliems ataskaitos aprašams, laikotarpiams ir ataskaitų medžiams. Kadangi automatinio teksto kodai paremti stulpelio aprašo informacijos eilutėse pateikta kalendoriaus informacija, juos palaiko tik stulpeliai **CALC** ir **FD**. Nuo to, kaip automatinio teksto kodas rodomas stulpelio antraštės langelyje priklauso tai, kaip ta informacija rodoma ataskaitoje. Dialogo lange **Stulpelio antraštė** automatinio teksto kodai rodomi didžiosiomis ir mažosiomis raidėmis. Todėl ataskaitoje tekstas rodomas didžiosiomis ir mažosiomis raidėmis. Pavyzdžiui, standartiniais kalendoriniais metais, naudojant **@CalMonthLong** **7** mėnuo pasikeičia į **Liepa**. Jei mėnesio pavadinimas turėtų būti rodomas didžiosiomis raidėmis (pavyzdžiui, **LIEPA**), **Stulpelio antraštės teksto** lauke autoteksto kodą įveskite didžiosiomis raidėmis. Pavyzdžiui, įveskite **@CALMONTHLONG**. Galite maišyti kodus ir tekstą. Pavyzdžiui, įveskite šį antraštės tekstą: **Laikotarpis @FiscalPeriod-@FiscalYear nuo @StartDate iki @EndDate**. Sugeneruotos ataskaitos antraštės tekstas panašus į šį tekstą: **Laikotarpis 1-02 nuo 01/01/02 iki 01/31/02**.
 
 > [!NOTE]
 > Kai kurio teksto, pvz., ilgosios datos, formatas priklauso nuo jūsų „Finance and Operations“ serverio regiono parametrų. Norėdami pakeisti šiuos parametrus, spustelėkite mygtuką **Pradžia**, spustelėkite **Valdymo skydas**, tada spustelėkite **Regionas ir kalba**. Toliau pateikiamoje lentelėje išvardijamos galimos stulpelio antraščių automatinio teksto pasirinktys.
@@ -291,7 +291,7 @@ Langelyje **Papildomi tarpai prieš stulpelį** nurodomas stulpelio aprašo stul
 1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
 2. Langelyje **Papildomi tarpai prieš stulpelį** įveskite tarpų tarp stulpelių skaičių.
 
-### <a name="specify-a-currency"></a>Valiutos nurodymas
+### <a name="specify-a-format-currency-override"></a>Formato valiutos perrašymo nurodymas
 
 Langelyje **Formato / valiutos nepaisymas** nurodomas stulpelio skaitmenų po kablelio, valiutos ir procentinių sumų formatavimas. Šis formatavimas pakeičia bet kurį formatavimą, nurodytą ataskaitos apraše arba sistemos numatytuose parametruose.
 
@@ -355,13 +355,13 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
     <thead>
     <tr>
     <th>Stulpelio tipo kodas</th>
-    <th>Prekės/Paslaugos pavadinimas</th>
+    <th>Aprašas</th>
     </tr>
     </thead>
     <tbody>
     <tr>
     <td>FD</td>
-    <td>Eilutės apibrėžtyje naudojant stulpelį <strong>Saitas su finansinėmis dimensijomis</strong> arba stulpelį <strong>Saitas su darbalapiu</strong>, rodyti finansinius duomenis arba duomenis iš „Excel“ darbalapio. Pasirinkus stulpelio tipą <strong>FD</strong>, automatiškai nurodomos tolesnių eilučių numatytosios nuostatos. <ul>
+    <td>Rodykite finansinius duomenis, kai eilutės apraše naudojate stulpelį <strong>Susieti su finansinėmis dimensijomis</strong>. Pasirinkus stulpelio tipą <strong>FD</strong>, automatiškai nurodomos tolesnių eilučių numatytosios nuostatos. <ul>
     <li><strong>Knygos kodas / atributo kategorija:</strong> ACTUAL.</li>
     <li><strong>Knygos kodas / atributo kategorija:</strong> ACTUAL.</li>
     <li><strong>Ataskaitiniai metai:</strong> BASE.</li>
@@ -394,14 +394,6 @@ Kiekvieno ataskaitos stulpelio informacijos tipas nurodytas pagal stulpelio apra
     <tr>
     <td>PUSLAPIS</td>
     <td>Ataskaitoje įterpti vertikalų puslapio lūžį. Stulpelio <strong>PAGE</strong> dešinėje esantys stulpeliai rodomi kitame puslapyje.</td>
-    </tr>
-    <tr>
-    <td>SAV</td>
-    <td>Rodyti duomenis iš „Excel“ darbalapio. Pasirinkus stulpelio tipą <strong>WKS</strong>, automatiškai nurodomos tolesnių eilučių numatytosios nuostatos. <ul>
-    <li><strong>Ataskaitiniai metai:</strong> PERIODIC.</li>
-    <li><strong>Laikotarpis:</strong> BASE.</li>
-    </ul>
-Šiuos numatytuosius parametrus galite keisti.</td>
     </tr>
     <tr>
     <td>ATTR</td>
@@ -518,13 +510,13 @@ Taip pat, jeigu norite tikslaus atitikimo, galite naudoti bet kokią raidinių-s
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Kelių valiutų ataskaitos formatavimas stulpelio apibrėžime
 
-Kelių valiutų ataskaitoje sumos gali būti rodomos natūraliąja (vietine) valiuta, funkcine (numatytąja) valiuta arba ataskaitų valiuta. Įmonės funkcinė valiuta nurodoma „Microsoft Dynamics ERP“ sistemoje. Nepainiokite šio ERP parametro su operacinės sistemos regiono pasirinkčių parametru, kurį naudodami galite konfigūruoti ataskaitose naudojamus numatytuosius valiutos simbolius. Stulpelio apibrėžime galimi šie su valiuta susiję langeliai:
+Kelių valiutų ataskaitoje galima rodyti sumas DK apskaitos valiuta, DK ataskaitoje, pradine operacijos valiuta arba konvertuota ataskaitos valiuta. Įmonės apskaitos valiuta nurodoma DK sąrankoje. Nepainiokite šio parametro su operacinės sistemos regiono pasirinkčių parametru, kurį naudodami galite konfigūruoti ataskaitose naudojamus numatytuosius valiutos simbolius. Stulpelio apibrėžime galimi šie su valiuta susiję langeliai:
 
-- **Valiutos rodinys** – nurodyti, kokia valiuta (natūraliąja, funkcine, ar ataskaitų) rodomos operacijos. Ši funkcija kartais vadinama valiutos konvertavimu. Valiutos konvertavimas yra galimybė pateikti didžiosios knygos sumas tokia valiuta, kuri gali būti ne funkcinė įmonės valiuta arba ne ta valiuta, kuria buvo įvesta operacija.
+- **Valiutos rodinys** – nurodyti, kokia valiuta (apskaitos, ataskaitų, operacijos arba konvertuota ataskaitų) rodomos operacijos. Konvertavimo į ataskaitų valiutą funkcija kartais vadinama valiutos konvertavimu. Valiutos konvertavimas yra galimybė pateikti didžiosios knygos sumas tokia valiuta, kuri gali būti ne funkcinė ar ataskaitų įmonės valiuta arba ne ta valiuta, kuria buvo įvesta operacija.
 - **Valiutos filtras** – nurodyti valiutos filtrą. Ataskaitoje rodomos tik pasirinkta valiuta įvestos operacijos.
 
-> [!NOTE]
-> Norėdami kurti ataskaitas, kuriose naudojamos kelios valiutos, ataskaitos aprašo skirtuke **Ataskaita** turite pažymėti žymės langelį **Įtraukti visas ataskaitų valiutas**. Norėdami nustatyti įmonės funkcinę valiutą, atlikite toliau nurodytus veiksmus.
+> 
+Norėdami nustatyti įmonės apskaitos valiutą, atlikite toliau nurodytus veiksmus.
 
 1. Ataskaitų dizaino įrankio meniu **Įmonė** spustelėkite **Įmonės**.
 2. Dialogo lange **Įmonės** pasirinkite įmonę, tada spustelėkite **Peržiūrėti**.
@@ -533,20 +525,18 @@ Kelių valiutų ataskaitoje sumos gali būti rodomos natūraliąja (vietine) val
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Valiutos nurodymas kelių valiutų ataskaitoje
 
 1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
-2. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo pasirinktį: **Natūralioji / pradinė valiuta**, **Funkcinė valiuta iš įmonės informacijos** arba ataskaitų valiuta.
+2. Dukart spustelėkite atitinkamo stulpelio**FD** langelį **Valiutos rodinys**, tada pasirinkite valiutos informacijos rodymo parinktį: **DK apskaitos valiuta**, **DK ataskaitos**, operacijų valiuta arba pasirinkite konvertuoti į kitą ataskaitų valiutą.
 3. Dukart spustelėkite atitinkamo stulpelio **FD** langelį **Valiutos filtras**, tada sąraše pasirinkite atitinkamą valiutos kodą. Ataskaitoje rodomos tik šia valiuta įvestos operacijos.
 
-> [!NOTE]
-> Čia aprašomos pasirinktys gali skirtis priklausomai nuo ERP sistemos. Norėdami gauti daugiau informacijos, žr. savo [„Microsoft ERP“ sistemos dokumentaciją](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Valiutos rodinio ir valiutos filtro langelių pavyzdys
 
 Savo stulpelio apibrėžime Phyllis pasirinko šias valiutos pasirinktis:
 
 - **Valiutos filtras:** jena
-- **Valiutos rodinys:** funkcinis (JAV doleriai)
+- **Valiutos rodinys:** DK apskaitos valiuta (JAV doleriais)
 
-Dėl Phyllis pasirinkto valiutos filtro į ataskaitą įtraukiamos tik tos operacijos, kurios įvestos Japonijos jena (JPY). Dėl jos pasirinkto valiutos rodinio ataskaitoje tos operacijos rodomos funkcine valiuta, t.y. JAV doleriais (USD).
+Dėl Phyllis pasirinkto valiutos filtro į ataskaitą įtraukiamos tik tos operacijos, kurios įvestos Japonijos jena (JPY). Dėl jos pasirinkto valiutos rodinio ataskaitoje tos operacijos rodomos apskaitos valiuta, t.y. JAV doleriais (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Valiutos filtras ir valiutos rodinio kombinacijos
 
@@ -555,10 +545,10 @@ Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl Phyllis
 
 | Langelis Valiutos rodinys                        | Langelis Valiutos filtras | Ataskaitos rezultatas |
 |----------------------------------------------|----------------------|---------------|
-| Natūralioji / pradinė valiuta                 | **JENA**              | **Y6 000** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY. |
-| Funkcinė valiuta iš įmonės informacijos | **JENA**              |**$60** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY, ir jos rodomos USD.<blockquote>[!NOTE] Konvertavimo kursas yra maždaug 100 JPY už 1 USD.</blockquote> |
-| Funkcinė valiuta iš įmonės informacijos | Tuščia                | **$2,310** – rezultate visi duomenys rodomi funkcine valiuta, kuri nurodyta įmonės informacijoje.<blockquote>[!NOTE] Ši suma yra visų funkcine valiuta nurodomų operacijų suma.</blockquote> |
-| Natūralioji / pradinė valiuta                 | Tuščias                | **$2,250** – rezultate visos sumos rodomos ta valiuta, kuria buvo atlikta operacija. |
+| Operacijos valiuta                 | **JENA**              | **Y6 000** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY. |
+| Didžiosios knygos apskaitos valiuta | **JENA**              |**$60** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY, ir jos rodomos USD.<blockquote>[!NOTE] Konvertavimo kursas yra maždaug 100 JPY už 1 USD.</blockquote> |
+| Didžiosios knygos apskaitos valiuta | Tuščia                | **2 310 USD** – rezultate visi duomenys rodomi apskaitos valiuta, kuri nurodyta DK.<blockquote>[!NOTE] Ši suma yra visų apskaitos valiuta nurodomų operacijų suma.</blockquote> |
+| Operacijos valiuta                 | Tuščia                | **$2,250** – rezultate visos sumos rodomos ta valiuta, kuria buvo atlikta operacija. Tai reiškia, kad bendra suma sudedama iš sumų skirtingomis valiutomis. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Skaičiavimo stulpelis yra stulpelio apibrėžimas
 

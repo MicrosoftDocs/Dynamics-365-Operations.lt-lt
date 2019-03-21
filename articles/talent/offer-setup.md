@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376512"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768887"
 ---
 # <a name="set-up-offer-management"></a>Pasiūlymų valdymo nustatymas 
 
@@ -199,11 +199,11 @@ Yra keletas pasiūlymo kūrimo proceso dalių, kurias gali konfigūruoti „Attr
 - **Kandidato pasiūlymo patirtis** – jei esate administratorius, galite pasirinkti nustatyti, ar visi pasiūlymai turės galiojimo datą, ir, jei taip, koks bus numatytasis galiojimo datos poslinkis. Taip pat galite sukonfigūruoti ar kandidatai gali atmesti pasiūlymą.
 
 - **Elektroniniai parašai** – jūs, administratorius, taip pat galite pasirinkti metodą, kurį kandidatai gali naudoti pasirašydami pasiūlymus.
-    - „Adobe Sign“ – visi pasiūlymų paketai bus siunčiami ir pasirašomi naudojant „Adobe Sign“. Kiekvienas pasiūlymo kūrėjas, publikuojantis pasiūlymą, turi būti prijungęs savo „Adobe Sign“ licenciją prie „Attract“. 
+    - „Adobe Sign“ – visi pasiūlymų paketai bus siunčiami ir pasirašomi naudojant „Adobe Sign“. Kiekvienas pasiūlymo kūrėjas, publikuojantis pasiūlymą, turi būti prijungęs savo „Adobe Sign“ paskyrą prie „Attract“. Norėdami informacijos apie „Adobe Sign“ licencijas ir nemokamą bandomąją versiją, naudokite šį [saitą](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
+    - „DocuSign“ – visi pasiūlymų paketai bus siunčiami ir pasirašomi naudojant „DocuSign“. Kiekvienas pasiūlymo kūrėjas, publikuojantis pasiūlymą, turi būti prijungęs savo „DocuSign“ paskyrą prie „Attract“. 
+    
     - „ESign“ – tai numatytoji parengta naudoti parinktis, kai vartotojas gali pasirašyti pasiūlymą įvesdamas savo vardą ir inicialus.
 
->[!NOTE]
-> Norėdami informacijos apie „Adobe Sign“ licencijas ir nemokamą bandomąją versiją, naudokite šį [saitą](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html).
 
 Norėdami daugiau sužinoti apie pasiūlymo kūrimo procesą, žr. [Pasiūlymų kūrimas, tvirtinimas ir pasirašymas](./creating-offers.md).

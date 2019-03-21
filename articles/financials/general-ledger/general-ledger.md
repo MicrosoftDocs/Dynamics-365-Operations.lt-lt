@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0b6683107f4b2dbe36af78749612ce950ea19582
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363366"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403242"
 ---
 # <a name="general-ledger"></a>DK 
 
@@ -53,21 +53,19 @@ Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pak
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-### <a name="whats-new"></a>Kas nauja
+#### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokių išleista naujų funkcijų, eikite į sritį [Leidimo pastabos](https://docs.microsoft.com/en-us/business-applications-release-notes/). 
+Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo pastabos](https://go.microsoft.com/fwlink/?linkid=2010158). 
+
+#### <a name="blogs"></a>Tinklaraščiai
+
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
+
+„[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 
 ### <a name="videos"></a>Vaizdo įrašai
 
-Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-### <a name="blogs"></a>Tinklaraščiai
-
-Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Daug įrašų apie DK galima rasti „[Microsoft Dynamics AX“ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei modulio Didžioji knyga versijai, galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje taip pat yra panašios.
-
-„[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics“ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations“ tendencijos.
+Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 #### <a name="community-blogs"></a>Bendruomenės tinklaraščiai
 

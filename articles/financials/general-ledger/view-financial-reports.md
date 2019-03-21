@@ -1,9 +1,9 @@
 ---
-title: Peržiūrėti finansines ataskaitas
-description: Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics 365 for Finance and Operations“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
+title: Finansinių ataskaitų peržiūra
+description: Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics 365 for Finance and Operations“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312950"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791446"
 ---
-# <a name="view-financial-reports"></a>Peržiūrėti finansines ataskaitas
+# <a name="view-financial-reports"></a>Finansinių ataskaitų peržiūra
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics 365 for Finance and Operations“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
+Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics 365 for Finance and Operations“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 
 <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 ----------------------------
@@ -67,18 +67,15 @@ Finansinę ataskaitą galima rodyti bet kuria valiuta, bet kuriuo metu. Norėdam
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Finansinės ataskaitos suvestinės rodymas
 Finansinėje ataskaitoje gali būti informacijos eilutės ir suvestinės eilutės. Informacijos eilutės yra eilutės, kuriose yra pagrindinės sąskaitos arba dimensijos. Suvestinės eilutės yra aprašymo, bendros sumos ir skaičiavimo eilutes. Norėdami matyti tik ataskaitos suvestinės eilutes, spustelėkite **Rodyti**, tada spustelėkite **Tik suvestinės eilutės**. Ataskaita sutraukiama ir rodo tik suvestinės eilutes. Norėdami peržiūrėti informacijos eilutes kartu su suvestinės eilutėmis, spustelėkite **Rodyti**, tada dar kartą spustelėkite **Tik suvestinės eilutės**.
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>Ankstesnio mėnesio finansinės ataskaitos atidarymas
-Galite peržiūrėti esamo mėnesio arba ankstesnių mėnesių ataskaitas negeneruodami ataskaitos iš naujo. Norėdami atidaryti ankstesnio mėnesio ataskaitą, spustelėkite **Rodyti**, tada spustelėkite **Ankstesnės ataskaitos**. Pateikiamas ankstesnių mėnesių, kurių ataskaitos buvo generuotos, sąrašas. Išplėskite mėnesį, kurio ataskaitą norite peržiūrėti, pasirinkite datą, tada spustelėkite **Gerai**. Rodoma ankstesnio mėnesio ataskaita. Norėdami grįžti į dabartinio mėnesio ataskaitą, spustelėkite **Atšaukti**.
-
 ## <a name="print-a-financial-report"></a>Finansinės ataskaitos spausdinimas
-Norėdami spausdinti finansinę ataskaitą, veiksmų srityje spustelėkite **Spausdinti**, tada atlikite vieną arba kelis šiuos veiksmus, kad nustatytumėte spausdinimo parinktis:
+Spausdinant finansinę ataskaitą sukuriamas PDF failas, kurį galima spausdinti neautomatiškai. Norėdami kurti spausdinamą finansinę ataskaitą, veiksmų srityje spustelėkite **Spausdinti**, tada atlikite vieną arba kelis šiuos veiksmus, kad nustatytumėte spausdinimo parinktis.
 
 -   Norėdami į spausdinamą ataskaitą įtraukti įvairaus išsamumo lygius, nustatykite slankiklį į padėtį **Taip** arba **Ne**. Jei ataskaita naudoja ataskaitų medį, galite įtraukti visus ataskaitinius vienetas arba tik dabartinį ataskaitinį vienetą.
 -   Norėdami nustatyti puslapio dydį, pasirinkite jį iš sąrašo.
 -   Norėdami nustatyti puslapio maketą, pasirinkite jį iš sąrašo. Jei norite, kad ataskaitos turinys tilptų į jūsų pasirinktą puslapio plotį, nustatykite slankiklį į padėtį **Taip**.
 -   Norėdami nustatyti puslapio paraštes, įveskite viršutinės, apatinės, kairiosios ir dešiniosios paraštės dydį coliais.
 
-Nustatę spausdinimo parinktis, spustelėkite **Spausdinti**, kad atspausdintumėte ataskaitą. Jei nuspręsite, kad nenorite spausdinti ataskaitos, vietoj to spustelėkite **Atšaukti**. Rodoma atspausdintos ataskaitos peržiūra. Galite pasirinkti spausdintuvą, į kurį siunčiama ataskaita, taip pat galite nustatyti spausdinimo parinktis.
+Baigę nustatyti spausdinimo parinktis, spustelėkite **Spausdinti**, kad tęstumėte ir būtų parodytas raginimas, kuriame klausiama, ar norite failą atsisiųsti, ar įrašyti failą „OneDrive“ arba „SharePoint“. Jei nuspręsite, kad nenorite tęsti, spustelėkite **Atšaukti**. Tęsiant prasidės ataskaitos atvaizdavimas serveryje ir jūs būsite paraginti atsisiųsti ataskaitą PDF formatu. Dabar galite peržiūrėti ataskaitą PDF žiūryklėje, taip pat joje galite pasirinkti spausdintuvą, į kurį siųsite ataskaitą, ir atlikti kitus spausdinimo parinkčių pakeitimus.
 
 ## <a name="export-a-financial-report"></a>Finansinės ataskaitos eksportas
 Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Eksportuoti**. Ataskaita eksportuojama į „Microsoft Excel“ ir naršyklė paragins atidaryti arba įrašyti eksportuotą failą. Eksportuojamai ataskaitai pritaikomi eksporto parametrai, apibrėžti ataskaitos projekte.    
@@ -86,7 +83,7 @@ Norėdami eksportuoti finansinę ataskaitą, veiksmų srityje spustelėkite **Ek
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[„Microsoft Dynamics AX“ finansinės ataskaitos](../../dev-itpro/analytics/financial-reporting-intro.md)
+[Finansinės ataskaitos](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

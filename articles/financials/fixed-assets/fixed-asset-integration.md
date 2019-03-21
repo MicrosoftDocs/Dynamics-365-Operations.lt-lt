@@ -3,7 +3,7 @@ title: Ilgalaikio turto integravimas
 description: Ilgalaikį turtą galima integruoti į didžiąją knygą, atsargų valdymą, gautinas sumas ir mokėtinos sumas. Taip pat galite nustatyti, kad ilgalaikis turtas būtų integruojamas į pirkimo užsakymus.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336985"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778160"
 ---
 # <a name="fixed-assets-integration"></a>Ilgalaikio turto integravimas
 
@@ -41,7 +41,7 @@ Puslapyje **Ilgalaikio turto registravimo šablonai** nurodomos pagrindinės są
 ## <a name="inventory-management"></a>Atsargų valdymas
 Ilgalaikio turto atsargų žurnale galite įvesti juridinio subjekto sau pagaminto arba sukurto ilgalaikio turto įsigijimo informaciją. Tada atsargų prekes galite perkelti į ilgalaikį turtą kaip įsigijimą arba jo dalį. 
 
-Įsigyti turtą galite ir naudodami pirkimo užsakymus. Kai pirkimo užsakymuose yra atsargų prekių, kurios pažymėtos kaip ilgalaikis turtas, puslapio **Ilgalaikio turto parametrai** parinktimi **Leisti turto įsigijimą iš pirkimo** nustatoma, ar registruojant SF užregistruotas ilgalaikio turto įsigijimas. Atsargoms daromas ilgalaikio turto įsigijimo poveikis priklauso nuo juridinio subjekto nustatymo. 
+Įsigyti turtą galite ir naudodami pirkimo užsakymus. Kai pirkimo užsakymuose yra atsargų prekių, kurios pažymėtos kaip ilgalaikis turtas, puslapio **Ilgalaikio turto parametrai** parinktimi **Leisti turto įsigijimą iš pirkimo** nustatoma, ar registruojant SF užregistruotas ilgalaikio turto įsigijimas. Viena pirkimo eilutė sukurs vieną ilgalaikį turtą, neatsižvelgiant į kiekį. Atsargoms daromas ilgalaikio turto įsigijimo poveikis priklauso nuo juridinio subjekto nustatymo. 
 
 Kai atsargų prekė tampa įsigytu ilgalaikiu turtu, per atsargų žurnalą, pirkimo užsakymą arba įsigijimo pasiūlymą, sukuriama ilgalaikio turto knygos įsigijimo operacija. Jei knygos įsigijimas apima išvestinę knygą, taip pat sukuriama išvestinės knygos įsigijimo operacija. 
 

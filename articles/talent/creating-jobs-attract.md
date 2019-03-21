@@ -3,7 +3,7 @@ title: Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
 description: Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
 author: josaw
 manager: AnnBe
-ms.date: 12/21/2018
+ms.date: 02/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
+ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305497"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "772816"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
 
@@ -76,8 +76,23 @@ Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, �
 
 Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Microsoft Dynamics 365 for Talent“ karjeros svetainėje arba „LinkedIn“. 
 
+„Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas.
+
+Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija sprendime „Attract“](career-site.md).
+
 > [!NOTE]
-> Kalbant apie darbo skelbimą „LinkedIn“ sistemoje, reikia atkreipti dėmesį į tris svarbius dalykus.
+> Darbo registravimo funkciją galima naudoti tik turint „Attract“ skirtą išsamios įdarbinimo informacijos priedą.
+
+### <a name="posting-jobs-to-linkedin"></a>Darbo vietų registravimas „LinkedIn“ 
+
+Prieš registruodamas „Attract“ darbą sistemoje „LinkedIn“, administratorius turi įtraukti „LinkedIn“ įmonės ID ir „LinkedIn“ įmonės pavadinimą skiltyje **Administravimo parametrai**. „LinkedIn“ įmonės ID yra būtinas siekiant užtikrinti, kad jūsų užregistruoti „Attract“ darbai būtų susieti su tinkamos įmonės puslapiu.
+
+Jūsų „LinkedIn“ įmonės ID yra skaičių, kurie unikaliai identifikuoja jūsų įmonę sistemoje „LinkedIn“ eilutė. Norėdami daugiau informacijos apie tai, kaip rasti savo „LinkedIn“ įmonės ID, apsilankykite [„LinkedIn“ svetainėje](https://aka.ms/findID).
+
+Norėdami naujinti savo „LinkedIn“ įmonę, pasirinkite parinktį **Administravimo centras** , pateiktą meniu **Parametrai**  (įrankių simbolis), o tada pasirinkite skirtuką **„LinkedIn“ integravimas.**  Skiltyje **Prisijungti prie „LinkedIn“** įveskite savo „LinkedIn“ įmonės pavadinimą ir įmonės ID, tada įrašykite parametrus.
+
+> [!NOTE]
+> Kalbant apie darbo skelbimą „LinkedIn“ sistemoje, reikia atkreipti dėmesį į keturis svarbius dalykus.
 > 1. Darbai, skelbiami „LinkedIn“ sistemoje, skelbiami kaip darbai sąraše „Apriboti skelbimai“. Darbai apribotuose sąrašuose negali būti perkelti į aukštesnį lygį „LinkedIn“ svetainėje. Jei norite perkelti apribotuose sąrašuose esančius darbus, paskelbtus „LinkedIn“ sistemoje iš „Attract“, turėtumėte dirbti su „LinkedIn“, kad įgalintumėte „automatinį darbų skelbimą“. Spustelėkite toliau pateiktus saitus ir susisiekite su „LinkedIn“ palaikymo tarnyba, kad gautumėte daugiau informacijos.
 >
 >    [Apriboti skelbimai palyginti su „Premium“ darbų vietomis naudojant automatinį darbų skelbimą](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
@@ -90,14 +105,10 @@ Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbin
 >
 >    Jei kyla problemų po šio veiksmo, susisiekite su „LinkedIn“ palaikymo tarnyba. 
 > 
+> 1. „LinkedIn“ užregistruoti darbai rodomi „LinkedIn“ svetainėje realiuoju laiku. Darbų registravimo „LinkedIn“ tikrinimo aplinkos nėra. 
+>
 > 1. Dėl dabartinio „LinkedIn“ paketinio darbo vietų skelbimo proceso gali praeiti 24 valandos, kol „LinkedIn“ tinkle paskelbtos darbo vietos bus matomos kandidatams „LinkedIn“ svetainėje.
 
-„Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas.
-
-Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija sprendime „Attract“](./career-site.md).
-
-> [!NOTE]
-> Darbo registravimo funkciją galima naudoti tik turint „Attract“ skirtą išsamios įdarbinimo informacijos priedą.
 
 ## <a name="activate"></a>Aktyvinti
 

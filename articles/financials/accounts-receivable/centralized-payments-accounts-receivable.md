@@ -3,7 +3,7 @@ title: Gautinų sumų centralizuoti mokėjimai
 description: Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos vieną juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti į kelis juridinius subjektus. Šiame straipsnyje pateikti pavyzdžiai, parodantys, kaip įvairių scenarijų atvejais atliekamas centralizuotų mokėjimų registravimas.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f6b8b1548bf70363431ad58482ba82cf11017332
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330752"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390148"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Gautinų sumų centralizuoti mokėjimai
 
@@ -33,7 +33,7 @@ Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti 
 
 Organizacijos, sudarytos iš kelių juridinių subjektų, gali kurti ir valdyti mokėjimus naudodamos juridinį subjektą, kuris tvarko visus mokėjimus. Todėl tos pačios operacijos nereikia įvesti į kelis juridinius subjektus. Be to, organizacija sutaupo laiko, nes supaprastinami mokėjimo pasiūlymų, sudengimų ir atidarytų bei uždarytų centralizuotų mokėjimų operacijų redagavimo procesai. 
 
-Centralizuotų mokėjimų organizacijoje yra daug operacijų juridinių subjektų, ir kiekvienas veikiantis juridinis subjektas valdo savo gautinų SF informaciją. Visų veikiančių juridinių subjektų mokėjimus gauna vienas juridinis subjektas, kuris vadinamas mokėjimo juridiniu subjektu. Atsiskaitymo proceso metu generuojamos taikomos mokėjimų ir mokėjimų priėmimo operacijos. Galite nurodyti, kuris organizacijos juridinis subjektas gauna patirto pelno ar patirto nuostolio operacijas, ir kaip tvarkomos su centralizuotu mokėjimu susijusios mokėjimo nuolaidų operacijos. 
+Centralizuotų mokėjimų organizacijoje yra daug operacijų juridinių subjektų, ir kiekvienas veikiantis juridinis subjektas valdo savo gautinų SF informaciją. Visų veikiančių juridinių subjektų mokėjimus gauna vienas juridinis subjektas, kuris vadinamas mokėjimo juridiniu subjektu. Atsiskaitymo proceso metu generuojamos taikomos mokėjimų ir mokėjimų priėmimo operacijos. Galite nurodyti, kuris organizacijos juridinis subjektas gauna patirto pelno ar patirto nuostolio operacijas, ir kaip tvarkomos su centralizuotu mokėjimu susijusios mokėjimo nuolaidų operacijos. Centralizuoto mokėjimo žurnalo eilutės lauke **Sąskaitos tipas** turi būti nustatyta reikšmė Klientas. Lauke **Korespondentinės sąskaitos tipas** turi būti nustatyta reikšmė Bankas arba DK. Banko sąskaita turi būti esamoje įmonėje. 
 
 Toliau pateiktame pavyzdyje parodyta, kaip atliekamas registravimas įvairių scenarijų atvejais. Ši konfigūracija naudojama visų toliau nurodytų pavyzdžių atvejais.
 
@@ -296,8 +296,3 @@ Fabrikam gauna 75,00 dydžio mokėjimą iš kliento 4000, Northwind Traders. Mok
 | Gautinos sumos (Fabrikam West)    |              | 75,00         |
 | Mokėtojas – Fabrikam East (Fabrikam West) | 25,00        |               |
 | Gautinos sumos (Fabrikam West)    |              | 25,00         |
-
-
-
-
-

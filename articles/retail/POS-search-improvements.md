@@ -3,7 +3,7 @@ title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 description: Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313594"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789874"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -69,7 +69,7 @@ Vietinių produktų ieškų veikimas dabar patogesnis vartotojui. Atlikti tolesn
 
 ## <a name="customer-search"></a>Kliento ieška
 
-Naudojant klientų iešką, įvairiais tikslais ieškoma klientų. Pavyzdžiui, kasininkai gali norėti peržiūrėti kliento pageidavimų sąrašą ar pirkimo istoriją, arba klientą įtraukti į operaciją. Jei ieškoma naudojant kelis raktažodžius, klientų ieškos algoritmas pateikia visus klientus, kurie atitinka bet kurį iš ieškomų raktažodžių. Tačiau daugiausia raktažodžių atitinkantys klientai rodomi rezultatų viršuje. Toks veikimo būdas yra analogiškas kitų ieškos mechanizmų rezultatų rodymo būdui. Pirmiausia jie rodo rezultatus, atitinkančius daugiausia ieškomų terminų, o tada – rezultatus, ieškos raktažodžius atitinkančius iš dalies. Toks veikimo būdas kasininkams padeda situacijose, kai ieškodami jie naudoja kelis raktažodžius, tačiau viename iš jų yra rašybos klaida.
+Naudojant klientų iešką, įvairiais tikslais ieškoma klientų. Pavyzdžiui, kasininkai gali norėti peržiūrėti kliento pageidavimų sąrašą ar pirkimo istoriją, arba klientą įtraukti į operaciją. Ieškos algoritmas sugretina ieškos terminus su reikšmėmis, esančiomis šiose kliento ypatybėse: vardas ir pavardė, el. pašto adresas, telefono numeris, lojalumo kortelės numeris, adresas ir sąskaitos numeris. Vardo ir pavardės ypatybė yra pati lanksčiausia, nes ieškant kelių raktažodžių algoritmas pateikia visus klientus, kurie atitinka bet kurį ieškos raktažodžį, o rezultatų sąrašo viršuje rodomi klientai, kurie atitinka daugiausia raktažodžių. Tai naudinga kasininkams, kai jie ieško įvesdami vardą ir pavardę, bet pavardė ir vardas buvo sukeisti vietomis pirmą kartą įvedant duomenis. Tačiau dėl funkcionalumo priežasčių, visose kitose ypatybėse išlaikoma ieškos raktažodžių tvarka, todėl, jei ieškos raktažodžiai neatitinka saugomuose duomenyse nustatytos tvarkos, nebus pateikta jokių rezultatų.
 
 Pagal numatytuosius parametrus klientų ieškoma su parduotuve susietose klientų adresų knygelėse. Šis ieškos tipas vadinamas *vietine klientų ieška*. Tačiau darbuotojai klientų taip pat gali ieškoti visuotinai. Kitaip tariant, jie gali ieškoti visose įmonės parduotuvėse ir visuose kituose juridiniuose subjektuose. Šis ieškos tipas vadinamas *nuotoline klientų ieška*.
 

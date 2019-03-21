@@ -1,9 +1,9 @@
 ---
-title: Eilutės apibrėžimo langelių keitimas
-description: Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.
+title: Eilučių apibrėžčių langelių modifikavimas
+description: Šioje temoje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323645"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379669"
 ---
-# <a name="modify-row-definition-cells"></a>Eilutės apibrėžimo langelių keitimas
+# <a name="modify-row-definition-cells"></a>Eilučių apibrėžčių langelių modifikavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.
+Šioje temoje aprašoma informacija, reikalinga kiekvienam finansinės ataskaitos eilutės aprašo langeliui, ir paaiškina, kaip šią informaciją įvesti.
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>Eilutės kodo nurodymas eilutės apibrėžime
 
@@ -386,7 +386,7 @@ Galite apriboti eilutę esamu knygos kodu. Stulpelio apraše turi būti bent vie
 Kai kurios apskaitos sistemos palaiko finansinių duomenų sąskaitos atributus ir operacijos atributus. Šie atributai veikia kaip virtualieji sąskaitos segmentai ir juose gali būti papildoma informacija apie sąskaitą arba operaciją. Ši papildoma informacija gali būti sąskaitos ID, paketo ID, pašto indeksai ar kiti atributai. Jei jūsų apskaitos sistema palaiko atributus, eilutės apraše kaip eilutės modifikatorius galite naudoti sąskaitos atributus arba operacijos atributus. Informacijos apie tai, kaip nepaisyti eilutės informacijos rasite pirmiau pateiktame šio straipsnio skyriuje „Stulpelio aprašo nepaisymas“.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Langelio Saitas su finansinėmis dimensijomis nurodymas
-Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje yra dimensijų vertės, tačiau vietoj segmentų verčių ar dimensijų verčių arba kartu su jomis galite nurodyti „Microsoft Excel“ darbalapio langelius. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**.
+Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finansinius duomenis, kurie turėtų būti įtraukti į kiekvieną ataskaitos eilutę. Šiame langelyje yra dimensijų reikšmės. Norėdami atidaryti dialogo langą **Dimensijos**, dukart spustelėkite langelį **Saitas su finansinėmis dimensijomis**.
 
 > [!NOTE]
 > Ataskaitų dizaino įrankis negali pasirinkti „Microsoft Dynamics“ ERP sistemos sąskaitų, dimensijų arba laukų, kuriuose yra vienas iš šių rezervuotų simbolių: &; \*, \[, \], {, arba }. Norėdami nurodyti į eilučių aprašą įtrauktos eilutės informaciją, informaciją įtraukite langelyje **Saitas į finansines dimensijas**. Norėdami įtraukti naujas eilutes, kurios susijusios su finansiniais duomenimis, naudokite dialogo langą **Įterpti eilutes iš**, kad ataskaitos apraše galėtumėte sukurti naujas eilutes. Stulpelio pavadinimas keičiasi, priklausomai nuo to, kaip stulpelis konfigūruojamas, kaip parodyta toliau pateikiamoje lentelėje.
@@ -394,9 +394,7 @@ Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finan
 | Pasirinktas saito tipas       | Saito stulpelio aprašas pasikeičia į šį |
 |----------------------------------|----------------------------------------------------|
 | Finansinės dimensijos             | Saitas su finansinėmis dimensijomis                       |
-| Išorinis darbalapis               | Saitas su darbalapiu                                  |
-| Finansinės dimensijos ir darbalapis | Saitas į finansines dimensijas ir darbalapį           |
-| „Management Reporter“ ataskaita       | „Management Reporter“ ataskaita                         |
+| Ataskaitos darbalapis                 | Finansinių ataskaitų ataskaita                         |
 
 ### <a name="specify-a-dimension-or-range"></a>Dimensijos ar diapazono nurodymas
 
