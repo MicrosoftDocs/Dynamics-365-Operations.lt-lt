@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302653"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403383"
 ---
 # <a name="accounts-receivable-home-page"></a>Gautinų sumų pagrindinis puslapis
 
@@ -96,13 +96,11 @@ Priimkite klientų įvairių tipų mokėjimus, pvz., įsakomuosius vekselius, gr
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/). 
+Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” plano svetainę](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Gautinos sumos ir kitus sprendimus [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Daug įrašų apie modulį Gautinos sumos galima rasti „[Microsoft Dynamics AX‟ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei modulio Gautinos sumos versijai, galioja tos pačios koncepcijos. Procedūros taip pat panašios į dabartinės versijos procedūras.
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Gautinos sumos ir kitus sprendimus.
 
 „[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 

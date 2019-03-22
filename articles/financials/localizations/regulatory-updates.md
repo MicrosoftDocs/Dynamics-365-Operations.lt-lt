@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 for Finance and Operations“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375995"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832106"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -40,6 +40,14 @@ Kai stulpelyje Data naudojamas mėnesis, reguliavimo naujinimą planuojama išle
 |      Kovo 2019          |   10,0,0      | Austrija      |   „Kammerumlage 2019“ pakeitimai (pirkimo muito mokestis)    |
 |      Kovo 2019          |   10,0,0      |   Brazilija    |     SPED EFD įmokos – 004 ir 005 maketai  |
 |      Kovo 2019          |   10,0,0      |    Malaizija     |Malaizija keičia GST į SST pardavimo ir aptarnavimo mokestį        |
+|      Balandžio 2019          |   10.0.1      |    Austrija     |Mažmeninė prekyba – fiskalinė integracija         |
+|      Balandžio 2019          |   10.0.1      |    Europa     |El. sąskaitų faktūrų išrašymas – klientų sąskaitos faktūros eksportuojamos PEPPOL BIS 3 formatu         |
+|      Balandžio 2019          |   10.0.1      |    Europa     |El. sąskaitų faktūrų išrašymas – tiekėjų sąskaitos faktūros importuojamos iš PEPPOL BIS 3 formato         |
+|      Balandžio 2019          |   10.0.1      |   Vokietija     |El. sąskaitų faktūrų išrašymas – klientų sąskaitos faktūros eksportuojamos „xRechnung“ 1.1 formatu         |
+|      Balandžio 2019          |   10.0.1      |    Jungtinė Karalystė     |[PVM išrašo pateikimo pakeitimai (įrašų pavertimas skaitmeniniais)](emea-gbr-mtd-vat-integration.md)    |    
+|      Balandžio 2019          |   10.0.1      |    Brazilija     |„NF-e“ e nauja NT 2018.005         |
+|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m.         |
+|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygų formatai)  |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - Visus suplanuotus ir išleistus reguliavimo naujinimus galite rasti puslapyje [„Lifecycle Services“ – problemų ieška](https://lcs.dynamics.com/Logon/Index) (būtina prisijungti).

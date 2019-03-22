@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 314f04eec04a75aed058c9c38066738e8758f653
-ms.sourcegitcommit: 440ebe14ad26574ba227d23ee8370f6b6110645b
+ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
+ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373803"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "775069"
 ---
 # <a name="client-alert-notifications-by-email"></a>Kliento įspėjimų pranešimai el. paštu
 
@@ -48,7 +48,7 @@ Toliau pateiktame vaizde rodomas dialogo langas **Kurti įspėjimo taisyklę**, 
 
 ## <a name="alert-notification-email-templates"></a>Įspėjimo pranešimų el. pašto šablonai
 
-Paslauga siunčia el. pašto pranešimus naudodama iš anksto nustatytus el. laiškų šablonus, kad pristatytų pagrindinę įspėjimo pranešimo informaciją. Šie duomenys apima tiesioginį saitą į puslapį, kuriame įspėjimo taisyklė buvo nustatyta.
+Paslauga siunčia el. pašto pranešimus naudodama iš anksto nustatytus el. laiškų šablonus, kad pristatytų pagrindinę įspėjimo pranešimo informaciją.
 
 Toliau pateiktame vaizde rodoma įspėjimo pranešimų struktūra juos gavus el. paštu.
 

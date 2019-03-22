@@ -3,7 +3,7 @@ title: Mokėtinų sumų SF gretinimas
 description: Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 02/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11cc2d4ddbd30ff4d010f6b34119a7ad96d5aecb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6d1582d268be759cd1f1686c9e80f6cf7eeb2da8
+ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310282"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "389938"
 ---
 # <a name="accounts-payable-invoice-matching"></a>Mokėtinų sumų SF gretinimas
 
@@ -49,7 +49,7 @@ Galite naudoti toliau nurodytų tipų Mokėtinų sumų SF gretinimą.
 
 Dvišalio gretinimo ir trišalio gretinimo metu kainos informacija visada gretinama pagal vieneto kainą. Taip pat galite šias gretinimo strategijas sukonfigūruoti taip, kad kainos informacija būtų gretinama pagal bendrą kainą.
 -   Grynosios vieneto kainos gretinimas – kainos informaciją dvišalio gretinimo ar trišalio gretinimo metu gretinkite lygindami kiekvienos SF eilutės grynąją prekės kainą su atitinkama pirkimo užsakymo grynąja prekės kaina. Grynoji vieneto kaina nustatoma pagal šią formulę: Grynoji eilutės suma / Eilutės kiekis
--   Kainų sumų gretinimas – kainos informaciją dvišalio gretinimo ar trišalio gretinimo metu gretinkite lygindami kiekvienos SF eilutės grynąją sumą (kainų sumą) su atitinkama pirkimo užsakymo grynąja suma. Grynoji suma nustatoma pagal šią formulę: (Vieneto kaina \* Eilutės kiekis) + Eilutės išlaidos – Eilutės nuolaidos
+-   Kainų sumų gretinimas – kainos informaciją dvišalio gretinimo ar trišalio gretinimo metu gretinkite lygindami kiekvienos SF eilutės grynąją sumą (kainų sumą) su atitinkama pirkimo užsakymo grynąja suma. Grynoji suma nustatoma pagal šią formulę: *(Vieneto kaina \* Eilutės kiekis) + Eilutės išlaidos – Eilutės nuolaidos*. Kai kainos bendrosios sumos gretinamos pagal procentą, sistema lygina reikšmes naudodama operacijos valiutą. Kai kainos bendrosios sumos gretinamos pagal sumą, sistema lygina reikšmes naudodama apskaitos valiutą.
 
 Paprastai SF gretinimo skaičiavimai automatiškai atliekami jums Tiekėjo SF puslapyje redaguojant tiekėjo SF. Taip pat SF gretinimas gali būti atliekamas pagal poreikį. Juridinio subjekto SF gretinimą pagal poreikį kontroliuoja parinktis Automatiškai atnaujinti SF antraštės būseną į, esanti Mokėtinų sumų parametrų puslapio SF tikrinimo skirtuke. SF gretinimas taip pat gali būti atliekamas kaip SF peržiūros proceso dalis. SF gretinimo rezultatus galite peržiūrėti tiekėjo SF puslapyje ir susijusiuose SF gretinimo puslapiuose.
 

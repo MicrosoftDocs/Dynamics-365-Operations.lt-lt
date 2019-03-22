@@ -3,7 +3,7 @@ title: Duomenų importavimo ir eksportavimo užduotys
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360215"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834665"
 ---
 # <a name="data-import-and-export-jobs"></a>Duomenų importavimo ir eksportavimo užduotys
 
@@ -128,6 +128,9 @@ Užduotį tuo pačiu metu galima apsaugoti pagal vaidmenis, vartotojus ir juridi
 
 ## <a name="run-the-import-or-export-job"></a>Importavimo arba eksportavimo užduoties vykdymas
 Apibrėžę užduotį, ją galite vieną kartą vykdyti pasirinkdami mygtuką **Importuoti** arba **Eksportuoti**. Norėdami nustatyti pasikartojančią užduotį, pasirinkite **Kurti pasikartojančią duomenų užduotį**.
+
+[!NOTE]
+Importavimo arba eksportavimo užduotį galima vykdyti asinchroniškai pasirinkus mygtuką **Importuoti** arba **Eksportuoti**. Pasirinkus asinchroninį režimą naudojama asinchroninė sistema programoje „Finance and Operations“, kuri skiriasi nuo paketo sistemos. Tačiau asinchroninė sistema kaip paketinė sistema gali atlikti užklausų buferizavimą, todėl užduotis gali būti pradėta ne iš karto. Užduotis taip pat galima vykdyti sinchroniškai pasirinkus **Importuoti dabar** arba **Eksportuoti dabar**. Tokiu būdu užduotis pradedama iš karto ir tai naudinga, jei asinchroninė arba paketinė užduotis nepradedama dėl užklausų buferizavimo. Užduotis taip pat galima vykdyti naudojant paketą – pasirinkus parinktį **Vykdyti kaip paketą**. Paketo ištekliuose gali būti vykdomas užklausų buferizavimas, todėl paketinė užduotis gali būti pradėta ne iš karto. Asinchroninės sistemos parinktis yra naudinga, kai vartotojai tiesiogiai sąveikauja su vartotojo sąsaja ir jie nėra patyrę vartotojai, todėl nesupranta paketinio planavimo. Paketo naudojimas yra alternatyvi parinktis, jei reikia eksportuoti arba importuoti didelius kiekius. Paketines užduotis galima suplanuoti vykdyti konkrečioje paketinėje grupėje, todėl turėsite daugiau valdymo funkcijų, susijusių su apkrovų paskirstymu. Jei asinchroninėje ir paketinėje sistemose vykdomas užklausų buferizavimas dėl didelio išteklių naudojimo sistemoje, tada problemą galima laikinai išspręsti naudojant sinchroninę importavimo / eksportavimo versiją. Sinchroninė parinktis prasidės nedelsiant ir blokuos vartotojo sąsają, nes jis vykdoma sinchroniškai. Kai vyksta sinchroninė operacija, naršyklės langas turi būti atidarytas.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Tikrinimas, ar užduotis įvykdyta taip, kaip tikėtasi
 Norint nustatyti ir ištirti importavimo bei eksportavimo užduočių triktis, galima naudoti jų retrospektyvą. Retrospektyviniai užduoties vykdymai sisteminami pagal laiko intervalus.

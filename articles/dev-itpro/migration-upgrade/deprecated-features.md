@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329257"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836353"
 ---
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
@@ -35,11 +35,77 @@ ms.locfileid: "329257"
 
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
-> [!Note]
+> [!NOTE]
 > Pradedant nuo „Dynamics 365 for Finance and Operations“ 2017 m. liepos mėn. leidimo su 8 platformos naujinimu, nurodytos visos įdiegčių tipų pašalintos arba nebenaudojamos funkcijos. Visi ankstesni šioje temoje paminėti leidimai palaikė tik įdiegtis debesyje.
 
-> [!Note]
+> [!NOTE]
 > Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>„Dynamics 365 for Finance and Operations“ 10.0.1 su 25 platformos naujinimu
+
+> [!IMPORTANT]
+> „Dynamics 365 for Finance and Operations 10.0.1“ ir 25 platformos naujinimas teikiami tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros versijos leidimus gauti daugiau informacijos, žr. [Standartinio ir pirmojo leidimo paslaugų naujinimai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>Nebenaudojami API ir gedimus galintys sukelti pakeitimai
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>Išvedimas iš vidinių klasių nebenaudojamas
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Ankstesniuose nei 25 platformos naujinimuose buvo galima sukurti klasę arba lentelę, kuri išvedama iš vidinės klasės / lentelės, apibrėžtos kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Pradedant nuo 25 platformos naujinimo, kompiliatorius rodys įspėjimą, jei bandysite tai padaryti.|
+| **Pakeitė kita funkcija?**   | Būsimame platformos naujinime kompiliatoriaus įspėjimas bus pakeistas į klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad, jei jūs naudojate 25 platformos naujinimą arba naujesnę versiją, tai galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama – būsimame platformos naujinime įspėjimas bus pakeistas į kompiliavimo klaidą. |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>Vidinių metodų perrašymas nebenaudojamas
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Ankstesniuose nei 25 platformos naujinimuose buvo galima perrašyti vidinį metodą išvestoje klasėje, kuri apibrėžta kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Pradedant nuo 25 platformos naujinimo, kompiliatorius rodys įspėjimą, jei bandysite tai padaryti.|
+| **Pakeitė kita funkcija?**   | Būsimame platformos naujinime šis įspėjimas bus pakeistas į kompiliavimo klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad, jei jūs naudojate 25 platformos naujinimą arba naujesnę versiją, tai galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama – būsimame platformos naujinime įspėjimas bus pakeistas į kompiliavimo klaidą. |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>„Dynamics 365 for Finance and Operations“ 8.1.3 su 23 platformos naujinimu
+
+### <a name="print-to-screen-functionality"></a>Spausdinimo ekrane funkcija
+Klientai gali naudoti veiksmą **Importuoti**, pateiktą ataskaitų peržiūros programos valdiklyje, kad atsisiųstų dokumentų, kuriuos sugeneravo „Finance and Operations“ programos. Ši HTML pagrįsta ataskaitos pateiktis vartotojams siūlo nesunumeruotą dokumento peržiūrą.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūros sąsaja **neužtikrina** tikslumo lyginant su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo operacijų formatą, galime smarkiai supaprastinti vartotojo pasirinktis sąveikaujant su programos ataskaitomis ir supaprastinti dokumentų generavimo procesą. |
+| **Pakeitė kita funkcija?**   | Žvelgiant į ateitį, PDF dokumentai bus numatytasis „Finance and Operations“ generuojamų ataskaitų formatas.   |
+| **Paveiktos produkto sritys**         | Šis pakeitimas **netaikomas** klientų scenarijuose, kai ataskaitos paskirstomos elektroniniu būdu arba siunčiamos tiesiogiai į spausdintuvus.    |
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta. Automatinio programos ataskaitų kaip PDF dokumentų atsisiuntimo į naršyklę funkciją planuojama įtraukti į 2019 m. gegužės mėn. platformos naujinimą. <br><br>**Svarbu:** esamiems klientams, kurie naudoja spausdinimo ekrane funkciją, patariama pranešti [palaikymo komandai](../lifecycle-services/lcs-support.md) iš anksto prieš naujovinant į 26 platforma naujinimą. |
+
+### <a name="client-kpi-controls"></a>Kliento KPI valdikliai
+Įdėtuosius pagrindinius efektyvumo indikatorius (KPI) sistemoje „Visual Studio“ gali modeliuoti kūrėjas ir toliau tinkinti galutinis vartotojas.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Vietinius kliento valdiklius, naudojamus KPI apibrėžti, klientai naudoja retai, ir kūrėjai turi įtraukti sekamą metriką. |
+| **Pakeitė kita funkcija?**   | PowerBI.com paslauga pristato aukštos klasės įrankius, skirtus nustatyti ir valdyti KPI, remiantis duomenimis iš išorinių šaltinių.  Būsimame leidime planuojame suteikti galimybę įdėti sprendimus, nuomojamus PowerBI.com, į programos darbo sritis.   |
+| **Paveiktos produkto sritys**         | Šis naujinimas neleis kūrėjams įtraukti naujų KPI valdiklių į „Visual Studio“ dizaino įrankį.    |
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta. |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>Nebenaudojami API ir būsimi gedimus sukeliantys pakeitimai
+
+#### <a name="field-groups-containing-invalid-field-references"></a>Laukų grupės, kuriose pateiktos netinkamos laukų nuorodos
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas*, o ne *klaida*, o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
+| **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą.  |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
+| **Visuotinio diegimo parinktis**              | Visi. |
+| **Būsena**                         | Nebenaudojama – įspėjimas taps kompiliavimo laiko klaida. Šiuo metu tai taikome 30 platformos naujinimui. |
+
+#### <a name="complete-list"></a>Visas sąrašas
+Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduomenų elementų nebenaudojimas](deprecation-deletion-apis.md).
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>„Dynamics 365 for Finance and Operations“ 8.1 su 20 platformos naujinimu
 
@@ -52,7 +118,7 @@ DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas 
 | **Pakeitė kita funkcija?**   | Vietoje sinchroninės parinkties naudojamos nasinchroninė ir suplanuoto paketo parinktys.   |
 | **Paveiktos produkto sritys**         | DK, mokėtinos sumos, gautinos sumos, įsigijimas, išlaidos    |
 | **Visuotinio diegimo parinktis**              | Visos  |
-| **Būsena**                         | Nebenaudojama – Tikslinis funkcijos pašalinimo laikotarpis – 10.0 versija.|
+| **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis yra 10.0 versija.|
 
 ### <a name="electronic-reporting-for-russia"></a>Rusijos elektroninės ataskaitos
 Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus. 

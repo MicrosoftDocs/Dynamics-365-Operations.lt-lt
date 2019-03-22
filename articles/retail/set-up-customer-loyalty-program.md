@@ -3,7 +3,7 @@ title: Lojalumo apžvalga
 description: Šioje temoje aprašomos lojalumo galimybės programoje „Microsoft Dynamics 365 for Retail“ ir atitinkami nustatymo veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
 author: scott-tucker
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bb1a1ff28c846a35858df971e29bb7a551c8012a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9b73c52a72c82c109a1ff874d2369ce9c0b3a6d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320126"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789725"
 ---
 # <a name="loyalty-overview"></a>Lojalumo apžvalga
 
@@ -93,7 +93,11 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
 
     ![Generuoti lojalumo kortelę](./media/Generate%20loyalty%20card.png "Automatiškai sugeneruoti lojalumo kortelės numerį")
 
-- Gauti ir panaudoti lojalumo taškai dabar saugomi kiekvienai operacijai ir pardavimo užsakymams pagal pardavimo eilutę, kad tą pačią sumą būtų galima grąžinti arba atsiimti visiškų ar dalinių grąžinimų atvejais. Be to, matydami taškus pardavimo eilutės lygiu, skambučių centro vartotojai gali atsakyti į klientų klausimus, kiek taškų gauta arba panaudota kiekvienoje eilutėje. Iki šio pakeitimo atlygio taškai visada buvo perskaičiuojami grąžinant, todėl suma skirdavosi nuo originalios, jei uždarbio arba apmokėjimo taisyklės pasikeisdavo; be to, skambučių centrų vartotojai nemato taškų analizės. Taškus galima pamatyti naudojant kiekvienos lojalumo kortelės formą **Kortelės operacijos**.    
+- Gauti ir panaudoti lojalumo taškai dabar saugomi kiekvienai operacijai ir pardavimo užsakymams pagal pardavimo eilutę, kad tą pačią sumą būtų galima grąžinti arba atsiimti visiškų ar dalinių grąžinimų atvejais. Be to, matydami taškus pardavimo eilutės lygiu, skambučių centro vartotojai gali atsakyti į klientų klausimus, kiek taškų gauta arba panaudota kiekvienoje eilutėje. Iki šio pakeitimo atlygio taškai visada buvo perskaičiuojami grąžinant, todėl suma skirdavosi nuo originalios, jei uždarbio arba apmokėjimo taisyklės pasikeisdavo; be to, skambučių centrų vartotojai nemato taškų analizės. Taškus galima pamatyti naudojant kiekvienos lojalumo kortelės formą **Kortelės operacijos**. Norėdami įjungti šią funkciją, įjunkite konfigūraciją **Registruoti lojalumo taškų skaičius pagal pardavimo eilutę** skirtuke **Bendrinami mažmeninės prekybos parametrai**  > **Bendra**.
+
+>[!NOTE]
+> Primygtinai rekomenduojame įjungti šią funkciją, kad užtikrintumėte, jog gavimo metu tiksli taškų suma būtų grąžinta arba atskaityta iš kliento.
+
 - Mažmenininkai dabar gali nustatyti kiekvieno atlygio taško paskirstymo laikotarpį. Paskirstymo laikotarpio konfigūracija nustatys trukmę nuo gavimo datos, po kurios atlygio taškai taps pasiekiami klientams. Nepaskirstytus taškus galima peržiūrėti puslapio **Lojalumo kortelės** stulpelyje **Nepaskirstyti taškai**. Be to, mažmenininkai gali nustatyti didžiausią lojalumo atlygio taškų ribą kiekvienai lojalumo kortelei. Šį lauką galima naudoti norint sumažinti lojalumo apgaulės poveikį. Pasiekus didžiausią atlygio taškų skaičių, vartotojas negali gauti daugiau taškų. Mažmenininkas gali nuspręsti blokuoti tokias korteles, kol bus ištirta galima apgaulė. Jei mažmenininkas nustato apgaulę, jis negali tik užblokuoti kliento lojalumo kortelės, bet turi ir pažymėti, kad klientas užblokuotas. Norėdami tai padaryti nustatykite ypatybę **Blokuoti kliento įtraukimą į lojalumo programą** į **Taip** „FastTab“ **Retail** dalyje **Visi klientai**. Užblokuoti klientai negalės gauti lojalumo kortelės jokiais kanalais.
 
     ![Paskirstymo ir didžiausio atlygio taškų skaičius](./media/Vesting%20and%20maximum%20reward%20points.png "Nustatyti paskirstymo ir didžiausio atlygio taškus")
@@ -139,7 +143,8 @@ Tai nustačius klientai gali panaudoti savo lojalumo taškus skambučių centre.
 > Šiuo metu sistema liepia vartotojams nustatyti objekto „kitos veiklos tipai“ numeraciją, tačiau būsimuose leidimuose tai nebus būtinas veiksmas. Norėdami nustatyti numeraciją, pasirinkite **Bendrai naudojami mažmeninės prekybos parametrai > Numeracijos** ir pasirinkite objekto **Lojalumo kitos veiklos tipo ID** numeraciją.
 
 - Siekiant teikti geras klientų aptarnavimo paslaugas ir efektyviai išspręsti klientų užklausas, kasininkams svarbu turėti preigą prie viso kliento profilio. Išleidus 10.0 leidimą, kasininkai galės EKA matyti lojalumo retrospektyvos informaciją kartu su susietos lojalumo programos ir pakopos informacija.
-- Nemokamas pristatymas arba pristatymas su nuolaida yra vienas iš labiausiai pirkti internetu motyvuojančių veiksnių. Norėdami įgalinti mažmenininkus nustatyti siuntimo akcijas, išleisdami 10.0 leidimą pristatėme naujo tipo akciją pavadinimu „Ribinė siuntimo nuolaidos vertė“, kurioje mažmenininkas galės nustatyti ribines vertes, kurias pasiekus bus suteikta siuntimo nuolaida arba nemokamas siuntimas. Pavyzdžiui, 35 USD išlaidų suma norint nemokėti už „dviejų dienų siuntimą“ arba nemokamas „dviejų dienų siuntimas“ visiems lojalumo klientams. Šios nuolaidos taikomos tik siuntimo išlaidoms, kurios taikomos užsakymams. Kadangi mažmenininkas gali nustatyti kelių tipų išlaidas, pvz., tvarkymo arba diegimo, mažmenininkas turi nurodyti, kurios išlaidos yra laikomos siuntimo išlaidomis. Šios konfigūracijos pavadinimas yra „Siuntimo išlaidų kodas“ ir ji teikiama puslapio **Mažmeninės prekybos parametrai** skirtuke **Klientų užsakymai**. Ši nuolaida atsižvelgia į visas esamas standartines nuolaidų galimybes, pavyzdžiui, ji suteikia galimybę mažmenininkui apriboti šias nuolaidas naudojant kuponus, kad nuolaidomis galėtų pasinaudoti tik kuponus turintys klientai. Be to, šios nuolaidos naudoja kainų grupių galimybę, kad nustatytų tokių nuolaidų tinkamumą. Pavyzdžiui, mažmenininkas gali pasirinkti taikyti šias akcijas tik interneto kanalu ir (arba) tam tikrų klientų grupių kanaluose, pvz., lojalių klientų kanale. Kai užsakymo eilučių, kuriose nurodytas pristatymo būdas, reikšmės pasiekia nustatytą ribą, tada taikoma siuntimo nuolaida ir sumažinamas siuntimo išlaidos atsižvelgiant į nustatytą nuolaidą. 
+- Nemokamas pristatymas arba pristatymas su nuolaida yra vienas iš labiausiai pirkti internetu motyvuojančių veiksnių. Norėdami įgalinti mažmenininkus nustatyti siuntimo akcijas, išleisdami 10.0 leidimą pristatėme naujo tipo akciją pavadinimu „Ribinė siuntimo nuolaidos vertė“, kurioje mažmenininkas galės nustatyti ribines vertes, kurias pasiekus bus suteikta siuntimo nuolaida arba nemokamas siuntimas. Pavyzdžiui, 35 USD išlaidų suma norint nemokėti už „dviejų dienų siuntimą“ arba nemokamas „dviejų dienų siuntimas“ visiems lojalumo klientams. Ši funkcija naudoja naują funkciją Išplėstinės automatinės išlaidos. Žr. dokumentaciją apie išplėstines automatines išlaidas čia: https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/omni-auto-charges. Šios išplėstinės automatinės išlaidos turi būti įjungtos, kad veiktų siuntimo akcija. Jas galima įjungti skirtuke **Klientų užsakymai**, pateiktame puslapyje **Mažmeninės prekybos parametrai**; taip pat įjunkite konfigūraciją Naudoti išplėstines automatines išlaidas. Be to, kadangi mažmenininkas gali nustatyti kelių tipų išlaidas, pvz., tvarkymo arba diegimo, mažmenininkas turi nurodyti, kurios išlaidos yra laikomos siuntimo išlaidomis. Siuntimo nuolaidos taikomos tik siuntimo išlaidoms. Norėdami nurodyti išlaidas kaip siuntimo išlaidas, atidarykite formą **Išlaidų kodai** pasirinkdami **Mažmeninė prekyba** > **Mažmeninės prekybos IT** > **Kanalo sąranka** > **Išlaidos** ir įjunkite pageidaujamų išlaidų žymės langelį Siuntimo išlaidos. Dabar galite atidaryti formą **Mažmeninės prekybos ribinė siuntimo nuolaidos vertė** ir nustatyti nuolaidą.
+    Ši nuolaida kaip ir produktų nuolaidos atsižvelgia į visas esamas standartines nuolaidų galimybes, pavyzdžiui, ji suteikia galimybę mažmenininkui apriboti šias nuolaidas naudojant kuponus, kad nuolaidomis galėtų pasinaudoti tik kuponus turintys klientai. Be to, šios nuolaidos naudoja kainų grupių galimybę, kad nustatytų tokių nuolaidų tinkamumą. Pavyzdžiui, mažmenininkas gali pasirinkti taikyti šias akcijas tik interneto kanalu ir (arba) tam tikrų klientų grupių kanaluose, pvz., lojalių klientų kanale. Kai užsakymo eilučių, kuriose nurodytas pristatymo būdas, reikšmės pasiekia nustatytą ribą, tada taikoma siuntimo nuolaida ir sumažinamas siuntimo išlaidos atsižvelgiant į nustatytą nuolaidą. 
 
 > [!NOTE]
-> Skirtingai nuo kitų laikotarpio nuolaidų, pvz., kiekio, paprastos, nuolaidos prekių rinkiniui ir ribinės vertės nuolaidos, siuntimo nuolaida nesukuria nuolaidos eilučių, siuntimo išlaidos turi būti redaguojamos tiesiogiai.
+> Skirtingai nuo kitų laikotarpio nuolaidų, pvz., kiekio, paprastos, nuolaidos prekių rinkiniui ir ribinės vertės nuolaidos, siuntimo nuolaida nesukuria nuolaidos eilučių, bet redaguoja siuntimo išlaidas tiesiogiai ir prideda nuolaidos pavadinimą prie išlaidų aprašymo.

@@ -3,7 +3,7 @@ title: Saugos ir vaidmenų valdymas sprendime „Attract“
 description: Šioje temoje pateikiama informacija apie vaidmenų saugą „Microsoft Dynamics 365 for Talent - Attract“.
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374785"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789702"
 ---
 # <a name="security-and-role-management-in-attract"></a>Saugos ir vaidmenų valdymas sprendime „Attract“
 
@@ -100,14 +100,16 @@ Toliau išvardytos teisės, kurios taikomos užduočiai būdingiems pretendentų
 | Duomenys arba veiksmas          | Įdarbintojas | Samdos vadovas | Kalbintojas |
 |-------------------------|-----------|----------------|-------------|
 | Prašymo dokumentai   | Kurti, skaityti, atnaujinti ir panaikinti užduotis, kurių samdos komandoms vartotojas priklauso | Kurti, skaityti, atnaujinti ir panaikinti užduotis, kurių samdos komandoms vartotojas priklauso | Tik skaitoma |
-| Prašymo pastabos       | Kurti, skaityti, atnaujinti ir panaikinti užduotis, kurių samdos komandoms vartotojas priklauso | Kurti, skaityti, atnaujinti ir panaikinti užduotis, kurių samdos komandoms vartotojas priklauso | Kūrimas |
+| Prašymo pastabos       | Kurti, skaityti, atnaujinti ir panaikinti užduotis, kurių samdos komandoms vartotojas priklauso | Kurti, skaityti, atnaujinti ir panaikinti užduotis, kurių samdos komandoms vartotojas priklauso | Tik skaityti|
 | Prašymo veikla    | Peržiūrėti, jei vartotojas priklauso samdos komandai | Peržiūrėti, jei vartotojas priklauso samdos komandai | Tik skaitoma |
 | Nuomonė apie prašymą    | Įtraukti ir peržiūrėti visas nuomones, jei vartotojas priklauso nuomos komandai | Įtraukti ir peržiūrėti visas nuomones, jei vartotojas priklauso nuomos komandai | Gali įtraukti nuomonę\*\* |
 | Atmesti prašymą      | Gali atmesti, jei vartotojas priklauso samdos komandai | Neleidžiama | Neleidžiama |
 | Perkelti į kitą etapą           | Gali atmesti, jei vartotojas priklauso samdos komandai | Gali perduoti toliau, jei vartotojas priklauso samdos komandai | Neleidžiama |
 | Pradėti pasiūlymo valdymą | Gali pradėti pasiūlymo valdymą | Galima naudoti konfigūracijos parinktį pasiūlymo veikloje. | Neleidžiama |
 
-\*\*Konfigūracijos parinktimi, esančia [nuomonės veiklos sąrankoje](activities-attract.md#feedback-activity), galima valdyti kalbintojų galimybę matyti vienas kito nuomonę.
+
+\*\*Konfigūracijos parinktimi, esančia [nuomonės veiklos sąrankoje](./activities-attract.md), galima valdyti kalbintojų galimybę matyti vienas kito nuomonę.
+
 
 ## <a name="process-templates"></a>Proceso šablonai
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a925d16239ec78b09403a0c0db1346e35b7eee20
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "302627"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403267"
 ---
 # <a name="fixed-assets-home-page"></a>Ilgalaikio turto pagrindinis puslapis
 
@@ -41,13 +41,11 @@ Galite nustatyti ir įvesti ilgalaikio turto informaciją ir turtą valdyti jį 
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/). 
+Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo pastabos](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Ilgalaikis turtas ir kitus sprendimus [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
-
-Daug įrašų apie modulį Ilgalaikis turtas galima rasti „[Microsoft Dynamics AX‟ produktų komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dax/). Nors kai kurie iš šių įrašų buvo skirti ankstesnei modulio Mokėtinos sumos versijai, galioja tos pačios koncepcijos, o procedūros dabartinėje versijoje taip pat yra panašios.
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
 
 „[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 

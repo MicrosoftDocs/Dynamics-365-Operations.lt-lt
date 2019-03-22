@@ -3,7 +3,7 @@ title: „Attract“ išplečiamumas
 description: Šioje temoje aprašoma, kaip naudodami „Microsoft Power Platform“ galite išplėsti programą „Dynamics 365 for Talent - Attract“.
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,18 +18,41 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c77c64070cb82180441f4b629b6884981b9b81d2
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305451"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789656"
 ---
 # <a name="extensibility-in-attract"></a>„Attract“ išplečiamumas
 
 [!include[banner](../includes/banner.md)]
 
 „Microsoft Dynamics 365 for Talent“ sukurta kaip programoms skirtos paslaugos „Common Data Service“ (CDS) platformos papildas ir ją galima išplėsti naudojantis „Microsoft Power Platform“ ir programoms skirtos paslaugos „Common Data Service“ siūlomomis galimybėmis. Todėl galite konfigūruoti ir pritaikyti sistemą (naudodamiesi „Microsoft PowerApps“ ir „Microsoft Flow“). Taip pat naudodamiesi „Microsoft Power BI“ galite gauti papildomų analitinių duomenų apie žmones. Be to, naudojantis naujomis pasirinktinėmis veiklomis, pvz., „PowerApps“ ir interneto turinio („iframe“) veiklomis, samdos procesas gali būti daug lengviau pritaikomas nei bet kada. Naudodamiesi šiomis veiklomis samdos procesą galite pritaikyti pagal savo verslo poreikius ir procesus, taip pat galite būti tikri, kad samdos komanda ir kandidatai turi atitinkamos nuoseklios patirties.
+
+## <a name="extending-option-sets-in-attract"></a>„Attract“ parinkčių rinkinių išplėtimas
+
+**Parinkčių rinkinys** (išrinkimo sąrašas) yra lauko, kurį galima įtraukti į objektą, tipas. Jis apibrėžia parinkčių rinkinį. Kai formoje rodomas parinkčių rinkinys, jis naudoja išplečiamojo sąrašo valdiklį.  „Attract“ yra daug laukų, kurie yra parinkčių rinkiniai.  Pradedame pristatyti galimybę išplėsti parinkčių rinkinius, pradedant nuo laukų Atmetimo priežastis, Įdarbinimo tipas ir Stažo tipas.   Taip pat galite įtraukti lokalizuotas ekrano žymes, skirtas parinktims, kurias norite įtraukti.  Daugiau informacijos žr. pasirinkę šį saitą: [Parinkčių rinkinių žymių tinkinimas](https://docs.microsoft.com/en-us/poweapps/developer/common-data-service/customize-labels-suport-multiple-languages)
+
+> [!NOTE]
+> Norint naudoti darbo registravimo „LinkedIn“ funkciją, reikalingi puslapio **Darbo informacija** laukai **Įdarbinimo tipas** ir **Stažo tipas**. Numatytąsias šių laukų reikšmes palaiko „LinkedIn“ ir jos rodomos, kai darbas registruojamas. Todėl, jei registruojate darbus „LinkedIn“ ir modifikuojate esamas tų laukų parinkčių rinkinių reikšmes, darbas bus užregistruotas, bet „LinkedIn“ nerodys pasirinktinių laukų **Įdarbinimo tipas** ir **Stažo tipas** reikšmių.  
+
+Toliau nurodyti veiksmai, kuriuos atlikę galite nurodyti lauko **Atmetimo priežastis** reikšmes, atsižvelgdami į savo įmonę.  
+
+1. Norėdami išplėsti parinkčių rinkinį **Atmetimo priežastis**, atidarykite [„PowerApps“ administravimo svetainę.](Https://admin.powerapps.microsoft.com)
+2. Jūs būsite paraginti prisijungti prie savo paskyros. Pateikti savo vartotojo ID ir slaptažodžio kredencialus, kuriuos naudodami prisijungiate prie „Dynamics365“ ir (arba) „Office365“, tada spustelėkite **Toliau**.
+3. Skirtuke **Aplinkos** pasirinkite aplinką, kurį norite valdyti, ir dukart spustelėkite, kad atidarytumėte skirtuką **Informacija**.
+4. Skirtuke **Informacija** pasirinkite **„Dynamics 365“ administravimo centras**.
+5. Pasirinkite egzempliorių, kurį norite keisti, ir pasirinkite **Atidaryti**.
+6. Pasirinkite **Parametrai**, tada – **Tinkinimai**, tada pasirinkite **Tinkinti sistemą**.
+7. Raskite objektą, kurio parinkčių rinkinį norite išplėsti, pasirinkdami parinktį **Objektai** ir išplėsdami grupę. Šiame pavyzdyje tai bus **Prašymo įdarbinti objektas**.
+8. Atidarykite lauką, kurio parinkčių rinkinį norite išplėsti, pasirinkdami parinktį **Laukai**. Šiame pavyzdyje tai bus **msdyn_rejectionreason**. Dukart spustelėkite lauką.
+9. Lauke **Parinkčių rinkinys** pasirinkite **Redaguoti**.
+10. Pasirinkite piktogramą **+**.
+11. Įveskite reikšmę lauke **Žymė**.  (Tai turi būti unikali reikšmė – jokių dublikatų).
+12. Pasirinkite **Įrašyti**.
+13. Puslapio viršuje pasirinkite **Publikuoti**.
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>Naudojimasis „Microsoft Power Platform“ 
 

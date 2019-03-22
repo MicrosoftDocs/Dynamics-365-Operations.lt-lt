@@ -3,7 +3,7 @@ title: Sprendimo priemonės strategija produktams konfigūruoti
 description: Šioje temoje aprašoma, kaip, naudodami sprendimo priemonės strategiją, galite pagerinti produktų konfigūravimo našumą.
 author: cvocph
 manager: AnnBe
-ms.date: 01/02/2018
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
+ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351153"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "403921"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Sprendimo priemonės strategija produktams konfigūruoti
 
@@ -62,8 +62,8 @@ Tolesnėje lentelėje pateikiama rekomendacijų apie tai, kurią sprendimo priem
 | Sprendimo priemonės strategija      | Naudoti strategiją šioje situacijoje |
 |----------------------|-----------------------------------|
 | Numatyta              | **Numatytoji** strategija optimizuota spręsti modelius, pagrįstus lentelių apribojimais. Klientų įgyvendinimo tyrimai parodė, kad situacijose, kai plačiai naudojami lentelių apribojimai, ši strategija yra našiausia. |
-| Pirmiausia mažiausi domenai | Strategijos **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** yra glaudžiai susijusios. Klientų įgyvendinimo tyrimai parodė, kad strategijos **Iš viršaus į apačią**, pristatytos CU8 naujinime, rezultatai geresni už strategijos **Pirmiausia mažiausi domenai**. Tačiau strategija **Pirmiausia mažesni domenai** produkte laikoma dėl suderinamumo su ankstesnėmis versijomis. Pastebėta, kad abi šios sprendimo priemonės strategijos našiau sprendžia modelius su keliais aritmetiniais reiškiniais, kai nenaudojami lentelių apribojimai. Tačiau kai kuriais atvejais **numatytosios** strategijos rezultatai už šių dviejų strategijų rezultatus yra geresni. Todėl nepamirškite išbandyti kiekvienos strategijos. |
-| Iš viršaus į apačią             | Strategijos **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** yra glaudžiai susijusios. Klientų įgyvendinimo tyrimai parodė, kad strategijos **Iš viršaus į apačią**, pristatytos CU8 naujinime, rezultatai geresni už strategijos **Pirmiausia mažiausi domenai**. Tačiau strategija **Pirmiausia mažesni domenai** produkte laikoma dėl suderinamumo su ankstesnėmis versijomis. Pastebėta, kad abi šios sprendimo priemonės strategijos našiau sprendžia modelius su keliais aritmetiniais reiškiniais, kai nenaudojami lentelių apribojimai. Tačiau kai kuriais atvejais **numatytosios** strategijos rezultatai už šių dviejų strategijų rezultatus yra geresni. Todėl nepamirškite išbandyti kiekvienos strategijos. |
+| Pirmiausia mažiausi domenai | Strategijos **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** yra glaudžiai susijusios. Klientų įgyvendinimo tyrimai parodė, kad strategijos **Iš viršaus į apačią**, rezultatai geresni už strategijos **Pirmiausia mažiausi domenai**. Tačiau strategija **Pirmiausia mažesni domenai** produkte laikoma dėl suderinamumo su ankstesnėmis versijomis. Pastebėta, kad abi šios sprendimo priemonės strategijos našiau sprendžia modelius su keliais aritmetiniais reiškiniais, kai nenaudojami lentelių apribojimai. Tačiau kai kuriais atvejais **numatytosios** strategijos rezultatai už šių dviejų strategijų rezultatus yra geresni. Todėl nepamirškite išbandyti kiekvienos strategijos. |
+| Iš viršaus į apačią             | Strategijos **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** yra glaudžiai susijusios. Klientų įgyvendinimo tyrimai parodė, kad strategijos **Iš viršaus į apačią**, rezultatai geresni už strategijos **Pirmiausia mažiausi domenai**. Tačiau strategija **Pirmiausia mažesni domenai** produkte laikoma dėl suderinamumo su ankstesnėmis versijomis. Pastebėta, kad abi šios sprendimo priemonės strategijos našiau sprendžia modelius su keliais aritmetiniais reiškiniais, kai nenaudojami lentelių apribojimai. Tačiau kai kuriais atvejais **numatytosios** strategijos rezultatai už šių dviejų strategijų rezultatus yra geresni. Todėl nepamirškite išbandyti kiekvienos strategijos. |
 | Z3                   | Rekomenduojame kaip numatytąją sprendimo priemonės strategiją naudoti strategiją **Z3**. Jei esate susirūpinę dėl našumo ir išplečiamumo, galite įvertinti kitas strategijas. |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

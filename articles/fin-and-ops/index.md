@@ -4,7 +4,7 @@ title: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
 description: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija.
 author: margoc
 manager: AnnBe
-ms.date: 08/30/2018
+ms.date: 03/08/2019
 ms.topic: index-page
 ms.prod: null
 ms.service: dynamics-ax-applications
@@ -40,12 +40,26 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <h3><a href="get-started/before-you-buy.md">Prieš perkant</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Registravimasis peržiūros versijos prenumeratai gauti</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Visuotinio diegimo parinkties pasirinkimas</a></p>
- <p><a href="get-started/purchase-on-premises.md">„Finance and Operations‟ (vietinės versijos) pirkimas</a></p>
+ <p><a href="get-started/purchase-on-premises.md">„Finance and Operations (on-premises)‟ pirkimas</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Diegimo ciklas</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">„FastTrack“, skirtas tarnybai „Dynamics 365“</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekto parengimas</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Rengimasis įgyvendinimo pradžiai</a></p>
+
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Vienos versijos paslaugų naujinimai</a></h3>
+<p><a href="get-started/one-version.md">DUK apie vienos versijos paslaugų naujinimus</a></p>
+<p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Programinės įrangos ciklo strategija: debesies leidimai</a></p>
+<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Programinės įrangos ciklo strategija: vietinės versijos leidimai</a></p>
+<p><a href="get-started/public-preview-releases.md">Standartinio ir pirmojo leidimo paslaugų naujinimai</a></p>
+<p><a href="get-started/whats-new-changed.md">Kas nauja ar pasikeitė</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Plėtotės, naujinimai ir karštosios pataisos</a></p>
+<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Debesies aplinkų naujinimų taikymas</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Paslaugų naujinimų konfigūravimas</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Paslaugų naujinimų pristabdymas</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Gaukite pranešimus apie paslaugų naujinimus</a></p>
+<p><a href="../dev-itpro/data-entities/data-task-automation.md">Duomenų užduočių automatizavimas</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">„Regression Suite Automation Tool”</a></p>
 
 <h3><a href="../financials/index.md">Finansų valdymas</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></p>
@@ -67,6 +81,8 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="hr/manage-recruiting-process.md">Įdarbinimas</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">JAV algalapis</a></p>
 
+</td>
+<td>
 <h3><a href="../supply-chain/index.md">Tiekimo grandinės valdymas</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Kaštų valdymas</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Atsargų valdymas</a></p>
@@ -78,8 +94,7 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="../supply-chain/transportation/transportation-management-overview.md">Transportavimo valdymas</a></p>
 <p><a href="../supply-chain/warehousing/warehouse-configuration.md">Sandėlio valdymas</a></p>
 
-</td>
-<td>
+
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Įžvalgos</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Analizė</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">Verslo dokumentai</a></p>

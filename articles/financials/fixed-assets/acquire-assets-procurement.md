@@ -3,7 +3,7 @@ title: Turto pirkimas įsigyjant
 description: Šioje temoje aprašoma, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355799"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778229"
 ---
 # <a name="acquire-assets-through-procurement"></a>Turto pirkimas įsigyjant
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas.
+Šioje temoje aprašoma, kaip nustatyti integravimą tarp ilgalaikio turto ir mokėtinų sumų, kad automatiškai sukurtumėte ilgalaikį turtą iš pirkimo užsakymų ar SF, arba, kad automatiškai registruotumėte ilgalaikio turto įsigijimą ir įsigijimo operacijas. Viena pirkimo eilutė sukurs vieną turtą, nepriklausomai nuo pirkimo eilutėje nurodyto kiekio. Jei reikia sukurti kelis ilgalaikius turtus, turite sukurti kelias pirkimo eilutes.
 
  Galimi toliau nurodyti Ilgalaikio turto ir Mokėtinų sumų integravimo būdai; tokį patį būdą reikia naudoti visam ilgalaikiam turtui:
 -   Jūs neautomatiniu būdu sukuriate ilgalaikį turtą prieš įtraukdami ilgalaikio turto numerį į pirkimo užsakymo arba tiekėjo sąskaitą faktūrą. Kai registruojate tiekėjo sąskaitą faktūrą, automatiškai užregistruojama turto įsigijimo operacija. Tai numatytasis metodas.
