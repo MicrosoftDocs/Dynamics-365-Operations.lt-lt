@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: Klasės plėtinys naudojant metodų apgaubimą ir eiliškumo modelį
         href: extensibility/method-wrapping-coc.md
-      - name: Modelių plėtinių pavadinimų suteikimo gairės
+      - name: Plėtinių pavadinimų suteikimo gairės
         href: extensibility/naming-guidelines-extensions.md
       - name: „Relax“ modelio apribojimai maketų persidengimui pertvarkyti į plėtinius
         href: extensibility/refactoring-over-layering.md
@@ -354,7 +354,7 @@ items:
         href: extensibility/breaking-changes.md
   - name: Našumas
     items:
-    - name: Sekimų paėmimas naudojant „Trace parser“
+    - name: Sekimas naudojant „Trace parser“
       href: perf-test/trace-trace-tutorial.md
     - name: Našumo SDK ir kelių vartotojų bandymas naudojant „Visual Studio Online“
       href: perf-test/perfsdk-tutorial.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: „SysTest“ filtravimas naudojant klasės ir metodo atributus
       href: perf-test/systest-filtering.md
+    - name: Priėmimo bandymų biblioteka
+      href: perf-test/acceptance-test-library.md
+    - name: Naršymo sąvokos
+      href: perf-test/concepts-navigation.md
+    - name: Duomenų metodų testavimas
+      href: perf-test/test-data-methods.md
+    - name: Priėmimo bandymų bibliotekos objektai
+      href: perf-test/concepts-entities.md
+    - name: Priėmimo bandymų bibliotekos komandos
+      href: perf-test/concepts-commands.md
+    - name: Priėmimo bandymų bibliotekos kūrėjai
+      href: perf-test/concepts-creators.md
+    - name: Priėmimo bandymų bibliotekos užklausos
+      href: perf-test/concepts-queries.md
+    - name: Specifikacijos klasės
+      href: perf-test/concepts-specifications.md
+    - name: Priėmimo bandymų bibliotekos kodų generavimo vediklis
+      href: perf-test/code-generation-wizard.md
+    - name: Geriausia priėmimo bandymų bibliotekos praktika
+      href: perf-test/atl-best-practices.md
+    - name: Dažnai užduodami klausimai
+      href: perf-test/atl-faq.md
   - name: Datos galiojimas
     href: dev-tools/date-effectivity.md
   - name: ISV licencijavimas
@@ -445,12 +467,14 @@ items:
       href: user-interface/bidirectional-support.md
     - name: Darbo sričių plytelių piktogramų kūrimas
       href: user-interface/create-icons-workspace-tiles.md
-    - name: Viešųjų „JavaScript“ API sąsajų išplečiamieji valdikliai
+    - name: Viešosios „JavaScript“ API, skirtos išplečiamiesiems valdikliams
       href: user-interface/public-javascript-apis.md
     - name: Kontrolinis valdiklių sąrašas
       href: user-interface/control-checklist.md
   - name: Pranešimai
     items:
+    - name: Funkcijų paaiškinimai
+      href: user-interface/feature-callouts.md
     - name: Slankiklis ir pranešimo lauko dialogo langai
       href: user-interface/slider-messagebox.md
     - name: Pranešimų centras, pranešimų juosta ir išsamios pranešimų informacijos API
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: Naujinimų ir plėtinių taikymas debesyje įdiegtiems „Retail“ kanalo komponentams
       href: deployment/Update-retail-channel.md
-    - name: Debesyje įdiegtų „Retail“ kanalo komponentų inicijavimas
+    - name: „Retail Cloud Scale Unit“ inicijavimas
       href: deployment/Initialize-Retail-Channels.md
   - name: Vietinė visuotinė įdiegtis
     href: deployment/on-premises-deployment-landing-page.md
@@ -1042,9 +1066,9 @@ items:
       href: migration-upgrade/delegates-migration.md
   - name: Plėtojimas į naujausią naujinimą (debesis)
     items:
-    - name: Perėjimo į naujausią naujinimą procesas
+    - name: Perėjimo prie naujausio naujinimo procesas
       href: migration-upgrade/upgrade-latest-update.md
-    - name: Aplinkų 8.0 versijos naujinimas į 8.1
+    - name: Aplinkos versijos 8.0 naujinimas į 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: Programinės įrangos ciklo strategija ir debesies leidimai
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: Paketinė užduotis SQL indekso defragmentavimui apdoroti
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: Paketinių įspėjimų konfigūravimas
+      href: sysadmin/alerts.md
+    - name: Patobulintos paketų formos
+      href: sysadmin/enhanced-forms.md
+    - name: Paketų istorijos valymas
+      href: sysadmin/batch-history-cleanup.md
   - name: Optimizavimo patariamasis įrankis
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: Atnaujinimas mokymo tikslais
       href: database/dbmovement-scenario-general-refresh.md
-    - name: Derinimas ir diagnostika
+    - name: Gamybos duomenų bazės kopijos derinimas
       href: database/dbmovement-scenario-debugdiag.md
+    - name: Standartinės vartotojų priėmimo bandymų (UAT) duomenų bazės kopijos eksportavimas
+      href: database/dbmovement-scenario-exportuat.md
     - name: Auksinės konfigūracijos perkėlimas į aukštesnį lygį
       href: database/dbmovement-scenario-goldenconfig.md
     - name: Ardomieji bandymai
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: „Finance and Operations“ palaikymo patirčių valdymas
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773807"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976017"
