@@ -5,9 +5,11 @@ items:
   items:
   - name: Kas nauja ar pasikeitė
     href: get-started/whats-new.md
-  - name: „Dynamics 365 for Retail” 10.0.1 peržiūros funkcijos
+  - name: „Dynamics 365 for Retail 10.0.2“ peržiūros funkcijos
+    href: get-started/whats-new-10-0-2.md
+  - name: Kas nauja ar pasikeitė „Dynamics 365 for Retail 10.0.1“
     href: get-started/whats-new-10-0-1.md
-  - name: Kas nauja ir pasikeitė sprendime „Dynamics 365 for Retail” (2019 m. balandžio mėn.)
+  - name: Kas nauja ir pasikeitė „Dynamics 365 for Retail” (2019 m. balandžio mėn.)
     href: get-started/april-whats-new.md
   - name: Prieš perkant „Retail“
     href: get-started/before-you-buy.md
@@ -116,7 +118,7 @@ items:
   items:
   - name: Išplėstinių automatinių išlaidų konfigūravimas ir naudojimas
     href: omni-auto-charges.md
-  - name: Automatinių antraštės išlaidų proporcingas skirstymas ir grupavimas
+  - name: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
     href: pro-rate-charges-matching-lines.md
 - name: Skambučių centras
   items:
@@ -274,7 +276,7 @@ items:
     href: price-management.md
   - name: Kainų koregavimas ir nuolaidos
     href: price-adjustments-discounts.md
-  - name: Kelių mažmeninės prekybos nuolaidų taikymas produktui
+  - name: Kelių nuolaidų taikymas produktui
     href: Apply-multiple-retail-discounts.md
   - name: Optimalios persidengiančių nuolaidų kombinacijos nustatymas
     href: optimal-combination-overlapping-discounts.md
@@ -282,6 +284,8 @@ items:
     href: define-channel-specific-discounts.md
   - name: Nuolaidų nesuteikimo mažmeninės prekybos produktams parinktys
     href: prevent-discounts.md
+  - name: Siuntimo nuolaidos apžvalga
+    href: retail-shipping-discount.md
   - name: Mažmeninės prekybos pardavimo kuponų nustatymas
     href: retail-coupons.md
 - name: Produktai ir prekyba
@@ -354,6 +358,10 @@ items:
     href: localizations/fiscal-integration-for-retail-channel.md
   - name: Mažmeninės prekybos kanalo fiskalinės integracijos nustatymas
     href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+  - name: Austrija
+    items:
+    - name: Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai
+      href: localizations/emea-aut-fi-sample.md
   - name: Rytų Europa
     items:
     - name: Išankstinės „Retail“ SF (Rytų Europa)
@@ -362,10 +370,12 @@ items:
       href: localizations/emea-eeu-petty-cash-for-retail.md
     - name: „Retail” kliento SF ir grąžinimo pardavimo užsakymai Rytų Europos šalyse
       href: localizations/emea-eeu-retail-invoices.md
-    - name: Kasos aparatų diegimo gairės Čekijai, Vengrijai ir Lenkijai
+    - name: Kasos aparatų diegimo gairės Čekijos Respublikai, Vengrijai ir Lenkijai
       href: localizations/emea-eeu-deployment.md
     - name: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
       href: localizations/emea-pol-fpi-sample.md
+    - name: Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai
+      href: localizations/emea-cze-fi-sample.md
   - name: Prancūzija
     items:
     - name: Kasos aparato funkcijos
@@ -473,10 +483,12 @@ items:
   items:
   - name: Architektūra
     items:
-    - name: Mažmeninės prekybos komponentai
+    - name: „Retail“ komponentai
       href: retail-components.md
     - name: „Retail Server“ architektūra
       href: dev-itpro/retail-server-architecture.md
+    - name: Parduotuvės topologijos pasirinkimas
+      href: dev-itpro/retail-in-store-topology.md
     - name: „Commerce Data Exchange“ ir mažmeninės prekybos kanalų ryšiai
       href: dev-itpro/define-retail-channel-communications-cdx.md
     - name: „Retail Modern POS“ architektūra
@@ -562,7 +574,7 @@ items:
     - name: EKA užklausų apdorojimo programos perrašymas
       href: dev-itpro/pos-handler.md
     - name: EKA plėtinių paketų informacijos peržiūra
-      href: view-pos-extension-package-details.md
+      href: dev-itpro/view-pos-extension-package-details.md
   - name: „Hardware Station“ ir išplečiamumas
     href: dev-itpro/hardware-station-extensibility.md
   - name: „Retail Server“ išplečiamumas
@@ -669,9 +681,9 @@ items:
     items:
     - name: Lojalumo pratęsimas
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
-ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
+ms.openlocfilehash: 179295f4397120f46391885760c980b2c9baa028
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791643"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975925"
