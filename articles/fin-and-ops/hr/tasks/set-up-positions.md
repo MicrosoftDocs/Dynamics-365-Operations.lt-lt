@@ -1,7 +1,7 @@
 ---
 title: Pareigų nustatymas
 description: Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas.
-author: DarinKramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,60 +10,60 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d69e6b926a047888a162dae1cdc870718d8f945
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4fd355fb6c3d2742e046a616585ca349c623341d
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "337882"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856835"
 ---
-# <a name="set-up-positions"></a><span data-ttu-id="de0cf-103">Pareigų nustatymas</span><span class="sxs-lookup"><span data-stu-id="de0cf-103">Set up positions</span></span>
+# <a name="set-up-positions"></a><span data-ttu-id="ba474-103">Pareigų nustatymas</span><span class="sxs-lookup"><span data-stu-id="ba474-103">Set up positions</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="de0cf-104">Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="de0cf-105">Pareigos yra atskiros užduoties egzemplioriaus.</span><span class="sxs-lookup"><span data-stu-id="de0cf-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="de0cf-106">Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“.</span><span class="sxs-lookup"><span data-stu-id="de0cf-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="de0cf-107">Pareigų padalinį yra ir gali būti susietas su juo tik vienas darbuotojas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="de0cf-108">Atlikdami šią užduotį, susipažinsime su veiksmais, kuriuos reikia atlikti norint sukurti tam tikras pareigas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="de0cf-109">Ši procedūra yra skirta žmogiškųjų išteklių specialistams.</span><span class="sxs-lookup"><span data-stu-id="de0cf-109">This procedure is intended for Human Resources Specialists.</span></span>
+<span data-ttu-id="ba474-104">Pareigos yra svarbus žemesniojo organizacijos hierarchijos lygio elementas.</span><span class="sxs-lookup"><span data-stu-id="ba474-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="ba474-105">Pareigos yra atskiros užduoties egzemplioriaus.</span><span class="sxs-lookup"><span data-stu-id="ba474-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="ba474-106">Pvz., pareigos „Pardavimo vadybininkas (rytų regionas)“ yra vienos iš pareigų, susietų su užduotimi „Pardavimo vadovas“.</span><span class="sxs-lookup"><span data-stu-id="ba474-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="ba474-107">Pareigų padalinį yra ir gali būti susietas su juo tik vienas darbuotojas.</span><span class="sxs-lookup"><span data-stu-id="ba474-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="ba474-108">Atlikdami šią užduotį, susipažinsime su veiksmais, kuriuos reikia atlikti norint sukurti tam tikras pareigas.</span><span class="sxs-lookup"><span data-stu-id="ba474-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="ba474-109">Ši procedūra yra skirta žmogiškųjų išteklių specialistams.</span><span class="sxs-lookup"><span data-stu-id="ba474-109">This procedure is intended for Human Resources Specialists.</span></span>
 
-1. <span data-ttu-id="de0cf-110">Spustelėkite Darbo jėgos valdymas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-110">Click Workforce management.</span></span>
-2. <span data-ttu-id="de0cf-111">Spustelėkite Laisvos pareigos.</span><span class="sxs-lookup"><span data-stu-id="de0cf-111">Click Open positions.</span></span>
-3. <span data-ttu-id="de0cf-112">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="de0cf-112">Click New to open the drop dialog.</span></span>
-4. <span data-ttu-id="de0cf-113">Lauke Užduotis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-113">In the Job field, enter or select a value.</span></span>
-    * <span data-ttu-id="de0cf-114">Užduoties aprašas, pavadinimas ir viso etato ekvivalento įdarbinimo koeficientas automatiškai iš užduoties nukopijuojami į pareigas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-114">The Job description, title, and full-time equivalent employment factor are automatically copied from the selected job into the position.</span></span>  
-5. <span data-ttu-id="de0cf-115">Nustačius keičiasi užduotis.</span><span class="sxs-lookup"><span data-stu-id="de0cf-115">ResolveChanges the Job.</span></span>
-6. <span data-ttu-id="de0cf-116">Spustelėkite Kurti pareigas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-116">Click Create position.</span></span>
-7. <span data-ttu-id="de0cf-117">Lauke Padalinys įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-117">In the Department field, enter or select a value.</span></span>
-8. <span data-ttu-id="de0cf-118">Lauke Pareigų tipas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-118">In the Position type field, enter or select a value.</span></span>
-9. <span data-ttu-id="de0cf-119">Lauke Kompensacijų regionas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-119">In the Compensation region field, enter or select a value.</span></span>
-    * <span data-ttu-id="de0cf-120">Lauku Kompensacijų regionas nustatomos kompensavimo tinkamumo taisyklės ir fiksuoto didinimo biudžetai, taikomi tas pareigas užimančiam darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="de0cf-120">The Compensation region field determines the compensation eligibility rules and fixed increase budgets that apply to an employee in that position.</span></span>  
-10. <span data-ttu-id="de0cf-121">Lauke Galima priskirti įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="de0cf-121">In the Available for assignment field, enter a date and time.</span></span>
-11. <span data-ttu-id="de0cf-122">Išplėskite dalį Pareigų trukmė.</span><span class="sxs-lookup"><span data-stu-id="de0cf-122">Expand the Position duration section.</span></span>
-    * <span data-ttu-id="de0cf-123">Pareigų trukmė įvedama pagal numatytuosius parametrus, atsižvelgiant į anksčiau įvestas aktyvinimo ir atleidimo datas</span><span class="sxs-lookup"><span data-stu-id="de0cf-123">Position duration is entered by default based on activation and retirement dates entered earlier</span></span>  
-12. <span data-ttu-id="de0cf-124">Išplėskite sekciją Teikia ataskaitas pareigų atstovui.</span><span class="sxs-lookup"><span data-stu-id="de0cf-124">Expand the Reports to position section.</span></span>
-    * <span data-ttu-id="de0cf-125">Priskyrę darbininką pareigoms, kurios atskaitingos kitoms pareigoms, sukuriate tiesioginį atskaitingumo ryšį tarp šioms dviem pareigoms priskirtų darbuotojų.</span><span class="sxs-lookup"><span data-stu-id="de0cf-125">When you assign a worker to a position that reports to another position, you create a direct reporting relationship between the workers who are assigned to the two positions.</span></span>  
-13. <span data-ttu-id="de0cf-126">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="de0cf-126">Click New to open the drop dialog.</span></span>
-14. <span data-ttu-id="de0cf-127">Lauke Teikia ataskaitas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-127">In the Reports to field, enter or select a value.</span></span>
-15. <span data-ttu-id="de0cf-128">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="de0cf-128">Click Create.</span></span>
-16. <span data-ttu-id="de0cf-129">Išplėskite dalį Darbininko priskyrimas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-129">Expand the Worker assignment section.</span></span>
-17. <span data-ttu-id="de0cf-130">Išplėskite sekciją Ryšiai.</span><span class="sxs-lookup"><span data-stu-id="de0cf-130">Expand the Relationships section.</span></span>
-    * <span data-ttu-id="de0cf-131">Jei jūsų organizacijoje naudojama matricos hierarchija ar kita pasirinktinė hierarchija, galite nustatyti pareigų hierarchijų tipus ir įtraukti pareigų ataskaitų ryšius į kiekvieno hierarchijos tipo, kurį nustatote, pareigas.</span><span class="sxs-lookup"><span data-stu-id="de0cf-131">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span>  
-18. <span data-ttu-id="de0cf-132">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="de0cf-132">Click Add.</span></span>
-19. <span data-ttu-id="de0cf-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-133">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="de0cf-134">Lauke Hierarchijos pavadinimas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-134">In the Hierarchy name field, enter or select a value.</span></span>
-21. <span data-ttu-id="de0cf-135">Lauke Teikia ataskaitas pareigų atstovui įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-135">In the Reports to position field, enter or select a value.</span></span>
-22. <span data-ttu-id="de0cf-136">Išplėskite dalį Algalapiai.</span><span class="sxs-lookup"><span data-stu-id="de0cf-136">Expand the Payroll section.</span></span>
-23. <span data-ttu-id="de0cf-137">Lauke Mokėjimo ciklas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-137">In the Pay cycle field, enter or select a value.</span></span>
-24. <span data-ttu-id="de0cf-138">Lauke Mokėtojas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-138">In the Paid by field, enter or select a value.</span></span>
-25. <span data-ttu-id="de0cf-139">Lauke Metinės įprastinės valandos įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="de0cf-139">In the Annual regular hours field, enter a number.</span></span>
-    * <span data-ttu-id="de0cf-140">Tai – reguliariai apmokamų valandų, kurias, tikėtina, kiekvienais metais išdirbs šias pareigas užimantis darbininkas, skaičius.</span><span class="sxs-lookup"><span data-stu-id="de0cf-140">This is the number of regularly paid hours that the worker in this position is expected to work each year.</span></span>  
-26. <span data-ttu-id="de0cf-141">Išplėskite dalį Profesinė sąjunga.</span><span class="sxs-lookup"><span data-stu-id="de0cf-141">Expand the Labor union section.</span></span>
-27. <span data-ttu-id="de0cf-142">Sutraukite dalį Profesinė sąjunga.</span><span class="sxs-lookup"><span data-stu-id="de0cf-142">Collapse the Labor union section.</span></span>
-28. <span data-ttu-id="de0cf-143">Išplėskite sekciją Finansinės dimensijos.</span><span class="sxs-lookup"><span data-stu-id="de0cf-143">Expand the Financial dimensions section.</span></span>
-29. <span data-ttu-id="de0cf-144">Lauke Paskirstymo šablonas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-144">In the Distribution template field, enter or select a value.</span></span>
-30. <span data-ttu-id="de0cf-145">Lauke Padalinys įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="de0cf-145">In the Department field, enter or select a value.</span></span>
-31. <span data-ttu-id="de0cf-146">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="de0cf-146">Click Save.</span></span>
+1. <span data-ttu-id="ba474-110">Spustelėkite Darbo jėgos valdymas.</span><span class="sxs-lookup"><span data-stu-id="ba474-110">Click Workforce management.</span></span>
+2. <span data-ttu-id="ba474-111">Spustelėkite Laisvos pareigos.</span><span class="sxs-lookup"><span data-stu-id="ba474-111">Click Open positions.</span></span>
+3. <span data-ttu-id="ba474-112">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="ba474-112">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="ba474-113">Lauke Užduotis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-113">In the Job field, enter or select a value.</span></span>
+    * <span data-ttu-id="ba474-114">Užduoties aprašas, pavadinimas ir viso etato ekvivalento įdarbinimo koeficientas automatiškai iš užduoties nukopijuojami į pareigas.</span><span class="sxs-lookup"><span data-stu-id="ba474-114">The Job description, title, and full-time equivalent employment factor are automatically copied from the selected job into the position.</span></span>  
+5. <span data-ttu-id="ba474-115">Nustačius keičiasi užduotis.</span><span class="sxs-lookup"><span data-stu-id="ba474-115">ResolveChanges the Job.</span></span>
+6. <span data-ttu-id="ba474-116">Spustelėkite Kurti pareigas.</span><span class="sxs-lookup"><span data-stu-id="ba474-116">Click Create position.</span></span>
+7. <span data-ttu-id="ba474-117">Lauke Padalinys įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-117">In the Department field, enter or select a value.</span></span>
+8. <span data-ttu-id="ba474-118">Lauke Pareigų tipas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-118">In the Position type field, enter or select a value.</span></span>
+9. <span data-ttu-id="ba474-119">Lauke Kompensacijų regionas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-119">In the Compensation region field, enter or select a value.</span></span>
+    * <span data-ttu-id="ba474-120">Lauku Kompensacijų regionas nustatomos kompensavimo tinkamumo taisyklės ir fiksuoto didinimo biudžetai, taikomi tas pareigas užimančiam darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="ba474-120">The Compensation region field determines the compensation eligibility rules and fixed increase budgets that apply to an employee in that position.</span></span>  
+10. <span data-ttu-id="ba474-121">Lauke Galima priskirti įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="ba474-121">In the Available for assignment field, enter a date and time.</span></span>
+11. <span data-ttu-id="ba474-122">Išplėskite dalį Pareigų trukmė.</span><span class="sxs-lookup"><span data-stu-id="ba474-122">Expand the Position duration section.</span></span>
+    * <span data-ttu-id="ba474-123">Pareigų trukmė įvedama pagal numatytuosius parametrus, atsižvelgiant į anksčiau įvestas aktyvinimo ir atleidimo datas</span><span class="sxs-lookup"><span data-stu-id="ba474-123">Position duration is entered by default based on activation and retirement dates entered earlier</span></span>  
+12. <span data-ttu-id="ba474-124">Išplėskite sekciją Teikia ataskaitas pareigų atstovui.</span><span class="sxs-lookup"><span data-stu-id="ba474-124">Expand the Reports to position section.</span></span>
+    * <span data-ttu-id="ba474-125">Priskyrę darbininką pareigoms, kurios atskaitingos kitoms pareigoms, sukuriate tiesioginį atskaitingumo ryšį tarp šioms dviem pareigoms priskirtų darbuotojų.</span><span class="sxs-lookup"><span data-stu-id="ba474-125">When you assign a worker to a position that reports to another position, you create a direct reporting relationship between the workers who are assigned to the two positions.</span></span>  
+13. <span data-ttu-id="ba474-126">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="ba474-126">Click New to open the drop dialog.</span></span>
+14. <span data-ttu-id="ba474-127">Lauke Teikia ataskaitas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-127">In the Reports to field, enter or select a value.</span></span>
+15. <span data-ttu-id="ba474-128">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="ba474-128">Click Create.</span></span>
+16. <span data-ttu-id="ba474-129">Išplėskite dalį Darbininko priskyrimas.</span><span class="sxs-lookup"><span data-stu-id="ba474-129">Expand the Worker assignment section.</span></span>
+17. <span data-ttu-id="ba474-130">Išplėskite sekciją Ryšiai.</span><span class="sxs-lookup"><span data-stu-id="ba474-130">Expand the Relationships section.</span></span>
+    * <span data-ttu-id="ba474-131">Jei jūsų organizacijoje naudojama matricos hierarchija ar kita pasirinktinė hierarchija, galite nustatyti pareigų hierarchijų tipus ir įtraukti pareigų ataskaitų ryšius į kiekvieno hierarchijos tipo, kurį nustatote, pareigas.</span><span class="sxs-lookup"><span data-stu-id="ba474-131">If your organization uses a matrix hierarchy or another custom hierarchy, you can set up position hierarchy types and then add reporting relationships to positions for each hierarchy type that you set up.</span></span>  
+18. <span data-ttu-id="ba474-132">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="ba474-132">Click Add.</span></span>
+19. <span data-ttu-id="ba474-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="ba474-133">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="ba474-134">Lauke Hierarchijos pavadinimas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-134">In the Hierarchy name field, enter or select a value.</span></span>
+21. <span data-ttu-id="ba474-135">Lauke Teikia ataskaitas pareigų atstovui įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-135">In the Reports to position field, enter or select a value.</span></span>
+22. <span data-ttu-id="ba474-136">Išplėskite dalį Algalapiai.</span><span class="sxs-lookup"><span data-stu-id="ba474-136">Expand the Payroll section.</span></span>
+23. <span data-ttu-id="ba474-137">Lauke Mokėjimo ciklas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-137">In the Pay cycle field, enter or select a value.</span></span>
+24. <span data-ttu-id="ba474-138">Lauke Mokėtojas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-138">In the Paid by field, enter or select a value.</span></span>
+25. <span data-ttu-id="ba474-139">Lauke Metinės įprastinės valandos įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="ba474-139">In the Annual regular hours field, enter a number.</span></span>
+    * <span data-ttu-id="ba474-140">Tai – reguliariai apmokamų valandų, kurias, tikėtina, kiekvienais metais išdirbs šias pareigas užimantis darbininkas, skaičius.</span><span class="sxs-lookup"><span data-stu-id="ba474-140">This is the number of regularly paid hours that the worker in this position is expected to work each year.</span></span>  
+26. <span data-ttu-id="ba474-141">Išplėskite dalį Profesinė sąjunga.</span><span class="sxs-lookup"><span data-stu-id="ba474-141">Expand the Labor union section.</span></span>
+27. <span data-ttu-id="ba474-142">Sutraukite dalį Profesinė sąjunga.</span><span class="sxs-lookup"><span data-stu-id="ba474-142">Collapse the Labor union section.</span></span>
+28. <span data-ttu-id="ba474-143">Išplėskite sekciją Finansinės dimensijos.</span><span class="sxs-lookup"><span data-stu-id="ba474-143">Expand the Financial dimensions section.</span></span>
+29. <span data-ttu-id="ba474-144">Lauke Paskirstymo šablonas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-144">In the Distribution template field, enter or select a value.</span></span>
+30. <span data-ttu-id="ba474-145">Lauke Padalinys įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="ba474-145">In the Department field, enter or select a value.</span></span>
+31. <span data-ttu-id="ba474-146">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="ba474-146">Click Save.</span></span>
 
