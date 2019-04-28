@@ -1,26 +1,26 @@
 ---
 title: Algalapio integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti integravimą tarp „Microsoft Dynamics 365 for Talent“ ir „Ceridian Dayforce“, kad galėtumėte apdoroti mokėjimo vykdymą.
-author: jcart1106
+author: andreabichsel
 manager: AnnBe
-ms.date: 07/10/2018
+ms.date: 03/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
-ms.author: jcart
+ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
+ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305447"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898449"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
@@ -358,7 +358,10 @@ Jei generuojate užmokesčius darbuotojams JAV ir Kanadoje, reikia sukonfigūruo
 - Su pareigomis būtina nurodyti padalinius.
 - Išlaidų centrai turi būti nustatyti kaip finansinės dimensijos ir būti pirmas elementas numatytoje finansinės dimensijos eilutėje.
 
-### <a name="job-types"></a>Užduočių tipai
+> [!NOTE] 
+> Galite sukonfigūruoti „Talent“, kad prie pareigų būtų nurodytas padalinys. Norėdami tai atlikti, eikite į **Bendrinamos personalo pareigos > Pareigos > Prie pareigų reikalauti padalinių**. Rekomenduojame integruojant šį parametrą taikyti.
+
+### <a name="job-types"></a>Pareigų rūšys
 
 Užduočių tipai naudojami sugrupuoti panašioms užduotims į kategorijas. Užduočių tipai būtini tam, kad algalapiai būtų apdoroti JAV ir Kanadoje. Kai kurie užduočių tipų pavyzdžiai: visa darbo diena ar ne visa darbo diena arba atlyginimas ir valandinis užmokestis. Užduočių tipai yra susieti su „Dayforce“ kaip mokėjimo tipai, nurodantys, ar darbuotojas gauna valandinį ar fiksuotą užmokestį.
 

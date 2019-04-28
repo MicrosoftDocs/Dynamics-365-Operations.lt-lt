@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5326642553c7efcebc6c6af953e2dafe9e62e9ec
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 2753f2828b4890d9893a1538e905bd7061e1bc33
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832200"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902895"
 ---
 # <a name="electronic-messaging"></a>Elektroniniai pranešimai
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ elektroninių pranešimų apžvalga ir nustatymo informacija.
 
@@ -32,13 +33,13 @@ Neseniai įvairių šalių ir regionų vyriausybės bei teisės aktų leidybos i
 
 „Finance and Operations“ elektroninių pranešimų funkcionalumą palaiko įvairių procesų elektroninės veiklos suderinamumas tarp „Finance and Operations“ ir sistemų, kurias vyriausybės ir teisės aktų leidybos institucijos siūlo ataskaitoms teikti bei oficialiai informacijai teikti ir gauti.
 
-Elektroninių pranešimų funkcija yra integruota į modulį **Elektroninės ataskaitos** (ER). Todėl elektroniniams pranešimams galite nustatyti ER formatus. Daugiau informacijos žr. [Elektroninės ataskaitos (ER)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+Elektroninių pranešimų funkcija yra integruota į modulį **Elektroninės ataskaitos** (ER). Todėl elektroniniams pranešimams galite nustatyti ER formatus. Daugiau informacijos žr. [Elektroninės ataskaitos (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 Elektroniniai pranešimai grindžiami toliau nurodytais objektais.
 
 - **Elektroninis pranešimas** – ataskaita arba deklaracija, kuri turi būti pateikta ir (arba) perduota įmonės viduje. Pavyzdys yra ataskaita, siunčiama mokesčių inspekcijai.
 - **Elektroninio pranešimo elementai** – įrašai, kurie turi būti įtraukti į pateikiamą pranešimą.
-- **Elektroninių pranešimų apdorojimas** – susietų arba nesusietų veiksmų grandinė, kuri turi būti vykdoma norint surinkti reikiamus duomenis, generuoti ataskaitas, saugoti duomenis „Microsoft Azure“ didelių dvejetainių objektų saugykloje, perduoti ataskaitas ne sistemoje, gauti atsakymus ne iš sistemos bei atnaujinti duomenų bazę, remiantis gauta informacija.
+- **Elektroninių pranešimų apdorojimas** – veiksmų grandinė, kuri turi būti vykdoma norint surinkti reikiamus duomenis, generuoti ataskaitas, saugoti duomenis „Microsoft Azure“ didelių dvejetainių objektų saugykloje, perduoti ataskaitas ne sistemoje, gauti atsakymus ne iš sistemos bei, remiantis gauta informacija, atnaujinti duomenų bazę. Grandinės veiksmai gali būti susieti arba atsieti
 
 Toliau pateiktoje iliustracijoje parodytas elektroninių pranešimų duomenų srautas.
 
@@ -48,11 +49,11 @@ Elektroninių pranešimų funkcija palaiko toliau nurodytus scenarijus.
 
 - Rankiniu būdu kurti pranešimus ir generuoti ataskaitas, grindžiamas susietais įvairių tipų ER eksportavimo formatais: „Microsoft Excel“, XML, „JavaScript Object Notation“ (JSON), PDF, tekstu ir „Microsoft Word“.
 - Automatiškai kurti ir apdoroti pranešimus, grindžiamus informacija, kurios buvo prašoma, ir gauta informacija iš institucijos naudojant susietą ER importavimo formatą.
-- Rinkti ir apdoroti informaciją iš duomenų šaltinio („Finance and Operations“ lentelės) kaip pranešimo elementų.
+- Rinkti ir apdoroti informaciją iš duomenų šaltinio kaip pranešimo elementų. Duomenų šaltinis yra „Finance and Operations“ lentelė.
 - Saugoti papildomą informaciją ir įvertinti įvairias vertes, iškviečiant konkrečiai apibrėžtas vykdomąsias klases, susijusias su pranešimais ar pranešimų elementais.
 - Sujungti surinktą į pranešimo elementus informaciją, išskaidyti šią informaciją pagal pranešimą ir generuoti ataskaitas, kurios susietos ER eksportavimo formatais.
-- Perduoti ataskaitas, sugeneruotas žiniatinklio tarnybai naudojant saugos informaciją, saugomą „Azure Key Vault“.
-- Gauti atsakymą iš žiniatinklio tarnybos, interpretuoti atsakymą ir prireikus atnaujinti „Finance and Operations“ duomenis.
+- Sugeneruotas ataskaitas perduoti žiniatinklio tarnybai naudojant saugos informaciją, saugomą sprendime „Azure Key Vault“.
+- Gauti atsakymą iš žiniatinklio tarnybos, interpretuoti atsakymą ir atitinkamai atnaujinti „Finance and Operations“ duomenis.
 - Saugoti ir peržiūrėti visas sugeneruotas ataskaitas.
 - Saugoti ir peržiūrėti visą žurnalo informaciją, susijusią su veiksmais, vykdomais pranešimui ar pranešimo elementui.
 - Valdyti apdorojimo procesą naudojant įvairias pranešimo ir pranešimo elementų būsenas.
@@ -61,7 +62,7 @@ Elektroninių pranešimų funkcija palaiko toliau nurodytus scenarijus.
 
 Elektroniniai pranešimai gali padėti palaikyti skirtingiems dokumentų tipams skirtų įvairių elektroninių ataskaitų teikimo procesus. Taikant kai kuriuos sudėtingus scenarijus nustatyta, kad elektroniniai pranešimai turėtų daug pranešimo būsenų, pranešimo elementų būsenų, veiksmų, papildomų laukų bei vykdomųjų klasių kombinacijų. Galima importuoti šių scenarijų duomenų objektų paketus. Jei naudojate šiuos duomenų objektų paketus, turite juos importuoti į juridinį subjektą naudodami duomenų valdymo įrankį. Daugiau informacijos apie tai, kaip naudoti duomenų valdymo įrankį, žr. [Duomenų valdymas](../../dev-itpro/data-entities/data-entities-data-packages.md).
 
-Jei neimportuojate duomenų objekto paketo, galite rankiniu būdu nustatyti elektroninių pranešimų funkciją. Tokiu atveju turite nustatyti toliau nurodytus elementus. 
+Jei neimportuojate duomenų objekto paketo, galite rankiniu būdu nustatyti elektroninių pranešimų funkciją. Tokiu atveju turite nustatyti toliau nurodytus elementus.
 
 - [Numeracijos](#number-sequences)
 - [Pranešimų elementų tipai ir būsenos](#message-item-types-and-statuses)
@@ -78,7 +79,7 @@ Tolesniuose skyriuose pateikiama daugiau informacijos apie šiuos elementus.
 
 ### <a name="number-sequences"></a>Numeravimai
 
-Nustatykite pranešimų ir pranešimų elementų numeracijas. Numeracijos naudojamos pranešimams ir pranešimų elementams automatiškai sunumeruoti, o priskirti numeriai bus naudojami kaip unikalūs sistemos pranešimų ir pranešimų elementų identifikatoriai. Elektroninių pranešimų numeracijas galite nustatyti puslapyje **Didžiosios knygos parametrai** (**Didžioji knyga** \> **Didžiosios knygos nustatymas** \> **Didžiosios knygos parametrai**).
+Nustatykite pranešimų ir pranešimų elementų numeracijas. Numeracijos naudojamos pranešimams ir pranešimų elementams automatiškai numeruoti. Priskirti numeriai sistemoje bus naudojami kaip unikalūs pranešimų ir pranešimų elementų identifikatoriai. Elektroninių pranešimų numeracijas galite nustatyti puslapyje **Didžiosios knygos parametrai** (**Didžioji knyga** \> **Didžiosios knygos nustatymas** \> **Didžiosios knygos parametrai**).
 
 ### <a name="message-item-types-and-statuses"></a>Pranešimų elementų tipai ir būsenos
 
@@ -86,49 +87,49 @@ Pranešimų elementų tipai nurodo įrašų, kurie bus naudojami elektroniniuose
 
 Pranešimų elementų būsenos nurodo būsenas, kurios bus taikomos jūsų nustatomam pranešimo elementų apdorojimui. Pranešimų elementų būsenas galite nustatyti puslapyje **Pranešimų elementų būsenos** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Pranešimų elementų būsenos**).
 
-Pranešimo elemento būsenos parametras **Leisti naikinti** nurodo, ar vartotojas galės panaikinti šios būsenos pranešimo elementą naudodamas formą **Elektroniniai pranešimai** arba formą **Elektroninių pranešimų elementai**. 
+Pranešimo elemento būsenos parametras **Leisti naikinti** nurodo, ar vartotojai gali panaikinti pranešimų elementus, kurie yra šios būsenos puslapiuose **Elektroniniai pranešimai** arba **Elektroninių pranešimų elementai**.
 
 ### <a name="message-statuses"></a>Pranešimo būsenos
 
 Nustatykite pranešimo būsenas, kurios turi būti prieinamos pranešimui apdoroti. Pranešimo būsenas galite nustatyti puslapyje **Pranešimo būsenos** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Pranešimo būsenos**).
 
-Laukų aprašas
+Toliau pateiktoje lentelėje aprašomi puslapio **Pranešimų būsenos** laukai.
 
-| Lauko pavadinimas           | Aprašas |
-|----------------------|-------------|
-|Pranešimo būsena        | Unikalus elektroninio pranešimo būsenos pavadinimas, apibūdinantis pranešimo būseną bet kuriuo metu. Šis pavadinimas rodomas elektroninių pranešimų formoje ir žurnale, susijusiame su elektroniniais pranešimais. |
-|Aprašas           | Aprašas, susijęs su elektroninio pranešimo būsena      |
-|Atsiliepimo tipas         | Atlikus kai kuriuos apdorojimo veiksmus gali būti pateiktas daugiau nei vienas atsako tipas. Pavyzdžiui, tipo **Žiniatinklio tarnyba** veiksmas gali pateikti tipo **Sėkmingai įvykdytas** arba **Techninė klaida** atsaką, priklausomai nuo vykdymo rezultato. Šiuo atveju reikia nurodyto abiejų tipų atsakų pranešimų būseną. Daugiau informacijos apie veiksmų tipus ir su jais susijusius atsakų tipus žr. [Pranešimų apdorojimo veiksmų tipai](#message-processing-action-types). |
-|Pranešimo prekės būsena   |Kartais elektroninio pranešimo būsena turi paveikti atitinkamai susijusių pranešimo elementų būsenas. Susiekite tokią pranešimo elemento būseną šiame lauke pasirinkdami jį peržvalgos lange. |
-|Leisti naikinti          | Elektroninio pranešimo būsenos parametras **Leisti naikinti** nurodo, ar vartotojas galės panaikinti šios būsenos elektroninio pranešimo naudodamas formą **Elektroniniai pranešimai**.            |
+| Lauko pavadinimas          | Aprašas |
+|---------------------|-------------|
+| Pranešimo būsena      | Įveskite unikalų pranešimo būsenos pavadinimą. Pranešimų būsenos naudojamos apibūdinti, kokia yra elektroninio laiško būsena kiekvieną akimirką. Jūsų įvedamas pavadinimas rodomas puslapyje **Elektroniniai pranešimai** ir su elektroniniais pranešimais susijusiame žurnale. |
+| Aprašas         | Įveskite pranešimo būsenos aprašą. |
+| Atsiliepimo tipas       | Pasirinkite pranešimo būsenos atsako tipą. Atlikus kai kuriuos apdorojimo veiksmus gali būti pateiktas daugiau nei vienas atsako tipas. Pavyzdžiui, tipo **Žiniatinklio tarnyba** veiksmai gali pateikti tipo **Sėkmingai įvykdytas** arba **Techninė klaida** atsakus – tai priklauso nuo vykdymo rezultato. Šiuo atveju turite nurodyti abiejų tipų atsakų pranešimų būsenas. Norėdami gauti daugiau informacijos apie veiksmų tipus ir su jais susijusius atsakų tipus, žr. [Pranešimų apdorojimo veiksmų tipai](#message-processing-action-types). |
+| Pranešimo prekės būsena | Kartais elektroninio pranešimo būsena turi paveikti susijusių pranešimo elementų būseną. Šiame lauke pasirinkite pranešimo elemento būseną, kad ją susietumėte su pranešimo būsena. |
+| Leisti naikinti        | Pažymėkite šį žymės langelį, jei vartotojai turi galėti panaikinti elektroninius pranešimus, kurie yra šios būsenos puslapyje **Elektroniniai pranešimai**. |
 
 ### <a name="additional-fields"></a>Papildomi laukai
 
-Elektroninių pranešimų funkcija leidžia automatiškai įvesti įrašus iš operacijų lentelės. Tokiu būdu galite ataskaitoms parengti įrašus, o paskui juos pateikti. Kartais operacijų lentelėje nebūna pakankamai informacijos, kad būtų galima pateikti įrašą pagal ataskaitos reikalavimus. Užpildyti visą informaciją, kuri turi būti pateikta įrašant, galite nustatydami papildomus laukus. Papildomi laukai gali būti susieti su pranešimais ir pranešimų elementais. Papildomus laukus galite nustatyti puslapyje **Papildomi laukai** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Papildomi laukai**).
+Elektroninių pranešimų funkcija leidžia užpildyti įrašus iš operacijų lentelės. Tokiu būdu galite ataskaitoms parengti įrašus, o paskui juos pateikti. Tačiau kartais operacijų lentelėse nepakanka informacijos, kad įrašus būtų galima užpildyti pagal ataskaitų reikalavimus. Norėdami užpildyti visą įrašo informaciją, kuri turi būti pateikta, galite nustatyti papildomų laukų. Papildomi laukai gali būti susieti su pranešimais ir pranešimų elementais. Papildomus laukus galite nustatyti puslapyje **Papildomi laukai** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Papildomi laukai**).
 
 Toliau pateiktoje lentelėje aprašomi puslapyje **Papildomi laukai** esantys bendrieji laukai.
 
+| Laukas       | Aprašas |
+|-------------|-------------|
+| Lauko pavadinimas  | Įveskite su procesu susijusių pranešimo elementų papildomo atributo pavadinimą. Šis pavadinimas rodomas vartotojo sąsajoje vykdant procesą. Jį taip pat galima naudoti su procesu susijusiose ER konfigūracijose. |
+| Aprašas | Įveskite papildomo lauko aprašą. |
+| Vartotojo redaguojamas   | Šią parinktį nustatykite kaip **Taip**, jei vartotojai turi galėti vartotojo sąsajoje pakeisti papildomo lauko reikšmę. |
+| Skaitiklis     | Šią parinktį nustatykite kaip **Taip**, jei papildomame elektroninio pranešimo lauke turi būti numeracija. Vykdant veiksmą **Elektroninių ataskaitų eksportavimas**, papildomo lauko reikšmė bus užpildyta automatiškai. |
+| Paslėpta      | Šią parinktį nustatykite kaip **Taip**, jei papildomas laukas vartotojo sąsajoje turi būti paslėptas. |
+
+Kiekviename papildomame lauke gali būti skirtingos reikšmės, kurias reikia apdoroti. Šios reikšmės nustatomos „FastTab“ konteineryje **Reikšmės**. Tolesnėje lentelėje aprašomi laukai.
+
 | Laukas                | Aprašas |
 |----------------------|-------------|
-| Lauko pavadinimas           | Įveskite su procesu susijusių pranešimo elementų papildomo atributo pavadinimą. Šis pavadinimas rodomas vartotojo sąsajoje vykdant procesą. Jį taip pat galima naudoti su procesu susijusiose ER konfigūracijose. |
-| aprašymas          | Įveskite su procesu susijusių pranešimo elementų papildomo atributo aprašą. |
-| Vartotojo redaguojamas            | Jei vartotojas turi galėti keisti papildomas vartotojo sąsajos laukų reikšmes, nustatykite šio žymės langelio reikšmę **Taip**; kitu atveju pasirinkite **Ne**. |
-| Skaitiklis              | Kai papildome lauke turi būti sekos numeris elektroniniame pranešime, pažymėkite šį žymės langelį. Papildomo lauko reikšmės bus užpildytos automatiškai vykdant tipo Elektroninių ataskaitų eksportavimas veiksmą.  |
-| Paslėpta               | Kai papildomas laukas turi būti paslėptas vartotojo sąsajoje, pažymėkite šį žymės langelį.  |
-
-Kiekviename papildomame lauke gali būti skirtingos reikšmės, kurias reikia apdoroti. Šias reikšmes galite nustatyti skirtuke Reikšmės.
-
-| Laukas                | Aprašas |
-|----------------------|-------------|
-| Lauko vertė          | Įveskite lauko reikšmę, kurią naudosite pranešimo arba pranešimo elemento atžvilgiu ataskaitų teikimo metu. |
-| Lauko aprašas    | Įveskite lauko reikšmės, kurią naudosite pranešimo arba pranešimo elemento atžvilgiu ataskaitų teikimo metu, aprašą. |
-| Kodo tipas         | Kai kurios papildomos laukų vertės gali būti apribotos konkrečių sąskaitų tipais. Pasirinkite vieną šių verčių: **Visi**, **Klientas** arba **Tiekėjas**. |
-| Sąskaitos kodas         | Jei pasirinkote **Klientas** arba **Tiekėjas** lauke **Sąskaitos tipas**, galite dar labiau apriboti lauko verčių naudojimą iki konkrečios grupės arba lentelės. |
+| Lauko vertė          | Įveskite lauko reikšmę, kurią naudosite su pranešimu arba pranešimo elementu teikdami ataskaitas. |
+| Aprašas          | Įveskite lauko reikšmės aprašą. |
+| Kodo tipas         | Kai kurios laukų reikšmės gali būti taikomos tik konkrečių tipų klientams. Pasirinkite vieną šių verčių: **Visi**, **Klientas** arba **Tiekėjas**. |
+| Sąskaitos kodas         | Jei lauke **Kliento tipas** pasirinkote **Klientas** arba **Tiekėjas**, lauko reikšmės naudojimą galite dar labiau apriboti iki konkrečios grupės arba lentelės. |
 | Sąskaitos/grupės Nr. | Jei pasirinkote **Klientas** arba **Tiekėjas** lauke **Sąskaitos tipas** ir įvedėte grupę arba lentelę lauke **Sąskaitos kodas**, šiame lauke galite įvesti konkrečią grupę arba sąveikos objektą. |
 | Galioja            | Nurodykite datą, nuo kurios reikia atsižvelgti į vertę. |
 | Galiojimo pabaiga           | Nurodykite datą, nuo kurios reikia nepaisyti vertės. |
 
-Laukuose **Sąskaitos / grupės numeris**, **Sąskaitos kodas**, **Įsigaliojimo data**, **Galiojimo pabaigos data** nurodytų kriterijų deriniai pagal numatytuosius parametrus nepakeičia papildomo lauko reikšmės pasirinkimo, bet juos galima naudoti vykdomojoje klasėje norint įdiegti konkrečią papildomo lauko reikšmės skaičiavimo logiką.
+Pagal numatytuosius parametrus kriterijų, kuriuos nustato laukai **Kliento / grupės numeris**, **Kliento kodas**, **Įsigalioja** ir **Galiojimo pabaiga**, kombinacijos neturi įtakos parenkant papildomų laukų reikšmes. Tačiau šias kombinacijas galima naudoti vykdomojoje klasėje siekiant įdiegti konkrečią logiką, apskaičiuojančią papildomų laukų reikšmes.
 
 ### <a name="executable-class-settings"></a>Vykdomosios klasės parametrai
 
@@ -144,16 +145,16 @@ Vykdomąją klasę galite nustatyti rankiniu būdu puslapyje **Vykdomosios klas�
 | Vykdymo lygis       | Šis laukas nustatomas automatiškai, nes pasirinktos vykdomosios klasės vertė turi būti nustatyta iš anksto. Šis laukas riboja vykdomo susijusio įvertinimo lygį. |
 | Klasės aprašas     | Šis laukas nustatomas automatiškai, nes pasirinktos vykdomosios klasės vertė turi būti nustatyta iš anksto. |
 
-Kai kuriose vykdomosiose klasėse nustatyti privalomi parametrai, kuriuos reikia nurodyti prieš vykdant vykdomąją klasę pirmą kartą. Norėdami nurodyti tokius parametrus, spustelėkite mygtuką **Parametrai**, pateiktą veiksmų srityje, nustatykite atitinkamas reikšmes ir laukus dialogo lange, tada spustelėkite mygtuką **Gerai**. Svarbu spustelėti mygtuką **Gerai**, nes kitu atveju parametrai nebus įrašyti į pagrindą,o vykdomoji klasė nebus tinkamai pavadinta.
+Kai kuriose vykdomosiose klasėse gali būti nustatyta privalomų parametrų, kuriuos reikia nurodyti prieš vykdant vykdomąją klasę pirmą kartą. Norėdami nustatyti šiuos parametrus, veiksmų srityje pasirinkite **Parametrai**, nustatykite pasirodžiusiame dialogo lange esančius laukus ir pasirinkite **Gerai**. Svarbu pasirinkti **Gerai**. Kitu atveju parametrai nebus įrašyti į duomenų bazę ir vykdomoji klasė nebus iškviečiama teisingai.
 
 ### <a name="populate-records-actions"></a>Automatinio įrašų įvedimo veiksmai
 
-Naudojate veiksmus įrašams automatiškai įvesti, kuriuos reikia nustatyti įrašams prie pranešimo elementų lentelės pridėti, kad juos būtų galima įtraukti į elektroninį pranešimą. Pavyzdžiui, jei jūsų elektroninis pranešimas turi pranešti kliento SF, turite nustatyti veiksmą **Automatiškai įvesti įrašus**, kuris susietas su lentele **Kliento SF žurnalas** (lauke **Duomenų šaltinis**). Veiksmus įrašams automatiškai įvesti galite nustatyti puslapyje **Automatinio įrašų įvedimo veiksmas** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Automatinio įrašų įvedimo veiksmai**). Sukurkite naują kiekvieno veiksmo, kuris turi pridėti įrašų prie lentelės, įrašą ir nustatykite toliau nurodytus laukus.
+Naudojate veiksmus įrašams automatiškai įvesti, kuriuos reikia nustatyti įrašams prie pranešimo elementų lentelės pridėti, kad juos būtų galima įtraukti į elektroninį pranešimą. Pavyzdžiui, jei jūsų elektroninis pranešimas turi pranešti kliento sąskaitas faktūras, turite nustatyti automatinio įrašų užpildymo veiksmą, susietą su lentelės Kliento SF žurnalas lauku **Duomenų šaltinis**. Veiksmus įrašams automatiškai įvesti galite nustatyti puslapyje **Automatinio įrašų įvedimo veiksmas** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Automatinio įrašų įvedimo veiksmai**). Sukurkite naują kiekvieno veiksmo, kuris turi pridėti įrašų prie lentelės, įrašą ir nustatykite toliau nurodytus laukus.
 
-| Laukas       | aprašymas                                                               |
-|-------------|---------------------------------------------------------------------------|
-| Pavadinimas / vardas ir (arba) pavardė        | Įveskite veiksmo, kuris į jūsų procesą automatiškai įveda įrašus, pavadinimą.       |
-| aprašymas | Įveskite veiksmo, kuris į jūsų procesą automatiškai įveda įrašus, aprašą. |
+| Laukas       | Aprašas |
+|-------------|-------------|
+| Vardas        | Įveskite veiksmo, kuris jūsų proceso metu automatiškai užpildo įrašus, pavadinimą. |
+| Aprašas | Įveskite automatinio įrašų užpildymo veiksmo aprašą. |
 
 „FastTab“ skirtuke **Duomenų šaltinių nustatymas** įtraukite eilutę kiekvienam duomenų šaltiniui, kuris naudojamas procesui, ir nustatykite toliau nurodytus laukus.
 
@@ -166,38 +167,39 @@ Naudojate veiksmus įrašams automatiškai įvesti, kuriuos reikia nustatyti įr
 | Laukas Dokumento numeris  | Pasirinkite lauką, iš kurio turi būti paimtas dokumento numeris pasirinktoje lentelėje. |
 | Laukas Dokumento data    | Pasirinkite lauką, iš kurio turi būti paimta dokumento data pasirinktoje lentelėje. |
 | Laukas Dokumento sąskaita | Pasirinkite lauką, iš kurio turi būti paimta dokumento sąskaita pasirinktoje lentelėje. |
-| Vartotojo užklausa             | Jei šis žymės langelis pažymėtas, galite nustatyti užklausą pasirinkdami virš tinklelio esantį lauką **Redaguoti užklausą**. Priešingu atveju visi įrašai bus automatiškai įvesti iš duomenų šaltinio. |
+| Vartotojo užklausa             | Jei šis žymės langelis pažymėtas, galite nustatyti užklausą pasirinkdami virš tinklelio esantį lauką **Redaguoti užklausą**. Priešingu atveju visi įrašai bus užpildyti iš pasirinkto duomenų šaltinio. |
 
 ### <a name="web-applications"></a>Žiniatinklio programos
 
-Žiniatinklio programų puslapis naudojamas norint nustatyti žiniatinklio programos parametrus, kad būtų palaikoma atvira standartinė „OAuth 2.0“, kuri vartotojams suteikia saugią prieigą prie programos jų vardu, o jų prieigos kredencialai nėra bendrinami. Šiame puslapyje taip pat galite atlikti autorizavimo procesą, gaudami autorizavimo kodą ir prieigą prie atpažinimo ženklo. Žiniatinklio programos parametrus galite nustatyti puslapyje **Žiniatinklio programos** (**Mokesčiai** \> **Sąranka** \> **Elektroniniai pranešimai** \> **Žiniatinklio programos**).
+Naudodami žiniatinklio programų parametrus nustatote, kad žiniatinklio programa palaikytų „Open Authorization“ („OAuth“) 2.0. „OAuth“ yra atvirasis standartas, kurį naudodami vartotojai savo vardu programai gali suteikti „saugią suteiktąją prieigą“, nebendrindami prieigos kredencialų. Autorizavimo procesą taip pat galite atlikti gaudami autorizavimo kodą ir prieigos atpažinimo ženklą. Žiniatinklio programos parametrus galite nustatyti puslapyje **Žiniatinklio programos** (**Mokesčiai** \> **Sąranka** \> **Elektroniniai pranešimai** \> **Žiniatinklio programos**).
 
 Toliau pateiktoje lentelėje aprašomi puslapio **Žiniatinklio programos** laukai.
 
-| Laukas                         | Aprašas |
-|-------------------------------|-------------|
-| Programos pavadinimas              | Įveskite žiniatinklio programos pavadinimą. |
-| Aprašas                   | Įveskite žiniatinklio programos aprašą. |
-| Pagrindinis URL                      | Įveskite žiniatinklio programos pagrindinį interneto adresą. |
-| Autorizavimo URL kelias        | Nurodykite kelią, kad sukurtumėte autorizavimo URL.  |
-| Atpažinimo ženklo URL kelias                | Nurodykite kelią, kad sukurtumėte atpažinimo ženklo URL.  |
-| Nukreipimo URL                  | Įveskite nukreipimo URL.  |
-| Kliento ID                     | Įveskite žiniatinklio programos kliento ID.  |
-| Kliento paslaptis                 | Įveskite žiniatinklio programos kliento paslaptį.  |
-| Serverio atpažinimo ženklas                  | Įveskite žiniatinklio programos atpažinimo ženklą.  |
-| Autorizavimo formato susiejimas  | Pasirinkite elektroninių ataskaitų (ER) formatą, kuris bus naudojamas autorizavimo užklausai generuoti.   |
-| Importuoti atpažinimo ženklo modelio susiejimą    | Pasirinkite ER importavimo modelio susiejimą, kuris bus naudojamas prieigos atpažinimo ženklui saugoti.  |
-| Suteikta aprėptis      Prieigos atpažinimo ženklo galiojimas baigiasi  | Šis laukas atnaujinamas automatiškai. Jo reikšmė nurodo suteiktą žiniatinklio programos užklausų aprėptį.  |
-| Priimti                        | Nurodykite žiniatinklio užklausos priėmimo ypatybę. Pavyzdžiui, application/vnd.hmrc.1.0+json.  |
-| Turinio tipas           | Nurodykite turinio tipą. Pavyzdžiui, application/json.  |
+| Laukas                        | Aprašas |
+|------------------------------|-------------|
+| Programos pavadinimas             | Įveskite žiniatinklio programos pavadinimą. |
+| Aprašas                  | Įveskite žiniatinklio programos aprašą. |
+| Pagrindinis URL                     | Įveskite žiniatinklio programos pagrindinį interneto adresą. |
+| Autorizavimo URL kelias       | Nurodykite kelią, naudojamą autorizavimo URL sukurti. |
+| Atpažinimo ženklo URL kelias               | Nurodykite kelią, naudojamą atpažinimo ženklo URL sukurti. |
+| Nukreipimo URL                 | Įveskite nukreipimo URL. |
+| Kliento ID                    | Įveskite žiniatinklio programos kliento ID. |
+| Kliento paslaptis                | Įveskite žiniatinklio programos kliento paslaptį. |
+| Serverio atpažinimo ženklas                 | Įveskite žiniatinklio programos atpažinimo ženklą. |
+| Autorizavimo formato susiejimas | Pasirinkite ER formatą, naudojamą autorizavimo užklausai generuoti. |
+| Importuoti atpažinimo ženklo modelio susiejimą   | Pasirinkite ER importavimo modelio susiejimą, naudojamą prieigos atpažinimo ženklui saugoti. |
+| Suteikta apimtis                | Programai teikiamoms užklausoms suteikiama aprėptis. Šis laukas yra automatiškai atnaujinamas. |
+| Prieigos atpažinimo ženklo galiojimo laikas baigiasi  | Likęs laikas iki prieigos atpažinimo ženklo galiojimo pabaigos. | 
+| Priimti                       | Nurodykite žiniatinklio užklausos ypatybę **Priimti**. Pavyzdžiui, įveskite **application/vnd.hmrc.1.0+json**. |
+| Turinio tipas                 | Nurodykite turinio tipą. Pavyzdžiui, įveskite **application/json**. |
 
-Toliau nurodytos funkcijos pateikiamos puslapyje **Žiniatinklio programos** autorizavimo procesui palaikyti.
--   **Gauti autorizavimo kodą** – inicijuoti žiniatinklio programos autorizavimą.
--   **Gauti prieigos atpažinimo ženklą** – inicijuoti prieigos atpažinimo ženklo gavimą.
--   **Atnaujinti prieigos atpažinimo ženklą** – atnaujinti prieigos atpažinimo ženklą.
+Be to, autorizavimo procesui palaikyti puslapio **Žiniatinklio programos** veiksmų srityje pasiekiami tolesni mygtukai.
 
-Kai prieigos prie žiniatinklio programos atpažinimo ženklas yra saugomas sistemos duomenų pagrinde užšifruotu formatu, jį galima naudoti teikiant žiniatinklio tarnybos užklausas. Dėl saugos tikslų prieigą prie prieigos atpažinimo ženklo reikia skirti tik tiems saugos vaidmenims, kuriems leidžiama tvarkyti tas užklausas. Kai užklausą bando tvarkyti saugos grupei nepriklausantis vartotojas, išimtis vartotojui praneš, kad jam neleidžiama atlikti veiksmų pasirinktoje žiniatinklio programoje.
-Naudokite sparčiąją lentelę **Saugos vaidmenys**, pateiktą puslapyje Mokesčiai > Sąranka > Elektroniniai pranešimai > Žiniatinklio programos, kad nustatytumėte vaidmenis, kuriems reikia suteikti prieigą prie prieigos atpažinimo ženklo. Kai žiniatinklio programos saugos vaidmenys nenurodyti, tik sistemos administratorius galės atlikti veiksmus šioje žiniatinklio programoje.
+- **Gauti autorizavimo kodą** – inicijuoti žiniatinklio programos autorizavimą.
+- **Gauti prieigos atpažinimo ženklą** – inicijuoti prieigos atpažinimo ženklo gavimo procesą.
+- **Atnaujinti prieigos atpažinimo ženklą** – atnaujinti prieigos atpažinimo ženklą.
+
+Kai prieigos prie žiniatinklio programos atpažinimo ženklas sistemos duomenų bazėje yra saugomas užšifruotu formatu, jį galima naudoti teikiant užklausas žiniatinklio tarnybai. Dėl saugos prieigą prie prieigos atpažinimo ženklo reikia skirti tik tiems saugos vaidmenims, kuriems būtina leisti tvarkyti tas užklausas. Jei tvarkyti užklausą bando ne saugos grupės vartotojai, jie gauna klaidą, kad jiems neleidžiama atlikti veiksmų pasirinktoje žiniatinklio programoje. Norėdami nustatyti saugos vaidmenis, kurie privalo turėti prieigą prie prieigos atpažinimo ženklo, naudokite puslapyje **Žiniatinklio programos** esantį „FastTab“ **Saugos vaidmenys**. Jei žiniatinklio programos saugos vaidmenų nenustatoma, šioje žiniatinklio programoje veiksmus gali atlikti tik sistemos administratorius.
 
 ### <a name="web-service-settings"></a>Žiniatinklio tarnybos parametrai
 
@@ -205,21 +207,21 @@ Naudojate žiniatinklio tarnybos parametrus tiesioginiam duomenų perdavimui į 
 
 Toliau pateiktoje lentelėje aprašomi puslapio **Žiniatinklio tarnybos parametrai** laukai.
 
-| Laukas                   | aprašymas |
-|-------------------------|-------------|
-| Tinklo tarnyba             | Įveskite žiniatinklio tarnybos pavadinimą. |
-| aprašymas             | Įveskite žiniatinklio tarnybos aprašą. |
-| Interneto adresas        | Įveskite žiniatinklio tarnybos interneto adresą. Jei nurodyta žiniatinklio tarnybos žiniatinklio programa, o interneto adresas turi būti toks pats kaip pasirinktos žiniatinklio programos nurodytas adresas, spustelėkite mygtuką **Kopijuoti pagrindinį URL**, kad nukopijuotumėte **pagrindinį URL** iš žiniatinklio programos į žiniatinklio tarnybos lauką **Interneto adresas**.  |
-| Sertifikatas             | Pasirinkite anksčiau nustatytą raktų saugyklos sertifikatą. |
-| Žiniatinklio programa         | Pasirinkite anksčiau nustatytą raktų saugyklos sertifikatą. |
-| Atsakymo tipas – XML | Jei atsakymo tipas yra XML, nustatykite šią parinktį į **Taip**. |
-| Užklausos metodas          | Nurodykite užklausos metodą. HTTP apibrėžia užklausų metodų, nurodančių veiksmą, kuris turi būti atliekamas nurodytiems ištekliams, rinkinį. Galimas metodas **GAUTI**, **REGISTRUOTI** arba kitas HTTP metodas. |
-| Užklausų antraštės         | Nurodykite užklausų antraštes. Užklausos antraštė – tai HTTP antraštė, kuri gali būti naudojama HTTP užklausai ir kuri nesusijusi su pranešimo turiniu. |
-| Priimti                  | Nurodykite žiniatinklio užklausos priėmimo ypatybę. |
-| Priimti kodavimą         | Nurodykite priimtiną kodavimą. Priimtino kodavimo užklausos HTTP antraštėje skelbiamas turinio kodavimas, kurį klientas gali suprasti. Toks turinio kodavimas dažniausiai yra glaudinimo algoritmas. |
-| Turinio tipas            | Nurodykite turinio tipą. Turinio tipo objekto antraštė nurodo išteklių publikavimo kanalo tipą. |
-| Sėkmingas atsakymo kodas   | Nurodykite HTTP būsenos kodą, nurodantį, kad užklausa įvykdyta sėkmingai. |
-| Užklausos antraščių formato susiejimas  | Pasirinkite žiniatinklio užklausos antraščių generavimo ER formatą. |
+| Laukas                          | aprašymas |
+|--------------------------------|-------------|
+| Tinklo tarnyba                    | Įveskite žiniatinklio tarnybos pavadinimą. |
+| aprašymas                    | Įveskite žiniatinklio tarnybos aprašą. |
+| Interneto adresas               | Įveskite žiniatinklio tarnybos interneto adresą. Jei nurodyta žiniatinklio tarnybos žiniatinklio programa, o žiniatinklio tarnybos interneto adresas turi būti toks pats, kaip nustatytas tos žiniatinklio programos interneto adresas, pasirinkite **Kopijuoti pagrindinį URL**, kad į ši lauką nukopijuotumėte pagrindinį žiniatinklio programos URL. |
+| Sertifikatas                    | Pasirinkite anksčiau nustatytą raktų saugyklos sertifikatą. |
+| Žiniatinklio programa                | Pasirinkite anksčiau nustatytą raktų saugyklos sertifikatą. |
+| Atsakymo tipas – XML        | Jei atsakymo tipas yra XML, nustatykite šią parinktį į **Taip**. |
+| Užklausos metodas                 | Nurodykite užklausos metodą. HTTP apibrėžia užklausų metodų, nurodančių veiksmą, kuris turi būti atliekamas nurodytiems ištekliams, rinkinį. Užklausos metodas gali būti **GET**, **POST** arba kitas HTTP metodas. |
+| Užklausų antraštės                | Nurodykite užklausų antraštes. Užklausos antraštė – tai HTTP antraštė, kuri gali būti naudojama HTTP užklausai ir kuri nesusijusi su pranešimo turiniu. |
+| Priimti                         | Nurodykite žiniatinklio užklausos ypatybę **Priimti**. |
+| Priimti kodavimą                | Nurodykite elemento **Priimti kodavimą** reikšmę. Priimtino kodavimo užklausos HTTP antraštėje skelbiamas turinio kodavimas, kurį klientas gali suprasti. Toks turinio kodavimas dažniausiai yra glaudinimo algoritmas. |
+| Turinio tipas                   | Nurodykite turinio tipą. Turinio tipo objekto HTTP antraštė nurodo ištekliaus publikavimo kanalo tipą. |
+| Sėkmingas atsakymo kodas       | Nurodykite HTTP būsenos kodą, nurodantį, kad užklausa įvykdyta sėkmingai. |
+| Užklausos antraščių formato susiejimas | Pasirinkite ER formatą, naudojamą žiniatinklio užklausų antraštėms generuoti. |
 
 ### <a name="message-processing-actions"></a>Pranešimų apdorojimo veiksmai
 
@@ -229,76 +231,76 @@ Toliau pateiktose lentelėse aprašomi puslapio **Pranešimų apdorojimo veiksma
 
 #### <a name="general-fasttab"></a>Bendras „FastTab“ skirtukas
 
-| Laukas                   | aprašymas |
-|-------------------------|-------------|
-| Veiksmo tipas             | Pasirinkite veiksmo tipą. Informacijos apie galimas parinktis žr. skyriuje [Pranešimų apdorojimo veiksmų tipai](#message-processing-action-types). |
-| Formato susiejimas          | Pasirinkite ER formatą, kuris turi būti iškviestas veiksmui atlikti. Šis laukas taikomas tik veiksmų tipams **Elektroninių ataskaitų eksportavimas**, **Elektroninių ataskaitų importavimas**, **Elektroninių ataskaitų eksportavimo pranešimas**. |
-| URL kelio formato susiejimas | Pasirinkite ER formatą, kuris turi būti iškviestas veiksmui atlikti. Šis laukas taikomas tik veiksmų tipo **Žiniatinklio tarnyba** veiksmams ir jis naudojamas kuriant URL adreso, kuris bus įtrauktas į pagrindinį nurodytą pasirinkto žiniatinklio serverio interneto adresą, kelią. |
-| Pranešimo prekės tipas       | Pasirinkite įrašų, kurių veiksmą reikia įvertinti, tipą. Šis laukas taikomas veiksmų tipams **Pranešimo elemento vykdymo lygis**, **Elektroninių ataskaitų eksportavimas** ir **Elektroninių ataskaitų importavimas**, **Žiniatinklio tarnyba**, taip pat kai kuriems kitiems tipams. Jei šį lauką paliksite tuščią, bus vertinami visi pranešimų apdorojimui apibrėžti pranešimų elementų tipai. |
-| Vykdomoji klasė        | Pasirinkite anksčiau sukurtus vykdomosios klasės parametrus. Šis laukas galimas tik veiksmų tipams **Pranešimo elemento vykdymo lygis** ir **Pranešimo elemento vykdymo lygis**. |
-| Automatinio įrašų įvedimo veiksmas | Pasirinkite anksčiau nustatytą automatinio įrašų įvedimo veiksmą. Šis laukas galimas tik veiksmų tipui **Automatiškai įvesti įrašus**. |
-| Tinklo tarnyba  | Pasirinkite pirmiau nustatytą žiniatinklio tarnybą. Šis laukas taikomas tik tipo **Žiniatinklio tarnyba** veiksmams.  |
-| Failo vardas  | Nurodykite failo, kuris bus sukurtas kaip atsakas į veiksmą iš žiniatinklio serverio ar ataskaitos generavimas. Šis laukas taikomas tik tipų **Žiniatinklio tarnyba** ir **Elektroninių ataskaitų eksportavimo pranešimas** veiksmams.   |
-| Rodyti dialogo langą  | Pažymėkite šį žymės langelį, jei dialogo langas turi būti rodomas vartotojui prieš ataskaitos generavimą. Šis laukas taikomas tik tipo **Elektroninių ataskaitų eksportavimo pranešimas** veiksmams.   |
+| Laukas                       | aprašymas |
+|-----------------------------|-------------|
+| Veiksmo tipas                 | Pasirinkite veiksmo tipą. Informacijos apie galimas parinktis žr. skyriuje [Pranešimų apdorojimo veiksmų tipai](#message-processing-action-types). |
+| Formato susiejimas              | Pasirinkite ER formatą, kuris turi būti iškviestas veiksmui atlikti. Šis laukas galimas tik veiksmų tipams **Elektroninių ataskaitų eksportavimas**, **Elektroninių ataskaitų importavimas** ir **Elektroninių ataskaitų eksportavimo pranešimas**. |
+| URL kelio formato susiejimas | Pasirinkite ER formatą, kuris turi būti iškviestas veiksmui atlikti. Šis laukas taikomas tik tipo **Žiniatinklio tarnyba** veiksmams. Jis naudojamas kuriant URL adreso kelią, kuris bus įtrauktas į nurodytą pagrindinį pasirinkto žiniatinklio serverio interneto adresą. |
+| Pranešimo prekės tipas           | Pasirinkite įrašų, kurių veiksmą reikia įvertinti, tipą. Šis laukas taikomas veiksmų tipams **Pranešimo elemento vykdymo lygis**, **Elektroninių ataskaitų eksportavimas**, **Elektroninių ataskaitų importavimas** ir **Žiniatinklio tarnyba** bei kai kuriems kitiems tipams. Jei šį lauką paliksite tuščią, bus vertinami visi pranešimų apdorojimui apibrėžti pranešimų elementų tipai. |
+| Vykdomoji klasė            | Pasirinkite anksčiau sukurtus vykdomosios klasės parametrus. Šis laukas galimas tik veiksmų tipams **Pranešimo elemento vykdymo lygis** ir **Pranešimo elemento vykdymo lygis**. |
+| Automatinio įrašų įvedimo veiksmas     | Pasirinkite anksčiau nustatytą automatinio įrašų įvedimo veiksmą. Šis laukas galimas tik veiksmų tipui **Automatiškai įvesti įrašus**. |
+| Tinklo tarnyba                 | Pasirinkite pirmiau nustatytą žiniatinklio tarnybą. Šis laukas taikomas tik tipo **Žiniatinklio tarnyba** veiksmams. |
+| Failo vardas                   | Nurodykite failo, kuris bus veiksmo rezultatas, pavadinimą. Šis failas gali būti atsakas iš žiniatinklio serverio arba generuojama ataskaita. Šis laukas taikomas tik tipų **Žiniatinklio tarnyba** ir **Elektroninių ataskaitų eksportavimo pranešimas** veiksmams. |
+| Rodyti dialogo langą                 | Šią parinktį nustatykite kaip **Taip**, jei prieš ataskaitos generavimą vartotojams turi būti rodomas dialogo langas. Šis laukas taikomas tik tipo **Elektroninių ataskaitų eksportavimo pranešimas** veiksmams. |
 
 ##### <a name="message-processing-action-types"></a>Pranešimų apdorojimo veiksmų tipai
 
 Galimos toliau nurodytos lauko **Veiksmo tipas** parinktys.
 
-- **Kurti pranešimą** – naudokite šį tipą, kad vartotojai galėtų rankiniu būdu kurti pranešimus puslapyje **Elektroninis pranešimas**. Šio tipo veiksmui negalima nustatyti pradinės būsenos.
-- **Automatiškai įvesti įrašus** – veiksmas **Automatiškai įvesti įrašus** turi būti nustatytas anksčiau. Susiekite jį su veiksmo tipu **Automatiškai įvesti įrašus**, kad jį būtų galima įtraukti į apdorojimą. Manoma, kad šio veiksmo tipas naudojamas atliekant pirmą pranešimo apdorojimo veiksmą (kai elektroninis pranešimas nekuriamas iš anksto) ar kaip veiksmas, kuriuo pranešimo elementai įtraukiami į anksčiau sukurtą pranešimą (tipo **Kurti pranešimą** veiksmu). Todėl galima nustatyti tik pranešimo elementų rezultatų būseną, skirtą šio tipo veiksmui. Pradinę būseną galima nustatyti ir priskirti tik pranešimui.
-- **Pranešimo vykdymo lygis** – naudokite šį tipą vykdomajai klasei, kuri turi būti įvertinta pranešimo lygiu, nustatyti.
-- **Pranešimo elemento vykdymo lygis** – naudokite šį tipą vykdomajai klasei, kuri turi būti įvertinta pranešimo elemento lygiu, nustatyti.
-- **Elektroninių ataskaitų eksportavimas** – naudokite šį tipą veiksmams, kuriais turi būti generuojama ataskaita, grindžiama ER eksportavimo konfigūracija pranešimo elemento lygiu.
-- **Elektroninių ataskaitų eksportavimo pranešimas** – naudokite šį tipą veiksmams, kuriais turi būti generuojama ataskaita, grindžiama ER eksportavimo konfigūracija pranešimo lygiu (pavyzdžiui, kai pranešimas neturi jokių pranešimo elementų).
-- **Elektroninių ataskaitų importavimas** – naudokite šį tipą veiksmams, kuriais turi būti generuojama ataskaita, grindžiama ER importavimo konfigūracija.
-- **Pranešimų lygio vartotojų apdorojimas** – naudokite šį tipą veiksmams, kuriais nurodomi tam tikri rankiniai vartotojo veiksmai. Pavyzdžiui, vartotojas gali atnaujinti pranešimų būseną.
-- **Vartotojų apdorojimas** – naudokite šį tipą veiksmams, kuriais nurodomas tam tikras rankinis vartotojo veiksmas. Pavyzdžiui, vartotojas gali atnaujinti pranešimų elementų būseną.
-- **Žiniatinklio tarnyba** – naudokite šį tipą veiksmams, kuriais žiniatinklio tarnybai turi būti perduodama sugeneruota ataskaita. Šis veiksmo tipas nenaudojamas Italijos pirkimo ir pardavimo sąskaitų faktūrų ryšių ataskaitoms teikti. Jei veiksmų tipas yra **Žiniatinklio tarnyba**, galite nurodyti **patvirtinimo tekstą** „FastTab“ **Įvairi informacija**, pateiktame dalyje **Pranešimų apdorojimo veiksmai**. Šis patvirtinimo tekstas bus rodomas vartotojui prieš apdorojant pasirinktos žiniatinklio tarnybos užklausą.
-- **Užklausos tikrinimas** – naudokite šį tipą tikrinimui iš serverio prašyti.
+- **Kurti pranešimą** – naudokite šį veiksmo tipą, kad vartotojai galėtų rankiniu būdu kurti pranešimus puslapyje **Elektroninis pranešimas**. Šio tipo veiksmui negalima nustatyti pradinės būsenos.
+- **Automatiškai užpildyti įrašus** – anksčiau turi būti nustatytas tipo **Automatiškai užpildyti įrašus** veiksmas. Šį veiksmo tipą susiekite su automatinio įrašų užpildymo veiksmu, kad tą veiksmą būtų galima įtraukti į apdorojimą. Daroma prielaida, kad šis veiksmo tipas naudojamas atliekant pirmą pranešimo apdorojimo veiksmą (kai iš anksto elektroninių pranešimų nebuvo sukurta) ar kaip veiksmas, kuriuo pranešimo elementai įtraukiami į anksčiau sukurtą pranešimą (tipo **Kurti pranešimą** veiksmu). Todėl, naudojant šio tipo veiksmus, galima nustatyti tik pranešimo elementų rezultatų būseną. Pradinę būseną galima nustatyti tik pranešimams.
+- **Pranešimo vykdymo lygis** – šį veiksmo tipą naudokite vykdomajai klasei, kuri turi būti įvertinta pranešimo lygiu, nustatyti.
+- **Pranešimo elemento vykdymo lygis** – šį veiksmo tipą naudokite vykdomajai klasei, kuri turi būti įvertinta pranešimo elemento lygiu, nustatyti.
+- **Elektroninių ataskaitų eksportavimas** – šį veiksmo tipą naudokite veiksmams, kuriais turi būti generuojama ataskaita, grindžiama ER eksportavimo konfigūracija pranešimo elemento lygiu.
+- **Elektroninių ataskaitų eksportavimo pranešimas** – šį veiksmo tipą naudokite veiksmams, kuriais turi būti generuojama ataskaita, grindžiama ER eksportavimo konfigūracija pranešimo lygiu (pavyzdžiui, kai pranešimas neturi jokių pranešimo elementų).
+- **Elektroninių ataskaitų importavimas** – šį veiksmo tipą naudokite veiksmams, kuriais turi būti generuojama ataskaita, grindžiama ER importavimo konfigūracija.
+- **Pranešimų lygio vartotojų apdorojimas** – šį veiksmo tipą naudokite veiksmams, kuriais nurodomas tam tikras rankinis vartotojo veiksmas pranešimų lygiu. Pavyzdžiui, vartotojas gali atnaujinti pranešimų būseną.
+- **Vartotojų apdorojimas** – šį veiksmo tipą naudokite veiksmams, kuriais nurodomas tam tikras rankinis vartotojo veiksmas pranešimų elementų lygiu. Pavyzdžiui, vartotojas gali atnaujinti pranešimų elementų būseną.
+- **Žiniatinklio tarnyba** – šį veiksmo tipą naudokite veiksmams, kuriais sugeneruota ataskaita turi būti perduodama žiniatinklio tarnybai. Šis veiksmo tipas nenaudojamas Italijos pirkimo ir pardavimo sąskaitų faktūrų ryšių ataskaitoms teikti. Jei veiksmų tipas yra **Žiniatinklio tarnyba**, puslapyje **Pranešimų apdorojimo veiksmai** yra „FastTab“ **Įvairi informacija**, kuriame galite nurodyti patvirtinimo tekstą. Šis patvirtinimo tekstas bus rodomas vartotojams prieš apdorojant pasirinktai žiniatinklio tarnybai pateiktas užklausas.
+- **Užklausos tikrinimas** – šį veiksmo tipą naudokite tikrinimui iš serverio prašyti.
 
 #### <a name="initial-statuses-fasttab"></a>Pradinių būsenų „FastTab“
 
 > [!NOTE]
-> „FastTab“ **Pradinės būsenos** negalima naudoti veiksmams, kurių pradinis tipas yra **Kurti pranešimą**.
+> „FastTab“ **Pradinės būsenos** nepasiekiamas, kai veiksmų pradinis veiksmo tipas yra **Kurti pranešimą**.
 
-| Laukas               | Aprašas                                                                                         |
-|---------------------|-----------------------------------------------------------------------------------------------------|
+| Laukas               | Aprašas |
+|---------------------|-------------|
 | Pranešimo prekės būsena | Pasirinkite pranešimo elemento būseną, pagal kurią turi būti įvertintas pasirinkto pranešimo apdorojimo veiksmas. |
-| aprašymas         | Pasirinkto pranešimo elemento būsenos aprašas.                                                  |
+| aprašymas         | Pasirinkto pranešimo elemento būsenos aprašas. |
 
 #### <a name="result-statuses-fasttab"></a>Galutinių būsenų „FastTab“
 
 | Laukas               | aprašymas |
 |---------------------|-------------|
-| Pranešimo būsena      | Pasirinkite pranešimų būsenas, pagal kurias turi būti įvertintas pasirinkto pranešimo apdorojimo veiksmas. Šis laukas galimas tik pranešimų apdorojimo veiksmams, kurie vertinami pranešimo lygiu. Pavyzdžiui, jis galimas veiksmų tipams **Elektroninių ataskaitų eksportavimas** ir **Elektroninių ataskaitų importavimas**. Jis negalimas veiksmų tipams **Vartotojų apdorojimas** ir **Pranešimo elemento vykdymo lygis**. |
+| Pranešimo būsena      | Pasirinkite pranešimų būsenas, pagal kurias turi būti įvertintas pasirinkto pranešimo apdorojimo veiksmas. Šis laukas galimas tik pranešimų apdorojimo veiksmams, kurie vertinami pranešimo lygiu. Pavyzdžiui, jis pasiekiamas, kai veiksmų tipas yra **Elektroninių ataskaitų eksportavimas** ir **Elektroninių ataskaitų importavimas**, bet nepasiekiamas, kai veiksmų tipas yra **Vartotojų apdorojimas** ir **Pranešimo elemento vykdymo lygis**. |
 | aprašymas         | Pasirinkto pranešimo būsenos aprašas. |
 | Atsiliepimo tipas       | Pasirinkto pranešimo būsenos atsakymo tipas. |
 | Pranešimo prekės būsena | Pasirinkite rodomas būsenas, kurios turi būti prieinamos įvertinus pasirinkto pranešimo apdorojimo veiksmą. Šis laukas galimas tik pranešimų apdorojimo veiksmams, kurie vertinami pranešimo elemento lygiu. Pavyzdžiui, jis galimas veiksmų tipams **Vartotojų apdorojimas** ir **Pranešimo elemento vykdymo lygis**. Šiame lauke pranešimų apdorojimo veiksmams, įvertintiems pranešimo lygiu, rodoma pranešimo elemento būsena, kuri buvo nustatyta pasirinkto pranešimo būsenai. |
 
-Šioje lentelėje parodoma, kokias rezultatų būsenas reikia nustatyti atsižvelgiant į veiksmų tipus.
+Toliau pateikiamoje lentelėje rodomos rezultatų būsenos, kurias reikia nustatyti skirtingiems veiksmų tipams ir atsakų tipams.
 
-| El. pranešimo veiksmo tipas / atsako tipas  | Sėkmingai įvykdyta  | Darbo klaida  | Techninė klaida  | Vartotojo nustatyta  | Atšaukti  |
-|-------------------------------------------------|--------------|---------|-------|-----|-----------------|
-| Kurti pranešimą                                  | X            |         |       |     |                 |
-| Elektroninių ataskaitų eksportavimas                     | X            |         |       |     |                 |
-| Elektroninių ataskaitų importavimas                     |              |         |       |     |                 |
-| Tinklo tarnyba                                     | X            |         | X     |     |                 |
-| Vartotojo apdorojamas                                 |              |         |       |     |                 |
-| Pranešimo vykdymo lygis                         |              |         |       |     |                 |
-| Automatiškai įvesti įrašus                                |              |         |       |     |                 |
-| Pranešimo prekės vykdymo lygis                    |              |         |       |     |                 |
-| Užklausos tikrinimas                            | X            |  X      | X     |     |                 |
-| Elektroninių ataskaitų eksportavimo pranešimas             | X            |         |       |     |                 |
-| Pranešimų lygio vartotojų apdorojimas                   |              |         |       |     |                 |
+| Elelktroninio pranešimo veiksmo tipas / atsako tipas | Sėkmingai įvykdyta | Darbo klaida | Techninė klaida | Vartotojo nustatyta | Atšaukti |
+|----------------------------------------------|-----------------------|----------------|-----------------|--------------|--------|
+| Kurti pranešimą                               | X                     |                |                 |              |        |
+| Elektroninių ataskaitų eksportavimas                  | X                     |                |                 |              |        |
+| Elektroninių ataskaitų importavimas                  |                       |                |                 |              |        |
+| Tinklo tarnyba                                  | X                     |                | X               |              |        |
+| Vartotojo apdorojamas                              |                       |                |                 |              |        |
+| Pranešimo vykdymo lygis                      |                       |                |                 |              |        |
+| Automatiškai įvesti įrašus                             |                       |                |                 |              |        |
+| Pranešimo prekės vykdymo lygis                 |                       |                |                 |              |        |
+| Užklausos tikrinimas                         | X                     | X              | X               |              |        |
+| Elektroninių ataskaitų eksportavimo pranešimas          | X                     |                |                 |              |        |
+| Pranešimų lygio vartotojų apdorojimas                |                       |                |                 |              |        |
 
 ### <a name="electronic-message-processing"></a>El. pranešimų apdorojimas
 
 Elektroninių pranešimų apdorojimas yra pagrindinė elektroninių pranešimų funkcionalumo koncepcija. Ji sujungia veiksmus, kuriais turi būti įvertintas elektroninis pranešimas. Veiksmus galima susieti naudojant pradinę būseną ir rezultatų būseną. Arba veiksmus, kurių tipas **Vartotojų apdorojimas**, galima pradėti savarankiškai. Puslapyje **Elektroninių pranešimų apdorojimas** (**Mokesčiai** \> **Nustatymas** \> **Elektroniniai pranešimai** \> **Elektroninių pranešimų apdorojimas**) taip pat galite pasirinkti papildomus laukus, kurie turi būti palaikomi apdorojant pranešimo lygiu arba pranešimo elementų lygiu.
 
-„FastTab“ skirtuke **Veiksmas** galima pridėti iš anksto apibrėžtų veiksmų apdorojimui. Galite nurodyti, ar veiksmą reikia vykdyti atskirai, ar jį galima inicijuoti apdorojant. Norėdami nurodyti, ar veiksmą gali inicijuoti tik vartotojas, pažymėkite apdorojamo veiksmo žymės langelį **Vykdyti atskirai**. Panaikinkite parametro **Vykdyti atskirai** žymėjimą, jei norite, kad veiksmas būtų pradėtas apdorojant, kai pranešimų arba pranešimų elementų būsena nurodyta kaip pradinė šio veiksmo būsena. Tipo **Vartotojo veiksmas** veiksmą reikia vykdyti tik atskirai. 
+„FastTab“ skirtuke **Veiksmas** galima pridėti iš anksto apibrėžtų veiksmų apdorojimui. Galite nurodyti, ar veiksmą reikia vykdyti atskirai, ar jį galima pradėti apdorojant. Norėdami nurodyti, kad apdorojamą veiksmą gali inicijuoti tik vartotojas, to veiksmo lauką **Vykdyti atskirai** nustatykite kaip **Taip**. Jei veiksmas turi būti pradedamas apdorojant pranešimus arba pranešimų elementus, kurie yra tokios būsenos, kokia nustatyta kaip pradinė to veiksmo būsena, lauką **Vykdyti atskirai** nustatykite kaip **Ne**. Tipo **Vartotojo veiksmas** veiksmus visada reikia vykdyti atskirai.
 
-Kartais gali prireikti sujungti kelis veiksmus į seką, net jei pirmasis iš jų nustatytas vykdyti atskirai. Pavyzdžiui, kai ataskaitos generavimą turi inicijuoti vartotojas, bet sugeneruota ataskaita turi būti nedelsiant siunčiama į žiniatinklio tarnybą, o žiniatinklio tarnybos atsakas turi būti nurodytas sistemoje. Tokiu atveju galite naudoti **neatskiriamą seką**. Norėdami tai padaryti, spustelėkite mygtuką **Neatskiriama seka**, pateiktą puslapio **Elektroninių pranešimų apdorojimas** „FastTab“ **Veiksmas** veiksmų srityje, sukurkite seką ir pasirinkite ją tų veiksmų, kurie visada turi būti vykdomi kartu, stulpelyje **Neatskiriama seka**. Šiuo atveju pirmą veiksmą galima nustatyti **Vykdyti atskirai**, bet visų kitų – negalima.
+Kartais kelis veiksmus reikia sujungti į seką, net jei pirmasis veiksmas yra nustatytas būti vykdomas atskirai. Pavyzdžiui, vartotojas turi inicijuoti ataskaitos generavimą, tačiau iš karto po ataskaitos sugeneravimo ją reikia siųsti į žiniatinklio tarnybą, o žiniatinklio tarnybos atsakas turi būti nurodytas sistemoje. Šioje situacijoje galite sukurti neatskiriamą veiksmų, kurie visada turi būti vykdomi kartu, seką. „FastTab“ konteineryje **Veiksmas** virš tinklelio pasirinkite **Neatskiriamos sekos** ir sukurkite seką. Tada lauke **Neatskiriama seka** pasirinkite visų veiksmų, kuriuos reikia vykdyti kartu, seką. Šiuo atveju pirmam sekos veiksmui lauką **Vykdyti atskirai** galima nustatyti kaip **Taip**, tačiau visiems kitiems veiksmams – **Ne**.
 
 „FastTab“ skirtuke **Pranešimo elemento papildomi laukai** galima pridėti iš anksto apibrėžtų papildomų laukų, susijusių su pranešimo elementais. Turite pridėti papildomų laukų kiekvienam pranešimo elemento, su kuriuo susiję laukai, tipui.
 
@@ -308,7 +310,7 @@ Kartais gali prireikti sujungti kelis veiksmus į seką, net jei pirmasis iš j�
 
 „FastTab“ skirtuke **Paketas** galima nustatyti apdorojimą dirbti paketiniu režimu.
 
-## <a name="work-with-electronic-messages-functionality"></a>Darbas su elektroninių pranešimų funkcija
+## <a name="work-with-the-electronic-messages-functionality"></a>Darbas su elektroninių pranešimų funkcija
 
 Jei dirbate pranešimo lygiu, puslapis **Elektroniniai pranešimai** (**Mokesčiai** \> **Užklausos ir ataskaitos** \> **Elektroniniai pranešimai** \> **Elektroniniai pranešimai**) bus naudingesnis. Jei dirbate duomenų rinkinio (pranešimo elemento) lygiu, puslapis **Elektroninio pranešimo elementai** (**Mokesčiai** \> **Užklausos ir ataskaitos** \> **Elektroniniai pranešimai** \> **Elektroninio pranešimo elementai**) bus naudingesnis.
 
@@ -316,36 +318,36 @@ Jei dirbate pranešimo lygiu, puslapis **Elektroniniai pranešimai** (**Mokesči
 
 Puslapyje **Elektroniniai pranešimai** pateikiamas jums prieinamas apdorojimas pagal jūsų vaidmenį. Saugos vaidmenys yra susieti su apdorojimu nustatant šį apdorojimą. Kiekvienam jums prieinamam apdorojimui puslapyje pateikiami elektroniniai pranešimai ir su jais susijusi informacija.
 
-„FastTab“ skirtuke **Pranešimai** rodomi pasirinkto apdorojimo elektroniniai pranešimai. Priklausomai nuo pasirinkto pranešimo būsenos ir iš anksto apibrėžto apdorojimo, galite vykdyti kelis veiksmus pasirinkdami virš tinklelio esančius mygtukus.
+„FastTab“ skirtuke **Pranešimai** rodomi pasirinkto apdorojimo elektroniniai pranešimai. Kai kuriuos veiksmus galite vykdyti naudodami toliau nurodytus virš tinklelio esančius mygtukus – tai priklauso nuo pasirinkto pranešimo būsenos ir iš anksto nustatyto apdorojimo.
 
 - **Naujas** – šis mygtukas susietas su veiksmų tipu **Kurti pranešimą**.
 - **Naikinti** – šį mygtuką galima naudoti, jei pažymėtas žymės langelis **Leisti naikinti**, skirtas pasirinkto pranešimo dabartinei būsenai.
-- **Surinkti duomenis** – šis mygtukas yra susijęs su tipo **Automatiškai įvesti įrašus** veiksmu.
+- **Surinkti duomenis** – šis mygtukas susietas su tipo **Automatiškai įvesti įrašus** veiksmais.
 - **Generuoti ataskaitą** – šis mygtukas susietas su veiksmų tipu **Elektroninių ataskaitų eksportavimo pranešimas**.
 - **Siųsti ataskaitą** – šis mygtukas susietas su veiksmų tipu **Žiniatinklio tarnyba**.
-- **Importuoti ataskaitą** – šis mygtukas susietas su tipo **Elektroninių ataskaitų importavimas** veiksmais.
+- **Importuoti atsaką** – šis mygtukas susietas su tipo **Elektroninių ataskaitų importavimas** veiksmais.
 - **Atnaujinti būseną** – šis mygtukas susietas su veiksmų tipu **Pranešimų lygio vartotojų apdorojimas**.
 - **Pranešimo elementai** – atidaromas puslapis **Elektroninio pranešimo elementai**.
 
-„FastTab“ skirtuke **Veiksmų žurnalas** rodoma informacija apie visus veiksmus, kurie buvo vykdomi pasirinktam pranešimui. Jei veiksmas baigėsi klaida, informacija apie klaidą bus pridėta prie susijusios veiksmų žurnalo eilutės. Pasirinkite eilutę ir spustelėkite **iškarpos** mygtuką, esantį viršutiniame dešiniajame puslapio kampe, kad peržiūrėtumėte informaciją apie klaidą.
+„FastTab“ skirtuke **Veiksmų žurnalas** rodoma informacija apie visus veiksmus, kurie buvo vykdomi pasirinktam pranešimui. Jei dėl veiksmo įvyko klaida, informacija apie klaidą pridedama prie susijusios tinklelio eilutės. Norėdami peržiūrėti informaciją apie klaidą, pasirinkite tinklelio eilutę, tada – viršutiniame dešiniajame puslapio kampe esantį mygtuką **Priedas** (sąvaržėlės simbolis).
 
 „FastTab“ skirtuke **Pranešimo papildomi laukai** rodomi visi papildomi laukai, kuriais apibrėžiami pranešimai nustatant apdorojimą. Jame taip pat rodomos tų papildomų laukų vertės.
 
-„FastTab“ skirtuke **Pranešimo elementai** rodomi visi su pasirinktu pranešimu susiję pranešimo elementai. Kiekvienam pranešimo elementui galima priskirti toliau nurodytas funkcijas, priklausomai nuo šio pranešimo elemento būsenos.
+„FastTab“ skirtuke **Pranešimo elementai** rodomi visi su pasirinktu pranešimu susiję pranešimo elementai. Kai kuriuos veiksmus galite vykdyti naudodami toliau nurodytus virš tinklelio esančius mygtukus – tai priklauso nuo pasirinkto pranešimo elemento būsenos.
 
 - **Naikinti** – šį mygtuką galima naudoti, jei pažymėtas žymės langelis **Leisti naikinti**, skirtas pasirinkto pranešimo elemento dabartinei būsenai.
 - **Atnaujinti būseną** – šis mygtukas susietas su veiksmų tipu **Vartotojų apdorojimas**.
-- **Originalus dokumentas** – šis mygtukas vartotojui suteikia galimybę atidaryti puslapį, kuriame pateiktas originalus pasirinkto pranešimo dokumentas.
+- **Pradinis dokumentas** – atidaromas puslapis, kuriame rodomas pradinis pasirinkto pranešimo elemento dokumentas.
 
-Galite peržiūrėti visus pasirinkto pranešimo priedus. Šie priedai yra jau sugeneruotos ir gautos ataskaitos. Norėdami peržiūrėti priedus, pasirinkite pranešimą, tada veiksmų srityje pasirinkite mygtuką **Priedas**.
+Visos sugeneruotos ir gautos pranešimo ataskaitos yra pridedamos prie to pranešimo. Norėdami peržiūrėti su pranešimu susijusius priedus, pasirinkite pranešimą, tada – viršutiniame dešiniajame puslapio kampe esantį mygtuką **Priedas** (sąvaržėlės simbolis).
 
 ![Priedo mygtukas](media/attachment-icon.png)
 
-Puslapyje **Priedai** rodomi visi su pranešimu susiję priedai. Norėdami peržiūrėti failą, pasirinkite jį iš sąrašo kairėje, tada veiksmų srityje pasirinkite **Atidaryti**.
+Puslapyje **Priedai** rodomi visi su pasirinktu pranešimu susiję priedai. Norėdami peržiūrėti failą, pasirinkite jį iš sąrašo kairėje, tada veiksmų srityje pasirinkite **Atidaryti**.
 
 ![Mygtukas Atidaryti](media/open-button.png)
 
-Norėdami peržiūrėti priedą, susijusį su konkrečiu veiksmu, kuris anksčiau buvo vykdomas pranešimui, pasirinkite pranešimą puslapyje **Elektroniniai pranešimai**, tada „FastTab“ skirtuke **Veiksmų žurnalas** pasirinkite veiksmą. Tada veiksmų srityje pasirinkite mygtuką **Priedas**.
+Taip pat galite peržiūrėti priedus, susijusius su konkrečiu anksčiau vykdytu pranešimo veiksmu. Puslapio **Elektroniniai pranešimai** „FastTab“ konteinerio **Pranešimai** „FastTab“ konteineryje **Veiksmų žurnalas** pasirinkite pranešimą, tada – viršutiniame dešiniajame puslapio kampe esantį mygtuką **Priedas**.
 
 Taip pat galite vykdyti visą apdorojimą arba tik konkretų veiksmą, veiksmų srityje pasirinkdami **Vykdyti apdorojimą**.
 
@@ -400,7 +402,7 @@ Toliau pateiktoje lentelėje aprašomi skirtuko **Pranešimo elementai** laukai.
 </tr>
 <tr>
 <td>Sąskaitos numeris</td>
-<td>Kliento arba tiekėjo sąskaitos numeris (arba kita lauko vertė, atsižvelgiant į lauką, kuriuo apibrėžtas veiksmas <strong>Automatiškai įvesti įrašus</strong>). Šis laukas gali būti automatiškai užpildytas tik tada, kai sąskaita faktūra įtraukiama į pranešimo elementų lentelę.</td>
+<td>Kliento arba tiekėjo kliento numeris (arba kita lauko reikšmė – tai priklauso nuo lauko, kuriuo apibrėžtas automatinio įrašų įvedimo veiksmas). Šis laukas gali būti automatiškai užpildytas tik tada, kai sąskaita faktūra įtraukiama į pranešimo elementų lentelę.</td>
 </tr>
 <tr>
 <td>Pranešimas</td>
@@ -412,7 +414,7 @@ Toliau pateiktoje lentelėje aprašomi skirtuko **Pranešimo elementai** laukai.
 </tr>
 <tr>
 <td>Kitas veiksmas</td>
-<td>Tolesni veiksmai, kuriuos galima inicijuoti dabartinei pranešimo elemento būsenai.</td>
+<td>Tolesni veiksmai, kuriuos galima pradėti, kai pranešimo elementas yra dabartinės būsenos.</td>
 </tr>
 </tbody>
 </table>
@@ -421,7 +423,7 @@ Skirtuke **Papildomi laukai** rodomi papildomi pasirinkto pranešimo elemento la
 
 #### <a name="run-processing"></a>Vykdyti apdorojimą
 
-Veiksmų srityje pasirinkite **Vykdyti apdorojimą** pranešimo elementų apdorojimui vykdyti. Norėdami vykdyti konkretų veiksmą, dialogo lange **Vykdyti apdorojimą** parinktį **Pasirinkti veiksmą** nustatykite į **Taip**, tada pasirinkite veiksmą. Norėdami vykdyti visą apdorojimą, parinktį **Pasirinkti veiksmą** palikite nustatytą į **Ne**.
+Veiksmų srityje pasirinkite **Vykdyti apdorojimą** pranešimo elementų apdorojimui vykdyti. Norėdami vykdyti konkretų veiksmą, dialogo lange **Vykdyti apdorojimą** parinktį **Pasirinkti veiksmą** nustatykite kaip **Taip**, tada pasirinkite veiksmą. Norėdami vykdyti visą apdorojimą, parinktį **Pasirinkti veiksmą** palikite nustatytą kaip **Ne**.
 
 #### <a name="generate-report"></a>Generuoti ataskaitą
 
@@ -429,13 +431,13 @@ Norėdami sugeneruoti ataskaitą, veiksmų srityje pasirinkite **Generuoti atask
 
 #### <a name="update-status"></a>Atnaujinti būseną
 
-Norėdami atnaujinti vieno ar daugiau pranešimo elementų būseną, veiksmų srityje pasirinkite **Atnaujinti būseną**. Norėdami pasirinkti atnaujinti pranešimo elementus, dialogo lange **Atnaujinti būseną** naudokite „FastTab“ skirtuką **Įtrauktini įrašai**. Įsitikinkite, kad teisingai apibrėžiate pasirinkimo kriterijus, nes pranešimų elementų būsenos atnaujinamos pagal šiuos kriterijus, pradinę pasirinkto veiksmo būseną ir vertę **Nauja būsena**, kurią nustatote. Baigus būsenos atnaujinimą bus sunku nustatyti, kurie elementai ką tik buvo atnaujinti. Todėl bus sunku atkurti būsenos naujinimus.
+Norėdami atnaujinti vieno ar daugiau pranešimo elementų būseną, veiksmų srityje pasirinkite **Atnaujinti būseną**. Norėdami pasirinkti naujintinus pranešimo elementus, dialogo lange **Atnaujinti būseną** naudokite „FastTab“ **Įtrauktini įrašai**. Įsitikinkite, kad teisingai apibrėžiate pasirinkimo kriterijus, nes pranešimų elementų būsenos atnaujinamos pagal šiuos kriterijus, pradinę pasirinkto veiksmo būseną ir reikšmę **Nauja būsena**, kurią nurodote. Baigus būsenos atnaujinimą bus sunku nustatyti, kurie elementai buvo atnaujinti. Todėl bus sunku atšaukti būsenos naujinimą.
 
 #### <a name="electronic-messages"></a>El. pranešimai
 
-Norėdami peržiūrėti elektroninį pranešimą, susijusį su pasirinkto pranešimo elementu, veiksmų srityje pasirinkite **Elektroninis pranešimas**.
+Norėdami peržiūrėti elektroninį pranešimą, susijusį su pasirinktu pranešimo elementu, veiksmų srityje pasirinkite **Elektroniniai pranešimai**.
 
-Taip pat galite peržiūrėti visus pranešimo elementą atitinkančius failus. Pasirinkite pranešimo elemento lauką **Pranešimas** arba veiksmų srityje pasirinkite **Elektroninis pranešimas**. Puslapyje **Elektroninis pranešimas** pasirinkite pranešimą ataskaitai peržiūrėti, tada veiksmų srityje pasirinkite mygtuką **Priedas**.
+Taip pat galite peržiūrėti visus failus, susijusius su konkrečiu pranešimo elementu. Pasirinkite pranešimo elemento lauką **Pranešimas** arba veiksmų srityje pasirinkite **Elektroniniai pranešimai**. Tada puslapyje **Elektroninis pranešimas** pasirinkite pranešimą, kurio failus norite peržiūrėti, tada pasirinkite viršutiniame dešiniajame puslapio kampe esantį mygtuką **Priedas** (sąvaržėlės simbolis).
 
 ![Priedo mygtukas](media/attachment-icon.png)
 
@@ -447,21 +449,17 @@ Puslapyje **Priedai** rodomi visi su pranešimu susiję priedai. Norėdami perž
 
 Norėdami atidaryti pasirinkto pranešimo elemento originalų dokumentą, veiksmų srityje pasirinkite **Originalus dokumentas**.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-set-up-and-run-processing-to-call-a-simple-er-exporting-format-to-generate-an-excel-report"></a>Pavyzdys. Apdorojimo nustatymas ir vykdymas norint iškviesti paprastą ER eksportavimo formatą „Excel“ ataskaitai sugeneruoti
 
-Sukūrę savo ER formatą, susieję jį su duomenų šaltiniais ir užbaigę, galite paleisti jį naudodami darbo sritį **Elektroninės ataskaitos**. Generuojama ataskaita, kurią galite įrašyti vietoje.
+Sukūrę savo ER formatą, susieję jį su duomenų šaltiniais ir užbaigę, galite paleisti jį naudodami darbo sritį **Elektroninės ataskaitos**. Sugeneruojama ataskaita, kurią galite įrašyti vietoje.
 
 Norėdami kontroliuoti šiuos ataskaitų teikimo proceso aspektus, turite nustatyti elektroninių pranešimų apdorojimą.
 
 - Užregistruokite informaciją apie tai, kas sugeneravo ataskaitą.
-- Užregistruokite, kada buvo sugeneruota ataskaita.
+- Užregistruokite informaciją apie tai, kada ataskaita buvo sugeneruota.
 - Įrašykite ankstesnių laikotarpių sugeneruotas ataskaitas.
 
-Šiame skyriuje pateikiamas pavyzdys, rodantis, kaip galite nustatyti elektroninių pranešimų funkciją ataskaitų teikimo procesui sukurti.
-
-### <a name="set-up-and-run-processing-to-call-a-simple-er-exporting-format-to-generate-an-excel-report"></a>Nustatykite ir vykdykite apdorojimą norėdami iškviesti paprastą ER eksportavimo formatą „Excel“ ataskaitai sugeneruoti
-
-Šiame skyriuje pateikiamas pavyzdys, rodantis, kaip galite nustatyti elektroninius pranešimus ataskaitai, kuri pagrįsta „Excel“ ER eksportavimo formatu, generuoti. Pagal šį pavyzdį „Excel“ ER eksportavimo formatas jau turi būti sukurtas, susietas su duomenų šaltiniais ir užbaigtas. Elektroninių pranešimų numeracija jau turi būti nustatyta.
+Šiame skyriuje pateikiamas pavyzdys, rodantis, kaip galite nustatyti elektroninius pranešimus ataskaitai, kuri pagrįsta „Excel“ ER eksportavimo formatu, generuoti. Jei norite vadovautis šiuo pavyzdžiu, „Excel“ ER eksportavimo formatas jau turi būti sukurtas, susietas su duomenų šaltiniais ir užbaigtas. Be to, jau turi būti nustatyta elektroninių pranešimų numeracija.
 
 Tai naudinga, jei kurdami apdorojimą pirmiausia apibrėžiate apdorojimo veiksmus ir būsenas, kurios bus nustatytos. Šioje iliustracijoje rodoma, kaip pagal šį pavyzdį atrodo apdorojimas.
 
@@ -518,7 +516,7 @@ Pavyzdžiui, galite sukurti toliau nurodytus veiksmus.
 
     - „FastTab“ skirtuko **Bendras** lauke **Veiksmo tipas** pasirinkite **Pranešimų lygio vartotojų apdorojimas**.
     - „FastTab“ skirtuko **Pradinės būsenos** lauke **Pranešimo būsena** pasirinkite **Sugeneruota**.
-    - „FastTab“ skirtuko **Galutinės būsenos** lauke **Pranešimo būsena** pasirinkite **Parengta** arba (ir) **Nauja**. Lauke **Atsakymo tipas** įveskite **Sėkmingai įvykdyta**.
+    - „FastTab“ konteineryje **Rezultatų būsenos** įtraukite atskirą eilutę kiekvienai iš dviejų pranešimo būsenų (**Paruoštas** ir **Naujas**). Abiejose eilutėse lauką **Atsako tipas** nustatykite kaip **Sėkmingai įvykdytas**.
 
 #### <a name="electronic-message-processing"></a>El. pranešimų apdorojimas
 
@@ -526,7 +524,7 @@ Pavyzdžiui, galite sukurti toliau nurodytus veiksmus.
 
 1. Eikite į **Mokesčiai \> Nustatymas \> Elektroniniai pranešimai \> Elektroninių pranešimų apdorojimas**.
 2. Prie savo apdorojimo pridėkite įrašą ir įtraukite visus anksčiau apibrėžtus veiksmus bei papildomą lauką.
-3. Pasirinktinai. „FastTab“ skirtuke **Saugos vaidmenys** apibrėžkite savo apdorojimo saugos vaidmenis, kad apribotumėte prieigą prie konkrečių ataskaitų.
+3. Pasirinktinai. „FastTab“ konteineryje **Saugos vaidmenys** apibrėžkite savo apdorojimo saugos vaidmenis, kad apribotumėte prieigą prie konkrečių ataskaitų.
 4. Eikite į **Mokesčiai \> Užklausos ir ataskaitos \> Elektroniniai pranešimai \> Elektroniniai pranešimai**.
 5. Pasirinkite **Naujas** pranešimui sukurti. Šiuo metu galite pridėti datas ir aprašą. Taip pat galite atnaujinti papildomo lauko vertę, kaip jums reikia.
 
@@ -534,8 +532,8 @@ Pavyzdžiui, galite sukurti toliau nurodytus veiksmus.
 
 „FastTab“ skirtuke **Veiksmų žurnalas** esančiame tinklelyje automatiškai užpildomas visų pranešime atliekamų veiksmų žurnalas.
 
-Dabar galite panaikinti arba atnaujinti pranešimo būseną. Norėdami atnaujinti pranešimo būseną, pasirinkite **Atnaujinti būseną**, tada lauke **Nauja būsena** pasirinkite **Parengta**. Tada pasirinkite **Gerai**.
+Dabar galite panaikinti arba atnaujinti pranešimo būseną. Norėdami atnaujinti pranešimo būseną, pasirinkite **Atnaujinti būseną**. Lauke **Nauja būsena** pasirinkite **Paruoštas**, tada – **Gerai**.
 
 ![Atnaujinti pranešimo būseną](media/update-status.png)
 
-Pranešimo būsena atnaujinta į **Parengta** ir dabar galite generuoti ataskaitą pasirinkdami **Generuoti ataskaitą**. Ataskaita sugeneruota, o pranešimo būsena ir veiksmų žurnalas atnaujinti. Norėdami peržiūrėti sugeneruotą ataskaitą, veiksmų srityje pasirinkite mygtuką **Priedas**.
+Pranešimo būsena atnaujinta į **Parengta** ir dabar galite generuoti ataskaitą pasirinkdami **Generuoti ataskaitą**. Ataskaita sugeneruota, o pranešimo būsena ir veiksmų žurnalas atnaujinti. Norėdami peržiūrėti sugeneruotą ataskaitą, pasirinkite viršutiniame dešiniajame puslapio kampe esantį mygtuką **Priedas** (sąvaržėlės simbolis).

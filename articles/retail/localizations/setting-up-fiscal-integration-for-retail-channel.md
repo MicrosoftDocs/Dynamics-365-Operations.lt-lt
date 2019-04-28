@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773332"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898982"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos nustatymas
 
@@ -60,7 +60,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
 2. Įkelkite fiskalinių jungčių ir finansinių dokumentų teikėjų konfigūracijas.
 
     Finansinių dokumentų teikėjas generuoja finansinius dokumentus, nurodančius mažmeninės prekybos operacijas ir įvykius, kurie užregistruoti EKA tokiu formatu, koks naudojamas sąveikaujant su finansiniu įrenginiu arba paslauga. Pvz., finansinių dokumentų teikėjas gali generuoti finansinio kvito versiją XML formatu.
-    
+
     Fiskalinė jungtis yra atsakinga už ryšį su finansiniu įrenginiu arba paslauga. Pvz., fiskalinė jungtis gali siųsti finansinį kvitą, kurį finansinių dokumentų teikėjas sukurė XML formatu, fiskaliniam spausdintuvui. Daugiau informacijos apie fiskalinės integracijos komponentus žr. [Finansinių įrenginių fiskalinės integracijos procesas ir fiskalinės integracijos pavyzdžiai](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices).
 
     1. Puslapyje **Fiskalinės jungtys** (**Mažmeninė prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės jungtys**) nusiųskite kiekvieno įrenginio arba paslaugos, kuria planuojate naudotis fiskalinės integracijos tikslais, XML konfigūraciją.
@@ -185,8 +185,12 @@ Klaidų tvarkymo parinktys, teikiamos fiskalinėje integracijoje, nustatomos fis
 
     - **Leisti praleisti** – šis parametras įjungia parinktį **Praleisti** klaidų tvarkymo dialogo lange.
     - **Leisti pažymėti kaip užregistruotą** – šis parametras įjungia parinktį **Pažymėti kaip užregistruotą** klaidų tvarkymo dialogo lange.
+    - **Tęsti esant klaidai** – jei šis parametras įjungtas, mokesčių registravimo procesą galima tęsti EKA registre, kai operacijos arba įvykio finansinis registravimas nepavyksta. Kitu atveju, norėdamas vykdyti kitos operacijos arba įvykio finansinį registravimą, operatorius turi kartoti nepavykusį finansinį registravimą, nepaisyti jo arba pažymėti operaciją ar įvykį kaip užregistruotą. Daugiau informacijos žr. [Nebūtinas finansinis registravimas](fiscal-integration-for-retail-channel.md#optional-fiscal-registration).
 
-2. Norint naudoti parinktis **Praleisti** ir **Pažymėti kaip užregistruotą** klaidų tvarkymo dialogo lange, reikia teisės **Leisti praleisti arba pažymėti kaip užregistruotą**. Todėl puslapyje **Teisių grupės** (**Mažmeninė prekyba \> Darbuotojai \> Teisių grupės**) įjunkite teisę **Leisti praleisti arba pažymėti kaip užregistruotą**.
+    > [!NOTE]
+    > Jei parametras **Tęsti įvykus klaidai** įjungtas, parametrai **Leisti nepaisyti** ir **Leisti pažymėti kaip užregistruotą** išjungiami automatiškai.
+
+2. Norint naudoti parinktis **Nepaisyti** ir **Pažymėti kaip užregistruotą** klaidų tvarkymo dialogo lange, reikia teisės **Leisti nepaisyti registravimo arba pažymėti kaip užregistruotą**. Todėl puslapyje **Teisių grupės** (**Mažmeninė prekyba \> Darbuotojai \> Teisių grupės**) įjunkite teisę **Leisti nepaisyti registravimo arba pažymėti kaip užregistruotą**.
 3. Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** operatoriams suteikia galimybę įvesti papildomą informaciją, kai fiskalinė registracija. Jei norite, kad ši funkcija būtų teikiama, turite nurodyti parinkčių **Praleisti** ir **Pažymėti kaip užregistruotą** informacijos kodus fiskalinių jungčių grupėje. Tada operatoriaus įvesta informacija įrašoma kaip informacijos kodo operacija, susieta su finansine operacija. Daugiau informacijos apie informacijos kodus žr. [Informacijos kodai ir informacijos kodų grupės](../info-codes-retail.md).
 
     > [!NOTE]
@@ -200,6 +204,8 @@ Klaidų tvarkymo parinktys, teikiamos fiskalinėje integracijoje, nustatomos fis
     > - **Finansinis dokumentas** – privalomas dokumentas, kuris turi būti užregistruoti sėkmingai (pavyzdžiui, finansinis kvitas).
     > - **Nefinansinis dokumentas** – papildomas operacijos arba įvykio dokumentas (pvz., dovanų kortelės kvitas).
 
+4. Jei operatorius privalo galėti toliau apdoroti dabartinę operaciją (pvz., kurti arba baigti operaciją) po to, kai įvyksta būsenos tikrinimo klaida, turėtumėte įjungti teisę **Leisti nepaisyti būsenos tikrinimo klaidos** puslapyje **Teisių grupės** (**Mažmeninė prekyba \> Darbuotojai \> Teisių grupės**). Daugiau informacijos apie būsenos tikrinimo procedūrą žr. [Finansinio registravimo būsenos tikrinimas](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check).
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>Finansinių X / Z ataskaitų iš nustatymas EKA
 
 Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumėte įtraukti naujų mygtukų.
@@ -211,3 +217,12 @@ Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumė
     3. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį Z** ypatybes.
     4. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>Rankinio atidėtos finansinio registravimo vykdymo įjungimas
+
+Norėdami įjungti neautomatinį atidėto finansinio registravimo vykdymą, turėtumėte įtraukti naują mygtuką į EKA maketą.
+
+- Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas temoje [Pasirinktinio operacijos mygtuko įtraukimas į EKA maketą mažmeninių pardavimų valdyme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
+
+    1. Pasirinkite atnaujintiną maketą.
+    2. Įtraukite naują mygtuką ir nustatykite mygtuko **Baigti finansinio registravimo procesą** ypatybę.
+    3. Puslapyje **Paskirstymo grafikas** paleiskite **1090** užduotį, kad perkeltumėte pakeitimus į kanalo duomenų bazę.

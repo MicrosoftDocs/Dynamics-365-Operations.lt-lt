@@ -3,7 +3,7 @@ title: Maršrutai ir operacijos
 description: Šioje temoje pateikiama informacija apie maršrutus ir operacijas.
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 417fd960a43ad3fd023ea0c4a17be735b69743de
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 961cc6fe5bd1bfbb0f5c9116024415a5d53f569e
+ms.sourcegitcommit: dc90d56050d7353930d048476451542cce147e37
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333351"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "850673"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -57,13 +57,12 @@ Jei gamybos kontrolės parametruose įjungiate tik paprastus maršrutus, jums ap
 
 Jei gamybos kontrolės parametruose įgalinsite sudėtingesnius maršrutų tinklus, galėsite apibrėžti maršrutus, kurie turi kelias pradžios datas, ir operacijas, kurias galima vykdyti lygiagrečiai.  
 
-[![Maršruto tinklas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Maršrutų tinklas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
-**Pastabos**
-
--   Kiekviena operacija gali turėti tik vieną vėlesnę operaciją, o visas maršrutas turi baigtis viena operacija.
--   Nėra garantijos, kad kelios operacijos, kurios turi tą pačią vėlesnę operaciją (pvz., 30 ir 40 operacijos ankstesnėje iliustracijoje), iš tikro bus vykdomos lygiagrečiai. Pasiekiamumas ir išteklių pajėgumai gali apriboti būdą, kaip operacijos planuojamos.
--   Negalima naudoti 0 (nulio) kaip operacijos numerio. Šis numeris rezervuotas ir yra naudojamas nurodyti tai, kad paskutinė maršruto operacija neturi vėlesnės operacijos.
+> [!NOTE]
+> -   Kiekviena operacija gali turėti tik vieną vėlesnę operaciją, o visas maršrutas turi baigtis viena operacija.
+> -   Nėra garantijos, kad kelios operacijos, kurios turi tą pačią vėlesnę operaciją (pvz., 30 ir 40 operacijos ankstesnėje iliustracijoje), iš tikro bus vykdomos lygiagrečiai. Pasiekiamumas ir išteklių pajėgumai gali apriboti būdą, kaip operacijos planuojamos.
+> -   Negalima naudoti 0 (nulio) kaip operacijos numerio. Šis numeris rezervuotas ir yra naudojamas nurodyti tai, kad paskutinė maršruto operacija neturi vėlesnės operacijos.
 
 ### <a name="parallel-operations"></a>Lygiagrečios operacijos
 
@@ -122,7 +121,8 @@ Be to, galite nurodyti, kad operacijų ryšys yra būdingas svetainei. Tokiu bū
 
 Operacijų ryšiai suteikia daug lankstumo, kai nustatote savo maršrutus. Be to, galimybė nustatyti numatytąsias ypatybes padeda sumažinti bendrųjų duomenų kiekį, kurį turite prižiūrėti. Tačiau, šis lankstumas reiškia ir tai, kad turite turėti omenyje kontekstą, kuriame modifikuojate operacijų ryšį.  
 
-**Pastaba:** dėl to, kad operacijų veiklos ypatybės saugomos kiekvienos operacijos kiekvieno maršruto operacijų ryšiuose, visi tos pačios operacijos pasikartojimai (pvz., Surinkimas) turi tą patį nustatymo laiką, vykdymo laiką, išteklių reikalavimus ir t. t. Todėl jei du operacijos pasikartojimai turi būti tame pačiame maršrute, bet jų vykdymo laikas skirtingas, turite sukurti dvi atskiras operacijas, pvz., 1 surinkimas ir 2 surinkimas.
+> [!NOTE]
+> Dėl to, kad operacijų veiklos ypatybės saugomos kiekvienos operacijos kiekvieno maršruto operacijų ryšiuose, visi tos pačios operacijos pasikartojimai (pvz., Surinkimas) turi tą patį nustatymo laiką, vykdymo laiką ir išteklių reikalavimus. Todėl jei du operacijos pasikartojimai turi būti tame pačiame maršrute, bet jų vykdymo laikas skirtingas, turite sukurti dvi atskiras operacijas, pvz., 1 surinkimas ir 2 surinkimas.
 
 ### <a name="modifying-product-specific-routes"></a>Su konkrečiu produktu susijusių maršrutų keitimas
 
@@ -132,7 +132,8 @@ Puslapyje **Maršrutas** galite keisti operacijų veiklos ypatybes, pvz., vykdym
 
 Beto, galite rankiniu būdu sukurti operaciją, kuri būdinga maršrutui ir išleistam produktui, naudodami funkciją **Kopijuoti ir redaguoti ryšį**.  
 
-**Pastaba:** jei įtrauksite naują operaciją į maršrutą puslapyje **Maršrutas**, operacijų ryšys sukuriamas tik dabartiniam išleistam produktui. Taigi, jei maršrutas naudojamas ir kitiems išleistiems produktams gaminti, nebus jokio taikomo operacijų ryšio šiems išleistiems produktams, o maršruto nebebus galima naudoti tiems išleistiems produktams.
+> [!NOTE]
+> Jei įtrauksite naują operaciją į maršrutą puslapyje **Maršrutas**, operacijų ryšys sukuriamas tik dabartiniam išleistam produktui. Taigi, jei maršrutas naudojamas ir kitiems išleistiems produktams gaminti, nebus jokio taikomo operacijų ryšio šiems išleistiems produktams, o maršruto nebebus galima naudoti tiems išleistiems produktams.
 
 ### <a name="maintaining-operation-relations-per-route"></a>Maršruto operacijų ryšių priežiūra
 
@@ -228,17 +229,32 @@ Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos 
 -   **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
 -   **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 
+### <a name="set-up-route-groups"></a>Nustatyti maršrutų grupes
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+Maršrutų grupes ir maršrutų arba užduočių tipų sąranką galite nustatyti pasirinkę **Gamybos kontrolė > Sąranka > Maršrutai > Maršrutų grupės**. Galite pasirinkti arba išvalyti toliau nurodytas kiekvieno maršruto / užduoties tipo maršrutų grupėje parinktis.
 
-[Komplektavimo specifikacijos ir formulės](bill-of-material-bom.md)
+- **Aktyvinimas** – pasirinkite šią parinktį, norėdami įgalinti pasirinktos užduoties tipo skaičiavimus ir planavimą bei gauti atsiliepimų apie užduotį planuojant užduotį. Šią parinktį turite pasirinkti, kad įjungtumėte užduoties tipą, tada pasirinkite likusias to užduoties tipo parinktis. Jei aktyvinimas nepažymėtas, tas užduoties tipas nebus įjungtas, neatsižvelgiant į kitų parinkčių pasirinkimą. 
+- **Užduoties valdymas** – pasirinkite šią parinktį, norėdami į užduočių valdymą įtraukti užduoties tipą, kai planuojate užduotis. 
+- **Darbo laikas** – pasirinkite šią parinktį, norėdami planuoti užduoties tipą pagal darbo laiko kalendorių, nurodytą operacijų ištekliui. Priešingu atveju bus naudojamas Grigaliaus kalendorius. Darbo laikas gali būti planuojamas pagal Grigaliaus kalendorių arba pagal nustatytą darbo laiko kalendorių. Jei pasirinksite šią parinktį, planavimas bus pagrįstas nurodytu darbo laiko kalendoriumi. Be to, užduoties tipo užduotis suplanuojama nuo vidurnakčio tos datos, kuri nustatoma kaip užduoties pradžios data.
+- **Pajėgumas** – pasirinkite šią parinktį, norėdami rezervuoti užduoties tipo pajėgumą, kai planuojama užduotis. Jei pasirenkate šią parinktį, pajėgumas rezervuojamas planuojant pasirinktą užduoties tipą. Tai leidžia peržvelgti, kurie užduočių tipai kiekvienoje maršruto grupėje naudoja operacijų išteklius. Pavyzdžiui, kai džiovinimo ištekliai yra ribotosios spartos ištekliai, šie ištekliai turi būti nurodyti kaip silpnosios vietos. Džiovinimo operacijos, kurios priskiriamos laukimo eilėje laiko užduočių tipams, rezervuos džiovinimo išteklius. 
 
-[Išlaidų kategorijos, naudojamos gamybos kelvadoje](../cost-management/cost-categories-used-production-routings.md)
+Kiekvieną užduoties tipą pirmiausia turite suaktyvinti arba išjungti. Kai užduoties tipas išjungtas, neatsižvelgiama į jokius kitus nustatymus (užduoties valdymas, darbo laikas ir pajėgumas), nes užduoties tipas nebus aktyvus. 
 
-[Išteklių galimybės](resource-capabilities.md)
+Tarp užduočių tipų galite rasti parinktį Persidengimas. Persidengimas suteikia galimybę vienu metu atlikti skirtingas užduotis. Kai užduotys persidengia, ištekliai gali būti naudojami, bet jų negalima rezervuoti tam tikroms užduotims.
+Todėl pasirinkus funkcijos Persidengimas aktyvinimą, likę nustatymai (užduoties valdymas, darbo laikas ir pajėgumas) neturi jokios įtakos maršrutų grupei. 
 
-[Elektroninio parašo apžvalga](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+> [!NOTE]
+> Naujindami versijas galite susidurti su šia klaida: **Aktyvinant planavimo mechanizmą įvyko CLR klaida**. Jei kilo ši klaida, atidarykite puslapį **Maršrutų grupės** ir išvalykite visų maršrutų, kurių funkciją **Persidengimas** suaktyvinote, parinktis **Užduoties valdymas**, **Darbo laikas** ir **Pajėgumas**. 
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [KS ir formulės](bill-of-material-bom.md)
+
+- [Išlaidų kategorijos, naudojamos gamybos kelvadoje](../cost-management/cost-categories-used-production-routings.md)
+
+- [Išteklių galimybės](resource-capabilities.md)
+
+- [Elektroninio parašo apžvalga](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
 
 
 

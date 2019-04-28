@@ -3,7 +3,7 @@ title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations“.
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363481"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975856"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations“.
 
@@ -47,6 +48,8 @@ Puslapyje **Vartotojo parinktys** pateikiama keletas visos sistemos dabartinio v
 - **Nuostatos**: pasirinkite numatytąsias vertes, kurios naudojamos kaskart atidarius „Finance and Operations“. Prie šių verčių priskiriama įmonė, pradinis puslapis ir numatytasis rodymo / redagavimo režimas. (Naudojantis rodymo / redagavimo režimu nustatoma, ar puslapis užrakintas peržiūrai, ar galima jį redaguoti kiekvieną kartą atidarius). Šiame skirtuke taip pat yra kalbos, laiko juostos, datos, laiko ir numerio formato parinktys. Galiausiai šiame skirtuke yra keletas papildomų kiekviename leidime skirtingų nuostatų.
 - **Paskyra**: koreguokite vartotojo vardą ir kitas su paskyra susijusias parinktis.
 - **Darbo eiga**: pasirinkite su darbo eiga susijusias parinktis.
+
+Spustelėdami mygtuką **Naudojimo duomenys** galite ne tik pakeisti savo vartotojo parametrus, bet ir peržiūrėti bei panaikinti savo naudojimo duomenis ir personalizavimo parametrus. Naudojantis prašymu, dauguma pasirinkčių įsimenamos, kad kitą kartą galėtumėte lengviau naudotis sistema. Naudodamiesi skirtuku **Personalizavimas** galite peržiūrėti ir tvarkyti asmeninius sistemos puslapiams atliktus pakeitimus. Naudojantis šiuo skirtuku taip pat galima iš naujo nustatyti funkcijų paaiškinimus, iššokančiuosius langus, kuriuose esate supažindinami su naujomis produkto funkcijomis (pasiekiama įdiegus platformos 26 naujinimą), kad būtumėte dar kartą įspėti apie anksčiau naudotas funkcijas.  
 
 ## <a name="implicit-personalizations"></a>Netiesioginis personalizavimas
 
@@ -160,7 +163,7 @@ Vartotojai, turintys administratoriaus teises, taip pat gali valdyti kitų varto
 
 - **Taikyti**: galite importuoti arba pasirinkti personalizavimą vienam ar daugiau vartotojų. Norėdami personalizavimą taikyti vienam ar keliems vartotojams, pirmiausia pasirinkite vaidmenį ir vartotojus, kuriems tas vaidmuo suteiktas. Tada pasirinkite esamą personalizavimą, taikykite pasirinktiems vartotojams arba importuokite personalizavimo failą. Personalizavimas patikrinamas ir taikomas visiems pasirinktiems vartotojams, kai jie kitą kartą atidarys pasirinktą puslapį.
 - **Išvalyti**: galite išvalyti visus vieno ar kelių vartotojų puslapio ar darbo srities personalizavimus. Pirmiausia pasirinkite puslapį arba darbo sritį, kad būtų rodomas tą puslapį ar darbo sritį personalizavusių vartotojų sąrašas. Tada pažymėkite vartotojus, kurių puslapio ar darbo srities personalizavimą norėtumėte išvalyti, ir paspauskite **Valyti**. Panaikinami visi personalizavimai, kuriuos pasirinkti vartotojai taikė pasirinktam puslapiui arba darbo sričiai. Šio veiksmo anuliuoti negalima. Tačiau jei buvo įrašytas puslapio ar darbo srities personalizavimas, tokį personalizavimą galima importuoti iš naujo.
-- **Vartotojo vadovas**: pasirinkite vartotoją, kad būtų rodomas jo arba jos personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti pasirinkto vartotojo personalizavimą.
+- **Vartotojo vadovas**: pasirinkite vartotoją, kad būtų rodomas vartotojo personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti pasirinkto vartotojo personalizavimą. Be to, galite nustatyti, kad funkcijų paaiškinimai būtų pateikiami pasirinktam vartotojui, kad kiekvieną kartą vartotojui susidūrus su tomis funkcijomis būtų vėl rodomi visi anksčiau išjungti iššokantieji langai, kuriuose buvo pranešama apie naujas funkcijas.   
 - **Sistema**: galite laikinai išjungti visus visų vartotojų sistemos personalizavimus. Tokiu atveju personalizavimai panaikinami. Nustatoma numatytoji visų vartotojų puslapių būsena. Jeigu vėliau iš naujo suaktyvinsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
 
 ## <a name="personalization-of-inventory-dimensions"></a>Atsargų dimensijų personalizavimo duomenys

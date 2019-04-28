@@ -3,7 +3,7 @@ title: „Finance and Operations“ sandėlių sinchronizavimas su „Field Serv
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ sandėlius sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340320"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842538"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>„Finance and Operations“ sandėlių sinchronizavimas su „Field Service“
 
@@ -76,6 +76,6 @@ Prieš sinchronizuojant sandėlius būtina atnaujinti projekto išplėstinę už
 
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>Sandėliai („Finance and Operations“ su „Field Service“): sandėlis
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>Sandėliai („Finance and Operations“ su „Field Service“): sandėliai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/Warehouse1.png)](./media/Warehouse1.png)

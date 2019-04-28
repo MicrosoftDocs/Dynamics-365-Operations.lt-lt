@@ -1,7 +1,7 @@
 ---
 title: Personalas
 description: Personalo valdymo modulis racionalizuoja daugelį kasdienių registravimo užduočių ir automatizuoja daugelį procesų, susijusių su jūsų organizacijos personalu. Jis taip pat padeda už personalo valdymą atsakingiems darbuotojams valdyti prižiūrimas sritis. Šios sritys apima įdarbinimą ir darbuotojų išlaikymą, išmokų administravimą, mokymą, našumo apžvalgas ir keitimų valdymą.
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341769"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859810"
 ---
 # <a name="human-resources"></a>Personalas
 

@@ -1,29 +1,29 @@
 ---
 title: Sumaniosios rekomendacijos
 description: Šioje temoje paaiškinama, kaip naudojantis mašininiu mokymu galima pateikti darbų ir kandidatų į darbo vietas rekomendacijas.
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305481"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896562"
 ---
 # <a name="intelligent-recommendations"></a>Sumaniosios rekomendacijos
 
@@ -32,8 +32,9 @@ ms.locfileid: "305481"
 Naudodamiesi mašininiu mokymu darbdaviai ir samdos vadybininkai gali greitai nustatyti, kurie kandidatai pareigoms tinkamiausi. Potencialūs klientai taip pat gali rasti geriausiai jų profilį ir interesus atitinkančias pareigas. Naudojantis šiomis funkcijomis ir jei pateikiamas atsiliepimas, rekomendacijos bus geresnės.
 
 > [!NOTE] 
-> - Sumaniųjų rekomendacijų funkciją galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu.
-> - Norėdamas įgalinti kandidato ir darbo rekomendacijos funkciją, administratorius turi įjungti jų peržiūros parinktis. Patikrinkite, ar administravimo centro skirtuke **Funkcijos valdymas** nustatyta **Peržiūros funkcijos** parinktis **Įjungta**. Paskui patikrinkite, ar nustatyta **Kandidato rekomendacija** ir **Darbo rekomendacija** parinktis **Įjungta**.
+> - Sumaniųjų rekomendacijų funkciją galima naudoti tik kartu su [išsamios įdarbinimo informacijos priedu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Šioje temoje nurodytomis funkcijomis galima naudotis kaip peržiūros leidimo dalimi. Turinys ir funkcijos gali būti keičiami. Norėdami naudotis šia funkcija, paprašykite administratoriaus, kad įjungtų ją „Attract“ naudodamasis sritimi **Administratoriaus parametrai**. Nustatykite **Kandidatų rekomendacija**, **Darbo rekomendacija** ir **Potencialaus kliento rekomendacija** parinktį **Įjungta**. Daugiau informacijos rasite [Prieiga prie „Talent“ peržiūros funkcijų](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+
 
 ## <a name="candidate-recommendations"></a>Kandidatų rekomendacijos
 
@@ -43,4 +44,15 @@ Bet kurio rekomenduojamo kandidato kortelėje galite pasirinkti **Peržiūrėti 
 
 ## <a name="job-recommendations"></a>Darbo rekomendacijos 
 
-Kai pretendentas į darbo vietą, pasinaudojęs karjeros svetaine, pateikia prašymą dėl darbo, rekomenduojamos kitos organizacijoje siūlomos pareigos. Šios rekomendacijos paremtos ankstesniais potencialaus kliento prašymais dėl darbo, taip pat jo ar jos CV ar kandidato profiliu. Todėl darbo rekomendacijos padeda potencialiems klientams greičiau išsiaiškinti, kuris darbas jiems tinkamiausias. Darbo rekomendacijos potencialiems klientams pateikiamos tuo atveju, kai karjeros svetainėje užregistruota daugiau negu dešimt darbų. Potencialūs klientai gali atidaryti rekomendacijos kortelėje pateikiamą informaciją apie darbo skelbimą. Jie taip pat gali pateikti atsiliepimų apie rekomendaciją, kurie padėtų patobulinti būsimas rekomendacijas.
+Kai pretendentas į darbo vietą, pasinaudojęs karjeros svetaine, pateikia prašymą dėl darbo, „Attract“ rekomenduoja kitas organizacijoje siūlomas pareigas. Šios rekomendacijos paremtos ankstesniais prašymais dėl darbo, taip pat pretendento CV ar profiliu. Todėl darbo rekomendacijos padeda potencialiems klientams greičiau išsiaiškinti, kuris darbas jiems tinkamiausias. Darbo rekomendacijos potencialiems klientams pateikiamos tuo atveju, kai karjeros svetainėje užregistruota daugiau negu dešimt darbų. Potencialūs klientai gali atidaryti rekomendacijos kortelėje pateikiamą informaciją apie darbo skelbimą. Jie taip pat gali pateikti atsiliepimų apie rekomendaciją, kurie padėtų patobulinti būsimas rekomendacijas.
+
+## <a name="prospect-recommendations"></a>Potencialaus kliento rekomendacijos 
+
+Atsiradus naujai darbo vietai, gali užtrukti, kol peržiūrėsite visus ankstesnius pretendentus ir visą talentų tinklą. Norėdami naudodamiesi „Attract“ tai padaryti greičiau, galite pasinaudoti išmaniaisiais mašininio mokymo algoritmais. Tai reiškia, kad „Attract“ peržiūri visus kandidatus ir jums sukūrus darbo skelbimą iškart praneša apie jį tiems, kurie gerai atitinka kriterijus. Norėdami peržiūrėti šias rekomendacijas, įgalinkite darbo skelbimo etapą **Kandidatas**. Kol „Attract“ nuskaitys visą kandidatų duomenų bazę ir pateiks rekomendacijų, gali praeiti maždaug minutė.
+
+Rekomendacijos rodomos kaip kortelės bet kurio darbo skelbimo skirtuke **Kandidatai**, jei įgalintas etapas **Kandidatas**. Šiose kortelėse išvardijami kandidato profilyje nurodyti įgūdžiai, taip pat visa informacija apie išsilavinimą. Radę jums patikusią rekomendaciją, galite įtraukti tam darbo skelbimui tinkamą kandidatą.
+
+> [!NOTE]
+> Jei „Attract“ naudojatės neseniai, norint pasinaudoti šia galimybe, reikės palaukti, kol turėsite 10 ar daugiau kandidatų, sukūrusių visos apimties profilius arba CV.
+
+Siekiant rekomendacijose išvengti galimo šališkumo, „Attract“ tikrina tik tai, ar kandidatų profiliuose nurodyti darbo skelbimo apraše išvardyti įgūdžiai, kvalifikacijos ir kiti raktiniai žodžiai. Be to, prieš atlikdama vertinimą, „Attract“ iš kandidatų profilių pašalina visą asmeninę informaciją.

@@ -1,7 +1,7 @@
 ---
 title: Tiekėjo mokėjimų darbo sritis
 description: Šioje temoje pateikiama informacijos apie tiekėjų mokėjimo darbo sritį. Tiekėjų mokėjimo darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346116"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896470"
 ---
 # <a name="vendor-payments-workspace"></a>Tiekėjo mokėjimų darbo sritis
 

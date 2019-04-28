@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 for Finance and Operations“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 02/19/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832106"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992841"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -28,12 +28,18 @@ ms.locfileid: "832106"
 
 Šioje temoje išvardijami reguliavimo naujinimai, kuriuos planuojama išleisti „Microsoft Dynamics 365 for Finance and Operations“ palaikomose lokalėse. Pristatymo terminai gali keistis ir numatomos funkcijos gali pasikeisti arba gali būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Reguliuojamieji naujinimai skiriasi nuo reguliavimo funkcijų. Norėdami sužinoti apie planuojamas arba išleistas reguliavimo funkcijas, žr. toliau pateiktus išteklius.
+Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami sužinoti apie kitas planuojamas ir išleistas konkrečių šalių reglamentavimo funkcijas, žr. toliau pateiktus išteklius.
 
 - [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Kas nauja „Microsoft Dynamics 365 for Finance and Operations“](../../fin-and-ops/get-started/whats-new-changed.md)
 
-Kai stulpelyje Data naudojamas mėnesis, reguliavimo naujinimą planuojama išleisti bet kada per tą mėnesį. Leidimo data gali būti bet kuri to mėnesio diena, ne tik pirmoji mėnesio diena.
+„Microsoft“ siekia kuo anksčiau įgyvendinti naujus reglamentavimo reikalavimus. Faktinė išleidimo data priklauso nuo įstatymo paskelbimo datos, vietos valdžios institucijų reikalavimų informacijos pasiekiamumo, tikrinimo įrankių pasiekiamumo ir pakeitimų dydžio bei sudėtingumo. 
+
+Planuojame išleisti reglamentavimo naujinimus vienos versijos paslaugų naujinimuose, kurie išleidžiami laiku, kad klientai galėtų atnaujinti ir pasiruošti iki vykdymo datos (kai taikomi operacijų reglamentavimo naujinimai), arba pirmo privalomo ataskaitų termino dieną (kai taikomi su ataskaitomis susiję reglamentavimo naujinimai). Klientai ir partneriai gali peržiūrėti naujus reglamentavimo naujinimus naudodami išankstinio pritaikymo peržiūros programą (PEAP).
+
+Jei paskelbimo datos yra vėlyvos, reglamentavimo informacijos arba tikrinimo įrankių pasiekiamumas yra vėlyvas arba jei pakeitimai yra itin dideli ir sudėtingi, gali nepavykti išleisti reglamentavimo naujinio iki mėnesio naujinio bendro išleidimo datos. Tokiais atvejais reglamentavimo naujinys bus išleistas kaip karštosios pataisos, skirtos kai kuriems teikiamiems mėnesio naujiniams.
+
+Naujausių reglamentavimo naujinių planų žr. toliau pateiktoje lentelėje. 
 
 |Suplanuota išleidimo data|Leidimo versija|Šalis|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------|
@@ -47,7 +53,9 @@ Kai stulpelyje Data naudojamas mėnesis, reguliavimo naujinimą planuojama išle
 |      Balandžio 2019          |   10.0.1      |    Jungtinė Karalystė     |[PVM išrašo pateikimo pakeitimai (įrašų pavertimas skaitmeniniais)](emea-gbr-mtd-vat-integration.md)    |    
 |      Balandžio 2019          |   10.0.1      |    Brazilija     |„NF-e“ e nauja NT 2018.005         |
 |      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m.         |
-|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygų formatai)  |
+|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygos) 
+|      Gegužės 2019            |   10.0.2      | Brazilija      |   SPED ECD 7 maketas   |
+
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - Visus suplanuotus ir išleistus reguliavimo naujinimus galite rasti puslapyje [„Lifecycle Services“ – problemų ieška](https://lcs.dynamics.com/Logon/Index) (būtina prisijungti).

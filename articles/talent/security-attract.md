@@ -1,7 +1,7 @@
 ---
 title: Saugos ir vaidmenų valdymas sprendime „Attract“
 description: Šioje temoje pateikiama informacija apie vaidmenų saugą „Microsoft Dynamics 365 for Talent - Attract“.
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789702"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993696"
 ---
 # <a name="security-and-role-management-in-attract"></a>Saugos ir vaidmenų valdymas sprendime „Attract“
 
@@ -70,6 +70,16 @@ Bet kuris vartotojas, kuris turi organizacijoje „Microsoft Azure Active Direct
 
 Vartotojai, kurie priskirti vaidmeniui Tik skaityti, turi tik skaitymo prieigą prie visų duomenų „Attract“ aplinkoje. Tačiau jie negali kurti ar redaguoti jokių duomenų.
 
+## <a name="find-out-which-roles-you-have"></a>Sužinokite, kokie vaidmenys jums priskirti
+
+1.  Viršutiniame dešiniajame „Attract“ puslapio kampe spustelėkite klaustuką (**?**).
+
+2.  Spustelėkite **Apie**.
+
+    Pasirodžiusiame lange pamatysite, kokie „Attract“ vaidmenys jums priskirti.
+
+    ![Peržiūrėkite, kokio tipo „Attract“ licenciją turite](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>Perduoti vaidmenys
 
 Įdarbintojai ir samdos vadovai užduočiai, kurios samdos komandoje jie yra, gali deleguoti vieną ar daugiau asmenų vietoj savęs. Tačiau jie negali paskirti kitų samdos komandoje esančių žmonių atstovų.

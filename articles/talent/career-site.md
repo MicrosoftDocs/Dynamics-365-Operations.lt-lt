@@ -1,29 +1,29 @@
 ---
 title: „Attract“ karjeros svetainės funkcijos
 description: Šioje temoje pateikiama „Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga.
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389976"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898936"
 ---
 # <a name="career-site-functionality-in-attract"></a>„Attract“ karjeros svetainės funkcijos
 
@@ -43,15 +43,15 @@ Norėdami nustatyti toliau nurodytų elementų reikšmes, prisijunkite prie „A
 
 -   **Organizacijos logotipas:** organizacijos logotipo vaizdas rodomas viršutiniame kairiajame karjeros svetainės kampe. Pasirinkdami organizacijos logotipo vaizdą kandidatai atidaro puslapį, kuriame išvardytos visos atviros užduotys.
 
-    >   [!NOTE] 
-    >   Logotipo vaizdo, kuris rodomas karjeros svetainėje, aukštis yra fiksuotas – 20 pikselių (piks.). Vaizdo, kurį įtraukiate į administravimo centrą, dydis atitinkamai pritaikomas. Todėl, priklausomai nuo vaizdo, plotis gali keistis.
+    > [!NOTE] 
+    > Logotipo vaizdo, kuris rodomas karjeros svetainėje, aukštis yra fiksuotas – 20 pikselių (piks.). Vaizdo, kurį įtraukiate į administravimo centrą, dydis atitinkamai pritaikomas. Todėl, priklausomai nuo vaizdo, plotis gali keistis.
  
 Norėdami nustatyti toliau nurodytų elementų reikšmes, prisijunkite prie „Attract“ kaip administratorius, pasirinkite parinktį **Administravimo centras**, pateiktą meniu **Parametrai**, tada pasirinkite skirtuką **Karjeros svetainės valdymas**.
 
 -   **Ieškos mechanizmo optimizavimas** - įjungus, visų viešų darbų, paskelbtų „Attract“ karjeros svetainėje, bus galima ieškoti naudojant ieškos mechanizmus, pvz., „Bing“ ir „Google“.
 
-    >   [!NOTE] 
-    >   Įjungus šį parametrą ieškos rezultatai gali būti rodomi ne iš karto, priklausomai nuo naudojamo ieškos mechanizmo.
+    > [!NOTE] 
+    > Įjungus šį parametrą ieškos rezultatai gali būti rodomi ne iš karto, priklausomai nuo naudojamo ieškos mechanizmo.
          
 ## <a name="career-site-urls"></a>Karjeros svetainės URL
 
@@ -81,15 +81,17 @@ Kandidatai gali naudoti toliau nurodytas prisijungimo prie „Attract“ karjero
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-„Azure AD“ prisijungimo funkcija skirta tik vidiniams kandidatams. Todėl ją gali naudoti tik vidiniai kandidatai, kurie naudoja savo įmonės „Azure AD“ kredencialus. Pavyzdžiui, kandidatas, kuris šiuo metu yra „Contoso, Ltd“ darbuotojas, nori kreiptis dėl darbo nesusijusioje įmonėje, „Alpine Ski House“. Tokiu atveju prisijungimas bus nesėkmingas, jei darbuotojas bandys naudoti savo „Azure AD“ kredencialus, priklausančius „Contoso, Ltd“.
+„Azure AD“ prisijungimo funkcija skirta tik vidiniams kandidatams. Todėl ją gali naudoti tik vidiniai kandidatai, kurie naudoja savo įmonės „Azure AD“ kredencialus. Pavyzdžiui, kandidatas, kuris šiuo metu yra „Contoso, Ltd“ darbuotojas, nori kreiptis dėl darbo nesusijusioje įmonėje, „Alpine Ski House“. Tokiu atveju prisijungimas bus nesėkmingas, jei darbuotojas bandys naudoti savo „Azure AD“ kredencialus, priklausančius „Contoso, Ltd“. 
+
+Jei darbo vieta, kurią kandidatai peržiūri ar dėl kurios teikia prašymą, yra nurodyta kaip tik vidaus, jie turi prisijungti naudodami „Azure AD“.
 
 ## <a name="create-and-maintain-a-profile"></a>Profilio kūrimas ir tvarkymas
 
 Prisijungę prie karjeros svetainės, kandidatai gali pasirinkti puslapio viršuje esančios naršymo juostos parinktį **Mano profilis**, norėdami kurti ir tvarkyti savo profilį.
 Profilis apima asmeninę informaciją, informaciją apie darbo patirtį, išsilavinimą, dokumentus, saitus ir informaciją apie įgūdžius. Sukūręs profilį kandidatas gali jį naudoti norėdamas kreiptis dėl dominančio darbo. Be to, naudodama profilius „Attract“ sistema kandidatams gali rekomenduoti tinkamus darbus.
 
->   [!NOTE]
->   Jei kandidatas naudoja el. pašto ID, kad prisijungtų naudodamas vieną iš pirmiau pateiktų autentifikavimo teikėjų, to el. pašto ID bus nustatytas į kontakto el. pašto ID, susietą su profiliu. Tačiau pastarąjį galima keisti bet kuriuo metu ir jis yra visiškai nepriklausomas nuo pirmojo. Visuose el. laiškuose „Attract“ visada naudos kontakto el. pašto ID, kad susietų su jūsų profiliu.
+> [!NOTE]
+> Jei kandidatas naudoja el. pašto ID, kad prisijungtų naudodamas vieną iš pirmiau pateiktų autentifikavimo teikėjų, to el. pašto ID bus nustatytas į kontakto el. pašto ID, susietą su profiliu. Tačiau pastarąjį galima keisti bet kuriuo metu ir jis yra visiškai nepriklausomas nuo pirmojo. Visuose el. laiškuose „Attract“ visada naudos kontakto el. pašto ID, kad susietų su jūsų profiliu.
 
 ## <a name="find-the-right-job"></a>Tinkamo darbo paieška
 
@@ -97,13 +99,38 @@ Darbų sąrašo puslapyje kandidatai gali ieškoti konkretaus darbo įvesdami ie
 
 Kandidatai taip pat gali peržiūrėti rekomenduojamų užduočių rinkinį karjeros svetainėje. Užduotys rekomenduojamos kandidatams pagal kandidato ankstesnius prašymus, profilį ir CV.
 
->   [!NOTE] 
->   Užduočių rekomendacijos rodomos tik jei karjeros svetainėje užregistruota ne mažiau kaip 10 užduočių ir jei kandidatas yra užpildęs savo profilį.
+> [!NOTE] 
+> Užduočių rekomendacijos rodomos tik jei karjeros svetainėje užregistruota ne mažiau kaip 10 užduočių ir jei kandidatas yra užpildęs savo profilį.
+
+Vidiniai kandidatai taip pat gali matyti, kas yra darbo vietos samdos vadovas ir (arba) įdarbintojas, kad galėtų susisiekti su šiais samdos komandos nariais. Tačiau išoriniai kandidatai nemato jokios darbo vietos samdos komandos narių.
+
+## <a name="contact-the-hiring-team"></a>Susisiekti su samdos komanda
+Su samdos komanda gali susisiekti tik vidiniai kandidatai. Šis apribojimas taikomas visoms darbo vietoms, nesvarbu, ar jos yra tik vidaus, ar buvo paskelbtos viešai.
+
+Kandidatai su samdos komanda gali norėti susisiekti, kad išreikštų susidomėjimą paskelbta darbo vieta arba norėdami apie ją sužinoti daugiau. Jie gali susisiekti su bet kuriuo nurodytu samdos komandos nariu (samdos vadovu ar įdarbintojais). Jie taip pat gali pasirinkti prie pranešimo pridėti CV arba pasirinkti esamą CV, kurį jie anksčiau nusiuntė pildydami profilį.
+
+Kai vidinis kandidatas pasirenka, su kuriais samdos komandos nariais nori susisiekti, „Attract“ kandidato vardu tiems žmonėms išsiunčia el. laišką. Tuo pačiu metu kandidato profilis įtraukiamas į etapą **Potencialus darbuotojas** (jei darbo vieta turi tokį etapą). Etape **Potencialus darbuotojas** įdarbintojai ar samdos vadovai gali peržiūrėti kandidatus, kurie į juos kreipėsi. Jie taip pat gali peržiūrėti kandidatų profilius ir potencialius kandidatus pakviesti teikti prašymą.
+
+Kandidatai gali teikti prašymą dėl darbo vietos, dėl kurios jie jau kreipėsi į samdos komandos narius. Pateikę prašymą kandidatai nebegali susisiekti su samdos komanda karjeros svetainėje.
 
 ## <a name="apply-for-jobs"></a>Kreipimasis dėl darbo
 
-Radę tinkamą darbą kandidatai gali teikti prašymą naudodami puslapio **Darbo informacija** mygtuką **Teikti prašymą**. Tuo metu kandidatai gali sukurti naują profilį arba peržiūrėti esamo profilio informaciją.
+Radę tinkamą darbo vietą kandidatai gali teikti prašymą naudodami puslapio **Darbo informacija** mygtuką **Teikti prašymą**. Tuo metu kandidatai gali sukurti naują profilį arba peržiūrėti esamo profilio informaciją.
 Kandidatų taip pat gali nusiųsti CV, jei reikia, ir tada pateikti prašymą įdarbinti.
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>Prašymų dėl darbo vietų teikimo naudojant „LinkedIn“ profilius funkcijos įjungimas
+
+Kandidatams galite palengvinti prašymų dėl jūsų darbo vietų teikimo procesą sukonfigūruodami „Attract“ taip, kad jie prašymus galėtų teikti per „LinkedIn“.
+
+> [!NOTE] 
+> Kad kandidatams galėtumėte leisti teikti prašymus naudojant „LinkedIn“, turite turėti vieną ar kelias „LinkedIn“ įdarbintojo licencijas.
+
+1. Prisijunkite prie „Attract“ kaip administratorius.
+2. Paspauskite viršutiniame dešiniajame puslapio kampe esantį mygtuką **Parametrai** (krumpliaračio simbolis), o paskui pasirinkite **Administravimo centras**.
+3. Pasirinkite skirtuką **„LinkedIn“ integravimas** ir prisijunkite naudodami „LinkedIn“ įdarbintojo paskyrą.
+4. Dalyje **„LinkedIn Recruiter System Connect “ integravimas** pasirinkite parametro **Teikti prašymą naudojant „LinkedIn“** reikšmę **Įjungta**.
+
+Kai įjungiate šį parametrą, kandidatai gali teikti prašymus naudodami esamus „LinkedIn“ profilio duomenis. Kai kandidatai teikia prašymus pasirinkdami mygtuką **Teikti prašymą naudojant „LinkedIn“** ir dar nėra prisijungę, jų prašoma autentifikuotis naudojant „LinkedIn“. Kai kandidatai autentifikuojami, jų „LinkedIn“ profilis pakeičia esamus profilio duomenis, rodomus prašymo puslapyje. Kandidatai gali pagal poreikį redaguoti šią informaciją ir pateikti prašymą. Jei kandidatas išeina iš puslapio nepateikęs prašymo dėl darbo vietos, jo profilio duomenys sprendime „Attract” nėra atnaujinami.
 
 ## <a name="check-application-status"></a>Prašymo būsenos tikrinimas
 

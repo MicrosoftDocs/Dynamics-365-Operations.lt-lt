@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353821"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842727"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -93,8 +93,8 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 614 | Redaguoti kliento užsakymą | Atšaukite pasirinktą užsakymą, kad jį būtų galima modifikuoti EKA. | Nr. | Nr. | Nr. | Nr. | Nr. |
 | 615 | Redaguoti pasiūlymą | Atšaukite pasirinktą pasiūlymą, kad jį būtų galima modifikuoti EKA. | Nr. | Nr. | Nr. | Nr. | Nr. |
 | 518 | Išlaidų sąskaitos | Įrašyti pinigus, paimtus iš kasos stalčiaus kaip atsitiktines išlaidas. | Taip | Taip | Taip | Taip | Nr. |
-| 919 | Išplėstinė registracija | Priskirkite arba pašalinkite teisę prisijungti nuskaitydami brūkšninį kodą arba perbraukdami kortelę. | Taip | Taip | Taip | Nr. | Nr. |
-| 1 201 | Nefiksuotas įrašas | Ši operacija suteikia vartotojui galimybę įtraukti papildomų pinigų į esamą stalčių ar pamainą. | Taip | Taip | Taip | Taip | Nr. |
+| 919 | Išplėstinė registracija | Priskirkite arba pašalinkite teisę prisijungti nuskaitydami brūkšninį kodą arba perbraukdami kortelę. | Taip | Taip | Taip | Taip | Ne |
+| 1201 | Nefiksuotas įrašas | Ši operacija suteikia vartotojui galimybę įtraukti papildomų pinigų į esamą stalčių ar pamainą. | Taip | Taip | Taip | Taip | Nr. |
 | 1218 | Priversti atrakinti išorinį elementą | Sistema naudoja šią operaciją aparato viduje esantiems EKA periferiniams įrenginiams atrakinti. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 520 | Dovanų kortelės likutis | Rodomas dovanų kortelės likutis. | Taip | Taip | Nr. | Nr. | Nr. |
 | 708 | Išjungti įrenginį | Išjunkite dabartinį įrenginį, kad jo nebūtų galima naudoti kaip POS aparato. | Nr. | Nr. | Nr. | Nr. | Nr. |

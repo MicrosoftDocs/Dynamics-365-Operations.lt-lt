@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836353"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992888"
 ---
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
@@ -41,45 +41,114 @@ ms.locfileid: "836353"
 > [!NOTE]
 > Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>„Dynamics 365 for Finance and Operations 10.0.2“ su „Platform Update 26“
+
+> [!IMPORTANT]
+> „Dynamics 365 for Finance and Operations 10.0.2“ su „Platform Update 26“ teikiamas tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-default-action-behavior"></a>Senesnis numatytųjų veiksmų veikimas
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Dėl senesnio tinklelių numatytųjų veiksmų veikimo numatytasis veiksmo saitas personalizuojant pertvarkius tinklelio stulpelius atsiranda nenumatytame stulpelyje. Tai ištaiso naujoji „priklijuojamųjų“ numatytųjų veiksmų funkcija. Norėdami gauti daugiau informacijos, žr. [„Priklijuojamieji“ numatytieji veiksmai tinkleliuose](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Pakeitė kita funkcija?**   | Nuo „Platform Update 21“ buvo įdiegta „priklijuojamųjų” numatytųjų veiksmų funkcija. Šią funkciją galima įjungti puslapyje **Kliento našumo parinktys**. |
+| **Paveiktos produkto sritys**         | Tinkleliai žiniatinklio kliente |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Nuo 2020 m. balandžio mėn. numatytasis veikimo būdas bus „priklijuojamieji“ numatytieji veiksmai ir nebus mechanizmo grąžinti senesnio veikimo būdo. |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>Senesnė filtravimo patirtis „vienas iš“
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Naujinime „Platform Update 22“ filtravimo patirtis „vienas iš“ buvo pertvarkyta; planuojama, kad ilgainiui ji bus vienintelė tokia filtravimo patirtis. |
+| **Pakeitė kita funkcija?**   | Nuo „Platform Update 22“ puslapyje **Kliento našumo parinktys** galima naudoti patobulintą filtravimo patirtį „vienas iš“. Norėdami gauti daugiau informacijos, žr. [Optimizuota filtravimo patirtis „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Nuo 2020 m. balandžio mėn. numatytasis veikimo būdas bus patobulinta patirtis „vienas iš“ ir nebus mechanizmo grąžinti senesnio veikimo būdo. |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>Išvedimas iš vidinių klasių nebenaudojamas
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima sukurti klasę arba lentelę, kuri išvedama iš vidinės klasės / lentelės, apibrėžtos kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
+| **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ kompiliatoriaus įspėjimas bus pakeistas į klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui.|
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>Vidinių metodų perrašymas nebenaudojamas
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima vidinį metodą perrašyti išvestoje klasėje, kuri apibrėžta kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
+| **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ šis įspėjimas bus pakeistas į kompiliavimo klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parametras, kuriuo įjungiami pardavimo užsakymai su keliais projekto sutarties lėšų skyrimo šaltiniais
+Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų skyrimo šaltinius, palaikymas įjungiamas puslapio **Projektų valdymo parametrai** parametru **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus**. Pagal numatytuosius parametrus šis parametras nėra įjungtas. 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Parametrą pašalinus, ši funkcija visada bus įjungta. |
+| **Pakeitė kita funkcija?**   | Nr. Projektinių pardavimo užsakymų su keliais lėšų skyrimo šaltiniais palaikymo funkcija visada bus įjungta.   |
+| **Paveiktos produkto sritys**         |Parametras **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus** bus pašalintas. Pašalinus parametrą bus modifikuoti šie metodai: klasės **ProjStatusType** metodas **ctrlSalesOrderTable**, lauko **ProjId** metodas **validate** ir formos **SalescreateOrder** metodas **run**. Pašalinus parametrą, šie metodai bus nerekomenduojami: **IsSalesOrderAllowedForMultipleFundingSources** lentelės faile **ProjTable**, lentelės failo **ProjTable** metodas **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled**, formos **ProjParameters** ir failų **ProjParameterEntity** duomenų laukas **AllowSalesOrdersForMultipleFundingSources**, lentelės failo **ProjTable** privatusis metodas **IsAssociatedToMultipleFundingSourcesContract**. |
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Planuojama, kad šie metodai nebebus rekomenduojami nuo 2020 m. balandžio mėn. leidimų bangos. |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Senesnės sekimo ir egzempliorių būsenos darbo eigų ataskaitos
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Senesnės sekimo ir egzempliorių būsenos darbo eigų ataskaitos neberekomenduojamos, nes jos nebenurodomos naršant. Ataskaitos vadinasi WorkflowWorkflowInstanceByStatusReport ir WorkflowWorkflowTrackingReport. |
+| **Pakeitė kita funkcija?**   | Vietoj jų galima naudoti darbo eigos retrospektyvos formą. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nerekomenduojama: tikslinis funkcijos pašalinimo laikotarpis – 2020 m. balandžio mėn. |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>„Dynamics 365 for Finance and Operations“ 10.0.1 su 25 platformos naujinimu
 
 > [!IMPORTANT]
-> „Dynamics 365 for Finance and Operations 10.0.1“ ir 25 platformos naujinimas teikiami tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros versijos leidimus gauti daugiau informacijos, žr. [Standartinio ir pirmojo leidimo paslaugų naujinimai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> „Dynamics 365 for Finance and Operations 10.0.1“ su „Platform Update 25“ teikiamas tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](../../fin-and-ops/get-started/public-preview-releases.md).
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>Nebenaudojami API ir gedimus galintys sukelti pakeitimai
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Išvedimas iš vidinių klasių nebenaudojamas
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Ankstesniuose nei 25 platformos naujinimuose buvo galima sukurti klasę arba lentelę, kuri išvedama iš vidinės klasės / lentelės, apibrėžtos kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Pradedant nuo 25 platformos naujinimo, kompiliatorius rodys įspėjimą, jei bandysite tai padaryti.|
-| **Pakeitė kita funkcija?**   | Būsimame platformos naujinime kompiliatoriaus įspėjimas bus pakeistas į klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad, jei jūs naudojate 25 platformos naujinimą arba naujesnę versiją, tai galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
-| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
+| **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima sukurti klasę arba lentelę, kuri išvedama iš vidinės klasės / lentelės, apibrėžtos kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
+| **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ kompiliatoriaus įspėjimas bus pakeistas į klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui.|
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama – būsimame platformos naujinime įspėjimas bus pakeistas į kompiliavimo klaidą. |
+| **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Vidinių metodų perrašymas nebenaudojamas
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Ankstesniuose nei 25 platformos naujinimuose buvo galima perrašyti vidinį metodą išvestoje klasėje, kuri apibrėžta kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Pradedant nuo 25 platformos naujinimo, kompiliatorius rodys įspėjimą, jei bandysite tai padaryti.|
-| **Pakeitė kita funkcija?**   | Būsimame platformos naujinime šis įspėjimas bus pakeistas į kompiliavimo klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad, jei jūs naudojate 25 platformos naujinimą arba naujesnę versiją, tai galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
-| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
+| **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima vidinį metodą perrašyti išvestoje klasėje, kuri apibrėžta kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
+| **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ šis įspėjimas bus pakeistas į kompiliavimo klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama – būsimame platformos naujinime įspėjimas bus pakeistas į kompiliavimo klaidą. |
+| **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>„Dynamics 365 for Finance and Operations“ 8.1.3 su 23 platformos naujinimu
 
-### <a name="print-to-screen-functionality"></a>Spausdinimo ekrane funkcija
-Klientai gali naudoti veiksmą **Importuoti**, pateiktą ataskaitų peržiūros programos valdiklyje, kad atsisiųstų dokumentų, kuriuos sugeneravo „Finance and Operations“ programos. Ši HTML pagrįsta ataskaitos pateiktis vartotojams siūlo nesunumeruotą dokumento peržiūrą.
+### <a name="sql-server-reporting-services-reportviewer-control"></a>„SQL Server Reporting Services“ valdiklis ReportViewer
+Klientai gali naudoti veiksmą **Eksportuoti**, pateiktą įdėtajame „SQL Server Reporting Services“ (SSRS) valdiklyje ReportViewer, kad atsisiųstų dokumentų, kuriuos sugeneravo „Finance and Operations“ programos. Ši HTML pagrįsta ataskaitos pateiktis vartotojams siūlo nesunumeruotą dokumento peržiūrą.
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūros sąsaja **neužtikrina** tikslumo lyginant su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo operacijų formatą, galime smarkiai supaprastinti vartotojo pasirinktis sąveikaujant su programos ataskaitomis ir supaprastinti dokumentų generavimo procesą. |
+| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūros sąsaja **neužtikrina** tikslumo lyginant su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo dokumentų formatą ir kurdami programų ataskaitas vartotojai gali išnaudoti šiuolaikiškas peržiūros galimybes ir būti našesni. |
 | **Pakeitė kita funkcija?**   | Žvelgiant į ateitį, PDF dokumentai bus numatytasis „Finance and Operations“ generuojamų ataskaitų formatas.   |
 | **Paveiktos produkto sritys**         | Šis pakeitimas **netaikomas** klientų scenarijuose, kai ataskaitos paskirstomos elektroniniu būdu arba siunčiamos tiesiogiai į spausdintuvus.    |
 | **Visuotinio diegimo parinktis**              | Visos  |
-| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta. Automatinio programos ataskaitų kaip PDF dokumentų atsisiuntimo į naršyklę funkciją planuojama įtraukti į 2019 m. gegužės mėn. platformos naujinimą. <br><br>**Svarbu:** esamiems klientams, kurie naudoja spausdinimo ekrane funkciją, patariama pranešti [palaikymo komandai](../lifecycle-services/lcs-support.md) iš anksto prieš naujovinant į 26 platforma naujinimą. |
+| **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta. Automatinės programų ataskaitų peržiūros naudojant įdėtąją PDF peržiūros programą funkciją planuojama įtraukti į 2019 m. gegužės mėn. „Platform Update“. |
 
 ### <a name="client-kpi-controls"></a>Kliento KPI valdikliai
 Įdėtuosius pagrindinius efektyvumo indikatorius (KPI) sistemoje „Visual Studio“ gali modeliuoti kūrėjas ir toliau tinkinti galutinis vartotojas.
@@ -102,7 +171,7 @@ Klientai gali naudoti veiksmą **Importuoti**, pateiktą ataskaitų peržiūros 
 | **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą.  |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
 | **Visuotinio diegimo parinktis**              | Visi. |
-| **Būsena**                         | Nebenaudojama – įspėjimas taps kompiliavimo laiko klaida. Šiuo metu tai taikome 30 platformos naujinimui. |
+| **Būsena**                         | Nerekomenduojama. Įspėjimas ateityje taps kompiliavimo laiko klaida. Šiuo metu tai taikome 30 platformos naujinimui. |
 
 #### <a name="complete-list"></a>Visas sąrašas
 Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduomenų elementų nebenaudojimas](deprecation-deletion-apis.md).
@@ -110,7 +179,7 @@ Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduom
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>„Dynamics 365 for Finance and Operations“ 8.1 su 20 platformos naujinimu
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Papildomos knygos žurnalo sąskaitų įrašų paketo perkėlimo taisyklės
-DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas pakeičiamas nesinchroniniu ir skirtu tik suplanuotam paketui, o šios parinktys jau naudojamos perkeliant. 
+DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas pakeičiamas nesinchroniniu ir skirtu tik suplanuotam paketui, o šios parinktys jau naudojamos perkeliant. Norėdami gauti papildomos informacijos, žr. tinklaraštį [Didžiosios knygos parametrai – paketų perkėlimo taisyklės](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudoj
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Dynamics 365 for Finance and Operations, Enterprise Edition 7.3“ su 12 platformos naujiniu
 
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
-Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 ## <a name="dynamics-365-for-retail-72"></a>„Dynamics 365 for Retail 7.2“
 
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
-Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations).  
+Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](../../retail/personalized-product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kur
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos.       |
-| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Paveiktos produkto sritys**         | Sandėlio valdymas, transportavimo valdymas     |
 | **Visuotinio diegimo parinktis**              | Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui.               |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2019 m. 4 ketvirtis.   |
@@ -639,7 +708,7 @@ Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietin
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas**, dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas**, kuris buvo išleistas programoje „Microsoft Dynamics AX 2012 R3“.                                                                         |
-| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas**, kuris buvo išleistas programoje „AX 2012 R3“, „Microsoft Dynamics AX 2012 R3 CU8“ ir „Microsoft Dynamics AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
+| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas** , kuris buvo išleistas programoje „AX 2012 R3“, „Microsoft Dynamics AX 2012 R3 CU8“ ir „AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
 | **Paveiktos produkto sritys**         | Atsargų valdymas, Pardavimas ir rinkodara, Įsigijimas ir šaltinio parinkimas   |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos.    |
 
@@ -687,6 +756,17 @@ Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis gali
 | **Pakeitė kita funkcija?**   | Šią funkciją pakeitė Duomenų importavimo / eksportavimo sistema, kuri palaiko pasikartojantį masinį importavimą / eksportavimą. Su AxBC rekomenduojame naudoti faktines lenteles. |
 | **Paveiktos produkto sritys**         | AxD, AxBC ir AIF   |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.   |
+
+### <a name="billing-code-rate-scripts"></a>Atsiskaitymo kodų tarifų scenarijai
+
+Atsiskaitymo scenarijai buvo naudojami atsiskaitymo kodų atsiskaitymo tarifams apskaičiuoti. Šiems scenarijams reikėjo pasirinktinio kodo „C Sharp“ arba „Visual Basic“ programavimo kalba. Dabartinėje „Dynamics AX“ versijoje **atsiskaitymo kodų tarifų scenarijai** nėra palaikomi.
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pasirinktinių „C Sharp“ arba „Visual Basic“ scenarijų palaikymas į „Dynamics AX 7.0“ nebuvo įtrauktas. |
+| **Pakeitė kita funkcija?**   | Ne                                                                                      |
+| **Paveiktos produkto sritys**         | Viešasis sektorius. Gautinos sumos                                    |
+| **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.                                                          |
 
 ### <a name="boms-without-bom-versions"></a>KS be KS versijų
 
@@ -1068,7 +1148,7 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Produkto generatorius X++ kodą rodydavo galutiniams naudotojams ir dabartinėje „Dynamics AX“ versijoje nėra palaikomas. Jis pašalintas siekiant išvengti besidubliuojančių priežiūros darbų sutampančiose, keičiamo dydio kodų bazėse.  |
-| **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
+| **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](../../supply-chain/pim/build-product-configuration-model.md). |
 | **Paveiktos produkto sritys**         | Produktų informacijos valdymas, Pardavimas ir rinkodara  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.      |
 
@@ -1159,7 +1239,7 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 
 |   |  | 
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | - Prieš lentelėse saugant duomenis, reikia nustatyti virtualias įmones. Virtualias įmones pertvarkyti į esamą diegimą yra labai sunku.<br><br>- Kadangi dabartinėje „Microsoft Dynamics AX“ versijoje buvo tiek daug duomenų normalizavimo, pasidarė sudėtinga sužinoti, ką įtraukti į lentelių rinkinius. Pvz., sunku žinoti, kurias lenteles bendrai naudoti. Taip pat reikia pridėti visas lenteles, į kurias nurodoma iš lentelių, esančių virtualioje įmonėje. Dėl lentelių normalizavimo net paprasti bendrieji duomenys, paskirstyti daugybėje lentelių, turi būti virtualios įmonės dalis. Bet kokia čia padaryta klaida sukels funkcinių problemų.<br><br>- Kai lentelė yra virtualios įmonės dalis, ji praranda informaciją apie duomenų šaltinį, ir įrašoma tik virtuali įmonė.   |
+| **Nebenaudojimo / pašalinimo priežastis** | - Prieš lentelėse saugant duomenis, reikia nustatyti virtualias įmones. Virtualias įmones pertvarkyti į esamą diegimą yra labai sunku.<br><br>- Kadangi dabartinėje „Dynamics AX“ versijoje buvo tiek daug duomenų normalizavimo, pasidarė sudėtinga sužinoti, ką įtraukti į lentelių rinkinius. Pvz., sunku žinoti, kurias lenteles bendrai naudoti. Taip pat reikia pridėti visas lenteles, į kurias nurodoma iš lentelių, esančių virtualioje įmonėje. Dėl lentelių normalizavimo net paprasti bendrieji duomenys, paskirstyti daugybėje lentelių, turi būti virtualios įmonės dalis. Bet kokia čia padaryta klaida sukels funkcinių problemų.<br><br>- Kai lentelė yra virtualios įmonės dalis, ji praranda informaciją apie duomenų šaltinį, ir įrašoma tik virtuali įmonė.   |
 | **Pakeitė kita funkcija?** | Kad lentelės būtų pasiekiamos iš visų įmonių, gali būti naudojamos visuotinės lentelės. Šiuo metu nėra pakeitimo. |   
 | **Paveiktos produkto sritys**       | Visi moduliai |   
 | **Būsena**                       | Pašalinta iš „Dynamics AX 7.0“.   |   

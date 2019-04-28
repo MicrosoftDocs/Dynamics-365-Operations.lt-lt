@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305400"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949856"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)
 
@@ -65,7 +65,7 @@ Atlikus šį pakeitimą, keliamosios dienos dabar palaikomos „Power BI“.
 
 ### <a name="integration-between-core-hr-and-attract"></a>Integravimas tarp „Core HR“ ir „Attract“
 
-Atliktas pakeitimas siekiant atnaujinti su samdytinais kandidatais susijusį integravimą tarp „Core HR“ ir „Attract“. Kad samdytini kandidatai būtų matomi darbo srityje **Personalo valdymas**, naudojami šie CDS, skirtos programoms (CDS 2.0), objektai:
+Atliktas pakeitimas siekiant atnaujinti su samdytinais kandidatais susijusį integravimą tarp „Core HR“ ir „Attract“. Kad samdytini kandidatai būtų matomi darbo srityje **Personalo valdymas**, naudojami šie „Common Data Service“ objektai.
 
 Prašymas įdarbinti
 - Būsenos tipas turi būti nustatytas kaip Pasiūlymas priimtas
@@ -139,7 +139,7 @@ Darbuotojų, skirtų darbui, užduočiai reikia atnaujinti šiuos susiejimus.
 
 Taip pat reikia atnaujinti lyties lauko transformaciją. Pasirinkite lyties susiejimo tipą **fn** (funkcija) ir atnaujinkite šiuos vertės susiejimus.
 
-| CDS vertė                   | „Finance and Operations“ vertė                     |
+| „Common Data Service“ vertė                   | „Finance and Operations“ vertė                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Vyras                                             |
 | 75440001                    | Moteris                                           |
