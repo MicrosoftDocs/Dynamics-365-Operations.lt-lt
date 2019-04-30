@@ -1,30 +1,30 @@
 ---
 title: Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
 description: Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
-author: josaw
+author: hasrivas
 manager: AnnBe
-ms.date: 02/26/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2f7e0ec7d33579f213909ff9ad911d26800c2b76
-ms.sourcegitcommit: ceef0ee77ffc245e57637e2ea84e1a71a214b3d7
+ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "772816"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969354"
 ---
 # <a name="create-approve-and-post-jobs-in-attract"></a>Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
 
@@ -44,7 +44,7 @@ Skirtuke **Darbo informacija** pateikiama informacija apie darbo atsakomybes ir 
 
 Pagal numatytuosius parametrus laukas **Laisvų darbo vietų skaičius** nustatytas į **1**. Tačiau reikšmę galite keisti. Kai darbo pasiūlymas paruoštas, lauko **Galimų laisvų darbo vietų skaičius** reikšmė sumažinama.
 
-Jei pareigų valdymo funkcija įjungta administravimo centre, galima naudoti peržvalgą **Naujinti pareigas**. Ši peržvalga nuskaito „Common Data Service for Apps“ objektą JobPosition ir pateikia pareigų, kurias galima pasirinkti ir priskirti darbui, sąrašą. Jei pasirinktų pareigų skaičius viršija laisvų pareigų skaičių, gausite įspėjimą. Taip pat gausite įspėjimą, jei pareigos naudojamos keliuose darbuose.
+Jei pareigų valdymo funkcija įjungta administravimo centre, galima naudoti peržvalgą **Naujinti pareigas**. Ši peržvalga nuskaito „Common Data Service“ objektą JobPosition ir pateikia pareigų, kurias galima pasirinkti ir priskirti darbo vietai, sąrašą. Jei pasirinktų pareigų skaičius viršija laisvų pareigų skaičių, gausite įspėjimą. Taip pat gausite įspėjimą, jei pareigos naudojamos keliuose darbuose.
 
 > [!NOTE]
 > Pareigų valdymo funkcija teikiama su išsamios įdarbinimo informacijos priedu.
@@ -74,9 +74,7 @@ Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, �
 
 ## <a name="postings"></a>Registravimai
 
-Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Microsoft Dynamics 365 for Talent“ karjeros svetainėje arba „LinkedIn“. 
-
-„Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas.
+Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Microsoft Dynamics 365 for Talent“ karjeros svetainėje arba „LinkedIn“. „Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas. Kai darbo vieta paskelbiama kaip esanti tik vidaus, norėdami ją peržiūrėti ir dėl jos teikti prašymą kandidatai turi turėti AAD paskyrą. Jei darbo vieta pateikiama kaip vieša, kandidatai ją peržiūrėti ir dėl jos teikti prašymą gali naudodami visas autentifikavimo parinktis. 
 
 Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija sprendime „Attract“](career-site.md).
 
@@ -137,16 +135,21 @@ Išsaugojus darbą, galima jį pateikti tvirtinti. Šioje lentelėje išvardijam
 
 Darbų sąraše galite filtruoti darbų būsenas.
 
-Tvirtinimus galima siųsti bet kuriam įmonės „Microsoft Azure Active Directory“ („Azure AD“) vartotojui. Tvirtinimai paraleliai siunčiami visiems žmonėms, kurie nurodyti kaip tvirtintojai. Patvirtinus darbą, galima jį suaktyvinti.
+Tvirtinimus galima siųsti bet kuriam įmonės „Microsoft Azure Active Directory“ („Azure AD“) vartotojui. Tvirtinimai paraleliai siunčiami visiems žmonėms, kurie nurodyti kaip tvirtintojai. Kad darbo vieta galėtų judėti į priekį, ją turi patvirtinti visi tvirtintojai. Jei kuris vienas tvirtintojas darbo vietą atmes, bus rodoma darbo vietos būsena **Atmesta**. Patvirtinus darbą, galima jį suaktyvinti.
 
-Žmonės, kurie nurodyti tvirtintojai, gaus pranešimą sprendime „Attract“, kuris nurodys, kad jie turi patvirtinti elementą. Patvirtinimo elementas taip pat bus rodomas ataskaitų srities skiltyje **Priskirta jums**. Kai kas nors priima arba patvirtina užduotį, samdos komanda gaus pranešimą. Galiausiai samdos komanda gaus pranešimą, kai darbas yra patvirtintas.
+Jei vartotojas redaguoja patvirtintą, bet nesuaktyvintą darbo vietą, jos būsena bus atkurta į **Juodraštis** ir ją reikės vėl pateikti tvirtinti. Kai patvirtinta darbo vieta suaktyvinama, jos redaguoti negalite.
+
+Žmonės, kurie nurodyti kaip tvirtintojai, gaus pranešimą sprendime „Attract“ ir el. laišką, kurie nurodys, kad jie turi patvirtinti elementą.  El. laiške tvirtintojai gali spustelėti saitą ir atidaryti darbo vietą, peržiūrėti išsamią informaciją bei patvirtinti arba atmesti. Kai darbo vietos būsena bus nustatyta kaip **Patvirtinta** arba **Atmesta**, pateikėjui apie tai bus pranešta sprendime „Attract“ ir jis gaus el. laišką. Be to, jei tvirtintojai nebus atsakę į patvirtinimo užklausą per 24 valandas, jie gaus priminimo el. laišką.
+
+> [!NOTE]
+> Galite kurti pasirinktinius patvirtinimo el. laiškų šablonus. Norėdami gauti daugiau informacijos, žr. [El. laiškų šablonų kūrimas ir tvarkymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Užduoties sukūrimas
 
 Norėdami kurti darbą, atlikite toliau nurodytus veiksmus.
 
 1. Pasirinkite **Darbai**.
-2. Pasirinkite **Nauja**.
+2. Pasirinkite **Naujas**.
 3. Lauke **Pareigų pavadinimas** įveskite pareigų pavadinimą. Lauke **Vaidmuo** įveskite savo vaidmenį.
 4. Lauke **Šablonas** pasirinkite šabloną. Arba pasirinkite **Praleisti**. Jei pasirinksite **Praleisti**, naudojamas šablonas, kuris pažymėtas kaip numatytasis šablonas.
 

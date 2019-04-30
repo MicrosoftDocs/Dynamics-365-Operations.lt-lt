@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782953"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949810"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 5 d.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "782953"
 
 ### <a name="extending-option-sets-in-attract"></a>„Attract“ parinkčių rinkinių išplėtimas
 
-„Attract“ yra daug laukų, kurie yra „Common Data Service“ (CDS) parinkčių rinkiniai. Pristatytos naujos galimybės išplėsti parinkčių rinkinius, pradedant nuo laukų **Atmetimo priežastis**, **Įdarbinimo tipas** ir **Stažo tipas**.
+„Attract“ yra daug laukų, kurie yra „Common Data Service“ parinkčių rinkiniai. Pristatytos naujos galimybės išplėsti parinkčių rinkinius, pradedant nuo laukų **Atmetimo priežastis**, **Įdarbinimo tipas** ir **Stažo tipas**.
 
 > [!IMPORTANT]
 > Norint naudoti darbo registravimo „LinkedIn“ funkciją, reikalingi puslapio **Darbo informacija** laukai **Įdarbinimo tipas** ir **Stažo tipas**. Numatytąsias šių laukų reikšmes palaiko „LinkedIn“ ir jos rodomos, kai darbas registruojamas. Jei registruojate darbus „LinkedIn“ ir modifikuojate esamas tų laukų parinkčių rinkinių reikšmes, darbas bus užregistruotas, bet „LinkedIn“ nerodys pasirinktinių laukų **Įdarbinimo tipas** ir **Stažo tipas** reikšmių.
@@ -70,8 +70,8 @@ Atlikus šį pakeitimą, kai teikiama esamų pareigų pakeitimų užklausa, alga
 ### <a name="other-miscellaneous-bug-fixes"></a>Kiti įvairūs klaidų ištaisymai
 Kiti smulkūs klaidų ištaisymai yra įtraukti į šį leidimą.
 
-### <a name="upgrade-to-cds-for-apps"></a>Naujovinimas į „CDS for Apps“
-Terminas, iki kurio galima naujovinti į „CDS for Apps“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service for Apps“](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Jau greitai
 

@@ -1,7 +1,7 @@
 ---
 title: Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“
 description: Šioje temoje pateikiama informacija mašininio mokymo naudojimą norint gauti darbų ir kandidatų į darbo vietas rekomendacijas.
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,21 +10,21 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "305423"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859579"
 ---
 # <a name="sourcing-with-linkedin-recruiter"></a>Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“
 [!include[banner](../includes/banner.md)]
@@ -34,9 +34,9 @@ ms.locfileid: "305423"
 > [!NOTE]
 > Jums reikia išsamios įdarbinimo informacijos priedo ir „LinkedIn Recruiter“ vietų, kad galėtumėte naudoti „LinkedIn Recruiter“ integravimą su „Attract“.
 
-## <a name="set-up-linkedin-recruiter-with-attract"></a>„LinkedIn Recruiter“ is „Attract“ nustatymas 
+## <a name="set-up-linkedin-recruiter-with-attract"></a>„LinkedIn Recruiter“ ir „Attract“ nustatymas 
 
-Prieš naudodami „LinkedIn Recruiter“ galimybes, turite sukonfigūruoti sutarties lygio arba įmonės lygio prieigą su savo „Attract“ egzemplioriumi. Norėdami atlikti konfigūravimo procesą, turite bendradarbiauti su vartotoju, kuris yra jūsų „LinkedIn Recruiter“ sutarties administratorius. Atlikite toliau nurodytus veiksmus, kad sukonfigūruotumėte „LinkedIn Recruiter“ su „Attract“.
+Prieš pasinaudodami „LinkedIn Recruiter“ galimybėmis, turite sukonfigūruoti sutarties lygio arba įmonės lygio prieigą su savo „Attract“ egzemplioriumi. Norėdami atlikti konfigūravimo procesą, turite bendradarbiauti su vartotoju, kuris yra jūsų „LinkedIn Recruiter“ sutarties administratorius. Atlikite toliau nurodytus veiksmus, kad sukonfigūruotumėte „LinkedIn Recruiter“ ir „Attract“.
 
 1.  Prisijunkite prie „Attract“ kaip administratorius ir pasirinkite **Administravimo parametrai**.
 
@@ -50,7 +50,7 @@ Prieš naudodami „LinkedIn Recruiter“ galimybes, turite sukonfigūruoti suta
 
 5.  Tada „LinkedIn“ valdiklis bus įkeltas į jūsų administravimo parametrus ir bus rodomas integravimų sąrašas. Skiltyje **„Recruiter“ sistemos prijungimas** spustelėkite **Teikti užklausą**.
 
-[![„Attract“ administratoriaus rodinys, skirtas pateikti užlausą dėl „LinkedIn Recruiter“ integravimo](./media/RequestLinkedInRSC.png)](./media/RequestLinkedInRSC.png)
+[![„Attract“ administratoriaus rodinys, skirtas „LinkedIn Recruiter“ integravimo užklausai pateikti](./media/RequestLinkedInRSC.png)](./media/RequestLinkedInRSC.png)
 
 6.  Pateikus integravimo užklausą iš „Attract“, bus rodoma būsena **Partneris paruoštas** ir jį bus galima įjungti **„Recruiter“ administravimo parametruose**. Jei šiame puslapyje matote parinktį **Įspėti partnerį**, palaukite keletą sekundžių, spustelėkite **Įspėti partnerį**, tada atnaujinkite puslapį. Dabar turėtų būti rodoma būsena **Partneris paruoštas**.
 
@@ -68,13 +68,13 @@ Norėdami atlikti kitą veiksmą, turite turėti administratoriaus teisę „Lin
 
 10. Įjunkite norimą prieigos lygį „LinkedIn Recruiter“ **Administravimo ATS** parametruose.
 
-[![Įjunkite „Attract“ integravimą iš „LinkedIn Recruiter“ administratoriaus rodinio](./media/EnableRSC.png)](./media/EnableRSC.png)
+[![Įjunkite „Attract“ integravimą apsilankę „LinkedIn Recruiter“ administratoriaus rodinyje](./media/EnableRSC.png)](./media/EnableRSC.png)
 
 12. Vėl atidarykite „Attract“ administravimo parametrus kaip „Attract“ administratorius ir pasirinkite skirtuką **„LinkedIn“ integravimas**. Dabar turėtumėte matyti įkeltą „LinkedIn“ valdiklį, nurodantį, kad pasirinkto lygio prieiga įjungta, ir rodantį būseną **Įjungta**.
 
-[![„LinkedIn Recruiter“ integravimas baigtas](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
+[![„LinkedIn Recruiter“ Integravimas baigtas](./media/RSCSetupComplete.png)](./media/RSCSetupComplete.png)
 
-## <a name="using-linkedin-recruiter-capabilities"></a>„LinkedIn Recruiter“ galimybių naudojimas
+## <a name="using-linkedin-recruiter-capabilities"></a>Naudojimasis „LinkedIn Recruiter“ galimybėmis
 
 Kai „Attract“ administratorius įjungia „LinkedIn Recruiter“ galimybes, jas gali pasiekti samdos vadovai ir įdarbintojai. Norėdami naudoti šias galimybes, prijunkite „LinkedIn“ paskyrą skiltyje **Vartotojo parametrai**. Kai administratoriaus ir vartotojo parametrai prijungiami, galima naudoti keletą galimybių.
 
@@ -107,13 +107,13 @@ Samdydami kandidatus „LinkedIn“ galite 1 spustelėjimu eksportuoti kandidat�
 
 ### <a name="in-ats-indicator"></a>Vidinio ATS indikatorius 
 
-Naudodami „LinkedIn Recruiter“ galite sekti, ar kandidatas pateikė prašymą dėl kitų darbo vietų jūsų organizacijoje, pažiūrėti, kokie skirtingi jo prašymų dėl darbo etapai ir peržiūrėti atsiliepimus bei komentarus iš „Attract“ sistemoje „LinkedIn Recruiter“.
+Naudodami „LinkedIn Recruiter“ galite sekti, ar kandidatas pateikė prašymą dėl kitų darbo vietų jūsų organizacijoje, pažiūrėti, kokie skirtingi jo prašymų dėl darbo etapai, ir peržiūrėti atsiliepimus bei komentarus iš „Attract“ sistemoje „LinkedIn Recruiter“.
 
 1.  Atidarykite „LinkedIn Recruiter“ ir suraskite ieškomo kandidato profilį.
 
 2.  Slinkite žemyn ir peržiūrėkite skiltį **Vidinis ATS**, pateiktą kandidato profilyje.
 
-3.  Šį valdiklį galite naudoti norėdami peržiūrėti visą informaciją apie kandidatą, kuris nurodytas „LinkedIn Recruiter“ rodinyje.
+3.  Šį valdiklį galite naudoti norėdami „Attract“ peržiūrėti apie kandidatą visą informaciją, pateiktą „LinkedIn Recruiter“ rodinyje.
 
 4.  Pasirinkite skirtuką **Darbai ir būsenos** norėdami peržiūrėti sudėtinius darbus, naujausias būsenas ir tai, kaip sekasi vykdyti bet kurį iš darbų.
 
@@ -122,17 +122,17 @@ Naudodami „LinkedIn Recruiter“ galite sekti, ar kandidatas pateikė prašym�
 6.  Pasirinkite skirtuką **Pastabos**, kad pamatytumėte „Attract“ užfiksuotas pastabas apie šį kandidatą.
 
 > [!NOTE]
-> Kandidatas ir programos duomenys nebus sinchronizuojami su „LinkedIn Recruiter“, jei kandidatas neperėjo potencialaus kandidato etapo.
+> Jei kandidatas potencialaus kliento etapo nepereis, kandidatas ir prašymo duomenys su „LinkedIn Recruiter“ sinchronizuojami nebus.
 
 ### <a name="inmail-history"></a>„InMail“ retrospektyva
 
-„LinkedIn“ „InMail“ pastabų retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti visą „InMail“ restrospektyvą, susijusią su kandidatais. Taip pat galite peržiūrėti, kas dar iš jūsų organizacijos susirašinėjo su kandidatu naudodami „InMail“, tačiau negalite peržiūrėti jų žinučių.
+„LinkedIn InMail“ pastabų retrospektyva pateikiama su sutarties lygio prieiga, suteikta „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti visą „InMail“ restrospektyvą, susijusią su kandidatais. Taip pat galite peržiūrėti, kas dar iš jūsų organizacijos susirašinėjo su kandidatu naudodami „InMail“, tačiau negalite peržiūrėti jų žinučių.
 
 Norėdami peržiūrėti „InMail“ retrospektyvą, atidarykite kandidato profilį, pasirinkite skirtuką **LinkedIn** ir slinkite į puslapio apačią, kad peržiūrėtumėte retrospektyvą. „InMail“ retrospektyvą galite peržiūrėti, jei diskutavote su kandidatu. Pranešimai iš „InMail“ sinchronizuojami su „Attract“ kas kelias valandas.
 
 ### <a name="notes-history"></a>Pastabų retrospektyva 
 
-„LinkedIn“ pastabų retrospektyva pateikiama su sutarties lygio prieiga prie „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti pastabas, susietas su kandidatu ir užfiksuotas įvairių įdarbintojų iš jūsų organizacijos.
+„LinkedIn“ pastabų retrospektyva pateikiama su sutarties lygio prieiga, suteikta „LinkedIn Recruiter“. Kai ji įjungta, galite peržiūrėti pastabas, susietas su kandidatu ir užfiksuotas įvairių įdarbintojų iš jūsų organizacijos.
 
 Norėdami peržiūrėti pastabų retrospektyvą, atidarykite kandidato profilį, pasirinkite skirtuką **LinkedIn** ir slinkite į puslapio apačią, kad peržiūrėtumėte retrospektyvą. Visas pastabas apie kandidatą galite peržiūrėti iš „LinkedIn Recruiter“.
 

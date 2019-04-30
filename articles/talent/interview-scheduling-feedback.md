@@ -1,25 +1,25 @@
 ---
 title: Pokalbio planavimas ir atsiliepimas
 description: Šioje temoje pateikiama informacija apie pokalbio planavimo ir atsiliepimų veiklas „Attract“.
-author: ''
+author: hasrivas
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 04/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
-ms.author: hasrivas
-ms.openlocfilehash: 7bc5a66bb221cb0ab2c69fcb1013ed48a7c664a6
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.author: shielas
+ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374947"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "989942"
 ---
 # <a name="interview-scheduling-and-feedback"></a>Pokalbio planavimas ir atsiliepimas
 
@@ -28,6 +28,8 @@ ms.locfileid: "374947"
 ## <a name="scheduler-activity"></a>Duomenų apsikeitimo valdymo veikla
 
 Planuotojo veikla yra pasirinktinė ir ją sudaro du komponentai: kandidato pasiekiamumo užklausa ir grafikas. Kandidatas pasiekiamumo komponentas suteikia galimybę naudoti el. paštą ir prašyti informacijos apie kandidato pasiekiamumą. Grafiko komponentas suteikia galimybę planuoti pokalbius su kandidatas ir samdos komanda.
+
+Norėdami nustatyti, kad planuoklės veikla apimtų tam tikrus kandidatus arba būtų apsiribojama tam tikrais kandidatais, lauke **Ką planuojate** pasirinkite reikšmę. Galimos šios pasirinktys: **Visi kandidatai**, **Išoriniai kandidatai** ir **Vidiniai kandidatai**. Pvz., jei pirmajame planavimo etape norite praleisti vidinius kandidatus, galite nustatyti **Ką planuojate** parinktį **Išoriniai kandidatai** ir planavimo veiklą priskirti tik išoriniams kandidatams.
 
 ### <a name="candidate-availability-request"></a>Kandidato pasiekiamumo užklausa
 
@@ -54,7 +56,7 @@ Pokalbio planuotojas gali naudoti kelias konfigūracijas ir kurti bei siųsti po
 
 2. Pasirinkite kiekvieno pokalbio įvykio pokalbio trukmę, o tada spustelėkite **Gerai**, kad pradėtumėte kurti grafiką.
 
-    Jei pasirinktos **Rekomendacijos**, bus rodomi pasiūlymai ir pokalbio tinklelis bus iš anksto užpildytas. Galėsite matyti dabartinio kalendoriaus visų pasirinktų kalbintojų pasiekiamumą. Taip pat galėsite peržiūrėti kandidato kalendorių, jei jis yra vidinis kandidatas.
+    Jei pasirinktos **Rekomendacijos**, bus rodomi pasiūlymai ir pokalbio tinklelis bus iš anksto užpildytas. Galėsite matyti visų dabartinio kalendoriaus pasirinktų kalbintojų pasiekiamumą. Taip pat galėsite peržiūrėti kandidato kalendorių, jei jis yra vidinis kandidatas. Galite peržiūrėti kalbintojų ir vidinių kandidatų užimtumą, jų darbo valandas, nedarbo valandas, taip pat sužinoti, ar savo kalendoriuose jie pasižymėjo tam tikrais laikotarpiais dirbantys kitur. 
 
 3. Jei pasiūlymų nėra, stulpelyje **Kalbintojai** spustelėkite laiko intervalą, pateikite pokalbio pavadinimą, informaciją ir įveskite vietos informaciją, jei reikia. Galite pasirinkti įtraukti pokalbio saitą **„Skype“ verslui**.
 
@@ -73,7 +75,7 @@ Pokalbio planuotojas gali naudoti kelias konfigūracijas ir kurti bei siųsti po
 
     Kalbintojų atsakymai užfiksuojami ir rodomi „Attract“. Jei kalbintojas atmeta pakvietimą, jums bus pranešta atlikti pakeitimą. Norėdami peržiūrėti jų atsakymus, tinklelio rodinyje **Duomenų apsikeitimo valdymas** spustelėkite burbulo piktogramą.
 
-[![„Attract“ įdarbintojo rodinys, kuriame rodomas kalbintojo atsakymas](./media/schedule-interviewer-response.png)](./media/schedule-interviewer-response.png)
+[![„Attract“ įdarbintojo rodinys, kuriame rodomas kalbintojo atsakymas](./media/schedule-interviewer-response2.png)](./media/schedule-interviewer-response2.png)
 
 7. Kai pokalbio grafikas yra paruoštas bendrinti su kandidatu, spustelėkite **Siųsti kandidatui**. Galite nuo kandidato slėpti arba jam rodyti kalbintojų vardus ir vietas.
 
@@ -82,10 +84,21 @@ Pokalbio planuotojas gali naudoti kelias konfigūracijas ir kurti bei siųsti po
 >[!NOTE] 
 > Kandidato kalendoriaus pasiekiamumas rodomas tik jei kandidatas yra vidinis. Taip pat tik vidinius kandidatus galima naudoti norint pagerinti pokalbio grafiko rekomendacijas. Šiuo metu kandidatai (išoriniai arba vidiniai) negauna pakvietimo į susitikimą el. laiško – kandidatas gauna tik pokalbių suvestinę.
 
-## <a name="feedback-activity"></a>Atsiliepimo veikla
+Kandidatai el. paštu gauna pokalbio informacijos suvestinę. El. laiškais siunčiamas .ics failas, kurį galima įsirašyti į savo asmeninius kalendorius, kad būtų lengviau naudotis, ir pastabos apie pokalbį.
 
-Atsiliepimo veikla užduoties šablone yra pasirinktinė. Ši veikla suteikia galimybę pokalbio dalyviams įvesti rekomendacijas arba atsiliepimo komentarus, skirtus pretendentui. Jei pasirenkamas laukas **Gauti atsiliepimų dalyvius iš samdos komandos**, įdarbintojas, samdos vadovas ir kalbintojai automatiškai įvedami atsiliepimo veikloje. Organizacijos gali leisti kalbintojams peržiūrėti kitų žmonių atsiliepimus prieš pateikiant savo atsiliepimus. Organizacijos taip pat gali leisti kalbintojams redaguoti savo atsiliepimą, kai jis pateiktas. Naudojant užduoties šabloną kalbintojams primenama pateikti atsiliepimus už pokalbius, kuriuos jie neseniai vedė, atsižvelgiant į iš anksto nustatytą konfigūraciją. Samdos vadovas arba įdarbintojas taip pat gali užduotyje pasirinkti neautomatiškai priminti kalbintojui pateikti atsiliepimą.
+>[!TIP] 
+> Kandidatui iš naujo išsiuntus pokalbių grafiką, kaip laiško priedas ir vėl išsiunčiamas .ics failas. Rekomenduojame atnaujinti kandidato pokalbio suvestinės el. laiškų šablonus, kad įsitikintumėte, jog kandidatai pašalino anksčiau įtrauktus pokalbių įvykius ir kalendoriuje nemato dublikatų. 
+
+## <a name="feedback-activity"></a>Atsiliepimai apie veiklą
+
+Atsiliepimo veikla užduoties šablone yra pasirinktinė. Ši veikla suteikia galimybę pokalbio dalyviams įvesti rekomendacijas arba atsiliepimo komentarus, skirtus pretendentui. 
+
+Norėdami įtraukti kandidatų (arba apsiriboti tik tam tikrais kandidatais), apie kuriuos pateikiamas atsiliepimas, lauke **Apie ką kalbintojai turėtų teikti atsiliepimus** pasirinkite reikšmę.  Galimos šios pasirinktys: **Visi kandidatai**, **Išoriniai kandidatai** ir **Vidiniai kandidatai**. Pavyzdžiui, pirmajame planavimo etape norėdami praleisti vidinius kandidatus, nustatykite **Apie ką kalbintojai turėtų teikti atsiliepimus** parinktį **Išoriniai kandidatai**.
+
+Jei pasirenkate lauką **Gauti atsiliepimų dalyvius iš samdos komandos**, įdarbintojas, samdos vadovas ir kalbintojai atsiliepimo veikloje įvedami automatiškai. Organizacijos gali leisti kalbintojams peržiūrėti kitų žmonių atsiliepimus prieš pateikiant savo atsiliepimus. Organizacijos taip pat gali leisti kalbintojams redaguoti savo atsiliepimą, kai jis pateiktas. Naudojant užduoties šabloną kalbintojams primenama pateikti atsiliepimus už pokalbius, kuriuos jie neseniai vedė, atsižvelgiant į iš anksto nustatytą konfigūraciją. Samdos vadovas arba įdarbintojas taip pat gali užduotyje pasirinkti neautomatiškai priminti kalbintojui pateikti atsiliepimą.
 
 ## <a name="interview-activity"></a>Pokalbio veikla
 
-Pokalbio veikla yra neprivaloma veikla, kurią sudaro trys komponentai: kandidato pasiekiamumo užklausa, grafikas ir atsiliepimas. Naudokite pokalbio veiklą užduoties šablone, jei norite kandidato pasiekiamumo užklausą, grafiką ir atsiliepimą sujungti į vieną procesą, o ne naudoti šiuos elementus atskirai samdos proceso metu.
+Pokalbio veikla yra neprivaloma veikla, kurią sudaro trys komponentai: **Kandidato pasiekiamumo užklausa**, **Grafikas** ir **Atsiliepimas**. Naudokite pokalbio veiklą užduoties šablone, jei kaip proceso dalį norite įtraukti viską: kandidato pasiekiamumo užklausą, grafiką ir atsiliepimą, o ne naudoti juos atskirai.
+
+Norėdami įtraukti kandidatų arba nustatyti kalbinamų kandidatų apribojimų, lauke **Ką kalbinate** pasirinkite reikšmę. Galimos šios pasirinktys: **Visi kandidatai**, **Išoriniai kandidatai** ir **Vidiniai kandidatai**. Pavyzdžiui, jei norite praleisti vidaus kandidatų pirmajame pokalbio etape, nustatykite **Ką kalbinate** parinktį **Išoriniai kandidatai**.

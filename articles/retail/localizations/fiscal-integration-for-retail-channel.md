@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773282"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950409"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
 
@@ -81,12 +81,37 @@ Fiskalinės integracijos sistema teikia toliau nurodytas parinktis, skirtas spr�
 
 Parinktys **Praleisti** ir **Pažymėti kaip užregistruotą** suteikia galimybę informacijos kodams užfiksuoti šiek tiek konkrečios informacijos apie triktį, pvz., gedimo priežastį, fiskalinės registracijos praleidimo priežastį arba operacijos pažymėjimo užregistruota priežastį. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
 
+### <a name="optional-fiscal-registration"></a>Nebūtina fiskalinė registracija
+
+Fiskalinė registracija gali būti privaloma tik atliekant tam tikras operacijas. Pavyzdžiui, įprastų pardavimų ir grąžinimų atveju fiskalinė registracija gali būti privaloma, bet su kliento mokama suma susijusių operacijų fiskalinė registracija nebūtina. Neatlikus pardavimo fiskalinės registracijos, kiti pardavimai blokuojami, o neatlikus kliento mokamos sumos fiskalinės registracijos kiti pardavimai neblokuojami. Tam, kad galėtumėte atskirti privalomas ir neprivalomas operacijas, rekomenduojame jas atliekant naudotis skirtingų dokumentų teikėjų paslaugomis ir nustatyti atskirus tų teikėjų fiskalinės registracijos proceso etapus. Parametras **Tęsti įvykus klaidai** turi būti įgalintas atliekant bet kokį su nebūtina fiskaline registracija susijusį veiksmą. Daugiau informacijos apie tai, kaip nustatyti klaidų tvarlymo parametrus, žr. [Klaidų tvarkymo parametrai](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
+### <a name="manually-running-fiscal-registration"></a>Neautomatinė fiskalinė registracija
+
+Jei įvykus klaidai (pvz., klaidų tvarkymo dialogo lange operatoriui paspaudus **Atšaukti**) operacijos arba įvykio fiskalinė registracija atidėta, suaktyvinę atitinkamą operaciją galite patys iš naujo paleisti fiskalinę registraciją. Daugiau informacijos rasite [Rankinio atidėtos fiskalinės registracijos vykdymo įgalinimas](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration).
+
+### <a name="fiscal-registration-health-check"></a>Fiskalinės registracijos būsenos patikra
+
+Atliekant fiskalinės registracijos būsenos patikros procedūrą patikrinamas finansinio įrenginio ar paslaugos prieinamumas įvykus tam tikriems įvykiams. Jei šiuo metu fiskalinės registracijos atlikti neįmanoma, apie tai iš anksto pranešama operatoriui.
+
+EKA būsenos patikrą atlieka įvykus toliau išvardytiems įvykiams.
+
+- Atidaroma nauja operacija.
+- Atšaukiama sulaikyta operacija.
+- Užbaigiama pardavimo arba grąžinimo operacija.
+
+Jei būsenos patikros rezultatai neigiami, EKA rodomas būsenos patikros dialogo langas. Šiame dialogo lange rodomi toliau išvardyti mygtukai.
+
+- **Gerai** – paspaudęs šį mygtuką operatorius gali nepaisyti būsenos patikros klaidos ir toliau vykdyti operaciją. Operatoriai gali paspausti šį mygtuką tik tuo atveju, jei jiems įgalinta teisė **Leisti nepaisyti būsenos patikros klaidos**.
+- **Atšaukti** – operatoriui paspaudus šį mygtuką, EKA atšaukia paskutinį veiksmą (pvz., prekė neįtraukiama į naują operaciją).
+
+> [!NOTE]
+> Būsenos patikra atliekama tik tuo atveju, jei atliekant dabartinę operaciją reikia atlikti fiskalinę registraciją ir jei atliekant dabartinį fiskalinės registracijos proceso veiksmą išjungtas parametras **Tęsti įvykus klaidai**. Daugiau informacijos rasite [Klaidų tvarkymo parametrų nustatymas](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings).
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>Finansinio atsakymo saugojimas finansinėje operacijoje
 
 Kai operacijos arba įvykio fiskalinė registracija sėkminga, finansinė operacija sukuriama kanalo duomenų bazėje ir susiejama su pradine operacija arba įvykiu. Be to, pasirenkama nepavykusios finansinės registracijos parinktis **Praleisti** arba **Pažymėti kaip užregistruotą**, ši informacija yra saugoma finansinėje operacijoje. Finansinėje operacijoje saugomas finansinis atsakymas iš finansinio įrenginio ar tarnybos. Jei fiskalinės registracijos procesą sudaro keli etapai, finansinė operacija sukuriamas atliekant kiekvieną proceso veiksmą, po kurio registracija pavyko arba nepavyko.
 
-*P užduotis* perkelia finansines operacijas į mažmeninių pardavimų valdymą kartu su mažmeninės prekybos operacijomis. Puslapio **Mažmeninės prekybos parduotuvės operacijos** „FastTab“ **Finansinės operacijos** galite peržiūrėti finansines operacijas, susietas su mažmeninės prekybos operacijomis.
-
+*P užduotis* perkelia finansines operacijas į „Retail Headquarters“ kartu su mažmeninės prekybos operacijomis. Puslapio **Mažmeninės prekybos parduotuvės operacijos** „FastTab“ **Finansinės operacijos** galite peržiūrėti finansines operacijas, susietas su mažmeninės prekybos operacijomis.
 
 Finansinėje operacijoje saugoma toliau nurodyta informacija.
 
@@ -111,10 +136,11 @@ Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Reta
 
 - [Fiskalinio spausdintuvo integracijos pavyzdys (Italija)](emea-ita-fpi-sample.md)
 - [Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)](emea-pol-fpi-sample.md)
+- [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai](emea-aut-fi-sample.md)
+- [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai](emea-cze-fi-sample.md)
 
 Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SDK“, bet šiuo metu ji nenaudoja fiskalinės integracijos sistemos. Šios funkcijos perkėlimas į fiskalinės integracijos sistemą planuojama vėlesniuose naujinimuose.
 
 - [Prancūzijos skaitmeninis parašas](emea-fra-cash-registers.md)
 - [Norvegijos skaitmeninis parašas](emea-nor-cash-registers.md)
 - [Švedijos kontrolės įtaiso integracijos pavyzdys](./retail-sdk-control-unit-sample.md)
-

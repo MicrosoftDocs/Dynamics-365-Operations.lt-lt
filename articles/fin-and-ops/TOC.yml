@@ -26,11 +26,11 @@ items:
           href: get-started/system-requirements-on-prem.md
         - name: Vietinėms visuotinėms įdiegtims skirto sandėliavimo konfigūravimas
           href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-      - name: Standartinio ir pirmojo leidimo paslaugų naujinimai
+      - name: Paslaugų naujinimų pasiekiamumas
         href: get-started/public-preview-releases.md
       - name: „Finance and Operations” pirkimas
         items:
-        - name: „Finance and Operations (on-premises)” pirkimas
+        - name: „Finance and Operations (on-premises)“ pirkimas
           href: get-started/purchase-on-premises.md
     - name: Kas nauja ar pasikeitė
       href: get-started/whats-new-changed.md
@@ -43,13 +43,17 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: Vietinėse įdiegtyse neįdiegtos funkcijos
         href: get-started/features-not-implemented-on-prem.md
-      - name: „Finance and Operations” 10.0.1 versijos funkcijų peržiūra (2019 m. balandžio mėn.)
+      - name: „Finance and Operations“ 10.0.2 versijos funkcijų peržiūra (2019 m. gegužės mėn.)
+        href: get-started/whats-new-changed-10-0-2.md
+      - name: „Finance and Operations“ 10.0.1 versija (2019 m. balandžio mėn.)
         href: get-started/whats-new-changed-10-0-1.md
       - name: „Finance and Operations“ 10.0 versija (2019 m. balandžio mėn.)
         href: get-started/whats-new-changed-10.md
       - name: „Finance and Operations“ 8.1.3 versija (2019 m. sausio mėn.)
         href: get-started/whats-new-changed-8-1-3.md
-      - name: „Finance and Operations platform update 25” funkcijų peržiūra (2019 m. balandžio mėn.)
+      - name: „Finance and Operations platform update 26“ peržiūros funkcijos (2019 m.gegužės mėn.)
+        href: get-started/whats-new-platform-update-26.md
+      - name: „Finance and Operations platform update 25“ (2019 m. balandžio mėn.)
         href: get-started/whats-new-platform-25.md
       - name: „Platform Update 24“ (2019 m. kovo mėn.)
         href: get-started/whats-new-platform-update-24.md
@@ -209,7 +213,7 @@ items:
       href: ../dev-itpro/migration-upgrade/versions-update-policy.md
     - name: Programinės įrangos ciklo strategija – vietinės versijos leidimai
       href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
-    - name: Standartinio ir pirmojo leidimo paslaugų naujinimai
+    - name: Paslaugų naujinimų pasiekiamumas
       href: get-started/public-preview-releases.md
     - name: Debesies aplinkų naujinimų taikymas
       href: ../dev-itpro/deployment/apply-deployable-package-system.md
@@ -230,12 +234,16 @@ items:
       href: ../dev-itpro/business-events/app-business-events.md
     - name: Darbo eigos verslo įvykiai
       href: ../dev-itpro/business-events/business-events-workflow.md
+    - name: Įspėjimai kaip verslo įvykiai
+      href: ../dev-itpro/business-events/alerts-business-events.md
     - name: Verslo įvykiai programoje „Microsoft Flow“
       href: ../dev-itpro/business-events/business-events-flow.md
     - name: Verslo įvykių kūrėjo dokumentacija
       href: ../dev-itpro/business-events/business-events-dev-doc.md
     - name: Verslo įvykių trikčių šalinimas
       href: ../dev-itpro/business-events/troubleshooting.md
+    - name: Atvejų taikymas verslo įvykiams
+      href: ../dev-itpro/business-events/potential-use-cases.md
   - name: Atitiktis
     items:
     - name: Audito strategijos taisyklės
@@ -366,10 +374,12 @@ items:
         href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
       - name: Pasirinktinių paslaugų kūrimas
         href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
-      - name: Pasikartojančios integracijos​
+      - name: Pasikartojančios integracijos
         href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
       - name: Paslaugų tikrinimas naudojant trečiųjų šalių priemones
         href: ../dev-itpro/data-entities/third-party-service-test.md
+    - name: „Finance and Operations“ jungtis
+      href: ../dev-itpro/data-entities/fin-ops-connector.md
     - name: Integravimo kūrimas
       items:
       - name: Duomenų integravimas naudojant duomenų objektus
@@ -740,13 +750,15 @@ items:
         href: ../financials/budgeting/budget-planning-data-allocation.md
       - name: Biudžeto planavimo integravimas su kitais moduliais
         href: ../financials/budgeting/budget-planning-integration-other-modules.md
-    - name: Grynųjų pinigų ir banko valdymas
+    - name: Grynųjų pinigų ir banko paslaugų valdymas
       href: ../financials/cash-bank-management/cash-bank-management.md
       items:
       - name: Grynųjų pinigų srautų prognozavimas
         href: ../financials/cash-bank-management/cash-flow-forecasting.md
       - name: Banko valdymo darbo sritis
         href: ../financials/cash-bank-management/Bank-management-workspace.md
+      - name: Banko užsienio valiutos kurso pasikeitimas
+        href: ../financials/cash-bank-management/bank-revaluation.md
       - name: Mokėjimo nuolaidos
         href: ../financials/cash-bank-management/cash-discounts.md
       - name: Permokėjimų mokėjimo nuolaidos
@@ -1893,6 +1905,8 @@ items:
           href: ../financials/localizations/apac-ind-gst-reference-groups.md
         - name: Kasos aparatų GST integravimas
           href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: Apmokestinamos prekės įsigijimas iš neužregistruoto tiekėjo
+          href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
       - name: Kasos aparatų diegimo gairės
         href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
       - name: Mokesčių mechanizmo apžvalga
@@ -2291,7 +2305,9 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: Nusidėvėjimo skaičiavimas
           href: ../financials/localizations/rus-depreciation-calculation.md
-      - name: Mokėtinos ir gautinos sumos
+        - name: Ilgalaikio turto perkėlimas
+          href: ../financials/localizations/rus-fixed-asset-transfer.md
+      - name: Mokėtinos sumos ir gautinos sumos
         items:
         - name: Mokėjimo sąskaitos faktūros
           href: ../financials/localizations/rus-invoice-payment.md
@@ -2303,6 +2319,8 @@ items:
         items:
         - name: Finansinės ataskaitos
           href: ../financials/localizations/rus-financial-reports.md
+        - name: Finansinių ataskaitų konfigūravimas „Excel“
+          href: ../financials/localizations/rus-excel-financial-report.md
       - name: Įmonės padaliniai
         href: ../financials/localizations/rus-company-divisions.md
       - name: Valiutų operacijų kursų nustatymas
@@ -2321,6 +2339,10 @@ items:
         href: ../financials/localizations/rus-accounting-reporting.md
       - name: Grynųjų pinigų srauto valdymas
         href: ../financials/localizations/rus-cash-flow.md
+      - name: Pardavimas, pirkimas ir pervedimas užsienio valiuta
+        href: ../financials/localizations/rus-currency-sale-purchase.md
+      - name: Apskaičiuotos mokesčių deklaracijos
+        href: ../financials/localizations/rus-assessed-tax-declaration.md
     - name: Saudo Arabija
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2669,6 +2691,8 @@ items:
         href: ../dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Darbuotojų tobulinimas
         href: ../dev-itpro/analytics/employee-development-PBI.md?toc=/fin-and-ops/toc.json
+      - name: Išlaidų valdymas – „Power BI“ turinys
+        href: ../dev-itpro/analytics/expense-management-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Finansinės veiklos rezultatai
         href: ../dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: Finansinės įžvalgos
@@ -3092,8 +3116,12 @@ items:
         href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
       - name: Mano komanda
         href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
+      - name: Projekto mobiliųjų programų apžvalga
+        href: ../financials/project-management/project-mobile-application-overview.md
       - name: Projekto laiko įrašas
         href: ../financials/project-management/project-time-entry-mobile-workspace.md
+      - name: Projekto tabelis
+        href: ../financials/project-management/project-timesheet.md
       - name: Pirkimo užsakymo patvirtinimas
         href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
       - name: Pardavimo užsakymai
@@ -3333,6 +3361,8 @@ items:
         href: get-started/create-alerts.md
       - name: Paketinis įspėjimų apdorojimas
         href: get-started/alerts-managing.md
+      - name: Kliento įspėjimų pranešimai el. paštu
+        href: get-started/alert-email-notifications.md
     - name: Elektroniniai parašai
       href: organization-administration/electronic-signature-overview.md
       items:
@@ -3373,6 +3403,8 @@ items:
           href: ../supply-chain/production-control/bill-of-material-bom.md
         - name: KS kūrimo įrankio funkcija
           href: ../supply-chain/production-control/bom-designer-functionality.md
+        - name: Fiktyvios prekės
+          href: ../supply-chain/production-control/phantom-items.md
         - name: KS skaičiavimai
           href: ../supply-chain/cost-management/bom-calculations.md
         - name: Matavimo vieneto valdymas
@@ -3787,6 +3819,8 @@ items:
       href: ../financials/project-management/project-contracts.md
     - name: Projektų prognozės ir biudžetai
       href: ../financials/project-management/project-forecasts-budgets.md
+    - name: Projekto pardavimo užsakymai
+      href: ../financials/project-management/project-sales-orders.md
     - name: Projekto pirkimo užsakymai
       href: ../financials/project-management/project-purchase-orders.md
     - name: Projekto pasiūlymai
@@ -3800,8 +3834,12 @@ items:
       items:
       - name: „Microsoft Project“ kliento integravimas
         href: ../financials/project-management/project-integration.md
+    - name: Projekto mobiliųjų programų apžvalga
+      href: ../financials/project-management/project-mobile-application-overview.md
     - name: Projekto laiko įrašų mobilioji darbo sritis
       href: ../financials/project-management/project-time-entry-mobile-workspace.md
+    - name: Projekto tabelio mobilioji programa
+      href: ../financials/project-management/project-timesheet.md
   - name: Pardavimas ir rinkodara
     href: ../supply-chain/sales-marketing/overview-sales-marketing.md
     items:
@@ -4286,9 +4324,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: „Dynamics 365 for Retail“
   href: ../retail/toc.yml
-ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 9cb4d9114b745a42ad7c7650686639efe33c6192
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836401"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975971"

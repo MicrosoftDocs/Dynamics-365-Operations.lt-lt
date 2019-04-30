@@ -3,7 +3,7 @@ title: Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777277"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946438"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -97,7 +97,9 @@ Pvz., **Dėžė** yra esamo svorio vienetas ir jūs gaunate vieną aštuonių d�
 
 Kai esamo svorio žymės sekimas nenaudojamas, svorį galima užfiksuoti kiekviename dimensijų rinkinyje (pvz., ir kiekvienoje numerio lentelėje ir sekimo dimensijoje). Taip pat svoris gali būti užfiksuotas sujungtu lygiu, pvz., kaip penkių numerių lentelių (padėklų) svoris.
 
-Nustatydami siunčiamo svorio fiksavimo metodus galite nurodyti, ar sveriamas kiekvienas esamo svorio vienetas (t. y. kiekviena dėžė), ar svoris skaičiuojamas pagal kiekį, kuris bus paimtas (pavyzdžiui, trys dėžės). Atkreipkite dėmesį, kad gamybos eilutės išrinkimo proceso metu bus naudojamas vidutinis svoris, jei parinktis **Neužfiksuotas** nebus pasirinkta.
+Nustatydami siunčiamo svorio fiksavimo metodus galite nurodyti, ar sveriamas kiekvienas esamo svorio vienetas (t. y. kiekviena dėžė), ar svoris skaičiuojamas pagal kiekį, kuris bus paimtas (pavyzdžiui, trys dėžės). Atkreipkite dėmesį, kad, jei bus naudojama parinktis **Neužfiksuotas**, gamybos eilutės išrinkimo ir vidinio judėjimo procesų metu bus naudojamas vidutinis svoris.
+
+Siekiant apriboti sandėlio valdymo išrinkimo procesus, kad, fiksuojant svorius, nereikėtų koreguoti esamo svorio pelno / nuostolio, galima naudoti siunčiamo svorio nuokrypio metodą.
 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 
@@ -121,14 +123,12 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
  
 ### <a name="order-processing"></a>Užsakymų apdorojimas
 
-- Vidinės įmonės užsakymo apdorojimas nepalaikomas.
 - Išankstinio siuntimo pranešimas (ASN / pakavimo struktūros) nepalaiko svorio informacijos.
 - Užsakymo kiekis turi būti tvarkomas pagal esamo svorio vienetą.
  
 ### <a name="inbound-warehouse-processing"></a>Gaunamų prekių sandėliavimo apdorojimas
 
 - Gaunant numerių lenteles svoriai turi būti priskirti registruojant, nes svorio informacija nepalaikoma kaip išankstinio siuntimo pranešimo dalis. Kai naudojami esamo svorio žymių procesai, žymės numeris turi būti neautomatiškai priskirtas kiekvienam esamo svorio vienetui.
-- Mišrios numerio lentelės gavimas nepalaikomas naudojant esamo svorio produktus.
  
 ### <a name="inventory-and-warehouse-operations"></a>Atsargų ir sandėlio žurnalų operacijos
 
@@ -169,7 +169,6 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>Kiti esamo svorio produktų apdorojimo naudojant sandėlio valdymą apribojimai ir elgsena
 
-- Kai esamo svorio žymės fiksuojamos sandėlio programos apdorojimo metu, vartotojas negali atšaukti darbo eigos.
 - Išrinkimo procesų metu, kai vartotojas nėra raginamas nustatyti sekimo dimensijas, svorio priskyrimas atliekamas pagal vidutinį svorį. Taip atsitinka, kai, pvz., sekimo dimensijų derinys naudojamas toje pačioje vietoje ir, kai vartotojas apdoroja paėmimą, vietoje lieka tik viena sekimo dimensijos reikšmė.
 - Kai atsargos rezervuotos esamo svorio produktui, kuris sukonfigūruotas sandėlio valdymo procesuose, rezervavimas atliekamas remiantis nustatytu minimaliu svoriu, net jei šis kiekis yra vėliausias turimų atsargų sandėliavimo kiekis. Ši elgsena skiriasi nuo prekių, kurios nesukonfigūruotos sandėlio valdymo procesuose, elgsenos.
 - Procesai, kurie naudoja svorį kaip pajėgumo skaičiavimų dalį (bangos ribinės reikšmės, maksimalios darbo pertraukos, maksimalūs konteineriai, vietos apkrovos pajėgumas ir t. t.), nenaudoja faktinio atsargų svorio. Vietoje to procesai yra pagrįsti nurodytu faktiniu produkto sandėliavimo svoriu.
@@ -193,3 +192,5 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 - Kai konteineriai atidaromi iš naujo.
 - Kai formulės produktai skelbiami baigtais naudojant sandėlio programą.
 - Kai transportavimo kroviniai apdorojami naudojant sandėlio programą.
+
+Esamo svorio žymę galima sukurti naudojant sandėliavimo programos procesą, rankiniu būdu sukurti formoje arba sukurti naudojant duomenų objekto procesą. Jei esamo svorio žymė bus susieta su gaunamo šaltinio dokumento eilute, pvz., pirkimo užsakymo eilute, žymė bus užregistruota. Jei eilutė yra naudojama siuntimui apdoroti. Žymė bus atnaujinta kaip išsiųsta.

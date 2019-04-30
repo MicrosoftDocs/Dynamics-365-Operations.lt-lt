@@ -3,7 +3,7 @@ title: Finansinių ataskaitų peržiūra
 description: Šioje temoje aprašoma, kaip peržiūrėti ir naršyti finansines ataskaitas programoje „Microsoft Dynamics 365 for Finance and Operations“. Tai apima informaciją apie įvairias parinktis, kurias galite taikyti finansinėms ataskaitoms, norėdami pakeisti jų išvaizdą ir jų duomenis.
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791446"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894593"
 ---
 # <a name="view-financial-reports"></a>Finansinių ataskaitų peržiūra
 
@@ -46,12 +46,11 @@ Finansinės ataskaitos gali būti kelių išsamumo lygių. Finansų lygis yra pi
 Jei tai yra biudžeto duomenys, galite pasirinkti atidaryti biudžeto sąskaitos įrašus. Norėdami uždaryti bet kurį iš ataskaitos lygių ir grįžti į pradžią, galite spustelėti klavišą „Esc“ arba mygtuką **Uždaryti** (**X**) viršutiniame dešiniajame kampe.
 
 ## <a name="change-report-options"></a>Ataskaitos parinkčių keitimas
-Galite pakeisti ataskaitos datą, taikyti atributų ir dimensijos filtrus arba pakeisti biudžeto scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas** ataskaitą. Veiksmų srityje spustelėkite **Ataskaitos parinktys**, o tada atlikite vieną ar daugiau iš šių veiksmų:
+Galite taikyti atributų ir dimensijos filtrus arba pakeisti biudžeto scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas**. Veiksmų srityje spustelėkite **Ataskaitos parinktys**, o tada atlikite vieną ar daugiau iš šių veiksmų:
 
--   Norėdami pakeisti ataskaitos pradinį laikotarpį ir pradinius metus, pasirinkite pradinį laikotarpį ir pradinius metus, ir spustelėkite **Gerai**.
 -   Norėdami ataskaitai pritaikyti atributų filtrus, pasirinkite **Pridėti atributų filtrą**. Pasirinkite atributą, įveskite atributo reikšmę, tada spustelėkite **Gerai**. Pvz., jei pasirenkate atributą **Sąskaitų kategorija**, įveskite atributo reikšmę **PARDAVIMAI**. Norėdami pašalinti filtrą, spustelėkite **Išvalyti**.
 -   Norėdami ataskaitoje pritaikyti dimensijos filtrus, pasirinkite **Įtraukti dimensijos filtrą**. Pasirinkite dimensiją, tada įveskite dimensijos ID arba sąraše pasirinkite dimensiją. Norėdami pašalinti dimensijos filtrą, spustelėkite **Išvalyti**.
--   Pakeiskite scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas** pasirinkdami naują scenarijų ir spustelėdami **Gerai**. Jei pasirinktas kitų metų scenarijus, nepamirškite atnaujinti pradinių metų. Pvz., jei dabartinis scenarijus skirtas FY2015, o jūs pasirinktate naują scenarijų, kuris skirtas FY2016, reikėtų pakeisti pradinius metus į **2016**.
+-   Pakeiskite scenarijų ataskaitoje **Faktinių ir biudžeto duomenų palyginimas** pasirinkdami naują scenarijų ir spustelėdami **Gerai**. Jei pasirinktas scenarijus yra skirtas kitiems finansiniams metams, nebus pateikti jokie rezultatai. Pavyzdžiui, jei sugeneruojama ataskaita, skirta FY2015, dabartinis scenarijus yra skirtas FY2015, o pasirinktas naujas scenarijus yra skirtas FY2016, nebus pateikti jokie rezultatai. Jei reikia naujo scenarijaus, skirto kitiems finansiniams metams, generuokite naują ataskaitos versiją, skirtą su scenarijumi susijusiems finansiniams metams.
 
 Spustelėjus **Gerai**, ataskaitai pritaikomos visos jūsų pasirinktos parinktys. Jei nuspręsite, kad nenorite taikyti pasirinktų parinkčių, spustelėkite **Atšaukti**.
 

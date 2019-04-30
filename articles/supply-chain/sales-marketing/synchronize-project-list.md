@@ -3,7 +3,7 @@ title: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Fi
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ projektus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312513"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842609"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>„Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
 
@@ -44,7 +44,7 @@ Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant 
 - Projektai
 
 Prieš sinchronizuojant projektų sąrašą būtina atlikti toliau nurodytas sinchronizavimo užduotis.
-- Sąskaitos („Sales“ su „Finance and Operations“) 
+- Sąskaitos (iš „Sales“ į „Finance and Operations“) 
 
 ## <a name="entity-set"></a>Objektų rinkinys
 | Field Service           | „Finance and Operations”  |
@@ -64,6 +64,6 @@ Prieš sinchronizuojant projektų sąrašą būtina atlikti toliau nurodytas sin
 ## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>Projektai („Finance and Operations“ su „Field Service“): projektai
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projektai („Finance and Operations“ su „Field Service“): projektai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProject1.png)](./media/FSProject1.png)

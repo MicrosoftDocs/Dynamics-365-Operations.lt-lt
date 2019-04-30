@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782954"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949902"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. vasario 27 d.)
 
@@ -87,7 +87,7 @@ Darbuotojai įprastai prisijungia prie organizacijos nustatant pradžios datą a
 
 ## <a name="known-issues"></a>Žinomos problemos
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>„Core HR“ integravimo šablono pakeitimai („Talent Common Data Service for Apps“ ir “Finance and Operations“)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>„Core HR“ integravimo šablono pakeitimai („Talent Common Data Service“ ir „Finance and Operations“)
 „Core HR“ šablonas buvo atnaujintas į „išplėstinės užklausos šabloną“. Todėl pagal numatytuosius parametrus išplėstinę užklausą bus galima naudoti projektuose, sukurtuose naudojant šį šabloną. Be to, visos numatytosios susiejimo funkcijos bus rodomos tik išplėstinės užklausos rengyklėje. (Numatytosios susiejimo funkcijos rodomos kaip FN susiejimai.)
 
 Daugiau informacijos apie susiejimo klaidas žr. [Kas nauja arba pakeista „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
@@ -100,19 +100,19 @@ Norėdami naujinti esamą šabloną, atlikite tolesnius veiksmus.
 
     - **Darbo pareigos su pareigomis:** pašalinkite šį susiejimą.
     - **Darbo pareigos su pareigų pirminiu darbo priskyrimu:** pašalinkite šį susiejimą.
-    - **Darbo pareigos su pagrindinėmis pareigomis:** įtraukite naują susiejimą iš objekto Programos **darbo pareigų** „Common Data Service“ į „Finance and Operations“ objektą **Pagrindinės pareigos**. Perkelkite jį į 7 pareigas sekoje.
+    - **Darbo pareigos su pagrindinėmis pareigomis:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pagrindinės pareigos**. Perkelkite jį į 7 pareigas sekoje.
 
         [![Darbo pareigų susiejimas su pagrindinėmis pareigomis](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Darbo pareigos su pareigų informacija:** įtraukite naują susiejimą iš objekto Programos **darbo pareigų** „Common Data Service“ į „Finance and Operations“ objektą **Pareigų informacija**. Perkelkite jį į 8 pareigas sekoje.
+    - **Darbo pareigos su pareigų informacija:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pareigų informacija**. Perkelkite jį į 8 pareigas sekoje.
 
         [![Darbo pareigų susiejimas su pareigų informacija](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Darbo pareigos su pareigų trukme:** įtraukite naują susiejimą iš objekto Programos **darbo pareigų** „Common Data Service“ į „Finance and Operations“ objektą **Pareigų trukmė**.
+    - **Darbo pareigos su pareigų trukme:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pareigų trukmė**.
 
         [![Darbo pareigų susiejimas su pareigų trukme](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Darbo pareigos su pareigų hierarchijomis:** įtraukite naują susiejimą iš objekto Programos **darbo pareigų** „Common Data Service“ į „Finance and Operations“ objektą **Pareigų hierarchijos**. Pasirinkite **Išplėstinė užklausa**, kad išplėstinę užklausą būtų galima naudoti jūsų projekte.
+    - **Darbo pareigos su pareigų hierarchijomis:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pareigų hierarchijos**. Pasirinkite **Išplėstinė užklausa**, kad išplėstinę užklausą būtų galima naudoti jūsų projekte.
 
        [![Išplėstinės užklausos mygtukas](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

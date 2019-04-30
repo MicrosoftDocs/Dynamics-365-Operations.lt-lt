@@ -3,7 +3,7 @@ title: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ atsargų lygio informaciją su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356788"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842561"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>„Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“ 
 
@@ -80,6 +80,6 @@ Galite taikyti filtrus su išplėstine užklausa ir filtravimu, norėdami kontro
 
 ## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>Produktų atsargos („Finance and Operations“ su „Field Service“): produktų atsargos
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>Produktų atsargos („Finance and Operations“ su „Field Service“): produktų atsargos
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

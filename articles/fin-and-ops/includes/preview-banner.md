@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Šioje temoje nurodytos funkcijos, kurias gali naudoti tiksliniai vartotojai, yra peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros versijos leidimus gauti daugiau informacijos, žr. [Standartinio ir pirmojo leidimo paslaugų naujinimai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+> Šioje temoje nurodytos funkcijos, kurias gali naudoti tiksliniai vartotojai, yra peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).

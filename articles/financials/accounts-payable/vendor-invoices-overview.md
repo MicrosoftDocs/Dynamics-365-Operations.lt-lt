@@ -1,9 +1,9 @@
 ---
 title: Tiekėjo SF apžvalga
 description: Šiame straipsnyje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais.
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329763"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975807"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjo SF apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais. 
 
-<a name="vendor-invoices"></a>Tiekėjo SF
----------------
+## <a name="vendor-invoices"></a>Tiekėjo SF
 
 Tiekėjo SF iš pirkimo užsakymo yra SF, sukuriama, kai pagal pirkimo užsakymą, pateiktą tiekėjui, gaunami produktai ar paslaugos. Tiekėjo SF yra antraštė ir viena arba kelios prekių arba paslaugų eilutės. Tiekėjo SF užbaigia ciklą, prasidedantį pirkimo užsakymu ir pasibaigiantį produktų gavimu bei tiekėjo SF išrašymu. 
 
@@ -79,12 +79,19 @@ Daugiau informacijos žr. [Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu](
 
 Vienu metu galite dirbti su keliomis sąskaitomis faktūromis ir registruoti jas visas vienu metu. Jei turite sukurti kelias SF, naudokite **Laukiančių tiekėjo SF** puslapį. Jei turite registruoti ir spausdinti kelias tiekėjo SF, naudokite SF patvirtinimo žurnalo puslapį. Jei naudojate SF patvirtinimo žurnalą, turi būti registruotas bent vienas pirkimo užsakymo produkto gavimo kvitas, o pirkimo SF turi būti registruota SF registre. SF finansinė informacija gaunama iš SF, kuri buvo užregistruota registre.
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>Naudojamų tiekėjo SF atkūrimas
 
-Norėdami gauti daugiau informacijos, žr. 
+Kai tiekėjo SF naudojama, jos negali redaguoti kitas vartotojas. Tačiau kartais SF būsena gali nurodyti, kad SF yra naudojama, net jei ji nėra aktyviai redaguojama. Pvz., programa galėjo nustoti reaguoti į komandas, kai SF buvo redaguojama, arba vartotojas galėjo netyčia palikti SF atidarytą programoje.
 
- - [Nustatyti tiekėjų SF strategijas](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+Galite naudoti puslapį **Tiekėjo SF atkūrimas**, kad atkurtumėte arba išleistumėte tiekėjo SF, kurios buvo naudojamos daugiau nei keturias valandas, kad jas būtų galima redaguoti. Šį puslapį galite atidaryti naršymo skiltyje **Periodinė užduotis** arba darbo srities **Tiekėjo SF įrašas** plytelėje. Atkūrus SF, ją bus galima redaguoti puslapyje **Tiekėjo SF**.
 
- - [Pagrindiniai SF duomenys mokėtinose sumose naudojant tiekėjo SF](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+Puslapį **Tiekėjo SF atkūrimas** galite pasiekti tik tada, jei jums priskirta saugumo pareiga ir teisė **Atkurti naudojamas tiekėjo SF**. Be to, reikia įjungti parametrą **Leisti tiekėjo SF atkūrimą**, esantį puslapyje **Mokėtinų sumų parametrai**.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+ - [Tiekėjų sąskaitų faktūrų strategijų nustatymas](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [Pagrindiniai SF duomenys apie mokėtinas sumas naudojant tiekėjo SF](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 
  - [Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 

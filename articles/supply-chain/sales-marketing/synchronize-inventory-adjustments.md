@@ -3,7 +3,7 @@ title: „Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ atsargų koregavimą ir perkėlimą su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308373"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842420"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>„Field Service“ atsargų koregavimo sinchronizavimas su „Finance and Operations“
 
@@ -39,7 +39,7 @@ Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant 
 
 **Šablonai naudojant funkcija Duomenų integravimas**
 - Atsargų koregavimas („Field Service“ su „Finance and Operations“)
-- Atsargų perkėlimas (iš „Field Service“ į „Finance and Operations“)
+- Atsargų perkėlimas („Field Service“ su „Finance and Operations“)
 
 **Užduotys duomenų integravimo projektuose**
 - Atsargų koregavimas
@@ -71,11 +71,11 @@ Integravimo sugeneruotus integravimo atsargų žurnalus galima automatiškai reg
 
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>Atsargų koregavimas („Field Service“ su „Finance and Operations“): atsargų koregavimas
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>Atsargų koregavimas („Field Service“ su „Finance and Operations“): atsargų koregavimas
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>Atsargų perkėlimas (iš „Field Service“ į „Finance and Operations“): atsargų perkėlimas
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>Atsargų perkėlimas (iš „Field Service“ į „Finance and Operations“): atsargų perkėlimas
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSTrans1.png)](./media/FSTrans1.png)

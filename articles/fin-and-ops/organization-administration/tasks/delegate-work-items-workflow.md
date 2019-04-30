@@ -3,7 +3,7 @@ title: Perduoti darbo eigos darbo elementus
 description: Jei planuojate išvykti ar šiaip negalėsite dirbti su darbo elementais, juos galite perduoti arba iš naujo priskirti kitiems vartotojams.
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346254"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976786"
 ---
-# <a name="delegate-work-items-in-a-workflow"></a>Perduoti darbo eigos darbo elementus
+# <a name="delegate-work-items-in-a-workflow"></a>Darbo eigos darbo elementų perdavimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Jei planuojate išvykti ar šiaip negalėsite dirbti su darbo elementais, juos galite perduoti arba iš naujo priskirti kitiems vartotojams. Ši procedūra padės sukonfigūruoti sistemą taip, kad jūsų darbo elementai kitam vartotojui būtų perduodami automatiškai.
+## <a name="manually-delegate-a-work-item"></a>Rankinis darbo elemento perdavimas
 
+Norėdami perduoti atskirą darbo elementą, meniu **Darbo eiga** pasirinkite parinktį **Perduoti**, tada įveskite vartotoją, kuriam elementą reikia perduoti, ir komentarą. Taip darbo elementas bus iš naujo priskirtas tam vartotojui, kad jis elementą galėtų baigti.
 
+## <a name="automatically-delegate-work-items"></a>Automatinis darbo elementų perdavimas
 
-Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Jei tam tikrą laiką planuojate nebūti biure ar dėl kitų priežasčių negalėsite atlikti veiksmų su darbo elementais, naudodami puslapį **Vartotojo parinktys** naujus darbo elementus galite automatiškai perduoti kitiems vartotojams.
 
-
-## <a name="set-up-automatic-delegation"></a>Automatinio perdavimo nustatymas
+### <a name="set-up-automatic-delegation"></a>Automatinio perdavimo nustatymas
 1. Eikite į Bendra > Nustatymas > Vartotojo parinktys.
 2. Spustelėkite skirtuką Darbo eiga.
     * Įsitikinkite, kad dalis Perdavimas yra išskleista.    Norėdami sukonfigūruoti sistemą taip, kad jūsų darbo elementai kitiems vartotojams būtų perduodami automatiškai, turite sukurti perdavimo taisykles, nurodančias, kada bus perduoti tam tikrų tipų darbo elementai. Norėdami sukurti perdavimo taisyklę, atlikite toliau nurodytus veiksmus.  
