@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
 description: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija.
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507594"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
 
 [!include [banner](includes/banner.md)]
@@ -60,6 +64,11 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Gaukite pranešimus apie paslaugų naujinimus</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Duomenų užduočių automatizavimas</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">„Regression Suite Automation Tool”</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">Integravimas</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">Verslo įvykiai</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų objektai</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integravimo naudojimasMicrosoft Flow</a></p>
 
 <h3><a href="../financials/index.md">Finansų valdymas</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></p>
@@ -103,12 +112,8 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 
 
 
-<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Kūrimas</h3>
+<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Plėtra</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Išplečiamumas</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">Duomenų integravimas</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų valdymas</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">„Office“ integravimas</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Nuolatinis pristatymas</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobilioji platforma</a></p>
@@ -119,7 +124,6 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Vietinė visuotinė įdiegtis</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Versijos naujinimas</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Aptarnavimas</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų valdymo sistema</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">„Lifecycle Services“</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Organizacijos administravimas</a></p>
 </td>

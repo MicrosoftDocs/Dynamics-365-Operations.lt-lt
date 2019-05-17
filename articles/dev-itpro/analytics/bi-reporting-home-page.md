@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
-ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "902847"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1504107"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Verslo įžvalgų (BI) ir ataskaitų pagrindinis puslapis
 
@@ -62,7 +62,7 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 - [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimo įrenginius](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektroninės ataskaitos
-Elektroninės ataskaitos (EA) yra įrankis, naudojamas konfigūruoti elektroninių dokumentų formatams, kurie atitinka teisinius įvairių šalių ar regionų reikalavimus. Elektronines ataskaitas galima pritaikyti finansų audito, mokesčių ataskaitų ir elektroninių sąskaitų faktūrų srityse.
+Elektroninės ataskaitos (ER) yra įrankis, naudojamas konfigūruoti elektroninių dokumentų formatams, kurie atitinka teisinius įvairių šalių ar regionų reikalavimus. Elektronines ataskaitas galima pritaikyti finansų audito, mokesčių ataskaitų ir elektroninių sąskaitų faktūrų srityse.
 
 [![Elektroninių ataskaitų pavyzdys](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
