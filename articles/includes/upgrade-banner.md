@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="4525a-101">Šią funkciją šiuo metu galima naudoti tik su pakvietimu.</span><span class="sxs-lookup"><span data-stu-id="4525a-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="4525a-102">Norėdami pateikti savo organizacijos kandidatūrą dalyvauti, užpildykite [šią apklausą ](https://aka.ms/ax2012upgrade).</span><span class="sxs-lookup"><span data-stu-id="4525a-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 

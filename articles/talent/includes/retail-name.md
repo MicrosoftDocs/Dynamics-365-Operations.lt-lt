@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="87a52-101">Ši tema taikoma ir „Dynamics 365 for Finance and Operations“, ir „Dynamics 365 for Retail“.</span><span class="sxs-lookup"><span data-stu-id="87a52-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
+> <span data-ttu-id="170c7-101">Ši tema taikoma tiek „Dynamics 365 for Finance and Operations“, tiek „Dynamics 365 for Retail“.</span><span class="sxs-lookup"><span data-stu-id="170c7-101">This topic applies to both Dynamics 365 for Finance and Operations and to Dynamics 365 for Retail.</span></span> 
