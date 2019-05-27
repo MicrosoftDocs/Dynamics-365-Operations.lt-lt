@@ -17,60 +17,60 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 69542df1384bb36d89e2df5e5bc5fbe3dbe3c4cf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311846"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565025"
 ---
-# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="24d92-103">Prekių perkėlimo įmonės viduje perkėlimo dokumentų nustatymas</span><span class="sxs-lookup"><span data-stu-id="24d92-103">Set up the transfer documents for goods movement inside a company</span></span>
+# <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a><span data-ttu-id="4aedd-103">Prekių perkėlimo įmonės viduje perkėlimo dokumentų nustatymas</span><span class="sxs-lookup"><span data-stu-id="4aedd-103">Set up the transfer documents for goods movement inside a company</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="24d92-104">Šioje procedūroje parodoma, kaip kurti prekių perkėlimo įmonės viduje perdavimo dokumentus.</span><span class="sxs-lookup"><span data-stu-id="24d92-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="24d92-105">Šią procedūrą gali atlikti tik juridiniai subjektai, kurių pagrindinis adresas yra Lietuvoje.</span><span class="sxs-lookup"><span data-stu-id="24d92-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="24d92-106">Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Lietuvoje.</span><span class="sxs-lookup"><span data-stu-id="24d92-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="24d92-107">Prieš atlikdami šią procedūrą, turite atlikti procedūrą „Prekių perkėlimo įmonės viduje perdavimo dokumentų nustatymas“.</span><span class="sxs-lookup"><span data-stu-id="24d92-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="24d92-108">Ši procedūra skirta atsargų buhalteriams.</span><span class="sxs-lookup"><span data-stu-id="24d92-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="24d92-109">Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.</span><span class="sxs-lookup"><span data-stu-id="24d92-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="4aedd-104">Šioje procedūroje parodoma, kaip kurti prekių perkėlimo įmonės viduje perdavimo dokumentus.</span><span class="sxs-lookup"><span data-stu-id="4aedd-104">This procedure shows how to create transfer documents for goods movement inside a company.</span></span> <span data-ttu-id="4aedd-105">Šią procedūrą gali atlikti tik juridiniai subjektai, kurių pagrindinis adresas yra Lietuvoje.</span><span class="sxs-lookup"><span data-stu-id="4aedd-105">This procedure is only available for legal entities with a primary address in Lithuania.</span></span> <span data-ttu-id="4aedd-106">Ši procedūra buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Lietuvoje.</span><span class="sxs-lookup"><span data-stu-id="4aedd-106">The procedure was created using the demo data company DEMF with a primary address in Lithuania.</span></span> <span data-ttu-id="4aedd-107">Prieš atlikdami šią procedūrą, turite atlikti procedūrą „Prekių perkėlimo įmonės viduje perdavimo dokumentų nustatymas“.</span><span class="sxs-lookup"><span data-stu-id="4aedd-107">Before you can complete this procedure, you must complete the “Set up transfer documents for goods movement inside a company” procedure.</span></span> <span data-ttu-id="4aedd-108">Ši procedūra skirta atsargų buhalteriams.</span><span class="sxs-lookup"><span data-stu-id="4aedd-108">This procedure is intended for inventory accountants.</span></span> <span data-ttu-id="4aedd-109">Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="create-a-transfer-order"></a><span data-ttu-id="24d92-110">Perdavimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="24d92-110">Create a transfer order</span></span>
-1. <span data-ttu-id="24d92-111">Pasirinkite Atsargų valdymas > Gaunami užsakymai > Perkėlimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="24d92-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
-2. <span data-ttu-id="24d92-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="24d92-112">Click New.</span></span>
-3. <span data-ttu-id="24d92-113">Lauke Iš sandėlio įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="24d92-113">In the From warehouse field, enter or select a value.</span></span>
-4. <span data-ttu-id="24d92-114">Lauke Į sandėlį įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="24d92-114">In the To warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="24d92-115">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="24d92-115">Click Add.</span></span>
-6. <span data-ttu-id="24d92-116">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="24d92-116">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="24d92-117">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-117">In the Item number field, enter or select a value.</span></span>
+## <a name="create-a-transfer-order"></a><span data-ttu-id="4aedd-110">Perdavimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="4aedd-110">Create a transfer order</span></span>
+1. <span data-ttu-id="4aedd-111">Pasirinkite Atsargų valdymas > Gaunami užsakymai > Perkėlimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="4aedd-111">Go to Inventory management > Inbound orders > Transfer order.</span></span>
+2. <span data-ttu-id="4aedd-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="4aedd-112">Click New.</span></span>
+3. <span data-ttu-id="4aedd-113">Lauke Iš sandėlio įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-113">In the From warehouse field, enter or select a value.</span></span>
+4. <span data-ttu-id="4aedd-114">Lauke Į sandėlį įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-114">In the To warehouse field, enter or select a value.</span></span>
+5. <span data-ttu-id="4aedd-115">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-115">Click Add.</span></span>
+6. <span data-ttu-id="4aedd-116">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-116">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="4aedd-117">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-117">In the Item number field, enter or select a value.</span></span>
 
-## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="24d92-118">Perkėlimo užsakymo transportavimo informacijos įvedimas</span><span class="sxs-lookup"><span data-stu-id="24d92-118">Enter transportation details for the transfer order</span></span>
-1. <span data-ttu-id="24d92-119">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="24d92-119">Click Save.</span></span>
-2. <span data-ttu-id="24d92-120">Veiksmų srityje spustelėkite Siųsti.</span><span class="sxs-lookup"><span data-stu-id="24d92-120">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="24d92-121">Spustelėkite Transportavimo informacija.</span><span class="sxs-lookup"><span data-stu-id="24d92-121">Click Transportation details.</span></span>
-4. <span data-ttu-id="24d92-122">Lauke Spausdinti transportavimo informaciją pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="24d92-122">Select Yes in the Print transportation details field.</span></span>
-5. <span data-ttu-id="24d92-123">Lauke Išduotos prekės įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="24d92-123">In the Goods issued by field, enter or select a value.</span></span>
-6. <span data-ttu-id="24d92-124">Lauke Paketas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-124">In the Package field, type a value.</span></span>
-7. <span data-ttu-id="24d92-125">Lauke Krovinio pavojingumas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-125">In the Risk level of the load field, type a value.</span></span>
-8. <span data-ttu-id="24d92-126">Lauke Vežėjas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-126">In the Carrier field, enter or select a value.</span></span>
-9. <span data-ttu-id="24d92-127">Lauke Modelis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-127">In the Model field, enter or select a value.</span></span>
-10. <span data-ttu-id="24d92-128">Lauke Registracijos numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-128">In the Registration number field, type a value.</span></span>
-11. <span data-ttu-id="24d92-129">Lauke Priekabos registracijos numeris įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="24d92-129">In the Trailer registration number field, type a value.</span></span>
-12. <span data-ttu-id="24d92-130">Lauke Vairuotojas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-130">In the Driver field, enter or select a value.</span></span>
-13. <span data-ttu-id="24d92-131">Lauke Vairuotojo vardas ir pavardė įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-131">In the Driver name field, type a value.</span></span>
-14. <span data-ttu-id="24d92-132">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="24d92-132">Click Save.</span></span>
-15. <span data-ttu-id="24d92-133">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="24d92-133">Close the page.</span></span>
+## <a name="enter-transportation-details-for-the-transfer-order"></a><span data-ttu-id="4aedd-118">Perkėlimo užsakymo transportavimo informacijos įvedimas</span><span class="sxs-lookup"><span data-stu-id="4aedd-118">Enter transportation details for the transfer order</span></span>
+1. <span data-ttu-id="4aedd-119">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-119">Click Save.</span></span>
+2. <span data-ttu-id="4aedd-120">Veiksmų srityje spustelėkite Siųsti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-120">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="4aedd-121">Spustelėkite Transportavimo informacija.</span><span class="sxs-lookup"><span data-stu-id="4aedd-121">Click Transportation details.</span></span>
+4. <span data-ttu-id="4aedd-122">Lauke Spausdinti transportavimo informaciją pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="4aedd-122">Select Yes in the Print transportation details field.</span></span>
+5. <span data-ttu-id="4aedd-123">Lauke Išduotos prekės įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-123">In the Goods issued by field, enter or select a value.</span></span>
+6. <span data-ttu-id="4aedd-124">Lauke Paketas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-124">In the Package field, type a value.</span></span>
+7. <span data-ttu-id="4aedd-125">Lauke Krovinio pavojingumas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-125">In the Risk level of the load field, type a value.</span></span>
+8. <span data-ttu-id="4aedd-126">Lauke Vežėjas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-126">In the Carrier field, enter or select a value.</span></span>
+9. <span data-ttu-id="4aedd-127">Lauke Modelis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-127">In the Model field, enter or select a value.</span></span>
+10. <span data-ttu-id="4aedd-128">Lauke Registracijos numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-128">In the Registration number field, type a value.</span></span>
+11. <span data-ttu-id="4aedd-129">Lauke Priekabos registracijos numeris įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-129">In the Trailer registration number field, type a value.</span></span>
+12. <span data-ttu-id="4aedd-130">Lauke Vairuotojas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-130">In the Driver field, enter or select a value.</span></span>
+13. <span data-ttu-id="4aedd-131">Lauke Vairuotojo vardas ir pavardė įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-131">In the Driver name field, type a value.</span></span>
+14. <span data-ttu-id="4aedd-132">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-132">Click Save.</span></span>
+15. <span data-ttu-id="4aedd-133">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4aedd-133">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="24d92-134">Neužregistruoto perkėlimo užsakymo važtaraščio peržiūra</span><span class="sxs-lookup"><span data-stu-id="24d92-134">View the packing slip for the unposted transfer order</span></span>
-1. <span data-ttu-id="24d92-135">Spustelėkite Važtaraštis.</span><span class="sxs-lookup"><span data-stu-id="24d92-135">Click Packing slip.</span></span>
-2. <span data-ttu-id="24d92-136">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="24d92-136">Click OK.</span></span>
-3. <span data-ttu-id="24d92-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="24d92-137">Close the page.</span></span>
+## <a name="view-the-packing-slip-for-the-unposted-transfer-order"></a><span data-ttu-id="4aedd-134">Neužregistruoto perkėlimo užsakymo važtaraščio peržiūra</span><span class="sxs-lookup"><span data-stu-id="4aedd-134">View the packing slip for the unposted transfer order</span></span>
+1. <span data-ttu-id="4aedd-135">Spustelėkite Važtaraštis.</span><span class="sxs-lookup"><span data-stu-id="4aedd-135">Click Packing slip.</span></span>
+2. <span data-ttu-id="4aedd-136">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="4aedd-136">Click OK.</span></span>
+3. <span data-ttu-id="4aedd-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="4aedd-137">Close the page.</span></span>
 
-## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="24d92-138">Užregistruoto perkėlimo užsakymo važtaraščio peržiūra</span><span class="sxs-lookup"><span data-stu-id="24d92-138">View the packing slip for the posted transfer order</span></span>
-1. <span data-ttu-id="24d92-139">Veiksmų srityje spustelėkite Perkėlimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="24d92-139">On the Action Pane, click Transfer order.</span></span>
-2. <span data-ttu-id="24d92-140">Veiksmų srityje spustelėkite Siųsti.</span><span class="sxs-lookup"><span data-stu-id="24d92-140">On the Action Pane, click Ship.</span></span>
-3. <span data-ttu-id="24d92-141">Spustelėkite Siuntimo perkėlimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="24d92-141">Click Ship transfer order.</span></span>
-4. <span data-ttu-id="24d92-142">Spustelėkite skirtuką Bendra.</span><span class="sxs-lookup"><span data-stu-id="24d92-142">Click the General tab.</span></span>
-5. <span data-ttu-id="24d92-143">Lauke Naujinti pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="24d92-143">In the Update field, select an option.</span></span>
-6. <span data-ttu-id="24d92-144">Spustelėkite skirtuką Peržiūra.</span><span class="sxs-lookup"><span data-stu-id="24d92-144">Click the Overview tab.</span></span>
-7. <span data-ttu-id="24d92-145">Lauke Važtaraštis surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="24d92-145">In the Packing slip field, type a value.</span></span>
-8. <span data-ttu-id="24d92-146">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="24d92-146">Click OK.</span></span>
-9. <span data-ttu-id="24d92-147">Veiksmų srityje spustelėkite Siųsti.</span><span class="sxs-lookup"><span data-stu-id="24d92-147">On the Action Pane, click Ship.</span></span>
-10. <span data-ttu-id="24d92-148">Spustelėkite Važtaraštis.</span><span class="sxs-lookup"><span data-stu-id="24d92-148">Click Packing slip.</span></span>
-11. <span data-ttu-id="24d92-149">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="24d92-149">Click OK.</span></span>
+## <a name="view-the-packing-slip-for-the-posted-transfer-order"></a><span data-ttu-id="4aedd-138">Užregistruoto perkėlimo užsakymo važtaraščio peržiūra</span><span class="sxs-lookup"><span data-stu-id="4aedd-138">View the packing slip for the posted transfer order</span></span>
+1. <span data-ttu-id="4aedd-139">Veiksmų srityje spustelėkite Perkėlimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="4aedd-139">On the Action Pane, click Transfer order.</span></span>
+2. <span data-ttu-id="4aedd-140">Veiksmų srityje spustelėkite Siųsti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-140">On the Action Pane, click Ship.</span></span>
+3. <span data-ttu-id="4aedd-141">Spustelėkite Siuntimo perkėlimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="4aedd-141">Click Ship transfer order.</span></span>
+4. <span data-ttu-id="4aedd-142">Spustelėkite skirtuką Bendra.</span><span class="sxs-lookup"><span data-stu-id="4aedd-142">Click the General tab.</span></span>
+5. <span data-ttu-id="4aedd-143">Lauke Naujinti pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="4aedd-143">In the Update field, select an option.</span></span>
+6. <span data-ttu-id="4aedd-144">Spustelėkite skirtuką Peržiūra.</span><span class="sxs-lookup"><span data-stu-id="4aedd-144">Click the Overview tab.</span></span>
+7. <span data-ttu-id="4aedd-145">Lauke Važtaraštis surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="4aedd-145">In the Packing slip field, type a value.</span></span>
+8. <span data-ttu-id="4aedd-146">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="4aedd-146">Click OK.</span></span>
+9. <span data-ttu-id="4aedd-147">Veiksmų srityje spustelėkite Siųsti.</span><span class="sxs-lookup"><span data-stu-id="4aedd-147">On the Action Pane, click Ship.</span></span>
+10. <span data-ttu-id="4aedd-148">Spustelėkite Važtaraštis.</span><span class="sxs-lookup"><span data-stu-id="4aedd-148">Click Packing slip.</span></span>
+11. <span data-ttu-id="4aedd-149">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="4aedd-149">Click OK.</span></span>
 

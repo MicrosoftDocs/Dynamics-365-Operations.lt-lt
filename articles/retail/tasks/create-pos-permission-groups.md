@@ -18,40 +18,40 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354465"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566369"
 ---
-# <a name="create-pos-permission-groups"></a><span data-ttu-id="1928e-103"> Kurti EKA teisių grupes</span><span class="sxs-lookup"><span data-stu-id="1928e-103">Create POS permission groups</span></span>
+# <a name="create-pos-permission-groups"></a><span data-ttu-id="eadb8-103"> Kurti EKA teisių grupes</span><span class="sxs-lookup"><span data-stu-id="eadb8-103">Create POS permission groups</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="1928e-104">Ši procedūra padės kurti EKA teisių grupę.</span><span class="sxs-lookup"><span data-stu-id="1928e-104">This procedure will show how to create a POS permission group.</span></span> <span data-ttu-id="1928e-105">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT.</span><span class="sxs-lookup"><span data-stu-id="1928e-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="1928e-106">Ši užduotis skirta mažmeninės prekybos operacijų vadovo vaidmeniui.</span><span class="sxs-lookup"><span data-stu-id="1928e-106">This task is intended for the Retail operations manager role.</span></span>
+<span data-ttu-id="eadb8-104">Ši procedūra padės kurti EKA teisių grupę.</span><span class="sxs-lookup"><span data-stu-id="eadb8-104">This procedure will show how to create a POS permission group.</span></span> <span data-ttu-id="eadb8-105">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USRT.</span><span class="sxs-lookup"><span data-stu-id="eadb8-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="eadb8-106">Ši užduotis skirta mažmeninės prekybos operacijų vadovo vaidmeniui.</span><span class="sxs-lookup"><span data-stu-id="eadb8-106">This task is intended for the Retail operations manager role.</span></span>
 
-1. <span data-ttu-id="1928e-107">Pasirinkite Teisių grupės.</span><span class="sxs-lookup"><span data-stu-id="1928e-107">Go to Permission groups.</span></span>
-2. <span data-ttu-id="1928e-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="1928e-108">Click New.</span></span>
-3. <span data-ttu-id="1928e-109">Lauke EKA teisių grupės ID įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="1928e-109">In the POS permission group ID field, type a value.</span></span>
-4. <span data-ttu-id="1928e-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="1928e-110">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="1928e-111">Lauke Peržiūrėti laikrodžio įrašus pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="1928e-111">Select Yes in the View time clock entries field.</span></span>
-    * <span data-ttu-id="1928e-112">Dabar galite įjungti arba uždrausti įvairias savo EKA teisių grupės teises.</span><span class="sxs-lookup"><span data-stu-id="1928e-112">You can now enable or disable various permissions for your POS Permission group.</span></span> <span data-ttu-id="1928e-113">Galite nustatyti kai kurių teisių reikšmę, kuri bus naudojama siekiant įvertinti, ar EKA vartotojas gali atlikti veiksmą.</span><span class="sxs-lookup"><span data-stu-id="1928e-113">For some permission you can set a value that will be used to evaluate if the POS user can perform the action.</span></span>  <span data-ttu-id="1928e-114">Šiame užduočių vadove įjungiamos kelios teisės, kurias galima suteikti kasininkui.</span><span class="sxs-lookup"><span data-stu-id="1928e-114">This task guide enables a few permission that might be given to a cashier.</span></span>  
-6. <span data-ttu-id="1928e-115">Lauke Leisti kurti užsakymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="1928e-115">Select Yes in the Allow create order field.</span></span>
-7. <span data-ttu-id="1928e-116">Lauke Leisti redaguoti užsakymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="1928e-116">Select Yes in the Allow edit order field.</span></span>
-8. <span data-ttu-id="1928e-117">Lauke Leisti nuskaityti užsakymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="1928e-117">Select Yes in the Allow retrieve order field.</span></span>
-9. <span data-ttu-id="1928e-118">Lauke Leisti keisti slaptažodį pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="1928e-118">Select Yes in the Allow password change field.</span></span>
-10. <span data-ttu-id="1928e-119">Lauke Leisti anoniminį uždarymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="1928e-119">Select Yes in the Allow blind close field.</span></span>
-11. <span data-ttu-id="1928e-120">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1928e-120">Click Save.</span></span>
-    * <span data-ttu-id="1928e-121">Įrašius keitimus, reikia paleisti darbuotojų paskirstymo grafiką, kad keitimai būtų taikomi mažmeninės prekybos kanalams.</span><span class="sxs-lookup"><span data-stu-id="1928e-121">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
-12. <span data-ttu-id="1928e-122">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="1928e-122">Close the page.</span></span>
-13. <span data-ttu-id="1928e-123">Pasirinkite Užduotys.</span><span class="sxs-lookup"><span data-stu-id="1928e-123">Go to Jobs.</span></span>
-    * <span data-ttu-id="1928e-124">Dabar mes priskirsime EKA teisių grupę užduočiai.</span><span class="sxs-lookup"><span data-stu-id="1928e-124">Next we will assign the POS permission group to a Job.</span></span>  
-14. <span data-ttu-id="1928e-125">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="1928e-125">In the list, find and select the desired record.</span></span>
-15. <span data-ttu-id="1928e-126">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="1928e-126">In the list, click the link in the selected row.</span></span>
-16. <span data-ttu-id="1928e-127">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="1928e-127">Click Edit.</span></span>
-17. <span data-ttu-id="1928e-128">Išplėskite sekciją Užduočių klasifikacija.</span><span class="sxs-lookup"><span data-stu-id="1928e-128">Expand the Job classification section.</span></span>
-18. <span data-ttu-id="1928e-129">Lauke EKA teisių grupė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="1928e-129">In the POS permission group field, enter or select a value.</span></span>
-    * <span data-ttu-id="1928e-130">Visi darbuotojai su šios užduoties pareigomis naudos šios EKA teisių grupės parametrus, nebent darbuotojų EKA teisių nepaisoma pareigų lygyje.</span><span class="sxs-lookup"><span data-stu-id="1928e-130">All Workers in Positions for this Job will use this POS permission group’s settings unless the workers POS permissions have been overridden at their Position level.</span></span>  
-19. <span data-ttu-id="1928e-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="1928e-131">Click Save.</span></span>
-    * <span data-ttu-id="1928e-132">Įrašius keitimus, reikia paleisti darbuotojų paskirstymo grafiką, kad keitimai būtų taikomi mažmeninės prekybos kanalams.</span><span class="sxs-lookup"><span data-stu-id="1928e-132">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
+1. <span data-ttu-id="eadb8-107">Pasirinkite Teisių grupės.</span><span class="sxs-lookup"><span data-stu-id="eadb8-107">Go to Permission groups.</span></span>
+2. <span data-ttu-id="eadb8-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="eadb8-108">Click New.</span></span>
+3. <span data-ttu-id="eadb8-109">Lauke EKA teisių grupės ID įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="eadb8-109">In the POS permission group ID field, type a value.</span></span>
+4. <span data-ttu-id="eadb8-110">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="eadb8-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="eadb8-111">Lauke Peržiūrėti laikrodžio įrašus pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="eadb8-111">Select Yes in the View time clock entries field.</span></span>
+    * <span data-ttu-id="eadb8-112">Dabar galite įjungti arba uždrausti įvairias savo EKA teisių grupės teises.</span><span class="sxs-lookup"><span data-stu-id="eadb8-112">You can now enable or disable various permissions for your POS Permission group.</span></span> <span data-ttu-id="eadb8-113">Galite nustatyti kai kurių teisių reikšmę, kuri bus naudojama siekiant įvertinti, ar EKA vartotojas gali atlikti veiksmą.</span><span class="sxs-lookup"><span data-stu-id="eadb8-113">For some permission you can set a value that will be used to evaluate if the POS user can perform the action.</span></span>  <span data-ttu-id="eadb8-114">Šiame užduočių vadove įjungiamos kelios teisės, kurias galima suteikti kasininkui.</span><span class="sxs-lookup"><span data-stu-id="eadb8-114">This task guide enables a few permission that might be given to a cashier.</span></span>  
+6. <span data-ttu-id="eadb8-115">Lauke Leisti kurti užsakymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="eadb8-115">Select Yes in the Allow create order field.</span></span>
+7. <span data-ttu-id="eadb8-116">Lauke Leisti redaguoti užsakymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="eadb8-116">Select Yes in the Allow edit order field.</span></span>
+8. <span data-ttu-id="eadb8-117">Lauke Leisti nuskaityti užsakymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="eadb8-117">Select Yes in the Allow retrieve order field.</span></span>
+9. <span data-ttu-id="eadb8-118">Lauke Leisti keisti slaptažodį pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="eadb8-118">Select Yes in the Allow password change field.</span></span>
+10. <span data-ttu-id="eadb8-119">Lauke Leisti anoniminį uždarymą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="eadb8-119">Select Yes in the Allow blind close field.</span></span>
+11. <span data-ttu-id="eadb8-120">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="eadb8-120">Click Save.</span></span>
+    * <span data-ttu-id="eadb8-121">Įrašius keitimus, reikia paleisti darbuotojų paskirstymo grafiką, kad keitimai būtų taikomi mažmeninės prekybos kanalams.</span><span class="sxs-lookup"><span data-stu-id="eadb8-121">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
+12. <span data-ttu-id="eadb8-122">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="eadb8-122">Close the page.</span></span>
+13. <span data-ttu-id="eadb8-123">Pasirinkite Užduotys.</span><span class="sxs-lookup"><span data-stu-id="eadb8-123">Go to Jobs.</span></span>
+    * <span data-ttu-id="eadb8-124">Dabar mes priskirsime EKA teisių grupę užduočiai.</span><span class="sxs-lookup"><span data-stu-id="eadb8-124">Next we will assign the POS permission group to a Job.</span></span>  
+14. <span data-ttu-id="eadb8-125">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="eadb8-125">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="eadb8-126">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="eadb8-126">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="eadb8-127">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="eadb8-127">Click Edit.</span></span>
+17. <span data-ttu-id="eadb8-128">Išplėskite sekciją Užduočių klasifikacija.</span><span class="sxs-lookup"><span data-stu-id="eadb8-128">Expand the Job classification section.</span></span>
+18. <span data-ttu-id="eadb8-129">Lauke EKA teisių grupė įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="eadb8-129">In the POS permission group field, enter or select a value.</span></span>
+    * <span data-ttu-id="eadb8-130">Visi darbuotojai su šios užduoties pareigomis naudos šios EKA teisių grupės parametrus, nebent darbuotojų EKA teisių nepaisoma pareigų lygyje.</span><span class="sxs-lookup"><span data-stu-id="eadb8-130">All Workers in Positions for this Job will use this POS permission group’s settings unless the workers POS permissions have been overridden at their Position level.</span></span>  
+19. <span data-ttu-id="eadb8-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="eadb8-131">Click Save.</span></span>
+    * <span data-ttu-id="eadb8-132">Įrašius keitimus, reikia paleisti darbuotojų paskirstymo grafiką, kad keitimai būtų taikomi mažmeninės prekybos kanalams.</span><span class="sxs-lookup"><span data-stu-id="eadb8-132">After your changes are saved you need to run the Staff distribution schedule to push the changes to retail channels.</span></span>  
 
