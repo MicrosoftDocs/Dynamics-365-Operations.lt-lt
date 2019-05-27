@@ -19,11 +19,11 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fc824a308d17c75d9c16391778570272e160699
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351636"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572747"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Įsigijimo ir šaltinio pasirinkimo apžvalga
 
@@ -85,7 +85,7 @@ Iš tiekėjo gavus *tiekėjo SF*, pirmiausia ją galima įrašyti į *SF registr
 
 *Apskaitos paskirstymus* gali būti nustatyti pirkimo užsakyme, siekiant nurodyti, kaip vykdyti DK apskaitą, ir jie taip pat gali nurodyti, kaip gaunamas biudžeto lėšų paskirstymas, kai jis yra įtrauktas į jūsų konfigūraciją.  
 
-Pirkimo užsakymai, kurių SF išrašytos, mokėtinų sumų įsipareigojimą įrašo į tiekėjo sąskaitą, kurioje galima apdoroti *tiekėjo mokėjimą*.
+Pirkimo užsakymai, kurių SF išrašytos, mokėtinų sumų įsipareigojimą įrašo į tiekėjo sąskaitą, kurioje galima apdoroti *t*i*ekėjo mokėjimą*.
 
 ## <a name="vendor-performance"></a>Tiekėjo darbo našumas
 Pirkimo veikla ir peržiūra yra palaikoma naudojant *įsigijimo ir mokėtinų sumų ataskaitas,* kurios apima išlaidų analizę ir tiekėjo efektyvumo analizę.

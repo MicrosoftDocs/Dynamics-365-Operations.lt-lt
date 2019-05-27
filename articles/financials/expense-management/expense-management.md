@@ -1,9 +1,9 @@
 ---
 title: Išlaidų valdymas
-description: Naudodami modulį Išlaidų valdymas galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo metodo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas.
+description: Šioje temoje pateikiama bendra informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti modulį Išlaidų valdymui galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403219"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538614"
 ---
 # <a name="expense-management"></a>Išlaidų valdymas
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-Naudodami modulį Išlaidų valdymas galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo metodo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas. Taip pat galite nurodyti išlaidų strategijas ir automatizuoti kelionių išlaidų kompensaciją. 
+Galite naudoti modulį Išlaidų valdymui galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas. Taip pat galite nurodyti išlaidų strategijas ir automatizuoti kelionių išlaidų kompensaciją.
 
-[Išlaidų valdymo planavimas](plan-expense-management.md) 
+Daugiau informacijos žr. [„Konfigūruoti išlaidų valdymą“](plan-expense-management.md).
 
-### <a name="additional-resources"></a>Papildomi ištekliai
+## <a name="additional-resources"></a>Papildomi ištekliai
 
-#### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
+### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo pastabos](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Norėdami pamatyti, kokios naujos funkcijos planuojamos, žr. [„Microsoft Dynamics 365” leidimo pastabos](https://go.microsoft.com/fwlink/?linkid=2010158).
 
-#### <a name="blogs"></a>Tinklaraščiai
+#### <a name="expense-report-entry"></a>Išlaidų ataskaitos įrašas
+
+Išlaidų ataskaitos pateikimas buvo perdarytas siekiant supaprastinti išlaidų ataskaitų pildymo procesą ir sutrumpinti reikalingą laiką. Šią funkciją galite įjungti funkcijų valdyme. Galite pridėti naują sąrankos puslapį, kad galėtumėte konfigūruoti išlaidų laukų matomumą ir nurodyti, kokie duomenys yra būtini, pasirinktiniai arba galimi, kai įtraukiamos išlaidų ataskaitos. Kai ši funkcija įjungta, galima naudoti naują išlaidų darbo sritį. Ši darbo sritis pakeičia ankstesnę išlaidų darbo sritį ir yra geresnės įrašų patirties nukreipimo puslapis.
+
+Daugiau informacijos žr. [„Išlaidų ataskaitos iš naujo atvaizduotos“](ExpenseWorkspaceNew.md).
+
+### <a name="blogs"></a>Tinklaraščiai
 
 [„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
 
-„[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos. 
+„[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 
-#### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
+### <a name="task-guides"></a>Užduočių vedliai
 
-#### <a name="videos"></a>Vaizdo įrašai
+Papildoma pagalba prieinama kaip užduočių vadovai programoje „Microsoft Dynamics 365 for Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje pasirinkite mygtuką **Žinynas**.
+
+### <a name="videos"></a>Vaizdo įrašai
 
 Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365‟ „YouTube‟ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
-
-
-
-
