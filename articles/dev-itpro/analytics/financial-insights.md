@@ -18,17 +18,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308856"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554097"
 ---
 # <a name="financial-insights"></a>Finansinės įžvalgos
 
 [!include [banner](../includes/banner.md)]
 
-Darbo srityje **Finansų įžvalgos** naudojant „Microsoft Power BI“ kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos. „Power BI“ yra įdėtas į „Microsoft Dynamics 365 for Finance and Operations“. Darbo srityje **Finansinės įžvalgos** dėmesys skiriamas analizės ataskaitoms. Visos organizacijos asmenys gali peržiūrėti, tirti, suprasti ir veikti. 
+Darbo srityje **Finansų įžvalgos** naudojant „Microsoft Power BI“ kartu pateikiami pagrindiniai efektyvumo indikatoriai (KPI), diagramos ir finansinės ataskaitos. „Power BI“ yra įdėtas į „Microsoft Dynamics 365 Finance and Operations“. Darbo srityje **Finansinės įžvalgos** dėmesys skiriamas analizės ataskaitoms. Visos organizacijos asmenys gali peržiūrėti, tirti, suprasti ir veikti. 
 
 Sujungdama didžiosios knygos ir papildomų knygų duomenis, darbo sritis **Finansinės įžvalgos** pateikia visapusiškesnį organizacijos finansinės padėties vaizdą.
 

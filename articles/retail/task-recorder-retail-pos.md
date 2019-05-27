@@ -20,11 +20,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346001"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548559"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ (MPOS) ir „Cloud POS“ užduočių įrašymo priemonė bei žinynas
 
@@ -34,11 +34,11 @@ ms.locfileid: "346001"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Užduočių įrašymo priemonė „Retail Modern POS“ arba „Cloud POS“ yra naujas sprendimas, kurį kuriant didelis dėmesys skirtas modifikavimo galimybėms padidinti. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
+Užduočių įrašymo priemonė „Retail Modern POS“ arba „Cloud POS“ yra naujas sprendimas, kurį kuriant didelis dėmesys skirtas modifikavimo galimybėms padidinti. Ji pateikia lanksčią tarnybos programavimo sąsają (API), kuri užtikrina išplėtimą ir sklandų integravimą su verslo proceso įrašų vartotojais. Be to, pristatytas užduočių įrašymo priemonės integravimas su „Microsoft Dynamics Lifecycle Services“ verslo procesų modeliavimo (BPM) įrankiu ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)). Todėl vartotojai gali toliau iš įrašų kurti vaizdingas verslo procesų diagramas, kad galėtų analizuoti ir kurti savo programas.
 
 ## <a name="architecture"></a>Architektūra
 
-Užduočių įrašymo priemonė gali labai tiksliai įrašyti vartotojo veiksmus kliente. Kiekvienas valdiklis užduočių įrašymo priemonei praneša apie atliktą vartotojo veiksmą. Valdiklis praneša užduočių įrašymo priemonei, kad įvyko įvykis, ir perduoda visą reikiamą informaciją apie atitinkamą vartotojo veiksmą realiuoju laiku. Pagal šią informaciją užduočių įrašymo priemonė gali fiksuoti vartotojo veiksmo tipą (pvz., mygtuko spustelėjimą, vertės įrašymą arba naršymą) ir bet kokius duomenis, kurie susiję su vartotojo veiksmais (pvz., įvesties duomenų vertę ir tipą, formos kontekstą arba įrašo konteksto). Užduočių įrašymo priemonė įrašo informaciją pakankamai išsamiai ir užtikrina, kad atkuriant įrašą būtų galima atlikti įrašytus veiksmus lygiai taip pat, kaip juos atliko vartotojas. (Atkūrimo funkcija dar nėra įdiegta „Retail Modern POS“ arba „Cloud POS“.)
+Užduočių įrašymo priemonė gali labai tiksliai įrašyti vartotojo veiksmus kliente. Kiekvienas valdiklis užduočių įrašymo priemonei praneša apie atliktą vartotojo veiksmą. Valdiklis praneša užduočių įrašymo priemonei, kad įvyko įvykis, ir perduoda visą reikiamą informaciją apie atitinkamą vartotojo veiksmą realiuoju laiku. Pagal šią informaciją užduočių įrašymo priemonė gali fiksuoti vartotojo veiksmo tipą (pvz., mygtuko spustelėjimą, vertės įrašymą arba naršymą) ir bet kokius duomenis, kurie susiję su vartotojo veiksmais (pvz., įvesties duomenų vertę ir tipą, formos kontekstą arba įrašo konteksto). Užduočių įrašymo priemonė įrašo informaciją pakankamai išsamiai ir užtikrina, kad atkuriant įrašą būtų galima atlikti įrašytus veiksmus lygiai taip pat, kaip juos atliko vartotojas. (Atkūrimo funkcija dar nėra įdiegta „Retail modern POS“ arba „Cloud POS“.)
 
 ## <a name="basic-configuration"></a>Pagrindinė konfigūracija
 

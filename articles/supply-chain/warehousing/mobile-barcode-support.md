@@ -18,18 +18,18 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360238"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559813"
 ---
 # <a name="mobile-bar-code-support"></a>Mobiliųjų brūkšninių kodų palaikymas
 
 [!include [banner](../includes/banner.md)]
 
 „Android“ yra atvirojo kodo projektas, todėl sukurti įrenginį, kuriame veiktų „Android“ operacinė sistema, gali bet kuris sandėlio brūkšninio kodo skaitytuvų aparatūros gamintojas. Įrenginys su „Android“ suderinamas tik tuo atveju, jei jame gali veikti programos, sukurtos „Android“ vykdomajai aplinkai.
-Tačiau aparatūros tiekėjas gali modifikuoti „Android“ versiją arba sukurti „Android“ sistemai skirtus perdengimus, kurie veikia tik tiekėjo aparatūroje. „Microsoft“ negali prisiimti atsakomybės ir užtikrinti, kad „Android“ skirta mobiliųjų brūkšninių kodų nuskaitymo programa bus suderinama su gamintojo brūkšninio kodo aparatūra ir joje veikiančia „Android“ versija. 
+Tačiau aparatūros tiekėjas gali modifikuoti arba sukurti konkrečios versijos „Android“ sistemai skirtus perdengimus, kurie veikia tik tiekėjo aparatūroje. „Microsoft“ negali prisiimti atsakomybės ir užtikrinti, kad „Android“ skirta mobiliųjų brūkšninių kodų nuskaitymo programa bus suderinama su gamintojo brūkšninio kodo aparatūra ir joje veikiančia „Android“ versija. 
 
 „Microsoft Dynamics 365 for Finance and Operations“ skirta sandėliavimo programa buvo išbandyta pasirinktuose brūkšninių kodų nuskaitymo įrenginiuose, kuriuose veikia „Android“ operacinė sistema. Atliekant šiuos bandymus patikrinti tik pavyzdiniai rinkoje esantys gaminiai.
 

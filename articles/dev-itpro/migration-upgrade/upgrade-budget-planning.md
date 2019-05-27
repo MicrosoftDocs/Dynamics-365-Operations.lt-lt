@@ -18,11 +18,11 @@ ms.author: ryansand
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 3d57419ca5c59be185c87b869302b41bef05a3c7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342965"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554501"
 ---
 # <a name="upgrade-budget-planning"></a>Biudžeto planavimo naujinimas
 
@@ -54,7 +54,7 @@ Maketai yra nauja samprata, pakeičianti „Excel“ šabloną. Maketuose yra st
 
 ### <a name="budget-planning-processes"></a>Biudžeto planavimo procesai
 
-Biudžeto planavimo procesai yra daugiau ar mažiau tokie patys kaip „AX 2012“. Didžiausias skirtumas yra šablonų pakeitimas maketais. Jei yra procesų, kurie anksčiau buvo baigti „AX 2012“, procesų būsena atnaujinama kaip vykdoma, kad būtų galima atlikti keitimus. Turite priskirti maketus, kurių reikės kiekvienai etapo taisyklei, kad būtų galima nustatyti, kurie scenarijai ir laikotarpiai rodomi, kai kliente atidaromas planas. Maketai taip pat nustato, kuris „Excel“ šablonas atidaromas ne sprendime „Dynamics 365 for Finance and Operations“, kad galėtumėte peržiūrėti biudžetą. **Numatytoji sąskaitos struktūra** yra naujas būtinas biudžeto planavimo proceso laukas. Kiekvienam biudžeto planavimo procesui priskirkite pagrindinę sąskaitos struktūrą, kuri turi būti naudojama sudarant biudžetą.
+Biudžeto planavimo procesai yra daugiau ar mažiau tokie patys kaip „AX 2012“. Didžiausias skirtumas yra šablonų pakeitimas maketais. Jei yra procesų, kurie anksčiau buvo baigti „AX 2012“, procesų būsena atnaujinama kaip vykdoma, kad būtų galima atlikti keitimus. Turite priskirti maketus, kurių reikės kiekvienai etapo taisyklei, kad būtų galima nustatyti, kurie scenarijai ir laikotarpiai rodomi, kai kliente atidaromas planas. Maketai taip pat nustato, kuris „Excel“ šablonas atidaromas ne sprendime „Dynamic 365 for Finance and Operations“, kad galėtumėte peržiūrėti biudžetą. **Numatytoji sąskaitos struktūra** yra naujas būtinas biudžeto planavimo proceso laukas. Kiekvienam biudžeto planavimo procesui priskirkite pagrindinę sąskaitos struktūrą, kuri turi būti naudojama sudarant biudžetą.
 
 ### <a name="attachments"></a>Priedai
 
