@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355546"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565916"
 ---
 # <a name="access-rights-of-a-cost-object-controller"></a>Savikainos objekto valdiklio prieigos teisės
 
@@ -98,7 +98,7 @@ Prieigos sąrašo hierarchijos parametrai naudojami norint valdyti toliau nurody
     - Į „Microsoft Dynamics 365 for Finance and Operations“ klientą įtrauktų duomenų „Power BI“ vizualizavimai
 
 > [!IMPORTANT]
-> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos analizės „Power BI‟ turinio apsaugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Tam, kad prieigos sąrašo hierarchija galėtų turėti įtakos „Power BI“, turi būti susieta prieigos sąrašo hierarchija ir „Power BI“ eilučių lygio sauga. Daugiau informacijos rasite dalyje [Kaštų apskaitos turinio paketo saugos nustatymas](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Šioje temoje rodomos prieš naudojantis darbo sritimi **Savikainos kontrolė** turimos įdiegti būtinosios sąlygos.
 
 Papildomi ištekliai
