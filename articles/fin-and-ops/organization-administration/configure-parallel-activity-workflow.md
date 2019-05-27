@@ -18,39 +18,39 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 01c1fa876dd66ba6f0e1cdcecff56f424e117bd9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308442"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563324"
 ---
-# <a name="configure-parallel-activities-in-a-workflow"></a><span data-ttu-id="c0083-103">Lygiagrečių darbo eigos veiklų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="c0083-103">Configure parallel activities in a workflow</span></span>
+# <a name="configure-parallel-activities-in-a-workflow"></a><span data-ttu-id="7b841-103">Lygiagrečių darbo eigos veiklų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="7b841-103">Configure parallel activities in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c0083-104">Norėdami konfigūruoti lygiagrečią veiklą, darbo eigos rengyklėje atlikite toliau nurodytas procedūras.</span><span class="sxs-lookup"><span data-stu-id="c0083-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
+<span data-ttu-id="7b841-104">Norėdami konfigūruoti lygiagrečią veiklą, darbo eigos rengyklėje atlikite toliau nurodytas procedūras.</span><span class="sxs-lookup"><span data-stu-id="7b841-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
 
-<span data-ttu-id="c0083-105">Lygiagrečią veiklą sudaro vienu metu veikiančios darbo eigos šakos.</span><span class="sxs-lookup"><span data-stu-id="c0083-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
+<span data-ttu-id="7b841-105">Lygiagrečią veiklą sudaro vienu metu veikiančios darbo eigos šakos.</span><span class="sxs-lookup"><span data-stu-id="7b841-105">A parallel activity consists of workflow branches that run at the same time.</span></span>
 
-## <a name="name-a-parallel-activity"></a><span data-ttu-id="c0083-106">Lygiagrečios veiklos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="c0083-106">Name a parallel activity</span></span>
+## <a name="name-a-parallel-activity"></a><span data-ttu-id="7b841-106">Lygiagrečios veiklos pavadinimas</span><span class="sxs-lookup"><span data-stu-id="7b841-106">Name a parallel activity</span></span>
 
-<span data-ttu-id="c0083-107">Norėdami įvesti lygiagrečios veiklos pavadinimą, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="c0083-107">Follow these steps to enter a name for a parallel activity.</span></span>
+<span data-ttu-id="7b841-107">Norėdami įvesti lygiagrečios veiklos pavadinimą, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="7b841-107">Follow these steps to enter a name for a parallel activity.</span></span>
 
-1. <span data-ttu-id="c0083-108">Dešiniuoju pelės mygtuku spustelėkite lygiagrečią veiklą, o tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.</span><span class="sxs-lookup"><span data-stu-id="c0083-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
-2. <span data-ttu-id="c0083-109">Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.</span><span class="sxs-lookup"><span data-stu-id="c0083-109">In the left pane, click **Basic Settings**.</span></span>
-3. <span data-ttu-id="c0083-110">Lauke **Pavadinimas** įveskite unikalų lygiagrečios veiklos pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="c0083-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
-4. <span data-ttu-id="c0083-111">Spustelėkite **Uždaryti**.</span><span class="sxs-lookup"><span data-stu-id="c0083-111">Click **Close**.</span></span>
+1. <span data-ttu-id="7b841-108">Dešiniuoju pelės mygtuku spustelėkite lygiagrečią veiklą, o tada spustelėkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.</span><span class="sxs-lookup"><span data-stu-id="7b841-108">Right-click the parallel activity, and then click **Properties** to open the **Properties** form.</span></span>
+2. <span data-ttu-id="7b841-109">Kairiojoje srityje spustelėkite **Pagrindiniai parametrai**.</span><span class="sxs-lookup"><span data-stu-id="7b841-109">In the left pane, click **Basic Settings**.</span></span>
+3. <span data-ttu-id="7b841-110">Lauke **Pavadinimas** įveskite unikalų lygiagrečios veiklos pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="7b841-110">In the **Name** field, enter a unique name for the parallel activity.</span></span>
+4. <span data-ttu-id="7b841-111">Spustelėkite **Uždaryti**.</span><span class="sxs-lookup"><span data-stu-id="7b841-111">Click **Close**.</span></span>
 
-## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="c0083-112">Lygiagrečios veiklos šakų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="c0083-112">Configure the branches of a parallel activity</span></span>
+## <a name="configure-the-branches-of-a-parallel-activity"></a><span data-ttu-id="7b841-112">Lygiagrečios veiklos šakų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="7b841-112">Configure the branches of a parallel activity</span></span>
 
-<span data-ttu-id="c0083-113">Atlikite šiuos veiksmus, norėdami įtraukti ir konfigūruoti šios lygiagrečios veiklos šakas.</span><span class="sxs-lookup"><span data-stu-id="c0083-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
+<span data-ttu-id="7b841-113">Atlikite šiuos veiksmus, norėdami įtraukti ir konfigūruoti šios lygiagrečios veiklos šakas.</span><span class="sxs-lookup"><span data-stu-id="7b841-113">Follow these steps to add and configure the branches of this parallel activity.</span></span>
 
-1. <span data-ttu-id="c0083-114">Dukart spustelėkite lygiagrečią veiklą, kad būtų rodomos lygiagrečios veiklos šakos.</span><span class="sxs-lookup"><span data-stu-id="c0083-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
-2. <span data-ttu-id="c0083-115">Norėdami įtraukti šaką, nuvilkite elementą **Šaka** iš srities **Darbo eigos elementai** į įterpimo vietą drobėje.</span><span class="sxs-lookup"><span data-stu-id="c0083-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="c0083-116">Toliau pateiktame paveikslėlyje parodyta įterpimo vieta.</span><span class="sxs-lookup"><span data-stu-id="c0083-116">The following figure shows an insertion point.</span></span>
+1. <span data-ttu-id="7b841-114">Dukart spustelėkite lygiagrečią veiklą, kad būtų rodomos lygiagrečios veiklos šakos.</span><span class="sxs-lookup"><span data-stu-id="7b841-114">Double-click the parallel activity to display the branches of the parallel activity.</span></span>
+2. <span data-ttu-id="7b841-115">Norėdami įtraukti šaką, nuvilkite elementą **Šaka** iš srities **Darbo eigos elementai** į įterpimo vietą drobėje.</span><span class="sxs-lookup"><span data-stu-id="7b841-115">To add a branch, drag the **Branch** element from the **Workflow elements** area to an insertion point on the canvas.</span></span> <span data-ttu-id="7b841-116">Toliau pateiktame paveikslėlyje parodyta įterpimo vieta.</span><span class="sxs-lookup"><span data-stu-id="7b841-116">The following figure shows an insertion point.</span></span>
 
     ![Įterpimo vieta](./media/workflow_insertionpoint.gif)
 
     > [!NOTE]
-    > <span data-ttu-id="c0083-118">Šakų tvarka nėra svarbi, nes visos lygiagrečios veiklos šakos vykdomos tuo pačiu metu.</span><span class="sxs-lookup"><span data-stu-id="c0083-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span>
+    > <span data-ttu-id="7b841-118">Šakų tvarka nėra svarbi, nes visos lygiagrečios veiklos šakos vykdomos tuo pačiu metu.</span><span class="sxs-lookup"><span data-stu-id="7b841-118">The order of the branches is not important because all the branches of a parallel activity run at the same time.</span></span>
 
-3. <span data-ttu-id="c0083-119">Norėdami konfigūruoti kiekvieną šaką, žr. puslapį [Lygiagrečios šakos konfigūravimas](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="c0083-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>
+3. <span data-ttu-id="7b841-119">Norėdami konfigūruoti kiekvieną šaką, žr. puslapį [Lygiagrečios šakos konfigūravimas](configure-parallel-branch-workflow.md).</span><span class="sxs-lookup"><span data-stu-id="7b841-119">To configure each branch, see [Configure a parallel branch](configure-parallel-branch-workflow.md).</span></span>

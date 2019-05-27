@@ -19,35 +19,35 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d534f277560c28a4de2a22e20ca08036c5dc6594
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "319804"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562051"
 ---
-#  <a name="dispatch-board"></a><span data-ttu-id="60cff-103">Išsiuntimo informacijos lenta</span><span class="sxs-lookup"><span data-stu-id="60cff-103">Dispatch board</span></span> 
+#  <a name="dispatch-board"></a><span data-ttu-id="47874-103">Išsiuntimo informacijos lenta</span><span class="sxs-lookup"><span data-stu-id="47874-103">Dispatch board</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="60cff-104">Išsiuntimo informacijos lenta yra pagrindinė vieta, kurioje galite peržiūrėti veiklų būseną aptarnavimo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="60cff-104">A dispatch board is the central location from which you can view the status of activities in a service order.</span></span> <span data-ttu-id="60cff-105">Išsiuntimo informacijos lentoje galite atlikti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="60cff-105">You can perform the following tasks in a dispatch board:</span></span>
+<span data-ttu-id="47874-104">Išsiuntimo informacijos lenta yra pagrindinė vieta, kurioje galite peržiūrėti veiklų būseną aptarnavimo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="47874-104">A dispatch board is the central location from which you can view the status of activities in a service order.</span></span> <span data-ttu-id="47874-105">Išsiuntimo informacijos lentoje galite atlikti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="47874-105">You can perform the following tasks in a dispatch board:</span></span>
 
-  - <span data-ttu-id="60cff-106">Filtruoti ir peržiūrėti konkretaus datų diapazono aptarnavimo veiklas.</span><span class="sxs-lookup"><span data-stu-id="60cff-106">Filter and view service activities in a certain date range.</span></span>
+  - <span data-ttu-id="47874-106">Filtruoti ir peržiūrėti konkretaus datų diapazono aptarnavimo veiklas.</span><span class="sxs-lookup"><span data-stu-id="47874-106">Filter and view service activities in a certain date range.</span></span>
 
-  - <span data-ttu-id="60cff-107">Nustatyti aptarnavimo veiklos prioritetą ir atskirti aptarnavimo prioritetų lygius pagal jūsų nustatytą spalvų schemą.</span><span class="sxs-lookup"><span data-stu-id="60cff-107">Identify the priority of a service activity, and distinguish among service priority levels based on a color scheme that you set up.</span></span>
+  - <span data-ttu-id="47874-107">Nustatyti aptarnavimo veiklos prioritetą ir atskirti aptarnavimo prioritetų lygius pagal jūsų nustatytą spalvų schemą.</span><span class="sxs-lookup"><span data-stu-id="47874-107">Identify the priority of a service activity, and distinguish among service priority levels based on a color scheme that you set up.</span></span>
 
-  - <span data-ttu-id="60cff-108">Peržiūrėti darbuotojus, kurie priskirti išsiuntimo komandai.</span><span class="sxs-lookup"><span data-stu-id="60cff-108">Review the workers that are assigned to a dispatch team.</span></span>
+  - <span data-ttu-id="47874-108">Peržiūrėti darbuotojus, kurie priskirti išsiuntimo komandai.</span><span class="sxs-lookup"><span data-stu-id="47874-108">Review the workers that are assigned to a dispatch team.</span></span>
 
-  - <span data-ttu-id="60cff-109">Keisti aptarnavimo laiką ir priskirtus techninius darbuotojus aptarnavimo veiklai.</span><span class="sxs-lookup"><span data-stu-id="60cff-109">Modify the service times and assigned technicians for a service activity.</span></span>
+  - <span data-ttu-id="47874-109">Keisti aptarnavimo laiką ir priskirtus techninius darbuotojus aptarnavimo veiklai.</span><span class="sxs-lookup"><span data-stu-id="47874-109">Modify the service times and assigned technicians for a service activity.</span></span>
 
-  - <span data-ttu-id="60cff-110">Peržiūrėti aptarnavimo veiklų, kurios dar nebuvo išsiųstos, sąrašą.</span><span class="sxs-lookup"><span data-stu-id="60cff-110">Review the list of service activities that have not been dispatched.</span></span>
+  - <span data-ttu-id="47874-110">Peržiūrėti aptarnavimo veiklų, kurios dar nebuvo išsiųstos, sąrašą.</span><span class="sxs-lookup"><span data-stu-id="47874-110">Review the list of service activities that have not been dispatched.</span></span>
 
-<span data-ttu-id="60cff-111">Informacijos, kaip atlikti konkrečias užduotis išsiuntimo informacijos lentoje, žr. temas skyriuje **Taip pat žr.**.</span><span class="sxs-lookup"><span data-stu-id="60cff-111">For information about how to perform specific tasks in a dispatch board, see the topics in the **See also** section.</span></span>
+<span data-ttu-id="47874-111">Informacijos, kaip atlikti konkrečias užduotis išsiuntimo informacijos lentoje, žr. temas skyriuje **Taip pat žr.**.</span><span class="sxs-lookup"><span data-stu-id="47874-111">For information about how to perform specific tasks in a dispatch board, see the topics in the **See also** section.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="60cff-112">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="60cff-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="47874-112">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="47874-112">See also</span></span>
 
-[<span data-ttu-id="60cff-113">Aptarnavimo operacijų tipų nustatymas</span><span class="sxs-lookup"><span data-stu-id="60cff-113">Set up service activity types</span></span>](set-up-service-activity-types.md)
+[<span data-ttu-id="47874-113">Aptarnavimo operacijų tipų nustatymas</span><span class="sxs-lookup"><span data-stu-id="47874-113">Set up service activity types</span></span>](set-up-service-activity-types.md)
 
-[<span data-ttu-id="60cff-114">Pageidaujamo techniko nustatymas</span><span class="sxs-lookup"><span data-stu-id="60cff-114">Set up a preferred technician</span></span>](set-up-preferred-technician.md)
+[<span data-ttu-id="47874-114">Pageidaujamo techniko nustatymas</span><span class="sxs-lookup"><span data-stu-id="47874-114">Set up a preferred technician</span></span>](set-up-preferred-technician.md)
 
 
 
