@@ -1,9 +1,9 @@
 ---
-title: Sudengimo peržiūra
-description: Šiame straipsnyje pateikta bendra informacija apie sudengimo procesą. Jame aprašomi galimų sudengti operacijų tipai, tai, kada ir kaip operacijas galima sudengti bei sudengimo proceso rezultatai.
+title: Sudengimų apžvalga
+description: Šioje temoje pateikta bendra informacija apie sudengimo procesą. Jame aprašomi galimų sudengti operacijų tipai, tai, kada ir kaip operacijas galima sudengti bei sudengimo proceso rezultatai.
 author: kweekley
 manager: AnnBe
-ms.date: 12/06/2018
+ms.date: 05/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e13bdcdcf6dac68a95e6c2759a66bc59013464cb
+ms.sourcegitcommit: fd3db9f2052c76a5d906b9ec23cb16222452a362
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "338296"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "1539972"
 ---
-# <a name="settlement-overview"></a>Sudengimo peržiūra
+# <a name="settlement-overview"></a>Sudengimų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikta bendra informacija apie sudengimo procesą. Jame aprašomi galimų sudengti operacijų tipai, tai, kada ir kaip operacijas galima sudengti bei sudengimo proceso rezultatai.
+Šioje temoje pateikta bendra informacija apie sudengimo procesą. Jame aprašomi galimų sudengti operacijų tipai, tai, kada ir kaip operacijas galima sudengti bei sudengimo proceso rezultatai.
 
 Atliekant sudengimą vieno dokumento operacijos sudengiamos su kito dokumento operacijomis, kad būtų padidintas arba sumažintas kiekvieno dokumento balansas. Pvz., mokėjimas gali būti taikomas sąskaitai faktūrai. Įvairių tipų operacijos kaskart gali būti sudengtos skirtingais būdais. Atliekant sudengimą gali būti sugeneruota naujų operacijų.
 
@@ -40,7 +40,7 @@ Mokėtinų ir gautinų sumų sudengimas gali būti atliekamas su bet kurio tipo 
 Operacijas galima sudengti mokėjimų įvedimo metu. Pavyzdžiui, atliekant mokėjimą tiekėjui, paprastai pasirenkama apmokėti SF. Pasirinkdami sąskaitas faktūras, jas pažymite sudengti pagal mokėjimą. Kai darbuotojai, atsakingi už Gaunamų sumų mokėjimus, užregistruoja kliento mokėjimą, jie gali pažymėti reikiamas sudengti sąskaitas faktūras remiantis kliento mokėjimo informacija. Puslapyje **Sudengti operacijas** galima pažymėti reikiamas sudengti operacijas. Šio puslapio negalima atidaryti, jei atitinkama SF arba mokėjimas nėra užregistruoti. Užregistravus operaciją užregistruojamas ir sudengimas. Operacijos taip pat gali būti sudengtos jas užregistravus. Galite įvesti ir registruoti kliento mokėjimą neatlikdami sudengimo su jokiomis SF. Tačiau gali prireikti pirmiausia patikrinti, ar mokėjimas sudengtas su tinkama SF. Puslapį **Sudengti operacijas** galima atidaryti iš puslapio **Visi klientai** arba **Visi tiekėjai** arba iš bet kurio kliento ar teikėjo puslapio **Operacijos**. Be to, galite rezervuoti užregistruotus išankstinius mokėjimus pagal tam tikrą SF sudengimui su pirkimo ar pardavimo užsakymais atlikti. Tokiu atveju, mokėjimas turės atvirą balansą, tačiau negalės būti sudengtas pagal kitą sąskaitą faktūrą. Mokėjimas bus automatiškai sudengtas su ta sąskaita faktūra, kuri sukuriama pagal pirkimo arba pardavimo užsakymą.
 
 ## <a name="how-to-settle-transactions"></a>Kaip taikomas operacijų sudengimas
-Operacijas galima sudengti rankiniu būdu, automatiškai arba derinant bu būdus. Sudengimo būdo pasirinkimas priklauso nuo verslo proceso, kuris gali būti vykdomas nustatant sudengimo mokėtinų sumų parametrus ir gautinų sumų parametrus. Galite kurti tiekėjo mokėjimus ir kliento tiesioginio debeto mokėjimus naudodami mokėjimo pasiūlymą, kuris naudojamas apmokėtinoms SF pasirinkti. Mokėjimo pasiūlymas inicijuojamas rankiniu būdu, tada „Microsoft Dynamics 365 for Finance and Operations“ automatiškai pažymi pasirinktas SF sudengimui atlikti, kai mokėjimai bus sukurti. Jei mokėjimai sukurti rankiniu būdu, galite naudoti puslapį **Sudengti operacijas** norėdami pasirinkti SF sudengimui atlikti. SF galite pasirinkti rankiniu būdu arba galite naudoti parinktį **Žymėti pagal prioritetą**, kad sudengtinos SF būtų pažymėtos automatiškai. Parinktis **Žymėti pagal prioritetą** galima gautinoms sumoms. Norėdami įgalinti šią parinktį naudokite puslapį **Sudengimo prioritetas** gautinų sumų parametrų dalyje. Jei mokėjimą tvarkantis darbuotojas įveda mokėjimą, bet nesudengia jo prieš užregistruodamas, mokėjimą galima sudengti automatiškai. Gautinų sumų ir mokėtinų sumų parametrų dalyje galite įjungti automatinį sudengimą. Kai naudojate automatinį sudengimą, galite taikyti iš anksto nustatytą sudengimo tvarką arba galite patys nustatyti sudengimo prioritetų tvarką Gautinų sumų parametrų dalyje. Ši funkcija galima tik gautinoms sumoms.
+Operacijas galima sudengti rankiniu būdu, automatiškai arba derinant bu būdus. Sudengimo būdo pasirinkimas priklauso nuo verslo proceso, kuris gali būti vykdomas nustatant sudengimo mokėtinų sumų parametrus ir gautinų sumų parametrus. Galite kurti tiekėjo mokėjimus ir kliento tiesioginio debeto mokėjimus naudodami mokėjimo pasiūlymą, kuris naudojamas apmokėtinoms SF pasirinkti. Mokėjimo pasiūlymas inicijuojamas rankiniu būdu, tada „Dynamics 365 for Finance and Operations“ automatiškai pažymi pasirinktas SF sudengimui atlikti, kai mokėjimai bus sukurti. Jei mokėjimai sukurti rankiniu būdu, galite naudoti puslapį **Sudengti operacijas** norėdami pasirinkti SF sudengimui atlikti. SF galite pasirinkti rankiniu būdu arba galite naudoti parinktį **Žymėti pagal prioritetą**, kad sudengtinos SF būtų pažymėtos automatiškai. Parinktis **Žymėti pagal prioritetą** galima gautinoms sumoms. Norėdami įgalinti šią parinktį naudokite puslapį **Sudengimo prioritetas** gautinų sumų parametrų dalyje. Jei mokėjimą tvarkantis darbuotojas įveda mokėjimą, bet nesudengia jo prieš užregistruodamas, mokėjimą galima sudengti automatiškai. Gautinų sumų ir mokėtinų sumų parametrų dalyje galite įjungti automatinį sudengimą. Automatinis sudengimas sudengia operacijas tame pačiame juridiniame subjekte ir nesudengia kelių juridinių subjektų operacijų. Kai naudojate automatinį sudengimą, galite taikyti iš anksto nustatytą sudengimo tvarką arba galite patys nustatyti sudengimo prioritetų tvarką Gautinų sumų parametrų dalyje. Ši funkcija galima tik gautinoms sumoms.
 
 ## <a name="results-of-settlement"></a>Sudengimo rezultatai
 Atlikus operacijų sudengiamą kiekvienos operacijos nepamokėtas likutis atitinkamai padidėja arba sumažėja. Paprastai sudengus SF ir mokėjimą, kiekvienos operacijos būsena ir balansas atnaujinami pagal šias taisykles:

@@ -1,9 +1,9 @@
 ---
 title: Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
-description: Šioje temoje aprašyta, kaip įjungti užsakymų pranešimų rodymą elektroniniame kasos aparate ir pranešimų sistemoje. Ilgainiui programuotojai šiuos pranešimus galės išplėsti ir naudoti ne tik su užsakymų vykdymo operacijomis.
+description: Šioje temoje aprašyta, kaip įjungti užsakymų pranešimų rodymą elektroniniame kasos aparate ir pranešimų sistemoje.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/13/2018
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e7aceed380f6722353574470d6dee75ebe105c18
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361342"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530275"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 
@@ -67,6 +67,10 @@ Ant EKA mygtukų dabar gali būti rodomas skaičius, kad darbininkai galėtų le
 Tolesnėje iliustracijoje rodomi tiesioginio turinio parametrai mygtukyno dizaino įrankyje.
 
 ![Tiesioginio turinio parametrai mygtukyno dizaino įrankyje](./media/ButtonGridDesigner.png "Tiesioginio turinio parametrai mygtukyno dizaino įrankyje")
+
+Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į **ekrano maketo** puslapį „Dynamics 365 for Finance and Operations“, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Eikite į **Retail > Retail IT > Paskirstymo grafikas** ir paleiskite užduotį 1090 (registrai), kad sinchronizuotumėte maketo pakeitimus. 
+
+![EKA naudojamo ekrano maketo radimas](./media/Choose_screen_layout.png "Ekrano maketo radimas")
 
 Tolesnėje iliustracijoje rodoma, kaip įvairių dydžių mygtukus veikia lauko **Turinio lygiuotė** parinktys **Viršuje, dešinėje** ir **Centre**.
 

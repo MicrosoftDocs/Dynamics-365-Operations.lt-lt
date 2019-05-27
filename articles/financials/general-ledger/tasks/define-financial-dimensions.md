@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353798"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530873"
 ---
 # <a name="define-financial-dimensions"></a>Apibrėžti finansines dimensijas
 
@@ -33,7 +33,7 @@ ms.locfileid: "353798"
 ## <a name="create-an-entity-backed-financial-dimension"></a>Objekto remiamos finansinės dimensijos kūrimas
 1. Eikite į Didžioji knyga > Sąskaitų planas > Dimensijos > Finansinės dimensijos.
 2. Spustelėkite Naujas.
-3. Lauke Vartotojo vertės nuo pasirinkite sistemos nurodytą objektą, kurio pagrindu bus sukurta finansinė dimensija. 
+3. Lauke Vartotojo verčių forma pasirinkite sistemos nurodytą objektą, kurio pagrindu bus sukurta finansinė dimensija. 
 4. Lauke Dimensijos pavadinimas įveskite finansinę dimensiją aprašančią vertę.
     * Pavadinimas gali skirtis nuo sistemos nurodyto objekto, tačiau jame negali būti tarpų arba specialiųjų simbolių.  
 5. Spustelėkite Aktyvinti.
@@ -47,7 +47,7 @@ ms.locfileid: "353798"
 ## <a name="create-a-custom-financial-dimension"></a>Pasirinktinės finansinės dimensijos kūrimas
 1. Uždarykite puslapį.
 2. Spustelėkite Naujas.
-3. Lauke Naudoti vertes iš pasirinkite <Custom dimension>.
+3. Lauke Naudoti vertes iš pasirinkite Pasirinktinė dimensija.
 4. Lauke Dimensijos pavadinimas įveskite finansinę dimensiją aprašančią vertę.
     * Pavadinime negali būti tarpų arba specialiųjų simbolių.  
     * Taip pat galite nurodyti sąskaitos šabloną, ribojantį informacijos, kurią galite įvesti kaip dimensijos reikšmes, kiekį ir tipą.   

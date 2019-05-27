@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c5cd61c45eb7cbc6f040f054a99d9a54e1ee854
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d3496e0dec51daa640ff80355b9bcc63f8ba7ea2
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371210"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513103"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
@@ -65,7 +65,7 @@ PVM ataskaitų kodai yra langelių kodai PVM išraše arba žymių pavadinimai X
 
 ### <a name="sales-tax-codes-for-vat-reporting"></a>PVM kodai, skirti PVM ataskaitos teikti
 
-<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).--> PVM operacijų bazines sumas ir mokesčių sumas galima sujungti PVM išrašo ataskaitų koduose (XML žymės arba deklaracijos langeliai). Tai galima nustatyti puslapyje <strong>PVM kodai</strong> susiejant PVM kodų skirtingų operacijų tipų PVM ataskaitų kodus. Toliau pateikiamoje lentelėje aprašomi PVM kodų ataskaitų sąrankos operacijų tipai. Skaičiuojant įtraukiamos visų šaltinių tipų, išskyrus PVM, operacijos.
+<!---For general information about setting up sales tax codes, see [Set up sales tax codes](../general-ledger/tasks/set-up-sales-tax-codes.md).-->  PVM operacijų bazines sumas ir mokesčių sumas galima sujungti PVM išrašo ataskaitų koduose (XML žymės arba deklaracijos langeliai). Tai galima nustatyti puslapyje <strong>PVM kodai</strong> susiejant PVM kodų skirtingų operacijų tipų PVM ataskaitų kodus. Toliau pateikiamoje lentelėje aprašomi PVM kodų ataskaitų sąrankos operacijų tipai. Skaičiuojant įtraukiamos visų šaltinių tipų, išskyrus PVM, operacijos.
 
 <table>
 <colgroup>

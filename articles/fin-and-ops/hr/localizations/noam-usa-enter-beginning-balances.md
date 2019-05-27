@@ -3,13 +3,13 @@ title: Algalapio pradžios balansų įvedimas
 description: Temoje aprašomi pradžios balansų įvedimo veiksmai įvedant pajamų kodus, atskaitymus, išmokas ir mokesčius. Ši informacija yra naudinga partneriams perkeliant duomenis naujo algalapio diegimui iš kitos sistemos.
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e4bb8f565f5bf5630a7c5f8602b96e569692bc7c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312996"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507989"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Algalapio pradžios balansų įvedimas
 
@@ -70,10 +70,10 @@ Planuodami įvesti pradžios balansus, apsvarstykite, kiek išsamūs duomenys tu
     | Laukas            | Vertė       |
     |------------------|-------------|
     | Pajamų kodas    | Reguliarus mokėjimas |
-    | Kiekis         | 1,00        |
-    | Diapazonas             | 30 000      |
+    | Kiekis         | 1.00        |
+    | Tarifas             | 30,000      |
     | Skirtukas Eilutės informacija |             |
-    | Neautomatinis           | (pažymėta)    |
+    | Rankinis           | (pažymėta)    |
 
     2 eilutė: skirtukas **Pajamų išrašo eilutė**
 

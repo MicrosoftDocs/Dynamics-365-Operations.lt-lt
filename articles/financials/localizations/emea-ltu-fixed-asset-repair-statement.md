@@ -16,12 +16,12 @@ ms.search.region: Lithuania
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b51d2ab3beae242967502841c2167c163f37dd76
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4533bb614d29a2a9f7779d6e335861c6cf9f04b
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371207"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538126"
 ---
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 

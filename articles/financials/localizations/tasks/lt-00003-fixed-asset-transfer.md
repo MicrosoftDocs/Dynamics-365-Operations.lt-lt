@@ -16,12 +16,12 @@ ms.search.region: Lithuania
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 033fb6d58476f72dcdc0a46976c88b4d32b5c108
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e5e98181f37e263e27918064b8e7bd32275770f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371220"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538106"
 ---
 # <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a>LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą
 

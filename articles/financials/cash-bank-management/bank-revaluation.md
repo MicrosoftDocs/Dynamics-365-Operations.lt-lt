@@ -3,7 +3,7 @@ title: Banko užsienio valiutos kurso pasikeitimas
 description: Šioje temoje pateikta banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje pateikiama informacija apie sąranką, proceso vykdymą, proceso apskaičiavimą ir kurso keitimo operacijų atšaukimą.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976685"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538637"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banko užsienio valiutos kurso pasikeitimas
 
@@ -52,7 +52,7 @@ Užsienio valiutos kurso pasikeitimo funkciją turite įjungti prieš vykdydami 
 3. Skirtuke **Numeracijos** įtraukite užsienio valiutos kurso pasikeitimo numeraciją.
 4. Norėdami, kad skiltis **Užsienio valiutos kurso pasikeitimas** būtų rodoma vietos puslapio srityje **Periodinės užduotys**, atnaujinkite naršyklę.
 
-Šią funkciją turite įjungti kiekvienam juridiniam subjektui, kuriame bus naudojama užsienio valiutos kurso pasikeitimo funkcija.
+Šią funkciją turite įjungti kiekvienam juridiniam subjektui, kuriame bus naudojama užsienio valiutos kurso pasikeitimo funkcija. Jei jums priskirtas sistemos administratoriaus arba funkcijų valdytojo vaidmuo, galite praleisti šį veiksmą, įgalindami funkciją **Įgalinti pakartotinį banko įvertinimą be parametro** darbo srityje **Funckijų valdymas**.
 
 > [!NOTE]
 > Jei jūsų juridiname subjekte naudojamas Rusijos, Lenkijos arba Vengrijos šalies / regiono kodas, banko užsienio valiutos kurso pasikeitimo procedūrą jau galite atlikti. Užsienio valiutos kurso pasikeitimo funkcijos, kuri naudojama kitose šalyse arba regionuose, naudoti negalėsite.

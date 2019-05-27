@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992888"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527676"
 ---
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
@@ -66,26 +66,6 @@ ms.locfileid: "992888"
 | **Paveiktos produkto sritys**         | Žiniatinklio klientas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama. Nuo 2020 m. balandžio mėn. numatytasis veikimo būdas bus patobulinta patirtis „vienas iš“ ir nebus mechanizmo grąžinti senesnio veikimo būdo. |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>Išvedimas iš vidinių klasių nebenaudojamas
-
-|   |  |
-|------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima sukurti klasę arba lentelę, kuri išvedama iš vidinės klasės / lentelės, apibrėžtos kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
-| **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ kompiliatoriaus įspėjimas bus pakeistas į klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui.|
-| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
-| **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>Vidinių metodų perrašymas nebenaudojamas
-
-|   |  |
-|------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima vidinį metodą perrašyti išvestoje klasėje, kuri apibrėžta kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
-| **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ šis įspėjimas bus pakeistas į kompiliavimo klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
-| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
-| **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parametras, kuriuo įjungiami pardavimo užsakymai su keliais projekto sutarties lėšų skyrimo šaltiniais
 Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų skyrimo šaltinius, palaikymas įjungiamas puslapio **Projektų valdymo parametrai** parametru **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus**. Pagal numatytuosius parametrus šis parametras nėra įjungtas. 

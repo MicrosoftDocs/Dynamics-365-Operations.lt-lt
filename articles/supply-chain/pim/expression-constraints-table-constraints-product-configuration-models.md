@@ -20,11 +20,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356650"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546268"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Produkto konfigūravimo modelių išraiškos ir lentelės apribojimai
 
@@ -131,7 +131,7 @@ Galite rašyti išraiškos apribojimą naudodami galimus prefiksų operatorius a
 <td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
 <li><strong>Operatorius:</strong> Or[x == 2, y &lt;= 2]</li>
-<li><strong>Intarpo ženklas::</strong> x == 2 | y &lt;= 2</li>
+<li><strong>Intarpo ženklas:</strong> x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">

@@ -1,16 +1,16 @@
 ---
 title: Išplėstinės finansinių ataskaitų formatavimo parinktys
 description: Kai finansinėse ataskaitose sukuriate ataskaitą, galima naudoti papildomas formatavimo funkcijas, įskaitant dimensijų filtrus, stulpelių ir ataskaitų vienetų apribojimų, nespausdinamas eilutes ir IF / THEN / ELSE sakinius skaičiavimuose.
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335582"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502570"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
@@ -41,6 +41,7 @@ Kai finansinėse ataskaitose sukuriate ataskaitą, galima naudoti papildomas for
 | Stulpelio apribojimas         | Eilutės aprašo stulpelio apribojimas naudingas reikšmėms, kurios yra reikšmingos tik kai kurioms ataskaitos eilutėms, slėpti. Kai procentinės dalys skaičiuojamos eilutėje, stulpelio apribojimas neleidžia spausdinti visų stulpelių arba kitus stulpelių, jei šie skaičiau netaikomi. |
 | Stulpelio lūžis               | Galite pridėti stulpelių lūžių eilutės apraše, kad šalia būtų rodoma ataskaitos informacija. Galite pridėti kelis stulpelio lūžius viename eilutės apraše, ir stulpelių antraštės bus kartojamos kiekvieno stulpelio viršuje po stulpelio lūžio. Ataskaitos komentarai rodomi tarp stulpelių lūžių. |
 | IF / THEN / ELSE sakinys     | Galite modifikuoti eilutės aprašo arba stulpelio aprašo skaičiavimus. |
+| Dimensijų vertėms naudokite viengubas kabutes ('') ir ampersendą (&) | Kurdami ataskaitą galite naudoti dimensijų vertes, įskaitant ampersendo simbolį. |
 
 ## <a name="advanced-cell-placement"></a>Išplėstinis langelių išdėstymas
 Išplėstinis langelių išdėstymas arba *privertimas* yra konkrečių reikšmių išdėstymas konkrečiuose langeliuose. Pavyzdžiui, privertimas dažnai naudojamas teisingam balansui perkelti į pinigų srautų ataskaitą. Galite naudoti privertimą šiems tikslams.
@@ -297,3 +298,9 @@ Skaičiavimo eilutė gali nurodyti skaičiavimo eilutę arba finansinių duomen�
 
 > [!NOTE]
 > Negalima pateikti skaičiavimo rezultatų kitame stulpelyje. Rezultatai turi būti stulpelyje, kuriame yra formulė.
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>Dimensijų vertėms eilutėje, stulpelyje arba medyje naudokite viengubas kabutes ir ampersendą
+
+Galite kurti ataskaitas naudodami dimensijų vertes, kuriose yra ampersando (&) simbolis. 
+
+Bet kuriame lauke **Saitas su finansine dimensija** galite įvesti vertę, pvz., **'P&L'**. Viengubos kabutės ('') abiejose dimensijos vertės pusėse nurodo, kad naudojate tiesioginę vertę, pvz., įskaitant (&) ampersendo simbolį. 
