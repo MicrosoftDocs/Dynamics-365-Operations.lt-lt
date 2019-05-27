@@ -17,31 +17,31 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c94d992b97e9a2a18299f97c982430f8205cabf2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329970"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566677"
 ---
-# <a name="create-and-validate-journals"></a><span data-ttu-id="cde11-103">Kurti ir patvirtinti žurnalus</span><span class="sxs-lookup"><span data-stu-id="cde11-103">Create and validate journals</span></span>
+# <a name="create-and-validate-journals"></a><span data-ttu-id="03969-103">Kurti ir patvirtinti žurnalus</span><span class="sxs-lookup"><span data-stu-id="03969-103">Create and validate journals</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cde11-104">Šiame užduoties vadove sukuriami ir tikrinami žurnalai ir žurnalo eilutės.</span><span class="sxs-lookup"><span data-stu-id="cde11-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="cde11-105">Šioje užduotyje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="cde11-105">This tasks uses the USMF demo company.</span></span>  
+<span data-ttu-id="03969-104">Šiame užduoties vadove sukuriami ir tikrinami žurnalai ir žurnalo eilutės.</span><span class="sxs-lookup"><span data-stu-id="03969-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="03969-105">Šioje užduotyje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="03969-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. <span data-ttu-id="cde11-106">Pasirinkite Didžioji knyga > Žurnalų įrašai > Bendrieji žurnalai.</span><span class="sxs-lookup"><span data-stu-id="cde11-106">Go to General ledger > Journal entries > General journals.</span></span>
-2. <span data-ttu-id="cde11-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="cde11-107">Click New.</span></span>
-3. <span data-ttu-id="cde11-108">Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="cde11-108">In the Name field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="cde11-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="cde11-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="cde11-110">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="cde11-110">Click Lines.</span></span>
-6. <span data-ttu-id="cde11-111">Lauke Sąskaita įveskite atitinkamą sąskaitą pagal sąskaitos tipą.</span><span class="sxs-lookup"><span data-stu-id="cde11-111">In the Account field enter an appropriate account based on the Account type.</span></span>
-7. <span data-ttu-id="cde11-112">Lauke Aprašas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cde11-112">In the Description field, type a value.</span></span>
-8. <span data-ttu-id="cde11-113">Įveskite sąskaitos debeto arba kredito sumą.</span><span class="sxs-lookup"><span data-stu-id="cde11-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="cde11-114">Šiame užduoties vadove numanoma debeto suma.</span><span class="sxs-lookup"><span data-stu-id="cde11-114">This task guide is assuming a debit amount.</span></span>
-9. <span data-ttu-id="cde11-115">Lauke Korespondentinė sąskaita įveskite atitinkamą sąskaitą pagal korespondentinės sąskaitos tipą.</span><span class="sxs-lookup"><span data-stu-id="cde11-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
-10. <span data-ttu-id="cde11-116">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="cde11-116">Click Validate.</span></span>
-11. <span data-ttu-id="cde11-117">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="cde11-117">Click Validate.</span></span>
-12. <span data-ttu-id="cde11-118">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="cde11-118">Click Post.</span></span>
-13. <span data-ttu-id="cde11-119">Spustelėkite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="cde11-119">Click Voucher.</span></span>
+1. <span data-ttu-id="03969-106">Pasirinkite Didžioji knyga > Žurnalų įrašai > Bendrieji žurnalai.</span><span class="sxs-lookup"><span data-stu-id="03969-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="03969-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="03969-107">Click New.</span></span>
+3. <span data-ttu-id="03969-108">Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="03969-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="03969-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="03969-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="03969-110">Spustelėkite Eilutės.</span><span class="sxs-lookup"><span data-stu-id="03969-110">Click Lines.</span></span>
+6. <span data-ttu-id="03969-111">Lauke Sąskaita įveskite atitinkamą sąskaitą pagal sąskaitos tipą.</span><span class="sxs-lookup"><span data-stu-id="03969-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="03969-112">Lauke Aprašas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="03969-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="03969-113">Įveskite sąskaitos debeto arba kredito sumą.</span><span class="sxs-lookup"><span data-stu-id="03969-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="03969-114">Šiame užduoties vadove numanoma debeto suma.</span><span class="sxs-lookup"><span data-stu-id="03969-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="03969-115">Lauke Korespondentinė sąskaita įveskite atitinkamą sąskaitą pagal korespondentinės sąskaitos tipą.</span><span class="sxs-lookup"><span data-stu-id="03969-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="03969-116">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="03969-116">Click Validate.</span></span>
+11. <span data-ttu-id="03969-117">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="03969-117">Click Validate.</span></span>
+12. <span data-ttu-id="03969-118">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="03969-118">Click Post.</span></span>
+13. <span data-ttu-id="03969-119">Spustelėkite Kvitas.</span><span class="sxs-lookup"><span data-stu-id="03969-119">Click Voucher.</span></span>
 

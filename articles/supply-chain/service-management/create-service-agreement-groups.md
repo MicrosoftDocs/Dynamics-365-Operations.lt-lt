@@ -19,27 +19,27 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5b6219b7e277e00a74743fe00957c1bb6225b373
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "349129"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566598"
 ---
-# <a name="create-service-agreement-groups"></a><span data-ttu-id="54743-103">Aptarnavimo sutarčių grupių kūrimas</span><span class="sxs-lookup"><span data-stu-id="54743-103">Create service agreement groups</span></span> 
+# <a name="create-service-agreement-groups"></a><span data-ttu-id="1c219-103">Aptarnavimo sutarčių grupių kūrimas</span><span class="sxs-lookup"><span data-stu-id="1c219-103">Create service agreement groups</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="54743-104">Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir filtruoti.</span><span class="sxs-lookup"><span data-stu-id="54743-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span>
+<span data-ttu-id="1c219-104">Aptarnavimo sutarčių grupės yra naudingos aptarnavimo sutartims rūšiuoti ir filtruoti.</span><span class="sxs-lookup"><span data-stu-id="1c219-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span>
 
-1. <span data-ttu-id="54743-105">Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutarčių grupės**.</span><span class="sxs-lookup"><span data-stu-id="54743-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
-2. <span data-ttu-id="54743-106">Paspaudę **Alt+N** sukursite naują aptarnavimo sutarčių grupę.</span><span class="sxs-lookup"><span data-stu-id="54743-106">Press **Alt+N** to create a new service agreement group.</span></span>
-3. <span data-ttu-id="54743-107">Lauke **Aptarnavimo sutarčių grupė** įveskite aptarnavimo sutarčių grupės ID.</span><span class="sxs-lookup"><span data-stu-id="54743-107">In the **Service agreement group** field, enter an ID for the service agreement group.</span></span>
-4. <span data-ttu-id="54743-108">Lauke **Aprašas** įveskite aptarnavimo sutarčių grupės aprašą.</span><span class="sxs-lookup"><span data-stu-id="54743-108">In the **Description** field, enter a description for the service agreement group.</span></span>
-5. <span data-ttu-id="54743-109">Uždarę puslapį įrašysite savo pakeitimus.</span><span class="sxs-lookup"><span data-stu-id="54743-109">Close the page to save your changes.</span></span>
+1. <span data-ttu-id="1c219-105">Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutarčių grupės**.</span><span class="sxs-lookup"><span data-stu-id="1c219-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service agreement groups**.</span></span>
+2. <span data-ttu-id="1c219-106">Paspaudę **Alt+N** sukursite naują aptarnavimo sutarčių grupę.</span><span class="sxs-lookup"><span data-stu-id="1c219-106">Press **Alt+N** to create a new service agreement group.</span></span>
+3. <span data-ttu-id="1c219-107">Lauke **Aptarnavimo sutarčių grupė** įveskite aptarnavimo sutarčių grupės ID.</span><span class="sxs-lookup"><span data-stu-id="1c219-107">In the **Service agreement group** field, enter an ID for the service agreement group.</span></span>
+4. <span data-ttu-id="1c219-108">Lauke **Aprašas** įveskite aptarnavimo sutarčių grupės aprašą.</span><span class="sxs-lookup"><span data-stu-id="1c219-108">In the **Description** field, enter a description for the service agreement group.</span></span>
+5. <span data-ttu-id="1c219-109">Uždarę puslapį įrašysite savo pakeitimus.</span><span class="sxs-lookup"><span data-stu-id="1c219-109">Close the page to save your changes.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="54743-110">Jei aptarnavimo sutarčių grupė nustatyta puslapio **Aptarnavimo valdymo parametrai** lauke **Aptarnavimo sutarčių grupė**, programa pasiūlys šią grupę visoms naujoms jūsų sukurtoms sutartims.</span><span class="sxs-lookup"><span data-stu-id="54743-110">If a service agreement group is defined in the **Service agreement group** field of the **Service management parameters** page, the program suggests this group for all new service agreements that you create.</span></span>
+> <span data-ttu-id="1c219-110">Jei aptarnavimo sutarčių grupė nustatyta puslapio **Aptarnavimo valdymo parametrai** lauke **Aptarnavimo sutarčių grupė**, programa pasiūlys šią grupę visoms naujoms jūsų sukurtoms sutartims.</span><span class="sxs-lookup"><span data-stu-id="1c219-110">If a service agreement group is defined in the **Service agreement group** field of the **Service management parameters** page, the program suggests this group for all new service agreements that you create.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="54743-111">Susijusios temos</span><span class="sxs-lookup"><span data-stu-id="54743-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1c219-111">Susijusios temos</span><span class="sxs-lookup"><span data-stu-id="1c219-111">Related topics</span></span>
 
-[<span data-ttu-id="54743-112">Aptarnavimo sutarties grupės</span><span class="sxs-lookup"><span data-stu-id="54743-112">Service agreement groups</span></span>](service-agreement-groups.md)
+[<span data-ttu-id="1c219-112">Aptarnavimo sutarties grupės</span><span class="sxs-lookup"><span data-stu-id="1c219-112">Service agreement groups</span></span>](service-agreement-groups.md)

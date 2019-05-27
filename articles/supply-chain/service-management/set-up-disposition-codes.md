@@ -19,40 +19,40 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 96fb8bd2ce7fed6962563773ad63a7a48943e1ca
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324611"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566511"
 ---
-# <a name="set-up-disposition-codes"></a><span data-ttu-id="31573-103">Nustatyti perdavimo kodus</span><span class="sxs-lookup"><span data-stu-id="31573-103">Set up disposition codes</span></span> 
+# <a name="set-up-disposition-codes"></a><span data-ttu-id="999eb-103">Nustatyti perdavimo kodus</span><span class="sxs-lookup"><span data-stu-id="999eb-103">Set up disposition codes</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="31573-104">Galite nustatyti perdavimo kodus ir nurodyti, kaip apdoroti kliento grąžintą prekę.</span><span class="sxs-lookup"><span data-stu-id="31573-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="31573-105">Pvz., sukurkite perdavimo kodą pavadinimu **Sutaisyti ir grąžinti**, kad nurodytumėte, jog grąžinta prekė bus sutaisyta ir tada grąžinta klientui.</span><span class="sxs-lookup"><span data-stu-id="31573-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="31573-106">Daugiau perdavimo kodų, paprastai naudojamų apdorojant klientų grąžintas prekes, pavyzdžių rasite faile [Nustatymas, kaip išmesti grąžintas prekes](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="31573-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
+<span data-ttu-id="999eb-104">Galite nustatyti perdavimo kodus ir nurodyti, kaip apdoroti kliento grąžintą prekę.</span><span class="sxs-lookup"><span data-stu-id="999eb-104">You can set up disposition codes to specify how to process an item that is returned by a customer.</span></span> <span data-ttu-id="999eb-105">Pvz., sukurkite perdavimo kodą pavadinimu **Sutaisyti ir grąžinti**, kad nurodytumėte, jog grąžinta prekė bus sutaisyta ir tada grąžinta klientui.</span><span class="sxs-lookup"><span data-stu-id="999eb-105">For example, create a disposition code named **Repair and return** to indicate that the returned item will be repaired and then returned to the customer.</span></span> <span data-ttu-id="999eb-106">Daugiau perdavimo kodų, paprastai naudojamų apdorojant klientų grąžintas prekes, pavyzdžių rasite faile [Nustatymas, kaip išmesti grąžintas prekes](specify-how-to-dispose-of-returned-items.md).</span><span class="sxs-lookup"><span data-stu-id="999eb-106">For more examples of disposition codes that are typically used for items that are returned by customers, see [Specify how to dispose of returned items](specify-how-to-dispose-of-returned-items.md).</span></span>
 
-<span data-ttu-id="31573-107">Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl prekė buvo grąžinta.</span><span class="sxs-lookup"><span data-stu-id="31573-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="31573-108">Daugiau informacijos apie priežasties kodus ieškokite faile [Grąžinimo priežasties kodo nustatymas](set-up-return-reason-code.md).</span><span class="sxs-lookup"><span data-stu-id="31573-108">For more information about reason codes, see [Set up return reason code](set-up-return-reason-code.md).</span></span>
+<span data-ttu-id="999eb-107">Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl prekė buvo grąžinta.</span><span class="sxs-lookup"><span data-stu-id="999eb-107">You can also set up a reason code to help explain why an item was returned.</span></span> <span data-ttu-id="999eb-108">Daugiau informacijos apie priežasties kodus ieškokite faile [Grąžinimo priežasties kodo nustatymas](set-up-return-reason-code.md).</span><span class="sxs-lookup"><span data-stu-id="999eb-108">For more information about reason codes, see [Set up return reason code](set-up-return-reason-code.md).</span></span>
 
-1.  <span data-ttu-id="31573-109">Spustelėkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Grąžinimai** \> **Perdavimo kodai**.</span><span class="sxs-lookup"><span data-stu-id="31573-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
+1.  <span data-ttu-id="999eb-109">Spustelėkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Grąžinimai** \> **Perdavimo kodai**.</span><span class="sxs-lookup"><span data-stu-id="999eb-109">Click **Sales and marketing** \> **Setup** \> **Sales orders** \> **Returns** \> **Disposition codes**.</span></span>
 
-2.  <span data-ttu-id="31573-110">Spustelėkite **Naujas** arba paspauskite CTRL + N, kad sukurtumėte naują perdavimo kodą.</span><span class="sxs-lookup"><span data-stu-id="31573-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
+2.  <span data-ttu-id="999eb-110">Spustelėkite **Naujas** arba paspauskite CTRL + N, kad sukurtumėte naują perdavimo kodą.</span><span class="sxs-lookup"><span data-stu-id="999eb-110">Click **New** or press CTRL+N to create a new disposition code.</span></span>
 
-3.  <span data-ttu-id="31573-111">Įveskite unikalų aprašomąjį pavadinimą, pasirinkite veiksmą ir įveskite perdavimo kodo aprašą.</span><span class="sxs-lookup"><span data-stu-id="31573-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
+3.  <span data-ttu-id="999eb-111">Įveskite unikalų aprašomąjį pavadinimą, pasirinkite veiksmą ir įveskite perdavimo kodo aprašą.</span><span class="sxs-lookup"><span data-stu-id="999eb-111">Enter a unique, descriptive name, select an action, and enter a description for the disposition code.</span></span>
 
-4.  <span data-ttu-id="31573-112">Jei norite susieti kokias nors kliento išlaidas su šiuo perdavimo kodu, spustelėję mygtuką **Išlaidos** atidarykite formą **Nustatyti išlaidas**.</span><span class="sxs-lookup"><span data-stu-id="31573-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
+4.  <span data-ttu-id="999eb-112">Jei norite susieti kokias nors kliento išlaidas su šiuo perdavimo kodu, spustelėję mygtuką **Išlaidos** atidarykite formą **Nustatyti išlaidas**.</span><span class="sxs-lookup"><span data-stu-id="999eb-112">If you want to associate any customer charges with this disposition code, click the **Charges** button to open the **Set up charges** form.</span></span>
 
-5.  <span data-ttu-id="31573-113">Jei norite nurodyti kokius nors išorinius kodus, kurie atitiktų įmonės perdavimo kodus, spustelėję mygtuką **Išoriniai kodai** atidarykite formą **Išoriniai kodai**.</span><span class="sxs-lookup"><span data-stu-id="31573-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
+5.  <span data-ttu-id="999eb-113">Jei norite nurodyti kokius nors išorinius kodus, kurie atitiktų įmonės perdavimo kodus, spustelėję mygtuką **Išoriniai kodai** atidarykite formą **Išoriniai kodai**.</span><span class="sxs-lookup"><span data-stu-id="999eb-113">If you want to define any external codes to match with the company's own disposition codes, click the **External codes** button to open the **External codes** form.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="31573-114">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="31573-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="999eb-114">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="999eb-114">See also</span></span>
 
-[<span data-ttu-id="31573-115">Perdavimo kodai ir grąžinimo priežasčių kodai</span><span class="sxs-lookup"><span data-stu-id="31573-115">Disposition codes and return reason codes</span></span>](disposition-and-return-reason-codes.md)
+[<span data-ttu-id="999eb-115">Perdavimo kodai ir grąžinimo priežasčių kodai</span><span class="sxs-lookup"><span data-stu-id="999eb-115">Disposition codes and return reason codes</span></span>](disposition-and-return-reason-codes.md)
 
-<span data-ttu-id="31573-116">[Perdavimo kodai (forma)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="31573-116">[Disposition codes (form)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))</span></span>
+<span data-ttu-id="999eb-116">[Perdavimo kodai (forma)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="999eb-116">[Disposition codes (form)](https://technet.microsoft.com/en-us/library/hh597113\(v=ax.60\))</span></span>
 
-<span data-ttu-id="31573-117">[Automatinės išlaidos (forma)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="31573-117">[Auto charges (form)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\))</span></span>
+<span data-ttu-id="999eb-117">[Automatinės išlaidos (forma)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="999eb-117">[Auto charges (form)](https://technet.microsoft.com/en-us/library/aa582856\(v=ax.60\))</span></span>
 
-<span data-ttu-id="31573-118">[Išoriniai kodai (forma)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="31573-118">[External codes (form)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))</span></span>
+<span data-ttu-id="999eb-118">[Išoriniai kodai (forma)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="999eb-118">[External codes (form)](https://technet.microsoft.com/en-us/library/aa583814\(v=ax.60\))</span></span>
 
   
 
