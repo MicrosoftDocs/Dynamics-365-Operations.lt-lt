@@ -18,31 +18,31 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 97d44dc034cb8097fc0ecf9ac4e485425f097102
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857251"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518609"
 ---
-# <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a><span data-ttu-id="62425-103">Nepavyksta sukurti aplinkos „PowerApps“ administravimo centre</span><span class="sxs-lookup"><span data-stu-id="62425-103">Can't create an environment in the PowerApps Admin center</span></span>
+# <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a><span data-ttu-id="2dbb4-103">Nepavyksta sukurti aplinkos „PowerApps“ administravimo centre</span><span class="sxs-lookup"><span data-stu-id="2dbb4-103">Can't create an environment in the PowerApps Admin center</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="62425-104">**Problema**</span><span class="sxs-lookup"><span data-stu-id="62425-104">**Issue**</span></span>
+<span data-ttu-id="2dbb4-104">**Problema**</span><span class="sxs-lookup"><span data-stu-id="2dbb4-104">**Issue**</span></span>
 
-- <span data-ttu-id="62425-105">Nuomotojo arba aplinkos administratorius negali sukurti aplinkos „Microsoft PowerApps“ administravimo centre.</span><span class="sxs-lookup"><span data-stu-id="62425-105">The tenant/environment admin can't create an environment in the Microsoft PowerApps Admin center.</span></span>
-- <span data-ttu-id="62425-106">Licencija, suteikianti vartotojams teisę atlikti aplinkos kūrimo veiksmą, nėra tiesiogiai priskirta vartotojui, kuris atlieka šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="62425-106">A licence that gives users the right to perform the environment creation step hasn't been assigned directly to the user who is performing that step.</span></span>
+- <span data-ttu-id="2dbb4-105">Nuomotojo arba aplinkos administratorius negali sukurti aplinkos „Microsoft PowerApps“ administravimo centre.</span><span class="sxs-lookup"><span data-stu-id="2dbb4-105">The tenant/environment admin can't create an environment in the Microsoft PowerApps Admin center.</span></span>
+- <span data-ttu-id="2dbb4-106">Licencija, suteikianti vartotojams teisę atlikti aplinkos kūrimo veiksmą, nėra tiesiogiai priskirta vartotojui, kuris atlieka šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="2dbb4-106">A licence that gives users the right to perform the environment creation step hasn't been assigned directly to the user who is performing that step.</span></span>
 
-<span data-ttu-id="62425-107">**Sprendimas**</span><span class="sxs-lookup"><span data-stu-id="62425-107">**Solution**</span></span>
+<span data-ttu-id="2dbb4-107">**Sprendimas**</span><span class="sxs-lookup"><span data-stu-id="2dbb4-107">**Solution**</span></span>
 
-<span data-ttu-id="62425-108">Įsitikinkite, kad nuomotojo administratorius tiesiogiai priskyrė tinkamą „PowerApps“ P2 licenciją vartotojui, kuris atliks aplinkos kūrimo veiksmą.</span><span class="sxs-lookup"><span data-stu-id="62425-108">Make sure that the tenant admin has assigned a valid PowerApps P2 license directly to the user who will perform the environment creation step.</span></span> <span data-ttu-id="62425-109">Štai „Microsoft Dynamics“ paslaugų teikimo planai, kurie suteikia tokią teisę.</span><span class="sxs-lookup"><span data-stu-id="62425-109">Here are the Microsoft Dynamics service plans that provide that right.</span></span>
+<span data-ttu-id="2dbb4-108">Įsitikinkite, kad nuomotojo administratorius tiesiogiai priskyrė tinkamą „PowerApps“ P2 licenciją vartotojui, kuris atliks aplinkos kūrimo veiksmą.</span><span class="sxs-lookup"><span data-stu-id="2dbb4-108">Make sure that the tenant admin has assigned a valid PowerApps P2 license directly to the user who will perform the environment creation step.</span></span> <span data-ttu-id="2dbb4-109">Štai „Microsoft Dynamics“ paslaugų teikimo planai, kurie suteikia tokią teisę.</span><span class="sxs-lookup"><span data-stu-id="2dbb4-109">Here are the Microsoft Dynamics service plans that provide that right.</span></span>
 
-| <span data-ttu-id="62425-110">Viso produkto sandėliavimo vienetas (SKU)</span><span class="sxs-lookup"><span data-stu-id="62425-110">Overall product stock keeping unit (SKU)</span></span>       | <span data-ttu-id="62425-111">„PowerApps“ P2 paslaugų teikimo planas</span><span class="sxs-lookup"><span data-stu-id="62425-111">PowerApps P2 service plan</span></span>  |
+| <span data-ttu-id="2dbb4-110">Viso produkto sandėliavimo vienetas (SKU)</span><span class="sxs-lookup"><span data-stu-id="2dbb4-110">Overall product stock keeping unit (SKU)</span></span>       | <span data-ttu-id="2dbb4-111">„PowerApps“ P2 paslaugų teikimo planas</span><span class="sxs-lookup"><span data-stu-id="2dbb4-111">PowerApps P2 service plan</span></span>  |
 |------------------------------------------------|----------------------------|
-| <span data-ttu-id="62425-112">„Microsoft Dynamics 365 for Operations“</span><span class="sxs-lookup"><span data-stu-id="62425-112">Microsoft Dynamics 365 for Operations</span></span>          | <span data-ttu-id="62425-113">„PowerApps“, skirtos „Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="62425-113">PowerApps for Dynamics 365</span></span> |
-| <span data-ttu-id="62425-114">„Microsoft Dynamics 365“ planas „Enterprise Edition“</span><span class="sxs-lookup"><span data-stu-id="62425-114">Microsoft Dynamics 365 Plan Enterprise Edition</span></span> | <span data-ttu-id="62425-115">„PowerApps“, skirtos „Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="62425-115">PowerApps for Dynamics 365</span></span> |
+| <span data-ttu-id="2dbb4-112">„Microsoft Dynamics 365 for Operations“</span><span class="sxs-lookup"><span data-stu-id="2dbb4-112">Microsoft Dynamics 365 for Operations</span></span>          | <span data-ttu-id="2dbb4-113">„PowerApps“, skirtos „Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="2dbb4-113">PowerApps for Dynamics 365</span></span> |
+| <span data-ttu-id="2dbb4-114">„Microsoft Dynamics 365“ planas „Enterprise Edition“</span><span class="sxs-lookup"><span data-stu-id="2dbb4-114">Microsoft Dynamics 365 Plan Enterprise Edition</span></span> | <span data-ttu-id="2dbb4-115">„PowerApps“, skirtos „Dynamics 365“</span><span class="sxs-lookup"><span data-stu-id="2dbb4-115">PowerApps for Dynamics 365</span></span> |
 
-<span data-ttu-id="62425-116">Atkreipkite dėmesį, kad įvairūs „Microsoft Office“ SKU taip pat suteikia teisę kartu naudoti atskiro „PowerApps“ 2 plano SKU.</span><span class="sxs-lookup"><span data-stu-id="62425-116">Note that various Microsoft Office SKUs also provide the right, together with standalone PowerApps Plan 2 SKUs.</span></span> <span data-ttu-id="62425-117">Svarbiausia tai, kad turi būti vienas iš šių SKU.</span><span class="sxs-lookup"><span data-stu-id="62425-117">The important point is that one of these SKUs must be present.</span></span>
+<span data-ttu-id="2dbb4-116">Atkreipkite dėmesį, kad įvairūs „Microsoft Office“ SKU taip pat suteikia teisę kartu naudoti atskiro „PowerApps“ 2 plano SKU.</span><span class="sxs-lookup"><span data-stu-id="2dbb4-116">Note that various Microsoft Office SKUs also provide the right, together with standalone PowerApps Plan 2 SKUs.</span></span> <span data-ttu-id="2dbb4-117">Svarbiausia tai, kad turi būti vienas iš šių SKU.</span><span class="sxs-lookup"><span data-stu-id="2dbb4-117">The important point is that one of these SKUs must be present.</span></span>
 
-1. <span data-ttu-id="62425-118">Eikite į [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).</span><span class="sxs-lookup"><span data-stu-id="62425-118">Go to [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).</span></span>
-2. <span data-ttu-id="62425-119">Kurkite aplinkas vykdydami instrukcijas, pateiktas [„Talent“ parengimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span><span class="sxs-lookup"><span data-stu-id="62425-119">Create the environments by following the instructions in [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
+1. <span data-ttu-id="2dbb4-118">Eikite į [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).</span><span class="sxs-lookup"><span data-stu-id="2dbb4-118">Go to [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).</span></span>
+2. <span data-ttu-id="2dbb4-119">Kurkite aplinkas vykdydami instrukcijas, pateiktas [„Talent“ parengimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span><span class="sxs-lookup"><span data-stu-id="2dbb4-119">Create the environments by following the instructions in [Provision Talent](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).</span></span>
