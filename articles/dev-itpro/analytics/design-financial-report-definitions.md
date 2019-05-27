@@ -19,69 +19,69 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327348"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547059"
 ---
-# <a name="report-definitions-in-financial-report-designer"></a><span data-ttu-id="858d3-105">Finansinių ataskaitų dizaino įrankio ataskaitų aprašai</span><span class="sxs-lookup"><span data-stu-id="858d3-105">Report definitions in financial report designer</span></span>
+# <a name="report-definitions-in-financial-report-designer"></a><span data-ttu-id="8b073-105">Finansinių ataskaitų dizaino įrankio ataskaitų aprašai</span><span class="sxs-lookup"><span data-stu-id="8b073-105">Report definitions in financial report designer</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="858d3-106">Šiame straipsnyje pateikiama informacija apie ataskaitų aprašus.</span><span class="sxs-lookup"><span data-stu-id="858d3-106">This article provides information about report definitions.</span></span> <span data-ttu-id="858d3-107">Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas.</span><span class="sxs-lookup"><span data-stu-id="858d3-107">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="858d3-108">Ataskaitos aprašas taip pat teikia pasirinkčių ir parametrų, kuriuos galite naudoti norėdami tinkinti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="858d3-108">A report definition also provides options and settings that for customizing a report.</span></span> 
+<span data-ttu-id="8b073-106">Šiame straipsnyje pateikiama informacija apie ataskaitų aprašus.</span><span class="sxs-lookup"><span data-stu-id="8b073-106">This article provides information about report definitions.</span></span> <span data-ttu-id="8b073-107">Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas.</span><span class="sxs-lookup"><span data-stu-id="8b073-107">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="8b073-108">Ataskaitos aprašas taip pat teikia pasirinkčių ir parametrų, kuriuos galite naudoti norėdami tinkinti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="8b073-108">A report definition also provides options and settings that for customizing a report.</span></span> 
 
-<span data-ttu-id="858d3-109">Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas.</span><span class="sxs-lookup"><span data-stu-id="858d3-109">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="858d3-110">Ataskaitos apibrėžtis taip pat teikia papildomų parinkčių ir nuostatų, kuriuos naudodami galite tinkinti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="858d3-110">A report definition also provides options and settings that you can use to customize a report.</span></span> <span data-ttu-id="858d3-111">Apibrėžę eilučių aprašus ir stulpelių aprašus, turite juos sujungti į ataskaitos aprašą.</span><span class="sxs-lookup"><span data-stu-id="858d3-111">After you define row definitions and column definitions, you must combine them in a report definition.</span></span> <span data-ttu-id="858d3-112">Šiuo metu taip pat nustatomi kiti aprašų aspektai, pavyzdžiui, išsamumo lygis ir ataskaitos data.</span><span class="sxs-lookup"><span data-stu-id="858d3-112">At this point, you also define other aspects of the definitions, such as the detail level and report date.</span></span> <span data-ttu-id="858d3-113">Tada galite įrašyti ir generuoti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="858d3-113">You can then save and generate a report.</span></span> <span data-ttu-id="858d3-114">Finansinės ataskaitos siūlo tokius išsamumo lygius.</span><span class="sxs-lookup"><span data-stu-id="858d3-114">Financial reporting offers the following levels of detail:</span></span>
+<span data-ttu-id="8b073-109">Ataskaitos aprašas yra ataskaitos komponentas (arba kūrimo blokas), kuriame naudojamas eilutės aprašas, stulpelio aprašas ir ataskaitos kūrimui skirtas pasirinktinis ataskaitų medžio aprašas.</span><span class="sxs-lookup"><span data-stu-id="8b073-109">A report definition is a report component (or building block) that uses a row definition, a column definition, and an optional reporting tree definition to create a report.</span></span> <span data-ttu-id="8b073-110">Ataskaitos apibrėžtis taip pat teikia papildomų parinkčių ir nuostatų, kuriuos naudodami galite tinkinti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="8b073-110">A report definition also provides options and settings that you can use to customize a report.</span></span> <span data-ttu-id="8b073-111">Apibrėžę eilučių aprašus ir stulpelių aprašus, turite juos sujungti į ataskaitos aprašą.</span><span class="sxs-lookup"><span data-stu-id="8b073-111">After you define row definitions and column definitions, you must combine them in a report definition.</span></span> <span data-ttu-id="8b073-112">Šiuo metu taip pat nustatomi kiti aprašų aspektai, pavyzdžiui, išsamumo lygis ir ataskaitos data.</span><span class="sxs-lookup"><span data-stu-id="8b073-112">At this point, you also define other aspects of the definitions, such as the detail level and report date.</span></span> <span data-ttu-id="8b073-113">Tada galite įrašyti ir generuoti ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="8b073-113">You can then save and generate a report.</span></span> <span data-ttu-id="8b073-114">Finansinės ataskaitos siūlo tokius išsamumo lygius.</span><span class="sxs-lookup"><span data-stu-id="8b073-114">Financial reporting offers the following levels of detail:</span></span>
 
-- <span data-ttu-id="858d3-115">Finansinis</span><span class="sxs-lookup"><span data-stu-id="858d3-115">Financial</span></span>
-- <span data-ttu-id="858d3-116">Finansinis ir Sąskaitos</span><span class="sxs-lookup"><span data-stu-id="858d3-116">Financial and Account</span></span>
-- <span data-ttu-id="858d3-117">Finansinis, Sąskaitos ir Operacijos</span><span class="sxs-lookup"><span data-stu-id="858d3-117">Financial, Account, and Transaction</span></span>
+- <span data-ttu-id="8b073-115">Finansinis</span><span class="sxs-lookup"><span data-stu-id="8b073-115">Financial</span></span>
+- <span data-ttu-id="8b073-116">Finansinis ir Sąskaitos</span><span class="sxs-lookup"><span data-stu-id="8b073-116">Financial and Account</span></span>
+- <span data-ttu-id="8b073-117">Finansinis, Sąskaitos ir Operacijos</span><span class="sxs-lookup"><span data-stu-id="8b073-117">Financial, Account, and Transaction</span></span>
 
-<span data-ttu-id="858d3-118">Tačiau atsižvelgiant į tai, kaip duomenys saugomi sistemoje „Microsoft Dynamics ERP“, ataskaitose gali nebūti operacijos informacijos.</span><span class="sxs-lookup"><span data-stu-id="858d3-118">However, depending on how data is stored in the Microsoft Dynamics ERP system, transaction details might not be available in reports.</span></span>
+<span data-ttu-id="8b073-118">Tačiau atsižvelgiant į tai, kaip duomenys saugomi sistemoje „Microsoft Dynamics ERP“, ataskaitose gali nebūti operacijos informacijos.</span><span class="sxs-lookup"><span data-stu-id="8b073-118">However, depending on how data is stored in the Microsoft Dynamics ERP system, transaction details might not be available in reports.</span></span>
 
-## <a name="create-a-report-definition"></a><span data-ttu-id="858d3-119">Ataskaitos aprašo kūrimas</span><span class="sxs-lookup"><span data-stu-id="858d3-119">Create a report definition</span></span>
-1. <span data-ttu-id="858d3-120">Ataskaitų konstruktoriuje, meniu **Failas**, spustelėkite **Naujas**, ir tada pasirinkite **Ataskaitos aprašas**.</span><span class="sxs-lookup"><span data-stu-id="858d3-120">In Report Designer, on the **File** menu, click **New**, and then select **Report Definition**.</span></span>
-2. <span data-ttu-id="858d3-121">Nurodyti atitinkamą informaciją skirtukuose **Ataskaita**, **Išeiga ir paskirstymas**, **Antraštės ir poraštės** ir **Parametrai**.</span><span class="sxs-lookup"><span data-stu-id="858d3-121">Specify the appropriate information on the **Report**, **Output and Distribution**, **Headers and Footers**, and **Settings** tabs.</span></span>
+## <a name="create-a-report-definition"></a><span data-ttu-id="8b073-119">Ataskaitos aprašo kūrimas</span><span class="sxs-lookup"><span data-stu-id="8b073-119">Create a report definition</span></span>
+1. <span data-ttu-id="8b073-120">Ataskaitų konstruktoriuje, meniu **Failas**, spustelėkite **Naujas**, ir tada pasirinkite **Ataskaitos aprašas**.</span><span class="sxs-lookup"><span data-stu-id="8b073-120">In Report Designer, on the **File** menu, click **New**, and then select **Report Definition**.</span></span>
+2. <span data-ttu-id="8b073-121">Nurodyti atitinkamą informaciją skirtukuose **Ataskaita**, **Išeiga ir paskirstymas**, **Antraštės ir poraštės** ir **Parametrai**.</span><span class="sxs-lookup"><span data-stu-id="8b073-121">Specify the appropriate information on the **Report**, **Output and Distribution**, **Headers and Footers**, and **Settings** tabs.</span></span>
 
-## <a name="contents-of-a-report-definition"></a><span data-ttu-id="858d3-122">Ataskaitos aprašo turinys</span><span class="sxs-lookup"><span data-stu-id="858d3-122">Contents of a report definition</span></span>
-<span data-ttu-id="858d3-123">Toliau pateikiamoje lentelėje aprašomi ataskaitos aprašo skirtukai ir kaip naudojama informacija.</span><span class="sxs-lookup"><span data-stu-id="858d3-123">The following table describes the tabs in a report definition and how the information is used.</span></span>
+## <a name="contents-of-a-report-definition"></a><span data-ttu-id="8b073-122">Ataskaitos aprašo turinys</span><span class="sxs-lookup"><span data-stu-id="8b073-122">Contents of a report definition</span></span>
+<span data-ttu-id="8b073-123">Toliau pateikiamoje lentelėje aprašomi ataskaitos aprašo skirtukai ir kaip naudojama informacija.</span><span class="sxs-lookup"><span data-stu-id="8b073-123">The following table describes the tabs in a report definition and how the information is used.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="858d3-124">Tabuliavimo ženklas</span><span class="sxs-lookup"><span data-stu-id="858d3-124">Tab</span></span></th>
-<th><span data-ttu-id="858d3-125">Aprašas</span><span class="sxs-lookup"><span data-stu-id="858d3-125">Description</span></span></th>
+<th><span data-ttu-id="8b073-124">Tabuliavimo ženklas</span><span class="sxs-lookup"><span data-stu-id="8b073-124">Tab</span></span></th>
+<th><span data-ttu-id="8b073-125">Aprašas</span><span class="sxs-lookup"><span data-stu-id="8b073-125">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="858d3-126">Ataskaita</span><span class="sxs-lookup"><span data-stu-id="858d3-126">Report</span></span></td>
-<td><span data-ttu-id="858d3-127">Ataskaitos kūrimas, konfigūravimas arba esamos ataskaitos modifikavimas.</span><span class="sxs-lookup"><span data-stu-id="858d3-127">Create a report, configure a report, or modify an existing report.</span></span></td>
+<td><span data-ttu-id="8b073-126">Ataskaita</span><span class="sxs-lookup"><span data-stu-id="8b073-126">Report</span></span></td>
+<td><span data-ttu-id="8b073-127">Ataskaitos kūrimas, konfigūravimas arba esamos ataskaitos modifikavimas.</span><span class="sxs-lookup"><span data-stu-id="8b073-127">Create a report, configure a report, or modify an existing report.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="858d3-128">Išeiga ir paskirstymas</span><span class="sxs-lookup"><span data-stu-id="858d3-128">Output and Distribution</span></span></td>
-<td><span data-ttu-id="858d3-129">Pakeiskite ataskaitos išeigos tipą ir paskirties vietą.</span><span class="sxs-lookup"><span data-stu-id="858d3-129">Change the output type and destination of the report.</span></span></td>
+<td><span data-ttu-id="8b073-128">Išeiga ir paskirstymas</span><span class="sxs-lookup"><span data-stu-id="8b073-128">Output and Distribution</span></span></td>
+<td><span data-ttu-id="8b073-129">Pakeiskite ataskaitos išeigos tipą ir paskirties vietą.</span><span class="sxs-lookup"><span data-stu-id="8b073-129">Change the output type and destination of the report.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="858d3-130">Antraštės ir poraštės</span><span class="sxs-lookup"><span data-stu-id="858d3-130">Headers and Footers</span></span></td>
-<td><span data-ttu-id="858d3-131">Apibrėžkite ir suformatuokite ataskaitos antraštes ir poraštes.</span><span class="sxs-lookup"><span data-stu-id="858d3-131">Define and format the headers and footers for the report.</span></span> <span data-ttu-id="858d3-132">Pavyzdžiui, galite pridėti prie antraštės arba poraštės teksto arba vaizdų.</span><span class="sxs-lookup"><span data-stu-id="858d3-132">For example, you can add text or images to the header or footer.</span></span> <span data-ttu-id="858d3-133">Finansinės ataskaitos palaiko .bmp, .jpg ir .png vaizdų failus.</span><span class="sxs-lookup"><span data-stu-id="858d3-133">Financial reporting supports .bmp, .jpg, and .png files for images.</span></span> <span data-ttu-id="858d3-134">Taip pat galite pridėti automatinio teksto kodų kitai informacijai įterpti pavyzdžiui, įmonės pavadinimą, ataskaitos pavadinimą arba puslapio numerį.</span><span class="sxs-lookup"><span data-stu-id="858d3-134">You can also add autotext codes to insert other information, such as a company name, report name, or page number.</span></span></td>
+<td><span data-ttu-id="8b073-130">Antraštės ir poraštės</span><span class="sxs-lookup"><span data-stu-id="8b073-130">Headers and Footers</span></span></td>
+<td><span data-ttu-id="8b073-131">Apibrėžkite ir suformatuokite ataskaitos antraštes ir poraštes.</span><span class="sxs-lookup"><span data-stu-id="8b073-131">Define and format the headers and footers for the report.</span></span> <span data-ttu-id="8b073-132">Pavyzdžiui, galite pridėti prie antraštės arba poraštės teksto arba vaizdų.</span><span class="sxs-lookup"><span data-stu-id="8b073-132">For example, you can add text or images to the header or footer.</span></span> <span data-ttu-id="8b073-133">Finansinės ataskaitos palaiko .bmp, .jpg ir .png vaizdų failus.</span><span class="sxs-lookup"><span data-stu-id="8b073-133">Financial reporting supports .bmp, .jpg, and .png files for images.</span></span> <span data-ttu-id="8b073-134">Taip pat galite pridėti automatinio teksto kodų kitai informacijai įterpti pavyzdžiui, įmonės pavadinimą, ataskaitos pavadinimą arba puslapio numerį.</span><span class="sxs-lookup"><span data-stu-id="8b073-134">You can also add autotext codes to insert other information, such as a company name, report name, or page number.</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="858d3-135">Parametrai</span><span class="sxs-lookup"><span data-stu-id="858d3-135">Settings</span></span></td>
-<td><span data-ttu-id="858d3-136">Nurodykite ataskaitos aprašo parametrus, pavyzdžiui, šiuos parametrus.</span><span class="sxs-lookup"><span data-stu-id="858d3-136">Specify report definition settings, such as the following settings:</span></span>
+<td><span data-ttu-id="8b073-135">Parametrai</span><span class="sxs-lookup"><span data-stu-id="8b073-135">Settings</span></span></td>
+<td><span data-ttu-id="8b073-136">Nurodykite ataskaitos aprašo parametrus, pavyzdžiui, šiuos parametrus.</span><span class="sxs-lookup"><span data-stu-id="8b073-136">Specify report definition settings, such as the following settings:</span></span>
 <ul>
-<li><span data-ttu-id="858d3-137">Formatavimas ir sumos apvalinimas</span><span class="sxs-lookup"><span data-stu-id="858d3-137">Formatting and rounding amounts</span></span></li>
-<li><span data-ttu-id="858d3-138">Informacijos ataskaitų formatas</span><span class="sxs-lookup"><span data-stu-id="858d3-138">Format detail reports</span></span></li>
-<li><span data-ttu-id="858d3-139">Ataskaitų medžių formatas</span><span class="sxs-lookup"><span data-stu-id="858d3-139">Format reporting trees</span></span></li>
-<li><span data-ttu-id="858d3-140">Išimčių ataskaitos generavimas</span><span class="sxs-lookup"><span data-stu-id="858d3-140">Generate an exception report</span></span></li>
-<li><span data-ttu-id="858d3-141">Valiutos konvertavimo nurodymas</span><span class="sxs-lookup"><span data-stu-id="858d3-141">Specify currency conversion</span></span></li>
-<li><span data-ttu-id="858d3-142">Tarpinė suma ir sąskaitos informacijos filtravimas</span><span class="sxs-lookup"><span data-stu-id="858d3-142">Subtotal and filter account details</span></span></li>
+<li><span data-ttu-id="8b073-137">Formatavimas ir sumos apvalinimas</span><span class="sxs-lookup"><span data-stu-id="8b073-137">Formatting and rounding amounts</span></span></li>
+<li><span data-ttu-id="8b073-138">Informacijos ataskaitų formatas</span><span class="sxs-lookup"><span data-stu-id="8b073-138">Format detail reports</span></span></li>
+<li><span data-ttu-id="8b073-139">Ataskaitų medžių formatas</span><span class="sxs-lookup"><span data-stu-id="8b073-139">Format reporting trees</span></span></li>
+<li><span data-ttu-id="8b073-140">Išimčių ataskaitos generavimas</span><span class="sxs-lookup"><span data-stu-id="8b073-140">Generate an exception report</span></span></li>
+<li><span data-ttu-id="8b073-141">Valiutos konvertavimo nurodymas</span><span class="sxs-lookup"><span data-stu-id="8b073-141">Specify currency conversion</span></span></li>
+<li><span data-ttu-id="8b073-142">Tarpinė suma ir sąskaitos informacijos filtravimas</span><span class="sxs-lookup"><span data-stu-id="8b073-142">Subtotal and filter account details</span></span></li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
 
-## <a name="additional-resources"></a><span data-ttu-id="858d3-143">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="858d3-143">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="8b073-143">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="8b073-143">Additional resources</span></span>
 
-[<span data-ttu-id="858d3-144">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="858d3-144">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="8b073-144">Finansinės ataskaitos</span><span class="sxs-lookup"><span data-stu-id="8b073-144">Financial reporting</span></span>](financial-reporting-intro.md)

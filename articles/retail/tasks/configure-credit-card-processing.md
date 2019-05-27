@@ -17,48 +17,48 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d75ff895c252bfd4f70f8bcc4c4adece585d9a22
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320402"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548490"
 ---
-# <a name="configure-credit-card-processing"></a><span data-ttu-id="5edd6-103"> Konfigūruoti kredito kortelės apdorojimą</span><span class="sxs-lookup"><span data-stu-id="5edd6-103">Configure credit card processing</span></span>
+# <a name="configure-credit-card-processing"></a><span data-ttu-id="a51f4-103"> Konfigūruoti kredito kortelės apdorojimą</span><span class="sxs-lookup"><span data-stu-id="a51f4-103">Configure credit card processing</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5edd6-104">Ši procedūra padeda peržiūrėti mokėjimo paslaugų teikėjų sąrašą ir konfigūruoti gautinų sumų mokėjimo sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="5edd6-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT, ir ji yra skirta administratoriams ir IT specialistams.</span><span class="sxs-lookup"><span data-stu-id="5edd6-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
+<span data-ttu-id="a51f4-104">Ši procedūra padeda peržiūrėti mokėjimo paslaugų teikėjų sąrašą ir konfigūruoti gautinų sumų mokėjimo sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="a51f4-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT, ir ji yra skirta administratoriams ir IT specialistams.</span><span class="sxs-lookup"><span data-stu-id="a51f4-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
 
 
-## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="5edd6-106">Mokėjimo paslaugų teikėjų sąrašo peržiūra</span><span class="sxs-lookup"><span data-stu-id="5edd6-106">View a list of payment providers</span></span>
-1. <span data-ttu-id="5edd6-107">Pasirinkite Gautinos sumos > Mokėjimų sąranka > Mokėjimo tarnybos.</span><span class="sxs-lookup"><span data-stu-id="5edd6-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
-2. <span data-ttu-id="5edd6-108">Spustelėkite Peržiūrėti galimus teikėjus.</span><span class="sxs-lookup"><span data-stu-id="5edd6-108">Click View available providers.</span></span>
+## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="a51f4-106">Mokėjimo paslaugų teikėjų sąrašo peržiūra</span><span class="sxs-lookup"><span data-stu-id="a51f4-106">View a list of payment providers</span></span>
+1. <span data-ttu-id="a51f4-107">Pasirinkite Gautinos sumos > Mokėjimų sąranka > Mokėjimo tarnybos.</span><span class="sxs-lookup"><span data-stu-id="a51f4-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
+2. <span data-ttu-id="a51f4-108">Spustelėkite Peržiūrėti galimus teikėjus.</span><span class="sxs-lookup"><span data-stu-id="a51f4-108">Click View available providers.</span></span>
 
-## <a name="configure-payment-account"></a><span data-ttu-id="5edd6-109">Sukonfigūruoti mokėjimo sąskaitas</span><span class="sxs-lookup"><span data-stu-id="5edd6-109">Configure payment account</span></span>
-1. <span data-ttu-id="5edd6-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="5edd6-110">Click New.</span></span>
-2. <span data-ttu-id="5edd6-111">Lauke Mokėjimo tarnyba įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="5edd6-111">In the Payment service field, type a value.</span></span>
-3. <span data-ttu-id="5edd6-112">Lauke Mokėjimo jungtis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="5edd6-112">In the Payment connector field, select an option.</span></span>
-4. <span data-ttu-id="5edd6-113">Perjunkite sekcijos Mokėjimo sąskaitos suma išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-113">Toggle the expansion of the Payment service account section.</span></span>
-5. <span data-ttu-id="5edd6-114">Lauke Aplinka: įveskite „PROD“.</span><span class="sxs-lookup"><span data-stu-id="5edd6-114">In the Environment: field, type 'PROD'.</span></span>
-6. <span data-ttu-id="5edd6-115">Spustelėkite Kredito kortelių tipai.</span><span class="sxs-lookup"><span data-stu-id="5edd6-115">Click Credit card types.</span></span>
-7. <span data-ttu-id="5edd6-116">Lauke Mokėjimo žurnalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="5edd6-117">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="5edd6-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="5edd6-118">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="5edd6-118">Click Add.</span></span>
-10. <span data-ttu-id="5edd6-119">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="5edd6-119">In the Currency field, type a value.</span></span>
-11. <span data-ttu-id="5edd6-120">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-120">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="5edd6-121">Lauke Mokėjimo žurnalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="5edd6-122">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="5edd6-122">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="5edd6-123">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="5edd6-123">Click Add.</span></span>
-15. <span data-ttu-id="5edd6-124">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="5edd6-124">In the Currency field, type a value.</span></span>
-16. <span data-ttu-id="5edd6-125">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-125">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="5edd6-126">Galite pakartotinai taikyti šiuos veiksmus visų kitų tipų kortelėms.</span><span class="sxs-lookup"><span data-stu-id="5edd6-126">You can repeat these steps for as many card types as you need.</span></span>  
-17. <span data-ttu-id="5edd6-127">Lauke Mokėjimo žurnalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="5edd6-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-18. <span data-ttu-id="5edd6-128">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="5edd6-128">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="5edd6-129">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="5edd6-129">Click Add.</span></span>
-20. <span data-ttu-id="5edd6-130">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="5edd6-130">In the Currency field, type a value.</span></span>
-21. <span data-ttu-id="5edd6-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="5edd6-131">Click Save.</span></span>
-22. <span data-ttu-id="5edd6-132">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="5edd6-132">Close the page.</span></span>
-23. <span data-ttu-id="5edd6-133">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="5edd6-133">Click Validate.</span></span>
-24. <span data-ttu-id="5edd6-134">Spustelėkite žymės langelį Numatytasis naujų kredito kortelių procesorius.</span><span class="sxs-lookup"><span data-stu-id="5edd6-134">Click the Default processor for new credit cards checkbox.</span></span>
-25. <span data-ttu-id="5edd6-135">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="5edd6-135">Click Save.</span></span>
+## <a name="configure-payment-account"></a><span data-ttu-id="a51f4-109">Sukonfigūruoti mokėjimo sąskaitas</span><span class="sxs-lookup"><span data-stu-id="a51f4-109">Configure payment account</span></span>
+1. <span data-ttu-id="a51f4-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a51f4-110">Click New.</span></span>
+2. <span data-ttu-id="a51f4-111">Lauke Mokėjimo tarnyba įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a51f4-111">In the Payment service field, type a value.</span></span>
+3. <span data-ttu-id="a51f4-112">Lauke Mokėjimo jungtis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="a51f4-112">In the Payment connector field, select an option.</span></span>
+4. <span data-ttu-id="a51f4-113">Perjunkite sekcijos Mokėjimo sąskaitos suma išplėtimą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-113">Toggle the expansion of the Payment service account section.</span></span>
+5. <span data-ttu-id="a51f4-114">Lauke Aplinka: įveskite „PROD“.</span><span class="sxs-lookup"><span data-stu-id="a51f4-114">In the Environment: field, type 'PROD'.</span></span>
+6. <span data-ttu-id="a51f4-115">Spustelėkite Kredito kortelių tipai.</span><span class="sxs-lookup"><span data-stu-id="a51f4-115">Click Credit card types.</span></span>
+7. <span data-ttu-id="a51f4-116">Lauke Mokėjimo žurnalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="a51f4-117">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a51f4-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="a51f4-118">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="a51f4-118">Click Add.</span></span>
+10. <span data-ttu-id="a51f4-119">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a51f4-119">In the Currency field, type a value.</span></span>
+11. <span data-ttu-id="a51f4-120">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-120">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="a51f4-121">Lauke Mokėjimo žurnalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="a51f4-122">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a51f4-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="a51f4-123">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="a51f4-123">Click Add.</span></span>
+15. <span data-ttu-id="a51f4-124">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a51f4-124">In the Currency field, type a value.</span></span>
+16. <span data-ttu-id="a51f4-125">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="a51f4-126">Galite pakartotinai taikyti šiuos veiksmus visų kitų tipų kortelėms.</span><span class="sxs-lookup"><span data-stu-id="a51f4-126">You can repeat these steps for as many card types as you need.</span></span>  
+17. <span data-ttu-id="a51f4-127">Lauke Mokėjimo žurnalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="a51f4-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="a51f4-128">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="a51f4-128">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="a51f4-129">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="a51f4-129">Click Add.</span></span>
+20. <span data-ttu-id="a51f4-130">Lauke Valiuta surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a51f4-130">In the Currency field, type a value.</span></span>
+21. <span data-ttu-id="a51f4-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a51f4-131">Click Save.</span></span>
+22. <span data-ttu-id="a51f4-132">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="a51f4-132">Close the page.</span></span>
+23. <span data-ttu-id="a51f4-133">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="a51f4-133">Click Validate.</span></span>
+24. <span data-ttu-id="a51f4-134">Spustelėkite žymės langelį Numatytasis naujų kredito kortelių procesorius.</span><span class="sxs-lookup"><span data-stu-id="a51f4-134">Click the Default processor for new credit cards checkbox.</span></span>
+25. <span data-ttu-id="a51f4-135">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a51f4-135">Click Save.</span></span>
 
