@@ -3,7 +3,7 @@ title: Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 description: Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331281"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541273"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -440,12 +440,17 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>Pateikti nurodytą sąrašą, kai užklausa modifikuota filtruoti pagal nurodytą sąlygą. Ši funkcija skiriasi nuo funkcijos <strong>WHERE</strong>, nes nurodyta sąlyga duomenų bazės lygiu taikoma bet kuriam ER duomenų šaltiniui, kurio tipas – <strong>Lentelės įrašai</strong>. Sąrašą ir sąlygas galima nustatyti naudojant lenteles ir ryšius.</td>
 <td>Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis lentelę VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> pateikia tik tų tiekėjų, kurie priklauso 40 tiekėjų grupei, sąrašą. Jei <strong>Tiekėjas</strong> sukonfigūruotas kaip ER duomenų šaltinis, nurodantis į lentelę VendTable, jei <strong>parmVendorBankGroup</strong> sukonfigūruota kaip ER duomenų šaltinis, pateikiantis duomenų tipo <strong>Eilutė</strong> vertę, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> pateikia tik tų tiekėjų, kurie priklauso konkrečiai banko grupei, sąskaitų sąrašą.</td>
 </tr>
+<tr>
+<td>INDEKSAS (sąrašas, indeksas)</td>
+<td>Ši funkcija grąžina įrašą, kurį pasirenka konkretus skaitinis indeksas sąraše. Jei indekse nėra sąrašo įrašų intervalo, sukuriama išimtis.</td>
+<td>Jei įvedate duomenų šaltinį<strong>DS</strong> tipui <strong>Apskaičiuotas laukas</strong> ir jame yra išraiška <strong>SPLIT ("A|B|C", “|”), 2)</strong>, išraiška <strong>DS.Value</strong> pateikia tekstinę vertę „B“. Išraiška <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> taip pat pateikia tekstinę vertę „B“.</td>
+</tr>
 </tbody>
 </table>
 
 ### <a name="logical-functions"></a>Loginės funkcijos
 
-| Funkcija | aprašymas | Pavyzdys |
+| Funkcija | Aprašas | Pavyzdys |
 |----------|-------------|---------|
 | CASE (išraiška, 1 parinktis, 1 rezultatas \[, 2 parinktis, 2 rezultatas\] … \[, numatytasis rezultatas\]) | Įvertinti nurodytą išraiškos reikšmę pagal nurodytas alternatyvias parinktis. Pateikti parinkties rezultatą, kuris yra lygus išraiškos reikšmei. Kitu atveju pateikti pasirenkamą numatytąjį rezultatą, jei numatytasis rezultatas nurodytas. (Numatytasis rezultatas yra paskutinis parametras, prieš kurį nėra parinkties.) | **CASE( DATETIMEFORMAT( NOW(), „MM“), „10“, „ŽIEMA“, „11“, „ŽIEMA“, „12“, „ŽIEMA“, „“)** pateikia eilutę **„ŽIEMA“**, kai dabartinio „Finance and Operations“ seanso data yra tarp spalio ir gruodžio mėn. Kitu atveju pateikia tuščią eilutę. |
 | IF (sąlyga, 1 reikšmė, 2 reikšmė) | Pateikti pirmą nurodytą reikšmę, kai išpildoma nurodyta sąlyga. Kitu atveju pateikti antrą nurodytą reikšmę. Jei 1 ir 2 reikšmės yra įrašai ar įrašų sąrašai, rezultatas pateikia tik abiejuose sąrašuose esančius laukelius. | **IF (1 = 2, „sąlyga išpildyta“, „sąlyga neišpildyta“)** pateikia eilutę **„sąlyga neišpildyta“**. |

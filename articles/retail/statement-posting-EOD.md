@@ -3,7 +3,7 @@ title: Išrašų registravimo funkcionalumo patobulinimai
 description: Šioje temoje aprašomi išrašų registravimo funkcijai atlikti patobulinimai.
 author: josaw1
 manager: AnnBe
-ms.date: 04/26/2016
+ms.date: 05/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 02880edda6c34c24f8dad8cc8cbeafe215f46896
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321437"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541296"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
 
@@ -43,7 +43,7 @@ Naudojantis programa „Finance and Operations“ atliekami toliau nurodyti su �
 - Visoms atliekamoms nurodyto galiojančio išrašo operacijoms (kūrimo, skaičiavimo, naikinimo, registravimo ir t. t.) turi būti naudojami tie patys konfigūracijos raktai. Pavyzdžiui, kai įjungtas srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktas, negalite kurti ir skaičiuoti išrašo, o po to bandyti užregistruoti tą patį išrašą įjungę srities **Mažmeninės prekybos išrašai** konfigūracijos raktą.
 
 > [!NOTE]
-> Srities **Mažmeninės prekybos išrašai** konfigūracijos raktu rekomenduojame naudotis naudojantis patobulinta išrašų registravimo funkcija, nebent esama svarių priežasčių naudotis srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktu. „Microsoft“ ir toliau investuos į naują ir patobulintą išrašų registravimo funkciją ir, norint ja pasinaudoti, svarbu kuo greičiau prie jos pereiti. Senesne išrašų registravimo funkcija kitame leidime nebebus naudojama.
+> Srities **Mažmeninės prekybos išrašai** konfigūracijos raktu rekomenduojame naudotis naudojantis patobulinta išrašų registravimo funkcija, nebent esama svarių priežasčių naudotis srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktu. „Microsoft“ ir toliau investuos į naują ir patobulintą išrašų registravimo funkciją ir, norint ja pasinaudoti, svarbu kuo greičiau prie jos pereiti. Senesne išrašų registravimo funkcija nuo 8.0 leidimo nebebus naudojama.
 
 ## <a name="setup"></a>Sąranka
 
@@ -56,11 +56,15 @@ Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Mažme
 
 - **Reikia išjungti skaičiavimą** – nustačius šios parinkties reikšmę **Taip** išrašo registravimo procesas tęsiamas net jei skirtumas tarp išraše nurodytos apskaičiuotos sumos ir operacijos sumos yra didesnis negu mažmeninės prekybos parduotuvių „FastTab“ skirtuke **Išrašas** nurodyta ribinė reikšmė.
 
-Be to, „FastTab“ skirtuke **Paketinis vykdymas** sukurtas laukas **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Šiame lauke nurodomas vienu metu turimų vykdyti paketinių užduočių skaičius. Šiuo metu turite patys nustatyti šio lauko reikšmę.
+Be to, šie parametrai buvo įdiegti puslapio **„Retail“ parametrai** sparčiojo skirtuko **Paketinis apdorojimas** skirtuke **Registravimas**: 
 
-Be to, naudojant naująjį registravimo procesą, puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ konteineryje **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Tai reikia padaryti, net jei organizacija dovanų kortelių nenaudoja.
+- **Maksimalus lygiagrečiai registruojamų išrašų skaičius** – šiame lauke apibrėžiamas paketinių užduočių, kurios bus naudojamos registruojant kelis išrašus, skaičius. 
+- **Maksimalus užsakymų apdorojimo išrašui gijų skaičius** – šis laukas rodo maksimalų gijų skaičių, kurį naudoja paketinės užduoties išrašo registravimas, kad būtų galima kurti ir išrašyti vieno išrašo pardavimo užsakymus. Bendras gijų, kurias naudos išrašo registravimo procesas, skaičius bus apskaičiuojamas pagal šio parametro vertę, padaugintą iš vertės **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Nustačius per didelę šio parametro vertę galima neigiamai paveikti išrašo registravimo proceso efektyvumą.
+- **Maksimalus operacijų eilučių skaičius telkime** – šiame lauke apibrėžiamas operacijų eilučių, kurios bus įtrauktos į vieną suvestinę operaciją prieš sukuriant naują, skaičius. Apibendrintos operacijos kuriamos remiantis skirtingais sumavimo kriterijais, pvz., klientais, darbo data ar finansinėmis dimensijomis. Svarbu pažymėti, kad viena mažmeninės prekybos operacijos eilutė nebus išskaidytą skirtingose suvestinėse operacijose. Tai reiškia, kad gali būti, kad suvestinės operacijos eilučių skaičius yra šiek tiek didesnis arba mažesnis, remiantis tokiais veiksniais, kaip atskirų produktų skaičius.
+- **Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius** – šiame lauke apibrėžiamas gijų, kurios bus naudojamos mažmeninės prekybos operacijoms tikrinti, skaičius. Mažmeninės prekybos operacijų tikrinimas yra būtinas veiksmas, kurį reikia atlikti prieš tai, kai operacijos gali būti traukiamos į išrašus. Be to, puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ konteineryje **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Jį reikia apibrėžti, net jei organizacija dovanų kortelių nenaudoja.
 
-Atkreipkite dėmesį, kad visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Mažmeninės prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
+> [!NOTE]
+> Visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Mažmeninės prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
 
 ## <a name="processing"></a>Vykdymas
 

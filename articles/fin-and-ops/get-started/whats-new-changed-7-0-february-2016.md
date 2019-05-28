@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334892"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561815"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
@@ -670,7 +670,7 @@ Darbo srityje <strong>Katalogų valdymas</strong> galima naudoti toliau nurodyta
 <td>Duomenų objektai klientams leidžia atlikti metaduomenimis grindžiamą duomenų importavimą ir eksportavimą. „OData“ objektai taip pat klientams leidžia „Dynamics AX“ integruoti su trečiųjų šalių programomis.</td>
 </tr>
 <tr>
-<td>Atlikite išmaniąją analizę naudodami BI ataskaitas iš „Microsoft Dynamics AX“ ir EKA kliento.</td>
+<td>Atlikite išmaniąją analizę naudodami BI ataskaitas iš „Dynamics Microsoft AX“ ir EKA kliento.</td>
 <td>Prieinamos daugiau nei 25 operacijų skyriaus ataskaitos ir penkios kanalų ataskaitos.</td>
 <td>Prieinamos daugiau nei 30 operacijų skyriaus ataskaitų ir 10 kanalų ataskaitų.</td>
 <td>Šios ataskaitos klientams leidžia turėti daugiau BI, kad galėtų prognozuoti tendencijas, atskleisti įžvalgas ir veikti nuolatiniu didžiausiu našumu.</td>

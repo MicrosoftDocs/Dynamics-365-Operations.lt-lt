@@ -3,14 +3,14 @@ title: „Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow�
 description: Šioje temoje aprašomi keli „Microsoft Dynamics 365 for Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“.
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949925"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518630"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>„Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
 
@@ -101,7 +101,21 @@ Organizacija gali turėti tam tikrų skubiai reikiamų įgūdžių rinkinį. Ši
 
 Norėdami atsisiųsti šabloną **Srautas – „SharePoint“ integravimas**, „Microsoft“ atsisiuntimo centre eikite į [Srautas – „SharePoint“ integravimas](https://go.microsoft.com/fwlink/?linkid=2082109).
 
+## <a name="admin-console-to-manage-talent-pools"></a>Administratoriaus konsolė talentų telkiniams valdyti
 
+Kai įgalinsite integraciją su „LinkedIn“, „Attract“ automatiškai sukurs „LinkedIn“ talentų telkinį. Kai darbdavys pakeičia „InMail“ samdiniu per „LinkedIn“, „Atract“ sukuria samdinio profilį, ir samdinys tampa „LinkedIn“ talentų telkinio nariu. Ši „PowerApps“ programa yra naudinga skirstant kandidatus į talentų telkinius pagal įgūdžius.
+
+Paleiskite šią „PowerApps“ programą kaip administravimo konsolę, norėdami atlikti šias užduotis:
+
+- Išvardyti kandidatus talentų telkinyje
+- Įtraukti ir pašalinti kandidatus iš talentų telkinio
+- Perkelti kandidatus iš vieno talentų telkinio į kitą
+- Nustatyti, ar prieš perkeliant kandidatai jau yra talento telkinyje
+- Patikrinti kandidatų įgūdžius prieš perkeliant juos į kitus talentus
+
+Ši „PowerApps“ programa naudoja daugelio su daugeliu ryšį, todėl galite naudoti ją kaip šabloną kituose scenarijuose, kur jums reikia gauti įrašus, kuriuose yra daugelio su daugeliu ryšių.
+
+Norėdami atsisiųsti **Administravimo konsolę talentų telkiniams valdyti**, eikite į [Administravimo konsolę talentų telkiniams valdyti](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) „Microsoft“ atsisiuntimo centre.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

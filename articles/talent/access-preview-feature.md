@@ -1,12 +1,12 @@
 ---
 title: Prieiga prie „Talent“ peržiūros funkcijų
 description: Šioje temoje aprašoma, kaip administratorius gali įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856329"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1518688"
 ---
 # <a name="access-preview-features-in-talent"></a>Prieiga prie „Talent“ peržiūros funkcijų
 
@@ -72,6 +72,7 @@ Naudodami parametrą **Peržiūros funkcijos** „Microsoft Dynamics 365 for Tal
 
 - **Kandidato prašymas** – ir vidiniai, ir išoriniai kandidatai dabar gali prašymą pateikti tiesiogiai iš darbo puslapio karjeros svetainėje.
 - **Pasiūlymų valdymas** – vartotojai dabar gali kurti pasiūlymo laiškus iš šablonų, kuriuose yra vietos rezervavimo ženklai. Kai kandidatai pereina į pasiūlymo etapą, darbdaviai ir samdos vadovai gali naudoti įrankį Pasiūlymas kandidato oficialiam pasiūlymui parengti naudojant šablonus, siųsti pasiūlymą vidiniam patvirtinimui ir galiausiai siųsti pasiūlymą kandidatui pasirašyti. Daug naujų galimybių bus pridėtos prie įrankio Pasiūlymas per tam tikrą laiką, o peržiūros funkcija bus atnaujinta šiomis galimybėmis, nes esame pasiruošę išleisti jas peržiūrėti.
+- **[Analitinės ataskaitos](analytic-reports.md)** – samdos komandos gali peržiūrėti vienos užduoties pagrindinę metriką su darbo analize arba apibendrintą visų darbų metriką Analizės telkinyje.
 
 ### <a name="core-hr"></a>„Core HR“
 

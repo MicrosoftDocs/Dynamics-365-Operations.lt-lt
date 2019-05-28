@@ -16,17 +16,17 @@ ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354971"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560623"
 ---
 # <a name="available-mobile-workspaces"></a>Pasiekiamos mobiliosios darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje nurodomos galimos naudoti mobiliosios programos „Microsoft Dynamics 365 for Unified Operations“ mobiliosios darbo sritys.
+Šioje temoje nurodomos galimos naudoti mobiliosios programos „Dynamics 365 for Unified Operations“ mobiliosios darbo sritys.
 
 > [!NOTE]
 > Anksčiau mobilioji programa vadinosi *Microsoft Dynamics 365 for Finance and Operations*.

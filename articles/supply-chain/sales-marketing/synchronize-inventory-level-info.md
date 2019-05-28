@@ -3,7 +3,7 @@ title: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ atsargų lygio informaciją su „Microsoft Dynamics 365 for Field Service“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: c7dce4427810b93e0ee4f1a27881c2b1b04fb125
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842561"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535703"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>„Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“ 
 
@@ -75,6 +75,14 @@ Objektas **Išorinio produkto atsargos** naudojamas tik atliekant vidinį integr
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
+### <a name="data-integration"></a>Duomenų integravimas
+Norėdami, kad projektas veiktų, turite užtikrinti, kad būtų atnaujintas msdynce_externalproductinventories integravimo raktas.
+1.  Eikite į **Duomenų integravimas > Ryšio rinkiniai**.
+2.  Pasirinkite naudotą ryšio rinkinį.
+3.  Skirtuke **Integravimo raktas** patikrinkite, ar šie raktai įtraukti į msdynce_externalproductinventories:
+      - msdynce_productnumber (produkto numeris)
+      - msdynce_warehouseid (sandėlio ID)
+      
 ### <a name="data-integration-project"></a>Duomenų integravimo projektas
 Galite taikyti filtrus su išplėstine užklausa ir filtravimu, norėdami kontroliuoti, kad tik tam tikri produktai ir sandėliai siųstų atsargų lygio informaciją iš „Finance and Operations“ į „Field Service“.
 

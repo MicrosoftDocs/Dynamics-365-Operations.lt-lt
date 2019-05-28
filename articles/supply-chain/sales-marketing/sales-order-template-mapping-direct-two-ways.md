@@ -3,7 +3,7 @@ title: Pardavimo užsakymų tiesioginis sinchronizavimas tarp „Sales“ ir „
 description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo užsakymus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339124"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539119"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“
 
@@ -146,6 +146,16 @@ Prieš sinchronizuojant pardavimo užsakymus, svarbu atnaujinti toliau nurodytus
 ### <a name="setup-in-finance-and-operations"></a>Sąranka sprendime „Finance and Operations“
 
 - Eikite į **Pardavimas ir rinkodara** &gt; **Periodinės užduotys** &gt; **Skaičiuoti bendrąsias pardavimo sumas** ir nustatykite, kad užduotis būtų vykdoma kaip paketinė užduotis. Parinktį **Skaičiuoti bendrąsias pardavimo užsakymų sumas** nustatykite į **Taip**. Šis veiksmas svarbus, nes su „Sales“ bus sinchronizuojami tik tie pardavimo užsakymai, kuriuose bus apskaičiuotos bendrosios pardavimo sumos. Paketinės užduoties dažnumas turi būti lygus pardavimo užsakymų sinchronizavimo dažnumui.
+
+Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo kilmę. Pardavimo kilmė naudojama siekiant atskirti sukurtus „Finance and Operations“ pardavimo užsakymus nuo „Field Service“ darbo užsakymų. Kai pardavimo užsakymo pardavimo kilmės tipas yra **Darbo užsakymo integravimas**, laukas **Išorinė darbo užsakymo būsena** rodomas pardavimo užsakymo antraštėje. Be to, pardavimo kilmė užtikrina, kad pardavimo užsakymai, sukurti iš „Field Service“ darbo užsakymų, būtų pašalinami naudojant filtrą, kai pardavimo užsakymai sinchronizuojami iš „Finance and Operations“ į „Field Service“.
+
+1. Pasirinkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Pardavimo kilmė**.
+2. Norėdami kurti naują pardavimo kilmę, pasirinkite **Nauja**.
+3. Lauke **Pardavimo kilmė** įveskite pardavimo kilmės pavadinimą, pavyzdžiui, **SalesOrder**.
+4. Lauke **Aprašas** įveskite aprašą, pvz., **Pardavimo užsakymas iš pardavimo**.
+5. Pasirinkite žymės langelį **Kilmės tipo priskyrimas**.
+6. Nustatykite lauko **Pardavimo kilmės tipas** reikšmę **Pardavimo užsakymo integravimas**.
+7. Pasirinkite **Įrašyti**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Pardavimo užsakymo sąranka („Sales“ į „Finance and Operations“) – tiesioginis projektas Duomenų integravimas
 

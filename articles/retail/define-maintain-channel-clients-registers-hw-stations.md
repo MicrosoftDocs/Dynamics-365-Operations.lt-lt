@@ -20,11 +20,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308787"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568050"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
 
@@ -49,7 +49,7 @@ EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus chara
 
 Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**.
 
-Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginiai gali būti dviejų tipų: **Retail Modern POS** (MPOS) arba **Retail Cloud POS** („Cloud POS“).
+Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginiai gali būti dviejų tipų: **Retail modern POS** (MPOS) arba **Retail Cloud POS** („Cloud POS“).
 
 #### <a name="mpos"></a>MPOS
 

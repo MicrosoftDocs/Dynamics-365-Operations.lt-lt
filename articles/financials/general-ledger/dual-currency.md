@@ -3,7 +3,7 @@ title: Dvi valiutos
 description: Šioje temoje pateikiama informacija apie dvi valiutas, kai ataskaitų valiuta naudojama kaip antroji „Microsoft Dynamics 365 for Finance and Operations“ apskaitos valiuta.
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330315"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532253"
 ---
 # <a name="dual-currency"></a>Dvi valiutos
 
@@ -61,6 +61,9 @@ Keitimai atliekami pagal vieną iš dviejų modelių.
 ## <a name="financial-journals"></a>Finansiniai žurnalai
 
 Atnaujinti finansiniai žurnalai (pvz., pagrindinis žurnalas ir tiekėjo SF žurnalas), kad juose būtų įtraukta papildoma informacija apie ataskaitų valiutą. Dabar bendrosios kvito ir žurnalo sumos nurodomos ataskaitų valiuta. Be to, dabar žurnalo eilučių skirtuke **Bendra** rodoma informacija apie ataskaitų valiutos keitimo kursą. Todėl įvesdami operacijas galite nepaisyti ataskaitų valiutos keitimo kurso.
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>Tiekėjo SF, pardavimo užsakymai ir pardavimo sutartys
+Buvo atnaujintos tiekėjo SF, pardavimo užsakymai ir pardavimo sutartys, kad būtų įtrauktas fiksuotas valiutos kursas, skirtas ataskaitai. Fiksuotas valiutos kursas gali būti nustatytas tiek apskaitos valiuta, tiek ataskaitų valiuta, kai skiriasi operacijos valiuta. Kai apskaitos valiuta ir ataskaitų valiuta sutampa, fiksuotas valiutos kursas bus sinchronizuojamas naudojant apskaitos valiutos fiksuotą tarifą kaip ataskaitų valiutos fiksuotas kursas. Šios konfigūracijos ataskaitos valiutos fiksuoto valiutos kurso keisti negalima. Kai apskaitos valiuta ir ataskaitos valiuta skiriasi, fiksuotas valiutos kursas gali būti nustatytas tiek apskaitos valiuta, tiek ataskaitų valiuta įvedant operacijas. Jei ataskaitos valiuta nebuvo nurodyta didžiojoje knygoje, laukas **Ataskaitų valiutos fiksuotas valiutos kursas** lieka neįgalintas, o ataskaitos valiutos suma neapskaičiuojama.
 
 ## <a name="module-changes"></a>Modulių pakeitimai
 

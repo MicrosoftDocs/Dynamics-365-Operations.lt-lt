@@ -17,12 +17,12 @@ ms.search.region: Estonia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 505b612b30c1b6f4b3f55f07880a127dd506a991
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e316d982dc313437007819716db777d5f4fad68c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371231"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538133"
 ---
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 

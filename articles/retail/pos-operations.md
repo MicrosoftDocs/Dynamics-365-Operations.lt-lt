@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842727"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505101"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -70,7 +70,9 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 106 | Valyti kiekį | Kiekį tuo metu pasirinktoje eilutėje iš naujo nustatykite į **1**. | Taip | Taip | Nr. | Taip | Nr. |
 | 640 | Išvalyti pardavimo atstovą eilutėje | Pašalinkite komisinių pardavimo grupę (pardavimo ats.) iš tuo metu pasirinktos eilutės. | Taip | Taip | Nr. | Taip | Nr. |
 | 121 | Išvalyti pardavėją | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
-| 1055 | Uždaryti pamainą | Uždarykite dabartinę pamainą, atsispausdinkite Z ataskaitą ir atjunkite vartotoją iš sistemos. | Taip | Taip | Taip | Nr. | Nr. |
+| 1055 | Uždaryti pamainą | Uždarykite dabartinę pamainą, atsispausdinkite Z ataskaitą ir atjunkite vartotoją iš sistemos. | Taip | Taip | Taip | Ne | Ne |
+| 139 | Užbaigti operaciją | Ragina vartotojus pasirinkti mokėjimo būdą | Taip | Taip | Ne | Taip | Ne |
+| 620 | Kurti kliento užsakymą | Konvertuokite EKA operaciją kliento užsakymui. | Taip | Taip | Ne | Taip\* | Ne |
 | 925 | Kopijuoti banko čekį | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Taip |
 | 620 | Kurti kliento užsakymą | Konvertuokite EKA operaciją kliento užsakymui. | Taip | Taip | Nr. | Taip\* | Nr. |
 | 621 | Kurti pasiūlymą | Konvertuokite EKA operaciją pardavimo pasiūlymui. | Taip | Taip | Nr. | Taip\* | Nr. |

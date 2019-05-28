@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321736"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545467"
 ---
 # <a name="europe"></a>Europa 
 
@@ -90,7 +90,7 @@ ms.locfileid: "321736"
   - [PVM valiutų kursai](emea-vat-exchange-rate.md)
   - [PVM derinimo ataskaita](tasks/eur-00018-vat-reconciliation-report.md)
   - [PVM registro operacijos (Rytų Europa)](emea-vat-register-transactions.md)
-  - [PVM ataskaitos](emea-vat-reporting.md)
+  - [PVM ataskaita](emea-vat-reporting.md)
   - [PVM ataskaitos kūrimas ir teikimas](tasks/create-submit-vat-report.md)
   - [Sudengimo operacijų peržiūra](emea-transactions-settlement-form.md)
 

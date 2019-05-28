@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
+ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350739"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1538961"
 ---
 # <a name="finance-and-operations-help-system"></a>„Finance and Operations” žinyno sistema
 
@@ -54,7 +54,7 @@ Programoje „Finance and Operations‟ yra žinyno sistema, paremta dviem pagri
 
 ## <a name="help-on-docsmicrosoftcom"></a>Žinynas adresu docs.microsoft.com
 
-Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) yra pagrindinis „Dynamics 365 for Finance and Operations“ produktų dokumentacijos šaltinis. Svetainėje siūlomos tolesnės funkcijos.
+Svetainė docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) yra pagrindinis „Finance and Operations“ produktų dokumentacijos šaltinis. Svetainėje siūlomos tolesnės funkcijos.
 
 - **Prieiga prie naujausio turinio** – svetainė suteikia greitesnį ir lankstesnį būdą produktų dokumentacijai kurti, pateikti ir atnaujinti. Todėl jis padeda užtikrinti, kad turėtumėte prieigą prie vėliausios techninės informacijos.
 - **Ekspertų parašytas turinys** – svetainėje pateikiamas turiningesnis produktų dokumentacijos rinkinys, kurį bendruomenės nariai gali gerinti tiek „Microsoft‟ viduje, tiek išorėje.
@@ -90,8 +90,6 @@ Mums patinka gauti atsiliepimų iš klientų. Komentuoti arba pasiūlyti mūsų 
 Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausimų, palikite komentarą puslapio apačioje.
 
 1. Spustelėkite **Atsiliepimai**, kad pasiektumėte komentarus puslapio apačioje, tada spustelėkite **Atsiliepimai apie produktą** arba **Prisijunkite, kad pateiktumėte atsiliepimus apie instrukcijas**.
-
-    ![Grižt. ryšys](./media/comments.png)
 
 2. Įveskite savo komentarą, o tada spustelėkite **Skelbti atsiliepimą**.
 

@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 92824cf0fb5ad361090d8dccfd64353d2c16317c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311685"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565862"
 ---
 # <a name="allocation-bases"></a>Paskirstymo bazės 
 
@@ -356,9 +356,9 @@ Naudodamiesi peržiūros funkcija galite patikrinti sukurtą formulės paskirsty
 
 | Išlaidų objektas | aprašymas  | Formulė           | Reikšmė |
 |-------------|------|-------------------|-----------|
-| CC001       | Personalas   | {2.450,00 \> 0,01  | 1,00      |
-| CC002       | FI   | {4.100,00 \> 0,01  | 1,00      |
-| CC003       | AP   | {15.000,00 \> 0,01 | 1,00      |
+| CC001       | Personalas   | 2 450,00 \> 0,01  | 1,00      |
+| CC002       | FI   | 4 100,00 \> 0,01  | 1,00      |
+| CC003       | AP   | 15 000,00 \> 0,01 | 1,00      |
 
 Toliau pateikiamas išlaidų paskirstymo taisyklės pavyzdys, kai elektros energijos formulės paskirstymo bazė priskiriama kaip paskirstymo bazė.
 
