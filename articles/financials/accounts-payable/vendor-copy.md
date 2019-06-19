@@ -1,192 +1,67 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="vendor-copy.md" target-language="lt-LT">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>vendor-copy.deb9a6.0c492cd76fc9742aa4cff8fe588541cb2c6f1863.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>0c492cd76fc9742aa4cff8fe588541cb2c6f1863</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\accounts-payable\vendor-copy.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Copy vendors by using shared number sequences</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjų kopijavimas naudojant bendrinamas numeracijas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic explains how to use shared number sequences to copy a vendor to another legal entity but keep the same vendor ID.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Copy vendors by using shared number sequences</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjų kopijavimas naudojant bendrinamas numeracijas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>You can use shared number sequences to assign vendor IDs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Naudodami bendrinamas numeracijas, galite priskirti tiekėjų ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Bendrinamos numeracijos taip pat leidžia tiekėjus iš vieno juridinio subjekto kopijuoti į kitą juridinį subjektą, bet naudoti tuos pačius tiekėjų ID abiejuose juridiniuose subjektuose.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Setup</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sąranka</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>The feature is activated when you use a shared number sequence to assign vendor IDs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ši funkcija suaktyvinama, kai, naudodami bendrinamą numeraciją, priskiriate tiekėjų ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>You must use the same number sequence in every legal entity that you want to copy a vendor to.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tą pačią numeraciją turite naudoti kiekviename juridiniame subjekte, į kurį norite nukopijuoti tiekėją.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>You change the vendor number sequence on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page for each legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kiekvieno juridinio subjekto tiekėjo numeracija keičiama puslapyje <bpt id="p1">**</bpt>Mokėtinų sumų parametrai<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Select <bpt id="p1">**</bpt>Accounts payable<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Setup<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Accounts payable parameters<ept id="p3">**</ept>, and then select the <bpt id="p4">**</bpt>Number sequences<ept id="p4">**</ept> tab.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinkite <bpt id="p1">**</bpt>Mokėtinos sumos<ept id="p1">**</ept> <ph id="ph1">\&gt;</ph> <bpt id="p2">**</bpt>Sąranka<ept id="p2">**</ept> <ph id="ph2">\&gt;</ph> <bpt id="p3">**</bpt>Mokėtinų sumų parametrai<ept id="p3">**</ept>, tada – skirtuką <bpt id="p4">**</bpt>Numeracijos<ept id="p4">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>You can also set up vendor number sequences for each vendor group.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjų numeracijas taip pat galite nustatyti kiekvienai tiekėjų grupei.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>These number sequences must also be shared.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šios numeracijos taip pat turi būti bendrinamos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>The number sequence for a vendor group is used first.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirmiausia naudojama tiekėjų grupės numeracija.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>If no number sequence is specified for a vendor group, the number sequence that is specified on the <bpt id="p1">**</bpt>Accounts payable parameters<ept id="p1">**</ept> page is used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jei tiekėjų grupės numeracijų nenurodyta, naudojama numeracija, nurodyta puslapyje <bpt id="p1">**</bpt>Mokėtinų sumų parametrai<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>You can also copy vendors between legal entities if you use manual vendor IDs.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjus kopijuoti tarp juridinių subjektų taip pat galite, jei naudojate neautomatinius tiekėjų ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tačiau, jei tiekėją bandysite nukopijuoti į juridinį subjektą, kuriame tiekėjo ID jau yra, kopijavimo procesas nebus pradėtas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Copy a vendor</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjo kopijavimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>To copy a vendor, select <bpt id="p1">**</bpt>New<ept id="p1">**</ept> on the <bpt id="p2">**</bpt>All vendors<ept id="p2">**</ept> list page to open the <bpt id="p3">**</bpt>All vendors, new record<ept id="p3">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norėdami kopijuoti tiekėją, sąrašo puslapyje <bpt id="p2">**</bpt>Visi tiekėjai<ept id="p2">**</ept> pasirinkite <bpt id="p1">**</bpt>Naujas<ept id="p1">**</ept>, kad atidarytumėte puslapį <bpt id="p3">**</bpt>Visi tiekėjai, naujas įrašas<ept id="p3">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Notice that the new vendor ID isn't assigned immediately.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atkreipkite dėmesį, kad naujasis tiekėjo ID nėra priskiriamas iš karto.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ankstesnėse „Microsoft Dynamics 365 for Finance and Operations“ versijose buvo kitaip.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kadangi dar nepasirinkote tiekėjų grupės, sistema negali nustatyti teisingos naudotinos numeracijos.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Be to, ji negali nustatyti, ar bandote sukurti naują tiekėją, ar tiekėją kopijuoti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Therefore, the vendor ID isn't assigned until you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept> at the bottom of the page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Todėl tiekėjo ID nepriskiriamas tol, kol puslapio apačioje nepasirenkate <bpt id="p1">**</bpt>Įrašyti<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jei kuriate naują tiekėją, galite įprastai toliau užpildyti visus laukus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>When you've finished, and you select <bpt id="p1">**</bpt>Save<ept id="p1">**</ept>, you will see that the vendor ID was assigned automatically.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Baigę ir pasirinkę <bpt id="p1">**</bpt>Įrašyti<ept id="p1">**</ept> matysite, kad tiekėjo ID buvo priskirtas automatiškai.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">O neautomatinių numeracijų atveju matysite, kad buvo panaudotas jūsų neautomatinis tiekėjo ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>To copy a vendor, in the <bpt id="p1">**</bpt>Name<ept id="p1">**</ept> field, enter one or more characters that represent the vendor that you're looking for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norėdami nukopijuoti tiekėją, lauke <bpt id="p1">**</bpt>Vardas<ept id="p1">**</ept> įveskite vieną ar kelis simbolius, atitinkančius jūsų ieškomą tiekėją.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>A search dialog box shows a list of parties that might represent the vendor that you're looking for.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ieškos dialogo lange rodomas šalių, kurios gali būti jūsų ieškomas tiekėjas, sąrašas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>When you select one of the parties, additional information appears on the right side of the dialog box:</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kai pasirenkate vieną iš šalių, dešinėje dialogo lango pusėje pasirodo papildoma tolesnė informacija.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>The <bpt id="p1">**</bpt>General<ept id="p1">**</ept> tab shows the party's phone number and address.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skirtuke <bpt id="p1">**</bpt>Bendra<ept id="p1">**</ept> rodomas šalies telefono numeris ir adresas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>The <bpt id="p1">**</bpt>Roles<ept id="p1">**</ept> tab shows the roles that the selected party can have and the legal entity where it has each role.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skirtuke <bpt id="p1">**</bpt>Vaidmenys<ept id="p1">**</ept> rodomi vaidmenys, kuriuos gali turėti pasirinkta šalis, ir juridinis subjektas, kuriame ji turi kiekvieną vaidmenį.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source><bpt id="p1">**</bpt>Tax registration ID<ept id="p1">**</ept> tab shows the tax registration IDs that are assigned to the party.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skirtuke <bpt id="p1">**</bpt>Mokesčių registracijos ID<ept id="p1">**</ept> rodomi šaliai priskirti mokesčių registracijos ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Šalį galite kopijuoti tik tada, jei ji turi tiekėjo vaidmenį ir jei tą vaidmenį ji turi juridiniame subjekte, kuris nėra dabartinis juridinis subjektas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>When you find a party that meets these criteria, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Radę šiuos kriterijus atitinkančią šalį, atlikite šiuos veiksmus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirodo parinktis <bpt id="p1">**</bpt>Kopijuoti tiekėją<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip <bpt id="p1">**</bpt>Ne<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip <bpt id="p1">**</bpt>Taip<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>A <bpt id="p1">**</bpt>Legal entity<ept id="p1">**</ept> field appears.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirodo laukas <bpt id="p1">**</bpt>Juridinis subjektas<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Select the legal entity to copy the vendor from.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinkite juridinį subjektą, iš kurio kopijuoti tiekėją.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>If the vendor exists in only one legal entity, the field is set to that legal entity by default.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Jei tiekėjas yra tik viename juridiniame subjekte, pagal numatytuosius parametrus laukas nustatomas kaip tas juridinis subjektas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinkite <bpt id="p1">**</bpt>Pasirinkti<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>The new vendor is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sukuriamas naujas tiekėjas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Validation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tikrinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>When you copy a vendor, the system tries to save the new vendor information.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kai kopijuojate tiekėją, sistema bando įrašyti naujojo tiekėjo informaciją.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Validations are run to verify that the data that was copied is good.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Vykdomos patikros, kuriomis tikrinama, ar nukopijuoti duomenys yra tinkami.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>You receive an error message for every validation that fails.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apie kiekvieną nesėkmingą patikrą gaunate klaidos pranešimą.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>The error messages explain what information must be updated.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klaidų pranešimuose paaiškinama, kokią informaciją reikia atnaujinti.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>The copy of the vendor can't be saved until you fix all the validation errors.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjo kopijos negalima įrašyti tol, kol neištaisote visų tikrinimo klaidų.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Copy a vendor by using the Tax exempt number search feature</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjo kopijavimas naudojant funkciją Neapmokestinimo kodo ieška</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>You can also copy vendors by using the Tax exempt number search feature that is in the <bpt id="p1">**</bpt>Registration<ept id="p1">**</ept> group on the <bpt id="p2">**</bpt>Vendor<ept id="p2">**</ept> tab on the Action Pane of the <bpt id="p3">**</bpt>All vendors<ept id="p3">**</ept> page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėjus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieška, esančią puslapio <bpt id="p3">**</bpt>Visi tiekėjai<ept id="p3">**</ept> veiksmų srities skirtuko <bpt id="p2">**</bpt>Tiekėjas<ept id="p2">**</ept> grupėje <bpt id="p1">**</bpt>Registracija<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>The <bpt id="p1">**</bpt>Tax exempt number search<ept id="p1">**</ept> dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirodžiusiame dialogo lange <bpt id="p1">**</bpt>Neapmokestinimo kodo ieška<ept id="p1">**</ept> rodomi neapmokestinimo kodai, tiekėjo ID, tiekėjo pavadinimas / vardas ir (arba) pavardė bei juridinis subjektas, kuriame naudojamas neapmokestinimo ID.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tiekėją galite kopijuoti tik tada, jei jis yra juridiniame subjekte, kuris nėra dabartinis juridinis subjektas.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>After you select a vendor that meets this criterion, follow these steps.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinkę šį kriterijų atitinkantį tiekėją, atlikite šiuos veiksmus.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>A <bpt id="p1">**</bpt>Copy vendor<ept id="p1">**</ept> option appears.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirodo parinktis <bpt id="p1">**</bpt>Kopijuoti tiekėją<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>By default, this option is set to <bpt id="p1">**</bpt>No<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip <bpt id="p1">**</bpt>Ne<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>To copy the vendor to the current legal entity, set the option to <bpt id="p1">**</bpt>Yes<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip <bpt id="p1">**</bpt>Taip<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Select <bpt id="p1">**</bpt>Select<ept id="p1">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinkite <bpt id="p1">**</bpt>Pasirinkti<ept id="p1">**</ept>.</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>The new vendor is created.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sukuriamas naujas tiekėjas.</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: Tiekėjų kopijavimas naudojant bendrinamas numeracijas
+description: Šioje temoje paaiškinama, kaip, naudojant bendrinamas numeracijas, tiekėją nukopijuoti į kitą juridinį subjektą, bet išlaikyti tą patį tiekėjo ID.
+author: mikefalkner
+manager: aolson
+ms.date: 08/24/2018
+ms.topic: index-page
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: VendTable
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: mikefalkner
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548605"
+---
+# <a name="copy-vendors-by-using-shared-number-sequences"></a><span data-ttu-id="68d9e-103">Tiekėjų kopijavimas naudojant bendrinamas numeracijas</span><span class="sxs-lookup"><span data-stu-id="68d9e-103">Copy vendors by using shared number sequences</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="68d9e-104">Naudodami bendrinamas numeracijas, galite priskirti tiekėjų ID.</span><span class="sxs-lookup"><span data-stu-id="68d9e-104">You can use shared number sequences to assign vendor IDs.</span></span> <span data-ttu-id="68d9e-105">Bendrinamos numeracijos taip pat leidžia tiekėjus iš vieno juridinio subjekto kopijuoti į kitą juridinį subjektą, bet naudoti tuos pačius tiekėjų ID abiejuose juridiniuose subjektuose.</span><span class="sxs-lookup"><span data-stu-id="68d9e-105">Shared number sequences also let you copy vendors from one legal entity to another legal entity but use the same vendor IDs in both legal entities.</span></span>
+
+## <a name="setup"></a><span data-ttu-id="68d9e-106">Sąranka</span><span class="sxs-lookup"><span data-stu-id="68d9e-106">Setup</span></span>
+
+<span data-ttu-id="68d9e-107">Ši funkcija suaktyvinama, kai, naudodami bendrinamą numeraciją, priskiriate tiekėjų ID.</span><span class="sxs-lookup"><span data-stu-id="68d9e-107">The feature is activated when you use a shared number sequence to assign vendor IDs.</span></span> <span data-ttu-id="68d9e-108">Tą pačią numeraciją turite naudoti kiekviename juridiniame subjekte, į kurį norite nukopijuoti tiekėją.</span><span class="sxs-lookup"><span data-stu-id="68d9e-108">You must use the same number sequence in every legal entity that you want to copy a vendor to.</span></span> <span data-ttu-id="68d9e-109">Kiekvieno juridinio subjekto tiekėjo numeracija keičiama puslapyje **Mokėtinų sumų parametrai**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-109">You change the vendor number sequence on the **Accounts payable parameters** page for each legal entity.</span></span> <span data-ttu-id="68d9e-110">Pasirinkite **Mokėtinos sumos** \> **Sąranka** \> **Mokėtinų sumų parametrai**, tada – skirtuką **Numeracijos**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-110">Select **Accounts payable** \> **Setup** \> **Accounts payable parameters**, and then select the **Number sequences** tab.</span></span>
+
+<span data-ttu-id="68d9e-111">Tiekėjų numeracijas taip pat galite nustatyti kiekvienai tiekėjų grupei.</span><span class="sxs-lookup"><span data-stu-id="68d9e-111">You can also set up vendor number sequences for each vendor group.</span></span> <span data-ttu-id="68d9e-112">Šios numeracijos taip pat turi būti bendrinamos.</span><span class="sxs-lookup"><span data-stu-id="68d9e-112">These number sequences must also be shared.</span></span> <span data-ttu-id="68d9e-113">Pirmiausia naudojama tiekėjų grupės numeracija.</span><span class="sxs-lookup"><span data-stu-id="68d9e-113">The number sequence for a vendor group is used first.</span></span> <span data-ttu-id="68d9e-114">Jei tiekėjų grupės numeracijų nenurodyta, naudojama numeracija, nurodyta puslapyje **Mokėtinų sumų parametrai**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-114">If no number sequence is specified for a vendor group, the number sequence that is specified on the **Accounts payable parameters** page is used.</span></span>
+
+<span data-ttu-id="68d9e-115">Tiekėjus kopijuoti tarp juridinių subjektų taip pat galite, jei naudojate neautomatinius tiekėjų ID.</span><span class="sxs-lookup"><span data-stu-id="68d9e-115">You can also copy vendors between legal entities if you use manual vendor IDs.</span></span> <span data-ttu-id="68d9e-116">Tačiau, jei tiekėją bandysite nukopijuoti į juridinį subjektą, kuriame tiekėjo ID jau yra, kopijavimo procesas nebus pradėtas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-116">However, if you try to copy a vendor to a legal entity where the vendor ID already exists, the copy process won't be started.</span></span>
+
+## <a name="copy-a-vendor"></a><span data-ttu-id="68d9e-117">Tiekėjo kopijavimas</span><span class="sxs-lookup"><span data-stu-id="68d9e-117">Copy a vendor</span></span>
+
+<span data-ttu-id="68d9e-118">Norėdami kopijuoti tiekėją, sąrašo puslapyje **Visi tiekėjai** pasirinkite **Naujas**, kad atidarytumėte puslapį **Visi tiekėjai, naujas įrašas**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-118">To copy a vendor, select **New** on the **All vendors** list page to open the **All vendors, new record** page.</span></span> <span data-ttu-id="68d9e-119">Atkreipkite dėmesį, kad naujasis tiekėjo ID nėra priskiriamas iš karto.</span><span class="sxs-lookup"><span data-stu-id="68d9e-119">Notice that the new vendor ID isn't assigned immediately.</span></span> <span data-ttu-id="68d9e-120">Ankstesnėse „Microsoft Dynamics 365 for Finance and Operations“ versijose buvo kitaip.</span><span class="sxs-lookup"><span data-stu-id="68d9e-120">This behavior differs from the behavior in previous versions of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="68d9e-121">Kadangi dar nepasirinkote tiekėjų grupės, sistema negali nustatyti teisingos naudotinos numeracijos.</span><span class="sxs-lookup"><span data-stu-id="68d9e-121">Because you haven't yet selected the vendor group, the system can't determine the correct number sequence to use.</span></span> <span data-ttu-id="68d9e-122">Be to, ji negali nustatyti, ar bandote sukurti naują tiekėją, ar tiekėją kopijuoti.</span><span class="sxs-lookup"><span data-stu-id="68d9e-122">Additionally, it can't determine whether you're trying to create a new vendor or copy a vendor.</span></span> <span data-ttu-id="68d9e-123">Todėl tiekėjo ID nepriskiriamas tol, kol puslapio apačioje nepasirenkate **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-123">Therefore, the vendor ID isn't assigned until you select **Save** at the bottom of the page.</span></span>
+
+<span data-ttu-id="68d9e-124">Jei kuriate naują tiekėją, galite įprastai toliau užpildyti visus laukus.</span><span class="sxs-lookup"><span data-stu-id="68d9e-124">If you're creating a new vendor, you can continue to fill in all the fields as you usually do.</span></span> <span data-ttu-id="68d9e-125">Baigę ir pasirinkę **Įrašyti** matysite, kad tiekėjo ID buvo priskirtas automatiškai.</span><span class="sxs-lookup"><span data-stu-id="68d9e-125">When you've finished, and you select **Save**, you will see that the vendor ID was assigned automatically.</span></span> <span data-ttu-id="68d9e-126">O neautomatinių numeracijų atveju matysite, kad buvo panaudotas jūsų neautomatinis tiekėjo ID.</span><span class="sxs-lookup"><span data-stu-id="68d9e-126">Alternatively, for manual number sequences, you will see that your manual vendor ID was used.</span></span>
+
+<span data-ttu-id="68d9e-127">Norėdami nukopijuoti tiekėją, lauke **Vardas** įveskite vieną ar kelis simbolius, atitinkančius jūsų ieškomą tiekėją.</span><span class="sxs-lookup"><span data-stu-id="68d9e-127">To copy a vendor, in the **Name** field, enter one or more characters that represent the vendor that you're looking for.</span></span> <span data-ttu-id="68d9e-128">Ieškos dialogo lange rodomas šalių, kurios gali būti jūsų ieškomas tiekėjas, sąrašas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-128">A search dialog box shows a list of parties that might represent the vendor that you're looking for.</span></span> <span data-ttu-id="68d9e-129">Kai pasirenkate vieną iš šalių, dešinėje dialogo lango pusėje pasirodo papildoma tolesnė informacija.</span><span class="sxs-lookup"><span data-stu-id="68d9e-129">When you select one of the parties, additional information appears on the right side of the dialog box:</span></span>
+
+- <span data-ttu-id="68d9e-130">Skirtuke **Bendra** rodomas šalies telefono numeris ir adresas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-130">The **General** tab shows the party's phone number and address.</span></span>
+- <span data-ttu-id="68d9e-131">Skirtuke **Vaidmenys** rodomi vaidmenys, kuriuos gali turėti pasirinkta šalis, ir juridinis subjektas, kuriame ji turi kiekvieną vaidmenį.</span><span class="sxs-lookup"><span data-stu-id="68d9e-131">The **Roles** tab shows the roles that the selected party can have and the legal entity where it has each role.</span></span>
+- <span data-ttu-id="68d9e-132">Skirtuke **Mokesčių registracijos ID** rodomi šaliai priskirti mokesčių registracijos ID.</span><span class="sxs-lookup"><span data-stu-id="68d9e-132">**Tax registration ID** tab shows the tax registration IDs that are assigned to the party.</span></span>
+
+<span data-ttu-id="68d9e-133">Šalį galite kopijuoti tik tada, jei ji turi tiekėjo vaidmenį ir jei tą vaidmenį ji turi juridiniame subjekte, kuris nėra dabartinis juridinis subjektas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-133">You can copy a party only if it has a vendor role, and if it has that role in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="68d9e-134">Radę šiuos kriterijus atitinkančią šalį, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="68d9e-134">When you find a party that meets these criteria, follow these steps.</span></span>
+
+1. <span data-ttu-id="68d9e-135">Pasirodo parinktis **Kopijuoti tiekėją**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-135">A **Copy vendor** option appears.</span></span> <span data-ttu-id="68d9e-136">Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-136">By default, this option is set to **No**.</span></span> <span data-ttu-id="68d9e-137">Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-137">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span> 
+2. <span data-ttu-id="68d9e-138">Pasirodo laukas **Juridinis subjektas**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-138">A **Legal entity** field appears.</span></span> <span data-ttu-id="68d9e-139">Pasirinkite juridinį subjektą, iš kurio kopijuoti tiekėją.</span><span class="sxs-lookup"><span data-stu-id="68d9e-139">Select the legal entity to copy the vendor from.</span></span> <span data-ttu-id="68d9e-140">Jei tiekėjas yra tik viename juridiniame subjekte, pagal numatytuosius parametrus laukas nustatomas kaip tas juridinis subjektas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-140">If the vendor exists in only one legal entity, the field is set to that legal entity by default.</span></span>
+3. <span data-ttu-id="68d9e-141">Pasirinkite **Pasirinkti**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-141">Select **Select**.</span></span> <span data-ttu-id="68d9e-142">Sukuriamas naujas tiekėjas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-142">The new vendor is created.</span></span>
+
+## <a name="validation"></a><span data-ttu-id="68d9e-143">Tikrinimas</span><span class="sxs-lookup"><span data-stu-id="68d9e-143">Validation</span></span>
+
+<span data-ttu-id="68d9e-144">Kai kopijuojate tiekėją, sistema bando įrašyti naujojo tiekėjo informaciją.</span><span class="sxs-lookup"><span data-stu-id="68d9e-144">When you copy a vendor, the system tries to save the new vendor information.</span></span> <span data-ttu-id="68d9e-145">Vykdomos patikros, kuriomis tikrinama, ar nukopijuoti duomenys yra tinkami.</span><span class="sxs-lookup"><span data-stu-id="68d9e-145">Validations are run to verify that the data that was copied is good.</span></span> <span data-ttu-id="68d9e-146">Apie kiekvieną nesėkmingą patikrą gaunate klaidos pranešimą.</span><span class="sxs-lookup"><span data-stu-id="68d9e-146">You receive an error message for every validation that fails.</span></span> <span data-ttu-id="68d9e-147">Klaidų pranešimuose paaiškinama, kokią informaciją reikia atnaujinti.</span><span class="sxs-lookup"><span data-stu-id="68d9e-147">The error messages explain what information must be updated.</span></span> <span data-ttu-id="68d9e-148">Tiekėjo kopijos negalima įrašyti tol, kol neištaisote visų tikrinimo klaidų.</span><span class="sxs-lookup"><span data-stu-id="68d9e-148">The copy of the vendor can't be saved until you fix all the validation errors.</span></span>
+
+## <a name="copy-a-vendor-by-using-the-tax-exempt-number-search-feature"></a><span data-ttu-id="68d9e-149">Tiekėjo kopijavimas naudojant funkciją Neapmokestinimo kodo ieška</span><span class="sxs-lookup"><span data-stu-id="68d9e-149">Copy a vendor by using the Tax exempt number search feature</span></span>
+
+<span data-ttu-id="68d9e-150">Tiekėjus taip pat galite kopijuoti naudodami funkciją Neapmokestinimo kodo ieška, esančią puslapio **Visi tiekėjai** veiksmų srities skirtuko **Tiekėjas** grupėje **Registracija**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-150">You can also copy vendors by using the Tax exempt number search feature that is in the **Registration** group on the **Vendor** tab on the Action Pane of the **All vendors** page.</span></span> <span data-ttu-id="68d9e-151">Pasirodžiusiame dialogo lange **Neapmokestinimo kodo ieška** rodomi neapmokestinimo kodai, tiekėjo ID, tiekėjo pavadinimas / vardas ir (arba) pavardė bei juridinis subjektas, kuriame naudojamas neapmokestinimo ID.</span><span class="sxs-lookup"><span data-stu-id="68d9e-151">The **Tax exempt number search** dialog box that appears shows tax exempt numbers, the vendor ID, the vendor name, and the legal entity where the tax exempt ID is used.</span></span> <span data-ttu-id="68d9e-152">Tiekėją galite kopijuoti tik tada, jei jis yra juridiniame subjekte, kuris nėra dabartinis juridinis subjektas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-152">You can copy a vendor only if it's in a legal entity that isn't the current legal entity.</span></span> <span data-ttu-id="68d9e-153">Pasirinkę šį kriterijų atitinkantį tiekėją, atlikite šiuos veiksmus.</span><span class="sxs-lookup"><span data-stu-id="68d9e-153">After you select a vendor that meets this criterion, follow these steps.</span></span>
+
+1. <span data-ttu-id="68d9e-154">Pasirodo parinktis **Kopijuoti tiekėją**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-154">A **Copy vendor** option appears.</span></span> <span data-ttu-id="68d9e-155">Pagal numatytuosius parametrus ši parinktis yra nustatyta kaip **Ne**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-155">By default, this option is set to **No**.</span></span> <span data-ttu-id="68d9e-156">Norėdami tiekėją nukopijuoti į dabartinį juridinį subjektą, parinktį nustatykite kaip **Taip**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-156">To copy the vendor to the current legal entity, set the option to **Yes**.</span></span>
+2. <span data-ttu-id="68d9e-157">Pasirinkite **Pasirinkti**.</span><span class="sxs-lookup"><span data-stu-id="68d9e-157">Select **Select**.</span></span> <span data-ttu-id="68d9e-158">Sukuriamas naujas tiekėjas.</span><span class="sxs-lookup"><span data-stu-id="68d9e-158">The new vendor is created.</span></span>
