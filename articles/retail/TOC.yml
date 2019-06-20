@@ -1,1056 +1,696 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="lt-LT">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>TOC.1b20fc.88485598ac4a9d5d2829a3021361885065ad76a4.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>88485598ac4a9d5d2829a3021361885065ad76a4</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>bbc9aa0d6b94a942e1f4d5b038601509dcc87937</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\retail\TOC.yml</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101">
-          <source>Welcome to Dynamics 365 for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sveiki, čia – „Dynamics 365 for Retail”</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102">
-          <source>Get started</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Pradžia</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>What's new or changed</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Kas nauja ar pasikeitė</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>Preview features in Dynamics 365 for Retail 10.0.3</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">„Dynamics 365 for Retail 10.0.3“ peržiūros funkcijos</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>What's new or changed in Dynamics 365 for Retail 10.0.2</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kas nauja ar pasikeitė sprendime „Dynamics 365 for Retail 10.0.2“</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>What's new ot changed in Dynamics 365 for Retail 10.0.1</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Kas nauja ar pasikeitė sprendime „Dynamics 365 for Retail 10.0.1“</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>What's new or changed in Dynamics 365 for Retail (April 2019)</source><target logoport:matchpercent="87" state="translated" state-qualifier="fuzzy-match">Kas nauja ar pasikeitė sprendime „Dynamics 365 for Retail” (2019 m. balandžio mėn.)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Before you buy Retail</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Prieš perkant „Retail“</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Sign up for a preview subscription</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Registravimasis peržiūros versijos prenumeratai gauti</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Deploy a demo environment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Demonstracinės aplinkos diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Deployment options</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diegimo parinktys</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Get support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Palaikymo dėl mažmeninės prekybos gavimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>One Version service updates FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DUK apie vienos versijos paslaugų naujinimus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>Understand the implementation lifecycle</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diegimo ciklo supratimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>Microsoft FastTrack for Dynamics 365</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Microsoft FastTrack for Dynamics 365“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>Onboarding</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Supažindinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Preparing for go-live</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rengimasis įgyvendinimo pradžiai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Go-live FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">DUK apie įgyvendinimo pradžią</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Submit a service request</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Paslaugos užklausos teikimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Subscriptions, LCS projects, and Azure Active Directory tenants FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Su prenumeratomis, LCS projektais ir „Azure Active Directory“ nuomotojais susiję DUK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Move environments between data centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perkelti aplinkas iš vieno duomenų centro į kitą</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Move licenses between agreement types</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Perkelti licencijas iš vieno sutarties tipo į kitą</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Move an LCS Implementation project to another Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LCS įdiegimo projekto perkėlimas į kitą „Azure Active Directory“ nuomininką</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Implement multiple LCS projects and production environments on the same Azure Active Directory tenant</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kelių LCS projektų ir gamybos aplinkų diegimas tame pačiame „Azure Active Directory“ nuomotojuje</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Implement Finance and Operations Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">„Finance and Operations Retail“ projektų įdiegimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>Set up new environments, Azure DevOps, and branches for Retail projects</source><target logoport:matchpercent="94" state="translated" state-qualifier="fuzzy-match">„Retail“ projektų naujų aplinkų, „Azure DevOps“ ir šakų nustatymas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>Update code and environments for Retail projects</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">„Retail“ projektų kodo ir aplinkų naujinimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>Testing and performance issues</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Bandymai ir efektyvumo problemos</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Distributed order management (DOM)</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Paskirstytų užsakymų tvarkymas (DOM)</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>DOM overview</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">DOM apžvalga</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Cost configuration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Išlaidų konfigūravimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>Payments</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mokėjimai</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>Payment methods</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mokėjimo būdai</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Credit card setup, authorization, and capture</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Kredito kortelių nustatymas, autorizacija ir patvirtinimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>Configure cash denominations for the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Grynųjų pinigų nominaliosios vertės elektroniniam kasos aparatui konfigūravimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>Dynamics 365 Payment Connector for Adyen</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Saving online payment instruments with the Adyen connector</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Set up pay invoice scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Sąskaitų faktūrų apmokėjimo scenarijų nustatymas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>Payments FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">DUK apie mokėjimus</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>Duplicate payments prevention</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Besidubliuojančių mokėjimų prevencija</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirkimo užsakymai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Purchase order overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirkimo užsakymų apžvalga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Create purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirkimo užsakymų kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Product receipt against purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produkto gavimas pagal pirkimo užsakymą</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Approve and confirm purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirkimo užsakymų tvirtinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Purchase order approval mobile workspace</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirkimo užsakymų patvirtinimo mobilioji darbo sritis</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Išrašai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos išrašai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Retail transaction consistency checker</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos operacijų vientisumo tikrintuvas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Create, calculate, and post statements for a retail store</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Improvements to statement posting functionality</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Išrašų registravimo funkcijos patobulinimai</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Improved handling of batch tracked items</source><target logoport:matchpercent="98" state="translated" state-qualifier="x-fuzzy-match-unedited">Patobulintas pagal paketą sekamų prekių tvarkymas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Configure Retail parameters that affect retail statements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">„Retail“ parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Configure payment method settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimo būdų parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Configure and run a job to calculate statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Išrašų skaičiavimo užduoties konfigūravimas ir vykdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Configure and run a job to post statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užduoties įrašams registruoti​ konfigūravimas ir vykdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Configure store settings that affect retail statements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parduotuvės parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Sales tax</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVM</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Sales tax overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVM apžvalga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Sales tax calculation methods in the Origin field</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">PVM skaičiavimo metodai lauke Kilmė</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Sales tax assignment and overrides</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> PVM priskyrimas ir perrašymai​</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Whole amount and Interval calculation options for sales tax codes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">PVM kodų skaičiavimo parinktys Visa suma ir Intervalas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Omni-channel payments overview</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">Integruotų kanalų mokėjimų apžvalga</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Omni-channel advanced auto charges</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">Integruoto kanalo išplėstinės automatinės išlaidos</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Configure and use advanced auto charges</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Išplėstinių automatinių išlaidų konfigūravimas ir naudojimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Prorate header charges to matching sales lines</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Call center</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centras</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Call center sales functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centro pardavimo funkcijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Call center catalogs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centro katalogai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Configure delivery modes and charges</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pristatymo būdų ir mokesčių konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Set up and work with fraud alerts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Įspėjimų dėl apgaulės nustatymas ir jų naudojimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Set up call center channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centro kanalų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Set up continuity programs for call centers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centrų tęstinumo programų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Configure and work with call center order holds</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Payment methods</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimo būdai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Channel setup and management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanalo nustatymas ir valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Initialize seed data in new Retail environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pradinių duomenų inicijavimas naujose „Retail“ aplinkose</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Define and maintain retail channels</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos kanalų nustatymas ir tvarkymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Assortment management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asortimento valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Set up online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Internetinių parduotuvių nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Configure and install Retail hardware station</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail hardware station“ konfigūravimas ir diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Time and attendance in Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ laikas ir buvimas darbe</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Modern Point of Sale (MPOS) and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Modern Point of Sale“ (MPOS) ir „Cloud POS“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Choose between MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinkimas tarp MPOS ir „Cloud POS“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Online and offline POS operations</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">EKA operacijos prisijungus ir neprisijungus prie interneto</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Device activation of a customized Retail MPOS</source><target logoport:matchpercent="83" state="translated" state-qualifier="fuzzy-match">Tinkinto „Retail MPOS“ įrenginių aktyvinimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Demo data screen layouts in MPOS and Cloud POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Product and customer search in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Produktų ir klientų ieška elektroniniame kasos aparate</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Cash management improvements</source><target logoport:matchpercent="68" state="translated" state-qualifier="fuzzy-match">Grynųjų pinigų valdymo patobulinimai</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Inventory lookup in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">EKA atsargų peržvalga</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Suspend and resume transactions in the POS</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">EKA operacijų sulaikymas ir atnaujinimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Hardware peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Išoriniai aparatūros įrenginiai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Retail peripherals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ periferiniai įrenginiai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Retail peripheral simulator</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ periferinio įrenginio imitavimo priemonė</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Connect peripherals to the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Išorinių įrenginių prijungimas prie EKA</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ekrano maketai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Demo data screen layouts in MPOS/CPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS / CPOS demonstracinių duomenų ekrano maketai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Screen layouts for the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA ekrano maketai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Install the Retail POS layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail POS“ maketo dizaino įrankio diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Choose notification settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pranešimo parametrų pasirinkimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>POS application and user language settings</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA programos ir vartotojo kalbos parametrai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Set up and manage images for MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS vaizdų nustatymas ir tvarkymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Info codes and info code groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Informacijos kodai ir informacijos kodų grupės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>POS improvements for serialized products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktams su serijos numeriais taikomi EKA patobulinimai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktų rekomendacijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Personalized product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalizuotų produktų rekomendacijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Add a recommendations control on POS devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rekomendacijų valdiklio įtraukimas į EKA įrenginius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Offline POS functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Autonominės EKA funkcijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Shift and cash drawer management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pamainos ir kasos stalčių valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Cash out gift card balance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grynųjų pinigų dovanų kortelės balansas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliento užsakymai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>Customer orders in MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliento MPOS užsakymai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Hybrid customer orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Hibridiniai kliento užsakymai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Sales associates</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pardavimo darbuotojai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Track commissions in the POS using sales groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA komisinių sekimas naudojant pardavimo grupes</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Ship orders from another store</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užsakymų iš kitos parduotuvės siuntimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Įrenginio aktyvinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Configure, install and activate MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS konfigūravimas, diegimas ir aktyvinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Set up extended logon functionality for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MPOS ir „Cloud POS“ išplėstinės registracijos funkcijų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Manage Retail activation accounts and validate devices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ sąskaitų aktyvinimo ir įrenginių tikrinimo valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Receipts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gavimai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Set up and design receipt formats</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Gavimo kvitų formatų nustatymas ir kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Send email receipts from MPOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kvitų iš MPOS siuntimas el. paštu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Task recorder and Help for MPOS and Cloud POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užduočių įrašymo priemonė ir MPOS bei „Cloud POS“ žinynas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užsakymo įvykdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Store order fulfillment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parduotuvės užsakymų įvykdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Set up order fulfillment for stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parduotuvių užsakymų įvykdymo nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Show order notifications in the POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užsakymų pranešimų rodymas elektroniniame kasos aparate</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Returns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grąžinimai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Configure and process an exchange on a return order</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Restrict payment methods for returns without a receipt</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grąžinimo mokėjimo metodų be kvito apribojimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Return items across multiple customer orders and invoices</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kelių klientų užsakymų ir SF grąžinamos prekės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Monitoring and analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Stebėjimas ir analizė</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Monitor sales and margin performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pardavimo ir maržos efektyvumo stebėjimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Analyze sales trends and patterns</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pardavimo tendencijų ir modelių analizavimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Assess sales performance by product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pardavimo našumo vertinimas pagal produktą</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Assess customer and product profitability</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Klientų ir produktų pelningumo vertinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Analyze store performance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parduotuvės našumo analizavimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Set up Recency, Frequency, and Monetary (RFM) analysis</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Retail price reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės kainos ataskaitos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Pricing and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kainodara ir nuolaidos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Retail discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos nuolaidos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Retail sales price management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos pardavimo kainų valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Price adjustments and discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kainų koregavimas ir nuolaidos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Apply multiple discounts to a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kelių nuolaidų taikymas produktui</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Determine the optimal combination of overlapping discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Optimalios persidengiančių nuolaidų kombinacijos nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Define channel-specific discounts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanalui būdingų nuolaidų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Options for preventing discounts for retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Nuolaidų nesuteikimo mažmeninės prekybos produktams parinktys</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Shipping discount overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Siuntimo nuolaidos apžvalga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>Set up coupons for retail sales</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos pardavimo kuponų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Products and merchandising</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktai ir prekyba</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Product information overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktų informacijos apžvalga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Retail hierarchies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos hierarchijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Attributes and attribute groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atributai ir atributų grupės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Create and manage attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atributų kūrimas ir valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Set up retail products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos produktų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Manage Retail product categories and products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ produktų kategorijų ir produktų valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Product dimensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktų dimensijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Set up bar codes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brūkšninių kodų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Set up bar code masks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Brūkšninių kodų skaičių sekų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Set up assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asortimentų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Sell and return products not included in a store's assortment</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Default order settings for dimensions and product variants</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Numatytieji dimensijų ir produkto variantų užsakymų parametrai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Search for products and product variants during order entry</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktų ir produkto variantų įvedant užsakymą ieška</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Loyalty</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lojalumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Loyalty overview</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lojalumo apžvalga</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Inventory</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Inventorizacijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Store inventory management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parduotuvės atsargų valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Register serial numbers in the sales process</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Serijos numerių registravimas pardavimo proceso metu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Inventory journals</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsargų žurnalai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Inventory tag counting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsargų žymių inventorizacija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>FIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FIFO su faktine reikšme ir žymėjimu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>LIFO Date with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LIFO data su faktine reikšme ir žymėjimu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>LIFO with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">LIFO su faktine reikšme ir žymėjimu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Weighted average date</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svertinio vidurkio data</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Weighted average with physical value and marking</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Svertinis vidurkis su faktine reikšme ir žymėjimu</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Quarantine orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sulaikymo užsakymai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Running average cost price</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Einamoji vidutinė savikaina</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Track running average cost per inventory dimension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atsargų dimensijos einamosios vidutinės kainos sekimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Human resources</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Personalas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Organize your workforce using departments, jobs, and positions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Set up the components of a job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užduoties komponentų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Localization and regulatory features</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lokalizavimo ir reguliavimo priemonės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Fiscal integration overview for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos kanalo fiskalinės integracijos peržiūra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Set up fiscal integration for Retail channel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos kanalo fiskalinės integracijos nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Austrija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Fiscal registration service integration sample for Austria</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Rytų Europa</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Advance invoices for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Išankstinės „Retail“ SF (Rytų Europa)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="291">
-          <source>Petty cash management for Retail for Eastern Europe</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ smulkių išlaidų valdymas (Rytų Europa)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="292">
-          <source>Retail customer invoices and return sales orders in Eastern European countries</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail” kliento SF ir grąžinimo pardavimo užsakymai Rytų Europos šalyse</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="293">
-          <source>Deployment guidelines for cash registers for Czech Republic, Hungary, and Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparatų diegimo gairės Čekijos Respublikai, Vengrijai ir Lenkijai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="294">
-          <source>Fiscal printer integration sample for Poland</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="295">
-          <source>Fiscal registration service integration sample for Czech Republic</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="296">
-          <source>France</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prancūzija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="297">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparato funkcijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="298">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparatų diegimo gairės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="299">
-          <source>India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Indija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="300">
-          <source>Goods and Services Tax (GST) integration for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparatų prekių ir paslaugų mokesčio (GST) integravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="301">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparatų diegimo gairės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="302">
-          <source>Support for upgrade and N-1 for India</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plėtojimo ir N-1 palaikymas (Indija)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="303">
-          <source>Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Italija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="304">
-          <source>Fiscal printer integration sample for Italy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Fiskalinio spausdintuvo integracijos pavyzdys (Italija)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="305">
-          <source>Norway</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Norvegija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="306">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparato funkcijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="307">
-          <source>Deployment guidelines for cash registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparatų diegimo gairės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="308">
-          <source>Sweden</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Švedija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="309">
-          <source>Cash register functionality</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kasos aparato funkcijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="310">
-          <source>Sample for Retail POS integration with control units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail POS“ integravimo su kontrolės įtaisais pavyzdys</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="311">
-          <source>Retail tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ užduotys</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="312">
-          <source>Create a product</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Sukurti produktą</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="313">
-          <source>Configure linked products</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Susietų produktų konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="314">
-          <source>Release a product/product master to legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produkto / bendrojo produkto išleidimas juridiniams subjektams</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="315">
-          <source>Create channel-specific trade agreements</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Konkretaus kanalo prekybos sutarčių kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="316">
-          <source>Create trade agreements using category pricing rules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prekybos sutarčių kūrimas naudojant kategorijos kainų taisykles</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="317">
-          <source>Configure credit card processing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kredito kortelės apdorojimo konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="318">
-          <source>Configure functionality profiles for sales representatives</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pardavimo atstovų funkcijų profilių konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="319">
-          <source>Configure machine learning-powered product recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="320">
-          <source>Create devices and associate them with registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Įrenginių kūrimas ir jų susiejimas su registrais</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="321">
-          <source>Create hardware stations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūros stoties kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="322">
-          <source>Create POS registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA registrų kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="323">
-          <source>Create call center orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centro užsakymų kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="324">
-          <source>Create financial dimensions for POS registers and configure dimension values on registers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA registrų finansinių dimensijų kūrimas ir dimensijų reikšmių registruose konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="325">
-          <source>Create financial dimensions for retail channels and configure dimension values on stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių parduotuvėse konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="326">
-          <source>Create online channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Interneto kanalų kūrimas ir kanalo atributų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="327">
-          <source>Create POS permission groups</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA teisių grupių kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="328">
-          <source>Create POS visual profiles</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA vaizdo šablonų kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="329">
-          <source>Create product packages for purchase orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pirkimo užsakymų produktų pakuočių kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="330">
-          <source>Create call center channels and define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Skambučių centro kanalų kūrimas ir kanalo atributų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="331">
-          <source>Define channel attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanalo atributų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="332">
-          <source>Define continuity schedules</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tęstinumo grafikų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="333">
-          <source>Define loyalty programs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Nustatyti lojalumo programas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="334">
-          <source>Define loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Atlygio už lojalumą taškų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="335">
-          <source>Define loyalty schemes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm"> Nustatyti lojalumo planus</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="336">
-          <source>Design the relationships between organizational units</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Ryšių tarp organizacijos vienetų užmezgimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="337">
-          <source>Manage assortments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Asortimentų valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="338">
-          <source>Download hardware stations by using self-service</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aparatūros stočių atsisiuntimas naudojant savitarnos paslaugą</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="339">
-          <source>Post online sales and payments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pardavimo ir mokėjimų internetu registravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="340">
-          <source>Process adjustments of loyalty reward points</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Atlygio už lojalumą taškų koregavimų apdorojimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="341">
-          <source>Push products from distribution centers to stores via buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Produktų skirstymas iš paskirstymo centrų į parduotuves naudojant skirstymą pirkėjams</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="342">
-          <source>Create retail price adjustments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos kainų koregavimų kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="343">
-          <source>Generate and run out-of-box reports</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parengtų naudoti ataskaitų generavimas ir paleidimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="344">
-          <source>Set up rules and parameters for cross-docking and buyer's push</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prekių skirstymo ir skirstymo pirkėjams taisyklių bei parametrų nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="345">
-          <source>Selling continuity programs and processing sales orders</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Tęstinumo programų pardavimas ir pardavimo užsakymų apdorojimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="346">
-          <source>Configure retail workers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos darbininkų konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="347">
-          <source>Retail development and administration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos programavimas ir administravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="348">
-          <source>Architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Architektūra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="349">
-          <source>Retail components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ komponentai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="350">
-          <source>Retail Server architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Server“ architektūra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="351">
-          <source>Select an in-store topology</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Parduotuvės topologijos pasirinkimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="352">
-          <source>Commerce Data Exchange and retail channel communications</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Commerce Data Exchange“ ir mažmeninės prekybos kanalų ryšiai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="353">
-          <source>Retail Modern POS architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Modern POS“ architektūra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="354">
-          <source>Retail online store publishing architecture</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ internetinių parduotuvių publikavimo architektūra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="355">
-          <source>Retail Channel Performance Power BI content</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Channel Performance Power BI“ turinys</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="356">
-          <source>Payment Application Data Security Standards (PA-DSS) certification</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimo programų duomenų saugos standartų (PA-DSS) sertifikatas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="357">
-          <source>Retail capabilities available in on-premises deployments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos galimybės vietinėse visuotinėse įdiegtyse</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="358">
-          <source>Deployment and hotfixes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visuotinis diegimas ir karštosios pataisos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="359">
-          <source>Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Store Scale Unit“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="360">
-          <source>Configure and install Retail Store Scale Unit</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Store Scale Unit“ konfigūravimas ir diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="361">
-          <source>Retail Modern POS configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Modern POS“ konfigūravimas ir diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="362">
-          <source>Manage Retail accounts and devices from headquarters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ sąskaitų ir įrenginių valdymas iš būstinės</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="363">
-          <source>Retail POS device activation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail POS“ įrenginio aktyvinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="364">
-          <source>Help secure Cloud POS in shared environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pagalba apsaugant „Cloud POS“ bendrinamose aplinkose</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="365">
-          <source>Retail Hardware Station configuration and installation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Hardware Station“ konfigūravimas ir diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="366">
-          <source>Mass deployment of Retail self-service components</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Masinis „Retail“ savitarnos komponentų diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="367">
-          <source>Retail component events for diagnostics and troubleshooting</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ komponentų įvykiai triktims diagnozuoti ir šalinti</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="368">
-          <source>Apply a deployable package</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visuotinai diegiamo paketo taikymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="369">
-          <source>Upgrade and N-1 support</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plėtojimas ir N-1 palaikymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="370">
-          <source>Upgrade and N-1 support for Retail</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Plėtojimas ir N-1 palaikymas, skirtas „Retail“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="371">
-          <source>Phased Rollout (N-1) installation, configuration, and cutover</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Laipsniškas išleidimo (N-1) diegimas, konfigūravimas ir pritaikymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="372">
-          <source>Upgrade the Retail channel extension to the latest Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ kanalo plėtinio plėtotė į naujausią „Retail SDK“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="373">
-          <source>Implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Diegimo nurodymai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="374">
-          <source>Device management implementation guidance</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Įrenginių valdymo diegimo instrukcijos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="375">
-          <source>Environment configuration</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Aplinkos konfigūracija</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="376">
-          <source>Add links to your organization's legal terms and privacy statement</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="377">
-          <source>Manage Bing Maps</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Bing“ žemėlapių valdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="378">
-          <source>Localize Retail extension resources and label files</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ plėtinių išteklių ir žymų failų lokalizavimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="379">
-          <source>Point of sale extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Elektroninio kasos aparato išplečiamumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="380">
-          <source>Retail POS screen layouts</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail POS“ ekrano maketai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="381">
-          <source>Open URL in POS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">URL atidarymas elektroniniame kasos aparate</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="382">
-          <source>Install the POS Layout designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA maketų dizaino įrankio diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="383">
-          <source>Retail Modern POS in offline mode</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Modern POS“ autonominis režimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="384">
-          <source>Extend the POS Dual display view</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„POS Dual“ ekrano rodinio išplėtimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="385">
-          <source>Retail Modern POS and Cloud POS trigger extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Modern POS“ ir „Cloud POS‟ paleidiklių išplečiamumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="386">
-          <source>Add custom controls to POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinių valdiklių įtraukimas į EKA rodinius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="387">
-          <source>Add POS operations to POS layouts using Button grid designer</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="388">
-          <source>Retail POS APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail POS“ API sąsajos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="389">
-          <source>POS payment extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA mokėjimo plėtinys</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="390">
-          <source>Support for external gift cards</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Išorinių dovanų kortelių palaikymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="391">
-          <source>Create and apply branding to the Retail Experience app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Prekės ženklų kūrimas ir taikymas programoje „Retail Experience“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="392">
-          <source>Set up POS Hybrid app on Android and iOS</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="393">
-          <source>Override POS request handler</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA užklausų apdorojimo programos perrašymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="394">
-          <source>View POS extension package information</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA plėtinių paketų informacijos peržiūra</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="395">
-          <source>Hardware Station and extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Hardware Station“ ir išplečiamumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="396">
-          <source>Retail Server extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Server“ išplečiamumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="397">
-          <source>Extend a Retail Server OData controller</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Server“ „OData“ valdiklio išplėtimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="398">
-          <source>Create a Web API controller for Retail Server</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Server“ žiniatinklio API valdiklio kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="399">
-          <source>Retail Server customer and consumer APIs</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Server“ klientų ir vartotojų API sąsajos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="400">
-          <source>Extend the default Retail Server metadata controller</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Numatytojo „Retail Server“ metaduomenų valdiklio išplėtimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="401">
-          <source>Call the CRT service in offline mode</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">CRT tarnybos iškvietimas neprisijungus</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="402">
-          <source>Commerce runtime (CRT) extensibility</source><target logoport:matchpercent="96" state="translated" state-qualifier="fuzzy-match">„Commerce Runtime“ (CRT) išplečiamumas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="403">
-          <source>CRT architecture and configuration</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT architektūra ir konfigūravimas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="404">
-          <source>CRT services</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT tarnybos</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="405">
-          <source>CRT and Retail Server extensibility</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT ir „Retail Server“ išplečiamumas</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="406">
-          <source>Add customer preference data to channel databases</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Kliento nuostatų duomenų įtraukimas į kanalų duomenų bazes</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="407">
-          <source>Add properties to sales orders</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Ypatybių įtraukimas į pardavimo užsakymus</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="408">
-          <source>CRT extensibility and triggers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">CRT išplečiamumas ir paleidikliai</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="409">
-          <source>Block transactions using triggers</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Operacijų blokavimas naudojant paleidiklius</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="410">
-          <source>Implement a return policy using triggers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Grąžinimo strategijos įgyvendinimas naudojant paleidiklius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="411">
-          <source>e-Commerce extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„e-Commerce“ išplečiamumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="412">
-          <source>Configure online stores</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Internetinių parduotuvių konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="413">
-          <source>Configure authentication providers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Autentifikavimo paslaugų teikėjų konfigūravimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="414">
-          <source>e-Commerce platform</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„e-Commerce“ platforma</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="415">
-          <source>e-Commerce platform SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„e-Commerce“ platformos SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="416">
-          <source>Payment connector extensibility</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimo jungties išplečiamumas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="417">
-          <source>Create a payment integration for a payment terminal</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimų integravimo į mokėjimo terminalą kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="418">
-          <source>Implementing a payment connector and payment device (white paper)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="419">
-          <source>Deploy payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Visuotinis mokėjimo jungčių diegimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="420">
-          <source>Create custom localized error messages for payment terminal extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="421">
-          <source>Create Windows installers for payment connectors</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Windows“ diegimo programų kūrimas mokėjimo jungtims</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="422">
-          <source>Payment data use</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mokėjimo duomenų naudojimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="423">
-          <source>Enable duplicate payment protection for payment connector</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="424">
-          <source>Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Retail SDK</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="425">
-          <source>Upcoming changes in the Retail SDK</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Būsimi „Retail SDK“ pakeitimai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="426">
-          <source>Merge the build systems for Retail and Finance and Operations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ ir „Finance and Operations“ kūrimo sistemų suliejimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="427">
-          <source>Retail SDK extensibility samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail SDK“ išplečiamumo pavyzdžiai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="428">
-          <source>Create retail deployable packages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Mažmeninės prekybos diegiamų paketų kūrimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="429">
-          <source>Retail SDK samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail SDK“ pavyzdžiai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="430">
-          <source>Extension points for packing slips</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Važtaraščių plėtinių taškai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="431">
-          <source>Channel database extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kanalo duomenų bazės plėtiniai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="432">
-          <source>Enable custom CDX synchronization via extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinio CDX sinchronizavimo naudojant plėtinį įjungimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="433">
-          <source>Add custom fields to the POS Totals panel</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="434">
-          <source>Define and set order attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Užsakymo atributų nurodymas ir nustatymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="435">
-          <source>Customer attributes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Kliento atributai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="436">
-          <source>Retail Typescript and C# proxies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail“ „Typescript“ ir C# tarpiniai serveriai</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="437">
-          <source>Run the Retail POS samples</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail POS“ pavyzdžių vykdymas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="438">
-          <source>Extend POS views to add custom columns and app bar buttons</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="439">
-          <source>Add custom controls to Retail Modern POS transaction pages</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinių valdiklių įtraukimas į „Retail Modern POS“ operacijų puslapius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="440">
-          <source>Add custom columns to a POS transaction grid</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="441">
-          <source>Call POS APIs or operations from POS extensions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="442">
-          <source>Retail Modern POS triggers and printing</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Retail Modern POS“ įjungimas ir spausdinimas</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="443">
-          <source>Add custom controls to non-screen designer-based POS views</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="444">
-          <source>Development in cloud-hosted dev environments without admin access</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Programavimas naudojant kūrėjų aplinkos diegimo debesyje įrankį be administravimo prieigos</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="445">
-          <source>Commerce runtime</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">„Commerce Runtime“</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="446">
-          <source>Loyalty extension</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Lojalumo pratęsimas</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+- name: 'Sveiki, čia – „Dynamics 365 for Retail”'
+  href: index.md
+- name: Pradžia
+  items:
+    - name: Kas nauja ar pasikeitė
+      href: get-started/whats-new.md
+    - name: „Dynamics 365 for Retail 10.0.3“ peržiūros funkcijos
+      href: get-started/whats-new-10-0-3.md
+    - name: Kas nauja ar pasikeitė sprendime „Dynamics 365 for Retail 10.0.2“
+      href: get-started/whats-new-10-0-2.md
+    - name: Kas nauja ar pasikeitė sprendime „Dynamics 365 for Retail 10.0.1“
+      href: get-started/whats-new-10-0-1.md
+    - name: "Kas nauja ar pasikeitė sprendime „Dynamics 365 for Retail” (2019\_m. balandžio mėn.)"
+      href: get-started/april-whats-new.md
+    - name: Prieš perkant „Retail“
+      href: get-started/before-you-buy.md
+    - name: Registravimasis peržiūros versijos prenumeratai gauti
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: Demonstracinės aplinkos diegimas
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: Diegimo parinktys
+      href: dev-itpro/choose-deployment.md
+    - name: Palaikymo dėl mažmeninės prekybos gavimas
+      href: retail-support.md
+    - name: DUK apie vienos versijos paslaugų naujinimus
+      href: ../fin-and-ops/get-started/one-version.md
+- name: Diegimo ciklo supratimas
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: „Microsoft FastTrack for Dynamics 365“
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: Supažindinimas
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: Rengimasis įgyvendinimo pradžiai
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: DUK apie įgyvendinimo pradžią
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: Paslaugos užklausos teikimas
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 'Su prenumeratomis, LCS projektais ir „Azure Active Directory“ nuomotojais susiję DUK'
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: Perkelti aplinkas iš vieno duomenų centro į kitą
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: Perkelti licencijas iš vieno sutarties tipo į kitą
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: LCS įdiegimo projekto perkėlimas į kitą „Azure Active Directory“ nuomininką
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: Kelių LCS projektų ir gamybos aplinkų diegimas tame pačiame „Azure Active Directory“ nuomotojuje
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: „Finance and Operations Retail“ projektų įdiegimas
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: '„Retail“ projektų naujų aplinkų, „Azure DevOps“ ir šakų nustatymas'
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: „Retail“ projektų kodo ir aplinkų naujinimas
+      href: dev-itpro/updating-environments.md
+    - name: Bandymai ir efektyvumo problemos
+      href: dev-itpro/retail-implementation-testing-performance.md
+- name: Paskirstytų užsakymų tvarkymas (DOM)
+  items:
+    - name: DOM apžvalga
+      href: dom.md
+    - name: Išlaidų konfigūravimas
+      href: cost.md
+- name: Mokėjimai
+  items:
+    - name: Mokėjimo būdai
+      href: payment-methods.md
+    - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: Grynųjų pinigų nominaliosios vertės elektroniniam kasos aparatui konfigūravimas
+      href: cash-denominations.md
+    - name: '„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“'
+      href: dev-itpro/adyen-connector.md
+    - name: Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį
+      href: dev-itpro/adyen-connector-listPI.md
+    - name: Sąskaitų faktūrų apmokėjimo scenarijų nustatymas
+      href: payinvoice.md
+    - name: DUK apie mokėjimus
+      href: dev-itpro/payments-retail.md
+    - name: Besidubliuojančių mokėjimų prevencija
+      href: duplicate-payment-protection.md
+- name: Pirkimo užsakymai
+  items:
+    - name: Pirkimo užsakymų apžvalga
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: Pirkimo užsakymų kūrimas
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: Produkto gavimas pagal pirkimo užsakymą
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: Pirkimo užsakymų tvirtinimas
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: Pirkimo užsakymų patvirtinimo mobilioji darbo sritis
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: Išrašai
+  items:
+    - name: Mažmeninės prekybos išrašai
+      href: retail-statements.md
+    - name: Mažmeninės prekybos operacijų vientisumo tikrintuvas
+      href: valid-checker.md
+    - name: 'Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas'
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: Išrašų registravimo funkcijos patobulinimai
+      href: statement-posting-EOD.md
+    - name: Patobulintas pagal paketą sekamų prekių tvarkymas
+      href: batch.md
+    - name: '„Retail“ parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: 'Mokėjimo būdų parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
+      href: tasks/payment-configurations-retail-statements.md
+    - name: Išrašų skaičiavimo užduoties konfigūravimas ir vykdymas
+      href: tasks/run-job-calculate-statements.md
+    - name: Užduoties įrašams registruoti​ konfigūravimas ir vykdymas
+      href: tasks/run-job-post-statements.md
+    - name: 'Parduotuvės parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
+      href: tasks/store-configurations-retail-statements.md
+- name: PVM
+  items:
+    - name: PVM apžvalga
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: PVM skaičiavimo metodai lauke Kilmė
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: ' PVM priskyrimas ir perrašymai​'
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: PVM kodų skaičiavimo parinktys Visa suma ir Intervalas
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: Integruotų kanalų mokėjimų apžvalga
+  href: omni-channel-payments.md
+- name: Integruoto kanalo išplėstinės automatinės išlaidos
+  items:
+    - name: Išplėstinių automatinių išlaidų konfigūravimas ir naudojimas
+      href: omni-auto-charges.md
+    - name: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
+      href: pro-rate-charges-matching-lines.md
+- name: Skambučių centras
+  items:
+    - name: Skambučių centro pardavimo funkcijos
+      href: call-center-functionality.md
+    - name: Skambučių centro katalogai
+      href: call-center-catalogs.md
+    - name: Pristatymo būdų ir mokesčių konfigūravimas
+      href: configure-call-center-delivery.md
+    - name: Įspėjimų dėl apgaulės nustatymas ir jų naudojimas
+      href: set-up-fraud-alerts.md
+    - name: Skambučių centro kanalų nustatymas
+      href: set-up-order-processing-options.md
+    - name: Skambučių centrų tęstinumo programų nustatymas
+      href: set-up-continuity-program.md
+    - name: Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
+      href: work-with-order-holds.md
+    - name: Mokėjimo būdai
+      href: work-with-payments.md
+- name: Kanalo nustatymas ir valdymas
+  items:
+    - name: Pradinių duomenų inicijavimas naujose „Retail“ aplinkose
+      href: enable-configure-retail-functionality.md
+    - name: Mažmeninės prekybos kanalų nustatymas ir tvarkymas
+      href: define-maintain-retail-channels.md
+    - name: Asortimento valdymas
+      href: assortments.md
+    - name: Internetinių parduotuvių nustatymas
+      href: online-stores.md
+    - name: „Retail hardware station“ konfigūravimas ir diegimas
+      href: retail-hardware-station-configuration-installation.md
+    - name: „Retail“ laikas ir buvimas darbe
+      href: retail-time-attendance.md
+- name: „Modern Point of Sale“ (MPOS) ir „Cloud POS“
+  items:
+    - name: Pasirinkimas tarp MPOS ir „Cloud POS“
+      href: MPOS-or-CPOS.md
+    - name: EKA operacijos prisijungus ir neprisijungus prie interneto
+      href: pos-operations.md
+    - name: Tinkinto „Retail MPOS“ įrenginių aktyvinimas
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
+      href: demo-data.md
+    - name: Produktų ir klientų ieška elektroniniame kasos aparate
+      href: POS-search-improvements.md
+    - name: Grynųjų pinigų valdymo patobulinimai
+      href: cash-mgmt.md
+    - name: EKA atsargų peržvalga
+      href: product-variants-POS.md
+    - name: EKA operacijų sulaikymas ir atnaujinimas
+      href: pos-suspend-recall-transactions.md
+    - name: Išoriniai aparatūros įrenginiai
+      items:
+        - name: „Retail“ periferiniai įrenginiai
+          href: retail-peripherals-overview.md
+        - name: „Retail“ periferinio įrenginio imitavimo priemonė
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: Išorinių įrenginių prijungimas prie EKA
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: Ekrano maketai
+      items:
+        - name: "MPOS\_/ CPOS demonstracinių duomenų ekrano maketai"
+          href: demo-data.md
+        - name: EKA ekrano maketai
+          href: pos-screen-layouts.md
+        - name: „Retail POS“ maketo dizaino įrankio diegimas
+          href: install-pos-layout-designer.md
+        - name: Pranešimo parametrų pasirinkimas
+          href: Notifications-POS.md
+        - name: EKA programos ir vartotojo kalbos parametrai
+          href: pos-application-user-language-settings.md
+        - name: MPOS vaizdų nustatymas ir tvarkymas
+          href: set-up-manage-images-retail-mpos.md
+    - name: Informacijos kodai ir informacijos kodų grupės
+      href: info-codes-retail.md
+    - name: Produktams su serijos numeriais taikomi EKA patobulinimai
+      href: serialized-inventory.md
+    - name: Produktų rekomendacijos
+      items:
+        - name: Personalizuotų produktų rekomendacijos
+          href: personalized-product-recommendations.md
+        - name: Rekomendacijų valdiklio įtraukimas į EKA įrenginius
+          href: add-recommendations-control-pos-screen.md
+    - name: Autonominės EKA funkcijos
+      href: pos-offline-functionality.md
+    - name: Pamainos ir kasos stalčių valdymas
+      href: shift-drawer-management.md
+    - name: Grynųjų pinigų dovanų kortelės balansas
+      href: dev-itpro/gift-card-cash-out.md
+    - name: Kliento užsakymai
+      items:
+        - name: Kliento MPOS užsakymai
+          href: customer-orders-overview.md
+        - name: Hibridiniai kliento užsakymai
+          href: hybrid-customer-orders.md
+    - name: Pardavimo darbuotojai
+      items:
+        - name: EKA komisinių sekimas naudojant pardavimo grupes
+          href: pos-sales-groups-track-commissions.md
+    - name: Užsakymų iš kitos parduotuvės siuntimas
+      href: charge-send.md
+    - name: Įrenginio aktyvinimas
+      items:
+        - name: 'MPOS konfigūravimas, diegimas ir aktyvinimas'
+          href: retail-modern-pos-device-activation.md
+        - name: MPOS ir „Cloud POS“ išplėstinės registracijos funkcijų nustatymas
+          href: extended-logon.md
+        - name: „Retail“ sąskaitų aktyvinimo ir įrenginių tikrinimo valdymas
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: Gavimai
+      items:
+        - name: Gavimo kvitų formatų nustatymas ir kūrimas
+          href: receipt-templates-printing.md
+        - name: Kvitų iš MPOS siuntimas el. paštu
+          href: email-receipts.md
+    - name: Užduočių įrašymo priemonė ir MPOS bei „Cloud POS“ žinynas
+      href: task-recorder-retail-pos.md
+- name: Užsakymo įvykdymas
+  items:
+    - name: Parduotuvės užsakymų įvykdymas
+      href: Order-fulfillment-overview.md
+    - name: Parduotuvių užsakymų įvykdymo nustatymas
+      href: Order-fulfillment-POS-setup.md
+    - name: Užsakymų pranešimų rodymas elektroniniame kasos aparate
+      href: Notifications-POS.md
+- name: Grąžinimai
+  items:
+    - name: Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas
+      href: sell-return-outside-assortments.md
+    - name: Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme
+      href: orderexchanges.md
+    - name: Grąžinimo mokėjimo metodų be kvito apribojimas
+      href: payment-methods-restrictions.md
+    - name: Kelių klientų užsakymų ir SF grąžinamos prekės
+      href: multireturn.md
+- name: Stebėjimas ir analizė
+  items:
+    - name: Pardavimo ir maržos efektyvumo stebėjimas
+      href: monitor-sales-margin-performance.md
+    - name: Pardavimo tendencijų ir modelių analizavimas
+      href: analyze-sales-trends-patterns.md
+    - name: Pardavimo našumo vertinimas pagal produktą
+      href: sales-performance-products.md
+    - name: Klientų ir produktų pelningumo vertinimas
+      href: assess-customer-product-profitability.md
+    - name: Parduotuvės našumo analizavimas
+      href: store-performance-information.md
+    - name: '„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas'
+      href: set-up-rfm-analysis.md
+- name: Mažmeninės kainos ataskaitos
+  href: price-report.md
+- name: Kainodara ir nuolaidos
+  items:
+    - name: Mažmeninės prekybos nuolaidos
+      href: retail-discounts-overview.md
+    - name: Mažmeninės prekybos pardavimo kainų valdymas
+      href: price-management.md
+    - name: Kainų koregavimas ir nuolaidos
+      href: price-adjustments-discounts.md
+    - name: Kelių nuolaidų taikymas produktui
+      href: Apply-multiple-retail-discounts.md
+    - name: Optimalios persidengiančių nuolaidų kombinacijos nustatymas
+      href: optimal-combination-overlapping-discounts.md
+    - name: Kanalui būdingų nuolaidų nustatymas
+      href: define-channel-specific-discounts.md
+    - name: Nuolaidų nesuteikimo mažmeninės prekybos produktams parinktys
+      href: prevent-discounts.md
+    - name: Siuntimo nuolaidos apžvalga
+      href: retail-shipping-discount.md
+    - name: Mažmeninės prekybos pardavimo kuponų nustatymas
+      href: retail-coupons.md
+- name: Produktai ir prekyba
+  items:
+    - name: Produktų informacijos apžvalga
+      href: ../supply-chain/pim/product-information.md
+    - name: Mažmeninės prekybos hierarchijos
+      href: retail-hierarchies.md
+    - name: Atributai ir atributų grupės
+      href: attribute-attributegroups-lifecycle.md
+    - name: Atributų kūrimas ir valdymas
+      href: create-manage-attributes.md
+    - name: Mažmeninės prekybos produktų nustatymas
+      href: set-up-retail-products.md
+    - name: „Retail“ produktų kategorijų ir produktų valdymas
+      href: category-management-product-creation.md
+    - name: Produktų dimensijos
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: Brūkšninių kodų nustatymas
+      href: set-up-bar-codes.md
+    - name: Brūkšninių kodų skaičių sekų nustatymas
+      href: set-up-bar-code-masks.md
+    - name: Asortimentų nustatymas
+      href: set-up-assortments.md
+    - name: Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas
+      href: sell-return-outside-assortments.md
+    - name: Numatytieji dimensijų ir produkto variantų užsakymų parametrai
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: Produktų ir produkto variantų įvedant užsakymą ieška
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: Lojalumas
+  items:
+    - name: Lojalumo apžvalga
+      href: set-up-customer-loyalty-program.md
+- name: Inventorizacijos
+  items:
+    - name: Parduotuvės atsargų valdymas
+      href: work-with-store-inventory.md
+    - name: Serijos numerių registravimas pardavimo proceso metu
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: Atsargų žurnalai
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: Atsargų žymių inventorizacija
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: FIFO su faktine reikšme ir žymėjimu
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: LIFO data su faktine reikšme ir žymėjimu
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: LIFO su faktine reikšme ir žymėjimu
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: Svertinio vidurkio data
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: Svertinis vidurkis su faktine reikšme ir žymėjimu
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: Sulaikymo užsakymai
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: Einamoji vidutinė savikaina
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: Personalas
+  items:
+    - name: 'Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas'
+      href: ../talent/departments-jobs-positions.md
+    - name: Užduoties komponentų nustatymas
+      href: ../talent/create-job.md
+- name: Lokalizavimo ir reguliavimo priemonės
+  items:
+    - name: Mažmeninės prekybos kanalo fiskalinės integracijos peržiūra
+      href: localizations/fiscal-integration-for-retail-channel.md
+    - name: Mažmeninės prekybos kanalo fiskalinės integracijos nustatymas
+      href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+    - name: Austrija
+      items:
+        - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
+          href: localizations/emea-aut-fi-sample.md
+    - name: Rytų Europa
+      items:
+        - name: Išankstinės „Retail“ SF (Rytų Europa)
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: „Retail“ smulkių išlaidų valdymas (Rytų Europa)
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: „Retail” kliento SF ir grąžinimo pardavimo užsakymai Rytų Europos šalyse
+          href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Kasos aparatų diegimo gairės Čekijos Respublikai, Vengrijai ir Lenkijai'
+          href: localizations/emea-eeu-deployment.md
+        - name: Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)
+          href: localizations/emea-pol-fpi-sample.md
+        - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai'
+          href: localizations/emea-cze-fi-sample.md
+    - name: Prancūzija
+      items:
+        - name: Kasos aparato funkcijos
+          href: localizations/emea-fra-cash-registers.md
+        - name: Kasos aparatų diegimo gairės
+          href: localizations/emea-fra-deployment.md
+    - name: Indija
+      items:
+        - name: Kasos aparatų prekių ir paslaugų mokesčio (GST) integravimas
+          href: localizations/apac-ind-cash-registers.md
+        - name: Kasos aparatų diegimo gairės
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: Plėtojimo ir N-1 palaikymas (Indija)
+          href: localizations/apac-ind-n-1-for-india.md
+    - name: Italija
+      items:
+        - name: Fiskalinio spausdintuvo integracijos pavyzdys (Italija)
+          href: localizations/emea-ita-fpi-sample.md
+    - name: Norvegija
+      items:
+        - name: Kasos aparato funkcijos
+          href: localizations/emea-nor-cash-registers.md
+        - name: Kasos aparatų diegimo gairės
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: Švedija
+      items:
+        - name: Kasos aparato funkcijos
+          href: localizations/emea-swe-cash-registers.md
+        - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys
+          href: localizations/retail-sdk-control-unit-sample.md
+- name: „Retail“ užduotys
+  items:
+    - name: Sukurti produktą
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: Susietų produktų konfigūravimas
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: "Produkto\_/ bendrojo produkto išleidimas juridiniams subjektams"
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: Konkretaus kanalo prekybos sutarčių kūrimas
+      href: tasks/base-price-trade-agreements.md
+    - name: Prekybos sutarčių kūrimas naudojant kategorijos kainų taisykles
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: Kredito kortelės apdorojimo konfigūravimas
+      href: tasks/configure-credit-card-processing.md
+    - name: Pardavimo atstovų funkcijų profilių konfigūravimas
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: Mašininiu mokymu pagrįstų produktų rekomendacijų konfigūravimas
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: Įrenginių kūrimas ir jų susiejimas su registrais
+      href: tasks/create-associate-device.md
+    - name: Aparatūros stoties kūrimas
+      href: tasks/create-associate-hardware-station.md
+    - name: EKA registrų kūrimas
+      href: tasks/create-associate-registers.md
+    - name: Skambučių centro užsakymų kūrimas
+      href: tasks/create-call-center-orders.md
+    - name: EKA registrų finansinių dimensijų kūrimas ir dimensijų reikšmių registruose konfigūravimas
+      href: tasks/create-financial-dimensions-pos.md
+    - name: Mažmeninės prekybos kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių parduotuvėse konfigūravimas
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: Interneto kanalų kūrimas ir kanalo atributų nustatymas
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: EKA teisių grupių kūrimas
+      href: tasks/create-pos-permission-groups.md
+    - name: EKA vaizdo šablonų kūrimas
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: Pirkimo užsakymų produktų pakuočių kūrimas
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: Skambučių centro kanalų kūrimas ir kanalo atributų nustatymas
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: Kanalo atributų nustatymas
+      href: tasks/define-channel-attributes.md
+    - name: Tęstinumo grafikų nustatymas
+      href: tasks/define-continuity-schedules.md
+    - name: ' Nustatyti lojalumo programas'
+      href: tasks/define-loyalty-programs.md
+    - name: ' Atlygio už lojalumą taškų nustatymas'
+      href: tasks/define-loyalty-reward-points.md
+    - name: ' Nustatyti lojalumo planus'
+      href: tasks/define-loyalty-schemes.md
+    - name: Ryšių tarp organizacijos vienetų užmezgimas
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: Asortimentų valdymas
+      href: tasks/manage-assortments-2016-11.md
+    - name: Aparatūros stočių atsisiuntimas naudojant savitarnos paslaugą
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: Pardavimo ir mokėjimų internetu registravimas
+      href: tasks/posting-online-sales-payments.md
+    - name: Atlygio už lojalumą taškų koregavimų apdorojimas
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: Produktų skirstymas iš paskirstymo centrų į parduotuves naudojant skirstymą pirkėjams
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: Mažmeninės prekybos kainų koregavimų kūrimas
+      href: tasks/retail-price-adjustments.md
+    - name: Parengtų naudoti ataskaitų generavimas ir paleidimas
+      href: tasks/run-out-box-reports.md
+    - name: Prekių skirstymo ir skirstymo pirkėjams taisyklių bei parametrų nustatymas
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: Tęstinumo programų pardavimas ir pardavimo užsakymų apdorojimas
+      href: tasks/use-continuity-program.md
+    - name: Mažmeninės prekybos darbininkų konfigūravimas
+      href: tasks/worker.md
+- name: Mažmeninės prekybos programavimas ir administravimas
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: Architektūra
+      items:
+        - name: „Retail“ komponentai
+          href: retail-components.md
+        - name: „Retail Server“ architektūra
+          href: dev-itpro/retail-server-architecture.md
+        - name: Parduotuvės topologijos pasirinkimas
+          href: dev-itpro/retail-in-store-topology.md
+        - name: „Commerce Data Exchange“ ir mažmeninės prekybos kanalų ryšiai
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: „Retail Modern POS“ architektūra
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: „Retail“ internetinių parduotuvių publikavimo architektūra
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: „Retail Channel Performance Power BI“ turinys
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: Mokėjimo programų duomenų saugos standartų (PA-DSS) sertifikatas
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: Mažmeninės prekybos galimybės vietinėse visuotinėse įdiegtyse
+          href: retail-onprem.md
+    - name: Visuotinis diegimas ir karštosios pataisos
+      items:
+        - name: „Retail Store Scale Unit“
+          href: dev-itpro/retail-store-system-begin.md
+        - name: „Retail Store Scale Unit“ konfigūravimas ir diegimas
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: „Retail Modern POS“ konfigūravimas ir diegimas
+          href: retail-modern-pos-device-activation.md
+        - name: „Retail“ sąskaitų ir įrenginių valdymas iš būstinės
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: „Retail POS“ įrenginio aktyvinimas
+          href: dev-itpro/retail-device-activation.md
+        - name: Pagalba apsaugant „Cloud POS“ bendrinamose aplinkose
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: „Retail Hardware Station“ konfigūravimas ir diegimas
+          href: retail-hardware-station-configuration-installation.md
+        - name: Masinis „Retail“ savitarnos komponentų diegimas
+          href: dev-itpro/retail-mass-deployment.md
+        - name: „Retail“ komponentų įvykiai triktims diagnozuoti ir šalinti
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: Visuotinai diegiamo paketo taikymas
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: Plėtojimas ir N-1 palaikymas
+      items:
+        - name: 'Plėtojimas ir N-1 palaikymas, skirtas „Retail“'
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: 'Laipsniškas išleidimo (N-1) diegimas, konfigūravimas ir pritaikymas'
+          href: dev-itpro/n-1-installation-configuration.md
+        - name: „Retail“ kanalo plėtinio plėtotė į naujausią „Retail SDK“
+          href: dev-itpro/retailSDK-update.md
+    - name: Diegimo nurodymai
+      items:
+        - name: Įrenginių valdymo diegimo instrukcijos
+          href: implementation-considerations-devices.md
+    - name: Aplinkos konfigūracija
+      items:
+        - name: Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: „Bing“ žemėlapių valdymas
+          href: dev-itpro/manage-bing-maps.md
+    - name: „Retail“ plėtinių išteklių ir žymų failų lokalizavimas
+      href: dev-itpro/extension-resource-localization.md
+    - name: Elektroninio kasos aparato išplečiamumas
+      items:
+        - name: „Retail POS“ ekrano maketai
+          href: pos-screen-layouts.md
+        - name: URL atidarymas elektroniniame kasos aparate
+          href: Open-URL-in-POS.md
+        - name: EKA maketų dizaino įrankio diegimas
+          href: install-pos-layout-designer.md
+        - name: „Retail Modern POS“ autonominis režimas
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: „POS Dual“ ekrano rodinio išplėtimas
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: „Retail Modern POS“ ir „Cloud POS‟ paleidiklių išplečiamumas
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
+          href: dev-itpro/pos-custom-control.md
+        - name: EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį
+          href: dev-itpro/add-POS-operations.md
+        - name: „Retail POS“ API sąsajos
+          href: dev-itpro/POS-APIs.md
+        - name: EKA mokėjimo plėtinys
+          href: dev-itpro/pos-payment-extension.md
+        - name: Išorinių dovanų kortelių palaikymas
+          href: dev-itpro/gift-card.md
+        - name: Prekės ženklų kūrimas ir taikymas programoje „Retail Experience“
+          href: dev-itpro/create-retail-experience-app.md
+        - name: Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“
+          href: dev-itpro/hybridApp.md
+        - name: EKA užklausų apdorojimo programos perrašymas
+          href: dev-itpro/pos-handler.md
+        - name: EKA plėtinių paketų informacijos peržiūra
+          href: dev-itpro/view-pos-extension-package-details.md
+    - name: „Hardware Station“ ir išplečiamumas
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: „Retail Server“ išplečiamumas
+      items:
+        - name: „Retail Server“ „OData“ valdiklio išplėtimas
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: „Retail Server“ žiniatinklio API valdiklio kūrimas
+          href: dev-itpro/odata-controllers-api.md
+        - name: „Retail Server“ klientų ir vartotojų API sąsajos
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: Numatytojo „Retail Server“ metaduomenų valdiklio išplėtimas
+          href: dev-itpro/extend-metadata.md
+        - name: CRT tarnybos iškvietimas neprisijungus
+          href: dev-itpro/call-crt-service-offline.md
+    - name: „Commerce Runtime“ (CRT) išplečiamumas
+      items:
+        - name: CRT architektūra ir konfigūravimas
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: CRT tarnybos
+          href: dev-itpro/crt-services.md
+        - name: CRT ir „Retail Server“ išplečiamumas
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: Kliento nuostatų duomenų įtraukimas į kanalų duomenų bazes
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: Ypatybių įtraukimas į pardavimo užsakymus
+          href: dev-itpro/add-properties-sales-order.md
+        - name: CRT išplečiamumas ir paleidikliai
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: Operacijų blokavimas naudojant paleidiklius
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: Grąžinimo strategijos įgyvendinimas naudojant paleidiklius
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: „e-Commerce“ išplečiamumas
+      items:
+        - name: Internetinių parduotuvių konfigūravimas
+          href: dev-itpro/configure-online-store.md
+        - name: Autentifikavimo paslaugų teikėjų konfigūravimas
+          href: dev-itpro/configure-authentication-providers.md
+        - name: „e-Commerce“ platforma
+          href: dev-itpro/ecommerce-platform.md
+        - name: „e-Commerce“ platformos SDK
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: Mokėjimo jungties išplečiamumas
+      items:
+        - name: Mokėjimų integravimo į mokėjimo terminalą kūrimas
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: Mokėjimo jungties ir mokėjimo įrenginio įdiegimas (techninė dokumentacija)
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: Visuotinis mokėjimo jungčių diegimas
+          href: dev-itpro/deploy-payment-connector.md
+        - name: Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: „Windows“ diegimo programų kūrimas mokėjimo jungtims
+          href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Mokėjimo duomenų naudojimas
+          href: payment-connector-data-fields.md
+        - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
+          href: dev-itpro/duplicate-payment-protection.md
+    - name: Retail SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Būsimi „Retail SDK“ pakeitimai
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: „Retail“ ir „Finance and Operations“ kūrimo sistemų suliejimas
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: „Retail SDK“ išplečiamumo pavyzdžiai
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: Mažmeninės prekybos diegiamų paketų kūrimas
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: „Retail SDK“ pavyzdžiai
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: Važtaraščių plėtinių taškai
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Kanalo duomenų bazės plėtiniai
+          href: dev-itpro/channel-db-extensions.md
+        - name: Pasirinktinio CDX sinchronizavimo naudojant plėtinį įjungimas
+          href: dev-itpro/cdx-extensibility.md
+        - name: Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: Užsakymo atributų nurodymas ir nustatymas
+          href: dev-itpro/order-attributes.md
+        - name: Kliento atributai
+          href: dev-itpro/customer-attributes.md
+        - name: '„Retail“ „Typescript“ ir C# tarpiniai serveriai'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: „Retail POS“ pavyzdžių vykdymas
+          href: dev-itpro/pos-run-samples.md
+        - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
+          href: dev-itpro/pos-view-extension.md
+        - name: Pasirinktinių valdiklių įtraukimas į „Retail Modern POS“ operacijų puslapius
+          href: dev-itpro/pos-custom-transaction.md
+        - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių
+          href: dev-itpro/pos-api-extension.md
+        - name: „Retail Modern POS“ įjungimas ir spausdinimas
+          href: dev-itpro/pos-trigger-printing.md
+        - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius
+          href: dev-itpro/pos-control-non-screen.md
+        - name: Programavimas naudojant kūrėjų aplinkos diegimo debesyje įrankį be administravimo prieigos
+          href: dev-itpro/cloud-dev-box.md
+    - name: „Commerce Runtime“
+      items:
+        - name: Lojalumo pratęsimas
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
