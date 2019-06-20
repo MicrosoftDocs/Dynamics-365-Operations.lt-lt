@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502735"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595344"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -120,7 +120,7 @@ Toliau pateikiamoje lentelėje aprašomi stulpelio apribojimo kodai.
 | ADJ                     | Apriboti stulpelio sumas, kad būtų rodomos tik laikotarpio koregavimo sumos, jei šios sumos galimos. |
 | XAD                     | Apriboti stulpelio sumas, kad būtų nerodomos laikotarpio koregavimo sumos. |
 | SP                      | Apriboti stulpelio sumas, kad būtų įtraukiamos tik užregistruotos operacijos, jei šios operacijos galimos. |
-| UPT                     | Apriboti stulpelio sumas, kad būtų įtraukiamos tik neužregistruotos operacijos, jei šios operacijos galimos.<blockquote>[!NOTE] Ne visi duomenų teikėjai palaiko neužregistruotas operacijas. Daugiau informacijos žr. „Microsoft Dynamics ERP“ sistemos <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>duomenų integravimo vadove</a>.</blockquote> |
+| UPT                     | Apriboti stulpelio sumas, kad būtų įtraukiamos tik neužregistruotos operacijos, jei šios operacijos galimos.<p><strong>Pastaba:</strong> ne visi duomenų teikėjai palaiko neužregistruotas operacijas. Daugiau informacijos žr. „Microsoft Dynamics ERP“ sistemos <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>duomenų integravimo vadove</a>.</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Stulpelio apibojimas iki ataskaitinio vieneto
 
@@ -310,7 +310,7 @@ Langelyje **Spausdinimo valdymas** gali būti stulpelio rodinį arba spausdinimo
 | Spausdinimo kontrolinis kodas | Vertimas                                     | Prekės/Paslaugos pavadinimas |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Nespausdinimas                                     | Šio stulpelio sumų neįtraukti į spausdinamą ataskaitą ir į skaičiavimus. Norėdami į skaičiavimą įtraukti nespausdinamą stulpelį, nurodykite stulpelį tiesiogiai skaičiavimo formulėje. Pavyzdžiui, nespausdinamas stulpelis C įtraukiamas į šį skaičiavimą: **B+C+D**. Tačiau nespausdinamas stulpelis C neįtraukiamas į šį skaičiavimą: **B:D**. |
-| XCR                | Ženklo keitimas, jei įprastas eilutės balansas yra kreditas | Sukurkite biudžetą arba palyginamąją ataskaitą, kurioje bet koks nepalankus nuokrypis (pvz., pajamų trūkumas ar išlaidų viršijimas) visada yra neigiamas. Taikykite šį kodą stulpeliui **CALC**, jei norite pakeisti stulpelio sumos ženklą, jei įprastas nurodytos eilutės balansas yra kreditas (kaip nurodyta eilutės aprašo stulpelio **Įprastinis balansas** dalyje **C**).<blockquote>[!NOTE] Eilutėse <strong>TOT</strong> ir </strong>CAL</strong>, kuriose paprastai nurodomas kredito balansas, eilutės aprašo stulpelyje <strong>Įprastinis balansas</strong> nepamirškite įvesti <strong>C</strong>.</blockquote> |
+| XCR                | Ženklo keitimas, jei įprastas eilutės balansas yra kreditas | Sukurkite biudžetą arba palyginamąją ataskaitą, kurioje bet koks nepalankus nuokrypis (pvz., pajamų trūkumas ar išlaidų viršijimas) visada yra neigiamas. Taikykite šį kodą stulpeliui **CALC**, jei norite pakeisti stulpelio sumos ženklą, jei įprastas nurodytos eilutės balansas yra kreditas (kaip nurodyta eilutės aprašo stulpelio **Įprastinis balansas** dalyje **C**).<p><strong>Pastaba:</strong> eilutėse <strong>TOT</strong> ir </strong>CAL</strong>, kuriose paprastai nurodomas kredito balansas, eilutės aprašo stulpelyje <strong>Įprastinis balansas</strong> nepamirškite įvesti <strong>C</strong>.</p> |
 | X0                 | Stulpelio nerodymas, jei visur nuliai arba tuščios vietos          | Neįtraukite stulpelio **FD** į ataskaitą, jei visi to stulpelio langeliai yra tušti arba juose yra nuliai. |
 | SR                 | Apvalinimo sustabdymas                               | Neleiskite, kad sumos šiame stulpelyje būtų apvalinamos. |
 | XR                 | Sumavimo sustabdymas                                 | Sustabdykite sumavimą. Jei ataskaita naudoja ataskaitų medį, sumos šiame stulpelyje nėra sumuojamos, kad būtų gauti pirminiai mazgai. |
@@ -546,8 +546,8 @@ Toliau pateikiamoje lentelėje rodomi ataskaitos rezultatai, kurie, dėl Phyllis
 | Langelis Valiutos rodinys                        | Langelis Valiutos filtras | Ataskaitos rezultatas |
 |----------------------------------------------|----------------------|---------------|
 | Operacijos valiuta                 | **JENA**              | **Y6 000** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY. |
-| Didžiosios knygos apskaitos valiuta | **JENA**              |**$60** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY, ir jos rodomos USD.<blockquote>[!NOTE] Konvertavimo kursas yra maždaug 100 JPY už 1 USD.</blockquote> |
-| Didžiosios knygos apskaitos valiuta | Tuščia                | **2 310 USD** – rezultate visi duomenys rodomi apskaitos valiuta, kuri nurodyta DK.<blockquote>[!NOTE] Ši suma yra visų apskaitos valiuta nurodomų operacijų suma.</blockquote> |
+| Didžiosios knygos apskaitos valiuta | **JENA**              |**$60** – rezultate rodomos tik tos operacijos, kurios buvo įvestos JPY, ir jos rodomos USD.<p><strong>Pastaba:</strong> konvertavimo kursas yra maždaug 100 JPY už 1 USD.</p> |
+| Didžiosios knygos apskaitos valiuta | Tuščia                | **2 310 USD** – rezultate visi duomenys rodomi apskaitos valiuta, kuri nurodyta DK.<p><strong>Pastaba:</strong> ši suma yra visų apskaitos valiuta nurodomų operacijų suma.</p> |
 | Operacijos valiuta                 | Tuščia                | **$2,250** – rezultate visos sumos rodomos ta valiuta, kuria buvo atlikta operacija. Tai reiškia, kad bendra suma sudedama iš sumų skirtingomis valiutomis. |
 
 ### <a name="calculation-column-in-a-column-definition"></a>Skaičiavimo stulpelis yra stulpelio apibrėžimas
@@ -565,7 +565,7 @@ Norėdami sudėti, atimti, padauginti, arba padalyti stulpelius, įveskite stulp
 |----------|---------------------|-------------|
 | +        | A+C                 | Pridėti stulpelio A sumą prie stulpelio C sumos. |
 | :        | A:C A:C-D           | Pridėti paskesnių stulpelių intervalą. Pavyzdžiui, formulė **A:C** sudeda sumas nuo stulpelio A iki stulpelio C, o formulė **A:C-D** sudeda sumas nuo stulpelio A iki stulpelio C ir atima stulpelio D sumą. |
-| -        | A-C                 | Iš A stulpelyje esančios sumos atimama C stulpelyje esanti suma.<blockquote>[!NOTE] Taip pat galite naudoti minuso ženklą (-), kad ženklai stulpelyje būtų pakeisti priešingais. Pavyzdžiui, norėdami pridėti atvirkštinę stulpelio A sumą prie stulpelio B sumos, naudokite <strong>-A+B</strong>.</blockquote> |
+| -        | A-C                 | Iš A stulpelyje esančios sumos atimama C stulpelyje esanti suma.<p><strong>Pastaba.</strong> Norėdami pakeisti stulpelio ženklus, taip pat galite naudoti minuso ženklą (-). Pavyzdžiui, norėdami pridėti atvirkštinę stulpelio A sumą prie stulpelio B sumos, naudokite <strong>-A+B</strong>.</p> |
 | \*       | A\*C                | Padauginti stulpelio A sumą iš stulpelio C sumos. |
 | /        | A/C                 | Padalinti stulpelio A sumą iš stulpelio C sumos. |
 

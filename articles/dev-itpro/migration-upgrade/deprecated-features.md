@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527676"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620650"
 ---
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
@@ -38,8 +38,35 @@ ms.locfileid: "1527676"
 > [!NOTE]
 > Pradedant nuo „Dynamics 365 for Finance and Operations“ 2017 m. liepos mėn. leidimo su 8 platformos naujinimu, nurodytos visos įdiegčių tipų pašalintos arba nebenaudojamos funkcijos. Visi ankstesni šioje temoje paminėti leidimai palaikė tik įdiegtis debesyje.
 
-> [!NOTE]
 > Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>„Dynamics 365 for Finance and Operations 10.0.4“ 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>Prancūzija: FEC apskaitos duomenų eksportavimas XML formatu
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | **Prancūzijos FEC audito failas**, kuris pakeistas TXT formatu, pasiekiamas pasirinkus **Didžioji knyga** \> **Periodinės užduotys** \> **Duomenų eksportavimas**.
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Didžioji knyga |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama. Tikslinis funkcijos pašalinimo laikotarpis – 2020 m. liepos mėn. |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>„Dynamics 365 for Finance and Operations 10.0.4“ su „Platform Update 28“
+
+> [!IMPORTANT]
+> „Dynamics 365 for Finance and Operations 10.0.4“ su „Platform Update 28“ teikiamas tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="legacy-navigation-bar"></a>Senesnių funkcijų naršymo juosta
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Antraštės lygiavimas su kitais „Dynamics“ ir „Office“ produktais. Norėdami daugiau informacijos žr. [Atnaujinta naršymo juosta, sulygiuota su „Office“ antrašte](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar).
+| **Pakeitė kita funkcija?**   | Į 24 ir vėlesnius platformos naujinius įtraukta perkurta naršymo juosta, kurioje pateikta ieškos funkcija. |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama: nuo 2020 m. balandžio mėn. senstelėjusios naršymo juostos nebebus galima naudoti. Iki tol klientai gali perjungti į senstelėjusią naršymo juostą naudodami puslapį **Kliento našumo parinktys**. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>„Dynamics 365 for Finance and Operations 10.0.2“ su „Platform Update 26“

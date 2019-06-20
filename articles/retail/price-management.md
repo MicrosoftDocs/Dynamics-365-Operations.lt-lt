@@ -3,7 +3,7 @@ title: Mažmeninės prekybos pardavimo kainos valdymas
 description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Microsoft Dynamics 365 for Retail“ koncepcijos.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 04/20/2018
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afa553fd0562b306f720f2a30c7f901db7ad1b3a
+ms.sourcegitcommit: 0fbfb9b0ab78c804f3931a083028d2ce313d6521
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549410"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1594075"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -231,3 +231,9 @@ Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** mažmeninės prekyb
 
 - Kaina nustatoma pagal produkto dimensijas, nuo konkrečiausio varianto kainos iki mažiausiai konkretaus varianto kainos iki bendrojo produkto kainos. Kainai, kuri yra nustatyta naudojant dvi produkto dimensijas (pvz., spalvos ir dydžio), teikiama pirmenybė prieš kainą, kuri yra nustatyta naudojant tik vieną produkto dimensiją (pvz., dydžio).
 - Ta pačia kainų grupe galima kontroliuoti kainas ir nuolaidas.
+
+## <a name="pricing-api-enhancements"></a>Kainodaros API patobulinimai
+
+Kaina yra vienas iš svarbiausių veiksnių, nuo kurių priklauso daugelio klientų pirkimo sprendimai, ir dauguma klientų prieš įsigydami palygina kainas įvairiose svetainėse. Siekdami užtikrinti, kad būtų pateiktos konkurencingos kainos, mažmenininkai atidžiai stebi savo konkurentus ir dažnai organizuoja akcijas. Todėl, siekiant padėti šiems mažmenininkams pritraukti klientų, labai svarbu, kad atliekant produktų paiešką, naudojantis naršymo funkcija, sąrašais ir produkto informacijos puslapiu būtų rodomos tiksliausios kainos.
+
+Būsimame „Retail“ leidime **GetActivePrices** naudojantis taikomojo programavimo sąsaja (API) nurodomos kainos, kurios apima paprastas nuolaidas (pavyzdžiui, vienos eilutės nuolaidas, kurios nepriklauso nuo kitų krepšelyje esančių prekių). Tokiu būdu rodomos kainos beveik atitinka faktinę sumą, kurią klientai moka už prekes. Ši API apima visų tipų paprastas nuolaidas: pagal priskyrimą, pagal lojalumą, pagal katalogą ir pagal kanalą. Be to, API nurodomi pavadinimai ir pateikiama informacija apie taikomas nuolaidas, kad mažmenininkai galėtų pateikti išsamesnį kainos aprašymą ir sukurti skubos jausmą, jei nuolaidos galiojimo laikas greitai baigsis.

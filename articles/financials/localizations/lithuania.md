@@ -16,12 +16,12 @@ ms.search.region: Lithuania
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 135571500ca4222c56fab001b4a030315d7022c9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 92f3c68738a07cce4a34cf194508b496d8a8dcd9
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538120"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549496"
 ---
 # <a name="lithuania"></a>Lietuva 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546840"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595690"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -63,7 +63,7 @@ Yra du būdai įsigyti abonementą vietiniam diegimui
 
 ### <a name="buy-through-volume-licensing"></a>Pirkite pasinaudodami bendruoju licencijavimu
 
-Jei jūsų organizacijoje yra 250 ar daugiau „Dynamics 365“ vartotojų, jus gali dominti [Bendrojo licencijavimo sutartis](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365).
+Jei jūsų organizacijoje yra 250 ar daugiau „Dynamics 365“ vartotojų, jus gali dominti [Bendrojo licencijavimo sutartis](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
 Naudojant bendrąjį licencijavimą, „Finance and Operations“ galima pasiekti toliau nurodytais būdais.
 
@@ -87,7 +87,7 @@ Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti
 Daugiau informacijos:
 
 - [„Dynamics 365“ pagalba](https://www.microsoft.com/dynamics365/support)
-- [„Microsoft Dynamics“ debesies paslaugos pagalbos privalumų greito pasirengimo darbui vadovas](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [„Microsoft Dynamics“ debesies paslaugos pagalbos privalumų greito pasirengimo darbui vadovas](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ketvirtas veiksmas: sužinokite apie „FastTrack“ ir suplanuokite diegimą
 

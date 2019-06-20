@@ -3,7 +3,7 @@ title: Banko užsienio valiutos kurso pasikeitimas
 description: Šioje temoje pateikta banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje pateikiama informacija apie sąranką, proceso vykdymą, proceso apskaičiavimą ir kurso keitimo operacijų atšaukimą.
 author: mikefalkner
 manager: AnnBe
-ms.date: 04/16/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 353153a3a5cbcb27749f21582fcf83ac4f3a8f36
+ms.sourcegitcommit: 56ec43e459ba93f495bc76fed23d6737218ef37e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538637"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "1591765"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>Banko užsienio valiutos kurso pasikeitimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview-banner](../includes/preview-banner.md)]
+
 
 Šioje temoje pateikta banko užsienio valiutos kurso pasikeitimo proceso apžvalga. Temoje aiškinama, kaip nustatyti ir vykdyti procesą, bei pateikiama informacija apie proceso apskaičiavimą. Temoje taip pat aiškinama, kaip atšaukti kurso keitimo operacijas, jei to prireiktų.
 

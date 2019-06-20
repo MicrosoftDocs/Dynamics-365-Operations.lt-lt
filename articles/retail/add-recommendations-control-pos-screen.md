@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573377"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606854"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną
 
@@ -40,13 +40,13 @@ Naudodami „Microsoft Dynamics 365 for Retail“ galite rodyti produktų rekome
 ## <a name="open-layout-designer"></a>Atidarykite maketo dizaino įrankį
 
 1. Pasirinkite **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
-2. Naudokite spartųjį filtrą, kad rastumėte ekraną, į kurį norite įtraukti valdiklį. Pvz., filtruokite lauką **Ekrano maketo ID** naudodami reikšmę „F2CP16:9M“.
-3. Sąraše raskite ir pasirinkite norimą įrašą. Pvz., pasirinkite „Pavadinimas: F2CP16:9M Ekrano maketo ID: F2CP16:9M“
+2. Naudokite spartųjį filtrą, kad rastumėte ekraną, į kurį norite įtraukti valdiklį. Pvz., filtruokite lauką **Ekrano maketo ID** naudodami reikšmę **F2CP16:9M**.
+3. Sąraše raskite ir pasirinkite norimą įrašą. Pvz., pasirinkite **Pavadinimas: F2CP16:9M Ekrano maketo ID: F2CP16:9M**.
 4. Spustelėkite dalį **Maketo dizaino įrankis**.
 5. Vykdykite paraginimo instrukcijas, kad paleistumėte maketo dizaino įrankį. Kai būsite paraginti įvesti kredencialus, įveskite tuos pačius kredencialus, kuriuos naudojote paleisdami maketo dizaino įrankį iš puslapio **Ekrano maketai**.
 6. Prisijungus bus parodytas puslapis, panašus į toliau pateiktą puslapį. Maketas skirsis, atsižvelgiant į jūsų parduotuvėje atliktus tinkinimus.
 
-    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Maketo dizaineris](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Pasirinkite rodomą parinktį
 
@@ -59,11 +59,11 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 
 1. Sumažinkite operacijų eilučių informacijos srities aukštį, kad ji būtų tokio paties aukščio kaip jos kairėje esanti kliento sritis.
 
-    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Sumažintas operacijų eilučių informacijos srities aukštis](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Iš kairiojo meniu rekomendacijų valdiklį nuvilkite tarp operacijų eilučių informacijos srities ir mygtukyno į operacijų ekrano apatinėje dalyje, centre. Keiskite valdiklio dydį, kad jis tilptų toje erdvėje.
 
-    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Rekomendacijų valdiklis įtrauktas į maketą](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
 4. Programoje „Dynamics 365 for Retail“ atidarykite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikai**.
@@ -75,13 +75,13 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 1. Dešiniuoju pelės klavišu spustelėkite tuščią erdvę po paskutiniuoju skirtuku mygtukyne, kuris yra kairiojoje puslapio pusėje.
 2. Spustelėkite **Pritaikyti**.
 
-    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+    [![Tinkinimas – dialogo langas Skirtukų valdymas](./media/pic-5.png)](./media/pic-5.png)
 
 3. Spustelėkite **Naujas skirtukas**.
 4. Raskite naują skirtuką, kurį ką tik įtraukėte. Gali reikėti slinkti žemyn.
 5. Išplečiamajame sąraše **Turinys** pasirinkite **Rekomenduojami produktai**.
 
-    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+    [![Parinkties Rekomenduojami produktai pasirinkimas lauke Turinys](./media/pic-6.png)](./media/pic-6.png)
 
 6. Lauke **Žyma** įveskite rekomendacijų skirtuko pavadinimą. Pavyzdžiui, įveskite „Rekomenduojami produktai“.
 7. Lauke **Vaizdas** pasirinkite vaizdą, kuris bus rodomas skirtuke.
