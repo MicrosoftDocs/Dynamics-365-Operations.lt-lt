@@ -16,81 +16,81 @@ ms.search.region: Lithuania
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e5e98181f37e263e27918064b8e7bd32275770f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 033fb6d58476f72dcdc0a46976c88b4d32b5c108
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538106"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1573104"
 ---
-# <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a><span data-ttu-id="e16fc-103">LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą</span><span class="sxs-lookup"><span data-stu-id="e16fc-103">LT-00003 Generate a fixed asset transfer between warehouses document</span></span>
+# <a name="lt-00003-generate-a-fixed-asset-transfer-between-warehouses-document"></a><span data-ttu-id="7984b-103">LT-00003: generuoti ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumentą</span><span class="sxs-lookup"><span data-stu-id="7984b-103">LT-00003 Generate a fixed asset transfer between warehouses document</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e16fc-104">Jei jūsų organizacijai reikia perkelti ilgalaikį turtą iš vieno padalinio į kitą ir du padaliniai nėra toje pačioje vietoje, perkėlimas turi būti patvirtintas važtaraščiu.</span><span class="sxs-lookup"><span data-stu-id="e16fc-104">If your organization needs to move a fixed asset from one department to another and the two departments are not in the same location, the transfer must be verified by a packing slip.</span></span> <span data-ttu-id="e16fc-105">Taip pat reikia generuoti perkėlimo važtaraštį pakeitus darbuotoją, atsakingą už ilgalaikio turto perdavimą.</span><span class="sxs-lookup"><span data-stu-id="e16fc-105">You also need to generate a transfer packing slip if the employee responsible for the fixed asset is changed.</span></span> <span data-ttu-id="e16fc-106">Priklausomai nuo įgalintų parametrų, važtaraštis gali būti numeruojamas automatiškai arba neautomatiniu būdu.</span><span class="sxs-lookup"><span data-stu-id="e16fc-106">Depending on the parameters that are enabled, the packing slip can be numbered automatically or manually.</span></span>
+<span data-ttu-id="7984b-104">Jei jūsų organizacijai reikia perkelti ilgalaikį turtą iš vieno padalinio į kitą ir du padaliniai nėra toje pačioje vietoje, perkėlimas turi būti patvirtintas važtaraščiu.</span><span class="sxs-lookup"><span data-stu-id="7984b-104">If your organization needs to move a fixed asset from one department to another and the two departments are not in the same location, the transfer must be verified by a packing slip.</span></span> <span data-ttu-id="7984b-105">Taip pat reikia generuoti perkėlimo važtaraštį pakeitus darbuotoją, atsakingą už ilgalaikio turto perdavimą.</span><span class="sxs-lookup"><span data-stu-id="7984b-105">You also need to generate a transfer packing slip if the employee responsible for the fixed asset is changed.</span></span> <span data-ttu-id="7984b-106">Priklausomai nuo įgalintų parametrų, važtaraštis gali būti numeruojamas automatiškai arba neautomatiniu būdu.</span><span class="sxs-lookup"><span data-stu-id="7984b-106">Depending on the parameters that are enabled, the packing slip can be numbered automatically or manually.</span></span>
 
-<span data-ttu-id="e16fc-107">Ši procedūra taikoma tik Lietuvai skirtoms funkcijoms.</span><span class="sxs-lookup"><span data-stu-id="e16fc-107">This procedure applies only for Lithuanian functionality.</span></span> 
+<span data-ttu-id="7984b-107">Ši procedūra taikoma tik Lietuvai skirtoms funkcijoms.</span><span class="sxs-lookup"><span data-stu-id="7984b-107">This procedure applies only for Lithuanian functionality.</span></span> 
 
-<span data-ttu-id="e16fc-108">Procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF, todėl prieš pradedant reikia rankiniu būdu pakeisti USMF juridinio subjekto pirminį adresą į LTU.</span><span class="sxs-lookup"><span data-stu-id="e16fc-108">The procedure was created using the demo data company USMF and requires changing USMF legal entity primary address to LTU manually before starting.</span></span> 
+<span data-ttu-id="7984b-108">Procedūra buvo sukurta naudojant demonstracinių duomenų įmonę USMF, todėl prieš pradedant reikia rankiniu būdu pakeisti USMF juridinio subjekto pirminį adresą į LTU.</span><span class="sxs-lookup"><span data-stu-id="7984b-108">The procedure was created using the demo data company USMF and requires changing USMF legal entity primary address to LTU manually before starting.</span></span> 
 
-<span data-ttu-id="e16fc-109">Ši procedūra skirta už ilgalaikį turtą atsakingiems buhalteriams.</span><span class="sxs-lookup"><span data-stu-id="e16fc-109">This procedure is intended for accountants who are responsible for fixed assets.</span></span>
+<span data-ttu-id="7984b-109">Ši procedūra skirta už ilgalaikį turtą atsakingiems buhalteriams.</span><span class="sxs-lookup"><span data-stu-id="7984b-109">This procedure is intended for accountants who are responsible for fixed assets.</span></span>
 
 
-## <a name="preset-vehicle-models"></a><span data-ttu-id="e16fc-110">Iš naujo nustatyti transporto priemonių modelius</span><span class="sxs-lookup"><span data-stu-id="e16fc-110">Preset vehicle models</span></span>
-1. <span data-ttu-id="e16fc-111">Eikite į Organizacijos administravimas > Nustatymas > Transporto priemonė > Transporto priemonių modeliai.</span><span class="sxs-lookup"><span data-stu-id="e16fc-111">Go to Organization administration > Setup > Vehicle > Vehicle models.</span></span>
-2. <span data-ttu-id="e16fc-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="e16fc-112">Click New.</span></span>
-3. <span data-ttu-id="e16fc-113">Lauke Modelis įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-113">In the Model field, type a value.</span></span>
-    * <span data-ttu-id="e16fc-114">Ši vertė bus spausdinama važtaraštyje.</span><span class="sxs-lookup"><span data-stu-id="e16fc-114">This value will be printed on the packing slip.</span></span>  
-4. <span data-ttu-id="e16fc-115">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-115">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="e16fc-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-116">Click Save.</span></span>
+## <a name="preset-vehicle-models"></a><span data-ttu-id="7984b-110">Iš naujo nustatyti transporto priemonių modelius</span><span class="sxs-lookup"><span data-stu-id="7984b-110">Preset vehicle models</span></span>
+1. <span data-ttu-id="7984b-111">Eikite į Organizacijos administravimas > Nustatymas > Transporto priemonė > Transporto priemonių modeliai.</span><span class="sxs-lookup"><span data-stu-id="7984b-111">Go to Organization administration > Setup > Vehicle > Vehicle models.</span></span>
+2. <span data-ttu-id="7984b-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="7984b-112">Click New.</span></span>
+3. <span data-ttu-id="7984b-113">Lauke Modelis įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-113">In the Model field, type a value.</span></span>
+    * <span data-ttu-id="7984b-114">Ši vertė bus spausdinama važtaraštyje.</span><span class="sxs-lookup"><span data-stu-id="7984b-114">This value will be printed on the packing slip.</span></span>  
+4. <span data-ttu-id="7984b-115">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-115">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="7984b-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7984b-116">Click Save.</span></span>
 
-## <a name="set-up-packing-slip-auto-numbering"></a><span data-ttu-id="e16fc-117">Nustatyti automatinį važtaraščio numeravimą</span><span class="sxs-lookup"><span data-stu-id="e16fc-117">Set up packing slip auto-numbering</span></span>
-1. <span data-ttu-id="e16fc-118">Eikite į Organizacijos administravimas > Numeracijos > Skaitiklių valdymas.</span><span class="sxs-lookup"><span data-stu-id="e16fc-118">Go to Organization administration > Number sequences > Counters management.</span></span>
-2. <span data-ttu-id="e16fc-119">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-119">Click Edit.</span></span>
-3. <span data-ttu-id="e16fc-120">Lauke Modulis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="e16fc-120">In the Module field, select an option.</span></span>
-4. <span data-ttu-id="e16fc-121">Lauke Sąskaitos kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="e16fc-121">In the Account code field, select an option.</span></span>
-5. <span data-ttu-id="e16fc-122">Pažymėkite žymės langelį Automatinis numeravimas.</span><span class="sxs-lookup"><span data-stu-id="e16fc-122">Select the Auto numbering check box.</span></span>
-6. <span data-ttu-id="e16fc-123">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-123">Click Save.</span></span>
-7. <span data-ttu-id="e16fc-124">Eikite į Organizacijos administravimas > Numeracijos > SF numeravimo nustatymas.</span><span class="sxs-lookup"><span data-stu-id="e16fc-124">Go to Organization administration > Number sequences > Invoice numbering setup.</span></span>
-8. <span data-ttu-id="e16fc-125">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-125">Click Edit.</span></span>
-9. <span data-ttu-id="e16fc-126">Lauke Numeravimas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-126">In the Numbering field, type a value.</span></span>
-10. <span data-ttu-id="e16fc-127">Lauke Modulis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="e16fc-127">In the Module field, select an option.</span></span>
-11. <span data-ttu-id="e16fc-128">Lauke Numeracijos kodas įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-128">In the Number sequence code field, enter or select a value.</span></span>
-    * <span data-ttu-id="e16fc-129">Čia pasirinkta numeracija turi būti naudojama automatiniam važtaraščio numeravimui.</span><span class="sxs-lookup"><span data-stu-id="e16fc-129">The number sequence selected here should be used for packing slip auto-numbering.</span></span>  
-12. <span data-ttu-id="e16fc-130">Lauke Sąskaitos kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="e16fc-130">In the Account code field, select an option.</span></span>
-13. <span data-ttu-id="e16fc-131">Pažymėkite žymės langelį Tęsti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-131">Select the Continue check box.</span></span>
-14. <span data-ttu-id="e16fc-132">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-132">Click Save.</span></span>
+## <a name="set-up-packing-slip-auto-numbering"></a><span data-ttu-id="7984b-117">Nustatyti automatinį važtaraščio numeravimą</span><span class="sxs-lookup"><span data-stu-id="7984b-117">Set up packing slip auto-numbering</span></span>
+1. <span data-ttu-id="7984b-118">Eikite į Organizacijos administravimas > Numeracijos > Skaitiklių valdymas.</span><span class="sxs-lookup"><span data-stu-id="7984b-118">Go to Organization administration > Number sequences > Counters management.</span></span>
+2. <span data-ttu-id="7984b-119">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="7984b-119">Click Edit.</span></span>
+3. <span data-ttu-id="7984b-120">Lauke Modulis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="7984b-120">In the Module field, select an option.</span></span>
+4. <span data-ttu-id="7984b-121">Lauke Sąskaitos kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="7984b-121">In the Account code field, select an option.</span></span>
+5. <span data-ttu-id="7984b-122">Pažymėkite žymės langelį Automatinis numeravimas.</span><span class="sxs-lookup"><span data-stu-id="7984b-122">Select the Auto numbering check box.</span></span>
+6. <span data-ttu-id="7984b-123">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7984b-123">Click Save.</span></span>
+7. <span data-ttu-id="7984b-124">Eikite į Organizacijos administravimas > Numeracijos > SF numeravimo nustatymas.</span><span class="sxs-lookup"><span data-stu-id="7984b-124">Go to Organization administration > Number sequences > Invoice numbering setup.</span></span>
+8. <span data-ttu-id="7984b-125">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="7984b-125">Click Edit.</span></span>
+9. <span data-ttu-id="7984b-126">Lauke Numeravimas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-126">In the Numbering field, type a value.</span></span>
+10. <span data-ttu-id="7984b-127">Lauke Modulis pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="7984b-127">In the Module field, select an option.</span></span>
+11. <span data-ttu-id="7984b-128">Lauke Numeracijos kodas įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="7984b-128">In the Number sequence code field, enter or select a value.</span></span>
+    * <span data-ttu-id="7984b-129">Čia pasirinkta numeracija turi būti naudojama automatiniam važtaraščio numeravimui.</span><span class="sxs-lookup"><span data-stu-id="7984b-129">The number sequence selected here should be used for packing slip auto-numbering.</span></span>  
+12. <span data-ttu-id="7984b-130">Lauke Sąskaitos kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="7984b-130">In the Account code field, select an option.</span></span>
+13. <span data-ttu-id="7984b-131">Pažymėkite žymės langelį Tęsti.</span><span class="sxs-lookup"><span data-stu-id="7984b-131">Select the Continue check box.</span></span>
+14. <span data-ttu-id="7984b-132">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7984b-132">Click Save.</span></span>
 
-## <a name="generate-packing-slip"></a><span data-ttu-id="e16fc-133">Generuoti važtaraštį</span><span class="sxs-lookup"><span data-stu-id="e16fc-133">Generate packing slip</span></span>
+## <a name="generate-packing-slip"></a><span data-ttu-id="7984b-133">Generuoti važtaraštį</span><span class="sxs-lookup"><span data-stu-id="7984b-133">Generate packing slip</span></span>
 
-## <a name="specify-transportation-details"></a><span data-ttu-id="e16fc-134">Nurodyti transportavimo informaciją</span><span class="sxs-lookup"><span data-stu-id="e16fc-134">Specify transportation details</span></span>
-1. <span data-ttu-id="e16fc-135">Eikite į Ilgalaikis turtas > Užklausos ir ataskaitos > Važtaraščiai.</span><span class="sxs-lookup"><span data-stu-id="e16fc-135">Go to Fixed assets > Inquiries and reports > Packing slips.</span></span>
-2. <span data-ttu-id="e16fc-136">Veiksmų srityje spustelėkite Bendra.</span><span class="sxs-lookup"><span data-stu-id="e16fc-136">On the Action Pane, click General.</span></span>
-3. <span data-ttu-id="e16fc-137">Spustelėkite Transportavimo informacija.</span><span class="sxs-lookup"><span data-stu-id="e16fc-137">Click Transportation details.</span></span>
-4. <span data-ttu-id="e16fc-138">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-138">Click Edit.</span></span>
-5. <span data-ttu-id="e16fc-139">Lauke Spausdinti transportavimo informaciją pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="e16fc-139">Select Yes in the Print transportation details field.</span></span>
-    * <span data-ttu-id="e16fc-140">Jei pasirinkta, transportavimo informacija, kurią galite nurodyti šioje formoje, bus spausdinama važtaraštyje.</span><span class="sxs-lookup"><span data-stu-id="e16fc-140">If selected, transportation details that you can specify on this form will be printed on the Packing slip.</span></span>  
-6. <span data-ttu-id="e16fc-141">Lauke Išduotos prekės įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-141">In the Goods issued by field, enter or select a value.</span></span>
-7. <span data-ttu-id="e16fc-142">Lauke Paketas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-142">In the Package field, type a value.</span></span>
-8. <span data-ttu-id="e16fc-143">Lauke Vežėjo tipas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="e16fc-143">In the Carrier type field, select an option.</span></span>
-9. <span data-ttu-id="e16fc-144">Lauke Vežėjas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-144">In the Carrier field, enter or select a value.</span></span>
-10. <span data-ttu-id="e16fc-145">Lauke Modelis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-145">In the Model field, enter or select a value.</span></span>
-11. <span data-ttu-id="e16fc-146">Lauke Registracijos numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-146">In the Registration number field, type a value.</span></span>
-12. <span data-ttu-id="e16fc-147">Lauke Priekabos registracijos numeris įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-147">In the Trailer registration number field, type a value.</span></span>
-13. <span data-ttu-id="e16fc-148">Lauke Vairuotojas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-148">In the Driver field, enter or select a value.</span></span>
-14. <span data-ttu-id="e16fc-149">Lauke Vairuotojo vardas ir pavardė įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-149">In the Driver name field, type a value.</span></span>
-15. <span data-ttu-id="e16fc-150">Lauke Pakrovimo data ir laikas įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="e16fc-150">In the Loading date and time field, enter a date and time.</span></span>
-16. <span data-ttu-id="e16fc-151">Lauke Pakrovimo adresas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-151">In the Loading address field, enter or select a value.</span></span>
-17. <span data-ttu-id="e16fc-152">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-152">Click Save.</span></span>
-    * <span data-ttu-id="e16fc-153">Baigę turto iškrovimo procesą taip pat galite užpildyti važtaraščio iškrovimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="e16fc-153">After the asset unloading process is completed, yo can also fill in unloading information for the packing slip.</span></span>  
-18. <span data-ttu-id="e16fc-154">Lauke Iškrovimo data ir laikas įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="e16fc-154">In the Unloading date and time field, enter a date and time.</span></span>
-19. <span data-ttu-id="e16fc-155">Lauke Iškrovimo adresas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e16fc-155">In the Unloading address field, enter or select a value.</span></span>
-20. <span data-ttu-id="e16fc-156">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="e16fc-156">Click Save.</span></span>
-21. <span data-ttu-id="e16fc-157">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="e16fc-157">Close the page.</span></span>
+## <a name="specify-transportation-details"></a><span data-ttu-id="7984b-134">Nurodyti transportavimo informaciją</span><span class="sxs-lookup"><span data-stu-id="7984b-134">Specify transportation details</span></span>
+1. <span data-ttu-id="7984b-135">Eikite į Ilgalaikis turtas > Užklausos ir ataskaitos > Važtaraščiai.</span><span class="sxs-lookup"><span data-stu-id="7984b-135">Go to Fixed assets > Inquiries and reports > Packing slips.</span></span>
+2. <span data-ttu-id="7984b-136">Veiksmų srityje spustelėkite Bendra.</span><span class="sxs-lookup"><span data-stu-id="7984b-136">On the Action Pane, click General.</span></span>
+3. <span data-ttu-id="7984b-137">Spustelėkite Transportavimo informacija.</span><span class="sxs-lookup"><span data-stu-id="7984b-137">Click Transportation details.</span></span>
+4. <span data-ttu-id="7984b-138">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="7984b-138">Click Edit.</span></span>
+5. <span data-ttu-id="7984b-139">Lauke Spausdinti transportavimo informaciją pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="7984b-139">Select Yes in the Print transportation details field.</span></span>
+    * <span data-ttu-id="7984b-140">Jei pasirinkta, transportavimo informacija, kurią galite nurodyti šioje formoje, bus spausdinama važtaraštyje.</span><span class="sxs-lookup"><span data-stu-id="7984b-140">If selected, transportation details that you can specify on this form will be printed on the Packing slip.</span></span>  
+6. <span data-ttu-id="7984b-141">Lauke Išduotos prekės įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="7984b-141">In the Goods issued by field, enter or select a value.</span></span>
+7. <span data-ttu-id="7984b-142">Lauke Paketas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-142">In the Package field, type a value.</span></span>
+8. <span data-ttu-id="7984b-143">Lauke Vežėjo tipas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="7984b-143">In the Carrier type field, select an option.</span></span>
+9. <span data-ttu-id="7984b-144">Lauke Vežėjas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-144">In the Carrier field, enter or select a value.</span></span>
+10. <span data-ttu-id="7984b-145">Lauke Modelis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-145">In the Model field, enter or select a value.</span></span>
+11. <span data-ttu-id="7984b-146">Lauke Registracijos numeris įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-146">In the Registration number field, type a value.</span></span>
+12. <span data-ttu-id="7984b-147">Lauke Priekabos registracijos numeris įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="7984b-147">In the Trailer registration number field, type a value.</span></span>
+13. <span data-ttu-id="7984b-148">Lauke Vairuotojas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-148">In the Driver field, enter or select a value.</span></span>
+14. <span data-ttu-id="7984b-149">Lauke Vairuotojo vardas ir pavardė įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-149">In the Driver name field, type a value.</span></span>
+15. <span data-ttu-id="7984b-150">Lauke Pakrovimo data ir laikas įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7984b-150">In the Loading date and time field, enter a date and time.</span></span>
+16. <span data-ttu-id="7984b-151">Lauke Pakrovimo adresas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-151">In the Loading address field, enter or select a value.</span></span>
+17. <span data-ttu-id="7984b-152">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7984b-152">Click Save.</span></span>
+    * <span data-ttu-id="7984b-153">Baigę turto iškrovimo procesą taip pat galite užpildyti važtaraščio iškrovimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="7984b-153">After the asset unloading process is completed, yo can also fill in unloading information for the packing slip.</span></span>  
+18. <span data-ttu-id="7984b-154">Lauke Iškrovimo data ir laikas įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7984b-154">In the Unloading date and time field, enter a date and time.</span></span>
+19. <span data-ttu-id="7984b-155">Lauke Iškrovimo adresas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7984b-155">In the Unloading address field, enter or select a value.</span></span>
+20. <span data-ttu-id="7984b-156">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="7984b-156">Click Save.</span></span>
+21. <span data-ttu-id="7984b-157">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="7984b-157">Close the page.</span></span>
 
-## <a name="verify-the-packing-slip-report"></a><span data-ttu-id="e16fc-158">Patikrinti važtaraščio ataskaitą</span><span class="sxs-lookup"><span data-stu-id="e16fc-158">Verify the Packing slip report</span></span>
-1. <span data-ttu-id="e16fc-159">Veiksmų srityje spustelėkite Bendra.</span><span class="sxs-lookup"><span data-stu-id="e16fc-159">On the Action Pane, click General.</span></span>
-2. <span data-ttu-id="e16fc-160">Spustelėkite Ilgalaikio turto važtaraštis.</span><span class="sxs-lookup"><span data-stu-id="e16fc-160">Click Fixed asset packing slip.</span></span>
-3. <span data-ttu-id="e16fc-161">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="e16fc-161">Click OK.</span></span>
-    * <span data-ttu-id="e16fc-162">Sugeneravus ataskaitą bus spausdinama visa transportavimo informacija.</span><span class="sxs-lookup"><span data-stu-id="e16fc-162">After the report is generated, all transportation details will be printed.</span></span>  
+## <a name="verify-the-packing-slip-report"></a><span data-ttu-id="7984b-158">Patikrinti važtaraščio ataskaitą</span><span class="sxs-lookup"><span data-stu-id="7984b-158">Verify the Packing slip report</span></span>
+1. <span data-ttu-id="7984b-159">Veiksmų srityje spustelėkite Bendra.</span><span class="sxs-lookup"><span data-stu-id="7984b-159">On the Action Pane, click General.</span></span>
+2. <span data-ttu-id="7984b-160">Spustelėkite Ilgalaikio turto važtaraštis.</span><span class="sxs-lookup"><span data-stu-id="7984b-160">Click Fixed asset packing slip.</span></span>
+3. <span data-ttu-id="7984b-161">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="7984b-161">Click OK.</span></span>
+    * <span data-ttu-id="7984b-162">Sugeneravus ataskaitą bus spausdinama visa transportavimo informacija.</span><span class="sxs-lookup"><span data-stu-id="7984b-162">After the report is generated, all transportation details will be printed.</span></span>  
 
