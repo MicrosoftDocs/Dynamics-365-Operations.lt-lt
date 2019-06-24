@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518699"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617348"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>„Dynamics 365 for Talent“ ir „Dynamics 365 for Finance and Operations“ integravimo DUK
 
@@ -46,7 +46,7 @@ Naudojant „Attract“ ir „Onboard“, visi duomenys yra integruoti į „Com
 
 Jei duomenys yra „Finance and Operations“, bet net „Talent“, susiekite abi sistemas kartu naudodami „Talent“ funkciją **Konfigūruoti saitus**. Daugiau informacijos apie tai, kaip konfigūruoti „Talent“ ir „Finance and Operations“ saitus žr. [Kas nauja arba pakeista „Dynamics 365 for Talent Core HR“ (2018 m. spalio 31 d.)](whats-new-talent-october-31.md).
 
-![](media/MapFinancialDimensions.png)
+![Susieti finansines dimensijas](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>Kartais, kai importuoju darbuotojus, jie tampa neaktyviais darbuotojais „Finance and Operations“. Kodėl?
 
@@ -60,14 +60,14 @@ Duomenų sinchronizavimas vykdomas pagal vykdymo grafiką. Integracija paims įr
 
 Naudodami parinktį „Išplėstinė užklausa“ galite filtruoti ir pertvarkyti šaltinio duomenis prieš perduodami juos į paskirties vietą.
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Aktyvių darbininkų išplėstinė užklausa](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>Ar galiu nurodyti, kokius laukus siųsti „Finance and Operations“ dėl konkretaus objekto?
 
 Laukai gali būti įtraukti arba pašalinti iš integracijos užduoties. Ne visi duomenų laukai, kurie yra „Common Data Service“ objekte, bus užpildomi iš „Core HR“.
 Papildomi duomenys gali būti užpildomi naudojant „PowerApps“.
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![Laukų įtraukimas arba pašalinimas iš integracijos užduoties](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Nustačiau integravimą kaip paketinę užduotį, bet „Talent“ prarado ryšį su paskirties sistema. Kaip į paskirties sistemą išsiųsti tuos pačius pakeitimus?
 

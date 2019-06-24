@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567981"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577849"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>„Dynamics 365 for Retail“ palaikymo gavimas
 
@@ -61,7 +61,7 @@ Norėdami gauti „Retail“ palaikymą, naudokite toliau pateiktoje lentelėje 
 <li>Skirtuke <strong>Aktyvi problema</strong> pasirinkite problemą, tada spustelėkite <strong>Pateikti „Microsoft“</strong>.</li>
 <li>Skirtuke <strong>Pateikta „Microsoft“</strong> spustelėkite <strong>Pateikti naują incidentą</strong>, kad pateiktumėte problemą.</li>
 </ul>
-<blockquote>[!NOTE] „Microsoft“ „Premier“ klientai ir partneriai taip pat gali pateikti „Premier“ bilietus naudodami pirmiau nurodytus veiksmus.</blockquote>
+<p><strong>Pastaba.</strong> „Microsoft“ „Premier“ klientai ir partneriai taip pat gali pateikti „Premier“ bilietus atlikdami pirmiau nurodytus veiksmus.</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „Custome
 </tbody>
 </table>
 
-Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://dynamics.microsoft.com/en-us/support/).
+Daugiau informacijos apie „Microsoft Dynamics“ palaikymo pasiūlymus žr. [„Microsoft Dynamics Online“ palaikymas](https://dynamics.microsoft.com/support/).

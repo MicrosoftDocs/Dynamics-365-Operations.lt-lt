@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e327f652855f898e50f1dd853ae20f3a0ff41d9e
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565001"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607001"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimalaus persidengiančių nuolaidų derinio nustatymas
 
@@ -42,11 +42,11 @@ Galite sukurti neribotą skaičių bendrajam produktų rinkiniui taikomų mažme
 
 Šiame pavyzdyje norint, kad būtų taikoma kiekviena nuolaida, reikia dviejų produktų ir nuolaidų negalima sujungti. Šio pavyzdžio nuolaidos yra nuolaidos **Geriausia kaina**. Abiems produktams gali būti taikomos abi nuolaidos. Toliau nurodomos dvi nuolaidos.
 
-![Persidengianti nuolaida, 01 pasirinktinis įvedimas](./media/overlapping-discount-combo-01.jpg)
+![Dviejų geriausių kainos nuolaidų pavyzdys](./media/overlapping-discount-combo-01.jpg)
 
 Kuri iš šių dviejų produktų nuolaidų bus geresnė, priklauso nuo abiejų produktų kainos. Kai abiejų produktų kaina lygi arba beveik lygi, geriau naudoti 1 nuolaidą. Kai vieno produkto kaina žymiai mažesnė negu kito produkto kaina, geriau naudoti 2 nuolaidą. Toliau pateikiama šių dviejų nuolaidų vertinimo viena kitos atžvilgiu matematinė taisyklė.
 
-![Persidengianti nuolaida, 02 pasirinktinis įvedimas](./media/overlapping-discount-combo-02.jpg)
+![Nuolaidų įvertinimo taisyklė](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Kai 1 produkto kaina yra lygi dviem trečdaliams 2 produkto kainos, nuolaidos yra vienodos. Šiame pavyzdyje 1 nuolaidos įsigaliojimo procentinė dalis kinta nuo kelių procentų (kai dviejų produktų kainos itin skiriasi viena nuo kitos) iki maksimalios 25 procentų procentinės dalies (kai dviejų produktų kaina vienoda). 2 nuolaidos įsigaliojimo procentinė dalis yra fiksuota. Ji visada lygi 20 procentų. Kadangi 1 nuolaidos įsigaliojimo procentinės dalies intervalas gali būti didesnis arba mažesnis už 2 nuolaidą, geriausia nuolaida priklauso nuo dviejų produktų kainos, kuriems turi būti taikoma nuolaida. Šiame pavyzdyje skaičiavimas atliekamas greitai, nes taikomos tik dvi nuolaidos ir tik dviems produktams. Galimi du deriniai: vieną kartą taikoma 1 nuolaida arba vieną kartą taikoma 2 nuolaida. Nėra derinių, kuriuos reikėtų apskaičiuoti. Kiekvienos nuolaidos vertė apskaičiuojama naudojant abu produktus ir naudojama didžiausia nuolaida.
@@ -60,11 +60,11 @@ Toliau bus naudojami keturi produktai ir tos pačios dvi nuolaidos. Visiems ketu
 
 Norėdami perskaityti šias lenteles, naudokite vieną produktą iš eilutės ir vieną produktą iš stulpelio. Pavyzdžiui, 1 nuolaidos lentelėje sujungę du 20 dol. vertės produktus gaunate 10 dol. nuolaidą. 2 nuolaidos lentelėje sujungę 15 dol. ir 5 dol. vertės produktus gaunate 4 dol. nuolaidą.
 
-![Persidengianti nuolaida, 03 pasirinktinis įvedimas](./media/overlapping-discount-combo-03.jpg)
+![Pavyzdys, naudojantis keturis produktus, kuriems taikomos dvi tos pačios nuolaidos](./media/overlapping-discount-combo-03.jpg)
 
 Pirmiausia randame didžiausią galimą nuolaidą, kuri gali būti pritaikyta bet kuriems dviem produktams naudojant bet kurią nuolaidą. Dviejose lentelėse nurodomos visų galimų derinių iš dviejų produktų nuolaidos sumos. Pilkos spalvos lentelių dalyse nurodomi atvejai, kai produktas susiejamas pats su savimi, ko padaryti mes negalime, arba kai du produktai siejami atvirkštiniu būdu ir gaunama ta pati nuolaidos suma, kurios galima nepaisyti. Žiūrėdami į lenteles galite pamatyti, kad 1 nuolaida, kuri taikoma dviems 20 dol. vertės prekėms, yra didžiausia nuolaida, kuri gali būti taikoma bet kuriam iš keturių produktų. (Ši nuolaida pirmoje lentelėje paryškinama žalia spalva.) Taigi lieka tik 15 dol. vertės produktas ir 5 dol. vertės produktas. Dar kartą pažvelgę į dvi lenteles galite pamatyti, kad šiems dviems produktams 1 nuolaida suteikia 2,50 dol. nuolaidą, o 2 nuolaida suteikia 4 dol. nuolaidą. Nodėl mes pasirenkame 2 nuolaidą. Bendra nuolaida sudaro 14 dol. Siekiant, kad būtų lengviau įsivaizduoti tai, kas pasakyta anksčiau, pateikiamos dvi papildomos lentelės, kuriose nurodomos visų galimų derinių iš dviejų produktų 1 ir 2 nuolaidos įsigaliojimo procentinės dalys. Įtraukiama tik pusė derinių sąrašo, nes išdėstymo tvarka, pagal kurią dviems produktams pritaikomos šios dvi nuolaidos, yra nesvarbi. Didžiausia nuolaidos įsigaliojimo procentinė dalis (25 procentai) paryškinama žalia spalva, o mažiausia nuolaidos įsigaliojimo procentinė dalis (10 procentų) paryškinama raudona spalva.
 
-![Persidengianti nuolaida, 04 pasirinktinis įvedimas](./media/overlapping-discount-combo-04.jpg)
+![Nuolaidos įsigaliojimo procentas, skirtas visiems abiejų nuolaidų dviejų produktų deriniams](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Kai kainos skiriasi ir konkuruoja dvi ar daugiau nuolaidų, vienintelis būdas užtikrinti geriausią nuolaidų derinį yra įvertinti abi nuolaidas ir jas palyginti.
@@ -73,7 +73,7 @@ Pirmiausia randame didžiausią galimą nuolaidą, kuri gali būti pritaikyta be
 
 Šiame skyriuje tęsiamas ankstesniame skyriuje pateikto pavyzdžio aprašymas. Įtrauksime daugiau produktų ir kitą nuolaidą ir paziuresime, kiek turi būti apskaičiuojama ir palyginama derinių. Toliau pateiktoje lentelėje nurodomas galimų nuolaidų derinių skaičius, kai didėja produkto kiekis. Lentelėje pavaizduota, kas įvyksta, kai yra dvi persidengiančios nuolaidos, kaip nurodyta ankstesniame pavyzdyje, ir kai yra trys persidengiančios nuolaidos. Turimų įvertinti galimų nuolaidų derinių skaičius greitai tampa toks, kurio apskaičiuoti ir pakankamai greitai palyginti, kad būtų tinkamas mažmeninės prekybos operacijoms, negali net spartus kompiuteris.
 
-![Persidengianti nuolaida, 05 pasirinktinis įvedimas](./media/overlapping-discount-combo-05.jpg)
+![Galimų nuolaidų derinių skaičius, kai didėja produkto kiekis](./media/overlapping-discount-combo-05.jpg)
 
 Kai taikomos didesnės nuolaidos arba daugiau persidengiančių nuolaidų, bendras galimų nuolaidų derinių skaičius greitai pasiekia milijoną, o laikas, kurio reikia norint įvertinti ir pasirinkti geriausią derinį, greitai tampa pastebimas. Atlikti kai kurie mažmeninės prekybos kainų variklio optimizavimo veiksmai, kad būtų sumažintas bendras turimų įvertinti derinių skaičius. Tačiau kadangi persidengiančių nuolaidų skaičius ir operacijos kiekiai yra riboti, kiekvieną kartą esant persidengiančių nuolaidų turės būti įvertinamas didelis derinių skaičius. Ši problema sprendžiama taikant ribos vertės vertinimo metodą.
 
@@ -81,6 +81,6 @@ Kai taikomos didesnės nuolaidos arba daugiau persidengiančių nuolaidų, bendr
 
 Norint išspręsti proporcingai didėjančio turimų įvertinti derinių skaičiaus problemą, galima naudoti optimizavimą, kurį naudojant apskaičiuojama kiekvieno bendrai naudojamo produkto, priklausančio produktų rinkiniui, kuriems gali būti taikomos dvi ar daugiau nuolaidų, nuolaidos vertė. Ši vertė vadinama bendrai naudojamų produktų nuolaidos **ribos vertė**. Ribos vertė yra bendros produkto nuolaidos sumos padidėjimo vidurkis, kai bendrai naudojami produktai įtraukiami į kiekvieną nuolaidą. Ribos vertė apskaičiuojama iš bendros nuolaidos sumos (DTotal) atimant nuolaidos sumą be bendrai naudojamų produktų (DMinus\\ Shared) ir padalinant skirtumą iš bendrai naudojamų produktų (ProductsShared) skaičiaus.
 
-![Persidengianti nuolaida, 06 pasirinktinis įvedimas](./media/overlapping-discount-combo-06.jpg)
+![Ribinės vertės apskaičiavimo formulė](./media/overlapping-discount-combo-06.jpg)
 
 Apskaičiavus kiekvienos bendrai naudojamų produktų rinkinio nuolaidos ribinę vertę, bendrai naudojamiems produktams nuolaidos taikomos mažėjančia tvarka nuo didžiausios ribinės vertės iki mažiausios ribinės vertės. Taikant šį metodą visos likusios nuolaidos galimybės nėra lyginamos kiekvieną kartą pritaikius vieną nuolaidos atvejį. Persidengiančios nuolaidos lyginamos vieną kartą, o po to taikomos iš eilės. Nėra atliekama jokių papildomų palyginimų. Puslapio **Mažmeninės prekybos parametrai** skirtuke **Nuolaida** galite sukonfigūruoti, kad ribinė vertė būtų įjungiama pagal ribos vertės metodą. Įvairiose mažmeninės prekybos rinkose laikas, kuris tinkamas apskaičiuoti bendrąją nuolaidos sumą, skiriasi. Tačiau šis laikas paprastai patenka į intervalą nuo dešimčių milisekundžių iki vienos sekundės.

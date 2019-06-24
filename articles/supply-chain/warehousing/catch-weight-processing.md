@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536715"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617978"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>Funkcijos įjungimas
@@ -138,10 +138,6 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 - Neautomatinis sulaikymo užsakymų kūrimas nepalaikomas naudojant esamo svorio produktus.
 - Neautomatinis su darbu susijusių atsargų perkėlimas nepalaikomas naudojant esamo svorio produktus.
 - Numerių lentelių konsolidavimas nepalaikomas naudojant esamo svorio produktus.
-- Sandėlio atsargų būsenos pakeitimai kaip periodinės užduoties dalis nepalaikomi naudojant esamo svorio produktus.
-- Užklausos apibrėžti atsargų būsenos pakeitimai nepalaikomi naudojant esamo svorio produktus. (Kokybės užsakymo atsargų būsenos pakeitimai taip pat palaikomi.)
-- Naudojant esamo svorio produktus atsargų būsena negali būti pakeista iš puslapio **Turimos atsargos pagal vietą**.
-- Naudojant esamo svorio produktus, atsargų būsena negali būti pakeista kaip sandėlio programos perkėlimo darbo dalis.
 - Numerio lentelės įkėlimas norint inicijuoti sandėlio atsargas nepalaikomas naudojant esamo svorio produktus.
 - Partijų balansavimo procesai nepalaikomi naudojant esamo svorio produktus.
 - Neigiamų faktinių atsargų tvarkymas nepalaikomas naudojant esamo svorio produktus.
@@ -151,7 +147,6 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 
 - Klasterio paėmimo funkcija nepalaikoma naudojant esamo svorio produktus.
 - Paėmimo ir pakavimo sandėlio apdorojimas nepalaikoma naudojant esamo svorio produktus.
-- Darbas negali būti baigtas iš puslapio **Darbas** naudojant esamo svorio produktus.
 - Darbas, nurodytas darbo šablone, gali būti vykdomas automatiškai naudojant esamo svorio produktus.
 - Darbo atšaukimo funkcija nepalaikoma naudojant esamo svorio produktus.
 - Naudojant esamo svorio produktus nepalaikomas neautomatinis pakavimo vietos apdorojimas, kai darbas kuriamas uždarius konteinerius.
@@ -163,7 +158,7 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 - Naudojant esamo svorio produktus „Kanban“ funkcija nepalaikoma.
 - Naudojant esamo svorio produktus serijos numeriai negali būti užregistruoti prieš suvartojimą.
 - Naudojant esamo svorio produktus numerių lentelių atšaukimo funkcija nepalaikoma.
-- Naudojant esamo svorio produktus skelbimas baigtu gali būti registruojamas pagal serijos numerį.
+- Naudojant esamo svorio produktus skelbimas baigtu negali būti registruojamas pagal serijos numerį.
 
 ### <a name="transportation-management-processing"></a>Transportavimo valdymo apdorojimas
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561815"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595667"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
@@ -721,7 +721,7 @@ Darbo srityje <strong>Katalogų valdymas</strong> galima naudoti toliau nurodyta
 </thead>
 <tbody>
 <tr>
-<td>Prisijunkite prie komercijos vykdymo aplinkos (CRT) duomenų bazės, kurioje, naudojant CRT tarnybas, saugomi kanalo verslo duomenys.</td>
+<td>Prisijunkite prie „Commerce Runtime“ (CRT) duomenų bazės, kurioje, naudojant CRT tarnybas, saugomi kanalo verslo duomenys.</td>
 <td>Palaikomi „OData V3‟.</td>
 <td>Palaikomi „OData V4‟.</td>
 <td>Klientui lengviau neatsilikti nuo „OData‟ standartų. Integruojant pardavimą parduotuvių, mobiliuosiuose ir interneto kanaluose, taip pat sukuriama patikima integruoto kanalo patirtis.</td>
@@ -971,7 +971,7 @@ Yra patobulintas „mažai liečiamas“ kliento komponento diegimas naudojant s
 </tr>
 <tr>
 <td>Stebėkite sistemos būklę ir diagnozuokite klaidas bei problemas.</td>
-<td>Šiai funkcijai reikia <a href="http://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
+<td>Šiai funkcijai reikia <a href="https://www.microsoft.com/download/details.aspx?id=42636">System Center 2012 Management Pack for Microsoft Dynamics AX 2012 R3 CU8 Retail</a>.</td>
 <td>Stebėti ir diagnozuoti „Retail‟ komponentus dabar galima naudojant <strong>Valdymo įžvalgų</strong> ataskaitų sritį LCS.</td>
 <td><strong>Valdymo įžvalgų</strong> ataskaitų sritis yra debesimi paremtas stebėsenos portalas, kuris pašalina poreikį įdiegti sistemos centro operacijų tvarkytuvo (SCOM) infrastruktūrą.</td>
 </tr>

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518630"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577800"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>„Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
 
@@ -115,7 +115,7 @@ Paleiskite šią „PowerApps“ programą kaip administravimo konsolę, norėda
 
 Ši „PowerApps“ programa naudoja daugelio su daugeliu ryšį, todėl galite naudoti ją kaip šabloną kituose scenarijuose, kur jums reikia gauti įrašus, kuriuose yra daugelio su daugeliu ryšių.
 
-Norėdami atsisiųsti **Administravimo konsolę talentų telkiniams valdyti**, eikite į [Administravimo konsolę talentų telkiniams valdyti](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) „Microsoft“ atsisiuntimo centre.
+Norėdami atsisiųsti **Administravimo konsolę talentų telkiniams valdyti**, eikite į [Administravimo konsolę talentų telkiniams valdyti](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) „Microsoft“ atsisiuntimo centre.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

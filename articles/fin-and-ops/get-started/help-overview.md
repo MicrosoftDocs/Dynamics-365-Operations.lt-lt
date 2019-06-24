@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538961"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595644"
 ---
 # <a name="finance-and-operations-help-system"></a>„Finance and Operations” žinyno sistema
 
@@ -192,7 +192,7 @@ Galite sukurti pasirinktinų užduočių vedlių ir taip sukurti vartotojams ski
 | [Docs.microsoft.com](/dynamics365/)                                                            | Visos „Dynamics 365‟ produktų dokumentacijos pagrindiniai kompiuteriai arba saitai į ją. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Nemokama „Microsoft“ „eLearning“ svetainė. |
 | [„Lifecycle Services“](https://lcs.dynamics.com/)\*                                              | Suteikia debesimi paremtą bendradarbiavimo darbo sritį, kurią naudodami klientai ir partneriai gali valdyti „Dynamics 365 for Finance and Operations“ projektus – nuo priešpardaviminės veiklos iki įgyvendinimo ir operacijų. Ši svetainė naudinga visais įgyvendinimo etapais. |
-| [Palaikymo tinklaraštis](http://aka.ms/AXSupportBlog)                                                    | Pateikia patarimų, kuriuos skelbia „Dynamics 365 for Finance and Operations“ palaikymo komanda. |
+| [Palaikymo tinklaraštis](https://aka.ms/AXSupportBlog)                                                    | Pateikia patarimų, kuriuos skelbia „Dynamics 365 for Finance and Operations“ palaikymo komanda. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Čia pateikiamas ankstesnių leidimų turinys. |
 | [„Dynamics‟ bendruomenė](https://community.dynamics.com/)                                          | Saugomi tinklaraščiai, forumai ir vaizdo įrašai. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Pateikiama vertinimo ir pardavimo informacija. |

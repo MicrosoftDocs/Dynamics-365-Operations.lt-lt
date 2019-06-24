@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6923a4d5420cd768d1b0da24eab406033c17fd67
+ms.sourcegitcommit: 06c8dc5bc4e1c41f68e1cda141d61529768be958
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1514444"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594941"
 ---
 # <a name="expense-policies"></a>Išlaidų strategija
 
@@ -44,11 +44,11 @@ Galite apibrėžti trijų tolesnių tipų strategijas.
  
  - Pateisinimas – reikalauja, kad, prieš pateikdamas išlaidų ataskaitą ar kelionės paraišką, darbuotojas ar vadovas įvestų viršytos strategijos sumos pateisinimą.        
 
-# <a name="policy-tips"></a>Strategijos patarimai
+## <a name="policy-tips"></a>Strategijos patarimai
 Pateikiame kelis pasiūlymus, kurie gali padėti sukurti naujas išlaidų valdymo strategijas. 
 * Strategijos įsigalioja nuo nurodytos datos ir neturi įtakos, jei strategija sukurta po patirtų išlaidų. Pavyzdžiui, jei šiandien kuriate naują strategiją, kad išlaidos maistui neviršytų 50 USD, bet kurios esamos išlaidos, įvestos vakar, nebus tikrinamos pagal šią strategiją.
 * Kuriant išlaidų kategorijos strategiją, kurią galima detaliai išvardyti eilutėmis, siūlome pridėti sąlygą dėl išlaidų eilutės tipo. Kai kurios strategijos, pvz., kvito reikalavimas, gali netikti detaliam išvardijimui eilutėmis ir turėtų būti taikomas tik antraštės eilutei arba nedetaliai eilutei. 
 
-# <a name="when-to-evaluate-policies"></a>Kada vertinti strategijas
+## <a name="when-to-evaluate-policies"></a>Kada vertinti strategijas
 
 Išlaidų valdymo parametruose yra parinktis vertinti išlaidų valdymo strategijas, kai eilutė įrašoma, arba kai pateikiama išlaidų ataskaita. Jei pasirinksite įvertinti, kai eilutė įrašoma, užtikrinsite, kad vartotojai iš anksto matys, ką reikia padaryti, kad iš karto užbaigtų savo išlaidų ataskaitą. Kitu atveju, galite atidėti strategijos vertinimą ir sutaupyti laiko, jei patikrinimas atliekamas pabaigoje, pateikimo į darbo eigą metu.

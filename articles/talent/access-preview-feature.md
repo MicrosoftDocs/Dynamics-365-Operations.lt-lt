@@ -1,9 +1,9 @@
 ---
-title: Prieiga prie „Talent“ peržiūros funkcijų
-description: Šioje temoje aprašoma, kaip administratorius gali įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
+title: Prieiga prie „Microsoft Dynamics 365 for Talent“ peržiūros funkcijų
+description: Šioje temoje aprašoma, kaip administratorius gali įjungti „Microsoft Dynamics 365 for Talent“ peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
 author: tracykeya
 manager: AnnBe
-ms.date: 04/29/2019
+ms.date: 05/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,77 +18,105 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2858451435c358380503c8edc5cb162e6834894a
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518688"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620601"
 ---
 # <a name="access-preview-features-in-talent"></a>Prieiga prie „Talent“ peržiūros funkcijų
 
 [!include[banner](../includes/banner.md)]
 
-Mūsų nuolatinis produkto galimybių išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Administratoriai gali matyti ir naudoti peržiūros funkcijas savo aplinkoje. Šios funkcijos yra beveik paruoštos bendrajam prieinamumui ir jau atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
+Mūsų nuolatinis žmogiškųjų išteklių kapitalo valdymo (HCM) galimybių, skirtų „Microsoft Dynamics 365 for Talent“, išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Administratoriai gali matyti ir naudoti peržiūros funkcijas savo aplinkoje. Šios funkcijos yra beveik paruoštos bendrajam prieinamumui ir jau atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
 
-Šioje temoje aprašoma, kaip administratorius gali įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurias šiuo metu galima naudoti peržiūroje. Šis sąrašas bus atnaujintas išleidus funkcijas bendrajam prieinamumui ir kai bus išleista naujų peržiūros funkcijų. Pranešimas nepateikiamas, kai išleidžiamos naujos peržiūros funkcijos. Vartotojai tiesiog jau galės matyti šias funkcijas.
+Šioje temoje aprašoma, kaip galima įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurias šiuo metu galima naudoti peržiūroje. Šis sąrašas bus atnaujintas išleidus funkcijas bendrajam prieinamumui ir kai bus išleista naujų peržiūros funkcijų. Pranešimas nepateikiamas, kai išleidžiamos naujos peržiūros funkcijos. Vartotojai tiesiog jau galės matyti šias funkcijas. Daugiau informacijos apie naujas „Talent“ funkcijas žr. [Kas nauja arba pakeista programoje „Dynamics 365 for Talent“](./whats-new.md)ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Peržiūros funkcijų įjungimas arba išjungimas
 
-Naudodami parametrą **Peržiūros funkcijos** „Microsoft Dynamics 365 for Talent“ administravimo centre įjunkite arba išjunkite peržiūros funkcijas. Pagal numatytuosius nustatymus šis parametras yra išjungtas. Peržiūros funkcijų įjungimo arba išjungimo veiksmas priklauso nuo aplinkos.
+Norėdami pasiekti peržiūros funkcijas, pirmiausia turite jas įjungti savo aplinkoje. Peržiūros funkcijų įjungimas arba išjungimas priklauso nuo aplinkos.
 
 > [!IMPORTANT]
-> Įjungę parametrą **Peržiūros funkcijos**, peržiūros funkcijas įjungsite visiems jūsų organizacijoje dirbantiems vartotojams, esantiems šioje aplinkoje. Išjungę šį parametrą, peržiūros funkcijas išjungsite ir jos taps nepasiekiamos jūsų vartotojams. Peržiūros funkcijos programoje „Talent“ turi ribotą palaikymą. Galima naudoti mažiau privatumo ir saugos priemonių, jos nėra įtrauktos į „Talent“ teikiamų paslaugų sutartį. Asmens duomenims (t. y., bet kokiai informacijai, kuri galėtų jus identifikuoti) arba kitiems duomenims, kuriems yra taikomi teisiniai ar atitikties reikalavimai, apdoroti nenaudokite peržiūros funkcijų.
+> Įjungę nustatymą **Peržiūros funkcijos**, peržiūros funkcijas įjungsite visiems jūsų organizacijoje dirbantiems vartotojams, esantiems šioje aplinkoje. Išjungę šį parametrą, peržiūros funkcijas išjungsite ir jos taps nepasiekiamos jūsų vartotojams. Peržiūros funkcijos programoje „Talent“ turi ribotą palaikymą. Galima naudoti mažiau privatumo ir saugos priemonių, jos nėra įtrauktos į „Talent“ teikiamų paslaugų sutartį (SLA). Asmens duomenims (t. y., bet kokiai informacijai, kuri galėtų jus identifikuoti) arba kitiems duomenims, kuriems yra taikomi teisiniai ar atitikties reikalavimai, apdoroti nenaudokite peržiūros funkcijų.
 
-### <a name="enable-or-disable-preview-features-for-your-organization"></a>Peržiūros funkcijų įjungimas arba išjungimas jūsų organizacijoje
-
-#### <a name="attract"></a>Traukti
+### <a name="attract"></a>Traukti
 
 1. Prisijunkite prie „Microsoft Dynamics 365 for Talent: Attract“.
-2. Meniu **Sąranka** (krumpliaračio simbolis) viršutiniame dešiniajame kampe pasirinkite **Administratoriaus parametrai**.
-3. Skirtuke **Funkcijų valdymas** pasirinkite šalia **Peržiūros funkcijos** esančią parinktį, kad ji būtų pažymėta mėlynai.
-4. Pasirinktinai galite valdyti atskiras funkcijas įjungdami / išjungdami konkrečias funkcijas šiame puslapyje.
-5. Atnaujinkite naršyklę, kad galėtumėte matyti naujas funkcijas. (Vartotojai, kurie jau yra prisijungę, funkcijas matys prisijungę kitą kartą, arba jie gali atnaujinti savo naršyklę, kad funkcijas pamatytų nedelsiant.)
+2. Meniu **Sąranka** (krumpliaračio simbolis) viršutiniame dešiniajame kampe pasirinkite **Administravimo centras**.
+3. Skirtuke **Funkcijų valdymas** pasirinkite šalia **Peržiūros funkcijos** esančią parinktį, kad ji būtų pažymėta mėlynai ir būtų **Įjungta**.
 
-#### <a name="core-hr"></a>„Core HR“
+    ![Peržiūros funkcijų įjungimas programoje „Attract“](./media/attract-enable-preview-features.png)
 
-1. Prisijunkite prie „Talent“. Bus atidaryta pagrindinė personalo darbo sritis, iš kurios turite atlikti likusius veiksmus. 
-2. Pasirinkite **Sistemos administravimas \> Sistemos siejimo parametrai**.
-3. Puslapio **Sistemos parametrai** skirtuke **Peržiūros funkcijos** parinktį **Įjungti peržiūros režimą visiems vartotojams** nustatykite į **Taip**, kad peržiūros funkcijos būtų pasiekiamos.
+4. Pažymėkite arba atšaukite atskirų peržiūros funkcijų žymėjimą. Jei nedarysite nieko, bus įjungtos visos galimos peržiūros funkcijos.
+5. Atnaujinkite naršyklę, kad galėtumėte matyti naujas funkcijas. Vartotojai, kurie jau yra prisijungę, funkcijas matys prisijungę kitą kartą, arba jie gali atnaujinti savo naršyklę, kad funkcijas pamatytų nedelsiant.
 
 > [!NOTE]
-> Norėdami išjungti peržiūros funkcijas, naudokite tuos pačius pagrindinius veiksmus. Išjungus peržiūros funkcijas, jos taps nepasiekiamos vartotojams ir gali įvykti klaidų tuose procesuose, kurie yra susiję su šiomis funkcijomis.
+> Kai kurias peržiūros funkcijas gali reikėti papildomai konfigūruoti. Norėdami baigti sąranką, vadovaukitės greta peržiūros funkcijos pateiktais saitais.
+
+### <a name="core-hr"></a>„Core HR“
+
+1. Prisijunkite prie „Talent“.
+2. Pasirinkite **Sistemos administravimas**, tada pasirinkite skirtuką **Saitai**.
+3. Puslapio **Sistemos administravimas** skiltyje **Sąranka** pasirinkite **Sistemos parametrai**.
+4. Puslapyje **Sistemos parametrai** pasirinkite skirtuką **Peržiūros funkcijos**.
+5. Nustatykite parinkties **Įjungti peržiūros režimą visiems vartotojams** vertę **Taip**, kad peržiūros funkcijos būtų pasiekiamos.
+
+    ![Peržiūros funkcijų įjungimas programoje „Core HR“](./media/corehr-enable-preview-features.png)
+
+> [!NOTE]
+> Norėdami peržiūros funkcijas išjungti, atlikite tuos pačius veiksmus, bet nustatykite parinkties **Įjungti peržiūros režimą visiems vartotojams** vertę **Ne**. Išjungus peržiūros funkcijas, jos taps nepasiekiamos vartotojams ir gali įvykti klaidų tuose procesuose, kurie yra susiję su šiomis funkcijomis.
+
+### <a name="onboard"></a>Priėmimas
+
+Šiuo metu nėra peržiūros funkcijų, skirtų „Microsoft Dynamics 365 for Talent: Onboard“.
 
 ## <a name="features-that-are-currently-in-preview"></a>Funkcijos, kurios šiuo metu yra peržiūroje
 
 ### <a name="attract"></a>Traukti
 
-- **Kandidatai, tinkami užduočiai atlikti** – darbdaviai ir samdos vadovai galės lengvai pamatyti, kurie kandidatai iš visų pretendentų gali būti tinkamiausi užduočiai atlikti. 5 tinkamiausi pretendentai rodomi pagal jų CV / profilio svarbą, atsižvelgiant į užduoties aprašą.
-- **Tinkamos užduotys** – dabar kandidatai mato kitų užduočių, kurios jiems tinka atsižvelgiant į jų CV / profilį ir užduočių aprašus, sąrašą.  Šiuo metu tai rodoma kandidatams, kai jie pateikia paraišką kaip pasiūlymą kitoms galimybėms.
-- **EEO / OFCCP palaikymas** – nauji veiklos tipai suteikia galimybę naudoti iš anksto nustatytą formą renkant Vienodų įdarbinimo galimybių (EEO) ir Federalinių sutarčių atitikties programų biuro (OFCCP) duomenis iš kandidato.  Tai yra iš anksto nustatyta forma ir jos redaguoti negalima.
-
-    > [!NOTE]
-    > Užregistruoti darbai matomi tik tiems klientams, kurie yra užsiprenumeravę vieną ar daugiau „LinkedIn“ užduočių sąrašo produktų. Kitu atveju, klientai darbą matys tik tada, jei tiesiogiai jo ieškos. Kai darbai registruojami „LinkedIn“, įvyksta delsa. Kad užduotis būtų parodyta, gali užtrukti keletą valandų po to, kai ji registruojama iš „Attract“.
-
-- **Kandidato prašymas** – ir vidiniai, ir išoriniai kandidatai dabar gali prašymą pateikti tiesiogiai iš darbo puslapio karjeros svetainėje.
-- **Pasiūlymų valdymas** – vartotojai dabar gali kurti pasiūlymo laiškus iš šablonų, kuriuose yra vietos rezervavimo ženklai. Kai kandidatai pereina į pasiūlymo etapą, darbdaviai ir samdos vadovai gali naudoti įrankį Pasiūlymas kandidato oficialiam pasiūlymui parengti naudojant šablonus, siųsti pasiūlymą vidiniam patvirtinimui ir galiausiai siųsti pasiūlymą kandidatui pasirašyti. Daug naujų galimybių bus pridėtos prie įrankio Pasiūlymas per tam tikrą laiką, o peržiūros funkcija bus atnaujinta šiomis galimybėmis, nes esame pasiruošę išleisti jas peržiūrėti.
-- **[Analitinės ataskaitos](analytic-reports.md)** – samdos komandos gali peržiūrėti vienos užduoties pagrindinę metriką su darbo analize arba apibendrintą visų darbų metriką Analizės telkinyje.
+- [Kandidato rekomendacija](./intelligent-recommendations.md#candidate-recommendations) – jei bet kurioms pareigoms užimti yra daugiau negu dešimt kandidatų arba potencialių klientų, turinčių CV ir visos apimties profilius, darbo puslapio srityje **Pretendentai** rodomi labiausiai pareigų reikalavimus atitinkantys kandidatai arba potencialūs klientai.
+- [Darbo rekomendacija](./intelligent-recommendations.md#job-recommendations) – jei jūsų karjeros svetainėje užregistruota daugiau kaip dešimt darbo vietų, „Attract“ pateiks darbo rekomendacijas potencialiems klientams.
+- [„Broadbean“ integravimas](./posting-jobs-external.md#post-jobs-to-broadbean) – galite registruoti užduotis iš „Attract“ į „Broadbean“, išorinę darbo vietų registravimo svetainę. Įjungę šią peržiūros funkciją turite baigti sąranką įvesdami savo „Broadbean“ vartotojo vardą, kliento ID ir šifravimo atpažinimo ženklą.
+- [Analizė](./analytic-reports.md) – analizės telkinyje samdos komandos gali peržiūrėti vienos užduoties pagrindinę metriką ir sujungtą visų darbų metriką.
+- [EEO](./activities-attract.md) – nauji veiklos tipai suteikia galimybę naudoti iš anksto nustatytą formą renkant Vienodų įdarbinimo galimybių (EEO) ir Federalinių sutarčių atitikties programų biuro (OFCCP) duomenis iš kandidato. Iš anksto nurodytos formos redaguoti negalima.
+- [Potencialaus kliento rekomendacija](./intelligent-recommendations.md#prospect-recommendations) – „Attract“ peržiūri pretendentus ir esamus kandidatus, kad pateiktų potencialių klientų, tinkančių darbui, sąrašą.
+- [Tinkamumo ieška](./attract-talent-pools.md#search-and-view-candidate-profiles) – galite ieškoti visoje kandidatų duomenų bazėje konkrečių įgūdžių, asmenvardžių ar išsilavinimo informacijos. „Attract“ ieško visame profilyje ir paryškina visus rastus atitikmenis. „Attract“ taip pat ieško visuose kandidato dokumentuose ir išmaniai rikiuoja ieškos rezultatus.
+- [Veiklos auditorija](./whats-new-talent-march-20.md#setting-the-audience-on-activities) – galite nustatyti veiklų (pvz., Pokalbis, Grafikas arba Atsiliepimas) auditoriją į **Visi kandidatai**, **Vidiniai kandidatai** arba **Išoriniai kandidatai**. Kliento veiklą, pvz., „YouTube“ vaizdo įrašus, žiniatinklio turinį ir „Microsoft Forms“, galima teikti visiems kandidatams, tik vidiniams kandidatams, tik išoriniams kandidatams arba samdos komandai.
+- [Paraiškos teikimas naudojant „LinkedIn“](./career-site.md#enable-applying-for-jobs-with-linkedin-profiles) – „Attract“ karjeros svetainėje galite nustatyti pasirinktį, suteikiančią galimybę kandidatams teikti paraišką naudojant „LinkedIn“. Ši funkcija supaprastina kandidatų paraiškų procesą, nes jie gali naudoti savo „LinkedIn“ profilį ir automatiškai užpildyti informaciją karjeros svetainės paraiškoje.
+- [Šaltinio sekimas](./source-tracking.md) – „Attract“ seka kandidato paraiškų šaltinį, kad pateiktų vertingą informaciją, kurią naudodami galite tinkama linkme nukreipti įdarbinimo operacijas. Taip pat galite pasirinkti paraiškos šaltinį, kai įtraukiate kandidatą į darbų arba talentų telkinį.
+- [Sidabro medalio laimėtojas](./whats-new-talent-march-20.md#designate-silver-medalists-to-assign-high-value-applicants-for-future-positions) – jei kandidatas puikiai tinka jūsų organizacijai, bet jūs nepasiūlėte jam užimti esamą darbo vietą, galite jį nustatyti kaip sidabro medalio laimėtoją. Ši funkcija padeda sutrumpinti samdymo laiką ateityje, kai ieškosite kandidatų į panašią darbo vietą.
 
 ### <a name="core-hr"></a>„Core HR“
 
-- **Atidaryti registraciją** – atidarytos registracijos išmokos suteikia darbuotojams paprastą savitarnos patirtį savo išmokoms pasirinkti. Personalo išteklių administratoriai gali konfigūruoti atidarytą išmokų procesą savo organizacijoje ir darbuotojų registracijos patirtį, naudodami lengvai naudojamą valdomą sprendimą.
+- [Pareigų hierarchijos duomenų patvirtinimas](./whats-new-talent-may-13-2019.md#new-page-to-validate-position-hierarchy-data) – galite patvirtinti visų ciklinių nuorodų, kurios buvo netyčia importuotos, valdymo hierarchiją.
+- [Nurodykite nedarbo laiko tipų priežasčių kodus](./whats-new-talent-may-13-2019.md#specify-reason-codes-on-leave-types) – galite nurodyti nedarbo laiko tipų priežasčių kodus.
+- [Reikalaukite priežasčių kodų nedarbo laiko užklausose](./whats-new-talent-may-13-2019.md#require-reason-codes-for-specific-leave-types-on-time-off-requests) – galite reikalauti nurodyti ne tik nedarbo laiko tipų priežasčių kodus, bet ir nedarbo laiko užklausų priežasčių kodus.
+- [Pateikite personalo skyriui nedarbo laiko arba neatvykimo operacijų sąrašą](./whats-new-talent-may-13-2019.md#provide-a-leave-and-absence-transaction-list-for-hr) – galite peržiūrėti nedarbo laiko ir neatvykimo operacijų sąrašą, kad lengviau pateiktumėte įžvalgų apie nedarbo laiko balansus.
+
+### <a name="onboard"></a>Priėmimas
+
+Šiuo metu nėra peržiūros funkcijų, skirtų „Onboard“.
 
 ## <a name="feedback"></a>Grižt. ryšys
 
-Neatsižvelgiant į tai, ar atsiliepimai yra teigiami, ar neigiami, norime sulaukti jūsų atsiliepimų apie peržiūros funkcijos naudojimą. Skatiname reguliariai registruoti savo atsiliepimą apie šias svetaines, kaip naudojate šias arba bet kurias kitas funkcijas.
+Norime sužinoti jūsų nuomonę apie jūsų įspūdžius naudojant šias peržiūras funkcijas. Naudojant šias arba bet kurias kitas funkcijas, skatiname reguliariai registruoti savo atsiliepimus toliau nurodytose svetainėse.
 
 - [Bendruomenė](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – ši svetainė yra puikus šaltinis, kuriame vartotojai gali diskutuoti, naudoti atvejus, užduoti klausimų ir gauti bendruomenės pagalbos.
-- Naudokite šias svetaines norėdami siūlyti produkto idėjas. Praneškite mums apie savybes, kurias norite matyti produkte, taip pat ir apie pakeitimus, kurie jūsų manymu turi būti atlikti esamoms funkcijoms.
+- Praneškite mums apie funkcijas, kurias norite matyti produkte, arba praneškite apie esamų funkcijų pakeitimus, kurie, jūsų manymu, turi būti atlikti. Naujas idėjas siūlykite toliau nurodytose svetainėse.
 
-    - [Pritraukti idėjų](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
-    - [„Core HR“](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [„Attract“ idėjos](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
+    - [„Core HR“ idėjos](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+    - [„Onboard“ idėjos](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)
 
-Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identifikuoti) į savo atsiliepimą ar produkto peržiūros pateikimus. Surinkta informacija gali būti analizuojama toliau, ji nebus naudojama atsakyti į užklausas pagal taikomus privatumo įstatymus. Atskirai surinktiems asmeniniams duomenims pagal šias programas taikomos [„Microsoft“ privatumo nuostatos](https://privacy.microsoft.com/privacystatement).
+Įsitikinkite, kad neįtraukėte asmeninių duomenų (bet kokios informacijos, kuri gali jus identifikuoti) į savo atsiliepimą ar produkto peržiūros pateikimus. Surinkta informacija gali būti analizuojama toliau, ji nebus naudojama atsakyti į užklausas pagal taikomus privatumo įstatymus. Atskirai surinktiems asmeniniams duomenims pagal šias programas taikomos [„Microsoft“ privatumo nuostatos](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Pasižymėkite šią temą ir dažnai prie jos grįžkite, kad sužinotumėte apie naujas peržiūros funkcijas, kai jas išleisime.
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+- [Išbandykite arba įsigykite „Talent“ programas](https://dynamics.microsoft.com/talent/overview/)
+- [Kas nauja](./whats-new.md)
+- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Pagalba dėl „Talent“](./talent-support.md)

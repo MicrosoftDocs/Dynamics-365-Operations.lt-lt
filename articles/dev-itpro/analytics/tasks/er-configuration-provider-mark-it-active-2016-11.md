@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544914"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595400"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais
 
@@ -34,11 +34,11 @@ ms.locfileid: "1544914"
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
 2. Spustelėkite Konfigūracijų teikėjai.
 3. Spustelėkite Naujas.
-    * Teikėjo įrašas turi unikalų pavadinimą ir URL. Peržiūrėkite šio puslapio turinį ir praleiskite šią procedūrą, jei „Litware, Inc.“ (http://www.litware.com) įrašas jau egzistuoja.  
+    * Teikėjo įrašas turi unikalų pavadinimą ir URL. Peržiūrėkite šio puslapio turinį ir praleiskite šią procedūrą, jei „Litware, Inc.“ (https://www.litware.com) įrašas jau egzistuoja.  
 4. Lauke Pavadinimas surinkite „Litware, Inc.‟.
     * „Litware, Inc.‟  
-5. Lauke Interneto adresas įrašykite „http://www.litware.com“.
-    * http://www.litware.com  
+5. Lauke Interneto adresas įrašykite „https://www.litware.com“.
+    * https://www.litware.com  
 6. Spustelėkite Įrašyti.
 7. Uždarykite puslapį.
 

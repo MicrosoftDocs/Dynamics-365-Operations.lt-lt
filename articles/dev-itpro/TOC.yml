@@ -227,8 +227,9 @@
             - name: X klasės
               href: dev-ref/x-classes.md
     - name: Išplečiamumas
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: Išplečiamumo pagrindinis puslapis
+          href: extensibility/extensibility-home-page.md
         - name: Įvadas ir darbo pradžia
           items:
             - name: Programų išplečiamumo planas
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: Kas nauja
           items:
-            - name: "Išplečiamumo pakeitimai (2017\_m. liepos mėn.)"
-              href: extensibility/changes-july-2017.md
-            - name: Išplečiamumo pakeitimai 7.3 versijoje
-              href: extensibility/extensibility-changes-73.md
-            - name: Išplečiamumo pakeitimai 8.0 versijoje
-              href: extensibility/changes-80.md
-            - name: Išplečiamumo pakeitimai (versija 8.0.1)
-              href: extensibility/extensibility-changes-801.md
-            - name: Išplečiamumo pakeitimai (8.0.2 versija)
-              href: extensibility/extensibility-changes-802.md
-            - name: Išplečiamumo pakeitimai (8.0.3 versija)
-              href: extensibility/extensibility-changes-803.md
-            - name: Išplečiamumo pakeitimai (8.0.4 versija)
-              href: extensibility/extensibility-changes-804.md
-            - name: Išplečiamumo pakeitimai (8.1 versija)
-              href: extensibility/extensibility-changes-81.md
-            - name: Išplečiamumo pakeitimai (8.1.1 versija)
-              href: extensibility/extensibility-changes-811.md
-            - name: Išplečiamumo pakeitimai (8.1.2 versija)
-              href: extensibility/extensibility-changes-812.md
-            - name: Išplečiamumo pakeitimai (8.1.3 versija)
-              href: extensibility/extensibility-changes-813.md
+            - name: Kas nauja ar pasikeitė išplečiamumo klausimu
+              href: extensibility/extensibility-new.md
+            - name: Išplečiamumo pakeitimai (10.0.3 versija)
+              href: extensibility/extensibility-changes-10-3.md
+            - name: Išplečiamumo pakeitimai (10.0.2 versija)
+              href: extensibility/extensibility-changes-10-2.md
+            - name: Išplečiamumo pakeitimai (10.0.1 versija)
+              href: extensibility/extensibility-changes-10-1.md
             - name: Išplečiamumo pakeitimai (10.0 versija)
               href: extensibility/extensibility-changes-10.md
-            - name: Išplečiamumo pakeitimai (versija 10.0.1)
-              href: extensibility/extensibility-changes-10-1.md
-            - name: Išplečiamumo pakeitimai (versija 10.0.2)
-              href: extensibility/extensibility-changes-10-2.md
-            - name: Išplečiamumo pakeitimai (versija 10.0.3)
-              href: extensibility/extensibility-changes-10-3.md
+            - name: Išplečiamumo pakeitimai (8.1.3 versija)
+              href: extensibility/extensibility-changes-813.md
+            - name: Išplečiamumo pakeitimai (8.1.2 versija)
+              href: extensibility/extensibility-changes-812.md
+            - name: Išplečiamumo pakeitimai (8.1.1 versija)
+              href: extensibility/extensibility-changes-811.md
+            - name: Išplečiamumo pakeitimai (8.1 versija)
+              href: extensibility/extensibility-changes-81.md
+            - name: Išplečiamumo pakeitimai (8.0.4 versija)
+              href: extensibility/extensibility-changes-804.md
+            - name: Išplečiamumo pakeitimai (8.0.3 versija)
+              href: extensibility/extensibility-changes-803.md
+            - name: Išplečiamumo pakeitimai (8.0.2 versija)
+              href: extensibility/extensibility-changes-802.md
+            - name: Išplečiamumo pakeitimai (8.0.1 versija)
+              href: extensibility/extensibility-changes-801.md
+            - name: Išplečiamumo pakeitimai 8.0 versijoje
+              href: extensibility/changes-80.md
+            - name: Išplečiamumo pakeitimai 7.3 versijoje
+              href: extensibility/extensibility-changes-73.md
+            - name: "Išplečiamumo pakeitimai (2017\_m. liepos mėn.)"
+              href: extensibility/changes-july-2017.md
         - name: Pagrindai
           items:
             - name: Nepageidaujami tinkinimai
@@ -357,12 +360,18 @@
               href: extensibility/extensibility-attributes.md
             - name: Gedimų sukeliantys keitimai
               href: extensibility/breaking-changes.md
-    - name: Našumas
+    - name: Efektyvumas
       items:
         - name: Sekimas naudojant „Trace parser“
           href: perf-test/trace-trace-tutorial.md
-        - name: Našumo SDK ir kelių vartotojų bandymas naudojant „Visual Studio Online“
-          href: perf-test/perfsdk-tutorial.md
+        - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir našumo SDK
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: Kelių vartotojų aplinkos bandymas naudojant našumo SDK ir vietinį bandymo valdiklį
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: Kelių vartotojų aplinkos bandymas naudojant našumo SDK ir „Azure DevOps“
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: Vieno vartotojo arba kelių vartotojų aplinkos bandymo naudojant našumo SDK trikčių diagnostikos vadovas
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: Našumo SDK ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: Problemų diagnozavimas ir efektyvumo analizavimas naudojant „Trace parser”
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: Valiutų kursų teikėjų kūrimas „Finance and Operations“ 8.0 versijoje
           href: financial/create-exchange-rate-8.md
+    - name: 'Operacijų sudengimas naudojant CustTrans::settleTransaction'
+      href: financial/settletransact-obsolete.md
 - name: Tiekimo grandinės kūrimas
   items:
     - name: Gantt valdiklio kūrimo vadovas

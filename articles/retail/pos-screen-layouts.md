@@ -3,7 +3,7 @@ title: Elektroninio kasos aparato (EKA) ekrano maketai
 description: Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 for Retail“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
 author: jblucher
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e9536563ce7ddfc4aef54ae05267316ea8139263
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549433"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1607047"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Elektroninio kasos aparato (EKA) ekrano maketai
 
@@ -51,6 +51,7 @@ Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparat
 - **Tema** – galite pasirinkti šviesią arba tamsią programos temą. Nuo temos priklauso visos programos šriftų ir fono spalvos.
 - **Akcento spalva** – tai spalva, kuri naudojama elektroniniame kasos aparate norint atskirti arba paryškinti konkrečius vaizdo elementus, pvz., plyteles, komandų mygtukus ir hipersaitus. Paprastai su šiais elementais galima atlikti veiksmų.
 - **Antraštės spalva** – puslapio antraštės spalvą galite konfigūruoti pagal pardavėjo prekių ženklų reikalavimus. Ši funkcija pasiekiama tik „Microsoft Dynamics 365 for Retail“ 1611 versijoje.
+- **Rodyti datą / laiką** – įjungus dabartiniai data ir laikas bus rodomi EKA antraštėje.
 - **Prisijungimo fonai** – gali nurodyti, koks fono vaizdas bus naudojamas prisijungimo ekrane. Fono vaizdų failų dydis turėtų būti kuo mažesnis, nes saugant ir įkeliant didelius failus gali pablogėti programos veikimas ir našumas.
 - **Programos fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos. Kaip ir prisijungimo fonų, šių fonų failų dydis turėtų būti kuo mažesnis.
 

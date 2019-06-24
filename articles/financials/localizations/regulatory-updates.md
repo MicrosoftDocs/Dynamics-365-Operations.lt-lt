@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 for Finance and Operations“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530712"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593348"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -39,7 +39,7 @@ Planuojame išleisti reglamentavimo naujinimus vienos versijos paslaugų naujini
 
 Jei paskelbimo datos yra vėlyvos, reglamentavimo informacijos arba tikrinimo įrankių pasiekiamumas yra vėlyvas arba jei pakeitimai yra itin dideli ir sudėtingi, gali nepavykti išleisti reglamentavimo naujinio iki mėnesio naujinio bendro išleidimo datos. Tokiais atvejais reglamentavimo naujinys bus išleistas kaip karštosios pataisos, skirtos kai kuriems teikiamiems mėnesio naujiniams.
 
-Naujausių reglamentavimo naujinių planų žr. toliau pateiktoje lentelėje. 
+Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelėje. 
 
 |Suplanuota išleidimo data|Leidimo versija|Šalis|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------|
@@ -52,9 +52,20 @@ Naujausių reglamentavimo naujinių planų žr. toliau pateiktoje lentelėje.
 |      Balandžio 2019          |   10.0.1      |   Vokietija     |El. sąskaitų faktūrų išrašymas – klientų sąskaitos faktūros eksportuojamos „xRechnung“ 1.1 formatu         |
 |      Balandžio 2019          |   10.0.1      |    Jungtinė Karalystė     |[PVM išrašo pateikimo pakeitimai (įrašų pavertimas skaitmeniniais)](emea-gbr-mtd-vat-integration.md)    |    
 |      Balandžio 2019          |   10.0.1      |    Brazilija     |„NF-e“ e nauja NT 2018.005         |
-|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m.         |
-|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygos) 
+|      Balandžio 2019          |   10.0.1      |    Rusija     |[PVM deklaracijos formato pakeitimai nuo 2019 m.](rus-VAT-declaration.md) |
+|      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygos) |
+|      Balandžio 2019          |   10.0.1      |    Rusija     |Žemės mokesčio deklaracijos pakeitimai nuo 2018 m. |
+|      Balandžio 2019          |   10.0.1      |    Rusija     |[Turto mokesčio deklaracijos pakeitimai nuo 2019 m.](rus-assessed-tax-declaration.md)|
+|      Balandžio 2019          |   10.0.1      |    Rusija     |Transporto mokesčio deklaracijos pakeitimai nuo 2019 m.  |
+|      Balandžio 2019            |   10.0.1      | Vengrija      |  Vengrija: internetinių sąskaitų išrašymas v.1.1 2019 m. naudojant „Microsoft Dynamics 365 for Finance and Operations“  |
 |      Gegužės 2019            |   10.0.2      | Brazilija      |   SPED ECD 7 maketas   |
+|      Laukiama            |   10.0.3      | Brazilija      |   NF-e naujas NT 2018.005 - v. 1.20   |
+|      Laukiama            |   10.0.3      | Brazilija      |   SPED ECD 7 maketas   |
+|      Laukiama            |   10.0.3      | Brazilija      |   SPED ECF - 5 maketas 2019 m.   |
+|      Laukiama            |   10.0.3      | Lietuva    |   i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais    |
+|      Laukiama            |   10.0.3      | Lenkija     |   SAF sąskaitos faktūros (JPK_FA) v.2 nuo 2019 m. liepos 1 d.  |
+|      Laukiama            |   10.0.3      | Brazilija   |   ICMS finansinio dokumento koregavimų įgalinimo lentelė 5.2   |
+|      Laukiama            |   10.0.3      | Brazilija    |   NF-e dekretas 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

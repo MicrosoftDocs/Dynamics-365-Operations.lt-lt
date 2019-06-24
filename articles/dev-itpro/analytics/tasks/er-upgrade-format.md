@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544454"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595445"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją
 
@@ -36,7 +36,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūrų „Konf
 
 ## <a name="select-format-configuration-for-customization"></a>Formato konfigūracijos pasirinkimas tinkinti
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Šiame pavyzdyje pavyzdinė įmonė „Litware, Inc.“ (http://www.litware.com) veiks kaip konfigūracijų teikėjas, kuris palaiko konkrečios šalies elektroninių mokėjimų formato konfigūracijas.    Pavyzdinė įmonė „Proseware, Inc.‟ (http://www.proseware.com) veiks kaip formato konfigūracija, kurią pateikė „Litware, Inc.‟ „Proseware, Inc.“ naudoja formatus tam tikruose tos šalies regionuose.  
+    * Šiame pavyzdyje pavyzdinė įmonė „Litware, Inc.“ (https://www.litware.com) veiks kaip konfigūracijų teikėjas, kuris palaiko konkrečios šalies elektroninių mokėjimų formato konfigūracijas.    Pavyzdinė įmonė „Proseware, Inc.‟ (http://www.proseware.com) veiks kaip formato konfigūracija, kurią pateikė „Litware, Inc.‟ „Proseware, Inc.“ naudoja formatus tam tikruose tos šalies regionuose.  
 2. Spustelėkite Ataskaitų konfigūracijos.
 3. Spustelėkite Rodyti filtrus.
 4. Taikykite šiuos filtrus: lauke „Pavadinimas” įveskite filtro reikšmę „BACS (JK fiktyvus)” naudodami filtro operatorių „prasideda‟

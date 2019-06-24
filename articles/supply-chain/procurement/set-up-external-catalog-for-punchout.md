@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571643"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595616"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
@@ -59,8 +59,10 @@ Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreip
 4. Pasirinkite katalogo tiekėją. Sąraše **Juridiniai subjektai** eilutėmis pateikti visi juridiniai subjektai, kuriuose nustatytas tiekėjas. Norėdami, kad vartotojai produktų užklausas teikti tiesiogiai tiekėjo kataloge galėtų tik kai kuriuose juridiniuose subjektuose, prie kiekvieno juridinio subjekto, kuriame norite nustatyti katalogo pasiekiamumą, galite naudoti mygtukus **Neleisti prieigos** arba **Leisti prieigą**.
 5. Lauke **Numatytoji galiojimo pabaiga (dienomis)** įveskite skaičių dienų, kurių metu galioja iš išorinio katalogo gautas pasiūlymas ir kurį naudojant galima pirkti iš išorinio tiekėjo. Sukūrus pasiūlymą ir jį gavus iš tiekėjo išorinio katalogo svetainės, pasiūlymas galioja nuo esamos sistemos datos ir galioja tokį dienų skaičių, kurį įrašėte šiame lauke.
 6. Spustelėkite mygtuką **Įtraukti**, kad įsigijimo kategorijas pradėtumėte sieti su išoriniu katalogu.Tada sąraše Kategorijos pavadinimas pasirinkite kategoriją. Kategorijų sąrašas yra įsigijimo kategorijų, su kuriomis tiekėjas susietas visuose nustatytuose jo juridiniuose subjektuose, antaibis.
-[!NOTE]
-Įsigijimo strategijos naudojamos leidžiant arba ribojant perkančio juridinio subjekto arba priimančio valdymo vieneto prieigą prie kategorijų.Norint išeiti į išorinį katalogą, reikia leisti prieigą prie bent vienos su katalogu susietos įsigijimo kategorijos.
+
+    > [!NOTE]
+    > Įsigijimo strategijos naudojamos leidžiant arba ribojant perkančio juridinio subjekto arba priimančio valdymo vieneto prieigą prie kategorijų.Norint išeiti į išorinį katalogą, reikia leisti prieigą prie bent vienos su katalogu susietos įsigijimo kategorijos.
+
 7. Nustatykite cXML sąrankos užklausos pranešimą, kuris bus išsiųstas tiekėjui. Automatiškai sugeneruotas pranešimo formatas yra minimalus šablonas, kurio reikia norint pradėti seansą. Įveskite žymių reikšmes.
 
 Sistemos sugeneruotą pranešimo šabloną galite bet kuriuo metu iš naujo įkelti spustelėdami **Atkurti pranešimo formatą**. 
@@ -85,7 +87,7 @@ Toliau galite rasti į šabloną įtrauktų žymių aprašą.
 
 Neesminis elementas yra papildoma informacija, pvz., išeinančio vartotojo vardas. Neesminis elementas nustatomas išeinant ir jį galima siųsti užklausos sąrankos pranešime.
 Jūsų tiekėjas gali reikalauti neesminį elementą gauti sąrankos užklausoje. Tokiu atveju neesminį elementą turite įtraukti į neesminių elementų sąrašą, esantį puslapio **Išorinis katalogas** skyriuje **Pranešimo formatas**. Nurodykite neesminio elemento pavadinimą, kurį galėtų atpažinti tiekėjas, ir susiekite jį su reikšme. Reikšmių parinktys: Vartotojo vardas, Vartotojo el. pašto adresas arba Atsitiktinė reikšmė.
-Daugiau informacijos apie cXML protokolą ieškokite http://cxml.org/.
+Daugiau informacijos apie cXML protokolą rasite [cXML.org svetainėje](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Grįžtamojo registravimo pranešimas
 Grįžtamojo registravimo pranešimas – tai iš tiekėjo gaunamas pranešimas, kai vartotojas išsiregistruoja iš išorinės svetainės ir grįžta į „Finance and Operations“. Grįžtamojo registravimo pranešimų konfigūruoti negalima. Pranešimai paremti cXML protokolo apibrėžtimi.Čia pateikiama informacija, kuri gali būti siunčiama grįžtamojo registravimo pranešime, kuris gaunamas paraiškos eilutėje.

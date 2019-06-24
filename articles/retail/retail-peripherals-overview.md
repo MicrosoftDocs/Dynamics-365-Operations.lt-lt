@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571563"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577934"
 ---
 # <a name="retail-peripherals"></a>Išoriniai mažmeninės prekybos įrenginiai
 
@@ -295,7 +295,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>PASTABA. Tik vienas stalčius gali būti nustatytas, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<p><strong>Pastaba.</strong> Jei sukonfigūruota stalčiaus parinktis <strong>Naudoti bendrinamą pamainą</strong>, galima nustatyti tik vieną stalčių.</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>PASTABA. Tik vienas stalčius gali būti nustatytas, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<p><strong>Pastaba.</strong> Jei sukonfigūruota stalčiaus parinktis <strong>Naudoti bendrinamą pamainą</strong>, galima nustatyti tik vieną stalčių.</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>„Windows“ tvarkyklė
-<blockquote>PASTABA. Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</blockquote>
+<p><strong>Pastaba.</strong> Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</p>
 </li>
 <li>Tinklas</li>
 </ul>
@@ -404,7 +404,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>PASTABA. Viename aparatūros šablone galima nustatyti tik vieną stalčių, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<p><strong>Pastaba.</strong> Jei sukonfigūruota stalčiaus parinktis <strong>Naudoti bendrinamą pamainą</strong>, viename aparatūros šablone galima nustatyti tik vieną stalčių.</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>„Windows“ tvarkyklė
-<blockquote>PASTABA. Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</blockquote>
+<p><strong>Pastaba.</strong> Aparatūros stoties vartotojas, norėdamas pasiekti „Windows“ spausdintuvą tinkle, turi turėti leidimą spausdintuvą pasiekti.</p>
 </li>
 <li>Tinklas</li>
 </ul>
@@ -491,7 +491,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 <ul>
 <li>OEKA</li>
 <li>Tinklas
-<blockquote>PASTABA. Viename aparatūros šablone galima nustatyti tik vieną stalčių, jei stalčiui sukonfigūruota <strong>Naudoti bendrinamą pamainą</strong>.</blockquote>
+<p><strong>Pastaba.</strong> Jei sukonfigūruota stalčiaus parinktis <strong>Naudoti bendrinamą pamainą</strong>, viename aparatūros šablone galima nustatyti tik vieną stalčių.</p>
 </li>
 </ul>
 </td>

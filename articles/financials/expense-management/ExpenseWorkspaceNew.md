@@ -3,7 +3,7 @@ title: Išlaidų ataskaitos iš naujo atvaizduotos
 description: Šioje temoje pateikiama informacija apie pertvarkytą ir atnaujintą išlaidų ataskaitų pateikimą „Microsoft Dynamics 365 for Finance and Operations“. Nauja patirtis supaprastina išlaidų ataskaitų pildymo procesą ir tai trunka trumpiau.
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538700"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592642"
 ---
 # <a name="expense-reports-reimagined"></a>Išlaidų ataskaitos iš naujo atvaizduotos
 
@@ -46,10 +46,9 @@ Norėdami įjungti naują patirtį, naudokite **Funkcijų valdymas** darbo srit�
 
 ## <a name="getting-started-video-for-new-users"></a>Darbo pradžios vaizdo įrašas naujiems vartotojams
 
-Galite peržiūrėti trumpą vaizdo įrašą, kuris parodo pagrindines išlaidų įrašo funkcijas.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> Vaizdo įrašas dar nepasiekiamas. Ši tema bus atnaujinta, kai taps pasiekiamas vaizdo įrašas.
+[Išlaidų sąsaja sistemoje „Dynamics 365 for Finance and Operations“](https://youtu.be/Ocy-MsTvEE0) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galima rasti „YouTube“.
 
 ## <a name="new-features"></a>Naujos funkcijos
 

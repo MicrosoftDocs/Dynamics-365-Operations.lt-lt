@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1525330"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577905"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos nustatymas
 
@@ -88,7 +88,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
         Junkciniame jungties profilyje galite keisti duomenų susiejimo parametrus. Norėdami atkurti numatytuosius parametrus, kurie apibrėžti finansinių dokumentų teikėjo konfigūracijoje, pasirinkite **Naujinti**.
 
         **Pavyzdžiai**
-    
+
         |   | Formatas | Pavyzdys |
         |---|--------|---------|
         | **PVM tarifų parametrai** | vertė : VATrate | 1 : 2000, 2 : 1800 |
@@ -111,7 +111,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
 4. Sukurkite fiskalinių jungčių grupes.
 
     Fiskalinių jungčių grupė yra su identiškas funkcijas atliekančiomis ir tame pačiame fiskalinės registracijos proceso veiksme naudojamomis fiskalinėmis jungtimis susietų funkcinių profilių subrinkinys. Pvz., jei parduotuvėje galima naudoti kelis fiskalinio spausdintuvo modelius, tų fiskalinių spausdintuvų fiskalinės jungtys gali būti sujungtos į fiskalinių jungčių grupę.
-    
+
     1. Puslapyje **Fiskalinių jungčių grupė** (**Mažmeninė prekyba \> Kanalo sąranka \> Fiskalinė integracija \> Fiskalinių jungčių grupė**) sukurkite naują fiskalinių jungčių grupę.
     2. Į jungčių grupę įtraukite funkcinių profilių. Skirtuke **Funkciniai profiliai** pasirinkite **Įtraukti** ir pasirinkite profilio numerį. Kiekviena fiskalinė jungčių grupės jungtis gali turėti tik vieną funkcinį profilį.
     3. Jei norite sustabdyti funkcinių profilių naudojimą, nustatykite funkcijos **Išjungti** parinktį **Taip**. Šis pakeitimas taikomas tik dabartinei jungčių grupei. Kitose jungčių grupėse galite ir toliau naudoti tą patį funkcinį profilį.
@@ -119,7 +119,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
 5. Sukurkite fiskalinės registracijos procesą.
 
     Fiskalinės registracijos procesas nusakomas registracijos veiksmų seka ir kiekviename veiksme naudojama jungčių grupe.
-    
+
     1. Puslapyje **Fiskalinės registracijos procesas** (**Mažmeninė prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės registracijos procesai**) sukurkite naują kiekvieno unikalaus fiskalinės registracijos proceso įrašą.
     2. Į procesą įtraukite registracijos veiksmus.
 
@@ -145,7 +145,7 @@ Prieš naudodamiesi fiskalinės integracijos funkcija, turėtumėte sukonfigūru
 7. Puslapyje **Fiskalinės registracijos procesas** (**Mažmeninė prekyba \> Kanalų sąranka \> Fiskalinė integracija \> Fiskalinės registracijos procesai**) pasirinkite **Tikrinti**, kad patikrintumėte fiskalinės registracijos procesą.
 
     Rekomenduojame atlikti šio tipo tikrinimą toliau nurodytais atvejais.
-    
+
     - Naujam registracijos procesui užbaigus atlikti visus nustatymus, įskaitant registracijos procesų priskyrimą EKA funkcijų profiliams ir aparatūros profiliams.
     - Atlikus esamo fiskalinės registracijos proceso pakeitimus, tie pakeitimai gali sukelti skirtingų fiskalinių jungčių pasirinkimą vykdymo metu (pvz., pakeitus fiskalinės registracijos proceso veiksmo jungčių grupę, įjungus funkcinį jungčių profilį jungčių grupėje arba įtraukus naują funkcinį jungties profilį į jungčių grupę).
     - Atlikę techninių jungčių profilių priskyrimo aparatūros šablonams pakeitimus.

@@ -3,7 +3,7 @@ title: Sukonfigūruoti sąskaitų struktūras
 description: Šioje temoje pateikiama informacija apie sąskaitų struktūras ir finansines dimensijas.
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552018"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617301"
 ---
 # <a name="configure-account-structures"></a>Sukonfigūruoti sąskaitų struktūras
 
@@ -70,6 +70,16 @@ Skyriuje **Leidžiama reikšmės informacija** pateikta informacija padės jums 
 
 [![Leidžiamos reikšmės](./media/account.png)](./media/account.png) 
 
+Leistinos vertės bus nustatytos į numatytąsias vertes žurnale arba apskaitos paskirstymo įrašo puslapyje, kai nėra kitų galimų verčių, kurias būtų galima pasirinkti pagal sąskaitos struktūros nustatymą.
+
+Čia pateikiamas tipo **Pelno ir nuostolio sąskaitos struktūra** pavyzdys.
+
+|Korespondentinė sąskaita, subsąskaita          | Verslo struktūros vienetas    |Skyrius          | Išlaidų centras    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+Kai atidarote žurnalą ir pasirenkate sąskaitą pelno ir nuostolių intervale, pasirinkus 002 verslo vienetą, bus nustatytos numatytosios verčių 022 ir 014 reikšmės sąskaitos valdiklyje. Tai taip pat nutiks ir apskaitos paskirstymo puslapyje. 
+
 ## <a name="more-than-7-criteria-needed"></a>Būtina naudoti daugiau nei 7 kriterijus
 
 Jei naudojate daugiau nei 7 būtinus kriterijus, juos toliau įtraukti galite kitoje eilutėje. Dirbdami skyriuje **Leidžiama reikšmės informacija** pastebėsite, kad kriterijus **+Įtraukti naują**, įvedus septintą kriterijų, taps nebeaktyvus. Toliau nurodyta keletas veiksnių, dėl kurių taip nutinka. 
@@ -79,8 +89,6 @@ Jei naudojate daugiau nei 7 būtinus kriterijus, juos toliau įtraukti galite ki
  - Naudojimas  
  
 Norėdami tęsti papildomų kriterijų įtraukimą, spustelėkite **Dubliuoti segmente** ir **Leidžiamų reikšmių skyrius**. Tai atlikus kriterijai bus nukopijuoti į naują eilutę. Tada galite įvesti arba keisti skyriuje **Leidžiama reikšmės informacija** pateiktą informaciją.
-
-(BŪSIMO VAIZDO ĮRAŠO SAITAS)
 
 ## <a name="best-practices"></a>Geriausia praktika
 Nustatydami sąskaitų struktūras, galite vadovautis keletu geriausios praktikos pavyzdžių. Tačiau jie tik rekomendaciniai, todėl rengiant diskusiją turite visapusiškai aptarti savo verslo, augimo ir priežiūros planą.

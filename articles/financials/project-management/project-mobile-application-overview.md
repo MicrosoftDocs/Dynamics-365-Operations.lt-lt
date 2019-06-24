@@ -3,7 +3,7 @@ title: Projekto mobiliųjų programų apžvalga
 description: Šioje temoje pateikiama bendra informacija apie mobiliajame įrenginyje pasiekiamas su projekto laiku susijusias „Microsoft Dynamics 365“ skirtas programas.
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529976"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608143"
 ---
 # <a name="project-mobile-applications-overview"></a>Projekto mobiliųjų programų apžvalga
 
@@ -45,4 +45,4 @@ Mano grafikai (optimizuoti mobiliesiems įrenginiams) ir peržiūrėtini grafika
 
 ## <a name="for-more-information"></a>Daugiau informacijos
 
-Daugiau informacijos ieškokite [„Microsoft Dynamics 365 Project Timesheet“ programa mobiliesiems įrenginiams](project-timesheet.md), [Projekto laiko įrašas]( project-time-entry-mobile-workspace.md) ir [Projekto tabeliai mobiliajame įrenginyje](Mobile-timesheets.md).
+Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 Project Timesheet“ programa mobiliesiems įrenginiams](project-timesheet.md), [Projekto laiko įrašas]( project-time-entry-mobile-workspace.md), [Projekto tabeliai mobiliajame įrenginyje](Mobile-timesheets.md) ir [Pritaikyti pasirinktinius laukus „Project Timesheet“ programai mobiliesiems įrenginiams](custom-fields-mobile.md).

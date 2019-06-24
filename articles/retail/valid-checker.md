@@ -3,7 +3,7 @@ title: Mažmeninės prekybos operacijų vientisumo tikrintuvas
 description: Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos „Microsoft Dynamics 365 for Retail“.
 author: josaw1
 manager: AnnBe
-ms.date: 01/08/2019
+ms.date: 05/30/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 972c4d6b244eebc85cc801353ce8fb25ecbc0655
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517126"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617325"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mažmeninės prekybos operacijų vientisumo tikrintuvas
 
@@ -33,12 +33,12 @@ ms.locfileid: "1517126"
 
 Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos, veikiančios „Microsoft Dynamics 365 for Finance and Operations“ 8.1.3 versijoje. Vientisumo tikrintuvas identifikuoja ir atskiria nesuderinamas operacijas prieš jas paimant į išrašų registravimo procesą.
 
-Išrašą registruojant „Retail“, užregistruoti gali nepavykti dėl mažmeninės prekybos operacijų lentelėse esančių nesuderinamų duomenų. Duomenų problema galėjo įvykti dėl nenumatytų problemų elektroninio kasos aparato (EKA) programoje arba dėl netinkamo operacijų importavimo iš trečiųjų šalių EKA sistemų. Šio nesuderinamumo atvejų pavyzdžiai: 
+Išrašą registruojant sprendime „Microsoft Dynamics 365 for Retail“, užregistruoti gali nepavykti dėl mažmeninės prekybos operacijų lentelėse esančių nesuderinamų duomenų. Duomenų problema galėjo įvykti dėl nenumatytų problemų elektroninio kasos aparato (EKA) programoje arba dėl netinkamo operacijų importavimo iš trečiųjų šalių EKA sistemų. Šio nesuderinamumo atvejų pavyzdžiai: 
 
-  - Operacijų suma, nurodyta antraštės lentelėje, nesutampa su eilučių operacijų suma.
-  - Eilučių skaičius, nurodytas antraštės lentelėje, nesutampa su operacijų lentelės eilučių skaičiumi.
-  - Mokesčiai, nurodyti antraštės lentelėje, nesutampa su mokesčių suma eilutėse. 
-  
+- Operacijų suma, nurodyta antraštės lentelėje, nesutampa su eilučių operacijų suma.
+- Eilučių skaičius, nurodytas antraštės lentelėje, nesutampa su operacijų lentelės eilučių skaičiumi.
+- Mokesčiai, nurodyti antraštės lentelėje, nesutampa su mokesčių suma eilutėse. 
+
 Kai nesuderinamos operacijos paimamos į išrašo registravimo procesą, sukuriamos nesuderinamos pardavimo SF ir mokėjimo žurnalai, todėl nepavyksta visas išrašų registravimo procesas. Norint atkurti išrašus iš tokios būsenos reikia pataisyti nemažai duomenų įvairiose operacijų lentelėse. Mažmeninės prekybos operacijų vientisumo tikrintuvas apsaugo nuo tokių problemų.
 
 Šioje diagramoje parodytas registravimo procesas naudojant operacijų vientisumo tikrintuvą.
@@ -47,13 +47,24 @@ Kai nesuderinamos operacijos paimamos į išrašo registravimo procesą, sukuria
 
 Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina mažmeninės prekybos operacijų lentelių vientisumą tolesniais aspektais.
 
-- Kliento kodas – tikrinama, ar kliento kodas, nurodytas mažmeninės prekybos operacijų lentelėse, yra HQ kliento bendruosiuose duomenyse.
-- Eilučių skaičius – tikrinama, ar eilučių skaičius, nurodytas operacijos antraštės lentelėje, sutampa su pardavimo operacijų lentelių eilučių skaičiumi.
+- **Kliento kodas** – tikrinama, ar kliento kodas, nurodytas mažmeninės prekybos operacijų lentelėse, yra HQ kliento bendruosiuose duomenyse.
+- **Eilučių skaičius** – tikrinama, ar eilučių skaičius, nurodytas operacijos antraštės lentelėje, sutampa su pardavimo operacijų lentelių eilučių skaičiumi.
+- **Į kainą įtrauktas mokestis** – tikrinama, ar parametras **Į kainą įtrauktas mokestis** yra nuoseklus visose operacijos eilutėse.
+- **Bendra suma** – tikrinama, ar antraštėje nurodyta bendra suma yra eilutėse nurodytų grynųjų sumų ir mokesčio sumos suma.
+- **Grynoji suma** – tikrinama, ar antraštėje nurodyta grynoji suma yra eilutėse nurodytų grynųjų sumų suma.
+- **Nepriemoka / permoka** – tikrinama, ar antraštėje nurodytos bendros sumos ir mokėjimo sumos skirtumas neviršija didžiausios nepriemokos / permokos konfigūracijos.
+- **Nuolaidos suma** – tikrinama, ar nuolaidos suma nuolaidos lentelėse ir nuolaidos suma mažmeninės prekybos operacijų eilučių lentelėse yra nuoseklios, bei ar antraštėje nurodyta nuolaidos suma yra eilutėse nurodytų nuolaidos sumų suma.
+- **Eilutės nuolaida** – tikrinama, ar operacijos eilutėje nurodyta eilutės nuolaida yra visų nuolaidų lentelėje, atitinkančioje operacijos eilutę, esančių eilučių suma.
+- **Dovanų kortelės prekė** – „Retail“ dovanų kortelių prekių grąžinimo nepalaiko. Tačiau dovanų kortelės likutį galima išgryninti. Bet kokiai dovanų kortelės prekei, kuri yra apdorojama ne kaip išgryninimo eilutė, o kaip grąžinimo eilutė, išrašo registravimo proceso vykdyti nepavyksta. Dovanų kortelių prekių tikrinimo procesas padeda užtikrinti, kad mažmeninės prekybos operacijų lentelėse būtų tik tos grąžinamos dovanų kortelių eilučių prekės, kurios yra dovanų kortelių išgryninimo eilutės.
+- **Neigiama kaina** – tikrinama, ar nėra neigiamos kainos operacijų eilučių.
+- **Prekė ir variantas** – tikrinama, ar operacijų eilutėse nurodytos prekės ir variantai egzistuoja pagrindiniame prekių ir variantų faile.
 
 ## <a name="set-up-the-consistency-checker"></a>Vientisumo tikrintuvo nustatymas
+
 Sukonfigūruokite, kad paketinis vykdymas Tikrinti parduotuvės operacijas būtų paleidžiamas periodiškai, įėję į **Mažmeninė prekyba \> Mažmeninės prekybos IT \> EKA registravimas**. Paketinė užduotis gali būtu suplanuota pagal parduotuvės organizacijos hierarchiją, panašiai kaip nustatyti procesai Skaičiuoti išrašus pakete ir Registruoti išrašus pakete. Rekomenduojame sukonfigūruoti šį paketinį vykdymą, kad jis būtų paleistas keletą kartų per dieną, ir suplanuoti taip, kad jis būtų vykdomas kiekvienos P užduoties pabaigoje.
 
 ## <a name="results-of-validation-process"></a>Tikrinimo proceso rezultatai
+
 Paketinio vykdymo tikrinimo rezultatai yra pažymimi atitinkamoje mažmeninės prekybos operacijoje. Mažmeninės prekybos operacijos įrašo lauko **Tikrinimo būsena** reikšmė pateikiama arba **Sėkmingai**, arba **Klaida**, o lauke **Paskutinio tikrinimo laikas** rodoma paskutinio tikrinimo data.
 
 Norėdami peržiūrėti išsamesnį klaidos tekstą tikrinimui nepavykus, pasirinkite atitinkamą mažmeninės prekybos parduotuvės operacijos įrašą ir spustelėkite mygtuką **Tikrinimo klaidos**.

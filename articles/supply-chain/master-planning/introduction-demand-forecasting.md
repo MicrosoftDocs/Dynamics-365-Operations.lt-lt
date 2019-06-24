@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552374"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595551"
 ---
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
@@ -52,7 +52,7 @@ Poreikio prognozėje taikomos trys pagrindinės temos, nurodytos toliau.
     -   Galite atsisiųsti „Finance and Operations“ poreikio prognozės bandymus, keisti juos, kad jie atitiktų jūsų verslo poreikius, publikuoti „Azure“ kaip tinklo tarnybą ir naudoti poreikio prognozėms generuoti. Bandymus galite atsisiųsti, jei kaip įmonės lygio vartotojas įsigijote gamybos planuotojo „Finance and Operations“ prenumeratą.
     -   Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi „Finance and Operations“ poreikio prognozės bandymai yra automatiškai integruojami su „Finance and Operations“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl bandymus, atsisiųstus iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/), naudoti nėra taip paprasta, kaip „Finance and Operations“ poreikio prognozės bandymus. Turite modifikuoti bandymų kodą, kad būtų naudojama „Finance and Operations“ taikomojo programavimo sąsaja (API).
     -   Galite sukurti savo bandymus naudodami „Microsoft Azure“ mašininio mokymo studiją, publikuoti juos kaip „Azure“ tarnybas ir naudoti poreikio prognozėms generuoti.
-    -   Jei jums nereikia didelio našumo arba jei jums nereikia apdoroti didelio duomenų kiekio, galite naudoti nemokamą mašininio mokymo pakopą. Rekomenduojame visada pradėti nuo šios pakopos, ypač diegimo ir tikrinimo etapų metu. Jei jums reikia didesnio našumo ir papildomos saugyklos, galite naudoti standartinę mašininio mokymo pakopą. Norint naudoti šią pakopą reikalinga „Azure“ prenumerata ir taikomos papildomos išlaidos. Informacijos apie mašininio mokymo kainodarą žr. <http://aka.ms/machine-learning-price-info>.
+    -   Jei jums nereikia didelio našumo arba jei jums nereikia apdoroti didelio duomenų kiekio, galite naudoti nemokamą mašininio mokymo pakopą. Rekomenduojame visada pradėti nuo šios pakopos, ypač diegimo ir tikrinimo etapų metu. Jei jums reikia didesnio našumo ir papildomos saugyklos, galite naudoti standartinę mašininio mokymo pakopą. Norint naudoti šią pakopą reikalinga „Azure“ prenumerata ir taikomos papildomos išlaidos. Informacijos apie mašininio mokymo kainodarą žr. [Mašininio mokymo įrangos kainodara](https://aka.ms/machine-learning-price-info).
 -   **Prognozės sumažinimas bet kada atsiejimo metu** – „Finance and Operations“ poreikio prognozės pagrįstos šia funkcija, kuri suteikia galimybę prognozuoti priklausomą ir nepriklausomą poreikį bet kada atsiejimo metu.
 
 ## <a name="basic-flow-in-demand-forecasting"></a>Pagrindinė poreikio prognozės eiga
