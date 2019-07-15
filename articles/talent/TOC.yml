@@ -5,9 +5,19 @@
       items:
         - name: Darbo su „Talent“ pradžia
           href: talent-get-started.md
-        - name: Kas nauja ar pasikeitė sprendime „Talent”
+        - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: 2019 m. liepos 2 d.
+              href: whats-new-talent-july-2-2019.md
+            - name: 2019 m. birželio 25 d.
+              href: whats-new-talent-june-25-2019.md
+            - name: 2019 m. birželio 18 d.
+              href: whats-new-talent-june-18-2019.md
+            - name: 2019 m. birželio 11 d.
+              href: whats-new-talent-june-11-2019.md
+            - name: 2019 m. birželio 4 d.
+              href: whats-new-talent-june-4-2019.md
             - name: 2019 m. gegužės 28 d.
               href: whats-new-talent-may-28-2019.md
             - name: 2019 m. gegužės 21 d.
@@ -16,26 +26,26 @@
               href: whats-new-talent-may-13-2019.md
             - name: 2019 m. gegužės 6 d.
               href: whats-new-talent-may-6-2019.md
-            - name: 2019 m. balandžio 30 d.
-              href: whats-new-talent-april-30-2019.md
-            - name: 2019 m. balandžio 25 d.
-              href: whats-new-talent-april-25-2019.md
-            - name: 2019 m. balandžio 16 d.
-              href: whats-new-talent-april-16-2019.md
-            - name: 2019 m. balandžio 9 d.
-              href: whats-new-talent-april-9-2019.md
-            - name: 2019 m. balandžio 2 d.
-              href: whats-new-talent-april-2-2019.md
-            - name: "2019\_m. kovo 26\_d."
-              href: whats-new-talent-march-26-2019.md
-            - name: "2019\_m. kovo 20\_d."
-              href: whats-new-talent-march-20.md
-            - name: "2019\_m. kovo 14\_d."
-              href: whats-new-talent-march-14.md
-            - name: "2019\_m. kovo 5\_d."
-              href: whats-new-talent-march-5.md
             - name: 2019 m. skyriaus „Kas nauja“ archyvai
               items:
+                - name: 2019 m. balandžio 30 d.
+                  href: whats-new-talent-april-30-2019.md
+                - name: 2019 m. balandžio 25 d.
+                  href: whats-new-talent-april-25-2019.md
+                - name: 2019 m. balandžio 16 d.
+                  href: whats-new-talent-april-16-2019.md
+                - name: 2019 m. balandžio 9 d.
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2019 m. balandžio 2 d.
+                  href: whats-new-talent-april-2-2019.md
+                - name: "2019\_m. kovo 26\_d."
+                  href: whats-new-talent-march-26-2019.md
+                - name: "2019\_m. kovo 20\_d."
+                  href: whats-new-talent-march-20.md
+                - name: "2019\_m. kovo 14\_d."
+                  href: whats-new-talent-march-14.md
+                - name: "2019\_m. kovo 5\_d."
+                  href: whats-new-talent-march-5.md
                 - name: "2019\_m. vasario 27\_d."
                   href: whats-new-talent-feb-27.md
                 - name: "2019\_m. vasario 14\_d."
@@ -102,16 +112,24 @@
           href: attract-comprehensive-hiring.md
         - name: „Attract“ funkcijos ir galimybės
           href: attract-overview.md
-        - name: Proceso šablono kūrimas sprendime „Attract“
+        - name: DUK apie „LinkedIn“
+          href: attract-linkedin-faq.md
+        - name: El. pašto parametrų konfigūravimas
+          href: attract-configure-email-settings.md
+        - name: Proceso šablono kūrimas „Attract“
           href: Process-templates-Attract.md
-        - name: 'Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“'
+        - name: Darbo skelbimų kūrimas ir registravimas
           href: Creating-jobs-Attract.md
-        - name: Darbo skelbimų skelbimas išorinėse karjeros svetainėse naudojant „Attract“
+        - name: Integravimo su „LinkedIn“ nustatymas
+          href: attract-admin-linkedin.md
+        - name: Darbo skelbimų registravimas „LinkedIn“ iš „Attract“
+          href: attract-post-jobs-to-linkedin.md
+        - name: Darbo skelbimų registravimas „Broadbean“ iš „Attract“
           href: posting-jobs-external.md
         - name: Kandidatų ieška naudojant talentų telkinius
           href: attract-talent-pools.md
-        - name: Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“
-          href: attract-linked-in-recruiter.md
+        - name: Kandidatų ieška naudojant „LinkedIn Recruiter“
+          href: attract-linkedin-recruiter.md
         - name: Samdos proceso veiklos
           href: activities-attract.md
         - name: Pokalbio planavimas ir grįžtamasis ryšys
@@ -132,12 +150,28 @@
           href: Admin-Settings-Attract.md
         - name: Sumaniosios rekomendacijos
           href: Intelligent-Recommendations.md
-        - name: Įtraukiančių supažindinimo su darbu planų kūrimas
-          href: create-onboarding-experience.md
         - name: Kandidatų profilių ir prašymų šaltinių sekimas
           href: source-tracking.md
         - name: Analizės ataskaitų naudojimas samdos procesų įžvalgoms
           href: analytic-reports.md
+    - name: Naujų samdinių sveikinimas naudojant „Onboard“
+      items:
+        - name: Darbo su „Onboard“ pradžia
+          href: create-onboarding-experience.md
+        - name: Gauti programą „Onboard“
+          href: onboard-get-app.md
+        - name: Supažindinimo vadovo kūrimas ir siuntimas
+          href: onboard-create-guide.md
+        - name: Supažindinimo šablono kūrimas
+          href: onboard-create-template.md
+        - name: Vadovų ir šablonų redagavimas
+          href: onboard-edit-guides-templates.md
+        - name: Turinio bendrinimas
+          href: onboard-share-template.md
+        - name: Būsenos peržiūra
+          href: onboard-view-status.md
+        - name: Samdos komandos kūrimas
+          href: onboard-create-team.md
     - name: Darbo jėgos valdymas naudojant „Core HR“
       items:
         - name: Darbo jėgos organizavimas
@@ -357,6 +391,8 @@
           href: corehr-custom-fields.md
     - name: „Talent“ trikčių diagnostika
       items:
+        - name: Darbo skelbimų publikavimo „LinkedIn“ trikčių šalinimas
+          href: attract-troubleshoot-linkedin.md
         - name: Neatnaujinamos analizės ataskaitos
           href: analytic-reports-not-updated.md
         - name: Nepavyksta sukurti aplinkos „PowerApps“ administravimo centre

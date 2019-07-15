@@ -36,7 +36,7 @@
         - name: Kas nauja ar pasikeitė
           href: get-started/whats-new-changed.md
           items:
-            - name: „Microsoft DynamicsAX 2009” ir „Microsoft Dynamics AX 2012” standartinio palaikymo pabaiga
+            - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
               href: get-started/mainstream-support-ax-2009-2012.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
@@ -44,9 +44,9 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: Vietinėse įdiegtyse neįdiegtos funkcijos
               href: get-started/features-not-implemented-on-prem.md
-            - name: "„Finance and Operations“ 10.0.4 versijos peržiūros funkcijos (2019\_m. liepos mėn.)"
+            - name: "„Finance and Operations“ 10.0.4 versija (2019\_m. liepos mėn.)"
               href: get-started/whats-new-changed-10-0-4.md
-            - name: "„Finance and Operations“ 10.0.3 versijos peržiūros funkcijos (2019\_m. birželio mėn.)"
+            - name: "„Finance and Operations“ 10.0.3 versija (2019\_m. birželio mėn.)"
               href: get-started/whats-new-changed-10-0-3.md
             - name: "„Finance and Operations“ 10.0.2 versija (2019\_m. gegužės mėn.)"
               href: get-started/whats-new-changed-10-0-2.md
@@ -56,9 +56,9 @@
               href: get-started/whats-new-changed-10.md
             - name: "„Finance and Operations“ 8.1.3 versija (2019\_m. sausio mėn.)"
               href: get-started/whats-new-changed-8-1-3.md
-            - name: "„Finance and Operations platform update 28“ peržiūros funkcijos (2019\_m. liepos mėn.)"
+            - name: "„Platform Update 28” (2019\_m. liepos mėn.)"
               href: get-started/whats-new-platform-update-28.md
-            - name: "„Finance and Operations platform update 27“ peržiūros funkcijos (2019\_m. birželio mėn.)"
+            - name: "„Platform Update 27” (2019\_m. birželio mėn.)"
               href: get-started/whats-new-platform-update-27.md
             - name: "„Platform Update 26“ (2019\_m. gegužės mėn.)"
               href: get-started/whats-new-platform-update-26.md
@@ -238,8 +238,14 @@
           href: ../dev-itpro/data-entities/data-task-automation.md
         - name: 'ISV sprendimų teikimas, naudojant vieną versiją'
           href: ../dev-itpro/lifecycle-services/oneversion-isv.md
-        - name: „Regression Suite Automation Tool”
-          href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+        - name: Bandymų automatizavimas
+          items:
+            - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
+              href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
+            - name: „Regression Suite Automation Tool“ mokymo programos nustatymas
+              href: get-started/hol-set-up-regression-suite-automation-tool.md
+            - name: „Regression Suite Automation Tool“ mokymo programos naudojimas
+              href: get-started/hol-use-regression-suite-automation-tool.md
     - name: Verslo įvykiai
       href: ../dev-itpro/business-events/home-page.md
       items:
@@ -257,6 +263,10 @@
           href: ../dev-itpro/business-events/troubleshooting.md
         - name: Atvejų taikymas verslo įvykiams
           href: ../dev-itpro/business-events/potential-use-cases.md
+        - name: Mokymo programos
+          items:
+            - name: Verslo įvykių naudojimas su „Microsoft Flow“
+              href: ../dev-itpro/business-events/how-to/how-to-flow.md
     - name: Atitiktis
       items:
         - name: Audito strategijos taisyklės
@@ -849,7 +859,7 @@
               href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
             - name: Finansinės dimensijos
               href: ../financials/general-ledger/financial-dimensions.md
-            - name: Sąskaitų struktūros
+            - name: Finansinės dimensijos ir registravimas
               href: ../financials/general-ledger/Default-dimensions.md
             - name: Finansinių dimensijų įtraukimas į CFO darbo sritį
               href: ../financials/general-ledger/CFO-workspace.md
@@ -1080,6 +1090,8 @@
                   href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
                 - name: Sąskaitų struktūrų kūrimas
                   href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: Finansinės dimensijos ir registravimas
+                  href: ../financials/general-ledger/default-dimensions.md
                 - name: Kaupimo schemų kūrimas
                   href: ../financials/general-ledger/tasks/create-accrual-schemes.md
                 - name: Finansinės konsolidacijos ir valiutos konvertavimas
@@ -1936,10 +1948,144 @@
                   href: ../financials/localizations/apac-ind-gst-reference-groups.md
                 - name: Kasos aparatų GST integravimas
                   href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
-                - name: Apmokestinamos prekės įsigijimas iš neužregistruoto tiekėjo
-                  href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
-            - name: Kasos aparatų diegimo gairės
-              href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
+                - name: Bendrųjų duomenų nustatymas
+                  items:
+                    - name: Verslo vertikalės kūrimas
+                      href: ../financials/localizations/apac-ind-GST-create-business-vertical.md
+                    - name: Valstijos kodo ir sąjunginės teritorijos atnaujinimas
+                      href: ../financials/localizations/apac-ind-GST-update-state-code-union-territory.md
+                    - name: Pagrindinio GSTIN kūrimas
+                      href: ../financials/localizations/apac-ind-GST-create-gstin-master.md
+                    - name: GSTIN ir nuorodos numerių sekų nustatymas
+                      href: ../financials/localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                    - name: HSN kodų ir paslaugos apskaitos kodų nustatymas
+                      href: ../financials/localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                    - name: GST registravimo tipo pagrindinių sąskaitų kūrimas
+                      href: ../financials/localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                    - name: Mokesčių sudengimo laikotarpio kūrimas
+                      href: ../financials/localizations/apac-ind-GST-create-tax-settlement-period.md
+                    - name: GSTIN pridėjimas prie mokesčio registravimo grupės
+                      href: ../financials/localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                - name: Mokesčių nustatymas
+                  items:
+                    - name: Mokesčio konfigūracijos nustatymas ir įdiegimas juridiniams subjektams
+                      href: ../financials/localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                    - name: Konfigūracijos mokesčių tipų susiejimas – muitas
+                      href: ../financials/localizations/apac-ind-GST-map-configuration-tax-types.md
+                    - name: Tarifų ir procentų lentelių nustatymas
+                      href: ../financials/localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                    - name: PVM hierarchijos ir nustatymo taisyklių nustatymas
+                      href: ../financials/localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                - name: Pirkimo operacija
+                  items:
+                    - name: Pirkimai iš neužregistruotų tiekėjų
+                      href: ../financials/localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                    - name: Apmokestinamos prekės įsigijimas iš neužregistruoto tiekėjo
+                      href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                    - name: Pirkimai iš užregistruotų tiekėjų
+                      href: ../financials/localizations/apac-ind-GST-purchases-registered-vendor.md
+                    - name: Nukainuotų prekių pirkimai
+                      href: ../financials/localizations/apac-ind-GST-purchase-discounted-goods.md
+                    - name: Neapmokestintų prekių pirkimas
+                      href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
+                    - name: Nulinio tarifo prekių pirkimas
+                      href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                    - name: Ne GST prekių pirkimai
+                      href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
+                    - name: Pirkimai iš kelių prekybos agentų
+                      href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                    - name: 'Apmokestinamų prekių, už kurių siuntimą reikia susimokėti, įsigijimas'
+                      href: ../financials/localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                    - name: 'Pirkimo sąskaitos faktūros, kurioje yra apmokestinamų prekių, peržiūra'
+                      href: ../financials/localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                    - name: Ilgalaikio turto pirkimai
+                      href: ../financials/localizations/apac-ind-GST-purchase-fixed-asset.md
+                    - name: Kredito pažymos su pirkimo sąskaita faktūra kūrimas
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                    - name: Debeto pažymos su pirkimo sąskaita faktūra kūrimas
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                    - name: 'Kokybės užsakymai, kurie apima pavyzdinės prekės sunaikinimą'
+                      href: ../financials/localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                    - name: Pirkimo grąžinimo užsakymai
+                      href: ../financials/localizations/apac-ind-GST-purchase-return-order.md
+                    - name: 'Išankstiniai tiekėjo mokėjimai, kai taikomi atvirkštiniai mokesčiai'
+                      href: ../financials/localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                - name: Pardavimo operacija
+                  items:
+                    - name: Apmokestinamų prekių pardavimas vartotojams
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                    - name: Pardavimai registruotiems klientams
+                      href: ../financials/localizations/apac-ind-GST-sell-registered-customer.md
+                    - name: Laisvos formos sąskaitos faktūros
+                      href: ../financials/localizations/apac-ind-GST-free-text-invoices.md
+                    - name: 'Apmokestinamų prekių, kai taikomas atvirkštinis mokestis, pardavimai'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                    - name: Neapmokestinamų prekių pardavimai
+                      href: ../financials/localizations/apac-ind-GST-sales-exempted-item.md
+                    - name: Nulinio tarifo prekių pardavimai
+                      href: ../financials/localizations/apac-ind-GST-sell-zero-rated-goods.md
+                    - name: Ne GST prekių pardavimai
+                      href: ../financials/localizations/apac-ind-GST-sell-non-gst-goods.md
+                    - name: 'Apmokestinamų prekių, kurioms pritaikyta nuolaida ir kurios turi laikinąjį įvertinimą, pardavimai'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                    - name: 'Apmokestinamų prekių, kurių siuntimui taikomi mokesčiai, pardavimai'
+                      href: ../financials/localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                    - name: 'Pardavimai, kai į kainą įtraukiamas ir neįtraukiamas mokestis'
+                      href: ../financials/localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                    - name: Debeto pažymos su pardavimo sąskaita faktūra kūrimas
+                      href: ../financials/localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                    - name: Kredito pažymos su pardavimo sąskaita faktūra kūrimas
+                      href: ../financials/localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                    - name: 'Pardavimų sąskaitos faktūros, kurios yra išskaidytos atsižvelgiant į pristatymo adresus'
+                      href: ../financials/localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                    - name: Grąžinimo užsakymai
+                      href: ../financials/localizations/apac-ind-GST-return-order-form.md
+                - name: Užsienio operacijos
+                  items:
+                    - name: 'Prekių, kurioms taikomas GST, importavimas'
+                      href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
+                    - name: 'Paslaugų, kurioms taikomas GST, importavimas'
+                      href: ../financials/localizations/apac-ind-import-services-gst.md
+                    - name: 'Prekių, kurioms taikomas nulinio tarifo mokestis, eksportavimas'
+                      href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                    - name: 'Paslaugų, kurioms taikomas nulinio tarifo mokestis, eksportavimas'
+                      href: ../financials/localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                - name: Atsargų operacija
+                  items:
+                    - name: 'Atsargų perkėlimo užsakymai, kurių perkėlimo kainai taikomas mokestis'
+                      href: ../financials/localizations/apac-ind-GST-stock-transfer-transactions.md
+                - name: Kliento mokėjimo operacija
+                  items:
+                    - name: 'Išankstiniai mokėjimai, į kuriuos įtrauktas mokestis'
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-includes-tax.md
+                    - name: 'Išankstiniai mokėjimai, sudengti registruojant sąskaitą faktūrą'
+                      href: ../financials/localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                    - name: 'Neautomatinis išankstinių mokėjimų ir sąskaitų faktūrų, į kurias įtrauktas mokestis, sudengimas'
+                      href: ../financials/localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                    - name: 'Sąskaitų faktūrų, į kurias įtrauktas mokestis, mokėjimas'
+                      href: ../financials/localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                    - name: 'Išankstinių mokėjimų, į kuriuos įtrauktas mokestis, peržiūra'
+                      href: ../financials/localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                    - name: Kliento mokėjimo grąžinimai
+                      href: ../financials/localizations/apac-ind-GST-customer-payment-refund.md
+                - name: Tiesioginių mokesčių operacija
+                  items:
+                    - name: Įtraukti GST skaičiuojant mokesčių atskaitas
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                    - name: Įtraukti GST skaičiuojant mokesčių surinkimus
+                      href: ../financials/localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                - name: Mokesčių sumos koregavimas
+                  href: ../financials/localizations/apac-ind-GST-tax-adjustments.md
+                - name: Taisyklėmis grindžiamas mokesčių nustatymas
+                  href: ../financials/localizations/apac-ind-GST-tax-settlement.md
+                - name: Mokesčių žurnalo kūrimas
+                  href: ../financials/localizations/apac-ind-GST-tax-journal.md
+                - name: Mokesčių gražinimų GSTR ataskaitos duomenų generavimas
+                  href: ../financials/localizations/apac-ind-GST-tax-returns.md
+                - name: Mokesčių užklausa
+                  href: ../financials/localizations/apac-ind-GST-tax-inquiry.md
+                - name: Kasos aparatų diegimo gairės
+                  href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: Mokesčių mechanizmo apžvalga
               href: ../financials/general-ledger/tax-engine.md
               items:
@@ -2375,8 +2521,12 @@
                   href: ../financials/localizations/rus-excel-financial-report.md
                 - name: Apskaitos ataskaitos elektroniniu formatu
                   href: ../financials/localizations/rus-accounting-reporting.md
-                - name: Apskaičiuotos mokesčių deklaracija
+                - name: Apskaičiuotų mokesčių deklaracija
                   href: ../financials/localizations/rus-assessed-tax-declaration.md
+                - name: Transporto mokesčio deklaracija
+                  href: ../financials/localizations/rus-transport-tax-declaration.md
+                - name: Žemės mokesčio deklaracija
+                  href: ../financials/localizations/rus-land-tax-declaration.md
             - name: Organizacijos administravimas
               items:
                 - name: Mokesčių registravimo informacija dėl adreso
@@ -2797,160 +2947,222 @@
               href: ../dev-itpro/analytics/extend-report-menu-items.md?toc=/fin-and-ops/toc.json
             - name: Verslo dokumentų pasirinktinių dizainų kūrimas
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
-        - name: Elektroninės ataskaitos
+            - name: PDF dokumentų peržiūra naudojant įdėtąją peržiūros programą
+              href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
+    - name: Elektroninės ataskaitos
+      items:
+        - name: Elektroninių ataskaitų apžvalga
           href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+        - name: Konfigūracijos
           items:
-            - name: Elektroninių ataskaitų sistemos konfigūravimas
-              href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
             - name: Konfigūracijų kūrimas
               href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+            - name: Elektroninių ataskaitų sprendimo komponentų kūrimas
               items:
-                - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Konkretaus domeno duomenų modelių kūrimas
+                - name: Konkretaus domeno duomenų modelio kūrimas
                   href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: Programai būdingų metaduomenų parengimas
+                  items:
+                    - name: '(ER) Programos metaduomenų, kurie bus naudojami RCS, parengimas'
+                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                    - name: (RCS) Prieiga prie programos metaduomenų naudojant prijungtas programas
+                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
                 - name: Modelių susiejimų nustatymas ir duomenų šaltinių pasirinkimas
                   href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Duomenų modelių susiejimas su pasirinktais duomenų šaltiniais
+                - name: Duomenų modelio susiejimas su pasirinktais duomenų šaltiniais
                   href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Formato konfigūracijų kūrimas
+                - name: Formato konfigūracijos kūrimas
                   href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Formatų komponentų susiejimas su duomenų modelio elementais
+                - name: Sukurtų formatų komponentų susiejimas su duomenų modelio elementais
                   href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-                - name: Mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūracijas
+            - name: Paruoštų ER sprendimų tikrinimas paskirties programoje
+              items:
+                - name: (ER) Konfigūracijų importavimas iš RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                - name: Mokėjimų elektroninių dokumentų generavimas naudojant formato konfigūraciją
                   href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-                - name: Formatų naujinimas pritaikant naujas pagrindines versijas
-                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-                - name: ER konfigūracijų kūrimas pildymui PDF šablonuose
-                  href: ../dev-itpro/analytics/er-fillable-pdf.md
-            - name: Elektroninių ataskaitų formulių kūrimo įrankis
-              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-            - name: Įrankio Elektroninės ataskaitos konfigūravimas duomenims perkelti į „Power BI“
-              href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-            - name: Paskirties vietos
-              href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Paskirties vietų konfigūravimas
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Ataskaitų generavimo „OpenXML“ formatu konfigūracijų kūrimas
+            - name: Formato naujinimas pritaikant naują pagrindinę to formato versiją
+              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+        - name: Elektroninių ataskaitų formulių kūrimo įrankis
+          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+        - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
+          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: 'Duomenų modelio aprašo pasirinkimas, kuriant formatus'
+          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
+          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+        - name: (ER) Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
+          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+        - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
+          items:
+            - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
               href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Microsoft Excel“ šablonus
-              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-            - name: Duomenų modelio aprašo pasirinkimas kuriant formatus
-              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-            - name: Konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
+              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Konfigūracijų kūrimas pildymui PDF šablonuose
+              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+        - name: Vaizdų ir figūrų įdėjimas
+          items:
+            - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
+              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+            - name: Įdedamų vaizdų ir figūrų pavyzdys
               items:
-                - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
-                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-                - name: Skaičiavimo ir sumavimo veiksmų formatų kūrimas
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-                - name: Skaičiavimų konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-                - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-                - name: Skaičiavimo ir sumavimo veiksmų formatų taikymas
-                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti naudojant horizontaliai išplečiamus diapazonus, kūrimas'
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti naudojant horizontaliai išplečiamus diapazonus, taikymas'
-                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti išvestyje, ruošimas'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti išvestyje, išplėtimas'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti išvestyje, kūrimas'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti išvestyje, taikymas'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti išvestyje, modifikavimas ir taikymas'
-                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
                 - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
                 - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
                 - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
                   href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+        - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+        - name: Nuo „Finance and Operation“ versijos priklausomų ER konfigūracijų kūrimas
+          items:
+            - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
+              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+        - name: ER sprendimo kūrimas norint naudoti finansines dimensijas
+          items:
+            - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+            - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+            - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
+              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+        - name: ER formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus naudojant sugeneruotos išvesties informaciją
+          items:
+            - name: Formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+            - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+            - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+            - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
+              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+        - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
+          items:
+            - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
+              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
+              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+        - name: Dokumentų valdymo failų naudojimas formato išvestyse
+          items:
+            - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, ruošimas'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+            - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, išplėtimas'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+            - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, kūrimas'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+            - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, taikymas'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+            - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, modifikavimas ir taikymas'
+              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+        - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
+          items:
             - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
               href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+            - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, importavimas'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+            - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, kūrimas'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+            - name: Dokumentų generavimo naudojant prašymų duomenis modelių modifikavimas ir susiejimai
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+            - name: Dokumentų generavimo naudojant prašymų duomenis formatų modifikavimas
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+            - name: 'Dokumentų, kuriuose yra prašymų duomenų, generavimas'
+              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+        - name: Duomenų importavimas iš gaunamų failų naudojant ER sprendimus
+          items:
+            - name: Gaunamų dokumentų analizė skirtingais formatais
+              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+            - name: Duomenų importavimo iš rankiniu būdu pasirinktų failų konfigūravimas
               items:
-                - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, importavimas'
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-                - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, kūrimas'
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-                - name: Dokumentų generavimo naudojant prašymų duomenis modelių modifikavimas ir susiejimai
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-                - name: Dokumentų generavimo naudojant prašymų duomenis formatų modifikavimas
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-                - name: Dokumentų generavimas naudojant prašymų duomenis
-                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-            - name: Spausdintinų LFSF formų generavimas
-              href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
-              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-            - name: Sekimo sugeneruotų ataskaitų rezultatai ir palyginimas su bazinėmis vertėmis
-              href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-            - name: Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
-              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-            - name: 'Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: Konfigūracijų ciklo valdymas
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
-                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Konfigūracijų importavimas iš „Lifecycle Services“
-                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-                - name: Elektroninių ataskaitų (ER) konfigūracijų importavimas iš reguliavimo konfigūravimo tarnybų (RCS)
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md
-                - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
-                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-                - name: Konfigūracijų importavimas
-                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: Modelių susiejimo konfigūracijų valdymas
-              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-              items:
-                - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinių failų
+                - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
                   href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-                - name: Duomenų importavimo iš „SharePoint“ konfigūravimas
-                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: Gaunamų dokumentų analizė „Excel“ formatu
-              href: ../dev-itpro/analytics/parse-incoming-documents-excel.md?toc=/fin-and-ops/toc.json
-            - name: Gaunamų dokumentų analizė siekiant atnaujinti prašymų duomenis
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
-            - name: Gaunamų dokumentų analizė CSV formatu
-              href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
-            - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
+            - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
+              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+            - name: Failų importavimas XML formatu
+              items:
+                - name: Failų importavimas XML formatu su pasirinktiniais atributais
+                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
+                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
+        - name: Konfigūracijos ciklas
+          items:
+            - name: Konfigūracijų ciklo valdymas
+              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+            - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
+              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Konfigūracijų importavimas iš „Lifecycle Services“
+              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+            - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
+              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+            - name: Konfigūracijų importavimas
+              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+            - name: ER konfigūracijų atsisiuntimas iš RCS saugyklos
               items:
-                - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
-                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-                - name: „Application Update 7.3“ elektroninės ataskaitų sistemos API pakeitimai
-                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-                - name: Pasirinktinės saugyklos sugeneruotiems dokumentams nurodymas
-                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                - name: Konfigūracijų importavimas iš RCS
+                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+        - name: Elektroninių ataskaitų sprendimų naudojimas „Finance and Operations“
+          items:
+            - name: Sistemos konfigūravimas
+              items:
+                - name: Elektroninių ataskaitų sistemos konfigūravimas
+                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
+                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Paskirties vietos
+              items:
+                - name: Paskirties vietų peržiūra
+                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                - name: Paskirties vietų konfigūravimas
+                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+            - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
+              items:
+                - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                - name: Bandymų automatizavimas naudojant elektronines ataskaitas
+                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+            - name: Verslo procesų automatizavimas naudojant elektroninių ataskaitų konfigūracijas
+              items:
+                - name: Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI“
+                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
+                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+            - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+        - name: ER sistemos API
+          items:
+            - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
+              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+            - name: „Application Update 7.3“ elektroninės ataskaitų sistemos API pakeitimai
+              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+            - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
+              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: Įdėtieji analizės sprendimai
           items:
             - name: Įdėtoji „Power BI“ darbo srityse
               href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json
             - name: „Power BI Embedded“ integravimas
               href: ../dev-itpro/analytics/power-bi-embedded-integration.md?toc=/fin-and-ops/toc.json
+            - name: Analizės darbo srities pasirinkimas iš PowerBI.com
+              href: ../dev-itpro/analytics/select-analytical-workspace.md
         - name: Personalizavimo parinktys naudojantis PowerBI.com
           items:
             - name: Galimos funkcijos ir paslaugos naudojant „Power BI“ integravimą
               href: ../dev-itpro/analytics/power-bi-integration.md?toc=/fin-and-ops/toc.json
             - name: „Power BI“ ataskaitų prisegimas prie darbo sričių
               href: ../dev-itpro/analytics/pin-power-bi-reports.md?toc=/fin-and-ops/toc.json
+            - name: Į analizės darbo sritis įdėtųjų ataskaitų tinkinimas
+              href: ../dev-itpro/analytics/customize-analytical-workspace.md
         - name: Sprendimų kūrimo ir plėtimo įrankiai
           items:
             - name: 'Analizė, agreguoti matavimo vienetai ir KPI modeliavimas'
@@ -3067,12 +3279,16 @@
               href: ../supply-chain/cost-management/adjust-hand-inventory-cost-values.md
             - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+    - name: Tiekimo grandinė
+      href: ../supply-chain/index.md
     - name: Bendrasis planavimas
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
         - name: Bendrieji planai
           href: ../supply-chain/master-planning/master-plans.md
           items:
+            - name: Nustatyti bendruosius planus
+              href: ../supply-chain/master-planning/master-planning-setup.md
             - name: Padengimo parametrai
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: Prekių padengimo taisyklių apibrėžimas
@@ -3099,6 +3315,8 @@
               href: ../supply-chain/master-planning/tasks/create-plan-site.md
             - name: Kalendoriai ir bendrasis planavimas
               href: ../supply-chain/master-planning/supply-chain-calendars-master-planning.md
+            - name: Bendrojo planavimo efektyvumo patobulinimas
+              href: ../supply-chain/master-planning/master-planning-performance.md
             - name: Bendrieji planai ir kelių teritorijų funkcija
               href: ../supply-chain/master-planning/master-plan-multisite-functionality.md
               items:
@@ -3114,7 +3332,9 @@
                   href: ../supply-chain/master-planning/master-plan-bom-version-determined.md
                 - name: KS versijos išskleidimas
                   href: ../supply-chain/master-planning/master-plan-explosion-bom-version.md
-            - name: vidinės įmonės plano kūrimas
+            - name: Neigiamos dienos ir dinamines neigiamas dienas
+              href: ../supply-chain/master-planning/more-about-dynamic-negative-days.md
+            - name: Vidinės įmonės plano kūrimas
               href: ../supply-chain/master-planning/tasks/create-intercompany-plan.md
             - name: Siunčiamo suplanuoto vidinių įmonių poreikio peržiūra
               href: ../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md
