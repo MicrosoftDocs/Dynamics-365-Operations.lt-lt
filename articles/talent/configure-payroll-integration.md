@@ -3,7 +3,7 @@ title: Algalapio integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti integravimą tarp „Microsoft Dynamics 365 for Talent“ ir „Ceridian Dayforce“, kad galėtumėte apdoroti mokėjimo vykdymą.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518608"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702823"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
@@ -54,6 +54,16 @@ Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ 
 
 - [Apie „Azure“ saugyklos paskyras](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [„Azure Storage“ jungimosi eilučių konfigūravimas](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>Techninė informacija apie algalapių integravimo įjungimą
+
+Įjungus algalapių integravimą gaunami du pagrindiniai rezultatai:
+
+- Sukuriamas duomenų eksportavimo projektas pavadinimu Atlyginimų integravimo eksportavimas. Šiame projekte yra objektai ir laukai, kurie būtini norint užtikrinti algalapių integravimą. Norėdami analizuoti projektą, eikite į **Sistemos administravimas**, pasirinkite plytelę **Duomenų valdymas**, tada projektų sąraše atidarykite duomenų projektą.
+- Ši paketinė užduotis vykdo duomenų eksportavimo projektą, užšifruoja gautą duomenų paketą ir perduoda duomenų paketo failą į SFTP galinį punktą, sukonfigūruotą ekrane **Integravimo konfigūracija**.
+
+> [!NOTE]
+> Duomenų paketas, perduotas į SFTP galinį punktą, užšifruojamas naudojant unikalų pakuotės raktą. Raktas laikomas „Azure Key Vault“, kurį gali pasiekti tik „Ceridian“. Neįmanoma iššifruoti ir išanalizuoti duomenų paketo turinio. Jei reikia analizuoti duomenų paketo turinį, reikės rankiniu būdu eksportuoti duomenų projektą Atlyginimų integravimo eksportavimas, jį atsisiųsti ir tada atsidaryti. Eksportuojant rankiniu būdu nebus taikomas šifravimas ir paketas nebus perduodamas.
 
 ## <a name="configure-your-data"></a>Jūsų duomenų konfigūravimas 
 

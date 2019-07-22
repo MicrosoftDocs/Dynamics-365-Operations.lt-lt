@@ -3,7 +3,7 @@ title: „Power BI“ Kredito ir mokėjimų priežiūros valdymas
 description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Kredito ir mokėjimų priežiūros valdymas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547237"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702777"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ Kredito ir mokėjimų priežiūros valdymas
 
@@ -42,7 +42,17 @@ Visos sumos rodomos sistemos valiuta. Sistemos valiutą galite nustatyti puslapy
 
 Pagal numatytuosius nustatymus rodomi šios įmonės kredito ir mokėjimų priežiūros duomenys. Norėdami pamatyti visų įmonių duomenis, vaidmeniui priskirkite pareigą **CustCollectionsBICrossCompany**.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Norint peržiūrėti „Power BI“ turinį reikia atlikti sąranką
+
+Kad duomenys būtų rodomi **Klientų kredito ir mokėjimų priežiūra** „Power BI“ vizualizacijose, reikia atlikti toliau nurodytą sąranką.
+
+1. Eikite į **Sistemos administravimas > Sąranka > Sistemos parametrai** ir nustatykite **Sistemos valiuta** ir **Sistemos valiutos kursas**.
+2. Eikite į **Didžioji knyga > Sąranka > Didžioji knyga** ir nustatykite **Apskaitos valiuta** ir **Valiutos kurso tipas**.
+3. Nurodykite valiutos kursus tarp operacijos valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
+4. Eikite į **Sistemos administravimas > Sąranka > Objektų saugykla** ir atnaujinkite agreguotą matavimo vienetą **CustCollectionsBIMeasurements**.
+
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
+
 „Power BI“ turinys **Kreditų ir mokėjimų priežiūros valdymas** rodomas darbo srityje **Klientų kredito ir mokėjimų priežiūra**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
@@ -63,28 +73,3 @@ Pagal numatytuosius nustatymus rodomi šios įmonės kredito ir mokėjimų prie�
 | Priminimo laiškai         | <ul><li>Priminimo laiško kodo sumos</li><li>Priminimo laiško kodo sumos informacija</li><li>Priminimo laiško suma pagal įmonę</li><li>Priminimo laiško suma pagal klientų grupę</li><li>Priminimo laiško suma pagal regioną</li></ul> |
 
 Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Norėdami eksportuoti vizualiai apibendrintus pagrindinius duomenis, taip pat galite naudoti pagrindinių duomenų eksportavimo funkciją.
-
-## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
-
-Tolesniais duomenimis pildoma „Power BI“ turinio **Kredito ir mokėjimų priežiūros valdymas** ataskaita. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](../../dev-itpro/analytics/power-bi-integration-entity-store.md).
-
-
-|                   Objektas                    |      Pagrindiniai agreguoti matavimo vienetai      |             Duomenų šaltinis              |                           Laukas                            |                                    aprašymas                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities, AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     Uždarytų veiklų skaičius ir vidutinis laikas, skirtas uždaryti tas veiklas.     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           Atvirų veiklų skaičius.                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             Pagal terminus suskirstytų likučių suma.                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           Pradelstos sumos.                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases, CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        Uždarytų atvejų skaičius ir vidutinis laikas, skirtas uždaryti tuos atvejus.        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              Atvirų atvejų skaičius.                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       Atvirų priminimo laiškų skaičius.                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     Užregistruotų priminimo laiškų likutis.                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                Operacijų, kurioms nustatyta priminimo būsena, likutis.                 |
-|           CustCollectionsBICredit           | CreditExposed, AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | Kredito ekspozicijos suma ir klientų viršijamos kredito limito sumos. |
-|         CustCollectionsBICustOnHold         |               Užblokuota                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     Sulaikytų klientų skaičius.                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        30 dienų pardavimo neapmokėjimo laikas dienomis                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 Numatytų kitų metų mokėjimų suma.                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                Sukurtų delspinigių pažymų skaičius.                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 Bendras sulaikytų pardavimo užsakymų skaičius.                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                Nurašytų operacijų suma.                 |
-

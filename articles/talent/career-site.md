@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518691"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729708"
 ---
 # <a name="career-site-functionality-in-attract"></a>„Attract“ karjeros svetainės funkcijos
 
@@ -48,11 +48,14 @@ Norėdami nustatyti toliau nurodytų elementų reikšmes, prisijunkite prie „A
  
 Norėdami nustatyti toliau nurodytų elementų reikšmes, prisijunkite prie „Attract“ kaip administratorius, pasirinkite parinktį **Administravimo centras**, pateiktą meniu **Parametrai**, tada pasirinkite skirtuką **Karjeros svetainės valdymas**.
 
--   **Ieškos mechanizmo optimizavimas** - įjungus, visų viešų darbų, paskelbtų „Attract“ karjeros svetainėje, bus galima ieškoti naudojant ieškos mechanizmus, pvz., „Bing“ ir „Google“.
+-   **Ieškos mechanizmo optimizavimas** - įjungus, visų viešų darbų, paskelbtų „Attract“ karjeros svetainėje, bus galima ieškoti naudojant ieškos mechanizmus, pvz., „Bing“ ir „Google“. 
 
     > [!NOTE] 
     > Įjungus šį parametrą ieškos rezultatai gali būti rodomi ne iš karto, priklausomai nuo naudojamo ieškos mechanizmo.
-         
+    
+-   **Sąlygos** – kai įjungta, visi kandidatai turi sutikti su organizacijos sąlygomis, kai jie kreipiasi dėl bet kokios laisvos darbo vietos. „Attract“ administratorius gali sukonfigūruoti atskirą sutikimo tekstą ir sąlygų puslapio saitą. 
+
+        
 ## <a name="career-site-urls"></a>Karjeros svetainės URL
 
 Toliau nurodytame sąraše pateikiami dažnai naudojami karjeros svetainės URL ir nurodoma, kaip juos pasiekti.

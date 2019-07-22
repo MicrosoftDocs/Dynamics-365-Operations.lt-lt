@@ -1,9 +1,9 @@
 ---
-title: Atsargų skaičiavimas pagal žymes
-description: Šiame straipsnyje pateikiama informacija apie žymių skaičiavimą, kurį naudojate norėdami palyginti faktinį sandėlio turinį su turimomis atsargomis.
+title: Atsargų žymių inventorizacija
+description: Šioje temoje pateikiama informacija apie žymių skaičiavimą, kurį naudojate norėdami palyginti faktinį sandėlio turinį su turimomis atsargomis.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,24 +18,23 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff899d0e6d94287c0f1924fe1787189d79c09f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570839"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624866"
 ---
-# <a name="inventory-tag-counting"></a>Atsargų skaičiavimas pagal žymes
+# <a name="inventory-tag-counting"></a>Atsargų žymių inventorizacija
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Šiame straipsnyje pateikiama informacija apie žymių skaičiavimą, kurį naudojate norėdami palyginti faktinį sandėlio turinį su turimomis atsargomis.
+Šioje temoje pateikiama informacija apie žymių skaičiavimą, kurį naudojate norėdami palyginti faktinį sandėlio turinį su turimomis atsargomis.
 
 Puslapyje **Skaičiavimas pagal žymes** kurdami eilutes, kiekvienai atsargų prekei priskiriate žymės numerį, pvz., skaičių nuo 1 iki 500. Skaičiuojant prekės numeris ir kiekis įvedami atitinkamoje žymėje. Šią žymę tada galima naudoti kaip įvesties pagrindą skaičiavimo pagal žymes žurnale. Užregistravus skaičiavimo pagal žymes žurnalą, **Skaičiavimo** puslapyje sukuriamas naujas skaičiavimo žurnalas. Naujasis žurnalas paremtas jūsų sukurtomis skaičiavimo pagal žymes žurnalo eilutėmis. Jei, prekes skaičiuodami pagal žymę, tai norite daryti pagal konkrečią atsargų dimensiją, puslapyje **Rodyti dimensiją**, kuris rodomas, kai kuriate skaičiavimo pagal žymes žurnalą, pasirinkite dimensiją. Pavyzdžiui, norėdami skaičiuoti konkretaus sandėlio prekes, pasirinkite **Sandėlio** žymės langelį. Jei **Atsargų ir sandėlio valdymo parametrų** puslapyje pasirinktas slankikis **Blokuoti prekes jas skaičiuojant**, skaičiuojant prekes, prekių fiziškai atnaujinti negalima. Tačiau skaičiuojant skaičiavimo pagal žymes žurnalų prekės neblokuojamos. Atsargų operacijos nekuriamos tol, kol skaičiavimo pagal žymes eilutės neregistruojamos ir neperkeliamos į skaičiavimo žurnalą. Jei žymės įvedamos atsitiktine tvarka, ir norite identifikuoti trūkstamas žymes, spustelėkite stulpelio antraštę **Žymė** – eilutės bus surūšiuotos pagal žymę.
 
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Ciklų skaičiavimas](../warehousing/cycle-counting.md)

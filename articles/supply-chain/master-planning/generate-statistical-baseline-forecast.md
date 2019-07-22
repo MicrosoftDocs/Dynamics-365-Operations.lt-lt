@@ -1,9 +1,9 @@
 ---
 title: Pagrindinės statistinės prognozės generavimas
-description: Šiame straipsnyje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę.
+description: Šioje temoje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
+ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546322"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1729880"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Pagrindinės statistinės prognozės generavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę. 
+Šioje temoje pateikiama informacija apie parametrus ir filtrus, kurie naudojami skaičiuojant poreikio prognozę. 
 
 Kuriant pagrindinę prognozę, pirmiausia reikia nurodyti skaičiuojant naudojamus parametrus ir filtrus. Pavyzdžiui, galite sukurti pagrindinę prognozę, kurioje poreikis vertinamas remiantis praėjusių metų operacijų duomenimis konkrečioje įmonėje, ateinančiam mėnesiui ir pasirinktai prekių grupei. 
 
@@ -49,9 +49,12 @@ Siekiant išvengti painiavos gamybos planuose, tam tikrą prognozės rinkinių s
 
 Pagrindinės poreikio prognozės pradžios data neturi būti dabartinė data arba ateities data. Norėdami nustatyti kitą pradžios datą, naudokite lauką **Pagrindinės prognozės pradžios data – pradžios data**. Pavyzdžiui, birželį vartotojai gali generuoti kitų metų prognozę. Kadangi nenurodyti praeities poreikio pabaigos ir pagrindinės prognozės pradžios prognozės rinkiniai, prognozės gali būti netikslios. Jei naudojate „Microsoft Dynamics 365 for Finance and Operations“ poreikio prognozės tarnybą, trūkstamą informaciją galite įvesti keturiais būdais. Norimą metodą galite pasirinkti puslapyje **Poreikio prognozės parametrai** nustatydami parametrą MISSING\_VALUE\_SUBSTITUTION. 
 
+> [!NOTE]
+> Trūkstamos vertės pakaitalai veikia tik duomenų spragų, esančių tarp istorinių duomenų pradžios ir pabaigos datų, atveju. Jie neužpildys duomenų prieš arba po paskutinio faktinio duomenų taško; jie veikia tik kaip ekstrapoliacija tarp faktinių esamų duomenų taškų. 
+
 Lauko **Pagrindinės prognozės pradžios data** -  **Pradžios data** reikšmė turi būti nustatyta prognozės rinkinio pradžioje, pvz., Jungtinėse Amerikos Valstijose tai būtų sekmadienis, jei prognozės rinkinys yra savaitė. Sistema automatiškai koreguoja lauko **Pagrindinės prognozės pradžios data**  -  **Pradžios data** reikšmę, kad ji atitiktų prognozės rinkinio pradžią. 
 
-Lauko **Pagrindinės prognozės pradžios data** -  **Pradžios data** reikšmę galima nustatyti kaip praeities datą. Kitaip tariant, galima generuoti praeities poreikio prognozę. Tai naudinga, nes vartotojai gali keisti prognozės tarnybos parametrus, kad anksčiau sugeneruota statistinė prognozė atitiktų faktinį praeities poreikį. Tada vartotojai gali toliau naudoti šį parametrų nustatymą, norėdami generuoti ateities pagrindinę statistinę prognozę. 
+Lauko **Pagrindinės prognozės pradžios data** -  **Pradžios data** reikšmę galima nustatyti kaip praeities datą. Kitaip tariant, galima generuoti praeities poreikio prognozę. Tai naudinga, nes vartotojai gali koreguoti prognozės tarnybos parametrus, kad anksčiau sugeneruota statistinė prognozė atitiktų faktinį praeities poreikį. Tada vartotojai gali toliau naudoti šį parametrų nustatymą, norėdami generuoti ateities pagrindinę statistinę prognozę. 
 
 Ankstesnių poreikio prognozavimo pakartojimų koregavimus, atliktus neautomatiniu būdu, galima automatiškai taikyti naujai pagrindinei prognozei, jei pažymėtas žymės langelis **Perkelti neautomatinius koregavimus į poreikio prognozę**. Jei žymės langelis išvalytas, neautomatiniai koregavimai neįtraukiami į pagrindinę prognozę, bet nėra panaikinami. Neautomatinius prognozės koregavimus galima panaikinti tik prognozės importavimo metu, išvalant žymės langelį **Įrašyti atliktus pagrindinės poreikio prognozės neautomatinius koregavimus**. Neautomatiniai koregavimai įrašomi autorizavimo metu. Todėl jei vartotojas neautomatiškai koreguoja prognozę, tačiau neįgalioja jos „Finance and Operations“, pakeitimai bus prarasti. Daugiau informacijos apie neautomatinius koregavimus ir jų paskirtį žr. puslapyje [Pakoreguotos prognozės įgaliojimas](authorize-adjusted-forecast.md). 
 
@@ -59,18 +62,19 @@ Poreikio prognozės generavimo procesas gali turėti pavadinimą ir komentarų, 
 
 Vidinės įmonės planavimo grupės, prekių paskirstymo raktų ir kitus filtrus galima taikyti prognozės generavimo metu. Juos galima naudoti našumui pagerinti arba duomenims į įvykdomas dalis padalinti. Tačiau atkreipkite dėmesį, kad poreikio prognozė nėra generuojama su vidinės įmonės planavimo grupe nesusieto prekių paskirstymo rakto nariams, net jei užklausoje prekių paskirstymo raktas yra pasirinktas. 
 
-**Patarimas**: kartais vartotojai gali gauti klaidų pranešimų, kai generuojama pagrindinė poreikio prognozė arba kai prognozės generavimas baigtas be seanso žurnalo. Tai gali įvykti dėl užklausoje likusių duomenų, kurie anksčiau buvo naudoti generuojant prognozę. Norėdami išspręsti šią problemą, spustelėkite **Pasirinkti** ir atidarykite puslapį **Užklausa**, spustelėkite **Iš naujo nustatyti** ir tada iš naujo generuokite pagrindinę prognozę. 
+> [!TIP]
+> Kartais vartotojai gali gauti klaidų pranešimų, kai generuojama pagrindinė poreikio prognozė arba kai prognozės generavimas baigtas be seanso žurnalo. Tai gali įvykti dėl užklausoje likusių duomenų, kurie anksčiau buvo naudoti generuojant prognozę. Norėdami išspręsti šią problemą, spustelėkite **Pasirinkti** ir atidarykite puslapį **Užklausa**, pasirinkite **Iš naujo nustatyti** ir tada iš naujo generuokite pagrindinę prognozę. 
 
 Jei prognozė generuojama ne dideliam prekių rinkiniui, bet, pavyzdžiui, vienai prekei arba vienam prekių paskirstymo raktui vienu metu, tada, norint gauti geresnių rezultatų, galima pasirinkti žymės langelį **Naudoti užklausos atsakymo režimą**, esantį skirtuke **Bendrasis planavimas – Sąranka – Poreikio prognozė** - **Poreikio prognozės parametrai – „Azure“ mašininis mokymas**.
+
+> [!NOTE]
+> Gana lygia atrodanti prognozė gali būti dėl istorinių duomenų, kurie yra iš ilgesnio istorinio laikotarpio (mažiausiai 3 laikotarpiai, kad būtų galima išrinkti pasikartojimus, pvz., 3 metai su mėnesine prognoze). Norėdami gauti geresnį rezultatą, galite pabandyti pakeisti laiko intervalo detalumą arba didinti laiko intervalą.
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
+- [Poreikio prognozavimo nustatymas](demand-forecasting-setup.md)
 
-[Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
+- [Neautomatiniai pagrindinės prognozės koregavimai](manual-adjustments-baseline-forecast.md)
 
-[Pakoreguotos poreikio prognozės įgaliojimas](authorize-adjusted-forecast.md)
-
-
-
+- [Pakoreguotos poreikio prognozės įgaliojimas](authorize-adjusted-forecast.md)

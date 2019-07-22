@@ -3,7 +3,7 @@ title: „Power BI“ turinys Grynųjų pinigų apžvalga
 description: Šioje temoje aprašomas „Power BI“ turinys Grynųjų pinigų apžvalga. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti.
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568922"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702800"
 ---
 # <a name="cash-overview-power-bi-content"></a>„Power BI“ turinys Grynųjų pinigų apžvalga
 
@@ -33,6 +33,17 @@ ms.locfileid: "1568922"
 
 „Power BI“ turinį **Grynųjų pinigų apžvalga** sukūrė asmenys, kurie atsakingi už grynuosius pinigus savo organizacijoje. „Power BI“ turinys **Grynųjų pinigų apžvalga** suteikia galimybę matyti savo pinigų srautą. Taip pat pateikiama prognozė, kuri gali padėti priimti geresnius sprendimus ir pagerinti savo pinigų srauto būseną. Jūs galite analizuoti pinigus pagal juridinį subjektą, valiutą ir banko sąskaita, kad geriau suprastumėte perteklines ir trūkstamas sumas.
 
+## <a name="setup-needed-to-view-power-bi-content"></a>Norint peržiūrėti „Power BI“ turinį reikia atlikti sąranką
+
+Reikia atlikti toliau nurodytą sąranką, kad duomenys būtų rodomi **Grynųjų pinigų apžvalga** ir **Banko valdymas** „Power BI“ vaizdiniuose elementuose.
+
+1. Eikite į **Sistemos administravimas > Sąranka > Sistemos parametrai** ir nustatykite **Sistemos valiuta** ir **Sistemos valiutos kursas**.
+2. Norėdami nustatyti parinktis **Apskaitos valiuta** ir **Valiutos kurso tipas** eikite į **Didžioji knyga > Sąranka >DK**.
+2. Nurodykite valiutos kursus tarp operacijos valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos, apskaitos valiutos ir banko valiutų. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
+3. Sukonfigūruokite ir vykdykite grynųjų pinigų srautų prognozavimą. Daugiau informacijos, kaip nustatyti grynųjų pinigų srautų prognozavimą, žr. <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">Grynųjų pinigų srautų prognozavimas</a>. 
+4. Norėdami atnaujinti agreguotą matavimo vienetą **LedgerCovLiquidityMeasurement**, eikite į **Sistemos administravimas > Sąranka > Objektų saugykla**.
+
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 
 „Power BI“ turinio **Grynųjų pinigų apžvalga** ataskaitos rodomos darbo srityse **Grynųjų pinigų apžvalga** ir **Banko valdymas**.
@@ -42,6 +53,7 @@ Norėdami peržiūrėti grynųjų pinigų srautų prognozės ataskaitas ir duome
 Demonstravimo tikslais, naudodami puslapyje **Duomenų generavimas** pateiktą demonstracinių duomenų modulį galite įtraukti grynųjų pinigų srautų prognozės demonstracinius duomenis.  Scenarijus įterps duomenis į grynųjų pinigų srautų prognozės lentelės, kad ataskaitoms reikalingą informaciją būtų galima greitai įvesti.  Šis modulis galimas tik tada, jei aplinkoje įdiegtas demonstracinių duomenų paketo modelis. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
+
 Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekviename „Power BI“ turinio **Grynųjų pinigų apžvalga** ataskaitų puslapyje.
 
 | Ataskaita                                | Turinys |
@@ -67,5 +79,3 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas „Power BI�
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Grynųjų pinigų įplaukų, išmokų ir likučio suvestinė naudojant kiekvienos įmonės apskaitos valiutą |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Grynųjų pinigų įplaukų, išmokų ir likučio suvestinė naudojant visų įmonių sistemos valiutą |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Grynosios operacijos sumos ir valiutų likučio suvestinė naudojant operacijos valiutą |
-
-

@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557334"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624889"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>Projekto tabeliai mobiliajame įrenginyje
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>Peržiūra
 
 **Mano tabeliai (optimizuoti mobiliesiems įrenginiams)** suteikia galimybę kurti ir pateikti projekto tabelius, kad būtų konkretaus projekto valandos mobiliajame įrenginyje. Darbuotojai gali kurti naują tabelį arba kopijuoti duomenis iš esamo tabelio, kad užtikrintų greitą, tikslų laiko įvedimą. Jei esate paskirtas būti atstovu, grafiką galite įvesti ir už kitą darbuotoją. Programa darbuotojams suteikia galimybę filtruoti pagal projektą, išteklių arba patvirtinimo būseną, kad būtų galima greitai rasti ir pasirinkti tabelį. Ji taip pat darbuotojams suteikia galimybę įrašyti parankinius; tokiu būdu projekto ir veiklos informacija įrašoma tabelyje. Įrašyti parankiniai gali būti naudojami ateityje kuriant tabelius, kad laiko įvedimo procesas būtų greitesnis. Finansinės dimensijos informacijos redagavimas arba peržiūra iš mobiliųjų įrenginių programos yra nepalaikoma. **Mano tabeliai (optimizuoti mobiliesiems įrenginiams)** gali būti pasiekti naudojant žiniatinklio naršyklę mobiliajame įrenginyje.
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557334"
 Ši mobiliųjų įrenginių programa yra suderinama „iPhone“ skirtu „Dynamics 365 for Finance and Operations“ platformos 15 naujiniu.
 „Android“ bus suderinama, kai bus išleistas 16 platformos naujinys.
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>Projekto tabelio kūrimas mobiliajame įrenginyje
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>Projekto tabelio kūrimas mobiliajame įrenginyje
 
 1.  Pasižymėkite „Dynamics 365“ puslapio **Projekto valdymas ir apskaita** \> **Tabeliai** \> **Mano tabeliai (optimizuoti mobiliesiems įrenginiams)** URL.
 

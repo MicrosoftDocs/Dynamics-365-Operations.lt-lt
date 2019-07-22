@@ -3,7 +3,7 @@ title: „Finance and Operations“ skirti vaizdo įrašai
 description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Dynamics 365 for Finance and Operations“, pasiekiami „YouTube“ ir kitose svetainėse.
 author: josaw1
 manager: AnnBe
-ms.date: 05/15/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 1b828382f9f81d796fcfaef0e9c7dc9450a97992
-ms.sourcegitcommit: 2bbc0eeca6826c529fb729b82d16f287c1ce05bb
+ms.openlocfilehash: 5ede5bfa3b7a61461adb1514b7e96c4eba5a75c7
+ms.sourcegitcommit: fdc37a3c2ca2bac5741e7017fb225344e64f041a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1591553"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625402"
 ---
 # <a name="videos-for-finance-and-operations"></a>„Finance and Operations“ vaizdo įrašai
 
@@ -64,6 +64,10 @@ Vaizdo įrašai išdėlioti pagal ypatybę, todėl norėdami pamatyti visą vaiz
 - [Darbo su moduliu Kaštų apskaita pradžia](https://youtu.be/1pUDtJQZ8FU)
 - [„Excel“ naudojimas išlaidų analizei](https://youtu.be/-HKHYdClvx8)
 - [Išlaidų patirtis](https://youtu.be/Ocy-MsTvEE0)
+
+#### <a name="help-system"></a>Žinyno sistema
+
+- [Kaip prisidėti kuriant „Microsoft Dynamics 365“ dokumentaciją](https://youtu.be/m5djioozRbg)
 
 #### <a name="intelligence"></a>Įžvalgos
 

@@ -3,7 +3,7 @@ title: ER formato vykdymo sekimas siekiant diagnozuoti našumo problemas
 description: Šioje temoje pateikiama informacijos apie tai, kaip elektroninėse ataskaitose (ER) naudojantis našumo sekimo funkcija spręsti našumo problemas.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576551"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703880"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -346,3 +346,29 @@ Jei naudojatės viena iš šių „Finance and Operations“ versijų, sugeneruo
 Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą.
+
+![Įvykdyto ER formato informacijos sekimas naudojant „PerfView“](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Norėdami peržiūrėti vykdymo sekimą, apimantį duomenų bazės užklausas, naudokite išorinius įrankius
+
+Dėl patobulinimų, atliktų ER sistemoje, efektyvumo sekimo duomenys, sugeneruoti „PerfView“ formatu, dabar teikia daugiau išsamios informacijos apie ER formato vykdymą. Naudojant „Microsoft Dynamics 365 for Finance and Operations“ 10.0.4 versiją (2019 m. liepos mėn.), šiuose sekimo duomenyse taip pat gali būti pateikiama informacija apie vykdytas SQL užklausas į programos duomenų bazę.
+
+### <a name="configure-user-parameters"></a>Vartotojo parametrų konfigūravimas
+
+1. Programoje „Finance and Operations“ eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
+2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
+3. Dialogo lango **Vartotojo parametrai** skyriuje **Vykdymo sekimas** nustatykite toliau nurodytus parametrus.
+
+    - Lauke **Vykdymo sekimo formatas** pasirinkite **„PerfView“ XML**.
+    - Nustatykite parinkties **Rinkti užklausų statistiką** reikšmę **Taip**.
+    - Nustatykite parinkties **Įjungti profilį** reikšmę **Taip**.
+
+    ![„Finance and Operations“ vartotojo parametrų dialogo langas](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>ER formato vykdymas
+
+Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
+
+Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą. Dabar šis sekimas apims informaciją apie SQL duomenų bazės prieigą vykdant ER formatą.
+
+![Įvykdyto ER formato informacijos sekimas naudojant „PerfView“](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

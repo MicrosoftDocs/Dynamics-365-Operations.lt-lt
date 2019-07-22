@@ -3,7 +3,7 @@ title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti „Microsoft Dynamics 365 for Finance and Operations“.
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620019"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625016"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -169,6 +169,6 @@ Vartotojai, turintys administratoriaus teises, taip pat gali valdyti kitų varto
 
 Personalizuodami puslapyje atsargų dimensijų sąranką, atsižvelkite į parametrus, kurie buvo sukurti naudojant parinktį **Rodyti dimensiją**. Pavyzdžiui, naudojate personalizavimą, norėdami paslėpti paketo numerio atsargų dimensijos stulpelį, tačiau stulpelis rodomas kitą kartą atidarius puslapį. Taip atsitinka todėl, kad atsargų dimensijų stulpelių rodymas valdomas naudojant parametrus **Dimensijos rodinys**.
 
-Parametrai **Dimensijos rodinys** taikomi visuose puslapiuose ir naudojantis šiais parametrais panaikinamos visos personalizuotos atskirų puslapių atsargų dimensijų laukų sąrankos.
+Parametrai **Dimensijos rodinys** taikomi visuose puslapiuose ir naudojantis šiais parametrais panaikinamos visos personalizuotos kiekvieno atskiro puslapio atsargų dimensijų laukų sąrankos.
 
-Todėl ankstesniame pavyzdyje, jei nenorite, kad būtų rodomas paketo numerio atsargų dimensijos stulpelis, turite lentelėje panaikinti tos dimensijos parinkties **Rodyti dimensijas** žymėjimą. Galiausiai šis pakeitimas bus taikomas ne tik vienam konkrečiam puslapiui, tačiau visiems puslapiams.
+Todėl ankstesniame pavyzdyje, jei nenorite, kad puslapyje būtų rodomas paketo numerio atsargų dimensijos stulpelis, turite tame puslapyje panaikinti tos dimensijos parinkties **Rodyti dimensijas** žymėjimą.

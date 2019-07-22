@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576926"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624612"
 ---
 # <a name="provision-talent"></a>„Talent“ parengimas
 
@@ -48,6 +48,8 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
 
 1. LCS projekte pasirinkite plytelę **Programos „Talent“ valdymas**.
 2. Nurodykite, ar tai „smėlio dėžės“, ar gamybos „Talent“ egzempliorius. „Smėlio dėžės“ egzemplioriuose gali būti prieinamos išankstinės peržiūros funkcijos, kad būtų galima pateikti išankstinį grįžtamąjį ryšį ir atlikti bandymus. 
+    > [!NOTE]
+    > „Talent“ egzemplioriaus tipas yra atskiras ne „PowerApps“ aplinkos egzemplioriaus tipas, kurį nustatote „PowerApps“ administravimo centre.
 3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Talent“ bandomosios versijos patirtyje. Tai yra naudinga ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojama gamybos aplinkose.  Atkreipkite dėmesį į tai, kad turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
 4. „Talent“ visada paruošta „Microsoft PowerApps“ aplinkai, siekiant įgalinti „PowerApps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „PowerApps“ aplinkos pasirinkimas“. Jei dar neturite „PowerApps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „PowerApps“ administravimo centrą. Tada atlikite nurodytus veiksmus, kad [sukurtumėte „PowerApps“ aplinką](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
 

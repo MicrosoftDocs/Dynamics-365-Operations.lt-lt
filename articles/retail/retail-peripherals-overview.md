@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577934"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624817"
 ---
 # <a name="retail-peripherals"></a>Išoriniai mažmeninės prekybos įrenginiai
 
@@ -156,13 +156,13 @@ Spausdintuvams naudojamas tik **„Windows“** įrenginio tipas. Kai aparatūro
 
 ### <a name="network"></a>Tinklas
 
-Į tinklą adresuojamus kasos stalčius, kvitų spausdintuvus ir mokėjimo terminalus galima naudoti tinkle, arba tiesiogiai per tarpprocesinio ryšio (IPC) aparatūros stotį, kuri yra įtaisyta „Windows“ skirtoje „Modern POS“ programoje, arba per IIS aparatūros stotį, skirtą kitiems „Modern POS“ klientams.
+Į tinklą adresuojamus kasos stalčius, kvitų spausdintuvus ir mokėjimo terminalus galima naudoti tinkle tiesiogiai per tarpprocesinio ryšio (IPC) aparatūros stotį, įtaisytą „Modern POS“ programose, skirtose „Windows“ ir „Android“, arba per IIS aparatūros stotį, skirtą kitiems „Modern POS“ klientams.
 
 ## <a name="hardware-station-deployment-options"></a>Aparatūros stoties diegimo parinktys
 
 ### <a name="ipc-built-in"></a>IPC (įtaisytasis)
 
-Tarpprocesinio ryšio (IPC) aparatūros stotis yra įtaisyta „Windows“ skirtoje „Modern POS“ programoje. Norėdami naudoti IPC aparatūros stotį, priskirkite aparatūros šabloną registrui, kuris naudoja „Windows“ skirtą „Modern POS“ programą. Tada parduotuvei, kurioje registras bus naudojamas, sukurkite aparatūros stotį, kurios tipas **Paskirta**. Paleidus „Modern POS“, IPC aparatūros stotis bus aktyvi, o sukonfigūruoti išoriniai EKA įrenginiai bus parengti naudoti. Jeigu laikinai dėl tam tikrų priežasčių jums nereikia vietinės aparatūros, naudodami operaciją **Tvarkyti aparatūros stotis** išjunkite aparatūros stoties galimybes. „Modern POS“ taip pat gali naudoti IPC aparatūros stotį tiesioginiam ryšiui su išoriniais tinklo įrenginiais palaikyti.
+Tarpprocesinio ryšio (IPC) aparatūros stotis yra įtaisyta „Windows“ skirtoje „Modern POS“ ir „Android“ skirtoje „Modern POS“ programoje. Norėdami naudoti IPC aparatūros stotį, priskirkite aparatūros šabloną registrui, kuris naudoja „Windows“ skirtą „Modern POS“ programą. Tada parduotuvei, kurioje registras bus naudojamas, sukurkite aparatūros stotį, kurios tipas **Paskirta**. Paleidus „Modern POS“, IPC aparatūros stotis bus aktyvi, o sukonfigūruoti išoriniai EKA įrenginiai bus parengti naudoti. Jeigu laikinai dėl tam tikrų priežasčių jums nereikia vietinės aparatūros, naudodami operaciją **Tvarkyti aparatūros stotis** išjunkite aparatūros stoties galimybes. „Modern POS“ taip pat gali naudoti IPC aparatūros stotį tiesioginiam ryšiui su išoriniais tinklo įrenginiais palaikyti.
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ Aparatūros šablono įrenginių tinklo priskyrimas leidžia kasos stalčius, kv
 
 Išoriniams tinklo įrenginiams IP adresus galite nurodyti dviejose vietose. Jei „Modern POS Windows“ klientas naudoja vieną išorinių tinklo įrenginių rinkinį, tų įrenginių IP adresus turite nustatyti naudodami paties registro veiksmų srities parinktį **IP konfigūracija**. Tinklo įrenginių, kurie bendrai naudojami tarp EKA registrų, atveju, aparatūros šablonas, kuriam priskirti įrenginiai, gali būti tiesiogiai susietas su bendrai naudojama aparatūros stotimi. Norėdami priskirti IP adresus, tą aparatūros stotį pasirinkite puslapyje **Mažmeninės prekybos parduotuvės**, tada naudodami parinktį **IP konfigūracija** iš skyriaus **Aparatūros stotys** nurodykite tinklo įrenginius, kurie priskiriami tai aparatūros stočiai. Aparatūros stotyse, kurios turi tik tinklo įrenginių, jums nereikės įdiegti pačios aparatūros stoties. Tokiu atveju, aparatūros stotis reikalinga tik tam, kad konceptualiai sugrupuotų tinklui adresuojamus įrenginius pagal jų vietą mažmeninės prekybos parduotuvėje.
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>„Cloud POS“, „Modern POS“ skirta „iOS“ ir „Android“ skirta „Modern POS“
+#### <a name="modern-pos-for-android"></a>„Modern POS“, skirta „Android“
+
+Pradedant nuo 8.1.3 „Dynamics 365 for Retail“ versijos, į „Android“ skirtą „Modern POS“ programą yra įtaisyta IPC aparatūros stotis. Ši aparatūros stotis palaiko ryšį su tinklo spausdintuvais ir mokėjimo jungtimis. Norėdami gauti daugiau informacijos žr. [straipsnį apie hibridinę programą, skirtą „Android“ dokumentams](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)dokumentų straipsniui, srityje. 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>„Cloud POS“ ir „Modern POS“, skirti „iOS“
 
 Logika, pagal kurią valdomi fiziškai prijungti ir tinklui adresuojami išoriniai įrenginiai, yra aparatūros stotyje. Todėl visiems POS klientams, išskyrus „Windows“ skirtą „Modern POS“, IIS stotis turi būti įdiegta ir būti aktyvi, kad leistų užmegzti ryšį tarp EKA ir išorinių įrenginių, neatsižvelgiant į tai, ar išoriniai įrenginiai yra fiziškai prijungti prie aparatūros stoties, ar adresuojami tinkle.
 
@@ -222,9 +226,9 @@ Toliau pateikiamoje lentelėje parodyti palaikomi topologijų ir įdiegimo scena
 | Klientas      | IPC aparatūros stotis | IIS aparatūros stotis |
 |-------------|----------------------|----------------------|
 | „Windows“ programa | Taip                  | Taip                  |
-| „Cloud POS“   | nr.                   | Taip                  |
-| Android     | nr.                   | Taip                  |
-| „iOS“         | nr.                   | Taip                  |
+| „Cloud POS“   | Ne                   | Taip                  |
+| „Android“     | Taip                  | Taip                  |
+| „iOS“         | Ne                   | Taip                  |
 
 ### <a name="network-peripherals"></a>Išoriniai tinklo įrenginiai
 
@@ -233,9 +237,9 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 | Klientas      | IPC aparatūros stotis | IIS aparatūros stotis |
 |-------------|----------------------|----------------------|
 | „Windows“ programa | Taip                  | Taip                  |
-| „Cloud POS“   | nr.                   | Taip                  |
-| Android     | nr.                   | Taip                  |
-| „iOS“         | nr.                   | Taip                  |
+| „Cloud POS“   | Ne                   | Taip                  |
+| „Android“     | Taip                  | Taip                  |
+| „iOS“         | Ne                   | Taip                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>Palaikomų įrenginių tipai pagal aparatūros stoties tipą
 
@@ -661,14 +665,15 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant IPC aparatūros
 
 #### <a name="printer"></a>Spausdintuvas
 
-| Gamintojas | Modelis    | Sąsaja | Komentarai                |
-|--------------|----------|-----------|-------------------------|
-| „Epson“        | Tm-T88IV | OEKA      |                         |
-| „Epson“        | TM-T88V  | OEKA      |                         |
-| „Star“         | TSP650II | OEKA      |                         |
-| „Star“         | TSP650II | Pasirinktinai    | Prijungtas per tinklą   |
-| „Star“         | mPOP     | OEKA      | Prijungtas per „Bluetooth“ |
-| „HP“           | F7M67AA  | OEKA      | Teikiamas USB             |
+| Gamintojas | Modelis      | Sąsaja | Komentarai                |
+|--------------|------------|-----------|-------------------------|
+| „Epson“        | Tm-T88IV   | OEKA      |                         |
+| „Epson“        | TM-T88V    | OEKA      |                         |
+| „Epson“        | ePOS spaudinys | Pasirinktinis    | Prijungtas per tinklą   |
+| „Star“         | TSP650II   | OEKA      |                         |
+| „Star“         | TSP650II   | Pasirinktinis    | Prijungtas per tinklą   |
+| „Star“         | mPOP       | OEKA      | Prijungtas per „Bluetooth“ |
+| „HP“           | F7M67AA    | OEKA      | Teikiamas USB             |
 
 #### <a name="bar-code-scanner"></a>Brūkšninio kodo skaitytuvas
 
@@ -688,11 +693,12 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant IPC aparatūros
 
 #### <a name="payment-terminal"></a>Mokėjimo terminalas
 
-| Gamintojas | Modelis | Sąsaja | Komentarai                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| „Equinox“      | L5300 | Pasirinktinai    | Reikia mokėjimo jungties tinkinimo                                |
-| „VeriFone“     | MX925 | Pasirinktinai    | Reikia mokėjimo jungties tinkinimo; prijungiamas per tinklą ir USB |
-| „VeriFone“     | MX915 | Pasirinktinai    | Reikia mokėjimo jungties tinkinimo; prijungiamas per tinklą ir USB |
+| Gamintojas | Modelis        | Sąsaja | Komentarai                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| „Equinox“      | L5300        | Pasirinktinai    | Reikia mokėjimo jungties tinkinimo                                |
+| „VeriFone“     | MX925        | Pasirinktinai    | Reikia mokėjimo jungties tinkinimo; prijungiamas per tinklą ir USB |
+| „VeriFone“     | MX915        | Pasirinktinai    | Reikia mokėjimo jungties tinkinimo; prijungiamas per tinklą ir USB |
+| „Verifone“     | Žr. komentarus | „Adyen“     | „Adyen“ jungtis palaiko visus įrenginius, išvardytus [čia](https://www.adyen.com/pos-payments/terminals) |
 
 #### <a name="cash-drawer"></a>Kasos stalčius
 
