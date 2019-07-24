@@ -47,7 +47,7 @@
           href: dev-tools/introduction-visual-studio.md
         - name: Programų tikrintuvas
           items:
-            - name: '„BaseX”, skirto sprendimui programų tikrintuvo, diegimas'
+            - name: „BaseX” programų tikrintuvui diegimas
               href: dev-tools/install-basex.md
         - name: Programų naršyklė
           href: dev-tools/application-explorer.md
@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: PowerBI.com integravimas į vietines aplinkas
+          href: analytics/entity-store-on-prem.md
         - name: Vietinių aplinkų atvirkštinių tarpinių serverių konfigūravimas
           href: deployment/onprem-reverseproxy.md
         - name: Vietinės visuotinės įdiegties naujinimų taikymas
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: Vietinių visuotinių diegimų trikčių diagnostika
           href: deployment/troubleshoot-on-prem.md
+        - name: Sertifikatų kaita
+          href: deployment/certificate-rotation-on-prem.md
     - name: Pasirinktinio kodo diegimas
       items:
         - name: Galimų diegti modelių paketų kūrimas
@@ -1105,7 +1109,7 @@
               href: migration-upgrade/appupdate-80-81.md
         - name: Programinės įrangos ciklo strategija ir debesies leidimai
           href: migration-upgrade/versions-update-policy.md
-        - name: Naujausio „Platform Update“ taikymas aplinkoms
+        - name: Naujausio platformos naujinimo taikymas aplinkoms
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: "„Dynamics AX‟ platformos plėtojimas į 2016\_m. rugpjūčio mėn. versiją"
           href: migration-upgrade/update-platform-each-release.md

@@ -3,7 +3,7 @@ title: Išlaidų valdymas
 description: Šioje temoje pateikiama bendra informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti modulį Išlaidų valdymui galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 06/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: 7509553df57b9cba206e606b78c70732da32074d
+ms.sourcegitcommit: 169b593b0d9afb228d2cfb0f3b742e4777ec81af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538614"
+ms.lasthandoff: 06/18/2019
+ms.locfileid: "1633980"
 ---
 # <a name="expense-management"></a>Išlaidų valdymas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
-Galite naudoti modulį Išlaidų valdymui galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas. Taip pat galite nurodyti išlaidų strategijas ir automatizuoti kelionių išlaidų kompensaciją.
+Galite naudoti išlaidų valdymo modulį ir sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas. Taip pat galite nurodyti išlaidų strategijas ir automatizuoti kelionių išlaidų kompensaciją.
 
 Daugiau informacijos žr. [„Konfigūruoti išlaidų valdymą“](plan-expense-management.md).
 

@@ -3,7 +3,7 @@ title: „Finance and Operations” žinyno sistema
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 for Finance and Operations“ žinyno sistemos komponentų apžvalga.
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595644"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625334"
 ---
 # <a name="finance-and-operations-help-system"></a>„Finance and Operations” žinyno sistema
 
@@ -95,16 +95,18 @@ Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausim
 
     ![Skelbti komentarą](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Pasiūlykite pakeitimų arba papildykite turinį naudodami „GitHub“
+### <a name="contribute-to-the-documentation"></a>Prisidėkite kuriant dokumentaciją
 
-Norint pasiūlyti pakeitimą, reikės susikurti „GitHub“ paskyrą ir pasirašyti bendraautoriaus licencijos sutartį. Pateikus įtraukimo užklausą, peržiūrėsime jūsų siūlomus pakeitimus. Jei reikės, pakeitimus aptarsime įmonės viduje ir vėliau su jumis susisieksime.
+Galite prisidėti prie „Finance and Operations“ dokumentacijos kūrimo ir redagavimo. Norėdami pradėti, temoje spustelėkite mygtuką **Redaguoti** (pieštukas) arba apsilankykite saugyklos puslapyje: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Šiame vaizdo įraše parodyta, kaip galite prisidėti prie mūsų dokumentacijos kūrimo.
 
-Norėdami pradėti, temoje spustelėkite mygtuką **Redaguoti** (pieštukas) arba apsilankykite saugyklos puslapyje: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>.
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-Norėdami daugiau informacijos, skaitykite mūsų bendraautoriaus vadovą: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
+[Kaip prisidėti prie „Microsoft Dynamics 365“ dokumentacijos kūrimo](https://youtu.be/m5djioozRbg) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [Kas nauja „Dynamics 365“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9), kurį galima rasti „YouTube“.
+
+Norėdami gauti daugiau informacijos, skaitykite mūsų bendraautoriaus vadovą, kurį rasite <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>.
 
 > [!NOTE]
-> Šiuo metu įnašus priimame tik į turinio rinkinį anglų kalba.
+> Šiuo metu galima prisidėti tik prie turinio anglų kalba.
 
 ## <a name="task-guides"></a>Užduočių vedliai
 

@@ -3,7 +3,7 @@ title: Tiekėjo mokėjimų darbo sritis
 description: Šioje temoje pateikiama informacijos apie tiekėjų mokėjimo darbo sritį. Tiekėjų mokėjimo darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu.
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509227"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702940"
 ---
 # <a name="vendor-payments-workspace"></a>Tiekėjo mokėjimų darbo sritis
 
 [!include [banner](../includes/banner.md)]
 
 **Tiekėjų mokėjimo** darbo srityje rodoma informacija, susijusi su tiekėjų mokėjimo apdorojimu. Šioje darbo srityje yra rodinys **Mano darbas** ir puslapis **Analizė**. **Mano darbo** rodinyje rodomos suvestinės plytelės, tiekėjų operacijų tinkleliai ir susijusi tiekėjų informacija. Puslapyje **Analizė** naudojantis „Microsoft Power BI“ galimybėmis parodomi su tiekėjų mokėjimais susiję vaizdiniai elementai.
+
+## <a name="setup-needed-to-view-power-bi-content"></a>Norint peržiūrėti „Power BI“ turinį reikia atlikti sąranką
+
+Norint, kad duomenys būtų rodomi „Power BI“ srities **Tiekėjo mokėjimai** vaizdiniuose elementuose, reikia atlikti tolesnę sąranką.
+1. Eikite į **Sistemos administravimas > Sąranka > Sistemos parametrai** ir nustatykite **Sistemos valiuta** ir **Sistemos valiutos kursas**.
+2. Norėdami nustatyti parinktis **Apskaitos valiuta** ir **Valiutos kurso tipas** eikite į **Didžioji knyga > sąranka >DK**. 
+2. Nurodykite valiutos kursus tarp operacijos valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
+3. Norėdami atnaujinti agreguotą matavimo vienetą **VendPaymentBIMeasure** eikite į **Sistemos administravimas > Sąranka > Objektų saugykla**. 
 
 ## <a name="my-work-view"></a>Mano darbo rodinys
 

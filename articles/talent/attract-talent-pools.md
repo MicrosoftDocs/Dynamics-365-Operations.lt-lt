@@ -3,7 +3,7 @@ title: Kandidatų ieška naudojant talentų telkinius
 description: Šioje temoje paaiškinama, kaip kurti ir nustatyti talentų telkinius „Attract“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/02/2019
+ms.date: 06/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 13b5e3091a4bcdbf1bfbe077ffb04ec8d08a0911
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
+ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518613"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "1711299"
 ---
 # <a name="source-candidates-by-using-talent-pools"></a>Kandidatų ieška naudojant talentų telkinius
 
@@ -110,15 +110,16 @@ Visi vartotojai gali peržiūrėti bendrąjį kandidatų profilių rodinį. Skir
 
 - Galite peržiūrėti kandidato kontaktinę informaciją. Taip pat galite redaguoti arba atnaujinti informaciją pagal poreikį naudodami mygtuką **Redaguoti informaciją**.
 
-- Galite įtraukti daugiau įgūdžių žymių, kad lengviau identifikuotumėte kandidato įgūdžius.
-
 - Galite peržiūrėti kandidato visą prašymų teikimo retrospektyvą. Galite pamatyti visus darbus, dėl kurių kandidatas kreipėsi į jūsų organizaciją, ir tų prašymų būseną. Jei esate samdos komandos narys, galite pasirinkti **Peržiūrėti**, kad peržiūrėtumėte išsamią prašymo informaciją.
 
-- Skirtuke **Dokumentai** rodomi visi dokumentai, kuriuos kandidatas įtraukė iš savo profilio arba teikdamas prašymus įdarbinti. Šį skirtuką galima naudoti norint tvarkyti kandidato CV, motyvacinius laiškus, darbų portfelį ir t. t. Taip pat galite naudoti šį skirtuką norėdami įtraukti dokumentų.
+- Skirtuke **Dokumentai** rodomi visi dokumentai, kuriuos kandidatas įtraukė iš savo profilio arba teikdamas prašymus įdarbinti. Naudodami šį skirtuką galite tvarkyti kandidato CV, motyvacinius laiškus, darbų portfelį ir t. t. Taip pat galite naudoti šį skirtuką norėdami įtraukti dokumentų.
 
     Norėdami peržiūrėti dokumentą, pasirinkite dokumento pavadinimą dokumentų sąraše. Prašyme galite peržiūrėti „Microsoft Word“ dokumentus naudodami „Microsoft Office 365“. Taip pat galite atsisiųsti dokumentus į vietinį kompiuterį naudodami parinktį **Atsisiųsti**, pateiktą šalia kiekvieno dokumento.
 
 - Skirtuke **LinkedIn** rodoma kandidato „LinkedIn“ informacija. Norėdami naudoti šį skirtuką, savo „LinkedIn“ paskyrą turite susieti vartotojo parametrų srityje, taip pat nustatyti savo aplinkos „LinkedIn Recruiter“ ryšį. Daugiau informacijos žr. [Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“ įdarbinimo sistemą](./attract-linked-in-recruiter.md).
+
+> [!NOTE]
+> Tik kandidatai gali atnaujinti informaciją apie savo įgūdžius, išsilavinimą ir darbo patirtį.
 
 ## <a name="add-candidates-from-a-talent-pool-to-a-job"></a>Kandidatų iš talentų telkinio įtraukimas į darbą
 

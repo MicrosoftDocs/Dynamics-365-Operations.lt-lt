@@ -3,7 +3,7 @@ title: Tiekėjų registravimo šablonai
 description: Pagal tiekėjo registravimo šablonus valdomas tiekėjo operacijų registravimas į DK.
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e81f8b472e7ac7578c184716dcb4e5f3d7aeb65d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c3f62df7ec5627556561db950d54ff4347d2b4d6
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1512173"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625900"
 ---
 # <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
 
@@ -34,28 +34,28 @@ Pagal tiekėjo registravimo šablonus valdomas tiekėjo operacijų registravimas
 <a name="vendor-posting-profiles"></a>Tiekėjų registravimo šablonai
 -----------------------
 
-Tiekėjų registravimo profiliai leidžia DK sąskaitas ir dokumentų nuostatas priskirti visiems tiekėjams, tiekėjų grupei arba vienam tiekėjui. Šios nuostatos bus naudojamos kuriant pirkimo užsakymus, tiekėjo SF ir mokėjimus grynaisiais pinigais. Kai kurių operacijų registravimo profilį galite pasirinkti tokį, kuris skiriasi nuo šiame puslapyje operacijoms nustatytų registravimo profilių ir yra už juos svarbesnis. Numatytasis registravimo profilis apibrėžiamas „FastTab‟ DK ir PVM, esančiuose Mokėtinų sumų parametrų puslapyje. Numatytasis registravimo profilis tada automatiškai įtraukiamas naujų dokumentų antraštėje, kur prireikus jį galite pakeisti kitu registravimo profiliu.
+Naudojant tiekėjų registravimo profilius galima didžiosios knygos sąskaitas ir dokumentų parametrus priskirti visiems tiekėjams, tiekėjų grupei arba vienam tiekėjui. Šie parametrai bus naudojami kuriant pirkimo užsakymus, tiekėjo SF ir mokėjimus grynaisiais pinigais. Kai kurioms operacijoms galite pasirinkti tokį registravimo šabloną, kuris skiriasi nuo šiame puslapyje operacijoms nustatytų registravimo šablonų ir yra už juos svarbesnis. Numatytasis registravimo šablonas nustatomas puslapio **Mokėtinų sumų parametrai**„FastTab‟ konteineryje **Didžioji knyga ir PVM**, esančiuose Mokėtinų sumų parametrų puslapyje. Numatytasis registravimo šablonas tada automatiškai įtraukiamas naujų dokumentų antraštėje, kur prireikus jį galite pakeisti kitu registravimo šablonu.
 
-Registravimo apibrėžčių puslapyje taip pat galite registravimo apibrėžtis susieti su operacijų registravimo tipais. Tiekėjų operacijų registravimą į DK kontroliuoja registravimo apibrėžtys, o ne registravimo profiliai.
+Puslapyje **Operacijų registravimo aprašai** taip pat galite susieti registravimo apibrėžtis su operacijų registravimo tipais. Tiekėjų operacijų registravimą į DK kontroliuoja registravimo apibrėžtys, o ne registravimo profiliai.
 
 ## <a name="creating-a-posting-profile"></a>Registravimo profilio kūrimas
 ### <a name="setup"></a>**Nustatymas**
 
-Nurodykite DK sąskaitas, kurios naudojamos registruojant operacijas, kurios naudoja pasirinktą registravimo profilį. Pasirinkti sąskaitos kodą ir, jei galima, pasirinkto registravimo šablono sąskaitos arba grupės numerį. Registruojant, tinkamiausias kiekvienos operacijos registravimo profilis randamas pagal toliau nurodytus prioritetus ieškant konkrečiausio sąskaitos kodo, sąskaitos numerio arba grupės ir numerio derinio.
+Nurodykite DK sąskaitas, kurios naudojamos registruojant operacijas, kurios naudoja pasirinktą registravimo profilį. Pasirinkti sąskaitos kodą ir, jei galima, pasirinkto registravimo šablono sąskaitos arba grupės numerį. Vykdant registravimo procedūrą, tinkamiausias kiekvienos operacijos registravimo šablonas randamas pagal toliau nurodytus prioritetus ieškant tiksliausio sąskaitos kodo, sąskaitos numerio arba grupės ir numerio derinio.
 
 | **Sąskaitos kodo** lauko reikšmė. | **Sąskaitos / grupės numerio** lauko reikšmė.        | Ieškos prioritetas |
 |------------------------------|---------------------------------------------|-----------------|
 | **Lentelė**                    | Konkreti tiekėjo sąskaita                     | 1               |
-| **Grupė**                    | tiekėjų grupė, priskirta tiekėjui | 2               |
-| **Visi**                      | Tuščias                                       | 3               |
+| **Grupuoti**                    | Tiekėjų grupė, priskirta tiekėjui | 2               |
+| **Visos**                      | Tuščias                                       | 3               |
 
-Jei norite, kad visų tiekėjo operacijų registravimo profilis būtų tas pats, Sąskaitos kodo lauke nustatykite tik vieną registravimo profilį – Visi. Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reikšmes.
+Jei norite, kad visų tiekėjo operacijų registravimo šablonas būtų tas pats, lauke **Sąskaitos kodas** nustatykite tik vieną registravimo šabloną – **Visi**. Norėdami nustatyti registravimo šabloną, nurodykite toliau pateiktas reikšmes.
 
 <table>
 <thead>
 <tr class="header">
 <th>Laukas</th>
-<th>Prekės/Paslaugos pavadinimas</th>
+<th>Aprašymas</th>
 </tr>
 </thead>
 <tbody>
@@ -71,32 +71,20 @@ Jei norite, kad visų tiekėjo operacijų registravimo profilis būtų tas pats,
 <td><strong>Sąskaitos kodas</strong></td>
 <td>Nurodykite, ar registravimo profilis taikomas konkrečiam tiekėjui, tiekėjų grupei ar visiems tiekėjams.
 <ul>
-<li><strong>Lentelė</strong> – registravimo profilis taikomas vienam tiekėjui. Sąskaitos / grupės numerio lauke pasirinkite tiekėjo sąskaitą.</li>
-<li><strong>Grupė</strong> – registravimo profilis taikomas tiekėjų grupei. Sąskaitos / grupės numerio lauke pasirinkite tiekėjų grupę.</li>
-<li><strong>Visi</strong> – registravimo profilis taikomas visiems tiekėjams. Sąskaitos / grupės numerio lauką palikite tuščią.</li>
+<li><strong>Lentelė</strong> – registravimo profilis taikomas vienam tiekėjui. Lauke <strong>Sąskaita / grupės numeris</strong> pasirinkite tiekėjo sąskaitą.</li>
+<li><strong>Grupė</strong> – registravimo profilis taikomas tiekėjų grupei. Lauke <strong>Sąskaita / grupės numeris</strong> pasirinkite tiekėjų grupę.</li>
+<li><strong>Visi</strong> – registravimo profilis taikomas visiems tiekėjams. Palikite kauką <strong>Sąskaita / grupės numeris</strong> tuščią.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td><strong>Sąskaitos/grupės Nr.</strong></td>
-<td>Jei lauke Sąskaitos kodas pasirinkta Lentelė, pasirinkite tiekėjo, kuris yra susietas su registravimo profiliu, sąskaitos numerį. Jei pasirinkta Grupė, pasirinkite tiekėjų grupę. Jei pasirinkta Visi, šį lauką palikite tuščią.</td>
+<td>Jei lauke <strong>Sąskaitos kodas</strong> pasirinkta reikšmė <strong>Lentelė</strong>, pasirinkite tiekėjo, kuris yra susietas su registravimo šablonu, sąskaitos numerį. Jei pasirinkta reikšmė <strong>Grupė</strong>, pasirinkite tiekėjų grupę. Jei pasirinkta <strong>Visi</strong>, šį lauką palikite tuščią.</td>
 </tr>
 <tr class="odd">
 <td><strong>Suminė sąskaita</strong></td>
-<td>Pasirinkite DK sąskaitą, kuri bus naudojama kaip tiekėjų, su kuriais susijęs registravimo profilis, suminę sąskaitą.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Banknotas" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Pastaba</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Jei DK parametrų puslapyje pasirinktas perjungiklis Naudoti registravimo apibrėžtis, vietoj suminės sąskaitos naudojama tiekėjų SF operacijų registravimo apibrėžtis.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<td>Pasirinkite DK sąskaitą, kuri bus naudojama kaip tiekėjų, su kuriais susijęs registravimo profilis, suminę sąskaitą. Bus pažymėtas šios pagrindinės sąskaitos parametras <strong>Neleisti įvesti rankiniu būdu</strong>. Jeigu vėliau pašalinsite šią sąskaitą iš registravimo šablono, patvirtinkite parametrą <strong>Neleisti įvesti rankiniu būdu</strong> puslapyje <strong>Pagrindinės sąskaitos</strong>. 
+<p><strong>Pastaba.</strong>Jei puslapyje <strong>Didžiosios knygos parametrai</strong> pasirinkta parinktis <strong>Naudoti registravimo apibrėžtis</strong>, tiekėjo SF bus naudojama operacijos registravimo apibrėžtis, o ne suminė sąskaita.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Sudengimo sąskaita</strong></td>
@@ -105,27 +93,15 @@ Jei norite, kad visų tiekėjo operacijų registravimo profilis būtų tas pats,
 <tr class="odd">
 <td><strong>PVM išankstinai apmokėjimai</strong></td>
 <td>Pasirinkite PVM mokėjimų, gaunamų iš anksto, sąskaitą.
-<div class="alert">
-<table>
-<thead>
-<tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Banknotas" alt="Note" id="alert_note" class="cl_IC101471" /><strong>Pastaba</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Registravimo profilis, naudojamas, kai mokėjimas pažymimas kaip išankstinis mokėjimas, pasirenkamas lauke Registravimo profilis su išankstinio mokėjimo žurnalo kvitu, esančiame Mokėtinų sumų parametrų puslapio srityje DK ir PVM.</td>
-</tr>
-</tbody>
-</table>
-</div></td>
+<p><strong>Pastaba.</strong> Registravimo šablonas, naudojamas, kai mokėjimas yra pažymėtas kaip išankstinis mokėjimas, pasirenkamas lauke <strong>Registravimo</strong> šablonas su <strong>išankstinio mokėjimo žurnalo kvitu</strong>, esančiame puslapio <strong>Mokėtinų sumų parametrai</strong> srityje <strong>Didžioji knyga ir PVM</strong>.</p>
+</td>
 </tr>
 <tr class="even">
 <td><strong>Atvykimas</strong></td>
-<td>Pasirinkite DK sąskaitą, kurioje bus registruojama informacija apie nepatvirtintas tiekėjo SF. Informacija įvedama į SF registro žurnalą. Pavyzdžiui, gavus SF SF registre, naudotojas apie tiekėjo SF įveda labai bendrą informaciją. Užregistravus SF registrą, operacijos registruojamos sąskaitoje, kuri įvesta čia ir lauke Korespondentinė sąskaita. Patvirtinus SF, skola perkeliama iš sąskaitos Gavimas į tiekėjo suminę sąskaitą.</td>
+<td>Pasirinkite DK sąskaitą, kurioje bus registruojama informacija apie nepatvirtintas tiekėjo SF. Informacija įvedama į SF registro žurnalą. Pavyzdžiui, gavus SF SF registre, naudotojas apie tiekėjo SF įveda labai bendrą informaciją. Užregistravus sąskaitų faktūrų registrą, operacijos registruojamos sąskaitoje, kuri įvesta čia ir lauke <strong>Korespondentinė sąskaita</strong>. Patvirtinus sąskaitas faktūras, skola perkeliama iš gavimo sąskaitos į tiekėjo suminę sąskaitą.</td>
 </tr>
 <tr class="odd">
-<td><strong>Koresp. sąskaita</strong></td>
+<td><strong>Korespondentinė sąskaita</strong></td>
 <td>Pasirinkite DK sąskaitą, kuri naudojama norint padengti nepatvirtintas tiekėjo SF, kurios atnaujinamos naudojant SF registrą. Korespondentinė sąskaita veikia kaip gavimo sąskaitose užregistruotų operacijų korespondentinė sąskaita. Todėl sąskaitoje yra tiekėjo pirkimų, kurie dar nepatvirtinti.</td>
 </tr>
 </tbody>
@@ -136,15 +112,10 @@ Jei norite, kad visų tiekėjo operacijų registravimo profilis būtų tas pats,
 
 Operacijoms, kurių registravimo profilis pasirinktasis, nurodykite, ar operacijos bus sudengiamos automatiškai, bus apskaičiuojami delspinigiai ir bus išduodami priminimo laiškai. Taip pat galite pasirinkti sąskaitą, kuri naudojama uždarius operacijas, kurių registravimo profilis pasirinktasis.
 
-Norėdami nustatyti savo registravimo profilį, nurodykite toliau pateiktas reikšmes.
+Norėdami nustatyti registravimo šabloną, nurodykite toliau pateiktas reikšmes
 
-| Laukas          | Prekės/Paslaugos pavadinimas                                                                                                                                                                                                    |
+| Laukas          | Aprašymas                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Sudengimas** | Pasirinkite šią parinktį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei ši parinktis atžymėta, sudengti operacijas turite rankiniu būdu, naudodami puslapį Sudengti atidarytas operacijas. |
+| **Atsiskaitymas** | Pasirinkite šią parinktį, kad įgalintumėte automatinį operacijų, kurių registravimo profilis yra šis, sudengimą. Jei ši parinktis atžymėta, sudengti operacijas turite rankiniu būdu puslapyje **Sudengti atidarytas operacijas**. |
 | **Atšaukti**     | Pasirinkite šią parinktį, jei norite atšaukti operacijas, kurių registravimo profilis yra šis.                                                                                                               |
 | **Uždaryti**      | Pasirinkite registravimo profilį, į kurį bus pakeičiama, kai operacijos, kurioms taikomas šis registravimo profilis, bus uždarytos. Operacija laikoma uždaryta, kai ji yra visiškai sudengta.                                       |
-
-
-
-
-

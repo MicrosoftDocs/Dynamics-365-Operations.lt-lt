@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
+ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518667"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "1729731"
 ---
 # <a name="email-templates"></a>El. laiško šablonai
 [!include[banner](../includes/banner.md)]
 
-Naudodamiesi el. laiško šablonų biblioteka, administratoriai gali sukurti vienodą visų naudojantis „Microsoft Dynamics 365 for Talent: Attract“ siunčiamų el. laiškų temą ir žymėjimą. Administratoriai taip pat gali kuruoti el. laiško turinio šablonų rinkinį, kuriuo galėtų naudotis kiti vartotojai. Samdos komanda, pasinaudodama šiais šablonais darbo eigoje gali efektyviau siųsti el. laiškus. Kai „Attract“ el. laiškai konfigūruojami taip, kad būtų siunčiami automatiškai, o administratorius, naudodamasis el. laiško šablonų biblioteka, gali tinkinti šių el. laiškų turinį.
+Naudodamiesi el. laiško šablonų biblioteka, administratoriai gali sukurti vienodą visų naudojantis „Microsoft Dynamics 365 for Talent: Attract and Offer“ siunčiamų el. laiškų temą ir prekės ženklo išvaizdą. Administratoriai taip pat gali kuruoti el. laiško turinio šablonų rinkinį, kuriuo galėtų naudotis kiti vartotojai. Samdos komanda, pasinaudodama šiais šablonais darbo eigoje gali efektyviau siųsti el. laiškus. kai kurie el. laiškai konfigūruojami taip, kad būtų siunčiami automatiškai, o administratorius, naudodamasis el. laiško šablonų biblioteka, gali tinkinti šių el. laiškų turinį.
 
 > [!NOTE]
 > Norėdami naudoti el. laiškų šablonus, jūsų organizacija turi turėti išsamios įdarbinimo informacijos priedą.
@@ -37,7 +37,7 @@ Naudodamiesi el. laiško šablonų biblioteka, administratoriai gali sukurti vie
 
 Norėdamas sukurti nuoseklius visų visus el. pašto pranešimų ženklus, administratorius pirmiausia turi nustatyti visuotines visų el. laiško šablonų antraštes ir poraštes. Administravimo centro skirtuko **El. laiško šablonų parametrai** skyriuje **Antraštė** administratorius gali įkelti paveikslėlį, kuris bus naudojamas kaip antraštė arba visų el. laiškų reklaminė juosta. Šis paveikslėlis gali būti įmonės logotipas, firminis blankas arba kitas atstovo vaizdas. Rekomenduojamas plotis – nuo 25 iki 800 pikselių, o aukštis – nuo 25 iki 150 pikselių, nes šie matmenys optimalūs naudojantis daugeliu el. pašto klientų, pvz., „Microsoft Outlook“. Paveikslėlis turi būti JPEG, JPG, PNG arba SVG failas, o šio failo dydis turi būti ne mažiau negu 1 megabaitas (MB). Įkėlus paveikslėlį sukuriama ir rodoma antraštės peržiūra. Prireikus antraštės paveikslėlį pašalinti arba pakeisti, administratorius gali naudotis virš peržiūros esančia parinktimi **Šalinti**.
 
-Skyriuje **Poraštė** administratorius gali pateikti nuorodų į bendrovės ryšių privatumo politiką ir į sąlygas. Šios nuorodos įtrauktos į automatiškai sukuriamą poraštę. Tada galima peržiūrėti šią poraštę.
+Skyriuje **Poraštė** administratorius gali pateikti nuorodų į bendrovės ryšių privatumo politiką ir į sąlygas. Šios nuorodos įtrauktos į automatiškai sukuriamą poraštę. Tada galima peržiūrėti šią poraštę. Administratorius taip pat gali pasirinkti konkrečią kalbą, kuria bus siunčiamos visų el. laiškų poraštės. Ta pati kalbos konfigūracija taip pat bus naudojama sudarant pokalbių suvestinės lentelę. 
 
 Prieš uždarydami administravimo centro langą, būtinai išsaugokite pakeitimus.
 
@@ -46,7 +46,7 @@ Prieš uždarydami administravimo centro langą, būtinai išsaugokite pakeitimu
 
 ## <a name="email-template-library"></a>El. laiško šablonų biblioteka 
 
-Nustatęs visuotines šablono konfigūracijas, administratorius gali pradėti kurti ir kuruoti visų iš „Attract“ siunčiamų el. laiškų šablonus. El. laiško šablonų biblioteka prieinama tik administratoriams. Norėdami atidaryti biblioteką, pagrindiniame naršymo meniu paspauskite skirtuką **El. laiško šablonai**. Biblioteka kategorizuojama pagal įvairias „Attract“ veiklas, kurias atliekant turi būti siunčiami el. laiškai, pvz., planavimas, vertinimas ir pareigų kūrimas. Administratorius gali pasirinkti bet kurią kategoriją ir peržiūrėti visus su šia veikla susietus el. laiško tipus. Pavyzdžiui, pasirinkus **Planavimas** galima peržiūrėti įvairius vykstant planavimo procesui siunčiamų el. laiškų tipus ir visus galimus kiekvieno tipo el. laiško šablonus. Kiekvienas kategorijos poskyris reiškia el. laiško tipą.
+Nustatęs visuotines šablono konfigūracijas, administratorius gali pradėti kurti ir kuruoti visų iš „Attract“ ir „Offer“ siunčiamų el. laiškų šablonus. El. laiško šablonų biblioteka prieinama tik administratoriams. Norėdami atidaryti biblioteką, pagrindiniame naršymo meniu paspauskite skirtuką **El. laiško šablonai**. Biblioteka suskirstyta į kategorijas pagal įvairias „Attract“ veiklas, kurias atliekant turi būti siunčiami el. laiškai, pvz., planavimas, vertinimas, pareigų kūrimas ir pasiūlymas. Administratorius gali pasirinkti bet kurią kategoriją ir peržiūrėti visus su šia veikla susietus el. laiško tipus. Pavyzdžiui, pasirinkus **Planavimas** galima peržiūrėti įvairius vykstant planavimo procesui siunčiamų el. laiškų tipus ir visus galimus kiekvieno tipo el. laiško šablonus. Kiekvienas kategorijos poskyris reiškia el. laiško tipą.
 
 Kai kurių tipų el. laiškuose gali būti nurodytas daugiau nei vienas gavėjas. Pavyzdžiui, tie kategorijos **Planavimas** el. laiškai, kurie siunčiami prireikus pokalbių grafiko suvestinės, siunčiami abiems kandidatams ir kalbintojams. Yra du pagrindiniai kiekvieno skyriaus stulpeliai: **Šablono pavadinimas** ir **Gavėjas**. Kiekvienoje skyriaus eilutė skirta vienam vieno tipo el. laiško šablonui. Iš pradžių užrakto simbolis bus rodomas kiekvieno šablono eilutėje. Šis simbolis reiškia, kad šablonas yra standartinis – toks, koks pateikiamas kartu su „Attract“ ir kurio panaikinti negalima. Naudodamasis bet kuriam šablonui skirtu elipsės mygtuku (**...**) administratorius gali nukopijuoti šabloną, nustatyti šabloną kaip numatytąjį arba jį panaikinti. Kai šablonas nustatomas kaip numatytasis, gali būti atliekamas vienas iš dviejų veiksmų. Veiksmą nurodo šablono eilutėje rodomas ženklas arba ženklai.
 

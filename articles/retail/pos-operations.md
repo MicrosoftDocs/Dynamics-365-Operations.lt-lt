@@ -3,7 +3,7 @@ title: Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus
 description: Šioje temoje pateikiama informacija apie elektroninio kasos aparato (EKA) veikimą „Microsoft Dynamics 365 for Retail“. Joje nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos neprisijungus.
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505101"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625670"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -159,10 +159,10 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 114 | Grąžinimo operacija | Atšaukite ankstesnę operaciją pagal kvito numerį, kad grąžintumėte kelis arba visus produktus. | Taip | Taip | Taip | Taip§ | Nr. |
 | 1211 | Pinigų įnešimas į įmonės kasą | Įnešti pinigus į įmonės kasą, perkeldamas juos iš kasos aparato į seifą. | Taip | Taip | Taip | Taip | Nr. |
 | 516 | Pardavimo sąskaita faktūra | Ši operacija leidžia vartotojui atlikti mokėjimus pagal pasirinktą pardavimo sąskaitą faktūrą. | Taip | Taip | Nr. | Nr. | Nr. |
-| 502 | Pardavėjas | Ši operacija leidžia vartotojui EKA nustatyti vertę **Pardavimo priėmėjas** kliento užsakymų pardavimo užsakyme. | Taip | Taip | Nr. | Taip\* | Nr. |
-| 2000 | Grafiko valdymas | Ši operacija leidžia vartotojams kurti, modifikuoti arba peržiūrėti darbuotojo grafikus. | Taip | Taip | Taip | Nr. | Nr. |
-| 2001 | Grafiko užklausos | Ši operacija leidžia vartotojui pateikti prašymą išleisti iš darbo, apsikeisti pamainomis arba pasiūlyti pamainas kitiems darbuotojams. | Taip | Taip | Taip | Nr. | Nr. |
-| 622 | Ieška | Ši operacija leidžia vartotojams iš anksto sukonfigūruoti EKA mygtukus, kad būtų galima ieškoti pagal prekę, klientą arba kategoriją. | Taip | Taip | Taip | Taip | Nr. |
+| 502 | Pardavėjas | Ši operacija leidžia vartotojui EKA nustatyti vertę **Pardavimo priėmėjas** kliento užsakymų pardavimo užsakyme. | Taip | Taip | Ne | Taip\* | Ne |
+| 2000 | Grafiko valdymas | Ši operacija dar nepalaikoma. | Taip | Taip | Taip | Ne | Ne |
+| 2001 | Grafiko užklausos | Ši operacija dar nepalaikoma. | Taip | Taip | Taip | Ne | Ne |
+| 622 | Ieškoti užsakymų | Ši operacija leidžia vartotojams iš anksto sukonfigūruoti EKA mygtukus, kad būtų galima ieškoti pagal prekę, klientą arba kategoriją. | Taip | Taip | Taip | Taip | Nr. |
 | 1213 | Ieškoti siuntimo adreso | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 709 | Pasirinkti aparatūros stotį | Ši operacija leidžia vartotojui pasirinkti aparatūros stotį iš pasiekiamų aparatūros stočių sąrašo. | Taip | Taip | Taip | Taip | Nr. |
 | 637 | Nustatyti numatytąjį operacijos pardavimo atstovą | Ši operacija leidžia vartotojui pasirinkti vieną galimų komisinių pardavimų grupių (pardavimo ats.) kaip numatytąjį pardavimo atstovą vėliau pridedamoms eilutėms. | Taip | Taip | Nr. | Taip | Nr. |
