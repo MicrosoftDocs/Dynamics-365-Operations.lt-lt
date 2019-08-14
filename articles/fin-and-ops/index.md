@@ -1,7 +1,7 @@
 ---
 title: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
 description: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija.
-author: margoc
+author: robinarh
 manager: AnnBe
 ms.date: 04/11/2019
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507594"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856310"
 ---
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
 
@@ -63,12 +63,12 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Paslaugų naujinimų pristabdymas</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Gaukite pranešimus apie paslaugų naujinimus</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Duomenų užduočių automatizavimas</a></p>
-<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">„Regression Suite Automation Tool”</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation tool</a></p>
 
 <h3><a href="../dev-itpro/data-entities/integration-overview.md">Integravimas</a></h3>
 <p><a href="../dev-itpro/business-events/home-page.md">Verslo įvykiai</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Duomenų objektai</a></p>
-<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integravimo naudojimasMicrosoft Flow</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">Integravimas, naudojant „Microsoft Flow“</a></p>
 
 <h3><a href="../financials/index.md">Finansų valdymas</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Mokėtinos sumos</a></p>

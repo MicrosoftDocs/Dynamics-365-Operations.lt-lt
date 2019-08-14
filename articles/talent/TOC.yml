@@ -1,13 +1,19 @@
 - name: „Dynamics 365 for Talent”
   href: index.md
   items:
-    - name: Pradžia
+    - name: Darbo pradžia
       items:
         - name: Darbo su „Talent“ pradžia
           href: talent-get-started.md
         - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: 2019 m. liepos 23 d.
+              href: whats-new-talent-july-24-2019.md
+            - name: 2019 m. liepos 16 d.
+              href: whats-new-talent-july-16-2019.md
+            - name: 2019 m. liepos 9 d.
+              href: whats-new-talent-july-9-2019.md
             - name: 2019 m. liepos 2 d.
               href: whats-new-talent-july-2-2019.md
             - name: 2019 m. birželio 25 d.
@@ -96,15 +102,13 @@
           href: provisioning-talent.md
         - name: „Talent“ aplinkų šalinimas
           href: remove-talent-environment.md
-        - name: Parengimas programėlei „Onboard“
+        - name: Parengimas programai „Onboard“
           href: modular-app-tech-faq.md
         - name: „PowerApps“ programų įdėjimas
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: „Core HR“ ir „Common Data Service“
           href: CoreHREntities.md
-        - name: Prieiga prie peržiūros funkcijų
-          href: access-preview-feature.md
-        - name: Pagalba dėl „Talent“
+        - name: „Talent“ palaikymo gavimas
           href: talent-support.md
     - name: Organizacijos aprūpinimas personalu naudojant „Attract“
       items:
@@ -112,48 +116,68 @@
           href: attract-comprehensive-hiring.md
         - name: „Attract“ funkcijos ir galimybės
           href: attract-overview.md
-        - name: DUK apie „LinkedIn“
-          href: attract-linkedin-faq.md
-        - name: El. pašto parametrų konfigūravimas
-          href: attract-configure-email-settings.md
-        - name: Proceso šablono kūrimas „Attract“
-          href: Process-templates-Attract.md
+        - name: Dažnai užduodami klausimai
+          items:
+            - name: DUK apie „LinkedIn‟ integravimą
+              href: attract-linkedin-faq.md
+        - name: Sistemos parametrų konfigūravimas
+          items:
+            - name: Įmonės informacijos konfigūravimas
+              href: admin-settings-attract.md
+            - name: Vartotojo teisių nustatymas
+              href: security-attract.md
+            - name: Funkcijų valdymas
+              href: access-preview-feature.md
+            - name: Karjeros svetainės nustatymas
+              href: career-site.md
+            - name: „Broadbean“ integravimo įjungimas
+              href: attract-admin-job-board-settings.md
+            - name: El. pašto parametrų konfigūravimas
+              href: attract-configure-email-settings.md
+            - name: „LinkedIn“ integravimo nustatymas
+              href: attract-admin-linkedin.md
+        - name: Samdos proceso kūrimas
+          items:
+            - name: Proceso šablono kūrimas
+              href: process-templates-attract.md
+            - name: Samdos procesų veiklos
+              href: activities-attract.md
+            - name: El. laiško šablonai
+              href: email-templates.md
+            - name: Analizės ataskaitų naudojimas
+              href: analytic-reports.md
         - name: Darbo skelbimų kūrimas ir registravimas
-          href: Creating-jobs-Attract.md
-        - name: Integravimo su „LinkedIn“ nustatymas
-          href: attract-admin-linkedin.md
-        - name: Darbo skelbimų registravimas „LinkedIn“ iš „Attract“
-          href: attract-post-jobs-to-linkedin.md
-        - name: Darbo skelbimų registravimas „Broadbean“ iš „Attract“
-          href: posting-jobs-external.md
-        - name: Kandidatų ieška naudojant talentų telkinius
-          href: attract-talent-pools.md
-        - name: Kandidatų ieška naudojant „LinkedIn Recruiter“
-          href: attract-linkedin-recruiter.md
-        - name: Samdos proceso veiklos
-          href: activities-attract.md
-        - name: Pokalbio planavimas ir grįžtamasis ryšys
-          href: interview-scheduling-feedback.md
+          items:
+            - name: Darbo vietos kūrimas
+              href: creating-jobs-attract.md
+            - name: Darbo skelbimų registravimas „LinkedIn“
+              href: attract-post-jobs-to-linkedin.md
+            - name: Darbo skelbimų registravimas „Broadbean“
+              href: posting-jobs-external.md
+            - name: Darbo vietos uždarymas
+              href: attract-close-job.md
+        - name: Kandidatų ieška
+          items:
+            - name: Kandidatų ieška naudojant talentų telkinius
+              href: attract-talent-pools.md
+            - name: Kandidatų ieška naudojant „LinkedIn Recruiter“
+              href: attract-linkedin-recruiter.md
+            - name: Kandidatų šaltinių sekimas
+              href: source-tracking.md
+            - name: Sumaniosios rekomendacijos
+              href: Intelligent-Recommendations.md
+        - name: Pokalbių nustatymas
+          items:
+            - name: Pokalbio planavimas ir grįžtamasis ryšys
+              href: interview-scheduling-feedback.md
+        - name: Pasiūlymo pateikimas
+          items:
+            - name: Pasiūlymų valdymo nustatymas
+              href: offer-setup.md
+            - name: 'Pasiūlymų kūrimas, tvirtinimas ir pasirašymas'
+              href: creating-offers.md
         - name: „Attract“ išplečiamumas
           href: extensibility-attract.md
-        - name: „Attract“ karjeros svetainės funkcijos
-          href: career-site.md
-        - name: Pasiūlymų valdymo nustatymas
-          href: offer-setup.md
-        - name: 'Pasiūlymų kūrimas, tvirtinimas ir pasirašymas'
-          href: creating-offers.md
-        - name: El. laiško šablonai
-          href: email-templates.md
-        - name: Saugos ir vaidmenų valdymas sprendime „Attract“
-          href: security-attract.md
-        - name: Administratoriaus parametrai sprendime „Attract“
-          href: Admin-Settings-Attract.md
-        - name: Sumaniosios rekomendacijos
-          href: Intelligent-Recommendations.md
-        - name: Kandidatų profilių ir prašymų šaltinių sekimas
-          href: source-tracking.md
-        - name: Analizės ataskaitų naudojimas samdos procesų įžvalgoms
-          href: analytic-reports.md
     - name: Naujų samdinių sveikinimas naudojant „Onboard“
       items:
         - name: Darbo su „Onboard“ pradžia
@@ -186,6 +210,8 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: Konkrečios įmonės personalo parametrų nustatymas
               href: set-up-company-specific-hr-parameters.md
+            - name: Datos ir laiko laukai „Talent“
+              href: date-time-fields-in-talent.md
             - name: DUK apie personalo veiksmus
               href: personnel-actions-faq.md
             - name: Verslo procesų formalizavimas
