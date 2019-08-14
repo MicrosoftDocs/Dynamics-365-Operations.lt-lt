@@ -1,9 +1,11 @@
-- name: 'Sveiki, čia „Dynamics 365 for Retail“'
+- name: 'Sveiki, čia – „Dynamics 365 for Retail”'
   href: index.md
-- name: Pradžia
+- name: Darbo pradžia
   items:
     - name: Kas nauja ar pasikeitė
       href: get-started/whats-new.md
+    - name: „Dynamics 365 for Retail 10.0.5“ peržiūros funkcijos
+      href: get-started/whats-new-10-0-5.md
     - name: Kas nauja ar pasikeitė „Dynamics 365 for Retail 10.0.3“
       href: get-started/whats-new-10-0-3.md
     - name: Kas nauja ar pasikeitė „Dynamics 365 for Retail 10.0.2“
@@ -253,10 +255,12 @@
       href: Order-fulfillment-overview.md
     - name: Parduotuvių užsakymų įvykdymo nustatymas
       href: Order-fulfillment-POS-setup.md
-    - name: Užsakymų pranešimų rodymas elektroniniame kasos aparate
+    - name: Užsakymų pranešimų rodymas EKA
       href: Notifications-POS.md
 - name: Grąžinimai
   items:
+    - name: Susieti grąžinimai
+      href: dev-itpro/linked-refunds.md
     - name: Į parduotuvės asortimentą neįtrauktų produktų pardavimas ir grąžinimas
       href: sell-return-outside-assortments.md
     - name: Pakeitimo sukonfigūravimas ir apdorojimas grąžinimo užsakyme
