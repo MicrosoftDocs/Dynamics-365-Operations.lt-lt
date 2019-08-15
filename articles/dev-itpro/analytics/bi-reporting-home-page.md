@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1088194ca4b92bfb38dbcad43cfbb5d33f15d935
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504107"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848578"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Verslo įžvalgų (BI) ir ataskaitų pagrindinis puslapis
 
@@ -30,7 +30,7 @@ ms.locfileid: "1504107"
 
 Šioje temoje nurodomi ištekliai, kuriuos naudodami galite daugiau sužinoti apie verslo įžvalgų (BI) ir ataskaitų įrankius, pasiekiamus „Microsoft Dynamics 365 for Finance and Operations“.
 
-## <a name="get-started"></a>Pradžia
+## <a name="get-started"></a>Darbo pradžia
 - [Prieiga prie informacijos ir ataskaitos](information-access-reporting.md)
 - [Techninė kalba: ataskaitų parinktys](https://www.youtube.com/watch?v=NzZONjKs5xA) (vaizdo įrašas)
 - [„Finance and Operations“: „Power BI“ analizės ir „Reporting Services“ tinklaraštis](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting) (blog)

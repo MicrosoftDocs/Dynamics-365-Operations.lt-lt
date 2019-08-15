@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 1fc894206f9d90fce1e2eab292ac241e9d943e23
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
+ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617325"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "1790426"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mažmeninės prekybos operacijų vientisumo tikrintuvas
 
@@ -50,6 +50,7 @@ Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina mažmeninės pre
 - **Kliento kodas** – tikrinama, ar kliento kodas, nurodytas mažmeninės prekybos operacijų lentelėse, yra HQ kliento bendruosiuose duomenyse.
 - **Eilučių skaičius** – tikrinama, ar eilučių skaičius, nurodytas operacijos antraštės lentelėje, sutampa su pardavimo operacijų lentelių eilučių skaičiumi.
 - **Į kainą įtrauktas mokestis** – tikrinama, ar parametras **Į kainą įtrauktas mokestis** yra nuoseklus visose operacijos eilutėse.
+- **Mokėjimo suma** – tikrinama, ar mokėjimo įrašai atitinka antraštėje nurodytą mokėjimo sumą.
 - **Bendra suma** – tikrinama, ar antraštėje nurodyta bendra suma yra eilutėse nurodytų grynųjų sumų ir mokesčio sumos suma.
 - **Grynoji suma** – tikrinama, ar antraštėje nurodyta grynoji suma yra eilutėse nurodytų grynųjų sumų suma.
 - **Nepriemoka / permoka** – tikrinama, ar antraštėje nurodytos bendros sumos ir mokėjimo sumos skirtumas neviršija didžiausios nepriemokos / permokos konfigūracijos.
@@ -58,6 +59,7 @@ Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina mažmeninės pre
 - **Dovanų kortelės prekė** – „Retail“ dovanų kortelių prekių grąžinimo nepalaiko. Tačiau dovanų kortelės likutį galima išgryninti. Bet kokiai dovanų kortelės prekei, kuri yra apdorojama ne kaip išgryninimo eilutė, o kaip grąžinimo eilutė, išrašo registravimo proceso vykdyti nepavyksta. Dovanų kortelių prekių tikrinimo procesas padeda užtikrinti, kad mažmeninės prekybos operacijų lentelėse būtų tik tos grąžinamos dovanų kortelių eilučių prekės, kurios yra dovanų kortelių išgryninimo eilutės.
 - **Neigiama kaina** – tikrinama, ar nėra neigiamos kainos operacijų eilučių.
 - **Prekė ir variantas** – tikrinama, ar operacijų eilutėse nurodytos prekės ir variantai egzistuoja pagrindiniame prekių ir variantų faile.
+- **Mokesčio suma** – tikrinama, ar mokesčių įrašai atitinka eilutėse nurodytas mokesčių sumas. 
 
 ## <a name="set-up-the-consistency-checker"></a>Vientisumo tikrintuvo nustatymas
 

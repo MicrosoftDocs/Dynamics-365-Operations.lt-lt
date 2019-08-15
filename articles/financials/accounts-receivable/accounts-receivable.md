@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e00f982a6fd75447d0dcbe60d98e9d65189cac92
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547261"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835291"
 ---
 # <a name="accounts-receivable-home-page"></a>Gautinų sumų pagrindinis puslapis
 
@@ -44,11 +44,11 @@ Naudokite modulį Gautinos sumos, norėdami sekti klientų SF ir iš klientų ga
 
 :::row:::
     :::column:::
-        - [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos SF](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti laisvos formos sąskaitoms faktūroms](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [Kliento registravimo profiliai](customer-posting-profiles.md)
         - [Kredito kortelių nustatymas, autorizacija ir patvirtinimas](credit-card-authorizations.md)
         - [Kliento SF kūrimas](configure-customer-invoices.md)
-        - [Pasikartojančių SF nustatymas ir apdorojimas](set-up-process-recurring-invoices.md)
+        - [Pasikartojančių sąskaitų faktūrų nustatymas ir apdorojimas](set-up-process-recurring-invoices.md)
         - [Laisvos formos SF taisymas](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
@@ -70,7 +70,7 @@ Gautinų sumų surinkimo informacija valdoma viename centriniame rodinyje – pu
 
 [Modulių Gautinos sumos bei Kreditas ir surinkimas konfigūravimas](accounts-receivables-set-up-overview.md)
 
-[Modulio Kreditas ir surinkimas nustatymas](set-up-collections.md)
+[Kredito ir surinkimo nustatymas](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Mokėjimų ir sudengimų nustatymas
 
