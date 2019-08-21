@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5ca01b085315d916a18c512af28fc7534ce76ee8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 77358513ffdf791ab10d6efe1b84f598ffb5ec26
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536738"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843414"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>„Field Service“ darbo užsakymų su projektu sinchronizavimas su „Finance and Operations“
 
@@ -34,7 +34,7 @@ ms.locfileid: "1536738"
 
 [![„Finance and Operations“ ir „Field Service“ verslo procesų sinchronizavimas](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-Naudojamas šablonas **Darbo užsakymai su projektu („Field Service“ su „Fin and Ops“)** yra paremtas šablonu **Darbo užsakymai („Field Service“ su „Fin and Ops“)**. Daugiau informacijos žr. temoje [„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+Naudojamas šablonas **Darbo užsakymai su projektu („Field Service“ su „Fin and Ops“)** yra paremtas šablonu **Darbo užsakymai („Field Service“ su „Fin and Ops“)**. Daugiau informacijos žr. temoje [„Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 Šioje temoje aprašomi tik skirtumus tarp dviejų šablonų.
 - **Darbo užsakymai su projektu („Field Service“ su „Fin and Ops“)**

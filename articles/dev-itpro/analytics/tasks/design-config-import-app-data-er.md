@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 23004930d2377a3d647435b53b6809cd500f44ac
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551488"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741360"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus
 
@@ -30,7 +30,7 @@ ms.locfileid: "1551488"
 
 Ši procedūra sukurta vartotojams, kuriems priskirtas vaidmuo Sistemos administratorius arba Elektroninių ataskaitų teikimo programuotojas. 
 
-Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Prieš pradėdami atsisiųskite ir išsaugokite failus, pateiktus temoje „Gaunamų dokumentų analizė siekiant atnaujinti prašymų duomenis“ (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Turimi omenyje šie failai: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Prieš pradėdami atsisiųskite ir išsaugokite failus, pateiktus temoje „Gaunamų dokumentų analizė siekiant atnaujinti prašymų duomenis“ (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Turimi omenyje šie failai: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
     * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų“ veiksmus.  

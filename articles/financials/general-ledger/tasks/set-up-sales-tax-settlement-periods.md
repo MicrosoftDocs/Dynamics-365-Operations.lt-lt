@@ -3,25 +3,25 @@ title: Nustatyti PVM sudengimo laikotarpius
 description: PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus, už kuriuos reikia pranešti apie PVM ir jį sumokėti.
 author: twheeloc
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 08/05/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8304d9e8997a5d31740ee1203aa4bf0603014056
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569591"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862993"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Nustatyti PVM sudengimo laikotarpius
 
@@ -50,6 +50,8 @@ PVM sudengimo laikotarpiuose pateikiama informacija apie laikotarpių intervalus
 12. Įveskite laikotarpio intervalo vienetų skaičių vienam laikotarpiui. Pavyzdžiui, ketvirtį sudaro 3 mėnesiai.
 13. Pažymėkite arba atžymėkite žymės langelį Sudengiant PVM naudoti paketinį apdorojimą.
     * Sudengimo laikotarpio procesą galima apdoroti kaip paketinę užduotį fone. Tai rekomenduojama atlikti su daug mokesčių operacijų, patenkančių į laikotarpio intervalą.  
+    > [!NOTE]
+    > Šiuo metu ši funkcija nepalaikoma Austrijoje, Belgijoje, Ispanijoje, Italijoje, Japonijoje ir Nyderlanduose.
 14. Pažymėkite arba išvalykite žymės langelį Neleisti generuoti korespondentinių mokesčių operacijų.
     * Pagal numatytuosius parametrus sudengimo proceso metu sistema generuoja korespondentines mokesčių operacijas, galinčias sukelti našumo problemų, jei laikotarpio intervale yra daug mokesčių operacijų. Norėdami neleisti generuoti korespondentinių mokesčių operacijų pažymėkite šį žymės langelį.
 15. Išplėskite skirtuką Laikotarpio intervalai.

@@ -3,25 +3,25 @@ title: Perkelti ilgalaikį turtą
 description: Šis užduočių vadovas ilgalaikio turto knygos finansinę informaciją iš vieno finansinių dimensijų rinkinio perkels į naują finansinių dimensijų rinkinį.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bb8a5b94d9a0bb510daa2a698524e0c380597991
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 167591cf160916f256e2d10f122eca312ba07639
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566731"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839742"
 ---
 # <a name="transfer-a-fixed-asset"></a>Perkelti ilgalaikį turtą
 
@@ -29,21 +29,22 @@ ms.locfileid: "1566731"
 
 Šis užduočių vadovas ilgalaikio turto knygos finansinę informaciją iš vieno finansinių dimensijų rinkinio perkels į naują finansinių dimensijų rinkinį.  Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.
 
-1. Eikite į dalį Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas.
+1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas**.
 2. Sąraše raskite ir pasirinkite perkeltiną ilgalaikį turtą.
-3. Veiksmų srityje spustelėkite Ilgalaikis turtas.
-4. Spustelėkite Perkelti ilgalaikį turtą.
-5. Lauke Perkėlimo data įveskite datą.
+3. Veiksmų srityje spustelėkite **Ilgalaikis turtas**.
+4. Spustelėkite **Transfer fixed assets**.
+5. Lauke **Transfer date** įveskite datą.
 6. Įveskite perkėlimą apibūdinančių komentarų.
-    * Šiame sąraše rodomos visos ilgalaikio turto knygos.  
+    
+    Šiame sąraše rodomos visos ilgalaikio turto knygos.  
 7. Pažymėkite knygas, kurias norite perkelti į naują finansinių dimensijų rinkinį.
     * Šiame sąraše rodomos pasirinktos knygos esamos finansinių dimensijų reikšmės.  
     * Pasirinkite, kurią pasirinktos ilgalaikio turto knygos finansinę dimensiją norite atnaujinti.  
-8. Lauke Finansinė dimensija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+8. Lauke **Financial dimension** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
     * Tinkamai nustatykite kitas finansinių dimensijų reikšmes.  
     * Įvykus perkėlimui, pasikeičia visos finansinių dimensijų reikšmės, nesvarbu, ar reikšmė buvo įvesta, ar palikta tuščia. Pavyzdžiui, jei įvedėte VersloVienetas reikšmę, o finansines dimensijas IšlaidųCentras ir Skyrius palikote tuščias. Jei jūsų sąskaitos struktūra leidžia reikšmes IšlaidųCentras ir Skyrius palikti tuščias, po perkėlimo kiekviena VersloVienetas vertinimo modelio reikšmė būtų nauja, o reikšmės IšlaidųCentras ir Skyrius – tuščios.  
-9. Spustelėkite Naujinti.
+9. Spustelėkite **Update**.
     * Prieš baigdami perkėlimą, turite galimybę pakeitimus peržiūrėti.  
     * Prieš perkeldami ilgalaikio turto knygas, peržiūrėkite rezultatus.  
-10. Spustelėkite Perkelti.
+10. Spustelėkite **Transfer**.
 

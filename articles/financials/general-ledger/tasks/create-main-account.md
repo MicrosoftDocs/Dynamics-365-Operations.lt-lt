@@ -3,25 +3,25 @@ title: Kurti pagrindinę sąskaitą
 description: Ši užduotis padeda įtraukti pagrindinę sąskaitą į esamą sąskaitų planą.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58418291d3732c1acbccd097205fa7e64a967038
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563721"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846588"
 ---
 # <a name="create-a-main-account"></a>Kurti pagrindinę sąskaitą
 
@@ -29,28 +29,26 @@ ms.locfileid: "1563721"
 
 Ši užduotis padeda įtraukti pagrindinę sąskaitą į esamą sąskaitų planą. Šiame įraše naudojama demonstracinė įmonė USMF.  
 
-1. Eikite į Didžioji knyga > Sąskaitų planas > Sąskaitos > Pagrindinės sąskaitos.
-2. Spustelėkite Naujas.
-3. Lauke Pagrindinė sąskaita įveskite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-5. Lauke Pagrindinės sąskaitos tipas pasirinkite tipą, kuris geriausiai nurodo sąskaitų balansą ir vietą finansinėse ataskaitose.
-6. Sąraše pasirinkite sąskaitos kategoriją, kuriai priklauso pagrindinė sąskaita.
-    * Sąskaitų kategorija naudojama numatytosioms finansinėms ataskaitoms ir „Power BI“ ataskaitų srities turiniui.  
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Pakeiskite numatytąjį debeto arba kredito balansą.  
-8. Lauke Numatytoji valiuta iš valiutų sąrašo pasirinkite reikšmę.
+1. Pasirinkite **Naršymo sritis > Moduliai > Didžioji knyga > Sąskaitų planas > Sąskaitos > Pagrindinės sąskaitos**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Pagrindinė sąskaita** įveskite reikšmę.
+4. Lauke **Pavadinimas** įveskite reikšmę.
+5. Lauke **Pagrindinės sąskaitos tipas** pasirinkite tipą, kuris geriausiai nurodo sąskaitų balansą ir vietą finansinėse ataskaitose.
+6. Sąraše pasirinkite sąskaitos kategoriją, kuriai priklauso pagrindinė sąskaita. Sąskaitų kategorija naudojama numatytosioms finansinėms ataskaitoms ir „Power BI“ ataskaitų srities turiniui.  
+7. Sąraše spustelėkite saitą pasirinktoje eilutėje. Pakeiskite numatytąjį debeto arba kredito balansą.  
+8. Lauke **Numatytoji valiuta** iš valiutų sąrašo pasirinkite reikšmę.
 9. Sąraše raskite ir pasirinkite norimą įrašą.
 10. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-11. Perjunkite skyriaus Juridinio subjekto nepaisymai išplėtimą.
-12. Spustelėkite Įtraukti ir pasirinkite juridinį subjektą.
+11. Perjunkite skyriaus **Juridinio subjekto nepaisymai** išplėtimą.
+12. Spustelėkite **Įtraukti** ir pasirinkite juridinį subjektą.
 13. Sąraše pasirinkite Juridinis subjektas.
-14. Spustelėkite Pridėti.
+14. Spustelėkite **Pridėti**.
 15. Sąraše pažymėkite pasirinktą eilutę.
-16. Pažymėkite arba atžymėkite žymės langelį Sustabdytas.
-17. Išplėskite „Fast Tab“ Finansinės ataskaitos.
-18. Lauke Valiutos kurso tipas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-19. Sąraše pasirinkite Sąskaitos valiutos kurso tipas.
+16. Pažymėkite arba atžymėkite žymės langelį **Sustabdytas**.
+17. Išplėskite skyrių **Finansinės ataskaitos**.
+18. Lauke **Valiutos kurso tipas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+19. Sąraše pasirinkite**Sąskaitos valiutos kurso tipas**.
 20. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-21. Lauke Valiutos konvertavimo tipas pasirinkite sąskaitos valiutos kursų apskaičiavimo metodą.
+21. Lauke **Valiutos konvertavimo tipas** pasirinkite sąskaitos valiutos kursų apskaičiavimo metodą.
 22. Uždarykite puslapį.
 

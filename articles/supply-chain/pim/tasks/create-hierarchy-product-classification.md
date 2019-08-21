@@ -3,25 +3,25 @@ title: Produktų klasifikacijų hierarchijos kūrimas
 description: Ši procedūra nurodo, kaip sukurti naują kategorijų hierarchiją ir priskirti prekių kodų hierarchijos tipą.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResCategoryHierarchyListPage, EcoResCategoryHierarchyCreate, EcoResCategory, EcoResCategoryHierarchyRole
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb49f5f3f8a5a788cb4c6d1be69534ba808e3675
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: faf43eb15283ffd7e36ad38728f166884dddcd85
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568425"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844830"
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Produktų klasifikacijų hierarchijos kūrimas
 
@@ -31,39 +31,38 @@ ms.locfileid: "1568425"
 
 
 ## <a name="create-the-new-category-hierarchy"></a>Kurti naują kategorijų hierarchiją
-1. Pasirinkite Produkto informacijos valdymas > Nustatymas > Kategorijos ir atributai > Kategorijų hierarchijos.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Spustelėkite Kurti.
+1. Pasirinkite **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Sąranka > Kategorijos ir atributai > Kategorijų hierarchijos**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Pavadinimas** įveskite reikšmę.
+4. Lauke **Aprašas** įveskite reikšmę.
+5. Spustelėkite **Kurti**.
 
 ## <a name="build-the-hierarchy"></a>Kurti hierarchiją
-1. Spustelėkite „Naujas kategorijos mazgas“.
-2. Lauke Pavadinimas surinkite reikšmę.
-3. Lauke „Kodas“ įveskite reikšmę.
-4. Lauke „Patogus pavadinimas“ įveskite reikšmę.
-5. Spustelėkite „Naujas kategorijos mazgas“.
-6. Lauke Pavadinimas surinkite reikšmę.
-7. Lauke „Kodas“ įveskite reikšmę.
-8. Lauke „Patogus pavadinimas“ įveskite reikšmę.
-9. Spustelėkite „Naujas kategorijos mazgas“.
-10. Lauke Pavadinimas surinkite reikšmę.
-11. Lauke „Kodas“ įveskite reikšmę.
-12. Lauke „Patogus pavadinimas“ įveskite reikšmę.
-13. Spustelėkite „Naujas kategorijos mazgas“.
-14. Lauke Pavadinimas surinkite reikšmę.
-15. Lauke „Kodas“ įveskite reikšmę.
-16. Lauke „Patogus pavadinimas“ įveskite reikšmę.
+1. Spustelėkite kategorijos mazgą **Naujas**.
+2. Lauke **Pavadinimas** įveskite reikšmę.
+3. Lauke **Kodas** įveskite reikšmę.
+4. Lauke **Patogus pavadinimas** įveskite reikšmę.
+5. Spustelėkite kategorijos mazgą **Naujas**.
+6. Lauke **Pavadinimas** įveskite reikšmę.
+7. Lauke **Kodas** įveskite reikšmę.
+8. Lauke **Patogus pavadinimas** įveskite reikšmę.
+9. Spustelėkite kategorijos mazgą **Naujas**.
+10. Lauke **Pavadinimas** įveskite reikšmę.
+11. Lauke **Kodas** įveskite reikšmę.
+12. Lauke **Patogus pavadinimas** įveskite reikšmę.
+13. Spustelėkite kategorijos mazgą **Naujas**.
+14. Lauke **Pavadinimas** įveskite reikšmę.
+15. Lauke **Kodas** įveskite reikšmę.
+16. Lauke **Patogus pavadinimas** įveskite reikšmę.
 17. Uždarykite puslapį.
 
 ## <a name="classify-the-hierarchy"></a>Klasifikuoti hierarchiją
 1. Sąraše raskite ir pasirinkite norimą įrašą.
-2. Veiksmų srityje spustelėkite „Kategorijų hierarchija“.
-3. Spustelėkite „Susieti hierarchijos tipą“.
-4. Spustelėkite Naujas.
-5. Lauke „Kategorijų hierarchijos tipas“ pasirinkite parinktį.
-    * Pasirinkite prekių kodų kategorijų hierarchijos tipą, skirtą produktų klasifikacijai.  
-6. Lauke „Kategorijų hierarchija“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+2. Lauke **Veiksmų sritis** spustelėkite **Kategorijų hierarchija**.
+3. Spustelėkite **Susieti hierarchijos tipą**.
+4. Spustelėkite **Naujas**.
+5. Lauke **Kategorijų hierarchijos tipas** pasirinkite parinktį. Pasirinkite **Prekių kodų kategorijų hierarchijos tipas, skirtas produktų klasifikacijai**.  
+6. Lauke **Kategorijų hierarchija** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 7. Sąraše raskite ir pasirinkite norimą įrašą.
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 9. Uždarykite puslapį.

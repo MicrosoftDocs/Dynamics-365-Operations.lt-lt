@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01474a82e860c6f51b316cb683cd44fb9bf2a6bc
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85cb5c5618346f1e5132f818911be21df86fbfcb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554995"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741115"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Objektų duomenų atidarymas programoje „Excel“ ir jų atnaujinimas naudojant „Excel“ papildinį
 
@@ -60,7 +60,7 @@ Naudojant „Excel“ papildinį automatiškai nuskaitomi pasirinkto objekto duo
 
 6. Pasirinkite **Gerai**, tada pasirinkite **Taip**, kad patvirtintumėte pakeitimą. „Excel“ papildinys paleidžiamas iš naujo ir įkeliami metaduomenys.
 
-    Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus [Trikčių diagnostika](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) dalį „Rodomas mygtukas Įkelti programėles“.
+    Jau galima naudoti mygtuką **Dizainas**. Jei „Excel“ papildinyje yra mygtukas **Įkelti programėles**, tikriausiai neprisijungėte kaip tinkamas vartotojas. Jei reikia daugiau informacijos, žr. šios temos skyriaus [Trikčių diagnostika](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) dalį „Rodomas mygtukas Įkelti programėles“.
 
 7. Pasirinkite **Dizainas**. Naudojant „Excel“ papildinį gaunami objektų metaduomenys.
 8. Pasirinkite **Įtraukti lentelę**. Pateikiamas objektų sąrašas. Jame objektai nurodomi „Pavadinimas – žyma“ formatu.

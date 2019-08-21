@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c526bc42595c20024016d0d7da78b8638b0daa4b
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551676"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850102"
 ---
 # <a name="practice-manager-power-bi-content"></a>„Power BI“ turinys Praktikos vadovas
 
@@ -54,7 +54,7 @@ Tolesnėje lentelėje pateikiama informacija apie metrikas, pateikiamas kiekvien
 | EVM               | Išlaidų ir planavimo efektyvumo indeksas pagal projektą |
 | Valandos             | <ul><li>Faktinių apmokėtinų išnaudotų valandų, faktinių apmokėtinų neefektyvių valandų ir biudžeto valandų palyginimas</li><li>Faktinių apmokėtinų išnaudotų valandų ir faktinių apmokėtinų neefektyvių valandų palyginimas pagal projektą</li><li>Faktinių apmokėtinų išnaudotų valandų ir faktinių apmokėtinų neefektyvių valandų palyginimas pagal išteklių</li><li>Faktinių apmokėtinų valandų tarifas pagal projektą</li><li>Faktinių apmokėtinų valandų tarifas pagal išteklių</li></ul> |
 
-Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Taip pat galite naudoti funkciją Eksportuoti pagrindinius duomenis, norėdami eksportuoti vizualiai apibendrintus pagrindinius duomenis.
+Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Taip pat galite naudoti funkciją Eksportuoti pagrindinius duomenis, norėdami eksportuoti vizualiai apibendrintus pagrindinius duomenis.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
@@ -62,7 +62,7 @@ Tolesniais duomenimis pildomi „Power BI“ turinio **Praktikos vadovas** atask
 
 Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo vienetai.
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>Objektas: ProjectAccountingCube\_ActualHourUtilization
+### <a name="entity-projectaccountingcube_actualhourutilization"></a>Objektas: ProjectAccountingCube\_ActualHourUtilization
 **Duomenų šaltinis:** ProjEmplTrans
 
 | Pagrindiniai sujungti matavimo vienetai      | Laukas                              | aprašymas |
@@ -70,7 +70,7 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Faktinės apmokėtinos išnaudotos valandos | Sum(ActualUtilizationBillableRate) | Faktinių apmokėtinų išnaudotų valandų suma. |
 | Faktinės apmokėtinos neefektyvios valandos   | Sum(ActualBurdenBillableRate)      | Visas faktinio neefektyvumo tarifas. |
 
-### <a name="entity-projectaccountingcubeactuals"></a>Objektas: ProjectAccountingCube\_Actuals
+### <a name="entity-projectaccountingcube_actuals"></a>Objektas: ProjectAccountingCube\_Actuals
 **Duomenų šaltinis:** ProjTransPosting
 
 | Pagrindiniai sujungti matavimo vienetai | Laukas              | aprašymas |
@@ -78,14 +78,14 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Faktinės įplaukos            | Sum(ActualRevenue) | Visų operacijų užregistruotų įplaukų suma. |
 | Faktinės išlaidos               | Sum(ActualCost)    | Visų operacijų tipų užregistruotų išlaidų suma. |
 
-### <a name="entity-projectaccountingcubecustomer"></a>Objektas: ProjectAccountingCube\_Customer
+### <a name="entity-projectaccountingcube_customer"></a>Objektas: ProjectAccountingCube\_Customer
 **Duomenų šaltinis:** CustTable
 
 | Pagrindiniai sujungti matavimo vienetai | Laukas                                             | aprašymas |
 |---------------------------|---------------------------------------------------|-------------|
 | Projektų skaičius        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | Galimų projektų skaičius. |
 
-### <a name="entity-projectaccountingcubeforecasts"></a>Objektas: ProjectAccountingCube\_Forecasts
+### <a name="entity-projectaccountingcube_forecasts"></a>Objektas: ProjectAccountingCube\_Forecasts
 **Duomenų šaltinis:** ProjTransBudget
 
 | Pagrindiniai sujungti matavimo vienetai | Laukas                  | aprašymas |
@@ -94,14 +94,14 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Biudžeto įplaukos            | Sum(BudgetRevenue)     | Prognozuojamų sukauptų įplaukų / įplaukų, kurių sąskaita faktūra išrašyta, suma. |
 | Biudžeto bruto marža       | Sum(BudgetGrossMargin) | Skirtumas tarp visų prognozuojamų įplaukų sumos ir visų prognozuojamų išlaidų sumos. |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>Objektas: ProjectAccountingCube\_ProjectPlanCostsView
+### <a name="entity-projectaccountingcube_projectplancostsview"></a>Objektas: ProjectAccountingCube\_ProjectPlanCostsView
 **Duomenų šaltinis:** projektas
 
 | Pagrindiniai sujungti matavimo vienetai | Laukas                    | aprašymas |
 |---------------------------|--------------------------|-------------|
 | Suplanuotos išlaidos              | Sum(SumOfTotalCostPrice) | Visų projekto operacijų tipų su suplanuotomis užduotimis numatoma bendroji savikaina. |
 
-### <a name="entity-projectaccountingcubeprojects"></a>Objektas: ProjectAccountingCube\_Projects
+### <a name="entity-projectaccountingcube_projects"></a>Objektas: ProjectAccountingCube\_Projects
 **Duomenų šaltinis:** projektas
 
 | Pagrindiniai sujungti matavimo vienetai    | Laukas | aprašymas |
@@ -112,7 +112,7 @@ Tolesniuose skyriuose aprašyti kiekviename objekte naudojami sujungti matavimo 
 | Faktinių apmokėtinų valandų koeficientas  | ProjectAccountingCube\_Projects\[projekto faktinių apmokėtinų išnaudotų valandų suma\] ÷ (ProjectAccountingCube\_Projects\[projekto faktinių apmokėtinų išnaudotų valandų suma\] + ProjectAccountingCube\_Projects\[projekto faktinių apmokėtinų neefektyvių valandų suma\]) | Faktinių apmokėtinų valandų suma, remiantis išnaudotomis valandomis ir neefektyviomis valandomis. |
 | Gauta vertė                 | ProjectAccountingCube\_Projects\[projekto suplanuotų išlaidų suma\] × ProjectAccountingCube\_Projects\[atlikto darbo procentas\] | Suplanuotų išlaidų suma, padauginta iš atlikto darbo procento. |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Objektas: ProjectAccountingCube\_TotalEstimatedCosts 
+### <a name="entity-projectaccountingcube_totalestimatedcosts"></a>Objektas: ProjectAccountingCube\_TotalEstimatedCosts 
 **Duomenų šaltinis:** ProjTable
 
 | Pagrindiniai sujungti matavimo vienetai       | Laukas               | aprašymas |

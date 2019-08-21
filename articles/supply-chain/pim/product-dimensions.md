@@ -3,7 +3,7 @@ title: Produktų dimensijos
 description: Produktų dimensijos yra keturios – Spalva, Konfigūracija, Dydis ir Stilius. Produktų dimensijos jungiamos į dimensijų grupes, o dimensijų grupės priskiriamos bendriesiems produktams. Produktų dimensijų kombinacijomis nustatoma, kaip apibrėžiami produktų variantai.
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3391679696c0e1dd84840821480ccbfb544829a6
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563579"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863041"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -35,8 +35,8 @@ ms.locfileid: "1563579"
 Produktų dimensijos yra keturios – Spalva, Konfigūracija, Dydis ir Stilius. Produktų dimensijos jungiamos į dimensijų grupes, o dimensijų grupės priskiriamos bendriesiems produktams. Produktų dimensijų kombinacijomis nustatoma, kaip apibrėžiami produktų variantai.
 
 Produkto dimensijos – tai charakteristikos, naudojamos produkto variantui nustatyti. Galite naudoti produkto dimensijų derinius produkto variantams nustatyti. Norėdami sukurti produkto variantą, turite nustatyti bent vieną bendrojo produkto dimensiją.
-Produkto variantai
-----------------
+
+## <a name="product-variants"></a>Produkto variantai
 
 Produkto variantai taip pat vadinami prekėmis. Prekė – tai materialus produktas, kuris nėra apibūdinamas visiškai taip pat, kaip paslauga. Taip pat galima nustatyti bendrąjį produktą naudojant tipą Paslauga. Naudodami tipą Paslauga, galite nurodyti produkto variantus, kuriuose yra paslaugų. Pavyzdžiui, galite nurodyti konsultacinio darbo bendrąjį produktą bei vyresniųjų ir jaunesniųjų konsultantų atliekamo darbo produkto variantus.
 

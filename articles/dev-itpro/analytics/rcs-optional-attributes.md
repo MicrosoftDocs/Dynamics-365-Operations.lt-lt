@@ -1,5 +1,5 @@
 ---
-title: Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
+title: Failų importavimas XML formatu su pasirinktiniais atributais
 description: Šioje temoje pateikiama informacija apie tai, kaip kuriami ER formatai, kurie nurodo XML atributus, kad būtų analizuojami gaunami elektroniniai dokumentai XML formatu.
 author: NickSelin
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, Developer, IT Pro
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a6fc1e54444584895aa75ae91d39143f27e34d8
-ms.sourcegitcommit: d0fa7eb2166a30314205e7f70bbeaff6fbd5fb55
+ms.openlocfilehash: eb5d721784f45097ab466f75d43256495aac36ca
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2019
-ms.locfileid: "1726580"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850000"
 ---
-# <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Programos metaduomenų, kurie bus naudojami RCS ir ER, paruošimas
+# <a name="import-files-in-xml-format-with-optional-attributes"></a>Failų importavimas XML formatu su pasirinktiniais atributais
 
 Galite sukurti elektroninių ataskaitų (ER) formatus, skirtus analizuoti gaunamus elektroninius dokumentus XML formatu. Sukurtame ER formate tam tikri XML elementų atributai gali būti nurodyti kaip pasirinktiniai. Taigi galėsite tinkamai tvarkyti gaunamus failus naudodami tokius XML atributus arba jų nenaudodami. Tada galite naudoti šių failų turinį programos duomenims atnaujinti.
 

@@ -3,28 +3,29 @@ title: Duomenų importavimo ir eksportavimo užduotys
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 03/11/2019
+ms.date: 07/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505799"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862909"
 ---
 # <a name="data-import-and-export-jobs"></a>Duomenų importavimo ir eksportavimo užduotys
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Norint sprendime „Microsoft Dynamics 365 for Finance and Operations“ kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudojama darbo sritis **Duomenų valdymas**. Pagal numatytuosius parametrus duomenų importavimo ir eksportavimo procesas kiekvienam paskirties duomenų bazės objektui sukuria išdėstymo lentelę. Naudodami išdėstymo lenteles, galite, prieš perkeldami duomenis, juos patikrinti, išvalyti ar konvertuoti.
 
@@ -129,8 +130,8 @@ Užduotį tuo pačiu metu galima apsaugoti pagal vaidmenis, vartotojus ir juridi
 ## <a name="run-the-import-or-export-job"></a>Importavimo arba eksportavimo užduoties vykdymas
 Apibrėžę užduotį, ją galite vieną kartą vykdyti pasirinkdami mygtuką **Importuoti** arba **Eksportuoti**. Norėdami nustatyti pasikartojančią užduotį, pasirinkite **Kurti pasikartojančią duomenų užduotį**.
 
-[!NOTE]
-Importavimo arba eksportavimo užduotį galima vykdyti asinchroniškai pasirinkus mygtuką **Importuoti** arba **Eksportuoti**. Pasirinkus asinchroninį režimą naudojama asinchroninė sistema programoje „Finance and Operations“, kuri skiriasi nuo paketo sistemos. Tačiau asinchroninė sistema kaip paketinė sistema gali atlikti užklausų buferizavimą, todėl užduotis gali būti pradėta ne iš karto. Užduotis taip pat galima vykdyti sinchroniškai pasirinkus **Importuoti dabar** arba **Eksportuoti dabar**. Tokiu būdu užduotis pradedama iš karto ir tai naudinga, jei asinchroninė arba paketinė užduotis nepradedama dėl užklausų buferizavimo. Užduotis taip pat galima vykdyti naudojant paketą – pasirinkus parinktį **Vykdyti kaip paketą**. Paketo ištekliuose gali būti vykdomas užklausų buferizavimas, todėl paketinė užduotis gali būti pradėta ne iš karto. Asinchroninės sistemos parinktis yra naudinga, kai vartotojai tiesiogiai sąveikauja su vartotojo sąsaja ir jie nėra patyrę vartotojai, todėl nesupranta paketinio planavimo. Paketo naudojimas yra alternatyvi parinktis, jei reikia eksportuoti arba importuoti didelius kiekius. Paketines užduotis galima suplanuoti vykdyti konkrečioje paketinėje grupėje, todėl turėsite daugiau valdymo funkcijų, susijusių su apkrovų paskirstymu. Jei asinchroninėje ir paketinėje sistemose vykdomas užklausų buferizavimas dėl didelio išteklių naudojimo sistemoje, tada problemą galima laikinai išspręsti naudojant sinchroninę importavimo / eksportavimo versiją. Sinchroninė parinktis prasidės nedelsiant ir blokuos vartotojo sąsają, nes jis vykdoma sinchroniškai. Kai vyksta sinchroninė operacija, naršyklės langas turi būti atidarytas.
+> [!NOTE]
+> Importavimo arba eksportavimo užduotį galima vykdyti asinchroniškai pasirinkus mygtuką **Importuoti** arba **Eksportuoti**. Pasirinkus asinchroninį režimą naudojama asinchroninė sistema programoje „Finance and Operations“, kuri skiriasi nuo paketo sistemos. Tačiau asinchroninė sistema kaip paketinė sistema gali atlikti užklausų buferizavimą, todėl užduotis gali būti pradėta ne iš karto. Užduotis taip pat galima vykdyti sinchroniškai pasirinkus **Importuoti dabar** arba **Eksportuoti dabar**. Tokiu būdu užduotis pradedama iš karto ir tai naudinga, jei asinchroninė arba paketinė užduotis nepradedama dėl užklausų buferizavimo. Užduotis taip pat galima vykdyti naudojant paketą – pasirinkus parinktį **Vykdyti kaip paketą**. Paketo ištekliuose gali būti vykdomas užklausų buferizavimas, todėl paketinė užduotis gali būti pradėta ne iš karto. Asinchroninės sistemos parinktis yra naudinga, kai vartotojai tiesiogiai sąveikauja su vartotojo sąsaja ir jie nėra patyrę vartotojai, todėl nesupranta paketinio planavimo. Paketo naudojimas yra alternatyvi parinktis, jei reikia eksportuoti arba importuoti didelius kiekius. Paketines užduotis galima suplanuoti vykdyti konkrečioje paketinėje grupėje, todėl turėsite daugiau valdymo funkcijų, susijusių su apkrovų paskirstymu. Jei asinchroninėje ir paketinėje sistemose vykdomas užklausų buferizavimas dėl didelio išteklių naudojimo sistemoje, tada problemą galima laikinai išspręsti naudojant sinchroninę importavimo / eksportavimo versiją. Sinchroninė parinktis prasidės nedelsiant ir blokuos vartotojo sąsają, nes jis vykdoma sinchroniškai. Kai vyksta sinchroninė operacija, naršyklės langas turi būti atidarytas.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Tikrinimas, ar užduotis įvykdyta taip, kaip tikėtasi
 Norint nustatyti ir ištirti importavimo bei eksportavimo užduočių triktis, galima naudoti jų retrospektyvą. Retrospektyviniai užduoties vykdymai sisteminami pagal laiko intervalus.
@@ -153,6 +154,8 @@ Išdėstymo duomenis galite atsisiųsti kaip eksportavimo užduočių failą arb
 Vykdymo informacijos srityje taip pat galite atidaryti vykdymo žurnalą.
 
 ## <a name="clean-up-the-staging-tables"></a>Išdėstymo lentelių valymas
+Pradedant platformos 29 naujinimu, ši funkcija buvo nebenaudojama. Ji pakeista nauja užduočių retrospektyvos valymo funkcija, kuri paaiškinama toliau.
+
 Išvalyti išdėstymo lenteles galite naudodami darbo srities **Duomenų valdymas** funkciją **Išdėstymo valymas**. Norėdami pasirinkti, kurioje išdėstymo lentelėje reikia panaikinti kuriuos įrašus, galite naudoti tolesnes parinktis.
 
 - **Objektas** – jei pateiktas tik objektas, panaikinami visi to objekto išdėstymo lentelės įrašai. Pasirinkite šią parinktį, kad visus objekto duomenis išvalytumėte visuose duomenų projektuose ir visose užduotyse.
@@ -160,3 +163,37 @@ Išvalyti išdėstymo lenteles galite naudodami darbo srities **Duomenų valdyma
 - **Duomenų projektai** – jei pasirinktas tik duomenų projektas, panaikinami visi visų objektų ir visų pasirinktų duomenų užduočių įrašai.
 
 Parinktis taip pat galite jungti ir taip dar labiau apriboti naikintinų įrašų rinkinį.
+
+## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Užduočių retrospektyvos valymas (pasiekiama platformos 29 ir vėlesniuose naujinimuose)
+
+Užduočių retrospektyvos valymo funkcija duomenų valdyme turi būti naudojama periodiniui vykdymo retrospektyvos valymui planuoti. Ši funkcija pakeičia ankstesnę išdėstymo lentelės valymo funkciją, kuri dabar nebenaudojama. Šios lentelės bus išvalytos pagal valymo procesą.
+
+-   Visos išdėstymo lentelės
+
+-   DMF išdėstymo tikrinimo žurnalas
+
+-   DMF išdėstymo vykdymo klaidos
+
+-   DMF išdėstymo žurnalo išsami informacija
+
+-   DMF išdėstymo žurnalas
+
+-   DMF aprašo grupės vykdymo retrospektyva
+
+-   DMF vykdymas
+
+-   DMF aprašo grupės vykdymas
+
+Funkciją galima pasiekti per **„Duomenų tvarkymas“ \>„Užduoties retrospektyvos valymas“**.
+
+### <a name="scheduling-parameters"></a>Planavimo parametrai
+
+Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtumėte valymo kriterijus.
+
+-   **„Dienų, kiek saugoma retrospektyva, skaičius“** – šis parametras naudojamas kontroliuoti vykdymo retrospektyvos saugomą kiekį. – Lauke nurodytas dienų skaičius. Kai valymo užduotis suplanuota kaip pasikartojanti paketinė užduotis, šis parametras veiks kaip nuolat judantis langas, tokiu būdu visada palikdamas retrospektyvą nepaliestą tam tikram nurodytam dienų skaičiui, naikindamas likusią dalį. Numatytoji vertė yra 7.
+
+-   **„Valandų skaičius, reikalingas užduočiai įvykdyti“** – priklausomai nuo retrospektyvos, kurią reikia išvalyti, kiekio, bendras valymo užduoties vykdymo laikas gali svyruoti nuo kelių minučių iki kelių valandų. Kadangi minėtų lentelių valymas turi būti atliekamas, kai sistemoje nėra kitos duomenų tvarkymo veiklos, tampa svarbu įsitikinti, kad valymo užduotis vykdoma ir baigiama prieš pradedant verslo veiklą.
+
+    Maksimalų įvykdymo laiką galima nurodyti nustatant maksimalią valandų skaičiaus ribą, per kurią užduotis turi būti vykdoma naudojant šį parametrą. Valymo logika vienu metu remiasi vienos užduoties vykdymo ID chronologine tvarka išdėstyta seka, kur seniausia užduotis yra pirmoji susijusios vykdymo retrospektyvos valymui. Ji nustos rinkti naujo vykdymo ID valymui, kai likusi vykdymo trukmė yra nurodytos trukmės paskutiniuose 10 %. Kai kuriais atvejais tikimasi, kad valymo užduotis tęsis ilgiau nei nurodytas maksimalus laikas. Tai daugiausia priklausys nuo dabartinio vykdymo ID, kuris buvo pradėtas prieš 10% slenkstį, įrašų, kuriuos reikia panaikinti, skaičiaus. Pradėtas išvalymas turi būti užbaigtas siekiant užtikrinti duomenų vientisumą, o tai reiškia, kad išvalymas tęsis nepaisant nurodyto limito viršijimo. Kai valymas bus baigtas, naujas vykdymo ID neįtraukiamas ir valymo užduotis yra baigiama. Likusi vykdymo istorija, kuri nebuvo išvalyta dėl pakankamo vykdymo laiko trūkumo, bus įtraukta į kitą valymo užduoties planuojamą kartą. Numatytoji ir minimali šio parametro reikšmė nustatyta kaip 2 valandos.
+
+-   **„Pasikartojantis paketas“** – valymo užduotį galima vykdyti vieną kartą rankiniu būdu, arba ji taip pat gali būti suplanuota pasikartojančiam vykdymui pakete. Paketas gali būti planuojamas naudojant standartinį paketo nustatymo parametrą **Run in background**.

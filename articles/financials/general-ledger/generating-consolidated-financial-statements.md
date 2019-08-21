@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557736"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863705"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 
@@ -49,11 +49,11 @@ Kaip parodyta toliau pateiktos iliustracijos konsoliduotoje ataskaitoje, kai nau
 
 Taip pat galite kurti kelių lygių ataskaitų medį, kuris tiek lygių, kiek jums reikia. Toliau pateiktoje iliustracijoje rodomas kelių lygių ataskaitų medžio aprašas, kuriame sumavimas atliekamas pagal viso pasaulio regioną.
 
-![Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal regioną](./media/multilevel-reporting-tree-definition-roll-ups%20-worldwide-region.png "Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal regioną")
+![Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal regioną](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal regioną")
 
 Toliau pateiktoje iliustracijoje rodomas kelių lygių ataskaitų medžio aprašas, kuriame sumavimas atliekamas pagal viso funkciją.
 
-![Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal funkciją](./media/multilevel-reporting-tree-definition-roll-ups%20-by-function.png "Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal funkciją")
+![Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal funkciją](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal funkciją")
 
 ### <a name="viewing-companies-side-by-side"></a>Vienos šalia kitos įmonių peržiūra
 Daugelis klientų renkasi ataskaitas, kuriose įmonės pateikiamos viena šalia kitos, o stulpelyje rodoma konsoliduota bendra suma. Šis formatą lengva sukurti po to, kai sukuriate ataskaitų medį. Toliau nurodyti aukšto lygio veiksmai, skirti peržiūrėti įmones vieną šalia kitos konsoliduotose finansinėse ataskaitose.
@@ -98,7 +98,7 @@ Ataskaitų medžio apraše įveskite nuosavybės procentus stulpelyje **Sumavimo
 > [!NOTE]
 > Galite taikyti šį nuosavybės procentą bet kuriam ataskaitų vienetui (ne tik įmonės lygiu). 
 
-![Ataskaitų medžio aprašo procentinės dalies naudojimas](./media/Using-reporting%20tree-definition-percentage.png "Ataskaitų medžio aprašo procentinės dalies naudojimas")
+![Ataskaitų medžio aprašo procentinės dalies naudojimas](./media/Using-reporting-tree-definition-percentage.png "Ataskaitų medžio aprašo procentinės dalies naudojimas")
 
 Generuojant ataskaitą įmonės „Contoso Germany“ ataskaitoje bus rodoma 100 procentų pardavimo sumos ir 80 procentų sumos bus paskirstyta bei susumuota pardavimo konsolidavimo lygiu.
 

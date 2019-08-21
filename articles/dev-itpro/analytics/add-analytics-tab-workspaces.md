@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
-ms.reviewer: robinr
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5cfb2377ad290bff9c50819876d79a9d4b2a73d8
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1548190"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848602"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -45,10 +45,10 @@ Nesvarbu, ar išplečiate esamą, ar sukuriate naują asmeninę programos darbo 
 4. Pasirinktina: įtraukite plėtinius, kad tinkintumėte rodinį.
 
 > [!NOTE]
-> Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Desktop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Šis puslapis – puikus įžvalgų, galinčių padėti kurti patrauklius sprendimus analizės ataskaitoms, šaltinis.
+> Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Desktop“ pradžia](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/). Šis puslapis – puikus įžvalgų, galinčių padėti kurti patrauklius sprendimus analizės ataskaitoms, šaltinis.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Įtraukite .pbix failą kaip išteklių.
-Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią įdėsite į darbo sritį. Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Desktop“ pradžia](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Prieš pradėdami, turite sukurti arba gauti „Power BI“ ataskaitą, kurią įdėsite į darbo sritį. Daugiau informacijos apie tai, kaip kurti analizės ataskaitas, ieškokite [Darbo su „Power BI Desktop“ pradžia](https://powerbi.microsoft.com/documentation/powerbi-desktop-getting-started/).
 
 Atlikite šiuos veiksmus, norėdami įtraukti .pbix failą kaip „Visual Studio“ projekto artefaktą.
 

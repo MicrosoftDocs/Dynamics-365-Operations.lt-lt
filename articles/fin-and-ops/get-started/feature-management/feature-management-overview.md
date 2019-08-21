@@ -3,7 +3,7 @@ title: Funkcijų valdymo apžvalga
 description: Šioje temoje aprašoma funkcijų valdymo priemonė ir kaip ją naudoti.
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632058"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862943"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Funkcijos įtraukiamos ir atnaujinamos kiekvieną kartą išleidus „Microsoft Dynamics 365 for Finance and Operations“. Funkcijų valdymo patirtis suteikia darbo sritį, kurioje galite peržiūrėti kiekviename leidime pristatytų funkcijų sąrašą. Pagal numatytuosius nustatymus naujos funkcijos yra išjungtos. Galite naudoti darbo sritį, norėdami jas įjungti ir peržiūrėti jų dokumentaciją.
 
@@ -60,6 +61,10 @@ Jei funkcija neįjungta, informacijos srityje rodomas mygtukas **Įjungti dabar*
 
 Įjungus kai kurias funkcijas, jų išjungti negalima. Jei funkcija, kurią mėginate įjungti, negali būti išjungta, gausite įspėjimą. Šiuo metu galite pasirinkti **Atšaukti**, norėdami atšaukti operaciją ir palikti funkciją išjungtą. Tačiau, jei pasirinksite **Įjungti** ir įjungsite funkciją, negalėsite jos išjungti vėliau.
 
+Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informacija, prieš jas įjungiant. Šios funkcijos nurodomos geltonu įspėjamuoju simboliu. Turėtumėte atidžiai perskaityti papildomą informaciją, kad geriau suprastumėte, kas įvyks, kai funkcija bus įjungta. Tačiau vis tiek galite pasirinkti **Enable**, kad įjungtumėte funkciją.
+
+Kai kurios funkcijos rodys pranešimą, kad funkcija negali būti įjungta, kol nebus imtasi veiksmų. Šios funkcijos nurodomos raudonu „X“ simboliu. Prieš įgalindami funkciją, turite atlikti apraše aprašytus veiksmus. Pavyzdžiui, jei negalite naudoti funkcijos, kol konfigūracijos raktas nebus išjungtas, pirmiausia turite išjungti konfigūracijos raktą, o tada grįžti į funkcijos valdymą, kad įgalintumėte funkciją.
+
 Kai funkcija įjungta, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta, arba nurodo, kada funkcija suplanuota įjungti ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
 
 Funkcijos, kurios yra suplanuotos įjungti ateityje, rodomos skirtuke **Suplanuota**. Paketinis vykdymas jas įjungs nurodytos dienos vidurnaktį, atsižvelgiant į sistemoje nustatytą laiko juostą.
@@ -84,12 +89,28 @@ Kai funkcija išjungta, informacijos srityje pasirodo pranešimas **Sužinokite 
 
 Kartais įtraukiama svarbi funkcija, kurią būtina įjungti automatiškai, kai naujinate. Šios funkcijos bus automatiškai įjungiamos lauke **Įjungimo data** nurodytą dieną. Naudojant šias funkcijas, informacijos srityje pasirodo pranešimas **Sužinokite daugiau**. Šis pranešimas nurodo, kad funkcija buvo įjungta, arba nurodo, kada funkcija bus įjungta ateityje. Jis rodomas kiekvieną kartą, kai pasirenkate funkciją sąraše.
 
+## <a name="enable-all-features"></a>Įgalinti visas funkcijas
+
+Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Galite įjungti visas funkcijas pažymėdami mygtuką **Enable all**. 
+
+Kai pasirenkate **„Įjungti viską“**, parinktis pasirodys ten, kur jums reikia pateikti šią informaciją:
+- Visų funkcijų, kurias reikia patvirtinti prieš jas įjungiant, sąrašas. Jei norite įjungti sąraše esančias funkcijas, pasirinkite parinktį **Yes**, skirtą mygtukui **Enable features requiring confirmation**.
+- Pasirodys visų funkcijų, kurių negalima įjungti, sąrašas. Šios funkcijos nebus įjungtos.
+
+Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukciją įjungti ateityje, grafikas nepasikeis. 
+
 ## <a name="turn-on-all-features-automatically"></a>Automatinis visų funkcijų įjungimas
 
 Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Tačiau, jei norite automatiškai įjungti visas naujas funkcijas, galite naudoti išplečiamąjį sąrašą, esantį darbo srities pavadinime, kad pakeistumėte tai, kas atsitinka, kai įtraukiamos naujos funkcijos.
 
 - Pasirinkite **Visos naujos funkcijos bus įjungtos pagal numatytuosius parametrus**, kad visos naujos funkcijos būtų automatiškai įjungiamos įtraukiant jas į jūsų aplinką.
 - Pasirinkite **Visos naujos funkcijos bus išjungtos pagal numatytuosius parametrus**, kad visos naujos funkcijos būtų automatiškai išjungiamos įtraukiant jas į jūsų aplinką.
+
+Kai įjungiate visas funkcijas automatiškai, tai įgalins visas funkcijas, kurios būtų įjungtos spustelėjus mygtuką **Enable all**. Tai neįjungs funkcijų, kurioms reikia patvirtinimo arba kurių negalima įjungti, kol nebus imtasi veiksmų.
+
+## <a name="check-for-updates"></a>Tikrinti, ar yra naujinimų
+
+Po kiekvieno atnaujinimo funkcijos pridedamos prie jūsų aplinkos. Tačiau galite rankiniu būdu patikrinti, ar yra naujinimų, spustelėdami mygtuką **Check for updates**. Bet kuri funkcija, kuri buvo įtraukta į sistemą po atnaujinimo, bus įtraukta į funkcijų sąrašą. Pavyzdžiui, jei suaktyvinta funkcija yra įjungta po išleidimo, tada galite ieškoti naujinimų ir funkcija bus įtraukta į jūsų sąrašą.
 
 ## <a name="assigning-roles"></a>Vaidmenų priskyrimas
 

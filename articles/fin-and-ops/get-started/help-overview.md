@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
-ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
+ms.openlocfilehash: a7a6e0ef960d137a2897ef36bbd80380ed494281
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625334"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850872"
 ---
 # <a name="finance-and-operations-help-system"></a>„Finance and Operations” žinyno sistema
 
@@ -99,7 +99,7 @@ Jei turite atsiliepimų apie temą arba norite užduoti su ja susijusių klausim
 
 Galite prisidėti prie „Finance and Operations“ dokumentacijos kūrimo ir redagavimo. Norėdami pradėti, temoje spustelėkite mygtuką **Redaguoti** (pieštukas) arba apsilankykite saugyklos puslapyje: <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>. Šiame vaizdo įraše parodyta, kaip galite prisidėti prie mūsų dokumentacijos kūrimo.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE36liB]
 
 [Kaip prisidėti prie „Microsoft Dynamics 365“ dokumentacijos kūrimo](https://youtu.be/m5djioozRbg) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [Kas nauja „Dynamics 365“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9), kurį galima rasti „YouTube“.
 

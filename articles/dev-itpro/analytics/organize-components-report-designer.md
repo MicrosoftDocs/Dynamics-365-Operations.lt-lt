@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a4733dc4da7a8713ac7ddec5c96ae18c91edc18
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551748"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863676"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Ataskaitos komponentų tvarkymas ataskaitų dizaino įrankyje
 
@@ -50,7 +50,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 ### <a name="create-a-report-group"></a>Ataskaitų grupės kūrimas
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
-2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Arba įrankių juostoje spustelėkite mygtuką **Ataskaitų grupė** ![Ataskaitų grupė](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Ataskaitų grupė").
+2. Meniu **Failas** spustelėkite **Naujas** &gt; **Ataskaitų grupės aprašas**, kad atidarytumėte naują ataskaitų grupę peržiūros programos lange. Arba įrankių juostoje spustelėkite mygtuką **Ataskaitų grupė** ![Ataskaitų grupė](media/report-group.gif "Ataskaitų grupė").
 3. Spustelėkite skirtuką **Ataskaitų grupė**. Norėdami perrašyti atskirų ataskaitų aprašų informaciją, kad galėtumėte generuoti šią ataskaitą, pažymėkite žymės langelį **Perrašyti atskirų ataskaitų aprašų įmonės, išsamios informacijos ir datos parametrus**. Įmonės pavadinimo, išsamumo lygio, laikinojo parametro ir datos informacija įvedama automatiškai, bet jūs galite ją naujinti.
 4. Pažymėkite žymės langelį **Įtraukti visas ataskaitų valiutas**, jei norite sugeneruoti kelias ataskaitas, kuriose rodomos tos ataskaitų valiutos. Tada, peržiūrint ataskaitą, žiniatinklio peržiūros programoje spustelėjus mygtuką **Valiuta** bus rodomi keli rodiniai.
 5. Lauke **Grupės ataskaitos** spustelėkite **Įtraukti** ir pasirinkite ataskaitas, kurias norite įtraukti į ataskaitų grupę. Norėdami dialogo lange **Įtraukti** pasirinkti kelias ataskaitas, pažymėkite ataskaitas laikydami nuspaudę klavišą CTRL. Pasirinkę ataskaitas, spustelėkite **Gerai**.
@@ -61,7 +61,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Dukart spustelėkite ataskaitų grupę, kurią norite modifikuoti.
 3. Skirtuke **Ataskaitų grupė** atlikite norimus keitimus.
-4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę. Arba įrankių juostoje spustelėkite mygtuką **Įrašyti** ![Įrašyti](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Įrašyti").
+4. Meniu **Failas** spustelėkite **Įrašyti**, kad įrašytumėte modifikuotą ataskaitų grupę. Arba įrankių juostoje spustelėkite mygtuką **Įrašyti** ![Įrašyti](media/save.gif "Įrašyti").
 
 > [PASTABA] Jei suplanavote ataskaitas generuoti tam tikrais intervalais, galite nepaisyti šių parametrų ir generuoti ataskaitą iš karto.
 
@@ -69,7 +69,7 @@ Galite grupuoti ataskaitų aprašus, kad sukurtumėte kelias ataskaitas tuo pač
 
 1. Ataskaitų dizaino įrankio naršymo srityje spustelėkite **Ataskaitų grupės**.
 2. Atidarykite ataskaitų grupę, kurią norite generuoti.
-3. Norėdami generuoti ataskaitas, spustelėkite mygtuką **Generuoti ataskaitą** ![Generuoti ataskaitą](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Generuoti ataskaitą").
+3. Norėdami generuoti ataskaitas, spustelėkite mygtuką **Generuoti ataskaitą** ![Generuoti ataskaitą](media/generate-report.gif "Generuoti ataskaitą").
 
 ### <a name="delete-a-report-group"></a>Ataskaitų grupės panaikinimas
 

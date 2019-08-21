@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d22d6352f179919666d39df816f04bab340017dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: aaa4a08f65e4a3452782cf2b928464dff27ed59b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509203"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837305"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>SF gretinimas ir įmonės vidaus pirkimo užsakymai
 
 [!include [banner](../includes/banner.md)]
 
-Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
+Gali būti nustatyta, kad perkantysis juridinis subjektas, kuris susijęs su vidinės įmonės prekybos operacija, naudoja mokėtinų sumų SF gretinimą. Kai formos **Mokėtinų sumų parametrai** lauke **Registruoti SF su nesutapimais** nustatyta **Reikalauti patvirtinimo**, bus vykdomas SF gretinimo tikrinimas. Tokiu atveju ir vidinės įmonės prekybos, ir mokėtinų sumų SF gretinimo registravimo reikalavimai turi būti įvykdyti prieš registruojant vidinės įmonės tiekėjo SF.
 
 Šios temos pavyzdžiuose naudojama toliau pateikta vidinės įmonės prekybos sąranka.
 -   Fabrikam Purchase yra perkantysis juridinis subjektas.

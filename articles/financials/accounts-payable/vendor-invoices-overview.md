@@ -3,14 +3,14 @@ title: Tiekėjų sąskaitų faktūrų apžvalga
 description: Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais.
 author: abruer
 manager: AnnBe
-ms.date: 06/11/2019
+ms.date: 07/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d02eee989e5bebd1cad0b1392ec19aaa918d9db5
-ms.sourcegitcommit: f9444077022a6c678090d02d0f9d4ec0e54b7ca9
+ms.openlocfilehash: c69291214796847af7169cf261865860998f0d27
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "1625084"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863328"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
 [!include [banner](../includes/banner.md)]
-
+[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais.
 
@@ -90,6 +90,13 @@ Kai tiekėjo SF naudojama, jos negali redaguoti kitas vartotojas. Tačiau kartai
 Galite naudoti puslapį **Tiekėjo SF atkūrimas**, kad atkurtumėte arba išleistumėte tiekėjo SF, kurios buvo naudojamos daugiau nei keturias valandas, kad jas būtų galima redaguoti. Šį puslapį galite atidaryti naršymo skiltyje **Periodinė užduotis** arba darbo srities **Tiekėjo SF įrašas** plytelėje. Atkūrus SF, ją bus galima redaguoti puslapyje **Tiekėjo SF**.
 
 Puslapį **Tiekėjo SF atkūrimas** galite pasiekti tik tada, jei jums priskirta saugumo pareiga ir teisė **Atkurti naudojamas tiekėjo SF**. Be to, reikia įjungti parametrą **Leisti tiekėjo SF atkūrimą**, esantį puslapyje **Mokėtinų sumų parametrai**.
+
+## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Tiekėjo SF darbo eigos būsenos nustatymas iš naujo iš Nesusigrąžinamos sumos į Juodraštis
+
+Bus nurodyta darbo eigos egzemplioriaus, kuris buvo sustabdytas dėl neištaisomos klaidos, būsena **Neištaisoma**. Kai tiekėjo SF darbo eigos būsena **Unrecoverable**, ją galima nustatyti iš naujo **Draft** nurodant **Recall**. Tada galite redaguoti tiekėjo SF. Šią funkciją galima naudoti, jei įjungtas puslapio **Funkcijų valdymas** parametras **Tiekėjo SF darbo eigos juodraščio būsenos nustatymas iš naujo**.
+
+Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** galite iš naujo nustatyti darbo eigos būseną **Juodraštis**. Šį puslapį galite atidaryti iš **Tiekėjo SF** arba **Bendra > Užklausos > Darbo eiga**. Norėdami iš naujo nustatyti darbo eigos būseną į **Juodraštis**, pasirinkite **Atšaukti**. Taip pat galite iš naujo nustatyti darbo eigos būseną į „Juodraštis“, pasirinkdami veiksmą **Atšaukti** puslapyje **Tiekėjo SF** arba **Laukiančios tiekėjo SF**. Iš naujo nustačius darbo eigos būseną **Juodraštis**, ją galima redaguoti puslapyje **Tiekėjo SF**.
+
 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

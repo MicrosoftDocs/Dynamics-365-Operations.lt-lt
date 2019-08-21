@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ba9cc4dcdfcfbc1bdb933336e85da9b4b6d97a40
+ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544684"
+ms.lasthandoff: 07/29/2019
+ms.locfileid: "1791861"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER: dokumentų valdymo failų naudojimas formato išvestyse (5 dalis: formato modifikavimas ir paleidimas)
 
@@ -29,7 +29,7 @@ ms.locfileid: "1544684"
 
 Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas dokumentų valdymo failus (priedus) naudoti ER išvestyje. Šiuos veiksmus galima atlikti DEMF įmonėje.
 
-Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: dokumentų valdymo failų naudojimas formato išvestyse (4 dalis): formato paleidimas“.
+Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: dokumentų valdymo failų naudojimas formato išvestyse (4 dalis): formato paleidimas“. Formato susiejimo vykdymas
 
 Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 

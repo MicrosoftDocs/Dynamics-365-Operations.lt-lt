@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority, TaxReportCollection, TaxReportVoucher, TaxTable
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 266884
 ms.search.region: Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: cf1b60a255a0de6fe56e233e1d5741fe8b0752c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e481f86f395b5caaf5a7e0c83411012472682606
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549067"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852495"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 

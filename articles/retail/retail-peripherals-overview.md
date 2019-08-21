@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
-ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
+ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624817"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742638"
 ---
 # <a name="retail-peripherals"></a>Išoriniai mažmeninės prekybos įrenginiai
 
@@ -192,7 +192,7 @@ Išoriniams tinklo įrenginiams IP adresus galite nurodyti dviejose vietose. Jei
 
 #### <a name="modern-pos-for-android"></a>„Modern POS“, skirta „Android“
 
-Pradedant nuo 8.1.3 „Dynamics 365 for Retail“ versijos, į „Android“ skirtą „Modern POS“ programą yra įtaisyta IPC aparatūros stotis. Ši aparatūros stotis palaiko ryšį su tinklo spausdintuvais ir mokėjimo jungtimis. Norėdami gauti daugiau informacijos žr. [straipsnį apie hibridinę programą, skirtą „Android“ dokumentams](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)dokumentų straipsniui, srityje. 
+Pradedant nuo 8.1.3 „Dynamics 365 for Retail“ versijos, į „Android“ skirtą „Modern POS“ programą yra įtaisyta IPC aparatūros stotis. Ši aparatūros stotis palaiko ryšį su tinklo spausdintuvais ir mokėjimo jungtimis. Norėdami gauti daugiau informacijos žr. [straipsnį apie hibridinę programą, skirtą „Android“ dokumentams](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)dokumentų straipsniui, srityje. 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>„Cloud POS“ ir „Modern POS“, skirti „iOS“
 
@@ -541,7 +541,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 
 4. Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 5. Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
-6. Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
+6. Pasirinkite paskirstymo grafiką **1070** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 7. Įdiekite ir suaktyvinkite „Windows“ skirtą „Modern POS“.
 8. Paleiskite „Windows“ skirtą „Modern POS“ ir pradėkite naudoti prijungtus išorinius įrenginius.
 

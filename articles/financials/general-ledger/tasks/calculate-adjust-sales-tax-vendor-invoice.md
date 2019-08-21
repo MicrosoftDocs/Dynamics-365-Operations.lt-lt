@@ -1,52 +1,46 @@
 ---
-title: Skaičiuoti ir koreguoti PVM tiekėjo SF
-description: Jei pradiniame šaltinio dokumente rodomos mokesčių sumos skiriasi nuo apskaičiuotų, šias sumas prieš registruodami galite koreguoti.
+title: PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
+description: Šioje temoje aiškinama, kaip koreguoti PVM tiekėjo SF, esančioje Dynamics 365 for Finance and Operations.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransVendInvoice, VendTableLookup, TaxTmpWorkTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 803c038d907b68a3c72a83a3e035c4e08b8a8661
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 684529087d5348c9e02310f812f8aa6f64c6655f
+ms.sourcegitcommit: 016832198c306e8329ad21b5254e7d1cdff74c2f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545176"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1862619"
 ---
-# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>Skaičiuoti ir koreguoti PVM tiekėjo SF
+# <a name="calculate-and-adjust-sales-tax-on-a-vendor-invoice"></a>PVM tiekėjo sąskaitoje faktūroje skaičiavimas ir koregavimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Jei pradiniame šaltinio dokumente rodomos mokesčių sumos skiriasi nuo apskaičiuotų, šias sumas prieš registruodami galite koreguoti. Šioje užduotyje naudojama demonstracinė įmonė DEMF.
+Šioje temoje aiškinama, kaip koreguoti PVM tiekėjo SF, esančioje Dynamics 365 for Finance and Operations. Jei pradiniame šaltinio dokumente rodomos mokesčių sumos skiriasi nuo apskaičiuotų, šias sumas prieš registruodami galite koreguoti. Šioje užduotyje naudojama demonstracinė įmonė DEMF.
 
-1. Eikite į Mokėtinos sumos > Sąskaitos faktūros > SF žurnalas.
-2. Spustelėkite Naujas.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Spustelėkite Eilutės.
-7. Sąraše pažymėkite pasirinktą eilutę.
-8. Lauke Sąskaita nustatykite norimas reikšmes.
-9. Lauke Sąskaita faktūra surinkite reikšmę.
-10. Lauke Kreditas įveskite skaičių.
-11. Lauke Korespondentinė sąskaita nustatykite norimas reikšmes.
-12. Spustelėkite PVM.
-13. Lauke Visa faktinė PVM suma įveskite skaičių.
-14. Spustelėkite GERAI.
-15. Spustelėkite Įrašyti.
-16. Spustelėkite PVM.
-17. Skirtuke Koregavimas PVM sumas galima koreguoti pagal PVM kodą.
-18. Spustelėkite Iš naujo nustatyti faktinius dydžius pagal apskaičiuotas sumas.
-19. Spustelėkite GERAI.
-20. Spustelėkite Įrašyti.
+1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > SF > SF žurnalas**.
+2. Pasirinkite **Naujas**.
+3. Naujos eilutės lauke **Pavadinimas** pasirinkite išplečiamajame meniu esančią parinktį.
+4. Veiksmų srityje pasirinkite **Eilutės**.
+5. Lauke **Sąskaita**nustatykite norimas reikšmes.
+6. Lauke **Sąskaita faktūra** įveskite reikšmę.
+7. Lauke **Credit** įveskite skaičių.
+8. Lauke **Offset account** nustatykite norimas reikšmes.
+9. Pasirinkite **PVM**.
+10. Lauke **Visa faktinė PVM suma** įveskite skaičių.
+11. Skirtuke **Koregavimas** PVM sumas galima koreguoti pagal PVM kodą.
+12. Pasirinkite **Iš naujo nustatyti faktinius dydžius pagal apskaičiuotas sumas**.
+13. Pasirinkite **Gerai**.
+14. Pasirinkite **Įrašyti**.
 
