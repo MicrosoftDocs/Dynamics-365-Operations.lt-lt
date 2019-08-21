@@ -10,61 +10,61 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a9ba8ec2abb26e3b9ee7e14bdf882c1ffcb205b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4b578a664e9e3b6496e5665b2eefd9d75f86ecc3
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558531"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837835"
 ---
-# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="bc605-103">Kurti „kanban“ taisyklę naudojant minimalių atsargų įvykį</span><span class="sxs-lookup"><span data-stu-id="bc605-103">Create a kanban rule using a minimum stock event</span></span>
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="69720-103">Kurti „kanban“ taisyklę naudojant minimalių atsargų įvykį</span><span class="sxs-lookup"><span data-stu-id="69720-103">Create a kanban rule using a minimum stock event</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="bc605-104">Šioje procedūroje dėmesys skiriamas sąrankai, kuri reikalinga siekiant „kanban“ taisyklę kurti pagal minimalių atsargų įvykį ir užtikrinti, kad konkrečioje vietoje visada turima konkretaus produkto.</span><span class="sxs-lookup"><span data-stu-id="bc605-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="bc605-105">„Kanban“ taisyklė sukuriama, siekiant medžiagą perkelti į vietą, kai atsargų lygis būna mažesnis nei 200 vienetų.</span><span class="sxs-lookup"><span data-stu-id="bc605-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="bc605-106">Vykdant iškvietimo įvykių apdorojimą, sukuriami reikiami „kanban“.</span><span class="sxs-lookup"><span data-stu-id="bc605-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="bc605-107">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="bc605-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="bc605-108">Ši užduotis skirta proceso inžinieriui arba vertės srauto vadovui, nes jie parengia naujos arba pakeistos prekės gamybą „lean“ aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="bc605-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
+<span data-ttu-id="69720-104">Šioje procedūroje dėmesys skiriamas sąrankai, kuri reikalinga siekiant „kanban“ taisyklę kurti pagal minimalių atsargų įvykį ir užtikrinti, kad konkrečioje vietoje visada turima konkretaus produkto.</span><span class="sxs-lookup"><span data-stu-id="69720-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="69720-105">„Kanban“ taisyklė sukuriama, siekiant medžiagą perkelti į vietą, kai atsargų lygis būna mažesnis nei 200 vienetų.</span><span class="sxs-lookup"><span data-stu-id="69720-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="69720-106">Vykdant iškvietimo įvykių apdorojimą, sukuriami reikiami „kanban“.</span><span class="sxs-lookup"><span data-stu-id="69720-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="69720-107">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="69720-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="69720-108">Ši užduotis skirta proceso inžinieriui arba vertės srauto vadovui, nes jie parengia naujos arba pakeistos prekės gamybą „lean“ aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="69720-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 
 
-## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="bc605-109">Kurti naują „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="bc605-109">Create a new kanban rule</span></span>
-1. <span data-ttu-id="bc605-110">Pasirinkite Produkto informacijos valdymas > „Lean manufacturing“ > „Kanban“ taisyklės.</span><span class="sxs-lookup"><span data-stu-id="bc605-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-2. <span data-ttu-id="bc605-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="bc605-111">Click New.</span></span>
-3. <span data-ttu-id="bc605-112">Lauke Tipas pasirinkite Išėmimas.</span><span class="sxs-lookup"><span data-stu-id="bc605-112">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="bc605-113">Šis tipas naudojamas perkėlimo „kanban‟ kurti.</span><span class="sxs-lookup"><span data-stu-id="bc605-113">This type is used to create transfer kanbans.</span></span>  
-4. <span data-ttu-id="bc605-114">Lauke Papildymo strategija pasirinkite „Įvykis“.</span><span class="sxs-lookup"><span data-stu-id="bc605-114">In the Replenishment strategy field, select 'Event'.</span></span>
-    * <span data-ttu-id="bc605-115">Įvykio strategija naudojama, kad pagal įvykį būtų sukurti perkėlimo „kanban‟.</span><span class="sxs-lookup"><span data-stu-id="bc605-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="bc605-116">Vėliau procedūros metu perkėlimo „kanban“ suaktyvinsite naudodami atsargų papildymą.</span><span class="sxs-lookup"><span data-stu-id="bc605-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
-5. <span data-ttu-id="bc605-117">Lauke Pirmoji plano veikla įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc605-117">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="bc605-118">Įveskite arba pasirinkite ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="bc605-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="bc605-119">Šios perkėlimo veiklos gavimo (išeigos) sandėlis ir vieta yra 12 – tai reiškia, kad medžiagos bus perkeltos į 12-ojo sandėlio 12-ąją vietą.</span><span class="sxs-lookup"><span data-stu-id="bc605-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
-6. <span data-ttu-id="bc605-120">Išplėskite skyrių Išsami informacija.</span><span class="sxs-lookup"><span data-stu-id="bc605-120">Expand the Details section.</span></span>
-7. <span data-ttu-id="bc605-121">Lauke Produktas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc605-121">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="bc605-122">Pažymėkite M0007.</span><span class="sxs-lookup"><span data-stu-id="bc605-122">Select M0007.</span></span>  
-8. <span data-ttu-id="bc605-123">Išplėskite skyrių Įvykiai.</span><span class="sxs-lookup"><span data-stu-id="bc605-123">Expand the Events section.</span></span>
-9. <span data-ttu-id="bc605-124">Lauke Atsargų papildymo įvykis pasirinkite Paketas.</span><span class="sxs-lookup"><span data-stu-id="bc605-124">In the Stock replenishment event field, select 'Batch'.</span></span>
-    * <span data-ttu-id="bc605-125">Taip sukuriamas „kanban“, siekiant medžiagų poreikius susijusioje vietoje patenkinti iškvietimo įvykių apdorojimo metu.</span><span class="sxs-lookup"><span data-stu-id="bc605-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
+## <a name="create-a-new-kanban-rule"></a><span data-ttu-id="69720-109">Kurti naują „kanban“ taisyklę</span><span class="sxs-lookup"><span data-stu-id="69720-109">Create a new kanban rule</span></span>
+1. <span data-ttu-id="69720-110">Pasirinkite Produkto informacijos valdymas > „Lean manufacturing“ > „Kanban“ taisyklės.</span><span class="sxs-lookup"><span data-stu-id="69720-110">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="69720-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="69720-111">Click New.</span></span>
+3. <span data-ttu-id="69720-112">Lauke Tipas pasirinkite Išėmimas.</span><span class="sxs-lookup"><span data-stu-id="69720-112">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="69720-113">Šis tipas naudojamas perkėlimo „kanban‟ kurti.</span><span class="sxs-lookup"><span data-stu-id="69720-113">This type is used to create transfer kanbans.</span></span>  
+4. <span data-ttu-id="69720-114">Lauke Papildymo strategija pasirinkite „Įvykis“.</span><span class="sxs-lookup"><span data-stu-id="69720-114">In the Replenishment strategy field, select 'Event'.</span></span>
+    * <span data-ttu-id="69720-115">Įvykio strategija naudojama, kad pagal įvykį būtų sukurti perkėlimo „kanban‟.</span><span class="sxs-lookup"><span data-stu-id="69720-115">The Event strategy is used to create the transfer kanbans based on an event.</span></span> <span data-ttu-id="69720-116">Vėliau procedūros metu perkėlimo „kanban“ suaktyvinsite naudodami atsargų papildymą.</span><span class="sxs-lookup"><span data-stu-id="69720-116">Later in the procedure, you will trigger transfer kanbans by using stock replenishment.</span></span>  
+5. <span data-ttu-id="69720-117">Lauke Pirmoji plano veikla įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="69720-117">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="69720-118">Įveskite arba pasirinkite ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="69720-118">Enter or select ReplenishSpeakerComponents.</span></span> <span data-ttu-id="69720-119">Šios perkėlimo veiklos gavimo (išeigos) sandėlis ir vieta yra 12 – tai reiškia, kad medžiagos bus perkeltos į 12-ojo sandėlio 12-ąją vietą.</span><span class="sxs-lookup"><span data-stu-id="69720-119">This transfer activity has receipt (output) warehouse and location 12, which means that materials will be moved to location 12 in warehouse 12.</span></span>  
+6. <span data-ttu-id="69720-120">Išplėskite skyrių Išsami informacija.</span><span class="sxs-lookup"><span data-stu-id="69720-120">Expand the Details section.</span></span>
+7. <span data-ttu-id="69720-121">Lauke Produktas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="69720-121">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="69720-122">Pažymėkite M0007.</span><span class="sxs-lookup"><span data-stu-id="69720-122">Select M0007.</span></span>  
+8. <span data-ttu-id="69720-123">Išplėskite skyrių Įvykiai.</span><span class="sxs-lookup"><span data-stu-id="69720-123">Expand the Events section.</span></span>
+9. <span data-ttu-id="69720-124">Lauke Atsargų papildymo įvykis pasirinkite Paketas.</span><span class="sxs-lookup"><span data-stu-id="69720-124">In the Stock replenishment event field, select 'Batch'.</span></span>
+    * <span data-ttu-id="69720-125">Taip sukuriamas „kanban“, siekiant medžiagų poreikius susijusioje vietoje patenkinti iškvietimo įvykių apdorojimo metu.</span><span class="sxs-lookup"><span data-stu-id="69720-125">This creates kanbans to fulfill material needs at the related location during Pegging event processing.</span></span>  
 
-## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="bc605-126">Nustatyti mažiausią galimą prekės kiekį</span><span class="sxs-lookup"><span data-stu-id="bc605-126">Set the minimum quantity for the item</span></span>
-1. <span data-ttu-id="bc605-127">Lauke Produktas spustelėkite saitą.</span><span class="sxs-lookup"><span data-stu-id="bc605-127">Click to follow the link in the Product field.</span></span>
-2. <span data-ttu-id="bc605-128">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Prekės numeris.</span><span class="sxs-lookup"><span data-stu-id="bc605-128">Click to follow the link in the Item number field.</span></span>
-3. <span data-ttu-id="bc605-129">Išplėskite „FactBox“ Produkto vaizdas.</span><span class="sxs-lookup"><span data-stu-id="bc605-129">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="bc605-130">Veiksmų srityje spustelėkite Planuoti.</span><span class="sxs-lookup"><span data-stu-id="bc605-130">On the Action Pane, click Plan.</span></span>
-5. <span data-ttu-id="bc605-131">Spustelėkite Prekės padengimas.</span><span class="sxs-lookup"><span data-stu-id="bc605-131">Click Item coverage.</span></span>
-6. <span data-ttu-id="bc605-132">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="bc605-132">Click New.</span></span>
-7. <span data-ttu-id="bc605-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="bc605-133">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="bc605-134">Lauke Sandėlis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bc605-134">In the Warehouse field, enter or select a value.</span></span>
-    * <span data-ttu-id="bc605-135">Nustatykite pasirinkties Sandėlis reikšmę 12.</span><span class="sxs-lookup"><span data-stu-id="bc605-135">Set Warehouse to 12.</span></span>  
-9. <span data-ttu-id="bc605-136">Nustatyti lauko Mažiausias kiekis reikšmę į 200.</span><span class="sxs-lookup"><span data-stu-id="bc605-136">Set Minimum to '200'.</span></span>
+## <a name="set-the-minimum-quantity-for-the-item"></a><span data-ttu-id="69720-126">Nustatyti mažiausią galimą prekės kiekį</span><span class="sxs-lookup"><span data-stu-id="69720-126">Set the minimum quantity for the item</span></span>
+1. <span data-ttu-id="69720-127">Lauke Produktas spustelėkite saitą.</span><span class="sxs-lookup"><span data-stu-id="69720-127">Click to follow the link in the Product field.</span></span>
+2. <span data-ttu-id="69720-128">Spustelėkite, kad būtumėte nukreipti pagal saitą lauke Prekės numeris.</span><span class="sxs-lookup"><span data-stu-id="69720-128">Click to follow the link in the Item number field.</span></span>
+3. <span data-ttu-id="69720-129">Išplėskite „FactBox“ Produkto vaizdas.</span><span class="sxs-lookup"><span data-stu-id="69720-129">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="69720-130">Veiksmų srityje spustelėkite Planuoti.</span><span class="sxs-lookup"><span data-stu-id="69720-130">On the Action Pane, click Plan.</span></span>
+5. <span data-ttu-id="69720-131">Spustelėkite Prekės padengimas.</span><span class="sxs-lookup"><span data-stu-id="69720-131">Click Item coverage.</span></span>
+6. <span data-ttu-id="69720-132">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="69720-132">Click New.</span></span>
+7. <span data-ttu-id="69720-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="69720-133">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="69720-134">Lauke Sandėlis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="69720-134">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="69720-135">Nustatykite pasirinkties Sandėlis reikšmę 12.</span><span class="sxs-lookup"><span data-stu-id="69720-135">Set Warehouse to 12.</span></span>  
+9. <span data-ttu-id="69720-136">Nustatyti lauko Mažiausias kiekis reikšmę į 200.</span><span class="sxs-lookup"><span data-stu-id="69720-136">Set Minimum to '200'.</span></span>
 
-## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="bc605-137">Paleisti paketinę įvykio kūrimo užduotį</span><span class="sxs-lookup"><span data-stu-id="bc605-137">Run the batch event creation job</span></span>
-1. <span data-ttu-id="bc605-138">Pasirinkite Gamybos kontrolė > Periodinės užduotys > „Kanban“ užduoties paketinis apdorojimas > Iškvietimo įvykių apdorojimas.</span><span class="sxs-lookup"><span data-stu-id="bc605-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
-2. <span data-ttu-id="bc605-139">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="bc605-139">Click OK.</span></span>
-3. <span data-ttu-id="bc605-140">Pasirinkite Produkto informacijos valdymas > „Lean manufacturing“ > „Kanban“ taisyklės.</span><span class="sxs-lookup"><span data-stu-id="bc605-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
-4. <span data-ttu-id="bc605-141">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="bc605-141">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="bc605-142">Pasirinkite anksčiau sukurtą „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="bc605-142">Select the kanban rule that you created earlier.</span></span>  
-5. <span data-ttu-id="bc605-143">Išplėskite skyrių „Kanbans“.</span><span class="sxs-lookup"><span data-stu-id="bc605-143">Expand the Kanbans section.</span></span>
-    * <span data-ttu-id="bc605-144">Atkreipkite dėmesį, kad „kanban“ buvo sukurtas, siekiant reikiamą medžiagą perkelti į 12-ąjį sandėlį.</span><span class="sxs-lookup"><span data-stu-id="bc605-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
+## <a name="run-the-batch-event-creation-job"></a><span data-ttu-id="69720-137">Paleisti paketinę įvykio kūrimo užduotį</span><span class="sxs-lookup"><span data-stu-id="69720-137">Run the batch event creation job</span></span>
+1. <span data-ttu-id="69720-138">Pasirinkite Gamybos kontrolė > Periodinės užduotys > „Kanban“ užduoties paketinis apdorojimas > Iškvietimo įvykių apdorojimas.</span><span class="sxs-lookup"><span data-stu-id="69720-138">Go to Production control > Periodic tasks > Kanban job batch processing > Pegging event processing.</span></span>
+2. <span data-ttu-id="69720-139">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="69720-139">Click OK.</span></span>
+3. <span data-ttu-id="69720-140">Pasirinkite Produkto informacijos valdymas > „Lean manufacturing“ > „Kanban“ taisyklės.</span><span class="sxs-lookup"><span data-stu-id="69720-140">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+4. <span data-ttu-id="69720-141">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="69720-141">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="69720-142">Pasirinkite anksčiau sukurtą „kanban“ taisyklę.</span><span class="sxs-lookup"><span data-stu-id="69720-142">Select the kanban rule that you created earlier.</span></span>  
+5. <span data-ttu-id="69720-143">Išplėskite skyrių „Kanbans“.</span><span class="sxs-lookup"><span data-stu-id="69720-143">Expand the Kanbans section.</span></span>
+    * <span data-ttu-id="69720-144">Atkreipkite dėmesį, kad „kanban“ buvo sukurtas, siekiant reikiamą medžiagą perkelti į 12-ąjį sandėlį.</span><span class="sxs-lookup"><span data-stu-id="69720-144">Notice that a kanban was created to transfer the needed material to warehouse 12.</span></span>  
 

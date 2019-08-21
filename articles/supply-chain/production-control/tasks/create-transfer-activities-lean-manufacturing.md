@@ -10,83 +10,83 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityWizard, LeanWorkCellLookup, InventLocationIdLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 36f79ef189924b0f3bd38cb764e73c6a0793353e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 04cb0afa74cb95acf4007e9292f9fb88d4c86f87
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1545387"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837739"
 ---
-# <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="b84f4-103">Kurti „lean manufacturing“ perdavimo veiklas</span><span class="sxs-lookup"><span data-stu-id="b84f4-103">Create transfer activities for lean manufacturing</span></span>
+# <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="379c0-103">Kurti „lean manufacturing“ perdavimo veiklas</span><span class="sxs-lookup"><span data-stu-id="379c0-103">Create transfer activities for lean manufacturing</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b84f4-104">Sukurkite „lean manufacturing“ perkėlimo veiklą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-104">Create a transfer activity for lean manufacturing.</span></span> 
+<span data-ttu-id="379c0-104">Sukurkite „lean manufacturing“ perkėlimo veiklą.</span><span class="sxs-lookup"><span data-stu-id="379c0-104">Create a transfer activity for lean manufacturing.</span></span> 
 
-<span data-ttu-id="b84f4-105">Išankstiniai reikalavimai:</span><span class="sxs-lookup"><span data-stu-id="b84f4-105">Prerequisites:</span></span> 
+<span data-ttu-id="379c0-105">Išankstiniai reikalavimai:</span><span class="sxs-lookup"><span data-stu-id="379c0-105">Prerequisites:</span></span> 
 
-1. <span data-ttu-id="b84f4-106">Turi būti sukurta gamybos eiga ir neaktyvi versija.</span><span class="sxs-lookup"><span data-stu-id="b84f4-106">A production flow and version that is not active must be created.</span></span>
+1. <span data-ttu-id="379c0-106">Turi būti sukurta gamybos eiga ir neaktyvi versija.</span><span class="sxs-lookup"><span data-stu-id="379c0-106">A production flow and version that is not active must be created.</span></span>
 
-2. <span data-ttu-id="b84f4-107">Turi būti sukurti iš ir į sandėliai ir vietos.</span><span class="sxs-lookup"><span data-stu-id="b84f4-107">The from and to warehouse and locations must be created.</span></span> <span data-ttu-id="b84f4-108">Pasirinktinai turėtų būti sukurtas papildantis arba papildytas darbo elementas.</span><span class="sxs-lookup"><span data-stu-id="b84f4-108">Optionally, the replenishing or the replenished work cell should be created.</span></span>
+2. <span data-ttu-id="379c0-107">Turi būti sukurti iš ir į sandėliai ir vietos.</span><span class="sxs-lookup"><span data-stu-id="379c0-107">The from and to warehouse and locations must be created.</span></span> <span data-ttu-id="379c0-108">Pasirinktinai turėtų būti sukurtas papildantis arba papildytas darbo elementas.</span><span class="sxs-lookup"><span data-stu-id="379c0-108">Optionally, the replenishing or the replenished work cell should be created.</span></span>
 
 
-## <a name="find-the-production-flow-version"></a><span data-ttu-id="b84f4-109">Kaip rasti gamybos eigos versiją</span><span class="sxs-lookup"><span data-stu-id="b84f4-109">Find the production flow version</span></span>
-1. <span data-ttu-id="b84f4-110">Pasirinkite Gamybos kontrolė > Nustatymai > „Lean“ gamybos eiga > Gamybos eigos.</span><span class="sxs-lookup"><span data-stu-id="b84f4-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="b84f4-111">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-111">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="b84f4-112">Nepamirškite, kad gamybos eiga turi turėti juodraščio būsenos versiją.</span><span class="sxs-lookup"><span data-stu-id="b84f4-112">Note that the production flow must have a version in draft status.</span></span>  
-3. <span data-ttu-id="b84f4-113">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b84f4-113">In the list, click the link in the selected row.</span></span>
+## <a name="find-the-production-flow-version"></a><span data-ttu-id="379c0-109">Kaip rasti gamybos eigos versiją</span><span class="sxs-lookup"><span data-stu-id="379c0-109">Find the production flow version</span></span>
+1. <span data-ttu-id="379c0-110">Pasirinkite Gamybos kontrolė > Nustatymai > „Lean“ gamybos eiga > Gamybos eigos.</span><span class="sxs-lookup"><span data-stu-id="379c0-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="379c0-111">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="379c0-111">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="379c0-112">Nepamirškite, kad gamybos eiga turi turėti juodraščio būsenos versiją.</span><span class="sxs-lookup"><span data-stu-id="379c0-112">Note that the production flow must have a version in draft status.</span></span>  
+3. <span data-ttu-id="379c0-113">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="379c0-113">In the list, click the link in the selected row.</span></span>
 
-## <a name="create-a-new-activity"></a><span data-ttu-id="b84f4-114">Naujos veiklos kūrimas</span><span class="sxs-lookup"><span data-stu-id="b84f4-114">Create a new activity</span></span>
-1. <span data-ttu-id="b84f4-115">Spustelėkite Veiklos.</span><span class="sxs-lookup"><span data-stu-id="b84f4-115">Click Activities.</span></span>
-    * <span data-ttu-id="b84f4-116">Užtikrinkite, kad pasirinkta gamybos eiga turi juodraščio versiją ir pasirinkite tą versiją.</span><span class="sxs-lookup"><span data-stu-id="b84f4-116">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
-2. <span data-ttu-id="b84f4-117">Spustelėkite Kurti naują plano veiklą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-117">Click Create new plan activity.</span></span>
-3. <span data-ttu-id="b84f4-118">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="b84f4-118">Click Next.</span></span>
-4. <span data-ttu-id="b84f4-119">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b84f4-119">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="b84f4-120">Lauke Veiklos tipas pasirinkite „Perkėlimas“.</span><span class="sxs-lookup"><span data-stu-id="b84f4-120">In the Activity type field, select 'Transfer'.</span></span>
-6. <span data-ttu-id="b84f4-121">Lauke Proceso kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="b84f4-121">In the Process quantity field, enter a number.</span></span>
-7. <span data-ttu-id="b84f4-122">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="b84f4-122">Click Next.</span></span>
+## <a name="create-a-new-activity"></a><span data-ttu-id="379c0-114">Naujos veiklos kūrimas</span><span class="sxs-lookup"><span data-stu-id="379c0-114">Create a new activity</span></span>
+1. <span data-ttu-id="379c0-115">Spustelėkite Veiklos.</span><span class="sxs-lookup"><span data-stu-id="379c0-115">Click Activities.</span></span>
+    * <span data-ttu-id="379c0-116">Užtikrinkite, kad pasirinkta gamybos eiga turi juodraščio versiją ir pasirinkite tą versiją.</span><span class="sxs-lookup"><span data-stu-id="379c0-116">Ensure that the selected production flow has a version in draft and select that version.</span></span>  
+2. <span data-ttu-id="379c0-117">Spustelėkite Kurti naują plano veiklą.</span><span class="sxs-lookup"><span data-stu-id="379c0-117">Click Create new plan activity.</span></span>
+3. <span data-ttu-id="379c0-118">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="379c0-118">Click Next.</span></span>
+4. <span data-ttu-id="379c0-119">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="379c0-119">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="379c0-120">Lauke Veiklos tipas pasirinkite „Perkėlimas“.</span><span class="sxs-lookup"><span data-stu-id="379c0-120">In the Activity type field, select 'Transfer'.</span></span>
+6. <span data-ttu-id="379c0-121">Lauke Proceso kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="379c0-121">In the Process quantity field, enter a number.</span></span>
+7. <span data-ttu-id="379c0-122">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="379c0-122">Click Next.</span></span>
 
-## <a name="select-the-work-cells"></a><span data-ttu-id="b84f4-123">Darbo elementų pasirinkimas</span><span class="sxs-lookup"><span data-stu-id="b84f4-123">Select the Work cells</span></span>
-1. <span data-ttu-id="b84f4-124">Lauke Papildymas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-124">In the Replenishing field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="b84f4-125">Norėdami darbo elemento išeigos vietą perkėlimo veikloje naudoti kaip vietą iš, pasirinkite darbo elementą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-125">To use the work cell output location as the from location in the transfer activity, select a work cell.</span></span> <span data-ttu-id="b84f4-126">Tą patį galima atlikti naudojant papildytą darbo elementą, kuris nustato perkėlimo veiklos paskirties vietą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-126">The same can be done with the replenished work cell, which sets the target location of the transfer activity.</span></span>  
-2. <span data-ttu-id="b84f4-127">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b84f4-127">In the list, click the link in the selected row.</span></span>
+## <a name="select-the-work-cells"></a><span data-ttu-id="379c0-123">Darbo elementų pasirinkimas</span><span class="sxs-lookup"><span data-stu-id="379c0-123">Select the Work cells</span></span>
+1. <span data-ttu-id="379c0-124">Lauke Papildymas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="379c0-124">In the Replenishing field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="379c0-125">Norėdami darbo elemento išeigos vietą perkėlimo veikloje naudoti kaip vietą iš, pasirinkite darbo elementą.</span><span class="sxs-lookup"><span data-stu-id="379c0-125">To use the work cell output location as the from location in the transfer activity, select a work cell.</span></span> <span data-ttu-id="379c0-126">Tą patį galima atlikti naudojant papildytą darbo elementą, kuris nustato perkėlimo veiklos paskirties vietą.</span><span class="sxs-lookup"><span data-stu-id="379c0-126">The same can be done with the replenished work cell, which sets the target location of the transfer activity.</span></span>  
+2. <span data-ttu-id="379c0-127">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="379c0-127">In the list, click the link in the selected row.</span></span>
 
-## <a name="define-the-inventory-updates"></a><span data-ttu-id="b84f4-128">Atsargų atnaujinimų nurodymas</span><span class="sxs-lookup"><span data-stu-id="b84f4-128">Define the inventory updates</span></span>
-1. <span data-ttu-id="b84f4-129">Lauke Produkto tipas pasirinkite pasirinktį.</span><span class="sxs-lookup"><span data-stu-id="b84f4-129">In the Product type field, select an option.</span></span>
-    * <span data-ttu-id="b84f4-130">Atkreipkite dėmesį, kad perkėlimas nepakeičia produkto tipo.</span><span class="sxs-lookup"><span data-stu-id="b84f4-130">Note that a transfer does not change the type of product.</span></span> <span data-ttu-id="b84f4-131">Galite perkelti baigtus arba pusiau baigtus produktus (perkėlimas tarp dviejų gamybos eigos veiklų ir galbūt „kanban“ srauto).</span><span class="sxs-lookup"><span data-stu-id="b84f4-131">You can transfer finished products or semi-finished products (transfer between two activities of a production flow and possibly a kanban flow).</span></span>     <span data-ttu-id="b84f4-132">Perkeldami baigtus produktus galite pasirinkti, ar paimant arba gaunant pradedama atsargų operacija.</span><span class="sxs-lookup"><span data-stu-id="b84f4-132">When transferring finished products, you can select if picking or receiving results in an inventory transaction.</span></span>  
+## <a name="define-the-inventory-updates"></a><span data-ttu-id="379c0-128">Atsargų atnaujinimų nurodymas</span><span class="sxs-lookup"><span data-stu-id="379c0-128">Define the inventory updates</span></span>
+1. <span data-ttu-id="379c0-129">Lauke Produkto tipas pasirinkite pasirinktį.</span><span class="sxs-lookup"><span data-stu-id="379c0-129">In the Product type field, select an option.</span></span>
+    * <span data-ttu-id="379c0-130">Atkreipkite dėmesį, kad perkėlimas nepakeičia produkto tipo.</span><span class="sxs-lookup"><span data-stu-id="379c0-130">Note that a transfer does not change the type of product.</span></span> <span data-ttu-id="379c0-131">Galite perkelti baigtus arba pusiau baigtus produktus (perkėlimas tarp dviejų gamybos eigos veiklų ir galbūt „kanban“ srauto).</span><span class="sxs-lookup"><span data-stu-id="379c0-131">You can transfer finished products or semi-finished products (transfer between two activities of a production flow and possibly a kanban flow).</span></span>     <span data-ttu-id="379c0-132">Perkeldami baigtus produktus galite pasirinkti, ar paimant arba gaunant pradedama atsargų operacija.</span><span class="sxs-lookup"><span data-stu-id="379c0-132">When transferring finished products, you can select if picking or receiving results in an inventory transaction.</span></span>  
 
-## <a name="define-the-transfer-locations"></a><span data-ttu-id="b84f4-133">Perkėlimo vietų nurodymas</span><span class="sxs-lookup"><span data-stu-id="b84f4-133">Define the transfer locations</span></span>
-1. <span data-ttu-id="b84f4-134">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="b84f4-134">Click Next.</span></span>
-2. <span data-ttu-id="b84f4-135">Lauke Sandėlis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-135">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="b84f4-136">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-136">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="b84f4-137">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b84f4-137">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="b84f4-138">Lauke Vieta spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-138">In the Location field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="b84f4-139">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="b84f4-139">In the list, click the link in the selected row.</span></span>
-7. <span data-ttu-id="b84f4-140">Lauke Transportuoja pasirinkite „Siuntėjas“.</span><span class="sxs-lookup"><span data-stu-id="b84f4-140">In the Freighted by field, select 'Shipper'.</span></span>
-    * <span data-ttu-id="b84f4-141">Galimos pasirinktys: Siuntėjas – siuntimo sandėlį valdanti organizacija, Gavėjas – gavimo sandėlį valdanti organizacija, Vežėjas – trečiosios šalies tiekėjas.</span><span class="sxs-lookup"><span data-stu-id="b84f4-141">Options include: Shipper - the organization operating the shipping warehouse, Recipient -  the organization operating the receiving warehouse, Carrier - a third party vendor.</span></span> <span data-ttu-id="b84f4-142">Jei valdanti organizacija yra tiekėjas, norint atlikti perkėlimo veiklą reikalinga subrangos sutartis.</span><span class="sxs-lookup"><span data-stu-id="b84f4-142">If the operating organization is a vendor, the transfer activity requires a subcontracting agreement.</span></span>  
-8. <span data-ttu-id="b84f4-143">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="b84f4-143">Click Next.</span></span>
+## <a name="define-the-transfer-locations"></a><span data-ttu-id="379c0-133">Perkėlimo vietų nurodymas</span><span class="sxs-lookup"><span data-stu-id="379c0-133">Define the transfer locations</span></span>
+1. <span data-ttu-id="379c0-134">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="379c0-134">Click Next.</span></span>
+2. <span data-ttu-id="379c0-135">Lauke Sandėlis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="379c0-135">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="379c0-136">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="379c0-136">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="379c0-137">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="379c0-137">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="379c0-138">Lauke Vieta spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="379c0-138">In the Location field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="379c0-139">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="379c0-139">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="379c0-140">Lauke Transportuoja pasirinkite „Siuntėjas“.</span><span class="sxs-lookup"><span data-stu-id="379c0-140">In the Freighted by field, select 'Shipper'.</span></span>
+    * <span data-ttu-id="379c0-141">Galimos pasirinktys: Siuntėjas – siuntimo sandėlį valdanti organizacija, Gavėjas – gavimo sandėlį valdanti organizacija, Vežėjas – trečiosios šalies tiekėjas.</span><span class="sxs-lookup"><span data-stu-id="379c0-141">Options include: Shipper - the organization operating the shipping warehouse, Recipient -  the organization operating the receiving warehouse, Carrier - a third party vendor.</span></span> <span data-ttu-id="379c0-142">Jei valdanti organizacija yra tiekėjas, norint atlikti perkėlimo veiklą reikalinga subrangos sutartis.</span><span class="sxs-lookup"><span data-stu-id="379c0-142">If the operating organization is a vendor, the transfer activity requires a subcontracting agreement.</span></span>  
+8. <span data-ttu-id="379c0-143">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="379c0-143">Click Next.</span></span>
 
-## <a name="define-the-activity-times"></a><span data-ttu-id="b84f4-144">Veiklos laikų nurodymas</span><span class="sxs-lookup"><span data-stu-id="b84f4-144">Define the activity times</span></span>
-1. <span data-ttu-id="b84f4-145">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-145">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="b84f4-146">Būtinas dalies Apdorojimo laikas apibrėžimas.</span><span class="sxs-lookup"><span data-stu-id="b84f4-146">The definition of a Runtime is required.</span></span> <span data-ttu-id="b84f4-147">Apdorojimo laikas naudojamas skaičiuojant savikainą ir „kanban“ užduočių našumo laikus.</span><span class="sxs-lookup"><span data-stu-id="b84f4-147">The Runtime is used to calculate cost and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="b84f4-148">Apdorojimo laikai nenaudojami skaičiuojant pajėgumą ir suvartojimą, kurie apskaičiuojami pagal iš gamybos eigos versijos užduoties gautą ciklo laiką.</span><span class="sxs-lookup"><span data-stu-id="b84f4-148">Runtimes are not used to calculate capacity load and consumption, which is calculated by cycle time, derived from the production flow version task.</span></span>  
-2. <span data-ttu-id="b84f4-149">Lauke Laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="b84f4-149">In the Time field, enter a number.</span></span>
-3. <span data-ttu-id="b84f4-150">Lauke „Vienetas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b84f4-150">In the Unit field, type a value.</span></span>
-4. <span data-ttu-id="b84f4-151">Pasirinkite Laiko vienetas.</span><span class="sxs-lookup"><span data-stu-id="b84f4-151">Select the Time unit.</span></span>
-5. <span data-ttu-id="b84f4-152">Lauke Už kiekį įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="b84f4-152">In the Per quantity field, enter a number.</span></span>
-6. <span data-ttu-id="b84f4-153">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="b84f4-153">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="b84f4-154">Laukimo eilėje laikai nebūtini.</span><span class="sxs-lookup"><span data-stu-id="b84f4-154">Queue times are optional.</span></span>  
-7. <span data-ttu-id="b84f4-155">Lauke Laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="b84f4-155">In the Time field, enter a number.</span></span>
-8. <span data-ttu-id="b84f4-156">Lauke „Vienetas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="b84f4-156">In the Unit field, type a value.</span></span>
-9. <span data-ttu-id="b84f4-157">Pasirinkite Laiko vienetas.</span><span class="sxs-lookup"><span data-stu-id="b84f4-157">Select the Time unit.</span></span>
-10. <span data-ttu-id="b84f4-158">Lauke Už kiekį įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="b84f4-158">In the Per quantity field, enter a number.</span></span>
-11. <span data-ttu-id="b84f4-159">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="b84f4-159">Click Next.</span></span>
-12. <span data-ttu-id="b84f4-160">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="b84f4-160">Click Finish.</span></span>
-13. <span data-ttu-id="b84f4-161">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="b84f4-161">Close the page.</span></span>
+## <a name="define-the-activity-times"></a><span data-ttu-id="379c0-144">Veiklos laikų nurodymas</span><span class="sxs-lookup"><span data-stu-id="379c0-144">Define the activity times</span></span>
+1. <span data-ttu-id="379c0-145">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="379c0-145">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="379c0-146">Būtinas dalies Apdorojimo laikas apibrėžimas.</span><span class="sxs-lookup"><span data-stu-id="379c0-146">The definition of a Runtime is required.</span></span> <span data-ttu-id="379c0-147">Apdorojimo laikas naudojamas skaičiuojant savikainą ir „kanban“ užduočių našumo laikus.</span><span class="sxs-lookup"><span data-stu-id="379c0-147">The Runtime is used to calculate cost and the throughput times of the kanban jobs.</span></span> <span data-ttu-id="379c0-148">Apdorojimo laikai nenaudojami skaičiuojant pajėgumą ir suvartojimą, kurie apskaičiuojami pagal iš gamybos eigos versijos užduoties gautą ciklo laiką.</span><span class="sxs-lookup"><span data-stu-id="379c0-148">Runtimes are not used to calculate capacity load and consumption, which is calculated by cycle time, derived from the production flow version task.</span></span>  
+2. <span data-ttu-id="379c0-149">Lauke Laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="379c0-149">In the Time field, enter a number.</span></span>
+3. <span data-ttu-id="379c0-150">Lauke „Vienetas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="379c0-150">In the Unit field, type a value.</span></span>
+4. <span data-ttu-id="379c0-151">Pasirinkite Laiko vienetas.</span><span class="sxs-lookup"><span data-stu-id="379c0-151">Select the Time unit.</span></span>
+5. <span data-ttu-id="379c0-152">Lauke Už kiekį įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="379c0-152">In the Per quantity field, enter a number.</span></span>
+6. <span data-ttu-id="379c0-153">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="379c0-153">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="379c0-154">Laukimo eilėje laikai nebūtini.</span><span class="sxs-lookup"><span data-stu-id="379c0-154">Queue times are optional.</span></span>  
+7. <span data-ttu-id="379c0-155">Lauke Laikas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="379c0-155">In the Time field, enter a number.</span></span>
+8. <span data-ttu-id="379c0-156">Lauke „Vienetas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="379c0-156">In the Unit field, type a value.</span></span>
+9. <span data-ttu-id="379c0-157">Pasirinkite Laiko vienetas.</span><span class="sxs-lookup"><span data-stu-id="379c0-157">Select the Time unit.</span></span>
+10. <span data-ttu-id="379c0-158">Lauke Už kiekį įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="379c0-158">In the Per quantity field, enter a number.</span></span>
+11. <span data-ttu-id="379c0-159">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="379c0-159">Click Next.</span></span>
+12. <span data-ttu-id="379c0-160">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="379c0-160">Click Finish.</span></span>
+13. <span data-ttu-id="379c0-161">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="379c0-161">Close the page.</span></span>
 

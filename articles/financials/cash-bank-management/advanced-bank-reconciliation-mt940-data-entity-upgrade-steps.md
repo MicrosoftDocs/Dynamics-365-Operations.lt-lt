@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
@@ -17,49 +17,49 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6c0eeb59726422177ed1122767b9d3142a1311a2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 88eb5b3c408d36620ab550b29d2e5a3278d25d8a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554856"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842670"
 ---
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="18b75-103">Pažangaus banko suderinimo MT940 importavimas – Sudėtinis duomenų objekto atnaujinimas</span><span class="sxs-lookup"><span data-stu-id="18b75-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="50786-103">Pažangaus banko suderinimo MT940 importavimas – Sudėtinis duomenų objekto atnaujinimas</span><span class="sxs-lookup"><span data-stu-id="50786-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="18b75-104">Į banko išrašo importavimo objektą reikia įtraukti eilės numerį, kad būtų palaikomas MT940 formatas.</span><span class="sxs-lookup"><span data-stu-id="18b75-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
+<span data-ttu-id="50786-104">Į banko išrašo importavimo objektą reikia įtraukti eilės numerį, kad būtų palaikomas MT940 formatas.</span><span class="sxs-lookup"><span data-stu-id="50786-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 
-<span data-ttu-id="18b75-105">Norėdami įtraukti banko išrašo importavimo objektą, kad būtų palaikomas MT940 formatas, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="18b75-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
+<span data-ttu-id="50786-105">Norėdami įtraukti banko išrašo importavimo objektą, kad būtų palaikomas MT940 formatas, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="50786-105">Use the following steps to add the bank statement import entity to support the MT940 format.</span></span>
 
-1.  <span data-ttu-id="18b75-106">Kompiliuokite ir sinchronizuokite šiuos objektus:</span><span class="sxs-lookup"><span data-stu-id="18b75-106">Compile and synchronize the following:</span></span>
-    -   <span data-ttu-id="18b75-107">Sudėtinis objektas\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="18b75-107">Composite Entity\\BankStatementImportEntity</span></span>
-    -   <span data-ttu-id="18b75-108">Objektas\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="18b75-108">Entity\\BankStatementBalanceEntity</span></span>
-    -   <span data-ttu-id="18b75-109">Objektas\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="18b75-109">Entity\\BankStatementDocumentEntity</span></span>
-    -   <span data-ttu-id="18b75-110">Objektas\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="18b75-110">Entity\\BankStatementEntity</span></span>
-    -   <span data-ttu-id="18b75-111">Objektas\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="18b75-111">Entity\\BankStatementLineEntity</span></span>
-    -   <span data-ttu-id="18b75-112">Lentelės\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="18b75-112">Tables\\BankStatementStaging</span></span>
+1.  <span data-ttu-id="50786-106">Kompiliuokite ir sinchronizuokite šiuos objektus:</span><span class="sxs-lookup"><span data-stu-id="50786-106">Compile and synchronize the following:</span></span>
+    -   <span data-ttu-id="50786-107">Sudėtinis objektas\\BankStatementImportEntity</span><span class="sxs-lookup"><span data-stu-id="50786-107">Composite Entity\\BankStatementImportEntity</span></span>
+    -   <span data-ttu-id="50786-108">Objektas\\BankStatementBalanceEntity</span><span class="sxs-lookup"><span data-stu-id="50786-108">Entity\\BankStatementBalanceEntity</span></span>
+    -   <span data-ttu-id="50786-109">Objektas\\BankStatementDocumentEntity</span><span class="sxs-lookup"><span data-stu-id="50786-109">Entity\\BankStatementDocumentEntity</span></span>
+    -   <span data-ttu-id="50786-110">Objektas\\BankStatementEntity</span><span class="sxs-lookup"><span data-stu-id="50786-110">Entity\\BankStatementEntity</span></span>
+    -   <span data-ttu-id="50786-111">Objektas\\BankStatementLineEntity</span><span class="sxs-lookup"><span data-stu-id="50786-111">Entity\\BankStatementLineEntity</span></span>
+    -   <span data-ttu-id="50786-112">Lentelės\\BankStatementStaging</span><span class="sxs-lookup"><span data-stu-id="50786-112">Tables\\BankStatementStaging</span></span>
 
-2.  <span data-ttu-id="18b75-113">Duomenų valdymas\\duomenų projektai.</span><span class="sxs-lookup"><span data-stu-id="18b75-113">Data management\\data projects.</span></span>
-    1.  <span data-ttu-id="18b75-114">Įkelkite MT940 importavimo projektą(-us)</span><span class="sxs-lookup"><span data-stu-id="18b75-114">Load MT940 import project(s)</span></span>
-        1.  <span data-ttu-id="18b75-115">Pakeiskite XSLT.</span><span class="sxs-lookup"><span data-stu-id="18b75-115">Change XSLT.</span></span>
-            -   <span data-ttu-id="18b75-116">Spustelėkite **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="18b75-116">Click **View map**.</span></span>
-            -   <span data-ttu-id="18b75-117">Banko išrašo dokumente spustelėkite **Peržiūrėti schema**.</span><span class="sxs-lookup"><span data-stu-id="18b75-117">Click **View map** on the bank statement document.</span></span>
-            -   <span data-ttu-id="18b75-118">Spustelėkite **Pakeitimai**</span><span class="sxs-lookup"><span data-stu-id="18b75-118">Click **Transformations**</span></span>
-            -   <span data-ttu-id="18b75-119">Panaikinkite failą BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="18b75-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
-            -   <span data-ttu-id="18b75-120">Pridėkite naują BankReconiliation-to-Composite.xsl versiją.</span><span class="sxs-lookup"><span data-stu-id="18b75-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
+2.  <span data-ttu-id="50786-113">Duomenų valdymas\\duomenų projektai.</span><span class="sxs-lookup"><span data-stu-id="50786-113">Data management\\data projects.</span></span>
+    1.  <span data-ttu-id="50786-114">Įkelkite MT940 importavimo projektą(-us)</span><span class="sxs-lookup"><span data-stu-id="50786-114">Load MT940 import project(s)</span></span>
+        1.  <span data-ttu-id="50786-115">Pakeiskite XSLT.</span><span class="sxs-lookup"><span data-stu-id="50786-115">Change XSLT.</span></span>
+            -   <span data-ttu-id="50786-116">Spustelėkite **Peržiūrėti schemą**.</span><span class="sxs-lookup"><span data-stu-id="50786-116">Click **View map**.</span></span>
+            -   <span data-ttu-id="50786-117">Banko išrašo dokumente spustelėkite **Peržiūrėti schema**.</span><span class="sxs-lookup"><span data-stu-id="50786-117">Click **View map** on the bank statement document.</span></span>
+            -   <span data-ttu-id="50786-118">Spustelėkite **Pakeitimai**</span><span class="sxs-lookup"><span data-stu-id="50786-118">Click **Transformations**</span></span>
+            -   <span data-ttu-id="50786-119">Panaikinkite failą BankReconiliation-to-Composite.xslt.</span><span class="sxs-lookup"><span data-stu-id="50786-119">Delete the BankReconiliation-to-Composite.xslt file.</span></span>
+            -   <span data-ttu-id="50786-120">Pridėkite naują BankReconiliation-to-Composite.xsl versiją.</span><span class="sxs-lookup"><span data-stu-id="50786-120">Add the new version of BankReconiliation-to-Composite.xsl.</span></span>
 
-        2.  <span data-ttu-id="18b75-121">Makete **Šaltinio duomenys** rodykite **Eilės numeris**.</span><span class="sxs-lookup"><span data-stu-id="18b75-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
-            1.  <span data-ttu-id="18b75-122">Šaltinio duomenų formatas = XML-Element.</span><span class="sxs-lookup"><span data-stu-id="18b75-122">Source data format = XML-Element.</span></span>
-            2.  <span data-ttu-id="18b75-123">Objekto pavadinimas = Banko išrašai.</span><span class="sxs-lookup"><span data-stu-id="18b75-123">Entity name = Bank statements.</span></span>
-            3.  <span data-ttu-id="18b75-124">Nusiuntimo duomenų failas = nauja SampleBankCompositeEntity.xml versija.</span><span class="sxs-lookup"><span data-stu-id="18b75-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
-            4.  <span data-ttu-id="18b75-125">Jei norite perrašyti esamą failą, spustelėkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="18b75-125">Click **Yes** to overwrite the existing file.</span></span>
-            5.  <span data-ttu-id="18b75-126">Jeigu norite sugeneruoti naują susiejimą, spustelėkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="18b75-126">Click **Yes** to generate a new mapping.</span></span>
-            6.  <span data-ttu-id="18b75-127">Patikrinkite, ar susietas E**ilės numeris**.</span><span class="sxs-lookup"><span data-stu-id="18b75-127">Verify that S**equenceNumber** is mapped.</span></span>
-                -   <span data-ttu-id="18b75-128">Išrašo objekte spustelėkite **Peržiūrėti schema**.</span><span class="sxs-lookup"><span data-stu-id="18b75-128">Click **View Map** on the statement entity.</span></span>
-                -   <span data-ttu-id="18b75-129">Patikrinkite, ar objektas **SequenceNumber** susietas nuo šaltinio iki išdėstymo.</span><span class="sxs-lookup"><span data-stu-id="18b75-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
+        2.  <span data-ttu-id="50786-121">Makete **Šaltinio duomenys** rodykite **Eilės numeris**.</span><span class="sxs-lookup"><span data-stu-id="50786-121">Expose the **Sequence Number** on **Source Data** layout.</span></span>
+            1.  <span data-ttu-id="50786-122">Šaltinio duomenų formatas = XML-Element.</span><span class="sxs-lookup"><span data-stu-id="50786-122">Source data format = XML-Element.</span></span>
+            2.  <span data-ttu-id="50786-123">Objekto pavadinimas = Banko išrašai.</span><span class="sxs-lookup"><span data-stu-id="50786-123">Entity name = Bank statements.</span></span>
+            3.  <span data-ttu-id="50786-124">Nusiuntimo duomenų failas = nauja SampleBankCompositeEntity.xml versija.</span><span class="sxs-lookup"><span data-stu-id="50786-124">Upload data file = new version SampleBankCompositeEntity.xml.</span></span>
+            4.  <span data-ttu-id="50786-125">Jei norite perrašyti esamą failą, spustelėkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="50786-125">Click **Yes** to overwrite the existing file.</span></span>
+            5.  <span data-ttu-id="50786-126">Jeigu norite sugeneruoti naują susiejimą, spustelėkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="50786-126">Click **Yes** to generate a new mapping.</span></span>
+            6.  <span data-ttu-id="50786-127">Patikrinkite, ar susietas E**ilės numeris**.</span><span class="sxs-lookup"><span data-stu-id="50786-127">Verify that S**equenceNumber** is mapped.</span></span>
+                -   <span data-ttu-id="50786-128">Išrašo objekte spustelėkite **Peržiūrėti schema**.</span><span class="sxs-lookup"><span data-stu-id="50786-128">Click **View Map** on the statement entity.</span></span>
+                -   <span data-ttu-id="50786-129">Patikrinkite, ar objektas **SequenceNumber** susietas nuo šaltinio iki išdėstymo.</span><span class="sxs-lookup"><span data-stu-id="50786-129">Verify that **SequenceNumber** is mapped from Source to Staging.</span></span>
 
-3.  <span data-ttu-id="18b75-130">Importuokite naują išrašą.</span><span class="sxs-lookup"><span data-stu-id="18b75-130">Import the new statement.</span></span>
+3.  <span data-ttu-id="50786-130">Importuokite naują išrašą.</span><span class="sxs-lookup"><span data-stu-id="50786-130">Import the new statement.</span></span>
 
 
 

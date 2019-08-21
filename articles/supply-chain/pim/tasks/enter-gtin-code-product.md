@@ -10,35 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemGTIN, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df5a1ee72514cfa19e242cbc3d306027ab8d100b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6abae364049ef61232f794d30c0d8d6acfb51044
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567840"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844302"
 ---
-# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="3be2f-103">Įvesti produkto GTIN kodą</span><span class="sxs-lookup"><span data-stu-id="3be2f-103">Enter the GTIN code for a product</span></span>
+# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="78e20-103">Įvesti produkto GTIN kodą</span><span class="sxs-lookup"><span data-stu-id="78e20-103">Enter the GTIN code for a product</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="3be2f-104">GTIN kodus priskiria GS1 organizacija.</span><span class="sxs-lookup"><span data-stu-id="3be2f-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="3be2f-105">Šiame pavyzdyje įvesite demonstracinių duomenų įmonės USMF produkto numerio M0001 kodą.</span><span class="sxs-lookup"><span data-stu-id="3be2f-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
+<span data-ttu-id="78e20-104">GTIN kodus priskiria GS1 organizacija.</span><span class="sxs-lookup"><span data-stu-id="78e20-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="78e20-105">Šiame pavyzdyje įvesite demonstracinių duomenų įmonės USMF produkto numerio M0001 kodą.</span><span class="sxs-lookup"><span data-stu-id="78e20-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
 
-1. <span data-ttu-id="3be2f-106">Spustelėkite Patvirtinto produkto priežiūra.</span><span class="sxs-lookup"><span data-stu-id="3be2f-106">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="3be2f-107">Spustelėkite Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="3be2f-107">Click Released products.</span></span>
-3. <span data-ttu-id="3be2f-108">Išplėskite „FactBox“ Produkto vaizdas.</span><span class="sxs-lookup"><span data-stu-id="3be2f-108">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="3be2f-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="3be2f-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="3be2f-110">Veiksmų srityje spustelėkite Valdyti atsargas.</span><span class="sxs-lookup"><span data-stu-id="3be2f-110">On the Action Pane, click Manage inventory.</span></span>
-6. <span data-ttu-id="3be2f-111">Spustelėkite GTIN kodai.</span><span class="sxs-lookup"><span data-stu-id="3be2f-111">Click GTIN codes.</span></span>
-7. <span data-ttu-id="3be2f-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="3be2f-112">Click New.</span></span>
-8. <span data-ttu-id="3be2f-113">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="3be2f-113">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="3be2f-114">Lauke Vienetas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3be2f-114">In the Unit field, enter or select a value.</span></span>
-10. <span data-ttu-id="3be2f-115">Lauke GTIN kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="3be2f-115">In the GTIN code field, select an option.</span></span>
-11. <span data-ttu-id="3be2f-116">Lauke GTIN įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="3be2f-116">In the GTIN field, type a value.</span></span>
-12. <span data-ttu-id="3be2f-117">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="3be2f-117">Close the page.</span></span>
+1. <span data-ttu-id="78e20-106">Spustelėkite Patvirtinto produkto priežiūra.</span><span class="sxs-lookup"><span data-stu-id="78e20-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="78e20-107">Spustelėkite Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="78e20-107">Click Released products.</span></span>
+3. <span data-ttu-id="78e20-108">Išplėskite „FactBox“ Produkto vaizdas.</span><span class="sxs-lookup"><span data-stu-id="78e20-108">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="78e20-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="78e20-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="78e20-110">Veiksmų srityje spustelėkite Valdyti atsargas.</span><span class="sxs-lookup"><span data-stu-id="78e20-110">On the Action Pane, click Manage inventory.</span></span>
+6. <span data-ttu-id="78e20-111">Spustelėkite GTIN kodai.</span><span class="sxs-lookup"><span data-stu-id="78e20-111">Click GTIN codes.</span></span>
+7. <span data-ttu-id="78e20-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="78e20-112">Click New.</span></span>
+8. <span data-ttu-id="78e20-113">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="78e20-113">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="78e20-114">Lauke Vienetas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="78e20-114">In the Unit field, enter or select a value.</span></span>
+10. <span data-ttu-id="78e20-115">Lauke GTIN kodas pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="78e20-115">In the GTIN code field, select an option.</span></span>
+11. <span data-ttu-id="78e20-116">Lauke GTIN įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="78e20-116">In the GTIN field, type a value.</span></span>
+12. <span data-ttu-id="78e20-117">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="78e20-117">Close the page.</span></span>
 

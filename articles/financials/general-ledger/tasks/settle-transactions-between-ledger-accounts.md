@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerTransSettlement, LedgerTrialBalanceListPage, LedgerTrialBalanceListPageBalanceParms, LedgerTransAccount, LedgerTransSettled
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4aff64fa1c017f295752e913de7fb320f0662ef8
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6ed76f82532d43a3c05b60b12176fe851e327956
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568125"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846228"
 ---
-# <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="d937b-103">DK sąskaitų operacijų sudengimas</span><span class="sxs-lookup"><span data-stu-id="d937b-103">Settle transactions between ledger accounts</span></span>
+# <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="dd3d6-103">DK sąskaitų operacijų sudengimas</span><span class="sxs-lookup"><span data-stu-id="dd3d6-103">Settle transactions between ledger accounts</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d937b-104">Ši procedūra nurodo, kaip sudengti operacijas tarp DK sąskaitų ir atšaukti DK sudengimą.</span><span class="sxs-lookup"><span data-stu-id="d937b-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="d937b-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="d937b-105">This procedure uses the USMF demo data company.</span></span>
+<span data-ttu-id="dd3d6-104">Ši procedūra nurodo, kaip sudengti operacijas tarp DK sąskaitų ir atšaukti DK sudengimą.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="dd3d6-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-105">This procedure uses the USMF demo data company.</span></span>
 
 
-## <a name="settle-transaction-between-ledger-accounts"></a><span data-ttu-id="d937b-106">DK sąskaitų operacijos sudengimas</span><span class="sxs-lookup"><span data-stu-id="d937b-106">Settle transaction between ledger accounts</span></span>
-1. <span data-ttu-id="d937b-107">Pasirinkite Didžioji knyga > Periodinės užduotys > DK sudengimai.</span><span class="sxs-lookup"><span data-stu-id="d937b-107">Go to General ledger > Periodic tasks > Ledger settlements.</span></span>
-2. <span data-ttu-id="d937b-108">Sąraše raskite operaciją, kurią norite sudengti.</span><span class="sxs-lookup"><span data-stu-id="d937b-108">In the list, find the transaction that you want to settle.</span></span>
+## <a name="settle-transaction-between-ledger-accounts"></a><span data-ttu-id="dd3d6-106">DK sąskaitų operacijos sudengimas</span><span class="sxs-lookup"><span data-stu-id="dd3d6-106">Settle transaction between ledger accounts</span></span>
+1. <span data-ttu-id="dd3d6-107">Pasirinkite Didžioji knyga > Periodinės užduotys > DK sudengimai.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-107">Go to General ledger > Periodic tasks > Ledger settlements.</span></span>
+2. <span data-ttu-id="dd3d6-108">Sąraše raskite operaciją, kurią norite sudengti.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-108">In the list, find the transaction that you want to settle.</span></span>
    > [!NOTE]
-   > <span data-ttu-id="d937b-109">Sumos balansas turi būti nulis.</span><span class="sxs-lookup"><span data-stu-id="d937b-109">The amount balance must be zero.</span></span>  
-3. <span data-ttu-id="d937b-110">Spustelėkite Įtraukti.</span><span class="sxs-lookup"><span data-stu-id="d937b-110">Click Include.</span></span>
-4. <span data-ttu-id="d937b-111">Spustelėkite Priimti.</span><span class="sxs-lookup"><span data-stu-id="d937b-111">Click Accept.</span></span>
+   > <span data-ttu-id="dd3d6-109">Sumos balansas turi būti nulis.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-109">The amount balance must be zero.</span></span>  
+3. <span data-ttu-id="dd3d6-110">Spustelėkite Įtraukti.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-110">Click Include.</span></span>
+4. <span data-ttu-id="dd3d6-111">Spustelėkite Priimti.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-111">Click Accept.</span></span>
 
-## <a name="cancel-a-ledger-settlement"></a><span data-ttu-id="d937b-112">DK sudengimo atšaukimas</span><span class="sxs-lookup"><span data-stu-id="d937b-112">Cancel a ledger settlement</span></span>
+## <a name="cancel-a-ledger-settlement"></a><span data-ttu-id="dd3d6-112">DK sudengimo atšaukimas</span><span class="sxs-lookup"><span data-stu-id="dd3d6-112">Cancel a ledger settlement</span></span>
 
-1. <span data-ttu-id="d937b-113">Pasirinkite Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas.</span><span class="sxs-lookup"><span data-stu-id="d937b-113">Go to General ledger > Inquiries and reports > Trial balance.</span></span>
-2. <span data-ttu-id="d937b-114">Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="d937b-114">Click Parameters to open the drop dialog.</span></span>
-3. <span data-ttu-id="d937b-115">Spustelėkite Naujinti.</span><span class="sxs-lookup"><span data-stu-id="d937b-115">Click Update.</span></span>
-4. <span data-ttu-id="d937b-116">Sąraše raskite sąskaitą, kurioje yra sudengta operacija.</span><span class="sxs-lookup"><span data-stu-id="d937b-116">In the list, find the account that has the settled transaction.</span></span>
-5. <span data-ttu-id="d937b-117">Spustelėkite Visos operacijos.</span><span class="sxs-lookup"><span data-stu-id="d937b-117">Click All transactions.</span></span>
-6. <span data-ttu-id="d937b-118">Naudokite filtrą, kad galėtumėte sąraše lengvai rasti operaciją.</span><span class="sxs-lookup"><span data-stu-id="d937b-118">Use a filter to easily find the transaction in the list.</span></span>
-7. <span data-ttu-id="d937b-119">Spustelėkite DK sudengimai.</span><span class="sxs-lookup"><span data-stu-id="d937b-119">Click Ledger settlements.</span></span>
-8. <span data-ttu-id="d937b-120">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="d937b-120">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="dd3d6-113">Pasirinkite Didžioji knyga > Užklausos ir ataskaitos > Bandomasis balansas.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-113">Go to General ledger > Inquiries and reports > Trial balance.</span></span>
+2. <span data-ttu-id="dd3d6-114">Spustelėdami Parametrai atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-114">Click Parameters to open the drop dialog.</span></span>
+3. <span data-ttu-id="dd3d6-115">Spustelėkite Naujinti.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-115">Click Update.</span></span>
+4. <span data-ttu-id="dd3d6-116">Sąraše raskite sąskaitą, kurioje yra sudengta operacija.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-116">In the list, find the account that has the settled transaction.</span></span>
+5. <span data-ttu-id="dd3d6-117">Spustelėkite Visos operacijos.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-117">Click All transactions.</span></span>
+6. <span data-ttu-id="dd3d6-118">Naudokite filtrą, kad galėtumėte sąraše lengvai rasti operaciją.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-118">Use a filter to easily find the transaction in the list.</span></span>
+7. <span data-ttu-id="dd3d6-119">Spustelėkite DK sudengimai.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-119">Click Ledger settlements.</span></span>
+8. <span data-ttu-id="dd3d6-120">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="dd3d6-120">In the list, mark the selected row.</span></span>
 

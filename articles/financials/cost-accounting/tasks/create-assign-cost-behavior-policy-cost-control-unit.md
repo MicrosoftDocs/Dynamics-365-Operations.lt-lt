@@ -9,79 +9,79 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7b39b7649aaef0d354b61e3d70b6cac887282ed
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 16d9dceb4c2a22eab9a5ecb8501393444f20498b
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543892"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1841374"
 ---
-# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="90f19-103">Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui</span><span class="sxs-lookup"><span data-stu-id="90f19-103">Create and assign a cost behavior policy to a cost control unit</span></span>
+# <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a><span data-ttu-id="a8ed5-103">Kurti ir priskirti savikainos veikimo būdo strategiją savikainos kontrolės įtaisui</span><span class="sxs-lookup"><span data-stu-id="a8ed5-103">Create and assign a cost behavior policy to a cost control unit</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="90f19-104">Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų.</span><span class="sxs-lookup"><span data-stu-id="90f19-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="90f19-105">Kainos kontrolės įtaisui turi būti priskirta strategija ir atitinkamos taisyklės, kad strategija pasidarytų veiksminga.</span><span class="sxs-lookup"><span data-stu-id="90f19-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="90f19-106">Naudokite šią procedūrą norėdami sukurti strategiją, ir tada priskirkite strategiją išlaidų kontrolės įtaisui.</span><span class="sxs-lookup"><span data-stu-id="90f19-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
+<span data-ttu-id="a8ed5-104">Išlaidų taisyklė yra išlaidų klasifikavimas kaip fiksuotų arba kintamų.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-104">Cost behavior is the classification of costs as either fixed or variable.</span></span> <span data-ttu-id="a8ed5-105">Kainos kontrolės įtaisui turi būti priskirta strategija ir atitinkamos taisyklės, kad strategija pasidarytų veiksminga.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-105">A policy and the corresponding rules have to be assigned to a cost control unit for the policy to become effective.</span></span> <span data-ttu-id="a8ed5-106">Naudokite šią procedūrą norėdami sukurti strategiją, ir tada priskirkite strategiją išlaidų kontrolės įtaisui.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-106">Use this procedure to create a policy and then assign the policy to a cost control unit.</span></span>
 
 
-## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="90f19-107">Sukurkite išlaidų taisyklių hierarchiją</span><span class="sxs-lookup"><span data-stu-id="90f19-107">Create a cost behavior hierarchy</span></span>
-1. <span data-ttu-id="90f19-108">Eikite į Išlaidų apskaita > Dimensijos > Dimensijų hierarchijos.</span><span class="sxs-lookup"><span data-stu-id="90f19-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
-2. <span data-ttu-id="90f19-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-109">Click New.</span></span>
-3. <span data-ttu-id="90f19-110">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="90f19-110">Click Create.</span></span>
-4. <span data-ttu-id="90f19-111">Dimensijų hierarchijos pavadinimo lauke įveskite „Išlaidų taisyklės hierarchija“.</span><span class="sxs-lookup"><span data-stu-id="90f19-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
-5. <span data-ttu-id="90f19-112">Lauke Dimensija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-112">In the Dimension field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-113">Pasirinkite Savikainos elementai.</span><span class="sxs-lookup"><span data-stu-id="90f19-113">Select Cost elements.</span></span>  
-6. <span data-ttu-id="90f19-114">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="90f19-114">Click Save.</span></span>
-7. <span data-ttu-id="90f19-115">Spustelėkite Peržiūrėti hierarchiją.</span><span class="sxs-lookup"><span data-stu-id="90f19-115">Click View hierarchy.</span></span>
-8. <span data-ttu-id="90f19-116">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-116">Click New.</span></span>
-9. <span data-ttu-id="90f19-117">Lauke Mazgo pavadinimas įrašykite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-117">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="90f19-118">Įveskite Fiksuotą savikainą.</span><span class="sxs-lookup"><span data-stu-id="90f19-118">Enter Fixed cost.</span></span>  
-10. <span data-ttu-id="90f19-119">Medyje pasirinkite „Išlaidų taisyklės hierarchija“.</span><span class="sxs-lookup"><span data-stu-id="90f19-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
-11. <span data-ttu-id="90f19-120">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-120">Click New.</span></span>
-12. <span data-ttu-id="90f19-121">Lauke Mazgo pavadinimas įrašykite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-121">In the Node name field, type a value.</span></span>
-    * <span data-ttu-id="90f19-122">Įveskite Kintamą savikainą.</span><span class="sxs-lookup"><span data-stu-id="90f19-122">Enter Variable cost.</span></span>  
-13. <span data-ttu-id="90f19-123">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="90f19-123">Click Save.</span></span>
-14. <span data-ttu-id="90f19-124">Medyje pasirinkite „Cost behavior hierarchy\Fixed cost“.</span><span class="sxs-lookup"><span data-stu-id="90f19-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
-15. <span data-ttu-id="90f19-125">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-125">Click New.</span></span>
-16. <span data-ttu-id="90f19-126">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="90f19-126">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="90f19-127">Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-127">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-128">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="90f19-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-18. <span data-ttu-id="90f19-129">Lauke Dimensijų nariui įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-129">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-130">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="90f19-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-19. <span data-ttu-id="90f19-131">Medyje pasirinkite „Cost behavior hierarchy\Variable cost“.</span><span class="sxs-lookup"><span data-stu-id="90f19-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
-20. <span data-ttu-id="90f19-132">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-132">Click New.</span></span>
-21. <span data-ttu-id="90f19-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="90f19-133">In the list, mark the selected row.</span></span>
-22. <span data-ttu-id="90f19-134">Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-134">In the From dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-135">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="90f19-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-23. <span data-ttu-id="90f19-136">Lauke Dimensijų nariui įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-136">In the To dimension member field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-137">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="90f19-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
-24. <span data-ttu-id="90f19-138">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="90f19-138">Click Save.</span></span>
+## <a name="create-a-cost-behavior-hierarchy"></a><span data-ttu-id="a8ed5-107">Sukurkite išlaidų taisyklių hierarchiją</span><span class="sxs-lookup"><span data-stu-id="a8ed5-107">Create a cost behavior hierarchy</span></span>
+1. <span data-ttu-id="a8ed5-108">Eikite į Išlaidų apskaita > Dimensijos > Dimensijų hierarchijos.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-108">Go to Cost accounting > Dimensions > Dimension hierarchies.</span></span>
+2. <span data-ttu-id="a8ed5-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-109">Click New.</span></span>
+3. <span data-ttu-id="a8ed5-110">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-110">Click Create.</span></span>
+4. <span data-ttu-id="a8ed5-111">Dimensijų hierarchijos pavadinimo lauke įveskite „Išlaidų taisyklės hierarchija“.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-111">In the Dimension hierarchy name field, type 'Cost behavior hierarchy'.</span></span>
+5. <span data-ttu-id="a8ed5-112">Lauke Dimensija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-112">In the Dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-113">Pasirinkite Savikainos elementai.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-113">Select Cost elements.</span></span>  
+6. <span data-ttu-id="a8ed5-114">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-114">Click Save.</span></span>
+7. <span data-ttu-id="a8ed5-115">Spustelėkite Peržiūrėti hierarchiją.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-115">Click View hierarchy.</span></span>
+8. <span data-ttu-id="a8ed5-116">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-116">Click New.</span></span>
+9. <span data-ttu-id="a8ed5-117">Lauke Mazgo pavadinimas įrašykite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-117">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="a8ed5-118">Įveskite Fiksuotą savikainą.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-118">Enter Fixed cost.</span></span>  
+10. <span data-ttu-id="a8ed5-119">Medyje pasirinkite „Išlaidų taisyklės hierarchija“.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-119">In the tree, select 'Cost behavior hierarchy'.</span></span>
+11. <span data-ttu-id="a8ed5-120">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-120">Click New.</span></span>
+12. <span data-ttu-id="a8ed5-121">Lauke Mazgo pavadinimas įrašykite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-121">In the Node name field, type a value.</span></span>
+    * <span data-ttu-id="a8ed5-122">Įveskite Kintamą savikainą.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-122">Enter Variable cost.</span></span>  
+13. <span data-ttu-id="a8ed5-123">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-123">Click Save.</span></span>
+14. <span data-ttu-id="a8ed5-124">Medyje pasirinkite „Cost behavior hierarchy\Fixed cost“.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-124">In the tree, select 'Cost behavior hierarchy\Fixed cost'.</span></span>
+15. <span data-ttu-id="a8ed5-125">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-125">Click New.</span></span>
+16. <span data-ttu-id="a8ed5-126">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-126">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="a8ed5-127">Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-127">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-128">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-128">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+18. <span data-ttu-id="a8ed5-129">Lauke Dimensijų nariui įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-129">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-130">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-130">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+19. <span data-ttu-id="a8ed5-131">Medyje pasirinkite „Cost behavior hierarchy\Variable cost“.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-131">In the tree, select 'Cost behavior hierarchy\Variable cost'.</span></span>
+20. <span data-ttu-id="a8ed5-132">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-132">Click New.</span></span>
+21. <span data-ttu-id="a8ed5-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-133">In the list, mark the selected row.</span></span>
+22. <span data-ttu-id="a8ed5-134">Lauke Iš dimensijų nario įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-134">In the From dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-135">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-135">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+23. <span data-ttu-id="a8ed5-136">Lauke Dimensijų nariui įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-136">In the To dimension member field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-137">Dimensijos narių diapazone gali būti tarpų, tačiau nariai negali persidengti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-137">The range of dimension members can contain gaps, but the members cannot overlap.</span></span>  
+24. <span data-ttu-id="a8ed5-138">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-138">Click Save.</span></span>
 
-## <a name="create-the-policy-and-rules"></a><span data-ttu-id="90f19-139">Sukurkite strategiją ir taisykles</span><span class="sxs-lookup"><span data-stu-id="90f19-139">Create the policy and rules</span></span>
-1. <span data-ttu-id="90f19-140">Eikite į Išlaidų apskaita > Strategijos > Išlaidų taisyklės strategijos.</span><span class="sxs-lookup"><span data-stu-id="90f19-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
-2. <span data-ttu-id="90f19-141">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-141">Click New.</span></span>
-3. <span data-ttu-id="90f19-142">Lauke Strategijos pavadinimas įrašykite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-142">In the Policy name field, type a value.</span></span>
-4. <span data-ttu-id="90f19-143">Lauke Savikainos elementų dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-144">Pasirinkite savo ką tik sukurtą strategijos hierarchiją.</span><span class="sxs-lookup"><span data-stu-id="90f19-144">Select the policy hierarchy that you just created.</span></span>  
-5. <span data-ttu-id="90f19-145">Lauke Savikainos objekto dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-146">Pasirinkti organizaciją</span><span class="sxs-lookup"><span data-stu-id="90f19-146">Select Organization.</span></span>  
-6. <span data-ttu-id="90f19-147">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="90f19-147">Click Save.</span></span>
-7. <span data-ttu-id="90f19-148">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-148">Click New.</span></span>
-8. <span data-ttu-id="90f19-149">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="90f19-149">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="90f19-150">Lauke Savikainos elementų dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-151">Išplėskite hierarchiją, kad pasirinktumėte Kintamą savikainą.</span><span class="sxs-lookup"><span data-stu-id="90f19-151">Expand the hierarchy to select Variable cost.</span></span>  
-10. <span data-ttu-id="90f19-152">Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
-    * <span data-ttu-id="90f19-153">Numatytai kintamas procentas yra 100 procentų.</span><span class="sxs-lookup"><span data-stu-id="90f19-153">By default, the variable percentage is 100 percent.</span></span>  
-11. <span data-ttu-id="90f19-154">Spustelėkite Savikainos kontrolės įtaiso strategijos priskyrimai.</span><span class="sxs-lookup"><span data-stu-id="90f19-154">Click Policy assignments for cost control unit.</span></span>
-12. <span data-ttu-id="90f19-155">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="90f19-155">Click New.</span></span>
-13. <span data-ttu-id="90f19-156">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="90f19-156">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="90f19-157">Lauke Galioja nuo apskaitos datos įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="90f19-157">In the Valid from accounting date field, enter a date.</span></span>
-    * <span data-ttu-id="90f19-158">Taisyklės taikomos pagal datą, ir vartotojas arba sistema gali baigti taisyklės galiojimą, jei sukurta naujesnė versija.</span><span class="sxs-lookup"><span data-stu-id="90f19-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
-15. <span data-ttu-id="90f19-159">Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="90f19-159">In the Cost control unit field, enter or select a value.</span></span>
-16. <span data-ttu-id="90f19-160">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="90f19-160">Click Save.</span></span>
+## <a name="create-the-policy-and-rules"></a><span data-ttu-id="a8ed5-139">Sukurkite strategiją ir taisykles</span><span class="sxs-lookup"><span data-stu-id="a8ed5-139">Create the policy and rules</span></span>
+1. <span data-ttu-id="a8ed5-140">Eikite į Išlaidų apskaita > Strategijos > Išlaidų taisyklės strategijos.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-140">Go to Cost accounting > Policies > Cost behavior policies.</span></span>
+2. <span data-ttu-id="a8ed5-141">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-141">Click New.</span></span>
+3. <span data-ttu-id="a8ed5-142">Lauke Strategijos pavadinimas įrašykite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-142">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="a8ed5-143">Lauke Savikainos elementų dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-143">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-144">Pasirinkite savo ką tik sukurtą strategijos hierarchiją.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-144">Select the policy hierarchy that you just created.</span></span>  
+5. <span data-ttu-id="a8ed5-145">Lauke Savikainos objekto dimensijų hierarchija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-145">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-146">Pasirinkti organizaciją</span><span class="sxs-lookup"><span data-stu-id="a8ed5-146">Select Organization.</span></span>  
+6. <span data-ttu-id="a8ed5-147">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-147">Click Save.</span></span>
+7. <span data-ttu-id="a8ed5-148">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-148">Click New.</span></span>
+8. <span data-ttu-id="a8ed5-149">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-149">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="a8ed5-150">Lauke Savikainos elementų dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-150">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-151">Išplėskite hierarchiją, kad pasirinktumėte Kintamą savikainą.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-151">Expand the hierarchy to select Variable cost.</span></span>  
+10. <span data-ttu-id="a8ed5-152">Lauke Savikainos objekto dimensijų hierarchijos mazgas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-152">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="a8ed5-153">Numatytai kintamas procentas yra 100 procentų.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-153">By default, the variable percentage is 100 percent.</span></span>  
+11. <span data-ttu-id="a8ed5-154">Spustelėkite Savikainos kontrolės įtaiso strategijos priskyrimai.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-154">Click Policy assignments for cost control unit.</span></span>
+12. <span data-ttu-id="a8ed5-155">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-155">Click New.</span></span>
+13. <span data-ttu-id="a8ed5-156">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-156">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="a8ed5-157">Lauke Galioja nuo apskaitos datos įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-157">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="a8ed5-158">Taisyklės taikomos pagal datą, ir vartotojas arba sistema gali baigti taisyklės galiojimą, jei sukurta naujesnė versija.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-158">The rules are date-effective, and a user or the system can expire a rule if a newer version is created.</span></span>  
+15. <span data-ttu-id="a8ed5-159">Lauke Savikainos kontrolės įtaisas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-159">In the Cost control unit field, enter or select a value.</span></span>
+16. <span data-ttu-id="a8ed5-160">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a8ed5-160">Click Save.</span></span>
 

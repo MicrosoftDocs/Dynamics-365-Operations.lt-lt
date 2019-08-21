@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerPeriodCloseWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
@@ -18,39 +18,39 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23d4b9b070a48e1964ecd6896afe071b564d1194
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7eca533ed1621ec3507d8510f75842c0f0165275
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567265"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1839550"
 ---
-# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="bf514-103">DK uždarymas laikotarpio pabaigoje</span><span class="sxs-lookup"><span data-stu-id="bf514-103">Close the general ledger at period end</span></span>
+# <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="6fda4-103">DK uždarymas laikotarpio pabaigoje</span><span class="sxs-lookup"><span data-stu-id="6fda4-103">Close the general ledger at period end</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bf514-104">Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį.</span><span class="sxs-lookup"><span data-stu-id="bf514-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
+<span data-ttu-id="6fda4-104">Šioje temoje aprašomos užduotis, kurios paprastai atliekamos uždarant DK laikotarpį.</span><span class="sxs-lookup"><span data-stu-id="6fda4-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 
-<span data-ttu-id="bf514-105">Didžiojoje knygoje galite atlikti laikotarpio ar metų uždarymo procedūras.</span><span class="sxs-lookup"><span data-stu-id="bf514-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="bf514-106">Uždarymo procesai parengia sistemą naujam laikotarpui.</span><span class="sxs-lookup"><span data-stu-id="bf514-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="bf514-107">Norėdami parengti sistemą naujiems metams, turite paleisti uždarymo metų pabaigoje procesą.</span><span class="sxs-lookup"><span data-stu-id="bf514-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="bf514-108">Kiekviena organizacija turi skirtingus procesus ir veiksmus, kuriuos atlieka laikotarpio pabaigoje.</span><span class="sxs-lookup"><span data-stu-id="bf514-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="bf514-109">Štai keletas pasirinktinų veiksmų laikotarpio pabaigoje.</span><span class="sxs-lookup"><span data-stu-id="bf514-109">Here are some optional steps for period ends:</span></span>
+<span data-ttu-id="6fda4-105">Didžiojoje knygoje galite atlikti laikotarpio ar metų uždarymo procedūras.</span><span class="sxs-lookup"><span data-stu-id="6fda4-105">In General ledger, you can complete closing procedures for a period or a year.</span></span> <span data-ttu-id="6fda4-106">Uždarymo procesai parengia sistemą naujam laikotarpui.</span><span class="sxs-lookup"><span data-stu-id="6fda4-106">Closing processes prepare the system for a new period.</span></span> <span data-ttu-id="6fda4-107">Norėdami parengti sistemą naujiems metams, turite paleisti uždarymo metų pabaigoje procesą.</span><span class="sxs-lookup"><span data-stu-id="6fda4-107">To prepare the system for a new year, you must run the year end close process.</span></span> <span data-ttu-id="6fda4-108">Kiekviena organizacija turi skirtingus procesus ir veiksmus, kuriuos atlieka laikotarpio pabaigoje.</span><span class="sxs-lookup"><span data-stu-id="6fda4-108">Each organization has different processes and steps that it performs for the end of a period.</span></span> <span data-ttu-id="6fda4-109">Štai keletas pasirinktinų veiksmų laikotarpio pabaigoje.</span><span class="sxs-lookup"><span data-stu-id="6fda4-109">Here are some optional steps for period ends:</span></span>
 
--   <span data-ttu-id="bf514-110">Užbaikite visas užduotis visuose kituose moduliuose, pvz., Gautinos sumos, Mokėtinos sumos ir Atsargos.</span><span class="sxs-lookup"><span data-stu-id="bf514-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
--   <span data-ttu-id="bf514-111">Patikrinkite, ar visi žurnalai užregistruoti.</span><span class="sxs-lookup"><span data-stu-id="bf514-111">Verify that all journals are posted.</span></span>
--   <span data-ttu-id="bf514-112">Vykdykite užsienio valiutos kurso pasikeitimą, kad sugeneruotumėte negauto pelno ar nuostolio sumas.</span><span class="sxs-lookup"><span data-stu-id="bf514-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
--   <span data-ttu-id="bf514-113">Sudenkite kiekvienos DK sąskaitos operacijas.</span><span class="sxs-lookup"><span data-stu-id="bf514-113">Settle transactions for each ledger account.</span></span>
--   <span data-ttu-id="bf514-114">Vykdykite bet kokius reikiamus paskirstymus.</span><span class="sxs-lookup"><span data-stu-id="bf514-114">Process any required allocations.</span></span>
--   <span data-ttu-id="bf514-115">Neautomatiniu būdu registruokite laikotarpio pabaigos koregavimus.</span><span class="sxs-lookup"><span data-stu-id="bf514-115">Manually post period-end adjustments.</span></span>
--   <span data-ttu-id="bf514-116">Įtraukite operacijas į žurnalą ir peržiūrėkite ataskaitą **DK žurnalas**.</span><span class="sxs-lookup"><span data-stu-id="bf514-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
--   <span data-ttu-id="bf514-117">Atlikite konsolidavimą naudodami konsoliduojančią įmonę arba finansines ataskaitas.</span><span class="sxs-lookup"><span data-stu-id="bf514-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
--   <span data-ttu-id="bf514-118">Sugeneruokite laikotarpio pabaigos finansines ataskaitas srityje „Finansinės ataskaitos“.</span><span class="sxs-lookup"><span data-stu-id="bf514-118">Generate period-end financial statements by using Financial reporting.</span></span>
--   <span data-ttu-id="bf514-119">Nustatykite DK laikotarpių reikšmę **Sulaikyta**, kad nebūtų atliekamas joks kitas registravimas.</span><span class="sxs-lookup"><span data-stu-id="bf514-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="bf514-120">Taip pat galite riboti laikotarpį konkrečiai vartotojų grupei, kol vykdomi laikotarpio pabaigos veiksmai, siekiant geresnės kontrolės.</span><span class="sxs-lookup"><span data-stu-id="bf514-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="bf514-121">Nėra tikslinga nustatyti laikotarpių reikšmę **Uždaryta visam laikui**, nes uždaryto laikotarpio vėl atidaryti nebegalėsite.</span><span class="sxs-lookup"><span data-stu-id="bf514-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
+-   <span data-ttu-id="6fda4-110">Užbaikite visas užduotis visuose kituose moduliuose, pvz., Gautinos sumos, Mokėtinos sumos ir Atsargos.</span><span class="sxs-lookup"><span data-stu-id="6fda4-110">Complete all the tasks for all other modules, such as Accounts receivable, Accounts payable, and Inventory.</span></span>
+-   <span data-ttu-id="6fda4-111">Patikrinkite, ar visi žurnalai užregistruoti.</span><span class="sxs-lookup"><span data-stu-id="6fda4-111">Verify that all journals are posted.</span></span>
+-   <span data-ttu-id="6fda4-112">Vykdykite užsienio valiutos kurso pasikeitimą, kad sugeneruotumėte negauto pelno ar nuostolio sumas.</span><span class="sxs-lookup"><span data-stu-id="6fda4-112">Run foreign currency revaluation to generate any unrealized gain or loss amounts.</span></span>
+-   <span data-ttu-id="6fda4-113">Sudenkite kiekvienos DK sąskaitos operacijas.</span><span class="sxs-lookup"><span data-stu-id="6fda4-113">Settle transactions for each ledger account.</span></span>
+-   <span data-ttu-id="6fda4-114">Vykdykite bet kokius reikiamus paskirstymus.</span><span class="sxs-lookup"><span data-stu-id="6fda4-114">Process any required allocations.</span></span>
+-   <span data-ttu-id="6fda4-115">Neautomatiniu būdu registruokite laikotarpio pabaigos koregavimus.</span><span class="sxs-lookup"><span data-stu-id="6fda4-115">Manually post period-end adjustments.</span></span>
+-   <span data-ttu-id="6fda4-116">Įtraukite operacijas į žurnalą ir peržiūrėkite ataskaitą **DK žurnalas**.</span><span class="sxs-lookup"><span data-stu-id="6fda4-116">Journalize transactions, and review the **Ledger journal** report.</span></span>
+-   <span data-ttu-id="6fda4-117">Atlikite konsolidavimą naudodami konsoliduojančią įmonę arba finansines ataskaitas.</span><span class="sxs-lookup"><span data-stu-id="6fda4-117">Perform a consolidation by using a consolidation company or Financial reporting.</span></span>
+-   <span data-ttu-id="6fda4-118">Sugeneruokite laikotarpio pabaigos finansines ataskaitas srityje „Finansinės ataskaitos“.</span><span class="sxs-lookup"><span data-stu-id="6fda4-118">Generate period-end financial statements by using Financial reporting.</span></span>
+-   <span data-ttu-id="6fda4-119">Nustatykite DK laikotarpių reikšmę **Sulaikyta**, kad nebūtų atliekamas joks kitas registravimas.</span><span class="sxs-lookup"><span data-stu-id="6fda4-119">Set ledger periods to **On hold**, so that no further posting occurs.</span></span> <span data-ttu-id="6fda4-120">Taip pat galite riboti laikotarpį konkrečiai vartotojų grupei, kol vykdomi laikotarpio pabaigos veiksmai, siekiant geresnės kontrolės.</span><span class="sxs-lookup"><span data-stu-id="6fda4-120">You can also restrict a period to a specific user group while period-end activities are occurring, for better control.</span></span> <span data-ttu-id="6fda4-121">Nėra tikslinga nustatyti laikotarpių reikšmę **Uždaryta visam laikui**, nes uždaryto laikotarpio vėl atidaryti nebegalėsite.</span><span class="sxs-lookup"><span data-stu-id="6fda4-121">It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.</span></span>
 
-<span data-ttu-id="bf514-122">Darbo sritį Finansinio laikotarpio uždarymas galima naudoti norint organizuoti ir sekti užduotis, reikalingas įvairiems periodams ir procesams.</span><span class="sxs-lookup"><span data-stu-id="bf514-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
+<span data-ttu-id="6fda4-122">Darbo sritį Finansinio laikotarpio uždarymas galima naudoti norint organizuoti ir sekti užduotis, reikalingas įvairiems periodams ir procesams.</span><span class="sxs-lookup"><span data-stu-id="6fda4-122">The Financial period close workspace can be used to organize and track the tasks required for various period end processes.</span></span> 
 
 
-<span data-ttu-id="bf514-123">Daugiau informacijos žr. tolesnėse temose:</span><span class="sxs-lookup"><span data-stu-id="bf514-123">For more information, see the following topics for more information:</span></span>
-- [<span data-ttu-id="bf514-124">Finansinio laikotarpio uždarymo darbo sritis</span><span class="sxs-lookup"><span data-stu-id="bf514-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
-- [<span data-ttu-id="bf514-125">Uždarymas metų pabaigoje</span><span class="sxs-lookup"><span data-stu-id="bf514-125">Year end close</span></span>](Year-end-close.md)  
-- [<span data-ttu-id="bf514-126">Masinis finansinio laikotarpio uždarymas</span><span class="sxs-lookup"><span data-stu-id="bf514-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
+<span data-ttu-id="6fda4-123">Daugiau informacijos žr. tolesnėse temose:</span><span class="sxs-lookup"><span data-stu-id="6fda4-123">For more information, see the following topics for more information:</span></span>
+- [<span data-ttu-id="6fda4-124">Finansinio laikotarpio uždarymo darbo sritis</span><span class="sxs-lookup"><span data-stu-id="6fda4-124">Financial period close workspace</span></span>](financial-period-close-workspace.md) 
+- [<span data-ttu-id="6fda4-125">Uždarymas metų pabaigoje</span><span class="sxs-lookup"><span data-stu-id="6fda4-125">Year end close</span></span>](Year-end-close.md)  
+- [<span data-ttu-id="6fda4-126">Masinis finansinio laikotarpio uždarymas</span><span class="sxs-lookup"><span data-stu-id="6fda4-126">Mass financial period close</span></span>](tasks/mass-financial-period-close.md)
 
 
 

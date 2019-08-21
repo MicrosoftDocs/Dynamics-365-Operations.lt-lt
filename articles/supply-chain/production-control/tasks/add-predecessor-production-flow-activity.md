@@ -10,45 +10,45 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9acb1c2672af70f535f3dce1c8f5a97e8d479158
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 346dca110fde9ff7600f3e4606529c27289dfc97
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552304"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1838780"
 ---
-# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="d9d0b-103">Ankstesnės veiklos įtraukimas į gamybos eigos veiklą</span><span class="sxs-lookup"><span data-stu-id="d9d0b-103">Add a predecessor to a production flow activity</span></span>
+# <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="5516c-103">Ankstesnės veiklos įtraukimas į gamybos eigos veiklą</span><span class="sxs-lookup"><span data-stu-id="5516c-103">Add a predecessor to a production flow activity</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="d9d0b-104">Gamybos eigos versijoje visos veiklos turi būti įtrauktos seką.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="d9d0b-105">Veiklai gali būti priskiriama viena arba kelios ankstesnės ar vėlesnės veiklos.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-105">An activity can have one or multiple predecessors or successors.</span></span> 
+<span data-ttu-id="5516c-104">Gamybos eigos versijoje visos veiklos turi būti įtrauktos seką.</span><span class="sxs-lookup"><span data-stu-id="5516c-104">In a production flow version, all activities must be sequenced.</span></span> <span data-ttu-id="5516c-105">Veiklai gali būti priskiriama viena arba kelios ankstesnės ar vėlesnės veiklos.</span><span class="sxs-lookup"><span data-stu-id="5516c-105">An activity can have one or multiple predecessors or successors.</span></span> 
 
-<span data-ttu-id="d9d0b-106">Šioje procedūroje parodoma, kaip ankstesnę veiklą susieti su veikla.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
+<span data-ttu-id="5516c-106">Šioje procedūroje parodoma, kaip ankstesnę veiklą susieti su veikla.</span><span class="sxs-lookup"><span data-stu-id="5516c-106">This procedure shows how to associate a predecessor to an activity.</span></span> 
 
-<span data-ttu-id="d9d0b-107">Norint atlikti šią užduotį, jums reikalinga juodraščio versijos gamybos eiga su bent dviem veiklomis, kurias galima sujungti.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
+<span data-ttu-id="5516c-107">Norint atlikti šią užduotį, jums reikalinga juodraščio versijos gamybos eiga su bent dviem veiklomis, kurias galima sujungti.</span><span class="sxs-lookup"><span data-stu-id="5516c-107">To perform this task, you need a production flow that has the Draft version with at least two activities that can be connected.</span></span> 
 
-<span data-ttu-id="d9d0b-108">Norėdami sužinoti daugiau, skaitykite dokumentą „Lean manufacturing“ gamybos eigos ir veiklos“.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
+<span data-ttu-id="5516c-108">Norėdami sužinoti daugiau, skaitykite dokumentą „Lean manufacturing“ gamybos eigos ir veiklos“.</span><span class="sxs-lookup"><span data-stu-id="5516c-108">To learn more, read the white paper "Production flows and activities in lean manufacturing."</span></span>
 
 
-## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="d9d0b-109">Kaip rasti gamybos eigą ir versiją</span><span class="sxs-lookup"><span data-stu-id="d9d0b-109">Find the production flow and version</span></span>
-1. <span data-ttu-id="d9d0b-110">Pasirinkite Gamybos kontrolė > Nustatymai > „Lean“ gamybos eiga > Gamybos eigos.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
-2. <span data-ttu-id="d9d0b-111">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-111">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="d9d0b-112">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-112">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="d9d0b-113">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-113">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="d9d0b-114">Spustelėkite Veiklos.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-114">Click Activities.</span></span>
+## <a name="find-the-production-flow-and-version"></a><span data-ttu-id="5516c-109">Kaip rasti gamybos eigą ir versiją</span><span class="sxs-lookup"><span data-stu-id="5516c-109">Find the production flow and version</span></span>
+1. <span data-ttu-id="5516c-110">Pasirinkite Gamybos kontrolė > Nustatymai > „Lean“ gamybos eiga > Gamybos eigos.</span><span class="sxs-lookup"><span data-stu-id="5516c-110">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="5516c-111">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="5516c-111">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="5516c-112">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="5516c-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="5516c-113">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="5516c-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="5516c-114">Spustelėkite Veiklos.</span><span class="sxs-lookup"><span data-stu-id="5516c-114">Click Activities.</span></span>
 
-## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="d9d0b-115">Veiklos pasirinkimas ir ankstesnės veiklos įtraukimas</span><span class="sxs-lookup"><span data-stu-id="d9d0b-115">Select an activity and add a predecessor</span></span>
-1. <span data-ttu-id="d9d0b-116">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-116">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="d9d0b-117">Spustelėkite Įtraukti ankstesnę veiklą.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-117">Click Add predecessor.</span></span>
-3. <span data-ttu-id="d9d0b-118">Lauke Veikla įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-118">In the Activity field, enter or select a value.</span></span>
-4. <span data-ttu-id="d9d0b-119">Lauke Ciklo laiko koeficientas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-119">In the Cycle time ratio field, enter a number.</span></span>
-    * <span data-ttu-id="d9d0b-120">Numatytasis veiklos ryšio ciklo laiko koeficientas yra 1.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="d9d0b-121">Tai reiškia, kad abi veiklos yra vykdomos tuo pačiu tempu ir jų vieneto gamybos laikai sutampa.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="d9d0b-122">Jei ankstesnė veikla vykdoma didesniu tempu (trumpesnis vieneto gamybos laikas), koeficientas turėtų būti mažesnis už 1, jei ankstesnė veikla vykdoma mažesniu tempu (ilgesnis vieneto gamybos laikas), ciklo laiko koeficientas yra didesnis už 1.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
-5. <span data-ttu-id="d9d0b-123">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="d9d0b-123">Click OK.</span></span>
+## <a name="select-an-activity-and-add-a-predecessor"></a><span data-ttu-id="5516c-115">Veiklos pasirinkimas ir ankstesnės veiklos įtraukimas</span><span class="sxs-lookup"><span data-stu-id="5516c-115">Select an activity and add a predecessor</span></span>
+1. <span data-ttu-id="5516c-116">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="5516c-116">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="5516c-117">Spustelėkite Įtraukti ankstesnę veiklą.</span><span class="sxs-lookup"><span data-stu-id="5516c-117">Click Add predecessor.</span></span>
+3. <span data-ttu-id="5516c-118">Lauke Veikla įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="5516c-118">In the Activity field, enter or select a value.</span></span>
+4. <span data-ttu-id="5516c-119">Lauke Ciklo laiko koeficientas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="5516c-119">In the Cycle time ratio field, enter a number.</span></span>
+    * <span data-ttu-id="5516c-120">Numatytasis veiklos ryšio ciklo laiko koeficientas yra 1.</span><span class="sxs-lookup"><span data-stu-id="5516c-120">The default cycle time ratio of an activity relation is 1.</span></span> <span data-ttu-id="5516c-121">Tai reiškia, kad abi veiklos yra vykdomos tuo pačiu tempu ir jų vieneto gamybos laikai sutampa.</span><span class="sxs-lookup"><span data-stu-id="5516c-121">This assumes that both activities run at the same pace or takt time.</span></span> <span data-ttu-id="5516c-122">Jei ankstesnė veikla vykdoma didesniu tempu (trumpesnis vieneto gamybos laikas), koeficientas turėtų būti mažesnis už 1, jei ankstesnė veikla vykdoma mažesniu tempu (ilgesnis vieneto gamybos laikas), ciklo laiko koeficientas yra didesnis už 1.</span><span class="sxs-lookup"><span data-stu-id="5516c-122">If the predecessor runs at a higher pace (lower takt time), the ratio should be lower than 1, if the predecessor runs at a slower pace (higher takt time) the cycle time ratio is greater than 1.</span></span>  
+5. <span data-ttu-id="5516c-123">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="5516c-123">Click OK.</span></span>
 

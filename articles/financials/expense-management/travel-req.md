@@ -10,27 +10,27 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e69cf1112dcb4fd31c79592bf0d7a2ecd4a21adf
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 16675a8ed6d011644a20d92b24ec4d2f8f6f13d6
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547984"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1794937"
 ---
-# <a name="travel-requisitions"></a><span data-ttu-id="5bc31-104">Kelionių paraiškos</span><span class="sxs-lookup"><span data-stu-id="5bc31-104">Travel requisitions</span></span>
+# <a name="travel-requisitions"></a><span data-ttu-id="ec88c-104">Kelionių paraiškos</span><span class="sxs-lookup"><span data-stu-id="ec88c-104">Travel requisitions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5bc31-105">*Kelionės paraiška* yra šaltinio dokumentas su išvardytomis išlaidomis, kurios bus patirtos keliaujant.</span><span class="sxs-lookup"><span data-stu-id="5bc31-105">A *travel requisition* is a source document that lists the expenses that will be incurred for the purpose of travel.</span></span> <span data-ttu-id="5bc31-106">Kelionės paraiška yra pateikiama peržiūrėti ir tada gali būti naudojama įgalioti išlaidas.</span><span class="sxs-lookup"><span data-stu-id="5bc31-106">A travel requisition is submitted for review and can then be used to authorize expenses.</span></span>
+<span data-ttu-id="ec88c-105">*Kelionės paraiška* yra šaltinio dokumentas su išvardytomis išlaidomis, kurios bus patirtos keliaujant.</span><span class="sxs-lookup"><span data-stu-id="ec88c-105">A *travel requisition* is a source document that lists the expenses that will be incurred for the purpose of travel.</span></span> <span data-ttu-id="ec88c-106">Kelionės paraiška yra pateikiama peržiūrėti ir tada gali būti naudojama įgalioti išlaidas.</span><span class="sxs-lookup"><span data-stu-id="ec88c-106">A travel requisition is submitted for review and can then be used to authorize expenses.</span></span>
 
-<span data-ttu-id="5bc31-107">Jūsų organizacija gali reikalauti, kad kelionės paraiška būtų pateikiama prieš darbuotojams patiriant bet kokias išlaidas, priskiriamas organizacijai.</span><span class="sxs-lookup"><span data-stu-id="5bc31-107">Your organization might require that a travel requisition be submitted before employees incur any expense that is charged to the organization.</span></span> <span data-ttu-id="5bc31-108">Šis reikalavimas taikomas neatsižvelgiant į tai, ar darbuotojas išlaidas apmoka įmonės kredito kortele, leidžia avansu gautus grynuosius pinigus ar išlaidas apmoka pats, o šią sumą kompensuoja organizacija.</span><span class="sxs-lookup"><span data-stu-id="5bc31-108">This requirement applies, regardless of whether employees charge expenses to a corporate credit card, spend cash that they received from a cash advance, or incur out-of-pocket expenses that will be reimbursed by the organization.</span></span>
+<span data-ttu-id="ec88c-107">Jūsų organizacija gali reikalauti, kad kelionės paraiška būtų pateikiama prieš darbuotojams patiriant bet kokias išlaidas, priskiriamas organizacijai.</span><span class="sxs-lookup"><span data-stu-id="ec88c-107">Your organization might require that a travel requisition be submitted before employees incur any expense that is charged to the organization.</span></span> <span data-ttu-id="ec88c-108">Šis reikalavimas taikomas neatsižvelgiant į tai, ar darbuotojas išlaidas apmoka įmonės kredito kortele, leidžia avansu gautus grynuosius pinigus ar išlaidas apmoka pats, o šią sumą kompensuoja organizacija.</span><span class="sxs-lookup"><span data-stu-id="ec88c-108">This requirement applies, regardless of whether employees charge expenses to a corporate credit card, spend cash that they received from a cash advance, or incur out-of-pocket expenses that will be reimbursed by the organization.</span></span>
 
-<span data-ttu-id="5bc31-109">Naudojant kelionių paraiškas ir strategijas, galima lengviau kontroliuoti biudžetą.</span><span class="sxs-lookup"><span data-stu-id="5bc31-109">Travel requisitions and policies can be used to help with budget control.</span></span> <span data-ttu-id="5bc31-110">Pavyzdžiui, jei jūsų organizacija dirba su fiksuotos kainos projektu, kurio metu reikia keliauti, projekto komandos narių kelionių išlaidos turi tilpti į projekto biudžetą.</span><span class="sxs-lookup"><span data-stu-id="5bc31-110">For example, if your organization is working on a fixed-price project that requires travel, the travel expenses of the project's team members must fit within the budget for the project.</span></span> <span data-ttu-id="5bc31-111">Reikalaudama, kad kelionių išlaidos būtų patvirtinamos prieš jas patiriant, organizacija gali lengviau užtikrinti, kad nebus viršytas projekto biudžetas.</span><span class="sxs-lookup"><span data-stu-id="5bc31-111">By requiring that travel expenses be approved before they are incurred, the organization can help make sure that the project remains within budget.</span></span>
+<span data-ttu-id="ec88c-109">Naudojant kelionių paraiškas ir strategijas, galima lengviau kontroliuoti biudžetą.</span><span class="sxs-lookup"><span data-stu-id="ec88c-109">Travel requisitions and policies can be used to help with budget control.</span></span> <span data-ttu-id="ec88c-110">Pavyzdžiui, jei jūsų organizacija dirba su fiksuotos kainos projektu, kurio metu reikia keliauti, projekto komandos narių kelionių išlaidos turi tilpti į projekto biudžetą.</span><span class="sxs-lookup"><span data-stu-id="ec88c-110">For example, if your organization is working on a fixed-price project that requires travel, the travel expenses of the project's team members must fit within the budget for the project.</span></span> <span data-ttu-id="ec88c-111">Reikalaudama, kad kelionių išlaidos būtų patvirtinamos prieš jas patiriant, organizacija gali lengviau užtikrinti, kad nebus viršytas projekto biudžetas.</span><span class="sxs-lookup"><span data-stu-id="ec88c-111">By requiring that travel expenses be approved before they are incurred, the organization can help make sure that the project remains within budget.</span></span>
 
-<span data-ttu-id="5bc31-112">Kelionių paraiškų strategijas galite nustatyti puslapyje **Kelionės paraiška**.</span><span class="sxs-lookup"><span data-stu-id="5bc31-112">You can set up policies for travel requisitions from the **Travel requisition** page.</span></span>
+<span data-ttu-id="ec88c-112">Kelionių paraiškų strategijas galite nustatyti puslapyje **Kelionės paraiška**.</span><span class="sxs-lookup"><span data-stu-id="ec88c-112">You can set up policies for travel requisitions from the **Travel requisition** page.</span></span>
