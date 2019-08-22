@@ -3,14 +3,14 @@ title: Kas nauja ar pasikeitė
 description: Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations“ versijose.
 author: josaw1
 manager: AnnBe
-ms.date: 06/14/2019
+ms.date: 08/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 42c31195a0b1a785afadfefc33f5cf7e1a6fce1f
-ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
+ms.openlocfilehash: 300db1170a9dbb6a83dd628c0430e03d7746fe53
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/14/2019
-ms.locfileid: "1632010"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863444"
 ---
 # <a name="whats-new-or-changed"></a>Kas nauja ar pasikeitė
 
@@ -46,17 +46,24 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 <th>Paleisti</th>
 <th>Versija</th>
 <th>Versijos numeris</th>
-<th>Prieinamumas</th>
+<th>Esamumas</th>
 <th>Sužinokite daugiau</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>„Microsoft Dynamics 365 for Finance and Operations“</td>
+<td>10.0.5</td>
+<td>10.0.197</td>
+<td>Spalio 2019 d.</td>
+<td><a href="whats-new-changed-10-0-5.md">Peržiūros funkcijos Dynamics 365 for Finance and Operations 10.0.5 versijoje (2019 m. spalio mėn.)</a></td>
+</tr>
+<tr>
+<td>„Microsoft Dynamics 365 for Finance and Operations“</td>
 <td>10.0.4</td>
 <td>10.0.136</td>
 <td>2019 m. liepos mėn.</td>
-<td><a href="whats-new-changed-10-0-4.md">Peržiūros funkcijos „Dynamics 365 for Finance and Operations“ 10.0.4 versijoje (2019 m. liepos mėn.)</a></td>
+<td><a href="whats-new-changed-10-0-4.md">Kas nauja ar pasikeitė Dynamics 365 for Finance and Operations 10.0.4 versijoje (2019 m. liepos mėn.)</a></td>
 </tr>
 <tr>
 <td>„Microsoft Dynamics 365 for Finance and Operations“</td>
@@ -166,17 +173,24 @@ Informacijos, kaip atnaujinti į naujausią versiją, rasite [Naujinimo į nauja
 <th>Paleisti</th>
 <th>Versija</th>
 <th>Versijos numeris</th>
-<th>Prieinamumas</th>
+<th>Esamumas</th>
 <th>Sužinokite daugiau</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>„Microsoft Dynamics 365 for Finance and Operations“</td>
+<td>Platformos „update 29“</td>
+<td>7.0.5372</td>
+<td>Spalio 2019 d.</td>
+<td><a href="whats-new-platform-update-29.md">Peržiūros funkcijos Dynamics 365 for Finance and Operations 29 platformos naujinime (2019 m. spalio mėn.)</a></td>
+</tr>
+<tr>
+<td>„Microsoft Dynamics 365 for Finance and Operations“</td>
 <td>Platformos „update 28“</td>
 <td>7.0.5314</td>
 <td>2019 m. liepos mėn.</td>
-<td><a href="whats-new-platform-update-28.md">Peržiūros funkcijos „Dynamics 365 for Finance and Operations“ 28 platformos naujinime (2019 m. liepos mėn.)</a></td>
+<td><a href="whats-new-platform-update-28.md">Kas nauja ar pasikeitė Dynamics 365 for Finance and Operations Platform Update 28“ (2019 m. liepos mėn.)</a></td>
 </tr>
 <tr>
 <td>„Microsoft Dynamics 365 for Finance and Operations“</td>

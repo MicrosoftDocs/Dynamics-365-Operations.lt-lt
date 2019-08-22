@@ -9,18 +9,18 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
-ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
+ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624316"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849337"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -59,19 +59,22 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |      Balandžio 2019          |   10.0.1      |    Rusija     |Transporto mokesčio deklaracijos pakeitimai nuo 2019 m.  |
 |      Balandžio 2019            |   10.0.1      | Vengrija      |  Vengrija: internetinių sąskaitų išrašymas v.1.1 2019 m. naudojant „Microsoft Dynamics 365 for Finance and Operations“  |
 |      Gegužės 2019            |   10.0.2      | Brazilija      |   SPED ECD 7 maketas   |
-|      Laukiama            |   10.0.3      | Brazilija      |   NF-e naujas NT 2018.005 - v. 1.20   |
-|      Laukiama            |   10.0.3      | Brazilija      |   SPED ECD 7 maketas   |
-|      Laukiama            |   10.0.3      | Brazilija      |   SPED ECF - 5 maketas 2019 m.   |
-|      Laukiama            |   10.0.3      | Lietuva    |   i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais    |
-|      Laukiama            |   10.0.3      | Lenkija     |   SAF sąskaitos faktūros (JPK_FA) v.2 nuo 2019 m. liepos 1 d.  |
-|      Laukiama            |   10.0.3      | Brazilija   |   ICMS finansinio dokumento koregavimų įgalinimo lentelė 5.2   |
-|      Laukiama            |   10.0.3      | Brazilija    |   NF-e dekretas 54.308/18 (RS)   |
-  | Laukiama            |   10.0.4      | Brazilija    |   66 gaunamas finansinis dokumentas   |
-   | Laukiama            |   10.0.4      | Brazilija    |   NF-e ir NFC-e – Sprendimas 13/2019 ir Nutarimas SUCIEF 55/2019- RJ – naujos NF-e neapmokestinimo žymių išvesties sąlygos.   |
-   | Laukiama            |   10.0.4      | Indija   |   Reikšmių „Tiekimo vieta“ ir „Būsena“ rodymas GST mokesčio SF  |
-   | Laukiama            |   10.0.4      | Meksika   |  DIOT trečiosios šalies deklaracija – išdėstymo pakeitimai 2019 m.   |
-   | Laukiama            |   10.0.4      | Brazilija    |   NF-e ICMS-ST – nutarimas CAT 42/18, skirtas SP būsenai – CAT 42/18
-   | Laukiama            |   10.0.4      | Brazilija    |   NF-e dekretas 54.308/18 – RS NF   |
+|      2019 m. birželio mėn.            |   10.0.3      | Brazilija      |   NF-e naujas NT 2018.005 - v. 1.20   |
+|      2019 m. birželio mėn.            |   10.0.3      | Brazilija      |   SPED ECD 7 maketas   |
+|      2019 m. birželio mėn.            |   10.0.3      | Brazilija      |   SPED ECF - 5 maketas 2019 m.   |
+|      2019 m. birželio mėn.            |   10.0.3      | Lietuva    |   i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais    |
+|      2019 m. birželio mėn.            |   10.0.3      | Lenkija     |   SAF sąskaitos faktūros (JPK_FA) v.2 nuo 2019 m. liepos 1 d.  |
+|      2019 m. birželio mėn.            |   10.0.3      | Brazilija   |   ICMS finansinio dokumento koregavimų įgalinimo lentelė 5.2   |
+|      2019 m. birželio mėn.            |   10.0.3      | Brazilija    |   NF-e dekretas 54.308/18 (RS)   |
+  | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   66 gaunamas finansinis dokumentas   |
+   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   NF-e ir NFC-e – Sprendimas 13/2019 ir Nutarimas SUCIEF 55/2019- RJ – naujos NF-e neapmokestinimo žymių išvesties sąlygos.   |
+   | 2019 m. liepos mėn.            |   10.0.4      | Indija   |   Reikšmių „Tiekimo vieta“ ir „Būsena“ rodymas GST mokesčio SF  |
+   | 2019 m. liepos mėn.            |   10.0.4      | Meksika   |  DIOT trečiosios šalies deklaracija – išdėstymo pakeitimai 2019 m.   |
+   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   NF-e ICMS-ST – nutarimas CAT 42/18, skirtas SP būsenai – CAT 42/18
+   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   NF-e dekretas 54.308/18 – RS NF   |
+       | Laukiama            |   10.0.5      | Brazilija    |   „Sped“ įnašų praktinis vadovas 1.31. naujos naudojimo instrukcijos   |
+         | Laukiama            |   10.0.5      | Brazilija    |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.00 versija   |
+          | Laukiama            |   10.0.5      | Ispanija    |   Tikrinimo taisyklės keičiasi nuo 2019 m. spalio 1 d.   |
    
 
 

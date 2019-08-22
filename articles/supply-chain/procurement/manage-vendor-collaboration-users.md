@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 520dcaa1eec3c0fb8aa72fc7f75a56622069881f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d0644372944b4c9d472ff738258665544fccbad4
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555066"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742475"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Tiekėjo bendradarbiavimo vartotojų valdymas
 
@@ -65,7 +65,7 @@ Prieš teikiant užklausą vartotojui konfigūruoti, tas asmuo turi būti nustat
 4. Skyriuje **Priskirti vartotojų vaidmenis** pažymėkite tų saugos vaidmenų, kuriuos reikia priskirti naujam vartotojui, žymės langelį **Priskirti**.
 5. Spustelėkite **Pateikti**.
 
-Kai su tiekėju susijusio vartotojo užklausa pateikta, nustatoma pasirinkto tiekėjo kodo lauko **Tiekėjo bendradarbiavimo prieiga leidžiama** parinktis **Taip** ir pradedama vartotojo užklausos darbo eiga. Darbo eigos metu „Finance and Operations“ sukuriamas naujas vartotojas ir priskiriami saugos vaidmenys. Be to, suaktyvinama „Azure B2B“ tarnyba, kuri inicijuoja sąveiką su „Azure“ portalu ir naują arba esamą ADD paskyrą susieja su „Finance and Operations“ vartotojo paskyra. Norėdami gauti daugiau informacijos, žr. [Kas yra „Azure AD“ B2B bendradarbiavimas?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Kai su tiekėju susijusio vartotojo užklausa pateikta, nustatoma pasirinkto tiekėjo kodo lauko **Tiekėjo bendradarbiavimo prieiga leidžiama** parinktis **Taip** ir pradedama vartotojo užklausos darbo eiga. Darbo eigos metu „Finance and Operations“ sukuriamas naujas vartotojas ir priskiriami saugos vaidmenys. Be to, suaktyvinama „Azure B2B“ tarnyba, kuri inicijuoja sąveiką su „Azure“ portalu ir naują arba esamą ADD paskyrą susieja su „Finance and Operations“ vartotojo paskyra. Norėdami gauti daugiau informacijos, žr. [Kas yra „Azure AD“ B2B bendradarbiavimas?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Vartotojo išaktyvinimas
 

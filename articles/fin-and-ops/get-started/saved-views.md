@@ -3,13 +3,12 @@ title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
 manager: AnnBe
-ms.date: 06/05/2019
+ms.date: 08/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,17 +16,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: ea2f2dbd615480bb76e1d04a106ae69bf6f45f4b
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
+ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620783"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863065"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
 [!include [banner](../includes/banner.md)]
-[!include [private preview banner](../includes/private-preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Įžanga
 Personalizavimas atlieka svarbų vaidmenį, kadangi vartotojai ir organizacijos gali pagal savo poreikius optimizuoti „Microsoft Dynamics 365 for Finance and Operations“ vartotojo patirtį. Daugiau informacijos apie personalizavimą žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md).
@@ -49,7 +48,7 @@ Rodinių išrinkiklių esama dviejų dydžių.
 
 -   **Dideli rodinių išrinkikliai**: puslapių, kuriuose aiškiai esama sąrašo, rodinių išrinkiklis bus didesnis dėl kelių priežasčių. Svarbiausia nepamiršti, kad didesnis rodinių išrinkiklis reiškia tai, kad puslapių rodiniai gali apimti vartotojo nustatytus filtrus. Kadangi į rodinius įtraukti filtrai, didesnio dydžio išrinkiklis reikalingas ir todėl, kad rodinio pavadinimai dažnai yra geriausias ekrane rodomų duomenų aprašymas ir tikimasi, kad šio tipo puslapiuose vartotojai dažniau perjungs rodinius.  
  
--   **Maži rodinių išrinkikliai**: visose kitose per visą puslapį pateikiamose formose yra mažesnis rodinių išrinkiklis, kuris rodomas šalia puslapio antraštės. Šių puslapių rodiniai apima tik personalizavimus (o ne vartotojo nustatytus filtrus). Šiuose puslapiuose formos antraštė arba įrašo pavadinimas dažnai yra svarbiausia informacija, esanti formos viršuje. Mažesnis dydis taip pat reiškia mažesnį tikėtiną šių puslapių rodinių perjungimo dažnumą. 
+-   **Small view selectors**: Visose kitose viso puslapio formose (išskyrus darbo sritis ir informacijos suvestinę) yra mažesnis rodmenų parinkiklis, rodomas šalia puslapio antraštės. Šių puslapių rodiniai apima tik personalizavimus (o ne vartotojo nustatytus filtrus). Šiuose puslapiuose formos antraštė arba įrašo pavadinimas dažnai yra svarbiausia informacija, esanti formos viršuje. Mažesnis dydis taip pat reiškia mažesnį tikėtiną šių puslapių rodinių perjungimo dažnumą. 
  
 Spustelėjus rodinio pavadinimą, atidaromas rodinių išrinkiklis ir rodomas galimų šio puslapio rodinių sąrašas
 
@@ -107,7 +106,7 @@ Naudojant įrašytų rodinių funkciją, organizacijos personalizavimų valdymas
 Naudodamosi publikavimo galimybe organizacijos gali apibrėžti standartinius savo verslui optimizuotus įmonės rodinius, skirtus konkrečius saugos vaidmenis turintiems vartotojams.  
 
 ## <a name="publishing-views"></a>Rodinių publikavimas
-Publikavimo proceso metu rodiniams galima priskirti vieną ar kelis saugos vaidmenis, o tai reiškia, kad visi tą vaidmenį turintys vartotojai turės prieigą prie to rodinio ir galės juo naudotis, nors rodinio redaguoti negalės. Šiuo metu rodinių išrinkiklio išplečiamajame meniu teisę atlikti veiksmą **Publikuoti** turi tik sistemos administratoriai.  
+Publikavimo proceso metu rodiniams galima priskirti vieną ar kelis saugos vaidmenis, o tai reiškia, kad visi tą vaidmenį turintys vartotojai turės prieigą prie to rodinio ir galės juo naudotis, nors rodinio redaguoti negalės. Šiuo metu tik sistemos administratoriai turi teisę atlikti rodinio išrinkiklio išplečiamojo meniu veiksmą **Publish**, tačiau naujas saugos vaidmuo, kuriuo publikavimo teisės galės būti suteikiamos kitiems patikrintiems vartotojams, bus pridėtas būsimame atnaujinime.  
 
 Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus. 
 1.  Sukurkite ir įrašykite norimo publikuoti rodinio asmeninę kopiją. 
@@ -150,12 +149,17 @@ Visi šiame dialogo lange atlikti pakeitimai įsigalios pasirinkus mygtuką **Į
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje? 
-Norėdamas įgalinti įrašytus rodinius, sistemos administratorius turi atlikti toliau nurodytus veiksmus. 
-1.  Naudodamasis naršymo ieška eiti į puslapį **Personalizavimas**. 
-2.  Pasirinkti skirtuką **Parametrai**.
-3.  Parinktį **Įjungti įrašytus rodinius** nustatyti kaip **Taip**.
+Norėdami aktyvuoti įrašytus rodinius, kai funkcija veikia peržiūros režimu, atlikite toliau nurodytus veiksmus: 
 
-Įjungus šią funkciją, visi paskesni vartotojo seansai pradedami įjungus rodinius.  
+1.  **Enable the flight**: Vykdykite šį SQL teiginį: 
+
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+
+2.  **Find the feature**: nueikite į **Feature management** darbo sritis. Jei **Įrašyti rodiniai** neatsiranda sąraše, spustelėkite mygtuką **Tikrinti, ar nėra atnaujinimų**.   
+
+3.  **Enable the feature**: Funkcijų sąraše raskite funkciją **Saved views** ir išsamios informacijos srityje spustelėkite mygtuką **Enable now**.
+
+Visi vėlesni vartotojo seansai prasidės įjungus įrašytuosius rodinius.  
 
 Atkreipkite dėmesį, kad jei aplinkos personalizavimas išjungtas, rodiniai bus įjungti, net jei atliksite pirmiau nurodytus veiksmus. Taip yra todėl, kad rodinių funkcija sukurta kaip personalizavimo posistemės papildas.
 
@@ -179,4 +183,4 @@ Yra keletas priežasčių, kodėl gali nepavykti su rodiniu įrašyti filtro.
      
   Tokiais atvejais įkeliant rodinį turėtų būti rodomas įspėjantis informacinis pranešimas. Taip pat galite patvirtinti įjungdami šį rodinį įsikėlus puslapiui, nes tokiu atveju užklausa vis tiek galėtų būti vykdoma.  
 
-- Minėtame puslapyje gali būti netinkamai palaikomi rodiniai, nes gali būti visiškai nepaisoma rodinio užklausos. Praneškite apie tokius atvejus naudodami mechanizmą **Atsiliepimai**. Norėdami pasiekti atsiliepimų puslapį, spustelėkite **Žinynas ir palaikymo centras**, o paskui – **Atsiliepimai**.  
+- Reikiamame puslapyje rodiniai gali būti palaikomi netinkamai, kadangi rodinio užklausa gali būti visiškai nepaisoma arba veikti laikinoje lentelėje, kurios duomenys nėra pastovūs. 

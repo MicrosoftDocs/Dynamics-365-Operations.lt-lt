@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: margoc
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: f6074906dc77f17d10cc2fb94a4ded7cb8b32f14
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595690"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850956"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -39,7 +39,7 @@ Dabar „Microsoft Dynamics 365 for Finance and Operations“ galite diegti debe
 
 Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižvelgti į tolesnius dalykus.
 
-- Reguliaciniai ir atitikties reikalavimai, kurių nėra [debesies sertifikatuose](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- Reguliaciniai ir atitikties reikalavimai, kurių nėra debesies sertifikatuose
 - Atjungtas verslo procesas esant kintamam interneto ryšiui, kurio reikia norint pasiekti „Microsoft Dynamics Lifecycle Services“ (LC), kad būtų galima valdyti programų gyvavimo ciklą
 - [Vietinėse visuotinėse įdiegtyse šiuo metu neįdiegtos funkcijos](features-not-implemented-on-prem.md)
 - [Minimalūs infrastruktūros reikalavimai](system-requirements-on-prem.md#minimum-infrastructure-requirements)

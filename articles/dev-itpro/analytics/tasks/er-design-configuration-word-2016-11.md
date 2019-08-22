@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd138fb5fea4098a862fbecba5e8ec226ed6afa9
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551522"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850308"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu
 
@@ -64,7 +64,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadov
     * Be to, norėdami išsaugoti konfigūracijos pakeitimus, atlikite veiksmą Įrašyti, kuriuo taip pat atnaujinamas pridėtas „Word” šablonas. Sukurto formato struktūra perkeliama į pridėtą „Word” dokumentą kaip nauja pasirinktinė XML dalis, kurios pavadinimas „Ataskaita“. Atminkite, kad pridėtame „Word” šablone yra ne tik dokumento maketas, kurį norime sugeneruoti kaip ER išvestį, bet ir duomenų struktūra, kuri apdorojimo metu ER perkels į šį šabloną.  
 2. Spustelėkite Priedai.
     * Dabar turite susieti pasirinktinės XML dalies „Ataskaita“ elementus su „Word” dokumento dalimis.  
-    * Jei esate susipažinę su „Word“ dokumentais, kurie gali būti sukurti kaip formos, turinčios su pasirinktinių XML dalių elementais susietų turinio valdiklių, paleiskite visus kitos papildomos užduoties veiksmus, kad sukurtumėte tokį dokumentą. Norėdami gauti daugiau informacijos, žr. šią nuorodą https://support.office.com/en-us/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Priešingu atveju praleiskite visus kitos papildomos užduoties veiksmus.  
+    * Jei esate susipažinę su „Word“ dokumentais, kurie gali būti sukurti kaip formos, turinčios su pasirinktinių XML dalių elementais susietų turinio valdiklių, paleiskite visus kitos papildomos užduoties veiksmus, kad sukurtumėte tokį dokumentą. Norėdami gauti daugiau informacijos, žr. šią nuorodą https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b?ui=en-US&rs=en-US&ad=US. Priešingu atveju praleiskite visus kitos papildomos užduoties veiksmus.  
 
 ## <a name="get-word-with-custom-xml-part-to-do-data-bindings"></a>Norėdami gauti „Word“ dokumentą su pasirinktine XML dalimi, susiekite duomenis
     * Atidarykite šį dokumentą programa „Word“ ir atlikite tokius veiksmus: - atidarykite skirtuką „Word“ kūrėjas (pritaikykite juostelę, jei dar neįjungta);  - pasirinkite XML susiejimo sritį;  - peržvalgos sąraše pasirinkite pasirinktinę XML dalį „Ataskaita“;  - pasirinktos pasirinktinės XML dalies elementus susiekite su „Word“ dokumento turinio valdikliais;  - atnaujintą „Word” dokumentą įrašykite į vietinį diską.  

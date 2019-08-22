@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 553a4a5d25e126923576569b48414c46aab991ec
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702800"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1842694"
 ---
 # <a name="cash-overview-power-bi-content"></a>„Power BI“ turinys Grynųjų pinigų apžvalga
 
@@ -40,7 +40,7 @@ Reikia atlikti toliau nurodytą sąranką, kad duomenys būtų rodomi **Grynųj�
 1. Eikite į **Sistemos administravimas > Sąranka > Sistemos parametrai** ir nustatykite **Sistemos valiuta** ir **Sistemos valiutos kursas**.
 2. Norėdami nustatyti parinktis **Apskaitos valiuta** ir **Valiutos kurso tipas** eikite į **Didžioji knyga > Sąranka >DK**.
 2. Nurodykite valiutos kursus tarp operacijos valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos, apskaitos valiutos ir banko valiutų. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
-3. Sukonfigūruokite ir vykdykite grynųjų pinigų srautų prognozavimą. Daugiau informacijos, kaip nustatyti grynųjų pinigų srautų prognozavimą, žr. <a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+3. Sukonfigūruokite ir vykdykite grynųjų pinigų srautų prognozavimą. Daugiau informacijos, kaip nustatyti grynųjų pinigų srautų prognozavimą, žr. <a href="https://docs.microsoft.com/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
 ">Grynųjų pinigų srautų prognozavimas</a>. 
 4. Norėdami atnaujinti agreguotą matavimo vienetą **LedgerCovLiquidityMeasurement**, eikite į **Sistemos administravimas > Sąranka > Objektų saugykla**.
 

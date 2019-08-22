@@ -3,25 +3,25 @@ title: Nustatyti įsigijimo kategorijų hierarchijų strategijas
 description: Naudokite šią procedūrą norėdami nustatyti taisykles užsisakyti produktų kategorijoje.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, SysPolicy, ProcCategoryAccessPolicyRule, ProcCategoryPolicyRule, EcoResCategorySingleLookup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1fdf357466de12bd0188fc43cd266c67af762c7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 230794eacd5e9911496dd3826f08126cc21494cb
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569919"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1844182"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Nustatyti įsigijimo kategorijų hierarchijų strategijas
 
@@ -31,31 +31,24 @@ Naudokite šią procedūrą norėdami nustatyti taisykles užsisakyti produktų 
 
 
 ## <a name="find-the-procurement-policy"></a>Rasti įsigijimo strategiją
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > Sąranka > Strategijos > Pirkimo strategijos.
-2. Spustelėkite įsigijimo strategijos USMF strategijos saitą.
-    * Tai yra strategija, į kurią įtrauksite į taisyklę. Tai turi būti aktyvi strategija.  
+1. Pasirinkite **Modules > Procurement and sourcing > Setup > Policies > Purchasing policies**.
+2. Spustelėkite įsigijimo strategijos USMF strategijos saitą. Tai yra strategija, į kurią įtrauksite į taisyklę. Tai turi būti aktyvi strategija.  
 
 ## <a name="create-a-category-access-rule"></a>Sukurti kategorijos prieigos taisyklę
-1. Pasirinkite kategorijos prieigos strategijos taisyklę.
-    * Jei mygtukas Kurti strategijos taisyklę patamsintas, taip yra todėl, kad jau yra aktyvi kategorijos prieigos strategijos taisyklė. Patikrinkite laukus Įsigaliojimo data ir Galiojimo data, kad nustatytumėte, kuri tai strategijos taisyklė, tada pasirinkite jį ir spustelėkite Naikinti strategijos taisyklę. Jei mygtuką Kurti strategijos taisyklę galima naudoti, jums nereikia atlikti jokių veiksmų.  
-2. Spustelėkite Kurti strategijos taisyklę.
-3. Lauke Įsigaliojimo data įveskite datą ir laiką.
-    * Laikas turi negali sutapti su kita jau suaktyvinta taisykle.  
-    * Pasirinkite kategoriją, kuriai bus taikoma taisyklė. Pasižymėkite, kuri tai kategorija, nes jos reikės vėliau. Pasirinkus kategoriją, jos pirminė kategorija arba kategorijos taip pat įtraukiamos į sąrašą Pasirinktos kategorijos.  
-    * Pažymėkite žymės langelį Įtraukti subkategorijas, norėdami taisyklę taikyti visoms pasirinktos kategorijos subkategorijoms.  
-4. Spustelėkite Pridėti.
-    * Jei parinktį Įtraukti pirminę taisyklę nustatysite į Taip, strategijos taisyklė, kurią nustatote pirminei kategorijai, taip priskiriama jos antrinėms kategorijoms, jei antrinėms kategorijoms nenurodytos strategijos taisyklės.  
-5. Spustelėkite GERAI.
+1. Išplėskite dalį **Policy rules**.
+2. Sąraše **Strategijos taisyklės tipas** pasirinkite **Kategorijos prieigos strategijos taisyklė**. Jei mygtukas **Create policy rule** patamsintas, taip yra todėl, kad jau yra aktyvi kategorijos prieigos strategijos taisyklė. Patikrinkite laukus **Effective** data ir **Expiration**data, kad nustatytumėte, kuri tai strategijos taisyklė, tada pasirinkite jį ir spustelėkite **Retire policy rule**. Jei mygtuką **Create policy rule** galima naudoti, jums nereikia atlikti jokių veiksmų.  
+3. Spustelėkite **Create policy rule**.
+4. Lauke **Effective date** įveskite datą ir laiką. Laikas turi negali sutapti su kita jau suaktyvinta taisykle.  
+5. Pasirinkite kategoriją, kuriai bus taikoma taisyklė. Pasižymėkite, kuri tai kategorija, nes jos reikės vėliau. Pasirinkus kategoriją, jos pirminė kategorija arba kategorijos taip pat įtraukiamos į sąrašą Pasirinktos kategorijos. Pažymėkite žymės langelį **Include subcategories**, norėdami taisyklę taikyti visoms pasirinktos kategorijos subkategorijoms.
+6. Spustelėkite dešiniąją rodyklę, kad pridėtumėte prie sąrašo **Selected categories**.  
+4. Spustelėkite **Gerai**. Jei parinktį **Include parent rule** nustatysite į Taip, strategijos taisyklė, kurią nustatote pirminei kategorijai, taip priskiriama jos antrinėms kategorijoms, jei antrinėms kategorijoms nenurodytos strategijos taisyklės.
 
 ## <a name="create-a-category-policy-rule"></a>Sukurti kategorijos strategijos taisyklę
-1. Pasirinkti kategorijos strategijos taisyklę
-    * Jei mygtukas Kurti strategijos taisyklę patamsintas, pasirinkite aktyvią strategijos taisyklę ir tada spustelėkite Panaikinti strategijos taisyklę.  
-2. Spustelėkite Kurti strategijos taisyklę.
-3. Lauke Įsigaliojimo data įveskite datą ir laiką.
-4. Spustelėkite Pridėti.
-5. Pasirinkite tą pačią kategoriją, kurią naudojote nustatydami kategorijos prieigos taisyklę.
-6. Lauke Tiekėjo pasirinkimas pasirinkite parinktį.
-    * Pasirinkite taisyklę, norėdami valdyti, kokius kategorijos tiekėjus galima pasirinkti kuriant paraiškas.  
-7. Spustelėkite Uždaryti.
-    * Jūsų nustatytos strategijos taisyklės taikomos tipo Suvartojimas paraiškoms. Jei norite nustatyti strategijas tipo Papildymas paraiškoms, kurkite taisyklę, skirtą strategijos taisyklės tipui, kuris vadinamas „Papildymo kategorijos prieigos strategijos taisyklė“.  
+1. Sąraše **Strategijos taisyklės tipas** pasirinkite **Kategorijos strategijos taisyklė**. Jei mygtukas **Create policy rule** patamsintas, pasirinkite aktyvią strategijos taisyklę ir tada spustelėkite **Retire policy rule**.  
+2. Spustelėkite **Create policy rule**.
+3. Lauke **Effective date** įveskite datą ir laiką.
+4. Spustelėkite **Pridėti**.
+5. Pasirinkite tą pačią kategoriją **Category **, kurią naudojote nustatydami kategorijos prieigos taisyklę **Category access rule**.
+6. Lauke **Vendor selection**pasirinkite parinktį. Pasirinkite taisyklę, norėdami valdyti, kokius kategorijos tiekėjus galima pasirinkti kuriant paraiškas.  
+7. Spustelėkite **Uždaryti**. Jūsų nustatytos strategijos taisyklės taikomos tipo Suvartojimas paraiškoms. Jei norite nustatyti strategijas tipo Papildymas paraiškoms, kurkite taisyklę, skirtą strategijos taisyklės tipui, kuris vadinamas „Papildymo kategorijos prieigos strategijos taisyklė“.  
 

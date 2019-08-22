@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702777"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835147"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ Kredito ir mokėjimų priežiūros valdymas
 
@@ -72,4 +72,4 @@ Kad duomenys būtų rodomi **Klientų kredito ir mokėjimų priežiūra** „Pow
 | Mokėjimų priežiūros būsena          | <ul><li>Užginčyta</li><li>Pažadas sumokėti sulaužytas</li><li>Pažadas sumokėti</li><li>Informacija apie mokėjimų priežiūros būseną</li><li>Mokėjimų priežiūros būsenos sumos</li><li>Atviri atvejai</li><li>Atvira veikla</li></ul> |
 | Priminimo laiškai         | <ul><li>Priminimo laiško kodo sumos</li><li>Priminimo laiško kodo sumos informacija</li><li>Priminimo laiško suma pagal įmonę</li><li>Priminimo laiško suma pagal klientų grupę</li><li>Priminimo laiško suma pagal regioną</li></ul> |
 
-Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Norėdami eksportuoti vizualiai apibendrintus pagrindinius duomenis, taip pat galite naudoti pagrindinių duomenų eksportavimo funkciją.
+Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Norėdami eksportuoti vizualiai apibendrintus pagrindinius duomenis, taip pat galite naudoti pagrindinių duomenų eksportavimo funkciją.

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551844"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863729"
 ---
 # <a name="modify-row-definition-cells"></a>Eilučių apibrėžčių langelių modifikavimas
 
@@ -402,7 +402,7 @@ Langelyje **Saitas su finansinėmis dimensijomis** pateikiamos nuorodos į finan
 2. Dukart spustelėkite langelį stulpelyje **Saitas su finansinėmis dimensijomis**.
 3. Dialogo lange **Dimensijos** dukart spustelėkite dimensijos pavadinimo langelį.
 4. Dimensijos dialogo lange pasirinkite **Atskira ar intervalas**.
-5. Lauke **Nuo** įveskite pradžios dimensiją arba spustelėkite ![Naršyti](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Naršyti") ir ieškokite galimų dimensijų. Norėdami įvesti dimensijų intervalą, lauke **Iki** įveskite pabaigos dimensiją.
+5. Lauke **Nuo** įveskite pradžios dimensiją arba spustelėkite ![Naršyti](media/browse.gif "Naršyti") ir ieškokite galimų dimensijų. Norėdami įvesti dimensijų intervalą, lauke **Iki** įveskite pabaigos dimensiją.
 6. Spustelėkite **Gerai** ir uždarykite dimensijos dialogo langą. Dialogo lange **Dimensijos** rodoma atnaujinta dimensija arba intervalas.
 7. Spustelėkite **Gerai** ir uždarykite dialogo langą **Dimensijos**.
 
@@ -479,7 +479,7 @@ Toliau pateikiamoje lentelėje aprašomi dialogo lango **Dimensijos** laukai.
 
 | Prekė                | Prekės/Paslaugos pavadinimas |
 |---------------------|-------------|
-| Atskira reikšmė arba intervalas | Lauke **Nuo** įveskite sąskaitos pavadinimą arba spustelėkite mygtuką **Naršyti** ![Naršyti](https://i-technet.sec.s-msft.com/dynimg/IC679490.gif "Naršyti") ir ieškokite sąskaitos. Norėdami pasirinkti intervalą, įveskite reikšmę arba ieškokite jos lauke **Iki**. |
+| Atskira reikšmė arba intervalas | Lauke **Nuo** įveskite sąskaitos pavadinimą arba spustelėkite mygtuką **Naršyti** ![Naršyti](media/browse.gif "Naršyti") ir ieškokite sąskaitos. Norėdami pasirinkti intervalą, įveskite reikšmę arba ieškokite jos lauke **Iki**. |
 | Dimensijų reikšmių rinkinys | Lauke **Pavadinimas** įveskite dimensijų reikšmių rinkinio pavadinimą. Norėdami kurti, modifikuoti, kopijuoti arba panaikinti rinkinį, spustelėkite **Dimensijų reikšmių rinkinių tvarkymas**. Lauke **Formulė** pateikiama formulė iš langelio **Saitas su finansinėmis dimensijomis**, skirta šiam eilutės aprašo dimensijų reikšmių rinkiniui. |
 | Sąskaitų sumavimas   | Lauke **Pavadinimas** įveskite sumavimo sąskaitų dimensiją arba ieškokite jos. Lauke **Formulė** pateikiama langelio **Saitas su finansinėmis dimensijomis** formulė, skirta ataskaitos aprašo sumavimo sąskaitai. |
 

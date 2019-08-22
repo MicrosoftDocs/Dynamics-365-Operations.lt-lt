@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dffe6e41ef99ca7e5ca8f9a67b26b69151026f35
-ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
+ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
+ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624912"
+ms.lasthandoff: 08/05/2019
+ms.locfileid: "1863388"
 ---
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
@@ -40,10 +40,32 @@ ms.locfileid: "1624912"
 
 > Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
 
-## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>„Dynamics 365 for Finance and Operations 10.0.4“ su „Platform Update 28“
+## <a name="dynamics-365-for-finance-and-operations-1005-with-platform-update-29"></a>„Dynamics 365 for Finance and Operations 10.0.5“ su „Platform Update 29“
 
 > [!IMPORTANT]
-> „Dynamics 365 for Finance and Operations 10.0.4“ su „Platform Update 28“ teikiamas tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](../../fin-and-ops/get-started/public-preview-releases.md).
+> „Dynamics 365 for Finance and Operations 10.0.5“ su „Platform Update 29“ teikiamas tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="us-payroll-tax-updates"></a>JAV algalapių mokesčių atnaujinimai
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Mes šaliname JAV algalapių mokesčių atnaujinimus dėl mažo naudojimo ir patobulintos funkcijos, kuri dabar siūloma per strateginę integraciją.  |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Algalapis |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama. Nebenaudojama: iki 2021 m. spalio 1 planuojame daugiau nebeteikti mokesčių atnaujinimų JAV algalapių klientams. Funkcija išliks produkte, tačiau patobulinimai daugiau nebeatnaujins šios funkcijos ir bet kokie produkto defektai bus vertinami kiekvienu konkrečiu atveju. Norėdami gauti daugiau informacijos žr. [„Mokesčių atnaujinimai šalinami iš JAV algalapių funkcijos“ temoje Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+
+
+### <a name="data-management-staging-clean-up"></a>Duomenų valdymo išdėstymo valymas
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Neatitinka pagrindinių reikalavimų, kurių reikia planuojant periodinį valymą. |
+| **Pakeitė kita funkcija?**   | Taip, užduočių retrospektyvos valymo funkcija yra įtraukiama, kad holistiškai atitiktų scenarijus. |
+| **Paveiktos produkto sritys**         | Duomenų valdymas |
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Nebenaudojama. Tikslinis funkcijos pašalinimo laikotarpis – 2020 m. gruodžio mėn. |
+
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>„Dynamics 365 for Finance and Operations 10.0.4“ su „Platform Update 28“
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Prancūzija: FEC apskaitos duomenų eksportavimas XML formatu
 
@@ -1235,7 +1257,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="virtual-company-accounts"></a>Virtualios įmonės
 
-Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](https://msdn.microsoft.com/en-us/library/aa834382(v=ax.10).aspx). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
+Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
 
 |   |  | 
 |------------|--------------------|

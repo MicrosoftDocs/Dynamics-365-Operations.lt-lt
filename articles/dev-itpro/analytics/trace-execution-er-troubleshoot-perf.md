@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
-ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
+ms.openlocfilehash: 7ec16bea1e4f7685f95178f848ba7348a06c31f3
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "1703880"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741508"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -104,7 +104,7 @@ Tarkime, kad baigėte kurti pirmąją ER sprendimo versiją. Dabar norite ją pa
 ### <a id='import-configuration'></a>ER konfigūracijos importavimas iš RCS į „Finance and Operations“
 
 1. Prisijunkite prie savo „Finance and Operations“ egzemplioriaus.
-2. Dirbdami su šia mokymo programa, konfigūracijas importuosite iš savo RCS egzemplioriaus (kuriame kuriate savo ER komponentus) į savo „Finance and Operations“ egzempliorių (kuriame jas tikrinate ir galiausiai naudojate). Todėl turite įsitikinti, kad paruošti visi reikiami artefaktai. Instrukcijas rasite procedūroje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Dirbdami su šia mokymo programa, konfigūracijas importuosite iš savo RCS egzemplioriaus (kuriame kuriate savo ER komponentus) į savo „Finance and Operations“ egzempliorių (kuriame jas tikrinate ir galiausiai naudojate). Todėl turite įsitikinti, kad paruošti visi reikiami artefaktai. Instrukcijas rasite procedūroje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
 3. Atlikę toliau nurodytus veiksmus importuokite konfigūracijas iš RCS į „Finance and Operations“.
 
     1. Darbo srityje **Elektroninės ataskaitos** konfigūracijos tiekėjui **„Litware, Inc.“** skirtoje plytelėje pasirinkite **Saugyklos**.

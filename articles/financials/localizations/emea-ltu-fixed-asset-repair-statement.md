@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 262724
 ms.search.region: Lithuania
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b51d2ab3beae242967502841c2167c163f37dd76
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 444909be3e0abdc602b08a41421ef731f53ce0ce
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549070"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852464"
 ---
 # <a name="fixed-asset-repair-statement-for-lithuania"></a>Ilgalaikio turto remonto išrašas, skirtas Lietuvai
 

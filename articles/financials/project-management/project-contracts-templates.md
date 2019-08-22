@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: be23b99ddc224328cf067fe0bf36be93fcef4337
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561467"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1846043"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Tiesioginis „Project Service Automation“ projekto sutarčių ir projektų sinchronizavimas su „Finance and Operations“
 
@@ -94,8 +94,8 @@ Taikant integravimo iš „Project Service Automation“ į „Finance and Opera
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
 
 - Norint sinchronizuoti projekto sutartis ir projektus, būtina sinchronizuoti sąskaitas.
-- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_organizationalunits** susiejimą su lauku **msdyn\_name \[Name\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
-- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_projects** susiejimą su lauku **msdynce\_projectnumber \[Project Number\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_organizationalunits** susiejimą su lauku **msdyn\_name \[Name\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+- Savo ryšio rinkinyje įtraukite integravimo rakto lauko **msdyn\_projects** susiejimą su lauku **msdynce\_projectnumber \[Project Number\]**. Pirmiausia į ryšių rinkinį gali prireikti įtraukti projektą. Daugiau informacijos rasite [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 - Galima atnaujinti projekto sutarčių ir projektų **SourceDataID** vertę arba pašalinti iš susiejimo. Numatytoji šablono vertė yra **„Project Service Automation“**.
 - Būtina atnaujinti susiejimą **PaymentTerms**, kad jis atitiktų galimas „Finance and Operations“ mokėjimo sąlygas. Taip pat galite pašalinti susiejimą iš projekto užduoties. Numatytosios vertės susiejimui priskirtos numatytosios demonstracinių duomenų vertės. Toliau pateikiamoje lentelėje nurodomos „Project Service Automation“ vertės.
 

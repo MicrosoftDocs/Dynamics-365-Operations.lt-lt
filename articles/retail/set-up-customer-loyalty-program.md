@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 94f8cf5b5753c530c42327e251a2102b876c1c8a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
+ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606877"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1863777"
 ---
 # <a name="loyalty-overview"></a>Lojalumo apžvalga
 
@@ -83,15 +83,15 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
     > [!NOTE]
     > Uždarbio taisyklės lojalumo plane yra papildomos. Pavyzdžiui, jei sukuriate taisyklę atlyginti auksinės pakopos nariui 10 taškų už kiekvieną JAV dolerį, taip pat sukuriate taisyklę atlyginti klientui „veteranui“ 5 taškais už kiekvieną JAV dolerį, tada veteranas, kuris taip pat yra auksinės pakopos narys, už 1 JAV dolerį gaus 15 taškų, nes klientas atitinka abi eilutes. Tačiau jei klientas veteranas nebuvo auksinės pakopos narys, tada už kiekvieną dolerį gautų 5 taškus. Kad pokyčiai įsigaliotų kanaluose, vykdykite užduotis **Apdoroti lojalumo planus** ir **1050** (lojalumo informacija).
     
-    ![Uždarbis pagal priskyrimą](./media/Affiliation%20based%20earning.png "Uždarbis pagal priskyrimą")
+    ![Uždarbis pagal priskyrimą](./media/Affiliation-based-earning.png "Uždarbis pagal priskyrimą")
 
 - Mažmenininkai dažnai turi specialias kainas tam tikrai klientų grupei, kuriai nenori taikyti lojalumo programų. Pavyzdžiui, didmenininkams arba darbuotojams, kurie gauna specialias kainas, bet negauna lojalumo taškų. Paprastai „priskyrimai“ yra naudojami specialioms kainoms tokių klientų grupėms suteikti. Norėdamas apriboti tam tikrų klientų grupių galimybę gauti lojalumo taškų, mažmenininkas gali nustatyti vieną arba daugiau priskyrimų lojalumo plano skyriuje **Neįtraukti priskyrimai**. Tada, kai neįtrauktiems priskyrimams priklausantys klientai yra lojalumo plano nariai, jie negaus lojalumo taškų už savo pirkinius. Kad pokyčiai įsigaliotų kanaluose, vykdykite užduotis **Apdoroti lojalumo planus** ir **1050** (lojalumo informacija).
 
-    ![Neįtraukti priskyrimai](./media/Excluded%20affiliations.png "Pašalinti priskyrimus, kad nebūtų duodama lojalumo taškų")
+    ![Neįtraukti priskyrimai](./media/Excluded-affiliations.png "Pašalinti priskyrimus, kad nebūtų duodama lojalumo taškų")
     
 - Mažmenininkai gali kanaluose generuoti lojalumo kortelių numerius. Iki 2018 m. spalio mėn. naujinimo mažmenininkai galėjo naudoti fizines lojalumo korteles arba sugeneruoti lojalumo kortelę naudodami unikalią kliento informaciją, pvz., telefono numerį. Norėdami įgalinti automatinį lojalumo kortelių generavimą mažmeninės prekybos parduotuvėse, įjunkite **Generuoti lojalumo kortelės numerį** su parduotuve susietame funkcijų profilyje. Interneto kanaluose mažmenininkai gali naudoti IssueLoyaltyCard API norėdami išduoti lojalumo korteles klientams. Mažmenininkai gali suteikti lojalumo kortelės numerį šiai API, kuris bus naudojamas generuojant lojalumo kortelę, arba sistema naudos lojalumo kortelių numeraciją, nustatytą „Dynamics 365 for Retail“. Tačiau jei numeracijos nėra ir mažmenininkas nesuteikia lojalumo kortelės numerio iškvietus API, tada rodoma klaida.
 
-    ![Generuoti lojalumo kortelę](./media/Generate%20loyalty%20card.png "Automatiškai sugeneruoti lojalumo kortelės numerį")
+    ![Generuoti lojalumo kortelę](./media/Generate-loyalty-card.png "Automatiškai sugeneruoti lojalumo kortelės numerį")
 
 - Gauti ir panaudoti lojalumo taškai dabar saugomi kiekvienai operacijai ir pardavimo užsakymams pagal pardavimo eilutę, kad tą pačią sumą būtų galima grąžinti arba atsiimti visiškų ar dalinių grąžinimų atvejais. Be to, matydami taškus pardavimo eilutės lygiu, skambučių centro vartotojai gali atsakyti į klientų klausimus, kiek taškų gauta arba panaudota kiekvienoje eilutėje. Iki šio pakeitimo atlygio taškai visada buvo perskaičiuojami grąžinant, todėl suma skirdavosi nuo originalios, jei uždarbio arba apmokėjimo taisyklės pasikeisdavo; be to, skambučių centrų vartotojai nemato taškų analizės. Taškus galima pamatyti naudojant kiekvienos lojalumo kortelės formą **Kortelės operacijos**. Norėdami įjungti šią funkciją, įjunkite konfigūraciją **Registruoti lojalumo taškų skaičius pagal pardavimo eilutę** skirtuke **Bendrinami mažmeninės prekybos parametrai** \> **Bendra**.
 
@@ -100,26 +100,26 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
 
 - Mažmenininkai dabar gali nustatyti kiekvieno atlygio taško paskirstymo laikotarpį. Paskirstymo laikotarpio konfigūracija nustatys trukmę nuo gavimo datos, po kurios atlygio taškai taps pasiekiami klientams. Nepaskirstytus taškus galima peržiūrėti puslapio **Lojalumo kortelės** stulpelyje **Nepaskirstyti taškai**. Be to, mažmenininkai gali nustatyti didžiausią lojalumo atlygio taškų ribą kiekvienai lojalumo kortelei. Šį lauką galima naudoti norint sumažinti lojalumo apgaulės poveikį. Pasiekus didžiausią atlygio taškų skaičių, vartotojas negali gauti daugiau taškų. Mažmenininkas gali nuspręsti blokuoti tokias korteles, kol bus ištirta galima apgaulė. Jei mažmenininkas nustato apgaulę, jis negali tik užblokuoti kliento lojalumo kortelės, bet turi ir pažymėti, kad klientas užblokuotas. Norėdami tai padaryti nustatykite ypatybę **Blokuoti kliento įtraukimą į lojalumo programą** į **Taip** „FastTab“ **Retail** dalyje **Visi klientai**. Užblokuoti klientai negalės gauti lojalumo kortelės jokiais kanalais.
 
-    ![Paskirstymo ir didžiausio atlygio taškų skaičius](./media/Vesting%20and%20maximum%20reward%20points.png "Nustatyti paskirstymo ir didžiausio atlygio taškus")
+    ![Paskirstymo ir didžiausio atlygio taškų skaičius](./media/Vesting-and-maximum-reward-points.png "Nustatyti paskirstymo ir didžiausio atlygio taškus")
 
 - Priskyrimai naudojami siekiant suteikti specialias kainas ir nuolaidas, tačiau pasitaiko priskyrimų, kurių mažmenininkai nenori rodyti klientams. Pvz., priskyrimas pavadinimu „Daug išleidžiantis klientas“ gali patikti ne visiems klientams. Be to, yra priskyrimų, kurie neturi būti tvarkomi parduotuvėje, pvz., darbuotojai, nes nenorite, kad kasininkai nuspręstų, kas yra darbuotojas, ir taip suteiktų darbuotojams skirtas nuolaidas. Dabar mažmenininkai gali pasirinkti priskyrimus, kurie mažmeninės prekybos kanaluose turėtų būti paslėpti. Priskyrimų, kurie pažymėti **Slėpti kanaluose**, negalima peržiūrėti, pridėti arba pašalinti EKA. Tačiau produktams vis tiek bus taikomos kainos ir nuolaidos, susijusios su priskyrimu.
 
-    ![Slėpti priskyrimus](./media/Hide%20affiliations.png "Slėpti priskyrimus kanaluose")
+    ![Slėpti priskyrimus](./media/Hide-affiliations.png "Slėpti priskyrimus kanaluose")
     
 - Skambučių centro vartotojai dabar gali lengviau ieškoti kliento naudodami savo lojalumo kortelės informaciją ir pasiekti kliento lojalumo kortelę bei kortelės operacijų puslapį iš puslapio **Klientų aptarnavimas**.
 
-    ![Klientų aptarnavimas](./media/Customer%20service.png "Rasti kliento lojalumo informaciją")
+    ![Klientų aptarnavimas](./media/Customer-service.png "Rasti kliento lojalumo informaciją")
     
 - Jei lojalumo kortelė sugadinama, reikia sugeneruoti pakaitinę kortelę ir į ją perkelti esamus taškus. Pakaitinės kortelės srautas šiame leidime yra supaprastintas. Be to, klientai gali dalį arba visus savo lojalumo taškus padovanoti draugams ir šeimai. Kai taškai perkeliami, kiekvienai lojalumo kortelei sukuriami taškų koregavimo įrašai. Pakaitinės kortelės ir perkėlimo balanso funkciją galima pasiekti iš puslapio **Lojalumo kortelės**.
 
-    ![Pakeisti ir perkelti taškus](./media/Replace%20and%20transfer%20points.png "Pakeisti lojalumo kortelę arba perkelti balansą")
+    ![Pakeisti ir perkelti taškus](./media/Replace-and-transfer-points.png "Pakeisti lojalumo kortelę arba perkelti balansą")
     
 - Mažmenininkai gali norėti užfiksuoti konkretaus kanalo efektyvumą registruodami klientus į lojalumo programą. Išsaugomas lojalumo kortelių registracijos šaltinis, kad mažmenininkai galėtų sukurti šių duomenų ataskaitas. Registracijų šaltinis yra automatiškai užfiksuojamas visoms MPOS/CPOS arba „e-Commerce“ kanalais išduotoms lojalumo kortelėms. Kad lojalumo kortelės būtų išduotos naudojant tarnybinio biuro programą, skambučių centro vartotojas gali pasirinkti atitinkamą kanalą.
 - Ankstesniuose leidimuose mažmenininkai galėjo naudoti MPOS/CPOS norėdami panaudoti klientų lojalumo taškus parduotuvėje. Tačiau šiuose leidimuose, kadangi lojalumo balansas rodomas lojalumo taškais, kasininkas negalėdavo pamatyti valiutos vertės sumos, kuri galėjo būti taikoma dabartinei operacijai. Kasininkas prieš suteikdamas lojalumo taškus turėjo konvertuoti juos į valiutą. Dabartiniame leidime, kai eilutės pridedamos prie operacijos, kasininkas gal matyti sumą, kurią lojalumo taškai gali padengti dabartinėje operacijoje, todėl lengva operacijai pritaikyti dalį arba visus lojalumo taškus. Be to, kasininkas gali matyti taškus, kurie baigs galioti po 30 dienų, kad galėtų papildomai parduoti ar pritaikyti kryžminį pardavimą ir taip motyvuoti klientą išleisti baigiančius galioti taškus tai operacijai.
 
-    ![Taškai, kuriuos apima lojalumo balansas](./media/Points%20covered%20by%20loyalty%20balance.png "Rodyti lojalumo taškų apimamą balansą")
+    ![Taškai, kuriuos apima lojalumo balansas](./media/Points-covered-by-loyalty-balance.png "Rodyti lojalumo taškų apimamą balansą")
 
-    ![Baigiantys galioti taškai](./media/Expiring%20points.png "Peržiūrėti baigiančius galioti taškus")
+    ![Baigiantys galioti taškai](./media/Expiring-points.png "Peržiūrėti baigiančius galioti taškus")
 
 - Išleidę 8.1.3 leidimą mes įjungėme parinktį „mokėjimas pagal lojalumą“ skambučių centro kanale. Norėdami įjungti šią parinktį, sukurkite lojalumo mokėjimo priemonės tipą ir susiekite jį su skambučių centru. 
 

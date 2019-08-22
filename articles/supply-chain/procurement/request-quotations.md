@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 6a904529dccbe392793d0d108335b623bb1ed8b2
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572007"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742544"
 ---
 # <a name="requests-for-quotation-rfqs"></a>Pasiūlymų patvirtinimai (RFQ)
 
@@ -48,7 +48,7 @@ Galite kurti RFQ atvejį iš suplanuotų užsakymų, pirkimo paraiškos arba įv
 
 Paruošę RFQ atvejį ir įtraukę tiekėjų, RFQ atvejyje pasirinkite **Siųsti** (viešajame sektoriuje – **Siųsti ir publikuoti**). Generuojamas kiekvieno tiekėjo, kuriam siunčiate RFQ, RFQ žurnalas. Galite konfigūruoti siuntimo veiksmo spausdinimo parinktis, kad kiekvieno tiekėjo ataskaita būtų spausdinama arba siunčiama kiekvieno tiekėjo el. pašto adresu. Be to, naudojant kiekvieno tiekėjo RFQ žurnalą galima generuoti ataskaitą, kurią galima siųsti arba pakartotinai siųsti tiekėjui vėliau. Taip pat galite konfigūruoti siuntimo veiksmą, kad būtų sugeneruotas atsakymo lapas, kurį tiekėjas gali užpildyti.
 
-Šioje temoje aprašomas RFQ tvarkymo procesas, kai nenaudojamas tiekėjo bendradarbiavimas. Jei jūsų sistemoje nustatytas tiekėjo bendradarbiavimas, tiekėjai gali įvesti kainos siūlymus tiesiai į „Microsoft Dynamics 365 for Finance and Operations“. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapiuose [Tiekėjo bendradarbiavimas su klientais](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ir [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
+Šioje temoje aprašomas RFQ tvarkymo procesas, kai nenaudojamas tiekėjo bendradarbiavimas. Jei jūsų sistemoje nustatytas tiekėjo bendradarbiavimas, tiekėjai gali įvesti kainos siūlymus tiesiai į „Microsoft Dynamics 365 for Finance and Operations“. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapiuose [Tiekėjo bendradarbiavimas su klientais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) ir [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).
 
 Jei reikia pakeisti išsiųstą RFQ, baigę galite pakartotinai išsiųsti RFQ tiekėjams naudodami du keitimo veiksmus: kurti ir baigti.+
 
@@ -179,7 +179,7 @@ Jei sukonfigūruojate mažiau ribojamą pakeitimo procesą, prieš keisdami jau 
 
 Jei sukonfigūruosite mažiau ribojamą pakeitimo procesą, neturite pasirinkti **Kurti** prieš keisdami jau išsiųsto RFQ atvejo laukus. Tačiau turite patys į RFQ atvejį įtraukti pakeitimo pastabą ir pakartotinai išsiųsti atvejį. Turėkite omenyje, kad šį metodą galima naudoti tik jei nė vienas atsakymas (kainos siūlymas) nebuvo redaguotas. Jei įvedėte atsakymą ir jo būsena yra **Gauta**, mygtuko **Siųsti** naudoti negalima. Tokiu atveju turite pasirinkti **Kurti** ir **Baigti**, kaip turite daryti vykdydami labiau apribotą procesą. Tada atsakymas nustatomas iš naujo, kad atspindėtų RFQ atvejo keitimus.
 
-Jei tiekėjai naudoja tiekėjo bendradarbiavimo sąsają pasiūlymams įvesti, visada turite naudoti pakeitimo procesą, kad praneštumėte tiekėjams apie RFQ atvejo keitimus. Šis procesas padeda išvengti atvejų, kai tiekėjai teikia kainos siūlymus naudodami pasenusį RFQ atvejį, kol jų kainos siūlymas vis dar tvarkomas. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Jei tiekėjai naudoja tiekėjo bendradarbiavimo sąsają pasiūlymams įvesti, visada turite naudoti pakeitimo procesą, kad praneštumėte tiekėjams apie RFQ atvejo keitimus. Šis procesas padeda išvengti atvejų, kai tiekėjai teikia kainos siūlymus naudodami pasenusį RFQ atvejį, kol jų kainos siūlymas vis dar tvarkomas. Daugiau informacijos apie tiekėjo bendradarbiavimą žr. puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Jei norite pakviesti papildomus tiekėjus siūlyti kainą ir nebuvo atlikta jokių RFQ atvejo keitimų, galite naudoti mygtuką **Siųsti**. Įtraukti tiekėjai bus rodomi puslapyje **Siųsti** ir gaus kvietimą el. paštu.
 

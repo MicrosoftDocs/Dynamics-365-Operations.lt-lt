@@ -1,71 +1,61 @@
 ---
-title: Kurti ir priskirti išplėstinės taisyklės struktūras
-description: Šis užduoties vadovas padeda sukurti išplėstinės taisyklės struktūrą ir priskirti ją sąskaitos struktūrai.
+title: Išplėstinių taisyklių struktūrų kūrimas ir priskyrimas
+description: Šioje temoje aiškinama, kaip sukurti ir priskirti išplėstinės taisyklės struktūrą prie sąskaitos struktūros.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DimensionConfigureAccountRuleStructure, DimensionCreateAccountRuleStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate, DimensionConfigureAccountStructure, DimensionConfigureAccountRule, DimensionCreateAccountRule, DimensionSelectAccountRuleStructure
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cff07c13553ea140f537160da7f93820d5e3f77a
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558911"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1834902"
 ---
-# <a name="create-and-assign-advanced-rule-structures"></a>Kurti ir priskirti išplėstinės taisyklės struktūras
+# <a name="create-and-assign-advanced-rule-structures"></a>Išplėstinių taisyklių struktūrų kūrimas ir priskyrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šis užduoties vadovas padeda sukurti išplėstinės taisyklės struktūrą ir priskirti ją sąskaitos struktūrai. Šiame vadove naudojama demonstracinė įmonė USMF.
-
+Šioje temoje aiškinama, kaip sukurti ir priskirti išplėstinės taisyklės struktūrą prie sąskaitos struktūros. Šiame vadove naudojama demonstracinė įmonė USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Kurti išplėstinės taisyklės struktūrą
-1. Pasirinkite Didžioji knyga > Sąskaitų planas > Struktūros > Išplėstinės taisyklės struktūros.
-2. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
-3. Lauke Išplėstinės taisyklės struktūra įveskite pavadinimą, aprašantį taisyklės struktūrą.
-4. Lauke Aprašas įveskite reikšmę, kuria būtų aprašoma struktūra.
-5. Spustelėkite Gerai.
-6. Spustelėkite Įtraukti segmentą.
-7. Segmentų sąraše pasirinkite finansinę dimensiją.
-    * Pavyzdžiui, Parduotuvė.  
-8. Spustelėkite Įtraukti segmentą.
-9. Sąraše spustelėkite išplėstinės taisyklės struktūros nuorodą ir peržiūrėkite ją.
-10. Spustelėkite Aktyvinti.
-11. Spustelėkite Aktyvinti.
+1. Eikite į **Naršymo sritis > Moduliai > Didžioji knyga > Sąskaitų planas > Struktūros > Išplėstinės taisyklės struktūros**.
+2. Pasirinkite **Naujas**, kad atidarytumėte išplečiamąjį dialogo langą.
+3. Lauke **Išplėstinės taisyklės struktūra** įveskite pavadinimą, aprašantį taisyklės struktūrą.
+4. Pasirinkite **Gerai**.
+5. Pasirinkite **Pridėti segmentą**.
+6. Segmentų sąraše pasirinkite finansinę dimensiją. Pavyzdžiui, **Parduotuvė**.  
+7. Pasirinkite **Pridėti segmentą**.
+8. Pasirinkite **Aktyvinti**.
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Išplėstinės taisyklės struktūros taikymas sąskaitos struktūrai
-1. Uždarykite formą.
-2. Uždarykite puslapį.
-3. Pasirinkite Didžioji knyga > Sąskaitų planas > Struktūros > Konfigūruoti sąskaitų struktūras.
-4. Sąraše raskite ir pasirinkite sąskaitos struktūrą, kuriai norite taikyti išplėstinę taisyklę.
-5. Spustelėkite sąskaitos struktūros pavadinimą ir atidarykite ją.
-6. Spustelėkite Redaguoti.
-    * Taip pat galite spustelėti Išplėstinės taisyklės ir jūs būsite paraginti pateikti sąskaitos struktūrą juodraščio režimu.  
-7. Spustelėkite Išplėstinės taisyklės.
-8. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
-9. Lauke Išplėstinė taisyklė įveskite reikšmę.
-10. Lauke Pavadinimas surinkite reikšmę.
-11. Spustelėkite Kurti.
-12. Spustelėkite Įtraukti naujų kriterijų.
-13. Lauke Kur pasirinkite pagrindinę sąskaitą arba finansinę dimensiją.
-14. Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.
-15. Lauke Reikšmė surinkite reikšmę.
-16. Lauke Per įveskite reikšmę.
-17. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
-18. Sąraše raskite išplėstinės taisyklės struktūrą, kurią norėsite naudoti, kai bus išpildyti įvesti kriterijai.
-19. Spustelėkite Pridėti.
-20. Uždarykite puslapį.
-21. Spustelėkite Aktyvinti.
-22. Spustelėkite Aktyvinti.
+1. Eikite į **Naršymo sritis > Moduliai > Didžioji knyga > Sąskaitų planas > Struktūros > Sukonfigūruoti sąskaitų struktūras**.
+2. Sąraše raskite ir pasirinkite sąskaitos struktūrą, kuriai norite taikyti išplėstinę taisyklę.
+3. Pasirinkite **Redaguoti**. Taip pat galite spustelėti **Išplėstinės taisyklės** ir jūs būsite paraginti pateikti sąskaitos struktūrą **juodraščio režimu**.  
+4. Pasirinkite **Išankstinis**.
+5. Pasirinkite **Naujas**, kad atidarytumėte išplečiamąjį dialogo langą.
+6. Lauke **Išplėstinė taisyklė** įveskite reikšmę.
+7. Lauke **Pavadinimas** įveskite reikšmę.
+8. Pasirinkite **Kurti**.
+9. Spustelėkite **Įtraukti naujų kriterijų**.
+10. Lauke **Kur** pasirinkite pagrindinę sąskaitą arba finansinę dimensiją.
+11. Lauke **Operatorius**, pasirinkite parinktį, pvz., **yra tarp** ir **apima**.
+12. Lauke **Reikšmė** įveskite reikšmę.
+13. Lauke **per** įveskite reikšmę.
+14. Pasirinkite **Įtraukti** ir atidarykite išplečiamąjį dialogo langą.
+15. Sąraše raskite išplėstinės taisyklės struktūrą, kurią norėsite naudoti, kai bus išpildyti įvesti kriterijai.
+16. Pasirinkite **Įtraukti**.
+17. Uždarykite puslapį.
+18. Pasirinkite **Aktyvinti**.
 

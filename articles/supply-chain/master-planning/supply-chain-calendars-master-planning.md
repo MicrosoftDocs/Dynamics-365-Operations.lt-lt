@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
-ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
+ms.openlocfilehash: ca473de65135ddddea12ddc72e902056cc7b1db7
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538731"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845306"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendoriai ir bendrasis planavimas
 
@@ -93,7 +93,7 @@ Norėdami nurodyti datas, kuriomis klientas gali priimti pristatymus, galite kli
 
 Atkreipkite dėmesį, kad galima įtraukti tik vieną kiekvieno kliento kalendorių. Jei norite įtraukti kiekvieno skirtingo kliento adreso kalendorių, galite kurti klientą, kuriam priskirtas vienas adresas, ir tada priskirti atitinkamą kalendorių. 
 
-Pageidaujama pardavimo užsakymo eilučių gavimo data priklauso nuo kliento kalendoriaus ir pristatymo datos valdymo būdo. Daugiau informacijos apie tai, kaip apskaičiuojama anksčiausia pristatymo data, žr. [Užsakymų vykdymo perspektyva](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+Pageidaujama pardavimo užsakymo eilučių gavimo data priklauso nuo kliento kalendoriaus ir pristatymo datos valdymo būdo. Daugiau informacijos apie tai, kaip apskaičiuojama anksčiausia pristatymo data, žr. [Užsakymų vykdymo perspektyva](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Juridinio subjekto siuntimo kalendorius
 Norėdami nurodyti datas, kuriomis juridinis subjektas gali siųsti prekes, galite nustatyti siuntimo kalendorių pasirinkę **Organizacijos administravimas > Organizacijos > Juridiniai subjektai**. Pasirinkite juridinį subjektą ir įtraukite kalendorių skirtuko **Užsienio prekyba ir logistika** lauke **Siuntimo kalendorius**. Siuntimo kalendoriuje veiks kaip visų juridinio subjekto sandėlio kalendorių numatytųjų reikšmių šaltinis. 

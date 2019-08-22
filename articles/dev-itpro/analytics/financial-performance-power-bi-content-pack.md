@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35db2b51274afa6dae4cb5f75b4ba5390b167a49
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553957"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1849587"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Finansinio našumo „PowerBI.com“ turinys
 
@@ -70,7 +70,7 @@ Kiekviena plytelė yra pagrindžiama papildoma ataskaita. Šiose ataskaitose yra
 | Išlaidų analizė            | Bendrosios išlaidos, faktinės ir biudžeto bendrosios išlaidos pagal juridinį subjektą, faktinės ir biudžeto bendrosios išlaidos pagal ketvirtį, bendrosios išlaidos pagal sąskaitos kategoriją ir veiklos išlaidų koeficientas |
 | Įplaukų, kurioms išrašyta sąskaita, analizė     | Bendrosios gautinos sumos, bendrosios gautinos sumos pagal juridinį subjektą, bendrosios gautinos sumos pagal ketvirtį ir gautinų sumų sąskaitų balansai<blockquote>[!NOTE] Informacija neapima gautinų sumų DK sąskaitų pradžios likučių. Joje rodoma naujų operacijų, užregistruotų gautinose sumose, bendra suma.</blockquote> |
 
-Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Šių ataskaitų diagramas ir plyteles galima filtruoti ir prisegti prie ataskaitų srities. Daugiau informacijos apie tai, kaip „Power BI“ filtruoti ir prisegti, žr. [Ataskaitų srities kūrimas ir konfigūravimas](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 Toliau pateikti objektai buvo naudojami kaip „PowerBI.com‟ sprendimo **Finansinės veiklos rezultatai** pagrindas.

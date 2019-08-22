@@ -1,29 +1,29 @@
 ---
-title: Baigti pagrindinį išleisto bendrojo produkto nustatymą
+title: Pagrindinės išleisto bendrojo produkto sąrankos baigimas
 description: Ši procedūra nurodo, kaip atlikti minimalų nustatymą, kurio reikia prieš naudojant bendrąjį produktą KS versijose.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0d3a91977c38c0ce0f9fe114bec943c7cb32a5d4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bd7e02c9aea17fbc3312660d0e50cd8bbf39aa3d
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568778"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1845022"
 ---
-# <a name="complete-basic-setup-of-a-released-product-master"></a>Baigti pagrindinį išleisto bendrojo produkto nustatymą
+# <a name="complete-basic-setup-of-a-released-product-master"></a>Pagrindinės išleisto bendrojo produkto sąrankos baigimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -31,36 +31,25 @@ ms.locfileid: "1568778"
 
 Tai yra trečioji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-1. Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.
-2. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite bendrąjį produktą, kurį paleidote antrojoje procedūroje. Šis bendrasis produktas sukurtas su konfigūravimo pagal dimensijas technologija.  
-3. Veiksmų srityje spustelėkite „Produktas“.
-4. Spustelėdami „Dimensijų grupės“ atidarykite išplečiamąjį dialogo langą.
-5. Lauke Saugojimo dimensijų grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-6. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Saugojimo dimensijų grupė nustato, kurios saugojimo dimensijos bus naudojamos produktų operacijoms. Šioje procedūroje pasirinkite „Svetainė“.  
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Lauke Sekimo dimensijų grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-9. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Sekimo dimensijų grupė nustato, kurios sekimo dimensijos bus naudojamos produktų operacijoms. Šioje procedūroje pasirinkite „Nėra“.  
-10. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-11. Spustelėkite GERAI.
-12. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-13. Spustelėkite Redaguoti.
-    * Atidarykite formą „Išleisto produkto informacija“, bus toliau tęsiamas užduoties nustatymas.  
-14. Lauke Prekių modelių grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-15. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Prekių modelių grupėse yra nustatymų, kurie nulemia, kaip prekės kontroliuojamos ir tvarkomos jas gaunant ir išduodant. Jie taip pat nustato, kaip skaičiuojamas prekių suvartojimas. Šioje procedūroje pasirinkite FIFO.  
-16. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-17. Išplėskite arba sutraukite dalį Valdyti išlaidas.
-18. Lauke Prekių grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-19. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Prekių grupės naudojamos atsargoms valdyti dalijant atsargų prekes į grupes. Šioje procedūroje pasirinkite „CarAudio“.  
-20. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-21. Veiksmų srityje spustelėkite Planuoti.
-22. Spustelėkite Numatytosios užsakymo nuostatos.
-23. Lauke „Numatytasis užsakymo tipas“ pasirinkite parinktį.
-    * Pasirinkite „Gamyba“ nurodydami, kad numatytoji šio bendrojo produkto tiekimo parinktis yra jo gamyba.  
-24. Uždarykite puslapį.
-25. Uždarykite formą „Išleisto produkto informacija“.
+1. Eikite į **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Produktai > Patvirtinti produktai**.
+2. Sąraše raskite ir pasirinkite norimą įrašą. Pasirinkite bendrąjį produktą, kurį paleidote antrojoje procedūroje. Šis bendrasis produktas sukurtas su konfigūravimo pagal dimensijas technologija.  
+3. Veiksmų srityje spustelėkite **Produktas**.
+4. Spustelėdami **Dimension groups** atidarykite išplečiamąjį dialogo langą.
+5. Lauke **Saugojimo dimensijų grupė** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+6. Sąraše raskite ir pasirinkite norimą įrašą. Saugojimo dimensijų grupė nustato, kurios saugojimo dimensijos bus naudojamos produktų operacijoms. Šioje procedūroje pasirinkite **Svetainė**.  
+7. Lauke **Sekimo dimensijų grupė** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+8. Sąraše raskite ir pasirinkite norimą įrašą. Sekimo dimensijų grupė nustato, kurios sekimo dimensijos bus naudojamos produktų operacijoms. Šioje procedūroje pasirinkite **Nėra**.  
+9. Spustelėkite **Gerai**.
+10. Spustelėkite **Redaguoti**.
+11. Lauke **Prekių modelių grupė** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+12. Sąraše raskite ir pasirinkite norimą įrašą. Prekių modelių grupėse yra nustatymų, kurie nulemia, kaip prekės kontroliuojamos ir tvarkomos jas gaunant ir išduodant. Jie taip pat nustato, kaip skaičiuojamas prekių suvartojimas. Šioje procedūroje pasirinkite **FIFO**.  
+13. Išplėskite dalį **Valdyti išlaidas**.
+14. Lauke **Prekių grupė** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+15. Sąraše raskite ir pasirinkite norimą įrašą. Prekių grupės naudojamos atsargoms valdyti dalijant atsargų prekes į grupes. Šioje procedūroje pasirinkite **CarAudio**.  
+16. Veiksmų srityje pasirinkite **Planas**.
+17. Pasirinkite **Numatytieji užsakymo parametrai**.
+18. Dalyje **Numatytojo užsakymo tipo laukas** pasirinkite parinktį. Pasirinkite **Gamyba** nurodydami, kad numatytoji šio bendrojo produkto tiekimo parinktis yra jo gamyba.  
+19. Pasirinkite **Įrašyti**.
+20. Uždarykite puslapį.
+21. Uždarykite formą **Išleisto produkto informacija**.
 

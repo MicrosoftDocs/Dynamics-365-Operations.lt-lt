@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeCreditNote_W, CustFreeInvoice
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 266944
 ms.search.region: Estonia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 505b612b30c1b6f4b3f55f07880a127dd506a991
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7340204f4e7d41889a35285f4609656668444d90
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550760"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1852277"
 ---
 # <a name="fixed-assets-disposal-for-estonia-and-lithuania"></a>Ilgalaikio turto likvidavimas (Estija ir Lietuva)
 
