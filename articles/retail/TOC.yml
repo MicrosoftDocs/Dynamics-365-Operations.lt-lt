@@ -20,15 +20,16 @@
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
     - name: Demonstracinės aplinkos diegimas
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
-    - name: Diegimo parinktys
+    - name: Visuotinio diegimo parinktys
       href: dev-itpro/choose-deployment.md
-    - name: Palaikymo dėl mažmeninės prekybos gavimas
+    - name: Palaikymo dėl „Retail“ gavimas
       href: retail-support.md
     - name: DUK apie vienos versijos paslaugų naujinimus
       href: ../fin-and-ops/get-started/one-version.md
-- name: Diegimo ciklo supratimas
-  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+- name: Diegimo ciklo valdymas
   items:
+    - name: Diegimo ciklo valdymo pagrindinis puslapis
+      href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
     - name: „Microsoft FastTrack for Dynamics 365“
       href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
     - name: Supažindinimas
@@ -161,10 +162,12 @@
       href: assortments.md
     - name: Internetinių parduotuvių nustatymas
       href: online-stores.md
-    - name: „Retail hardware station“ konfigūravimas ir diegimas
+    - name: „Retail Hardware Station“ konfigūravimas ir diegimas
       href: retail-hardware-station-configuration-installation.md
     - name: „Retail“ laikas ir buvimas darbe
       href: retail-time-attendance.md
+    - name: Parduotuvės darbo valandų nustatymas ir keitimas
+      href: dev-itpro/store-hours.md
 - name: „Modern Point of Sale“ (MPOS) ir „Cloud POS“
   items:
     - name: Pasirinkimas tarp MPOS ir „Cloud POS“
@@ -317,8 +320,10 @@
       href: create-manage-attributes.md
     - name: Mažmeninės prekybos produktų nustatymas
       href: set-up-retail-products.md
-    - name: „Retail“ produktų kategorijų ir produktų valdymas
+    - name: Mažmeninės prekybos produktų kategorijų ir produktų valdymas
       href: category-management-product-creation.md
+    - name: Prekybos objektų rūšiavimo tvarkos keitimas
+      href: custom-order-categories-nav-retail-prod-hierarchy.md
     - name: Produktų dimensijos
       href: ../supply-chain/pim/product-dimensions.md
     - name: Brūkšninių kodų nustatymas
@@ -365,7 +370,7 @@
       href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
 - name: Personalas
   items:
-    - name: 'Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas'
+    - name: 'Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas'
       href: ../talent/departments-jobs-positions.md
     - name: Užduoties komponentų nustatymas
       href: ../talent/create-job.md
@@ -499,9 +504,10 @@
       href: tasks/use-continuity-program.md
     - name: Mažmeninės prekybos darbininkų konfigūravimas
       href: tasks/worker.md
-- name: Mažmeninės prekybos programavimas ir administravimas
-  href: dev-itpro/dev-retail-home-page.md
+- name: „Retail“ programavimas ir administravimas
   items:
+    - name: „Retail“ IT profesionalams ir kūrėjams
+      href: dev-itpro/dev-retail-home-page.md
     - name: Architektūra
       items:
         - name: „Retail“ komponentai
@@ -598,9 +604,11 @@
           href: dev-itpro/view-pos-extension-package-details.md
     - name: „Hardware Station“ ir išplečiamumas
       href: dev-itpro/hardware-station-extensibility.md
+    - name: EKA integravimas su nauju aparatūros įrenginiu
+      href: dev-itpro/hardware-device-extension.md
     - name: „Retail Server“ išplečiamumas
       items:
-        - name: „Retail Server“ „OData“ valdiklio išplėtimas
+        - name: „Retail Server OData“ valdiklio išplėtimas
           href: dev-itpro/extend-retail-server-odata-controller.md
         - name: „Retail Server“ žiniatinklio API valdiklio kūrimas
           href: dev-itpro/odata-controllers-api.md
@@ -654,9 +662,10 @@
           href: payment-connector-data-fields.md
         - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
           href: dev-itpro/duplicate-payment-protection.md
-    - name: Retail SDK
-      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+    - name: „Retail SDK“
       items:
+        - name: „Retail SDK“ architektūra
+          href: dev-itpro/retail-sdk/retail-sdk-overview.md
         - name: Būsimi „Retail SDK“ pakeitimai
           href: dev-itpro/UpcomingSDKChanges.md
         - name: „Retail“ ir „Finance and Operations“ kūrimo sistemų suliejimas
@@ -667,9 +676,8 @@
           href: dev-itpro/retail-sdk/retail-sdk-packaging.md
         - name: „Retail SDK“ pavyzdžiai
           href: dev-itpro/retail-sdk/retail-sdk-samples.md
-          items:
-            - name: Važtaraščių plėtinių taškai
-              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: Važtaraščių plėtinių taškai
+          href: dev-itpro/extensions-shipping-carrier-integration.md
         - name: Kanalo duomenų bazės plėtiniai
           href: dev-itpro/channel-db-extensions.md
         - name: Pasirinktinio CDX sinchronizavimo naudojant plėtinį įjungimas

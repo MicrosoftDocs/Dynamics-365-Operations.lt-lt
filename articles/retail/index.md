@@ -3,7 +3,7 @@ title: Sveiki, čia „Dynamics 365 for Retail“
 description: „Dynamics 365 for Retail“ pagrindinis puslapis
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572178"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874932"
 ---
 # <a name="welcome-to-dynamics-365-for-retail"></a>Sveiki, čia „Dynamics 365 for Retail“
 
@@ -38,7 +38,7 @@ Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte dau
 
 ## <a name="channel-management"></a>Kanalų valdymas
 
-Nustatydami „Retail“ nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves. Tai gali būti fizinės, interneto parduotuvės arba skambučių centrai.
+Nustatydami „Retail“ nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves, kurios gali būti įvairių tipų – tradicinė parduotuvės, internetinės parduotuvės ar skambučių centrai.
 
 Kiekvienai mažmeninės prekybos parduotuvei galima nustatyti mokėjimo metodus, pristatymo metodus, kainų grupes, pajamų ir išlaidų sąskaitas, registrus ir darbuotojus. Sukūrus savo mažmeninės prekybos parduotuvę, sukuriamas norimų platinti produktų asortimentas. Taip pat galite nustatyti konkrečių parduotuvių kainas ir nuolaidas, taikomas parduotuvėje parduodamiems produktams.
 

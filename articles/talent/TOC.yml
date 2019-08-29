@@ -8,6 +8,14 @@
         - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: 2019 m. rugpjūčio 22 d.
+              href: whats-new-talent-august-21-2019.md
+            - name: 2019 m. rugpjūčio 13 d.
+              href: whats-new-talent-august-15-2019.md
+            - name: 2019 m. rugpjūčio 6 d.
+              href: whats-new-talent-august-7-2019.md
+            - name: 2019 m. liepos 30 d.
+              href: whats-new-talent-july-31-2019.md
             - name: 2019 m. liepos 23 d.
               href: whats-new-talent-july-24-2019.md
             - name: 2019 m. liepos 16 d.
@@ -24,16 +32,16 @@
               href: whats-new-talent-june-11-2019.md
             - name: 2019 m. birželio 4 d.
               href: whats-new-talent-june-4-2019.md
-            - name: 2019 m. gegužės 28 d.
-              href: whats-new-talent-may-28-2019.md
-            - name: 2019 m. gegužės 21 d.
-              href: whats-new-talent-may-21-2019.md
-            - name: 2019 m. gegužės 13 d.
-              href: whats-new-talent-may-13-2019.md
-            - name: 2019 m. gegužės 6 d.
-              href: whats-new-talent-may-6-2019.md
             - name: 2019 m. skyriaus „Kas nauja“ archyvai
               items:
+                - name: 2019 m. gegužės 28 d.
+                  href: whats-new-talent-may-28-2019.md
+                - name: 2019 m. gegužės 21 d.
+                  href: whats-new-talent-may-21-2019.md
+                - name: 2019 m. gegužės 13 d.
+                  href: whats-new-talent-may-13-2019.md
+                - name: 2019 m. gegužės 6 d.
+                  href: whats-new-talent-may-6-2019.md
                 - name: 2019 m. balandžio 30 d.
                   href: whats-new-talent-april-30-2019.md
                 - name: 2019 m. balandžio 25 d.
@@ -200,10 +208,12 @@
       items:
         - name: Darbo jėgos organizavimas
           items:
-            - name: 'Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas'
+            - name: 'Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas'
               href: departments-jobs-positions.md
             - name: Užduoties komponentų nustatymas
               href: create-job.md
+            - name: Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
+              href: streamlined-employee-entry.md
             - name: Padalinių kūrimas ir jų įtraukimas į padalinių hierarchiją
               href: create-department-add-department-hierarchy.md
             - name: Personalo parametrų nustatymas visiems juridiniams subjektams

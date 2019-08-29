@@ -1,17 +1,19 @@
 - name: „Finance and Operations“ modulis Kūrimas ir administravimas
   href: index.md
-- name: Visuotinėms įdiegtims debesyje taikomi sistemos reikalavimai
+- name: Visuotiniams debesies diegimams taikomi sistemos reikalavimai
   href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
-- name: Vietinėms visuotinėms įdiegtims taikomi sistemos reikalavimai
+- name: Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai
   href: ../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json
 - name: Demonstraciniai duomenys
-  href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
+    - name: Demonstracinių duomenų apžvalga
+      href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
     - name: Demonstracinių duomenų generavimas naudojant duomenų paketus
       href: data-entities/generate-demo-data-packages.md
 - name: Kūrimas ir tinkinimas
-  href: dev-tools/developer-home-page.md
   items:
+    - name: Kūrimo ir tinkinimo pagrindinis puslapis
+      href: dev-tools/developer-home-page.md
     - name: Programų dėklo ir serverio architektūra
       href: dev-tools/application-stack-server-architecture.md
     - name: Įvertinimo kopijų gavimas
@@ -19,9 +21,10 @@
     - name: Registravimasis prenumeratų peržiūros versijai gauti
       href: dev-tools/sign-up-preview-subscription.md
     - name: Visuotinis kūrimo aplinkų diegimas ir naudojimas
-      href: dev-tools/access-instances.md
       items:
-        - name: Vieno bloko kūrimo aplinkų konfigūravimas
+        - name: Programavimo aplinkos
+          href: dev-tools/access-instances.md
+        - name: Vieno bloko programavimo aplinkų konfigūravimas
           href: dev-tools/configure-developer-vm.md
         - name: Naujų vartotojų kūrimas kūrimo įrenginiuose
           href: dev-tools/enable-development-machine.md
@@ -58,11 +61,12 @@
         - name: Kodo rengyklės funkcijos
           href: dev-tools/code-editor.md
         - name: Modelių ir duomenų modelio elementų kūrimas
-          href: dev-tools/create-data-model-elements.md
           items:
+            - name: Modelių ir duomenų modelio elementų kūrimo apžvalga
+              href: dev-tools/create-data-model-elements.md
             - name: Plėtinių pavadinimų suteikimo gairės
               href: extensibility/NamingGuidelines.md
-            - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas​
+            - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas
               href: dev-tools/lock-models.md
         - name: Pritaikymo analizės ataskaita​
           href: dev-tools/customization-analysis-report.md
@@ -84,10 +88,8 @@
           href: dev-tools/update-development-tools.md
     - name: X++ programavimo kalba
       items:
-        - name: X++ ir derintuvo funkcijos
+        - name: X++ ir derintuvės funkcijos
           href: dev-tools/new-x-debugger-features.md
-        - name: X++ derinimas pagal gamybos duomenų bazių kopijas
-          href: dev-tools/debug-x-issue-against-copy-of-production.md
         - name: X++ kodo derinimas
           href: dev-tools/debug-xpp.md
         - name: EventHandlerResult klasės užklausų ar atsakymų scenarijų metu
@@ -104,13 +106,13 @@
           href: dev-ref/application-explorer-aot-properties.md
         - name: X++ kalbos nuoroda
           items:
-            - name: X++ kalbos nuoroda
+            - name: X++ kalbos nuorodos apžvalga
               href: dev-ref/xpp-language-reference.md
             - name: Kintamųjų ir duomenų tipai
               items:
                 - name: Kintamieji
                   href: dev-ref/xpp-variables-data-types.md
-                - name: Paprastų duomenų tipai
+                - name: Pagrindinių duomenų tipai
                   href: dev-ref/xpp-data-primitive.md
                 - name: Sudėtinių duomenų tipai
                   href: dev-ref/xpp-data-composite.md
@@ -135,7 +137,19 @@
             - name: X++ operatorių pirmumo tvarka
               href: dev-ref/xpp-operator-precedence.md
             - name: X++ klasės ir metodai
-              href: dev-ref/xpp-classes-methods.md
+              items:
+                - name: Klasės ir metodai
+                  href: dev-ref/xpp-classes-methods.md
+                - name: Paveldėjimas
+                  href: dev-ref/xpp-inheritance.md
+                - name: Statinės klasės nariai
+                  href: dev-ref/xpp-static-classes.md
+                - name: Sąsajos
+                  href: dev-ref/xpp-interfaces.md
+                - name: Bibliotekos
+                  href: dev-ref/xpp-library-objects.md
+                - name: Įvykiai
+                  href: dev-ref/xpp-events.md
             - name: X++ duomenų pasirinkimas ir tvarkymas
               href: dev-ref/xpp-data-query.md
             - name: Prieiga prie duomenų naudojant „SysDa API“
@@ -148,17 +162,19 @@
               href: dev-ref/xpp-cs-comparison.md
             - name: X++ sintaksė
               href: dev-ref/xpp-syntax.md
-    - name: 'API, klasės ir lentelės nuoroda​'
-      href: dev-ref/api-reference.md
+    - name: 'API, klasės ir lentelės nuoroda'
       items:
+        - name: 'API, klasės ir lentelės ištekliai'
+          href: dev-ref/api-reference.md
         - name: X++ kompiliacijos laiko funkcijos
           href: dev-ref/xpp-compile-time-functions.md
         - name: X++ vykdymo laiko funkcijos
-          href: dev-ref/xpp-run-time-functions.md
           items:
-            - name: X++ verslo vykdymo laiko funkcijos​
+            - name: X++ vykdymo laiko funkcijų ištekliai
+              href: dev-ref/xpp-run-time-functions.md
+            - name: X++ verslo vykdymo laiko funkcijos
               href: dev-ref/xpp-business-run-time-functions.md
-            - name: X++ konteinerio vykdymo laiko funkcijos​
+            - name: X++ konteinerio vykdymo laiko funkcijos
               href: dev-ref/xpp-container-run-time-functions.md
             - name: X++ konvertavimo vykdymo laiko funkcijos
               href: dev-ref/xpp-conversion-run-time-functions.md
@@ -409,11 +425,12 @@
         - name: „SysTest“ filtravimas naudojant klasės ir metodo atributus
           href: perf-test/systest-filtering.md
         - name: Priėmimo bandymų biblioteka
-          href: perf-test/acceptance-test-library.md
           items:
+            - name: Priėmimo bandymų bibliotekos ištekliai
+              href: perf-test/acceptance-test-library.md
             - name: Naršymo sąvokos
               href: perf-test/concepts-navigation.md
-            - name: Duomenų metodų testavimas
+            - name: Duomenų metodų bandymas
               href: perf-test/test-data-methods.md
             - name: Priėmimo bandymų bibliotekos objektai
               href: perf-test/concepts-entities.md
@@ -437,9 +454,10 @@
       href: dev-tools/isv-licensing.md
     - name: ISV licencijavimas vietinėje sistemoje
       href: dev-tools/isv-licensing-on-prem.md
-- name: Vartotojo sąsajos kūrimas​
-  href: user-interface/user-interface-development-home-page.md
+- name: Vartotojo sąsajos kūrimas
   items:
+    - name: Vartotojo sąsajos kūrimo pagrindinis puslapis
+      href: user-interface/user-interface-development-home-page.md
     - name: Mokymo programos
       items:
         - name: Nuomos išlaidų tipo formos kūrimas
@@ -632,19 +650,22 @@
           href: user-interface/build-workspaces.md
         - name: Darbo sričių plytelių ir sąrašų kaupimas talpykloje
           href: user-interface/tile-list-caching-workspaces.md
-    - name: Užduočių įrašymo priemonė​
-      href: user-interface/task-recorder.md
+    - name: Užduočių įrašymo priemonė
       items:
-        - name: Greita užduočių įrašymo priemonės nuoroda
+        - name: Užduočių įrašymo priemonės ištekliai
+          href: user-interface/task-recorder.md
+        - name: Sparčioji užduočių įrašymo priemonės nuoroda
           href: user-interface/task-recorder-quick-reference.md
         - name: Dokumentų ar mokymų kūrimas pagal užduočių įrašus
           href: user-interface/task-recorder-training-docs.md
-- name: Mobilioji platforma​
-  href: mobile-apps/platform/mobile-platform-home-page.md
+- name: Mobilioji platforma
   items:
+    - name: Mobiliosios platformos ištekliai
+      href: mobile-apps/platform/mobile-platform-home-page.md
     - name: Darbo pradžia
-      href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
+        - name: Darbo su mobiliąja platforma pradžia
+          href: mobile-apps/platform/mobile-platform-getting-started.md
         - name: Architektūros ir dizaino aplinkybės
           href: mobile-apps/platform/mobile-platform-architecture.md
         - name: Verslo logikos įvykiai
@@ -678,8 +699,9 @@
         - name: Kūrimo kliente API sąsajos
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: Kliento API sąsajos
-          href: mobile-apps/platform/client-apis/client-apis-reference.md
           items:
+            - name: Kliento API sąsajų pagrindinis puslapis
+              href: mobile-apps/platform/client-apis/client-apis-reference.md
             - name: PageState išvardijimas
               href: mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md
             - name: Programos modulis
@@ -843,11 +865,13 @@
             - name: ValueMetadata tipas
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
 - name: Bendrasis duomenų apsaugos reglamentas (BDAR)
-  href: gdpr/gdpr-guide.md
   items:
-    - name: Atsakymo į BDAR duomenų užklausas ištekliai
-      href: gdpr/gdpr-home-page.md
+    - name: Bendrasis duomenų apsaugos reglamento apžvalga
+      href: gdpr/gdpr-guide.md
+    - name: Atsakymas į BDAR duomenų užklausas
       items:
+        - name: Atsakymo į BDAR duomenų užklausas ištekliai
+          href: gdpr/gdpr-home-page.md
         - name: Turto klasifikavimas
           href: gdpr/gdpr-asset-classification-values.md
         - name: Asmenų ieškos ataskaita
@@ -863,16 +887,35 @@
         - name: BDAR duomenų užklausos LCS
           href: gdpr/gdpr-lcs.md
 - name: Nuolatinis pristatymas
-  href: dev-tools/continuous-delivery-home-page.md
   items:
+    - name: Nuolatinio pristatymo pagrindinis puslapis
+      href: dev-tools/continuous-delivery-home-page.md
     - name: DUK apie kūrimą ir nuolatinį pristatymą
       href: dev-tools/continuous-delivery-faq.md
-    - name: Testinių paketų neįtraukimas į komponavimo versijos išvestį
+    - name: Testinių paketų pašalinimas iš komponavimo versijos išvesties
       href: dev-tools/exclude-test-packages.md
     - name: Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį
       href: dev-tools/manage-runtime-packages.md
     - name: Modelių versijų automatizuotoje komponavimo versijoje naujinimas
       href: dev-tools/version-models-build.md
+- name: „Regression Suite Automation Tool”
+  items:
+    - name: „Regression Suite Automation Tool“ apžvalga
+      href: perf-test/rsat/rsat-overview.md
+    - name: Diegimas ir konfigūravimas
+      href: perf-test/rsat/rsat-install-configure.md
+    - name: Bandymo atvejų vykdymas
+      href: perf-test/rsat/rsat-run.md
+    - name: Numatomų verčių tikrinimas
+      href: perf-test/rsat/rsat-validate-expected.md
+    - name: Grandinės bandymo atvejai
+      href: perf-test/rsat/rsat-chain-test-cases.md
+    - name: Išvestiniai bandymo atvejai
+      href: perf-test/rsat/rsat-derived-test-cases.md
+    - name: Geriausia praktika
+      href: perf-test/rsat/rsat-best-practices.md
+    - name: Trikčių šalinimas
+      href: perf-test/rsat/rsat-troubleshooting.md
 - name: Sprendimų išleidimas naudojant „Lifecycle Services“
   items:
     - name: Kūrimas ir išleidimas
@@ -891,9 +934,10 @@
       href: lcs-solutions/process-data-packages-lcs-solutions.md
     - name: Sprendimų duomenų bazių atsarginių kopijų kūrimas
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: Lokalizavimo ir reguliavimo priemonės​
-      href: lcs-solutions/country-region.md
+    - name: Lokalizavimo ir reguliavimo priemonės
       items:
+        - name: Globalizacijos ištekliai
+          href: lcs-solutions/country-region.md
         - name: Lokalizavimo priemonių klasifikacija
           href: lcs-solutions/classify-localization-features.md
         - name: "Šalies\_/ regiono konteksto taikymas"
@@ -904,11 +948,12 @@
           href: lcs-solutions/regulatory-watch-communication.md
         - name: Lokalizavimo modelių atskyrimas
           href: lcs-solutions/separate-localization-models.md
-        - name: Įspėjimų dėl reglamentavimo pateikimas
+        - name: Priežiūros įspėjimų pateikimas
           href: lcs-solutions/submit-localization-alerts.md
 - name: Finansų kūrimas
-  href: financial/financial-dev-home-page.md
   items:
+    - name: Finansų kūrimo pagrindinis puslapis
+      href: financial/financial-dev-home-page.md
     - name: Finansinės dimensijos struktūra
       items:
         - name: DK sąskaitos kombinacijos
@@ -967,15 +1012,17 @@
   items:
     - name: Visuotinis demonstracinių aplinkų diegimas
       href: deployment/deploy-demo-environment.md
-    - name: Visuotinė debesies įdiegtis
-      href: deployment/cloud-deployment-overview.md
+    - name: Visuotinis debesies diegimas
       items:
+        - name: Visuotinio debesies diegimo apžvalga
+          href: deployment/cloud-deployment-overview.md
         - name: Visuotinis savitarnos paslaugos diegimas
-          href: deployment/infrastructure-stack.md
           items:
+            - name: Visuotinio savitarnos paslaugos diegimo apžvalga
+              href: deployment/infrastructure-stack.md
             - name: Visuotinis naujos aplinkos diegimas
               href: deployment/deployenvironment-newinfrastructure.md
-            - name: Visuotinis DUK diegimas
+            - name: DUK apie visuotinį diegimą
               href: deployment/deploymentFAQ.md
             - name: Žinomos visuotinio savitarnos paslaugos diegimo problemos
               href: deployment/known-issues-new-deployment-experience.md
@@ -999,10 +1046,11 @@
           href: deployment/Initialize-Retail-Channels.md
         - name: „Retail“ duomenų laikymo vieta
           href: deployment/retail-data-residency.md
-    - name: Vietinė visuotinė įdiegtis
-      href: deployment/on-premises-deployment-landing-page.md
+    - name: Vietinis visuotinis diegimas
       items:
-        - name: Vietinio diegimo parinktis
+        - name: Vietinio visuotinio diegimo pagrindinis puslapis
+          href: deployment/on-premises-deployment-landing-page.md
+        - name: Vietinio visuotinio diegimo apžvalga
           href: deployment/on-premises-overview.md
         - name: Visuotinių vietinių diegimų planavimas ir rengimas
           href: deployment/plan-onprem-deployment.md
@@ -1011,11 +1059,12 @@
         - name: Vietinių projektų nustatymas
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
-          href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: Vietinių aplinkų diegimas („Platform Update 12“ ir naujesnės versijos)
+            - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimo pagrindinis puslapis
+              href: deployment/setup-deploy-on-premises-environments.md
+            - name: Vietinių aplinkų diegimas („Platform update 12“ar naujesnės versijos)
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: Vietinių aplinkų diegimas („Platform Update 8“ ir „Platform Update 11“)
+            - name: Vietinių aplinkų diegimas („Platform“ 8 ar 11 naujinimai)
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
             - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
               href: deployment/deploy-retail-onprem.md
@@ -1031,8 +1080,14 @@
           href: deployment/on-premises-diagnostics.md
         - name: Kartotinis visuotinis vietinių visuotinių įdiegčių diegimas
           href: deployment/redeploy-on-prem.md
-        - name: Vietos agento atnaujinimas
-          href: lifecycle-services/update-local-agent.md
+        - name: Vietos agentas
+          items:
+            - name: „AD FS Office 365“ suderinamumas
+              href: deployment/onprem-adfscompatibility.md
+            - name: Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai
+              href: lifecycle-services/pre-post-scripts.md
+            - name: Vietos agento atnaujinimas
+              href: lifecycle-services/update-local-agent.md
         - name: Kartotinis aplinkų konfigūravimas
           href: lifecycle-services/reconfigure-environment.md
         - name: Kliento interneto ryšys
@@ -1052,11 +1107,13 @@
         - name: Paketo programos trikčių diagnostika
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Plėtotės, naujinimai ir karštosios pataisos'
-  href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: Plėtojimas iš AX 2012 į „Finance and Operations“
-      href: migration-upgrade/upgrade-overview-2012.md
+    - name: 'Plėtočių, naujinimų ir karštųjų pataisų ištekliai'
+      href: migration-upgrade/upgrade-home-page.md
+    - name: Naujinimas iš AX 2012
       items:
+        - name: Naujinimas iš AX 2012 į „Finance and Operations“
+          href: migration-upgrade/upgrade-overview-2012.md
         - name: AX 2012 versijos naujinimas – planavimas naudojant plėtojimo analizavimo įrankį
           href: migration-upgrade/upgrade-analyzer-tool.md
         - name: AX 2012 versijos naujinimas – pastangų numatymas naudojant kodo plėtojimo tarnybą
@@ -1095,9 +1152,10 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: Biudžeto planavimo naujinimas
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations”
-      href: migration-upgrade/data-migration-tool.md
+    - name: Duomenų perkėlimas iš AX 2009
       items:
+        - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations”
+          href: migration-upgrade/data-migration-tool.md
         - name: AX 2009 perkėlimas – duomenų perkėlimo įrankio diegimas
           href: migration-upgrade/install-dmt.md
         - name: AX 2009 perkėlimas – schemų generavimas
@@ -1111,8 +1169,9 @@
         - name: AX 2009 perkėlimas – paketų importavimas
           href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: Kodo perkėlimas ir plėtojimas
-      href: migration-upgrade/code-migration-home-page.md
       items:
+        - name: Kodo perkėlimo ir plėtojimo pagrindinis puslapis
+          href: migration-upgrade/code-migration-home-page.md
         - name: Pasirengimas kodui perkelti
           href: migration-upgrade/prepare-migration.md
         - name: „Azure DevOps“ susiejimo konfigūravimas
@@ -1135,8 +1194,6 @@
           href: migration-upgrade/versions-update-policy.md
         - name: Naujausio platformos naujinimo taikymas aplinkoms
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: "„Dynamics AX‟ platformos plėtojimas į 2016\_m. rugpjūčio mėn. versiją"
-          href: migration-upgrade/update-platform-each-release.md
         - name: Duomenų plėtojimas programavimo arba demonstracinėje aplinkose
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: Kūrimo įrankių naujinimas
@@ -1167,13 +1224,14 @@
       items:
         - name: Pašalintos arba nebenaudojamos funkcijos
           href: migration-upgrade/deprecated-features.md
-        - name: Draudimas naudoti metodus ir metaduomenų elementus
+        - name: Pasenusių metodų ir metaduomenų elementų nenaudojimas
           href: migration-upgrade/deprecation-deletion-apis.md
         - name: "Nebenaudojamos API sąsajos (2017\_m. birželio mėn.)"
           href: migration-upgrade/deprecated-apis.md
 - name: Sistemos administravimas
-  href: sysadmin/system-administration-home-page.md
   items:
+    - name: Sistemos administravimo pagrindinis puslapis
+      href: sysadmin/system-administration-home-page.md
     - name: Saitų įtraukimas į jūsų teisines sąlygas ir privatumo nuostatas
       href: sysadmin/legal-terms-privacy-statement.md
     - name: Licencijų kodų ir konfigūracijos raktų ataskaita
@@ -1186,13 +1244,14 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: B2B vartotojų eksportavimas į „Azure AD“
       href: sysadmin/implement-b2b.md
-    - name: Seanso laukimo būsenos skirtojo laiko nustatymas
-      href: sysadmin/session-idle-timeout.md
-    - name: Vaidmenimis grįsta sauga
-      href: sysadmin/role-based-security.md
+    - name: Sauga
       items:
+        - name: Vaidmenimis grįsta sauga
+          href: sysadmin/role-based-security.md
         - name: Saugos architektūra
           href: sysadmin/security-architecture.md
+        - name: Seanso laukimo būsenos skirtojo laiko nustatymas
+          href: sysadmin/session-idle-timeout.md
         - name: Parengtos naudoti saugos ataskaitos
           href: sysadmin/security-reports.md
         - name: Naujų vartotojų kūrimas
@@ -1205,9 +1264,10 @@
           href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
         - name: Vartotojų priskyrimas saugos vaidmenims
           href: sysadmin/tasks/assign-users-security-roles.md
-    - name: Paketinis apdorojimas
-      href: sysadmin/batch-processing-overview.md
+    - name: Paketinis vykdymas
       items:
+        - name: Paketinio vykdymo apžvalga
+          href: sysadmin/batch-processing-overview.md
         - name: Paketinis vykdymas ir paketinio apdorojimo serveriai
           href: sysadmin/batch-server-overview.md
         - name: Paketinių užduočių kūrimas
@@ -1228,18 +1288,20 @@
           href: sysadmin/batch-history-cleanup.md
         - name: Paketinės užduoties vykdymo atšaukimas
           href: sysadmin/batch-abort.md
-    - name: Optimizavimo patarėjas
-      href: sysadmin/optimization-advisor-overview.md
+    - name: Optimizavimo patariamasis įrankis
       items:
+        - name: Optimizavimo patariamojo įrankio apžvalga
+          href: sysadmin/optimization-advisor-overview.md
         - name: Optimizavimo patariamojo įrankio taisyklių kūrimas
           href: sysadmin/create-rules-optimization-advisor.md
     - name: Pranešimas apie gamybos sutrikimus
       href: lifecycle-services/report-production-outage.md
-- name: „Lifecycle Services‟
+- name: „Lifecycle Services“
   items:
-    - name: „Lifecycle Services“ ištekliai
-      href: lifecycle-services/lcs.md
+    - name: 'Ištekliai, skirti „Lifecycle Services“'
       items:
+        - name: „Lifecycle Services“ ištekliai
+          href: lifecycle-services/lcs.md
         - name: LCS klientams
           href: lifecycle-services/lcs-works-lcs.md
         - name: LCS partneriams
@@ -1256,10 +1318,11 @@
       href: lifecycle-services/configure-lcs-security.md
     - name: Problemų ieška
       href: lifecycle-services/issue-search-lcs.md
-    - name: Konfigūracijų tvarkytuvas
-      href: lifecycle-services/configuration-manager-lcs.md
+    - name: Konfigūracijos tvarkyklė
       items:
-        - name: Konfigūracijų tvarkyklės nustatymas
+        - name: Konfigūracijos tvarkyklės apžvalga
+          href: lifecycle-services/configuration-manager-lcs.md
+        - name: Konfigūracijos tvarkyklės nustatymas
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: Kodo plėtojimo tarnybos konfigūravimas
       href: lifecycle-services/configure-execute-code-upgrade.md
@@ -1297,9 +1360,10 @@
       href: lifecycle-services/performancetroubleshooting.md
     - name: Užklausų mokomoji medžiaga
       href: lifecycle-services/querycookbook.md
-    - name: Microsoft Dynamics 365 Translation Service
-      href: lifecycle-services/translation-service-overview.md
+    - name: „Microsoft Dynamics 365 Translation Service“
       items:
+        - name: „Dynamics 365 Translation Service“ apžvalga
+          href: lifecycle-services/translation-service-overview.md
         - name: Vartotojo sąsajos failų vertimas
           href: lifecycle-services/use-translation-service.md
         - name: Dokumentacijos failų vertimas
