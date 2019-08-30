@@ -1,9 +1,9 @@
 ---
-title: Globalizacija
-description: Šioje temoje išvardyti ištekliai, kurie gali padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas ir pasiūlymus.
+title: Globalizacijos ištekliai
+description: Šioje temoje išvardyti ištekliai, skirti padėti daugiau sužinoti apie konkrečiose šalyse / regionuose veikiančias funkcijas ir pasiūlymus.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/01/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 668a24c54ded798658a136b8482823b595962306
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1850620"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864971"
 ---
-# <a name="globalization"></a>Globalizacija
+# <a name="globalization-resources"></a>Globalizacijos ištekliai
 
 ## <a name="local-and-regional-deployments"></a>Vietinis ir regioninis visuotinis diegimas
 Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugomi skirtingai nei kitose šalyse / regionuose, prieš diegiant „Finance and Operations“ jums gali tekti atsižvelgti į šalies / regiono reikalavimus. Jums gali būti praversti šie ištekliai:
@@ -112,7 +112,7 @@ Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-and-ops/get-st
         - [Lietuva](../../financials/localizations/lithuania.md)
         - [Meksika](../../financials/localizations/mexico.md)
         - [Malaizija](../../financials/localizations/malaysia.md)
-        - [Nyderlandai](../../financials/localizations/netherlands.md)
+        - [Olandija](../../financials/localizations/netherlands.md)
         - [Norvegija](../../financials/localizations/norway.md)
     :::column-end:::
     :::column:::

@@ -1,9 +1,9 @@
 ---
-title: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
+title: „Dynamics 365 for Finance and Operations“ dokumentacija
 description: „Microsoft Dynamics 365 for Finance and Operations“ dokumentacija.
 author: robinarh
 manager: AnnBe
-ms.date: 04/11/2019
+ms.date: 07/25/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 56e49776acdcdd730aec3fb80ff68534e935ca10
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856310"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864847"
 ---
-# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>„Microsoft Dynamics 365 for Finance and Operations“ dokumentacija
+# <a name="dynamics-365-for-finance-and-operations-documentation"></a>„Dynamics 365 for Finance and Operations“ dokumentacija
 
 [!include [banner](includes/banner.md)]
 
@@ -96,7 +96,7 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Kaštų valdymas</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">Atsargų valdymas</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Bendrasis planavimas</a></p>
-<p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Paraiškos</a></p>
+<p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Įsigijimas ir šaltinio pasirinkimas</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Produkto informacijos valdymas</a></p>
 <p><a href="../supply-chain/production-control/production-process-overview.md">Gamybos kontrolė</a></p>
 <p><a href="../supply-chain/sales-marketing/overview-sales-marketing.md">Pardavimas ir rinkodara</a></p>
@@ -120,8 +120,8 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Microsoft Dyn
 <p><a href="get-started/demo-data.md">Demonstraciniai duomenys</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administravimas</h3>
-<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Visuotinė debesies įdiegtis</a></p>
-<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Vietinė visuotinė įdiegtis</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Visuotinis debesies diegimas</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Vietinis visuotinis diegimas</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Versijos naujinimas</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Aptarnavimas</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">„Lifecycle Services“</a></p>
