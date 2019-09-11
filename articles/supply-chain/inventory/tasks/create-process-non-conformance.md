@@ -1,9 +1,9 @@
 ---
-title: Kurti ir apdoroti atitiktis
-description: Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą.
+title: Atitikimo kūrimas ir apdorojimas
+description: Šioje temoje aiškinama, kaip vykdyti neatitikimo valdymą remiantis esamu kokybės užsakymu.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572816"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916650"
 ---
-# <a name="create-and-process-a-conformance"></a><span data-ttu-id="71420-103">Kurti ir apdoroti atitiktis</span><span class="sxs-lookup"><span data-stu-id="71420-103">Create and process a conformance</span></span>
+# <a name="create-and-process-a-conformance"></a><span data-ttu-id="3c530-103">Atitikimo kūrimas ir apdorojimas</span><span class="sxs-lookup"><span data-stu-id="3c530-103">Create and process a conformance</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="71420-104">Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą.</span><span class="sxs-lookup"><span data-stu-id="71420-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="71420-105">Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes.</span><span class="sxs-lookup"><span data-stu-id="71420-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="71420-106">Paprastai šią procedūrą atlieka kokybės klerkas.</span><span class="sxs-lookup"><span data-stu-id="71420-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="71420-107">Kaip būtinąjį komponentą paleiskite užduoties įrašą „Tikrinti prekių kokybę“.</span><span class="sxs-lookup"><span data-stu-id="71420-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="71420-108">Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“.</span><span class="sxs-lookup"><span data-stu-id="71420-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="71420-109">Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.</span><span class="sxs-lookup"><span data-stu-id="71420-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
+<span data-ttu-id="3c530-104">Šioje temoje aiškinama, kaip vykdyti neatitikimo valdymą remiantis esamu kokybės užsakymu.</span><span class="sxs-lookup"><span data-stu-id="3c530-104">This topic explains how to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="3c530-105">Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes.</span><span class="sxs-lookup"><span data-stu-id="3c530-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="3c530-106">Paprastai šią procedūrą atlieka kokybės klerkas.</span><span class="sxs-lookup"><span data-stu-id="3c530-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="3c530-107">Reikia įvesti būtinus duomenis, todėl užpildykite instrukcijas, esančias [Prekių kokybės tikrinimas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span><span class="sxs-lookup"><span data-stu-id="3c530-107">As a prerequisite, complete the instructions in [Inspect the quality of goods](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span></span> <span data-ttu-id="3c530-108">Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“.</span><span class="sxs-lookup"><span data-stu-id="3c530-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="3c530-109">Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.</span><span class="sxs-lookup"><span data-stu-id="3c530-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 
 
-## <a name="select-a-quality-order"></a><span data-ttu-id="71420-110">Pasirinkti kokybės užsakymą</span><span class="sxs-lookup"><span data-stu-id="71420-110">Select a quality order</span></span>
-1. <span data-ttu-id="71420-111">Eikite į Kokybės užsakymai.</span><span class="sxs-lookup"><span data-stu-id="71420-111">Go to Quality orders.</span></span>
-2. <span data-ttu-id="71420-112">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="71420-112">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="71420-113">Pasirinkite kokybės užsakymą, sukurtą iš užduoties įrašo „Tikrinti prekių kokybę“.</span><span class="sxs-lookup"><span data-stu-id="71420-113">Select the quality order that was created from the "Inspect the quality of goods" task recording.</span></span>  
+## <a name="select-a-quality-order"></a><span data-ttu-id="3c530-110">Pasirinkti kokybės užsakymą</span><span class="sxs-lookup"><span data-stu-id="3c530-110">Select a quality order</span></span>
+1. <span data-ttu-id="3c530-111">Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Periodinės užduotys > Kokybės valdymas > Kokybės užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="3c530-111">In the navigation pane, go to **Modules > Inventory management > Periodic tasks > Quality management > Quality orders**.</span></span>
+2. <span data-ttu-id="3c530-112">Sąraše pasirinkite kokybės užsakymą, kuris buvo sukurtas [Prekių kokybės tikrinimas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span><span class="sxs-lookup"><span data-stu-id="3c530-112">In the list, select the quality order that was created in [Inspect the quality of goods](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).</span></span>  
 
-## <a name="create-a-nonconformance"></a><span data-ttu-id="71420-114">Neatitikties kūrimas</span><span class="sxs-lookup"><span data-stu-id="71420-114">Create a nonconformance</span></span>
-1. <span data-ttu-id="71420-115">Spustelėkite Užklausos.</span><span class="sxs-lookup"><span data-stu-id="71420-115">Click Inquiries.</span></span>
-2. <span data-ttu-id="71420-116">Spustelėkite Neatitiktys.</span><span class="sxs-lookup"><span data-stu-id="71420-116">Click Non conformances.</span></span>
-3. <span data-ttu-id="71420-117">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="71420-117">Click New.</span></span>
-4. <span data-ttu-id="71420-118">Lauke Problemos tipas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="71420-118">In the Problem type field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="71420-119">Pasirinkite problemą, kuri buvo nustatyta atliekant tikrinimo procesą.</span><span class="sxs-lookup"><span data-stu-id="71420-119">Select the problem that was found during the inspection process.</span></span>  
-5. <span data-ttu-id="71420-120">Lauke Problemos tipas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="71420-120">In the Problem type field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="71420-121">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="71420-121">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="71420-122">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="71420-122">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="71420-123">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="71420-123">Click OK.</span></span>
+## <a name="create-a-nonconformance"></a><span data-ttu-id="3c530-113">Neatitikties kūrimas</span><span class="sxs-lookup"><span data-stu-id="3c530-113">Create a nonconformance</span></span>
+1. <span data-ttu-id="3c530-114">Veiksmų srityje pažymėkite **Užklausos**.</span><span class="sxs-lookup"><span data-stu-id="3c530-114">In the action pane, select **Inquiries**.</span></span>
+2. <span data-ttu-id="3c530-115">Pasirinkite **Neatitikimai**.</span><span class="sxs-lookup"><span data-stu-id="3c530-115">Select **Non conformances**.</span></span>
+3. <span data-ttu-id="3c530-116">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="3c530-116">Select **New**.</span></span>
+4. <span data-ttu-id="3c530-117">Lauko **Problemos tipas** išskleidžiamajame meniu pažymėkite problemą, kuri buvo aptikta patikrinimo metu.</span><span class="sxs-lookup"><span data-stu-id="3c530-117">In the drop-down menu of the **Problem type** field, select the problem that was found during the inspection process.</span></span>  
+5. <span data-ttu-id="3c530-118">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="3c530-118">Select **OK**.</span></span>
 
-## <a name="approvereject-a-nonconformance"></a><span data-ttu-id="71420-124">Neatitikties tvirtinimas / atmetimas</span><span class="sxs-lookup"><span data-stu-id="71420-124">Approve/reject a nonconformance</span></span>
-1. <span data-ttu-id="71420-125">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="71420-125">Click Functions.</span></span>
-2. <span data-ttu-id="71420-126">Spustelėkite Patvirtinti neatitiktį.</span><span class="sxs-lookup"><span data-stu-id="71420-126">Click Approve non conformance.</span></span>
-    * <span data-ttu-id="71420-127">Šiuo atveju patvirtinkite neatitiktį.</span><span class="sxs-lookup"><span data-stu-id="71420-127">For this example, approve the nonconformance.</span></span> <span data-ttu-id="71420-128">Patvirtintas neatitiktis galima susieti su susijusiomis operacijomis, kad būtų įrašomas darbas, atliekamas tvarkant neatitiktį, ir įrašant užduotį kaip koregavimo apdorojimas.</span><span class="sxs-lookup"><span data-stu-id="71420-128">Approved nonconformances can be associated with related operations to record work that is done as part of the nonconformance handling and, as in this task recording, the processing of correction handling.</span></span>  
-3. <span data-ttu-id="71420-129">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="71420-129">Click Yes.</span></span>
+## <a name="approvereject-a-nonconformance"></a><span data-ttu-id="3c530-119">Neatitikties tvirtinimas / atmetimas</span><span class="sxs-lookup"><span data-stu-id="3c530-119">Approve/reject a nonconformance</span></span>
+1. <span data-ttu-id="3c530-120">Pasirinkite **Funkcijos**.</span><span class="sxs-lookup"><span data-stu-id="3c530-120">Select **Functions**.</span></span>
+2. <span data-ttu-id="3c530-121">Pažymėkite **Patvirtinti neatitikimą**.</span><span class="sxs-lookup"><span data-stu-id="3c530-121">Select **Approve non conformance**.</span></span> <span data-ttu-id="3c530-122">Šiuo atveju patvirtinkite neatitiktį.</span><span class="sxs-lookup"><span data-stu-id="3c530-122">For this example, approve the nonconformance.</span></span> <span data-ttu-id="3c530-123">Patvirtintus neatitikimus galima susieti su susijusiomis operacijomis, siekiant įrašyti darbą, kuris atliktas kaip neatitikimo tvarkymo dalis, ir, kaip šioje temoje, taisomojo tvarkymo apdorojimas.</span><span class="sxs-lookup"><span data-stu-id="3c530-123">Approved nonconformances can be associated with related operations to record work that is done as part of the nonconformance handling and, as in this topic, the processing of correction handling.</span></span>  
+3. <span data-ttu-id="3c530-124">Pasirinkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="3c530-124">Select **Yes**.</span></span>
 
-## <a name="create-a-correction-action"></a><span data-ttu-id="71420-130">Koregavimo veiksmo kūrimas</span><span class="sxs-lookup"><span data-stu-id="71420-130">Create a correction action</span></span>
-1. <span data-ttu-id="71420-131">Spustelėkite Taisymai.</span><span class="sxs-lookup"><span data-stu-id="71420-131">Click Corrections.</span></span>
-2. <span data-ttu-id="71420-132">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="71420-132">Click New.</span></span>
-3. <span data-ttu-id="71420-133">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="71420-133">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="71420-134">Lauke Darbuotojo numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="71420-134">In the Personnel number field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="71420-135">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="71420-135">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="71420-136">Spustelėkite Pažymėti.</span><span class="sxs-lookup"><span data-stu-id="71420-136">Click Select.</span></span>
-7. <span data-ttu-id="71420-137">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="71420-137">Click Attach.</span></span>
-    * <span data-ttu-id="71420-138">Sukurkite pastabą apie koregavimą.</span><span class="sxs-lookup"><span data-stu-id="71420-138">Create a note about the correction.</span></span> <span data-ttu-id="71420-139">Šiuo atveju veiksmas yra susisiekti su tiekėju ir aptarti neatitikties atvejį.</span><span class="sxs-lookup"><span data-stu-id="71420-139">For this example, the action is to contact the vendor to discuss the nonconformance case.</span></span>  
-8. <span data-ttu-id="71420-140">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="71420-140">Click New.</span></span>
-9. <span data-ttu-id="71420-141">Spustelėkite Pastaba.</span><span class="sxs-lookup"><span data-stu-id="71420-141">Click Note.</span></span>
-    * <span data-ttu-id="71420-142">Atkreipkite dėmesį, kad, priklausomai nuo ataskaitos nustatymų, skirtingus dokumentų tipus galima spausdinti ataskaitose, susijusiose su neatitikties valdymu.</span><span class="sxs-lookup"><span data-stu-id="71420-142">Note that, depending on the report setup, different document types can be printed on the reports that are related to nonconformance management.</span></span>  
-10. <span data-ttu-id="71420-143">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="71420-143">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="71420-144">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="71420-144">Close the page.</span></span>
+## <a name="create-a-correction-action"></a><span data-ttu-id="3c530-125">Koregavimo veiksmo kūrimas</span><span class="sxs-lookup"><span data-stu-id="3c530-125">Create a correction action</span></span>
+1. <span data-ttu-id="3c530-126">Pažymėkite **Taisymai**.</span><span class="sxs-lookup"><span data-stu-id="3c530-126">Select **Corrections**.</span></span>
+2. <span data-ttu-id="3c530-127">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="3c530-127">Select **New**.</span></span>
+3. <span data-ttu-id="3c530-128">Naujos eilutės lauke **Darbuotojų skaičius** išplečiamajame meniu pažymėkite pageidaujamą įrašą.</span><span class="sxs-lookup"><span data-stu-id="3c530-128">In the **Personnel number** field of the new row, select the desired record from the drop down menu.</span></span>
+4. <span data-ttu-id="3c530-129">Spustelėkite **Pažymėti**.</span><span class="sxs-lookup"><span data-stu-id="3c530-129">Click **Select**.</span></span>
+5. <span data-ttu-id="3c530-130">Pažymėkite **Pridėti**.</span><span class="sxs-lookup"><span data-stu-id="3c530-130">Select **Attach**.</span></span> <span data-ttu-id="3c530-131">Sukurkite pastabą apie koregavimą.</span><span class="sxs-lookup"><span data-stu-id="3c530-131">Create a note about the correction.</span></span> <span data-ttu-id="3c530-132">Šiuo atveju veiksmas yra susisiekti su tiekėju ir aptarti neatitikties atvejį.</span><span class="sxs-lookup"><span data-stu-id="3c530-132">For this example, the action is to contact the vendor to discuss the nonconformance case.</span></span>  
+6. <span data-ttu-id="3c530-133">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="3c530-133">Select **New**.</span></span>
+7. <span data-ttu-id="3c530-134">Pažymėkite **Pastaba**.</span><span class="sxs-lookup"><span data-stu-id="3c530-134">Select **Note**.</span></span> <span data-ttu-id="3c530-135">Atsižvelgiant į ataskaitos sąranką, galima atspausdinti skirtingus ataskaitų, kurios susijusios su neatitikimų valdymu, dokumentų tipus.</span><span class="sxs-lookup"><span data-stu-id="3c530-135">Depending on the report setup, different document types can be printed on the reports that are related to nonconformance management.</span></span>  
+8. <span data-ttu-id="3c530-136">Lauke **Aprašo laukas**surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3c530-136">In the **Description** field, type a value.</span></span>
+9. <span data-ttu-id="3c530-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="3c530-137">Close the page.</span></span>
 
-## <a name="maintain-a-correction"></a><span data-ttu-id="71420-145">Koregavimo tvarkymas</span><span class="sxs-lookup"><span data-stu-id="71420-145">Maintain a correction</span></span>
-1. <span data-ttu-id="71420-146">Spustelėkite Žymėjimas baigtas.</span><span class="sxs-lookup"><span data-stu-id="71420-146">Click Mark complete.</span></span>
-2. <span data-ttu-id="71420-147">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="71420-147">Click OK.</span></span>
-3. <span data-ttu-id="71420-148">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="71420-148">Close the page.</span></span>
+## <a name="maintain-a-correction"></a><span data-ttu-id="3c530-138">Koregavimo tvarkymas</span><span class="sxs-lookup"><span data-stu-id="3c530-138">Maintain a correction</span></span>
+1. <span data-ttu-id="3c530-139">Pažymėkite **Žymėti kaip užbaigtą**.</span><span class="sxs-lookup"><span data-stu-id="3c530-139">Select **Mark complete**.</span></span>
+2. <span data-ttu-id="3c530-140">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="3c530-140">Select **OK**.</span></span>
+3. <span data-ttu-id="3c530-141">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="3c530-141">Close the page.</span></span>
 
-## <a name="close-a-nonconformance"></a><span data-ttu-id="71420-149">Neatitikties uždarymas</span><span class="sxs-lookup"><span data-stu-id="71420-149">Close a nonconformance</span></span>
-1. <span data-ttu-id="71420-150">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="71420-150">Click Functions.</span></span>
-2. <span data-ttu-id="71420-151">Spustelėkite Uždaryti neatitiktį.</span><span class="sxs-lookup"><span data-stu-id="71420-151">Click Close non conformance.</span></span>
-3. <span data-ttu-id="71420-152">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="71420-152">Click Yes.</span></span>
-4. <span data-ttu-id="71420-153">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="71420-153">Close the page.</span></span>
-5. <span data-ttu-id="71420-154">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="71420-154">Close the page.</span></span>
+## <a name="close-a-nonconformance"></a><span data-ttu-id="3c530-142">Neatitikties uždarymas</span><span class="sxs-lookup"><span data-stu-id="3c530-142">Close a nonconformance</span></span>
+1. <span data-ttu-id="3c530-143">Pažymėkite **Funkcijos**.</span><span class="sxs-lookup"><span data-stu-id="3c530-143">Select **Functions**.</span></span>
+2. <span data-ttu-id="3c530-144">Pažymėkite **Uždaryti neatitikimą**.</span><span class="sxs-lookup"><span data-stu-id="3c530-144">Select **Close non conformance**.</span></span>
+3. <span data-ttu-id="3c530-145">Pasirinkite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="3c530-145">Select **Yes**.</span></span>
+4. <span data-ttu-id="3c530-146">Uždarykite puslapius.</span><span class="sxs-lookup"><span data-stu-id="3c530-146">Close the pages.</span></span>

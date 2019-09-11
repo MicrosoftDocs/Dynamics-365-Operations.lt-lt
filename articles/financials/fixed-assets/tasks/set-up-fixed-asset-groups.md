@@ -1,9 +1,9 @@
 ---
-title: Nustatyti ilgalaikio turto grupes
-description: Ši procedūra parodo, kaip sukurti naują ilgalaikio turto grupę.
+title: Ilgalaikio turto grupių nustatymas
+description: Šioje temoje paaiškinta, kaip sukurti naują ilgalaikio turto grupę.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,26 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8f52b73c07aad1047d6e6e7caf80daecc9c26e7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 246502f66c0cfcd4b4ed3c4b9f2ae616e71a1c50
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839790"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867540"
 ---
-# <a name="set-up-fixed-asset-groups"></a><span data-ttu-id="3805b-103">Nustatyti ilgalaikio turto grupes</span><span class="sxs-lookup"><span data-stu-id="3805b-103">Set up fixed asset groups</span></span>
+# <a name="set-up-fixed-asset-groups"></a><span data-ttu-id="42261-103">Ilgalaikio turto grupių nustatymas</span><span class="sxs-lookup"><span data-stu-id="42261-103">Set up fixed asset groups</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="3805b-104">Ši procedūra parodo, kaip sukurti naują ilgalaikio turto grupę.</span><span class="sxs-lookup"><span data-stu-id="3805b-104">This procedure shows how to create a new fixed asset group.</span></span> <span data-ttu-id="3805b-105">Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="3805b-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="42261-104">Šioje temoje paaiškinta, kaip sukurti naują ilgalaikio turto grupę.</span><span class="sxs-lookup"><span data-stu-id="42261-104">This topic explains how to create a new fixed asset group.</span></span> <span data-ttu-id="42261-105">Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="42261-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 
-1. <span data-ttu-id="3805b-106">Pasirinkite Ilgalaikis turtas > Nustatymas > Ilgalaikio turto grupės.</span><span class="sxs-lookup"><span data-stu-id="3805b-106">Go to Fixed assets > Setup > Fixed asset groups.</span></span>
-2. <span data-ttu-id="3805b-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="3805b-107">Click New.</span></span>
-3. <span data-ttu-id="3805b-108">Lauke Ilgalaikio turto grupė surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3805b-108">In the Fixed asset group field, type a value.</span></span>
-4. <span data-ttu-id="3805b-109">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3805b-109">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="3805b-110">Grupės Ilgalaikis turtas funkcijos Automatiškai numeruoti ilgalaikį turtą ir Numeracijos kodas bus viršesni už nuostatas ilgalaikio turto parametruose.</span><span class="sxs-lookup"><span data-stu-id="3805b-110">Autonumber fixed assets and Number sequence code on the Fixed asset group will override the settings on the Fixed assets parameters.</span></span> <span data-ttu-id="3805b-111">Jei šios ilgalaikio turto grupės turtas bus numeruojamas kitaip nei kitose grupėse, čia numeravimą galite keisti.</span><span class="sxs-lookup"><span data-stu-id="3805b-111">You can change it here if the assets in this fixed asset group will have different numbering from other groups.</span></span>  
-5. <span data-ttu-id="3805b-112">Spustelėkite Knygos.</span><span class="sxs-lookup"><span data-stu-id="3805b-112">Click Books.</span></span>
-6. <span data-ttu-id="3805b-113">Lauke Knyga įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="3805b-113">In the Book field, enter or select a value.</span></span>
-    * <span data-ttu-id="3805b-114">Laukas Skaičiuoti nusidėvėjimą nustatytas į Taip, todėl turto knyga bus įtraukta į nusidėvėjimo pasiūlymus.</span><span class="sxs-lookup"><span data-stu-id="3805b-114">The Calculate depreciation field is set to Yes, so the asset book will be included in depreciation proposals.</span></span> <span data-ttu-id="3805b-115">Jei laukas Skaičiuoti nusidėvėjimą nustatytas į Ne, turtas nebus automatiškai nudėvimas.</span><span class="sxs-lookup"><span data-stu-id="3805b-115">If Calculate depreciation is set to No, the asset will not be automatically depreciated.</span></span>  
-7. <span data-ttu-id="3805b-116">Nustatykite turto dėvėjimo laiką metais.</span><span class="sxs-lookup"><span data-stu-id="3805b-116">Set the Service life of the asset, in years.</span></span>
-    * <span data-ttu-id="3805b-117">Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.</span><span class="sxs-lookup"><span data-stu-id="3805b-117">Note that the Depreciation periods field value is calculated after setting the Service life.</span></span>  
-8. <span data-ttu-id="3805b-118">Lauke Nusidėvėjimo konvencija pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="3805b-118">In the Depreciation convention field, select an option.</span></span>
-9. <span data-ttu-id="3805b-119">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="3805b-119">Close the page.</span></span>
+1. <span data-ttu-id="42261-106">Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Sąranka > Ilgalaikio turto grupės**.</span><span class="sxs-lookup"><span data-stu-id="42261-106">In the navigation pane, go to **Modules > Fixed assets > Setup > Fixed asset groups**.</span></span>
+2. <span data-ttu-id="42261-107">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="42261-107">Select **New**.</span></span>
+3. <span data-ttu-id="42261-108">Lauke **Ilgalaikio turto grupė** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="42261-108">In the **Fixed asset group** field, type a value.</span></span>
+4. <span data-ttu-id="42261-109">Lauke **Pavadinimas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="42261-109">In the **Name** field, type a value.</span></span> <span data-ttu-id="42261-110">**Ilgalaikio turto** grupės parinktys Automatiškai numeruoti ilgalaikį turtą ir Numeracijos kodas perrašys ilgalaikio turto parametrų nuostatas.</span><span class="sxs-lookup"><span data-stu-id="42261-110">Autonumber fixed assets and Number sequence code on the **Fixed asset** group will override the settings on the Fixed assets parameters.</span></span> <span data-ttu-id="42261-111">Jei šios ilgalaikio turto grupės turtas bus numeruojamas kitaip nei kitose grupėse, čia numeravimą galite keisti.</span><span class="sxs-lookup"><span data-stu-id="42261-111">You can change it here if the assets in this fixed asset group will have different numbering from other groups.</span></span>  
+5. <span data-ttu-id="42261-112">Pasirinkite **Knygos**.</span><span class="sxs-lookup"><span data-stu-id="42261-112">Select **Books**.</span></span>
+6. <span data-ttu-id="42261-113">Lauke **Knyga** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="42261-113">In the **Book** field, enter or select a value.</span></span> <span data-ttu-id="42261-114">Lauke **Skaičiuoti nusidėvėjimą** nustatyta reikšmė **Taip**, todėl turto knyga bus įtraukta į nusidėvėjimo pasiūlymus.</span><span class="sxs-lookup"><span data-stu-id="42261-114">The **Calculate depreciation** field is set to **Yes**, so the asset book will be included in depreciation proposals.</span></span> <span data-ttu-id="42261-115">Jei lauke **Skaičiuoti nusidėvėjimą** nustatyta reikšmė **Ne**, turtas automatiškai nebus laikomas nusidėvėjusiu. </span><span class="sxs-lookup"><span data-stu-id="42261-115">If **Calculate depreciation** is set to **No**, the asset will not be automatically depreciated.</span></span>  
+7. <span data-ttu-id="42261-116">Nustatykite turto dėvėjimo laiką metais.</span><span class="sxs-lookup"><span data-stu-id="42261-116">Set the Service life of the asset, in years.</span></span> <span data-ttu-id="42261-117">Atkreipkite dėmesį, kad lauko **Nusidėvėjimo laikotarpiai** reikšmė apskaičiuojama nustačius dėvėjimo laiką.</span><span class="sxs-lookup"><span data-stu-id="42261-117">Note that the **Depreciation periods** field value is calculated after setting the Service life.</span></span>  
+8. <span data-ttu-id="42261-118">Lauke **Nusidėvėjimo konvencija** pažymėkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="42261-118">In the **Depreciation convention** field, select an option.</span></span>
+9. <span data-ttu-id="42261-119">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="42261-119">Close the page.</span></span>
 

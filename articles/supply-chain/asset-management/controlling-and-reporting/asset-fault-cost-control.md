@@ -1,0 +1,58 @@
+---
+title: Turto gedimų išlaidų kontrolė
+description: Šioje temoje aiškinamas turto gedimo kaštų valdymas turto valdyme.
+author: josaw1
+manager: AnnBe
+ms.date: 08/23/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 2fe75c327cdc2bdd76173430ed551895f5941c7b
+ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "1918308"
+---
+# <a name="asset-fault-cost-control"></a><span data-ttu-id="b9af9-103">Turto gedimų išlaidų kontrolė</span><span class="sxs-lookup"><span data-stu-id="b9af9-103">Asset fault cost control</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+[!include [banner](../../includes/preview-banner.md)]
+
+<span data-ttu-id="b9af9-104">Turto valdyme galite apskaičiuoti turto gedimo registracijų kaštus, kad peržiūrėtumėte faktinius kaštus, palygintus su gedimo biudžeto kaštais.</span><span class="sxs-lookup"><span data-stu-id="b9af9-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs on faults.</span></span> <span data-ttu-id="b9af9-105">Faktiniai kaštai pagrįsti užregistruotomis operacijomis.</span><span class="sxs-lookup"><span data-stu-id="b9af9-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="b9af9-106">Data yra gedimo data, kada įrašytas požymis.</span><span class="sxs-lookup"><span data-stu-id="b9af9-106">The date is the fault date on which the symptom was recorded.</span></span>
+
+1. <span data-ttu-id="b9af9-107">Spustelėkite **Turto valdymas** > **Užklausos** > **Turto gedimas** > **Turto gedimo kaštų valdymas**.</span><span class="sxs-lookup"><span data-stu-id="b9af9-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
+
+2. <span data-ttu-id="b9af9-108">Dialoge lange **Turto gedimo kaštų valdymas** pažymėkite finansinių matmenų rinkinį, kad jis būtų įtrauktas į skaičiavimą, jei reikia.</span><span class="sxs-lookup"><span data-stu-id="b9af9-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
+
+4. <span data-ttu-id="b9af9-109">Perjungimo mygtuke **Praleisti nulį** pažymėkite Taip, jei nenorite, kad būtų rodomi nulinių kaštų rezultatai.</span><span class="sxs-lookup"><span data-stu-id="b9af9-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
+
+5. <span data-ttu-id="b9af9-110">Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti kaštų valdymo eilutėse.</span><span class="sxs-lookup"><span data-stu-id="b9af9-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> <span data-ttu-id="b9af9-111">Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, visos turto gedimo kaštų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų.</span><span class="sxs-lookup"><span data-stu-id="b9af9-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> <span data-ttu-id="b9af9-112">Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, turto gedimo kaštų valdymo eilutes.</span><span class="sxs-lookup"><span data-stu-id="b9af9-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
+
+6. <span data-ttu-id="b9af9-113">Jei norite apriboti iešką, „FastTab“ **Įtrauktini įrašai** galite pažymėti konkretų turtą, gedimų datas ir gedimo priežastis.</span><span class="sxs-lookup"><span data-stu-id="b9af9-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
+
+7. <span data-ttu-id="b9af9-114">Norėdami pradėti skaičiavimą, spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="b9af9-114">Click **OK** to start the calculation.</span></span>
+
+8. <span data-ttu-id="b9af9-115">Veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, kad būtų rodomas pageidaujamas išsamus skaičiavimo lygis.</span><span class="sxs-lookup"><span data-stu-id="b9af9-115">In the **Group by...** action pane groups, click the relevant buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="b9af9-116">Pažymėti veiksmų srities mygtukai yra paryškinti.</span><span class="sxs-lookup"><span data-stu-id="b9af9-116">The selected action pane buttons are highlighted.</span></span> <span data-ttu-id="b9af9-117">Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.</span><span class="sxs-lookup"><span data-stu-id="b9af9-117">Click on a button to activate or deactivate it.</span></span>
+
+<span data-ttu-id="b9af9-118">Toliau pateiktame paveiksle rodomas turto gedimo kaštų valdymo skaičiavimo pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="b9af9-118">The figure below shows an example of an asset fault cost control calculation.</span></span>
+
+![1 pav.](media/05-controlling-and-reporting.png)
+
+<span data-ttu-id="b9af9-120">Daugiau informacijos, kaip nustatyti gedimus, žr. skyriuje [Gedimų valdymas](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="b9af9-120">Refer to the [Fault management](../setup-for-work-orders/fault-management.md) section for information on how to set up faults.</span></span>
+
+>[!NOTE]
+><span data-ttu-id="b9af9-121">Lauke **Originalus biudžetas** rodomi biudžeto kaštai iš darbo užsakymo prognozės.</span><span class="sxs-lookup"><span data-stu-id="b9af9-121">The **Original budget** field shows budget costs from the work order forecast.</span></span> <span data-ttu-id="b9af9-122">Lauke **Faktiniai kaštai** rodomi darbo užsakymuose užregistruoti kaštai.</span><span class="sxs-lookup"><span data-stu-id="b9af9-122">The **Actual cost** field shows posted costs on work orders.</span></span> <span data-ttu-id="b9af9-123">Lauke **Skirti kaštai** rodomi bendri kaštai, kuriuos jūsų įmonė skyrė pagal darbo užsakymus.</span><span class="sxs-lookup"><span data-stu-id="b9af9-123">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
+

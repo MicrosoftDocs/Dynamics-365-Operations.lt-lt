@@ -1,9 +1,9 @@
 ---
-title: Sandėlio valdymas
+title: Sandėlio valdymo apžvalga
 description: Sandėlio valdymą naudokite sandėlio procesams stebėti ir automatizuoti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,60 +16,60 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c900ef715b62484c1fb6576b7f0c97cdea4e4284
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1543404"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865141"
 ---
-# <a name="warehouse-management"></a><span data-ttu-id="d2ae0-103">Sandėlio valdymas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-103">Warehouse management</span></span>
+# <a name="warehouse-management-overview"></a><span data-ttu-id="75b87-103">Sandėlio valdymo apžvalga</span><span class="sxs-lookup"><span data-stu-id="75b87-103">Warehouse management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d2ae0-104">„Dynamics 365 for Finance and Operations“ sandėlio valdymo modulis leidžia valdyti sandėlio procesus gamybos, platinimo ir mažmeninės prekybos įmonėse.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-104">The Warehouse management module for Dynamics 365 for Finance and Operations lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="d2ae0-105">Šiame modulyje yra įvairių funkcijų, skirtų optimaliai bet kada palaikyti sandėlio procesus.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="d2ae0-106">Sandėlio valdymas yra visiškai integruotas su kitais „Finance and Operations“ verslo procesais, pvz., transportavimu, gamyba, kokybės kontrole, pirkimu, perkėlimu, pardavimu ir grąžinimais.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-106">Warehouse management is fully integrated with other business processes in Finance and Operations such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
+<span data-ttu-id="75b87-104">„Dynamics 365 for Finance and Operations“ sandėlio valdymo modulis leidžia valdyti sandėlio procesus gamybos, platinimo ir mažmeninės prekybos įmonėse.</span><span class="sxs-lookup"><span data-stu-id="75b87-104">The Warehouse management module for Dynamics 365 for Finance and Operations lets you manage warehouse processes in manufacturing, distribution, and retail companies.</span></span> <span data-ttu-id="75b87-105">Šiame modulyje yra įvairių funkcijų, skirtų optimaliai bet kada palaikyti sandėlio procesus.</span><span class="sxs-lookup"><span data-stu-id="75b87-105">This module has a wide range of features to support the warehouse facility at an optimal level, at any time.</span></span> <span data-ttu-id="75b87-106">Sandėlio valdymas yra visiškai integruotas su kitais „Finance and Operations“ verslo procesais, pvz., transportavimu, gamyba, kokybės kontrole, pirkimu, perkėlimu, pardavimu ir grąžinimais.</span><span class="sxs-lookup"><span data-stu-id="75b87-106">Warehouse management is fully integrated with other business processes in Finance and Operations such as transportation, manufacturing, quality control, purchase, transfer, sales, and returns.</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="d2ae0-107">Pradžia</span><span class="sxs-lookup"><span data-stu-id="d2ae0-107">Get started</span></span>
-<span data-ttu-id="d2ae0-108">Norėdami pradėti dirbti su moduliu Sandėlio valdymas, turite nustatyti bendruosius sandėlio parametrus, kad būtų galima palaikyti jūsų įmonės verslo procesus.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-108">To start working with Warehouse management, you need to complete the setup of the general warehouse parameters to support the business processes of you company.</span></span>
+## <a name="get-started"></a><span data-ttu-id="75b87-107">Pradžia</span><span class="sxs-lookup"><span data-stu-id="75b87-107">Get started</span></span>
+<span data-ttu-id="75b87-108">Norėdami pradėti dirbti su moduliu Sandėlio valdymas, turite nustatyti bendruosius sandėlio parametrus, kad būtų galima palaikyti jūsų įmonės verslo procesus.</span><span class="sxs-lookup"><span data-stu-id="75b87-108">To start working with Warehouse management, you need to complete the setup of the general warehouse parameters to support the business processes of you company.</span></span>
 
-- <span data-ttu-id="d2ae0-109">Norėdami nustatyti bendruosius sandėlio parametrus, eikite į puslapį **Sandėlio valdymo parametrai**, esantį dalyje **Sandėlio valdymas** > **Sąranka**.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-109">Go to the **Warehouse management parameters** page under **Warehouse management** > **Setup** to set up general warehouse parameters.</span></span>
+- <span data-ttu-id="75b87-109">Norėdami nustatyti bendruosius sandėlio parametrus, eikite į puslapį **Sandėlio valdymo parametrai**, esantį dalyje **Sandėlio valdymas** > **Sąranka**.</span><span class="sxs-lookup"><span data-stu-id="75b87-109">Go to the **Warehouse management parameters** page under **Warehouse management** > **Setup** to set up general warehouse parameters.</span></span>
 
-<span data-ttu-id="d2ae0-110">Pagal verslo poreikius turite sukonfigūruoti sandėlio gavimo ir siuntimo procesų darbo eigų komponentus.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-110">You must configure components for inbound and outbound warehouse process workflows according to business requirements.</span></span> <span data-ttu-id="d2ae0-111">Svarbiausi komponentai, kuriuos turite sukonfigūruoti, yra bangos šablonai, darbo šablonai, darbo telkiniai ir vietų nurodymai.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-111">The most important components that you must configure are wave templates, work templates, work pools, and location directives.</span></span>
+<span data-ttu-id="75b87-110">Pagal verslo poreikius turite sukonfigūruoti sandėlio gavimo ir siuntimo procesų darbo eigų komponentus.</span><span class="sxs-lookup"><span data-stu-id="75b87-110">You must configure components for inbound and outbound warehouse process workflows according to business requirements.</span></span> <span data-ttu-id="75b87-111">Svarbiausi komponentai, kuriuos turite sukonfigūruoti, yra bangos šablonai, darbo šablonai, darbo telkiniai ir vietų nurodymai.</span><span class="sxs-lookup"><span data-stu-id="75b87-111">The most important components that you must configure are wave templates, work templates, work pools, and location directives.</span></span>
 
-- [<span data-ttu-id="d2ae0-112">Sandėlio konfigūracija</span><span class="sxs-lookup"><span data-stu-id="d2ae0-112">Warehouse configuration</span></span>](warehouse-configuration.md)
-- [<span data-ttu-id="d2ae0-113">Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus</span><span class="sxs-lookup"><span data-stu-id="d2ae0-113">Control warehouse work by using work templates and location directives</span></span>](control-warehouse-location-directives.md)
-- [<span data-ttu-id="d2ae0-114">Mobiliųjų įrenginių nustatymas darbui sandėlyje</span><span class="sxs-lookup"><span data-stu-id="d2ae0-114">Set up mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
-- [<span data-ttu-id="d2ae0-115">Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-115">Set up a location directive for purchase order put-away</span></span>](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
-- [<span data-ttu-id="d2ae0-116">Nustatyti pirkimo užsakymų darbo šabloną</span><span class="sxs-lookup"><span data-stu-id="d2ae0-116">Set up a work template for purchase orders</span></span>](./tasks/set-up-work-template-purchase-orders.md)
+- [<span data-ttu-id="75b87-112">Sandėlio konfigūracija</span><span class="sxs-lookup"><span data-stu-id="75b87-112">Warehouse configuration</span></span>](warehouse-configuration.md)
+- [<span data-ttu-id="75b87-113">Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus</span><span class="sxs-lookup"><span data-stu-id="75b87-113">Control warehouse work by using work templates and location directives</span></span>](control-warehouse-location-directives.md)
+- [<span data-ttu-id="75b87-114">Mobiliųjų įrenginių nustatymas darbui sandėlyje</span><span class="sxs-lookup"><span data-stu-id="75b87-114">Set up mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
+- [<span data-ttu-id="75b87-115">Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.</span><span class="sxs-lookup"><span data-stu-id="75b87-115">Set up a location directive for purchase order put-away</span></span>](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)
+- [<span data-ttu-id="75b87-116">Nustatyti pirkimo užsakymų darbo šabloną</span><span class="sxs-lookup"><span data-stu-id="75b87-116">Set up a work template for purchase orders</span></span>](./tasks/set-up-work-template-purchase-orders.md)
 
-## <a name="warehouse-management-processes"></a><span data-ttu-id="d2ae0-117">Sandėlio valdymo procesai</span><span class="sxs-lookup"><span data-stu-id="d2ae0-117">Warehouse management processes</span></span>
-- <span data-ttu-id="d2ae0-118">Integruotas pardavimo užsakymų, grąžinimų, perkėlimo užsakymų, gamybos užsakymų ir „kanban“ šaltinio dokumentų palaikymas.</span><span class="sxs-lookup"><span data-stu-id="d2ae0-118">Integrated support for source documents for sales orders, returns, transfer orders, production orders, and kanban</span></span>  
-- <span data-ttu-id="d2ae0-119">Lankstus gaunamų ir siunčiamų medžiagų darbo eigų palaikymas pagal užklausas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-119">Flexible, inbound and outbound material workflow support based on queries</span></span>
-- <span data-ttu-id="d2ae0-120">Visiška integracija su modulio Gamyba ir Transportavimas pasiūlymais</span><span class="sxs-lookup"><span data-stu-id="d2ae0-120">Full integration with the Manufacturing and Transportation offerings</span></span>
-- <span data-ttu-id="d2ae0-121">Visiška vietos sandėliavimo limitų ir vietos tūrio metrikos kontrolė</span><span class="sxs-lookup"><span data-stu-id="d2ae0-121">Full control of location stocking limits and location volumetrics</span></span>
-- <span data-ttu-id="d2ae0-122">Atsargų ypatybės, valdomos pagal atsargų būseną</span><span class="sxs-lookup"><span data-stu-id="d2ae0-122">Inventory properties controlled by inventory status</span></span>
-- <span data-ttu-id="d2ae0-123">Visiškas paketo ir serijos prekių palaikymas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-123">Full batch and serial item support</span></span>
-- <span data-ttu-id="d2ae0-124">Įvairios prekių gavimo galimybės</span><span class="sxs-lookup"><span data-stu-id="d2ae0-124">Various item receiving capabilities</span></span>
-- <span data-ttu-id="d2ae0-125">Kelios išrinkimo strategijos</span><span class="sxs-lookup"><span data-stu-id="d2ae0-125">Multiple picking strategies</span></span>
-- <span data-ttu-id="d2ae0-126">Iš karto palaikomi kitos kartos brūkšninių kodų skaitytuvai</span><span class="sxs-lookup"><span data-stu-id="d2ae0-126">Out-of-the-box support for the next generation of barcode scanners</span></span>
-- <span data-ttu-id="d2ae0-127">Sandėlio procesams skirti padėklų / konteinerių tipai</span><span class="sxs-lookup"><span data-stu-id="d2ae0-127">Pallet/container types for warehouse processes</span></span>
-- <span data-ttu-id="d2ae0-128">Išplėstinės skaičiavimo galimybės</span><span class="sxs-lookup"><span data-stu-id="d2ae0-128">Advanced counting capabilities</span></span>
-- <span data-ttu-id="d2ae0-129">Etikečių spausdinimas ir nukreipimas palaikant „Zebra ZPL“</span><span class="sxs-lookup"><span data-stu-id="d2ae0-129">Label printing and label routing with Zebra ZPL support</span></span>
-- <span data-ttu-id="d2ae0-130">Verslo įžvalgų integravimas į „Power BI“</span><span class="sxs-lookup"><span data-stu-id="d2ae0-130">Business intelligence integration into Power BI</span></span>
-- <span data-ttu-id="d2ae0-131">Rankinis ir automatinis atsargų perkėlimas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-131">Manual and automatic movement of inventory</span></span>
-- <span data-ttu-id="d2ae0-132">Visiškai integruota kokybės kontrolė (QMS)</span><span class="sxs-lookup"><span data-stu-id="d2ae0-132">Fully-integrated quality control (QMS)</span></span>
-- <span data-ttu-id="d2ae0-133">Visiškas darbuotojų medžiagų sandėliavimo atsekamumas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-133">Full traceability of workers' material handling</span></span>
-- <span data-ttu-id="d2ae0-134">Siunčiamų bangų apdorojimas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-134">Outbound wave processing</span></span>
-- <span data-ttu-id="d2ae0-135">Rankinio pakavimo ir automatinio krovimo į konteinerius palaikymas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-135">Manual packing and automatic containerization support</span></span>
-- <span data-ttu-id="d2ae0-136">Klasterio paėmimas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-136">Cluster picking</span></span>
-- <span data-ttu-id="d2ae0-137">Paprastas prekių skirstymas</span><span class="sxs-lookup"><span data-stu-id="d2ae0-137">Simple cross docking</span></span>
+## <a name="warehouse-management-processes"></a><span data-ttu-id="75b87-117">Sandėlio valdymo procesai</span><span class="sxs-lookup"><span data-stu-id="75b87-117">Warehouse management processes</span></span>
+- <span data-ttu-id="75b87-118">Integruotas pardavimo užsakymų, grąžinimų, perkėlimo užsakymų, gamybos užsakymų ir „kanban“ šaltinio dokumentų palaikymas.</span><span class="sxs-lookup"><span data-stu-id="75b87-118">Integrated support for source documents for sales orders, returns, transfer orders, production orders, and kanban</span></span>  
+- <span data-ttu-id="75b87-119">Lankstus gaunamų ir siunčiamų medžiagų darbo eigų palaikymas pagal užklausas</span><span class="sxs-lookup"><span data-stu-id="75b87-119">Flexible, inbound and outbound material workflow support based on queries</span></span>
+- <span data-ttu-id="75b87-120">Visiška integracija su modulio Gamyba ir Transportavimas pasiūlymais</span><span class="sxs-lookup"><span data-stu-id="75b87-120">Full integration with the Manufacturing and Transportation offerings</span></span>
+- <span data-ttu-id="75b87-121">Visiška vietos sandėliavimo limitų ir vietos tūrio metrikos kontrolė</span><span class="sxs-lookup"><span data-stu-id="75b87-121">Full control of location stocking limits and location volumetrics</span></span>
+- <span data-ttu-id="75b87-122">Atsargų ypatybės, valdomos pagal atsargų būseną</span><span class="sxs-lookup"><span data-stu-id="75b87-122">Inventory properties controlled by inventory status</span></span>
+- <span data-ttu-id="75b87-123">Visiškas paketo ir serijos prekių palaikymas</span><span class="sxs-lookup"><span data-stu-id="75b87-123">Full batch and serial item support</span></span>
+- <span data-ttu-id="75b87-124">Įvairios prekių gavimo galimybės</span><span class="sxs-lookup"><span data-stu-id="75b87-124">Various item receiving capabilities</span></span>
+- <span data-ttu-id="75b87-125">Kelios išrinkimo strategijos</span><span class="sxs-lookup"><span data-stu-id="75b87-125">Multiple picking strategies</span></span>
+- <span data-ttu-id="75b87-126">Iš karto palaikomi kitos kartos brūkšninių kodų skaitytuvai</span><span class="sxs-lookup"><span data-stu-id="75b87-126">Out-of-the-box support for the next generation of barcode scanners</span></span>
+- <span data-ttu-id="75b87-127">Sandėlio procesams skirti padėklų / konteinerių tipai</span><span class="sxs-lookup"><span data-stu-id="75b87-127">Pallet/container types for warehouse processes</span></span>
+- <span data-ttu-id="75b87-128">Išplėstinės skaičiavimo galimybės</span><span class="sxs-lookup"><span data-stu-id="75b87-128">Advanced counting capabilities</span></span>
+- <span data-ttu-id="75b87-129">Etikečių spausdinimas ir nukreipimas palaikant „Zebra ZPL“</span><span class="sxs-lookup"><span data-stu-id="75b87-129">Label printing and label routing with Zebra ZPL support</span></span>
+- <span data-ttu-id="75b87-130">Verslo įžvalgų integravimas į „Power BI“</span><span class="sxs-lookup"><span data-stu-id="75b87-130">Business intelligence integration into Power BI</span></span>
+- <span data-ttu-id="75b87-131">Rankinis ir automatinis atsargų perkėlimas</span><span class="sxs-lookup"><span data-stu-id="75b87-131">Manual and automatic movement of inventory</span></span>
+- <span data-ttu-id="75b87-132">Visiškai integruota kokybės kontrolė (QMS)</span><span class="sxs-lookup"><span data-stu-id="75b87-132">Fully-integrated quality control (QMS)</span></span>
+- <span data-ttu-id="75b87-133">Visiškas darbuotojų medžiagų sandėliavimo atsekamumas</span><span class="sxs-lookup"><span data-stu-id="75b87-133">Full traceability of workers' material handling</span></span>
+- <span data-ttu-id="75b87-134">Siunčiamų bangų apdorojimas</span><span class="sxs-lookup"><span data-stu-id="75b87-134">Outbound wave processing</span></span>
+- <span data-ttu-id="75b87-135">Rankinio pakavimo ir automatinio krovimo į konteinerius palaikymas</span><span class="sxs-lookup"><span data-stu-id="75b87-135">Manual packing and automatic containerization support</span></span>
+- <span data-ttu-id="75b87-136">Klasterio paėmimas</span><span class="sxs-lookup"><span data-stu-id="75b87-136">Cluster picking</span></span>
+- <span data-ttu-id="75b87-137">Paprastas prekių skirstymas</span><span class="sxs-lookup"><span data-stu-id="75b87-137">Simple cross docking</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d2ae0-138">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="d2ae0-138">Additional resources</span></span>
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="d2ae0-139">Kas nauja ir kuriama</span><span class="sxs-lookup"><span data-stu-id="d2ae0-139">What's new and in development</span></span>
-<span data-ttu-id="d2ae0-140">Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="d2ae0-140">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="75b87-138">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="75b87-138">Additional resources</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="75b87-139">Kas nauja ir kuriama</span><span class="sxs-lookup"><span data-stu-id="75b87-139">What's new and in development</span></span>
+<span data-ttu-id="75b87-140">Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="75b87-140">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
 
-### <a name="blogs"></a><span data-ttu-id="d2ae0-141">Tinklaraščiai</span><span class="sxs-lookup"><span data-stu-id="d2ae0-141">Blogs</span></span>
-<span data-ttu-id="d2ae0-142">Nuomonių, naujienų ir kitos informacijos apie modulį Sandėlio valdymas ir kitus sprendimus galite rasti [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog).</span><span class="sxs-lookup"><span data-stu-id="d2ae0-142">You can find opinions, news, and other information about Warehouse management and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog).</span></span>
+### <a name="blogs"></a><span data-ttu-id="75b87-141">Tinklaraščiai</span><span class="sxs-lookup"><span data-stu-id="75b87-141">Blogs</span></span>
+<span data-ttu-id="75b87-142">Nuomonių, naujienų ir kitos informacijos apie modulį Sandėlio valdymas ir kitus sprendimus galite rasti [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog).</span><span class="sxs-lookup"><span data-stu-id="75b87-142">You can find opinions, news, and other information about Warehouse management and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog).</span></span>
 
 
  

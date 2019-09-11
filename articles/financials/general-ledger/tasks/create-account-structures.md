@@ -3,7 +3,7 @@ title: Sukurti sąskaitos struktūras
 description: Šis užduoties vadovas padeda sukurti sąskaitos struktūrą.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,69 +16,48 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2183f88356fc8094781af147bf079c4e53ffb2b4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846708"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916235"
 ---
-# <a name="create-account-structures"></a><span data-ttu-id="9e0ad-103">Sukurti sąskaitos struktūras</span><span class="sxs-lookup"><span data-stu-id="9e0ad-103">Create account structures</span></span>
+# <a name="create-account-structures"></a><span data-ttu-id="f0910-103">Sukurti sąskaitos struktūras</span><span class="sxs-lookup"><span data-stu-id="f0910-103">Create account structures</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9e0ad-104">Šis užduoties vadovas padeda sukurti sąskaitos struktūrą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-104">This task guide steps through creating an account structure.</span></span> <span data-ttu-id="9e0ad-105">Veiksmuose naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-105">The steps use demo data company USMF.</span></span>
+<span data-ttu-id="f0910-104">Šis užduoties vadovas padeda sukurti sąskaitos struktūrą.</span><span class="sxs-lookup"><span data-stu-id="f0910-104">This task guide steps through creating an account structure.</span></span> <span data-ttu-id="f0910-105">Veiksmuose naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="f0910-105">The steps use demo data company USMF.</span></span>
 
-1. <span data-ttu-id="9e0ad-106">Pasirinkite Didžioji knyga > Sąskaitų planas > Struktūros > Konfigūruoti sąskaitų struktūras.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-106">Go to General ledger > Chart of accounts > Structures > Configure account structures.</span></span>
-2. <span data-ttu-id="9e0ad-107">Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-107">Click New to open the drop dialog.</span></span>
-3. <span data-ttu-id="9e0ad-108">Lauke Sąskaitos struktūra įveskite pavadinimą, kuriuo nusakytumėte sąskaitos struktūros paskirtį.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-108">In the Account structure field, type a name to describe the purpose of the account structure.</span></span>
-4. <span data-ttu-id="9e0ad-109">Lauke Aprašas įveskite aprašymą, kuriuo nurodytumėte sąskaitos struktūros paskirtį.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-109">In the Description field, type a description to specify the purpose of the account structure.</span></span>
-5. <span data-ttu-id="9e0ad-110">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-110">Click Create.</span></span>
-6. <span data-ttu-id="9e0ad-111">Spustelėkite Įtraukti segmentą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-111">Click Add segment.</span></span>
-7. <span data-ttu-id="9e0ad-112">Sąraše Dimensijos pasirinkite dimensiją, kurią norite įtraukti į sąskaitos struktūrą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-112">In the Dimensions list, select the dimension to add to the account structure.</span></span>
-8. <span data-ttu-id="9e0ad-113">Spustelėkite Įtraukti segmentą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-113">Click Add segment.</span></span>
-9. <span data-ttu-id="9e0ad-114">Spustelėkite Įtraukti segmentą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-114">Click Add segment.</span></span>
-10. <span data-ttu-id="9e0ad-115">Sąraše Dimensijos pasirinkite dimensiją, kurią norite įtraukti į sąskaitos struktūrą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-115">In the Dimensions list, select the dimension to add to the account structure.</span></span>
-11. <span data-ttu-id="9e0ad-116">Spustelėkite Įtraukti segmentą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-116">Click Add segment.</span></span>
-12. <span data-ttu-id="9e0ad-117">Spustelėkite Įtraukti segmentą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-117">Click Add segment.</span></span>
-13. <span data-ttu-id="9e0ad-118">Sąraše Dimensijos pasirinkite dimensiją, kurią norite įtraukti į sąskaitos struktūrą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-118">In the Dimensions list, select the dimension to add to the account structure.</span></span>
-14. <span data-ttu-id="9e0ad-119">Spustelėkite Įtraukti segmentą.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-119">Click Add segment.</span></span>
-15. <span data-ttu-id="9e0ad-120">Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-120">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="9e0ad-121">Pavyzdžiui, spustelėkite Pagrindinė sąskaita.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-121">For example, click in Main Account.</span></span>  
-16. <span data-ttu-id="9e0ad-122">Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-122">In the Operator field, select an option, such as is between and includes.</span></span>
-17. <span data-ttu-id="9e0ad-123">Lauke Reikšmė surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-123">In the Value field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-124">Pavyzdžiui, 600000.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-124">For example, 600000.</span></span>  
-18. <span data-ttu-id="9e0ad-125">Lauke Per įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-125">In the through field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-126">Pavyzdžiui, 699999.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-126">For example, 699999.</span></span>  
-19. <span data-ttu-id="9e0ad-127">Spustelėkite Taikyti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-127">Click Apply.</span></span>
-20. <span data-ttu-id="9e0ad-128">Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-128">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="9e0ad-129">Pavyzdžiui, Padalinys.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-129">For example, Department.</span></span>  
-21. <span data-ttu-id="9e0ad-130">Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-130">In the Operator field, select an option, such as is between and includes.</span></span>
-22. <span data-ttu-id="9e0ad-131">Lauke Reikšmė surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-131">In the Value field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-132">Pavyzdžiui, 022.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-132">For example, 022.</span></span>  
-23. <span data-ttu-id="9e0ad-133">Lauke Per įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-133">In the through field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-134">Pavyzdžiui, 031.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-134">For example, 031.</span></span>  
-24. <span data-ttu-id="9e0ad-135">Spustelėkite Įtraukti naujų kriterijų.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-135">Click Add new criteria.</span></span>
-25. <span data-ttu-id="9e0ad-136">Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-136">In the Operator field, select an option, such as is between and includes.</span></span>
-26. <span data-ttu-id="9e0ad-137">Lauke Reikšmė surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-137">In the Value field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-138">Pavyzdžiui, 033.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-138">For example, 033.</span></span>  
-27. <span data-ttu-id="9e0ad-139">Lauke Per įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-139">In the through field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-140">Pavyzdžiui, 034.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-140">For example, 034.</span></span>  
-28. <span data-ttu-id="9e0ad-141">Spustelėkite Taikyti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-141">Click Apply.</span></span>
-29. <span data-ttu-id="9e0ad-142">Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-142">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="9e0ad-143">Pavyzdžiui, Išlaidų centras.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-143">For example, Cost Center.</span></span>  
-30. <span data-ttu-id="9e0ad-144">Lauke Išlaidų centras įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-144">In the CostCenter field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-145">Pavyzdžiui, 007..021.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-145">For example, 007..021.</span></span>  
-31. <span data-ttu-id="9e0ad-146">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-146">Click Add.</span></span>
-32. <span data-ttu-id="9e0ad-147">Lauke Pagrindinė sąskaita įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-147">In the MainAccount field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-148">Pavyzdžiui, 600000..699999</span><span class="sxs-lookup"><span data-stu-id="9e0ad-148">For example, 600000..699999</span></span>  
-33. <span data-ttu-id="9e0ad-149">Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-149">In the grid, select the segment to edit the allowed values.</span></span>
-    * <span data-ttu-id="9e0ad-150">Pavyzdžiui, Padalinys.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-150">For example, Department.</span></span>  
-34. <span data-ttu-id="9e0ad-151">Lauke Padalinys įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-151">In the Department field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-152">Pavyzdžiui, 032.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-152">For example, 032.</span></span>  
-35. <span data-ttu-id="9e0ad-153">Lauke Išlaidų centras įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-153">In the CostCenter field, type a value.</span></span>
-    * <span data-ttu-id="9e0ad-154">Pavyzdžiui, 086.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-154">For example, 086.</span></span>  
-36. <span data-ttu-id="9e0ad-155">Spustelėkite Tikrinti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-155">Click Validate.</span></span>
-37. <span data-ttu-id="9e0ad-156">Spustelėkite Aktyvinti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-156">Click Activate.</span></span>
-38. <span data-ttu-id="9e0ad-157">Spustelėkite Aktyvinti.</span><span class="sxs-lookup"><span data-stu-id="9e0ad-157">Click Activate.</span></span>
+1. <span data-ttu-id="f0910-106">Eikite į **Naršymo sritis > Moduliai > Didžioji knyga > Sąskaitų planas > Struktūros > Konfigūruoti sąskaitų struktūras**.</span><span class="sxs-lookup"><span data-stu-id="f0910-106">Go to **Navigation pane > Modules > General ledger > Chart of accounts > Structures > Configure account structures**.</span></span>
+2. <span data-ttu-id="f0910-107">**Veiksmų sritis** spustelėkite **Naujas**, kad atidarytumėte tiesioginio dialogo langą.</span><span class="sxs-lookup"><span data-stu-id="f0910-107">On the **Action pane**, click **New** to open the drop dialog.</span></span>
+3. <span data-ttu-id="f0910-108">Lauke **Sąskaitos struktūra** įveskite pavadinimą, aprašantį sąskaitos struktūros tikslą.</span><span class="sxs-lookup"><span data-stu-id="f0910-108">In the **Account structure** field, type a name to describe the purpose of the account structure.</span></span>
+4. <span data-ttu-id="f0910-109">Lauke **Aprašas** įveskite aprašą, apibūdinantį sąskaitos struktūros tikslą.</span><span class="sxs-lookup"><span data-stu-id="f0910-109">In the **Description** field, type a description to specify the purpose of the account structure.</span></span>
+5. <span data-ttu-id="f0910-110">Spustelėkite **Kurti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-110">Click **Create**.</span></span>
+6. <span data-ttu-id="f0910-111">**Segmentai ir leidžiamos reikšmės** spustelėkite **Įtraukti segmentą**.</span><span class="sxs-lookup"><span data-stu-id="f0910-111">In the **Segments and allowed values**, click **Add segment**.</span></span>
+7. <span data-ttu-id="f0910-112">Matmenų sąraše pažymėkite į sąskaitos struktūrą įtrauktiną matmenį.</span><span class="sxs-lookup"><span data-stu-id="f0910-112">In the dimensions list, select the dimension to add to the account structure.</span></span>
+8. <span data-ttu-id="f0910-113">Sąrašo pabaigoje spustelėkite **Įtraukti segmentą**.</span><span class="sxs-lookup"><span data-stu-id="f0910-113">At the end of the list, click **Add segment**.</span></span>
+9. <span data-ttu-id="f0910-114">Jei reikia, pakartokite 6–9 veiksmus.</span><span class="sxs-lookup"><span data-stu-id="f0910-114">Repeat step 6 to 9 as needed.</span></span>
+10. <span data-ttu-id="f0910-115">Skyriuje **Leidžiamos reikšmės išsami informacija** pažymėkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f0910-115">In the **Allowed value details** section, select the segment to edit the allowed values.</span></span>
+    <span data-ttu-id="f0910-116">Pavyzdžiui, spustelėkite lauką **Pagrindinė sąskaita**.</span><span class="sxs-lookup"><span data-stu-id="f0910-116">For example, click the **Main Account** field.</span></span>  
+11. <span data-ttu-id="f0910-117">Lauke **Operatorius** pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.</span><span class="sxs-lookup"><span data-stu-id="f0910-117">In the **Operator** field, select an option, such as is between and includes.</span></span>
+12. <span data-ttu-id="f0910-118">Lauke **Reikšmė** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-118">In the **Value** field, type a value.</span></span> <span data-ttu-id="f0910-119">Pavyzdžiui, 600000.</span><span class="sxs-lookup"><span data-stu-id="f0910-119">For example, 600000.</span></span>  
+13. <span data-ttu-id="f0910-120">Lauke **per** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-120">In the **through** field, type a value.</span></span> <span data-ttu-id="f0910-121">Pavyzdžiui, 699999.</span><span class="sxs-lookup"><span data-stu-id="f0910-121">For example, 699999.</span></span>  
+14. <span data-ttu-id="f0910-122">Skyriuje **Leidžiamos reikšmės išsami informacija** spustelėkite **Taikyti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-122">In the **Allowed value details** section, click **Apply**.</span></span>
+15. <span data-ttu-id="f0910-123">Jei reikia, pakartokite 10–15 veiksmus.</span><span class="sxs-lookup"><span data-stu-id="f0910-123">Repeat step 10 to 15 as needed.</span></span>  
+16. <span data-ttu-id="f0910-124">Skyriuje **Leidžiamos reikšmės išsami informacija** spustelėkite **Įtraukti naujus kriterijus**.</span><span class="sxs-lookup"><span data-stu-id="f0910-124">In the **Allowed value details** section, click **Add new criteria**.</span></span>
+17. <span data-ttu-id="f0910-125">Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.</span><span class="sxs-lookup"><span data-stu-id="f0910-125">In the Operator field, select an option, such as is between and includes.</span></span>
+18. <span data-ttu-id="f0910-126">Lauke **Reikšmė** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-126">In the **Value** field, type a value.</span></span> <span data-ttu-id="f0910-127">Pavyzdžiui, 033.</span><span class="sxs-lookup"><span data-stu-id="f0910-127">For example, 033.</span></span>  
+19. <span data-ttu-id="f0910-128">Lauke **per** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-128">In the **through** field, type a value.</span></span> <span data-ttu-id="f0910-129">Pavyzdžiui, 034.</span><span class="sxs-lookup"><span data-stu-id="f0910-129">For example, 034.</span></span>  
+20. <span data-ttu-id="f0910-130">Spustelėkite **Taikyti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-130">Click **Apply**.</span></span>
+21. <span data-ttu-id="f0910-131">Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f0910-131">In the grid, select the segment to edit the allowed values.</span></span> <span data-ttu-id="f0910-132">Pavyzdžiui, Išlaidų centras.</span><span class="sxs-lookup"><span data-stu-id="f0910-132">For example, Cost Center.</span></span>  
+22. <span data-ttu-id="f0910-133">Lauke **CostCenter laukas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-133">In the **CostCenter field**, type a value.</span></span> <span data-ttu-id="f0910-134">Pavyzdžiui, 007..021.</span><span class="sxs-lookup"><span data-stu-id="f0910-134">For example, 007..021.</span></span>  
+23. <span data-ttu-id="f0910-135">**Segmentai ir leidžiamos reikšmės** spustelėkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-135">In the **Segments and allowed values**, click **Add**.</span></span>
+24. <span data-ttu-id="f0910-136">Lauke **MainAccount** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-136">In the **MainAccount** field, type a value.</span></span> <span data-ttu-id="f0910-137">Pavyzdžiui, 600000..699999</span><span class="sxs-lookup"><span data-stu-id="f0910-137">For example, 600000..699999</span></span>  
+25. <span data-ttu-id="f0910-138">Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f0910-138">In the grid, select the segment to edit the allowed values.</span></span> <span data-ttu-id="f0910-139">Pavyzdžiui, Padalinys.</span><span class="sxs-lookup"><span data-stu-id="f0910-139">For example, Department.</span></span>  
+26. <span data-ttu-id="f0910-140">Lauke Padalinys įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-140">In the Department field, type a value.</span></span> <span data-ttu-id="f0910-141">Pavyzdžiui, 032.</span><span class="sxs-lookup"><span data-stu-id="f0910-141">For example, 032.</span></span>  
+27. <span data-ttu-id="f0910-142">Lauke Išlaidų centras įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="f0910-142">In the CostCenter field, type a value.</span></span> <span data-ttu-id="f0910-143">Pavyzdžiui, 086.</span><span class="sxs-lookup"><span data-stu-id="f0910-143">For example, 086.</span></span>  
+28. <span data-ttu-id="f0910-144">**Veiksmų sritis** spustelėkite **Tikrinti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-144">On the **Action pane**, click **Validate**.</span></span>
+29. <span data-ttu-id="f0910-145">**Veiksmų sritis** spustelėkite **Aktyvinti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-145">On the **Action pane**, click **Activate**.</span></span>
+30. <span data-ttu-id="f0910-146">Spustelėkite **Aktyvinti**.</span><span class="sxs-lookup"><span data-stu-id="f0910-146">Click **Activate**.</span></span>
 

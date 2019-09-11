@@ -1,9 +1,9 @@
 ---
-title: Nustatyti numeracijas naudojant vedlį
-description: Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi.
+title: Numeracijų nustatymas naudojant vediklį
+description: Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,24 +16,26 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f97c4cd6cdb117ebdd67a155478bb6f8d1703541
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560549"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867396"
 ---
-# <a name="set-up-number-sequences-by-using-a-wizard"></a><span data-ttu-id="65fd7-103">Nustatyti numeracijas naudojant vedlį</span><span class="sxs-lookup"><span data-stu-id="65fd7-103">Set up number sequences by using a wizard</span></span>
+# <a name="set-up-number-sequences-using-a-wizard"></a><span data-ttu-id="7de1d-103">Numeracijų nustatymas naudojant vediklį</span><span class="sxs-lookup"><span data-stu-id="7de1d-103">Set up number sequences using a wizard</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="65fd7-104">Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi.</span><span class="sxs-lookup"><span data-stu-id="65fd7-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="65fd7-105">Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda.</span><span class="sxs-lookup"><span data-stu-id="65fd7-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="65fd7-106">Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda.</span><span class="sxs-lookup"><span data-stu-id="65fd7-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="65fd7-107">Ši procedūra paaiškina, kaip vienu kartu nustatyti visas reikiamas numerių sekas naudojant vedlį.</span><span class="sxs-lookup"><span data-stu-id="65fd7-107">This procedure explains how to set up all required number sequences at the same time by using a wizard.</span></span> <span data-ttu-id="65fd7-108">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="65fd7-108">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="7de1d-104">Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi.</span><span class="sxs-lookup"><span data-stu-id="7de1d-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="7de1d-105">Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda.</span><span class="sxs-lookup"><span data-stu-id="7de1d-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="7de1d-106">Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda.</span><span class="sxs-lookup"><span data-stu-id="7de1d-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="7de1d-107">Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas.</span><span class="sxs-lookup"><span data-stu-id="7de1d-107">This topic explains how to set up all required number sequences at the same time by using a wizard.</span></span> <span data-ttu-id="7de1d-108">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="7de1d-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="65fd7-109">Pasirinkite Organizacijos administravimas > Numeracijos > Numeracijos.</span><span class="sxs-lookup"><span data-stu-id="65fd7-109">Go to Organization administration > Number sequences > Number sequences.</span></span>
-2. <span data-ttu-id="65fd7-110">Spustelėkite „Generuoti“.</span><span class="sxs-lookup"><span data-stu-id="65fd7-110">Click Generate.</span></span>
-3. <span data-ttu-id="65fd7-111">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="65fd7-111">Click Next.</span></span>
-    * <span data-ttu-id="65fd7-112">Šiame puslapyje galite modifikuoti identifikavimo kodą, mažiausią reikšmę ir didžiausią reikšmę.</span><span class="sxs-lookup"><span data-stu-id="65fd7-112">On this page, you can modify the identification code, the lowest value, and the highest value.</span></span> <span data-ttu-id="65fd7-113">Be to, galite nurodyti, ar numeracija turi būti nuolatinė.</span><span class="sxs-lookup"><span data-stu-id="65fd7-113">In addition, you can indicate whether the number sequence must be continuous.</span></span>   
-    * <span data-ttu-id="65fd7-114">Nepasirinkite parinkties „Ištisinė“, jei turite iš anksto priskirti numerių sekos numerius.</span><span class="sxs-lookup"><span data-stu-id="65fd7-114">Do not select the Continuous option if you must preallocate numbers for the number sequence.</span></span>     <span data-ttu-id="65fd7-115">Norėdami įtraukti aprėpties segmentą į numerių sekos formatą, pasirinkite formatą sąraše, tada spustelėkite „Įtraukti aprėptį į formatą“.</span><span class="sxs-lookup"><span data-stu-id="65fd7-115">To add a scope segment to the format of a number sequence, select the format in the list, and then click Include scope in format.</span></span>     <span data-ttu-id="65fd7-116">Norėdami pašalinti aprėpties segmentą iš numerių sekos formato, pasirinkite formatą sąraše, tada spustelėkite „Pašalinti aprėptį iš formato“.</span><span class="sxs-lookup"><span data-stu-id="65fd7-116">To remove a scope segment from the format of a number sequence, select the format in the list, and then click Remove scope from format.</span></span>     <span data-ttu-id="65fd7-117">Norėdami neįtraukti numerių sekos į automatinį generavimą, pasirinkite numerių seką sąraše, tada spustelėkite „Ištrinti“.</span><span class="sxs-lookup"><span data-stu-id="65fd7-117">To exclude a number sequence from automatic generation, select the number sequence in the list, and then click Delete.</span></span>  
-4. <span data-ttu-id="65fd7-118">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="65fd7-118">Click Next.</span></span>
-5. <span data-ttu-id="65fd7-119">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="65fd7-119">Click Finish.</span></span>
+1. <span data-ttu-id="7de1d-109">Eikite į **Naršymo sritis > Moduliai > Organizacijos administravimas > Numeracijos > Numeracijos**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-109">Go to **Navigation > Modules > Organization administration > Number sequences > Number sequences**.</span></span>
+2. <span data-ttu-id="7de1d-110">Pasirinkite **Generuoti**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-110">Select **Generate**.</span></span>
+3. <span data-ttu-id="7de1d-111">Pasirinkite **Toliau**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-111">Select **Next**.</span></span>
+
+   - <span data-ttu-id="7de1d-112">Šiame puslapyje galite modifikuoti identifikavimo kodą, mažiausią reikšmę ir didžiausią reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7de1d-112">On this page, you can modify the identification code, the lowest value, and the highest value.</span></span> <span data-ttu-id="7de1d-113">Be to, galite nurodyti, ar numeracija turi būti nuolatinė.</span><span class="sxs-lookup"><span data-stu-id="7de1d-113">In addition, you can indicate whether the number sequence must be continuous.</span></span>   
+   - <span data-ttu-id="7de1d-114">Jei turite iš anksto priskirti numerius numeracijai, nepažymėkite parinkties **Nuolatinė**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-114">Do not select the **Continuous** option if you must preallocate numbers for the number sequence.</span></span> <span data-ttu-id="7de1d-115">Norėdami į numeracijos formatą įtraukti aprėpties segmentą, sąraše pasirinkite formatą ir pažymėkite **Įtraukti aprėptį į formatą**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-115">To add a scope segment to the format of a number sequence, select the format in the list, and then select **Include scope in format**.</span></span> <span data-ttu-id="7de1d-116">Norėdami iš numeracijos formato pašalinti aprėpties segmentą, sąraše pasirinkite formatą ir pažymėkite **Pašalinti aprėptį iš formato**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-116">To remove a scope segment from the format of a number sequence, select the format in the list, and then select **Remove scope from format**.</span></span> <span data-ttu-id="7de1d-117">Norėdami, kad numeracija nebūtų automatiškai generuojama, sąraše pasirinkite numeraciją ir pažymėkite **Naikinti**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-117">To exclude a number sequence from automatic generation, select the number sequence in the list, and then select **Delete**.</span></span>  
+
+4. <span data-ttu-id="7de1d-118">Pasirinkite **Toliau**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-118">Select **Next**.</span></span>
+5. <span data-ttu-id="7de1d-119">Pasirinkite **Baigti**.</span><span class="sxs-lookup"><span data-stu-id="7de1d-119">Select **Finish**.</span></span>
 

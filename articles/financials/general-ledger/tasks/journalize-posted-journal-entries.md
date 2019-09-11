@@ -3,7 +3,7 @@ title: Į žurnalą įtraukti užregistruotus žurnalo įrašus
 description: Šioje procedūroje parodoma, kaip į žurnalą įtraukti užregistruotus žurnalo įrašus.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,27 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cbf7ee8063487303cd4c8d2b76a8b44bacc86193
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e20229ca910aa0d7d820434c22edf5a27030bba5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846396"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916258"
 ---
-# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="79e5f-103">Į žurnalą įtraukti užregistruotus žurnalo įrašus</span><span class="sxs-lookup"><span data-stu-id="79e5f-103">Journalize posted journal entries</span></span>
+# <a name="journalize-posted-journal-entries"></a><span data-ttu-id="75928-103">Į žurnalą įtraukti užregistruotus žurnalo įrašus</span><span class="sxs-lookup"><span data-stu-id="75928-103">Journalize posted journal entries</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="79e5f-104">Šioje procedūroje parodoma, kaip į žurnalą įtraukti užregistruotus žurnalo įrašus.</span><span class="sxs-lookup"><span data-stu-id="79e5f-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="79e5f-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="79e5f-105">This procedure uses the USMF demo data company.</span></span>
+<span data-ttu-id="75928-104">Šioje procedūroje parodoma, kaip į žurnalą įtraukti užregistruotus žurnalo įrašus.</span><span class="sxs-lookup"><span data-stu-id="75928-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="75928-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="75928-105">This procedure uses the USMF demo data company.</span></span>
 
-1. <span data-ttu-id="79e5f-106">Patikrinkite įtraukimo į žurnalą parametrus dalyje DK > DK sąranka > DK parametrai.</span><span class="sxs-lookup"><span data-stu-id="79e5f-106">Validate the settings for journalizing under General ledger > Ledger setup > General ledger parameters.</span></span>
-2. <span data-ttu-id="79e5f-107">Laukas Išplėstas DK žurnalas gali būti nustatytas į Taip arba Ne.</span><span class="sxs-lookup"><span data-stu-id="79e5f-107">The Extended ledger journal field can be set to Yes or No.</span></span> <span data-ttu-id="79e5f-108">Jei nustatysite parametrą Taip, ataskaitos išvestis bus skirtinga.</span><span class="sxs-lookup"><span data-stu-id="79e5f-108">If Yes, the report output will be different.</span></span>
-3. <span data-ttu-id="79e5f-109">Pasirinkite, ar laikotarpis gali būti uždarytas, jei įtraukimo į žurnalą procesas nebuvo paleistas.</span><span class="sxs-lookup"><span data-stu-id="79e5f-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span>
-    * <span data-ttu-id="79e5f-110">Jei ši parinktis nustatyta į Taip, laikotarpio negalima uždaryti, kol įtraukimo į žurnalą procesas nebus baigtas.</span><span class="sxs-lookup"><span data-stu-id="79e5f-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
-4. <span data-ttu-id="79e5f-111">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="79e5f-111">Close the page.</span></span>
-5. <span data-ttu-id="79e5f-112">Eikite į Didžioji knyga > Periodinės užduotys > Įtraukimas į žurnalą.</span><span class="sxs-lookup"><span data-stu-id="79e5f-112">Go to General ledger > Periodic tasks > Journalizing.</span></span>
-6. <span data-ttu-id="79e5f-113">Spustelėkite Filtras.</span><span class="sxs-lookup"><span data-stu-id="79e5f-113">Click Filter.</span></span>
-7. <span data-ttu-id="79e5f-114">Paryškinkite eilutę su filtro kriterijais, kuriuos norite nustatyti.</span><span class="sxs-lookup"><span data-stu-id="79e5f-114">Highlight the row with the filter criteria that you want to define.</span></span>
-8. <span data-ttu-id="79e5f-115">Lauke Kriterijai įveskite arba pasirinkite filtro kriterijus.</span><span class="sxs-lookup"><span data-stu-id="79e5f-115">In the Criteria field, enter or select the filter criteria..</span></span>
-9. <span data-ttu-id="79e5f-116">Spustelėkite Gerai, kad uždarytumėte filtrų puslapį.</span><span class="sxs-lookup"><span data-stu-id="79e5f-116">Click OK to close the filter page.</span></span>
-10. <span data-ttu-id="79e5f-117">Spustelėkite Gerai, kad pradėtumėte įtraukimo į žurnalą procesą.</span><span class="sxs-lookup"><span data-stu-id="79e5f-117">Click OK to start the journalizing process.</span></span>
-    * <span data-ttu-id="79e5f-118">Kai procesas bus baigtas, bus sugeneruota ataskaita.</span><span class="sxs-lookup"><span data-stu-id="79e5f-118">A report will be generated after the process is complete.</span></span>  
+1. <span data-ttu-id="75928-106">Pasirinkę **Naršymo sritis**, eikite į **Moduliai > Didžioji knyga > Didžiosios knygos sąranka > Didžiosios knygos parametrai**.</span><span class="sxs-lookup"><span data-stu-id="75928-106">In the **Navigation pane**, go to **Modules > General ledger > Ledger setup > General ledger parameters**.</span></span>
+2. <span data-ttu-id="75928-107">Lauke **Išplėstas DK žurnalas** galima nustatyti „Taip” arba „Ne”.</span><span class="sxs-lookup"><span data-stu-id="75928-107">The **Extended ledger journal** field can be set to Yes or No.</span></span> <span data-ttu-id="75928-108">Jei nustatysite parametrą Taip, ataskaitos išvestis bus skirtinga.</span><span class="sxs-lookup"><span data-stu-id="75928-108">If Yes, the report output will be different.</span></span>
+3. <span data-ttu-id="75928-109">Pasirinkite, ar laikotarpis gali būti uždarytas, jei įtraukimo į žurnalą procesas nebuvo paleistas.</span><span class="sxs-lookup"><span data-stu-id="75928-109">Select whether the period can be closed if the journalizing process hasn't been run.</span></span> <span data-ttu-id="75928-110">Jei ši parinktis nustatyta į Taip, laikotarpio negalima uždaryti, kol įtraukimo į žurnalą procesas nebus baigtas.</span><span class="sxs-lookup"><span data-stu-id="75928-110">If this option is set to Yes, the period cannot be closed until the journalizing process has been completed for that period.</span></span>  
+4. <span data-ttu-id="75928-111">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="75928-111">Close the page.</span></span>
+5. <span data-ttu-id="75928-112">Pasirinkę **Naršymo sritis**, eikite į **Moduliai > Didžioji knyga > Periodinės užduotys > Įtraukimas į žurnalą**.</span><span class="sxs-lookup"><span data-stu-id="75928-112">In the **Navigation pane**, go to **Modules > General ledger > Periodic tasks > Journalizing**.</span></span>
+6. <span data-ttu-id="75928-113">Spustelėkite **Filtras**.</span><span class="sxs-lookup"><span data-stu-id="75928-113">Click **Filter**.</span></span>
+7. <span data-ttu-id="75928-114">Paryškinkite eilutę su filtro kriterijais, kuriuos norite nustatyti.</span><span class="sxs-lookup"><span data-stu-id="75928-114">Highlight the row with the filter criteria that you want to define.</span></span>
+8. <span data-ttu-id="75928-115">Lauke **Kriterijai** įveskite arba pasirinkite filtro kriterijus.</span><span class="sxs-lookup"><span data-stu-id="75928-115">In the **Criteria** field, enter or select the filter criteria..</span></span>
+9. <span data-ttu-id="75928-116">Spustelėję **Gerai**, uždarykite filtro puslapį.</span><span class="sxs-lookup"><span data-stu-id="75928-116">Click **OK** to close the filter page.</span></span>
+10. <span data-ttu-id="75928-117">Spustelėję **Gerai**, pradėkite įtraukimo į žurnalą procesą.</span><span class="sxs-lookup"><span data-stu-id="75928-117">Click **OK** to start the journalizing process.</span></span> <span data-ttu-id="75928-118">Kai procesas bus baigtas, bus sugeneruota ataskaita.</span><span class="sxs-lookup"><span data-stu-id="75928-118">A report will be generated after the process is complete.</span></span>  
 
