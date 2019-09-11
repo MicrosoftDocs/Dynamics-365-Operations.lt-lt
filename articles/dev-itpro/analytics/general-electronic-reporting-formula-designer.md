@@ -2,8 +2,8 @@
 title: Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 description: Šioje temoje paaiškinama, kaip naudoti formulių kūrimo įrankį teikiant elektronines ataskaitas (ER).
 author: NickSelin
-manager: AnnBe
-ms.date: 05/14/2014
+manager: kfend
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 690dd1f83cb345d3dac67eef059ad890f03afb01
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 1f6caa6afd0ce36340caf237c1acca0ea343824f
+ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849514"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1864299"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -113,6 +113,33 @@ ER formulių dizaino įrankį taip pat galima naudoti ir generuojamo elektronini
 - Išraiška įgalina (pateikdama reikšmę **TRUE**) paketų, kuriuose yra bent vienas įrašas, failų kūrimo procesą.
 
 [![Failų kontrolė](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
+
+### <a name="documents-content-control"></a>Dokumentų turinio kontrolė
+
+The ER formulių dizaino įrankį galima naudoti konfigūruojant išraiškas, kontroliuojančias duomenis, įtraukiamus į generuojamus elektroninius dokumentus vykdymo metu. Pagal išraiškas įjungiama arba išjungiama tam tikrų formato elementų išvestis, atsižvelgiant į apdorojamus duomenis ir sukonfigūruotą logiką. Vieno formato elemento išraiškas galima įvesti lauke **Įjungta** skirtuke **Susiejimas** puslapyje **Operacijų dizaino įrankis** kaip loginę sąlygą, kurios reikšmė yra **Bulio**.
+
+-   Kai gaunama **Teisinga**, vykdomas esamas formato elementas.
+-   Kai gaunama **Neteisinga**, esamas formato elementas praleidžiamas.
+
+Toliau pateikiamoje iliustracijoje pavaizduotos šio tipo išraiškos (pavyzdžiui, Microsoft pateikiama versija **11.12.11**, kurios formato konfigūracija yra **ISO20022 Kredito pervedimas (NO)**). Formato komponentas **XMLHeader** konfigūruojamas aprašant kredito pervedimo pranešimo struktūrą remiantis pranešimų standartais ISO 20022 XML. Formato komponentas **XMLHeader/Document/CstmrCdtTrfInitn/PmtInf/CdtTrfTxInf/RmtInf/Ustrd** konfigūruojamas į generuojamą pranešimą įtraukiant XML elementą **Ustrd** ir įtraukiant pavedimo informaciją nestruktūriniu formatu kaip toliau pateikiamų XML elementų tekstą.
+
+-   Komponentas **PaymentNotes** naudojamas pateikiant mokėjimo pastabų tekstą.
+-   Nustačius komponentą **DelimitedSequence**, pateikiami kableliais atskirti sąskaitų faktūrų numeriai, naudojami apmokant esamą kredito pervedimą.
+
+[![Operacijų dizaino įrankis](./media/GER-FormulaEditor-ControlContent-1.png)](./media/GER-FormulaEditor-ControlContent-1.png)
+
+> [!NOTE]
+> Komponentai **PaymentNotes** ir **DelimitedSequence** pažymėti klaustukais. Tai reiškia, kad abiejų komponentų naudojimas yra sąlyginis ir priklauso nuo toliau pateikiamų kriterijų įvykdymo.
+
+-   Pagal komponente **PaymentNote** apibrėžtą išraišką **@.PaymentsNotes<>""** įjungiamas (gavus **TRUE**) XML elemento **Ustrd**, mokėjimo pastabų teksto, kai esamo kredito pervedimo tekstas nėra tuščias, pildymas.
+
+[![Operacijų dizaino įrankis](./media/GER-FormulaEditor-ControlContent-2.png)](./media/GER-FormulaEditor-ControlContent-2.png)
+
+-   Pagal komponente **DelimitedSequence** apibrėžtą išraišką **@.PaymentsNotes=""** įjungiamas (gavus **TRUE**) XML elemento **Ustrd**, kableliais atskirtų sąskaitų faktūrų numerių, naudojamų apmokant esamą kredito pervedimą, kai šio kredito pervedimo mokėjimo pastabų tekstas yra tuščias, pildymas.
+
+[![Operacijų dizaino įrankis](./media/GER-FormulaEditor-ControlContent-3.png)](./media/GER-FormulaEditor-ControlContent-3.png)
+
+Remiantis šiuo parametru, į kiekvieno skolininko mokėjimo generuojamą pranešimą, XML elementą **Ustrd** bus įtrauktas arba mokėjimo pastabų tekstas, arba, kai toks tekstas yra tuščias, kableliais atskirtų sąskaitų faktūrų numerių, naudojamų atliekant šį mokėjimą, tekstas.
 
 ### <a name="basic-syntax"></a>Pagrindinė sintaksė
 

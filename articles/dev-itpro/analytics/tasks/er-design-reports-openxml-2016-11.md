@@ -1,9 +1,9 @@
 ---
 title: 'ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)'
-description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją, apimančią elektroninių dokumentų generavimo OPENXML formatu šabloną.
+description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali kurti naują elektroninių ataskaitų (ER) konfigūraciją, kurioje yra šablonas, skirtas generuoti elektroniniams dokumentams OPENXML formatu.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/12/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,206 +16,138 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d1229c89f43f9ded955dadf2f4d87825c9ab4e71
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551559"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875277"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją, apimančią elektroninių dokumentų generavimo OPENXML formatu šabloną. Ši konfigūracija bus naudojama apdoroti tiekėjų mokėjimams.
-
-
+Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali kurti naują elektroninių ataskaitų (ER) konfigūraciją, kurioje yra šablonas, skirtas generuoti elektroniniams dokumentams OPENXML formatu. Ši konfigūracija bus naudojama apdoroti tiekėjų mokėjimams.
 
 Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją. Šiuos veiksmus galima atlikti GBSI įmonėje.
-
-
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“. Taip pat reikia turėti „Excel‟ failą, kuris bus importuotas kuriant šabloną. Šį failą galima rasti srityje [Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Mokėjimų duomenų modelio konfigūracijos nusiuntimas
-1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-2. Sąraše pažymėkite pasirinktą eilutę.
-    * Pasirinkite pavyzdinės įmonės „Litware, Inc“ konfigūracijos teikėją. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite užbaigti procedūros „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų" veiksmus.  
-3. Spustelėkite Nustatyti kaip aktyvų.
-4. Spustelėkite Saugyklos.
-    * Jei yra, pasirinkite tipo Operacijų ištekliai saugyklą. Jei tokia yra, praleiskite tolesnius naujos saugyklos kūrimo veiksmus.  
-5. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
-6. Lauke Konfigūracijų saugyklos tipas įveskite Operacijų ištekliai.
-7. Spustelėkite Kurti saugyklą.
-8. Spustelėkite GERAI.
-9. Spustelėkite Atidaryti.
-10. Medyje pasirinkite Mokėjimo modelis.
-11. Spustelėkite Importuoti.
-    * Importuokite šį duomenų modelį. Jis bus naudojamas kaip duomenų šaltinis naujoje formato konfigūracijoje. Jei ši konfigūracija jau importuota, šį veiksmą praleiskite.  
-12. Spustelėkite Taip.
-13. Uždarykite puslapį.
-14. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos**.
+2. Sąraše pažymėkite pavyzdinės įmonės „Litware, Inc.“ konfigūracijos teikėją. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti veiksmus, aprašytus temoje [Kurti konfigūracijos teikėją ir žymėti jį kaip aktyvų](er-configuration-provider-mark-it-active-2016-11.md).
+3. Pasirinkite **Nustatyti kaip aktyvų**.
+4. Pasirinkite **Saugyklos**. Jei yra, pasirinkite tipo Operacijų ištekliai saugyklą. Jei tokia yra, praleiskite tolesnius naujos saugyklos kūrimo veiksmus.  
+5. Pasirinkite **Įtraukti** ir atidarykite išplečiamąjį dialogo langą.
+6. Lauke **Konfigūracijos saugyklos tipas** įveskite `Operations resourcesdd`.
+7. Pasirinkite **Kurti saugyklą**.
+8. Pasirinkite **Gerai**.
+9. Pasirinkite **Atidaryti**.
+10. Medyje pasirinkite **Mokėjimo modelis**.
+11. Pasirinkite **Importuoti**. Importuokite šį duomenų modelį. Jis bus naudojamas kaip duomenų šaltinis naujoje formato konfigūracijoje. Jei ši konfigūracija jau importuota, šį veiksmą praleiskite.  
+12. Pasirinkite **Taip**.
+13. Uždarykite puslapius, kol grįšite atgal į elektroninių ataskaitų puslapį.
 
 ## <a name="create-a-new-format-configuration"></a>Kurti naują formato konfigūraciją
-1. Spustelėkite Ataskaitų konfigūracijos.
-2. Medyje pasirinkite Mokėjimo modelis.
-3. Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.
-4. Lauke „Naujas“ įveskite „Formatas pagal duomenų modelį PaymentModel“.
-    * Sukurkite formatą, paremtą duomenų modeliu „PaymentModel‟.  
-5. Lauke Pavadinimas įveskite „Darbalapio ataskaitos pavyzdys‟.
-    * Darbalapio ataskaitos pavyzdys  
-6. Lauke Aprašas įveskite „Darbalapio ataskaitos, skirtos tiekėjų mokėjimams, pavyzdys‟.
-    * Darbalapio ataskaitos, skirtos tiekėjų mokėjimams, pavyzdys.  
-7. Lauke Duomenų modelio aprašas įveskite arba pasirinkite reikšmę.
-    * Pasirinkite apibrėžtį „CustomerCreditTransferInitiation‟.  
-8. Spustelėkite Sukurti konfigūraciją.
+1. Pasirinkite **Ataskaitų konfigūracijos**.
+2. Medyje pasirinkite **Mokėjimo modelis**.
+3. Pasirinkite **Kurti konfigūraciją**, kad atidarytumėte tiesioginį dialogo langą.
+4. Lauke **Naujas** įveskite `Format based on data model PaymentModel`. Sukurkite formatą, paremtą duomenų modeliu „PaymentModel‟.
+5. Lauke **Pavadinimas** įveskite `Sample worksheet report`. Darbalapio ataskaitos pavyzdys  
+6. Lauke **Aprašas** įveskite `Sample worksheet report for vendors’ payments`. Darbalapio ataskaitos, skirtos tiekėjų mokėjimams, pavyzdys.  
+7. Lauke **Duomenų modelio aprašas** įveskite arba pasirinkite reikšmę. Pasirinkite aprašą **CustomerCreditTransferInitiation**.  
+8. Pasirinkite **Kurti konfigūraciją**.
 
 ## <a name="design-a-new-document-in-openxml-worksheet-format"></a>Naujo dokumento kūrimas OPENXML darbalapio formatu
-1. Medyje pasirinkite Mokėjimo modelis\Darbalapio ataskaitos pavyzdys.
-2. Spustelėkite Konstruktorius.
-3. Veiksmų srityje spustelėkite Importuoti.
-4. Spustelėkite Importuoti iš „Excel‟.
-5. Spustelėkite Priedai.
-    * Kaip šabloną pridėkite esamą „Excel‟ dokumentą.  
-6. Spustelėkite Naujas.
-7. Spustelėkite Failas.
-    * Nurodykite esamą „Excel“ failą.  
+1. Medyje pasirinkite **Mokėjimo modelis\Darbalapio ataskaitos pavyzdys**.
+2. Pasirinkite **Dizaino įrankis**.
+3. Veiksmų srityje pasirinkite **Importuoti**.
+4. Pasirinkite **Importuoti iš „Excel“**.
+5. Pasirinkite **Priedai**. Kaip šabloną pridėkite esamą „Excel‟ dokumentą.  
+6. Pasirinkite **Naujas**.
+7. Pasirinkite **Failas**. Nurodykite esamą „Excel“ failą.  
 8. Uždarykite puslapį.
-9. Lauke Šablonas įveskite arba pasirinkite reikšmę.
-    * Pasirinkite pridėtą „Excel‟ failą, kuris bus naudojamas kaip šablonas.  
-10. Spustelėkite GERAI.
-    * Atkreipkite dėmesį, kad ER formato komponentai sukurti kūrimo formatu, paremtu susijusio „MS Excel‟ dokumento struktūra (įvardytaisiais diapazonais).  
+9. Lauke **Šablonas** įveskite arba pasirinkite reikšmę. Pasirinkite pridėtą „Excel‟ failą, kuris bus naudojamas kaip šablonas.  
+10. Pasirinkite **Gerai**. Atkreipkite dėmesį, kad ER formato komponentai sukurti kūrimo formatu, paremtu susijusio „MS Excel‟ dokumento struktūra (įvardytaisiais diapazonais).  
 
 ## <a name="create-a-new-data-source-to-calculate-totals-by-currency-codes"></a>Naujo duomenų šaltinio kūrimas, kad būtų galima skaičiuoti bendrąsias sumas pagal valiutos kodus
-1. Spustelėkite skirtuką „Susiejimas“.
-2. Spustelėdami Įtraukti šakninį elementą atidarykite išplečiamąjį dialogo langą.
-3. Medyje pasirinkite Funkcijos\Grupuoti pagal.
-4. Lauke Pavadinimas įveskite „PaymentByCurrency‟.
-    * PaymentByCurrency  
-5. Spustelėkite Redaguoti grupę pagal.
-6. Medyje išplėskite „modelis‟.
-7. Medyje pasirinkite „modelis \ Mokėjimai“.
-8. Spustelėkite Įtraukti lauką į.
-9. Spustelėkite Ką grupuoti.
-10. Medyje išplėskite „modelis \ Mokėjimai‟.
-11. Medyje pasirinkite „modelis \ Mokėjimai \ Valiuta“.
-12. Spustelėkite Įtraukti lauką į.
-13. Spustelėkite Sugrupuoti laukai.
-14. Medyje pasirinkite „modelis \ Mokėjimai \ Nurodyta suma (InstructedAmount)“.
-15. Spustelėkite Įtraukti lauką į.
-16. Spustelėkite Telkimo laukai.
-17. Lauke Metodas pasirinkite parinktį.
-    * Pasirinkite telkimo funkciją SUM.  
-18. Lauke Pavadinimas įveskite „TotalInstructuredAmount‟.
-    * TotalInstructuredAmount  
-19. Spustelėkite Įrašyti.
-20. Uždarykite puslapį.
-21. Spustelėkite GERAI.
+1. Pasirinkite skirtuką **Susiejimas**.
+2. Pasirinkite **Įtraukti šakninį elementą**, kad atidarytumėte tiesioginį dialogo langą.
+3. Medyje pasirinkite **Funkcijos / grupavimas pagal**.
+4. Lauke **Pavadinimas** įveskite „`PaymentByCurrency`“.
+5. Pasirinkite **Redaguoti grupavimą pagal**.
+6. Medyje išplėskite **modelį**, o tada pasirinkite **modelis\Mokėjimai**.
+7. Pasirinkite **Įtraukti lauką į**.
+8. Pasirinkite **Ką grupuoti**.
+9. Medyje išplėskite **model\Payments**, o tada pasirinkite **model\Payments\Currency**.
+10. Pasirinkite **Įtraukti lauką į**.
+11. Pasirinkite **Sugrupuoti laukai**.
+12. Medyje pasirinkite **model\Payments\Instructed Amount(InstructedAmount)**.
+13. Pasirinkite **Įtraukti lauką į**, o tada pasirinkite **Agregavimo laukai**.
+14. Lauke **Būdas** pasirinkite parinktį. Pasirinkite funkciją **Sumos agregavimas**.  
+15. Lauke **Pavadinimas** įveskite `TotalInstructuredAmount`.
+16. Pasirinkite **Įrašyti**.
+17. Uždarykite puslapį.
+18. Pasirinkite **Gerai**.
 
 ## <a name="map-format-components-to-data-sources"></a>Formato komponentų susiejimas su duomenų šaltiniais
-1. Medyje išplėskite „modelis‟.
-2. Medyje išplėskite „modelis \ Mokėjimai‟.
-3. Medyje išplėskite „modelis \ Mokėjimai \ Inicijuojanti šalis(InitiatingParty)‟.
-4. Medyje pasirinkite „modelis \ Mokėjimai \ Inicijuojanti šalis(InitiatingParty) \ Pavadinimas‟.
-5. Medyje išplėskite „Excel \ ReportHeader”.
-6. Medyje pasirinkite „Excel \ ReportHeader \ CompanyName”.
-7. Spustelėkite Susieti.
-8. Medyje išplėskite „modelis \ Mokėjimai \ Kreditorius‟.
-9. Medyje išplėskite „modelis \ Mokėjimai \ Kreditorius \ Identifikacija‟.
-10. Medyje pasirinkite „modelis \ Mokėjimai \ Kreditorius \ Identifikacija \ Šaltinio ID(SourceID)‟.
-11. Medyje išplėskite „Excel \ PaymLines”.
-12. Medyje pasirinkite „Excel \ PaymLines \ VendAccountName”.
-13. Spustelėkite Susieti.
-14. Medyje pasirinkite „modelis \ Mokėjimai \ Kreditorius \ Pavadinimas“.
-15. Medyje pasirinkite „Excel \ PaymLines \ VendName”.
-16. Spustelėkite Susieti.
-17. Medyje išplėskite „modelis \ Mokėjimai \ Kreditoriaus agentas(CreditorAgent)‟.
-18. Medyje pasirinkite „modelis \ Mokėjimai \ Kreditoriaus agentas(CreditorAgent) \ Pavadinimas‟.
-19. Medyje pasirinkite „Excel \ PaymLines \ Bankas”.
-20. Spustelėkite Susieti.
-21. Medyje pasirinkite „modelis \ Mokėjimai \ Kreditoriaus agentas(CreditorAgent) \ Banko numeris(RoutingNumber)“.
-22. Medyje pasirinkite „Excel \ PaymLines \ RoutingNumber”.
-23. Spustelėkite Susieti.
-24. Medyje išplėskite „modelis\Mokėjimai\Kreditoriaus sąskaita(Kreditoriaussąskaita)‟.
-25. Medyje išplėskite „modelis\Mokėjimai\Kreditoriaus sąskaita(Kreditoriaussąskaita)\Identifikacija‟.
-26. Medyje pasirinkite „modelis \ Mokėjimai \ Kreditoriaus sąskaita(CreditorAccount) \ Identifikacija \ Numeris‟.
-27. Medyje pasirinkite „Excel \ PaymLines \ AccountNumber”.
-28. Spustelėkite Susieti.
-29. Medyje pasirinkite „modelis \ Mokėjimai \ Nurodyta suma (InstructedAmount)“.
-30. Medyje pasirinkite „Excel \ PaymLines \ Debetas”.
-31. Spustelėkite Susieti.
-32. Medyje išplėskite „modelis \ Mokėjimai \ Kreditorius‟.
-33. Medyje išplėskite „modelis\Mokėjimai\Kreditoriaus sąskaita(Kreditoriaussąskaita)‟.
-34. Medyje išplėskite „modelis \ Mokėjimai \ Kreditoriaus agentas(CreditorAgent)‟.
-35. Medyje pasirinkite „modelis \ Mokėjimai \ Valiuta“.
-36. Medyje pasirinkite „Excel \ PaymLines \ Valiuta”.
-37. Spustelėkite Susieti.
-38. Medyje išplėskite „PaymentByCurrency‟.
-39. Medyje išplėskite „PaymentByCurrency \ sugrupuota‟.
-40. Medyje pasirinkite „PaymentByCurrency \ sugrupuota \ Valiuta‟.
-41. Medyje išplėskite „Excel \ SummaryLines”.
-42. Medyje pasirinkite „Excel \ SummaryLines \ SummaryCurrency”.
-43. Spustelėkite Susieti.
-44. Medyje išplėskite „PaymentByCurrency \ sutelkta‟.
-45. Medyje pasirinkite „PaymentByCurrency \ sutelkta \ TotalInstructuredAmount‟.
-46. Medyje pasirinkite „Excel \ SummaryLines \ SummaryAmount”.
-47. Spustelėkite Susieti.
-48. Medyje pasirinkite „PaymentByCurrency‟.
-49. Medyje pasirinkite „Excel \ SummaryLines”.
-50. Spustelėkite Susieti.
-51. Medyje pasirinkite „modelis \ Mokėjimai“.
-52. Medyje pasirinkite „Excel \ PaymLines”.
-53. Spustelėkite Susieti.
-54. Spustelėkite Įrašyti.
-55. Uždarykite puslapį.
+1. Medyje pasirinkite **model\Payments\Initiating Party(InitiatingParty)\Name** ir **Excel\ReportHeader\CompanyName**.
+2. Pasirinkite **Susieti**.
+3. Medyje pasirinkite **model\Payments\Creditor\Identification\Source ID(SourceID)** ir **Excel\PaymLines\VendAccountName**.
+4. Pasirinkite **Susieti**.
+5. Medyje pasirinkite **model\Payments\Creditor\Name** ir **Excel\PaymLines\VendName**.
+6. Pasirinkite **Susieti**.
+7. Medyje pasirinkite **model\Payments\Creditor Agent(CreditorAgent)\Name** ir **Excel\PaymLines\Bank**.
+8. Pasirinkite **Susieti**.
+9. Medyje pasirinkite **model\Payments\Creditor Agent(CreditorAgent)\Routing Number(RoutingNumber)** ir **Excel\PaymLines\RoutingNumber**.
+10. Pasirinkite **Susieti**.
+11. Medyje pasirinkite **model\Payments\Creditor Account(CreditorAccount)\Identification\Number** ir **Excel\PaymLines\AccountNumber**.
+12. Pasirinkite **Susieti**.
+13. Medyje pasirinkite **model\Payments\Instructed Amount(InstructedAmount)** ir **Excel\PaymLines\Debit**.
+14. Pasirinkite **Susieti**.
+15. Medyje pasirinkite **model\Payments\Currency** ir **Excel\PaymLines\Currency**.
+16. Pasirinkite **Susieti**.
+17. Medyje pasirinkite **PaymentByCurrency\grouped\Currency** ir **Excel\SummaryLines\SummaryCurrency**.
+18. Pasirinkite **Susieti**.
+19. Medyje pasirinkite **PaymentByCurrency\aggregated\TotalInstructuredAmount** ir **Excel\SummaryLines\SummaryAmount**.
+20. Pasirinkite **Susieti**.
+21. Medyje pasirinkite **PaymentByCurrency** ir **Excel\SummaryLines**.
+22. Pasirinkite **Susieti**.
+23. Medyje pasirinkite **model\Payments** ir **Excel\PaymLines**.
+24. Pasirinkite **Susieti**.
+25. Pasirinkite **Įrašyti**, o tada uždarykite puslapį.
 
 ## <a name="use-the-created-configuration-for-payments-processing"></a>Naudokite sukurtą konfigūraciją mokėjimams apdoroti
-1. Spustelėkite keisti būseną.
-2. Spustelėkite Baigti.
-3. Spustelėkite GERAI.
-4. Uždarykite puslapį.
-5. Uždarykite puslapį.
-6. Pasirinkite Mokėtinos sumos > Mokėjimų sąranka > Mokėjimo būdai.
-7. Norėdami filtruoti lauką Mokėjimo būdas pagal reikšmę „Elektroninis“, naudokite spartųjį filtrą.
-    * Elektroninis  
-8. Spustelėkite Redaguoti.
-9. Išplėskite dalį Failo formatai.
-10. Lauke Bendrosios elektroninės ataskaitos pasirinkite Taip.
-11. Lauke Eksportuoti formato konfigūraciją įveskite arba pasirinkite reikšmę.
-    * Pasirinkite konfigūraciją „Darbalapio ataskaitos pavyzdys‟.  
-12. Spustelėkite Įrašyti.
-13. Uždarykite puslapį.
+1. Pasirinkti **Keisti būseną**.
+2. Pasirinkite **Baigti**.
+3. Pasirinkite **Gerai**.
+4. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Mokėjimo sąranką > Mokėjimo būdai**.
+5. Naudokite spartųjį filtrą lauke **Mokėjimo būdas** su reikšme **Elektroninis**.
+6. Pasirinkite **Redaguoti**.
+7. Išplėskite skyrių **Failo formatai**.
+8. Lauke **Bendrosios elektroninės ataskaitos** pasirinkite **Taip**.
+9. Lauke **Eksportuoti formato konfigūraciją** įveskite arba pasirinkite reikšmę. Pasirinkite konfigūraciją **Pavyzdinio darbalapio ataskaita**.  
+10. Pasirinkite **Įrašyti**.
+11. Uždarykite puslapį.
 
 ## <a name="use-the-created-configuration-for-testing-of-payment-journals-processing"></a>Sukurtosios konfigūracijos naudojimas tikrinant mokėjimo žurnalų apdorojimą
-1. Pasirinkite Mokėtinos sumos > Mokėjimai > Mokėjimų žurnalas.
-2. Spustelėkite Naujas.
-    * Sukurkite naują mokėjimų žurnalą.  
-3. Lauke Pavadinimas įveskite „VendPay“.
-    * VendPay  
-4. Spustelėkite Eilutės.
-5. Lauke Sąskaita nurodykite reikšmes „GB_SI_000001“.
-    * GB_SI_000001  
-6. Debetas nustatykite į „1000‟.
-7. Spustelėkite Naujas.
-8. Lauke Sąskaita nurodykite reikšmes „GB_SI_000005“.
-    * GB_SI_000005  
-9. Debetas nustatykite į „2000‟.
-10. Lauke Valiuta įveskite „EUR‟.
-    * EUR  
-11. Lauke Korespondentinė sąskaita nurodykite reikšmes „GBSI OPER“.
-    * GBSI OPER  
-12. Lauke Mokėjimo būdas įveskite „Elektroninis‟.
-    * Elektroninis  
-13. Spustelėkite Įrašyti.
-14. Spustelėkite Generuoti mokėjimus.
-15. Lauke Mokėjimo būdas įveskite „Elektroninis‟.
-    * Elektroninis  
-16. Lauke Failo vardas, įveskite „Mokėjimai”.
-    * Pvz., įveskite „Mokėjimai‟.  
-17. Lauke Banko sąskaita įveskite „GBSI OPER‟.
-    * GBSI OPER  
-18. Spustelėkite GERAI.
-19. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtąjį darbalapį – išsamią mokėjimo eilučių informaciją bei kiekvieno šiame mokėjimo pranešime naudojamo valiutos kodo bendrąsias sumas.  
+1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Mokėjimai > Mokėjimo žurnalas**.
+2. Norėdami sukurti naują mokėjimo žurnalą, pasirinkite **Naujas**.
+3. Lauke **Pavadinimas** įveskite **VendPay**.
+4. Pasirinkite **Eilutės**.
+5. Lauke **Sąskaita** nurodykite reikšmės „`GB_SI_000001`“.
+6. Nustatykite **Debetas** į `1000`.
+7. Pasirinkite **Naujas**.
+8. Lauke **Sąskaita** nurodykite reikšmės `GB_SI_000005`.
+9. Nustatykite **Debetas** į `2000`.
+10. Lauke **Valiuta** įveskite `EUR`.
+11. Lauke **Korespondentinė sąskaita** nurodykite reikšmės `GBSI OPER`.
+12. Lauke **Mokėjimo būdas** įveskite `Electronic`.
+13. Pasirinkite **Įrašyti**.
+14. Pasirinkite **Generuoti mokėjimus**.
+15. Lauke **Mokėjimo būdas** įveskite `Electronic`.
+16. Lauke **Failo pavadinimas** įveskite `Payments`.
+17. Lauke **Banko sąskaita** įveskite `GBSI OPER`.
+18. Pasirinkite **Gerai**, tada dar kartą – **Gerai**. Peržiūrėkite sukurtąjį darbalapį – išsamią mokėjimo eilučių informaciją bei kiekvieno šiame mokėjimo pranešime naudojamo valiutos kodo bendrąsias sumas.  
 

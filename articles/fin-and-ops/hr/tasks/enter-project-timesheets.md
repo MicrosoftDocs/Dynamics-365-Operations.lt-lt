@@ -3,7 +3,7 @@ title: Įvesti projekto tabelius
 description: Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas.
 author: andreabichsel
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,49 +16,41 @@ ms.search.industry: Service industries
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f1be02f0080ee23359ad905b1e997d8cd5adfd2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2fd5c1e6c38c2e4380a8c8b061b08bce2dd43c8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1510387"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916512"
 ---
 # <a name="enter-project-timesheets"></a>Įvesti projekto tabelius
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas. Naujas grafikas gali būti pagrįstas ankstesniu grafiku arba puslapyje Mano parankiniai įrašytų projekto ir veiklos priskyrimų informacija. Pagal numatytuosius parametrus sąrašo puslapyje Visi grafikai pateikiami visi dabartinio laikotarpio grafikai. Galite naudoti puslapio Mano grafikai laiko Rodyti išplečiamąjį sąrašą ir filtruoti grafiką pagal laiką ar projektą arba peržiūrėti grafikus, kuriuos sukūrė kiti darbuotojai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USSI. Norėdami pradėti šią procedūrą, pasirinkite Projektų valdymas ir apskaita > Grafikai > Mano grafikai
+Ši procedūra padeda kurti grafikus naudojant tuščias grafikų formas. Naujas grafikas gali būti pagrįstas ankstesniojo grafiko arba projekto ir veiklos užduočių informacija puslapyje **Mano parankiniai**. Pagal numatytuosius nustatymus, sąrašo puslapis **Visi grafikai** rodo visus jūsų dabartinio laikotarpio grafikus. Galite naudoti išplečiamąjį sąrašą, skirtą puslapyje **Mano grafikai** esančiam laukui **Rodyti**, kad filtruotumėte grafikų sąrašą pagal laikotarpį ar projektą, arba kad peržiūrėtumėte kitų darbuotojų vardu sukurtus grafikus. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USSI. 
 
-1. Norėdami įvesti naują grafiką, spustelėkite Naujas.
-    * Pagal numatytuosius parametrus išplečiamajame sąraše Ištekliai rodomas darbuotojas, priskirtas dabartinio vartotojui.  
-    * Jei vartotojas yra nustatomas kaip perėmėjas, bus pateiktos pavardės, kad vartotojas pats galėtų įvesti grafiką.  
-2. Lauke Data įveskite datą.
-    * Jei ši parinktis pasirinkta, naujos grafiko eilutės bus sukurtos naudojant grafiko parametrus, kurie buvo sukonfigūruoti kaip parankiniai.  
-3. Spustelėkite GERAI.
-4. Spustelėkite Nauja eilutė.
-5. Sąraše pažymėkite pasirinktą eilutę.
-    * Lauke Juridinis subjektas pagal numatytuosius parametrus rodomas dabartinis juridinis subjektas.   
-6. Lauke Projektas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše raskite ir pasirinkite norimą įrašą.
-8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Lauke Veikla spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-10. Sąraše raskite ir pasirinkite norimą įrašą.
-11. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-12. Lauke Kategorija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-13. Sąraše raskite ir pasirinkite norimą įrašą.
-14. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-15. Įveskite valandų skaičių, dirbtą kiekvieną dieną.
-    * Valandas reikia įvesti dešimtainiu formatu.  Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
-16. Įveskite valandų skaičių, dirbtą kiekvieną dieną.
-    * Valandas reikia įvesti dešimtainiu formatu.  Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
-17. Įveskite valandų skaičių, dirbtą kiekvieną dieną.
-    * Valandas reikia įvesti dešimtainiu formatu.  Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
-18. Įveskite valandų skaičių, dirbtą kiekvieną dieną.
-    * Valandas reikia įvesti dešimtainiu formatu.  Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
-19. Įveskite valandų skaičių, dirbtą kiekvieną dieną.
-    * Valandas reikia įvesti dešimtainiu formatu.  Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
-    * Eilutės informacijoje pateikiamos tolesnės parinktys. o	Įtraukti informaciją apie mokesčius ir finansines dimensijas.  o    Įtraukti komentarų apie grafiko eilutę.  
-20. Spustelėkite „Darbo eiga“, kad atidarytumėte išplečiamąjį dialogo langą.
-21. Spustelėkite Pateikti.
-22. Spustelėkite Pateikti.
+1. Parinktyje **Naršymo sritis** eikite į **Moduliai > Projekto valdymas ir apskaita > Grafikai > Mano grafikai**.
+2. Norėdami įvesti naują grafiką, spustelėkite **Naujas**.
+    - Pagal numatytuosius parametrus išplečiamajame sąraše Ištekliai rodomas darbuotojas, priskirtas dabartinio vartotojui.  
+    - Jei vartotojas yra nustatomas kaip perėmėjas, bus pateiktos pavardės, kad vartotojas pats galėtų įvesti grafiką.  
+3. Lauke **Data** įveskite datą. Jei ši parinktis pasirinkta, naujos grafiko eilutės bus sukurtos naudojant grafiko parametrus, kurie buvo sukonfigūruoti kaip parankiniai.  
+4. Spustelėkite **Gerai**.
+5. Spustelėkite **Nauja eilutė**.
+6. Sąraše pažymėkite pasirinktą eilutę. Lauke **Juridinis subjektas** rodomas dabartinis juridinis subjektas, nustatytas pagal numatytuosius nustatymus.   
+7. Lauke **Projektas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+8. Sąraše raskite ir pasirinkite norimą įrašą.
+9. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+10. Lauke **Veiklos numeris** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+11. Sąraše raskite ir pasirinkite norimą įrašą.
+12. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+13. Lauke **Kategorija** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+14. Sąraše raskite ir pasirinkite norimą įrašą.
+15. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+16. Įveskite valandų skaičių, dirbtą kiekvieną dieną. Įveskite valandas dešimtainių formatu. Pvz., jei dirbote dvi valandas ir penkiolika minčių, įveskite 2,25.   
+17. Parinktyje **Išsami eilučių informacija** galimos šios parinktys:
+    - Pridėti informaciją apie mokesčių ir finansines dimensijas skirtukuose **Bendra** ir **Finansinės dimensijos**.
+    - Pridėti komentarų apie grafiko eilutę skirtuke **Komentaras**.
+20. Parinktyje **Veiksmų sritis** spustelėkite **Darbo eiga**, kad atidarytumėte tiesioginio dialogo langą.
+21. Spustelėkite **Pateikti**.
+22. Spustelėkite **Pateikti**.
 

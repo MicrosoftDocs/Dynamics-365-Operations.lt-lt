@@ -3,7 +3,7 @@ title: Dvi valiutos
 description: Šioje temoje pateikiama informacija apie dvi valiutas, kai ataskaitų valiuta naudojama kaip antroji „Microsoft Dynamics 365 for Finance and Operations“ apskaitos valiuta.
 author: kweekley
 manager: AnnBe
-ms.date: 05/06/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,20 +16,31 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: dfd4c116552510ee42cd2f3e8a0f31100826b9d2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6d5128ea9daaf22ee962ca5fc70a05cba05c7edb
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839407"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867516"
 ---
 # <a name="dual-currency"></a>Dvi valiutos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Naudojantis „Microsoft Dynamics 365 for Finance and Operations“ versijoje 8.1 (2018 m. spalis) įdiegta funkcija galima iš naujo nurodyti ataskaitų valiutos paskirtį ir šią valiutą naudoti kaip antrąją apskaitos valiutą. Ši funkcija vadinama *dvi valiutos*. Dviejų valiutų pakeitimų nepavyks išjungti naudojantis konfigūracijos raktu arba parametru. Kadangi ataskaitų valiuta naudojama kaip antroji apskaitos valiuta, pasikeitė ataskaitų valiutos apskaičiavimo registravimo logikoje tvarka.
 
-Be to, patobulinti įvairūs sekimui, ataskaitų rengimui ir ataskaitų valiutos naudojimui įvairiuose procesuose skirti moduliai. Patobulinti tokie moduliai kaip **Didžioji knyga**, **Finansinės ataskaitos**, **Mokėtinos sumos**, **Gautinos sumos**, **Grynųjų pinigų ir banko valdymas** ir **Ilgalaikis turtas**. Po atnaujinimo turite atlikti tam tikrus grynųjų pinigų ir banko valdymo ir ilgalaikio turto veiksmus. Todėl būtinai atidžiai perskaitykite atitinkamus šios temos skyrius.
+Be to, keli moduliai buvo patobulinti, kad galėtų sekti, pranešti ir naudoti ataskaitų valiutą įvairiuose procesuose. Paveikti moduliai yra šie:
+
+- Didžioji knyga 
+- Finansinės ataskaitos 
+- Mokėtinos sumos
+- Gautinos sumos 
+- Grynųjų pinigų ir banko paslaugų valdymas 
+- Ilgalaikis turtas 
+- Konsolidacija
+
+Po atnaujinimo turite atlikti tam tikrus grynųjų pinigų ir banko valdymo ir ilgalaikio turto veiksmus. Todėl įsitikinkite, kad perskaitėte ir supratote atitinkamus šios temos skyrius.
 
 ## <a name="posting-process"></a>Registravimo procesas
 
@@ -75,8 +86,9 @@ Toliau išvardyti moduliai ataskaitų valiutą naudoja kaip antrąją apskaitos 
 - [Gautinos sumos](#accounts-payable-and-accounts-receivable)
 - [Grynųjų pinigų ir banko valdymas](#cash-and-bank-management)
 - [Ilgalaikis turtas](#fixed-assets)
+- [Konsolidacija](#consolidations)
 
-### <a name="general-ledger"></a>DK
+### <a name="general-ledger"></a>Didžioji knyga
 
 Jei ataskaitų valiuta buvo nurodyta DK, DK jau buvo sekamos ataskaitų valiuta pateiktos kiekvieno apskaitos įrašo sumos. Tačiau dabar šios sumos konvertuojamos iš operacijos valiuta pateiktų sumų.
 
@@ -124,6 +136,8 @@ Anksčiau modulis **Ilgalaikis turtas** nesekdavo kiekvienoje ilgalaikio turto k
 Be to, atlikti dideli nusidėvėjimo proceso pakeitimai. Atlikus šiuos pakeitimus po atnaujinimo būtini vartotojo veiksmai. Svarbu perskaityti ir suprasti toliau išvardytus pakeitimus, net jei dar nenaudojate ilgalaikio turto.
 
 - Pasikeitė tai, kaip nusidėvėjimo procesas nustato sumą ataskaitų valiuta. Toliau minimu atveju palyginama, kaip nusidėvėjimas nustatydavo sumą ataskaitų valiuta anksčiau ir kaip nustato šią sumą dabar.
+
+
 
     **Nusidėvėjimo scenarijus**
 
@@ -186,3 +200,13 @@ Be to, atlikti dideli nusidėvėjimo proceso pakeitimai. Atlikus šiuos pakeitim
     - Jei nusidėvėjimo operacijos tipas įvedamas ilgalaikio turto žurnale, sumos ataskaitų valiuta rodomos naujuose stulpeliuose. Šias sumas galima pakeisti.
     - Jei DK apskaitos valiuta ir ataskaitų valiuta sutampa, sumos sinchronizuojamos. Pakeitus sumą **Kreditas** automatiškai pakeičiama suma **Kreditas ataskaitų valiuta**, kad jos sutaptų.
     - Ilgalaikio turto žurnale įvedus bet kokį kitą operacijos tipą, sumos **Debetas ataskaitų valiuta** ir **Kreditas ataskaitų valiuta** nerodomos nei prieš registravimą, nei po jo. Sumos apskaitos valiuta ir ataskaitų valiuta vis dar matomos DK registruojamame kvite.
+    
+### <a name="consolidations"></a>Konsolidacija
+    
+Funkcija, pristatyta „Microsoft Dynamics 365 for Finance and Operations“ 10.0.5 versijoje (2019 m. spalio mėn.), įjungiama per funkcijų valdymą, kad būtų pasiektas patobulintas konsolidacijos ir dvejų valiutų lankstumas. Norėdami įjungti šią funkciją, eikite į **Funkcijų valdymas** darbo sritį ir pasirinkite **Įjungti dvejų valiutų funkciją DK konsolidacijoje**.
+
+DK konsolidacijoje pridėta nauja parinktis, su kuria galima konsoliduoti šaltinio įmonių apskaitos arba ataskaitų valiutų sumas. Jei apskaitos arba ataskaitų valiutos yra tokios pačios, kaip apskaitos arba ataskaitų valiutos konsolidacijos įmonėje, sumos bus tiesiogiai nukopijuotos, o ne verčiamos.
+
+-  Dabar galite pasirinkti ar norite naudoti šaltinio įmonės apskaitos valiutą ar ataskaitų valiutą kaip operacijos valiutą konsolidacijos įmonėje.
+
+- Šaltinio įmonės apskaitos arba ataskaitų valiutų sumos bus tiesiogiai nukopijuotos į konsolidacijos įmonės apskaitos arba ataskaitų valiutų sumas, jei bet kuri iš šių valiutų yra vienoda. Konsolidacijos įmonės apskaitos ir ataskaitų valiutų sumos skaičiuojamos naudojant valiutos kursą, jei nei viena iš valiutų nėra vienoda.

@@ -1,9 +1,9 @@
 ---
-title: Likviduoti ilgalaikį turtą naudojant laisvos formos SF
-description: Šioje procedūroje parodoma, kaip įsigyti ilgalaikį turtą naudojant įsigijimo pasiūlymą, esantį žurnale Ilgalaikis turtas.
+title: Ilgalaikio turto likvidavimas naudojant laisvos formos SF
+description: Šioje temoje aiškinama, kaip įsigyti ilgalaikio turto naudojant įsigijimo pasiūlymą ilgalaikio turto žurnale.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26446df21a3b55abcdd5f163ae84f8e35d853965
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 179a6e45d57baf810068cb5c14aed670ebb94706
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846996"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914658"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Ilgalaikio turto likvidavimas naudojant laisvos formos SF
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje nurodoma, kaip likviduoti ilgalaikį turtą naudojant laisvos formos SF.
+Šioje temoje aiškinama, kaip likviduoti ilgalaikį turtą naudojant laisvos formos sąskaitą-faktūrą.
 
-1. Pasirinkite Gautinos sumos > Sąskaitos faktūros > Visos laisvos formos SF.
-2. Spustelėkite Naujas.
-3. Lauke Kliento sąskaita įveskite arba pasirinkite reikšmę.
-4. Patikrinkite numatytąją SF datą ir, jei įmanoma, pakoreguokite.
-5. Patikrinkite kitus numatytuosius antraštės laukus, pvz., Valiuta ir, jei įmanoma, pakoreguotikte.
-6. SF eilutėje įveskite aprašymą.
-7. Įveskite arba pasirinkite SF eilutės pagrindinę sąskaitą.
-8. Patikrinkite numatytąją PVM grupę ir Prekės PVM grupę.
-9. Įveskite ilgalaikio turto vieneto kainą arba hte pardavimo sumą.
-10. Spustelėkite Eilutės informacija.  
-11. Pasirinkite parduodamo ilgalaikio turto numerį.
-12. Spustelėkite Registruoti.
+1. Naršymo srityje eikite į **Moduliai > Gautinos sumos > Sąskaita-faktūra > Visos laisvos formos sąskaitos-faktūros**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Kliento sąskaita** įveskite arba pasirinkite reikšmę.
+4. Patikrinkite numatytąją **Sąskaita-faktūra** datą ir ją redaguokite, jei taikoma.
+5. Patikrinkite likusius numatytuosius antraštės laukus, pvz., **Valiuta** ir redaguokite, jei taikoma.
+6. Skyriuje **Sąskaitos-faktūros eilutės** patikrinkite laukus **Aprašas** ir **Pagrindinė sąskaita**.
+7. Patikrinkite numatytuosius laukus **PVM grupė** ir **Prekės PVM grupė**.
+8. Įveskite ilgalaikio turto pardavimo **Vieneto kaina** arba **Suma**.
+9. Pasirinkite skyrių **Eilutės informacija**.  
+10. Lauke **Ilgalaikis turtas** įveskite arba pasirinkite reikšmę.
+11. Pasirinkite **Registruoti**. 
 

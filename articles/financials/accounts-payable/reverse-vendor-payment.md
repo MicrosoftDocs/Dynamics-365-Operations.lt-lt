@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6587505fc5a729ffd82ab65aca7d5aa6ca4a265
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: db9208c8e76d963d5b8f6bee6b7c73268af68734
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837257"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867755"
 ---
 # <a name="reverse-a-vendor-payment"></a>Kaip atšaukti tiekėjo mokėjimą
 
@@ -48,7 +48,7 @@ Norėdami sužinoti, kurį būdą naudoja jūsų organizacija, žr. puslapį **G
 Jei jūsų organizacija nori registruoti čekių atšaukimus iš karto, kai spustelima **Mokėjimo atšaukimas** puslapyje **Čekis**. Puslapyje **Grynųjų pinigų ir banko valdymo parametrai** nustatykite parinktį **Naudoti mokėjimų atšaukimų peržiūros procesą** į **Ne**. Puslapyje **Čekiai** galite pasirinkti norimą atšaukti čekį ir pasirinkite **Mokėjimo atšaukimas**. Tada galite įvesti datą ir pasirinkti atšaukimo datą.
 
 ## <a name="reverse-posted-checks-after-they-are-reviewed-in-the-check-reversal-journal"></a>Kaip atšaukti užregistruotus čekius juos peržiūrėjus čekio atšaukimo žurnale
-Jei jūsų organizacija nori peržiūrėti čekių atšaukimus prieš juos užregistruojant, sukurkite peržiūrėti skirtą čekio atšaukimo žurnalą puslapyje **Grynųjų pinigų ir banko valdymo parametrai** ir nustatykite parinktį **Naudoti mokėjimų atšaukimų peržiūros procesą** į **Taip**. Puslapyje **Čekiai** galite pasirinkti norimą atšaukti čekį ir pasirinkite **Mokėjimo atšaukimas**. Tada galite įvesti datą ir pasirinkti atšaukimo datą. Norėdami sukurti žurnalą čekio atšaukimo žurnale turite pasirinkti žurnalo pavadinimą.
+Jei jūsų organizacija nori peržiūrėti čekių atšaukimus prieš juos užregistruojant, sukurkite peržiūrėti skirtą čekio atšaukimo žurnalą puslapyje **Grynųjų pinigų ir banko valdymo parametrai** ir nustatykite parinktį **Naudoti mokėjimų atšaukimų peržiūros procesą** į **Taip**. Puslapyje **Čekiai** galite pasirinkti norimą atšaukti čekį ir pasirinkite **Mokėjimo atšaukimas**. Tada galite įvesti datą ir pasirinkti atšaukimo datą. Reikia nustatyti ir tipo Bankas, ir tipo Tiekėjas finansinę priežastį. Norėdami sukurti žurnalą čekio atšaukimo žurnale turite pasirinkti žurnalo pavadinimą.
 
 ### <a name="review-a-reversal"></a>Peržiūrėti atšaukimą
 

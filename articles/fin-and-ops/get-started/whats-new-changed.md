@@ -1,5 +1,5 @@
 ---
-title: Kas nauja ar pasikeitė
+title: Kas nauja ar pasikeitė – pagrindinis puslapis
 description: Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Microsoft Dynamics 365 for Finance and Operations“ versijose.
 author: josaw1
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 300db1170a9dbb6a83dd628c0430e03d7746fe53
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 9505f386cdc891c855e4ac38dffd16858d79a1ac
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863444"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865165"
 ---
-# <a name="whats-new-or-changed"></a>Kas nauja ar pasikeitė
+# <a name="whats-new-or-changed-home-page"></a>Kas nauja ar pasikeitė – pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 

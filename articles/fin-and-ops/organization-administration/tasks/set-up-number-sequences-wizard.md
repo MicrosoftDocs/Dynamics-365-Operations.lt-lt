@@ -1,9 +1,9 @@
 ---
-title: Nustatyti numeracijas naudojant vedlį
-description: Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi.
+title: Numeracijų nustatymas naudojant vediklį
+description: Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,24 +16,26 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f97c4cd6cdb117ebdd67a155478bb6f8d1703541
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560549"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867396"
 ---
-# <a name="set-up-number-sequences-by-using-a-wizard"></a>Nustatyti numeracijas naudojant vedlį
+# <a name="set-up-number-sequences-using-a-wizard"></a>Numeracijų nustatymas naudojant vediklį
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi. Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda. Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda. Ši procedūra paaiškina, kaip vienu kartu nustatyti visas reikiamas numerių sekas naudojant vedlį. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi. Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda. Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda. Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
-1. Pasirinkite Organizacijos administravimas > Numeracijos > Numeracijos.
-2. Spustelėkite „Generuoti“.
-3. Spustelėkite Pirmyn.
-    * Šiame puslapyje galite modifikuoti identifikavimo kodą, mažiausią reikšmę ir didžiausią reikšmę. Be to, galite nurodyti, ar numeracija turi būti nuolatinė.   
-    * Nepasirinkite parinkties „Ištisinė“, jei turite iš anksto priskirti numerių sekos numerius.     Norėdami įtraukti aprėpties segmentą į numerių sekos formatą, pasirinkite formatą sąraše, tada spustelėkite „Įtraukti aprėptį į formatą“.     Norėdami pašalinti aprėpties segmentą iš numerių sekos formato, pasirinkite formatą sąraše, tada spustelėkite „Pašalinti aprėptį iš formato“.     Norėdami neįtraukti numerių sekos į automatinį generavimą, pasirinkite numerių seką sąraše, tada spustelėkite „Ištrinti“.  
-4. Spustelėkite Pirmyn.
-5. Spustelėkite Baigti.
+1. Eikite į **Naršymo sritis > Moduliai > Organizacijos administravimas > Numeracijos > Numeracijos**.
+2. Pasirinkite **Generuoti**.
+3. Pasirinkite **Toliau**.
+
+   - Šiame puslapyje galite modifikuoti identifikavimo kodą, mažiausią reikšmę ir didžiausią reikšmę. Be to, galite nurodyti, ar numeracija turi būti nuolatinė.   
+   - Jei turite iš anksto priskirti numerius numeracijai, nepažymėkite parinkties **Nuolatinė**. Norėdami į numeracijos formatą įtraukti aprėpties segmentą, sąraše pasirinkite formatą ir pažymėkite **Įtraukti aprėptį į formatą**. Norėdami iš numeracijos formato pašalinti aprėpties segmentą, sąraše pasirinkite formatą ir pažymėkite **Pašalinti aprėptį iš formato**. Norėdami, kad numeracija nebūtų automatiškai generuojama, sąraše pasirinkite numeraciją ir pažymėkite **Naikinti**.  
+
+4. Pasirinkite **Toliau**.
+5. Pasirinkite **Baigti**.
 

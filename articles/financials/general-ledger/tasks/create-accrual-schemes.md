@@ -1,9 +1,9 @@
 ---
-title: Kurti kaupimo schemą
-description: Šis užduoties vadovas padeda sukurti kaupimo schemą.
+title: Kaupimo schemų kūrimas
+description: Šioje temoje aiškinama, kaip kurti kaupimo schemą.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,28 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0ae55000a5cf1593d057d940dc3dbbf9e5cb3f3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: e8f8cf8546187ae1c65d4966887e1c5842dff431
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834895"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867564"
 ---
-# <a name="create-accrual-schemes"></a>Kurti kaupimo schemą
+# <a name="create-accrual-schemes"></a>Kaupimo schemų kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šis užduoties vadovas padeda sukurti kaupimo schemą. Šioje užduotyje naudojama demonstracinė įmonė USMF.
+Šioje temoje aiškinama, kaip kurti kaupimo schemą. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
-1. Pasirinkite Didžioji knyga > Žurnalo nustatymas > Kaupimo schemos.
-2. Spustelėkite Naujas.
-3. Lauke Kaupimo identifikacija įveskite reikšmę.
-4. Lauke Kaupimo schemos aprašas įveskite reikšmę.
-5. Lauke Debetas nurodykite norimas reikšmes.
-    * Nurodyta pagrindinė sąskaita žurnalo kvito eilutėje pakeis debeto pagrindinę sąskaitą, be to ji bus naudojama atšaukiant atidėjimą pagal DK kaupimo operacijas.  
-6. Lauke Kreditas nurodykite norimas reikšmes.
-    * Nurodyta pagrindinė sąskaita žurnalo kvito eilutėje pakeis kredito pagrindinę sąskaitą, be to ji bus naudojama atšaukiant atidėjimą pagal DK kaupimo operacijas.  
-7. Lauke Kvitas pasirinkite, kaip norite nustatyti kvitą registruojant operacijas.
-8. Lauke Aprašas įveskite reikšmę, kuria būtų aprašomos registruojamos operacijos.
-9. Lauke Laikotarpio dažnis pasirinkite, kaip dažnai operacijos turėtų būti vykdomos.
-10. Lauke Pasikartojimų skaičius pagal laikotarpį įveskite skaičių.
-11. Lauke Registruoti operacijas pasirinkite, kada turi būti registruojamos operacijos, pvz., kas mėnesį.
+1. Eikite į **Naršymo sritis > Moduliai > Bendroji didžioji knyga > Žurnalo sąranka > Kaupimo schemos**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Kaupimo identifikavimas** įveskite reikšmę.
+4. Lauke **Kaupimo schemos aprašas** įveskite reikšmę.
+5. Lauke **Debetas”** nurodykite pageidaujamas reikšmes. Nurodyta pagrindinė sąskaita žurnalo kvito eilutėje pakeis debeto pagrindinę sąskaitą, be to ji bus naudojama atšaukiant atidėjimą pagal DK kaupimo operacijas.  
+6. Lauke **Kreditas”** nurodykite pageidaujamas reikšmes. Nurodyta pagrindinė sąskaita žurnalo kvito eilutėje pakeis kredito pagrindinę sąskaitą, be to ji bus naudojama atšaukiant atidėjimą pagal DK kaupimo operacijas.  
+7. Lauke **Kvitas** pasirinkite, kaip norite apibrėžti kvitą, kaip užregistruojamos operacijos.
+8. Lauke **Aprašas** įveskite reikšmę, aprašančią sandorius, kurie bus registruojami.
+9. Lauke **Laikotarpio dažnumas** pasirinkite, kaip dažnai operacijos turi vykti.
+10. Lauke **Įvykių skaičius pagal laikotarpį** įveskite skaičių.
+11. Lauke **Registruoti sandorius**pasirinkite, kada operacijos turi būti registruojamos, pavyzdžiui, **Kas mėnesį**.
 

@@ -1,9 +1,9 @@
 ---
-title: Apibrėžti atsargų skaičiavimo procesus
-description: Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją.
+title: Atsargų skaičiavimo procesų apibrėžimas
+description: Šioje temoje aprašoma pagrindinių atsargų skaičiavimo procesų konfigūravimas sukuriant skaičiavimo grupę ir skaičiavimo žurnalą.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,72 +17,71 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4128023ba9fded23b994579f0ab54a75f72fc15a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 016447bca53bbc7b2eb3d7ea0790837fa8035dc6
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845456"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867202"
 ---
-# <a name="define-inventory-counting-processes"></a>Apibrėžti atsargų skaičiavimo procesus
+# <a name="define-inventory-counting-processes"></a>Atsargų skaičiavimo procesų apibrėžimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra, kurdama inventorizacijos grupę ir inventorizacijos žurnalą, apžvelgia pagrindinių atsargų inventorizacijos procesų konfigūraciją. Ji taip pat parodo, kaip įgalinti invetorizavimo strategijas sandėlio ir prekės lygiu. Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas. Būtina turėti keletą esamų išleistų produktų ir sandėlių. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.
+Šioje temoje aprašoma pagrindinių atsargų skaičiavimo procesų konfigūravimas sukuriant skaičiavimo grupę ir skaičiavimo žurnalą. Ji taip pat parodo, kaip įgalinti invetorizavimo strategijas sandėlio ir prekės lygiu. Šias užduotis paprastai turėtų atlikti sandėlio prižiūrėtojas. Būtina turėti keletą esamų išleistų produktų ir sandėlių. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą USMF įmonėje galite vykdyti su bet kokia atsargų preke.
 
 
 ## <a name="create-a-counting-group"></a>Kurti inventorizacijos grupę
-1. Pasirinkite Atsargų valdymas > Nustatymas > Atsargų paskirstymas > Inventorizacijos grupės.
-2. Spustelėkite Naujas.
-3. Lauke Inventorizacijos grupė surinkite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-5. Lauke Inventorizacijos kodas pasirinkite parinktį.
-    * Neautomatiškai – įtraukia eilutes kiekvieną kartą vykdant užduotį. Kitaip tariant, jūs nustatote inventorizacijos grupės inventorizacijos intervalą.  Laikotarpis – pasibaigus laikotarpio intervalui įtraukia laikotarpio eilutes į inventorizacijos žurnalą.   Nulis atsargų – jei turimos prekės atsargos pasiekia nulį (0), vykdant užduotį eilutės generuojamos inventorizacijos žurnale. Jei turimos atsargos pasiekia nulį po inventorizacijos, eilutės generuojamos kitą kartą pradėjus inventorizaciją.   Mažiausia – įtraukia eilutes į inventorizacijos žurnalą, jei turimos prekės atsargos lygios arba mažesnės už nurodytą mažiausią kiekį.  
-    * Neprivaloma: jei lauke Inventorizacijos kodas nurodėte Laikotarpis, lauke Inventorizacijos laikotarpis turite įvesti laikotarpio intervalą. Intervalų vienetas yra dienos.  
-    * Kai vykdote užduotį, kuria inventorizacijos žurnale kuriamos naujos eilutės, jos kuriamos šiame lauke nurodytu intervalu, neatsižvelgiant į tai, kaip dažnai vykdote tą pačią užduotį. Pvz., kai skaičiavimo laikotarpis yra nustatytas į 7 ir žurnalo eilutės paskutinį kartą buvo sugeneruotos ir suskaičiuotos sausio 1 d., jei sausio 5 d. pradedama kita užduotis, dar nebus praėjusios septynios dienos ir todėl žurnale už tą laikotarpio intervalą eilučių nesugeneruota. Jei užduotį iš naujo pradėsite sausio 8 d., laikotarpio eilutės generuojamos inventorizacijos žurnale, nes jau praėjo 7 dienos.  
-6. Spustelėkite Įrašyti.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Atsargos > Inventorizacijos grupės**.
+2. Pasirinkite **Naujas**.
+3. Naujos eilutės lauke **Inventorizacijos grupė** įveskite reikšmę.
+4. Lauke **Pavadinimas** įveskite reikšmę.
+5. Lauke **Inventorizacijos kodas** pasirinkite parinktį.
+
+    - **Rankinis būdas** – apima eilutes kiekvieną kartą, kai vykdote užduotį. Kitaip tariant, jūs nustatote inventorizacijos grupės inventorizacijos intervalą.  
+    - **Laikotarpis** – apima laikotarpio eilutes inventorizacijos žurnale, kai laikotarpio intervalas baigėsi.  
+    - **Nulis atsargų** – jei turimos atsargos pasiekia nulį (0), eilutės generuojamos inventorizacijos žurnale, kai vykdoma užduotis. Jei turimos atsargos pasiekia nulį po inventorizacijos, eilutės generuojamos kitą kartą pradėjus inventorizaciją.  
+    - **Minimumas** – įtraukia eilutes į inventorizacijos žurnalą jei turimos atsargos yra lygios arba mažesnės nei nurodytas minimumas.  
+    - Neprivaloma: jei nurodėte parinktį **Laikotarpis** lauke **Inventorizacijos kodas**, turite įvesti laikotarpio intervalą lauke **Inventorizacijos laikotarpis**. Intervalų vienetas yra dienos.  
+    - Kai vykdote užduotį, kuria inventorizacijos žurnale kuriamos naujos eilutės, jos kuriamos šiame lauke nurodytu intervalu, neatsižvelgiant į tai, kaip dažnai vykdote tą pačią užduotį. Pavyzdžiui, jei lauke **Inventorizacijos laikotarpis** nustatysite 7, o žurnalo eilutės paskutinį kartą buvo sugeneruotos skaičiavimui sausio 1 d., jei kitą užduotį pradėsite sausio 5 d., kai nepraėjo septynios dienos, eilutės, skirtos tam laikotarpio intervalui, nebus generuojamos žurnale. Jei užduotį iš naujo pradėsite sausio 8 d., laikotarpio eilutės generuojamos inventorizacijos žurnale, nes jau praėjo 7 dienos.  
+
+6. Pasirinkite **Įrašyti**.
 
 ## <a name="create-a-counting-journal-name"></a>Kurti inventorizacijos žurnalo pavadinimą
-1. Pasirinkite Atsargų valdymas > Sąranka > Žurnalų pavadinimai > Atsargos.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Žurnalo tipas pasirinkite „Inventorizacijos‟.
-    * Neprivaloma: jei norite, kad, kuriant inventorizacijos žurnalus, būtų generuojama konkreti kvito ID numeracija, galite pasirinkti kitą kvitų serijos ID. Kvitų serijos kuriamos puslapyje Numeracijos.  
-6. Lauke Informacijos lygis pasirinkite parinktį.
-    * Tai yra informacijos lygis, taikomas, kai užregistruojamas žurnalas.  
-    * Neprivaloma: reikšmę galite keisti lauke Rezervavimas. Tai yra būdas, naudojamas rezervuoti prekėms skaičiuojant.   
-    * Rankin. – prekės rezervuojamos rankiniu būdu formoje Rezervavimas.   Automat. – užsakymo kiekis rezervuojamas iš turimų galimos prekės atsargų.   Išskleidimas – rezervavimas yra operacijos bendrojo planavimo dalis.  
-7. Spustelėkite Įrašyti.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Žurnalų pavadinimai > Atsargos**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Pavadinimas** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Lauke **Žurnalo tipas** pasirinkite **Inventorizacija**. Neprivaloma: jei norite, kad, kuriant inventorizacijos žurnalus, būtų generuojama konkreti kvito ID numeracija, galite pasirinkti kitą kvitų serijos ID. Kvitų serijos sukuriamos puslapyje **Numeracijos**.  
+6. Lauke **Detalumo lygis** pasirinkite parinktį.  
+
+    - Tai yra informacijos lygis, taikomas, kai užregistruojamas žurnalas.  
+    - Neprivaloma: reikšmę galite keisti lauke Rezervavimas. Tai yra būdas, naudojamas rezervuoti prekėms skaičiuojant.   
+    - **Rankinis būdas** – prekės rezervuojamos rankiniu būdų rezervavimo formoje.  
+    - **Automatiškai** – užsakymo kiekis rezervuojamas iš pasiekiamų ir turimų prekės atsargų.   
+    - **Išskleidimas** – rezervavimas yra operacijos bendrojo planavimo dalis.  
+
+7. Pasirinkite **Įrašyti**.
 
 ## <a name="set-standard-counting-journal-name"></a>Nustatyti standartinį inventorizacijos žurnalo pavadinimą
-1. Pasirinkite Atsargų valdymas > Nustatymas > Atsargų ir sandėlio valdymo parametrai.
-2. Spustelėkite skirtuką Žurnalai.
-3. Lauke Inventorizacija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Pasirinkite žurnalą, kurį sukūrėte anksčiau.
-    * Šis žurnalas tada bus numatytasis skaičiavimo tipo atsargų žurnalų pavadinimas.  
-5. Spustelėkite skirtuką Bendra.
-    * Neprivaloma: pasirinkite šią parinktį norėdami inventorizacijos metu prekes blokuoti norint uždrausti atnaujinti važtaraščius, išrinkimo dokumentus ar išrinkimo dokumentų registracijas.  
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Atsargų ir sandėlio valdymo parametrai**.
+2. Pasirinkite skirtuką **Žurnalai**.
+3. Lauko **Inventorizacija** išplečiamajame meniu pasirinkite anksčiau sukurtą žurnalą. Šis žurnalas bus numatytasis atsargų žurnalų tipo **Inventorizacija** žurnalo pavadinimas.  
+4. Pasirinkite skirtuką **Bendra**. Neprivaloma: pasirinkite šią parinktį, kad užrakintumėte prekę, kai vykdomas inventorizacijos procesas, kad išvengtumėte važtaraščių, išrinkimo dokumentų arba išrinkimo dokumento registravimų atnaujinimų.  
 
 ## <a name="set-the-counting-policy-for-an-item"></a>Nustatyti prekės inventorizacijos strategiją
-1. Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.
-2. Sąraše spustelėkite ant produkto, kuriam norite nustatyti inventorizacijos strategijas, prekės numerio saito.
-    * Atkreipkite dėmesį, kad reikia pasirinkti prekę, kuri yra sekama atsargose. Atsargose nesančio produkto suskaičiuoti negalima. Jei naudojate USMF demonstracinius duomenis, galite pasirinkti prekę A0001.  
-3. Spustelėkite Redaguoti.
-4. Perjunkite dalies Valdyti atsargas išplėtimą.
-5. Lauke Inventorizacijos grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-6. Sąraše spustelėkite ant savo anksčiau sukurtos inventorizacijos grupės.
-    * Šis produktas dabar bus įtraukiamas, kai, naudojant šią skaičiavimo grupę, sukuriamos atsargų inventorizacijos žurnalo eilutės.  
-7. Spustelėkite Įrašyti.
+1. Naršymo srityje eikite į **Moduliai > Produkto informacijos valdymas > Produktai > Išleisti produktai**.
+2. Sąraše pasirinkite produkto, kuriam norite nustatyti inventorizacijos strategijas, prekės numerio nuorodą. Turite pasirinktį atsargose sekamą prekę. Atsargose nesančio produkto suskaičiuoti negalima. Jei naudojate USMF demonstracinius duomenis, galite pasirinkti prekę A0001.  
+3. Pasirinkite **Redaguoti**.
+4. Perjunkite skyriaus **Valdyti atsargas** išplėtimą.
+5. Lauko **Inventorizacijos grupė** išplečiamajame meniu pasirinkite anksčiau sukurtą inventorizacijos grupę. Šis produktas dabar bus įtraukiamas, kai, naudojant šią skaičiavimo grupę, sukuriamos atsargų inventorizacijos žurnalo eilutės.  
+6. Pasirinkite **Įrašyti**.
 
 ## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Nustatyti prekės, esančios konkrečiame sandėlyje, inventorizacijos strategiją
-1. Veiksmų srityje spustelėkite Valdyti atsargas.
-2. Spustelėkite Sandėlio prekės.
-3. Spustelėkite Naujas.
-4. Lauke Sandėlis spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše pasirinkite sandėlį, kuriam norite nustatyti konkrečias inventorizacijos strategijas.
-6. Lauke Inventorizacijos grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše pasirinkite inventorizacijos grupę
-    * Čia galite pasirinkti konkrečią skaičiavimo grupę, kurią reikėtų taikyti prekei konkrečiame jūsų pasirinktame sandėlyje. Kai tame sandėlyje bus atliekamas skaičiavimas, ši skaičiavimo strategija bus naudojama vietoj prekės bendrosios skaičiavimo strategijos.  
-8. Spustelėkite Įrašyti.
+1. Veiksmų srityje spustelėkite **Valdyti atsargas**.
+2. Pasirinkite **Sandėlio prekės**.
+3. Pasirinkite **Naujas**.
+4. Lauko **Sandėlis** išplečiamajame meniu pasirinkite sandėlį, kuriam norite nustatyti konkrečias inventorizacijos strategijas.
+5. Lauko **Inventorizacijos grupė** išplečiamajame meniu pasirinkite inventorizacijos grupę. Galite pasirinkti konkrečią inventorizacijos grupę, kuri turėtų būti taikoma prekei konkrečiame jūsų išrinktame sandėlyje. Kai tame sandėlyje bus atliekamas skaičiavimas, ši skaičiavimo strategija bus naudojama vietoj prekės bendrosios skaičiavimo strategijos.  
+6. Pasirinkite **Įrašyti**.
 

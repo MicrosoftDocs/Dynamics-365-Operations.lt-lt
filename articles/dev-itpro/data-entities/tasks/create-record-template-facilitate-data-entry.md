@@ -1,9 +1,9 @@
 ---
 title: Sukurti įrašo šabloną, kad būtų paprasčiau įvesti duomenis
-description: Šioje procedūroje parodoma, kaip sukurti įrašo šabloną, kad dėl kiekvieno naujo įrašo nereikėtų tiesiogiai įvedinėti dažnai naudojamų laukų reikšmių.
+description: Šioje temoje rodoma, kaip sukurti įrašo šabloną, kad dažnai naudojamų lauko reikšmių nereikėtų atskirai įvesti kiekviename naujame įraše.
 author: margoc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,37 +16,31 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b2ba56b6146f2495fb6a53c3cef9f549b1ad837
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: 08ee7d0f0ce7e92eaa85137dcd2761bfd702eb8c
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1848212"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866933"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Sukurti įrašo šabloną, kad būtų paprasčiau įvesti duomenis
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip sukurti įrašo šabloną, kad dėl kiekvieno naujo įrašo nereikėtų tiesiogiai įvedinėti dažnai naudojamų laukų reikšmių. Atlikdami šią procedūrą sukursite naują įrašą apie naujus nešiojamuosius kompiuterius, kurie turėtų būti įtraukti į jūsų ilgalaikį turtą. Šioje procedūroje naudojama pavyzdinė įmonė USMF.
+Šioje temoje rodoma, kaip sukurti įrašo šabloną, kad dažnai naudojamų lauko reikšmių nereikėtų atskirai įvesti kiekviename naujame įraše. Atlikdami šią procedūrą sukursite naują įrašą apie naujus nešiojamuosius kompiuterius, kurie turėtų būti įtraukti į jūsų ilgalaikį turtą. Šioje procedūroje naudojama pavyzdinė įmonė USMF.
 
-1. Eikite į dalį Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas.
-2. Spustelėkite Naujas.
-3. Lauke Ilgalaikio turto grupė įveskite arba pasirinkite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-    * Pavyzdžiui, įveskite „Įmonės pagrindinis nešiojamasis kompiuteris”.  
-5. Lauke Ieškos pavadinimas įveskite reikšmę.
-    * Pavyzdžiui, įveskite „nešiojamasis kompiuteris.”  
-6. Išplėskite dalį Techninė informacija.
-7. Lauke Gamintojas įveskite reikšmę.
-8. Lauke Modelis įveskite reikšmę.
-9. Lauke Modelio metai įveskite reikšmę.
-10. Veiksmų srityje spustelėkite Parinktys.
-11. Spustelėkite Įrašo informacija.
-12. Spustelėkite Vartotojo šablonas.
-13. Lauke Pavadinimas surinkite reikšmę.
-    * Pavyzdžiui, įveskite „Įmonės nešiojamasis kompiuteris.”  
-14. Lauke Aprašas įveskite reikšmę.
-    * Pavyzdžiui, įveskite „Įmonės nešiojamasis kompiuteris”.  
-15. Spustelėkite GERAI.
-16. Spustelėkite Uždaryti.
+1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Ilgalaikio turto grupė** įveskite arba pasirinkite reikšmę.
+4. Lauke **Pavadinimas** įveskite reikšmę. Pavyzdžiui, įveskite **Įmonės pagrindinis nešiojamasis kompiuteris**.  
+5. Lauke **Ieškoti pavadinimo** įveskite reikšmę. Pavyzdžiui, įveskite **nešiojamasis kompiuteris**.  
+6. Išplėskite skyrių **Techninė informacija**.
+7. Laukuose **Gamintojas**, **Modelis** ir **Modelio metai** įveskite reikšmes.
+8. Veiksmų srityje pasirinkite**Parinktys**.
+9. Pažymėkite **Įrašo informacija**.
+10. Pažymėkite **Vartotojo šablonas**.
+11. Lauke **Pavadinimas** įveskite reikšmę.
+12. Lauke **Aprašo laukas**surinkite reikšmę.
+13. Pasirinkite **Gerai**.
+14. Pasirinkite **Uždaryti**.
 

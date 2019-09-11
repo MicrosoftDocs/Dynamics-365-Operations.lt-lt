@@ -3,7 +3,7 @@ title: Sukurti pirkimo leidimo užsakymą iš pirkimo sutarties
 description: Ši procedūra nurodo, kaip naudoti pirkimo sutartį, kai kuriate pirkimo užsakymą.
 author: mkirknel
 manager: AnnBe
-ms.date: 12/04/2015
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c45db4ac01be831c0c75f888d313d61d934fc33f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: da161c9066c822f8c09e5eda90994e8b03af4681
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547598"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916868"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Sukurti pirkimo leidimo užsakymą iš pirkimo sutarties
 
@@ -30,37 +30,32 @@ ms.locfileid: "1547598"
 
 
 ## <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
-1. Atidarykite pirkimo užsakymo rengimo darbo sritį.
-2. Spustelėkite „Naujas pirkimo užsakymas“.
-3. Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. **Naršymo sritis** eikite į **Darbo sritys > Pirkimo užsakymo paruošimas**. 
+2. Spustelėkite **Naujas pirkimo užsakymas**. 
+3. Lauke **Tiekėjo sąskaita** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 4. Sąraše raskite ir pasirinkite norimą įrašą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Perjunkite dalies Bendra išplėtimą.
-7. Lauke „Pirkimo sutartis“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Čia išvardytos visos esamos sutartys su tiekėjais. Raskite galiojančią sutartį, kurią norite naudoti.  
+6. Išplėskite „fastTab“ **Bendra**.
+7. Lauke **Pirkimo sutartis** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Čia išvardytos visos esamos sutartys su tiekėjais. Raskite galiojančią sutartį, kurią norite naudoti.  
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Spustelėkite Taip.
-10. Spustelėkite GERAI.
+9. Spustelėkite **Taip**.
+10. Spustelėkite **Gerai**.
 
 ## <a name="add-a-line"></a>Įtraukti eilutę
-1. Lauke Prekės numeris surinkite reikšmę.
-    * Jei įsipareigojimas nurodo konkrečias atsargų arba vietos dimensijas, turite įvesti tas pačias reikšmes ir pirkimo užsakymo eilutėje, kad galėtumėte naudotis sutartimi.  
-2. Lauke Teritorija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Svetainėje jau gali būti įvesta numatytoji reikšmė iš užsakymo arba iš tiekėjo. Tokiu atveju praleiskite šį veiksmą.  
+1. Lauke **Prekės numeris** įveskite vertę. Jei įsipareigojimas nurodo konkrečias atsargų arba vietos dimensijas, turite įvesti tas pačias reikšmes ir pirkimo užsakymo eilutėje, kad galėtumėte naudotis sutartimi.  
+2. Lauke **Vieta** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Svetainėje jau gali būti įvesta numatytoji reikšmė iš užsakymo arba iš tiekėjo. Tokiu atveju praleiskite šį veiksmą.  
 3. Sąraše raskite ir pasirinkite norimą įrašą.
 4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-5. Lauke Kiekis įveskite skaičių.
-    * Patikrinkite, ar kaina nukopijuota iš įsipareigojimo.  
+5. Lauke **Kiekis** įveskite skaičių. Patikrinkite, ar kaina nukopijuota iš įsipareigojimo.  
 
 ## <a name="look-up-the-commitment"></a>Ieškoti įsipareigojimo
-1. Spustelėkite eilutę „Atnaujinti“.
-2. Spustelėkite „Pridėta“.
-    * Čia galite gauti informaciją apie pirkimo sutartį. Pvz., galite matyti kainą ir ar kaina bei nuolaida yra fiksuotos – tai reiškia, kad pakeitus kainos ar nuolaidos reikšmę pirkimo užsakyme į kitą nei nurodyta įsipareigojime, sistema pašalins saitą, todėl pirkimo užsakymo eilutė neatitiks įsipareigojimo. Taip pat galite matyti, ar pasirinkta parinktis „Maksimaliai vykdoma“ – tai reiškia, kad negalima viršyti įsipareigojime nurodyto kiekio sudedant visus pirkimus, kurie atitinka įsipareigojimą.  
+1. Spustelėkite **Naujinti eilutę**.
+2. Spustelėkite **Pridėta**. Čia galite gauti informaciją apie pirkimo sutartį. Pvz., galite matyti kainą ir ar kaina bei nuolaida yra fiksuotos – tai reiškia, kad pakeitus kainos ar nuolaidos reikšmę pirkimo užsakyme į kitą nei nurodyta įsipareigojime, sistema pašalins saitą, todėl pirkimo užsakymo eilutė neatitiks įsipareigojimo. Taip pat galite matyti, ar pasirinkta parinktis „Maksimaliai vykdoma“ – tai reiškia, kad negalima viršyti įsipareigojime nurodyto kiekio sudedant visus pirkimus, kurie atitinka įsipareigojimą.  
 3. Uždarykite puslapį.
 
 ## <a name="look-up-the-purchase-agreement"></a>Ieškoti pirkimo sutarties
-1. Veiksmų srityje spustelėkite Bendra.
-2. Spustelėkite „Pirkimo sutartis“.
+1. **Veiksmų sritis** spustelėkite **Bendra**.
+2. Spustelėkite **Pirkimo sutartis**. 
 3. Uždarykite puslapį.
 4. Uždarykite puslapį.
 

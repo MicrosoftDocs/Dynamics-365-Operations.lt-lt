@@ -1,9 +1,9 @@
 ---
-title: Kurti naują konsignacijos papildymo užsakymą
-description: Šioje procedūroje parodoma, kaip kurti konsignacijos papildymo užsakymą, kuriame galite sekti numatomą tiekėjo prekių pristatymo į jūsų konsignacijos atsargas datą.
+title: Konsignacijos papildymo užsakymo kūrimas
+description: Temoje aiškinama, kaip kurti siuntos papildymo užsakymą, kuriame galite stebėti numatytą pristatymą iš tiekėjo į jūsų siuntos atsargas.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,58 +17,48 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cf2e8f742fee2dedaac72902d207af0081700ca
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f426dbf00eace23da2f26eb50dd9675fe22ed445
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845551"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914792"
 ---
-# <a name="create-a-consignment-replenishment-order"></a>Kurti naują konsignacijos papildymo užsakymą
+# <a name="create-a-consignment-replenishment-order"></a>Konsignacijos papildymo užsakymo kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti konsignacijos papildymo užsakymą, kuriame galite sekti numatomą tiekėjo prekių pristatymo į jūsų konsignacijos atsargas datą. Joje taip pat parodoma, kaip įrašyti produktų gavimą, kad konsignacijos atsargos būtų užregistruotas tiekėjui priklausančios turimos atsargos. Paprastai šią procedūrą atlieka įsigijimo specialistas. Šį vadovą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
-
-
-
+Temoje aiškinama, kaip kurti siuntos papildymo užsakymą, kuriame galite stebėti numatytą pristatymą iš tiekėjo į jūsų siuntos atsargas. Joje taip pat parodoma, kaip įrašyti produktų gavimą, kad konsignacijos atsargos būtų užregistruotas tiekėjui priklausančios turimos atsargos. Paprastai šią procedūrą atlieka įsigijimo specialistas. Šį vadovą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 ## <a name="create-a-consignment-replenishment-order"></a>Konsignacijos papildymo užsakymo kūrimas
-1. Eikite į Įsigijimas ir šaltinio pasirinkimas > Konsignacija > Konsignacijos papildymo užsakymai.
-2. Spustelėkite Naujas.
-3. Lauke Tiekėjo kodas įveskite tiekėją US-104.
-    * Turite pasirinkti tiekėją, kuris puslapyje Atsargų savininkai yra užregistruotas kaip savininkas.  
-4. Spustelėkite GERAI.
-5. Spustelėkite Pridėti eilutę.
-6. Lauke Prekės numeris įveskite M9211CI.
-    * Turite pasirinkti prekę, kuri nustatyta konsignacijos atsargose.  
-7. Lauke Kiekis įveskite skaičių.
-8. Lauke Pageidaujama pristatymo data įveskite datą.
-    * MPP mechanizmas naudoja pageidaujamas ir patvirtintas datas, kad nustatytų numatomą prekių gavimo datą.  
-9. Lauke Patvirtinta pristatymo data įveskite datą.
-10. Išplėskite skyrių Eilutės informacija.
-11. Spustelėkite skirtuką Atsargų dimensijos.
-12. Jei norite, kad puslapyje Atsargų dimensijų savininkas būtų rodomas savininkas, atnaujinkite puslapį.
-    * Dabar tiekėjas US-104 yra nurodytas kaip savininkas.  
+1. Naršymo srityje eikite į **Moduliai > Įsigijimas ir išteklių paskirstymas > Siunta > Siuntos papildymo užsakymai**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Tiekėjo sąskaita** pažymėkite tiekėją **US-104** (turite pažymėti tiekėją, kuris puslapyje **atsargų savininkai** registruotas kaip savininkas). 
+4. Pasirinkite **Gerai**.
+5. Pasirinkite **Pridėti eilutę**.
+6. Lauke **Elemento numeris** įveskite `M9211CI` (turite pažymėti elementą, kuris nustatytas siuntos atsargoms).
+7. Lauke **Kiekis** įveskite skaičių.
+8. Lauke **Pageidaujama pristatymo data** įveskite datą. MPP mechanizmas naudoja pageidaujamas ir patvirtintas datas, kad nustatytų numatomą prekių gavimo datą.  
+9. Lauke **Patvirtinta pristatymo data** įveskite datą.
+10. Išplėskite skyrių **Eilutės informacija** section.
+11. Pasirinkite skirtuką **Atsargų matmenys**.
+12. Norėdami lauke **Atsargų matmenų savininkas** matyti savininką, atnaujinkite puslapį. Dabar tiekėjas US-104 yra nurodytas kaip savininkas.  
 
 ## <a name="check-the-inventory-transaction-status"></a>Atsargų operacijos būsenos patikra
-1. Spustelėkite Atsargos.
-2. Spustelėkite Operacijos.
-3. Sąraše pažymėkite pasirinktą eilutę.
-    * Atkreipkite dėmesį, kad laukas Gavimas laukas nustatytas į parinktį Užsakytas.  
+1. Pasirinkite **Atsargos**.
+2. Pasirinkite **Operacijos**.
+3. Pageidaujamoje eilutėje pažymėkite, kad laukas **Gavimas** nustatytas kaip **Užsakyta**.  
 4. Uždarykite puslapį.
 
 ## <a name="receive-items"></a>Gauti prekes
-1. Spustelėkite Produkto gavimo kvitas.
-2. Lauke Išorinis produkto gavimo kvitas įveskite reikšmę.
-3. Lauke Kiekis įveskite skaičių, kuris yra mažesnis nei čia rodomas kiekis. 
-4. Spustelėkite GERAI.
+1. Pasirinkite **„Produkto gavimo kvitas“**.
+2. Lauke **Išorinis produkto gavimas** įveskite reikšmę.
+3. Lauke **Kiekis** įveskite skaičių, kuris mažesnis nei čia parodytas skaičius. 
+4. Pasirinkite **Gerai**.
 
 ## <a name="check-the-on-hand-inventory"></a>Turimų atsargų patikra
-1. Spustelėkite Atsargos.
-2. Spustelėkite Turimas kiekis.
-3. Spustelėkite Apžvalga.
-    * Prekės, kurios nebuvo gautos kaip tiekėjui priklausančios konsignacijos atsargos, yra turimos atsargos. Likęs konsignacijos papildymo užsakymo kiekis rodomas lauke Užsakyta iš viso.  
+1. Pasirinkite **Atsargos**.
+2. Pažymėkite **Turima**.
+3. Pažymėkite **Apžvalga**. Prekės, kurios nebuvo gautos kaip tiekėjui priklausančios konsignacijos atsargos, yra turimos atsargos. Likęs siuntos atsargų užsakymo kiekis rodomas lauke **Iš viso užsakyta**.  
 4. Uždarykite puslapį.
-5. Spustelėkite Uždaryti.
 

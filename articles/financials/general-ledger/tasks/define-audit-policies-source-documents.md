@@ -1,9 +1,9 @@
 ---
-title: Apibrėžti šaltinio dokumento audito strategijas
-description: Ši procedūra parodo, kaip nustatyti ir vykdyti audito strategijos taisykles.
+title: Šaltinio dokumentų audito strategijų apibrėžimas
+description: Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles.
 author: ryansandness
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,80 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17b712f07a0ffe6874eb6d98b47ced96f5a54483
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846492"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914839"
 ---
-# <a name="define-audit-policies-for-source-documents"></a>Apibrėžti šaltinio dokumento audito strategijas
+# <a name="define-audit-policies-for-source-documents"></a>Šaltinio dokumentų audito strategijų apibrėžimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra parodo, kaip nustatyti ir vykdyti audito strategijos taisykles. Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos. Šioje procedūroje naudojama demonstracinė įmonė USMF. Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.
+Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles. Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos. Šioje procedūroje naudojama demonstracinė įmonė USMF. Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.
 
-1. Eikite į dalį Audito darbo sritis > Nustatymas > Strategijos taisyklės tipas.
-2. Spustelėkite Naujas.
-3. Lauke Taisyklės pavadinimas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Užklausos pavadinimas pasirinkite Išlaidų ataskaitos eilutė
-6. Užklausos tipo lauke pasirinkite Sudėtinė.
-7. Lauke Juridinis subjektas pasirinkite juridinį subjektą.
-8. Lauke Dokumento datos nuoroda pasirinkite Modifikavimo data ir laikas
-9. Spustelėkite Įrašyti.
-10. Eikite į dalį Audito darbo sritis > Nustatymas > Audito strategijos.
-11. Spustelėkite Naujas.
-12. Lauke Pavadinimas surinkite reikšmę.
-13. Išplėskite dalį Strategijos organizacijos.
-14. Medyje pasirinkite „Contoso Entertainment System USA‟.
-15. Spustelėkite Pridėti.
-16. Medyje pasirinkite „Contoso Consulting USA‟.
-17. Spustelėkite Pridėti.
-18. Medyje pasirinkite „Contoso Retail USA‟.
-19. Spustelėkite Pridėti.
-20. Sutraukite dalį Strategijos organizacijos.
-21. Išplėskite dalį Strategijos taisyklės.
-22. Sąraše raskite ir pasirinkite anksčiau sukurtą strategijos taisyklę.
-23. Spustelėkite Kurti strategijos taisyklę.
-24. Lauke Įsigaliojimo data įveskite datą ir laiką.
-25. Spustelėkite Filtras.
-26. Sąraše pasirinkite eilutę Išlaidų kategorija ir informaciją nustatykite į Viešbutis
-27. Lauke Kriterijai įveskite arba pasirinkite reikšmę.
-28. Spustelėkite skirtuką Sudėtin.
-29. Spustelėkite Pridėti.
-30. Sąraše pasirinkite lauko reikšmę Operacijos suma
-31. Lauke Laukas įveskite arba pasirinkite reikšmę.
-32. Lauke Sudėtinė funkcija pasirinkite „Suma‟.
-33. Spustelėkite skirtuką Grupuoti pagal.
-34. Spustelėkite Pridėti.
-35. Sąraše pasirinkite darbuotojo reikšmę  
-36. Spustelėkite Pridėti.
-37. Sąraše pasirinkite išlaidų kategorijos reikšmę
-38. Lauke Laukas įveskite arba pasirinkite reikšmę.
-39. Spustelėkite skirtuką Turi.
-40. Spustelėkite Pridėti.
-41. Pasirinkite Operacijos suma
-42. Lauke Laukas įveskite arba pasirinkite reikšmę.
-43. Lauke Sudėtinė funkcija pasirinkite „Suma‟.
-44. Lauke Kriterijai įveskite „>2000“.
-45. Spustelėkite GERAI.
-46. Spustelėkite Išbandyti.
-47. Lauke Dokumentų pasirinkimo pradžios data įveskite datą ir laiką.
-48. Lauke Dokumentų pasirinkimo pabaigos data įveskite datą ir laiką.
-49. Spustelėkite Vykdyti testą.
-50. Veiksmų srityje spustelėkite Audito strategija.
-51. Spustelėkite Papildomos parinktys.
-52. Lauke Pradžios data įveskite datą ir laiką.
-53. Lauke Pabaigos data įveskite datą ir laiką.
-54. Spustelėkite Paketas.
-55. Išplėskite dalį Vykdyti fone.
-56. Lauke Paketinis vykdymas pasirinkite Taip.
-57. Spustelėkite GERAI.
-58. Eikite į dalį Audito darbo sritis > Audito atvejai.
-59. Sąraše raskite ir pasirinkite norimą įrašą.
-60. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-61. Išplėskite dalį Susiejimai.
-62. Sąraše raskite ir pasirinkite norimą įrašą.
-63. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+1. Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Strategijos taisyklės tipas**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Taisyklės pavadinimas** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Lauke **Užklausos pavadinimas** pasirinkite **Išlaidų ataskaitos eilutė**
+6. Lauke **Užklausos tipas** pasirinkite **Agregavimas**
+7. Lauke **Juridinis subjektas** pasirinkite **Juridinis subjektas**
+8. Lauke **Dokumento datos nuoroda** pasirinkite **Modifikavimo data ir laikas**
+9. Pasirinkite **Įrašyti**.
+10. Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Audito strategijos**.
+11. Pasirinkite **Naujas**.
+12. Lauke **Pavadinimas** įveskite reikšmę.
+13. Išplėskite skyrių **Organizacijų strategijos**.
+14. Medyje pasirinkite **„Contoso Entertainment System“, JAV**, tada pasirinkite **Įtraukti**.
+15. Medyje pasirinkite **„Contoso Consulting“, JAV**, tada pasirinkite **Įtraukti**.
+16. Medyje pasirinkite **„Contoso Retail“, JAV**, tada pasirinkite **Įtraukti**.
+17. Sutraukite skyrių **Organizacijų strategijos**.
+18. Išplėskite skyrių **Strategijų taisyklės**.
+19. Sąraše raskite ir pasirinkite anksčiau sukurtą strategijos taisyklę.
+20. Pasirinkite **Kurti strategijos taisyklę**.
+21. Lauke **Įsigaliojimo data** įveskite datą ir laiką.
+22. Pasirinkite **Filtras**.
+23. Sąraše pasirinkite eilutę parinkčiai **Išlaidų kategorija** ir nustatykite išsamią informaciją į **Viešbutis**.
+24. Lauke **Kriterijai** įveskite arba pasirinkite reikšmę.
+25. Pasirinkite skirtuką **Agregavimas**.
+26. Pasirinkite **Įtraukti**.
+27. Sąraše pasirinkite parinkties **Operacijos suma** lauko reikšmę.
+28. Lauke **Laukas** įveskite arba pasirinkite reikšmę.
+29. Lauke **AggregateFunction** pasirinkite **Suma**.
+30. Pasirinkite skirtuką **Grupuoti pagal**.
+31. Pasirinkite **Įtraukti**.
+32. Sąraše pasirinkite reikšmę parinkčiai **Darbuotojas**.
+33. Pasirinkite **Įtraukti**.
+34. Sąraše pasirinkite reikšmę parinkčiai **Išlaidų kategorija**.
+35. Lauke **Laukas** įveskite arba pasirinkite reikšmę.
+36. Pažymėkite skirtuką **Having**.
+37. Pasirinkite **Įtraukti**.
+38. Pasirinkite **Operacijos suma**.
+39. Lauke **Laukas** įveskite arba pasirinkite reikšmę.
+40. Lauke **AggregateFunction** pasirinkite **Suma**.
+41. Lauke **Kriterijai** įveskite `>2000`.
+42. Pasirinkite **Gerai**.
+43. Pasirinkite **Tikrinti**.
+44. Lauke **Dokumento žymėjimo pradžios data** įveskite datą ir laiką.
+45. Lauke **Dokumento žymėjimo pabaigos data** įveskite datą ir laiką.
+46. Pasirinkite **Paleisti tikrinimą**.
+47. Veiksmų srityje pasirinkite **Audito strategija**.
+48. Pasirinkite **Papildomos parinktys**.
+49. Lauke **Pradžios data** įveskite datą ir laiką.
+50. Lauke **Pabaigos data** įveskite datą ir laiką.
+51. Pasirinkite **Paketas**.
+52. Išplėskite skyrių **Vykdyti fone**.
+53. Pasirinkite **Taip** lauke **Paketinis vykdymas**.
+54. Pasirinkite **Gerai**.
+55. Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Audito atvejai**.
+56. Sąraše raskite ir pasirinkite norimą įrašą.
+57. Išplėskite skyrių **Sąsajos**.
+58. Sąraše raskite ir pasirinkite norimą įrašą.
 

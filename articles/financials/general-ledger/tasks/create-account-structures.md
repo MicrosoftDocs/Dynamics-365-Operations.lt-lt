@@ -3,7 +3,7 @@ title: Sukurti sąskaitos struktūras
 description: Šis užduoties vadovas padeda sukurti sąskaitos struktūrą.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2183f88356fc8094781af147bf079c4e53ffb2b4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 8b100d5da6ec26dc386c0c6cb0793245531eb0d8
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846708"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916235"
 ---
 # <a name="create-account-structures"></a>Sukurti sąskaitos struktūras
 
@@ -29,56 +29,35 @@ ms.locfileid: "1846708"
 
 Šis užduoties vadovas padeda sukurti sąskaitos struktūrą. Veiksmuose naudojama demonstracinių duomenų įmonė USMF.
 
-1. Pasirinkite Didžioji knyga > Sąskaitų planas > Struktūros > Konfigūruoti sąskaitų struktūras.
-2. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
-3. Lauke Sąskaitos struktūra įveskite pavadinimą, kuriuo nusakytumėte sąskaitos struktūros paskirtį.
-4. Lauke Aprašas įveskite aprašymą, kuriuo nurodytumėte sąskaitos struktūros paskirtį.
-5. Spustelėkite Kurti.
-6. Spustelėkite Įtraukti segmentą.
-7. Sąraše Dimensijos pasirinkite dimensiją, kurią norite įtraukti į sąskaitos struktūrą.
-8. Spustelėkite Įtraukti segmentą.
-9. Spustelėkite Įtraukti segmentą.
-10. Sąraše Dimensijos pasirinkite dimensiją, kurią norite įtraukti į sąskaitos struktūrą.
-11. Spustelėkite Įtraukti segmentą.
-12. Spustelėkite Įtraukti segmentą.
-13. Sąraše Dimensijos pasirinkite dimensiją, kurią norite įtraukti į sąskaitos struktūrą.
-14. Spustelėkite Įtraukti segmentą.
-15. Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.
-    * Pavyzdžiui, spustelėkite Pagrindinė sąskaita.  
-16. Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.
-17. Lauke Reikšmė surinkite reikšmę.
-    * Pavyzdžiui, 600000.  
-18. Lauke Per įveskite reikšmę.
-    * Pavyzdžiui, 699999.  
-19. Spustelėkite Taikyti.
-20. Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.
-    * Pavyzdžiui, Padalinys.  
-21. Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.
-22. Lauke Reikšmė surinkite reikšmę.
-    * Pavyzdžiui, 022.  
-23. Lauke Per įveskite reikšmę.
-    * Pavyzdžiui, 031.  
-24. Spustelėkite Įtraukti naujų kriterijų.
-25. Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.
-26. Lauke Reikšmė surinkite reikšmę.
-    * Pavyzdžiui, 033.  
-27. Lauke Per įveskite reikšmę.
-    * Pavyzdžiui, 034.  
-28. Spustelėkite Taikyti.
-29. Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.
-    * Pavyzdžiui, Išlaidų centras.  
-30. Lauke Išlaidų centras įveskite reikšmę.
-    * Pavyzdžiui, 007..021.  
-31. Spustelėkite Pridėti.
-32. Lauke Pagrindinė sąskaita įveskite reikšmę.
-    * Pavyzdžiui, 600000..699999  
-33. Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.
-    * Pavyzdžiui, Padalinys.  
-34. Lauke Padalinys įveskite reikšmę.
-    * Pavyzdžiui, 032.  
-35. Lauke Išlaidų centras įveskite reikšmę.
-    * Pavyzdžiui, 086.  
-36. Spustelėkite Tikrinti.
-37. Spustelėkite Aktyvinti.
-38. Spustelėkite Aktyvinti.
+1. Eikite į **Naršymo sritis > Moduliai > Didžioji knyga > Sąskaitų planas > Struktūros > Konfigūruoti sąskaitų struktūras**.
+2. **Veiksmų sritis** spustelėkite **Naujas**, kad atidarytumėte tiesioginio dialogo langą.
+3. Lauke **Sąskaitos struktūra** įveskite pavadinimą, aprašantį sąskaitos struktūros tikslą.
+4. Lauke **Aprašas** įveskite aprašą, apibūdinantį sąskaitos struktūros tikslą.
+5. Spustelėkite **Kurti**.
+6. **Segmentai ir leidžiamos reikšmės** spustelėkite **Įtraukti segmentą**.
+7. Matmenų sąraše pažymėkite į sąskaitos struktūrą įtrauktiną matmenį.
+8. Sąrašo pabaigoje spustelėkite **Įtraukti segmentą**.
+9. Jei reikia, pakartokite 6–9 veiksmus.
+10. Skyriuje **Leidžiamos reikšmės išsami informacija** pažymėkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes.
+    Pavyzdžiui, spustelėkite lauką **Pagrindinė sąskaita**.  
+11. Lauke **Operatorius** pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.
+12. Lauke **Reikšmė** įveskite reikšmę. Pavyzdžiui, 600000.  
+13. Lauke **per** įveskite reikšmę. Pavyzdžiui, 699999.  
+14. Skyriuje **Leidžiamos reikšmės išsami informacija** spustelėkite **Taikyti**.
+15. Jei reikia, pakartokite 10–15 veiksmus.  
+16. Skyriuje **Leidžiamos reikšmės išsami informacija** spustelėkite **Įtraukti naujus kriterijus**.
+17. Lauke Operatorius, pasirinkite parinktį, pvz., „yra tarp“ ir „apima“.
+18. Lauke **Reikšmė** įveskite reikšmę. Pavyzdžiui, 033.  
+19. Lauke **per** įveskite reikšmę. Pavyzdžiui, 034.  
+20. Spustelėkite **Taikyti**.
+21. Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes. Pavyzdžiui, Išlaidų centras.  
+22. Lauke **CostCenter laukas** įveskite reikšmę. Pavyzdžiui, 007..021.  
+23. **Segmentai ir leidžiamos reikšmės** spustelėkite **Įtraukti**.
+24. Lauke **MainAccount** įveskite reikšmę. Pavyzdžiui, 600000..699999  
+25. Tinklelyje pasirinkite segmentą, kad galėtumėte redaguoti leidžiamas reikšmes. Pavyzdžiui, Padalinys.  
+26. Lauke Padalinys įveskite reikšmę. Pavyzdžiui, 032.  
+27. Lauke Išlaidų centras įveskite reikšmę. Pavyzdžiui, 086.  
+28. **Veiksmų sritis** spustelėkite **Tikrinti**.
+29. **Veiksmų sritis** spustelėkite **Aktyvinti**.
+30. Spustelėkite **Aktyvinti**.
 

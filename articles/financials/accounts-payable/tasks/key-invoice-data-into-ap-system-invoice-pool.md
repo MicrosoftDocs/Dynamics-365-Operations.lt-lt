@@ -1,9 +1,9 @@
 ---
-title: Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį
-description: Šis užduočių vadovas parodys, kaip naudoti registrą kurti SF.
+title: Pagrindiniai SF duomenys apie AP sistemą naudojant SF telkinį
+description: Šioje temoje aprašoma, kaip naudoti sąskaitų faktūrų registrą kuriant sąskaitas faktūras.
 author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 07/31/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,66 +15,56 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b870613512a8f4a5c19a0a05cd72b35ea32861b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f7d72c1d98100d1313109e8b5e55df02e2163174
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843222"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867707"
 ---
-# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį
+# <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Pagrindiniai SF duomenys apie AP sistemą naudojant SF telkinį
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šis užduočių vadovas parodys, kaip naudoti registrą kurti SF.  Tada naudodami SF telkinį sugretinkite SF su pirkimo užsakymu ir baikite išlaidas tiekėjo SF puslapyje.
+Šioje temoje aprašoma, kaip naudoti sąskaitų faktūrų registrą kuriant sąskaitas faktūras. Tada naudodami SF telkinį sugretinkite SF su pirkimo užsakymu ir baikite išlaidas tiekėjo SF puslapyje.
 
 
 ## <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
-1. Eikite į Mokėtinos sumos > Pirkimo užsakymai > Pirkimo užsakymai.
-2. Spustelėkite Naujas, kad sukurtumėte pirkimo užsakymą.
-3. Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Iš sąrašo pasirinkite tiekėją. Pavyzdžiui, tiekėją 1001.
-5. Spustelėkite Gerai.
-6. Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše raskite paslaugų prekės numerį. Pavyzdžiui, pasirinkite S0001.
-8. Spustelėkite ant prekės numerio ir jį pasirinkite.
-    * Grynoji suma yra 75,00.  Tai suma, kurios tikėsimės SF.  
-9. Veiksmų srityje spustelėkite Pirkti.
-10. Spustelėkite Patvirtinti.
+1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Pirkimo užsakymai > Pirkimo užsakymai**.
+2. Pasirinkite **Naujas**, kad sukurtumėte pirkimo užsakymą.
+3. Lauke **Tiekėjo sąskaita** išplečiamajame sąraše pasirinkite tiekėją. Pavyzdžiui, pasirinkite tiekėją **1001**.
+4. Pasirinkite **Gerai**.
+5. Lauke **Prekės numeris** išplečiamajame sąraše pasirinkite paslaugų prekės numerį. Pavyzdžiui, pasirinkite **S0001**. Grynoji suma yra 75,00.  Tai suma, kurios tikėsimės SF.  
+6. Veiksmų srityje pasirinkite **Pirkimas**.
+7. Pasirinkite **„Patvirtinti“**.
 
 ## <a name="create-and-post-and-invoice"></a>Kurti ir registruoti SF
-1. Pasirinkite Mokėtinos sumos > Sąskaitos faktūros > SF registras.
-2. Spustelėkite Naujas.
+1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Sąskaitos faktūros > Sąskaitų faktūrų registras**.
+2. Pasirinkite **Naujas**.
 3. Atidarykite peržvalgą, kad pasirinktumėte norimo naudoti SF registro pavadinimą.
 4. Pasirinkite norimo naudoti SF registro pavadinimą.
-5. Spustelėdami Eilutės atidarykite registrą ir įveskite išlaidų eilutes.
-6. Peržvalgoje pasirinkite tiekėją. Pavyzdžiui, spustelėkite ant tiekėjo 1001.
-7. Lauke Sąskaita faktūra įveskite SF numerį.
-8. Lauke Aprašas surinkite reikšmę.
-9. Lauke Kreditas įveskite skaičių.
-10. Lauke Pirkimo užsakymas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-11. Pasirinkite savo anksčiau sukurtą pirkimo užsakymą.
-12. Lauke Patvirtino spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-13. Pažymėkite tvirtintoją ir spustelėkite Pasirinkti, kad tą tvirtintoją pasirinktumėte.
-14. Spustelėkite Registruoti.
-15. Uždarykite formą.
-16. Uždarykite formą.
+5. Pasirinkę **Eilutės**, atidarykite registrą ir įveskite išlaidų eilutes.
+6. Peržvalgoje pasirinkite tiekėją. Pavyzdžiui, pasirinkite tiekėją **1001**.
+7. Lauke **Sąskaita faktūra** įveskite SF numerį.
+8. Lauke **Aprašo laukas**surinkite reikšmę.
+9. Lauke **Kreditas** įveskite skaičių.
+10. Lauke **Pirkimo užsakymas** atidarykite išplečiamąjį sąrašą ir pasirinkite anksčiau sukurtą pirkimo užsakymą.
+11. Lauke **Patvirtino** išplečiamajame sąraše pažymėkite tvirtintoją ir spustelėkite **Pasirinkti**, kad jį pasirinktumėte.
+12. Pasirinkite **Registruoti**.
 
 ## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>Atidarykite SF iš telkinio ir sugretinkite ją su pirkimo užsakymu, kad užbaigtumėte SF procesą
-1. Pasirinkite Mokėtinos sumos > Sąskaitos faktūros > SF telkinys.
-2. Spustelėkite Pirkimo užsakymas, kad iš SF telkinyje sukurtumėte tiekėjo sąskaitą faktūrą.
+1. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Sąskaitos faktūros > Sąskaitų faktūrų telkinys**.
+2. Pasirinkę **Pirkimo užsakymas**, sukursite tiekėjo sąskaitą faktūrą pagal telkinyje esančią sąskaitą faktūrą.
 3. Pasirinkite sąskaitą faktūrą, kurią norite peržiūrėti.
-4. Spustelėkite Naujinti gretinimo būseną, kad užbaigtumėte gretinimą.
-5. Veiksmų srityje spustelėkite Parinktys.
-6. Spustelėkite Keisti rodinį.
-7. Spustelėkite Tinklelio rodinys.
-8. Spustelėkite Registruoti.
+4. Pasirinkę **Naujinti gretinimo būseną**, užbaikite gretinimą.
+5. Veiksmų srityje pasirinkite **Parinktys**.
+6. Pasirinkite **Keisti rodinį**.
+7. Pasirinkite **Tinklelio rodinys**.
+8. Pasirinkite **Registruoti**.
 9. Uždarykite formą.
-10. Eikite į Mokėtinos sumos > Tiekėjai > Tiekėjai.
-11. Pasirinkite tiekėją, kuris buvo ant pirkimo užsakymo. Pavyzdžiui, pasirinkite tiekėją 1001.
-12. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-13. Veiksmų srityje spustelėkite Tiekėjas.
-14. Spustelėkite Operacijos.
-15. Pasirinkite savo sukurtą sąskaitą faktūrą.
-    * SF registro kaupimas buvo atšauktas ir užregistruotas į atitinkamą išlaidų sąskaitą.  
+10. Naršymo srityje eikite į **Moduliai > Mokėtinos sumos > Tiekėjai > Tiekėjai**.
+11. Pasirinkite tiekėją, kuris buvo ant pirkimo užsakymo. Pavyzdžiui, pasirinkite tiekėją **1001**.
+12. Veiksmų srityje pasirinkite **Tiekėjas**.
+13. Pasirinkite **Operacijos**.
+14. Pasirinkite savo sukurtą sąskaitą faktūrą. SF registro kaupimas buvo atšauktas ir užregistruotas į atitinkamą išlaidų sąskaitą.  
 

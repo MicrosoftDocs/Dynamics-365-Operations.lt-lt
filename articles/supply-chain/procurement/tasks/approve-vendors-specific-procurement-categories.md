@@ -1,9 +1,9 @@
 ---
-title: Tvirtinti konkrečių įsigijimo kategorijų tiekėjus
-description: Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos.
+title: Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas
+description: Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 for Finance and Operations tiekėjus.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,34 +16,31 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eec50e2e8f08fabb64f89c17159b97ba770026f8
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836343"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867154"
 ---
-# <a name="approve-vendors-for-specific-procurement-categories"></a>Tvirtinti konkrečių įsigijimo kategorijų tiekėjus
+# <a name="approve-vendors-for-specific-procurement-categories"></a>Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos. Šioje procedūroje parodoma, kaip nurodyti, kad konkrečios įsigijimo kategorijos tiekėjas yra patvirtintas arba pageidaujamas. Šią užduotį paprastai atlieka pirkimų profesionalai. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
+Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 for Finance and Operations tiekėjus. Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos. Šioje procedūroje parodoma, kaip nurodyti, kad konkrečios įsigijimo kategorijos tiekėjas yra patvirtintas arba pageidaujamas. Šią užduotį paprastai atlieka pirkimų profesionalai. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
 
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > Tiekėjai > Visi tiekėjai.
+1. Naršymo srityje eikite į **Moduliai > Įsigijimas ir išteklių paskirstymas > Tiekėjai > Visi tiekėjai**.
 2. Pasirinkite tiekėją, kurį norite nustatyti kaip patvirtintą arba pageidaujamą kategorijos tiekėją.
-3. Veiksmų srityje spustelėkite Bendra.
-4. Spustelėkite Kategorijos.
-5. Spustelėkite Įtraukti kategoriją.
-6. Lauke Kategorija pasirinkite BIURO IR STALO REIKMENYS (BIURO IR STALO REIKMENYS).
-7. Lauke Tiekėjo kategorijos būsena pasirinkite Pageidaujamas.
-    * Galima nurodyti daugiau nei vieną pageidaujamą kategorijos tiekėją.  
-8. Spustelėkite Įrašyti.
-9. Eikite į Įsigijimas ir šaltinio pasirinkimas > Įsigijimo kategorijos.
-10. Medyje pasirinkite CORP ĮSIGIJIMO KATEGORIJOS \ BIURO IR STALO REIKMENYS.
-11. Išplėskite sekciją Tiekėjai.
-    * Patikrinkite, ar jūsų pasirinktas tiekėjas rodomas kaip pageidaujamas kategorijos Biuro ir stalo reikmenys tiekėjas. Jei šią procedūrą vykdote kaip užduočių vedlį, jums gali reikėti spustelėti mygtuką Atrakinti, galėtumėte slinkti žemyn į tiekėjų sąrašą.  Šiame puslapyje taip pat galima įtraukti pageidaujamų ir patvirtintų tiekėjų.  
-12. Medyje išplėskite BIURO IR STALO REIKMENYS.
-13. Medyje pasirinkite Žirklės.
-14. Lauke Perimti tiekėjus iš pirminės kategorijos pasirinkite Ne.
-15. Lauke Perimti tiekėjus iš pirminės kategorijos pasirinkite Taip.
+3. Veiksmų srityje spustelėkite **Bendra**.
+4. Pažymėkite **Kategorijos**.
+5. Pažymėkite **Įtraukti kategoriją**.
+6. Lauke **Kategorija** pažymėkite **BIURO IR STALO PRIEDAI (BIURO IR STALO PRIEDAI)**.
+7. Lauke **Tiekėjų kategorijos būsena** pažymėkite **Pageidaujama**. Galima nurodyti daugiau nei vieną pageidaujamą kategorijos tiekėją.  
+8. Pasirinkite **Įrašyti**.
+9. Naršymo srityje eikite į **Moduliai > Įsigijimas ir išteklių paskirstymas > Įsigijimo kategorijos**.
+10. Medyje pažymėkite **KORP. ĮSIGIJIMO KATEGORIJOS\BIURO IR STALO PRIEDAI**.
+11. Išplėskite skyrių **Tiekėjai**. Patikrinkite, ar jūsų pasirinktas tiekėjas rodomas kaip pageidaujamas kategorijos Biuro ir stalo reikmenys tiekėjas. Jei vykdote šią procedūrą kaip užduoties vadovą, gali reikėti pažymėti mygtuką **Atrakinti**, kad galėtumėte slinkti žemyn tiekėjų sąrašu.  Šiame puslapyje taip pat galima įtraukti pageidaujamų ir patvirtintų tiekėjų.  
+12. Medyje išplėskite **BIURO IR STALO PRIEDAI** ir pažymėkite **Žirklės**.
+13. Lauke **Paveldimi tiekėjai iš pirminės kategorijos:** pažymėkite **Ne**.
+14. Lauke **Paveldimi tiekėjai iš pirminės kategorijos:** pažymėkite **Taip**.
 

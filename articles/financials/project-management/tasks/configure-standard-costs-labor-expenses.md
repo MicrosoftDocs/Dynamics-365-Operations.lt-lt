@@ -1,9 +1,9 @@
 ---
 title: Konfigūruoti darbo ir išlaidų standartines išlaidas
-description: Šioje procedūroje nurodoma, kaip nustatyti standartinę projekto darbo ir išlaidų savikainą.
+description: Šioje temoje aiškinama, kaip nustatyti standartines darbo ir projekto kaštų išlaidas.
 author: KimANelson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,46 +17,40 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b76956e9b1ce1a1e977aaa7c4974e73754e0d261
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 60ab8eb94d4a8a0fb2c1e732ec7b25bfd5e7611e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845898"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867731"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Konfigūruoti darbo ir išlaidų standartines išlaidas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje nurodoma, kaip nustatyti standartinę projekto darbo ir išlaidų savikainą. Šioje užduotyje naudojamas USSI duomenų rinkinys.
+Šioje temoje aiškinama, kaip nustatyti standartines darbo ir projekto kaštų išlaidas. Šioje užduotyje naudojamas USSI duomenų rinkinys.
 
-1. Eikite į Projektų valdymas ir apskaita > Nustatymas > Kainos > Pardavimo kaina (valanda).
-2. Spustelėkite Naujas.
-3. Lauke Įsigaliojimo data įveskite datą.
-4. Lauke Savikaina įveskite skaičių.
-    * Galite nustatyti standartinę projekto kategorijos savikainą arba nustatyti savikainą pagal darbuotojo numerį, projekto numerį, kategoriją, datą arba bet kokį jų derinį. Tada taikoma savikaina apibrėžiama išsamiausiai.  
-5. Spustelėkite Įrašyti.
-6. Uždarykite puslapį.
-7. Eikite į Projektų valdymas ir apskaita > Nustatymas > Kainos > Pardavimo kaina (valanda).
-8. Spustelėkite Naujas.
-9. Lauke Įsigaliojimo data įveskite datą.
-10. Lauke Galioja pasirinkite parinktį.
-11. Lauke Kainos įveskite skaičių.
-    * Galite nustatyti standartinę valandinių operacijų pardavimo kainą ar projekto kategoriją. Be to, pardavimo kainas galite nustatyti pagal darbuotojo numerį, projekto numerį, kategoriją, operacijos datą ar bet kokį kitą jų derinį. Faktinė pardavimo kaina, taikoma darbuotojui įvedus operaciją valandiniame žurnale, yra išsamiausiai apibrėžta pardavimo kaina. Pavyzdžiui, jei nustatyta tiek bendra pardavimų kaina, tiek nuo konkretaus darbuotojo priklausanti pardavimo kaina, bus naudojama nuo konkretaus darbuotojo priklausanti pardavimo kaina.  
-12. Spustelėkite Įrašyti.
-13. Uždarykite puslapį.
-14. Eikite į Projektų valdymas ir apskaita > Nustatymas > Kainos > Savikaina (išlaidos).
-15. Spustelėkite Naujas.
-16. Lauke Įsigaliojimo data įveskite datą.
-17. Lauke Savikaina įveskite skaičių.
-    * Galima užpildyti kelis laukus, bet tai mažiausia, ką reikia atlikti, norint įrašyti įrašą.  
-18. Spustelėkite Įrašyti.
-19. Uždarykite puslapį.
-20. Eikite į Projektų valdymas ir apskaita > Nustatymas > Kainos > Pardavimo kaina (išlaidos).
-21. Spustelėkite Naujas.
-22. Lauke Įsigaliojimo data įveskite datą.
-23. Lauke Galioja pasirinkite parinktį.
-24. Lauke Kainos įveskite skaičių.
-    * Faktinė pardavimo kaina, kuri taikoma darbuotojui įvedus operaciją į išlaidų žurnalą, yra išsamiausiai apibrėžta pardavimo kaina. Pavyzdžiui, jei nustatyta tiek bendra, tiek nuo konkretaus darbuotojo priklausanti pardavimo kaina, bus naudojama nuo konkretaus darbuotojo priklausanti pardavimo kaina.  
-25. Spustelėkite Įrašyti.
+1. Naršymo srityje eikite į **Moduliai > Projektų valdymas ir apskaita > Sąranka > Kainos > Kaštų kaina (valandomis)**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Įsigaliojimo data** įveskite datą.
+4. Lauke **Kaštų kaina** įveskite skaičių. Galite nustatyti standartinę projekto kategorijos savikainą arba nustatyti savikainą pagal darbuotojo numerį, projekto numerį, kategoriją, datą arba bet kokį jų derinį. Tada taikoma savikaina apibrėžiama išsamiausiai.  
+5. Pasirinkite **Įrašyti**.
+6. Naršymo srityje eikite į **Moduliai > Projektų valdymas ir apskaita > Sąranka > Kainos > Pardavimo kaina (valandomis)**.
+7. Pasirinkite **Naujas**.
+8. Lauke **Įsigaliojimo data** įveskite datą.
+9. Lauke **Galioja iki** pažymėkite parinktį.
+10. Lauke **Kainodara** įveskite skaičių. Galite nustatyti standartinę valandinių operacijų pardavimo kainą ar projekto kategoriją. Be to, pardavimo kainas galite nustatyti pagal darbuotojo numerį, projekto numerį, kategoriją, operacijos datą ar bet kokį kitą jų derinį. Faktinė pardavimo kaina, taikoma darbuotojui įvedus operaciją valandiniame žurnale, yra išsamiausiai apibrėžta pardavimo kaina. Pavyzdžiui, jei nustatyta tiek bendra pardavimų kaina, tiek nuo konkretaus darbuotojo priklausanti pardavimo kaina, bus naudojama nuo konkretaus darbuotojo priklausanti pardavimo kaina.  
+11. Pasirinkite **Įrašyti**.
+12. Uždarykite puslapį.
+13. Naršymo srityje eikite į **Moduliai > Projektų valdymas ir apskaita > Sąranka > Kainos > Kaštų kaina (išlaidos)**.
+14. Pasirinkite **Naujas**.
+15. Lauke **Įsigaliojimo data** įveskite datą.
+16. Lauke **Kaštų kaina** įveskite skaičių. Galima užpildyti kelis laukus, bet tai mažiausia, ką reikia atlikti, norint įrašyti įrašą.  
+17. Pasirinkite **Įrašyti**.
+18. Naršymo srityje eikite į **Moduliai > Projektų valdymas ir apskaita > Sąranka > Kainos > Pardavimo kaina (išlaidos)**.
+19. Pasirinkite **Naujas**.
+20. Lauke **Įsigaliojimo data** įveskite datą.
+21. Lauke **Galioja iki** pažymėkite parinktį.
+22. Lauke **Kainodara** įveskite skaičių. Faktinė pardavimo kaina, kuri taikoma darbuotojui įvedus operaciją į išlaidų žurnalą, yra išsamiausiai apibrėžta pardavimo kaina. Pavyzdžiui, jei nustatyta tiek bendra, tiek nuo konkretaus darbuotojo priklausanti pardavimo kaina, bus naudojama nuo konkretaus darbuotojo priklausanti pardavimo kaina.  
+23. Pasirinkite **Įrašyti**.
 

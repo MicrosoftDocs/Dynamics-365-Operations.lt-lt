@@ -3,7 +3,7 @@ title: Kurti žurnalo įrašą naudojant šabloną
 description: Užregistruoti žurnalo kvitai gali būti įrašyti kaip kvitų šablonai ir taikomi naujame žurnalo kvite.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3fb750e04fb134fc9ac38d9a47201803566113
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: babbc5ee067743d368680970556f8e5d3d8585f0
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846636"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916161"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Kurti žurnalo įrašą naudojant šabloną
 
@@ -29,38 +29,37 @@ ms.locfileid: "1846636"
 
 Užregistruoti žurnalo kvitai gali būti įrašyti kaip kvitų šablonai ir taikomi naujame žurnalo kvite. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
-1. Didžioji knyga > Žurnalų įrašai > Bendrieji žurnalai. Spustelėkite Naujas.
-    * Ši procedūra prasideda sukuriant ir registruojant žurnalo kvitą, tačiau visus anksčiau užregistruotus žurnalo kvitus galima įrašyti kaip šabloną.  
-2. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-3. Sąraše raskite ir pasirinkite norimą įrašą.
-4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-5. Spustelėkite Eilutės.
-6. Įveskite sąskaitos tipo sąskaitą.
-7. Lauke Aprašas įveskite reikšmę.
-8. Įveskite sumą lauke Debetas.
-9. Spustelėkite Naujas.
-10. Įveskite kitą sąskaitos tipo sąskaitą.
-11. Lauke Aprašas įveskite reikšmę.
-12. Įveskite sumą lauke Debetas.
-13. Spustelėkite Naujas.
-14. Lauke Sąskaita nustatykite norimas reikšmes.
-15. Lauke Aprašas surinkite reikšmę.
-16. Įveskite sumą lauke Kreditas, kad subalansuotumėte kvitą.
-17. Spustelėkite Registruoti.
-18. Spustelėkite Funkcijos.
-19. Spustelėkite Įrašyti kvito šabloną.
-20. Ši procedūra daro prielaidą, kad šablono tipas yra Procentas. Spustelėkite GERAI.
-    * • Procentas: kvito sumos konvertuojamos į procentų koeficientus, o tai, pasirinkus kvito šabloną, leidžia taikyti bet kokią sumą.  • Suma: bus saugomos ir taikomos faktinės sumos.  
-21. Spustelėkite Pagrindiniai žurnalai.
-22. Spustelėkite Naujas.
-23. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Eikite į **Naršymo sritis > Moduliai > Bendroji didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**.
+2. **Veiksmų sritis** spustelėkite **Naujas**. Ši procedūra prasideda sukuriant ir registruojant žurnalo kvitą, tačiau visus anksčiau užregistruotus žurnalo kvitus galima įrašyti kaip šabloną.  
+3. Lauke **Pavadinimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+4. Sąraše raskite ir pasirinkite norimą įrašą.
+5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+6. Spustelėkite **Eilutės**.
+7. Lauke **Sąskaitos tipas** įveskite reikšmę.
+8. Lauke **Aprašo laukas**surinkite reikšmę.
+9. Lauke **Debetas** įveskite reikšmę.
+10. Spustelėkite **Naujas**.
+11. Lauke **Sąskaitos tipas** įveskite reikšmę.
+12. Lauke **Aprašo laukas**surinkite reikšmę.
+13. Lauke **Debetas** įveskite reikšmę.
+14. Spustelėkite **Naujas**.
+14. Lauke **Sąskaita**nustatykite norimas reikšmes.
+15. Lauke **Aprašo laukas**surinkite reikšmę.
+16. Lauke **Kreditas** įveskite reikšmę, subalansuojančią kvitą.
+17. **Veiksmų sritis** spustelėkite **Registruoti**.
+18. spustelėkite **Funkcijos**.
+19. Spustelėkite šabloną **Įrašyti kvitą**.
+20. Ši procedūra remiasi tipu **Procentų šablonas**. Spustelėkite Gerai.
+    - Procentas: sumos kvituose yra konvertuojamos į procentų veiksnius, kurie leidžia taikyti bet kurią sumą, kai pasirenkamas kvito šablonas.
+    - Suma: faktinė suma bus saugoma ir taikoma.  
+21. Spustelėkite **Bendrieji žurnalai**.
+22. Spustelėkite **Naujas**.
+23. Lauke **Pavadinimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 24. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-25. Spustelėkite Eilutės.
-26. Spustelėkite Funkcijos.
-27. Spustelėkite Pasirinkti kvito šabloną.
-28. Raskite šabloną, kurį sukūrėte anksčiau. Spustelėkite GERAI.
-    * Jei yra kitų šablonų, gali reikėti spustelėti Ankstesnis veiksmas ir tada pasirinkti tinkamą šabloną.  
-29. Lauke Suma įveskite kvitui taikytiną sumą.
-    * Sumos laukas rodomas tik jei kvito šablono tipas yra Procentas.  
-30. Spustelėkite GERAI.
+25. Spustelėkite **Eilutės**.
+26. spustelėkite **Funkcijos**.
+27. Spustelėkite **Pasirinkti kvito šabloną**.
+28. Raskite šabloną, kurį sukūrėte anksčiau. Spustelėkite **Gerai**. Gali reikėti spustelėti **Ankstesnis veiksmas**, tada pasirinkti tinkamą šabloną, jei yra kitų šablonų.  
+29. Lauke **Suma** įveskite piniginę sumą, kuri bus taikoma kvite. Laukas **Suma** rodomas, tik jei kvito šablonas yra procento tipo.  
+30. Spustelėkite **Gerai**.
 

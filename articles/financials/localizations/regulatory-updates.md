@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 for Finance and Operations“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 08/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a33212acce6bf53b1077e54b9556e4d5e933519c
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: a9d107fa57bdc2edf2dc1a69081e02b3c4321551
+ms.sourcegitcommit: b7f70ee1e54c65c19e1d33c76d2428f9c6c05c66
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1849337"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "1918470"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -51,30 +51,32 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |      Balandžio 2019          |   10.0.1      |    Europa     |El. sąskaitų faktūrų išrašymas – tiekėjų sąskaitos faktūros importuojamos iš PEPPOL BIS 3 formato         |
 |      Balandžio 2019          |   10.0.1      |   Vokietija     |El. sąskaitų faktūrų išrašymas – klientų sąskaitos faktūros eksportuojamos „xRechnung“ 1.1 formatu         |
 |      Balandžio 2019          |   10.0.1      |    Jungtinė Karalystė     |[PVM išrašo pateikimo pakeitimai (įrašų pavertimas skaitmeniniais)](emea-gbr-mtd-vat-integration.md)    |    
-|      Balandžio 2019          |   10.0.1      |    Brazilija     |„NF-e“ e nauja NT 2018.005         |
-|      Balandžio 2019          |   10.0.1      |    Rusija     |[PVM deklaracijos formato pakeitimai nuo 2019 m.](rus-VAT-declaration.md) |
+|      2019 m. balandžio mėn.          |   10.0.1      |    Rusija     |[PVM deklaracijos formato pakeitimai nuo 2019 m.](rus-VAT-declaration.md) |
 |      Balandžio 2019          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygos) |
 |      Balandžio 2019          |   10.0.1      |    Rusija     |Žemės mokesčio deklaracijos pakeitimai nuo 2018 m. |
 |      Balandžio 2019          |   10.0.1      |    Rusija     |[Turto mokesčio deklaracijos pakeitimai nuo 2019 m.](rus-assessed-tax-declaration.md)|
 |      Balandžio 2019          |   10.0.1      |    Rusija     |Transporto mokesčio deklaracijos pakeitimai nuo 2019 m.  |
-|      Balandžio 2019            |   10.0.1      | Vengrija      |  Vengrija: internetinių sąskaitų išrašymas v.1.1 2019 m. naudojant „Microsoft Dynamics 365 for Finance and Operations“  |
-|      Gegužės 2019            |   10.0.2      | Brazilija      |   SPED ECD 7 maketas   |
-|      2019 m. birželio mėn.            |   10.0.3      | Brazilija      |   NF-e naujas NT 2018.005 - v. 1.20   |
-|      2019 m. birželio mėn.            |   10.0.3      | Brazilija      |   SPED ECD 7 maketas   |
+|      2019 m. balandžio mėn.          |   10.0.1      |    Lietuva     |i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais  |
+|      2019 m. balandžio mėn.          |   10.0.1      | Vengrija      |  Vengrija: internetinio sąskaitų faktūrų išrašymo 2019 m. 1.1. versija  |
+|      2019 m. balandžio mėn.          |   10.0.1      | Japonija      |  2019 m. Japonijos kalendoriaus eros keitimas  |
+|      2019 m. balandžio mėn.          |   10.0.1/10.0.2/10.0.3      | Indija      |  IEC numerio formato pakeitimas  |
+|      2019 m. birželio mėn.           |   10.0.1HF / 10.0.2HF / 10.0.3      | Brazilija      |   NF-e naujas NT 2018.005 - v. 1.20   |
+|      2019 m. birželio mėn.           |   10.0.1HF / 10.0.2HF / 10.0.3      | Brazilija      |   SPED ECD 7 maketas   |
+|      2019 m. birželio mėn.           |   10.0.1HF / 10.0.2HF / 10.0.3HF / 10.0.4      | Brazilija    |   NF-e dekretas 54.308/18 (RS)   |
+|      2019 m. liepos mėn.           |   10.0.1HF / 10.0.2HF / 10.0.3HF / 10.0.4      | Brazilija    |   NF-e ir NFC-e – Sprendimas 13/2019 ir Nutarimas SUCIEF 55/2019- RJ – naujos NF-e neapmokestinimo žymių išvesties sąlygos.   |
+|      2019 m. birželio mėn.           |   10.0.2     | Italija      |   „Naujas „Spesometro“ („Esterometro“) siekiant palaikyti bylų dalijimą pagal bylos apimtį ir įrašų skaičiaus apribojimus   |
+ | 2019 m. rugpjūčio mėn.            |   10.0.2HF / 10.0.3HF / 10.0.4HF / 10.0.5      | Brazilija    |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.00 versija   |
+|      2019 m. liepos mėn.            |   10.0.3 / 10.0.4      | Indija   |   GST mokesčio sąskaitoje faktūroje rodoma „Tiekimo vieta“ ir „Rajonas“  | 2019 m. liepos mėn.            |   10.0.2HF / 10.0.3HF / 10.0.4HF / 10.0.5HF / 10.0.6      | Brazilija    |   NF-e ICMS-ST – nutarimas CAT 42/18, skirtas SP būsenai – CAT 42/18   |
 |      2019 m. birželio mėn.            |   10.0.3      | Brazilija      |   SPED ECF - 5 maketas 2019 m.   |
-|      2019 m. birželio mėn.            |   10.0.3      | Lietuva    |   i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais    |
 |      2019 m. birželio mėn.            |   10.0.3      | Lenkija     |   SAF sąskaitos faktūros (JPK_FA) v.2 nuo 2019 m. liepos 1 d.  |
 |      2019 m. birželio mėn.            |   10.0.3      | Brazilija   |   ICMS finansinio dokumento koregavimų įgalinimo lentelė 5.2   |
-|      2019 m. birželio mėn.            |   10.0.3      | Brazilija    |   NF-e dekretas 54.308/18 (RS)   |
+|      2019 m. birželio mėn.            |   10.0.3      | Indija    |   Mokesčio muito valiuta koregavimas BOE vietoj sudarymo operacijos valiuta  |
   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   66 gaunamas finansinis dokumentas   |
-   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   NF-e ir NFC-e – Sprendimas 13/2019 ir Nutarimas SUCIEF 55/2019- RJ – naujos NF-e neapmokestinimo žymių išvesties sąlygos.   |
-   | 2019 m. liepos mėn.            |   10.0.4      | Indija   |   Reikšmių „Tiekimo vieta“ ir „Būsena“ rodymas GST mokesčio SF  |
-   | 2019 m. liepos mėn.            |   10.0.4      | Meksika   |  DIOT trečiosios šalies deklaracija – išdėstymo pakeitimai 2019 m.   |
-   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   NF-e ICMS-ST – nutarimas CAT 42/18, skirtas SP būsenai – CAT 42/18
-   | 2019 m. liepos mėn.            |   10.0.4      | Brazilija    |   NF-e dekretas 54.308/18 – RS NF   |
-       | Laukiama            |   10.0.5      | Brazilija    |   „Sped“ įnašų praktinis vadovas 1.31. naujos naudojimo instrukcijos   |
-         | Laukiama            |   10.0.5      | Brazilija    |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.00 versija   |
-          | Laukiama            |   10.0.5      | Ispanija    |   Tikrinimo taisyklės keičiasi nuo 2019 m. spalio 1 d.   |
+  | 2019 m. liepos mėn.            |   10.0.4      | Meksika   |  DIOT trečiosios šalies deklaracija – išdėstymo pakeitimai 2019 m.   |  
+  | 2019 m. rugpjūčio mėn.            |   10.0.5      | Brazilija    |   „Sped Contributions“ techninio vadovo 1.31. versija. naujos naudojimo instrukcijos   | 
+  | 2019 m. rugpjūčio mėn.            |   10.0.5      | Ispanija    |   Tikrinimo taisyklės keičiasi nuo 2019 m. spalio 1 d.   |
+  | 2019 m. rugpjūčio mėn.          |   10.0.5      | Meksika    |   CFDI 3.3 – IEPS mokesčio operacijų išsami informacija XML priklausomai nuo kliento profilio turėtų būti neprivaloma |
+  |      2019 m. rugpjūčio mėn.           |   10.0.5      | Jungtinė Karalystė    |   DCR – „Making Tax Digital“ – sukčiavimo prevencijos parametrai apie pradinį įrenginį  |
    
 
 

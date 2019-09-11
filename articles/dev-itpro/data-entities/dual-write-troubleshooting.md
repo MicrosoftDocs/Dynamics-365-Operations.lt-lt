@@ -1,6 +1,6 @@
 ---
 title: Duomenų integravimo trikčių šalinimo vadovas
-description: Šioje temoje pateikiama trikčių šalinimo informacija apie duomenų integravimą tarp „Microsoft Dynamics 365 for Finance and Operations“ ir „Common Data Service“.
+description: Šioje temoje pateikiama duomenų integravimo tarp „Microsoft Dynamics 365 for Finance and Operations“ ir “Common Data Service“ trikčių šalinimo informacija.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,50 +19,56 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ca62a6b3aa64ec2383ee3ded3b7bbf4650a41166
-ms.sourcegitcommit: efcc0dee8bde5f8f93f6291e7f059ad426843e57
+ms.openlocfilehash: 5e71729dafd2ad85a01b055363d1c7056b5558b2
+ms.sourcegitcommit: 3f05ede8b8acdf0550240a83a013e093b4ad043d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "1797280"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1873110"
 ---
 # <a name="troubleshooting-guide-for-data-integration"></a>Duomenų integravimo trikčių šalinimo vadovas
 
-## <a name="enable-plugin-trace-in-common-data-service-and-check-the-dual-write-plugin-error-details"></a>Įjunkite priedo sekimą programoje „Common Data Service“ ir patikrinkite dvigubo rašymo priedo klaidos informaciją.
+## <a name="enable-plug-in-trace-logs-in-common-data-service-and-inspect-the-dual-write-plug-in-error-details"></a>Įjunkite priedo sekimo žurnalus programoje „Common Data Service“ ir patikrinkite dvigubo rašymo priedo klaidų išsamią informaciją
 
-Jei susiduriate su problema ar klaida atlikdami dvigubo rašymo sinchronizavimą, galite patikrinti klaidas sekimo žurnale:
+[!include [banner](../includes/banner.md)]
 
-1. Prieš galėdami patikrinti klaidas, turite įjungti priedo sekimą naudodamiesi instrukcijomis, pateiktomis dalyje [Register plug-in](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs), kad įjungtumėte priedo sekimą. Dabar galite patikrinti klaidas.
-2. Prisijungti prie „Dynamics 365 for Sales‟
-3. Spustelėkite nustatymų piktogramą (pavara) ir pasirinkite **„Išplėstiniai parametrai“**.
-4. Meniu **„Parametrai“** pasirinkite **„Tinkinimas“ > „Priedo sekimo žurnalas“**
-5. Spustelėkite tipo pavadinimą **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**, kad būtų rodoma išsami klaidos informacija.
+[!include [preview](../includes/preview-banner.md)]
 
-## <a name="check-dual-write-synchronization-errors-in-finance-and-operations"></a>Patikrinkite „Finance and Operations“ dvigubo rašymo sinchronizavimo klaidas
+Jei atlikdami dvigubo rašymo sinchronizavimą susiduriate su problema arba klaida, atlikite šiuos veiksmus, kad patikrintumėte klaidas sekimo žurnale.
 
-Atlikdami toliau nurodytus veiksmus galite patikrinti klaidas per testavimą:
+1. Prieš tikrindami klaidas, turite įjungti priedo sekimo žurnalus. Instrukcijas rasite vadovo [Mokymo priemonė: įrašykite ir užregistruokite priedą](https://docs.microsoft.com/powerapps/developer/common-data-service/tutorial-write-plug-in#view-trace-logs) skyriuje „Sekimo žurnalų peržiūrėjimas“.
 
-+ Prisijunkite prie „LifeCycle Services“ (LCS).
-+ Atidarykite LCS projektą, kurį pasirinkote dvigubo rašymo testavimui atlikti.
-+ Eikite į debesies nuomojamas aplinkas.
-+ Prisijunkite prie „Finance and Operations“ VM nuotolinio darbalaukio naudodami vietinį abonementą, kuris rodomas LCS.
-+ Atidarykite įvykio peržiūrą. 
-+ Pereikite į **„Programų ir paslaugų žurnalai“ > „Microsoft“ > „Dynamics“ > „AX-DualWriteSync“ > „Operacinis“**. Rodomos klaidos ir išsami informacija.
+    Dabar galite tikrinti klaidas.
 
-## <a name="how-to-unlink-and-link-another-common-data-service-environment-from-finance-and-operations"></a>Kaip atsieti ir susieti kitą „Common Data Service“ aplinką iš „Finance and Operations“
+2. Prisijunkite prie „Microsoft Dynamics 365 for Sales“.
+3. Pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis) ir pasirinkite **Išplėstiniai parametrai**.
+4. Meniu **Parametrai** pasirinkite **Tinkinimas\> Priedo sekimo žurnalas**.
+5. Pasirinkite **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin** kaip tipo pavadinimą, kad būtų rodoma išsami klaidos informacija.
 
-Saitus galite naujinti atlikdami šiuos veiksmus:
+## <a name="inspect-dual-write-synchronization-errors-in-finance-and-operations"></a>Patikrinkite dvigubo rašymo sinchronizavimo klaidas programoje „Finance and Operations“.
 
-+ Pereikite į „Finance and Operations“ aplinką.
-+ Atidarykite duomenų valdymą.
-+ Paspauskite **„Susieti su CDS, skirtu programoms**.
-+ Pasirinkite visus veikiančius susiejimus ir spustelėkite **„Stabdyti“**. 
-+ Pasirinkite visus susiejimus ir spustelėkite **„Naikinti“**.
+Atlikite šiuos veiksmus, kad galėtumėte tikrinti klaidas per testavimą.
+
+1. Prisijunkite prie „Microsoft Dynamics“ portale „Lifecycle Services“ (LCS).
+2. Atidarykite LCS projektą, kad atliktumėte dvigubo rašymo testavimą.
+3. Pasirinkite **Aplinkos diegimo debesyje įrankis**.
+4. Sukurkite nuotolinį darbalaukį, skirtą „Dynamics 365 for Finance and Operations“ virtualiajai mašinai (VM), pasinaudoję LCS rodoma vietine paskyra.
+5. Atidarykite įvykių peržiūros programą. 
+6. Eikite į **Programų ir paslaugų žurnalai\> „Microsoft“\> „Dynamics“\> „AX-DualWriteSync“\> Veikia** Rodomos klaidos ir išsami informacija.
+
+## <a name="unlink-one-common-data-service-environment-from-finance-and-operations-and-link-another-environment"></a>Atsiekite vieną „Common Data Service“ aplinką nuo „Finance and Operations“ ir susiekite kitą aplinką.
+
+Norėdami atnaujinti saitus atlikite toliau nurodytus veiksmus.
+
+1. Eikite į „Finance and Operations“ aplinką.
+2. Atidarykite duomenų valdymą.
+3. Pasirinkite **Programėlių CDS saitas**.
+4. Pasirinkite visus vykdomus susiejimus ir tada pasirinkite **Stabdyti**.
+5. Pasirinkite visus susiejimus ir tada pasirinkite **Naikinti**.
 
     > [!NOTE]
-    > Parinktis **„Naikinti“** nebus rodoma, jei pasirinktas **„CustomerV3-Account“** šablonas. Jei reikia, atžymėkite. **„CustomerV3-Account“** yra senesnis sukonfigūruotas šablonas ir veikia su potencialių grynųjų pinigų sprendimu. Kadangi jis yra išleistasvisame pasaulyje, jis rodomas po visais šablonais.
+    > Parinktis **Naikinti** nepasiekiama, jei pasirinktas **„CustomerV3-Account“** šablonas. Išvalykite šio šablono žymėjimą, kaip nurodyta. **„CustomerV3-Account“** yra senesnis sukonfigūruotas šablonas ir veikia su potencialių grynųjų pinigų sprendimu. Jis rodomas visuose šablonuose, nes buvo išleistas visose šalyse.
 
-+ Spustelėkite **„Atsieti aplinką“**.
-+ Spustelėkite **Yes**, kad patvirtintumėte.
-+ Norėdami susieti naują aplinką, vykdykite [diegimo vadove](https://aka.ms/dualwrite-docs)nurodytus veiksmus.
-
+6. Pasirinkite **Atsieti aplinką**.
+7. Kad patvirtintumėte operaciją, pasirinkite **Taip**.
+8. Norėdami susieti naują aplinką, vykdykite [diegimo vadove](https://aka.ms/dualwrite-docs)nurodytus veiksmus.
