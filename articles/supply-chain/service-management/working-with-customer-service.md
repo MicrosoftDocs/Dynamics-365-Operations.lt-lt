@@ -1,9 +1,9 @@
 ---
-title: Darbas su klientų aptarnavimo tarnyba
+title: Darbo su klientų aptarnavimo tarnyba apžvalga
 description: Klientų aptarnavimo tarnyba remia profesionalias aptarnavimo ir gamybos paslaugų organizacijas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/07/2018
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f51b749cc9527cb3e86352b0373babd6c524dbe7
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a73852bf6163a887c7bab954a61581fd8e0a8ded
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550473"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865794"
 ---
-# <a name="work-with-customer-service"></a>Darbas su klientų aptarnavimo tarnyba 
+# <a name="work-with-customer-service-overview"></a>Darbo su klientų aptarnavimo tarnyba apžvalga
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,13 +38,13 @@ Klientų aptarnavimo tarnyba apima toliau nurodytas funkcijas.
 
   - Išplėstinė remonto valdymo, apimančio remonto sekimą ir medžiagų komplektavimo specifikacijų (KS) versijos kūrimo valdymą, sąranka
 
-  - Darbuotojų vaidmenų palaikymu, pvz., aptarnavimo vadybininku, dispečeriu ir aptarnavimo techniku arba konsultantu
+  - Darbuotojų vaidmenų palaikymas, pvz., aptarnavimo vadybininkas, dispečeris ir aptarnavimo technikas arba konsultantas
 
-  - Aptarnavimo abonementais, kurie gali sugeneruoti įplaukų srautus, priklausomus nuo aptarnavimo dažnumo
+  - Aptarnavimo abonementai, kurie gali sugeneruoti įplaukų srautus, priklausomus nuo aptarnavimo dažnumo
 
-  - Aptarnavimo lygio sutartimis, kurios palaiko diferencijuotą klientų bazę
+  - Aptarnavimo lygio sutartys, kuriomis grindžiama diferencijuota klientų bazė
 
-Šio skyriaus temose pateikiama klientų aptarnavimo verslo proceso bei atskiro verslo proceso komponento apžvalga. Taip pat nurodomos formos, susietos su atskirtu verslo proceso komponentu, ir aptariamos užduotys, susietos su atskiru verslo proceso komponentu.
+Šio skyriaus temose pateikiama klientų aptarnavimo verslo proceso bei atskiro verslo proceso komponento apžvalga. Taip pat nurodomos formos, susietos su atskiru verslo proceso komponentu, ir aptariamos užduotys, susietos su atskiru verslo proceso komponentu.
 
 
 
