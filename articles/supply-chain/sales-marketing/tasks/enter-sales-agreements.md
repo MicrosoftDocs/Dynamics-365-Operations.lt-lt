@@ -1,9 +1,9 @@
 ---
-title: Įvesti pardavimo sutartis
-description: Ši procedūra nurodo, kaip kurti pardavimo sutartį, kuri jūsų klientus įpareigoja pirkti nustatytą produktų kiekį per tam tikrą laikotarpį, suteikiant jiems specialias nuolaidas.
+title: Pardavimo sutarčių įvedimas
+description: Šioje temoje aiškinama, kaip sukurti pardavimo sutartį, kuri įpareigoja vieną iš jūsų klientų per tam tikrą laiką nusipirkti produktą už sutartą sumą mainais į specialias nuolaidas.
 author: omulvad
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/08/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,53 +17,43 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c415faaf68fda677f08305dce0ed3f2ed32ee050
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7699f426c102b4ae2610db0851ddd127e514b652
+ms.sourcegitcommit: 6545bef4584d72dd7789f2d3935cf00ac8f489b0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834105"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "1871034"
 ---
-# <a name="enter-sales-agreements"></a>Įvesti pardavimo sutartis
+# <a name="enter-sales-agreements"></a>Pardavimo sutarčių įvedimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra nurodo, kaip kurti pardavimo sutartį, kuri jūsų klientus įpareigoja pirkti nustatytą produktų kiekį per tam tikrą laikotarpį, suteikiant jiems specialias nuolaidas. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
+Šioje temoje aiškinama, kaip sukurti pardavimo sutartį, kuri įpareigoja vieną iš jūsų klientų per tam tikrą laiką nusipirkti produktą už sutartą sumą mainais į specialias nuolaidas. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
 
 
 ## <a name="set-up-sales-agreement-header"></a>Pardavimo sutarties eilutės nustatymas
-1. Eikite į Pardavimas ir rinkodara > Pardavimo sutartys > Pardavimo sutartys.
-2. Spustelėkite Naujas.
-3. Lauke Kliento sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Sąraše raskite ir pasirinkite norimą įrašą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Lauke Pardavimo sutarčių klasifikacija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Išplėskite skyrių Bendra.
-9. Lauke Numatytasis įsipareigojimas pasirinkite „Produkto vertės įsipareigojimas“.
-    * Įsipareigojimo tipas yra privalomas kriterijus, kurį turite priskirti sutarčiai, kad nustatytumėte, kaip sutartis bus įvykdyta. Naudojant keturis iš anksto nustatytus tipus galima nustatyti kliento įsipareigojimo tikslą, kuris išreiškiamas kaip kiekis arba vertė. Kiekio įsipareigojimo tipą galima taikyti tik konkrečiam produktui, bet verte grįstus tipus galima taikyti parduodant konkrečius ir nekonkrečius produktus.  
-10. Lauke Galiojimo data nustatykite ateities datą, kurią sutartis nustos galioti.
-11. Spustelėkite GERAI.
+1. Naršymo srityje eikite į **Moduliai > Pardavimai ir rinkodara > Pardavimo sutartys > Pardavimo sutartys**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Kliento sąskaita** išplečiamajame meniu pasirinkite norimą įrašą.
+4. Lauke **Pardavimo sutarties klasifikacija** pasirinkite norimą įrašą iš išplečiamojo meniu.
+5. Išplėskite skyrių **Bendra**.
+6. Lauke **Numatytasis įsipareigojimas** pasirinkite **Produkto vertės įsipareigojimas**. Įsipareigojimo tipas yra privalomas kriterijus, kurį turite priskirti sutarčiai, kad nustatytumėte, kaip sutartis bus įvykdyta. Naudojant keturis iš anksto nustatytus tipus galima nustatyti kliento įsipareigojimo tikslą, kuris išreiškiamas kaip kiekis arba vertė. Kiekio įsipareigojimo tipą galima taikyti tik konkrečiam produktui, bet verte grįstus tipus galima taikyti parduodant konkrečius ir nekonkrečius produktus.  
+7. Lauke **Galiojimo data** nustatykite datą į būsimą datą, kada norite, kad sutartis nebegaliotų.
+8. Pasirinkite **Gerai**.
 
 ## <a name="set-up-product-value-commitment-lines"></a>Produkto vertės įsipareigojimo eilučių nustatymas
-1. Spustelėkite Pridėti eilutę.
-2. Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-3. Sąraše raskite ir pasirinkite norimą įrašą.
-4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Pasirinktas sutarties įsipareigojimo tipas įtakoja, kokią informaciją galite įvesti sutarties eilutėse. Pvz., jei sutartis pagrįsta verte, turite nurodyti bendrą grynąją sumą (sutarta valiuta), už kurią klientas įsipareigoja nusipirkti iš jūsų prekių. Šiame pavyzdyje eilučių laukų Kiekis ir Vienetas naudoti negalima, nes kuriate sutartį, pagal kurią klientas pirks konkrečios vertės produktų kiekį.   
-5. Lauke Grynoji suma įveskite piniginę sumą, už kurią klientas įsipareigojo pirkti.
-6. Lauke Nuolaidos procentas įveskite procentinę reikšmę, kuri bus taikoma kliento pardavimo užsakymo eilutėms, susietoms su šia sutartimi.
-7. Išplėskite skyrių Eilutės informacija.
-8. Lauke Maksimaliai vykdoma pasirinktie Taip.
-    * Jei pasirenkate Maksimaliai vykdoma, bendra visų pardavimo užsakymo eilučių, kurios naudoja konkrečias įsipareigojimo kainas, nuolaidas ir (arba) mokėjimo sąlygas, suma negali viršyti nurodytos įsipareigojimo sumos.  
-    * Mažiausia ir didžiausia išleidimo sumos nurodo vertės, už kurią reikia parduoti prekių vykdant kiekvieną pasirinktos sutarties pardavimo užsakymą, intervalą.   
-9. Išplėskite sekciją Pardavimo sutarties antraštė.
-    * Jei sutarties būsena nėra nustatyta kaip Galiojanti, pardavimo užsakymų negalima susieti su sutartimi ir todėl jie neturi įtakos sutarties sąlygų vykdymui. Šio etapo metu būseną galite neautomatiškai pakeisti. Tačiau įprastai būsena keičiama tvirtinant kliento sutartį.  
-10. Srityje Veiksmas spustelėkite Pardavimo sutartis.
-11. Spustelėkite „Patvirtinimas“.
-    * Įsitikinkite, kad parinktis Pažymėti sutartį kaip galiojančią, nustatyta kaip Taip.  
-12. Lauke Spausdinti ataskaitą pasirinkite Taip.
-13. Spustelėkite GERAI.
-14. Uždarykite puslapį.
-    * Dabar sutartis galioja ir jūs galite pradėti kliento užsakymus sieti su sutartimi ir dengti įsipareigoto tikslo sumą.  
+1. Pasirinkite **Pridėti eilutę**.
+2. Lauke **Elemento numeris** išplečiamajame meniu pasirinkite norimą įrašą. Pasirinktas sutarties įsipareigojimo tipas įtakoja, kokią informaciją galite įvesti sutarties eilutėse. Pvz., jei sutartis pagrįsta verte, turite nurodyti bendrą grynąją sumą (sutarta valiuta), už kurią klientas įsipareigoja nusipirkti iš jūsų prekių. Šiame pavyzdyje laukai **Kiekis** ir **Vienetas** nepasiekiami eilutėje, nes kuriate sutartį klientui nusipirkti tam tikrą produkto vertę.   
+3. Lauke **Grynoji suma** įveskite piniginę sumą, už kurią klientas įsipareigoja nusipirkti.
+4. Lauke **Nuolaidos procentas** įveskite procentinę reikšmę, kuri bus taikoma kliento pardavimo užsakymo eilutėms, susietoms su šia sutartimi.
+5. Išplėskite skyrių **Eilutės informacija** section.
+6. Pasirinkite **Taip** lauke **Maksimaliai vykdoma**.
+    - Pasirinkimas **Maksimaliai vykdoma** reiškia, kad bendra visų pardavimo užsakymo eilučių, kurios naudoja specialias įsipareigojimo kainas, nuolaidas ir (arba) mokėjimo sąlygas, suma neturi viršyti įsipareigojime nurodytos sumos.  
+    - Mažiausia ir didžiausia išleidimo sumos nurodo vertės, už kurią reikia parduoti prekių vykdant kiekvieną pasirinktos sutarties pardavimo užsakymą, intervalą.   
+7. Išplėskite skyrių **Pardavimo sutarties antraštė**. Jei sutarties būsena nėra nustatyta į **Galioja**, pardavimo užsakymai negali būti susieti su sutartimi ir dėl to negali prisidėti prie sutarties įvykdymo. Šio etapo metu būseną galite neautomatiškai pakeisti. Tačiau įprastai būsena keičiama tvirtinant kliento sutartį.  
+8. Veiksmų srityje pasirinkite **Pardavimo sutartis**.
+9. Pasirinkite **Patvirtinimas**. Įsitikinkite, kad parinktis **Pažymėti sutartį kaip galiojančią** nustatyta į **Taip**.  
+10. Pasirinkite **Taip** lauke **Spausdinti ataskaitą**.
+11. Pasirinkite **Gerai**.
+12. Uždarykite puslapį. Dabar sutartis galioja. Galite pradėti sieti kliento užsakymus su sutartimi, kad subalansuotumėte atliktą tikslą.  
 

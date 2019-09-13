@@ -3,7 +3,7 @@ title: Spartieji klavišai
 description: Šie spartieji klavišai taikomi visoje Dynamics 365 for Finance and Operations.
 author: jasongre
 manager: AnnBe
-ms.date: 07/22/2019
+ms.date: 08/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95a6b6bd70c4a5bb684c605d364a28b85ed4e120
-ms.sourcegitcommit: d88d3d504e85c5bf6f6e9dc842488a2b644261cf
+ms.openlocfilehash: 91e3f202d479fd77893da3cc746f3d23587107b1
+ms.sourcegitcommit: 69bd97dcc191a0cabfed91f678bac0ba2aebb1b8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1780063"
+ms.lasthandoff: 08/26/2019
+ms.locfileid: "1920656"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -155,8 +155,8 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Norėdami tai padaryti                                                                   | Spausti                         |
 |------------------------------------------------------------------------------|-------------------------------|
 | Atidaryti hipersaitą                                                           | „Ctrl“ + „Enter“                    |
-| Įvesti seanso datą į datos lauką.                                       | D + Tab                         |
-| Įvesti dabartinę datą į datos lauką                                       | T + Tab                         |
+| Įvesti seanso datą į datos lauką.                                       | D                         |
+| Įvesti dabartinę datą į datos lauką                                       | A                         |
 | Atidaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                         | „Alt“ + rodyklė žemyn                |
 | Uždaryti peržvalgą, pasirinktinio įvedimo lauką, datos parinkiklį, išplečiamąjį dialogo langą                        | Esc                           |
 | Suaktyvinti peržvalgą (kai peržvalga jau atidaryta)                   | „Alt“ + rodyklė žemyn                |

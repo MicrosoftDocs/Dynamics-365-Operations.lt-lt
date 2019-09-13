@@ -3,7 +3,7 @@ title: Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: AnnBe
-ms.date: 03/18/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ed588ea28bec3e734f9648c1fbd7551ab0b3cdda
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836122"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887140"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -136,7 +136,6 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 
 - Neautomatinis sulaikymo užsakymų kūrimas nepalaikomas naudojant esamo svorio produktus.
 - Neautomatinis su darbu susijusių atsargų perkėlimas nepalaikomas naudojant esamo svorio produktus.
-- Numerių lentelių konsolidavimas nepalaikomas naudojant esamo svorio produktus.
 - Numerio lentelės įkėlimas norint inicijuoti sandėlio atsargas nepalaikomas naudojant esamo svorio produktus.
 - Partijų balansavimo procesai nepalaikomi naudojant esamo svorio produktus.
 - Neigiamų faktinių atsargų tvarkymas nepalaikomas naudojant esamo svorio produktus.
@@ -147,7 +146,6 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 - Klasterio paėmimo funkcija nepalaikoma naudojant esamo svorio produktus.
 - Paėmimo ir pakavimo sandėlio apdorojimas nepalaikoma naudojant esamo svorio produktus.
 - Darbas, nurodytas darbo šablone, gali būti vykdomas automatiškai naudojant esamo svorio produktus.
-- Darbo atšaukimo funkcija nepalaikoma naudojant esamo svorio produktus.
 - Naudojant esamo svorio produktus nepalaikomas neautomatinis pakavimo vietos apdorojimas, kai darbas kuriamas uždarius konteinerius.
 - Nuoseklaus vienetų nuskaitymo funkcija nepalaikoma naudojant esamo svorio produktus.
  

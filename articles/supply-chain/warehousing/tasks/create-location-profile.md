@@ -1,9 +1,9 @@
 ---
-title: Kurti vietos šabloną
-description: Su kiekviena sandėlio vieta turi būti susietas vietos šablonas, kuris nurodo vietos ypatybes, pvz., ar vietoje leidžiamos skirtingos prekės.
+title: Vietos šablono kūrimas
+description: Šioje temoje aiškinama, kaip sukurti vietos profilį Dynamics 365 for Finance and Operations.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/29/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,29 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a9e1217a1105e1d53fc937f927e066e392f1ef14
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 46aa1001c21ae39c158062444303ca02c0f41a45
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847332"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866984"
 ---
-# <a name="create-a-location-profile"></a>Kurti vietos šabloną
+# <a name="create-a-location-profile"></a>Vietos šablono kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Su kiekviena sandėlio vieta turi būti susietas vietos šablonas, kuris nurodo vietos ypatybes, pvz., ar vietoje leidžiamos skirtingos prekės. Atlikdami šią procedūrą sukursite vietos, kurioje kontrolė pagal numerio lentelę yra nebūtina, šabloną. Leisime skirtingas prekes, skirtingas atsargų būsenas ir ciklo skaičiavimą. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.
+Šioje temoje aiškinama, kaip sukurti vietos profilį Dynamics 365 for Finance and Operations. Su kiekviena sandėlio vieta turi būti susietas vietos šablonas, kuris nurodo vietos ypatybes, pvz., ar vietoje leidžiamos skirtingos prekės. Atlikdami šią procedūrą sukursite vietos, kurioje kontrolė pagal numerio lentelę yra nebūtina, šabloną. Leisime skirtingas prekes, skirtingas atsargų būsenas ir ciklo skaičiavimą. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje.
 
-1. Spustelėkite Naujas.
-2. Lauke Vietos šablono ID įveskite vertę.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke Vietos formatas įveskite arba pasirinkite reikšmę.
-5. Lauke Vietos tipas įveskite arba pasirinkite reikšmę.
-6. Lauke Rampos valdymo šablono ID įveskite arba pasirinkite reikšmę.
-7. Lauke Leisti skirtingas prekes pasirinkite Taip.
-8. Lauke Leisti įvairias atsargų būsenas pasirinkite Taip.
-9. Lauke Leisti ciklo skaičiavimą pasirinkite Taip.
-10. Spustelėkite Įrašyti.
-11. Pasirinkite Sandėlio valdymas > Nustatymas > Sandėlis > Vietos profiliai.
+
+1. Naršymo srityje eikite į **Moduliai > Sandėlio valdymas > Sąranka > Sandėlio > Vietos profilis**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Vietos profilio ID** įveskite reikšmę.
+4. Lauke **Pavadinimas** įveskite reikšmę.
+5. Lauke **Vietos formatas** įveskite arba pasirinkite reikšmę.
+6. Lauke **Vietos tipas** įveskite arba pasirinkite reikšmę.
+7. Lauke **Dokumento valdymo profilio ID** įveskite arba pažymėkite reikšmę.
+8. Pažymėkite **Taip** lauke **Leisti mišrius elementus**.
+9. Pažymėkite **Taip** lauke **Leisti mišrias atsargų būsenas**.
+10. Pažymėkite **Taip** lauke **Leisti ciklo skaičiavimą**.
+11. Pasirinkite **Įrašyti**.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9d19987a44c467381828acb81b6161601268d84f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 43f25796e6271f14acfc72f931398ab63338a307
+ms.sourcegitcommit: b068b17ef708a0b349db8df1542e4244bb983d13
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863065"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "1870838"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -48,7 +48,7 @@ Rodinių išrinkiklių esama dviejų dydžių.
 
 -   **Dideli rodinių išrinkikliai**: puslapių, kuriuose aiškiai esama sąrašo, rodinių išrinkiklis bus didesnis dėl kelių priežasčių. Svarbiausia nepamiršti, kad didesnis rodinių išrinkiklis reiškia tai, kad puslapių rodiniai gali apimti vartotojo nustatytus filtrus. Kadangi į rodinius įtraukti filtrai, didesnio dydžio išrinkiklis reikalingas ir todėl, kad rodinio pavadinimai dažnai yra geriausias ekrane rodomų duomenų aprašymas ir tikimasi, kad šio tipo puslapiuose vartotojai dažniau perjungs rodinius.  
  
--   **Small view selectors**: Visose kitose viso puslapio formose (išskyrus darbo sritis ir informacijos suvestinę) yra mažesnis rodmenų parinkiklis, rodomas šalia puslapio antraštės. Šių puslapių rodiniai apima tik personalizavimus (o ne vartotojo nustatytus filtrus). Šiuose puslapiuose formos antraštė arba įrašo pavadinimas dažnai yra svarbiausia informacija, esanti formos viršuje. Mažesnis dydis taip pat reiškia mažesnį tikėtiną šių puslapių rodinių perjungimo dažnumą. 
+-   **Mažo rodinio išrinkikliai**: visose kitose viso puslapio formose (išskyrus darbo sritis ir informacijos suvestinę) yra mažesnis rodmenų parinkiklis, rodomas šalia puslapio antraštės. Šių puslapių rodiniai apima tik personalizavimus (o ne vartotojo nustatytus filtrus). Šiuose puslapiuose formos antraštė arba įrašo pavadinimas dažnai yra svarbiausia informacija, esanti formos viršuje. Mažesnis dydis taip pat reiškia mažesnį tikėtiną šių puslapių rodinių perjungimo dažnumą. 
  
 Spustelėjus rodinio pavadinimą, atidaromas rodinių išrinkiklis ir rodomas galimų šio puslapio rodinių sąrašas
 
@@ -106,7 +106,7 @@ Naudojant įrašytų rodinių funkciją, organizacijos personalizavimų valdymas
 Naudodamosi publikavimo galimybe organizacijos gali apibrėžti standartinius savo verslui optimizuotus įmonės rodinius, skirtus konkrečius saugos vaidmenis turintiems vartotojams.  
 
 ## <a name="publishing-views"></a>Rodinių publikavimas
-Publikavimo proceso metu rodiniams galima priskirti vieną ar kelis saugos vaidmenis, o tai reiškia, kad visi tą vaidmenį turintys vartotojai turės prieigą prie to rodinio ir galės juo naudotis, nors rodinio redaguoti negalės. Šiuo metu tik sistemos administratoriai turi teisę atlikti rodinio išrinkiklio išplečiamojo meniu veiksmą **Publish**, tačiau naujas saugos vaidmuo, kuriuo publikavimo teisės galės būti suteikiamos kitiems patikrintiems vartotojams, bus pridėtas būsimame atnaujinime.  
+Publikavimo proceso metu rodiniams galima priskirti vieną ar kelis saugos vaidmenis, o tai reiškia, kad visi tą vaidmenį turintys vartotojai turės prieigą prie to rodinio ir galės juo naudotis, nors rodinio redaguoti negalės. Šiuo metu tik sistemos administratoriai turi teisę atlikti rodinio išrinkiklio išplečiamojo meniu veiksmą **Publikuoti**, tačiau naujas saugos vaidmuo, kuriuo publikavimo teisės galės būti suteikiamos kitiems patikrintiems vartotojams, bus pridėtas būsimame atnaujinime.  
 
 Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus. 
 1.  Sukurkite ir įrašykite norimo publikuoti rodinio asmeninę kopiją. 
@@ -151,13 +151,15 @@ Visi šiame dialogo lange atlikti pakeitimai įsigalios pasirinkus mygtuką **Į
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje? 
 Norėdami aktyvuoti įrašytus rodinius, kai funkcija veikia peržiūros režimu, atlikite toliau nurodytus veiksmus: 
 
-1.  **Enable the flight**: Vykdykite šį SQL teiginį: 
+1.  **Įgalinti testuojamą variantą**: vykdykite šį SQL teiginį: 
 
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('Dynamics.AX.Application.CLISavedViewsEnableFeature', 1, 0, 5637144576);`
+    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
-2.  **Find the feature**: nueikite į **Feature management** darbo sritis. Jei **Įrašyti rodiniai** neatsiranda sąraše, spustelėkite mygtuką **Tikrinti, ar nėra atnaujinimų**.   
+2. **Iš naujo nustatykite IIS**, kad išvalytumėte statinę testuojamo varianto talpyklą. 
 
-3.  **Enable the feature**: Funkcijų sąraše raskite funkciją **Saved views** ir išsamios informacijos srityje spustelėkite mygtuką **Enable now**.
+3.  **Raskite funkciją**: eikite į darbo sritį **Funkcijų valdymas**. Jei **Įrašytieji rodiniai** sąraše nerodomi, pasirinkite **Tikrinti, ar yra naujinimų**.   
+
+4.  **Įjunkite funkciją**: funkcijų sąraše raskite funkciją **Įrašytieji rodiniai** ir išsamios informacijos srityje pasirinkite **Įjungti dabar**.
 
 Visi vėlesni vartotojo seansai prasidės įjungus įrašytuosius rodinius.  
 

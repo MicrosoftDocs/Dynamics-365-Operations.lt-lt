@@ -1,9 +1,9 @@
 ---
-title: Apdoroti didžiosios knygos paskirstymo žurnalą
-description: Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas.
+title: Didžiosios knygos paskirstymo žurnalo apdorojimas
+description: Šioje temoje aiškinama, kaip apdoroti paskirstymo užsakymą programoje „Dynamics 365 for Finance and Operations“.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,31 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 087bd4f203e8762447e823b19076b79296a390d6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0798d9f1c09e827bf64635cf67102f77244948c5
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846372"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867444"
 ---
-# <a name="process-ledger-allocation-journal"></a>Apdoroti didžiosios knygos paskirstymo žurnalą
+# <a name="process-ledger-allocation-journal"></a>Didžiosios knygos paskirstymo žurnalo apdorojimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas. Norint sukurti paskirstymo žurnalą, privalo būti bent viena aktyvi Didžiosios knygos paskirstymo taisyklė. Šioje užduotyje naudojama demonstracinė įmonė USMF.
+Šioje temoje aiškinama, kaip apdoroti paskirstymo užsakymą programoje „Dynamics 365 for Finance and Operations“. Norėdami kurti paskirstymo žurnalą, kurį būtų galima peržiūrėti ir patvirtinti prieš registruojant į DK arba registruoti tiesiogiai į DK, naudokite puslapį Paskirstymo užklausos apdorojimas. Norint sukurti paskirstymo žurnalą, privalo būti bent viena aktyvi Didžiosios knygos paskirstymo taisyklė. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
-1. Eikite į Didžioji knyga > Paskirstymai > Apdoroti paskirstymo užklausą.
-2. Lauke Taisyklė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-3. Sąraše raskite ir pasirinkite norimą įrašą.
-4. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-5. Lauke Taikymo pradžios data įveskite datą.
-    * Taikymo pradžios data yra labai svarbi, kai Didžioji knyga yra taisyklės Duomenų šaltinis. Šia data reguliuojama, kuriuos didžiosios knygos balansus įtraukti į paskirstymą.     Lauke Nulinis šaltinis pasirinkite Stabdyti. Taip bus sustabdytas paskirstymo procesas ir bus rodomas pranešimas, kuriame teigiama, kad pasirinkta nulinė šaltinio suma.  
-6. Lauke Pasiūlymo pasirinktys pasirinkite „Tik pasiūlymas“.
-    * Pasirinkite Pasiūlymas tik tam, kad prieš registruodami paskirstymą Didžiojoje knygoje galėtumėte peržiūrėti ir pasirinktinai patvirtinti paskirstymo žurnalų rezultatą.  
-7. Lauke DK registravimo data įveskite datą.
-8. Spustelėkite GERAI.
-9. Eikite į Didžioji knyga > Paskirstymas > Paskirstymo žurnalai.
-10. Spustelėkite Eilutės.
-11. Spustelėkite Registruoti.
-12. Spustelėkite Registruoti.
+1. Naršymo srityje eikite į **Moduliai > Didžioji knyga > Paskirstymai > Paskirstymo užklausos procesas**.
+2. Lauke **Taisyklė** pasirinkite norimą įrašą išplečiamajame meniu.
+3. Lauke **Nuo datos** įveskite datą.
+
+    - Laukas **Nuo datos** yra ypač svarbus, kai DK yra taisyklės duomenų šaltinis. Šia data reguliuojama, kuriuos didžiosios knygos balansus įtraukti į paskirstymą.  
+    - Lauke **Nulinis šaltinis** pasirinkite **Stabdyti**. Šiuo veiksmu sustabdysite paskirstymo procesą ir pasirodys pranešimas, kuriama bus nurodoma, jog buvo pasirinktas nulinis šaltinių skaičius.  
+
+4. Lauke **Pasiūlymo parinktys** pasirinkite **Tik pasiūlymas**. Pasirinkite **Tik pasiūlymas** peržiūrėti ir papildomai patvirtinti rezultatus paskirstymo žurnale prieš registruodami paskirstymą DK.  
+5. Lauke DK registravimo data įveskite datą.
+6. Pasirinkite **Gerai**.
+7. Naršymo srityje eikite į **Moduliai > Didžioji knyga > Paskirstymai > Paskirstymų žurnalai**.
+8. Pasirinkite **Eilutės**.
+9. Pasirinkite **Registruoti**.
+10. Pasirinkite **Registruoti**.
 

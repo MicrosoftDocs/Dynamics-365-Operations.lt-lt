@@ -1,9 +1,9 @@
 ---
-title: Prižiūrėti finansinės dimensijos numatytuosius šablonus
-description: Šioje procedūroje parodoma, kaip nustatyti numatytuosius finansinių dimensijų šablonus.
+title: Finansinių dimensijų numatytųjų šablonų tvarkymas
+description: Šioje temoje parodyta, kaip nustatyti finansinės dimensijos numatytuosius šablonus.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,30 +16,29 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 27ce6df8ad4bc359f2cbf802f83149bc6966321a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5b53077844c231496642f97a62b373eb0547fde2
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846444"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867468"
 ---
-# <a name="maintain-financial-dimension-default-templates"></a>Prižiūrėti finansinės dimensijos numatytuosius šablonus
+# <a name="maintain-financial-dimension-default-templates"></a>Finansinių dimensijų numatytųjų šablonų tvarkymas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip nustatyti numatytuosius finansinių dimensijų šablonus. Šablonus galima naudoti norint greitai paskirstyti sumas šaltinio dokumentuose.
+Šioje temoje parodyta, kaip nustatyti finansinės dimensijos numatytuosius šablonus. Šablonus galima naudoti norint greitai paskirstyti sumas šaltinio dokumentuose.
 
-1. Pasirinkite Didžioji knyga > Sąskaitų planas > Dimensijos > Finansinės dimensijos numatytieji šablonai.
-2. Spustelėkite Naujas.
-3. Lauke Šablono ID įveskite šablono ID.
+1. Naršymo srityje eikite į **Moduliai > Didžioji knyga > Sąskaitų planas > Dimensijos > Finansinės dimensijos numatytieji šablonai**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Šablono ID** įveskite Šablono ID.
 4. Įveskite pirmųjų dimensijų reikšmių procentinę dalį.
 5. Įveskite finansinių dimensijų reikšmes, kurios atitinka įvestą procentinę dalį.
-6. Spustelėkite Pridėti.
-7. Įveskite kitų dimensijų reikšmių procentinę dalį.
-    * Šiame pavyzdyje įveskite procentinę dalį, kad būtų paskirstyta mažiau nei 100 % viso kiekio.  
+6. Pasirinkite **Įtraukti**.
+7. Įveskite kitų dimensijų reikšmių procentinę dalį. Šiame pavyzdyje įveskite procentinę dalį, kad būtų paskirstyta mažiau nei 100 % viso kiekio. 
 8. Įveskite finansinių dimensijų reikšmes, kurios atitinka įvestą procentinę dalį.
-9. Spustelėkite Pridėti.
+9. Pasirinkite **Įtraukti**.
 10. Įveskite kitą procentinę dalį, kurią pridėjus bendras procentinis dydis būtų lygus 100 %.
 11. Įveskite finansinių dimensijų reikšmes, kurios atitinka įvestą procentinę dalį.
-12. Spustelėkite Įrašyti.
+12. Pasirinkite **Įrašyti**.
 

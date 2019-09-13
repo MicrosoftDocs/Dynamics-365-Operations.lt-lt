@@ -3,7 +3,7 @@ title: Funkcijų valdymo apžvalga
 description: Šioje temoje aprašoma funkcijų valdymo priemonė ir kaip ją naudoti.
 author: mikefalkner
 manager: AnnBe
-ms.date: 07/17/2019
+ms.date: 08/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 21eaf2fdcadf8fe9f91438a97a88cc3bddab8286
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: 6aeb5383520f799223d62420f6e0c1079c6c961f
+ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862943"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "1887116"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -61,7 +61,7 @@ Jei funkcija neįjungta, informacijos srityje rodomas mygtukas **Įjungti dabar*
 
 Įjungus kai kurias funkcijas, jų išjungti negalima. Jei funkcija, kurią mėginate įjungti, negali būti išjungta, gausite įspėjimą. Šiuo metu galite pasirinkti **Atšaukti**, norėdami atšaukti operaciją ir palikti funkciją išjungtą. Tačiau, jei pasirinksite **Įjungti** ir įjungsite funkciją, negalėsite jos išjungti vėliau.
 
-Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informacija, prieš jas įjungiant. Šios funkcijos nurodomos geltonu įspėjamuoju simboliu. Turėtumėte atidžiai perskaityti papildomą informaciją, kad geriau suprastumėte, kas įvyks, kai funkcija bus įjungta. Tačiau vis tiek galite pasirinkti **Enable**, kad įjungtumėte funkciją.
+Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informacija, prieš jas įjungiant. Šios funkcijos nurodomos geltonu įspėjamuoju simboliu. Turėtumėte atidžiai perskaityti papildomą informaciją, kad geriau suprastumėte, kas įvyks, kai funkcija bus įjungta. Tačiau vis tiek galite pasirinkti **Įjungti**, kad įjungtumėte funkciją.
 
 Kai kurios funkcijos rodys pranešimą, kad funkcija negali būti įjungta, kol nebus imtasi veiksmų. Šios funkcijos nurodomos raudonu „X“ simboliu. Prieš įgalindami funkciją, turite atlikti apraše aprašytus veiksmus. Pavyzdžiui, jei negalite naudoti funkcijos, kol konfigūracijos raktas nebus išjungtas, pirmiausia turite išjungti konfigūracijos raktą, o tada grįžti į funkcijos valdymą, kad įgalintumėte funkciją.
 
@@ -91,10 +91,10 @@ Kartais įtraukiama svarbi funkcija, kurią būtina įjungti automatiškai, kai 
 
 ## <a name="enable-all-features"></a>Įgalinti visas funkcijas
 
-Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Galite įjungti visas funkcijas pažymėdami mygtuką **Enable all**. 
+Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Galite įjungti visas funkcijas pažymėdami mygtuką **Įjungti viską**. 
 
 Kai pasirenkate **„Įjungti viską“**, parinktis pasirodys ten, kur jums reikia pateikti šią informaciją:
-- Visų funkcijų, kurias reikia patvirtinti prieš jas įjungiant, sąrašas. Jei norite įjungti sąraše esančias funkcijas, pasirinkite parinktį **Yes**, skirtą mygtukui **Enable features requiring confirmation**.
+- Visų funkcijų, kurias reikia patvirtinti prieš jas įjungiant, sąrašas. Jei norite įjungti sąraše esančias funkcijas, pasirinkite parinktį **Taip**, skirtą mygtukui **Įjungti funkcijas, reikalaujančias patvirtinimo**.
 - Pasirodys visų funkcijų, kurių negalima įjungti, sąrašas. Šios funkcijos nebus įjungtos.
 
 Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukciją įjungti ateityje, grafikas nepasikeis. 
@@ -103,14 +103,15 @@ Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukci
 
 Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Tačiau, jei norite automatiškai įjungti visas naujas funkcijas, galite naudoti išplečiamąjį sąrašą, esantį darbo srities pavadinime, kad pakeistumėte tai, kas atsitinka, kai įtraukiamos naujos funkcijos.
 
-- Pasirinkite **Visos naujos funkcijos bus įjungtos pagal numatytuosius parametrus**, kad visos naujos funkcijos būtų automatiškai įjungiamos įtraukiant jas į jūsų aplinką.
-- Pasirinkite **Visos naujos funkcijos bus išjungtos pagal numatytuosius parametrus**, kad visos naujos funkcijos būtų automatiškai išjungiamos įtraukiant jas į jūsų aplinką.
+- Pasirinkite **Įjungti naujas funkcijas automatiškai**, kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
+- Pasirinkite **Neįjungti naujų funkcijų automatiškai**, kad pagal numatytuosius parametrus visos naujos į jūsų aplinką įtraukiamos funkcijos būtų išjungtos.
 
-Kai įjungiate visas funkcijas automatiškai, tai įgalins visas funkcijas, kurios būtų įjungtos spustelėjus mygtuką **Enable all**. Tai neįjungs funkcijų, kurioms reikia patvirtinimo arba kurių negalima įjungti, kol nebus imtasi veiksmų.
+
+Kai įjungiate visas funkcijas automatiškai, tai įgalins visas funkcijas, kurios būtų įjungtos spustelėjus mygtuką **Įjungti viską**. Tai neįjungs funkcijų, kurioms reikia patvirtinimo arba kurių negalima įjungti, kol nebus imtasi veiksmų.
 
 ## <a name="check-for-updates"></a>Tikrinti, ar yra naujinimų
 
-Po kiekvieno atnaujinimo funkcijos pridedamos prie jūsų aplinkos. Tačiau galite rankiniu būdu patikrinti, ar yra naujinimų, spustelėdami mygtuką **Check for updates**. Bet kuri funkcija, kuri buvo įtraukta į sistemą po atnaujinimo, bus įtraukta į funkcijų sąrašą. Pavyzdžiui, jei suaktyvinta funkcija yra įjungta po išleidimo, tada galite ieškoti naujinimų ir funkcija bus įtraukta į jūsų sąrašą.
+Po kiekvieno atnaujinimo funkcijos pridedamos prie jūsų aplinkos. Tačiau galite rankiniu būdu patikrinti, ar yra naujinimų, spustelėdami mygtuką **Tikrinti, ar nėra atnaujinimų**. Bet kuri funkcija, kuri buvo įtraukta į sistemą po atnaujinimo, bus įtraukta į funkcijų sąrašą. Pavyzdžiui, jei suaktyvinta funkcija yra įjungta po išleidimo, tada galite ieškoti naujinimų ir funkcija bus įtraukta į jūsų sąrašą.
 
 ## <a name="assigning-roles"></a>Vaidmenų priskyrimas
 

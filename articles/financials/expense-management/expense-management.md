@@ -1,9 +1,9 @@
 ---
-title: Išlaidų valdymas
-description: Šioje temoje pateikiama bendra informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti modulį Išlaidų valdymui galite sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas.
+title: Išlaidų valdymo apžvalga
+description: Šioje temoje pateikiama bendra informacija apie išlaidų valdymą ir saitai į papildomus išteklius. Galite naudoti išlaidų valdymo modulį ir sukurti integruotą darbo eigą, kurios metu galite saugoti mokėjimo būdo informaciją, importuoti kredito kortelės operacijas ir sekti savo darbuotojų verslo išlaidas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/18/2019
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6fc56b77bea30583448b955bc0af5ef23d693f88
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 151abf630b444107459142f5d2da769dc5834b99
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1841014"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865830"
 ---
-# <a name="expense-management"></a>Išlaidų valdymas
+# <a name="expense-management-overview"></a>Išlaidų valdymo apžvalga
 
 [!include [banner](../includes/banner.md)]
 

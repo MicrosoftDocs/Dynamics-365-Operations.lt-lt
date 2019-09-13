@@ -3,7 +3,7 @@ title: Mokėti kliento mokėjimus
 description: Deponuokite kliento mokėjimus.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: afbf74d1cf3dc87e97dda0873115b5c7fa49ca3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 595d1b609ae83af8f1581caeff9ef7d3892a6207
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1834468"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867779"
 ---
 # <a name="deposit-customer-payments"></a>Mokėti kliento mokėjimus
 
@@ -29,29 +29,22 @@ ms.locfileid: "1834468"
 
 Deponuokite kliento mokėjimus. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
-1. Pasirinkite Gautinos sumos > Mokėjimai > Mokėjimų žurnalas.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Pasirinkite mokėjimų žurnalą. 
-5. Spustelėkite Eilutės.
-6. Lauke Sąskaita pasirinkite klientą, kuriam įrašote mokėjimą.
-7. Lauke Kreditas įveskite mokėjimo sumą.
-    * Pasirinkdami SF, kurios buvo sumokėtos, galite sumą palikti tuščią, kad ją apskaičiuotų sistema.  
-8. Lauke Mokėjimo nuoroda surinkite reikšmę.
-    * Mokėjimo nuoroda galėtų būti įvedamas mokėjimo čekio numeris. Mokėjimo nuorodos reikia tam, kad mokėjimą būtų galima įtraukti į depozito kvitą,  
-9. Pažymėkite langelį Naudoti depozito kvitą.
-    * Jei mokėjimas turėtų būti įtrauktas į depozitą, šią nuostatą pakeiskite į Taip.  
-10. Spustelėkite Naujas.
-11. Lauke Sąskaita pasirinkite kito mokėjimo klientą.
-12. Lauke Kreditas įveskite mokėjimo sumą.
-13. Lauke Mokėjimo nuoroda surinkite reikšmę.
-14. Pažymėkite langelį Naudoti depozito kvitą.
-15. Spustelėkite Registruoti.
-    * Prieš generuojant depozito kvitą, reikia registruoti mokėjimus. Tuo siekiama užtikrinti, kad, sugeneravus depozito kvitą, nepasikeistų mokėjimai.  
-16. Spustelėkite Funkcijos.
-17. Spustelėkite Depozito kvitas.
-18. Spustelėkite GERAI.
-    * Pirmasis puslapis naudojamas kurti depozito kvitui.  
-19. Spustelėkite GERAI.
-    * Antrasis veiksmas yra spausdinti depozito kvitą, tačiau šis veiksmas nebūtinas.  
+1. Eikite į **Naršymo sritis > Moduliai > Gautinos sumos > Mokėjimai > Mokėjimo žurnalas**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Pavadinimas** pasirinkite **CustPay** išplečiamajame meniu.
+4. Pasirinkite **Eilutės**.
+5. Lauke **Klientas** pasirinkite klientą, kuriam išrašote mokėjimą.
+6. Lauke **Kreditas** įveskite mokėjimo sumą. Pasirinkdami SF, kurios buvo sumokėtos, galite sumą palikti tuščią, kad ją apskaičiuotų sistema.  
+7. Lauke **Mokėjimo nuoroda** įveskite reikšmę. Mokėjimo nuoroda galėtų būti įvedamas mokėjimo čekio numeris. Mokėjimo nuorodos reikia tam, kad mokėjimą būtų galima įtraukti į depozito kvitą,  
+8. Pažymėkite langelį Naudoti depozito kvitą. Jei mokėjimas turėtų būti įtrauktas į depozitą, šią nuostatą pakeiskite į Taip.  
+9. Pasirinkite **Naujas**.
+10. Lauke **Klientas** pasirinkite klientą kitam mokėjimui.
+11. Lauke **Kreditas** įveskite mokėjimo sumą.
+12. Lauke **Mokėjimo nuoroda** įveskite reikšmę.
+13. Pažymėkite langelį **Naudoti depozito kvitą**.
+14. Pasirinkite **Registruoti**. Prieš generuojant depozito kvitą, reikia registruoti mokėjimus. Tuo siekiama užtikrinti, kad, sugeneravus depozito kvitą, nepasikeistų mokėjimai.  
+15. Pasirinkite **Funkcijos**.
+16. Pasirinkite **Depozito kvitas**.
+17. Pasirinkite **Gerai**. Pirmasis puslapis naudojamas kurti depozito kvitui.  
+18. Pasirinkite **Gerai**. Antrasis veiksmas yra spausdinti depozito kvitą, tačiau šis veiksmas nebūtinas.  
 

@@ -1,9 +1,9 @@
 ---
-title: Nustatyti ilgalaikio turto grupes
-description: Ši procedūra parodo, kaip sukurti naują ilgalaikio turto grupę.
+title: Ilgalaikio turto grupių nustatymas
+description: Šioje temoje paaiškinta, kaip sukurti naują ilgalaikio turto grupę.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,29 +16,26 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8f52b73c07aad1047d6e6e7caf80daecc9c26e7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 246502f66c0cfcd4b4ed3c4b9f2ae616e71a1c50
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839790"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867540"
 ---
-# <a name="set-up-fixed-asset-groups"></a>Nustatyti ilgalaikio turto grupes
+# <a name="set-up-fixed-asset-groups"></a>Ilgalaikio turto grupių nustatymas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra parodo, kaip sukurti naują ilgalaikio turto grupę. Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.
+Šioje temoje paaiškinta, kaip sukurti naują ilgalaikio turto grupę. Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.
 
-1. Pasirinkite Ilgalaikis turtas > Nustatymas > Ilgalaikio turto grupės.
-2. Spustelėkite Naujas.
-3. Lauke Ilgalaikio turto grupė surinkite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-    * Grupės Ilgalaikis turtas funkcijos Automatiškai numeruoti ilgalaikį turtą ir Numeracijos kodas bus viršesni už nuostatas ilgalaikio turto parametruose. Jei šios ilgalaikio turto grupės turtas bus numeruojamas kitaip nei kitose grupėse, čia numeravimą galite keisti.  
-5. Spustelėkite Knygos.
-6. Lauke Knyga įveskite arba pasirinkite reikšmę.
-    * Laukas Skaičiuoti nusidėvėjimą nustatytas į Taip, todėl turto knyga bus įtraukta į nusidėvėjimo pasiūlymus. Jei laukas Skaičiuoti nusidėvėjimą nustatytas į Ne, turtas nebus automatiškai nudėvimas.  
-7. Nustatykite turto dėvėjimo laiką metais.
-    * Atkreipkite dėmesį, kad lauko Nusidėvėjimo laikotarpiai reikšmė apskaičiuojama nustačius dėvėjimo laiką.  
-8. Lauke Nusidėvėjimo konvencija pasirinkite parinktį.
+1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Sąranka > Ilgalaikio turto grupės**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Ilgalaikio turto grupė** įveskite reikšmę.
+4. Lauke **Pavadinimas** įveskite reikšmę. **Ilgalaikio turto** grupės parinktys Automatiškai numeruoti ilgalaikį turtą ir Numeracijos kodas perrašys ilgalaikio turto parametrų nuostatas. Jei šios ilgalaikio turto grupės turtas bus numeruojamas kitaip nei kitose grupėse, čia numeravimą galite keisti.  
+5. Pasirinkite **Knygos**.
+6. Lauke **Knyga** įveskite arba pasirinkite reikšmę. Lauke **Skaičiuoti nusidėvėjimą** nustatyta reikšmė **Taip**, todėl turto knyga bus įtraukta į nusidėvėjimo pasiūlymus. Jei lauke **Skaičiuoti nusidėvėjimą** nustatyta reikšmė **Ne**, turtas automatiškai nebus laikomas nusidėvėjusiu.   
+7. Nustatykite turto dėvėjimo laiką metais. Atkreipkite dėmesį, kad lauko **Nusidėvėjimo laikotarpiai** reikšmė apskaičiuojama nustačius dėvėjimo laiką.  
+8. Lauke **Nusidėvėjimo konvencija** pažymėkite parinktį.
 9. Uždarykite puslapį.
 

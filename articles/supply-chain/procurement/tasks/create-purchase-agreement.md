@@ -1,9 +1,9 @@
 ---
-title: Kurti pirkimo sutartį
-description: Ši procedūra padės jums sukurti pirkimo sutartį.
+title: Pirkimo sutarties kūrimas
+description: Šioje temoje aprašoma, kaip kurti pirkimo sutartį.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,72 +16,59 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df74eaad51fc4ef28caf96e4bcdc7b03f7e6ec3b
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec792ca27bf0245ff25e59cfe28122f17caec7fc
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836369"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1866855"
 ---
-# <a name="create-a-purchase-agreement"></a>Kurti pirkimo sutartį
+# <a name="create-a-purchase-agreement"></a>Pirkimo sutarties kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra padės jums sukurti pirkimo sutartį. Paprastai tai atlieka pirkimo vadybininkas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami turite nustatyti pirkimo sutarčių klasifikacijas. Sukūrę sutartį, galėsite ją naudoti, kai sukursite PU – pirkimo sutarties sąlygos bus nukopijuotos į antraštę ir į visas užsakymo eilutes, susijusias su šia sutartimi.
+Šioje temoje aprašoma, kaip kurti pirkimo sutartį. Paprastai tai atlieka pirkimo vadybininkas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami turite nustatyti pirkimo sutarčių klasifikacijas. Sukūrę sutartį, galėsite ją naudoti, kai sukursite PU – pirkimo sutarties sąlygos bus nukopijuotos į antraštę ir į visas užsakymo eilutes, susijusias su šia sutartimi.
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Kurti naują pirkimo sutartį
-1. Pasirinkite Pirkimai ir tiekėjų parinkimas > Pirkimo sutartys > Pirkimo sutartys.
-2. Spustelėkite Naujas.
-3. Lauke Tiekėjo sąskaita spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Sąraše raskite ir pasirinkite norimą įrašą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Lauke „Pirkimo sutarties klasifikacija“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše raskite ir pasirinkite norimą įrašą.
-8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Išplėskite skyrių Bendra.
-10. Lauke „Galiojimo data“ įveskite datą.
-    * Ši galiojimo data bus numatytoji visose įsipareigojimų eilutėse ir nulems, kiek laiko galios kiekvienas konkretus įsipareigojimas.  
-11. Lauke „Dokumento pavadinimas“ įveskite pirkimo sutarties pavadinimą.
-    * Palikite lauką „Numatytasis įsipareigojimas“ nustatytą kaip „Produkto kiekio įsipareigojimas“ (arba pakeiskite jį, jei jo nustatymas kitas).  
-    * Numatytoji įsipareigojimo reikšmė nurodo jūsų parinktis sutarties eilutėse. Jei jums reikia naujo įsipareigojimo tipo kuriant sutarties eilutes, turite pakeisti numatytąjį įsipareigojimą antraštėje.  Yra 4 tipų įsipareigojimai: produkto kiekio įsipareigojimas – dėl konkretaus produkto kiekio; produkto vertės įsipareigojimas – dėl konkrečios produkto valiutos sumos; produkto kategorijos vertės įsipareigojimas – dėl konkrečios valiutos sumos įsigijimo kategorijoje, kurioje suma gali būti skirta kataloginei prekei arba nekataloginei prekei; vertės įsipareigojimas – dėl konkrečios valiutos sumos, kurią galima skirti bet kokiam produktui arba bet kokiai įsigijimo kategorijai.  
-12. Spustelėkite GERAI.
+1. Eikite į **Naršymo sritis > Moduliai > Įsigijimas ir išteklių paskirstymas > Pirkimo sutartys > Pirkimo sutartys**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Tiekėjo klientas** pažymėkite išskleidžiamąjį meniu, tada pažymėkite pageidaujamo įrašo eilutę.
+4. Lauke **Pirkimo sutarčių klasifikacija** pažymėkite išskleidžiamąjį meniu, tada pažymėkite pageidaujamo įrašo eilutę.
+5. Išplėskite **Bendra** FastTab.
+6. Lauke **Galiojimo data** įveskite datą.
+
+    - Ši galiojimo data bus numatytoji visose įsipareigojimų eilutėse ir nulems, kiek laiko galios kiekvienas konkretus įsipareigojimas.  
+
+7. Lauke **Dokumento pavadinimas** įveskite savo pirkimo sutarties pavadinimą.
+
+    - Palikite lauką **Numatytasis įsipareigojimas** nustatytą kaip **Produkto kiekio įsipareigojimas** (arba pakeiskite, jei nustatyta kitaip).  
+    - Numatytoji įsipareigojimo reikšmė nurodo jūsų parinktis sutarties eilutėse. Jei jums reikia naujo įsipareigojimo tipo kuriant sutarties eilutes, turite pakeisti numatytąjį įsipareigojimą antraštėje. Yra 4 tipų įsipareigojimai: **Produkto kiekio įsipareigojimas** – skirta konkrečiam produkto kiekiui, **Produkto vertės įsipareigojimas** – skirta konkrečiai produkto sumos valiutai, **Produkto kategorijos įsipareigojimas** – skirta konkrečios valiutos sumai įsigijimo kategorijoje, kurioje suma gali būti skirta katalogo elementui arba ne katalogo elementui, **Vertės įsipareigojimas** – skirta konkrečios valiutos sumai, kurią galima užpildyti naudojant produktą arba įsigijimo kategoriją.  
+
+8. Pasirinkite **Gerai**.
 
 ## <a name="add-a-commitment"></a>Įtraukti įsipareigojimą
-1. Spustelėkite Pridėti eilutę.
-2. Sąraše pažymėkite pasirinktą eilutę.
-3. Lauke Prekės numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-4. Pasirinkite produktą, prie kurio norite pridėti įsipareigojimą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Lauke Kiekis įveskite skaičių.
-    * Tai yra bendras kiekis, kurį susitarėte pirkti iš tiekėjo.  
-7. Lauke Vieneto kaina įveskite skaičių.
-8. Išplėskite skyrių Eilutės informacija.
-9. Nustatykite parinkties „Maksimaliai vykdoma“ reikšmę „Taip“.
-    * Parinktis „Maksimaliai vykdoma“ riboja įsipareigojimų naudojimą. Galite pirkti tik tokį kiekį, kuris nurodytas eilutės lauke „Kiekis“.  
-10. Sutraukite skyrių „Eilutės informacija“.
+1. Pasirinkite **Pridėti eilutę**.
+2. Lauke **Elemento numeris** išplečiamajame meniu pasirinkite norimą įrašą.
+3. Lauke **Kiekis** įveskite skaičių. Tai yra bendras kiekis, kurį susitarėte pirkti iš tiekėjo.  
+4. Lauke **Vieneto kaina** įveskite skaičių.
+5. Išplėskite skyrių **Eilutės informacija** section.
+6. Parinktį **Maksimaliai vykdoma** nustatykite į **Taip**. Parinktis **Maksimaliai vykdoma** apriboja įsipareigojimų naudojimą. Galite pirkti iki kiekio, kuris nurodytas eilutės lauke **Kiekis**.  
 
 ## <a name="add-header-conditions"></a>Įtraukti antraštės sąlygas
-1. Veiksmų srityje spustelėkite Parinktys.
-2. Spustelėkite Keisti rodinį.
-3. Spustelėkite antraštės rodinį.
-4. Išplėskite skyrių Sąlygos.
-5. Lauke Mokėjimo būdas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Čia pagal numatytuosius nustatymus rodomos mokėjimo sąlygos iš tiekėjo sąskaitos.       
-6. Sąraše raskite ir pasirinkite norimą įrašą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Lauke „Pristatymo būdas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-9. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-10. Lauke „Pristatymo sąlygos“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-11. Sąraše spustelėkite saitą pasirinktoje eilutėje.
+1. Veiksmų srityje pasirinkite**Parinktys**.
+2. Pasirinkite **Keisti rodinį**.
+3. Pasirinkite **Antraštės rodinys**.
+4. Išplėskite skyrių **Sąlygos**.
+5. Lauke **Mokėjimo metodas** išplečiamajame meniu pažymėkite pageidaujamą įrašą. Čia pagal numatytuosius nustatymus rodomos mokėjimo sąlygos iš tiekėjo sąskaitos.  
+6. Lauke **Pristatymo režimas** išplečiamajame meniu pažymėkite pageidaujamą įrašą.
+7. Lauke **Pristatymo sąlygos** pažymėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 
 ## <a name="confirm-and-activate-the-agreement"></a>Patvirtinti ir aktyvinti sutartį
-1. Veiksmų srityje spustelėkite „Pardavimo sutartis“.
-2. Spustelėkite „Patvirtinimas“.
-    * Nustatykite parinkties „Pažymėti sutartį kaip galiojančią“ reikšmę „Taip“.  
-3. Spustelėkite Gerai.
-4. Veiksmų srityje spustelėkite „Pardavimo sutartis“.
-5. Spustelėkite „Pirkimo sutarties patvirtinimai“.
-    * Parinktis „Peržiūrėti / spausdinti“ leidžia generuoti pirkimo sutarties dokumentą, kurį paskui galite atspausdinti arba nusiųsti tiekėjui. Jei vėliau sutartį atnaujinsite ir iš naujo patvirtinsite, abi jos versijos bus rodomas čia.  
+1. Veiksmų srityje pasirinkite **Pirkimo sutartis**.
+2. Pasirinkite **Patvirtinimas**. Nustatykite parinktį **Pažymėti sutartį kaip galiojančią** į **Taip**.  
+3. Pasirinkite **Gerai**.
+4. Veiksmų srityje pasirinkite **Pirkimo sutartis**.
+5. Pasirinkite **Pirkimo sutarties patvirtinimai**. Parinktis **Peržiūrėti / spausdinti** leidžia generuoti pirkimo sutarties dokumentą, kurį galite spausdinti arba siųsti tiekėjui. Jei vėliau sutartį atnaujinsite ir iš naujo patvirtinsite, abi jos versijos bus rodomas čia.  
 6. Uždarykite puslapį.
 

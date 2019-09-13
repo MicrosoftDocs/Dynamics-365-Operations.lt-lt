@@ -1,9 +1,9 @@
 ---
-title: Skaidyti ilgalaikį turtą
-description: Šis užduočių vadovas išskaidys vienos turto knygos procentinę dalį naujai turto knygai.
+title: Ilgalaikio turto skaidymas
+description: Šioje temoje paaiškinta, kaip vienos turto knygos procentinę dalį padalinti naujai turto knygai.
 author: saraschi2
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,46 +16,47 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d8e5fdc8a7b326daca1fc0f0962c69bb8fb1ff64
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: a4e001a6fdf390c6211ba85aa327b60dcdf16d9e
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1839718"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867588"
 ---
-# <a name="split-a-fixed-asset"></a>Skaidyti ilgalaikį turtą
+# <a name="split-a-fixed-asset"></a>Ilgalaikio turto skaidymas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šis užduočių vadovas išskaidys vienos turto knygos procentinę dalį naujai turto knygai.  Jis naudoja vaidmenį Buhalteris ir USMF demonstracinius duomenis.
+Šioje temoje paaiškinta, kaip vienos turto knygos procentinę dalį padalinti naujai turto knygai. Jis naudoja vaidmenį Buhalteris ir USMF demonstracinius duomenis.
 
 
 ## <a name="create-a-new-fixed-asset"></a>Kurti naują ilgalaikį turtą
-1. Eikite į dalį Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas.
-2. Spustelėkite Naujas.
-3. Lauke Ilgalaikio turto grupė įveskite arba pasirinkite reikšmę.
-4. Pasižymėkite ilgalaikio turto numerį, kuris bus vėliau naudojamas skaidymo procese.
-5. Lauke Pavadinimas surinkite reikšmę.
-6. Uždarykite formą.
+1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Ilgalaikio turto grupė** įveskite arba pasirinkite reikšmę. Pasižymėkite ilgalaikio turto numerį, kuris bus vėliau naudojamas skaidymo procese.  
+4. Lauke **Pavadinimas** įveskite reikšmę.
+5. Uždarykite formą.
 
-## <a name="split-a-fixed-asset"></a>Skaidyti ilgalaikį turtą
-1. Sąraše raskite ir pasirinkite skaidytiną ilgalaikį turtą.
-2. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-3. Spustelėkite Knygos.
-    * Pasirinkite, kurią knygą padalinti naujajam turtui.  
-4. Spustelėkite Funkcijos.
-5. Spustelėkite Skaidyti ilgalaikį turtą.
-6. Lauke Į ilgalaikį turtą įveskite arba pasirinkite reikšmę.
-7. Lauke Į knygą spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-8. Lauke Operacijos data įveskite datą.
-9. Lauke Procentas įveskite skaičių.
-10. Lauke Žurnalo pavadinimas įveskite arba pasirinkite reikšmę.
-11. Spustelėkite GERAI.
+## <a name="split-a-fixed-asset"></a>Ilgalaikio turto skaidymas
+1. Sąraše raskite ir pasirinkite ilgalaikio turto, kurį norite skaidyti, nuorodą.
+2. Pasirinkite **Knygos**. Pasirinkite, kurią knygą padalinti naujajam turtui.  
+3. Pasirinkite **Funkcijos**.
+4. Pasirinkite **Skaidyti ilgalaikį turtą**.
+5. Lauke **Į ilgalaikį turtą** įveskite arba pasirinkite reikšmę.
+6. Lauke **Į knygą** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+7. Lauke **Operacijos data** įveskite datą.
+8. Lauke **Procentas** įveskite skaičių.
+9. Lauke **Žurnalo pavadinimas** įveskite arba pasirinkite reikšmę.
+10. Pasirinkite **Gerai**.
 
 ## <a name="post-the-journal-transaction"></a>Registruoti žurnalo operaciją
-1. Eikite į Ilgalaikis turtas > Žurnalo įrašai > Ilgalaikio turto žurnalas.
+1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Žurnalo įrašai > Ilgalaikio turto žurnalas**.
 2. Sąraše pasirinkite žurnalą, sukurtą skaidymo procesu.
-3. Spustelėkite Eilutės.
-    * Patikrinkite sukurtas žurnalo eilutes.  Sukuriama pradinio turto įsigijimo koregavimo operacija, kad būtų galima sumažinti reikšmę procentine dalimi, nurodyta skaidymo proceso metu.  Sukuriama tos pačios sumos naujojo turto įsigijimo operacija.  
-4. Spustelėkite Registruoti.
+3. Pasirinkite **Eilutės**.
+
+    - Patikrinkite sukurtas žurnalo eilutes.  
+    - Sukuriama pradinio turto įsigijimo koregavimo operacija, kad būtų galima sumažinti reikšmę procentine dalimi, nurodyta skaidymo proceso metu.  
+    - Sukuriama tos pačios sumos naujojo turto įsigijimo operacija.  
+
+4. Pasirinkite **Registruoti**.
 

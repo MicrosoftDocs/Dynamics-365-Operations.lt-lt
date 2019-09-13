@@ -1,9 +1,9 @@
 ---
 title: Iš anksto nustatytų produkto variantų produkto numerių nomenklatūros kūrimas
-description: Šiame vadove parodoma, kaip nustatyti iš anksto nustatytų produkto variantų produkto numerių nomenklatūrą ir kaip ją priskirti atitinkamai produkto dimensijų grupei.
+description: Šioje temoje aiškinama, kaip nustatyti iš anksto nustatytų produkto variantų produkto numerio nomenklatūrą ir kaip ją priskirti tinkamai produkto matmenų grupei.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/20/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,45 +16,45 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a2e61fd99cb80a1a9cc3d8e985fb0f14e3c2fc2
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5cf0efeac2851e6ead6fc5e15a016370dfa620bc
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844686"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914912"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Iš anksto nustatytų produkto variantų produkto numerių nomenklatūros kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šiame vadove parodoma, kaip nustatyti iš anksto nustatytų produkto variantų produkto numerių nomenklatūrą ir kaip ją priskirti atitinkamai produkto dimensijų grupei. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Nauja produkto numerių nomenklatūra yra priskiriama produkto dimensijų grupėms Spalva ir Dydis. Paprastai šią užduotį atlieka produkto kūrėjas.
+Šioje temoje aiškinama, kaip nustatyti iš anksto nustatytų produkto variantų produkto numerio nomenklatūrą ir kaip ją priskirti tinkamai produkto matmenų grupei. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF. Nauja produkto numerių nomenklatūra yra priskiriama produkto dimensijų grupėms Spalva ir Dydis. Paprastai šią užduotį atlieka produkto kūrėjas.
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Produkto numerių nomenklatūros kūrimas
-1. Spustelėkite Produkto varianto modelio aprašą.
-2. Spustelėkite Produkto nomenklatūra.
-3. Spustelėkite Naujas.
-4. Lauke Pavadinimas įveskite nomenklatūros pavadinimą, kuris padeda nustatyti tikslinę produkto dimensijų grupę, pavyzdžiui, ColorSize.
-5. Lauke Aprašas įveskite reikšmę.
-6. Spustelėkite Pridėti.
-7. Spustelėkite Bendrojo produkto numeris.
-8. Spustelėkite Pridėti.
-9. Spustelėkite Teksto konstanta.
-10. Lauke „Tekstas“ įveskite reikšmę.
-11. Spustelėkite Pridėti.
-12. Spustelėkite Spalva.
-13. Spustelėkite Pridėti.
-14. Spustelėkite Teksto konstanta.
-15. Lauke „Tekstas“ įveskite reikšmę.
-16. Spustelėkite Pridėti.
-17. Spustelėkite Dydis.
+1. Pažymėkite **Produkto varianto modelio aprašas**.
+2. Pažymėkite **Produkto nomenklatūra**.
+3. Pasirinkite **Naujas**.
+4. Lauke **Pavadinimas** įveskite nomenklatūros pavadinimą, kuris padės identifikuoti tikslinę produkto matmenų grupę, pavyzdžiui, `ColorSize`.
+5. Lauke **Aprašo laukas**surinkite reikšmę.
+6. Pasirinkite **Įtraukti**.
+7. Pažymėkite **Produkto pagrindinį** numerį.
+8. Pasirinkite **Įtraukti**.
+9. Pažymėkite **Teksto konstanta**.
+10. Lauke **Tekstas** įveskite reikšmę.
+11. Pasirinkite **Įtraukti**.
+12. Pažymėkite **Spalva**.
+13. Pasirinkite **Įtraukti**.
+14. Pažymėkite **Teksto konstanta**.
+15. Lauke **Tekstas** įveskite reikšmę.
+16. Pasirinkite **Įtraukti**.
+17. Pažymėkite **Dydis**.
 18. Uždarykite puslapį.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>Nomenklatūros priskyrimas bendrajam produktui
-1. Spustelėkite Produkto dimensijų grupės.
-2. Pasirinkite produkto dimensijų grupę SizeCol.
-3. Spustelėkite Redaguoti.
-4. Lauke Naudoti nomenklatūrą pasirinkite Taip.
-5. Lauke Produkto varianto numerių nomenklatūra įveskite arba pasirinkite reikšmę.
+1. Pažymėkite **Produkto matmenų grupės**.
+2. Pažymėkite grupę **SizeCol produkto matmuo**.
+3. Pasirinkite **Redaguoti**.
+4. Pažymėkite **Taip** lauke **Naudoti nomenklatūrą**.
+5. Lauke **Produkto varianto numerio nomenklatūra** įveskite arba pažymėkite reikšmę.
 6. Uždarykite puslapį.
 

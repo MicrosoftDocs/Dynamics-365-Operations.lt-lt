@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
-ms.date: 07/30/2019
+ms.date: 08/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c8cc578ce2f8928fcdbe0210c9151e8979bc2e9
-ms.sourcegitcommit: 299e20b59ebefa584ed46a13da3f1a7ff709e43c
+ms.openlocfilehash: 4aad4f2cf42b72256b5c4727bfd145d16af033ed
+ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1863388"
+ms.lasthandoff: 08/08/2019
+ms.locfileid: "1867106"
 ---
 # <a name="removed-or-deprecated-features"></a>Pašalintos arba nebenaudojamos funkcijos
 
@@ -157,6 +157,17 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Nerekomenduojama. Naujinime „Platform Update 26“ įspėjimas bus pakeistas į kompiliavimo klaidą. |
+
+## <a name="dynamics-365-for-finance-and-operations-1000-with-platform-update-24"></a>„Dynamics 365 for Finance and Operations“ 10.0.0 su 24 platformos naujinimu
+
+### <a name="renaming-released-products"></a>Išleistų produktų pervardijimas 
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Kai naudojate funkciją **Pervadinti pirminį raktą**, kad pakeistumėte išleisto produkto „ItemId“, atnaujinamos tik tiesioginės išorinio rakto nuorodos. Visos kitos išleisto produkto nuorodos, pvz., iš gamybos užsakymų, išlaikys seną „ItemId“. Dėl to duomenys gali būti nenuoseklūs, o tai ilgainiui gali blokuoti verslo procesus. |
+| **Pakeitė kita funkcija?**   | Nr. |
+| **Paveiktos produkto sritys**         | Produkto informacijos valdymas |
+| **Visuotinio diegimo parinktis**              | Visos  |
+| **Būsena**                         | Pašalinta pradedant nuo „Dynamics 365 for Finance and Operations“ 10.0.0 versijos su 24 platformos naujiniu. Išskirtiniais atvejais, pvz., kai norima atkurti ankstesnį išleisto produkto pirminio rakto pervardijimą, galima prašyti, kad „Microsoft“ laikinai pašalintų šį išleistų produktų pirminio rakto pervardijimo operacijos apribojimą. |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>„Dynamics 365 for Finance and Operations“ 8.1.3 su 23 platformos naujinimu

@@ -1,9 +1,9 @@
 ---
 title: Neatitikimo valdymo būtinųjų sąlygų nustatymas
-description: Naudokite šią procedūrą, kad įgalintumėte neatitikčių valdymo procesus.
+description: Šioje temoje paaiškinta, kaip įgalinti neatitikimo valdymo procesus.
 author: perlynne
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/19/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,89 +17,66 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9094be37e44b978db224b16c255d04a36c5cefff
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 78d38b00d8039612aa236b3aa9593693983407dc
+ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845341"
+ms.lasthandoff: 08/21/2019
+ms.locfileid: "1914727"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Neatitikimo valdymo būtinųjų sąlygų nustatymas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Naudokite šią procedūrą, kad įgalintumėte neatitikčių valdymo procesus. Neatitiktyje apibūdinama procedūra arba prekė, kuri turi kokybės problemų, aprašomojoje informacijoje pateiktas problemos šaltinis ir tipas. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF. Šią procedūrą paprastai atlieka kokybės vadovas.
+Šioje temoje paaiškinta, kaip įgalinti neatitikimo valdymo procesus. Neatitiktyje apibūdinama procedūra arba prekė, kuri turi kokybės problemų, aprašomojoje informacijoje pateiktas problemos šaltinis ir tipas. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF. Šią procedūrą paprastai atlieka kokybės vadovas.
 
 
 ## <a name="enable-quality-management-processes-within-the-company"></a>Kokybės valdymo procesų įmonėje įgalinimas
-1. Pasirinkite Atsargų valdymas > Nustatymas > Atsargų ir sandėlio valdymo parametrai.
-2. Spustelėkite skirtuką Kokybės valdymas.
-3. Lauke Naudoti kokybės valdymą pasirinkite Taip.
-    * Pasirinkite šį parametrą, kad įgalintumėte įmonės kokybės valdymo procesus.  
-4. Lauke Valandinis tarifas įveskite skaičių.
-    * Naudokite lauką Valandinis tarifas, kad įvestumėte valandinį darbo tarifą vietine valiuta. Valandinis tarifas naudojamas apskaičiuojant su neatitikimu susijusias operacijų išlaidas. Valandinis tarifas ir apskaičiuotos išlaidos suteikia nuorodos informacijos apie neatitiktį ir nesąveikauja su kitomis funkcijomis.  
-5. Spustelėkite Ataskaitų sąranka.
-    * Šiame puslapyje galima apibrėžti kokybės ataskaitų pastabų tipus, kurie bus naudojami įvairių rūšių kokybės valdymo ataskaitose.  
-6. Uždarykite puslapį.
-7. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Atsargų ir sandėlio valdymo parametrai**.
+2. Pasirinkite skirtuką **Kokybės valdymas**.
+3. Lauke **Naudoti kokybės valdymą** pasirinkite **Taip**, kad įgalintumėte įmonės kokybės valdymo procesus.
+4. Lauke **Valandinis tarifas** įveskite vietine valiuta išreikštą skaičių. Valandinis tarifas naudojamas apskaičiuojant su neatitikimu susijusias operacijų išlaidas. Valandinis tarifas ir apskaičiuotos išlaidos suteikia nuorodos informacijos apie neatitiktį ir nesąveikauja su kitomis funkcijomis.  
+5. Pasirinkite **Ataskaitos sąranka**, kad nustatytumėte kokybės ataskaitų pastabų tipus, kurie bus naudojami skirtingose kokybės valdymo ataskaitose.
 
 ## <a name="enable-user-for-nonconformance-processing"></a>Leidimas vartotojui apdoroti neatitiktis
-1. Pasirinkite Sistemos administravimas > Vartotojai > Vartotojai.
-    * Norint apdoroti neatitikties patvirtinimą, neatitiktis patvirtinusiam ar atmetusiam vartotojui puslapyje Vartotojai turi būti priskirta reikšmė Pavadinimas. Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.  
-2. Norėdami rasti įrašus, naudokite spartųjį filtrą. Pvz., filtruokite lauką Pavadinimas reikšme „Ricardo‟.
-    * Naudokite filtrą, kad rastumėte vartotoją, kuris tvirtins arba atmes neatitikimo įrašus.  
-3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Norėdami apdoroti neatitikties patvirtinimą, pasirūpinkite, kad neatitiktis patvirtinusiam ar atmetusiam vartotojui puslapyje Vartotojai būtų priskirta reikšmė Pavadinimas.  
-4. Spustelėkite Vartotojo parinktys.
-5. Spustelėkite skirtuką Nuostatos.
-6. Lauke Įgalinti dokumentų tvarkymą pasirinkite Taip.
-    * Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.  
-7. Uždarykite puslapį.
-8. Uždarykite puslapį.
-9. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Sistemos administravimas > Vartotojai > Vartotojai**. 
+2. Naudodami spartųjį filtrą raskite vartotoją, kuris tvirtins arba atmes neatitikimo įrašus. Pavyzdžiui, filtruokite lauką **Vardas** pagal reikšmę `Ricardo`. Kad būtų galima apdoroti neatitikimo patvirtinimą, vartotojui, kuris tvirtina arba atmeta neatitikimus, puslapyje **Vartotojai** turi būti priskirta reikšmė „Vardas“. Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.  
+3. Pažymėkite pageidaujamo įrašo eilutę.
+4. Pasirinkite **Vartotojo parinktys**.
+5. Pasirinkti skirtuką **Nuostatos**.
+6. Lauke **Įgalinti dokumentų tvarkymą** pasirinkite **Taip**.
 
 ## <a name="define-diagnostic-types-for-nonconformance-processing"></a>Neatitikčių apdorojimo diagnostikos tipų apibrėžimas
-1. Pasirinkite Atsargų valdymas > Nustatymas > Kokybės valdymas > Diagnostikos tipai.
-    * Naudodami puslapį Diagnozės tipai nurodykite diagnostikos veiksmų klasifikaciją. Koregavimu identifikuojama, kurio diagnostinio veiksmo turi būti imtasi, atsiradus patvirtintai neatitikčiai, kas turėtų jį atlikti bei pageidaujamą ir planuojamą baigimo datą.  
-2. Spustelėkite Naujas.
-3. Lauke Diagnostikos įveskite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Diagnozės tipai**. Naudodami puslapį **Diagnozės tipai** nurodykite diagnostikos veiksmų klasifikaciją. Koregavimu identifikuojama, kurio diagnostinio veiksmo turi būti imtasi, atsiradus patvirtintai neatitikčiai, kas turėtų jį atlikti bei pageidaujamą ir planuojamą baigimo datą.  
+2. Pasirinkite **Naujas**.
+3. Lauke **Diagnostika** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
 
 ## <a name="define-quality-charges-for-nonconformance-processing"></a>Neatitikčių apdorojimo kokybės išlaidų apibrėžimas
-1. Pasirinkite Atsargų valdymas > Nustatymas > Kokybės valdymas > Kokybės išlaidos.
-    * Naudokite puslapį Kokybės išlaidos, kad apibrėžtumėte išlaidų, kurios bus naudojamos su neatitiktimis susijusiose operacijose, klasifikaciją.  
-2. Spustelėkite Naujas.
-3. Lauke Išlaidų kodas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Kokybės išlaidos**. Norėdami nustatyti išlaidų klasifikaciją, kuri bus naudojama su neatitikimais susijusiose operacijose, naudokite puslapį **Kokybės išlaidos**.  
+2. Pasirinkite **Naujas**.
+3. Lauke **Kokybės išlaidos** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
 
 ## <a name="define-the-operations-for-nonconformance-processing"></a>Neatitikčių apdorojimo operacijų apibrėžimas
-1. Pasirinkite Atsargų valdymas > Nustatymas > Kokybės valdymas > Operacijos.
-    * Norėdami nurodyti darbų, kurie gali būti atlikti atsiradus patvirtintai neatitikčiai, klasifikaciją, naudokite puslapį Operacijos. Susiję operaciją su neatitiktimi galite nurodyti informaciją apie susijusią medžiagą, darbo valandas ir papildomas išlaidas, būtinas atliekant operaciją. Šia informacija bus remiamasi skaičiuojant operacijos atlikimo numatytas išlaidas.  
-2. Spustelėkite Naujas.
-3. Lauke Operacija įveskite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Operacijos**. Norėdami nustatyti darbo, kuris gali būti atliekamas dėl patvirtinto neatitikimo, klasifikaciją, naudokite puslapį **Operacijos**. Susiję operaciją su neatitiktimi galite nurodyti informaciją apie susijusią medžiagą, darbo valandas ir papildomas išlaidas, būtinas atliekant operaciją. Šia informacija bus remiamasi skaičiuojant operacijos atlikimo numatytas išlaidas.  
+2. Pasirinkite **Naujas**.
+3. Lauke **Operacija** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
 
 ## <a name="define-problem-types-for-nonconformance-processing"></a>Neatitikčių apdorojimo problemų tipų apibrėžimas
-1. Pasirinkite Atsargų valdymas > Nustatymas > Kokybės valdymas > Problemų tipai.
-    * Naudodami puslapį Problemų tipai apibrėžkite kokybės problemų, su kuriomis susiduriama įvairiuose neatitikimo tipuose, klasifikaciją. Neatitikčių tipai – tai Vidinis, Kliento, Tiekėjo, Aptarnavimo užklausos, Gamybos ir Sudėtinio produkto gamybos. Vieną problemos tipą galima susieti su keliais neatitikčių tipais.  
-2. Spustelėkite Naujas.
-3. Lauke Problemos tipas įveskite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Spustelėkite Neatitikčių tipai.
-    * Naudokite puslapį Neatitikčių tipai, kur galite leisti priskirti problemos tipą vienam ar keliems neatitikčių tipams. Pavyzdžiui, problemos, susijusios su defekto kodu, tipas gali būti taikomas visiems neatitikimų tipams, tuo tarpu problemos, susijusios su klientų skundais, tipas gali būti taikomas tik klientų ir aptarnavimo užklausų neatitikimų tipams.  
-6. Spustelėkite Naujas.
-7. Sąraše pažymėkite pasirinktą eilutę.
-8. Lauke Neatitikties tipas pasirinkite parinktį.
-9. Uždarykite puslapį.
-10. Uždarykite puslapį.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Problemų tipai**. Norėdami nustatyti kokybės problemų, su kuriomis susiduriama esant įvairių tipų neatitikimams, klasifikaciją, naudokite puslapį **Problemų tipai**. Neatitikimų tipai gali būti: **Vidaus**, **Klientas**, **Tiekėjas**, **Aptarnavimo užklausa**, **Gamyba** ir **Sudėtinio produkto gamyba**. Vieną problemos tipą galima susieti su keliais neatitikčių tipais.  
+2. Pasirinkite **Naujas**.
+3. Lauke **Problemos tipas** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Pasirinkite **Neatitikimų tipai**. Naudokite puslapį **Neatitikimų tipai**, kad problemos tipą leistumėte naudoti vienam arba daugiau neatitikimų tipų. Pavyzdžiui, problemos, susijusios su defekto kodu, tipas gali būti taikomas visiems neatitikimų tipams, tuo tarpu problemos, susijusios su klientų skundais, tipas gali būti taikomas tik klientų ir aptarnavimo užklausų neatitikimų tipams.  
+6. Pasirinkite **Naujas**.
+7. Naujos eilutės lauke **Neatitikimo tipas** pasirinkite parinktį.
 
 ## <a name="define-quarantine-zones-for-nonconformance-processing"></a>Neatitikčių apdorojimo sulaikymo zonų apibrėžimas
-1. Pasirinkite Atsargų valdymas > Nustatymas > Kokybės valdymas > Sulaikymo zonos.
-2. Spustelėkite Naujas.
-3. Lauke Sulaikymo zona įveskite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Sulaikymo zonos**.
+2. Pasirinkite **Naujas**.
+3. Lauke **Sulaikymo zona** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
 5. Uždarykite puslapį.
 

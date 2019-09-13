@@ -3,7 +3,7 @@ title: Konfigūruoti adresų knygeles
 description: Norėdami savo organizacijai nustatyti papildomų agresų knygelių, naudokite šią procedūrą, ir sprendimus, kuriuos priėmėte temoje Visuotinės adresų knygelės konfigūracijos planavimas ir papildomos adresų knygelės.
 author: kfend
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae7d30cbc5836c47b4a68e27a7af05bd82956f70
-ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
+ms.openlocfilehash: f8ffba13b4a025f39b7ca26206b93a4bb646bac5
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1851900"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916696"
 ---
 # <a name="configure-address-books"></a>Konfigūruoti adresų knygeles
 
@@ -32,13 +32,13 @@ Norėdami savo organizacijai nustatyti papildomų agresų knygelių, naudokite �
 Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši įrašas skirtas planavimo ir konfigūracijos komandos nariams.
 
 
-## <a name="configure-address-books"></a>Konfigūruoti adresų knygeles
-1. Eikite į Organizacijos administravimas > Visuotinė adresų knygelė > Adresų knygelės.
-2. Spustelėkite Naujas.
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Spustelėkite Įrašyti.
+## <a name="configure-address-books"></a>Adresų knygelių konfigūravimas
+1. **Naršymo sritis** eikite į **Moduliai > Organizacijos administravimas > Visuotinė adresų knygelė > Adresų knygelės**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Pavadinimas** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Spustelėkite **Įrašyti**.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 7. Spustelėkite rodyklę ir į adresų knygelę įtraukite pasirinktas galimas komandas.
-8. Spustelėkite Įrašyti.
+8. Spustelėkite **Įrašyti**.
 

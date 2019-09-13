@@ -1,9 +1,9 @@
 ---
-title: Pirkimo strategijos
+title: Pirkimo strategijų apžvalga
 description: Šiame straipsnyje pateikta informacija apie pirkimo strategijas. Pirkimo strategija yra taisyklių rinkinys, valdantis paraiškos procesą. Pirkimo strategijos padeda įsigijimo administratoriams įgyvendinti įsigijimo strategiją sukuriant strategijos struktūrą, suderintą su organizacijos strateginio pirkimo reikalavimais.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a16f365fa5a8b39dddac2886c36a8231de745a37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7d0b925f7a6eff9f2e5b479e3a1c6adc18354383
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1566345"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865261"
 ---
-# <a name="purchasing-policies"></a>Pirkimo strategijos
+# <a name="purchasing-policies-overview"></a>Pirkimo strategijų apžvalga
 
 [!include [banner](../includes/banner.md)]
 

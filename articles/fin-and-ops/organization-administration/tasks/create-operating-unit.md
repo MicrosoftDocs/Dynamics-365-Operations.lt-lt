@@ -3,7 +3,7 @@ title: Valdymo vieneto kūrimas
 description: Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams valdyti ir verslo veiklos procesams skirstyti.
 author: sericks007
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 08/14/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef03329cfe477256cfbe1dde1dc18df52137286f
-ms.sourcegitcommit: cb63259ad8fa5649ff12bc4a7f195bd1e40bd968
+ms.openlocfilehash: 164b347e1c929f60762793799a500a7203f0f72f
+ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755574"
+ms.lasthandoff: 08/14/2019
+ms.locfileid: "1874908"
 ---
 # <a name="create-an-operating-unit"></a>Valdymo vieneto kūrimas
 
@@ -40,5 +40,5 @@ Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams v
     + Įveskite adreso informaciją, pvz., gatvės pavadinimą ir numerį, pašto kodą ir miestą. Spustelėkite **Įtraukti**, kad įvestumėte naują adreso įrašą, arba spustelėkite „Redaguoti“, kad modifikuotumėte esamą adreso įrašą.   
     + Jei reikia, išplėskite skyrių **Kontaktinė informacija**.  
     + Įveskite informaciją apie komunikacijos priemones, pvz., elektroninio pašto adresus, URL ir telefono numerius. Norėdami įvesti naują komunikacijos įrašą, spustelėkite „Naujas“. Norėdami modifikuoti esamą komunikacijos įrašą, spustelėkite **Daugiau parinkčių > Išplėstiniai nustatymai**.   
-6. Spustelėkite **Įrašyti**.
-
+6. Arba, jei reikia, pakeiskite **Valdymo vieneto numeris**. Atkreipkite dėmesį, kad šis numeris yra atitinkamos **Šalies** unikalus identifikatorius ir negali būti toks pats, kaip bet kuris kitas valdymo vienetas.
+7. Pasirinkite **Įrašyti**.

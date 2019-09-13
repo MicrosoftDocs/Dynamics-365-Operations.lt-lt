@@ -1,9 +1,9 @@
 ---
-title: Duomenų importavimo ir eksportavimo užduotys
+title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 07/19/2019
+ms.date: 08/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b16966fe1c3a48d772c7c9982f8802119675255f
-ms.sourcegitcommit: d0fa8d0140fa81029527edb317623c1a7737c593
+ms.openlocfilehash: cbd8d305920262ed48c62f13aa86f903a6b16d0a
+ms.sourcegitcommit: e552111e148a80544a3468da60ea0464f02a658d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2019
-ms.locfileid: "1862909"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "1875325"
 ---
-# <a name="data-import-and-export-jobs"></a>Duomenų importavimo ir eksportavimo užduotys
+# <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
@@ -184,7 +184,7 @@ Užduočių retrospektyvos valymo funkcija duomenų valdyme turi būti naudojama
 
 -   DMF aprašo grupės vykdymas
 
-Funkciją galima pasiekti per **„Duomenų tvarkymas“ \>„Užduoties retrospektyvos valymas“**.
+Turite įjungti šią funkciją per funkcijų valdymą ir tada galite ją pasiekti per **Duomenų valdymas \> Užduoties retrospektyvos valymas**.
 
 ### <a name="scheduling-parameters"></a>Planavimo parametrai
 
@@ -196,4 +196,4 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 
     Maksimalų įvykdymo laiką galima nurodyti nustatant maksimalią valandų skaičiaus ribą, per kurią užduotis turi būti vykdoma naudojant šį parametrą. Valymo logika vienu metu remiasi vienos užduoties vykdymo ID chronologine tvarka išdėstyta seka, kur seniausia užduotis yra pirmoji susijusios vykdymo retrospektyvos valymui. Ji nustos rinkti naujo vykdymo ID valymui, kai likusi vykdymo trukmė yra nurodytos trukmės paskutiniuose 10 %. Kai kuriais atvejais tikimasi, kad valymo užduotis tęsis ilgiau nei nurodytas maksimalus laikas. Tai daugiausia priklausys nuo dabartinio vykdymo ID, kuris buvo pradėtas prieš 10% slenkstį, įrašų, kuriuos reikia panaikinti, skaičiaus. Pradėtas išvalymas turi būti užbaigtas siekiant užtikrinti duomenų vientisumą, o tai reiškia, kad išvalymas tęsis nepaisant nurodyto limito viršijimo. Kai valymas bus baigtas, naujas vykdymo ID neįtraukiamas ir valymo užduotis yra baigiama. Likusi vykdymo istorija, kuri nebuvo išvalyta dėl pakankamo vykdymo laiko trūkumo, bus įtraukta į kitą valymo užduoties planuojamą kartą. Numatytoji ir minimali šio parametro reikšmė nustatyta kaip 2 valandos.
 
--   **„Pasikartojantis paketas“** – valymo užduotį galima vykdyti vieną kartą rankiniu būdu, arba ji taip pat gali būti suplanuota pasikartojančiam vykdymui pakete. Paketas gali būti planuojamas naudojant standartinį paketo nustatymo parametrą **Run in background**.
+-   **„Pasikartojantis paketas“** – valymo užduotį galima vykdyti vieną kartą rankiniu būdu, arba ji taip pat gali būti suplanuota pasikartojančiam vykdymui pakete. Paketas gali būti planuojamas naudojant **Vykdyti fone** parametrus, tai yra standartinis paketo nustatymas.

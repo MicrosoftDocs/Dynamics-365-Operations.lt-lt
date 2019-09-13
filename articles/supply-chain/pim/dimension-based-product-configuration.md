@@ -1,9 +1,9 @@
 ---
-title: Produktų konfigūravimas pagal dimensijas
+title: Produkto konfigūravimo pagal dimensijas apžvalga
 description: Produktų konfigūravimas pagal dimensijas nurodo paprastą sprendimą norint kurti daug produkto variantų iš vieno bendrojo produkto ir jo KS.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eb2690ec5296f65430268a211108551348a4a060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ca7e5555a242c10d2268182ed440e686a1dc46ad
+ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555959"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "1865357"
 ---
-# <a name="dimension-based-product-configuration"></a>Produktų konfigūravimas pagal dimensijas
+# <a name="dimension-based-product-configuration-overview"></a>Produkto konfigūravimo pagal dimensijas apžvalga
 
 [!include [banner](../includes/banner.md)]
 

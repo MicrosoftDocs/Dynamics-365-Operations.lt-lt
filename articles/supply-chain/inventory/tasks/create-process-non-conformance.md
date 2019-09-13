@@ -1,9 +1,9 @@
 ---
-title: Kurti ir apdoroti atitiktis
-description: Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą.
+title: Atitikimo kūrimas ir apdorojimas
+description: Šioje temoje aiškinama, kaip vykdyti neatitikimo valdymą remiantis esamu kokybės užsakymu.
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/07/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,54 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4e9cf42f80ef7a4c9c5f68a308386db5835c8f2e
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572816"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916650"
 ---
-# <a name="create-and-process-a-conformance"></a>Kurti ir apdoroti atitiktis
+# <a name="create-and-process-a-conformance"></a>Atitikimo kūrimas ir apdorojimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Naudokite šią procedūrą norėdami atlikti neatitikties valdymą pagal esamą kokybės užsakymą. Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes. Paprastai šią procedūrą atlieka kokybės klerkas.  Kaip būtinąjį komponentą paleiskite užduoties įrašą „Tikrinti prekių kokybę“. Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“. Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.
+Šioje temoje aiškinama, kaip vykdyti neatitikimo valdymą remiantis esamu kokybės užsakymu. Galite paleisti šį įrašą naudodami USMF demonstracinę įmonę ir galite naudoti siūlomas vertes. Paprastai šią procedūrą atlieka kokybės klerkas.  Reikia įvesti būtinus duomenis, todėl užpildykite instrukcijas, esančias [Prekių kokybės tikrinimas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md). Norint apdoroti neatitikties patvirtinimą, užduoties įrašą paleidusiam vartotojui vartotojo puslapyje turi būti priskirta vertė „Pavadinimas“. Norint naudoti dokumento pastabas, vartotojui taip pat turi būti suaktyvinta vartotojo pasirinktis Dokumentų tvarkymas.
 
 
 ## <a name="select-a-quality-order"></a>Pasirinkti kokybės užsakymą
-1. Eikite į Kokybės užsakymai.
-2. Sąraše pažymėkite pasirinktą eilutę.
-    * Pasirinkite kokybės užsakymą, sukurtą iš užduoties įrašo „Tikrinti prekių kokybę“.  
+1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Periodinės užduotys > Kokybės valdymas > Kokybės užsakymai**.
+2. Sąraše pasirinkite kokybės užsakymą, kuris buvo sukurtas [Prekių kokybės tikrinimas](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/master/articles/supply-chain/inventory/tasks/inspect-quality-goods.md).  
 
 ## <a name="create-a-nonconformance"></a>Neatitikties kūrimas
-1. Spustelėkite Užklausos.
-2. Spustelėkite Neatitiktys.
-3. Spustelėkite Naujas.
-4. Lauke Problemos tipas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Pasirinkite problemą, kuri buvo nustatyta atliekant tikrinimo procesą.  
-5. Lauke Problemos tipas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-6. Sąraše raskite ir pasirinkite norimą įrašą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Spustelėkite GERAI.
+1. Veiksmų srityje pažymėkite **Užklausos**.
+2. Pasirinkite **Neatitikimai**.
+3. Pasirinkite **Naujas**.
+4. Lauko **Problemos tipas** išskleidžiamajame meniu pažymėkite problemą, kuri buvo aptikta patikrinimo metu.  
+5. Pasirinkite **Gerai**.
 
 ## <a name="approvereject-a-nonconformance"></a>Neatitikties tvirtinimas / atmetimas
-1. Spustelėkite Funkcijos.
-2. Spustelėkite Patvirtinti neatitiktį.
-    * Šiuo atveju patvirtinkite neatitiktį. Patvirtintas neatitiktis galima susieti su susijusiomis operacijomis, kad būtų įrašomas darbas, atliekamas tvarkant neatitiktį, ir įrašant užduotį kaip koregavimo apdorojimas.  
-3. Spustelėkite Taip.
+1. Pasirinkite **Funkcijos**.
+2. Pažymėkite **Patvirtinti neatitikimą**. Šiuo atveju patvirtinkite neatitiktį. Patvirtintus neatitikimus galima susieti su susijusiomis operacijomis, siekiant įrašyti darbą, kuris atliktas kaip neatitikimo tvarkymo dalis, ir, kaip šioje temoje, taisomojo tvarkymo apdorojimas.  
+3. Pasirinkite **Taip**.
 
 ## <a name="create-a-correction-action"></a>Koregavimo veiksmo kūrimas
-1. Spustelėkite Taisymai.
-2. Spustelėkite Naujas.
-3. Sąraše pažymėkite pasirinktą eilutę.
-4. Lauke Darbuotojo numeris spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Spustelėkite Pažymėti.
-7. Spustelėkite Pridėti.
-    * Sukurkite pastabą apie koregavimą. Šiuo atveju veiksmas yra susisiekti su tiekėju ir aptarti neatitikties atvejį.  
-8. Spustelėkite Naujas.
-9. Spustelėkite Pastaba.
-    * Atkreipkite dėmesį, kad, priklausomai nuo ataskaitos nustatymų, skirtingus dokumentų tipus galima spausdinti ataskaitose, susijusiose su neatitikties valdymu.  
-10. Lauke Aprašas įveskite reikšmę.
-11. Uždarykite puslapį.
+1. Pažymėkite **Taisymai**.
+2. Pasirinkite **Naujas**.
+3. Naujos eilutės lauke **Darbuotojų skaičius** išplečiamajame meniu pažymėkite pageidaujamą įrašą.
+4. Spustelėkite **Pažymėti**.
+5. Pažymėkite **Pridėti**. Sukurkite pastabą apie koregavimą. Šiuo atveju veiksmas yra susisiekti su tiekėju ir aptarti neatitikties atvejį.  
+6. Pasirinkite **Naujas**.
+7. Pažymėkite **Pastaba**. Atsižvelgiant į ataskaitos sąranką, galima atspausdinti skirtingus ataskaitų, kurios susijusios su neatitikimų valdymu, dokumentų tipus.  
+8. Lauke **Aprašo laukas**surinkite reikšmę.
+9. Uždarykite puslapį.
 
 ## <a name="maintain-a-correction"></a>Koregavimo tvarkymas
-1. Spustelėkite Žymėjimas baigtas.
-2. Spustelėkite GERAI.
+1. Pažymėkite **Žymėti kaip užbaigtą**.
+2. Pasirinkite **Gerai**.
 3. Uždarykite puslapį.
 
 ## <a name="close-a-nonconformance"></a>Neatitikties uždarymas
-1. Spustelėkite Funkcijos.
-2. Spustelėkite Uždaryti neatitiktį.
-3. Spustelėkite Taip.
-4. Uždarykite puslapį.
-5. Uždarykite puslapį.
+1. Pažymėkite **Funkcijos**.
+2. Pažymėkite **Uždaryti neatitikimą**.
+3. Pasirinkite **Taip**.
+4. Uždarykite puslapius.

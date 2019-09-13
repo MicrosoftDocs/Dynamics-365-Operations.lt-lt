@@ -3,7 +3,7 @@ title: Sukurti tiekėjo banko sąskaitą
 description: Šia procedūra parodoma, kaip kurti tiekėjo banko kodą.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07/01/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3dc744ea8ac2ca9beb230977fef7608fdc9c2891
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: c8dd3664d86ffdb8bf731a6ff1e0ed60b50eed61
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844064"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916834"
 ---
 # <a name="create-a-vendor-bank-account"></a>Sukurti tiekėjo banko sąskaitą
 
@@ -29,38 +29,32 @@ ms.locfileid: "1844064"
 
 Šia procedūra parodoma, kaip kurti tiekėjo banko kodą. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
 
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > Tiekėjai > Visi tiekėjai.
-2. Pasirinkite tiekėją, kuriam norite kurti banko kodą, o tada spustelėkite tiekėjo kodo ID saitą.
-3. Veiksmų srityje spustelėkite Tiekėjas.
-4. Spustelėkite Banko sąskaitos.
-5. Spustelėkite Naujas.
-6. Lauke Banko sąskaita surinkite reikšmę.
-    * Šis ID bus naudojamas siekiant identifikuoti tiekėjo įrašo banko kodą.  
-7. Lauke Pavadinimas surinkite reikšmę.
-8. Lauke Bankų grupės įveskite arba pasirinkite reikšmę.
-9. Lauke Banko kodo tipas pasirinkite parinktį.
-    * Tai yra banko kodo, naudojamo tarptautiniams mokėjimams atlikti, tipas.  
-10. Lauke Banko sąskaitos numeris įveskite reikšmę.
-11. Lauke SWIFT kodas surinkite reikšmę.
-12. Lauke IBAN surinkite reikšmę.
-    * IBAN numeris turi būti tinkamo formato. Pavyzdžiui, galite naudoti DE89370400440532013000.  
-    * Banko sąskaitos būsena yra Aktyvi, jei pasiekta Aktyvinimo data, o galiojimo laikas dar nesibaigė. Ji taip pat aktyvi, jei laukai Aktyvinimo data ir Galiojimo data yra nenurodyti. Jei datos nurodytos laukuose Aktyvinimo data ir Galiojimo data yra būsimos, elektroniniai mokėjimai nėra galimi. Kiti mokėjimo tipai yra galimi ir banko sąskaita yra aktyvi.  
-13. Išplėskite skyrių Nustatymas.
-14. Lauke Teksto kodas įveskite reikšmę.
-    * Šiame lauke nurodomas kodas, kuris bus rodomas gavėjo banko išraše.  
-15. Lauke Pranešimas bankui įveskite reikšmę.
-16. Lauke Kurso keitimo nuoroda įveskite reikšmę.
-    * Tai yra bet kurio būsimo ar fiksuoto valiutos kurso nuorodos numeris.  
-17. Lauke Valiuta įveskite arba pasirinkite vertę.
-    * Išduodant išankstinius pranešimus, šioje sekcijoje pateikiama jų būsenų (laukiama arba patvirtinta) apžvalga.  
-18. Išplėskite dalį Adresas.
-19. Išplėskite sekciją Išankstiniai pranešimai.
-20. Išplėskite skyrių „Kontaktinė informacija“.
-21. Lauke Telefonas įveskite vertę.
+1. Eikite į **Naršymo sritis > Moduliai > Įsigijimas ir išteklių paskirstymas > Tiekėjai > Visi tiekėjai**.
+2. Pasirinkite tiekėją, kuriam norite sukurti banko sąskaitą, tada spustelėkite saitą lauke **Tiekėjo kliento ID**.
+3. **Veiksmų sritis** spustelėkite **Tiekėjas**.
+4. Spustelėkite **Banko sąskaitos**.
+5. **Veiksmų sritis** spustelėkite **Naujas**.
+6. Lauke **Banko sąskaita** įveskite reikšmę. Šis ID bus naudojamas siekiant identifikuoti tiekėjo įrašo banko kodą.  
+7. Lauke **Pavadinimas** įveskite reikšmę.
+8. Lauke **Banko grupės** įveskite arba pažymėkite reikšmę.
+9. Lauke **Numerio tipo maršrutizavimas** pažymėkite parinktį. Tai yra banko kodo, naudojamo tarptautiniams mokėjimams atlikti, tipas.  
+10. Lauke **Banko sąskaitos numeris** įveskite reikšmę.
+11. Lauke **SWIFT kodas** įveskite reikšmę.
+12. Lauke **IBAN** įveskite reikšmę.
+    - IBAN numeris turi būti tinkamo formato. Pavyzdžiui, galite naudoti DE89370400440532013000.  
+    - Banko sąskaitos būsena yra Aktyvi, jei pasiekta Aktyvinimo data, o galiojimo laikas dar nesibaigė. Ji taip pat aktyvi, jei laukai Aktyvinimo data ir Galiojimo data yra nenurodyti. Jei datos nurodytos laukuose Aktyvinimo data ir Galiojimo data yra būsimos, elektroniniai mokėjimai nėra galimi. Kiti mokėjimo tipai yra galimi ir banko sąskaita yra aktyvi.  
+13. Išplėskite skyrių **Sąranka**.
+14. Lauke **Tekstinis kodas** įveskite reikšmę. Šiame lauke nurodomas kodas, kuris bus rodomas gavėjo banko išraše.  
+15. Lauke **Pranešimas bankui** įveskite reikšmę.
+16. Lauke **Valiutos nuoroda** įveskite reikšmę. Tai yra bet kurio būsimo ar fiksuoto valiutos kurso nuorodos numeris.
+17. Lauke **Valiuta** įveskite arba pažymėkite reikšmę. Išduodant išankstinius pranešimus, šioje sekcijoje pateikiama jų būsenų (laukiama arba patvirtinta) apžvalga.  
+18. Išplėskite skyrių **Adresas**.
+19. Išplėskite skyrių **Išankstinis pranešimas**.
+20. Išplėskite skyrių **Kontaktinė informacija**.
+21. Lauke **Telefonas** įveskite reikšmę.
 22. Uždarykite puslapį.
-23. Spustelėkite Redaguoti.
-24. Išplėskite skyrių „Mokėjimas“.
-25. Lauke Banko kodas pasirinkite ką tik sukurtą kodą.
-26. Spustelėkite Įrašyti.
-    * Adresą galima nuskaityti iš bankų grupės, jei ji nurodyta, arba galima jį įtraukti čia.  
+23. Spustelėkite **Redaguoti**.
+24. Išplėskite skyrių **Mokėjimas**.
+25. Lauke **Banko sąskaita** pažymėkite ką tik sukurtą sąskaitą.
+26. Spustelėkite **Įrašyti**. Adresą galima nuskaityti iš bankų grupės, jei ji nurodyta, arba galima jį įtraukti čia.  
 

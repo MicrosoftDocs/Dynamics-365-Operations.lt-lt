@@ -3,7 +3,7 @@ title: Nustatyti PVM grupes ir prekių PVM grupes
 description: Šis užduoties įrašas apžvelgia grupių PVM ir Prekės PVM sąranką.
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 07-01-2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c58755be2c927de1d308576a2bff2ed3340db34
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 12bbeaa4e0e2f6ee4874cf72863624a871ba87ea
+ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1846276"
+ms.lasthandoff: 08/22/2019
+ms.locfileid: "1916050"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Nustatyti PVM grupes ir prekių PVM grupes
 
@@ -29,24 +29,24 @@ ms.locfileid: "1846276"
 
 Šis užduoties įrašas apžvelgia grupių PVM ir Prekės PVM sąranką. PVM grupės yra PVM kodų, kurie pridėti prie klientų ir tiekėjų, grupės. Operacijose, kurios neregistruojamos konkrečiam tiekėjui ar klientui, PVM grupės taip pat pridedamos prie DK sąskaitų.  Prekių PVM grupės yra PVM kodų, kurie pridėti prie išteklių, pvz., produktų, grupės.  Konkrečiai operacijai taikomi PVM nustatomi pagal PVM kodus, kurie įtraukiami ir į operacijos PVM grupę, ir į prekės PVM grupę.  Apskaičiuoti PVM galima tik jei pasirinkta kiekvienos operacijos, kurios PVM reikia apskaičiuoti arba įrašyti, PVM grupė ir prekės PVM grupė.  
 
-1. Eikite į Mokestis > Netiesioginiai mokesčiai > PVM > PVM grupės.
-2. Spustelėkite Naujas.
-3. Lauke PVM grupė surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Perjunkite dalies Sąranka išplėtimą.
-6. Spustelėkite Pridėti.
+1. Eikite į **Naršymo sritis > Moduliai > Mokestis > Netiesioginiai mokesčiai > PVM > PVM grupės**.
+2. Spustelėkite **Naujas**.
+3. Lauke **PVM grupė** įveskite reikšmę.
+4. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Perjunkite skyriaus **Sąranka** išplėtimą.
+6. Spustelėkite **Pridėti**.
 7. Sąraše pažymėkite pasirinktą eilutę.
-8. Lauke PVM kodas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+8. Lauke **PVM kodas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 9. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-10. Spustelėkite Įrašyti.
+10. Spustelėkite **Įrašyti**.
 11. Uždarykite puslapį.
-12. Eikite į Mokestis > Netiesioginiai mokesčiai > PVM > Prekės PVM grupės.
-13. Spustelėkite Naujas.
-14. Lauke Prekių PVM grupė surinkite reikšmę.
-15. Lauke Aprašas įveskite reikšmę.
-16. Spustelėkite Pridėti.
+12. Eikite į **Mokestis > Netiesioginiai mokesčiai > PVM > Prekės PVM grupės**.
+13. Spustelėkite **Naujas**.
+14. Lauke **Prekės PVM grupė** įveskite reikšmę.
+15. Lauke **Aprašo laukas**surinkite reikšmę.
+16. Spustelėkite **Pridėti**.
 17. Sąraše pažymėkite pasirinktą eilutę.
-18. Lauke PVM kodas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+18. Lauke **PVM kodas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 19. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-20. Spustelėkite Įrašyti.
+20. Spustelėkite **Įrašyti**.
 
