@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e3b20e1d0a873c32b8f6f5e28f786febf62db355
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518698"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742824"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>„PowerApps“ programų įdėjimas „Core HR“
 
@@ -40,7 +40,7 @@ Pakeistas vartotojo sąsajos (UI) dizainas, todėl dabar „Microsoft PowerApps�
 
 Pakeistas „PowerApps“ programų įdėjimo būdas. Dabar „PowerApps“ programos įtraukiamos per personalizavimo modelį. „PowerApps“ programų galite įtraukti beveik į visus „Microsoft Dynamics 365 for Talent“ puslapius.
 
-Norėdami gauti informacijos apie tai, kaip „PowerApps“ programas įdėti į „Talent“, žr. [„PowerApps“ programų įdėjimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
+Norėdami gauti informacijos apie tai, kaip „PowerApps“ programas įdėti į „Talent“, žr. [„PowerApps“ programų įdėjimas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Tie „PowerApps“ klientai, kurie programas įdėjo iki keitimo, turi atnaujinti programą į naują modelį.
 

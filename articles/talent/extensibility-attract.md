@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichsew
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 52790fbe500d9f55bc9cc86fba5d54f30b11e559
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505869"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795225"
 ---
 # <a name="extensibility-in-attract"></a>„Attract“ išplečiamumas
 
@@ -33,7 +33,7 @@ ms.locfileid: "1505869"
 
 ## <a name="extending-option-sets-in-attract"></a>„Attract“ parinkčių rinkinių išplėtimas
 
-**Parinkčių rinkinys** (išrinkimo sąrašas) yra lauko, kurį galima įtraukti į objektą, tipas. Jis apibrėžia parinkčių rinkinį. Kai formoje rodomas parinkčių rinkinys, jis naudoja išplečiamojo sąrašo valdiklį.  „Attract“ yra daug laukų, kurie yra parinkčių rinkiniai.  Pradedame pristatyti galimybę išplėsti parinkčių rinkinius, pradedant nuo laukų Atmetimo priežastis, Įdarbinimo tipas ir Stažo tipas.   Taip pat galite įtraukti lokalizuotas ekrano žymes, skirtas parinktims, kurias norite įtraukti. Daugiau informacijos rasite [Parinkčių rinkinių žymių tinkinimas](https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
+**Parinkčių rinkinys** (išrinkimo sąrašas) yra lauko, kurį galima įtraukti į objektą, tipas. Jis apibrėžia parinkčių rinkinį. Kai formoje rodomas parinkčių rinkinys, jis naudoja išplečiamojo sąrašo valdiklį.  „Attract“ yra daug laukų, kurie yra parinkčių rinkiniai.  Pradedame pristatyti galimybę išplėsti parinkčių rinkinius, pradedant nuo laukų Atmetimo priežastis, Įdarbinimo tipas ir Stažo tipas.   Taip pat galite įtraukti lokalizuotas ekrano žymes, skirtas parinktims, kurias norite įtraukti. Daugiau informacijos rasite [Parinkčių rinkinių žymių tinkinimas](https://docs.microsoft.com/powerapps/developer/common-data-service/customize-labels-support-multiple-languages).
 
 > [!NOTE]
 > Norint naudoti darbo registravimo „LinkedIn“ funkciją, reikalingi puslapio **Darbo informacija** laukai **Įdarbinimo tipas** ir **Stažo tipas**. Numatytąsias šių laukų reikšmes palaiko „LinkedIn“ ir jos rodomos, kai darbas registruojamas. Todėl, jei registruojate darbus „LinkedIn“ ir modifikuojate esamas tų laukų parinkčių rinkinių reikšmes, darbas bus užregistruotas, bet „LinkedIn“ nerodys pasirinktinių laukų **Įdarbinimo tipas** ir **Stažo tipas** reikšmių.  
@@ -62,15 +62,15 @@ Kadangi visi duomenys iš „Attract“ laikomi paslaugoje „Common Data Servic
 
 Naudojantis „PowerApps“ paprasta kurti prie „Attract“ duomenų prisijungiančias programas, taip pat programas, kurios, naudodamos išraiškas (pvz., „Microsoft Excel“ išraiškas), įtraukia logiką. Naudojantis „PowerApps“ sukurtas programas galima paleisti žiniatinklyje, „Apple iOS“ ir „Google Android“ įrenginiuose.
 
-Pavyzdžiui, galite sukurti supaprastintą programą, kuria naudodamiesi darbaviai gali peržiūrėti CV ir priskirti kandidatams atitinkamas „Attract“ nurodytas pareigas – tokiu būdu universiteto karjeros mugės jiems tampa paprastesnės. Arba galite sukurti programą, kuri padėtų įgyvendinti jūsų organizacijos atitikties reikalavimus. Daugiau informacijos apie „PowerApps“ ir apie tai, kaip ja naudojantis kurti programas, ieškokite [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/en-us/powerapps).
+Pavyzdžiui, galite sukurti supaprastintą programą, kuria naudodamiesi darbaviai gali peržiūrėti CV ir priskirti kandidatams atitinkamas „Attract“ nurodytas pareigas – tokiu būdu universiteto karjeros mugės jiems tampa paprastesnės. Arba galite sukurti programą, kuri padėtų įgyvendinti jūsų organizacijos atitikties reikalavimus. Daugiau informacijos apie „PowerApps“ ir apie tai, kaip ja naudojantis kurti programas, ieškokite [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/powerapps).
 
 ### <a name="microsoft-flow"></a>Microsoft Flow 
 
-Naudodamiesi „Microsoft Flow“ galite sukurti automatinių šalia „Attract“ duomenų veikiančių darbo eigų. Paprasta prijungti prie šimtų populiarių programų ir paslaugų, kadangi nereikia rašyti kodo. Sukurdami eigas, kurios sąveikauja su „Common Data Service“ „Attract“ objektais Pareigos, Kandidatas ir Pareiškimas, galite automatizuoti įvairius veiksmus. Pavyzdžiui, kai kandidatas priima pasiūlymą, galima nusiųsti pranešimą supažindinimo komandai arba apie tai galima paskelbti „Twitter“. Daugiau informacijos apie eigas ieškokite [„Microsoft Flow“ dokumentacijoje](https://docs.microsoft.com/en-us/flow/).
+Naudodamiesi „Microsoft Flow“ galite sukurti automatinių šalia „Attract“ duomenų veikiančių darbo eigų. Paprasta prijungti prie šimtų populiarių programų ir paslaugų, kadangi nereikia rašyti kodo. Sukurdami eigas, kurios sąveikauja su „Common Data Service“ „Attract“ objektais Pareigos, Kandidatas ir Pareiškimas, galite automatizuoti įvairius veiksmus. Pavyzdžiui, kai kandidatas priima pasiūlymą, galima nusiųsti pranešimą supažindinimo komandai arba apie tai galima paskelbti „Twitter“. Daugiau informacijos apie eigas ieškokite [„Microsoft Flow“ dokumentacijoje](https://docs.microsoft.com/flow/).
 
 ### <a name="power-bi"></a>„Power BI‟
 
-Naudodamiesi „Power BI“ galite kurti ir peržiūrėti pasirinktines ataskaitas ir ataskaitų sritis, kad geriau suprastumėte savo „Attract“ duomenis. Daugiau informacijos apie „Power BI“ ir apie tai, kaip sukurti interaktyvias ataskaitas ir ataskaitų sritis, ieškokite [„Power BI“ dokumentacijoje](https://docs.microsoft.com/en-us/power-bi/).
+Naudodamiesi „Power BI“ galite kurti ir peržiūrėti pasirinktines ataskaitas ir ataskaitų sritis, kad geriau suprastumėte savo „Attract“ duomenis. Daugiau informacijos apie „Power BI“ ir apie tai, kaip sukurti interaktyvias ataskaitas ir ataskaitų sritis, ieškokite [„Power BI“ dokumentacijoje](https://docs.microsoft.com/power-bi/).
 
 ### <a name="custom-activities"></a>Pasirinktinės veiklos 
 

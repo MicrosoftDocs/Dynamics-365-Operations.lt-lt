@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: andreabichsel
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8f488b0bf844fc04f07fedfa447073cdeabacc15
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
+ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518623"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "1795249"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 2 d.)
 
@@ -57,13 +57,13 @@ Skirtuko **Dokumentai** patobulinimai – dabar prašymų ir talentų telkinių 
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2216 komponavimo versijai.
 
 ### <a name="platform-update-25"></a>Platformos „update 25“
-Daugiau informacijos apie 25 platformos naujinimą žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations“ 25 platformos naujinime (2019 m. balandžio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Daugiau informacijos apie 25 platformos naujinimą žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations“ 25 platformos naujinime (2019 m. balandžio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Išplėstinės kompensacijos sauga (fiksuota ir kintama)
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Saugos vaidmenis galite priskirti fiksuota, ir kintamam planams. Šie saugos vaidmenys nustato prieigą prie planų ir susijusių darbuotojų duomenų, pvz., darbo užmokesčio arba premijų įrašų, kad tik šiuos vaidmenis turintys asmenys galėtų apdoroti darbuotojų grupių kompensacijas.
 
 ### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
-Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 

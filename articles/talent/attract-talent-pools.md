@@ -1,6 +1,6 @@
 ---
-title: Kandidatų ieška naudojant talentų telkinius
-description: Šioje temoje paaiškinama, kaip kurti ir nustatyti talentų telkinius „Attract“.
+title: Kandidatų ieška naudojant talentų telkinius „Microsoft Dynamics 365 for Talent - Attract”
+description: Šioje temoje paaiškinama, kaip kurti ir nustatyti talentų telkinius „Microsoft Dynamics 365 for Talent - Attract”.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/28/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: d2d680aa54e4610959c12bc1feef11ba8f30b0ca
-ms.sourcegitcommit: 40be0096af50e74d9946e382d3bbd2683bed1fc5
+ms.openlocfilehash: 98b93f69c4f4c8ca6c9a0fc2530578afed4b967c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "1711299"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741872"
 ---
-# <a name="source-candidates-by-using-talent-pools"></a>Kandidatų ieška naudojant talentų telkinius
+# <a name="source-candidates-with-talent-pools"></a>Kandidatų ieška naudojant talentų telkinius
 
 [!include[banner](../includes/banner.md)]
 
@@ -79,7 +79,7 @@ Talentų telkinio savininkas ir bendraautoriai gali įtraukti kandidatų į tale
 ## <a name="search-and-view-candidate-profiles"></a>Kandidatų profilių ieška ir peržiūra
 
 > [!NOTE] 
-> Šiuo metu ši funkcija yra peržiūrima. Jei norite ją išbandyti, turite [įjungti šią funkciją „Attract“ administratoriaus parametrų srityje](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). 
+> Šiuo metu ši funkcija yra peržiūrima. Jei norite ją išbandyti, turite [įjungti šią funkciją „Attract“ administratoriaus parametrų srityje](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). 
 
 Naudodamiesi talentų telkiniais galite peržiūrėti kandidato profilį, „LinkedIn“ informaciją, susijusius dokumentus ir prašymų retrospektyvą. Kandidatų, įskaitant ir uždarytus arba aktyvius pretendentus, įtrauktų į bet kurį talentų telkinį, galite ieškoti visoje duomenų bazėje.
 
@@ -116,7 +116,7 @@ Visi vartotojai gali peržiūrėti bendrąjį kandidatų profilių rodinį. Skir
 
     Norėdami peržiūrėti dokumentą, pasirinkite dokumento pavadinimą dokumentų sąraše. Prašyme galite peržiūrėti „Microsoft Word“ dokumentus naudodami „Microsoft Office 365“. Taip pat galite atsisiųsti dokumentus į vietinį kompiuterį naudodami parinktį **Atsisiųsti**, pateiktą šalia kiekvieno dokumento.
 
-- Skirtuke **LinkedIn** rodoma kandidato „LinkedIn“ informacija. Norėdami naudoti šį skirtuką, savo „LinkedIn“ paskyrą turite susieti vartotojo parametrų srityje, taip pat nustatyti savo aplinkos „LinkedIn Recruiter“ ryšį. Daugiau informacijos žr. [Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“ įdarbinimo sistemą](./attract-linked-in-recruiter.md).
+- Skirtuke **LinkedIn** rodoma kandidato „LinkedIn“ informacija. Norėdami naudoti šį skirtuką, savo „LinkedIn“ paskyrą turite susieti vartotojo parametrų srityje, taip pat nustatyti savo aplinkos „LinkedIn Recruiter“ ryšį. Daugiau informacijos žr. [Darbuotojų pasirinkimas naudojant „LinkedIn Recruiter“ įdarbinimo sistemą](./attract-linkedin-recruiter.md).
 
 > [!NOTE]
 > Tik kandidatai gali atnaujinti informaciją apie savo įgūdžius, išsilavinimą ir darbo patirtį.

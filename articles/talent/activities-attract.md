@@ -1,9 +1,9 @@
 ---
-title: Proceso veiklos
-description: Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti samdos procese.
+title: Veiklos „Microsoft Dynamics 365 for Talent - Attract” procesuose
+description: Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti „Microsoft Dynamics 365 for Talent - Attract” samdos procese.
 author: hasrivas
 manager: AnnBe
-ms.date: 04/10/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c975b95e4195c795ec4c816b1f3a50461715feea
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518686"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739725"
 ---
-# <a name="activities-in-the-hiring-processes"></a>Samdos proceso veiklos
+# <a name="activities-in-hiring-processes"></a>Samdos procesų veiklos
 
 [!include[banner](../includes/banner.md)]
 
@@ -37,6 +37,9 @@ Veiklas galima įtraukti į „Dynamics 365 for Talent: Attract“ kaip samdos p
 ## <a name="prospect-activity"></a>Potencialaus kliento veikla
 
 Potencialaus kliento veikla kontroliuoja, ar potencialūs klientai gali būti įtraukti į darbą. Pagal numatytuosius parametrus potencialūs klientai gali būti įtraukti į darbą. Norėdami išjungti potencialaus kliento veiklą, nustatykite parinkties **Įjungti potencialius klientus** reikšmę **Išjungta**. Kai potencialaus kliento veikla išjungta, įdarbinimo vadovai gali įtraukti ir peržiūrėti potencialius klientus, o darbe rodomas skirtukas **Potencialus klientas**.
+
+> [!NOTE]
+> Norėdami leisti kandidatams būti įtrauktiems į „LinkedIn” užduotį, turite nustatyti **Įjungta** parinktyje **Įgalinti kandidatus**.
 
 ## <a name="application-activity"></a>Prašymo veikla
 

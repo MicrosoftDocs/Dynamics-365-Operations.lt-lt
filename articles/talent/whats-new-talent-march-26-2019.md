@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 568a16a17ed3269c7b72f27f0d4b7bbdbd56630e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518677"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741572"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 26 d.)
 
@@ -75,7 +75,7 @@ Dabar šiame leidime pastoviųjų atlyginimo dalių planai rodomi, kai saugos pa
 Dabar šiame leidime galite pašalinti darbo įrašus naudodami „Dynamics 365 for Talent“ parinktį **Atidaryti naudojant „Excel“**.
 
 ### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
-Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 

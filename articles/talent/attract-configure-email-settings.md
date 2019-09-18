@@ -19,14 +19,15 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 360937b807ea149edb2f16ad6799d74791d599b5
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729793"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739500"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-for-talent---attract"></a>„Microsoft Dynamics 365 for Talent - Attract“ el. pašto parametrų konfigūravimas
+# <a name="configure-email-settings"></a>El. pašto parametrų konfigūravimas
+
 [!include[banner](../includes/banner.md)]
 
 Jūsų prekės ženklas kuria patikimumo įspūdį ir padeda užmegzti ryšį su kandidatais dar prieš jiems kandidatuojant į jūsų siūlomas darbo vietas. Teigiamas prekės ženklo įvaizdis pritraukia geriausius talentus ir didina esamų darbuotojų lojalumą. „Microsoft Dynamics 365 for Talent: Attract“ galima sukonfigūruoti el. laiškus, kad juose atsispindėtų jūsų įmonės prekės ženklas. Todėl kandidatavimo proceso metu užtikrinsite nuoseklią kandidatų patirtį.

@@ -1,6 +1,6 @@
 ---
-title: „Attract“ karjeros svetainės funkcijos
-description: Šioje temoje pateikiama „Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga.
+title: Karjeros svetainės nustatymas „Microsoft Dynamics 365 for Talent - Attract”
+description: Šioje temoje pateikiama „Microsoft Dynamics 365 for Talent - Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: e51fb00536884d2b3815c05a0968714d8b9326f2
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729708"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739776"
 ---
-# <a name="career-site-functionality-in-attract"></a>„Attract“ karjeros svetainės funkcijos
+# <a name="set-up-your-career-site"></a>Karjeros svetainės nustatymas
 
 [!include[banner](../includes/banner.md)]
 
@@ -131,7 +131,7 @@ Kandidatams galite palengvinti prašymų dėl jūsų darbo vietų teikimo proces
 1. Prisijunkite prie „Attract“ kaip administratorius.
 2. Paspauskite viršutiniame dešiniajame puslapio kampe esantį mygtuką **Parametrai** (krumpliaračio simbolis), o paskui pasirinkite **Administravimo centras**.
 3. Pasirinkite skirtuką **„LinkedIn“ integravimas** ir prisijunkite naudodami „LinkedIn“ įdarbintojo paskyrą.
-4. Dalyje **„LinkedIn Recruiter System Connect “ integravimas** pasirinkite parametro **Teikti prašymą naudojant „LinkedIn“** reikšmę **Įjungta**.
+4. Dalyje **„LinkedIn Recruiter System Connect“ integravimas** pasirinkite parametro **Teikti prašymą naudojant „LinkedIn“** reikšmę **Įjungta**.
 
 Kai įjungiate šį parametrą, kandidatai gali teikti prašymus naudodami esamus „LinkedIn“ profilio duomenis. Kai kandidatai teikia prašymus pasirinkdami mygtuką **Teikti prašymą naudojant „LinkedIn“** ir dar nėra prisijungę, jų prašoma autentifikuotis naudojant „LinkedIn“. Kai kandidatai autentifikuojami, jų „LinkedIn“ profilis pakeičia esamus profilio duomenis, rodomus prašymo puslapyje. Kandidatai gali pagal poreikį redaguoti šią informaciją ir pateikti prašymą. Jei kandidatas išeina iš puslapio nepateikęs prašymo dėl darbo vietos, jo profilio duomenys sprendime „Attract” nėra atnaujinami.
 

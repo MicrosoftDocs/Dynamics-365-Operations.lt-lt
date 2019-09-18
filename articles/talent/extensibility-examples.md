@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a9ebfd1f2621b8ad65d7623c37b6851cc0b5cb54
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
+ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577800"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "1781447"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>„Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
 
@@ -101,24 +101,15 @@ Organizacija gali turėti tam tikrų skubiai reikiamų įgūdžių rinkinį. Ši
 
 Norėdami atsisiųsti šabloną **Srautas – „SharePoint“ integravimas**, „Microsoft“ atsisiuntimo centre eikite į [Srautas – „SharePoint“ integravimas](https://go.microsoft.com/fwlink/?linkid=2082109).
 
-## <a name="admin-console-to-manage-talent-pools"></a>Administratoriaus konsolė talentų telkiniams valdyti
+## <a name="referral-app"></a>Programėlė „Referral”
+Programėlę „Referral” galite naudoti kandidatams įtraukti į bendrinamą talento telkinį. Pateikdamas kandidatą, jį rekomendavęs asmuo gali įvesti jo **vardą**, **pavardę**, **el. pašto adresą** ir **„LinkedIn“ URL**. Kandidato šaltinio metaduomenys yra įvedami kartu su jį rekomendavusio asmens informacija.
 
-Kai įgalinsite integraciją su „LinkedIn“, „Attract“ automatiškai sukurs „LinkedIn“ talentų telkinį. Kai darbdavys pakeičia „InMail“ samdiniu per „LinkedIn“, „Atract“ sukuria samdinio profilį, ir samdinys tampa „LinkedIn“ talentų telkinio nariu. Ši „PowerApps“ programa yra naudinga skirstant kandidatus į talentų telkinius pagal įgūdžius.
+Galite įterpti šią programėlę į darbuotojų savitarną (ESS) teikti rekomendacijoms arba galite naudoti ją kaip hipersaitą įmonės portale ir vykdyti kaip atskirą programėlę.
 
-Paleiskite šią „PowerApps“ programą kaip administravimo konsolę, norėdami atlikti šias užduotis:
-
-- Išvardyti kandidatus talentų telkinyje
-- Įtraukti ir pašalinti kandidatus iš talentų telkinio
-- Perkelti kandidatus iš vieno talentų telkinio į kitą
-- Nustatyti, ar prieš perkeliant kandidatai jau yra talento telkinyje
-- Patikrinti kandidatų įgūdžius prieš perkeliant juos į kitus talentus
-
-Ši „PowerApps“ programa naudoja daugelio su daugeliu ryšį, todėl galite naudoti ją kaip šabloną kituose scenarijuose, kur jums reikia gauti įrašus, kuriuose yra daugelio su daugeliu ryšių.
-
-Norėdami atsisiųsti **Administravimo konsolę talentų telkiniams valdyti**, eikite į [Administravimo konsolę talentų telkiniams valdyti](https://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469) „Microsoft“ atsisiuntimo centre.
+Norėdami atsisiųsti **programėlę „Referral”**, eikite į [Dynamics 365 for Talent išplečiamumo sprendimas: programėlė „Referral”](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) „Microsoft” atsisiuntimo centre. Galite importuoti šią programėlę ir pritaikyti papildomų funkcijų įtraukimui.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [„Microsoft Power Platform“](https://docs.microsoft.com/power-platform/admin/admin-documentation)
 
-[Programos perkėlimas įvairiems nuomotojams ir į įvairias aplinkas](https://docs.microsoft.com/en-us/power-platform/admin/environment-and-tenant-migration)
+[Programos perkėlimas įvairiems nuomotojams ir į įvairias aplinkas](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)

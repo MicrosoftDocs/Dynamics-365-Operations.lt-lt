@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f27698c257301f52e5c77eaa8a04ca13a0315825
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518621"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742521"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 23 d.)
 
@@ -54,4 +54,4 @@ Keičiant užduotį pareigose, pagal numatytuosius parametrus užduoties laukai 
 Atlikus šį pakeitimą laukai **Bandomasis laikotarpis** ir **Kalendoriaus** buvo įtraukti į puslapį **Valdyti pakeitimus**, kad būtų galima įvesti buvusių ir būsimų darbuotojų duomenis.
 
 ### <a name="platform-update-23"></a>Platformos „update 23“
-Smulkus pataisymai įtraukti kaip 23 platformos naujinimas. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+Smulkus pataisymai įtraukti kaip 23 platformos naujinimas. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

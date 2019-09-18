@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: fe24846ab98a75d474df045a62a72bfc41c64866
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518687"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741895"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 5 d.)
 
@@ -43,10 +43,10 @@ ms.locfileid: "1518687"
 ## <a name="changes-in-onboarding"></a>Supažindinimo pakeitimai
 
 ### <a name="private-preview-for-onboard-teams"></a>Supažindinimo komandų privati peržiūra
-Dabar galite lengvai bendrinti ir bendrai tvarkyti šablonus visoje savo organizacijoje. Daugiau informacijos žr. [Geriausios praktikos bendrinimas savo organizacijoje naudojant supažindinimo komandas](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
+Dabar galite lengvai bendrinti ir bendrai tvarkyti šablonus visoje savo organizacijoje. Daugiau informacijos žr. [Geriausios praktikos bendrinimas savo organizacijoje naudojant supažindinimo komandas](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/share-best-practices-teams).
 
 ### <a name="private-preview-for-assignee-placeholders"></a>Priėmėjų rezervavimo ženklų privati peržiūra
-Savo šablonus galite išplėsti priskirdami veiklas vaidmenims, o ne asmenims. Tada vaidmenys priskiriami asmenims vadovo kūrimo metu. Daugiau informacijos žr. [Vadovo administravimo supaprastinimas priskiriant veiklas vaidmenims](https://docs.microsoft.com/en-us/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
+Savo šablonus galite išplėsti priskirdami veiklas vaidmenims, o ne asmenims. Tada vaidmenys priskiriami asmenims vadovo kūrimo metu. Daugiau informacijos žr. [Vadovo administravimo supaprastinimas priskiriant veiklas vaidmenims](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-talent/onboard/assign-activities-roles).
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 **8.1.2178 versija**
@@ -71,7 +71,7 @@ Atlikus šį pakeitimą, kai teikiama esamų pareigų pakeitimų užklausa, alga
 Kiti smulkūs klaidų ištaisymai yra įtraukti į šį leidimą.
 
 ### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
-Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds).
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -79,4 +79,4 @@ Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai ar
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali pasiekti tik tam tikrus kompensacijų įrašus, pvz., vadovams arba tam tikrų regionų darbuotojams skirtus įrašus. Atlikus šį pakeitimą, galite valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Fiksuotam ir kintamam planams galima priskirti saugos vaidmenis – tokiu būdu nustatysite prieigą prie planų ir darbuotojų duomenų, susijusių su planais, pvz., pajamų arba premijų įrašai. Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
 ###  <a name="platform-update-24"></a>Platformos „update 24“
-Papildomos informacijos apie 24 platformos naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ 24 platformos naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Papildomos informacijos apie 24 platformos naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ 24 platformos naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

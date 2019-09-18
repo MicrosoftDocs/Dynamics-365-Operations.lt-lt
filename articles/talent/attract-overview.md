@@ -1,6 +1,6 @@
 ---
-title: „Attract“ funkcijos ir galimybės
-description: Šioje temoje aprašomos „Attract“ funkcijos, skirtos naujų talentų samdymo procesui valdyti.
+title: „Microsoft Dynamics 365 for Talent - Attract” funkcijos ir galimybės
+description: Šioje temoje aprašomos „Microsoft Dynamics 365 for Talent - Attract“ funkcijos, skirtos naujų talentų samdymo procesui valdyti.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/30/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9e22cddcd1845cc06f5948bcc062d044995c1cbd
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518685"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739615"
 ---
 # <a name="attract-features-and-capabilities"></a>„Attract“ funkcijos ir galimybės
 

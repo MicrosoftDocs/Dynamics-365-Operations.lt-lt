@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6c881bf25e7145228ccf7ef73a7ef3637c115a49
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518661"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741780"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>„Talent“ sistemos reikalavimai ir naujinimo strategija
 
@@ -64,10 +64,10 @@ Galite atsisiųsti „Talent“ palaikomų šalių, regionų ir kalbų PDF fail�
 > [!NOTE]
 > Nors vartotojo sąsaja lokalizuojama į įvairias kalbas, visi vartotojo duomenys yra saugomi kalba, kuria jie buvo įvesti. Galite kurti el. laiškus ir šablonus kitomis kalbomis, bet tokie duomenys, kaip planavimo informacija, šiuo metu pasiekiami tik anglų kalba.
 
-Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
+Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
 ## <a name="update-policy"></a>Naujinimo strategija
 
 „Microsoft Dynamics 365 for Talent“ aptarnaujama kaip debesies pasiūlymas. „Dynamics 365 for Talent“ naujinimai yra nuolatiniai ir automatiškai taikomi „Microsoft“.
 
-Naujinimai išleidžiami reguliariai ir skiriami visoms aplinkoms. „Dynamics 365 for Talent“ palaikoma atsižvelgiant į [„Microsoft Support Lifecycle“ strategiją](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "„Microsoft Support Lifecycle“"), kuri numato nuoseklaus ir prognozuojamo produktų palaikymo gaires.
+Naujinimai išleidžiami reguliariai ir skiriami visoms aplinkoms. „Dynamics 365 for Talent“ palaikoma atsižvelgiant į [„Microsoft Support Lifecycle“ strategiją](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "„Microsoft Support Lifecycle“"), kuri numato nuoseklaus ir prognozuojamo produktų palaikymo gaires.

@@ -1,6 +1,6 @@
 ---
-title: Administratoriaus parametrai sprendime „Attract“
-description: Šioje temoje paaiškinama, kaip organizacijų ir vartotojų funkcijas sprendime „Attract“.
+title: Įmonės informacijos konfigūravimas „Microsoft Dynamics 365 for Talent - Attract”
+description: Šioje temoje paaiškinama, kaip konfigūruoti įmonės informaciją ir prekių ženklus, skirtus „Microsoft Dynamics 365 for Talent - Attract”.
 author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0de215103306ef7115ba390b1b4855179979c77b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: c5b051497777a01ab304736f1d454391b5d98e63
+ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518689"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "1739569"
 ---
-# <a name="admin-settings-in-attract"></a>Administratoriaus parametrai sprendime „Attract“
+# <a name="configure-company-information"></a>Įmonės informacijos konfigūravimas
 [!include[banner](../includes/banner.md)]
 
 „Microsoft Dynamics 365 for Talent“ administravimo centras: „Attract“ pateikiami „Attract“ programos konfigūracijos parametrai, integravimo parinktys ir nustatymo parinktys.
@@ -36,7 +36,7 @@ ms.locfileid: "1518689"
 
 ## <a name="linkedin-integration"></a>„LinkedIn‟ integravimas
 
-Nustatyti integravimą su „LinkedIn Recruiter System Connect “ (RSC). Prisijungę prie „LinkedIn“ naudodami savo „LinkedIn“ kredencialus, galite sinchronizuoti kandidato „LinkedIn“ profilį, programas, atsiliepimą apie pokalbį ir samdos komandos pastabas. Būtina turėti visą „LinkedIn“ įdarbintojo licenciją. Norėdami gauti daugiau informacijos apie „LinkedIn Recruiter“, žr. [„Recruiter System Connect“ (RSC) – DUK](https://www.linkedin.com/help/recruiter/answer/90483).
+Nustatyti integravimą su „LinkedIn Recruiter System Connect“ (RSC). Prisijungę prie „LinkedIn“ naudodami savo „LinkedIn“ kredencialus, galite sinchronizuoti kandidato „LinkedIn“ profilį, programas, atsiliepimą apie pokalbį ir samdos komandos pastabas. Būtina turėti visą „LinkedIn“ įdarbintojo licenciją. Norėdami gauti daugiau informacijos apie „LinkedIn Recruiter“, žr. [„Recruiter System Connect“ (RSC) – DUK](https://www.linkedin.com/help/recruiter/answer/90483).
 
 ## <a name="user-permissions"></a>Vartotojo teisės
 

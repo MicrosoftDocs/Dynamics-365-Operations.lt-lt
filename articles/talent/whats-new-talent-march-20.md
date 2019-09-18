@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d69294b64c841c5486d694b129cf6c0f26fd93fd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518662"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741641"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 20 d.)
 
@@ -46,7 +46,7 @@ Jei kandidatas pamiršo socialinių tinklų kredencialus, kuriuos naudodamas pat
 Pašalinta problema, dėl kurios išoriniai kandidatai galėjo matyti darbo samdos vadovo vardą ir pavardę. Dabar tik vidiniai kandidatai gali matyti darbo samdos komandos narius. Be to, dabar vidiniams kandidatams lengviau peržiūrėti ir teikti prašymus tik dėl vidinių darbų. Kai kandidatas bando pasiekti saitą, kad peržiūrėtų arba teiktų prašymą tik dėl vidinio darbo, jis turi autentifikuoti naudodamas „Azure Active Directory“ kredencialus. Vidiniai kandidatai taip pat gali susisiekti samdos komandos nariu ir išreikšti susidomėjimą arba sužinoti daugiau apie darbą. Ši funkcija teikiama tik vidiniams kandidatams, pretenduojantiems į bet kurį darbą. Daugiau informacijos žr. [Karjeros svetainės funkcija sprendime „Attract“](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Sidabro medalių laimėtojų nustatymas siekiant ateityje į pareigas paskirti vertingiausius pretendentus
-Įdarbintojai ir samdos vadovai dažnai naudoja sąrašą, kurį sudaro pretendentai, kurie tiko eiti pareigas, bet nepavyko jiems pateikti pasiūlymo, nes darbo vieta jau buvo užimta. Tokie pretendentai, vadinami sidabro medalių laimėtojais, yra naudingi, nes jie gali padėti sutaupyti laiko samdant kandidatus į atsilaisvinusias panašias pareigas. Dabar „Attract“ suteikia galimybę įdarbintojams ir samdos vadybininkams nurodyti sidabro medalių laimėtojus pretendentų sąraše, jei pretendentas pasiekė etapą Pasiūlymas. Sidabro medalio laimėtojo nurodymas bus matomas darbo pretendentų sąraše, taip pat – talentų telkinio rodinyje, kai pretendentai yra priklauso bet kuriam įdarbintojo arba samdos vadovo telkiniui. Be to, paskyrimas bus rodomas darbų retrospektyvoje kaip kandidato talentų telkinio profilio dalis. Šią funkciją galite peržiūrėti, jei paprašysite administratoriaus ją įjungti naudojant [Administratorių centro funkcijų valdymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+Įdarbintojai ir samdos vadovai dažnai naudoja sąrašą, kurį sudaro pretendentai, kurie tiko eiti pareigas, bet nepavyko jiems pateikti pasiūlymo, nes darbo vieta jau buvo užimta. Tokie pretendentai, vadinami sidabro medalių laimėtojais, yra naudingi, nes jie gali padėti sutaupyti laiko samdant kandidatus į atsilaisvinusias panašias pareigas. Dabar „Attract“ suteikia galimybę įdarbintojams ir samdos vadybininkams nurodyti sidabro medalių laimėtojus pretendentų sąraše, jei pretendentas pasiekė etapą Pasiūlymas. Sidabro medalio laimėtojo nurodymas bus matomas darbo pretendentų sąraše, taip pat – talentų telkinio rodinyje, kai pretendentai yra priklauso bet kuriam įdarbintojo arba samdos vadovo telkiniui. Be to, paskyrimas bus rodomas darbų retrospektyvoje kaip kandidato talentų telkinio profilio dalis. Šią funkciją galite peržiūrėti, jei paprašysite administratoriaus ją įjungti naudojant [Administratorių centro funkcijų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 ### <a name="add-applicants-to-talent-pools"></a>Pretendentų įtraukimas į talentų telkinius
 Dabar lengviau įtraukti pretendentus į talentų telkinius pateikiant naują veiksmą pretendentų sąraše. Pasirinkdamas piktogramą **Įtraukti į talentų telkinį**, įdarbintojas arba samdos vadovas gali rinktis iš savo talentų telkinių ir lengvai įtraukti pretendentų į talentų telkinius iš paties darbo pretendentų sąrašo.
@@ -58,7 +58,7 @@ Atsižvelgiant į klientų atsiliepimus, įdarbintojai dabar gali konfigūruoti,
 Kandidatai, kurių profiliai jau atnaujinti platformoje „LinkedIn“, gali teikti prašymus dėl darbo vienu spustelėjimu tame profilyje.
 
 ### <a name="track-how-a-candidate-profile-originated-in-the-system-and-where-your-applicants-discover-the-jobs-they-applied-for"></a>Sekimas, kaip kandidato profilis yra kilęs iš sistemos ir kur jūsų pretendentai randa darbus, dėl kurių jie teikia prašymus
-Dabar galite sužinoti, kaip tam tikro kandidato profilis yra kilęs iš „Attract“, peržiūrėję profilio šaltinį kandidato informacijoje pretendento puslapyje **Profilis** arba talentų telkinio profilyje. Taip pat galite sužinoti, kaip bet kuris pretendentas atrado darbą, peržiūrėję prašymo šaltinį, pateiktą prašymo veiklos sklaidos kanale **Programos veikla**. Ši informacija taip pat teikiama darbo retrospektyvoje talentų telkinio profilyje. Kai įdarbintojai arba samdos vadovai įtraukia kandidatus neautomatiškai, jie taip pat bus paraginti nurodyti prašymo šaltinį arba kandidato profilį. Kai kandidatas teikia prašymą pirmą kartą, jų profilio šaltinis bus toks pat kaip jų prašymo originalas. Šią funkciją galite peržiūrėti, jei paprašysite administratoriaus ją įjungti naudojant [Administratorių centro funkcijų valdymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature). Atminkite, kad esami kandidatai ir pretendentai neturės prieigos prie jokios šaltinio informacijos. Tačiau įdarbintojai gali įtraukti šią informaciją neautomatiniu būdu.
+Dabar galite sužinoti, kaip tam tikro kandidato profilis yra kilęs iš „Attract“, peržiūrėję profilio šaltinį kandidato informacijoje pretendento puslapyje **Profilis** arba talentų telkinio profilyje. Taip pat galite sužinoti, kaip bet kuris pretendentas atrado darbą, peržiūrėję prašymo šaltinį, pateiktą prašymo veiklos sklaidos kanale **Programos veikla**. Ši informacija taip pat teikiama darbo retrospektyvoje talentų telkinio profilyje. Kai įdarbintojai arba samdos vadovai įtraukia kandidatus neautomatiškai, jie taip pat bus paraginti nurodyti prašymo šaltinį arba kandidato profilį. Kai kandidatas teikia prašymą pirmą kartą, jų profilio šaltinis bus toks pat kaip jų prašymo originalas. Šią funkciją galite peržiūrėti, jei paprašysite administratoriaus ją įjungti naudojant [Administratorių centro funkcijų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature). Atminkite, kad esami kandidatai ir pretendentai neturės prieigos prie jokios šaltinio informacijos. Tačiau įdarbintojai gali įtraukti šią informaciją neautomatiniu būdu.
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
