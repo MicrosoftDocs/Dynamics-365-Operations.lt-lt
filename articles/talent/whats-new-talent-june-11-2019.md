@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42b9541b152d2a6daa1dbf95ecf30a2f51eb36f3
-ms.sourcegitcommit: 31a918d357a7182f3870713a9c4455bd5c44cd58
+ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "1634485"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741627"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. birželio mėn. 11 d.)
 
@@ -76,9 +76,9 @@ Užduočių grupės objektas įtrauktas.
 
 ### <a name="preview-features-will-be-enabled-only-in-sandbox-environments"></a>Peržiūros funkcijos bus įjungtos tik smėlio dėžės aplinkose
 
-Daugiau informacijos apie tai, kaip publikuojami pakeitimai, žr. [„Talent“ parengimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Daugiau informacijos apie tai, kaip publikuojami pakeitimai, žr. [„Talent“ parengimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
-Parengdami naują „Talent“ egzempliorių, galite nurodyti egzemplioriaus tipą: Gamyba arba Smėlio dėžė. Naudodami egzempliorių, kurio tipas – Smėlio dėžė, galite pirmieji išbandyti naujas funkcijas. Visi esami „Talent“ egzemplioriai bus atnaujinti ir jų tipas bus **Gamyba**. Jei norite vieno iš turimų egzempliorių tipą atnaujinti į **Smėlio dėžė**, kreipkitės į [palaikymo tarnybą](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/talent-support), kad ši inicijuotų keitimo užklausą.
+Parengdami naują „Talent“ egzempliorių, galite nurodyti egzemplioriaus tipą: Gamyba arba Smėlio dėžė. Naudodami egzempliorių, kurio tipas – Smėlio dėžė, galite pirmieji išbandyti naujas funkcijas. Visi esami „Talent“ egzemplioriai bus atnaujinti ir jų tipas bus **Gamyba**. Jei norite vieno iš turimų egzempliorių tipą atnaujinti į **Smėlio dėžė**, kreipkitės į [palaikymo tarnybą](https://docs.microsoft.com/dynamics365/unified-operations/talent/talent-support), kad ši inicijuotų keitimo užklausą.
 
 ### <a name="restrict-the-leave-types-in-time-off-requests"></a>Atostogų tipų apribojimas prašymuose išleisti iš darbo
 

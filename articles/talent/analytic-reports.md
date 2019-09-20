@@ -1,6 +1,6 @@
 ---
-title: Analizės ataskaitų naudojimas samdos procesų įžvalgoms
-description: Šioje temoje aprašomos analizės ataskaitos programoje „Attract“
+title: Analizės ataskaitų naudojimas „Microsoft Dynamics 365 for Talent - Attract”
+description: Šioje temoje aprašoma „Microsoft Dynamics 365 for Talent - Attract” samdos procesų įžvalgų analizės ataskaitos.
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: 33ed6072a9ad99144fb96ad19389a57461324f71
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516565"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742894"
 ---
-# <a name="use-analytic-reports-for-hiring-process-insights"></a>Analizės ataskaitų naudojimas samdos procesų įžvalgoms
+# <a name="use-analytic-reports"></a>Analizės ataskaitų naudojimas
 
 Analitinės ataskaitos programoje „Attract“ suteikia nestandartinį (OOTB) sprendimą samdos proceso įžvalgoms. Galimos funkcijos:
 
@@ -81,8 +81,8 @@ Ataskaitose Užduoties analizė pateikiami pasirinktos užduoties duomenys. Anal
 
 ## <a name="cross-filter"></a>Kryžminis filtravimas
 
-Vienas iš puikiausių „Power BI“ savybių yra tai visų vaizdinių ataskaitos puslapio elementų ryšys. Jei viename iš vaizdinių elementų pasirenkate duomenų tašką, parodomi visi kiti puslapyje esantys vaizdiniai elementai, kuriuose yra duomenų pakeitimai, pagrįsti šiuo pasirinkimu. Sužinokite daugiau ir peržiūrėkite pavyzdį, [Kaip atliekamas vaizdinių elementų kryžminis filtravimas „Power BI“ ataskaitoje](https://docs.microsoft.com/en-us/power-bi/consumer/end-user-interactions).
+Vienas iš puikiausių „Power BI“ savybių yra tai visų vaizdinių ataskaitos puslapio elementų ryšys. Jei viename iš vaizdinių elementų pasirenkate duomenų tašką, parodomi visi kiti puslapyje esantys vaizdiniai elementai, kuriuose yra duomenų pakeitimai, pagrįsti šiuo pasirinkimu. Sužinokite daugiau ir peržiūrėkite pavyzdį, [Kaip atliekamas vaizdinių elementų kryžminis filtravimas „Power BI“ ataskaitoje](https://docs.microsoft.com/power-bi/consumer/end-user-interactions).
 
 ## <a name="export-to-excel"></a>Eksportuoti į Excel
 
-Norėdami peržiūrėti ataskaitos duomenis programoje „Excel“, galite spustelėti parinkčių meniu (tris taškus) ir pasirinkti **Eksportuoti pagrindinius duomenis.** Eksportuoti duomenys bus eksportuojami kaip filtruojami, atsižvelgiant į „Attract“ vartotojo teises. Norėdami gauti daugiau informacijos, žr. [Duomenų eksportavimas iš vaizdinių elementų](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-export-data).
+Norėdami peržiūrėti ataskaitos duomenis programoje „Excel“, galite spustelėti parinkčių meniu (tris taškus) ir pasirinkti **Eksportuoti pagrindinius duomenis.** Eksportuoti duomenys bus eksportuojami kaip filtruojami, atsižvelgiant į „Attract“ vartotojo teises. Norėdami gauti daugiau informacijos, žr. [Duomenų eksportavimas iš vaizdinių elementų](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).

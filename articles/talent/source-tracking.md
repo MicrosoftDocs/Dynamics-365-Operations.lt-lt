@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2cfa180f992a4f7a9b2e21e0fb3e0845c7546c94
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518680"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742725"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Kandidatų profilių ir prašymų šaltinių sekimas 
+# <a name="track-candidate-sources"></a>Kandidatų šaltinių sekimas
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE] 
-> Šioje temoje nurodytomis funkcijomis galima naudotis kaip peržiūros leidimo dalimi. Turinys ir funkcijos gali būti keičiami. Norėdami naudotis šia funkcija, paprašykite administratoriaus, kad įjungtų ją „Attract“ naudodamasis sritimi **Administratoriaus parametrai**. Būsimame leidime bus pateiktos šaltinio sekimo ataskaitos. Daugiau informacijos rasite [Prieiga prie „Talent“ peržiūros funkcijų](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature).
+> Šioje temoje nurodytomis funkcijomis galima naudotis kaip peržiūros leidimo dalimi. Turinys ir funkcijos gali būti keičiami. Norėdami naudotis šia funkcija, paprašykite administratoriaus, kad įjungtų ją „Attract“ naudodamasis sritimi **Administratoriaus parametrai**. Būsimame leidime bus pateiktos šaltinio sekimo ataskaitos. Daugiau informacijos rasite [Prieiga prie „Talent“ peržiūros funkcijų](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).
 
 Kai kandidatai kreipiasi dėl darbo, „Attract“ automatiškai seka jų prašymų šaltinį ir suteikia jums vertingos informacijos, kad galėtumėte tinkamai išnaudoti įdarbinimo veiksmus. Įdarbintojai ir samdos vadovai taip pat gali pasirinkti prašymo šaltinį, kai jie neautomatiškai įtraukia kandidatą į darbų arba talentų telkinį.
 
 Prašymo šaltinį galite peržiūrėti prašymų veiklos informacijos skirtuke **Veiklos**, taip pat – prašymų retrospektyvoje, kuri pateikta talentų telkinių skiltyje **Profilis**. Kandidato profilio šaltinį galite rasti kandidato informacijoje skirtuke **Profilis** tiek prašymų, tiek talentų telkiniuose.
 
 > [!NOTE] 
-> Proceso šablonus galite rasti [išsamios įdarbinimo informacijos priede](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> Proceso šablonus galite rasti [išsamios įdarbinimo informacijos priede](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 
 ## <a name="pre-configured-sources"></a>Iš anksto sukonfigūruoti šaltiniai
 
@@ -93,7 +93,7 @@ Numatytajame šaltinių sąraše yra bendri prašymų šaltiniai. Kai kuriems š
 
 ## <a name="customize-the-source-list"></a>Šaltinių sąrašo tinkinimas 
 
-Galite išplėsti šaltinių sąrašą ir įtraukti papildomų prašymų šaltinių. Norėdami tinkinti šį sąrašą, vykdykite instrukcijas, pateiktas temoje [„Attract“ parinkčių rinkinių išplėtimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Redaguokite objektą **TalentSource**, kad įtrauktumėte papildomų šaltinių. 
+Galite išplėsti šaltinių sąrašą ir įtraukti papildomų prašymų šaltinių. Norėdami tinkinti šį sąrašą, vykdykite instrukcijas, pateiktas temoje [„Attract“ parinkčių rinkinių išplėtimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/extensibility-attract#extending-option-sets-in-attract). Redaguokite objektą **TalentSource**, kad įtrauktumėte papildomų šaltinių. 
 
 Norėdami išvengti neigiamos įtakos vartotojo sąsajai (UI), neredaguokite ir nenaikinkite parinkties **TalentCategory** išvardijimo reikšmių (ne pavadinimų), skirtų toliau nurodytiems parametrams.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8e7348a515b08523c15aa8f74d5616a3daf645b7
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518668"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741803"
 ---
 # <a name="reporting-options-in-talent"></a>Ataskaitų parinktys sprendime „Talent“
 
@@ -42,7 +42,7 @@ Vartotojui nepavyksta tinkinti įdėtųjų „Microsoft Power BI“ ataskaitų.
 
 **Sprendimas**
 
-- „Core HR“ duomenis, kurių srautai juda į „Common Data Service for Apps“, skirtą programoms, galima paskelbti naudojantis „PowerApps“ „Common Data Service“ jungtimi su „Power BI Desktop“. Atminkite, kad „Common Data Service“ pateikiamas „Core HR“ duomenų subrinkinys. Daugiau informacijos apie „Power BI“ ir ataskaitų sritis ieškokite temoje [„Power BI“ ataskaitų ir ataskaitų sričių, naudojant „PowerApps Common Data Service“, kūrimas](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi).
+- „Core HR“ duomenis, kurių srautai juda į „Common Data Service for Apps“, skirtą programoms, galima paskelbti naudojantis „PowerApps“ „Common Data Service“ jungtimi su „Power BI Desktop“. Atminkite, kad „Common Data Service“ pateikiamas „Core HR“ duomenų subrinkinys. Daugiau informacijos apie „Power BI“ ir ataskaitų sritis ieškokite temoje [„Power BI“ ataskaitų ir ataskaitų sričių, naudojant „PowerApps Common Data Service“, kūrimas](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Elektronines ataskaitas (ER) galima naudoti kai kurioms „Talent“ ataskaitoms. Kliento kuriamus tinkinimus galima atlikti per ER konfigūravimo pasirinktis.
 - Duomenis į „Microsoft Excel“ arba „Microsoft Word“ galima eksportuoti naudojant įvairius duomenų objektus, pateikiamus „Talent“ integravus jį su „Microsoft Office“.
 

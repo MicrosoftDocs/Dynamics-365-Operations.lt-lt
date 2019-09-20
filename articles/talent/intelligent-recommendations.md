@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
-ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
+ms.openlocfilehash: beb54753c50e398197353f86c2a1239a96b879eb
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620625"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1741757"
 ---
 # <a name="intelligent-recommendations"></a>Sumaniosios rekomendacijos
 
@@ -32,7 +32,7 @@ ms.locfileid: "1620625"
 Naudodamiesi mašininiu mokymu darbdaviai ir samdos vadybininkai gali greitai nustatyti, kurie kandidatai pareigoms tinkamiausi. Potencialūs klientai taip pat gali rasti geriausiai jų profilį ir interesus atitinkančias pareigas. Naudojantis šiomis funkcijomis ir jei pateikiamas atsiliepimas, rekomendacijos bus geresnės.
 
 > [!NOTE] 
-> - Sumaniųjų rekomendacijų funkciją galima naudoti tik kartu su [išsamios įdarbinimo informacijos priedu](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
+> - Sumaniųjų rekomendacijų funkciją galima naudoti tik kartu su [išsamios įdarbinimo informacijos priedu](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).
 > - Šioje temoje nurodytomis funkcijomis galima naudotis kaip peržiūros leidimo dalimi. Turinys ir funkcijos gali būti keičiami. Norėdami naudotis šia funkcija, paprašykite administratoriaus, kad įjungtų ją „Attract“ naudodamasis sritimi **Administratoriaus centras**. Nustatykite **Kandidatų rekomendacija**, **Darbo rekomendacija** ir **Potencialaus kliento rekomendacija** parinktį **Įjungta**. Daugiau informacijos rasite [Prieiga prie „Talent“ peržiūros funkcijų](./access-preview-feature.md). 
 
 

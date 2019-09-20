@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
-ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
+ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "1702823"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742922"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
@@ -52,8 +52,8 @@ Kai integravimas įjungiamas, sukuriamas duomenų eksportavimo paketas bei faila
 
 Daugiau informacijos apie „Azure“ saugyklos paskyras ir „Azure Storage“ jungimosi eilutes rasite šiose „Azure“ temose:
 
-- [Apie „Azure“ saugyklos paskyras](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
-- [„Azure Storage“ jungimosi eilučių konfigūravimas](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+- [Apie „Azure“ saugyklos paskyras](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [„Azure Storage“ jungimosi eilučių konfigūravimas](https://docs.microsoft.com/azure/storage/common/storage-configure-connection-string)
 
 ### <a name="technical-details-when-payroll-integration-is-enabled"></a>Techninė informacija apie algalapių integravimo įjungimą
 
@@ -123,10 +123,10 @@ Kurdami išmokas turėkite omenyje, kad toliau pateikiami duomenys ir konfigūra
 
 Daugiau informacijos apie tai, kaip nustatyti ir tvarkyti išlaidų programą, rasite šiose temose:
 
-- [Pristatyti darbuotojų išmokų programą](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
-- [Kurti naują išmoką](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
-- [Apibrėžti išmokų tinkamumo taisykles ir strategijas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
-- [Užregistruoti ir pašalinti išmokas darbuotojams](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+- [Pristatyti darbuotojų išmokų programą](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [Kurti naują išmoką](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [Apibrėžti išmokų tinkamumo taisykles ir strategijas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [Užregistruoti ir pašalinti išmokas darbuotojams](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
 
 #### <a name="compensation"></a>Kompensacija 
 
@@ -136,20 +136,20 @@ Kompensacijų valdymas naudojamas kontroliuoti pagrindinio užmokesčio ir premi
 
 Daugiau informacijos apie kompensacijų planus rasite šios temose:
 
-- [Pastoviosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-- [Kintamosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
-- [Kurti atlyginimų / kompensavimo struktūrą ir planus](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
-- [Kompensavimo apdorojimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
-- [Kompensavimo proceso nustatymas ir rezultatų skaičiavimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
-- [Darbuotojo įtraukimas į fiksuoto atlyginimo dalies planą](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
-- [Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+- [Pastoviosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [Kintamosios atlyginimo dalies planų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [Kurti atlyginimų / kompensavimo struktūrą ir planus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [Kompensavimo apdorojimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+- [Kompensavimo proceso nustatymas ir rezultatų skaičiavimas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [Darbuotojo įtraukimas į fiksuoto atlyginimo dalies planą](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [Darbuotojo įtraukimas į kintamosios atlyginimo dalies planą](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
 
 #### <a name="jobs"></a>Darbai 
 
 Užduotis yra užduočių ir pareigų, kurias asmeniui reikia įvykdyti, rinkinys. Daugiau informacijos ieškokite šiose temose:
 
-- [Užduoties komponentų nustatymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-job)
-- [Apibrėžti naujas užduotis](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+- [Užduoties komponentų nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-job)
+- [Apibrėžti naujas užduotis](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
 
 ##### <a name="positions"></a>Pareigybės
 
@@ -173,8 +173,8 @@ Jei tame pačiame padalinyje su tuo pačiu darbu susiejamos kelios pareigos, „
 
 Daugiau informacijos ieškokite šiose temose:
 
-- [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
-- [Pareigų nustatymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+- [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](https://docs.microsoft.com/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [Pareigų nustatymas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
 
 #### <a name="departments"></a>Padaliniai
 
@@ -182,8 +182,8 @@ Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkci
 
 Daugiau informacijos ieškokite šiose temose:
 
-- [Padalinio kūrimas ir priskyrimas padalinių hierarchijai](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
-- [Apibrėžti naujus padalinius](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+- [Padalinio kūrimas ir priskyrimas padalinių hierarchijai](https://docs.microsoft.com/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [Apibrėžti naujus padalinius](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
 
 #### <a name="pay-cycles-and-pay-periods"></a>Mokėjimo ciklai ir mokėjimo laikotarpiai
 

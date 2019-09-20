@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 781487997ceb95f4e3f528f47e8ed2aa5b25fd0e
+ms.sourcegitcommit: eb501d8712212a6ed33bec1e3e2c02f994e0a724
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624612"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "1869941"
 ---
 # <a name="provision-talent"></a>„Talent“ parengimas
 
@@ -51,10 +51,10 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
     > [!NOTE]
     > „Talent“ egzemplioriaus tipas yra atskiras ne „PowerApps“ aplinkos egzemplioriaus tipas, kurį nustatote „PowerApps“ administravimo centre.
 3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Talent“ bandomosios versijos patirtyje. Tai yra naudinga ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojama gamybos aplinkose.  Atkreipkite dėmesį į tai, kad turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
-4. „Talent“ visada paruošta „Microsoft PowerApps“ aplinkai, siekiant įgalinti „PowerApps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „PowerApps“ aplinkos pasirinkimas“. Jei dar neturite „PowerApps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „PowerApps“ administravimo centrą. Tada atlikite nurodytus veiksmus, kad [sukurtumėte „PowerApps“ aplinką](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment).
+4. „Talent“ visada paruošta „Microsoft PowerApps“ aplinkai, siekiant įgalinti „PowerApps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „PowerApps“ aplinkos pasirinkimas“. Jei dar neturite „PowerApps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „PowerApps“ administravimo centrą. Tada atlikite nurodytus veiksmus, kad [sukurtumėte „PowerApps“ aplinką](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Norėdami peržiūrėti esamas aplinkas arba kurti naujas aplinkas, nuomotojo administratoriui, kuris paruošia „Talent“, turi būti priskirta „PowerApps“ P2 licencija. Jei jūsų organizacija neturi „PowerApps“ P2 licencijos, galite ją gauti iš savo CSP arba [„PowerApps“ kainų puslapyje](https://powerapps.microsoft.com/en-us/pricing/).
+    > Norėdami peržiūrėti esamas aplinkas arba kurti naujas aplinkas, nuomotojo administratoriui, kuris paruošia „Talent“, turi būti priskirta „PowerApps“ P2 licencija. Jei jūsų organizacija neturi „PowerApps“ P2 licencijos, galite ją gauti iš savo CSP arba [„PowerApps“ kainų puslapyje](https://powerapps.microsoft.com/pricing/).
 
 5. Pasirinkite aplinką, į kurią pateikti „Talent“.
 6. Pasirinkite **Taip**, kad sutiktumėte su sąlygomis ir pradėtumėte diegimą.
@@ -66,11 +66,11 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
     > [!NOTE]
     > Jei dar nesate patvirtinę galutinių reikalavimų, projekte galite įdiegti „Talent“ bandymo egzempliorių. Tada galite naudoti šį egzempliorių, kad išbandytumėte sprendimą, kol patvirtinsite. Jei naudojate naują aplinką bandymams, turite pakartoti šią procedūrą norėdami sukurti gamybos aplinką.
 
-    > Į „Talent“ abonementą galima įtraukti tik dvi LCS aplinkas, todėl galbūt norėsite 60 dienų nemokamai išbandyti [„Talent“ bandomąją aplinką](https://dynamics.microsoft.com/en-us/talent/overview/). Bandomoji aplinka priklauso tam vartotojui, kuris ją užsakė, bet galima pakviesti ir kitus vartotojus per „Core HR“ sistemos administravimo patirtį. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+    > Į „Talent“ abonementą galima įtraukti tik dvi LCS aplinkas, todėl galbūt norėsite 60 dienų nemokamai išbandyti [„Talent“ bandomąją aplinką](https://dynamics.microsoft.com/talent/overview/). Bandomoji aplinka priklauso tam vartotojui, kuris ją užsakė, bet galima pakviesti ir kitus vartotojus per „Core HR“ sistemos administravimo patirtį. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 ## <a name="select-a-powerapps-environment"></a>Pasirinkite „PowerApps“ aplinką
 
-„Talent“ ir „PowerApps“ aplinkų integracija leidžia integruoti ir išplėsti „Talent“ duomenų naudojimą „PowerApps“ priemonėmis. Informacija apie „PowerApps“ aplinkų tikslą ne tik padės sukurti programų, išplečiančių „Talent“ funkcijas, bet ir pagelbės renkantis tinkamą aplinką „Talent“ rengimo metu. Norėdami gauti daugiau informacijos apie „PowerApps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„PowerApps“ aplinkų paskelbimas](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/). 
+„Talent“ ir „PowerApps“ aplinkų integracija leidžia integruoti ir išplėsti „Talent“ duomenų naudojimą „PowerApps“ priemonėmis. Informacija apie „PowerApps“ aplinkų tikslą ne tik padės sukurti programų, išplečiančių „Talent“ funkcijas, bet ir pagelbės renkantis tinkamą aplinką „Talent“ rengimo metu. Norėdami gauti daugiau informacijos apie „PowerApps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„PowerApps“ aplinkų paskelbimas](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Svarstydami, kurias „PowerApps“ aplinkas diegti į „Talent“, pasinaudokite toliau pateiktais nurodymais. 
 
@@ -84,9 +84,9 @@ Svarstydami, kurias „PowerApps“ aplinkas diegti į „Talent“, pasinaudoki
    
     - **Bandomosios aplinkos** – Šios aplinkos kuriamos pritaikant galiojimo laikotarpį ir šiam pasibaigus nebegalios, o jūsų aplinka ir visi joje esantys „Talent“ egzemplioriai bus automatiškai pašalinti.
    
-    - **Nepalaikomi regionai** – Šiuo metu „Talent“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Jungtinėje Karalystėje ir Australijoje.
+    - **Nepalaikomi regionai** – Šiuo metu „Talent“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Europoje, Jungtinėje Karalystėje, Australijoje, Kanadoje ir Azijoje.
   
 6. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
  
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
-Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Tačiau papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Norėdami suteikti prieigą, turėsite pridėti vartotojų ir jiems priskirti atitinkamus vaidmenis „Core HR“ aplinkoje. „Talent“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems nuomotojams–vartotojams.  Kol tai nebus atlikta, kiti vartotojai neturės priegos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Tačiau papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Norėdami suteikti prieigą, turėsite pridėti vartotojų ir jiems priskirti atitinkamus vaidmenis „Core HR“ aplinkoje. „Talent“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems nuomotojams–vartotojams.  Kol tai nebus atlikta, kiti vartotojai neturės priegos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

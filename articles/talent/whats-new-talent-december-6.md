@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 80d62492d58a436c15fac82df0d000ab9efa6ea5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518696"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742591"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
 
@@ -62,7 +62,7 @@ Pradedant nuo platformos 22 naujinimo, operatorius „vienas iš“ filtro srity
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>JK algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
-Integravimą tarp „Dynamics 365 for Talent“ ir „Ceridian Dayforce“ galima peržiūrėti JK. Daugiau informacijos žr. šioje temoje [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/configure-payroll-integration).
+Integravimą tarp „Dynamics 365 for Talent“ ir „Ceridian Dayforce“ galima peržiūrėti JK. Daugiau informacijos žr. šioje temoje [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Jau greitai
 

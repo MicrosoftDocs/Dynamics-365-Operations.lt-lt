@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38641d6a84340112ce15335533795ed7faf91123
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518675"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742498"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 14 d.)
 
@@ -47,7 +47,7 @@ ms.locfileid: "1518675"
 Atlikus šį pakeitimą galėsite pasirinkti kelis darbuotojus ir jiems masiškai priskirti vieną ar kelis kontrolinius sąrašus. 
 
 ### <a name="platform-update-24"></a>Platformos „update 24“
-Papildomos informacijos apie 24 platformos naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ 24 platformos naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Toliau nurodyti reikšmingi 24 platformos pakeitimai. 
+Papildomos informacijos apie 24 platformos naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ 24 platformos naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Toliau nurodyti reikšmingi 24 platformos pakeitimai. 
 
 - Įspėjimai yra įjungti „Talent“.
 - Atnaujinta naršymo juosta dabar yra sulygiuota su „Office“ antrašte.

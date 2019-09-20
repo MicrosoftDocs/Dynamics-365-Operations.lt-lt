@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 25ef0d49c2600833aefa84d404e00c0c57cfbf52
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518625"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856429"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 9 d.)
 
@@ -37,10 +37,10 @@ ms.locfileid: "1518625"
 „Attract“ ir „Onboard“ problemos, kurias registruoja galutiniai vartotojai naudodami pranešimo apie problemą funkciją, dabar automatiškai kuria palaikymo problemas kliento LCS projekte. Tada administratoriai gali suskirstyti problemas ir pateikti jas „Microsoft“, kai reikia. Tai atitinka, kaip „Core HR“ apdoroja galutinių vartotojų palaikymo problemas.
 
 ### <a name="relevance-search"></a>Tinkamumo ieška
-Dabar talentų telkiniuose galite ieškoti visoje kandidatų duomenų bazėje konkrečių įgūdžių, vardų bei pavardžių arba išsilavinimo informacijos. Jums nebereikia nurodyti, kurioje kandidato profilio skiltyje norite ieškoti. „Attract“ ieško visame profilyje ir paryškina visus atitikmenis. „Attract“ taip pat ieško visuose kandidato dokumentuose ir išmaniai rikiuoja ieškos rezultatus. Be to, galite filtruoti rezultatus pagal šaltinį arba pagal tai, ar kandidatas yra sidabro medalio laimėtojas. Daugiau informacijos žr. [Kandidatų profilių ieška ir peržiūra](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
+Dabar talentų telkiniuose galite ieškoti visoje kandidatų duomenų bazėje konkrečių įgūdžių, vardų bei pavardžių arba išsilavinimo informacijos. Jums nebereikia nurodyti, kurioje kandidato profilio skiltyje norite ieškoti. „Attract“ ieško visame profilyje ir paryškina visus atitikmenis. „Attract“ taip pat ieško visuose kandidato dokumentuose ir išmaniai rikiuoja ieškos rezultatus. Be to, galite filtruoti rezultatus pagal šaltinį arba pagal tai, ar kandidatas yra sidabro medalio laimėtojas. Daugiau informacijos žr. [Kandidatų profilių ieška ir peržiūra](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-talent-pools#search-and-view-candidate-profiles).
 
 ### <a name="prospect-recommendations"></a>Potencialaus kliento rekomendacijos
-Suaktyvinus „Attract“ gali padėti pritraukti darbo šaltinių ir teikti išmanias kandidatų rekomendacijas iš jūsų organizacijos kandidatų duomenų bazės. Rekomendacijos apima įgūdžių ir išsilavinimo informaciją, nustatytą ieškant tinkamų kandidatų. Šios rekomendacijos rodomos darbo skirtuke **Kandidatai**, jei jas suaktyvinsite darbo samdos proceso metu. Daugiau informacijos žr. [Kandidatų rekomendacijos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
+Suaktyvinus „Attract“ gali padėti pritraukti darbo šaltinių ir teikti išmanias kandidatų rekomendacijas iš jūsų organizacijos kandidatų duomenų bazės. Rekomendacijos apima įgūdžių ir išsilavinimo informaciją, nustatytą ieškant tinkamų kandidatų. Šios rekomendacijos rodomos darbo skirtuke **Kandidatai**, jei jas suaktyvinsite darbo samdos proceso metu. Daugiau informacijos žr. [Kandidatų rekomendacijos](https://docs.microsoft.com/dynamics365/unified-operations/talent/intelligent-recommendations#prospect-recommendations).
 
 ### <a name="interviewer-availability-statuses"></a>Kalbintojo pasiekiamumo būsenos
 Pokalbio planuotojai greitai galės peržiūrėti kalbintojų būsenas **Ne biure, dirba kitur**, kad būtų galima suplanuoti laiką, kuris labiau tinka kalbintojams.

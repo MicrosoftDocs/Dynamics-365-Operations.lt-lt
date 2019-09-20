@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
-ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
+ms.openlocfilehash: cb9e01316f4b154a3e9a73042eaf0492f016c46c
+ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "1617348"
+ms.lasthandoff: 07/12/2019
+ms.locfileid: "1742722"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>„Dynamics 365 for Talent“ ir „Dynamics 365 for Finance and Operations“ integravimo DUK
 
@@ -38,7 +38,7 @@ Naudojant „Attract“ ir „Onboard“, visi duomenys yra integruoti į „Com
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Ar galiu sukurti naują susiejimą nenaudodamas šablonų?
 
-Šablonai yra pradinis taškas. Galite sukurti savo šabloną, tačiau šablonas visada reikalingas kuriant integracijos projektą. Daugiau informacijos apie duomenų integratorių (DI), šablonus ir projektus žr. [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+Šablonai yra pradinis taškas. Galite sukurti savo šabloną, tačiau šablonas visada reikalingas kuriant integracijos projektą. Daugiau informacijos apie duomenų integratorių (DI), šablonus ir projektus žr. [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-talent-and-finance-and-operations"></a>Ar galiu susieti finansines dimensijas ir perkelti iš „Talent“ į „Finance and Operations“ arba atvirkščiai?
 
@@ -133,7 +133,7 @@ Integravimas su „Finance and Operations“ yra dviejų veiksmų procesas. Pirm
 
 Jei duomenys nėra rodomi „Common Data Service“, kaip tikėtasi, patikrinkite, ar objektas palaikomas integracijoje. Norint įtraukti papildomų duomenų į „Common Data Service“, pakeitimą turi atlikti „Microsoft“.
 
-Jei objektas yra palaikomas ir duomenys yra teikiami „Common Data Service“, patikrinkite, ar susiejimas yra tinkamas duomenų integratoriuje. Jei integratoriaus susiejimas atrodo tinkamai, tada patikrinkite, ar duomenų valdymo užduotys sėkmingai įvykdytos. Paketinių užduočių vykdymo metu gali kilti klaidų. Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
+Jei objektas yra palaikomas ir duomenys yra teikiami „Common Data Service“, patikrinkite, ar susiejimas yra tinkamas duomenų integratoriuje. Jei integratoriaus susiejimas atrodo tinkamai, tada patikrinkite, ar duomenų valdymo užduotys sėkmingai įvykdytos. Paketinių užduočių vykdymo metu gali kilti klaidų. Daugiau informacijos apie duomenų valdymą žr. [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json).
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-and-operations-what-should-i-do"></a>Mano darbuotojų adresai yra netikslūs juos importavus į „Finance and Operations“. Ką daryti?
 
@@ -145,7 +145,7 @@ Jei objektas yra palaikomas ir duomenys yra teikiami „Common Data Service“, 
 
 Įsitikinkite, kad kurdami jungtis pasirenkate „Dynamics 365 for Finance and Operations“ (šiuo metu – peržiūroje) ir „Common Data Service“.
 
-## <a name="when-syncing-employments-i-get-the-errors-companyinfofk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Sinchronizuojant įdiegtis gaunamos klaidos „CompanyInfo_FK doesn’t exist“ arba „The value '12/31/2154 11:59:59 pm' in field 'Employment end date' is not found in the related table 'Employment'.“ Ką daryti?
+## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Sinchronizuojant įdiegtis gaunamos klaidos „CompanyInfo_FK doesn’t exist“ arba „The value '12/31/2154 11:59:59 pm' in field 'Employment end date' is not found in the related table 'Employment'.“ Ką daryti?
 
 Įsitikinkite, kuria siejate tinkamus juridinius subjektus. Juridinių subjektų sinchronizavimas nėra numatytojo šablono dalis, todėl tikimasi, kad kiekvienas juridinis subjektas, esantis „Talent“ ir „Common Data Service“, taip pat bus ir „Finance and Operations“.
 Taip pat įsitikinkite, kad, esate pasirinkę tinkamus susieto jungčių rinkinio juridinius subjektus.
@@ -160,12 +160,12 @@ Atnaujinkite duomenų objektus „Finance and Operations“ pasirinkdami **Duome
 
 - Duomenų integratorius (DI): 
 
-  - [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)
+  - [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
-  - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator-error-management)
+  - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „PowerApps“, „Microsoft Flow“ ir „Common Data Service“](https://docs.microsoft.com/en-us/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „PowerApps“, „Microsoft Flow“ ir „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Duomenų valdymas:
 
-  - [Duomenų valdymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Duomenų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)

@@ -3,7 +3,7 @@ title: Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
 description: Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
 author: hasrivas
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 07/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1e76572c1a843fe7abd515333d5b7cb03b91eb11
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
+ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518636"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "1773266"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
+# <a name="create-a-job"></a>Darbo vietos kūrimas
 
 [!include [banner](includes/banner.md)]
 
@@ -81,33 +81,6 @@ Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija spr
 > [!NOTE]
 > Darbo registravimo funkciją galima naudoti tik turint „Attract“ skirtą išsamios įdarbinimo informacijos priedą.
 
-### <a name="posting-jobs-to-linkedin"></a>Darbo vietų registravimas „LinkedIn“ 
-
-Prieš registruodamas „Attract“ darbą sistemoje „LinkedIn“, administratorius turi įtraukti „LinkedIn“ įmonės ID ir „LinkedIn“ įmonės pavadinimą skiltyje **Administravimo parametrai**. „LinkedIn“ įmonės ID yra būtinas siekiant užtikrinti, kad jūsų užregistruoti „Attract“ darbai būtų susieti su tinkamos įmonės puslapiu.
-
-Jūsų „LinkedIn“ įmonės ID yra skaičių, kurie unikaliai identifikuoja jūsų įmonę sistemoje „LinkedIn“ eilutė. Norėdami daugiau informacijos apie tai, kaip rasti savo „LinkedIn“ įmonės ID, apsilankykite [„LinkedIn“ svetainėje](https://aka.ms/findID).
-
-Norėdami naujinti savo „LinkedIn“ įmonę, pasirinkite parinktį **Administravimo centras** , pateiktą meniu **Parametrai**  (įrankių simbolis), o tada pasirinkite skirtuką **„LinkedIn“ integravimas.**  Skiltyje **Prisijungti prie „LinkedIn“** įveskite savo „LinkedIn“ įmonės pavadinimą ir įmonės ID, tada įrašykite parametrus.
-
-> [!NOTE]
-> Kalbant apie darbo skelbimą „LinkedIn“ sistemoje, reikia atkreipti dėmesį į keturis svarbius dalykus.
-> 1. Darbai, skelbiami „LinkedIn“ sistemoje, skelbiami kaip darbai sąraše „Apriboti skelbimai“. Darbai apribotuose sąrašuose negali būti perkelti į aukštesnį lygį „LinkedIn“ svetainėje. Jei norite perkelti apribotuose sąrašuose esančius darbus, paskelbtus „LinkedIn“ sistemoje iš „Attract“, turėtumėte dirbti su „LinkedIn“, kad įgalintumėte „automatinį darbų skelbimą“. Spustelėkite toliau pateiktus saitus ir susisiekite su „LinkedIn“ palaikymo tarnyba, kad gautumėte daugiau informacijos.
->
->    [Apriboti skelbimai palyginti su „Premium“ darbų vietomis naudojant automatinį darbų skelbimą](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
->
->    [Automatinio darbų skelbimo DUK](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
->
-> 1. Skelbiant darbo vietas „LinkedIn“ sistemoje, „Attract“ perduoda ir darbo vietai priskiria „Microsoft 365“ organizacijos pavadinimą. „LinkedIn“ susieja darbo vietas su įmone „LinkedIn“ sistemoje pagal perduotą organizacijos pavadinimą. Jei jūsų darbo vieta paskelbta su neteisinga įmone „LinkedIn“ sistemoje, patikrinkite, ar jūsų „Microsoft 365“ organizacijos pavadinimas sutampa su įmonės pavadinimu „LinkedIn“ tinkle.  
->
->    [Adreso, kontaktų ir kt. keitimas](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
->
->    Jei kyla problemų po šio veiksmo, susisiekite su „LinkedIn“ palaikymo tarnyba. 
-> 
-> 1. „LinkedIn“ užregistruoti darbai rodomi „LinkedIn“ svetainėje realiuoju laiku. Darbų registravimo „LinkedIn“ tikrinimo aplinkos nėra. 
->
-> 1. Dėl dabartinio „LinkedIn“ paketinio darbo vietų skelbimo proceso gali praeiti 24 valandos, kol „LinkedIn“ tinkle paskelbtos darbo vietos bus matomos kandidatams „LinkedIn“ svetainėje.
-
-
 ## <a name="activate"></a>Aktyvinti
 
 Suaktyvinus darbą, galima jį užregistruoti ir į jį įtraukti potencialių klientų bei pretendentų. Potencialaus kliento įtraukimo į darbą parinktis nustatoma samdos proceso potencialaus kliento veikloje.
@@ -142,7 +115,7 @@ Jei vartotojas redaguoja patvirtintą, bet nesuaktyvintą darbo vietą, jos būs
 Žmonės, kurie nurodyti kaip tvirtintojai, gaus pranešimą sprendime „Attract“ ir el. laišką, kurie nurodys, kad jie turi patvirtinti elementą.  El. laiške tvirtintojai gali spustelėti saitą ir atidaryti darbo vietą, peržiūrėti išsamią informaciją bei patvirtinti arba atmesti. Kai darbo vietos būsena bus nustatyta kaip **Patvirtinta** arba **Atmesta**, pateikėjui apie tai bus pranešta sprendime „Attract“ ir jis gaus el. laišką. Be to, jei tvirtintojai nebus atsakę į patvirtinimo užklausą per 24 valandas, jie gaus priminimo el. laišką.
 
 > [!NOTE]
-> Galite kurti pasirinktinius patvirtinimo el. laiškų šablonus. Norėdami gauti daugiau informacijos, žr. [El. laiškų šablonų kūrimas ir tvarkymas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/email-templates).
+> Galite kurti pasirinktinius patvirtinimo el. laiškų šablonus. Norėdami gauti daugiau informacijos, žr. [El. laiškų šablonų kūrimas ir tvarkymas](https://docs.microsoft.com/dynamics365/unified-operations/talent/email-templates).
 
 ## <a name="create-a-job"></a>Užduoties sukūrimas
 
