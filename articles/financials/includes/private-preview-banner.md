@@ -1,2 +1,0 @@
- [!IMPORTANT]
-> <span data-ttu-id="51aee-101">Šioje temoje nurodytos funkcijos, kurias gali naudoti tiksliniai vartotojai, yra privačiosios peržiūros versijos leidimo dalis.</span><span class="sxs-lookup"><span data-stu-id="51aee-101">Functionality noted in this topic is available to targeted users as part of a private preview release.</span></span> <span data-ttu-id="51aee-102">Turinys ir funkcijos gali būti keičiami.</span><span class="sxs-lookup"><span data-stu-id="51aee-102">The content and the functionality are subject to change.</span></span> 
