@@ -10,7 +10,7 @@ Prieš tęsdami turite įsitikinti, kad įvykdytos šios būtinosios sąlygos:
     
 2. Jei atnaujinate iš „Microsoft Dynamics AX 2012“, prieš paleisdami duomenų atnaujinimą įdiekite šias programos X++ pataisas paskirties aplinkoje:
     - KB 4033183 – „Dynamics AX 2012 R2“ arba „Dynamics AX 2012 R3 Pre-CU8“ nemažmeninės prekybos versijos naujinimas nepavyksta dėl nerasto objekto dbo.RETAILTILLLAYOUTZONE.
-    - KB 4040692 – „Dynamics AX2012 R3 Microsoft Dynamics 365 for Operations“ 7.2 versijos naujinimas nepavyksta RetailSalesLine dublikato indekse SalesLineIdx.
+    - KB 4040692 – „Dynamics AX 2012 R3 Microsoft Dynamics 365 for Operations“ 7.2 versijos naujinimas nepavyksta RetailSalesLine dublikato indekse SalesLineIdx.
     - KB 4035490 – veikimo triktis dėl GeneralJournalAccountEntry lauko MainAccount versijos naujinimo scenarijaus.
 
 
@@ -18,7 +18,7 @@ Atlikite šiuos veiksmus, norėdami paleisti aplinkos papildymo įrankį.
 
 1. Bendrai naudojamo turto bibliotekoje pasirinkite **Programinės įrangos visuotinio diegimo paketą**.
 2. Atsisiųskite aplinkos papildymo įrankį.
-3. Projekto turto bibliotekoje pasirinkite **Programinės įrangos visuotinio diegimo paketą**.
+3. Projekto išteklių bibliotekoje pasirinkite **Programinės įrangos visuotinio diegimo paketą**.
 4. Pasirinkite **Naujas**, kad sukurtumėte naują paketą.
 5. Įveskite paketo pavadinimą ir aprašymą. Paketą galite pavadinti **Aplinkos papildymo įrankis**.
 6. Įkelkite paketą, kurį atsisiuntėte anksčiau.

@@ -1,6 +1,6 @@
 ---
 title: Savikainos konfigūravimas naudojant paskirstytų užsakymų tvarkymo (DOM) funkciją
-description: Šioje temoje aprašomas savikainos konfigūravimas naudojant „Microsoft Dynamics 365 for Retail“ paskirstytų užsakymų tvarkymo (DOM) funkciją.
+description: Šioje temoje aprašomas savikainos konfigūravimas naudojant „Dynamics 365 Retail“ paskirstytų užsakymų tvarkymo (DOM) funkciją.
 author: josaw1
 manager: AnnBe
 ms.date: 12/05/2018
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-12-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 80e7a033467c3d94d55f06daa05f99bd27e19a29
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: b5e3e1997f3d3b61b7b3c7486f5531e386293537
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606784"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019444"
 ---
 # <a name="cost-configuration-for-distributed-order-management-dom"></a>Savikainos konfigūravimas naudojant paskirstytų užsakymų tvarkymo (DOM) funkciją
 
@@ -31,7 +31,7 @@ ms.locfileid: "1606784"
 
 Siekdamos nustatyti optimalią vietą, iš kurios būtų galima įvykdyti užsakymą, organizacijos apsvarsto keletą savikainos komponentų. Kai kurie iš šių savikainos komponentų yra siuntimo savikaina, tvarkymo savikaina ir pakavimo savikaina. Siekiant nustatyti įvykdymo vietą, apskaičiuojamas šių savikainų derinys.
 
-Kai, naudojant pirmąją „Microsoft Dynamics 365 for Retail“ paskirstytų užsakymų tvarkymo (DOM) funkciją, optimizuotas užsakymų priskyrimas įvykdymo vietoms, buvo atsižvelgiama tik į atstumą. Nors atstumas gali būti susijęs su savikaina, tai nėra tas pats. Pavyzdžiui, kai atstumas yra toks pats, siuntimo naktį būdas kainuoja daugiau, nei siuntimas per tris dienas ar siuntimas per septynias dienas.
+Kai, naudojant pirmąją „Dynamics 365 Retail“ paskirstytų užsakymų tvarkymo (DOM) funkciją, optimizuotas užsakymų priskyrimas įvykdymo vietoms, buvo atsižvelgiama tik į atstumą. Nors atstumas gali būti susijęs su savikaina, tai nėra tas pats. Pavyzdžiui, kai atstumas yra toks pats, siuntimo naktį būdas kainuoja daugiau, nei siuntimas per tris dienas ar siuntimas per septynias dienas.
 
 Savikainos konfigūravimo funkcija mažmenininkams leidžia nustatyti ir konfigūruoti papildomus savikainos komponentus, kurie bus apskaičiuojami ir į kuriuos bus atsižvelgiama siekiant nustatyti optimalią vietą, iš kurios būtų galima įvykdyti užsakymų eilutes.
 
