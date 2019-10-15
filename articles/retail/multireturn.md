@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų užsakymų ir SF grąžinamos prekės
-description: Šioje temoje aprašomos funkcijos, kurios leidžia atlikti kelių klientų užsakymų ir SF „Microsoft Dynamics 365 for Retail“ grąžinimus.
+description: Šioje temoje aprašomos funkcijos, padedančios atlikti kelių klientų užsakymų ir SF grąžinimus „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,27 +18,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565305"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017994"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="af03d-103">Kelių klientų užsakymų ir SF grąžinamos prekės</span><span class="sxs-lookup"><span data-stu-id="af03d-103">Return items across multiple customer orders and invoices</span></span>
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="c8871-103">Kelių klientų užsakymų ir SF grąžinamos prekės</span><span class="sxs-lookup"><span data-stu-id="c8871-103">Return items across multiple customer orders and invoices</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="af03d-104">„Dynamics 365 for Finance and Operations“ 10.0 versijoje galima atlikti kelių užsakymų ir SF grąžinimus, kai senesnėse nei 10.0 versijose vienu metu galima apdoroti tik vienos SF grąžinimus.</span><span class="sxs-lookup"><span data-stu-id="af03d-104">In Dynamics 365 for Finance and Operations version 10.0, returns can be made across multiple orders and invoices, whereas in releases prior to 10.0, returns could only be processed by a single invoice at a time.</span></span> 
+<span data-ttu-id="c8871-104">Gali būti atliekami kelių užsakymų ir SF grąžinimai.</span><span class="sxs-lookup"><span data-stu-id="c8871-104">Returns can be made across multiple orders and invoices.</span></span> 
 
-## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="af03d-105">Konfigūruokite „Retail“, kad būtų palaikomi kelių kliento užsakymų ir SF grąžinimai</span><span class="sxs-lookup"><span data-stu-id="af03d-105">Configure Retail to support returns across multiple customer order and invoices</span></span>
+## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="c8871-105">Konfigūruokite „Retail“, kad būtų palaikomi kelių kliento užsakymų ir SF grąžinimai</span><span class="sxs-lookup"><span data-stu-id="c8871-105">Configure Retail to support returns across multiple customer order and invoices</span></span>
 
-1. <span data-ttu-id="af03d-106">Eikite į **„Retail“ parametrai \> Klientų užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="af03d-106">Go to **Retail parameters \> Customer orders**.</span></span>
-1. <span data-ttu-id="af03d-107">Įjunkite parametrą **Įjungti kelių užsakymų grąžinimus**.</span><span class="sxs-lookup"><span data-stu-id="af03d-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
+1. <span data-ttu-id="c8871-106">Eikite į **„Retail“ parametrai \> Klientų užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="c8871-106">Go to **Retail parameters \> Customer orders**.</span></span>
+1. <span data-ttu-id="c8871-107">Įjunkite parametrą **Įjungti kelių užsakymų grąžinimus**.</span><span class="sxs-lookup"><span data-stu-id="c8871-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
 
-## <a name="process-returns"></a><span data-ttu-id="af03d-108">Grąžinimų apdorojimas</span><span class="sxs-lookup"><span data-stu-id="af03d-108">Process returns</span></span>
+## <a name="process-returns"></a><span data-ttu-id="c8871-108">Grąžinimų apdorojimas</span><span class="sxs-lookup"><span data-stu-id="c8871-108">Process returns</span></span>
 
-<span data-ttu-id="af03d-109">Įjungus šį parametrą ir pakeitimus sinchronizavus su parduotuvėmis, parduotuvės kasininkas gali pasirinkti kelis kliento pardavimo užsakymus dėl grąžinimo.</span><span class="sxs-lookup"><span data-stu-id="af03d-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
+<span data-ttu-id="c8871-109">Įjungus šį parametrą ir pakeitimus sinchronizavus su parduotuvėmis, parduotuvės kasininkas gali pasirinkti kelis kliento pardavimo užsakymus dėl grąžinimo.</span><span class="sxs-lookup"><span data-stu-id="c8871-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
 
-<span data-ttu-id="af03d-110">Pasirinkus užsakymus, bus parodytas visų grąžintinų produktų iš visų užsakymų SF sąrašas.</span><span class="sxs-lookup"><span data-stu-id="af03d-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="af03d-111">Tada kasininkas gali pasirinkti grąžintinus produktus.</span><span class="sxs-lookup"><span data-stu-id="af03d-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="af03d-112">Sukuriamas vienas grąžinimo užsakymas visiems pasirinktiems produktams.</span><span class="sxs-lookup"><span data-stu-id="af03d-112">A single return order will be created for all the selected products.</span></span>
+<span data-ttu-id="c8871-110">Pasirinkus užsakymus, bus parodytas visų grąžintinų produktų iš visų užsakymų SF sąrašas.</span><span class="sxs-lookup"><span data-stu-id="c8871-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="c8871-111">Tada kasininkas gali pasirinkti grąžintinus produktus.</span><span class="sxs-lookup"><span data-stu-id="c8871-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="c8871-112">Sukuriamas vienas grąžinimo užsakymas visiems pasirinktiems produktams.</span><span class="sxs-lookup"><span data-stu-id="c8871-112">A single return order will be created for all the selected products.</span></span>

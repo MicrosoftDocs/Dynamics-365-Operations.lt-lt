@@ -1,13 +1,21 @@
 - name: „Dynamics 365 for Talent”
-  href: index.md
+  href: index.yml
   items:
-    - name: Darbo pradžia
+    - name: Pradžia
       items:
         - name: Darbo su „Talent“ pradžia
           href: talent-get-started.md
         - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: "2019\_m. spalio 1\_d."
+              href: whats-new-talent-october-1-2019.md
+            - name: "2019\_m. rugsėjo 17\_d."
+              href: whats-new-talent-september-17-2019.md
+            - name: "2019\_m. rugsėjo 10\_d."
+              href: whats-new-talent-september-12-2019.md
+            - name: 2019 m. rugpjūčio 27 d.
+              href: whats-new-talent-august-28-2019.md
             - name: 2019 m. rugpjūčio 22 d.
               href: whats-new-talent-august-21-2019.md
             - name: 2019 m. rugpjūčio 13 d.
@@ -24,16 +32,16 @@
               href: whats-new-talent-july-9-2019.md
             - name: 2019 m. liepos 2 d.
               href: whats-new-talent-july-2-2019.md
-            - name: 2019 m. birželio 25 d.
-              href: whats-new-talent-june-25-2019.md
-            - name: 2019 m. birželio 18 d.
-              href: whats-new-talent-june-18-2019.md
-            - name: 2019 m. birželio 11 d.
-              href: whats-new-talent-june-11-2019.md
-            - name: 2019 m. birželio 4 d.
-              href: whats-new-talent-june-4-2019.md
             - name: 2019 m. skyriaus „Kas nauja“ archyvai
               items:
+                - name: 2019 m. birželio 25 d.
+                  href: whats-new-talent-june-25-2019.md
+                - name: 2019 m. birželio 18 d.
+                  href: whats-new-talent-june-18-2019.md
+                - name: 2019 m. birželio 11 d.
+                  href: whats-new-talent-june-11-2019.md
+                - name: 2019 m. birželio 4 d.
+                  href: whats-new-talent-june-4-2019.md
                 - name: 2019 m. gegužės 28 d.
                   href: whats-new-talent-may-28-2019.md
                 - name: 2019 m. gegužės 21 d.
@@ -116,7 +124,7 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: „Core HR“ ir „Common Data Service“
           href: CoreHREntities.md
-        - name: „Talent“ palaikymo gavimas
+        - name: Pagalba dėl „Talent“
           href: talent-support.md
     - name: Organizacijos aprūpinimas personalu naudojant „Attract“
       items:
@@ -427,6 +435,8 @@
           href: corehr-custom-fields.md
     - name: „Talent“ trikčių diagnostika
       items:
+        - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
+          href: talent-batch-history-cleanup.md
         - name: Darbo skelbimų publikavimo „LinkedIn“ trikčių šalinimas
           href: attract-troubleshoot-linkedin.md
         - name: Neatnaujinamos analizės ataskaitos
