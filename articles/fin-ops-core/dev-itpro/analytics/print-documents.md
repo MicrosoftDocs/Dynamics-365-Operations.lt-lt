@@ -1,0 +1,77 @@
+---
+title: Dokumento spausdinimo apžvalga
+description: Dokumentus galima spausdinti naudojant vietinį spausdintuvą arba per tinklą prijungtą įrenginį. Šiame straipsnyje pateikiama dokumentų spausdinimo apžvalga.
+author: TJVass
+manager: AnnBe
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+audience: IT Pro, Application User
+ms.reviewer: kfend
+ms.search.scope: Operations, Core
+ms.custom: 69161
+ms.assetid: 7815bddd-c4f4-4bc3-a29b-315458065374
+ms.search.region: Global
+ms.author: tjvass
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8c8475e26d9a2234d4c429ef1b5e482ac06fde08
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2182904"
+---
+# <a name="document-printing-overview"></a><span data-ttu-id="acc43-104">Dokumento spausdinimo apžvalga</span><span class="sxs-lookup"><span data-stu-id="acc43-104">Document printing overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="acc43-105">Dokumentus galima spausdinti naudojant vietinį spausdintuvą arba per tinklą prijungtą įrenginį.</span><span class="sxs-lookup"><span data-stu-id="acc43-105">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="acc43-106">Šiame straipsnyje pateikiama dokumentų spausdinimo apžvalga.</span><span class="sxs-lookup"><span data-stu-id="acc43-106">This article provides an overview of how documents are printed.</span></span>
+
+## <a name="printing-overview"></a><span data-ttu-id="acc43-107">Spausdinimo apžvalga</span><span class="sxs-lookup"><span data-stu-id="acc43-107">Printing overview</span></span>
+
+<span data-ttu-id="acc43-108">Programoje pateikiamos integruotos tarnybos ir kliento programos, kurias naudojant lengva kurti, saugoti ir platinti dokumentus, kurie palaiko verslo veiklą.</span><span class="sxs-lookup"><span data-stu-id="acc43-108">The application provides integrated services and client applications that make it easy to generate, store, and distribute documents that support business activity.</span></span> <span data-ttu-id="acc43-109">Dokumentus galima spausdinti naudojant vietinį spausdintuvą arba per tinklą prijungtą įrenginį.</span><span class="sxs-lookup"><span data-stu-id="acc43-109">You can print documents by using either a local printer or a network-connected device.</span></span> <span data-ttu-id="acc43-110">Be to, puslapius ir ataskaitas galite eksportuoti tiesiogiai iš kliento kaip PDF failus arba „Microsoft Office“ dokumentus.</span><span class="sxs-lookup"><span data-stu-id="acc43-110">In addition, you can export pages and reports directly from the client, as PDF files or Microsoft Office documents.</span></span> <span data-ttu-id="acc43-111">Galiausiai, paskirstytas darbo krūvis suteikia galimybę spausdinti verslo dokumentus tiesiai iš mobiliojo įrenginio naudojant tinklo išteklius.</span><span class="sxs-lookup"><span data-stu-id="acc43-111">Finally, the distributed workload lets you print business documents directly from a mobile device by using network resources.</span></span> <span data-ttu-id="acc43-112">Nors spausdinimo reikalavimai gali skirtis, visose pramonės šakose paprastai turi būti sukurtos popierinės verslo dokumentų kopijos naudojant programą.</span><span class="sxs-lookup"><span data-stu-id="acc43-112">Although printing requirements might vary, all industries typically must create hard copies of business documents by using the application.</span></span> <span data-ttu-id="acc43-113">Dokumentų spausdinimas per tinklo įrenginius iš nuomojamų programų sukelia unikalių problemų.</span><span class="sxs-lookup"><span data-stu-id="acc43-113">Printing documents on network devices from hosted applications presents a unique set of challenges.</span></span> <span data-ttu-id="acc43-114">Štai keletas pavyzdžių:</span><span class="sxs-lookup"><span data-stu-id="acc43-114">Here are some examples:</span></span>
+
+- <span data-ttu-id="acc43-115">Vartotojo įrenginyje gali nebūti spausdinimo tvarkyklių.</span><span class="sxs-lookup"><span data-stu-id="acc43-115">Print drivers might not be available on the user's device.</span></span>
+- <span data-ttu-id="acc43-116">Vartotojo įrenginys gali būti neprijungtas prie įmonės tinklo.</span><span class="sxs-lookup"><span data-stu-id="acc43-116">The user's device might not be connected to the corporate network.</span></span>
+
+<span data-ttu-id="acc43-117">Naudodami specialiai tam skirtą pagrindinį kompiuterį ir vykdydami šiuos lengvus veiksmus, sistemos administratoriai gali konfigūruoti įdiegtis, kad vartotojai galėtų spausdinti tiesiai iš verslo programų per tinklo įrenginius.</span><span class="sxs-lookup"><span data-stu-id="acc43-117">By using a dedicated host and following a few easy steps, system administrators can configure deployments so that users can print directly from business applications on network devices.</span></span>
+
+### <a name="application-printing-scenarios"></a><span data-ttu-id="acc43-118">Spausdinimo scenarijai programose</span><span class="sxs-lookup"><span data-stu-id="acc43-118">Application printing scenarios</span></span> 
+
+<span data-ttu-id="acc43-119">Šioje lentelėje aprašomi trys pirminiai spausdinimo scenarijai.</span><span class="sxs-lookup"><span data-stu-id="acc43-119">The following table describes the three primary printing scenarios.</span></span>
+
+| <span data-ttu-id="acc43-120">Scenarijus</span><span class="sxs-lookup"><span data-stu-id="acc43-120">Scenario</span></span>                        | <span data-ttu-id="acc43-121">Tikslas</span><span class="sxs-lookup"><span data-stu-id="acc43-121">Goal</span></span>                                                      | <span data-ttu-id="acc43-122">Sprendimas</span><span class="sxs-lookup"><span data-stu-id="acc43-122">Solution</span></span> |
+|---------------------------------|-----------------------------------------------------------|----------|
+| <span data-ttu-id="acc43-123">1. Matomo vaizdo spausdinimas</span><span class="sxs-lookup"><span data-stu-id="acc43-123">1. Printing what you see</span></span>        | <span data-ttu-id="acc43-124">Spausdinkite tai, kas šiuo metu rodoma naršyklėje.</span><span class="sxs-lookup"><span data-stu-id="acc43-124">Print what is currently shown in the browser.</span></span>             | <span data-ttu-id="acc43-125">Sugeneruojama spausdinti tinkama naršyklės ekrano versija.</span><span class="sxs-lookup"><span data-stu-id="acc43-125">A "print-friendly" version of the webpage is generated for the browser.</span></span> |
+| <span data-ttu-id="acc43-126">2. Interaktyvus spausdinimas</span><span class="sxs-lookup"><span data-stu-id="acc43-126">2. Interactive printing</span></span>         | <span data-ttu-id="acc43-127">Spausdinkite tikslų dokumentą vietiniame prijungtame įrenginyje.</span><span class="sxs-lookup"><span data-stu-id="acc43-127">Print a precision document on a locally connected device.</span></span> | <span data-ttu-id="acc43-128">Galite eksportuoti ataskaitos PDF versiją ir atsisiųsti ją į naršyklę.</span><span class="sxs-lookup"><span data-stu-id="acc43-128">You can export a PDF version of the report and download it to the browser.</span></span> |
+| <span data-ttu-id="acc43-129">3. Spausdinimas tinklo įrenginyje</span><span class="sxs-lookup"><span data-stu-id="acc43-129">3. Printing on a network device</span></span> | <span data-ttu-id="acc43-130">Išsiųskite tikslų dokumentą į domeno spausdintuvo įrenginį.</span><span class="sxs-lookup"><span data-stu-id="acc43-130">Send a precision document to a domain printer device.</span></span>     | <span data-ttu-id="acc43-131">Tikslus dokumentas siunčiamas į kliento programą, veikiančią serveryje, kuris nuomojamas kliento domene.</span><span class="sxs-lookup"><span data-stu-id="acc43-131">A precision document is sent to a client application that runs on a server that is hosted in the customer's domain.</span></span> |
+
+<span data-ttu-id="acc43-132">Kadangi sprendimas priklauso nuo scenarijaus, programos suteikia integruotas tarnybas ir įrankius, kad vartotojai galėtų lengviau pasiekti savo tikslus.</span><span class="sxs-lookup"><span data-stu-id="acc43-132">Because the solution varies, depending on the scenario, applications provide built-in services and tooling to help users accomplish their goals:</span></span>
+
+- <span data-ttu-id="acc43-133">**1 scenarijų** palaiko HTML5 kliento naršyklės atvaizdavimas.</span><span class="sxs-lookup"><span data-stu-id="acc43-133">**Scenario 1** is supported by the browser's rendering of the HTML5 client.</span></span>
+- <span data-ttu-id="acc43-134">**2 scenarijų** naudoja kliento programos ir „Microsoft Office 365“ tarnybos.</span><span class="sxs-lookup"><span data-stu-id="acc43-134">**Scenario 2** uses client applications and Microsoft Office 365 services.</span></span>
+- <span data-ttu-id="acc43-135">**3 scenarijui** būtinas palaikymas iš kliento programų ir paslaugų, kurios nuomojamos „Microsoft Azure“.</span><span class="sxs-lookup"><span data-stu-id="acc43-135">**Scenario 3** requires support from client applications and from services that are hosted in Microsoft Azure.</span></span>
+
+<span data-ttu-id="acc43-136">Be platformos, kuri yra įdiegta „Azure“ prenumeratoje, „Finance and Operations“ programos suteikia klientams integruotą „Azure“ programą, kuri jiems padeda lengviau naudoti domene nuomojamus įrenginius dokumentams spausdinti.</span><span class="sxs-lookup"><span data-stu-id="acc43-136">In addition to the platform that is deployed to the Azure subscription, Finance and Operations applications provide customers with an integrated, first-party Azure application that helps them more easily use domain-hosted devices to print documents.</span></span>
+
+## <a name="service-overview"></a><span data-ttu-id="acc43-137">Tarnybos apžvalga</span><span class="sxs-lookup"><span data-stu-id="acc43-137">Service overview</span></span>
+<span data-ttu-id="acc43-138">Nors nuomojamų programų sukuriami dokumentai turi būti spausdinami per tinklą prijungtame įrenginyje, jie saugomi „Azure“ dvejetainio didelio objekto saugykloje.</span><span class="sxs-lookup"><span data-stu-id="acc43-138">While documents that are produced by the hosted applications are waiting to be printed on a network-connected device, they are stored in Azure blob storage.</span></span> <span data-ttu-id="acc43-139">[Dokumento maršruto planavimo agentas](install-document-routing-agent.md) naudoja „Azure“ autentifikavimą, kad sukurtų saugų prieigos prie „Azure“ tarnybų kanalą.</span><span class="sxs-lookup"><span data-stu-id="acc43-139">The [Document Routing Agent](install-document-routing-agent.md) uses Azure authentication to establish a secure channel to the Azure services.</span></span>
+
+<span data-ttu-id="acc43-140">**Vykdymo seka**</span><span class="sxs-lookup"><span data-stu-id="acc43-140">**Execution sequence**</span></span>
+
+1. <span data-ttu-id="acc43-141">Ataskaitą generuoja „Microsoft SQL Server Reporting Services“ (SSRS) ir ji saugoma „Azure“ dvejetainio didelio objekto saugykloje.</span><span class="sxs-lookup"><span data-stu-id="acc43-141">The report is generated by Microsoft SQL Server Reporting Services (SSRS) and stored in Azure blob storage.</span></span> <span data-ttu-id="acc43-142">Pridėti spausdintuvo parametrai saugomi kartu su dokumentu.</span><span class="sxs-lookup"><span data-stu-id="acc43-142">Attached printer settings are stored together with the document.</span></span>
+2. <span data-ttu-id="acc43-143">Dokumento maršruto planavimo agentas teikia aktyvių užduočių užklausas „Azure Service Bus“ eilei.</span><span class="sxs-lookup"><span data-stu-id="acc43-143">The Document Routing Agent queries the Azure Service Bus queue for active jobs.</span></span>
+3. <span data-ttu-id="acc43-144">Dokumento maršruto planavimo agentas atsisiunčia dokumentą ir dokumentas yra įkeliamas į tinklo spausdintuvą.</span><span class="sxs-lookup"><span data-stu-id="acc43-144">The document is downloaded by the Document Routing Agent and spooled to the network printer.</span></span>
+
+<span data-ttu-id="acc43-145">Kliento sprendimas suteikia galimybę klientams valdyti spausdinimo poreikių mastą.</span><span class="sxs-lookup"><span data-stu-id="acc43-145">The client-based solution lets customers manage the scale of their printing needs.</span></span> <span data-ttu-id="acc43-146">Klientai, kurie turi spausdinti labai daug dokumentų, gali įdiegti daug dokumento maršruto planavimo agentų, kad padidintų vienu metu vykstančių spausdinimo operacijų skaičių.</span><span class="sxs-lookup"><span data-stu-id="acc43-146">Customers who have heavy-volume printing workloads can install many Document Routing Agents to increase the number of concurrent printing operations.</span></span> <span data-ttu-id="acc43-147">Be to, kai kuriems klientams reikia įdiegti labai mažai dokumento maršruto planavimo agentų savo spausdinimo poreikiams patenkinti.</span><span class="sxs-lookup"><span data-stu-id="acc43-147">Alternatively, some customers require very few installations of the Document Routing Agent to handle their anticipated printing needs.</span></span>
+
+### <a name="service-components-for-network-printing"></a><span data-ttu-id="acc43-148">Spausdinimo per tinklą tarnybos komponentai</span><span class="sxs-lookup"><span data-stu-id="acc43-148">Service components for network printing</span></span>
+
+<span data-ttu-id="acc43-149">Toliau nurodytoje diagramoje pateikiami pagrindiniai komponentai, kurie padeda palaikyti spausdinimo per tinklą operacijas.</span><span class="sxs-lookup"><span data-stu-id="acc43-149">The following diagram shows the basic components that help support network printing operations.</span></span>
+
+<span data-ttu-id="acc43-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span><span class="sxs-lookup"><span data-stu-id="acc43-150">[![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)</span></span>
+
+<span data-ttu-id="acc43-151">Atkreipkite dėmesį, kad vieną spausdintuvą galime užregistruoti keliuose dokumento maršruto planavimo agentuose.</span><span class="sxs-lookup"><span data-stu-id="acc43-151">Note that a single printer can be registered with multiple Document Routing Agents.</span></span> <span data-ttu-id="acc43-152">Spausdintuvo nuostatoms suderinti nuomojama tarnyba naudoja tinklo maršrutą, kuris unikaliai identifikuoja kiekvieną tinklo spausdintuvą.</span><span class="sxs-lookup"><span data-stu-id="acc43-152">To resolve the printer preferences, the hosted service uses the network path that uniquely identifies every network printer.</span></span> <span data-ttu-id="acc43-153">Todėl net tada, kai spausdintuve užregistruojami keli klientai, jis rodomas kaip viena programų spausdintuvų sąrašo parinktis.</span><span class="sxs-lookup"><span data-stu-id="acc43-153">As a result, even when a printer is registered by multiple clients, it appears as a single selection in the list of printers available in applications.</span></span>
