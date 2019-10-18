@@ -1,6 +1,6 @@
 ---
 title: „Retail Modern POS“ MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
-description: Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Microsoft Dynamics 365 for Retail“.
+description: Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Dynamics 365 Retail“.
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8c8d2fac82541b768f8e0a31049177bdc1262d44
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570649"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019329"
 ---
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>„Retail Modern POS“ MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Microsoft Dynamics 365 for Retail“.
+Šioje temoje pateikiama informacija apie ekrano maketus, kurie kartu su demonstraciniais duomenimis, nustatytais elektroniniam kasos aparate (EKA), įtraukti į „Dynamics 365 Retail“.
 
 ## <a name="overview"></a>Peržiūrėti
 
@@ -40,7 +40,7 @@ Pavyzdinio ekrano maketuose, įtrauktuose kartu su „Retail“ demonstraciniais
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Ekrano maketo ID anatomija
 
-Norėdami „Retail“ rasti ekrano maketų, eikite į **Mažmeninė prekyba** \> **Kanalo sąranka** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
+Norėdami rasti ekrano maketų, eikite į **Mažmeninė prekyba** \> **Kanalo sąranka** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
 
 ![„Retail“ ekrano maketų puslapis](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,7 +107,7 @@ Toliau pateiktoje lentelėje nurodyti įprasto ekrano skiriamosios gebos maketo 
 \* Šie papildomi maketų dydžiai pasiekiami tik „Adventure Works“ ir „Fabrikam“ maketuose.
 
 > [!TIP]
-> EKA automatiškai parenka maketo dydžius, pritaikydamas juos pagal labiausiai dabartinio programos lango proporcijas atitinkantį dydį. Norėdami rasti tuo metu naudojamą ekrano maketo ID ir maketo skiriamąją gebą, „Retail Modern POS“ MPOS arba „Retail Cloud POS“ (CPOS) atidarykite puslapį **Parametrai** ir ieškokite dalyje **Seanso informacija**. Taip pat galite matyti faktinę lango gebą, pritaikytą jūsų dabartinės programos arba naršyklės rėmeliui. Kai jau žinosite šią informaciją, maketo turinio šaltinį galėsite rasti apsilankę „Retail“ parinktyje **Kanalo nustatymas** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
+> EKA automatiškai parenka maketo dydžius, pritaikydamas juos pagal labiausiai dabartinio programos lango proporcijas atitinkantį dydį. Norėdami rasti tuo metu naudojamą ekrano maketo ID ir maketo skiriamąją gebą, „Retail Modern POS“ MPOS arba „Retail Cloud POS“ (CPOS) atidarykite puslapį **Parametrai** ir ieškokite dalyje **Seanso informacija**. Taip pat galite matyti faktinę lango gebą, pritaikytą jūsų dabartinės programos arba naršyklės rėmeliui. Kai jau žinosite šią informaciją, maketo turinio šaltinį galėsite rasti apsilankę parinktyje **Kanalo nustatymas** \> **EKA sąranka** \> **EKA** \> **Ekrano maketai**.
 
 ![Ekrano maketai ir maketo gebos / dydžiai, pateikiami „Retail“ ir EKA](../retail/media/demo-screen-layouts-fig-3-1.png)
 

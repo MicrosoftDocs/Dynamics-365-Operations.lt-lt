@@ -1,9 +1,9 @@
 ---
 title: Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną
 description: Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 for Retail“.
-author: ashishmsft
+author: bebeale
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 10/01/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,23 +19,22 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: d646c8ba559ba3e8d2175911e76c57d25eff02ca
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606854"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278134"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną
 
 [!include [banner](includes/banner.md)]
 
-> [!NOTE]
-> Pašalinsime dabartinę produktų rekomendavimo paslaugos versiją ir šią funkciją pertvarkysime, suteikdami jai geresnį algoritmą ir naujesnes į mažmeninę prekybą orientuotas galimybes. Daugiau informacijos žr. [Pašalintos arba nebenaudojamos funkcijos](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
-Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 for Retail“.
+Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 Retail“. Norėdami gauti daugiau informacijos apie produktų rekomendacijas, perskaitykite [EKA dokumentacijos produktų rekomendacijas.](product.md)
 
-Naudodami „Microsoft Dynamics 365 for Retail“ galite rodyti produktų rekomendacijas savo EKA įrenginyje. *Rekomendacijos* –tai prekės, kurios gali sudominti jūsų klientą atsižvelgiant į jo pirkimo istoriją, prekės, kurias klientas įtraukė į savo norų sąrašą, ir prekės, kurias kiti klientai įsigijo internetu ir įprastose parduotuvėse. Norėdami rodyti produktų rekomendacijas, turite valdiklį įtraukti į operacijų ekraną naudodami ekrano maketo dizaino įrankį.
+
+Naudodami „Microsoft Dynamics 365 Retail“ galite rodyti produktų rekomendacijas savo EKA įrenginyje. Norėdami rodyti produktų rekomendacijas, turite valdiklį įtraukti į operacijų ekraną naudodami ekrano maketo dizaino įrankį. 
 
 ## <a name="open-layout-designer"></a>Atidarykite maketo dizaino įrankį
 
@@ -46,6 +45,7 @@ Naudodami „Microsoft Dynamics 365 for Retail“ galite rodyti produktų rekome
 5. Vykdykite paraginimo instrukcijas, kad paleistumėte maketo dizaino įrankį. Kai būsite paraginti įvesti kredencialus, įveskite tuos pačius kredencialus, kuriuos naudojote paleisdami maketo dizaino įrankį iš puslapio **Ekrano maketai**.
 6. Prisijungus bus parodytas puslapis, panašus į toliau pateiktą puslapį. Maketas skirsis, atsižvelgiant į jūsų parduotuvėje atliktus tinkinimus.
 
+
     [![Maketo dizaineris](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Pasirinkite rodomą parinktį
@@ -53,11 +53,13 @@ Naudodami „Microsoft Dynamics 365 for Retail“ galite rodyti produktų rekome
 Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausiai jūsų parduotuvei tinkančią parinktį ir vadovaukitės likusiomis instrukcijomis, kad baigtumėte valdiklio nustatymą. Toliau nurodytos dvi parinktys.
 
 - Rekomendacijos rodomos visada.
-- Skirtukas **Rekomendacijos** rodomos ekrano kairiojoje pusėje esančiame tinklelyje.
+- Skirtukas **Rekomendacijos** rodomas ekrano kairiojoje pusėje esančiame tinklelyje.
 
 ### <a name="make-recommendations-always-visible"></a>Nustatymas, kad rekomendacijos būtų visada matomos
 
+
 1. Sumažinkite operacijų eilučių informacijos srities aukštį, kad ji būtų tokio paties aukščio kaip jos kairėje esanti kliento sritis.
+
 
     [![Sumažintas operacijų eilučių informacijos srities aukštis](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
@@ -65,15 +67,18 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 
     [![Rekomendacijų valdiklis įtrauktas į maketą](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
+
 3. Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
 4. Programoje „Dynamics 365 for Retail“ atidarykite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikai**.
-5. Išplečiamajame sąraše pasirinkite  **1090 registrai**.
+5. Išplečiamajame sąraše pasirinkite **1090 registrai**.
 6. Spustelėkite **Paleisti dabar**.
+
 
 ### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Skirtuko Rekomendacijos įtraukimas į mygtukyną, esantį dešiniojoje ekrano pusėje
 
 1. Dešiniuoju pelės klavišu spustelėkite tuščią erdvę po paskutiniuoju skirtuku mygtukyne, kuris yra kairiojoje puslapio pusėje.
-2. Spustelėkite **Pritaikyti**.
+
+2. Spustelėkite **Pritaikyti**.
 
     [![Tinkinimas – dialogo langas Skirtukų valdymas](./media/pic-5.png)](./media/pic-5.png)
 
@@ -85,12 +90,14 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 
 6. Lauke **Žyma** įveskite rekomendacijų skirtuko pavadinimą. Pavyzdžiui, įveskite „Rekomenduojami produktai“.
 7. Lauke **Vaizdas** pasirinkite vaizdą, kuris bus rodomas skirtuke.
-8. Spustelėkite **Gerai**. Naujasis skirtukas atsiranda mygtukyne.
+8. Spustelėkite **Gerai**. Naujasis skirtukas atsiranda mygtukyne.
 9. Norėdami įrašyti ir uždaryti maketo dizaino įrankį, spustelėkite **X**.
 10. Programoje „Dynamics 365 for Retail“ atidarykite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikai**.
-11. Išplečiamajame sąraše pasirinkite **1090 registrai**.
+11. Išplečiamajame sąraše pasirinkite **1090 registrai**.
 12. Spustelėkite **Paleisti dabar**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Personalizuotų produktų rekomendacijų apžvalga](personalized-product-recommendations.md)
+[EKA produktų rekomendacijos](product.md)
+
+[Produktų rekomendacijų apžvalga](../commerce/product-recommendations.md)

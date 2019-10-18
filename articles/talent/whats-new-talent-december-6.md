@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. gruodžio 6 d.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/07/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f3d53440c5d19dd52fbab17305c3e99a73e570be
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 73e0875c3e072bc29050a096888459c6e4bb1b7b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742591"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025961"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-6-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 6 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-6-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR“ (2018 m. gruodžio 6 d.)
 
 [!include [banner](includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1742591"
 Šioje temoje aprašomos naujos ir pakeistos „Core HR“ funkcijos.
 
 
-## <a name="platform-update-22"></a>Platformos „update 22“
+## <a name="platform-update-22-for-finance-and-operations"></a>„Finance and Operations“ platformos 22 naujinimas
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Eksportuoti iki 1 mln. eilučių į „Excel“
 
@@ -42,7 +42,7 @@ Dabar eksportavimo į „Excel“ funkciją galima sukonfigūruoti taip, kad var
 
 ### <a name="restyled-personalization-toolbar"></a>Patobulinta personalizavimo įrankių juosta
 
-Personalizavimo įrankių juosta buvo patobulinta įdiegus platformos 22 naujinimą siekiant padėti vartotojams lengviau pritaikyti savo patirtį „Talent“. Atlikti toliau nurodyti pakeitimai. 
+Personalizavimo įrankių juosta buvo patobulinta įdiegus „Finance and Operations“ platformos 22 naujinimą siekiant padėti vartotojams lengviau pritaikyti savo patirtį naudojant „Talent“. Atlikti toliau nurodyti pakeitimai. 
 
 -  Kiekvieno personalizavimo įrankio pavadinimas dabar rodomas kartu su piktograma, kuri padeda vartotojams greitai atpažinti įrankį, kuriuo jie suinteresuoti naudotis.
 -  Dabar rodomas ir dabartinio įrankio naudojimo aprašymas, kuris padeda vartotojams suprasti, kaip atlikti reikalingą personalizavimą.  
@@ -50,19 +50,19 @@ Personalizavimo įrankių juosta buvo patobulinta įdiegus platformos 22 naujini
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimizuota filtravimo patirtis „viena iš“
 
-Daugelyje laukų galimas filtravimo operatorius „vienas iš“ naudojant filtro sritį ir tinklelio antraštės išplečiamuosius sąrašus. Šis operatorius leidžia vartotojui filtruoti lauką pagal kelias vertes. Nauja ir patobulinta operatoriaus „vienas iš“ patirtis pateikiama įdiegus platformos 22 naujinimą. Norėdami sužinoti daugiau, žr. [Optimizuota filtravimo patirtis „viena iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+Daugelyje laukų galimas filtravimo operatorius „vienas iš“ naudojant filtro sritį ir tinklelio antraštės išplečiamuosius sąrašus. Šis operatorius leidžia vartotojui filtruoti lauką pagal kelias vertes. Nauja ir patobulinta operatoriaus „vienas iš“ patirtis pateikiama įdiegus „Finance and Operations“ platformos 22 naujinimą. Norėdami sužinoti daugiau, žr. [Optimizuota filtravimo patirtis „viena iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Sąrašų įklijavimas iš „Excel“ į filtro laukus naudojant operatorių „vienas iš“
 
 Atlikdami tam tikras užduotis vartotojai gali turėti „Excel“ verčių sąrašą, kurį norėtų naudoti „Talent“ duomenims filtruoti. Pavyzdžiui, žmogiškųjų išteklių vartotojas galėjo nustatyti darbuotojų grupę iš ataskaitos, kuriai reikia papildomų tyrimų sistemoje, ir būtų geriausia, kad šis vartotojas galėtų tiesiogiai kopijuoti sąrašą iš „Excel“ į „Talent“ filtro lauką.
 
-Pradedant nuo platformos 22 naujinimo, operatorius „vienas iš“ filtro srityje ir tinklelio stulpelių filtravimo metu dabar atpažįsta iš „Excel“ nukopijuotus sąrašus, kad juos būtų galima tiesiogiai įklijuoti į filtro lauką. Tai apima verčių, nukopijuotų iš skirtingų „Excel“ eilučių ir stulpelių, rinkinį. Norėdami sužinoti daugiau apie šią funkciją, žr. [Sąrašų įklijavimas iš „Excel“ į filtro laukus naudojant operatorių „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Pradedant nuo „Finance and Operations“ platformos 22 naujinimo, operatorius „vienas iš“ filtro srityje ir tinklelio stulpelių filtravimo metu dabar atpažįsta iš „Excel“ nukopijuotus sąrašus, kad juos būtų galima tiesiogiai įklijuoti į filtro lauką. Tai apima verčių, nukopijuotų iš skirtingų „Excel“ eilučių ir stulpelių, rinkinį. Norėdami sužinoti daugiau apie šią funkciją, žr. [Sąrašų įklijavimas iš „Excel“ į filtro laukus naudojant operatorių „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
 ### <a name="configure-uk-payroll-integration-between-talent-and-dayforce"></a>JK algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
-Integravimą tarp „Dynamics 365 for Talent“ ir „Ceridian Dayforce“ galima peržiūrėti JK. Daugiau informacijos žr. šioje temoje [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
+Integravimą tarp „Talent“ ir „Ceridian Dayforce“ galima peržiūrėti JK. Daugiau informacijos žr. šioje temoje [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/configure-payroll-integration).
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -90,9 +90,9 @@ Pakeitimai padaryti siekiant ištaisyti priedus. Prie darbuotojo pridedant nauj�
 
 ## <a name="known-issues"></a>Žinomos problemos
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Integravimo su „Finance and Operations“ susiejimo klaidos
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Susiejimo klaidos integruojant su „Finance“
 
-Dabartiniame „Talent“ integravimo su „Finance and Operations“ šablone buvo nustatytos toliau nurodytos problemos. Netrukus bus paskelbtas naujas šablonas, kurį bus galima taikyti visiems naujai sukurtiems integravimo projektams. Esamiems integravimo projektams užduočių susiejimai gali būti atnaujinti. Atnaujintų susiejimų žr. toliau pateiktoje lentelėje. 
+Dabartiniame „Talent“ integravimo su „Finance“ šablone buvo nustatytos toliau nurodytos problemos. Netrukus bus paskelbtas naujas šablonas, kurį bus galima taikyti visiems naujai sukurtiems integravimo projektams. Esamiems integravimo projektams užduočių susiejimai gali būti atnaujinti. Atnaujintų susiejimų žr. toliau pateiktoje lentelėje. 
 
 >[!NOTE]
 > Neintegruojami pareigų, skirtų pareigų pirminės užduoties priskyrimui, užduoties duomenys. Ši problema šiuo metu sprendžiama. Nėra dabartinio susiejimo problemos sprendimo būdo. 

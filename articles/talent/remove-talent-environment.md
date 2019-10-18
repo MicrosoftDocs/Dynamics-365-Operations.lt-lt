@@ -1,6 +1,6 @@
 ---
 title: „Talent“ aplinkų šalinimas
-description: Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 for Talent“ bandomosios versijos arba gamybos aplinkai pašalinti.
+description: Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 Talent“ bandomosios versijos arba gamybos aplinkai pašalinti.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/20/2017
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518653"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010620"
 ---
 # <a name="remove-talent-environments"></a>„Talent“ aplinkų šalinimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 for Talent“ bandomosios versijos arba gamybos aplinkai pašalinti.
+Šioje temoje pateikiami veiksmai, skirti „Microsoft Dynamics 365 Talent“ bandomosios versijos arba gamybos aplinkai pašalinti.
 
 ## <a name="removing-a-test-drive-environment"></a>Bandomosios versijos aplinkos šalinimas
 
 „Talent“ bandomosios versijos konfigūruojamos taikant 60 dienų galiojimo laiko strategiją. Tačiau bandomųjų versijų savininkai turi galimybę anksčiau laiko užbaigti bandomosios versijos naudojimo laikotarpį atlikę toliau nurodytus veiksmus. 
 
-1. Eikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
+1. Pereikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
 2. Pasirinkite **Aplinkos**.
 3. Pasirinkite bandomosios versijos aplinką, kurios pavadinimas skamba panašiai į šį: TestDrive – alias@domain
 4. Pasirinkite **Naikinti** ir patvirtinkite sprendimą. 
@@ -45,14 +45,14 @@ Esama bandomosios versijos aplinka bus pašalinta. Šalinimui pasibaigus galite 
 
 Šioje temoje laikoma, kad įsigijote „Talent“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. 
 
-Kadangi viena „Talent“ aplinka laikoma atskiroje „PowerApps“ aplinkoje, reikėtų atsižvelgti į dvi galimybes. Pirmosios galimybės atveju pašalinama visa „PowerApps“ aplinka, antrosios – tik „Talent“ aplinka. Pirmoji galimybė labiau tinka tuo atveju, kai „PowerApps“ aplinką sukuriate tik „Talent“ parengimo tikslais, o diegimus dar tik esate pradėję arba dar neturite jokių sukurtų integravimų. Antroji galimybė tinka tuo atveju, kai turite sukurtą „PowerApps“ aplinką, užpildytą raiškiaisiais duomenimis, kurie naudojami „PowerApps“ ir srautuose.
+Kadangi viena „Talent“ aplinka laikoma atskiroje „PowerApps“ aplinkoje, reikėtų atsižvelgti į dvi galimybes. Pirmosios galimybės atveju pašalinama visa „PowerApps“ aplinka, antrosios – tik „Talent“ aplinka. Pirmoji galimybė labiau tinka tuo atveju, kai „PowerApps“ aplinką sukuriate tik „Talent“ konfigūravimo tikslais, o diegimą dar tik esate pradėję arba dar neturite jokių sukurtų integravimų. Antroji galimybė tinka tuo atveju, kai turite sukurtą „PowerApps“ aplinką, užpildytą raiškiaisiais duomenimis, kurie naudojami „PowerApps“ ir srautuose.
 
 > [!Important]
 > Prieš pašalindami „PowerApps“ aplinką įsitikinkite, kad ji nenaudojama raiškiųjų duomenų integravimams už „Talent“ apimties ribų. Be to, atminkite, kad numatytųjų „PowerApps“ aplinkų pašalinti negalima. 
 
-Jei norite pašalinti visą PowerApps aplinką, įskaitant „Talent“ bei susijusių programų ir srautų aplinką, atlikite toliau nurodytus veiksmus.
+Jei norite pašalinti visą „PowerApps“ aplinką, įskaitant „Talent“ bei susijusių programų ir srautų aplinką, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
+1. Pereikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
 2. Pasirinkite **Aplinkos**.
 3. Pasirinkite šalintiną aplinką.
 4. Pasirinkite **Naikinti** ir patvirtinkite sprendimą. 

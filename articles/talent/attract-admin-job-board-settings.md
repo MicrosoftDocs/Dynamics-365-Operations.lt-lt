@@ -1,6 +1,6 @@
 ---
-title: „Broadbean“ integravimo įjungimas „Microsoft Dynamics 365 for Talent - Attract”
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365 for Talent - Attract” registruoti užduotims išorinėse darbo skelbimų lentose, pvz., „Broadbean”.
+title: „Broadbean“ integravimo įgalinimas „Microsoft Dynamics 365 Talent - Attract”
+description: Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365 Talent - Attract” registruoti užduotims išorinėse darbo skelbimų lentose, pvz., „Broadbean”.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 2334c2bd0edccf3000f8d91651afafd4619ad0b8
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 808f91fb4b68ba9b5cee54d86423d23232df23a4
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739684"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008598"
 ---
 # <a name="enable-broadbean-integration"></a>„Broadbean“ integravimo įjungimas
 
 [!include[banner](../includes/banner.md)]
 
-Juk norite, kad apie jūsų siūlomas laisvas pareigas sužinotų kiek įmanoma daugiau kvalifikuotų kandidatų. Įdarbinimo svetainės, pvz., „Broadbean“ gali padėti šį tikslą pasiekti. Naudodamiesi „ Microsoft Dynamics 365 for Talent: Attract“ dabar galite registruoti darbo skelbimus „Broadbean“ ir šioje srityje „Microsoft“ nuolat teikia naujų pasiūlymų.
+Juk norite, kad apie jūsų siūlomas laisvas pareigas sužinotų kiek įmanoma daugiau kvalifikuotų kandidatų. Įdarbinimo svetainės, pvz., „Broadbean“ gali padėti šį tikslą pasiekti. Naudodamiesi „ Microsoft Dynamics 365 Talent: Attract“ dabar galite registruoti darbo skelbimus „Broadbean“ ir šioje srityje „Microsoft“ nuolat teikia naujų pasiūlymų.
 
 > [!NOTE]
 > - Norėdami registruoti užduotis išorinėse svetainėse, turite turėti [išsamios įdarbinimo informacijos priedą](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring).

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be5e512dcb23ce525439f11b7674cc35d7306159
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cd86bf525ae33f78fb472e6c333083592ff8a012
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570508"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024389"
 ---
 # <a name="inventory-statuses"></a>Atsargų būsenos
 
@@ -42,7 +42,7 @@ Galite naudoti atsargų būsenas, kad suskirstytumėte atsargas į kategorijas. 
 
 Atsargų būsena – ta viena iš dimensijų saugojimo dimensijų grupėje. Atsargų būsenos gali būti klasifikuojamos kaip pasiekiamos arba nepasiekiamos, galite naudoti parametrą **Atsargų blokavimas**, kad blokuotumėte prekes, kurių atsargų būsena yra nepasiekiama. Prekės, kurių būsena yra „blokuota“, laikomos fizinėmis atsargomis, jų negalima naudoti gamybos užsakyme, pardavimo užsakyme, perkėlimo užsakyme arba siuntimo operacijoje.
 
-Sandėlio prekes, kurių atsargų būsena yra „pasiekiama“ arba „nepasiekiama“, galite naudoti gavimo darbams. Pavyzdžiui, galite sukurti pasiekiamą būseną, kuri vadinasi **Parengta**, nepasiekiamą būsena, kuri vadinasi **Pažeista** ir užblokuotą būseną, kuri vadinasi **Blokuota**. Kai kuriate gaunamų arba grąžinamų prekių pirkimo užsakymą, jei kurios nors prekės yra pažeistos ar sulaužytos, galite pakeisti šių prekių atsargų būseną pirkimo užsakymo eilutėje į **Pažeista**. Gavus šias prekes, būsena automatiškai nustatoma į **Blokuota**. Jeigu nuskaitote pažeistas prekes naudodami mobilųjį įrenginį, „Microsoft Dynamics 365 for Finance and Operations“ gali naudoti vietos nurodymus ir darbo šablonus, kad parodytų informaciją apie atitinkamą vietą ar vietų diapazoną, kur galite padėti šias prekes. Jei prekės grąžinamos, puslapyje **Atsargų operacijos** sukuriamas išdavimo tipas **Rezervavimas**.
+Sandėlio prekes, kurių atsargų būsena yra „pasiekiama“ arba „nepasiekiama“, galite naudoti gavimo darbams. Pavyzdžiui, galite sukurti pasiekiamą būseną, kuri vadinasi **Parengta**, nepasiekiamą būsena, kuri vadinasi **Pažeista** ir užblokuotą būseną, kuri vadinasi **Blokuota**. Kai kuriate gaunamų arba grąžinamų prekių pirkimo užsakymą, jei kurios nors prekės yra pažeistos ar sulaužytos, galite pakeisti šių prekių atsargų būseną pirkimo užsakymo eilutėje į **Pažeista**. Gavus šias prekes, būsena automatiškai nustatoma į **Blokuota**. Jeigu nuskaitote pažeistas prekes naudodami mobilųjį įrenginį, „Finance and Operations“ gali naudoti vietos nurodymus ir darbo šablonus, kad parodytų informaciją apie atitinkamą vietą ar vietų diapazoną, kur galite padėti šias prekes. Jei prekės grąžinamos, puslapyje **Atsargų operacijos** sukuriamas išdavimo tipas **Rezervavimas**.
 
 Atlikdami siuntimo darbus naudokite prekes, kurių atsargų būsena yra „pasiekiama“. Jei turite prekių, kurių būsena yra **Sulaužyta**, ir su tokiomis prekėmis atliekamas bendrasis planavimas, prekės laikomos trūkstamomis ir atsargos automatiškai papildomos.
 

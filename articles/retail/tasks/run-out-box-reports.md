@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b42f86fc243312d18654b1a048f9dffb29afd187
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: afd4509bc9bdff345e48a590a12cc84ae25aebb8
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550075"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018441"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Generuoti ir paleisti parengtas naudoti ataskaitas
 
@@ -43,7 +43,7 @@ Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USRT. Šis 
 5. Lauke Pabaigos data įveskite datą.
 6. Lauke Kanalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 7. Medyje pasirinkite „Contoso RetailContoso Retail USA\Central\Houston“.
-    * Čia rodoma numatytąją mažmeninės prekybos organizacijos hierarchija (mažmeninės prekybos ataskaitų teikimo tikslais).   Pasirinkite Organizacijos administravimas  >Organizacijos > Organizacijos hierarchijos tikslai ir pasirinkite Mažmeninės prekybos ataskaitos ir po dalimi Priskirtos hierarchijos patikrinkite hierarchijos, kurios stulpelį Numatytasis tikriname, pavadinimą.      Peržiūrėdami demonstracinius duomenis (naudojamus šiame užduoties įraše) pastebėsite, kad parinktis Mažmeninės prekybos parduotuvės pagal regioną yra numatytoji organizacijos hierarchija mažmeninės prekybos ataskaitų tikslais.     
+    * Čia rodoma numatytąją mažmeninės prekybos organizacijos hierarchija (mažmeninės prekybos ataskaitų teikimo tikslais).   Eikite į Organizacijos administravimas > Organizacijos > Organizacijos hierarchijos tikslai ir pasirinkite Mažmeninės prekybos ataskaitų teikimas ir po dalimi Priskirtos hierarchijos patikrinkite hierarchijos, kurios stulpelis Numatytasis tikrinamas, pavadinimą. Peržiūrėdami demonstracinius duomenis (naudojamus šiame užduoties įraše) pastebėsite, kad parinktis Mažmeninės prekybos parduotuvės pagal regioną yra numatytoji organizacijos hierarchija mažmeninės prekybos ataskaitų tikslais.     
 8. Spustelėkite GERAI.
 9. Lauke Rodinys pasirinkite parinktį.
 10. Lauke Pagal pasirinkite parinktį.
@@ -55,7 +55,7 @@ Kuriant šį įrašą naudojama demonstracinių duomenų įmonė yra USRT. Šis 
 3. Lauke Pabaigos data įveskite datą.
 4. Lauke Kanalas spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 5. Medyje pasirinkite „Contoso RetailContoso Retail USA\West\Seattle“.
-    * Čia rodoma numatytąją mažmeninės prekybos organizacijos hierarchija (mažmeninės prekybos ataskaitų teikimo tikslais).   Pasirinkite Organizacijos administravimas  >Organizacijos > Organizacijos hierarchijos tikslai ir pasirinkite Mažmeninės prekybos ataskaitos ir po dalimi Priskirtos hierarchijos patikrinkite hierarchijos, kurios stulpelį Numatytasis tikriname, pavadinimą.      Peržiūrėdami demonstracinius duomenis (naudojamus šiame užduoties įraše) pastebėsite, kad parinktis Mažmeninės prekybos parduotuvės pagal regioną yra numatytoji organizacijos hierarchija mažmeninės prekybos ataskaitų tikslais.     
+    * Čia rodoma numatytąją mažmeninės prekybos organizacijos hierarchija (mažmeninės prekybos ataskaitų teikimo tikslais).   Eikite į Organizacijos administravimas > Organizacijos > Organizacijos hierarchijos tikslai ir pasirinkite Mažmeninės prekybos ataskaitų teikimas ir po dalimi Priskirtos hierarchijos patikrinkite hierarchijos, kurios stulpelis Numatytasis tikrinamas, pavadinimą. Peržiūrėdami demonstracinius duomenis (naudojamus šiame užduoties įraše) pastebėsite, kad parinktis Mažmeninės prekybos parduotuvės pagal regioną yra numatytoji organizacijos hierarchija mažmeninės prekybos ataskaitų tikslais.     
 6. Spustelėkite GERAI.
 7. Spustelėkite GERAI.
 

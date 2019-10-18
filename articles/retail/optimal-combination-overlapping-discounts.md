@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 00d7457b13e6633c9285a1fc43b8f6dd60dae9ae
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 555098a7d11cb0b4c0f90357ff260598e80108f5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836537"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017925"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Optimalaus persidengiančių nuolaidų derinio nustatymas
 
@@ -32,7 +32,7 @@ ms.locfileid: "1836537"
 
 Kai nuolaidos persidengia, turite nustatyti persidengiančių nuolaidų derinį, kurį naudojant bus sukuriama mažiausia bendroji operacijos suma arba didžiausia bendroji nuolaidos suma. Kai nuolaidos suma kinta priklausomai nuo įsigytų produktų kainos, pavyzdžiui, kaip dažnai pasitaikančiu mažmeninės prekybos nuolaidų atveju „Pirkdami 1 gaukite 1 X procentų nuolaidą“ (BOGO), šis procesas tampa kombinacinio optimizavimo problema.
 
-Šis straipsnis taikomas programai „Microsoft Dynamics AX 2012 R3“ su „KB 3105973“ (išleista 2015 m. lapkričio 2 d.) arba naujesnei versijai ir „Microsoft Dynamics 365 for Retail“. Norėdami nustatyti, kad nuolaidų persidengimo derinys būtų taikomas reikiamu laiku, pristatėme persidengiančių nuolaidų taikymo metodą. Šį metodą vadiname **ribos vertės vertinimas**. Ribinės vertės vertinimas naudojamas, kai laiko, kurio reikia norint įvertinti galimus persidengiančių nuolaidų derinius, vertė viršija slenkstinę vertę, kuri konfigūruojama puslapyje **Mažmeninės prekybos parametrai**. Taikant ribos vertės vertinimo metodą apskaičiuojama kiekvienos persidengiančios nuolaidos vertė taikant nuolaidos vertę bendrai naudojamiems produktams. Persidengiančios nuolaidos taikomos nuo didžiausios santykinės vertės iki mažiausios santykinės vertės. Išsamią informaciją apie naują metodą rasite toliau šiame straipsnyje pateiktame skyriuje „Ribos vertė“. Ribos vertės vertinimas nenaudojamas, kai produkto nuolaidos sumoms neturi įtakos kitas operacijos produktas. Pavyzdžiui, šis metodas nenaudojamas dviems paprastoms nuolaidoms arba paprastai nuolaidai ir vieno produkto kiekio nuolaidai.
+Šis straipsnis taikomas programai „Microsoft Dynamics AX 2012 R3“ su „KB 3105973“ (išleista 2015 m. lapkričio 2 d.) arba naujesnei versijai ir „Dynamics 365 Retail“. Norėdami nustatyti, kad nuolaidų persidengimo derinys būtų taikomas reikiamu laiku, pristatėme persidengiančių nuolaidų taikymo metodą. Šį metodą vadiname **ribos vertės vertinimas**. Ribinės vertės vertinimas naudojamas, kai laiko, kurio reikia norint įvertinti galimus persidengiančių nuolaidų derinius, vertė viršija slenkstinę vertę, kuri konfigūruojama puslapyje **Mažmeninės prekybos parametrai**. Taikant ribos vertės vertinimo metodą apskaičiuojama kiekvienos persidengiančios nuolaidos vertė taikant nuolaidos vertę bendrai naudojamiems produktams. Persidengiančios nuolaidos taikomos nuo didžiausios santykinės vertės iki mažiausios santykinės vertės. Išsamią informaciją apie naują metodą rasite toliau šiame straipsnyje pateiktame skyriuje „Ribos vertė“. Ribos vertės vertinimas nenaudojamas, kai produkto nuolaidos sumoms neturi įtakos kitas operacijos produktas. Pavyzdžiui, šis metodas nenaudojamas dviems paprastoms nuolaidoms arba paprastai nuolaidai ir vieno produkto kiekio nuolaidai.
 
 ## <a name="discount-examples"></a>Nuolaidų pavyzdžiai
 

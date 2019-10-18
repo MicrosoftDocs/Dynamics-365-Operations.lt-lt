@@ -1,6 +1,6 @@
 ---
 title: Vartotojas nerastas žmonių parinkiklyje naudojant „Attract“ arba „Onboard“
-description: Šioje temoje paaiškinama, ką daryti, kai įmonės nuomotojo vartotojai nerodomi žmonių parinkiklyje naudojant „Dynamics 365 for Talent“ „Attract“ arba „Onboard“ programas.
+description: Šioje temoje paaiškinama, ką daryti, kai įmonės nuomotojo vartotojai nerodomi žmonių parinkiklyje naudojant „Dynamics 365 Talent“ „Attract“ arba „Onboard“ programas.
 author: andreabichsel
 manager: AnnBe
 ms.date: 01/22/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-01-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9c2324321baf0a313b8b7aa9701909336b5c34b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 2a3c83fcc3f48aa235ffb2db2dc492b34a306c4c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742754"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024199"
 ---
 # <a name="azure-active-directory-users-not-found-in-people-picker"></a>„Azure Active Directory“ vartotojų žmonių parinkiklyje nerasta
 
@@ -30,11 +30,11 @@ ms.locfileid: "1742754"
 
 ## <a name="issue"></a>Išduoti
 
-Tam tikri tinkami „Microsoft Azure Active Directory“ („Azure AD“) nuomotojo vartotojai nerodomi, kai ieškoma vardų žmonių parinkiklyje naudojant „Dynamics 365 for Talent“ „Attract“ arba „Onboard“ programas.
+Tam tikri tinkami „Microsoft Azure Active Directory“ („Azure AD“) nuomotojo vartotojai nerodomi, kai ieškoma vardų žmonių parinkiklyje naudojant „Dynamics 365 Talent: Attract“ „Dynamics 365 Talent: Onboard“ programas.
 
 ## <a name="cause"></a>Priežastis
 
-Šiuo metu tam tikrų tipų vartotojai nepalaikomi „Attract“ ir „Onboard“ programose. Patikrinkite, ar vartotojas nėra „Azure AD“ įmonių (B2B) vartotojas svečias. Vartotojo tipo informaciją galima rasti „Azure“ portalo mentėje „Azure Active Directory“.
+Šiuo metu tam tikrų tipų vartotojai „Attract“ ir „Onboard“ nepalaikomi. Patikrinkite, ar vartotojas nėra „Azure AD“ įmonių (B2B) vartotojas svečias. Vartotojo tipo informaciją galima rasti „Azure“ portalo mentėje „Azure Active Directory“.
 
 Daugiau informacijos apie „Azure B2B“ rasite [Kas yra vartotojo svečio prieiga „Azure Active Directory B2B“](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b).
 

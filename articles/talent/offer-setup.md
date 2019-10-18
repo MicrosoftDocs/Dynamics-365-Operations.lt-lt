@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymų valdymo nustatymas
-description: Šioje temoje aprašoma, kaip nustatyti „Talent“ pasiūlymus.
+description: Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Talent“ pasiūlymus.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 706766ba5133af03d00df99dba1c2a7b0405cd86
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518641"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010849"
 ---
 # <a name="set-up-offer-management"></a>Pasiūlymų valdymo nustatymas 
 
 [!include [banner](includes/banner.md)]
 
-Kai kandidatas perkeliamas į „Dynamics 365 for Talent: Attract“ pasiūlymo etapą, reikia užtikrinti, kad bus galima greitai kurti kandidatui skirtus pasiūlymus, juos atitinkamai patvirtinti ir išsiųsti kandidatui. Kadangi dauguma pasiūlymų standartiniai, juos galima sukurti naudojant pakartotinai naudotinus šablonus. Naudojantis „Attract“ visi pasiūlymai įtraukiami į pasiūlymų paketą, kuris yra vieno ar kelių pasiūlymo dokumentų rinkinys. 
+Kai kandidatas perkeliamas į „Dynamics 365 Talent: Attract“ pasiūlymo etapą, reikia užtikrinti, kad bus galima greitai kurti kandidatui skirtus pasiūlymus, juos atitinkamai patvirtinti ir išsiųsti kandidatui. Kadangi dauguma pasiūlymų standartiniai, juos galima sukurti naudojant pakartotinai naudotinus šablonus. Naudojantis „Attract“ visi pasiūlymai įtraukiami į pasiūlymų paketą, kuris yra vieno ar kelių pasiūlymo dokumentų rinkinys. 
 
 Šioje temoje pateikiamas visų veiksmų, kuriuos turėtų atlikti „Attract“ administratorius, norėdamas kaip „Attract“ pasiūlymo valdymo galimybės dalį nustatyti kitus pasiūlymo paketo šablonus, sąrašas. Vartotojai, kuriems priskirti ne administratoriaus vaidmenys, šiomis galimybėmis naudotis negalės.
 

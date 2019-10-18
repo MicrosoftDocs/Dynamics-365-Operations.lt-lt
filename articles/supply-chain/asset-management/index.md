@@ -1,6 +1,6 @@
 ---
 title: Turto valdymo apžvalga
-description: Šioje temoje aprašomos programos „Dynamics 365 for Finance and Operations“ modulio Turto valdymas funkcijos.
+description: Šioje temoje aprašomos programos „Dynamics 365 Supply Chain Management“ modulio Turto valdymas funkcijos.
 author: josaw1
 manager: AnnBe
 ms.date: 07/24/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b8a619d787a2d43e843b574edf77b3153d53005
-ms.sourcegitcommit: 829b6dc145197cc565d40469f6a1522f8dccac9f
+ms.openlocfilehash: f98185fbabefedd2a545bd1c3e15b9e180363469
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "1788285"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024711"
 ---
 # <a name="asset-management-overview"></a>Turto valdymo apžvalga
 
@@ -32,7 +32,7 @@ ms.locfileid: "1788285"
 [!include [banner](../includes/preview-banner.md)]
 
 
-Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Microsoft Dynamics 365 for Finance and Operations“. Turto valdymas sklandžiai integruojamas su keletu programos „Finance and Operations“ modulių. 
+Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“. Turto valdymas sklandžiai integruojamas su keletu programos „Finance and Operations“ modulių. 
 
 Toliau pateikiamame paveikslėlyje pavaizduotos sąsajos su kitais programos „Finance and Operations“ moduliais.
 

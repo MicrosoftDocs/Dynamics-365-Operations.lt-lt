@@ -1,6 +1,6 @@
 ---
-title: „Dynamics 365 for Talent - Onboard” programėlės gavimas
-description: Šioje temoje aiškinama, kaip gauti atskirą „Microsoft Dynamics 365 for Talent - Onboard” programos versiją arba versiją, kurioje yra išsamios įdarbinimo informacijos priedas.
+title: Gauti programą „Dynamics 365 Talent - Onboard“
+description: Šioje temoje aiškinama, kaip gauti atskirą „Microsoft Dynamics 365 Talent - Onboard” programos versiją arba versiją, kurioje yra išsamios įdarbinimo informacijos priedas.
 author: andreabichsel
 manager: ''
 ms.date: 05/02/2019
@@ -16,30 +16,30 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: e83bbd71089b145c6c99780ea9516793c5238b33
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 7bf2e421445e5ca92e995ef581bf61c7978746d2
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731576"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010780"
 ---
-# <a name="get-the-dynamics-365-for-talent-onboard-app"></a>„Dynamics 365 for Talent: Onboard” programėlės gavimas
+# <a name="get-the-dynamics-365-talent-onboard-app"></a>„Dynamics 365 Talent: Onboard” programėlės gavimas
 
 [!include [banner](includes/banner.md)]
 
-Galite peržiūrėti demonstracinę versiją ir išbandyti „Microsoft Dynamics 365 for Talent: Onboard” programėlę nemokamai iš puslapio [„Onboard” produktų puslapis](https://dynamics.microsoft.com/talent/onboard/).
+Galite peržiūrėti demonstracinę versiją ir išbandyti „Microsoft Dynamics 365 Talent: Onboard” programėlę nemokamai iš [„Onboard” produkto puslapio](https://dynamics.microsoft.com/talent/onboard/).
 
 > [!NOTE]
 > Nemokamai bandomajai versijai išbandyti reikia verslo el. pašto paskyros.
 
-Galite įsigyti „Onboard” prenumeratą kaip atskirą programą arba kaip „Dynamics 365 for Talent” dalį. „Talent” yra išsami žmogiškojo kapitalo valdymo (HCM) sistema, kuri apima „Dynamics 365 for Talent: Attract”, „Onboard” ir „Core HR“. Daugiau informacijos apie tai, kaip įsigyti „Onboard”, žr. puslapyje [„Onboard” produktų puslapis](https://dynamics.microsoft.com/talent/onboard/).
+Galite įsigyti „Onboard” prenumeratą kaip atskirą programą arba kaip „Dynamics 365 Talent” dalį. „Talent” yra išsami žmogiškojo kapitalo valdymo (HCM) sistema, kuri apima „Dynamics 365 Talent: Attract”, „Onboard” ir „Core HR“. Daugiau informacijos apie tai, kaip įsigyti „Onboard”, žr. puslapyje [„Onboard” produktų puslapis](https://dynamics.microsoft.com/talent/onboard/).
 
 Vykstant bandomajam ar pirkimo procesui, nustatysite savo „Microsoft 365” el. pašto adresą ir slaptažodį. Būtinai pasižymėkite šias reikšmes.
 
 > [!WARNING]
 > Negalima perkelti duomenų iš bandomosios versijos į mokamos prenumeratos aplinką. <!--Reviewers: please verify.-->
 
-Norėdami sužinoti daugiau informacijos apie naujas „Talent“ funkcijas, žr. [Kas nauja ar pasikeitė „Dynamics 365 for Talent“](./whats-new.md) ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index). Jei norite peržiūrėti naujas funkcijas „Onboard”, žr. [Prieiga prie „Talent“ peržiūros funkcijų](./access-preview-feature.md).
+Norėdami sužinoti daugiau informacijos apie naujas „Talent“ funkcijas, žr. [Kas nauja ar pasikeitė „Dynamics 365 Talent“](./whats-new.md) ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index). Jei norite peržiūrėti naujas funkcijas „Onboard”, žr. [Prieiga prie „Talent“ peržiūros funkcijų](./access-preview-feature.md).
 
 Jei esate IT specialistas ir norite sužinoti daugiau apie tai, kaip sukonfigūruotos abi „Onboard” programos versijos, žr. [Parengimas programai „Onboard“](./modular-app-tech-faq.md).
 

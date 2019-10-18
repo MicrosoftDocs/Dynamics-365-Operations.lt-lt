@@ -1,6 +1,6 @@
 ---
 title: Gavimo kvitų formatų nustatymas ir dizainas
-description: Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. „Microsoft Dynamics 365 for Retail“ yra formos maketo konstruktoriaus funkcija, kurią naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus.
+description: Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. „Dynamics 365 Retail“ yra formos maketo konstruktoriaus funkcija, kurią naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 13249e1b109586b2c520a1be30c47ac4393abe49
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: eb85752b53d0d48f07bfed9423637cb6c646ab61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553073"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025130"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Gavimo kvitų formatų nustatymas ir dizainas
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. „Microsoft Dynamics 365 for Retail“ yra formos maketo konstruktoriaus funkcija, kurią naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus.
+Šiame straipsnyje aprašoma, kaip modifikuoti formų maketus, norint kontroliuoti, kaip spausdinami kvitai, SF ir kiti dokumentai. „Dynamics 365  Retail“ yra formos maketo konstruktoriaus funkcija, kurią naudodami galite lengvai kurti ir modifikuoti įvairių rūšių formų maketus.
 
 > [!IMPORTANT]
 > Turite nustatyti formų maketus ir kvitų profilius, kad galėtumėte spausdinti kvitus ir kitus dokumentus naudodami „Retail Modern POS“ ir „Cloud POS“. Į kvito šabloną galite įtraukti kelis formos išdėstymus. Tada kvito šabloną galite priskirti spausdintuvui, modifikuodami aparatūros šabloną.
@@ -55,7 +55,7 @@ Naudokite formų maketo konstruktorių, kad grafiškai sukurtumėte formos dokum
 2. Puslapyje **Kvito formatas** pasirinkite formos maketą ir tada spustelėkite **Dizaino įrankis**.
 3. Spustelėkite **Vykdyti**, kad pradėtumėte mažmeninės prekybos dizaino įrankio pagrindinio kompiuterio diegimą.
 4. „Internet Explorer“ apačioje rodomoje pranešimų juostoje spustelėkite **Atidaryti**, kad pradėtumėte diegti vieno spustelėjimo dizaino įrankį. (Kitose naršyklėse pranešimų juosta gali būti rodoma kitoje vietoje.) Vykdymo indikatorius rodo diegimo proceso eigą.
-5. Baigus diegti, įveskite savo „Dynamics 365 for Retail“ vartotojo vardą ir slaptažodį, o tada spustelėkite **Prisijungti,** kad paleistumėte dizaino įrankį.
+5. Baigus diegti, įveskite savo „Retail“ vartotojo vardą ir slaptažodį, o tada spustelėkite **Prisijungti**, kad paleistumėte dizaino įrankį.
 6. Kai kredencialai patvirtinti ir dizaino įrankis paleistas, galima pradėti kurti kvito formatą arba modifikuoti esamą formatą.
 7. Norėdami kurti formos elementus, pasirinkite sekciją **Antraštė**, **Eilutės** arba **Poraštė**, tada nuvilkite elementą iš sekcijos į darbo sritį. Daugelyje elementų yra kintamųjų, kurie automatiškai įvedami kartu su duomenimis iš duomenų bazės. Kiti elementai, pvz., **Tekstas**, suteikia galimybę spausdinti pasirinktinį tekstą kvite.
 

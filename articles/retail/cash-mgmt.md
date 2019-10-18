@@ -1,6 +1,6 @@
 ---
 title: Grynųjų pinigų valdymo patobulinimai
-description: Šioje temoje aprašomi EKA grynųjų pinigų valdymo patobulinimai, skirti „Dynamics 365 for Retail“.
+description: Šioje temoje aprašomi EKA grynųjų pinigų valdymo patobulinimai, skirti „Dynamics 365 Retail“.
 author: anpurush
 manager: AnnBe
 ms.date: 05/21/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
-ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
+ms.openlocfilehash: 49d70a8d983bf3475e01f8fcb80d569b13568485
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "1630058"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019536"
 ---
 # <a name="cash-management-improvements"></a>Grynųjų pinigų valdymo patobulinimai
 
@@ -32,9 +32,11 @@ ms.locfileid: "1630058"
 
 Grynųjų pinigų valdymas yra pagrindinė fizinių mažmeninės prekybos parduotuvių funkcija. Mažmenininkai nori, kad jų parduotuvėse veiktų sistemos, galinčios padėti užtikrinti visišką grynųjų pinigų atsekamumą ir atskaitomybę bei jų judėjimą tarp įvairių parduotuvės registrų ir kasininkų. Jie privalo galėti suderinti visus skirtumus ir nustatyti atskaitomybę.
 
-Į „Microsoft Dynamics 365 for Retail“ įtrauktos grynųjų pinigų valdymo galimybės elektroninio kasos aparato (EKA) programoje. Tačiau „Retail“ versijose, kurios yra ankstesnės nei 10.0.3 versija, grynųjų pinigų valdymo funkcijos nėra nepakankamai galinga, kad būtų užtikrintas visiškas grynųjų pinigų judėjimo parduotuvėse atsekamumas. Nors mažmenininkai gali suderinti parduotuvės grynuosius pinigus, jie negali tiksliai nustatyti atskaitomybės, jei kilo grynųjų pinigų neatitikimų.
 
-„Microsoft Dynamics 365 for Retail“ 10.0.3 ir naujesnėse versijoje mažmenininkai galės atsekti grynųjų pinigų valdymą. Naudodami šią atsekamumo funkciją mažmenininkai galės nustatyti seifus, dvipuses grynųjų pinigų operacijas ir suderinti grynųjų pinigų valdymo operacijas.
+Į „Microsoft Dynamics 365 Retail“ įtrauktos grynųjų pinigų valdymo galimybės elektroninio kasos aparato (EKA) programoje. Tačiau „Retail“ versijose, kurios yra ankstesnės nei 10.0.3 versija, grynųjų pinigų valdymo funkcijos nėra nepakankamai galinga, kad būtų užtikrintas visiškas grynųjų pinigų judėjimo parduotuvėse atsekamumas. Nors mažmenininkai gali suderinti parduotuvės grynuosius pinigus, jie negali tiksliai nustatyti atskaitomybės, jei kilo grynųjų pinigų neatitikimų.
+
+
+„Retail“ 10.0.3 ir naujesnėse versijoje mažmenininkai galės atsekti grynųjų pinigų valdymą. Naudodami šią atsekamumo funkciją mažmenininkai galės nustatyti seifus, dvipuses grynųjų pinigų operacijas ir suderinti grynųjų pinigų valdymo operacijas.
 
 ## <a name="set-up-traceability-and-define-safes"></a>Atsekamumo ir seifų nustatymas
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d95429dde38a7a528b1c1d9036194a3bf8e6f986
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506108"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009450"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>Konkrečios įmonės personalo (HR) parametrų nustatymas
 
@@ -34,7 +34,7 @@ Kai kurie modulio Personalas (HR) parametrai naudojami keliose įmonėse, o kiti
 Personalo parametrams nustatyti naudojami du puslapiai. Jei parametrai yra bendrai naudojami keliose įmonėse, galite naudoti puslapį **Bendrai naudojami žmogiškųjų išteklių parametrai**. Jei parametrai skirti konkrečiai įmonei (kitaip tariant, parametrai taikomi prie vienai įmonei), naudokite puslapį **Personalo parametrai**. Puslapyje **Personalo parametrai** parametrai suskirstyti į šešis toliau pateiktus skirtukus.
 
 -   Bendri
--   Įdarbinimas – sprendime „Dynamics 365 for Talent“ jo nėra
+-   Įdarbinimas – sprendime „Dynamics 365 Talent“ jo nėra
 -   Kompensacija
 -   Numeracijos
 -   Nedarbingumo dėl ligos ar slaugymo aktas (FMLA)
@@ -49,7 +49,7 @@ Skirtuko **Kompensacija** nustatymai apibrėžia, ar vartotojai turi patvirtinti
 ### <a name="previously-released-functionality"></a>Anksčiau išleistos funkcijos
 Skirtuko **Numeracija** parametrai nurodo sekas, naudojamas ID automatiškai priskirti elementams personalo srityje, pvz., prašymams, neatvykimo registracijoms, kompensavimo proceso rezultatams, atvejų numeriams, kursams ir kursų darbotvarkei. Norėdami prižiūrėti numeracijų nuorodas ir kodus, naudokite **Numeracijos** sąrašo puslapį (spustelėkite **Organizacijos administravimas** &gt; **Numeracijos** &gt; **Numeracijos**).
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>Jei naudojate „Dynamics 365 for Talent“
+### <a name="if-youre-using-dynamics-365-talent"></a>Jei naudojate „Dynamics 365 Talent“
 Skirtuko **Numeracija** parametrai nurodo sekas, naudojamas ID automatiškai priskirti elementams personalo srityje, pvz., prašymams, neatvykimo registracijoms, kompensavimo proceso rezultatams, atvejų numeriams, kursams ir kursų darbotvarkei. Norėdami tvarkyti numeracijų nuorodas ir kodus, naudokite sąrašo puslapį **Numeracijos** (spustelėkite **Sistemos administravimas** &gt; **skirtuką Saitai** &gt; **Numeracijos** &gt; **Numeracijos**). 
 
 Skirtuko **FMLA** parametrai nurodo, kiek valandų ir kokį laikotarpį darbuotojas turi išdirbęs tam, kad galėtų gauti FMLA išmokas, ir darbo pradžios datą, kuri naudojama siekiant nustatyti darbo trukmę. Parametrai taip pat apibrėžia darbuotojams skirtą FMLA valandų skaičių FMLA atostogų kalendorių, pagal kurį skaičiuojama, kiek FMLA valandų darbuotojai išnaudojo. Skirtuką **FMLA** gali naudoti tik įmonės, esančios Jungtinėse Amerikos Valstijose. 

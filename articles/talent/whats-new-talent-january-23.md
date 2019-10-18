@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 23 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2019 m. sausio 23 d.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 01/23/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4e492095d5269ec81c0c22145b7af356937c256b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f1983d5a58fb2e6b1984727e1d7b44803b94cdce
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742521"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023981"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-23-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2019 m. sausio 23 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-january-23-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR“ (2019 m. sausio 23 d.)
 
 [!include [banner](includes/banner.md)]
 
@@ -53,5 +53,5 @@ Keičiant užduotį pareigose, pagal numatytuosius parametrus užduoties laukai 
 ### <a name="probation-period-and-calendar-are-not-displayed-for-future-hired-employees"></a>Būsimų pasamdytų darbuotojų bandomasis laikotarpis ir kalendorius nerodomi.
 Atlikus šį pakeitimą laukai **Bandomasis laikotarpis** ir **Kalendoriaus** buvo įtraukti į puslapį **Valdyti pakeitimus**, kad būtų galima įvesti buvusių ir būsimų darbuotojų duomenis.
 
-### <a name="platform-update-23"></a>Platformos „update 23“
-Smulkus pataisymai įtraukti kaip 23 platformos naujinimas. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 for Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 
+### <a name="platform-update-23-for-finance-and-operations"></a>„Finance and Operations“ platformos 23 naujinimas
+Nežymių klaidų pataisymai įtraukti kaip „Finance and Operations“ platformos 23 naujinimas. Daugiau informacijos žr. [Kas nauja arba pakeista „Dynamics 365 Finance and Operations“ 23 platformos naujinime (2019 m. sausio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-23). 

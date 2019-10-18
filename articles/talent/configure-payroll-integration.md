@@ -1,6 +1,6 @@
 ---
 title: Algalapio integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti integravimą tarp „Microsoft Dynamics 365 for Talent“ ir „Ceridian Dayforce“, kad galėtumėte apdoroti mokėjimo vykdymą.
+description: Šioje temoje paaiškinama, kaip sukonfigūruoti integravimą tarp „Microsoft Dynamics 365 Talent“ ir „Ceridian Dayforce“, kad galėtumėte apdoroti mokėjimo vykdymą.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/24/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c26dfed9909b0dbd05fc18c206e5adc947feaef5
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ec1d14cb14ab709dfc1bead4be0785904efcce4e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742922"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251044"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
 
 [!include [banner](includes/banner.md)]
 
-Integravimas tarp „Microsoft Dynamics 365 for Talent“ ir „Ceridian Dayforce“ paremtas keliais konfigūravimo veiksmais, aprašytais šioje temoje. Prieš mokėjimo vykdymo apdorojimą turite sukonfigūruoti integravimą tiek „Talent“, tiek „Dayforce“.
+Integravimas tarp „Microsoft Dynamics 365 Talent“ ir „Ceridian Dayforce“ paremtas keliais konfigūravimo veiksmais, aprašytais šioje temoje. Prieš mokėjimo vykdymo apdorojimą turite sukonfigūruoti integravimą tiek „Talent“, tiek „Dayforce“.
 
 Kai naudojate paslaugas, pvz., „Dayforce“ kad atliktumėte mokėjimų vykdymus, turite įjungti integravimą į „Talent“. Integravimui reikalingi konkretūs duomenys iš „Talent“. Todėl turite patvirtinti, kad duomenys, susieti su „Dayforce“, yra sukonfigūruojami „Talent“ taip, kad integravimas būtų palaikomas. Integravimui naudojamos šios plačios duomenų kategorijos:
 
@@ -39,7 +39,7 @@ Kai naudojate paslaugas, pvz., „Dayforce“ kad atliktumėte mokėjimų vykdym
 
 ## <a name="enable-the-integration"></a>Integravimo įjungimas
 
-Pirmiausia „Talent“ turite įjungti integravimą ir įvesti konfigūravimo informaciją, kad prisijungtumėte prie „Dayforce“. Jei norite, kad sukuriama didžiosios knygos operacija būtų importuota į „Microsoft Dynamics 365 for Finance and Operations“, taip pat turite sukurti „Microsoft Azure“ saugyklos paskyrą ir įvesti „Azure Storage“ jungimosi eilutę į „Finance and Operations“.
+Pirmiausia „Talent“ turite įjungti integravimą ir įvesti konfigūravimo informaciją, kad prisijungtumėte prie „Dayforce“. Jei norite, kad sukuriama didžiosios knygos operacija būtų importuota į „Microsoft Dynamics 365 Finance“, taip pat turite sukurti „Microsoft Azure“ saugyklos paskyrą ir įvesti „Azure Storage“ jungimosi eilutę į „Finance“.
 
 Norėdami įjungti integravimą į „Talent“, atlikite šiuos veiksmus.
 

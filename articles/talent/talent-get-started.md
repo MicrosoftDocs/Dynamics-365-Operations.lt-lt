@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518679"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024257"
 ---
 # <a name="get-started-with-talent"></a>Darbo su „Talent“ pradžia
 
 [!include [banner](includes/banner.md)]
 
-Programoje „Microsoft Dynamics 365 for Talent“ lengva modifikuoti vartotojo sąsają ir nustatyti parinktis, paverčiančias programinę įrangą intuityvesne jūsų poreikiams. Šioje temoje pateikiami saitai į temas, kuriose pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas. Šioje temoje taip pat pateikiami saitai, nukreipiantys į informaciją, galinčią padėti efektyviai ir tiksliai rasti sistemoje pateikiamą informaciją. 
+Programoje „Microsoft Dynamics 365 Talent“ lengva modifikuoti vartotojo sąsają ir nustatyti parinktis, paverčiančias programinę įrangą intuityvesne jūsų poreikiams. Šioje temoje pateikiami saitai į temas, kuriose pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas. Šioje temoje taip pat pateikiami saitai, nukreipiantys į informaciją, galinčią padėti efektyviai ir tiksliai rasti sistemoje pateikiamą informaciją. 
 
 > [!NOTE] 
-> Toliau išvardyti produktai yra glaudžiai susiję: „Dynamics 365 for Finance and Operations“, „Dynamics 365 for Retail“ ir „Dynamics 365 for Talent“. Visuose 3 produktuose gali būti rodomos tos pačios funkcijos. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 for Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 for Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 for Finance and Operations“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> Toliau išvardyti produktai yra glaudžiai susiję: „Dynamics 365 Finance“, „Dynamics 365 Retail“ ir „Dynamics 365 Talent“. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 Finance“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 ## <a name="personalizing-talent"></a>„Talent“ personalizavimas 
-Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Talent“ funkcijų, padedančių atlikti jūsų užduotis laiku. 
+Toliau pateikiamose temose rodoma, kaip nustatyti daugelį „Talent“ funkcijų, padedančių atlikti jūsų užduotis laiku. 
 
 -   [Vartotojo patirties personalizavimas](../fin-and-ops/get-started/personalize-user-experience.md) – šioje temoje aiškinami skirtingi būdai, kuriais naudodamiesi galite personalizuoti programą „Talent“ ir produkto dalis dar geriau pritaikyti savo nuostatoms.
 
@@ -51,7 +51,7 @@ Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Tal
 
 -   [Išplėstinio filtravimo ir užklausų sintaksė](../fin-and-ops/get-started/advanced-filtering-query-options.md) – šioje temoje aprašomos filtravimo ir užklausos parinktys, kurios galimos naudojant atitikmenų operatorių Išplėstinio filtro / rūšiavimo dialogo lange.
 
--   [Naršymo ieška](../fin-and-ops/get-started/navigation-search.md) – šioje temoje aiškinama, kaip naudoti kaip naudoti ieškos funkciją, norint pasiekti puslapius. Programa „Talent“ apima ne vieną sritį ir puslapį, kurie padeda atlikti įvairias užduotis. Naudodami naršymo ieškos funkciją, galite greičiau rasti puslapius, kurie reikalingi norint užbaigti užduotis. 
+-   [Naršymo ieška](../fin-and-ops/get-started/navigation-search.md) – šioje temoje aiškinama, kaip naudoti kaip naudoti ieškos funkciją, norint pasiekti puslapius. Programoje „Talent“ yra keletas sričių ir puslapių, kurie padeda atlikti įvairias užduotis. Naudodami naršymo ieškos funkciją, galite greičiau rasti puslapius, kurie reikalingi norint užbaigti užduotis. 
 
 -   [Veiksmo ieška](../fin-and-ops/get-started/action-search.md) – šioje temoje aprašoma veiksmo ieškos funkcija. Naudojant veiksmo iešką galima puslapyje rasti ir paleisti veiksmus. Produkto puslapiuose pirmiausia pateikiamos veiksmų sričių, įskaitant standartinę veiksmų sritį, rodomą puslapio viršuje, ir įvairiose puslapio srityse rodomų įrankių juostų, komandos.
 
@@ -61,7 +61,7 @@ Toliau nurodytose temose rodoma, kaip nustatyti daugelį „Dynamics 365 for Tal
 Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/#application=c6ae025f-e42a-e711-810d-3863bb363e80).
 
 ### <a name="blogs"></a>Tinklaraščiai
-Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus [„Dynamics 365 for Talent“ tinklaraštyje](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
+Galite rasti nuomonių, naujienų ir kitos informacijos apie modulį Mokėtinos sumos ir kitus sprendimus [„Dynamics 365 Talent“ tinklaraštyje](https://community.dynamics.com/enterprise/b/dynamics365fortalent). 
 
 ### <a name="videos"></a>Vaizdo įrašai
 Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Microsoft Dynamics 365“ „YouTube“ kanale](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).

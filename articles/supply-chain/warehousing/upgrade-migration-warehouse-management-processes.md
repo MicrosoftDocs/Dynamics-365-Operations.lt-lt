@@ -1,5 +1,5 @@
 ---
-title: Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations“
+title: Atnaujinti sandėlio valdymą iš „Microsoft Dynamics AX 2012“ į Tiekimo grandinės valdymą
 description: Šioje temoje apžvelgiamos produktų ir sandėlio valdymo perkėlimo parinktys.
 author: perlynne
 manager: AnnBe
@@ -18,29 +18,29 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c3dcb75653743d0d135eda197c6330f3ee9c5383
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554051"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251436"
 ---
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>Sandėlio valdymo naujinimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations“
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atnaujinti sandėlio valdymą iš „Microsoft Dynamics AX 2012“ į Tiekimo grandinės valdymą 
 
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiama proceso naujinimo iš „Microsoft Dynamics AX 2012 R3“ į „Microsoft Dynamics 365 for Finance and Operations“ vykdant WMSII modulį apžvalga.
+Šioje temoje pateikiama proceso naujinimo iš „Microsoft Dynamics AX 2012 R3“ su WMSII moduliu į Tiekimo grandinės valdymą apžvalga.
 
-„Finance and Operations“ nebepalaiko senstelėjusio **WMSII** modulio iš „Microsoft Dynamics AX 2012“. Vietoj to galite naudoti modulį **Sandėlio valdymas**. WMSII modulyje galima pasirinkti finansų atsargų vietos ir padėklo ID atsargų dimensijas, tačiau padėklo ID dimensijos negalima naudoti „Finance and Operations“ finansų atsargoms.
+Tiekimo grandinės valdymas nebepalaiko senstelėjusio **WMSII** modulio iš „Microsoft Dynamics AX 2012“. Vietoj to galite naudoti modulį **Sandėlio valdymas**. WMSII modulyje galima pasirinkti finansų atsargų vietos ir padėklo ID atsargų dimensijas, tačiau padėklo ID atsargų dimensijos negalima naudoti Tiekimo grandinės valdymo finansų atsargoms.
 
 Naujinant nustatomi, pažymimi kaip užblokuoti ir naujinimo metu neapdorojami visi su saugojimo dimensijos grupe, kurioje naudojamos padėklo ID atsargos, susieti produktai.
 
-## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Naujinimas į „Finance and Operations“, kai naudojama AX 2012 R3 WMSII
+## <a name="upgrading-to-supply-chain-management-when-ax-2012-r3-wmsii-is-used"></a>Atnaujinama į Tiekimo grandinės valdymą, kai naudojama AX 2012 R3 WMSII
 Atnaujinę galite naudoti parinkčių rinkinį formoje **Keisti prekių saugojimo dimensijų grupę**, kad atblokuotumėte produktus, kurie buvo užblokuoti naujinant, tada apdoroti šių produktų operacijas.
 
-### <a name="enabling-items-in-finance-and-operations"></a>Prekių įgalinimas naudojant „Finance and Operations“
-Šis keitimas reikalingas, nes „Finance and Operations“ prekių sekimas yra sandėlio valdymo procesų dalis. Šiuose procesuose visi sandėliai ir jų vietos turi būti susieti su vietos šablonu. Jei norite naudoti sandėlio valdymo procesus, turite atlikti toliau nurodytas konfigūracijas.
+### <a name="enabling-items-in-supply-chain-management"></a>Tiekimo grandinės valdymo elementų įgalinimas 
+Šis keitimas reikalingas, nes prekių sekimas Tiekimo grandinės valdyme yra sandėlio valdymo procesų dalis. Šiuose procesuose visi sandėliai ir jų vietos turi būti susieti su vietos šablonu. Jei norite naudoti sandėlio valdymo procesus, turite atlikti toliau nurodytas konfigūracijas.
 -   Esami sandėliai turi būti įgalinti naudoti sandėlio valdymo procesus 
 -   Esami išleisti produktai turi būti susieti su saugojimo dimensijų grupe, naudojančia sandėlio valdymo procesus 
 

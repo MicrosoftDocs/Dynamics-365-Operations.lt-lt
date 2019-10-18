@@ -1,6 +1,6 @@
 ---
 title: Pasiūlymų kūrimas, tvirtinimas ir pasirašymas
-description: Šioje temoje nurodoma, kaip kurti, tvirtinti ir pasirašyti pasiūlymą, skirtą kandidatui, naudojant „Dynamics 365 for Talent“.
+description: Šioje temoje nurodoma, kaip kurti, tvirtinti ir pasirašyti pasiūlymą, skirtą kandidatui, naudojant „Dynamics 365 Talent“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/26/2019
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8c5f95f1d3be22a73cc42cb3667b793490f2a136
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: b9ccd22e218137637cc0bbde0d4ad19a28591731
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739638"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008110"
 ---
 # <a name="create-approve-and-sign-offers"></a>Pasiūlymų kūrimas, tvirtinimas ir pasirašymas
 
@@ -110,7 +110,7 @@ Prieš siųsdami pasiūlymą kandidatui galite atlikti kelis veiksmus.
 Jei „Adobe Sign“ buvo pasirinktas kaip pageidaujamas el. parašo metodas, atliekant šį veiksmą pasiūlymo kūrėjams reikia prijungti savo „Adobe Sign“ licenciją. 
 
 ### <a name="docusign"></a>DocuSign
-Jei „DocuSign“ buvo pasirinktas kaip pageidaujamas el. parašo metodas, pasiūlymo kūrėjams reikia prijungti savo „DocuSign“ licenciją. Prisijungus, numatytoji paskyra ir teisės, susietos su vartotojo „DocuSign“ profiliu, yra prijungiamos prie „Talent Attract“. 
+Jei „DocuSign“ buvo pasirinktas kaip pageidaujamas el. parašo metodas, pasiūlymo kūrėjams reikia prijungti savo „DocuSign“ licenciją. Prisijungus, numatytoji paskyra ir teisės, susietos su vartotojo „DocuSign“ profiliu, yra prijungiamos prie „Talent: Attract“. 
 
 -  Pagal poreikį galite peržiūrėti ir redaguoti el. laiško šabloną.
 

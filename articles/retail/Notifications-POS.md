@@ -17,18 +17,19 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6c813cfea9b570e8dfd5dbe7f3ca1f4ba8594420
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 57f4b58a11606a1193a1124a426c837ddfab9533
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577985"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023710"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Užsakymų pranešimų rodymas elektroniniame kasos aparate (EKA)
 
 [!include [banner](includes/banner.md)]
 
-Modernioje mažmeninės prekybos aplinkoje parduotuvės atstovams priskiriamos įvairios užduotys, pvz., pagalba klientams, operacijų įvedimas, inventorizacijos atlikimas ir užsakymų parduotuvėje priėmimas. Elektroninio kasos aparato (EKA) klientas – tai viena programa, kurioje atstovai gali atlikti visas šias užduotis ir daug kitų. Kadangi per dieną reikia atlikti įvairias užduotis, gali reikėti, kad atstovams būtų pranešama, kai kažkam reikia skirti dėmesio. EKA pranešimų sistema mažmenininkams padeda leisdama konfigūruoti pranešimus pagal vaidmenį. Programoje „Microsoft Dynamics 365 for Retail“ su 5 programos naujinimu šiuos pranešimus galima konfigūruoti tik EKA operacijoms.
+Modernioje mažmeninės prekybos aplinkoje parduotuvės atstovams priskiriamos įvairios užduotys, pvz., pagalba klientams, operacijų įvedimas, inventorizacijos atlikimas ir užsakymų parduotuvėje priėmimas. Elektroninio kasos aparato (EKA) klientas – tai viena programa, kurioje atstovai gali atlikti visas šias užduotis ir daug kitų. Kadangi per dieną reikia atlikti įvairias užduotis, gali reikėti, kad atstovams būtų pranešama, kai kažkam reikia skirti dėmesio. EKA pranešimų sistema mažmenininkams padeda leisdama konfigūruoti pranešimus pagal vaidmenį. Programoje „Dynamics 365 for Retail“ su 5 programos naujinimu šiuos pranešimus galima konfigūruoti tik EKA operacijoms.
+
 
 Šiuo metu sistema gali rodyti tik pranešimus apie užsakymų vykdymo operacijas. Tačiau kadangi sistema sukurta taip, kad ją būtų galima išplėsti, programuotojai ilgainiui galės parašyti bet kokios operacijos pranešimų apdorojimo programą ir tos operacijos pranešimus rodyti el. kasos aparate.
 
@@ -68,7 +69,8 @@ Tolesnėje iliustracijoje rodomi tiesioginio turinio parametrai mygtukyno dizain
 
 ![Tiesioginio turinio parametrai mygtukyno dizaino įrankyje](./media/ButtonGridDesigner.png "Tiesioginio turinio parametrai mygtukyno dizaino įrankyje")
 
-Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į **ekrano maketo** puslapį „Dynamics 365 for Finance and Operations“, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Pasirinkite **Retail \> Retail IT \> Paskirstymo grafikas** ir paleiskite užduotį 1090 (registrai), kad sinchronizuotumėte maketo pakeitimus.
+Norėdami rodyti pranešimų skaičių ant mygtuko, turite užtikrinti, kad būtų atnaujintas teisingas ekrano maketas. Norėdami nustatyti ekrano maketą, kurį naudos EKA, viršutiniame dešiniajame kampe pasirinkite piktogramą **Parametrai** ir įsidėmėkite **Ekrano maketo ID** ir **Maketo skiriamąją gebą**. Dabar naudodami naršyklę „Edge“ eikite į puslapį **Ekrano maketas**, suraskite anksčiau įsidėmėtą **Ekrano maketo ID** ir **Maketo skiriamąją gebą** ir pažymėkite žymės langelį **Įjungti tiesioginį turinį**. Pasirinkite **Retail \> Retail IT \> Paskirstymo grafikas** ir paleiskite užduotį 1090 (registrai), kad sinchronizuotumėte maketo pakeitimus.
+
 
 ![EKA naudojamo ekrano maketo radimas](./media/Choose_screen_layout.png "Ekrano maketo radimas")
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b7f5d61ade071e75d53d5036a47fea438d8afbe6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561275"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249430"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobilioji darbo sritis Pirkimo užsakymų tvirtinimas
 
@@ -35,13 +35,13 @@ ms.locfileid: "1561275"
 ## <a name="overview"></a>Apžvalga 
 Pirkimo užsakymai, kuriuos reikia patvirtinti, pereina tvirtinimo darbo eigą. Darbo eigą gali sudaryti įvairūs veiksmai, kuriuos turi atlikti vienas ar keli asmenys. Pavyzdžiui, asmens gali būti reikalaujama atlikti užduotį ar patvirtinti pirkimo užsakymą. 
 
-Naudodami mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas** galite lengvai peržiūrėti pirkimo užsakymus ir į juos reaguoti savo mobiliajame įrenginyje. Šioje darbo srityje taip pat galite atlikti tuos pačius darbo eigų veiksmus, kuriuos galite atlikti „Microsoft Dynamics 365 for Finance and Operations“ žiniatinklio kliente.
+Naudodami mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas** galite lengvai peržiūrėti pirkimo užsakymus ir į juos reaguoti savo mobiliajame įrenginyje. Šioje darbo srityje taip pat galite atlikti tuos pačius darbo eigų veiksmus, kuriuos galite atlikti žiniatinklio kliente.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai įdiegtos „Finance and Operations‟ versijos.
+Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje įdiegtos Tiekimo grandinės valdymo versijos.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“ 
-Jei jūsų organizacijoje visuotinai įdiegtas „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant Tiekimo grandinės valdymą 
+Jei jūsų organizacijoje įdiegta „Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pirkimo užsakymų tvirtinimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -75,7 +75,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Atsisiųskite ir įdiekite mobiliąją programą „Microsoft Dynamics 365 for Unified Operations“:
+Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 - [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 - [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

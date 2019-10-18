@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 14 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 14 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/14/2019
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee8e076174acba8e706991f3086d6299a10945ec
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 5c3beef9ef4e73eaf76f861735bb154fa630703f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742498"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023912"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-14-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 14 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 14 d.)
 
 [!include [banner](includes/banner.md)]
 
@@ -46,8 +46,8 @@ ms.locfileid: "1742498"
 ### <a name="mass-assign-checklists-to-workers"></a>Masinis kontrolinių sąrašų priskyrimas darbininkams
 Atlikus šį pakeitimą galėsite pasirinkti kelis darbuotojus ir jiems masiškai priskirti vieną ar kelis kontrolinius sąrašus. 
 
-### <a name="platform-update-24"></a>Platformos „update 24“
-Papildomos informacijos apie 24 platformos naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ 24 platformos naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Toliau nurodyti reikšmingi 24 platformos pakeitimai. 
+### <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations“ platformos 24 naujinimas
+Papildomos informacijos apie „Finance and Operations“ platformos 24 naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ platformos 24 naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Toliau nurodyti reikšmingi 24 platformos pakeitimai. 
 
 - Įspėjimai yra įjungti „Talent“.
 - Atnaujinta naršymo juosta dabar yra sulygiuota su „Office“ antrašte.
@@ -67,7 +67,7 @@ Pareigų priskyrimo pabaigos datos dabar rodomos tinkamai pagal vartotojo pageid
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Fiksuotam ir kintamam planams galima priskirti saugos vaidmenis – tokiu būdu nustatysite prieigą prie planų ir darbuotojų duomenų, susijusių su planais, pvz., pajamų arba premijų įrašai. Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-24 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis.
+Įdiegę „Finance and Operations“ platformos 24 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Darbuotojų dublikatų patikra: sąsajos pakeitimai
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.

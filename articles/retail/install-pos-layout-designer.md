@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 98784c11c7393bb4c3e022d5bff4cca2daa1636e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572085"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025456"
 ---
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas
 
@@ -36,11 +36,11 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
 
 ## <a name="install-the-one-click-designer"></a>Vieno spustelėjimo dizaino įrankio diegimas
 
-1. „Microsoft Dynamics 365 for Retail“ naudokite meniu, esantį viršutiniame kairiajame kampe, norėdami pasirinkti **Mažmeninė prekyba** **ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
+1. „Retail“ naudokite viršutiniame kairiajame kampe esantį meniu, norėdami pasirinkti **Mažmeninė prekyba** **ir komercija** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA** &gt; **Ekrano maketai**.
 2. Pasirinkite maketą, kurio programos tipas yra **Modern POS for Windows** arba **Cloud POS**, o tada spustelėkite **Maketo dizaino įrankis**.
 3. „Internet Explorer“ apačioje rodomoje pranešimų juostoje spustelėkite **Atidaryti**, kad diegtumėte vieno spustelėjimo dizaino įrankį. (Kitose naršyklėse pranešimų juosta gali būti rodoma kitoje vietoje.)
 4. Pasirodančiame pranešimo lauke **Programos paleidimas – saugos įspėjimas** spustelėkite **Paleisti**, kad įdiegtumėte „Retail“ dizaino įrankį. Vykdymo indikatorius rodo diegimo proceso eigą.
-5. Baigus diegti, puslapyje **Prisijungimas** įveskite savo „Microsoft Dynamics 365 for Retail“ vartotojo vardą ir slaptažodį, tada spustelėkite **Prisijungti**, kad paleistumėte dizaino įrankį.
+5. Baigus diegti, puslapyje **Prisijungimas** įveskite savo „Retail“ vartotojo vardą ir slaptažodį, tada spustelėkite **Prisijungti**, kad paleistumėte dizaino įrankį.
 6. Kai kredencialai patvirtinti ir dizaino įrankis paleistas, galima kurti savo maketą arba modifikuoti esamą maketą.
 
     [![Maketas vieno spustelėjimo dizaino įrankyje](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -52,11 +52,11 @@ MPOS ir „Cloud POS“ grafinio dizaino sąsają kontroliuoja kasos stalčiaus 
     **Sprendimai.**
 
     - Įsitikinkite, kad „Internet Explorer“ iššokančiųjų langų blokavimo programa šioje svetainėje yra išjungta. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Privatumas** &gt; **Rasti iššokančiųjų langų blokavimo programą** ir pakeiskite parametrą, jei reikia.
-    - „Internet Explorer“ įtraukite „Dynamics 365 for Retail“ URL į savo patikimų svetainių sąrašą. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Sauga** &gt; **Patikimos svetainės** &gt; **Svetainės** &gt; **Įtraukti**.
+    - „Internet Explorer“ įtraukite „Retail“ URL į savo patikimų svetainių sąrašą. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Sauga** &gt; **Patikimos svetainės** &gt; **Svetainės** &gt; **Įtraukti**.
 
 - Nepavyksta paleisti programos ir nurodoma susisiekti su tiekėju.
 
-    **Sprendimas.** „Internet Explorer“ įtraukite „Dynamics 365 for Retail“ URL į savo patikimų svetainių sąrašą. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Sauga** &gt; **Patikimos svetainės** &gt; **Svetainės** &gt; **Įtraukti**.
+    **Sprendimas.** „Internet Explorer“ įtraukite „Retail“ URL į patikimų svetainių sąrašą. Spustelėkite **Parametrai** &gt; **Parinktys** &gt; **Sauga** &gt; **Patikimos svetainės** &gt; **Svetainės** &gt; **Įtraukti**.
 
 **Žinoma problema:** šiuo metu dizaino įrankis naršyklėse „Google Chrome“ ir „Mozilla Firefox“ tinkamai neveikia. Mes sprendžiame šią problemą.
 

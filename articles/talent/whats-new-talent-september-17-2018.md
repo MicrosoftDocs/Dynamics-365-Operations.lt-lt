@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 17 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. rugsėjo 17 d.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/17/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 213324f9074f88d9fdc8efdfa46bc3ed7817d1e8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 558c2cdb4addce54af937ff862535d65f1ebd602
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518674"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026046"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-17-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. rugsėjo 17 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-september-17-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR“ (2018 m. rugsėjo 17 d.)
 
 [!include [banner](includes/banner.md)]
 
@@ -37,13 +37,13 @@ ms.locfileid: "1518674"
 
 Naujas kaupimo tipas įtrauktas į atostogų planus. Dabar kaupimo grafikas gali būti pagrįstas mėnesiais, kuriais teikiamos paslaugos, arba pradirbtomis valandomis. Daugiau informacijos žr. [Nedarbo laiko kaupimas pagal pradirbtas valandas](leave-accrue-hours-worked.md).
 
-## <a name="platform-update-18"></a>Platformos „update 18“
+## <a name="platform-update-18-for-finance-and-operations"></a>„Finance and Operations“ platformos 18 naujinimas
 
-18 platformos naujinimas dabar yra talentų leidimo dalis. 
+„Finance and Operations“ platformos 18 naujinimas dabar yra „Talent“ leidimo dalis. 
 
 -   Privalomi ir kiti laukai gali būti paslėpti personalizavimo būdu. Tai suteikia galimybę vartotojui kurti supaprastintą platformą, kurioje nebus rodomi numatytieji verslo logikos privalomi laukai. Paslėpti privalomi laukai taip pat yra laikinai rodomi, jei jie yra tušti, kai bandoma įrašyti.
 
--   18 platformos naujinime talentų žiniatinklio kliento vaizdai dabar suderinti su „Microsoft Fluent Design“.
+-   „Finance and Operations“ platformos 18 naujinime „Talent“ žiniatinklio kliento vaizdai dabar suderinti su „Microsoft Fluent Design“.
 
     -   Kai laukai yra tik skaitomi, galite tiesiog pasirinkti redagavimo parinktį laukuose, kad įjungtumėte formos redagavimo režimą.
 

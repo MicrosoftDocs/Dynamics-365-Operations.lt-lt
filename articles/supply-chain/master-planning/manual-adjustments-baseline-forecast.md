@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7c7d1fcaaeef7a01b43886e4d69458dbd942439
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: df9692dc168e9efb653b20c677cd6e3bb0bd8756
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556880"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250719"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Neautomatiniai pagrindinės prognozės koregavimai
 
@@ -71,7 +71,7 @@ Puslapyje **Poreikio prognozės informacija** toliau nurodyta informacija pateik
 **Pastabos**
 
 -   Patikimumo intervalas, kuris rodomas puslapio dalyje **Prognozė**, nurodo skirtumą tarp viršutinės ir apatinės patikimumo intervalo ribų. Norėdami peržiūrėti apatinės ir viršutinės ribų reikšmes, nuveskite žymeklį virš diagramos dalyje **Praeities poreikis ir prognozė grafiškai**.
--   Jei naudojate „Finance and Operations“ poreikio prognozės „Microsoft Azure“ mašininio mokymo tarnybą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
+-   Jei naudojate poreikio prognozės „Microsoft Azure“ mašininio mokymo tarnybą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
 
 Taip pat galite atlikti neautomatinius prognozės koregavimus puslapyje **Poreikio prognozės informacija**, pakeisdami reikšmes eilutėje **Prognozė**, kuri yra dalyje **Prognozė**.
 

@@ -1,6 +1,6 @@
 ---
-title: Prieiga prie „Microsoft Dynamics 365 for Talent“ peržiūros funkcijų
-description: Šioje temoje aprašoma, kaip administratorius gali įjungti „Microsoft Dynamics 365 for Talent“ peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
+title: Prieiga prie „Microsoft Dynamics 365 Talent“ peržiūros funkcijų
+description: Šioje temoje aprašoma, kaip administratorius gali įjungti „Microsoft Dynamics 365 Talent“ peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
 author: tracykeya
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 6a5aa8d6ea72ec3d3910edea291c4340ab607326
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: e607c2ba4b544d60c97d98bd49b07d912d83ebc6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739592"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008707"
 ---
 # <a name="manage-preview-features"></a>Valdyti peržiūros funkcijas
 
 [!include[banner](../includes/banner.md)]
 
-Mūsų nuolatinis žmogiškųjų išteklių kapitalo valdymo (HCM) galimybių, skirtų „Microsoft Dynamics 365 for Talent“, išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Administratoriai gali matyti ir naudoti peržiūros funkcijas savo aplinkoje. Šios funkcijos yra beveik paruoštos bendrajam prieinamumui ir jau atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
+Mūsų nuolatinis žmogiškųjų išteklių kapitalo valdymo (HCM) galimybių, skirtų „Microsoft Dynamics 365 Talent“, išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Administratoriai gali matyti ir naudoti peržiūros funkcijas savo aplinkoje. Šios funkcijos yra beveik paruoštos bendrajam prieinamumui ir jau atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
 
-Šioje temoje aprašoma, kaip galima įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurias šiuo metu galima naudoti peržiūroje. Šis sąrašas bus atnaujintas išleidus funkcijas bendrajam prieinamumui ir kai bus išleista naujų peržiūros funkcijų. Pranešimas nepateikiamas, kai išleidžiamos naujos peržiūros funkcijos. Vartotojai tiesiog jau galės matyti šias funkcijas. Daugiau informacijos apie naujas „Talent“ funkcijas žr. [Kas nauja arba pakeista programoje „Dynamics 365 for Talent“](./whats-new.md)ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes).
+Šioje temoje aprašoma, kaip galima įgalinti peržiūros funkcijas, taip pat pateikiamos funkcijos, kurias šiuo metu galima naudoti peržiūroje. Šis sąrašas bus atnaujintas išleidus funkcijas bendrajam prieinamumui ir kai bus išleista naujų peržiūros funkcijų. Pranešimas nepateikiamas, kai išleidžiamos naujos peržiūros funkcijos. Vartotojai tiesiog jau galės matyti šias funkcijas. Daugiau informacijos apie naujas „Talent“ funkcijas žr. [Kas nauja arba pakeista programoje „Dynamics 365 Talent“](./whats-new.md)ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes).
 
 ## <a name="enable-or-disable-preview-features"></a>Peržiūros funkcijų įjungimas arba išjungimas
 
@@ -40,9 +40,9 @@ Norėdami pasiekti peržiūros funkcijas, pirmiausia turite jas įjungti savo ap
 > [!IMPORTANT]
 > Įjungę nustatymą **Peržiūros funkcijos**, peržiūros funkcijas įjungsite visiems jūsų organizacijoje dirbantiems vartotojams, esantiems šioje aplinkoje. Išjungę šį parametrą, peržiūros funkcijas išjungsite ir jos taps nepasiekiamos jūsų vartotojams. Peržiūros funkcijos programoje „Talent“ turi ribotą palaikymą. Galima naudoti mažiau privatumo ir saugos priemonių, jos nėra įtrauktos į „Talent“ teikiamų paslaugų sutartį (SLA). Asmens duomenims (t. y., bet kokiai informacijai, kuri galėtų jus identifikuoti) arba kitiems duomenims, kuriems yra taikomi teisiniai ar atitikties reikalavimai, apdoroti nenaudokite peržiūros funkcijų.
 
-### <a name="attract"></a>Traukti
+### <a name="attract"></a>„Attract“
 
-1. Prisijunkite prie „Microsoft Dynamics 365 for Talent: Attract“.
+1. Prisijunkite prie „Microsoft Dynamics 365 Talent: Attract“.
 2. Meniu **Sąranka** (krumpliaračio simbolis) viršutiniame dešiniajame kampe pasirinkite **Administravimo centras**.
 3. Skirtuke **Funkcijų valdymas** pasirinkite šalia **Peržiūros funkcijos** esančią parinktį, kad ji būtų pažymėta mėlynai ir būtų **Įjungta**.
 
@@ -69,11 +69,11 @@ Norėdami pasiekti peržiūros funkcijas, pirmiausia turite jas įjungti savo ap
 
 ### <a name="onboard"></a>Priėmimas
 
-Šiuo metu nėra peržiūros funkcijų, skirtų „Microsoft Dynamics 365 for Talent: Onboard“.
+Šiuo metu nėra peržiūros funkcijų, skirtų „Microsoft Dynamics 365 Talent: Onboard“.
 
 ## <a name="features-that-are-currently-in-preview"></a>Funkcijos, kurios šiuo metu yra peržiūroje
 
-### <a name="attract"></a>Traukti
+### <a name="attract"></a>„Attract“
 
 - [Kandidato rekomendacija](./intelligent-recommendations.md#candidate-recommendations) – jei bet kurioms pareigoms užimti yra daugiau negu dešimt kandidatų arba potencialių klientų, turinčių CV ir visos apimties profilius, darbo puslapio srityje **Pretendentai** rodomi labiausiai pareigų reikalavimus atitinkantys kandidatai arba potencialūs klientai.
 - [Darbo rekomendacija](./intelligent-recommendations.md#job-recommendations) – jei jūsų karjeros svetainėje užregistruota daugiau kaip dešimt darbo vietų, „Attract“ pateiks darbo rekomendacijas potencialiems klientams.

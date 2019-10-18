@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 63cad6b2f7240bb14fe7a9237498c0140df77774
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568004"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025034"
 ---
 # <a name="retail-statements"></a>Mažmeninės prekybos išrašai
 
 [!include [banner](includes/banner.md)]
 
-„Microsoft Dynamics 365 for Retail“ išrašo registravimo procesas naudojamas kaip operacijos, vykdomos „Cloud point of sale“ (POS) arba „Modern POS“ (MPOS). Išrašo registravimo procesas naudoja paskirstymo grafiką, kad EKA operacijų rinkinį perkeltų į būstinės (HQ) klientą. Puslapiuose **Mažmeninės prekybos parametrai** ir **Parduotuvės** nurodyti parametrai naudojami norint pasirinkti operacijas, įtraukiamas į atskiras išrašus.
+„Dynamics 365 Retail“ išrašo registravimo procesas naudojamas kaip operacijos, vykdomos „Cloud point of sale“ (POS) arba „Modern POS“ (MPOS). Išrašo registravimo procesas naudoja paskirstymo grafiką, kad EKA operacijų rinkinį perkeltų į būstinės (HQ) klientą. Puslapiuose **Mažmeninės prekybos parametrai** ir **Parduotuvės** nurodyti parametrai naudojami norint pasirinkti operacijas, įtraukiamas į atskiras išrašus.
 
 Išrašų registravimo procesas parodytas toliau pateiktame paveikslėlyje. Šiame procese operacijos, įrašytos EKA, perduodamos į klientą naudojant duomenų apsikeitimo valdymą. Kai klientas gauna operacijas, galite kurti, skaičiuoti ir registruoti parduotuvės operacijos išrašą.
 
@@ -85,6 +85,6 @@ Jei ta pati parduotuvė konfigūruojama nepažymėjus žymės langelio **Registr
 Kai registruojate išrašą, išraše sukuriami mažmeninės prekybos pardavimo užsakymai ir sąskaitos faktūros.
 
 - Atsiskaitymo grynaisiais operacijos kaupiamos viename pardavimo užsakyme, o sąskaita faktūra išrašoma numatytajam klientui, kuris yra priskirtas parduotuvei.
-- Mažmeninė prekyba, kurios klientas buvo įtrauktas į „Microsoft Dynamics 365 for Retail“ EKA operaciją, generuoja atskirus pardavimo užsakymus ir sąskaitas faktūras, po vieną kiekvienam unikaliam klientui.
+- Mažmeninė prekyba, kurios klientas buvo įtrauktas į „Retail“ EKA operaciją, generuoja atskirus pardavimo užsakymus ir sąskaitas faktūras, po vieną kiekvienam unikaliam klientui.
 
 Išrašo mokėjimams automatiškai sukuriami mokėjimų žurnalai, o EKA parduotuvėje atnaujinamos atsargos.

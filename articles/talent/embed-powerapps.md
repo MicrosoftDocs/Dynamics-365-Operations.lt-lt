@@ -1,5 +1,5 @@
 ---
-title: „PowerApps“ programų įdėjimas „Core HR“
+title: „PowerApps“ programų įdėjimas „Dynamics 365 - Core HR“
 description: Šioje temoje aiškinama, kaip išspręsti problemą, kai „PowerApps“ meniu elementas neberodomas sistemos administravimo modulyje.
 author: andreabichsel
 manager: AnnBe
@@ -17,41 +17,41 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c0dcdd7e2f407267cf99906b4d0b317858710af
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4fbc24c5ceb73389b84b125eb942ac31757928aa
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742824"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008435"
 ---
 # <a name="embed-powerapps-apps-in-core-hr"></a>„PowerApps“ programų įdėjimas „Core HR“
 
 [!include [banner](includes/banner.md)]
 
-**Problema**
+**Išduoti**
 
-**PowerApps** meniu elementas neberodomas modulyje **Sistemos administravimas**.
+**„PowerApps”** meniu elementas neberodomas modulyje **Sistemos administravimas**.
 
 **Priežastis**
 
 Pakeistas vartotojo sąsajos (UI) dizainas, todėl dabar „Microsoft PowerApps“ įtrauktas į standartinį personalizavimo modelį.
 
-**Skiriamoji geba**
+**Nutarimas**
 
-Pakeistas „PowerApps“ programų įdėjimo būdas. Dabar „PowerApps“ programos įtraukiamos per personalizavimo modelį. „PowerApps“ programų galite įtraukti beveik į visus „Microsoft Dynamics 365 for Talent“ puslapius.
+Pakeistas „PowerApps“ programų įdėjimo būdas. Dabar „PowerApps“ programos įtraukiamos per personalizavimo modelį. „PowerApps“ programų galite įtraukti beveik į visus „Microsoft Dynamics 365 Talent“ puslapius.
 
 Norėdami gauti informacijos apie tai, kaip „PowerApps“ programas įdėti į „Talent“, žr. [„PowerApps“ programų įdėjimas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/embed-power-apps).
 
 Tie „PowerApps“ klientai, kurie programas įdėjo iki keitimo, turi atnaujinti programą į naują modelį.
 
-Mygtukas **PowerApps** pateiktas beveik kiekvieno „Talent“ puslapio viršutiniame dešiniajame kampe. Šį mygtuką galite naudoti norėdami įterpti „PowerApps“ programą.
+Mygtukas **„PowerApps”** pateiktas beveik kiekvieno „Talent“ puslapio viršutiniame dešiniajame kampe. Šį mygtuką galite naudoti norėdami įterpti „PowerApps“ programą.
 
 Toliau pateikiamas pavyzdys.
 
 1. Eikite į **Personalo valdymas \> Nuorodos \> Darbininkai \> Darbuotojai**.
-2. Pasirinkite mygtuką **PowerApps**, tada pasirinkite **Įterpti „PowerApp“**.
+2. Pasirinkite mygtuką **„PowerApps”**, tada pasirinkite **Įterpti „PowerApp“**.
 
-    ![Mygtukas „PowerApps“](media/png.png)
+    ![Mygtukas „PowerApps”](media/png.png)
 
 3. Užpildykite laukus, pateiktus dialogo lange **Įterpti „PowerApp“**.
 

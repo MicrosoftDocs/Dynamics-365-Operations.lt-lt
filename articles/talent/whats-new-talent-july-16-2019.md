@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. liepos 16 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 16 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/16/2019
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ac0990a72224395cf109c7eb42cbb48ece2a0b4f
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: fd70b29089a4bf05c8fa9e3591fdb22383ea0cdc
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795201"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009721"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-16-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. liepos 16 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-16-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 16 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Attract“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Attract“.
 
 ### <a name="coming-soon-in-attract"></a>Jau greitai „Attract“
 #### <a name="job-approvals-appear-on-the-home-page"></a>Užduočių patvirtinimai rodomi pagrindiniame puslapyje
@@ -40,7 +40,7 @@ ms.locfileid: "1795201"
 Patvirtinimai rodomi ataskaitų srities skyriuje **Patvirtinimai**. Tvirtintojai gali peržiūrėti savo patvirtinimus dalyje **Priskirta jums**, kurioje rodomas užduoties ID, pavadinimas, kiti tvirtintojai ir užduoties priskyrimo data. Vartotojai, pateikę užduotį patvirtinti, gali peržiūrėti savo užduotis dalyje **Jūsų užklausos**, kurioje rodomi pateiktą užduotį dar turintys patvirtinti tvirtintojai.
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2390 komponavimo versijai.

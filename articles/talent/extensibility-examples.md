@@ -1,13 +1,13 @@
 ---
 title: „Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
-description: Šioje temoje aprašomi keli „Microsoft Dynamics 365 for Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“.
+description: Šioje temoje aprašomi keli „Microsoft Dynamics 365 Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
+ms.technology: Dynamics 365 Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0b455a8194f58b41a349f004ceda8183c7ee3f7c
-ms.sourcegitcommit: 9f94eff93d29bc27352569824e00bbccc2f961b8
+ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2019
-ms.locfileid: "1781447"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008064"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>„Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
 
-Šioje temoje aprašomi keli „Microsoft Dynamics 365 for Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“. Su kiekvienu pavyzdžiu susietą sprendimų paketą galite importuoti į savo „PowerApps“ aplinką. Paskui šiais paketais galite naudotis kaip nurodymais arba kaip atskaitos taškais jūsų organizacijai taikomiems scenarijams įgyvendinti.
+Šioje temoje aprašomi keli „Microsoft Dynamics 365 Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“. Su kiekvienu pavyzdžiu susietą sprendimų paketą galite importuoti į savo „PowerApps“ aplinką. Paskui šiais paketais galite naudotis kaip nurodymais arba kaip atskaitos taškais jūsų organizacijai taikomiems scenarijams įgyvendinti.
 
 > [!IMPORTANT]
 > Norėdami šioje temoje aprašytus šablonus ir programą naudoti tokius, kokie jie yra, būtinai patikrinkite juos, kad įsitikintumėte, jog jie apima visus jūsų diegimui būdingus scenarijus.
@@ -61,7 +61,7 @@ Norėdami atsisiųsti šabloną **Srautas – Formos prijungimas** ir pasirinkti
 
 Naudojantis šiuo šablonu galima gauti kandidato vertinimo formą, kad samdos vadovas galėtų peržiūrėti kandidato užpildytą vertinimo formą.
 
-Naudojantis „PowerApps“ sukurtas programas galima įdėti į „Attract“ užduoties šabloną.
+Naudojant „PowerApps“ sukurtas programas galima įdėti į „Attract“ užduoties šabloną.
 
 Norėdami atsisiųsti šabloną **„Powerapps“ perduodamų parametrų paleidimas ir išskleidimas** ir pasirinktinę objekto struktūrą, „Microsoft“ atsisiuntimo centre eikite į [„Powerapps“ perduodamų parametrų paleidimas ir išskleidimas](https://go.microsoft.com/fwlink/?linkid=2081991).
 
@@ -79,7 +79,7 @@ Norėdami atsisiųsti programą **Integravimas su „Office 365“** ir pasirink
 
 Šį šabloną galima išplėsti, kad būtų galima sekti kandidato įdarbinimo proceso etapo pokyčius ir siųsti pranešimus samdos komandai ir kandidatui.
 
-Apskritai, jei objektai saugomi „Common Data Service“, galima nustatyti, kad srautai siųstų pranešimus apie „Core HR“, „Attract“ arba „Dynamics 365 Talent: Onboard“ įvykius.
+Apskritai, jei objektai saugomi „Common Data Service“, galima nustatyti, kad srautai siųstų pranešimus apie „Core HR“, „Attract“ arba „Onboard“ įvykius.
 
 Norėdami atsisiųsti šabloną **Srautas – El. paštu siunčiamas pranešimas**, „Microsoft“ atsisiuntimo centre eikite į [Srautas – El. paštu siunčiamas pranešimas](https://go.microsoft.com/fwlink/?linkid=2082103).
 
@@ -106,7 +106,7 @@ Programėlę „Referral” galite naudoti kandidatams įtraukti į bendrinamą 
 
 Galite įterpti šią programėlę į darbuotojų savitarną (ESS) teikti rekomendacijoms arba galite naudoti ją kaip hipersaitą įmonės portale ir vykdyti kaip atskirą programėlę.
 
-Norėdami atsisiųsti **programėlę „Referral”**, eikite į [Dynamics 365 for Talent išplečiamumo sprendimas: programėlė „Referral”](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) „Microsoft” atsisiuntimo centre. Galite importuoti šią programėlę ir pritaikyti papildomų funkcijų įtraukimui.
+Norėdami atsisiųsti **programėlę „Referral”**, eikite į [Dynamics 365 Talent išplečiamumo sprendimas: programėlė „Referral”](http://www.microsoft.com/downloads/details.aspx?FamilyID=9a59c9d1-f8a1-4d4d-b768-cfc4f4eb9d0d) „Microsoft” atsisiuntimo centre. Galite importuoti šią programėlę ir pritaikyti papildomų funkcijų įtraukimui.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

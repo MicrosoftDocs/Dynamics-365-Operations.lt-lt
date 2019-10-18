@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606946"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024849"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>„Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas
 
@@ -34,19 +34,19 @@ ms.locfileid: "1606946"
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Medijos pagrindinio URL nustatymas ir medijos šablonų apibrėžimas siekiant konfigūruoti URL vaizdų formatą
 
-„Retail Modern POS“ (MPOS) rodomi vaizdai turi būti nuomojami išorėje, o ne sprendime „Microsoft Dynamics 365 for Retail“. Paprastai jie nuomojami turinio valdymo sistemoje, turinio pristatymo tinkle (CDN) arba medijos serveryje. Tada MPOS išrenka ir rodo atitinkamų objektų, pvz., produktų ir katalogų, vaizdus, prisijungdama prie paskirties URL. Siekiant rasti šiuos išoriškai nuomojamus vaizdus, MPOS reikia teisingo formato URL. Reikiamą vaizdų URL formatą galite konfigūruoti nustatydami lauko **Medijos pagrindinis URL** reikšmę kanalo šablone ir naudodami kiekvieno objekto funkciją **Nustatyti medijos šabloną**. Taip pat galite perrašyti objektų subrinkinio standartinį URL formatą, naudodami funkciją **Redaguoti programoje „Excel“**.
+„Retail Modern POS“ (MPOS) rodomi vaizdai turi būti nuomojami išorėje, o ne sprendime „Retail“. Paprastai jie nuomojami turinio valdymo sistemoje, turinio pristatymo tinkle (CDN) arba medijos serveryje. Tada MPOS išrenka ir rodo atitinkamų objektų, pvz., produktų ir katalogų, vaizdus, prisijungdama prie paskirties URL. Siekiant rasti šiuos išoriškai nuomojamus vaizdus, MPOS reikia teisingo formato URL. Reikiamą vaizdų URL formatą galite konfigūruoti nustatydami lauko **Medijos pagrindinis URL** reikšmę kanalo šablone ir naudodami kiekvieno objekto funkciją **Nustatyti medijos šabloną**. Taip pat galite perrašyti objektų subrinkinio standartinį URL formatą, naudodami funkciją **Redaguoti programoje „Excel“**.
 
 > [!IMPORTANT]
-> Dabartinėje „Dynamics 365 for Retail“ versijoje nebegalima nustatyti URL formato naudojant MPOS atributo XML **Vaizdas** objektų atributų grupėje **Numatyta**. Jei esate susipažinę su „Microsoft Dynamics AX 2012 R3“ ir šiuo metu naudojate dabartinę „Dynamics 365 for Retail“ versiją, įsitikinkite, kad visada naudojate naują funkciją **Nustatyti medijos šabloną** vaizdams nustatyti. Nenaudokite ir nemodifikuokite atributo **Vaizdo** objektų atributų grupėje **Numatyta**, įskaitant produktus. Pakeitimai, kuriuos tiesiogiai atliekate vaizdų atributų grupėje **Numatyta**, rodomi nebus. Ši parinktis būsimame leidime bus išjungta.
+> Dabartinėje „Retail“ versijoje nebegalima nustatyti URL formato naudojant MPOS atributo XML **Vaizdas** objektų atributų grupėje **Numatyta**. Jei esate susipažinę su „Microsoft Dynamics AX 2012 R3“ ir šiuo metu naudojate dabartinę „Dynamics 365 Retail“ versiją, įsitikinkite, kad visada naudojate naują funkciją **Nustatyti medijos šabloną** vaizdams nustatyti. Nenaudokite ir nemodifikuokite atributo **Vaizdo** objektų atributų grupėje **Numatyta**, įskaitant produktus. Pakeitimai, kuriuos tiesiogiai atliekate vaizdų atributų grupėje **Numatyta**, rodomi nebus. Ši parinktis būsimame leidime bus išjungta.
 
 Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šios procedūros padės užtikrinti, kad visų katalogo vaizdų, turinčių bendrą kelią, vaizdo paskirties kelias būtų nustatytas netiesiogiai. Pvz., jei išoriškai nustatėte medijos serverį arba CDN ir norite, kad pasirinktos parduotuvės vaizdai būtų rodomi MPOS, funkcija **Nustatyti medijos šabloną** padės nustatyti kelią, kuriuo MPOS gali ieškoti vaizdų ir juos nuskaityti.
 
 > [!NOTE]
-> Šiame demonstracinių duomenų pavyzdyje medijos serveris yra įdiegtas „Retail Server“. Tačiau jis gali būti bet kur ne „Dynamics 365 for Retail“.
+> Šiame demonstracinių duomenų pavyzdyje medijos serveris yra įdiegtas „Retail Server“. Tačiau jis gali būti bet kur, išskyrus „Dynamics 365 Retail“.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Kanalo medijos pagrindinio URL nustatymas
 
-1. Atidarykite „Dynamics 365 for Retail“ HQ portalą.
+1. Atidarykite „Retail“ HQ portalą.
 2. Spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **Kanalų profiliai**.
 
     [![Naršymas](./media/channel-profile1.png)](./media/channel-profile1.png)
@@ -62,7 +62,7 @@ Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šio
 3. „FasTab“ **Medijos kelias** įveskite likusį vaizdo vietos kelią. Medijos kelias palaiko **LanguageID** kaip kintamąjį. Pvz., demonstraciniams duomenims galite sukurti visų jūsų medijos serverio medijos pagrindinio URL katalogo vaizdų aplanką **Katalogas** (`https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer`). Tada galite sukurti aplanką kiekvienai kalbai, pvz., en-US arba fr FR, ir į kiekvieną aplanką nukopijuoti atitinkamus vaizdus. Jei neturite skirtingų įvairių kalbų vaizdų, galite neįtraukti kintamojo **LanguageID** į aplanko struktūrą ir tiesiogiai nurodyti katalogų aplanką, kuriame yra katalogo vaizdai.
 
     > [!NOTE]
-    > Dabartinė „Dynamics 365 for Retail“ versija palaiko objektų Katalogas, Produktas ir Kategorija atpažinimo ženklą **{LanguageId}**. (Nepalaikomas objektų Klientas ir Darbuotojas atpažinimo ženklas **{LanguageID}**, atsižvelgiant į esamą standartą, kuris galioja nuo „Microsoft Dynamics AX“ 6.x.)
+    > Dabartinė „Retail“ versija palaiko objektų Katalogas, Produktas ir Kategorija atpažinimo ženklą **{LanguageId}**. (Nepalaikomas objektų Klientas ir Darbuotojas atpažinimo ženklas **{LanguageID}**, atsižvelgiant į esamą standartą, kuris galioja nuo „Microsoft Dynamics AX“ 6.x.)
 
 4. Vaizdų failo vardo formatas yra užprogramuotas kaip katalogo pavadinimas ir jo keisti negalima. Todėl pervardykite vaizdus, kad jie turi atitinkamus katalogų pavadinimus, siekdami užtikrinti, kad MPOS tvarko juos teisingai.
 5. Lauke **Failo plėtinys** pasirinkite numatomą failo vardo plėtinį, priklausomai nuo turimų vaizdų tipo. Pavyzdžiui, demonstracinių duomenų katalogo vaizdų plėtinys yra nustatytas kaip .jpg. (Vaizdo failai yra taip pat pervardinami, kad turėtų katalogo pavadinimus.)
@@ -118,7 +118,7 @@ Kaip sužinojote ankstesniame skyriuje, nurodyto objekto medijos šablonas palai
     [![„FastTab“ „Generuoti vaizdų URL., skirtus „Excel““ pasirinkus „Generuoti“](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
-    > „Excel“ sugeneruoti URL naudoja nustatyto medijos šablono kelią ir nuostatas. Šios nuostatos apima failų vardų kūrimo nuostatas. Tikimasi, kad faktinius vaizdus nustatysite ne „Dynamics 365 for Retail“, o vaizdus bus galima nuskaityti iš URL, kurie yra išvesti iš anksčiau nurodyto medijos šablono. Šiuos išvestus URL galite perrašyti, naudodami funkciją Redaguoti programoje „Excel“.
+    > „Excel“ sugeneruoti URL naudoja nustatyto medijos šablono kelią ir nuostatas. Šios nuostatos apima failų vardų kūrimo nuostatas. Tikimasi, kad faktinius vaizdus nustatysite ne „Retail“, o vaizdus bus galima nuskaityti iš URL, kurie yra išvesti iš anksčiau nurodyto medijos šablono. Šiuos išvestus URL galite perrašyti, naudodami funkciją Redaguoti programoje „Excel“.
 
 5. Spustelėkite **Redaguoti programoje „Excel“**.
 6. Atidarę „Microsoft Excel“ darbalapį, spustelėkite **Įjungti redagavimą**, kai būsite paprašyti.

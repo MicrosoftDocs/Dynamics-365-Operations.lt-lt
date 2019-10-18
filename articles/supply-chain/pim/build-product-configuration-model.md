@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b50aa1df7a169e71d3e2e477bd1515d70cedccab
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865381"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249499"
 ---
 # <a name="product-configuration-overview"></a>Produktų konfigūracijos apžvalga
 
@@ -60,6 +60,9 @@ Produkto konfigūracijos modelį sudaro vienas ar keli komponentai, tarpusavyje 
 
 Kiekviename komponente naudojamas bent vienas jo ypatybes nustatantis atributas. Atributai – tai vartotojų per konfigūravimo procesą pasirenkami elementai. Naudojant atributus valdomi ryšiai tarp komponentų ir vidiniai komponento ryšiai, kurie įtraukiami į apribojimus arba apskaičiavimus. Pagal KS eilutėms taikomas sąlygas atributus galima naudoti faktinėms dalims, iš kurių bus sudarytas sukonfigūruotas produktas, nustatyti. Be to, naudojant atributą ir susiejimo mechanizmą galima valdyti KS eilutės ypatybę. Panašios su įtraukimo ir ypatybių parametrais susijusios funkcijos taikomos maršruto operacijoms.
 
+>[!NOTE]
+> Kurdami atributų tipus, venkite sukurti daug reikšmių atributo tipo domenui. Tai atlikus produkto konfigūratoriuje gali kilti sulėtėjimų. 
+
 ### <a name="expression-constraints"></a>Išraiškos apribojimai
 
 Kai vartotojas naudoja pagal apribojimus sukurtą produkto konfigūracijos modelį ir renkasi įvairių atributų reikšmes, taikomi tam tikri apribojimai. Šie apribojimai gali būti įvykdomi kaip išraiškos apribojimai naudojant optimizuoto modeliavimo kalbą (OML). Be to, apribojimą galima įvykdyti kaip lentelės apribojimą.
@@ -70,7 +73,7 @@ Lentelės apribojimai gali būti nustatomi vartotojo arba apibrėžtos sistemos.
 
 Vartotojas pats sukuria vartotojo apibrėžiamą lentelės apribojimą. Vartotojas, pasirinkęs įvairių tipų atributus, sudaro lentelės stulpelius, tada, įvedęs pasirinktų tipų atributų domenų reikšmes, sudaro lentelės apribojimo eilutes.  
 
-Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina „Microsoft Dynamics 365 for Finance and Operations“ lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūruojant esančios „Finance and Operations“ lentelės eilutės.  
+Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūruojant esančios „Finance and Operations“ lentelės eilutės.  
 
 Lentelės apribojimas įtraukiamas į produkto konfigūracijos modelį nurodžius lentelės apribojimo aprašą ir susiejus atitinkamus modelio atributus su lentelės apribojimo stulpeliais.
 
