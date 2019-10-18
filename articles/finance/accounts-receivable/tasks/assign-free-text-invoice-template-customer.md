@@ -1,0 +1,52 @@
+---
+title: Priskirti laisvos formos SF šabloną klientui
+description: Ši užduotis parodo, kaip klientui priskirti laisvos formos SF šabloną.
+author: ShivamPandey-msft
+manager: AnnBe
+ms.date: 08/12/2019
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: CustTable, CustRecurrenceInvoice
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: shpandey
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d9535a4678ea0c68227a54cf3c5d1b06b116a288
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2179077"
+---
+# <a name="assign-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="02b60-103">Priskirti laisvos formos SF šabloną klientui</span><span class="sxs-lookup"><span data-stu-id="02b60-103">Assign free text invoice template to a customer</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="02b60-104">Ši užduotis parodo, kaip klientui priskirti laisvos formos SF šabloną.</span><span class="sxs-lookup"><span data-stu-id="02b60-104">This task demonstrates how to assign a free text invoice template to a customer.</span></span> <span data-ttu-id="02b60-105">Ši užduotis naudoja USMF demonstracinę įmonę ir yra skirta naudotojui, kuris yra atsakingas už A/R SF valdymą ir apdorojimą.</span><span class="sxs-lookup"><span data-stu-id="02b60-105">This task uses the USMF demo company and is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
+
+1. <span data-ttu-id="02b60-106">**Naršymo srityje** eikite į **Moduliai > Gautinos sumos > Klientai > Visi klientai**.</span><span class="sxs-lookup"><span data-stu-id="02b60-106">In the **Navigation pane**, go to **Modules > Accounts receivable > Customers > All customers**.</span></span>
+2. <span data-ttu-id="02b60-107">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="02b60-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="02b60-108">**Veiksmų sritis** spustelėkite **Sąskaita faktūra**.</span><span class="sxs-lookup"><span data-stu-id="02b60-108">On the **Action Pane**, click **Invoice**.</span></span>
+4. <span data-ttu-id="02b60-109">Spustelėkite **Pasikartojančios sąskaitos faktūros**.</span><span class="sxs-lookup"><span data-stu-id="02b60-109">Click **Recurring invoices**.</span></span> <span data-ttu-id="02b60-110">Naudokite šį puslapį, kad laisvos formos SF šablonus priskirtumėte klientams ir nurodytumėte, kaip dažnai SF bus siunčiamos klientui.</span><span class="sxs-lookup"><span data-stu-id="02b60-110">Use this page to assign free text invoice templates to customers and specify how frequently invoices will be sent to the customer.</span></span>  
+5. <span data-ttu-id="02b60-111">Spustelėkite **Naujas**, kad klientui priskirtumėte naują šabloną.</span><span class="sxs-lookup"><span data-stu-id="02b60-111">Click **New** to assign a new template to the customer.</span></span>
+6. <span data-ttu-id="02b60-112">Lauke **Šablonas** pažymėkite laisvą tekstinį sąskaitos faktūros šabloną, kurį norite priskirti klientui.</span><span class="sxs-lookup"><span data-stu-id="02b60-112">In the **Template** field, select the free text invoice template you want to assign to the customer.</span></span>
+7. <span data-ttu-id="02b60-113">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="02b60-113">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="02b60-114">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="02b60-114">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="02b60-115">Lauke **Atsiskaitymo pradžios data** įveskite datą, kada bus sugeneruota pirma sąskaita faktūra.</span><span class="sxs-lookup"><span data-stu-id="02b60-115">In the **Billing start date** field, enter the date when the first invoice will be generated.</span></span>
+10. <span data-ttu-id="02b60-116">Skyriuje **Pasikartojimo pabaiga** įveskite pasikartojimo pabaigos datą.</span><span class="sxs-lookup"><span data-stu-id="02b60-116">In the **Recurrence end** section, enter a recurring end date.</span></span>  
+    * <span data-ttu-id="02b60-117">Pasirinkite vieną iš šių parinkčių: Nėra pabaigos datos – SF bus generuojamos neribotą laiką, kol šablonas bus pašalintas iš kliento sąskaitos.</span><span class="sxs-lookup"><span data-stu-id="02b60-117">Select one of the following: No end date – Invoices will be generated indefinitely until the template is removed from the customer account.</span></span>
+    * <span data-ttu-id="02b60-118">Atsiskaitymo pabaigos data – pasirinkite šią parinktį ir įveskite paskutinę galimą SF generavimo datą.</span><span class="sxs-lookup"><span data-stu-id="02b60-118">Billing end date – Select this option and enter the last date that the invoice can be generated.</span></span>  
+11. <span data-ttu-id="02b60-119">Lauke **Didžiausia sukaupta suma** įveskite didžiausią sukauptą sumą, po kurios sąskaitos faktūros generavimas bus sustabdytas.</span><span class="sxs-lookup"><span data-stu-id="02b60-119">In the **Maximum cummulative amount** field, enter the maximum cumulative amount after which invoice generation will stop.</span></span> <span data-ttu-id="02b60-120">Įveskite maksimalią kaupiamąją sumą, kurią galima pasiekti naudojant pasirinktą šabloną.</span><span class="sxs-lookup"><span data-stu-id="02b60-120">Enter the maximum cumulative amount that can be reached using the selected template.</span></span> <span data-ttu-id="02b60-121">Pvz., jei įvesite 1 000,00 ir generuosite mėnesines 100,00 SF, SF nebebus generuojamos sugeneravus dešimtąją SF.</span><span class="sxs-lookup"><span data-stu-id="02b60-121">For example, if you enter 1,000.00 and generate monthly invoices for 100.00 each, invoices will stop generating after the tenth invoice is generated.</span></span>  
+12. <span data-ttu-id="02b60-122">Skyriuje **Generuoti pasikartojančias sąskaitas faktūras naudojant numatytąsias reikšmes iš** pažymėkite laisvą tekstinį sąskaitos faktūros šabloną arba kliento sąskaitą.</span><span class="sxs-lookup"><span data-stu-id="02b60-122">In the **Generate recurring invoices by using the default values from** section, select either free text invoice template or the customer account.</span></span> <span data-ttu-id="02b60-123">Pasirinkite laisvos formos SF šabloną arba kliento sąskaitą, pagal kurią bus nustatomos kalbos, registravimo šablono, PVM grupės, prekės PVM grupės, sąrašo kodo, pristatymo šalies / regiono, valiutos, mokėjimo sąlygų, mokėjimo būdo, mokėjimo specifikacijos, mokėjimo grafiko, mokėjimo nuolaidos, finansinių dimensijų ir žiro mokėjimo dokumento numatytosios vertės, kai kuriamos SF.</span><span class="sxs-lookup"><span data-stu-id="02b60-123">Select whether to use the free text invoice template or the customer account to determine the default values for the language, posting profile, sales tax group, item sales tax group, list code, country/region for delivery, currency, terms of payment, method of payment, payment specification, payment schedule, cash discount, financial dimensions, and giro money transfer slip when invoices are created.</span></span>  
+13. <span data-ttu-id="02b60-124">Lauke **Pasikartojimo modelis** pažymėkite pasikartojimo modelį.</span><span class="sxs-lookup"><span data-stu-id="02b60-124">In the **Recurrence pattern** field, select the recurrence pattern.</span></span>
+    + <span data-ttu-id="02b60-125">Kasdien – pasirinkite šią parinktį ir lauke Per įveskite dienų skaičių.</span><span class="sxs-lookup"><span data-stu-id="02b60-125">Daily – Select this option and enter the number of days in the Per field.</span></span> <span data-ttu-id="02b60-126">Pavyzdžiui, jei įvesite 15, šio kliento SF bus generuojama kas 15 dienų.</span><span class="sxs-lookup"><span data-stu-id="02b60-126">For example, if you enter 15, an invoice will be generated every 15 days for this customer.</span></span>
+    + <span data-ttu-id="02b60-127">Kas savaitę – pasirinkite šią parinktį ir lauke Per įveskite savaičių skaičių.</span><span class="sxs-lookup"><span data-stu-id="02b60-127">Weekly - Select this option and enter the number of weeks in the Per field.</span></span> <span data-ttu-id="02b60-128">Pavyzdžiui, jei įvesite 2, šio kliento SF bus generuojama kas dvi savaites.</span><span class="sxs-lookup"><span data-stu-id="02b60-128">For example, if you enter 2, an invoice will be generated every two weeks for this customer.</span></span>
+    + <span data-ttu-id="02b60-129">Kas mėnesį – pasirinkite šią parinktį ir lauke Per įveskite mėnesių skaičių.</span><span class="sxs-lookup"><span data-stu-id="02b60-129">Monthly - Select this option and enter the number of months in the Per field.</span></span> <span data-ttu-id="02b60-130">Pavyzdžiui, jei įvesite 6, šio kliento SF bus generuojama kas šešis mėnesius.</span><span class="sxs-lookup"><span data-stu-id="02b60-130">For example, if you enter 6, an invoice will be generated every six months for this customer.</span></span>
+    + <span data-ttu-id="02b60-131">Kas metus – pasirinkite šią parinktį ir lauke Per įveskite metų skaičių.</span><span class="sxs-lookup"><span data-stu-id="02b60-131">Yearly – Select this option and enter the number of years in the Per field.</span></span> <span data-ttu-id="02b60-132">Pavyzdžiui, jei įvesite 2, šio kliento SF bus generuojama kas dvejus metus.</span><span class="sxs-lookup"><span data-stu-id="02b60-132">For example, if you enter 2, an invoice will be generated every two years for this customer.</span></span>  
+14. <span data-ttu-id="02b60-133">Lauke **Per** įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="02b60-133">In the **Per** field, enter a number.</span></span>
+

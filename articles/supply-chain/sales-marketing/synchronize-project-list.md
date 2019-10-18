@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ projektus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
+title: Tiekimo grandinės valdymo projektų sąrašo sinchronizavimas su „Field Service“
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ projektus sinchronizuojant su „Dynamics 365 Field Service“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,51 +19,51 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 535094821ca7efa33bf40f2057fac8ffc17bb822
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b74a7f0445b3bdad671da4c61e561bc0d9d80cd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843558"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251597"
 ---
-# <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a><span data-ttu-id="371c2-103">„Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“</span><span class="sxs-lookup"><span data-stu-id="371c2-103">Synchronize project list from Finance and Operations to Field Service</span></span>
+# <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a><span data-ttu-id="ce83d-103">Tiekimo grandinės valdymo projektų sąrašo sinchronizavimas su „Field Service“</span><span class="sxs-lookup"><span data-stu-id="ce83d-103">Synchronize project list from Supply Chain Management to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="371c2-104">Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ projektus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.</span><span class="sxs-lookup"><span data-stu-id="371c2-104">This topic discusses the templates and underlying tasks that are used to synchronize projects from Microsoft Dynamics 365 for Finance and Operations to Microsoft Dynamics 365 for Field Service.</span></span>
+<span data-ttu-id="ce83d-104">Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ projektus sinchronizuojant su „Dynamics 365 Field Service“.</span><span class="sxs-lookup"><span data-stu-id="ce83d-104">This topic discusses the templates and underlying tasks that are used to synchronize projects from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
 
-<span data-ttu-id="371c2-105">[![„Finance and Operations“ ir „Field Service“ verslo procesų sinchronizavimas](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span><span class="sxs-lookup"><span data-stu-id="371c2-105">[![Synchronization of business processes between Finance and Operations and Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span></span>
+<span data-ttu-id="ce83d-105">[![Tiekimo grandinės valdymo ir „Field Service“ verslo procesų sinchronizavimas](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span><span class="sxs-lookup"><span data-stu-id="ce83d-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)</span></span>
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="371c2-106">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="371c2-106">Templates and tasks</span></span>
-<span data-ttu-id="371c2-107">Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ projektus su „Microsoft Dynamics 365 for Field Service“.</span><span class="sxs-lookup"><span data-stu-id="371c2-107">The following template and underlying tasks are used to run synchronization of projects from Microsoft Dynamics 365 for Finance and Operations to Microsoft Dynamics 365 for Field Service.</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="ce83d-106">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="ce83d-106">Templates and tasks</span></span>
+<span data-ttu-id="ce83d-107">Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant Tiekimo grandinės valdymo projektus su „Field Service“.</span><span class="sxs-lookup"><span data-stu-id="ce83d-107">The following template and underlying tasks are used to run synchronization of projects from Supply Chain Management to Field Service.</span></span>
 
-<span data-ttu-id="371c2-108">**Šablonas naudojant funkcija Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="371c2-108">**Template in Data integration**</span></span>
-- <span data-ttu-id="371c2-109">Projektai („Finance and Operations“ su „Field Service“)</span><span class="sxs-lookup"><span data-stu-id="371c2-109">Projects (Fin and Ops to Field Service)</span></span>
+<span data-ttu-id="ce83d-108">**Šablonas naudojant funkcija Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="ce83d-108">**Template in Data integration**</span></span>
+- <span data-ttu-id="ce83d-109">Projektai (iš Tiekimo grandinės valdymo į „Field Service“)</span><span class="sxs-lookup"><span data-stu-id="ce83d-109">Projects (Supply Chain Management to Field Service)</span></span>
 
-<span data-ttu-id="371c2-110">**Užduotis projekte Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="371c2-110">**Task in the Data integration project**</span></span>
-- <span data-ttu-id="371c2-111">Projektai</span><span class="sxs-lookup"><span data-stu-id="371c2-111">Projects</span></span>
+<span data-ttu-id="ce83d-110">**Užduotis projekte Duomenų integravimas**</span><span class="sxs-lookup"><span data-stu-id="ce83d-110">**Task in the Data integration project**</span></span>
+- <span data-ttu-id="ce83d-111">Projektai</span><span class="sxs-lookup"><span data-stu-id="ce83d-111">Projects</span></span>
 
-<span data-ttu-id="371c2-112">Prieš sinchronizuojant projektų sąrašą būtina atlikti toliau nurodytas sinchronizavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="371c2-112">The following synchronization tasks are required before synchronization of project list can occur:</span></span>
-- <span data-ttu-id="371c2-113">Sąskaitos (iš „Sales“ į „Finance and Operations“)</span><span class="sxs-lookup"><span data-stu-id="371c2-113">Accounts (Sales to Fin and Ops)</span></span> 
+<span data-ttu-id="ce83d-112">Prieš sinchronizuojant projektų sąrašą būtina atlikti toliau nurodytas sinchronizavimo užduotis.</span><span class="sxs-lookup"><span data-stu-id="ce83d-112">The following synchronization tasks are required before synchronization of project list can occur:</span></span>
+- <span data-ttu-id="ce83d-113">Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą)</span><span class="sxs-lookup"><span data-stu-id="ce83d-113">Accounts (Sales to Supply Chain Management)</span></span> 
 
-## <a name="entity-set"></a><span data-ttu-id="371c2-114">Objektų rinkinys</span><span class="sxs-lookup"><span data-stu-id="371c2-114">Entity set</span></span>
-| <span data-ttu-id="371c2-115">Field Service</span><span class="sxs-lookup"><span data-stu-id="371c2-115">Field Service</span></span>           | <span data-ttu-id="371c2-116">„Finance and Operations”</span><span class="sxs-lookup"><span data-stu-id="371c2-116">Finance and Operations</span></span>  |
+## <a name="entity-set"></a><span data-ttu-id="ce83d-114">Objektų rinkinys</span><span class="sxs-lookup"><span data-stu-id="ce83d-114">Entity set</span></span>
+| <span data-ttu-id="ce83d-115">„Field Service“</span><span class="sxs-lookup"><span data-stu-id="ce83d-115">Field Service</span></span>           | <span data-ttu-id="ce83d-116">Tiekimo grandinės valdymas</span><span class="sxs-lookup"><span data-stu-id="ce83d-116">Supply Chain Management</span></span>  |
 |-------------------------|-------------------------|
-|<span data-ttu-id="371c2-117">msdynce_externalprojects</span><span class="sxs-lookup"><span data-stu-id="371c2-117">msdynce_externalprojects</span></span> | <span data-ttu-id="371c2-118">Projektai</span><span class="sxs-lookup"><span data-stu-id="371c2-118">Projects</span></span>                |
+|<span data-ttu-id="ce83d-117">msdynce_externalprojects</span><span class="sxs-lookup"><span data-stu-id="ce83d-117">msdynce_externalprojects</span></span> | <span data-ttu-id="ce83d-118">Projektai</span><span class="sxs-lookup"><span data-stu-id="ce83d-118">Projects</span></span>                |
 
-## <a name="entity-flow"></a><span data-ttu-id="371c2-119">Objekto srautas</span><span class="sxs-lookup"><span data-stu-id="371c2-119">Entity flow</span></span>
-<span data-ttu-id="371c2-120">„Finance and Operations“ sukurti projektai.</span><span class="sxs-lookup"><span data-stu-id="371c2-120">Projects are created in Finance and Operations.</span></span> <span data-ttu-id="371c2-121">Projektai, kurių **Projekto tipas** – **Laikas ir medžiagos**, o **Projekto etapas** – **Vykdoma**, sinchronizuojami su „Field Service“ objektu **Išorinis projektas**, įskaitant projekto numerį, projekto pavadinimą, projekto etapą ir kliento sąskaitos informaciją.</span><span class="sxs-lookup"><span data-stu-id="371c2-121">Projects with **Project type** set to **Time and material** and **Project stage** set to **In process** will synchronize to the **External Project** entity in Field Service, including Project number, Project name, Project stage, and Customer account information.</span></span> <span data-ttu-id="371c2-122">Sąrašas **Išorinis projektas** naudojamas „Field Service“ darbo užsakymams su „Finance and Operations“ projektais susieti.</span><span class="sxs-lookup"><span data-stu-id="371c2-122">The **External Project** list is used to pair Field service work orders with Finance and Operations projects.</span></span>
+## <a name="entity-flow"></a><span data-ttu-id="ce83d-119">Objekto srautas</span><span class="sxs-lookup"><span data-stu-id="ce83d-119">Entity flow</span></span>
+<span data-ttu-id="ce83d-120">Projektai sukuriami Tiekimo grandinės valdyme.</span><span class="sxs-lookup"><span data-stu-id="ce83d-120">Projects are created in Supply Chain Management.</span></span> <span data-ttu-id="ce83d-121">Projektai, kurių **Projekto tipas** – **Laikas ir medžiagos**, o **Projekto etapas** – **Vykdoma**, sinchronizuojami su „Field Service“ objektu **Išorinis projektas**, įskaitant projekto numerį, projekto pavadinimą, projekto etapą ir kliento sąskaitos informaciją.</span><span class="sxs-lookup"><span data-stu-id="ce83d-121">Projects with **Project type** set to **Time and material** and **Project stage** set to **In process** will synchronize to the **External Project** entity in Field Service, including Project number, Project name, Project stage, and Customer account information.</span></span> <span data-ttu-id="ce83d-122">Sąrašas **Išorinis projektas** naudojamas „Field Service“ darbo užsakymams su Tiekimo grandinės valdymo projektais susieti.</span><span class="sxs-lookup"><span data-stu-id="ce83d-122">The **External Project** list is used to pair Field service work orders with Supply Chain Management projects.</span></span>
 
-## <a name="field-service-crm-solution"></a><span data-ttu-id="371c2-123">„Field Service“ CRM sprendimas</span><span class="sxs-lookup"><span data-stu-id="371c2-123">Field Service CRM solution</span></span>
-<span data-ttu-id="371c2-124">**Išorinis projektas** yra objektas, gaunantis visus „Finance and Operations“ projektus.</span><span class="sxs-lookup"><span data-stu-id="371c2-124">The **External Project** entity gets all the projects from Finance and Operations.</span></span> <span data-ttu-id="371c2-125">Laukas **Išorinis projektas** įtrauktas į objektą **darbo užsakymo**.</span><span class="sxs-lookup"><span data-stu-id="371c2-125">The **External Project** field has been added to the **Work Order** entity.</span></span> <span data-ttu-id="371c2-126">Šis laukas yra peržvalga, o žymint darbo užsakymą su projektu Pardavimo užsakymas, prijungiama prie „Finance and Operations“ projekto.</span><span class="sxs-lookup"><span data-stu-id="371c2-126">This is a lookup field, so by tagging your work order with a project, the sales order will be connected to a project within Finance and Operations.</span></span> <span data-ttu-id="371c2-127">Kai **sistemos būsena** **Atidarytas – vykdomas (690,970,000)** keičiama į aukštesnę būseną, laukas **Išorinis projektas** užrakinamas, todėl negalėsite įtraukti, pašalinti ar pakeisti vertės.</span><span class="sxs-lookup"><span data-stu-id="371c2-127">After the **System Status** changes **Open – In Progress(690,970,000)** to a higher status, the **External Project** field will be locked and you can no longer add, remove, or change the value.</span></span>
+## <a name="field-service-crm-solution"></a><span data-ttu-id="ce83d-123">„Field Service“ CRM sprendimas</span><span class="sxs-lookup"><span data-stu-id="ce83d-123">Field Service CRM solution</span></span>
+<span data-ttu-id="ce83d-124">**Išorinis projektas** yra objektas, gaunantis visus Tiekimo grandinės valdymo projektus.</span><span class="sxs-lookup"><span data-stu-id="ce83d-124">The **External Project** entity gets all the projects from Supply Chain Management.</span></span> <span data-ttu-id="ce83d-125">Laukas **Išorinis projektas** įtrauktas į objektą **darbo užsakymo**.</span><span class="sxs-lookup"><span data-stu-id="ce83d-125">The **External Project** field has been added to the **Work Order** entity.</span></span> <span data-ttu-id="ce83d-126">Tai peržvalgos laukas, todėl siejant darbo užsakymą su projektu, pardavimo užsakymas sujungiamas su Tiekimo grandinės valdymo projektu.</span><span class="sxs-lookup"><span data-stu-id="ce83d-126">This is a lookup field, so by tagging your work order with a project, the sales order will be connected to a project within Supply Chain Management.</span></span> <span data-ttu-id="ce83d-127">Kai **sistemos būsena** **Atidarytas – vykdomas (690,970,000)** keičiama į aukštesnę būseną, laukas **Išorinis projektas** užrakinamas, todėl negalėsite įtraukti, pašalinti ar pakeisti vertės.</span><span class="sxs-lookup"><span data-stu-id="ce83d-127">After the **System Status** changes **Open – In Progress(690,970,000)** to a higher status, the **External Project** field will be locked and you can no longer add, remove, or change the value.</span></span>
 
-## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="371c2-128">Būtinosios sąlygos ir susiejimo sąranka</span><span class="sxs-lookup"><span data-stu-id="371c2-128">Prerequisites and mapping setup</span></span>
-### <a name="finance-and-operations"></a><span data-ttu-id="371c2-129">„Finance and Operations”</span><span class="sxs-lookup"><span data-stu-id="371c2-129">Finance and Operations</span></span>
-<span data-ttu-id="371c2-130">Įgalinti duomenų objekto projektų keitimų sekimą.</span><span class="sxs-lookup"><span data-stu-id="371c2-130">Enable change tracking for Data entity projects.</span></span>
+## <a name="prerequisites-and-mapping-setup"></a><span data-ttu-id="ce83d-128">Būtinosios sąlygos ir susiejimo sąranka</span><span class="sxs-lookup"><span data-stu-id="ce83d-128">Prerequisites and mapping setup</span></span>
+### <a name="supply-chain-management"></a><span data-ttu-id="ce83d-129">Tiekimo grandinės valdymas</span><span class="sxs-lookup"><span data-stu-id="ce83d-129">Supply Chain Management</span></span>
+<span data-ttu-id="ce83d-130">Įgalinti duomenų objekto projektų keitimų sekimą.</span><span class="sxs-lookup"><span data-stu-id="ce83d-130">Enable change tracking for Data entity projects.</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="371c2-131">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="371c2-131">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="ce83d-131">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="ce83d-131">Template mapping in Data integration</span></span>
 
 
-### <a name="projects-fin-and-ops-to-field-service-projects"></a><span data-ttu-id="371c2-132">Projektai („Finance and Operations“ su „Field Service“): projektai</span><span class="sxs-lookup"><span data-stu-id="371c2-132">Projects (Fin and Ops to Field Service): Projects</span></span>
+### <a name="projects-supply-chain-management-to-field-service-projects"></a><span data-ttu-id="ce83d-132">Projektai (iš Tiekimo grandinės valdymo į „Field Service“): projektai</span><span class="sxs-lookup"><span data-stu-id="ce83d-132">Projects (Supply Chain Management to Field Service): Projects</span></span>
 
-<span data-ttu-id="371c2-133">[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProject1.png)](./media/FSProject1.png)</span><span class="sxs-lookup"><span data-stu-id="371c2-133">[![Template mapping in Data integration](./media/FSProject1.png)](./media/FSProject1.png)</span></span>
+<span data-ttu-id="ce83d-133">[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProject1.png)](./media/FSProject1.png)</span><span class="sxs-lookup"><span data-stu-id="ce83d-133">[![Template mapping in Data integration](./media/FSProject1.png)](./media/FSProject1.png)</span></span>

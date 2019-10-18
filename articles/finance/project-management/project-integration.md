@@ -1,0 +1,129 @@
+---
+title: „Microsoft Project“ kliento integravimas
+description: Planuoti ir tvarkyti projekto grafiką gali būti sudėtinga, todėl projektų vadovai turi naudoti įrankius, padedančius šią užduotį valdyti. Atlikus integravimą su „Microsoft Project“ klientu, galima atidaryti ir valdyti projekto darbo paskirstymo struktūrą.
+author: KimANelson
+manager: AnnBe
+ms.date: 12/11/2017
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ProjWbsTemplate
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 87983
+ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
+ms.search.region: Global
+ms.author: knelson
+ms.search.validFrom: 2017-12-04
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 610990612d5fb38025bf39cc648d0c9572da37b6
+ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "2174957"
+---
+# <a name="microsoft-project-client-integration"></a><span data-ttu-id="2c699-104">„Microsoft Project“ kliento integravimas</span><span class="sxs-lookup"><span data-stu-id="2c699-104">Microsoft Project client integration</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="2c699-105">Planuoti ir tvarkyti projekto grafiką gali būti sudėtinga, todėl projektų vadovai turi naudoti įrankius, padedančius šią užduotį valdyti.</span><span class="sxs-lookup"><span data-stu-id="2c699-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="2c699-106">Atlikus integravimą su „Microsoft Project“ klientu, galima atidaryti ir valdyti projekto darbo paskirstymo struktūrą.</span><span class="sxs-lookup"><span data-stu-id="2c699-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="2c699-107">Projekto vadovas bet kokius keitimus gali vėl skelbti „Dynamics 365 Finance“ projekto darbo paskirstymo struktūroje.</span><span class="sxs-lookup"><span data-stu-id="2c699-107">The project manager can publish any changes back to the Dynamics 365 Finance project work breakdown structure.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c699-108">Jei naudojate liepos mėn. naujinimą (10.0.4 versiją), turite įdiegti KB 4054797 ir 4055884.</span><span class="sxs-lookup"><span data-stu-id="2c699-108">If you are using the July update (version 10.0.4), you must install KB 4054797 and 4055884.</span></span>
+
+## <a name="configure-the-microsoft-project-client-add-in"></a><span data-ttu-id="2c699-109">„Microsoft Project“ kliento papildinio konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="2c699-109">Configure the Microsoft Project Client add-in</span></span>
+<span data-ttu-id="2c699-110">Norint įjungti integravimo su „Microsoft Project“ klientu funkciją, vartotojo „Microsoft Project“ kliento programoje reikia įdiegti „Microsoft Dynamics 365“ papildinį.</span><span class="sxs-lookup"><span data-stu-id="2c699-110">To enable the integration with Microsoft Project Client, a Microsoft Dynamics 365 add-in is required to be installed in the user’s client Microsoft Project application.</span></span> <span data-ttu-id="2c699-111">Tai daroma atidarant **darbo sritį Projektų valdymas**.</span><span class="sxs-lookup"><span data-stu-id="2c699-111">This is done by opening the **Project management workspace**.</span></span>
+
+<span data-ttu-id="2c699-112">•   Darbo srities skyriuje **Saitai** > **Sąranka** spustelėkite **Konfigūruoti projekto kliento papildinį**.</span><span class="sxs-lookup"><span data-stu-id="2c699-112">•   Click **Configure project client add-in** from the **Links** > **Setup** section of the workspace.</span></span>
+
+<span data-ttu-id="2c699-113">•   Paraginti spustelėkite **Atidaryti**, tada – **Paleisti**.</span><span class="sxs-lookup"><span data-stu-id="2c699-113">•   Click **Open**, then click **Run** when prompted.</span></span>
+
+## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a><span data-ttu-id="2c699-114">Esamo darbo paskirstymo struktūros juodraščio atidarymas ir redagavimas „Microsoft Project“ kliente</span><span class="sxs-lookup"><span data-stu-id="2c699-114">Open and edit an existing draft work breakdown structure in Microsoft Project Client</span></span>
+<span data-ttu-id="2c699-115">Jei „Dynamics 365 Finance“ projektui darbo paskirstymo struktūra jau sukurta ir ji yra juodraščio būsenos, ją galima atidaryti „Microsoft Project“ kliento programoje.</span><span class="sxs-lookup"><span data-stu-id="2c699-115">If a project in Dynamics 365 Finance already has a work breakdown structure created, the work breakdown structure can be opened in the Microsoft Project Client application if the work breakdown structure is in a draft status.</span></span> <span data-ttu-id="2c699-116">Norėdami ją atidaryti puslapyje **Projektas**, skirtuke **Planas** spustelėkite saitą **Atidaryti naudojant „Microsoft Project“**. Šį puslapį taip pat galima atidaryti „Microsoft Project“ kliento programoje, skirtuke **„Microsoft Dynamics 365**“ spustelėjus **Atidaryti**. Sąraše pasirinkite **Juridinis subjektas** ir **Projektas**.</span><span class="sxs-lookup"><span data-stu-id="2c699-116">To open from the **Project** page, click **Open in Microsoft Project** link from the **Plan** tab. This page can also be opened from within the Microsoft Project Client application by clicking **Open** in the **Microsoft Dynamics 365** tab. Select the **Legal entity** and **Project** from the list.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c699-117">Jei kaip naršyklę naudojate „Internet Explorer“, turėsite spustelėti **Įrašyti**, kad failą galėtumėte rankiniu būdu atidaryti iš vietos, kurioje jis atsiunčiamas.</span><span class="sxs-lookup"><span data-stu-id="2c699-117">If you're using Internet Explorer as your browser, you will need to click **Save** to manually open from the location that the file is downloaded to.</span></span> <span data-ttu-id="2c699-118">Arba spustelėkite **Įrašyti ir atidaryti**, kad failą atidarytumėte „Microsoft Project“ kliente.</span><span class="sxs-lookup"><span data-stu-id="2c699-118">Or, click **Save and open** to open the file in Microsoft Project Client.</span></span> <span data-ttu-id="2c699-119">Įrašydami failą, jo nepervardykite.</span><span class="sxs-lookup"><span data-stu-id="2c699-119">Do not rename the file name when saving.</span></span>
+
+<span data-ttu-id="2c699-120">Prieš failą redaguodami „Microsoft Project“ kliente, jį turite paimti ir užrakinti. Skirtuke **Microsoft Dynamics 365** spustelėkite **Paimti ir užrakinti**. Tai neleis kitiems vartotojams tuo pačiu metu darbo paskirstymo struktūros redaguoti naudojant „Finance“.</span><span class="sxs-lookup"><span data-stu-id="2c699-120">Before making any edits to the file using Microsoft Project Client, you need to check it out. Click **Check out** in the **Microsoft Dynamics 365** tab. This will prevent other users from editing the work breakdown structure from within Finance at the same time.</span></span> <span data-ttu-id="2c699-121">Jei, baigę redaguoti darbo paskirstymo struktūrą, norite ją publikuoti, skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti ir atrakinti**.</span><span class="sxs-lookup"><span data-stu-id="2c699-121">To publish the work breakdown structure after completing any edits, click **Check in** on the **Microsoft Dynamics 365** tab.</span></span>
+
+<span data-ttu-id="2c699-122">Jei į „Finance“ projektą jau įtraukta projekto komanda, išteklių sąrašas bus automatiškai užpildytas komandos nariais.</span><span class="sxs-lookup"><span data-stu-id="2c699-122">If a project team has already been added to the project in Finance, the resource list will be populated with the team members.</span></span> <span data-ttu-id="2c699-123">Jei projekto komanda į projektą dar neįtraukta, galite pasirinkti išteklių ir komandą sukurti „Microsoft Project“ kliente – skirtuke **Microsoft Dynamics 365** spustelėkite mygtuką **Ištekliai**.</span><span class="sxs-lookup"><span data-stu-id="2c699-123">If a project team has not yet been added to the project, you can select resources and build the team within Microsoft Project Client by clicking the **Resources** button on the **Microsoft Dynamics 365** tab.</span></span> 
+
+<span data-ttu-id="2c699-124">Įrašymo ir atrakinimo proceso metu su „Finance“ vėl bus sinchronizuojami toliau pateikiami duomenys.</span><span class="sxs-lookup"><span data-stu-id="2c699-124">The following data will be synced back to Finance as part of the check-in process:</span></span>
+
+<span data-ttu-id="2c699-125">•   Užduoties pavadinimas</span><span class="sxs-lookup"><span data-stu-id="2c699-125">•   Task name</span></span>
+
+<span data-ttu-id="2c699-126">•   Pradžios data</span><span class="sxs-lookup"><span data-stu-id="2c699-126">•   Start date</span></span>
+
+<span data-ttu-id="2c699-127">•   Pabaigos data</span><span class="sxs-lookup"><span data-stu-id="2c699-127">•   Finish date</span></span>
+
+<span data-ttu-id="2c699-128">•   Ankstesnė veikla</span><span class="sxs-lookup"><span data-stu-id="2c699-128">•   Predecessors</span></span>
+
+<span data-ttu-id="2c699-129">•   Išteklių pavadinimai</span><span class="sxs-lookup"><span data-stu-id="2c699-129">•   Resource names</span></span>
+
+<span data-ttu-id="2c699-130">•   Kategorija</span><span class="sxs-lookup"><span data-stu-id="2c699-130">•   Category</span></span>
+
+<span data-ttu-id="2c699-131">•   Išteklių kategorija</span><span class="sxs-lookup"><span data-stu-id="2c699-131">•   Resource category</span></span>
+
+<span data-ttu-id="2c699-132">•   Darbo valandos</span><span class="sxs-lookup"><span data-stu-id="2c699-132">•   Work hours</span></span>
+
+<span data-ttu-id="2c699-133">•   Pastabos</span><span class="sxs-lookup"><span data-stu-id="2c699-133">•   Notes</span></span>
+
+<span data-ttu-id="2c699-134">•   Pirmenybė</span><span class="sxs-lookup"><span data-stu-id="2c699-134">•   Priority</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="2c699-135">Jei į savo „Microsoft Project“ kliento failą įtraukėte kitų stulpelių, jie nebus įrašyti ir, vėl atidarius failą, jie nebus rodomi.</span><span class="sxs-lookup"><span data-stu-id="2c699-135">If you add any other columns to your Microsoft Project Client file, they will not be saved to the file and will not be displayed when the file is opened again.</span></span>
+
+## <a name="create-the-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a><span data-ttu-id="2c699-136">Esamo projekto darbo paskirstymo struktūros kūrimas naudojant „Microsoft Project“ klientą</span><span class="sxs-lookup"><span data-stu-id="2c699-136">Create the work breakdown structure for an existing project using Microsoft Project Client</span></span>
+<span data-ttu-id="2c699-137">Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paskirstymo struktūrą, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="2c699-137">To create a new work breakdown structure using Microsoft Project Client, follow these steps:</span></span>
+
+
+1.  <span data-ttu-id="2c699-138">Atidarykite „Microsoft Project“ klientą.</span><span class="sxs-lookup"><span data-stu-id="2c699-138">Open Microsoft Project Client.</span></span>
+
+2.  <span data-ttu-id="2c699-139">Skirtuke **Microsoft Dynamics 365** spustelėkite **Atidaryti**.</span><span class="sxs-lookup"><span data-stu-id="2c699-139">On the **Microsoft Dynamics 365** tab, click **Open**.</span></span>
+
+3.  <span data-ttu-id="2c699-140">Pasirinkite projekto **juridinį subjektą**.</span><span class="sxs-lookup"><span data-stu-id="2c699-140">Select the **Legal entity** for the project.</span></span>
+
+4.  <span data-ttu-id="2c699-141">Pasirinkite **Projektas**.</span><span class="sxs-lookup"><span data-stu-id="2c699-141">Select the **Project**.</span></span>
+
+5.  <span data-ttu-id="2c699-142">Skirtuke **Microsoft Dynamics 365** spustelėkite **Paimti ir užrakinti**.</span><span class="sxs-lookup"><span data-stu-id="2c699-142">Click **Check out** on the **Microsoft Dynamics 365** tab.</span></span>
+
+6.  <span data-ttu-id="2c699-143">Kai būsite pasirengę ją publikuoti sprendime „Finance“, skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti ir atrakinti**.</span><span class="sxs-lookup"><span data-stu-id="2c699-143">When ready to publish to Finance, click **Check in** on the **Microsoft Dynamics 365** tab.</span></span>
+
+## <a name="replace-the-existing-work-breakdown-structure-for-an-existing-project-using-microsoft-project-client"></a><span data-ttu-id="2c699-144">Esamo projekto esamos darbo paskirstymo struktūros pakeitimas naudojant „Microsoft Project“ klientą</span><span class="sxs-lookup"><span data-stu-id="2c699-144">Replace the existing work breakdown structure for an existing project using Microsoft Project Client</span></span>
+<span data-ttu-id="2c699-145">Jei norite naudodami „Microsoft Project“ klientą sukurti naują darbo paskirstymo struktūrą ir pakeisti esamo projekto esamą darbo paskirstymo struktūrą, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="2c699-145">To create a new work breakdown structure using Microsoft Project Client and replace an existing work breakdown structure for an existing project, follow these steps:</span></span>
+
+1.  <span data-ttu-id="2c699-146">Atidarykite „Microsoft Project“ klientą.</span><span class="sxs-lookup"><span data-stu-id="2c699-146">Open the Microsoft Project Client.</span></span>
+
+2.  <span data-ttu-id="2c699-147">„Microsoft Project“ kliente sukurkite grafiką.</span><span class="sxs-lookup"><span data-stu-id="2c699-147">Create the schedule in Microsoft Project Client.</span></span>
+
+3.  <span data-ttu-id="2c699-148">Skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti keitimus** >  **Pakeisti esamą projektą**.</span><span class="sxs-lookup"><span data-stu-id="2c699-148">On the **Microsoft Dynamics 365** tab, click **Save changes** > **Replace existing project**.</span></span>
+
+4.  <span data-ttu-id="2c699-149">Pasirinkite projekto **juridinį subjektą**.</span><span class="sxs-lookup"><span data-stu-id="2c699-149">Select the **Legal entity** for the project.</span></span>
+
+5.  <span data-ttu-id="2c699-150">Pasirinkite **Projektas**.</span><span class="sxs-lookup"><span data-stu-id="2c699-150">Select the **Project**.</span></span>
+
+6.  <span data-ttu-id="2c699-151">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="2c699-151">Click **OK**.</span></span>
+
+## <a name="create-a-new-project-from-within-microsoft-project-client"></a><span data-ttu-id="2c699-152">Naujo projekto kūrimas „Microsoft Project“ kliente</span><span class="sxs-lookup"><span data-stu-id="2c699-152">Create a new project from within Microsoft Project Client</span></span>
+
+
+1.  <span data-ttu-id="2c699-153">Atidarykite „Microsoft Project“ klientą.</span><span class="sxs-lookup"><span data-stu-id="2c699-153">Open the Microsoft Project Client.</span></span>
+
+2.  <span data-ttu-id="2c699-154">„Microsoft Project“ kliente sukurkite grafiką.</span><span class="sxs-lookup"><span data-stu-id="2c699-154">Create the schedule in Microsoft Project Client.</span></span>
+
+3.  <span data-ttu-id="2c699-155">Skirtuke **Microsoft Dynamics 365** spustelėkite **Įrašyti keitimus** > **Įrašyti į naują projektą**.</span><span class="sxs-lookup"><span data-stu-id="2c699-155">On the **Microsoft Dynamics 365** tab, click **Save changes** > **Save to new Project**.</span></span>
+
+4.  <span data-ttu-id="2c699-156">Pasirinkite projekto **juridinį subjektą**.</span><span class="sxs-lookup"><span data-stu-id="2c699-156">Select the **Legal entity** for the project.</span></span>
+
+5.  <span data-ttu-id="2c699-157">Jei reikia, įveskite **Projekto ID**.</span><span class="sxs-lookup"><span data-stu-id="2c699-157">Enter the **Project ID**, if necessary.</span></span>
+
+6.  <span data-ttu-id="2c699-158">Įveskite **Projekto pavadinimą**.</span><span class="sxs-lookup"><span data-stu-id="2c699-158">Enter the **Project name**.</span></span>
+
+7.  <span data-ttu-id="2c699-159">Pasirinkite **Projekto tipą**, **Projektų grupę** ir **Projekto sutarties ID**.</span><span class="sxs-lookup"><span data-stu-id="2c699-159">Select the **Project type**, **Project group** and the **Project contract ID**.</span></span> <span data-ttu-id="2c699-160">Taip pat naują projekto sutartį galite sukurti spustelėdami **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="2c699-160">Alternatively, you can create a new project contract by clicking **New**.</span></span>
+
+8.  <span data-ttu-id="2c699-161">Pasirinkite **kalendorių**, kuris bus naudojamas su ištekliais.</span><span class="sxs-lookup"><span data-stu-id="2c699-161">Select the **Calendar** to be used for resourcing.</span></span>
+
+11. <span data-ttu-id="2c699-162">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="2c699-162">Click **OK**.</span></span>

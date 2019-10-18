@@ -19,44 +19,42 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865477"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250788"
 ---
-# <a name="inventory-management-overview"></a><span data-ttu-id="200fb-103">Atsargų valdymo apžvalga</span><span class="sxs-lookup"><span data-stu-id="200fb-103">Inventory management overview</span></span>
+# <a name="inventory-management-overview"></a><span data-ttu-id="0acb9-103">Atsargų valdymo apžvalga</span><span class="sxs-lookup"><span data-stu-id="0acb9-103">Inventory management overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="200fb-104">Naudodami atsargų valdymą galite atlikti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="200fb-104">You can use Inventory management to perform the following tasks:</span></span>
+<span data-ttu-id="0acb9-104">Naudodami atsargų valdymą galite atlikti toliau nurodytas užduotis.</span><span class="sxs-lookup"><span data-stu-id="0acb9-104">You can use Inventory management to perform the following tasks:</span></span>
 
--  [<span data-ttu-id="200fb-105">Gavimo operacijos</span><span class="sxs-lookup"><span data-stu-id="200fb-105">Inbound operations</span></span>](arrival-overview.md)
--  [<span data-ttu-id="200fb-106">Kokybės užtikrinimas</span><span class="sxs-lookup"><span data-stu-id="200fb-106">Quality assurance</span></span>](quality-management-processes.md)
--  [<span data-ttu-id="200fb-107">Su atsargomis susijusi veikla</span><span class="sxs-lookup"><span data-stu-id="200fb-107">Inventory activities</span></span>](inventory-journals.md)
--  [<span data-ttu-id="200fb-108">Siuntimo operacija</span><span class="sxs-lookup"><span data-stu-id="200fb-108">Outbound operations</span></span>](outbound-process.md)
--  [<span data-ttu-id="200fb-109">Atsargų valdymas</span><span class="sxs-lookup"><span data-stu-id="200fb-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
+-  [<span data-ttu-id="0acb9-105">Gavimo operacijos</span><span class="sxs-lookup"><span data-stu-id="0acb9-105">Inbound operations</span></span>](arrival-overview.md)
+-  [<span data-ttu-id="0acb9-106">Kokybės užtikrinimas</span><span class="sxs-lookup"><span data-stu-id="0acb9-106">Quality assurance</span></span>](quality-management-processes.md)
+-  [<span data-ttu-id="0acb9-107">Su atsargomis susijusi veikla</span><span class="sxs-lookup"><span data-stu-id="0acb9-107">Inventory activities</span></span>](inventory-journals.md)
+-  [<span data-ttu-id="0acb9-108">Siuntimo operacija</span><span class="sxs-lookup"><span data-stu-id="0acb9-108">Outbound operations</span></span>](outbound-process.md)
+-  [<span data-ttu-id="0acb9-109">Atsargų valdymas</span><span class="sxs-lookup"><span data-stu-id="0acb9-109">Inventory control</span></span>](../cost-management/inventory-close.md) 
 
-## <a name="learning-map"></a><span data-ttu-id="200fb-110">Mokymo planas</span><span class="sxs-lookup"><span data-stu-id="200fb-110">Learning map</span></span>
+## <a name="learning-map"></a><span data-ttu-id="0acb9-110">Mokymo planas</span><span class="sxs-lookup"><span data-stu-id="0acb9-110">Learning map</span></span>
 
-<span data-ttu-id="200fb-111">Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudarančios modulio Atsargų valdymas sistemą.</span><span class="sxs-lookup"><span data-stu-id="200fb-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="200fb-112">Spustelėkite toliau pateiktą mokymo planą, kad jį išplėstumėte.</span><span class="sxs-lookup"><span data-stu-id="200fb-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="200fb-113">Šis mokymo planas padės jums pradėti.</span><span class="sxs-lookup"><span data-stu-id="200fb-113">This learning map will help you get started.</span></span>
-
-
-<span data-ttu-id="200fb-114">[![Atsargų mokymo planas](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="200fb-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
-
-## <a name="additional-resources"></a><span data-ttu-id="200fb-115">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="200fb-115">Additional resources</span></span>
-
-### <a name="whats-new-and-in-development"></a><span data-ttu-id="200fb-116">Kas nauja ir kuriama</span><span class="sxs-lookup"><span data-stu-id="200fb-116">What's new and in development</span></span>
-<span data-ttu-id="200fb-117">Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="200fb-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
-
-### <a name="inventory-accounting"></a><span data-ttu-id="200fb-118">Atsargų apskaita</span><span class="sxs-lookup"><span data-stu-id="200fb-118">Inventory accounting</span></span> 
-<span data-ttu-id="200fb-119">Norėdami sužinoti daugiau, žr. [Kaštų valdymo atsargų apskaita](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="200fb-119">To learn more, see [Inventory accounting in Cost management](../cost-management/inventory-close.md).</span></span>
-
-### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="200fb-120">Gamybos ir tiekimo grandinės valdymo tinklaraščiai</span><span class="sxs-lookup"><span data-stu-id="200fb-120">Manufacturing and supply chain management blogs</span></span>
-<span data-ttu-id="200fb-121">Nuomonių, naujienų ir kitos informacijos apie atsargų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Supply Chain Management“ sprendimo „Dynamics AX“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span><span class="sxs-lookup"><span data-stu-id="200fb-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
-
-### <a name="task-guides"></a><span data-ttu-id="200fb-122">Užduočių vedliai</span><span class="sxs-lookup"><span data-stu-id="200fb-122">Task guides</span></span>
-<span data-ttu-id="200fb-123">Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟.</span><span class="sxs-lookup"><span data-stu-id="200fb-123">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="200fb-124">Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką **Žinynas**.</span><span class="sxs-lookup"><span data-stu-id="200fb-124">To access task guides, click the **Help** button on any page.</span></span>
+<span data-ttu-id="0acb9-111">Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudarančios modulio Atsargų valdymas sistemą.</span><span class="sxs-lookup"><span data-stu-id="0acb9-111">The following learning map shows the major concepts and tasks that make up the framework of the Inventory management module.</span></span> <span data-ttu-id="0acb9-112">Spustelėkite toliau pateiktą mokymo planą, kad jį išplėstumėte.</span><span class="sxs-lookup"><span data-stu-id="0acb9-112">Click the learning map below to expand it.</span></span> <span data-ttu-id="0acb9-113">Šis mokymo planas padės jums pradėti.</span><span class="sxs-lookup"><span data-stu-id="0acb9-113">This learning map will help you get started.</span></span>
 
 
+<span data-ttu-id="0acb9-114">[![Atsargų mokymo planas](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="0acb9-114">[![Inventory learning map](./media/inventory-learning-map.png)](./media/inventory-learning-map.png)</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="0acb9-115">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="0acb9-115">Additional resources</span></span>
+
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="0acb9-116">Kas nauja ir kuriama</span><span class="sxs-lookup"><span data-stu-id="0acb9-116">What's new and in development</span></span>
+<span data-ttu-id="0acb9-117">Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="0acb9-117">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span>
+
+### <a name="inventory-accounting"></a><span data-ttu-id="0acb9-118">Atsargų apskaita</span><span class="sxs-lookup"><span data-stu-id="0acb9-118">Inventory accounting</span></span> 
+<span data-ttu-id="0acb9-119">Norėdami sužinoti daugiau, žr. [Kaštų valdymo atsargų apskaita](../cost-management/inventory-close.md).</span><span class="sxs-lookup"><span data-stu-id="0acb9-119">To learn more, see [Inventory accounting in Cost management](../cost-management/inventory-close.md).</span></span>
+
+### <a name="manufacturing-and-supply-chain-management-blogs"></a><span data-ttu-id="0acb9-120">Gamybos ir „Supply Chain Management“ tinklaraščiai</span><span class="sxs-lookup"><span data-stu-id="0acb9-120">Manufacturing and Supply Chain Management blogs</span></span>
+<span data-ttu-id="0acb9-121">Nuomonių, naujienų ir kitos informacijos apie atsargų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Supply Chain Management“ sprendimo „Dynamics AX“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span><span class="sxs-lookup"><span data-stu-id="0acb9-121">You can find opinions, news, and other information about Inventory management and other solutions on the [Dynamics AX Manufacturing R&D Team Blog](https://blogs.msdn.microsoft.com/axmfg) and [Supply Chain Management in Dynamics AX R&D Team Blog](https://blogs.msdn.microsoft.com/dynamicsaxscm).</span></span>
+
+### <a name="task-guides"></a><span data-ttu-id="0acb9-122">Užduočių vedliai</span><span class="sxs-lookup"><span data-stu-id="0acb9-122">Task guides</span></span>
+<span data-ttu-id="0acb9-123">Papildoma pagalba prieinama kaip užduočių vadovai.</span><span class="sxs-lookup"><span data-stu-id="0acb9-123">Additional help is available as task guides.</span></span> <span data-ttu-id="0acb9-124">Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką **Žinynas**</span><span class="sxs-lookup"><span data-stu-id="0acb9-124">To access task guides, click the **Help** button on any page</span></span>
