@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 10c8b548f2e295bf344459370ab6eecd577a0efb
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 5d55dfe26cd298372701aeb98a6aafc49977f381
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865998"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248636"
 ---
 # <a name="sales-and-marketing-overview"></a>Pardavimo ir rinkodaros apžvalga
 
@@ -41,7 +41,7 @@ Pardavimų ir rinkodaros srityje pirminius santykius su potencialiais klientais 
 
 ### <a name="campaigns"></a>Kampanijos
 
-Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. Programoje „Microsoft Dynamics 365 for Finance and Operations“ galite sukurti kelių tipų kampanijas, pvz., telerinkodaros, pašto ir el. pašto kampanijas, siekdami maksimaliai padidinti savo klientų potencialą. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
+Kampanijos tikslas yra potencialių klientų, galimų klientų, galimybių ir klientų, kurie buvo atrinkti dalyvauti kampanijoje, kontaktai. „Supply Chain Management“ galite sukurti kelių tipų kampanijas, pvz., telerinkodaros, pašto ir el. pašto kampanijas, siekdami maksimaliai padidinti savo klientų potencialą. Kampanijos eigoje gavus teigiamų atsakymų, galima pradėti pardavimo procesą su tais gavėjais, kurie į kampaniją sureagavo teigiamai.
 
 ## <a name="sales"></a>Pardavimas
 Pardavimo funkcija naudojama norint kurti pasiūlymus, vykdyti papildomo / kryžminio pardavimo veiklas naujiems ir esamiems klientams, kurti pardavimo užsakymus ir kurti klientų pardavimo SF. Tolesnis procesų srautas vaizduoja pardavimo verslo procesą. [![Pardavimo verslo procesas](./media/sales01.jpg)](./media/sales01.jpg)

@@ -1,6 +1,6 @@
 ---
-title: Pagalba dėl „Talent“
-description: Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft Dynamics 365 for Talent“.
+title: Palaikymo dėl „Microsoft“ „Dynamics 365 Talent“ gavimas
+description: Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft Dynamics 365 Talent“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 05/07/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 9895ae8bdc6326b3863585d77b93576fe5fddcb4
-ms.sourcegitcommit: ab88de98a1958734213eb9d9b1988508b055f748
+ms.openlocfilehash: 949a504c71127c5efa0a93eb3fa4b237cb4b8242
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538778"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026099"
 ---
 # <a name="get-support-for-talent"></a>Pagalba dėl „Talent“
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip gauti pagalbos naudojantis „Microsoft Dynamics 365 for Talent Core HR“, „Dynamics 365 Talent: Attract“ ir „Dynamics 365 Talent: Onboard“.
+Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft“ „Dynamics 365 Talent: Core HR“, „Dynamics 365 Talent: Attract“ ir „Dynamics 365 Talent: Onboard“.
 
 ## <a name="support-for-talent"></a>Palaikymas „Talent“
 
@@ -34,7 +34,7 @@ Norėdami gauti „Talent“ palaikymą, naudokite toliau pateiktoje lentelėje 
 
 | Užduotis | Daugiau informacijos |
 |------|------------------|
-| Klauskite bendruomenės. | Eikite į [„Dynamics 365 for Talent“ bendruomenę](https://community.dynamics.com/365/talent) ir gaukite pagalbos savo klausimais. Norėdami rasti atsakymus, į ieškos lauką įveskite klausimą šalia **Turiu klausimą**. Norėdami užduoti klausimą, pasirinkite **Užduoti klausimą**. |
+| Klauskite bendruomenės. | Eikite į [„Dynamics 365 Talent“ bendruomenę](https://community.dynamics.com/365/talent) ir gaukite pagalbos savo klausimais. Norėdami rasti atsakymus, į ieškos lauką įveskite klausimą šalia **Turiu klausimą**. Norėdami užduoti klausimą, pasirinkite **Užduoti klausimą**. |
 | Incidentų atkūrimo debesies aplinkoje įrankio naudojimas. | Programoje [„Microsoft Dynamics Lifecycle Services“ (LCS)](https://lcs.dynamics.com/) eikite į savo projektą ir pasirinkite plytelę **Palaikymas**. Iš ten problemas galima pateikti dviem būdais:<ul><li>Skirtuke **Aktyvios problemos** pasirinkite problemą, kurią norite pateikti, ir pasirinkite **Pateikti „Microsoft“**.</li><li>Skirtuke **Pateikta „Microsoft“** pasirinkite **Pateikti naują incidentą**, kad pateiktumėte naują problemą.</li></ul> |
 | Gaukite palaikymą programoje. | Pasirinkite mygtuką **Žinynas** (**?**) viršutiniame dešiniajame puslapio kampe. Tada, jei esate „Core HR“, pasirinkite **Palaikymas**. Jei esate „Attract“ arba „Onboard“, pasirinkite **Pranešti apie problemą**. Problemos pateikiamos skirtuke **Aktyvios problemos** LCS, kur administratorius gali nustatyti, ar teikti vidinį palaikymą, ar pateikti problemas „Microsoft“. (Jei turite atskirą „Onboard“ versiją, problemos pateikiamos tiesiogiai „Microsoft“.) |
 | Pagalba iškilus klausimų apie „Talent“ licencijavimą. | Susisiekite su partneriu ar „Microsoft“ pardavimo atstovu. |
@@ -46,7 +46,7 @@ Norėdami gauti „Onboard“ atskiros programos palaikymą, naudokite toliau pa
 
 | Užduotis | Daugiau informacijos |
 |------|------------------|
-| Klauskite bendruomenės. | Eikite į [„Dynamics 365 for Talent“ bendruomenę](https://community.dynamics.com/365/talent) ir gaukite pagalbos. Norėdami rasti atsakymus, į ieškos lauką įveskite klausimą šalia **Turiu klausimą**. Norėdami užduoti klausimą, pasirinkite **Užduoti klausimą**. |
+| Klauskite bendruomenės. | Eikite į [„Dynamics 365 Talent“ bendruomenę](https://community.dynamics.com/365/talent) ir gaukite pagalbos. Norėdami rasti atsakymus, į ieškos lauką įveskite klausimą šalia **Turiu klausimą**. Norėdami užduoti klausimą, pasirinkite **Užduoti klausimą**. |
 | Pranešti apie problemą. | Pasirinkite mygtuką **Žinynas** (**?**) viršutiniame dešiniajame puslapio kampe, tada pasirinkite **Pranešti apie problemą**. Įveskite problemos aprašą ir, jeigu norite būti informuoti apie praneštos problemos sprendimo eigą, nurodykite el. pašto adresą. |
 | Pagalba iškilus klausimų apie „Talent“ licencijavimą. | Susisiekite su partneriu ar „Microsoft“ pardavimo atstovu. |
-| Prašymas naudotis naujomis „Onboard“ savybėmis ir funkcijomis. | Pasirinkite mygtuką **Žinynas** (**?**) ir pasirinkite **Idėjos**. Taip pat galite apsilankyti [„Dynamics 365 for Talent: Onboard Ideas“](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), kad peržiūrėtumėte, rastumėte arba balsuotumėte už esamas idėjas arba pridėtumėte naujų idėjų. |
+| Prašymas naudotis naujomis „Onboard“ savybėmis ir funkcijomis. | Pasirinkite mygtuką **Žinynas** (**?**) ir pasirinkite **Idėjos**. Taip pat galite apsilankyti [Idėjose dėl „Dynamics 365 Talent: Onboard“](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard), kad peržiūrėtumėte, rastumėte arba balsuotumėte už esamas idėjas arba pasiūlytumėte naujų idėjų. |

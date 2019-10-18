@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 551a8408aa730bc1916f1c57b7cfd773966ce8bf
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c5da94e02b2381bbd058221567172cd428931c45
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606808"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024688"
 ---
 # <a name="store-inventory-management"></a>Parduotuvės atsargų valdymas
 
 [!include [banner](includes/banner.md)]
 
-Dirbant su atsargų programoje „Dynamics 365 for Retail“ ir naudojant EKA programą, svarbu atminti, kad atsargų dimensijų ir tam tikrų atsargų prekių tipų palaikymas EKA yra ribotas.
+Dirbant su atsargų programoje „Dynamics 365 Retail“ ir naudojant EKA programą, svarbu atminti, kad atsargų dimensijų ir tam tikrų atsargų prekių tipų palaikymas EKA yra ribotas.
 
 EKA sprendimas nepalaiko tolesnių prekių konfigūracijų.
 
@@ -56,7 +56,7 @@ EKA sprendimas ribotai palaiko toliau nurodytas dimensijas. Ribotas palaikymas n
 
 ## <a name="purchase-orders"></a>Pirkimo užsakymai
 
-Pirkimo užsakymai kuriami pagrindiniame biure. Jei mažmeninės prekybos sandėlis įtrauktas į pirkimo užsakymo antraštę, užsakymą parduotuvėje galima gauti naudojant modernų EKA (MPOS) arba debesies EKA, esančius programoje „Microsoft Dynamics 365 for Retail“, naudojant **Paėmimo / gavimo** operaciją. Kai iš parduotuvė priimti kiekiai įvedami į pirkimo užsakymo dokumento EKA lauką **Gauti dabar**, juos galima įrašyti vietoje arba užfiksuoti. Šių duomenų įrašymas vietoje neturi poveikio turimoms atsargoms. Įrašyti rekomenduojama, tik jei vartotojas nėra pasiruošęs registruoti gavimo kvito būstinėje ir tiesiog reikia būdo laikinai išsaugoti anksčiau įvestus duomenis **Gauti dabar**. Taip duomenys Gauti dabar įrašomi vietinėje vartotojo kanalo duomenų bazėje. Kai dokumentas apdorojamas naudojant parinktį **Fiksuoti**, duomenys **Gauti dabar** siunčiami į būstinę ir pirkimo užsakymo kvitas užregistruojamas. 
+Pirkimo užsakymai kuriami pagrindiniame biure. Jei į pirkimo užsakymo antraštę įtraukiamas mažmeninės prekybos sandėlis, užsakymą parduotuvėje galima gauti naudojant „Modern POS“ (MPOS) arba „Cloud POS“ per operaciją **Paėmimas / gavimas**. Kai iš parduotuvė priimti kiekiai įvedami į pirkimo užsakymo dokumento EKA lauką **Gauti dabar**, juos galima įrašyti vietoje arba užfiksuoti. Šių duomenų įrašymas vietoje neturi poveikio turimoms atsargoms. Įrašyti rekomenduojama, tik jei vartotojas nėra pasiruošęs registruoti gavimo kvito būstinėje ir tiesiog reikia būdo laikinai išsaugoti anksčiau įvestus duomenis **Gauti dabar**. Taip duomenys Gauti dabar įrašomi vietinėje vartotojo kanalo duomenų bazėje. Kai dokumentas apdorojamas naudojant parinktį **Fiksuoti**, duomenys **Gauti dabar** siunčiami į būstinę ir pirkimo užsakymo kvitas užregistruojamas. 
 
 ## <a name="transfer-orders"></a>Perkėlimo užsakymai
 

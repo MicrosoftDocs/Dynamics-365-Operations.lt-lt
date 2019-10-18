@@ -1,6 +1,6 @@
 ---
 title: Kokybės valdymo peržiūra
-description: Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
+description: Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Dynamics 365 Supply Chain Management“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
@@ -19,24 +19,24 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557505"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249590"
 ---
 # <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Microsoft Dynamics 365 for Finance and Operations“, siekiant pagerinti tiekimo grandinės produktų kokybę.
+Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Dynamics 365 Supply Chain Management“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 
-Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Microsoft Dynamics 365 for Finance and Operations“ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
+Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Finance and Operations‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
 
 Be funkcijų, skirtų valdyti neatitikimui, kokybės valdymas apima funkcijas, skirtas problemoms sekti pagal jų tipą (net vidaus problemoms) ir sprendimams identifikuoti kaip trumpalaikiams ar ilgalaikiams. Statistika apie pagrindinius našumo indikatorius (KPI) teikia įžvalgų apie ankstesnių neatitikimo problemų istoriją ir sprendimus, kurie buvo naudojami joms taisyti. Galite naudoti praeities duomenis ir peržiūrėti ankstesnių kokybės priemonių efektyvumą bei nustatyti tinkamas priemones, kurios bus naudojamos ateityje.
 
-Kai nustatote kokybės susiejimą, „Finance and Operations‟ gali generuoti įvairių verslo procesų, įvykių ir sąlygų kokybės užsakymus. Kokybės susiejimas gali apimti konkrečią prekę, konkrečią prekių grupę arba visas prekes.
+Kai nustatote kokybės susiejimą, „Supply Chain Management‟ gali generuoti įvairių verslo procesų, įvykių ir sąlygų kokybės užsakymus. Kokybės susiejimas gali apimti konkrečią prekę, konkrečią prekių grupę arba visas prekes.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Kokybės valdymo naudojimo pavyzdžiai
 Kokybės valdymas yra lankstus ir gali būti diegiamas įvairiais būdais, siekiant atitikti konkrečių tiekimo grandinės operacijų lygių reikalavimus. Toliau pateikti pavyzdžiai iliustruoja galimą šių funkcijų naudojimą.

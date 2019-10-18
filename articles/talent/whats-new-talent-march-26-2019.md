@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 26 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 26 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/26/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24070d1efa3299c378d7a4a328531817a598d272
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741572"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023889"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-26-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 26 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 26 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -46,14 +46,14 @@ Dabar galite įterpti vaizdus tiesiai į veiklas. Be to, galite ne tik kopijuoti
 
 [![Susiejimas](./media/embedimages.png)](./media/embedimages.png)
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 **8.1.2210 versija**
 
 ### <a name="custom-field-support-available-for-select-entities-in-common-data-service"></a>Pasirinktinių laukų palaikymas teikiamas tam tikruose „Common Data Service“ objektuose 
 
-Dabar toliau nurodyti „Common Data Service“ objektai palaiko pasirinktinius laukus, sukurtus „Dynamics 365 for Talent“.
+Dabar toliau nurodyti „Common Data Service“ objektai palaiko klientų laukus, sukurtus „Talent“.
 
 - Darbininkas
 - Etninė kilmė
@@ -72,10 +72,10 @@ Atlikus šį pakeitimą, dabar įdarbinimo istorijos puslapyje įdarbinimo įra�
 Dabar šiame leidime pastoviųjų atlyginimo dalių planai rodomi, kai saugos parametruose apribojami vartotojai pagal įmonę. Visų saugos parametrų bus laikomasi, o fiksuoti planai bus rodomi tose įmonėse, kurias pasiekti gali vartotojas. 
 
 ### <a name="cant-delete-job-records-using-open-in-excel-option-in-talent"></a>Nepavyksta naikinti darbo įrašų naudojant „Talent“ parinktį Atidaryti naudojant „Excel“
-Dabar šiame leidime galite pašalinti darbo įrašus naudodami „Dynamics 365 for Talent“ parinktį **Atidaryti naudojant „Excel“**.
+Dabar šiame leidime galite pašalinti darbo įrašus naudodami „Talent“ parinktį **Atidaryti naudojant „Excel“**.
 
 ### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
-Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir nustatykite, ar reikia naujinti duomenų bazę. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
@@ -93,7 +93,7 @@ Organizacijos gali norėti priežasčių kodus priskirti tam tikriems nedarbo la
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Fiksuotam ir kintamam planams galima priskirti saugos vaidmenis – tokiu būdu nustatysite prieigą prie planų ir darbuotojų duomenų, susijusių su planais, pvz., pajamų arba premijų įrašai. Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-25 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis. 
+Įdiegę „Finance and Operations“ platformos 25 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Darbuotojų dublikatų patikros: vartotojo sąsajos pakeitimai
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.

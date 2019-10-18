@@ -1,6 +1,6 @@
 ---
-title: Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ leidimo pardavimo sąskaitos faktūros antraštes ir eilutes sinchronizuojant su „Microsoft Dynamics 365 for Sales“.
+title: Tiesioginis Tiekimo grandinės valdymo pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ leidimo pardavimo sąskaitų faktūrų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Sales“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 94442eb11aac3faf8a412944617686853a12128d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552935"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251666"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ leidimo pardavimo sąskaitos faktūros antraštes ir eilutes sinchronizuojant su „Microsoft Dynamics 365 for Sales“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ leidimo pardavimo sąskaitų faktūrų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Sales“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
-Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Finance and Operations“ ir „Sales“ egzemplioriuose. Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ duomenų apie sąskaitas, kontaktus, produktus, pardavimo pasiūlymus, pardavimo užsakymus ir pardavimo sąskaitas faktūras srautus. Toliau pateiktoje iliustracijoje rodoma, kaip duomenys sinchronizuojami tarp „Finance and Operations“ ir „Sales“.
+Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ duomenų apie sąskaitas, kontaktus, produktus, pardavimo pasiūlymus, pardavimo užsakymus ir pardavimo sąskaitas faktūras srautus. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
 [![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -52,30 +52,30 @@ Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami sinchronizuoj
 
 Prieš sinchronizuojant pardavimo sąskaitų faktūrų antraštes ir eilutes, būtina atlikti toliau pateiktas sinchronizavimo užduotis.
 
-- Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis
-- Sąskaitos (iš „Sales“ į „Finance and Operations“) – tiesioginis (jei naudojama)
-- Kontaktai (iš „Sales“ į „Finance and Operations“) – tiesioginis (jei naudojama)
-- Pardavimo užsakymo antraštė ir eilutės (iš „Finance and Operations“ į „Sales“) – tiesioginis
+- Produktai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
+- Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
+- Kontaktai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
+- Pardavimo užsakymų antraštės ir eilutės (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| „Finance and Operations”                               | Pardavimas          |
+| Tiekimo grandinės valdymas                              | Pardavimas          |
 |------------------------------------------------------|----------------|
 | Išorėje tvarkomų klientų pardavimo SF antraštės | Sąskaitos faktūros       |
 | Išorėje tvarkomų klientų pardavimo SF eilutės   | InvoiceDetails |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-Pardavimo sąskaitos faktūros kuriamos sprendime „Finance and Operations“ ir sinchronizuojamos su „Sales“.
+Pardavimo sąskaitos faktūros kuriamos Tiekimo grandinės valdyme ir sinchronizuojamos su „Sales“.
 
 > [!NOTE]
-> Šiuo metu su pardavimo sąskaitų faktūrų antraštės išlaidomis susijęs mokestis į sinchronizavimo iš „Finance and Operations“ į „Sales“ procesą nėra įtraukiamas. „Sales“ nepalaikoma mokesčių informacija antraštės lygyje. Tačiau su išlaidomis eilutės lygyje susijęs mokestis yra įtraukiamas į sinchronizavimą.
+> Šiuo metu su pardavimo sąskaitų faktūrų antraštės išlaidomis susijęs mokestis į sinchronizavimo iš Tiekimo grandinės valdymo į „Sales“ procesą nėra įtraukiamas. „Sales“ nepalaikoma mokesčių informacija antraštės lygyje. Tačiau su išlaidomis eilutės lygyje susijęs mokestis yra įtraukiamas į sinchronizavimą.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
 - Į objektą **Sąskaita faktūra** įtrauktas ir puslapyje rodomas laukas **Sąskaitos faktūros numeris**.
-- Puslapyje **Pardavimo užsakymas** esantis mygtukas **Kurti sąskaitą faktūrą** yra paslėptas, nes sąskaitos faktūros bus kuriamos sprendime „Finance and Operations“ ir sinchronizuojamos su „Sales“. Puslapio **Sąskaita faktūra** redaguoti negalima, nes sąskaitos faktūros bus sinchronizuojamos iš „Finance and Operations“.
-- Kai susijusi „Finance and Operations“ sąskaita faktūra baigiama sinchronizuoti su „Sales“, srities **Pardavimo užsakymo būsena** vertė automatiškai pakeičiama į **Išrašyta sąskaita faktūra**. Be to, pardavimo užsakymo, iš kurio buvo sukurta sąskaita faktūra, savininkas priskiriamas sąskaitos faktūros savininku. Todėl pardavimo užsakymo savininkas gali peržiūrėti sąskaitą faktūrą.
+- Puslapyje **Pardavimo užsakymas** esantis mygtukas **Kurti sąskaitą faktūrą** yra paslėptas, nes sąskaitos faktūros bus kuriamos Tiekimo grandinės valdyme ir sinchronizuojamos su „Sales“. Puslapio **Sąskaita faktūra** redaguoti negalima, nes sąskaitos faktūros bus sinchronizuojamos iš Tiekimo grandinės valdymo.
+- Kai susijusi Tiekimo grandinės valdymo sąskaita faktūra baigiama sinchronizuoti su „Sales“, srities **Pardavimo užsakymo būsena** reikšmė automatiškai pakeičiama į **Išrašyta sąskaita faktūra**. Be to, pardavimo užsakymo, iš kurio buvo sukurta sąskaita faktūra, savininkas priskiriamas sąskaitos faktūros savininku. Todėl pardavimo užsakymo savininkas gali peržiūrėti sąskaitą faktūrą.
 
 ## <a name="preconditions-and-mapping-setup"></a>Išankstinės sąlygos ir susiejimo nustatymas
 
@@ -103,7 +103,7 @@ Eikite į **Parametrai** > **Administravimas** > **Sistemos parametrai** > **Par
 #### <a name="salesinvoiceline-task"></a>SalesInvoiceLine užduotis
 
 - Įsitikinkite, kad yra reikiamas **Matavimo vieneto** siejimas.
-- Įsitikinkite, kad „Finance and Operations“ yra **SalesUnitSymbol** būtina verčių schema.
+- Įsitikinkite, kad reikiamas **SalesUnitSymbol** skirtas susiejimas yra Tiekimo grandinės valdyme.
 
     Šablono vertė, kurioje yra vertės schema, apibrėžta **SalesUnitSymbol** su **Quantity\_UOM**.
 
@@ -115,7 +115,7 @@ Eikite į **Parametrai** > **Administravimas** > **Sistemos parametrai** > **Par
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudojant funkciją Duomenų integravimas. 
 
 > [!NOTE]
-> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Finance and Operations“.
+> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Supply Chain Management“.
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
@@ -129,18 +129,12 @@ Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudoj
 
 ## <a name="related-topics"></a>Susijusios temos
 
-[Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
+[Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)
 
-[Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais](accounts-template-mapping-direct.md)
+[Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais](accounts-template-mapping-direct.md)
 
-[Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais](products-template-mapping-direct.md)
+[Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Sales“ produktais](products-template-mapping-direct.md)
 
-[Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](contacts-template-mapping-direct.md)
+[Tiesioginis „Sales“ kontaktų sinchronizavimas su „Supply Chain Management“ kontaktais arba klientais](contacts-template-mapping-direct.md)
 
-[Tiesioginis „Finance and Operations“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](sales-order-template-mapping-direct-two-ways.md)
-
-
-
-
-
-
+[Tiesioginis „Supply Chain Management“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](sales-order-template-mapping-direct-two-ways.md)

@@ -1,6 +1,6 @@
 ---
-title: Pardavimo užsakymų tiesioginis sinchronizavimas tarp „Sales“ ir „Finance and Operations“
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo užsakymus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
+title: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo užsakymus tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 05/09/2019
@@ -19,22 +19,22 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
-ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
+ms.openlocfilehash: 7c8831203ae30991ff8acf1926aafc2d1839aeb2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1539119"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251275"
 ---
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo užsakymus sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo užsakymus tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
-Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Finance and Operations“ ir „Sales“ egzemplioriuose. Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo sąskaitų faktūrų duomenų srautus. Toliau pateiktoje iliustracijoje rodoma, kaip duomenys sinchronizuojami tarp „Finance and Operations“ ir „Sales“.
+Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp Tiekimo grandinės valdymo ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
 [![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -42,12 +42,12 @@ Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų
 
 Norėdami gauti prieigą prie pasiekiamų šablonų, atidarykite [„PowerApps“ administravimo centrą](https://preview.admin.powerapps.com/dataintegration). Pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe – **Naujas projektas** ir pasirinkite viešuosius šablonus.
 
-Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami pardavimo užsakymus tarp „Finance and Operations“ ir „Sales“ sinchronizuojant tiesiogiai.
+Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami pardavimo užsakymus tarp „Sales“ ir Tiekimo grandinės valdymo sinchronizuojant tiesiogiai.
 
 - **Šablonų pavadinimai naudojant funkciją Duomenų integravimas:** 
 
-    - Pardavimo užsakymai (iš „Sales“ į „Finance and Operations“) – tiesioginis
-    - Pardavimo užsakymai (iš „Finance and Operations“ į „Sales“) – tiesioginis
+    - Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis
+    - Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
 
 - **Užduočių pavadinimai projekte Duomenų integravimas:**
 
@@ -56,57 +56,57 @@ Toliau pateikti šablonai ir pagrindinės užduotys yra naudojami pardavimo užs
 
 Prieš sinchronizuojant pardavimo sąskaitų faktūrų antraštes ir eilutes, būtina atlikti toliau pateiktas sinchronizavimo užduotis.
 
-- Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis
-- Sąskaitos (iš „Sales“ į „Finance and Operations“) – tiesioginis (jei naudojama)
-- Iš kontaktų į klientus (iš „Sales“ į „Finance and Operations“) – tiesioginis (jei naudojama)
+- Produktai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
+- Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
+- Kontaktai klientams (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| „Finance and Operations”  | Pardavimas             |
+| Tiekimo grandinės valdymas  | Pardavimas             |
 |-------------------------|-------------------|
 | CDS pardavimo užsakymų antraštės | SalesOrders       |
 | CDS pardavimo užsakymo eilutės   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-Pardavimo užsakymai sprendime „Sales“ kuriami ir su „Finance and Operations“ sinchronizuojami tada, kai suaktyvinama projekto, paremto pagal šabloną **Pardavimo užsakymas („Sales“ ir „Finance and Operations“) – tiesioginis** funkcija **Vykdyti projektą**. „Sales“ užsakymus aktyvinti ir sinchronizuoti galite tik tada, jei visi **Užsakymo produktai** yra sudaryti iš išoriškai tvarkomų produktų. Todėl produktuose negali būti atliekami rašymai. Suaktyvinus užsakymą, pardavimo užsakymas vartotojo sąsajoje (UI) tampa tik skaitomas. Tuo metu sukuriami pagal „Finance and Operations“ pateiktą informaciją paremti atnaujinimai. Po to, kai pardavimo užsakymo būsena taps **Patvirtinta**, pagal šabloną **Pardavimo užsakymai („Finance and Operations“ ir „Sales“) – tiesioginis** paremtą projektą bus galima panaudoti sinchronizuojant naujinimus arba nustatant „Finance and Operations“ įvykdymo būseną sprendime „Sales“.
+Pardavimo užsakymai sprendime „Sales“ kuriami ir su Tiekimo grandinės valdymu sinchronizuojami tada, kai suaktyvinama projekto, parengto pagal šabloną **Pardavimo užsakymas (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis**, funkcija **Vykdyti projektą**. „Sales“ užsakymus aktyvinti ir sinchronizuoti galite tik tada, jei visi **Užsakymo produktai** yra sudaryti iš išoriškai tvarkomų produktų. Todėl produktuose negali būti atliekami rašymai. Suaktyvinus užsakymą, pardavimo užsakymas vartotojo sąsajoje (UI) tampa tik skaitomas. Tuo metu naujinimai kuriami naudojant Tiekimo grandinės valdymą. Po to, kai pardavimo užsakymo būsena taps **Patvirtinta**, pagal šabloną **Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis** parengtą projektą bus galima panaudoti sinchronizuojant naujinimus arba iš Tiekimo grandinės valdymo į „Sales“ įvykdymo būseną.
 
-„Sales“ užsakymų kurti nereikia. Vietoj to „Finance and Operations“ galite sukurti naujų pardavimo užsakymų. Po to, kai pardavimo užsakymo būsena taps **Patvirtinta**, pardavimo užsakymas bus sinchronizuojamas su „Sales“ kaip aprašyta ankstesnėje pastraipoje.
+„Sales“ užsakymų kurti nereikia. Vietoj to Tiekimo grandinės valdyme galite sukurti naujų pardavimo užsakymų. Po to, kai pardavimo užsakymo būsena taps **Patvirtinta**, pardavimo užsakymas bus sinchronizuojamas su „Sales“ kaip aprašyta ankstesnėje pastraipoje.
 
-„Finance and operations“ naudojant šablono filtrus padedama užtikrinti, kad sinchronizuojant būtų įtraukiami tik aktualūs pardavimo užsakymai:
+Tiekimo grandinės valdyme naudojant šablono filtrus padedama užtikrinti, kad sinchronizuojant būtų įtraukiami tik aktualūs pardavimo užsakymai.
 
-- Norint, kad į sinchronizavimą būtų įtraukti pardavimo užsakyme nurodyti užsakantis klientas ir sąskaitą faktūrą išrašantis klientas, jie abu turi būti pateikiami „Sales“ . Sprendime „Finance and Operations“ laukai **OrderingCustomerIsExternallyMaintained** ir **InvoiceCustomerIsExternallyMaintained** naudojami duomenų objektų pardavimo užsakymams filtruoti.
-- Sprendime „Finance and Operations“ pardavimo užsakymą reikia patvirtinti. Su „Sales“ sinchronizuojami tik patvirtinti pardavimo užsakymai arba pardavimo užsakymai, kurių apdorojimo būsena aukštesnė, pavyzdžiui, **Išsiųsta** arba **Išrašyta SF**.
-- Sukūrus arba modifikavus pardavimo užsakymą, „Finance and Operations“ reikia vykdyti paketinę užduotį **Skaičiuoti bendrąsias pardavimo sumas**. Su „Sales“ bus sinchronizuojami tik tie pardavimo užsakymai, kuriuose apskaičiuotos bendrosios pardavimo sumos.
+- Norint, kad į sinchronizavimą būtų įtraukti pardavimo užsakyme nurodyti užsakantis klientas ir sąskaitą faktūrą išrašantis klientas, jie abu turi būti pateikiami „Sales“ . Tiekimo grandinės valdymo laukai **OrderingCustomerIsExternallyMaintained** ir **InvoiceCustomerIsExternallyMaintained** naudojami duomenų objektų pardavimo užsakymams filtruoti.
+- Tiekimo grandinės valdyme pardavimo užsakymą reikia patvirtinti. Su „Sales“ sinchronizuojami tik patvirtinti pardavimo užsakymai arba pardavimo užsakymai, kurių apdorojimo būsena aukštesnė, pavyzdžiui, **Išsiųsta** arba **Išrašyta SF**.
+- Sukūrus arba modifikavus pardavimo užsakymą, Tiekimo grandinės valdyme reikia vykdyti paketinę užduotį **Skaičiuoti bendrąsias pardavimo sumas**. Su „Sales“ bus sinchronizuojami tik tie pardavimo užsakymai, kuriuose apskaičiuotos bendrosios pardavimo sumos.
 
 ## <a name="freight-tax"></a>Transportavimo mokestis
 
-„Sales“ nepalaikomas mokestis antraštės lygyje, nes mokestis saugomas eilutės lygyje. Norėdama palaikyti mokestį, pavyzdžiui, krovinio tarifą, „Finance and Operations“ antraštės lygyje, sistema mokestį su „Sales“ sinchronizuoja kaip rašomą produktą pavadinimu **Transportavimo mokestis**, kuriam „Finance and Operations“ taip pat numatyta mokesčio suma. Tokiu būdu standartinis kainos skaičiavimas „Sales“ gali būti panaudotas bendrosioms sumoms, net jei „Finance and Operations“ antraštės lygyje yra nurodytas mokestis.
+„Sales“ nepalaikomas mokestis antraštės lygyje, nes mokestis saugomas eilutės lygyje. Norėdama palaikyti mokestį, pavyzdžiui, krovinio tarifą, Tiekimo grandinės valdymo antraštės lygiu, sistema mokestį su „Sales“ sinchronizuoja kaip rašomą produktą pavadinimu **Transportavimo mokestis**, kuriam Tiekimo grandinės valdyme taip pat numatyta mokesčio suma. Tokiu būdu standartinis kainos skaičiavimas „Sales“ gali būti panaudotas bendrosioms sumoms, net jei Tiekimo grandinės valdymo antraštės lygiu yra nurodytas mokestis.
 
 ## <a name="discount-calculation-and-rounding"></a>Nuolaidų skaičiavimas ir apvalinimas.
 
-„Sales“ nuolaidos skaičiavimo modelis skiriasi nuo „Finance and Operations“ nuolaidos skaičiavimo modelio. „Finance and Operations“ galutinė nuolaidos suma pardavimo eilutėje gali būti nuolaidos sumų ir nuolaidos procentų kombinacijos suma. Jei ši galutinė nuolaidos suma eilutėje padalinama pagal kiekį, gali būti taikomas apvalinimas. Tačiau apvalinimo taikymas nėra svarstomas, jei suapvalinta vieneto nuolaidos suma sinchronizuojama su „Sales“. Norint padėti užtikrinti, kad visa nuolaidos suma iš „Finance and Operations“ pardavimo eilutės su „Sales“ bus sinchronizuojama tinkamai, reikia sinchronizuoti visą sumą jos neskirstant pagal eilutės kiekį. Todėl „Sales“ **Nuolaidos skaičiavimo būdą** turite apibrėžti kaip **Eilutės elementą**.
+„Sales“ nuolaidos skaičiavimo modelis skiriasi nuo Tiekimo grandinės valdymo nuolaidos skaičiavimo modelio. Tiekimo grandinės valdyme galutinė nuolaidos suma pardavimo eilutėje gali būti nuolaidos sumų ir nuolaidos procentų kombinacijos suma. Jei ši galutinė nuolaidos suma eilutėje padalinama pagal kiekį, gali būti taikomas apvalinimas. Tačiau apvalinimo taikymas nėra svarstomas, jei suapvalinta vieneto nuolaidos suma sinchronizuojama su „Sales“. Norint padėti užtikrinti, kad visa nuolaidos suma iš Tiekimo grandinės valdymo pardavimo eilutės su „Sales“ bus sinchronizuojama tinkamai, reikia sinchronizuoti visą sumą jos neskirstant pagal eilutės kiekį. Todėl „Sales“ **Nuolaidos skaičiavimo būdą** turite apibrėžti kaip **Eilutės elementą**.
 
-„Sales“ pardavimo užsakymo eilutę sinchronizuojant su „Finance and Operations“, naudojama visa eilutės nuolaidos suma. „Finance and Operations“ nėra lauko, kuriame būtų galima saugoti visą nuolaidos eilutės sumą, todėl suma yra padaloma pagal kiekį ir saugoma lauke **Eilutės nuolaida**. Lauko **Pardavimo mokesčiai** pardavimo eilutėje neišsaugomas joks šiame suskirstyme įvykstantis apvalinimas.
+„Sales“ pardavimo užsakymo eilutę sinchronizuojant su Tiekimo grandinės valdymu, naudojama visa eilutės nuolaidos suma. Tiekimo grandinės valdyme nėra lauko, kuriame būtų galima saugoti visą nuolaidos eilutės sumą, todėl suma yra suskirstoma pagal kiekį ir saugoma lauke **Eilutės nuolaida**. Lauko **Pardavimo mokesčiai** pardavimo eilutėje neišsaugomas joks šiame suskirstyme įvykstantis apvalinimas.
 
 ### <a name="example"></a>Pavyzdys
 
-**„Sales“ sinchronizavimas su „Finance and Operations”**
+**Sinchronizavimas iš „Sales“ į Tiekimo grandinės valdymą**
 
 - **„Sales“:** kiekis = 3, atskiros eilutės nuolaida = 10,00 USD
-- **„Finance and Operations”:** kiekis = 3, eilutės nuolaidos suma = 3,33 USD, pardavimo mokestis = -0,01 USD 
+- **Tiekimo grandinės valdymas:** kiekis = 3, eilutės nuolaidos suma = 3,33 USD, pardavimo mokestis = -0,01 USD 
 
-**„Finance and Operations” sinchronizavimas su „Sales“**
+**Sinchronizavimas iš Tiekimo grandinės valdymo į „Sales“**
 
-- **„Finance and Operations”:** kiekis = 3, eilutės nuolaidos suma = 3,33 USD, pardavimo mokestis = -0,01 USD
+- **Tiekimo grandinės valdymas:** kiekis = 3, eilutės nuolaidos suma = 3,33 USD, pardavimo mokestis = -0,01 USD
 - **„Sales“:** kiekis = 3, atskiros eilutės nuolaida = (3 × 3,33 USD) + 0,01 USD = 10,00 USD
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
 Į objektą **Užsakymas** įtraukiami nauji toliau nurodyti laukai, rodomi puslapyje.
 
-- **Tvarkomas išoriškai** – šią parinktį nustatykite į **Taip**, kai užsakymas yra iš „Finance and Operations“.
-- **Apdorojimo būsena** – šiame lauke rodoma „Finance and Operations“ užsakymo apdorojimo būsena. Galimos šios vertės:
+- **Tvarkomas išoriškai** – šioje parinktyje nustatykite **Taip**, kai užsakymas yra iš Tiekimo grandinės valdymo.
+- **Apdorojimo būsena** – šiame lauke rodoma Tiekimo grandinės valdymo užsakymo apdorojimo būsena. Galimos šios vertės:
 
     - **Juodraštis** – pradinė būsena, kai „Sales“ sukuriamas pardavimo užsakymas. „Sales“ galima redaguoti tik šią apdorojimo būseną turinčius užsakymus.
     - **Aktyvus** – būsena, kai užsakymas „Sales“ suaktyvinamas naudojant mygtuką **Aktyvinti**.
@@ -121,11 +121,11 @@ Pardavimo užsakymai sprendime „Sales“ kuriami ir su „Finance and Operatio
     - **Iš dalies išrašyta SF**
     - **Atšaukta**
 
-Nustatymas **Sudaro tik išoriškai tvarkomi produktai** naudojamas aktyvinant užsakymą, kad būtų galima nuosekliai sekti, ar pardavimo užsakymą sudaro tik išoriškai tvarkomi produktai. Jei pardavimo užsakymą sudaro tik išoriškai tvarkomi produktai, produktai tvarkomi „Finance and Operations“. Šis parametras padeda užtikrinti, kad neaktyvinsite nebandysite sinchronizuoti pardavimo užsakymo eilučių, kuriose pateikti „Finance and Operations“ neatpažįstami produktai.
+Nustatymas **Sudaro tik išoriškai tvarkomi produktai** naudojamas aktyvinant užsakymą, kad būtų galima nuosekliai sekti, ar pardavimo užsakymą sudaro tik išoriškai tvarkomi produktai. Jei pardavimo užsakymą sudaro tik išoriškai tvarkomi produktai, produktai tvarkomi Tiekimo grandinės valdyme. Šis parametras padeda užtikrinti, kad neaktyvinsite ir nebandysite sinchronizuoti pardavimo užsakymo eilučių, kuriose pateikti Tiekimo grandinės valdyme neatpažįstami produktai.
 
-Išoriškai tvarkomuose užsakymuose puslapio **Pardavimo užsakymas** mygtukai **Kurti sąskaitą faktūrą**, **Atšaukti užsakymą**, **Perskaičiuoti**, **Gauti produktų** ir **Peržvelgti adresą** yra paslėpti, nes sąskaitos faktūros bus kuriamos sprendime „Finance and Operations“ ir sinchronizuojamos su „Sales“. Šių užsakymų redaguoti negalima, nes suaktyvinus pardavimo užsakymo informacija bus sinchronizuojama su „Finance and Operations“.
+Išoriškai tvarkomuose užsakymuose puslapio **Pardavimo užsakymas** mygtukai **Kurti sąskaitą faktūrą**, **Atšaukti užsakymą**, **Perskaičiuoti**, **Gauti produktų** ir **Peržvelgti adresą** yra paslėpti, nes sąskaitos faktūros bus kuriamos Tiekimo grandinės valdyme ir sinchronizuojamos su „Sales“. Šių užsakymų redaguoti negalima, nes suaktyvinus pardavimo užsakymų informacija bus sinchronizuojama iš Tiekimo grandinės valdymo.
 
-Pardavimo užsakymo būsena liks **aktyvi**, kad padėtų užtikrinti, jog keitimai iš „Finance and Operations“ galėtų būti perkelti į „Sales“ pardavimo užsakymą. Norėdami valdyti šią veikseną, numatytąją **Būsenos kodas \[Būsena\]** reikšmę projekte Duomenų integravimas nustatykite į **Aktyvu**.
+Pardavimo užsakymo būsena liks **Aktyvi**, kad padėtų užtikrinti, jog keitimai iš Tiekimo grandinės valdymo galėtų būti perkelti į „Sales“ pardavimo užsakymą. Norėdami valdyti šią veikseną, numatytąją **Būsenos kodas \[Būsena\]** reikšmę projekte Duomenų integravimas nustatykite į **Aktyvu**.
 
 ## <a name="preconditions-and-mapping-setup"></a>Išankstinės sąlygos ir susiejimo nustatymas
 
@@ -137,17 +137,17 @@ Prieš sinchronizuojant pardavimo užsakymus, svarbu atnaujinti toliau nurodytus
 
     Eikite į **Parametrai** &gt; **Sauga** &gt; **Komandos**, pasirinkite reikiamą komandą, pasirinkite **Valdyti vaidmenis** ir pasirinkite vaidmenį, kuriam suteiktos norimos teisės, pvz., **Sistemos administratorius**.
 
-- Siekdami užtikrinti, kad nuolaidos būtų teisingai skaičiuojamos tiek sprendime „Sales“, tiek sprendime „Finance and Operations“, **nuolaidos skaičiavimo būdą** turite nustatyti kaip **Eilutės elementas**.
+- Siekdami užtikrinti, kad nuolaidos būtų tinkamai skaičiuojamos tiek sprendime „Sales“, tiek Tiekimo grandinės valdyme, **Nuolaidos skaičiavimo būdą** turite nustatyti kaip **Eilutės elementas**.
 - Eikite į **Parametrai** &gt; **Administravimas** &gt; **Sistemos parametrai** &gt; **Pardavimai** ir įsitikinkite, kad naudojami toliau nurodyti parametrai.
 
     - Parinktis **Naudoti sistemos prizų skaičiavimo sistemą** nustatyta į **Taip**.
     - Laukas **Nuolaidos skaičiavimo būdas** nustatytas į **Eilutės elementas**.
 
-### <a name="setup-in-finance-and-operations"></a>Sąranka sprendime „Finance and Operations“
+### <a name="setup-in-supply-chain-management"></a>„Supply Chain Management“ nustatymas
 
 - Eikite į **Pardavimas ir rinkodara** &gt; **Periodinės užduotys** &gt; **Skaičiuoti bendrąsias pardavimo sumas** ir nustatykite, kad užduotis būtų vykdoma kaip paketinė užduotis. Parinktį **Skaičiuoti bendrąsias pardavimo užsakymų sumas** nustatykite į **Taip**. Šis veiksmas svarbus, nes su „Sales“ bus sinchronizuojami tik tie pardavimo užsakymai, kuriuose bus apskaičiuotos bendrosios pardavimo sumos. Paketinės užduoties dažnumas turi būti lygus pardavimo užsakymų sinchronizavimo dažnumui.
 
-Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo kilmę. Pardavimo kilmė naudojama siekiant atskirti sukurtus „Finance and Operations“ pardavimo užsakymus nuo „Field Service“ darbo užsakymų. Kai pardavimo užsakymo pardavimo kilmės tipas yra **Darbo užsakymo integravimas**, laukas **Išorinė darbo užsakymo būsena** rodomas pardavimo užsakymo antraštėje. Be to, pardavimo kilmė užtikrina, kad pardavimo užsakymai, sukurti iš „Field Service“ darbo užsakymų, būtų pašalinami naudojant filtrą, kai pardavimo užsakymai sinchronizuojami iš „Finance and Operations“ į „Field Service“.
+Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo kilmę. Pardavimo kilmė naudojama siekiant atskirti sukurtus „Supply Chain Management“ pardavimo užsakymus nuo „Field Service“ darbo užsakymų. Kai pardavimo užsakymo pardavimo kilmės tipas yra **Darbo užsakymo integravimas**, laukas **Išorinė darbo užsakymo būsena** rodomas pardavimo užsakymo antraštėje. Be to, pardavimo kilmė užtikrina, kad pardavimo užsakymai, sukurti pagal „Field Service“ darbo užsakymus, bus pašalinami naudojant filtrą, kai pardavimo užsakymai sinchronizuojami iš Tiekimo grandinės valdymo į „Field Service“.
 
 1. Pasirinkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Pardavimo kilmė**.
 2. Norėdami kurti naują pardavimo kilmę, pasirinkite **Nauja**.
@@ -157,13 +157,13 @@ Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo 
 6. Nustatykite lauko **Pardavimo kilmės tipas** reikšmę **Pardavimo užsakymo integravimas**.
 7. Pasirinkite **Įrašyti**.
 
-### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>Pardavimo užsakymo sąranka („Sales“ į „Finance and Operations“) – tiesioginis projektas Duomenų integravimas
+### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Pardavimo užsakymų sąranka (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis projektas Duomenų integravimas
 
 - Įsitikinkite, kad yra reikiamas **Shipto\_country** susiejimas su **DeliveryAddressCountryRegionISOCode**. Verčių schemoje numatytosios vertės lauką galite palikti tuščią, kad atliekant užsakymus šalies viduje nereikėtų vesti šalies pavadinimo. Kairiąją pusę nustatykite į „Tuščia“, o dešiniąją – į pageidaujamą šalį arba regioną.
 
     Šablono vertė yra vertės schema, kurioje susieta keletas šalių ar regionų ir kurioje „Tuščia“ = JAV.
 
-### <a name="setup-in-the-sales-orders-fin-and-ops-to-sales---direct-data-integration-project"></a>Pardavimo užsakymo sąranka (iš „Finance and Operations“ į „Sales“) – tiesioginis projektas Duomenų integravimas
+### <a name="setup-in-the-sales-orders-supply-chain-management-to-sales---direct-data-integration-project"></a>Pardavimo užsakymų sąranka (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis projektas Duomenų integravimas
 
 #### <a name="salesheader-task"></a>SalesHeader užduotis
 
@@ -173,7 +173,7 @@ Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo 
 
 #### <a name="salesline-task"></a>SalesLine užduotis
 
-- Įsitikinkite, kad „Finance and Operations“ yra **SalesUnitSymbol** būtina verčių schema.
+- Įsitikinkite, kad reikiamas **SalesUnitSymbol** skirtas susiejimas yra Tiekimo grandinės valdyme.
 - Įsitikinkite, kad „Sales“ apibrėžti reikiami vienetai.
 
     Šablono vertė, kurioje yra vertės schema, apibrėžta **SalesUnitSymbol** į **oumid.name**.
@@ -186,21 +186,21 @@ Jei taip pat naudojate darbo užsakymo integravimą, turite nustatyti pardavimo 
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudojant funkciją Duomenų integravimas.
 
 > [!NOTE]
-> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Finance and Operations“ arba „Finance and Operations“ sinchronizavimą su „Sales“.
+> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su Tiekimo grandinės valdymu arba Tiekimo grandinės valdymo sinchronizavimą su „Sales“.
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderheader"></a>Pardavimo užsakymai (iš „Finance and Operations“ į „Sales“) – tiesioginis: OrderHeader
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderHeader
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
-### <a name="sales-orders-fin-and-ops-to-sales---direct-orderline"></a>Pardavimo užsakymai (iš „Finance and Operations“ į „Sales“) – tiesioginis: OrderLine
+### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Pardavimo užsakymai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis: OrderLine
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderheader"></a>Pardavimo užsakymai (iš „Sales“ į „Finance and Operations“) – tiesioginis: OrderHeader
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis: OrderHeader
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
-### <a name="sales-orders-sales-to-fin-and-ops---direct-orderline"></a>Pardavimo užsakymai (iš „Sales“ į „Finance and Operations“) – tiesioginis: OrderLine
+### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Pardavimo užsakymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis: OrderLine
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 

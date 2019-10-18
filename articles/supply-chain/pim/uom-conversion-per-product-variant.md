@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 36fc98c44625cce03945d76973de67021d53353e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844374"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249453"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
@@ -90,6 +90,6 @@ Išleisto produkto variantų Mažas, Vidutinis ir Didelis vieneto konvertavimas 
 
 ### <a name="using-excel-to-update-the-unit-conversions"></a>Vieneto konvertavimo naujinimas naudojant „Excel“
 
-Jei produktas turi daug produkto variantų su skirtingų vienetų konvertavimu, naudinga eksportuoti vieneto konvertavimą iš puslapio **Vieneto konvertavimas** į „Excel“ skaičiuoklę, atnaujinti konvertavimą ir tada juos publikuoti „Finance and Operations“.
+Jei produktas turi daug produkto variantų su skirtingų vienetų konvertavimu, naudinga eksportuoti vienetų konvertavimą iš puslapio **Vienetų konvertavimas** į „Excel“ skaičiuoklę, atnaujinti konvertavimą ir tada jį publikuoti Tiekimo grandinės valdyme.
 
-Parinktis eksportuoti į „Excel“ ir vėl publikuoti „Finance and Operations“ redagavimą įgalinta per meniu elementą **Atidaryti naudojant „Microsoft Office“**, esantį veiksmų srities puslapyje **Vieneto konvertavimas**.
+Parinktis eksportuoti į „Excel“ ir vėl publikuoti redagavimą Tiekimo grandinės valdyme įgalinama per meniu elementą **Atidaryti naudojant „Microsoft Office“**, esantį Veiksmų srities puslapyje **Vienetų konvertavimas**.

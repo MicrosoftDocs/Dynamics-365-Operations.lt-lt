@@ -1,6 +1,6 @@
 ---
 title: „Lean manufacturing“ apžvalga
-description: Šiame skyriuje pateikiami „Dynamics 365 for Finance and Operations lean manufacturing“ funkcijų apžvalga ir aprašymas.
+description: Šiame skyriuje pateikiami „Dynamics 365 Supply Chain Management lean manufacturing“ funkcijų apžvalga ir aprašymas.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,29 +19,29 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d338318d3f7a1b56fe98e5c093ccbe795bd8de44
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562397"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250077"
 ---
 # <a name="lean-manufacturing-overview"></a>„Lean manufacturing“ apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šiame skyriuje pateikiami „Microsoft Dynamics 365 for Finance and Operations lean manufacturing“ funkcijų apžvalga ir aprašymas.
+Šiame skyriuje pateikiami „Dynamics 365 Supply Chain Management lean manufacturing“ funkcijų apžvalga ir aprašymas.
 
 „Lean manufacturing‟ siūlo įrankius, kuriuos galite naudoti „lean‟ operacijoms modeliuoti. Šie įrankiai palaiko ir skatina toliau nurodytas koncepcijas ir verslo veiklas.
 -   Gamybos ir logistikos procesus modeliuojant kaip gamybos eigas, kurti „lean manufacturing‟ platformą.
 -   Naudojant „kanban‟, diegti „lean‟ traukimo sistemą, siekiant signalizuoti paklausos reikalavimus.
 -   Stebėti ir tvarkyti „kanban“ užduotis.
 
-„Lean manufacturing‟ architektūrą programoje „Finance and Operations‟ sudaro gamybos eigos, veiklos ir „kanban“ taisyklės. Šios struktūros yra visiškai integruotos su „Finance and Operations” procesais. „Lean manufacturing‟ galite naudoti įvairių režimų gamybos aplinkoje, kurioje dera įvairios tiekimo, gamybos ir šaltinio parinkimo strategijos. Šios strategijos apima gamybos užsakymus, paketinius gamybos pramonės šakų užsakymus, pirkimo užsakymus ir perkėlimo užsakymus.
+„Lean manufacturing‟ architektūrą sudaro gamybos eigos, veiklos ir „Kanban“ taisyklės. Šios struktūros yra visiškai integruotos su „Supply Chain Management” procesais. „Lean manufacturing‟ galite naudoti įvairių režimų gamybos aplinkoje, kurioje dera įvairios tiekimo, gamybos ir šaltinio parinkimo strategijos. Šios strategijos apima gamybos užsakymus, paketinius gamybos pramonės šakų užsakymus, pirkimo užsakymus ir perkėlimo užsakymus.
 
 | **Svarbu**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| „Finance and Operations‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ su „kanban‟ įgyvendinimas Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |
+| „Supply Chain Management‟ galite naudoti, kad būtų palaikomas „lean manufacturing‟ su „kanban‟ įgyvendinimas Tačiau sėkmingas „lean‟ principų įgyvendinimas priklauso nuo naudojamų vidinių verslo procesų ir faktinių gamybos sąlygų bei aplinkos. |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a> Gamybos ir logistikos procesų modeliavimas kaip gamybos eigų
 Norėdami sukurti „lean manufacturing‟ platformą, gamybos ir logistikos procesus modeliuokite kaip gamybos eigas. Šią veiklą sudaro toliau pateiktos užduotys.
@@ -69,8 +69,8 @@ Toliau pateiktame sąraše aprašomos specializuotos „kanban“ sritys.
 -   Perkėlimo užduočių „kanban“ sritis – šioje srityje apžvelgiamos dabartinės perkėlimo užduotys. Galite atnaujinti ir registruoti išrinkimo dokumentus, pradėti ir užbaigti perkėlimo užduotis ir atlikti kitas užduotis.
 -   Apdorojimo užduočių „kanban“ sritis – ši sritis skirta palaikyti įprastai gamybos eigai ir apžvelgti dabartinei situacijai viename ar keliuose darbo elementuose. Šioje srityje galima nustatyti „kanban‟ prioritetus, jas parinkti ar gaminti. Sritis taip pat skirta palaikyti brūkšninių kodų nuskaitymui teikiant „kanban‟ ataskaitas.
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>„Kanban“ užduotys ir integravimas su „Finance and Operations” procesais
-„Kanban‟ užduotys yra visiškai integruotos su dabartiniais „Finance and Operations‟ atsargų operacijų procesais.
+## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>"Kanban" užduotys ir integravimas su „Supply Chain Management“ valdymo procesais
+„Kanban‟ užduotys yra visiškai integruotos su dabartiniais „Supply Chain Management‟ atsargų operacijų procesais.
 -   Galite atlikti parinkimo veiklas, kad papildytumėte medžiagą, naudojamą vykdyti „kanban“ užduočių reikalavimams.
 -   Galite spausdinti „kanban“ korteles, cirkuliuojamąsias „kanban“ korteles ir išrinkimo dokumentus, kad būtų palaikomas „kanban“ naudojimas. Šie dokumentai naudojami atstoti, sekti ir registruoti „kanban“ užduotims sandėlyje ir gamybos ceche.
 -   Registruoti atsargų išrinkimo ir perkėlimo veiklas galite nuskaitydami brūkšninius kodus.

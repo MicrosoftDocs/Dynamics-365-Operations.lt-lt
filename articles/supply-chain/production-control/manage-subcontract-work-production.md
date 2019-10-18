@@ -1,6 +1,6 @@
 ---
 title: Gamybos subrangos darbų valdymas
-description: Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
+description: Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Dynamics 365 Supply Chain Management“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ea2feccf9f74c0f035b8a46dc87eb41bdf85900a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569758"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023546"
 ---
 # <a name="manage-subcontracting-work-in-production"></a>Gamybos subrangos darbų valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Microsoft Dynamics 365 for Finance and Operations“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
+Šioje temoje paaiškinama, kaip subrangos operacijos valdomos programoje „Dynamics 365 Supply Chain Management“. Kitaip tariant, paaiškinama, kaip tiekėjas valdo ištekliui priskirtas gamybos operacijas.
 
 [Gamybos procesuose](production-process-overview.md) darbą gali atlikti ištekliai, kurie priklauso arba kuriuos administruoja tiekėjai. Paprastai tiekėjo ištekliai naudojami norint patenkinti periodiškai išaugusį poreikį, kuris viršija įmonės išteklių pajėgumą. Tiekėjas taip pat gali pasiūlyti specialių [išteklių resursų](resource-capabilities.md) arba išteklių už mažesnę kainą.  
 
@@ -40,7 +40,7 @@ Kai naudojamos subrangos operacijos arba veiklos, jos turi įtakos visiems opera
 
 Naudojant vidinius išteklius, paprastai laikotarpiui priskiriamas fiksuotas kainos tarifas. Tačiau subrangos išteklių kaina priklauso nuo susijusios paslaugos pirkimo kainos. Paslauga apibrėžiama kaip dar vienas produktas ir ji naudojama tam tikros subrangos operacijos įsigijimo ir pirkimo procesams valdyti.  
 
-Šiuo metu programoje „Microsoft Dynamics 365 for Finance and Operations“ pusiau baigti produktai nėra aiškiai apibrėžti. Jei gamybos užsakymui įvykdyti reikalinga daugiau nei viena operacija, kad žaliavos būtų paverstos baigta preke, baigta prekė vėl registruojama atsargose tik atliekant paskutinę operaciją. Ankstesnių operacijų metu pagaminti pusiau baigti produktai nurodomi nebaigtoje gamyboje (NG), bet jie atsargose nėra registruojami arba sekami. Nors maršrutus ir KS galite skaidyti į daug mažesnių vienetų, taikant tokį metodą padidėja produktų, KS ir maršrutų, kuriuos reikia valdyti, skaičius.  
+Šiuo metu „Supply Chain Management“ pusiau baigti produktai nėra aiškiai apibrėžti. Jei gamybos užsakymui įvykdyti reikalinga daugiau nei viena operacija, kad žaliavos būtų paverstos baigta preke, baigta prekė vėl registruojama atsargose tik atliekant paskutinę operaciją. Ankstesnių operacijų metu pagaminti pusiau baigti produktai nurodomi nebaigtoje gamyboje (NG), bet jie atsargose nėra registruojami arba sekami. Nors maršrutus ir KS galite skaidyti į daug mažesnių vienetų, taikant tokį metodą padidėja produktų, KS ir maršrutų, kuriuos reikia valdyti, skaičius.  
 
 Gamybos operacijų subrangos darbą galima modeliuoti dviem būdais. Šie būdai vienas nuo kito skiriasi tuo, kaip subrangos procesą galima modeliuoti: kaip procese galima nurodyti pusiau baigtus produktus ir kaip galima valdyti išlaidas.
 

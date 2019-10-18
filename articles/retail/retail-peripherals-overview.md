@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9aba1dabe3b2304c1f0dfd449982af1d4bc15d6b
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742638"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025058"
 ---
 # <a name="retail-peripherals"></a>Išoriniai mažmeninės prekybos įrenginiai
 
@@ -116,9 +116,9 @@ Mokėjimo įrenginio palaikymas įdiegiamas per mokėjimo jungtį. Mokėjimo įr
 
 ### <a name="opos"></a>OEKA
 
-Siekiant užtikrinti, kad su „Microsoft Dynamics 365 for Retail“ būtų galima naudoti kuo daugiau įrenginių, EKA skirtas OLE prekybos standartas yra pirminė mažmeninės prekybos išorinių įrenginių platforma, kuri yra palaikoma sprendime „Microsoft Dynamics 365 for Retail“. EKA skirtą OLE standartą sukūrė Nacionalinė mažmeninės prekybos federacija (NRF, angl. „National Retail Federation“), nustatanti pramonės standartų ryšio protokolus, skirtus išoriniams mažmeninės prekybos įrenginiams. OEKA yra plačiai taikomas EKA standartui skirto OLE diegimas. Jis sukurtas XX a. dešimto dešimtmečio viduryje ir nuo tada buvo keletą kartų atnaujintas. OEKA pateikia įrenginių tvarkyklių architektūrą, kuri leidžia lengvai integruoti EKA aparatūrą į „Windows“ pagrįstas EKA sistemas. OEKA valdikliai tvarko ryšį tarp suderinamos aparatūros ir EKA programinės įrangos. OEKA valdiklį sudaro dvi dalys:
+Siekiant užtikrinti, kad su „Retail“ būtų galima naudoti kuo daugiau įrenginių, EKA skirtas OLE pramonės standartas yra pagrindinė palaikoma mažmeninės prekybos išorinių įrenginių platforma EKA skirtą OLE standartą sukūrė Nacionalinė mažmeninės prekybos federacija (NRF, angl. „National Retail Federation“), nustatanti pramonės standartų ryšio protokolus, skirtus išoriniams mažmeninės prekybos įrenginiams. OEKA yra plačiai taikomas EKA standartui skirto OLE diegimas. Jis sukurtas XX a. dešimto dešimtmečio viduryje ir nuo tada buvo keletą kartų atnaujintas. OEKA pateikia įrenginių tvarkyklių architektūrą, kuri leidžia lengvai integruoti EKA aparatūrą į „Windows“ pagrįstas EKA sistemas. OEKA valdikliai tvarko ryšį tarp suderinamos aparatūros ir EKA programinės įrangos. OEKA valdiklį sudaro dvi dalys:
 
-- **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCO yra naudojami „Microsoft Dynamics 365 for Retail“ EKA komponentui bandyti. Todėl bandymai padeda užtikrinti, kad jei „Microsoft Dynamics 365 for Retail“ palaiko įrenginių klasę per OEKA, tai daugelio įrenginių tipai gali būti palaikomi (jei gamintojas pateikia paslaugos objektą, sukurtą OEKA). Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
+- **Valdymo objektas** – įrenginio klasės (pvz., eilutės rodymas) valdymo objektas pateikia programinės įrangos programos sąsają. „Monroe Consulting Services“ ([www.monroecs.com](http://www.monroecs.com/)) pateikia standartizuotą OEKA valdymo objektų rinkinį, jie dar vadinami bendraisiais valdymo objektais (CCOs). CCO yra naudojami „Retail“ EKA komponentui bandyti. Todėl bandymai padeda užtikrinti, kad jei „Retail“ palaiko įrenginių klasę per OEKA, tai daugelio įrenginių tipai gali būti palaikomi (jei gamintojas pateikia aptarnavimo objektą, sukurtą OEKA). Jūs neprivalote tiesiogiai patikrinti kiekvieno įrenginio tipo.
 - **Aptarnavimo objektas** – aptarnavimo objektas tiekia ryšį tarp valdymo objekto (CCO) ir įrenginio. Įrenginio aptarnavimo objektą paprastai teikia įrenginio gamintojas. Tačiau kai kuriais atvejais gali tekti aptarnavimo objektą atsisiųsti iš gamintojo žiniatinklio svetainės. Pvz,, galbūt bus galimas naujesnis aptarnavimo objektas. Gamintojo žiniatinklio svetainės adreso žr. aparatūros dokumentaciją.
 
 [![Valdymo objektas ir aptarnavimo objektas](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png)
@@ -126,7 +126,7 @@ Siekiant užtikrinti, kad su „Microsoft Dynamics 365 for Retail“ būtų gali
 OLE, skirto EKA, OEKA diegimo palaikymas padeda užtikrinti, kad jei įrenginio gamintojai ir EKA leidėjai standartą įdiegė tinkamai, EKA sistemos ir palaikymo įrenginiai gali veikti kartu, net jei prieš tai nebuvo patikrinta, kaip jie kartu veikia.
 
 > [!NOTE]
-> OEKA palaikymas neužtikrina visų įrenginių, turinčių OEKA tvarkykles, palaikymo. „Microsoft Dynamics 365 for Retail“ pirmiausia turi palaikyti to įrenginio tipą ar klasę per OEKA. Be to, aptarnavimo objektai gali ne visada būti atnaujinti pagal naujausią CCO versiją. Dar turite žinoti, kad apskritai aptarnavimo objektų kokybė yra skirtinga.
+> OEKA palaikymas neužtikrina visų įrenginių, turinčių OEKA tvarkykles, palaikymo. „Retail“ pirmiausia turi palaikyti to įrenginio tipą ar klasę per OEKA. Be to, aptarnavimo objektai gali ne visada būti atnaujinti pagal naujausią CCO versiją. Dar turite žinoti, kad apskritai aptarnavimo objektų kokybė yra skirtinga.
 
 ### <a name="windows"></a>„Windows“
 
@@ -136,7 +136,7 @@ EKA kvitų spausdinimas optimizuotas OEKA. OEKA yra daug greitesnis nei spausdin
 - Įrenginiai, kurie yra prijungti per spausdintuvą („nuosekliąja grandine“) gali netinkamai veikti, kai naudojamos „Windows“ tvarkyklės. Pvz., gali neatsidaryti kasos stalčius arba kvitų spausdintuvas gali veikti ne taip, kaip tikimasi.
 - OEKA palaiko ir platesnį kintamųjų rinkinį, kurie būdingi mažmeninės prekybos kvitų spausdintuvams, pvz., popieriaus nuplėšimas arba kvito spausdinimas.
 
-Jei OEKA valdikliai galimi tam „Windows“ spausdintuvui, kurį naudojate, spausdintuvas vis tiek turėtų tinkamai veikti su „Microsoft Dynamics 365 for Retail“.
+Jei OEKA valdikliai galimi tam „Windows“ spausdintuvui, kurį naudojate, spausdintuvas vis tiek turėtų tinkamai veikti su „Retail“.
 
 ### <a name="universal-windows-platform"></a>„Universal Windows Platform“
 
@@ -192,7 +192,7 @@ Išoriniams tinklo įrenginiams IP adresus galite nurodyti dviejose vietose. Jei
 
 #### <a name="modern-pos-for-android"></a>„Modern POS“, skirta „Android“
 
-Pradedant nuo 8.1.3 „Dynamics 365 for Retail“ versijos, į „Android“ skirtą „Modern POS“ programą yra įtaisyta IPC aparatūros stotis. Ši aparatūros stotis palaiko ryšį su tinklo spausdintuvais ir mokėjimo jungtimis. Norėdami gauti daugiau informacijos žr. [straipsnį apie hibridinę programą, skirtą „Android“ dokumentams](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)dokumentų straipsniui, srityje. 
+Pradedant nuo 8.1.3 „Retail“ versijos, į „Android“ skirtą „Modern POS“ programą yra įtaisyta IPC aparatūros stotis. Ši aparatūros stotis palaiko ryšį su tinklo spausdintuvais ir mokėjimo jungtimis. Norėdami gauti daugiau informacijos žr. [straipsnį apie hibridinę programą, skirtą „Android“ dokumentams](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)dokumentų straipsniui, srityje. 
 
 #### <a name="cloud-pos-and-modern-pos-for-ios"></a>„Cloud POS“ ir „Modern POS“, skirti „iOS“
 
@@ -526,7 +526,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apibrėžti ir prižiūrėti kanalų klientus, įskaitant registrus ir aparatūros stotis](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
-> „Microsoft Dynamics 365 for Retail“ 1611 versijoje aparatūros stoties profilis nebenaudojamas. Atributai, kuriuos anksčiau nustatėte aparatūros stoties šablone, dabar yra pačios aparatūros stoties dalis.
+> „Retail“ 1611 versijoje aparatūros stoties profilis nebenaudojamas. Atributai, kuriuos anksčiau nustatėte aparatūros stoties šablone, dabar yra pačios aparatūros stoties dalis.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>„Windows“ skirta „Modern POS“ su IPC (įtaisyta) aparatūros stotimi
 

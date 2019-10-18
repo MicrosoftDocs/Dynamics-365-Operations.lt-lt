@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 0e571f5c83affa56c230e1f597e219eb60973225
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572030"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248887"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
@@ -38,7 +38,7 @@ Kai pirkimo paraiška patvirtinta, ją galima naudoti pirkimo užsakymui generuo
 ## <a name="creating-purchase-requisitions"></a>Pirkimo paraiškų kūrimas
 Galite sukurti pirkimo paraišką puslapyje **Mano pirkimo paraiškos** ir pasirinkti reikiamas prekes ir paslaugas. Galite pasirinkti prekes iš jūsų organizacijos sukurto įsigijimo katalogo arba prašyti prekių, kurių nepavyko rasti kataloge, pasirinkę įsigijimo kategoriją ir įvedę produkto informaciją.  
 
-Prieš pateikiant peržiūrėti pirkimo paraišką, sprendime „Microsoft Dynamics 365 for Finance and Operations“ reikia sukonfigūruoti darbo eigas. Darbo eigą naudokite pirkimo paraiškai perkelti peržiūros proceso metu nuo pirminės būklės **Juodraštis** iki galutinės būklės **Patvirtinta**.
+Prieš pateikiant peržiūrėti pirkimo paraišką, reikia sukonfigūruoti darbo eigas. Darbo eigą naudokite pirkimo paraiškai perkelti peržiūros proceso metu nuo pirminės būklės **Juodraštis** iki galutinės būklės **Patvirtinta**.
 
 ### <a name="purchase-requisition-statuses"></a>Pirkimo paraiškų būsenos
 
@@ -141,7 +141,7 @@ Dėl paraiškos paskirčių paraiškos poreikio įvykdymo procesas yra lankstesn
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Paraiškos, kurių paskirtis yra vartojimas
 
-Paraiška, kurios paskirtis yra suvartojimas, rodo jūsų organizacijos viduje naudojamų prekių ar paslaugų paklausą. Paklausa, kurią kuria tokios paraiškos visuomet patenkinama pirkimo užsakymu. Jei „Microsoft Dynamics 365 for Finance and Operations“ yra nustatyta automatiškai generuoti pirkimo užsakymus, pirkimo užsakymai bus sukurti po to, kai pirkimo paraiška patenkinama.
+Paraiška, kurios paskirtis yra suvartojimas, rodo jūsų organizacijos viduje naudojamų prekių ar paslaugų paklausą. Paklausa, kurią kuria tokios paraiškos visuomet patenkinama pirkimo užsakymu. Jei Tiekimo grandinės valdyme yra nustatyta automatiškai generuoti pirkimo užsakymus, pirkimo užsakymai bus sukurti po to, kai pirkimo paraiška bus patvirtinta.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Paraiškos, kurių paskirtis yra papildymas
 

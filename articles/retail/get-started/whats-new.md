@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė ir „Dynamics 365 for Retail“
-description: versijaŠiame puslapyje nurodomi ištekliai, kurie gali padėti daugiau sužinoti apie naujas funkcijas naujausiuose „Microsoft Dynamics 365 for Retail“ leidimuose.
+title: Kas nauja ar pasikeitė ir „Dynamics 365 Retail“
+description: Šiame puslapyje nurodomi ištekliai, kurie gali padėti daugiau sužinoti apie naujas funkcijas naujausiuose „Microsoft“ „Dynamics 365 Retail“ leidimuose.
 author: sericks007
 manager: AnnBe
 ms.date: 10/20/2018
@@ -16,24 +16,24 @@ ms.search.industry: retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 23156e4f19beaf1bfe6ab9a66a326d55e7d85213
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: d0f89cc5ec0a0a1bb174a031aa9b6c059d608be4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845714"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025496"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-for-retail"></a>Kas nauja ir pasikeitė „Dynamics 365 for Retail“
+# <a name="whats-new-and-changed-in-dynamics-365-retail"></a>Kas nauja ir pasikeitė „Dynamics 365 Retail“
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame puslapyje nurodomi ištekliai, kurie gali padėti daugiau sužinoti apie naujas funkcijas ir pakeitimus naujausiuose „Microsoft Dynamics 365 for Retail“ leidimuose.
+Šiame puslapyje nurodomi ištekliai, kurie gali padėti daugiau sužinoti apie naujas funkcijas ir pakeitimus naujausiuose „Microsoft“ „Dynamics 365 Retail“ leidimuose.
 
 [!include [release notes](../includes/release-notes.md)]
 
-## <a name="releases-of-dynamics-365-for-retail"></a>„Dynamics 365 for Retail“ leidimai
+## <a name="releases-of-dynamics-365-retail"></a>„Dynamics 365 Retail“ leidimai
 
-| Paleisti | Versijos numeris | Prieinamumas | Sužinokite daugiau |
+| Paleisti | Versijos numeris | Esamumas | Sužinokite daugiau |
 |---------|--------------|--------------|------------|
 | „Dynamics 365 for Finance & Operations‟ – „Retail“ – 7.3.5 | 7,3,11971,64930 | Rugsėjo 2018 d. | [KB 4464337 „Microsoft Dynamics 365 for Finance and Operations“ – 7.3.5 versija, (dvejetainė dalis)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4464337&bugId=244892&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450), [KB 4463127 „Microsoft Dynamics 365 for Finance and Operations“ – 7.3.5 versija (X++ dalis)\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4463127&bugId=244893&qc=76dd5cdc0d340f5e68db3efa64d755ee83d747a3d786180a6dc9b99677bcb450) |
 | „Dynamics 365 for Finance & Operations‟ – „Retail“ – 7.3.4 | 7,3,11971,64556 | Rugpjūčio 2018 d. | [KB 4467783 „Microsoft Dynamics 365 for Retail“ – 7.3.5 versija – „BugFix Package 2“\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4467783&bugId=257914&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f15c6c5ccdcddebe7aa428cff48ca6e3b120d7f
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: bd963caed7f49db5dd7550dd30c3f831318d2b7a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783461"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250903"
 ---
 # <a name="create-an-asset"></a>Turto kūrimas
 
@@ -63,12 +63,12 @@ Laukai **Aptarnavimo lygis** ir **Kritiškumas** susiję su sukurtais turto darb
 
 ## <a name="asset"></a>Ilgalaikio turto
 
-Galite pasirinkti turto **Išteklius**. Išteklių pasirinkimas nustato, kuris kalendorius naudojamas darbo užsakymo tvarkaraščiams. Išteklių pasirinkimas dažnai naudojamas ilgalaikiam turtui. Naudojant Dynamics 365 for Finance and Operations ištekliai ir išteklių grupės nustatomi srityje **Organizacijos administravimas** > **Ištekliai** > **Išteklių grupės** arba **Ištekliai**.
+Galite pasirinkti turto **Išteklius**. Išteklių pasirinkimas nustato, kuris kalendorius naudojamas darbo užsakymo tvarkaraščiams. Išteklių pasirinkimas dažnai naudojamas ilgalaikiam turtui. Ištekliai ir išteklių grupės nustatomi srityje **Organizacijos administravimas** > **Ištekliai** > **Išteklių grupės** arba **Ištekliai**.
 
 Lauke **Ilgalaikio turto skaičius** galite pasirinkti ilgalaikį turtą, kuris bus susietas su turtu. Tai aktualu, jei turtas susijęs su investicijų projektu.
 
 - Jei turtas susijęs su ilgalaikiu turtu, galite kurti darbo užsakymo tipą, kuris bus naudojamas darbo užsakymams, susijusiems su investicijų projektu. 
-- Informacija apie turto ilgalaikį turtą susijusi su moduliu **Ilgalaikis turtas** Dynamics 365 for Finance and Operations. Tai reiškia, kad dalyse **Ilgalaikis turtas** > **Ilgalaikis turtas** > **Ilgalaikis turtas** galite gauti turto valdymo projektų, kurie gali būti susiję su ilgalaikiu turtu, apžvalgą pasirinkdami turtą sąraše ir peržiūrėdami turinį srities **Susijusi informacija** > dalyje **Susiję projektai**.
+- Informacija apie turto ilgalaikį turtą susijusi su moduliu **Ilgalaikis turtas** Dynamics 365 Supply Chain Management. Tai reiškia, kad dalyse **Ilgalaikis turtas** > **Ilgalaikis turtas** > **Ilgalaikis turtas** galite gauti turto valdymo projektų, kurie gali būti susiję su ilgalaikiu turtu, apžvalgą pasirinkdami turtą sąraše ir peržiūrėdami turinį srities **Susijusi informacija** > dalyje **Susiję projektai**.
 
 
 ## <a name="details"></a>Išsami informacija

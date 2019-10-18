@@ -1,6 +1,6 @@
 ---
-title: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos „Microsoft Dynamics 365 for Sales“ paskyras sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
+title: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ sąskaitas sinchronizuojant su „Supply Chain Management“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,25 +19,25 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 036389a1a52fdf15b73ab90c0a37108871a1a15e
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 4624f7e31c6dca616ff4ee824453b8971c1865e7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743353"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249893"
 ---
-# <a name="synchronize-accounts-directly-from-sales-to-customers-in-finance-and-operations"></a>Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
+# <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojamos „Microsoft Dynamics 365 for Sales“ paskyras tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ sąskaitas tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management”.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
-Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Finance and Operations“ ir „Sales“ egzemplioriuose.  Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ duomenų apie sąskaitas, kontaktus, produktus, pardavimo pasiūlymus, pardavimo užsakymus ir pardavimo sąskaitas faktūras srautus. Toliau pateiktoje iliustracijoje rodoma, kaip duomenys sinchronizuojami tarp „Finance and Operations“ ir „Sales“.
+Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose.  Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Supply Chain Management“ ir „Sales“ duomenų apie sąskaitas, kontaktus, produktus, pardavimo pasiūlymus, pardavimo užsakymus ir pardavimo sąskaitas faktūras srautus. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
 [![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
@@ -45,7 +45,7 @@ Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų
 
 Norėdami gauti prieigą prie pasiekiamų šablonų, atidarykite [„PowerApps“ administravimo centrą](https://preview.admin.powerapps.com/dataintegration). Pasirinkite **Projektai**, tada viršutiniame dešiniajame kampe – **Naujas projektas** ir pasirinkite viešuosius šablonus.
 
-Toliau pateiktas šablonas ir pagrindinė užduotis yra naudojami sinchronizuojant „Sales“ sąskaitas su „Finance and Operations“.
+Toliau pateiktas šablonas ir pagrindinė užduotis yra naudojami sinchronizuojant „Sales“ sąskaitas su „Supply Chain Management“.
 
 - **Šablono pavadinimas naudojant funkciją Duomenų integravimas:** Sąskaitos (iš „Sales“ į „Finance and Operations“) – tiesioginis
 - **Užduoties pavadinimas projekte:** Sąskaitos – Klientai
@@ -54,13 +54,13 @@ Prieš sinchronizuojant sąskaitą / klientą, nereikia atlikti jokių sinchroni
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| Pardavimas    | „Finance and Operations” |
+| Pardavimas    | „Supply Chain Management” |
 |----------|------------------------|
 | Sąskaitos | Klientai V2           |
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-Sąskaitos valdomos programoje „Sales“ ir su „Finance and Operations“ sinchronizuojamos kaip klientai. Ypatybė **Tvarkoma išoriškai** šiems klientams nustatyta į **Taip**, kad būtų galima sekti „Sales“ klientus. Išrašant sąskaitą faktūrą ši informacija naudojama sąskaitoms faktūros, sinchronizuojamoms su „Sales“, filtruoti.
+Sąskaitos valdomos programoje „Sales“ ir su „Supply Chain Management“ sinchronizuojamos kaip klientai. Ypatybė **Tvarkoma išoriškai** šiems klientams nustatyta į **Taip**, kad būtų galima sekti „Sales“ klientus. Išrašant sąskaitą faktūrą ši informacija naudojama sąskaitoms faktūros, sinchronizuojamoms su „Sales“, filtruoti.
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
@@ -72,21 +72,21 @@ Pritaikius integravimo sprendimą „Sales“ naujinimo scenarijus nustato lauk�
 
 ## <a name="preconditions-and-mapping-setup"></a>Išankstinės sąlygos ir susiejimo nustatymas
 
-- **CustomerGroupId** susiejimą reikia atnaujinti į tinkamą „Finance and Operations“ vertę. Galite nurodyti numatytąją vertę arba ją nustatyti naudodami verčių schemą.
+- **CustomerGroupId** susiejimą reikia atnaujinti į tinkamą „Supply Chain Management“ vertę. Galite nurodyti numatytąją vertę arba ją nustatyti naudodami verčių schemą.
 
     Numatytoji šablono vertė yra **10**.
 
-- Pridėdami toliau nurodytus susiejimus, galite padėti sumažinti neautomatinių atnaujinimų, kurie būtini „Finance and Operations“, skaičių. Galite naudoti numatytąją vertę arba verčių schemos vertę, pvz., **Šalis / regionas** arba **miestas**.
+- Pridėdami toliau nurodytus susiejimus, galite padėti sumažinti neautomatinių atnaujinimų, kurie būtini „Supply Chain Management“, skaičių. Galite naudoti numatytąją vertę arba verčių schemos vertę, pvz., **Šalis / regionas** arba **miestas**.
 
-    - **SiteId** – vieta būtina norint generuoti pasiūlymus ir „Finance and Operations“ pardavimo užsakymo eilutes. Numatytąją vietą galima paimti iš produkto arba iš kliento užsakymo antraštės.
+    - **SiteId** – vieta būtina norint generuoti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymo eilutes. Numatytąją vietą galima paimti iš produkto arba iš kliento užsakymo antraštės.
 
         Numatytoji šablono vertė yra **1**.
 
-    - **WarehouseId** – sandėlis yra būtinas norint apdoroti pasiūlymus ir „Finance and Operations“ pardavimo užsakymo eilutes. Numatytąjį sandėlį galima paimti iš produkto arba iš „Finance and Operations“ kliento užsakymo antraštės.
+    - **WarehouseId** – sandėlis yra būtinas norint apdoroti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymo eilutes. Numatytąjį sandėlį galima paimti iš produkto arba iš „Supply Chain Management“ kliento užsakymo antraštės.
 
         Numatytoji šablono vertė yra **13**.
 
-    - **LanguageId** – kalba yra būtina norint generuoti pasiūlymus ir „Finance and Operations“ pardavimo užsakymus. Pagal numatytuosius nustatymus naudojama kalba iš kliento užsakymo antraštės.
+    - **LanguageId** – kalba būtina norint generuoti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymus. Pagal numatytuosius nustatymus naudojama kalba iš kliento užsakymo antraštės.
 
         Numatytoji šablono vertė yra **en-us**.
 
@@ -98,20 +98,20 @@ Pritaikius integravimo sprendimą „Sales“ naujinimo scenarijus nustato lauk�
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimo pavyzdys naudojant funkciją Duomenų integravimas. 
 
 > [!NOTE]
-> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Finance and Operations“.
+> Susiejime rodoma, kuri lauko informacija bus sinchronizuota atliekant „Sales“ sinchronizavimą su „Supply Chain Management“.
 
 ![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Susijusios temos
 
 
-[Potencialūs klientai ir grynieji pinigai](prospect-to-cash.md)
+[Potencialaus kliento pavertimas pinigais](prospect-to-cash.md)
 
-[Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais](accounts-template-mapping-direct.md)
+[Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais](accounts-template-mapping-direct.md)
 
-[Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais](contacts-template-mapping-direct.md)
+[Tiesioginis „Sales“ kontaktų sinchronizavimas su „Supply Chain Management“ kontaktais arba klientais](contacts-template-mapping-direct.md)
 
-[Tiesioginis „Finance and Operations“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](sales-order-template-mapping-direct-two-ways.md)
+[Tiesioginis „Supply Chain Management“ pardavimo užsakymų antraščių ir eilučių sinchronizavimas su „Sales“](sales-order-template-mapping-direct-two-ways.md)
 
-[Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“](sales-invoice-template-mapping-direct.md)
+[Tiesioginis „Supply Chain Management“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](sales-invoice-template-mapping-direct.md)
 

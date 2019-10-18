@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 449a1f574cd32860cbdc2e43f21be1d3d692768f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553558"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025107"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mažmeninės prekybos pardavimo kuponų nustatymas
 
@@ -37,10 +37,10 @@ Kiekvienas kuponas yra susijęs su viena mažmeninės prekybos nuolaida. Su nuol
 
 Iš esmės kuponai yra papildoma patikra prie mažmeninės prekybos nuolaidų. Kupone pateikiami reikiami įprasti ir brūkšniniai kodai bei jų datų intervalai. Kupone taip pat pateikiamos pasirenkamos naudojimo ribos ir klientų reikalaujamos ypatybės. Nuolaida nurodo produktus, kuriems galioja kuponas. Nuolaidos kainų grupės nurodo klientus, kanalus ar katalogus, kuriems galioja kuponas.
 
-Norint sukurti kuponą, atskirai sukuriami nuolaida ir kuponas. Tada jie susiejami pasirenkant nuolaidą „Microsoft Dynamics 365 for Retail“ kuponų puslapyje.
+Norint sukurti kuponą, atskirai sukuriami nuolaida ir kuponas. Tada jie susiejami pasirenkant nuolaidą „Retail“ kuponų puslapyje.
 
 > [!NOTE]
-> Kuponą susiejus su nuolaida, keli „Microsoft Dynamics 365 for Retail“ nuolaidų puslapio laukai tampa galimi tik skaityti, nes juos valdo kupono parametrai. Šie laukai apima būsenos ir standartinių datų intervalų laukus.
+> Kuponą susiejus su nuolaida, keli „Retail“ nuolaidų puslapio laukai tampa galimi tik skaityti, nes jie valdomi pagal kupono parametrus. Šie laukai apima būsenos ir standartinių datų intervalų laukus.
 
 ### <a name="limited-use-coupons"></a>Riboto naudojimo kuponai
 
@@ -75,7 +75,7 @@ Nustatyti kuponą galite tik nustatę kupono brūkšninį kodą ir dvi kupono nu
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>Kas nutinka kuponus atnaujinus iš dalies
 
-Kuponų funkcijos apima kelias atskiras „Dynamics 365 for Retail“ funkcijas. Galima iš dalies atnaujinti visus „Microsoft Dynamics 365 for Retail Headquarters (HQ)“ ir kanalo komponentus. Todėl svarbu suprasti, kas nutinka iš dalies atnaujinus visas kuponų funkcijas.
+Kuponų funkcijos apima kelias atskiras funkcijas. Galima iš dalies atnaujinti visus „Dynamics 365 Retail Headquarters (HQ)“ ir kanalo komponentus. Todėl svarbu suprasti, kas nutinka iš dalies atnaujinus visas kuponų funkcijas.
 
 - **HQ atnaujinamas iš dalies, tačiau „Retail‟ serveris ir EKA neatnaujinami.** Naujinant HQ atnaujinami kuponų ir nuolaidų puslapiai bei mažmeninės prekybos kainų mechanizmas. Jei atnaujinamas tik vienas iš šių dviejų komponentų, kai kuriuose „Retail“ puslapiuose neatitiks kainų skaičiavimo duomenys. Todėl skaičiuojant nuolaidas galima gauti netikėtų rezultatų arba gali įvykti klaidų.
 - **HQ atnaujinamas, tačiau „Retail‟ serveris ir EKA neatnaujinami (N-1).** Kadangi tuo pačiu metu galima atnaujinti ne visas mažmeninės prekybos parduotuves, rekomenduojame prieš naujinant jas atnaujinti HQ. Scenarijuje N-1 naujų su kuponais susijusių funkcijų nebus galima naudoti dar neatnaujintose parduotuvėse. Pavyzdžiui, kuponų funkcijos pradeda naudoti „neįtraukimo“ eilutes. Jei su nuolaida naudosite neįtraukimo eilutes, jos nebus taikomos mažmeninės prekybos parduotuvėje, kurioje veikia ankstesnė versija.

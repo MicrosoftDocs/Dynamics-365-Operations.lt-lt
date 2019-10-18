@@ -1,6 +1,6 @@
 ---
-title: Darbo vietos uždarymas programoje „Microsoft Dynamics for Talent - Attract”
-description: Šioje temoje paaiškinama, kaip uždaryti darbo vietą programoje „Microsoft Dynamics 365 for Talent - Attract“.
+title: Darbo vietos uždarymas programoje „Microsoft Dynamics Talent - Attract”
+description: Šioje temoje paaiškinama, kaip uždaryti darbo vietą programoje „Microsoft Dynamics 365 Talent - Attract“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/10/2019
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2010-07-10
 ms.dyn365.ops.version: Talent 2019 Wave 1 update
-ms.openlocfilehash: ec1b4d1fcd02bad329030b37a491b52a7c9c0a30
-ms.sourcegitcommit: 42589141431a5f357804b7e9ea9c781d594ef09d
+ms.openlocfilehash: 632db42b12d0a442b8e1f35dbc784d252ffde399
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773545"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008621"
 ---
 # <a name="close-a-job"></a>Darbo vietos uždarymas
 
 [!include [banner](includes/banner.md)]
 
-Programoje „Microsoft Dynamics 365 for Talent: Attract” galite uždaryti darbo vietą dėl **darbo vietos atšaukimo** arba dėl **darbo vietos užpildymo**. Darbo vietą galite bet kuriuo metu atšaukti.
+Programoje „Microsoft Dynamics 365 Talent: Attract” galite uždaryti darbo vietą dėl **darbo vietos atšaukimo** arba dėl **darbo vietos užpildymo**. Darbo vietą galite bet kuriuo metu atšaukti.
 
 Jei norite nurodyti, kad darbo vieta užpildyta, kandidatas turi būti priėmęs pasiūlymą dėl darbo vietos.
 

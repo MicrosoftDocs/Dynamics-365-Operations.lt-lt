@@ -3,7 +3,7 @@ title: Tikrinti turimas atsargas
 description: Ši procedūra parodo, kaip patikrinti konkretaus prekės numerio turimas ir faktinies turimas atsargas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/25/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5b78b2e4ec3179450d635857353846c9bcb23eed
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: e0c00b2a79ab588ff47c249f73570544d884b79e
+ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795177"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "1995256"
 ---
 # <a name="check-the-availability-of-stock"></a>Tikrinti turimas atsargas
 
@@ -31,40 +31,32 @@ ms.locfileid: "1795177"
 
 
 ## <a name="check-on-hand-inventory-for-an-item"></a>Patikrinti turimas prekės atsargas
-1. Pasirinktie Atsargų valdymas > Užklausos ir ataskaitos > Turimos atsargos.
-2. Pasirinkite eilutę Prekės numeris.
-    * Norėdami teikti užklausą dėl turimų atsargų pagal prekės numerį, pasirinkite eilutę, kurioje lentelė nustatyta į Turimos atsargos, o laukas nustatytas į Prekės numeris.  
-3. Lauke Kriterijai pasirinkite prekę, dėl kurios norite pateikti užklausą.
-    * Jei naudojate demonstracinių duomenų įmonę USMF, galite pasirinkti „M9201‟.  
-4. Spustelėkite GERAI.
-5. Spustelėkite Dimensijos.
-    * Skirtukas Dimensijos leidžia pasirinkti, kiek informacijos apie turimas atsargas norite matyti. Jei reikia duomenų, susijusių su rezervavimu, turite vaizduoti visas prekių, naudojančių patobulintus sandėlio (WHS) procesus, atsargų dimensijas.  
-6. Spustelėkite GERAI.
-7. Veiksmų srityje spustelėkite Susijusi informacija.
-    * Jei to nematote, gali reikėti spustelėti ant elipsės mygtuko (...), kad matytumėte papildomų veiksmų srities parinkčių.  
-8. Spustelėkite Tiekimo apžvalga.
-    * Skirtuke Tiekimo apžvalga pateikiama konkrečios prekės tiekimo informacija, pvz., turimas kiekis, gamybos laikas ir tiekėjo informacija.  
-9. Išplėskite sekciją Turimas kiekis.
-10. Išplėskite sekciją Tiekėjai.
+1. Eikite į **Naršymo sritis > Moduliai > Atsargų valdymas > Užklausos ir ataskaitos > Turimos atsargos**.
+2. Pasirinkti eilutę **Prekių skaičius**. Norėdami teikti užklausą dėl turimų atsargų pagal prekės numerį, pasirinkite eilutę, kurioje lentelė nustatyta į **Turimos atsargos**, o laukas nustatytas į **Prekės** numeris.
+3. Lauke **Kriterijai** pasirinkite prekę, dėl kurios norite pateikti užklausą. Jei naudojate demonstracinių duomenų įmonę USMF, galite pasirinkti „M9201‟.  
+4. Spustelėkite **Gerai**.
+5. **Veiksmų srityje** spustelėkite **Dimensijos**. Skirtukas **Dimensijos** leidžia pasirinkti, kiek informacijos apie turimas atsargas norite matyti. Jei reikia duomenų, susijusių su rezervavimu, turite vaizduoti visas prekių, naudojančių patobulintus sandėlio (WHS) procesus, atsargų dimensijas.
+6. Spustelėkite **Gerai**.
+7. **Veiksmų srityje** spustelėkite **Susijusi informacija**. Jei tokios parinkties nematote, gali reikėti spustelėti ant elipsės mygtuko (...), kad matytumėte papildomų veiksmų srities parinkčių.
+8. Spustelėkite **Tiekimo apžvalga**. Skirtuke **Tiekimo apžvalga** pateikiama konkrečios prekės tiekimo informacija, pvz., turimas kiekis, gamybos laikas ir tiekėjo informacija.  
+9. Išplėskite sekciją **Turimas kiekis**.
+10. Išplėskite skyrių **Tiekėjai**.
 11. Uždarykite puslapį.
 12. Uždarykite puslapį.
 
 ## <a name="check-physical-on-hand-inventory"></a>Tikrinti faktines turimas atsargas
-1. Pasirinkite Sandėlio valdymas > Užklausos ir ataskaitos > Faktinės turimos atsargos.
-2. Lauke Prekės numeris surinkite reikšmę.
-    * Galite naudoti laukus Teritorija ir Sandėlis, kad filtruotumėte prekių sąrašą.  
+1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Užklausos ir ataskaitos > Faktinės turimos atsargos**.
+2. Lauke **Prekės numeris** įveskite vertę. Galite naudoti laukus Teritorija ir Sandėlis, kad filtruotumėte prekių sąrašą. 
 3. Atnaujinkite puslapį.
-4. Spustelėkite Rodyti dimensijas.
-    * Skirtukas Dimensijų rodymas leidžia pasirinkti, kiek informacijos apie turimas atsargas norite matyti.  
-5. Spustelėkite GERAI.
+4. **Veiksmų srityje** spustelėkite **Rodyti dimensijas**. Skirtukas Dimensijų rodymas leidžia pasirinkti, kiek informacijos apie turimas atsargas norite matyti.
+5. Spustelėkite **Gerai**.
 6. Uždarykite puslapį.
 
 ## <a name="check-on-hand-inventory-by-location"></a>Tikrinti turimas atsargas pagal vietą
-1. Pasirinkite Sandėlio valdymas > Užklausos ir ataskaitos > Turimos atsargos pagal vietą.
-2. Lauke Sandėlis surinkite reikšmę.
-    * Jei naudojate demonstracinių duomenų įmonę USMF, galite naudoti „51‟.  
+1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Užklausos ir ataskaitos > Turimos atsargos pagal vietą**.
+2. Lauke **Sandėlis** įveskite reikšmę. Jei naudojate demonstracinių duomenų įmonę USMF, galite naudoti „51‟.  
 3. Atnaujinkite puslapį.
-4. Spustelėkite Rodyti dimensijas.
-5. Spustelėkite GERAI.
+4. Spustelėkite **Rodyti dimensijas**.
+5. Spustelėkite **Gerai**.
 6. Uždarykite puslapį.
 

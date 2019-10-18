@@ -1,6 +1,6 @@
 ---
 title: Asortimento valdymas
-description: Šioje temoje paaiškinamos pagrindinės asortimento valdymo sprendime „Microsoft Dynamics 365 for Retail“ sąvokos ir nurodoma, apie ką reikėtų pagalvoti diegiant projektą.
+description: Šioje temoje paaiškinamos pagrindinės asortimento valdymo sprendime „Dynamics 365 Retail“ sąvokos ir nurodoma, apie ką reikėtų pagalvoti diegiant projektą.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4652641be0a1edaac919d36c7f127cd62c355a57
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558833"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025845"
 ---
 # <a name="assortment-management"></a>Asortimento valdymas
 
@@ -28,7 +28,7 @@ ms.locfileid: "1558833"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Sprendime „Microsoft Dynamics 365 for Retail“ galima naudoti *asortimentus*, kurie leidžia valdyti produktų prieinamumą įvairiuose kanaluose. Asortimentais nustatoma, kurių produktų galima įsigyti konkrečiose parduotuvėse ir konkrečiu laikotarpiu.
+Sprendime „Dynamics 365 Retail“ galima naudoti *asortimentus*, kurie leidžia valdyti produktų prieinamumą įvairiuose kanaluose. Asortimentais nustatoma, kurių produktų galima įsigyti konkrečiose parduotuvėse ir konkrečiu laikotarpiu.
 
 Sprendime „Retail“ asortimentas yra vieno ar kelių kanalų (arba kanalų grupių, kai naudojamos organizacijos hierarchijos) susiejimas su vienu ar keliais produktais (ar produktų grupėmis, kai naudojamos kategorijų hierarchijos).
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5b91d8589fa4226a2c28e6935b32109e702afc1a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5722099f8f146b9c5cc1fd427ccc57e040d2ff8a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571537"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025427"
 ---
 # <a name="petty-cash-management-for-retail-for-eastern-europe"></a>„Retail“ smulkių išlaidų valdymas (Rytų Europa)
 
@@ -50,7 +50,7 @@ Veiksmų srities puslapyje **Užregistruoti išrašai** galite atlikti toliau nu
 
 Prieš naudodami grynųjų pinigų valdymą mažmeninėje prekyboje, privalote baigti tolesnę nustatymo procedūrą:
 
-- Puslapyje **Mokėjimo būdai** nustatyti kiekvienam mokėjimo tipui skirtą mokėjimo būdą, su kuriuo sutinka pardavėjas. Galite naudoti skirtingus „Retail POS“ registravimo operacijų mokėjimo būdus. Daugiau informacijos apie „Retail“ mokėjimo būdus ieškokite [Mokėjimo būdai](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
+- Puslapyje **Mokėjimo būdai** nustatyti kiekvienam mokėjimo tipui skirtą mokėjimo būdą, su kuriuo sutinka pardavėjas. Galite naudoti skirtingus „Retail POS“ registravimo operacijų mokėjimo būdus. Daugiau informacijos apie mokėjimo būdus ieškokite [Mokėjimo būdai](https://docs.microsoft.com/dynamics365/unified-operations/retail/payment-methods).
 - Nustatyti grynųjų pinigų operacijų mažmeninės prekybos parametrus.
 - Nustatyti mokėjimų grynaisiais pinigais mažmeninės prekybos parduotuvėje mokėjimo būdą.
 

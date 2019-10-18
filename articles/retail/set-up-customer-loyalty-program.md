@@ -1,6 +1,6 @@
 ---
 title: Lojalumo apžvalga
-description: Šioje temoje aprašomos lojalumo galimybės programoje „Microsoft Dynamics 365 for Retail“ ir atitinkami nustatymo veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
+description: Šioje temoje aprašomos lojalumo galimybės programoje „Dynamics 365 Retail“ ir atitinkami nustatymo veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
 author: scott-tucker
 manager: AnnBe
 ms.date: 03/08/2019
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c2a2347abddf03ed884dcfe68f645fde84c092a
-ms.sourcegitcommit: 9b4c3fff2f30006b7bb491ef6ffe89d41bcbfa11
+ms.openlocfilehash: 9fbb5d6db16e2e145c4970b5dd6417d9e99f78b2
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1863777"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250972"
 ---
 # <a name="loyalty-overview"></a>Lojalumo apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Lojalumo programos gali padėti padidinti klientų lojalumą atlyginant klientams už veiksmus su mažmenininko ženklu. Naudodami „Microsoft Dynamics 365 for Retail“, galite nustatyti paprastas arba sudėtingas lojalumo programas, taikomas visiems jūsų juridiniams subjektams visuose mažmeninės prekybos kanaluose. Šioje temoje aprašomos lojalumo galimybės programoje „Microsoft Dynamics 365 for Retail“ ir atitinkami nustatymo veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
+Lojalumo programos gali padėti padidinti klientų lojalumą atlyginant klientams už veiksmus su mažmenininko ženklu. Naudodami „Dynamics 365 Retail“, galite nustatyti paprastas arba sudėtingas lojalumo programas, taikomas visiems jūsų juridiniams subjektams visuose mažmeninės prekybos kanaluose. Šioje temoje aprašomos lojalumo galimybės programoje „Retail“ ir atitinkami sąrankos veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
 
 Galite nustatyti savo lojalumo programą, kad į ją būtų įtrauktos nurodytos parinktys.
 
@@ -42,7 +42,7 @@ Galite nustatyti savo lojalumo programą, kad į ją būtų įtrauktos nurodytos
 
 ## <a name="setting-up-loyalty-programs"></a>Lojalumo programų nustatymas
 
-Turite nustatyti kelis komponentus, kad įgalintumėte „Dynamics 365 for Retail“ lojalumo funkciją. Toliau pateiktoje diagramoje parodyti lojalumo komponentai ir kaip jie susiję tarpusavyje.
+Turite nustatyti kelis komponentus, kad įgalintumėte „Retail“ lojalumo funkciją. Toliau pateiktoje diagramoje parodyti lojalumo komponentai ir kaip jie susiję tarpusavyje.
 
 ![Lojalumo nustatymo proceso srautas](./media/loyaltyprocess.gif "Lojalumo komponentai ir kaip jie susiję tarpusavyje")
 
@@ -69,9 +69,9 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
 
 | Proceso pavadinimas                         | Prekės/Paslaugos pavadinimas | Puslapio pavadinimas |
 |--------------------------------------|-------------|-----------|
-| 1050 (lojalumo informacija)           | Vykdykite šį procesą, norėdami siųsti lojalumo konfigūracijos duomenis iš „Dynamics 365 for Retail“ į mažmeninės prekybos parduotuves. Naudinga šį procesą planuoti vykdyti dažnai, kad lojalumo duomenys būtų perduodami į visas parduotuves. | Paskirstymo grafikas |
+| 1050 (lojalumo informacija)           | Vykdykite šį procesą, norėdami siųsti lojalumo konfigūracijos duomenis iš „Retail“ į mažmeninės prekybos parduotuves. Naudinga šį procesą planuoti vykdyti dažnai, kad lojalumo duomenys būtų perduodami į visas parduotuves. | Paskirstymo grafikas |
 | Apdoroti lojalumo planus              | Paleiskite šį procesą, norėdami susieti lojalumo planus su mažmeninės prekybos kanalais, kuriems priskirtas lojalumo planas. Šis procesas gali būti planuojamas paketiniam vykdymui. Jei pakeisite lojalumo konfigūracijos duomenis, pvz., lojalumo planus, lojalumo programas arba lojalumo atlygio taškus, turite vykdyti šį procesą. | Apdoroti lojalumo planus |
-| Apdoroti autonomines lojalumo programos operacijas | Vykdykite šį procesą, norėdami atnaujinti lojalumo korteles, kad į jas būtų įtrauktos operacijos, apdorotos neprisijungus. Šis procesas taikomas, tik jei pažymėtas puslapio **Bendrai naudojami mažmeninės prekybos parametrai** žymės langelis **Uždirbkite neprisijungę**, kad atlygį būtų galima gauti neprisijungus. | Apdoroti autonomines lojalumo programos operacijas |
+| Registruoti gautus lojalumo taškus paketuose | Vykdykite šį procesą, norėdami atnaujinti lojalumo korteles, kad į jas būtų įtrauktos operacijos, apdorotos neprisijungus. Šis procesas taikomas, tik jei pažymėtas puslapio **Bendrai naudojami mažmeninės prekybos parametrai** žymės langelis **Registruoti gautus taškus paketuose**, kad atlygį būtų galima gauti neprisijungus. | Registruoti gautus lojalumo taškus paketuose |
 | Naujinti lojalumo kortelių pakopas            | Vykdykite šį procesą, norėdami palyginti kliento uždarbio veiklą su kategorijos taisyklėmis, taikomomis lojalumo programai, ir norėdami atnaujinti kliento būseną. Šis procesas reikalingas tik tada, jei pakeitėte lojalumo programų pakopų taisyklės ir norite, kad atnaujintas taisykles būtų pritaikytos atgaline data jau išduotoms lojalumo kortelėms. Šis procesas gali būti vykdomas arba paketiniu būdu, arba atskiroms kortelėms. | Naujinti lojalumo kortelių pakopas |
 
 ## <a name="loyalty-enhancements"></a>Lojalumo patobulinimai
@@ -89,7 +89,7 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
 
     ![Neįtraukti priskyrimai](./media/Excluded-affiliations.png "Pašalinti priskyrimus, kad nebūtų duodama lojalumo taškų")
     
-- Mažmenininkai gali kanaluose generuoti lojalumo kortelių numerius. Iki 2018 m. spalio mėn. naujinimo mažmenininkai galėjo naudoti fizines lojalumo korteles arba sugeneruoti lojalumo kortelę naudodami unikalią kliento informaciją, pvz., telefono numerį. Norėdami įgalinti automatinį lojalumo kortelių generavimą mažmeninės prekybos parduotuvėse, įjunkite **Generuoti lojalumo kortelės numerį** su parduotuve susietame funkcijų profilyje. Interneto kanaluose mažmenininkai gali naudoti IssueLoyaltyCard API norėdami išduoti lojalumo korteles klientams. Mažmenininkai gali suteikti lojalumo kortelės numerį šiai API, kuris bus naudojamas generuojant lojalumo kortelę, arba sistema naudos lojalumo kortelių numeraciją, nustatytą „Dynamics 365 for Retail“. Tačiau jei numeracijos nėra ir mažmenininkas nesuteikia lojalumo kortelės numerio iškvietus API, tada rodoma klaida.
+- Mažmenininkai gali kanaluose generuoti lojalumo kortelių numerius. Iki 2018 m. spalio mėn. naujinimo mažmenininkai galėjo naudoti fizines lojalumo korteles arba sugeneruoti lojalumo kortelę naudodami unikalią kliento informaciją, pvz., telefono numerį. Norėdami įgalinti automatinį lojalumo kortelių generavimą mažmeninės prekybos parduotuvėse, įjunkite **Generuoti lojalumo kortelės numerį** su parduotuve susietame funkcijų profilyje. Interneto kanaluose mažmenininkai gali naudoti IssueLoyaltyCard API norėdami išduoti lojalumo korteles klientams. Mažmenininkai gali suteikti lojalumo kortelės numerį šiai API, kuris bus naudojamas generuojant lojalumo kortelę, arba sistema naudos lojalumo kortelių numeraciją, nustatytą „Retail“. Tačiau jei numeracijos nėra ir mažmenininkas nesuteikia lojalumo kortelės numerio iškvietus API, tada rodoma klaida.
 
     ![Generuoti lojalumo kortelę](./media/Generate-loyalty-card.png "Automatiškai sugeneruoti lojalumo kortelės numerį")
 
@@ -137,7 +137,7 @@ Toliau pateikiamoje lentelėje aprašomi procesai, kuriuos reikia vykdyti, norin
     - Nustatymas, kad įvyko veikla, kuri turi būti atlyginta.
     - Atitinkamo taškų kiekio skyrimas.
 
-    Pirmas veiksmas yra išorinis „Microsoft Dynamics 365 for Retail“ veiksmas, pavyzdžiui, „Twitter“ žinutės apie prekės ženklą paskelbimas arba „Facebook“ paspaudimas Patinka. Kai ši veikla nustatyta, mažmenininkai gali iškviesti pirmiau minėtą „Retail Server“ API ir skirti lojalumo taškų realiuoju laiku. Tokiais atvejais peržiūros veiksmas nereikalingas, nes veikla įvyko ir atitinkamas taškų kiekis turi būti skirtas. Tačiau yra scenarijų, kai mažmenininkas nori peržiūrėti įrašus prieš skirdamas taškus. Pavyzdžiui, mažmenininkas nustatė darbo grupę parduotuvėje, prie kurios klientai prisiregistruoja naudodami el. prekybos svetainę arba bet kurią kitą įvykių registravimo programą. Tačiau tik dalyvaujantys klientai turėtų gauti lojalumo taškų. Tokiais atvejais 10.0 leidime mes pristatėme duomenų objektą pavadinimu **Mažmeninės prekybos lojalumo kitos veiklos tipo eilutės**. Šis duomenų objektas suteikia galimybę mažmenininkams naudoti duomenų importavimo / eksportavimo sistemą (DIXF) arba „OData“ API norint įrašyti veiklas, už kurias klientams turėtų būti skiriama lojalumo taškų. Duomenų objektas išsaugo veikloas žurnale pavadinimu **Kitų veiklų lojalumo eilutės**, kurį galima naudoti peržiūros ir modifikavimo tikslais. Peržiūrėjus duomenis, IT vartotojas gali neautomatiškai registruoti veiklos eilutes arba vykdyti užduotį pavadinimu **Apdoroti lojalumo eilučių kitos veiklos tipą**, kuri užregistruos neužregistruotas veiklos eilutes ir skirs taškų klientams pagal uždarbio taisykles. Pirmiau pateiktame scenarijuje įvykių registravimo programa iškviestų „OData“ API siųsti kliento informaciją „Dynamics 365 for Retail“. Tačiau IT vartotojas gali registruoti tik tų klientų, kurie dalyvavo darbo grupėje, veiklos eilutes, o kitų klientų veiklos eilutes jis gali panaikinti. 
+    Pirmas veiksmas yra išorinis „Retail“ veiksmas, pavyzdžiui, „Twitter“ žinutės apie prekės ženklą paskelbimas arba „Facebook“ paspaudimas Patinka. Kai ši veikla nustatyta, mažmenininkai gali iškviesti pirmiau minėtą „Retail Server“ API ir skirti lojalumo taškų realiuoju laiku. Tokiais atvejais peržiūros veiksmas nereikalingas, nes veikla įvyko ir atitinkamas taškų kiekis turi būti skirtas. Tačiau yra scenarijų, kai mažmenininkas nori peržiūrėti įrašus prieš skirdamas taškus. Pavyzdžiui, mažmenininkas nustatė darbo grupę parduotuvėje, prie kurios klientai prisiregistruoja naudodami el. prekybos svetainę arba bet kurią kitą įvykių registravimo programą. Tačiau tik dalyvaujantys klientai turėtų gauti lojalumo taškų. Tokiais atvejais 10.0 leidime mes pristatėme duomenų objektą pavadinimu **Mažmeninės prekybos lojalumo kitos veiklos tipo eilutės**. Šis duomenų objektas suteikia galimybę mažmenininkams naudoti duomenų importavimo / eksportavimo sistemą (DIXF) arba „OData“ API norint įrašyti veiklas, už kurias klientams turėtų būti skiriama lojalumo taškų. Duomenų objektas išsaugo veikloas žurnale pavadinimu **Kitų veiklų lojalumo eilutės**, kurį galima naudoti peržiūros ir modifikavimo tikslais. Peržiūrėjus duomenis, IT vartotojas gali neautomatiškai registruoti veiklos eilutes arba vykdyti užduotį pavadinimu **Apdoroti lojalumo eilučių kitos veiklos tipą**, kuri užregistruos neužregistruotas veiklos eilutes ir skirs taškų klientams pagal uždarbio taisykles. Pirmiau pateiktame scenarijuje įvykių registravimo programa iškviestų „OData“ API siųsti kliento informaciją „Dynamics 365 Retail“. Tačiau IT vartotojas gali registruoti tik tų klientų, kurie dalyvavo darbo grupėje, veiklos eilutes, o kitų klientų veiklos eilutes jis gali panaikinti. 
 
     > [!NOTE]
     > Šiuo metu sistema liepia vartotojams nustatyti objekto „kitos veiklos tipai“ numeraciją, tačiau būsimuose leidimuose tai nebus būtinas veiksmas. Norėdami nustatyti numeraciją, pasirinkite **Bendrai naudojami mažmeninės prekybos parametrai** \> **Numeracijos** ir pasirinkite objekto **Lojalumo kitos veiklos tipo ID** numeraciją.

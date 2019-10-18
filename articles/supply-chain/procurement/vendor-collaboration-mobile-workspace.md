@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 253ba0bd991e8db17940d3d4b9ade599800bf924
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2c2ba1f23cc068daf20474f05519c3c6865fd183
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843870"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250261"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Tiekėjo bendradarbiavimo mobilioji darbo sritis
 
@@ -30,10 +30,10 @@ ms.locfileid: "1843870"
 
 Šioje temoje pateikiama informacijos apie **Tiekėjų bendradarbiavimo** mobiliąją darbo sritį. Ši darbo sritis padeda jūsų tiekėjams matyti naujausią jiems patvirtinti atsiųstų pirkimo užsakymų informaciją. Jie taip pat gali peržiūrėti informaciją apie naujus ir atnaujintus pirkimo užsakymus ir kontaktus.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
+Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
 
-## <a name="overview"></a>Peržiūrėti 
-Mobilioji darbo sritis **Tiekėjų bendradarbiavimas** suteikia tiekėjams informacijos apie naujus pirkimo užsakymus, tad jie gali juos peržiūrėti ir reaguoti naudodami „Microsoft Dynamics 365 for Finance and Operations“ žiniatinklio klientą. 
+## <a name="overview"></a>Apžvalga 
+Mobilioji darbo sritis **Tiekėjų bendradarbiavimas** suteikia tiekėjams informacijos apie naujus pirkimo užsakymus, tad jie gali juos peržiūrėti ir reaguoti naudodami žiniatinklio klientą. 
 
 >[!NOTE]
 > Mobilioji darbo sritis turėtų būti naudojama kaip tiekėjų bendradarbiavimo žiniatinklio sąsajos papildymas, bet ne pakaitalas. 
@@ -59,8 +59,8 @@ Tiekėjo bendradarbiavimo žiniatinklio sąsaja žiniatinklio kliente turi būti
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Būtinosios sąlygos skiriasi ir priklauso nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“ 
-Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant Tiekimo grandinės valdymą
+Jei jūsų organizacijoje visuotinai įdiegtas Tiekimo grandinės valdymas, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Tiekėjų bendradarbiavimas**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Microsoft Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -104,7 +104,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 <li><a href="vendor-collaboration-work-external-vendors.md">Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Tiekėjo bendradarbiavimo vartotojų valdymas</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Tiekėjo bendradarbiavimo nustatymas ir tvarkymas</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais programoje „Finance and Operations“</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Tiekėjų bendradarbiavimo sąsajos naudojimas dirbant su klientais Tiekimo grandinės valdyme</a></li>
 </ul></td>
 </tr>
 </tbody>
@@ -112,7 +112,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Microsoft Dynamics 365 for Oper
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
+Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

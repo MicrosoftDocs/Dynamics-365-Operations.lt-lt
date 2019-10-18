@@ -1,6 +1,6 @@
 ---
 title: Saugos ir vaidmenų valdymas sprendime „Attract“
-description: Šioje temoje pateikiama informacija apie vaidmenų saugą „Microsoft Dynamics 365 for Talent - Attract“.
+description: Šioje temoje pateikiama informacija apie vaidmenų saugą „Microsoft“ „Dynamics 365 Talent – Attract“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 3f804b5f79b813cf504c3deb4a95e678c6fcbf87
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ad94a7511afef0c68fb8f2a70402babb80b0f9ad
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739845"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024210"
 ---
 # <a name="set-user-permissions"></a>Vartotojo teisių nustatymas
 
 [!include[banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Talent: Attract“ naudoja vaidmenimis pagrįstą saugą. Kitaip tariant, prieiga nėra suteikiama atskiriems vartotojams, o tik saugos vaidmenims, kuriems vartotojai priskirti. Vartotojas, kuris yra priskirtas saugos vaidmeniui, turi prieigą prie teisių, kurios susietos su tuo vaidmeniu, rinkinio.
+„Microsoft“ „Dynamics 365 Talent: Attract“ naudojama vaidmenimis pagrįsta sauga. Kitaip tariant, prieiga nėra suteikiama atskiriems vartotojams, o tik saugos vaidmenims, kuriems vartotojai priskirti. Vartotojas, kuris yra priskirtas saugos vaidmeniui, turi prieigą prie teisių, kurios susietos su tuo vaidmeniu, rinkinio.
 
 „Attract“ pateikia penkis pagrindinius vartotojų vaidmenis:
 
@@ -52,7 +52,7 @@ Administratoriaus vaidmuo yra vienintelis vaidmuo, kuris suteikia teisę įtrauk
 
 ## <a name="administrator"></a>Administratorius
 
-Vartotojai, kurie priskirti administratoriaus vaidmeniui, gali pasiekti ir pakeisti visus „Attract“ duomenis. Administratoriai gali kurti, skaityti, atnaujinti ir panaikinti duomenis. Jie taip pat turi prieigą prie administravimo centro, kur gali konfigūruoti „Attract“ programą ir nustatyti vartotojo informaciją. Rekomenduojame priskirti bent vieną asmenį administratoriaus vaidmeniui. Pagal numatytuosius parametrus „Microsoft PowerApps“ aplinkos administratorius nustatytas kaip administratorius ir programoje „Attract“. Jei prisiregistravote naudoti bandomąją „Attract“ versiją, administratoriaus vaidmuo jums priskirtas automatiškai. Šiuo metu norėdami kurti užduotis vartotojai, turintys administratoriaus vaidmenį, turi turėti ir įdarbintojo arba samdos vadovo vaidmenį.
+Vartotojai, kurie priskirti administratoriaus vaidmeniui, gali pasiekti ir pakeisti visus „Attract“ duomenis. Administratoriai gali kurti, skaityti, atnaujinti ir panaikinti duomenis. Jie taip pat turi prieigą prie administravimo centro, kur gali konfigūruoti programą „Attract“ ir nustatyti vartotojų informaciją. Rekomenduojame priskirti bent vieną asmenį administratoriaus vaidmeniui. Pagal numatytuosius parametrus „Microsoft PowerApps“ aplinkos administratorius nustatytas kaip administratorius ir programoje „Attract“. Jei prisiregistravote naudoti bandomąją „Attract“ versiją, administratoriaus vaidmuo jums priskirtas automatiškai. Šiuo metu norėdami kurti užduotis vartotojai, turintys administratoriaus vaidmenį, turi turėti ir įdarbintojo arba samdos vadovo vaidmenį.
 
 ## <a name="hiring-manager"></a>Samdos vadovas
 

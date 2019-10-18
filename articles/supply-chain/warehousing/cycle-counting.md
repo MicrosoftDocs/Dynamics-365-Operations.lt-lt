@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: aef99a7e8964dba0e3c3a507bb214b79ae723357
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560671"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251528"
 ---
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
@@ -34,7 +34,7 @@ ms.locfileid: "1560671"
 Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audituoti turimas atsargų prekes. Ciklo skaičiavimo procesą galima apibūdinti tolesniais trimis veiksmais.
 
 1.  **Ciklo skaičiavimo darbo kūrimas** – ciklo skaičiavimo darbas gali būti sukuriamas automatiškai, atsižvelgiant į prekių ribinių reikšmių parametrus, arba naudojant ciklo skaičiavimo planą. Taip pat ciklo skaičiavimo darbą galite kurti rankiniu būdu, naudodami prekės arba sandėlio parametrus puslapyje **Ciklų skaičiavimo darbas pagal prekę** arba **Ciklų skaičiavimo darbas pagal vietą**.
-2.  **Ciklo skaičiavimo apdorojimas** – kai ciklo skaičiavimo darbas sukurtas, jį atliekate suskaičiuodami prekes sandėlio vietoje ir mobiliuoju įrenginiu įvesdami rezultatą į „Microsoft Dynamics 365 for Finance and Operations“. Taip pat galite skaičiuoti prekes sandėlio vietoje nekurdami ciklo skaičiavimo darbo. Šis procesas vadinamas *ciklo skaičiavimu vietoje*.
+2.  **Ciklo skaičiavimo apdorojimas** – kai ciklo skaičiavimo darbas sukurtas, jį atliekate suskaičiuodami prekes sandėlio vietoje ir mobiliuoju įrenginiu įvesdami rezultatą į „Dynamics 365 Supply Chain Management“. Taip pat galite skaičiuoti prekes sandėlio vietoje nekurdami ciklo skaičiavimo darbo. Šis procesas vadinamas *ciklo skaičiavimu vietoje*.
 3.  **Apskaičiuotos reikšmės skirtumų pašalinimas** – atlikus ciklo skaičiavimą, visų prekių, kurių apskaičiuota reikšmė skiriasi, darbo būsena puslapyje **Visi darbai** bus **Laukiama peržiūros**. Šiuos skirtumus pašalinti galite puslapyje **Peržiūros laukiantis ciklo skaičiavimo darbas**.
 
 Toliau pateiktoje iliustracijoje parodytas ciklo skaičiavimo procesas. ![Ciklo skaičiavimo proceso eiga](./media/performcyclecountinginawarehouselocation.jpg)
@@ -113,10 +113,10 @@ Ciklo skaičiavimo planus galite nustatyti norėdami ciklo skaičiavimo darbą k
 Norėdami ciklo skaičiavimo darbą sukurti rankiniu būdu, galite naudoti puslapį **Ciklo skaičiavimo darbas pagal prekę** arba **Ciklo skaičiavimo darbas pagal vietą**. Galite nurodyti maksimalų kurtiną ciklo skaičiavimų skaičių. Pavyzdžiui, jei sandėlio vadovas nurodo reikšmę, lygią **5**, sukuriamas penkių vietų ciklo skaičiavimo darbas, net jei prekė yra 10-yje skirtingų vietų. Taip pat galite pasirinkti darbo telkinio ID ir jam priskirti sukurtus ciklo skaičiavimo darbo ID. Kai apdorojamas ciklo skaičiavimo darbo telkinio ID, šiam darbo telkiniui priskirti ciklo skaičiavimo darbo ID apdorojami kaip grupė.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Ciklo skaičiavimo atlikimas naudojant mobilųjį įrenginį
-Ciklo skaičiavimo darbo apdorojimo naudojant „Finance and Operations“ mobiliajame įrenginyje metodai yra keli.
+Ciklo skaičiavimo darbo apdorojimo naudojant „Supply Chain Management“ mobiliajame įrenginyje metodai yra keli.
 
 -   **Nurodomas vartotojo** – darbuotojas gali nurodyti ciklo skaičiavimo darbo ID, kurio būsena yra **Atviras**.
--   **Nurodomas sistemos** – darbuotojui ciklo skaičiavimo darbo ID priskiria „Finance and Operations‟.
+-   **Nurodomas sistemos** – darbuotojui ciklo skaičiavimo darbo ID priskiria „Supply Chain Management‟.
 -   **Ciklo skaičiavimo grupavimas** – darbuotojas gali grupuoti konkrečius tam tikros vietos, zonos ar darbo telkinio ciklo skaičiavimo darbo ID.
 -   **Ciklo skaičiavimas vietoje** – darbuotojas gali bet kada skaičiuoti prekes sandėlio vietoje nekurdamas ciklo skaičiavimo darbo. Norėdamas ciklo skaičiavimą atlikti vietoje, darbuotojas įveda vietos ID.
 

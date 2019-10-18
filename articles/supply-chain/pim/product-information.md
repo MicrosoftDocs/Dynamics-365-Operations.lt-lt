@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f4e378bc0a72e05f940ae352ad0f1c0709d9d3a4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563533"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249476"
 ---
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
@@ -57,17 +57,17 @@ Produktą pirmiausia apibrėžia produkto numeris, pavadinimas ir aprašas. Tač
 
 ## <a name="distribution-export-and-import-of-product-data"></a>Produkto duomenų platinimas, eksportavimas ir importavimas
 
-Produkto apibrėžtį galima sukurti „Microsoft Dynamics 365 for Finance and Operations“. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas „Finance and Operations‟ egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
+Produkto apibrėžtį galima sukurti Tiekimo grandinės valdyme. Ją taip pat galima importuoti iš produktų ciklo valdymo (PLM), produktų duomenų valdymo (PDM) ar produktų informacijos valdymo (PIM) sistemų. Kai naudojamas daugiau nei vienas Tiekimo grandinės valdymo egzempliorius, vienas iš jų paprastai naudojamas kaip pagrindinis produktų duomenų egzempliorius visiems kitiems egzemplioriams. Taip daryti galima pasitelkiant didelę duomenų objektų grupę, kuriuos naudojant produktų apibrėžčių duomenis galima eksportuoti ir importuoti iš vieno egzemplioriaus į kitą.
 
-Kad produktų duomenis galėtumėte platinti keliuose egzemplioriuose, „Finance and Operations“ leidžia naudoti „Common Data Service“. Produktų apibrėžtis iš „Finance and Operations“ egzemplioriaus galima eksportuoti į „Common Data Service“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Microsoft Dynamics 365 for Sales“, užpildyti produktų duomenimis.
+Kad produktų duomenis būtų galima platinti keliuose egzemplioriuose, Tiekimo grandinės valdyme galima naudoti „Common Data Service“. Produktų apibrėžtis iš Tiekimo grandinės valdymo egzemplioriaus galima eksportuoti į „Common Data Service“. Tada, naudojant produktų apibrėžtis, galima kitas verslo programas, pvz., „Dynamics 365 for Sales“, užpildyti produktų duomenimis.
 
 Atkreipkite dėmesį, kad dinamiškose ir lanksčiose organizacijose produktų informacijos duomenys keičiasi kiekvieną dieną. Todėl tikslių ir faktinių produktų duomenų priežiūra yra labai svarbus atskiras verslo procesas.
 
 ## <a name="product-masters-and-product-variants"></a>Bendrieji produktai ir produktų variantai
 
-Lanksčiame pasaulyje, kuriame produktus reikia greitai pritaikyti pagal klientų reikalavimus, produktų apibrėžtyse nurodomas produktų rinkinys, o ne išskirtieji produktai. Sprendime „Microsoft Dynamics 365 for Finance and Operations“ tokie produktai vadinami *bendraisiais produktais*. Bendruosiuose produktuose apibrėžiama ir pateikiamos taisyklės, kaip išskirtieji produktai aprašomi ir veikia vykstant verslo procesams. Pagal šias apibrėžtis galima generuoti išskirtuosius produktus. Šie išskirtieji produktai vadinami *produktų variantais*.
+Lanksčiame pasaulyje, kuriame produktus reikia greitai pritaikyti pagal klientų reikalavimus, produktų apibrėžtyse nurodomas produktų rinkinys, o ne išskirtieji produktai. Tiekimo grandinės valdyme tokie produktai vadinami *bendraisiais produktais*. Bendruosiuose produktuose apibrėžiama ir pateikiamos taisyklės, kaip išskirtieji produktai aprašomi ir veikia vykstant verslo procesams. Pagal šias apibrėžtis galima generuoti išskirtuosius produktus. Šie išskirtieji produktai vadinami *produktų variantais*.
 
-Sprendime „Finance and Operations‟ bendrasis produktas susiejamas su produktų dimensijų grupe ir konfigūravimo technologija, kad būtų galima nurodyti verslo taisykles. Produktų dimensijos (Spalva, Dydis, Stilius ir Konfigūracija) yra konkretus atributų rinkinys, kurį naudojant programoje galima apibrėžti ir sekti konkretų susijusių produktų veikimą. Šios dimensijos taip pat vartotojams padeda ieškoti produktų ir juos nustatyti.
+Bendrasis produktas susiejamas su produktų dimensijų grupe ir konfigūravimo technologija, kad būtų galima nurodyti verslo taisykles. Produktų dimensijos (Spalva, Dydis, Stilius ir Konfigūracija) yra konkretus atributų rinkinys, kurį naudojant programoje galima apibrėžti ir sekti konkretų susijusių produktų veikimą. Šios dimensijos taip pat vartotojams padeda ieškoti produktų ir juos nustatyti.
 
 ## <a name="configuration-technologies"></a>Konfigūravimo technologijos
 
@@ -77,7 +77,7 @@ Galite rinktis iš trijų konfigūravimo technologijų:
 - Konfigūravimo pagal dimensijas funkcija paprastai naudojama gamybos situacijose ir apibrėžiant komplektavimo specifikacijas (KS) ji leidžia naudoti dimensiją Konfigūracija. Pasirinkus konkrečią konfigūraciją sistema naudoja tai konfigūracijai tinkamų planavimo ir gamybos KS eilučių pogrupį. Ši sąvoka taip pat vadinama *visuotine KS*, nes viena bendrai naudojama KS naudojama visoms produkto konfigūracijoms.
 - Konfigūravimo pagal apribojimus funkcija naudoja produkto konfigūracijos modelį ir apibūdina visus galimus atributus ir komponentus, kurių reikia norint viename modelyje apibūdinti visus galimus produkto variantus. Atributų derinių apribojimus galima apibūdinti naudojant reguliariuosius reiškinius ar apribojimus pagal lenteles. Valdant produktų informaciją konfigūracijų modeliai ir konfigūratoriai tampa vis svarbesni ir yra naudojami visose pramonės šakose.
 
-Planuojant diegti „Finance and Operations‟ labai svarbu verslo procesui parinkti tinkamą konfigūravimo technologiją. Įdiegus produkto negalima konvertuoti iš vieno modelio į kitą.
+Planuojant diegti Tiekimo grandinės valdymą, labai svarbu verslo procesui parinkti tinkamą konfigūravimo technologiją. Įdiegus produkto negalima konvertuoti iš vieno modelio į kitą.
 
 ## <a name="product-variant-model-definition-workspace"></a>Darbo sritis Produktų variantų modelių apibrėžimas
 

@@ -1,6 +1,6 @@
 ---
-title: „Dynamics 365 for Retail“ palaikymo gavimas
-description: Šiame straipsnyje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft Dynamics 365 for Retail“.
+title: „Dynamics 365 Retail“ palaikymo gavimas
+description: Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft“ „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 225b39bb03fa3bbd0b3c3a24e4eb09a114d01904
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577849"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025011"
 ---
-# <a name="get-support-for-dynamics-365-for-retail"></a>„Dynamics 365 for Retail“ palaikymo gavimas
+# <a name="get-support-for-dynamics-365-retail"></a>„Dynamics 365 Retail“ palaikymo gavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Dynamics 365 for Retail“.
+Šiame straipsnyje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Dynamics 365 Retail“.
 
 ## <a name="contact-support"></a>Kreiptis į pagalbos tarnybą
 
@@ -48,7 +48,7 @@ Norėdami gauti „Retail“ palaikymą, naudokite toliau pateiktoje lentelėje 
 <tbody>
 <tr>
 <td>Klauskite bendruomenės.</td>
-<td>Atidarykite bendruomenės puslapį <a href="https://community.dynamics.com/365/retail">„Dynamics 365 for Retail“</a>, kad gautumėte atsakymų į savo klausimus iš „Dynamics“ bendruomenės.</td>
+<td>Atidarykite bendruomenės puslapį <a href="https://community.dynamics.com/365/retail">„Dynamics 365 Retail“</a>, kad gautumėte atsakymų į savo klausimus iš „Dynamics“ bendruomenės.</td>
 </tr>
 <tr>
 <td>Naudokite problemų ieškos įrankį.</td>
@@ -74,7 +74,7 @@ Norėdami gauti „Retail“ palaikymą, naudokite toliau pateiktoje lentelėje 
 Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „CustomerSource“, el. mokymosi, ieškos, žinių bazės, failų atsisiuntimo ir puslapio arba sistemos klaidų, eikite į <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx">Svetainės palaikymas</a>.</td>
 </tr>
 <tr>
-<td>Gaukite pagalbos dėl klausimų apie „Retail“ arba „Finance and Operations“ licencijavimą.</td>
+<td>Pagalba iškilus klausimų apie licencijavimą.</td>
 <td>Susisiekite su partneriu, stambių paskyrų pardavėju (LAR) ar „Microsoft“ pardavimo atstovu.</td>
 </tr>
 <tr>

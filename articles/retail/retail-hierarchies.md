@@ -1,6 +1,6 @@
 ---
 title: Mažmeninės prekybos hierarchijos
-description: Šiame straipsnyje aprašytos „Microsoft Dynamics 365 for Retail“ mažmeninės prekybos hierarchijos.
+description: Šiame straipsnyje aprašytos „Dynamics 365 Retail“ mažmeninės prekybos hierarchijos.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cb383c5bc5ad5d641db6f30e915ea43ba5980005
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568027"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025082"
 ---
 # <a name="retail-hierarchies"></a>Mažmeninės prekybos hierarchijos
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje aprašytos „Microsoft Dynamics 365 for Retail“ mažmeninės prekybos hierarchijos.
+Šiame straipsnyje aprašytos „Dynamics 365 Retail“ mažmeninės prekybos hierarchijos.
 
 Galite sukurti mažmeninės prekybos kategorijų hierarchiją ir tvarkyti produktus, kuriuos parduodate mažmeninės prekybos kanalais. Mažmeninės prekybos produktų hierarchijas galite naudoti produktams suskirstyti į kategorijas ar grupuoti. Tada šiuos produktus galite naudoti produktų asortimentams ir klientų lojalumo programoms kurti. Taip pat galite priskirti produkto atributus ir ypatybes, priskirti kainų struktūrą, įtraukti produktus į produktų akcijas ir naudoti produktus ataskaitoms teikti. Galite sukurti vieną mažmeninės prekybos kategorijų hierarchiją, kuri nurodytų visus produktus ir kategorijas jūsų organizacijoje, o tada naudoti tą kategorijų hierarchiją keliais tikslais. Arba galite sukurti kelias mažmeninės prekybos kategorijų hierarchijas specialiais tikslais, pvz., produktų akcijoms. Kai sukuriate mažmeninės prekybos produktų hierarchiją, turite priskirti kategorijų hierarchijos tipą, kad nustatytumėte kategorijų hierarchijos paskirtį. Pavyzdžiui, tik produktų hierarchijos, kurioms priskirtas tipas **Mažmeninės prekybos naršymo hierarchija**, nurodomos, kai naršote produktus pagal kategoriją internete arba naudodami elektroninį kasos aparatą (EKA).
 

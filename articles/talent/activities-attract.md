@@ -1,6 +1,6 @@
 ---
-title: Veiklos „Microsoft Dynamics 365 for Talent - Attract” procesuose
-description: Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti „Microsoft Dynamics 365 for Talent - Attract” samdos procese.
+title: Veiklos „Microsoft Dynamics 365 Talent - Attract” procesuose
+description: Šioje temoje pateikiama informacija apie įvairių tipų veiklas, kurias galima naudoti „Microsoft Dynamics 365 Talent - Attract” samdos procese.
 author: hasrivas
 manager: AnnBe
 ms.date: 05/28/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 4d52f3a384ad2a54986d1bd23baeefbaae30c9e2
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 2e40250bb801f6222d16400b2698e5b0df47a404
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739725"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008690"
 ---
 # <a name="activities-in-hiring-processes"></a>Samdos procesų veiklos
 
 [!include[banner](../includes/banner.md)]
 
-Veiklas galima įtraukti į „Dynamics 365 for Talent: Attract“ kaip samdos proceso dalį. Veiklas galima įtraukti į proceso šabloną arba jas galima tiesiogiai įtraukti į darbo samdos procesą. Apibrėžus darbą, pažymimas proceso šablono, o veiklos, kurios įtrauktos į šabloną, pritaikomos užduočiai. Jei šablonas nepasirenkamas, naudojamas numatytasis šablonas. Samdos procesą taip pat galima pakeisti užduotyje pritaikius šabloną.
+Veiklas galima įtraukti į „Microsoft Dynamics 365 Talent: Attract“ kaip samdos proceso dalį. Veiklas galima įtraukti į proceso šabloną arba jas galima tiesiogiai įtraukti į darbo samdos procesą. Apibrėžus darbą, pažymimas proceso šablono, o veiklos, kurios įtrauktos į šabloną, pritaikomos užduočiai. Jei šablonas nepasirenkamas, naudojamas numatytasis šablonas. Samdos procesą taip pat galima pakeisti užduotyje pritaikius šabloną.
 
 > [!NOTE] 
 > Proceso šablonai teikiami su išsamios įdarbinimo informacijos priedu. Daugiau informacijos ieškokite temoje [„Attract“ išsamios įdarbinimo informacijos priedo funkcijos](./attract-comprehensive-hiring.md).
@@ -53,9 +53,9 @@ Prašymo veikla būtina samdos proceso šablone. Norėdami siųsti el. laiškus 
 
 „PowerApps“ veikla suteikia galimybę įterpti „Microsoft PowerApps“ programą į samdos procesą. Programa gali būti būtina visiems pretendentams, tik vidiniams pretendentams, tik išoriniams pretendentams arba jokiems pretendentams. Jei programa pažymėta kaip būtina, ji turi būti atlikta prieš pereinant į kitą etapą. Kad programa būtų laikoma baigta, lauką **JobApplicationStatus** reikia nustatyti į **Baigta**. Šis laukas pateiktas objekte JobApplicationActivity, todėl prieš pereinant į kitą etapą programa „PowerApps“ turės atnaujinti šį lauką. Jei programa nėra pažymėta kaip būtina, veikla yra pasirinktinis veiksmas ir į kitą etapą galima pereiti net jei programa neatlikta.
 
-Norėdami įrašyti „PowerApps“ veiklą į samdos procesą, turite įvesti „PowerApps“ ID. Norėdami rasti „PowerApps“ ID, atidarykite [PowerApps](https://web.powerapps.com), pasirinkite **Programos**, ir tada pasirinkite **Informacija**.
+Norėdami įrašyti „PowerApps“ veiklą į samdos procesą, turite įvesti „PowerApps“ ID. Norėdami rasti „PowerApps“ ID, atidarykite [„PowerApps”](https://web.powerapps.com), pasirinkite **Programos**, ir tada pasirinkite **Informacija**.
 
-Pagal numatytuosius parametrus, „PowerApps“ veikla pasiekiama samdos vadovui, įdarbintuojui ir jų atstovams. Pasirinkus parinktį **Leisti įtraukti dalyvių į šią veiklą**, į programą, kuri naudoja „PowerApps“ veiklą, galima įtraukti papildomų samdos komandos dalyvių. Pvz., organizacija sukūrė „PowerApps“ programą, kuri yra pokalbio klausimų, skirtų techniniams vaidmenims, biblioteka. Dabar organizacija samdo naują programinės įrangos kūrėją ir įtraukė „PowerApps“ veiklą į programinės įrangos kūrėjo vaidmens samdos procesą. Jei pasirinkta parinktis **Leisti įtraukti dalyvių į šią veiklą**, įdarbintojas arba samdos vadovas, kuris peržiūri pretendentą į programinės įrangos kūrėjo vaidmenį, gali įtraukti kalbintojų į „PowerApps“ veiklą. Tada šie žmonės gali peržiūrėti programą, kurioje yra pokalbio klausimų.
+Pagal numatytuosius parametrus, „PowerApps“ veikla pasiekiama samdos vadovui, įdarbintojui ir jų atstovams. Pasirinkus parinktį **Leisti įtraukti dalyvių į šią veiklą**, į programą, kuri naudoja „PowerApps“ veiklą, galima įtraukti papildomų samdos komandos dalyvių. Pvz., organizacija sukūrė „PowerApps“ programą, kuri yra pokalbio klausimų, skirtų techniniams vaidmenims, biblioteka. Dabar organizacija samdo naują programinės įrangos kūrėją ir įtraukė „PowerApps“ veiklą į programinės įrangos kūrėjo vaidmens samdos procesą. Jei pasirinkta parinktis **Leisti įtraukti dalyvių į šią veiklą**, įdarbintojas arba samdos vadovas, kuris peržiūri pretendentą į programinės įrangos kūrėjo vaidmenį, gali įtraukti kalbintojų į „PowerApps“ veiklą. Tada šie žmonės gali peržiūrėti programą, kurioje yra pokalbio klausimų.
 
 > [!NOTE]
 > „PowerApps“ veiklą galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu. Daugiau informacijos ieškokite temoje [„Attract“ išsamios įdarbinimo informacijos priedo funkcijos](./attract-comprehensive-hiring.md).

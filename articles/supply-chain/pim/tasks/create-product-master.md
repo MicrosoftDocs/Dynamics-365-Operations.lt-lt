@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21cfc2699fdcd6024286ee16bb60c3cd6dda5b67
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 0ea5c240063bf8f98f07f2149d67730b30e5c0e4
+ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844719"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "1924475"
 ---
 # <a name="create-a-product-master"></a>Kurti bendrąjį produktą
 
@@ -31,39 +31,33 @@ Sukurkite iš anksto nustatytų variantų bendrąjį produktą. Kuriant šią pr
 
 
 ## <a name="create-a-new-product-master"></a>Naujo bendrojo produkto kūrimas
-1. Pasirinkite Produkto informacijos valdymas > Produktai > Bendrieji produktai.
-2. Spustelėkite Naujas.
-3. Lauke „Produkto numeris“ įveskite reikšmę.
-    * Numeris turi būti unikalus. Lauke „Produkto numeris“ galima nustatyti numerių seką. Tokiu atveju vartotojui nereikia įvesti reikšmės.  
-4. Lauke Produkto pavadinimas įveskite reikšmę.
-    * Įveskite aprašomąjį produkto pavadinimą. Numatytoji reikšmė yra paieškos pavadinimas, tačiau vartotojas ją gali pakeisti.  
-5. Lauke „Produkto dimensijos grupė“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Produkto dimensijų grupė nulemia, kurią iš 4 produkto dimensijų galima naudoti kuriant produkto variantus. Šiame pavyzdyje nurodyta grupė su spalva ir dydžiu.  
+1. Eikite į **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Produktai > Bendrieji produktai**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Produkto numeris** įveskite reikšmę. Numeris turi būti unikalus. Lauke **Produkto numeris** galima nustatyti numerių seką. Tokiu atveju vartotojui nereikia įvesti reikšmės.
+4. Lauke **Produkto pavadinimas** įveskite vertę. Įveskite aprašomąjį produkto pavadinimą. Numatytoji reikšmė yra paieškos pavadinimas, tačiau vartotojas ją gali pakeisti.
+5. Lauke **Produkto dimensijos grupė** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Produkto dimensijų grupė nulemia, kurią iš 4 produkto dimensijų galima naudoti kuriant produkto variantus. Šiame pavyzdyje nurodyta grupė su spalva ir dydžiu.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-    * Numatytoji konfigūracijos technologija yra iš anksto nustatytas variantas. Jis bus naudojamas šiame pavyzdyje.  
-8. Spustelėkite GERAI.
+7. Sąraše spustelėkite saitą pasirinktoje eilutėje. Numatytoji **konfigūracijos technologija** yra iš anksto nustatytas variantas. Jis bus naudojamas šiame pavyzdyje.
+8. Spustelėkite **Gerai**.
 
 ## <a name="select-product-dimension-groups"></a>Pasirinkti produkto dimensijų grupes
-1. Lauke „Spalvų grupė“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+1. Lauke **Spalvų grupė** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-4. Lauke „Dydžių grupė“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+4. Lauke **Dydžių grupė** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 5. Sąraše raskite ir pasirinkite norimą įrašą.
 6. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 
 ## <a name="add-dimension-groups"></a>Dimensijų grupių įtraukimas
-1. Veiksmų srityje spustelėkite „Produktas“.
-2. Spustelėdami „Dimensijų grupės“ atidarykite išplečiamąjį dialogo langą.
-3. Lauke Saugojimo dimensijų grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Sandėliavimo dimensijos padeda kontroliuoti, kaip prekės saugomos ir paimamos iš atsargų. Pavyzdžiui, saugojimo dimensija gali būti Teritorija ir Sandėlis.  
+1. Dalyje **Veiksmų sritis** spustelėkite **Produktas**.
+2. Spustelėdami **Dimensijų grupės** atidarykite išplečiamąjį dialogo langą.
+3. Lauke **Saugojimo dimensijų grupė** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Sandėliavimo dimensijos padeda kontroliuoti, kaip prekės saugomos ir paimamos iš atsargų. Pavyzdžiui, saugojimo dimensija gali būti Teritorija ir Sandėlis.
 4. Sąraše raskite ir pasirinkite norimą įrašą.
 5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Lauke Sekimo dimensijų grupė spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Sekimo dimensijų grupė nustato, kurias sekimo dimensijas galite pridėti prie produkto. Pvz., paketo numeris ir serijos numeris yra naudojami atsargų prekėms sekti.  
+6. Lauke **Sekimo dimensijų grupė** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Sekimo dimensijų grupė nustato, kurias sekimo dimensijas galite pridėti prie produkto. Pvz., paketo numeris ir serijos numeris yra naudojami atsargų prekėms sekti.
 7. Sąraše raskite ir pasirinkite norimą įrašą.
 8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Spustelėkite Gerai.
-10. Spustelėkite Įrašyti.
+9. Spustelėkite **Gerai**.
+10. Spustelėkite **Įrašyti**.
 11. Uždarykite puslapį.
 

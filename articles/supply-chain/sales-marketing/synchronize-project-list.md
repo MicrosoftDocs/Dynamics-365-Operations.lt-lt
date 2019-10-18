@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ projektus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
+title: Tiekimo grandinės valdymo projektų sąrašo sinchronizavimas su „Field Service“
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ projektus sinchronizuojant su „Dynamics 365 Field Service“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2019
@@ -19,51 +19,51 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 535094821ca7efa33bf40f2057fac8ffc17bb822
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: b74a7f0445b3bdad671da4c61e561bc0d9d80cd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843558"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251597"
 ---
-# <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>„Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
+# <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Tiekimo grandinės valdymo projektų sąrašo sinchronizavimas su „Field Service“
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Finance and Operations“ projektus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Supply Chain Management“ projektus sinchronizuojant su „Dynamics 365 Field Service“.
 
-[![„Finance and Operations“ ir „Field Service“ verslo procesų sinchronizavimas](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Tiekimo grandinės valdymo ir „Field Service“ verslo procesų sinchronizavimas](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
-Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant „Microsoft Dynamics 365 for Finance and Operations“ projektus su „Microsoft Dynamics 365 for Field Service“.
+Toliau nurodytas šablonas ir pagrindinės užduotys naudojami sinchronizuojant Tiekimo grandinės valdymo projektus su „Field Service“.
 
 **Šablonas naudojant funkcija Duomenų integravimas**
-- Projektai („Finance and Operations“ su „Field Service“)
+- Projektai (iš Tiekimo grandinės valdymo į „Field Service“)
 
 **Užduotis projekte Duomenų integravimas**
 - Projektai
 
 Prieš sinchronizuojant projektų sąrašą būtina atlikti toliau nurodytas sinchronizavimo užduotis.
-- Sąskaitos (iš „Sales“ į „Finance and Operations“) 
+- Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą) 
 
 ## <a name="entity-set"></a>Objektų rinkinys
-| Field Service           | „Finance and Operations”  |
+| „Field Service“           | Tiekimo grandinės valdymas  |
 |-------------------------|-------------------------|
 |msdynce_externalprojects | Projektai                |
 
 ## <a name="entity-flow"></a>Objekto srautas
-„Finance and Operations“ sukurti projektai. Projektai, kurių **Projekto tipas** – **Laikas ir medžiagos**, o **Projekto etapas** – **Vykdoma**, sinchronizuojami su „Field Service“ objektu **Išorinis projektas**, įskaitant projekto numerį, projekto pavadinimą, projekto etapą ir kliento sąskaitos informaciją. Sąrašas **Išorinis projektas** naudojamas „Field Service“ darbo užsakymams su „Finance and Operations“ projektais susieti.
+Projektai sukuriami Tiekimo grandinės valdyme. Projektai, kurių **Projekto tipas** – **Laikas ir medžiagos**, o **Projekto etapas** – **Vykdoma**, sinchronizuojami su „Field Service“ objektu **Išorinis projektas**, įskaitant projekto numerį, projekto pavadinimą, projekto etapą ir kliento sąskaitos informaciją. Sąrašas **Išorinis projektas** naudojamas „Field Service“ darbo užsakymams su Tiekimo grandinės valdymo projektais susieti.
 
 ## <a name="field-service-crm-solution"></a>„Field Service“ CRM sprendimas
-**Išorinis projektas** yra objektas, gaunantis visus „Finance and Operations“ projektus. Laukas **Išorinis projektas** įtrauktas į objektą **darbo užsakymo**. Šis laukas yra peržvalga, o žymint darbo užsakymą su projektu Pardavimo užsakymas, prijungiama prie „Finance and Operations“ projekto. Kai **sistemos būsena** **Atidarytas – vykdomas (690,970,000)** keičiama į aukštesnę būseną, laukas **Išorinis projektas** užrakinamas, todėl negalėsite įtraukti, pašalinti ar pakeisti vertės.
+**Išorinis projektas** yra objektas, gaunantis visus Tiekimo grandinės valdymo projektus. Laukas **Išorinis projektas** įtrauktas į objektą **darbo užsakymo**. Tai peržvalgos laukas, todėl siejant darbo užsakymą su projektu, pardavimo užsakymas sujungiamas su Tiekimo grandinės valdymo projektu. Kai **sistemos būsena** **Atidarytas – vykdomas (690,970,000)** keičiama į aukštesnę būseną, laukas **Išorinis projektas** užrakinamas, todėl negalėsite įtraukti, pašalinti ar pakeisti vertės.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Būtinosios sąlygos ir susiejimo sąranka
-### <a name="finance-and-operations"></a>„Finance and Operations”
+### <a name="supply-chain-management"></a>Tiekimo grandinės valdymas
 Įgalinti duomenų objekto projektų keitimų sekimą.
 
 ## <a name="template-mapping-in-data-integration"></a>Šablono susiejimas naudojant funkcija Duomenų integravimas
 
 
-### <a name="projects-fin-and-ops-to-field-service-projects"></a>Projektai („Finance and Operations“ su „Field Service“): projektai
+### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projektai (iš Tiekimo grandinės valdymo į „Field Service“): projektai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProject1.png)](./media/FSProject1.png)

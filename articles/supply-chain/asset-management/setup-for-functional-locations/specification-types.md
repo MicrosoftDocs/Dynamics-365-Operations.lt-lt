@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b3247f693f5934b3fbf83b7b831c7ed221514cb
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 067d1085d9afa04cb76b78393a8a8b9834ce4d8c
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783454"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250949"
 ---
 # <a name="maintenance-attribute-types"></a>Prižiūrėti atributų tipus
 
@@ -42,24 +42,24 @@ Atributai, kuriuos galite nustatyti, kinta priklausomai nuo elemento. Pavyzdžiu
 
 ## <a name="create-attribute-types"></a>Atributų tipų kūrimas
 
-Galite sukurti savo atributų tipus. Be to, galite perkelti produkto dimensijas iš Microsoft Dynamics 365 for Finance and Operations į puslapį **Attribute types**.
+Galite sukurti savo atributų tipus. Be to, galite perkelti produkto dimensijas į puslapį **Atributų tipai**.
 
-1. Pasirinkite **Asset management** \> **Setup** \> **Attribute types**.
-2. Kai atributus nustatote pirmą kartą, pasirinkite **Create product dimensions**, kad automatiškai perkeltumėte standartines „Finance and Operations“ produkto dimensijas.
-3. Pasirinkite **New**, kad sukurtumėte naują atributo tipą.
-4. Lauke **Attribute type** įveskite atributo tipo pavadinimą.
-5. Lauke **Description** įveskite aprašą.
+1. Pasirinkite **Turto valdymas** \> **Sąranka** \> **Atributų tipai**.
+2. Kai atributų tipus nustatote pirmą kartą, pasirinkite **Kurti produkto dimensijas**, kad automatiškai perkeltumėte standartines produkto dimensijas.
+3. Pasirinkite **Naujas**, kad sukurtumėte naują atributo tipą.
+4. Lauke **Atributo tipas** įveskite atributo tipo pavadinimą.
+5. Lauke **Aprašas** įveskite aprašą.
 6. Lauke **Vienetas** pasirinkite atitinkamą atributo vienetą, kaip reikalaujama.
-7. Lauke **Data type**pasirinkite paketo tipą
-8. Jei duomenų tipu pasirinkote **String**, atlikite šiuos veiksmus, kad šiam atributo tipui sukurtumėte reikšmes:
+7. Lauke **Duomenų tipas** pasirinkite vieneto tipą.
+8. Jei duomenų tipu pasirinkote **Eilutė**, atlikite šiuos veiksmus, kad šiam atributo tipui sukurtumėte reikšmes:
 
-    1. Pasirinkite atributo tipą ir pasirinkite **reikšmės**.
+    1. Pasirinkite atributo tipą ir pasirinkite **Reikšmės**.
     2. Lauke **Atributo kodas** pasirinkite **Visi**.
     3. Lauke **Atributo tipas** pasirinkite atributo tipą.
-    4. Lauke **Value** įveskite arba pasirinkite reikšmę.
-    5. Lauke **Description** įveskite aprašą.
+    4. Lauke **Reikšmė** įveskite arba pasirinkite reikšmę.
+    5. Lauke **Aprašymas** įveskite aprašą.
     6. Įrašykite įrašą.
-    7. Grįžkite į puslapį **Attribute types**.
+    7. Grįžkite į puslapį **Atributų tipai**.
 
 9. Įrašykite įrašą.
 

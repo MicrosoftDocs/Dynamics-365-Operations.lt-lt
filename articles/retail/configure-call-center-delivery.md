@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
-description: Šioje temoje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir su juo susijusius mokesčius „Microsoft Dynamics 365 for Retail“.
+description: Šioje temoje aprašoma, kaip nustatyti skambučių centro užsakymo pristatymo būdus ir su juo susijusius mokesčius „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b67a1d91e41e1a4c21e0e877c06812dededbe731
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553604"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019490"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 
 [!INCLUDE [banner](includes/banner.md)]
 
-Kai „Microsoft Dynamics 365 for Retail“ pateikiamas pardavimo užsakymas, priklausomai nuo to, ar asmuo, kuris įvedė pardavimo užsakymą, yra susietas su skambučių centru, ar ne, pristatymo būdui patikrinti (pristatymo būdas) ir užsakymo mokesčiams apskaičiuoti gali būti naudojamas kanalas, logika ir taisyklės.
+Kai „Dynamics 365 Retail“ pateikiamas pardavimo užsakymas, priklausomai nuo to, ar asmuo, kuris įvedė pardavimo užsakymą, yra susietas su skambučių centru, ar ne, pristatymo būdui patikrinti (pristatymo būdas) ir užsakymo mokesčiams apskaičiuoti gali būti naudojamas kanalas, logika ir taisyklės.
 
 Kai kuriate pardavimo užsakymą, pristatymo būdą galite pasirinkti pardavimo užsakymo antraštėje ir pardavimo užsakymo eilutėse. Pagal numatytuosius parametrus, antraštėje pasirinktas pristatymo būdas naudojamas visoms pardavimo užsakymo eilutėms. Tačiau atskirų pardavimų eilutėse, jei reikia, numatytąjį pristatymo būdą galite perrašyti. Pristatymo būdą taip pat galite apibrėžti kliento įraše. Tada sukūrus kliento užsakymų, apibrėžtas pristatymo būdas pagal numatytuosius parametrus naudojamas pardavimo užsakymo eilutėje.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e6a2d428e433256339fff07f3805449a2604213
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 3336a3357578b25522e1ac457a48349f88b7318d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783453"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024573"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -33,7 +33,7 @@ ms.locfileid: "1783453"
 
 Turto valdymo srityje būtina nustatyti bendruosius parametrus, susijusius su turtu, darbo užsakymais ir darbo užsakymų planavimu. Šioje temoje aiškinama, kaip juos nustatyti. Pasirinkite **Turto valdymas** > **Sąranka** > **Turto valdymo parametrai**, kad atidarytumėte formą.
 
-Mygtukas **Kurti duomenų vedlį** gali būti naudojamas siekiant automatiškai kurti sąrankos duomenis tikrinimo ar demonstracinės versijos tikslais įmonėje naudojant Dynamics 365 for Finance and Operations. Informacijos, kaip naudoti vedlį, ieškokite techninėje dokumentacijoje „Tikrinimo duomenų nustatymas naudojant turto valdymą“.
+Mygtukas **Kurti duomenų vedlį** gali būti naudojamas siekiant automatiškai kurti sąrankos duomenis tikrinimo ar demonstracinės versijos tikslais įmonėje naudojant Dynamics 365 Supply Chain Management. Informacijos, kaip naudoti vedlį, ieškokite techninėje dokumentacijoje „Tikrinimo duomenų nustatymas naudojant turto valdymą“.
 
 **Turto** nuoroda
 
@@ -57,7 +57,7 @@ Mygtukas **Kurti duomenų vedlį** gali būti naudojamas siekiant automatiškai 
 - Perjungimo mygtuke **Kopijuoti gedimus** pasirinkite Taip, jei norite automatiškai nukopijuoti klaidas, užregistruotas darbo užsakymuose, į susijusias priežiūros užklausas.  
 - Lauke **Lygis** galite apibrėžti funkcinės vietos lygį, kuris automatiškai įterpiamas į darbo užsakymą, jei visos susijusios darbo užsakymo užduotys nurodo tą pačią funkcinę vieta. Jei darbo užsakymo užduotys ne visos susijusios su ta pačia funkcine vieta apibrėžtame lygyje, darbo užsakymo laukas **Funkcinė vieta** paliekamas tuščias. Pavyzdys: jei šiame lauke įterpiate skaičių „1“, jis nurodo aukščiausią funkcinės vietos struktūros lygį. Jei šiame lauke įterpiate skaičių „0“, vadinasi nesate apibrėžę konkretaus funkcinės vietos lygio, o tik tai, kad visos darbo užsakymo užduotys turi būti susietos su ta pačia funkcine vieta, kurioje ta funkcinė vieta turi būti pridėta prie darbo užsakymo.  
 - Žurnalai, naudojami registruojant suvartojimą darbo užsakyme, gali būti pasirinkti FastTab **Bendra** laukuose **Valanda**, **Prekė** ir **Išlaidos**.  
-- Lauke **Produkto kalbos šaltinis** pasirinkite, kuri kalba bus naudojama produktų pavadinimams turto valdymo ataskaitose. Galite pasirinkti įmonės paskyroje nustatytą kalbą arba šiuo metu nustatytą prisiregistravusio vartotojo kalbą Dynamics 365 for Finance and Operations.  
+- Lauke **Produkto kalbos šaltinis** pasirinkite, kuri kalba bus naudojama produktų pavadinimams turto valdymo ataskaitose. Galite pasirinkti įmonės paskyroje nustatytą kalbą arba šiuo metu nustatytą prisiregistravusio vartotojo kalbą.  
 - Perjungimo mygtuke **Naujinimas realiuoju laiku** pasirinkite „Taip“, jeigu norite automatiškai naujinti užduoties tipo numatytųjų nustatymų keitimus, priežiūros planus ir priežiūros ciklus.
 > - Jei pasirinksite „Ne“, užduoties tipo numatytųjų parametrų pakeitimai, priežiūros planai ir priežiūros ciklai nebus automatiškai atnaujinami turto valdyme  
 > - Perjungimo mygtuke pasirinkite „Ne“, jei yra didelis sinchronizuojamų duomenų kiekis, pvz., nustatoma daug turto ar funkcinių vietų priežiūros planuose ar priežiūros cikluose, arba yra didelis priežiūros planų ar ciklų skaičius.  
@@ -75,7 +75,7 @@ Mygtukas **Kurti duomenų vedlį** gali būti naudojamas siekiant automatiškai 
 - **Bendrasis planas** susijęs su ištekliais modulyje **Organizacijos administravimas**. Jei šiame lauke pasirinksite bendrąjį planą, galėsite peržiūrėti pajėgumo rezervavimus, susijusius su darbo užsakymais **Pajėgumų užsakymuose** (**Organizacijos administravimas** > **Ištekliai** > **Ištekliai** > pasirinkite išteklių > skirtukas **Išteklių** > mygtukas **Pajėgumų rezervavimai**). Jei šį lauką paliksite tuščią, galėsite peržiūrėti pajėgumą, susijusį su darbo užsakymais **Pajėgumų užsakymai** (**Organizacijos administravimas** \>**Ištekliai** \>**Ištekliai** \> pasirinkite išteklių \> skirtukas **Išteklių** mygtukas \> **Pajėgumas**).  
 
 >[!NOTE]
->Pasirinkimas, susijęs su bendrojo plano naudojimu modulyje **Turto valdymas** ir susijusi forma, naudojama siekiant gauti pajėgumų rezervavimo arba pajėgumo apžvalgą standartinėje Dynamics 365 for Finance and Operations sąrankoje. Atsižvelgiant į sąranką lauke **Pagrindinis planas**, galėsite pasiekti pajėgumo informaciją modulio **Organizacijos administravimas** dalyje **Pajėgumų rezervavimas** arba **Pajėgumas**. Negalima sukurti sąrankos, kurioje pajėgumų rezervavimai būtų rodomi abiejuose rodiniuose.  
+>Pasirinkimas, susijęs su bendrojo plano naudojimu modulyje **Turto valdymas** ir susijusi forma, naudojama siekiant gauti pajėgumų rezervavimo arba pajėgumo apžvalgą, yra standartinėje sąrankoje. Atsižvelgiant į sąranką lauke **Pagrindinis planas**, galėsite pasiekti pajėgumo informaciją modulio **Organizacijos administravimas** dalyje **Pajėgumų rezervavimas** arba **Pajėgumas**. Negalima sukurti sąrankos, kurioje pajėgumų rezervavimai būtų rodomi abiejuose rodiniuose.  
 
 Toliau pateiktame ženklelių sąraše aprašyti visis laukai, susiję su vertinimo rezultatais, kurie naudojami apskaičiuoti darbo užsakymo prioritetą planuojant darbo užsakymą.
 

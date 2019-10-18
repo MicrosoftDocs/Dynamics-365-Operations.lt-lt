@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bd55988578be2b0287b399549f17642bfb1693b
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: 24d75000e2c4b604e1acee94e9581291e156fa5d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783456"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017416"
 ---
 # <a name="assets-and-work-orders"></a>Turtas ir darbo užsakymai
 
@@ -31,7 +31,7 @@ ms.locfileid: "1783456"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Šioje temoje aprašomas turtas ir darbo užsakymai modulyje „Turto valdymas“. Turtas ir darbo užsakymai yra pagrindinės modulio „Turto valdymas“ dalys. *Asset* yra mašina arba mašinos dalis, kurią reikia nuolat prižiūrėti ir teikti aptarnavimo paslaugas. Turtas gali būti kuriamas taikant hierarchinę struktūrą ir gali būti siejamas su funkcinėmis vietomis. Priežiūros užduotys gali būti planuojamos visais lygiais turto struktūroje.
+Šioje temoje aprašomas turtas ir darbo užsakymai modulyje „Turto valdymas“. Turtas ir darbo užsakymai yra pagrindinės modulio „Turto valdymas“ dalys. *Turtas* yra mašina arba mašinos dalis, kurią reikia nuolat prižiūrėti ir teikti aptarnavimo paslaugas. Turtas gali būti kuriamas taikant hierarchinę struktūrą ir gali būti siejamas su funkcinėmis vietomis. Priežiūros užduotys gali būti planuojamos visais lygiais turto struktūroje.
 
 Konfigūruojami įvairūs kiekvieno turto duomenys, pvz., produkto informacija ir turto specifikacija, taip pat reikiami priežiūros planai. Toliau pateiktame paveikslėlyje rodoma turto duomenų ir turto priskyrimo užduočių tipams apžvalga. Raudonas tekstas naudojamas pavyzdžiams, rodantiems paveldėjimą ir priklausomybes, pateikti.
 
@@ -54,4 +54,4 @@ Kai norite planuoti ir vykdyti darbo užsakymo priežiūros užduotį, reikia at
 ![4 paveikslėlis](media/08-overview-image.png)
 
 > [!NOTE]
-> Kai dirbate programoje Microsoft Dynamics 365 for Finance and Operations ir modulyje **Asset Management**, norėdami sukurti naują įrašą, pasirenkate **New**, norėdami atnaujinti esamą įrašą, pasirenkate **Edit** ir norėdami įrašyti naujus ar redaguotus duomenis, pasirenkate **Save**.
+> Kai dirbate programoje Dynamics 365 Supply Chain Management ir modulyje **Turto valdymas**, norėdami sukurti naują įrašą, pasirenkate **Naujas**, norėdami atnaujinti esamą įrašą, pasirenkate **Redaguoti** ir norėdami įrašyti naujus ar redaguotus duomenis, pasirenkate **Saugoti**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a14801f3aa486da3af252695a3e2ccd58c0e9059
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 37378b85b90f91c74da717f0a25c1847ac0b1598
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865974"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251298"
 ---
 # <a name="sales-agreements-overview"></a>Pardavimo sutarčių apžvalga
 
@@ -99,14 +99,14 @@ Jei sukūrėte (paleidote) pardavimo užsakymą pagal pardavimo sutartį, kai ku
 | Kiekis                                                          | Jei nurodote kiekį, kuris viršija kiekį, nurodytą pardavimo sutarties eilutėje, kurioje pažymėtas žymės langelis **Maksimaliai vykdoma**, pranešimų langas paragins jus įrašyti pakeistą kiekį. Spustelėkite **Taip**, kad pašalintumėte saitą į pardavimo sutarties eilutę ir perskaičiuotumėte kainą. Spustelėkite **Ne**, kad pašalintumėte saitą į pardavimo sutarties eilutę neperskaičiavę kainos.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Prekės, užakytos iš pardavimo sutarties, grąžinimas
-Kai klientas grąžina produktą, kuris buvo užsakytas pagal pardavimo sutartį, „Microsoft Dynamics 365 for Finance and Operations“ gali rasti ir automatiškai atnaujinti susijusį pardavimo sutarties įsipareigojimą, kad jis atspindėtų kiekio arba sumos pokytį. Kurdami grąžinimo užsakymą pagal pradinį pardavimo užsakymą, kuris susietas su pardavimo sutartimi, sukuriate ryšį tarp pardavimo sutarties įsipareigojimo, pardavimo užsakymo eilutės ir grąžinimo užsakymo SF.  
+Kai klientas grąžina produktą, kuris buvo užsakytas pagal pardavimo sutartį, Tiekimo grandinės valdymas gali rasti ir automatiškai atnaujinti susijusį pardavimo sutarties įsipareigojimą, kad jis atspindėtų kiekio arba sumos pokytį. Kurdami grąžinimo užsakymą pagal pradinį pardavimo užsakymą, kuris susietas su pardavimo sutartimi, sukuriate ryšį tarp pardavimo sutarties įsipareigojimo, pardavimo užsakymo eilutės ir grąžinimo užsakymo SF.  
 
 Jei nenorite atimti grąžintos prekės kiekio iš pardavimo sutarties įsipareigojimo, galite naudoti valdiklį **Pašalinti saitą** puslapyje **Grąžinimo užsakymas** ir pašalinti saitą tarp grąžinimo užsakymo ir pardavimo sutarties įsipareigojimo. Jei vėliau prireiktų atkurti saitą, spustelėkite **Kurti saitą**.  
 
 **Pastaba.** Grąžinimo užsakymas gali būti susietas tik su viena pardavimo sutartimi. jei klientas grąžina keletą produktų, kurie buvo užsakyti pagal keletą pardavimo sutarčių, turite sukurti naują kiekvieno produkto grąžinimo užsakymą ir sukurti saitą su atitinkama pardavimo sutartimi.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Automatinė pardavimo sutarčių paieška
-Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai kuriate kredito pažymą arba vidinės įmonės pardavimo užsakymus, galite kontroliuoti, ar „Microsoft Dynamics 365 for Finance and Operations“ automatiškai ieškos taikytinų pardavimo sutarčių.
+Kai kuriais atvejais, kai pardavimo užsakymai kuriami netiesiogiai, pvz., kai kuriate kredito pažymą arba vidinės įmonės pardavimo užsakymus, galite kontroliuoti, ar sistema automatiškai ieškos taikytinų pardavimo sutarčių.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Pardavimo sutarčių pardavimo dimensijos
 Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskiras pardavimo sutarties eilutes. Sutarties antraštėje arba sutarties eilutėje dimensijas galite keisti bet kuriuo metu. Dimensijos tada automatiškai kopijuojamos į paleidimo užsakymų leidimo antraštę arba leidimo eilutę.

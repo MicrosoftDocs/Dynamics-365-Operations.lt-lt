@@ -1,6 +1,6 @@
 ---
-title: Analizės ataskaitų naudojimas „Microsoft Dynamics 365 for Talent - Attract”
-description: Šioje temoje aprašoma „Microsoft Dynamics 365 for Talent - Attract” samdos procesų įžvalgų analizės ataskaitos.
+title: Analizės ataskaitų naudojimas „Microsoft Dynamics 365 Talent - Attract”
+description: Šioje temoje aprašoma „Microsoft Dynamics 365 Talent - Attract” samdos procesų įžvalgų analizės ataskaitos.
 author: fewatson
 manager: AnnBe
 ms.date: 04/30/2019
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: fewatson
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent April 2019 update
-ms.openlocfilehash: f69c45e885d789d05a081064f30ccd6ce6bfec52
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: be62fe9a5021cfa83a465d316b182c0a154c0c50
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742894"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010019"
 ---
 # <a name="use-analytic-reports"></a>Analizės ataskaitų naudojimas
 
-Analitinės ataskaitos programoje „Attract“ suteikia nestandartinį (OOTB) sprendimą samdos proceso įžvalgoms. Galimos funkcijos:
+Analitinės ataskaitos programoje „Microsoft Dynamics 365 Talent: Attract“ suteikia nestandartinį (OOTB) sprendimą samdos proceso įžvalgoms. Galimos funkcijos:
 
 - **Užduoties analizė**: spustelėkite skirtuką **Analizė**, kad pamatytumėte darbo pretendento darbo metriką.
 - **Analizės telkinys:** spustelėkite **Analizė** kairiojoje naršymo srityje, kad būtų galima atlikti suvestines užduotis.

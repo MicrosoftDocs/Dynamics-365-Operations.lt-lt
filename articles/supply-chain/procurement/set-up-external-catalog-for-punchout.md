@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39baa331120d765543c3cf662ce53d2bcfe404ab
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: e9b6c3cb5b6bbc83604bee11a2472b2ad1136269
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595616"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249397"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
@@ -37,12 +37,12 @@ Kad būtų galima ryšį nustatyti, jūsų tiekėjas turi pateikti informacijos,
 
 ## <a name="setting-up-an-external-catalog"></a>Išorinio katalogo nustatymas
 
-Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreipti į išorinę svetainę, kurioje galima rinktis produktus. Produktai, kuriuos darbuotojas pasirenka iš išorinio katalogo, su naujausia kainų informacija grąžinami į „Dynamics 365 for Finance and Operations“ ir čia juos galima įtraukti į pirkimo paraišką. Norima, kad darbuotojai negalėtų pateikti užsakymo išorinėje svetainėje. Nustatydami išorinį katalogą turite užtikrinti, kad svetainėje, kurią gali pasiekti išorinis katalogas, būtų renkama pasiūlymų informacija, o ne pateikiamas tikras užsakymas.
+Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreipti į išorinę svetainę, kurioje galima rinktis produktus. Produktai, kuriuos darbuotojas pasirenka iš išorinio katalogo, pateikiami su naujausia kainų informacija ir dabar juos galima įtraukti į pirkimo paraišką. Norima, kad darbuotojai negalėtų pateikti užsakymo išorinėje svetainėje. Nustatydami išorinį katalogą turite užtikrinti, kad svetainėje, kurią gali pasiekti išorinis katalogas, būtų renkama pasiūlymų informacija, o ne pateikiamas tikras užsakymas.
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Norėdami nustatyti išorinį tiekėjo katalogą, atlikite tolesnes užduotis.
 
 1. Įsigijimo kategorijų hierarchijos nustatymas. Norėdami gauti daugiau informacijos, žr. [Įsigijimo kategorijų hierarchijų strategijų nustatymas](tasks/set-up-policies-procurement-category-hierarchies.md).
-2. Užregistruokite tiekėją sprendime „Finance and Operations‟. Kad galėtumėte nustatyti konfigūracijas, kurias naudodami pasieksite išorinį tiekėjo katalogą, tiekėją ir jo kontaktą turite nustatyti tarnyboje „Microsoft Dynamics 365“. Išorinio katalogo tiekėją taip pat reikia įtraukti į pasirinktą įsigijimo kategoriją. Norėdami gauti daugiau informacijos apie tiekėjų registravimą tarnyboje „Microsoft Dynamics 365“, žr. [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md). Norėdami gauti informacijos apie tai, kaip tiekėjus priskirti įsigijimo kategorijai, žr. [Tiekėjų tvirtinimas konkrečioms įsigijimo kategorijoms](tasks/approve-vendors-specific-procurement-categories.md).
+2. Užregistruokite tiekėją Tiekimo grandinės valdyme. Kad galėtumėte nustatyti konfigūracijas, kurias naudodami pasieksite išorinį tiekėjo katalogą, tiekėją ir jo kontaktą turite nustatyti tarnyboje „Microsoft Dynamics 365“. Išorinio katalogo tiekėją taip pat reikia įtraukti į pasirinktą įsigijimo kategoriją. Norėdami gauti daugiau informacijos apie tiekėjų registravimą, žr. [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md). Norėdami gauti informacijos apie tai, kaip tiekėjus priskirti įsigijimo kategorijai, žr. [Tiekėjų tvirtinimas konkrečioms įsigijimo kategorijoms](tasks/approve-vendors-specific-procurement-categories.md).
 3. Įsitikinkite, kad nustatyti tiekėjo naudojami matavimo vienetai ir valiuta. Norėdami gauti informacijos apie tai, kaip sukurti matavimo vienetą, žr. [Matavimo vienetų tvarkymas](../pim/tasks/manage-unit-measure.md).
 4. Naudodami tiekėjo išorinio katalogo svetainės reikalavimus sukonfigūruokite išorinį tiekėjo katalogą. Daugiau informacijos apie šią užduotį žr. [Tiekėjo išorinio katalogo konfigūravimas](#configure-the-external-vendor-catalog).
 5. Išbandykite tiekėjo išorinio katalogo konfigūracijas, kad patikrintumėte, ar parametrai yra tinkami, ir ar išorinį tiekėjo katalogą galite pasiekti. Naudodami veiksmą **Tikrinti parametrus** patikrinkite savo nustatytą užklausos sąrankos pranešimą. Dėl šio pranešimo išorinio tiekėjo katalogo svetainė turi būti atidaryta naršyklės lange. Tikrindami iš tiekėjo negalite užsakyti prekių ir paslaugų. Norėdami užsakyti prekes ir paslaugas, tiekėjo katalogą turite pasiekti iš pirkimo paraiškos.
@@ -90,9 +90,9 @@ Jūsų tiekėjas gali reikalauti neesminį elementą gauti sąrankos užklausoje
 Daugiau informacijos apie cXML protokolą rasite [cXML.org svetainėje](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Grįžtamojo registravimo pranešimas
-Grįžtamojo registravimo pranešimas – tai iš tiekėjo gaunamas pranešimas, kai vartotojas išsiregistruoja iš išorinės svetainės ir grįžta į „Finance and Operations“. Grįžtamojo registravimo pranešimų konfigūruoti negalima. Pranešimai paremti cXML protokolo apibrėžtimi.Čia pateikiama informacija, kuri gali būti siunčiama grįžtamojo registravimo pranešime, kuris gaunamas paraiškos eilutėje.
+Grįžtamojo registravimo pranešimas – tai iš tiekėjo gaunamas pranešimas, kai vartotojas išsiregistruoja iš išorinės svetainės ir grįžta į Tiekimo grandinės valdymą. Grįžtamojo registravimo pranešimų konfigūruoti negalima. Pranešimai paremti cXML protokolo apibrėžtimi.Čia pateikiama informacija, kuri gali būti siunčiama grįžtamojo registravimo pranešime, kuris gaunamas paraiškos eilutėje.
 
-| Iš tiekėjo gautas pranešimas | Nukopijuota į paraiškos eilutę sprendime „Finance and Operations‟|
+| Iš tiekėjo gautas pranešimas | Nukopijuota į paraiškos eilutę|
 |------------------------------|----------------------------------------------------------|
 |< ItemIn quantity=”” > |Kiekis|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|Išorinis prekės ID|

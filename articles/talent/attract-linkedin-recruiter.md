@@ -1,6 +1,6 @@
 ---
-title: Kandidatų ieška naudojant „LinkedIn Recruiter” programoje „Microsoft Dynamics 365 for Talent - Attract”
-description: Naudojant „LinkedIn Recruiter”, kandidatų ieškai naudokite „LinkedIn” integravimą, kurį teikia „Microsoft Dynamics 365 for Talent - Attract”.
+title: Kandidatų ieška naudojant „LinkedIn Recruiter” programoje „Microsoft Dynamics 365 Talent - Attract”
+description: Naudojant „LinkedIn Recruiter”, kandidatų ieškai naudokite „LinkedIn” integravimą, kurį teikia „Microsoft Dynamics 365 Talent - Attract”.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -19,17 +19,17 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 14aba16fa81a8f25d0f88247319254407d428b2a
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 366dc2be6e35098dba4b26a34bb75a84913549f5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739454"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008575"
 ---
 # <a name="source-candidates-with-linkedin-recruiter"></a>Kandidatų ieška naudojant „LinkedIn Recruiter“
 [!include[banner](../includes/banner.md)]
 
-„LinkedIn” yra didžiausias pasaulyje internetinis profesionalų tinklas, suteikiantis jums prieigą prie pasaulio talentingiausiųjų. „Microsoft Dynamics 365 for Talent: Attract” leidžia vykdyti kandidatų iešką tiesiai iš „LinkedIn”. Todėl dabar yra lengviau nei bet kada anksčiau rasti talentus, kuriais užpildysite savo laisvas darbo vietas. Kai nustatysite ryšį su „LinkedIn” per programą „Attract”, galėsite peržiūrėti potencialius „LinkedIn” kandidatus savo darbo vietoms ir eksportuoti juos į „Attract” tik vienu paspaudimu.
+„LinkedIn” yra didžiausias pasaulyje internetinis profesionalų tinklas, suteikiantis jums prieigą prie pasaulio talentingiausiųjų. „Microsoft Dynamics 365 Talent: Attract” leidžia vykdyti kandidatų iešką tiesiai iš „LinkedIn”. Todėl dabar yra lengviau nei bet kada anksčiau rasti talentus, kuriais užpildysite savo laisvas darbo vietas. Kai nustatysite ryšį su „LinkedIn” per programą „Attract”, galėsite peržiūrėti potencialius „LinkedIn” kandidatus savo darbo vietoms ir eksportuoti juos į „Attract” tik vienu paspaudimu.
 
 Jei neturite šios galimybės, kreipkitės į savo administratorių. Kad galėtumėte pasinaudoti „LinkedIn Recruiter” iš „Attract”, jūsų administratorius turi [nustatyti integravimą su „LinkedIn”](./attract-admin-linkedin.md). Tada galite nustatyti ryšį su „LinkedIn Recruiter” ir pradėti ieškoti kandidatų.
 
