@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. birželio mėn. 25 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 25 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7c474b0ba40db238db33cfa45ddde55cd0724a9b
-ms.sourcegitcommit: f5556189a80ad9f23f1af3333837eae034ddb247
+ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "1791981"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010296"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-02-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. liepos mėn. 2 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 02 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -52,8 +52,8 @@ Patvirtinimai rodomi ataskaitų srities skyriuje **Patvirtinimai**. Tvirtintojai
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Core HR“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Core HR“.

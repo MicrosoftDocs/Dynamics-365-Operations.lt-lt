@@ -1,7 +1,7 @@
 ---
 title: Prekiaujančių subjektų rūšiavimo tvarkos keitimas
-description: Šioje temoje paaiškinama koncepcija, kuri yra susijusi su įvairių su prekyba susijusių subjektų rodymo tvarkos valdymu Microsoft Dynamics 365 for Retail.
-author: ashishharchwani
+description: Šioje temoje paaiškinama koncepcija, kuri yra susijusi su įvairių su prekyba susijusių subjektų rodymo tvarkos valdymu Dynamics 365 Retail.
+author: josaw1
 manager: AnnBe
 ms.date: 08/05/2019
 ms.topic: article
@@ -18,16 +18,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2be3c1198ac6fff851be1bead2f0995202f1f0e7
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c159ff869d6c504fdebbef1fa68115a410c81d85
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1866166"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019421"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Prekiaujančių subjektų rūšiavimo tvarkos keitimas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Mažmenininkai produkto atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose mažmeninės prekybos kanaluose. Įvairios funkcijos gali padėti klientams lengviau atrasti produktus. Pavyzdžiui, jie gali naršyti po kategorijas, ieškoti ir filtruoti.
@@ -38,7 +38,7 @@ Mažmenininkai produkto atradimą laiko pirminiu įrankiu, skirtu bendrauti su k
 
 Patobulinta įvairių su prekybą susijusių subjektų rūšiavimo pagalba. Ši pagalba dabar geriau suderinta su esamais klientų scenarijais, kuriems seniau reikėjo plėtinių iš diegimo partnerių.
 
-Senesnėse nei 10.0.5 Microsoft Dynamics 365 for Retail versijose kategorijų rūšiavimas naršymo hierarchijoje buvo alfabetinis. Naujos pasirinktinės rūšiavimo tvarkos funkcijos leidžia prekybos vadybininkams konfigūruoti įvairių su prekyba susijusių subjektų tvarką visuose galutiniuose klientuose. Šiuos klientus sudaro centrinės būstinės (HQ) ir skambučių centrai.
+Senesnėse nei 10.0.5 „Retail” versijose kategorijų rūšiavimas naršymo hierarchijoje buvo alfabetinis. Naujos pasirinktinės rūšiavimo tvarkos funkcijos leidžia prekybos vadybininkams konfigūruoti įvairių su prekyba susijusių subjektų tvarką visuose galutiniuose klientuose. Šiuos klientus sudaro centrinės būstinės (HQ) ir skambučių centrai.
 
 ## <a name="configure-the-display-order-for-categories-in-the-retail-product-hierarchy"></a>Kategorijų mažmeninės prekybos produktų hierarchijoje rodymo tvarkos konfigūravimas
 

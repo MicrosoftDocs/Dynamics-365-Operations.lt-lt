@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. liepos mėn.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/31/2018
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: c0867fcf6203c303a700723d8c190378f495dac0
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: ba06183f32e9a788432bae640d1997f2ffb127f1
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856262"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010227"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. liepos mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-july-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR” (2018 m. liepos mėn.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent: Core HR“ funkcijos.
 
 ## <a name="powerapps-personalization"></a>„PowerApps“ personalizavimas
 
-„Microsoft Dynamics 365 for Talent“ palaiko integravimą su „Microsoft PowerApps“ paslauga. Naudodami „PowerApps“, kūrėjai ir įprasti vartotojai gali kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui, nerašydami kodo. Programas, kurias naudodami „PowerApps“ sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti „Talent“ klientą ir padidinti produkto funkcijų skaičių. Pavyzdžiui, galite sukurti programą, kad papildytumėte „Talent“ informacija, gauta iš kitos sistemos.
+„Talent“ palaiko integravimą su „Microsoft PowerApps“ paslauga. Naudodami „PowerApps“, kūrėjai ir įprasti vartotojai gali kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui, nerašydami kodo. Programas, kurias naudodami „PowerApps“ sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti į „Talent“ klientą ir padidinti produkto funkcijų skaičių. Pavyzdžiui, galite sukurti programą, kad papildytumėte „Talent“ informacija, gauta iš kitos sistemos.
 
 Daugiau informacijos žr. [„PowerApps“ programų įdėjimas](../fin-and-ops/get-started/embed-power-apps.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas
-description: Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 for Finance and Operations tiekėjus.
+description: Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 Supply Chain Management tiekėjus.
 author: mkirknel
 manager: AnnBe
 ms.date: 07/30/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1583a2eedc535f81b84e3094fee1574451f6f209
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867154"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018094"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 for Finance and Operations tiekėjus. Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos. Šioje procedūroje parodoma, kaip nurodyti, kad konkrečios įsigijimo kategorijos tiekėjas yra patvirtintas arba pageidaujamas. Šią užduotį paprastai atlieka pirkimų profesionalai. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
+Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 Supply Chain Management tiekėjus. Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos. Šioje procedūroje parodoma, kaip nurodyti, kad konkrečios įsigijimo kategorijos tiekėjas yra patvirtintas arba pageidaujamas. Šią užduotį paprastai atlieka pirkimų profesionalai. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
 
 1. Naršymo srityje eikite į **Moduliai > Įsigijimas ir išteklių paskirstymas > Tiekėjai > Visi tiekėjai**.
 2. Pasirinkite tiekėją, kurį norite nustatyti kaip patvirtintą arba pageidaujamą kategorijos tiekėją.

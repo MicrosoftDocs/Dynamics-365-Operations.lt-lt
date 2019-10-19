@@ -1,6 +1,6 @@
 ---
-title: Naujinti supažindinimo vadovus „Dynamics 365 for Talent - Onboard”
-description: Šioje temoje aiškinama, kaip naujinti supažindinimo vadovus ir kaip skelbti esamų vadovų keitimus programoje „Microsoft Dynamics 365 for Talent - Onboard”.
+title: Naujinti supažindinimo vadovus „Dynamics 365 Talent - Onboard”
+description: Šioje temoje aiškinama, kaip naujinti supažindinimo vadovus ir kaip skelbti esamų vadovų keitimus programoje „Microsoft Dynamics 365 Talent - Onboard”.
 author: andreabichsel
 manager: ''
 ms.date: 06/21/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d2be450685724510db2f0fd2af8545f8f40278e7
-ms.sourcegitcommit: 9f762fa89c5b432667aa156c22d679a7f601952d
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "1731574"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010734"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-for-talent-onboard"></a>Naujinti supažindinimo vadovus „Dynamics 365 for Talent: Onboard”
+# <a name="update-onboarding-guides"></a>Supažindinimo vadovų naujinimas
 
 [!include [banner](includes/banner.md)]
 
-Jei programoje „Microsoft Dynamics 365 for Talent: Onboard” turite atlikti supažindinimo vadovų keitimus, galite juos naujinti ir skelbti keitimus, net jei vadovus jau išsiuntėte. Jūs turite dvi parinktis, kaip naujinti supažindinimo vadovą.
+Jei programoje „Microsoft Dynamics 365 Talent: Onboard” turite atlikti supažindinimo vadovų keitimus, galite juos naujinti ir skelbti keitimus, net jei vadovus jau išsiuntėte. Jūs turite dvi parinktis, kaip naujinti supažindinimo vadovą.
 
 - Redaguokite supažindinimo vadovą tiesiogiai ir išsaugokite pakeitimus.
 - Redaguokite supažindinimo šabloną, tada paskelbkite keitimus visuose supažindinimo vadovuose, sukurtus pagal jį.

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. birželio mėn. 11 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 11 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/11/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a1413ea43e852c78ede227b69c0f49c07944a872
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: b06dc0556bd1461573cd56abed602d72333a3f39
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741627"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023935"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-11-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. birželio mėn. 11 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 11 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
 ### <a name="search-engine-optimization-for-job-posts"></a>Darbo skelbimų ieškos modulio optimizavimas
 
-Kai sprendime „Dynamics 365 for Talent“ įjungiate parinktį **Ieškos modulio optimizavimas**: „Attract“ administravimo centras ir programa „Attract“ informuoja „Google“ indeksavimo programos programavimo sąsają (API), kad aptiktų tinklalapį kaskart, kai suaktyvinate ir paskelbiate apie naują darbą arba atnaujinate esamą. Tokiu būdu darbas bus rodomas „Google“ ir kitų ieškos modulių ieškos rezultatuose.
+Kai „Dynamics 365 Talent: Attract“ administravimo centre įjungiate parinktį **Ieškos modulio optimizavimas**, programa „Attract“ informuoja „Google“ indeksavimo programos programavimo sąsają (API), kad aptiktų tinklalapį kaskart, kai suaktyvinate ir paskelbiate apie naują užduotį arba atnaujinate esamą. Tokiu būdu darbas bus rodomas „Google“ ir kitų ieškos modulių ieškos rezultatuose.
 
 Taip pat kaskart jums panaikinus darbo skelbimą, „Attract“ informuos indeksavimo API, kad panaikinto darbo skelbimo rodymas ieškos rezultatuose būtų sustabdytas.
 
@@ -50,15 +50,15 @@ Patvirtinimai rodomi ataskaitų srities skyriuje **Patvirtinimai**. Tvirtintojai
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Onboard“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2337 komponavimo versijai.
 
-### <a name="platform-update-27"></a>Platformos „update 27“
+### <a name="platform-update-27-for-finance-and-operations"></a>„Finance and Operations“ platformos 27 naujinimas
 
-Išsamesnės informacijos apie „Platform Update 27“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 27“ (2019 m. birželio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Daugiau informacijos apie „Finance and Operations“ platformos 27 naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 Finance and Operations“ platformos 27 naujinime (2019 m. birželio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>„Talent“ funkcijų valdymo darbo sritis
 
