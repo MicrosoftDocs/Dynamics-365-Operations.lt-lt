@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9efbd9651f6a2fa57e761238c6acfe6111e986e6
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 6cb53322b9bdaaa06c6040d8244b7e2ea05336ca
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874767"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249614"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai
 
@@ -225,7 +225,7 @@ Prižiūrimo turto kontrolinių sąrašų šablonus galima naudoti kaip dažnų 
 26. Norėdami nustatyti pasirinktos priežiūros užduoties tipo numatytosios eilutės priedus, pasirinkite **Pridėti dokumentus**. Priedai, nustatyti priežiūros užduoties tipo numatytojoje eilutėje, automatiškai įtraukiami į darbo užsakymo eilutes, kuriose naudojama minėta priežiūros užduoties tipo numatytoji eilutė.
 27. Pasirinkite **Naujas**, tada pasirinkite dokumento tipą.
 28. Nusiųskite dokumentą arba failą.
-29. Nustatykite laukus puslapyje **Priedai**. Nustatant priedus naudojama standartinė dokumentų sąrankos funkcija, esanti „Microsoft Dynamics 365 for Finance and Operations“.
+29. Nustatykite laukus puslapyje **Priedai**. Nustatant priedus naudojama standartinė dokumentų sąrankos funkcija.
 30. Pasirinkite **Įrašyti**, kad įrašytumėte priedą.
 
     > [!NOTE]
@@ -261,7 +261,7 @@ Sukūrę reikiamus priežiūros užduočių tipų numatytuosius derinius, puslap
 
 ## <a name="automatic-update-of-maintenance-job-type-forecasts"></a>Priežiūros užduočių tipų prognozių automatinis naujinimas
 
-Modulyje Turto valdymas galima automatiškai naujinti priežiūros užduočių tipų prognozių dėl valandos kainų, prekių kainų ir išlaidų informaciją, kuri buvo atnaujinta kituose „Finance and Operations“ moduliuose. Taip užtikrinsite, kad priežiūros užduočių tipų prognozėse visada naudojamos aktualiausios savikainos.
+Modulyje Turto valdymas galima automatiškai naujinti priežiūros užduočių tipų prognozių dėl valandos kainų, prekių kainų ir išlaidų informaciją, kuri buvo atnaujinta kituose moduliuose. Taip užtikrinsite, kad priežiūros užduočių tipų prognozėse visada naudojamos aktualiausios savikainos.
 
 1. Pasirinkite **Turto valdymas** \> **Periodinis** \> **Prognozė** \> **Naujinti priežiūros užduoties tipo prognozę**.
 2. Dialogo lango **Naujinti priežiūros užduoties tipo prognozę** FastTab **Įtrauktini įrašai** pagal poreikį galite pasirinkti konkrečių priežiūros užduočių tipų parametrus. Pasirinkite **Filtras**, tada pasirinkite **Pasirinkti**, kad pasirinktumėte parametrus.

@@ -1,6 +1,6 @@
 ---
-title: Darbo skelbimų registravimas išorinėse karjeros svetainėse iš „Attract“
-description: Šioje temoje paaiškinama, kaip naudoti „Dynamics 365 for Talent - Attract“ darbo skelbimams išorinėse įdarbinimo svetainėse registruoti
+title: Darbo skelbimų skelbimas išorinėse karjeros svetainėse naudojant „Attract“
+description: Šioje temoje paaiškinama, kaip naudoti „Dynamics 365 Talent“ – „Attract“ darbo skelbimams išorinėse įdarbinimo svetainėse registruoti
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 936ff85a4dabb715cb83b875a5c58c9fb7a0ac26
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 919cec773d5e57e8f5429e31872db7ed658e969b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739822"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008087"
 ---
 # <a name="post-jobs-to-broadbean"></a>Darbo skelbimų registravimas „Broadbean“
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Talent: Attract” padeda jums rasti reikiamą talentą, leisdami jums registruoti darbo skelbimus tiesiai iš „Attract” į „Broadbean”. [Sukūrus darbo skelbimą](./creating-jobs-attract.md), viskas, ką jums reikia padaryti, yra spustelėti mygtuką ir išsiųsti savo darbo skelbimą visiems potencialiems kandidatams „Broadbean”.
+„Microsoft“ „Dynamics 365 Talent: Attract” padeda rasti reikiamą talentą, leisdama registruoti darbo skelbimus tiesiai iš „Attract” į „Broadbean”. [Sukūrus darbo skelbimą](./creating-jobs-attract.md), viskas, ką jums reikia padaryti, yra spustelėti mygtuką ir išsiųsti savo darbo skelbimą visiems potencialiems kandidatams „Broadbean”.
 
 Darbo skelbimų registravimui „Broadbean” reikia atitinkamos „Broadbean” licencijos. „Broadbean” siūlo įvairius produktus ir planus. Norėdami gauti daugiau informacijos apie „Broadbean” licencijavimą ir kainodarą, [susisiekite su „Broadbean”](https://www.broadbean.com/contact-us/).
 

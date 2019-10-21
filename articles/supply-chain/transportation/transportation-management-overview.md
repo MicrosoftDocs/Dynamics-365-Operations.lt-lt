@@ -1,6 +1,6 @@
 ---
 title: Transportavimo valdymo peržiūra
-description: Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo funkcijos.
+description: Šioje temoje apžvelgiamos „ Finance and Operations“ transportavimo valdymo funkcijos.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d976ec4d3c294f0ce8e9732b21b9a429f1e47315
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561176"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2027066"
 ---
-# <a name="transportation-management-overview"></a>Transportavimo valdymo peržiūra
+# <a name="transportation-management-overview"></a>Transportavimo valdymo apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje apžvelgiamos „Microsoft Dynamics 365 for Finance and Operations“ transportavimo valdymo funkcijos.
+Šioje temoje apžvelgiamos „ Finance and Operations“ transportavimo valdymo funkcijos.
 
-Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės transportavimo operacijas bei leidžia identifikuoti gaunamų ir siunčiamų užsakymų tiekėjų ir maršruto planavimo sprendimus. Pavyzdžiui, galite identifikuoti greičiausią maršrutą arba mažiausią siuntos kainą. Toliau pateikiamoje lentelėje aprašomi pagrindiniai „Microsoft Dynamics 365 for Finance and Operations“ modulio Transportavimo valdymas naudojimo scenarijai.
+Modulis Transportavimo valdymas suteikia galimybę naudoti jūsų įmonės transportavimo operacijas bei leidžia identifikuoti gaunamų ir siunčiamų užsakymų tiekėjų ir maršruto planavimo sprendimus. Pavyzdžiui, galite identifikuoti greičiausią maršrutą arba mažiausią siuntos kainą. Toliau pateikiamoje lentelėje aprašomi pagrindiniai modulio Transportavimo valdymas naudojimo scenarijai.
 
 <table>
 <colgroup>

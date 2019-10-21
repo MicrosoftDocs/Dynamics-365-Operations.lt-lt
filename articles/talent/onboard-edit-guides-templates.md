@@ -1,6 +1,6 @@
 ---
-title: Supažindinimo vadovų ir šablonų redagavimas „Dynamics 365 for Talent - Onboard”
-description: Šioje temoje paaiškinama, kaip įtraukti veiklas ir kitą informaciją į supažindinimo vadovus ir šablonus „Microsoft Dynamics 365 for Talent - Onboard”.
+title: Supažindinimo vadovų ir šablonų redagavimas „Dynamics 365 Talent - Onboard”
+description: Šioje temoje paaiškinama, kaip įtraukti veiklas ir kitą informaciją į supažindinimo vadovus ir šablonus „Microsoft Dynamics 365 Talent - Onboard”.
 author: andreabichsel
 manager: ''
 ms.date: 06/19/2019
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68afc5d789d1f4af67cd2ec73eb0e073efad0761
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 7803c7cd2c58b8544d2c8dd711c295d6882f9fca
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864398"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010803"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-for-talent-onboard"></a>Supažindinimo vadovų ir šablonų redagavimas „Dynamics 365 for Talent: Onboard”
+# <a name="edit-onboarding-guides-and-templates"></a>Supažindinimo vadovų ir šablonų redagavimas
 
 [!include [banner](includes/banner.md)]
 
-Sukūrę supažindinimo vadovą arba šabloną „Microsoft Dynamics 365 for Talent: Onboard”, turite pridėti įžangą, veiklas, kontaktus ir išteklius. Naudodami „Onboard” į supažindinimo vadovus galite įtraukti toliau nurodytą raiškųjį turinį.
+Sukūrę supažindinimo vadovą arba šabloną „Microsoft Dynamics 365 Talent: Onboard“, turite pridėti įžangą, veiklas, kontaktus ir išteklius. Naudodami „Onboard” į supažindinimo vadovus galite įtraukti toliau nurodytą raiškųjį turinį.
 
 - YouTube vaizdo įrašai
 - „Microsoft Sway” pateiktys
@@ -124,7 +124,7 @@ Toliau nurodyti veiksmai, kuriuos turite atlikti norėdami paskelbti keitimus.
 
     - Norėdami įtraukti „YouTube” vaizdo įrašą, nuvilkite elementą **YouTube** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą bei „YouTube” vaizdo įrašo URL.
     - Norėdami pridėti „Sway” pateiktį arba informacinį biuletenį, nuvilkite elementą **Sway** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą bei įveskite „Sway” pateikties arba informacinio biuletenio įdėtąjį URL.
-    - Norėdami įtraukti „PowerApps” programėlę, nuvilkite elementą **PowerApps** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, tada pasirinkite „PowerApps” programėlę arba įveskite „PowerApps” programėlės ID.
+    - Norėdami įtraukti „PowerApps“ programėlę, nuvilkite elementą „**PowerApps**“ į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, tada pasirinkite „PowerApps“ programėlę arba įveskite „PowerApps“ programėlės ID.
     - Norėdami įtraukti „Microsoft Stream” vaizdo įrašą, nuvilkite elementą **Microsoft Stream** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą bei „Microsoft Stream” vaizdo įrašo URL.
     - Norėdami įtraukti „Microsoft Forms“ formą, nuvilkite elementą **Microsoft Forms** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, įveskite „Microsoft Forms“ formos URL ir nurodykite ekrano srities dydį.
     - Norėdami įtraukti „Iframe”, kuriame yra žiniatinklio turinio, nuvilkite elementą **Web Content (iframe)** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, įveskite žiniatinklio turinio URL ir nurodykite ekrano srities dydį.

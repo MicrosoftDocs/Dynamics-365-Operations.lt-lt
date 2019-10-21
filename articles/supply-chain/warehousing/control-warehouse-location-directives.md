@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558810"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026966"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus
 
@@ -31,7 +31,7 @@ ms.locfileid: "1558810"
 
 Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 
-Instrukcijos, kurias sandėlio darbuotojai gauna mobiliajame įrenginyje, yra nustatomos pagal darbo šablonus, nustatytus „Microsoft Dynamics 365 for Finance and Operations“ siekiant apibrėžti įvairius sandėlio procesus ir užduotis. Darbo šablonai nurodo, kaip darbas atliekamas kiekvieno sandėlio proceso metu. Vietos nurodymą susiedami su darbo šablonais galite užtikrinti, kad darbas bus vykdomas konkrečiose faktinėse sandėlių vietose.
+Instrukcijos, kurias sandėlio darbuotojai gauna mobiliajame įrenginyje, yra nustatomos pagal darbo šablonus, nustatytus „Dynamics 365 Supply Chain Management“ siekiant apibrėžti įvairius sandėlio procesus ir užduotis. Darbo šablonai nurodo, kaip darbas atliekamas kiekvieno sandėlio proceso metu. Vietos nurodymą susiedami su darbo šablonais galite užtikrinti, kad darbas bus vykdomas konkrečiose faktinėse sandėlių vietose.
 
 ## <a name="work-templates"></a>Darbo šablonai
 Puslapyje **Darbo šablonai** galima apibrėžti darbo operacijas, kurį reikia atlikti sandėlyje. Paprastai sandėlio darbo operacijas sudaro du veiksmai: sandėlio darbuotojas paima turimas atsargas vienoje vietoje ir tada padeda paimtas atsargas kitoje vietoje. 

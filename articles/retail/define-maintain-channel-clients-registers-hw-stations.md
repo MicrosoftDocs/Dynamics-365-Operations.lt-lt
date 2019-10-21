@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568050"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019398"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
 
@@ -94,7 +94,7 @@ Norint MPOS prijungti prie EKA išorinio įrenginio pagal tradicinio, fiksuoto P
 
 [![Bendrinami išoriniai įrenginiai](./media/shared-300x254.png)](./media/shared.png)
 
-Pagal šį scenarijų atskirą aparatūros stotį bendrai naudoja MPOS ir „Cloud POS“ klientai. Šiame scenarijuje reikia sukurti aparatūros stoties šabloną ir nurodyti aparatūros stoties naudojamus atsisiuntimo paketą, prievadą ir aparatūros šabloną. Aparatūros stoties šabloną galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros stočių šablonai**. Sukūrę aparatūros stoties šabloną, naršydami pasirinkite konkretų mažmeninės prekybos kanalą (**Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**) ir įtraukite naują aparatūros stotį. Susiekite šią naują aparatūros stotį su anksčiau sukurtu aparatūros stoties šablonu. Tada pateikite aprašymą, kuris kasininkui padės identifikuoti aparatūros stotį. Lauke **Pagrindinio kompiuterio vardas** įveskite pagrindinio kompiuterio mašinos URL šiuo formatu: `https://<MachineName:Port>/HardwareStation`. (**&lt;MachineName:Port&gt;** pakeiskite faktiniu aparatūros stoties ir prievado mašinos pavadinimu, nurodytu aparatūros stoties šablone.) Ši reikšmė identifikuoja EFT terminalą, kuris yra prijungtas prie aparatūros stoties, kai mokėjimo jungtis užmezga ryšį su mokėjimo paslaugų teikėju. Tada naršydami faktinę aparatūros stoties mašiną pasirinkite kanalą ir pasirinkite aparatūros stotį. Spustelėkite **Atsisiųsti** ir įdiekite aparatūros stotį. Tada MPOS arba „Cloud POS“ naudokite operaciją **Pasirinkti aparatūros stotį**, kad pasirinktumėte anksčiau įdiegtą aparatūros stotį. Pasirinkite **Susieti**, kad sukurtumėte saugų ryšį tarp EKA ir aparatūros stoties. Šį veiksmą reikia atlikti kuriant kiekvieno POS ir aparatūros stoties derinio ryšį. Susiejus aparatūros stotį, ta pačia operacija naudojama aparatūros stotis suaktyvinama. Šiame scenarijuje aparatūros šablonas turėtų būti priskirtas aparatūros stoties šablonui, o ne pačiam registrui. Jei dėl tam tikros priežasties aparatūros stotis neturi tiesiogiai priskirto aparatūros šablono, tada aparatūros šablonas priskiriamas naudojamam registrui
+Pagal šį scenarijų atskirą aparatūros stotį bendrai naudoja MPOS ir „Cloud POS“ klientai. Šiame scenarijuje reikia sukurti aparatūros stoties šabloną ir nurodyti aparatūros stoties naudojamus atsisiuntimo paketą, prievadą ir aparatūros šabloną. Aparatūros stoties šabloną galite rasti pasirinkdami **Mažmeninė prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonai** &gt; **Aparatūros stočių šablonai**. Sukūrę aparatūros stoties šabloną, naršydami pasirinkite konkretų mažmeninės prekybos kanalą (**Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**) ir įtraukite naują aparatūros stotį. Susiekite šią naują aparatūros stotį su anksčiau sukurtu aparatūros stoties šablonu. Tada pateikite aprašymą, kuris kasininkui padės identifikuoti aparatūros stotį. Lauke **Pagrindinio kompiuterio vardas** įveskite pagrindinio kompiuterio mašinos URL šiuo formatu: `https://<MachineName:Port>/HardwareStation`. (**&lt;MachineName:Port&gt;** pakeiskite faktiniu aparatūros stoties ir prievado mašinos pavadinimu, nurodytu aparatūros stoties šablone.) Ši reikšmė identifikuoja EFT terminalą, kuris yra prijungtas prie aparatūros stoties, kai mokėjimo jungtis užmezga ryšį su mokėjimo paslaugų teikėju. Tada naršydami faktinę aparatūros stoties mašiną pasirinkite kanalą ir pasirinkite aparatūros stotį. Spustelėkite **Atsisiųsti** ir įdiekite aparatūros stotį. Tada MPOS arba „Cloud POS“ naudokite operaciją **Pasirinkti aparatūros stotį**, kad pasirinktumėte anksčiau įdiegtą aparatūros stotį. Pasirinkite **Susieti**, kad sukurtumėte saugų ryšį tarp EKA ir aparatūros stoties. Šį veiksmą reikia atlikti kuriant kiekvieno POS ir aparatūros stoties derinio ryšį. Susiejus aparatūros stotį, ta pačia operacija naudojama aparatūros stotis suaktyvinama. Šiame scenarijuje aparatūros šablonas turėtų būti priskirtas aparatūros stoties šablonui, o ne pačiam registrui. Jei dėl tam tikros priežasties aparatūros stotis neturi tiesiogiai priskirto aparatūros šablono, tada aparatūros šablonas priskiriamas naudojamam registrui.
 
 ## <a name="client-maintenance"></a>Kliento priežiūra
 

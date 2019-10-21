@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 58ff596314d348a465ba6ee23369f09e74d580eb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572701"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248884"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkimo užsakymų tvirtinimas
 
@@ -39,7 +39,7 @@ Sukūrus pirkimo užsakymą (PU), jį gali reikėti patvirtinti. Kai tiekėjas u
 ## <a name="approval-of-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
 PU, kuriuose nenaudojamas keitimų valdymas, būsena nustatoma kaip **Patvirtinta** iš karto juos sukūrus, o PU, kuriuose naudojamas keitimų valdymas,būsena nustatoma kaip **Juodraštis**, pirmą kartą juos sukūrus. PU, kuris buvo sukurtas patvirtinus suplanuotą užsakymą iš bendrojo planavimo, būsena visada nustatoma kaip **Patvirtinta**, nepriklausomai nuo keitimų valdymo parametrų. PU sukuria atsargų operacijas tik tada, kai jo būsena pasikeičia į **Patvirtinta**. Todėl nerodoma, kad tas atsargas galima rezervuoti arba žymėti, kol užsakymas nepatvirtintas.  
 
-PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai** nustatant parinktį **Aktyvinti pokyčių valdymą**. Suaktyvinus keitimų valdymą, užbaigtiems PU turi būti taikoma patvirtinimo darbo eiga. „Microsoft Dynamics 365 for Finance and Operations“ teikia eigos proceso rengyklę, kurioje galima nurodyti patvirtinimo proceso darbo eigą. Ši darbo eiga gali apimti automatinio patvirtinimo taisykles, taisykles, nurodančias, ką priskirti konkrečiam PU tvirtinti, ir taisyklės, skirtas darbo eigai, kuri laukia patvirtinimo ilgą laiką, perskirti. Galite suaktyvinti visų tiekėjų arba konkrečių tiekėjų keitimų valdymo procesą. Taip pat galite nustatyti procesą, kad jį būtų galima perrašyti atskiriems PU.  
+PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo parametrai** nustatant parinktį **Aktyvinti pokyčių valdymą**. Suaktyvinus keitimų valdymą, užbaigtiems PU turi būti taikoma patvirtinimo darbo eiga. Tiekimo grandinės valdyme teikiama eigos proceso rengyklė, kurioje galima nurodyti patvirtinimo proceso darbo eigą. Ši darbo eiga gali apimti automatinio patvirtinimo taisykles, taisykles, nurodančias, ką priskirti konkrečiam PU tvirtinti, ir taisyklės, skirtas darbo eigai, kuri laukia patvirtinimo ilgą laiką, perskirti. Galite suaktyvinti visų tiekėjų arba konkrečių tiekėjų keitimų valdymo procesą. Taip pat galite nustatyti procesą, kad jį būtų galima perrašyti atskiriems PU.  
 
 Įgalinus keitimų valdymą, naudojamos šešios PU patvirtinimo būsenos, nuo **Juodraštis** iki **Baigta**. Patvirtinus užsakymą, jį modifikuoti norintys vartotojai turi naudoti veiksmą **Reikalauti keitimo**.
 
@@ -55,7 +55,7 @@ PU keitimų valdymas įjungiamas puslapyje **Įsigijimo ir šaltinio pasirinkimo
 ## <a name="confirming-purchase-orders"></a>Pirkimo užsakymų patvirtinimas
 Gali reikėti atlikti papildomų veiksmų, norint patvirtinti PU, kurių patvirtinimo būseną yra **Patvirtinta**. Pavyzdžiui, jums gali tekti tiekėjui pateikti pirkimo užklausą apie kainas, nuolaidas arba pristatymo datas. Šiuo atveju galite nustatyti PU būseną kaip **Išorinė peržiūra**, naudodami veiksmą **Pirkimo užklausa**.  
 
-Tiekėjai, kuriems nustatyta galimybė naudoti tiekėjo portalą, portale gali užsakymus peržiūrėti ir patvirtinti arba atmesti. Šio peržiūros proceso metu PU būsena yra **Išorinė peržiūra**. Tiekėjų portalą galima sukonfigūruoti taip, kad, užsakymą patvirtinus tiekėjui, jis būtų automatiškai patvirtintas sprendime „Finance and Operations“. Arba jūs galite neautomatiniu būdu patvirtinti PU, kai tiekėjas jį patvirtina. Jei tiekėjas PU atmeta, apie atmetimą informuojama nurodant atmetimo priežastį ir keitimų pasiūlymus. Tokiu atveju PU būsena lieka **Išorinė peržiūra**.  
+Tiekėjai, kuriems nustatyta galimybė naudoti tiekėjo portalą, portale gali užsakymus peržiūrėti ir patvirtinti arba atmesti. Šio peržiūros proceso metu PU būsena yra **Išorinė peržiūra**. Tiekėjų portalą galima sukonfigūruoti taip, kad, užsakymą patvirtinus tiekėjui, jis būtų automatiškai patvirtintas Tiekimo grandinės valdyme. Arba jūs galite neautomatiniu būdu patvirtinti PU, kai tiekėjas jį patvirtina. Jei tiekėjas PU atmeta, apie atmetimą informuojama nurodant atmetimo priežastį ir keitimų pasiūlymus. Tokiu atveju PU būsena lieka **Išorinė peržiūra**.  
 
 Taip pat galima generuoti išankstinį užsakymo patvirtinimą, prieš apdorojant faktinį patvirtinimą. Naudojant šią parinktį sukuriama ataskaita, kurią galite bendrinti su tiekėju. Jokia žurnalo informacija nesukuriama.  
 

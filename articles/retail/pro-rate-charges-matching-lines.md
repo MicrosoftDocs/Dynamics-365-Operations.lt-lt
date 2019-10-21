@@ -19,29 +19,29 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 07eea8fd7af4da611b4bd0c9340923f8894fab2c
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d9f36da025528272b1a95456acf597dd5d923819
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1526020"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025177"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma funkcija, kurią naudojant antraštės lygio automatinės išlaidos grupuojamos ir proporcingai paskirstomos į mažmeninės prekybos pardavimo eilutes. Ši funkcija yra skirta operacijoms, kurios sukurtos elektroniniame kasos aparate (EKA) naudojant „Microsoft Dynamics 365 for Retail“ 10.0.1 versiją ir pardavimo operacijoms, kurios sukurtos skambučių centre naudojant „Microsoft Dynamics 365 for Retail“ 10.0.2 versiją.
+Šioje temoje aprašoma funkcija, kurią naudojant antraštės lygio automatinės išlaidos grupuojamos ir proporcingai paskirstomos į mažmeninės prekybos pardavimo eilutes. Ši funkcija yra skirta operacijoms, kurios sukurtos elektroniniame kasos aparate (EKA) naudojant „Retail“ 10.0.1 versiją ir pardavimo operacijoms, kurios sukurtos skambučių centre naudojant „Retail“ 10.0.2 versiją.
 
 Šią funkciją galima naudoti tik jei funkcija [Išplėstinės automatinės išlaidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) įjungta naudojant parinktį puslapyje **Mažmeninės prekybos parametrai**. Be to, patobulintą automatinių išlaidų skaičiavimo metodą galima taikyti tik mažmeninės prekybos pardavimo užsakymams, kurie sukurti mažmeninės prekybos kanaluose (EKA, skambučių centre ir „Dynamics e-Commerce“ platformoje).
 
 Ši nauja funkcija suteikia organizacijoms daugiau lankstumo skaičiuojant antraštės lygio automatines išlaidas ir taikant jas mažmeninės prekybos pardavimo operacijoms.
 
-Ankstesnėse nei 10.0.1 „Microsoft Dynamics 365 for Retail“ versijose antraštės lygio automatinės išlaidos, kurioms priskirtas konkretus pristatymo būdo ryšys, skaičiuojamos tik nustačius atitikimą su pardavimo užsakymo antraštėje nurodytu pristatymo būdu.
+Ankstesnėse nei 10.0.1 „Retail“ versijose antraštės lygio automatinės išlaidos, kurioms priskirtas konkretus pristatymo būdo ryšys, skaičiuojamos tik nustačius atitikimą su pardavimo užsakymo antraštėje nurodytu pristatymo būdu.
 
 Pavyzdžiui, antraštės lygio automatinės išlaidos nustatomos ir priskiriamos pristatymo būdui **99** ir pristatymo būdui **11**. Sukuriamas pardavimo užsakymas ir užsakymo antraštėje nustatomas pristatymo būdas **99**. Tačiau kai kurios pardavimo eilutės nustatomos taip, kad jos siunčiamos naudojant pristatymo būdą **11**. Šiuo atveju tik antraštės lygio išlaidos, susietos su pristatymo būdu **99**, yra apdorojamos ir taikomos pardavimo užsakymui.
 
-„Dynamics 365 for Retail“ antraštės lygio išlaidoms priskirta papildoma funkcija, kuri suteikia galimybę nustatyti [pakopinių išlaidų konfigūraciją](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), pagrįstą užsakymo verte. Pavyzdžiui, jei užsakymo vertė yra tarp 50,00 USD ir 200,00 USD, galbūt organizacija norės taikyti 5,00 USD transportavimo išlaidų mokestį. Tačiau, jei užsakymo vertė yra tarp 200,01 ir 500,00 USD, transportavimo mokestis gali būti 4,00 USD.
+„Retail“ antraštės lygio išlaidoms priskirta papildoma funkcija, kuri suteikia galimybę nustatyti [pakopinių išlaidų konfigūraciją](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery), pagrįstą užsakymo verte. Pavyzdžiui, jei užsakymo vertė yra tarp 50,00 USD ir 200,00 USD, galbūt organizacija norės taikyti 5,00 USD transportavimo išlaidų mokestį. Tačiau, jei užsakymo vertė yra tarp 200,01 ir 500,00 USD, transportavimo mokestis gali būti 4,00 USD.
 
 Kai kurios organizacijos nori pakopinių išlaidų skaičiavimo išmokų, pateiktų antraštės lygio išlaidose. Tačiau scenarijuose, kurie susiję su pristatymo būdais, jos taip pat nori įsitikinti, kad skaičiuojamos išlaidos yra pagrįstos kiekvienoje pardavimo eilutėje nurodyto pristatymo būdo atitikimu.
 

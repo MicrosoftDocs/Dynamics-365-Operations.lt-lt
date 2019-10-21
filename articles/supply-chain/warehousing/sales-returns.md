@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dfeb393698431b1bbb0eb5069cc0930dc122374
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1f5658de1da8a0b6c36d99e4bb9cf401c09ad0b
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559161"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249801"
 ---
 # <a name="sales-returns"></a>Pardavimo grąžinimai
 
@@ -31,7 +31,7 @@ ms.locfileid: "1559161"
 
 Šioje temoje pateikiama informacija apie grąžinimo užsakymų procesą. Ji apima informaciją apie klientų grąžinimus ir jų poveikį įkainojimui ir turimų atsargų kiekiui.
 
-Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Po to, kai gaunamas kliento prašymas, „Microsoft Dynamics 365 for Finance and Operations“ sukuriamas grąžinimo užsakymas.
+Klientai gali grąžinti prekes dėl įvairių priežasčių. Pvz., prekė gali turėti defektų arba gali neatitikti kliento lūkesčių. Grąžinimo užsakymo procesas prasideda, kai klientas pakeikia prašymą gražinti prekę. Gavus kliento prašymą, sukuriamas grąžinimo užsakymas.
 
 ## <a name="return-order-process"></a>Grąžinimo užsakymo procesas
 Toliau esančiame paveikslėlyje pateikiama grąžinimo užsakymo proceso apžvalga.  
@@ -281,7 +281,7 @@ Toliau pateikiamame pavyzdyje „CompBuy“ yra perkanti įmonė, o „CompSell�
 
 ![Paprasti vidinės įmonės grąžinimai](./media/SalesReturn07.png)
 
-Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje arba kliento grąžinimo užsakymas atkuriamas parduodančioje įmonėje. „Finance and Operations“ sukuria atitinkamą užsakymą kitoje įmonėje ir užtikrina, kad antraštė ir eilutės informacija tiekėjo grąžinimo užsakyme atspindėtų kliento grąžinimo užsakymo parametrus. Sukurtame grąžinimo užsakyme gali būti arba nebūti nuoroda (**Rasti pardavimo užsakymą**) į esamą kliento sąskaitą faktūrą. Šių dviejų užsakymų važtaraščius ir sąskaitas galima apdoroti atskirai. Pvz., nereikia generuoti tiekėjo grąžinimo užsakymo važtaraščio prieš generuojant kliento grąžinimo užsakymo važtaraštį.
+Užsakymo grandinę galima sukurti, kai tiekėjo grąžinimo užsakymas sukuriamas perkančioje įmonėje arba kliento grąžinimo užsakymas atkuriamas parduodančioje įmonėje. Atitinkamas užsakymas sukuriamas kitoje įmonėje ir užtikrinama, kad antraštė ir eilutės informacija tiekėjo grąžinimo užsakyme atspindėtų kliento grąžinimo užsakymo parametrus. Sukurtame grąžinimo užsakyme gali būti arba nebūti nuoroda (**Rasti pardavimo užsakymą**) į esamą kliento sąskaitą faktūrą. Šių dviejų užsakymų važtaraščius ir sąskaitas galima apdoroti atskirai. Pvz., nereikia generuoti tiekėjo grąžinimo užsakymo važtaraščio prieš generuojant kliento grąžinimo užsakymo važtaraštį.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Tiesioginio pristatymo siuntų grąžinimai tarp trijų šalių
 

@@ -1,6 +1,6 @@
 ---
 title: Kelių klientų užsakymų ir SF grąžinamos prekės
-description: Šioje temoje aprašomos funkcijos, kurios leidžia atlikti kelių klientų užsakymų ir SF „Microsoft Dynamics 365 for Retail“ grąžinimus.
+description: Šioje temoje aprašomos funkcijos, padedančios atlikti kelių klientų užsakymų ir SF grąžinimus „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 03/05/2019
@@ -18,19 +18,19 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 25a1081e5f903076e23089c41dda7437f8a70124
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565305"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017994"
 ---
 # <a name="return-items-across-multiple-customer-orders-and-invoices"></a>Kelių klientų užsakymų ir SF grąžinamos prekės
 
 [!include [banner](includes/banner.md)]
 
 
-„Dynamics 365 for Finance and Operations“ 10.0 versijoje galima atlikti kelių užsakymų ir SF grąžinimus, kai senesnėse nei 10.0 versijose vienu metu galima apdoroti tik vienos SF grąžinimus. 
+Gali būti atliekami kelių užsakymų ir SF grąžinimai. 
 
 ## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a>Konfigūruokite „Retail“, kad būtų palaikomi kelių kliento užsakymų ir SF grąžinimai
 

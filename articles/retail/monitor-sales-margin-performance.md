@@ -1,6 +1,6 @@
 ---
 title: Stebėti pardavimo ir maržos efektyvumą
-description: Nauodami „Microsoft Dynamics 365 for Retail“, galite realiu laiku stebėti pardavimo ir maržos našumą.
+description: Nauodami „Dynamics 365 Retail“, galite realiu laiku stebėti pardavimo ir maržos našumą.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 46ecefdd15a3a208588aaf630571764047464cdb
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555655"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018069"
 ---
 # <a name="monitor-sales-and-margin-performance"></a>Pardavimo ir maržos efektyvumo stebėjimas
 
 [!include [banner](includes/banner.md)]
 
-Nauodami „Microsoft Dynamics 365 for Retail“, galite realiu laiku stebėti pardavimo ir maržos našumą.
+Nauodami „Dynamics 365 Retail“, galite realiu laiku stebėti pardavimo ir maržos našumą.
 
-Viena iš „Dynamics 365 for Retail“ siūlomų funkcijų – vartotojai realiu laiku gali stebėti tolesnių dimensijų pardavimo ir maržos našumą skirtinguose organizacijos lygiuose.
+Viena iš „Retail“ siūlomų funkcijų – vartotojai realiu laiku gali stebėti tolesnių dimensijų pardavimo ir maržos našumą skirtinguose organizacijos lygiuose.
 
 - Produktai
 - Kategorijos

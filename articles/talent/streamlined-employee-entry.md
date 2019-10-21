@@ -1,6 +1,6 @@
 ---
 title: Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
-description: Buvo patobulintas darbuotojų duomenų įvedimas „Dynamics 365 for Talent”, kad visiems buvusiems, aktyviems ar būsimiems darbuotojams būtų užtikrintas kuo greitesnis įvedimas. Supaprastintas/konsoliduotas naršymo modelis buvo atnaujintas, siekiant greitai rasti susijusią informaciją ir peržiūrėti bei atlikti būtinus naujinimus.
+description: Buvo patobulintas darbuotojų duomenų įvedimas „Dynamics 365 Talent”, kad visiems buvusiems, aktyviems ar būsimiems darbuotojams būtų užtikrintas kuo greitesnis įvedimas. Supaprastintas/konsoliduotas naršymo modelis buvo atnaujintas, siekiant greitai rasti susijusią informaciją ir peržiūrėti bei atlikti būtinus naujinimus.
 author: andreabichsel
 manager: AnnBe
 ms.date: 08/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: be0253ffc4396f36050ef02c51a20d378e44473d
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918213"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009427"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 
 [!include [banner](includes/banner.md)]
 
-„Dynamics 365 for Talent” leidžia efektyviai įvesti darbuotojų ir įdarbinimo duomenis. Galite greitai atnaujinti buvusių, aktyvių ir būsimų darbuotojų bei rangovų darbo retrospektyvos informaciją.
+„Dynamics 365 Talent” leidžia efektyviai įvesti darbuotojų ir įdarbinimo duomenis. Galite greitai atnaujinti buvusių, aktyvių ir būsimų darbuotojų bei rangovų darbo retrospektyvos informaciją.
 
 Taip pat galite įgalinti supaprastintą naršymo patirtį, kad greitai rastumėte susijusią informaciją ir įvykdytumėte reikiamus pakeitimus. Ši funkcija dabar yra smėlio dėžės aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbuotojo forma ir naršymas**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 

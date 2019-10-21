@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 51f8102afc28b3836d5fee13aa1e950351af3c4f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518637"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008386"
 ---
 # <a name="formalize-business-processes"></a>Verslo procesų formalizavimas
 
@@ -43,7 +43,7 @@ Galite nustatyti kiekvieno verslo proceso savininką. Proceso savininkas mato vi
 Proceso savininkas negali kurti naujų verslo procesų ar verslo procesų šablonų ir panaikinti aktyvių verslo procesų ar verslo procesų šablonų.
 
 ## <a name="tasks"></a>Užduotys
-Verslo procesą dažnai sudaro kelios užduotys. Kai kurias užduotis, pvz., peržiūrėti vidinių kursų pasiūlymus, galima atlikti sprendime „Microsoft Dynamics 365 for Talent“[?]. Tokiu atveju lauke **Užduoties saitas** pasirenkama atitinkama parinktis. Atliekant kitas užduotis gali reikėti peržiūrėti arba užpildyti svetainės puslapius. Tokiu atveju lauke **Užduoties saitas** pasirenkama **URL** – tada galima įvesti žiniatinklio adresą. Galite įvesti tiek išorinių, tiek vidinių svetainių URL adresus. Taip pat galite kurti užduotis, skirtas neautomatiškai atliekamoms veikloms, pvz., visų struktūrų pasiekiamumo peržiūrai. Šiuo atveju užduoties saitas nereikalingas. Toks lankstumas suteikia galimybę sekti įvairių išsamaus proceso rūšių užduotis.
+Verslo procesą dažnai sudaro kelios užduotys. Kai kurias užduotis, pvz., peržiūrėti vidinių kursų pasiūlymus, galima atlikti „Microsoft Dynamics 365 Talent“. Tokiu atveju lauke **Užduoties saitas** pasirenkama atitinkama parinktis. Atliekant kitas užduotis gali reikėti peržiūrėti arba užpildyti svetainės puslapius. Tokiu atveju lauke **Užduoties saitas** pasirenkama **URL** – tada galima įvesti žiniatinklio adresą. Galite įvesti tiek išorinių, tiek vidinių svetainių URL adresus. Taip pat galite kurti užduotis, skirtas neautomatiškai atliekamoms veikloms, pvz., visų struktūrų pasiekiamumo peržiūrai. Šiuo atveju užduoties saitas nereikalingas. Toks lankstumas suteikia galimybę sekti įvairių išsamaus proceso rūšių užduotis.
 
 Užduotis galima priskirti konkrečiam darbuotojui arba pareigoms. Pavyzdžiui, draudimo premijas visada peržiūrės Kompensacijų ir išmokų vadovas. Todėl kurdami šią užduotį lauke **Priskyrimo tipas** pasirinkite **Pareigos**, o tada sąraše **Pareigos** pasirinkite **Kompensacijų ir išmokų vadovas**. Kai verslo procesas pradedamas, užduotis priskiriama darbuotojui, užimančiam pareigas **Kompensacijų ir išmokų vadovas**. Norėdami užduotį priskirti konkrečiam darbuotojui, lauke **Priskyrimo tipas** pasirinkite **Darbuotojas**, tada pasirinkite atitinkamą asmenį.
 

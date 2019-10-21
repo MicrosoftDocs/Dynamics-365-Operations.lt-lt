@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a9e05fd2a08921d2718fc239afd56a957f80915
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 7476cf797685feb4c50e3cefef4c53ca37b82dff
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865117"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251413"
 ---
 # <a name="warehouse-work-policies-overview"></a>Sandėlio darbo strategijų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Finance and Operations“ sandėlio darbo strategijos kontroliuoja, ar sandėlio darbą kuria gamybos sandėlio procesai, remdamiesi darbo užsakymo tipu, atsargų vieta ir produktu.
+Sandėlio darbo strategijos kontroliuoja, ar sandėlio darbą kuria gamybos sandėlio procesai, remdamiesi darbo užsakymo tipu, atsargų vieta ir produktu.
 
 Ši darbo strategija nustato, ar kuriamas gamybos sandėlio procesų sandėlio darbas. Galite nustatyti darbo strategiją naudodami **darbo užsakymų tipų**, **atsargų vietos** ir **produkto** derinį. Pavyzdžiui, produktas L0101 paskelbtas pagamintu išeigos vietoje 001. Vėliau pagaminta prekė panaudojama vykdant kitą gamybos užsakymą išeigos vietoje 001. Šiuo atveju galite nustatyti darbo strategiją, kurią taikant bei produktą L0101 paskelbus pagamintu išeigos vietoje 001 nebus sukuriamas pagamintų prekių sandėliavimo darbas. Darbo strategija yra atskiras objektas, kurį galima apibrėžti naudojant tolesnę informaciją.
 

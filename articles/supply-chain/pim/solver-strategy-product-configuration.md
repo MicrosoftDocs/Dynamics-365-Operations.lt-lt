@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4a548d3536bbc0056ee22c07c464af062029da81
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560306"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250581"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Sprendimo priemonės strategija produktams konfigūruoti
 
@@ -45,7 +45,7 @@ Sprendimo priemonės strategijos koncepciją dabar sudaro tolesnės strategijos.
 
 Produkto konfigūracijos modelį galima suformuluota kaip [apribojimų patenkinimo problemą (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Spręsti CSP problemoms „Microsoft Solver Foundation“ (MSF) teikia dviejų tipų sprendimo priemonės strategijas, kurias galima naudoti produktų konfigūracijos modeliuose. Šios sprendimo priemonės strategijos remiasi [euristika](https://techterms.com/definition/heuristic), kurią naudojant, nustatoma, kokia tvarka svarstomi CSP kintamieji sprendžiant problemą. Euristika gali pastebimai paveikti našumą, kai sprendžiama problema ar problemų klasė.
 
-Sprendime „Finance and Operations“ produktų konfigūracijos modelių sprendimo priemonės strategija nustato, kuri sprendimo priemonė naudojama su euristika. Strategijos **Numatytoji**, **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** naudoja dvi MSF sprendimo priemones, o strategija **Z3** naudoja sprendimo priemonę Z3. 
+Produktų konfigūracijos modelių sprendimo priemonės strategija nustato, kuri sprendimo priemonė naudojama su euristika. Strategijos **Numatytoji**, **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** naudoja dvi MSF sprendimo priemones, o strategija **Z3** naudoja sprendimo priemonę Z3. 
 
 Realaus klientų įgyvendinimo tyrimai parodė, kad, pakeitus produkto konfigūracijos modelio sprendimo priemonės strategiją, atsakymo laiką galima sumažinti nuo minučių iki milisekundžių. Todėl verta išbandyti skirtingas sprendimo priemonės strategijas, kad rastumėte našiausią strategiją jūsų produkto konfigūracijos modeliui.
 

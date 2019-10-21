@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27f574be865ca5f7474e11c7aae1a110f66298c8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 944d43279a6753b73b9dfe89429b2c9d6c80b5df
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865477"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250788"
 ---
 # <a name="inventory-management-overview"></a>Atsargų valdymo apžvalga
 
@@ -53,10 +53,8 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 ### <a name="inventory-accounting"></a>Atsargų apskaita 
 Norėdami sužinoti daugiau, žr. [Kaštų valdymo atsargų apskaita](../cost-management/inventory-close.md).
 
-### <a name="manufacturing-and-supply-chain-management-blogs"></a>Gamybos ir tiekimo grandinės valdymo tinklaraščiai
+### <a name="manufacturing-and-supply-chain-management-blogs"></a>Gamybos ir „Supply Chain Management“ tinklaraščiai
 Nuomonių, naujienų ir kitos informacijos apie atsargų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Supply Chain Management“ sprendimo „Dynamics AX“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką **Žinynas**.
-
-
+Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką **Žinynas**

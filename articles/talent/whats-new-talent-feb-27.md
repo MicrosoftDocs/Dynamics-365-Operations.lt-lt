@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. vasario 27 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. vasario 27 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/27/2019
@@ -18,26 +18,26 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: f175c6e60cf87c7dcbde0eaf35357130fa035712
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518638"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024004"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. vasario 27 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. vasario 27 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Attract“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Attract“.
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
@@ -77,9 +77,9 @@ Dabar pasirinktinius laukus galima įtraukti į darbuotojų pastoviosios atlygin
 
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo (HR) skyrius galės valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Saugos vaidmenys, kuriuos galima priskirti fiksuotam ir kintamam planams, nustatys prieigą prie tų planų ir darbuotojų duomenų, susijusių su jais, (pvz., pajamų informacija arba premijų įrašai). Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
-### <a name="platform-update-24"></a>Platformos „update 24“
+### <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations“ platformos 24 naujinimas
 
-Daugiau informacijos apie „Microsoft Dynamics 365 for Finance and Operations“ 24 platformos naujinimą (2019 m. kovo mėn.) žr. [„Finance and Operations“ 24 platformos naujinimo peržiūros funkcijos (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Daugiau informacijos apie „Microsoft Dynamics 365 Finance and Operations“ platformos 24 naujinimą (2019 m. kovo mėn.) žr. [Peržiūros funkcijos „Finance and Operations“ platformos 24 naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Būsimų pareigų priskyrimų darbuotojų pastoviosios atlyginimo dalies įjungimas
 
@@ -87,10 +87,10 @@ Darbuotojai įprastai prisijungia prie organizacijos nustatant pradžios datą a
 
 ## <a name="known-issues"></a>Žinomos problemos
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>„Core HR“ integravimo šablono pakeitimai („Talent Common Data Service“ ir „Finance and Operations“)
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance"></a>„Core HR“ integravimo šablono pakeitimai („Talent Common Data Service“ ir „Finance“)
 „Core HR“ šablonas buvo atnaujintas į „išplėstinės užklausos šabloną“. Todėl pagal numatytuosius parametrus išplėstinę užklausą bus galima naudoti projektuose, sukurtuose naudojant šį šabloną. Be to, visos numatytosios susiejimo funkcijos bus rodomos tik išplėstinės užklausos rengyklėje. (Numatytosios susiejimo funkcijos rodomos kaip FN susiejimai.)
 
-Daugiau informacijos apie susiejimo klaidas žr. [Kas nauja arba pakeista „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
+Daugiau informacijos apie susiejimo klaidas žr. [Kas nauja arba pakeista „Dynamics 365 Talent: Core HR“ (2018 m. gruodžio 14 d.)](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14).
 
 Norėdami naudoti naują šabloną, sukurkite naują projektą ir pasirinkite naują „Talent“ integravimo šabloną.
 

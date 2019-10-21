@@ -1,6 +1,6 @@
 ---
 title: „Attract“ išplečiamumas
-description: Šioje temoje aprašoma, kaip naudodami „Microsoft Power Platform“ galite išplėsti programą „Dynamics 365 for Talent - Attract“.
+description: Šioje temoje aprašoma, kaip naudodami „Microsoft Power Platform“ galite išplėsti „Microsoft Dynamics 365 Talent - Attract“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 03/18/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9360ac52bd53dc473ca61a424f3be933bcf357d1
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 5db954d8847c252bee1c8e50acae546852ae9b94
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795225"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026238"
 ---
 # <a name="extensibility-in-attract"></a>„Attract“ išplečiamumas
 
 [!include[banner](../includes/banner.md)]
 
-„Microsoft Dynamics 365 for Talent“ sukurta kaip „Common Data Service“ platformos papildas ir ją galima išplėsti naudojantis „Microsoft Power Platform“ ir „Common Data Service“ siūlomomis galimybėmis. Todėl galite konfigūruoti ir pritaikyti sistemą (naudodamiesi „Microsoft PowerApps“ ir „Microsoft Flow“). Taip pat naudodamiesi „Microsoft Power BI“ galite gauti papildomų analitinių duomenų apie žmones. Be to, naudojantis naujomis pasirinktinėmis veiklomis, pvz., „PowerApps“ ir interneto turinio („iframe“) veiklomis, samdos procesas gali būti daug lengviau pritaikomas nei bet kada. Naudodamiesi šiomis veiklomis samdos procesą galite pritaikyti pagal savo verslo poreikius ir procesus, taip pat galite būti tikri, kad samdos komanda ir kandidatai turi atitinkamos nuoseklios patirties.
+„Microsoft Dynamics 365 Talent“ sukurta kaip „Common Data Service“ papildas ir ją galima išplėsti naudojantis „Microsoft Power Platform“ ir „Common Data Service“ siūlomomis galimybėmis. Todėl galite konfigūruoti ir pritaikyti sistemą (naudodamiesi „Microsoft PowerApps“ ir „Microsoft Flow“). Taip pat naudodamiesi „Microsoft Power BI“ galite gauti papildomų analitinių duomenų apie žmones. Be to, naudojantis naujomis pasirinktinėmis veiklomis, pvz., „PowerApps“ ir interneto turinio („iframe“) veiklomis, samdos procesas gali būti daug lengviau pritaikomas nei bet kada. Naudodamiesi šiomis veiklomis samdos procesą galite pritaikyti pagal savo verslo poreikius ir procesus, taip pat galite būti tikri, kad samdos komanda ir kandidatai turi atitinkamos nuoseklios patirties.
 
 ## <a name="extending-option-sets-in-attract"></a>„Attract“ parinkčių rinkinių išplėtimas
 
@@ -54,13 +54,13 @@ Toliau nurodyti veiksmai, kuriuos atlikę galite nurodyti lauko **Atmetimo prie�
 12. Pasirinkite **Įrašyti**.
 13. Puslapio viršuje pasirinkite **Publikuoti**.
 
-## <a name="take-advantage-of-the-microsoft-power-platform"></a>Naudojimasis „Microsoft Power Platform“ 
+## <a name="take-advantage-of-the-microsoft-power-platform"></a>Pasinaudokite „Microsoft Power Platform“ 
 
-Kadangi visi duomenys iš „Attract“ laikomi paslaugoje „Common Data Service“, naudodamiesi „Microsoft Power Platform“ įrankiais galite įtraukti unikalius savo verslo poreikius į „Attract“.
+Kadangi visi duomenys iš „Attract“ laikomi „Common Data Service“, naudodamiesi „Microsoft Power Platform“ įrankiais galite įtraukti unikalius savo verslo poreikius į „Attract“.
 
-### <a name="powerapps"></a>„PowerApps“
+### <a name="powerapps"></a>PowerApps
 
-Naudojantis „PowerApps“ paprasta kurti prie „Attract“ duomenų prisijungiančias programas, taip pat programas, kurios, naudodamos išraiškas (pvz., „Microsoft Excel“ išraiškas), įtraukia logiką. Naudojantis „PowerApps“ sukurtas programas galima paleisti žiniatinklyje, „Apple iOS“ ir „Google Android“ įrenginiuose.
+Naudojantis „PowerApps“ paprasta kurti prie „Attract“ duomenų prisijungiančias programas, taip pat programas, kurios, naudodamos panašias į „Microsoft Excel“ išraiškas, įtraukia logiką. Naudojant „PowerApps“ sukurtas programas galima paleisti žiniatinklyje, „Apple iOS“ ir „Google Android“ įrenginiuose.
 
 Pavyzdžiui, galite sukurti supaprastintą programą, kuria naudodamiesi darbaviai gali peržiūrėti CV ir priskirti kandidatams atitinkamas „Attract“ nurodytas pareigas – tokiu būdu universiteto karjeros mugės jiems tampa paprastesnės. Arba galite sukurti programą, kuri padėtų įgyvendinti jūsų organizacijos atitikties reikalavimus. Daugiau informacijos apie „PowerApps“ ir apie tai, kaip ja naudojantis kurti programas, ieškokite [Duomenų integravimas į „Common Data Service“](https://docs.microsoft.com/powerapps).
 
@@ -74,11 +74,11 @@ Naudodamiesi „Power BI“ galite kurti ir peržiūrėti pasirinktines ataskait
 
 ### <a name="custom-activities"></a>Pasirinktinės veiklos 
 
-Galite įtraukti pasirinktinių veiklų, pvz., „PowerApps“ programų ir žiniatinklio turinio („iframe“) veiklų (pareigų proceso šablono lygiu arba kurdami naujas pareigas). Naudodamiesi šiomis veiklomis galite pritaikyti samdos procesą ir į „Attract“ įtraukti unikalią savo organizacijos verslo logiką.
+Galite įtraukti pasirinktinių veiklų, pvz., „PowerApps“ programų ir žiniatinklio turinio („iframe“) veiklų (pareigų proceso šablono lygiu arba kuriant naujas pareigas). Naudodamiesi šiomis veiklomis galite pritaikyti samdos procesą ir į „Attract“ įtraukti unikalią savo organizacijos verslo logiką.
 
 #### <a name="powerapps-activity"></a>„PowerApps“ veikla 
 
-Naudodamasis „PowerApps“ veikla pareigų arba pareigų proceso šablono kūrėjas gali įterpti „PowerApps“ programą į samdos eigą. Sukūrę ir išleidę programą, atlikdami veiklos konfigūracijas galite įvesti šios programos ID. Naudodamiesi „PowerApps“ programa galite skaityti ir rašyti duomenis į „Common Data Service“. Netgi galite susieti programą su eiga. Pavyzdžiui, turite programą, kuria naudodamiesi darbdaviai, vykstant telefoniniam pokalbiui dėl darbo, užpildo formą. Tokiu atveju programą galite susieti su tokia eiga, kurios metu įvertinama, ar pretendentas gali būti perkeliamas į kitą kandidatavimo į pareigas proceso etapą. Šio tipo veiklą gali peržiūrėti tik samdos komandos nariai. Daugiau informacijos apie tai, kaip sukonfigūruoti „PowerApps“ veiklą, ieškokite skyriuje [„Attract“ veiklos](./activities-attract.md).
+Naudodamasis „PowerApps“, pareigų arba pareigų proceso šablono kūrėjas gali įterpti „PowerApps“ programą į samdos eigą. Sukūrę ir išleidę programą, atlikdami veiklos konfigūracijas galite įvesti šios programos ID. Naudodamiesi „PowerApps“ programa, galite skaityti ir rašyti duomenis į „Common Data Service“. Netgi galite susieti programą su eiga. Pavyzdžiui, turite programą, kuria naudodamiesi darbdaviai, vykstant telefoniniam pokalbiui dėl darbo, užpildo formą. Tokiu atveju programą galite susieti su tokia eiga, kurios metu įvertinama, ar pretendentas gali būti perkeliamas į kitą kandidatavimo į pareigas proceso etapą. Šio tipo veiklą gali peržiūrėti tik samdos komandos nariai. Daugiau informacijos apie tai, kaip sukonfigūruoti „PowerApps“ veiklą, žr. [„Attract“ veiklos](./activities-attract.md).
 
 > [!NOTE]
 > „PowerApps“ veiklą galima naudoti tik kartu su išsamios įdarbinimo informacijos priedu.

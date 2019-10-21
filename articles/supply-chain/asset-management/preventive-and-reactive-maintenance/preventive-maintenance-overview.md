@@ -3,7 +3,7 @@ title: Prevencinės priežiūros apžvalga
 description: Šioje temoje aptariama prevencinė priežiūra skiltyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b43c795426f40cb43962976824c44a7702d91b7
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875787"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922096"
 ---
 # <a name="preventive-maintenance-overview"></a>Prevencinės priežiūros apžvalga
 
@@ -35,7 +35,7 @@ ms.locfileid: "1875787"
 
 Priežiūros planai naudojami atliekant prevencinę ir atsakomąją priežiūrą individualiam turtui. Priežiūros ciklai naudojami atliekant prevencinę priežiūrą grupėms arba turto rinkiniui. Priežiūros planai ir priežiūros ciklai naudojami darbo užsakymų pasiūlymams generuoti. Darbo užsakymų pasiūlymai įrašomi kaip priežiūros grafiko eilutės, kurias galima sugrupuoti ir konvertuoti į darbo užsakymus.
 
-Toliau pateiktame paveikslėlyje matyti darbo eigos apžvalga, kurioje nurodoma, kaip pradedami kurti priežiūros planai ir priežiūros ciklai ir kaip tęsiamas kūrimas, paremtas tais priežiūros planais ir priežiūros ciklais, darbo užsakymų turtui.
+Toliau pateiktame paveikslėlyje matyti darbo eigos apžvalga, pradedant priežiūros planų ir priežiūros ciklų kūrimu ir baigiant darbo užsakymų turtui kūrimu, paremtu minėtais priežiūros planais ir priežiūros ciklais.
 
 ![1 pav.](media/01-preventive-maintenance.png)
 

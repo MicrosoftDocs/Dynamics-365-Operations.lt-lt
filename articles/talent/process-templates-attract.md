@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 55e0d128cdc12843763f81014edd1846b35ed220
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 694835d20e3401aaeb22aa19082a2cd0e3a0163a
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739799"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010711"
 ---
 # <a name="create-a-process-template"></a>Proceso šablono kūrimas
 
 [!include [banner](includes/banner.md)]
 
-*Samdos proceso šablone* pateikiamos visos veiklos, kurios turėtų būti įtrauktos samdymo į darbo vietą proceso metu. Šioje temoje aprašomi proceso šablono, naudojamo „Microsoft Dynamics 365 for Talent: Attract“ elementai. Taip pat paaiškinama, kaip sukurti šabloną.
+*Samdos proceso šablone* pateikiamos visos veiklos, kurios turėtų būti įtrauktos samdymo į darbo vietą proceso metu. Šioje temoje aprašomi proceso šablono, naudojamo „Microsoft“ „Dynamics 365 Talent: Attract“, elementai. Taip pat paaiškinama, kaip sukurti šabloną.
 
 > [!NOTE]
 > Šablonų kūrimas yra išsamios įdarbinimo informacijos priedo, skirto „Attract“ dalis.

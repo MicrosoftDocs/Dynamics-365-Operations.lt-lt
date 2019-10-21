@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 3b66369e57e006c9e2fe0a43e4b781c619a65c4a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556949"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025868"
 ---
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
 
@@ -96,7 +96,7 @@ Priėmus užsakymą, eilutes galima pasirinkti ir priskirti joms žymę **Paėmi
 
 Išrinkimo dokumentus galima spausdinti elektroniniame kasos aparate ir padėti darbuotojams, vykdantiems paėmimo procesą. Atspausdintą išrinkimo dokumentą darbuotojas, atliekantis paėmimą, gali nešiotis su savimi, kai produktai paimami, ir pažymėti juos kaip paimtus išrinkimo dokumente.
 
-Išrinkimo dokumento formatas yra konfigūruotas „Dynamics 365 for Retail“ ir įtrauktas į kvito šabloną. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Išrinkimo dokumento formatas yra konfigūruotas „Retail“ ir įtrauktas į kvito šabloną. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 Jei pasirenkamos eilutės ir išspausdinamas tų eilučių išrinkimo dokumentas, jos yra automatiškai atnaujinamos priskiriant būseną **Paėmimas**.
 
@@ -105,7 +105,7 @@ Jei pasirenkamos eilutės ir išspausdinamas tų eilučių išrinkimo dokumentas
 - **Rodoma būsena:** Paimta arba iš dalies paimta
 - **Rodoma tarnybinio biuro būsena:** Paimta arba iš dalies paimta
 
-Atliktus faktinį paėmimo procesą, eilutes galima pažymėti kaip **Paimta**. Pasirenkant eilutę ir pažymint ją kaip **Paimta** atliekamas realiojo laiko iškvietimas atnaujinti užsakymo eilutę „Dynamics 365 for Retail“. Kai eilutė pažymėta kaip **Paimta** elektroniniame kasos aparate, tarnybiniame biure rodoma būsena taip pat atnaujinama į **Paimta** ir atsargų operacijos nurodo, kad nurodytas kiekis buvo sumažintas.
+Atliktus faktinį paėmimo procesą, eilutes galima pažymėti kaip **Paimta**. Pasirenkant eilutę ir pažymint ją kaip **Paimta** atliekamas realiojo laiko iškvietimas atnaujinti užsakymo eilutę. Kai eilutė pažymėta kaip **Paimta** elektroniniame kasos aparate, tarnybiniame biure rodoma būsena taip pat atnaujinama į **Paimta** ir atsargų operacijos nurodo, kad nurodytas kiekis buvo sumažintas.
 
 Apdorojant užsakymus per tam tikrą laikotarpį galima apdoroti tam tikros eilutės dalinius kiekius. Jei pasirenkama eilutė ir atliekamas veiksmas **Pažymėti kaip paimta**, o kiekis yra didesnis nei vienas, vartotojas paraginamas nurodyti kiekį. Likęs paimtinas kiekis yra užpildomas automatiškai. Jei nurodomas mažesnis nei likęs kiekis, nustatoma eilutės būsena **Iš dalies paimta**. Atnaujinus užsakymo eilutę tarnybiniame biure, ji taip pat nurodo iš dalies paimtą būseną, o vartotojo įvestas kiekis naudojamas atsargoms atnaujinti.
 
@@ -122,7 +122,7 @@ Užsakymo eilutes galima supakuoti bet kada po to, kai užsakymo eilutė priimta
 - **Rodoma būsena:** Supakuota arba iš dalies supakuota
 - **Rodoma tarnybinio biuro būsena:** Pristatyta arba iš dalies pristatyta
 
-Šiuo veiksmu eilutės pažymimos kaip supakuotos arba iš dalies supakuotos ir išspausdinamas važtaraštis. Važtaraštį galima išspausdinti norint patikrinti produktus, kurie buvo supakuoti kartu. Važtaraščio formatas yra konfigūruotas „Dynamics 365 for Retail“ ir įtrauktas į kvito šabloną. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Šiuo veiksmu eilutės pažymimos kaip supakuotos arba iš dalies supakuotos ir išspausdinamas važtaraštis. Važtaraštį galima išspausdinti norint patikrinti produktus, kurie buvo supakuoti kartu. Važtaraščio formatas yra konfigūruotas „Retail“ ir įtrauktas į kvito šabloną. Daugiau informacijos, kaip nustatyti kvitų šablonus, žr. [Kvitų šablonai ir spausdinimas](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Veiksmas: Pažymėti kaip supakuotą**
 

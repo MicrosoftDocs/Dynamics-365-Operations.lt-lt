@@ -1,6 +1,6 @@
 ---
 title: Sandėlio darbuotojų valdymas
-description: Šiame straipsnyje aprašoma, kaip „Dynamics 365 for Finance and Operations“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
+description: Šiame straipsnyje aprašoma, kaip „Dynamics 365 Supply Chain Management - Warehousing“ programą galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5a35d0a52d6f5bf995ce54f10eab92147b0e76a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f0de87e10f9213838dd5e5436b8b5699b19547bf
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572563"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018626"
 ---
 # <a name="manage-warehouse-workers"></a>Sandėlio darbuotojų valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašoma, kaip „Microsoft Dynamics 365 for Finance and Operations“ galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
+Šiame straipsnyje aprašoma, kaip „Dynamics 365 Supply Chain Management - Warehousing“ programą galite naudoti, norėdami valdyti ir stebėti darbą, kurį atlieka jūsų sandėlių darbuotojai.
 
 Jei naudojate sandėlio valdymo funkcijas, visos sandėlio darbuotojų operacijos yra vadinamos *darbu*. Darbas, pvz., paėmimas, perkėlimas ir turimų atsargų skaičiavimas, yra registruojamas naudojant mobiliuosius įrenginius. Prieš atlikdamas darbą sandėlio darbuotojas turi būti susietas su personalo darbuotoju. Su kiekviena sąskaita **Darbuotojas** gali būti susieti keli sandėlio darbo vartotojai. Tie darbo vartotojai gali dirbti skirtinguose sandėliuose ir gali turėti skirtingų lygių prieigą prie įvairių mobilių įrenginių meniu. Sandėlio darbo vartotojai gali būti laikomi keliais pasirinkto darbuotojo užsiregistravimais. Kiekvienas darbo vartotojas turi numatytąjį sandėlį ir jam taikomos konkrečios darbo eigos, atsižvelgiant į tam darbo vartotojui pasiekiamus meniu elementus. 
 

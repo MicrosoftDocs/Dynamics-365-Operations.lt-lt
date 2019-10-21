@@ -1,6 +1,6 @@
 ---
 title: El. laiško šablonai
-description: Šioje temoje pateikiama informacija apie „Dynamics 365 for Talent - Attract“ galimus sukurti ir naudoti el. laiško šablonus.
+description: Šioje temoje pateikiama informacija apie „Microsoft Dynamics 365 Talent ‑ Attract“ galimus sukurti ir naudoti el. laiško šablonus.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 1c7c017cce26b6b250d899bba891d6823b40c282
-ms.sourcegitcommit: a6b32be10b6eb6340f8f68261bf62d0202c03dd1
+ms.openlocfilehash: 7174fd96e5ddc9ba5a91eb423d08afd1daa45f48
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "1729731"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008041"
 ---
 # <a name="email-templates"></a>El. laiško šablonai
 [!include[banner](../includes/banner.md)]
 
-Naudodamiesi el. laiško šablonų biblioteka, administratoriai gali sukurti vienodą visų naudojantis „Microsoft Dynamics 365 for Talent: Attract and Offer“ siunčiamų el. laiškų temą ir prekės ženklo išvaizdą. Administratoriai taip pat gali kuruoti el. laiško turinio šablonų rinkinį, kuriuo galėtų naudotis kiti vartotojai. Samdos komanda, pasinaudodama šiais šablonais darbo eigoje gali efektyviau siųsti el. laiškus. kai kurie el. laiškai konfigūruojami taip, kad būtų siunčiami automatiškai, o administratorius, naudodamasis el. laiško šablonų biblioteka, gali tinkinti šių el. laiškų turinį.
+Naudodamiesi el. laiško šablonų biblioteka, administratoriai gali sukurti vienodą visų naudojantis „Microsoft Dynamics 365 Talent: Attract and Offer“ siunčiamų el. laiškų temą ir prekės ženklo išvaizdą. Administratoriai taip pat gali kuruoti el. laiško turinio šablonų rinkinį, kuriuo galėtų naudotis kiti vartotojai. Samdos komanda, pasinaudodama šiais šablonais darbo eigoje gali efektyviau siųsti el. laiškus. kai kurie el. laiškai konfigūruojami taip, kad būtų siunčiami automatiškai, o administratorius, naudodamasis el. laiško šablonų biblioteka, gali tinkinti šių el. laiškų turinį.
 
 > [!NOTE]
 > Norėdami naudoti el. laiškų šablonus, jūsų organizacija turi turėti išsamios įdarbinimo informacijos priedą.

@@ -1,9 +1,9 @@
 ---
-title: Pagrindinis modulio Tiekimo grandinės valdymas puslapis
-description: Šiame puslapyje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.
-author: ShylaThompson
+title: Žinyno ištekliai „Supply Chain Management“
+description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
+author: josaw1
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 10/01/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,26 +18,27 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557597"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278329"
 ---
-# <a name="supply-chain-management-home-page"></a>Pagrindinis modulio Tiekimo grandinės valdymas puslapis
+# <a name="help-resources-for-supply-chain-management"></a>Žinyno ištekliai „Supply Chain Management“
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiamas „Microsoft Dynamics 365 for Finance and Operations“ tiekimo grandinės valdymo funkcijų žinyno temų ir kitų išteklių sąrašas. 
+Šioje temoje pateikiamas „Dynamics 365 Supply Chain Management“ žinyno temų ir kitų išteklių sąrašas. 
 
 ## <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365‟ plano</a> svetainę. 
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365“ plano</a> svetainę. 
 
 ## <a name="core-concepts-and-tasks"></a>Pagrindinės koncepcijos ir užduotys
 
 Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
+- [Turto valdymas](asset-management/index.md)
 - [Kaštų apskaita](../financials/cost-accounting/cost-accounting-home-page.md)
 - [Kaštų valdymas](cost-management/cost-management-home-page.md)  
 - [Atsargų valdymas](inventory/inventory-home-page.md)
@@ -49,6 +50,10 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [Aptarnavimo valdymas](service-management/service-management-home-page.md)
 - [Transportavimo valdymas](transportation/transportation-management-overview.md)
 - [Sandėlio valdymas](warehousing/warehouse-configuration.md)
+
+## <a name="dynamics-365-finance"></a>„Dynamics 365 Finance“
+
+Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Dynamics 365 Finance“ žinyno ištekliai](../finance/index.md) puslapyje.
 
 ## <a name="videos"></a>Vaizdo įrašai
 
@@ -113,6 +118,6 @@ Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="htt
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilumo sandėlyje palengvinimas su „Microsoft Dynamics 365 for Finance and Operations“</a>
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
-Informacijos apie „Microsoft Dynamics 365 for Finance and Operations“ mokymą žr. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">„Microsoft Dynamics“ mokymosi portale</a>. (reikia „CustomerSource“ paskyros) 
+Informacijos apie „Dynamics 365“ mokymą žr. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">„Microsoft Dynamics“ mokymosi portale</a>. (reikia „CustomerSource“ paskyros) 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 20 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 20 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d316aff83bd9f60f054a970e223777db5e214adb
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741641"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026011"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. kovo 20 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 20 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -62,7 +62,7 @@ Dabar galite sužinoti, kaip tam tikro kandidato profilis yra kilęs iš „Attr
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
@@ -80,7 +80,7 @@ Atlikti pakeitimai ir pašalinta problema, kuri kildavo redaguojant vardų seką
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Fiksuotam ir kintamam planams galima priskirti saugos vaidmenis – tokiu būdu nustatysite prieigą prie planų ir darbuotojų duomenų, susijusių su planais, pvz., pajamų arba premijų įrašai. Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-24 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis.
+Įdiegę „Finance and Operations“ platformos 24 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Darbuotojų dublikatų patikra: sąsajos pakeitimai
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.

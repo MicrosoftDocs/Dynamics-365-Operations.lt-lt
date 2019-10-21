@@ -3,7 +3,7 @@ title: Prognozės, darbo užsakymai ir projektai
 description: Šioje temoje aiškinamas prognozių ir darbo užsakymo integravimas su moduliu Projektų valdymas ir apskaita modulyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/16/2019
+ms.date: 08/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5e986d139ac9d0a7729bb9787f05332bcc09f59b
-ms.sourcegitcommit: 109a6ef2d20758dc4a25c51b11e22dd2214a1cc4
+ms.openlocfilehash: cc1992326c448ee8dc30a9ad8f8f538ebea83e54
+ms.sourcegitcommit: f853c8d46ffc8e578387bac4cd48a948916983ef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1886821"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "2002389"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognozės, darbo užsakymai ir projektai
 
@@ -31,69 +31,73 @@ ms.locfileid: "1886821"
 
 [!include [banner](../../includes/preview-banner.md)]
 
-Modulyje Turto valdymas integruojama su moduliu **Projektų valdymas ir apskaita** siekiant optimizuoti išlaidų kontrolę, kad vartotojai galėtų sekti priežiūros užduočių tipo prognozių ir darbo užsakymo užduočių išlaidas.
+Modulyje Turto valdymas integracija su moduliu **Projektų valdymas ir apskaita** padeda optimizuoti išlaidų kontrolę, kad vartotojai galėtų sekti priežiūros užduočių tipo prognozių ir darbo užsakymo užduočių išlaidas.
 
-Norint sekti priežiūros užduočių tipo prognozes, būtina nustatyti toliau pateikiamus parametrus.
+Priežiūros užduočių tipo prognozių sekimui būtina nustatyti du parametrus.
 
-1. Pasirinkite projektą modulyje **Turto valdymas** > **Sąranka** > **Turto valdymo parametrai** > spustelėję nuorodą **Turtas** > FastTab **Projektas** > lauke **Priežiūros prognozės projektas**.
+1. Pasirinkite projektą **Turto valdymas** > **Sąranka** > **Turto valdymo parametrai**, o tada kortelėje **Turtas** > FastTab **Projektas**, lauke **Priežiūros prognozės projektas** pasirinkite projektą.
 
-2. Kai dalyje **Priežiūros užduočių tipų numatytosios reikšmės** sukuriate priežiūros užduoties tipo numatytąją eilutę, automatiškai sukuriamas tos eilutės veiklos numeris (**Turto valdymas** > **Sąranką** > **Užduotys** > **Priežiūros užduočių tipo numatytieji parametrai**).
+2. Kai sukuriate priežiūros užduoties tipo numatytąją eilutę, automatiškai sukuriamas tos eilutės veiklos numeris puslapyje **Priežiūros užduočių tipų numatytosios reikšmės** (**Turto valdymas** > **Sąranka** > **Užduotys** > **Priežiūros užduočių tipo numatytieji parametrai**).
 
-Yra dvi priežiūros užduočių tipo prognozių paskirtys: modulyje **Projektų valdymas ir apskaita** galite sekti priežiūros užduočių tipo prognozių išlaidas. Be to, prognozės automatiškai perkeliamos į darbo užsakymo užduoties projektą, kai pasirenkate darbo užsakymo užduotyje pasirenkate priežiūros užduoties tipą.
+Priežiūros užduoties tipo prognozės naudojamos dviem tikslams. 
 
-Norėdami sekti darbo užsakymų užduočių išlaidas, pirma turite nustatyti darbo užsakymų projektus.  Žr. skyrių [Darbo užsakymų projektų sąranka](../setup-for-work-orders/work-order-project-setup.md), kuriame aprašoma procedūra.
+- Galite stebėti priežiūros užduoties tipo prognozių išlaidas modulyje **Projektų valdymas ir apskaita**. 
+- Prognozės automatiškai perkeliamos į darbo užsakymo užduoties projektą, kai darbo užsakymo užduotyje pasirenkate priežiūros užduoties tipą.
+
+Norėdami sekti darbo užsakymų užduočių išlaidas, pirma turite nustatyti darbo užsakymų projektus.  Daugiau informacijos rasite [Darbo užsakymo projekto sąranka](../setup-for-work-orders/work-order-project-setup.md).
 
 ## <a name="work-order-job-projects"></a>Darbo užsakymo užduočių projektai
 
-Kai darbo užsakyme sukuriate darbo užsakymo užduotį, darbo užsakymo projektą nulemia darbo užsakymų pirminio projekto sąranka, pasiekiama pasirinkus **Turto valdymas** > **Sąranką** > **Darbo užsakymai** > **Projekto sąranka**.
+Kai darbo užsakyme sukuriate darbo užsakymo užduotį, darbo užsakymo projektą apibrėžia darbo užsakymų pirminio projekto sąranka puslapyje **Darbo užsakymo projekto sąranka** (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Projekto sąranka**).
 
 Darbo užsakymų užduočių projektai sukuriami naudojant toliau pateikiamų darbo užsakymų duomenų derinį.
 
 - Darbo užsakyme pasirinktas darbo užsakymo tipas 
 - Su darbo užsakymo užduotyje esančiu turtu susijusi funkcinė vieta
 - Su darbo užsakymo užduotyje esančiu turtu susijęs turto tipas  
-- Darbo užsakyme nustatytas numatomas pradžios ir pabaigos laikas  
+- Darbo užsakyme nustatyti numatomi pradžios ir pabaigos laikai  
 
-Gali būti, kad darbo užsakyme bus pateikta ne visa pirmiau minėta informacija. Todėl, darbo užsakymo pirminis projektas ieškomas naudojant turimą duomenų derinį ir pasirenkant projekto ID, atitinkantį darbo užsakymo duomenis.
+Kai kurios informacijos darbo užsakyme nėra. Todėl, darbo užsakymo pirminis projektas ieškomas naudojant turimą duomenų derinį ir pasirenkant projekto ID, atitinkantį darbo užsakymo duomenis.
 
-Pavyzdys. Toliau pateiktame paveikslėlyje turto tipo Sunkvežimio variklis sąranką reiškia, kad kiekviena sukuriama šio turto tipo darbo užsakymo užduotis bus projekto ID 000186 dalis.
+Pavyzdžiui, toliau esančiame pavyzdyje dėl to, kaip nustatytas turto tipas **Sunkvežimio variklis**, kiekviena darbo užsakymo užduotis, sukurta naudojant turto tipą **Sunkvežimio variklis**, bus projekto ID 000186 subprojektas.
 
-![1 pav.](media/01-integration-to-pma.png)
+![1 pav.](media/01-integration-to-pma.png)
 
-Darbo užsakymo užduotyje pateikiamo projekto ID ir susijusio veiklos numerio (**Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** > sąraše pasirinkite darbo užsakymą > FastTab **Eilutės informacija** > laukas **Projekto ID** ir laukas **Veiklos numeris**) paskirtis yra stebėti išlaidas, susijusias su darbo užsakymo užduotimi, ir turtą, pasirinktą darbo užsakymo užduotyje modulyje **Projektų valdymas ir apskaita**. 
+Projekto ID darbo užsakymo užduotyje ir susijusio veiklos numerio paskirtis yra sekti išlaidas, susijusias su darbo užsakymo užduotimi ir pasirinktu turtu modulyje **Projektų valdymas ir apskaita**. (Norėdami peržiūrėti projekto ID ir veiklos numerį, pasirinkite **Turto valdymas** > **Bendras** > **Darbo užsakymai** > **Visi darbo užsakymai** ir pasirinkite darbo užsakymą. „FastTab“ **Eilutės informacija**, lauke **Projekto ID** rodomas projekto ID, o lauke **Veiklos numeris** rodomas veiklos numeris.) Norėdami gauti daugiau informacijos apie turto valdymo išlaidų kontrolę, žr. [Kaštų ir datos kontrolė](../controlling-and-reporting/cost-and-date-control.md).
 
 Toliau pateiktame paveikslėlyje matote grafinę darbo užsakymų projektų ir susijusių projektų veiklų apžvalgą.
 
 ![2 paveikslėlis](media/02-integration-to-pma.png)
 
-Kai darbo užsakyme sukuriama nauja darbo užsakymo užduotis, automatiškai sukuriamas šios užduoties darbo užsakymo projektas. Su darbo užsakymo užduotimi susijusio turto finansinės dimensijos automatiškai perkeliamos į darbo užsakymo užduoties projektą. Prie darbo užsakymo užduočiai sukurtos projekto veiklos pridedama susijusi informacija dėl priežiūros užduoties tipo, priežiūros užduoties tipo varianto ir pardavimo. Šie duomenys naudingi jei, pavyzdžiui, kuriate darbo užsakymo pirkimo užsakymą (žr. skyrių [Įsigijimas](../work-orders/procurement.md)) arba jei naudojate modulį **Projektų valdymas ir apskaita** laikui registruoti.  
+Kai darbo užsakyme sukuriama nauja darbo užsakymo užduotis, automatiškai sukuriamas šios užduoties darbo užsakymo projektas. Su darbo užsakymo užduotimi susijusio turto finansinės dimensijos automatiškai perkeliamos į darbo užsakymo užduoties projektą.
 
-Jei turtas buvo įdiegtas funkcinėje vietoje ir vėliau įdiegtas kitoje funkcinėje vietoje, turto finansinės dimensijos, susijusios su nauja funkcine vieta, automatiškai atnaujinamos. Vėliau, kai sukuriate turto darbo užsakymo užduotį, į darbo užsakymo užduoties darbo užsakymo projektą automatiškai perkeliamos finansinės dimensijos, kurios dabar yra susijusios su turtu. Tai reiškia, kad kai naudojate funkcines vietas, išlaidas visada galima sekti funkcinėse vietose, kuriose turtas buvo tam tikru laikotarpiu įdiegtas. Dėl automatiškai naujinamų finansinių dimensijų užtikrinamas visiškas išlaidų atsekamumas kontroliuojant projektus ir rengiant projektų ataskaitas.  
+Projekto veiklos, sukurtos darbo užsakymo užduočiai, turi susietos informacijos. Tai informacija apie priežiūros užduoties tipą, priežiūros užduoties tipo variantą ir prekybą. Ji naudinga jei, pavyzdžiui, kuriate darbo užsakymo pirkimo užsakymą (žr. skyrių [Įsigijimas](../work-orders/procurement.md)) arba jei naudojate modulį **Projektų valdymas ir apskaita** laikui registruoti.
 
+Jei turtas buvo įdiegtas funkcinėje vietoje, bet vėliau įdiegtas kitoje funkcinėje vietoje, turto finansinės dimensijos, susijusios su nauja funkcine vieta, automatiškai atnaujinamos. Tada, kai sukuriate turto darbo užsakymo užduotį, į darbo užsakymo užduoties darbo užsakymo projektą automatiškai perkeliamos finansinės dimensijos, kurios dabar yra susijusios su turtu. Todėl, kai naudojate funkcines vietas, išlaidas visada galima sekti funkcinėse vietose, kuriose turtas buvo įdiegtas bet kuriuo laikotarpiu. Automatinis finansinių dimensijų naujinimas padeda užtikrinti visišką išlaidų atsekamumą kontroliuojant projektus ir rengiant ataskaitas.
 
 ## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a>Darbo užsakymų projektai, darbo užsakymų ciklo būsenos, projekto etapai ir projektų tipai
 
-Siekiant užtikrinti, kad darbo užsakymų ciklo būsenos ir susijusių projektų etapai darbo užsakymuose naudojami tinkamai, išnagrinėkite priklausomybes, susijusias su moduliu **Projektų valdymas ir apskaita**.
+Siekiant užtikrinti, kad darbo užsakymų ciklo būsenos ir susijusių projektų etapai darbo užsakymuose būtų naudojami tinkamai, išnagrinėkite priklausomybes, susijusias su moduliu **Projektų valdymas ir apskaita**.
 
-- Modulio **Projektų valdymas ir apskaita** dalyje **Projektų valdymo ir apskaitos parametrai** nustatomi projektų tipų projektų etapai.  
-- Dalyje **Projektų valdymo ir apskaitos parametrai** būtinai pasirinkite atitinkamų projektų etapų žymės langelius visuose projektų tipuose, kuriuos ketinate naudoti. Toliau pateiktame paveikslėlyje pasirinkti penki projektų tipų Laikas ir medžiagos ir Vidinis etapai: **Sukurta** - **Numatoma** - **Suplanuotas** - **Vykdoma** - **Baigta**. Šie penki etapai yra susiję ir su vidine priežiūra, ir su aptarnavimo techninės priežiūros užduotimis.  
-- Modulyje **Turto valdymas** projektų tipai nustatomi pagal projektų grupes, kurias nustatėte formoje **Darbo užsakymų projektų sąranka** > spustelėję nuorodą **Projektų grupė**.  
-- Projektų grupės, nustatytos formoje **Darbo užsakymų projektų sąranka**, naudojamos kuriant darbo užsakymus. Kai sukuriamas naujas darbo užsakymas, automatiškai sukuriamas darbo užsakymo darbo.  
+- Dirbant su moduliu **Projektų valdymas ir apskaita**, puslapyje **Projektų valdymo ir apskaitos parametrai** nustatomi projektų tipų projektų etapai.  
+- Puslapyje **Projektų valdymo ir apskaitos parametrai** pasirinkite atitinkamų projektų etapų žymės langelius visuose projektų tipuose, kuriuos naudosite. Toliau esančiuose paveikslėliuose penki etapai (**Sukurta**, **Numatoma**, **Suplanuota**, **Vykdoma** ir **Baigta**) buvo parinkti projektų tipams **Laikas ir medžiaga** bei **Vidinis**. Šie penki etapai yra susiję ir su vidinės priežiūros užduotimis ir su aptarnavimo priežiūros užduotimis.
+- Modulyje **Turto valdymas** projektų tipai nurodomi pagal projektų grupes, kurias nurodėte puslapyje **Darbo užsakymo projekto sąranka** > kortelėje **Projektų grupė** (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Projekto sąranka**).  
+- Projektų grupės, nustatytos puslapyje **Darbo užsakymų projektų sąranka**, naudojamos kuriant darbo užsakymus. Kai sukuriamas naujas darbo užsakymas, automatiškai sukuriamas darbo užsakymo darbo.  
 - Kiekviena darbo užsakymo ciklo būsena turi būti susijusi su projekto etapu.  
-- Projekto etapas, susijęs su darbo užsakymo ciklo būsena, turi būti apibrėžtas kaip projektų grupės, apibrėžtos darbo užsakymo projekte, aktyvusis etapas. Automatiškai sukuriamas darbo užsakymo projektas.  
-- Kai sukuriate naują darbo užsakymą, darbo užsakymo projektas automatiškai priskiriamas pagal sąranką formoje **Darbo užsakymų projektų sąranka** (**Turto valdymas** > **Sąranką** > **Darbo užsakymai** > **Projekto sąranka**).  
+- Projekto etapas, susijęs su darbo užsakymo ciklo būsena, turi būti apibrėžtas kaip projektų grupės, apibrėžtos darbo užsakymo projekte, aktyvusis etapas. Automatiškai sukuriamas darbo užsakymo projektas.
+- Kai sukuriate naują darbo užsakymą, darbo užsakymo projektas automatiškai priskiriamas pagal sąranką puslapyje **Darbo užsakymų projektų sąranka**.  
 
-Sąsajos tarp darbo užsakymų projektų grupių, susijusių projektų tipų, projektų etapų ir darbo užsakymų ciklų būsenų pavaizduotos toliau pateikiamuose paveikslėliuose.  
+Toliau esančiuose paveikslėliuose pavaizduotos sąsajos tarp darbo užsakymų projektų grupių, susijusių projektų tipų, projektų etapų ir darbo užsakymų ciklų būsenų.
 
-![3 paveikslėlis](media/03-integration-to-pma.png)
+![3 pav.](media/03-integration-to-pma.png)
 
-![4 paveikslėlis](media/04-integration-to-pma.png)
+![4 pav.](media/04-integration-to-pma.png)
 
-![5 paveikslėlis](media/05-integration-to-pma.png)
+![5 pav.](media/05-integration-to-pma.png)
 
-Žr. skyrių [Darbo užsakymų projektų sąranka](../setup-for-work-orders/work-order-project-setup.md), norėdami sužinoti, kaip nustatyti darbo užsakymų projektus, ir skyrių [Darbo užsakymų ciklo būsenos](../setup-for-work-orders/work-order-lifecycle-states.md), norėdami sužinoti, kaip kurti darbo užsakymų ciklo būsenas.
+Norėdami gauti informacijos apie tai, kaip nustatyti darbo užsakymų projektus, žr. [Darbo užsakymo projekto sąranka](../setup-for-work-orders/work-order-project-setup.md). Daugiau informacijos apie darbo užsakymo ciklo būsenų kūrimą žr. [Darbo užsakymo ciklo būsenos](../setup-for-work-orders/work-order-lifecycle-states.md).
 
-Toliau pateikiamame paveikslėlyje pavaizduota grafinė įvairių projektų, kuriamų modulyje **Turto valdymas**, norint integruoti su moduliu **Projektų valdymas ir apskaita**, ir darbo procesų, su kuriais minėti projektai yra susiję, apžvalga.
+Toliau esančiame paveikslėlyje pavaizduoti įvairūs projektai, sukurti modulyje **Turto valdymas** ir leidžiant integraciją su moduliu **Projektų valdymas ir apskaita**. Be to, čia pavaizduoti su projektais susiję darbo procesai.
 
-![6 paveikslėlis](media/06-integration-to-pma.png)
+![6 pav.](media/06-integration-to-pma.png)
 

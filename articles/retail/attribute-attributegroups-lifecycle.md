@@ -19,18 +19,19 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: c642e4f1b29ac21b6736e770c84f343e9265961d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606900"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023641"
 ---
 # <a name="attributes-and-attribute-groups"></a>Atributai ir atributų grupės
 
 [!include [banner](includes/banner.md)]
 
-*Atributai* yra būdas išsamiau apibūdinti produktą ir jo charakteristikas naudojant vartotojų apibrėžtus laukus (pvz., **Atminties dydis**, **Kietojo disko talpa**, **Atitinka „Energy Star“ reikalavimus** ir t. t.). „Microsoft Dynamics 365 for Finance and Operations“ atributus galima susieti su įvairiais mažmeninės prekybos objektais, pavyzdžiui, produkto kategorijomis ir mažmeninės prekybos kanalais, ir galima nustatyti jį numatytąsias reikšmes. Tada produktai paveldi atributus ir numatytąsias reikšmes, kai jie susiejami su produktų kategorijomis ar mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
+*Atributai* yra būdas išsamiau apibūdinti produktą ir jo charakteristikas naudojant vartotojų apibrėžtus laukus (pvz., **Atminties dydis**, **Kietojo disko talpa**, **Atitinka „Energy Star“ reikalavimus** ir t. t.). Atributus galima susieti su įvairiais „Retail“ objektais, pavyzdžiui, produkto kategorijomis ir mažmeninės prekybos kanalais, ir galima nustatyti jį numatytąsias reikšmes. Tada produktai paveldi atributus ir numatytąsias reikšmes, kai jie susiejami su produktų kategorijomis ar mažmeninės prekybos kanalais. Numatytųjų reikšmių galima nepaisyti atskiro produkto lygiu, mažmeninės prekybos kanalo lygiu arba mažmeninės prekybos kataloge.
+
 
 Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 
@@ -53,7 +54,7 @@ Pavyzdžiui, įprastas televizijos produktas gali turėti tolesnius atributus.
 
 ## <a name="attributes-and-attribute-types"></a>Atributai ir atributų tipai
 
-Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, kuriuos galima įvesti konkrečiam atributui, tipą. „Finance and Operations“ šiuo metu palaiko tolesnius atributų tipus.
+Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, kuriuos galima įvesti konkrečiam atributui, tipą. Palaikomi toliau nurodyti atributų tipai.
 
 - **Valiuta** – šis tipas palaiko valiutos reikšmę. Jis gali būti apribotas (t. y., jis gali palaikyti reikšmių intervalą) arba jis gali būti neapibrėžtas.
 - **Data ir laikas** – šis tipas palaiko datos ir laiko reikšmę. Jį galima apibrėžti arba palikti neapibrėžtą.
@@ -63,9 +64,9 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
 - **Bulio logika** – šis tipas palaiko dvejetainę reikšmę (**true** arba **false**).
 - **Nuoroda** – šis tipas nurodo į kitus atributus.
 
-### <a name="set-up-attribute-types-in-finance-and-operations"></a>Atributų tipų nustatymas sprendime „Finance and Operations“
+### <a name="set-up-attribute-types"></a>Nustatyti atributų tipus
 
-1. Prisijunkite prie „Finance and Operations“ tarnybinio biuro kliento kaip mažmeninės prekybos reklamavimo parduotuvėje vadovas.
+1. Prisijunkite prie tarnybinio biuro kliento kaip mažmeninės prekybos reklamavimo parduotuvėje vadovas.
 2. Eikite į **Produktų informacijos valdymas** &gt; **Sąranka** &gt; **Kategorijos ir atributai** &gt; **Atributų tipai**.
 3. Sukurkite du tipo **Tekstas** atributų tipus, parinktį **Fiksuotas sąrašas** nustatykite kaip **Taip** ir įtraukite tolesnį reikšmių sąrašą.
 
@@ -74,7 +75,7 @@ Atributai pagrįsti *atributų tipais*. Atributo tipas identifikuoja duomenų, k
 
 ![Atributų tipai](media/AttributeType.png)
 
-### <a name="set-up-an-attribute-in-finance-and-operations"></a>Atributo nustatymas sprendime „Finance and Operations“
+### <a name="set-up-an-attribute"></a>Nustatyti atributą
 
 1. Prisijunkite prie tarnybinio biuro kliento kaip mažmeninės prekybos reklamavimo parduotuvėje vadovas.
 2. Eikite į **Produktų informacijos valdymas** &gt; **Sąranka** &gt; **Kategorijos ir atributai** &gt; **Atributai**.
@@ -101,13 +102,13 @@ Toliau pateiktos likusios puslapyje **Atributai** esančios atributų metaduomen
 - Nepaisyti atvejo ir formato
 - Visiška atitiktis
 
-Šios parinktys iš pradžių buvo skirtos pagerinti internetinės parduotuvės ieškos funkcijas. Nors į „Finance and Operations“ internetinė parduotuvė iš karto nėra įtraukta, į sprendimą įtrauktas el. komercijos publikavimo programinės įrangos kūrimo rinkinys (SDK). Naudodami šį SDK klientai produktus gali įtraukti į pasirinktą ieškos indeksą. Nors produktų duomenys importuojami, klientai vis tiek turėtų galėti atskirti ieškotinus duomenis, duomenis, dėl kurių galima teikti užklausas, ir t. t. Taip jie gali sukurti optimalų indeksą ir užtikrinti, kad būtų indeksuojami tik tie atributai, kurie, *jų nuomone*, turi būti suindeksuoti.
+Šios parinktys iš pradžių buvo skirtos pagerinti internetinės parduotuvės ieškos funkcijas. Nors į „Retail“ internetinė parduotuvė iš karto nėra įtraukta, į sprendimą įtrauktas el. komercijos publikavimo programinės įrangos kūrimo rinkinys (SDK). Naudodami šį SDK klientai produktus gali įtraukti į pasirinktą ieškos indeksą. Nors produktų duomenys importuojami, klientai vis tiek turėtų galėti atskirti ieškotinus duomenis, duomenis, dėl kurių galima teikti užklausas, ir t. t. Taip jie gali sukurti optimalų indeksą ir užtikrinti, kad būtų indeksuojami tik tie atributai, kurie, *jų nuomone*, turi būti suindeksuoti.
 
 Norėdami gauti informacijos apie šių likusių parinkčių paskirtį, žr. [„SharePoint Server 2013“ ieškos schemos apžvalga](https://technet.microsoft.com/library/jj219669.aspx).
 
 ## <a name="filter-settings-for-attributes"></a>Atributų filtrų parametrai
 
-Atributų filtrų parametrai leidžia apibrėžti, kaip atributų filtrai rodomi mažmeninės prekybos el. kasos aparate. Norėdami pasiekti kokio nors atributo filtrų parametrus, „Finance and Operations“ puslapyje **Atributai** pasirinkite tą atributą ir veiksmų srityje pasirinkite **Filtrų parametrai**.
+Atributų filtrų parametrai leidžia apibrėžti, kaip atributų filtrai rodomi mažmeninės prekybos el. kasos aparate. Norėdami pasiekti kokio nors atributo filtrų parametrus, puslapyje **Atributai** pasirinkite tą atributą ir veiksmų srityje pasirinkite **Filtrų parametrai**.
 
 Puslapyje **Filtrų rodymo nuostatos** pateikti tolesni laukai.
 
@@ -233,7 +234,7 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
     - Kanalo produkto atributai
 
     > [!NOTE]
-    > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
+    > Jei sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
 
 ![Katalogų produktų atributų grupės](media/CatalogProdAttrValues.png)
 
@@ -255,4 +256,4 @@ Atskirų produktų atributų numatytųjų reikšmių galima nepaisyti produkto l
     - Kanalo produkto atributai
 
     > [!NOTE]
-    > Jei sprendime „Finance and Operations“ sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.
+    > Jei sukuriama bendrai naudojama produktų medija ir bendrai naudojami produktų atributai, jie taikomi visiems mažmeninės prekybos produktams.

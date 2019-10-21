@@ -19,19 +19,19 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4fb02bdeca2d71d84ebdddfd16d471a532823e42
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1564952"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025200"
 ---
 # <a name="retail-price-reports"></a>Mažmeninės kainos ataskaitos
 
 [!include [banner](includes/banner.md)]
 
 
-Siekdami teikti konkurencingas kainas savo klientams, mažmenininkai dažnai keičia produktų kainas. Parduotuvių vadovai nori galimybės lengvai pasiekti nesenus arba būsimus kainų pakeitimus, kad jie galėtų suplanuoti, jog reikiami ištekliai atnaujintų kainų etiketes, rodomas parduotuvės lentynose. Išleidus „Dynamics 365 for Retail 10.0“, parduotuvės vadovas gali atidaryti ataskaitą **Kaina** pasirinkęs **Visos mažmeninės prekybos parduotuves \> Parduotuvė \> Kainų ataskaita** ir peržiūrėti atnaujintų su parduotuve susietų produktų kainas. 
+Siekdami teikti konkurencingas kainas savo klientams, mažmenininkai dažnai keičia produktų kainas. Parduotuvių vadovai nori galimybės lengvai pasiekti nesenus arba būsimus kainų pakeitimus, kad jie galėtų suplanuoti, jog reikiami ištekliai atnaujintų kainų etiketes, rodomas parduotuvės lentynose. Išleidus „Retail 10.0“, parduotuvės vadovas gali atidaryti ataskaitą **Kaina** pasirinkęs **Visos mažmeninės prekybos parduotuves \> Parduotuvė \> Kainų ataskaita** ir peržiūrėti atnaujintų su parduotuve susietų produktų kainas. 
 
 Norėdami įjungti kainų ataskaitą, turite įjungti parametrą **Įjungti mažmeninės prekybos parduotuvės kainų ataskaitą**. Šis parametras pateiktas skirtuke **Mažmeninės prekybos parametrai \> Nuolaidos \> Įvairios**. Atidarius puslapį **Kainų ataskaita** rodomas dialogo langas ir įvairios konfigūracijos. Galimos konfigūracijos pateiktos toliau.
 

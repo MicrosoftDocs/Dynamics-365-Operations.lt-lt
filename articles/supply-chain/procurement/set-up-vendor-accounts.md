@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547680"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249402"
 ---
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
@@ -60,13 +60,13 @@ Galite saugoti tiekėjo kontaktus. Šiuos kontaktus galima naudoti dokumentuose,
 
 Norėdami įtraukti tiekėjo kontaktus, puslapio **Visi tiekėjai** skirtuko **Tiekėjas** grupėje **Nustatyti** spustelėkite **Kontaktai** &gt; **Įtraukti kontaktus**.  
 
-Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informaciją iš kito asmens, kuris jau užregistruotas „Microsoft Dynamics 365 for Finance and Operations“, ir pagal poreikį informaciją redaguoti.  
+Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informaciją iš kito asmens, kuris jau užregistruotas Tiekimo grandinės valdyme, ir pagal poreikį informaciją redaguoti.  
 
 **Pastaba.** Tiekėjo kontakto įtraukimas ir tiekėjo kontaktinės informacijos įtraukimas nėra tas pats veiksmas. Nors galite įtraukti bendrą tiekėjo kontaktinę informaciją, gali būti, kad toje įmonėje kontaktai yra keli konkretūs žmonės ir jie visi turi savo kontaktinę informaciją.  
 
 Kontaktinio asmens įrašo naikinti negalima, jei kontaktas yra nuorodas dokumente. Tačiau kontaktą galima inaktyvinti.  
 
-Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft Office 365“. Tačiau pirmiausia turite nustatyti „Finance and Operations“ ir „Office 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavimo vedlyje, tiek „Microsoft Outlook“ nustatymo vedlyje.
+Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft Office 365“. Tačiau pirmiausia turite nustatyti Tiekimo grandinės valdymo ir „Office 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavime, tiek „Microsoft Outlook“ nustatymo vedlyje.
 
 ## <a name="vendors-in-different-legal-entities"></a>Skirtingų juridinių subjektų tiekėjai
 Jei tiekėjas jūsų organizacijoje registruotas tik vienam juridiniam subjektui ir kiti juridiniai subjektai turi registruoti tą patį tiekėją, galite naudoti puslapį **Įtraukti tiekėją į kitą juridinį subjektą**, norėdami sukonfigūruoti tiekėją vykdyti verslo veiklą su kitu juridiniu subjektu. Pasirinktame juridiniame subjekte turite pasirinkti tiekėjų grupę, valiutą ir tiekėjo sulaikymo būseną.  

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. gegužės 6 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. gegužės 6 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/06/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c541bac532e878c8493a60d95c05c9104d4b96e1
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 6a4571abdb0e104af0a0657c75bf5a6b5764345a
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741549"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023866"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-may-6-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. gegužės 6 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-may-6-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. gegužės 6 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -39,15 +39,15 @@ Kai pasirenkate pasiūlymo paketo šabloną, Pritraukti dabar paragins jus pasir
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2282 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo palaikymo numerius „Microsoft Dynamics Lifecycle Services“ (LCS).
 
-### <a name="platform-update-26"></a>Platformos „update 26“
+### <a name="platform-update-26-for-finance-and-operations"></a>„Finance and Operations“ platformos 26 naujinimas
 
-Papildomos informacijos apie 26 platformos naujinimą žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations“ 26 platformos naujinime (2019 m. gegužės mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
+Papildomos informacijos apie „Finance and Operations“ platformos 26 naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 Finance and Operations“ platformos 26 naujinime (2019 m. gegužės mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-26). 
 
 ### <a name="common-data-service-entity-support-for-custom-fields"></a>Common Data Service objekto palaikymas pasirinktiniams laukams
 
@@ -67,7 +67,7 @@ Kai masiškai registruojate darbuotojus ir pakeičiate jų pakopų pagrindus, pr
 
 ### <a name="worker-address-created-in-common-data-service-isnt-synced-to-talent-317555"></a>Darbuotojo adresas, sukurtas „Common Data Service“ nėra sinchronizuojamas su „Talent“ (317555)
 
-Su šiais pakeitimais adresai, sukurti „Common Data Service“, atnaujinami „Talent Core HR“.
+Įdiegus šį pakeitimą, adresai, sukurti „Common Data Service“, atnaujinami „Talent: Core HR“.
 
 
 ## <a name="in-preview"></a>Peržiūros režimu

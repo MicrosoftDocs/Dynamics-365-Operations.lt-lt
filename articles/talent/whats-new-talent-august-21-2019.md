@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. rugpjūčio 20 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. rugpjūčio 20 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 8/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f437dbbb786456cd335d5fb85e271d224e0a1383
-ms.sourcegitcommit: 4176c333ce3f88c5c68e95bd47e5791d32365dd2
+ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1918214"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024073"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-20-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. rugpjūčio 20 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. rugpjūčio 20 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -43,11 +43,11 @@ Atmetimo priežastis ir komentarai dabar kandidatui rodomi skirtuke **Veikla**. 
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Onboard“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
-Šiame išleidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Core HR“. Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2429 komponavimo versijai.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Core HR“. Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2429 komponavimo versijai.
 
 ### <a name="in-preview"></a>Peržiūros režimu
 
@@ -69,6 +69,6 @@ Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išp
 
 ### <a name="coming-soon"></a>Jau greitai
 
-#### <a name="platform-update-29"></a>Platformos „update 29“
+#### <a name="platform-update-29-for-finance-and-operations"></a>„Finance and Operations“ platformos 29 naujinimas
 
-Daugiau informacijos apie „Platform Update 29“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 29“ (2019 m. spalio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Daugiau informacijos apie 29 platformos naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 Finance and Operations“ platformos 29 naujinime (2019 m. spalio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

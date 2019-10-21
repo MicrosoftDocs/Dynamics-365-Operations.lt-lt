@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 47829a6fcae37e03510929dc46b942455016df0b
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: 829fa771003de7759b237d4499aa038040b46a3f
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577874"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018043"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Daugiakanalės papildomos automatinės išlaidos
 
@@ -34,7 +34,7 @@ ms.locfileid: "1577874"
 
 Įjungus automatinių išlaidų funkcijas, užsakymai, sukurti bet kuriame palaikomame mažmeninės prekybos kanale (elektroniniame kasos aparate (EKA), skambučių centre ir internete), gali naudoti [automatinių išlaidų](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijas, nurodytas ERP programoje ir skirtas tiek antraštės, tiek eilutės lygio susijusioms išlaidoms.
 
-Ankstesniuose nei „Dynamics 365 for Retail“ 10.0, versija leidimuose [automatinių išlaidų](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijos pasiekiamos tik jei užsakymai sukurti „e-Commerce“ ir skambučių centro kanaluose. 10.0 arba naujesnėse versijose EKA sukurti užsakymai gali naudoti automatinių išlaidų konfigūracijas. Tokiu būdu įvairios papildomos išlaidos gali būti sistematiškai įtraukiamos į pardavimo operacijas.
+Ankstesniuose nei „Retail“ 10.0 versija leidimuose [automatinės išlaidos](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijos pasiekiamos tik jei užsakymai sukurti „e-Commerce“ ir skambučių centro kanaluose. 10.0 arba naujesnėse versijose EKA sukurti užsakymai gali naudoti automatinių išlaidų konfigūracijas. Tokiu būdu įvairios papildomos išlaidos gali būti sistematiškai įtraukiamos į pardavimo operacijas.
 
 Naudojant ankstesnius nei 10.0 versija leidimus, EKA vartotojas paraginamas neautomatiškai įvesti siuntimo mokestį tipo „siųsti viską“ arba „siųsti pasirinktus“ POS operacijos metu. Nors įvairių išlaidų programos galimybės naudojamos atsižvelgiant į tai, kaip išlaidos rašomos užsakyme, sistematiškas skaičiavimas nevykdomas – skaičiuojama remiantis vartotojo įvestimi siekiant nustatyti išlaidų vertę. Išlaidas galima įtraukti tik kaip vieną „siuntimo“ susijusių išlaidų kodą ir jų negalima lengvai redaguoti arba keisti EKA jas sukūrus.
 

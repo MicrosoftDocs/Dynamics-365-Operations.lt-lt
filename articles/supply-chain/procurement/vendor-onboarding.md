@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549003"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250162"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 [!include [banner](../includes/banner.md)]
 
 ---
 
-Naujus tiekėjus galima supažindinti ir užregistruoti kaip tiekėjus „Microsoft Dynamics 365 for Finance and Operations“ remiantis informacija, surinkta iš asmens, kuris atstovauja tiekėją.
+Naujus tiekėjus galima supažindinti ir užregistruoti kaip tiekėjus „Microsoft“ „Dynamics 365 Supply Chain Management“ remiantis informacija, surinkta iš asmens, kuris atstovauja tiekėjui.
 
 Procesą sudaro toliau nurodyti veiksmai, kai įvairius vaidmenis turintys asmenys atlieka veiksmus sistemoje.
 
 1. **Duomenų valdymo „OData“** – Objekto importavimas – pradinė užklausa yra galimo tiekėjo registravimo užklausa. Paprastai ši užklausa gaunama iš šaltinio, pvz., kliento nuomojamos svetainės, kuri suteikia anoniminę prieigą. Tiekėjai gali užsiregistruoti pateikdami pagrindinę informaciją, pvz., tiekėjo pavadinimą, pagrindimą, organizacijos numerį ir kontaktinio asmens vardas, pavardę bei el. pašto adresą. Užklausos importuojamos naudojant sąsają Duomenų valdymas.
-2. **Galimo tiekėjo registravimo užklausų sąrašo puslapis** – atsižvelgiant į galimo tiekėjo registravimo užklausoje pateiktą informaciją, įsigijimo specialistas nusprendžia, ar tiekėjas turi būti supažindintas. Įsigijimo specialistas peržiūri gaunamą užklausą „Finance and Operations“ sąrašo puslapyje **Galimo tiekėjo registravimo užklausos**.
+2. **Galimo tiekėjo registravimo užklausų sąrašo puslapis** – atsižvelgiant į galimo tiekėjo registravimo užklausoje pateiktą informaciją, įsigijimo specialistas nusprendžia, ar tiekėjas turi būti supažindintas. Įsigijimo specialistas peržiūri gaunamą užklausą sąrašo puslapyje **Galimo tiekėjo registravimo užklausos**.
 3. **Vartotojų parengimo darbo eiga** – kai įsigijimo specialistas patikrina gaunamos užklausos informaciją ir nusprendžia tęsti supažindinimo procesą, vartotojo užklausos darbo eiga parengia naują vartotoją ir el. paštu išsiunčia kvietimą priimti kontaktinį asmenį kaip autentifikuotą „Microsoft Dynamics 365“ vartotoją.
-4. **Tiekėjo registravimo vedlys** – tiekėjo kontaktinis asmuo prisijungia prie „Finance and Operations“ naudodamas naują vartotojo paskyrą. Jis atlieka tiekėjo registravimo vedlį ir pateikia informaciją, pvz., adresus, verslo informaciją, įsigijimo kategorijas ir atsakymus į klausimyną.
+4. **Tiekėjo registravimo vedlys** – tiekėjo kontaktinis asmuo prisijungia. naudodamas naują vartotojo paskyrą. Jis atlieka tiekėjo registravimo vedlį ir pateikia informaciją, pvz., adresus, verslo informaciją, įsigijimo kategorijas ir atsakymus į klausimyną.
 5. **Patvirtinimo darbo eiga** – sukuriama tiekėjo užklausa, kurioje yra registracijos informacija. Ši tiekėjo užklausa pateikiama į darbo eigą ir nukreipiama peržiūrėti bei patvirtinti.
 6. **Tiekėjo bendrųjų duomenų kūrimas ir vartotojo vaidmens modifikavimas** – patvirtinus tiekėjo užklausą, sukuriamas tiekėjo įrašas. Tiekėjo kontaktinio asmens vartotojo paskyrai suteikiama arba išjungiama prieigos prie tiekėjo bendradarbiavimo teisė.
 
@@ -45,14 +45,14 @@ Toliau pateikiamoje lentelėje parodomi proceso veiksmai ir vaidmenys.
 |--------------------------|---|---|---|---|---|---|
 | System                   | Importuojama naujo tiekėjo užklausa. | | | | | Priėmus tiekėjo užklausą, sukuriamas tiekėjo įrašas. |
 | Įsigijimo specialistas | | Pradėkite supažindinimo procesą. | | | Peržiūrėkite ir priimkite arba atmeskite tiekėjo užklausą. | |
-| Administratorius            | | | Sukurkite vartotoją „Finance and Operations“ ir „Microsoft Azure“. | | | |
+| Administratorius            | | | Sukurkite vartotoją Tiekimo grandinės valdyme ir „Microsoft Azure“. | | | |
 | Tiekėjo kontaktinis asmuo    | | | Siųskite el. laišką kontaktiniam asmeniui. | Užregistruokite tiekėjo informaciją. | | |
 
-Greita tiekėjų supažindinimo proceso demonstracija parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo paruošimas programoje „Dynamics 365 for Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk}).
+Trumpa tiekėjo supažindinimo proceso apžvalga parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo supažindinimas programoje „Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Galimo tiekėjo registravimo užklausos importavimas
 
-Galimo tiekėjo registravimo užklausa yra objektas „Finance and Operations“. Galite nustatyti sistemą importuoti duomenis naudojant šį objektą. 
+Galimo tiekėjo registravimo užklausa yra objektas Tiekimo grandinės valdyme. Galite nustatyti sistemą importuoti duomenis naudojant šį objektą. 
 
 Tolesnėje lentelėje rodoma šiame objekte pateikta informacija, kurią galima importuoti.
 
@@ -65,18 +65,18 @@ Tolesnėje lentelėje rodoma šiame objekte pateikta informacija, kurią galima 
 | Kontaktinio asmens vardas  | Asmens, kuris bus kviečiamas užregistruoti tiekėjo informaciją, vardas. |
 | Kontaktinio asmens antras vardas | Asmens, kuris bus kviečiamas užregistruoti tiekėjo informaciją, antras vardas. |
 | Kontaktinio asmens pavardė   | Asmens, kuris bus kviečiamas užregistruoti tiekėjo informaciją, pavardė. |
-| Kontaktinio asmens el. pašto adresas       | El. pašto adresas, kuris bus naudojamas kuriant naują vartotoją „Finance and Operations“ ir kuris bus užregistruojamas nuomotojo „Azure Active Directory“ („Azure AD“) paskyroje. |
+| Kontaktinio asmens el. pašto adresas       | El. pašto adresas, kuris bus naudojamas kuriant naują vartotoją Tiekimo grandinės valdyme ir kuris bus užregistruojamas nuomotojo „Azure Active Directory“ („Azure AD“) paskyroje. |
 | Pateikimo data               | Diena, kurią užklausa buvo sukurta išorinėje sistemoje. |
-| Juridinis subjektas                 | Juridinis subjektas, kuriame tiekėjas pageidauja tapti tiekėju. Ši reikšmė turi būti juridinio subjekto kodas, užregistruotas „Finance and Operations“. Jei importavimo proceso metu negaunama jokia reikšmė, taikoma reikšmė iš paraiškų parametrų. |
+| Juridinis subjektas                 | Juridinis subjektas, kuriame tiekėjas pageidauja tapti tiekėju. Ši reikšmė turi būti juridinio subjekto kodas, užregistruotas Tiekimo grandinės valdyme. Jei importavimo proceso metu negaunama jokia reikšmė, taikoma reikšmė iš paraiškų parametrų. |
 | Tiekėjo tipas                  | Tiekėjas gali būti organizacija arba asmuo. Tiekėjo tipas nustato, kaip tiekėjas galiausiai sukuriamas. |
 
 Importavus galimo tiekėjo registravimo užklausą, ji rodoma sąrašo puslapyje **Galimo tiekėjo registravimo užklausa**. Iš šio sąrašo puslapio įsigijimo specialistas gali pakviesti vartotoją. Vartotojo parengimo užklausa išsiunčiama į darbo eigą.
 
 ## <a name="submitting-a-prospective-vendor-user-request"></a>Su galimu tiekėju susijusio vartotojo užklausos pateikimas
 
-Su galimu tiekėju susijusio vartotojo užklausos vartotojo užklausos paskirtis yra parengti asmenį, pateikusį pradinę užklausą, kad jis galėtų prisijungti prie „Finance and Operations“ naudodamas el. pašto paskyrą, kuri pateikta galimo tiekėjo registravimo užklausoje.
+Su galimu tiekėju susijusio vartotojo užklausos vartotojo užklausos paskirtis yra parengti asmenį, pateikusį pradinę užklausą, kad jis galėtų prisijungti prie Tiekimo grandinės valdymo naudodamas el. pašto paskyrą, kuri pateikta galimo tiekėjo registravimo užklausoje.
 
-Su galimu tiekėju susijusio vartotojo užklausą apdoroja vartotojo užklausos darbo eiga. Ši darbo eiga susisiekia naudodama „Azure AD“ B2B bendradarbiavimą. Ji sukuria vartotoją „Finance and Operations“, kuriam priskirti atitinkami saugos parametrai.
+Su galimu tiekėju susijusio vartotojo užklausą apdoroja vartotojo užklausos darbo eiga. Ši darbo eiga susisiekia naudodama „Azure AD“ B2B bendradarbiavimą. Ji sukuria vartotoją Tiekimo grandinės valdyme, kuriam priskirti atitinkami saugos parametrai.
 
 Naujiems nustatytiems vartotojams priskiriami toliau nurodyti saugos vaidmenys.
 
@@ -89,7 +89,7 @@ Informacijos apie el. laiško konfigūravimą ir darbo eigą apskritai žr. vart
 
 ## <a name="vendor-registration"></a>Tiekėjo registracija
 
-Su galimu tiekėju susijęs vartotojas, kuris prisijungia prie „Finance and Operations“, matys pirmąjį tiekėjo registravimo vedlio puslapį, kuriame jis gali įvesti tiekėjo informaciją.
+Su galimu tiekėju susijęs vartotojas, kuris prisijungia prie Tiekimo grandinės valdymo, matys pirmąjį tiekėjo registravimo vedlio puslapį, kuriame jis gali įvesti tiekėjo informaciją.
 
 Vedlys atspindi tiekėjo užklausos konfigūraciją. Nuo šalies arba regiono, kuriame tiekėjas vykdo veiklą, priklauso, kokią informaciją prašoma nurodyti vedlyje ir kokia informacija yra privaloma.
 
@@ -119,7 +119,7 @@ Tiekėjo užklausas galima peržiūrėti puslapyje **Tiekėjo bendradarbiavimo v
 
 Tiekėjo užklausos apima informaciją, kurią su galimu tiekėju susijęs vartotojas įveda tiekėjo registravimo vedlyje.
 
-Užklausa suteikia galimybę peržiūrėti tiekėjo informaciją ir nuspręsti, ar tiekėjas turėtų tapti registruotu tiekėju „Finance and Operations“.
+Užklausa suteikia galimybę peržiūrėti tiekėjo informaciją ir nuspręsti, ar tiekėjas turėtų tapti registruotu tiekėju.
 
 Tiekėjo užklausą reikia pateikti į darbo eigą ir nukreipti atitinkamiems tikrintojams ir tvirtintojams. Pagrindinės informacijos, kaip nustatyti darbo eigas, žr. [Paraiškų darbo eigos](procurement-sourcing-workflows.md).
 
@@ -141,7 +141,7 @@ Patvirtinus tiekėjo užklausą, sukuriama tiekėjo paskyra ir būsena **Patvirt
 
 Prieš patvirtindami tiekėjo užklausą, puslapio **Naujo tiekėjas** „FastTab“ **Bendra** pasirinkite **Tiekėjų grupės**, kad pasirinktumėte tiekėjų grupę.
 
-Jei su galimu tiekėju susijusiam vartotojui reikia priskirti prieigą prie „Finance and Operations“ kaip tiekėjo bendradarbiavimo vartotojui, kuris atstovauja tiekėją, nustatykite tiekėjo bendradarbiavimo prieigos teisę į parinktį **Taip**. Norėdami išjungti vartotojo paskyrą, kurią naudodamas galimas tiekėjas užsiregistravo, nustatykite šią teisę į parinktį **Ne**.
+Jei su galimu tiekėju susijusiam vartotojui reikia suteikti prieigą prie Tiekimo grandinės valdymo kaip tiekėjo bendradarbiavimo vartotojui, kuris atstovauja tiekėjui, nustatykite tiekėjo bendradarbiavimo prieigos teisę į parinktį **Taip**. Norėdami išjungti vartotojo paskyrą, kurią naudodamas galimas tiekėjas užsiregistravo, nustatykite šią teisę į parinktį **Ne**.
 
 Jei tiekėjo bendradarbiavimo prieigos teisė nustatyta į parinktį **Taip**, kai tiekėjo užklausa patvirtinama, užklausa pateikiama modifikuoti vartotojo vaidmenis, kad vartotojui būtų priskirti vaidmenys, dalyje **Išoriniai vaidmenys** nurodyti kaip tipo **Tiekėja** vaidmenys. Jei ši teisė nustatyta į parinktį **Ne**, kai tiekėjo užklausa patvirtinama, užklausa pateikiama išjungtam vartotojui. Tokiu atveju reikia nustatyti vartotojo užklausos išjungimo darbo eigą.
 

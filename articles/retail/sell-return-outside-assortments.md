@@ -1,6 +1,6 @@
 ---
 title: Produktų, kurie nėra parduotuvės asortimento dalis, pardavimas ir grąžinimas
-description: Naudodami „Dynamics 365 for Retail“ galite parduoti ir grąžinti į asortimentus neįtrauktus produktus.
+description: Naudodami „Dynamics 365 Retail“ galite parduoti ir grąžinti į asortimentus neįtrauktus produktus.
 author: pdp1207
 manager: AnnBe
 ms.date: 05/24/2017
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ae6bac983ddb4d4a217fe83c8f68c5a87ccd6a47
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567918"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024943"
 ---
 # <a name="sell-and-return-products-that-arent-part-of-a-stores-assortment"></a>Produktų, kurie nėra parduotuvės asortimento dalis, pardavimas ir grąžinimas
 
@@ -37,7 +37,7 @@ Toliau nurodomi įprasti scenarijai.
 + Mažmenininkas konkrečių produktų parduotuvėje neplatina arba jų neturi kliento aplankytoje parduotuvėje, tačiau produktai yra kitose parduotuvėse. Parduotuvės atstovas gali klientui padėti ir produktų ieškoti ar juos naršyti kitoje parduotuvėje, įtraukti produktus į krepšelį ir pasirinkdamas pristatymo būdą užbaigti pirkimą.
 + Mažmenininkas konkrečiame mieste ar pašto indekso teritorijoje arba aplink juos turi daug parduotuvių ir nenori versti klientų produktus grąžinti į tą pačią parduotuvę, kurioje jie buvo įsigyti. Todėl klientai produktus gali grąžinti į bet kurią parduotuvę.
 
-Tokios dažnos situacijos mažmenininkams pateikiamos sprendime „Dynamics 365 for Retail“. Naudodami „Retail‟ galite atlikti tolesnius veiksmus.
+Tokios dažnos situacijos mažmenininkams pateikiamos sprendime „Retail“. Naudodami „Retail‟ galite atlikti tolesnius veiksmus.
 
 + Produktų ieškoti ar juos naršyti kitose parduotuvėse.
 + Ieškoti visų patvirtintų produktų ar juos naršyti.

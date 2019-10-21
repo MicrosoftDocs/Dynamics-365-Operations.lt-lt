@@ -1,6 +1,6 @@
 ---
 title: Fiktyvios prekės
-description: Šioje temoje išsamiai aprašoma, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms programoje „Microsoft Dynamics 365 for Finance and Operations“.
+description: Šioje temoje išsamiai aprašoma, kaip eilutės tipą Fiktyvi galima naudoti komplektavimo specifikacijos (KS) ir formulės eilutėms programoje „Dynamics 365 Supply Chain Management“.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/15/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f01a0321740365c23cbc117be42c0a5137960af7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7c39b0ac2eb8a2293c828fee23ed6a78cb5fe2c9
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843894"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250020"
 ---
 # <a name="phantom-items"></a>Fiktyvios prekės
 
@@ -51,7 +51,7 @@ Toliau pateiktoje iliustracijoje vaizduojama, kaip inžinerinė KS perkeliama į
 
 Priešingai negu inžinerinėje KS, kurioje buvo du operacijų lapai, gamybos KS yra tik vienas operacijų lapas. Su G dalimi susieta pakuotės operacija taip pat perkelta ir dabar yra produkto H operacijų lapo dalis. Elektros įrenginio surinkimas yra pirmoji operacija. Ši tvarka racionali, nes šis įrenginys naudojamas kitoje operacijoje, kuri yra mašinos surinkimas. Paskutinė operacija yra pakavimo operacija, kurią atliekant naudojamos dvi pakavimo medžiagos (C ir D).
 
-Naudojant „Microsoft Dynamics 365 for Finance and Operations“ perėjimą nuo inžinerinės KS prie gamybos KS galima atlikti naudojant fiktyvios KS eilutės tipą. Kaip galima spręsti iš termino „fiktyvi“ reikšmės, pereinant nuo vieno KS tipo prie kito, F ir G dalių neliko. Šiame pavyzdyje fiktyvios eilutės tipas taikomas inžinerinės KS F ir G dalių KS eilutėms. Sukūrus gamybos arba paketo užsakymą inžinerinė KS nukopijuojama į gamybos arba paketo užsakymą. Tada, kai nustatoma apytikslė užsakymo vertė, įvyksta perėjimas iš inžinerinės KS į gamybos KS, kaip pavaizduota pirmesnėse iliustracijose. Antroje iliustracijoje vaizduojamame operacijų lape pakavimo medžiagos C ir D yra operacijos įvestis. 
+Perėjimą nuo inžinerinės KS prie gamybos KS galima atlikti naudojant fiktyvios KS eilutės tipą. Kaip galima spręsti iš termino „fiktyvi“ reikšmės, pereinant nuo vieno KS tipo prie kito, F ir G dalių neliko. Šiame pavyzdyje fiktyvios eilutės tipas taikomas inžinerinės KS F ir G dalių KS eilutėms. Sukūrus gamybos arba paketo užsakymą inžinerinė KS nukopijuojama į gamybos arba paketo užsakymą. Tada, kai nustatoma apytikslė užsakymo vertė, įvyksta perėjimas iš inžinerinės KS į gamybos KS, kaip pavaizduota pirmesnėse iliustracijose. Antroje iliustracijoje vaizduojamame operacijų lape pakavimo medžiagos C ir D yra operacijos įvestis. 
 
 ## <a name="multilevel-phantom-bom-structures"></a>Kelių lygių fiktyvios KS struktūros
 Fiktyvios eilutės tipą galima naudoti kelių lygių KS struktūrose, kaip vaizduojama toliau pateiktoje iliustracijoje. Šioje iliustracijoje (a) yra produkto G KS, o (b) yra E ir F dalių ir produkto G maršruto lapas. 

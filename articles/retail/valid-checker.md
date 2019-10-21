@@ -1,6 +1,6 @@
 ---
 title: Mažmeninės prekybos operacijų vientisumo tikrintuvas
-description: Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos „Microsoft Dynamics 365 for Retail“.
+description: Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 05/30/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: f94a674e021d4f23480433440cd239b851491d87
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790426"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2018423"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mažmeninės prekybos operacijų vientisumo tikrintuvas
 
@@ -31,9 +31,9 @@ ms.locfileid: "1790426"
 [!include [banner](includes/banner.md)]
 [!include [preview banner](includes/preview-banner.md)]
 
-Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos, veikiančios „Microsoft Dynamics 365 for Finance and Operations“ 8.1.3 versijoje. Vientisumo tikrintuvas identifikuoja ir atskiria nesuderinamas operacijas prieš jas paimant į išrašų registravimo procesą.
+Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos. Vientisumo tikrintuvas identifikuoja ir atskiria nesuderinamas operacijas prieš jas paimant į išrašų registravimo procesą.
 
-Išrašą registruojant sprendime „Microsoft Dynamics 365 for Retail“, užregistruoti gali nepavykti dėl mažmeninės prekybos operacijų lentelėse esančių nesuderinamų duomenų. Duomenų problema galėjo įvykti dėl nenumatytų problemų elektroninio kasos aparato (EKA) programoje arba dėl netinkamo operacijų importavimo iš trečiųjų šalių EKA sistemų. Šio nesuderinamumo atvejų pavyzdžiai: 
+Išrašą registruojant „Retail“, užregistruoti gali nepavykti dėl mažmeninės prekybos operacijų lentelėse esančių nesuderinamų duomenų. Duomenų problema galėjo įvykti dėl nenumatytų problemų elektroninio kasos aparato (EKA) programoje arba dėl netinkamo operacijų importavimo iš trečiųjų šalių EKA sistemų. Šio nesuderinamumo atvejų pavyzdžiai: 
 
 - Operacijų suma, nurodyta antraštės lentelėje, nesutampa su eilučių operacijų suma.
 - Eilučių skaičius, nurodytas antraštės lentelėje, nesutampa su operacijų lentelės eilučių skaičiumi.

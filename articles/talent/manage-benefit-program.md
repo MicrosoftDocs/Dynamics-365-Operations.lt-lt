@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 5c54e5fccd7ddc5f8f024e692bb46f4140134578
-ms.sourcegitcommit: 282f05635a7b933fe9bdda7a8187f322ed5ede17
+ms.openlocfilehash: a9a26450be97f655df8bc5983e4718341d40a2d6
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "1755402"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009905"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Išmokų programos nustatymas ir valdymas
 
@@ -51,7 +51,7 @@ Kiekvienam išmokos tipui, pvz., regėjimo ar dantų gydymo, organizacija savo d
 [![išmokų paveikslėlis](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Tinkamumas
-Darbuotojo tinkamumas įvairiems darbdavio siūlomiems išmokų tipams priklauso nuo daugelio faktorių. Kai sukuriate „Microsoft Talent“ išmoką, galite nustatyti tai išmokai taikomą tinkamumo tipą. 
+Darbuotojo tinkamumas įvairiems darbdavio siūlomiems išmokų tipams priklauso nuo daugelio faktorių. Kai sukuriate „Dynamics 365 Talent“ išmoką, galite nustatyti tai išmokai taikomą tinkamumo tipą. 
 
 Galite nustatyti, kad išmoka būtų prieinama visiems darbuotojams. Pavyzdžiui, kai kuriose įmonėse kaip papildoma išmoka siūlomi automobilių stovėjimo leidimai. Sukūrę šią išmoką nustatote tinkamumo pasirinktį **Taikoma visiems darbuotojams**. 
 

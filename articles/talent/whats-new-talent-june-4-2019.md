@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. birželio mėn. 4 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 4 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365“  „Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/04/2019
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e19e5d3f1cb2305e5a4153de3e4d0e8f4c7d31ac
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 32b168eca210b1371db129c05f7035237eb35c38
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856334"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008989"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-june-4-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. birželio mėn. 4 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-june-4-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 4 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Attract“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Attract“.
 
 ## <a name="coming-soon-in-attract"></a>Jau greitai „Attract“
 
@@ -43,7 +43,7 @@ Patvirtinimai rodomi ataskaitų srities skyriuje **Patvirtinimai**. Tvirtintojai
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Onboard“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
@@ -67,7 +67,7 @@ Galimybė sekti darbuotojų ne darbo laiką ir suprasti, kaip jis skaičiuojamas
 
 ### <a name="deleting-a-record-from-talent-doesnt-remove-the-record-from-common-data-service"></a>Panaikinus įrašą iš „Talent“, jis nepašalinamas iš „Common Data Service։
 
-Iš „Talent Core HR“ pašalinami įrašai dabar taip pat pašalinami ir iš „Common Data Service“.
+Iš „Talent: Core HR“ pašalinami įrašai dabar pašalinami ir iš „Common Data Service“.
 
 ### <a name="variable-compensation-plan-valid-fromto-dates-arent-being-honored"></a>Neatsižvelgiama į kintamosios atlyginimo dalies plano galiojimo nuo / iki datas
 

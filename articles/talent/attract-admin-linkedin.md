@@ -1,6 +1,6 @@
 ---
-title: Integravimo su „LinkedIn“ nustatymas „Microsoft Dynamics 365 for Talent - Attract”
-description: Šioje temoje paaiškinama, kaip konfigūruoti „LinkedIn” integravimą „Microsoft Dynamics 365 for Talent - Attract”, kad būtų galima lengvai registruoti darbo skelbimus „LinkedIn“ iš „Attract“ ir kad darbdaviai galėtų sinchronizuoti savo įdarbinimo informaciją su kandidato „LinkedIn” profiliu.
+title: Integravimo su „LinkedIn“ nustatymas „Microsoft Dynamics 365 Talent - Attract”
+description: Šioje temoje paaiškinama, kaip konfigūruoti „LinkedIn” integravimą „Microsoft Dynamics 365 Talent - Attract”, kad būtų galima lengvai registruoti darbo skelbimus „LinkedIn“ iš „Attract“ ir kad darbdaviai galėtų sinchronizuoti savo įdarbinimo informaciją su kandidato „LinkedIn” profiliu.
 author: andreabichsel
 manager: AnnBe
 ms.date: 07/08/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8e42ec7d0bb74089b4e915b5a30277401e694cf9
-ms.sourcegitcommit: c62756cb04549b2ff5de9b93d497e964a340335a
+ms.openlocfilehash: 6b86cafdf364f2de051f3d8ceab7413c2c13c3a5
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "1756227"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009975"
 ---
 # <a name="set-up-linkedin-integration"></a>„LinkedIn“ integravimo nustatymas
 
 [!include[banner](../includes/banner.md)]
 
-Padėkite savo darbdaviams ir samdos vadovams pritraukti talentingiausius, sukonfigūruodami „LinkedIn“ integravimą su „Microsoft Dynamics 365 for Talent: Attract”. „Attract” leidžia jums registruoti darbo skelbimus tiesiai į didžiausią profesionalų internetinį tinklą „LinkedIn”.
+Padėkite savo darbdaviams ir samdos vadovams pritraukti talentingiausius, sukonfigūruodami „LinkedIn“ integravimą su „Microsoft Dynamics 365 Talent: Attract”. „Attract” leidžia jums registruoti darbo skelbimus tiesiai į didžiausią profesionalų internetinį tinklą „LinkedIn”.
 
 Darbo skelbimai, kuriuos registruosite į „LinkedIn” naudodami „Attract”, yra „Apriboti skelbimai” ir jie jūsų kompanijai suteikiami be papildomų išlaidų. Šie skelbimai yra galimi tik naudojant „LinkedIn” programinės įrangos partnerius, pvz., „Attract”. Jie nerodomi jūsų įmonės „LinkedIn” puslapyje, skydelyje **Karjeros**, nes ten rodomi tik mokami skelbimai. Tačiau jie rodomi, kai potencialūs kandidatai peržiūri visus laisvus darbus. Apriboti skelbimai taip pat rodomi „LinkedIn” darbo paieškose.
 

@@ -1,6 +1,6 @@
 ---
-title: Kurią „Microsoft Dynamics 365 for Talent - Attract“ versiją naudoti
-description: Šioje temoje pateikiama informacija apie galimybes naudojant skirtingas „Microsoft Dynamics 365 for Talent - Attract“ versijas.
+title: Kurią „Microsoft Dynamics 365 Talent - Attract“ versiją naudoti?
+description: Šioje temoje pateikiama informacija apie galimybes naudojant skirtingas „Microsoft Dynamics 365 Talent - Attract“ versijas.
 author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 59ab9f418c4d9039ca08a71de0dba0f96216aabb
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: 59f3e78efa8801c81dccff2f45751b47fb30481f
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739720"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009951"
 ---
 # <a name="which-version-of-attract"></a>Kurią „Attract“ versiją naudoti?
 
 [!include[banner](../includes/banner.md)]
 
-Kuri „Microsoft Dynamics 365 for Talent: Attract“ versija jums tinkama priklauso nuo jūsų organizacijos dydžio ir poreikių. Pagrindinėje „Attract“ versijoje pateikiamas subrinkinys funkcijų, skirtų mažesnėms komandoms ar organizacijoms, kur pagrindinis vartotojas yra samdos vadovas. Pradėti naudotis bazine „Attract“ versija galima turint vieną arba daugiau licencijų.
+Kuri „Microsoft Dynamics 365 Talent: Attract“ versija jums tinkama priklauso nuo jūsų organizacijos dydžio ir poreikių. Pagrindinėje „Attract“ versijoje pateikiamas subrinkinys funkcijų, skirtų mažesnėms komandoms ar organizacijoms, kur pagrindinis vartotojas yra samdos vadovas. Pradėti naudotis bazine „Attract“ versija galima turint vieną arba daugiau licencijų.
 
 Programa „Attract“, kuriame pateikiamas išsamios įdarbinimo informacijos priedas, skirta vidutinio dydžio komandoms ar organizacijoms, kur pagrindinis vartotojas yra įdarbintojas arba talentų specialistas. Norint naudotis išsamios įdarbinimo informacijos priedu, licenciją reikia įsigyti iš [„Microsoft Dynamics 365“ partnerio](https://dynamics.microsoft.com/partners/find-a-partner/).
 

@@ -1,6 +1,6 @@
 ---
-title: Karjeros svetainės nustatymas „Microsoft Dynamics 365 for Talent - Attract”
-description: Šioje temoje pateikiama „Microsoft Dynamics 365 for Talent - Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga.
+title: Karjeros svetainės nustatymas „Microsoft Dynamics 365 Talent - Attract”
+description: Šioje temoje pateikiama „Microsoft Dynamics 365 Talent - Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga.
 author: hasrivas
 manager: AnnBe
 ms.date: 03/20/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 32fb5e0c00b80653cf32f37a21f94aa448a20191
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: ec5fe31c6547b008b29e656729c35863d90bffc1
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739776"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026284"
 ---
 # <a name="set-up-your-career-site"></a>Karjeros svetainės nustatymas
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje pateikiama „Microsoft Dynamics 365 for Talent: Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga. Joje taip pat paaiškinama, kaip šią funkciją nustatyti.
+Šioje temoje pateikiama „Microsoft Dynamics 365 Talent: Attract“ kandidatams skirtos karjeros svetainės funkcijos apžvalga. Joje taip pat paaiškinama, kaip šią funkciją nustatyti.
 
 „Attract“ suteikia vieną karjeros svetainę kiekvienai nuomotojo aplinkai. Pvz., jei organizacija naudoja kūrimo aplinką ir tikrinimo aplinką, viena karjeros svetainė skiriama kūrimo aplinkai, o kita karjeros svetainė skiriama tikrinimo aplinkai. Kiekviena karjeros svetainė yra visiškai atskira ir joje veikia atskiras autentifikavimo mechanizmas. Darbai ir kandidatų profiliai nėra bendrinami karjeros svetainėse.
 
@@ -62,7 +62,7 @@ Toliau nurodytame sąraše pateikiami dažnai naudojami karjeros svetainės URL 
 
 -   **Karjeros svetainės pagrindinio puslapio URL** – norėdami peržiūrėti karjeros svetainės pagrindinio puslapio URL, prisijunkite prie „Attract“ kaip administratorius, pasirinkite parinktį **Administravimo centras**, pateiktą meniu **Parametrai**, tada pasirinkite skirtuką **Karjeros svetainės valdymas**.
 
--   **Atskiro darbo skelbimo prašymo teikimo URL** – kai [registruojate išorinę užduotį](Creating-jobs-Attract.md#postings) pirmą kartą, galite kopijuoti saitą **Teikti prašymą** iš „Attract“ programos. Šio saito URL bus pateiktas tokiu formatu: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Atskiro darbo skelbimo prašymo teikimo URL** – kai [registruojate išorinę užduotį](Creating-jobs-Attract.md#postings) pirmą kartą, galite kopijuoti saitą **Teikti prašymą** iš „Attract“. Šio saito URL bus pateiktas tokiu formatu: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **Atskiro darbo skelbimo URL** – darbo skelbimo URL yra antrinė prašymo teikimo URL eilutės eilutė. Ją sudaro visa informacija iki darbo numerio. Todėl prieš tai pateikto prašymo teikimo URL darbo skelbimo URL yra [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

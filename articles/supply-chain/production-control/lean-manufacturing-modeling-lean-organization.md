@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 40664936382f5edcb3c1680aa4af245bdef539a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560145"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250226"
 ---
 # <a name="modeling-a-lean-organization"></a>„Lean“ organizacijos modeliavimas
 
@@ -39,7 +39,7 @@ Gamybos užsakymuose, kurie sudaryti pagal gamybos užsakymus, medžiaga išduod
 
 Siekiant sumažinti pristatymo iš vieno darbo centro į kitą vykdymo laiką ir atsargų perviršį, kurį lemia paketinė gamyba, „lean manufacturing“ gamybos ir sandėlio papildymo procesuose pradedami naudoti „kanban“ papildymo ir prekybos centrų antriniai procesai. Vykdant šiuos antrinius procesus paprastai nutraukiamas iš dalies nepriklausomų „kanban“ ciklų kūrimas. Apdorojant baigto produkto užsakymą daugiau nebesuaktyvinamas neužbaigto produkto „kanban“ papildymo antrinis procesas. 
 
-Kad būtų iš naujo nustatytas įvairių „Microsoft Dynamics 365 for Finance and Operations“ pateikiamų „kanban“ scenarijų gamybos ir išlaidų kontekstas, kaip svarbiausias „lean manufacturing“ procesas pradėtos naudoti pagal veiklas sudarytos gamybos eigos. Visos „kanban“ taisyklės paremtos šia iš anksto nustatyta struktūra. Pagal veiklas sukurtas modelis palaiko kuo įvairiausių scenarijų sąranką. Tačiau, šis modelis nėra sudėtingesnis cecho darbuotojams, todėl, kad visuose scenarijuose naudojama ta pati pagal veiklą sukurta vartotojo sąsaja.
+Kad būtų iš naujo nustatytas įvairių pateikiamų „kanban“ scenarijų gamybos ir išlaidų kontekstas, kaip svarbiausias „lean manufacturing“ procesas pradėtos naudoti pagal veiklas sudarytos gamybos eigos. Visos „kanban“ taisyklės paremtos šia iš anksto nustatyta struktūra. Pagal veiklas sukurtas modelis palaiko kuo įvairiausių scenarijų sąranką. Tačiau, šis modelis nėra sudėtingesnis cecho darbuotojams, todėl, kad visuose scenarijuose naudojama ta pati pagal veiklą sukurta vartotojo sąsaja.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Neužbaigti produktai (ne KS lygiai)
 Naudojant „lean manufacturing“ vienoje sistemoje integruojami inventorizuotų bei neužbaigtų produktų „kanban“, todėl vartotojai visuomet juos galės naudoti vienoje vietoje. Dėl šios architektūros savybių papildomų KS lygių nebereikia įvesti, siekiant įgalinti „kanban“, kuriuos ketinama naudoti su pusiau baigtais produktais. Ši architektūra taip pat padeda iki minimumo sumažinti atsargų operacijų.
@@ -50,7 +50,7 @@ Jei vykdant bet kurį išrinkimo procesą arba registruojant „kanban“ bus at
 ## <a name="value-streams-and-value-stream-mapping"></a>Vertės srautai ir vertės srautų susiejimas
 „Lean manufacturing“ architektūrą įkvėpė Womack ir Jones suformuluoti penki „lean“ principai: kliento vertė, vertės srautas, srautas, „traukimas“ ir tobulinimas. Rekomenduojamas „lean manufacturing“ sprendimų įgyvendinimo gamybos srityje metodas – verčių srautų susiejimas (VSM). Šį metodą Rother ir Shook aprašė „Lean Manufacturing Institute“ instituto išleistame leidinyje „Learning to See“. 
 
-Programoje „Finance and Operations“ būsimą vertės srautą galima modeliuoti kaip gamybos eigos versiją. Visi vertės srauto procesai modeliuojami kaip proceso veiklos. Jei reikia užregistruoti perkėlimo būseną arba integruoti į atsargų išrinkimo ar konsoliduotų siuntimų procesus, perkėlimus galima modeliuoti kaip perkėlimo veiklas. 
+Būsimą vertės srautą galima modeliuoti kaip gamybos eigos versiją. Visi vertės srauto procesai modeliuojami kaip proceso veiklos. Jei reikia užregistruoti perkėlimo būseną arba integruoti į atsargų išrinkimo ar konsoliduotų siuntimų procesus, perkėlimus galima modeliuoti kaip perkėlimo veiklas. 
 
 Pats vertės srautas modeliuojamas kaip valdymo vienetas. Todėl vertės srautą galima naudoti kaip finansinę dimensiją.
 

@@ -1,6 +1,6 @@
 ---
 title: Tiekėjo bendradarbiavimas su klientais
-description: Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą programoje „Microsoft Dynamics 365 for Finance and Operations“, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
+description: Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su PU ir stebėti konsignacijos atsargas.
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bd3967da105b3cec4a722ee8e04fac13c798feec
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e968a57c09837a5cfa5a0476426a274021122959
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567589"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250141"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Tiekėjo bendradarbiavimas su klientais
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft Dynamics 365 for Finance and Operations“. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
+Šioje temoje aprašoma, kaip galite naudoti tiekėjų bendradarbiavimą, norėdami dirbti su klientais programoje „Microsoft“ „Dynamics 365 Supply Chain Management“. Tiekėjai gali atlikti tam tikrus verslo procesus toliau nurodytose darbo srityse.
 
 - **Pirkimo užsakymo patvirtinimas** – pirkimo užsakymų (PU) stebėjimas ir reagavimas į juos.
 - **Tiekėjų kainos siūlymas** – pasiūlymo patvirtinimų (RFQ) peržiūra ir reagavimas į juos įvedant kainos siūlymus.

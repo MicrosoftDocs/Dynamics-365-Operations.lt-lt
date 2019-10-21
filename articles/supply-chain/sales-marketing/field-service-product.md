@@ -1,6 +1,6 @@
 ---
-title: Sinchronizuoti „Finance and Operations“ produktus su „Field Service“ produktais
-description: Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
+title: Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais
+description: Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus sinchronizuojant su „Dynamics 365 Field Service“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
@@ -19,34 +19,34 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 06d7ff272ecb79abded3c3d3ade1f6bc0ef1f095
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: f5f6d41f3e65a3cf5b8c7c96f54b1c8c6cdfaefb
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742360"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249778"
 ---
-# <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>„Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais
+# <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a>Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais
 
 [!include[banner](../includes/banner.md)]
 
-Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Microsoft Dynamics 365 for Finance and Operations“ produktus sinchronizuojant su „Microsoft Dynamics 365 for Field Service“.
+Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus sinchronizuojant su „Dynamics 365 Field Service“.
 
-Naudojamas šablonas **„Field Service“ produktai (iš „Finance and Operations“ į „Field Service“)** sukuriamas pagal potencialių klientų ir grynųjų pinigų šabloną **Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis**. Daugiau informacijos žr. [Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
+Naudojamas šablonas **„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)** sukuriamas pagal potencialių klientų ir grynųjų pinigų šabloną **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**. Daugiau informacijos žr. [Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).
 
-Šioje temoje aprašomas tik skirtumas tarp šablonų **„Field Service“ produktai (iš „Finance and Operations“ į „Field Service“)** ir **Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis**.
+Šioje temoje aprašomas tik skirtumas tarp šablonų **„Field Service“ produktai (iš Supply Chain Management“ į „Field Service“)** ir **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**.
 
 ## <a name="templates-and-tasks"></a>Šablonai ir užduotys
 
-**Šablono pavadinimas naudojant funkciją Duomenų integravimas:**
+**Šablono pavadinimas naudojant funkciją Duomenų integravimas**
 
-- „Field Service“ produktai (iš „Finance and Operations“ į „Field Service“)
+- „Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)
 
-**Užduoties pavadinimas projekte Duomenų integravimas:**
+**Užduoties pavadinimas projekte Duomenų integravimas**
 
 - Produktai – produktai
 
-Šablone **„Field Service“ produktai (iš „Finance and Operations“ į „Field Service“)** pateikiamas vienas susiejimas, kuris nėra įtrauktas į šabloną **Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis**. Šis susiejimas užtikrina, kad būtinas konkretus laukas **„Field Service“ produkto tipas** bus nustatytas teisingai.
+Šablonas **„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“)** apima vieną susiejimą, kuris nėra įtrauktas į šabloną **Produktai (iš „Supply Chain Management“ į „Sales“) – tiesioginis**. Šis susiejimas užtikrina, kad būtinas konkretus laukas **„Field Service“ produkto tipas** bus nustatytas teisingai.
 
 ```
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
@@ -60,7 +60,7 @@ nonInventory  :  690970001
 service       :  690970002 
 ```
 
-Programoje „Finance and Operations“ vertė **„Field Service“ produkto tipas** duomenų objekte **Parduodami patvirtinti produktai** apskaičiuojamas taip, kaip nurodyta toliau.
+Programoje„Supply Chain Management“ vertė **„Field Service“ produkto tipas** duomenų objekte **Parduodami išleisti produktai** apskaičiuojama taip, kaip nurodyta toliau.
 
 - **Atsargos:** produkto tipas = produkto ir prekės modelio grupė, laikomas produktas = True
 - **Ne atsargos:** produkto tipas = produkto ir prekės modelio grupė, laikomas produktas = False
@@ -70,6 +70,6 @@ Programoje „Finance and Operations“ vertė **„Field Service“ produkto ti
 
 Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.
 
-### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>„Field Service“ produktai (iš „Finance and Operations“ į „Field Service“): Produktai – produktai
+### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>„Field Service“ produktai (iš „Supply Chain Management“ į „Field Service“): Produktai – Produktai
 
 [![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct.png)](./media/FSProduct.png)

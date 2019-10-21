@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro katalogai
-description: Šioje temoje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Microsoft Dynamics 365 for Retail“.
+description: Šioje temoje aprašyta konkreti skambučių centro funkcija, skirta katalogams „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 2ad50be1394daf5bffa6391d2f56340aad14120b
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562746"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023664"
 ---
 # <a name="call-center-catalogs"></a>Skambučių centro katalogai
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašyta konkreti skambučių centro funkcija, susieta su katalogo galimybėmis „Microsoft Dynamics 365 for Retail“.
+Šioje temoje aprašyta konkreti skambučių centro funkcija, susieta su katalogo galimybėmis „Dynamics 365 Retail“.
 
-„Dynamics 365 for Retail“ pateiktas katalogo funkcijas galima naudoti keliais tikslais. Iš pradžių katalogo funkcijos buvo sukurtos trečiosios šalies „e-Commerce“ integravimams palaikyti. Katalogo sąranka leido įmonėms kurti produktų ir atributų, kuriuos galima paskelbti išoriškai, kad juos vartotų trečiosios šalies „e-Commerce“ sprendimas, grupes.
+„Retail“ pateiktas katalogo funkcijas galima naudoti keliais tikslais. Iš pradžių katalogo funkcijos buvo sukurtos trečiosios šalies „e-Commerce“ integravimams palaikyti. Katalogo sąranka leido įmonėms kurti produktų ir atributų, kuriuos galima paskelbti išoriškai, kad juos vartotų trečiosios šalies „e-Commerce“ sprendimas, grupes.
 
-Į „Dynamics 365 for Retail“ įtraukus skambučių centro kanalo palaikymą, katalogo koncepcija buvo išplėsta įtraukiant papildomų palaikymo galimybių ir valdymo funkcijų, susijusių su įprastais tiesioginės vartotojo rinkodaros katalogais. Tiesioginio vartotojo įmonė dažnai gamins spausdintus katalogus, kurie vėliau bus siunčiami vienam ar keliems klientų segmentams. Šiuose kataloguose paprastai bus skelbiamos konkrečios akcijos ar pasiūlymai, kurie bus apmokėti tik tada, jei klientas užsakymo kūrimo metu pateiks katalogo identifikacijos kodą.
+Į „Retail“ įtraukus skambučių centro kanalo palaikymą, katalogo koncepcija buvo išplėsta įtraukiant papildomų palaikymo galimybių ir valdymo funkcijų, susijusių su įprastais tiesioginės vartotojo rinkodaros katalogais. Tiesioginio vartotojo įmonė dažnai gamins spausdintus katalogus, kurie vėliau bus siunčiami vienam ar keliems klientų segmentams. Šiuose kataloguose paprastai bus skelbiamos konkrečios akcijos ar pasiūlymai, kurie bus apmokėti tik tada, jei klientas užsakymo kūrimo metu pateiks katalogo identifikacijos kodą.
 
-Tiesioginės vartotojo rinkodaros įmonės visą dėmesį teikia sekdamos atsakymus į šiuos katalogus, kad užtikrintų, jog gamybos ir siuntimo išlaidos bus pagrįstos. Kad atsakymą būtų galima sekti, paprastai ant katalogo nugarėlės atspausdinamas kodas, kurio bus prašoma ir kuris bus naudojamas, kai katalogo gavėjas telefonu pateiks užsakymą (dabar kodą paprastai galima įvesti klientui užsakymą pateikus internetu). Nors šiam kodui identifikuoti naudojama keletas pramonėje vartojamų sąvokų (įskaitant sąvokas „raktinis kodas“, „reklaminis kodas“, „katalogo kodas“, „šaltinio kodas“), šį kodą „Dynamics 365 for Retail“ vadinsime **šaltinio kodo ID**.
+Tiesioginės vartotojo rinkodaros įmonės visą dėmesį teikia sekdamos atsakymus į šiuos katalogus, kad užtikrintų, jog gamybos ir siuntimo išlaidos bus pagrįstos. Kad atsakymą būtų galima sekti, paprastai ant katalogo nugarėlės atspausdinamas kodas, kurio bus prašoma ir kuris bus naudojamas, kai katalogo gavėjas telefonu pateiks užsakymą (dabar kodą paprastai galima įvesti klientui užsakymą pateikus internetu). Nors šiam kodui identifikuoti naudojama keletas pramonėje vartojamų sąvokų (įskaitant sąvokas „raktinis kodas“, „reklaminis kodas“, „katalogo kodas“, „šaltinio kodas“), šį kodą „Retail“ vadinsime **šaltinio kodo ID**.
 
 ## <a name="basic-catalog-setup"></a>Pagrindinio katalogo sąranka
 
@@ -92,7 +92,7 @@ Produktų kataloge konfigūruodami produktus, naudokite veiksmą **Produkto pusl
 
 ## <a name="catalog-requests"></a>Katalogo užklausos
 
-Kadangi katalogai konfigūruojami ir skelbiami „Dynamics 365 for Retail“, galima pasinaudoti funkcija **Siųsti katalogą**. Ši funkcija pasiekiama puslapiuose **Kliento ieška** ir **Klientų aptarnavimas**. Pasirinkę kliento įrašą per sritį **Kliento ieška** arba peržvelgdami pasirinktą kliento sąskaitą srityje **Klientų aptarnavimas**, vartotojai gali pasirinkti parinktį **Siųsti katalogą**, kuria pasinaudojus bus atidarytas dialogo langas ir vartotojas galės rinktis iš paskelbtų ir aktyvių katalogų sąrašo. Vartotojas gali pasirinkti siųsti katalogą ir kiekį bei konkretų šaltinio kodo ID. Spustelėjus mygtuką **Siųsti** užklausa bus išsaugota, todėl ja vėliau bus galima pasinaudoti spausdinant ataskaitą į **Katalogo užklausos**. Šią ataskaitą rasite apsilankę parinktyje **Mažmeninė prekyba** \> **Skambučių centro ataskaitos** \> **Katalogo užklausų ataskaita**. Joje bus pateiktos visos katalogo užklausos, įskaitant kliento, pateikusio katalogo užklausą, vardo, pavardės ir adreso informaciją. Šią ataskaitą galima naudoti viduje arba duomenis galima perduoti trečiajai šaliai, kuri palaiko išorinius procesus, naudojamus tada, kai katalogas klientui siunčiamas faktiškai.
+Kadangi katalogai konfigūruojami ir skelbiami „Retail“, galima pasinaudoti funkcija **Siųsti katalogą**. Ši funkcija pasiekiama puslapiuose **Kliento ieška** ir **Klientų aptarnavimas**. Pasirinkę kliento įrašą per sritį **Kliento ieška** arba peržvelgdami pasirinktą kliento sąskaitą srityje **Klientų aptarnavimas**, vartotojai gali pasirinkti parinktį **Siųsti katalogą**, kuria pasinaudojus bus atidarytas dialogo langas ir vartotojas galės rinktis iš paskelbtų ir aktyvių katalogų sąrašo. Vartotojas gali pasirinkti siųsti katalogą ir kiekį bei konkretų šaltinio kodo ID. Spustelėjus mygtuką **Siųsti** užklausa bus išsaugota, todėl ja vėliau bus galima pasinaudoti spausdinant ataskaitą į **Katalogo užklausos**. Šią ataskaitą rasite apsilankę parinktyje **Mažmeninė prekyba** \> **Skambučių centro ataskaitos** \> **Katalogo užklausų ataskaita**. Joje bus pateiktos visos katalogo užklausos, įskaitant kliento, pateikusio katalogo užklausą, vardo, pavardės ir adreso informaciją. Šią ataskaitą galima naudoti viduje arba duomenis galima perduoti trečiajai šaliai, kuri palaiko išorinius procesus, naudojamus tada, kai katalogas klientui siunčiamas faktiškai.
 
 ## <a name="additional-features"></a>Papildomos funkcijos
 

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 31 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. spalio 31 d.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/31/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d6942f8e4dc86f18a081b347df0567b1358a87ab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: d2ad9be740d917a760815718a1473d7bcba97968
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518676"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025937"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-31-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 31 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-31-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR“ (2018 m. spalio 31 d.)
 
 [!include [banner](includes/banner.md)]
 
@@ -33,15 +33,15 @@ ms.locfileid: "1518676"
 
 Šioje temoje aprašomos naujos ir pakeistos „Core HR“ funkcijos.
 
-## <a name="create-links-from-talent-to-finance-and-operations"></a>Kurti duomenų saitus iš „Talent“ į „Finance and Operations“
-Naudodamiesi šia nauja naršymo funkcija galite susieti „Talent“ su „Finance and Operations“ ir tiesiogiai pereiti į „Finance and Operations“ puslapius. Konfigūruodami saitus galite nurodyti saito pavadinimą ir grupę, kur saitas bus rodomas „Talent“, bei paskirties puslapį, kuris bus atidaromas „Finance and Operations“.
+## <a name="create-links-from-talent-to-finance"></a>„Talent“ ir „Finance“ saitų kūrimas
+Naudodamiesi šia nauja naršymo funkcija galite susieti „Talent“ su „Finance“ ir tiesiogiai pereiti į „Finance“ puslapius. Konfigūruodami saitus galite nurodyti saito pavadinimą ir grupę, kur saitas bus rodomas „Talent“, bei paskirties puslapį, kuris bus atidaromas „Finance“.
 
 #### <a name="coming-soon"></a>Jau greitai
-Ateityje bus įtrauktas laukų kontekstas, kad galėtumėte tiesiogiai pereiti į atitinkamus „Finance and Operations“ įrašus. Pavyzdžiui, galite naudotiesi **lauko saitu** nurodyti kontekstą, leidžiantį tiesiogiai pereiti į konkretaus darbuotojo arba pareigų duomenis „Finance and Operations“.
+Ateityje bus įtrauktas laukų kontekstas, kad galėtumėte tiesiogiai pereiti į atitinkamus „Finance“ įrašus. Pavyzdžiui, galite naudodami parinktį **Lauko saitas** nurodyti kontekstą, leidžiantį tiesiogiai pereiti į konkretaus darbuotojo arba pareigų duomenis „Finance“.
 
 ### <a name="configure-target-systems"></a>Konfigūruoti paskirties sistemas
 
-Naudodamiesi „Talent“ sistemos administratoriai gali nustatyti saitus, kuriuos bus galima naudoti sistemos administravimo darbo srityje. Konfigūruodami turėsite nustatyti „Finance and Operations“ aplinkas, į kurias naudodamiesi saitu norite pereiti kaip į paskirties vietą. Tai padarysite suteikdami paskirties sistemai pavadinimą ir nurodydami „Finance and Operations“ aplinkos URL. „Finance and Operations“ URL, kurį turėtumėte nurodyti, pavyzdys: https://devax00124aos.cloud.test.dynamics.com/. Sukonfigūravę paskirties sistemas galite nustatyti saitus.
+Naudodamiesi „Talent“ sistemos administratoriai gali nustatyti saitus, kuriuos bus galima naudoti sistemos administravimo darbo srityje. Konfigūruodami turėsite nustatyti „Finance“ aplinkas, į kurias naudodamiesi saitu norite pereiti kaip į paskirties vietą. Tai padarysite suteikdami paskirties sistemai pavadinimą ir nurodydami „Finance“ aplinkos URL. „Finance“ URL, kurį turėtumėte nurodyti, pavyzdys: https://devax00124aos.cloud.test.dynamics.com/. Sukonfigūravę paskirties sistemas galite nustatyti saitus.
 
 ### <a name="configure-links"></a>Konfigūruoti saitus
 
@@ -51,27 +51,27 @@ Kiekviename kuriamame saite bus nurodyta tolesnė informacija.
 
 - Įjungti šį saitą – nustatykite **Taip**, jei norite, kad saitą matytų „Talent“ vartotojai.
 
-- Rodomas pavadinimas – nurodykite pavadinimą, kuris bus rodomas kaip „Finance and Operations“ saitas. Šiuo metu šie duomenys nėra išversti.
+- Rodomas pavadinimas – nurodykite pavadinimą, kuris bus rodomas kaip „Finance“ saitas. Šiuo metu šie duomenys nėra išversti.
 
 - Formoje pridėti saitą – pasirinkite, kurį puslapį norite rodyti naudodami saitą.
 
 - Grupė – grupės nėra būtinos, tačiau jei norite tvarkyti savo saitus naudodami grupes, pasirinkite esamą grupę arba sukurkite naują naudodamiesi lauku **Grupė**.
 
-- Paskiries sistema – pasirinkite paskirties sistemą, sukurtą naudojant parinktį **Konfigūruoti paskirties sistemą**. Tai bus „Finance and Operations“ aplinka, į kurią bus pereinama naudojant saitą.
+- Paskiries sistema – pasirinkite paskirties sistemą, sukurtą naudojant parinktį **Konfigūruoti paskirties sistemą**. Tai bus „Finance“ aplinka, naudojama naršant ir naudojant saitą.
 
-- Naudoti dabartinę vartotojo įmonę – pasirinkite **Taip**, jei pereinant į „Finance and Operations“ norite naudoti dabartinės vartotojo įmonės kontekstą. Jei pasirinksite **Ne**, galėsite pasirinkti įmonę, kuri bus naudojama.
+- Naudoti dabartinę vartotojo įmonę – pasirinkite **Taip**, jei pereinant į „Finance“ norite naudoti dabartinės vartotojo įmonės kontekstą. Jei pasirinksite **Ne**, galėsite pasirinkti įmonę, kuri bus naudojama.
 
-- Paskirties meniu elementas – įveskite meniu elementą iš „Finance and Operation“, į kurį bus pereinama pasirinkus saitą. Yra meniu elementų, į kuriuos galite pereiti tiesiogiai. Norėdami rasti reikiamą meniu elementą atidarykite „Finance and Operations“ ir naršymo paskirties puslapį. Nukopijuokite meniu elementą iš URL. Pavyzdžiui, jei norite, kad saitas atidarytų darbuotojų sąrašą, esantį „Finance and Operations“, įveskite reikšmę, kuri URL bus po &mi. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Meniu elemento, perkeliančio į darbuotojų sąrašo puslapį, pavyzdys: HcmWorkerListPage_Employees.
+- Paskirties meniu elementas – įveskite meniu elementą iš „Finance“, į kurį bus pereinama pasirinkus saitą. Yra meniu elementų, į kuriuos galite pereiti tiesiogiai. Norėdami rasti reikiamą meniu elementą atidarykite „Finance“ ir naršymo paskirties puslapį. Nukopijuokite meniu elementą iš URL. Pavyzdžiui, jei norite, kad saitas atidarytų darbuotojų sąrašą, esantį „Finance and Operations“, įveskite reikšmę, kuri URL bus po &mi. https://devax00124aos.cloud.test.dynamics.com/?p=USMF&mi=HcmWorkerListPage_Employees. Meniu elemento, perkeliančio į darbuotojų sąrašo puslapį, pavyzdys: HcmWorkerListPage_Employees.
 
 - Susieti su duomenų šaltiniu – pasirinkite duomenų šaltinį, kurį nurodo saitas. Galimi dažniausiai naudojami šaltiniai, pvz., **Darbininkas** ir **Pareigos**.
 
-- Lauko saitas – (jau greitai) pasirinkę šią lauko parinktį galėsite tiesiogiai pereiti iš vieno „Talent“ įrašo į vieną „Finance and Operations“ įrašą.
+- Lauko saitas – (jau greitai) pasirinkę šią lauko parinktį galėsite tiesiogiai pereiti iš vieno „Talent“ įrašo į vieną „Finance“ įrašą.
 
 ### <a name="access-to-links"></a>Prieiga prie saitų
 
 Sistemos administratoriai nustatytuose puslapiuose matys naujai sukurtus saitus, net jei pasirinkta parinkties **Įjungti šį saitą** reikšmė yra **Ne**. Tai galima naudoti norint patikrinti saitus prieš pateikiant juos naudoti kitiems darbuotojams. Visi kiti vaidmenys matys tik sukonfigūruotus saitus, kai parinktis **Įjungti šį saitą** bus nustatyta kaip **Taip**. Saitus galės pasiekti darbuotojai, turintys prieigą prie puslapių, kuriuose šie saitai yra pridėti.
 
-Vartotojai taip pat gali turėti saugos teisių „Finance and Operations “, nustatanių prieigą prie „Finance and Operations“ puslapių. Jei jie jų neturi, naudojant saitą bus rodomas saugos dialogo langas.
+Vartotojai taip pat gali turėti saugos teisių „Finance“, nustatančių prieigą prie „Finance and Operations“ puslapių. Jei jie jų neturi, naudojant saitą bus rodomas saugos dialogo langas.
 
 
 ## <a name="other-changesfixes"></a>Kiti pakeitimai / pataisos

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c1aaae7a276d098587b5b9c73e433694e3a6f9bf
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554350"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2248923"
 ---
 # <a name="product-receipt-against-purchase-orders"></a>Produkto gavimas pagal pirkimo užsakymą
 
@@ -52,7 +52,7 @@ Galite kurti PU eilutes, kuriose suaktyvinta parinktis **Naujas ilgalaikis turta
 
 Galite pasirinkti kelis užsakymus ir kartu apdoroti visų užsakymų gavimą. Šis metodas nėra labai dažnai naudojamas, bet jį naudoti gali būti naudinga, jei tiekėjas konsolidavo siuntas į vieną krovinį. Perkamo produkto gavimo metu galima atlikti suminių naujinimų. Suminiai naujinimai suteikia galimybę vieną tiekėjo važtaraštį užregistruoti daugiau nei vienam PU.  
 
-PU galima kurti iš pardavimo užsakymo, kuriame pažymėta parinktis **Tiesioginis pristatymas**. Naudojant tiesioginį pristatymą, produktai niekada nepristatomi į jūsų sandėlį, bet yra tiesiogiai siunčiami iš tiekėjo klientui. Tokiu atveju gavimas paprastai užregistruojamas tiesiai PU. Gavimą galima atlikti automatiškai, pvz., naudojant elektroninių duomenų apsikeitimo (EDI) integraciją su tiekėju. Jei PU yra vidinės įmonės PU, „Microsoft Dynamics 365 for Finance and Operations“ siuntimo metu automatizuoja vidinės įmonės pardavimo užsakymo gavimą. Naudojant tiesioginį pristatymą, produktai vis tiek apskaitomi kaip atsargos, nors jie fiziškai nėra pristatomi į sandėlį. Todėl, kai PU užregistruojamas produkto gavimas, pardavimo užsakymas yra automatiškai atnaujinamas pridedant važtaraštį, kad bendras atsargų pokytis būtų 0 (nulis). Naudojant tiesioginį pristatymą, išankstinė registracija nereikalinga. Jei naudojate sandėlius, kuriuose galima naudoti sandėlio valdymo funkciją, numerio lentelės registravimo reikalavimą galite apeiti nurodydami virtualų sandėlį. Šis sandėlis nurodomas produkto lauke **Tiesioginio pristatymo sandėlis**. 
+PU galima kurti iš pardavimo užsakymo, kuriame pažymėta parinktis **Tiesioginis pristatymas**. Naudojant tiesioginį pristatymą, produktai niekada nepristatomi į jūsų sandėlį, bet yra tiesiogiai siunčiami iš tiekėjo klientui. Tokiu atveju gavimas paprastai užregistruojamas tiesiai PU. Gavimą galima atlikti automatiškai, pvz., naudojant elektroninių duomenų apsikeitimo (EDI) integraciją su tiekėju. Jei PU yra vidinės įmonės PU, Tiekimo grandinės valdymas siuntimo metu automatizuoja vidinės įmonės pardavimo užsakymo gavimą. Naudojant tiesioginį pristatymą, produktai vis tiek apskaitomi kaip atsargos, nors jie fiziškai nėra pristatomi į sandėlį. Todėl, kai PU užregistruojamas produkto gavimas, pardavimo užsakymas yra automatiškai atnaujinamas pridedant važtaraštį, kad bendras atsargų pokytis būtų 0 (nulis). Naudojant tiesioginį pristatymą, išankstinė registracija nereikalinga. Jei naudojate sandėlius, kuriuose galima naudoti sandėlio valdymo funkciją, numerio lentelės registravimo reikalavimą galite apeiti nurodydami virtualų sandėlį. Šis sandėlis nurodomas produkto lauke **Tiesioginio pristatymo sandėlis**. 
 
 PU apdorojus produkto gavimą, PU būsena nustatoma kaip **Gauta**, siekiant nurodyti, kad galima apdoroti užsakymo SF. Galite peržiūrėti informaciją apie jau gautus produktus puslapyje **Produktų gavimo žurnalai**.  
 

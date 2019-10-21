@@ -1,6 +1,6 @@
 ---
-title: Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 2 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 2 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/02/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f224114b132ae54dddb7766268c1fc5ec49e109d
-ms.sourcegitcommit: ef08bf1258aefb525d56bf85ef19311be26ab94c
+ms.openlocfilehash: 9cc45a3ed468541fc0a5c8e80e745854148165e4
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "1795249"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2026080"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-2-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 2 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 2 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -46,7 +46,7 @@ Galite tinkinti patvirtinimo el. laiškų turinį naujuose šablonuose.
 Skirtuko **Dokumentai** patobulinimai – dabar prašymų ir talentų telkinių profiliuose rodomi dokumento pavadinimas ir tipas.
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="coming-soon-attract-and-onboard"></a>Jau greitai („Attract“ ir „Onboard“)
 
@@ -56,14 +56,14 @@ Skirtuko **Dokumentai** patobulinimai – dabar prašymų ir talentų telkinių 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2216 komponavimo versijai.
 
-### <a name="platform-update-25"></a>Platformos „update 25“
-Daugiau informacijos apie 25 platformos naujinimą žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations“ 25 platformos naujinime (2019 m. balandžio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>„Finance and Operations“ platformos 25 naujinimas
+Daugiau informacijos apie platformos 25  naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 for Finance and Operations“ platformos 25 naujinime (2019 m. balandžio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Išplėstinės kompensacijos sauga (fiksuota ir kintama)
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Saugos vaidmenis galite priskirti fiksuota, ir kintamam planams. Šie saugos vaidmenys nustato prieigą prie planų ir susijusių darbuotojų duomenų, pvz., darbo užmokesčio arba premijų įrašų, kad tik šiuos vaidmenis turintys asmenys galėtų apdoroti darbuotojų grupių kompensacijas.
 
 ### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
-Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir sužinokite, ar jūsų duomenų bazę reikia naujovint. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir nustatykite, ar reikia naujinti duomenų bazę. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
@@ -79,4 +79,4 @@ Organizacijos gali norėti priežasčių kodus priskirti tam tikriems nedarbo la
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-25 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis. 
+Įdiegę „Finance and Operations“ platformos 25 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai. 

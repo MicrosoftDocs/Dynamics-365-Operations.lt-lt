@@ -1,6 +1,6 @@
 ---
-title: Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 9 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 9 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/09/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4959f28e0768d43f90a664022c714a126c88e38d
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: 08f3f8150a120817618ee4d31197f3088c7483ab
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856429"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024096"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-9-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 9 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 9 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -91,4 +91,4 @@ Darbuotojų nedarbo laiko sekimas ir supratimas, kaip skaičiuojamas nedarbo lai
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-25 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis. 
+Įdiegę „Finance and Operations“ platformos 25 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai. 

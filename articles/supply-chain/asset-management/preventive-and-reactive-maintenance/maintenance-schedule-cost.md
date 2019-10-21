@@ -3,7 +3,7 @@ title: Priežiūros grafiko išlaidos
 description: Šioje temoje aiškinama priežiūros grafiko savikaina skiltyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71b958839a914d90a86a0dcd16a09285ca6dcfa4
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: b2f53a4a64b06efc9269c607bfe1fc3a41c90cdd
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875788"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922073"
 ---
 # <a name="maintenance-schedule-cost"></a>Priežiūros grafiko išlaidos
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Turto valdyme galite priežiūros grafiko eilutėse apskaičiuoti biudžeto išlaidas. Ši funkcija naudinga, kai norite peržiūrėti numatomas išlaidas, pavyzdžiui, išlaidas, susijusias su planuotomis prevencinėmis priežiūros užduotimis kitiems metams. Skaičiavimai grindžiami jau esamomis priežiūros grafiko eilutėmis, kurių tipas atitinka skiltis „Priežiūros planai“, „Priežiūros ciklai“ ir „Priežiūros užklausos“.
 
@@ -48,10 +46,11 @@ Turto valdyme galite priežiūros grafiko eilutėse apskaičiuoti biudžeto išl
 
 5. Norėdami pradėti skaičiuoti savikainą, spustelėkite **Gerai**.
 
-6. Skirtuke **Priežiūros grafiko savikaina** > grupės veiksmų srityje **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, kad būtų rodomas reikalingas išsamumo lygis savikainai skaičiuoti. Pasirinktos veiksmų srities grupės mygtukai yra paryškinti mėlynai. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
+6. Skirtuke **Priežiūros grafiko savikaina** > grupės veiksmų srityje **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, kad būtų rodomas reikalingas išsamumo lygis savikainai skaičiuoti. Pažymėti veiksmų srities grupės mygtukai yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
 7. Spustelėkite mygtuką **Skaičiuoti savikainą**, jei norite naujai skaičiuoti savikainą.
 
+Toliau pateiktame paveikslėlyje pateikiami priežiūros grafiko savikainos skaičiavimo rezultatai.
 
-![1 pav.](media/17-preventive-maintenance.png)
+![1 pav.](media/17-preventive-maintenance.png)
 

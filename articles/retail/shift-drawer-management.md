@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e600e1d2bb4bc1a49d55fb58b3e74fa7e13fc2af
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556444"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2017902"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Pamainos ir kasos stalčių valdymas
 
@@ -32,7 +32,7 @@ ms.locfileid: "1556444"
 
 Šioje temoje paaiškinama, kaip mažmeninės prekybos elektroniniame kasos aparate (EKA) nustatyti ir naudoti pamainas.
 
-Sprendime „Microsoft Dynamics 365 for Retail“ terminu *pamaina* aprašomas EKA operacijų duomenų rinkimas tarp dviejų laiko taškų. Numatoma kiekvienos pamainos pinigų suma palyginama su apskaičiuota ir deklaruota suma.
+Sprendime „Dynamics 365 Retail“ terminu *pamaina* aprašomas EKA operacijų duomenų rinkimas tarp dviejų laiko taškų. Numatoma kiekvienos pamainos pinigų suma palyginama su apskaičiuota ir deklaruota suma.
 
 Paprastai pamainos pradedamos darbo dienos pradžioje. Tuo metu vartotojas deklaruoja pradinę sumą, esančią kasos stalčiuje. Tada visą dieną atliekamos pardavimo operacijos. Galiausiai dienos pabaigoje suskaičiuojamas stalčius ir deklaruojamos galutinės sumos. Pamaina baigiama ir sugeneruojama Z ataskaita. Z ataskaita nurodo, ar yra perteklius, ar – trūkumas.
 
@@ -69,7 +69,7 @@ Kad parduotuvėje būtų galima naudoti bendrai naudojamas pamainas, kasos stal�
 
 ## <a name="shift-and-drawer-operations"></a>Pamainų ir stalčių operacijos
 
-Pamainos būsenai pakeisti arba pinigų sumai kasos stalčiuje padidinti ar sumažinti galima atlikti įvairias operacijas. Šiame skyriuje aprašomos šios pamainų operacijos, skirtos „Microsoft Dynamics 365 for Retail“ sprendimams „Modern POS“ ir „Cloud POS“.
+Pamainos būsenai pakeisti arba pinigų sumai kasos stalčiuje padidinti ar sumažinti galima atlikti įvairias operacijas. Šiame skyriuje aprašomos šios pamainų operacijos, skirtos sprendimams „Retail Modern POS“ ir „Cloud POS“.
 
 ### <a name="open-shift"></a>Atidaryta pamaina
 

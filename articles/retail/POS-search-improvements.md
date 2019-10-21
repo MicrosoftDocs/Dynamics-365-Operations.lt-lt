@@ -1,6 +1,6 @@
 ---
 title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
-description: Šioje temoje apžvelgiama, kaip patobulinta „Microsoft Dynamics 365 for Retail“ produktų ir klientų ieškos funkcija.
+description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Retail“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/10/2019
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: b2f1d522a60721c746d03e477615265f9a8ba9a0
-ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
+ms.openlocfilehash: 60db9e9936f7728d76f5c7a0d0c31b33477c7c61
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "1625647"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2023691"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -99,7 +99,10 @@ Ieška pagal telefono numerį supaprastinta. Atliekant tokią iešką dabar igno
 
 ![Kliento ieškos nuorodos](./media/SearchShortcutsPOS.png "Kliento ieškos nuorodos")
 
-Norėdamas nustatyti ieškos kriterijus kaip nuorodas, administratorius turi atidaryti puslapį **Mažmeninės prekybos parametrai** programoje „Microsoft Dynamics 365 for Finance and Operations“, tada skirtuke **EKA ieškos kriterijai** pasirinkti kriterijus, kurie turėtų būti rodomi kaip nuorodos.
+
+
+Norėdamas nustatyti ieškos kriterijus kaip nuorodas, administratorius turi atidaryti puslapį **Mažmeninės prekybos parametrai** programoje „Microsoft“ „Dynamics 365 Retail“, tada skirtuke **EKA ieškos kriterijai** pasirinkti visus kriterijus, kurie turėtų būti rodomi kaip nuorodos.
+
 
 ![Ieškos nuorodų konfigūravimas](./media/ConfigureShortcutsAX.png "Ieškos nuorodų konfigūravimas")
 
@@ -111,6 +114,6 @@ Lauke **Rodymo tvarka** laukas nurodoma tvarka, kuria nuorodos rodomos EKA. Rodo
 > [!NOTE]
 > Į išvardijimą įtraukta pasirinktinė ypatybė, neturi įtakos standartiniam klientų ieškos algoritmui. Kitaip tariant, klientų ieškos algoritmas neieškos pasirinktinėje ypatybėje. Vartotojai ieškodami gali naudoti pasirinktines ypatybes tik jei tos pasirinktinės ypatybės yra įtrauktos kaip nuorodos arba jei numatytasis ieškos algoritmas yra perrašytas.
 
-Būsimame „Microsoft Dynamics 365 for Retail“ leidime pardavėjai galės nustatyti numatytąjį EKA kliento ieškos režimą, kad būtų **Ieškoma visose parduotuvėse**. Ši konfigūracija gali būti naudinga scenarijuose, kuriuose būtina nedelsiant rasti už EKA ribų sukurtus klientus (pvz., net prieš vykdant paskirstymo užduotį). Galima naudotis nauja EKA funkcijų šablono parinktimi **Numatytasis kliento ieškos režimas**. Nustatykite, kad ši parinktis būtų **Įjungta**, kad būtų galima nustatyti numatytojo ieškos režimo parinktį **Ieškoma visose parduotuvėse**. Po kiekvieno kliento ieškos bandymo realiuoju laiku kreipiamasi į būstinę.
+Būsimame „Retail“ leidime pardavėjai galės nustatyti numatytąjį EKA kliento ieškos režimą, kad būtų **Ieškoma visose parduotuvėse**. Ši konfigūracija gali būti naudinga scenarijuose, kuriuose būtina nedelsiant rasti už EKA ribų sukurtus klientus (pvz., net prieš vykdant paskirstymo užduotį). Galima naudotis nauja EKA funkcijų šablono parinktimi **Numatytasis kliento ieškos režimas**. Nustatykite, kad ši parinktis būtų **Įjungta**, kad būtų galima nustatyti numatytojo ieškos režimo parinktį **Ieškoma visose parduotuvėse**. Po kiekvieno kliento ieškos bandymo realiuoju laiku kreipiamasi į būstinę.
 
 Siekiant išvengti nenumatytų funkcionalumo problemų, ši konfigūracija paslėpta už versijos vėliavėlės, kurios pavadinimas **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Todėl norėdamas, kad vartotojo sąsajoje (UI) būtų rodoma nuostata **Numatytasis kliento ieškos režimas**, pardavėjas turi sukurti palaikymo bilietą vartotojo priėmimo bandymui (UAT) ir gamybos aplinkas. Gavusi bilietą inžinierių komanda dirba su pardavėju, kad įsitikintų, jog pardavėjas bandymą atlieka ne gamybos aplinkose, kad įvertintų efektyvumą ir įdiegtų visus reikiamus optimizavimus.

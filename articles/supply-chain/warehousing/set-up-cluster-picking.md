@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 84b6d3c3caa09b9601701ca4ac1992b151c0b8d4
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559005"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249755"
 ---
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +34,7 @@ ms.locfileid: "1559005"
 
 Pateikus darbo užsakymus į sandėlį, darbuotojas gali naudoti mobilųjį įrenginį norėdamas priskirti užsakymus klasteriui. Klasteris darbuotojui suorganizuos paėmimo darbą. Kai darbo užsakymas priskiriamas klasteriui, darbuotojas turi naudoti klasterio paėmimą, kad atliktų užsakymo paėmimo darbą. Darbuotas negali naudoti kitų paėmimo būdų. Jei darbo užsakymas klasteriui priskiriamas per klaidą, darbuotojas turi išskaidyti klasterį ir perkurti.
 
-Jei reikia, darbuotojas gali perduoti klasterį kitam darbuotojui. Tada klasterio būsena pakeičiama į Perduota. Kai darbuotojas naudoja mobilųjį įrenginį norėdamas nurodyti, kad paėmimo ir atidėjimo darbas baigtas, siuntą arba krovinį reikia patvirtinti „Dynamics 365 for Finance and Operations“ kliente.
+Jei reikia, darbuotojas gali perduoti klasterį kitam darbuotojui. Tada klasterio būsena pakeičiama į Perduota. Kai darbuotojas naudoja mobilųjį įrenginį norėdamas nurodyti, kad paėmimo ir atidėjimo darbas baigtas, siuntą arba krovinį reikia patvirtinti kliente.
 
 ## <a name="set-up-cluster-picking"></a>Klasterio paėmimo nustatymas
 

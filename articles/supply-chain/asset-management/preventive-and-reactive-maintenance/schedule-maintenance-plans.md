@@ -3,7 +3,7 @@ title: Planuoti priežiūros planus
 description: Šioje temoje paaiškinta, kaip planuoti priežiūros planus modulyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b6e5bde83474fe8971e482af518f7cee23a2220
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 698888533bf503838f455585f61cc7afc7239b05
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875794"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922050"
 ---
 # <a name="schedule-maintenance-plans"></a>Planuoti priežiūros planus
 
@@ -49,13 +49,13 @@ Planuojant prevencinę priežiūrą pagal nustatytus turto priežiūros planus g
 
 - Dėl priežiūros planų planavimo funkcinėse vietose: jei suplanavę priežiūros planus atnaujinsite „FastTab“ **Visos funkcinės vietos** > **Priežiūros planai** esančių priežiūros planų turto tipų, gamintojų ir modelių sąranką, su ta funkcine vieta susiję esami priežiūros grafiko įrašai bus automatiškai ištrinti. Norėdami kurti naujus kalendoriaus įrašus, kurie atitinka atnaujintą priežiūros plano sąranką funkcinėje vietoje, turite paleisti naują tos funkcinės vietos priežiūros plano grafiką. Norėdami gauti daugiau informacijos apie funkcinių vietų turto tipų, gamintojų ir modelių sąranką, žr. [Funkcinių vietų kūrimas](../functional-locations/create-functional-locations.md).
 
->*Pavyzdys:* norite sukurti konkrečios funkcinės vietos priežiūros planą, o tai reiškia, kad planuojant priežiūros planą bus įtrauktas visas turtas, nustatytas toje funkcinėje vietoje bet kuriuo metu. Tokiu atveju, reikia sukurti priežiūros planą ir pasirinkti konkrečią funkcinę vietą, tačiau į priežiūros planą NEĮTRAUKTI jokių objektų. Rezultatas – suplanavus tą priežiūros planą, bus sukurtos viso turto, tuo metu susijusio su funkcine vieta, priežiūros grafiko eilutės.
+>*Pavyzdys:* norite sukurti konkrečios funkcinės vietos priežiūros planą, o tai reiškia, kad planuojant priežiūros planą bus įtrauktas visas turtas, nustatytas toje funkcinėje vietoje bet kuriuo metu. Tokiu atveju, sukuriate priežiūros planą ir pasirenkate konkrečią funkcinę vietą, tačiau į priežiūros planą NEĮTRAUKIATE jokio turto. Rezultatas – suplanavus tą priežiūros planą, bus sukurtos viso turto, tuo metu susijusio su funkcine vieta, priežiūros grafiko eilutės.
 
 - Jei srityje **Turto tipai** atlikite turto tipų, gamintojų ir modelių pakeitimus, tie pakeitimai turės įtakos tik naujam turtui, kuriame naudojamas atnaujintas turto tipas. Norėdami gauti daugiau informacijos apie turto tipų sąranką žr. [Turto tipai](../setup-for-objects/object-types.md).  
 
-5. Spustelėkite **Gerai**, kad būtų pradėti generuoti turto priežiūros grafiko įrašai. Sugeneruoti įrašai bus rodomi sąrašo puslapyje **Visas priežiūros grafikas**.
+5. Spustelėkite **Gerai**, kad būtų pradėti generuoti turto priežiūros grafiko įrašai. Sugeneruoti įrašai bus rodomi sąrašo puslapyje **Visas priežiūros grafikas**. Toliau pateikiamame paveikslėlyje pavaizduotas dialogo lango **Planuoti priežiūros planus** pavyzdys.
 
-![1 pav.](media/09-preventive-maintenance.png)
+![1 pav.](media/09-preventive-maintenance.png)
 
 - Dialogo lange **Planuoti priežiūros planus**, „FastTab“ **Vykdyti fone** galite nustatyti paketines užduotis, kad kalendoriaus įrašai būtų automatiškai generuojami reguliariais intervalais.  
 - Planuojant prevencinę priežiūrą priežiūros nebus sukurta grafiko eilučių, kurių numatoma pradžios data ir laikas yra ankstesni už sistemos datą ir laiką.  
@@ -75,3 +75,4 @@ Iš aprašytų pavyzdžių matyti, kad visose skaitiklio turto registracijose ma
 ![3 paveikslėlis](media/11-preventive-maintenance.png)
 
 ![4 paveikslėlis](media/12-preventive-maintenance.png)
+

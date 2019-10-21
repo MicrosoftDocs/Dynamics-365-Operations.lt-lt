@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 00ea121385d74b3f8992d34fb485a8232325ea3f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2e57a410c0c7a73d8ab9e14254fe107d5e5c10db
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835747"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251627"
 ---
 # <a name="sales-orders-mobile-workspace"></a>Mobilioji darbo sritis Pardavimo užsakymai
 
@@ -31,9 +31,9 @@ ms.locfileid: "1835747"
 
 Šioje temoje pateikiama informacijos apie mobiliąją darbo sritį **Pardavimo užsakymai**. Ši darbo sritis suteikia galimybę bet kur ir bet kada peržiūrėti naujausią pardavimo užsakymų informaciją. 
 
-Ši mobilioji darbo sritis skirta naudoti kartu su programa „Microsoft Dynamics 365 for Unified Operations Mobile“.
+Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 Mobiliojoje darbo srityje **Pardavimo užsakymai** galite peržiūrėti išsamią informaciją apie kiekvieną pardavimo užsakymą. Ši informacija apima užsakymo būseną, kliento kontaktinę informaciją ir užsakymo priėmėjo kontaktinę informaciją. Mobilioji darbo sritis **Pardavimo užsakymai** pateikia momentinį pardavimo užsakymų rodinį. Galite peržiūrėti visus užsakymus, pardavimo užsakymus pagal klientą arba informaciją apie konkretų pardavimo užsakymą. 
 
 Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuoti pardavimo užsakymus.
@@ -83,8 +83,8 @@ Mobilioji darbo sritis pateikia du rodinius, kad galėtumėte išsamiai analizuo
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Būtinosios sąlygos skiriasi priklausomai nuo jūsų organizacijoje visuotinai įdiegtos „Microsoft Dynamics 365“ versijos.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Būtinosios sąlygos, jeigu naudojate „Microsoft Dynamics 365 for Finance and Operations“ 
-Jei jūsų organizacijoje visuotinai įdiegtas „Dynamics 365 for Finance and Operations“, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pardavimo užsakymai**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-supply-chain-management"></a>Būtinosios sąlygos naudojant Tiekimo grandinės valdymą 
+Jei jūsų organizacijoje įdiegtas Tiekimo grandinės valdymas, sistemos administratorius turi publikuoti mobiliąją darbo sritį **Pardavimo užsakymai**. Instrukcijų ieškokite dalyje [Mobiliosios darbo srities publikavimas](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Būtinosios sąlygos, jei naudojate „Dynamics 365 for Operations“ 1611 versiją su 3 platformos naujinimu arba naujesnę versiją
 Jei jūsų organizacijoje visuotinai įdiegta „Dynamics 365 for Operations“ 1611 versija su 3 platformos naujinimu arba naujesnė versija, sistemos administratorius turi įvykdyti tolesnes būtinąsias sąlygas. 
@@ -120,7 +120,7 @@ Jei jūsų organizacijoje visuotinai įdiegta „Dynamics 365 for Operations“ 
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Atsisiųskite ir įdiekite mobiliąją programą „Dynamics 365 for Unified Operations“:
+Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 23 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 23 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/23/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
-ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
+ms.openlocfilehash: 1a70be88e3ab65bb0bdd844347e8ba69e4ba61a5
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "1624586"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024119"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 23 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-23-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 23 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Attract“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Attract“.
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 for Talent: Onboard“.
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2253 komponavimo versijai. Skaičiai skliausteliuose nurodo palaikymo numerius „Lifecycle Services“ (LCS).
@@ -79,4 +79,4 @@ Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o
 ## <a name="known-issues"></a>Žinomos problemos
 
 ### <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-26 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis.
+Įdiegę „Finance and Operations“ platformos 26 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.

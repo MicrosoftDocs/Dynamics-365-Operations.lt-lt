@@ -3,7 +3,7 @@ title: Poreikio prognozių nustatymas
 description: Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/16/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551958"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249577"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -42,9 +42,9 @@ Prekė ir jos dimensijos turi būti tik vieno prekių paskirstymo rakto dalis, j
 Norėdami sandėliavimo vienetą (SKU) įtraukti į prekių paskirstymo raktą, pasirinkite **Bendrasis planavimas** &gt; **Sąranka** &gt; **Poreikio prognozės** &gt; **Prekių paskirstymo raktai**. Naudokite puslapį **Priskirti prekes**, norėdami prekę priskirti paskirstymo raktui.
 
 ## <a name="intercompany-planning-groups"></a>Vidinės įmonės planavimo grupės
-Poreikio prognozės generuoja visų įmonių prognozes. Programoje „Microsoft Dynamics 365 for Finance and Operations“ kartu suplanuotos įmonės yra sugrupuojamos į vieną vidinės įmonės planavimo grupę. Norėdami nurodyti, kurie kiekvienos įmonės prekių paskirstymo raktai turėtų būtų naudojami prognozuojant poreikį, susiekite vidinės įmonės planavimo grupės narį su prekės paskirstymo raktu pasirinkdami **Bendrasis planavimas** &gt; **Sąranka** &gt; **Vidinės įmonės planavimo grupės**. 
+Poreikio prognozės generuoja visų įmonių prognozes. Programoje „Dynamics 365 Supply Chain Management“ kartu suplanuotos įmonės yra sugrupuojamos į vieną vidinės įmonės planavimo grupę. Norėdami nurodyti, kurie kiekvienos įmonės prekių paskirstymo raktai turėtų būtų naudojami prognozuojant poreikį, susiekite vidinės įmonės planavimo grupės narį su prekės paskirstymo raktu pasirinkdami **Bendrasis planavimas** &gt; **Sąranka** &gt; **Vidinės įmonės planavimo grupės**. 
 
-Pagal numatytuosius parametrus, jei prekių paskirstymo raktai nėra priskirti vidinės įmonės planavimo grupės nariams, skaičiuojama visų prekių, priskirtų visiems prekių paskirstymo raktams iš visų „Finance and Operations“ įmonių, poreikio prognozė. Puslapyje **Generuoti pagrindinę statistinę prognozę** galima naudoti papildomas įmonių ir prekių paskirstymo raktų filtravimo parinktis. 
+Pagal numatytuosius parametrus, jei prekių paskirstymo raktai nėra priskirti vidinės įmonės planavimo grupės nariams, skaičiuojama visų prekių, priskirtų visiems prekių paskirstymo raktams iš visų įmonių, poreikio prognozė. Puslapyje **Generuoti pagrindinę statistinę prognozę** galima naudoti papildomas įmonių ir prekių paskirstymo raktų filtravimo parinktis. 
 
 Peržiūrėkite prognozuojamų prekių skaičių. Nereikalingos prekės gali padidinti išlaidas, kai naudojate „Microsoft Azure“ mašininį mokymą.
 
@@ -55,7 +55,7 @@ Poreikio prognozės generuoja prognozes, išreikštas kiekiais. Todėl lauke **P
 
 Poreikio prognozes galima naudoti norint nustatyti tiek priklausomą, tiek nepriklausomą poreikį. Pavyzdžiui, jei pažymėtas tik žymės langelis **Pardavimo užsakymas** ir jei visos prekės, įtrauktos į poreikio prognozę, yra parduodamos, sistema apskaičiuoja nepriklausomą poreikį. Tačiau į prekių paskirstymo raktus ir poreikio prognozes galima įtraukti kritinių subkomponentų. Tokiu atveju, jei pažymėtas žymės langelis **Gamybos eilutė**, skaičiuojama priklausomo poreikio prognozė. 
 
-Pagrindinę prognozę „Finance and Operations“ galima kurti dviem būdais. Galite naudoti retrospektyvinius duomenis ir prognozės modelius arba tiesiog galite retrospektyvinius duomenis nukopijuoti į prognozę. Lauke **Prognozės generavimo strategija** galima pasirinkti vieną iš šių dviejų būdų. Norėdami naudoti prognozės modelius, pasirinkite **„Azure“ mašininis mokymas**. 
+Pagrindinę prognozę galima kurti dviem būdais. Galite naudoti retrospektyvinius duomenis ir prognozės modelius arba tiesiog galite retrospektyvinius duomenis nukopijuoti į prognozę. Lauke **Prognozės generavimo strategija** galima pasirinkti vieną iš šių dviejų būdų. Norėdami naudoti prognozės modelius, pasirinkite **„Azure“ mašininis mokymas**. 
 
 Spustelėdami kairiojoje puslapio **Poreikio prognozės parametrai** srityje esančią dalį **Prognozės dimensijos** taip pat galite pasirinkti, kurį prognozės dimensijų rinkinį naudoti generuojant poreikio prognozę. Prognozės dimensija nurodo nustatytą prognozės išsamumo lygį. Įmonė, teritorija ir prekių paskirstymo raktas yra privalomos prognozės dimensijos, bet prognozes taip pat galima generuoti sandėlio, atsargų būsenos, klientų grupės, kliento sąskaitos, šalies / regiono, būsenos ir prekės bei visų prekių dimensijų lygiuose. 
 
@@ -63,7 +63,7 @@ Prognozės dimensijas į naudojamų poreikio prognozės dimensijų sąrašą įt
 
 Ne visos prekių elgsena prognozuojant poreikį vienoda. Panašias prekes galima sugrupuoti į vieną prekės paskirstymo raktą, o kiekvienam prekių paskirstymo raktui galima nustatyti konkrečius parametrus, pvz., operacijų tipus ir prognozės metodo parametrus. Kairėje puslapio **Poreikio prognozės parametrai** srityje spustelėkite **Prekių paskirstymo raktai**. 
 
-„Finance and Operations“ naudoja mašininio mokymo žiniatinklio tarnybą prognozei generuoti. Norėdami prisijungti prie tarnybos, turite „Finance and Operations“ pateikti toliau nurodytą informaciją, jei prisijungiate prie „Microsoft Azure“ mašininio mokymo studijos.
+„Supply Chain Management“ naudoja mašininio mokymo žiniatinklio tarnybą prognozei generuoti. Norėdami prisijungti prie tarnybos, turite pateikti toliau nurodytą informaciją, jei prisijungiate prie „Microsoft Azure“ mašininio mokymo studijos.
 
 -   Žiniatinklio tarnybos taikomojo programavimo sąsajos (API) raktas
 -   Žiniatinklio tarnybos galinio punkto URL
@@ -72,10 +72,23 @@ Ne visos prekių elgsena prognozuojant poreikį vienoda. Panašias prekes galima
 
 **Pastaba:** „Azure“ saugyklos abonemento pavadinimas ir raktas yra privalomi tik jei naudojate pasirinktinį saugyklos abonementą. Jei diegiate vietinę versiją, privalote turėti pasirinktinį „Azure“ saugyklos abonementą, kad mašininio mokymo tarnyba galėtų pasiekti retrospektyvinius duomenis. 
 
-Norėdami kurti poreikio prognozes, galite įdiegti savo tarnybą naudodami mašininio mokymo studiją arba „Finance and Operations“ poreikio prognozės bandymus. „Finance and Operations“ poreikio prognozės bandymų kaip tinklo tarnybos diegimo instrukcijos pateikiamos „Finance and Operations“. Puslapyje **Poreikio prognozės parametrai** spustelėkite skirtuką **„Azure“ mašininis mokymas**.
+Norėdami kurti poreikio prognozes, galite įdiegti savo tarnybą naudodami mašininio mokymo studiją arba „Supply Chain Management“ poreikio prognozės bandymus. Poreikio prognozės bandymų kaip tinklo tarnybos diegimo instrukcijos pateikiamos „Finance and Operations“. Puslapyje **Poreikio prognozės parametrai** spustelėkite skirtuką **„Azure“ mašininis mokymas**.
 
-## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>„Finance and Operations“ poreikio prognozės mašininio mokymo tarnybos parametrai
-Norėdami peržiūrėti „Finance and Operations“ poreikio prognozės tarnybos parametrus, kuriuos galima konfigūruoti, pasirinkite **Bendrasis planavimas** &gt; **Sąranka** &gt; **Poreikio prognozė** &gt; **Prognozavimo algoritmo parametrai**. Puslapyje **Prognozavimo algoritmo parametrai** rodomos numatytosios parametrų reikšmės. Šiuos parametrus galima perrašyti puslapyje **Poreikio prognozės parametrai**. Naudokite skirtuką **Bendra**, jei parametrus norite perrašyti skirtuke visuotinai, arba naudokite skirtuką **Prekių paskirstymo raktai**, jei norite perrašyti konkrečių prekių paskirstymo raktų parametrus. Perrašyti konkretaus prekių paskirstymo rakto parametrai turi įtakos tik su tuo prekių paskirstymo raktu susietų prekių prognozei.
+## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Poreikio prognozės mašininio mokymo tarnybos parametrai
+Norėdami peržiūrėti poreikio prognozės tarnybos parametrus, kuriuos galima konfigūruoti, pasirinkite **Bendrasis planavimas** &gt; **Sąranka** &gt; **Poreikio prognozė** &gt; **Prognozavimo algoritmo parametrai**. Puslapyje **Prognozavimo algoritmo parametrai** rodomos numatytosios parametrų reikšmės. Šiuos parametrus galima perrašyti puslapyje **Poreikio prognozės parametrai**. Naudokite skirtuką **Bendra**, jei parametrus norite perrašyti skirtuke visuotinai, arba naudokite skirtuką **Prekių paskirstymo raktai**, jei norite perrašyti konkrečių prekių paskirstymo raktų parametrus. Perrašyti konkretaus prekių paskirstymo rakto parametrai turi įtakos tik su tuo prekių paskirstymo raktu susietų prekių prognozei.
+
+### <a name="forecast-algorithm-parameters"></a>Prognozės algoritmo parametrai
+
+Skirtuke **Paskirstymo raktai** galite nustatyti **prognozės algoritmo parametrus** kiekvienam prekių paskirstymo raktui. Galimos toliau nurodytos pasirinktys.
+- **Patikimumo lygis procentais**. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 procentų tikimybę, kad ateities poreikis nepateks į patikimumo intervalo diapazoną.
+- **Priverstinis sezoniškumas**. Nurodo, ar reikia priverstinai naudoti modelį, kad būtų naudojamas tam tikras sezoniškumas. Tai taikoma tik pasirinktims ARIMA ir ETS. Pasirinktys: AUTO (numatytoji), NONE, ADDITIVE, MULTIPLICATIVE.
+- **Prognozės modelis**. Pasirinktys: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALL. Norėdami pasirinkti tinkamiausią modelį, naudokite pasirinktį **ALL**.
+- **Didžiausia prognozuota vertė**. Nurodo didžiausią vertę, kurią reikia naudoti prognozėje. Formatas: +1E[n] arba skaitinė konstanta.
+- **Mažiausia prognozuota vertė**. Nurodo mažiausią vertę, kurią reikia naudoti prognozėje. Formatas: ‑1E[n] arba skaitinė konstanta.
+- **Trūkstamos vertės pakaitalai**. Nurodo, kaip užpildomos praeities duomenų spragos. Pasirinktys: skaitinė vertė, MEAN, PREVIOUS, INTERPOLATE LINEAR, INTERPOLATE POLYNOMIAL.
+- **Trūkstamos vertės pakaitalų apimtis**. Nurodo, ar vertės keitimas taikomas tik kiekvienam atskiram duomenų diapazono detalumo atributui ar visam duomenų rinkiniui. Pasirinktys: GRANULARITY_ATTRIBUTE (numatytoji), GLOBAL.
+- **Užuomina apie sezoniškumą**. Jei naudojate sezoninius duomenis, pateikite prognozės modeliui užuominą, kad pagerintumėte prognozės tikslumą. Formatas: sveikasis skaičius, nurodantis poreikio kartojimosi šabloną. Pavyzdžiui, įvesdami 6 nurodykite duomenis, kurie kartojasi kas 6 mėnesius.
+- **Rinkinio dydžio procento tikrinimas**. Praeities duomenų procentas, kurį reikia naudoti kaip testinį rinkinį skaičiuojant prognozės tikslumą. 
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

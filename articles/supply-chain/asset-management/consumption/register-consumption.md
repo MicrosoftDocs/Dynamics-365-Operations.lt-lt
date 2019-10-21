@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7f785b0935b952d6de68fd120a3639077ad124bd
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913099"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024665"
 ---
 # <a name="register-consumption"></a>Suvartojimo registravimas
 
@@ -93,5 +93,5 @@ Registruojant suvartojimą į registracijas konkrečia seka įtraukiamos finansi
 *Prekių registracijos:* jei yra, pirmiausia įtraukiamos žurnalo antraštės finansinės dimensijos. Tada įtraukiamos susijusio darbo užsakymo projekto finansinės dimensijos. Tada įtraukiamos vietos finansinės dimensijos. Galiausiai įtraukiamos prekės finansinės dimensijos.
 
 >[!NOTE]
->Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai – „Dynamics 365 for Finance and Operations“ standartinė sąranka.
+>Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai yra standartinė sprendimo „Finance and Operations“ sąranka.
 

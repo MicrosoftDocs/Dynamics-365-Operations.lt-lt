@@ -1,6 +1,6 @@
 ---
 title: Skambučių centro kanalų nustatymas
-description: Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant „Microsoft Dynamics 365 for Retail“.
+description: Šioje temoje pateikiama informacija apie tai, kaip apdoroti skambučių centrų užsakymus naudojant „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 36491e4d2e63819ce637afb69744089d820c69b0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549364"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024826"
 ---
 # <a name="set-up-call-center-channels"></a>Skambučių centro kanalų nustatymas
 
 [!include [banner](includes/banner.md)]
 
-Programoje „Microsoft Dynamics 365 for Retail“ įmonė gali nurodyti keletą skambučių centro kanalų. Skambučių centro kanalai konfigūruojami pasirinkus **Mažmeninė prekyba** \> **Kanalai** \> **Skambučių centrai** \> **Visi skambučių centrai** ir jie būdingi konkrečiam juridiniam subjektui.
+Programoje „Dynamics 365 Retail“ įmonė gali nurodyti keletą skambučių centro kanalų. Skambučių centro kanalai konfigūruojami pasirinkus **Mažmeninė prekyba** \> **Kanalai** \> **Skambučių centrai** \> **Visi skambučių centrai** ir jie būdingi konkrečiam juridiniam subjektui.
 
 Sukūrus naują skambučių centro kanalą jam sistemingai priskiriamas valdymo vieneto numeris. Kadangi skambučių centrai kuriami kaip valdymo vienetai, vartotojai gali susieti skambučių centro kanalą su įvairiomis mažmeninės prekybos funkcijomis, pavyzdžiui, asortimentais, katalogais ir konkrečiais pristatymo būdais.
 
@@ -76,6 +76,8 @@ Nurodžius skambučių centro kanalą to kanalo vartotojus būtina susieti su sk
 
 Pagal numatytuosius nustatymus visų to skambučių centro vartotojų sukurtų pardavimo užsakymų antraščių žymė **Mažmeninė prekyba** įjungta. Tada pateikiant užsakymus galima pasinaudoti sistemos mažmeninei prekybai būdingos kainos ir nuolaidos funkcijomis.
 
-Su skambučių centro kanalu nesusieti vartotojai naudojasi standartinėmis „Microsoft Dynamics 365 for Finance and Operations“ užsakymo įvedimo funkcijomis. Šių vartotojų pildant pardavimo užsakymo įvedimo formą įvestų užsakymų sistema nepripažįsta kaip mažmeninės prekybos užsakymų. Be to, šiems šių vartotojų įvestiems užsakymams netaikomos jokios baigto užsakymo apdorojimo taisyklės, mažmeninės prekybos kainų logika ar kiti atliekant skambučių centro kanalo konfigūraciją arba nurodant skambučių centro sistemos parametrus galimi taikyti kriterijai.
+
+Su skambučių centro kanalu nesusieti vartotojai naudojasi standartinėmis „Microsoft“ „Dynamics 365 Finance“ užsakymo įvedimo funkcijomis. Šių vartotojų pildant pardavimo užsakymo įvedimo formą įvestų užsakymų sistema nepripažįsta kaip mažmeninės prekybos užsakymų. Be to, šiems šių vartotojų įvestiems užsakymams netaikomos jokios baigto užsakymo apdorojimo taisyklės, mažmeninės prekybos kainų logika ar kiti atliekant skambučių centro kanalo konfigūraciją arba nurodant skambučių centro sistemos parametrus galimi taikyti kriterijai.
+
 
 Baigę konfigūruoti skambučių centro kanalą ir nurodę kanalo vartotojus, siekdami užtikrinti reikiamą sistemos elgseną, įsitikinkite, kad srityje **Mažmeninė prekyba** \> **Kanalo sąranka** \> **Skambučių centro sąranka** \> **Skambučių centro parametrai** nurodyti visi reikiami skambučių centro parametrai. Įsitikinkite, kad būtų nurodomos ir susijusios numeracijos.

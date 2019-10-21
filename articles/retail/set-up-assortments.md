@@ -1,6 +1,6 @@
 ---
 title: Asortimento nustatymas
-description: Šiame straipsnyje aprašyta, kas yra asortimentas ir paaiškinta, kaip asortimentus nustatyti sprendime „Microsoft Dynamics 365 for Retail“.
+description: Šiame straipsnyje aprašyta, kas yra asortimentas ir paaiškinta, kaip asortimentus nustatyti sprendime „Dynamics 365 Retail“.
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a9578a0784d4f4fbfca27ec4093a3f61d1068a47
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fb0ca55478d0676f46fee70082645523b6bfdb78
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546414"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024919"
 ---
 # <a name="set-up-assortments"></a>Asortimentų nustatymas
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje aprašyta, kas yra asortimentas ir paaiškinta, kaip asortimentus nustatyti sprendime „Microsoft Dynamics 365 for Retail“.
+Šiame straipsnyje aprašyta, kas yra asortimentas ir paaiškinta, kaip asortimentus nustatyti sprendime „Dynamics 365 Retail“.
 
 Asortimentas yra susijusių produktų, kuriuos priskiriate mažmeninės prekybos kanalui, pvz., plytos ir skiedinys sandėlyje arba internetinėje parduotuvėje, rinkinys. Asortimentą galite naudoti identifikuoti produktams, kurie yra kiekvienoje parduotuvėje. Galite naudoti asortimentą identifikuoti produktus, kurie yra kiekvienoje parduotuvėje. Asortimente gali būti produktų kategorijos. Todėl visi konkrečiai kategorijai priskirti produktai yra įtraukti į asortimentą. Asortimentas taip pat gali apimti konkrečius produktus ir konkrečius produktų variantus. Kurdami asortimentą, tuo pačiu metu galite priskirti tūkstančius produktų savo mažmeninės prekybos kanalams, bet kartu ir visus derinius, kurių reikia jūsų parduotuvėms. Galite nustatyti tiek produktų asortimente, kiek jums reikia. Kiekvieną produktą galima įtraukti į vieną ar daugiau asortimentų, o kiekvieną asortimentą galima priskirti vienam ar keliems mažmeninės prekybos kanalsms. Pavyzdžiui, nustatykite vieną asortimentą, kuris apima bazinį produktų rinkinį. Šį asortimentą gauna visos parduotuvės. Tada nustatykite kitą asortimentą, kuris apima tik didelę sporto įrangą. Šį asortimentą gauna tik didesnės parduotuvės. Toliau pateikiamoje diagramoje parodyta, kaip priskirti produktus asortimentui ir kaip asortimentus priskirti mažmeninės prekybos kanalams.
 
@@ -44,7 +44,7 @@ Prieš sukurdami asortimentą ir priskirdami jį prie mažmeninės prekybos kana
 |-----------------------------------|-------------|
 | Sukurkite mažmeninės prekybos kanalą.          | Mažmeninės prekybos kanalas skirtas plytų ir skiedinio parduotuvei, internetinei parduotuvei arba ar internetinei prekyvietei. Turite sukurti bent vieną mažmeninės prekybos kanalą ir sukonfigūruoti parduotuvės parinktis. Asortimentai priskiriami parduotuvėms, kad būtų galima identifikuoti parduotuvės produktus. |
 | Sukurkite organizacijos hierarchiją. | Sukūrę savo organizacijos mažmeninės prekybos kanalą, turite sukonfigūruoti mažmeninės organizacijos hierarchiją, kuri atitinka jūsų mažmeninės prekybos kanalo organizacinę struktūrą. Organizacijos hierarchiją galima naudoti asortimentams, prekių papildymui ir ataskaitoms. Pridėdami savo mažmeninės prekybos kanalus į organizacijos hierarchiją, galite priskirti asortimentus parduotuvių grupėms. Užuot priskyrus asortimentą atskirai kiekvienai parduotuvei, galite priskirti asortimentą aukšto lygio organizacijos mazgui. Tada, kaskart pridedant naują mažmeninį kanalą į aukšto lygio organizacijos mazgą, mažmeninės prekybos kanalas automatiškai gauna visus asortimentus, kurie buvo priskirti aukštesnio lygio organizacijos mazgui. Asortimentus galite priskirti tik mažmeninės prekybos kanalams, kurie yra įtraukti į organizacijos hierarchiją, kuri yra priskirta **Mažmeninio asortimento** tikslu. |
-| Nustatykite produktus.                  | Prieš pridėdami produktus į asortimentą, turite įtraukti juos į „Microsoft Dynamics 365 for Retail“. Produktus galite pridėti rankiniu būdu arba importuoti iš tiekėjo. Pridėję produktus, turite išleisti juos juridiniam asmeniui. Jūsų mažmeninės prekybos kanaluose gali būti tik juridiniam asmeniui išleisti produktai. Produktus, kurie dar neišleisti juridiniam asmeniui, galima pridėti prie asortimento ir asortimentą galima patvirtinti. Tačiau kol produktai bus išleisti juridiniam asmeniui, jų negalima pateikti į mažmeninės prekybos kanalus. |
+| Nustatykite produktus.                  | Prieš įtraukdami produktus į asortimentą, turite įtraukti juos programoje „Retail“. Produktus galite pridėti rankiniu būdu arba importuoti iš tiekėjo. Pridėję produktus, turite išleisti juos juridiniam asmeniui. Jūsų mažmeninės prekybos kanaluose gali būti tik juridiniam asmeniui išleisti produktai. Produktus, kurie dar neišleisti juridiniam asmeniui, galima pridėti prie asortimento ir asortimentą galima patvirtinti. Tačiau kol produktai bus išleisti juridiniam asmeniui, jų negalima pateikti į mažmeninės prekybos kanalus. |
 | Nustatykite kategorijos hierarchiją.      | Kurdami savo mažmeninės prekybos produktus, juos grupuoti ir suskirstyti galite naudodami kategorijų hierarchijos funkciją. Galite sukurti vieną pagrindinę hierarchiją visų produktų, kuriuos platinate savo mažmeninės prekybos kanalais, grupavimui ir skirstymui. Taip pat galite kurti atskiras, papildomas kategorijų hierarchijas grupuoti arba skirstyti savo produktus specialiais tikslais, pavyzdžiui, akcijoms arba asortimentams. Naudodami kategorijų hierarchijas, galite priskirti visus produktus, tam tikrai kategorijai į asortimentą. Bet kurie produktai, kurie pridedami į asortimente esančią kategoriją, yra automatiškai įtraukiami į asortimentą. Tada kitą kartą paleidžiant mažmeninės prekybos asortimentą, šie produktai bus prieinami mažmeninės prekybos kanaluose, kuriems yra priskirtas asortimentas. |
 
 ## <a name="setting-up-an-assortment"></a>Asortimento nustatymas

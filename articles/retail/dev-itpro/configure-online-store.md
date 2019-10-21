@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 186ab08e21b7dad7b736b1f5f065aefe0b80d621
-ms.sourcegitcommit: 27a98a7a0f1d2623f5236a88066f483def30889c
+ms.openlocfilehash: 142a7fa8a18b14347761d3f116c30f2fa5476115
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1833180"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025750"
 ---
 # <a name="configure-online-stores"></a>Konfigūruoti interneto parduotuves
 
@@ -53,9 +53,9 @@ Toliau pateiktoje lentelėje išvardytos temos padės jums konfigūruoti mažmen
 | Valdykite siuntimo išlaidas.             | Nustatykite ir valdykite konkrečias internetinės parduotuvės siuntimo išlaidas.                                                                     | [Internetinių parduotuvių siuntimo išlaidų nustatymas](https://technet.microsoft.com/library/jj728714.aspx) („TechNet“ turinys, skirtas AX 2012)                                                                                                                           |
 | Valdykite pristatymo būdus.            | Valdykite internetinėje parduotuvėje siūlomus pristatymo būdus.                                                                                        | [Pristatymo būdų nustatymas](https://technet.microsoft.com/library/jj728719.aspx) („TechNet“ turinys, skirtas AX 2012)                                                                                                                                            |
 
-## <a name="set-up-data-exchange-between-microsoft-dynamics-365-for-retail-and-the-online-store"></a>Nustatykite „Microsoft Dynamics 365 for Retail“ ir internetinės parduotuvės duomenų mainus
+## <a name="set-up-data-exchange-between-microsoft-dynamics-365-retail-and-the-online-store"></a>Nustatykite „Microsoft Dynamics 365 Retail“ ir internetinės parduotuvės duomenų mainus
 
-| Užduotis                                 | Informacija                                                                                                                               | Temos                                                                                                                                                                                                                                                                                  |
+| Užduotis                                 | Išsami informacija                                                                                                                               | Temos                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nustatykite kanalų integravimo profilius. | Profiliai suteikia galimybę „Retail“ komponentams palaikyti tarpusavio ryšį. Nustatykite profilius prieš konfigūruodami duomenų mainų parametrus. | [„Real-time Service“ profilio nustatymas](https://technet.microsoft.com/library/hh580631.aspx) („TechNet“ turinys, skirtas AX 2012) [Kanalo profilio nustatymas](https://technet.microsoft.com/library/jj677402.aspx) („TechNet“ turinys, skirtas AX 2012) |
 

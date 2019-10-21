@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b7c36553c9ad5bf4b061285d617be85ce77d0fcd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e6d4e9a3ac5635e292b20eba60fe4f010562fdba
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552652"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250100"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
@@ -32,7 +32,7 @@ ms.locfileid: "1552652"
 
 [!include [retail name](../includes/retail-name.md)]
 
-Numatytuose „Microsoft Dynamics 365 for Finance and Operations“ užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
+Numatytuose „Dynamics 365 Supply Chain Management“ užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
 
 Numatytuosius užsakymo parametrus galite nustatyti puslapyje **Numatytieji užsakymo parametrai**. Norėdami atidaryti šį puslapį, eikite į **Produkto informacijos valdymas** &gt; **Produktai** &gt; **Išleisti produktai** &gt; **Pasirinkti išleistą produktą** &gt; veiksmų srityje **Planas** arba **Valdyti atsargas** &gt; **Užsakymo parametrai** &gt; **Numatytieji užsakymo parametrai**.
 
@@ -74,7 +74,7 @@ Numatytieji atsargų užsakymo parametrai taip pat taikomi kuriant:
 -   Suplanuoti gamybos užsakymai
 
 ## <a name="full-definition-of-a-released-product"></a>Visas išleisto produkto aprašas
-Kurdami operaciją eilutėje turite nurodyti visą išleisto produkto apibrėžimą prieš tai, kai „Finance and Operations“ pabandys nustatyti numatytuosius užsakymo parametrus. Visas išleisto produkto apibrėžimas reiškia, kad prekės numeris ir visos aktyvios produkto dimensijos, pavyzdžiui, konfigūracija, dydis, stilius ir spalva yra nurodytos operacijoje. Pavyzdžiui, jei rankiniu būdu kuriate išleisto produkto varianto pirkimo užsakymo eilutę, turite nurodyti visas reikiamas produkto dimensijas prieš tai, kai pagal numatytuosius parametrus užsakymo eilutėje bus rodoma vieta, sandėlis, kiekiai ir vykdymo laikas. 
+Kurdami operaciją eilutėje turite nurodyti visą išleisto produkto apibrėžimą, kad „Supply Chain Management“ pabandytų nustatyti numatytuosius užsakymo parametrus. Visas išleisto produkto apibrėžimas reiškia, kad prekės numeris ir visos aktyvios produkto dimensijos, pavyzdžiui, konfigūracija, dydis, stilius ir spalva yra nurodytos operacijoje. Pavyzdžiui, jei rankiniu būdu kuriate išleisto produkto varianto pirkimo užsakymo eilutę, turite nurodyti visas reikiamas produkto dimensijas prieš tai, kai pagal numatytuosius parametrus užsakymo eilutėje bus rodoma vieta, sandėlis, kiekiai ir vykdymo laikas. 
 
 Ne visi numatytieji užsakymo parametrai taikomi kuriant užsakymą arba žurnalo eilutes. Kiekiai ir vykdymo laikai bus rodomi tik pagal numatytuosius parametrus ir tik prireikus. Pavyzdžiui, skaičiuojant žurnalo eilutę, kai sukurta eilutė, pagal numatytuosius parametrus rodoma tik vieta ir sandėlis. Žinoma, kuriant eilutę arba registruojant žurnalą nenustatomos jokios numatytosios kiekio reikšmės ir neatliekami jokie kartotinių ir minimalių reikšmių patikrinimai. 
 
@@ -97,7 +97,7 @@ Atskiriems išleistiems produktams galite nurodyti bendruosius užsakymo paramet
 
 Norėdami sukurti konkrečiai vietai pritaikytus užsakymo parametrus, spustelėkite **Naujas**. Dalies **Informacijos rodinys** lauke **Parametrai taikomi** &gt; **Vieta** įveskite vietą. **Tinklelio rodinys** stulpelyje **Vieta** įveskite vietą. Naujai taisyklei bus automatiškai suteikta nauja reitingo reikšmė, didesnė už nulį. Galite sukurti tiek vietai pritaikytų taisyklių, kiek reikia, ir visoms vietai pritaikytoms taisyklėms galite priskirti tą patį reitingą, kad nurodytumėte, jog jos vienodai svarbios. 
 
-Jei esate dalyje **Informacijos rodinys**, negalite peržiūrėti prekei sukurtų taisyklių. Perjunkite mygtuką **Rodyti / slėpti sąrašą**, kad pamatytumėte peržiūros informaciją. Sukūrus bet kokio tipo užsakymo eilutę, kurioje nėra nurodyta vieta, „Finance and Operations“ ieško taisyklės, kurioje nenurodyta vieta. Tai gali padėti nustatyti numatytąją užsakymo eilutės vietą. Tada ši vieta naudojama ieškant vietai pritaikytos taisyklės, kurioje gali būti nustatytas numatytasis sandėlis. Šis sandėlis taikomas užsakymo eilutei.
+Jei esate dalyje **Informacijos rodinys**, negalite peržiūrėti prekei sukurtų taisyklių. Perjunkite mygtuką **Rodyti / slėpti sąrašą**, kad pamatytumėte peržiūros informaciją. Sukūrus bet kokio tipo užsakymo eilutę, kurioje nėra nurodyta vieta, „Supply Chain Management“ ieško taisyklės, kurioje nenurodyta vieta. Tai gali padėti nustatyti numatytąją užsakymo eilutės vietą. Tada ši vieta naudojama ieškant vietai pritaikytos taisyklės, kurioje gali būti nustatytas numatytasis sandėlis. Šis sandėlis taikomas užsakymo eilutei.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Produkto dimensijai pritaikyti užsakymo parametrai
 
@@ -134,7 +134,7 @@ Galite sukurti toliau nurodytus numatytuosius užsakymo parametrus.
 
 Dviejų senų peržiūrų stabdymui skirtų taisyklių reitingas toks pats, o tai reiškia, kad jos yra vienodai svarbios. Abiejų jų reitingas aukštesnis negu konfigūracijos C1 taisyklės reitingas, o tai reiškia, kad jos svarbesnės negu konfigūracijos C1 taisyklė. 
 
-Šiame pavyzdyje paaiškinama, kodėl reikalingas reitingas. Jei pirkimo užsakymas sukuriamas konfigūracijai C1 ir peržiūrai R2, kai nenurodytas reitingas, šios dvi R2 ir C1 nurodytos taisyklės būtų nevienareikšmiškos. Norėdama išspręsti dviprasmiškumo problemą „Finance and Operations“ peržiūri taisykles pagal reitingą mažėjančia tvarka ir pritaiko pirmą taikytiną taisyklę. Dabartiniame pavyzdyje, kai pirkimo užsakymo eilutė sukuriama konfigūracijai C1 ir peržiūrai R2, vartotojas gaus įspėjantį pranešimą, kad prekė sulaikyta ir kad tai įvyko dėl peržiūros vertės. Jei konfigūracijos taisyklės reitingas aukštesnis negu peržiūros taisyklės reitingas, tada konfigūracijos C1 ir peržiūros R2 pirkimo užsakymo eilutė sukuriama sėkmingai ir vartotojas negaus pranešimo „prekė sulaikyta“. 
+Šiame pavyzdyje paaiškinama, kodėl reikalingas reitingas. Jei pirkimo užsakymas sukuriamas konfigūracijai C1 ir peržiūrai R2, kai nenurodytas reitingas, šios dvi R2 ir C1 nurodytos taisyklės būtų nevienareikšmiškos. Norėdama išspręsti dviprasmiškumo problemą „Supply Chain Management“ peržiūri taisykles pagal reitingą mažėjančia tvarka ir pritaiko pirmą taikytiną taisyklę. Dabartiniame pavyzdyje, kai pirkimo užsakymo eilutė sukuriama konfigūracijai C1 ir peržiūrai R2, vartotojas gaus įspėjantį pranešimą, kad prekė sulaikyta ir kad tai įvyko dėl peržiūros vertės. Jei konfigūracijos taisyklės reitingas aukštesnis negu peržiūros taisyklės reitingas, tada konfigūracijos C1 ir peržiūros R2 pirkimo užsakymo eilutė sukuriama sėkmingai ir vartotojas negaus pranešimo „prekė sulaikyta“. 
 
 Atsižvelkite į toliau nurodytas numatytojo užsakymo parametro taisykles.
 

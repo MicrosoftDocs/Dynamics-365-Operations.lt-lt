@@ -1,6 +1,6 @@
 ---
 title: Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
-description: Šioje temoje pateikiama fiskalinės integracijos galimybių, teikiamų „Microsoft Dynamics 365 for Retail“, apžvalga.
+description: Šioje temoje pateikiama fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Retail“, apžvalga.
 author: josaw
 manager: annbe
 ms.date: 02/01/2019
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1516243"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025412"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
 
@@ -30,13 +30,13 @@ ms.locfileid: "1516243"
 
 ## <a name="introduction"></a>Įžanga
 
-Ši tema yra fiskalinės integracijos galimybių, teikiamų „Microsoft Dynamics 365 for Retail“, apžvalga. Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina mažmeninės prekybos pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija.
+Ši tema yra fiskalinės integracijos galimybių, teikiamų „Dynamics 365 Retail“, apžvalga. Fiskalinė integracija apima integravimą įvairiais finansiniais įrenginiais ir tarnybomis, kurie užtikrina mažmeninės prekybos pardavimo fiskalinę integraciją su vietos mokesčių įstatymais, kuriais siekiama užkirsti kelią mokesčių sukčiavimui mažmeninės prekybos srityje. Toliau pateikti keli įprasti scenarijai, kurių atveju būtų galima naudotis fiskaline integracija.
 
 - Užregistruokite mažmeninės prekybos pardavimą finansiniame įrenginyje, prijungtame prie mažmeninės prekybos elektroninio kasos aparato (EKA), pvz., fiskalinio spausdintuvo, ir išspausdinkite klientui skirtą fiskalinį kvitą.
 - Saugiai pateikite informaciją, susijusią su pardavimu ir grąžinimu, kurie yra užbaigti „Retail POS“, į išorinę žiniatinklio tarnybą, kurią valdo mokesčių inspekcija.
 - Padėkite užtikrinti pardavimo operacijų duomenų nekeičiamumą naudodami skaitmeninius parašus.
 
-Mažmeninės prekybos fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius mažmeninės prekybos scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli mažmeninės prekybos komponentų plėtiniai ir jis įtrauktas į mažmeninės prekybos programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius, kurie teikiami mažmeninės prekybos SDK, žr. [Fiskalinės integracijos pavyzdžiai mažmeninės prekybos SDK](#fiscal-integration-samples-in-the-retail-sdk). Informacijos apie tai, kaip įdiegti ir naudoti mažmeninės prekybos SDK, žr. [Mažmeninės prekybos SDK peržiūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius mažmeninės prekybos scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli „Retail“ prekybos komponentų plėtiniai ir jis įtrauktas į programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius žr. [Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai](#fiscal-integration-samples-in-the-retail-sdk). Informacijos apie tai, kaip įdiegti ir naudoti mažmeninės prekybos SDK, žr. [Mažmeninės prekybos SDK peržiūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Tam, kad būtų palaikomi kiti scenarijai, kurių nepalaiko fiskalinės integracijos pavyzdys, būtų integruojama „Retail POS“ su kitais finansiniais įrenginiais ar tarnybomis arba būtų išpildomi kitų šalių ar regionų reikalavimai, turite išplėsti esamą fiskalinės integracijos pavyzdį arba sukurti naują pavyzdį naudodami dėl esamą pavyzdį kaip pavyzdį.
 
@@ -57,7 +57,7 @@ Konkretaus EKA registro fiskalinės registracijos procesą apibrėžia atitinkam
 Toliau pateiktame pavyzdyje parodytas įprasta finansinio įrenginio fiskalinės registracijos vykdymo eiga. Eiga prasideda nuo įvykio EKA (pvz., pardavimo operacijos užbaigimo) ir nustato toliau nurodytą veiksmų seką.
 
 1. EKA reikalauja finansinio dokumento iš CRT.
-2. CRT nustato, ar dabartinis įvykiam įvykiui būtina fiskalinė registracija.
+2. CRT nustato, ar dabartiniam įvykiui būtina fiskalinė registracija.
 3. Remiantis fiskalinės registracijos proceso parametrais, CRT identifikuoja fiskalinę jungtį ir atitinkamą finansinio dokumento teikėją, kurie bus naudojami atliekant fiskalinę registraciją.
 4. CRT paleidžia finansinio dokumento teikėją, kuris sugeneruoja finansinį dokumentą (pvz., XML dokumentą), nurodantį mažmeninės prekybos operaciją arba įvykį.
 5. EKA aparatūros stočiai siunčia CRT paruoštą finansinį dokumentą.
@@ -132,7 +132,7 @@ Fiskalinės integracijos funkcija palaiko konkretaus integruoto finansinio įren
 
 ## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai
 
-Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Retail SDK“, kuris leidžiamas kartu su „Retail“.
+Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Retail SDK“.
 
 - [Fiskalinio spausdintuvo integracijos pavyzdys (Italija)](emea-ita-fpi-sample.md)
 - [Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)](emea-pol-fpi-sample.md)

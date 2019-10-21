@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557650"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249637"
 ---
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
@@ -69,5 +69,5 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Dynamics AX Supply Chain Management“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
 
 #### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
+Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
 

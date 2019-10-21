@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. liepos 31 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 31 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 7/30/2019
@@ -18,24 +18,24 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1fffe1bd8739723294c027c174d5e959c1c6010a
-ms.sourcegitcommit: 4ff8c2c2f3705d8045df66f2c4393253e05b49ed
+ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1864584"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2010250"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-july-30-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. liepos 30 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 30 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Attract“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Attract“.
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2409 komponavimo versijai.
@@ -43,7 +43,7 @@ ms.locfileid: "1864584"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Regiono palaikymas Kanadai ir Pietryčių Azijai
 
-Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus galimi programoje „Microsoft Dynamics 365 for Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta [„Talent” konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus įtraukti į programą „Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta [„Talent” konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esamų projektų duomenų perkėlimas iš kitų regionų į Kanados ir Azijos regionus yra nepalaikomas. Tik nauji projektai gali būti konfigūruojami šiuose naujuose palaikomuose regionuose.
 

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. gruodžio 14 d.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 36eb5722a7bd98c404fb6c8f5bde407ab38ec28d
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518629"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024027"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. gruodžio 14 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-december-14-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR“ (2018 m. gruodžio 14 d.)
 
 [!include [banner](includes/banner.md)]
 
@@ -94,9 +94,9 @@ Pateikus galimybę prognozuoti, rodomas balansas bus toks, koks bus dabartinis n
 
 ## <a name="known-issue"></a>Žinoma problema
 
-### <a name="mapping-errors-in-the-integration-with-finance-and-operations"></a>Integravimo su „Finance and Operations“ susiejimo klaidos
+### <a name="mapping-errors-in-the-integration-with-finance"></a>Susiejimo klaidos integruojant su „Finance“
 
-Dabartiniame „Talent“ integravimo su „Dynamics 365 for Finance and Operations“ šablone buvo nustatytos toliau nurodytos problemos. Netrukus bus paskelbtas naujas šablonas, kurį bus galima taikyti visiems naujai sukurtiems integravimo projektams. Esamiems integravimo projektams užduočių susiejimai gali būti atnaujinti. Atnaujintų susiejimų žr. toliau pateiktoje lentelėje. 
+Dabartiniame „Talent“ integravimo su „Dynamics 365 Finance“ šablone buvo nustatytos toliau nurodytos problemos. Netrukus bus paskelbtas naujas šablonas, kurį bus galima taikyti visiems naujai sukurtiems integravimo projektams. Esamiems integravimo projektams užduočių susiejimai gali būti atnaujinti. Atnaujintų susiejimų žr. toliau pateiktoje lentelėje. 
 
 >[!NOTE]
 > Neintegruojami pareigų, skirtų pareigų pirminės užduoties priskyrimui, užduoties duomenys. Ši problema šiuo metu sprendžiama. Nėra dabartinio susiejimo problemos sprendimo būdo. 

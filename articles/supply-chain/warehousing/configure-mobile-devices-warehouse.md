@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b6555086d6c86c17b501af9d4d8155e9c08a447
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 14b0661c4c1fa8f2bc197a8a3983b71d73199b2a
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536554"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251551"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -163,7 +163,7 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 </tr>
 <tr>
 <td>Judėjimas pagal šabloną</td>
-<td>Perkelkite prekes iš vienos vietos į kitą pusiau automatiniu būdu. Darbuotojas pasirenka vietą, iš kurios reikia perkelti prekes, o „Finance and Operations“ naudodama vietos nurodymą nustato, kur prekes reikia perkelti.</td>
+<td>Perkelkite prekes iš vienos vietos į kitą pusiau automatiniu būdu. Darbuotojas pasirenka vietą, iš kurios reikia perkelti prekes, o sistema naudodama vietos nurodymą nustato, kur prekes reikia perkelti.</td>
 </tr>
 <tr>
 <td>Ilgalaikio turto perkėlimas</td>
@@ -207,12 +207,12 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </thead>
 <tbody>
 <tr class="odd">
-<td>Joks</td>
+<td>Nėra</td>
 <td>Pagal šią numatytąją reikšmę darbas neapdorojamas.</td>
 </tr>
 <tr class="even">
 <td>Sistemos nurodyta</td>
-<td>„Microsoft Dynamics 365 for Finance and Operations“ valdo darbo, priskirto darbuotojui, tipą ir tvarką, kuria darbuotojas atlieka darbą. Kai pasirenkate šią pasirinktį, veiksmų srityje galite spustelėti <strong>Sistemos nurodytas darbas</strong>, kad atidarytumėte puslapį <strong>Sistemos nurodyta rikiavimo tvarka</strong>, kuriame galite nustatyti darbo rūšiavimo kriterijus. Rūšiavimo kriterijai kontroliuoja tvarką, kuria darbuotojas atlieka darbą. Galite pridėti tiek kriterijų, kiek reikia.</td>
+<td>„Supply Chain Management“ valdo darbo, priskirto darbuotojui, tipą ir tvarką, kuria darbuotojas atlieka darbą. Kai pasirenkate šią pasirinktį, veiksmų srityje galite spustelėti <strong>Sistemos nurodytas darbas</strong>, kad atidarytumėte puslapį <strong>Sistemos nurodyta rikiavimo tvarka</strong>, kuriame galite nustatyti darbo rūšiavimo kriterijus. Rūšiavimo kriterijai kontroliuoja tvarką, kuria darbuotojas atlieka darbą. Galite pridėti tiek kriterijų, kiek reikia.</td>
 </tr>
 <tr class="odd">
 <td>Vartotojo nurodyta</td>
@@ -224,7 +224,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="odd">
 <td>Sistemos grupavimas</td>
-<td>„Microsoft Dynamics 365 for Finance and Operations“ grupuoja darbuotojo darbus pagal nurodytą lauką. Pavyzdžiui, išrinkimo darbai grupuojami, kai darbuotojas nuskaito siuntos ID, krovinio ID ar bet kokią reikšmę, kuri gali susieti kiekvieną darbo vienetą. Jei pasirenkate šią parinktį, būtini yra šie laukai:
+<td>„Supply Chain Management“ grupuoja darbuotojo darbus pagal nurodytą lauką. Pavyzdžiui, išrinkimo darbai grupuojami, kai darbuotojas nuskaito siuntos ID, krovinio ID ar bet kokią reikšmę, kuri gali susieti kiekvieną darbo vienetą. Jei pasirenkate šią parinktį, būtini yra šie laukai:
 <ul>
 <li><strong>Sistemos grupavimo laukas</strong> – pasirinkite lauką, kurį darbuotojas nuskaito norėdamas grupuoti darbus.</li>
 <li><strong>Sistemos grupavimo žyma</strong> – įveskite tekstą, nurodantį darbuotojui, ką reikia nuskaityti norint grupuoti darbus.</li>
@@ -245,7 +245,7 @@ Be meniu elementų sandėlio darbams kurti nustatymo, galite nustatyti meniu ele
 </tr>
 <tr class="even">
 <td>Ciklo skaičiavimo grupavimas</td>
-<td>Darbuotojas pasirenka zoną, darbo telkinį arba vietą, o „Microsoft Dynamics 365 for Finance and Operations“ paskirstys darbus pagal pasirinkimą. Jei pasirinksite šią parinktį, veiksmo srityje galėsite spustelėti <strong>Ciklo skaičiavimas</strong> ir nurodyti papildomą rodytiną informaciją. Taip pat galite nurodyti, kiek kartų darbuotojas turi kartoti skaičiavimą, jei randama skirtumų.</td>
+<td>Darbuotojas pasirenka zoną, darbo telkinį arba vietą, o „Supply Chain Management“ paskirsto darbus pagal pasirinkimą. Jei pasirinksite šią parinktį, veiksmo srityje galėsite spustelėti <strong>Ciklo skaičiavimas</strong> ir nurodyti papildomą rodytiną informaciją. Taip pat galite nurodyti, kiek kartų darbuotojas turi kartoti skaičiavimą, jei randama skirtumų.</td>
 </tr>
  <tr class="odd">
 <td>Transportuojamų krovinių krovimas</td>
@@ -333,7 +333,7 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Grupinis atidėjimas</td>
-<td>Pažymėkite šią parinktį, jei norite grupuoti atidėjimo darbus. Ši parinktis galima, jei darbus sugrupavo darbuotojas arba „Microsoft Dynamics 365 for Finance and Operations“. Kai darbuotojas baigia visus išrinkimo darbus grupėje, tai pačiai grupei sukuriamas atidėjimo darbas.</td>
+<td>Pažymėkite šią parinktį, jei norite grupuoti atidėjimo darbus. Ši parinktis galima, jei darbus sugrupavo darbuotojas arba „Supply Chain Management“. Kai darbuotojas baigia visus išrinkimo darbus grupėje, tai pačiai grupei sukuriamas atidėjimo darbas.</td>
 </tr>
 <tr class="even">
 <td>Atsargų koregavimo tipai</td>
@@ -366,11 +366,11 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="even">
 <td>Sistemos grupavimo laukas</td>
-<td>Pasirinkite lauką, kuris lems, kaip „Microsoft Dynamics 365 for Finance and Operations“ grupuos išrinkimo darbus darbuotojams. Pavyzdžiui, jei pasirinksite lauką <strong>ShipmentId</strong>, norėdamas grupuoti išrinkimo darbus, darbuotojas nuskaitys siuntos ID. Tada visi siuntos darbai priskiriami darbuotojui. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Taip pat turite lauke <strong>Sistemos grupavimo žyma</strong> įvesti tekstą, nurodantį darbuotojui, ką reikia nuskaityti.</td>
+<td>Pasirinkite lauką, kuris lems, kaip „Supply Chain Management“ grupuos išrinkimo darbus darbuotojams. Pavyzdžiui, jei pasirinksite lauką <strong>ShipmentId</strong>, norėdamas grupuoti išrinkimo darbus, darbuotojas nuskaitys siuntos ID. Tada visi siuntos darbai priskiriami darbuotojui. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Taip pat turite lauke <strong>Sistemos grupavimo žyma</strong> įvesti tekstą, nurodantį darbuotojui, ką reikia nuskaityti.</td>
 </tr>
 <tr class="odd">
 <td>Sistemos grupavimo žyma</td>
-<td>Įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja „Microsoft Dynamics 365 for Finance and Operations“. Pavyzdžiui, jei naudojate lauką <strong>ShipmentId</strong> norėdami grupuoti išrinkimo darbus pagal siuntą, lauke galite įvesti <strong>Siuntos ID</strong>. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Be to, lauke <strong>Sistemos grupavimo laukas</strong> reikia pasirinkti lauką, pagal kurį grupuosite.</td>
+<td>Įvesdami tekstą nurodykite darbuotojui, ką reikia nuskaityti, kai išrinkimo darbus grupuoja „Supply Chain Management“. Pavyzdžiui, jei naudojate lauką <strong>ShipmentId</strong> norėdami grupuoti išrinkimo darbus pagal siuntą, lauke galite įvesti <strong>Siuntos ID</strong>. Šiam laukui reikia sukurti meniu elementą, kuris naudos esamus sistemos sugrupuotus darbus. Be to, lauke <strong>Sistemos grupavimo laukas</strong> reikia pasirinkti lauką, pagal kurį grupuosite.</td>
 </tr>
 <tr class="even">
 <td>Naudoti numatytuosius duomenis</td>
@@ -386,13 +386,13 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 </tr>
 <tr class="odd">
 <td>Darbo šablono kodas</td>
-<td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pavyzdžiui, jei gaunate pirkimo užsakymo prekę, atidėjimo darbas bus sukurtas remiantis darbo šablonu. Jei nepasirinksite darbo šablono, „Microsoft Dynamics 365 for Finance and Operations“ priskirs šabloną pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus, žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
+<td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pavyzdžiui, jei gaunate pirkimo užsakymo prekę, atidėjimo darbas bus sukurtas remiantis darbo šablonu. Jei nepasirinksite darbo šablono, „Supply Chain Management“ priskirs šabloną pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus, žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Reikalavimas, kad išrinkdami prekes darbuotojai patvirtintų produktą, vietą arba kiekį
-Galite nustatyti darbo patvirtinimus, kuriuose reikalaujama, kad atlikdamas darbus sandėlyje darbuotojas mobiliuoju įrenginiu registruotų vietą arba kiekį. Darbo patvirtinimai padeda užtikrinti, kad darbuotojas būtų reikiamoje vietoje arba dirbtų su reikiamu prekių kiekiu. Be to, galite nustatyti, kad „Microsoft Dynamics 365 for Finance and Operations“ automatiškai patvirtintų darbuotojo registraciją. Jei įjungsite automatinį patvirtinimą, negalėsite kartu reikalauti vietos arba kiekio patvirtinimo. Darbo patvirtinimai apima produktus ir produktų variantus. Be to, galite registruoti patvirtinimus nuskaitydami brūkšninį kodą. Norėdami patvirtinti produktus ir produktų variantus, turite įvesti produkto arba produkto varianto ID. Šis ID gali būti produkto ID, produkto ieškos ID, išorinis ID, GTIN arba brūkšninis kodas. Kai įvedate ID arba nuskaitote brūkšninį kodą, mobiliajame įrenginyje rodomos produkto varianto dimensijos. 
+Galite nustatyti darbo patvirtinimus, kuriuose reikalaujama, kad atlikdamas darbus sandėlyje darbuotojas mobiliuoju įrenginiu registruotų vietą arba kiekį. Darbo patvirtinimai padeda užtikrinti, kad darbuotojas būtų reikiamoje vietoje arba dirbtų su reikiamu prekių kiekiu. Be to, galite nustatyti, kad „Supply Chain Management“ automatiškai patvirtintų darbuotojo registraciją. Jei įjungsite automatinį patvirtinimą, negalėsite kartu reikalauti vietos arba kiekio patvirtinimo. Darbo patvirtinimai apima produktus ir produktų variantus. Be to, galite registruoti patvirtinimus nuskaitydami brūkšninį kodą. Norėdami patvirtinti produktus ir produktų variantus, turite įvesti produkto arba produkto varianto ID. Šis ID gali būti produkto ID, produkto ieškos ID, išorinis ID, GTIN arba brūkšninis kodas. Kai įvedate ID arba nuskaitote brūkšninį kodą, mobiliajame įrenginyje rodomos produkto varianto dimensijos. 
 
 Toliau pateikiamoje lentelėje aprašomi įvairūs darbo tipai, su kuriais galite naudoti darbo patvirtinimus.
 

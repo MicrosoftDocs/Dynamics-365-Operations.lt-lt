@@ -19,24 +19,24 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0bcc5989edd9913fce414c0c24068f111d8c1aeb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 27870fe6172479b891b885d9e84ca10b250e3399
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553641"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2019514"
 ---
 # <a name="manage-retail-product-categories-and-products"></a>Mažmeninės prekybos produktų kategorijų ir produktų valdymas
 
 [!include [banner](./includes/banner.md)]
 
-Šioje temoje aprašomas patobulintas būdas valdyti mažmeninės prekybos produktų kategorijas ir produktus sprendime „Microsoft Dynamics 365 for Retail“. Dėl šių patobulinimų reklamavimo parduotuvėje vadovams leidžiama peržiūrėti produktų ypatybių struktūrą, bendrinamą tarp mažmeninės prekybos produktų hierarchijos ir išsamios informacijos apie išleistus produktus.
+Šioje temoje aprašomas patobulintas būdas valdyti produktų kategorijas ir produktus sprendime „Dynamics 365 Retail“. Dėl šių patobulinimų reklamavimo parduotuvėje vadovams leidžiama peržiūrėti produktų ypatybių struktūrą, bendrinamą tarp produktų hierarchijos ir išsamios informacijos apie išleistus produktus.
 
-Norėdami sužinoti daugiau apie tai, kaip valdyti mažmeninės prekybos produktų kategorijas, darbo srityje **Kategorijų ir produktų valdymas** pasirinkite plytelę **Mažmeninės prekybos produktų hierarchija**.
+Norėdami sužinoti daugiau apie tai, kaip valdyti produktų kategorijas, darbo srityje **Kategorijų ir produktų valdymas** pasirinkite plytelę **Mažmeninės prekybos produktų hierarchija**.
 
-Atkreipkite dėmesį, į patobulintą rodomo puslapio **Mažmeninės prekybos produktų hierarchija** struktūrą. Ankstesnėse „Retail“ versijose produktų ypatybės pagal jų taikomumą buvo suskirstytos į *pagrindines produktų ypatybes* ir *mažmeninės prekybos produktų ypatybes*. Mažmeninės prekybos produkto ypatybės pagal taikomumą yra *visuotinos*. Kitaip tariant, ta pati konkrečios „Retail“ produkto ypatybės reikšmė taikoma visiems juridiniams subjektams. Priešingu atveju, pagrindinės produktų ypatybės yra taikomos *konkrečiam juridiniam subjektui*. Kitaip tariant, juridinių subjektų naudojama konkrečios pagrindinės produktų ypatybės reikšmė gali skirtis priklausomai nuo atskirų kiekvieno juridinio subjekto verslo poreikių.
+Atkreipkite dėmesį, į patobulintą rodomo puslapio **Mažmeninės prekybos produktų hierarchija** struktūrą. Ankstesnėse „Retail“ versijose produktų ypatybės pagal jų taikomumą buvo suskirstytos į *pagrindines produktų ypatybes* ir *mažmeninės prekybos produktų ypatybes*. Mažmeninės prekybos produkto ypatybės pagal taikomumą yra *visuotinos*. Kitaip tariant, ta pati konkrečios produkto ypatybės reikšmė taikoma visiems juridiniams subjektams. Priešingu atveju, pagrindinės produktų ypatybės yra taikomos *konkrečiam juridiniam subjektui*. Kitaip tariant, juridinių subjektų naudojama konkrečios pagrindinės produktų ypatybės reikšmė gali skirtis priklausomai nuo atskirų kiekvieno juridinio subjekto verslo poreikių.
 
-Patobulintoje mažmeninės prekybos produktų kategorijų struktūroje produktų ypatybės logiškai atskiriamos pagal jų taikomumą grupėje, kad būtų atspindėta išsamios išleisto produkto informacijos formos struktūra.
+Patobulintoje produktų kategorijų struktūroje produktų ypatybės logiškai atskiriamos pagal jų taikomumą grupėje, kad būtų atspindėta išsamios išleisto produkto informacijos formos struktūra.
 
 ![Laukai, sugrupuoti pagal taikomumo ypatybes](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
@@ -50,7 +50,7 @@ Norėdami valdyti konkretaus juridinio subjekto ypatybes, pasirinkite **Peržiū
 
 ![Peržiūrėti / redaguoti konkretų juridinį subjektą](media/ToggleToEditForAllLegalEntities.PNG)
 
-Be to, patobulintoje mažmeninės prekybos produktų kategorijų struktūroje reklamavimo parduotuvėje vadovas dabar taip pat gali apibrėžti numatytąsias papildomo produktų ypatybių rinkinio reikšmes atskiros kategorijos lygiu. Tada, sukūrus produktų, šias numatytąsias produkto ypatybių reikšmes produktai paveldi pagal savo susiejimą su atskiros mažmeninės prekybos produktų hierarchijos kategorijos savybėmis. Šias paveldėtas kiekvieno produkto ypatybes taip pat galima modifikuoti, kad būtų įvykdyti atskiri verslo reikalavimai.
+Be to, patobulintoje mažmeninės prekybos produktų kategorijų struktūroje reklamavimo parduotuvėje vadovas dabar taip pat gali apibrėžti numatytąsias papildomo produktų ypatybių rinkinio reikšmes atskiros kategorijos lygiu. Tada, sukūrus produktų, šias numatytąsias produkto ypatybių reikšmes produktai paveldi pagal savo susiejimą su atskiros produktų hierarchijos kategorijos savybėmis. Šias paveldėtas kiekvieno produkto ypatybes taip pat galima modifikuoti, kad būtų įvykdyti atskiri verslo reikalavimai.
 
 ## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Produktų naujinimo ypatybių mažmeninės prekybos produktų hierarchijos puslapyje pasirinkimas
 

@@ -3,7 +3,7 @@ title: Priežiūros ciklai
 description: Šioje temoje aprašomi priežiūros ciklai skiltyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 08/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,22 +16,20 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a0ac4820d2efa37387382c2890e3ddc7dbc0878b
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: eca732f245650c8e1f3dc976454536a0ab1ee117
+ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875795"
+ms.lasthandoff: 08/27/2019
+ms.locfileid: "1922027"
 ---
 # <a name="maintenance-rounds"></a>Priežiūros ciklai
-
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [banner](../../includes/preview-banner.md)]
-
 
 Skiltyje **Turto valdymas** galite sukurti priežiūros ciklus įvairiam turtui, kuriam būtina atlikti panašias užduotis reguliariais intervalais. Pavyzdžiui, sutepimo darbai arba saugos tikrinimo darbai, kurie turi būti atliekami keletui mašinų tais pačiais intervalais.  Pirmas žingsnis – sukurti priežiūros ciklą, apimantį turtą, kuriam reikalinga tokia pati priežiūros užduoties forma. Kitame žingsnyje planuokite priežiūros ciklus. Kai įvykdysite priežiūros ciklų grafiką, galėsite matyti visus užduoties įrašus, susijusius su ciklu, skiltyse **Visi priežiūros grafikai** ir **Atidaryti priežiūros grafiko eilutes**.
 
@@ -83,12 +81,14 @@ Skiltyje **Turto valdymas** galite sukurti priežiūros ciklus įvairiam turtui,
 >[!NOTE]
 >Laukai **Turtas** ir **Eilutės** yra grupėje **Išsami informacija**, kuri yra „FastTab“ **Antraštė**, ir nurodo bendrą turto ir eilučių, susijusių su pasirinktu priežiūros ciklu, skaičių.
 
-![1 pav.](media/13-preventive-maintenance.png)
+Toliau pateiktame paveikslėlyje parodytas priežiūros ciklo, kuriame yra trys turto vienetai, pavyzdys.
+
+![1 pav.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Planuoti priežiūros ciklus
 
-Nustatę priežiūros ciklą vykdykite grafiko užduotį, kuria planuojamos visos užduotys, susijusios su priežiūros ciklu.
+Nustatę priežiūros ciklą, vykdykite grafiko užduotį, kuria planuojamos visos užduotys, susijusios su priežiūros ciklu.
 
 1. Spustelėkite mygtukus **Turto valdymas** > **Periodiškai** > **Prevencinė priežiūra** > **Planuoti priežiūros ciklus** arba **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros grafikas** > **Visi priežiūros grafikai**, arba **Atidaryti priežiūros grafiko eilutes**, arba **Atidaryti priežiūros grafiko telkinius** > pasirinkite sąraše priežiūros grafiko eilutę > **Priežiūros ciklai**.
 
@@ -107,9 +107,11 @@ Nustatę priežiūros ciklą vykdykite grafiko užduotį, kuria planuojamos viso
 
 7. Dabar galite matyti priežiūros ciklų užduotis, pasirinkus **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros grafikas** > **Visi priežiūros grafikai** arba **Atidaryti priežiūros grafiko eilutes**. Jei suplanuoti ciklai susieti su darbo užsakymų telkiniu, taip pat galite matyti priežiūros grafiko eilutes, pasirinkus **Atidaryti priežiūros grafikų telkinius**. Sukurtos iš ciklo priežiūros grafiko eilutės turi pirminės reikšmės tipą „Priežiūros ciklai“.
 
-![2 paveikslėlis](media/14-preventive-maintenance.png)
+Toliau esančiuose dviejuose paveikslėliuose pavaizduota grafiko užduotis dialogo lange **Planuoti priežiūros ciklus** ir priežiūros grafiko eilutes, sukurtos naudojant **Visas priežiūros tvarkaraščius** pagal grafiko užduotį.
 
-![3 paveikslėlis](media/15-preventive-maintenance.png)
+![2 pav.](media/14-preventive-maintenance.png)
+
+![3 pav.](media/15-preventive-maintenance.png)
 
 - Kai neautomatiniu būdu sukuriami darbo užsakymai turtui, kuriam taikoma tiekėjo garantija, rodomas dialogo langas, kad vartotojas žinotų apie garantiją. Darbo užsakymo kūrimas vėliau gali būti atšauktas. Garantinis čekis neįtraukiamas automatiškai sukurtuose darbo užsakymuose.  
 - Galite nustatyti paketinę užduotį, esančią „FastTab“ **Vykdyti fone**, kad grafiko ciklai būtų vykdomi reguliariais intervalais.  

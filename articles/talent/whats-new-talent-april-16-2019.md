@@ -1,6 +1,6 @@
 ---
-title: Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 16 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent“ funkcijos.
+title: Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 16 d.)
+description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 04/16/2019
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: adf8f470b00a565c62a27f857d490c6c000b21d8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 0781a479ebf37334d8eba18ea6d69d7cfb9db9ea
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518627"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024142"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-16-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 for Talent” (2019 m. balandžio 16 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 16 d.)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 for Talent“ funkcijos.
+Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
 ## <a name="changes-in-attract"></a>„Attract“ pakeitimai
 
@@ -39,7 +39,7 @@ Dabar galite sekti keitimus kandidatams, darbo vietas ir darbo paraiškas. Norė
 
 ## <a name="changes-in-onboard"></a>Supažindinimo pakeitimai
 
-Šiame leidime įtraukti smulkūs klaidų ištaisymai, skirti „Dynamics 365 Talent: Onboard“
+Šiame leidime pataisytos nežymios klaidos programoje „Dynamics 365 Talent: Onboard“.
 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 
@@ -47,11 +47,11 @@ Dabar galite sekti keitimus kandidatams, darbo vietas ir darbo paraiškas. Norė
 
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Objektai Kompensacijos regionas, Kompensacijos lygis, Išmokos parinktis ir Įgūdžių tipas „Common Data Service“ atnaujinti, kad būtų įtrauktas kliento lauko palaikymas
 
-Šiame leidime šie „Common Data Service“ objektai buvo atnaujinti įtraukiant galimybę įtraukti pasirinktinį lauką, įtrauktą naudojant „Talent“ („Core HR“).
+Šiame leidime šie „Common Data Service“ objektai buvo atnaujinti įtraukiant galimybę įtraukti pasirinktinį lauką, įtraukiamą naudojant „Talent: Core HR“.
 
 ### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Naujų „Common Data Service“ objektų palaikymas: Kompensacijos paskirstymo taisyklės, Kompensacijos kintamojo atlyginimo planas, Kintamojo atlyginimo dalis
 
-Šiame leidime į „Common Data Service“ buvo įtraukti objektai Kompensacijos kintamosios atlyginimo dalies paskirstymo taisyklės, Kompensacijos kintamosios atlyginimo dalies planas ir Kintamoji atlyginimo dalis. Šie objektai taip pat palaiko pasirinktinius laukus, įtrauktus naudojant „Talent“ („Core HR“).
+Šiame leidime į „Common Data Service“ buvo įtraukti objektai Kompensacijos kintamosios atlyginimo dalies paskirstymo taisyklės, Kompensacijos kintamosios atlyginimo dalies planas ir Kintamoji atlyginimo dalis. Šie objektai taip pat palaiko pasirinktinius laukus, įtrauktus naudojant „Talent: Core HR“.
 
 ### <a name="powerbi-refresh-issues-314342"></a>„PowerBI“ atnaujinimo problemos (314342)
 
@@ -95,6 +95,6 @@ Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o
 
 ### <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
 
-25 platformos naujinį įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis.
+Įdiegę „Finance and Operations“ platformos 25 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.
 
 

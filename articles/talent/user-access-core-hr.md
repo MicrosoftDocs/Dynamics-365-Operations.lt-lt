@@ -1,6 +1,6 @@
 ---
 title: Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“
-description: Šioje temoje aiškinama, kaip išspręsti problemą, kai vartotojas gali pasiekti „Microsoft Dynamics 365 for Talent Core HR“, bet negali pasiekti programų „Attract“ arba „Onboard“.
+description: Šioje temoje aiškinama, kaip išspręsti problemą, kai vartotojas gali pasiekti „Microsoft“ „Dynamics 365 Talent – Core HR“, bet negali pasiekti programų „Attract“ arba „Onboard“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6fc27a4c137fef2f8d204d90366c316389da08e6
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 80b1f8aeabfd033f393463f4be5a61447377f2d9
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1741727"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009311"
 ---
-# <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“
+# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“
 
 [!include [banner](includes/banner.md)]
 
 **Aplinkos informacija**
 
 - „Microsoft Dynamics Lifecycle Services“ (LCS) diegimą atliko vartotojas A.
-- Vartotojas A įtraukė vartotojo B kaip „Microsoft Dynamics 365 for Talent Core HR“ vartotoją.
+- Vartotojas A įtraukė vartotoją B kaip „Microsoft“ „Dynamics 365 Talent: Core HR Core HR“ vartotoją.
 
 **Išduoti**
 

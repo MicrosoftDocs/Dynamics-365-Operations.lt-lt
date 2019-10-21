@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7acf4e5397ee7276b0f881f4859267371266de0
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553443"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2249545"
 ---
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
@@ -33,7 +33,7 @@ ms.locfileid: "1553443"
 
 Šioje temoje aprašyta, kaip galima naudoti atsargų žurnalus įvairių faktinių atsargų operacijų tipams registruoti.
 
-Atsargų žurnalai programoje „Microsoft Dynamics 365 for Finance and Operations“ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
+Atsargų žurnalai „Supply Chain Management‟ naudojami registruoti įvairių tipų fizinių atsargų operacijoms, pvz., išdavimų ir gavimų registravimui, atsargų judėjimui, komplektavimo specifikacijų (KS) kūrimui ir fizinių atsargų suderinimui. Panašiu būdu naudojami visi šie atsargų žurnalai, tik jie suskirstyti į skirtingus tipus.
 
 ## <a name="types-of-inventory-journals"></a>Atsargų žurnalų tipai
 Galima rinktis iš toliau nurodytų atsargų žurnalų tipų.
@@ -68,7 +68,7 @@ Kai KS skelbiate baigta, galite kurti KS žurnalą. Naudodami KS žurnalą galit
 
 ### <a name="item-arrival"></a>Prekių gavimas
 
-Prekių gavimo žurnalą galite naudoti prekių gavimui registruoti (pvz., iš pirkimo užsakymų). Prekių gavimo žurnalą galima sukurti kaip gavimų valdymo dalį **Gavimų apžvalgos** puslapyje, arba žurnalo įrašą galite rankiniu būdu sukurti **Prekių gavimo** puslapyje. Jei įgalinate funkciją, kuria prekių gavimo žurnalo pavadinimas tikrina paėmimo vietas, „Finance and Operations‟ gautoms prekėms ieško vietos ir, jei jos yra, generuoja gaunamų prekių vietų paskirtis.
+Prekių gavimo žurnalą galite naudoti prekių gavimui registruoti (pvz., iš pirkimo užsakymų). Prekių gavimo žurnalą galima sukurti kaip gavimų valdymo dalį **Gavimų apžvalgos** puslapyje, arba žurnalo įrašą galite rankiniu būdu sukurti **Prekių gavimo** puslapyje. Jei įgalinate funkciją, kuria prekių gavimo žurnalo pavadinimas tikrina paėmimo vietas, „Supply Chain Management‟ gautoms prekėms ieško vietos ir, jei jos yra, generuoja gaunamų prekių vietų paskirtis.
 
 ### <a name="production-input"></a>Gamybos įvestis
 
@@ -103,7 +103,7 @@ Duomenų objektai palaiko toliau nurodytų tipų scenarijus.
 Daugiau informacijos žr. [Duomenų objektai](../../dev-itpro/data-entities/data-entities.md).
 
 > [!NOTE]
-> Ne visuose atsargų žurnaluose „OData“ įjungta, todėl negalima naudoti „Excel“ duomenų jungties norint duomenis publikuoti, naujinti ir importuoti atgal į „Dynamics 365 for Finance and Operations“. 
+> Ne visuose atsargų žurnaluose „OData“ įjungta, todėl negalima naudoti „Excel“ duomenų jungties norint duomenis publikuoti, naujinti ir importuoti atgal į „Supply Chain Management“. 
 
 Kitas skirtumas tarp žurnalo duomenų objektų yra galimybė naudoti sudėtinius objektus, kurie apima antraščių ir eilučių duomenis. Šiuo metu galite naudoti sudėtinius objektus, skirtus toliau nurodytiems elementams.
 -   Atsargų koregavimo žurnalas

@@ -3,7 +3,7 @@ title: Tiekėjo sąskaitos kūrimas
 description: Ši procedūra nurodo, kaip sukurti tiekėjo sąskaitą ir įtraukti adresą bei kontaktinę informaciją.
 author: mkirknel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/26/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98a7c6d209400b754064f2176d1ebca291093304
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
+ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1838051"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "1924429"
 ---
 # <a name="create-a-vendor-account"></a>Tiekėjo sąskaitos kūrimas
 
@@ -31,35 +31,31 @@ ms.locfileid: "1838051"
 
 
 ## <a name="create-a-vendor-account"></a>Tiekėjo sąskaitos kūrimas
-1. Pasirinkite Įsigijimas ir šaltinio pasirinkimas > Tiekėjai > Visi tiekėjai.
-2. Spustelėkite Naujas.
-3. Lauke Tiekėjo sąskaita surinkite reikšmę.
-    * Reikšmė gali būti įvesta automatiškai. Tokiu atveju šį veiksmą galite praleisti.  
-    * Galite kurti tiekėjo sąskaitas asmeniui arba organizacijai. Nuo to priklausys, kuriuos laukus bus galima naudoti. Šiame pavyzdyje sukursime organizacijos tiekėjo sąskaitą.   
-4. Lauke Pavadinimas įveskite arba pasirinkite reikšmę.
-    * Jei jūsų tiekėjas jau yra jūsų sistemoje registruota šalis, galite jį pasirinkti išplečiamojo sąrašo lauke, o nauja tiekėjo sąskaita perims jau registruotą adresą ir kontaktinę informaciją.  
-5. Lauke Grupė įveskite arba pasirinkite reikšmę.
-    * Tiekėjų grupė skirta sugrupuoti tiekėjams, kuriems bendri bet kurie iš šių parametrų: mokėjimo sąlygos, sudengimo laikotarpis, atsargų registravimo DK sąskaitos – įskaitant PVM grupę, numatytosios DK sąskaitos, produktų filtravimo kodai arba tiekimo prognozės konfigūracija.  
-6. Lauke „Darbuotojų skaičius“ įveskite skaičių.
-7. Lauke „Organizacijos numeris“ įveskite reikšmę.
+1. Eikite į **Naršymo sritis > Moduliai > Įsigijimas ir išteklių paskirstymas > Tiekėjai > Visi tiekėjai**.
+2. Spustelėkite **Naujas**.
+3. Lauke **Tiekėjo sąskaita** įveskite vertę.
+    - Reikšmė gali būti įvesta automatiškai. Tokiu atveju šį veiksmą galite praleisti.  
+    - Galite kurti tiekėjo sąskaitas asmeniui arba organizacijai. Nuo to priklausys, kuriuos laukus bus galima naudoti. Šiame pavyzdyje sukursime organizacijos tiekėjo sąskaitą.   
+4. Lauke **Pavadinimas** įveskite arba pasirinkite reikšmę. Jei jūsų tiekėjas jau yra jūsų sistemoje registruota šalis, galite jį pasirinkti išplečiamojo sąrašo lauke, o nauja tiekėjo sąskaita perims jau registruotą adresą ir kontaktinę informaciją.
+5. Lauke **Grupė** įveskite arba pasirinkite reikšmę. Tiekėjų grupė skirta sugrupuoti tiekėjams, kuriems bendri bet kurie iš šių parametrų: mokėjimo sąlygos, sudengimo laikotarpis, atsargų registravimo DK sąskaitos – įskaitant PVM grupę, numatytosios DK sąskaitos, produktų filtravimo kodai arba tiekimo prognozės konfigūracija.
+6. Lauke **Darbuotojų skaičius** įveskite skaičių.
+7. Lauke **Organizacijos numeris** įveskite reikšmę.
 
 ## <a name="add-an-address"></a>Įtraukti adresą
-1. Išplėskite skyrių Adresai.
-2. Spustelėkite Pridėti.
-3. Lauke Tikslas įveskite arba pasirinkite reikšmę.
-    * Galite pasirinkti vieną arba kelis tikslus. Jie naudojami norint pasirinkti tinkamą konkretaus tikslo adresą. Pavyzdžiui, jei tikslas yra „Sąskaita faktūra“, tas adresas bus naudojamas siunčiant sąskaitas faktūras.  
-4. Lauke Pavadinimas arba aprašas surinkite reikšmę.
-5. Lauke Šalis / regionas įveskite arba pasirinkite reikšmę.
-    * Įveskite adreso informaciją. Nuo jūsų pasirinktos šalies / regiono priklausys jums rodomi laukai, atitinkantys šalies / regiono adreso formatą.   
-6. Spustelėkite GERAI.
+1. Išplėskite skyrių **Adresai**.
+2. Spustelėkite **Pridėti**.
+3. Lauke **Tikslas** įveskite arba pasirinkite reikšmę. Galite pasirinkti vieną arba kelis tikslus. Jie naudojami norint pasirinkti tinkamą konkretaus tikslo adresą. Pavyzdžiui, jei tikslas yra „Sąskaita faktūra“, tas adresas bus naudojamas siunčiant sąskaitas faktūras.
+4. Lauke **Pavadinimas arba aprašas** įveskite reikšmę.
+5. Lauke **Šalis / regionas** įveskite arba pasirinkite reikšmę. Įveskite adreso informaciją. Nuo jūsų pasirinktos šalies / regiono priklausys jums rodomi laukai, atitinkantys šalies / regiono adreso formatą. 
+6. Spustelėkite **Gerai**.
 
 ## <a name="add-contact-information"></a>Įtraukti kontaktinę informaciją
-1. Spustelėkite Pridėti.
-2. Lauke Aprašas įveskite reikšmę.
-3. Lauke „Tipas“ pasirinkite parinktį.
-4. Lauke „Kontaktinis numeris / adresas“ įveskite reikšmę.
-    * Jei tai yra pirminis kontaktas, galite pažymėkite žymės langelį Pirminis.  
-5. Spustelėkite Įrašyti.
-6. Uždarykite puslapį.
+1. Išplėskite skyrių **Kontaktinė informacija**.
+2. Spustelėkite **Pridėti**.
+3. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Tipas** pasirinkite parinktį.
+5. Lauke **Kontaktinis numeris / adresas** įveskite reikšmę. Jei tai yra pirminis kontaktas, galite pažymėkite žymės langelį Pirminis.  
+6. Spustelėkite **Įrašyti**.
 7. Uždarykite puslapį.
+8. Uždarykite puslapį.
 

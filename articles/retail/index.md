@@ -1,6 +1,6 @@
 ---
-title: Sveiki, čia „Dynamics 365 for Retail“
-description: „Dynamics 365 for Retail“ pagrindinis puslapis
+title: Žinyno ištekliai „Dynamics 365 Retail“
+description: „Dynamics 365 Retail“ pagrindinis puslapis
 author: josaw1
 manager: AnnBe
 ms.date: 08/14/2019
@@ -18,27 +18,30 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22dc340ff5ea381dd2a335c8c81332d11d1257a0
-ms.sourcegitcommit: 315388bba3a766691e341f9f2a4fa7a091f2aa18
+ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
+ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "1874932"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2278111"
 ---
-# <a name="welcome-to-dynamics-365-for-retail"></a>Sveiki, čia „Dynamics 365 for Retail“
+# <a name="help-resources-for-dynamics-365-retail"></a>Žinyno ištekliai „Dynamics 365 Retail“
 
 [!include [banner](includes/banner.md)]
 
-„Microsoft Dynamics 365 for Retail‟ – tai visapusis mažmeninės prekybos sprendimas, užtikrinantis bendrą prekybą visais kanalais. Jis apima pardavimą, mobilumą, įžvalgas ir produktyvumą, kad naudodami debesų ir mobiliąsias technologijas mažmenininkai bei darbininkai galėtų lengviau pasiekti geresnių rezultatų. „Retail‟ visapusiškai palaiko įvairiausius verslo procesus, pvz., prekybos, atsargų ir kanalų valdymo galimybes. Jis taip pat užtikrina įtraukiančią klientų patirtį visuose sąlyčio taškuose.
-
-> [!NOTE]
-> „Dynamics 365 for Retail“ glaudžiai susijęs su „Dynamics 365 for Finance and Operations“ ir „Dynamics 365 for Talent“. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios tiesiogiai susijusios su „Retail“, produkto pavadinimas bus „Microsoft Dynamics 365 for Retail“; temose, kurios tiesiogiai susijusios su pagrindiniu produktu (Finance and Operations), produkto pavadinimas bus „Microsoft Dynamics 365 for Finance and Operations“; temose, kurios tiesiogiai susijusios su žmogiškaisiais ištekliais, produkto pavadinimas bus „Dynamics 365 for Talent“.
+„Microsoft Dynamics 365 Retail“ – tai visapusis mažmeninės prekybos sprendimas, užtikrinantis bendrą prekybą visais kanalais. Jis apima pardavimą, mobilumą, įžvalgas ir produktyvumą, kad naudodami debesų ir mobiliąsias technologijas mažmenininkai bei darbininkai galėtų lengviau pasiekti geresnių rezultatų. „Retail‟ visapusiškai palaiko įvairiausius verslo procesus, pvz., prekybos, atsargų ir kanalų valdymo galimybes. Jis taip pat užtikrina įtraukiančią klientų patirtį visuose sąlyčio taškuose.
 
 Kairiojoje srityje pasirinkite funkcijų sritį, kad apie ją sužinotumėte daugiau.
 
-## <a name="channel-management"></a>Kanalų valdymas
+## <a name="dynamics-365-commerce-preview"></a>Dynamics 365 Commerce (Peržiūra)
 
-Nustatydami „Retail“ nuostatas spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves, kurios gali būti įvairių tipų – tradicinė parduotuvės, internetinės parduotuvės ar skambučių centrai.
+„Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. Klientams dabar galima peržiūrėti „Commerce“. Esami „Dynamics 365 Retail“ klientai galės atnaujinti į „Commerce“, kai ji taps visiems prieinama.
+
+Daugiau informacijos apie „Dynamics 365 Commerce“ žr. [Žinyno ištekliai „Dynamics 365 Commerce“](../commerce/index.md) puslapyje.
+
+## <a name="channel-management"></a>Kanalo valdymas
+
+Nustatydami „Retail experience“ spręsite, kaip nustatyti ir sukonfigūruoti savo parduotuves, kurios gali būti įvairių tipų – tradicinė parduotuvės, internetinės parduotuvės ar skambučių centrai.
 
 Kiekvienai mažmeninės prekybos parduotuvei galima nustatyti mokėjimo metodus, pristatymo metodus, kainų grupes, pajamų ir išlaidų sąskaitas, registrus ir darbuotojus. Sukūrus savo mažmeninės prekybos parduotuvę, sukuriamas norimų platinti produktų asortimentas. Taip pat galite nustatyti konkrečių parduotuvių kainas ir nuolaidas, taikomas parduotuvėje parduodamiems produktams.
 
@@ -78,8 +81,8 @@ Siekiant nustatyti ryšius tarp parduotuvės, parduotuvės EKA ir periferinių m
 
 Jei jūsų prašoma tinkinti savo aplinką arba esate atsakingi už visuotinį sistemos diegimą ir jos priežiūrą, primygtinai rekomenduojame peržiūrėti konkrečiai sprendimui „Retail‟ skirtą kūrimo ir sistemos administravimo turinį bei bendresnį turinį.
 
-- [„Dynamics 365 for Retail“ IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
-- [„Dynamics 365 for Finance and Operations“ kūrimas ir administravimas](../dev-itpro/dev-tools/developer-home-page.md)
+- [„Dynamics 365 Retail“ IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
+- [„Dynamics 365 Finance“ kūrimas ir administravimas](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

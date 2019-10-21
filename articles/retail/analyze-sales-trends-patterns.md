@@ -1,6 +1,6 @@
 ---
 title: Pardavimo tendencijų ir modelių analizavimas
-description: Programoje „Microsoft Dynamics 365 for Retail“ galite realiu laiku tirti pardavimo tendencijas ir modelius.
+description: Programoje „Dynamics 365 Retail“ galite realiu laiku tirti pardavimo tendencijas ir modelius.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,20 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c54e707d312d7ac3bbcad71a914e528859038a13
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557905"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025822"
 ---
 # <a name="analyze-sales-trends-and-patterns"></a>Pardavimo tendencijų ir modelių analizavimas
 
 [!include [banner](includes/banner.md)]
 
-Programoje „Microsoft Dynamics 365 for Retail“ galite realiu laiku tirti pardavimo tendencijas ir modelius.
+Programoje „Dynamics 365 Retail“ galite realiu laiku tirti pardavimo tendencijas ir modelius.
 
-Naudodami „Dynamics 365 for Retail“ vartotojai gali tirti pardavimo tendencijas ir modelius realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose pasirinktu metų laikotarpiu, naudodami parengtą naudoti ataskaitą **Kanalo pardavimai pagal metus**. Šią ataskaitą atidaryti galite iš bet kurios iš tolesnių vietų.
+Naudodami „Retail“ vartotojai gali tirti pardavimo tendencijas ir modelius realiuoju laiku skirtinguose organizacijos hierarchijos lygiuose pasirinktu metų laikotarpiu, naudodami parengtą naudoti ataskaitą **Kanalo pardavimai pagal metus**. Šią ataskaitą atidaryti galite iš bet kurios iš tolesnių vietų.
 
 - Darbo sritis **Mažmeninės prekybos parduotuvės valdymas** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės valdymas** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**
 - Darbo sritis **Mažmeninės prekybos parduotuvės finansai** &gt; **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės finansai** &gt; **Ataskaitos** &gt; **Ataskaita Kanalo pardavimai pagal metus**

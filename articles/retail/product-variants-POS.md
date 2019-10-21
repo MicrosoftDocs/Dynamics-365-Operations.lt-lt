@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 609f5f13f3af4a7621fe7ee152800dac4d68a9fc
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572054"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025154"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Atsargų peržvalga elektroniniame kasos aparate (EKA)
 
@@ -52,7 +52,7 @@ Taip pat rodomi kiekvienos vietos **Rezervuoti** ir **Užsakyti** kiekiai.
 Vietų sąrašas apima dviejų tipų objektus:
 
 - **Mažmenines parduotuves** – sąraše pateikiamos parduotuvės, kurios yra sukonfigūruotos naudojant dabartinės parduotuvės lokatorių grupę mažmeninių pardavimų valdyme.
-- **Platinimo centrus** – „Microsoft Dynamics 365 for Retail“ galima sukonfigūruoti įvairių tipų platinimo centrus (pvz., sandėlius). Tačiau sąraše rodoma informacija apie atsargų likučius tik **Standartinio** numatytojo tipo platinimo centruose.
+- **Platinimo centrus** – „Retail“ galima sukonfigūruoti įvairių tipų platinimo centrus (pvz., sandėlius). Tačiau sąraše rodoma informacija apie atsargų likučius tik **Standartinio** numatytojo tipo platinimo centruose.
 
     > [!NOTE]
     > EKA nerodoma informacija apie atsargų likučius **Tranzito**, **Sulaikymo** ir **Išsiųstų prekių** tipų sandėliuose.

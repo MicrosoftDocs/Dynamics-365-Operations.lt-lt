@@ -1,6 +1,6 @@
 ---
 title: Pradinių duomenų inicijavimas naujose „Retail“ aplinkose
-description: Šiame straipsnyje aprašyti duomenys, kurie kuriami „Microsoft Dynamics 365 for Retail“ inicijavimo proceso metu.
+description: Šiame straipsnyje aprašyti duomenys, kurie kuriami „Dynamics 365 Retail“ inicijavimo proceso metu.
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 49b21d81437ebd7cc55076444ee71ae1143bfac0
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556903"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2025521"
 ---
 # <a name="initialize-seed-data-in-new-retail-environments"></a>Pradinių duomenų inicijavimas naujose „Retail“ aplinkose
 
 [!include [banner](includes/banner.md)]
 
-Šiame straipsnyje aprašyti duomenys, kurie kuriami „Microsoft Dynamics 365 for Retail“ inicijavimo proceso metu.
+Šiame straipsnyje aprašyti duomenys, kurie kuriami „Dynamics 365 Retail“ inicijavimo proceso metu.
 
 Kai naudodami „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegiate mažmeninės prekybos sprendimą, turite inicijuoti mažmeninės prekybos konfigūravimą ir sukurti pagrindinius konfigūravimo duomenis.
 
@@ -39,7 +39,7 @@ Kai naudodami „Microsoft Dynamics Lifecycle Services“ (LCS) įdiegiate mažm
 
 Norėdami inicijuoti mažmeninės prekybos konfigūravimą, atlikite tolesnius veiksmus.
 
-1. Paleiskite Dynamics 365 for Retail klientą.
+1. Paleiskite „Retail“ klientą.
 2. Spustelėkite **Mažmeninė prekyba** &gt; **„Headquarters“ sąranka** &gt; **Parametrai** &gt; **Mažmeninės prekybos parametrai**.
 3. Spustelėkite **Inicijuoti**.
 
@@ -57,7 +57,7 @@ Inicijuojant sukuriami toliau pateikti numatytieji konfigūravimo duomenys.
 - Objektų tikrinimo šablonai
 - Paketinė užduotis, skirta „Commerce Data Exchange“ seansų retrospektyvai šalinti
 
-Be to, įjungiama prisiregistravimo prie „Dynamics 365 for Retail“ duomenų bazės funkcija, susijusi su mokėjimo kortelių pramone (PCI).
+Be to, įjungiama prisiregistravimo prie „Retail“ duomenų bazės funkcija, susijusi su mokėjimo kortelių pramone (PCI).
 
 > [!NOTE]
 > Duomenų apsikeitimo valdymą galima konfigūruoti atskirai. Ši parinktis suteikia galimybę iš naujo nustatyti mažmeninės prekybos duomenų apsikeitimo valdymo konfigūracijos numatytuosius parametrus.

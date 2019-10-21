@@ -1,6 +1,6 @@
 ---
-title: „Sales“ pardavimo pasiūlymų antraščių ir eilučių tiesioginis sinchronizavimas su „Finance and Operations“
-description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo pasiūlymo antraštes ir eilutes tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
+title: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su Tiekimo grandinės valdymu
+description: Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo pasiūlymų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
@@ -19,33 +19,33 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 0894f4728d3f1df21db130cd9e87d9881726e7fa
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743376"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2251252"
 ---
-# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“
+# <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su Tiekimo grandinės valdymu
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Microsoft Dynamics 365 for Sales“ pardavimo pasiūlymo antraštes ir eilutes tiesiogiai sinchronizuojant su „Microsoft Dynamics 365 for Finance and Operations“.
+Šioje temoje aptariami šablonai ir pagrindinės užduotys, naudojami „Dynamics 365 Sales“ pardavimo pasiūlymų antraštes ir eilutes tiesiogiai sinchronizuojant su „Dynamics 365 Supply Chain Management“.
 
 > [!NOTE]
 > Prieš naudodami sprendimą Potencialūs klientai ir grynieji pinigai, turėtumėte būti susipažinę su [Duomenų integravimas į „Common Data Service“, skirtą programoms](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai
 
-Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Finance and Operations“ ir „Sales“ egzemplioriuose. Naudojant sprendimo Potencialūs klientai ir grynieji pinigai šablonus, kuriuose galima taikyti funkciją Duomenų integravimas, galima kurti „Finance and Operations“ ir „Sales“ sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo sąskaitų faktūrų duomenų srautus. Toliau pateiktoje iliustracijoje rodoma, kaip duomenys sinchronizuojami tarp „Finance and Operations“ ir „Sales“.
+Sprendime Potencialūs klientai ir grynieji pinigai naudojant funkciją Duomenų integravimas sinchronizuojami duomenys „Supply Chain Management“ ir „Sales“ egzemplioriuose. Sprendimo Potencialūs klientai ir grynieji pinigai šablonai, pasiekiami naudojant duomenų integravimo funkciją, įjungia sąskaitų, kontaktų, produktų, pardavimo pasiūlymų, pardavimo užsakymų ir pardavimo SF duomenų srautą tarp Tiekimo grandinės valdymo ir „Sales“. Toliau pateiktoje iliustracijoje rodoma, kaip sinchronizuojami „Supply Chain Management “ ir „Sales“ duomenys.
 
 [![Duomenų srautas sprendime Potencialūs klientai ir grynieji pinigai](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>Šablonai ir užduotys
 
-Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami tiesiogiai sinchronizuojant „Sales“ pardavimo pasiūlymų antraštes ir eilutes su „Finance and Operations“.
+Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami tiesiogiai sinchronizuojant „Sales“ pardavimo pasiūlymų antraštes ir eilutes su Tiekimo grandinės valdymu.
 
-- **Šablono pavadinimas naudojant funkciją Duomenų integravimas:** pardavimo pasiūlymai (iš „Sales“ į „Finance and Operations“) – tiesioginis
+- **Šablono pavadinimas naudojant funkciją Duomenų integravimas:** Pardavimo pasiūlymai (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis
 - **Užduočių pavadinimai projekte Duomenų integravimas:**
 
     - QuoteHeader
@@ -53,9 +53,9 @@ Toliau pateiktas šablonas ir pagrindinės užduotys yra naudojami tiesiogiai si
 
 Prieš sinchronizuojant pardavimo pasiūlymų antraštes ir eilutes, būtina atlikti toliau pateiktas sinchronizavimo užduotis.
 
-- Produktai (iš „Finance and Operations“ į „Sales“) – tiesioginis
-- Sąskaitos (iš „Sales“ į „Finance and Operations“) – tiesioginis (jei naudojama)
-- Iš kontaktų į klientus (iš „Sales“ į „Finance and Operations“) – tiesioginis (jei naudojama)
+- Produktai (iš Tiekimo grandinės valdymo į „Sales“) – tiesioginis
+- Sąskaitos (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
+- Kontaktai klientams (iš „Sales“ į Tiekimo grandinės valdymą) – tiesioginis (jei naudojamas)
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
@@ -66,7 +66,7 @@ Prieš sinchronizuojant pardavimo pasiūlymų antraštes ir eilutes, būtina atl
 
 ## <a name="entity-flow"></a>Objekto srautas
 
-Pardavimo pasiūlymai kuriami „Sales“ ir sinchronizuojami su „Finance and Operations“.
+Pardavimo pasiūlymai kuriami sprendime „Sales“ ir sinchronizuojami su Tiekimo grandinės valdymu.
 
 „Sales“ pardavimo pasiūlymai sinchronizuojami tik jei tenkinamos tolesnės sąlygos.
 
@@ -75,13 +75,13 @@ Pardavimo pasiūlymai kuriami „Sales“ ir sinchronizuojami su „Finance and 
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>„Sales“ skirtas potencialių klientų ir grynųjų pinigų sprendimas
 
-Laukas **Sudaro tik išoriškai tvarkomi produktai** įtrauktas į objektą **Pasiūlymas** , kad būtų galima nuosekliai sekti, ar pardavimo pasiūlymą sudaro tik išoriškai tvarkomi produktai. Jei pardavimo pasiūlymui priskirti tik išoriškai tvarkomi produktai, produktai tvarkomi „Finance and Operations“. Tai padeda užtikrinti, kad nebandysite sinchronizuoti pardavimo pasiūlymo eilučių, kuriose nurodyti „Finance and Operations“ neatpažįstami produktai.
+Laukas **Sudaro tik išoriškai tvarkomi produktai** įtrauktas į objektą **Pasiūlymas** , kad būtų galima nuosekliai sekti, ar pardavimo pasiūlymą sudaro tik išoriškai tvarkomi produktai. Jei pardavimo pasiūlymui priskirti tik išoriškai tvarkomi produktai, produktai tvarkomi Tiekimo grandinės valdyme. Tai padeda užtikrinti, kad nebandysite sinchronizuoti pardavimo pasiūlymų eilučių, kuriose nurodyti Tiekimo grandinės valdyme neatpažįstami produktai.
 
 Visi produktų pasiūlymai pardavimo pasiūlyme atnaujinami, įtraukiant pardavimo pasiūlymo antraštės informaciją **Sudaro tik išoriškai tvarkomi produktai**. Šią informacija pateikiama **QuoteDetails** objekto lauke **Pasiūlymą sudaro tik išoriškai tvarkomi produktai**.
 
-Į produkto pasiūlymą gali būti įtraukta nuolaida ir visa tai bus sinchronizuojama su „Finance and Operations“. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo „Finance and Operations“ sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** prižiūrimi bei tvarkomi programoje „Finance and Operations“.
+Į produkto pasiūlymą gali būti įtraukta nuolaida ir visa tai bus sinchronizuojama su Tiekimo grandinės valdymu. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo Tiekimo grandinės valdymo sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** prižiūrimi bei tvarkomi naudojant Tiekimo grandinės valdymą.
 
-„Sales“ versijoje šis sprendimas toliau nurodytus laukus nustato kaip tik skaitomus, nes reikšmės nėra sinchronizuojamos su „Finance and Operations“.
+Sprendime „Sales“ šis sprendimas toliau nurodytus laukus nustato kaip tik skaitomus, nes reikšmės nėra sinchronizuojamos su Tiekimo grandinės valdymu.
 
 - Tik skaitomi pardavimo pasiūlymo antraštės laukai: **Nuolaida %**, **Nuolaida** ir **Transportavimo suma**
 - Tik skaitomi produktų pasiūlymo laukai: **Mokestis**
@@ -111,20 +111,20 @@ Prieš sinchronizuojant pardavimo pasiūlymus, svarbu atnaujinti toliau nurodytu
 
 #### <a name="quoteline"></a>QuoteLine
 
-- Įsitikinkite, kad „Finance and Operations“ yra **SalesUnitSymbol** būtina verčių schema.
+- Įsitikinkite, kad reikiamas **SalesUnitSymbol** skirtas susiejimas yra Tiekimo grandinės valdyme.
 - Įsitikinkite, kad „Sales“ apibrėžti reikiami vienetai.
 
     Šablono vertė, kurioje yra vertės schema, apibrėžta **oumid.name** į **SalesUnitSymbol**.
 
-- Pasirinktina: galite įtraukti toliau nurodytus susiejimus, norėdami užtikrinti, kad pardavimo pasiūlymo eilutės importuojamos „Finance and Operations“, jei nenurodyta kliento arba produkto numatytoji informacija.
+- Pasirinktina: galite įtraukti toliau nurodytus susiejimus, norėdami užtikrinti, kad pardavimo pasiūlymo eilutės importuojamos į Tiekimo grandinės valdymą, jei nenurodyta kliento arba produkto numatytoji informacija.
 
-    - **SiteId** – vieta būtina norint generuoti pasiūlymus ir „Finance and Operations“ pardavimo užsakymo eilutes. Numatytosios **SiteId** šablono reikšmės nėra.
-    - **WarehouseId** – sandėlis yra būtinas norint apdoroti pasiūlymus ir „Finance and Operations“ pardavimo užsakymo eilutes. Numatytosios **WarehouseId** šablono reikšmės nėra.
+    - **SiteId** – vieta būtina norint generuoti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymo eilutes. Numatytosios **SiteId** šablono reikšmės nėra.
+    - **WarehouseId** – sandėlis yra būtinas norint apdoroti pasiūlymus ir „Supply Chain Management“ pardavimo užsakymo eilutes. Numatytosios **WarehouseId** šablono reikšmės nėra.
 
 ## <a name="template-mapping-in-data-integrator"></a>Šablono susiejimas duomenų integratoriuje
 
 > [!NOTE]
-> - Sudėtinga „Finance and Operations“ sąranka valdo laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai**. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukus **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** tvarko „Finance and Operations“.
+> - Laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo sudėtinga Tiekimo grandinės valdymo sąranka. Šiuo metu šioje sąrankoje nepalaikomas integravimo susiejimas. Dabartinėje versijoje laukus **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** tvarko Tiekimo grandinės valdymas.
 > - Laukai **Mokėjimo sąlygos**, **Transportavimo sąlygos**, **Pristatymo sąlygos**, **Siuntimo būdas** ir **Pristatymo būdas** į numatytuosius susiejimus neįtraukti. Norėdami susieti šiuos laukus, turite nustatyti reikšmių schemą, kuri atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
 
 Tolesnėse iliustracijose pateikiamas šablono susiejimo pavyzdys duomenų integratoriuje.

@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 16 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 for Talent Core HR“ funkcijos.
+title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. spalio 16 d.)
+description: Šioje temoje aprašomos „Microsoft“ sistemos „Dynamics 365 Talent – Core HR“ naujos ir pakeistos funkcijos.
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/22/2018
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-22
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 51cfe8a92d1ac611e946934fe8ebbc99053788f1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 13e89faa3f8470125010ccdb40a6f01c0a9c4fe7
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518671"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008782"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-19-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent Core HR“ (2018 m. spalio 19 d.)
+# <a name="whats-new-or-changed-in-dynamics-365-talent-core-hr-october-19-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent: Core HR“ (2018 m. spalio 19 d.)
 
 [!include[banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Prieigą prie šios funkcijos kontroliuoja ši saugos pareiga:
 Šiame leidime atlikti toliau nurodyti naujinimai.
 - Pakeisti darbininkų samdymo veiksmai, kad jie daugiau „nebestrigtų“ būsenoje **Darbo eiga baigta**.
 - Dabar įdarbinimo įrašą galima sukurti be įdarbinimo pradžios datos.
-- Dabar darbuotojų savitarnoje rodomai „Dynamics 365 for Talent“ kursų registravino datai taikomas šios datos laiko juostos poslinkis.
+- Dabar darbuotojų savitarnoje rodomai „Dynamics 365 Talent“ kursų registravimo datai taikomas šios datos laiko juostos poslinkis.
 - „Excel“ failų negalima importuoti kelis kartus be klaidų naudojant parinktį **Darbuotojo objektas**.
 
 ## <a name="known-issue"></a>Žinoma problema

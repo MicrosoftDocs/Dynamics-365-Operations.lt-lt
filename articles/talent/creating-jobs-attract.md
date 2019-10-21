@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 351fd03f6a27073b850729e2eef5516556292225
-ms.sourcegitcommit: b24c36cdd3b6f6085447bf81cb034d13d5b081fe
+ms.openlocfilehash: 64871eb5f7175701cfe1c9fefcc04b9da488748b
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "1773266"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008460"
 ---
 # <a name="create-a-job"></a>Darbo vietos kūrimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi „Microsoft Dynamics 365 for Talent: Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
+Šioje temoje aprašomi „Microsoft Dynamics 365 Talent: Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
 
 ## <a name="job-creation"></a>Darbo vietos kūrimas
 
@@ -74,7 +74,7 @@ Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, �
 
 ## <a name="postings"></a>Registravimai
 
-Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Microsoft Dynamics 365 for Talent“ karjeros svetainėje arba „LinkedIn“. „Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas. Kai darbo vieta paskelbiama kaip esanti tik vidaus, norėdami ją peržiūrėti ir dėl jos teikti prašymą kandidatai turi turėti AAD paskyrą. Jei darbo vieta pateikiama kaip vieša, kandidatai ją peržiūrėti ir dėl jos teikti prašymą gali naudodami visas autentifikavimo parinktis. 
+Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Dynamics 365 Talent“ karjeros svetainėje arba „LinkedIn“. „Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas. Kai darbo vieta paskelbiama kaip esanti tik vidaus, norėdami ją peržiūrėti ir dėl jos teikti prašymą kandidatai turi turėti AAD paskyrą. Jei darbo vieta pateikiama kaip vieša, kandidatai ją peržiūrėti ir dėl jos teikti prašymą gali naudodami visas autentifikavimo parinktis. 
 
 Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija sprendime „Attract“](career-site.md).
 

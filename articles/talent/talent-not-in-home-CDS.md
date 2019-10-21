@@ -1,6 +1,6 @@
 ---
 title: „Talent“ nerodoma tarp „Microsoft Dynamics 365“ programų („Common Data Service 1.0“)
-description: Šioje temoje aiškinama, ką daryti, jei klientas nemato programos „Dynamics 365 for Talent“ tarp „Microsoft Dynamics 365“ programų.
+description: Šioje temoje aiškinama, ką daryti, jei klientas nemato programos „Dynamics 365 Talent“ tarp „Microsoft Dynamics 365“ programų.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad5add2b572ccb6bff175806b965f63b53986152
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 956af80a8ab2f454d9f523d3c74dda754ef0f793
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518695"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2009381"
 ---
 # <a name="talent-doesnt-appear-among-the-microsoft-dynamics-365-apps-common-data-service-10"></a>„Talent“ nerodoma tarp „Microsoft Dynamics 365“ programų („Common Data Service 1.0“)
 
@@ -30,13 +30,13 @@ ms.locfileid: "1518695"
 
 **Išduoti**
 
-Klientas nemato programos „Microsoft Dynamics 365 for Talent“ tarp „Microsoft Dynamics 365“ programų.
+Klientas nemato programos „Microsoft Dynamics 365 Talent“ tarp „Microsoft Dynamics 365“ programų.
 
 **Skiriamoji geba**
 
 Vartotojas turi būti įtrauktas į „Microsoft PowerApps“ aplinkai skirtą vaidmenį Aplinkos kūrėjas.
 
-1. Administratoriaus vartotojas, turintis „PowerApps“ 2 plano licenciją, turi atidaryti [„PowerApps“ administravimo portalą](https://preview.admin.powerapps.com/).
+1. Vartotojas administratorius, turintis „PowerApps“ 2 plano licenciją, turi atidaryti [„PowerApps“ administravimo portalą](https://preview.admin.powerapps.com/).
 2. Pasirinkite **Aplinkos**, tada pasirinkite „Talent“ tinkamą aplinką.
 3. Skirtuke **Sauga**, pateikiamame skirtuke **Aplinkos vaidmenys**, pasirinkite **Aplinkos kūrėjas**.
 

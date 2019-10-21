@@ -3,7 +3,7 @@ title: Padengimo parametrai
 description: Šioje temoje pateikiama informacija apie padengimo parametrus, kurie bendrojo planavimo metu naudojami prekių poreikiui skaičiuoti.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99e094a7131b6d3a299fc72abd0141529908ddd2
-ms.sourcegitcommit: 9e50bee6a67f0fe2fa6f86e02c7e8de16d0e2482
+ms.openlocfilehash: 3a63184852751bb65fb7e80d721f8c48fd847609
+ms.sourcegitcommit: edfd805356894710488ce07cb1c89313f448b222
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538899"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "1998976"
 ---
 # <a name="coverage-settings"></a>Padengimo parametrai
 
@@ -49,6 +49,19 @@ Galite nurodyti padengimo parametrus keliais būdais:
 - Nurodykite dimensijos grupės padengimo parametrus.
 
     Eikite į **Produkto informacijos valdymas &gt; Produktai &gt; Patvirtinti produktai**. Puslapio **Patvirtinto produkto informacija** sparčiajame skirtuke **Bendra** esančioje sekcijoje **Administravimas** pasirinkite saitą lauke **Saugojimo dimensijų grupė**. Puslapyje **Saugojimo dimensijų grupės** pasirinkite žymės laukelį **Padengimo planas dimensijomis**, kad sukurtumėte saugojimo dimensijų grupės dimensijos padengimo nustatymus. Visose produkto dimensijose, pvz., konfigūracijos, spalvos, dydžio, stiliaus, turi būti pasirinktas laukas **Padengimo planas pagal dimensiją**.
+
+
+## <a name="coverage-codes"></a>Padengimo kodai
+
+Bendrąjį planavimą galima konfigūruoti, kad būtų naudojami skirtingi papildymo metodai. Papildymo metodai ar partijų dydžio nustatymo metodai yra sistemos naudojami metodai, siekiant nustatyti įsigytų arba pagamintų prekių paketo dydį. 
+
+Kiekvienam papildymo metodui priskiriamas vienas toliau pateiktų padengimo kodų.
+
+- **Rankinis** – partijos dydžio nustatymo metodas, kai sistema nenurodo prekės pirkimo, perkėlimo ar gamybos užsakymų. Prekės planuotojas bus atsakingas už būtinų prekės papildymo užsakymų kūrimą.
+- **Pagal poreikius** – partijos dydžio nustatymo metodas, pagal kurį sistema sukuria suplanuotą pirkimo, perkėlimo ar gamybos užsakymą kiekvienam prekės reikalavimui. Tai dažniausiai naudojama brangiems objektams su kintama paklausa.  
+- **Per laikotarpį** – partijos dydžio nustatymo metodas, kuris sujungia visą laikotarpio paklausą į vieną prekės užsakymą. Užsakymas bus suplanuotas pirmai laikotarpio dienai, o jo kiekis patenkins grynuosius poreikius nustatyto laikotarpio metu. Laikotarpis pradedamas nuo pirmo prekės poreikio ir apima nustatytą laiko trukmę. Kitas laikotarpis prasidės nuo kitų prekės reikalavimų.
+- **Min./maks.** – partijos dydžio nustatymo metodas, kuriame yra atsargų papildymas iki tam tikro lygio, kai prognozuojama, kad turimos atsargos yra žemiau ribinės reikšmės. Papildymo kiekis bus skirtumas tarp maksimalaus lygio ir prognozuojamo turimų atsargų lygio.
+
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

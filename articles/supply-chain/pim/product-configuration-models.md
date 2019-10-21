@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 883337979201b3059b301b7aebf9952a70016989
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1563602"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250627"
 ---
 # <a name="product-configuration-models-overview"></a>Produkto konfigūracijos modelių apžvalga
 
@@ -118,7 +118,7 @@ Jei atributo tipas yra <strong>Bulio logika</strong>, <strong>Sveikasis skaičiu
 </tr>
 </tbody>
 </table>
-Sistemos apibrėžtas lentelės apribojimas apibūdina sąsają tarp atributo tipo ir lauko „Finance and Operations‟ lentelėje. Sistemos apibrėžtas lentelės apribojimas dinamiškai susieja atributo tipą su lauku. Saitas leidžia atributui produkto konfigūracijos modelyje atspindėti „Finance and Operations‟ lentelės lauko duomenis.</td>
+Sistemos apibrėžtas lentelės apribojimas apibūdina sąsają tarp atributo tipo ir lauko „Finance and Operations‟ lentelėje. Sistemos apibrėžtas lentelės apribojimas dinamiškai susieja atributo tipą su lauku. Saitas leidžia atributui produkto konfigūracijos modelyje atspindėti Tiekimo grandinės valdymo lentelės lauko duomenis.</td>
 </tr>
 <tr class="odd">
 <td>Skaičiavimai</td>

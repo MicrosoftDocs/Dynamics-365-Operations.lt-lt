@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 35ec47a13d9119c755702e019d09c76e1281b4a6
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1549318"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250231"
 ---
 # <a name="activity-based-subcontracting"></a>Veikla pagrįsta subranga
 
@@ -32,7 +32,7 @@ ms.locfileid: "1549318"
 
 Šioje temoje išsamiai paaiškinama, kaip naudoti subrangos veiklas „lean manufacturing“ gamybos eigoje.
 
-„Microsoft Dynamics 365 for Finance and Operations“ naudojami du subrangos metodai: gamybos užsakymai ir „lean manufacturing“. „Lean manufacturing“ metodas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su gamybos eigos veikla. Pristatytas specialus išlaidų grupės tipas, kuris vadinasi **Tiesioginė subranga**, ir subrangos paslaugos nebėra KS dalis. Subrangos darbo išlaidų apskaita yra visiškai integruota į „lean manufacturing“ įkainojimo sprendimą.
+„Microsoft Dynamics 365 Supply Chain Management“ naudojami du subrangos metodai: gamybos užsakymai ir „lean manufacturing“. „Lean manufacturing“ metodas subrangos darbą modeliuoją kaip paslaugą, kuri susijusi su gamybos eigos veikla. Pristatytas specialus išlaidų grupės tipas, kuris vadinasi **Tiesioginė subranga**, ir subrangos paslaugos nebėra KS dalis. Subrangos darbo išlaidų apskaita yra visiškai integruota į „lean manufacturing“ įkainojimo sprendimą.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Gamybos eigos, apimančios subrangą
 Pagrindinis gamybos eigos principas nesikeičia, kai veiklą vykdo subrangovai. Medžiagų srautas tarp vietų vis dar vykdomas, proceso veiklos konvertuoja medžiagas į produktus, o perkėlimo veiklos perkelia medžiagas arba produktus iš vienos vietos į kitą. Vietas ir darbo elementus galite modeliuoti kaip tiekėjo valdomus elementus, priskirdami tiekėjo sąskaitą sandėliui arba išteklių grupės ištekliui.  
@@ -102,7 +102,7 @@ Dažnai žmonės galvoja, kad transportas nėra produktyvus ir nekuria jokios ve
 
 “Lean manufacturing“ veikla pagrįsta subranga suteikia galimybę integruoti vežėjus ir transporto tiekėjus, kurie gabena medžiagas ir produktus iš vienos gamybos eigos vietos į kitą. Modeliuodami perkėlimo veiklą galite priskirti vežėją arba tiekėją. Perkėlimo veiklos / užduotis yra pagrįsta aptarnavimo bei pirkimo sutartimi ir jūs pirkimo užsakymus bei gavimo patariamuosius dokumentus galite kurti pagal faktines perkėlimo užduotis. Ši funkcija yra tokia pati kaip subrangos proceso veiklų funkcija.  
 
-Todėl „Finance and Operations“ dabar palaiko KS skaičiavimą, kuris apima transporto paslaugas, susijusių pirkimo užsakymų kūrimą, integruotą gavimo registravimą ir transporto paslaugų išlaidų integravimą į gamybos eigos išlaidas.
+Todėl „Supply Chain Management“ dabar palaiko KS skaičiavimą, kuris apima transporto paslaugas, susijusių pirkimo užsakymų kūrimą, integruotą gavimo registravimą ir transporto paslaugų išlaidų integravimą į gamybos eigos išlaidas.
 
 
 

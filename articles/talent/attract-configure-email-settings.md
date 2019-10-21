@@ -1,6 +1,6 @@
 ---
-title: „Microsoft Dynamics 365 for Talent - Attract“ el. pašto parametrų konfigūravimas
-description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto, siunčiamo iš „Microsoft Dynamcis 365 for Talent - Attract“, parametrus.
+title: „Microsoft Dynamics 365 Talent - Attract“ el. pašto parametrų konfigūravimas
+description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto, siunčiamo iš „Microsoft Dynamcis 365 Talent - Attract“, parametrus.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/04/2019
@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a8cf59064dd2f66ee50a0b0566aa712ba1f72dea
-ms.sourcegitcommit: 7c49475402632069685df714546770d30804af7f
+ms.openlocfilehash: c891a36f01d36774bd921475fa5995d207cd2d51
+ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "1739500"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "2008667"
 ---
 # <a name="configure-email-settings"></a>El. pašto parametrų konfigūravimas
 
 [!include[banner](../includes/banner.md)]
 
-Jūsų prekės ženklas kuria patikimumo įspūdį ir padeda užmegzti ryšį su kandidatais dar prieš jiems kandidatuojant į jūsų siūlomas darbo vietas. Teigiamas prekės ženklo įvaizdis pritraukia geriausius talentus ir didina esamų darbuotojų lojalumą. „Microsoft Dynamics 365 for Talent: Attract“ galima sukonfigūruoti el. laiškus, kad juose atsispindėtų jūsų įmonės prekės ženklas. Todėl kandidatavimo proceso metu užtikrinsite nuoseklią kandidatų patirtį.
+Jūsų prekės ženklas kuria patikimumo įspūdį ir padeda užmegzti ryšį su kandidatais dar prieš jiems kandidatuojant į jūsų siūlomas darbo vietas. Teigiamas prekės ženklo įvaizdis pritraukia geriausius talentus ir didina esamų darbuotojų lojalumą. „Microsoft Dynamics 365 Talent: Attract“ galima sukonfigūruoti el. laiškus, kad juose atsispindėtų jūsų įmonės prekės ženklas. Todėl kandidatavimo proceso metu užtikrinsite nuoseklią kandidatų patirtį.
 
 „Attract“ galite atlikti toliau nurodytus veiksmus.
 

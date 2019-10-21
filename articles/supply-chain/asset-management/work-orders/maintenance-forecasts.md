@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-15
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a416bbb79be3f25998d3c0da8d231d0df808685
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
+ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875801"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "2024504"
 ---
 # <a name="maintenance-forecasts"></a>Priežiūros prognozės
 
@@ -104,7 +104,7 @@ Yra trys būdai įtraukti prekes į darbo užsakymo priežiūros prognozę: gali
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Darbo užsakymo prognozių automatinis naujinimas
 
-Modulyje Turto valdymas galima automatiškai naujinti darbo užsakymų prognozių informaciją apie valandos kainas, prekių kainas ir išlaidas, kuri buvo atnaujinta kituose „Dynamics 365 for Finance and Operations“ moduliuose. Tai daroma siekiant užtikrinti, kad darbo užsakymų prognozėse naudojamos aktualiausios savikainos. Taip pat galima naujinti ir [priežiūros užduočių tipo prognozes](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Modulyje Turto valdymas galima automatiškai naujinti darbo užsakymų prognozių informaciją apie valandos kainas, prekių kainas ir išlaidas, kuri buvo atnaujinta kituose moduliuose. Tai daroma siekiant užtikrinti, kad darbo užsakymų prognozėse naudojamos aktualiausios savikainos. Taip pat galima naujinti ir [priežiūros užduočių tipo prognozes](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
 1. Spustelėkite **Turto valdymas** > **Periodinis** > **Prognozė** > **Naujinti darbo užsakymo prognozę**.
 

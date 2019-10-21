@@ -3,7 +3,7 @@ title: Gamybos procesų apžvalga
 description: Šioje temoje apžvelgiami gamybos procesai. Jame aprašomi įvairūs gamybos užsakymų, paketinių užsakymų ir „kanban‟ užduočių etapai – nuo užsakymų kūrimo iki finansinio laikotarpio uždarymo.
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5b586a02d79fbbee698f32ab2ace3f86e7262fa7
+ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546668"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "2250027"
 ---
 # <a name="production-process-overview"></a>Gamybos procesų apžvalga
 
@@ -36,12 +36,12 @@ Produktų gamyba, procesas, kartais dar vadinamas gamybos ciklu, vykdoma atlieka
 
 Modulis **Gamybos kontrolė** yra susijęs su kitais moduliais, pavyzdžiui, **Produkto informacijos valdymas**, **Atsargų valdymas**, **Didžioji knyga**, **Sandėlio valdymas**, **Projekto apskaita** ir **Organizacijos administravimas**. Ši integracija palaiko informacijos srautą, reikalingą galutinei prekei pagaminti.  
 
-Gamybos procesui paprastai įtaką daro išlaidų apskaitos ir atsargų vertinimo būdai, kurie pasirenkami konkrečiam gamybos procesui. „Finance and Operations“ palaiko tiek faktines išlaidas („pirmosios įvestos, pirmosios nurašomos“ \[FIFO\]; „paskutinės įvestos, pirmosios nurašomos“ \[LIFO\]; slankusis vidurkis ir laikotarpio svertinis vidurkis), tiek standartinius išlaidų metodus. „Lean manufacturing“ įdiegiamas pagal įkainojimo atvirkštine tvarka principą.  
+Gamybos procesui paprastai įtaką daro išlaidų apskaitos ir atsargų vertinimo būdai, kurie pasirenkami konkrečiam gamybos procesui. Tiekimo grandinės valdymas palaiko tiek faktines išlaidas („pirmosios įvestos, pirmosios nurašomos“ \[FIFO\]; „paskutinės įvestos, pirmosios nurašomos“ \[LIFO\]; slankusis vidurkis ir laikotarpio svertinis vidurkis), tiek standartinius išlaidų metodus. „Lean manufacturing“ įdiegiamas pagal įkainojimo atvirkštine tvarka principą.  
 
 Išlaidų matavimo metodo pasirinkimas taip pat apibrėžia ataskaitų apie medžiagų ir išteklių suvartojimą gamybos proceso metu reikalavimus. Paprastai faktinių išlaidų metodai reikalauja tiksliai kurti užduoties lygio ataskaitas, o periodiniai įkainojimo metodai užtikrina ne tokių smulkių medžiagų ir išteklių suvartojimo ataskaitų kūrimą.
 
 ## <a name="mixed-mode-manufacturing"></a>Gamyba mišriuoju režimu
-Įvairūs produktai ir gamybos topologijos reikalauja taikyti skirtingus užsakymo tipus. Naudodami „Finance and Operations“ ir dirbdami mišriuoju režimu galite taikyti įvairius užsakymų tipus. Kitaip tariant, gaminant vieną baigtą produktą iki galo, proceso metu galimi visi užsakymo tipai.
+Įvairūs produktai ir gamybos topologijos reikalauja taikyti skirtingus užsakymo tipus. Naudodami Tiekimo grandinės valdymą, dirbdami mišriuoju režimu galite taikyti įvairius užsakymo tipus. Kitaip tariant, gaminant vieną baigtą produktą iki galo, proceso metu galimi visi užsakymo tipai.
 
 -   **Gamybos užsakymas** – tai klasikinis užsakymo tipas, skirtas konkretaus produkto arba produkto varianto nurodytam kiekiui tam tikrą datą gaminti. Gamybos užsakymai pagrįsti komplektavimo specifikacijomis (KS) ir maršrutais.
 -   **Paketinis užsakymas** – šis užsakymo tipas naudojamas proceso pramonės šakoms ir atskiriems procesams, kur gamybos konvertavimas pagrįstas formule, kurioje sudėtiniai ir šalutiniai produktai gali būti baigti produktai arba kartu su pagrindiniu produktu, arba vietoje jo. Paketiniuose užsakymuose naudojami tipo **Formulė** KS ir maršrutai.
