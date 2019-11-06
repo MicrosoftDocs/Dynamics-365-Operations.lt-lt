@@ -3,7 +3,7 @@ title: Patobulintas pagal paketą sekamų prekių tvarkymas
 description: Šioje temoje aprašoma, kaip patobulintas pagal paketą sekamų prekių paketų tvarkymas atliekant procesą Mažmeninės prekybos išrašo registravimas.
 author: josaw1
 manager: AnnBe
-ms.date: 05/28/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,14 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 35823efa2844898d3eecbf91624b3e37d308b63c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 70d78f86f1df057d14d821a8c967e62eeeb4ff92
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025799"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622555"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Patobulintas pagal paketą sekamų prekių tvarkymas
+
+
+[!include [banner](includes/banner.md)]
+
+[!include [banner](includes/preview-banner.md)]
+
 
 Mažmeninės prekybos elektroniniame kasos aparate (EKA) parduodant pagal paketą sekamas prekes jų paketų numerių užfiksuoti negalima. Tačiau, naudojant tam tikras konfigūracijas, kai pardavimai būstinėje registruojami per klientų užsakymus arba registruojant išrašus, „Microsoft Dynamics“ sistema tikisi, kad egzistuoja galiojantys pagal paketą sekamų prekių paketų numeriai ir kad jie bus naudojami atliekant SF išrašymo procesą.
 
@@ -39,3 +45,6 @@ Norėdami nustatyti numatytąjį paketo ID, kuris yra naudojamas, kai registruoj
 
 > [!NOTE]
 > Šią funkciją galima naudoti tik tada, kai konkrečiam parduotuvės sandėliui ir prekėms įjungtas pažangus sandėliavimas. Naujesniame leidime ši funkcija taip pat bus palaikoma situacijose, kai pažangus sandėlių valdymas nenaudojamas.
+
+> [!NOTE]
+> „Retail” versijoje 10.0.5 įvestas patobulinto pagal paketą sekamų prekių tvarkymo palaikymas atliekant neišplėstinių sandėlių valdymo scenarijų išrašų tvarkymą.

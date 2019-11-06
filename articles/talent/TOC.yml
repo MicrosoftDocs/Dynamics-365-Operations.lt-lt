@@ -1,5 +1,5 @@
 - name: „Dynamics 365 for Talent”
-  href: index.yml
+  href: talent-welcome.md
   items:
     - name: Pradžia
       items:
@@ -8,6 +8,10 @@
         - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: "2019\_m. spalio 23\_d."
+              href: whats-new-talent-october-23-2019.md
+            - name: "2019\_m. spalio 8\_d."
+              href: whats-new-talent-october-8-2019.md
             - name: "2019\_m. spalio 1\_d."
               href: whats-new-talent-october-1-2019.md
             - name: "2019\_m. rugsėjo 17\_d."
@@ -385,18 +389,20 @@
           items:
             - name: Atsakymas į užklausą dėl asmens duomenų sprendime „Talent“
               href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Formos I-9 tinkamumo dirbti patikrinimas
+            - name: 'Forma I-9, tinkamumo dirbti patikrinimas'
               href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
             - name: ADA laikymasis
               href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Integravimas
       items:
+        - name: Duomenų integravimo į „Dynamics 365 for Talent“ instrukcijos
+          href: data-integration.md
+        - name: Konfigūruoti „Common Data Service“ integravimą
+          href: hr-common-data-service-integration.md
         - name: Integravimas su „Dynamics 365 for Finance and Operations“
           href: talent-financeandoperations-integration.md
         - name: Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
           href: configure-payroll-integration.md
-        - name: Duomenų integravimo į „Dynamics 365 for Talent“ instrukcijos
-          href: data-integration.md
         - name: Su integravimu susiję DUK
           href: talent-fo-integration.md
         - name: Pasikartojantis duomenų eksportavimas naudojant „Azure Logic Apps”

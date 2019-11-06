@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 244321e1eb246c46260326a8892924d9d9da75d3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176027"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570361"
 ---
 # <a name="recognize-deferred-revenue"></a>Pripažinti atidėtas įplaukas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Įplaukų pripažinimo funkcija dar negali būti įjungta naudojant funkcijų valdymą. Dabar norėdami ją įjungti, turite naudoti konfigūracijos raktus.
+> Įplaukų pripažinimo funkcija negali būti įjungta naudojant funkcijų valdymą. Dabar norėdami ją įjungti, turite naudoti konfigūracijos raktus.
 
 Šioje temoje aprašomas pajamų pripažinimo procesas įplaukų pripažinimo grafike. Po to kai pardavimo užsakymui užregistruojama SF, kiekvienai pardavimo užsakymo eilutei, turinčiai įplaukų grafiką, sukuriamas įplaukų pripažinimo grafikas. Įplaukų grafikas eilutėje yra naudojamas nustatyti, ar eilutės įplaukos turėtų būti atidėtos.
 

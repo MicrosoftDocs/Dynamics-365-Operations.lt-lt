@@ -3,7 +3,7 @@ title: Mažmeninės prekybos operacijų vientisumo tikrintuvas
 description: Šioje temoje aprašomos mažmeninės prekybos operacijų vientisumo tikrintuvo funkcijos „Dynamics 365 Retail“.
 author: josaw1
 manager: AnnBe
-ms.date: 05/30/2019
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0413c2b236e442fb56098f1902b4d5b247ed4649
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b956565ac15b3d7b638cedaadc20923ee87b9c61
+ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018423"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2622602"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mažmeninės prekybos operacijų vientisumo tikrintuvas
 
@@ -59,7 +59,10 @@ Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina mažmeninės pre
 - **Dovanų kortelės prekė** – „Retail“ dovanų kortelių prekių grąžinimo nepalaiko. Tačiau dovanų kortelės likutį galima išgryninti. Bet kokiai dovanų kortelės prekei, kuri yra apdorojama ne kaip išgryninimo eilutė, o kaip grąžinimo eilutė, išrašo registravimo proceso vykdyti nepavyksta. Dovanų kortelių prekių tikrinimo procesas padeda užtikrinti, kad mažmeninės prekybos operacijų lentelėse būtų tik tos grąžinamos dovanų kortelių eilučių prekės, kurios yra dovanų kortelių išgryninimo eilutės.
 - **Neigiama kaina** – tikrinama, ar nėra neigiamos kainos operacijų eilučių.
 - **Prekė ir variantas** – tikrinama, ar operacijų eilutėse nurodytos prekės ir variantai egzistuoja pagrindiniame prekių ir variantų faile.
-- **Mokesčio suma** – tikrinama, ar mokesčių įrašai atitinka eilutėse nurodytas mokesčių sumas. 
+- **Mokesčio suma** – tikrinama, ar mokesčių įrašai atitinka eilutėse nurodytas mokesčių sumas.
+- **Serijos numeris** – tikrina, ar serijos numerio kontroliuojamų prekių operacijų eilutėse yra serijos numeris.
+- **Ženklas** – tikrina, ar kiekio ir grynosios sumos ženklas yra toks pat visose operacijų eilutėse.
+- **Verslo data** – tikrina, ar visų prekybos operacijų verslo datų finansiniai laikotarpiai yra atidaryti.
 
 ## <a name="set-up-the-consistency-checker"></a>Vientisumo tikrintuvo nustatymas
 
