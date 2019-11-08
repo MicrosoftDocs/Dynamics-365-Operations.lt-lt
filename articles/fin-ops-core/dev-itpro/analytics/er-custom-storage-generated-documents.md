@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a1c41cd4440eaf70f720bfd64884e6ef4662f87a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f65118b6a7393ced9d80c30fad7540a7b27da6c7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181478"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569089"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 
@@ -56,7 +56,7 @@ Esamoje topologijoje [sukurkite naują ER formatą](tasks/er-format-configuratio
 
 Norėdami nurodyti, kaip nukreipiami sugeneruoti ER dokumentai, turite sukonfigūruoti [ER paskirties vietas](electronic-reporting-destinations.md). Kiekvienoje ER paskirties vietoje, kuri sukonfigūruota saugoti sugeneruotus dokumentus kaip failus, turite nurodyti dokumentų valdymo sistemos dokumento tipą. Galima naudoti skirtingus dokumentų tipus norint nukreipti dokumentus, kuriuos sugeneruoja skirtingi ER formatai.
 
-1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](../../fin-and-ops/organization-administration/configure-document-management.md). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
+1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
 2. Norėdami atskirti šį dokumento tipą nuo kitų dokumentų tipų, įtraukite tam tikrą raktažodį į jo pavadinimą. Pavyzdžiui, toliau pateiktame paveikslėlyje pavadinimas yra **(VIETINIS) aplankas**.
 3. Lauke **Klasė** nurodykite **Pridėti failą**.
 4. Lauke **Grupė** nurodykite **Failas**.

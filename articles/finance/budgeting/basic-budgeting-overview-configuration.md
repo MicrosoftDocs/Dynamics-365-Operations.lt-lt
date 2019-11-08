@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 349f720ee4cfb612ca4f4f50a9e081f3343f756d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
+ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188699"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2667465"
 ---
 # <a name="budgeting-overview"></a>Biudžetų sudarymo modulio apžvalga
 
@@ -69,6 +69,12 @@ Kurkite *biudžeto kodus*, nurodančius įrašytinų biudžeto operacijų tipą 
 Biudžeto kodai suteikia galimybę patvirtintų biudžeto pakeitimų įrašus sekti biudžeto ciklo metu. Jei darbo eiga yra susieta su biudžeto kodu, darbo eiga bus įjungta visiems biudžeto registro įrašams, naudojantiems tą biudžeto kodą, o darbo eigos veiksmai turi būti atlikti prieš biudžeto registro įrašo etapą **Baigtas**.  
 
 Taip pat galite pasirinktinai nustatyti *biudžeto perkėlimo taisykles*. Norėdami naudoti biudžeto perkėlimo taisykles, puslapyje **Biudžeto parametrai** pažymėkite **Naudoti biudžeto perkėlimo taisykles**. Kai naudojamos biudžeto perkėlimo taisyklės, jei vartotojas sukuria dokumentą naudodamas tipo **Perkėlimas** biudžeto kodą, biudžeto balansai nebus atnaujinami, jei pažeistos biudžeto perkėlimo taisyklės. Pavyzdžiui, galite leisti biudžeto perkėlimo dokumentus, jei išlaidų biudžetas yra perkeliama pagrindinėse pardavimų ir rinkodaros padalinio sąskaitose, bet galite uždrausti biudžeto perkėlimą iš arba į tą padalinį, jei negautas to tipo biudžeto sąskaitos išrašo darbo eigos patvirtinimas.
+
+Funkcijos, pristatytos „Microsoft Dynamics 365 Finance“ 10.0.7 (2020 m. sausio) versijoje, papildė biudžeto registro įrašų galimybes ir lankstumą. Norėdami aktyvinti šiuos patobulinimus, eikite į darbo sritį **Funkcijų valdymas** ir pasirinkite **Biudžeto registro įrašai tik kiekiui** ir (arba) **Numatytieji biudžeto registro įrašų sumos tipai**.
+
+Funkcija **Biudžeto registro įrašai tik kiekiui** leidžia registruoti biudžeto registro įrašą su tik kiekio sumomis. Pavyzdžiui, galite užregistruoti biudžeto įrašą, kurio kiekis yra 32, o kaina – nulis, tokiu būdu gaunant nulinę sumą. Tada šį kiekį galite naudoti finansinės ataskaitos kontekste, kad nustatytumėte kainą pagal kiekį. Atkreipkite dėmesį, kad naudojant šią funkciją nebuvo atnaujinta nė viena iš užklausų ar ataskaitų; funkcija tiesiog leidžia užregistruoti nulinę sumą.
+
+Funkcija **Numatytieji biudžeto registro įrašų sumos tipai** leidžia biudžeto registro įraše naudoti numatytąjį sumos tipą, kurio sumos tipas nėra išlaidos. Kai pagrindinės sąskaitos tipas yra išlaidos, numatytoji biudžeto registro įrašo eilutė dabar bus išlaidos; kai pagrindinės sąskaitos tipas yra išlaidos, numatytoji eilutės bus įplaukos; visiems kitiems sąskaitų tipams numatytoji eilutė bus išlaidos.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Darbo sričių ir užklausų puslapių naudojimas biudžetui ir faktinėms sumoms sekti
 Biudžeto vadybininkas gali peržiūrėti dabartinę biudžeto būseną darbo srityje **DK biudžetai ir prognozės**. Skirtukuose **Išlaidos, viršijančios biudžetą** ir **Biudžeto įplaukos** galima greitai peržiūrėti finansinių dimensijų derinius, kai biudžeto tikslai neįvykdomi arba artėja prie slenksčio. Biudžeto slenksčio procentą ir finansinių dimensijų rinkinius, naudojamus tuose skirtukuose, galite pritaikyti spustelėdami **Konfigūruoti mano darbo sritį**. Galite spustelėti **Grupių vadovai** ir peržiūrėti darbuotojus, kurie yra atsakingi už konkrečius finansinių dimensijų derinius, pasirinktus tuose skirtukuose. Pvz., jei matote, kad operacijų padalinio išlaidų biudžetas viršija biudžeto slenkstį, galite lengvai rasti ir susisiekti su operacijų padalinio vadovu bei tai aptarti. 

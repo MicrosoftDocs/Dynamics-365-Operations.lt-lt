@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5b791fd3e060c4f4ecdb1ca599a6041d421db74
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 5b830d835d99122a8c0572481f4c229c37d97d0c
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024539"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653256"
 ---
 # <a name="asset-documents"></a>Nustatyti dokumentą kaip
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šioje temoje pasakojama apie turto dokumentus, esančius modulyje „Turto valdymas“.
 
-Modulyje „Turto valdymas“ galite konfigūruoti dokumentus, kad jie būtų automatiškai siejami su užduoties tipais, turto gamintojais, turto tipais arba turtu. Ši funkcija yra naudinga, kai išleidžiamos atnaujintos dokumentų versijos. Tokiu atveju jums tereikia įtraukti atnaujintą dokumentą į standartinę vietą, kurią naudojate „Finance and Operations“ dokumentams laikyti ir pridėti dokumentą prie turto dokumento įrašo, kurį buvote sukūrę. Tada atnaujintą dokumentą galima pasiekti einant į meniu elementus **Visas turtas**, **Aktyvusis turtas**, **Mano aktyvusis turtas**, **Visi darbo užsakymai** ir **Aktyviosios darbo užsakymo užduotys**. Dokumentų pridėjimo prie turto dokumentų įrašo procesas naudoja standartinę dokumentų tvarkymo sistemą.
+Modulyje „Turto valdymas“ galite konfigūruoti dokumentus, kad jie būtų automatiškai siejami su užduoties tipais, turto gamintojais, turto tipais arba turtu. Ši funkcija yra naudinga, kai išleidžiamos atnaujintos dokumentų versijos. Tokiu atveju jums tereikia įtraukti atnaujintą dokumentą į standartinę vietą, kurią naudojate „Supply Chain Management“ dokumentams laikyti ir pridėti dokumentą prie turto dokumento įrašo, kurį buvote sukūrę. Tada atnaujintą dokumentą galima pasiekti einant į meniu elementus **Visas turtas**, **Aktyvusis turtas**, **Mano aktyvusis turtas**, **Visi darbo užsakymai** ir **Aktyviosios darbo užsakymo užduotys**. Dokumentų pridėjimo prie turto dokumentų įrašo procesas naudoja standartinę dokumentų tvarkymo sistemą.
 
 **1 pavyzdys:** Dokumente, susijusiame su užduoties tipu, gali būti aprašyta to darbo tipo procedūra.
 

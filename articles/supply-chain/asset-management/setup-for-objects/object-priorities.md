@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f079e6899a2e3949eff5945f867472c801d9e95c
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: d1e2f8d2ac0c48d4f92b15ec345ffa650b71df0b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783468"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571029"
 ---
 # <a name="asset-service-levels"></a>Pasirinkite paslaugos lygį.
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šioje temoje pasakojama apie turto aptarnavimo lygius, esančius modulyje „Turto valdymas“. Turto aptarnavimo lygiai yra susiję su turtu ir perkeliami į priežiūros užklausas ir darbo užsakymus. Planuojant darbo užsakymą, jie yra naudojami apskaičiuoti darbo užsakymų prioritetą. Prireikus, galima keisti turto aptarnavimo lygius.
 

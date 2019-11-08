@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5f1860907e3cc3c4830cc385771d5924c609ea6
-ms.sourcegitcommit: 871b76f8808a48d282f151144829323258ffc912
+ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1847533"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571627"
 ---
 # <a name="maintenance-request-reports"></a>Priežiūros užklausų ataskaitos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulyje Turto valdymas galite generuoti dvi ataskaitas, susijusias su priežiūros užklausomis. Vienoje ataskaitoje pateikiama išsami informacija, o kitoje pateikiamas sąrašas, kurį galima naudoti planuojant ir atliekant tolesnius veiksmus.
 
@@ -37,24 +37,24 @@ Modulyje Turto valdymas galite generuoti dvi ataskaitas, susijusias su priežiū
 
 Ataskaitoje **Išsami priežiūros užklausos informacija** rodoma įvairi informacija, susijusi su priežiūros užklausoms.
 
-1. Pasirinkite**Asset management** \> **Reports** \> **Maintenance requests** \> **Maintenance request details**.
+1. Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausos informacija**.
 2. FastTab **Įtrauktini įrašai** galite pasirinkti konkrečias į ataskaitą įtrauktinas priežiūros užklausas.
 3. Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.
 4. Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.
 
 Toliau pateikiamoje iliustracijoje pavaizduotas ataskaitos **Išsami priežiūros užklausos informacija** pavyzdys.
 
-![1 paveikslėlis](media/09-manage-maintenance-requests.png)
+![Ataskaita Išsami priežiūros užklausos informacija](media/09-manage-maintenance-requests.png)
 
 ## <a name="create-a-maintenance-request-list-report"></a>Ataskaitos Priežiūros užklausų sąrašas kūrimas
 
 Ataskaitoje **Priežiūros užklausų sąrašas** rodomas visų to paties užklausos tipo priežiūros užklausų sąrašas.
 
-1. Pasirinkite**Asset management** \> **Reports** \> **Maintenance requests** \> **Maintenance request list**.
+1. Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausų sąrašas**.
 2. FastTab **Įtrauktini įrašai** galite pasirinkti į ataskaitą įtrauktinas priežiūros užklausas.
 3. Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.
 4. Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.
 
 Toliau pateikiamoje iliustracijoje parodytas visų aktyvių priežiūros užklausų ataskaitos **Priežiūros užklausų sąrašas** pavyzdys.
 
-![2 paveikslėlis](media/10-manage-maintenance-requests.png)
+![Ataskaita Priežiūros užklausų sąrašas](media/10-manage-maintenance-requests.png)

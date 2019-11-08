@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: abf74841e994efc3a71ff8dde048ab9c3be934bc
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554741"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571213"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO data su faktine verte ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Paskutinė įvesta, pirma nurašyta data (LIFO data) yra atsargų modelis, pagrįstas LIFO principu. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. Naudojant LIFO data, jei prieš išduodant prekes jos nėra gautos, išdavimas nustatomas pagal bet kurį gavimą, įvykstantį po prekės išdavimo datos. Tą pačią dieną galima sudengti keletą išdavimų paskutinio išduoto, paskutinio gauto tvarka. 
 

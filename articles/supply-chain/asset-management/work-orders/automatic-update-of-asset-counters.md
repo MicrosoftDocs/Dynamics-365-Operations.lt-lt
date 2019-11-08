@@ -3,7 +3,7 @@ title: Automatinis turto skaitiklių naujinimas
 description: Šioje temoje aprašomas automatinis turto skaitiklių naujinimas turto valdyme.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,52 +16,57 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 97e6912cd37d6f82d8bf022141f04645a3364ee1
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875805"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626183"
 ---
-# <a name="automatic-update-of-asset-counters"></a>Automatinis turto skaitiklių naujinimas
+# <a name="automatic-update-of-asset-counters"></a>Automatinis turto skaitiklių atnaujinimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+Informacijos apie turto skaitiklių registravimą neautomatiniu būdu žr. [Neautomatinis turto skaitiklių atnaujinimas](../work-orders/manual-update-of-asset-counters.md). Informacijos, kaip nustatyti turto skaitiklius, žr. [Skaitikliai](../setup-for-objects/counters.md).
 
-Ankstesniame skyriuje aprašytas turto skaitiklių rankinis generavimas. Turto skaitiklių sąranka aprašyta [Skaitikliai](../setup-for-objects/counters.md).
+Skaitiklio reikšmes taip pat galima automatiškai naujinti iš gamybos registracijų pagal gamybos valandas arba gamybos kiekį (t. y. pagamintą kiekį). Šis naujinimas atliekamas puslapyje **Naujinti turto skaitiklius**. Vieną arba kelis turtus galite atnaujinti nustatydami vieną parametrą **Pradžios data**. Šis parametras nurodo gamybos registracijų (gamybos valandų arba gamybos kiekių) pradžios datą. Kitaip tariant, jis nurodo datą, nuo kada reikia atnaujinti skaitiklio vertes.
 
-Skaitiklio reikšmes taip pat galima automatiškai naujinti iš gamybos registracijų pagal gamybos valandas arba gamybos kiekį. Tai daroma **Naujinti turto skaitiklius**. Galite naujinti vieną arba kelis turtus į **Nuo datos** įvesdami vieną parametrą. Šis parametras nustato gamybos registracijų pradžios datą (valandas arba pagamintą kiekį) – pradžios datą, nuo kurios skaitiklio reikšmės turi būti naujintos.
+Visas turtas, susijęs su ištekliumi *ir* turintis turto skaitiklius, kurie nustatyti, kad būtų naujinami pagal gamybos valandas ar arba gamybos kiekį, bus įtrauktas į automatinį naujinimą. Bus sukurtos naujos skaitiklio vertės.
 
-Visas turtas, susijęs su ištekliais *ir* turi turto skaitiklius, kurie nustatyti, kad būtų naujinami pagal pagamintą kiekį arba gamybos valandas, bus įtrauktas į automatinį naujinimą, ir bus sukurta nauja skaitiklio reikšmė.
+Skaitikliams, kurie pagrįsti gamybos kiekiu, skaičius apima ir geros kokybės prekes, ir užregistruotus kiekius su klaidomis. Jei gamybos kiekio registravimui naudotas vienetas skiriasi nuo skaitiklio naudojamo vieneto, kiekis yra konvertuojamas, kad atitiktų skaitiklio vienetą.
 
-Naudojant gamybos kiekį, užregistruotas geras kiekis bei sugadintas kiekis yra įtraukiami į skaičių. Jei pagaminto kiekio registracijos vienetas skiriasi nuo skaitiklio vieneto, kiekis yra konvertuojamas į atitinkamą skaitiklio vienetą.
+Kaip minėta pirmiau, automatiniai skaitikliai gali būti naujinami iš gamybos registracijų. Todėl turtas, kuriam norite automatiškai naujinti skaitiklius, turi būti susijęs su ištekliais (mašina). Kai pagamintas kiekis arba gamybos valandos užregistruojamos ištekliuje, galite naujinti susijusius turto skaitiklius.
 
-Kaip minėta pirmiau, automatiniai skaitikliai gali būti naujinami iš gamybos registracijų. Todėl turtas, kuriam norite automatiškai naujinti skaitiklius, turi būti susijęs su ištekliais (mašina). Aprašuose toliau pateikiama sąrankos ir gamybos užsakymų, kurie yra naudojami kaip turto automatinio skaitiklių naujinimo pagrindas modulyje **Turto valdymas**, apdorojimo apžvalga (modulyje **Gamybos valdymas**).
+1. Pasirinkite **Turto valdymas** > **Periodinis** > **Turtas** > **Naujinti turto skaitiklius**.
 
-Kai pagamintas kiekis arba gamybos valandos užregistruojamos ištekliuje, galite naujinti susijusius turto skaitiklius.
-
-1. Spustelėkite **Turto valdymas** > **Periodinis** > **Turtas** > **Naujinti turto skaitiklius**.
-
-2. Lauke **Pradžios data** pažymėkite automatinio naujinimo pradžios datą.
+2. Lauke **Pradžios data** pasirinkite automatinio naujinimo pradžios datą.
 
 >[!NOTE]
 >Data šiame lauke yra vykdomo darbo data iš **Maršruto operacijos** (laukas **Gamybos valdymas** > **Užklausos ir ataskaitos** > **Gamyba** > **Maršruto operacijos** > **Fizinė data**).
 
-3. Jei automatiniam naujinimui norite pažymėti konkretų turtą, turto tipą arba šaltinį, „FastTab“ **Įtrauktini įrašai** spustelėkite **Filtras** ir atlikite reikiamus pasirinkimus.
+3. „FastTab“ **Įtrauktini įrašai** galite pasirinkti konkretų turtą,turto tipą ar išteklius automatiniam naujinimui. Pasirinkite **Filtras** ir atlikite reikiamus pasirinkimus.
 
-4. Jei reikia, galite nustatyti automatinio naujinimo paketinę užduotį FastTab **Vykdyti fone**.
+4. FastTab **Vykdyti fone** pagal poreikį galite nustatyti automatinio naujinimo paketinę užduotį.
 
-![1 pav.](media/12-work-orders.png)
+Toliau pateiktame paveikslėlyje parodytas dialogo lango **Naujinti turto skaitiklius** pavyzdys.
 
-5. Spustelėkite **Gerai**. Kai automatinis turto skaitiklio naujinimas baigtas, galite matyti skaitiklio registracijas, susijusias su turtu **Turto skaitikliai** (mygtukas **Turto valdymas** > **Bendrieji dalykai** > **Turtas** > **Visas turtas** > pažymėti turtą> **Skaitikliai**).
+![1 pav.](media/12-work-orders.png)
 
-**Turto skaitiklio suvestinė** galite peržiūrėti naujausias viso turto visų skaitiklių tipų registracijas. Spustelėkite **Turto valdymas** > **Užklausos** > **Turtas** > **Turto sudėtinė reikšmė**. Rodinys labai panašus į **Turto skaitikliai**, tačiau **Turto sudėtinė reikšmė** negalite įtraukti arba redaguoti registracijų. Jis skirtas tik peržiūrai.
+5. Pasirinkite **Gerai**. 
 
-![2 paveikslėlis](media/13-work-orders.png)
+Baigus automatinį turto skaitiklio naujinimą, puslapyje **Turto skaitikliai** galite peržiūrėti su turtu susijusias skaitiklio registracijas. Pasirinkite **Turto valdymas** > **Bendra** > **Turtas** > **Visas turtas**, pasirinkite turtą, o tada veiksmų srityje, skirtuke **Turtas**, grupėje **Profilaktinė** pasirinkite **Skaitikliai**.
 
+Puslapyje **Turto sudėtinė reikšmė** galite peržiūrėti naujausias viso turto visų skaitiklių tipų registracijas. Pasirinkite **Turto valdymas** > **Užklausos** > **Turtas** > **Turto sudėtinė reikšmė**. Šis puslapis primena puslapį **Turto skaitikliai**, bet čia negalima pridėti arba redaguoti registracijų. Jis skirtas tik peržiūrai.
 
-- Tačiau skaitiklių tipams, kurie automatiškai atnaujinti, galima kurti rankines skaitiklio reikšmių registracijas. Daugiau informacijos žr. skyriuje „Turto skaitiklių rankinis naujinimas“.
-- Galite nustatyti skaitiklius, susijusius su kitu skaitiklius. Tai reiškia, kad kai skaitiklis yra naujinamas, tuo pačiu metu naujinami susiję skaitikliai. Dėl susijusių skaitiklių sąrankos, žr. [Skaitikliai](../setup-for-objects/counters.md).
+Toliau pateiktame paveikslėlyje parodytas puslapio **Turto sudėtinė reikšmė** pavyzdys.
+
+![2 pav.](media/13-work-orders.png)
+
+Atkreipkite dėmesį į toliau nurodytus punktus.
+
+- Tačiau skaitiklių tipams, kurie yra automatiškai atnaujinami, galite kurti rankines skaitiklio reikšmių registracijas. Daugiau informacijos žr. [Neautomatinis turto skaitiklių atnaujinimas](../work-orders/manual-update-of-asset-counters.md).
+
+- Galite nustatyti skaitiklius, susietus su kitu skaitikliu. Šiuo atveju, atnaujinus skaitiklį, tuo pačiu metu automatiškai atnaujinami susiję skaitikliai. Daugiau informacijos, kaip nustatyti susijusius skaitiklius, žr. [Skaitikliai](../setup-for-objects/counters.md).
+

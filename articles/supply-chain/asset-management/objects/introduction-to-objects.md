@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84609106fc3daafbbfed6f947df4524160bd7450
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: cf23d4b01729e6c1ece633b009f033b9d74bc7fe
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783460"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571558"
 ---
 # <a name="introduction-to-assets"></a>Turto pristatymas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šioje temoje pateikta turto valdyme naudojamo turto apžvalga. *Turtas* yra bet kokios rūšies įranga, pvz., mašina ar įrenginio dalis, kurią reikia prižiūrėti, aptarnauti ar remontuoti.
 
@@ -37,7 +37,7 @@ Turtas automatiškai atnaujinamas naudojant susijusią informaciją. Pavyzdžiui
 
 ## <a name="all-assets"></a>Visas turtas
 
-Pasirinkite **Asset management** \> **Common** \> **Assets** \> **All assets**. Sąrašo puslapyje **Visas turtas** pateiktas visas turtas ir tam tikra su juo susijusi informacija. Norėdami peržiūrėti tik aktyvų turtą, pasirinkite **Aktyvus turtas**. Norėdami peržiūrėti tik turtą, įdiegtą funkcinėse vietose, su kuriomis esate susijęs kaip priežiūros darbuotojas, pasirinkite **Mano aktyvus turtas**. (Šis ryšys nustatomas puslapyje **Darbuotojai**. Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
+Pasirinkite **Turto valdymas** \> **Bendra** \> **Turtas** \> **Visas turtas**. Sąrašo puslapyje **Visas turtas** pateiktas visas turtas ir tam tikra su juo susijusi informacija. Norėdami peržiūrėti tik aktyvų turtą, pasirinkite **Aktyvus turtas**. Norėdami peržiūrėti tik turtą, įdiegtą funkcinėse vietose, su kuriomis esate susijęs kaip priežiūros darbuotojas, pasirinkite **Mano aktyvus turtas**. (Šis ryšys nustatomas puslapyje **Darbuotojai**. Daugiau informacijos žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).)
 
 Tinklelio rodinyje **Visas turtas** pasirinkite saitą, esantį stulpelyje **Turtas**, kad peržiūrėtumėte pasirinkto įrašo informaciją. Norėdami redaguoti įrašą, pasirinkite mygtuką **Redaguoti**. Informacijos rodinyje pateikta išsami su turtu susijusi informacija. Srities **Susijusi informacija** dešinėje pateikta papildoma su turtu susijusi informacija. Išplėskite sritį, kad būtų rodoma su pasirinktu turtu susijusi informacija.
 

@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 174c816c7a6442b07e4722c03045293b94c59153
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 43f14a1cbd016335b857fdff1147740b27d5c765
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024665"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653328"
 ---
 # <a name="register-consumption"></a>Suvartojimo registravimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Kai pagal darbo užsakymą atliekama priežiūros užduotis, kitas veiksmas – registruoti suvartojimą ir skelbti žurnalus. Galite registruoti šiuos suvartojimo tipus: valandas, prekes ir išlaidas. Skirtingi suvartojimo tipai registruojami ir skelbiami puslapyje **Darbo užsakymo žurnalai**. Modulio **Turto valdymas** žurnalo sąranka naudojama atskiriems valandų, prekių ir išlaidų žurnalams kurti ir skelbti modulyje **Projekto valdymas ir apskaita**.
 
-Galbūt turėsite galimybę įtraukti arba pašalinti darbo užsakymo prognozės eilutes. Darbo užsakymo ciklo būsenos sąranka, susijęs projekto tipas ir su projekto tipu susijusios etapo taisyklės nulemia tai, ar galite įtraukti arba redaguoti žurnalo eilutes. Norėdami gauti daugiau informacijos apie darbo užsakymų ciklo būsenas ir susijusius projektų etapus žr. [Integravimas su projektų valdymu ir apskaita](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
+Kai kuriais atvejais turėsite galimybę įtraukti arba pašalinti darbo užsakymo prognozės eilutes. Darbo užsakymo ciklo būsenos sąranka, susijęs projekto tipas ir su projekto tipu susijusios etapo taisyklės nulemia tai, ar galite įtraukti arba redaguoti žurnalo eilutes. Norėdami gauti daugiau informacijos apie darbo užsakymų ciklo būsenas ir susijusius projektų etapus žr. [Integravimas su projektų valdymu ir apskaita](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
 >[!NOTE]
 >Galima nustatyti, kad žurnalai būtų automatiškai skelbiami darbo užsakymo ciklo būsenoje. Daugiau informacijos rasite [Darbo užsakymų ciklo būsenos](../setup-for-work-orders/work-order-lifecycle-states.md).
@@ -50,10 +50,10 @@ Galbūt turėsite galimybę įtraukti arba pašalinti darbo užsakymo prognozės
 
 6. Spustelėkite **Skelbti žurnalus**, kad skelbtumėte žurnalo eilutes.
 
-7. Paskelbus suvartojimo žurnalus galite atnaujinti darbo užsakymo ciklo būseną, pavyzdžiui – „Pasibaigė“, kad būtų nurodyta, jog darbo užsakymas yra įvykdytas.
+7. Paskelbę suvartojimo žurnalus galite atnaujinti darbo užsakymo ciklo būseną. Pavyzdžiui, norėdami nurodyti, kad darbo užsakymas buvo baigtas, galite atnaujinti ciklo būseną į „Baigta“.
 
-- Puslapio **Darbo užsakymo žurnalai** viršuje pateiktame lauke **Rodyti** pasirinkite, kurias žurnalo eilutes norite matyti: visas, nepaskelbtas ar paskelbtas. Jei žurnalas paskelbtas, žymės langelyje **Paskelbta** yra varnelė.  
-- Kai darbo užsakymo žurnale sukuriamos prekės eilutės, su preke susijusios produkto dimensijos ir sekimo dimensijos automatiškai perkeliamos į žurnalo eilutę.  
+    - Lauke **Rodyti**, esančiame puslapio **Darbo užsakymo žurnalai** viršuje, pasirinkite, kurias žurnalo eilutes norite matyti: **Visas**, **Nepaskelbtas** arba **Paskelbtas**. Jei žurnalas paskelbtas, žymės langelyje **Paskelbta** yra varnelė.  
+    - Kai darbo užsakymo žurnale sukuriamos prekės eilutės, su preke susijusios produkto dimensijos ir sekimo dimensijos automatiškai perkeliamos į žurnalo eilutę.  
 
 Toliau pateiktoje ekrano kopijoje matomas darbo užsakymo valandų ir prekių registracijų **darbo užsakymo žurnaluose** pavyzdys.
 
@@ -76,7 +76,7 @@ Jei darbo užsakyme yra kelios darbo užsakymo užduotys, darbo valandas galite 
 
 6. Lauke **Valandos** įrašykite darbo valandų, kurias norite padalyti, skaičių.
 
-![2 paveikslėlis](media/02-consumption.png)
+    ![2 paveikslėlis](media/02-consumption.png)
 
 7. Spustelėkite **Gerai**.
 
@@ -88,10 +88,10 @@ Jei darbo užsakyme yra kelios darbo užsakymo užduotys, darbo valandas galite 
 
 Registruojant suvartojimą į registracijas konkrečia seka įtraukiamos finansinės dimensijos, susijusios su skirtingais registravimo tipais. 
 
-*Valandų ir išlaidų registracijos:* jei yra, pirmiausia įtraukiamos žurnalo antraštės finansinės dimensijos. Tada įtraukiamos susijusio darbo užsakymo projekto finansinės dimensijos. Galiausiai įtraukiamos išteklių (darbuotojo) finansinės dimensijos.
+- *Valandų ir išlaidų registracijos:* jei yra, pirmiausia įtraukiamos žurnalo antraštės finansinės dimensijos. Tada įtraukiamos susijusio darbo užsakymo projekto finansinės dimensijos. Galiausiai įtraukiamos išteklių (darbuotojo) finansinės dimensijos.
 
-*Prekių registracijos:* jei yra, pirmiausia įtraukiamos žurnalo antraštės finansinės dimensijos. Tada įtraukiamos susijusio darbo užsakymo projekto finansinės dimensijos. Tada įtraukiamos vietos finansinės dimensijos. Galiausiai įtraukiamos prekės finansinės dimensijos.
+- *Prekių registracijos:* jei yra, pirmiausia įtraukiamos žurnalo antraštės finansinės dimensijos. Tada įtraukiamos susijusio darbo užsakymo projekto finansinės dimensijos. Tada įtraukiamos vietos finansinės dimensijos. Galiausiai įtraukiamos prekės finansinės dimensijos.
 
 >[!NOTE]
->Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai yra standartinė sprendimo „Finance and Operations“ sąranka.
+>Visuose trijuose registracijų tipuose patikrinamas finansinių dimensijų derinys, o netinkami deriniai uždengiami. Tai yra standartinė sąranka su kitomis „Finance and Operations“ programomis.
 

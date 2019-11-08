@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2cff84f8f6c42fd064258b8ca53e24acc8059977
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c17a0240c29dad58c958ab1ce844ee5d8384bd1f
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175542"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658934"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>PVM sudengimo laikotarpių nustatymas
 
@@ -42,7 +42,7 @@ ms.locfileid: "2175542"
 9. Įveskite laikotarpio intervalo vienetų skaičių vienam laikotarpiui. Pavyzdžiui, ketvirtį sudaro 3 mėnesiai.
 10. Pažymėkite arba išvalykite žymės langelį **Sudengiant PVM naudoti paketinį apdorojimą**. Sudengimo laikotarpio procesą galima apdoroti kaip paketinę užduotį fone. Tai rekomenduojama atlikti su daug mokesčių operacijų, patenkančių į laikotarpio intervalą.  
     > [!NOTE]
-    > Šiuo metu ši funkcija nepalaikoma Austrijoje, Belgijoje, Ispanijoje, Italijoje, Japonijoje ir Nyderlanduose.
+    > Šiuo metu ši funkcija nepalaikoma Ispanijoje, Japonijoje ir Nyderlanduose.
 11. Pažymėkite arba išvalykite žymės langelį **Neleisti generuoti korespondentinių mokesčių operacijų**. Pagal numatytuosius parametrus sudengimo proceso metu sistema generuoja korespondentines mokesčių operacijas, galinčias sukelti našumo problemų, jei laikotarpio intervale yra daug mokesčių operacijų. Norėdami neleisti generuoti korespondentinių mokesčių operacijų pažymėkite šį žymės langelį.
 12. Išplėskite skirtuką **Laikotarpio intervalai**.
 13. Pasirinkite **Įtraukti**.

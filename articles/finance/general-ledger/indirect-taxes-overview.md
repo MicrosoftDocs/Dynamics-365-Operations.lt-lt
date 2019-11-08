@@ -3,7 +3,7 @@ title: PVM apžvalga
 description: Šioje temoje pateikiama PVM sistemos apžvalga. Jame paaiškinami PVM nustatymo elementai ir tai, kaip jie veikia kartu.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 10/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2741eb51f93f2f0b627dd8676629077b6df0f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
+ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186468"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "2666835"
 ---
 # <a name="sales-tax-overview"></a>PVM apžvalga
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Šioje temoje pateikiama PVM sistemos apžvalga. Jame paaiškinami PVM nustatymo elementai ir tai, kaip jie veikia kartu.
 
@@ -94,5 +92,8 @@ Paprastai turėtumėte sudengti ir sumokėti 2 500 mokesčių rinkėjui, kai SF 
 
 Tačiau, jei naudojate sąlyginį PVM, mokesčių rinkėjui sumą sudengiate, kai gaunate mokėjimą iš kliento liepos 30 d.
 
+### <a name="postdated-check"></a>Vėlesnis čekis
+
+Banko sąskaita nebus išvalyta, jei apmokėjimo būdui pasirinksite vėlesnį čekį, kai bus sukurtas apmokėjimas. Kai kuriose šalyse PVM tampa įvykdytu įsipareigojimu, kai bankas patvirtina mokėjimą, o tai reiškia, kad vėlesnis čekis yra sudengtas. Galite įgalinti jį pasirinkdami parinktį **Sukurti sąlyginį mokestį, kai nurašomi vėlesni čekiai**, esančią **Grynųjų pinigų ir banko valdymas > Sąranka > Grynųjų pinigų ir banko valdymo parametrai > Vėlesni čekiai**.
 
 Daugiau informacijos žr. [Nustatyti išskaitomą mokestį](tasks/set-up-withholding-tax.md).

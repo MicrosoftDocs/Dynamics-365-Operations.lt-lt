@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 48c90a8b776cc16804de8e20ada7d8ca347fa5b9
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 78c062f9982ca7b18fa00d60928089d09a5d552d
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874744"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570960"
 ---
 # <a name="fault-management"></a>Gedimų valdymas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulyje Turto valdymas gedimų dizaino įrankiu galite nustatyti turto tipų gedimų požymius, gedimų sritis ir gedimų tipus. Taip galite valdyti rastus turto gedimus. Be to, gedimų priežastis ir pasiūlymus dėl gedimų pašalinimo galima užregistruoti darbo užsakyme.
 
@@ -109,7 +109,7 @@ Gedimų dizaino įrankiu nustatomi turto tipų gedimų duomenys.
 
 7. Pasirinkite **Įrašyti**, kad įrašytumėte pakeitimus.
 
-![1 pav.](media/21-setup-for-work-orders.png)
+![Gedimų dizaino įrankio puslapis](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Gedimų priežasčių kūrimas
 

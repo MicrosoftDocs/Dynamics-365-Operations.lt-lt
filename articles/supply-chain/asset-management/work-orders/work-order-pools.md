@@ -3,7 +3,7 @@ title: Darbo užsakymų telkiniai
 description: Šioje temoje aprašoma, kaip modulyje Turto valdymas dirbti su darbo užsakymų telkiniais.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,95 +16,96 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 069fa02073808fd7bbaac9bc1603e49ce4d450eb
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 161244cb4451ddc7b13b579fd02e828a61adeea4
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875799"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626367"
 ---
 # <a name="work-order-pools"></a>Darbo užsakymų telkiniai
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
+Naudodami darbo užsakymų telkinius, galite grupuoti kažką bendra turinčius darbo užsakymus. Toliau pateikti keli objektų, kuriems galite sukurti darbo užsakymų telkinius, pavyzdžiai:
+
+- Darbo brigados, pavyzdžiui, A priežiūros brigada, B priežiūros brigada  
+
+- Profesiniai įgūdžiai, pavyzdžiui, elektrikai ar santechnikai  
+
+- Fizinės vietos  
+
+- Grafikai, pavyzdžiui, savaičių ar kitų laikotarpių  
+
+Kai reikia, vieną darbo užsakymą galite naudoti keliuose darbo užsakymų telkiniuose.
 
 
-Naudodami darbo užsakymų telkinius, galite grupuoti kažką bendra turinčius darbo užsakymus. Pavyzdžiui, galite kurti darbo užsakymų telkinius, skirtus
+## <a name="create-a-work-order-pool"></a>Darbo užsakymų telkinio kūrimas
 
-- darbo brigadoms, pavyzdžiui, A priežiūros brigadai, B priežiūros brigadai,  
+Sąrašo puslapyje **Visi darbo užsakymų telkiniai** arba **Aktyvūs darbo užsakymų telkiniai** galite apžvelgti savo darbo užsakymų telkinius ir kurti naujus telkinius.
 
-- profesiniams įgūdžiams, pavyzdžiui, elektrikams ar santechnikams,  
+1. Pasirinkite **Turto valdymas** > **Bendra** > **Darbo užsakymų telkiniai** > **Visi darbo užsakymų telkiniai** arba **Aktyvūs darbo užsakymų telkiniai**.
 
-- fizinėms vietoms,  
+2. Pasirinkite **Naujas**.
 
-- laiko grafikams, pavyzdžiui, savaitėms ar kitiems laikotarpiams.  
+3. Lauke **Telkinys** įveskite darbo užsakymų telkinio ID.
 
+4. Lauke **Pavadinimas** įveskite pavadinimą.
 
-Jei reikia, vieną darbo užsakymą galima įdėti į kelis darbo užsakymų telkinius.
+5. Nustatykite parinkties **Aktyvus** reikšmę **Taip**, jei norite nurodyti, kad darbo užsakymų telkinys yra aktyvus.
 
+6. Nustatykite parinkties **Panaikinti darbo užsakymų ryšius** reikšmę **Taip**, jei darbo užsakymai turi būti automatiškai pašalinami iš darbo užsakymų telkinio.
 
-## <a name="create-work-order-pool"></a>Darbo užsakymų telkinio kūrimas
+7. Lauke **Naikinti ciklo būseną** pasirinkite darbo užsakymo ciklo būseną. Pavyzdžiui, darbo užsakymo įvykdymo ciklo būseną galima nustatyti taip, kad būtų automatiškai panaikinami ryšiai su darbo užsakymų telkiniais.
 
-Dalyje **Visi darbo užsakymų telkiniai** arba **Aktyvūs darbo užsakymų telkiniai** galite apžvelgti savo darbo užsakymų telkinius ir kurti naujus telkinius.
+    Į darbo užsakymų telkinį darbo užsakymus galite pradėti įtraukti iš karto.
 
-1. Spustelėkite **Turto valdymas** > **Bendra** > **Darbo užsakymų telkiniai** > **Visi darbo užsakymų telkiniai** arba **Aktyvūs darbo užsakymų telkiniai**.
+8. „FastTab“ **Darbo užsakymai** pasirinkite **Įtraukti eilutę**.
 
-2. Spustelėkite **Naujas**.
+9. Lauke **Darbo užsakymas** pasirinkite darbo užsakymą. Susiję laukai automatiškai atnaujinami.
 
-3. Lauke **Telkinys** įterpkite darbo užsakymų telkinio ID, o lauke **Pavadinimas** – pavadinimą.
+10. Norėdami pridėti daugiau darbo užsakymų, pakartokite 8–9 veiksmus.
 
-4. Perjungimo mygtuke **Aktyvus** pasirinkite Taip, jei norite nurodyti, kad darbo užsakymų telkinys yra aktyvus.
+11. Jei įtraukti darbo užsakymai turi būti atlikti tam tikrame užsakyme, lauke **Rūšiavimo tvarka** galite įvesti skaičius **1**, **2**, **3** ir t. t., kad nurodytumėte užsakymą.
 
-5. Perjungimo mygtuke **Panaikinti darbo užsakymų ryšius** pasirinkite Taip, jei norite, kad darbo užsakymai būtų automatiškai pašalinami iš darbo užsakymų telkinio.
+12. Norėdami peržiūrėti visų darbo užsakymų, įtrauktų į darbo užsakymų telkinį, sąrašą, veiksmų srityje, esančioje skirtuke **Darbo užsakymų telkinys**, grupėje **Peržiūrėti susijusių darbo užsakymų telkinį**, pasirinkite **Darbo užsakymai**, kad atidarytumėte sąrašo puslapį **Visi darbo užsakymai**.
 
-6. Lauke **Naikinti ciklo būseną** pasirinkite darbo užsakymo ciklo būseną. Pavyzdžiui, darbo užsakymo įvykdymo ciklo būseną galima nustatyti taip, kad būtų automatiškai panaikinami ryšiai su darbo užsakymų telkiniais.
+13. Norėdami apskaičiuoti ir peržiūrėti priežiūros grafiko, nesuplanuotų darbo užsakymų ir suplanuotų darbo užsakymų pajėgumą, veiksmų srityje, esančioje skirtuke **Darbo užsakymų telkinys**, grupėje **Peržiūrėti susijusių darbo užsakymų telkinį**, pasirinkite **Pajėgumas**, kad atidarytumėte dialogo langą **Pajėgumo skaičiavimas**.
 
-7. Į darbo užsakymų telkinį darbo užsakymus galite pradėti įtraukti iš karto. „FastTab“ konteineryje **Darbo užsakymai** spustelėkite **Įtraukti eilutę**.
+14. Norėdami apskaičiuoti ir peržiūrėti su priežiūros grafiku, nesuplanuotais darbo užsakymais ir suplanuotais darbo užsakymais susijusių elementų (atsarginių dalių ir kitų reikalingų elementų) prognozes, veiksmų srityje, esančioje skirtuke **Darbo užsakymų telkinys**, grupėje **Peržiūrėti susijusių darbo užsakymų telkinį**, pasirinkite **Elemento prognozė**, kad atidarytumėte dialogo langą **Apskaičiuoti elemento prognozę**.
 
-8. Lauke **Darbo užsakymas** pasirinkite darbo užsakymą. Susiję laukai automatiškai atnaujinami.
+15. Norėdami peržiūrėti pirkimo paraiškų, susijusių su darbo užsakymais, esančiais darbo užsakymų telkinyje, sąrašą, veiksmų srityje, esančioje skirtuke **Darbo užsakymų telkinys**, grupėje **Įsigijimas**, pasirinkite **Darbo užsakymo pirkimo paraiška**, kad atidarytumėte sąrašo puslapį **Darbo užsakymo pirkimo paraiška**.
 
-9. Jei norite įtraukti daugiau darbo užsakymų, pakartokite 7–8 veiksmus.
-
-10. Lauke **Rikiavimo tvarka** galite nurodyti, ar darbo užsakymus reikia vykdyti tam tikra tvarka. Įterpdami skaičius 1, 2, 3 ir t. t., galite nurodyti konkrečią pasirinktų darbo užsakymų seką.
-
-11. Spustelėję mygtuką **Darbo užsakymai**, matysite visų į darbo užsakymų telkinį įtrauktų darbo užsakymų sąrašą.
-
-12. Spustelėję mygtuką **Pajėgumas**, atidarysite sritį **Pajėgumas** ir galėsite skaičiuoti bei peržiūrėti priežiūros grafiko, nesuplanuotų darbo užsakymų ir suplanuotų darbo užsakymų pajėgumą.
-
-13. Spustelėję mygtuką **Prekių prognozė**, atidarysite sritį **Prekių prognozė** ir galėsite skaičiuoti bei peržiūrėti prekių (atsarginių dalių ir kitų reikiamų prekių), susijusių su priežiūros grafiku, nesuplanuotais darbo užsakymais ir suplanuotais darbo užsakymais, prognozes.
-
-14. Spustelėję mygtuką **Darbo užsakymo pirkimo paraiška**, atidarysite sąrašą **Darbo užsakymo pirkimo paraiška** ir matysite pirkimo paraiškų, susijusių su darbo užsakymų telkinyje esančiais darbo užsakymais, sąrašą.
-
-15. Spustelėję mygtuką **Darbo užsakymų pirkimas**, atidarysite sąrašą **Darbo užsakymų pirkimas** ir matysite pirkimo užsakymų, susijusių su darbo užsakymų telkinyje esančiais darbo užsakymais, sąrašą.
+16. Norėdami peržiūrėti pirkimo užsakymų, susijusių su darbo užsakymais, esančiais darbo užsakymų telkinyje, sąrašą, veiksmų srityje, esančioje skirtuke **Darbo užsakymų telkinys**, grupėje **Įsigijimas**, pasirinkite **Darbo užsakymo pirkimas**, kad atidarytumėte sąrašo puslapį **Darbo užsakymo pirkimas**.
 
 >[!NOTE]
->Kai tam tikras darbo užsakymų telkinys planuojant darbą nebėra aktualus, sąrašo rodinyje **Darbo užsakymų telkinys** esantį to telkinio žymės langelį **Aktyvus** nustatykite kaip Ne.
+>Kai tam tikras darbo užsakymų telkinys planuojant darbą nebėra aktualus, nustatykite telkinio parinkties **Aktyvus** reikšmę **Ne**, pasiekiamą puslapio **Darbo užsakymų telkinys** sąrašo rodinyje.
 
-Jei norite panaikinti visas darbo užsakymų eilutes, pavyzdžiui, norėdami sukurti tuščią telkinį, kurį vėliau galėtumėte naudoti su kitais darbo užsakymais, pažymėkite žymės langelį **Panaikinti darbo užsakymų ryšius**. Jei, naudodami darbo užsakymų telkinį, vėliau norite kurti naujus darbo užsakymų ryšius, nepamirškite žymės langelio **Panaikinti darbo užsakymų ryšius** išvalyti.
+Norėdami pašalinti visas darbuotojo užsakymo eilutes, nustatykite parinkties **Panaikinti darbo užsakymų ryšius** reikšmę **Taip**. Ši parinktis naudinga, jei, pavyzdžiui, norite sukurti tuščią telkinį, kurį vėliau galėsite naudoti kitiems darbo užsakymams. Kai esate pasiruošę naudodami darbo užsakymų telkinį vėliau kurti naujus darbo užsakymų ryšius, nepamirškite nustatyti parinkties **Panaikinti darbo užsakymų ryšius** reikšmės **Ne**.
+
+Toliau pateiktame paveikslėlyje parodytas sąrašo puslapio **Darbo užsakymų telkinys** pavyzdys.
+
+![1 pav.](media/22-work-orders.png)
 
 
-![1 pav.](media/22-work-orders.png)
+## <a name="add-a-work-order-to-a-work-order-pool"></a>Darbo užsakymo įtraukimas į darbo užsakymų telkinį
 
+Kaip aprašyta ankstesniame skyriuje, kurdami darbo užsakymų telkinį, į jį galite įtraukti darbo užsakymų. Darbo užsakymus į darbo užsakymų kaupinį taip pat galite įtraukti sąrašo puslapyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
-## <a name="add-work-order-to-a-work-order-pool"></a>Darbo užsakymo įtraukimas į darbo užsakymų telkinį
-
-Kaip aprašyta pirmesniame skyriuje, kurdami darbo užsakymų telkinį, į jį galite įtraukti darbo užsakymų. Į darbo užsakymų telkinį darbo užsakymą taip pat galite įtraukti iš sąrašo **Visi darbo užsakymai**.
-
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite darbo užsakymą, o tada veiksmų srityje, skirtuke **Darbo užsakymas**, grupėje **Tvarkyti**, pasirinkite **Darbo užsakymų telkinys**.
 
 2. Sąraše pasirinkite darbo užsakymą ir spustelėkite **Darbo užsakymų telkinys**.
 
-3. Lauke **Įtraukti / šalinti** pasirinkite Įtraukti.
+3. Dialogo lango **Tvarkyti darbo užsakymų telkinį** lauke **Įtraukti / šalinti** pasirinkite **Įtraukti**.
 
 4. Lauke **Telkinys** pasirinkite darbo užsakymų telkinį.
 
-5. Spustelėkite **Gerai**.
+5. Pasirinkite **Gerai**.
 
-6. Jei, į darbo užsakymų telkinį įtraukę darbo užsakymą, jį norite padėti į konkrečią telkinio seką: atidarykite vieną darbo užsakymų telkinių sąrašo puslapių, pasirinkite telkinį ir spustelėkite **Redaguoti** bei formos **Darbo užsakymų telkinys** „FastTab“ konteinerio **Darbo užsakymai** lauke **Rikiavimo tvarka** koreguokite į telkinį įtrauktų darbo užsakymų rikiavimo tvarką.
+6. Norėdami pridėti darbo užsakymą, kurį įtraukėte konkrečiame užsakyme, pire darbo užsakymų telkinio, sąrašo puslapyje **Visi darbo užsakymų telkiniai** arba **Aktyvūs darbo užsakymų telkiniai** pasirinkite telkinį ir pasirinkite **Redaguoti**. Tada puslapyje **Darbo užsakymų telkinys**, „FastTab“ **Darbo užsakymai**, naudokite lauką **Rūšiavimo tvarka**, kad nustatytumėte į telkinį įtrauktų darbo užsakymų rūšiavimo tvarką.
 
-Jei pasirinktą darbo užsakymą norite pašalinti iš darbo užsakymų telkinio, atlikdami 3 veiksmą pasirinkite Šalinti.
+Norėdami pašalinti pasirinktą darbo užsakymą iš darbo užsakymų telkinio, pakartokite šiuos veiksmus, tačiau atlikdami 3 veiksmą pasirinkite **Šalinti**.
 

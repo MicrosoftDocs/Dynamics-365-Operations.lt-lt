@@ -18,32 +18,32 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5271b673d758608cae8e43d72b7e75b259d5f142
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: e3a42d36fd137aa780886276a4235f1b8f3a3680
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024619"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653352"
 ---
 # <a name="functional-locations-and-assets"></a>Funkcinės vietos ir turtas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šioje temoje aprašomos funkcinės vietos ir turtas modulyje Turto valdymas. Turto valdymas yra išplėstinis modulis, skirtas turtui ir priežiūros užduotims valdyti programoje „Dynamics 365 Supply Chain Management“.
 
 ## <a name="overview"></a>Apžvalga
 
-Turto valdymas sklandžiai integruotas su keletu programos „Finance and Operations“ modulių. Toliau pateikiamoje iliustracijoje pavaizduotos sąsajos su kitais moduliais.
+Turto valdymas sklandžiai integruojamas su keletu kitų „Finance and Operations“ programų modulių. Toliau pateikiamoje iliustracijoje pavaizduotos sąsajos su kitais moduliais.
 
-![1 paveikslėlis](media/01-overview-image.png)
+![Diagrama, rodanti, kaip turto valdymas siejasi su kitais moduliais](media/01-overview-image.png)
 
 Turto valdymas leidžia efektyviai valdyti ir atlikti visas užduotis, susijusias su daugelio tipų įrangos valdymu ir aptarnavimu jūsų įmonėje. Ši įranga apima mašinas, gamybos įrangą ir transporto priemones. Modulyje Turto valdymas taip pat palaikomi sprendimai daugelyje pramonės šakų.
 
 Toliau esančioje iliustracijoje pateikiama modulio Turto valdymas pagrindinių funkcijų apžvalga.
 
-![2 paveikslėlis](media/02-overview-image.png)
+![Diagrama, rodanti pagrindines turto valdymo funkcijas](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Funkcinės vietos ir turtas
 
@@ -53,8 +53,8 @@ Turto išlaidos visada priklauso nuo turto vietos. Kitaip tariant, jei įdiegiat
 
 Funkcinių vietų hierarchijos kūrimo būdas priklauso nuo jūsų įmonės reikalavimų dėl vidinės įrangos priežiūros arba klientų įrangos aptarnavimo. Toliau pateikiamame paveikslėlyje pavaizduotas geografinėmis vietovėmis pagrįstų funkcinių vietų pavyzdys.
 
-![3 paveikslėlis](media/03-overview-image.png)
+![Diagrama, rodanti geografinėmis vietovėmis pagrįstas funkcines vietas](media/03-overview-image.png)
 
 Toliau pateikiamame paveikslėlyje pavaizduotas klientais pagrįstų funkcinių vietų pavyzdys.
 
-![4 paveikslėlis](media/04-overview-image.png)
+![Diagrama, rodanti klientais pagrįstas funkcines vietas](media/04-overview-image.png)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 143cd51a3ea34a6b05da049d87819b3dfee95725
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
+ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181524"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564942"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Duomenų importavimo iš „SharePoint“ konfigūravimas
 
@@ -62,9 +62,9 @@ Leiskite užduočių vedlius **ER importavimo duomenys iš „Microsoft Excel“
 > Tiekėjo operacijų importavimo formatas pasirenkamas kaip numatytasis modelio susiejimas. Todėl jei vykdote modelio susiejimą **1099 mokėjimų modelis** ir to modelio susiejimo tipas yra **Į paskirties vietą**, modelio susiejimas vykdo šį formatą importuojant duomenis iš išorinių failų. Tada šie duomenys naudojami atnaujinant programos lenteles.
 
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>Prieigos prie „SharePoint“ konfigūravimas failų saugyklai
-Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turite sukonfigūruoti prieigą prie „SharePoint Server“ egzemplioriaus, kuris bus naudojamas dabartinės įmonės. Šiame pavyzdyje įmonė yra USMF. Instrukcijų ieškokite [„SharePoint“ saugyklos konfigūravimas](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turite sukonfigūruoti prieigą prie „SharePoint Server“ egzemplioriaus, kuris bus naudojamas dabartinės įmonės. Šiame pavyzdyje įmonė yra USMF. Instrukcijų ieškokite [„SharePoint“ saugyklos konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 
-1. Atlikite veiksmus, nurodytus temoje [„SharePoint“ saugyklos konfigūravimas](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
+1. Atlikite veiksmus, nurodytus temoje [„SharePoint“ saugyklos konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage).
 2. Atidarykite sukonfigūruotą „SharePoint“ svetainę.
 3. Sukurkite šiuos aplankus, kur gali būti saugomi gaunamų elektroninių ataskaitų failai:
 
@@ -80,7 +80,7 @@ Norėdami saugoti elektroninių ataskaitų failus „SharePoint“ vietoje, turi
     - Failų klaidų aplankas – šis aplankas skirtas failams, kurių nepavyko importuoti.
 
 4. Eikite į **Organizacijos administravimas > Dokumentų valdymas > Dokumentų tipai**.
-5. Sukurkite toliau nurodytus dokumentų tipus, kurie bus naudojami pasiekti „SharePoint“ aplankus, kuriuos ką tik sukūrėte. Instrukcijų ieškokite temoje [Dokumentų tipų konfigūravimas](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types).
+5. Sukurkite toliau nurodytus dokumentų tipus, kurie bus naudojami pasiekti „SharePoint“ aplankus, kuriuos ką tik sukūrėte. Instrukcijų ieškokite temoje [Dokumentų tipų konfigūravimas](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Dokumento tipas        | Grupuoti              | Buvimo vieta      | „SharePoint“ aplankas      |
 |--------------------|--------------------|---------------|------------------------|

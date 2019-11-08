@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0e795e641314b4ef81f8972aadf597721995fcc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0714314b68651e4b96f83d1073c4e35f5b27b013
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186537"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551638"
 ---
-# <a name="general-ledger-overview"></a>Didžiosios knygos apžvalga
+# <a name="general-ledger-and-financial-reporting-overview"></a>Didžiosios knygos ir finansinių ataskaitų apžvalga
 
 [!include [banner](../includes/banner.md)]
 
@@ -59,7 +59,7 @@ Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [
 
 #### <a name="blogs"></a>Tinklaraščiai
 
-Galite rasti nuomonių, naujienų ir kitos informacijos [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations ir finansų tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
+Galite rasti nuomonių, naujienų ir kitos informacijos [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations“ – finansai“ tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
 
 „[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 

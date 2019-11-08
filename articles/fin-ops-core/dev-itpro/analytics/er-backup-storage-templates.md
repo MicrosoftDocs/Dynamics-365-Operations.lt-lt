@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8b4e783f79b02c77a27fc59c2f4be8a192f2f476
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248705"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553096"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER šablonų atsarginių kopijų saugykla
 
@@ -33,7 +33,7 @@ ms.locfileid: "2248705"
 
 Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis. Kiekvienas ER sprendimas gali būti eksportuojamas iš vieno „Finance and Operations“ egzemplioriaus ir importuojamas į kitą egzempliorių.
 
-ER sistema naudoja [dokumentų valdymo sistemą](../../fin-and-ops/organization-administration/configure-document-management.md) saugoti esamam „Finance and Operations“ egzemplioriui reikalingus šablonus. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [žr. ER sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) DocuValue lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
+ER sistema naudoja [dokumentų valdymo sistemą](../../fin-ops/organization-administration/configure-document-management.md) saugoti esamam „Finance and Operations“ egzemplioriui reikalingus šablonus. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [žr. ER sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) DocuValue lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
 
 Valdydami savo „Finance and Operations“ egzempliorius, galbūt nuspręsite perkelti dabartinį egzempliorių į kitą vietą. Pavyzdžiui, galite perkelti gamybos egzempliorių į naują smėlio dėžės aplinką. Jei sukonfigūruosite, kad ER sistema saugotų šablonus didelių dvejetainių objektų saugykloje, DocuValue lentelėje, esančioje naujojoje smėlio dėžės aplinkoje, bus nuoroda į didelių dvejetainių objektų saugyklos egzempliorių gamybos aplinkoje. Tačiau šio egzemplioriaus negalima pasiekti iš smėlio dėžės aplinkos, nes perkėlimo procesas nepalaiko artefaktų perkėlimo didelių dvejetainių objektų saugykloje. Todėl, pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti ER valymo įrankį, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas. Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti.
 

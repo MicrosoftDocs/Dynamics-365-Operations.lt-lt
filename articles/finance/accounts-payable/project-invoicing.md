@@ -3,7 +3,7 @@ title: Projekto SF išrašymas
 description: Šiame straipsnyje pateikiama projekto SF išrašymo Laiko ir medžiagų bei Fiksuotos kainos projektams apžvalga. Taip pat pateikiama informacija apie SF pasiūlymus (preliminarias SF), SF kontrolę, aktyvių SF išrašymą, tiekėjo SF išrašymą ir kredito pažymas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d91f6b1ccc3254e2c04d24c5f9bf2014c64e50
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179104"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658625"
 ---
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
@@ -55,6 +55,9 @@ Galite kurti toliau nurodytų operacijų SF pasiūlymus.
 -   Sumos, kurias klientai išskaitė ankstesnėse projekto SF.
 -   Kredito pažymos
 -   Sumos, kurias jums sumokėjo klientas prieš pradedant projektą.
+
+> [!NOTE]
+> Funkcija **Suaktyvinti rūšiavimą pagal išteklius kuriant projekto SF** leidžia projekto apskaitininkui naujo projekto SF pasiūlymo kūrimo metu rūšiuoti projekto operacijas, kurioms sąskaitas galima kurti pagal išteklių. Lentelėje, kurioje rodomos galimos projekto operacijos, bus atskiras ištekliaus ID ir ištekliaus laukas, kuris leidžia vartotojui atlikti filtravimą ir rūšiavimą pagal ištekliaus pavadinimą. Esant numatytiesiems parametrams, ši funkcija yra išjungta, o ją įjungti galima naudojant **Darbo sritys > Funkcijų valdymas**. Norėdami suaktyvinti šią funkciją, kreipkitės į sistemos administratorių.
 
 SF pasiūlyme galite sukurti mokesčių operacijas. Taip pat galite modifikuoti pardavimo kainą pagal valandą, išlaidas, prekę ir mokesčių operacijas. Kai užregistruojate SF pasiūlymą, atnaujintos kainos ir operacijos įtraukiamos į projekto ataskaitas ir operacijų retrospektyvą. 
 

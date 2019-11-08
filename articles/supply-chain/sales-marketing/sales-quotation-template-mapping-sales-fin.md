@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ddc81aa7ff462304cb6e22c919221217f7a1e019
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6b4f0006e4cacc2897d2b6c9c9dde88d0aafa4ad
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251252"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653184"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su Tiekimo grandinės valdymu
 
@@ -59,7 +59,7 @@ Prieš sinchronizuojant pardavimo pasiūlymų antraštes ir eilutes, būtina atl
 
 ## <a name="entity-set"></a>Objektų rinkinys
 
-| Pardavimas        | „Finance and Operations”     |
+| Pardavimas        | Tiekimo grandinės valdymas     |
 |--------------|----------------------------|
 | Pasiūlymai       | CDS pardavimo pasiūlymo antraštė |
 | QuoteDetails | CDS pardavimo pasiūlymo eilutės  |
