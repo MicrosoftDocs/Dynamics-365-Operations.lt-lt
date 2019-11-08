@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0f818c4c3b669cc94e37cba1e3571c57b5c0dd1b
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 634bbb4326d560848d36f579a1179187d8369087
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887370"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652039"
 ---
-# <a name="schedule-work-order-on-specific-date-and-time"></a><span data-ttu-id="75bcc-103">Darbo užsakymo planavimas konkrečią dieną ir konkrečiu laiku</span><span class="sxs-lookup"><span data-stu-id="75bcc-103">Schedule work order on specific date and time</span></span>
+# <a name="schedule-work-order-on-specific-date-and-time"></a><span data-ttu-id="b3211-103">Darbo užsakymo planavimas konkrečią dieną ir konkrečiu laiku</span><span class="sxs-lookup"><span data-stu-id="b3211-103">Schedule work order on specific date and time</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-<span data-ttu-id="75bcc-104">Jei darbo užsakymas turi būti suplanuotas konkrečią dieną *ir* konkrečiu laiku, galite perrašyti įprastą planavimo procesą modulyje Turto valdymas ir sukurti specialų darbo užsakymo grafiką.</span><span class="sxs-lookup"><span data-stu-id="75bcc-104">If a work order must be scheduled on a specific date *and* time, you can override the standard scheduling process in Asset Management and create a specific schedule for a work order.</span></span>
+<span data-ttu-id="b3211-104">Jei darbo užsakymas turi būti suplanuotas konkrečią dieną *ir* konkrečiu laiku, galite perrašyti įprastą planavimo procesą modulyje Turto valdymas ir sukurti specialų darbo užsakymo grafiką.</span><span class="sxs-lookup"><span data-stu-id="b3211-104">If a work order must be scheduled on a specific date *and* time, you can override the standard scheduling process in Asset Management and create a specific schedule for a work order.</span></span>
 
-1. <span data-ttu-id="75bcc-105">Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="75bcc-105">Click **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
+1. <span data-ttu-id="b3211-105">Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="b3211-105">Click **Asset management** > **Common** > **Work orders** > **All Work orders** or **Active work orders**.</span></span>
 
-2. <span data-ttu-id="75bcc-106">Darbo užsakymų sąraše, stulpelyje **Darbo užsakymas**, spustelėkite darbo užsakymo ID.</span><span class="sxs-lookup"><span data-stu-id="75bcc-106">In the work order list, click on the Work order ID in the **Work order** column.</span></span>
+2. <span data-ttu-id="b3211-106">Darbo užsakymų sąraše, stulpelyje **Darbo užsakymas**, spustelėkite darbo užsakymo ID.</span><span class="sxs-lookup"><span data-stu-id="b3211-106">In the work order list, click on the Work order ID in the **Work order** column.</span></span>
 
-3. <span data-ttu-id="75bcc-107">Spustelėkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="75bcc-107">Click **Edit**.</span></span>
+3. <span data-ttu-id="b3211-107">Spustelėkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="b3211-107">Click **Edit**.</span></span>
 
-4. <span data-ttu-id="75bcc-108">„FastTab“ **Darbo užsakymo antraštė** laukuose **Numatoma pradžia** ir **Numatoma pabaiga** įveskite pradžios ir pabaigos datas ir laiką.</span><span class="sxs-lookup"><span data-stu-id="75bcc-108">On the **Work order header** FastTab, insert start and end dates and times in the **Expected start** and **Expected end** fields.</span></span>
+4. <span data-ttu-id="b3211-108">„FastTab“ **Darbo užsakymo antraštė** laukuose **Numatoma pradžia** ir **Numatoma pabaiga** įveskite pradžios ir pabaigos datas ir laiką.</span><span class="sxs-lookup"><span data-stu-id="b3211-108">On the **Work order header** FastTab, insert start and end dates and times in the **Expected start** and **Expected end** fields.</span></span>
 
-![1 pav.](media/05-work-order-scheduling.png)
+    ![1 pav.](media/05-work-order-scheduling.png)
 
-5. <span data-ttu-id="75bcc-110">Skirtuke **Bendra** spustelėkite **Grafikas**, kad naudotumėte įprastą planavimo procesą, arba spustelėkite **Išsiųsti**, jei darbo užsakymą norite suplanuoti konkrečiam darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="75bcc-110">On the **General** tab, click **Schedule** to use the standard scheduling process, or click **Dispatch** if you want to schedule the work order to a specific worker.</span></span>
+5. <span data-ttu-id="b3211-110">Skirtuke **Bendra** spustelėkite **Grafikas**, kad naudotumėte įprastą planavimo procesą, arba spustelėkite **Išsiųsti**, jei darbo užsakymą norite priskirti konkrečiam darbuotojui.</span><span class="sxs-lookup"><span data-stu-id="b3211-110">On the **General** tab, click **Schedule** to use the standard scheduling process, or click **Dispatch** if you want to assign the work order to a specific worker.</span></span>
 
-6. <span data-ttu-id="75bcc-111">Norėdami perrašyti bet kokius esamus pajėgumo rezervavimus siekiant užtikrinti, kad darbo užsakymas bus suplanuotas numatomu laikotarpiu, dialogo lango **Planuoti darbo užsakymą** > skyriuje **Ribotas pajėgumas** pažymėkite parinktis, kaip parodyta toliau pateiktame paveikslėlyje.</span><span class="sxs-lookup"><span data-stu-id="75bcc-111">In order to override any existing capacity reservations to ensure that the work order is scheduled in the expected period, make the selections as shown in the figure below in the **Schedule work order** dialog > **Finite capacity** section.</span></span> <span data-ttu-id="75bcc-112">Tai reiškia, kad planavimo proceso metu bus nepaisoma esamų pajėgumo rezervavimų, nes darbo užsakymas turi būti pradėtas numatomu pradžios laiku.</span><span class="sxs-lookup"><span data-stu-id="75bcc-112">This means that the scheduling process will ignore existing capacity reservations because the work order must start on the expected start time.</span></span>
+6. <span data-ttu-id="b3211-111">Norėdami perrašyti bet kokius esamus pajėgumo rezervavimus siekiant užtikrinti, kad darbo užsakymas bus suplanuotas numatomu laikotarpiu, dialogo lango **Planuoti darbo užsakymą** > skyriuje **Ribotas pajėgumas** pažymėkite parinktis, kaip parodyta toliau pateiktame paveikslėlyje.</span><span class="sxs-lookup"><span data-stu-id="b3211-111">In order to override any existing capacity reservations to ensure that the work order is scheduled in the expected period, make the selections as shown in the figure below in the **Schedule work order** dialog > **Finite capacity** section.</span></span> <span data-ttu-id="b3211-112">Tai reiškia, kad planavimo proceso metu bus nepaisoma esamų pajėgumo rezervavimų, nes darbo užsakymas turi būti pradėtas numatomu pradžios laiku.</span><span class="sxs-lookup"><span data-stu-id="b3211-112">This means that the scheduling process will ignore existing capacity reservations because the work order must start on the expected start time.</span></span>
 
-![2 paveikslėlis](media/06-work-order-scheduling.png)
+    ![2 paveikslėlis](media/06-work-order-scheduling.png)
 
-7. <span data-ttu-id="75bcc-114">Spustelėkite **Gerai**, kad pradėtumėte planavimą.</span><span class="sxs-lookup"><span data-stu-id="75bcc-114">Click **OK** to start scheduling.</span></span>
+7. <span data-ttu-id="b3211-114">Spustelėkite **Gerai**, kad pradėtumėte planavimą.</span><span class="sxs-lookup"><span data-stu-id="b3211-114">Click **OK** to start scheduling.</span></span>
 
-8. <span data-ttu-id="75bcc-115">Jei planavimo proceso metu sukuriama dvigubų rezervavimų, ekrane matysite pranešimą ir galėsite koreguoti susijusius darbo užsakymus.</span><span class="sxs-lookup"><span data-stu-id="75bcc-115">If the scheduling process results in double bookings, you will see a message on the screen, and you can adjust the related work orders.</span></span>
+8. <span data-ttu-id="b3211-115">Jei planavimo proceso metu sukuriama dvigubų rezervavimų, ekrane matysite pranešimą ir galėsite koreguoti susijusius darbo užsakymus.</span><span class="sxs-lookup"><span data-stu-id="b3211-115">If the scheduling process results in double bookings, you will see a message on the screen, and you can adjust the related work orders.</span></span>
 
 >[!NOTE]
-><span data-ttu-id="75bcc-116">Kad būtų galima suplanuoti darbo užsakymo priežiūros darbuotoją, tas priežiūros darbuotojas turi būti pasiekiamas numatomą pradžios datą ir numatomu pradžios laiku.</span><span class="sxs-lookup"><span data-stu-id="75bcc-116">In order to schedule a maintenance worker for the work order, that maintenance worker must be available at the expected start date and time.</span></span> <span data-ttu-id="75bcc-117">Darbuotojų pasiekiamumas nustatomas [darbuotojų kalendoriuje](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span><span class="sxs-lookup"><span data-stu-id="75bcc-117">Worker availability is set up in the [worker calendar](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span></span> 
+><span data-ttu-id="b3211-116">Kad būtų galima suplanuoti darbo užsakymo priežiūros darbuotoją, tas priežiūros darbuotojas turi būti pasiekiamas numatomą pradžios datą ir numatomu pradžios laiku.</span><span class="sxs-lookup"><span data-stu-id="b3211-116">In order to schedule a maintenance worker for the work order, that maintenance worker must be available at the expected start date and time.</span></span> <span data-ttu-id="b3211-117">Darbuotojų pasiekiamumas nustatomas [darbuotojų kalendoriuje](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span><span class="sxs-lookup"><span data-stu-id="b3211-117">Worker availability is set up in the [worker calendar](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md).</span></span> 
 
