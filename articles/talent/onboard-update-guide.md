@@ -16,39 +16,39 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010734"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551961"
 ---
-# <a name="update-onboarding-guides"></a><span data-ttu-id="80966-103">Supažindinimo vadovų naujinimas</span><span class="sxs-lookup"><span data-stu-id="80966-103">Update onboarding guides</span></span>
+# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a><span data-ttu-id="6f62a-103">Naujinti supažindinimo vadovus „Dynamics 365 Talent - Onboard”</span><span class="sxs-lookup"><span data-stu-id="6f62a-103">Update onboarding guides in Dynamics 365 Talent - Onboard</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="80966-104">Jei programoje „Microsoft Dynamics 365 Talent: Onboard” turite atlikti supažindinimo vadovų keitimus, galite juos naujinti ir skelbti keitimus, net jei vadovus jau išsiuntėte.</span><span class="sxs-lookup"><span data-stu-id="80966-104">If you must make changes to onboarding guides in Microsoft Dynamics 365 Talent: Onboard, you can update them and push the changes, even if you've already sent the guides.</span></span> <span data-ttu-id="80966-105">Jūs turite dvi parinktis, kaip naujinti supažindinimo vadovą.</span><span class="sxs-lookup"><span data-stu-id="80966-105">You have two options for updating an onboarding guide:</span></span>
+<span data-ttu-id="6f62a-104">Jei programoje „Microsoft Dynamics 365 Talent: Onboard” turite atlikti supažindinimo vadovų keitimus, galite juos naujinti ir skelbti keitimus, net jei vadovus jau išsiuntėte.</span><span class="sxs-lookup"><span data-stu-id="6f62a-104">If you must make changes to onboarding guides in Microsoft Dynamics 365 Talent: Onboard, you can update them and push the changes, even if you've already sent the guides.</span></span> <span data-ttu-id="6f62a-105">Jūs turite dvi parinktis, kaip naujinti supažindinimo vadovą.</span><span class="sxs-lookup"><span data-stu-id="6f62a-105">You have two options for updating an onboarding guide:</span></span>
 
-- <span data-ttu-id="80966-106">Redaguokite supažindinimo vadovą tiesiogiai ir išsaugokite pakeitimus.</span><span class="sxs-lookup"><span data-stu-id="80966-106">Edit the onboarding guide directly, and save your changes.</span></span>
-- <span data-ttu-id="80966-107">Redaguokite supažindinimo šabloną, tada paskelbkite keitimus visuose supažindinimo vadovuose, sukurtus pagal jį.</span><span class="sxs-lookup"><span data-stu-id="80966-107">Edit the onboarding template, and then push the changes to all the onboarding guides that were created from it.</span></span>
+- <span data-ttu-id="6f62a-106">Redaguokite supažindinimo vadovą tiesiogiai ir išsaugokite pakeitimus.</span><span class="sxs-lookup"><span data-stu-id="6f62a-106">Edit the onboarding guide directly, and save your changes.</span></span>
+- <span data-ttu-id="6f62a-107">Redaguokite supažindinimo šabloną, tada paskelbkite keitimus visuose supažindinimo vadovuose, sukurtus pagal jį.</span><span class="sxs-lookup"><span data-stu-id="6f62a-107">Edit the onboarding template, and then push the changes to all the onboarding guides that were created from it.</span></span>
 
-## <a name="edit-an-onboarding-guide-directly"></a><span data-ttu-id="80966-108">Supažindinimo vadovo redagavimas tiesiogiai</span><span class="sxs-lookup"><span data-stu-id="80966-108">Edit an onboarding guide directly</span></span>
+## <a name="edit-an-onboarding-guide-directly"></a><span data-ttu-id="6f62a-108">Supažindinimo vadovo redagavimas tiesiogiai</span><span class="sxs-lookup"><span data-stu-id="6f62a-108">Edit an onboarding guide directly</span></span>
 
-1. <span data-ttu-id="80966-109">Kairiajame meniu pasirinkite **Vadovai**.</span><span class="sxs-lookup"><span data-stu-id="80966-109">On the left menu, select **Guides**.</span></span>
-2. <span data-ttu-id="80966-110">Pasirinkite norimą redaguoti vadovą.</span><span class="sxs-lookup"><span data-stu-id="80966-110">Select the guide that you want to edit.</span></span>
-3. <span data-ttu-id="80966-111">Atlikite visus norimus keitimus, tada pasirinkite mygtuką **Įrašyti** (disko simbolis).</span><span class="sxs-lookup"><span data-stu-id="80966-111">Make all the desired changes, and then select the **Save** button (the disk symbol).</span></span>
+1. <span data-ttu-id="6f62a-109">Kairiajame meniu pasirinkite **Vadovai**.</span><span class="sxs-lookup"><span data-stu-id="6f62a-109">On the left menu, select **Guides**.</span></span>
+2. <span data-ttu-id="6f62a-110">Pasirinkite norimą redaguoti vadovą.</span><span class="sxs-lookup"><span data-stu-id="6f62a-110">Select the guide that you want to edit.</span></span>
+3. <span data-ttu-id="6f62a-111">Atlikite visus norimus keitimus, tada pasirinkite mygtuką **Įrašyti** (disko simbolis).</span><span class="sxs-lookup"><span data-stu-id="6f62a-111">Make all the desired changes, and then select the **Save** button (the disk symbol).</span></span>
 
-    ![[<span data-ttu-id="80966-112">Keitimų įrašymas supažindinimo vadove</span><span class="sxs-lookup"><span data-stu-id="80966-112">Saving changes to an onboarding guide</span></span>](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[<span data-ttu-id="6f62a-112">Keitimų įrašymas supažindinimo vadove</span><span class="sxs-lookup"><span data-stu-id="6f62a-112">Saving changes to an onboarding guide</span></span>](./media/onboard-save.png)](./media/onboard-save.png)
 
-<span data-ttu-id="80966-113">Onboard automatiškai išsiųs naujam darbuotojui el. laišką, nurodantį, kokie yra pakeitimai.</span><span class="sxs-lookup"><span data-stu-id="80966-113">Onboard will automatically send the new hire an email that indicates what the changes are.</span></span> <span data-ttu-id="80966-114">Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="80966-114">For easy identification, a red **New** tag will appear next to each change.</span></span>
+<span data-ttu-id="6f62a-113">Onboard automatiškai išsiųs naujam darbuotojui el. laišką, nurodantį, kokie yra pakeitimai.</span><span class="sxs-lookup"><span data-stu-id="6f62a-113">Onboard will automatically send the new hire an email that indicates what the changes are.</span></span> <span data-ttu-id="6f62a-114">Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="6f62a-114">For easy identification, a red **New** tag will appear next to each change.</span></span>
 
-## <a name="update-multiple-guides-by-editing-the-onboarding-template"></a><span data-ttu-id="80966-115">Kelis vadovų naujinimas redaguojant supažindinimo šabloną</span><span class="sxs-lookup"><span data-stu-id="80966-115">Update multiple guides by editing the onboarding template</span></span>
+## <a name="update-multiple-guides-by-editing-the-onboarding-template"></a><span data-ttu-id="6f62a-115">Kelis vadovų naujinimas redaguojant supažindinimo šabloną</span><span class="sxs-lookup"><span data-stu-id="6f62a-115">Update multiple guides by editing the onboarding template</span></span>
 
-1. <span data-ttu-id="80966-116">Kairiajame meniu pasirinkite **Šablonai**.</span><span class="sxs-lookup"><span data-stu-id="80966-116">On the left menu, select **Templates**.</span></span>
-2. <span data-ttu-id="80966-117">Dalyje **Mano šablonai** pasirinkite norimą redaguoti šabloną.</span><span class="sxs-lookup"><span data-stu-id="80966-117">Under **My templates**, select the template that you want to edit.</span></span>
-3. <span data-ttu-id="80966-118">Atlikite visus norimus keitimus, tada pasirinkite mygtuką **Įrašyti** (disko simbolis).</span><span class="sxs-lookup"><span data-stu-id="80966-118">Make all the desired changes, and then select the **Save** button (the disk symbol).</span></span>
-4. <span data-ttu-id="80966-119">Norėdami visuose vadovuose, sukurtuose pagal šabloną, skelbti keitimus, pasirinkite **Skelbti šiuos keitimus**.</span><span class="sxs-lookup"><span data-stu-id="80966-119">To push your changes to all the guides that are based on the template, select **Push these changes**.</span></span>
+1. <span data-ttu-id="6f62a-116">Kairiajame meniu pasirinkite **Šablonai**.</span><span class="sxs-lookup"><span data-stu-id="6f62a-116">On the left menu, select **Templates**.</span></span>
+2. <span data-ttu-id="6f62a-117">Dalyje **Mano šablonai** pasirinkite norimą redaguoti šabloną.</span><span class="sxs-lookup"><span data-stu-id="6f62a-117">Under **My templates**, select the template that you want to edit.</span></span>
+3. <span data-ttu-id="6f62a-118">Atlikite visus norimus keitimus, tada pasirinkite mygtuką **Įrašyti** (disko simbolis).</span><span class="sxs-lookup"><span data-stu-id="6f62a-118">Make all the desired changes, and then select the **Save** button (the disk symbol).</span></span>
+4. <span data-ttu-id="6f62a-119">Norėdami visuose vadovuose, sukurtuose pagal šabloną, skelbti keitimus, pasirinkite **Skelbti šiuos keitimus**.</span><span class="sxs-lookup"><span data-stu-id="6f62a-119">To push your changes to all the guides that are based on the template, select **Push these changes**.</span></span>
 
-    ![[<span data-ttu-id="80966-120">Supažindinimo šablono keitimų skelbimas visuose vadovuose, sukurtus pagal jį</span><span class="sxs-lookup"><span data-stu-id="80966-120">Pushing the changes in an onboarding template to all guides that were created from it</span></span>](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
+    ![[<span data-ttu-id="6f62a-120">Supažindinimo šablono keitimų skelbimas visuose vadovuose, sukurtus pagal jį</span><span class="sxs-lookup"><span data-stu-id="6f62a-120">Pushing the changes in an onboarding template to all guides that were created from it</span></span>](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
-<span data-ttu-id="80966-121">Naujiems darbuotojams pakeitimai bus matomi atidarius supažindinimo vadovus.</span><span class="sxs-lookup"><span data-stu-id="80966-121">The changes will be visible to new hires who open the onboarding guides.</span></span> <span data-ttu-id="80966-122">Tačiau „Onboard” naujiems darbuotojams nesiųs įspėjimų el. paštu pranešti, kad pasikeitė jų supažindinimo vadovas.</span><span class="sxs-lookup"><span data-stu-id="80966-122">However, Onboard won't send email alerts to new hires to let them know that their onboarding guide has changed.</span></span> <span data-ttu-id="80966-123">Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="80966-123">For easy identification, a red **New** tag will appear next to each change.</span></span> 
+<span data-ttu-id="6f62a-121">Naujiems darbuotojams pakeitimai bus matomi atidarius supažindinimo vadovus.</span><span class="sxs-lookup"><span data-stu-id="6f62a-121">The changes will be visible to new hires who open the onboarding guides.</span></span> <span data-ttu-id="6f62a-122">Tačiau „Onboard” naujiems darbuotojams nesiųs įspėjimų el. paštu pranešti, kad pasikeitė jų supažindinimo vadovas.</span><span class="sxs-lookup"><span data-stu-id="6f62a-122">However, Onboard won't send email alerts to new hires to let them know that their onboarding guide has changed.</span></span> <span data-ttu-id="6f62a-123">Kad būtų lengviau identifikuoti, šalia kiekvieno pakeitimo atsiras raudona žymė **Nauja**.</span><span class="sxs-lookup"><span data-stu-id="6f62a-123">For easy identification, a red **New** tag will appear next to each change.</span></span> 

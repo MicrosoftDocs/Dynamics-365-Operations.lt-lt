@@ -18,27 +18,27 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfd62a18d6b4cfc8c41d9025a8fc5deb8768ed3f
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 609146ebc5a31e5b28ca9ed6e04ed82b6bb1b03e
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250926"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571121"
 ---
-# <a name="maintenance-requests"></a><span data-ttu-id="58a96-103">Priežiūros užklausos</span><span class="sxs-lookup"><span data-stu-id="58a96-103">Maintenance requests</span></span>
+# <a name="maintenance-requests"></a><span data-ttu-id="83311-103">Priežiūros užklausos</span><span class="sxs-lookup"><span data-stu-id="83311-103">Maintenance requests</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-<span data-ttu-id="58a96-104">Galite nustatyti įvairių tipų užklausas, kurias naudotumėte įmonėje.</span><span class="sxs-lookup"><span data-stu-id="58a96-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="58a96-105">Vienas tokių tipų – priežiūros užklausos.</span><span class="sxs-lookup"><span data-stu-id="58a96-105">Maintenance requests are one type.</span></span> <span data-ttu-id="58a96-106">Priežiūros užklausos naudojamos norint paprašyti konkrečiai užduočiai sukurti darbo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="58a96-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="58a96-107">Priežiūros užklausą gali sukurti bet kuris vartotojas, turintis prieigą prie funkcijos „Turto valdymas“.</span><span class="sxs-lookup"><span data-stu-id="58a96-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="58a96-108">Pateikus priežiūros užklausą, planuotojas arba vadovas galės nuspręsti, ar ji turi būti pakeista į darbo užsakymą, ar jos ciklas turi būti užbaigtas.</span><span class="sxs-lookup"><span data-stu-id="58a96-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
+<span data-ttu-id="83311-104">Galite nustatyti įvairių tipų užklausas, kurias naudotumėte įmonėje.</span><span class="sxs-lookup"><span data-stu-id="83311-104">You can set up various types of requests to use in your company.</span></span> <span data-ttu-id="83311-105">Vienas tokių tipų – priežiūros užklausos.</span><span class="sxs-lookup"><span data-stu-id="83311-105">Maintenance requests are one type.</span></span> <span data-ttu-id="83311-106">Priežiūros užklausos naudojamos norint paprašyti konkrečiai užduočiai sukurti darbo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="83311-106">Maintenance requests are used to request that a work order be required for a specific job.</span></span> <span data-ttu-id="83311-107">Priežiūros užklausą gali sukurti bet kuris vartotojas, turintis prieigą prie funkcijos „Turto valdymas“.</span><span class="sxs-lookup"><span data-stu-id="83311-107">A maintenance request can be created by any user who has access to Asset Management functionality.</span></span> <span data-ttu-id="83311-108">Pateikus priežiūros užklausą, planuotojas arba vadovas galės nuspręsti, ar ji turi būti pakeista į darbo užsakymą, ar jos ciklas turi būti užbaigtas.</span><span class="sxs-lookup"><span data-stu-id="83311-108">A planner or manager can then decide whether a maintenance request should be converted to a work order, or whether it should complete its own lifecycle.</span></span>
 
-## <a name="view-maintenance-requests"></a><span data-ttu-id="58a96-109">Priežiūros užklausų peržiūra</span><span class="sxs-lookup"><span data-stu-id="58a96-109">View maintenance requests</span></span>
+## <a name="view-maintenance-requests"></a><span data-ttu-id="83311-109">Priežiūros užklausų peržiūra</span><span class="sxs-lookup"><span data-stu-id="83311-109">View maintenance requests</span></span>
 
-- <span data-ttu-id="58a96-110">Pasirinkite**Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Visos priežiūros užklausos** arba **Aktyvios priežiūros užklausos**.</span><span class="sxs-lookup"><span data-stu-id="58a96-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
+- <span data-ttu-id="83311-110">Pasirinkite**Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Visos priežiūros užklausos** arba **Aktyvios priežiūros užklausos**.</span><span class="sxs-lookup"><span data-stu-id="83311-110">Select **Asset management** \> **Common** \> **Maintenance requests** \> **All maintenance requests** or **Active maintenance requests**.</span></span>
 
-    <span data-ttu-id="58a96-111">Sąrašo puslapyje **Visos priežiūros užklausos** matysite visas priežiūros užklausas, neatsižvelgiant į jų ciklo būseną.</span><span class="sxs-lookup"><span data-stu-id="58a96-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="58a96-112">Sąrašo puslapyje **Aktyvios priežiūros užklausos** matysite tik tas priežiūros užklausas, kurių būsena yra aktyvi.</span><span class="sxs-lookup"><span data-stu-id="58a96-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
+    <span data-ttu-id="83311-111">Sąrašo puslapyje **Visos priežiūros užklausos** matysite visas priežiūros užklausas, neatsižvelgiant į jų ciklo būseną.</span><span class="sxs-lookup"><span data-stu-id="83311-111">The **All maintenance requests** list page shows all maintenance requests, regardless of their lifecycle state.</span></span> <span data-ttu-id="83311-112">Sąrašo puslapyje **Aktyvios priežiūros užklausos** matysite tik tas priežiūros užklausas, kurių būsena yra aktyvi.</span><span class="sxs-lookup"><span data-stu-id="83311-112">The **Active maintenance requests** lists page shows only maintenance requests that are in an active state.</span></span>
 
-<span data-ttu-id="58a96-113">Paveikslėlyje pavaizduotas sąrašo puslapio **Visos priežiūros užklausos** pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="58a96-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
+<span data-ttu-id="83311-113">Paveikslėlyje pavaizduotas sąrašo puslapio **Visos priežiūros užklausos** pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="83311-113">The following illustration shows an example of the **All maintenance requests** list page.</span></span>
 
-![1 paveikslėlis](media/01-setup-for-requests.png)
+![Visų priežiūros užklausų sąrašo puslapis](media/01-setup-for-requests.png)

@@ -1,6 +1,6 @@
 ---
-title: Įjungti uždelstą mokesčių skaičiavimą žurnale
-description: Šioje temoje paaiškinama, kaip naudoti funkciją **Įjungti uždelstą mokesčių skaičiavimą žurnale** siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.
+title: Atidėto mokesčių skaičiavimo įjungimas žurnaluose
+description: Šioje temoje paaiškinama, kaip įjungti atidėto mokesčių skaičiavimo funkciją siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra labai daug žurnalo eilučių.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178993"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623526"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a><span data-ttu-id="125bf-103">Įjungti uždelstą mokesčių skaičiavimą žurnale</span><span class="sxs-lookup"><span data-stu-id="125bf-103">Enable delayed tax calculation on journal</span></span>
+# <a name="enable-delayed-tax-calculation-on-journals"></a><span data-ttu-id="ffab6-103">Atidėto mokesčių skaičiavimo įjungimas žurnaluose</span><span class="sxs-lookup"><span data-stu-id="ffab6-103">Enable delayed tax calculation on journals</span></span>
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-<span data-ttu-id="125bf-104">Šioje temoje paaiškinama, kaip naudoti funkciją **Įjungti uždelstą mokesčių skaičiavimą žurnale** siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.</span><span class="sxs-lookup"><span data-stu-id="125bf-104">This topic explains how to use the **Enable delayed tax calculation on journal** feature to improve tax calculation performance when the volume of journal lines is huge.</span></span>
+<span data-ttu-id="ffab6-104">Šioje temoje paaiškinama, kaip galima atidėti PVM skaičiavimą žurnaluose.</span><span class="sxs-lookup"><span data-stu-id="ffab6-104">This topic explains how you can delay sales tax calculation on journals.</span></span> <span data-ttu-id="ffab6-105">Ši galimybė padeda pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.</span><span class="sxs-lookup"><span data-stu-id="ffab6-105">This capability helps improve the performance of tax calculations when there are many journal lines.</span></span>
 
-<span data-ttu-id="125bf-105">PVM skaičiavimo funkcija žurnale realiuoju laiku suaktyvinama, kai vartotojas atnaujina su mokesčiais susijusius laukus, pvz., PVM grupę / prekės PVM grupę.</span><span class="sxs-lookup"><span data-stu-id="125bf-105">Current sales tax calculation behavior on journal is real-time triggered when user updates tax related fields, e.g. sales tax group/item sales tax group.</span></span> <span data-ttu-id="125bf-106">Atnaujinus bet kurią žurnalo eilutę, iš naujo apskaičiuojama visų žurnalo eilučių mokesčių suma.</span><span class="sxs-lookup"><span data-stu-id="125bf-106">Any update at journal line level will re-calculate tax amount on all journal lines.</span></span> <span data-ttu-id="125bf-107">Tai padeda vartotojui matyti apskaičiuotą mokesčių sumą realiu laiku, bet taip pat gali kelti našumo problemų, jei žurnalo eilučių yra daug.</span><span class="sxs-lookup"><span data-stu-id="125bf-107">It helps user to see real-time calculated tax amount but it could also bring performance issue if  the volume of journal lines is huge.</span></span>
+<span data-ttu-id="ffab6-106">Esant numatytiesiems nustatymams, žurnalo eilučių PVM sumos apskaičiuojamos, kai atnaujinami su mokesčiais susiję laukai.</span><span class="sxs-lookup"><span data-stu-id="ffab6-106">By default, sales tax amounts on journal lines are calculated whenever tax-related fields are updated.</span></span> <span data-ttu-id="ffab6-107">Šie laukai apima PVM grupių ir prekės PVM grupių laukus.</span><span class="sxs-lookup"><span data-stu-id="ffab6-107">These fields include the fields for sales tax groups and item sales tax groups.</span></span> <span data-ttu-id="ffab6-108">Atnaujinus bet kurią žurnalo eilutę, perskaičiuojamos visos žurnalo eilutės.</span><span class="sxs-lookup"><span data-stu-id="ffab6-108">Any update to a journal line causes tax amounts to be recalculated for all journal lines.</span></span> <span data-ttu-id="ffab6-109">Nors toks veikimas leidžia vartotojui matyti realiu laiku apskaičiuojamas mokesčių sumas, tai taip pat gali turėti įtakos našumui, jei žurnalo eilučių skaičius yra labai didelis.</span><span class="sxs-lookup"><span data-stu-id="ffab6-109">Although this behavior helps user see tax amounts calculated in real time, it can also affect performance if the number of journal lines is very large.</span></span>
 
-<span data-ttu-id="125bf-108">Ši funkcija suteikia galimybę atidėti mokesčių skaičiavimą siekiant išspręsti našumo problemą.</span><span class="sxs-lookup"><span data-stu-id="125bf-108">This feature provides an option to delay tax calculation to solve performance issue.</span></span> <span data-ttu-id="125bf-109">Jei ši funkcija įjungta, mokesčių suma bus apskaičiuota tik tada, kai vartotojas spustels komandą „PVM“ komandą arba užregistruos žurnalą.</span><span class="sxs-lookup"><span data-stu-id="125bf-109">If this feature is turned on, tax amount will only be calculated when user clicks "Sales Tax" command or posts the journal.</span></span>
+<span data-ttu-id="ffab6-110">Atidėto mokesčių skaičiavimo funkcija leidžia atidėti mokesčių skaičiavimą žurnaluose, todėl padeda spręsti našumo problemas.</span><span class="sxs-lookup"><span data-stu-id="ffab6-110">The Delayed tax calculation feature lets you delay tax calculation on journals and therefore helps fix performance issues.</span></span> <span data-ttu-id="ffab6-111">Kai ši funkcija įjungta, mokesčių sumos bus apskaičiuotos tik tada, kai vartotojas pasirinks **PVM** arba užregistruos žurnalą.</span><span class="sxs-lookup"><span data-stu-id="ffab6-111">When this feature is turned on, tax amounts are calculated only when a user selects **Sales Tax** or posts the journal.</span></span>
 
-<span data-ttu-id="125bf-110">Vartotojas gali įjungti / išjungti parametrą trimis lygiais:</span><span class="sxs-lookup"><span data-stu-id="125bf-110">User can turn on/off the parameter at three levels:</span></span>
-- <span data-ttu-id="125bf-111">Pagal juridinį subjektą</span><span class="sxs-lookup"><span data-stu-id="125bf-111">By legal entity</span></span>
-- <span data-ttu-id="125bf-112">Pagal žurnalo pavadinimą</span><span class="sxs-lookup"><span data-stu-id="125bf-112">By journal name</span></span>
-- <span data-ttu-id="125bf-113">Pagal žurnalo antraštę</span><span class="sxs-lookup"><span data-stu-id="125bf-113">By journal header</span></span>
+<span data-ttu-id="ffab6-112">Galite atidėti PVM skaičiavimą trijuose lygiuose:</span><span class="sxs-lookup"><span data-stu-id="ffab6-112">You can delay the calculation of sales taxes at three levels:</span></span>
 
-<span data-ttu-id="125bf-114">Sistema kaip galutinę naudos žurnalo antraštėje esančią parametro reikšmę.</span><span class="sxs-lookup"><span data-stu-id="125bf-114">System will take the parameter value on journal header as final.</span></span> <span data-ttu-id="125bf-115">Parametro reikšmė žurnalo antraštėje bus gauta iš žurnalo pavadinimo.</span><span class="sxs-lookup"><span data-stu-id="125bf-115">Parameter value on journal header will be defaulted from journal name.</span></span> <span data-ttu-id="125bf-116">Parametro reikšmė žurnalo pavadinime bus gauta iš didžiosios knygos parametro sukuriant žurnalo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="125bf-116">Parameter value on journal name will be defaulted from general ledger parameter when the journal name is created.</span></span>
+- <span data-ttu-id="ffab6-113">Juridinis subjektas</span><span class="sxs-lookup"><span data-stu-id="ffab6-113">Legal entity</span></span>
+- <span data-ttu-id="ffab6-114">Žurnalo pavadinimas</span><span class="sxs-lookup"><span data-stu-id="ffab6-114">Journal name</span></span>
+- <span data-ttu-id="ffab6-115">Žurnalo antraštė</span><span class="sxs-lookup"><span data-stu-id="ffab6-115">Journal header</span></span>
 
-<span data-ttu-id="125bf-117">Jei šis parametras yra įjungtas, žurnalo laukai „Faktinė PVM suma“ ir „Apskaičiuota PVM suma“ bus paslėpti.</span><span class="sxs-lookup"><span data-stu-id="125bf-117">"Actual sales tax amount" and "Calculated sales tax amount" fields on journal will be hided if this parameter is turned on.</span></span> <span data-ttu-id="125bf-118">Taip daroma siekiant nesupainioti vartotojo, nes, prieš vartotojui suaktyvinant mokesčių skaičiavimą, rodoma šių dviejų laukų reikšmė visada bus 0.</span><span class="sxs-lookup"><span data-stu-id="125bf-118">The purpose is not to confuse user because the value of these two fields will always show 0 before user trigger the tax calculation.</span></span>
+<span data-ttu-id="ffab6-116">Sistema teikia prioritetą žurnalo antraštės parametrui.</span><span class="sxs-lookup"><span data-stu-id="ffab6-116">The system gives priority to the setting for the journal header.</span></span> <span data-ttu-id="ffab6-117">Esant numatytiesiems parametrams, šis parametras gaunamas iš žurnalo pavadinimo.</span><span class="sxs-lookup"><span data-stu-id="ffab6-117">By default, this setting is taken from the journal name.</span></span> <span data-ttu-id="ffab6-118">Esant numatytiesiems parametrams, žurnalo pavadinimas gaunamas iš puslapio **DK parametrai**, kai sukuriamas žurnalo pavadinimas.</span><span class="sxs-lookup"><span data-stu-id="ffab6-118">By default, the setting for the journal name is taken from the setting on the **General ledger parameters** page when the journal name is created.</span></span> <span data-ttu-id="ffab6-119">Tolesniuose skyriuose paaiškinama, kaip įjungti atidėtą mokesčių skaičiavimą juridiniams subjektams, žurnalų pavadinimams ir žurnalų antraštėms.</span><span class="sxs-lookup"><span data-stu-id="ffab6-119">The following sections explain how to turn on delayed tax calculation for legal entities, journal names, and journal headers.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a><span data-ttu-id="125bf-119">Įjungti uždelstą mokesčių skaičiavimą pagal juridinį subjektą</span><span class="sxs-lookup"><span data-stu-id="125bf-119">Enable delayed tax calculation by legal entity</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a><span data-ttu-id="ffab6-120">Atidėto mokesčių skaičiavimo įjungimas juridinio subjekto lygyje</span><span class="sxs-lookup"><span data-stu-id="ffab6-120">Turn on delayed tax calculation at the legal entity level</span></span>
 
-1. <span data-ttu-id="125bf-120">Eikite į **Didžioji knyga > DK nustatymas > DK parametrai**</span><span class="sxs-lookup"><span data-stu-id="125bf-120">Go to **General ledger > Ledger setup > General ledger parameters**</span></span>
-2. <span data-ttu-id="125bf-121">Spustelėkite kortelę **PVM**</span><span class="sxs-lookup"><span data-stu-id="125bf-121">Click **Sales tax** tab</span></span>
-3. <span data-ttu-id="125bf-122">Sparčiajame skirtuke **Bendra** suraskite parametrą **Uždelstas mokesčių skaičiavimas** ir jį įjunkite arba išjunkite</span><span class="sxs-lookup"><span data-stu-id="125bf-122">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+1. <span data-ttu-id="ffab6-121">Eikite į **Didžioji knyga \> Didžiosios knygos nustatymas \> DK parametrai**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-121">Go to **General ledger \> Ledger setup \> General ledger parameters**.</span></span>
+2. <span data-ttu-id="ffab6-122">Skirtuke **PVM**, „FastTab“ **Bendra**, nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-122">On the **Sales tax** tab, on the **General** FastTab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-![](media/delayed-tax-calculation-gl.png)
+![Didžiosios knygos parametrų vaizdas](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a><span data-ttu-id="ffab6-124">Atidėto mokesčių skaičiavimo įjungimas žurnalo pavadinimo lygyje</span><span class="sxs-lookup"><span data-stu-id="ffab6-124">Turn on delayed tax calculation at the journal name level</span></span>
 
+1. <span data-ttu-id="ffab6-125">Eikite į **Didžioji knyga \> Žurnalo nustatymas \> Žurnalo pavadinimai**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-125">Go to **General ledger \> Journal setup \> Journal names**.</span></span>
+2. <span data-ttu-id="ffab6-126">„FastTab“ **Bendra**, dalyje **PVM**, nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-126">On the **General** FastTab, in the **Sales tax** section, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a><span data-ttu-id="125bf-123">Įjungti uždelstą mokesčių skaičiavimą pagal žurnalo pavadinimą</span><span class="sxs-lookup"><span data-stu-id="125bf-123">Enable delayed tax calculation by journal name</span></span>
+![Žurnalų pavadinimų vaizdas](media/delayed-tax-calculation-journal-name.png)
 
-1. <span data-ttu-id="125bf-124">Eikite į **Didžioji knyga > Žurnalo nustatymas > Žurnalo pavadinimai**</span><span class="sxs-lookup"><span data-stu-id="125bf-124">Go to **General ledger > Journal setup > Journal names**</span></span>
-2. <span data-ttu-id="125bf-125">Sparčiajame skirtuke **Bendra** suraskite parametrą **Uždelstas mokesčių skaičiavimas** ir jį įjunkite arba išjunkite</span><span class="sxs-lookup"><span data-stu-id="125bf-125">Under **General** fast tab, find parameter **Delayed tax calculation**, turn on/off it</span></span>
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a><span data-ttu-id="ffab6-128">Atidėto mokesčių skaičiavimo įjungimas žurnalo antraštės lygyje</span><span class="sxs-lookup"><span data-stu-id="ffab6-128">Turn on delayed tax calculation at the journal header level</span></span>
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. <span data-ttu-id="ffab6-129">Eikite į **Didžioji knyga \> Žurnalų įrašai \> Bendrieji žurnalai**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-129">Go to **General ledger \> Journal entries \> General journals**.</span></span>
+2. <span data-ttu-id="ffab6-130">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-130">Select **New**.</span></span>
+3. <span data-ttu-id="ffab6-131">Pasirinkite žurnalo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="ffab6-131">Select a journal name.</span></span>
+4. <span data-ttu-id="ffab6-132">Skirtuke **Sąranka** nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.</span><span class="sxs-lookup"><span data-stu-id="ffab6-132">On the **Setup** tab, set the **Delayed tax calculation** option to **Yes**.</span></span>
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a><span data-ttu-id="125bf-126">Įjungti uždelstą mokesčių skaičiavimą pagal žurnalą</span><span class="sxs-lookup"><span data-stu-id="125bf-126">Enable delayed tax calculation by journal</span></span>
-
-1. <span data-ttu-id="125bf-127">Eikite į **Didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**</span><span class="sxs-lookup"><span data-stu-id="125bf-127">Go to **General ledger > Journal entries > General journals**</span></span>
-2. <span data-ttu-id="125bf-128">Spustelėkite **Naujas**</span><span class="sxs-lookup"><span data-stu-id="125bf-128">Click **New**</span></span>
-3. <span data-ttu-id="125bf-129">Pasirinkite žurnalo pavadinimą</span><span class="sxs-lookup"><span data-stu-id="125bf-129">Select a journal name</span></span>
-4. <span data-ttu-id="125bf-130">Spustelėkite **Sąranka**</span><span class="sxs-lookup"><span data-stu-id="125bf-130">Click **Setup**</span></span>
-5. <span data-ttu-id="125bf-131">Suraskite parametrą **Uždelstas mokesčių skaičiavimas** ir jį įjunkite arba išjunkite</span><span class="sxs-lookup"><span data-stu-id="125bf-131">Find parameter **Delayed tax calculation**, turn on/off it</span></span>
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Bendrojo žurnalo puslapio vaizdas](media/delayed-tax-calculation-journal-header.png)
