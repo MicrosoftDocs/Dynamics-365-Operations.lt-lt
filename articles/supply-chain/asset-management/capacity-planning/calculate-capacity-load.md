@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 82f65293679591f278e0e3b79c112ba36debc3bb
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: da737cedfcd678a835e85a2b82a05394d771f8cc
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2277948"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652269"
 ---
-# <a name="calculate-capacity-load"></a>Skaičiuoti pajėgumą
+# <a name="calculate-capacity-load"></a>Pajėgumo skaičiavimas
 
 [!include [banner](../../includes/banner.md)]
 
@@ -46,16 +46,18 @@ Tai naudinga, jei norite peržiūrėti numatytą pajėgumą konkrečiu laikotarp
 
 4. Perjungimo mygtuke **Įtraukti darbo užsakymą** pažymėkite Taip, jei norite į skaičiavimą įtraukti darbo užsakymo užduotis.
 
-5. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti pajėgumo eilutėse. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, visos priežiūros grafikos eilutės ir darbo užsakymai, skirti funkcinei vietai, bus rodomi viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, visas priežiūros grafiko eilutes ir visus darbo užsakymus.
+5. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti pajėgumo eilutėse. 
+
+    Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, visos priežiūros grafikos eilutės ir darbo užsakymai, skirti funkcinei vietai, bus rodomi viršuje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų. 
+    
+    Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, visas priežiūros grafiko eilutes ir visus darbo užsakymus.
 
 6. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**.
 
-7. Veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, kad būtų rodomas pageidaujamas išsamus skaičiavimo lygis. Pasirinktos veiksmų srities grupės mygtukai yra paryškinti mėlynai. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
+7. Grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, kad būtų rodomas pageidaujamas išsamus skaičiavimo lygis. Toliau pateiktoje ekrano kopijoje pasirinkti mygtukai **Grupuoti pagal** yra pažymėti mėlynai. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
-Toliau pateiktame paveiksle rodomas šios sąsajos pavyzdys.
-
-![1 pav.](media/01-capacity-planning.png)
+    ![1 pav.](media/01-capacity-planning.png)
 
 >[!NOTE]
->Jei norite planuoti tik suplanuotų darbo užsakymų pajėgumą, žr. [Suplanuotų darbo užsakymų pajėgumo planavimas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
+>Jei norite planuoti tik suplanuotų darbo užsakymų pajėgumą, žr. [Suplanuotų darbo užsakymų pajėgumo skaičiavimas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 

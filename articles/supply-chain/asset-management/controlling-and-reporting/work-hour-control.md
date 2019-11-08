@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 916e7b8d5d494dbae0659504957f7f0798a6834b
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1a59b4bbf1a4612cea1ba3bd536ba4b018fc621f
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918377"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652338"
 ---
 # <a name="work-hour-control"></a>Darbo valandų valdymas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulyje Turto valdymas galite apskaičiuoti valandas, kad galėtumėte apžvelgti faktines valandas, palygintas su turto, funkcinių vietų ar darbo užsakymų biudžeto valandomis. Faktinės valandos yra pagrįstos užregistruotomis operacijomis.
 
@@ -47,7 +47,11 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
 5. Perjungimo mygtuke **Praleisti nulį** pasirinkite Taip, jei nenorite, kad būtų rodomi nulinių valandų rezultatai.
 
-6. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti valandų valdymo eilutėse. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinių vietų hierarchija yra kelių lygių, visos valandų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršutiniame lygyje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje esančių funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, valandų valdymo eilutes.
+6. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti valandų valdymo eilutėse. 
+
+    Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinių vietų hierarchija yra kelių lygių, visos valandų valdymo eilutės, skirtos funkcinei vietai, bus rodomos viršutiniame lygyje, todėl valandas į eilutę galėsite įtraukti iš žemesniame lygmenyje esančių funkcinių vietų. 
+    
+    Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, valandų valdymo eilutes.
 
 7. Perjungimo mygtuke **Įtraukti antrinį turtą** pasirinkite Taip, kad atskirose eilutėse būtų rodomi su antriniu turtu susiję kaštai.
 
@@ -55,14 +59,18 @@ Su turtu, funkcinėmis vietomis ir darbo užsakymais susiję skaičiavimai yra b
 
 9. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**.
 
-10. Puslapio **Turto valandų valdymas** veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, kad būtų rodomas pageidaujamas išsamus skaičiavimo lygis. Pažymėti veiksmų srities mygtukai yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
+10. Puslapyje **Turto valandų valdymas** spustelėkite mygtukus **Grupuoti pagal**, kad būtų rodomas pageidaujamas skaičiavimo išsamumo lygis. Pažymėti mygtukai **Grupuoti pagal** yra paryškinti. Norėdami suaktyvinti arba išjungti, spustelėkite mygtuką.
 
-Toliau pateiktame paveiksle rodomas **turto valandų valdymo** skaičiavimo pavyzdys.
+## <a name="example"></a>Pavyzdys
 
-![1 pav.](media/04-controlling-and-reporting.png)
+Toliau pateiktoje ekrano kopijoje rodomas **Turto valandų valdymas** skaičiavimo pavyzdys.
 
-Kitas būdas skaičiuoti valandas – atlikti kelis pasirinkimus srityse **Visas turtas** arba **Aktyvus turtas**. Tada reikia spustelėti „FastTab“ **Bendra** mygtuką **Valandų valdymas**. Pasirinktas turtas automatiškai įterpiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Dialogo lange **Turto valandų valdymas** spustelėkite **Gerai** – bus rodomas pasirinkto turto skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+- Lauke **Pradinis biudžetas** rodomos biudžeto valandos iš darbo užsakymo prognozės. 
+- Lauke **Faktinės valandos** rodomos darbo užsakymuose užregistruotos valandos. 
+- Lauke **Skirtos valandos** rodomos visos valandos, kurias jūsų įmonė skyrė pagal darbo užsakymus.
 
->[!NOTE]
->Lauke **Pradinis biudžetas** rodomos biudžeto valandos iš darbo užsakymo prognozės. Lauke **Faktinės valandos** rodomos darbo užsakymuose užregistruotos valandos. Lauke **Skirtos valandos** rodomos visos valandos, kurias jūsų įmonė skyrė pagal darbo užsakymus.
+![Turto valandų valdymo skaičiavimo pavyzdys](media/04-controlling-and-reporting.png)
+
+Kitas būdas skaičiuoti valandas – atlikti kelis pasirinkimus srityse **Visas turtas** arba **Aktyvus turtas**. Tada spustelėkite mygtuką **Valandų valdymas**, esantį „FastTab“ **Bendra**. Pasirinktas turtas automatiškai įterpiamas į „FastTab“ **Įtrauktini įrašai** lauką **Turtas**. Dialogo lange **Turto valandų valdymas** spustelėkite **Gerai** – bus rodomas pasirinkto turto skaičiavimas. Tą pačią procedūrą galima atlikti su funkcinėmis vietomis dalyje **Visos funkcinės vietos** arba **Aktyvios funkcinės vietos** ir su darbo užsakymais dalyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+
 

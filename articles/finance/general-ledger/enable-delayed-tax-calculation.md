@@ -1,6 +1,6 @@
 ---
-title: Įjungti uždelstą mokesčių skaičiavimą žurnale
-description: Šioje temoje paaiškinama, kaip naudoti funkciją **Įjungti uždelstą mokesčių skaičiavimą žurnale** siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.
+title: Atidėto mokesčių skaičiavimo įjungimas žurnaluose
+description: Šioje temoje paaiškinama, kaip įjungti atidėto mokesčių skaičiavimo funkciją siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra labai daug žurnalo eilučių.
 author: ericwang
 manager: Ann Beebe
 ms.date: 09/18/2019
@@ -18,55 +18,50 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 5a8ae30a007d3e2b8b7a9bc9eb7786f6e58246d0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e336be5468106007e1f5adf26bf272c88b8b413b
+ms.sourcegitcommit: bc9b65b73bf6443581c2869a9ecfd0675f0be566
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178993"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2623526"
 ---
-# <a name="enable-delayed-tax-calculation-on-journal"></a>Įjungti uždelstą mokesčių skaičiavimą žurnale
+# <a name="enable-delayed-tax-calculation-on-journals"></a>Atidėto mokesčių skaičiavimo įjungimas žurnaluose
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje paaiškinama, kaip naudoti funkciją **Įjungti uždelstą mokesčių skaičiavimą žurnale** siekiant pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.
+Šioje temoje paaiškinama, kaip galima atidėti PVM skaičiavimą žurnaluose. Ši galimybė padeda pagerinti mokesčių skaičiavimo efektyvumą, kai yra daug žurnalo eilučių.
 
-PVM skaičiavimo funkcija žurnale realiuoju laiku suaktyvinama, kai vartotojas atnaujina su mokesčiais susijusius laukus, pvz., PVM grupę / prekės PVM grupę. Atnaujinus bet kurią žurnalo eilutę, iš naujo apskaičiuojama visų žurnalo eilučių mokesčių suma. Tai padeda vartotojui matyti apskaičiuotą mokesčių sumą realiu laiku, bet taip pat gali kelti našumo problemų, jei žurnalo eilučių yra daug.
+Esant numatytiesiems nustatymams, žurnalo eilučių PVM sumos apskaičiuojamos, kai atnaujinami su mokesčiais susiję laukai. Šie laukai apima PVM grupių ir prekės PVM grupių laukus. Atnaujinus bet kurią žurnalo eilutę, perskaičiuojamos visos žurnalo eilutės. Nors toks veikimas leidžia vartotojui matyti realiu laiku apskaičiuojamas mokesčių sumas, tai taip pat gali turėti įtakos našumui, jei žurnalo eilučių skaičius yra labai didelis.
 
-Ši funkcija suteikia galimybę atidėti mokesčių skaičiavimą siekiant išspręsti našumo problemą. Jei ši funkcija įjungta, mokesčių suma bus apskaičiuota tik tada, kai vartotojas spustels komandą „PVM“ komandą arba užregistruos žurnalą.
+Atidėto mokesčių skaičiavimo funkcija leidžia atidėti mokesčių skaičiavimą žurnaluose, todėl padeda spręsti našumo problemas. Kai ši funkcija įjungta, mokesčių sumos bus apskaičiuotos tik tada, kai vartotojas pasirinks **PVM** arba užregistruos žurnalą.
 
-Vartotojas gali įjungti / išjungti parametrą trimis lygiais:
-- Pagal juridinį subjektą
-- Pagal žurnalo pavadinimą
-- Pagal žurnalo antraštę
+Galite atidėti PVM skaičiavimą trijuose lygiuose:
 
-Sistema kaip galutinę naudos žurnalo antraštėje esančią parametro reikšmę. Parametro reikšmė žurnalo antraštėje bus gauta iš žurnalo pavadinimo. Parametro reikšmė žurnalo pavadinime bus gauta iš didžiosios knygos parametro sukuriant žurnalo pavadinimą.
+- Juridinis subjektas
+- Žurnalo pavadinimas
+- Žurnalo antraštė
 
-Jei šis parametras yra įjungtas, žurnalo laukai „Faktinė PVM suma“ ir „Apskaičiuota PVM suma“ bus paslėpti. Taip daroma siekiant nesupainioti vartotojo, nes, prieš vartotojui suaktyvinant mokesčių skaičiavimą, rodoma šių dviejų laukų reikšmė visada bus 0.
+Sistema teikia prioritetą žurnalo antraštės parametrui. Esant numatytiesiems parametrams, šis parametras gaunamas iš žurnalo pavadinimo. Esant numatytiesiems parametrams, žurnalo pavadinimas gaunamas iš puslapio **DK parametrai**, kai sukuriamas žurnalo pavadinimas. Tolesniuose skyriuose paaiškinama, kaip įjungti atidėtą mokesčių skaičiavimą juridiniams subjektams, žurnalų pavadinimams ir žurnalų antraštėms.
 
-## <a name="enable-delayed-tax-calculation-by-legal-entity"></a>Įjungti uždelstą mokesčių skaičiavimą pagal juridinį subjektą
+## <a name="turn-on-delayed-tax-calculation-at-the-legal-entity-level"></a>Atidėto mokesčių skaičiavimo įjungimas juridinio subjekto lygyje
 
-1. Eikite į **Didžioji knyga > DK nustatymas > DK parametrai**
-2. Spustelėkite kortelę **PVM**
-3. Sparčiajame skirtuke **Bendra** suraskite parametrą **Uždelstas mokesčių skaičiavimas** ir jį įjunkite arba išjunkite
+1. Eikite į **Didžioji knyga \> Didžiosios knygos nustatymas \> DK parametrai**.
+2. Skirtuke **PVM**, „FastTab“ **Bendra**, nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
-![](media/delayed-tax-calculation-gl.png)
+![Didžiosios knygos parametrų vaizdas](media/delayed-tax-calculation-gl.png)
 
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Atidėto mokesčių skaičiavimo įjungimas žurnalo pavadinimo lygyje
 
+1. Eikite į **Didžioji knyga \> Žurnalo nustatymas \> Žurnalo pavadinimai**.
+2. „FastTab“ **Bendra**, dalyje **PVM**, nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
-## <a name="enable-delayed-tax-calculation-by-journal-name"></a>Įjungti uždelstą mokesčių skaičiavimą pagal žurnalo pavadinimą
+![Žurnalų pavadinimų vaizdas](media/delayed-tax-calculation-journal-name.png)
 
-1. Eikite į **Didžioji knyga > Žurnalo nustatymas > Žurnalo pavadinimai**
-2. Sparčiajame skirtuke **Bendra** suraskite parametrą **Uždelstas mokesčių skaičiavimas** ir jį įjunkite arba išjunkite
+## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Atidėto mokesčių skaičiavimo įjungimas žurnalo antraštės lygyje
 
-![](media/delayed-tax-calculation-journal-name.png)
+1. Eikite į **Didžioji knyga \> Žurnalų įrašai \> Bendrieji žurnalai**.
+2. Pasirinkite **Naujas**.
+3. Pasirinkite žurnalo pavadinimą.
+4. Skirtuke **Sąranka** nustatykite parinkties **Uždelstas mokesčių skaičiavimas** reikšmę **Taip**.
 
-## <a name="enable-delayed-tax-calculation-by-journal"></a>Įjungti uždelstą mokesčių skaičiavimą pagal žurnalą
-
-1. Eikite į **Didžioji knyga > Žurnalo įrašai > Bendrieji žurnalai**
-2. Spustelėkite **Naujas**
-3. Pasirinkite žurnalo pavadinimą
-4. Spustelėkite **Sąranka**
-5. Suraskite parametrą **Uždelstas mokesčių skaičiavimas** ir jį įjunkite arba išjunkite
-
-![](media/delayed-tax-calculation-journal-header.png)
+![Bendrojo žurnalo puslapio vaizdas](media/delayed-tax-calculation-journal-header.png)

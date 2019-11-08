@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70bb8404c5b0e2422948d0b89311c384e3686710
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181087"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658695"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos
 
@@ -38,13 +38,42 @@ ms.locfileid: "2181087"
 > [!NOTE]
 > Pradedant nuo „Finance and Operations“ 2017 m. liepos mėn. leidimo su 8 platformos naujinimu, nurodytos visos įdiegčių tipų pašalintos arba nebenaudojamos funkcijos. Visi ankstesni šioje temoje paminėti leidimai palaikė tik įdiegtis debesyje.
 
-> Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
+Detalios informacijos apie „Finance and Operations“ objektus galite rasti [techninės informacijos ataskaitose](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ versijų.
 
+## <a name="finance-1007-with-platform-update-31"></a>„Finance“ 10.0.7 su „Platform update 31“
+
+### <a name="chinese-voucher-types-without-account-groups-selection"></a>Kinijos kvitų tipai be sąskaitų grupių pasirinkimo
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pakeista į funkciją su sąskaitų grupių pasirinkimu. |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Programos |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama: nuo 2020 m. gruodžio 1 d. planuojame nebepalaikyti Kinijos kvitų tipų nustatymų be sąskaitų grupių pasirinkimo. Daugiau informacijos apie naujai sukurtas funkcijas žr. „Kas naujo 10.0.7 versijoje“ |
 
 ## <a name="finance-and-operations-1006-with-platform-update-30"></a>„Finance and Operations 10.0.6“ su „Platform update 30”
 
-> [!IMPORTANT]
-> „Dynamics 365 for Finance and Operations 10.0.6“ su „Platform Update 30“ teikiamas tiksliniams vartotojams kaip peržiūros leidimo dalis. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](../../fin-and-ops/get-started/public-preview-releases.md).
+
+### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | „Windows“ nebenaudoja SHA1, kaip dokumentuota [„Windows“ sprendimas dėl SHA1 sertifikatų](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Programos |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama: nuo 2020 m. balandžio 1 d. programuotojai turi naudoti naująją API. |
+
+### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | „Windows“ nebenaudoja SHA1, kaip dokumentuota [„Windows“ sprendimas dėl SHA1 sertifikatų](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
+| **Pakeitė kita funkcija?**   | Taip |
+| **Paveiktos produkto sritys**         | Platforma |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Nebenaudojama: nuo 2020 m. balandžio 1 d. programuotojai turi naudoti naująją API. |
+
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
@@ -308,7 +337,7 @@ Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudoj
 ## <a name="finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>„Finance and Operations, Enterprise edition 7.3“ su „Platform update 12”
 
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
-Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](../../retail/personalized-product-recommendations.md).  
+Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Išsamesnės informacijos žr. [Produktų rekomendacijų apžvalga](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -413,7 +442,7 @@ Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 ## <a name="dynamics-365-for-retail-72"></a>„Dynamics 365 for Retail 7.2“
 
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
-Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Daugiau informacijos žr. [Personalizuotos produktų rekomendacijos](../../retail/personalized-product-recommendations.md).  
+Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Išsamesnės informacijos žr. [Produktų rekomendacijų apžvalga](../../../commerce/product-recommendations.md).  
 
 |   |  |
 |------------|--------------------|
@@ -445,7 +474,7 @@ Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kur
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos.       |
-| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Paveiktos produkto sritys**         | Sandėlio valdymas, transportavimo valdymas     |
 | **Visuotinio diegimo parinktis**              | Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui.               |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2019 m. 4 ketvirtis.   |
@@ -1215,7 +1244,7 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Produkto generatorius X++ kodą rodydavo galutiniams naudotojams ir dabartinėje „Dynamics AX“ versijoje nėra palaikomas. Jis pašalintas siekiant išvengti besidubliuojančių priežiūros darbų sutampančiose, keičiamo dydio kodų bazėse.  |
-| **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](../../supply-chain/pim/build-product-configuration-model.md). |
+| **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Paveiktos produkto sritys**         | Produktų informacijos valdymas, Pardavimas ir rinkodara  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.      |
 

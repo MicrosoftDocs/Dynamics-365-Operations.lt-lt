@@ -3,7 +3,7 @@ title: Atšaukimo registravimas žurnale
 description: Šioje temoje aprašomos galimybės, leidžiančios atšaukti kvitus iš kvitų operacijų sąrašo arba iš finansinių žurnalų.
 author: MikeFalkner
 manager: AnnBe
-ms.date: 08/01/2019
+ms.date: 10/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,51 +18,56 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a5456e60f1f3cee5f83ac7f725f7e01ba5bd7a1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: bc2ff30ef5d08759af700d683c207b0f5ed65d5b
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248590"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658980"
 ---
 # <a name="reverse-journal-posting"></a>Atšaukimo registravimas žurnale
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje aprašomos „Microsoft“ „Dynamics 365 Finance“ galimybės, leidžiančios atšaukti visą žurnalą arba atšaukti vieną ar keletą kvitų iš kvitų operacijų sąrašo, neatsižvelgiant į jų kilmę. 
+Šioje temoje aprašomos „Microsoft Dynamics 365 Finance“ galimybės, leidžiančios atšaukti visą žurnalą arba atšaukti vieną ar keletą kvitų iš kvitų operacijų sąrašo, neatsižvelgiant į jų kilmę. 
 
 ## <a name="reversing-journals"></a>Žurnalų atšaukimas
 
 Galite atšaukti atskiras žurnalo eilutes. Registruodami atšaukimą žurnale, taip pat galite atšaukti visą finansinį žurnalą. Atšaukite žurnalą, atlikę toliau pateikiamus veiksmus. 
-- Atidarykite finansinį žurnalą ir filtruokite užregistruotus žurnalus
-- Spustelėkite puslapio viršuje esantį meniu Atšaukti
+
+- Atidarykite finansinį žurnalą ir filtruokite paskelbtus žurnalus.
+- Pasirinkite puslapio viršuje esantį meniu **Atšaukti**.
 - Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių sumą
-- Pasirinkite Taip, jei norite, kad būtų naudojamos esamos operacijų datos, arba Ne, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs norite įvesti naują atšaukimo operacijos datą.
-- Jei pasirinkote Ne, įveskite atšaukimo operacijos datą. 
-- Įveskite komentarą, kurį norite įtraukti į atšaukimo operaciją
-- Spustelėkite mygtuką Atšaukti
+- Pasirinkite **Taip**, jei norite, kad būtų naudojamos esamos operacijų datos, arba **Ne**, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs turite įvesti naują atšaukimo operacijos datą.
+- Jei pasirinksite **Ne**, įveskite atšaukimo operacijos datą. 
+- Įveskite komentarą, kurį norite įtraukti į atšaukimo operaciją.
+- Paspauskite mygtuką **Atšaukti**.
 
 Operacijos bus atšauktos. 
 
-Jei kvitų eilučių skaičius viršija 100 eilučių, atšaukimo procesas bus vykdomas naudojant paketinį procesą. Galite peržiūrėti atšaukimo rezultatus peržiūrėję įvykdytos paketinės užduoties komentarus. Visos klaidos bus įtrauktos į paketinių užduočių retrospektyvą.
+Jei kvito eilučių skaičius viršija 100, atšaukimo procesas bus vykdomas naudojant paketinį procesą. Rezultatus galite peržiūrėti peržiūrėdami paketinės užduoties komentarus. Visos operacijos, kurių negalima atšaukti, bus įtrauktos į paketinės užduoties retrospektyvą.
 
-Jei kvitų eilučių skaičius neviršija 100 eilučių, atšaukimo procesas bus vykdomas nedelsiant. Rezultatai bus pateikti dialogo lange, kuriame rodomi visi kvitai, kurių nepavyko atšaukti, ir priežastys, dėl kurių nepavyko atšaukti. Spustelėję Gerai, užverkite dialogo langą.
+Jei kvito eilučių skaičius neviršija 100 eilučių, atšaukimo procesas bus vykdomas nedelsiant. Rezultatai bus pateikti dialogo lange, kuriame rodomi visi kvitai, kurių nepavyko atšaukti, kartu su priežastimis, dėl kurių nepavyko atšaukti. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
 
 ## <a name="reversing-vouchers-from-the-voucher-transaction-list"></a>Kvitų atšaukimas kvitų operacijų sąraše. 
 
 Kvitus taip pat galite atšaukti **Kvitų operacijų sąraše** visose papildomose knygose. Be to, vienu metu galite atšaukti keletą kvitų. 
 
 Norėdami atšaukti vieną ar daugiau kvitų, atlikite toliau pateikiamus veiksmus. 
-- Spustelėkite puslapio viršuje esantį meniu Atšaukti
-- Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių sumą
-- Pasirinkite Taip, jei norite, kad būtų naudojamos esamos operacijų datos, arba Ne, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs norite įvesti naują atšaukimo operacijos datą.
-- Jei pasirinkote Ne, įveskite atšaukimo operacijos datą. 
-- Įveskite komentarą, kurį norite įtraukti į atšaukimo operaciją
-- Spustelėkite mygtuką Atšaukti
+
+- Pasirinkite puslapio viršuje esantį meniu **Atšaukti**
+- Matysite bendrą kvitų ir kvitų eilučių skaičių, taip pat bendrą atšaukiamų eilučių kiekį.
+- Pasirinkite **Taip**, jei norite, kad būtų naudojamos esamos operacijų datos, arba **Ne**, kad įvestumėte naują. Kai kuriais atvejais pradinės operacijos laikotarpis gali būti uždarytas, o jūs turite įvesti naują operacijos datą, kad ją atšauktumėte.
+- Jei pasirinksite **Ne**, įveskite atšaukimo operacijos datą. 
+- Įveskite komentarą, kad aprašytumėte atšaukimo operaciją.
+- Paspauskite mygtuką **Atšaukti**.
 
 Operacijos bus atšauktos. 
 
-Jei kvitų eilučių skaičius viršija 100 eilučių, atšaukimo procesas bus vykdomas naudojant paketinį procesą. Galite peržiūrėti atšaukimo rezultatus peržiūrėję įvykdytos paketinės užduoties komentarus. Visos klaidos bus įtrauktos į paketinių užduočių retrospektyvą.
+Jei kvito eilučių skaičius viršija 100 eilučių, atšaukimo procesas bus vykdomas naudojant paketinį procesą. Rezultatus galite peržiūrėti peržiūrėdami paketinės užduoties komentarus. Visos operacijos, kurių negalima atšaukti, bus įtrauktos į paketinės užduoties retrospektyvą.
 
-Jei kvitų eilučių skaičius neviršija 100 eilučių, atšaukimo procesas bus vykdomas nedelsiant. Rezultatai bus pateikti dialogo lange, kuriame rodomi visi kvitai, kurių nepavyko atšaukti, ir priežastys, dėl kurių nepavyko atšaukti. Spustelėję Gerai, užverkite dialogo langą.
+Jei kvito eilučių skaičius neviršija 100 eilučių, atšaukimo procesas bus vykdomas nedelsiant. Rezultatai bus rodomi dialogo lange, kuriame rodomi visi kvitai, kurių nepavyko atšaukti, kartu su priežastimis. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+
+Operacijas galima atšaukti tik tuo atveju, jei jos atitinka atšaukimui taikomas verslo taisykles. Tiekėjo mokėjimų negalima atšaukti naudojant šioje temoje aprašytą funkciją. Tiekėjo mokėjimai turi būti atšaukiami atliekant veiksmus, aprašytus [Tiekėjo mokėjimo atšaukimas](https://docs.microsoft.com/en-us/dynamics365/finance/accounts-payable/reverse-vendor-payment).
 

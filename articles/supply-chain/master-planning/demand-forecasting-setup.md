@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdfc5eda1ebf78abe823908324ed9c35215e562e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c689df9b00ad2d4ce161c6fdb1193f48cacbfcbc
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249577"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653516"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -72,7 +72,7 @@ Ne visos prekių elgsena prognozuojant poreikį vienoda. Panašias prekes galima
 
 **Pastaba:** „Azure“ saugyklos abonemento pavadinimas ir raktas yra privalomi tik jei naudojate pasirinktinį saugyklos abonementą. Jei diegiate vietinę versiją, privalote turėti pasirinktinį „Azure“ saugyklos abonementą, kad mašininio mokymo tarnyba galėtų pasiekti retrospektyvinius duomenis. 
 
-Norėdami kurti poreikio prognozes, galite įdiegti savo tarnybą naudodami mašininio mokymo studiją arba „Supply Chain Management“ poreikio prognozės bandymus. Poreikio prognozės bandymų kaip tinklo tarnybos diegimo instrukcijos pateikiamos „Finance and Operations“. Puslapyje **Poreikio prognozės parametrai** spustelėkite skirtuką **„Azure“ mašininis mokymas**.
+Norėdami kurti poreikio prognozes, galite įdiegti savo tarnybą naudodami mašininio mokymo studiją arba „Supply Chain Management“ poreikio prognozės bandymus. Poreikio prognozės bandymų kaip tinklo tarnybos diegimo instrukcijos pateikiamos „Supply Chain Management“. Puslapyje **Poreikio prognozės parametrai** spustelėkite skirtuką **„Azure“ mašininis mokymas**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Poreikio prognozės mašininio mokymo tarnybos parametrai
 Norėdami peržiūrėti poreikio prognozės tarnybos parametrus, kuriuos galima konfigūruoti, pasirinkite **Bendrasis planavimas** &gt; **Sąranka** &gt; **Poreikio prognozė** &gt; **Prognozavimo algoritmo parametrai**. Puslapyje **Prognozavimo algoritmo parametrai** rodomos numatytosios parametrų reikšmės. Šiuos parametrus galima perrašyti puslapyje **Poreikio prognozės parametrai**. Naudokite skirtuką **Bendra**, jei parametrus norite perrašyti skirtuke visuotinai, arba naudokite skirtuką **Prekių paskirstymo raktai**, jei norite perrašyti konkrečių prekių paskirstymo raktų parametrus. Perrašyti konkretaus prekių paskirstymo rakto parametrai turi įtakos tik su tuo prekių paskirstymo raktu susietų prekių prognozei.

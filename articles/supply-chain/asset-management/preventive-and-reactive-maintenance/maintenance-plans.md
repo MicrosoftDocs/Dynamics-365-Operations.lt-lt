@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4e9dca4b9b163e73c33ec2dc88b8aea2cecd9bef
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 5f88c681eecbd630902c6087b910bd6880b39673
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922211"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571351"
 ---
 # <a name="maintenance-plans"></a>Priežiūros planai
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Priežiūros planas – tai iš anksto suplanuotos prevencinės priežiūros užduoties vykdymas turtui. Priežiūros planai gali būti susiję su turtu, turto tipais, funkcinėmis vietomis arba funkcinių vietų tipais, tačiau pirmiausiai turite sukurti priežiūros planus, kurie bus naudojami jūsų įmonėje.
 

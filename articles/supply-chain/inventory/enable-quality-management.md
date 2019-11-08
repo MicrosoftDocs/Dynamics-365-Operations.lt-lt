@@ -3,7 +3,7 @@ title: Kokybės valdymo peržiūra
 description: Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Dynamics 365 Supply Chain Management“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9600e165da76948bb53a0188ec0b212a0fed84a
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: ba38f9c43fed81768155a27dda88a4bfb4a7828e
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249590"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653561"
 ---
 # <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
 
@@ -32,7 +32,7 @@ ms.locfileid: "2249590"
 
 Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Dynamics 365 Supply Chain Management“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 
-Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnozės tipai yra susiję su koregavimo ataskaitomis, „Finance and Operations‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
+Kokybės valdymas gali padėti valdyti apgręžimo laiką tvarkant neatitinkančius produktus, neatsižvelgiant į kilmę. Kadangi diagnostikos tipai yra susiję su koregavimo ataskaitomis, „Supply Chain Management‟ gali planuoti užduotis ir jomis taisyti problemas bei neleisti joms pasikartoti.
 
 Be funkcijų, skirtų valdyti neatitikimui, kokybės valdymas apima funkcijas, skirtas problemoms sekti pagal jų tipą (net vidaus problemoms) ir sprendimams identifikuoti kaip trumpalaikiams ar ilgalaikiams. Statistika apie pagrindinius našumo indikatorius (KPI) teikia įžvalgų apie ankstesnių neatitikimo problemų istoriją ir sprendimus, kurie buvo naudojami joms taisyti. Galite naudoti praeities duomenis ir peržiūrėti ankstesnių kokybės priemonių efektyvumą bei nustatyti tinkamas priemones, kurios bus naudojamos ateityje.
 
@@ -294,6 +294,256 @@ Toliau pateiktoje lentelėje pateikiama daugiau informacijos apie tai, kaip gali
 </tbody>
 </table>
 
+## <a name="quality-order-auto-generation-examples"></a>Kokybės užsakymo automatinio generavimo pavyzdžiai
+
+### <a name="purchasing"></a>Pirkimas
+
+Pirkdami, jei nustatėte lauko **Įvykio tipas** reikšmę **Gavimo dokumentas** ir lauko **Vykdymas** reikšmę **Po**, puslapyje **Kokybės susiejimai** gausite šiuos rezultatus: 
+
+- Jei nustatyta parinkties **Pagal atnaujintą kiekį** reikšmė **Taip**, kokybės užsakymas generuojamas kiekvienam dokumentui pagal pirkimo užsakymą, remiantis gautu kiekiu ir prekės pavyzdžių ėmimo parametrais. Kiekvieną kartą, kai pagal pirkimo užsakymą gaunamas kiekis, remiantis naujai gautu kiekiu generuojami nauji kokybės užsakymai.
+- Jei nustatyta parinkties **Pagal atnaujintą kiekį** reikšmė **Ne**, kokybės užsakymas generuojamas pirmajam dokumentui pagal pirkimo užsakymą, remiantis gautu kiekiu. Be to, remiantis likusiu kiekiu kuriamas vienas ar daugiau kokybės užsakymų, atsižvelgiant į sekimo dimensijas. Kokybės užsakymai negeneruojami vėlesniems kvitams pagal pirkimo užsakymą.
+
+<table>
+<tbody>
+<tr>
+<th>Kokybės specifikacija</th>
+<th>Pagal atnaujintą kiekį</th>
+<th>Pagal sekimo dimensiją</th>
+<th>Rezultatas</th>
+</tr>
+<tr>
+<td>Procentinė reikšmė: 10 %</td>
+<td>Taip</td>
+<td>
+<p>Paketo numeris: ne</p>
+<p>Serijos numeris: ne</p>
+</td>
+<td>
+<p>Užsakymo kiekis: 100</p>
+<ol>
+<li>Paskelbti kaip baigtą 30
+<ul>
+<li>Kokybės užsakymas #1, skirtas 3 (10 % iš 30)</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 70
+<ul>
+<li>Kokybės užsakymas #2, skirtas 7 (10 % likusio užsakymo kiekio, kuris šiuo atveju yra lygus 70)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksuotas kiekis: 1</td>
+<td>Ne</td>
+<td>
+<p>Paketo numeris: ne</p>
+<p>Serijos numeris: ne</p>
+</td>
+<td>Užsakymo kiekis: 100
+<ol>
+<li>Paskelbti kaip baigtą 30
+<ul>
+<li>Kokybės užsakymas #1 sukuriamas 1 (pirmajam paskelbtam baigtu kiekiui, kuris turi 1 fiksuotą vertę).</li>
+<li>Likusiam kiekiui daugiau kokybės užsakymų nekuriama.</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 10
+<ul>
+<li>Nėra sukurtų kokybės užsakymų.</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 60
+<ul>
+<li>Nėra sukurtų kokybės užsakymų.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksuotas kiekis: 1</td>
+<td>Taip</td>
+<td>
+<p>Paketo numeris: taip</p>
+<p>Serijos numeris: taip</p>
+</td>
+<td>
+<p>Užsakymo kiekis: 10</p>
+<ol>
+<li>Paskelbti kaip baigtą 3
+<ul>
+<li>Kokybės užsakymas #1, skirtas 1, paketo #b1, serijos #s1</li>
+<li>Kokybės užsakymas #2, skirtas 1, paketo #b2, serijos #s2</li>
+<li>Kokybės užsakymas #3, skirtas 1, paketo #b3, serijos #s3</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 2
+<ul>
+<li>Kokybės užsakymas #4, skirtas 1, paketo #b4, serijos #s4</li>
+<li>Kokybės užsakymas #5, skirtas 1, paketo #b5, serijos #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Pastaba:</strong> paketą galima naudoti pakartotinai.</p>
+</td>
+</tr>
+<tr>
+<td>Fiksuotas kiekis: 2</td>
+<td>Ne</td>
+<td>
+<p>Paketo numeris: taip</p>
+<p>Serijos numeris: taip</p>
+</td>
+<td>
+<p>Užsakymo kiekis: 10</p>
+<ol>
+<li>Paskelbti kaip baigtą 4
+<ul>
+<li>Kokybės užsakymas #1, skirtas 1, paketo #b1, serijos #s1.</li>
+<li>Kokybės užsakymas #2, skirtas 1, paketo #b2, serijos #s2.</li>
+<li>Kokybės užsakymas #3, skirtas 1, paketo #b3, serijos #s3.</li>
+<li>Kokybės užsakymas #4, skirtas 1, paketo #b4, serijos #s4.</li>
+<li>Likusiam kiekiui daugiau kokybės užsakymų nekuriama.</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 6
+<ul>
+<li>Nėra sukurtų kokybės užsakymų.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
+### <a name="production"></a>Gamyba
+
+Gamybos aplinkoje, jei nustatėte lauko **Įvykio tipas** reikšmę **Gavimo dokumentas** ir lauko **Skelbti baigtu** reikšmę **Po**, puslapyje **Kokybės susiejimai** gausite šiuos rezultatus:
+
+- Jei nustatyta parinkties **Pagal atnaujintą kiekį** reikšmė **Taip**, kokybės užsakymas generuojamas kiekvienam baigtam kiekiui ir pagal prekės pavyzdžių ėmimo parametrus. Kiekvieną kartą, kai pagal gamybos užsakymą kiekis paskelbiamas baigtu, remiantis naujai baigtu kiekiu generuojami nauji kokybės užsakymai. Ši generavimo logika atitinka pirkimą.
+- Jei nustatyta parinkties **Pagal atnaujintą kiekį** reikšmė **Ne**, kokybės užsakymas generuojamas pirmą kartą, kai kiekis paskelbiamas baigtu, remiantis baigtu kiekiu. Be to, remiantis likusiu kiekiu kuriamas vienas ar daugiau kokybės užsakymų, atsižvelgiant į prekės pavyzdžių ėmimo sekimo dimensijas. Kokybės užsakymai negeneruojami vėliau baigtiems kiekiams.
+
+<table>
+<tbody>
+<tr>
+<th>Kokybės specifikacija</th>
+<th>Pagal atnaujintą kiekį</th>
+<th>Pagal sekimo dimensiją</th>
+<th>Rezultatas</th>
+</tr>
+<tr>
+<td>Procentinė reikšmė: 10 %</td>
+<td>Taip</td>
+<td>
+<p>Paketo numeris: ne</p>
+<p>Serijos numeris: ne</p>
+</td>
+<td>
+<p>Užsakymo kiekis: 100</p>
+<ol>
+<li>Paskelbti kaip baigtą 30
+<ul>
+<li>Kokybės užsakymas #1, skirtas 3 (10 % iš 30)</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 70
+<ul>
+<li>Kokybės užsakymas #2, skirtas 7 (10 % likusio užsakymo kiekio, kuris šiuo atveju yra lygus 70)</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksuotas kiekis: 1</td>
+<td>Ne</td>
+<td>
+<p>Paketo numeris: ne</p>
+<p>Serijos numeris: ne</p>
+</td>
+<td>Užsakymo kiekis: 100
+<ol>
+<li>Paskelbti kaip baigtą 30
+<ul>
+<li>Kokybės užsakymas #1, skirtas 1 (pirmajam paskelbtam baigtu kiekiui, kuris turi 1 fiksuotą vertę)</li>
+<li>Kokybės užsakymas #2, skirtas 1 (likusiam kiekiui, kuris vis dar turi 1 fiksuotą vertę)</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 10
+<ul>
+<li>Nėra sukurtų kokybės užsakymų.</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 60
+<ul>
+<li>Nėra sukurtų kokybės užsakymų.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+<tr>
+<td>Fiksuotas kiekis: 1</td>
+<td>Taip</td>
+<td>
+<p>Paketo numeris: taip</p>
+<p>Serijos numeris: taip</p>
+</td>
+<td>
+<p>Užsakymo kiekis: 10</p>
+<ol>
+<li>Paskelbti kaip baigtą 3: 1, skirta #b1, #s1; 1, skirta #b2, #s2; 1, skirta #b3, #s3
+<ul>
+<li>Kokybės užsakymas #1, skirtas 1, paketo #b1, serijos #s1</li>
+<li>Kokybės užsakymas #2, skirtas 1, paketo #b2, serijos #s2</li>
+<li>Kokybės užsakymas #3, skirtas 1, paketo #b3, serijos #s3</li>
+</ul>
+</li>
+<li>Paskelbti kaip baitą 2: 1, skirta #b4, #s4; 1, skirta #b5, #s5
+<ul>
+<li>Kokybės užsakymas #4, skirtas 1, paketo #b4, serijos #s4</li>
+<li>Kokybės užsakymas #5, skirtas 1, paketo #b5, serijos #s5</li>
+</ul>
+</li>
+</ol>
+<p><strong>Pastaba:</strong> paketą galima naudoti pakartotinai.</p>
+</td>
+</tr>
+<tr>
+<td>Fiksuotas kiekis: 2</td>
+<td>Ne</td>
+<td>
+<p>Paketo numeris: taip</p>
+<p>Serijos numeris: taip</p>
+</td>
+<td>
+<p>Užsakymo kiekis: 10</p>
+<ol>
+<li>Paskelbti kaip baigtą 4: 1, skirta #b1, #s1; 1, skirta #b2, #s2; 1, skirta #b3, #s3; 1, skirta #b4, #s4
+<ul>
+<li>Kokybės užsakymas #1, skirtas 1, paketo #b1, serijos #s1</li>
+<li>Kokybės užsakymas #2, skirtas 1, paketo #b2, serijos #s2</li>
+<li>Kokybės užsakymas #3, skirtas 1, paketo #b3, serijos #s3</li>
+<li>Kokybės užsakymas #4, skirtas 1, paketo #b4, serijos #s4</li>
+</ul>
+<ul>
+<li>Kokybės užsakymas #5, skirtas 2, be nuorodos į paketą ir serijos numerį</li>
+</ul>
+</li>
+<li>Paskelbti kaip baigtą 6: 1, skirta #b5, #s5, 1, skirta #b6, #s6; 1, skirta #b7, #s7; 1, skirta #b8, #s8; 1, skirta #b9, #s9; 1, skirta #b10, #s10
+<ul>
+<li>Nėra sukurtų kokybės užsakymų.</li>
+</ul>
+</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+
 ## <a name="quality-management-pages"></a>Kokybės valdymo puslapiai
 <table>
 <colgroup>
@@ -304,7 +554,7 @@ Toliau pateiktoje lentelėje pateikiama daugiau informacijos apie tai, kaip gali
 <thead>
 <tr class="header">
 <th>Puslapis</th>
-<th>Prekės/Paslaugos pavadinimas</th>
+<th>Aprašymas</th>
 <th>Pavyzdys</th>
 </tr>
 </thead>

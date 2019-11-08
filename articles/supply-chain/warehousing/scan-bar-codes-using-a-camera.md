@@ -1,6 +1,6 @@
 ---
-title: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 Supply Chain Management“ – Sandėliavimo programa
-description: Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 Supply Chain Management“ – Sandėliavimo programą, kad būtų galima nuskaityti brūkšninius kodus naudojant mobiliojo įrenginio kamerą.
+title: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“ – Sandėliavimo programa
+description: Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 for Finance and Operations“ – Sandėliavimo programą, kad būtų galima nuskaityti brūkšninius kodus naudojant mobiliojo įrenginio kamerą.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 01/03/2018
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8062a981f792bcfed2713d3cb6a42f414394f6a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58cf27a250778d68bdffa1eefa5e939276e467fc
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251471"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578154"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 Supply Chain Management“ – Sandėliavimo programa
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 Supply Chain Management“ – Sandėliavimo programą, kad būtų galima nuskaityti brūkšninius kodus naudojant mobiliojo įrenginio kamerą. 
+Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 for Finance and Operations“ – Sandėliavimo programą, kad būtų galima nuskaityti brūkšninius kodus naudojant mobiliojo įrenginio kamerą. 
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 Norėdami naudoti šią funkciją, turite įsidiegti Sandėliavimo programos 1.2.0.0 versiją ir jūsų įrenginyje turi būti kamera. Atidarę programą po atnaujinimo, būsite paraginti leisti programai naudoti kamerą. Jei įrenginyje kameros nėra, raginimas nebus rodomas ir negalėsite naudoti kameros kaip skaitytuvo. 
@@ -49,7 +49,7 @@ Kameros puslapis bus paleistas kiekviename puslapyje, kurio įvesties lauke kaip
 
 | Užduočių ir informacijos puslapis | Kameros puslapis | 
 | :---------------------: | :--------------------: |
-| ![camera-scanning-example-task-detail-page](./media/camera-scanning-example-task-detail-page50.png)          | ![camera-scanning-example-camera-page-smaller](./media/camera-scanning-example-camera-page50.png)          |
+| ![Kameros nuskaitymo užduočių informacijos puslapio pavyzdys](./media/camera-scanning-example-task-detail-page50.png)          | ![Kameros nuskaitymo kameros mažesnio puslapio pavyzdys](./media/camera-scanning-example-camera-page50.png)          |
 
 Kameros puslapyje spustelėjus kameros mygtuką, jis bus rodomas blankesne spalva, kai bus bandoma identifikuoti brūkšninį kodą. Jei per 5 sekundes brūkšninis kodas nebus identifikuotas, procesas bus sustabdytas ir vėl bus galima naudoti kameros mygtuką. Tada galėsite bandyti nuskaityti brūkšninį kodą dar kartą.
 

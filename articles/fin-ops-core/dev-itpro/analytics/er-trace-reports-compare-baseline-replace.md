@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a260be0f8659106907b26bf69bee3b33b09d0c24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1e144e2623f3ddfafaee749bb334de40ef5aec1b
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181340"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578223"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
 
@@ -71,9 +71,6 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 5. Lauke **Įveskite ID** įveskite **1**.
 6. Nustatykite parinkties **Kurti pagrindinės informacijos failus** reikšmę kaip **Taip**.
 7. Pasirinkite **Gerai**.
-
-    ![Elektroninių ataskaitų parametrų dialogo langas](media/GER-BaselineSample-FormatRunToMakeBaselineFile3.PNG "Elektroninių ataskaitų parametrų dialogo lango ekrano kopija")
-
 8. Pasirinkite **Pagrindinė informacija**.
 
     ![Elektroninių ataskaitų formato pagrindinės informacijos puslapis](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Elektroninių ataskaitų formato pagrindinės informacijos puslapio ekrano kopija")
@@ -140,9 +137,6 @@ Norėdami atlikti šiame pavyzdyje nurodytus veiksmus, pirmiausia turite atlikti
 
 1. Puslapio **Konfigūracijos** „FastTab“ **Pakeitimai** pasirinkite **Pasirinkite komponentus**.
 2. Formato komponentų medyje išplėskite **Išvestis**, išplėskite **Išvestis\\Dokumentas**, tada pažymėkite žymės langelį **Išvestis\\Dokumentas\\ProcessingDateTime**.
-
-    ![Komponentų pasirinkimo dialogo langas](media/GER-BaselineSample-SelectComponentForBindingReplacement.PNG "Komponentų pasirinkimo dialogo lango ekrano kopija")
-
 3. Pasirinkite **Gerai**.
 
 ![Elektroninių ataskaitų formato pagrindinės informacijos puslapis](media/GER-BaselineSample-AddBaseline4.PNG "Elektroninių ataskaitų formato pagrindinės informacijos puslapio ekrano kopija")
@@ -162,19 +156,14 @@ Nustatydami tam tikrus ER parametrus, galite paslėpti pranešimus, įspėjanči
 1. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos** pasirinkite **Vartotojo parametrai**.
 2. Nustatykite parinkties **Slėpti pagrindinės informacijos įspėjimus** reikšmę kaip **Taip**, tada pasirinkite **Gerai**.
 
-![Vartotojo parametrų dialogo langas](media/GER-BaselineSample-ERUserParameters1.png "Vartotojo parametrų dialogo lango ekrano kopija")
-
 ### <a name="review-the-generated-baseline-file"></a>Peržiūrėkite sugeneruotą pagrindinės informacijos failą
 
 1. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Konfigūracijos**.
 2. Pasirinkite **Pagrindinė informacija**.
 3. Pasirinkite **Priedai**.
-
-    ![Priedų puslapis](media/GER-BaselineSample-AttachedBaselineFile.PNG "Priedų puslapio ekrano kopija")
-
     > [!NOTE]
     > Sugeneruotame faile yra vykdymo datos ir laiko tekstas (**#**) iš susiejimo, kuris buvo sukonfigūruotas įtrauktoje pagrindinėje taisyklėje, o ne iš formato susiejimo.
-
+    
 4. Uždarykite puslapį **Priedai**.
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Vykdyti sukurtą ER formatą ir peržiūrėti žurnalą, kad būtų išanalizuoti rezultatai

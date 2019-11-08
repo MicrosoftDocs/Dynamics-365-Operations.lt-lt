@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f91faa03718830474e8e2a79015955bcad1d02e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6ecdece43b9d609e70e385dc5c3ec70b82f582ab
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249973"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653676"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -35,7 +35,7 @@ ms.locfileid: "2249973"
 <a name="overview"></a>Apžvalga
 --------
 
-Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžimą „Finance and Operations“ sudaro keturi skirtingi elementai, kurie visi kartu apibūdina gamybos procesą.
+Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžimą „Supply Chain Management“ sudaro keturi skirtingi elementai, kurie visi kartu apibūdina gamybos procesą.
 
 -   **Maršrutas** – maršrutas apibrėžia gamybos proceso struktūrą. Kitaip tariant, jis apibūdina operacijų seką.
 -   **Operacija** – operacija identifikuoja įvardintą veiksmą, pvz., **Surinkimas**. Ta pati operacija gali atsirasti keliuose maršrutuose ir gali turėti skirtingus operacijos numerius,

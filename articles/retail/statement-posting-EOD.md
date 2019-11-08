@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8c22137ad29bf947bc7a9e4c9a4d1332e03b1298
-ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
+ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/27/2019
-ms.locfileid: "1606969"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653376"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
 
@@ -37,7 +37,7 @@ Pagal numatytuosius nustatymus, diegiant programą „Finance and Operations 7.3
 
 Įjungus naują srities **Mažmeninės prekybos išrašai** konfigūracijos raktą galima naudotis nauju meniu elementu, kurio pavadinimas **Mažmeninės prekybos išrašai**. Naudodamiesi šiuo meniu elementu galite patys sukurti, apskaičiuoti ir registruoti išrašus. Naudojantis šiuo meniu elementu taip pat bus galima matyti visus vykdant paketinį registravimą klaidas sukeliančius išrašus. (Įjungus srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktą meniu elemento pavadinimas **Atviri išrašai**.)
 
-Naudojantis programa „Finance and Operations“ atliekami toliau nurodyti su šiais konfigūracijos raktais siejami tikrinimai.
+Naudojantis „Retail“ atliekami toliau nurodyti su šiais konfigūracijos raktais siejami tikrinimai:
 
 - Abiejų konfigūracijos raktų negalima įjungti tuo pačiu metu.
 - Visoms atliekamoms nurodyto galiojančio išrašo operacijoms (kūrimo, skaičiavimo, naikinimo, registravimo ir t. t.) turi būti naudojami tie patys konfigūracijos raktai. Pavyzdžiui, kai įjungtas srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktas, negalite kurti ir skaičiuoti išrašo, o po to bandyti užregistruoti tą patį išrašą įjungę srities **Mažmeninės prekybos išrašai** konfigūracijos raktą.
