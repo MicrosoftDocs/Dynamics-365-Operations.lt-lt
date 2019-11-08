@@ -18,20 +18,22 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b6fad4d57b8e08c839ac0ffac2324c02304335ef
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 953c4bb17329205c5d8d14b6570a6bac152e9320
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887233"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652154"
 ---
 # <a name="schedule-work-orders"></a>Planuoti darbo užsakymus
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
-Šioje temoje paaiškinta, kaip planuoti darbo užsakymus modulyje Turto valdymas. Darbo užsakymui reikalingas valandų skaičius nustatomas iš darbo užsakymo užduočių prognozuojamų valandų sumos atėmus paskelbtas valandas. Jei reikia daugiau laiko, reikia atitinkamai koreguoti darbo užsakymo prognozę. Srityje **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai** galite peržiūrėti arba redaguoti prognozes apie darbo užsakymą pasirinkdami darbo užsakymą ir skirtuke **Darbo užsakymas** spustelėję **Prognozė**. Sukūrus ir numačius darbo užsakymus kitas veiksmas – paskirti darbo užsakymams atlikti reikalingus priežiūros darbuotojus ir įrankius.
+Šioje temoje paaiškinta, kaip planuoti darbo užsakymus modulyje Turto valdymas. 
+
+Darbo užsakymui reikalingas valandų skaičius nustatomas iš prognozuojamų valandų sumos atėmus paskelbtas valandas. Jei reikia daugiau laiko, reikia atitinkamai koreguoti prognozę. Srityje **Turto valdymas** > **Bendra** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai** galite peržiūrėti arba redaguoti prognozes apie darbo užsakymą pasirinkdami darbo užsakymą ir skirtuke **Darbo užsakymas** spustelėję **Prognozė**. Sukūrus ir įvertinus darbo užsakymus, kitas veiksmas užbaigiant darbo užsakymus yra paskirti reikalingus priežiūros darbuotojus ir įrankius.
 
 Galima planuoti tik darbo užsakymus, kurių darbo užsakymo ciklo būsena leidžia planavimą. Planavimo leidimas nustatomas srityje **Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Ciklo būsenos** > **„FastTab“ Bendra** > perjungimo mygtukas **Leisti planavimą**.
 
@@ -43,8 +45,8 @@ Galima planuoti tik darbo užsakymus, kurių darbo užsakymo ciklo būsena leid�
 
 4. Dialogo lange **Planuoti darbo užsakymus**, jei reikia, galite pasirinkti parametrus, susijusius su numatoma pradžios data ir aptarnavimo lygiu. Jei planavimo proceso metu reikia atsižvelgti į pajėgumo apribojimus, susijusius su jau suplanuotais kitų užduočių ištekliais, įsitikinkite, kad perjungimo mygtukai **Turtas**, **Įrankis** ir **Darbuotojas** yra nustatyti į „Taip“.
 
->[!NOTE]
->Jei perjungimo mygtukus **Turtas**, **Įrankis** ir **Darbuotojas** nustatysite į „Ne“, bus nepaisoma esamų rezervavimų. Sistemos pranešime bus rodomas persidengiančių darbo užsakymų grafikų sąrašas ir, jei reikia, galite spustelėti pranešimus, kad atidarytumėte darbo užsakymą ir jį suplanuotumėte iš naujo.
+    [!NOTE]
+    Jei perjungimo mygtukus **Turtas**, **Įrankis** ir **Darbuotojas** nustatysite į „Ne“, bus nepaisoma esamų rezervavimų. Sistemos pranešime bus rodomas persidengiančių darbo užsakymų grafikų sąrašas ir, jei reikia, galite spustelėti pranešimus, kad atidarytumėte darbo užsakymą ir jį suplanuotumėte iš naujo.
 
 5. Norėdami peržiūrėti išsamią informaciją apie planavimo procesą, perjungimo mygtuke **Daugiažodis** pasirinkite „Taip“. Tai reiškia, kad išsami informacija apie darbo užsakymų ir priežiūros darbuotojų apskaičiuotus rezultatus bus rodoma sistemos pranešime.
 
@@ -114,5 +116,7 @@ Vertinimo rezultatai, susiję su apskaičiavimu, kurie priežiūros darbuotojai 
 
 ## <a name="competencies-used-in-work-order-scheduling"></a>Planuojant darbo užsakymus naudojamos kompetencijos
 
-Galima nustatyti priežiūros užduočių tipų (**Išteklių valdymas** > **Sąranka** > **Užduotys** > **Priežiūros užduočių tipai**) ir priežiūros užduočių profesijų (**Turto valdymas** > **Sąranka** > **Užduotys** > **Priežiūros užduoties profesija**) įgūdžių ir liudijimų reikalavimus. Priežiūros užduočių tipai ir priežiūros užduočių profesijos pasirenkamos darbo užsakymo užduotyse. Jei buvo pasirinkti priežiūros užduoties tipo ar priežiūros užduoties profesijos įgūdžiai ar liudijimai, o tas priežiūros užduoties tipas ar priežiūros užduoties profesija naudojama darbo užsakymo užduotyje, tame darbo užsakyme suplanuojami dirbti tik priežiūros darbuotojai su atitinkančiais įgūdžiais ir liudijimais.
+Galima nustatyti priežiūros užduočių tipų (**Išteklių valdymas** > **Sąranka** > **Užduotys** > **Priežiūros užduočių tipai**) ir priežiūros užduočių profesijų (**Turto valdymas** > **Sąranka** > **Užduotys** > **Priežiūros užduoties profesija**) įgūdžių ir liudijimų reikalavimus. 
+
+Priežiūros užduočių tipai ir priežiūros užduočių profesijos pasirenkamos darbo užsakymo užduotyse. Jei buvo pasirinkti priežiūros užduoties tipo ar priežiūros užduoties profesijos įgūdžiai ar liudijimai, o tas priežiūros užduoties tipas ar priežiūros užduoties profesija naudojama darbo užsakymo užduotyje, tame darbo užsakyme suplanuojami dirbti tik priežiūros darbuotojai su atitinkančiais įgūdžiais ir liudijimais.
 
