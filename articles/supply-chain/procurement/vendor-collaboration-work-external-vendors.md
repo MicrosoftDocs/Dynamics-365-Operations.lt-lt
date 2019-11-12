@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b38fb087fb572362c27e747e7909060c55a242a4
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250212"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653607"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
@@ -190,7 +190,7 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 Tiekėjams nereikia patvirtinti PU naudojant tiekėjų bendradarbiavimo sąsają. Jie taip pat gali nusiųsti el. laišką arba apie PU patvirtinimą paskelbti kitais kanalais. Tada galite neautomatiškai patvirtinti užsakymą. Tokiu atveju gausite įspėjimą, kad užsakymas patvirtinamas, nors nėra jokio atsakymo iš tiekėjo. Tada PU rodomas patvirtinimo istorijoje kaip atviras patvirtintas užsakymas, neturintis jokių atsakymų. Šiuo metu tiekėjas nebegali PU patvirtinti arba atmesti.
 
 > [!NOTE]
-> PU versija, kurią gali naudoti kiti „Finance and Operations“ procesai, visada yra naujausia, net jei ta versija tiekėjų bendradarbiavimo sąsajoje dar neužregistruota.
+> PU versija, kurią gali naudoti kiti „Supply Chain Management“ procesai, visada yra naujausia, net jei ta versija tiekėjų bendradarbiavimo sąsajoje dar neužregistruota.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versijos ir būsenos, jei naudojate pakeitimų valdymo funkcijos
 

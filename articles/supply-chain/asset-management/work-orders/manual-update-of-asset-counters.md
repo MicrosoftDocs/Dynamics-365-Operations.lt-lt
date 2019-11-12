@@ -3,7 +3,7 @@ title: Neautomatinis turto skaitiklių atnaujinimas
 description: Šioje temoje aprašomas turto skaitiklių naujinimas rankiniu būdu skiltyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,47 +16,51 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7c5ec288404c18b00f9dcd0e66f50744d0aa2f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 3072ab204b53b16988d2973b28a697041cb84c27
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875800"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626142"
 ---
 # <a name="manual-update-of-asset-counters"></a>Neautomatinis turto skaitiklių atnaujinimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
-Skaitikliai naudojami kuriant turto registracijas, pvz., operacijos valandų skaičių arba pagamintų kiekių skaičių.
+Skaitikliai naudojami norint sukurti turto registracijas, pvz., registracijas apie turto operacijos valandų skaičių arba pagaminamą kiekį.
 
-Jei skaitikliui parinktas skaitiklio tipas nustatytas perimti skaitiklio reikšmes (**Turto valdymas** > **Sąranka** > **Turto tipai** > **Skaitikliai** > **Bendra** „FastTab“ > **Perimti turto skaitiklio vertes** perjungiklis nustatytas į Taip), tada, kai kursite to tipo naują skaitiklio eilutę, kiekvienas antrinis turtas, naudojantis tą patį skaitiklio tipą, automatiškai naujinamas.
+Pasirenkamas skaitiklio tipas gali būti nustatytas perimti skaitiklio vertes. Kitaip tariant, puslapio **Skaitikliai** „FastTab” **Bendra** esanti parinktis **Perimti turto skaitiklio vertes** nustatyta į **Taip** (**Turto valdymas** > **Sąranka** > **Turto tipai** > **Skaitikliai**). Tokiu atveju, kai sukuriate naują šio tipo skaitiklio eilutę, kiekvienas antrinis turtas, kuris naudoja tą patį skaitiklio tipą, automatiškai atnaujinamas.
 
-Skiltyje **Visas turtas** galite turtui sukurti valandų ar dydžio skaitiklių registracijų, atsižvelgiant į jūsų turto rodmenis.
+Puslapyje **Visas turtas** galite turtui sukurti valandų ar dydžio skaitiklių registracijų, atsižvelgiant į jūsų turto rodmenis.
 
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Turtas** > **Visas turtas**.
+1. Pasirinkite **Turto valdymas** > **Bendra** > **Turtas** > **Visas turtas**.
 
-2. Sąraše pasirinkite turtą ir spustelėkite **Skaitikliai**. Formoje **Turto skaitikliai** galite matyti visų buvusių skaitiklių registracijų pasirinktam turtui sąrašą.
+2. Pasirinkite turtą, o tada veiksmų srityje, skirtuke **Turtas**, grupėje **Prevencinis**, pasirinkite **Skaitikliai**. Puslapyje **Turto skaitikliai** rodomas visų buvusių skaitiklių registracijų pasirinktam turtui sąrašas.
 
-3. Spustelėkite **Naujas**, kad sukurtumėte naują registraciją. Turto ID įterpiamas automatiškai.
+3. Pasirinkite **Naujas**, kad sukurtumėte registraciją. Turto ID automatiškai įvedamas lauke **Turtas**.
 
-4. Lauke **Skaitiklis** pažymėkite susijusį skaitiklį. Tik skaitikliai, susiję su turto tipu, pasirinktu tam turtui, yra pasiekiami. Susijęs vienetas yra automatiškai įterpiamas į lauką **Vienetas**.
+4. Lauke **Skaitiklis** pažymėkite susijusį skaitiklį. Galima pasirinkti tik susijusius su turto tipu, pasirinktu tam turtui, skaitiklius. Susijęs vienetas yra automatiškai įvedamas į lauką **Vienetas**.
 
-5. Skaitiklio registracijai nurodykite datą ir laiką.
+5. Lauke **Registruota** pasirinkite skaitiklio registravimo datą ir laiką.
 
-6. Lauke **Reikšmė** įterpkite paskutinio skaitiklio registracijos numerį arba, į lauką **Agreguota reikšmė** įterpkite bendrą skaitiklių numerį.
+6. Lauke **Vertė** įveskite paskutinio skaitiklio registracijos numerį. Arba lauke **Agreguota vertė** įveskite bendrą skaitiklių skaičių.
 
-- Jeigu įdiegėte turtui rankiniu būdu naują skaitiklį, turite užregistruoti pakeitimus turtui skiltyje **Turto skaitikliai**. Po to, turite sukurti dvi registravimo eilutes, kurių laiko žymės sutampa, ir eilutėje, kurioje yra naujas skaitiklis, pasirinkti žymės langelį **Skaitiklio atkūrimas**. Kai sukuriate dvi registravimo eilutes, pirmoje eilutėje turi būti skaitiklis, kurį keičiate. Lauke **Iš viso** bendras skaitiklių skaičius yra visų to skaitiklio tipo užregistruotų reikšmių bendra skaitiklių suma.  
+Atkreipkite dėmesį į toliau nurodytus punktus.
+
+- Jeigu įdiegėte turtui rankiniu būdu naują skaitiklį, turite užregistruoti pakeitimus turtui puslapyje **Turto skaitikliai**. Tada turite sukurti dvi registravimo eilutes, kuriose yra vienodos laiko žymos. Pirmoji eilutė turi būti skirta skaitikliui, kurį keičiate. Eilutėje, kuri susijusi su nauju skaitikliu, pažymėkite žymės langelį **Skaitiklio atkūrimas**. Lauke **Iš viso** bendras skaitiklių skaičius yra visų to skaitiklio tipo užregistruotų reikšmių bendra skaitiklių suma.
+
 - Jei pasirinktas laukas **Skaitiklio atkūrimas**, naudojant priežiūros planą, kuriame yra intervalų tipas Pradėjus nuo... arba Pasiekus..., skaitiklis tebėra aktyvus naujoje skaitiklio eilutėje, nes sukuriate atskirą skaitiklio eilutę ir pradedate naujai numeruoti skaitiklius.
 
-![1 pav.](media/11-work-orders.png)
+Toliau pateiktame paveikslėlyje parodytas puslapio **Turto skaitikliai** pavyzdys.
 
+![1 pav.](media/11-work-orders.png)
 
-Jei jums reikia registruoti skaitiklį keliems ištekliams, tai galite atlikti pasirinkus **Turto valdymas** > **Užklausos** > **Turtas** > **Turto skaitikliai.**
+Puslapyje **Turto skaitikliai** (**Turto valdymas** > **Užklausos** > **Turtas** > **Turto skaitikliai**) galite pagal poreikį tuo pačiu metu registruoti skaitiklius keliems ištekliams.
 
 >[!NOTE]
->Galite nustatyti intervalą, kad būtų apibrėžti nuokrypiai, kurie atsiranda rankiniu būdu registruojant skaitiklius, ir pranešimo tipas, kuris turi būti rodomas, jei registruojant nukrypstama nuo nurodyto intervalo. Dėl skaitiklių sąrankos žr. temoje [Skaitikliai](../setup-for-objects/counters.md).
+>Galite nustatyti intervalą, kad nustatytumėte nuokrypius, kurie atsiranda rankiniu būdu registruojant skaitiklius. Taip pat galite nurodyti pranešimo, kuris rodomas, jei registruojant nukrypstama nuo nurodyto intervalo, tipą. Daugiau informacijos, kaip nustatyti skaitiklius, žr. [Skaitikliai](../setup-for-objects/counters.md).
+

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 316e1e1f0db9343e414ddeafe9e00beac87b5b76
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249499"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653653"
 ---
 # <a name="product-configuration-overview"></a>Produktų konfigūracijos apžvalga
 
@@ -73,7 +73,7 @@ Lentelės apribojimai gali būti nustatomi vartotojo arba apibrėžtos sistemos.
 
 Vartotojas pats sukuria vartotojo apibrėžiamą lentelės apribojimą. Vartotojas, pasirinkęs įvairių tipų atributus, sudaro lentelės stulpelius, tada, įvedęs pasirinktų tipų atributų domenų reikšmes, sudaro lentelės apribojimo eilutes.  
 
-Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūruojant esančios „Finance and Operations“ lentelės eilutės.  
+Sistemoje apibrėžiamas lentelės apribojimas nustatomas tokia tvarka: pasirenkama kaip nuoroda naudotina lentelė, tada pasirinkus šios lentelės laukus sudaromi apribojimo stulpeliai. Lentelės apribojimo eilutės – tai konfigūravimo metu esančios „Supply Chain Management“ lentelės eilutės.  
 
 Lentelės apribojimas įtraukiamas į produkto konfigūracijos modelį nurodžius lentelės apribojimo aprašą ir susiejus atitinkamus modelio atributus su lentelės apribojimo stulpeliais.
 

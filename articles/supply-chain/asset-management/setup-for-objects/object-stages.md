@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dc72c61ed4dbb04122c6859123307dc79f2b233
-ms.sourcegitcommit: 747bcd25ce7c6c20ce9eaa0027e730f74d4fd6aa
+ms.openlocfilehash: e542a0bc7335d16139ef6e34b6794161ab4be195
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "1783451"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2571190"
 ---
 # <a name="asset-lifecycle-states"></a>Produktų ciklo būsenos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šioje temoje paaiškinamos turto ciklo būsenos ir ciklo modeliai modulyje „Turto valdymas“. Turto ciklo būsenos naudojamos apibrėžti, ar turtas aktyvus, ar neaktyvus. Pavyzdžiui, galite sukonfigūruoti tokias turto ciklo būsenas kaip **Sukurta**, **Aktyvi** ir **Nutraukta**.
 
@@ -39,10 +39,10 @@ ms.locfileid: "1783451"
 
 Turto ciklo būsenos gali būti nustatomos turto ciklo modeliuose, kuriuose galite apibrėžti reikiamas įvairių turto tipų ciklo būsenas. Pirmiausia nustatote ciklo būsenas. Tada sukuriate ciklo modelį ir pasirenkate jo ciklo būsenas.
 
-1. Pasirinkite **Asset management** \> **Setup** \> **Assets** \> **Lifecycle states**.
-2. Pasirinkite **New**, kad sukurtumėte naują gyvavimo stadiją.
+1. Pasirinkite **Turto valdymas** \> **Sąranka** \> **Turtas** \> **Ciklo būsenos**.
+2. Pasirinkite **Naujas**, kad sukurtumėte naują gyvavimo stadiją.
 3. Lauke **Ciklo būsena** įveskite ciklo būsenos stadijos ID.
-4. Lauke **Name** įveskite aprašomąjį pavadinimą.
+4. Lauke **Pavadinimas** įveskite aprašomąjį pavadinimą.
 
     Lauke **Ciklo modeliai** rodomas turto ciklo modelių, kurie naudoja turto ciklo būseną, skaičius.
 
@@ -55,18 +55,18 @@ Turto ciklo būsenos gali būti nustatomos turto ciklo modeliuose, kuriuose gali
 
 Sukūrę reikiamas turto ciklo būsenas, galite nustatyti ciklo būsenas turto ciklo modeliuose.
 
-1. Pasirinkite **Asset management** \> **Setup** \> **assets** \> **lifecycle models**.
-2. Pasirinkite **New**, kad sukurtumėte naują turto ciklo modelį.
+1. Pasirinkite **Turto valdymas** \> **Sąranka** \> **turtas** \> **ciklo modeliai**.
+2. Pasirinkite **Naujas**, kad sukurtumėte naują turto ciklo modelį.
 3. Lauke **Ciklo būsena** įveskite ciklo modelio ID.
-4. Lauke **Name** įveskite aprašomąjį pavadinimą.
+4. Lauke **Pavadinimas** įveskite aprašomąjį pavadinimą.
 
     Lauke **Ciklo būsenos** rodomas turto ciklo būsenų, kurios yra pasirinktos turto ciklo modelyje, skaičius. Lauke **Turto tipai** rodomas ciklo modelį naudojančių turto tipų skaičius.
 
 5. „FastTab“ skirtuke **Ciklo būsenos** pasirinkite turto ciklo būsenas, kurias reikėtų įtraukti į turto ciklo modelį:
 
-    - Norėdami naudoti modelio ciklo būseną, pasirinkite ją skyriuje **Lifecycle states remaining**, tada pasirinkite dešiniosios rodyklės mygtuką ![Dešinioji rodyklė](media/15-setup-for-objects.png), kad perkeltumėte ją į skyrių **Lifecycle states selected**.
-    - Norėdami naudoti visas pasiekiamas ciklo būsenas modelyje, pasirinkite mygtuką **All available lifecycle states**![Visos pasiekiamos ciklo būsenos](media/20-setup-for-objects.png). Visos būsenos perkeliamos į skyrių **Lifecycle states selected**.
-    - Norėdami pašalinti ciklo būseną iš modelio, pasirinkite ją skyriuje **lifecycle states selected**, tada pasirinkite kairiosios rodyklės mygtuką ![Kairioji rodyklė](media/16-setup-for-objects.png), kad perkeltumėte ją į skyrių **Lifecycle states remaining**.
+    - Norėdami naudoti modelio ciklo būseną, pasirinkite ją skyriuje **Ciklo būsenos remaining**, tada pasirinkite dešiniosios rodyklės mygtuką ![Dešinioji rodyklė](media/15-setup-for-objects.png), kad perkeltumėte ją į skyrių **Pasirinktos ciklo būsenos**.
+    - Norėdami naudoti visas pasiekiamas ciklo būsenas modelyje, pasirinkite mygtuką **Visos pasiekiamos ciklo būsenos**![Visos pasiekiamos ciklo būsenos](media/20-setup-for-objects.png). Visos būsenos perkeliamos į skyrių **Pasirinktos ciklo būsenos**.
+    - Norėdami pašalinti ciklo būseną iš modelio, pasirinkite ją skyriuje **pasirinktos ciklo būsenos**, tada pasirinkite kairiosios rodyklės mygtuką ![Kairioji rodyklė](media/16-setup-for-objects.png), kad perkeltumėte ją į skyrių **Likusios ciklo būsenos**.
 
-6. Pasirinkite **Lifecycle state updates**, kad apibrėžtume turto ciklo būsenas, kurios gali eiti po pasirinktos ciklo būsenos.
-7. Galite naudoti „FastTab“ skirtuką **Asset state**, jei tvarkote turtą, kurį gaunate taisyti. Skyriuje **Gaunama / siunčiama** galite pasirinkti turto ciklo būsenas, kad nurodytumėte darbo eigą, susijusią su turtu, kurį gavote taisyti. Jei siūlote paskolos turtą klientams arba padaliniams, skyriuje **Paskola** galite pasirinkti paskolos turto ciklo būsenas.
+6. Pasirinkite **Ciklo būsenos naujinimai**, kad apibrėžtume turto ciklo būsenas, kurios gali eiti po pasirinktos ciklo būsenos.
+7. Galite naudoti „FastTab“ skirtuką **Turto būsena**, jei tvarkote turtą, kurį gaunate taisyti. Skyriuje **Gaunama / siunčiama** galite pasirinkti turto ciklo būsenas, kad nurodytumėte darbo eigą, susijusią su turtu, kurį gavote taisyti. Jei siūlote paskolos turtą klientams arba padaliniams, skyriuje **Paskola** galite pasirinkti paskolos turto ciklo būsenas.

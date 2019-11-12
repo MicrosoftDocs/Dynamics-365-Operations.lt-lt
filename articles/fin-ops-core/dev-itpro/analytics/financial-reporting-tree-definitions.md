@@ -3,7 +3,7 @@ title: Ataskaitų dizaino įrankio ataskaitų medžio aprašai
 description: Šiame straipsnyje pateikiama informacija ataskaitų medžių aprašus. Ataskaitų medžio aprašas yra ataskaitos komponentas, arba kūrimo blokas, kuris padeda nustatyti organizacijos struktūrą ir hierarchiją.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 10/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8127c694d21064392b1932525a87044b9554973d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
+ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181823"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "2564172"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Ataskaitų dizaino įrankio ataskaitų medžio aprašai
 
@@ -48,9 +48,9 @@ Galite sukurti neribotą skaičių ataskaitų medžių, kad galėtumėte perži�
 ## <a name="create-a-reporting-tree-definition"></a> Ataskaitų medžio aprašo kūrimas
 Ataskaitų medžio apraše yra šioje lentelėje aprašytų stulpelių.
 
-| Ataskaitų medžio stulpelis | Prekės/Paslaugos pavadinimas |
+| Ataskaitų medžio stulpelis | Aprašymas |
 |-----------------------|-------------|
-| Įmonė               | Ataskaitinio vieneto įmonės pavadinimas. **@ANY** vertė, paprastai priskiriama tik suvestinės lygiu, teikia galimybę naudoti ataskaitų medį visoms įmonėms. Visoms antrinėms šakoms priskiriama įmonė. |
+| Įmonė               | Ataskaitinio vieneto įmonės pavadinimas. **\@ANY** vertė, paprastai priskiriama tik suvestinės lygiu, teikia galimybę naudoti ataskaitų medį visoms įmonėms. Visoms antrinėms šakoms priskiriama įmonė. |
 | Vieneto pavadinimas             | Kodas, nurodantis šį ataskaitinį vienetą grafiniame ataskaitų medyje. Būtinai sukurkite unikalią kodavimo sistemą, kuri būtų nuosekli ir lengvai suprantama vartotojams. |
 | Vieneto aprašas      | Ataskaitos aprašo skirtuke **Antraštės ir poraštės** įvedus kodą **UnitDesc**, ataskaitos antraštėje arba poraštėje bus rodomas ataskaitinio vieneto pavadinimas. Įvedus **UnitDesc** eilutės apibrėžimo langelyje **Aprašas**, pavadinimas bus rodomas ataskaitos eilutės apraše. |
 | Dimensijos            | Ataskaitinis vienetas, kurio informacija imama tiesiai iš finansinių duomenų. Jis nustato sąskaitos ir susijusių segmentų loginį išdėstymą ir ilgį. Šiame stulpelyje kiekviena ataskaitinio vieneto eilutė turi turėti dimensiją. Taip pat galite padėti dimensiją ataskaitinio vieneto eilutėje (pavyzdžiui, išlaidų, tiesiogiai susijusių su tuo vienetu). Įvedus dimensiją suvestinio vieneto eilutėje, sąskaitų, naudojamų pirminiuose vienetuose, negalima naudoti antriniuose vienetuose. Priešingu atveju sumos gali dubliuotis. |

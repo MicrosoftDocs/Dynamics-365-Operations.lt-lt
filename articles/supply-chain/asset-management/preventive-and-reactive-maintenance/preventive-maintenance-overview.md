@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 02ea3affca727802b241f87b801e0742ac0aa41a
-ms.sourcegitcommit: 6476f27c8d3dced7c2e9a7344a4e378b51a1983e
+ms.openlocfilehash: 2d079c10331360c035ff800650ed3102c2cc3ad4
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/27/2019
-ms.locfileid: "1922096"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569989"
 ---
 # <a name="preventive-maintenance-overview"></a>Prevencinės priežiūros apžvalga
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Šioje temoje aptariama prevencinė priežiūra skiltyje Turto valdymas. Prevencinė priežiūra – tai metodas, pagal kurį planuojamos priežiūros užduotys, pavyzdžiui, įprastas aptarnavimas, kalibravimas ir patikrinimai. Skiltyje **Turto valdymas** galite sukurti priežiūros planus ir juos nustatyti pagal turtą ir funkcines vietas. Taip pat galite nustatyti funkcinėms vietoms priežiūros ciklus. Priežiūros planai turtui yra nuolat aktyvūs, nepaisant kurioje vietoje įdiegtas turtas. Priežiūros planai ir priežiūros ciklai funkcinei vietai yra visada aktyvūs turtui, kuris yra šiuo metu įdiegtas toje vietoje. Užuot nustatę turto priežiūros planus arba priežiūros ciklus funkcinėse vietose, galite kurti priežiūros ciklus, turinčius kelis išteklius, su kuriais jums reikia atlikti susijusių tipų priežiūros užduotis toje pačioje darbo paprogramėje. Priežiūros ciklai, sukurti iš turto, o ne sukurti funkcinių vietų pagrindu, reiškia, kad galite pasirinkti vieną priežiūros ciklą, kuris nėra įdiegtas toje pačioje funkcinėje vietoje.
 

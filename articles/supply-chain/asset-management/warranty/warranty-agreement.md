@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 71905d5b362c80d48b78210b59cacfb1e7899757
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: da60d098aff96780ca1e40832db34e3c9cc835e7
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874698"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569690"
 ---
 # <a name="warranty-agreements"></a>Garantijos sutartys
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 
 Modulyje Turto valdymas galite nustatyti garantijos sąlygas, kurias galima susieti su turtu ar jo tipu. Garantijos sąlygos kuriamos konkrečiam laikotarpiui. Galima nustatyti visos arba dalinės apimties garantiją ir galite nustatyti sąlygas, susijusias su valandomis, išlaidomis bei prekėmis.
@@ -54,4 +54,4 @@ Garantijos sutartyje gali būti kelios eilutės, apimančios darbo valandų, iš
     3. Lauke **Intervalas** įveskite skaičių. Šiame lauke nustatomas laikotarpių, kuriuos garantija turi galioti, skaičius.
     4. Lauke **Procentas** įveskite garantijos eilutės apimties procentinę dalį. Ši procentinė dalis nurodo, kokia yra jūsų įmonės garantijos apimtis.
 
-![1 pav.](media/01-warranty.png)
+![Garantijos puslapis](media/01-warranty.png)

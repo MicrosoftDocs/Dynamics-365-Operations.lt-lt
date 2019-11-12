@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05f8a71dde998abccc75bc962636f9eb04d7e8c2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026721"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653423"
 ---
 # <a name="warehouse-configuration-overview"></a>Sandėlio konfigūracijos apžvalga
 
@@ -34,7 +34,7 @@ ms.locfileid: "2026721"
 **Pastaba.** Šis straipsnis taikomas funkcijoms **Sandėlio valdymo** modulyje (patobulintas sandėliavimas). Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
 
 ## <a name="warehouse-layout"></a>Sandėlio išdėstymas
-Sandėlio valdymo sistema programoje „Finance and Operations“ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
+Sandėlio valdymo sistema programoje „Supply Chain Management“ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
 
 -   Galite nustatyti aukšto prioriteto ir žemo prioriteto saugojimo sritis, kad prekės būtų išdėstytos optimaliai.
 -   Savo sandėlį galite padalinti į zonas, kad būtų galima patenkinti įvairius saugojimo poreikius, pvz., temperatūros reikalavimus ar įvairius prekių apyvartos koeficientus.
@@ -42,7 +42,7 @@ Sandėlio valdymo sistema programoje „Finance and Operations“ suteikia lanks
 -   Grupuoti vietas galite naudodami fizinių pajėgumų apribojimo nuostatas.
 -   Kontroliuoti, kaip prekės saugomos ir paimamos, galite pagal užklausomis apibrėžtas taisykles.
 
-Norėdami naudoti „Finance and Operations‟ sandėlio valdymo funkcijas, turite sukurti sandėlį ir leisti jam taikyti labiau patobulinto ar specializuoto sandėlio valdymo veiklą. **Sandėlių** puslapyje pasirinkite parinktį **Naudoti sandėlio valdymo procesus**.
+Norėdami naudoti „Supply Chain Management‟ sandėlio valdymo funkcijas, turite sukurti sandėlį ir leisti jam taikyti labiau patobulinto ar specializuoto sandėlio valdymo veiklą. **Sandėlių** puslapyje pasirinkite parinktį **Naudoti sandėlio valdymo procesus**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Zonų grupės, zonos, vietų tipai ir vietos
 
@@ -54,7 +54,7 @@ Sandėlio išdėstymo įgalinimo proceso dalis yra apibrėžti sandėlio zonų g
 -   **Vietų tipai** – loginis arba fizinis sandėlio vietų grupavimas. Pavyzdžiui, galite sukurti vietos tipą visoms išdėstymo vietoms. Privalomosios nuostatos **Sandėlio valdymo parametrų** puslapyje yra laikino sandėliavimo vietų tipų ir galutinės siuntimo vietos tipo apibrėžimo pagrindas.
 -   **Vietos** – žemiausias vietos informacijos lygis. Vietos naudojamos sekti, kur sandėlyje saugomos ir paimamos turimos atsargos.
 
-Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojami užklausose, kurias nustatote darbo šablonuose, taip sandėlyje apdorojant darbo užsakymus. Todėl apibrėždami zonas, vietų tipus ir t. t. atsižvelkite į tai, kaip skirtingiems procesams naudojamos skirtingos sandėlio sritys. Be to, atsižvelkite į tokius konkrečios srities veiksnius kaip fizinės charakteristikos. Pavyzdžiui, gali būti sričių, kuriose galite naudoti tik tam tikro tipo krautuvą. Arba jei tos pačios jūsų įmonės patalpos naudojamos ir gamybai, ir pagamintoms prekėms, galbūt norėsite programoje „Finance and Operations‟ sukurti vieną sandėlį, tačiau tada sukurti dvi zonų grupes ir tokiu būdu šias dvi operacijas atskirti. Objektams suteikite aprašomuosius pavadinimus – tuomet šablonų užklausose naudojant objektus bus lengva juos identifikuoti.
+Objektai, kuriuos kuriate norėdami apibrėžti sandėlio išdėstymą, naudojami užklausose, kurias nustatote darbo šablonuose, taip sandėlyje apdorojant darbo užsakymus. Todėl apibrėždami zonas, vietų tipus ir t. t. atsižvelkite į tai, kaip skirtingiems procesams naudojamos skirtingos sandėlio sritys. Be to, atsižvelkite į tokius konkrečios srities veiksnius kaip fizinės charakteristikos. Pavyzdžiui, gali būti sričių, kuriose galite naudoti tik tam tikro tipo krautuvą. Arba jei tos pačios jūsų įmonės patalpos naudojamos ir gamybai, ir pagamintoms prekėms, galbūt norėsite programoje „Supply Chain Management“ sukurti vieną sandėlį, tačiau tada sukurti dvi zonų grupes ir tokiu būdu šias dvi operacijas atskirti. Objektams suteikite aprašomuosius pavadinimus – tuomet šablonų užklausose naudojant objektus bus lengva juos identifikuoti.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Vietų sandėliavimo apribojimai, vietų profiliai ir fiksuotos paėmimo vietos
 

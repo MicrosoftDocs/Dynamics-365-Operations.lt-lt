@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aba85b63abc11c9f32023e8499a02728dfc86bd1
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4d9a2f6efad6b8ddf3a445fe7831244e161c35d5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188262"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578200"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Išplėstinio banko derinimo importavimo proceso nustatymas
 
@@ -36,7 +36,7 @@ Banko išrašo importavimo nustatymas priklauso nuo elektroninio banko išrašo 
 ## <a name="set-time-zone-preference"></a>Norimos laiko juostos pasirinkimas
 Sukonfigūravus banko išrašų importavimo parametrus, gali būti svarbu atsižvelgti į datos ir laiko duomenų, esančių banko išrašų failuose, kurie bus importuojami, laiko juostą. Pagal numatytąjį parametrą laikoma, kad visos datos ir laiko vertės jau yra Universaliojo laiko (UTC) formatu, todėl importuojant duomenis laiko juostos nebus konvertuojamos. 
 
-Yra parinktis, skirta nustatyti laiko juostą, kuri bus naudojama duomenims importuoti. Ši pasirinktis yra naudojama lauke **Laiko juostos pasirinkimas**, esančiame kiekviename puslapyje **Šaltinio duomenų formato informacija** (FastTab **Duomenų valdymo darbo sritis > Duomenų šaltinių konfigūravimas > Duomenų formato pasirinkimas > Regiono parametrai**). Pasirinkta laiko juosta bus taikoma importuojant, kai naudojamas šis šaltinio duomenų formatas. Galite sukurti tiek duomenų šaltinio formatų, kiek reikia duomenims importuoti iš keleto laiko juostų. Pasirinkta laiko juosta turėtų būti importuojamo failo datos ir laiko duomenų vietos laiko juosta. Pasirinkta laiko juosta turėtų būti importuojamo failo datos / laiko duomenų vietos laiko juosta. 
+Yra parinktis, skirta nustatyti laiko juostą, kuri bus naudojama duomenims importuoti. Ši pasirinktis yra naudojama lauke **Laiko juostos pasirinkimas**, esančiame kiekviename puslapyje **Šaltinio duomenų formato informacija** (FastTab **Duomenų valdymo darbo sritis > Duomenų šaltinių konfigūravimas > Duomenų formato pasirinkimas > Regiono parametrai**). Pasirinkta laiko juosta bus taikoma importuojant, kai naudojamas šis šaltinio duomenų formatas. Galite sukurti tiek duomenų šaltinio formatų, kiek reikia duomenims importuoti iš keleto laiko juostų.  
 
 Ši laiko juosta gali nesutapti su vartotojo arba įmonės laiko juosta, todėl būtinai nurodykite, kokia laiko juosta naudojama datos ir laiko duomenyse. Pasirinkdami laiko juostą, rekomenduojame atsižvelgti į toliau pateikiamus punktus. 
 

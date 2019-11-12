@@ -3,7 +3,7 @@ title: Min.–maks. papildymo proceso nustatymas
 description: Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją.
 author: perlynne
 manager: AnnBe
-ms.date: 06/26/2019
+ms.date: 10/02/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ef3c33125850662cfb0dfba6e6349ce32ceda0af
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
+ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924452"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "2559194"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.–maks. papildymo proceso nustatymas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją. Kai atsargos nukris žemiau minimalaus lygio, papildyti tai vietai bus sukurtas darbas. Šia procedūra taip pat rodoma, kaip naudojant fiksuotas paėmimo vietas leisti papildyti sandėlį, net jei atsargos nukrenta žemiau minimalaus lygio, ir kaip įgalinti reguliarų papildymo proceso vykdymą, naudojant paketinę užduotį. Šias užduotis paprastai turėtų atlikti sandėlio vadovas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF, naudodami pastabų reikšmių pavyzdžius, arba ją galite vykdyti su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad turite sandėlį, kuriame galima atlikti sandėlio valdymo procesus.
+Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją. Kai atsargos nukris žemiau minimalaus lygio, papildyti tai vietai bus sukurtas darbas. Šia procedūra taip pat rodoma, kaip naudojant fiksuotas paėmimo vietas leisti papildyti sandėlį, net jei atsargos nukrenta žemiau minimalaus lygio, ir kaip įgalinti reguliarų papildymo proceso vykdymą, naudojant paketinę užduotį. Šias užduotis paprastai turėtų atlikti sandėlio vadovas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF, naudodami toliau pateiktus reikšmių pavyzdžius, arba ją galite vykdyti su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad turite sandėlį, kuriame galima atlikti sandėlio valdymo procesus.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Fiksuotos paėmimo vietos kūrimas

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbc8e4b942c3c5307d90bfd08a33a8b27c4352d2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
+ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249732"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "2658815"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -68,21 +68,21 @@ Kurdami naują užduoties įrašą ar savo įrašą kurdami pagal „Microsoft�
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite komentaro pavadinimą lauke **Pavadinimas**. 
 
-[![screen1](./media/screen1.png)](./media/screen1.png) 
+[![Redagavimo sritis su pavadinimo komentaru](./media/screen1.png)](./media/screen1.png) 
 
 Taip atrodo pavadinimo komentaras užduočių vedlio „burbuliuke‟. 
 
-[![screen2](./media/screen2.png)](./media/screen2.png)
+[![Pavadinimo komentaro išvaizda užduočių vedlyje](./media/screen2.png)](./media/screen2.png)
 
 -   **Pastabos.** Pastabų komentaras bus rodomas po veiksmo teksto, kurį automatiškai sugeneruoja užduočių įrašytuvas. Jis užduoties vadove bus matomas tik jei naudotojas užduoties vadovo burbuliuke spustelės saitą **Rodyti daugiau**. Šį komentaro tipą naudokite norėdami apibūdinti dalykus, kuriuos, norėdamas atlikti veiksmą, turi žinoti naudotojas.
 
 Tai redagavimo sritis, kurią matote, kai kurdami įrašą pridedate komentarą. Įveskite pastabų komentarą lauke **Pastabos**. 
 
-[![screen3](./media/screen3.png)](./media/screen3.png) 
+[![Redagavimo sritis su komentaru pastabų lauke](./media/screen3.png)](./media/screen3.png) 
 
 Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 
-[![screen4](./media/screen4.png)](./media/screen4.png)
+[![Pastabų komentaro išvaizda užduočių vedlyje](./media/screen4.png)](./media/screen4.png)
 
 -   **Informacijos veiksmas**: šie komentarai kuriami dešiniuoju pelės klavišu spustelėjus ant valdiklo ar bet kur formoje &lt; **Užduočių įrašytuvas** &lt; **Pridėti informacijos veiksmą. **Informacijos veiksmas rodomas kaip sunumeruotas veiksmas bet kuriame taške, kuriame veiksmą įterpiate, nors naudotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį.Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
 

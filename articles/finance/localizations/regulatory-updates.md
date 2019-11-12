@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft“ „Dynamics 365 Finance“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/30/2019
+ms.date: 10/23/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: dc5a9669a9c6c298a4f9df52346b8a075ba177e0
-ms.sourcegitcommit: a4e1a28b4733f3356e5a2237c8ba5d93f9799391
+ms.openlocfilehash: adb88a5fb79b24a26aa2976464d3e838922322c6
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2517316"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653209"
 ---
 # <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 
@@ -28,9 +28,7 @@ ms.locfileid: "2517316"
 
 Šioje temoje išvardijami reguliavimo naujinimai, planuojami ir išleidžiami „Dynamics 365 Finance“ palaikomose lokalėse. Pristatymo terminai gali keistis ir numatomos funkcijos gali skirtis arba būti neišleistos. Daugiau informacijos žr. [„Microsoft“ strategija](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami sužinoti daugiau apie planuojamas ir išleistas konkrečių šalių funkcijas, žr. toliau pateikiamus išteklius.
-- [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Kas nauja „Microsoft Dynamics 365 for Finance and Operations“](../../fin-and-ops/get-started/whats-new-changed.md)
+Reglamentavimo atnaujinimai yra funkcijos, kurios sukurtos siekiant laikytis naujų arba pasikeitusių konkrečių šalių teisės aktų. Norėdami sužinoti daugiau apie planuojamas ir išleistas konkrečių šalių funkcijas, žr. [„Dynamics 365“ ir „Power Platform“ išleidimo planus](https://docs.microsoft.com/business-applications-release-notes/index).
 
 „Microsoft“ siekia kuo anksčiau įgyvendinti naujus reglamentavimo reikalavimus. Faktinė išleidimo data priklauso nuo įstatymo paskelbimo datos, vietos valdžios institucijų reikalavimų informacijos pasiekiamumo, tikrinimo įrankių pasiekiamumo ir pakeitimų dydžio bei sudėtingumo.
 
@@ -44,13 +42,19 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 
 |Suplanuota išleidimo data|Leidimo versija|Šalis|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------|
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.10 versija    |
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.20 versija    |
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP)      | Brazilija      |   DRCST deklaracija SC   |
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP), 10.0.5HF      | Brazilija     |   Naujus teisės aktus įgyvendina Rio de Žaneiro valstija dėl EFD-ICMS/IPI. Rio de Žaneiro (RJ) 13/19 rezoliucijos įgyvendinimas yra skirtas „specialiosioms procedūroms vykdant atleidimą“     |
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP)      | Brazilija      |   Mokesčių deklaracija CAT 42/18    |
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP)      | Italija      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d. 119 – „Dynamics 365 for Finance and Operations“ 10.0.6 v.  |
-|      2019 m. rugpjūčio mėn.          |   10.0.6(PEAP), 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japonija      |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas    |
+|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Italija      |   PVM valdymo pakeitimai pagal D.L. 2019 m. spalio 23 d. 119: Ketvirčio PVM pranešimas („Lipe 2018“)    |
+|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Italija      |   „Retail“ – kliento informacijos valdymas EKA |
+|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Italija      |   „Retai“ – kliento informacijos spausdinimas fiskaliniame kvite | 
+|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Japonija      |   Įdiegtas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčio tarifas (SF maketai) | 
+|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Meksika      |   2.7.2.9 atnaujinimo taisyklė – naudojama institucijos, išduodančios CFDI dokumentą, laiko juosta pagal pašto kodą | 
+|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Jungtinė Karalystė     |   Mokesčių pavertimas skaitmeniniais – PVM grąžinimo ataskaitos kūrimas įmonėms, kurioms ataskaitos kuriamos kaip PVM grupei toje pačioje sistemos duomenų bazėje v.10 | 
+|      2019 m. lapkritis – rugpjūtis          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.20 versija    |
+|      2019 m. lapkritis – rugpjūtis          |   10.0.7(PEAP), 10.0.6      | Brazilija      |   DRCST deklaracija SC   |
+|      2019 m. lapkritis – rugpjūtis          |   10.0.7(PEAP), 10.0.6      | Italija      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d., 119 – „Dynamics 365 for Finance and Operations“  |
+|      2019 m. rugpjūčio mėn.          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.10 versija    |
+|      2019 m. rugpjūčio mėn.          |   10.0.6, 10.0.5HF      | Brazilija     |   Naujus teisės aktus įgyvendina Rio de Žaneiro valstija dėl EFD-ICMS/IPI. Rio de Žaneiro (RJ) 13/19 rezoliucijos įgyvendinimas yra skirtas „specialiosioms procedūroms vykdant atleidimą“     |
+|      2019 m. rugpjūčio mėn.          |   10.0.6      | Brazilija      |   Mokesčių deklaracija CAT 42/18    |
+|      2019 m. rugpjūčio mėn.          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japonija      |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas    |
 |      2019 m. rugpjūčio ir liepos mėn.          |   10.0.5, 10.0.4HF, 10.0.3HF      | Ispanija      |   Ispanija: SII: Tvirtinimo taisyklės keičiasi nuo 2019 m. spalio 1 d.    |
 |      2019 m. liepos mėn.          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.00 versija  |
 |      2019 m. liepos mėn.          |   10.0.5      | Brazilija      |   „Sped“ įnašų praktinis vadovas 1.31. naujos naudojimo instrukcijos    |
@@ -66,7 +70,7 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 |      2019 m. balandžio mėn.          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazilija     |   SPED ECD 7 maketas    |
 |      2019 m. balandžio mėn.          |   10.0.3      | Brazilija      |   SPED ECF - 5 maketas 2019 m.    |
 |      2019 m. balandžio mėn.          |   10.0.3      | Indija      |   Mokesčio muito valiuta koregavimas BOE vietoj sudarymo operacijos valiuta    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Indija      |   Mokesčio muito valiuta skaičiavimas BOE vietoj sudarymo operacijos valiuta    |
+|      2019 m. balandžio mėn.          |   10.0.3      | Indija      |   Mokesčio muito valiuta skaičiavimas BOE vietoj sudarymo operacijos valiuta   |
 |      2019 m. balandžio mėn.          |   10.0.3, 10.02HF, 10.0.1HF      | Indija      |   IEC numerio formato pakeitimas    |
 |      2019 m. balandžio mėn.          |   10.0.3      | Lietuva      |   i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais    |
 |      2019 m. balandžio mėn.          |   10.0.3      | Lenkija      |   SAF SF (JPK_FA) 2 v. nuo 2019 m. liepos 1 d.    |

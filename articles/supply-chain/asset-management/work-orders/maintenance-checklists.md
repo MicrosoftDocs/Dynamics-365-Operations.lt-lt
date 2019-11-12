@@ -3,7 +3,7 @@ title: Prižiūrimo turto kontroliniai sąrašai
 description: Šioje temoje aprašomi prižiūrimo turto kontroliniai sąrašai modulyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,65 +16,67 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 325ff1fa0811d6aac5189cc69f21483fce6b3e8f
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 4ffdf2a997eab741521745ec8207f4f980740ecf
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875804"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626275"
 ---
 # <a name="maintenance-checklists"></a>Prižiūrimo turto kontroliniai sąrašai
 
-
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
-Prižiūrimo turto kontroliniai sąrašai nustatomi pagal priežiūros užduočių tipus ir naudojami, kai dirbate su darbo užsakymu. Prižiūrimo turto kontrolinių sąrašų pildymas – tai darbo užsakymo parengimo dalis. Žr. skyrių [Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md), kad gautumėte daugiau informacijos apie tai, kaip nustatyti priežiūros užduočių tipų prižiūrimo turto kontrolinius sąrašus formoje **Priežiūros užduočių tipų numatytieji parametrai**.
 
-Kai dirbate su darbo užsakymo prižiūrimo turto kontroliniais sąrašais, galite pildyti iš anksto nustatytus prižiūrimo turto kontrolinius sąrašus, susijusius su priežiūros užduočių tipais. Tai pat galima įtraukti papildomų prižiūrimo turto kontrolinių sąrašų.
+Prižiūrimo turto kontroliniai sąrašai nustatomi pagal priežiūros užduočių tipus. Prižiūrimo turto kontrolinių sąrašų pildymas – tai darbo užsakymo parengimo proceso dalis. Daugiau informacijos apie tai, kaip nustatyti priežiūros užduočių tipų prižiūrimo turto kontrolinius sąrašus puslapyje **Priežiūros užduočių tipų numatytosios reikšmės**, žr. [Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-## <a name="fill-out-a-maintenance-checklist"></a>Prižiūrimo turto kontrolinio sąrašo pildymas
+Kai dirbate su darbo užsakymo prižiūrimo turto kontroliniais sąrašais, galite pildyti iš anksto nustatytus prižiūrimo turto kontrolinius sąrašus, susijusius su priežiūros užduočių tipais. Taip pat galite įtraukti daugiau prižiūrimo turto kontrolinių sąrašų.
+
+
+## <a name="fill-in-a-maintenance-checklist"></a>Prižiūrimo turto kontrolinio sąrašo pildymas
 
 1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
-2. Pasirinkite darbo užsakymą ir spustelėkite **Prižiūrimo turto kontrolinis sąrašas**.
+2. Pasirinkite darbo užsakymą, tada veiksmų srityje, skirtuke **Darbo užsakymas**, grupėje **Eilutės**, pasirinkite **Prižiūrimo turto kontrolinis sąrašas**.
 
-3. Pasirinkę **Darbo užsakymo prižiūrimo turto kontrolinis sąrašas**, pamatysite visų darbo užsakymo užduočių prižiūrimo turto kontrolinius sąrašus. Jei darbo užsakymo užduočių priežiūros užduočių tipai skiriasi, darbo užsakymo užduočių prižiūrimo turto kontroliniai sąrašai gali skirtis. Pasirinkite darbo užsakymo užduotį, norėdami dirbti su susijusiu prižiūrimo turto kontroliniu sąrašu. Išsami informacija apie pasirinktą prižiūrimo turto kontrolinio sąrašo eilutę rodoma FastTab **Eilutės informacija**.
+3. **Darbo užsakymo prižiūrimo turto kontroliniame sąraše** rodomi visų darbo užsakymo užduočių kontroliniai sąrašai. Jei darbo užsakymo užduočių priežiūros užduočių tipai skiriasi, darbo užsakymo užduočių prižiūrimo turto kontroliniai sąrašai gali skirtis. Pasirinkite darbo užsakymo užduotį, norėdami dirbti su susijusiu prižiūrimo turto kontroliniu sąrašu. Išsami informacija apie pasirinktą prižiūrimo turto kontrolinio sąrašo eilutę rodoma „FastTab” **Eilutės informacija**.
 
-4. Užpildykite visas prižiūrimo turto kontrolinio sąrašo eilutes po vieną, eilės tvarka, kuria jos pateikiamos. Prižiūrimo turto kontrolinio sąrašo eilutė, kurios tipas yra Antraštė, naudojama kaip toliau pateikiamų prižiūrimo turto kontrolinio sąrašo eilučių grupės antraštė. Antraštės pildyti nebūtina, tačiau į visų tipų prižiūrimo turto kontrolinio sąrašo eilučių antraštes galia įtraukti **Pastaba**.
+4. Užpildykite visas prižiūrimo turto kontrolinio sąrašo eilutes po vieną, eilės tvarka, kuria jos pateikiamos. Prižiūrimo turto kontrolinio sąrašo eilutę pildote, užpildydami laukus „FastTab” **Eilutės informacija**. Informacija, kurios reikia norint užbaigti eilutę, gali skirtis atsižvelgiant į eilutės tipą. Pavyzdžiui, į eilutę, kurios tipas yra **Tekstas**, įtraukiama pastaba, paaiškinanti jūsų patikros rezultatą. Į eilutę, kurios tipas yra **Matavimas**, įvedama įrangos rodoma skaitiklio vertė; tai pat, jei reikia, įtraukiama pastaba. Prižiūrimo turto kontrolinio sąrašo eilutė, kurios tipas yra **Antraštė**, naudojama kaip toliau pateikiamų prižiūrimo turto kontrolinio sąrašo eilučių grupės antraštė. Antraštės pildyti nebūtina. Kaip ir visų kitų tipų prižiūrimo turto kontrolinio sąrašo eilutėse, galite įtraukti pastabą į eilutę, kurios tipas – **Antraštė**.
 
-5. Jei su prižiūrimo turto kontrolinio sąrašo eilute yra susijusių instrukcijų, pažymimas žymės langelis **Instrukcijos**. Skaitykite prižiūrimo turto kontrolinio sąrašo pasirinktos eilutės instrukcijas FastTab **Eilutės informacija** > sekcijoje **Instrukcijos**.
+5. Jei su prižiūrimo turto kontrolinio sąrašo eilute yra susijusių instrukcijų, pažymimas žymės langelis **Instrukcijos**. Skaitykite prižiūrimo turto kontrolinio sąrašo pasirinktos eilutės instrukcijas „FastTab” **Eilutės informacija** lauke **Instrukcijos**.
 
-6. Informacija, kurią reikia įvesti į prižiūrimo turto kontrolinio sąrašo eilutę, gali skirtis atsižvelgiant į susijusio prižiūrimo turto kontrolinio sąrašo tipą. Prižiūrimo turto kontrolinio sąrašo eilutę pildote, užpildydami laukus FastTab **Eilutės informacija**. Pavyzdžiui, į eilutę, kurios tipas yra Tekstas, įtraukiama **Pastaba**, paaiškinant minėtos kontrolinio sąrašo eilutės rezultatą. Į eilutę, kurios tipas yra Matavimas, įtraukiama įrangos rodoma **Skaitiklio vertė**; tai pat, jei reikia, įtraukiama **Pastaba**.
+6. Užpildę prižiūrimo turto kontrolinio sąrašo eilutę, pažymėkite tos eilutės žymės langelį **Patikrinta**, kad pažymėtumėte, jog eilutė užpildyta. Jei norite atmesti prižiūrimo turto kontrolinio sąrašo eilutę, nes ji neaktuali darbo užsakymo užduočiai, pažymėkite eilutės žymės langelį **Netaikoma**. Jei prižiūrimo turto kontrolinio sąrašo eilutėje yra pažymėtas žymės langelis **Privaloma**, turite pažymėti žymės langelį **Patikrinta** arba **Netaikoma**.
 
-- Užpildę prižiūrimo turto kontrolinio sąrašo eilutę, pažymėkite eilutės žymės langelį **Patikrinta**, kad pažymėtumėte, jog eilute užpildyta. Jei norite atmesti prižiūrimo turto kontrolinio sąrašo eilutę, nes ji neaktuali darbo užsakymo užduočiai, pažymėkite eilutės žymės langelį **Netaikoma**. Jei prižiūrimo turto kontrolinio sąrašo eilutėje pažymėta, kad ji **Privaloma**, turite pažymėti, kad ji arba Patikrinta, arba Netaikoma.  
-- Prižiūrimo turto kontrolinio sąrašo registracijas galima atnaujinti tik tuo atveju, jei darbo užsakymo ciklo būsena yra [Aktyvus](../setup-for-work-orders/work-order-lifecycle-states.md).  
+>[!NOTE]
+>Prižiūrimo turto kontrolinio sąrašo registracijas galima atnaujinti tik tuo atveju, jei darbo užsakymo ciklo būsena yra [Aktyvus](../setup-for-work-orders/work-order-lifecycle-states.md).  
 
 
 ## <a name="add-a-maintenance-checklist-line"></a>Prižiūrimo turto kontrolinio sąrašo eilutės įtraukimas
 
-Prižiūrimo turto kontroliniai sąrašai kuriami pagal priežiūros užduoties tipo numatytosios reikšmės apibrėžimą ir perkeliami į naują darbo užsakymo užduotį. Jei reikia, galima įtraukti prižiūrimo turto kontrolinio sąrašo eilučių į darbo užsakymo užduotį. Rankiniu būdu įtrauktoms prižiūrimo turto kontrolinio sąrašo eilutėms priskiriama nuoroda Neautomatinis.
+Prižiūrimo turto kontroliniai sąrašai kuriami pagal priežiūros užduoties tipo numatytosios reikšmės apibrėžimą ir perkeliami į naują darbo užsakymo užduotį. Jei reikia, galima įtraukti prižiūrimo turto kontrolinio sąrašo eilučių į darbo užsakymo užduotį. Rankiniu būdu įtrauktoms prižiūrimo turto kontrolinio sąrašo eilutėms priskiriama nuoroda **Neautomatinis**.
 
-1. Pasirinkę **Darbo užsakymo prižiūrimo turto kontrolinis sąrašas**, pasirinkite darbo užsakymo užduotį, į kurią norite įtraukti prižiūrimo turto kontrolinį sąrašą.
+1. Puslapyje **Darbo užsakymo prižiūrimo turto kontrolinis sąrašas** pasirinkite darbo užsakymo užduotį, į kurią norite įtraukti prižiūrimo turto kontrolinį sąrašą.
 
-2. FastTab **Prižiūrimo turto kontrolinio sąrašo eilutės** pasirinkite prižiūrimo turto kontrolinio sąrašo eilutę ir paspauskite rodyklės žemyn klaviatūros mygtuką, jei norite įtraukti naują eilutę po pasirinktos prižiūrimo turto kontrolinio sąrašo eilutės. Kitas numeris eilės tvarka automatiškai įtraukiamas į lauką **Eilutės numeris**. Taip pat galite pasirinkti prižiūrimo turto kontrolinio sąrašo eilutę ir spustelėti mygtuką **Įtraukti eilutę**, jei norite įtraukti naują eilutę virš pasirinktos prižiūrimo turto kontrolinio sąrašo eilutės.
+2. „FastTab” **Prižiūrimo turto kontrolinio sąrašo eilutės** pasirinkite prižiūrimo turto kontrolinio sąrašo eilutę. Tada, norėdami įterpti naują eilutę po pasirinktos eilutės, paspauskite klavišą **Rodyklė žemyn**. Kitas numeris eilės tvarka automatiškai įvedamas į lauką **Eilutės numeris**. Norėdami įterpti naują eilutę prieš pasirinktą eilutę, pasirinkite **Įtraukti eilutę**. 
 
 3. Lauke **Pavadinimas** įveskite prižiūrimo turto kontrolinio sąrašo eilutės pavadinimą.
 
-4. Lauke **Tipas** pasirinkite prižiūrimo turto kontrolinio sąrašo eilutės tipą. Laukai, susiję su kiekvienu prižiūrimo turto kontrolinio sąrašo tipu, rodomi FastTab **Eilutės informacija**.  
-  a. „Tekstas” naudojamas įtraukiant prižiūrimo turto kontrolinio sąrašo eilutę, kurioje yra veiksmų aprašas teksto formatu. Šį prižiūrimo turto kontrolinio sąrašo tipą galima naudoti, jei norite, kad darbuotojas ką nors patikrintų arba apžiūrėtų, bet nesitikite konkretaus (išmatuojamo) rezultato. Įterpkite veiksmų aprašą į sekciją **Instrukcijos**, kuri yra FastTab **Eilutės informacija**. b. Antraštė naudojama kaip po antrašte pateikiamų prižiūrimo turto kontrolinio sąrašo eilučių grupės antraštė. Tai naudinga, jei įtraukėte keletą prižiūrimo turto kontrolinio sąrašo eilučių, kurias galima suskirstyti į konkrečias sritis. Įterpkite aprašomąjį pavadinimą lauke **Pavadinimas**.  
-  c. Šablonas netaikomas, kai į darbo užsakymo užduotį prižiūrimo turto kontrolinio sąrašo eilutę įtraukiate rankiniu būdu.  
-  d. Kintamasis naudojamas apibrėžiant prižiūrimo turto kontrolinio sąrašo eilutės galimą rezultatą kaip intervalą. Prižiūrimo turto kontrolinio sąrašo eilučių kintamųjų sąranka aprašoma skyriuje [Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md). Lauke **Pavadinimas** įveskite kintamojo pavadinimą. Pasirinkite kintamąjį lauke **Kintamasis**. Įterpkite veiksmų aprašą į sekciją **Instrukcijos**, kuri yra FastTab **Eilutės informacija**.  
-  e. Matavimas naudojamas registruojant konkretų matavimo rezultatą. Lauke **Pavadinimas** įveskite matavimo pavadinimą. FastTab **Eilutės informacija** pasirinkite **Skaitiklis** ir **Vienetas**. Įterpkite veiksmų aprašą į sekciją **Instrukcijos**.  
+4. Lauke **Tipas** pasirinkite prižiūrimo turto kontrolinio sąrašo eilutės tipą. Laukai, susiję su kiekvienu prižiūrimo turto kontrolinio sąrašo tipu, rodomi „FastTab” **Eilutės informacija**.
+    - **Tekstas**: naudokite šį tipą norėdami įtraukti prižiūrimo turto kontrolinio sąrašo eilutę, kurioje yra tekstas, aprašantis, ką reikia atlikti. Pavyzdžiui, naudokite šį tipą, jei norite, kad darbuotojas ką nors patikrintų arba apžiūrėtų, bet nesitikite konkretaus (išmatuojamo) rezultato. Pasirinkę šį tipą, „FastTab” **Eilučių informacija**, lauke **Instrukcijos**, įveskite tekstą, aprašantį, ką reikia atlikti.
+    - **Antraštė**: šio tipo prižiūrimo turto kontrolinio sąrašo eilutė naudojama kaip toliau pateikiamų prižiūrimo turto kontrolinio sąrašo eilučių grupės antraštė. Šis tipas yra naudingas, jei įtraukėte keletą prižiūrimo turto kontrolinio sąrašo eilučių, kurias galima suskirstyti į konkrečias sritis. Pasirinkę šį tipą, lauke **Pavadinimas** įveskite aprašomąjį pavadinimą.
+    - **Šablonas**: šis tipas netaikomas, kai į darbo užsakymo užduotį prižiūrimo turto kontrolinio sąrašo eilutę įtraukiate rankiniu būdu.  
+    - **Kintamasis**: šis tipas naudojamas apibrėžiant prižiūrimo turto kontrolinio sąrašo eilutės galimą rezultatą kaip intervalą. Daugiau informacijos apie tai, kaip nustatyti prižiūrimo turto kontrolinio sąrašo eilučių kintamuosius, žr. [Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md). Pasirinkę šį tipą, lauke **Pavadinimas** įveskite aprašomąjį kintamojo pavadinimą. „FastTab” **Eilutės informacija**, lauke **Kintamasis**, pasirinkite kintamąjį. Lauke **Instrukcijos** įveskite tekstą, aprašantį, ką reikia atlikti.
+    - **Matavimas**: naudokite šį tipą, norėdami įrašyti konkretų matavimą prižiūrimo turto kontrolinio sąrašo eilutėje. Pasirinkę šį tipą, lauke **Pavadinimas** įveskite matavimo pavadinimą. „FastTab” **Eilutės informacija**, laukuose **Skaitiklis** ir **Vienetas**, pasirinkite tinkamas vertes. Lauke **Instrukcijos** įveskite tekstą, aprašantį, ką reikia atlikti.
 
-5. Baigę įterpti prižiūrimo turto kontrolinio sąrašo eilutes rankiniu būdu, užpildykite eilutes, kaip aprašyta pirmiau esančiame skyriuje.
+5. Baigę rankiniu būdu įtraukti prižiūrimo turto kontrolinio sąrašo eilutes, užpildykite eilutes taip, kaip aprašyta pirmesniame skyriuje **Prižiūrimo turto kontrolinio sąrašo pildymas**.
 
 >[!NOTE]
->Pasirinkę **Darbo užsakymo prižiūrimo turto kontrolinis sąrašas**, negalite panaikinti prižiūrimo turto kontrolinio sąrašo eilučių, kurioms priskirta nuoroda Užduoties tipas. Galite panaikinti tik tas prižiūrimo turto kontrolinio sąrašo eilutes, kurių nuoroda yra Neautomatinis ir kurias jūs arba kiti priežiūros darbuotojai sukūrė rankiniu būdu.
+>Puslapyje **Darbo užsakymo prižiūrimo turto kontrolinis sąrašas** negalite panaikinti prižiūrimo turto kontrolinio sąrašo eilučių, kurioms priskirta nuoroda **Užduoties tipas**. Galite panaikinti tik tas prižiūrimo turto kontrolinio sąrašo eilutes, kurių nuoroda yra **Neautomatinis** ir kurias jūs arba kiti priežiūros darbuotojai sukūrė rankiniu būdu.
 
+Toliau pateikiamoje iliustracijoje rodomas prižiūrimo turto kontrolinio sąrašo pavyzdys.
 
-![1 pav.](media/14-work-orders.png)
+![1 pav.](media/14-work-orders.png)
 

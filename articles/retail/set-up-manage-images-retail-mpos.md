@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f4658696a2e6c2959b87aa852c25c108b9ba302
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 1776220766984339c7c289f7b55252fb0c0bb2a8
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024849"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570661"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>„Retail Modern POS“ (MPOS) vaizdų nustatymas ir tvarkymas
 
@@ -83,9 +83,7 @@ Tolesnėse procedūrose pagal pavyzdį nustatomi objekto Katalogas vaizdai. Šio
     [![Dialogo langas „Vaizdai“](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
-> Tą pačią procedūrą galite naudoti su visais penkiais palaikomais objektais, kurie yra: Darbuotojas, Klientas, Katalogas, Kategorija ir Produktai. „Katalogo produktai“ (katalogų lygyje nustatyti produktai) ir „Kanalo produktai“ (kanalo lygyje nustatyti produktai) naudoja nustatytą objekto Produktai medijos šabloną. Galite pasirinkti, kiek objekto Produktai medijos šablono produkto vaizdų rodyti kiekvienam produktui. Taip pat galite nustatyti konkretaus produkto numatytąjį vaizdą. Tokiu būdu galite išvengti tuščių vaizdų rodymo MPOS ir padėti kontroliuoti, kuris vaizdas bus naudojamas kaip numatytasis produkto vaizdas. Tolesniame pavyzdyje kiekvienas produktas turi penkis vaizdus, o pirmasis vaizdas yra nustatytas kaip numatytasis. Produktų variantai yra valdomi taip pat, kaip bendrieji produktai. Vaizdo failo vardas turi būti nustatytas pagal produkto numerį. Kai kurie simboliai pradingo, kol buvo generuojamas failo vardas. Todėl rekomenduojama patikrinti failo vardą naudojant sekciją **Generuoti vaizdų URL. skirtus „Excel“**.
->
-> [![Dialogo langas „Nustatyti medijos šabloną“](./media/prods.png)](./media/prods.png)
+> Tą pačią procedūrą galite naudoti su visais penkiais palaikomais objektais, kurie yra: Darbuotojas, Klientas, Katalogas, Kategorija ir Produktai. „Katalogo produktai“ (katalogų lygyje nustatyti produktai) ir „Kanalo produktai“ (kanalo lygyje nustatyti produktai) naudoja nustatytą objekto Produktai medijos šabloną. Galite pasirinkti, kiek objekto Produktai medijos šablono produkto vaizdų rodyti kiekvienam produktui. Taip pat galite nustatyti konkretaus produkto numatytąjį vaizdą. Tokiu būdu galite išvengti tuščių vaizdų rodymo MPOS ir padėti kontroliuoti, kuris vaizdas bus naudojamas kaip numatytasis produkto vaizdas. Tolesniame pavyzdyje kiekvienas produktas turi penkis vaizdus, o pirmasis vaizdas yra nustatytas kaip numatytasis. Produktų variantai yra valdomi taip pat, kaip bendrieji produktai. Vaizdo failo vardas turi būti nustatytas pagal produkto numerį. Kai kurie simboliai pradingo, kol buvo generuojamas failo vardas. Todėl rekomenduojama patikrinti failo vardą naudojant sekciją **Generuoti vaizdų URL. skirtus „Excel“**. Žr. skyrių [Perrašyti naudojant funkciją „Redaguoti programoje „Excel“](#overwrite-by-using-edit-in-excel), esantį toliau šiame straipsnyje.
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Sinchronizavimo užduotys, skirtos medijos šabloną siųsti kanalui
 
@@ -110,8 +108,6 @@ Kaip sužinojote ankstesniame skyriuje, nurodyto objekto medijos šablonas palai
 
     > [!IMPORTANT]
     > Kai pakeičiamas medijos šablonas, turite spustelėti **Generuoti** prieš norėdami naudodami funkciją Redaguoti programoje „Excel“.
-
-    [![„FastTab“ „Generuoti vaizdų URL., skirtus „Excel““](./media/excel1.jpg)](./media/excel1.jpg)
 
     Dabar matote vaizdų URL, sugeneruotus pagal paskutinį įrašytą medijos šabloną.
 

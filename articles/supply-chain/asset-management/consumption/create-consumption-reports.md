@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d978f8b991211e477dd8f766fe67432d9d493d0
-ms.sourcegitcommit: c0b581e4c647b6c47bc14d1d7bfe267832afecba
+ms.openlocfilehash: eecfb101af9a91f515aab221181c54d53e358a68
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1913100"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652430"
 ---
 # <a name="create-consumption-reports"></a>Sunaudojimo ataskaitų kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Kai sukūrėte ir užregistravote sunaudojimo registracijas darbo užsakymuose turto valdyme, prieinamos dvi ataskaitos, kuriose rodoma sunaudojimo išsami informacija.
 
@@ -40,9 +40,14 @@ Kai užregistravote sunaudojimą darbo užsakymuose, galite atsispausdinti turto
 
 1. Spustelėkite **Turto valdymas** > **Ataskaitos** > **Turtas** > **Turto sunaudojimas**.
 
-2. Dialogo lange **Turto sunaudojimas** pažymėkite parametrus ir išsamumo lygį, kurį norite matyti atitinkamuose perjungimo mygtukuose pažymėdami Taip ir įterpdami funkcinės vietos lygmenį skyriuje **Rodyti**.
-    - Galite naudoti lauką **Lygiai**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti turto eilutėse. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, visas, skirtas funkcinei vietai, bus rodomos viršuje, todėl eilutę galėsite įtraukti iš žemesniame lygmenyje patalpintų funkcinių vietų. Jei lauke **Lygiai** įrašysite skaičių „0“, matysite išsamų rezultatą, rodantį visą turtą visuose funkcinių vietų lygiuose, su kuriais jos yra susijusios. 
-    - Perjungimo mygtuke **Viso antrinio turto suma** pažymėkite Taip, kad ataskaitoje matytumėte kiekvieno antrinio turto sumą.
+2. Dialogo lange **Turto sunaudojimas** pažymėkite parametrus ir išsamumo lygį, kurį norite matyti, atitinkamuose perjungimo mygtukuose pažymėdami **Taip** ir įterpdami funkcinės vietos lygmenį dalyje **Rodyti**.
+    - Galite naudoti lauką **Lygiai**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti turto eilutėse. 
+    
+        Pavyzdžiui, jei lauke įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, visas turtas, skirtas funkcinei vietai, bus rodomas viršuje, todėl eilutę galėsite įtraukti iš žemesniame lygmenyje esančių funkcinių vietų. 
+        
+        Jei lauke **Lygiai** įrašysite skaičių „0“, matysite išsamų rezultatą, rodant visą turtą visuose funkcinių vietų lygiuose, su kuriais jis yra susijęs. 
+        
+    - Perjungimo mygtuke **Viso antrinio turto suma** pažymėkite **Taip**, kad ataskaitoje matytumėte kiekvieno antrinio turto sumą.
 
 3. Skyriuje **Datos** pažymėkite datos intervalą.
 
@@ -59,7 +64,7 @@ Kai užregistravote sunaudojimą darbo užsakymuose, galite atsispausdinti darbo
 
 1. Spustelėkite **Turto valdymas** > **Ataskaitos** > **Darbo užsakymai** > **Darbo užsakymo sunaudojimas**.
 
-2. Dialogo lange **Darbo užsakymo sunaudojimas** pažymėkite parametrus, kuriuos norite įtraukti į ataskaitą, skyriuje **Rodyti** atitinkamuose perjungimo mygtukuose pažymėdami Taip.
+2. Dialogo lange **Darbo užsakymo sunaudojimas** pažymėkite parametrus, kuriuos norite įtraukti į ataskaitą, dalyje **Rodyti** atitinkamuose perjungimo mygtukuose pasirinkdami **Taip**.
 
 3. Skyriuje **Datos** pažymėkite datos intervalą.
 

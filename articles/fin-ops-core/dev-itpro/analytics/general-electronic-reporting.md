@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ce7b5418ab9e1a9abd6c3206c74c5a1cf739a3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11ed2101304c4e09744bbd10e94e9cd2a8db4da5
+ms.sourcegitcommit: dd960cf07d8be791fd27c7bb72e6baa2d63ccd51
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181892"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578246"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -71,9 +71,8 @@ Modelio susiejimas, kuris palaiko siunčiamus elektroninius dokumentus, turi ši
 
 - Jis gali naudoti skirtingus duomenų tipus kaip duomenų modelio duomenų šaltinius. Pavyzdžiui, jis gali naudoti lenteles, duomenų objektus, metodus ar išvardijimus.
 - Jis palaiko vartotojo įvesties parametrus, kuriuos galima apibrėžti kaip duomenų modelio šaltinius, kai kai kuriuos duomenis reikia nurodyti vykdymo metu.
-- Jis palaiko duomenų transformavimą į reikiamas grupes. Su juo galite filtruoti, rūšiuoti ir sumuoti duomenis, taip pat pridėti loginius apskaičiuotus laukus, sukurtus su formulėmis, panašiomis į „Microsoft Excel“ formules, kaip pavaizduota tolesnėje iliustracijoje. Daugiau informacijos rasite [Elektroninių ataskaitų formulių kūrimo įrankyje](general-electronic-reporting-formula-designer.md)).
+- Jis palaiko duomenų transformavimą į reikiamas grupes. Su juo galite filtruoti, rūšiuoti ir sumuoti duomenis, taip pat pridėti loginius apskaičiuotus laukus, sukurtus su formulėmis, panašiomis į „Microsoft Excel“ formules. Daugiau informacijos rasite [Elektroninių ataskaitų formulių kūrimo įrankyje](general-electronic-reporting-formula-designer.md)).
 
-[![Formulių kūrimo įrankis](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Modelio susiejimas, kuris palaiko gaunamus elektroninius dokumentus, turi šias galimybes:
 
@@ -196,9 +195,7 @@ Galima registruoti atskirai kiekvieno dabartinio egzemplioriaus konfigūracijos 
 ## <a name="supported-scenarios"></a>Palaikomi scenarijai
 ### <a name="building-a-data-model"></a>Duomenų modelio kūrimas
 
-ER teikia modelių kūrimo įrankį, kurį galite naudoti konkrečiam verslo domenui skirtam duomenų modeliui kurti. Visus domenui būdingus verslo objektus ir jų ryšius galima pateikti duomenų modelyje kaip hierarchinę struktūrą. Tolesnėje iliustracijoje pateikiamas šio tipo duomenų modelio pavyzdys (mokėjimo domeno duomenų modelis).
-
-[![Mokėjimo domeno duomenų modelis](./media/ER-overview-04.png)](./media/ER-overview-04.png)
+ER teikia modelių kūrimo įrankį, kurį galite naudoti konkrečiam verslo domenui skirtam duomenų modeliui kurti. Visus domenui būdingus verslo objektus ir jų ryšius galima pateikti duomenų modelyje kaip hierarchinę struktūrą. 
 
 Paleiskite užduočių vedlį **ER konkretaus domeno duomenų modelio kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
@@ -209,24 +206,14 @@ Duomenų modelio turinį (etiketes ir aprašus) galima išversti į kitas progra
 - Norint, kad kitomis kalbomis kalbantys formato kūrėjai, kurie naudos duomenų modelį formato komponentų duomenims susieti, kurdami lengviau suprastų turinį.
 - Norint turinį padaryti patogesnį naudoti vykdymo metu, teikiant vykdymo parametrų raginimus ir pagalbą bei sukonfigūruotus tikrinimo pranešimus (klaidų, įspėjimų) tuo metu prisijungusio vartotojo pageidaujama kalba.
 
-Tolesnėje iliustracijoje pateikiamas pavyzdys, kuriame duomenų modelio turinys išverstas iš anglų k. į japonų k.
-
-[![Duomenų modelio turinys anglų k.](./media/ER-overview-05.png)](./media/ER-overview-05.png)
-
-[![Duomenų modelio turinys, išverstas į japonų k.](./media/ER-overview-06.png)](./media/ER-overview-06.png)
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Siunčiamų dokumentų modelio susiejimų konfigūravimas
 
-ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai gali susieti duomenų modelius, kuriuos jie sukūrė konkretiems programos duomenų šaltiniams. Remiantis susiejimu, vykdymo metu į duomenų modelį bus importuojami duomenys iš pasirinktų duomenų šaltinių. Tada duomenų modelis naudojamas kaip ER formatų, kurie generuoja siunčiamus elektroninius dokumentus, abstrakčių duomenų šaltinis. Tolesnėje iliustracijoje pateikiamas tokio tipo duomenų modelio susiejimo pavyzdys (mokėjimo domeno duomenų modelio **SEPA kredito pervedimo** modelio susiejimas).
-
-[![Duomenų modelio susiejimo pavyzdys](./media/ER-overview-07.png)](./media/ER-overview-07.png)
+ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai gali susieti duomenų modelius, kuriuos jie sukūrė konkretiems programos duomenų šaltiniams. Remiantis susiejimu, vykdymo metu į duomenų modelį bus importuojami duomenys iš pasirinktų duomenų šaltinių. Tada duomenų modelis naudojamas kaip ER formatų, kurie generuoja siunčiamus elektroninius dokumentus, abstrakčių duomenų šaltinis. 
 
 Paleiskite užduočių vedlius **ER modelio susiejimo nustatymas ir duomenų šaltinių pasirinkimas** ir **ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gaunamų dokumentų modelio susiejimų konfigūravimas
-ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai gali susieti duomenų modelius, kuriuos sukūrė konkrečioms paskirties vietoms. Pavyzdžiui, duomenų modelius galima susieti su naujintinais duomenų komponentais (lentelėmis, duomenų objektais ir rodiniais). Remiantis susiejimu, vykdymo metu bus atnaujinti duomenys, naudojant duomenis iš duomenų modelio. Kaip ER formato abstrakti saugykla duomenų modelis užpildomas iš gaunamo elektroninio dokumento importuotais duomenimis. Tolesnėje iliustracijoje pateikiamas šio tipo duomenų modelio susiejimo pavyzdys. Šiame pavyzdyje naudojamas mokėjimo domeno duomenų modelio **Importavimo susiejimas, skirtas NETS** modelio susiejimas, skirtas palaikyti banko išrašų NETS banko formatu importavimą Norvegijoje.
-
-[![Importavimo susiejimo, skirto NETS, duomenų modelio pavyzdys](./media/ER-overview-08.png)](./media/ER-overview-08.png)
+ER teikia modelio susiejimų kūrimo įrankį, kurį naudodami vartotojai gali susieti duomenų modelius, kuriuos sukūrė konkrečioms paskirties vietoms. Pavyzdžiui, duomenų modelius galima susieti su naujintinais duomenų komponentais (lentelėmis, duomenų objektais ir rodiniais). Remiantis susiejimu, vykdymo metu bus atnaujinti duomenys, naudojant duomenis iš duomenų modelio. Kaip ER formato abstrakti saugykla duomenų modelis užpildomas iš gaunamo elektroninio dokumento importuotais duomenimis. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Sukurto modelio komponento saugojimas kaip modelio konfigūracijos
 
@@ -236,24 +223,18 @@ Paleiskite užduočių vedlį **ER duomenų modelio susiejimas su pasirinktais d
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Formato kūrimas pasirenkant duomenų modelį kaip pagrindą
 
-ER palaiko formato kūrimo įrankį, kurį galima naudoti norint kurti pasirinkto verslo domeno elektroninio dokumento formatą pasirenkant modelio komponentą kaip pagrindą. Tas pats ER formato kūrimo įrankis teikia galimybę sukurtą formatą susieti su pasirinkto domeno duomenų modelio susiejimu kaip duomenų šaltiniu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys (formato konfigūracija, kad būtų palaikomas Jungtinės Karalystės **BACS** mokėjimo formatas).
-
-[![Formato, kuriame duomenų modelis naudojamas kaip pagrindas, pavyzdys](./media/ER-overview-09.png)](./media/ER-overview-09.png)
+ER palaiko formato kūrimo įrankį, kurį galima naudoti norint kurti pasirinkto verslo domeno elektroninio dokumento formatą pasirenkant modelio komponentą kaip pagrindą. Tas pats ER formato kūrimo įrankis teikia galimybę sukurtą formatą susieti su pasirinkto domeno duomenų modelio susiejimu kaip duomenų šaltiniu. 
 
 Paleiskite užduočių vedlį **ER konkretaus domeno formato kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Konfigūracijos, skirtos elektroninius dokumentus generuoti OPENXML darbalapio formatu, kūrimas
 
-ER formato kūrimo įrankį galima naudoti, norint kurti elektroninį dokumentą OPENXML darbalapio formatu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys (formato konfigūracija, skirta generuoti OPENXML darbalapį su pasirinkto mokėjimo žurnalo informacija).
-
-[![Pic-ER-format-Excel](./media/ER-overview-10.png)](./media/ER-overview-10.png)
+ER formato kūrimo įrankį galima naudoti, norint kurti elektroninį dokumentą OPENXML darbalapio formatu. 
 
 Paleiskite užduočių vedlį **ER konfigūracijos, skirtos generuoti ataskaitas OPENXML formatu, kūrimas** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis), norėdami išsamiai susipažinti su šiuo scenarijumi. Vykdydami užduočių vedlio veiksmą, skirtą importuoti šabloną, kaip šabloną naudokite „Excel“ failą [Mokėjimo ataskaitos šablonas (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Konfigūracijos, skirtos elektroninius dokumentus generuoti „Word“ dokumento formatu, kūrimas
 ER formato kūrimo įrankį galima naudoti, norint kurti elektroninį dokumentą „Word“ dokumento formatu. Tolesnėje iliustracijoje pateikiamas šio tipo formato pavyzdys. Atkreipkite dėmesį, kad šis formatas pakartotinai naudoja esamą ER konfigūraciją, kuri iš pradžių buvo skirta ataskaitos išvesčiai OPENXML formatu generuoti.
-
-[![Pic-ER-format-Word](./media/ER-overview-11.png)](./media/ER-overview-11.png)
 
 Norėdami išsamiai susipažinti su šiuo scenarijumi, paleiskite užduočių vedlį ER konfigūracijos, skirtos generuoti ataskaitas „Microsoft WORD“ formatu, kūrimas (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis). Vykdant užduoties vadovas veiksmo importuoti šabloną, naudokite šiuos Word failus šablonų nustatymas ER formato:
 
@@ -261,11 +242,7 @@ Norėdami išsamiai susipažinti su šiuo scenarijumi, paleiskite užduočių ve
 - [Susietas mokėjimo ataskaitos šablonas (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Konfigūracijos, skirtos importuoti duomenis iš gaunamų elektroninių dokumentų, kūrimas
-ER formato kūrimo įrankį galima naudoti norint aprašyti elektroninį dokumentą, kuriam suplanuotas duomenų importavimas XML arba teksto formatu. Sukurta formatas naudojamas išanalizuoti gaunamą dokumentą. ER formato susiejimo kūrimo įrankį galima naudoti norint apibrėžti sukurto formato elementų susiejimą su duomenų modeliu. Tolesnėse iliustracijose pateikiamas šio tipo formato ir formato susiejimo pavyzdys. Šiame pavyzdyje importuoti NETS banko išrašai, kuriuose pateikta tiekėjo mokėjimo informacija tekstiniu formatu.
-
-[![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
-
-[![ER-model-mapping-designer](./media/ER-overview-13.png)](./media/ER-overview-13.png)
+ER formato kūrimo įrankį galima naudoti norint aprašyti elektroninį dokumentą, kuriam suplanuotas duomenų importavimas XML arba teksto formatu. Sukurta formatas naudojamas išanalizuoti gaunamą dokumentą. ER formato susiejimo kūrimo įrankį galima naudoti norint apibrėžti sukurto formato elementų susiejimą su duomenų modeliu. 
 
 Norėdami išsamiai susipažinti su šiuo scenarijumi, paleiskite užduočių vedlį ER konfigūracijos, skirtos importuoti duomenis iš išorinio failo, kūrimas (verslo proceso 7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677) dalis). Norėdami paleisti šį vedlį, naudokite toliau nurodytus failus.
 
@@ -280,11 +257,7 @@ ER gali saugoti sukurtą formatą su sukonfigūruotais duomenų susiejimais kaip
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>„Finance“ konfigūravimas norint pradėti naudoti sukurtą formatą viduje
 
-Programą galima konfigūruoti, kad ji sukurtą formatą pradėtų naudoti elektroninėms ataskaitoms generuoti. Nuoroda į sukurto formato konfigūraciją turi būti apibrėžta naudojant konkretaus domeno parametrus. Pvz., norint pradėti naudoti ER formato konfigūraciją elektroniniams tiekėjo mokėjimams BACS formatu apdoroti, formato konfigūraciją reikia nurodyti konkrečiuose mokėjimo būduose, kaip parodyta tolesnėse iliustracijose.
-
-[![BACS (JK) formato konfigūracija](./media/ER-overview-14.png)](./media/ER-overview-14.png)
-
-[![BACS (JK) formato nurodymas mokėjimo būde](./media/ER-overview-15.png)](./media/ER-overview-15.png)
+Programą galima konfigūruoti, kad ji sukurtą formatą pradėtų naudoti elektroninėms ataskaitoms generuoti. Nuoroda į sukurto formato konfigūraciją turi būti apibrėžta naudojant konkretaus domeno parametrus. Pvz., norint pradėti naudoti ER formato konfigūraciją elektroniniams tiekėjo mokėjimams BACS formatu apdoroti, formato konfigūraciją reikia nurodyti konkrečiuose mokėjimo būduose.
 
 Paleiskite užduočių vedlį **ER formato naudojimas elektroniniams mokėjimų dokumentams generuoti** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų (10677)** dalis) norėdami išsamiai susipažinti su šiuo scenarijumi.
 

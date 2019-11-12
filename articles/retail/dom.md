@@ -3,7 +3,7 @@ title: Paskirstytų užsakymų tvarkymas (DOM)
 description: Šioje temoje aprašoma „Dynamics 365 Retail“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
 author: josaw1
 manager: AnnBe
-ms.date: 11/15/2018
+ms.date: 10/14/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fee0d9257af86a734a60b469db3a006435f1d3d2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
+ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023424"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "2578489"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
@@ -94,6 +94,7 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
         - **Įvykdyti dalines eilutes?** – Jei ši parinktis nustatoma kaip **Taip**, DOM gali įvykdyti dalinį užsakymo eilučių kiekį. Iš dalies įvykdoma užsakymo eilutę išskaidant.
         - **Užsakymą įvykdyti tik iš vienos vietos** – jei ši parinktis nustatoma kaip **Taip**, DOM užtikrina, kad visos užsakymo eilutės būtų įvykdomos iš vienos vietos.
 
+
         Tolesnėje lentelėje paaiškinama, kaip veikia nustatytas šių parametrų derinys.
 
         |      | Įvykdyti dalinius užsakymus | Įvykdyti dalines eilutes | Užsakymą įvykdyti tik iš vienos vietos | Aprašas |
@@ -110,19 +111,22 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
         \* Jei parinktis **Įvykdyti dalinius užsakymus** yra nustatyta kaip **Ne**, visada laikoma, kad parinktis **Įvykdyti dalines eilutes** yra nustatyta kaip **Ne** – nesvarbu, kaip ji nustatyta iš tikrųjų.
 
-    - **Neprijungtos įvykdymo vietos taisyklė** – ši taisyklė organizacijoms leidžia tam tikrą vietą ar vietų grupę nurodyti kaip neprijungtą ar nepasiekiamą DOM sistemai, kad ten nebūtų galima priskirti užsakymų, kuriuos reikia įvykdyti.
+> [!NOTE]
+> „Retail” versijoje 10.0.5 parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos vietos, ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų rinkinio (iki 5), ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą.
+
+   - **Neprijungtos įvykdymo vietos taisyklė** – ši taisyklė organizacijoms leidžia tam tikrą vietą ar vietų grupę nurodyti kaip neprijungtą ar nepasiekiamą DOM sistemai, kad toms vietoms nebūtų galima priskirti užsakymų, kuriuos reikia įvykdyti.
     - **Didžiausio atmetimų skaičiaus taisyklė** – ši taisyklė organizacijoms leidžia nustatyti atmetimų ribą. Kai bus pasiekta ši riba, DOM doroklė užsakymą arba užsakymo eilutę pažymės kaip išimtį ir jų neįtrauks į kitą apdorojimo etapą.
 
         Tam tikrai vietai priskyrus užsakymo eilučių, ta vieta gali priskirtą užsakymo eilutę atmesti, nes dėl tam tikrų priežasčių ji gali tos eilutės negalėti įvykdyti. Atmestos eilutės yra pažymimos kaip išimtys ir grąžinamos į telkinį, kad būtų apdorojamos kito vykdymo metu. Kito vykdymo metu DOM atmestą eilutę bandys priskirti kitai vietai. Naujoji vieta taip pat gali atmesti priskirtą užsakymo eilutę. Toks priskyrimo ir atmetimo ciklas gali įvykti keletą kartų. Kai atmetimų skaičius pasieks nustatytą ribą, DOM užsakymo eilutę pažymės kaip nuolatinę išimtį ir jos nebeims priskirti. DOM tokią užsakymo eilutę iš naujo priskirti svarstys, tik jei vartotojas rankiniu būdu iš naujo nustatys užsakymo eilutės būseną.
 
-    - **Didžiausio atstumo taisyklė** – ši taisyklė organizacijoms leidžia nustatyti didžiausią atstumą, kuriuo gali būti nutolusi vieta ar vietų grupė, iš kurios įvykdomas užsakymas. Jei vietai nustatomos persidengiančios didžiausio atstumo taisyklės, DOM taikys tai vietai nustatytą trumpiausią didžiausią atstumą.
+   - **Didžiausio atstumo taisyklė** – ši taisyklė organizacijoms leidžia nustatyti didžiausią atstumą, kuriuo gali būti nutolusi vieta ar vietų grupė, iš kurios įvykdomas užsakymas. Jei vietai nustatomos persidengiančios didžiausio atstumo taisyklės, DOM taikys tai vietai nustatytą trumpiausią didžiausią atstumą.
     - **Didžiausio užsakymų skaičiaus taisyklė** – ši taisyklė organizacijoms leidžia nustatyti didžiausią užsakymų skaičių, kurį vieta ar vietų grupė gali apdoroti per kalendorinę dieną. Jei per vieną dieną kokiai nors vietai priskiriamas didžiausias užsakymų skaičius, DOM likusią tą kalendorinę dainą tai vietai daugiau užsakymų nepriskirs.
 
-    Toliau pateikiama keletas bendrų atributų, kuriuos galima nustatyti visų ankstesnių tipų taisyklėms.
+   Toliau pateikiama keletas bendrų atributų, kuriuos galima nustatyti visų ankstesnių tipų taisyklėms.
 
-    - **Pradžios data** ir **Pabaigos data** – naudojant šiuos laukus, kiekvieną taisyklę galima padaryti priklausomą nuo datos.
-    - **Išjungta** – DOM vykdymo metu svarstoma tik apie tas taisykles, kuriose šio lauko reikšmė yra **Ne**.
-    - **Labai ribota** – taisyklę galima nustatyti kaip labai ribotą arba nelabai ribotą. Kiekvienas DOM vykdymas atliekamas du kartus. Pirmą kartą kiekviena taisyklė laikoma labai ribota taisykle, neatsižvelgiant į šio lauko parametrą. Kitaip tariant, pritaikoma kiekviena taisyklė. Vienintelė išimtis yra taisyklė **Vietos prioritetas**. Antrą kartą taisyklės, kurios nebuvo nustatytos kaip labai ribotos, yra pašalinamos ir vietoms priskiriamas tas užsakymas ar tos užsakymo eilutės, kurios nebuvo priskirtos vietoms pritaikius visas taisykles.
+   - **Pradžios data** ir **Pabaigos data** – naudojant šiuos laukus, kiekvieną taisyklę galima padaryti priklausomą nuo datos.
+   - **Išjungta** – DOM vykdymo metu svarstoma tik apie tas taisykles, kuriose šio lauko reikšmė yra **Ne**.
+   - **Labai ribota** – taisyklę galima nustatyti kaip labai ribotą arba nelabai ribotą. Kiekvienas DOM vykdymas atliekamas du kartus. Pirmą kartą kiekviena taisyklė laikoma labai ribota taisykle, neatsižvelgiant į šio lauko parametrą. Kitaip tariant, pritaikoma kiekviena taisyklė. Vienintelė išimtis yra taisyklė **Vietos prioritetas**. Antrą kartą taisyklės, kurios nebuvo nustatytos kaip labai ribotos, yra pašalinamos ir vietoms priskiriamas tas užsakymas ar tos užsakymo eilutės, kurios nebuvo priskirtos vietoms pritaikius visas taisykles.
 
 10. Naudojant įvykdymo profilius grupuojamas taisyklių, juridinių subjektų, pardavimo užsakymų kilmių ir pristatymo būdų rinkinys. Kiekvienas DOM vykdymas atliekamas konkrečiam įvykdymo profiliui. Taip organizacijos tam tikras taisykles gali nustatyti ir vykdyti tam tikriems juridiniams subjektams (užsakymuose su konkrečiomis pardavimo užsakymų kilmėmis ir pristatymo būdais). Todėl, jei skirtingoms pardavimo užsakymų kilmėms ar skirtingiems pristatymo būdams reikia vykdyti skirtingas taisykles, įvykdymo profilius galima nustatyti atitinkamai. Norėdami nustatyti įvykdymo profilius, atlikite tolesnius veiksmus.  
 

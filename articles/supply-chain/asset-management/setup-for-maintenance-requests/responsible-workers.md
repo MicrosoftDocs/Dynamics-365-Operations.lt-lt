@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 432a235668bbd969f497003a98b7f66390e5308f
-ms.sourcegitcommit: 2c73749779274e0b0abbcb4041bbc1df0fb6d6e4
+ms.openlocfilehash: 63f436ffd01ac56bb4bc0021e226dad46d7c3377
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "1790520"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569920"
 ---
 # <a name="responsible-maintenance-workers"></a>Už priežiūrą atsakingi darbuotojai
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Už priežiūrą atsakingi darbuotojai gali būti susiję su turto tipais, turtu, funkcinėmis vietovėmis, priežiūros užduoties tipo kategorijomis, priežiūros užduočių tipais, priežiūros užduoties tipo variantais ir prekyba. Jie gali būti naudojami darbo užsakymuose ir priežiūros užklausose, siekiant nurodyti nuostatą, kurie priežiūros darbuotojai turėtų būti atsakingi už darbo užsakymą. (Tačiau šie techninės priežiūros darbuotojai nebūtinai yra tie patys darbuotojai, kuriems numatyta atlikti darbų užsakymą.) Šios funkcijos naudojimas yra neprivalomas. Pavyzdžiui, ji gali būti naudojama norint pasirinkti atsakingus darbuotojus arba darbuotojų grupes konkretiems darbo tipams arba darbo sritims.
 
@@ -44,7 +44,7 @@ Kad galėtumėte nustatyti už priežiūrą atsakingus darbuotojus, turite nusta
 
 ## <a name="set-up-responsible-maintenance-workers"></a>Už priežiūrą atsakingų darbuotojų nustatymas
 
-1. Pasirinkite **Asset management** \> **Setup** \> **Workers** \> **Responsible maintenance workers**.
+1. Pasirinkite **Turto valdymas** \> **Sąranka** \> **Darbuotojai** \> **Atsakingi priežiūros darbuotojai**.
 2. Pasirinkite **Naujas** pranešimui sukurti.
 3. Visų pirma sukurkite numatytąjį už priežiūrą atsakingą darbuotoją arba už priežiūrą atsakingų darbuotojų grupės konfigūraciją, kurioje nustatysite tik lauką **Už priežiūrą atsakingų darbuotojų grupė** ir (arba) lauką **Atsakingas darbuotojas**. Likusius laukus palikite tuščius. Ši numatytoji konfigūracija bus naudojama darbo užsakymų planavimo metu, jei nebus rasta jokia kita, konkrečiau darbo užsakymo turinį atitinkanti kombinacija.
 
@@ -53,4 +53,4 @@ Kad galėtumėte nustatyti už priežiūrą atsakingus darbuotojus, turite nusta
 
 Paveikslėlyje pavaizduotas puslapio **Už priežiūrą atsakingi darbuotojai** pavyzdys.
 
-![1 paveikslėlis](media/08-setup-for-requests.png)
+![Už priežiūrą atsakingų darbuotojų puslapis](media/08-setup-for-requests.png)

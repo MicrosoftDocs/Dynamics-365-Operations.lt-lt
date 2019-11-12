@@ -1,9 +1,9 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 31 d.)
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 30 d.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
-ms.date: 7/30/2019
+ms.date: 07/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 83f3339e6cea1448f5b257acf602fe5ca3449555
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3676a0a1fa77285d0203e8e49725cb1c1b742d39
+ms.sourcegitcommit: 029c1882bef558b6a45843548e94ab8369ed9870
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010250"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2651716"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 30 d.)
 
@@ -57,7 +57,7 @@ Toliau nurodomos pareigų sąrašų pasirinktys: **Visos pareigos**, **Aktyvios 
 
 ### <a name="fte-analysis-displaying-incorrect-fte-number"></a>FTE analizė rodo neteisingą FTE numerį
 
-**FTE analizė** buvo ištaisyta **personalo valdymo** skirtuke **Analizė**.
+**FTE analizė** buvo ištaisyta skirtuke **Analizė**, priklausančiame **Personalo valdymas**.
 
 ### <a name="final-comments-label-translation"></a>Baigiamųjų komentarų žymos vertimas
 

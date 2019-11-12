@@ -1,5 +1,5 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 25 d.)
+title: Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 02 d.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 author: Darinkramer
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a5de33a3a4f22f2a5be672c492fc59a6429b49e1
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 72ab29aff7f762c095c414e6edd0e49870e4a500
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010296"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551805"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-02-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 02 d.)
 

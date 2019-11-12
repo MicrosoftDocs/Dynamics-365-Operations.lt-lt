@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4fc32d337be1f71932555fcb062a8d05c9ca9bda
-ms.sourcegitcommit: 2292b54e2da96f71b59ec9ccf17cd32d3d1d8b21
+ms.openlocfilehash: 1aee14c869d84bef38a738bfe78fd09ee7f82d94
+ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "1918423"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "2652384"
 ---
 # <a name="asset-kpis"></a>Turto KPI
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Turto valdyme galite skaičiuoti įvairius turto ir turto tipų pagrindinius efektyvumo indikatorius (KPI). Naudojate KPI, kad galėtumėte peržiūrėti turto efektyvumą, susijusį, pavyzdžiui, su darbinės būsenos periodu, prastova, remonto laiku ir vidutinio laiku tarp gedimų (MTBF).
 
@@ -85,7 +85,7 @@ Lentelėje toliau pateiktas laukų puslapyje **Turto KPI** aprašas.
 
 Toliau pateiktame paveiksle rodoma keturių turtų KPI skaičiavimo ekrano kopija.
 
-![1 pav.](media/11-controlling-and-reporting.png)
+![Keturių turtų KPI skaičiavimo ekrano kopija](media/11-controlling-and-reporting.png)
 
 - **Visas turtas** galite pažymėti kelis turtus, tada spustelėkite skirtuko **Bendra** mygtuką **Turto KPI**. Tada dialogo lange **Skaičiuoti turto KPI** spustelėkite **Gerai**, kad apskaičiuotumėte pasirinkto turto KPI.  
 - Į KPI skaičiavimo rezultatus gali arba negali būti įtrauktos [prižiūrimo turto prastovos registracijos](../work-orders/maintenance-downtime.md) atsižvelgiant į sąranką ir prižiūrimo turto prastovos priežasčių kodų naudojimą. 

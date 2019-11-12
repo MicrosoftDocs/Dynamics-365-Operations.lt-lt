@@ -3,7 +3,7 @@ title: Neautomatiniu būdu sukurti darbo užsakymai
 description: Šioje temoje paaiškinta, kaip kurti darbo užsakymą rankiniu būdu skiltyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,131 +16,153 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 261448a134a7c1aacfbb4ea6f954ce03a63c23e2
-ms.sourcegitcommit: f5bfa3212bc3ef7d944a358ef08fe8863fd93b91
+ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "1875797"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626252"
 ---
 # <a name="manually-created-work-orders"></a>Neautomatiniu būdu sukurti darbo užsakymai
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
-
 
 Galite kurti darbo užsakymus rankiniu būdu dviem būdais:
 
-- Skiltyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**  
-- Skiltyje **Visos priežiūros užklausos** arba **Aktyviosios priežiūros užklausos**, arba **Mano funkcinės vietos priežiūros užklausos**  
+- Puslapyje **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai** 
+- Puslapyje **Visos priežiūros užklausos** arba **Aktyviosios priežiūros užklausos**, arba **Mano funkcinės vietos priežiūros užklausos** 
 
 ## <a name="create-work-order"></a>Kurti darbo užsakymą
 
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
-2. Spustelėkite mygtuką **Naujas**.
+2. Pasirinkite **Naujas**.
 
-3. Išplečiamajame meniu **Sukurti darbo užsakymą** pasirinkite darbo užsakymo tipą.
+3. Dialogo lange **Kurti darbo užsakymą**, lauke **Darbo užsakymo tipas**, pasirinkite darbo užsakymo tipą.
 
-4. Jei reikia, pasirinkite aprašą.
+4. Jei reikia, pasirinkite **aprašymą**.
 
-5. Pasirinkite darbo užsakymo turtą bei priežiūros užduoties tipą.
+5. Lauke **Turtas** pasirinkite turtą.
 
 >[!NOTE]
->Pasirinkus turtą galimi trys skirtukai: skirtuke **Mano turtas** nurodomas turtas, susijęs su funkcine vieta, į kurią jūs (prisijungęs į sistemą darbuotojas) galite būti paskirtas (sąranka aprašoma [Priežiūros darbuotojai ir darbo grupės](../setup-for-objects/workers-and-worker-groups.md)). Jei darbuotojui nėra nurodyta funkcinė vieta skiltyje [Priežiūros darbuotojai ir darbo grupės](../setup-for-objects/workers-and-worker-groups.md), skirtukas **Mano turtas** nebus rodomas. Skirtuke **Aktyvus turtas** yra viso turto, kurio turto ciklo būsena „Aktyvi“, sąrašas. Skirtuke **Turto rodinys** rodomas funkcinių vietų ir tose vietose įdiegto turto medžio rodinys.
+>Pasirinkus turtą, išplečiamajame meniu **Turtas** gali būti galimi trys toliau pateikti skirtukai. 
 
-6. Jei reikia, pasirinkite **Priežiūros užduoties tipo variantas** ir **Prekybos šaka**.
+- **Aktyvus turtas**: šiame skirtuke yra viso turto, kurio turto ciklo būsena „Aktyvi“, sąrašas. 
+- **Turto rodinys**: šiame skirtuke rodomas funkcinių vietų ir jose įdiegto turto medžio rodinys.
+- **Mano turtas**: šiame skirtuke yra turtas, susijęs su funkcinėmis vietomis, į kurias jūs (darbuotojas, prisijungęs prie sistemos) galite būti priskirtas. (Norėdami gauti informacijos apie nustatymą, žr. [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md).) Jei darbuotojui nėra priskirtų funkcinių vietų skiltyje [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md), skirtukas **Mano turtas** negalimas. 
 
-7. Jei reikia, galite keisti darbo užsakymo aptarnavimo lygį lauke **Aptarnavimo lygis**.
+6. Lauke **Priežiūros užduoties tipas** pasirinkite darbo užsakymo priežiūros užduoties tipą.
 
-8. Susijusiuose laukuose pasirinkite numatomas pradžios ir pabaigos datas.
+7. Jei reikia, pasirinkite **Priežiūros užduoties tipo variantas** ir **Prekybos šaka**.
 
-9. Spustelėkite **Gerai**, kad sukurtumėte naują darbo užsakymą.
+8. Jei reikia, galite keisti darbo užsakymo aptarnavimo lygį lauke **Aptarnavimo lygis**.
 
-10. Redaguokite, jei reikia, darbo užsakymą, pasirinkę **Visi darbo užsakymai**.
+9. Susijusiuose laukuose pasirinkite **numatomas pradžios** ir **numatomas pabaigos** datas.
 
-- Pasirinkę **Visi darbo užsakymai** galite pridėti prie darbo užsakymo kelis turtus Išsamios informacijos rodinyje įterpdami eilutes į „FastTab“ **Darbo užsakymų priežiūros užduotys**. Turtui galite pasirinkti tik tuos priežiūros užduoties tipus, kurie yra nurodyti turto tipe konkrečiam turtui.  
-- Jei pakeitėte turto aptarnavimo lygį arba turto kritiškumą, po to, kai panaudojote jį darbo užsakyme (žr. [Turto aptarnavimo lygiai](../setup-for-objects/object-priorities.md) ir [Turto kritiškumas](../setup-for-objects/object-criticalities.md)), darbo užsakymo aptarnavimo lygis arba kritiškumas atitinkamai nėra naujinami.
-- Darbo užsakymo kritiškumas yra perskaičiuojamas kiekvienąkart, kai darbo užsakymo eilutė yra įterpiama arba pašalinama tame darbo užsakyme.
-- Išsamios informacijos rodinyje **Visi darbo užsakymai** > rodinyje **Antraštė** > „FastTab“ **Grafikas** galite pasirinkti atsakingą priežiūros darbo grupę arba atsakingą priežiūros darbuotoją laukuose **Atsakinga grupė** arba **Atsakingas**. Šie parametrai gali būti keičiami tol, kol darbo užsakymas yra aktyvus, pavyzdžiui, kai darbo užsakymo ciklo būsena pakinta. Automatinė atranka, vykdoma kuriant darbo užsakymą, yra grindžiama sąranka, esančia **Atsakingi priežiūros darbuotojai**. Jei pridėsite arba pašalinsite darbo užsakymo užduotis po to, kai sukūrėte darbo užsakymą, o atnaujinus darbo užsakymą laukai **Atsakinga grupė** ir **Atsakingas**, Turto valdyme bus ieškomos galimos atitiktys sąrankos formoje, skirtoje nurodyti atsakingą priežiūros darbo grupę arba atsakingą priežiūros darbuotoją. Jei atnaujinus darbo užsakymą laukas **Atsakinga grupė** arba laukas **Atsakingas** jau yra užpildyti, pakeitimai nėra vykdomi. 
+10. Spustelėkite **Gerai**, kad sukurtumėte darbo užsakymą.
 
-- Skiltyje **Priežiūros būsena** galite vykdyti skaičiavimus, kuriuos atlikus bus suformuojama darbo krūvio, susijusio su gaunamais ir baigtais darbo užsakymais, apžvalga.  
+11. Sąrašo puslapyje **Visi darbo užsakymai** galite pagal poreikį redaguoti darbo užsakymą.
 
-- „FastTab“ **Eilutės išsami informacija** naudokite laukus **Platuma** ir **Ilguma** įterpti geografines koordinates turtui, pasirinktam darbo užsakymo užduočiai.  
+Atkreipkite dėmesį į toliau nurodytus punktus.
+
+- Sąrašo puslapio **Visi darbo užsakymai** išsamios informacijos rodinyje galite pridėti kelis turtus prie darbo užsakymo įterpdami eilutes į „FastTab“ **Darbo užsakymų priežiūros užduotys**. Turtui galite pasirinkti tik tuos priežiūros užduoties tipus, kurie yra nurodyti turto tipe konkrečiam turtui.  
+
+- Jei pakeisite turto aptarnavimo lygį ar turto kritiškumą po to, kai naudojote turtą darbo užsakyme, šio darbo užsakymo aptarnavimo lygis ar kritiškumas nebus atitinkamai atnaujintas. Daugiau informacijos apie aptarnavimo lygius ir kritiškumus žr. [Turto aptarnavimo lygiai](../setup-for-objects/object-priorities.md) ir [Turto kritiškumai](../setup-for-objects/object-criticalities.md).
+
+- Darbo užsakymo kritiškumas iš naujo apskaičiuojamas kaskart, kai prie darbo užsakymo pridedama arba pašalinama darbo užsakymo užduotis.
+
+- Išsamios informacijos rodinyje **Visi darbo užsakymai** > skirtuke **Antraštė** > „FastTab“ **Grafikas**, laukuose **Atsakinga grupė** arba **Atsakingas**, galite pasirinkti atsakingą priežiūros darbo grupę arba atsakingą priežiūros darbuotoją. Šiuos parametrus galima keisti, kol darbo užsakymas yra aktyvus. Pavyzdžiui, jas galima pakeisti, kai pasikeičia darbo užsakymo ciklo būsena. Automatinė atranka, vykdoma kuriant darbo užsakymą, yra grindžiama sąranka, esančia puslapyje **Atsakingi priežiūros darbuotojai**. Jei pridėsite arba pašalinsite darbo užsakymo užduotis po to, kai sukūrėte darbo užsakymą, o atnaujinus darbo užsakymą laukai **Atsakinga grupė** ir **Atsakingas** yra tušti, turto valdyme bus ieškomos galimos atitiktys sąrankos formoje, skirtoje nurodyti atsakingą priežiūros darbo grupę arba atsakingą priežiūros darbuotoją. Jei atnaujinus darbo užsakymą laukai **Atsakinga grupė** arba **Atsakingas** jau yra nustatyti, pakeitimai nėra vykdomi. Daugiau informacijos apie už priežiūrą atsakingus darbuotojus ir darbuotojų grupes, rasite temoje [Atsakingi priežiūros darbuotojai](../setup-for-maintenance-requests/responsible-workers.md).
+
+- Puslapyje [Priežiūros būsena](../controlling-and-reporting/maintenance-status.md) galite vykdyti skaičiavimus, kuriuos atlikus bus suformuojama darbo krūvio, susijusio su gaunamais ir baigtais darbo užsakymais, apžvalga.  
+
+- Puslapio **Visi darbo užsakymai** išsamios informacijos rodinyje, „FastTab” **Eilutės informacija**, galite naudoti laukus **Platuma** ir **Ilguma**, kad būtų galima pridėti darbo užsakymo užduoties pasirinkto turto geografines koordinates.  
+
 
 ## <a name="create-related-work-order"></a>Kurti susijusį darbo užsakymą
 
-Galite sukurti susijusį darbo užsakymą esamam darbo užsakymui, pavyzdžiui, jei norite dirbti su pagrindiniais ir antriniais darbo užsakymais. Naujas darbo užsakymas yra kuriamas pagal darbo užsakymo užduotį iš esamo darbo užsakymo.
+Galite sukurti darbo užsakymą, susijusį su esamu darbo užsakymu. Ši galimybė naudinga jei, pavyzdžiui, norite dirbti su pirminiais ir antriniais darbo užsakymais. Naujas darbo užsakymas yra kuriamas pagal darbo užsakymo užduotį iš esamo darbo užsakymo.
 
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
-2. Pažymėkite darbo užsakymą, kuriam norite sukurti susijusį darbo užsakymą.
+2. Pasirinkite darbo užsakymą, kuriam kursite susijusį darbo užsakymą.
 
-3. Spustelėkite **Susijęs darbo užsakymas**.
+3. Veiksmų srities skirtuko **Darbo užsakymas** grupėje **Naujas** pasirinkite **Susijęs darbo užsakymas**.
 
-4. Išplečiamajame dialogo lange **Sukurti susijusį darbo užsakymą** pasirinkite darbo užsakymo užduotį, kuriai norite sukurti susijusį darbo užsakymą lauke **Darbo užsakymo užduotis**.
+4. Dialogo lange **Kurti susijusį darbo užsakymą**, lauke **Darbo užsakymo užduotis**, pasirinkite darbo užsakymo užduotį, kuriai norite sukurti susijusį darbo užsakymą.
 
-5. Pasirinkite priežiūros užduoties tipą lauke **Priežiūros užduoties tipas** ir, jei reikia, susijusį priežiūros užduoties tipo variantą ir prekybos šaką laukuose **Priežiūros užduoties tipo variantas** ir **Prekybos šaka**.
+5. Lauke **Priežiūros užduoties tipas** pasirinkite priežiūros užduoties tipą.
 
-6. Jei tai pirmas susijęs darbo užsakymas, kurį kursite, spustelėkite išrinkimo mygtuką **Naujas darbo užsakymas**.
+6. Laukuose **Priežiūros užduoties tipo variantas** ir **Prekybos šaka** pasirinkite susijusios priežiūros užduoties tipo variantą ir prekybos šaką.
 
-7. Susijusiuose laukuose pasirinkite **Darbo užsakymo tipas** ir **Aprašas**.
+7. Jei šis darbo užsakymas yra pirmas susijęs darbo užsakymas, sukurtas pasirinktam darbo užsakymui, atlikite toliau pateiktus veiksmus.
+    1. Pasirinkite parinktį **Naujas darbo užsakymas**.
+    2. Lauke **Darbo užsakymo tipas** pasirinkite darbo užsakymo tipą.
+    3. Lauke **Aprašas** įveskite aprašą.
+    4. Pagal poreikį keiskite darbo užsakymo aptarnavimo lygį lauke **Aptarnavimo lygis**.
+    5. Laukuose **Numatoma pradžia** ir **Numatoma pabaiga** pasirinkite numatomas pradžios bei pabaigos datas.
+    6. Pasirinkite **Gerai**. Naujai sukurtas susijęs darbo užsakymas bus rodomas sąrašo puslapyje **Visi darbo užsakymai**.  
 
-8. Prireikus keiskite darbo užsakymo aptarnavimo lygį lauke **Aptarnavimo lygis**.
+8. Jei darbo užsakymas, kuriam kuriate susijusį darbo užsakymą, jau turi susijusių darbo užsakymų, atlikite toliau pateiktus veiksmus, norėdami įtraukti naują darbo užsakymo užduotį į esamą susijusį darbo užsakymą.
+    1. Pasirinkite parinktį **Įtraukti į susijusį darbo užsakymą**.
+    2. Lauke **Darbo užsakymas** pažymėkite susijusį darbo užsakymą, kuriam norite pridėti naują darbo užsakymo užduotį.
+    3. Pagal poreikį keiskite darbo užsakymo aptarnavimo lygį lauke **Aptarnavimo lygis**.
+    4. Laukuose **Numatoma pradžia** ir **Numatoma pabaiga** pagal poreikį pakeiskite numatomas pradžios bei pabaigos datas.
+    5. Pasirinkite **Gerai**. Darbo užsakymo užduotis pridedama prie esamo susijusio darbo užsakymo.
 
-9. Įterpkite numatomas pradžios ir pabaigos datas susijusiuose laukuose.
+Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti susijusį darbo užsakymą** pavyzdys.
 
-10. Spustelėkite **Gerai**. Naujai sukurtas susijęs darbo užsakymas bus rodomas sąraše **Visi darbo užsakymai**.
+![1 pav.](media/03-work-orders.png)
 
-11. Jei kursite susijusį darbo užsakymą darbo užsakymui, kuris jau turi susijusių darbo užsakymų, galėsite įterpti darbo užsakymo užduotį jau esančiam susijusiam darbo užsakymui. Tai galite atlikti spustelėjus išrinkimo mygtuką **Pridėti prie darbo užsakymo** 6 etape. Tada pažymėkite susijusį darbo užsakymą, kuriam norite pridėti naują darbo užsakymo užduotį. Redaguokite kiek reikia laukus **Aptarnavimo lygis**, **Numatoma pradžia** ir **Numatoma pabaiga**, ir spustelėkite **Gerai**. Darbo užsakymo užduotis pridedama prie esamo susijusio darbo užsakymo.
+>[!NOTE]
+>Jei nustatėte susijusio darbo šabloną **Turto valdymo parametrai** > skirtuke **Darbo užsakymai** > lauke **Susijusio darbo užsakymo šablonas**, darbo užsakymo ID bus sukuriami pagal šablono sąranką. Jei nėra nurodytas joks susijusio darbo užsakymo šablonas, kitas pasiekiamas darbo užsakymo ID naudojamas susijusiems darbo užsakymams.
 
+## <a name="copy-a-work-order"></a>Kopijuoti darbo užsakymą
 
-![1 pav.](media/03-work-orders.png)
+Galite greitai sukurti naują darbo užsakymą iš esamo darbo užsakymo. Toks darbo užsakymų tvarkymas skiriasi nuo darbo užsakymų kūrimo pagal [priežiūros planus](../preventive-and-reactive-maintenance/maintenance-plans.md). Tai naudinga, pavyzdžiui, jei darbo užsakyme yra daug darbo užsakymo užduočių ir skirtingos užduotys turi būti atliktos skirtingam turtui ir reguliariais intervalais.
 
-**Pastaba.** Jei nustatėte susijusio darbo šabloną **Turto valdymo parametrai** > **Darbo užsakymai** nuorodoje > **Susijusio darbo užsakymo šablonas** lauke, darbo užsakymo ID bus sukuriami pagal šablono sąranką. Jei nėra nurodytas joks susijusio darbo užsakymo šablonas, kitas pasiekiamas darbo užsakymo ID bus naudojamas susijusiems darbo užsakymams.
-
-## <a name="copy-work-order"></a>Kopijuoti darbo užsakymą
-
-Galima greitai sukurti naują darbo užsakymą iš esamo darbo užsakymo. Toks darbo užsakymų tvarkymas skiriasi nuo darbo užsakymų kūrimo pagal priežiūros planus. Tai naudinga, pavyzdžiui, jei turite darbo užsakymą, kuriame yra daug darbo užsakymo užduočių su skirtingomis užduotimis, skirtomis skirtingam turtui, ir jos turi būti atliktos reguliariais intervalais.
-
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
 2. Pasirinkite darbo užsakymą, iš kurio norite nukopijuoti turinį.
 
-3. Spustelėkite **Kopijuoti darbo užsakymą**. Rodoma darbo užsakymo sąranka iš pasirinkto darbo užsakymo. Prireikus galite redaguoti kai kuriuos laukus.
+3. Veiksmų srityje > skirtuke **Darbo užsakymas** > grupėje **Naujas**, pasirinkite **Kopijuoti darbo užsakymą**.
 
-4. Spustelėkite **Gerai**, kad sukurtumėte naują darbo užsakymą.
+4. Rodoma darbo užsakymo sąranka iš pasirinkto darbo užsakymo. Prireikus galite redaguoti kai kuriuos laukus.
 
-5. Redaguokite, jei reikia, darbo užsakymą, pasirinkę **Visi darbo užsakymai**.
+5. Spustelėkite **Gerai**, kad sukurtumėte naują darbo užsakymą.
+
+6. Sąrašo puslapyje **Visi darbo užsakymai** galite pagal poreikį redaguoti darbo užsakymą.
 
 >[!NOTE]
->Kai sukuriamas naujas darbo užsakymas, dalis informacijos yra nukopijuojama tiesiai iš esamo darbo užsakymo. Tokia informacija kaip prognozės, įrankiai, priežiūros kontroliniai sąrašai, funkcinė vieta, adresai ir planavimas nėra kopijuojama, bet pradedama kurti iš esamos sąrankos Turto valdyme. Tai reiškia, jog, jei buvo įvykdyti pakeitimai tuose duomenyse sukūrus pirmą darbo užsakymą ir, iki kol padarėte darbo užsakymo kopiją, tie pakeitimai išliks naujai sukurtame darbo užsakyme. Pavyzdžiai – prognozių arba atnaujintų prižiūrimo turto kontrolinių sąrašų pakeitimai.
+>Kai sukuriamas naujas darbo užsakymas, dalis informacijos yra nukopijuojama tiesiai iš esamo darbo užsakymo. Informacija apie prognozes, įrankius, prižiūrimo turto kontrolinius sąrašus, funkcines vietas, adresus ir planavimą nėra kopijuojama. Vietoje to, ji inicijuojama naudojant dabartinį nustatymą turto valdyme. Todėl, jei ši informacija buvo pakeista nuo tada, kai buvo sukurtas pirmas darbo užsakymas, iki tada, kai buvo sukurta darbo užsakymo kopija, pakeitimai įtraukiami į naują darbo užsakymą. Pavyzdžiai: prognozių pakeitimai ir prižiūrimo turto kontrolinių sąrašų naujinimai.
+
+Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kopijuoti darbo užsakymą** pavyzdys.
+
+![2 pav.](media/04-work-orders.png)
 
 
-![2 paveikslėlis](media/04-work-orders.png)
+## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Sukurkite darbo užsakymą pagal priežiūros užklausą
 
-
-## <a name="create-work-order-based-on-a-maintenance-request"></a>Sukurkite darbo užsakymą pagal priežiūros užklausą
-
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros užklausos** > **Visos priežiūros užklausos** arba **Aktyviosios priežiūros užklausos**.
+1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Priežiūros užklausos** > **Visos priežiūros užklausos** arba **Aktyviosios priežiūros užklausos**.
 
 2. Pasirinkite priežiūros užklausą, kuriai norite sukurti darbo užsakymą, ir spustelėkite **Redaguoti**.
 
-3. Skiltyje **Visos užklausos** spustelėkite **Darbo užsakymas**.
+3. Veiksmų srityje > skirtuke **Priežiūros užklausa** > grupėje **Naujas**, pasirinkite **Darbo užsakymas**.
 
-4. Užpildykite išplečiamąjį sąrašą **Darbo užsakymas**. Jei priežiūros užduoties tipas buvo pasirinktas priežiūros užklausoje, jei pageidaujate, galite pasirinkti kitą priežiūros užduoties tipą, kai kuriate darbo užsakymą.
+4. Dialogo lange **Darbo užsakymas** nustatykite laukus. Jei priežiūros užduoties tipas buvo pasirinktas priežiūros užklausoje, jei pageidaujate, galite pasirinkti kitą priežiūros užduoties tipą, kai kuriate darbo užsakymą.
 
-5. Spustelėkite **Gerai**. Bus rodomas pranešimas, kuriame informuojama apie sukurtą darbo užsakymą.
+5. Pasirinkite **Gerai**. Pranešimas informuoja, kad darbo užsakymas sukurtas.
 
-6. Jei norite matyti, kurie darbo užsakymai yra susieti su priežiūros užklausa, pasirinkite priežiūros užklausą iš sąrašų **Visos priežiūros užklausos** arba**Aktyvios priežiūros užklausos** ir spustelėkite mygtuką **Darbo užsakymai**.
+6. Jei norite peržiūrėti su priežiūros užklausa susietus darbo užsakymus, pasirinkite priežiūros užklausą sąrašo puslapiuose **Visos priežiūros užklausos** arba **Aktyvios priežiūros užklausos**. Tada, veiksmų srityje, skirtuke **Priežiūros užklausa**, grupėje **Peržiūrėti**, pasirinkite **Darbo užsakymai**.
 
 
-![3 paveikslėlis](media/05-work-orders.png)
+Toliau pateiktame paveikslėlyje parodytas dialogo lango **Kurti darbo užsakymą** pavyzdys.
+
+![3 pav.](media/05-work-orders.png)
 
 
 >[!NOTE]
->Darbo užsakymai gali būti sukurti automatiškai, planuojant priežiūros planų užduotis arba nustatant turtui „Kurti automatiškai“ priežiūros planus arba priežiūros ciklus. Darbo užsakymai, sukurti pagal priežiūros užklausas ir nurodomi skiltyje**Priežiūros grafikas**, kuriami nurodant priežiūros užduoties tipus, pasirinktus priežiūros užklausose.
+>Jei norite, kad darbo užsakymai būtų sukurti automatiškai, tai galite padaryti planuojant priežiūros planų užduotis arba nustatant turtui „Kurti automatiškai“ [priežiūros planus](../preventive-and-reactive-maintenance/maintenance-plans.md) arba [priežiūros ciklus](../preventive-and-reactive-maintenance/maintenance-rounds.md). Darbo užsakymų, sukurtų pagal priežiūros užklausas sąrašo puslapyje **Visas priežiūros grafikas**, priežiūros užduoties tipai pasirenkami priežiūros užklausose.
 

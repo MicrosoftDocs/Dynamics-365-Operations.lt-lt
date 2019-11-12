@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 2b755dcfbcdf41ada0302fc04f527ce7c309f4bb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
+ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186399"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "2553192"
 ---
 # <a name="one-voucher"></a>Vienas kvitas
 
@@ -51,7 +51,7 @@ Naudodamiesi esama finansinių žurnalų (bendrojo žurnalo, ilgalaikio turto ž
 
 ## <a name="issues-with-one-voucher"></a>Su funkcija Vienas kvitas susijusios problemos
 
-Naudojantis funkcija Vienas kvitas iškyla problemų atsiskaitant, skaičiuojant mokesčius, atšaukiant operaciją, derinant papildomą knygą su didžiąja knyga, rengiant finansines ataskaitas ir ne tik. (Norėdami gauti daugiau informacijos apie atsiskaitant galinčias iškilti problemas (pavyzdžiui), žr. [Vienas kvitas su keliais kliento arba tiekėjo įrašais](https://docs.microsoft.com/dynamics365/unified-operations/financials/accounts-payable/single-voucher-multiple-customer-vendor-records).) Norint, kad šie procesai ir ataskaitos tinkamai veiktų, reikia nurodyti operacijos informaciją. Nors kai kurie scenarijai gali veikti tinkamai, priklausomai nuo jūsų organizacijos sąrankos, dažnai iškyla problemų viename kvite įvedant kelias operacijas.
+Naudojantis funkcija Vienas kvitas iškyla problemų atsiskaitant, skaičiuojant mokesčius, atšaukiant operaciją, derinant papildomą knygą su didžiąja knyga, rengiant finansines ataskaitas ir ne tik. (Norėdami gauti daugiau informacijos apie atsiskaitant galinčias iškilti problemas (pavyzdžiui), žr. [Vienas kvitas su keliais kliento arba tiekėjo įrašais](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Norint, kad šie procesai ir ataskaitos tinkamai veiktų, reikia nurodyti operacijos informaciją. Nors kai kurie scenarijai gali veikti tinkamai, priklausomai nuo jūsų organizacijos sąrankos, dažnai iškyla problemų viename kvite įvedant kelias operacijas.
 
 Pavyzdžiui, registruojate toliau nurodytą kelių eilučių kvitą.
 

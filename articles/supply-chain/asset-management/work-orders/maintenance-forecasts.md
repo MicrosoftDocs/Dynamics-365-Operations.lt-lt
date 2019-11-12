@@ -3,7 +3,7 @@ title: Priežiūros prognozės
 description: Šioje temoje aprašomos priežiūros prognozės modulyje Turto valdymas.
 author: josaw1
 manager: AnnBe
-ms.date: 08/15/2019
+ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,36 +16,35 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2019-08-15
+ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 383c910b40199f2da863144c6dc85a579d0091e9
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a1596b283c3eaffca25ff7f03c722a2bcce109fb
+ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024504"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "2626298"
 ---
 # <a name="maintenance-forecasts"></a>Priežiūros prognozės
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
 
 
 Kai sukuriate darbo užsakymą, sukuriate darbo užsakymo užduotis su susijusiu turtu ir priežiūros užduočių tipais. Kai pasirenkate priežiūros užduoties tipą, kuriame yra priežiūros prognozių, prognozės automatiškai nukopijuojamos į darbo užsakymą.
 
-Galbūt turėsite galimybę įtraukti arba pašalinti darbo užsakymo prognozės eilutes. Darbo užsakymo ciklo būsenos sąranka, susijęs projekto tipas ir su projekto tipu susijusios etapo taisyklės nulemia tai, ar galite įtraukti arba redaguoti prognozės eilutes. 
+Galbūt galėsite įtraukti prognozės eilutes į darbo užsakymą arba panaikinti jas iš darbo užsakymo. Darbo užsakymo ciklo būsenos sąranka, susijęs projekto tipas ir su projekto tipu susijusios etapo taisyklės nulemia tai, ar galite įtraukti arba redaguoti prognozės eilutes. Daugiau informacijos apie darbo užsakymo ciklo būsenas ir susijusius projekto etapus žr. [Prognozės, darbo užsakymai ir projektai](../integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md).
 
-1. Spustelėkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
+1. Pasirinkite **Turto valdymas** > **Bendrieji dalykai** > **Darbo užsakymai** > **Visi darbo užsakymai** arba **Aktyvūs darbo užsakymai**.
 
-2. Sąraše pasirinkite darbo užsakymą ir spustelėkite **Prognozė**. Pasirinkus **Darbo užsakymo priežiūros prognozė**, rodomos priežiūros užduoties tipo, pasirinkto darbo užsakymo užduotyje, prognozės eilutės.
+2. Sąraše pasirinkite darbo užsakymą, tada veiksmų srityje > skirtuke **Darbo užsakymas** > grupėje **Projektas**, pasirinkite **Prognozė**. Puslapyje **Darbo užsakymo priežiūros prognozė** rodomos priežiūros užduoties tipo, pasirinkto darbo užsakymo užduotyje, prognozės eilutės.
 
 
-## <a name="add-hours-forecast-to-a-work-order"></a>Valandų prognozės įtraukimas į darbo užsakymą
+## <a name="add-an-hours-forecast-to-a-work-order"></a>Valandų prognozės įtraukimas į darbo užsakymą
 
-1. Pažymėkite darbo užsakymo užduotį, į kurią norite įtraukti prognozę.
+1. Puslapyje **Darbo užsakymo priežiūros prognozė** pasirinkite darbo užsakymo užduotį, į kurią norite įtraukti prognozę.
 
-2. Norėdami sukurti naują eilutę, FastTab **Valandos** spustelėkite **Įtraukti**.
+2. Norėdami sukurti naują eilutę, „FastTab” **Valandos** pasirinkite **Įtraukti**.
 
 3. Lauke **Kategorija** pasirinkite kategoriją.
 
@@ -54,66 +53,74 @@ Galbūt turėsite galimybę įtraukti arba pašalinti darbo užsakymo prognozės
 5. Lauke **Eilutės ypatybė** pasirinkite eilutėje naudotiną išlaidų tipą.
 
 
-## <a name="add-items-forecast-to-a-work-order"></a>Prekių prognozės įtraukimas į darbo užsakymą
+## <a name="add-an-items-forecast-to-a-work-order"></a>Prekių prognozės įtraukimas į darbo užsakymą
 
-Yra trys būdai įtraukti prekes į darbo užsakymo priežiūros prognozę: galite kurti į atsarginių dalių sąrašą arba turto KS neįtrauktų prekių (atsarginių dalių) eilutes, galite pasirinkti atsargines dalis iš patvirtinto atsarginių dalių sąrašo ir galite pasirinkti prekes iš turto KS.
+Yra trys būdai, kaip įtraukti prekes į darbo užsakymo priežiūros prognozę. Galite kurti į atsarginių dalių sąrašą arba turto KS neįtrauktų prekių (atsarginių dalių) eilutes, galite pasirinkti atsargines dalis iš patvirtinto atsarginių dalių sąrašo ir galite pasirinkti prekes iš turto KS.
 
-1. Pažymėkite darbo užsakymo užduotį, į kurią norite įtraukti prognozę.
+- Puslapyje **Darbo užsakymo priežiūros prognozė** pasirinkite darbo užsakymo užduotį, į kurią norite įtraukti prognozę.
 
-2. Pasirinkite FastTab **Prekės**.
+- „FastTab” **Prekės**, naudodami tinkamą metodą, įtraukite prekes į priežiūros prognozę.
 
-3. Spustelėję **Įtraukti**, įtraukite naują atsarginės dalies, neįtrauktos į atsarginių dalių sąrašą arba turto KS sąrašą, eilutę.
+Norėdami įtraukti atsarginės dalies, neįtrauktos į atsarginių dalių sąrašą arba turto KS sąrašą, eilutę atlikite toliau nurodytus veiksmus.
 
-4. Lauke **Prekės numeris** pasirinkite prekę.
+1. Pasirinkite **Įtraukti**.
+2. Lauke **Elemento numeris** pasirinkite elementą.
+3. Lauke **Pardavimo kiekis** įveskite kiekį.
+4. Lauke **Vienetas** pasirinkite kiekio matavimo vienetą.
+5. Laukuose **Savikaina** ir **Valiuta** įveskite tinkamas vertes.
+6. Lauke **Eilutės ypatybė** pasirinkite eilutės ypatybę.
+7. Jei norite pakeisti prekės eilutėse rodomų dimensijų sąrašą, pasirinkite **Atsargos** > **Rodyti dimensijas**, pasirinkite dimensijas, paskui nustatykite parinktį **Įrašyti sąranką** į **Taip**.
 
-5. Lauke **Pardavimo kiekis** įterpkite kiekį, o lauke **Vienetas** pasirinkite kiekio vienetą.
+Norėdami įtraukti atsarginę dalį iš patvirtintų atsarginių dalių sąrašo, atlikite toliau nurodytus veiksmus.
 
-6. Į atitinkamus laukus įterpkite savikainą ir valiutą ir pasirinkite **Eilutės ypatybė**.
+1. Pasirinkite **Įtraukti atsarginių dalių**.
+2. Pasirinkite atsarginę dalį ir pagal poreikį redaguokite susijusią informaciją.
+3. Pasirinkite **Gerai**.
 
-7. Jei norite pakeisti prekės eilutėse rodomų dimensijų sąrašą, spustelėkite **Atsargos** > **Rodyti dimensijas**, pasirinkite dimensijas, paskui perjungimo mygtuke **Įrašyti sąranką** pasirinkite „Taip”.
+Norėdami įtraukti prekę iš turto KS, atlikite toliau nurodytus veiksmus.
 
-8. Jei į priežiūros prognozę norite įtraukti patvirtintą atsarginę dalį, spustelėkite **Įtraukti atsarginių dalių**, pasirinkite atsarginę dalį, jei reikia, pakoreguokite susijusią informaciją ir spustelėkite **Gerai**.
+1. Pasirinkite **Įtraukti KS prekių**.
+2. Pasirinkite prekę ir pagal poreikį redaguokite susijusią informaciją.
+3. Pasirinkite **Gerai**.
 
-9. Jei į prognozę norite įtraukti turto KS prekių, spustelėkite **Įtraukti KS prekių**, pasirinkite prekę, jei reikia, pakoreguokite susijusią informaciją ir spustelėkite **Gerai**.
-
-10. Spustelėkite **Kur naudota prekė**, jei norite pamatyti, kur pasirinktoje eilutėje esanti prekė naudojama modulyje Turto valdymas turto, priežiūros užduoties tipo numatytųjų reikšmių, atsarginių dalių ir darbo užsakymų atžvilgiu. 
+Jei norite apžvelgti, kur naudojama prekė pasirinktoje eilutėje atsižvelgiant į turtą, priežiūros užduoties tipo numatytąsias reikšmes, atsargines dalis ir darbo užsakymus turto valdyme, pasirinkite **Kur naudota prekė**. Daugiau informacijos apie šią apžvalgą žr. [Kur naudota prekė](../controlling-and-reporting/item-where-used.md).
 
 
+## <a name="add-an-expense-forecast-to-a-work-order"></a>Išlaidų prognozės įtraukimas į darbo užsakymą
 
-## <a name="add-expense-forecast-to-a-work-order"></a>Išlaidų prognozės įtraukimas į darbo užsakymą
+1. Puslapyje **Darbo užsakymo priežiūros prognozė** pasirinkite darbo užsakymo užduotį, į kurią norite įtraukti prognozę.
 
-1. Šioje temoje aiškinama, kaip įtraukti išlaidų prognozę į darbo užsakymą. Formos kairėje pasirinkite darbo užsakymo užduotį, į kurią norite įtraukti prognozę.
+2. Norėdami sukurti eilutę, „FastTab” **Išlaidos** pasirinkite **Įtraukti**.
 
-2. Pasirinkite FastTab **Išlaidos**.
+3. Lauke **Kategorija** pasirinkite kategoriją.
 
-3. Sukurkite naują eilutę, spustelėję **Įtraukti**.
+4. Lauke **Kiekis** įveskite kiekį.
 
-4. Lauke **Kategorija** pasirinkite kategoriją.
+5. Laukuose **Savikaina**, **Pardavimo valiuta** ir **Pardavimo kaina** įveskite tinkamas vertes.
 
-5. Lauke **Kiekis** įterpkite kiekį.
-
-6. Į atitinkamus laukus įterpkite savikainą, pardavimo valiutą ir pardavimo kainą.
-
-7. Lauke **Eilutės ypatybė** pasirinkite eilutėje naudotiną išlaidų tipą.
+6. Lauke **Eilutės ypatybė** pasirinkite eilutėje naudotiną išlaidų tipą.
 
 >[!NOTE]
->FastTab **Priežiūros prognozių sumos** matote pasirinktos darbo užsakymo užduoties ir darbo užsakymo kiekviename skirtuke sukurtų eilučių skaičiaus apžvalgą. Taip pat matote darbo užsakymo užduoties ir darbo užsakymo prognozuojamų darbo valandų sumą.
+>„FastTab” **Priežiūros prognozių sumos** rodoma pasirinktos darbo užsakymo užduoties ir darbo užsakymo kiekviename „FastTab” sukurtų eilučių skaičiaus apžvalga. Taip pat rodoma darbo užsakymo užduoties ir darbo užsakymo prognozuojamų darbo valandų suma.
 
-![1 pav.](media/06-work-orders.png)
+Toliau pateiktame paveikslėlyje parodytas puslapio **Darbo užsakymo priežiūros prognozė** pavyzdys.
+
+![1 pav.](media/06-work-orders.png)
 
 
 ## <a name="automatic-update-of-work-order-forecasts"></a>Darbo užsakymo prognozių automatinis naujinimas
 
-Modulyje Turto valdymas galima automatiškai naujinti darbo užsakymų prognozių informaciją apie valandos kainas, prekių kainas ir išlaidas, kuri buvo atnaujinta kituose moduliuose. Tai daroma siekiant užtikrinti, kad darbo užsakymų prognozėse naudojamos aktualiausios savikainos. Taip pat galima naujinti ir [priežiūros užduočių tipo prognozes](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
+Turto valdyme galima automatiškai naujinti darbo užsakymų prognozių informaciją apie valandines išlaidas, prekių kainas ir išlaidas, jei ji buvo atnaujinta kituose „Microsoft Dynamics 365 for Finance and Operations“ moduliuose. Ši galimybė padeda užtikrinti, kad darbo užsakymų prognozėse naudojamos aktualiausios savikainos. Taip pat galima naujinti ir [priežiūros užduočių tipo prognozes](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).
 
-1. Spustelėkite **Turto valdymas** > **Periodinis** > **Prognozė** > **Naujinti darbo užsakymo prognozę**.
+1. Pasirinkite **Turto valdymas** > **Periodinis** > **Prognozė** > **Naujinti darbo užsakymo prognozę**.
 
-2. Išplečiamajame dialogo lange **Naujinti darbo užsakymo prognozę**, jei reikia, galite pasirinkti parametrus, susijusius su konkrečiais darbo užsakymais arba darbo užsakymų užduotimis. Norėdami pasirinkti, spustelėkite **Filtras**.
+2. Dialogo lange **Naujinti darbo užsakymo prognozę**, „FastTab” **Įtrauktini įrašai**, pagal poreikį galite pasirinkti parametrus, susijusius su konkrečiais darbo užsakymais arba darbo užsakymų užduotimis. Norėdami atlikti reikiamus pasirinkimus, spustelėkite **Filtras**.
 
-3. Jei reikia, galite nustatyti automatinio naujinimo paketinę užduotį FastTab **Vykdyti fone**.
+3. FastTab **Vykdyti fone** pagal poreikį galite nustatyti automatinio naujinimo paketinę užduotį.
 
-4. Spustelėjus **Gerai**, pradedamas prognozės naujinimas.
+4. Pasirinkus **Gerai**, pradedamas prognozės naujinimas.
 
 
-![2 paveikslėlis](media/07-work-orders.png)
+Toliau pateiktame paveikslėlyje parodytas dialogo lango **Naujinti darbo užsakymo prognozę** pavyzdys.
 
+![2 pav.](media/07-work-orders.png)

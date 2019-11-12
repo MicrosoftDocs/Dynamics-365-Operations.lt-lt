@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8836e5b43498c792d214b13b2196645c4ee3ffba
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
+ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186721"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2551662"
 ---
-# <a name="consolidate-online"></a>Konsoliduoti tinkle
+# <a name="online-financial-consolidations"></a>Finansinis konsolidavimas tinkle
 
 [!include [banner](../includes/banner.md)]
 

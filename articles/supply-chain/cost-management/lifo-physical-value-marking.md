@@ -19,18 +19,16 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 792ff4d7b72ce092fe1ad92e53172cf40f0ecf26
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1565701"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569276"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO su faktine verte ir žymėjimu
 
 [!include [banner](../includes/banner.md)]
-
-[!include [retail name](../includes/retail-name.md)]
 
 Paskutinis įvestas, pirmasis nurašytas (LIFO) yra atsargų modelis, kuriame vėliausi (naujausi) gavimai yra išduodami pirmiausiai. Išdavimai iš atsargų sudengiami su paskutiniaisiais gavimais į atsargas remiantis atsargų operacijos data. 
 
@@ -56,7 +54,9 @@ Naudojant atsargų modelį Paskutinis į, pirmas iš (LIFO) paskutiniai (naujaus
 -   5b. Atsargų finansinis išdavimas, kai kiekis – 1, kiekvieno savikaina – 20,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
 -   6. Atsargų uždarymas atliktas. Remiantis LIFO metodu paskutinis finansiškai atnaujintas išdavimas bus sudengtas su paskutiniu finansiškai atnaujintu gavimu. Išdavimo operacijoje bus atliktas 10,00 USD dydžio koregavimas.
 
-Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. ![LIFO be faktinės vertės įtraukimo](./media/lifowithoutincludephysicalvalue.gif) 
+Naudojama nauja vidutinė savikaina atspindi finansiškai atnaujintų operacijų vidurkį – 15,00 USD. Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. 
+
+![LIFO be faktinės vertės įtraukimo](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -90,7 +90,9 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 Operacija 6a bus pakoreguota pagal gavimo operaciją 4b. Sistema nesudengs šių operacijų, nes gavimas bus atnaujintas tik faktiškai, o ne finansiškai. Todėl faktinio išdavimo operacijoje bus užregistruotas tik 8,75 USD sumos koregavimas. Operacija 5b bus pakoreguota pagal faktinio gavimo operaciją 3a. Sistema nesudengs šių operacijų, nes jos abi nebus finansiškai atnaujintos. Todėl šioje išdavimo operacijoje bus vykdomas tik –3,75 USD sumos koregavimas. Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 20,00 USD. 
 
-Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** naudojama. ![LIFO su faktinės vertės įtraukimu](./media/lifowithincludephysicalvalue.gif) 
+Toliau pateiktoje iliustracijoje parodytas LIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** naudojama. 
+
+![LIFO su faktinės vertės įtraukimu](./media/lifowithincludephysicalvalue.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -132,7 +134,9 @@ Toliau pateiktoje iliustracijoje parodytos šios operacijos.
 
 Nauja slankiojo vidurkio savikaina rodo finansiškai ir fiziškai atnaujintų operacijų vidurkį, 27,50 USD. 
 
-Toliau pateiktoje iliustracijoje parodomas LIFO atsargų modelio poveikis tokioms operacijų sekoms, kai naudojamas išdavimų ir gavimų žymėjimas. ![LIFO su žymėjimu](./media/lifowithmarking.gif) 
+Toliau pateiktoje iliustracijoje parodomas LIFO atsargų modelio poveikis tokioms operacijų sekoms, kai naudojamas išdavimų ir gavimų žymėjimas. 
+
+![LIFO su žymėjimu](./media/lifowithmarking.gif) 
 
 **Diagramos paaiškinimas**
 
@@ -146,7 +150,4 @@ Toliau pateiktoje iliustracijoje parodomas LIFO atsargų modelio poveikis tokiom
 - Kiekviena vertikali rodyklė yra pažymėta sekos identifikatoriumi, pvz., *1a*. Identifikatoriai rodo atsargų operacijų registracijos laiko juostoje tvarką.
 - Atsargų uždarymai rodomi raudona vertikalia punktyrine linija ir žyme *Atsargų uždarymas*.
 - Iki atsargų uždarymo atlikti sudengimai rodomi raudonomis įstrižomis punktyrinėmis rodyklėmis, einančiomis nuo gavimo prie išdavimo.
-
-
-
 

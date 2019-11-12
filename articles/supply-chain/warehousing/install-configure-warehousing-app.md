@@ -1,6 +1,6 @@
 ---
 title: Sandėliavimo programos diegimo ir konfigūravimo apžvalga
-description: Šioje temoje aprašoma, kaip diegti ir konfigūruoti programą „Dynamics 365 Supply Chain Management - Warehousing“.
+description: Šioje temoje aprašoma, kaip diegti ir konfigūruoti programą „Dynamics 365 for Finance and Operations – Warehousing“.
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 07/25/2019
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b8eb8dee88d8664391d2dcf485dff9dee4722cac
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
+ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251505"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "2548973"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Sandėliavimo programos diegimo ir konfigūravimo apžvalga
 
@@ -35,7 +35,7 @@ ms.locfileid: "2251505"
 > Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 
-Šioje temoje aprašoma, kaip diegti ir konfigūruoti programą „Dynamics 365 Supply Chain Management - Warehousing“.
+Šioje temoje aprašoma, kaip diegti ir konfigūruoti programą „Dynamics 365 for Finance and Operations – Warehousing“.
 
 Sandėliavimo programą galite parsisiųsti iš „Google Play" parduotuvės ir „Windows Store“ parduotuvės. Dabartinėje „Dynamics 365 Supply Chain Management“ versijoje ši programa pateikiama kaip atskiras komponentas, todėl sandėlio užduotims atlikti naudojamuose įrenginiuose ją reikia įdiegti patiems. Norėdami naudoti programą, turite atsisiųsti programą į kiekvieną įrenginį ir ją sukonfigūruoti, kad galėtumėte prijungti prie „Supply Chain Management“ aplinkos. Šioje temoje aprašoma, kaip diegti programą įrenginiuose. Joje taip pat paaiškinama, kaip programą sukonfigūruoti ir prijungti prie „Supply Chain Management“ aplinkos.
 

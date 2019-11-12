@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8bc9445bacc764bd0c70be4a55d621fc3f8fb270
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 510a36668bf131b48733e486a43f1d630ae9f3ea
+ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278329"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "2653699"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Žinyno ištekliai „Supply Chain Management“
 
@@ -39,7 +39,7 @@ Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eik
 Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 
 - [Turto valdymas](asset-management/index.md)
-- [Kaštų apskaita](../financials/cost-accounting/cost-accounting-home-page.md)
+- [Kaštų apskaita](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kaštų valdymas](cost-management/cost-management-home-page.md)  
 - [Atsargų valdymas](inventory/inventory-home-page.md)
 - [Bendrasis planavimas](master-planning/master-planning-home-page.md)
@@ -109,7 +109,7 @@ Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Dynamics 365 Finan
 -  [Transportavimo valdymas (TMS) naujojoje „Microsoft Dynamics AX“](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Tinklaraščiai
-Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="https://blogs.msdn.microsoft.com/axmfg/">„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės komandos tinklaraštyje</a>. Dauguma iš jų buvo skirtos ankstesnei „Finance and Operations‟ versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
+Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="https://blogs.msdn.microsoft.com/axmfg/">„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės komandos tinklaraštyje</a>. Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
 
 ## <a name="white-papers"></a>Techninė dokumentacija
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Išlaidų apskaitos praktiniai laboratoriniai darbai</a> 

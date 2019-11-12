@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b48313e93573e3214de0ee02c4894b000dc18f67
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34af4cc05b6966b5f118c1dd2adbda288a0f3da1
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176022"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2570130"
 ---
 # <a name="financial-management-home-page"></a>Pagrindinis finansų valdymo puslapis
 
@@ -69,4 +69,8 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 ### <a name="countryregion-functionality"></a>Konkrečioms šalims / regionams skirtos funkcijos
 
 Šalių / regionų įstatymai turi įtakos mokesčių sąrankai ir kitoms finansų valdymo sritims. Norėdami sužinoti apie konkrečioms šalims / regionams skirtas funkcijas, žr. mūsų žinyno turinio skyrių [Lokalizavimo ir reguliavimo priemonės](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json).
+
+### <a name="additional-content"></a>Papildomas turinys
+
+Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, SF išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informacijos apie pirkimo, atsargų ir gamybos pajėgumus žr. [!„Supply Chain Management” pagrindinį puslapį](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 

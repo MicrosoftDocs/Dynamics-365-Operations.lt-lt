@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 29f9975d8270b3f79d0aac0c62609b4a9c71ae89
-ms.sourcegitcommit: 802dbf0a744d70f9e546632d419415b0993331ab
+ms.openlocfilehash: 322e3ac6f7c37fffdd4d59ed86bccec10559f4b9
+ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "1874629"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "2569782"
 ---
 # <a name="work-order-project-setup"></a>Darbo užsakymo projekto sąranka
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+ 
 
 Modulyje **Turto valdymas** kiekvieną darbo užsakymo užduotį būtina susieti su projektu. Su darbo užsakymo užduotimi susietas projektas leidžia sekti įvairių projektų, susijusių su moduliu „Turto valdymas”, pvz., vidaus priežiūros, aptarnavimo valdymo ir investicinių projektų, išlaidas. 
 
@@ -72,7 +72,7 @@ Sąranka užtikrinamas visapusiškas integravimas su moduliu **Projektų valdyma
 
     Pagal numatytuosius nustatymus pradžios data yra data, kai į puslapį įtraukiate darbo užsakymo projektą. Ji valdoma pasirinkus lauką **Galiojimo pradžia**, kuris pagal numatytuosius nustatymus yra paslėptas. Kad laukas **Galiojimo pradžia** būtų rodomas, pasirinkite **Rodyti** \> **Visi**. Galite naudoti lauką **Galiojimo pradžia** kartu su lauku **Pabaigos data**, kad nustatytumėte ribotą darbo užsakymo projekto galiojimo laikotarpį.
 
-    ![1 pav.](media/17-setup-for-work-orders.png)
+    ![Darbo užsakymų projekto sąrankos puslapis](media/17-setup-for-work-orders.png)
 
 6. Skirtuke **Projektų grupė** pasirinkite **Įtraukti**.
 7. Lauke **Darbo užsakymo tipas** pasirinkite darbo užsakymo tipą.
@@ -80,7 +80,7 @@ Sąranka užtikrinamas visapusiškas integravimas su moduliu **Projektų valdyma
 9. Lauke **Projektų grupė** pasirinkite projektų grupę, kuri turėtų būti susieta su darbo užsakymo tipu. Pavyzdžiui, darbo užsakymo tipas **Prevencinė priežiūra** gali būti siejamas su projektų grupe **Prev. priež.** arba **Vidaus**. Arba darbo užsakymo tipas **Investicija**, kuris yra naudojamas darbo užsakymams, susijusiems su investicijomis ir ilgalaikiu turtu, gali būti susietas su projektų grupe **Invest.** arba **Investicija**.
 10. Pasirinkite **Įrašyti**.
 
-![2 pav.](media/18-setup-for-work-orders.png)
+![Darbo užsakymų projekto sąrankos puslapis, Pridėti darbo užsakymą](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Kaskart sukūrus darbo užsakymo eilutę, modulyje „Turto valdymas” ieškoma projektų grupė, kuri turėtų būti susijusi su darbo užsakymo užduoties projektu. Paieška grindžiama šioje temoje aprašyta sąranka. Kiekviena projektų grupė turi susijusį projekto tipą. Projektų grupės, turinčios projekto tipą **Laikas ir medžiaga** arba **Fiksuota kaina**, galioja tik turtui, kuris yra susijęs su kliento paskyra.
