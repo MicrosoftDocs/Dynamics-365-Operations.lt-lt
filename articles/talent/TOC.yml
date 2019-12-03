@@ -8,6 +8,14 @@
         - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: "2019\_m. lapkričio 19\_d."
+              href: whats-new-talent-november-19-2019.md
+            - name: "2019\_m. lapkričio 12\_d."
+              href: whats-new-talent-november-12-2019.md
+            - name: "2019\_m. lapkričio 5\_d."
+              href: whats-new-talent-november-5-2019.md
+            - name: "2019\_m. spalio 29\_d."
+              href: whats-new-talent-oct-29-2019.md
             - name: "2019\_m. spalio 23\_d."
               href: whats-new-talent-october-23-2019.md
             - name: "2019\_m. spalio 8\_d."
@@ -26,18 +34,18 @@
               href: whats-new-talent-august-15-2019.md
             - name: 2019 m. rugpjūčio 6 d.
               href: whats-new-talent-august-7-2019.md
-            - name: 2019 m. liepos 30 d.
-              href: whats-new-talent-july-31-2019.md
-            - name: 2019 m. liepos 23 d.
-              href: whats-new-talent-july-24-2019.md
-            - name: 2019 m. liepos 16 d.
-              href: whats-new-talent-july-16-2019.md
-            - name: 2019 m. liepos 9 d.
-              href: whats-new-talent-july-9-2019.md
-            - name: 2019 m. liepos 2 d.
-              href: whats-new-talent-july-2-2019.md
             - name: 2019 m. skyriaus „Kas nauja“ archyvai
               items:
+                - name: 2019 m. liepos 30 d.
+                  href: whats-new-talent-july-31-2019.md
+                - name: 2019 m. liepos 23 d.
+                  href: whats-new-talent-july-24-2019.md
+                - name: 2019 m. liepos 16 d.
+                  href: whats-new-talent-july-16-2019.md
+                - name: 2019 m. liepos 9 d.
+                  href: whats-new-talent-july-9-2019.md
+                - name: 2019 m. liepos 2 d.
+                  href: whats-new-talent-july-2-2019.md
                 - name: 2019 m. birželio 25 d.
                   href: whats-new-talent-june-25-2019.md
                 - name: 2019 m. birželio 18 d.
@@ -116,10 +124,14 @@
                   href: whats-new-talent-august2018.md
                 - name: "2018\_m. liepos mėn."
                   href: whats-new-talent-july2018.md
-        - name: Sistemos reikalavimai ir naujinimo strategija
+        - name: Sistemos reikalavimai
           href: talent-versions-update-policy.md
+        - name: „Talent“ naujinimai
+          href: talent-updates.md
         - name: „Talent“ parengimas
           href: provisioning-talent.md
+        - name: „Core HR“ egzemplioriaus kopijavimas
+          href: hr-copy-instance.md
         - name: „Talent“ aplinkų šalinimas
           href: remove-talent-environment.md
         - name: Parengimas programai „Onboard“
@@ -437,8 +449,20 @@
           href: process-auditing.md
         - name: „Attract“ išplečiamumas
           href: extensibility-attract.md
-        - name: „Core HR“ pasirinktiniai laukai
+        - name: Pasirinktiniai „Core HR“ laukai
           href: corehr-custom-fields.md
+        - name: Objekto API nuoroda
+          items:
+            - name: Autentifikavimas
+              href: api-odata-authentication.md
+            - name: Objektai
+              items:
+                - name: MyLeaveRequests
+                  items:
+                    - name: MyLeaveRequests apžvalga
+                      href: api-myleaverequests-overview.md
+                    - name: Prašymo išeiti atostogų pateikimas darbo eigai
+                      href: api-myleaverequests-submit.md
     - name: „Talent“ trikčių diagnostika
       items:
         - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis

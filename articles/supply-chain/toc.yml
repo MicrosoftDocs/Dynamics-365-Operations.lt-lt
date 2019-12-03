@@ -571,6 +571,8 @@
                   href: cost-management/inventory-close.md
                 - name: Turimų atsargų išlaidų reikšmių koregavimas
                   href: cost-management/adjust-hand-inventory-cost-values.md
+                - name: Atsargų skirstymo pagal terminus ataskaita
+                  href: cost-management/inventory-aging-report-storage.md
             - name: Gamybos apskaita
               items:
                 - name: KS skaičiavimai
@@ -868,7 +870,13 @@
                         - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Mokymo programos
+                      items:
+                        - name: 'Norėdami gauti duomenis iš kelių programos lentelių elektroninių ataskaitų (ER) modelio susiejimuose, naudokite duomenų šaltinių jungimo funkciją'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektroninių ataskaitų sprendimų naudojimas „Finance and Operations“
                   items:
                     - name: Sistemos konfigūravimas
@@ -903,6 +911,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Verslo dokumentų valdymo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/supply-chain/toc.json
                 - name: ER sistemos API
                   items:
                     - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
@@ -1049,8 +1059,24 @@
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
         - name: Bendrasis planavimas
           items:
-            - name: Bendrojo planavimo pagrindinis puslapis
+            - name: Pagrindinis bendrojo planavimo puslapis
               href: master-planning/master-planning-home-page.md
+            - name: Planavimo optimizavimas
+              items:
+                - name: Planavimo optimizavimo apžvalga
+                  href: master-planning/planning-optimization/planning-optimization-overview.md
+                - name: Darbo su planavimo optimizavimu pradžia
+                  href: master-planning/planning-optimization/get-started.md
+                - name: Planavimo optimizavimo tinkamumo analizė
+                  href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Filtrų taikymas planui
+                  href: master-planning/planning-optimization/plan-filters.md
+                - name: Plano retrospektyvos ir planavimo žurnalų peržiūra
+                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Automatinis patvirtinimas naudojant planavimo optimizavimo funkciją
+                  href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Planavimo užduoties atšaukimas
+                  href: master-planning/planning-optimization/cancel-planning-job.md
             - name: Bendrieji planai
               items:
                 - name: Bendrųjų planų apžvalga

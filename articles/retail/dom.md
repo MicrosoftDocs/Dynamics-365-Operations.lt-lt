@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0ebac1c3f9f79ee49ae11a121a4a0dd3bd456c8f
-ms.sourcegitcommit: bdbca89bd9b328c282ebfb681f75b8f1ed96e7a8
+ms.openlocfilehash: 10d894bb65031741a5ec8365f7f8db76b58ab334
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "2578489"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693117"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
@@ -37,7 +37,7 @@ DOM optimizuoja užsakymų įvykdymą sudėtingame sistemų ir procesų tinkle. 
 
 Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
-![Pardavimo užsakymo ciklas DOM kontekste](./media/flow.png "Pardavimo užsakymo ciklas DOM kontekste")
+![Pardavimo užsakymo ciklas DOM kontekste](./media/flow.png "Pardavimo užsakymo ciklas DOM kontekste.")
 
 ## <a name="set-up-dom"></a>DOM nustatymas
 
@@ -112,7 +112,7 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
         \* Jei parinktis **Įvykdyti dalinius užsakymus** yra nustatyta kaip **Ne**, visada laikoma, kad parinktis **Įvykdyti dalines eilutes** yra nustatyta kaip **Ne** – nesvarbu, kaip ji nustatyta iš tikrųjų.
 
 > [!NOTE]
-> „Retail” versijoje 10.0.5 parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos vietos, ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų rinkinio (iki 5), ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą.
+> „Retail” versijoje 10.0.5 parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų (iki 5) rinkinio ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą.
 
    - **Neprijungtos įvykdymo vietos taisyklė** – ši taisyklė organizacijoms leidžia tam tikrą vietą ar vietų grupę nurodyti kaip neprijungtą ar nepasiekiamą DOM sistemai, kad toms vietoms nebūtų galima priskirti užsakymų, kuriuos reikia įvykdyti.
     - **Didžiausio atmetimų skaičiaus taisyklė** – ši taisyklė organizacijoms leidžia nustatyti atmetimų ribą. Kai bus pasiekta ši riba, DOM doroklė užsakymą arba užsakymo eilutę pažymės kaip išimtį ir jų neįtrauks į kitą apdorojimo etapą.
@@ -183,7 +183,7 @@ Pritaikiusi taisykles, atsargų apribojimus ir optimizavusi, DOM pasirenka arči
 
 ## <a name="results-of-dom-runs"></a>DOM vykdymų rezultatai
 
-Jei įvykdymo profilis nustatytas kaip **Automatiškai taikyti**, vykdymo rezultatai bus automatiškai pritaikyti pardavimo užsakymų eilutėms, o įvykdymo planą galima peržiūrėti atskirai. Tačiau, jei įvykdymo profilis nėra nustatytas kaip **Automatiškai taikyti**, vykdymo rezultatus galima matyti tik įvykdymo plano rodinyje. 
+Jei įvykdymo profilis nustatytas kaip **Automatiškai taikyti**, vykdymo rezultatai bus automatiškai pritaikyti pardavimo užsakymų eilutėms, o įvykdymo planą bus galima peržiūrėti atskirai. Tačiau, jei įvykdymo profilis nėra nustatytas kaip **Automatiškai taikyti**, vykdymo rezultatus galima matyti tik įvykdymo plano rodinyje. 
 
 Norėdami peržiūrėti visus sugeneruotus įvykdymo planus, atlikite tolesnius veiksmus.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 51a27f5ecdb4d4903ac0b76c5682ea7f9ab0d8c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1d074b9450a4dfc72f60f97ccaf03610ce54315d
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176026"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772587"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Grynųjų pinigų ir banko valdymo pagrindinis puslapis
 
@@ -49,36 +49,36 @@ Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio 
 ### <a name="bank-reconciliation"></a>Banko derinimas
 
 -   [Išplėstinio banko derinimo apžvalga](advanced-bank-reconciliation-overview.md)
--   [Išplėstinio banko derinimo konfigūravimas](configure-advanced-bank-reconciliation.md)
--   [Išplėstinio banko derinimo importo nustatymas](set-up-advanced-bank-reconciliation-import-process.md)
+-   [Išplėstinio banko suderinimo sąrankos procesas](configure-advanced-bank-reconciliation.md)
+-   [Išplėstinio banko derinimo importo nustatymo procesas](set-up-advanced-bank-reconciliation-import-process.md)
 -   [Banko išrašų derinimas naudojant išplėstinį banko derinimą](reconcile-bank-statements-advanced-bank-reconciliation.md)
 -   [Banko derinimo gretinimo taisyklių nustatymas](set-up-bank-reconciliation-matching-rules.md)
 
 
 ## <a name="accounts-payable-payments-and-settlements"></a>Mokėtinų sumų mokėjimai ir sudengimai
 -   [Centralizuoti modulio Mokėtinos sumos mokėjimai](../accounts-payable/centralized-payments-accounts-payable.md)
--   [Tiekėjų sąskaitų faktūrų kūrimas naudojant mokėjimo pasiūlymą](../accounts-payable/create-vendor-payments-payment-proposal.md)
+-   [Tiekėjo mokėjimų kūrimas naudojant mokėjimo pasiūlymą](../accounts-payable/create-vendor-payments-payment-proposal.md)
 -   [Tiekėjo mokėjimo atšaukimas](../accounts-payable/reverse-vendor-payment.md)
 -   [Tiekėjų dalinės sumos mokėjimai](../accounts-payable/vendor-payments-partial-amount.md)
--   [Išankstinio mokėjimo sąskaitų faktūrų ir išankstinių mokėjimų apžvalga](../accounts-payable/prepayments-invoices-vs-prepayments.md)
--   [Scenarijus: dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas sudengiamas prieš nuolaidos datą](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
--   [Scenarijus: dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, o paskutinis mokėjimas atliekamas po nuolaidos datos](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
--   [Scenarijus: sudengiamas dalinis tiekėjo mokėjimas, kuriam taikomos tiekėjo kredito pažymų nuolaidos](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
--   [Scenarijus: sudengiamas dalinis tiekėjo mokėjimas su keliais nuolaidos laikotarpiais](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
--   [Scenarijus: pritaikoma nuolaida, kuri yra didesnė už apskaičiuotą tiekėjo mokėjimo nuolaidą](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
--   [Scenarijus: mokėjimo nuolaida taikoma ne mokėjimo nuolaidos laikotarpiu](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
+-   [Išankstinio mokėjimo sąskaitos faktūros ir išankstiniai mokėjimai](../accounts-payable/prepayments-invoices-vs-prepayments.md)
+-   [Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą](../accounts-payable/settle-partial-vendor-payment-or-final-payment-before-discount.md)
+-   [Dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos](../accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+-   [Dalinio tiekėjo mokėjimo, kuriam taikomos tiekėjo kredito pažymų nuolaidos, sudengimas](../accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
+-   [Dalinio tiekėjo mokėjimo su keliais nuolaidos laikotarpiais sudengimas](../accounts-payable/settle-partial-vendor-payment-multiple-discount-periods.md)
+-   [Nuolaidos, kuri yra didesnė už apskaičiuotą tiekėjo mokėjimo nuolaidą, pritaikymas](../accounts-payable/take-discount-more-calculated-discount-vendor-payment.md)
+-   [Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu](../accounts-payable/take-cash-discount-outside-cash-discount-timeframe.md)
 
 ## <a name="accounts-receivable-payments-and-settlements"></a>Gautinų sumų mokėjimai ir sudengimai
 -   [Centralizuoti gautinų sumų mokėjimai](../accounts-receivable/centralized-payments-accounts-receivable.md)
 -   [Klientų dalinės sumos mokėjimai](../accounts-receivable/customer-payments-partial-amount.md)
 -   [Kompensacija klientams](../accounts-receivable/reimburse-customers.md)
--   [Scenarijus: automatinis sudengimas ir prioritetų nustatymas](../accounts-receivable/automatic-settlement-prioritization.md)
--   [Scenarijus: permokėjimų mokėjimo nuolaidos apdorojimas](../cash-bank-management/cash-discount-handling-overpayments.md)
--   [Scenarijus: dalinis kliento mokėjimas ir visas paskutinis mokėjimas sudengiamas prieš nuolaidos datą](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
--   [Scenarijus: dalinis kliento mokėjimas sudengiamas prieš nuolaidos datą, o paskutinis mokėjimas atliekamas po nuolaidos datos](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
--   [Scenarijus: sudengiamas dalinis kliento mokėjimas, kuriam taikomos kredito pažymų nuolaidos](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
--   [Scenarijus: sudengiamas dalinis kliento mokėjimas su keliais nuolaidos laikotarpiais](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
--   [Scenarijus: naudojant vieną kliento mokėjimą sudengiamos kelios sąskaitos faktūros, apimančios kelis nuolaidų laikotarpius](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+-   [Automatinis sudengimas ir prioritetų nustatymas](../accounts-receivable/automatic-settlement-prioritization.md)
+-   [Permokėjimų mokėjimo nuolaidos apdorojimas](../cash-bank-management/cash-discount-handling-overpayments.md)
+-   [Dalinio kliento mokėjimo ir viso paskutinio mokėjimo sudengimas prieš nuolaidos datą](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+-   [Dalinio kliento mokėjimo sudengimas prieš nuolaidos datą ir paskutinis mokėjimas po nuolaidos datos](../accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+-   [Dalinio kliento mokėjimo, kuriam taikomos kredito pažymų nuolaidos, sudengimas](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
+-   [Dalinio kliento mokėjimo su keliais nuolaidos laikotarpiais sudengimas](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
+-   [Kelių sąskaitų faktūrų, apimančių kelis nuolaidų laikotarpius, sudengimas naudojant kliento mokėjimą](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
 
 
 
@@ -86,7 +86,7 @@ Naudodami modulį Grynųjų pinigų ir banko valdymas galite tvarkyti juridinio 
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo pastabos](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 

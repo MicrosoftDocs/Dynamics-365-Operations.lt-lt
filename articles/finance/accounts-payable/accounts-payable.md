@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ce6ce9c3c08a165ca19eb8d83643fd87b970f1ca
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: e9fbc0e3f3960f25930f9587d489009bc34181c7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658741"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772242"
 ---
 # <a name="accounts-payable-home-page"></a>Mokėtinų sumų pagrindinis puslapis
 
@@ -41,7 +41,7 @@ Tiekėjų sąskaitas faktūras galite įvesti rankiniu būdu arba jas gauti elek
 
 Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokėjimo parinktis ir su tiekėjais, išlaidomis, pristatymais bei paskirties vietomis susijusius parametrus, paprastuosius vekselius ir kito tipo mokėtinų sumų informaciją. 
 
-[Mokėtinų sumų konfigūravimas](accounts-payable-overview.md)
+[Mokėtinų sumų konfigūravimo apžvalga](accounts-payable-overview.md)
 
 [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
@@ -51,9 +51,9 @@ Nustatykite tiekėjų grupes, tiekėjus, registravimo šablonus, įvairias mokė
 
 Naudokite modulį Mokėtinos sumos, norėdami sekti sąskaitas faktūras ir siunčiamas išlaidas tiekėjui.
 
-[Mokėtinų sumų SF gretinimas](accounts-payable-invoice-matching.md)
+[Mokėtinų sumų SF gretinimo apžvalga](accounts-payable-invoice-matching.md)
 
-[Tiekėjų registravimo profiliai](vendor-posting-profiles.md)
+[Tiekėjų registravimo šablonai](vendor-posting-profiles.md)
 
 [Mokėtinų sumų SF gretinimo patvirtinimo nustatymas](tasks/set-up-accounts-payable-invoice-matching-validation.md)
 
@@ -61,9 +61,9 @@ Naudokite modulį Mokėtinos sumos, norėdami sekti sąskaitas faktūras ir siun
 
 [SF gretinimas ir vidinės įmonės pirkimo užsakymai](invoice-matching-intercompany-purchase-orders.md)
 
-[Nesutapimų šalinimas gretinant SF bendrąsias sumas](resolve-invoice-totals-invoice-matching-discrepancies.md)
+[Nesutapimų šalinimo gretinant SF bendrąsias sumas apžvalga](resolve-invoice-totals-invoice-matching-discrepancies.md)
 
-[Numatytosios korespondentinės sąskaitos pardavėjo sąskaitų faktūrų žurnalams ir sąskaitų faktūrų patvirtinimo žurnalams](default-offset-accounts-vendor-invoice-journals.md)
+[Numatytosios korespondentinės sąskaitos tiekėjo sąskaitų faktūrų žurnalams ir sąskaitų faktūrų patvirtinimo žurnalams](default-offset-accounts-vendor-invoice-journals.md)
 
 [SF patvirtinimai mobiliąja programa](mobile-invoice-approvals.md)
 
@@ -93,13 +93,13 @@ Priskirkite sistemos nustatytą mokėjimo tipą, pavyzdžiui, čekį, elektronin
 
 [Mokėjimo nuolaidos taikymas ne mokėjimo nuolaidos laikotarpiu](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[Tiekėjo čekių elektroninės ataskaitos](electronic-reporting-sample-vendor-checks.md)
+[Elektroninės ataskaitos tiekėjo čekių pavyzdžiai](electronic-reporting-sample-vendor-checks.md)
 
 [Tiekėjo mokėjimo atšaukimas](reverse-vendor-payment.md)
 
-[Išankstinio mokėjimo sąskaitų faktūrų ir išankstinių mokėjimų apžvalga](prepayments-invoices-vs-prepayments.md)
+[Išankstinio mokėjimo sąskaitos faktūros ir išankstiniai mokėjimai](prepayments-invoices-vs-prepayments.md)
 
-[Centralizuoti mokėtinų sumų mokėjimai](centralized-payments-accounts-payable.md)
+[Centralizuoti modulio Mokėtinos sumos mokėjimai](centralized-payments-accounts-payable.md)
 
 ## <a name="settlements"></a>Sudengimai
 
@@ -107,13 +107,13 @@ Tolesnėse temose pateikiama informacijos apie sudengimus. Sudengimas – tai mo
 
 [Sudengimo konfigūravimas](../cash-bank-management/configure-settlement.md)
 
-[Dalinio tiekėjo mokėjimo sudengimas prieš nuolaidos datą](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
+[Dalinis tiekėjo mokėjimas sudengiamas prieš nuolaidos datą, kai paskutinis mokėjimas atliekamas po nuolaidos datos](settle-partial-vendor-payment-before-discount-or-final-payment-after.md)
 
 [Dalinio tiekėjo mokėjimo, kuriam taikomos tiekėjo kredito pažymų nuolaidos, sudengimas](settle-partial-vendor-payment-discounts-vendor-credit-notes.md)
 
 [Dalinio tiekėjo mokėjimo su keliais nuolaidos laikotarpiais sudengimas](settle-partial-vendor-payment-multiple-discount-periods.md)
 
-[Dalinio tiekėjo mokėjimo ar paskutinio mokėjimo sudengimas prieš nuolaidą](settle-partial-vendor-payment-or-final-payment-before-discount.md)
+[Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą](settle-partial-vendor-payment-or-final-payment-before-discount.md)
 
 [Vienas kvitas su keliais kliento arba tiekėjo įrašais](single-voucher-multiple-customer-vendor-records.md)
 
@@ -123,7 +123,7 @@ Tolesnėse temose pateikiama informacijos apie sudengimus. Sudengimas – tai mo
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo pastabos](https://go.microsoft.com/fwlink/?linkid=2010158). 
+Norėdami pamatyti, kokios naujos funkcijos planuojamos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
 #### <a name="blogs"></a>Tinklaraščiai
 
