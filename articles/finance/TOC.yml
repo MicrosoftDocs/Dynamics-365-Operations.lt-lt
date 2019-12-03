@@ -10,6 +10,8 @@
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Registravimasis prenumeratų peržiūros versijai gauti
               href: ../fin-ops-core/dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/finance/toc.json
+            - name: Kliento mokėjimo įžvalgos (peržiūra)
+              href: accounts-receivable/payment-insights-overview.md
             - name: Vienos versijos paslaugų naujinimai
               items:
                 - name: Vienos versijos paslaugų naujinimų apžvalga
@@ -1050,7 +1052,7 @@
                   href: public-sector/tasks/set-up-derived-financial-hierarchy-public-sector.md
                 - name: Palūkanų paskirstymo grynųjų pinigų sąskaitoms nustatymas
                   href: public-sector/interest-distribution.md
-            - name: Paraiškos viešajame sektoriuje
+            - name: Įsigijimas ir šaltinio pasirinkimas viešajame sektoriuje
               href: public-sector/procurement-sourcing-public-sector.md
             - name: Saugos vaidmenys viešajame sektoriuje
               href: public-sector/security-roles-public-sector.md
@@ -2239,6 +2241,8 @@
                       href: localizations/rus-currency-sale-purchase.md
                     - name: Smulkios išlaidos
                       href: localizations/emea-petty-cash.md
+                    - name: Grynieji pinigai – vietos pirminės formos ir suvienodintos ataskaitos
+                      href: localizations/rus-local-primary-forms-and-unified-reports.md
                 - name: PVM
                   items:
                     - name: Vietai būdingas pardavimo PVM registravimas
@@ -2255,6 +2259,8 @@
                       href: localizations/rus-sales-books-purchase-books.md
                     - name: Išankstinių mokėjimų valdymas
                       href: localizations/rus-prepayments-management.md
+                    - name: Gaunamo PVM susigrąžinimas
+                      href: localizations/rus-incoming-VAT-restoring.md
                 - name: Ilgalaikis turtas
                   items:
                     - name: Ilgalaikio turto valdymas
@@ -2313,6 +2319,14 @@
                       href: localizations/rus-cash-flow.md
                     - name: Papildomų išlaidų paskirstymas pagal svorį ir tūrį
                       href: localizations/rus-miscellaneous-charges.md
+                    - name: Trečiosios šalies papildomos išlaidos
+                      href: localizations/rus-third-party-misc-charges.md
+                - name: Atsargos
+                  items:
+                    - name: Tiekėjo tranzito prekės
+                      href: localizations/rus-goods-transit-vendor.md
+                    - name: Muitinės deklaracijos numeriai
+                      href: localizations/rus-custom-declaration-number.md
                 - name: Ataskaitos
                   items:
                     - name: Finansinės ataskaitos
@@ -2335,6 +2349,8 @@
                       href: localizations/rus-officials.md
                     - name: Įmonės padaliniai
                       href: localizations/rus-company-divisions.md
+                    - name: Rusijos adresų formatai ir importavimas iš FIAS
+                      href: localizations/rus-russian-address-format-and-import-from-FIAS.md
                 - name: Atidėjimai
                   items:
                     - name: Atidėjimų nustatymas
@@ -2869,6 +2885,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Konfigūracijų importavimas iš RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Mokymo programos
+                  items:
+                    - name: 'Norėdami gauti duomenis iš kelių programos lentelių elektroninių ataskaitų (ER) modelio susiejimuose, naudokite duomenų šaltinių jungimo funkciją'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                    - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
                 - name: Elektroninių ataskaitų sprendimų naudojimas „Finance and Operations“
                   items:
                     - name: Sistemos konfigūravimas
@@ -2903,6 +2925,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
                     - name: Verslo dokumentų valdymo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
                 - name: ER sistemos API
                   items:
                     - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas

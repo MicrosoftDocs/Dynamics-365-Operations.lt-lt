@@ -2,6 +2,8 @@
   items:
     - name: „Finance and Operations“ programų kūrimas ir administravimas
       items:
+        - name: „Finance and Operations“ programos dokumentacija
+          href: ../fin-ops/index.md
         - name: „Finance and Operations“ programų kūrimas ir administravimas
           href: index.md
         - name: Kas nauja ar pasikeitė
@@ -128,16 +130,28 @@
                           href: data-entities/dual-write-overview.md
                         - name: Organizacijos hierarchija „Common Data Service“
                           href: data-entities/dual-write-organization.md
-                        - name: Įmonės koncepcija „Common Data Service“
-                          href: data-entities/dual-write-company.md
+                        - name: Įmonės integravimas
+                          items:
+                            - name: Įmonės koncepcija „Common Data Service“
+                              href: data-entities/dual-write-company.md
+                            - name: Perkrovimas naudojant įmonės duomenis
+                              href: data-entities/dual-write-bootstrap.md
                         - name: Bendrieji integruoto kliento duomenys
                           href: data-entities/dual-write-customer.md
+                        - name: Integruota didžioji knyga
+                          href: data-entities/dual-write-ledger.md
                         - name: Bendrosios produkto funkcijos
                           href: data-entities/dual-write-product.md
-                        - name: Bendrieji integruoto tiekėjo duomenys
-                          href: data-entities/dual-write-vendor.md
+                        - name: Tiekėjo integravimas
+                          items:
+                            - name: Bendrieji integruoto tiekėjo duomenys
+                              href: data-entities/dual-write-vendor.md
+                            - name: Perjungti iš vieno tiekėjo dizaino į kitą
+                              href: data-entities/dual-write-vendor-switch.md
                         - name: Integruotos svetainės ir sandėliai
                           href: data-entities/dual-write-sites-and-warehouses.md
+                        - name: Bendrieji integruotų mokesčių duomenys
+                          href: data-entities/dual-write-tax.md
                         - name: Pradinė sinchronizacija
                           href: data-entities/dual-write-initial.md
                         - name: Duomenų integravimo trikčių diagnostika
@@ -418,6 +432,8 @@
                   href: user-interface/client-disconnected.md
                 - name: Vietinių visuotinių diegimų trikčių diagnostika
                   href: deployment/troubleshoot-on-prem.md
+                - name: Vietinių aplinkų problemų sprendimo scenarijai
+                  href: deployment/onprem-tsg-implementations.md
                 - name: Sertifikatų kaita
                   href: deployment/certificate-rotation-on-prem.md
             - name: Pasirinktinio kodo diegimas
