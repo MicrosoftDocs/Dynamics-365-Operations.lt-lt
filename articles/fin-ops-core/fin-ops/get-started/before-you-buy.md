@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 9b7cd06d820522d8db83b5b1480b95db1400e9cc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812631"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
@@ -41,8 +41,8 @@ Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižv
 
 - Reguliaciniai ir atitikties reikalavimai, kurių nėra debesies sertifikatuose
 - Atjungtas verslo procesas esant kintamam interneto ryšiui, kurio reikia norint pasiekti „Microsoft Dynamics Lifecycle Services“ (LC), kad būtų galima valdyti programų gyvavimo ciklą
-- [Vietinėse visuotinėse įdiegtyse šiuo metu neįdiegtos funkcijos](features-not-implemented-on-prem.md)
-- [Minimalūs infrastruktūros reikalavimai](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- [Vietinėse įdiegtyse neįdiegtos funkcijos](features-not-implemented-on-prem.md)
+- [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
 > Vietinės visuotinės „Microsoft Dynamics 365 for Finance and Operations“ įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Azure“.
@@ -78,7 +78,7 @@ Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis ga
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
 
-Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos apie pirkimo kūrimą ieškokite [„Dynamics 365 for Finance and Operations“ (vietinė versija) pirkimas](purchase-on-premises.md).
+Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos rasite [„Finance + Operations (on-premises)“ pirkimas](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>Pasirinkite reikiamos pagalbos parinktį
 
@@ -91,7 +91,7 @@ Daugiau informacijos:
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ketvirtas veiksmas: sužinokite apie „FastTrack“ ir suplanuokite diegimą
 
-„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos: [„Microsoft FastTrack for Dynamics 365“ apžvalga](fasttrack-dynamics-365-overview.md)
+„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos: [„Microsoft FastTrack“](fasttrack-dynamics-365-overview.md)
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 

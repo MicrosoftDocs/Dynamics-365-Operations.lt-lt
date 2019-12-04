@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4e47aea3a9d1ce62a85aac9a4acce398b5847f1b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4bcc6937da0e9f66014d9c00668e0c6790433ba8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2191413"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811975"
 ---
 # <a name="optimization-advisor-overview"></a>Optimizavimo patariamojo įrankio apžvalga
 
@@ -38,7 +38,7 @@ Atlikus netinkamą modulio konfigūraciją ir sąranką, gali būti pasiekiamos 
 
 Darbo sritis **Optimizavimo patarėjas** yra įrankis, kuriuo naudodamiesi patyrę vartotojai, verslo analitikai, funkciniai konsultantai ir IT palaikymo funkcijos gali nustatyti modulio konfigūravimo ir verslo duomenų problemas. Optimizavimo patarėjas pasiūlo geriausią modulio konfigūraciją ir nustato, kurie verslo duomenys yra pasenę arba neteisingi.
 
-Optimizavimo patarėjas periodiškai paleidžia geriausios praktikos taisyklių rinkinį. Pasiekiamas numatytasis taisyklių rinkinys, tačiau vartotojai taip pat gali kurti specialiai jų tinkinimams, nepriklausomų programinės įrangos pardavėjų (IVS) sprendimams ir verslo duomenims pritaikytas taisykles. Daugiau informacijos apie taisyklių kūrimą žr. [Naujų taisyklių kūrimas](./create-rules-optimization-advisor.md).
+Optimizavimo patarėjas periodiškai paleidžia geriausios praktikos taisyklių rinkinį. Pasiekiamas numatytasis taisyklių rinkinys, tačiau vartotojai taip pat gali kurti specialiai jų tinkinimams, nepriklausomų programinės įrangos pardavėjų (IVS) sprendimams ir verslo duomenims pritaikytas taisykles. Daugiau informacijos apie taisyklių kūrimą žr. [Optimizavimo patarėjo taisyklių kūrimas](./create-rules-optimization-advisor.md).
 
 Aptikus taisyklės pažeidimą sugeneruojama ir darbo srityje **Optimizavimo patarėjas** rodoma optimizavimo galimybė. Vartotojas tiesiogiai darbo srityje **Optimizavimo patarėjas** gali atlikti tiesioginį koreguojamąjį veiksmą.
 
@@ -92,6 +92,6 @@ Norėdami išjungti tam tikrų taisyklių vertinimą, pasirinkite taisyklės sug
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Naujų taisyklių kūrimas](./create-rules-optimization-advisor.md)
+[Optimizavimo patariamojo įrankio taisyklių kūrimas](./create-rules-optimization-advisor.md)
 
 [Optimizavimo patarėjas naudojant „Dynamics 365 for Finance and Operations“ (vaizdo įrašas)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)

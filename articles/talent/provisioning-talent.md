@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 2bb5dd5e29559807e40b66ad7f9c061bf510ed67
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba0d11efe868d57c74f6ae4b069d1cb8351f7213
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026146"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773062"
 ---
 # <a name="provision-talent"></a>„Talent“ parengimas
 
@@ -49,12 +49,12 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
 1. LCS projekte pasirinkite plytelę **Programos „Talent“ valdymas**.
 2. Nurodykite, ar tai „smėlio dėžės“, ar gamybos „Talent“ egzempliorius. „Smėlio dėžės“ egzemplioriuose gali būti prieinamos išankstinės peržiūros funkcijos, kad būtų galima pateikti išankstinį grįžtamąjį ryšį ir atlikti bandymus. 
     > [!NOTE]
-    > „Talent“ egzemplioriaus tipas yra atskiras nuo „PowerApps“ aplinkos egzemplioriaus tipas, kurį nustatote „PowerApps“ administravimo centre.
+    > „Talent“ egzemplioriaus tipas yra atskiras nuo „Microsoft Power Apps“ aplinkos egzemplioriaus tipas, kurį nustatote „Power Apps“ administravimo centre.
 3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Talent“ bandomosios versijos patirtyje. Tai yra naudinga ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojama gamybos aplinkose.  Atkreipkite dėmesį į tai, kad turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
-4. „Talent“ visada konfigūruojama „Microsoft PowerApps“ aplinkai, siekiant įgalinti „PowerApps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „PowerApps“ aplinkos pasirinkimas“. Jei dar neturite „PowerApps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „PowerApps“ administravimo centrą. Tada atlikite nurodytus veiksmus, norėdami [Kurti „PowerApps“ aplinką](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. „Talent“ visada konfigūruojama „Microsoft Power Apps“ aplinkai, siekiant įgalinti „Power Apps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šios temos dalį „Power Apps“ aplinkos pasirinkimas“. Jei dar neturite „Power Apps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „Power Apps“ administravimo centrą. Tada atlikite nurodytus veiksmus, norėdami [Kurti „Power Apps“ aplinką](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
     > [!NOTE]
-    > Norėdami peržiūrėti esamas aplinkas arba kurti naujas aplinkas, nuomotojo administratoriui, kuris konfigūruoja „Talent“, turi būti priskirta „PowerApps“ P2 licencija. Jei jūsų organizacija neturi „PowerApps“ P2 licencijos, galite ją gauti iš savo CSP arba [„PowerApps“ kainų puslapyje](https://powerapps.microsoft.com/pricing/).
+    > Norėdami peržiūrėti esamas aplinkas arba kurti naujas aplinkas, nuomotojo administratoriui, kuris konfigūruoja „Talent“, turi būti priskirta „Power Apps“ P2 licencija. Jei jūsų organizacija neturi „Power Apps“ P2 licencijos, galite ją gauti iš savo CSP arba [„Power Apps“ kainų puslapyje](https://powerapps.microsoft.com/pricing/).
 
 5. Pasirinkite aplinką, į kurią pateikti „Talent“.
 6. Pasirinkite **Taip**, kad sutiktumėte su sąlygomis ir pradėtumėte diegimą.
@@ -68,19 +68,19 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Talent“.
 
     > Į „Talent“ abonementą galima įtraukti tik dvi LCS aplinkas, todėl galbūt norėsite 60 dienų nemokamai išbandyti [„Talent“ bandomąją aplinką](https://dynamics.microsoft.com/talent/overview/). Bandomoji aplinka priklauso tam vartotojui, kuris ją užsakė, bet galima pakviesti ir kitus vartotojus per „Core HR“ sistemos administravimo patirtį. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
-## <a name="select-a-powerapps-environment"></a>„PowerApps“ aplinkos pasirinkimas
+## <a name="select-a-power-apps-environment"></a>„Power Apps“ aplinkos pasirinkimas
 
-„Talent“ ir „PowerApps“ aplinkų integracija leidžia integruoti ir išplėsti „Talent“ duomenų naudojimą „PowerApps“ priemonėmis. Informacija apie „PowerApps“ aplinkų tikslą ne tik padės sukurti programų, išplečiančių „Talent“ funkcijas, bet ir pagelbės renkantis tinkamą aplinką „Talent“ konfigūravimo metu. Norėdami gauti daugiau informacijos apie „PowerApps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„PowerApps“ aplinkų paskelbimas](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+„Talent“ ir „Power Apps“ aplinkų integracija leidžia integruoti ir išplėsti „Talent“ duomenų naudojimą „Power Apps“ priemonėmis. Informacija apie „Power Apps“ aplinkų tikslą ne tik padės sukurti programų, išplečiančių „Talent“ funkcijas, bet ir pagelbės renkantis tinkamą aplinką „Talent“ konfigūravimo metu. Norėdami gauti daugiau informacijos apie „Power Apps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„Power Apps“ aplinkų paskelbimas](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
-Svarstydami, kurioje „PowerApps“ aplinkoje diegti „Talent“, pasinaudokite toliau pateiktais nurodymais. 
+Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Talent“, pasinaudokite toliau pateiktais nurodymais. 
 
-1. LCS pasirinkite **Valdyti aplinkas** arba eikite tiesiai į „PowerApps“ administravimo centrą, kuriame galėsite peržiūrėti esamas aplinkas ir sukurti naujų.
-2. Viena „Talent“ aplinka susieta su viena „PowerApps“ aplinka.
-3. „PowerApps“ aplinkoje kartu su programa „Talent“ pateikiamos atitinkamos „PowerApps“, „Flow“ ir „Common Data Service“ programos. Panaikinus „PowerApps“ aplinką, panaikinamos ir joje pateikiamos programos. Konfigūruojant „Talent“ aplinką, galima sukonfigūruoti aplinkas **Bandomoji versija** arba **Gamyba**. Pagal tai, kaip aplinka bus naudojama, pasirinkite aplinkos tipą. 
-4. Apsvarstykite, ar nereikėtų numatyti duomenų integravimo ir bandymo strategijų, pvz., smėlio dėžės, UAT arba gamybos. Rekomenduojame įvertinti įvairius diegimo padarinius, nes vėliau pakeisti su „PowerApps“ aplinka susietą „Talent“ aplinką nėra paprasta.
-5. Toliau nurodytų „PowerApps“ aplinkų negalima naudoti programoje „Talent“ ir LCS esančiame pasirinkimo sąraše jos bus filtruojamos.
+1. LCS pasirinkite **Valdyti aplinkas** arba eikite tiesiai į „Power Apps“ administravimo centrą, kuriame galėsite peržiūrėti esamas aplinkas ir sukurti naujų.
+2. Viena „Talent“ aplinka susieta su viena „Power Apps“ aplinka.
+3. „Power Apps“ aplinkoje kartu su programa „Talent“ pateikiamos atitinkamos „Power Apps“, „Power Automate“ ir „Common Data Service“ programos. Panaikinus „Power Apps“ aplinką, panaikinamos ir joje pateikiamos programos. Konfigūruojant „Talent“ aplinką, galima sukonfigūruoti aplinkas **Bandomoji versija** arba **Gamyba**. Pagal tai, kaip aplinka bus naudojama, pasirinkite aplinkos tipą. 
+4. Apsvarstykite, ar nereikėtų numatyti duomenų integravimo ir bandymo strategijų, pvz., smėlio dėžės, UAT arba gamybos. Rekomenduojame įvertinti įvairius diegimo padarinius, nes vėliau pakeisti su „Power Apps“ aplinka susietą „Talent“ aplinką nėra paprasta.
+5. Toliau nurodytų „Power Apps“ aplinkų negalima naudoti programoje „Talent“ ir LCS esančiame pasirinkimo sąraše jos bus filtruojamos.
  
-    - **Numatytosios „PowerApps“ aplinkos** – Nors kiekvienas nuomotojas automatiškai sukonfigūruojamas pagal numatytąją „PowerApps“ aplinką, nerekomenduojame jų naudoti kartu su „Talent“, nes visi vartotojai, kurie yra nuomotojai, turi prieigą prie „PowerApps“ aplinkos ir bandydami bei naršydami pasitelkiant „PowerApps“ ar „Flow“ integravimus gali netyčia sugadinti jūsų gamybos duomenis.
+    - **Numatytosios „Power Apps“ aplinkos** – nors kiekvienas nuomotojas automatiškai sukonfigūruojamas pagal numatytąją „Power Apps“ aplinką, nerekomenduojame jų naudoti kartu su „Talent“, nes visi vartotojai, kurie yra nuomotojai, turi prieigą prie „Power Apps “ aplinkos ir bandydami bei naršydami pasitelkiant „Power Apps“ ar „Power Automate“ integravimus gali netyčia sugadinti jūsų gamybos duomenis.
    
     - **Bandomosios aplinkos** – Šios aplinkos kuriamos pritaikant galiojimo laikotarpį ir šiam pasibaigus nebegalios, o jūsų aplinka ir visi joje esantys „Talent“ egzemplioriai bus automatiškai pašalinti.
    

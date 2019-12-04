@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd5c80bc53029426d7e42c4854e0effc48ef202a
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537813"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811560"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -238,5 +238,5 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perkelti į peržvalgos viršų / apačią                                                                                    | Home / End                       |
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Ataskaitų dizaino įrankio spartieji klavišai](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+- [Klaviatūros spartieji klavišai trūkstamų sąskaitų analizei atlikti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 

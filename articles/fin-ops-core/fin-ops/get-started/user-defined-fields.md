@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: af2066c095c675aa0003ac2cf66bebba48a1e8a5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190861"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812510"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Pasirinktinių laukų kūrimas ir naudojimas
 
@@ -103,7 +103,7 @@ Be to, jei laukų tipas yra išrinkimo sąrašas, galima pertvarkyti tinkamas pa
 
 ### <a name="exposing-custom-fields-on-data-entities"></a>Pasirinktinių laukų rodymas duomenų objektuose
 
-Taip pat gali būti svarbu leisti, kad pasirinktiniai laukai būtų matomi duomenų objektuose. Duomenų objektai naudojami kartu su funkcija [Atidaryti naudojant „Office“](../../dev-itpro/office-integration/office-integration.md) bei importuojant / eksportuojant duomenis.
+Taip pat gali būti svarbu leisti, kad pasirinktiniai laukai būtų matomi duomenų objektuose. Duomenų objektai yra naudojami funkcijoje [„Office“ integravimo apžvalga](../../dev-itpro/office-integration/office-integration.md), taip pat duomenų importavimo / eksportavimo scenarijuose.
 
 Norėdami pasirinktinį lauką rodyti duomenų objekte, atlikite tolesnius veiksmus.
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d51b9a7684e460d555632c3896e9dd8a4e10d92c
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 005b04bd4c3476356f30ba8e97564f83307a64c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626183"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811756"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Automatinis turto skaitiklių atnaujinimas
 
@@ -43,16 +43,16 @@ Kaip minėta pirmiau, automatiniai skaitikliai gali būti naujinami iš gamybos 
 
 2. Lauke **Pradžios data** pasirinkite automatinio naujinimo pradžios datą.
 
->[!NOTE]
->Data šiame lauke yra vykdomo darbo data iš **Maršruto operacijos** (laukas **Gamybos valdymas** > **Užklausos ir ataskaitos** > **Gamyba** > **Maršruto operacijos** > **Fizinė data**).
+    >[!NOTE]
+    >Data šiame lauke yra vykdomo darbo data iš **Maršruto operacijos** (laukas **Gamybos valdymas** > **Užklausos ir ataskaitos** > **Gamyba** > **Maršruto operacijos** > **Fizinė data**).
 
 3. „FastTab“ **Įtrauktini įrašai** galite pasirinkti konkretų turtą,turto tipą ar išteklius automatiniam naujinimui. Pasirinkite **Filtras** ir atlikite reikiamus pasirinkimus.
 
 4. FastTab **Vykdyti fone** pagal poreikį galite nustatyti automatinio naujinimo paketinę užduotį.
 
-Toliau pateiktame paveikslėlyje parodytas dialogo lango **Naujinti turto skaitiklius** pavyzdys.
+    Toliau pateiktame paveikslėlyje parodytas dialogo lango **Naujinti turto skaitiklius** pavyzdys.
 
-![1 pav.](media/12-work-orders.png)
+    ![1 pav.](media/12-work-orders.png)
 
 5. Pasirinkite **Gerai**. 
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 647ef586b64699a891bd3b6702ac93bc5ee8292e
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025412"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812312"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
 
@@ -36,7 +36,7 @@ ms.locfileid: "2025412"
 - Saugiai pateikite informaciją, susijusią su pardavimu ir grąžinimu, kurie yra užbaigti „Retail POS“, į išorinę žiniatinklio tarnybą, kurią valdo mokesčių inspekcija.
 - Padėkite užtikrinti pardavimo operacijų duomenų nekeičiamumą naudodami skaitmeninius parašus.
 
-Fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius mažmeninės prekybos scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli „Retail“ prekybos komponentų plėtiniai ir jis įtrauktas į programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius žr. [Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai](#fiscal-integration-samples-in-the-retail-sdk). Informacijos apie tai, kaip įdiegti ir naudoti mažmeninės prekybos SDK, žr. [Mažmeninės prekybos SDK peržiūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+Fiskalinės integracijos funkcija yra sistema, kuri suteikia bendrą „Retail POS“ ir finansinių įrenginių bei tarnybų integravimo tolesnės plėtros bei tinkinimo sprendimą. Funkcija taip pat apima fiskalinės integracijos pavyzdžius, kurie palaiko pagrindinius mažmeninės prekybos scenarijus konkrečiose šalyse ar regionuose ir kurie tinka konkretiems finansiniams įrenginiams arba tarnyboms. Fiskalinės integracijos pavyzdį sudaro keli „Retail“ prekybos komponentų plėtiniai ir jis įtrauktas į programinės įrangos kūrimo rinkinį (SDK). Daugiau informacijos apie fiskalinės integracijos pavyzdžius žr. [Mažmeninės prekybos SDK fiskalinės integracijos pavyzdžiai](#fiscal-integration-samples-in-the-retail-sdk). Informaciją kaip įdiegti ir naudoti mažmeninės prekybos SDK žr. [Mažmeninės prekybos programinės įrangos kūrimo įrenginio (SDK) architektūra](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Tam, kad būtų palaikomi kiti scenarijai, kurių nepalaiko fiskalinės integracijos pavyzdys, būtų integruojama „Retail POS“ su kitais finansiniais įrenginiais ar tarnybomis arba būtų išpildomi kitų šalių ar regionų reikalavimai, turite išplėsti esamą fiskalinės integracijos pavyzdį arba sukurti naują pavyzdį naudodami dėl esamą pavyzdį kaip pavyzdį.
 
@@ -141,6 +141,6 @@ Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Reta
 
 Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SDK“, bet šiuo metu ji nenaudoja fiskalinės integracijos sistemos. Šios funkcijos perkėlimas į fiskalinės integracijos sistemą planuojama vėlesniuose naujinimuose.
 
-- [Prancūzijos skaitmeninis parašas](emea-fra-cash-registers.md)
-- [Norvegijos skaitmeninis parašas](emea-nor-cash-registers.md)
-- [Švedijos kontrolės įtaiso integracijos pavyzdys](./retail-sdk-control-unit-sample.md)
+- [Kasos aparato funkcionalumas Prancūzijai](emea-fra-cash-registers.md)
+- [Kasos aparato funkcionalumas Norvegijai](emea-nor-cash-registers.md)
+- [„Retail POS“ integravimo su valdymo įrenginiais Švedijai pavyzdys](./retail-sdk-control-unit-sample.md)

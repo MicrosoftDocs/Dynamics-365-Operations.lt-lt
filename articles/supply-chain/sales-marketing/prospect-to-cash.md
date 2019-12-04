@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1a96b7cfa57ec72b25f21d94fadb2fbf9bc6ea3b
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: fb5abb983811ce736e3494bc85e8d9b23a2e373c
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251367"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814080"
 ---
 # <a name="prospect-to-cash"></a>Potencialaus kliento pavertimas pinigais
 
@@ -36,12 +36,12 @@ Norėdami gauti daugiau informacijos apie sprendimo Potencialūs klientai ir gry
 
 Dabartinėje versijoje sprendimas Potencialūs klientai ir grynieji pinigai leidžia šių tipų tiesioginį sinchronizavimą:
 
-- [„Sales“ sąskaitų tvarkymas ir tiesioginis „Sales“ sinchronizavimas su Tiekimo grandinės valdymu](accounts-template-mapping-direct.md)
-- [Tiekimo grandinės valdymo produktų tvarkymas ir jų tiesioginis sinchronizavimas su „Sales“](products-template-mapping-direct.md)
-- [„Sales“ kontaktų tvarkymas ir jų tiesioginis sinchronizavimas su Tiekimo grandinės tvarkymo kontaktais arba klientais](contacts-template-mapping-direct.md)
-- [Tiesioginis „Sales“ pardavimo pasiūlymo sinchronizavimas su Tiekimo grandinės tvarkymu](sales-quotation-template-mapping-sales-fin.md)
-- [Tiesioginis „Sales“ ir Tiekimo grandinės tvarkymo pardavimo užsakymų sinchronizavimas](sales-order-template-mapping-direct-two-ways.md)
-- [Tiesioginis pardavimo sąskaitos faktūros sinchronizavimas iš Tiekimo grandinės valdymo į „Sales“](sales-invoice-template-mapping-direct.md)
+- [Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Supply Chain Management“ klientais](accounts-template-mapping-direct.md)
+- [Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Sales“ produktais](products-template-mapping-direct.md)
+- [Tiesioginis „Sales“ kontaktų sinchronizavimas su „Supply Chain Management“ kontaktais arba klientais](contacts-template-mapping-direct.md)
+- [Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su Tiekimo grandinės valdymu](sales-quotation-template-mapping-sales-fin.md)
+- [Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir Tiekimo grandinės valdymo](sales-order-template-mapping-direct-two-ways.md)
+- [Tiesioginis „Supply Chain Management“ pardavimo SF antraščių ir eilučių sinchronizavimas su „Sales“](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-supply-chain-management"></a>„Supply Chain Management“ sistemos reikalavimai
 Sprendimo Potencialūs klientai ir grynieji pinigai integravimo funkcija palaikoma tolesnėse versijose.

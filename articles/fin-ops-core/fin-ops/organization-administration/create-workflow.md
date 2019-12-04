@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 2168b33c8495eab61ec0c8262b042cd16420031c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a643be553f3fcdfbe53f2024982a596e498830a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190102"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811305"
 ---
 # <a name="create-workflows-overview"></a>Darbo eigos apžvalgos kūrimas
 
@@ -60,15 +60,15 @@ Atlikite toliau nurodytus veiksmus, kad sukonfigūruotumėte darbo eigos ypatybe
 
 Sukonfigūruokite kiekvieną elementą, kurį nuvilkote į kūrimo sritį. Daugiau informacijos, kaip konfigūruoti kiekvieną darbo eigos elementą, žr. tolesnes temas.
 
-- [Neautomatizuotos užduoties konfigūravimas](configure-manual-task-workflow.md)
-- [Automatizuotos užduoties konfigūravimas](configure-automated-task-workflow.md)
-- [Patvirtinimo proceso konfigūravimas](configure-approval-process-workflow.md)
-- [Patvirtinimo veiksmo konfigūravimas](configure-approval-step-workflow.md)
-- [Neautomatizuoto sprendimo konfigūravimas](configure-manual-decision-workflow.md)
-- [Sąlyginio sprendimo konfigūravimas](configure-conditional-decision-workflow.md)
-- [Lygiagrečios veiklos konfigūravimas](configure-parallel-activity-workflow.md)
+- [Neautomatizuotų darbo eigos užduočių konfigūravimas](configure-manual-task-workflow.md)
+- [Automatizuotų darbo eigos užduočių konfigūravimas](configure-automated-task-workflow.md)
+- [Darbo eigos patvirtinimo procesų konfigūravimas](configure-approval-process-workflow.md)
+- [Darbo eigos patvirtinimo veiksmų konfigūravimas](configure-approval-step-workflow.md)
+- [Neautomatinių darbo eigos sprendimų konfigūravimas](configure-manual-decision-workflow.md)
+- [Sąlyginių darbo eigos sprendimų konfigūravimas](configure-conditional-decision-workflow.md)
+- [Lygiagrečių darbo eigos šakų konfigūravimas](configure-parallel-activity-workflow.md)
 - [Lygiagrečios šakos konfigūravimas](configure-parallel-branch-workflow.md)
-- [Eilutės elemento darbo eigos konfigūravimas](configure-line-item-workflow.md)
+- [Eilutės elemento darbo eigų konfigūravimas](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Visų klaidų ir perspėjimų sprendimas
 

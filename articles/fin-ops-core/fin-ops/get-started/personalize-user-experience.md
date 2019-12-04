@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 124609041163bbcaf1b86a6964fa3f56fcd8f755
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: d3cf2b82470887ee617704b72e47a53d299911e3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658765"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811536"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -112,15 +112,12 @@ Kai atidaroma įrankių juosta **Personalizavimas**, esamas puslapis skirtas tik
 
 - Įrankį **Pasirinkti** naudokite norėdami pasirinkti ir pakeisti elemento ypatybes. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Pasirinkti**, tada pasirinkite norimą elementą. Rodomas elemento ypatybių langas ir jūs galite keisti visas to elemento ypatybes. Galite pakartoti procesą su kitais puslapio elementais, kuriuos galima personalizuoti. Atkreipkite dėmesį, kad kai kuriais atvejais gali nebūti kai kurių personalizavimo ypatybių. Pavyzdžiui, negalite užrakinti reikiamo lauko.
 - Įrankį **Slėpti** naudokite norėdami paslėpti elementą puslapyje. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Slėpti**, tada pasirinkite norimą paslėpti elementą. Naudojant įrankį **Slėpti** visi šiuo metu paslėpti elementai tampa matomi ir yra rodomi užtamsintame fone. Tada galite padaryti elementą matomą jį pasirinkdami. Norėdami pamatyti, kaip puslapis atrodys, kai elementai bus paslėpti, perjunkite į kitą personalizavimo įrankį.
-
-    Galite slėpti privalomus laukus ir skyrius, kuriuose yra privalomų laukų. Tokiu būdu galite kurti supaprastintą platformą, kurioje nebus rodomi privalomi laukai, jei numatytosios vertės įvestos naudojant verslo logiką. Kai vartotojas bandys įrašyti puslapį, paslėpti privalomi laukai bus laikinai matomi, jei jie tušti.
-
-- Pasirinkite įrankį **Įtraukti lauką**, norėdami lauką įtraukti į puslapį. Kai naudojate šį įrankį, galite pridėti tik tuos laukus, kurie yra puslapio apibrėžimo dalis. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktiniai laukai](user-defined-fields.md). Paspaudus įrankių juostoje esantį mygtuką **Įtraukti lauką** pirmiausia būtina pasirinkti grupę arba sritį, į kurią norite įtraukti lauką. Dialogo lange bus rodomas su pasirinkta grupe arba sritimi susijusių laukų sąrašas. Dialogo lange pasirinkite vieną arba kelis norimus įterpti laukus, po to paspauskite **Įterpti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
+- Pasirinkite įrankį **Įtraukti lauką**, norėdami lauką įtraukti į puslapį. Kai naudojate šį įrankį, galite pridėti tik tuos laukus, kurie yra puslapio apibrėžimo dalis. Norėdami gauti informacijos apie tai, kaip sukurti naujų laukų, kurie nėra dabartinio puslapio apibrėžimo dalis, žr. [Pasirinktinių laukų kūrimas ir darbas su jais](user-defined-fields.md). Paspaudus įrankių juostoje esantį mygtuką **Įtraukti lauką** pirmiausia būtina pasirinkti grupę arba sritį, į kurią norite įtraukti lauką. Dialogo lange bus rodomas su pasirinkta grupe arba sritimi susijusių laukų sąrašas. Dialogo lange pasirinkite vieną arba kelis norimus įterpti laukus, po to paspauskite **Įterpti**. Norėdami pašalinti pirmiau įtrauktą lauką, pakartokite šį procesą, bet panaikinkite lauko žymėjimą dialogo lange.
 - Įrankį **Perkelti** naudokite norėdami perkelti elementą į kitą dabartinės elementų grupės vietą. Atkreipkite dėmesį, kad negalima perkelti elemento už jo pirminės grupės ribų. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Perkelti**, tada pasirinkite norimą perkelti elementą. Pasirinkus elementą, programa nustato vietas, kur leidžiama perkelti elementą. Šios vietos vadinamos *nuvilkimo zonomis*. Velkant elementą dabartinėje grupėje kiekviena nuvilkimo zona rodoma kaip spalvota, paryškinta linija šalia srities, į kurią galima nuvilkti elementą.
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankių juostoje esantį mygtuką **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Galite interaktyviai pašalinti arba įtraukti laukus į skirtukų seką.
 - Įrankį **Rodyti antraštėje** naudokite norėdami, kad laukas būtų rodomas „FastTab“ suvestinės skyriuje. Paspaudus įrankių juostoje esantį mygtuką **Rodyti antraštėje** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Pasirinkdami laukus į „FastTab“ suvestinę galite interaktyviai įtraukti laukų arba iš jos juos pašalinti.
 - Įrankį **Užrakinti** naudokite norėdami pažymėti elementą kaip redaguojamą arba neredaguojamą. Paspaudus įrankių juostoje esantį mygtuką **Užrakinti** visi šiuo metu neredaguojami elementai yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad juos būtų galima redaguoti. Atminkite, kad kai kurie laukai būtini ir jų negalima padaryti neredaguojamais. Šalia tų laukų rodomas spynos simbolis.
-- Naudokite mygtuką **Įtraukti „PowerApp“** norėdami į puslapį įdėti programą, sukurtą naudojant „Microsoft PowerApps“. Norėdami gauti išsamios informacijos apie tai, kaip į puslapį įdėti „PowerApps“ programą, žr. [Įdėti „PowerApps“](embed-power-apps.md).
+- Naudokite mygtuką **Įtraukti „PowerApp“** norėdami į puslapį įdėti programą, sukurtą naudojant „Microsoft PowerApps“. Norėdami gauti išsamios informacijos apie tai, kaip į puslapį įdėti „PowerApps“ programą, žr. [Įdėti „PowerApps“ programas](embed-power-apps.md).
 - Naudodami įrankį **Valyti** galite atkurti numatytąją įdiegus puslapį naudotą būseną. Visas dabartinio puslapio personalizavimas bus panaikintas. Veiksmo anuliuoti negalima. Todėl naudokite šį įrankį tik tada, jei tikrai norite atkurti puslapį.
 - Naudodami įrankį **Importuoti** galite įkelti personalizavimą iš jūsų ar ko nors kito sukurto failo. Kai importuojate puslapio personalizavimo nustatymus, galite pasirinkti, ar jie turi būti įtraukti į esamus puslapio personalizavimo nustatymus, ar juos pakeisti. Veiksmo anuliuoti negalima. Todėl, kai importuojate personalizavimą, turite rankiniu būdu išvalyti arba anuliuoti keitimus, kurių nenorite.
 - Naudodami įrankį **Eksportuoti** galite įrašyti savo puslapio personalizavimus į failą. Tada galite pasidalinti savo personalizavimais su kitais vartotojais. Tiems vartotojams tiesiog reikia importuoti failą, kuriame yra jūsų puslapio personalizavimai.

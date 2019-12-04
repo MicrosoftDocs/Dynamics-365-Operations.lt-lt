@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: c5d07cb9fbb32a2d9b8be11179dbba00ee73d28b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b5fbe5ffa74953588a2357948319f5cf21f7ad36
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184582"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769766"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>„Power BI“ turinys Sandėlio našumas
 
@@ -78,7 +78,7 @@ ms.locfileid: "2184582"
 | Siuntimo efektyvumas        | Išsiųsta pagal teritoriją / sandėlį              | Anksčiau, laiku arba pavėluotai išsiųstų prekių procentas pagal teritoriją arba sandėlį. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Duomenų modelio ir skaičiavimų supratimas
-Tolesniais duomenimis pildomi „Power BI“ turinio **Sandėlio našumas** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+Tolesniais duomenimis pildomi „Power BI“ turinio **Sandėlio našumas** ataskaitų puslapiai. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objektų saugykloje. Objektų saugykla yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
 Šie pagrindiniai sujungti matavimo vienetai naudojami kaip turinio pagrindas.
 

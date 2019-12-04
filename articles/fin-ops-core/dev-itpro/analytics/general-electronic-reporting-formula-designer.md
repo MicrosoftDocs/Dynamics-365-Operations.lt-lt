@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43700d68587cebfb4f897c8a5b619dd4771cc439
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e55ab83302cc75b1a9d9d3e4f06d2258697b31fc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181317"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771219"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -773,9 +773,9 @@ Nurodę šiuos duomenų šaltinius, galite naudoti išraišką, pvz., <strong>FI
 
 ### <a name="functions-list-extension"></a>Funkcijų sąrašo papildymas
 
-ER leidžia papildyti ER išraiškose naudojamų funkcijų sąrašą. Tam reikės atitinkamų inžinerinių pastangų. Daugiau informacijos rasite [Elektroninių ataskaitų funkcijų sąrašo papildymas](general-electronic-reporting-formulas-list-extension.md).
+ER leidžia papildyti ER išraiškose naudojamų funkcijų sąrašą. Tam reikės atitinkamų inžinerinių pastangų. Išsamią informaciją žr. [Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas](general-electronic-reporting-formulas-list-extension.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+- [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 - [Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas](general-electronic-reporting-formulas-list-extension.md)

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a12ab249129dce24cdca5e29d737fa9f68c0eac
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 9efc63c385c31a6d8848d016c1a8689460908dcc
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572454"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769665"
 ---
 # <a name="organization-hierarchy-in-common-data-service"></a>Organizacijos hierarchija Common Data Service
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Kadangi „Dynamics 365 Finance“ yra finansų sistema, *„organizacija“* yra pagrindinė sąvoka, o sistemos sąranka pradedama nuo organizacijos hierarchijos konfigūracijos. Verslo finansai gali būti stebimi organizacijos lygiu ir taip pat bet kuriuo organizacijos hierarchijos lygiu.
 
@@ -46,85 +44,35 @@ Verslo ekosistema, kurią sudaro „Finance and Operations“ programos ir „Co
 
 Organizacijos hierarchijos objekto schemos prieinamos vienpusiui duomenų sinchronizavimui iš „Finance and Operations“ programų į „Common Data Service”.
 
+## <a name="templates"></a>Šablonai
+
+Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią informaciją, pvz., produkto dimensijas arba sekimo ir saugojimo dimensijas. Kaip parodyta toliau esančioje lentelėje, sukurtas objektų schemų rinkinys, skirtas produktų ir susijusios informacijos sinchronizavimui.
+
+„Finance and Operations” | Kitos „Dynamics 365” programos | Aprašymas
+-----------------------|--------------------------------|---
+Organizacijos hierarchijos tikslai | msdyn_internalorganizationhierarchypurposes | Naudojant šį šabloną, galimai vienpusiškai sinchronizuoti objektą Organizacijos hierarchijos paskirtis.
+Organizacijos hierarchijos tipas | msdyn_internalorganizationhierarchytypes | Naudojant šį šabloną, galimai vienpusiškai sinchronizuoti objektą Organizacijos hierarchijos tipas.
+Organizacijos hierarchija – publikuota | msdyn_internalorganizationhierarchies | Naudojant šį šabloną, galimai vienpusiškai sinchronizuoti objektą Organizacijos hierarchija publikuota.
+Valdymo vienetas | msdyn_internalorganizations | 
+Juridiniai subjektai | msdyn_internalorganizations | 
+Juridiniai subjektai | cdm_companies | Suteikiama juridinio subjekto (įmonės) informacijos dvikrypčio sinchronizavimo galimybė.
+
+
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="internal-organization-hierarchy-purpose"></a>Prižiūrėti organizacijos hierarchijos paskirtis
+[!include [Organization hierarchy purposes](dual-write/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
 
-Šis šablonas pateikia organizacijos hierarchijos paskirties objekto vienpusį sinchronizavimą iš „Finance and Operations“ į kitas „Dynamics 365“ programas.
+[!include [Organization hierarchy type](dual-write/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
 
-<!-- ![architecture image](media/dual-write-purpose.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-Hierarchijos tipas | \> | msdyn\_hierarchypurposetypename
-Hierarchijos tipas | \> | msdyn\_hierarchytype.msdyn\_name
-Hierarchijos paskirtis | \>\> | msdyn\_hierarchypurpose
-Nekintamas | \>\> | msdyn\_immutable
-Nustatyti kaip numatytąją | \>\> | msdyn\_setasdefault
-
-## <a name="internal-organization-hierarchy-type"></a>Vidinis organizacijos hierarchijos tipas
-
-Šis šablonas pateikia organizacijos hierarchijos tipo objekto vienpusį sinchronizavimą iš „Finance and Operations“ į kitas „Dynamics 365“ programas.
-
-<!-- ![architecture image](media/dual-write-type.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAVADINIMAS | \> | msdyn\_name
-
-## <a name="internal-organization-hierarchy"></a>Vidinis organizacijos hierarchija
-
-Šis šablonas pateikia organizacijos hierarchijos publikuoto objekto vienpusį sinchronizavimą iš „Finance and Operations“ į kitas „Dynamics 365“ programas.
-
-<!-- ![architecture image](media/dual-write-organization.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-Galioja iki | \> | msdyn\_validto
-Galioja nuo | \> | msdyn\_validfrom
-Hierarchijos tipas | \> | msdyn\_hierarchytypename
-Pirminės organizacijos įrašo numeris | \> | msdyn\_parentpartyid
-Antrinės organizacijos įrašo numeris | \> | msdyn\_childpartyid
-Hierarchijos tipas | \> | msdyn\_hierarchytypeid.msdyn\_name
-Antrinės organizacijos įrašo numeris | \> | msdyn\_childid.msdyn\_partynumber
-Pirminės organizacijos įrašo numeris | \> | msdyn\_parentid.msdyn\_partynumber
+[!include [Organization hierarchy - published](dual-write/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
 
 ## <a name="internal-organization"></a>Vidinė organizacija
 
 Vidinės organizacijos informacija, esanti „Common Data Service“ gaunama iš dviejų objektų – **valdymo vieneto** ir **juridinių subjektų**.
 
-<!-- ![architecture image](media/dual-write-operating-unit.png) -->
+[!include [Operating unit](dual-write/OperatingUnit-msdyn-internalorganizations.md)]
 
-<!-- ![architecture image](media/dual-write-legal-entities.png) -->
+[!include [Legal entities](dual-write/LegalEntities-msdyn-internalorganizations.md)]
 
-### <a name="operating-unit"></a>Valdymo vienetas
+[!include [Legal entities](dual-write/LegalEntities-Companies.md)]
 
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-Kalbos ID | \> | msdyn\_languageid
-Vardo pseudonimas | \> | msdyn\_namealias
-PAVADINIMAS | \> | msdyn\_name
-Įrašo numeris | \> | msdyn\_partynumber
-Valdymo vienetų tipai | \>\> | msdyn\_type
-
-### <a name="legal-entity"></a>Juridinis subjektas
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-Vardo pseudonimas | \> | msdyn\_namealias
-Kalbos ID | \> | msdyn\_languageid
-PAVADINIMAS | \> | msdyn\_name
-Įrašo numeris | \> | msdyn\_partynumber
-nėra | \>\> | msdyn\_type
-Juridinio subjekto ID | \> | msdyn\_companycode
-
-## <a name="company"></a>Įmonė
-
-Pateikia juridinio subjekto (įmonės) informacijos dvikryptį sinchronizavimą tarp „Finance and Operations“ ir ir kitų „Dynamics 365” programų.
-
-<!-- ![architecture image](media/dual-write-company.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAVADINIMAS | = | cdm\_name
-Juridinio subjekto ID | = | cdm\_companycode

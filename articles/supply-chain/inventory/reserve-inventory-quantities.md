@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 859d769b95c57663dc1bb76a632e34728a6691b5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570814"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813889"
 ---
 # <a name="reserve-inventory-quantities"></a>Atsargų kiekių rezervavimas
 
@@ -55,7 +55,7 @@ Dalyje **Atsargų strategijos** pateikiamos toliau nurodytos rezervavimo strateg
 | FIFO kontrolė pagal datą    | Jei pasirinksite parinktį **FIFO kontrolė pagal datą**, atsargų rezervavimą kontroliuos rūšiavimo data pagal FIFO principą. Paketai rezervuojami naudojant anksčiausią prekių gavimo datą pagal principą „pirmasis į, pirmasis iš“ (FIFO).                                                                                                                                                                                                                                                                       |
 | Atgal nuo siuntimo datos | Šią parinktį galima naudoti pažymėjus parinktį **FIFO kontrolė pagal datą**. Jei pasirinksite **Atgal nuo siuntimo datos**, atsargos rezervuojamos atgal pageidaujamos siuntimo datos pagal principą „pirmasis į, pirmasis iš“ (FIFO). Jei iki siuntimo datos nėra galimų kvitų, naudojamas FIFO rezervavimas.                                                                                                                                                                                                           |
 | Prekių pardavimo rezervacija  | Nustato, ar prekių rezervavimas vykdomas automatiniu, ar neautomatiniu būdu. Jei rezervavimas vykdomas automatiškai. atsargos rezervuojamos kuriant užsakymo eilutes. Galima rezervuoti KS (parinktis **Automatinis**) arba atskirų KS elementų (parinktis **Išskleidimas**) prekės numerio lygiu. Numatytoji reikšmė **Prekės pardavimo rezervacija** gali būti nuskaityta iš **Gautinų sumų parametrai.** Tame puslapyje reikšmė nustatoma lauke Rezervavimas, kuris yra skirtuko **Bendra** **skyriuje** **Numatytosios pardavimo reikšmės**. |
-| To paties paketo parinkimas    | To paties paketo rezervavimas leidžia pardavimo užsakymo eilutės atsargas rezervuoti pagal vieną atsargų paketą. Jei norite naudoti šią parinktį, taip pat turite nustatyti parinktį **Konsoliduoti reikalavimą** į **Taip**. Yra papildomų parametrų, kurių reikia sekimo dimensijų grupei ir saugojimo dimensijų grupei. Daugiau informacijos rasite puslapyje [To paties pardavimo užsakymo paketo rezervavimas](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
+| To paties paketo parinkimas    | To paties paketo rezervavimas leidžia pardavimo užsakymo eilutės atsargas rezervuoti pagal vieną atsargų paketą. Jei norite naudoti šią parinktį, taip pat turite nustatyti parinktį **Konsoliduoti reikalavimą** į **Taip**. Yra papildomų parametrų, kurių reikia sekimo dimensijų grupei ir saugojimo dimensijų grupei. Daugiau informacijos žr. [To paties pardavimo užsakymo paketo rezervavimas](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Konsoliduoti reikalavimą | Ši pasirinktis yra panašu į parinktį **To paties paketo parinkimas** ir ji konsoliduoja rezervuotas pardavimo užsakymo eilučių atsargas į vieną reikalavimą.                                                                                                                                                                                                                                                                                                                                                                                      |
 | FEFO kontrolė pagal datą    | Naudojant šią parinktį galima rezervuoti paketus, kurių galiojimo data arba galiojimo pabaigos data yra arti. Taip pat turite nustatyti lauką **Paėmimo kriterijai**, pasirinkdami parinktį **Galiojimo data** arba **Galiojimo pabaigos data**.                                                                                                                                                                                                                                                                                                                              |
 

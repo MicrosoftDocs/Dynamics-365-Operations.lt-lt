@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: b40f9a5677fd5375d7a19a75400d4305a8850392
-ms.sourcegitcommit: 399e861ca6f2bdcd4fe84d89fedc04b60d9f43e6
+ms.openlocfilehash: c11123c0d53fcf4ba67e83fe64d2d6e692d5b6f1
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564942"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771357"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Duomenų importavimo iš „SharePoint“ konfigūravimas
 
@@ -43,7 +43,7 @@ Norint įvykdyti šios temos pavyzdžių užduotis, reikia toliau nurodytų prie
 - 1099 mokėjimams naudojami ER formatas ir modelio konfigūracijos.
 
 ### <a name="create-required-er-configurations"></a>Reikiamų ER konfigūracijų kūrimas
-Leiskite užduočių vedlius **ER importavimo duomenys iš „Microsoft Excel“ failas**, kurie yra **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų(10677)** verslo proceso dalis. Šie užduočių vedliai parodys jums ER konfigūracijų kūrimo ir naudojimo procesą, norint interaktyviai importuoti tiekėjo operacijas iš „Microsoft Excel“ failų. Daugiau informacijos rasite [Gaunamų dokumentų analizė „Microsoft Excel“](parse-incoming-documents-excel.md). Atlikus užduočių vadovo veiksmus, bus nustatytos toliau pateiktos parinktys.
+Leiskite užduočių vedlius **ER importavimo duomenys iš „Microsoft Excel“ failas**, kurie yra **7.5.4.3 Įsigyti / sukurti IT paslaugų ir sprendimų komponentų(10677)** verslo proceso dalis. Šie užduočių vedliai parodys jums ER konfigūracijų kūrimo ir naudojimo procesą, norint interaktyviai importuoti tiekėjo operacijas iš „Microsoft Excel“ failų. Daugiau informacijos žr. [„Excel“ formatu gaunamų dokumentų analizė](parse-incoming-documents-excel.md). Atlikus užduočių vadovo veiksmus, bus nustatytos toliau pateiktos parinktys.
 
 #### <a name="er-configurations"></a>ER konfigūracijos
 

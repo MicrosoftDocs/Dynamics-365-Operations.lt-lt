@@ -3,7 +3,7 @@ title: Įtraukti faktinę vertę
 description: Puslapio Prekių modelių grupės „FastTab‟ skirtuko Atsargų modelis žymės langelis Įtraukti faktinę vertę naudojamas nurodyti, ar, skaičiuojant prekės einamąją vidutinę savikainą, atsižvelgiama į faktiškai atnaujintas operacijas.
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 834438f8389e295bbb992f0b8397ff45559690c3
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551980"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693002"
 ---
 # <a name="include-physical-value"></a>Įtraukti faktinę vertę
 
@@ -47,10 +47,16 @@ Puslapio Prekių modelių grupės „FastTab‟ skirtuko Atsargų modelis žymė
 
 **1 pavyzdys** Pažymėjote žymės langelį **Įtraukti faktinę vertę** ir gaunate tolesnius pirkimo užsakymus.
 
--   Pirkimo užsakymą, kurio kiekis – 2, o savikaina – 10,00 USD, kurio važtaraštis atnaujintas.
--   Pirkimo užsakymą, kurio kiekis – 3, o savikaina – 12,00 USD, kurio sąskaita faktūra atnaujinta.
+-   Pirkimo užsakymas, kurį sudaro kiekis iš 2 už 10,00 JAV dol. savikainą, kurio važtaraštis buvo atnaujintas.
+-   Pirkimo užsakymas, kurį sudaro kiekis iš 3 už 12,00 JAV dol. savikainą, kurio sąskaita buvo atnaujinta.
 
-Šiuo atveju einamoji vidutinė savikaina bus 11,20 USD, nes tiek fiziškai, tiek finansiškai atnaujintos operacijos naudojamos savikainai apskaičiuoti. **2 pavyzdys** Žymės langelio **Įtraukti faktinę vertę** nepažymėjote ir, nustatant prekes, savikaina yra 10,00 USD. Gaunate pirkimo užsakymą, kurio kiekis – 20, o savikaina – 12,00 USD, kurio važtaraštis atnaujintas. Kai pardavimo užsakymas užregistruojamas, užregistruotoji savikaina yra 10,00 USD, nes į einamąją vidutinę savikainą neįtrauktos faktiškai užregistruotos operacijos. **Pastaba.** Palyginimui, jei šios prekės žymės langelį **Įtraukti faktinę vertę** pažymėsite, kai registruojamas pardavimo užsakymas, užregistruotoji savikaina bus 12,00 USD.
+Šiuo atveju vidutinė vykdymo savikaina bus 11,20 JAV dol. = (2 x 10 + 3 x 12)/(2 + 3), nes fiziškai apdorotos operacijos ir finansiškai apdorotos operacijos naudojamos apskaičiuoti savikainą. 
 
+**2 pavyzdys** Žymės langelio **Įtraukti faktinę vertę** nepažymėjote ir, nustatant prekes, savikaina yra 10,00 USD. 
 
+-   Gaunate pirkimo užsakymą, kurio kiekis – 20, o savikaina – 12,00 USD, kurio važtaraštis atnaujintas.
 
+Kai pardavimo užsakymas užregistruojamas, užregistruotoji savikaina yra 10,00 USD, nes į einamąją vidutinę savikainą neįtrauktos faktiškai užregistruotos operacijos. 
+
+> [!NOTE]
+> Palyginimui, jei šiam elementui pažymite žymės langelį **Įtraukti fizinę reikšmę**, kai pardavimo užsakymas yra paskelbtas, paskelbta savikaina bus 12,00 JAV dol.

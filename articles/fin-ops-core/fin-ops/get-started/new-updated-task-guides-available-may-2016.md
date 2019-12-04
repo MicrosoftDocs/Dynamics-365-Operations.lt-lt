@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.openlocfilehash: 7134dc49c0e767d3bc4dc32e4feeb0e83a168e86
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 930c744ff2a28451d4267f060867b4b6474d45e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190930"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811583"
 ---
 # <a name="new-or-updated-task-guides-may-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190930"
 
 ## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. gegužės mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 
-APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) galima rasti lokalizuotas užduočių vedlių versijas. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) galima rasti lokalizuotas užduočių vedlių versijas. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
 
 > [!NOTE]
 > Žvaigždutė (\*) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics AX“ 2016 m. gegužės mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.
@@ -185,7 +185,7 @@ APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.) yra užduočių vedlių, 
 | Krovimo į konteinerius nustatymas                                         | Visuotinai         |
 | Rankinio pakavimo nustatymas                                           | Bendra         |
 | Prekės transportavimo apribojimų nustatymas                   | Bendra         |
-| \*Sandėlio darbo strategijų nustatymas                                | Bendra         |
+| \*Sandėlio darbo strategijų nustatymas                                | Bendroji         |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

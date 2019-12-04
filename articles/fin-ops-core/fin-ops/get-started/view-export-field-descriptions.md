@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 974f99632738cfc6eec5ff85965f4e9f9608a8b5
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3e110c7fe6881825fe2b075c1795bc4f7e938da4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179153"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811512"
 ---
 # <a name="view-and-export-field-descriptions"></a>Laukų aprašų peržiūra ir eksportas
 
@@ -35,7 +35,7 @@ Pateikiami kai kurių sudėtingesnių laukų aprašai. Šie aprašymai bus rodom
 
 Laukų aprašai yra ne visuose puslapiuose. Norime pateikti tik sudėtingesnių laukų aprašymus, o ne tų, kurių naudojimas yra aiškus. Todėl kai kuriuose puslapiuose aprašymai nerodomi, kai kuriuose puslapiuose rodomi keli aprašymai, o kai kuriuose sudėtingesniuose puslapiuose, pvz., daugelyje parametrų puslapių, rodoma daug aprašymų.
 
-Jei turite prieigą prie programavimo aplinkos, galite įtraukti naujų laukų aprašų ir tinkinti esamus aprašus. Pavyzdžiui, į lauko aprašymą galite įtraukti įmonei būdingą informaciją. Daugiau informacijos žr. dalyje [Lauko žinyno tinkinimas](../../dev-itpro/user-interface/customize-field-help.md).
+Jei turite prieigą prie programavimo aplinkos, galite įtraukti naujų laukų aprašų ir tinkinti esamus aprašus. Pavyzdžiui, į lauko aprašymą galite įtraukti įmonei būdingą informaciją. Daugiau informacijos žr. [Lauko aprašų tinkinimas](../../dev-itpro/user-interface/customize-field-help.md).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Peržiūrėkite laukų aprašymus vartotojo sąsajoje.
 
@@ -107,4 +107,4 @@ Informacijos apie įvairius būdus, kaip rasti puslapius, žr. ankstesnėje šio
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Lauko žinyno tinkinimas](../../dev-itpro/user-interface/customize-field-help.md)
+[Laukų aprašų tinkinimas](../../dev-itpro/user-interface/customize-field-help.md)

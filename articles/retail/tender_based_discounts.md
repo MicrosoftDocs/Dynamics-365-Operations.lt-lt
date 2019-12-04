@@ -3,7 +3,7 @@ title: Nuolaidos pagal mokėjimo būdą
 description: Šioje temoje pateikiama funkcijų, kurios leidžia pardavėjams konfigūruoti nuolaidas pagal konkrečius mokėjimo būdus, apžvalga.
 author: bebeale
 manager: AnnBe
-ms.date: 10/25/19
+ms.date: 10/30/19
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 245ee647a3b86303df046fda5bba406c7a2485b5
-ms.sourcegitcommit: b0c176d5d24939307c6d0a6dbe7656007ca53710
+ms.openlocfilehash: ed17b43ac16ebcd310716271b84bbbd904a3253a
+ms.sourcegitcommit: dc31a0f0d9216aa05be76046ac7410702b20706f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "2673570"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2692228"
 ---
 # <a name="tender-based-discounts"></a>Nuolaidos pagal mokėjimo būdą
 
@@ -40,6 +40,7 @@ Dirbdami su „Microsoft Dynamics 365 Retail“, pardavėjai gali konfigūruoti 
 Nuolaidos pagal mokėjimo būdą nekonkuruoja su nuolaidomis, susijusiomis su preke, pvz., periodinėmis arba neautomatinėmis nuolaidomis. Jos visada skaičiuojamos kartu su prekių nuolaidomis. Todėl net jei prekei taikoma išskirtinė periodinė nuolaida, nuolaida pagal mokėjimo būdą vis tiek taikoma kartu su išskirtinėje periodine nuolaida. Analogiškai, jei operacijai taikoma ribinė nuolaida, o nuolaida pagal mokėjimo būdą sumažina bendrą sumą iki mažesnės už ribinę vertės, operacijai vis tiek taikoma ribinė nuolaida.
 
 Nors nuolaidos pagal mokėjimo būdą sumažina operacijos tarpinę sumą, tai neturi įtakos automatiniams mokesčiams, taikomiems operacijai. Pavyzdžiui, jei dėl to, kad tarpinė suma buvo didesnė nei 100 JAV dol., buvo apskaičiuotos 5 JAV dol. pristatymo išlaidos, o nuolaida pagal mokėjimo būdą sumažina sumą iki mažesnės nei 100 JAV dol., užsakymo pristatymo išlaidos vis tiek yra 5 JAV dol.
+
 
 > [!NOTE]
 > Nuolaidos pagal mokėjimo būdą proporcingai paskirstomos atitinkamoms pardavimo eilutėms ir sumažina atskirų eilučių sumą prieš mokesčius. Jei mokėjimo priemonės tipui yra sukonfigūruotos kelios nuolaidos pagal mokėjimo būdą (pavyzdžiui, grynaisiais pinigais), taikoma tik didžiausia nuolaida pagal mokėjimo būdą.
@@ -57,6 +58,7 @@ Mokant kortele, pardavėjai gali nustatyti nuolaidą pagal mokėjimo būdą vien
 
 Siekiant išvengti šios situacijos, jei klientas moka kredito kortele, kasininkas mato dialogo langą, kuriame rodomos kredito kortelės, leisiančios klientui sutaupyti papildomai. Kasininkas gali paklausti, ar klientas nori naudoti vieną iš pageidaujamų kortelių papildomai nuolaidai gauti. Jei kasininkas naudoja pageidaujamą kortelę, nuolaida pagal mokėjimo būdą taikoma operacijai, o sumažinta suma rodoma mokėjimo ekrane. Autorizavimas bus taikomas sumažintai sumai. Jei klientas naudoja kortelę, kuri skiriasi nuo kortelės, kurią pasirinko kasininkas, rodomas klaidos pranešimas ir autorizavimas nebegalioja.
 
+
 ## <a name="call-center-user-experience"></a>Skambučių centro vartotojo patirtis
 
 Kai skambučių centro užsakymo metu vartotojas pasirenka **Baigti**, rodomas ekranas **Sumos**. Iš pradžių šio ekrano sumos neapima nuolaidų pagal mokėjimo būdą, nes dar nepasirinktas mokėjimo būdas. Ekrane **Įtraukti mokėjimą**, jei vartotojas pasirenka mokėjimo būdą, kuriam yra sukonfigūruota nuolaida pagal mokėjimo būdą, mokėjimo suma automatiškai koreguojama, kad atitiktų sumą su nuolaidą. Kaip ir EKA kliento atveju, skambučių centro klientas gali nuspręsti, ar atlikti pilną mokėjimą, ar dalinį mokėjimą. Remiantis sumokėta suma, pardavimo užsakymui taikoma nuolaida pagal mokėjimo būdą.
@@ -66,7 +68,7 @@ Kai skambučių centro užsakymo metu vartotojas pasirenka **Baigti**, rodomas e
 
 ## <a name="exclude-items-from-discounts"></a>Netaikyti nuolaidų prekėms
 
-Pardavėjai dažnai pasirenka netaikyti nuolaidų kai kuriems produktams, pvz., naujoms prekėms arba paklausioms prekėms. Tačiau jie vis dar gali norėti taikyti nuolaidas pagal mokėjimo būdą. Pavyzdžiui, pardavėjas gali sukonfigūruoti „Retail“, kad nebūtų taikomos su preke susijusios nuolaidos arba neautomatinės nuolaidos. Tačiau, jei klientas moka naudodamas pageidaujamą mokėjimo priemonę, „Retail“ vis dar taiko nuolaidą pagal mokėjimo būdą. Norėdami tokiu būdu nustatyti „Retail“, pardavėjai turi išjungti parinktis **Neleisti jokių nuolaidų** ir **Neleisti nuolaidų pagal mokėjimo būdą** ir įjungti parinktis **Neleisti mažmeninės prekybos nuolaidų** ir **Neleisti rankiniu būdu įvedamų nuolaidų**. Parinktys pasiekiamos puslapyje **Patvirtinti produktai**, kortelėje **Mažmeninė prekyba**.
+Pardavėjai dažnai pasirenka netaikyti nuolaidų kai kuriems produktams, pvz., naujoms prekėms arba paklausioms prekėms. Tačiau jie vis dar gali norėti taikyti nuolaidas pagal mokėjimo būdą. Pavyzdžiui, pardavėjas gali sukonfigūruoti „Retail“, kad nebūtų taikomos su preke susijusios nuolaidos arba neautomatinės nuolaidos. Tačiau, jei klientas moka naudodamas pageidaujamą mokėjimo priemonę, „Retail“ vis dar taiko nuolaidą pagal mokėjimo būdą. Norėdami nustatyti „Retail“ šiuo būdu, pardavėjai turi eiti į **Produkto informacijos valdymas > Produktai > Išleisti produktai**, pasirinkti prekę, tada „FastTab“ **Retail** parinktis **Neleisti jokių nuolaidų** ir **Neleisti mokėjimo priemone pagrįstų nuolaidų** nustatyti į **Ne**, o parinktis **Neleisti mažmeninės prekybos nuolaidų** ir **Neleisti rankiniu būdu įvedamų nuolaidų** į **Taip**.
 
 > [!NOTE]
-> Įjungus konfigūraciją **Neleisti jokių nuolaidų**, produktui nebus taikoma jokių nuolaidų. Nebus taikomos netgi nuolaidos pagal mokėjimo būdą.
+> Kaip konfigūracija **Neleisti jokių nuolaidų** nustatyta į **Taip**, produktui nebus taikoma jokių nuolaidų. Nebus taikomos netgi nuolaidos pagal mokėjimo būdą.

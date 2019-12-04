@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08d128e3006d019fa19b52f320b262ae49105e5d
-ms.sourcegitcommit: ddd66bd329e76d88178032566b0a57637159b537
+ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2666835"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770671"
 ---
 # <a name="sales-tax-overview"></a>PVM apžvalga
 
@@ -38,7 +38,7 @@ PVM sistema palaiko įvairių tipų netiesioginius mokesčius, pvz., pridėtin�
 
 Pateiktoje diagramoje parodyti mokesčių sąrankos objektai ir tai, kaip jie susiję.
 
-[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
+[![Diagrama, rodanti mokesčio sąrankos objektų apžvalgą](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
 Reikia nurodyti kiekvieno PVM, kurį įmonė turi deklaruoti, kodą. PVM kode saugomi PVM tarifai ir skaičiavimo taisyklės. 
 
@@ -55,7 +55,7 @@ Toliau pateikiamoje lentelėje aprašomi mokesčių sąrankos objektai ir seka.
 | Nustatymo veikla                                                  | Būtina/pasirinktinai ir aprašymas                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Kurti pagrindines sąskaitas.                                           | Reikia. Prieš nustatant PVM funkcijas, turi būti sukurtos pagrindinės sąskaitos, kurias įmonė naudoja mokesčiams mokėti ir įrašyti.                                                                                                                                                                             |
-| Nustatykite PVM skirtų DK registravimo grupių.                     | Reikia. DK registravimo grupės apibrėžia pagrindines sąskaitas, skirtas registruoti ir mokėti PVM.   Daugiau informacijos žr. [Nustatyti PVM skirtų DK registravimo grupes](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Nustatykite PVM skirtų DK registravimo grupių.                     | Reikia. DK registravimo grupės apibrėžia pagrindines sąskaitas, skirtas registruoti ir mokėti PVM.   Daugiau informacijos žr. [Didžiosios knygos registravimo grupių nustatymas pardavimo mokesčiui](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
 | Nustatykite PVM institucijas.                                   | Reikia. PVM institucijos yra subjektai, kuriems turi būti deklaruojamas ir mokamas mokestis.    Daugiau informacijos žr. [Nustatyti PVM rinkėjus](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Nustatyti PVM sudengimo laikotarpius.                            | Reikia. PVM sudengimo laikotarpiuose yra informacija apie tai, kada ir kaip dažnai reikia deklaruoti ir mokėti PVM. Jie yra susiję su PVM institucija.                                                                                                                                                       |
 | Nustatyti PVM ataskaitų kodus.                               | Pasirinktinai. PVM ataskaitų kodus galima priskirti PVM kodams, norint kelių PVM kodų sumas deklaruoti pagal vieną PVM ataskaitų kodą. Daugiau informacijos žr. [Nustatyti PVM ataskaitų kodus](tasks/set-up-sales-tax-reporting-codes.md).                                         |

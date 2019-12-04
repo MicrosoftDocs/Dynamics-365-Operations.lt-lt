@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: a39654d4b6d74aa640db682fa052651736552db1
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 233f31bd0b20ad5dd8ba21077797dd2f65069deb
+ms.sourcegitcommit: bc6db23825c94cd8305ef37bc18296765e9ce8a4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553192"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "2810704"
 ---
 # <a name="one-voucher"></a>Vienas kvitas
 
@@ -83,6 +83,9 @@ Remdamasi pokalbiais su klientais, „Microsoft“ parengė toliau pateikiamą s
 
 Toliau nurodytus scenarijus galima įvykdyti tik naudojantis funkcija Vienas kvitas. Jei jūsų organizacijoje naudojamas kuris nors iš šių scenarijų, turite įgalinti parinktį, leisiančią į vieną kvitą įversti keletą operacijų. Tą padaryti galite pakeitę parametrą **Leisti kelias vieno kvito operacijas**, pateiktą puslapyje **DK parametrai**. Vėlesniuose leidimuose funkcinės spragos bus užpildytos pristatant kitas funkcijas.
 
+> [!Note]
+> [Kiekvienam iš toliau nurodytų scenarijų laukas **Leisti kelias vieno kvito operacijas** turi būti nustatytas į Taip „FastTab“ **Bendroji informacija** puslapyje **Didžiosios knygos parametrai**.]
+
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Tiekėjo arba kliento mokėjimų registravimas banko sąskaitoje suvestinės forma
 
 **Scenarijus** Organizacija perduoda tiekėjų ir sumų sąrašą savo bankui, o bankas naudoja šį sąrašą apmokėdamas sumas tiekėjams organizacijos vardu. Banko sąskaitoje bankas registruoja mokėjimų sumą kaip vieną išėmimą.
@@ -120,6 +123,9 @@ Atliekant toliau nurodytas ilgalaikio turto operacijas, viename kvite taip pat s
 - Turtas suskaidomas.
 - Įjungiamas parametras, naudojamas norint apskaičiuoti nusidėvėjimą likviduojant, po to turtas likviduojamas.
 - Turto paslaugos data yra ankstesnė nei įsigijimo data. Dėl to registruojamas nusidėvėjimo koregavimas.
+
+> [!Note]
+> Kai įvedate operacijas, įsitikinkite, kad visos operacijos taikomos tam pačiam ilgalaikiam turtui. Kvitas nebus registruojamas, jei jame yra daugiau nei vienas ilgalaikis turtas, net jei lauke **Naujas kvitas** didžiosios knygos puslapyje **Žurnalų pavadinimai** yra nustatytas tik vieno kvito numeris. Jei į kvitą įtraukiate daugiau nei vieną ilgalaikį turtą, bus rodomas pranešimas **Viename kvite gali būti tik viena ilgalaikio turto operacija** ir negalėsite registruoti kvito.  
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Įsakomieji ir paprastieji vekseliai
 Įsakomųjų ir paprastųjų vekselių atveju funkciją Vienas kvitas naudoti reikia, nes atliekant operacijas kliento arba tiekėjo balansas, remiantis mokėjimo būsena, iš vienos DK sąskaitos Gautinos sumos / Mokėtinos sumos perkeliamos į kitą.

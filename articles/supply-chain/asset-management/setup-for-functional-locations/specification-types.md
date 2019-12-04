@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c07f303b72f286c33979181fca1592b47efa1303
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 625e2c6a6b385c69d33ec4325a462310a37f1eed
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571236"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812196"
 ---
 # <a name="maintenance-attribute-types"></a>Prižiūrėti atributų tipus
 
@@ -33,9 +33,9 @@ ms.locfileid: "2571236"
 
 Šioje temoje aprašoma, kaip modulyje „Turto valdymas“ sukurti atributo tipą. Atributai naudojami įvairių elementų ypatybėms apibūdinti. Kiekviename skirtuke galite nustatyti šiuos parametrus:
 
-- [Funkcinių vietovių tipai](../setup-for-functional-locations/functional-location-types.md)
-- [Funkcinės vietovės](../functional-locations/create-functional-locations.md)
-- [Turto tipas](../setup-for-objects/object-types.md)
+- [Funkcinių vietų tipai](../setup-for-functional-locations/functional-location-types.md)
+- [Funkcinių vietų kūrimas](../functional-locations/create-functional-locations.md)
+- [Turto tipai](../setup-for-objects/object-types.md)
 - Turtas
 
 Atributai, kuriuos galite nustatyti, kinta priklausomai nuo elemento. Pavyzdžiui, funkcinei vietovei galite nustatyti vietovės konfigūracijos ir fizinio dydžio atributus. Turto tipui arba turtui galite nustatyti variklio tūrio, energijos suvartojimo ir didžiausios apkrovos pajėgumo skirtingomis sąlygomis atributus.

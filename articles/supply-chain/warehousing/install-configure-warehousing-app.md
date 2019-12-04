@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f629fffc5c424c244a25bb8faef0435814398ee1
-ms.sourcegitcommit: 4aac45c84b87f463b22b318f5f6f729f8d737090
+ms.openlocfilehash: df0bc9ff2405cc2f370ea777a70e005a1ff338a0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2548973"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814955"
 ---
 # <a name="install-and-configure-the-warehousing-app-overview"></a>Sandėliavimo programos diegimo ir konfigūravimo apžvalga
 
@@ -62,15 +62,32 @@ Norėdami įjungti programos sąveiką su konkrečiu „Supply Chain Management�
 
 1.  Interneto naršyklėje eikite į <https://portal.azure.com>.
 2.  Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, pavadinimą ir slaptažodį.
-3.  „Azure“ portalo dešiniojoje naršymo srityje spustelėkite **Azure Active Directory**[](./media/WMA-01-active-directory-example.png)[![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+3.  „Azure portale“ kairiajame naršymo skyde spustelėkite **Azure Active Directory**.
+
+    [![WMA-01-active-directory-example](./media/WMA-01-active-directory-example.png )](./media/WMA-01-active-directory-example.png)
+
 4.  Įsitikinkite, kad „Active Directory“ egzempliorius yra tas, kurį naudoja „Supply Chain Management“.
-5.  Sąraše spustelėkite **Programų registracijos**. [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+5.  Sąraše spustelėkite **Programų registracijos**. 
+
+    [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
+
 6.  Viršutinėje srityje spustelėkite **Nauja registracija**. Paleidžiamas vedlys **Registruoti programą**.
-7.  Įveskite programos pavadinimą ir pasirinkite **Paskyros tik šiame organizaciniame kataloge**. Spustelėkite **Registruotis**.  [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
-8.  Bus atidaroma nauja programos registracija. [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+7.  Įveskite programos pavadinimą ir pasirinkite **Paskyros tik šiame organizaciniame kataloge**. Spustelėkite **Registruotis**.  
+
+    [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+
+8.  Bus atidaroma nauja programos registracija. 
+
+    [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
+
 9.  Įsiminkite **programos ID**, jo jums reikės vėliau. **Programos ID** vėliau bus vadinamas **kliento ID**.
-10. Spustelėkite **Sertifikatas ir paslaptys** srityje **Valdyti**. Spustelėkite **Nauja kliento paslaptis**. [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
-11. Sukurkite raktą skyriuje **Slaptažodžiai** įvesdami rakto aprašą ir trukmę. Spustelėkite **Įtraukti** ir nukopijuokite raktą. Šis raktas bus vėliau nurodytas kaip **Kliento paslaptis**. [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
+10. Spustelėkite **Sertifikatas ir paslaptys** srityje **Valdyti**. Spustelėkite **Nauja kliento paslaptis**. 
+
+    [![WMA-05-active-directory-create-key](./media/WMA-05-active-directory-create-key.png)](./media/WMA-05-active-directory-create-key.png)
+
+11. Sukurkite raktą skyriuje **Slaptažodžiai** įvesdami rakto aprašą ir trukmę. Spustelėkite **Įtraukti** ir nukopijuokite raktą. Šis raktas bus vėliau nurodytas kaip **Kliento paslaptis**. 
+
+    [![WMA-06-active-directory-save-key](./media/WMA-06-active-directory-save-key.png)](./media/WMA-06-active-directory-save-key.png)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Vartotojo paskyros kūrimas ir konfigūravimas programoje „Supply Chain Management“
 Norėdami leisti „Supply Chain Management“ naudoti jūsų „Azure AD“ programą, atlikite toliau nurodytus konfigūravimo veiksmus.
@@ -78,26 +95,45 @@ Norėdami leisti „Supply Chain Management“ naudoti jūsų „Azure AD“ pro
 1.  Sukurkite vartotoją, kuris atitinka sandėliavimo programos vartotojo kredencialus.
     1.  Eikite į **Sistemos administravimas** &gt; **Bendra** &gt; **Vartotojai**.
     2.  Sukurkite naują vartotoją.
-    3.  Priskirkite sandėlio mobiliojo įrenginio vartotoją, kaip parodyta tolesnėje ekrano kopijoje. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
+    3.  Priskirkite sandėlio mobiliojo įrenginio vartotoją, kaip parodyta tolesnėje ekrano kopijoje. 
+    
+        [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
 2.  Susiekite savo „Azure Active Directory“ programą su sandėliavimo programos vartotoju.
     1.  Programoje „Supply Chain Management“ pasirinkite **Sistemos administravimas** &gt; **Sąranka** &gt; **„Azure Active Directory“ programas**.
     2.  Sukurkite naują eilutę.
-    3.  Įveskite **Kliento ID** (gautą anksčiau), suteikite jam pavadinimą ir pasirinkite anksčiau sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius, kad juos pametę galėtumėte lengvai pašalinti jų prieigą prie „Supply Chain Management“ iš šio puslapio. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
+    3.  Įveskite **Kliento ID** (gautą anksčiau), suteikite jam pavadinimą ir pasirinkite anksčiau sukurtą vartotoją. Rekomenduojame pažymėti visus savo įrenginius, kad juos pametę galėtumėte lengvai pašalinti jų prieigą prie „Supply Chain Management“ iš šio puslapio. 
+    
+        [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
 ## <a name="configure-the-application"></a>Programos konfigūravimas
 Turite sukonfigūruoti programą įrenginyje, kad prie „Supply Chain Management“ serverio prisijungtumėte per „Azure AD“ programą. Norėdami tai padaryti, atlikite toliau nurodytus veiksmus.
 
 1.  Programoje atidarykite **Ryšio parametrai**.
-2.  Išvalykite lauką **Demonstracinis režimas**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+2.  Išvalykite lauką **Demonstracinis režimas**. <br>
+
+    [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+
 3.  Įveskite šią informaciją: 
     + – **„Azure Active Directory“ kliento ID** – kliento ID, gaunamas atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 9 veiksmą. 
     + **„Azure Active Directory“ kliento paslaptis** – kliento paslaptis gaunama atliekant temos „Žiniatinklio tarnybos programos kūrimas „Active Directory“ 11 veiksmą. 
-    + **„Azure Active Directory“ išteklius** – „Azure AD“ išteklius nurodo „Supply Chain Management“ URL. **Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
+    + **„Azure Active Directory“ išteklius** – „Azure AD“ išteklius nurodo „Supply Chain Management“ URL. 
+    
+        > [!NOTE]
+        > Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
+
     + **„Azure Active Directory“ nuomotojas** – „Azure AD“ nuomotojas, naudojamas su „Supply Chain Management“ serveriu: `https://login.windows.net/your-AD-tenant-ID`. Pavyzdžiui: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
-    <br>**Pastaba.** Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
-    + **Įmonė** – programoje „Supply Chain Management‟ įveskite juridinį subjektą, prie kurio norite prijungti programą. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
-4.  Viršutiniame kairiajame programos kampe pasirinkite mygtuką **Atgal**. Dabar programa prisijungs prie jūsų „Supply Chain Management“ serverio ir bus rodomas sandėlio darbininko prisijungimo ekranas. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+    
+        > [!NOTE]
+        > Šio lauko užbaigti pasvirojo brūkšnio simboliu (/) negalima. 
+    
+    + **Įmonė** – programoje „Supply Chain Management‟ įveskite juridinį subjektą, prie kurio norite prijungti programą. <br>
+    
+    [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+
+4.  Viršutiniame kairiajame programos kampe pasirinkite mygtuką **Atgal**. Dabar programa prisijungs prie jūsų „Supply Chain Management“ serverio ir bus rodomas sandėlio darbininko prisijungimo ekranas.
+
+    [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
 Norėdami gauti informacijos apie tai, kaip nustatyti „Warehousing“ programą, kad mobiliojo įrenginio kamera nuskaitytų brūkšninius kodus, žr. [Brūkšninių kodų nuskaitymas naudojant kamerą programoje „Dynamics 365 for Finance and Operations – Warehousing“](scan-bar-codes-using-a-camera.md)
 

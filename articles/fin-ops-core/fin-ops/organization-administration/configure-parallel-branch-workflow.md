@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2339c6f901a3ef39ad4f9586b2f391b966a3df98
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2058eaac77282946559cae11fcec8152658fc96b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190148"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811362"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Lygiagrečių darbo eigos šakų konfigūravimas
 
@@ -46,8 +46,8 @@ Norėdami įvesti lygiagrečios šakos pavadinimą, atlikite šiuos veiksmus.
 Atlikite šiuos veiksmus, norėdami kurti ir konfigūruoti lygiagrečios šakos elementus.
 
 1. Dukart spustelėkite lygiagrečią šaką.
-2. Nuvilkite darbo eigos elementus į drobę, o tada sukonfigūruokite elementus (taip, kaip kuriate bet kurią kitą darbo eigą). Daugiau informacijos žr. dalyje [Darbo eigos kūrimas](create-workflow.md).
+2. Nuvilkite darbo eigos elementus į drobę, o tada sukonfigūruokite elementus (taip, kaip kuriate bet kurią kitą darbo eigą). Daugiau informacijos rasite [Darbo eigų kūrimo apžvalga](create-workflow.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo eigos kūrimas](create-workflow.md)
+[Darbo eigų kūrimo apžvalga](create-workflow.md)

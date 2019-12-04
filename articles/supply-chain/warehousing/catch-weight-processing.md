@@ -3,7 +3,7 @@ title: Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 11/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: d5e9f8e4d154e5f56ee7ceae666cd935d6ceb460
-ms.sourcegitcommit: f93ead945afe5ae18706c66bce6e64a6b57aac50
+ms.openlocfilehash: 5800f95de0ec773f40c506662a031887810b8c92
+ms.sourcegitcommit: db222a1719d4756d9ccb73fc71e7eaf4521c23a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "1887140"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "2696644"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -181,7 +181,7 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 - Apdorojant pakeistą atsargų būseną naudojant sandėlio programą.
 - Kai vykdomas sandėlio perkėlimas naudojant sandėlio programą.
 - Kai apdorojamas gavimo ir siuntimo koregavimas naudojant sandėlio programą.
-- Kai apdorojamas pardavimo ir perkėlimo užsakymų išrinkimo darbas. (Atkreipkite dėmesį, kad esamo svorio žymių negalima įrašyti vykdant gamybos komponentų paėmimą.)
+- Kai paėmimo darbas apdorojamas pardavimų, perkėlimo ir gamybos eilutėms.
 - Kai paimti kiekiai atimami iš krovinio eilučių, nepriklausomai nuo to, ar naudojami konteineriai.
 - Kai produktai supakuojami į konteinerius pakavimo stotyje.
 - Kai konteineriai atidaromi iš naujo.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e5fd05f3114eb99b7e8b4390827d5ccd52832a
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c527735ea65dad84c5d3d405eac2ead35d3c792d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572216"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815370"
 ---
 # <a name="purchase-order-overview"></a>Pirkimo užsakymo apžvalga
 
@@ -41,8 +41,8 @@ Darbo srityse **Pirkimo užsakymo rengimas** ir **Pirkimo užsakymo gavimas ir a
 
 Toliau nurodytuose straipsniuose pateikiama įvairių PU etapų apžvalga.
 
--   [Pirkimo užsakymo kūrimas](purchase-order-creation.md)
--   [Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
+-   [Pirkimo užsakymų kūrimas](purchase-order-creation.md)
+-   [Pirkimo užsakymų tvirtinimas](purchase-order-approval-confirmation.md)
 -   [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 -   [Tiekėjo SF apžvalga](../../financials/accounts-payable/vendor-invoices-overview.md)
 
@@ -82,9 +82,9 @@ Laukas **Patvirtinimo būsena** naudojamas, kai naudojamas PU peržiūros proces
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Pirkimo užsakymo kūrimas](purchase-order-creation.md)
+[Pirkimo užsakymų kūrimas](purchase-order-creation.md)
 
-[Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
+[Pirkimo užsakymų tvirtinimas](purchase-order-approval-confirmation.md)
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 

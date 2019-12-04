@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d608ee3ad90d23279557e5e9be4d398ffac3a266
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: bbc65a77b7c3df6545dfd7aa2109aba5c4e1b57b
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2010620"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773040"
 ---
 # <a name="remove-talent-environments"></a>„Talent“ aplinkų šalinimas
 
@@ -34,7 +34,7 @@ ms.locfileid: "2010620"
 
 „Talent“ bandomosios versijos konfigūruojamos taikant 60 dienų galiojimo laiko strategiją. Tačiau bandomųjų versijų savininkai turi galimybę anksčiau laiko užbaigti bandomosios versijos naudojimo laikotarpį atlikę toliau nurodytus veiksmus. 
 
-1. Pereikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
+1. Pereikite į [„Power Apps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
 2. Pasirinkite **Aplinkos**.
 3. Pasirinkite bandomosios versijos aplinką, kurios pavadinimas skamba panašiai į šį: TestDrive – alias@domain
 4. Pasirinkite **Naikinti** ir patvirtinkite sprendimą. 
@@ -45,14 +45,14 @@ Esama bandomosios versijos aplinka bus pašalinta. Šalinimui pasibaigus galite 
 
 Šioje temoje laikoma, kad įsigijote „Talent“ iš debesies sprendimų teikėjo (CSP) arba pagal įmonės architektūros (EA) sutartį. 
 
-Kadangi viena „Talent“ aplinka laikoma atskiroje „PowerApps“ aplinkoje, reikėtų atsižvelgti į dvi galimybes. Pirmosios galimybės atveju pašalinama visa „PowerApps“ aplinka, antrosios – tik „Talent“ aplinka. Pirmoji galimybė labiau tinka tuo atveju, kai „PowerApps“ aplinką sukuriate tik „Talent“ konfigūravimo tikslais, o diegimą dar tik esate pradėję arba dar neturite jokių sukurtų integravimų. Antroji galimybė tinka tuo atveju, kai turite sukurtą „PowerApps“ aplinką, užpildytą raiškiaisiais duomenimis, kurie naudojami „PowerApps“ ir srautuose.
+Kadangi viena „Talent“ aplinka laikoma atskiroje „Power Apps“ aplinkoje, reikėtų atsižvelgti į dvi galimybes. Pirmosios galimybės atveju pašalinama visa „Power Apps“ aplinka, antrosios – tik „Talent“ aplinka. Pirmoji galimybė labiau tinka tuo atveju, kai „Power Apps“ aplinką sukuriate tik „Talent“ konfigūravimo tikslais, o diegimą dar tik esate pradėję arba dar neturite jokių sukurtų integravimų. Antroji galimybė tinka tuo atveju, kai turite sukurtą „Power Apps“ aplinką, užpildytą raiškiaisiais duomenimis, kurie naudojami „Power Apps “ ir „Power Automate“.
 
 > [!Important]
-> Prieš pašalindami „PowerApps“ aplinką įsitikinkite, kad ji nenaudojama raiškiųjų duomenų integravimams už „Talent“ apimties ribų. Be to, atminkite, kad numatytųjų „PowerApps“ aplinkų pašalinti negalima. 
+> Prieš pašalindami „Power Apps“ aplinką įsitikinkite, kad ji nenaudojama raiškiųjų duomenų integravimams už „Talent“ apimties ribų. Be to, atminkite, kad numatytųjų „Power Apps“ aplinkų pašalinti negalima. 
 
-Jei norite pašalinti visą „PowerApps“ aplinką, įskaitant „Talent“ bei susijusių programų ir srautų aplinką, atlikite toliau nurodytus veiksmus.
+Jei norite pašalinti visą „Power Apps“ aplinką, įskaitant „Talent“ bei susijusių programų ir srautų aplinką, atlikite toliau nurodytus veiksmus.
 
-1. Pereikite į [„PowerApps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
+1. Pereikite į [„Power Apps“ administravimo centrą](https://admin.businessplatform.microsoft.com/).
 2. Pasirinkite **Aplinkos**.
 3. Pasirinkite šalintiną aplinką.
 4. Pasirinkite **Naikinti** ir patvirtinkite sprendimą. 
@@ -63,7 +63,7 @@ Jei norite pašalinti visą „PowerApps“ aplinką, įskaitant „Talent“ be
 9. Pasirinkite šalintiną egzempliorių. 
 10. Pasirinkite **Pašalinti egzempliorių** ir patvirtinkite savo sprendimą.  
 
-Norėdami „Talent“ aplinką pašalinti iš esamos „PowerApps“ aplinkos, atlikite toliau nurodytus veiksmus. Atkreipkite dėmesį, kad į pagalbos tarnybą ir „Talent DevOps“ komandą reikia kreiptis laikinai, kol ši funkcija bus įgalinta tiesiogiai LCS.
+Norėdami „Talent“ aplinką pašalinti iš esamos „Power Apps“ aplinkos, atlikite toliau nurodytus veiksmus. Atkreipkite dėmesį, kad į pagalbos tarnybą ir „Talent DevOps“ komandą reikia kreiptis laikinai, kol ši funkcija bus įgalinta tiesiogiai LCS.
 
 1. Kreipkitės į palaikymo tarnybą, kad inicijuotumėte pašalinimo užklausą.
 2. Palaikymo tarnybos komanda pašalinimo užklausą inicijuos kartu su „Talent DevOps“ komanda. 

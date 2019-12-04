@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c3d83334bcccc62a2cbe761272b13cc80e10c11
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658815"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812654"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -84,7 +84,7 @@ Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 
 [![Pastabų komentaro išvaizda užduočių vedlyje](./media/screen4.png)](./media/screen4.png)
 
--   **Informacijos veiksmas**: šie komentarai kuriami dešiniuoju pelės klavišu spustelėjus ant valdiklo ar bet kur formoje &lt; **Užduočių įrašytuvas** &lt; **Pridėti informacijos veiksmą. **Informacijos veiksmas rodomas kaip sunumeruotas veiksmas bet kuriame taške, kuriame veiksmą įterpiate, nors naudotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį.Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
+-   **Informacijos veiksmas**: šie komentarai sukuriami dešiniuoju pelės mygtuku spustelėjus valdiklį ar bet kurią vietą formoje &lt; **Užduočių įrašymo priemonė** &lt; **Įtraukti informacijos veiksmą.** Informacijos veiksmas pateikiamas kaip sunumeruotas veiksmas bet kurioje vietoje, į kurią įterpsite šį veiksmą, nors vartotojo sąsajoje neįrašytas joks veiksmas. Galite pridėti formos lygio informacijos veiksmą arba su valdikliu susietą informacijos veiksmą. Kai informacijos veiksmas susietas su forma, leidžiant užduoties vadovą, jo „burbuliukas‟ atsiras kažkur formoje, be žymeklio. Kai informacijos veiksmas susietas su valdikliu, leidžiant užduočių vedlį jo „burbuliukas‟ bus nukreiptas į valdiklį.Žinyno srityje informacijos veiksmo komentaras bus pateikiamas kaip sunumeruotas veiksmas su bet kokiu įvestu tekstu. Naudokite informacijos veiksmus, kad padėtumėte vartotojui pasirengti tolesniems veiksmams, aprašytumėte veiksmus, kuriuos reikia atlikti ne programoje, arba nurodytumėte kitus įrašus (nors komentaruose hipersaitų kurti negalite).
 
 **Nustatykite, kokia turėtų būti jūsų įrašo trukmė**
 
@@ -97,7 +97,7 @@ Taip atrodo pastabų komentaras užduočių vedlio „burbuliuke‟.
 **Nuspręskite, kurioje UI vietoje pradėti įrašą** Puslapis, kuriame esate pradėdami įrašyti užduoties įrašą, nulems puslapį, kurį pateiks užduočių vedlys.Pavyzdžiui, jei norite, kad užduoties įrašas žinyno srityje būtų pateikiamas vartotojui DK parametrų puslapyje spustelėjus žinyną, įrašą pradėti turite DK parametrų puslapyje. **Įrašus įrašykite kaip .axtr failus** Kai baigiate kurti ar redaguoti užduoties įrašą, jums pateikiamos kelios parinktys, kaip įrašą atsisiųsti ar įrašyti. Atsisiųsti failą galite kaip užduoties įrašo paketą (.axtr), kaip neapdorotą įrašo failą (.xml), kaip „Word‟ dokumentą arba jį įrašyti į LCS biblioteką. Naudinga užduoties įrašą visada įrašyti kaip užduoties įrašo paketo failą (.axtr). Taip bus lengviau failą prižiūrėti, jei vėliau reikėtų keisti procedūras ar komentarus. Jei failą norite atsisiųsti kaip „Word‟ dokumentą, taip pat jį įrašykite kaip užduoties įrašo paketo failą.
 
 ## <a name="create-your-task-recording"></a>Kurkite užduoties įrašą
-Išsamius instrukcijų veiksmus rasite [Kaip sukurti užduoties įrašą](task-recorder.md).
+Išsamius instrukcijų veiksmus žr. [Užduočių įrašymo priemonės ištekliai](task-recorder.md).
 
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Kopijuokite ir tinkinkite „Microsoft‟ užduočių įrašus
 Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos naudoti žinyno dokumentacijoje ar mokymo medžiagoje. Norėdami atsisiųsti „Microsoft‟ užduoties įrašą, atlikite tolesnius veiksmus.
@@ -115,14 +115,14 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 11. Pasirinkite, kaip norite įrašyti užduoties įrašą.
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>Užduočių įrašus įtraukite į žinyno sritį
-Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Jei reikia daugiau informacijos, žr. dalį [Žinyno sistemos prijungimas.](../../fin-ops/get-started/help-connect.md)
+Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Daugiau informacijos žr. [Žinyno sistemos prijungimas](../../fin-ops/get-started/help-connect.md)
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Pagalbos apžvalga](../../fin-ops/get-started/help-overview.md)
+[Žinyno sistema](../../fin-ops/get-started/help-overview.md)
 
-[Pagalbos prijungimas](../../fin-ops/get-started/help-connect.md)
+[Žinyno sistemos prijungimas](../../fin-ops/get-started/help-connect.md)
 
 [Užduočių įrašymo priemonė](task-recorder.md)
 

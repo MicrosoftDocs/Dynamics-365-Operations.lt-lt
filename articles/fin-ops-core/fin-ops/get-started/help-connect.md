@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 491024c9c3d6c7d20ef212e167ceab6abac8dac7
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537860"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812585"
 ---
 # <a name="connect-the-help-system"></a>Žinyno sistemos prijungimas
 
@@ -80,7 +80,7 @@ Norėdami sukurti pasirinktinį žinyną, galite naudoti užduočių vedlius arb
 
 Kurdami užduočių įrašus, kurie atspindi jūsų diegimą, ir juos įrašydami į LCS verslo procesų biblioteką, galite sukurti pasirinktinį „Finance“, „Supply Chain Management“ ir „Retail“ žinyną. „Talent“ pasirinktinių užduočių vedlių sukurti negalima.
 
-Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei įtrauksite ją į sprendimą, biblioteką galės naudoti jūsų klientai. Taip pat galite kopijuoti APQC suvienodintą visuotinę biblioteką ir tada savo kopiją atidaryti, iš jos atidaryti užduočių įrašus ir juos modifikuoti bei įrašus įrašyti su savo pakeitimais. Daugiau informacijos žr. temoje [Kaip sukurti užduoties įrašą ir jį naudoti kaip dokumentaciją ar mokymą](../../dev-itpro/user-interface/task-recorder.md).
+Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei įtrauksite ją į sprendimą, biblioteką galės naudoti jūsų klientai. Taip pat galite kopijuoti APQC suvienodintą visuotinę biblioteką ir tada savo kopiją atidaryti, iš jos atidaryti užduočių įrašus ir juos modifikuoti bei įrašus įrašyti su savo pakeitimais. Daugiau informacijos žr. [Užduoties įrašymo ištekliai](../../dev-itpro/user-interface/task-recorder.md).
 
 ### <a name="connect-a-custom-site"></a>Pasirinktinės žiniatinklio svetainės susiejimas
 
@@ -91,8 +91,8 @@ Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei �
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Pagalbos apžvalga](help-overview.md)
+[Žinyno sistema](help-overview.md)
 
-[Užduočių įrašymo priemonės apžvalga](../../dev-itpro/user-interface/task-recorder.md)
+[Užduoties įrašymo ištekliai](../../dev-itpro/user-interface/task-recorder.md)
 
-[Kaip kurti užduoties įrašą ir naudoti kaip dokumentus ar mokymą](../../dev-itpro/user-interface/task-recorder-training-docs.md)
+[Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę](../../dev-itpro/user-interface/task-recorder-training-docs.md)

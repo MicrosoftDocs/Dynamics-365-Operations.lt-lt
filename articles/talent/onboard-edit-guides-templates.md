@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 0f4c68acfe021e736c259e91a40ce7d43d401246
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552007"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812884"
 ---
 # <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Supažindinimo vadovų ir šablonų redagavimas „Dynamics 365 Talent - Onboard”
 
@@ -124,7 +124,7 @@ Toliau nurodyti veiksmai, kuriuos turite atlikti norėdami paskelbti keitimus.
 
     - Norėdami įtraukti „YouTube” vaizdo įrašą, nuvilkite elementą **YouTube** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą bei „YouTube” vaizdo įrašo URL.
     - Norėdami pridėti „Sway” pateiktį arba informacinį biuletenį, nuvilkite elementą **Sway** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą bei įveskite „Sway” pateikties arba informacinio biuletenio įdėtąjį URL.
-    - Norėdami įtraukti „PowerApps“ programėlę, nuvilkite elementą „**PowerApps**“ į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, tada pasirinkite „PowerApps“ programėlę arba įveskite „PowerApps“ programėlės ID.
+    - Norėdami įtraukti „Microsoft Power Apps“ programėlę, nuvilkite elementą „**Power Apps**“ į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, tada pasirinkite „Power Apps“ programėlę arba įveskite „Power Apps“ programėlės ID.
     - Norėdami įtraukti „Microsoft Stream” vaizdo įrašą, nuvilkite elementą **Microsoft Stream** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą bei „Microsoft Stream” vaizdo įrašo URL.
     - Norėdami įtraukti „Microsoft Forms“ formą, nuvilkite elementą **Microsoft Forms** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, įveskite „Microsoft Forms“ formos URL ir nurodykite ekrano srities dydį.
     - Norėdami įtraukti „Iframe”, kuriame yra žiniatinklio turinio, nuvilkite elementą **Web Content (iframe)** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, įveskite žiniatinklio turinio URL ir nurodykite ekrano srities dydį.
@@ -186,6 +186,6 @@ Norėdami redaguoti išteklius, pasirinkite mygtuką **Redaguoti** (pieštuko si
 ### <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Išbandykite arba įsigykite „Onboard” programėlę](https://dynamics.microsoft.com/talent/onboard/)
-- [Kas nauja](./whats-new.md)
-- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Palaikymo gavimas](./talent-support.md)
+- [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
+- [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)

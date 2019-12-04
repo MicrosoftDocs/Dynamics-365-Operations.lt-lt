@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2dd3915d9eb5b255e9d84e5ec7c331d184e5f485
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 0588ad24cb28a32557361e1a2e5391502a8b46d7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250696"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814266"
 ---
 # <a name="master-planning-home-page"></a>Bendrojo planavimo pagrindinis puslapis
 
@@ -39,9 +39,9 @@ Bendrasis planavimas naudoja šią informaciją, kad galėtų apskaičiuoti reik
 
 Trys pagrindiniai planavimo procesai yra:
 
--  **Bendrasis planavimas**. Bendrasis planas apskaičiuoja grynuosius poreikius. Jis pagrįstas faktiniais esamais užsakymais ir leidžia įmonėms valdyti atsargų papildymą trumpalaikiu laikotarpiu, kasdien. Kitas terminas jam aprašyti yra *Grynųjų poreikių planas*. Daugiau informacijos žr. [Bendrasis planavimas](master-plans.md). 
+-  **Bendrasis planavimas**. Bendrasis planas apskaičiuoja grynuosius poreikius. Jis pagrįstas faktiniais esamais užsakymais ir leidžia įmonėms valdyti atsargų papildymą trumpalaikiu laikotarpiu, kasdien. Kitas terminas jam aprašyti yra *Grynųjų poreikių planas*. Daugiau informacijos žr. [Bendrųjų planų apžvalga](master-plans.md). 
 
--  **Prognozės planavimas**. Prognozinis planavimas apskaičiuoja bruto poreikius. Jis remiasi ateities projekcijomis (prognozėmis) ir leidžia įmonėms vykdyti ilgalaikį medžiagų ir pajėgumo planavimą. Daugiau informacijos žr. [Prognozės planavimas](introduction-demand-forecasting.md). 
+-  **Prognozės planavimas**. Prognozinis planavimas apskaičiuoja bruto poreikius. Jis remiasi ateities projekcijomis (prognozėmis) ir leidžia įmonėms vykdyti ilgalaikį medžiagų ir pajėgumo planavimą. Daugiau informacijos žr. [Poreikio prognozės apžvalga](introduction-demand-forecasting.md). 
 
 -  **Vidinis įmonės bendrasis planavimas**. Vidinis įmonės bendrasis planas apskaičiuoja visų juridinių subjektų grynuosius poreikius. Jis sujungia paklausą ir pasiūlą tarp įmonių ne tik trumpalaikei, patvirtintai paklausai ir pasiūlai, bet ir ilgalaikei, planuojamai (dar nepatvirtintai) paklausai ir pasiūlai nustatyti. Daugiau informacijos žr. [Vidinis įmonės bendrasis planavimas](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (el. mokymasis) („CustomerSource“ paskyros). 
 
@@ -57,13 +57,13 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 
 ## <a name="quick-links"></a>Spartieji saitai
 
-- [Bendrieji planai](master-plans.md)  
-- [Kurti planą su apribojimais](./tasks/constrained-plan.md)
-- [Kurti sudėtinių produktų medžiagų planą](./tasks/create-material-plan-co-products.md)
-- [Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)
-- [vidinės įmonės plano kūrimas](./tasks/create-intercompany-plan.md)
-- [Poreikio prognozės apžvalga](introduction-demand-forecasting.md)
-- [Mažinimo raktai](reduction-keys.md)
+- [Bendrųjų planų apžvalga](master-plans.md)  
+- [Plano su apribojimais kūrimas](./tasks/constrained-plan.md)
+- [Sudėtinių produktų medžiagų plano kūrimas](./tasks/create-material-plan-co-products.md)
+- [Bendrojo planavimo ir kelių teritorijų funkcijos apžvalga](master-plan-multisite-functionality.md)
+- [Vidinės įmonės plano kūrimas](./tasks/create-intercompany-plan.md)
+- [Poreikio prognozavimo apžvalga](introduction-demand-forecasting.md)
+- [Prognozės mažinimo raktai](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

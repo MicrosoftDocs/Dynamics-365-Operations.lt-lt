@@ -17,12 +17,12 @@ ms.search.region: Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e481f86f395b5caaf5a7e0c83411012472682606
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1626868d73115913762d54f2af8c0d7c21a65e4a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183771"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773462"
 ---
 # <a name="vat-statement-details-for-lithuania"></a>PVM išrašo informacija, skirta Lietuvai
 
@@ -30,9 +30,9 @@ ms.locfileid: "2183771"
 
 Šioje temoje paaiškinama, kaip nustatyti juridiniams subjektams Lietuvoje skirtą PVM išrašą.
 
-Ši tema apima šaliai / regionui būdingą informaciją apie pridėtinės vertės mokesčio (PVM) išrašo, skirto tik juridiniams subjektams Lietuvoje, nustatymą. Daugiau informacijos apie PVM išrašų nustatymą žr. [PVM ataskaitos](emea-vat-reporting.md).
+Ši tema apima šaliai / regionui būdingą informaciją apie pridėtinės vertės mokesčio (PVM) išrašo, skirto tik juridiniams subjektams Lietuvoje, nustatymą. Norėdami gauti daugiau informacijos apie PVM išrašų sąranką, žr. [Europos PVM ataskaitos](emea-vat-reporting.md).
 
-## <a name="set-up-sales-tax-authorities"></a>PVM rinkėjų nustatymas
+## <a name="set-up-sales-tax-authorities"></a>PVM institucijų nustatymas
 Norėdami generuoti PVM deklaraciją formatu, kurio reikalauja atitinkamas mokesčių rinkėjas, turite nustatyti PVM rinkėjo ataskaitos maketą. Puslapio **PVM rinkėjai** lauke **Ataskaitos maketas** pasirinkite **Numatytasis**. Pasirinkite tą patį PVM sudengimo laikotarpio PVM rinkėją, kuris bus naudojamas PVM koduose.
 
 ## <a name="set-up-sales-tax-reporting-codes"></a>Nustatyti PVM ataskaitų kodus

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 461c89a220ec75f3f693da6f52291ebb498e7a05
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: cce822f76323b6ce514d3793ce19f0160957e7a8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558224"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813391"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
@@ -39,16 +39,16 @@ ms.locfileid: "1558224"
 -   [Teisių užsakyti produktus kito darbuotojo vardu nustatymas](tasks/set-up-permissions-ordering-products.md)
 
 ## <a name="requests-for-quotation"></a>Pasiūlymų patvirtinimai
--   [Pasiūlymo patvirtinimai](request-quotations.md)
+-   [Pasiūlymų patvirtinimų (RFQ) apžvalga](request-quotations.md)
 -   [Pasiūlymo patvirtinimo kūrimas](tasks/create-request-quotation.md)
 -   [RFQ kainos pasiūlymų įvedimas bei lyginimas ir sutarčių pasirinkimas](tasks/enter-compare-rfq-bids-award-contracts.md)
 -   [Kurti RFQ vertinimo būdą](tasks/create-scoring-method-rfqs.md)
--   [Kurti RFQ siūlymo tipus ir vertinimo kriterijus](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
+-   [RFQ siūlymo tipų ir vertinimo kriterijų kūrimas](tasks/create-solicitation-types-scoring-criteria-rfqs.md)
 
-## <a name="vendor-management-and-collaboration"></a>Tiekėjo valdymas ir bendradarbiavimas
--   [Tiekėjų kodų nustatymas](set-up-vendor-accounts.md)
+## <a name="vendor-management-and-collaboration"></a>Tiekėjų valdymas ir bendradarbiavimas
+-   [Kliento kodų nustatymas](set-up-vendor-accounts.md)
 -   [Tiekėjo sąskaitos kūrimas](tasks/create-vendor-account.md)
--   [Kurti tiekėjo banko kodą](tasks/create-vendor-bank-account.md)
+-   [Tiekėjo banko sąskaitos kūrimas](tasks/create-vendor-bank-account.md)
 -   [Ieškoti tiekėjų](tasks/search-vendors.md)
 -   [Konkrečių produktų tiekėjų tvirtinimas](tasks/approve-vendors-specific-products.md)
 -   [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md)
@@ -58,23 +58,23 @@ ms.locfileid: "1558224"
 -   [Gaunamos konsignacijos atsargų demonstracinis scenarijus, skirtas „Microsoft Dynamics 365 for Finance and Operations“](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (techninė dokumentacija)
 -   [Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](collaborate-vendors-vendor-portal.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms)
--   [Tiekėjų portalo vartotojų saugos konfigūravimas](configure-security-vendor-portal-users.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Finance and Operations“ versijoms)
--   [Mobilioji tiekėjų bendradarbiavimo sritis, skirta programai „Microsoft Dynamics 365 for Finance and Operations“](vendor-collaboration-mobile-workspace.md)
+-   [Tiekėjų portalo vartotojų sauga](configure-security-vendor-portal-users.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Finance and Operations“ versijoms)
+-   [Tiekėjo bendradarbiavimo mobilioji darbo sritis](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Įsigijimo produkto valdymas
--   [Įsigijimo katalogai](procurement-catalogs.md)
--   [Kurti įsigijimo katalogą](tasks/create-procurement-catalog.md)
+-   [Įsigijimo katalogų apžvalga](procurement-catalogs.md)
+-   [Pirkimo užsakymų kūrimas](tasks/create-procurement-catalog.md)
 -   [Tiekėjo katalogų importavimas](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/) (tinklaraščio įrašas)
--   [Nustatyti įsigijimo kategorijų hierarchiją](tasks/set-up-procurement-category-hierarchy.md)
+-   [Įsigijimo kategorijų hierarchijos nustatymas](tasks/set-up-procurement-category-hierarchy.md)
 -   [Nustatyti įsigijimo kategorijų hierarchijų strategijas](tasks/set-up-policies-procurement-category-hierarchies.md)
 -   [Tvirtinti konkrečių įsigijimo kategorijų tiekėjus](tasks/approve-vendors-specific-procurement-categories.md)
 
 ## <a name="procurement"></a>Įsigijimas
--   [Pirkimo užsakymo apžvalga](purchase-order-overview.md)
+-   [Pirkimo užsakymų apžvalga](purchase-order-overview.md)
 -   [Pirkimo užsakymo kūrimas](purchase-order-creation.md)
--   [Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
+-   [Pirkimo užsakymų tvirtinimas](purchase-order-approval-confirmation.md)
 -   [Pirkimo užsakymo kūrimas](tasks/create-purchase-order.md)
--   [Kurti pasikartojantį pirkimo užsakymą](tasks/create-repeat-purchase-order.md)
+-   [Pasikartojančio pirkimo užsakymo kūrimas](tasks/create-repeat-purchase-order.md)
 -   [Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Kurti vienkartinio tiekėjo pirkimo užsakymą](tasks/create-purchase-order-one-time-supplier.md)
 -   [Kurti pirkimo užsakymą su pristatymo grafiku](tasks/create-purchase-order-delivery-schedule.md)
@@ -99,11 +99,8 @@ ms.locfileid: "1558224"
 -   [Įrašyti prekių gavimą pirkimo užsakyme](tasks/record-receipt-goods-purchase-order.md)
 -   [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
 -   [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (techninė dokumentacija)
--   [Pirkimo strategijos](purchase-policies.md)
--   [Kurti pirkimo strategijas](tasks/create-purchasing-policies.md)
-
-
-
+-   [Pirkimo strategijų apžvalga](purchase-policies.md)
+-   [Pirkimo strategijų kūrimas](tasks/create-purchasing-policies.md)
 
 
 

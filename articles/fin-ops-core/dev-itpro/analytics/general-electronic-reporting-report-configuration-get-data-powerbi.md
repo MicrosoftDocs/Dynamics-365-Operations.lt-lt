@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7be41e724cb715e4b7c9077bb30d26b2bd4899dd
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5401f310138d19f78412dff318959414c31a191
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181915"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770028"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Įrankio Elektroninės ataskaitos (ER) konfigūravimas duomenims perkelti į „Power BI“
 
@@ -184,7 +184,7 @@ Spustelėkite naujo paskirties vietos įrašo mygtuką **Parametrai**. Tada dial
     [![Atnaujinta schema](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance"></a>Prieiga prie „Power BI“ ataskaitos
-Nustatykite integravimą su „Power BI“. Daugiau informacijos rasite puslapyje [„Power BI“ integravimo konfigūravimas darbo sritims](configure-power-bi-integration.md).
+Nustatykite integravimą su „Power BI“. Daugiau informacijos žr. [„Power BI“ integravimo kūrimas darbo sričiai](configure-power-bi-integration.md).
 
 1. Darbo sričių puslapyje **Elektroninės ataskaitos**, kuriame palaikomas „Power BI“ integravimas (**Organizacijos administravimas** &gt; **Darbo sritys** &gt; **Elektroninių ataskaitų darbo sritis**), spustelėkite **Parinktys** &gt; **Atidaryti ataskaitų katalogą**.
 2. Pasirinkite sukurtą „Power BI“ ataskaitą **Importavimo ir eksportavimo informacija**, kad ta ataskaita pasirinktame puslapyje būtų rodoma kaip veiksmo elementas.
@@ -194,6 +194,6 @@ Nustatykite integravimą su „Power BI“. Daugiau informacijos rasite puslapyj
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md)
+[Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md)
 
-[Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+[Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c16082bb18ac5c170aab30f1a2033e0790cbacc1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026011"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812700"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 20 d.)
 
@@ -43,7 +43,7 @@ Dabar galima nustatyti sistemos veiklų auditoriją. Galima nustatyti šias su p
 Jei kandidatas pamiršo socialinių tinklų kredencialus, kuriuos naudodamas pateikė prašymą dėl darbo, kai atidarė įrašytą arba el. paštu jiems atsiųstą saitą, dabar jam bus rodoma užuomina, kurioje pateikiami teikėjo pavadinimas ir vartotojo vardas (neskaidrūs). Tokiu atveju vairuotojui padedama pasirinkti tinkamus kredencialus darbo prašymui pasiekti.
 
 ### <a name="help-internal-candidates-explore-internal-jobs"></a>Pagalba vidiniams kandidatams naršant vidinius darbus
-Pašalinta problema, dėl kurios išoriniai kandidatai galėjo matyti darbo samdos vadovo vardą ir pavardę. Dabar tik vidiniai kandidatai gali matyti darbo samdos komandos narius. Be to, dabar vidiniams kandidatams lengviau peržiūrėti ir teikti prašymus tik dėl vidinių darbų. Kai kandidatas bando pasiekti saitą, kad peržiūrėtų arba teiktų prašymą tik dėl vidinio darbo, jis turi autentifikuoti naudodamas „Azure Active Directory“ kredencialus. Vidiniai kandidatai taip pat gali susisiekti samdos komandos nariu ir išreikšti susidomėjimą arba sužinoti daugiau apie darbą. Ši funkcija teikiama tik vidiniams kandidatams, pretenduojantiems į bet kurį darbą. Daugiau informacijos žr. [Karjeros svetainės funkcija sprendime „Attract“](./career-site.md).
+Pašalinta problema, dėl kurios išoriniai kandidatai galėjo matyti darbo samdos vadovo vardą ir pavardę. Dabar tik vidiniai kandidatai gali matyti darbo samdos komandos narius. Be to, dabar vidiniams kandidatams lengviau peržiūrėti ir teikti prašymus tik dėl vidinių darbų. Kai kandidatas bando pasiekti saitą, kad peržiūrėtų arba teiktų prašymą tik dėl vidinio darbo, jis turi autentifikuoti naudodamas „Azure Active Directory“ kredencialus. Vidiniai kandidatai taip pat gali susisiekti samdos komandos nariu ir išreikšti susidomėjimą arba sužinoti daugiau apie darbą. Ši funkcija teikiama tik vidiniams kandidatams, pretenduojantiems į bet kurį darbą. Daugiau informacijos žr. [Karjeros svetainės nustatymas „Microsoft Dynamics 365 Talent - Attract“](./career-site.md).
 
 ### <a name="designate-silver-medalists-to-assign-high-value-applicants-for-future-positions"></a>Sidabro medalių laimėtojų nustatymas siekiant ateityje į pareigas paskirti vertingiausius pretendentus
 Įdarbintojai ir samdos vadovai dažnai naudoja sąrašą, kurį sudaro pretendentai, kurie tiko eiti pareigas, bet nepavyko jiems pateikti pasiūlymo, nes darbo vieta jau buvo užimta. Tokie pretendentai, vadinami sidabro medalių laimėtojais, yra naudingi, nes jie gali padėti sutaupyti laiko samdant kandidatus į atsilaisvinusias panašias pareigas. Dabar „Attract“ suteikia galimybę įdarbintojams ir samdos vadybininkams nurodyti sidabro medalių laimėtojus pretendentų sąraše, jei pretendentas pasiekė etapą Pasiūlymas. Sidabro medalio laimėtojo nurodymas bus matomas darbo pretendentų sąraše, taip pat – talentų telkinio rodinyje, kai pretendentai yra priklauso bet kuriam įdarbintojo arba samdos vadovo telkiniui. Be to, paskyrimas bus rodomas darbų retrospektyvoje kaip kandidato talentų telkinio profilio dalis. Šią funkciją galite peržiūrėti, jei paprašysite administratoriaus ją įjungti naudojant [Administratorių centro funkcijų valdymas](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

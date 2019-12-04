@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4e9fe8f78121428770e6516159f5eceb6976c4c9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdfa9ed24d0456d9beaec03ebac89098131d0675
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181800"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771147"
 ---
 # <a name="financial-reporting"></a>Finansinės ataskaitos
 
@@ -47,14 +47,14 @@ Puslapyje **Finansinių ataskaitų nustatymas** yra du skyriai, kurie nustato du
 | Komponentas        | Funkcijos | Papildoma informacija |
 |------------------|-----------|------------------------|
 | Ataskaitos dizaino įrankis  | Ataskaitų kūrimo blokų, kurie sujungiami, kad būtų galima apibrėžti ir generuoti ataskaitą, kūrimas. Ataskaitos vedlys padės mažiau patyrusiems vartotojams atliekant projektavimo procesą. Patyrę vartotojai gali kurti naujus ataskaitų kūrimo blokus arba modifikuoti esamus kūrimo blokus, kad jie atitiktų jų poreikius. | |
-| Ataskaitų grafikai | Suplanuoti vieną ataskaitą arba ataskaitų grupė, kad jos būtų generuojamos reguliariai. | [Finansinės ataskaitos generavimas](generate-financial-report.md) |
+| Ataskaitų grafikai | Suplanuoti vieną ataskaitą arba ataskaitų grupė, kad jos būtų generuojamos reguliariai. | [Finansinių ataskaitų generavimas](generate-financial-report.md) |
 
 ## <a name="features"></a>Funkcijos
 <table>
 <thead>
 <tr>
 <th>Funkcija</th>
-<th>aprašymas</th>
+<th>Aprašymas</th>
 </tr>
 </thead>
 <tbody>
@@ -96,4 +96,4 @@ Puslapyje **Finansinių ataskaitų nustatymas** yra du skyriai, kurie nustato du
 </table>
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-[Finansinės ataskaitos generavimas](generate-financial-report.md)
+[Finansinių ataskaitų generavimas](generate-financial-report.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0734db6f777de2bcd6ea024c9255f589c155e44f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ec2874fb21184ccbf4f7039acf20db399e5cf5fb
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569827"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813344"
 ---
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti
 
@@ -41,7 +41,7 @@ Naudokite eilutės veiksmą **Išoriniai katalogai** norėdami atidaryti puslap�
 
 Priklausomai nuo jūsų teisų pakeiskite prašytoją, perkantį juridinį subjektą ir gaunantį valdymo vienetą. Tų verčių pakeitimas gali pakeisti prašytojui pasiekiamą išorinių katalogų sąrašą. Pasiekiami išoriniai katalogai priklauso nuo šiuo metu aktyvių perkančio juridinio subjekto arba gaunančio valdymo vieneto pirkimo strategijų. Šios strategijos gali leisti arba neleisti pasiekti konkrečias įsigijimo kategorijas. Todėl gali būti paveiktas išorinių katalogų, susietų su šiomis įsigijimo kategorijomis, sąrašas.
 
-Daugiau informacijos apie strategijas rasite [Pirkimo strategijos](../procurement/purchase-policies.md).
+Daugiau informacijos apie strategijas žr. [Pirkimo strategijų apžvalga](../procurement/purchase-policies.md).
 
 - Norėdami rasti konkrečių įsigijimo kategorijų išorinių katalogų, katalogo paieškos lauke įveskite tekstą.
 - Norėdami įtraukti produktų iš tiekėjo išorinio katalogo tiekėjo svetainėje, spustelėkite išorinį katalogą. Tada įtraukite produktų į pirkimo krepšelį ir išsiregistruokite. Pirkimo krepšelio eilutės bus perkeltos į „Microsoft Dynamics 365“.

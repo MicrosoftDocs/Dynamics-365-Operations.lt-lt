@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bdfd8ca5e4feb236bc1b4e88a4dd3817a07e8a3f
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 2a5da707069966ea0dac282b2a0b2074ec5a41ff
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571006"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812242"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių pardavimas ir prižiūrimo turto kontroliniai sąrašai
 
@@ -33,7 +33,7 @@ ms.locfileid: "2571006"
 
 Kiekvienam turto vienetui priskiriamas turto tipas. Pagal turto tipus nustatomi galimų turto priežiūros užduočių tipai (ir priežiūros užduotys). Kurdami darbo užsakymą, privalote pasirinkti priežiūros užduoties tipą. Galite pasirinkti tik tuos priežiūros užduočių tipus, kurie yra susiję su turtui priskirto turto tipo sąranka.
 
-Turto ir priežiūros užduočių tipų bei jų sąsajų su darbo užsakymais grafinė apžvalga pateikiama skyriuje [Turtas ir darbo užsakymai](../overview/functional-locations-and-objects.md).
+Turto ir priežiūros užduočių tipų bei jų sąsajų su darbo užsakymais grafinė apžvalga pateikiama skyriuje [Funkcinės vietos ir turtas](../overview/functional-locations-and-objects.md).
 
 Priežiūros užduočių tipų variantus galima nustatyti pasirinkus priežiūros užduoties tipą. Priežiūros užduočių tipų variantai – tai skirtingos užduoties tipo versijos, pavyzdžiui, gali skirtis dydis (maža, vidutinė arba didelė), laikotarpis (atliekama kartą per savaitę, kartą per dvi savaites, kartą per mėnesį arba kartą per tris mėnesius) ir konfigūracija (žemo lygio, lanksti arba didelio efektyvumo).
 

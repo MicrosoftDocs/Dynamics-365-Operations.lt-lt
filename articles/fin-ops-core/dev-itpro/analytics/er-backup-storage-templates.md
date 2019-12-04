@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 932ba44b4223bf9c9d93ffb19e17f6e57bb303b5
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553096"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771426"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER šablonų atsarginių kopijų saugykla
 
 [!include [banner](../includes/banner.md)]
 
-[Elektroninių ataskaitų (ER) sistema](general-electronic-reporting.md) leidžia verslo vartotojams konfigūruoti siunčiamų dokumentų formatus pagal įvairių šalių bei regionų teisinius reikalavimus. Sukonfigūruotiems ER formatams galima naudoti iš anksto apibrėžtus šablonus, kurie leidžia generuoti įvairių formatų siunčiamus dokumentus, pvz., „Microsoft Excel“ darbaknyges, „Microsoft Word“ dokumentus arba PDF dokumentus. Šablonai yra užpildomi duomenimis, kurių generuojamiems dokumentams reikalauja sukonfigūruotas duomenų srautas.
+[Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md) leidžia verslo vartotojams konfigūruoti siunčiamų dokumentų formatus pagal įvairių šalių bei regionų teisinius reikalavimus. Sukonfigūruotiems ER formatams galima naudoti iš anksto apibrėžtus šablonus, kurie leidžia generuoti įvairių formatų siunčiamus dokumentus, pvz., „Microsoft Excel“ darbaknyges, „Microsoft Word“ dokumentus arba PDF dokumentus. Šablonai yra užpildomi duomenimis, kurių generuojamiems dokumentams reikalauja sukonfigūruotas duomenų srautas.
 
 Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis. Kiekvienas ER sprendimas gali būti eksportuojamas iš vieno „Finance and Operations“ egzemplioriaus ir importuojamas į kitą egzempliorių.
 
-ER sistema naudoja [dokumentų valdymo sistemą](../../fin-ops/organization-administration/configure-document-management.md) saugoti esamam „Finance and Operations“ egzemplioriui reikalingus šablonus. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [žr. ER sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) DocuValue lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
+ER sistema naudoja [dokumentų valdymo konfigūravimo](../../fin-ops/organization-administration/configure-document-management.md) funkciją, kad saugotų esamam „Finance and Operations“ egzemplioriui reikalingus šablonus. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) „DocuValue“ lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
 
 Valdydami savo „Finance and Operations“ egzempliorius, galbūt nuspręsite perkelti dabartinį egzempliorių į kitą vietą. Pavyzdžiui, galite perkelti gamybos egzempliorių į naują smėlio dėžės aplinką. Jei sukonfigūruosite, kad ER sistema saugotų šablonus didelių dvejetainių objektų saugykloje, DocuValue lentelėje, esančioje naujojoje smėlio dėžės aplinkoje, bus nuoroda į didelių dvejetainių objektų saugyklos egzempliorių gamybos aplinkoje. Tačiau šio egzemplioriaus negalima pasiekti iš smėlio dėžės aplinkos, nes perkėlimo procesas nepalaiko artefaktų perkėlimo didelių dvejetainių objektų saugykloje. Todėl, pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti ER valymo įrankį, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas. Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti.
 
@@ -94,6 +94,6 @@ Jei savo aplinką atnaujinote į „Finance and Operations“ 10.0.5 (2019 m. sp
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+[Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
 
-[Elektroninių ataskaitų sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md)
+[Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md)

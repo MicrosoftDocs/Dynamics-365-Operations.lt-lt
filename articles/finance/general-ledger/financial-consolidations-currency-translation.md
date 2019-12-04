@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 7b6b3cced92920ef5a253ca15793f26f244475fa
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186606"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771850"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
 
@@ -75,7 +75,7 @@ Atsižvelgiant į toliau nurodytą organizacijos struktūrą, privalote turėti 
 
 Kurdami juridinį subjektą galite nurodyti, ar įmonė naudojama konsolidavimo ir pašalinimo procesų metu, ar tik vieno iš šių procesų metu. Tolesnėje iliustracijoje įmonė naudojama abiejuose procesuose. Atkreipkite dėmesį, kad negalite registruoti kasdienių žurnalų konsoliduotoje įmonėje, bet galite juos registruoti pašalinimo įmonėje. Todėl galbūt pageidausite turėti atskirą pašalinimo įmonę.
 
-![Juridinis subjektas, naudojamas konsolidavimo ir pašalinimo procesuose](./media/sep-elimination-company.png "Juridinis subjektas, naudojamas konsolidavimo ir pašalinimo procesuose")
+![Juridinis objektas, kuris naudojamas tiek konsolidavimui, tiek pašalinimui](./media/sep-elimination-company.png "Juridinis objektas, kuris naudojamas tiek konsolidavimui, tiek pašalinimui")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Pagrindinės sąskaitos ir konsolidavimo sąskaitų grupės
 Turite pasirinkti, kaip norite konsoliduoti sąskaitų planą. Konsolidavimo proceso metu galite naudoti tris pagrindinės sąskaitos konsolidavimo parinktis.
@@ -84,14 +84,14 @@ Pirmoji parinktis yra pirminės įmonės pagrindinės sąskaitos naudojimas. Ši
 
 Antroji parinktis yra nurodyti numatytąją konsolidavimo sąskaitą puslapyje **Pagrindinė sąskaita**. Sąskaita, tada bus galima susieti su konsolidavimo sąskaita. Ši parinktis gali būti naudinga, kai turite skirtingus sąskaitų planus arba turite susieti planu, kurį nurodo būstinė.
 
-![Numatytoji konsolidavimo sąskaita nurodyta puslapyje Pagrindinė sąskaita](./media/main-accounts.png "Numatytoji konsolidavimo sąskaita nurodyta puslapyje Pagrindinė sąskaita")
+![Numatytoji konsolidavimo sąskaita, nurodyta pagrindinių sąskaitų puslapyje](./media/main-accounts.png "Numatytoji konsolidavimo sąskaita, nurodyta pagrindinių sąskaitų puslapyje")
 
 Trečioji parinktis – naudoti konsolidavimo sąskaitų grupes. Galite nurodyti tiek konsolidavimo sąskaitų grupių, kaip jums reikia. Tada puslapyje **Papildomos konsolidavimo sąskaitos** tiesiog susiekite sąskaitų plano pagrindinę sąskaitą su sąskaita, kuri turi būti toje grupėje.
 
-![Puslapio Papildomos konsolidavimo sąskaitos susiejimas](./media/additional-consolidation-accounts.png "Puslapio Papildomos konsolidavimo sąskaitos susiejimas")
+![Papildomų konsolidavimo sąskaitų puslapio susiejimas](./media/additional-consolidation-accounts.png "Papildomų konsolidavimo sąskaitų puslapio susiejimas")
 
 ## <a name="consolidating-online"></a>Konsolidavimas tinkle
-Norėdami sužinoti, kaip įvesti konsolidavimo tinkle informaciją, žr. [Konsolidavimas tinkle](./consolidate-online.md).
+Norėdami sužinoti, kaip įvesti konsolidavimo informaciją internete, žr. [Internetinis finansinis konsolidavimas](./consolidate-online.md).
 
 ## <a name="managing-consolidation-transactions"></a>Konsolidavimo operacijų valdymas
 Norėdami peržiūrėti konsolidavimo rezultatus, turite rinktis iš kelių parinkčių.
@@ -100,7 +100,7 @@ Norėdami peržiūrėti konsolidavimo rezultatus, turite rinktis iš kelių pari
 - Peržiūrėkite sąrašo puslapį **Bandomasis balansas** konsolidavimo įmonėje.
 - Puslapio **Konsolidavimas** konsolidavimo operacijų sąraše peržiūrėkite pagal datą sukuriamus balansus, skirtus kiekvienai pirminei įmonei ir kiekvienam laikotarpiui.
 
-    ![Konsolidavimo operacijos puslapyje Konsolidavimas](./media/managing-consolidation-transactions.png "Konsolidavimo operacijos puslapyje Konsolidavimas")
+    ![Konsolidavimo operacijos konsolidavimų puslapyje](./media/managing-consolidation-transactions.png "Konsolidavimo operacijos konsolidavimų puslapyje")
 
 Norėdami vykdyti konsolidavimą dar kartą, galite tiesiog apdoroti konsolidaciją. Taip pat galite pirmiausia pasirinkti **Pašalinti operacijas** puslapyje **Konsolidavimas**.
 
@@ -128,7 +128,7 @@ Pasirinkite pirmines sąskaitas. Žvaigždutę (\*) galite naudoti kaip universa
 
 Pasirinkę pirmines sąskaitas, naudokite lauką **Sąskaitos specifikacija**, kad nurodytumėte sąskaitą, naudojamą paskirties įmonėje. Pasirinkite **Pirminė**, jei norite naudoti tą pačią pagrindinę sąskaitą, kuri nurodyta pirminėje sąskaitoje. Jei pasirinksite **Nurodyta vartotojo**, turite nurodyti paskirties sąskaitą.
 
-![Puslapis DK pašalinimo taisyklės eilutė](./media/ledger-elimination-rule-line.png "Puslapis DK pašalinimo taisyklės eilutė")
+![Didžiosios knygos pašalinimo taisyklės eilutės puslapis](./media/ledger-elimination-rule-line.png "Didžiosios knygos pašalinimo taisyklės eilutės puslapis")
 
 Laukas **Dimensijos specifikacija** naudojamas taip, kaip laukas **Sąskaitos specifikacija**. Pasirinkite **Pirminė**, jei norite naudoti tas pačias dimensijas paskirties įmonėje ir pirminėje įmonėje. Jei pasirinksite **Nurodyta vartotojo**, turėsite nurodyti paskirties įmonės dimensijas, pasirinkdami **Paskirties dimensijos**. Tada pasirinkite pirmines dimensijas ir finansines dimensijas bei vertes, kurios naudojamos kaip pašalinimo šaltinis.
 

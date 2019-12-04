@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1f61c142fff73fdeeca573cca3f54e654511af1e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 132817fefb9592764d1adaf9f714c27108ce88ae
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1556417"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815116"
 ---
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>Bendrasis planavimas – teritorijos padengimo poreikis, privalomas sandėlis
 
@@ -51,15 +51,15 @@ Toliau pateiktame grafikos objekte iliustruojama, kaip vyksta bendrasis planavim
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Bendrasis planavimas ir kelių teritorijų funkcija](master-plan-multisite-functionality.md)
+[Bendrojo planavimo ir kelių teritorijų funkcijos apžvalga](master-plan-multisite-functionality.md)
 
-[Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis privalomas](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[Bendrasis vietos ir sandėlio padengimo planas, sandėlis privalomas](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[Bendrasis planavimas – teritorijos padengimo poreikis, sandėlis privalomas](master-plan-site-coverage-warehouse-mandatory.md)
+[Bendrasis vietos padengimo, sandėlis privalomas](master-plan-site-coverage-warehouse-mandatory.md)
 
-[Bendrasis planavimas – teritorijos ir sandėlio padengimas, sandėlis neprivalomas](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[Bendrasis vietos ir sandėlio padengimo planas, sandėlis neprivalomas](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[Bendrasis planavimas – kaip nustatoma KS versija](master-plan-bom-version-determined.md)
+[KS versijos nustatymas](master-plan-bom-version-determined.md)
 
 
 

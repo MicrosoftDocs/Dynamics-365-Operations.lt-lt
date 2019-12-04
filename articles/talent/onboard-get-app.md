@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 28ed12bd8cf2df7c25e14a25465cad1229676cfd
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5849de38962967f0614ff7afd40296c0f12ff476
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551984"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812861"
 ---
 # <a name="get-the-dynamics-365-talent---onboard-app"></a>Gauti programą „Dynamics 365 Talent - Onboard“
 
@@ -39,9 +39,9 @@ Vykstant bandomajam ar pirkimo procesui, nustatysite savo „Microsoft 365” el
 > [!WARNING]
 > Negalima perkelti duomenų iš bandomosios versijos į mokamos prenumeratos aplinką. <!--Reviewers: please verify.-->
 
-Norėdami sužinoti daugiau informacijos apie naujas „Talent“ funkcijas, žr. [Kas nauja ar pasikeitė „Dynamics 365 Talent“](./whats-new.md) ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index). Jei norite peržiūrėti naujas funkcijas „Onboard”, žr. [Prieiga prie „Talent“ peržiūros funkcijų](./access-preview-feature.md).
+Norėdami sužinoti daugiau informacijos apie naujas „Talent“ funkcijas, žr. [Kas nauja ar pasikeitė „Dynamics 365 Talent“](./whats-new.md) ir [„Dynamics 365“ ir „Power Platform“ leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index). Jei norite peržiūrėti naujas funkcijas „Onboard”, žr. [Prieiga prie „Microsoft Dynamics 365 Talent“ peržiūros funkcijų](./access-preview-feature.md).
 
-Jei esate IT specialistas ir norite sužinoti daugiau apie tai, kaip sukonfigūruotos abi „Onboard” programos versijos, žr. [Parengimas programai „Onboard“](./modular-app-tech-faq.md).
+Jei esate IT specialistas ir norite sužinoti daugiau apie tai, kaip sukonfigūruotos abi „Onboard” programos versijos, žr. [Parengimas programai „Dynamics 365 Talent - Onboar“](./modular-app-tech-faq.md).
 
 ## <a name="get-started-with-onboard"></a>Darbo su „Onboard“ pradžia
 
@@ -89,6 +89,6 @@ Jei prisiregistravę prie „Onboard” priėmėte numatytąjį domeno pavadinim
 ### <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Išbandykite arba įsigykite „Onboard” programėlę](https://dynamics.microsoft.com/talent/onboard/)
-- [Kas nauja](./whats-new.md)
-- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Palaikymo gavimas](./talent-support.md)
+- [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
+- [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)

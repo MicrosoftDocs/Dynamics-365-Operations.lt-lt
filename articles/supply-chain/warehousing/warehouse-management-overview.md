@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abb78c9ac43dad80e45729f4b42651d9807f71f1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: f50b950b8588f2b17611889e0cb0eeb6da359886
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251067"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813022"
 ---
 # <a name="warehouse-management-overview"></a>Sandėlio valdymo apžvalga
 
@@ -36,7 +36,7 @@ Norėdami pradėti dirbti su moduliu Sandėlio valdymas, turite nustatyti bendru
 
 Pagal verslo poreikius turite sukonfigūruoti sandėlio gavimo ir siuntimo procesų darbo eigų komponentus. Svarbiausi komponentai, kuriuos turite sukonfigūruoti, yra bangos šablonai, darbo šablonai, darbo telkiniai ir vietų nurodymai.
 
-- [Sandėlio konfigūracija](warehouse-configuration.md)
+- [Sandėlio konfigūracijos apžvalga](warehouse-configuration.md)
 - [Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus](control-warehouse-location-directives.md)
 - [Mobiliųjų įrenginių nustatymas darbui sandėlyje](configure-mobile-devices-warehouse.md)
 - [Nustatyti pirkimo užsakymo atidėjimo vietos nurodymą.](../transportation/tasks/set-up-location-directive-purchase-order-put-away.md)

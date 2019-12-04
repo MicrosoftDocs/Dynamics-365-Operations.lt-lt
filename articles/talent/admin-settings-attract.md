@@ -1,5 +1,5 @@
 ---
-title: Įmonės informacijos konfigūravimas „Microsoft Dynamics 365 Talent - Attract”
+title: Įmonės informacijos konfigūravimas „Attract”
 description: Šioje temoje paaiškinama, kaip konfigūruoti įmonės informaciją ir prekių ženklus, skirtus „Microsoft Dynamics 365 Talent - Attract”.
 author: andreabichsel
 manager: AnnBe
@@ -18,15 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7013065a9494cb407020de2ebcad4058dd57c6c4
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: db3ec965f3a52810d5f310697b9ed830c3abe681
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551605"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833259"
 ---
-# <a name="configure-company-information-in-microsoft-dynamics-365-talent---attract"></a>Įmonės informacijos konfigūravimas „Microsoft Dynamics 365 Talent - Attract”
-[!include[banner](../includes/banner.md)]
+# <a name="configure-company-information-in-attract"></a>Įmonės informacijos konfigūravimas „Attract”
+
+[!include [banner](includes/banner.md)]
 
 „Microsoft Dynamics 365 Talent: Attract“ administravimo centre pateikiami „Attract“ programos konfigūracijos parametrai, integravimo parinktys ir nustatymo parinktys.
 
@@ -48,11 +49,11 @@ Pridedant naujų funkcijų, jos gali būti paskelbtos viešojoje peržiūroje. V
 
 ## <a name="template-management"></a>Šablonų valdymas
 
-Proceso šablone pateikiamos visos veiklos, kurios turėtų būti įtrauktos samdymo į darbo vietą proceso metu. Jūsų organizacija gali leisti samdos proceso šablonus kurti visiems komandos nariams arba tik administratoriams. Norėdami komandos nariams leisti kurti nuosavus samdos proceso šablonus, įjunkite šablonų valdymo funkciją. Daugiau informacijos apie proceso šablonus žr. [Proceso šablonai sprendime „Attract“](./process-templates-attract.md).
+Proceso šablone pateikiamos visos veiklos, kurios turėtų būti įtrauktos samdymo į darbo vietą proceso metu. Jūsų organizacija gali leisti samdos proceso šablonus kurti visiems komandos nariams arba tik administratoriams. Norėdami komandos nariams leisti kurti nuosavus samdos proceso šablonus, įjunkite šablonų valdymo funkciją. Daugiau informacijos apie proceso šablonus žr. [Proceso šablono kūrimas sprendime „Attract“](./process-templates-attract.md).
 
 ## <a name="email-template-settings"></a>El. pašto šablonų parametrai
 
-Organizacijų, gali kurti el. laiškų šablonus, skirtus įvairioms situacijoms. Galite pasirinkti antraštės vaizdą, kad įtrauktumėte el. laiškų šablonų. Tada pasirinkta antraštė bus rodoma visuose el. laiškų šablonuose. Šabloną poraštėje galite įtraukti saitą į jūsų organizacijos ryšių privatumo patvirtinimą ir sąlygas. Daugiau informacijos žr. [El. laiškų šablonai sprendime „Attract“](./email-templates.md).
+Organizacijų, gali kurti el. laiškų šablonus, skirtus įvairioms situacijoms. Galite pasirinkti antraštės vaizdą, kad įtrauktumėte el. laiškų šablonų. Tada pasirinkta antraštė bus rodoma visuose el. laiškų šablonuose. Šabloną poraštėje galite įtraukti saitą į jūsų organizacijos ryšių privatumo patvirtinimą ir sąlygas. Daugiau informacijos apie šablonus ieškokite [El. laiško šablonai](./email-templates.md).
 
 ## <a name="offer-process"></a>Pasiūlymo procesas
 

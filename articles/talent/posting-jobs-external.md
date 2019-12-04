@@ -1,6 +1,6 @@
 ---
-title: Darbo skelbimų skelbimas išorinėse karjeros svetainėse naudojant „Attract“
-description: Šioje temoje paaiškinama, kaip naudoti „Dynamics 365 Talent“ – „Attract“ darbo skelbimams išorinėse įdarbinimo svetainėse registruoti
+title: Darbo skelbimų registravimas „Broadbean“ iš „Attract“
+description: Šioje temoje paaiškinama, kaip naudoti „Dynamics 365 Talent - Attract“ darbo skelbimams „Broadbean” registruoti.
 author: pganapmsft
 manager: AnnBe
 ms.date: 05/16/2019
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 2c822a1f799144bb9240fc0cbdeb6c5441e278af
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 41fa057606887069a9ea0f1f2178eeaff59f33ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551408"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832667"
 ---
-# <a name="post-jobs-to-external-career-sites-from-attract"></a>Darbo skelbimų skelbimas išorinėse karjeros svetainėse naudojant „Attract“
+# <a name="post-jobs-to-broadbean-from-attract"></a>Darbo skelbimų registravimas „Broadbean“ iš „Attract“
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 „Microsoft“ „Dynamics 365 Talent: Attract” padeda rasti reikiamą talentą, leisdama registruoti darbo skelbimus tiesiai iš „Attract” į „Broadbean”. [Sukūrus darbo skelbimą](./creating-jobs-attract.md), viskas, ką jums reikia padaryti, yra spustelėti mygtuką ir išsiųsti savo darbo skelbimą visiems potencialiems kandidatams „Broadbean”.
 
 Darbo skelbimų registravimui „Broadbean” reikia atitinkamos „Broadbean” licencijos. „Broadbean” siūlo įvairius produktus ir planus. Norėdami gauti daugiau informacijos apie „Broadbean” licencijavimą ir kainodarą, [susisiekite su „Broadbean”](https://www.broadbean.com/contact-us/).
 
-Jei esate administratorius, kuriam reikia daugiau informacijos apie tai, kaip sukonfigūruoti „Broadbean” integravimą su „Attract”, peržiūrėkite [Išorinių darbo skelbimo lentų parametrų įvedimas](./attract-admin-job-board-settings.md).
+Jei esate administratorius ir norite sužinoti daugiau informacijos apie tai, sukonfigūruoti „Broadbean“ integravimą su „Attract“, žr. [„Broadbean“ Integravimo „Microsoft Dynamics 365 Talent - Attract“ įjungimas](./attract-admin-job-board-settings.md).
 
 ## <a name="post-jobs-to-broadbean"></a>Darbo skelbimų registravimas „Broadbean“
 
@@ -74,7 +74,7 @@ Norėdami atnaujinti užregistruotą „Broadbean“ darbo skelbimą, tai galite
 2. Skyriuje **Registravimai** paspauskite „Broadbean“ atitinkantį mygtuką **Naujinti skelbimą**.
 3. Redaguokite užregistruotą skelbimą „Broadbean“ lange.
 
-arba,
+    arba,
 
 1. Naudodamiesi „Attract“, atidarykite darbo skelbimą, kurį norite peržiūrėti „Broadbean“.
 2. Skyriuje **Registravimai** paspauskite „Broadbean“ atitinkantį daugtaškio mygtuką (**...**), o paskui pasirinkite **Peržiūrėti**.
@@ -99,6 +99,6 @@ Susidūrę su problemomis registruodami darbo skelbimą „Broadbean“, atlikit
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[Darbo vietų kūrimas](./creating-jobs-attract.md)
+[Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
-[Išorinių darbo skelbimų lentų parametrų įvedimas](./attract-admin-job-board-settings.md)
+[„Broadbean“ integravimo „Microsoft Dynamics 365 Talent - Attract” įjungimas](./attract-admin-job-board-settings.md)

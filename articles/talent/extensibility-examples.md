@@ -1,6 +1,6 @@
 ---
-title: „Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
-description: Šioje temoje aprašomi keli „Microsoft Dynamics 365 Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“.
+title: „Talent“ išplėtimas su „Power Apps“ ir „Power Automate“
+description: Šiame skyriuje aprašomi keli „Microsoft Dynamics 365 Talent“ išplėtimo scenarijų pavyzdžiai, kuriuose naudojami „Microsoft Power Apps“ ir „Microsoft Power Automate“.
 author: negudava
 manager: Annbe
 ms.date: 05/01/2019
@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 7bc3a18327f2d32770176eddcb7200681f0fb0da
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 3bb61297e294aa3f2d06f542bebe29d7afae9c3b
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008064"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832843"
 ---
-# <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>„Talent“ išplėtimas naudojant „PowerApps“ ir „Microsoft Flow“ – scenarijų pavyzdžiai
+# <a name="extend-talent-with-power-apps-and-power-automate"></a>„Talent“ išplėtimas su „Power Apps“ ir „Power Automate“
 
-Šioje temoje aprašomi keli „Microsoft Dynamics 365 Talent“ išplėtimo scenarijų pavyzdžiai, kai naudojama „Microsoft PowerApps“ ir „Microsoft Flow“. Su kiekvienu pavyzdžiu susietą sprendimų paketą galite importuoti į savo „PowerApps“ aplinką. Paskui šiais paketais galite naudotis kaip nurodymais arba kaip atskaitos taškais jūsų organizacijai taikomiems scenarijams įgyvendinti.
+[!include [banner](includes/banner.md)]
+
+Šiame skyriuje aprašomi keli „Microsoft Dynamics 365 Talent“ išplėtimo scenarijų pavyzdžiai, kuriuose naudojami „Microsoft Power Apps“ ir „Microsoft Power Automate“. Su kiekvienu pavyzdžiu susietą sprendimų paketą galite importuoti į savo „Power Apps“ aplinką. Paskui šiais paketais galite naudotis kaip nurodymais arba kaip atskaitos taškais jūsų organizacijai taikomiems scenarijams įgyvendinti.
 
 > [!IMPORTANT]
 > Norėdami šioje temoje aprašytus šablonus ir programą naudoti tokius, kokie jie yra, būtinai patikrinkite juos, kad įsitikintumėte, jog jie apima visus jūsų diegimui būdingus scenarijus.
@@ -36,11 +38,11 @@ ms.locfileid: "2008064"
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 - Norėdami importuoti paketus, vartotojai privalo turėti teisę **Aplinkos kūrėjas**.
-- Norėdami eksportuoti arba importuoti programas, vartotojai privalo turėti „PowerApps“ 2 plano licenciją arba bandomąją „PowerApps“ 2 plano licenciją.
+- Norėdami eksportuoti arba importuoti programas, vartotojai privalo turėti „Power Apps“ 2 plano licenciją arba bandomąją „Power Apps“ 2 plano licenciją.
 
-## <a name="flow--form-connect"></a>Srautas – Formos prijungimas
+## <a name="power-automate--form-connect"></a>„Power Automate – Form Connect“
 
-Naudojantis šablonu **Srautas – Formos prijungimas** galima skaityti „Microsoft“ formų duomenis ir išsaugoti juos „Common Data Service“ objekte.
+**Power Automate – Form Connect** šabloną galima naudoti norint nuskaityti duomenis iš „Microsoft Forms“ ir saugoti juos „Common Data Service“ objekte.
 
 Šį šabloną galima išplėsti, kad jį būtų galima naudoti kitiems scenarijams. Štai keletas pavyzdžių:
 
@@ -51,19 +53,19 @@ Naudojantis šablonu **Srautas – Formos prijungimas** galima skaityti „Micro
 
 Naudojantis „Microsoft Dynamics 365: Attract“, formos gali būti rodomos kandidatų portale ir kandidatai gali įvesti duomenis. Užduoties šablone formas galima įdėti ir kaip veiklas.
 
-Kandidatui pateikus formą, „Microsoft Flow“ užfiksuoja formos pateikimą, nuskaito duomenis ir išsaugo juos „Common Data Service“ objekte.
+Kai kandidatas pateikia formą, „Microsoft Power Automate“ užfiksuoja formos pateikimą, nuskaito duomenis ir saugo juos „Common Data Service“ objekte.
 
-Norėdami atsisiųsti šabloną **Srautas – Formos prijungimas** ir pasirinktinę objekto struktūrą, „Microsoft“ atsisiuntimo centre eikite į [Srautas – Formos prijungimas](https://go.microsoft.com/fwlink/?linkid=2081988).
+Norėdami atsisiųsti **Power Automate – Form Connect** šabloną ir pasirinktinio objekto struktūrą, „Microsoft“ atsisiuntimų centre eikite į [Power Automate – Form Connect](https://go.microsoft.com/fwlink/?linkid=2081988).
 
-## <a name="initiate-and-extract-parameters-passed-to-powerapps"></a>„Powerapps“ perduodamų parametrų paleidimas ir išskleidimas
+## <a name="initiate-and-extract-parameters-passed-to-power-apps"></a>Parametrų, perduotų „ Power Apps“, inicijavimas ir ištraukimas
 
-Šabloną **„Powerapps“ perduodamų parametrų paleidimas ir išskleidimas** galima naudoti kaip bet kurio „Attract“ būdingo „PowerApps“ scenarijaus pradžios tašką. Jis apima visus numatytuosius „Attract“ perduodamus parametrus, pavyzdžiui, **Prašymas įdarbinti**, **Kandidato ID** ir **JobID**.
+Šabloną **Parametrų, perduotų „Power Apps**“, inicijavimas ir ištraukimas“ galima naudoti kaip kiekvieno „Power Apps“ scenarijaus, kuris yra būdingas „Attract“, pradžios tašką. Jis apima visus numatytuosius „Attract“ perduodamus parametrus, pavyzdžiui, **Prašymas įdarbinti**, **Kandidato ID** ir **JobID**.
 
 Naudojantis šiuo šablonu galima gauti kandidato vertinimo formą, kad samdos vadovas galėtų peržiūrėti kandidato užpildytą vertinimo formą.
 
-Naudojant „PowerApps“ sukurtas programas galima įdėti į „Attract“ užduoties šabloną.
+Naudojant „Power Apps“ sukurtas programas galima įdėti į „Attract“ užduoties šabloną.
 
-Norėdami atsisiųsti šabloną **„Powerapps“ perduodamų parametrų paleidimas ir išskleidimas** ir pasirinktinę objekto struktūrą, „Microsoft“ atsisiuntimo centre eikite į [„Powerapps“ perduodamų parametrų paleidimas ir išskleidimas](https://go.microsoft.com/fwlink/?linkid=2081991).
+Norėdami atsisiųsti **Parametrų, perduotų „Power Apps“, inicijavimas ir ištraukimas** šabloną ir pasirinktinio objekto struktūrą, eikite į [Parametrų, perduotų „Power Apps“, inicijavimas ir ištraukimas](https://go.microsoft.com/fwlink/?linkid=2081991) „Microsoft“ atsisiuntimų centre.
 
 ## <a name="integration-with-office-365"></a>Integravimas su „Office 365“
 
@@ -73,33 +75,33 @@ Naudojantis programa **Integravimas su „Office 365“**, iš „Microsoft Offi
 
 Norėdami atsisiųsti programą **Integravimas su „Office 365“** ir pasirinktinę objekto struktūrą, „Microsoft“ atsisiuntimo centre eikite į [Integravimas su „Office 365“](https://go.microsoft.com/fwlink/?linkid=2081787).
 
-## <a name="flow--email-notification"></a>Srautas – El. paštu siunčiamas pranešimas
+## <a name="power-automate--email-notification"></a>„Power Automate – el. laiško pranešimas“
 
-Šabloną **Srautas – El. paštu siunčiamas pranešimas** galima naudoti el. paštu siunčiamų pranešimų scenarijams. Juo naudojantis galima suaktyvinti el. paštu kandidatams siunčiamus pranešimus, kai samdos komanda bet kuriame įdarbinimo proceso etape juos atmeta.
+**Power Automate – el. laiško pranešimas** šabloną galima naudoti el. laiškų pranešimų scenarijams. Juo naudojantis galima suaktyvinti el. paštu kandidatams siunčiamus pranešimus, kai samdos komanda bet kuriame įdarbinimo proceso etape juos atmeta.
 
 Šį šabloną galima išplėsti, kad būtų galima sekti kandidato įdarbinimo proceso etapo pokyčius ir siųsti pranešimus samdos komandai ir kandidatui.
 
 Apskritai, jei objektai saugomi „Common Data Service“, galima nustatyti, kad srautai siųstų pranešimus apie „Core HR“, „Attract“ arba „Onboard“ įvykius.
 
-Norėdami atsisiųsti šabloną **Srautas – El. paštu siunčiamas pranešimas**, „Microsoft“ atsisiuntimo centre eikite į [Srautas – El. paštu siunčiamas pranešimas](https://go.microsoft.com/fwlink/?linkid=2082103).
+Norėdami atsisiųsti **Power Automate – el. laiško pranešimas** šabloną, „Microsoft“ atsisiuntimų centre eikite į [Power Automate – el. laiško pranešimas](https://go.microsoft.com/fwlink/?linkid=2082103).
 
-## <a name="flow--sql-connect-and-execute"></a>Srautas – SQL prijungimas ir vykdymas
+## <a name="power-automate--sql-connect-and-execute"></a>„Power Automate – SQL prisijungimas ir vykdymas“
 
-Naudojantis šablonu **Srautas – SQL prijungimas ir vykdymas** prisijungiama prie „Microsoft SQL Server“ ir galima vykdyti SQL užklausas.
+**Power Automate – SQL prisijungimas ir vykdymas** šablonas prisijungia prie „Microsoft SQL Server“ ir leidžia vykdyti SQL užklausas.
 
 Nors šis šablonas skirtas SQL lentelėms skaityti ir naujinti, jį galima išplėsti, kad jį galima būtų naudoti kitiems scenarijams. Pavyzdžiui, jį galima naudoti „Common Data Service“ išdėstymo lentelėje norint įvesti duomenis iš SQL serverio ir periodiškai sinchronizuojant išdėstymo lentelę naudojantis papildančiuoju skirstymu iš SQL serverio.
 
-Norėdami atsisiųsti šabloną **Srautas – SQL prijungimas ir vykdymas**, „Microsoft“ atsisiuntimo centre eikite į [Srautas – SQL prijungimas ir vykdymas](https://go.microsoft.com/fwlink/?linkid=2081789).
+Norėdami atsisiųsti **Power Automate – SQL prisijungimas ir vykdymas** šabloną, „Microsoft“ atsisiuntimų centre eikite į [Power Automate – SQL prisijungimas ir vykdymas](https://go.microsoft.com/fwlink/?linkid=2081789).
 
-## <a name="flow--sharepoint-integration"></a>Srautas – „SharePoint“ integravimas
+## <a name="power-automate--sharepoint-integration"></a>„Power Automate – SharePoint integravimas“
 
-Naudojantis šablonu **Srautas – „SharePoint“ integravimas** galima nuskaityti „Microsoft SharePoint“ sąraše nurodytus duomenis, palyginti sąrašą su bet kurio „Common Data Service“ objekto laukų reikšmėmis ir išsiųsti palyginimo rezultatus kaip el. paštu siunčiamą pranešimą. 
+**Power Automate – SharePoint integravimas** šabloną galima naudoti norint nuskaityti duomenis iš „Microsoft SharePoint“ sąrašo, palyginti sąrašą su bet kurio „Common Data Service“ objekto lauko reikšmėmis ir siųsti palyginimo rezultatus kaip pranešimo el. laišką. 
 
 Organizacija gali turėti tam tikrų skubiai reikiamų įgūdžių rinkinį. Šie įgūdžiai gali būti saugomi „SharePoint“ kaip „SharePoint“ sąrašas. Kai kandidatas kreipiasi dėl darbo ir norėdamas įsidarbinti turi turėti reikiamų įgūdžių rinkinyje išvardytų įgūdžių, aptikus didelį kandidato įgūdžių sutapimą su „SharePoint“ saugomais įgūdžiais, el. paštu išsiunčiamas pranešimas. Tokiu būdu pareigoms, kurioms darbuotojų reikia skubiai, jų surandama greičiau, nes naudojantis pranešimais darbdaviams lengviau ieškoti kandidatų visoje organizacijoje ir atlikti kryžminį įdarbinimą.
 
 Šį šabloną galima išplėsti, kad jį būtų galima naudoti bet kuriam „SharePoint“ integraciją apimančiam scenarijui.
 
-Norėdami atsisiųsti šabloną **Srautas – „SharePoint“ integravimas**, „Microsoft“ atsisiuntimo centre eikite į [Srautas – „SharePoint“ integravimas](https://go.microsoft.com/fwlink/?linkid=2082109).
+Norėdami atsisiųsti **Power Automate – SharePoint integravimas** šabloną, eikite į [Power Automate – SharePoint integravimas](https://go.microsoft.com/fwlink/?linkid=2082109) „Microsoft“ atsisiuntimų centre.
 
 ## <a name="referral-app"></a>Programėlė „Referral”
 Programėlę „Referral” galite naudoti kandidatams įtraukti į bendrinamą talento telkinį. Pateikdamas kandidatą, jį rekomendavęs asmuo gali įvesti jo **vardą**, **pavardę**, **el. pašto adresą** ir **„LinkedIn“ URL**. Kandidato šaltinio metaduomenys yra įvedami kartu su jį rekomendavusio asmens informacija.

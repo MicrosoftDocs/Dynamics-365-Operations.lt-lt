@@ -3,7 +3,7 @@ title: Atidėtas sandėlio darbo apdorojimas
 description: Šioje temoje aprašomos funkcijos, dėl kurių „Dynamics 365 Supply Chain Management” galima naudoti sandėlio darbo atidėjimo operacijų apdorojimą.
 author: josaw1
 manager: AnnBe
-ms.date: 06/17/2019
+ms.date: 11/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1acfa41b9a94b5f27eefda006c8e2950059f3489
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b67b3899a506c02b581d04f51691cb4408ee012e
+ms.sourcegitcommit: 0af4caa9f5ea6f6c1d1f4b30090e02e7f755df36
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026936"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2815793"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Atidėtas sandėlio darbo apdorojimas
 
@@ -30,7 +30,6 @@ ms.locfileid: "2026936"
 [!include [banner](../includes/pivate-preview-banner.md)]
 
 Šioje temoje aprašomos funkcijos, dėl kurių Dynamics 365 Supply Chain Management galima naudoti sandėlio darbo atidėjimo operacijų apdorojimą.
-
 
 Atidėta apdorojimo funkcija leidžia sandėlio darbuotojams atlikti kitus darbus, o padėjimo operacija apdorojama fone. Atidėtas apdorojimas naudingas, kai reikia apdoroti daug darbo eilučių ir darbuotojas gali leisti, kad darbas būtų apdorojamas asinchroniškai. Jis taip pat naudingas, kai serveris gali turėti „ad-hoc“ arba neplanuotą apdorojimo laiko padidėjimą, o didesnis apdorojimo laikas gali turėti įtakos vartotojo produktyvumui.
 
@@ -50,6 +49,8 @@ Strategijos konfigūruojamos puslapyje **Darbo apdorojimo strategijos**. Toliau 
 | Darbo apdorojimo metodas          | Metodas, naudojamas darbo eilutei apdoroti. Jei metodas nustatytas į **Nedelsiant**, elgesys primena elgesį, kai eilučių apdorojimui nėra naudojamos jokios darbo apdorojimo strategijos. Jei metodas nustatytas į **Atidėtas**, naudojamas atidėtas apdorojimas, kuris naudoja paketinę sistemą. |
 | Atidėto apdorojimo riba   | Vertė **0** (nulis) nurodo, kad nėra ribinės reikšmės. Tokiu atveju naudojamas aidėtas apdorojimas, jei jis gali būti naudojamas. Jei konkrečios ribinės reikšmės skaičiavimas yra žemesnis už ribinę reikšmę, naudojamas metodas Nedelsiant. Priešingu atveju naudojamas atidėtasis metodas, jei jį galima naudoti. Su pardavimu ir perkėlimu susijusiam darbui, ribinė reikšmė apskaičiuojama kaip susieto šaltinio įkėlimo eilučių, kurios apdorojamos darbui, skaičius. Papildymo darbams ribinė reikšmė apskaičiuojama kaip darbo eilučių, kurias papildo darbas, skaičius. Nustatydami ribinę reikšmę, pvz., **5**, pardavimams, mažesniems darbams, kuriuose yra mažiau nei penkios pradinio šaltinio įkėlimo eilutės, nebus naudojamas atidėtas apdorojimas, tačiau jį naudos didesni darbai. Ribinė reikšmė taikoma tik tada, kai darbo apdorojimo metodas nustatytas į **Atidėtas**. |
 | Atidėto apdorojimo paketų grupė |Paketų grupė, naudojama apdorojimui. |
+
+Atidėtam padėjimo apdorojimui palaikomi šie darbo užsakymo tipai: pardavimo užsakymas, perkėlimo užsakymo išdavimas ir papildymas.
 
 ## <a name="assigning-the-work-creation-policy"></a>Darbo kūrimo strategijos priskyrimas
 
@@ -99,7 +100,7 @@ Yra keli scenarijai, kai atidėto padėjimo apdorojimas nėra taikomas, net jei 
 - Naudojamas rankinis darbo užbaigimas.
 - Darbas užbaigtas naudojant automatinį užbaigimą.
 - Naudojami audito šablonai.
-- Darbas naudoja konteinerius.
+
 
 ## <a name="monitoring-the-deferred-processing-tasks-from-the-outbound-work-monitoring-workspace"></a>Atidėtų apdorojimo užduočių stebėjimas iš darbo siuntimo stebėjimo darbo srities
 

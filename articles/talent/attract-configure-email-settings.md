@@ -1,5 +1,5 @@
 ---
-title: „Microsoft Dynamics 365 Talent - Attract“ el. pašto parametrų konfigūravimas
+title: „Attract“ el. pašto parametrų konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti el. pašto, siunčiamo iš „Microsoft Dynamcis 365 Talent - Attract“, parametrus.
 author: andreabichsel
 manager: AnnBe
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: a457deec757a5d5a3e01c6903b2dd7a9d975ef0b
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: c1ebfaeb2e9bc2836bb70e87afa93484c829b6cb
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551546"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833120"
 ---
-# <a name="configure-email-settings-in-microsoft-dynamics-365-talent---attract"></a>„Microsoft Dynamics 365 Talent - Attract“ el. pašto parametrų konfigūravimas
+# <a name="configure-email-settings-in-attract"></a>„Attract“ el. pašto parametrų konfigūravimas
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Jūsų prekės ženklas kuria patikimumo įspūdį ir padeda užmegzti ryšį su kandidatais dar prieš jiems kandidatuojant į jūsų siūlomas darbo vietas. Teigiamas prekės ženklo įvaizdis pritraukia geriausius talentus ir didina esamų darbuotojų lojalumą. „Microsoft Dynamics 365 Talent: Attract“ galima sukonfigūruoti el. laiškus, kad juose atsispindėtų jūsų įmonės prekės ženklas. Todėl kandidatavimo proceso metu užtikrinsite nuoseklią kandidatų patirtį.
 

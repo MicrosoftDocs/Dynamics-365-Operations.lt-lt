@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9eef9d8c58d19b05901035f4c679ee7d9902819
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8196ddc879df1f398aabef0c1c4064bf0d4fff2c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179009"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771925"
 ---
 # <a name="set-up-fixed-assets"></a>Ilgalaikio turto nustatymas
 
@@ -51,7 +51,7 @@ Nustatę nusidėvėjimo šablonus, turite sukurti reikiamas turto knygas. Kiekvi
 
 Kiekvienai knygai priskiriamas pirminis nusidėvėjimo šablonas. Jei galima, knygoms taip pat gali būti priskiriamas alternatyvus arba perjungimo nusidėvėjimo šablonas. Norėdami automatiškai įtraukti ilgalaikio turto knygą į nusidėvėjimą, turite įjungti parinktį **Skaičiuoti nusidėvėjimą**. Jei ši turto parinktis neįjungta, nusidėvėjimo pasiūlyme turtas praleidžiamas.
 
-Taip pat galite nustatyti išvestinės knygas. Nurodytos išvestinės operacijos pagal išvestines knygas registruojamos kaip tiksli pirminės operacijos kopija. Todėl paprastai nustatomos ne nusidėvėjimo operacijų, o įsigijimų ir perleidimų išvestinės operacijos. Daugiau informacijos žr. [NUstatyti knygas](tasks/set-up-value-models.md).
+Taip pat galite nustatyti išvestinės knygas. Nurodytos išvestinės operacijos pagal išvestines knygas registruojamos kaip tiksli pirminės operacijos kopija. Todėl paprastai nustatomos ne nusidėvėjimo operacijų, o įsigijimų ir perleidimų išvestinės operacijos. Daugiau informacijos žr. [Nustatyti vertės modelius](tasks/set-up-value-models.md).
 
 ## <a name="fixed-asset-posting-profiles"></a>Ilgalaikio turto registravimo šablonai
 

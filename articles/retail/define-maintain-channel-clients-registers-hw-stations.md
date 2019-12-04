@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a21394daeb797995418c3b139191dd700c129e12
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 3f0180f63c32f3e88d7f5e245716ccc908cc026d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019398"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811245"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)
 
@@ -33,7 +33,7 @@ ms.locfileid: "2019398"
 Ši tema nurodo, kaip išorinius įrenginius prijungti prie „Retail POS“.
 
 > [!NOTE]
-> Norėdami konkrečių diegimo instrukcijų, žr. dalis [„Retail hardware station“ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [„Retail Modern POS“ savitarnos atsisiuntimas / diegimas ir „Modern POS“ bei „Cloud POS“ įrenginio aktyvinimas](retail-modern-pos-device-activation.md).
+> Konkrečias įdiegimo instrukcijas rasite [„Retail Hardware Station“ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md) ir [Retail Modern POS (MPOS) konfigūravimas, diegimas ir aktyvinimas](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Pagrindiniai komponentai
 
@@ -139,7 +139,7 @@ Funkcijų šablonas nustatomas parduotuvės lygiu. Jis naudojamas siekiant nurod
 
 - „FastTab“ **Info codes**.
 
-    - Visi informacijos kodų valdymo EKA aspektai. Daugiau informacijos rasite dalyje [Informacijos kodai](info-codes-retail.md).
+    - Visi informacijos kodų valdymo EKA aspektai. Daugiau informacijos rasite [Informacijos kodai ir informacijos kodų grupės](info-codes-retail.md).
 
 - „FastTab“ **Kvitų numeravimas**.
 

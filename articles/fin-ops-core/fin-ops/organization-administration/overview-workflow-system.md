@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e5e795ca6f7831ecd3fa28be9782f0b287eea6e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: eef77a5d81d12ec92eea86b1dd9902d9e3d80b33
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190010"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812368"
 ---
 # <a name="workflow-system-overview"></a>Darbo eigos sistemos apžvalga
 
@@ -57,18 +57,18 @@ Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 
 ## <a name="workflow-content"></a>Darbo eigos turinys
 
-+ [Darbo eigos architektūra](workflow-system-architecture.md)
++ [Darbo eigos sistemos architektūra](workflow-system-architecture.md)
 + [Darbo eigos elementai](workflow-elements.md)
-+ [Darbo eigos veiksmai](workflow-actions.md)
-+ [Darbo eigos kūrimas](create-workflow.md)
++ [Darbo eigos patvirtinimo procesų veiksmai](workflow-actions.md)
++ [Darbo eigų kūrimo apžvalga](create-workflow.md)
 + [Darbo eigos ypatybių konfigūravimas](configure-workflow-properties.md)
-+ [Neautomatizuotos darbo eigos užduoties konfigūravimas](configure-manual-task-workflow.md)
-+ [Automatizuotos darbo eigos užduoties konfigūravimas](configure-automated-task-workflow.md)
-+ [Darbo eigos patvirtinimo proceso konfigūravimas](configure-approval-process-workflow.md)
-+ [Darbo eigos patvirtinimo veiksmo konfigūravimas](configure-approval-step-workflow.md)
-+ [Neautomatizuoto darbo eigos sprendimo konfigūravimas](configure-manual-decision-workflow.md)
-+ [Sąlyginio darbo eigos sprendimo konfigūravimas](configure-conditional-decision-workflow.md)
-+ [Lygiagrečios darbo eigos veiklos konfigūravimas](configure-parallel-activity-workflow.md)
-+ [Lygiagrečios darbo eigos šakos konfigūravimas](configure-parallel-branch-workflow.md)
-+ [Eilutės elemento darbo eigos konfigūravimas](configure-line-item-workflow.md)
++ [Neautomatizuotų darbo eigos užduočių konfigūravimas](configure-manual-task-workflow.md)
++ [Automatizuotų darbo eigos užduočių konfigūravimas](configure-automated-task-workflow.md)
++ [Darbo eigos patvirtinimo procesų konfigūravimas](configure-approval-process-workflow.md)
++ [Darbo eigos patvirtinimo veiksmų konfigūravimas](configure-approval-step-workflow.md)
++ [Neautomatinių darbo eigos sprendimų konfigūravimas](configure-manual-decision-workflow.md)
++ [Sąlyginių darbo eigos sprendimų konfigūravimas](configure-conditional-decision-workflow.md)
++ [Lygiagrečių darbo eigos veiklų konfigūravimas](configure-parallel-activity-workflow.md)
++ [Lygiagrečių darbo eigos šakų konfigūravimas](configure-parallel-branch-workflow.md)
++ [Eilutės elemento darbo eigų konfigūravimas](configure-line-item-workflow.md)
 + [DUK apie darbo eigas](workflow-FAQ.md)

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6bd76fc771c370d8d769a97d3b33003f632717f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d0bf2f843401811d601b5fe90709bf995f550870
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174195"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771522"
 ---
 # <a name="cost-management-power-bi-content"></a>„Power BI“ turinys Išlaidų valdymas
 
@@ -37,7 +37,7 @@ ms.locfileid: "2174195"
 > [!NOTE]
 > „Power BI“ turinys **Išlaidų valdymas**, aprašytas šioje temoje, taikomas „Dynamics 365 Finance and Operations“ 8.0.
 > 
-> „Power BI“ turinio paketas **Išlaidų valdymas** prieinamas svetainėje „AppSource“, yra netinkamas. Daugiau informacijos apie nebenaudojimo priežastis žr. temoje [„Power BI“ turinio paketai, prieinami „AppSource“](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> „Power BI“ turinio paketas **Išlaidų valdymas** prieinamas svetainėje „AppSource“, yra netinkamas. Daugiau informacijos apie nebenaudojimą rasite [Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
 Šiame „Power BI“ turinyje pateikiamas kategorizuotas formatas, padedantis stebėti atsargų našumą ir vizualizuoti, kaip vyksta atsargų našumo savikaina. Galite gauti valdymo įžvalgų, pvz., apie apyvartos koeficientą, dienų skaičių, kai atsargų yra turima, tikslumą bei „ABC klasifikaciją“ jūsų pageidaujamu agreguotu lygiu (įmonė, prekė, prekių grupė ar svetainė). Pasiekiamą informaciją taip pat galima naudoti kaip išsamų finansinės ataskaitos papildinį.
 
@@ -172,7 +172,7 @@ Toliau pateiktose lentelėse pateikiama „Power BI“ turinio **Išlaidų valdy
 
 ## <a name="understanding-the-data-model-and-entities"></a>Duomenų modelio ir objektų supratimas
 
-Programos duomenys naudojami ataskaitos puslapiams „Power BI“ turinyje **Išlaidų valdymas** užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. temoje [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
+Programos duomenys naudojami ataskaitos puslapiams „Power BI“ turinyje **Išlaidų valdymas** užpildyti. Šie duomenys pateikiami sujungtais matavimo vienetais, paskirstytais objekto parduotuvėje, kuri yra „Microsoft SQL Server“ duomenų bazė, optimizuota analizei atlikti. Daugiau informacijos žr. [„Power BI“ integravimo su objekto parduotuve apžvalga](power-bi-integration-entity-store.md).
 
 Toliau pateiktų objektų agreguoti matavimo vienetai yra naudojami kaip „Power BI“ turinio pagrindas.
 

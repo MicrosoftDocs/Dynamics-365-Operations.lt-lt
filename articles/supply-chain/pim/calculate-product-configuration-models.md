@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: fd57b702220374ef5ac48e1af7c42827a21e7517
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547106"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813598"
 ---
 # <a name="calculations-for-product-configuration-models-faq"></a>Produktų konfigūracijos modelių skaičiavimų DUK
 
@@ -37,7 +37,7 @@ Skaičiavimus galima naudoti aritmetinėse ir loginėse operacijose. Jie papildo
 ## <a name="what-is-a-calculation"></a>Kas yra skaičiavimas?
 Skaičiavimas – tai elementas, kurį galite naudoti produkto konfigūravimo modelyje. Skaičiavimai papildo apribojimus suteikdami galimybę apskaičiuoti reikšmes dešimtainiais skaičiais, kai konfigūruojate produktą. Be to, skaičiavimai turi didesnį operatorių rinkinį nei apribojimai.  
 
-Kaip ir apribojimas, skaičiavimas yra susietas su konkrečiu komponentu produkto konfigūracijos modelyje, jo negalima naudoti pakartotinai arba bendrai su kitu komponentu. Vienas svarbus skirtumas tarp skaičiavimų ir apribojimų – skaičiavimai yra būtini (vienos krypties), o apribojimai yra deklaratyvūs (dviejų krypčių). Daugiau informacijos apie apribojimus žr. dalyje [Išraiškos apribojimai ir lentelių apribojimai](expression-constraints-table-constraints-product-configuration-models.md).  
+Kaip ir apribojimas, skaičiavimas yra susietas su konkrečiu komponentu produkto konfigūracijos modelyje, jo negalima naudoti pakartotinai arba bendrai su kitu komponentu. Vienas svarbus skirtumas tarp skaičiavimų ir apribojimų – skaičiavimai yra būtini (vienos krypties), o apribojimai yra deklaratyvūs (dviejų krypčių). Daugiau informacijos apie apribojimus rasite [Išraiškos apribojimai ir lentelių apribojimai produkto konfigūracijos modeliuose](expression-constraints-table-constraints-product-configuration-models.md).  
 
 Skaičiavimą sudaro tikslinis atributas ir skaičiavimo išraiška.
 
@@ -88,7 +88,7 @@ Nr. Naudojamos reikšmės, kurias nustatote konfigūruodami produktą. Skaičiav
 Jei pašalinate įvesties reikšmę skaičiavime, pašalinama ir tikslinio atributo reikšmė.
 
 ## <a name="why-do-i-receive-an-error-message-that-says-that-my-model-is-in-contradiction"></a>Kodėl gaunu pranešimą apie klaidą, kuriame teigiama, kad modelis neatitinka?
-Šis pranešimas rodomas, kai skaičiavime yra klaida arba viename ar keliuose apribojimuose yra prieštaravimas. Daugiau informacijos apie prieštaravimus apribojimuose žr. dalyje [Išraiškos apribojimai ir lentelių apribojimai](expression-constraints-table-constraints-product-configuration-models.md). Toliau pateikiami atvejai, kurias skaičiuojant gali įvykti klaidų.
+Šis pranešimas rodomas, kai skaičiavime yra klaida arba viename ar keliuose apribojimuose yra prieštaravimas. Daugiau informacijos apie prieštaravimus apribojimuose rasite [Išraiškos apribojimai ir lentelių apribojimai produkto konfigūracijos modeliuose](expression-constraints-table-constraints-product-configuration-models.md). Toliau pateikiami atvejai, kurias skaičiuojant gali įvykti klaidų.
 
 -   Reikšmė dalijama iš 0 (nulio).
 -   Yra konfliktas tarp dviejų toliau pateiktų elementų.

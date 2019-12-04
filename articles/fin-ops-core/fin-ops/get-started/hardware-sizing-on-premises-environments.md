@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 6e83a2607f4840139143fb473ef7d6daf4b8b7ad
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180673"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812562"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
 [!include [banner](../includes/banner.md)]
 
-Prieš pradėdami vietinės aplinkos aparatūros ir infrastruktūros dydžio nustatymo procesą, susipažinkite su temomis [Sistemos reikalavimai](system-requirements.md) ir [Sąrankos ir diegimo instrukcijos](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), kad gerai suprastumėte pagrindinę infrastruktūrą.
+Prieš pradėdami aparatūros ir infrastruktūros dydžio vietinėje aplinkoje nustatymo procesą, susipažinkite su [Sistemos reikalavimai debesies visuotiniam diegimui](system-requirements.md) ir [Sąrankos ir visuotinio diegimo instrukcijos](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md), kad gerai suprastumėte pagrindinę infrastruktūrą.
 
 > [!NOTE]
 > Atidžiai perskaitykite dalį apie geriausią sistemos sąrankos praktiką, kad užtikrintumėte optimalų našumą.

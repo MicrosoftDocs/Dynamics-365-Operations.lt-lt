@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 38b694b6dd4b1b9a198452e409bd64d7934b4685
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6be2f79d4f0c234028c0cc98b81cfa8ff4fcc992
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518684"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813988"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>Klausimynų rezultatų peržiūra ir įvertinimas
 
@@ -57,7 +57,8 @@ Respondentams užpildžius klausimyną, galite peržiūrėti užpildytų atsakym
 -   **Atsakymų ataskaita** – šioje ataskaitoje rodomi atsakymai, kuriuos respondentas pasirinko kiekviename klausimyno klausime.
 -   **Neteisingi atsakymai** – šioje ataskaitoje rodoma informacija, susijusi su respondento pasirinktais neteisingais atsakymais.
 
-**Pastaba.** **Rezultatų** ataskaita galima tik tada, jei naudojate klausimyno rezultatų grupes ir jei **Klausimynų** puslapyje pasirinkote **Rezultatų puslapis**. **Atsakymų** ataskaita ir **Neteisingų atsakymų** ataskaita galimos tik tada, jei **Klausimynų** puslapyje pasirinkote **Atsakymų ataskaita**.
+> [!NOTE]
+> Ataskaita **Rezultatai** pasiekiama, tik jei naudojate klausimyno rezultatų grupę ir jei pasirinkote **Rezultatų puslapis** puslapyje **Klausimynai**. **Atsakymų** ataskaita ir **Neteisingų atsakymų** ataskaita galimos tik tada, jei **Klausimynų** puslapyje pasirinkote **Atsakymų ataskaita**.
 
 ## <a name="questionnaire-statistics"></a>Klausimyno statistika
 Naudodami klausimyno statistiką pagal apsibrėžtus skaičiavimus galite analizuoti užpildyto klausimyno rezultatus. Norėdami apibrėžti skaičiavimus, turi atlikti tolesnes užduotis.
@@ -75,9 +76,9 @@ Jūsų nustatytos nuostatos įrašomos ir gali būti naudojamos periodiškai per
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Klausimynų kūrimas](design-questionnaires.md)
+[Klausimynų sudarymas](design-questionnaires.md)
 
-[Klausimynų naudojimas](questionnaires.md)
+[Klausimynai](questionnaires.md)
 
-[Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
+[Klausimynų platinimas ir planavimas](distribute-questionnaires.md)
 

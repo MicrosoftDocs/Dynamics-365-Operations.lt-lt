@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 511108e689c10e27a42253d95b02e5394f9eb713
-ms.sourcegitcommit: fb66731f05207094149a6bc7b8549a4dabbb071a
+ms.openlocfilehash: 476b01a4bae34a271203f34481ff18042783d4df
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2652361"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811268"
 ---
 # <a name="item-where-used"></a>Kur naudota prekė
 
@@ -35,13 +35,13 @@ Galite atlikti tam tikros prekės apskaičiavimą, kad sužinotumėte, kur prek�
 
 - [Turto KS](../objects/object-BOM.md)
 
-- [Turto tipo numatytųjų reikšmių atsarginės dalys](../setup-for-objects/object-types.md)
+- [Turto tipo numatytųjų reikšmių atsarginės dalys](../setup-for-objects/object-types.md#spare-parts-on-the-asset-type-setup)
 
-- [Priežiūros užduočių tipų numatytųjų reikšmių prognozės prekės prognozė](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
+- [Priežiūros užduoties tipo kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipo variantai, priežiūros užduočių prekyba ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md)
 
-- [Darbo užsakymo priežiūros prognozė](../work-orders/maintenance-forecasts.md)
+- [Priežiūros prognozė](../work-orders/maintenance-forecasts.md)
 
-- [Darbo užsakymo pirkimo paraiška](../work-orders/procurement.md)
+- [Įsigijimas](../work-orders/procurement.md)
 
 - [Darbo užsakymo pirkimas](../work-orders/procurement.md)
 

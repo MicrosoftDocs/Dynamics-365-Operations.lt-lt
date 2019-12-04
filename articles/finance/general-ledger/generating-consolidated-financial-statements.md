@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 55c5d02ca4e487782f020aa5eb85e6ebb36d4ce8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178987"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770694"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Konsoliduotų finansinių ataskaitų generavimas
 
@@ -41,19 +41,19 @@ Paprasčiausias konsolidavimo naudojant finansines ataskaitas būdas yra naudoti
 
 Tolesnėje iliustracijoje parodyta, kaip galima naudoti ataskaitų medžio aprašą finansinėse ataskaitose norint nustatyti kiekvieną įmonę, kurią konsoliduosite.
 
-![Ataskaitų medžio aprašas](./media/reporting-tree-definition.png "Ataskaitų medžio aprašas")
+![Ataskaitų medžio apibrėžimas](./media/reporting-tree-definition.png "Ataskaitų medžio apibrėžimas")
 
 Kaip parodyta toliau pateiktos iliustracijos konsoliduotoje ataskaitoje, kai naudojate ataskaitų medį kartu su ataskaitos aprašu, galite peržiūrėti kiekvieną įmonę atskirai. Konsoliduotos sumos rodomos suvestinės lygiu.
 
-![Konsoliduota suma suvestinės lygiu](./media/consolidate-amount-summary-level.png "Konsoliduota suma suvestinės lygiu")
+![Konsoliduotos sumos suvestinės lygis](./media/consolidate-amount-summary-level.png "Konsoliduotos sumos suvestinės lygis")
 
 Taip pat galite kurti kelių lygių ataskaitų medį, kuris tiek lygių, kiek jums reikia. Toliau pateiktoje iliustracijoje rodomas kelių lygių ataskaitų medžio aprašas, kuriame sumavimas atliekamas pagal viso pasaulio regioną.
 
-![Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal regioną](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal regioną")
+![Kelių lygmenų ataskaitų medžio apibrėžimas su kaupimais pagal regioną](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Kelių lygmenų ataskaitų medžio apibrėžimas su kaupimais pagal regioną")
 
 Toliau pateiktoje iliustracijoje rodomas kelių lygių ataskaitų medžio aprašas, kuriame sumavimas atliekamas pagal viso funkciją.
 
-![Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal funkciją](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Kelių lygių medžio aprašas, kurio sumavimas atliekamas pagal funkciją")
+![Kelių lygmenų ataskaitų medžio apibrėžimas su kaupimais pagal funkciją](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Kelių lygmenų ataskaitų medžio apibrėžimas su kaupimais pagal funkciją")
 
 ### <a name="viewing-companies-side-by-side"></a>Vienos šalia kitos įmonių peržiūra
 Daugelis klientų renkasi ataskaitas, kuriose įmonės pateikiamos viena šalia kitos, o stulpelyje rodoma konsoliduota bendra suma. Šis formatą lengva sukurti po to, kai sukuriate ataskaitų medį. Toliau nurodyti aukšto lygio veiksmai, skirti peržiūrėti įmones vieną šalia kitos konsoliduotose finansinėse ataskaitose.
@@ -64,19 +64,19 @@ Daugelis klientų renkasi ataskaitas, kuriose įmonės pateikiamos viena šalia 
 
 Toliau nurodytoje iliustracijoje rodomas stulpelio aprašas viena šalia kitos pateikiamų įmonių formatu.
 
-![Stulpelio aprašas viena šalia kitos pateikiamų įmonių formatu](./media/column-definition-side-by-side-format.png "Stulpelio aprašas viena šalia kitos pateikiamų įmonių formatu")
+![Stulpelio apibrėžimas gretimu formatu](./media/column-definition-side-by-side-format.png "Stulpelio apibrėžimas gretimu formatu")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Konsolidavimas naudojant organizacijų struktūras, kurios sukurtos iš juridinių subjektų
 Organizacijų hierarchijos, kuriose yra dimensijų arba juridinių subjektų, dinamiškai kuria ataskaitų medžio aprašus finansinėse ataskaitose. Lengvas būdas supaprastinti konsolidacijas yra įtraukti organizacijos hierarchiją į ataskaitą finansinėse ataskaitose. Priklausomai nuo ataskaitos datos, finansinės ataskaitos pasirinks organizacijos hierarchiją įsigaliojimo dieną arba anksčiau, kaip parodyta tolesnėje iliustracijoje.
 
-![Dinamiškas ataskaitų medžio aprašo kūrimas](./media/dynamically-create-reporting-tree-definitions.png "Dinamiškas ataskaitų medžio aprašo kūrimas")
+![Ataskaitų medžio apibrėžimo dinaminis kūrimas](./media/dynamically-create-reporting-tree-definitions.png "Ataskaitų medžio apibrėžimo dinaminis kūrimas")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Konsolidavimas, apimantis pašalinimus
 Pašalinimo operacijos yra įprasta konsolidavimo proceso dalis. Šiame pavyzdyje penkios sąskaitos pašalinamos konsolidavimo metu: 142600, 211400, 401420, 401180 ir 510820. Įmonės gali nustatyti savo vidinių įmonių sąskaitas skirtingai. Pavyzdžiui, kai kurios įmonės paskutinį skaitmenį nustato kaip 9, jei sąskaita yra naudojama vidinės įmonės operacijose. Nepriklausomai nuo naudojamo metodo, jei žinote vidinių įmonių sąskaitas, galite rodyti pašalinimus savo konsoliduotose finansinėse ataskaitose.
 
 Toliau pateiktoje iliustracijoje rodomas konsoliduotos pelno ataskaitos stulpelio aprašas. Trys vidinių įmonių pelno ir nuostolių sąskaitos nurodytos ir priskirtos kiekvienai įmonei naudojant dimensijos filtrą. Stulpelis D apima pašalinimo sąskaitas, priklausančias tik USMF įmonei, o stulpelis E apima pašalinimus, priklausančius tik DEMF įmonei. Stulpelis D ir stulpelis E yra nustatyti taip, kad jie **nebūtų** spausdinami finansinėje ataskaitoje.
 
-![Konsoliduotos pajamų ataskaitos stulpelio aprašas](./media/column-definition-consolidated-income-statement.png "Konsoliduotos pajamų ataskaitos stulpelio aprašas")
+![Stulpelio apibrėžimo konsoliduota pajamų deklaracija](./media/column-definition-consolidated-income-statement.png "Stulpelio apibrėžimo konsoliduota pajamų deklaracija")
 
 Kai sugeneruojama ataskaita, pašalinimo sumos apskaičiuojamos stulpeliuose F, G bei H susumuojamos stulpelyje I. Stulpelis J rodo konsoliduotas sumas. Šios konsolidavimo sumos neapima įmonių USMF, USRT ir DEMF pašalinimų.
 
@@ -85,7 +85,7 @@ Kai sugeneruojama ataskaita, pašalinimo sumos apskaičiuojamos stulpeliuose F, 
 
 Toliau pateiktoje iliustracijoje rodoma konsoliduota ataskaita.
 
-![Konsoliduotos ataskaitos pajamų išrašas](./media/consolidated-report-income-statement.png "Konsoliduotos ataskaitos pajamų išrašas")
+![Konsoliduotos ataskaitos pajamų deklaracija](./media/consolidated-report-income-statement.png "Konsoliduotos ataskaitos pajamų deklaracija")
 
 Nesvarbu, ar naudojate sąskaitas, ar dimensijas, ar sąskaitas ir dimensijas, finansinės ataskaitos suteikia galimybę filtruoti pašalinimo įrašus naudojant dimensijos filtravimo galimybes.
 
@@ -98,13 +98,13 @@ Ataskaitų medžio apraše įveskite nuosavybės procentus stulpelyje **Sumavimo
 > [!NOTE]
 > Galite taikyti šį nuosavybės procentą bet kuriam ataskaitų vienetui (ne tik įmonės lygiu). 
 
-![Ataskaitų medžio aprašo procentinės dalies naudojimas](./media/Using-reporting-tree-definition-percentage.png "Ataskaitų medžio aprašo procentinės dalies naudojimas")
+![Ataskaitų medžio apibrėžimo procentų naudojimas](./media/Using-reporting-tree-definition-percentage.png "Ataskaitų medžio apibrėžimo procentų naudojimas")
 
 Generuojant ataskaitą įmonės „Contoso Germany“ ataskaitoje bus rodoma 100 procentų pardavimo sumos ir 80 procentų sumos bus paskirstyta bei susumuota pardavimo konsolidavimo lygiu.
 
 Jei jums priklauso mažiau nei 1 procentas įmonės, puslapio **Ataskaitos parametrai** skirtuke **Papildomos parinktys** galite pasirinkti žymės langelį **Leisti sumuoti mažiau nei 1 %**, kaip pavaizduota tolesnėje iliustracijoje. Šiuo atveju reikšmės, pateiktos ataskaitos medžio stulpelyje **Sumavimo %**, bus apdorojamos kaip mažesnės nei 1 procento dalys. Pavyzdžiui, jei įvedate **.8**, 0,8 procentinė dalis bus sumuojama konsolidavimo lygiu (o ne 80 procentų). Tą patį rezultatą galite pasiekti išvalydami žymės langelį **Leisti sumuoti mažiau nei 1 %** ir stulpelyje **Sumavimo %** įvesdami **.008**.
 
-![Ataskaitų parametrų parinktys](./media/reporting-setting-options.png "Ataskaitų parametrų parinktys")
+![Ataskaitos nustatymo parinktys](./media/reporting-setting-options.png "Ataskaitos nustatymo parinktys")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Nuosavybės rodymas atskiroje konsoliduotos ataskaitos eilutėje
 Kita segmento palūkanų rodymo galimybė yra rodyti 100 procentų filialo kiekvienoje ataskaitos eilutėje, tačiau atimti nevaldomas palūkanas iš grynųjų pajamų.
@@ -125,11 +125,11 @@ Dažnai skirtingi juridiniai subjektai naudoja skirtingus sąskaitų planus, bet
 > [!TIP]
 > Daugiau informacijos apie langelį **Saitas į finansines dimensijas** žr. temoje Langelio Finansinių dimensijų saitas nurodymas.
 
-![Pirmo sąskaitų saito į finansines dimensijas nustatymas](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Pirmo sąskaitų saito į finansines dimensijas nustatymas")
+![Sąskaitų pirmo saito į finansinius matmenis nustatymas](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Sąskaitų pirmo saito į finansinius matmenis nustatymas")
 
 Galite naudoti ataskaitų medį norėdami nustatyti, kuris eilutės aprašo saitas į finansines dimensijas naudojamas kiekvienoje įmonėje. Pasirinkite eilutės aprašą stulpelyje E, tada pasirinkite atitinkamą eilutės saitą stulpelyje F, kaip parodyta tolesnėje iliustracijoje.
 
-![Naudojamo finansinių dimensijų eilutės aprašo susiejimas](./media/link-financial-dimensions-row-definition-used.png "Naudojamo finansinių dimensijų eilutės aprašo susiejimas")
+![Naudotas saito finansinių duomenų eilutės apibrėžimas](./media/link-financial-dimensions-row-definition-used.png "Naudotas saito finansinių duomenų eilutės apibrėžimas")
 
 > [!TIP]
 > Kai sukuriate saitus į finansines dimensijas, naudokite aprašymą, kad nustatytumėte įmones, kurioms taikomas kiekvienas saitas. Tokiu būdu galite lengviau pasirinkti teisingą įmonę, kai kuriate ataskaitų medį. Stulpelio aprašo lauke **Ataskaitų vienetas** galite apriboti kiekvieną stulpelį iki ataskaitų medžio vieneto, kad galėtumėte peržiūrėti vienus šalia kitų pateikiamus duomenis. Jei nenurodysite konkrečios stulpelio įmonės, bus rodomi visų įmonių konsoliduoti duomenys.
@@ -149,16 +149,16 @@ Kai kuriate stulpelio aprašą, skirtą kelioms įmonėms, kuriose skaičiuojami
 
 Šioje iliustracijoje įmonė USMF nurodyta ataskaitos aprašo lauke **Įmonės pavadinimas**. Todėl įmonės USMF finansinis kalendorius bus naudojamas kaip pagrindinis finansinis kalendorius. Šiame pavyzdyje, kai ataskaita sugeneruojama 2018 m. birželio 30 d., įmonė USMF naudos PAGRINDINĮ laikotarpį, kuris ataskaitos apraše apibrėžiamas kaip 12 laikotarpis. Įmonė INMF naudos 6 PAGRINDINĮ laikotarpį, kuris yra 6 laikotarpis. Abiejuose stulpeliuose bus įtraukti 2018 m. birželio duomenys.
 
-![Pagrindinis ataskaitos laikotarpis](./media/report-base-period.png "Pagrindinis ataskaitos laikotarpis")
+![Ataskaitos pagrindinis periodas](./media/report-base-period.png "Ataskaitos pagrindinis periodas")
 
 Tolesnėje iliustracijoje rodomos ataskaitos aprašo parinktys, kurias naudodami galite pasirinkti, ar konsoliduojant naudojamas laikotarpio numeris, ar laikotarpio pabaigos data.
 
-![Parinkčių ataskaitos aprašo laikotarpio numeris](./media/options-report-definition-period-number.png "Parinkčių ataskaitos aprašo laikotarpio numeris")
+![Parinkčių ataskaitos apibrėžimo periodo numeris](./media/options-report-definition-period-number.png "Parinkčių ataskaitos apibrėžimo periodo numeris")
 
 ## <a name="business-unit-consolidations"></a>Verslo struktūros vienetų konsolidavimas
 Šioje temoje pateikiama informacija apie ataskaitų medžio aprašų ir organizacijos hierarchijų naudojimą finansinėse ataskaitose konsolidavimo tikslais. Taip pat galite naudoti ataskaitų medį norėdami kurti verslo vienetų konsolidavimo ataskaitas, pvz., ataskaitas apie pardavimą arba operacijas visame pasaulyje. Šios ataskaitos yra bendras reikalavimas. Norėdami jas kurti, pasirinkite kiekvieno vieneto, kurį norite konsoliduoti, įmonę ir dimensiją. Pvz., tolesnėje iliustracijoje verslo struktūros vieneto sumavimas atliekamas nurodant kiekvieną įmonę stulpelyje **Įmonė** (stulpelyje A) ir nustatant įmonės padalinio dimensijų reikšmių grupę stulpelyje **Dimensijos** (stulpelyje D).
 
-![Verslo struktūros vieneto konsolidavimo ataskaitos](./media/business-unit-consolidation-reports.png "Verslo struktūros vieneto konsolidavimo ataskaitos")
+![Verslo vieneto konsolidavimo ataskaitos](./media/business-unit-consolidation-reports.png "Verslo vieneto konsolidavimo ataskaitos")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Konsolidavimas, apimantis kelias ataskaitų valiutas
 Finansinės ataskaitos suteikia galimybę padidinti lankstumą, kai peržiūrite faktinius, biudžeto, biudžeto kontrolės ir biudžeto planavimo duomenis keliomis valiutomis. Sujungus pagrindinius sąrankos duomenis, jums nereikia atlikti jokių papildomų sąrankos veiksmų finansinėse ataskaitose, kad peržiūrėtumėte visas ataskaitas – bet kuria valiuta, bet kuriuo metu ir bet kurio vartotojo.
@@ -171,7 +171,7 @@ Pagrindinės sąskaitos „FastTab“ **Finansinės ataskaitos** reikia nustatyt
 - Lauke **Finansinių ataskaitų valiutos kurso tipas** pasirinkite valiutos kurso tipą, kuris nurodo valiutas ir valiutų kursus, taikytinus sąskaitai. Tolesnė valiutų ir valiutų kursų lentelė bus taikoma faktiniams finansinių ataskaitų duomenims.
 - Lauke **Valiutos konvertavimo tipas** pasirinkite sąskaitos valiutos kurso apskaičiavimo metodą. Šis valiutos kurso apskaičiavimo metodas naudojamas faktiniams ir biudžeto duomenims finansinėse ataskaitose skaičiuoti.
 
-![Finansinių ataskaitų pagrindinė sąskaita](./media/Financial-reporting-main-accounts.png "Finansinių ataskaitų pagrindinė sąskaita")
+![Finansinės ataskaitos pagrindinės sąskaitos](./media/Financial-reporting-main-accounts.png "Finansinės ataskaitos pagrindinės sąskaitos")
 
 Biudžeto, biudžeto kontrolės ir biudžeto planavimo duomenų valiutos kurso tipas nurodomas puslapyje **Didžioji knyga**. Ta lentelė bus naudojama valiutų kursams nustatyti ir bus naudojamas sąskaitai priskirtas valiutos konvertavimo tipas.
 
@@ -202,15 +202,15 @@ Valiutos konvertavimo koregavimas (VKK) yra skirtumas tarp kursų, naudojamų sk
 
 - Naudokite eilutės aprašo puslapį **Apvalinimo koregavimai**, kaip pavaizduota tolesnėje iliustracijoje.
 
-    ![Valiutos konvertavimo koregavimo apvalinimo koregavimai](./media/Currency-translation-adjustment-rounding-adjustments.png "Valiutos konvertavimo koregavimo apvalinimo koregavimai")
+    ![Valiutų konvertavimo apvalinimo koregavimas](./media/Currency-translation-adjustment-rounding-adjustments.png "Valiutų konvertavimo apvalinimo koregavimas")
 
     Kai nurodote eilutę, kurioje turėtų būti rodomas apvalinimo koregavimas (VKK), viso turto eilutę, visų įsipareigojimų bei kapitalo eilutę ir jums tinkančią ribinę reikšmę, finansinės ataskaitos apskaičiuos skirtumą ir nurodys jį pageidaujamoje eilutėje. Eilutė pavadinimu **Apvalinimo koregavimas** bus sukurta ir rodoma detalizavimo skiltyje, kaip pavaizduota tolesnėje iliustracijoje.
 
-    ![Apvalinimo koregavimo detalizavimo skiltis](./media/rounding-adjustment-drill-down.png "Apvalinimo koregavimo detalizavimo skiltis")
+    ![Apvalinimo koregavimo detalizavimas](./media/rounding-adjustment-drill-down.png "Apvalinimo koregavimo detalizavimas")
 
 - Pateikite visas sąskaitas diapazone iš turto į išlaidas. Kaip parodyta tolesnėje iliustracijoje, skirtumas bus tokia pati suma kaip apvalinimo koregavimas (VKK). Todėl galite ją naudoti kaip patikrintą bendrą sumą, norėdami įsitikinti, kad apvalinimo koregavimo puslapyje nepateikiami jokie trūkstami sąskaitos balansai.
 
-    ![Apvalinimo koregavimo formos žymės langelis](./media/rounding-adjustment-form-check.png "Apvalinimo koregavimo formos žymės langelis")
+    ![Apvalinimo koregavimo formos patikrinimas](./media/rounding-adjustment-form-check.png "Apvalinimo koregavimo formos patikrinimas")
 
 ### <a name="balance-calculation-approach"></a>Balanso skaičiavimo metodas
 Finansinės ataskaitos naudoja toliau nurodytus balansų skaičiavimo metodus, kad sumos būtų tinkamai konvertuotos, kai naudojamos valiutos.
@@ -221,6 +221,6 @@ Finansinės ataskaitos naudoja toliau nurodytus balansų skaičiavimo metodus, k
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-Daugiau informacijos apie konsolidavimą ir valiutos konvertavimą žr. pirminę šios potemės temą: [Finansinis konsolidavimas ir valiutos konvertavimas](./financial-consolidations-currency-translation.md).
+Daugiau informacijos apie konsolidavimą ir valiutų konvertavimą žr. pagrindinėje šios temos temoje [Finansinio konsolidavimo ir valiutų konvertavimo apžvalga](./financial-consolidations-currency-translation.md).
 
-Daugiau informacijos apie tai, kaip įvesti konsolidavimo tinkle informaciją, žr. [Konsolidavimas tinkle](./consolidate-online.md).
+Daugiau informacijos apie tai, kaip įvesti konsolidavimo informaciją internete, žr. [Internetinis finansinis konsolidavimas](./consolidate-online.md).

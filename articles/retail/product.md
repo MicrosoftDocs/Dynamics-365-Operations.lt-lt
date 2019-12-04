@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c78fc1f2f1bb08d01828a8b71ad5d3c16ad31b86
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: 98c84e987c40adf136d0240117f7b0f119bf2f59
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278390"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811122"
 ---
 # <a name="product-recommendations-on-pos"></a>Produktų rekomendacijos EKA
 
@@ -40,13 +40,13 @@ Produktų rekomendacijas galima naudoti taikant toliau nurodytus EKA scenarijus.
 
 1. Puslapyje **Produkto informacija**:
 
-    - • Jeigu parduotuvės atstovas puslapyje **Produkto informacija** apsilanko skirtinguose kanaluose žiūrėdamas į ankstesnes operacijas, rekomendacijų tarnyba siūlo papildomų prekių, kurios gali būti perkamos kartu.
+    - Jeigu parduotuvės atstovas puslapyje **Produkto informacija** apsilanko skirtinguose kanaluose žiūrėdamas į ankstesnes operacijas, rekomendacijų tarnyba siūlo papildomų prekių, kurios gali būti perkamos kartu.
 
     [![Rekomendacijos puslapyje Produkto informacija](./media/proddetails.png)](./media/proddetails.png)
 
 2. Puslapyje **Operacija**:
 
-    - • Rekomendacijų variklis pasiūlo prekes, pagrįstas visu krepšelio prekių, kurios dažnai perkamos kartu, sąrašu.
+    - Rekomendacijų variklis pasiūlo prekes, pagrįstas visu krepšelio prekių, kurios dažnai perkamos kartu, sąrašu.
 
     > [!NOTE]
     > Norėdamas, kad rekomendacijos būtų rodomos puslapyje **Operacija**, pardavėjas turi atnaujinti „Dynamics 365 for Retail“ ekrano išdėstymą. Valdiklis **Rekomendacijos** turi būti perkeltas į puslapį **Operacija**.
@@ -69,10 +69,12 @@ Norėdami nustatyti produktų rekomendacijas, atlikite toliau pateikiamus veiksm
 
 - Eikite į **Mažmeninės prekybos parametrai** \> **Rekomendacijų sąrašai** \> **Išjungti produktų rekomendacijas** ir paleiskite **visuotinės konfigūracijos užduotį \[9999\]**. 
 - Jei, naudodami **ekrano maketo dizaino įrankį**, į savo operacijų ekraną įtraukėte **rekomendacijų valdiklį**, jį taip pat pašalinkite.
-- Jei turite papildomų klausimų, norėdami gauti daugiau informacijos peržiūrėkite [rekomendacijų DUK](../commerce/faq-recommendations.md).
+- Jei turite papildomų klausimų, norėdami gauti daugiau informacijos peržiūrėkite [Produkto rekomendacijų DUK](../commerce/faq-recommendations.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Pridėti rekomendacijų valdiklį prie operacijos puslapio, esančio EKA įrenginyje](add-recommendations-control-pos-screen.md)
+[Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną](add-recommendations-control-pos-screen.md)
+
 [Produktų rekomendacijų apžvalga](../commerce/product-recommendations.md)
-[Įgalinti produkto rekomendacijas](../commerce/enable-product-recommendations.md) 
+
+[Įjungti produktų rekomendacijas](../commerce/enable-product-recommendations.md) 

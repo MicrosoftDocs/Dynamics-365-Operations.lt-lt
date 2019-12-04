@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf4eb74acbd305eb67861ab3f09648bf8af8f86c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: ba01f0d16341eb9b0ec0918798e458626b5ef90e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025058"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811198"
 ---
 # <a name="retail-peripherals"></a>Išoriniai mažmeninės prekybos įrenginiai
 
@@ -35,11 +35,17 @@ ms.locfileid: "2025058"
 
 ### <a name="pos-registers"></a>EKA registrai
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**. EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios charakteristikos apima mažmeninės prekybos išorinių įrenginių, kurie bus naudojami registre, aparatūros šabloną ar nustatymą, su registru susietą parduotuvę ir prie registro prisijungusio vartotojo vaizdinę patirtį.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Registrai**. 
+
+EKA registras yra objektas, kuris naudojamas konkretaus EKA egzemplioriaus charakteristikoms nustatyti. Šios charakteristikos apima mažmeninės prekybos išorinių įrenginių, kurie bus naudojami registre, aparatūros šabloną ar nustatymą, su registru susietą parduotuvę ir prie registro prisijungusio vartotojo vaizdinę patirtį.
 
 ### <a name="devices"></a>Įrenginiai
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**. Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. Įrenginius galima susieti su šių tipų progrmomis: „Retail Modern POS“, „Retail Cloud POS“, „Retail Modern POS“ – „Windows Phone“, „Retail Modern POS“ – „Android“ ir „Retail Modern POS“ – „iOS“.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **Įrenginiai**. 
+
+Įrenginys yra objektas, nurodantis su EKA registru susieto įrenginio fizinį egzempliorių. Sukūrus įrenginį, jis susiejamas su EKA registru. Įrenginio objektas seka informaciją apie POS registro suaktyvinimo laiką, naudojamo kliento tipą ir programų paketą, kuris buvo įdiegtas konkrečiame įrenginyje. 
+
+Įrenginius galima susieti su šių tipų progrmomis: „Retail Modern POS“, „Retail Cloud POS“, „Retail Modern POS“ – „Windows Phone“, „Retail Modern POS“ – „Android“ ir „Retail Modern POS“ – „iOS“.
 
 ### <a name="retail-modern-pos"></a>„Retail Modern POS“
 
@@ -63,11 +69,15 @@ Išoriniai EKA įrenginiai yra tokie įrenginiai, kurie tiesiogiai palaiko EKA f
 
 ### <a name="hardware-station"></a>Aparatūros stotis
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**. Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta mažmeninės prekybos išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įtaisyta „Windows“ skirtoje „Modern POS“ programoje. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju, ją galima pasiekti per tinklą.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalai** &gt; **Mažmeninės prekybos parduotuvės** &gt; **Visos mažmeninės prekybos parduotuvės**. 
+
+Pasirinkite parduotuvę, tada spustelėkite „FastTab“ **Aparatūros stotys**. Nustatymas **Aparatūros stotis** yra kanalo lygio nustatymas, naudojamas apibrėžti egzemplioriams, kuriuose bus įdiegta mažmeninės prekybos išorinių įrenginių logika. Šis nustatymas kanalo lygiu taikomas aparatūros stoties charakteristikoms nustatyti. Jis taip pat naudojamas norint pateikti aparatūros stočių, kurios galimos „Modern POS“ egzemplioriams pasirinktoje parduotuvėje, sąrašą. Aparatūros stotis yra įtaisyta „Windows“ skirtoje „Modern POS“ programoje. Be to, aparatūros stotį galima atskirai įdiegti kaip atskirą „Microsoft“ informacinių interneto paslaugų (IIS) programą. Tokiu atveju, ją galima pasiekti per tinklą.
 
 ### <a name="hardware-profile"></a>Aparatūros šablonas
 
-Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
+Naršymas: spustelėkite **Mažmeninė prekyba** &gt; **Kanalų sąranka** &gt; **EKA sąranka** &gt; **EKA profiliai** &gt; **Aparatūros profiliai**. 
+
+Aparatūros šablonas yra įrenginių, kurie sukonfigūruoti EKA registrui arba aparatūros stočiai, sąrašas. Aparatūros šabloną galima tiesiogiai priskirti EKA registrui arba aparatūros stočiai.
 
 ## <a name="devices-classes"></a>Įrenginių klasės
 Išroriniai EKA įrenginiai paprastai skirstomi į klases. Šiame skyriuje aprašyti įrenginiai, kuriuos palaiko „Modern POS“, ir pateikiama jų apžvalga.
@@ -202,11 +212,11 @@ Logika, pagal kurią valdomi fiziškai prijungti ir tinklui adresuojami išorini
 
 ### <a name="hardware-station-installation"></a>Aparatūros stoties diegimas
 
-Išsamesnės informacijos žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
+Daugiau informacijos žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>„Windows“ skirtos „Modern POS“ nustatymas ir konfigūracija
 
-Informacijos apie konfigūravimą rasite [„Retail Modern POS“ konfigūravimas ir diegimas](retail-modern-pos-device-activation.md).
+Daugiau informacijos žr. [„Retail Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvavimas](retail-modern-pos-device-activation.md).
 
 ### <a name="opos-device-setup-and-configuration"></a>OEKA įrenginio nustatymas ir konfigūracija
 
@@ -523,7 +533,7 @@ Išoriniai tinklo įrenginiai gali būti palaikomi tiesiogiai per aparatūros st
 
 ## <a name="configuration-for-supported-scenarios"></a>Palaikomų scenarijų konfigūracija
 
-Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apibrėžti ir prižiūrėti kanalų klientus, įskaitant registrus ir aparatūros stotis](define-maintain-channel-clients-registers-hw-stations.md).
+Daugiau informacijos apie tai, kaip kurti aparatūros profilius, žr. [Išorinių įrenginių prijungimas prie elektroninio kasos aparato (EKA)](define-maintain-channel-clients-registers-hw-stations.md).
 
 > [!NOTE]
 > „Retail“ 1611 versijoje aparatūros stoties profilis nebenaudojamas. Atributai, kuriuos anksčiau nustatėte aparatūros stoties šablone, dabar yra pačios aparatūros stoties dalis.
@@ -566,8 +576,8 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 4. Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 5. Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 6. Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
-7. Įdiekite aparatūros stotį. Išsamesnės informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
-8. Įdiekite ir suaktyvinkite „Modern POS“. Išsamesnės informacijos apie tai, kaip įdiegti „Modern POS“, žr. [„Retail Modern POS“ konfigūracija ir diegimas](retail-modern-pos-device-activation.md).
+7. Įdiekite aparatūros stotį. Daugiau informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
+8. Įdiekite ir suaktyvinkite „Modern POS“. Daugiau informacijos apie tai, kaip įdiegti „Modern POS“, žr. [„Retail Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvavimas](retail-modern-pos-device-activation.md).
 9. Prisijunkite prie „Modern POS“ ir pasirinkite **Atlikti su stalčiumi nesusijusią operaciją**.
 10. Pradėkite operaciją **Tvarkyti aparatūros stotis**.
 11. Spustelėkite **Tvarkyti**.
@@ -595,8 +605,8 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 5. Spustelėkite **Mažmeninė prekyba** &gt; **Mažmeninės prekybos IT** &gt; **Paskirstymo grafikas**.
 6. Pasirinkite paskirstymo grafiką **1090** norėdami sinchronizuoti naują parduotuvės aparatūros šabloną. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
 7. Pasirinkite paskirstymo grafiką **1040** norėdami sinchronizuoti naują parduotuvės aparatūros stotį. Spustelėję **Vykdyti dabar** sinchronizuokite EKA pakeitimus.
-8. Aparatūros stotį įdiekite kiekviename pagrindiniame kompiuteryje, kuriuos nustatėte atlikdami 2 ir 3 veiksmus. Išsamesnės informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
-9. Įdiekite ir suaktyvinkite „Modern POS“. Išsamesnės informacijos apie tai, kaip įdiegti „Modern POS“, žr. [„Retail Modern POS“ konfigūracija ir diegimas](retail-modern-pos-device-activation.md).
+8. Aparatūros stotį įdiekite kiekviename pagrindiniame kompiuteryje, kuriuos nustatėte atlikdami 2 ir 3 veiksmus. Daugiau informacijos apie tai, kaip įdiegti aparatūros stotį, žr. [Mažmeninės prekybos aparatūros stoties konfigūracija ir diegimas](retail-hardware-station-configuration-installation.md).
+9. Įdiekite ir suaktyvinkite „Modern POS“. Daugiau informacijos apie tai, kaip įdiegti „Modern POS“, žr. [„Retail Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvavimas](retail-modern-pos-device-activation.md).
 10. Prisijunkite prie „Modern POS“ ir pasirinkite **Atlikti su stalčiumi nesusijusią operaciją**.
 11. Pradėkite operaciją **Tvarkyti aparatūros stotis**.
 12. Spustelėkite **Tvarkyti**.
@@ -655,7 +665,7 @@ Pagal dabartinius saugos standartus gamybos aplinkoje turi būti naudojami šie 
 
 ## <a name="peripheral-simulator"></a>Periferinis simuliatorius
 
-Išsamesnės informacijos žr. [Mažmeninės prekybos periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md).
+Daugiau informacijos žr. [„Retail“ periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsoft-tested-peripheral-devices"></a>„Microsoft“ išbandyti išoriniai įrenginiai
 
@@ -896,4 +906,4 @@ Toliau nurodyti išoriniai įrenginiai buvo išbandyti naudojant bendrinamą IIS
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Retail” periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)
+[„Retail“ periferinis simuliatorius](dev-itpro/retail-peripheral-simulator.md)

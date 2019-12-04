@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 010d68b79300d15292dbcd4754eed8aac115cdce
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551454"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812838"
 ---
 # <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Turinio bendrinimas su kitais bendraautoriais „Dynamics 365 Talent - Onboard”
 
@@ -53,7 +53,7 @@ ms.locfileid: "2551454"
 
 3. Jei gavėjai turi leidimą tikslinti šabloną, dalyje **Gavėjas** parinktį **Ar šie žmonės gali redaguoti?** nustatykite į **Įjungta**. Jei gavėjai turėtų būti informuojami el. laišku, kad jiems bendrinote šabloną, nustatykite parinktį **Siųsti el. pašto pranešimą gavėjams** į **Įjungta**.
 
-    [!Šablono prieigos ir el. pašto nuostatų nustatymas](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
+    [![Šablono prieigos ir el. pašto nuostatų nustatymas](./media/onboard-share-template-access-and-email.png)](./media/onboard-share-template-access-and-email.png)
 
 4. Įveskite vardą arba el. pašto adresą ir išplečiamajame sąraše pasirinkite norimą gavėją.
 5. Skirtuke **Valdyti prieigą** galite peržiūrėti arba pakeisti, ką gavėjai gali atlikti su šablonu. Norėdami pakeisti gavėjo prieigą, išplečiamajame sąraše šalia gavėjo vardo pasirinkite **Galima peržiūrėti**, **Galima redaguoti** arba **Pašalinti**.
@@ -68,6 +68,6 @@ ms.locfileid: "2551454"
 ### <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Išbandykite arba įsigykite „Onboard” programėlę](https://dynamics.microsoft.com/talent/onboard/)
-- [Kas nauja](./whats-new.md)
-- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Palaikymo gavimas](./talent-support.md)
+- [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
+- [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 792ceea52a9caa1a99217c77bb3fe4aafb80a0eb
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 05d770234beb486eb3a8181b160967c802c15e8f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1555018"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813160"
 ---
 # <a name="create-service-object-relations"></a>Aptarnavimo objekto ryšių kūrimas 
 
@@ -63,9 +63,9 @@ Norėdami sukurti aptarnavimo objekto ryšį aptarnavimo užsakymui, atlikite š
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[Aptarnavimo objektai](service-objects.md)
+[Aptarnavimo objektų apžvalga](service-objects.md)
 
-[aptarnavimo objekto ryšiai](service-object-relations.md)
+[Aptarnavimo objekto ryšiai](service-object-relations.md)
 
 [Šabloninės KS](template-boms.md)
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9c177f7a7b713e7b8490b718650daafeca0e937
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d84e3ed050bacf7632d03cf0123f682c43fd7b58
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189389"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772748"
 ---
 # <a name="three-way-matching-policies"></a>Trišalės atitikimo strategijos
 
@@ -141,7 +141,7 @@ Atkreipkite dėmesį į toliau nurodytas prekes:
 Jei reikalingas registruojamų sąskaitų faktūrų su jų gretinimo nesutapimais patvirtinimas, reikia pasirinkti perjungimą Tvirtinti registravimą su gretinimo nesutapimais puslapyje Sąskaitos faktūros gretinimo informacija, prieš registruojant sąskaitos faktūros su kainos gretinimo ir kiekio gretinimo klaidomis. Jei patvirtinimo nereikia, sąskaitos faktūros apdorojimą galima tęsti, jei nėra jokių kitų registravimo klaidų.
 
 
-Jei reikia daugiau informacijos, žr. temą [Mokėtinų sumų SF gretinimas](accounts-payable-invoice-matching.md).
+Daugiau informacijos žr. [Mokėtinų sumų SF gretinimo apžvalga](accounts-payable-invoice-matching.md).
 
 
 

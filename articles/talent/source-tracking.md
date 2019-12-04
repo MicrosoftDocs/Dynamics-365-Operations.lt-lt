@@ -1,5 +1,5 @@
 ---
-title: Kandidatų profilių ir prašymų šaltinių sekimas
+title: Kandidatų išteklių sekimas „Attract“
 description: Šioje temoje pateikiama informacija apie kandidatų profilių ir prašymų šaltinio sekimą.
 author: hachandr
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5b368e97a716cd1ce4f668c2a97326877a2d3dff
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 8860f508eebc377042c4e101eeb08a14a737ba0c
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551892"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832672"
 ---
-# <a name="track-sources-for-candidate-profiles-and-applications"></a>Kandidatų profilių ir prašymų šaltinių sekimas
+# <a name="track-candidate-sources-in-attract"></a>Kandidatų išteklių sekimas „Attract“
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE] 
 > Šioje temoje nurodytomis funkcijomis galima naudotis kaip peržiūros leidimo dalimi. Turinys ir funkcijos gali būti keičiami. Norėdami naudotis šia funkcija, paprašykite administratoriaus, kad įjungtų ją „Attract“ naudodamasis sritimi **Administratoriaus parametrai**. Būsimame leidime bus pateiktos šaltinio sekimo ataskaitos. Daugiau informacijos rasite [Prieiga prie „Talent“ peržiūros funkcijų](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature).

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c4a2696b015611f4430ad5dfa1c61c1c4f913a9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c6774a41887e74bfdb1fa6a9221264b0c8454c70
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570799"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814357"
 ---
 # <a name="inventory-journals"></a>Atsargų žurnalai
 
@@ -74,7 +74,7 @@ Gamybos įeigos žurnalai veikia kaip prekių gavimo žurnalai, tik jie naudojam
 
 ### <a name="counting"></a>Skaičiavimas
 
-Skaičiavimo žurnalai leidžia taisyti dabartines turimas registruotas prekių ar prekių grupių atsargas, ir tada faktinį fizinį kiekį registruoti, kad galėtumėte atlikti reikiamus koregavimus ir taip suderinti skirtumus. Skaičiavimo strategijas galima susieti su skaičiavimo grupėmis, kad būtų lengviau grupuoti prekes su įvairiomis charakteristikomis ir tas prekes būtų galima įtraukti į skaičiavimo žurnalą. Pvz., galite nustatyti, kad skaičiavimo grupės skaičiuotų prekes, kurios turi konkretų dažnį, arba prekes skaičiuoti, kai atsargos sumažėja iki tam tikro lygio. Informacijos apie tai, kaip apibrėžti skaičiavimo grupes, ieškokite [Apibrėžti atsargų skaičiavimo procesus (užduočių vedlys)](tasks/define-inventory-counting-processes.md).
+Skaičiavimo žurnalai leidžia taisyti dabartines turimas registruotas prekių ar prekių grupių atsargas, ir tada faktinį fizinį kiekį registruoti, kad galėtumėte atlikti reikiamus koregavimus ir taip suderinti skirtumus. Skaičiavimo strategijas galima susieti su skaičiavimo grupėmis, kad būtų lengviau grupuoti prekes su įvairiomis charakteristikomis ir tas prekes būtų galima įtraukti į skaičiavimo žurnalą. Pvz., galite nustatyti, kad skaičiavimo grupės skaičiuotų prekes, kurios turi konkretų dažnį, arba prekes skaičiuoti, kai atsargos sumažėja iki tam tikro lygio. Informacijos apie tai, kaip apibrėžti skaičiavimo grupes, ieškokite [Apibrėžti atsargų skaičiavimo procesus](tasks/define-inventory-counting-processes.md).
 
 ### <a name="tag-counting"></a>Skaičiav. pagal žymę
 

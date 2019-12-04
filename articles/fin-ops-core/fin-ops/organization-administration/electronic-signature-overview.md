@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2e5144517a880c41cf04998ed53a826a75ecefb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3d1d8952324bb16bcfa6a8b42fc4f157edb75cf1
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179122"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811327"
 ---
 # <a name="electronic-signatures-overview"></a>Elektroninių parašų apžvalga
 
@@ -44,7 +44,7 @@ Elektroniniai parašai yra reglamentus atitinkantis reikalavimas kai kurioms reg
 
 Galite naudoti elektroninius parašus svarbiems verslo procesams. Kai kuriuose procesuose yra įdiegtos elektroninio parašo galimybės. Taip pat galite sukurti pasirinktinius parašo reikalavimus bet kuriai duomenų bazės lentelei ir laukui.
 
-Elektroniniuose parašuose yra įdiegtos skaitmeninio parašo funkcijos. Kiekvienas dokumentus pasirašantis vartotojas turi įsigyti galiojantį kriptografijos sertifikatą. Pasirašant dokumentą patikrinamas su tuo sertifikatu susietas privatusis raktas. Elektroninio parašo informacija įrašoma į žurnalą, kad būtų galima sekti įrašą. Norėdami nustatyti elektroninius parašus, žr. dalį [Elektroninių parašų nustatymas (užduočių vedlys)](tasks/set-up-electronic-signatures.md).
+Elektroniniuose parašuose yra įdiegtos skaitmeninio parašo funkcijos. Kiekvienas dokumentus pasirašantis vartotojas turi įsigyti galiojantį kriptografijos sertifikatą. Pasirašant dokumentą patikrinamas su tuo sertifikatu susietas privatusis raktas. Elektroninio parašo informacija įrašoma į žurnalą, kad būtų galima sekti įrašą. Norėdami nustatyti elektroninius parašus, žr. dalį [Elektroninių parašų nustatymas](tasks/set-up-electronic-signatures.md).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Vartotojai, kuriems reikia prieigos prie elektroninių parašų
 

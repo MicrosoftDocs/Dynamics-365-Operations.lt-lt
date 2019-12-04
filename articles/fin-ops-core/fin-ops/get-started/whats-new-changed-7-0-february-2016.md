@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e39328c73fe3dd101e32ec04d895483335184ae7
-ms.sourcegitcommit: 4d6ec2b1a9674712e1efb8c46b919d554f21a2b3
+ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "2627656"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811487"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Kas nauja ar pasikeitė programoje „Dynamics AX 7.0“ (2016 m. vasario mėn.)
 
@@ -322,7 +322,7 @@ ms.locfileid: "2627656"
 <tr>
 <td>Pasiekite valdomąjį procedūrinį žinyną (užduočių vedlius) ir abstrakčias temas spustelėdami <strong>Žinynas</strong>.</td>
 <td>„AX 2012“ žinyno sistema nurodo į HTML temas, kurios saugomos vietos žiniatinklio serveryje. Klientai ir partneriai gali kurti savo Žinyną.</td>
-<td>Dabartinės „Dynamics AX“ versijos Žinyno sistemoje rodomi užduočių vadovai, saugomi „Microsoft Dynamics Lifecycle Services“ (LCS) BPM. Žinyno sistemoje taip pat rodomos temos iš „Microsoft‟ dokumentų svetainės. Jei reikia daugiau informacijos, žr. straipsnius <a href="help-overview.md" data-raw-source="[Dynamics AX Help - Getting Started](help-overview.md)">„Dynamics AX“ žinynas – darbo pradžia</a> ir <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides available (February 2016)](new-task-guides-available-february-2016.md)">Nauji galimi naudoti užduočių vedliai (2016 m. vasario mėn.)</a>.</td>
+<td>Dabartinės „Dynamics AX“ versijos Žinyno sistemoje rodomi užduočių vadovai, saugomi „Microsoft Dynamics Lifecycle Services“ (LCS) BPM. Žinyno sistemoje taip pat rodomos temos iš „Microsoft‟ dokumentų svetainės. Daugiau informacijos žr. <a href="help-overview.md" data-raw-source="[Help system](help-overview.md)">Žinyno sistema</a> ir <a href="new-task-guides-available-february-2016.md" data-raw-source="[New task guides (February 2016)](new-task-guides-available-february-2016.md)">Nauji užduočių vedliai (2016 m. vasaris)</a>.</td>
 <td>Užduočių vadovai suteikia valdomą, interaktyvią patirtį, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Galite atsisiųsti ir tinkinti užduočių vedlius, kuriuos teikia „Microsoft“. Tema suteikia galimybę greičiau ir lanksčiau kurti, teikti bei naujinti produktų dokumentus. Todėl jis padeda užtikrinti, kad turite prieigą prie vėliausios techninės informacijos.</td>
 </tr>
 </tbody>
@@ -1031,6 +1031,6 @@ Nepridėta jokių naujų funkcijų.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Kas nauja ar pasikeitė](whats-new-changed.md)
+[Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](whats-new-changed.md)
 
-[Galima naudoti naujus užduočių vadovus (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
+[Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)

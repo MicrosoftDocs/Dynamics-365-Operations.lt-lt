@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 94243f83121a1306d8f9ae9be23d24e5c9b63a2d
-ms.sourcegitcommit: 07e109dec176a93eff0df8a37ba5d875f212e9f1
+ms.openlocfilehash: 66419d9093cff68aa6109b22ab57bcb46ac6c718
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "2662670"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772901"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. spalio 23 d.)
 
@@ -47,7 +47,7 @@ Daugiau informacijos žr. [žr. Kas nauja arba pakeista „Finance and Operation
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Šalinama išmokų atviros registracijos peržiūros funkcija
 
-Kartu su mūsų pranešimu, paskelbtu tinklaraščio įraše Strateginis investavimas į „Core HR“ veiklos efektyvumą, „Microsoft“ pašalino išmokų atviros registracijos funkciją iš viešosios peržiūros 2019 m. spalio 18 d. Vietoj jos ateityje bus išleistos naujos funkcijos. Išmokų atviros registracijos funkcijos, kuri šiuo metu yra viešojoje peržiūroje, nebus galima naudoti gamybos aplinkoje.
+Kartu su mūsų pranešimu, paskelbtu tinklaraščio įraše [Strateginis investavimas į „Core HR“ veiklos efektyvumą](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence), „Microsoft“ pašalino išmokų atviros registracijos funkciją iš viešosios peržiūros 2019 m. spalio 18 d. Vietoj jos ateityje bus išleistos naujos funkcijos. Išmokų atviros registracijos funkcijos, kuri šiuo metu yra viešojoje peržiūroje, nebus galima naudoti gamybos aplinkoje.
 
 ### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Klaida antrą kartą pasirenkant šalį / regioną darbuotojo formoje (350294)
 
@@ -69,7 +69,7 @@ Esant šiam pakeitimui, nustatant finansines dimensijas ir naudojant parinktį, 
 
 Dirbant su šiuo leidimu, programoje „Excel“ atsidarys tik pasirinkto darbuotojo įdarbinimo sąlygos. Visa įmonės apsauga taip pat įvertinta.
 
-### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service---324178"></a>„Common Data Service“ trūksta sąsajos tarp darbo kalendoriaus poilsio dienų objekto ir darbo kalendoriaus objekto – (324178)
+### <a name="the-association-between-the-work-calendar-holiday-entity-and-the-work-calendar-entity-is-missing-in-common-data-service-324178"></a>„Common Data Service“ trūksta sąsajos tarp darbo kalendoriaus poilsio dienų objekto ir darbo kalendoriaus objekto (324178)
 
 Šiame leidime šis ryšys buvo įtrauktas. Atlikus pakeitimą, darbuotojo darbo dienos galės būti rodomos „PowerApps“. 
 
