@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 92fec444834be8ca4943932730b94beb8a1902e7
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 5da4272e65940708d301d465966dea3f53498b48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536852"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771569"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>Verslo įžvalgų (BI) ir ataskaitų pagrindinis puslapis
 
@@ -48,7 +48,7 @@ Norėdami sužinoti daugiau, žr. tolesnes temas.
 - [„Power BI Embedded“ integravimas](power-bi-embedded-integration.md)
 - [Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“](add-analytics-tab-workspaces.md)
 - [Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“](secure-analytical-workspaces.md)
-- [„Finance and Operations“ „Power BI“ turinys](power-bi-home-page.md)
+- [Pagrindinis „Power BI“ turinio puslapis](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Verslo dokumentai ir spausdinimas
 Ataskaitų sprendimai dažnai naudojami verslo operacijų informacijai fiksuoti ir perduoti. Todėl ataskaitų sprendimas turi gebėti naudodamas esamus įrenginius, pvz., tinklo spausdintuvus, kurti fizines verslo duomenų kopijas. Verslo dokumentų pavyzdžiai: pardavimo sąskaitos faktūros, klientų sąskaitų suderinimo aktai ir čekiai.
@@ -57,20 +57,20 @@ Ataskaitų sprendimai dažnai naudojami verslo operacijų informacijai fiksuoti 
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
-- [„Document Reporting Services” apžvalga](document-reporting-services.md)
-- [Spausdinimas „Finance and Operations“ programose](print-documents.md)
-- [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimo įrenginius](install-document-routing-agent.md)
+- [Dokumentų ataskaitų tarnybos](document-reporting-services.md)
+- [Dokumento spausdinimo apžvalga](print-documents.md)
+- [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimą](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Elektroninės ataskaitos
-Elektroninės ataskaitos (ER) yra įrankis, naudojamas konfigūruoti elektroninių dokumentų formatams, kurie atitinka teisinius įvairių šalių ar regionų reikalavimus. Elektronines ataskaitas galima pritaikyti finansų audito, mokesčių ataskaitų ir elektroninių sąskaitų faktūrų srityse.
+Elektroninės ataskaitos (ER) yra įrankis, naudojamas elektroninių dokumentų formatams, kurie atitinka teisinius įvairių šalių ar regionų reikalavimus, konfigūruoti. Elektronines ataskaitas galima pritaikyti finansų audito, mokesčių ataskaitų ir elektroninių sąskaitų faktūrų srityse.
 
 [![Elektroninių ataskaitų pavyzdys](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
-- [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
-- [Elektroninių ataskaitų konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [Elektroninių ataskaitų konfigūracijos kūrimas](electronic-reporting-configuration.md)
+- [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)
+- [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [Elektroninių ataskaitų (ER) konfigūracijų kūrimas](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Finansinės ataskaitos
 Pateikiama standartinių finansinių ataskaitų, kuriose naudojamos numatytosios pagrindinių sąskaitų kategorijos. Naudodami ataskaitų kūrimo įrankį galite kurti ar modifikuoti įprastas finansines ataskaitas, pvz., pajamų ataskaitas ir balansus. Tada rezultatus galite bendrinti su kitais organizacijos nariais. Finansinių ataskaitų pavyzdžiai: balansai, grynųjų pinigų srautas ir bandomojo balanso suvestinė bėgant metams.
@@ -79,14 +79,14 @@ Pateikiama standartinių finansinių ataskaitų, kuriose naudojamos numatytosios
 
 Norėdami sužinoti daugiau, žr. tolesnes temas.
 
-- [„Finance and Operations‟ finansinės ataskaitos](financial-reporting-intro.md)
-- [Finansinės ataskaitos generavimas](generate-financial-report.md)
+- [Finansinės ataskaitos](financial-reporting-intro.md)
+- [Finansinių ataskaitų generavimas](generate-financial-report.md)
 - [Finansinių ataskaitų komponentai](financial-report-components.md)
 
 ## <a name="technical-reference-reports"></a>Techninės informacijos ataskaitos
 Tolesnėse ataskaitose pateikiama nuorodos informacija apie objektus:
 
-- [Duomenų objektų ataskaita](../data-entities/data-entities-report.md)
+- [Informacijos apie standartinius duomenų objektus ieška](../data-entities/data-entities-report.md)
 - [Licencijų kodų ir konfigūracijos raktų ataskaita](../sysadmin/license-codes-configuration-keys-report.md)
-- [Ataskaita apie „SQL Server Reporting Services“ ataskaitas](SSRS-report.md)
+- [Galimos SQL serverio ataskaitų tarnybos (SSRS) ataskaitos](SSRS-report.md)
 - [Darbo eigos tipų ataskaita](../../fin-ops/organization-administration/workflow-types-report.md)

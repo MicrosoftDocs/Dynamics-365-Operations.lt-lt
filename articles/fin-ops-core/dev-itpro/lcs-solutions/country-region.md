@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 058adaef91a7b30e25bea603625116e97009cf55
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537029"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812093"
 ---
 # <a name="globalization-resources"></a>Globalizacijos ištekliai
 
@@ -45,10 +45,10 @@ Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugom
 
 ### <a name="developing-localized-solutions"></a>Lokalizuotų sprendimų kūrimas
 Tolesniuose ištekliuose pateikiami nurodymai ir informacija, kurie gali padėti kūrėjams ir ISV, kuriantiems konkrečiose šalyse / regionuose veikiančius tinkinimus arba sprendimą, skirtą šaliai, kurios „Microsoft‟ nepalaiko.
--   [Atskiri lokalizavimo modeliai](separate-localization-models.md)
+-   [Lokalizavimo modelių atskyrimas](separate-localization-models.md)
 -   [Šalies / regiono konteksto taikymas](apply-country-context.md)
--   [Reguliaciniai sertifikatai](regulatory-certifications.md)
--   [Lokalizavimo priemonių klasifikavimas](classify-localization-features.md)
+-   [Reglamentavimo sertifikavimo informacija apie funkcijų pavadinimus](regulatory-certifications.md)
+-   [Lokalizavimo priemonių klasifikacija](classify-localization-features.md)
 -   [Šalių kodai – ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
 ### <a name="regulatory-updates-and-communication"></a>Reglamentavimo naujinimai ir ryšys
@@ -57,36 +57,36 @@ Tolesniuose ištekliuose pateikiama informacijos apie planuojamas ir naujas loka
 #### <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 -   [Reglamentavimo naujinimai](../../../finance/localizations/regulatory-updates.md)
 -   [Lokalizavimo portalas](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (naujinama kas savaitę)
--   [LCS problemų ieška](../lifecycle-services/issue-search-lcs.md) (naujinama kasdien)
+-   [Problemų ieška „Lifecycle Services“ (LCS)](../lifecycle-services/issue-search-lcs.md) (naujinama kasdien)
 
 #### <a name="communication-and-alerts"></a>Ryšys ir įspėjimai
--   [Reglamentuota priežiūra ir reglamentuotas atnaujinimo ryšys](regulatory-watch-communication.md)
--   [Pranešimas „Microsoft‟ apie šalies/ regiono taisyklių įspėjimus ir reguliavimo priemonių būsenų stebėjimas](submit-localization-alerts.md)
+-   [Reglamentuota priežiūra ir reglamentavimo naujinimų ryšys](regulatory-watch-communication.md)
+-   [Įspėjimų apie šalims / regionams skirtas reglamentavimo funkcijas pateikimas](submit-localization-alerts.md)
 
-#### <a name="dynamics-365-release-notes"></a>„Dynamics 365“ leidimo pastabos
-[„Dynamics 365“ leidimo pastabose](https://docs.microsoft.com/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
+#### <a name="dynamics-365-release-plans"></a>„Dynamics 365“ leidimo planai
+[„Dynamics 365“ leidimo planuose](https://docs.microsoft.com/business-applications-release-notes/) pateikiami naujų ir patobulintų verslo programų ir programų platformos galimybių, numatytų „Dynamics 365“, aprašymai. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Kas nauja „Finance and Operations“ programose
-[Kas nauja turinyje](../../fin-ops/get-started/whats-new-changed.md) pateikiamos funkcijos, įtrauktos į konkrečius „Finance and Operations“ programų leidimus.
+[Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje](../../fin-ops/get-started/whats-new-changed.md) pateikiamos funkcijos, įtrauktos į konkrečius „Finance and Operations“ programų leidimus.
 
 ### <a name="electronic-reporting"></a>Elektroninės ataskaitos
 Elektroninių ataskaitų (ER) įrankiu galite pagal teisinius įvairių šalių / regionų reikalavimus konfigūruoti elektroninių dokumentų formatus. Naudojant ER, šiuos formatus galima valdyti visą jų naudojimo ciklą. Daugiau informacijos ieškokite vienoje iš tolesnių temų:
--   [Elektroninių ataskaitų apžvalga](../analytics/general-electronic-reporting.md)
--   [Elektroninių ataskaitų konfigūracijų ciklo valdymas](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [Elektroninių ataskaitų konfigūracijos kūrimas](../analytics/electronic-reporting-configuration.md)
--   [Elektroninių ataskaitų funkcijų sąrašo išplėtimas](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [Elektroninių ataskaitų paskirties vietos](../analytics/electronic-reporting-destinations.md)
+-   [Elektroninių ataskaitų (ER) apžvalga](../analytics/general-electronic-reporting.md)
+-   [Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [Elektroninių ataskaitų (ER) konfigūracijų kūrimas](../analytics/electronic-reporting-configuration.md)
+-   [Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [Elektroninių ataskaitų (ER) paskirties vietos](../analytics/electronic-reporting-destinations.md)
 -   [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Elektroninių ataskaitų konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
--   [Įrankio Elektroninės ataskaitos konfigūravimas duomenims perkelti į „Power BI“](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas naudojant įrankį Elektroninės ataskaitos](../analytics/generate-electronic-documents-update-application-data.md)
+-   [Elektroninių ataskaitų (ER) konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas naudojant ER](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>Užduočių vedliai
 Užduočių vedlius galima pasiekti produkto žinyno srityje – jie supažindina su svarbiausiais verslo procesais. Užduočių vedlį galite atidaryti ir perskaityti verslo proceso veiksmus, arba jį galite paleisti ir susipažinti su verslo procesu bei įvesti duomenis.
 
 Norėdami rasti užduočių vedlių, pereikite į kokį nors puslapį programoje ir spustelėkite Žinynas. Žinyno srityje išvardyti užduočių vedliai, naudojantys šį puslapį. Žinyno srityje užduočių vedlių taip pat galite ieškoti pagal pavadinimą.
 
-Norėdami sužinoti daugiau, žr. [Užduočių vedliai](../../fin-ops/get-started/help-overview.md#task-guides).
+Norėdami sužinoti daugiau, žr. [žinyno sistemą](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Konkrečių šalių / regionų žinyno turinys

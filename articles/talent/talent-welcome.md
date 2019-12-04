@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: edc2f59752a32b9cd20902d0b7a1edfe3ba4d15b
-ms.sourcegitcommit: ff160a9f9879f3ec015ffef11fbc8b7c1b84a59d
+ms.openlocfilehash: 841ef8f2b7c319e0a6b3a9ce9a9e4959e70aa8cd
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552955"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812769"
 ---
 # <a name="welcome-to-dynamics-365-talent"></a>Sveiki, čia „Dynamics 365 Talent“
 
@@ -52,20 +52,20 @@ Ištyrinėkite „Dynamics 365 Talent“ peržiūrėkite vaizdo įrašą [Kaip p
 
 Dirbdami modulyje „Talent‟ nuspręsite, kaip naudojant elementus (pvz., padalinius, darbo vietas ir pareigas) nustatyti organizacijos struktūrą. Tai yra vieni iš pagrindinių elementų, kuriuos konfigūruosite. Atskiri darbuotojai priskiriami pareigoms, kurios yra susietos su darbo vietomis.
 
--   [Darbo jėgos organizavimas naudojant padalinius, darbo vietas ir pareigas](departments-jobs-positions.md)
--   [Konkrečios įmonės personalo parametrų nustatymas](set-up-company-specific-hr-parameters.md)
--   [Personalo parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md) 
+-   [Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas](departments-jobs-positions.md)
+-   [Konkrečios įmonės personalo (HR) parametrų nustatymas](set-up-company-specific-hr-parameters.md)
+-   [Personalo (HR) parametrų nustatymas visiems juridiniams subjektams](set-up-hr-parameters-across-legal-entities.md) 
 -   [DUK apie personalo veiksmus](personnel-actions-faq.md)
--   [Atostogų ir neatvykimų apžvalga](leave-absence-overview.md)
+-   [Atostogų ir neatvykimų valdymas](leave-absence-overview.md)
 -   [Kaip naudoti „Dynamics 365 Talent“: atostogos ir neatvykimas (vaizdo įrašas)](https://www.youtube.com/watch?v=1q1UhKmO4tw)
 -   [Kaip valdyti personalą „Dynamics 365 Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>Organizacijos personalas
 
-Į „Talent“ įtraukta „Attract“, kuri gali padėti nustatyti, kalbinti ir samdyti kandidatus, turinčius jūsų organizacijai reikiamų įgūdžių. Vykdant įdarbinimo ir samdymo procesus, programėlė „Onboard‟ gali padėti naują darbuotoją įtraukti į organizaciją – nustatyti tikslius lūkesčius, suteikti jo darbo pradžiai reikiamos informacijos, užmegzti ryšį su kolegomis ir parengti sėkmei dirbant naujose pareigose.  
+Į „Talent“ įtraukta „Attract“, kuri gali padėti nustatyti, kalbinti ir samdyti kandidatus, turinčius jūsų organizacijai reikiamų įgūdžių. Vykdant įdarbinimo ir samdymo procesus, programėlė „Onboard‟ gali padėti naują darbuotoją įtraukti į organizaciją – nustatyti tikslius lūkesčius, suteikti jo darbo pradžiai reikiamos informacijos, užmegzti ryšį su kolegomis ir parengti sėkmei einant naujas pareigas.  
 
-- [„Attract‟ apžvalga](attract-overview.md)
-- [„Onboard‟ apžvalga](create-onboarding-experience.md)
+- [„Microsoft Dynamics 365 Talent - Attract“ funkcijos ir galimybės](attract-overview.md)
+- [Darbo su „Onboard“ pradžia](create-onboarding-experience.md)
 
 ## <a name="retain-and-motivate-employees"></a>Darbuotojų išlaikymas ir motyvavimas
 
@@ -83,14 +83,14 @@ Norėdami darbuotojams padėti pasiekti savo karjeros tikslų įgyvendinat svarb
 
 -   [Našumo valdymas](performance-management-overview.md)
 -   [Darbo jėgos įgūdžių ir verslo poreikių suderinimas](skills.md)
--   [Mokymo administravimas naudojant kursus](courses.md)
+-   [Mokymo kursų rengimas](courses.md)
 -   [Kaip valdyti darbuotojų tobulinimą „Dynamics 365 Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>Išmokų kūrimas ir tvarkymas
 
 Be kompensacijų darbuotojams mokant darbo užmokestį, atlyginimus ir premijas, galite išplėtoti išmokų programas, pvz., sveikatos draudimo ir pensijų planus. Taip pat galite tvarkyti išmokas, pavyzdžiui, paskolų programas, kai jūsų įmonė savo darbuotojams skolina prekes, pvz., kompiuterius arba telefonus.
 
--   [Išmokų programos valdymas](manage-benefit-program.md)
+-   [Išmokų programos nustatymas ir valdymas](manage-benefit-program.md)
 -   [Teisės į išmoką strategijos](benefit-eligibility-policies.md)
 -   [Darbininkams paskolintų prekių valdymas](loan-items.md)
 -   [Kaip valdyti darbuotojų išmokas „Dynamics 365 Talent“ (vaizdo įrašas)](https://www.youtube.com/watch?v=nUWkeJTad1o)
@@ -108,5 +108,5 @@ Galite sudaryti ir administruoti klausimynus informacijai įvairiems tikslams ri
 
 -   [Klausimynai](questionnaires.md)
 -   [Klausimyno sudarymas](design-questionnaires.md)
--   [Klausimyno platinimas ir pildymas](distribute-questionnaires.md)
--   [Klausimyno rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md)
+-   [Klausimynų platinimas ir planavimas](distribute-questionnaires.md)
+-   [Klausimynų rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md)

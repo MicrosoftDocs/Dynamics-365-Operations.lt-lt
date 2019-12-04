@@ -62,7 +62,7 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Kas nauja ar pasikeitė
               items:
-                - name: „Retail“ versijos 10.0.7 peržiūros funkcijos
+                - name: 10.0.7 versijos „Retail“ peržiūros funkcijos
                   href: get-started/whats-new-10-0-7.md
                 - name: „Retail” versija 10.0.6
                   href: get-started/whats-new-10-0-6.md
@@ -850,6 +850,8 @@
           items:
             - name: Lojalumo apžvalga
               href: set-up-customer-loyalty-program.md
+            - name: Ryšių su klientais apžvalga
+              href: clienteling-overview.md
         - name: Mokėjimai
           items:
             - name: Mokėjimo būdai
@@ -978,9 +980,9 @@
               href: orderexchanges.md
             - name: Grąžinimo mokėjimo metodų be kvito apribojimas
               href: payment-methods-restrictions.md
-            - name: Kelių klientų užsakymų ir SF grąžinamos prekės
+            - name: Kelių klientų užsakymų ir sąskaitų faktūrų grąžinamos prekės
               href: multireturn.md
-        - name: „Modern Point of Sale“ (MPOS) ir „Cloud POS“
+        - name: Modernusis elektroninis kasos aparatas (MPOS) ir „Cloud POS“
           items:
             - name: Pasirinkimas tarp MPOS ir „Cloud POS“
               href: MPOS-or-CPOS.md
@@ -1254,7 +1256,7 @@
                   href: implementation-considerations-devices.md
             - name: Aplinkos konfigūracija
               items:
-                - name: Saitų įtraukimas į organizacijos teisines sąlygas ir privatumo nuostatas
+                - name: Saitų įtraukimas į teisines organizacijos sąlygas ir privatumo nuostatas
                   href: ../fin-ops-core/dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/retail/toc.json
                 - name: „Bing“ žemėlapių valdymas
                   href: dev-itpro/manage-bing-maps.md
@@ -1264,13 +1266,11 @@
               items:
                 - name: „Retail POS“ ekrano maketai
                   href: pos-screen-layouts.md
-                - name: URL atidarymas elektroniniame kasos aparate
+                - name: URL atidarymas EKA
                   href: Open-URL-in-POS.md
                 - name: EKA maketų dizaino įrankio diegimas
                   href: install-pos-layout-designer.md
-                - name: „Retail Modern POS“ autonominis režimas
-                  href: dev-itpro/retail-modern-pos-offline.md
-                - name: „POS Dual“ ekrano rodinio išplėtimas
+                - name: Dvigubo EKA ekrano rodinio išplėtimas
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: „Retail Modern POS“ ir „Cloud POS‟ paleidiklių išplečiamumas
                   href: dev-itpro/modern-pos-trigger-extensibility.md
@@ -1332,13 +1332,15 @@
                   href: dev-itpro/trigger-example-blocking-transaction.md
                 - name: Grąžinimo strategijos įgyvendinimas naudojant paleidiklius
                   href: dev-itpro/trigger-example-return-policy.md
-            - name: „e-Commerce“ išplečiamumas
+                - name: Plėtinio įvykių registravimas „Application Insights“
+                  href: dev-itpro/commerce-application-insights.md
+            - name: El. prekybos išplečiamumas
               items:
                 - name: Internetinių parduotuvių konfigūravimas
                   href: dev-itpro/configure-online-store.md
                 - name: Autentifikavimo paslaugų teikėjų konfigūravimas
                   href: dev-itpro/configure-authentication-providers.md
-                - name: „e-Commerce“ platformos SDK
+                - name: El. prekybos platformos SDK
                   href: dev-itpro/ecommerce-platform-sdk.md
             - name: Mokėjimo jungties išplečiamumas
               items:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e0c6a9e4dd3f3182c98a9f5491b07f8687c21e5c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 531fd219cc2db79e01a277c72eba66fb8a9b8bbd
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184076"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772656"
 ---
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
@@ -42,17 +42,17 @@ Biudžeto plano dokumentas palaiko ir ilgalaikio strateginio planavimo, ir metin
 
 Galiausiai labai brandžios organizacijos gali nustatyti tokią organizacijos kultūrą, kai darbuotojai žino organizacijos tikslus ir jų siekia naudodami tokias strategijas kaip „Gal vietoj kelionės surengti susitikimą internetu“. Programoje yra biudžeto kontrolės sistema, kuri įmonės vadovybei leidžia pasirinkti stiprią kontrolę (kuri neleidžia registravimų, kurie viršytų biudžetą) arba silpną kontrolę (kai vartotojai įspėjami, kad jie viršys turimas biudžeto lėšas, tačiau jie gali patys nuspręsti, kaip elgtis toliau). Galiausiai galite naudoti kintančias prognozes. Kintanti prognozė yra reguliarus biudžeto ir faktinių sumų palyginimas ir yra naudojama nustatyti, kaip įmonei sekasi veikti biudžeto atžvilgiu. Kintanti prognozė taip pat naudojama tendencijoms identifikuoti. Sprendime „Finance and Operations‟ kintančios prognozės naudojant biudžeto plano dokumentą palaikomos kaip pradinė planavimo veikla. Kintančias prognozes galima atlikti lygiagrečiai planuojant artėjantį biudžeto ciklą.
 
--   [Pagrindinio biudžeto sudarymas: apžvalga ir konfigūravimas](basic-budgeting-overview-configuration.md)
--   [Biudžeto kontrolė: apžvalga ir konfigūravimas](budget-control-overview-configuration.md)
--   [Biudžeto planavimas: apžvalga ir konfigūravimas](budget-planning-overview-configuration.md)
+-   [Biudžetų sudarymo apžvalga](basic-budgeting-overview-configuration.md)
+-   [Biudžeto kontrolės apžvalga](budget-control-overview-configuration.md)
+-   [Biudžeto planavimo apžvalga](budget-planning-overview-configuration.md)
 -   [Pareigų prognozavimas](position-forecasting.md)
 -   [Biudžeto planavimo pagrindimo dokumentai](budget-planning-justification-docs.md)
--   [„Microsoft Excel“ biudžeto planavimo šablonai](budget-planning-excel-templates.md)
+-   [Biudžeto planavimo šablonai, skirti „Excel‟](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Biudžeto sudarymo įrankiai
 [![Biudžeto sudarymo įrankiai](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
-Yra papildomų planavimo ir biudžeto sudarymo galimybių, kurios integruotos su DK biudžetais.
+Yra papildomų planavimo ir biudžeto sudarymo galimybių, kurios integruotos su didžiosios knygos biudžetais.
 
 -   **Darbo jėgos biudžetai** – sudarant darbo jėgos biudžetus, išsamiai planuojami pareigų, kompensacijų grupių ir t. t. biudžeto išlaidų komponentai.
 -   **Ilgalaikio turto biudžetai** – pagal ilgalaikio turto informaciją galite apskaičiuoti suplanuotą nusidėvėjimą ir įrašyti kitas suplanuotas operacijas, susijusias su ilgalaikiu turtu.

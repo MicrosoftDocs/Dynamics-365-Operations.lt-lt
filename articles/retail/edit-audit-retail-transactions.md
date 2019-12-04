@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-09-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b0201d31cd83b4360f96a7d8e2113caf9d913715
-ms.sourcegitcommit: 0262a19e32b2c0c84c731d9f4fbe8ba91822afa3
+ms.openlocfilehash: f53573b8afb2003f6796930f5877185e533a4715
+ms.sourcegitcommit: 92322167f57b66d2accc134aaf862e6b9931ec94
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622532"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "2693071"
 ---
 # <a name="edit-and-audit-retail-store-transactions"></a>Redaguoti ir atlikti mažmeninės prekybos parduotuvės operacijų auditą
 
@@ -95,6 +95,6 @@ Programoje „Retail” galite redaguoti konkrečias mažmeninės prekybos opera
        - **Kasos mokėjimo priemonių operacijos**: šiame darbalapyje pateikiama visa informacija apie įnešimo į įmonės kasą operacijas.
        - **Mokėjimo priemonių deklaravimas**: šiame darbalapyje pateikiama visa informacija apie mokėjimo priemonių deklaravimo operacijas.
        - **Pajamų ir išlaidų operacija** – šiame darbalapyje pateikiama visa informacija apie pajamų ir išlaidų operacijų eilutes.
-       - **Mokėjimo operacijos** – šiame darbalapyje pateikiama visa su mokėjimais susijusi operacijos **Apmokėti SF** ir pajamų bei išlaidų operacijų informacija.
+       - **Mokėjimo operacijos** – šiame darbalapyje pateikiama visa su mokėjimais susijusi operacijos **Apmokėti sąskaitą faktūrą** ir pajamų bei išlaidų operacijų informacija.
 
 3.  Publikuojant masinio redagavimo operacijas, tikrinimai nevykdomi. Turite užtikrinti, kad jūsų atliktos redakcijos ir darbalapiuose esantys duomenys yra tikslūs. Pavyzdžiui, jei norite pakeisti operacijos datą, kad galėtumėte valdyti scenarijus, kai atvirų mažmeninės prekybos operacijų fiskalinis arba atsargų laikotarpis yra uždarytas, turite pakeisti datą visuose „Excel” darbalapiuose, kuriuose yra stulpelis **Verslo data**. Jei atlikę redakcijas norite operacijas patikrinti, galite naudoti **Pakartotinai tikrinti operaciją**, esantį puslapyje **Mažmeninės prekybos išrašai**.

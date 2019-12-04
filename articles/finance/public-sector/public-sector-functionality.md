@@ -19,12 +19,12 @@ ms.search.industry: Public sector
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5493c46183e7b599e82153f5b3ac36c81faa4955
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f850b28c4d6ed6ce13438f4de87ef0c04065c7f9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174701"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770238"
 ---
 # <a name="public-sector-home-page"></a>Viešojo sektoriaus pagrindinis puslapis
 
@@ -38,21 +38,21 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 - Preliminarūs biudžetai, paskyros ir įsipareigojimai.
 - Laisvos formos SF atsiskaitymo kodai, atsiskaitymo klasifikacijos, prekybos partnerių kodai ir pasirinktiniai laukai.
 - DK metų pabaigos apdorojimas, į kurį įeina pirkimo užsakymų biudžeto rezervavimai ir įsipareigojimai.
-- Elektroniniai mokėjimai tiekėjams, mokėjimo ataskaitų parašo puslapiai ir SF mokėjimų sulaikymai.
+- Elektroniniai mokėjimai tiekėjams, mokėjimo ataskaitų parašo puslapiai ir sąskaitų faktūrų mokėjimų sulaikymai.
 
   Daugiau informacijos ieškokite šiose temose:
 
-- [Viešojo sektoriaus funkcijų planavimas](plan-public-sector-functionality.md)
-- [Mokėtinos sumos viešajame sektoriuje](accounts-payable-public-sector.md)
-- [Gautinos sumos viešajame sektoriuje](accounts-receivable-public-sector.md)
-- [Biudžeto sudarymas viešajame sektoriuje](budgeting-public-sector.md)
-- [Ilgalaikis turtas viešajame sektoriuje](fixed-asset-public-sector.md)
-- [Prancūzijos reglamentavimo funkcijos](../localizations/emea-fra-public-sector-accounting.md)
-- [Didžioji knyga viešajame sektoriuje](general-ledger-public-sector.md)
-- [Paraiškos viešajame sektoriuje](procurement-sourcing-public-sector.md)
+- [Viešojo sektoriaus funkcijų planas](plan-public-sector-functionality.md)
+- [Viešojo sektoriaus mokėtinų sumų apžvalga](accounts-payable-public-sector.md)
+- [Gautinų viešojo sektoriaus sumų apžvalga](accounts-receivable-public-sector.md)
+- [Viešojo sektoriaus biudžeto sudarymo apžvalga](budgeting-public-sector.md)
+- [Viešojo sektoriaus ilgalaikis turtas](fixed-asset-public-sector.md)
+- [Viešojo sektoriaus apskaita Prancūzijoje](../localizations/emea-fra-public-sector-accounting.md)
+- [Viešojo sektoriaus didžiosios knygos apžvalga](general-ledger-public-sector.md)
+- [Įsigijimas ir šaltinio pasirinkimas viešajame sektoriuje](procurement-sourcing-public-sector.md)
 - [Saugos vaidmenys viešajame sektoriuje](security-roles-public-sector.md)
 
-\* Taikoma tik tada, jei jūsų organizacija yra Prancūzijoje.
+\* Taikoma tik tuo atveju, jei jūsų organizacija yra Prancūzijoje.
 
 ## <a name="why-do-i-need-the-public-sector-configuration-key"></a>Kam man reikia viešojo sektoriaus konfigūracijos rakto?
 **Viešojo sektoriaus** konfigūracijos raktas įgalina puslapius ir valdiklius, kurie papildo pagrindines programas. Šį raktą galite įjungti arba išjungti puslapyje **Licencijos konfigūracija**.
@@ -70,7 +70,7 @@ Naudokite viešojo sektoriaus funkcijas, kurios padės laikytis viešojo sektori
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Viešojo sektoriaus funkcijų planavimas](plan-public-sector-functionality.md)
+[Viešojo sektoriaus funkcijų planas](plan-public-sector-functionality.md)
 
 
 

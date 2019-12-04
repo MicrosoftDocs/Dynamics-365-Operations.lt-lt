@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 57d3b66e7ebc5a8a6e2ddda9135e27cd24535365
-ms.sourcegitcommit: 5b53bdafa5cb9a1279576bfece0452a50383b122
+ms.openlocfilehash: e77fd279ddec5eb02e226776eecb1223283313c3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2278111"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811931"
 ---
 # <a name="help-resources-for-dynamics-365-retail"></a>Žinyno ištekliai „Dynamics 365 Retail“
 
@@ -81,7 +81,7 @@ Siekiant nustatyti ryšius tarp parduotuvės, parduotuvės EKA ir periferinių m
 
 Jei jūsų prašoma tinkinti savo aplinką arba esate atsakingi už visuotinį sistemos diegimą ir jos priežiūrą, primygtinai rekomenduojame peržiūrėti konkrečiai sprendimui „Retail‟ skirtą kūrimo ir sistemos administravimo turinį bei bendresnį turinį.
 
-- [„Dynamics 365 Retail“ IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
+- [„Retail“ IT profesionalams ir kūrėjams](dev-itpro/dev-retail-home-page.md)
 - [„Dynamics 365 Finance“ kūrimas ir administravimas](../dev-itpro/dev-tools/developer-home-page.md)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
