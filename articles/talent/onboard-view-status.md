@@ -16,44 +16,44 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: fe6da4599940a0b7812dc9d3f66157715c45f62d
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009836"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814725"
 ---
-# <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a><span data-ttu-id="5f608-103">Darbuotojų supažindinimo ir užduočių būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="5f608-103">View the status of onboarding employees and your tasks</span></span>
+# <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a><span data-ttu-id="04e03-103">Darbuotojų supažindinimo ir užduočių būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="04e03-103">View the status of onboarding employees and your tasks</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5f608-104">„Microsoft Dynamics 365 Talent: Onboard” leidžia jums peržiūrėti, kokią pažangą daro jūsų nauji darbuotojai savo supažindinimo veiklose.</span><span class="sxs-lookup"><span data-stu-id="5f608-104">Microsoft Dynamics 365 Talent: Onboard lets you view the progress that your new hires are making in their onboarding activities.</span></span> <span data-ttu-id="5f608-105">Taip pat galite peržiūrėti visas užduotis, kurios jums buvo priskirtos iš supažindinimo vadovų.</span><span class="sxs-lookup"><span data-stu-id="5f608-105">You can also view any tasks that have been assigned to you from onboarding guides.</span></span>
+<span data-ttu-id="04e03-104">„Microsoft Dynamics 365 Talent: Onboard” leidžia jums peržiūrėti, kokią pažangą daro jūsų nauji darbuotojai savo supažindinimo veiklose.</span><span class="sxs-lookup"><span data-stu-id="04e03-104">Microsoft Dynamics 365 Talent: Onboard lets you view the progress that your new hires are making in their onboarding activities.</span></span> <span data-ttu-id="04e03-105">Taip pat galite peržiūrėti visas užduotis, kurios jums buvo priskirtos iš supažindinimo vadovų.</span><span class="sxs-lookup"><span data-stu-id="04e03-105">You can also view any tasks that have been assigned to you from onboarding guides.</span></span>
 
-## <a name="view-the-status-of-onboarding-employees"></a><span data-ttu-id="5f608-106">Darbuotojų supažindinimo būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="5f608-106">View the status of onboarding employees</span></span>
+## <a name="view-the-status-of-onboarding-employees"></a><span data-ttu-id="04e03-106">Darbuotojų supažindinimo būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="04e03-106">View the status of onboarding employees</span></span>
 
-1. <span data-ttu-id="5f608-107">Kairiajame meniu pasirinkite **Vadovai**.</span><span class="sxs-lookup"><span data-stu-id="5f608-107">On the left menu, select **Guides**.</span></span> <span data-ttu-id="5f608-108">Matote visų išsiųstų supažindinimo vadovų eigos apžvalgą.</span><span class="sxs-lookup"><span data-stu-id="5f608-108">You see an overview of the progress for all the onboarding guides that you've sent.</span></span>
+1. <span data-ttu-id="04e03-107">Kairiajame meniu pasirinkite **Vadovai**.</span><span class="sxs-lookup"><span data-stu-id="04e03-107">On the left menu, select **Guides**.</span></span> <span data-ttu-id="04e03-108">Matote visų išsiųstų supažindinimo vadovų eigos apžvalgą.</span><span class="sxs-lookup"><span data-stu-id="04e03-108">You see an overview of the progress for all the onboarding guides that you've sent.</span></span>
 
-    ![[<span data-ttu-id="5f608-109">Supažindinimo vadovų būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="5f608-109">Viewing the status of onboarding guides</span></span>](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[<span data-ttu-id="04e03-109">Supažindinimo vadovų būsenos peržiūra</span><span class="sxs-lookup"><span data-stu-id="04e03-109">Viewing the status of onboarding guides</span></span>](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
-2. <span data-ttu-id="5f608-110">Norėdami detalizuoti, pasirinkite vadovą, kurį norite peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="5f608-110">To drill down, select the guide that you want to view.</span></span>
-3. <span data-ttu-id="5f608-111">Pasirinkite skirtuką **Veiklos** pamatyti, kokia veiklas jūsų naujas darbuotojas jau atliko.</span><span class="sxs-lookup"><span data-stu-id="5f608-111">Select the **Activities** tab to see which activities your new hire has completed.</span></span>
+2. <span data-ttu-id="04e03-110">Norėdami detalizuoti, pasirinkite vadovą, kurį norite peržiūrėti.</span><span class="sxs-lookup"><span data-stu-id="04e03-110">To drill down, select the guide that you want to view.</span></span>
+3. <span data-ttu-id="04e03-111">Pasirinkite skirtuką **Veiklos** pamatyti, kokia veiklas jūsų naujas darbuotojas jau atliko.</span><span class="sxs-lookup"><span data-stu-id="04e03-111">Select the **Activities** tab to see which activities your new hire has completed.</span></span>
 
-    ![[<span data-ttu-id="5f608-112">Veiklų, kurias baigė naujas darbuotojas, peržiūrėjimas</span><span class="sxs-lookup"><span data-stu-id="5f608-112">Viewing activities that the new hire has completed</span></span>](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[<span data-ttu-id="04e03-112">Veiklų, kurias baigė naujas darbuotojas, peržiūrėjimas</span><span class="sxs-lookup"><span data-stu-id="04e03-112">Viewing activities that the new hire has completed</span></span>](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
-## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a><span data-ttu-id="5f608-113">Jums priskirtų supažindinimo užduočių peržiūra</span><span class="sxs-lookup"><span data-stu-id="5f608-113">View onboarding tasks that are assigned to you</span></span>
+## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a><span data-ttu-id="04e03-113">Jums priskirtų supažindinimo užduočių peržiūra</span><span class="sxs-lookup"><span data-stu-id="04e03-113">View onboarding tasks that are assigned to you</span></span>
 
-1. <span data-ttu-id="5f608-114">Kairiajame meniu pasirinkite **Užduotys**.</span><span class="sxs-lookup"><span data-stu-id="5f608-114">On the left menu, select **Tasks**.</span></span> <span data-ttu-id="5f608-115">Jūs matote visų supažindinimo užduočių, kurios buvo jums priskirtos iš supažindinimo vadovų ir nusiųstos darbuotojams, apžvalgą.</span><span class="sxs-lookup"><span data-stu-id="5f608-115">You see an overview of all the onboarding tasks that have been assigned to you from the onboarding guides that were sent to employees.</span></span>
-2. <span data-ttu-id="5f608-116">Norėdami detalizuoti, pasirinkite pageidaujamą užduotį.</span><span class="sxs-lookup"><span data-stu-id="5f608-116">To drill down, select the desired task.</span></span>
-3. <span data-ttu-id="5f608-117">Tolesnę veiklą su nauju darbuotoju tęskite pagal reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="5f608-117">Follow up with the new hire as required.</span></span>
-4. <span data-ttu-id="5f608-118">Pabaigę užduotį, pažymėkite ją kaip atliktą, pridėdami varnelę apskritime.</span><span class="sxs-lookup"><span data-stu-id="5f608-118">When you've completed the task, mark it as completed by adding a check mark to the circle.</span></span>
+1. <span data-ttu-id="04e03-114">Kairiajame meniu pasirinkite **Užduotys**.</span><span class="sxs-lookup"><span data-stu-id="04e03-114">On the left menu, select **Tasks**.</span></span> <span data-ttu-id="04e03-115">Jūs matote visų supažindinimo užduočių, kurios buvo jums priskirtos iš supažindinimo vadovų ir nusiųstos darbuotojams, apžvalgą.</span><span class="sxs-lookup"><span data-stu-id="04e03-115">You see an overview of all the onboarding tasks that have been assigned to you from the onboarding guides that were sent to employees.</span></span>
+2. <span data-ttu-id="04e03-116">Norėdami detalizuoti, pasirinkite pageidaujamą užduotį.</span><span class="sxs-lookup"><span data-stu-id="04e03-116">To drill down, select the desired task.</span></span>
+3. <span data-ttu-id="04e03-117">Tolesnę veiklą su nauju darbuotoju tęskite pagal reikalavimą.</span><span class="sxs-lookup"><span data-stu-id="04e03-117">Follow up with the new hire as required.</span></span>
+4. <span data-ttu-id="04e03-118">Pabaigę užduotį, pažymėkite ją kaip atliktą, pridėdami varnelę apskritime.</span><span class="sxs-lookup"><span data-stu-id="04e03-118">When you've completed the task, mark it as completed by adding a check mark to the circle.</span></span>
 
-## <a name="next-steps"></a><span data-ttu-id="5f608-119">Kiti veiksmai</span><span class="sxs-lookup"><span data-stu-id="5f608-119">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="04e03-119">Kiti veiksmai</span><span class="sxs-lookup"><span data-stu-id="04e03-119">Next steps</span></span>
 
-- [<span data-ttu-id="5f608-120">Samdos komandų kūrimas „Onboard”</span><span class="sxs-lookup"><span data-stu-id="5f608-120">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
+- [<span data-ttu-id="04e03-120">Samdos komandų kūrimas „Onboard”</span><span class="sxs-lookup"><span data-stu-id="04e03-120">Create hiring teams in Onboard</span></span>](./onboard-create-team.md)
 
-### <a name="see-also"></a><span data-ttu-id="5f608-121">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="5f608-121">See also</span></span>
+### <a name="see-also"></a><span data-ttu-id="04e03-121">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="04e03-121">See also</span></span>
 
-- [<span data-ttu-id="5f608-122">Išbandykite arba įsigykite „Onboard” programėlę</span><span class="sxs-lookup"><span data-stu-id="5f608-122">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
-- [<span data-ttu-id="5f608-123">Kas nauja</span><span class="sxs-lookup"><span data-stu-id="5f608-123">What's new</span></span>](./whats-new.md)
-- [<span data-ttu-id="5f608-124">Leidimo pastabos</span><span class="sxs-lookup"><span data-stu-id="5f608-124">Release notes</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
-- [<span data-ttu-id="5f608-125">Palaikymo gavimas</span><span class="sxs-lookup"><span data-stu-id="5f608-125">Get support</span></span>](./talent-support.md)
+- [<span data-ttu-id="04e03-122">Išbandykite arba įsigykite „Onboard” programėlę</span><span class="sxs-lookup"><span data-stu-id="04e03-122">Try or buy the Onboard app</span></span>](https://dynamics.microsoft.com/talent/onboard/)
+- [<span data-ttu-id="04e03-123">Kas nauja arba pasikeitė „Dynamics 365 Talent“</span><span class="sxs-lookup"><span data-stu-id="04e03-123">What's new or changed in Dynamics 365 Talent</span></span>](./whats-new.md)
+- [<span data-ttu-id="04e03-124">Leidimo planai</span><span class="sxs-lookup"><span data-stu-id="04e03-124">Release plans</span></span>](https://docs.microsoft.com/business-applications-release-notes/index)
+- [<span data-ttu-id="04e03-125">Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas</span><span class="sxs-lookup"><span data-stu-id="04e03-125">Get support for Microsoft Dynamics 365 Talent</span></span>](./talent-support.md)
