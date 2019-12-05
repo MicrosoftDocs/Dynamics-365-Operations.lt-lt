@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 616d3f5560d18c7fdd8a092c3fbca0fde44be069
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570430"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772173"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
@@ -101,7 +101,7 @@ Naudodamiesi puslapiu **Tiekėjo SF darbo eigos būsenos nustatymas iš naujo** 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Tiekėjų sąskaitų faktūrų strategijų nustatymas](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
-- [Pagrindiniai SF duomenys apie mokėtinas sumas naudojant tiekėjo SF](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+- [Pagrindiniai SF duomenys AP sistemoje naudojant tiekėjo SF](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Pagrindiniai SF duomenys mokėtinose sumose naudojant patvirtinimo žurnalą](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Pagrindiniai SF duomenys AP sistemoje naudojant SF telkinį](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Įrašyti tiekėjo SF į SF žurnalą](tasks/record-vendor-invoice-invoice-journal.md)

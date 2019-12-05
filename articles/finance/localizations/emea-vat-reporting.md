@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8f1f8ed86af5b9fcb6ede91621b9227115bd2b59
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175801"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773450"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
@@ -263,11 +263,11 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 |----------------|---------------------------------------------------------------------------------|
 | Austrija        |  [PVM išrašo informacija, skirta Austrijai](emea-aut-vat-statement-details.md)         |
 | Belgija        |                                                                                 |
-| Čekijos Respublika |  [PVM išrašo informacija, skirta Čekijos Respublikai](emea-cze-vat-statement-details.md)   |
+| Čekijos Respublika |  [Čekijos PVM išrašas](emea-cze-vat-statement-details.md)   |
 | Estija        |  [PVM išrašo informacija, skirta Estijai](emea-est-vat-statement-details.md) |
 | Suomija        |                                                                                 |
 | Vokietija        |                                                                                 |
-| Italija          | [PVM išrašo informacija, skirta Italijai](emea-ita-vat-statements-details.md)            |
+| Italija          | [Išsami informacija apie Italijos PVM išrašus](emea-ita-vat-statements-details.md)            |
 | Latvija         | [PVM išrašo informacija, skirta Latvijai](emea-lva-vat-statement-details.md)           |
 | Lietuva      | [PVM išrašo informacija, skirta Lietuvai](emea-ltu-vat-statement-details.md)         |
 | Olandija    |                                                                                 |

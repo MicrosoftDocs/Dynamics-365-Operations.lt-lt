@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 544721af404775a6d8b65628848caa84ceaebe30
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572793"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813836"
 ---
 # <a name="quality-management-processes"></a>Kokybės valdymo procesai
 
@@ -90,14 +90,14 @@ Naudinga naudojant **Dokumento tipo** puslapį apibrėžti unikalų taisymų dok
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Kokybės valdymo įgalinimas](enable-quality-management.md)
+[Kokybės valdymo apžvalga](enable-quality-management.md)
 
-[Neatitikimo valdymo įgalinimas](enable-nonconformance-management.md)
+[Neatitikimo valdymas](enable-nonconformance-management.md)
 
 [Atsargų blokavimas](inventory-blocking.md)
 
 [Sulaikymo užsakymai](quarantine-orders.md)
 
-[Kokybės užsakymų nustatymas (užduočių vedlys)](tasks/set-up-quality-orders.md)
+[Nustatyti kokybės užsakymus](tasks/set-up-quality-orders.md)
 
-[Prekių kokybės tikrinimas (užduočių vedlys)](tasks/inspect-quality-goods.md)
+[Tikrinti prekių kokybę](tasks/inspect-quality-goods.md)

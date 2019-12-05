@@ -1,5 +1,5 @@
 ---
-title: Kandidatų ieška naudojant „LinkedIn Recruiter” programoje „Microsoft Dynamics 365 Talent - Attract”
+title: Kandidatų ieška naudojant LinkedIn Recruiter programoje „Attract“
 description: Naudojant „LinkedIn Recruiter”, kandidatų ieškai naudokite „LinkedIn” integravimą, kurį teikia „Microsoft Dynamics 365 Talent - Attract”.
 author: andreabichsel
 manager: AnnBe
@@ -19,15 +19,16 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 8f2e95e74bbc8d78ed5d970f29b61150a45c6740
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551569"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833051"
 ---
-# <a name="source-candidates-with-linkedin-recruiter-in-microsoft-dynamics-365-talent---attract"></a>Kandidatų ieška naudojant „LinkedIn Recruiter” programoje „Microsoft Dynamics 365 Talent - Attract”
-[!include[banner](../includes/banner.md)]
+# <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Kandidatų ieška naudojant LinkedIn Recruiter programoje „Attract“
+
+[!include [banner](includes/banner.md)]
 
 „LinkedIn” yra didžiausias pasaulyje internetinis profesionalų tinklas, suteikiantis jums prieigą prie pasaulio talentingiausiųjų. „Microsoft Dynamics 365 Talent: Attract” leidžia vykdyti kandidatų iešką tiesiai iš „LinkedIn”. Todėl dabar yra lengviau nei bet kada anksčiau rasti talentus, kuriais užpildysite savo laisvas darbo vietas. Kai nustatysite ryšį su „LinkedIn” per programą „Attract”, galėsite peržiūrėti potencialius „LinkedIn” kandidatus savo darbo vietoms ir eksportuoti juos į „Attract” tik vienu paspaudimu.
 
@@ -100,12 +101,12 @@ Jei kandidatai sutinka bendrinti savo „LinkedIn” profilius su kitais jūsų 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[DUK apie „LinkedIn“](./attract-linkedin-faq.md)
+[DUK apie „Attract” integravimą su „LinkedIn“](./attract-linkedin-faq.md)
 
-[Integravimo su „LinkedIn“ nustatymas](./attract-admin-linkedin.md)
+[Integravimo su „LinkedIn“ nustatymas programai „Microsoft Dynamics 365 Talent - Attract“](./attract-admin-linkedin.md)
 
-[Darbo vietų kūrimas](./creating-jobs-attract.md)
+[Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
-[Darbo skelbimų registravimas „LinkedIn“ iš „Attract“](./attract-post-jobs-to-linkedin.md)
+[Darbo skelbimų registravimas „LinkedIn“ iš „Microsoft Dynamics 365 Talent - Attract“](./attract-post-jobs-to-linkedin.md)
 
-[Integravimo su „LinkedIn“ trikčių diagnostika](./attract-troubleshoot-linkedin.md)
+[Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md)

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 20d48795b23628bbba2896bf48940936a25e0435
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550089"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771334"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 
@@ -55,7 +55,7 @@ Iš [„Microsoft“ atsisiuntimo centro](https://go.microsoft.com/fwlink/?linki
 | ER formato konfigūracijos pavyzdys        | Parametrizuotų kvietimų mokymo formatas.versija.1.1.xml  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Prisijunkite prie savo RCS egzemplioriaus
-Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc.“ konfigūraciją. Pirmiausia turite atlikti procedūros [Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu](tasks/er-configuration-provider-mark-it-active-2016-11.md) veiksmus:
+Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc.“ konfigūraciją. Pirmiausia naudodami RCS turite atlikti tolesnius procedūros [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md) veiksmus.
 
 1. Numatytoje ataskaitų srityje pasirinkite **Elektroninės ataskaitos**.
 2. Pasirinkite **Ataskaitų konfigūracijos**.
@@ -75,21 +75,21 @@ Iš [„Microsoft“ atsisiuntimo centro](https://go.microsoft.com/fwlink/?linki
 3. Pasirinkite **Dizaino įrankis**.
 4. Pasirinkite **Dizaino įrankis**.  
    
-Šis ER modelio susiejimas sukurtas toliau nurodytiems veiksmams:
+    Šis ER modelio susiejimas sukurtas toliau nurodytiems veiksmams:
 
-- Pateikti mokesčių kodų (duomenų šaltinis **Mokestis**), įrašytų lentelėje **TaxTable**, sąrašą.
-- Pateikti mokesčių operacijų (duomenų šaltinis **Operacija**), įrašytų lentelėje **TaxTrans**, sąrašą.
+    - Pateikti mokesčių kodų (duomenų šaltinis **Mokestis**), įrašytų lentelėje **TaxTable**, sąrašą.
+    - Pateikti mokesčių operacijų (duomenų šaltinis **Operacija**), įrašytų lentelėje **TaxTrans**, sąrašą.
     
-    - Sugrupuoti pateiktų operacijų sąrašą (duomenų šaltinis **Gr**) pagal mokesčio kodą.
-    - Apskaičiuoti sugrupuotas operacijas po verčių agregavimo pagal mokesčio kodą:
+        - Sugrupuoti pateiktų operacijų sąrašą (duomenų šaltinis **Gr**) pagal mokesčio kodą.
+        - Apskaičiuoti sugrupuotas operacijas po verčių agregavimo pagal mokesčio kodą.
 
-        - Mokesčio bazinių verčių suma.
-        - Mokesčio verčių suma.
-        - Mažiausioji taikomo mokesčio tarifo vertė.
+            - Mokesčio bazinių verčių suma.
+            - Mokesčio verčių suma.
+            - Mažiausioji taikomo mokesčio tarifo vertė.
 
-Modelio susiejimas šioje konfigūracijoje taikomas kaip bazinis duomenų modelis visiems šiam modeliui sukurtiems ir vykdomiems „Finance and Operations“ ER formatams. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
+    Modelio susiejimas šioje konfigūracijoje taikomas kaip bazinis duomenų modelis visiems šiam modeliui sukurtiems ir vykdomiems „Finance and Operations“ ER formatams. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
 
-  ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“](media/er-calculated-field-type-01.png)
+    ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“](media/er-calculated-field-type-01.png)
 
 5.  Uždarykite puslapį **Modelio susiejimo dizaino įrankis**.
 6.  Uždarykite puslapį **Modelio susiejimas**.
@@ -100,25 +100,25 @@ Modelio susiejimas šioje konfigūracijoje taikomas kaip bazinis duomenų modeli
 2. Pasirinkite **Parametrizuotų kvietimų mokymo formatas**.
 3. Pasirinkite **Dizaino įrankis**. Šis ER formatas sukurtas toliau nurodytiems veiksmams:
 
-  - Sugeneruoti mokesčių ataskaitą XML formatu.
-  - Mokesčių ataskaitoje pateiki šiuos apmokestinimo lygius: „reguliarus“, „sumažintas“ ir „nėra“.
-  - Pateikti įvairią skirtingo išsamumo kiekvieno apmokestinimo lygio informaciją.
+    - Sugeneruoti mokesčių ataskaitą XML formatu.
+    - Mokesčių ataskaitoje pateiki šiuos apmokestinimo lygius: „reguliarus“, „sumažintas“ ir „nėra“.
+    - Pateikti įvairią skirtingo išsamumo kiekvieno apmokestinimo lygio informaciją.
 
-  ![Formato dizaino įrankio puslapis](media/er-calculated-field-type-02.png)
+    ![Formato dizaino įrankio puslapis](media/er-calculated-field-type-02.png)
 
 4. Pasirinkite **Susiejimas**.
 5. Išskleiskite elementus **Modelis**, **Duomenys** ir **Suvestinė**. 
 
-   Apskaičiuotame lauke **Model.Data.Summary.Level** yra išraiška, kuri grąžina apmokestinimo lygio kodą (**Reguliarus**, **Sumažintas**, **Nėra** arba **Kita**) kaip bet kurio mokesčio kodo tekstinę reikšmę, kurią galima gauti iš duomenų šaltinio **Model.Data.Summary** vykdymo metu.
+    Apskaičiuotame lauke **Model.Data.Summary.Level** yra išraiška, kuri grąžina apmokestinimo lygio kodą (**Reguliarus**, **Sumažintas**, **Nėra** arba **Kita**) kaip bet kurio mokesčio kodo tekstinę reikšmę, kurią galima gauti iš duomenų šaltinio **Model.Data.Summary** vykdymo metu.
 
-  ![Formato konstruktoriaus puslapis, kuriame pateikiama informacija apie duomenų modelį „Parametrizuotų kvietimų mokymo modelis“](media/er-calculated-field-type-03.png)
+    ![Formato konstruktoriaus puslapis, kuriame pateikiama informacija apie duomenų modelį „Parametrizuotų kvietimų mokymo modelis“](media/er-calculated-field-type-03.png)
 
 6. Išplėskite elementą **Model**.**Data2**.
 7. Išplėskite elementą **Model**.**Data2.Summary2**.
    
-   Duomenų šaltinis **Model**.**Data2.Summary2** yra sukonfigūruotas taip, kad duomenų šaltinio **Model.Data.Summary** operacijų informacija būtų grupuojama pagal apmokestinimo lygį (kurį grąžina apskaičiuotas laukas **Model.Data.Summary.Level**) ir būtų skaičiuojami agreguoti duomenys.
+    Duomenų šaltinis **Model**.**Data2.Summary2** yra sukonfigūruotas taip, kad duomenų šaltinio **Model.Data.Summary** operacijų informacija būtų grupuojama pagal apmokestinimo lygį (kurį grąžina apskaičiuotas laukas **Model.Data.Summary.Level**) ir būtų skaičiuojami agreguoti duomenys.
 
-  ![Formato konstruktoriaus puslapis, kuriame pateikiama duomenų šaltinio Model.Data2.Summary2 informacija](media/er-calculated-field-type-04.png)
+    ![Formato konstruktoriaus puslapis, kuriame pateikiama duomenų šaltinio Model.Data2.Summary2 informacija](media/er-calculated-field-type-04.png)
 
 8. Peržiūrėkite apskaičiuotus laukus **Model**.**Data2.Level1**, **Model**.**Data2.Level2** ir **Model**.**Data2.Level3.** Šie apskaičiuoti laukai naudojami filtruoti įrašų sąrašui **Model**.**Data2.Summary2** ir pateikia tik įrašus, atitinkančius konkretų apmokestinimo lygį.
 9. Uždarykite puslapį **Formato dizaino įrankis**.
@@ -309,7 +309,7 @@ Kai parametrizuotas apskaičiuotas laukas pateikia įrašą, turite leisti atski
 Galite paleisti pradinį ir patobulintą ER formatus, kad įsitikintumėte, jog sukonfigūruoti parametrizuoti apskaičiuoti laukai veikia tinkamai.
 
 ### <a name="import-er-configurations"></a>Importuokite ER konfigūracijas
-Peržiūrėtas konfigūracijas galite importuoti iš RCS naudodami **RCS** tipo ER saugyklą. Jei jau atlikote šioje temoje aprašytus veiksmus, [Importuokite elektroninių ataskaitų konfigūracijas iš „Regulatory Configuration Services“](rcs-download-configurations.md), importuoti prieš tai šioje temoje aptartoms konfigūracijoms į aplinką naudokite sukonfigūruotą ER saugyklą. Priešingu atveju atlikite toliau nurodytus veiksmus:
+Peržiūrėtas konfigūracijas galite importuoti iš RCS naudodami **RCS** tipo ER saugyklą. Jei jau atlikote temoje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](rcs-download-configurations.md) aprašytus veiksmus, naudodami sukonfigūruotą ER saugyklą į savo aplinką importuokite prieš tai šioje temoje aptartas konfigūracijas. Priešingu atveju atlikite toliau nurodytus veiksmus:
 
 1. Pasirinkite įmonę **DEMF** ir numatytoje ataskaitų srityje pasirinkite **Elektroninės ataskaitos**.
 2. Pasirinkite **Ataskaitų konfigūracijos**.
@@ -339,4 +339,4 @@ Peržiūrėtas konfigūracijas galite importuoti iš RCS naudodami **RCS** tipo 
 8. Palyginkite sugeneruotų išvesčių turinį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-[Elektroninių ataskaitų formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)
+[Elektroninių ataskaitų (ER) formulių kūrimo įrankis](general-electronic-reporting-formula-designer.md)

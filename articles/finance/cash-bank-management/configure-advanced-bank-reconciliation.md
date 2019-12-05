@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2922b00dffe8e99f8331d7aaa7e2f1b7dc4f9ea6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 405af4e3e122953bbfa74e7e91d2feef8f068708
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179060"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772633"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Išplėstinio banko suderinimo sąrankos procesas
 
@@ -31,7 +31,7 @@ ms.locfileid: "2179060"
 
 Pažangaus banko derinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft Dynamics 365 Finance“. Šiame straipsnyje paaiškinami derinimo nustatymo procesai.  
 
-Prieš naudojant išplėstinio banko derinimo funkciją, reikia nustatyti keletą elementų. Daugiau informacijos apie banko išrašo importavimo nustatymą žr. dalyje [Banko išrašo importavimo proceso nustatymas](set-up-advanced-bank-reconciliation-import-process.md).  Derinimo proceso nustatymo reikalavimai išdėstyti toliau.
+Prieš naudojant išplėstinio banko derinimo funkciją, reikia nustatyti keletą elementų. Daugiau informacijos apie banko išrašo importavimo nustatymą žr. [Išplėstinio banko derinimo importo nustatymo procesas](set-up-advanced-bank-reconciliation-import-process.md).  Derinimo proceso nustatymo reikalavimai išdėstyti toliau.
 
 ## <a name="transaction-codes"></a>Operacijų kodai
 Operacijų kodus galima naudoti kaip dalį banko išrašo derinimo gretinimo taisyklių. Naudojant operacijų kodus galima sugretinti tik to pačio tipo operacijas tarp „Finance“ ir banko išrašo. Norėdami atlikti šio tipo gretinimą, pirmiausia turite nurodyti operacijų tipus, naudojamus „Finance“ banko operacijoms vykdyti, tada turite tuos tipus sugretinti su jūsų banko naudojamais sudengimo operacijų kodais. Banko operacijų tipai nurodyti puslapyje **Banko operacijų tipai**. Šiame puslapyje taip pat galima nurodyti pagrindinę sąskaitą, kuri bus naudojama su operacijos tipu susijusiems elementams registruoti. 

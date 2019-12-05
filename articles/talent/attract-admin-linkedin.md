@@ -1,5 +1,5 @@
 ---
-title: Integravimo su „LinkedIn“ nustatymas „Microsoft Dynamics 365 Talent - Attract“
+title: „Attract“ integravimo su „LinkedIn“ nustatymas
 description: Šioje temoje paaiškinama, kaip konfigūruoti „LinkedIn” integravimą „Microsoft Dynamics 365 Talent - Attract”, kad būtų galima lengvai registruoti darbo skelbimus „LinkedIn“ iš „Attract“ ir kad darbdaviai galėtų sinchronizuoti savo įdarbinimo informaciją su kandidato „LinkedIn” profiliu.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5cdce69396d6972d810e65e15b27c79119a0a9e6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4c518fb7036d44aa52c8db859ee3616fc4e58a06
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552122"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833189"
 ---
-# <a name="set-up-integration-with-linkedin-for-microsoft-dynamics-365-talent---attract"></a>Integravimo su „LinkedIn“ nustatymas „Microsoft Dynamics 365 Talent - Attract“
+# <a name="set-up-linkedin-integration-with-attract"></a>„Attract“ integravimo su „LinkedIn“ nustatymas
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Padėkite savo darbdaviams ir samdos vadovams pritraukti talentingiausius, sukonfigūruodami „LinkedIn“ integravimą su „Microsoft Dynamics 365 Talent: Attract”. „Attract” leidžia jums registruoti darbo skelbimus tiesiai į didžiausią profesionalų internetinį tinklą „LinkedIn”.
 
@@ -41,11 +41,11 @@ Darbo skelbimai, kuriuos registruosite į „LinkedIn” naudodami „Attract”
 Konfigūruokite abi parinktis skirtuke **„LinkedIn“ integravimas**, esančiame administravimo centre. Norėdami atidaryti administravimo centrą, eikite į <https://attract.talent.dynamics.com/adminsettings>.
 
 > [!NOTE]
-> Norint naudoti „LinkedIn Recruiter“ integravimą su „Attract“, jums reikia [išsamios įdarbinimo informacijos priedo](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) ir „[LinkedIn Recruiter” licencijų](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Norėdami gauti daugiau informacijos, žr. [Kurią „Attract“ versiją naudoti?](./attract-comprehensive-hiring.md).
+> Norint naudoti „LinkedIn Recruiter“ integravimą su „Attract“, jums reikia [išsamios įdarbinimo informacijos priedo](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring) ir „[LinkedIn Recruiter” licencijų](https://business.linkedin.com/talent-solutions/cx/17/08/recruiter-demo-fs2-k18). Norėdami gauti daugiau informacijos, žr [Kurią „Microsoft Dynamics 365 Talent - Attract“ versiją naudoti?](./attract-comprehensive-hiring.md).
 
-Jei kyla problemų registruojant darbo skelbimus „LinkedIn”, žr. [„LinkedIn” integravimo trikčių diagnostika](./attract-troubleshoot-linkedin.md).
+Jei kyla problemų registruojant darbo skelbimus „LinkedIn“, žr. [Integravimo trikčių diagnostika naudojant „LinkedIn“ and „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md).
 
-Norėdami gauti informacijos apie kitus būdus, kaip užregistruoti darbo skelbimus „LinkedIn”, žr. [DUK apie „LinkedIn“](./attract-linkedin-faq.md).
+Norėdami gauti informacijos apie kitus būdus, kaip užregistruoti darbo skelbimus „LinkedIn”, žr. [DUK apie „Attract“ integraciją į „LinkedIn“](./attract-linkedin-faq.md).
 
 ## <a name="configure-job-posting-to-linkedin"></a>Konfigūruoti darbo registravimą „LinkedIn“
 
@@ -98,7 +98,7 @@ Norėdami leisti darbdaviams siūlyti darbo vietas „LinkedIn Recruiter”, tur
 
 Jūs galite leisti kandidatams teikti prašymus dėl jūsų darbo vietų, naudojant savo „LinkedIn” profilius. Norėdami gauti daugiau informacijos apie prašymo teikimą naudojant „LinkedIn“, žr. [„LinkedIn” galia visur: prašymo teikimas naudojant „LinkedIn“](https://blog.linkedin.com/2011/07/24/apply-with-linkedin).
 
-Šiuo metu ši funkcija yra peržiūrima. Prieš atlikdami šiuos veiksmus, įsitikinkite, kad prašymo teikimas naudojant „LinkedIn” yra įgalintas. Daugiau informacijos apie peržiūros funkcijų įgalinimą žr. [Prieiga prie „Talent“ peržiūros funkcijų](./access-preview-feature.md).
+Šiuo metu ši funkcija yra peržiūrima. Prieš atlikdami šiuos veiksmus, įsitikinkite, kad prašymo teikimas naudojant „LinkedIn” yra įgalintas. Daugiau informacijos apie peržiūros funkcijų įgalinimą žr. [Prieiga prie „Microsoft Dynamics 365 Talent“ peržiūros funkcijų](./access-preview-feature.md).
 
 1. Meniu **Sąranka** (krumpliaračio simbolis) viršutiniame dešiniajame kampe pasirinkite **Administravimo centras**. Taip pat galite pereiti į <https://attract.talent.dynamics.com/adminsettings>.
 2. Pasirinkite skirtuką **„LinkedIn‟ integravimas**.
@@ -109,12 +109,12 @@ Jūs galite leisti kandidatams teikti prašymus dėl jūsų darbo vietų, naudoj
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[DUK apie „LinkedIn“](./attract-linkedin-faq.md)
+[DUK apie „Attract” integravimą su „LinkedIn“](./attract-linkedin-faq.md)
 
-[Darbo skelbimų skelbimas išorinėse svetainėse sprendime „Attract“](./posting-jobs-external.md)
+[Darbo skelbimų skelbimas išorinėse karjeros svetainėse naudojant „Attract“](./posting-jobs-external.md)
 
-[Kandidatų ieška naudojant „LinkedIn Recruiter”](./attract-linkedin-recruiter.md)
+[Kandidatų ieška naudojant LinkedIn Recruiter programoje „Microsoft Dynamics 365 Talent - Attract“](./attract-linkedin-recruiter.md)
 
-[Darbo vietų kūrimas](./creating-jobs-attract.md)
+[Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
-[Integravimo su „LinkedIn“ trikčių diagnostika](./attract-troubleshoot-linkedin.md)
+[Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md)

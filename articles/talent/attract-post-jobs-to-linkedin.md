@@ -1,5 +1,5 @@
 ---
-title: Darbo skelbimų registravimas „LinkedIn“ iš „Microsoft Dynamics 365 Talent - Attract“
+title: Darbo skelbimų registravimas „LinkedIn“ iš „Attract“
 description: Šioje temoje paaiškinama, kaip naudoti „Dynamics 365 Talent - Attract“ darbo skelbimams „LinkedIn” registruoti.
 author: andreabichsel
 manager: AnnBe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: e2b8065fe2521694efb30478a5a41676cff45127
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 782a2e5de6edf0e85c4d32a0910f5f3c01981a01
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551500"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833009"
 ---
-# <a name="post-jobs-to-linkedin-from-microsoft-dynamics-365-talent---attract"></a>Darbo skelbimų registravimas „LinkedIn“ iš „Microsoft Dynamics 365 Talent - Attract“
+# <a name="post-jobs-to-linkedin-from-attract"></a>Darbo skelbimų registravimas „LinkedIn“ iš „Attract“
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 „LinkedIn” yra didžiausias profesionalus internetinis tinklas, suteikiantis jums prieigą prie pasaulio talentingiausiųjų. „Microsoft Dynamics 365 Talent: Attract” padeda jums rasti reikiamą talentą, leisdami jums registruoti darbo skelbimus tiesiai iš „Attract” į „LinkedIn”.
 
@@ -46,7 +46,7 @@ ms.locfileid: "2551500"
 
 Daugiau informacijos apie vartotojų vaidmenis programoje „Attract” žr. [Sauga ir vaidmenų valdymas „Attract“](./security-attract.md).
 
-Jei esate administratorius ir norite sužinoti daugiau informacijos apie tai, kaip sukonfigūruoti „LinkedIn” integravimą su „Attract“, žr. [„LinkedIn” integravimo nustatymas](./attract-admin-linkedin.md).
+Jei esate administratorius ir norite sužinoti daugiau informacijos apie tai, sukonfigūruoti „LinkedIn“ integravimą su „Attract“, žr. [Integravimo su „LinkedIn“ nustatymas programai „Microsoft Dynamics 365 Talent - Attract“](./attract-admin-linkedin.md).
 
 „LinkedIn“ užregistruoti darbai rodomi „LinkedIn“ svetainėje realiuoju laiku. Darbų registravimo „LinkedIn“ tikrinimo aplinkos nėra. Todėl įsitikinkite, kad netyčia neregistruotumėte jokių tikrinimo darbų.
 
@@ -67,15 +67,15 @@ Kai suinteresuoti kandidatai pasirinks **Peržiūrėti** šalia jūsų skelbimo,
 
 Visi programoje „Attract” atlikti darbo skelbimų registravimai yra apriboti skelbimai. Daugiau informacijos apie apribotus skelbimus „LinkedIn”, žr. [Apriboti skelbimai palyginti su „Premium“ darbų vietomis naudojant automatinį darbų skelbimą](https://www.linkedin.com/help/recruiter/answer/79049).
 
-Jei jums kyla problemų registruojant darbo skelbimus „LinkedIn”, žr. [Darbo skelbimų registravimo „LinkedIn” trikčių diagnostika](./attract-troubleshoot-linkedin.md).
+Jei kyla problemų registruojant darbo skelbimus „LinkedIn“, žr. [Integravimo trikčių diagnostika naudojant „LinkedIn“ and „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[DUK apie „LinkedIn“](./attract-linkedin-faq.md)
+[DUK apie „Attract” integravimą su „LinkedIn“](./attract-linkedin-faq.md)
 
-[Integravimo su „LinkedIn“ nustatymas](./attract-admin-linkedin.md)
+[Integravimo su „LinkedIn“ nustatymas programai „Microsoft Dynamics 365 Talent - Attract“](./attract-admin-linkedin.md)
 
-[Darbo vietų kūrimas](./creating-jobs-attract.md)
+[Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
 [Kandidatų ieška naudojant „LinkedIn Recruiter”](./attract-linkedin-recruiter.md)
 

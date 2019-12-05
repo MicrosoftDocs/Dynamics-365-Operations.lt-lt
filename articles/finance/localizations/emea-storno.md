@@ -16,12 +16,12 @@ ms.search.region: Czech Republic, Germany, Hungary, Latvia, Lithuania, Poland, R
 ms.author: v-semaz
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95d85df8c5e23267f9be6c75370cadad8da499c2
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 2cefdbc03b19eebff8141d4f578047de002ace56
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250346"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773458"
 ---
 # <a name="storno-accounting"></a>Storno apskaita
 
@@ -32,7 +32,7 @@ Storno apskaita yra neigiamų skaičių naudojimo praktika, norint pakeisti prad
 *Storno apskaita* yra neigiamų debeto arba kredito sumų naudojimo praktika, norint pakeisti pradinius žurnalo sąskaitos įrašus. Kadangi finansininkai paprastai Storno įrašus rašo raudonu rašalu, šis apskaitos praktika dar vadinama *raudonuoju Storno*. Storno apskaita suteikia galimybę atšaukti dokumentą su neteisingomis sumomis, tačiau po atšaukimo visada reikia įvesti teisingą dokumento sumą.
 
 ## <a name="example"></a>Pavyzdys
-Finansininkas užregistruoja tiekėjo SF už 120 USD. Mokėjimo proceso metu finansininkas klaidingai įveda 120 USD, o ne 102 USD. Dabar finansininkas turi sukurti pradinio dokumento Storno ir tada sukurti teisingą 102 USD vertės SF. Daugiau informacijos žr.  [Tiekėjo SF](../accounts-payable/vendor-invoices-overview.md). Toliau pateikiamoje lentelėje parodytas bendrasis Storno įrašas.
+Finansininkas užregistruoja tiekėjo SF už 120 USD. Mokėjimo proceso metu finansininkas klaidingai įveda 120 USD, o ne 102 USD. Dabar finansininkas turi sukurti pradinio dokumento Storno ir tada sukurti teisingą 102 USD vertės SF. Norėdami gauti daugiau informacijos, žr. [Tiekėjų sąskaitų faktūrų apžvalga](../accounts-payable/vendor-invoices-overview.md). Toliau pateikiamoje lentelėje parodytas bendrasis Storno įrašas.
 
 | **Dokumento ID** | **Sąskaita** | **Debetas** | **Kreditas** | **Komentaras**                  |
 |-----------------|-------------|-----------|------------|------------------------------|
@@ -168,5 +168,5 @@ Storno rodinį formose, tinkleliuose, stulpeliuose ir laukuose galite tinkinti. 
 ![Žurnalo įrašo Storno sumos](./media/journal-storno.png)
 
 ## <a name="how-documents-create-storno"></a>Kaip dokumentai kuria Storno
-Tam tikri dokumentai kuria atšaukimo operacijas. Pvz., DK, mokėtinų sumų ir gautinų sumų dokumentų užsienio valiutos kurso pasikeitimo operacija atšaukia negautą pelną ir nuostolį. Daugiau informacijos žr. [DK užsienio valiutos kurso pasikeitimas](../general-ledger/foreign-currency-revaluation-general-ledger.md) arba [Mokėtinos sumos ir gautinos sumos](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Sukūrus atšaukimo operaciją, sukuriamos naujos operacijos su negautu pelnu ir nuostoliu. Taip pat sukuriamos atsargų atšaukimo operacijos. Daugiau informacijos žr.  [Atsargų uždarymas](../../supply-chain/cost-management/inventory-close.md). Tam tikri dokumentai suteikia galimybę atšaukti anksčiau užregistruotą dokumentą. Pavyzdžiui, vartotojas gali sukurti kredito pažymą, norėdamas atšaukti anksčiau sukurtą SF. Dokumentuose naudojami konkretūs parametrai, kad būtų sukurtos atvirkštinės arba Storno operacijos. Pavyzdžiui, užsienio valiutos kurso pasikeitimo operacija sukuria atvirkštines arba Storno operacijas pagal DK koregavimo parametrą. Kliento kredito pažyma sukuria atvirkštines arba Storno operacijas pagal gautinų sumų kredito pažymos koregavimo parametrą.
+Tam tikri dokumentai kuria atšaukimo operacijas. Pvz., DK, mokėtinų sumų ir gautinų sumų dokumentų užsienio valiutos kurso pasikeitimo operacija atšaukia negautą pelną ir nuostolį. Norėdami gauti daugiau informacijos, žr. [Užsienio valiutos kurso pasikeitimas modulyje Didžioji knyga](../general-ledger/foreign-currency-revaluation-general-ledger.md) arba [Užsienio valiutos kurso pasikeitimas moduliuose Mokėtinos sumos ir Gautinos sumos](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md). Sukūrus atšaukimo operaciją, sukuriamos naujos operacijos su negautu pelnu ir nuostoliu. Taip pat sukuriamos atsargų atšaukimo operacijos. Daugiau informacijos žr.  [Atsargų uždarymas](../../supply-chain/cost-management/inventory-close.md). Tam tikri dokumentai suteikia galimybę atšaukti anksčiau užregistruotą dokumentą. Pavyzdžiui, vartotojas gali sukurti kredito pažymą, norėdamas atšaukti anksčiau sukurtą SF. Dokumentuose naudojami konkretūs parametrai, kad būtų sukurtos atvirkštinės arba Storno operacijos. Pavyzdžiui, užsienio valiutos kurso pasikeitimo operacija sukuria atvirkštines arba Storno operacijas pagal DK koregavimo parametrą. Kliento kredito pažyma sukuria atvirkštines arba Storno operacijas pagal gautinų sumų kredito pažymos koregavimo parametrą.
 

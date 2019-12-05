@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a7db93e1877034051b6add4c11ddfe7cd7d17e0b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 575b27de845d931c990b1d19254b5218fa6e4199
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187917"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770855"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensijų kūrimas ir dimensijų narių importavimas
 
@@ -44,11 +44,10 @@ Toliau pateiktoje diagramoje pavaizduotos modulyje Kaštų apskaita naudojamos d
 Į modulį Kaštų apskaita importavus duomenų, jį naudojant galima sukurti įvairių perspektyvų, vadovams suteikiančių įžvalgų visuose organizacijos lygiuose. Tolesnėse temose pateikta informacijos apie dimensijų kūrimą ir dimensijų narių importavimą. 
 
 -  [Savikainos elemento dimensijos](cost-elements.md)
--  [Savikainos elementų kūrimas (užduočių vedlys)](./tasks/create-cost-elements.md)
+-  [Išlaidų elementų kūrimas](./tasks/create-cost-elements.md)
 -  [Savikainos objekto dimensijos](cost-objects.md)
--  [Savikainos elementų kūrimas (užduočių vedlys)](./tasks/create-cost-objects.md)
 -  [Savikainos elemento dimensijos narių susiejimas į bendrą dimensijos narių rinkinį](map-cost-elements-dimension-members.md)
--  [Savikainos elemento dimensijos susiejimas (užduočių vedlys)](./tasks/map-cost-element-dimension.md)
+-  [Išlaidų elemento dimensijos susiejimas](./tasks/map-cost-element-dimension.md)
 -  [Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai](statistical-measure-provider-template.md)
 
 

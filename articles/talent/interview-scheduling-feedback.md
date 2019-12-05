@@ -1,5 +1,5 @@
 ---
-title: Pokalbio planavimas ir atsiliepimas
+title: Planuoti pokalbius su pretendentais programoje „Attract“
 description: Šioje temoje pateikiama informacija apie pokalbio planavimo ir atsiliepimų veiklas „Attract“.
 author: hasrivas
 manager: AnnBe
@@ -14,16 +14,16 @@ ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
-ms.openlocfilehash: 39b14f3ca855ca283a7484e480ff2547623938ef
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518639"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832750"
 ---
-# <a name="interview-scheduling-and-feedback"></a>Pokalbio planavimas ir atsiliepimas
+# <a name="schedule-interviews-in-attract"></a>Planuoti pokalbius su pretendentais programoje „Attract“
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="scheduler-activity"></a>Duomenų apsikeitimo valdymo veikla
 

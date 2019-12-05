@@ -1,5 +1,5 @@
 ---
-title: „Microsoft Dynamics 365 Talent” – „Attract“ funkcijos ir galimybės
+title: „Attract“ funkcijos ir galimybės
 description: Šioje temoje aprašomos „Microsoft Dynamics 365 Talent - Attract“ funkcijos, skirtos naujų talentų samdymo procesui valdyti.
 author: andreabichsel
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c8860602bd293c158aa33ea22b5f73de15a6b6f
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 4186dddc471de676cc6d26050f16711f581da7ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552076"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833074"
 ---
-# <a name="microsoft-dynamics-365-talent---attract-features-and-capabilities"></a>„Microsoft Dynamics 365 Talent” – „Attract“ funkcijos ir galimybės
+# <a name="attract-features-and-capabilities"></a>„Attract“ funkcijos ir galimybės
 
 [!include [banner](includes/banner.md)]
 
@@ -48,4 +48,4 @@ Naudojant „Attract“ galima taikyti iš anksto nustatytą samdos procesą, ku
 Kai tik kandidatai įtraukiami į darbo vietą, jie gauna el. laišką su saitu, kurį naudodami jie gali gauti šią programą. Programa pateikia išsamios informacijos apie darbo vietą ir yra bendravimo su samdos komanda įrankis. Ją naudodami kandidatai taip pat gali nurodyti, kada jie gali dalyvauti pokalbiuose.
 
 ## <a name="analytic-reports"></a>Analizės ataskaitos
-Samdos komandos gali peržiūrėti pagrindinę samdos proceso metriką, skirtą vienai užduočiai, arba apibendrintą visų užduočių metriką, naudodami [„Attract“ analizės ataskaitas](analytic-reports.md). Šiuo metu naudojama šios funkcijos [peržiūra](access-preview-feature.md) klientams, turintiems [Išsamios įdarbinimo informacijos priedą](attract-comprehensive-hiring.md).
+Samdos komandos gali peržiūrėti pagrindinę samdos proceso metriką, skirtą vienai užduočiai, arba apibendrintą visų užduočių metriką, naudodami [„Attract“ analizės ataskaitas](analytic-reports.md). Ši funkcija šiuo metu yra [peržiūroje](access-preview-feature.md) klientams, turintiems [Kurią „Microsoft  Dynamics 365 Talent - Attract“ versiją naudoti](attract-comprehensive-hiring.md).

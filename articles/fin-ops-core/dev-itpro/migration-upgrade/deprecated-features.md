@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e1c5dea039ae6482bfd9e036642c23463f5bc3a
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 52ed93ae425a821ebce4ed63f154e155cb161e94
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658695"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811998"
 ---
 # <a name="removed-or-deprecated-features-for-finance-and-operations"></a>Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos
 
@@ -348,7 +348,7 @@ Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produ
 | **Būsena**                         |Pašalinta nuo 2018 m. vasario 15 d. Tai turės įtakos klientams, naudojantiems „Dynamics 365 for Operations 1611“ ir vėlesnes versijas.  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas
-Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugiau informacijos žr. [Elektroninių ataskaitų funkcijų sąrašo išplėtimas](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) nebegalima. Pasikeitus ER API, API, skirti įtaisytąsias funkcijas iš ER išraiškos daryklės iškviesti, tapo vidiniais ir jų nebegalima išplėsti.
+Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugiau informacijos žr. [Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) nebegalima. Pasikeitus ER API, API, skirti įtaisytąsias funkcijas iš ER išraiškos daryklės iškviesti, tapo vidiniais ir jų nebegalima išplėsti.
 
 |   |  |
 |------------|--------------------|
@@ -474,7 +474,7 @@ Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kur
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos.       |
-| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [„Microsoft Dynamics 365 for Finance and Operations“ – versijos „Warehousing“ diegimas ir konfigūravimas](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
+| **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – versija „Warehousing“. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
 | **Paveiktos produkto sritys**         | Sandėlio valdymas, transportavimo valdymas     |
 | **Visuotinio diegimo parinktis**              | Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui.               |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2019 m. 4 ketvirtis.   |
@@ -1244,7 +1244,7 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Produkto generatorius X++ kodą rodydavo galutiniams naudotojams ir dabartinėje „Dynamics AX“ versijoje nėra palaikomas. Jis pašalintas siekiant išvengti besidubliuojančių priežiūros darbų sutampančiose, keičiamo dydio kodų bazėse.  |
-| **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio kūrimas](../../../supply-chain/pim/build-product-configuration-model.md). |
+| **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio apžvalga](../../../supply-chain/pim/build-product-configuration-model.md). |
 | **Paveiktos produkto sritys**         | Produktų informacijos valdymas, Pardavimas ir rinkodara  |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.      |
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 5b52e1765d3afbe1730e96f58b601aebccd12787
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7154a6e8aff62b1ebf79edfecb1e1b99048f7c44
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181271"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771474"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -122,7 +122,7 @@ Jei parinktį **Įjungta** nustatysite į **Taip**, sukuriama išeigos peržiūr
 
 ### <a name="power-bi-destination"></a>„Power BI“ paskirties vieta
 
-Nustatykite parinktį **Įjungta** į **Taip**, norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš egzemplioriaus į „Microsoft Power BI“ tarnybas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų konfigūracijos naudojimas norint paslaugai „Power BI“ teikti duomenų iš „Finance“](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+Nustatykite parinktį **Įjungta** į **Taip**, norėdami naudoti ER konfigūraciją, kad išdėstytumėte duomenų perkėlimą iš egzemplioriaus į „Microsoft Power BI“ tarnybas. Perkelti failai saugomi „Microsoft SharePoint Server“ egzemplioriuje, kuris šiuo tikslu turi būti sukonfigūruotas. Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](general-electronic-reporting-report-configuration-get-data-powerbi.md).
 
 > [!TIP]
 > Norėdami perrašyti numatytuosius parametrus (t. y. konfigūracijos dialogo lango rodymą), galite sukurti pagrindinio išvesties komponento paskirties vietos nuorodą ir failo paskirties vietą, o tada išaktyvinti visas paskirties vietas.
@@ -163,4 +163,4 @@ Jūsų norimas formatas turi būti įjungtas ER konfigūracijose. Jei turite sav
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+[Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)

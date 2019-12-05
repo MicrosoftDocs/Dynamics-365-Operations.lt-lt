@@ -1,9 +1,9 @@
 ---
-title: „Talent“ sistemos reikalavimai ir naujinimo strategija
-description: Šioje temoje pateikiami „Dynamics 365 Talent“ reikalavimai. Tai pat pateikta naujinimo strategija.
+title: „Talent“ sistemos reikalavimai
+description: Šioje temoje pateikiami „Dynamics 365 Talent“ reikalavimai.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/02/2019
+ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b8bf44fc76be968b0b04fd894c39b4c19fd374ce
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 0bd7d7051dd01834f306e165af55d740192b99e0
+ms.sourcegitcommit: caeb24027831efccbc316ff8e7f9e62b42010d65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024165"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "2818484"
 ---
-# <a name="talent-system-requirements-and-update-policy"></a>„Talent“ sistemos reikalavimai ir naujinimo strategija
+# <a name="talent-system-requirements"></a>„Talent“ sistemos reikalavimai
 
 [!include [banner](includes/banner.md)]
 
@@ -54,7 +54,7 @@ Norėdami rasti naujausią kiekvienos žiniatinklio naršyklės leidimą, eikite
 
 ## <a name="supported-microsoft-office-applications"></a>Palaikomos „Microsoft Office“ taikomosios programos
 
-* Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Išsamios informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../dev-itpro/office-integration/office-integration-troubleshooting.md "„Office“ integravimo trikčių šalinimas").
+* Kad galėtumėte naudoti „Microsoft Excel“ papildinius, turi būti įdiegta „Windows“ arba „Mac“ skirta „Microsoft Office 2016“. Daugiau informacijos apie versijų reikalavimus žr. [„Office“ integravimo trikčių šalinimas](../dev-itpro/office-integration/office-integration-troubleshooting.md "„Office“ integravimo trikčių diagnostika").
 * Norėdami peržiūrėti dokumentus, sugeneruotus naudojant funkciją Eksportuoti į „Excel“ arba Eksportuoti į „Word“, turi būti įdiegta „Microsoft Office 2007“ arba naujesnė versija.
 
 ## <a name="regional-availability-languages-and-localization"></a>Regiono pasiekiamumas, kalbos ir lokalizavimas
@@ -66,8 +66,3 @@ Galite atsisiųsti „Talent“ palaikomų šalių, regionų ir kalbų PDF fail�
 
 Jei esate kūrėjas, ir norėtumėte kurti konkrečiai šaliai arba regionui skirtus tinkinimus arba sukurti sprendimą šaliai arba regionui, kurio šiuo metu „Microsoft“ nepalaiko, žr. [Globalizacija](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region).
 
-## <a name="update-policy"></a>Naujinimo strategija
-
-„Talent“ aptarnaujama kaip debesies pasiūlymas. „Talent“ naujinimai yra nuolatiniai ir „Microsoft“ juos taiko automatiškai.
-
-Naujinimai išleidžiami reguliariai ir skiriami visoms aplinkoms. „Talent“ palaikoma atsižvelgiant į [„Microsoft Support Lifecycle“ strategiją](https://support.microsoft.com/gp/lifecycle#gp/OSSLpolicy "„Microsoft Support Lifecycle“"), kuri numato nuoseklias ir prognozuojamas produktų palaikymo gaires.

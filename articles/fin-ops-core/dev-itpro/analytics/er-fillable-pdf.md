@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13744df950040056ba03a3847d84f93e266ea6c3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181455"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771311"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER konfigūracijų kūrimas pildymui PDF šablonuose
 
@@ -46,7 +46,7 @@ Prieš pradėdami, turite turėti vieną iš šių prieigos tipų, atsižvelgian
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
-Taip pat turite atlikti [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedūrą.
+Taip pat turite atlikti [Konfigūracijų teikėjų kūrimas ir pažymėjimas kaip aktyvių](tasks/er-configuration-provider-mark-it-active-2016-11.md) procedūrą.
 
 Galiausiai, turite atsisiųsti šiuos failus iš [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
 
@@ -300,5 +300,5 @@ Tada įkelsite pavyzdinį ER formatą **„Intrastat“ (importuoti iš „Excel
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas](tasks/er-design-reports-openxml-2016-11.md)
-- [ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Microsoft WORD“ formatu](tasks/er-design-configuration-word-2016-11.md)
+- [ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)](tasks/er-design-reports-openxml-2016-11.md)
+- [ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu](tasks/er-design-configuration-word-2016-11.md)

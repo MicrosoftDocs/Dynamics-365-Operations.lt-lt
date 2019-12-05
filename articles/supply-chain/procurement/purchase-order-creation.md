@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5454b9003105e4b44ec7577e5f8989c75554aeb9
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: e6126c62f3768871550a056c2c7670ec801e3b7d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572221"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815393"
 ---
 # <a name="create-purchase-orders"></a>Pirkimo užsakymų sukūrimas
 
@@ -86,13 +86,13 @@ PU baigimą gali tekti atidėti. Pavyzdžiui, gali reikėti papildomos informaci
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Pirkimo užsakymo apžvalga](purchase-order-overview.md)
+[Pirkimo užsakymų apžvalga](purchase-order-overview.md)
 
-[Pirkimo užsakymo patvirtinimas](purchase-order-approval-confirmation.md)
+[Pirkimo užsakymų tvirtinimas](purchase-order-approval-confirmation.md)
 
 [Produkto gavimas pagal pirkimo užsakymą](product-receipt-against-purchase-orders.md)
 
-[Tiekėjo SF apžvalga](../../finance/accounts-payable/vendor-invoices-overview.md)
+[Tiekėjų sąskaitų faktūrų apžvalga](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d70bce4e47c05a7974c1b974fdca17682e5370aa
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550862"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772392"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Beveik realiuoju laiku vykstantis duomenų integravimas su „Common Data Service”
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Šiame skaitmeniniame pasaulyje verslo ekosistemos naudoja „Microsoft Dynamics 365“ programas kaip visumą. Kadangi žmonių, klientų, operacijų ir daiktų interneto („IoT“) įrenginiai patenka į vieną šaltinį, galimos skaitmeninės grįžtamojo ryšio spragos. Norint pasiekti šią patirtį, būtinas integravimas tarp „Finance and Operations“ ir „Dynamics 365“ programų. Kai kurios programos sukurtos remiantis „Common Data Service“. „Finance and Operations“ programų duomenų integravimas su „Common Data Service“ leidžia kitoms programoms nuosekliai ir sklandžiai sąveikauti su „Finance and Operations“.
 
@@ -38,13 +36,16 @@ ms.locfileid: "2550862"
 
 ![Struktūros apžvalgos diagrama](media/dual-write-overview.jpg)
 
-Klientams prieinami šie vertės pasiūlymas:
+Galimi tolesni vertės pasiūlymai.
 
 + [Organizacijos hierarchija Common Data Service](dual-write-organization.md)
 + [Įmonės sąvoka programoje „Common Data Service“](dual-write-company.md)
 + [Integruotas kliento šablonas](dual-write-customer.md)
++ [Integruota didžioji knyga](dual-write-ledger.md)
++ [Bendrosios produkto funkcijos](dual-write-product.md)
 + [Integruotas tiekėjo šablonas](dual-write-vendor.md)
-+ Vieningo produkto šablonas
++ [Integruotos svetainės ir sandėliai](dual-write-sites-and-warehouses.md)
++ [Bendrieji integruotų mokesčių duomenys](dual-write-tax.md)
 
 ## <a name="system-requirements"></a>Sistemos reikalavimai
 

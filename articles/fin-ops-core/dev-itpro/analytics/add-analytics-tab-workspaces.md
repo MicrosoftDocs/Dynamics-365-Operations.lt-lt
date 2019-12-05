@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: dd88537506521fd37aa170c7e8f43bcf5a106836
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174356"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771638"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -102,7 +102,7 @@ Pridėję formų valdiklių, kurie bus naudojami darbo srities ataskaitai įdėt
 > [!NOTE]
 > Norint išlaikyti nuoseklumą, įdėtoms darbo sritims rekomenduojame naudoti plėtinius, kurie paslėptų puslapius **Filtrų sritis** ir **Skirtukas**.
 
-Užbaigėte prašymo formos apibrėžimo išplėtimo užduotį. Daugiau informacijos apie tai, kaip naudoti plėtinius tinkinimams atlikti, ieškokite [Tinkinimas: perdengimas ir plėtiniai](../extensibility/customization-overlayering-extensions.md).
+Užbaigėte prašymo formos apibrėžimo išplėtimo užduotį. Daugiau informacijos apie tai, kaip naudoti plėtinius tinkinimams atlikti, ieškokite [Tinkinimas naudojant plėtinius ir perdengimą](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>X ++ verslo logikos įtraukimas norint įdėti peržiūros programos valdiklį
 Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią į darbo sritį **Rezervacijų valdymas** įdėtą peržiūros programos valdiklį.

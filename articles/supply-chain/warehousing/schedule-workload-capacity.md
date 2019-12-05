@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: d5d878b0fe4e6b65aa2439d7ef7312eda1895823
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559042"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814932"
 ---
 # <a name="schedule-workload-capacity"></a>Darbo krūvio pajėgumo planavimas
 
@@ -30,7 +30,7 @@ ms.locfileid: "1559042"
 
 Galite planuoti darbo krūvio pajėgumus sandėliuose, taip pat prognozuoti dabartinius ir būsimus darbuotojų darbo krūvius atskiruose sandėliuose. Galite prognozuoti viso sandėlio darbo krūvį arba galite prognozuoti darbo krūvį atskirai pagal įeinančio ir išeinančio darbo krūvius.
 
-Norint prognozuoti darbo krūvį pasirinktuose sandėliuose, turi būti prieinami tų sandėlių bendrojo planavimo duomenys. Daugiau informacijos rasite faile [Bendrieji planai](../master-planning/master-plans.md).
+Norint prognozuoti darbo krūvį pasirinktuose sandėliuose, turi būti prieinami tų sandėlių bendrojo planavimo duomenys. Daugiau informacijos žr. [Bendrųjų planų apžvalga](../master-planning/master-plans.md).
 
 ## <a name="schedule-and-view-workloads-for-a-warehouse"></a>Planuoti ir peržiūrėti darbo krūvius sandėlyje
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c40877bc6557a81adc5c1b8d10afbbd26322b200
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3677db634366ecfe6a26f2f5e01532ce5a087593
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249940"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815254"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>KS ir formulių eilučių išdavimas į sandėlį
 
@@ -31,7 +31,7 @@ ms.locfileid: "2249940"
 Šioje temoje aprašomas KS eilučių ir formulės eilučių žaliavų išdavimo į sandėlį procesas. Kai į sandėlį išduodate KS arba formulės eilutę, sistema pirmiausia nustato, ar medžiagos jau yra gamybos įvesties vietoje ceche, kur medžiaga bus naudojama gamybos proceso metu.
 
 - Jei medžiagos yra gamybos įvesties vietoje, ji paimama iš tos vietos iš karto davus signalą išduoti medžiagą į sandėlį.
-- Jei medžiagos gamybos įvesties vietoje nėra, medžiagos išdavimas nurodo, kad medžiagą reikia perkelti iš sandėlio vietų į gamybos įvesties vietą. Medžiaga perkeliama naudojant žaliavų paėmimo sandėlio darbą. Todėl žaliavų paėmimo sandėlio procesus reikia sukonfigūruoti. Daugiau informacijos žr. [Papildymas](../warehousing/replenishment.md) ir [Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus](../warehousing/control-warehouse-location-directives.md).
+- Jei medžiagos gamybos įvesties vietoje nėra, medžiagos išdavimas nurodo, kad medžiagą reikia perkelti iš sandėlio vietų į gamybos įvesties vietą. Medžiaga perkeliama naudojant žaliavų paėmimo sandėlio darbą. Todėl žaliavų paėmimo sandėlio procesus reikia sukonfigūruoti. Daugiau informacijos žr. [Papildymo apžvalga](../warehousing/replenishment.md) ir [Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus](../warehousing/control-warehouse-location-directives.md).
 
 ## <a name="methods-for-releasing-bom-and-formula-lines"></a>KS ir formulės eilučių išdavimo būdai
 

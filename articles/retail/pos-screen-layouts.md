@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4852ec9b347f119a1007b63476b8609a3e38ba57
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c4636f5a023786e3871eb5d907e2e9546181827a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025282"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811785"
 ---
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>Elektroninio kasos aparato (EKA) ekrano maketai
 
@@ -171,7 +171,7 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 
     - **Veiksmas** – taikytinų EKA operacijų sąraše pasirinkite operaciją, iškviečiamą EKA aparate spustelėjus mygtuką.
 
-        Norėdami matyti palaikomų EKA operacijų sąrašą, žr. [EKA operacijos, prisijungus ir neprisijungus prie interneto](pos-operations.md).
+        Norėdami matyti palaikomų EKA operacijų sąrašą, žr. [Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto](pos-operations.md).
 
     - **Veiksmo parametrai** – kai kurios EKA operacijos iškviestos naudoja papildomų parametrų. Pavyzdžiui, naudodami operaciją Įtraukti produktą, vartotojai gali nurodyti įtrauktiną produktą.
     - **Mygtuko tekstas** nurodykite tekstą, rodomą ant EKA mygtuko.
@@ -193,4 +193,4 @@ Mygtukynų dizaino įrankis leidžia konfigūruoti mygtukynus, kuriuos galima na
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Retail POS“ maketo dizaino įrankio diegimas](install-pos-layout-designer.md)
+[Mažmeninės prekybos elektroninio kasos aparato (EKA) maketo dizaino įrankio diegimas](install-pos-layout-designer.md)

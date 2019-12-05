@@ -17,12 +17,12 @@ ms.search.region: Latvia, Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6cdf40896fe4e8a3576770906f75717f35cf074
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 50b126e61a3df57b7a80c65b4943e00b49668f21
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183772"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773464"
 ---
 # <a name="invoice-and-packing-slip-numbering-for-latvia-and-lithuania"></a>SF ir važtaraščių numeravimas (Latvija ir Lietuva)
 
@@ -98,7 +98,7 @@ Galite priskirti konkrečias numerių sekas SF ir važtaraščiams, kurie yra ge
 | Tipas           | Pasirinkite dokumento tipą, kurį reikia numeruoti: **SF** arba **Važtaraštis**.                                                                         |
 | Automatinis numeravimas | Pažymėkite šią parinktį, jei norite dokumentui numerį priskirti automatiškai. Galite neautomatiškai pažymėti arba atžymėti šią parinktį atskiriems dokumentams.       |
 
-Daugiau informacijos apie tai, kaip neautomatiškai numeruoti SF ir važtaraščius, žr. [Pardavimo užsakymų SF ID redagavimas](emea-edit-invoice-id-sales-orders.md).
+Norėdami gauti informacijos apie tai, kaip patiems numeruoti sąskaitas faktūras ir važtaraščius, žr. [Rytų Europos pardavimo užsakymų sąskaitų faktūrų ID redagavimas](emea-edit-invoice-id-sales-orders.md).
 
 ## <a name="affected-processes"></a>Paveikti procesai
 Toliau pateiktų dokumentų antraštės atnaujinamos naudojant SF ir važtaraščių numeraciją.
@@ -124,7 +124,7 @@ Be to, toliau nurodytos formos pateikiamos lauke **Dokumentai atnaujinti**.
 -   Pardavimo registravimo SF forma
 -   Pirkimo registravimo produkto gavimo dokumento forma
 
-Laukas **Dokumentai naujinti** turi įtakos puslapių **Važtaraščių žurnalas** ir **SF žurnalas** lauko **Dokumento būsena** rodiniui. Kai kuriamas **Važtaraštis** lauko **Dokumento būsena** vertė yra **Nėra**. Jei lauke **Dokumentai naujinti** buvo pasirinktas bet koks **Važtaraštis**, tada jo **Dokumento būsena** bus **Sugadintas**, o **važtaraščio** **Dokumento būsena** toje vietoje, kurioje jis buvo sukurtas, bus **Atšaukta**.
+Laukas **Dokumentai naujinti** turi įtakos puslapių **Važtaraščių žurnalas** ir **SF žurnalas** lauko **Dokumento būsena** rodiniui. Kai kuriamas **Važtaraštis**, lauko **Dokumento būsena** reikšmė yra **Nėra**. Jei lauke **Dokumentai naujinti** buvo pasirinktas bet koks **Važtaraštis**, tada jo **Dokumento būsena** bus **Sugadintas**, o **važtaraščio** **Dokumento būsena** toje vietoje, kurioje jis buvo sukurtas, bus **Atšaukta**.
 
 
 

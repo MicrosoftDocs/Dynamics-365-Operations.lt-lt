@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: fda94e77480b9d9455fc0e214e43772ab2921f2d
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: a987e75834ddde486421a425a621e66f0b6e063f
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577905"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811170"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos nustatymas
 
@@ -210,7 +210,7 @@ Klaidų tvarkymo parinktys, teikiamos fiskalinėje integracijoje, nustatomos fis
 
 Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumėte įtraukti naujų mygtukų.
 
-- Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas temoje [Pasirinktinio operacijos mygtuko įtraukimas į EKA maketą mažmeninių pardavimų valdyme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
+- Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas [EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
 
     1. Pasirinkite atnaujintiną maketą. 
     2. Įtraukite naują mygtuką ir nustatykite mygtuko **Spausdinti finansinį X** ypatybes.
@@ -221,7 +221,7 @@ Norėdami vykdyti finansines X / Z ataskaitas iš EKA, į EKA maketą turėtumė
 
 Norėdami įjungti neautomatinį atidėto finansinio registravimo vykdymą, turėtumėte įtraukti naują mygtuką į EKA maketą.
 
-- Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas temoje [Pasirinktinio operacijos mygtuko įtraukimas į EKA maketą mažmeninių pardavimų valdyme](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
+- Puslapyje **Mygtukynai** vykdykite instrukcijas, nurodytas [EKA operacijų įtraukimas į EKA maketus naudojant mygtukynų dizaino įrankį](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters), kad įdiegtumėte dizaino įrankį ir atnaujintumėte EKA maketą.
 
     1. Pasirinkite atnaujintiną maketą.
     2. Įtraukite naują mygtuką ir nustatykite mygtuko **Baigti finansinio registravimo procesą** ypatybę.

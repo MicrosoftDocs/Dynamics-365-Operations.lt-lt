@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a73f49064911a2b28c742cfc19469f4bf95e74
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: b77605070387871335c480e25cbe23af1155d6e8
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2569966"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812173"
 ---
 # <a name="asset-manufacturers-and-models"></a>Turto gamintojai ir modeliai
 
@@ -45,7 +45,7 @@ ms.locfileid: "2569966"
 8. Lauke **Turto tipas** pasirinkite turto tipą, su kuriuo turėtų būti susietas gamintojo modelis.
 
     > [!NOTE]
-    > Taip pat galite nustatyti turto tipų, gamintojų ir modelių ryšius peržvalgoje **Turto tipai**. Daugiau informacijos žr. [Kurti ilgalaikį turtą](../setup-for-objects/object-types.md).
+    > Taip pat galite nustatyti turto tipų, gamintojų ir modelių ryšius peržvalgoje **Turto tipai**. Daugiau informacijos žr. [Turto tipai](../setup-for-objects/object-types.md).
 
     „FastTab“ skirtuke **Išsami informacija** lauke **Modeliai** rodomas turto modelių, kurie yra nustatyti pasirinktam turto gamintojui, skaičius. Lauke **Turtas** rodomas turtų, naudojančių pasirinktą gamintoją, skaičius.
     

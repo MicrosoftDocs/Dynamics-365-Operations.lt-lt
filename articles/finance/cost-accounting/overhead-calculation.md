@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6c045f82f3288dba193721dd80c90e68750af9a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 954e0669c3d24bcc20fe667c22b7dcc367aba1e7
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179045"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770809"
 ---
 # <a name="overhead-calculation"></a>Pridėtinių išlaidų skaičiavimas
 
@@ -1411,7 +1411,7 @@ Finansinėje apskaitoje 10 000,00 išlaidos už elektrą registruojamos fiktyvia
 </table>
 
 > [!NOTE]
-> Šioje temoje parodytas pirminio išlaidų elemento, 10001 Elektros energija, srautas per išlaidų objektus. Todėl šios pridėtinės išlaidos paskirstomos žemiausiu organizacijos lygiu. Kitaip tariant, išlaidas padengia žemiausio lygio išlaidų objektai. Jei reikia vizualiai pateikto išlaidų srauto tarp išlaidų objektų, galite naudoti išlaidų sumavimo strategijos taisykles, kad vizualiai pateiktumėte išlaidų srautą. Išsamesnės informacijos žr. temoje [Išlaidų sumavimas](cost-rollup.md).
+> Šioje temoje parodytas pirminio išlaidų elemento, 10001 Elektros energija, srautas per išlaidų objektus. Todėl šios pridėtinės išlaidos paskirstomos žemiausiu organizacijos lygiu. Kitaip tariant, išlaidas padengia žemiausio lygio išlaidų objektai. Jei reikia vizualiai pateikto išlaidų srauto tarp išlaidų objektų, galite naudoti išlaidų sumavimo strategijos taisykles, kad vizualiai pateiktumėte išlaidų srautą. Daugiau informacijos žr. [avikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas](cost-rollup.md).
 
 
 

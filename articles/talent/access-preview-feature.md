@@ -1,5 +1,5 @@
 ---
-title: Prieiga prie „Microsoft Dynamics 365 Talent“ peržiūros funkcijų
+title: Funkcijų valdymas
 description: Šioje temoje aprašoma, kaip administratorius gali įjungti „Microsoft Dynamics 365 Talent“ peržiūros funkcijas, taip pat pateikiamos funkcijos, kurios šiuo metu įgalintos peržiūroje.
 author: tracykeya
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 0f9a83aeea3942d3c56d32956f79490c91565e9e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9f1fb4b929660bbe9018fb98169b3cfddcaec547
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551611"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833305"
 ---
-# <a name="access-preview-features-in-microsoft-dynamics-365-talent"></a>Prieiga prie „Microsoft Dynamics 365 Talent“ peržiūros funkcijų
+# <a name="manage-features"></a>Funkcijų valdymas
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Mūsų nuolatinis žmogiškųjų išteklių kapitalo valdymo (HCM) galimybių, skirtų „Microsoft Dynamics 365 Talent“, išleidimas apima norą leisti vartotojams kuo greičiau išbandyti naujas funkcijas. Administratoriai gali matyti ir naudoti peržiūros funkcijas savo aplinkoje. Šios funkcijos yra beveik paruoštos bendrajam prieinamumui ir jau atlikta daug bandymų. Mes tiesiog laukiame galutinio klientų atsiliepimų etapo ir tikrinimo prieš jas bendrai išleisdami.
 
@@ -117,6 +117,6 @@ Norime sužinoti jūsų nuomonę apie jūsų įspūdžius naudojant šias perži
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Išbandykite arba įsigykite „Talent“ programas](https://dynamics.microsoft.com/talent/overview/)
-- [Kas nauja](./whats-new.md)
-- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Pagalba dėl „Talent“](./talent-support.md)
+- [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
+- [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)

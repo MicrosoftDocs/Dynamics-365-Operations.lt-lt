@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 521fdc98c8af51f6f244f9aa606ce047d014edf1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3cb3b25503b559f21c45c0232a8c0abd3e415eb3
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250443"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2773627"
 ---
 # <a name="project-mobile-applications-overview"></a>„Project“ mobiliųjų programų apžvalga
 
@@ -45,4 +45,7 @@ Mano grafikai (optimizuoti mobiliesiems įrenginiams) ir peržiūrėtini grafika
 
 ## <a name="for-more-information"></a>Daugiau informacijos
 
-Norėdami gauti daugiau informacijos, žr. [„Microsoft Dynamics 365 Project Timesheet“ programa mobiliesiems įrenginiams](project-timesheet.md), [Projekto laiko įrašas]( project-time-entry-mobile-workspace.md), [Projekto tabeliai mobiliajame įrenginyje](Mobile-timesheets.md) ir [Pritaikyti pasirinktinius laukus „Project Timesheet“ programai mobiliesiems įrenginiams](custom-fields-mobile.md).
+- [Projekto grafiko mobilioji programa](project-timesheet.md)
+- [Projekto laiko įrašas]( project-time-entry-mobile-workspace.md)
+- [Projekto tabeliai mobiliajame įrenginyje](Mobile-timesheets.md)
+- [Pasirinktinių laukų naudojimas „Microsoft Dynamics 365 Project Timesheet“ mobiliojoje programoje (sistemose „iOS“ ir „Android“)](custom-fields-mobile.md)

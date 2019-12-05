@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: aa4d54fd7b3ab407751ad6ca1032d742c23eed41
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 21c2143f4fa58d51f64e349c7963cb17e04bad97
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184536"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772442"
 ---
 ## <a name="company-concept-in-common-data-service"></a>Įmonės koncepcija „Common Data Service“
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 „Finance and Operations“ *įmonės* koncepcija yra tiek teisinis, tiek verslo konstruktas. Ji taip pat apibrėžia duomenų saugos ir matomumo ribas. Vartotojai visada dirba vienos įmonės kontekste, o dauguma duomenų yra įmonės suskirstyti.
 
@@ -60,12 +58,14 @@ Kaip parodyta ankstesnėje iliustracijoje, šis 1:1 susiejimas tarp verslo struk
 
 Paskutinėje temoje aptariama, kaip dvigubas rašymas nustato, kuriai savininkų komandai reikėtų priskirti įrašus. Šią veikseną kontroliuoja laukas **Numatytoji komanda savininkė** įraše cdm\_Company. Kai cdm\_Company įrašas yra įgalintas dvigubam rašymui, priedas automatiškai sukuria susietą verslo struktūros vienetą ir savininko komandą (jei jos dar nėra) ir nustato lauką **Numatytoji komanda savininkė**. Administratorius gali pakeisti šį lauką kita reikšme. Tačiau administratorius negali išvalyti lauko tol, kol objektui įgalintas dvigubas rašymas.
 
+> [!div class="mx-imgBorder"]
 ![Laukas Numatytoji komanda savininkė](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Įmonės paskirstymas ir įkėlimas
 
 „Common Data Service“ integracija suteikia įmonės lygiavertiškumą naudojant įmonės identifikatorių, skirtą paskirstyti duomenis. Kaip parodyta toliau pateiktoje iliustracijoje, visi konkrečios įmonės objektai išplečiami taip, kad su cdm\_Company objektu turėtų ryšį „daugelis su vienu“ (N:1).
 
+> [!div class="mx-imgBorder"]
 ![N:1 ryšys tarp konkrečios įmonės objekto ir cdm_Company objekto](media/dual-write-bootstrapping.png)
 
 + Įtraukus ir įrašius įmonę įrašų reikšmė tampa skirta tik skaityti. Todėl vartotojai turėtų įsitikinti, kad pasirinko tinkamą įmonę.

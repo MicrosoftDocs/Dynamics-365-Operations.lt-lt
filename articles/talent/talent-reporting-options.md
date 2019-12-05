@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 50342c847200d015a66c6f22007070bb26c6caef
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: ecbeb03b535f19131ddc6649d005702876bab65c
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009357"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772970"
 ---
 # <a name="reporting-options-in-talent"></a>Ataskaitų parinktys sprendime „Talent“
 
@@ -42,7 +42,7 @@ Vartotojui nepavyksta tinkinti įdėtųjų „Microsoft Power BI“ ataskaitų.
 
 **Sprendimas**
 
-- „Core HR“ duomenis, kurių srautai juda į „Common Data Service“, galima paskelbti naudojantis „PowerApps“ „Common Data Service“ jungtimi su „Power BI Desktop“. Atminkite, kad „Common Data Service“ pateikiamas „Core HR“ duomenų subrinkinys. Daugiau informacijos apie „Power BI“ ir ataskaitų sritis ieškokite temoje [„Power BI“ ataskaitų ir ataskaitų sričių, naudojant „PowerApps Common Data Service“, kūrimas](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- „Core HR“ duomenis, kurių srautai juda į „Common Data Service“, galima paskelbti naudojantis „Power Apps“ „Common Data Service“ jungtimi su „Power BI Desktop“. Atminkite, kad „Common Data Service“ pateikiamas „Core HR“ duomenų subrinkinys. Daugiau informacijos apie „Power BI“ ir ataskaitų sritis ieškokite temoje [„Power BI“ ataskaitų ir ataskaitų sričių, naudojant „Power Apps Common Data Service“, kūrimas](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - Elektronines ataskaitas (ER) galima naudoti kai kurioms „Talent“ ataskaitoms. Kliento kuriamus tinkinimus galima atlikti per ER konfigūravimo pasirinktis.
 - Duomenis į „Microsoft Excel“ arba „Microsoft Word“ galima eksportuoti naudojant įvairius duomenų objektus, pateikiamus „Talent“ integravus jį su „Microsoft Office“.
 

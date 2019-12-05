@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 731b6a61bd78388f3db0a7007478e3a5e9629a49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181432"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771288"
 ---
 # <a name="generate-printable-fti-forms"></a>Spausdintinų LFSF formų generavimas
 
@@ -41,7 +41,7 @@ Dabar spausdintinas LFSF formas galite sugeneruoti ne tik naudodami „Microsoft
 Taikydami tinkintą spausdintinų LFSF formų sprendimą, taip pat turite sukurti ER konfigūracijų rinkinį.
 
 ### <a name="configure-the-er-data-model"></a>ER duomenų modelio konfigūravimas
-Jūsų programoje turi būti įtraukta ER duomenų modelio konfigūracija, kurioje yra duomenų modelis, apibūdinantis kliento SF išrašymo verslo domeną. Kaip reikalaujama, duomenų modeliui turi būti suteiktas pavadinimas **CustomersInvoicing**. Informacijos apie tai, kaip kurti ER duomenų modelius, ieškokite [Elektroninių ataskaitų (ER) specifinio domeno duomenų modelio kūrimas](tasks/er-design-domain-specific-data-model-2016-11.md).
+Jūsų programoje turi būti įtraukta ER duomenų modelio konfigūracija, kurioje yra duomenų modelis, apibūdinantis kliento SF išrašymo verslo domeną. Kaip reikalaujama, duomenų modeliui turi būti suteiktas pavadinimas **CustomersInvoicing**. Norėdami gauti daugiau informacijos apie tai, kaip kurti ER duomenų modelius, žr. [ER specifinio duomenų modelio domeno kūrimas](tasks/er-design-domain-specific-data-model-2016-11.md).
 
 ### <a name="configure-the-er-model-mapping"></a>ER modelio susiejimo konfigūravimas
 Jūsų programoje turi būti įtrauktas duomenų modelio CustomersInvoicing ER modelio susiejimas. Modelio susiejimas gali būti pateiktas ER duomenų modelio arba ER modelio susiejimo konfigūracijoje. Tačiau šakninio modelio susiejimo aprašo pavadinimas turi būti **FreeTextInvoice**.
@@ -62,7 +62,7 @@ Susiejime turi būti toliau nurodyti duomenų šaltiniai.
 
 Programos integravimo su ER sistema informaciją galima rasti klasėje **ERPrintMgmtReportFormatSubscriber** (ER programų paketo integravimo modelis), kuri pateikiama programos šaltinio kode.
 
-Daugiau informacijos apie ER modelio susiejimų kūrimą ieškokite [Elektroninių ataskaitų (ER) modelio susiejimo apibrėžimas ir duomenų šaltinių pasirinkimas](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
+Daugiau informacijos apie ER modelio susiejimų kūrimą žr. [ER modelio susiejimų apibrėžimas ir jiems skirtų duomenų šaltinių pasirinkimas](tasks/er-define-model-mapping-select-data-sources-2016-11.md).
 
 ### <a name="configure-the-er-format"></a>ER formato konfigūravimas
 Jūsų programos egzemplioriuje turi būti ER formato konfigūracija, kuri bus naudojama LFSF formoms kurti. 
@@ -70,7 +70,7 @@ Jūsų programos egzemplioriuje turi būti ER formato konfigūracija, kuri bus n
 > [!NOTE]
 > Ši formato konfigūracija turi būti sukurta duomenų modeliui CustomersInvoicing ir jame turi būti naudojamas modelio susiejimas, turintis šakninį aprašą **FreeTextInvoice**.
 
-Informacijos, kaip konfigūruoti ER formatus ieškokite [Elektroninių ataskaitų (ER) formato konfigūracijos kūrimas](tasks/er-format-configuration-2016-11.md). Informacijos, kaip kurti ER formatus norint ataskaitas generuoti „OpenXML“ formatu, ieškokite [Konfigūracijos, skirtos ataskaitoms „OpenXML” formatu generuoti, kūrimas elektroninėse ataskaitose (ER)](tasks/er-design-reports-openxml-2016-11.md).
+Informaciją, kaip konfigūruoti ER formatus, žr. [ER formato konfigūracijos kūrimas (2016 m. lapkritis)](tasks/er-format-configuration-2016-11.md). Daugiau informacijos apie tai, kaip kurti ER formatus, kad ataskaitos būtų generuojamos „OpenXML“ formatu, žr. [ER konfigūracijos kūrimas, kad ataskaitos būtų generuojamos OPENXML formatu (2016 m. lapkritis)](tasks/er-design-reports-openxml-2016-11.md).
 
 ## <a name="configure-print-management"></a>Spausdinimo valdymo konfigūravimas
 Norėdami LFSF formas generuoti naudodami ER sistemą, ER formatus galite priskirti tokiu pačiu būdu, kaip ir priskiriant SSRS ataskaitas. Norėdami ER formatą susieti su visomis gautinų sumų LFSF, eikite į **Gautinos sumos** \> **Sąranka** \> **Formos** \> **Formos sąranka** \> **Bendra** \> **Spausdinimo valdymas** \> **Laisvos formos SF** \> **Pradinė versija**. Norėdami ER formatą susieti su konkrečiu klientu arba sąskaita faktūra, atlikite toliau nurodytus veiksmus.
@@ -94,7 +94,7 @@ Generuodami LFSF formas, sąskaitas faktūras galite pasirinkti pagal diapazoną
 
 ![Sąskaitos faktūros peržiūra](media/FTIbyGER-InvoiceExcelPreview.png)
 
-Naudojant ER formatus LFSF formoms spausdinti, kai taikomas šis būdas, naudojamos numatytosios ER failo paskirties vietos. Paskirties vietos keisti negalite. Daugiau informacijos, kaip konfigūruoti ER formatų ER paskirties vietas, ieškokite [Elektroninių ataskaitų paskirties vietos](electronic-reporting-destinations.md).
+Naudojant ER formatus LFSF formoms spausdinti, kai taikomas šis būdas, naudojamos numatytosios ER failo paskirties vietos. Paskirties vietos keisti negalite. Daugiau informacijos apie tai, kaip konfigūruoti ER formatų ER paskirties vietas, žr. [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md).
 
 LFSF formas taip pat sugeneruoti galite LFSF registravimo metu, parinktį **Spausdinti SF** įjungę, o parinktį **Naudoti spausdinimo valdymo paskirties vietas** išjungę.
 
@@ -224,4 +224,4 @@ Formato pavyzdžio išraiška **Emailing.TxtToUse.Body** sukonfigūruojama, siek
 ![El. pašto adresas](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-[Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+[Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)

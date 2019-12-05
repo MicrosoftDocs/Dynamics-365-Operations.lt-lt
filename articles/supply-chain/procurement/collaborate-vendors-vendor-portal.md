@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3bb30ddffb86c7083f40863c0c336fc5f65ce8f5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 96cd2fc988df11c616faf06cf0905acd6b3d6dcc
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248985"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813528"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą
 
@@ -31,7 +31,7 @@ ms.locfileid: "2248985"
 
 Šioje temoje paaiškinama, kaip naudodami tiekėjo portalą pirkimo agentai gali bendradarbiauti su išoriniais tiekėjais vykstant pirkimo užsakymų patvirtinimo procesui. Ši informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms.
 
-Šios temos informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms. Daugiau informacijos apie naująją tiekėjo bendradarbiavimo funkciją ieškokite puslapyje [Tiekėjų bendradarbiavimo sąsajos naudojimas veiklai su išoriniais tiekėjais vykdyti](vendor-collaboration-work-external-vendors.md).  
+Šios temos informacija taikoma tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms. Daugiau informacijos apie naująją tiekėjo bendradarbiavimo funkciją ieškokite puslapyje [Tiekėjo bendradarbiavimas su išoriniais tiekėjais](vendor-collaboration-work-external-vendors.md).  
 
 Tiekėjo portalas skirtas tiekėjams, kurie neturi elektroninių duomenų mainų (EDI) integracijos su „Microsoft Dynamics AX“, skirtos mainytis pirkimo užsakymų (PU) informacija. Portale pirkimo agentai gali tiekėjui siųsti PU ir tada tiesiai programoje „Dynamics AX“ gauti atsakymą Patvirtinta arba Atmesta.  
 
@@ -98,9 +98,9 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Tiekėjo bendradarbiavimo funkcijos vartotojų saugos konfigūracija](configure-security-vendor-portal-users.md)
+[Tiekėjo portalo vartotojų sauga](configure-security-vendor-portal-users.md)
 
-[Tiekėjo bendradarbiavimo SF išrašymo darbo srities peržiūra](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
+[Tiekėjo bendradarbiavimo SF išrašymo darbo sritis](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
 
 
 

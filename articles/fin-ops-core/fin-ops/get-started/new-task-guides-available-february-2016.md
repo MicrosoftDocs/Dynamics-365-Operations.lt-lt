@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b220dfc90d4b850c774ff638c5b766f650dcef9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d4c912e8364a2503b98e511cbf22884528e467f0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190953"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811631"
 ---
 # <a name="new-task-guides-february-2016"></a>Nauji užduočių vedliai (2016 m. vasario mėn.)
 
@@ -32,7 +32,7 @@ ms.locfileid: "2190953"
 
 ## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. vasario mėn.), skirti „Microsoft Dynamics AX“
 
-APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, kurie skirti teikti pagalbą, susijusią su 7.0.0 „Dynamics AX“ leidimu. Jei jums reikia lokalizuotų šių užduočių vedlių versijų, juos galite rasti APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.), skirtoje „Microsoft Dynamics AX“. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Darbo su žinynu pradžia](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, kurie skirti teikti pagalbą, susijusią su 7.0.0 „Dynamics AX“ leidimu. Jei jums reikia lokalizuotų šių užduočių vedlių versijų, juos galite rasti APQC bendrojoje bibliotekoje (2016 m. gegužės mėn.), skirtoje „Microsoft Dynamics AX“. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
 
 ### <a name="accounts-payable"></a>Mokėtinos sumos
 
@@ -637,7 +637,7 @@ APQC bendrojoje bibliotekoje (2016 m. vasario mėn.) yra užduočių vedliai, ku
 | Valdyti kainas ir akcijas                      | Visuotinai         |
 | Vadovų savitarna                               | Visuotinai         |
 | Projektų apžvalga                                  | Bendra         |
-| Nustatyti ir konfigūruoti kanalus                      | Bendra         |
+| Nustatyti ir konfigūruoti kanalus                      | Bendroji         |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

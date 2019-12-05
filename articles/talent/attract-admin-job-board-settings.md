@@ -1,5 +1,5 @@
 ---
-title: „Broadbean“ integravimo įgalinimas „Microsoft Dynamics 365 Talent - Attract”
+title: „Broadbean“ integravimo įgalinimas „Attract”
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365 Talent - Attract” registruoti užduotims išorinėse darbo skelbimų lentose, pvz., „Broadbean”.
 author: andreabichsel
 manager: AnnBe
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-07-08
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0ca655655f79ddf88b6f6c7377a1b596477c35a7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 10b612711e81b2b368ed23fdd95ab6a66451f0ca
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2552145"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2833213"
 ---
-# <a name="enable-broadbean-integration-in-microsoft-dynamics-365-talent---attract"></a>„Broadbean“ integravimo įgalinimas „Microsoft Dynamics 365 Talent - Attract”
+# <a name="enable-broadbean-integration-in-attract"></a>„Broadbean“ integravimo įgalinimas „Attract”
 
-[!include[banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Juk norite, kad apie jūsų siūlomas laisvas pareigas sužinotų kiek įmanoma daugiau kvalifikuotų kandidatų. Įdarbinimo svetainės, pvz., „Broadbean“ gali padėti šį tikslą pasiekti. Naudodamiesi „ Microsoft Dynamics 365 Talent: Attract“ dabar galite registruoti darbo skelbimus „Broadbean“ ir šioje srityje „Microsoft“ nuolat teikia naujų pasiūlymų.
 

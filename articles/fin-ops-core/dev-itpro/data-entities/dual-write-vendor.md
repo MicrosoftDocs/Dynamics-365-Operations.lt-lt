@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: d33625b94e7611a256c389a6de4692ae8f4ff2a7
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: da451c63c23444da564307505d38699faf9df19a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572477"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770995"
 ---
 # <a name="integrated-vendor-master"></a>Bendrieji integruoto tiekėjo duomenys
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Terminas *Tiekėjas* reiškia tiekėjo organizaciją arba įmonės savininką, kuris yra tiekimo grandinės proceso dalis ir kuris tiekia prekes verslui. Nors *tiekėjas* yra apibrėžta koncepcija „Finance and Operations“ programose, tiekėjo koncepcijos nėra kitose „Dynamics 365“ programose. Vietoje to kai kuriose įmonėse naudojamas paskyros objektas, skirtas saugoti kliento ir tiekėjo informaciją. Kitos įmonės naudoja pasirinktinę tiekėjo koncepciją. „Common Data Service“ integracija palaiko abu šiuos modelius. Todėl galima įjungti bet kurį modelį, atsižvelgiant į savo verslo scenarijų.
 
@@ -46,172 +44,30 @@ Jei tiekėjo valdymui norite naudoti kitas „Dynamics 365” programas ir pagei
 
 ![Išplėstas tiekėjo duomenų srautas](media/dual-write-vendor-detail.jpg)
 
-Tiekėjo kontaktinė informacija primena kliento kontaktinę informaciją. Kontaktinio asmens informacija saugoma ir gaunama iš tų pačių objektų.
+Tiekėjo kontaktinė informacija primena kliento kontaktinę informaciją. Fone kontaktinio asmens informacija saugoma ir gaunama iš tų pačių objektų.
 
 ## <a name="templates"></a>Šablonai
 
-Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grupę, adresus, kontaktinę informaciją, mokėjimo profilį, sąskaitos faktūros profilį. Objektų susiejimų rinkinys veikia kartu atliekant tiekėjo duomenų sąveiką, kaip parodyta tolesnėje lentelėje.
+Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grupę, adresus, kontaktinę informaciją, mokėjimo profilį, sąskaitos faktūros profilį. Objektų schemų rinkinys veikia kartu interaktyviai naudojant tiekėjų duomenis, kaip parodyta tolesnėje lentelėje.
 
-„Finance and Operations” programos  | Kitos „Dynamics 365” programos
-------------------------|---------------------------------
-V2 tiekėjas               | Paskyra
-V2 tiekėjas               | Msdyn\_vendors
-CDS kontaktai V2         | Susisiekti
-Tiekėjų grupės           | Msdyn\_vendorgroups
-Tiekėjo mokėjimo būdas   | Msdyn\_vendorpaymentmethods
-Mokėjimo grafikas        | Msdyn\_paymentschedules
-Mokėjimo grafikas        | Msdyn\_paymentschedulelines
-Mokėjimo diena CDS         | Msdyn\_paymentdays
-Mokėjimo dienų eilutės CDS   | Msdyn\_paymentdaylines
-Mokėjimo sąlygos        | Msdyn\_paymentterms
-Pavadinimo afiksai            | Msdyn\_nameaffixes
+„Finance and Operations” programos | Kitos „Dynamics 365” programos         | Aprašymas
+----------------------------|---------------------------------|------------
+V2 tiekėjas               | Paskyra | Įmonės, kurios naudoja paskyros objektą, kad galėtų saugoti tiekėjo informaciją, gali ir toliau jį naudoti tokiu pačiu būdu. Jos taip pat gali naudotis aiškiomis tiekėjo funkcijomis, kurios teikiamos pasitelkus „Finance and Operations“ programų integraciją.
+V2 tiekėjas               | Msdyn\_vendors | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Common Data Service“ ir teikiama dėl „Finance and Operations“ programų integracijos. 
+Tiekėjų grupės | msdyn_vendorgroups | Naudojant šį šabloną sinchronizuojama tiekėjų grupių informacija.
+Tiekėjo mokėjimo būdas | msdyn_vendorpaymentmethods | Naudojant šį šabloną sinchronizuojama tiekėjų mokėjimo būdų informacija.
+CDS kontaktai V2             | kontaktai                        | Naudojant [kontaktų](dual-write-customer.md#cds-contacts-v2-to-contacts) šabloną sinchronizuojama visa tiek klientų, tiek tiekėjų pirminė, antrinė ir tretinė kontaktinė informacija.
+Mokėjimo grafiko eilutės      | msdyn_paymentschedulelines      | Naudojant [mokėjimo grafiko eilučių](dual-write-customer.md#payment-schedule-lines-to-msdyn_paymentschedulelines) šabloną sinchronizuojami klientų ir tiekėjų nuorodos duomenys.
+Mokėjimo grafikas            | msdyn_paymentschedules          | Naudojant [mokėjimo grafikų](dual-write-customer.md#payment-schedule-to-msdyn_paymentschedules) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų nuorodos duomenys.
+Mokėjimo dienos eilutės CDS V2    | msdyn_paymentdaylines           | Naudojant [mokėjimo dienos eilučių](dual-write-customer.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) šabloną sinchronizuojami klientų ir tiekėjų mokėjimo dienos eilučių nuorodos duomenys.
+Mokėjimo dienos CDS            | msdyn_paymentdays               | Naudojant [mokėjimo dienų](dual-write-customer.md#payment-days-cds-to-msdyn_paymentdays) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų nuorodos duomenys.
+Mokėjimo sąlygos            | msdyn_paymentterms              | Naudojant [mokėjimo sąlygų](dual-write-customer.md#terms-of-payment-to-msdyn_paymentterms) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo sąlygų nuorodos duomenys.
+Pavadinimo afiksai                | msdyn_nameaffixes               | Naudojant [pavadinimų afiksų](dual-write-customer.md#name-affixes-to-msdyn_nameaffixes) šabloną sinchronizuojami tiek klientų, tiek tiekėjų pavadinimų afiksų nuorodos duomenys.
 
-[!include [banner](../includes/dual-write-symbols.md)]
+[!include [symbols](../includes/dual-write-symbols.md)]
 
-## <a name="vendor-v2-and-account"></a>V2 tiekėjas ir paskyra 
+[!include [Vendors](dual-write/VendorsV2-msdyn-vendors.md)]
 
-Įmonės, kurios naudoja paskyros objektą, kad galėtų saugoti tiekėjo informaciją, gali ir toliau jį naudoti tokiu pačiu būdu. Jos taip pat gali naudotis aiškiomis tiekėjo funkcijomis, kurios teikiamos pasitelkus „Finance and Operations“ programų integraciją.
+[!include [Vendor groups](dual-write/VendVendorGroup-msdyn-vendorgroups.md)]
 
-## <a name="vendor-v2-and-msdyn_vendors"></a>V2 tiekėjas ir Msdyn\_vendors
-
-Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Common Data Service“ ir teikiama dėl „Finance and Operations“ programų integracijos. 
-
-<!-- ![vendor mappings](media/dual-write-vendors-1.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-2.png) -->
-
-<!-- ![vendor mappings](media/dual-write-vendors-3.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-VENDORACCOUNTNUMBER | = | msdyn\_vendoraccountnumber
-VENDORGROUPID | = | msdyn\_vendorgroupid.msdyn\_vendorgroup
-VENDORORGANIZATIONNAME | = | msdyn\_name
-VENDORPARTYTYPE | \>\< | msdyn\_isperson
-PERSONFIRSTNAME | = | msdyn\_firstname
-PERSONLASTNAME | = | msdyn\_lastname
-CREDITLIMIT | = | msdyn\_vendorcreditlimit
-ISFOREIGNENTITY | \>\< | msdyn\_isforeignentity
-ISONETIMEVENDOR | \>\< | msdyn\_isonetimevendor
-ADDRESSBUILDINGCOMPLIMENT | = | msdyn\_addressbuildingcompliment
-PERSONCHILDRENNAMES | = | msdyn\_childrennames
-ADDRESSCITY | = | msdyn\_addresscity
-ADDRESSCOUNTRYREGIONID | = | msdyn\_addresscountryregionid
-ADDRESSCOUNTRYREGIONISOCODE | = | msdyn\_addresscountryregionisocode
-ADDRESSCOUNTYID | = | msdyn\_addresscountyid
-CREDITRATING | = | msdyn\_creditrating
-ADDRESSDESCRIPTION | = | msdyn\_addressdescription
-ADDRESSDISTRICTNAME | = | msdyn\_addressdistrictname
-DUNSNUMBER | = | msdyn\_dunsnumber
-ETHNICORIGINID | = | msdyn\_ethnicorigin
-FORMATTEDPRIMARYADDRESS | = | msdyn\_formattedprimaryaddress
-PERSONHOBBIES | = | msdyn\_hobbies
-PERSONINITIALS | = | msdyn\_initials
-LANGUAGEID | = | msdyn\_languageid
-PERSONLASTNAMEPREFIX | = | msdyn\_lastnameprefix
-PERSONMIDDLENAME | = | msdyn\_middlename
-ORGANIZATIONNUMBER | = | msdyn\_organizationnumber
-OURACCOUNTNUMBER | = | msdyn\_ourvendoraccountnumber
-PAYMENTID | = | msdyn\_paymentid
-PERSONPHONETICFIRSTNAME | = | msdyn\_phoneticfirstname
-PERSONPHONETICMIDDLENAME | = | msdyn\_phoneticmiddlename
-PERSONPHONETICLASTNAME | = | msdyn\_phoneticlastname
-ORGANIZATIONPHONETICNAME | = | msdyn\_organizationphoneticname
-ADDRESSPOSTBOX | = | msdyn\_addresspostbox
-PRIMARYURL | = | msdyn\_primarycontacturl
-PRIMARYEMAILADDRESS | = | msdyn\_primaryemailaddress
-PRIMARYEMAILADDRESSDESCRIPTION | = | msdyn\_primaryemailaddressdescription
-PRIMARYFACEBOOK | = | msdyn\_primaryfacebook
-PRIMARYFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYFAXNUMBER | = | msdyn\_primaryfaxnumber
-PRIMARYFAXNUMBERDESCRIPTION | = | msdyn\_primaryfaxnumberdescription
-PRIMARYFAXNUMBEREXTENSION | = | msdyn\_primaryfaxnumberextension
-PRIMARYLINKEDIN | = | msdyn\_primarylinkedin
-PRIMARYLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescription
-PRIMARYPHONENUMBER | = | msdyn\_pimaryphonenumber
-PRIMARYPHONENUMBERDESCRIPTION | = | msdyn\_primaryphonenumberdescription
-PRIMARYPHONENUMBEREXTENSION | = | msdyn\_primaryphonenumberextension
-PRIMARYTELEX | = | msdyn\_primarytelex
-PRIMARYTELEXDESCRIPTION | = | msdyn\_primarytelexdescription
-PRIMARYTWITTER | = | msdyn\_primarytwitter
-PRIMARYTWITTERDESCRIPTION | = | msdyn\_primarytwitterdescription
-PRIMARYURLDESCRIPTION | = | msdyn\_primaryurldescription
-PERSONPROFESSIONALSUFFIX | = | msdyn\_professionalsuffix
-PERSONPROFESSIONALTITLE | = | msdyn\_professionatitle
-ADDRESSSTATEID | = | msdyn\_addressstateid
-ADDRESSSTREET | = | msdyn\_addressstreet
-ADDRESSSTREETNUMBER | = | msdyn\_addressstreetnumber
-VENDORKNOWNASNAME | = | msdyn\_vendorknownasname
-ADDRESSZIPCODE | = | msdyn\_addresszipcode
-DEFAULTPAYMENTDAYNAME | = | msdyn\_defaultpaymentdayname.msdyn\_name
-DEFAULTPAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-DEFAULTPAYMENTTERMSNAME | = | msdyn\_paymentterms.msdyn\_name
-HASONLYTAKENBIDS | \>\< | msdyn\_hasonlytakenbids
-ISMINORITYOWNED | \>\< | msdyn\_isminorityowned
-ISVENDORLOCALLYOWNED | \>\< | msdyn\_isvendorlocallyowned
-ISSERVICEVETERANOWNED | \>\< | msdyn\_isserviceveteranowned
-ISOWNERDISABLED | \>\< | msdyn\_ownerisdisabled
-ISWOMANOWNER | \>\< | msdyn\_womanowner
-PERSONANNIVERSARYDAY | = | msdyn\_personanniversaryday
-PERSONANNIVERSARYYEAR | = | msdyn\_anniversaryyear
-PERSONBIRTHDAY | = | msdyn\_birthday
-PERSONBIRTHYEAR | = | msdyn\_birthyear
-ORGANIZATIONEMPLOYEEAMOUNT | = | msdyn\_numberofemployees
-VENDORHOLDRELEASEDATE | = | msdyn\_vendoronholdreleasedate
-VENDORPARTYNUMBER | = | msdyn\_vendorpartynumber
-ADDRESSLOCATIONID | = | msdyn\_addresslocationid
-PERSONANNIVERSARYMONTH | = | msdyn\_vendorpersonanniversarymonth
-PERSONBIRTHMONTH | = | msdyn\_vendorpersonbirthmonth
-PERSONMARITALSTATUS | \>\< | msdyn\_maritalstatus
-ADDRESSLATITUDE | \>\> | msdyn\_addresslatitude
-ADDRESSLONGITUDE | \>\> | msdyn\_addresslongitude
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-CURRENCYCODE | = | msdyn\_currencycode.isocurrencycode
-ISVENDORLOCATEDINHUBZONE | \>\< | msdyn\_isvendorlocatedinhubzone
-DEFAULTVENDORPAYMENTMETHODNAME | = | msdyn\_vendorpaymentmethod.msdyn\_name
-INVOICEVENDORACCOUNTNUMBER | = | msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber
-PERSONGENDER | \>\< | msdyn\_gender
-AREPRICESINCLUDINGSALESTAX | \>\< | msdyn\_priceincludessalestax
-SALESTAXGROUPCODE | = | msdyn\_taxgroup.msdyn\_name
-VENDORPRICETOLERANCEGROUPID | = | msdyn\_pricetolerancegroup.msdyn\_groupid
-
-## <a name="contacts"></a>Kontaktai
-
-Šis šablonas sinchronizuoja visą pagrindinių, antrinių ir tretinių klientų ir tiekėjų kontaktinę informaciją tarp „Finance and Operations“ programų ir kitų „Dynamics 365” programų. Informaciją apie objekto susiejimą žr. [Integruotasis kliento šablonas](dual-write-customer.md#contacts).
-
-## <a name="vendor-groups"></a>Tiekėjų grupės
-
-Šis šablonas sinchronizuoja tiekėjų grupių informaciją tarp „Finance and Operations“ programų ir kitų „Dynamics 365” programų.
-
-<!-- ![vendor groups mappings](media/dual-write-vendor-groups.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-DEFAULTPAYMENTTERMNAME | = | msdyn\_paymentterms.msdyn\_name
-APRAŠAS | = | msdyn\_description
-VENDORGROUPID | = | msdyn\_vendorgroup
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymentpermname.msdyn\_name
-
-### <a name="vendor-payment-method"></a>Tiekėjo mokėjimo būdas
-
-Šis šablonas sinchronizuoja tiekėjų mokėjimo metodo informaciją tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![vendor payment method mappings](media/dual-write-vendor-payment-method.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAVADINIMAS | = | msdyn\_name
-APRAŠAS | = | msdyn\_description
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-ALLOWPAYMENTCOPIES | \>\< | msdyn\_allowpaymentcopies
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingposting
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_postdatedcheckclearingposting
-PROMISSORYNOTEDRAFTTYPE | \>\< | msdyn\_promissorynotedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
+[!include [Vendor payment methods](dual-write/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]

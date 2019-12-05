@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: c7675ca0ef2f2477d510c956e63d824a5e6b0980
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179158"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812537"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)
 
@@ -32,13 +32,13 @@ ms.locfileid: "2179158"
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>APQC bendrosios bibliotekos užduočių vedliai (2016 m. rugpjūčio mėn.; skirta visoms kalboms), skirti „Microsoft Dynamics AX“
 
-APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics AX“ 2 platformos naujiniu (2016 m. rugpjūčio mėn.), „Dynamics AX“ 2016 m. gegužės mėn. programos naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Norėdami gauti daugiau informacijos apie šiuos leidimus, žr. [Kas nauja arba pakeista „Finance and Operations“ pagrindiniame puslapyje ](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
 
 ### <a name="data-access"></a>Prieiga prie duomenų
 
 | BPM eilutė           | Šalis/regionas |
 |--------------------|----------------|
-| Sukurkite paketinę užduotį | Bendra         |
+| Sukurkite paketinę užduotį | Bendroji         |
 
 ### <a name="inventory"></a>Inventorizacijos
 
@@ -91,7 +91,7 @@ APQC bendrojoje bibliotekoje (2016 m. rugpjūčio mėn.; skirta visoms kalboms) 
 
 | BPM eilutė                                                                    | Šalis/regionas |
 |-----------------------------------------------------------------------------|----------------|
-| Nustatyti mobiliojo įrenginio meniu elementą Pirkimo užsakymo tipo darbui atlikti | Bendra         |
+| Nustatyti mobiliojo įrenginio meniu elementą Pirkimo užsakymo tipo darbui atlikti | Bendroji         |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 902db94164b35077a876c8041c038af36561a634
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 2e44770af4a30f539e56d38b21c897cacd2707e7
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025776"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812344"
 ---
 # <a name="call-center-sales-functionality"></a>Skambučių centro pardavimo funkcijos
 
@@ -44,17 +44,17 @@ Be to, kad palaiko užsakymo kūrimą, skambučių centro modulis vartotojui dar
 
 ## <a name="configure-the-call-center"></a>Sukonfigūruokite skambučių centrą
 
-[Užsakymo apdorojimo parinkčių nustatymas](set-up-order-processing-options.md)
+[Skambučių centro kanalų nustatymas](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Užsakymų apdorojimo konfigūravimas
 
-[Įspėjimų dėl apgaulės nustatymas](set-up-fraud-alerts.md)
+[Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas](set-up-fraud-alerts.md)
 
-[Užsakymų sulaikymo valdymas](work-with-order-holds.md)
+[Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Mokėjimo apdorojimo konfigūravimas
 
-[Mokėjimo būdai skambučių centre](work-with-payments.md)
+[Mokėjimo būdai skambučių centruose](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Konfigūruoti pristatymo būdus
 
@@ -64,8 +64,8 @@ Be to, kad palaiko užsakymo kūrimą, skambučių centro modulis vartotojui dar
 
 [Skambučių centro katalogai](call-center-catalogs.md)
 
-[RFM analizės nustatymas](set-up-rfm-analysis.md)
+[„Recency“, dažnumo ir piniginės (RFM) analizės nustatymas](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Tęstinumo programų konfigūravimas
 
-[Skambučių centro tęstinumo programos nustatymas](set-up-continuity-program.md)
+[Skambučių centrų tęstinumo programų nustatymas](set-up-continuity-program.md)

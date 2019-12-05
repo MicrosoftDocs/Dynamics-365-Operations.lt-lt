@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 037d4971fe0a5a9d08f0ed20d2482b8feb9aa4f2
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 44d404aaafd124a5d5a9d92cac8add51f1ee846a
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179042"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771989"
 ---
 # <a name="cost-element-dimensions"></a>Savikainos elemento dimensijos
 
@@ -66,7 +66,7 @@ Yra dviejų tipų savikainos elementai: pirminiai savikainos elementai ir antrin
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Savikainos elemento dimensijos ir savikainos elemento dimensijos nariai
 Savikainos elementai vadinami *savikainos elemento dimensijos*. Atskiros dimensijos vertės vadinamos *savikainos elemento dimensijos nariai*. Pavyzdžiui, jūs turite JAV sąskaitų plano struktūrą (COA), kuri yra jūsų privalomųjų ataskaitų pagrindas. Ši COA naudojama kaip savikainos elemento dimensija. Sąskaitas, kurios yra pirminiai savikainos elementai, savikainos apskaitoje atitinka savikainos elemento dimensijos nariai. Toliau pateikiamoje ekrano nuotraukoje pavaizduotas pagrindinių sąskaitų pavyzdys, kai pagrindinės sąskaitos yra savikainos elemento dimensija su savo faktinėmis pagrindinėmis sąskaitomis, kurios yra savikainos elemento dimensijos nariai. 
 
-[![savikainos elemento dimensijos](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+[![Pagrindinių sąskaitų kaip išlaidų elemento dimensijos ekrano kopija](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Savikainos elemento dimensijos narių importavimas naudojant duomenų jungtis
 Norėdami supaprastinti savikainos apskaitos savikainos elemento dimensijos narius, kad galėtumėte gauti pirminės savikainos elementus iš vienos ar kelių šaltinio sistemų, galite naudoti iš anksto parengtas duomenų jungtis arba savo pasirinktas jungtis.

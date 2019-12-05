@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 97082533831d592817e54e77469a3e22b0b47610
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 8c11186ff3f95a7f1e00f9e42d7b78f5a68957b0
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008133"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813942"
 ---
 # <a name="get-started-with-onboard"></a>Darbo su „Onboard“ pradžia
 
@@ -35,17 +35,17 @@ Naudodami „Microsoft Dynamics 365 Talent: Onboard” galite padėti savo nauji
 
 Norėdami sužinoti, kaip gauti ir naudoti „Onboard” programėlę, peržiūrėkite toliau nurodytas temas.
 
-- [Gauti programą „Onboard“](./onboard-get-app.md)
-- [Supažindinimo vadovo kūrimas](./onboard-create-guide.md)
-- [Supažindinimo šablono kūrimas](./onboard-create-template.md)
-- [Supažindinimo vadovų ir šablonų redagavimas](./onboard-edit-guides-templates.md)
-- [Turinio bendrinimas su kitais bendraautoriais](./onboard-share-template.md)
-- [Užduočių ir darbuotojų supažindinimo būsenos peržiūra](./onboard-view-status.md)
-- [Samdos komandų kūrimas „Onboard”](./onboard-create-team.md)
+- [Gauti programą „Dynamics 365 Talent - Onboard“](./onboard-get-app.md)
+- [Supažindinimo vadovo kūrimas ir siuntimas, naudojant „Dynamics 365 Talent - Onboard“](./onboard-create-guide.md)
+- [Supažindinimo šablono kūrimas, naudojant „Dynamics 365 Talent - Onboard“](./onboard-create-template.md)
+- [Supažindinimo vadovų ir šablonų redagavimas „Dynamics 365 Talent - Onboard“](./onboard-edit-guides-templates.md)
+- [Turinio bendrinimas su kitais bendraautoriais „Dynamics 365 Talent - Onboard“](./onboard-share-template.md)
+- [Darbuotojų supažindinimo ir užduočių būsenos peržiūra](./onboard-view-status.md)
+- [Samdos komandos kūrimas naudojant „Dynamics 365 Talent - Onboard“](./onboard-create-team.md)
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Išbandykite arba įsigykite „Onboard” programėlę](https://dynamics.microsoft.com/talent/onboard/)
-- [Kas nauja](./whats-new.md)
-- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Palaikymo gavimas](./talent-support.md)
+- [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
+- [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)

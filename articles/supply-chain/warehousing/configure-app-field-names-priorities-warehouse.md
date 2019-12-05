@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3251368e92eb2e24eb9e64bb615027d038ff660
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 11f6c96cc07c63d2c0c6a94385916b3396a77ed5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251090"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814978"
 ---
 # <a name="configure-app-field-names-in-warehousing-app"></a>Programos „Warehousing“ laukų pavadinimų konfigūravimas
 
@@ -32,7 +32,8 @@ ms.locfileid: "2251090"
 
 Šioje temoje aprašoma, kaip nurodyti ir konfigūruoti sandėlio programos laukų pavadinimus ir prioritetus programoje „Dynamics 365 Supply Chain Management“. 
 
-**Pastaba.** Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. „Warehousing” yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio programos laukų pavadinimus bei prioritetus ir kaip jie naudojami „Warehousing“. Išsamios informacijos apie tai, kaip konfigūruoti ryšį su „Warehousing“ žr. mokymo programoje [„Warehousing“ diegimas ir konfigūravimas](install-configure-warehousing-app.md).
+> [!NOTE]
+> Ši tema taikoma sandėlio valdymo funkcijoms. Ji netaikoma atsargų valdymo funkcijoms. „Warehousing” yra programa, kurią galite naudoti sandėlio užduotims atlikti. Galite nurodyti ir konfigūruoti programoje naudojamų laukų pavadinimus, taip pat galite konfigūruoti prioritetą, kuriam laukų pavadinimai turėtų būti priskirti. Šioje temoje paaiškinama, kaip nurodyti ir konfigūruoti šiuos sandėlio programos laukų pavadinimus bei prioritetus ir kaip jie naudojami „Warehousing“. Išsamios informacijos apie tai, kaip konfigūruoti ryšį su „Warehousing“ žr. mokymo programoje [„Warehousing“ programos diegimo ir konfigūravimo programos apžvalga](install-configure-warehousing-app.md).
 
 ## <a name="configure-warehouse-app-field-names"></a>Sandėlio programos laukų pavadinimų konfigūravimas
 
@@ -142,4 +143,4 @@ Likę metaduomenys, pvz., vieta, užduočių puslapyje rodomi nebus, bet bus rod
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[„Microsoft Dynamics 365 for Finance and Operations – Warehousing“ diegimas ir konfigūravimas](install-configure-warehousing-app.md)
+[Sandėliavimo programos diegimo ir konfigūravimo apžvalga](install-configure-warehousing-app.md)

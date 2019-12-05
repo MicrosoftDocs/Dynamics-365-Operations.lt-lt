@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 3c465c667cbb8a66f301637ca620429b0ddc11c6
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550348"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814633"
 ---
 # <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Supažindinimo vadovo kūrimas ir siuntimas, naudojant „Dynamics 365 Talent - Onboard”
 
@@ -119,6 +119,6 @@ Galite įrašyti supažindinimo vadovą kaip šabloną. Tokiu būdu galite sutau
 ### <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Išbandykite arba įsigykite „Onboard” programėlę](https://dynamics.microsoft.com/talent/onboard/)
-- [Kas nauja](./whats-new.md)
-- [Leidimo pastabos](https://docs.microsoft.com/business-applications-release-notes/index)
-- [Palaikymo gavimas](./talent-support.md)
+- [Kas nauja arba pasikeitė „Dynamics 365 Talent“](./whats-new.md)
+- [Leidimo planai](https://docs.microsoft.com/business-applications-release-notes/index)
+- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](./talent-support.md)

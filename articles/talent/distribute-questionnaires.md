@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e0369be278519f39fc304b34ef3a270438f0bb1
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 242e9fd5fd4b22f3081367cf33ff18ff5e4174a5
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026261"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814748"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>Klausimynų planavimas ir platinimas
 
@@ -54,7 +54,8 @@ Norėdami klausimynui priskirti klausimyno grupę, puslapyje **Klausimynai** spu
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Klausimyno suplanuoti atsakymų seansai
 Suplanuoti atsakymų seansai yra klausimynai, kuriuos sukūrėte ir kuriems pasirinkote respondentus. 
 
-> **Pastaba.** Prieš nustatydami suplanuotus atsakymų seansus, turite sukurti klausimyną. 
+> [!NOTE]
+>   Prieš nustatydami suplanuotus atsakymų seansus, turite sukurti klausimyną. 
 
 Puslapyje **Suplanuotas atsakymų seansas** galite kurti suplanuotą atsakymų seansą kiekvienam darbuotojui. Puslapyje pateiktame sąraše rodomi visi suplanuoti klausimynai. 
 
@@ -108,12 +109,14 @@ Jei naudojate suplanuotą atsakymų seansą, asmenį turite informuoti tiesiogia
 
 Naudodami puslapį **Klausimyno grafikai**, paruoškite ir nusiųskite el. laišką visiems respondentams, kurie priskirti klausimynui. El. laiško tekstą įveskite skirtuke **Darbuotojų savitarnos el. paštas**. Kai grafikas pradėtas, spustelėkite **Funkcijos** &gt; **Siųsti el. laišką**, kad generuotumėte ir visiems respondentams nusiųstumėte el. laišką. Tada respondentai gali prisijungti prie svetainės ir pildyti klausimyną. 
 
-> **Pastaba** Kad galėtumėte naudoti el. pašto funkcijas, **El. pašto parametrų** puslapyje jūsų IT administratorius turi įvesti el. pašto nuostatas.
+> [!NOTE]
+>   Kad galėtumėte naudoti el. pašto funkcijas, puslapyje **El. pašto parametrai** jūsų IT administratorius turi įvesti el. pašto nuostatas.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Suplanuoto klausimyno baigimas
 Galite pabaigti suplanuotą klausimyną, kai visi respondentai užbaigė jiems priskirtus klausimų seansus. Kai suplanuotas klausimynas baigtas, jo nuostatų į naują grafiką kopijuoti negalima. 
 
-> **Pastaba** Jei vienas ar keli respondentai klausimyno neužpildė, bet jūs vis tiek norite užbaigti planavimą, pirmiausia **Suplanuoto atsakymų seanso** puslapyje turite iš sąrašo panaikinti tuos respondentus. Tada galite baigti grafiką.
+> [!NOTE]
+>   Jei vienas ar keli respondentai klausimyno neužpildė, bet jūs vis tiek norite užbaigti planavimą, pirmiausia puslapyje **Planuojamas atsakymų seansas** turite iš sąrašo panaikinti tuos respondentus. Tada galite baigti grafiką.
 
 ## <a name="completing-questionnaires"></a>Klausimynų pildymas
 Jums sukūrus ir išplatinus klausimyną, jį gali pildyti pasirinkti respondentai. Galite užpildyti klausimynus, kuriuos galite pasiekti iš dviejų vietų:
@@ -126,10 +129,10 @@ Klausimynus galima padaryti prieinamus konkretiems naudotojams ar naudotojų gru
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Klausimynų kūrimas](design-questionnaires.md)
+[Klausimynų sudarymas](design-questionnaires.md)
 
-[Klausimynų naudojimas](questionnaires.md)
+[Klausimynai](questionnaires.md)
 
-[Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
+[Klausimynų rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md)
 
 

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bfe007995c894d6cc86d07ef2b52da65e32e950
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182743"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772468"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Prieiga prie programos metaduomenų naudojant ER konfigūraciją
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas, turintis sistemos administratoriaus arba elektroninės ataskaitos kūrėjo vaidmenį, gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas programos metaduomenis. Programos metaduomenys bus pasiekiami naudojant ER metaduomenų konfigūraciją, kurioje yra metaduomenų pavyzdžių rinkinys, skirtas užsienio prekybos operacijoms pasiekti. Norint atlikti šiuos veiksmus, pirmiausia RCS reikia atlikti temos [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md) procedūros veiksmus. Tada reikia atlikti temoje [(ER) Programos metaduomenų, kurie bus naudojami RCS, paruošimas](prepare-application-metadata-rcs.md) nurodytus veiksmus.
+Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas, turintis sistemos administratoriaus arba elektroninės ataskaitos kūrėjo vaidmenį, gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas programos metaduomenis. Programos metaduomenys bus pasiekiami naudojant ER metaduomenų konfigūraciją, kurioje yra metaduomenų pavyzdžių rinkinys, skirtas užsienio prekybos operacijoms pasiekti. Norint atlikti šiuos veiksmus, pirmiausia RCS reikia atlikti temos [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md) procedūros veiksmus. Tada reikia atlikti temoje [Programos metaduomenų, kurie bus naudojami RCS, paruošimas](prepare-application-metadata-rcs.md) nurodytus veiksmus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 1. Eikite į **Visos darbo sritys** > **Elektroninės ataskaitos**. 
@@ -35,7 +35,7 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 
 ## <a name="import-metadata-configuration"></a>Metaduomenų konfigūracijos importavimas 
 1. Spustelėkite **Metaduomenų konfigūracijos**. 
-2. Importuokite ER metaduomenų konfigūraciją, kurioje yra metaduomenys, kurie sukonfigūruoti generuoti elektroninius dokumentus, skirtus užsienio prekybos įmonėms. Ši ER metaduomenų konfigūracija eksportuota kaip XML failas ir atlikti [(ER) Programos metaduomenų, kurie bus naudojami RCS, paruošimas](prepare-application-metadata-rcs.md) procedūros veiksmai. 
+2. Importuokite ER metaduomenų konfigūraciją, kurioje yra metaduomenys, kurie sukonfigūruoti generuoti elektroninius dokumentus, skirtus užsienio prekybos įmonėms. Ši ER metaduomenų konfigūracija eksportuota kaip XML failas ir atlikti [Programos metaduomenų, kurie bus naudojami RCS, paruošimas](prepare-application-metadata-rcs.md) procedūros veiksmai. 
 3. Spustelėkite **Keitimas**. 
 4. Spustelėkite **Įkelti iš XML failo**. 
 5. Spustelėkite **Naršyti** ir pasirinkite failą Užsienio prekybos metaduomenys.xml. 

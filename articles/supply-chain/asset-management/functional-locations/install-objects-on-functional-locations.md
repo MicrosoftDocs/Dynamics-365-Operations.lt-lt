@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c585bce468f87a32204893ea20ce6954e92b0e38
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 8619c6cde484c41ec01e96eb4626366f1955b5d4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571811"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811831"
 ---
 # <a name="install-assets-on-functional-locations"></a>Turto diegimas funkcinėse vietose
 
@@ -31,7 +31,7 @@ ms.locfileid: "2571811"
 
  
 
-Sukūrus funkcinės vietos struktūras, kitas žingsnis yra įdiegti turtą atitinkamose funkcinėse vietose. Šioje temoje paaiškinta, kaip diegti turtą tose funkcinėse vietose turto valdyme. Daugiau informacijos apie turto kūrimą žr. [Turtas](../objects/introduction-to-objects.md).
+Sukūrus funkcinės vietos struktūras, kitas žingsnis yra įdiegti turtą atitinkamose funkcinėse vietose. Šioje temoje paaiškinta, kaip diegti turtą tose funkcinėse vietose turto valdyme. Daugiau informacijos apie turto kūrimą žr. [Turto pristatymas](../objects/introduction-to-objects.md).
 
 Jei sukūrėte turto struktūrą, visa turto struktūra turi būti įdiegta funkcinėje vietoje. Todėl funkcinėje vietoje galima pasirinkti tik pagrindinį turtą (aukščiausio lygio turtą, kuris neturi pagrindinio turto). Funkcinėje vietoje taip pat bus įdiegtas visas susijęs antrinis turtas (antrinis turtas). Diegiant turtą funkcinėje vietoje, į jas gali būti automatiškai perkeltos funkcinės vietos finansinės dimensijos, atsižvelgiant į funkcinei vietai parinkto funkcinės vietos tipo nustatymą. Daugiau informacijos apie funkcinės vietos tipų nustatymą žr. [Funkcinių vietų tipai](../setup-for-functional-locations/functional-location-types.md).
 

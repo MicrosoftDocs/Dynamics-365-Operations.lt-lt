@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 92ef83bc1783b00a4d7d9739ca1c17e863c7ff44
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8be4e225507a18a92d642ff0f3a6ca3d0ff68564
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185272"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772540"
 ---
 # <a name="parse-incoming-documents-in-json-format"></a>Gaunamų dokumentų analizė JSON formatu
 
@@ -46,7 +46,7 @@ Norint atlikti ER užduočių vedlio Formato konfigūracijos kūrimas importuoja
 - JSON masyvai gali būti tik įdėtieji objekto ypatybių elementų elementai.
 - JSON masyvus gali sudaryti tik JSON objektai. Juose negali būti tiesioginių eilučių / skaitinių verčių ir įdėtųjų masyvų. Šių masyvų elementai išanalizuojami formate nurodyta tvarka. Atsižvelgiama į kiekvieno JSON objekto daugialypumo nuostatas.
 
-Be to, turite užbaigti užduočių vedlį [ER Reikiamų konfigūracijų kūrimas elektroninėse ataskaitose, norint importuoti duomenis iš išorinio failo](tasks/er-required-configurations-import-data.md), jei jo dar neužbaigėte. Atsisiųskite toliau nurodytą failą norėdami užbaigti užduočių vedlį.
+Be to, turite užbaigti užduočių vedlį [ER reikiamų konfigūracijų kūrimas, norint importuoti duomenis iš išorinio failo](tasks/er-required-configurations-import-data.md), jei jo dar neužbaigėte. Atsisiųskite toliau nurodytą failą norėdami užbaigti užduočių vedlį.
 
 | Pareigos                  | Failo vardas |
 |------------------------|-----------|

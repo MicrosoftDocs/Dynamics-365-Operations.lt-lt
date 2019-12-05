@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e022fbf182da9a07fe20e5bebdd99cbff3d9c90
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248939"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813367"
 ---
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas. 
 
@@ -80,6 +81,9 @@ Kurdami PU, jam galite taikyti pirkimo sutartį. Tada į PU antraštę kopijuoja
 Pasirinkti pirkimo sutartį galite tik tada, kai kuriate PU. Kai PU sukurtas, pirkimo sutarties pasirinkti negalite.  
 Kai kuriose situacijose, kuriose PU kuriami netiesiogiai, galite valdyti, ar Tiekimo grandinės valdymas turi automatiškai ieškoti taikytinų pirkimo sutarčių. Pavyzdžiui, galite tai atlikti automatiškai patvirtindami suplanuotus PU arba kurdami PU pagal pirkimo užsakymus.
 
+## <a name="matching-policy-on-purchase-agreements"></a>Pirkimo sutarčių atitikimo strategija
+Galite apibrėžti eilutės atitikimo strategiją pirkimo sutarties antraštėje. Ši eilutės atitikimo strategija atsižvelgs į mokėtinos sumos eilutės atitikimo strategiją, kai laukas **Leisti perrašyti atitikimo strategiją** puslapyje **Mokėtinos sumos parametrai** („FastTab“ **Kainos ir kiekio atitikimas**) yra nustatytas į **Aukštesniame nei įmonės strategija lygyje**. Dokumentuose, kuriuose nurodoma pirkimo sutartis, bus naudojama eilutės atitikimo strategija, kuri apibrėžta pirkimo sutarties antraštėje, išskyrus atvejus, kai ji kitaip apibrėžta atitinkamos prekės, prekės ir tiekėjo ar kategorijos pirkimo strategijoje.
+
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkimo sutartys ir vidinės įmonės prekyba
 Vidinės įmonės prekybiniai ryšiai gali būti sukurti tarp tiekėjo ir kliento sąskaitų, esančių skirtinguose juridiniuose subjektuose. Kai sukuriamas vienos iš šalių pardavimo užsakymas arba PU, sukuriama vidinės kompanijos užsakymų grandinė. Užsakymų grandinėje pardavimo užsakymas ir PU yra sukuriami atitinkamuose teisiniuose subjektuose.  
 
@@ -93,9 +97,9 @@ Galite nukopijuoti finansines dimensijas į dokumento antraštes arba į atskira
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Kurti pirkimo sutartį (užduočių vedlys)](tasks/create-purchase-agreement.md)
+[Pirkimo sutarties kūrimas](tasks/create-purchase-agreement.md)
 
-[Kurti pirkimo leidimo užsakymą iš pirkimo sutarties (užduočių vedlys)](tasks/create-purchase-release-order-purchase-agreement.md)
+[Pirkimo leidimo užsakymo kūrimas iš pirkimo sutarties](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

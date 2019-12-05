@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8a8494bdefcf11dc331be18bfe02e0df1e39d602
-ms.sourcegitcommit: deb87e518a151d8bb084891851a39758938a96e4
+ms.openlocfilehash: 2652458a5fea9e46b8b68d3b197d2ccb1385731d
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2626252"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811753"
 ---
 # <a name="manually-created-work-orders"></a>Neautomatiniu būdu sukurti darbo užsakymai
 
@@ -70,7 +70,7 @@ Atkreipkite dėmesį į toliau nurodytus punktus.
 
 - Sąrašo puslapio **Visi darbo užsakymai** išsamios informacijos rodinyje galite pridėti kelis turtus prie darbo užsakymo įterpdami eilutes į „FastTab“ **Darbo užsakymų priežiūros užduotys**. Turtui galite pasirinkti tik tuos priežiūros užduoties tipus, kurie yra nurodyti turto tipe konkrečiam turtui.  
 
-- Jei pakeisite turto aptarnavimo lygį ar turto kritiškumą po to, kai naudojote turtą darbo užsakyme, šio darbo užsakymo aptarnavimo lygis ar kritiškumas nebus atitinkamai atnaujintas. Daugiau informacijos apie aptarnavimo lygius ir kritiškumus žr. [Turto aptarnavimo lygiai](../setup-for-objects/object-priorities.md) ir [Turto kritiškumai](../setup-for-objects/object-criticalities.md).
+- Jei pakeisite turto aptarnavimo lygį ar turto kritiškumą po to, kai naudojote turtą darbo užsakyme, šio darbo užsakymo aptarnavimo lygis ar kritiškumas nebus atitinkamai atnaujintas. Daugiau informacijos apie aptarnavimo lygius ir kritiškumus žr. [Turto aptarnavimo lygiai](../setup-for-objects/object-priorities.md) ir [Turto svarbos tipai](../setup-for-objects/object-criticalities.md).
 
 - Darbo užsakymo kritiškumas iš naujo apskaičiuojamas kaskart, kai prie darbo užsakymo pridedama arba pašalinama darbo užsakymo užduotis.
 

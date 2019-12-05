@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 76564c440d52f7eae4faa704cf9010c7754c3751
-ms.sourcegitcommit: 7bec89b33a56447072d01066af4da473b8092ca8
+ms.openlocfilehash: 4e466e6b1bbec0915b6fdb9b86d3b5cbb45364ad
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2536875"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771615"
 ---
 # <a name="analytical-workspaces"></a>Analizės darbo sritys
 [!include[banner](../includes/banner.md)]
@@ -34,15 +34,15 @@ ms.locfileid: "2536875"
 - [„Power BI“ turinys Išlaidų valdymas](cost-management-content-pack.md)
 - [„Power BI“ Kredito ir mokėjimų priežiūros valdymas](../../../finance/accounts-receivable/credit-collections-power-bi.md)
 - [„Power BI“ turinys Darbuotojo tobulėjimas](employee-development-PBI.md) 
-- [„Power BI“ turinys Finansinės įžvalgos](financial-insights.md)
-- [„Power BI“ turinys Finansinis našumas](financial-performance-power-bi-content-pack.md)
-- [„Power BI“ turinys Ilgalaikio turto valdymas](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [Finansinės įžvalgos](financial-insights.md)
+- [Finansinio našumo „PowerBI.com“ turinys](financial-performance-power-bi-content-pack.md)
+- [Ilgalaikio turto tvarkymo darbo sritis](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
 - [„Power BI“ turinys Mokymasis](learning-power-bi.md)
 - [„Power BI“ turinys Praktikos vadovas](practice-manager-power-bi.md)
 - [„Power BI“ turinys Gamybos našumas](production-performance-power-bi.md)
 - [„Power BI“ turinys Pirkimo išlaidų analizė](purchase-content-pack-for-power-bi.md) 
 - [„Power BI“ turinys Įdarbinimas](recruiting-analysis-power-bi-content-pack.md) 
 - [„Power BI“ turinys Pardavimo ir pelningumo našumas](sales-profitability-performance-content-pack.md)
-- [„Power BI“ turinys Tiekėjo mokėjimai](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [Tiekėjo mokėjimų darbo sritis](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [„Power BI“ turinys Sandėlio našumas](warehouse-power-bi-content.md)
 - [Darbo jėgos metrikos „Power BI“ turinys](workforce-analysis-power-bi-content-pack.md)

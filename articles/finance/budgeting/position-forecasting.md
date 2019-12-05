@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 039b5d7ace19fa93e6db4920153f4a1a67519c85
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d5bae90cf7c8f11fa5409014023d36cc68ae1bd0
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179064"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770878"
 ---
 # <a name="position-forecasting"></a>Pareigų prognozavimas
 
@@ -33,7 +33,7 @@ Su darbuotojais susijusios išlaidas dažnai sudaro didelę įmonės išlaidų d
 
 ## <a name="position-forecasting-in-budget-planning"></a>Pareigų prognozavimas planuojant biudžetą
 
-[![Grafinio vaizdo viršuje](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Pareigų prognozės komponentai](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Prognozuojant pareigas trys pagrindiniai komponentai naudojami tikslioms pareigų išlaidų biudžeto sumoms pateikti. Tada šias sumas galima įtraukti į biudžeto planą biudžetui skaičiuoti. 
 
@@ -45,14 +45,14 @@ Pagrindinis komponentas yra su **prognozuojamos pareigos**, t. y. visi išlaidų
 
 ### <a name="position-forecasting-processes"></a>Pareigų prognozavimo procesai
 
-[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Pareigų prognozės procesų iliustravimas](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Įprasto pareigų prognozavimo proceso metu pirmiausia sukuriami sąrankos komponentai (biudžeto išlaidų elementai ir kompensacijų grupės). Tada prognozuojamos pareigos sugeneruojamos pagal esamas pareigas. Tada galite atlikti koregavimus. Pvz., galite įtraukti arba šalinti pareigas, keisti užmokesčio tarifus ir išmokų išlaidas bei įtraukti atlyginimo didinimus. Galite kurti kelias prognozuojamų pareigų versijas, kad galėtumėte lengviau palyginti skirtingus biudžeto sudarymo scenarijus. Tada prognozuojamas pareigas galite įtraukti į biudžeto planus ir prognozuojamų pareigų išlaidas įtraukti kaip biudžeto plano eilutes.
 
 Papildomas prognozuojamų pareigų versijas galima kurti, kai peržiūrimi biudžeto planai. Šios naujos versijos yra tikslinimų pagrindas.
 
 ## <a name="position-forecasting-setup"></a>Pareigų prognozavimo sąranka
-[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Iliustracija, išryškinanti sąranką](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Biudžeto išlaidų elementai
 
@@ -89,7 +89,7 @@ Kompensacijų grupės laukai **Padidinimo grafikas** ir **Padidinimo data** yra 
 Kompensacijų grupėje pasirinktas pajamų išlaidų elementas yra naudojamas, kai grupėje kuriate prognozuojamų pareigų pajamas, įskaitant jų pagrindinį užmokestį ir bet kokio etapo didinimą. Laukas **Pastoviosios atlyginimo dalies planas** kompensacijų grupę su personalo pastoviosios atlyginimo dalies planu. Šis saitas gali darbuotojo pastoviosios atlyginimo dalies informaciją priskirti prognozuojamoms pareigoms, o dėl to gali būti tiksliau planuojamas biudžetas. Atminkite, kad kompensacijų grupės kompensacijų tinklelio struktūra (lygiai ir etapai) turi atitikti pastoviosios atlyginimo dalies plano struktūrą. Kitu atveju sistema negali kompensacijų grupės tinkamai susieti su pastoviosios atlyginimo dalies planu.
 
 ## <a name="creating-forecast-positions"></a>Prognozuojamų pareigų kūrimas
-[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Iliustracija, išryškinanti „prognozuojamų pareigų kūrimas“](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Esamų pareigų prognozuojamų pareigų kūrimas
 
@@ -105,7 +105,7 @@ Kai parinktis **Priskirti kompensacijų grupę** nustatyta į **Taip**, jei pare
 
 Parinkties **Priskirti kompensacijų grupę** nustatymui teikiama pirmenybė, lyginant su parinkties **Biudžeto išlaidų elemento priskyrimas** nustatymu. Šiuos du parametrus galima naudoti vienu metu. 
 
-[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
+[![Diagrama „kompensacijos grupės priskyrimas“](./media/graphic4.png)](./media/graphic4.png) 
 
 Kitas pasirinkimas – priskirti jubiliejaus datą. Tada priskirto darbuotojo pasirinkta data (koreguota pradžios data, darbuotojo pradžios data, įdarbinimo pradžios data arba paaukštinimo data) yra nustatoma kaip prognozuojamų pareigų metinių data ir naudojama informacijai teikti bei darbo užmokesčio didinimams generuoti.
 
@@ -118,7 +118,7 @@ Pasirinkę prognozuojamas pareigas, pasirinkite **Kopijuoti pasirinktas prognozu
 Taip pat galite kurti visiškai naujas prognozuojamas pareigas. Pasirinkite esamą užduotį ir biudžeto planavimo procesą bei biudžeto plano scenarijų. Tada galite įtraukti kitą norimą informaciją. Įsidėmėkite: tuo pačiu metu sukuriamos ir naujos personalo pareigos.
 
 ## <a name="working-with-forecast-positions"></a>Darbas su prognozuojamomis pareigomis
-[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Iliustracija, išryškinanti „prognozuojamų pareigų keitimas“](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Kelios prognozuojamų pareigų versijos
 
@@ -174,7 +174,7 @@ Perskaičiavimo procesas automatiškai taikomas visoms prognozuojamoms pareigoms
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Prognozuojamų pareigų perdavimas į biudžeto planus
 
-[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Iliustracija, išryškinanti „Įtraukimas į biudžeto planą“](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Prognozuojamų pareigų kūrimo ir modifikavimo paskirtis – įtraukti jas į biudžeto planus, kad biudžeto planuose būtų pateikiamos tiksliausios biudžeto sumos. Yra du prognozuojamų pareigų įtraukimo į biudžeto planus būdai. Galite naudoti biudžeto plano generavimo procesą arba parinkimo procesą.
 

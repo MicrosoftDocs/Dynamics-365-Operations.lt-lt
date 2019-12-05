@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 266c594fda1609e4efdc8cdcd79767d94b755187
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188538"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2772058"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Konsolidavimo ir šalinimo peržiūra
 
@@ -87,6 +87,6 @@ Pasirinktis **Finansinės ataskaitos** yra sprendimas. Apie organizacijas, turin
 Naudodami pasirinktį **Įmonės balansų eksportavimas**, skirtą eksportuoti iš vieno egzemplioriaus, o po to kitame egzemplioriuje naudodami pasirinktį **Konsoliduoti su importu** galite konsoliduoti duomenis.
 
 
-Norėdami daugiau informacijos žr. [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](../general-ledger/currency-revaluation-consolidation-company.md)
+Daugiau informacijos rasite [Valiutos kurso pasikeitimas konsoliduotoje įmonėje](../general-ledger/currency-revaluation-consolidation-company.md)
 
 

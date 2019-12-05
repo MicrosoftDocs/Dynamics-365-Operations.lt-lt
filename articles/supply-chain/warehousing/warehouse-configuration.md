@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54d6c432907b1b75307c56d3876c8b390d5ff376
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: aa503f2ce3ae8ff6b221ea1d26a1c62d0ba37646
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653423"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814909"
 ---
 # <a name="warehouse-configuration-overview"></a>Sandėlio konfigūracijos apžvalga
 
@@ -31,7 +31,8 @@ ms.locfileid: "2653423"
 
 Šiame straipsnyje paaiškinta, kaip konfigūruoti sandėlį. Pateikiama informacija apie tai, kaip įgalinti sandėlio maketą ir sandėlio procesus.
 
-**Pastaba.** Šis straipsnis taikomas funkcijoms **Sandėlio valdymo** modulyje (patobulintas sandėliavimas). Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
+> [!NOTE]
+> Šis straipsnis taikomas funkcijoms **Sandėlio valdymas** modulyje (patobulintas sandėliavimas). Jis nėra taikomas sandėlio funkcijoms **Atsargų valdymo** modulyje.
 
 ## <a name="warehouse-layout"></a>Sandėlio išdėstymas
 Sandėlio valdymo sistema programoje „Supply Chain Management“ suteikia lanksčių būdų, kaip apibrėžti savo sandėlio išdėstymą, siekiant patenkinti kintančius poreikius, kad galėtumėte pasiekti optimalų sandėlio efektyvumą.
@@ -114,7 +115,7 @@ Kad būtų lengviau ir greičiau apibrėžti veiksmus, susietus su kiekviena vie
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Sandėlio, kuriame veikia WMS, vietų konfigūravimas (užduočių vedlys)](tasks/configure-locations-wms-enabled-warehouse.md)
+[Sandėlio, kuriame veikia WMS, vietų konfigūravimas](tasks/configure-locations-wms-enabled-warehouse.md)
 
 
 

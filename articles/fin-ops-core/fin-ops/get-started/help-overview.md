@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef630ca56888eb61ab0519a29c89c3ccb2f24a87
-ms.sourcegitcommit: d554faca895609b8124bf2ea5aca5a55c407534a
+ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "2537837"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811677"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -82,7 +82,7 @@ Norėdami gauti daugiau informacijos, skaitykite mūsų [bendraautoriaus vadovą
 
 Užduočių vedlys yra kontroliuojama, valdoma, interaktyvi patirtis, kuri jums padeda atlikti užduoties ar verslo proceso veiksmus. Atidaryti (paleisti) užduočių vedlį galite iš žinyno srities. Pirmą kartą spustelėjus užduočių vedlį, žinyno srityje bus rodomos nuoseklios užduoties instrukcijos. Galima naudoti lokalizuotus užduočių vedlius.
 
-„Microsoft“ pristatė užduočių vedlių bibliotekas, kurios skirtos iki 2017 m. gruodžio mėn. pasirodžiusiems „Dynamics 365 for Finance and Operations“ leidimams. Skyriuje [Prieiga prie užduočių vedlių iš žinyno srities](help-overview.md#accessing-task-guides-from-the-help-pane) aprašyta, kaip rasti jūsų produktui tinkamus užduočių vedlius.
+„Microsoft“ pristatė užduočių vedlių bibliotekas, kurios skirtos iki 2017 m. gruodžio mėn. pasirodžiusiems „Dynamics 365 for Finance and Operations“ leidimams. Skyriuje [Žinyno sistema](help-overview.md#accessing-task-guides-from-the-help-pane) aprašoma, kaip rasti tinkamus užduočių vadovus savo produktui.
 
 ![Užduočių vedlio skaitymo rodinys](./media/task-guide-ops.png)
 
@@ -93,7 +93,7 @@ Norėdami pradėti valdomą, interaktyvią patirtį, žinyno srities apačioje s
 > [!IMPORTANT]
 > Duomenys, kuriuos įvedate leisdami užduočių vedlį, yra tikri. Jei esate gamybos aplinkoje, duomenys bus įvesti į įmonę, kurią šiuo metu naudojate.
 
-Norėdami sukurti savo pasirinktinų užduočių vedlių, galite naudoti užduočių įrašymo priemonę. Daugiau informacijos žr. temoje [Dokumentų ar mokymų kūrimas naudojant užduočių įrašus](../../dev-itpro/user-interface/task-recorder-training-docs.md).
+Norėdami sukurti savo pasirinktinų užduočių vedlių, galite naudoti užduočių įrašymo priemonę. Daugiau informacijos ižr. [Dokumentų arba mokymo su užduoties įrašymu kūrimas](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Vidinis Žinynas
 
@@ -144,13 +144,12 @@ Išversti užduočių vedliai yra išleisti bibliotekose, pavadinime yra frazė 
 
 Galite sukurti pasirinktinų užduočių vedlių ir tokiu būdu sukurti vartotojams skirtą žinyną arba susieti savo žiniatinklio svetainę su žinyno sritimi. Daugiau informacijos rasite:
 
-- [Kaip sukurti užduoties įrašą ir naudoti jį kaip dokumentus ar mokymą](../../dev-itpro/user-interface/task-recorder.md)
+- [Užduoties įrašymo ištekliai](../../dev-itpro/user-interface/task-recorder.md).
 - [Pasirinktinio žinyno kūrimas (techninė dokumentacija)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Užduoties įrašymo priemonė](../../dev-itpro/user-interface/task-recorder.md)
-- [Kurkite dokumentus ar mokymus naudodami užduočių įrašus](../../dev-itpro/user-interface/task-recorder.md)
+- [Užduoties įrašymo ištekliai](../../dev-itpro/user-interface/task-recorder.md)
 
 Šioje lentelėje pateikiamos mūsų svetainės. Prie svetainių, prie kurių pavadinimo yra žvaigždutė (\*), reikia prisijungti naudojant paskyrą, susietą su paslaugų teikimo planu.
 

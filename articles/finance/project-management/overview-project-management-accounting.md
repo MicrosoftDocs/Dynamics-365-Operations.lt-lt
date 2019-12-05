@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d461b85f89eff63c8747fb17b3ee34ebfeb2218
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 79e12f39589f9cf3f4b1515fa3ab10bb10ffb97f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185640"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770364"
 ---
 # <a name="project-management-and-accounting-overview"></a>Projektų valdymo ir apskaitos apžvalga
 
@@ -72,7 +72,7 @@ Daugiau informacijos apie projektų sutartis rasite [Projektų sutartys](project
 
 WBS išsamumo laipsnis priklauso nuo vertinant reikalingo tikslumo lygio ir reikalingo sekimo pagal tuos vertinimus lygio. Projektuose, kurių leistini grafiko ar kainos neatitikimai yra labai maži, reikia išsamesnės WBS ir pagal ją kruopščiai sekti darbo eigą bei kainą. 
 
-Daugiau informacijos rasite [Darbo paskirstymo struktūros](work-breakdown-structures.md).
+Daugiau informacijos žr. [Darbo paskirstymo struktūros apžvalga](work-breakdown-structures.md).
 
 ### <a name="create-project-forecasts-and-budgets"></a>Kurti projektų prognozes ir biudžetus
 
@@ -134,7 +134,7 @@ Projekto vykdymo metu komandos nariai ar vadovai, naudodami tabelius, išlaidų 
 
 WBS yra projekto darbo, kuris bus atliekamas, aprašas. WBS yra užduočių hierarchija. Ji nurodo ne tik kiekvienos užduoties darbą, bet ir jos dydį, išlaidas ir trukmę. 
 
-Daugiau informacijos rasite [Darbo paskirstymo struktūros](work-breakdown-structures.md).
+Daugiau informacijos žr. [Darbo paskirstymo struktūros apžvalga](work-breakdown-structures.md).
 
 ### <a name="manage-project-forecasts-and-budgets"></a>Valdyti projektų prognozes ir biudžetus
 

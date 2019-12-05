@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d4b59183116784f44f45fddacdfa4aa954383ecd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: b23860a7eda0ec9d75cca04728b7fc11d01bf967
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2023889"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812746"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 26 d.)
 
@@ -75,11 +75,11 @@ Dabar šiame leidime pastoviųjų atlyginimo dalių planai rodomi, kai saugos pa
 Dabar šiame leidime galite pašalinti darbo įrašus naudodami „Talent“ parinktį **Atidaryti naudojant „Excel“**.
 
 ### <a name="upgrade-to-common-data-service"></a>Naujovinimas į „Common Data Service“
-Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „PowerApps“ administravimo centro ir nustatykite, ar reikia naujinti duomenų bazę. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
+Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai artėja. Prisijunkite prie „Power Apps“ administravimo centro ir nustatykite, ar reikia naujinti duomenų bazę. Daugiau informacijos apie galutinius terminus ir reikiamus naujovinimo veiksmus žr. [Naujovinimas į „Common Data Service“](https://docs.microsoft.com/common-data-service/upgradecds/introduction-upgrade-cds).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
-Informacijos apie peržiūros funkcijų įjungimą žr. [Prieiga prie „Talent“ peržiūros funkcijų](./access-preview-feature.md).
+Informacijos apie peržiūros funkcijų įjungimą žr. [Prieiga prie peržiūros funkcijų „Microsoft Dynamics 365 Talent“](./access-preview-feature.md).
 
 ### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a>Leidimas nedarbo laiko tipuose nurodyti priežasčių kodus
 Organizacijoms gali prireikti papildomos informacijos, susijusios su nedarbo laiko užklausomis. Norėdami gauti šią informaciją, darbuotojai turi įtraukti priežasties kodą į savo nedarbo laiko užklausas. Dabar šiame leidime galite nurodyti priežasties kodus, susietus su tam tikru nedarbo laiko tipu, ir leisti darbuotojams pasirinkti priežasties kodą savo nedarbo laiko užklausose.

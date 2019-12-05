@@ -19,18 +19,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a66beb6338ea593247c79a11feb7f301d56f32a9
-ms.sourcegitcommit: 6e0909e95f38b7487a4b7f68cc62b723f8b59bd4
+ms.openlocfilehash: 09d985e5c6816ec0c718aaf418f4e85fb828f1c6
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2572523"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769688"
 ---
 # <a name="integrated-customer-master"></a>Bendrieji integruoto kliento duomenys
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview](../includes/preview-banner.md)]
 
 Klientų įrašai paprastai naudojami daugiau negu vienoje programoje. Pavyzdžiui, pardavimo veikla gali pateikti komercinio kliento įrašus per „Sales” programą, o el. prekybos ar mažmeninės prekybos pardavimas gali pateikti kliento įrašus per „Finance and Operations” programą. Neatsižvelgiant į kliento įrašo kilmę, jis integruojamas fone už programų ribų ir infrastruktūros skirtumų. Integruoto kliento bendrieji duomenys padeda atlikti bendrųjų duomenų įsisavinimo scenarijus ir teikia išsamų kliento vaizdą „Dynamics 365“ programų pakete.
 
@@ -52,343 +50,43 @@ Jeigu pasiūlyme ar užsakymo procese dalyvauja ne pardavimo kontaktas, **Pardav
 
 Kliento duomenys apima visą informaciją apie klientą, pvz., klientų grupę, adresus, kontaktinę informaciją, mokėjimo profilį, sąskaitos faktūros profilį ir lojalumo būseną. Objektų susiejimų rinkinys veikia kartu atliekant kliento duomenų sąveiką, kaip parodyta tolesnėje lentelėje.
 
-„Finance and Operations” programos    | Kitos „Dynamics 365” programos
---------------------------|---------------------------------
-Klientas V3               | Paskyra
-Klientas V3               | Susisiekti
-CDS kontaktai V2           | Susisiekti
-Klientų grupės           | Msdyn\_customergroups
-Kliento mokėjimo būdas   | Msdyn\_customerpaymentmethods
-Lojalumo kortelė              | Msdyn\_loyaltycards
-Mokėjimo grafikas          | Msdyn\_paymentschedules
-Mokėjimo grafikas          | Msdyn\_paymentschedulelines
-Mokėjimo diena CDS           | Msdyn\_paymentdays
-Mokėjimo dienų eilutės CDS     | Msdyn\_paymentdaylines
-Mokėjimo sąlygos          | Msdyn\_paymentterms
-Pavadinimo afiksai              | Msdyn\_nameaffixes
+„Finance and Operations” programos | Kitos „Dynamics 365” programos         | Aprašymas
+----------------------------|---------------------------------|------------
+CDS kontaktai V2             | kontaktai                        | Naudojant šį šabloną sinchronizuojama visa tiek klientų, tiek tiekėjų pirminė, antrinė ir tretinė kontaktinė informacija.
+Klientų grupės             | msdyn_customergroups            | Naudojant šį šabloną sinchronizuojama klientų grupių informacija.
+Kliento mokėjimo būdas     | msdyn_customerpaymentmethods    | Naudojant šį šabloną sinchronizuojama klientų mokėjimo būdų informacija.
+Klientai V3                | sąskaitos                        | Naudojant šį šabloną sinchronizuojama komercinių ir organizacijos klientų bendroji informacija.
+Klientai V3                | kontaktai                        | Naudojant šį šabloną sinchronizuojmi vartotojų ir galutinių vartotojų klientų bendrieji duomenys.
+Lojalumo kortelė                | msdyn_loyaltycards              | Naudojant šį šabloną sinchronizuojama klientų lojalumo kortelių informacija.
+Pavadinimo afiksai                | msdyn_nameaffixes               | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų pavadinimų afiksų nuorodos duomenys.
+Mokėjimo dienos eilutės CDS V2    | msdyn_paymentdaylines           | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų eilučių nuorodos duomenys.
+Mokėjimo dienos CDS            | msdyn_paymentdays               | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų nuorodos duomenys.
+Mokėjimo grafiko eilutės      | msdyn_paymentschedulelines      | Sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų eilučių nuorodos duomenys.
+Mokėjimo grafikas            | msdyn_paymentschedules          | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų nuorodos duomenys.
+Mokėjimo sąlygos            | msdyn_paymentterms              | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo sąlygų nuorodos duomenys.
 
 [!include [banner](../includes/dual-write-symbols.md)]
 
-## <a name="customer-v3-to-account"></a>Klientas V3 su sąskaita
+[!include [mapping contacts contacts](dual-write/CDSContactsV2-contacts.md)]
 
-Šis šablonas sinchronizuoja komerciniams ir organizaciniams klientams skirtą kliento pagrindinę informaciją tarp „Finance and Operations“ programų ir „Common Data Service”.
+[!include [mapping customer group](dual-write/CustCustomerGroup-msdyn-customergroups.md)]
 
-<!-- ![](media/dual-write-account-1.png) -->
+[!include [mapping customer payment method](dual-write/CustomerPaymentMethod-msdyn-customerpaymentmethods.md)]
 
-<!-- ![](media/dual-write-account-2.png) -->
+[!include [mapping customer accounts](dual-write/CustomersV3-accounts.md)]
 
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-CUSTOMERACCOUNT | = | accountnumber
-INVOICEADDRESSCITY | = | address2\_city
-INVOICEADDRESSCOUNTRYREGIONISOCODE | = | address2\_country
-INVOICEADDRESSCOUNTY | = | address2\_county
-INVOICEADDRESSLATITUDE | \> | address2\_latitude
-INVOICEADDRESSLONGITUDE | \> | address2\_longitude
-INVOICEADDRESSSTATE | = | address2\_stateorprovince
-INVOICEADDRESSSTREET | = | address2\_line1
-INVOICEADDRESSZIPCODE | = | address2\_postalcode
-CREDITLIMIT | = | creditlimit
-DELIVERYADDRESSCITY | = | address1\_city
-DELIVERYADDRESSCOUNTRYREGIONISOCODE | = | address1\_country
-DELIVERYADDRESSCOUNTY | = | address1\_county
-DELIVERYADDRESSLATITUDE | \> | address1\_latitude
-DELIVERYADDRESSLONGITUDE | \> | address1\_longitude
-DELIVERYADDRESSZIPCODE | = | address1\_postalcode
-ORGANIZATIONNAME | = | pavadinimas
-ORGANIZATIONNUMBEROFEMPLOYEES | = | numberofemployees
-PRIMARYCONTACTEMAIL | = | emailaddress1
-PRIMARYCONTACTFAX | = | fax
-PRIMARYCONTACTPHONE | = | telephone1
-PRIMARYCONTACTTWITTER | = | primarytwitterid
-PRIMARYCONTACTURL | = | websiteurl
-SALESCURRENCYCODE | = | transactioncurrencyid.isocurrencycode
-SALESMEMO | = | aprašas
-CREDITLIMITISMANDATORY | \>\< | msdyn\_creditlimitismandatory
-CREDITRATING | = | msdyn\_creditrating
-CUSTOMERGROUPID | = | msdyn\_customergroupid.msdyn\_groupid
-IDENTIFICATIONNUMBER | = | msdyn\_identificationnumber
-INVOICEACCOUNT | = | msdyn\_billingaccount.accountnumber
-INVOICEADDRESS | \>\< | msdyn\_invoiceaddress
-ISONETIMECUSTOMER | \>\< | msdyn\_onetimecustomer
-ONHOLDSTATUS | \>\< | msdyn\_onholdstatus
-PARTYCOUNTRY | = | msdyn\_partycountry
-PARTYSTATE | = | msdyn\_partystateprovince
-PAYMENTDAY | = | msdyn\_paymentday.msdyn\_name
-PAYMENTMETHOD | = | msdyn\_customerpaymentmethod.msdyn\_name
-PAYMENTSCHEDULE | = | msdyn\_paymentschedule.msdyn\_name
-PAYMENTTERMS | = | msdyn\_paymentterm.msdyn\_name
-PAYMENTTERMSBASEDAYS | = | msdyn\_paymenttermsbasedays
-PRIMARYCONTACTFACEBOOK | = | msdyn\_primaryfacebookid
-PRIMARYCONTACTFAXEXTENSION | = | msdyn\_faxextension
-PRIMARYCONTACTLINKEDIN | = | msdyn\_primarylinkedinid
-TAXEXEMPTNUMBER | = | msdyn\_taxexemptnumber
-VENDORACCOUNT | = | msdyn\_vendor.msdyn\_vendoraccountnumber
-PRIMARYCONTACTEMAILDESCRIPTION | = | msdyn\_emailaddress1description
-PRIMARYCONTACTFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYCONTACTFAXDESCRIPTION | = | msdyn\_faxdescription
-PRIMARYCONTACTLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescrption
-PRIMARYCONTACTPHONEDESCRIPTION | = | msdyn\_telephone1description
-PRIMARYCONTACTPHONEEXTENSION | = | msdyn\_telephone1extension
-PRIMARYCONTACTTWITTERDESCRIPTION | = | msdyn\_primarytwitteriddescription
-PRIMARYCONTACTURLDESCRIPTION | = | msdyn\_websiteurldescription
-LANGUAGEID | \<\< | nėra
-DELIVERYADDRESSSTREET | = | address1\_line1
-DELIVERYADDRESSSTATE | = | address1\_stateorprovince
-nėra | \>\> | address1\_addresstypecode
-nėra | \>\> | customertypecode
-PARTYTYPE | \<\< | nėra
-PARTYNUMBER | = | msdyn\_partynumber
+[!include [mapping customer contacts](dual-write/CustomersV3-contacts.md)]
 
-## <a name="customer-v3-to-contact"></a>Klientas V3 su kontaktu
+[!include [mapping loyalty card](dual-write/LoyaltyCard-msdyn-loyaltycards.md)]
 
-Šis šablonas sinchronizuoja klientų ir galutinių vartotojų bendruosius duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
+[!include [mapping name affixes](dual-write/NameAffixes-msdyn-nameaffixes.md)]
 
-<!-- ![](media/dual-write-contact-1.png) -->
-<!-- ![](media/dual-write-contact-2.png) -->
+[!include [mapping payment day lines](dual-write/PaymentDayLinesCdsV2-msdyn-paymentdaylines.md)]
 
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-nėra | \>\> | msdyn\_sellable
-PARTYTYPE | \<\< | nėra
-PARTYNUMBER | = | msdyn\_partynumber
-CUSTOMERACCOUNT | = | msdyn\_contactpersonid
-CUSTOMERGROUPID | = | msdyn\_customergroupid.msdyn\_groupid
-PERSONFIRSTNAME | = | firstname
-PERSONLASTNAME | = | lastname
-PERSONMIDDLENAME | = | middlename
-PERSONPROFESSIONALTITLE | = | jobtitle
-PERSONGENDER | \>\< | gendercode
-PERSONMARITALSTATUS | \>\< | familystatuscode
-LANGUAGEID | \<\< | nėra
-ADDRESSCITY | = | address1\_city
-ADDRESSCOUNTRYREGIONISOCODE | = | address1\_country
-ADDRESSCOUNTY | = | address1\_county
-ADDRESSLATITUDE | \> | address1\_latitude
-ADDRESSLONGITUDE | \> | address1\_longitude
-ADDRESSLOCATIONROLES | \<\< | nėra
-ADDRESSSTATE | = | address1\_stateorprovince
-ADDRESSSTREET | = | address1\_line1
-ADDRESSZIPCODE | = | address1\_postalcode
-ADRESOSPOSTBOX | = | address1\_postofficebox
-nėra | \>\> | address1\_addresstypecode
-INVOICEADDRESSCITY | = | address2\_city
-INVOICEADDRESSCOUNTRYREGIONISOCODE | = | address2\_country
-INVOICEADDRESSCOUNTY | = | address2\_county
-INVOICEADDRESSLATITUDE | \> | address2\_latitude
-INVOICEADDRESSLONGITUDE | \> | address2\_longitude
-INVOICEADDRESSSTATE | = | address2\_stateorprovince
-INVOICEADDRESSSTREET | = | address2\_line1
-INVOICEADDRESSZIPCODE | = | address2\_postalcode
-nėra | \>\> | address2\_addresstypecode
-DELIVERYADDRESSCITY | = | address3\_city
-DELIVERYADDRESSCOUNTRYREGIONISOCODE | = | address3\_country
-DELIVERYADDRESSCOUNTY | = | address3\_county
-DELIVERYADDRESSLATITUDE | \> | address3\_latitude
-DELIVERYADDRESSLONGITUDE | \>\> | address3\_longitude
-DELIVERYADDRESSSTATE | = | address3\_stateorprovince
-DELIVERYADDRESSSTREET | = | address3\_line1
-DELIVERYADDRESSZIPCODE | = | address3\_postalcode
-nėra | \>\> | address3\_addresstypecode
-PRIMARYCONTACTEMAIL | = | emailaddress1
-PRIMARYCONTACTEMAILDESCRIPTION | = | msdyn\_emailaddress1description
-PRIMARYCONTACTFAX | = | fax
-PRIMARYCONTACTFAXDESCRIPTION | = | msdyn\_faxdescription
-PRIMARYCONTACTFAXEXTENSION | = | msdyn\_faxextension
-IDENTIFICATIONNUMBER | = | msdyn\_identificationnumber
-PARTYCOUNTRY | = | msdyn\_partycountry
-PARTYSTATE | = | msdyn\_partystateprovince
-PRIMARYCONTACTFACEBOOK | = | msdyn\_primaryfacebookid
-PRIMARYCONTACTFACEBOOKDESCRIPTION | = | msdyn\_primaryfacebookdescription
-PRIMARYCONTACTLINKEDIN | = | msdyn\_primaryinkedinid
-PRIMARYCONTACTLINKEDINDESCRIPTION | = | msdyn\_primarylinkedindescrption
-PRIMARYCONTACTPHONE | = | telephone1
-PRIMARYCONTACTPHONEDESCRIPTION | = | msdyn\_telephone1description
-PRIMARYCONTACTPHONEEXTENSION | = | msdyn\_telephone1extension
-PRIMARYCONTACTTWITTER | = | msdyn\_primarytwitterid
-PRIMARYCONTACTTWITTERDESCRIPTION | = | msdyn\_primarytwitteriddescription
-PRIMARYCONTACTURL | = | websiteurl
-PRIMARYCONTACTURLDESCRIPTION | = | msdyn\_websiteurldescription
-SALESCURRENCYCODE | = | transactioncurrencyid.isocurrencycode
-SALESMEMO | = | aprašas
+[!include [mapping payment days](dual-write/PaymentDaysCds-msdyn-paymentdays.md)]
 
-## <a name="contacts"></a>Kontaktai
+[!include [mapping payment schedule lines](dual-write/PaymentScheduleLines-msdyn-paymentschedulelines.md)]
 
-Šis šablonas sinchronizuoja visą pagrindinių, antrinių ir tretinių klientų ir tiekėjų kontaktinę informaciją tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
+[!include [mapping payment schedules](dual-write/PaymentSchedules-msdyn-paymentschedules.md)]
 
-<!-- ![](media/dual-write-contacts.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-CONTACTPERSONPARTYNUMBER | = | msdyn\_partynumber
-ASSOCIATEDCONTACTTYPE | \<\< | nėra
-FIRSTNAME | = | firstname
-MIDDLENAME | = | middlename
-LASTNAME | = | lastname
-ASSOCIATEDCONTACTNUMBER | = | msdyn\_vendorcontactid.msdyn\_vendoraccountnumber
-PRIMARYADDRESSCITY | = | address1\_city
-PRIMARYADDRESSCOUNTRYREGIONID | = | address1\_country
-PRIMARYADDRESSCOUNTYID | = | address1\_county
-PRIMARYFAXNUMBER | = | fax
-PRIMARYADDRESSSTATEID | = | address1\_stateorprovince
-PRIMARYADDRESSSTREET | = | address1\_line1
-PRIMARYADDRESSZIPCODE | = | address1\_postalcode
-PRIMARYPHONENUMBER | = | telephone1
-PRIMARYEMAILADDRESS | = | emailaddress1
-EMPLOYMENTDEPARTMENT | = | department
-PASTABOS | = | aprašas
-LYTIS | \>\< | gendercode
-GOVERNMENTIDENTIFICATIONNUMBER | = | governmentid
-PRIMARYURL | = | websiteurl
-MARITALSTATUS | \>\< | familystatuscode
-ISRECEIVINGDIRECTMAIL | \>\< | donotemail
-EMPLOYMENTPROFESSION | = | jobtitle
-SPOUSENAME | = | spousesname
-nėra | \>\> | msdyn\_contactforvendor
-nėra | \>\> | msdyn\_contactpersonid
-
-## <a name="customer-groups"></a>Klientų grupės
-
-Šis šablonas sinchronizuoja klientų grupių informaciją tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-customer-groups.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-CUSTOMERGROUPID | = | msdyn\_groupid
-APRAŠAS | = | msdyn\_description
-ISSALESTAXINCLUDEDINPRICE | \>\< | msdyn\_issalestaxincludedinprice
-PAYMENTTERMID | = | msdyn\_paymenttermid.msdyn\_name
-CLEARINGPERIODPAYMENTTERMNAME | = | msdyn\_clearingperiodpaymenttermname.msdyn\_name
-
-## <a name="customer-payment-methods"></a>Kliento mokėjimo būdai
-
-Šis šablonas sinchronizuoja klientų mokėjimo metodo informaciją tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-customer-payment-methods.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAVADINIMAS | = | msdyn\_name
-ACCOUNTTYPE | \>\< | msdyn\_accounttype
-DISCOUNTGRACEPERIODDAYS | = | msdyn\_discountgraceperioddays
-BRIDGINGPOSTINGENABLED | \>\< | msdyn\_bridgingpostingenabled
-ISSEPA | \>\< | msdyn\_issepa
-LASTFILENUMBER | = | msdyn\_lastfilenumber
-LASTFILENUMBERTODAY | = | msdyn\_lastfilenumbertoday
-APRAŠAS | = | msdyn\_description
-PAYMENTTYPE | \>\< | msdyn\_paymenttype
-CREATEANDDRAWBILLOFEXCHANGEDURINGINVOICEPOSTING | \>\< | msdyn\_invoiceupdate
-PAYMENTSTATUS | \>\< | msdyn\_paymentstatus
-SUMBYPERIOD | \>\< | msdyn\_sumbyperiod
-ENABLEPOSTDATEDCHECKCLEARINGPOSTING | \>\< | msdyn\_enablepostdatescheckclearingposting
-BILLOFEXCHANGEDRAFTTYPE | \>\< | msdyn\_billofexchangedrafttype
-DIRECTDEBIT | \>\< | msdyn\_directdebit
-
-## <a name="loyalty-cards"></a>Lojalumo kortelės
-
-Šis šablonas sinchronizuoja klientų lojalumo kortelių informaciją tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-loyalty-cards.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-CARDNUMBER | = | msdyn\_cardnumber
-CARDTENDERTYPE | \>\< | msdyn\_cardtendertype
-PARTYNUMBER | = | msdyn\_partynumber
-REPLACEMENTCARDNUMBER | \> | msdyn\_replacementcardnumber
-OMOPERATINGUNITNUMBER | = | msdyn\_operatingunitnumber
-LOYALTYENROLLMENTDATE | = | msdyn\_enrollmentdate
-
-## <a name="payment-schedules"></a>Mokėjimo grafikai
-
-Šis šablonas sinchronizuoja klientų ir tiekėjų mokėjimo grafiko nuorodos duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-payment-schedules.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAVADINIMAS | = | msdyn\_name
-APRAŠAS | = | msdyn\_description
-ALLOCATIONMETHOD | \>\< | msdyn\_allocationmethod
-PAYMENTFREQUENCYUNITS | \>\< | msdyn\_paymentfrequencyunit
-PAYMENTFREQUENCY | = | msdyn\_paymentfrequency
-NUMBEROFPAYMENTS | = | msdyn\_numberofpayments
-FIXEDPAYMENTAMOUNT | = | msdyn\_fixedpaymentamount
-MINIMUMPAYMENTAMOUNT | = | msdyn\_minimumpaymentamount
-SALESTAXALLOCATIONMETHOD | \>\< | msdyn\_salestaxallocationmethod
-PASTABOS | = | msdyn\_note
-
-## <a name="payment-schedule-lines"></a>Mokėjimo grafiko eilutės
-
-Sinchronizuoja klientų ir tiekėjų mokėjimo grafiko eilučių nuorodos duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-payment-schedule-lines.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAYMENTSCHEDULENAME | = | msdyn\_paymentschedule.msdyn\_name
-PAYMENTSCHEDULENAME | \> | msdyn\_name
-LINENUMBER | = | msdyn\_linenumber
-PERIODSAFTERDUEDATE | = | msdyn\_periodsafterduedate
-PERCENTORAMOUNT | \>\< | msdyn\_percentoramount
-PERCENTORAMOUNTVALUE | = | msdyn\_percentoramountvalue
-
-## <a name="payment-days"></a>Mokėjimo dienos
-
-Šis šablonas sinchronizuoja klientų ir tiekėjų mokėjimo dienų nuorodos duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-payment-days.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-PAVADINIMAS | = | msdyn\_name
-APRAŠAS | = | msdyn\_description
-
-## <a name="payment-day-lines"></a>Mokėjimo dienų eilutės
-
-Šis šablonas sinchronizuoja klientų ir tiekėjų mokėjimo dienų eilučių nuorodos duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-payment-day-lines.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-CDSINTEGRATIONKEY | = | msdyn\_paymentdaylineid
-FREQUENCY | \>\< | msdyn\_frequency
-DAYOFWEEK | \>\< | msdyn\_dayofweek
-DAYOFMONTH | = | msdyn\_dayofmonth
-PAVADINIMAS | = | msdyn\_paymentday.msdyn\_name
-
-## <a name="payment-terms"></a>Mokėjimo sąlygos
-
-Šis šablonas sinchronizuoja klientų ir tiekėjų mokėjimo terminų (mokėjimo terminai) nuorodos duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-payment-terms.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-APRAŠAS | = | msdyn\_description
-PAVADINIMAS | = | msdyn\_name
-NUMBEROFMONTHS | = | msdyn\_numberofmonth
-CUTOFFDAYOFMONTH | = | msdyn\_cutoffdayofmonth
-ISCASHPAYMENT | \>\< | msdyn\_iscashpayment
-NUMBEROFDAYS | = | msdyn\_days
-ISCERTIFIEDCOMPANYCHECK | \>\< | msdyn\_iscertifiedcompanycheck
-ISDEFAULTPAYMENTTERM | \>\< | msdyn\_isdefaultpaymentterm
-CREDITCARDPAYMENTTYPE | \>\< | msdyn\_creditcardpaymenttype
-CREDITCARDCREDITCHECKTYPE | \>\< | msdyn\_creditcardcreditchecktype
-PAYMENTDAYNAME | = | msdyn\_paymentdayname.msdyn\_name
-PAYMENTMETHODTYPE | \>\< | msdyn\_paymentmethodtype
-PAYMENTSCHEDULENAME | = | msdyn\_paymentschedulename.msdyn\_name
-
-## <a name="name-affixes"></a>Pavadinimo afiksai
-
-Šis šablonas sinchronizuoja klientų ir tiekėjų pavadinimo afiksų nuorodos duomenis tarp „Finance and Operations“ ir kitų „Dynamics 365” programų.
-
-<!-- ![](media/dual-write-name-affixes.png) -->
-
-Šaltinio laukas | Schemos tipas | Paskirties laukas
----|---|---
-AFFIX | = | msdyn\_affix
-TIPAS | \>\< | msdyn\_affixtype
-APRAŠAS | = | msdyn\_description
+[!include [mapping terms of payment](dual-write/TermsofPayment-msdyn-paymentterms.md)]

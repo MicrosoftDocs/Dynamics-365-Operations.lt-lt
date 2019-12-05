@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2becf8213cfa46e2c0cf0c553f0b5e503dfc3704
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570245"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771827"
 ---
 # <a name="general-journal-processing"></a>Bendrųjų žurnalų apdorojimas
 
@@ -85,10 +85,10 @@ Pagrindinės sąskaitos sąranka teikia daug pagrindinio žurnalo apdorojimo gal
 Apskaitos struktūros ir išplėstinių taisyklių struktūros yra labai svarbios siekiant užtikrinti, kad duomenys, būtini finansinėms ataskaitoms ir efektyvumui sekti, būtų įrašomi apdorojant bendrąjį žurnalą ir dokumentuojant. Apskaitos struktūros ir išplėstinių taisyklių struktūros leidžia pritaikyti duomenų įvedimo patirtį. Galite leisti tik kiekvienu atveju svarbių finansinių dimensijų duomenų įrašus, taip pat galite taikyti reikalavimą, kad privalomi ir tikslūs duomenys visada būtį įrašomi.
 
 Daugiau informacijos ieškokite šiose temose:
-- [Planavimas: sąskaitų planas](plan-chart-of-accounts.md). 
-- [Kurti papildomas žurnalų taisykles](tasks/create-advanced-rules-journals.md)
+- [Sąskaitų plano rengimas](plan-chart-of-accounts.md) 
+- [Žurnalų išplėstinių taisyklių kūrimas](tasks/create-advanced-rules-journals.md)
 - [Kurti žurnalo įrašą naudojant šabloną](tasks/create-journal-entry-template.md)
-- [Kurti ir patvirtinti žurnalus](tasks/create-validate-journals.md)
+- [Žurnalų kūrimas ir tvirtinimas](tasks/create-validate-journals.md)
 - [Periodinių žurnalų registravimas](tasks/post-periodic-journals.md)
 - [Didžiosios knygos paskirstymo žurnalo apdorojimas](tasks/process-ledger-allocation-journal.md)
 

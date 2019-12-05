@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: b031fd95d2e7fc8405ad96139779091e00bb4d46
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 42065f3d6b7ae9e7ad99b26c7692e41f8c36934d
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551477"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832982"
 ---
 # <a name="troubleshoot-integration-with-linkedin-and-microsoft-dynamics-365-talent---attract"></a>Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Naudokite toliau nurodytą informaciją, norėdami išspręsti triktis, kurios gali kilti, registruojant darbo skelbimus iš „Microsoft Dynamics 365 Talent: Attract” į „LinkedIn”.
 
@@ -42,18 +42,18 @@ Jei kyla problemų prisijungiant prie „LinkedIn” iš „Attract”, atlikite
 
 Jei po 24 valandų jūsų darbas neatsirado „LinkedIn”, atlikite toliau nurodytus veiksmus.
 
-1. Įsitikinkite, kad jūsų „LinkedIn” įmonės ID siejasi su jūsų įmonės „LinkedIn” puslapiu ir yra tinkamai įvestas „Attract” administravimo centre. Daugiau informacijos apie tai, kaip pakeisti „LinkedIn” parametrus administravimo centre, žr. [Integracijos su „LinkedIn” nustatymas](attract-admin-linkedin.md). Daugiau informacijos apie „LinkedIn” įmonės ID, žr. [„LinkedIn” įmonės ID su „LinkedIn” darbo skelbimų lenta susiejimas – dažnai užduodami klausimai](https://www.linkedin.com/help/linkedin/answer/98972).
+1. Įsitikinkite, kad jūsų „LinkedIn” įmonės ID siejasi su jūsų įmonės „LinkedIn” puslapiu ir yra tinkamai įvestas „Attract” administravimo centre. Daugiau informacijos apie tai, kaip pakeisti „LinkedIn“ parametrus administravimo centre, rasite  [Integravimo su „LinkedIn“ nustatymas programai „Microsoft Dynamics 365 Talent - Attract“](attract-admin-linkedin.md). Daugiau informacijos apie „LinkedIn” įmonės ID, žr. [„LinkedIn” įmonės ID su „LinkedIn” darbo skelbimų lenta susiejimas – dažnai užduodami klausimai](https://www.linkedin.com/help/linkedin/answer/98972).
 2. Patikrinkite „LinkedIn” darbo informaciją, kad įsitikintumėte, jog adresas baigtas. „LinkedIn” turi būti įrašytas bent darbo miestas ir šalis ar regionas, kad sėkmingai registruotumėte darbo skelbimą.
 3. Įsitikinkite, kad darbas nedubliuoja kito darbo, kuris buvo registruotas „LinkedIn”. „LinkedIn” neregistruos darbo skelbimų, kurie yra „LinkedIn” „Premium” darbo vietų arba apribotų skelbimų dublikatai iš kito šaltinio. Patikrinkite, ar kitas jūsų įmonės asmuo neregistravo darbo rankiniu būdu.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[DUK apie „LinkedIn“](./attract-linkedin-faq.md)
+[DUK apie „Attract” integravimą su „LinkedIn“](./attract-linkedin-faq.md)
 
-[Darbo skelbimų registravimas „LinkedIn“ iš „Attract“](./attract-post-jobs-to-linkedin.md)
+[Darbo skelbimų registravimas „LinkedIn“ iš „Microsoft Dynamics 365 Talent - Attract“](./attract-post-jobs-to-linkedin.md)
 
-[Kandidatų ieška naudojant „LinkedIn Recruiter”](./attract-linkedin-recruiter.md)
+[Kandidatų ieška naudojant LinkedIn Recruiter programoje „Microsoft Dynamics 365 Talent - Attract“](./attract-linkedin-recruiter.md)
 
-[Darbo vietų kūrimas](./creating-jobs-attract.md)
+[Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“](./creating-jobs-attract.md)
 
-[Integravimo su „LinkedIn“ trikčių diagnostika](./attract-troubleshoot-linkedin.md)
+[Integravimo trikčių diagnostika naudojant „LinkedIn” ir „Microsoft Dynamics 365 Talent - Attract“](./attract-troubleshoot-linkedin.md)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-20
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 5e4272fa1c94a883a10b7893d5dc8addfa987e60
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: a3e2178dbc60582d6167898c4c3446feac49dd04
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024073"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814495"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-20-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. rugpjūčio 20 d.)
 
@@ -35,7 +35,7 @@ ms.locfileid: "2024073"
 
 ### <a name="simplified-apply-experience-for-candidates"></a>Supaprastinta taikymo patirtis kandidatams 
 
-Viešojoje peržiūroje kandidatams yra galima supaprastinta taikymo patirtis. Kai bus įjungta, kandidatai galės kreiptis dėl darbo, naudojant jų CV, **kreiptis naudojant „LinkedIn“** (jei įgalinta) arba naudojant esamą prašymo formą. Po šių pakeitimų kandidatai galės greitai pateikti savo darbo prašymą su kuo mažiau laukų, kuriems reikia įvedimo rankiniu būdu. Daugiau informacijos apie tai, kaip įgalinti šią funkciją, ieškokite [Peržiūros funkcijų įgalinimas arba išjungimas](./access-preview-feature.md#enable-or-disable-preview-features).
+Viešojoje peržiūroje kandidatams yra galima supaprastinta taikymo patirtis. Kai bus įjungta, kandidatai galės kreiptis dėl darbo, naudojant jų CV, **kreiptis naudojant „LinkedIn“** (jei įgalinta) arba naudojant esamą prašymo formą. Po šių pakeitimų kandidatai galės greitai pateikti savo darbo prašymą su kuo mažiau laukų, kuriems reikia įvedimo rankiniu būdu. Daugiau informacijos, kaip įjungti šią funkciją, žr. [Prieiga prie „Microsoft Dynamics 365 Talent“ peržiūros funkcijų](./access-preview-feature.md#enable-or-disable-preview-features).
 
 ### <a name="view-rejection-comments-as-part-of-application-activity"></a>Peržiūrėti atmetimo komentarus kaip programos veiklos dalį
 

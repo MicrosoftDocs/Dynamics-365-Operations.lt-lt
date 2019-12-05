@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 15a645c98fe38e8ddaa34c0c21581eac6636502f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 40317cdef777ca6524feb66caf66ddec3d855d32
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190976"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2811606"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>Nauji ar atnaujinti užduočių vedliai (2016 m. lapkričio mėn.)
 
@@ -30,7 +30,7 @@ ms.locfileid: "2190976"
 
 Šioje temoje išvardijami nauji ar atnaujinti užduočių vedliai, kurie buvo išleisti „Microsoft“ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms), skirtoje „Microsoft Dynamics 365 for Operations“. Išleista jokia nauja darbo pradžios biblioteka.
 
-APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics 365 for Operations“, „Microsoft Dynamics 365 for Operations“ 3 platformos naujiniu, „Microsoft Dynamics AX“ 2 platformos naujiniu, „Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Daugiau informacijos apie šiuos leidimus rasite puslapyje [Kas nauja arba pasikeitė](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, ieškokite [Darbo su žinynu pradžia](help-overview.md).
+APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) pateikiami užduočių vedliai, kurie skirti teikti pagalbą, susijusią su „Microsoft Dynamics 365 for Operations“, „Microsoft Dynamics 365 for Operations“ 3 platformos naujiniu, „Microsoft Dynamics AX“ 2 platformos naujiniu, „Dynamics AX“ 2016 m. gegužės mėn. naujiniu ir „Microsoft Dynamics AX“ 2016 m. vasario mėn. leidimu. Norėdami gauti daugiau informacijos apie šiuos leidimus, žr. [Kas nauja arba pakeista „Finance and Operations“ pagrindiniame puslapyje ](whats-new-changed.md). Šioje bibliotekoje pateikiamos lokalizuotos užduočių vedlių versijos. Daugiau informacijos apie tai, kaip prie užduočių vedlių bibliotekos prijungti žinyno sistemą, žr. [Žinyno sistema](help-overview.md).
 
 > [!NOTE]
 > Žvaigždutė (\*) šalia verslo procesų modeliavimo įrankio (BPM) eilutės pavadinimo nurodo, kad to verslo proceso užduočių vedlys yra skirtas „Dynamics 365 for Operations“ 2016 m. lapkričio mėn. naujiniui ir nėra palaikomas ankstesnėse „Microsoft Dynamics AX“ versijose.
@@ -539,12 +539,12 @@ APQC bendrojoje bibliotekoje (2016 m. lapkričio mėn.; skirta visoms kalboms) p
 | Apkrovos paskyros nustatymas                                            | Bendra         |
 | Transportavimo mokėjimo priemonės nustatymas                                              | Bendra         |
 | Automatinio transportavimo derinimo nustatymas                                     | Bendra         |
-| \*Trumpalaikio išrinkimo elementų perskirstymo nustatymas                                    | Bendra         |
+| \*Trumpalaikio išrinkimo elementų perskirstymo nustatymas                                    | Bendroji         |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Galima naudoti naujus užduočių vadovus (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
+[Nauji užduočių vedliai (2016 m. vasario mėn.)](new-task-guides-available-february-2016.md)
 
-[Nauji ar atnaujinti galimi užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. gegužės mėn.)](new-updated-task-guides-available-may-2016.md)
 
-[Nauji ar atnaujinti galimi užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)
+[Nauji ar atnaujinti užduočių vedliai (2016 m. rugpjūčio mėn.)](new-updated-task-guides-available-august-2016.md)

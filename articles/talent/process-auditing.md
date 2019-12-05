@@ -15,14 +15,16 @@ ms.search.region: Global
 ms.author: trkeya
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
-ms.openlocfilehash: 448fceccb507bec5b60b686043a303c1997a9ac0
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: 0b0be541416d2e4be78da223ec8e95c195d90bbc
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1742679"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832650"
 ---
 # <a name="track-changes-in-recruiting-data"></a>Įdarbinimo duomenų pakeitimų sekimas
+
+[!include [banner](includes/banner.md)]
 
 Naudodami audito apdorojimą galite stebėti keitimus kandidatams, darbo vietoms ir darbo paraiškoms. Ši funkcija naudinga ataskaitoms ar atitikčiai.
 
@@ -31,7 +33,7 @@ Sekamus duomenis galite peržiūrėti programa „Power BI“, naudodami „ODat
 ## <a name="track-changes"></a>Sekti keitimus
 Norėdami nustatyti įdarbinimo duomenų stebėjimą, atlikite šiuos veiksmus:
 
-1. [„Powerapps“](https://web.powerapps.com) pasirinkite tinkamą aplinką.
+1. [Power Apps](https://web.powerapps.com) pasirinkite tinkamą aplinką.
 
 2. Pasirinkite **Parametrai** (krumpliaračio piktograma), pasirinkite **Išplėstinis tinkinimas**, tada pasirinkite **Ištekliai** dalyje **Kūrėjo ištekliai**. 
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 2a5c3e49f09bf4f1f90449db10d439f563ecc2c0
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: cf1c4cbc18728b6094f862792d20a893b2a8d6ea
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249847"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815277"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 
@@ -41,9 +41,9 @@ Pirmasis integravimo tarp „Field Service“ ir „Supply Chain Management“ e
 
 Pirmame integravimo tarp „Field Service“ ir „Supply Chain Management“ etape galima sinchronizuoti toliau nurodytus elementus.
 
-- [„Supply Chain Management“ produktus su „Field Service“ produktais, kuriuose pateikiama produkto tipo informacija](field-service-product.md)
-- [„Field Service“ darbo užsakymus su „Supply Chain Management“](field-service-work-order.md)
-- [„Field Service“ SF su „Supply Chain Management“ laisvos formos SF](field-service-invoice.md)
+- [Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais](field-service-product.md)
+- [„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais](field-service-work-order.md)
+- [Sinchronizuokite „Field Service“ sutarčių SF su „Supply Chain Management“ laisvos formos SF](field-service-invoice.md)
 
 Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp „Field Service“ ir „Supply Chain Management“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą [Kaip sinchronizuoti darbo užsakymą su „Microsoft Dynamics 365 Integration“](https://www.youtube.com/watch?v=46ylO7raZAo).
 

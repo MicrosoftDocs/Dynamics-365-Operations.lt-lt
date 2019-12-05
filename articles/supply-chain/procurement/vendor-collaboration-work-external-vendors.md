@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22d16219df9319d276514c62348c0e1995d22715
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 733ecc7cfb4fee325560f5a6fe11612bb8ba57ef
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653607"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2815300"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Tiekėjo bendradarbiavimas su išoriniais tiekėjais
 
@@ -218,7 +218,7 @@ Jei naudojate konsignacijos atsargas, tiekėjai gali naudoti tiekėjo bendradarb
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Darbas su RFQ naudojant tiekėjo bendradarbiavimą
 
-Šiame skyriuje aprašoma sąveika tarp klientų ir tiekėjų RFQ proceso metu. Jame taip pat paaiškinama, kaip informacija perduodama tiekėjams. RFQ proceso palaikymo apžvalga pateikiama temoje [Pasiūlymo patvirtinimai (RFQ)](request-quotations.md).
+Šiame skyriuje aprašoma sąveika tarp klientų ir tiekėjų RFQ proceso metu. Jame taip pat paaiškinama, kaip informacija perduodama tiekėjams. RFQ proceso palaikymo pagrindinę apžvalgą žr. [Pasiūlymo patvirtinimų (RFQ) apžvalga](request-quotations.md).
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Pakaitai, priedai, pakeitimai ir grąžinimai
 

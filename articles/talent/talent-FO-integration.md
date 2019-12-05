@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8b9fa6b8d5109f873c784d384d49f685f94da228
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 747922294eaf971795177beeb73839d453f6475a
+ms.sourcegitcommit: ae0efac749ab34d423fac44d00a597801c143fbb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622773"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "2830191"
 ---
 # <a name="dynamics-365-talent-to-dynamics-365-finance-integration-faq"></a>„Dynamics 365 Talent“ ir „Dynamics 365 Finance“ integravimo DUK
 
@@ -48,7 +48,7 @@ Esant numatytiesiems parametrams, naujose aplinkose, kuriose nėra pateiktų dem
 
 „Common Data Service“ finansinių dimensijų šiuo metu naudoti negalima, todėl jos neįtrauktos į numatytąjį šabloną. Šis objektas suplanuotas, bet šiuo metu nepateikiama jokia išleidimo laiko juosta.
 
-Jei duomenys yra „Finance“, bet ne „Talent“, susiekite abi sistemas naudodami „Talent“ funkciją **Konfigūruoti saitus**. Daugiau informacijos apie tai, kaip konfigūruoti „Talent“ ir „Finance“ saitus, žr. [Kas nauja arba pakeista „Dynamics 365 Talent: Core HR“ (2018 m. spalio 31 d.)](whats-new-talent-october-31.md).
+Jei duomenys yra „Finance“, bet ne „Talent“, susiekite abi sistemas naudodami „Talent“ funkciją **Konfigūruoti saitus**. Daugiau informacijos apie tai, kaip konfigūruoti „Talent“ ir „Finance“ saitus, žr. [Kas nauja arba pakeista „Dynamics 365 Talent“ - „Core HR“ (2018 m. spalio 31 d.))](whats-new-talent-october-31.md).
 
 ![Susieti finansines dimensijas](media/MapFinancialDimensions.png)
 
@@ -69,7 +69,7 @@ Naudodami parinktį „Išplėstinė užklausa“ galite filtruoti ir pertvarkyt
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Ar galiu nurodyti, kokius laukus siųsti į „Finance“ dėl konkretaus objekto?
 
 Laukai gali būti įtraukti arba pašalinti iš integracijos užduoties. Ne visi duomenų laukai, kurie yra „Common Data Service“ objekte, bus užpildomi iš „Core HR“.
-Papildomi duomenys gali būti užpildomi naudojant „PowerApps“.
+Papildomi duomenys gali būti užpildomi naudojant „Power Apps“.
 
 ![Laukų įtraukimas arba pašalinimas iš integracijos užduoties](media/SpecifyFieldsIncludedInIntegration.png)
 
@@ -119,19 +119,19 @@ Atsekite laiką iš Duomenų integratoriaus vykdymo retrospektyvos ir programoje
 
 1. Užfiksuokite užduoties indeksą iš duomenų integratoriaus (šiame pavyzdyje tai „9“).
 
-![Užfiksuokite užduoties indeksą iš duomenų integratoriaus](media/CaptureTaskIndex.png)
+    ![Užfiksuokite užduoties indeksą iš duomenų integratoriaus](media/CaptureTaskIndex.png)
 
 2. Stebėkite projekto vykdymo laiką.
 
-![Stebėkite projekto vykdymo laiką](media/CaptureTimeOfExecution.png)
+    ![Stebėkite projekto vykdymo laiką](media/CaptureTimeOfExecution.png)
 
 3. Programoje „Finance“ raskit –1 indeksą. Šiame pavyzdyje projektas su priesaga „8“ ir indekso vykdymo laikas „0“ sutampa su 2 veiksmo vykdymo laiku.
 
-![Indekso identifikavimas](media/IdentifyIndex.png)
+    ![Indekso identifikavimas](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-talent-and-finance-i-dont-see-my-talent-data-in-finance-what-do-i-do"></a>Integravus „Talent“ ir „Finance“, nesimato mano „Talent“ duomenų programoje „Finance“. Ką daryti?
 
-Integravimo su „Finance“ procesą sudaro du veiksmai. Pirmiausia, patikrinti, ar „Talent“ yra atnaujinta ir teikiama „Common Data Service“. Sinchronizuojama beveik realiuoju laiku, todėl galima patikrinti „PowerApps“ duomenų objektuose ieškant duomenų.
+Integravimo su „Finance“ procesą sudaro du veiksmai. Pirmiausia, patikrinti, ar „Talent“ yra atnaujinta ir teikiama „Common Data Service“. Sinchronizuojama beveik realiuoju laiku, todėl galima patikrinti „Power Apps“ duomenų objektuose ieškant duomenų.
 
 ![Duomenys „Common Data Service“](media/DataInCDS.png)
 
@@ -168,7 +168,7 @@ Atnaujinkite duomenų objektus programoje „Finance“, pasirinkdami **Duomenų
 
   - [Duomenų integratoriaus klaidų valdymas ir trikčių šalinimas](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „PowerApps“, „Microsoft Flow“ ir „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Atsakymas į DSR užklausas, sistemai sugeneruojant žurnalus „Power Apps“, „Microsoft Power Automate“ ir „Common Data Service“](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Duomenų valdymas:
 

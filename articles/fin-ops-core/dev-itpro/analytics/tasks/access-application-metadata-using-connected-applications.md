@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a476163ba6f66ab60ed8bfea6198d02f13ac5136
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5020b523ca5d76d36f7436a8f43e8629c029e3e8
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182720"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2769883"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Prieiga prie programos metaduomenų naudojant prijungtas programas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas, turintis sistemos administratoriaus arba elektroninės ataskaitos kūrėjo vaidmenį, gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas „Finance and Operations“ programos metaduomenis. Programos metaduomenys bus pasiekiami tinkle naudojant programą, prijungtą prie RCS. Bus sukonfigūruotas ER modelio susiejimo pavyzdys, siekiant pasiekti užsienio prekybos operacijas. Norint atlikti šiuos veiksmus, pirmiausia RCS reikia atlikti veiksmus, nurodytus temoje [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](er-configuration-provider-mark-it-active-2016-11.md). Jei neatlikote veiksmų, nurodytų temoje [Prieiga prie programos metaduomenų naudojant ER konfigūraciją](access-application-metadata-er-configuration.md), eikite į [Elektroninių ataskaitų pavyzdžių puslapis](https://go.microsoft.com/fwlink/?linkid=862266), atsisiųskite ir įrašykite šias ER konfigūracijas: Užsienio prekybos metaduomenys.xml; Užsienio prekybos modelis.xml; Užsienio prekybos susiejimas.xml, tada atlikite procedūros veiksmus.
+Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas, turintis sistemos administratoriaus arba elektroninės ataskaitos kūrėjo vaidmenį, gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas „Finance and Operations“ programos metaduomenis. Programos metaduomenys bus pasiekiami tinkle naudojant programą, prijungtą prie RCS. Bus sukonfigūruotas ER modelio susiejimo pavyzdys, siekiant pasiekti užsienio prekybos operacijas. Norint atlikti šiuos veiksmus, pirmiausia RCS reikia atlikti veiksmus, nurodytus temoje [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](er-configuration-provider-mark-it-active-2016-11.md). Jei neatlikote veiksmų, nurodytų temoje [Prieiga prie programos metaduomenų naudojant ER konfigūraciją](access-application-metadata-er-configuration.md), eikite į [Elektroninių ataskaitų pavyzdžių puslapis](https://go.microsoft.com/fwlink/?linkid=862266), atsisiųskite ir įrašykite šias ER konfigūracijas: Užsienio prekybos metaduomenys.xml; Užsienio prekybos modelis.xml; Užsienio prekybos susiejimas.xml, tada atlikite procedūros veiksmus.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 1. Eikite į **Visos darbo sritys** > **Elektroninės ataskaitos**. 
-2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip **Aktyvus**. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros [Sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų](er-configuration-provider-mark-it-active-2016-11.md) veiksmus. 
+2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip **Aktyvus**. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros [Sukurti konfigūracijų teikėjus ir juos pažymėti kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md) veiksmus. 
 
 ## <a name="get-required-er-configurations"></a>Reikiamų ER konfigūracijų gavimas
 1. Spustelėkite **Ataskaitų konfigūracijos**. 
-2. Jei jau atlikote [(RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją](access-application-metadata-er-configuration.md) procedūros veiksmus, jūs jau turite visas reikiamas ER konfigūracijas (užsienio prekybos metaduomenų, modelio ir susiejimo konfigūracijas) dabartiniame RCS egzemplioriuje. Galite praleisti visus kitus šios antrinės užduoties veiksmus. 
+2. Jei jau atlikote [Prieiga prie programos metaduomenų naudojant ER konfigūraciją](access-application-metadata-er-configuration.md) procedūros veiksmus, jūs jau turite visas reikiamas ER konfigūracijas (užsienio prekybos metaduomenų, modelio ir susiejimo konfigūracijas) dabartiniame RCS egzemplioriuje. Galite praleisti visus kitus šios antrinės užduoties veiksmus. 
 3. Spustelėkite **Keitimas**. 
 4. Spustelėkite **Įkelti iš XML failo**. 
 5. Spustelėkite **Naršyti** ir pasirinkite failą **Užsienio prekybos metaduomenys.xml**. 
@@ -72,8 +72,8 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 4. Medyje pasirinkite **Užsienio prekybos modelis\Užsienio prekybos susiejimas**. 
 5. Išplėskite sekciją **Būtinieji komponentai**. 
 
-> [!NOTE]
-> Šiuo metu šis susiejimas nurodo metaduomenų konfigūraciją. Kuriant šį modelio susiejimą bus siūlomi šios konfigūracijos programos metaduomenys. 
+    > [!NOTE]
+    > Šiuo metu šis susiejimas nurodo metaduomenų konfigūraciją. Kuriant šį modelio susiejimą bus siūlomi šios konfigūracijos programos metaduomenys. 
 
 6. Spustelėkite **Konstruktorius**. 
 7. Spustelėkite **Konstruktorius**. 
@@ -81,8 +81,8 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 9. Spustelėkite **Įtraukti šakninį elementą**. 
 10. Lauke **Lentelė** įveskite arba pasirinkite reikšmę. 
 
-> [!NOTE]
-> Šiuo metu šis susiejimas nurodo metaduomenų konfigūraciją. Kuriant šį modelio susiejimą bus siūlomi šios konfigūracijos programos metaduomenys. 
+    > [!NOTE]
+    > Šiuo metu šis susiejimas nurodo metaduomenų konfigūraciją. Kuriant šį modelio susiejimą bus siūlomi šios konfigūracijos programos metaduomenys. 
 
 11. Spustelėkite **Atšaukti**. 
 12. Uždarykite puslapį. 
@@ -92,8 +92,8 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 1. Spustelėkite **Redaguoti**. 
 2. Pasirinkite programą **MyConnectedApp**. 
 
-> [!NOTE]
-> Šiuo metu šis susiejimas nurodo pasirinktos prijungtos programos metaduomenis. Kai tas pats susiejimas tuo pačiu metu nurodo metaduomenų konfigūraciją ir prijungtą programą, bus naudojami prijungtos programos metaduomenys. 
+    > [!NOTE]
+    > Šiuo metu šis susiejimas nurodo pasirinktos prijungtos programos metaduomenis. Kai tas pats susiejimas tuo pačiu metu nurodo metaduomenų konfigūraciją ir prijungtą programą, bus naudojami prijungtos programos metaduomenys. 
 
 3. Spustelėkite **Konstruktorius**. 
 4. Spustelėkite **Konstruktorius**. 
@@ -101,14 +101,14 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 6. Spustelėkite **Įtraukti šakninį elementą**. 
 7. Lauke **Lentelė** įveskite arba pasirinkite reikšmę. 
 
-> [!NOTE]
-> Dabar siūlomos daugiau nei dvi programos lentelės, nes šis susiejimas naudoja visus prijungtos programos, kuri buvo priskirta, metaduomenis. 
+    > [!NOTE]
+    > Dabar siūlomos daugiau nei dvi programos lentelės, nes šis susiejimas naudoja visus prijungtos programos, kuri buvo priskirta, metaduomenis. 
 
 8. Spustelėkite **Atšaukti**. 
 9. Spustelėkite **Tikrinti**. 
 
-> [!NOTE]
-> Sėkmingai susiejome duomenų modelio elementus su duomenų šaltinių elementais, kurie aprašomi naudojant prijungtos programos, priskirtos šiam susiejimui, metaduomenis. 
+    > [!NOTE]
+    > Sėkmingai susiejome duomenų modelio elementus su duomenų šaltinių elementais, kurie aprašomi naudojant prijungtos programos, priskirtos šiam susiejimui, metaduomenis. 
 
 10. Uždarykite puslapį. 
 11. Uždarykite puslapį. 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6206b3a1ac298af98e4b69b6800b9a493658c4ea
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ecaeb80f3cda2ee24533ed263df63cc10c5ffc65
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181294"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771101"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Elektroninių ataskaitų (ER) konfigūracijų ciklo valdymas
 
@@ -33,7 +33,7 @@ ms.locfileid: "2181294"
 
 ## <a name="overview"></a>Apžvalga
 
-Elektroninės ataskaitos (ER) yra mechanizmas, palaikantis įstatymiškai privalomus ir šaliai būdingus elektroninius dokumentus. Apskritai, ER suteikia galimybę atlikti tolesnes su vienu elektroniniu dokumentu susijusias užduotis. Daugiau informacijos žr. puslapyje [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md).
+Elektroninės ataskaitos (ER) yra mechanizmas, palaikantis įstatymiškai privalomus ir šaliai būdingus elektroninius dokumentus. Apskritai, ER suteikia galimybę atlikti tolesnes su vienu elektroniniu dokumentu susijusias užduotis. Išsamią informaciją žr. [Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md).
 
 - Sukurti elektroninio dokumento šabloną.
 
@@ -87,4 +87,4 @@ Programavimo aplinkoje sukurtas ER konfigūracijas galima nusiųsti į tikrinimo
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+[Elektroninių ataskaitų (ER) apžvalga](general-electronic-reporting.md)

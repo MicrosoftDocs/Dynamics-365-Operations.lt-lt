@@ -16,25 +16,25 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: eadf0af285213a972cac83d7b6fc6a47317b21bb
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 86be6d4cc0af3f2fd92523d4ecd3825f2383fc48
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551662"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2770740"
 ---
 # <a name="online-financial-consolidations"></a>Finansinis konsolidavimas tinkle
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomas finansinis konsolidavimas Didžiojoje knygoje. Prieš skaitydami šią temą, būtinai perskaitykite temą [Finansinio konsolidavimo ir valiutos konvertavimas](financial-consolidations-currency-translation.md).
+Šioje temoje aprašomas finansinis konsolidavimas Didžiojoje knygoje. Prieš skaitydami šią temą, būtinai perskaitykite temą [Finansinio konsolidavimo ir valiutos konvertavimo apžvalga](financial-consolidations-currency-translation.md).
 
 Atlikę sąranką įveskite konsolidavimo informaciją puslapyje **Konsolidavimas [tinkle]**. Baigę galite spustelėti **Gerai** arba **Paketas**, kad apdorotumėte konsolidavimą.
 
 ## <a name="criteria"></a>Kriterijai
 Puslapio **Konsolidavimas [tinkle]** skirtuke **Kriterijai** galite nustatyti konsolidavimo sąskaitas, laikotarpius ir duomenų tipą.
 
-![Skirtukas Kriterijai](./media/criteria-consolidate-online.png "Skirtukas Kriterijai")
+![Kriterijų skirtukas](./media/criteria-consolidate-online.png "Kriterijų skirtukas")
 
 Čia pateikiamas šiame skirtuke esančių įvairių laukų paaiškinimas.
 
@@ -60,16 +60,16 @@ Puslapio **Konsolidavimas [tinkle]** skirtuke **Kriterijai** galite nustatyti ko
 ## <a name="financial-dimensions"></a>Finansinės dimensijos
 Skirtuke **Finansinės dimensijos** galite nustatyti dimensijas, kurios turi būti įtrauktos į konsoliduotą įmonę. Norėdami pasirinkti dimensiją, nustatyti lauką **Specifikacija** į parinktį **Dimensijos**, o tada nurodykite dimensijų tvarką konsoliduotoje įmonėje.
 
-![Skirtukas Finansinės dimensijos](./media/financial-dimensions-cons.png "Skirtukas Finansinės dimensijos")
+![Finansinių dimensijų skirtukas](./media/financial-dimensions-cons.png "Finansinių dimensijų skirtukas")
 
 Nepaisant nurodytos tvarkos, **Pagrindinės sąskaita** visada bus pirmajame segmente.
 
 ## <a name="legal-entities"></a>Juridiniai subjektai
 Skirtuke **Juridiniai subjektai** galite nustatyti įmones, kurios turi būti įtrauktos į konsoliduotą įmonę. Taip pat galite nustatyti tų įmonių nuosavybės procentą. Jei nurodysite mažiau nei 100 procentų nuosavybės, nurodytas procentas bus sumuojamas konsoliduotoje įmonėje. Jei yra konvertavimo skirtumų, laukas **Skirtumų konvertavimo sąskaitos tipas** naudojamas norint pasirinkti pagrindinę sąskaitą iš sąrankos puslapyje **Automatinių operacijų sąskaitos**.
 
-![Skirtukas Juridiniai subjektai](./media/legal-entities-cons.png "Skirtukas Juridiniai subjektai")
+![Juridinių subjektų skirtukas](./media/legal-entities-cons.png "Juridinių subjektų skirtukas")
 
-![Puslapis Automatinių operacijų sąskaitos](./media/accounts-for-automatic-cons.png "Puslapis Automatinių operacijų sąskaitos")
+![Automatinių operacijų sąskaitų puslapis](./media/accounts-for-automatic-cons.png "Automatinių operacijų sąskaitų puslapis")
 
 ## <a name="elimination"></a>Pašalinimas
 Skirtuke **Pašalinimas** galite rinktis iš trijų toliau nurodytų apdorojimo pašalinimo parinkčių.
@@ -78,7 +78,7 @@ Skirtuke **Pašalinimas** galite rinktis iš trijų toliau nurodytų apdorojimo 
 - Pasirinkite pašalinimo taisyklę, tada lauke **Pasiūlymo pasirinktys** pasirinkite **Tik registravimas**. Pasirinkus šią parinktį pašalinimas bus apdorotas konsolidavimo proceso metu ir viskas bus registruojama vienu veiksmu.
 - Pašalinimo procesą vykdykite atskirai nuo konsolidavimo proceso naudodami pašalinimo žurnalą.
 
-![Skirtukas Pašalinimas](./media/elimination-cons-onl.png "Skirtukas Pašalinimas")
+![Pašalinimo skirtukas](./media/elimination-cons-onl.png "Pašalinimo skirtukas")
 
 Daugiau informacijos apie pašalinimą žr. [Pašalinimo taisyklės](./elimination-rules.md).
 
@@ -89,10 +89,10 @@ Skirtuke **Valiutos konvertavimas** galite nurodyti juridinį subjektą, sąskai
 - **Operacijos data** – kiekvienos operacijos data bus naudojama pasirenkant valiutos kursą. Ši parinktis dažniausiai taikoma ilgalaikiam turtui ir dažnai vadinama retrospektyviniu kursu. Negalite matyti kurso peržiūros, nes sąskaitų diapazone bus pateikta daug įvairių operacijų kursų.
 - **Vartotojo nurodytas kursas** – pasirinkę šią parinktį, galite įvesti norimą valiutos kursą. Ši parinktis gali būti naudinga taikant vidutinius valiutos keitimo kursus arba konsoliduojant pagal fiksuotą valiutos kursą.
 
-![Skirtukas Valiutos konvertavimas](./media/currency-translation-cons-online.png "Skirtukas Valiutos konvertavimas")
+![Valiutos konvertavimo skirtukas](./media/currency-translation-cons-online.png "Valiutos konvertavimo skirtukas")
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-Daugiau informacijos apie konsolidavimą ir valiutos konvertavimą žr. pirminę šios potemės temą: [Finansinis konsolidavimas ir valiutos konvertavimas](./financial-consolidations-currency-translation.md).
+Daugiau informacijos apie konsolidavimą ir valiutų konvertavimą žr. pagrindinėje šios temos temoje [Finansinio konsolidavimo ir valiutų konvertavimo apžvalga](./financial-consolidations-currency-translation.md).
 
 Informacijos apie scenarijus, kuriais galite generuoti konsoliduotas finansines ataskaitas, žr. [Konsoliduotų finansinių ataskaitų generavimas](./generating-consolidated-financial-statements.md).

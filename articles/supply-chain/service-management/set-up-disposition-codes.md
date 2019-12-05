@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e21854825019a73dc8d7bf5a3ee18d508123f72
-ms.sourcegitcommit: 45f8cea6ac75bd2f4187380546a201c056072c59
+ms.openlocfilehash: a85f804344abec37d85e1ce15f064c8a0b901546
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/12/2019
-ms.locfileid: "1743196"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813114"
 ---
 # <a name="set-up-disposition-codes"></a>Nustatyti perdavimo kodus 
 
@@ -32,7 +32,7 @@ ms.locfileid: "1743196"
 
 Galite nustatyti perdavimo kodus ir nurodyti, kaip apdoroti kliento grąžintą prekę. Pvz., sukurkite perdavimo kodą pavadinimu **Sutaisyti ir grąžinti**, kad nurodytumėte, jog grąžinta prekė bus sutaisyta ir tada grąžinta klientui. Daugiau perdavimo kodų, paprastai naudojamų apdorojant klientų grąžintas prekes, pavyzdžių rasite faile [Nustatymas, kaip išmesti grąžintas prekes](specify-how-to-dispose-of-returned-items.md).
 
-Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl prekė buvo grąžinta. Daugiau informacijos apie priežasties kodus ieškokite faile [Grąžinimo priežasties kodo nustatymas](set-up-return-reason-code.md).
+Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl prekė buvo grąžinta. Daugiau informacijos apie priežasties kodus žr. [Grąžinimo priežasties kodų nustatymas](set-up-return-reason-code.md).
 
 1.  Spustelėkite **Pardavimas ir rinkodara** \> **Sąranka** \> **Pardavimo užsakymai** \> **Grąžinimai** \> **Perdavimo kodai**.
 
@@ -46,7 +46,7 @@ Taip pat galite nustatyti priežasties kodą, kuris padės paaiškinti, kodėl p
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-[Perdavimo kodai ir grąžinimo priežasčių kodai](disposition-and-return-reason-codes.md)
+[Kliento grąžinimų apžvalga](disposition-and-return-reason-codes.md)
 
 [Perdavimo kodai (forma)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
 

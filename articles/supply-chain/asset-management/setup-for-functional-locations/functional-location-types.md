@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 74ccda77a97d1e104940bb10a605d3ebbf45af75
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 0468cb0b1717b7cf0ccb391da09a4e7d788124f3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571259"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812219"
 ---
 # <a name="functional-location-types"></a>Funkcinių vietų tipai
 
@@ -56,7 +56,7 @@ Sukuriamas numatytasis funkcinės vietos tipas, kuris bus naudojamas tik kuriama
 3. Lauke **Funkcinės vietos tipas** įterpkite funkcinės vietos tipo ID ir pavadinimą lauke **Pavadinimas**.
 4. Lauke **Funkcinės vietos ciklo modelis** pasirinkite ciklo modelį. Daugiau informacijos apie funkcinės vietos ciklo būsenas ir ciklo modelius žr. [Funkcinės vietos ciklo būsenos](../setup-for-functional-locations/functional-location-stages.md).
 5. Perjungimo mygtuke **Keli turto objektai** pasirinkite „Taip“, jeigu turi būti įmanoma diegti kelis turto objektus funkcinėje vietoje naudojant šį funkcinės vietos tipą. Jei pasirinksite „Ne“, funkcinėje vietoje naudodami šį funkcinės vietos tipą bus galima įdiegti tik *vieną* turto objektą.
-6. Perjungimo mygtuke **Naujinti turto dimensiją** pasirinkite „Taip“, jeigu norite, kad turto objektai būtų diegiami šio tipo funkcinėje vietoje siekiant automatiškai naudoti su funkcine vieta susijusias finansines dimensijas. Tai reiškia, kad pakeitus finansines dimensijas formoje [Funkcinė vieta](../functional-locations/create-functional-locations.md), o funkcinei vietai naudojant funkcinės vietos tipą su šiuo perjungimo mygtuku, nustatytu į „Taip“, finansinės dimensijos automatiškai atnaujinamos visuose tos funkcinės vietos turto objektuose.
+6. Perjungimo mygtuke **Naujinti turto dimensiją** pasirinkite „Taip“, jeigu norite, kad turto objektai būtų diegiami šio tipo funkcinėje vietoje siekiant automatiškai naudoti su funkcine vieta susijusias finansines dimensijas. Tai reiškia, kad, jei pakeisite finansinių matmenų [Funkcinių vietų kūrimas](../functional-locations/create-functional-locations.md) formą, o funkcinė vieta naudoja funkcinės vietos tipą su perjungimo mygtuku, nustatytų į „Taip“, automatiškai atnaujinami viso turto, įdiegto toje funkcinėje vietoje, finansiniai matmenys.
 7. Laukas **Turto tipas** naudojamas tuo atveju, jei norite funkcinei vietai sukurti *vieną* turto objektą su tuo pačiu ID ir pavadinimu, kaip kuriama funkcinė vieta. Pavyzdžiui, tai gali būti aktualu, jei kuriate statinę funkcinę vietą, pvz., pastatą ar vamzdyną. Tokiu atveju pasirinkite turto tipą, kurį norite naudoti automatiškai kuriamam turtui. Atminkite, kad atlikus pasirinkimą šiame lauke, perjungimo mygtukas **Keli turto objektai** turi būti nustatytas į „Ne“.
 8. „FastTab“ **Turto tipai** pasirinkite turto tipus, kurie turėtų būti susieti su funkcinės vietos tipu. Pasirinkite **Įtraukti eilutę**, tada pasirinkite turto tipus. Jei čia įtraukiate turto tipų, funkcinėje vietoje naudojant šį funkcinės vietos tipą gali būti diegiami tik tie turto objektai, kurie naudoja šiuos turto tipus. Jei „FastTab“ **Turto tipai** nepasirenkami jokie turto tipai, galima diegti visų tipų turtą.
 9. „FastTab“ **Priežiūros planai** pasirinkite priežiūros planus, kurie turėtų būti automatiškai nustatomi naujose funkcinėse vietose naudojant šį funkcinės vietos tipą. Pasirinkite **Įtraukti eilutę**, tada pasirinkite priežiūros planus. Jei čia įtrauksite priežiūros planus, funkcinėse vietose naudojant šį funkcinės vietos tipą bus galima naudoti tik šiuos planus.

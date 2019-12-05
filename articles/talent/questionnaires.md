@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: b5c54d921e2955bc866ffd1ca516169790d33127
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c8655af567ef56c535ce0e43cb76c28c58dc1eb3
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024241"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2814610"
 ---
 # <a name="questionnaires"></a>Klausimynai
 
@@ -44,17 +44,17 @@ Tolesnėje lentelėje pateikiami saitai į informaciją apie pagrindines klausim
 | Tema| aprašymas|
 |------|------------|
 | [Klausimyno sudarymas](design-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip kurti klausimyną. Vykstant kūrimo procesui, nustatomos būtinosios sąlygos, atsakymai ir klausimai, tada jie jungiami į klausimyną. |
-| [Platinti ir pildyti klausimyną](distribute-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip klausimyną platinti respondentams ir kaip klausimynus pildyti.                                                                       |
-| [Peržiūrėti ir įvertinti klausimyno rezultatus](evaluate-questionnaire-results.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus.                                                                                        |
+| [Klausimynų platinimas ir planavimas](distribute-questionnaires.md)  | Šiame straipsnyje pateikiama informacija apie tai, kaip klausimyną platinti respondentams ir kaip klausimynus pildyti.                                                                       |
+| [Klausimyno rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md) | Šiame straipsnyje pateikiama informacija apie tai, kaip peržiūrėti ir įvertinti užpildytų klausimynų rezultatus.                                                                                        |
 
 
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------
 
-[Klausimynų kūrimas](design-questionnaires.md)
+[Klausimynų sudarymas](design-questionnaires.md)
 
-[Klausimynų platinimas ir pildymas](distribute-questionnaires.md)
+[Klausimynų platinimas ir planavimas](distribute-questionnaires.md)
 
-[Klausimyno rezultatų peržiūra ir vertinimas](evaluate-questionnaire-results.md)
+[Klausimynų rezultatų peržiūra ir įvertinimas](evaluate-questionnaire-results.md)
 

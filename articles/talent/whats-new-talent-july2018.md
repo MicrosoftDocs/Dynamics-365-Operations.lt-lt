@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.openlocfilehash: 6ed1e4afcaeee03474d4c0ce20ac7864fb11ce78
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 5538aef6599eeffee6d9b075f1b9630d55cf982a
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551777"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2812723"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-july-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. liepos mėn.)
 
@@ -31,11 +31,11 @@ ms.locfileid: "2551777"
 
 Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent: Core HR“ funkcijos.
 
-## <a name="powerapps-personalization"></a>„PowerApps“ personalizavimas
+## <a name="power-apps-personalization"></a>„Power Apps“ personalizavimas
 
-„Talent“ palaiko integravimą su „Microsoft PowerApps“ paslauga. Naudodami „PowerApps“, kūrėjai ir įprasti vartotojai gali kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui, nerašydami kodo. Programas, kurias naudodami „PowerApps“ sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti į „Talent“ klientą ir padidinti produkto funkcijų skaičių. Pavyzdžiui, galite sukurti programą, kad papildytumėte „Talent“ informacija, gauta iš kitos sistemos.
+„Talent“ palaiko integravimą su „Microsoft Power Apps“ paslauga. Naudodami „Power Apps“, kūrėjai ir įprasti vartotojai gali kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui, nerašydami kodo. Programas, kurias naudodami „Power Apps“ sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti į „Talent“ klientą ir padidinti produkto funkcijų skaičių. Pavyzdžiui, galite sukurti programą, kad papildytumėte „Talent“ informacija, gauta iš kitos sistemos.
 
-Daugiau informacijos žr. [„PowerApps“ programų įdėjimas](../fin-and-ops/get-started/embed-power-apps.md).
+Daugiau informacijos žr. [„Power Apps“ programų įdėjimas](../fin-and-ops/get-started/embed-power-apps.md).
 
 ## <a name="ceridian-payroll-integration"></a>„Ceridian“ algalapių integravimas
 
@@ -46,7 +46,7 @@ Integravimu tarp „Talent“ ir „Ceridian Dayforce“ dabar galima naudotis J
 - Algalapio duomenys, pvz., mokėjimo ciklai, mokėjimo laikotarpiai ir pajamų kodai
 - Darbuotojo duomenys
 
-Daugiau informacijos žr. [Algalapių integravimo konfigūravimas](configure-payroll-integration.md).
+Daugiau informacijos žr. [Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas](configure-payroll-integration.md).
 
 ## <a name="worker-tax-regions-have-been-expanded-beyond-the-us"></a>Darbuotojų mokesčių regionai išplėsti už JAV ribų
 

@@ -1,6 +1,6 @@
 ---
-title: Proceso šablono kūrimas sprendime „Attract“
-description: Šioje temoje pateikiama informacija apie tai, kaip sukurti proceso šabloną sprendime „Attract“.
+title: Įdarbinimo proceso šablono kūrimas „Attract“
+description: Šioje temoje pateikiama informacija apie tai, kaip sukurti įdarbinimo proceso šabloną sprendime „Attract“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 533b9abd3d57c5bf8f3d9da85020c86012436f2f
-ms.sourcegitcommit: dd991154231280aff9c9c5799e42799e2bfc02fb
+ms.openlocfilehash: 82046d43cf7366b760c140bdb8b017337b4f41da
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "2622723"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832563"
 ---
-# <a name="create-a-process-template-in-attract"></a>Proceso šablono kūrimas sprendime „Attract“
+# <a name="create-a-hiring-process-template-in-attract"></a>Įdarbinimo proceso šablono kūrimas „Attract“
 
 [!include [banner](includes/banner.md)]
 
@@ -48,7 +48,7 @@ Proceso šablonus gali kurti administratoriai, darbdaviai ir samdos vadovai. Pro
 > [!NOTE]
 > Etapo pavadinimai kandidatams rodomi puslapyje **Prašymo būsena**. Renkant pavadinimus etapams, reikėtų į šį faktą atsižvelgti.
 
-Norėdami sužinoti daugiau apie veiklas, žr. [Samdos proceso veiklos sprendime „Attract“](./activities-attract.md).
+Norėdami sužinoti daugiau apie veiklas, žr. [Įdarbinimo proceso veiklos](./activities-attract.md).
 
 Norėdami sukurti samdos proceso šabloną, atlikite toliau nurodytus veiksmus.
 

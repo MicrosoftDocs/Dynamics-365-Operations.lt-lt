@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 83c523a23973f4fd146d8308fbb5ecb486224ad9
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
+ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865333"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "2813551"
 ---
 # <a name="product-lifecycle-state-overview"></a>Produkto ciklo būsenos apžvalga
 
@@ -107,9 +107,9 @@ Naudokite toliau nurodytus išleistų produktų arba produkto variantų pasirink
 
 ## <a name="related-topics"></a>Susijusios temos
 
--  [Naujos produkto ciklo būsenos kūrimas (užduočių vedlys)](tasks/new-product-lifecycle-state.md)
--  [Numatytosios produkto ciklo būsenos kūrimas (užduočių vedlys)](tasks/default-product-lifecycle-state.md)
--  [Produkto ciklo būsenos priskyrimas išleistam bendrajam produktui (užduočių vedlys)](tasks/product-lifecycle-state-released-product-master.md)
--  [Produkto ciklo būsenos priskyrimas išleistam produktui (užduočių vedlys)](tasks/product-lifecycle-state-released-product.md)
--  [Pasenusių produkto variantų radimas ir produkto ciklo būsenos priskyrimas (užduočių vedlys)](tasks/obsolete-product-variants.md)
--  [Produkto ciklo būsenos kūrimas norint pašalinti produktus iš bendrojo planavimo (užduočių vedlys)](tasks/exclude-products-master-planning.md)
+-  [Naujos produkto ciklo būsenos kūrimas](tasks/new-product-lifecycle-state.md)
+-  [Numatytosios produkto ciklo būsenos kūrimas](tasks/default-product-lifecycle-state.md)
+-  [Produkto ciklo būsenos priskyrimas išleistam bendrajam produktui](tasks/product-lifecycle-state-released-product-master.md)
+-  [Produkto ciklo būsenos priskyrimas išleistam produktui](tasks/product-lifecycle-state-released-product.md)
+-  [Pasenusių produkto variantų radimas ir produkto ciklo būsenos priskyrimas](tasks/obsolete-product-variants.md)
+-  [Produkto ciklo būsenos kūrimas norint pašalinti produktus iš bendrojo planavimo](tasks/exclude-products-master-planning.md)

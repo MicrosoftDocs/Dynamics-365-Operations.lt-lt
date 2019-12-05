@@ -1,5 +1,5 @@
 ---
-title: Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
+title: Užduoties sukūrimas programoje „Attract”
 description: Šioje temoje aprašomi „Attract“ darbo elementai. Taip pat paaiškinama, kaip sukurti darbą.
 author: hasrivas
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: hasrivas
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: db725c230de5e3dfe971098249b280d9da47ae20
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 9dcdbcea995285c879f91c0bff435103865cc10f
+ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551077"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "2832936"
 ---
-# <a name="create-approve-and-post-jobs-in-attract"></a>Darbų kūrimas, tvirtinimas ir registravimas sprendime „Attract“
+# <a name="create-a-job-in-attract"></a>Užduoties sukūrimas programoje „Attract”
 
 [!include [banner](includes/banner.md)]
 
@@ -49,7 +49,7 @@ Jei pareigų valdymo funkcija įjungta administravimo centre, galima naudoti per
 > [!NOTE]
 > Pareigų valdymo funkcija teikiama su išsamios įdarbinimo informacijos priedu.
 
-Atsižvelgiant į samdos proceso pasiūlymo veiklos parametruose, pareigų skaičių pasiūlyme galima naudoti du kartus. Daugiau informacijos žr. [Samdos procesas](./activities-attract.md).
+Atsižvelgiant į samdos proceso pasiūlymo veiklos parametruose, pareigų skaičių pasiūlyme galima naudoti du kartus. Daugiau informacijos rasite [Samdos procesų veiklos](./activities-attract.md).
 
 „Attract“ apima numatytąjį **įgūdžių** rinkinį. Šių įgūdžių rodomi kaip pasiūlymai jums įvedant tekstą. Galite įtraukti daugiau įgūdžių įvesdami naujo įgūdžio tekstą lauke ir tada paspausdami klavišą „Enter“.
 
@@ -67,7 +67,7 @@ Samdos komandą galima atnaujinti, kai darbas suaktyvintas.
 
 Numatytoji samdos proceso informacija pagrėsta proceso šablonu, kuris buvo pasirinktas kuriant darbą. Jei tuo metu nebuvo pasirinktas konkretus šablonas, naudojamas numatytasis šablonas. Kai nustatote samdos procesą, galite įtraukti arba pašalinti įvairius etapus, išskyrus etapus Potencialus klientas, Prašymo teikimas ir Pasiūlymas. Nors etapo Potencialus klientas, pašalinti negalima, jį galima išjungti. Kiekviename etape galite įtraukti arba pašalinti vieną ar daugiau iš anksto nustatytų veiklų.
 
-Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, žr. [Samdos proceso veiklos sprendime „Attract“](./activities-attract.md).
+Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, rasite [Samdos procesų veiklos](./activities-attract.md).
 
 > [!NOTE]
 > Samdos proceso negalima atnaujinti, kai darbas suaktyvintas.
@@ -76,7 +76,7 @@ Daugiau informacijos apie veiklas, kurias galima įtraukti į samdos procesą, �
 
 Suaktyvinus darbą, jį galima registruoti. Darbus gali registruoti tik įdarbintojai ir administratoriai. Darbą galima registruoti puslapyje Talentų karjeros „Dynamics 365 Talent“ karjeros svetainėje arba „LinkedIn“. „Attract“ komanda nuolat bendradarbiauja su darbo skelbimų platformų kūrėjais. Šis sąrašas ilgainiui bus išplėstas. Kai darbo vieta paskelbiama kaip esanti tik vidaus, norėdami ją peržiūrėti ir dėl jos teikti prašymą kandidatai turi turėti AAD paskyrą. Jei darbo vieta pateikiama kaip vieša, kandidatai ją peržiūrėti ir dėl jos teikti prašymą gali naudodami visas autentifikavimo parinktis. 
 
-Daugiau informacijos apie darbo skelbimus žr. [Karjeros svetainės funkcija sprendime „Attract“](career-site.md).
+Daugiau informacijos apie darbo skelbimus rasite [Karjeros svetainės nustatymas „Microsoft Dynamics 365 Talent - Attract“](career-site.md).
 
 > [!NOTE]
 > Darbo registravimo funkciją galima naudoti tik turint „Attract“ skirtą išsamios įdarbinimo informacijos priedą.
@@ -90,7 +90,7 @@ Suaktyvinus darbą, galima jį užregistruoti ir į jį įtraukti potencialių k
 
 ## <a name="prospects-and-applicants"></a>Potencialūs klientai ir pretendentai
 
-Potencialaus kliento įtraukimo į darbą parinktis nustatoma samdos proceso [potencialaus kliento veikloje](./activities-attract.md#prospect-activity). Ši parinktis turi būti nustatyta prieš suaktyvinant darbą. Suaktyvinus darbą, į jį galima įtraukti potencialių klientų bei pretendentų.
+Potencialaus kliento įtraukimo į darbą parinktis nustatoma samdos proceso [Samdos procesų veiklos](./activities-attract.md#prospect-activity). Ši parinktis turi būti nustatyta prieš suaktyvinant darbą. Suaktyvinus darbą, į jį galima įtraukti potencialių klientų bei pretendentų.
 
 ## <a name="approvals"></a>Patvirtinimai
 

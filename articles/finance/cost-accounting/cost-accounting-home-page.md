@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 074132af2111debee4bea894b559744b4470454d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
+ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179040"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "2771966"
 ---
 # <a name="cost-accounting-home-page"></a>Savikainos apskaitos pagrindinis puslapis
 
@@ -39,17 +39,17 @@ Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudaranči
 
 |      |   |
 |------|---|
-|  [Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia „CustomerSource“ paskyros)  |[Kurti dimensijas](cost-elements.md)  |
-|  [Dimensijų hierarchijos kūrimas](dimension-hierarchy.md)  |[Pagrindinės sąrankos kūrimas](./tasks/define-cost-control-units.md)| 
-| [Paskirstymo bazės apibrėžimas](allocation-bases.md)|[Strategijų apibrėžimas](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [Duomenų šaltinis ir duomenų teikėjas](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Duomenų šaltinis ir duomenų teikėjas](./tasks/process-trace-source-data.md)     | 
-|[Pridėtinių išlaidų skaičiavimas](overhead-calculation.md)  | [Analizė ir ataskaitos](cost-control-workspace.md)   |
+|  [Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia „CustomerSource“ paskyros)  |[Savikainos elemento dimensijos](cost-elements.md)  |
+|  [Dimensijų hierarchija](dimension-hierarchy.md)  |[savikainos kontrolės įtaisų apibrėžimas](./tasks/define-cost-control-units.md)| 
+| [Paskirstymo bazės](allocation-bases.md)|[Savikainos paskirstymo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [Tvarkyti savikainos apskaitos didžiosios knygos duomenų šaltinį](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [Šaltinio duomenų apdorojimas ir sekimas](./tasks/process-trace-source-data.md)     | 
+|[Pridėtinių išlaidų skaičiavimas](overhead-calculation.md)  | [Savikainos kontrolės darbo sritis](cost-control-workspace.md)   |
 
 ## <a name="get-started-videosbr"></a>Darbo pradžios vaizdo įrašai<br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
 | [Darbo su moduliu Kaštų apskaita pradžia](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [Kaštų apskaitos mobilioji darbo sritis](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [„Excel“ naudojimas kaštų apskaitos analizei](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
-|  |  |                             |
+
 
 
