@@ -3,7 +3,7 @@ title: Žinyno ištekliai „Supply Chain Management“
 description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: josaw1
 manager: AnnBe
-ms.date: 10/01/2019
+ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4926cd63aa360c7e08a0a435f7609017f02cb229
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
+ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814426"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853993"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Žinyno ištekliai „Supply Chain Management“
 
@@ -113,11 +113,10 @@ Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="htt
 
 ## <a name="white-papers"></a>Techninė dokumentacija
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Išlaidų apskaitos praktiniai laboratoriniai darbai</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">„Lean manufacturing“: galimos pateikti atsargos ir „kanban“ užduočių planavimas</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">LEAN gamyba: galimos pateikti atsargos ir „kanban“ užduočių planavimas</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">KS skaičiavimas naudojant įkainojimo lapą</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilumo sandėlyje palengvinimas su „Microsoft Dynamics 365 for Finance and Operations“</a>
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
-Informacijos apie „Dynamics 365“ mokymą žr. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">„Microsoft Dynamics“ mokymosi portale</a>. (reikia „CustomerSource“ paskyros) 
+Informacijos apie „Dynamics 365“ mokymą žr. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> „Microsoft Dynamics“ mokymosi portale</a>. (reikia „CustomerSource“ paskyros) 
 
 
