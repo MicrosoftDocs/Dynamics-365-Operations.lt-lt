@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ee86f52a2e1c697d71549a39d9eb86bac33d9ff2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 474c7cc82aaccf6b3bcfb3bbe879725497961c43
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812838"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897148"
 ---
-# <a name="share-content-with-other-contributors-in-dynamics-365-talent---onboard"></a>Turinio bendrinimas su kitais bendraautoriais „Dynamics 365 Talent - Onboard”
+# <a name="share-content-with-other-contributors"></a>Turinio bendrinimas su kitais bendraautoriais
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "2812838"
 
 3. Jei gavėjai turi leidimą tikslinti vadovą, dalyje **Bendrinimas su** parinktį **Ar šie žmonės gali redaguoti?** nustatykite į **Įjungta**. Jei gavėjai turėtų būti informuojami el. laišku, kad jiems bendrinote vadovą, nustatykite parinktį **Siųsti el. pašto pranešimą gavėjams** į **Įjungta**.
 
-    ![[Supažindinimo vadovo prieigos ir el. pašto nuostatų nustatymas](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
+    ![[Prieigos ir el. pašto nuostatų nustatymas supažindinimo vadove](./media/onboard-share-guide-with-contributors.png)](./media/onboard-share-guide-with-contributors.png)
 
 4. Įveskite vardą arba el. pašto adresą ir išplečiamajame sąraše pasirinkite norimą gavėją.
 5. Skirtuke **Valdyti prieigą** galite peržiūrėti arba pakeisti, ką gavėjai gali atlikti su vadovu. Norėdami pakeisti gavėjo prieigą, išplečiamajame sąraše šalia gavėjo vardo pasirinkite **Galima peržiūrėti**, **Galima redaguoti** arba **Pašalinti**.

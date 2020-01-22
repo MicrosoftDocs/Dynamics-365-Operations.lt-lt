@@ -1,9 +1,9 @@
 ---
 title: Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 description: Šioje temoje pateikiami aparatūros dydžio reikalavimai vietinėje aplinkose.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/27/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 65f21d71c22d295902b968e6c18134e1577e01f2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8fa644f35a086af99cde74fd6a2062f9b59a6ff7
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812562"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870269"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Aparatūros dydžio reikalavimų nustatymas vietinėse aplinkose
 
@@ -137,7 +137,7 @@ Naudojant bendrai prieinamą leidimą, galima diegti tik vieną SSRS mazgą. Ste
 
 ## <a name="environment-orchestrator"></a>Aplinkos valdymo įrankis
 
-Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS susijusius ryšius. Ši paslauga diegiama kaip pirminė „Service Fabric‟ paslauga ir jai reikalingos bent trys VM. Ši paslauga pateikiama kartu su „Service Fabric‟ valdymo paslaugomis. Dydis turėtų būti nustatomas pagal didžiausią klasterio apkrovą. Daugiau informacijos žr. [„Service Fabric‟ klasterio pajėgumo planavimo klausimai](/azure/service-fabric/service-fabric-cluster-capacity).
+Valdymo įrankio paslauga yra paslauga, kuri valdo jūsų įdiegtį ir su LCS susijusius ryšius. Ši paslauga diegiama kaip pirminė „Service Fabric‟ paslauga ir jai reikalingos bent trys VM. Ši paslauga pateikiama kartu su „Service Fabric‟ valdymo paslaugomis. Dydis turėtų būti nustatomas pagal didžiausią klasterio apkrovą. Daugiau informacijos žr. [Atskiro „Service Fabric“ klasterio diegties planavimas ir ruošimas](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualizavimas ir perviršinis rezervavimas
 

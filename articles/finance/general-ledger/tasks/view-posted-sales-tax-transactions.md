@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a2ff8b46d20fa012cbce817ae4e95b4799149ec
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f72f12e8afdf190865a77fc6153c0c0a111e5a7
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175540"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888614"
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Registruotų PVM operacijų peržiūra
 
@@ -29,13 +29,13 @@ ms.locfileid: "2175540"
 
 Šioje temoje aprašyti kai kurie būdai, kaip peržiūrėti registruotas PVM operacijas. Priklausomai nuo to, ką norite peržiūrėti, registruotas PVM operacijas galite peržiūrėti įvairiuose puslapiuose. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
-# <a name="posted-sales-tax-page"></a>Registruoto PVM puslapis
+## <a name="posted-sales-tax-page"></a>Registruoto PVM puslapis
 
 1. Naršymo srityje eikite į **Moduliai > Mokestis > Užklausos ir ataskaitos > PVM užklausos > Registruotas PVM**.
 2. Pasirinkite **Rodyti filtrus**, kad rodinys būtų susiaurintas iki konkrečių operacijų.
 3. Uždarykite puslapį.
 
-# <a name="sales-tax-settlement-periods-page"></a>PVM sudengimo laikotarpių puslapis
+## <a name="sales-tax-settlement-periods-page"></a>PVM sudengimo laikotarpių puslapis
 
 1. Naršymo srityje eikite į **Moduliai > Mokestis > Netiesioginiai mokesčiai > PVM > PVM sudengimo laikotarpiai**.
 2. Išplėskite skyrių **Laikotarpio intervalai**.
@@ -43,7 +43,7 @@ ms.locfileid: "2175540"
 4. Registruoto PVM operacijų sąrašą galite filtruoti toliau.
 5. Uždarykite puslapį.
 
-# <a name="sales-tax-codes-page"></a>PVM kodų puslapis
+## <a name="sales-tax-codes-page"></a>PVM kodų puslapis
 
 1. Naršymo srityje eikite į **Moduliai > Mokestis > Netiesioginiai mokesčiai > PVM > PVM kodai**.
 2. Veiksmų srityje pasirinkite **PVM kodas**.

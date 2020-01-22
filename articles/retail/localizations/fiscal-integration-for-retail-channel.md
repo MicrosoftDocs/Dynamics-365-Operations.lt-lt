@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03853e1f80bd32c1dfe5cfcbcd77e79168f26249
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7e32f408e5c68a3422906347981c6fc4a4579daf
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812312"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915252"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>Mažmeninės prekybos kanalų fiskalinės integracijos apžvalga
 
@@ -138,9 +138,14 @@ Toliau pateikti fiskalinės integracijos pavyzdžiai šiuo metu teikiami „Reta
 - [Fiskalinio spausdintuvo integracijos pavyzdys (Lenkija)](emea-pol-fpi-sample.md)
 - [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai](emea-aut-fi-sample.md)
 - [Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Čekijos Respublikai](emea-cze-fi-sample.md)
+- [Švedijos kontrolės įtaiso integracijos pavyzdys](./emea-swe-fi-sample.md)
 
 Toliau nurodyta fiskalinės integracijos funkcija taip pat teikiama „Retail SDK“, bet šiuo metu ji nenaudoja fiskalinės integracijos sistemos. Šios funkcijos perkėlimas į fiskalinės integracijos sistemą planuojama vėlesniuose naujinimuose.
 
-- [Kasos aparato funkcionalumas Prancūzijai](emea-fra-cash-registers.md)
-- [Kasos aparato funkcionalumas Norvegijai](emea-nor-cash-registers.md)
-- [„Retail POS“ integravimo su valdymo įrenginiais Švedijai pavyzdys](./retail-sdk-control-unit-sample.md)
+
+- [Prancūzijos skaitmeninis parašas](emea-fra-cash-registers.md)
+- [Norvegijos skaitmeninis parašas](emea-nor-cash-registers.md)
+
+Ši senoji fiskalinės integracijos funkcija, kuri pasiekiama „Retail SDK“ rinkinyje, nenaudoja fiskalinio integravimo sistemos ir nebus pasiekiama vėlesniuose naujinimuose:
+
+- [Švedijos kontrolės įtaiso integracijos pavyzdys (senoji)](./retail-sdk-control-unit-sample.md)

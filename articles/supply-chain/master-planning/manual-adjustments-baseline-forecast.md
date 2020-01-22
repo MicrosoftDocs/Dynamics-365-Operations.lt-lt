@@ -3,7 +3,7 @@ title: Neautomatiniai pagrindinės prognozės koregavimai
 description: Šioje temoje aiškinama, kaip galima neautomatiškai koreguoti pagrindinę prognozę ir peržiūrėti prognozės informaciją.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8897e0fe01e7ed5af9a8d5b99de6b9b4506554f1
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1c9963a54a052549a6bfeabcb3d91b7b0f3cf68e
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815139"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935421"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Neautomatiniai pagrindinės prognozės koregavimai
 
@@ -70,8 +70,9 @@ Puslapyje **Poreikio prognozės informacija** toliau nurodyta informacija pateik
 
 **Pastabos**
 
+-   Jei funkcijų valdyme įgalinsite **Prognozės modelio pasirinkimas iš Poreikio prognozės išsamios informacijos**, galėsite pasirinkti prognozės modelius, kuriuos norite įtraukti į retrospektyvinę prognozę, puslapyje **Poreikio prognozės išsami informacija** .
 -   Patikimumo intervalas, kuris rodomas puslapio dalyje **Prognozė**, nurodo skirtumą tarp viršutinės ir apatinės patikimumo intervalo ribų. Norėdami peržiūrėti apatinės ir viršutinės ribų reikšmes, nuveskite žymeklį virš diagramos dalyje **Praeities poreikis ir prognozė grafiškai**.
--   Jei naudojate poreikio prognozės „Microsoft Azure“ mašininio mokymo tarnybą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
+-   Jei naudojate poreikio prognozių „Microsoft Azure“ mašininį mokymą, galite nurodyti generuojamos prognozės patikimumo lygio procentinę dalį. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 % tikimybę, kad prognozės rezultatas nepateks į patikimumo intervalo diapazoną.
 
 Taip pat galite atlikti neautomatinius prognozės koregavimus puslapyje **Poreikio prognozės informacija**, pakeisdami reikšmes eilutėje **Prognozė**, kuri yra dalyje **Prognozė**.
 

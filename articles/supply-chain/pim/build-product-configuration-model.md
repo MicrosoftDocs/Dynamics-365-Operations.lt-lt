@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f8e0e98cf1a953355515f9145483aed8cbaa2ad2
-ms.sourcegitcommit: 0099fb24f5f40ff442020b488ef4171836c35c48
+ms.openlocfilehash: 7f05e119f02d2d5e7c76c554d6a8b3db97c86ab0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "2653653"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934868"
 ---
 # <a name="product-configuration-overview"></a>Produktų konfigūracijos apžvalga
 
@@ -61,7 +61,7 @@ Produkto konfigūracijos modelį sudaro vienas ar keli komponentai, tarpusavyje 
 Kiekviename komponente naudojamas bent vienas jo ypatybes nustatantis atributas. Atributai – tai vartotojų per konfigūravimo procesą pasirenkami elementai. Naudojant atributus valdomi ryšiai tarp komponentų ir vidiniai komponento ryšiai, kurie įtraukiami į apribojimus arba apskaičiavimus. Pagal KS eilutėms taikomas sąlygas atributus galima naudoti faktinėms dalims, iš kurių bus sudarytas sukonfigūruotas produktas, nustatyti. Be to, naudojant atributą ir susiejimo mechanizmą galima valdyti KS eilutės ypatybę. Panašios su įtraukimo ir ypatybių parametrais susijusios funkcijos taikomos maršruto operacijoms.
 
 >[!NOTE]
-> Kurdami atributų tipus, venkite sukurti daug reikšmių atributo tipo domenui. Tai atlikus produkto konfigūratoriuje gali kilti sulėtėjimų. 
+> Kurdami atributų tipus, venkite sukurti daug atributo tipo domeno reikšmių. Tai atlikus produkto konfigūratoriuje gali kilti sulėtėjimų. 
 
 ### <a name="expression-constraints"></a>Išraiškos apribojimai
 

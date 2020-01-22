@@ -3,7 +3,7 @@ title: Visuotinės adresų knygelės ir kitų adresų knygelių planas
 description: Šioje temoje aprašomos aplinkybės ir sprendimai, kuriuos turite priimti planavimo proceso metu prieš nustatydami ir konfigūruodami visuotinę adresų knygelę ir bet kokias papildomas adresų knygeles.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25a99284b2773e7c9d473357356c69a39f23c92d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 89c6e71e5f537f0f9309eca1025c8e74cdce6716
+ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190033"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2883416"
 ---
 # <a name="plan-for-the-global-address-book-and-other-address-books"></a>Visuotinės adresų knygelės ir kitų adresų knygelių planavimas
 
@@ -35,7 +35,7 @@ ms.locfileid: "2190033"
 
 Prieš pradėdami dirbti su visuotine adresų knygele, turite nustatyti numatytąsias jos reikšmes. Šios numatytosios reikšmės tada naudojamos bet kokioms papildomoms jūsų sukurtoms adresų knygelėms.
 
-**Sprendimai:**
+**Sprendimai**
 
 - Kokia seka turėtų būti rodomi **Asmens** tipo šalių įrašų vardai ir pavardės? Pavyzdžiui, viena seka yra pavardė, antras vardas, vardas.
 - Ar, panaikinus vaidmens įrašą, iš adresų knygelės turėtų būti panaikinti šalių įrašai? Pavyzdžiui, jei panaikinamas kliento įrašas, ar taip pat turėtų būti panaikintas šalies įrašas?
@@ -58,11 +58,3 @@ Sukūrę visuotinę adresų knygelę, pagal poreikį galite kurti papildomų adr
 **Sprendimas:**
 
 - Kiek sukursite papildomų adresų knygelių?
-
-### <a name="address-book-security"></a>Adresų knygelių sauga
-
-Kurti adresų knygeles galite bet kuriuo metu ir taip pat bet kuriuo metu galite nustatyti adresų knygelių saugos parametrus. Nebūtina nustatyti adresų knygelės saugos teisių, tačiau, jei to nepadarysite, visi jūsų organizacijos darbuotojai galės peržiūrėti visus tos adresų knygelės šalių įrašus. Saugos teises į šalių įrašus galite nustatyti adresų knygelėse. Saugos teisės paremtos komandomis. Šiuo būdu garantuojama, kad adresų knygelės šalių įrašus galėtų peržiūrėti tik tie darbuotojai, kurie priskirti komandai, turinčiai prieigą prie tos adresų knygelės. Turite pasirinkti komandas, turinčias prieigą prie kiekvienos adresų knygelės. Galite nustatyti kiekvienos adresų knygelės saugos teises, leidžiančias arba draudžiančias konkrečių komandų prieigą. Jei komandai suteikiate adresų knygelės teises, visi tos komandos nariai gali peržiūrėti adresų knygelės įrašus. Jei komandai prieigos prie adresų knygelės nesuteikiate, tos komandos nariai peržiūrėti adresų knygelės ar jos turinio negali.
-
-**Sprendimas:**
-
-- Kurios komandos turėtų turėti prieigą prie kiekvienos naujos jūsų sukurtos adresų knygelės?

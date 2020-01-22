@@ -1,6 +1,6 @@
 ---
-title: Vieno tiekėjo dizaino perjungimas į kitą
-description: ''
+title: Perjungti iš vieno tiekėjo dizaino į kitą
+description: Šioje temoje aprašoma, kaip perjungti tiekėjo duomenų integravimą tarp „Finance and Operations“ programų ir „Common Data Service“.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 4e97ff0b0e6195b5e3703e15a0bb0de7644ef8d1
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 204d788e72e79e7acf744d24cbeacb0f9b47da7d
+ms.sourcegitcommit: 3306e451f04df01c51d8d332306b135d8ae1e254
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772369"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902730"
 ---
-# <a name="switch-between-vendor-designs"></a>Vieno tiekėjo dizaino perjungimas į kitą
+# <a name="switch-between-vendor-designs"></a>Perjungti iš vieno tiekėjo dizaino į kitą
 
 [!include [banner](../includes/banner.md)]
 
@@ -34,11 +34,11 @@ ms.locfileid: "2772369"
 
 Jei tiekėjams valdyti naudojate kitas „Dynamics 365” programas ir norite atskirti tiekėjo informaciją nuo klientų, naudokite šį bazinį tiekėjo dizainą.  
 
-![Bazinis tiekėjo srautas](media/dual-write-switch-1.png)
+![Bazinis tiekėjo srautas](media/dual-write-vendor-data-flow.png)
  
 Jei tiekėjams valdyti naudojate kitas „Dynamics 365” programas ir norite toliau naudoti objektą **Klientas** tiekėjo informacijai saugoti, naudokite šį išplėstąjį tiekėjo dizainą. Taikant šį dizainą išplėstinė tiekėjo informacija, pvz., tiekėjo sulaikymo būsena ir profilis, saugoma „Common Data Service“ **tiekėjų** objekte. 
 
-![Išplėstinis tiekėjo srautas](media/dual-write-switch-2.png)
+![Išplėstinis tiekėjo srautas](media/dual-write-vendor-detail.jpg)
  
 Norėdami naudoti išplėstinį tiekėjo dizainą, atlikite toliau nurodytus veiksmus. 
  
@@ -60,5 +60,5 @@ Norėdami naudoti išplėstinį tiekėjo dizainą, atlikite toliau nurodytus vei
     4. Darbo eigas pagal poreikius galite konfigūruoti kaip realiuoju laiku vykdomas arba fonines darbo eigas. 
         > [!div class="mx-imgBorder"]
         > ![Konvertavimas į foninę darbo eigą](media/dual-write-switch-8.png)
-    5. Norėdami pradėti tiekėjų informaciją saugoti naudojant „Customer Engagement“ objektą **Klientas**, suaktyvinkite darbo eigas, kurias sukūrėte objektuose **Klientas** ir **Tiekėjas**. 
+    5. Norėdami pradėti tiekėjų informaciją saugoti naudojant objektą **Klientas**, suaktyvinkite darbo eigas, kurias sukūrėte objektuose **Klientas** ir **Tiekėjas**. 
  

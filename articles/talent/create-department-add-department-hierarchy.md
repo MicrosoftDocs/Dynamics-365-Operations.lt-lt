@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 7b6308c54d237d0d7558fc1f94647f7ca1ab82a1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 207b8c78c203cef4524eb2047e7680e57f2a109c
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506179"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898438"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Padalinių kūrimas ir jų įtraukimas į padalinių hierarchiją
-
-[!include [banner](includes/banner.md)]
 
 Padalinys yra valdymo vienetas, nurodantis organizacijos kategoriją arba funkcinę sritį. Padalinys yra atsakingas už tam tikrą organizacijos sritį, pvz., pardavimą, apskaitą arba personalą. Padalinius galite naudoti norėdami pranešti apie funkcines sritis. Padaliniai gali turėti pelno ir nuostolio atsakomybę.
 

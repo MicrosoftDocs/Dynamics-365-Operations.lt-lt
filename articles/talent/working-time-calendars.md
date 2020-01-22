@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 270048e10c6c0b20023467662acfdcd1b255588e
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: f69bfec663cb8473c112f108813f042368439570
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008966"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897240"
 ---
 # <a name="working-time-calendars"></a>Darbo laiko kalendoriai
-
-[!include [banner](includes/banner.md)]
 
 Darbo laiko kalendorius suteikia galimybę kurti kalendorių (su valandomis ir dienomis), pagal kurį jūsų organizacijos darbuotojai dirba. Pagal numatytuosius parametrus kalendoriai supaprastina nedarbo laiko užklausų teikimo procesą naudojant valandas ir dienas. Kai darbuotojas pateikia nedarbo laiko užklausą, jam nereikia rūpintis atostogomis ir nedarbo laiku, nes tai sutvarkoma naudojant darbo laiko kalendorių.
 

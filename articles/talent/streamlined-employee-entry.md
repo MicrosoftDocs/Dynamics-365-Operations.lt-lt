@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent October 2019 update
-ms.openlocfilehash: 40bbb8429355fa18fe12c7cf56f8d58f19766cad
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: 35cceb97442b05abc243cf7341e0ce7a0d09c613
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2009427"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2915206"
 ---
 # <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 
-[!include [banner](includes/banner.md)]
-
 „Dynamics 365 Talent” leidžia efektyviai įvesti darbuotojų ir įdarbinimo duomenis. Galite greitai atnaujinti buvusių, aktyvių ir būsimų darbuotojų bei rangovų darbo retrospektyvos informaciją.
 
-Taip pat galite įgalinti supaprastintą naršymo patirtį, kad greitai rastumėte susijusią informaciją ir įvykdytumėte reikiamus pakeitimus. Ši funkcija dabar yra smėlio dėžės aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbuotojo forma ir naršymas**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
+Taip pat galite įgalinti supaprastintą naršymo patirtį, kad greitai rastumėte susijusią informaciją ir įvykdytumėte reikiamus pakeitimus. Ši funkcija dabar yra visose aplinkose. Norėdami įjungti šią funkciją, pereikite į **Sistemos administravimas > Funkcijų valdymas > Nauja > Supaprastintas darbuotojo įrašas > Įgalinti**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 
 ## <a name="view-options"></a>Rodyti parinktis
 

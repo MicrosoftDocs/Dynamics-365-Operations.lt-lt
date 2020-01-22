@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3e1281171a656a73a35d4990fd8a34b35c1c6db8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fdfc65d02d4468aee094a92e6760400c5e25af8f
+ms.sourcegitcommit: 2b09ad8aaaf9bc765f8abb0311a763c5e794a4d0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188285"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2888660"
 ---
 # <a name="reconcile-a-bank-account"></a>Banko sąskaitos suderinimas
 
@@ -64,7 +64,7 @@ Negalite suderinti banko sąskaitos išrašo su banko sąskaita, jei nors vieno 
 
 8.  Jei norite peržiūrėti dar nesuderintas banko operacijas, naudokite ataskaitą **Nesuderintos banko operacijos**. Jei norite peržiūrėti banko sąskaitos banko išrašą, naudokite ataskaitą **Banko išrašas**.
 
-# <a name="cancel-bank-statement-reconciliation"></a>Banko išrašo sudarymo atšaukimas 
+## <a name="cancel-bank-statement-reconciliation"></a>Banko išrašo sudarymo atšaukimas 
 
 Naudodami banko išrašo sudarymo atšaukimo funkciją galėsite atšaukti banko išrašo sudarymą. Jei norite naudoti šią funkciją, aktyvuokite funkciją **Atšaukti banko išrašo suderinimą**, esančią darbo srityje **Funkcijų valdymas**. Taip pat turėsite aktyvuoti parametrą **Leisti redaguoti banko išrašą**. Kad tą atliktumėte, eikite į **Grynųjų pinigų ir banko valdymas > Sąranka > Grynųjų pinigų ir banko valdymo parametrai > Banko suderinimas**.
  

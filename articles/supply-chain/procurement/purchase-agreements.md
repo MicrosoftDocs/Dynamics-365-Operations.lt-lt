@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3f90e963341efe854270134988cfc51b5280bf4
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: abe921b8658322bcf77aeea8fa05843e539f97f8
+ms.sourcegitcommit: 523d22f31010339b4ff5b4fbe0a75aa909843ba6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813367"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "2902437"
 ---
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
@@ -36,7 +36,14 @@ Pirkimo sutartis galima taikyti konkrečiam produktui, konkrečiai produkto pini
 
 Puslapyje **Pirkimo sutartys** galite sukurti, pritaikyti ir vykdyti tolesnius veiksmus dėl pirkimo sutarčių, sudarytų tarp jūsų organizacijos ir kliento. Pvz., sukūrę pirkimo sutartį galite užsakyti tiesiogiai iš jos. Kiekviena pirkimo sutartis turi galiojimo laikotarpį, kurį nustato asmuo, kuriantis pirkimo sutartį. Pageidaujama pirkinio pristatymo data turi būti šiame pirkimo sutarties galiojimo laikotarpyje.  
 
-Kai sukuriate pirkimo sutartį, prieš jai įsigaliojant, turite ją aktyvuoti. Norėdami suaktyvinti pirkimo sutartį, parinktį **Pažymėti sutartį kaip galiojančią** nustatykite į **Taip**.
+Kai sukuriate pirkimo sutartį, prieš jai įsigaliojant, turite ją aktyvuoti. Norėdami suaktyvinti pirkimo sutartį, parinktį **Pažymėti sutartį kaip galiojančią** nustatykite į **Taip**. 
+
+Jei nenorite, kad jūsų pirkimo sutartis būtų naudojama ir patvirtinama, nustatykite sutarties būseną **Uždaryta**. Atlikę šį pakeitimą, vis tiek galite pakeisti būseną į **Galioja** bet kuriuo metu.
+
+## <a name="responsible-workers-on-purchase-agreements"></a>Atsakingi darbininkai pirkimo sutartyse
+
+Galite nurodyti pirminį atsakingą darbininką ir antrinį atsakingą darbininką pirkimo sutarties klasifikacijoje. Šios vertės bus perkeltos į gautą pirkimo sutartį. Neprivalote įtraukti atsakingų darbininkų į pirkimo sutartį; juos galima keisti tiesiogiai kiekvienu konkrečiu atveju pačioje pirkimo sutartyje. Negalite nurodyti antrinio atsakingo darbininko nenurodę pirminio atsakingo darbininko, tačiau antrinio atsakingo darbininko nurodyti nebūtina. Negalima nurodyti to paties darbininko ir kaip pirminio, ir kaip antrinio atsakingo darbininko. 
+
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pirkimo sutarties eilutė įpareigoja ką nors pirkti. Galite naudoti kelių pirkimo užsakymų (PU) eilutes, norėdami įvykdyti įsipareigojimą. Yra keturi įsipareigojimų tipai:
@@ -82,7 +89,7 @@ Pasirinkti pirkimo sutartį galite tik tada, kai kuriate PU. Kai PU sukurtas, pi
 Kai kuriose situacijose, kuriose PU kuriami netiesiogiai, galite valdyti, ar Tiekimo grandinės valdymas turi automatiškai ieškoti taikytinų pirkimo sutarčių. Pavyzdžiui, galite tai atlikti automatiškai patvirtindami suplanuotus PU arba kurdami PU pagal pirkimo užsakymus.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Pirkimo sutarčių atitikimo strategija
-Galite apibrėžti eilutės atitikimo strategiją pirkimo sutarties antraštėje. Ši eilutės atitikimo strategija atsižvelgs į mokėtinos sumos eilutės atitikimo strategiją, kai laukas **Leisti perrašyti atitikimo strategiją** puslapyje **Mokėtinos sumos parametrai** („FastTab“ **Kainos ir kiekio atitikimas**) yra nustatytas į **Aukštesniame nei įmonės strategija lygyje**. Dokumentuose, kuriuose nurodoma pirkimo sutartis, bus naudojama eilutės atitikimo strategija, kuri apibrėžta pirkimo sutarties antraštėje, išskyrus atvejus, kai ji kitaip apibrėžta atitinkamos prekės, prekės ir tiekėjo ar kategorijos pirkimo strategijoje.
+Galite apibrėžti eilutės atitikimo strategiją pirkimo sutarties antraštėje. Ši eilutės atitikimo strategija atsižvelgs į mokėtinų sumų parametrų eilutės atitikimo strategiją, kai lauke **Leisti perrašyti atitikimo strategiją** puslapyje **Mokėtinų sumų parametrai** („FastTab“ **Kainos ir kiekio atitikimas**) nustatyta **Aukštesniame nei įmonės strategija lygyje**. Dokumentuose, kuriuose nurodoma pirkimo sutartis, bus naudojama eilutės atitikimo strategija, kuri apibrėžta pirkimo sutarties antraštėje, išskyrus atvejus, kai ji kitaip apibrėžta atitinkamos prekės, prekės ir tiekėjo ar kategorijos pirkimo strategijoje.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkimo sutartys ir vidinės įmonės prekyba
 Vidinės įmonės prekybiniai ryšiai gali būti sukurti tarp tiekėjo ir kliento sąskaitų, esančių skirtinguose juridiniuose subjektuose. Kai sukuriamas vienos iš šalių pardavimo užsakymas arba PU, sukuriama vidinės kompanijos užsakymų grandinė. Užsakymų grandinėje pardavimo užsakymas ir PU yra sukuriami atitinkamuose teisiniuose subjektuose.  

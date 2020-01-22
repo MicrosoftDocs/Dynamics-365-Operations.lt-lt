@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb757672fffb56892837c066d552773908dd1ec1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: d2d64f0de5287a764cb2e40b99a08084494bf53c
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696973"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945633"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 
@@ -140,16 +140,16 @@ Dabar jūsų CDN turėtų būti tinkamai sukonfigūruotas, kad jį būtų galima
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Interneto parduotuvės peržiūra](online-store-overview.md)
-
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
+[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
-[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
-
-[Įgalinti parduotuvės nustatymą pagal vietą](enable-store-detection.md)
+[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
+
+[Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)

@@ -3,7 +3,7 @@ title: Suplanuotų užsakymų tvarkymas
 description: Šioje temoje pateikiama informacija apie tai, kaip valdyti suplanuotus užsakymus. Jame aprašoma, kaip galite atnaujinti suplanuotų užsakymų būseną, juos patvirtinti ir filtruoti suplanuotus užsakymus, kurių būsena tokia pati, kaip pasirinkto suplanuoto užsakymo.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 11/07/2019
+ms.date: 12/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68bccb632255eac975dc150cf322d4c579ff2f24
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: ec67caf596b0efc256c957eca17a04509fe86855
+ms.sourcegitcommit: 274ff2bb6872ff714781b348b29fd9f1affff9d0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813781"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "2904041"
 ---
 # <a name="maintain-planned-orders"></a>Suplanuotų užsakymų tvarkymas
 
@@ -39,10 +39,10 @@ Galite naudoti lauką **Būsena** progresui sekti. Naudojamos toliau nurodytos r
 
 -   Kai bendrasis planavimas sugeneruoja suplanuotus užsakymus, suplanuotų užsakymų būsena yra **Neapdorota**.
 -   Jei nenorite patvirtinti suplanuoto užsakymo, galite jam nustatyti būseną **Baigta**.
--   Jei norite patvirtinti suplanuotą užsakymą, galite pakeisti būseną į **Patvirtinta**. Suplanuoti užsakymai, kurių būsena yra **Patvirtinta**, neliečiami bendrojo planavimo metu, kad nebūtų modifikuojami ar panaikinami vėlesnio pagrindinio planavimo vykdymo metu. 
+-   Jei norite patvirtinti suplanuotą užsakymą, galite pakeisti būseną į **Patvirtinta**. Suplanuoti užsakymai, kurių būsena yra **Patvirtinta**, neliečiami bendrojo planavimo metu, kad nebūtų modifikuojami ar panaikinami vėlesnio pagrindinio planavimo vykdymo metu. Norint tai pasiekti, planavimo logika kopijuoja **patvirtintus** suplanuotus užsakymus iš senosios plano versijos į naująją plano versiją bendrojo planavimo metu.
 
 ## <a name="firming-planned-orders"></a>Suplanuotų užsakymų patvirtinimas 
-Patvirtinant suplanuotus užsakymus, sukuriami realūs užsakymai. Jie taip pat vadinami *paskelbtais* arba *atvirais užsakymais*. Kai suplanuotas užsakymas patvirtinamas, jis perkeliamas į atitinkamo modulio užsakymų dalį.
+Patvirtinant suplanuotus užsakymus, sukuriami realūs užsakymai. Jie taip pat vadinami *pateiktais* arba *atvirais užsakymais*. Kai suplanuotas užsakymas patvirtinamas, jis perkeliamas į atitinkamo modulio užsakymų dalį.
 
 Galite pasirinkti dvi patvirtinimo parinktis iš puslapio **Suplanuoti užsakymai**:
 
@@ -58,6 +58,8 @@ Jeigu planuojate patvirtinti daug užsakymų tuo pačiu metu, lygiagretus vykdym
 -   **Lygiagretinti patvirtinimą** – jei reikšmė yra **Taip**, lygiagretinimo procesas bus atliekamas naudojant gijų skaičių, nurodytą **Gijų skaičius**.
 -   **Gijų skaičius** – kontroliuoja gijų skaičių, naudojamą patvirtinimo procesui lygiagretinti. Parametras rodomas tik tada, kai nustatyta **Lygiagretinti patvirtinimą** reikšmė **Taip**.
 
+> [!NOTE]
+> Parinktis **Lygiagretinti patvirtinimą** rodoma tik tada, kai turite daugiau nei vieną suplanuotą užsakymą, kurį pasirinkote patvirtinti.
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

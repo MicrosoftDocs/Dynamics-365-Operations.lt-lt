@@ -3,7 +3,7 @@ title: DUK apie darbo eigas
 description: Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/19/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0188e8ed3cbbfd7dbccd7d13cf6129e146a919ac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772702"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934914"
 ---
 # <a name="workflow-faq"></a>DUK apie darbo eigas
 
@@ -37,7 +37,7 @@ Kiekvienas pranešimas skirtas skirtingam darbo elementui, tačiau dėl panašum
 Šiuo metu darbo eigos eksportavimo funkcija yra ribojama darbo eigos pavadinimams neleidžiant viršyti 48 ženklų. Naudojant ilgesnius kaip 48 ženklų pavadinimus, pateikiama klaida „Serveriui nepavyko autentifikuoti užklausos“ ir (arba) neleidžiama eksportuoti failo be failo tipo. Šiame tinklaraščio įraše pateikiama išsamesnė informacija [Darbo eigos eksportavimo trikčių šalinimas](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Ar darbo eigos pateikėjas gali ją taip pat ir tvirtinti?
-Taip, darbo eigos pateikėjas taip pat gali ją tvirtinti, jei darbo eiga taip sukonfigūruota. Jei norite to neleisti, nustatykite **Darbo eigos parametrai > Bendra > Tvirtintojas > Neleisti tvirtinti pateikėjui** reikšmę **Taip**.
+Taip, darbo eigos pateikėjas taip pat gali ją tvirtinti, jei darbo eiga taip sukonfigūruota. Jei norite to neleisti, nustatykite **Sistemos administravimas > Darbo eiga > Darbo eigos parametrai > Bendra > Tvirtintojas > Neleisti tvirtinti pateikėjui** reikšmę **Taip**.
 
 ## <a name="can-i-add-alerts-to-workflows-to-provide-notifications-to-users"></a>Ar galiu įtraukti įspėjimų į darbo eigas, kad vartotojams būtų teikiami pranešimai?
 Toliau pateikiamos kelios pagrindinės sritys, susijusios su įspėjimų įtraukimų į darbo sritis norint teikti pranešimus vartotojams, į kurias reikia atkreipti dėmesį.
@@ -51,3 +51,6 @@ Toliau pateikiamos kelios pagrindinės sritys, susijusios su įspėjimų įtrauk
     - [Darbo eigose yra verslo įvykių](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow), kuriuos klientas gali naudoti norėdamas suaktyvinti srautus su ieškomais pranešimais.   
 
 Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [Darbo eigos verslo įvykiai](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) programoje „Microsoft Power Automate“, kad pateiktumėte papildomų arba kitokių pranešimų.
+
+## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Darbo eigos rengyklės nepavyksta paleisti naudojant ADFS 
+Kai darbo eigos rengyklė veikia naudojant „Active Directory“ susiejimo tarnybą (AD FS) atnaujintoje aplinkoje, gali nepavykti paleisti rengyklę. Šiuo atveju įsitikinkite, kad URL "https://dynamicsaxworkfloweditor/" įtrauktas į ypatybę **„Microsoft Dynamics 365 for Operations“ (vietinė) - Darbo eiga - Vietinė programa** ADFS parametruose.

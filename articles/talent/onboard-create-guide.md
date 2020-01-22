@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a095fe97b05898403b501763204a462ee8dcc12a
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 2371d86165390503312c2848842acf4745a8ed7a
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814633"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898253"
 ---
-# <a name="create-and-send-an-onboarding-guide-by-using-dynamics-365-talent---onboard"></a>Supažindinimo vadovo kūrimas ir siuntimas, naudojant „Dynamics 365 Talent - Onboard”
+# <a name="create-and-send-an-onboarding-guide"></a>Supažindinimo vadovo kūrimas ir siuntimas
 
 [!include [banner](includes/banner.md)]
 
@@ -42,7 +42,7 @@ Sukūrę supažindinimo vadovą, galite nusiųsti jį naujam darbuotojui. Taip p
 
 5. Lange **Kurti vadovą**, dalyje **Ką supažindinate?**, įveskite naujo darbuotojo vardą arba el. pašto adresą. Jei naujo darbuotojo dar nėra sistemoje, pasirinkite **Įtraukti dabar** ir įveskite darbuotojo informaciją.
 
-    ![[Informacijos įvedimas į supažindinimo vadovą](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Supažindinimo vadovo informacijos įvedimas](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 6. Dalyje **Kada jie pradeda?**, pasirinkite pradžios datą.
 7. Jei supažindinimo vadovas turi būti automatiškai išsiųstas naujam darbuotojui konkrečią datą, įsitikinkite, kad parinktis **Planuoti automatinio siuntimo datą** yra įjungta, o tada pasirinkite automatinio siuntimo datą. Norėdami išsiųsti vadovą iš karto, išjunkite parinktį **Planuoti automatinio siuntimo datą**.
@@ -92,7 +92,7 @@ Jums ne visada reikia kurti vadovą pagal šabloną. Jei pageidaujate, galite ku
 1. Kairiajame meniu pasirinkite **Vadovai**, tada pasirinkite mygtuką **Įtraukti** (pliuso ženklą \[**+**\]).
 2. Lange **Kurti vadovą**, dalyje **Ką supažindinate?**, įveskite naujo darbuotojo vardą arba el. pašto adresą. Jei naujo darbuotojo dar nėra sistemoje, pasirinkite **Įtraukti dabar** ir įveskite darbuotojo informaciją.
 
-    ![[Informacijos įvedimas į supažindinimo vadovą](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
+    ![[Supažindinimo vadovo informacijos įvedimas](./media/onboard-create-a-guide-window.png)](./media/onboard-create-a-guide-window.png)
 
 3. Dalyje **Kada jie pradeda?**, pasirinkite pradžios datą.
 4. Jei supažindinimo vadovas turi būti automatiškai išsiųstas naujam darbuotojui konkrečią datą, įsitikinkite, kad parinktis **Planuoti automatinio siuntimo datą** yra įjungta, o tada pasirinkite automatinio siuntimo datą. Norėdami išsiųsti vadovą iš karto, išjunkite parinktį **Planuoti automatinio siuntimo datą**.

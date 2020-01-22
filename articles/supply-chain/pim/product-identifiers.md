@@ -3,12 +3,12 @@ title: Produkto identifikatoriai
 description: Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
 author: cvocph
 manager: AnnBe
-ms.date: 03/23/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EcoResProductEntityIdentifierCode
+ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 68be63370eca0089649c47de0ba0bc9bd335b905
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250605"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934891"
 ---
 # <a name="product-identifiers"></a>Produkto identifikatoriai 
 
@@ -43,6 +43,9 @@ Daugeliu atvejų produkto numerio „Dynamics 365 Supply Chain Management“ iš
 Tiekimo grandinės valdymo diegimo metu produktų numerių strategiją reikia ypač gerai apsvarstyti. Gera numeravimo sistema pagerina logistikos srautus ir padeda išvengti klaidų. Geras produkto identifikatorius turi būti sudarytas iš ne daugiau kaip 15 simbolių. Geriausia, jei jis būtų sudarytas iš mažiau nei 10 ir ne daugiau kaip penkių klasifikavimo simbolių. Norėdami įgalinti sparčiąsias ieškas, taip pat galite naudoti ieškos pavadinimus. Ieškos pavadinimas – tai papildomas pavadinimas, kuriuo nurodomos produkto klasifikacijos.
 
 Naudojant „Common Data Service“, produkto numeris Tiekimo grandinės valdyme taip pat yra produkto numeris „Common Data Service“. Produkto variantai su „Common Data Service“ sinchronizuojami kaip skirtingi produktai.
+
+> [!NOTE]
+> Produkto numeris negali prasidėti „%“.
 
 ## <a name="item-number-and-product-dimensions"></a>Prekės numeris ir produkto dimensijos
 

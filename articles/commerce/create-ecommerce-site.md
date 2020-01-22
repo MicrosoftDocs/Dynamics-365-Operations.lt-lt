@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fd87a51b73deae64867b0420c00db9fce7c79336
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697134"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945840"
 ---
 # <a name="create-an-e-commerce-site"></a>E. prekybos svetainės kūrimas
 
@@ -59,20 +59,16 @@ Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Interneto parduotuvės peržiūra](online-store-overview.md)
+[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
-[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
-
-[Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
-
-[Įgalinti parduotuvės nustatymą pagal vietą](enable-store-detection.md)
+[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
 
-[Turinio kūrimo pagrindinio puslapio peržiūra](authoring-home-overview.md)
+[Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
-[Įtraukti naują svetainės puslapį](add-new-page.md)
+[Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)

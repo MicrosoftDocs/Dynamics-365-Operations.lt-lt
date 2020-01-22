@@ -3,7 +3,7 @@ title: „Power Apps“ įdėjimas
 description: Šioje temoje aprašoma, kaip įdėti „Power Apps“ klientą, siekiant padidinti produkto funkcijų skaičių.
 author: jasongre
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 755a30f89725ca0a7e1c14252984c617d6ba280e
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 8b5e64cb9ba916f9cbd628703394318b4044867b
+ms.sourcegitcommit: dc953c316c396c45ddd596e25c2b358e39a95d84
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824498"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2870246"
 ---
 # <a name="embed-microsoft-power-apps"></a>„Microsoft Power Apps“ įdėjimas
 
@@ -55,7 +55,7 @@ Toliau pateiktose instrukcijose parodyta, kaip įdėti „Power App“ į žinia
 
     - Laukas **Pavadinimas** nurodo mygtuke arba skirtuke, kuriame bus įdėtoji „Power App“, rodomą tekstą. Dažnai galite pakartoti „Power App“ šiame lauke pateikiamą pavadinimą.
     - **Programos ID** yra GUID, skirtas „Power App“, kurią norite įterpti. Norėdami gauti šią reikšmę, raskite „Power App“ puslapyje [web.powerapps.com](https://web.powerapps.com) ir raskite lauką **Programos ID**, pateiktą dalyje **Informacija**.
-    - Dalyje **„Power App“ įvesties duomenys** galite pasirinktinai pasirinkti lauką, talpinantį duomenis, kuriuos kaip įvestį norite perduoti „Power App“. Informacijos apie tai, kaip „Power App“ gali pasiekti duomenis, išsiųstus iš „Finance and Operations“ programų, žr. šioje temoje pavadinimu [„Power App“, kuri naudoja „Finance and Operations“ programų duomenis, kūrimas](#building-a-powerapp-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Dalyje **„Power App“ įvesties duomenys** galite pasirinktinai pasirinkti lauką, talpinantį duomenis, kuriuos kaip įvestį norite perduoti „Power App“. Informacijos apie tai, kaip „Power App“ gali pasiekti duomenis, išsiųstus iš „Finance and Operations“ programų, žr. šioje temoje pavadinimu [„Power App“, kuri naudoja „Finance and Operations“ programų duomenis, kūrimas](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
     - Pasirinkite **programos dydį**, atitinkantį įdedamos „Power App“ tipą. Jei kuriate mobiliesiems įrenginiams skirtas „Power Apps“, pasirinkite parinktį **Plona**, o jei kuriate planšetiniams kompiuteriams skirtas „Power Apps“, pasirinkite **Plati**. Taip užtikrinama, kad įdėtajai „Power App“ bus skirta pakankamai vietos.
     - „FastTab“ **Juridiniai subjektai** pateikiama galimybė rinktis, kuriems juridiniams subjektams „Power App“ bus priskirta. Pagal numatytuosius parametrus „Power App“ priskiriama visiems juridiniams asmenims.
 
@@ -101,7 +101,7 @@ Atlikite toliau nurodytus veiksmus norėdami redaguoti įdėtosios „Power App�
 
 Įdėjus „Power App“ į puslapį, jei reikia, ją galima pašalinti dviem būdais.
 
-- Pasirinkite sritį **„Power App“ redagavimas** naudodami instrukcijas iš ankstesnio šios temos skyriaus [Įdėtosios „Power App“ redagavimas](#editing-an-embedded-powerapp). Įsitikinkite, kad srityje rodoma įdėtosios „Power App“, kurią norite pašalinti, informacija, tada spustelėkite mygtuką **Naikinti**.
+- Pasirinkite sritį **„Power App“ redagavimas** naudodami instrukcijas iš ankstesnio šios temos skyriaus [Įdėtosios „Power App“ redagavimas](#editing-an-embedded-power-app). Įsitikinkite, kad srityje rodoma įdėtosios „Power App“, kurią norite pašalinti, informacija, tada spustelėkite mygtuką **Naikinti**.
 - Kadangi įdėtoji „Power App“ įrašoma kaip pritaikymo asmeniniams poreikiams duomenys, išvalius puslapio pritaikymo asmeniniams poreikiams elementus taip pat bus pašalintos visos to puslapio įdėtosios „Power Apps“. Atminkite, kad puslapio pritaikymo asmeniniams poreikiams elementų šalinimas yra nuolatinis veiksmas ir jo atšaukti negalima. Norėdami šalinti puslapio pritaikymo asmeniniams poreikiams elementus, pasirinkite **Parinktys** ir tada spustelėkite **Pritaikyti šią formą**. Meniu **Valdyti** pasirinkite formą mygtuką **Išvalyti**. Atnaujinus naršyklę bus pašalinti visi ankstesni šio puslapio pritaikymo asmeniniams poreikiams elementai. Daugiau informacijos apie tai, kaip optimizuoti puslapius naudojant pritaikymo asmeniniams poreikiams elementus, žr. puslapyje [Vartotojo patirties pritaikymas asmeniniams poreikiams](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Priedas
