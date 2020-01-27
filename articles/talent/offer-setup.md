@@ -3,7 +3,7 @@ title: Pasiūlymų valdymo nustatymas „Attract“
 description: Šioje temoje aprašoma, kaip nustatyti „Microsoft Dynamics 365 Talent“ pasiūlymus.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/04/2019
+ms.date: 12/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63f45f1493935f543cfd25a7d8ed7b54170800a0
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: bc91a83afd5ce1627376685bcf612d6998ddbc02
+ms.sourcegitcommit: 5022d63a81c3715c9a3dcf2a68217bb6b17c7805
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832727"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "2890560"
 ---
 # <a name="set-up-offer-management-in-attract"></a>Pasiūlymų valdymo nustatymas „Attract“
 
@@ -45,9 +45,11 @@ Pasiūlymo duomenys yra mažiausias pasiūlymo paketo šablono vienetas. Įprast
 
     >[!NOTE]
     > Puslapyje **Pasiūlymo duomenys** yra skyrius **Kandidato informacija** ir **Informacija apie darbą**. „Attract“ siūloma keletas parengtų naudoti pasiūlymo duomenų vietos rezervavimo ženklų.
-    
+    > 
     > Puslapyje yra skyrių, skirtų grupuoti skirtingus pasiūlymų duomenų vietos rezervavimo ženklus į logines grupes. Šie skyriai gali padėti tvarkyti pasiūlymo duomenis ir įvesti duomenis kuriant pasiūlymą.
-
+    > 
+    > Norėdami sukurti vietos rezervavimo ženklo reikšmių sąrašą, įkelkite „Excel“ skaičiuoklę, kurioje yra vienas stulpelis su vietos rezervavimo ženklu kaip stulpelio pavadinimas ir eilučių, esančių apačioje, pasirinkimų sąrašas. Jei tas pats vietos rezervavimo ženklas nurodomas kitame duomenų taisyklių rinkinyje, įsitikinkite, kad jie turi bendrą reikšmių rinkinį.
+    
 1.  Norėdami sukurti naują pasiūlymo duomenų skyrių, spustelėkite **Įtraukti skyrių** ir įveskite unikalų skyriaus pavadinimą.
 
 1.  Norėdami pasiūlymo duomenų vietos rezervavimo ženklus įtraukti į bet kurį skyrių, spustelėkite **Įtraukti pasiūlymo duomenis** ir įveskite unikalų vietos rezervavimo ženklo pavadinimą.

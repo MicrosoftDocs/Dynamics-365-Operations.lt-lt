@@ -3,7 +3,7 @@ title: Vartotojo registracijos pasirinktinių puslapių sąranka
 description: Šioje temoje aprašoma, kaip sukurti tinkintus „Microsoft Dynamics 365 Commerce“ puslapius, kuriuose galima valdyti pritaikytus „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojų vartotojų prisijungimus.
 author: brianshook
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 644d937ddd3c219ae869f22d977d2846dffc20e1
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 20bfacbc2374003814e12e7737644d118d404cc0
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697571"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945564"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Vartotojo prisijungimo tinkintų puslapių sąranka
 
@@ -136,11 +136,11 @@ Atnaujinti strategiją „Registruotis ir prisijungti“ naudokite pasirinktinę
 1. Jūsų anksčiau sukonfigūruotoje strategijoje **Registruotis ir prisijungti**, naršymo srityje, pasirinkite **Puslapio maketai**.
 1. Pasirinkite maketą **Vieningasis registracijos ir prisijungimo puslapis**.
 1. Nustatykite parinktį **Naudoti pasirinktinį puslapio turinį** į **Taip**.
-1. Lauke **Vartotojo puslapio URL** įveskite visą prisijungimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite **www.\<mano domenas\>.com/sign-in?preloadscripts=true**.
+1. Lauke **Vartotojo puslapio URL** įveskite visą prisijungimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite ``www.<my domain>.com/sign-in?preloadscripts=true``.
 1. Lauke **Puslapio maketo versija (peržiūra)** pasirinkite **1.2.0.**
 1. Pasirinkite maketą **Registravimosi į vietinę paskyrą puslapis**.
 1. Nustatykite parinktį **Naudoti pasirinktinį puslapio turinį** į **Taip**.
-1. Lauke **Vartotojo puslapio URL** įveskite visą prisijungimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite **www.\<mano domenas\>.com/sign-in?preloadscripts=true**.
+1. Lauke **Pasirinktinis puslapio URI** įveskite visą registracijos URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite ``www.<my domain>.com/sign-up?preloadscripts=true``.
 1. Lauke **Puslapio maketo versija (peržiūra)** pasirinkite **1.2.0.**
 1. Skyriuje **Vartotojo atributai** atlikite šiuos veiksmus:
 
@@ -156,7 +156,7 @@ Atnaujinti strategiją „Profilio redagavimas“ naudokite pasirinktinę puslap
 1. Jūsų anksčiau sukonfigūruotoje strategijoje **Profilio redagavimas**, naršymo srityje, pasirinkite **Puslapio maketai**.
 1. Pasirinkite maketą **Profilio redagavimo puslapis**.
 1. Nustatykite parinktį **Naudoti pasirinktinį puslapio turinį** į **Taip**.
-1. Lauke **Vartotojo puslapio URL** įveskite visą prisijungimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite **www.\<mano domenas\>.com/sign-in?preloadscripts=true**.
+1. Lauke **Pasirinktinis puslapio URI** įveskite visą profilio redagavimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite ``www.<my domain>.com/profile-edit?preloadscripts=true``.
 1. Lauke **Puslapio maketo versija (peržiūra)** pasirinkite **1.2.0.**
 1. Skyriuje **Vartotojo atributai** atlikite šiuos veiksmus:
 
@@ -170,12 +170,14 @@ Atnaujinti strategiją „Slaptažodžio nustatymas iš naujo“ naudokite pasir
 1. Jūsų anksčiau sukonfigūruotoje strategijoje **Slaptažodžio nustatymas iš naujo**, naršymo srityje, pasirinkite **Puslapio maketai**.
 1. Pasirinkite maketą **Naujo slaptažodžio puslapis**.
 1. Nustatykite parinktį **Naudoti pasirinktinį puslapio turinį** į **Taip**.
-1. Lauke **Vartotojo puslapio URL** įveskite visą prisijungimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite **www.\<mano domenas\>.com/sign-in?preloadscripts=true**.
+1. Lauke **Pasirinktinis puslapio URI** įveskite visą slaptažodžio nustatymo iš naujo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite ``www.<my domain>.com/passwordreset?preloadscripts=true``.
 1. Lauke **Puslapio maketo versija (peržiūra)** pasirinkite **1.2.0.**
 1. Pasirinkite maketą **Paskyros patvirtinimo puslapis**.
 1. Nustatykite parinktį **Naudoti pasirinktinį puslapio turinį** į **Taip**.
-1. Lauke **Vartotojo puslapio URL** įveskite visą prisijungimo URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite **www.\<mano domenas\>.com/sign-in?preloadscripts=true**.
+1. Lauke **Pasirinktinis puslapio URI** įveskite visą slaptažodžio nustatymo iš naujo patikros URL. Įtraukite povardį **?preloadscripts=true**. Pavyzdžiui, įveskite ``www.<my domain>.com/passwordreset-verification?preloadscripts=true``.
 1. Lauke **Puslapio maketo versija (peržiūra)** pasirinkite **1.2.0.**
+
+
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Etikečių ir aprašų numatytųjų teksto eilučių tinkinimas
 
@@ -193,16 +195,16 @@ Atnaujinus global.json failą ir publikavus keitimus, naujas saito tekstas atsir
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Interneto parduotuvės peržiūra](online-store-overview.md)
-
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
+[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
-[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
+[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
-[Įgalinti parduotuvės nustatymą pagal vietą](enable-store-detection.md)
+[Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)

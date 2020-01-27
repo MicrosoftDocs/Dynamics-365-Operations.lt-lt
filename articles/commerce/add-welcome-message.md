@@ -3,7 +3,7 @@ title: Įtraukti pasveikinimo pranešimą
 description: Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ svetainę įtraukti pasisveikinimo pranešimą.
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 25a4e91646916b03c8a138fc713577f429ab633c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 4e9deeeaf491b77700ba0833e429f05d376a4392
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697387"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914521"
 ---
 # <a name="add-a-welcome-message"></a>Įtraukti pasveikinimo pranešimą
 
@@ -60,6 +60,8 @@ Pasisveikinimo pranešimas dabar bus rodomas kiekvieno svetainės puslapio, kuri
 [Įtraukti logotipą](add-logo.md)
 
 [Pasirinkti svetainės temą](select-site-theme.md)
+
+[Darbas su CSS perrašymo failais](css-override-files.md)
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
 

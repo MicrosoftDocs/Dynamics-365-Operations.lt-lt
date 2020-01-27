@@ -8,7 +8,9 @@
           href: index.md
         - name: Kas nauja ar pasikeitė
           items:
-            - name: Peržiūros funkcijos „Platform update 31“ (2020 m. sausio mėn.)
+            - name: "Peržiūros funkcijos „Platform update 32“ (2020\_m. vasario mėn.)"
+              href: get-started/whats-new-platform-update-32.md
+            - name: "„Platform Update 31“ (2020\_m. sausio mėn.)"
               href: get-started/whats-new-platform-update-31.md
             - name: "„Platform Update 30“ (2019\_m. lapkričio mėn.)"
               href: ../fin-ops/get-started/whats-new-platform-update-30.md
@@ -34,6 +36,10 @@
               href: ../fin-ops/get-started/whats-new-platform-update-20.md
             - name: "„Platform Update 15“ (2018\_m. kovo mėn.)"
               href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Kas nauja ar pasikeitė ankstesnėse versijose
+              items:
+                - name: Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje
+                  href: ../fin-ops/get-started/whats-new-changed.md
         - name: Verslo įvykiai
           items:
             - name: Verslo įvykių apžvalga
@@ -410,7 +416,7 @@
                   href: deployment/develop-deploy-custom-models-on-premises.md
                 - name: PowerBI.com integravimas į vietines aplinkas
                   href: analytics/entity-store-on-prem.md
-                - name: Vietinių aplinkų atvirkštinių tarpinių serverių konfigūravimas
+                - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                   href: deployment/onprem-reverseproxy.md
                 - name: Vietinės visuotinės įdiegties naujinimų taikymas
                   href: deployment/apply-updates-on-premises.md
@@ -926,6 +932,8 @@
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Žinomos problemos
                   href: lifecycle-services/known-issues.md
+                - name: Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
+                  href: lifecycle-services/removed-deprecated-features.md
             - name: „Lifecycle Services“ vartotojo vadovas
               href: lifecycle-services/lcs-user-guide.md
             - name: Prenumeratos poreikio vertinimo įrankis

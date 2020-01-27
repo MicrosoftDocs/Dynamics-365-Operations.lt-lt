@@ -3,7 +3,7 @@ title: Kalbų įtraukimas į savo svetainę
 description: Šioje temoje paaiškinama, kaip į „Microsoft Dynamics 365 Commerce“ svetainę įtraukti papildomų kalbų palaikymą.
 author: bicyclingfool
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 26031d386d8e332c07752d8797416491a86649a8
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2696812"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914629"
 ---
 # <a name="add-languages-to-your-site"></a>Kalbų įtraukimas į savo svetainę
 
@@ -166,6 +166,8 @@ Dabar bus pasiekiama jūsų įtraukta kalba, kad galėtumėte sukonfigūruoti sv
 [Įtraukti logotipą](add-logo.md)
 
 [Pasirinkti svetainės temą](select-site-theme.md)
+
+[Darbas su CSS perrašymo failais](css-override-files.md)
 
 [Įtraukti parankinių piktogramą](add-favicon.md)
 

@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 8090fafc891d874c3f4fb646fe22a2b783ce37aa
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 7057c5b24ee3ae03574ec106a0c7d268dfffb98e
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814840"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897194"
 ---
-# <a name="create-a-hiring-team-by-using-dynamics-365-talent---onboard"></a>Samdos komandos kūrimas naudojant „Dynamics 365 Talent - Onboard”
+# <a name="create-a-hiring-team"></a>Samdos komandos kūrimas
 
 [!include [banner](includes/banner.md)]
 
@@ -35,7 +35,7 @@ Programoje „Microsoft Dynamics 365 Talent: Onboard” galite kurti samdos koma
 2. Dalyje **Komandos** pasirinkite plytelę **Įtraukti** (pliuso ženklas \[**+**\]).
 3. Dialogo lange **Kurti naują komandą** dalyje **Komandos pavadinimas** įveskite samdos komandos pavadinimą.
 
-    ![[Naujos samdos komandos kūrimas „Onboard”](./media/onboard-create-team.png)](./media/onboard-create-team.png)
+    ![[Naujos komandos kūrimas programoje „Onboard“](./media/onboard-create-team.png)](./media/onboard-create-team.png)
 
 4. Dalyje **Pasirinkti komandos narius** įveskite kiekvieno komandos nario vardą arba el. pašto adresą.
 
@@ -51,11 +51,11 @@ Programoje „Microsoft Dynamics 365 Talent: Onboard” galite kurti samdos koma
 2. Pasirinkite komandą.
 3. Skirtuke **Vadovai** pasirinkite **Pridėti vadovų**.
 
-    ![[Supažindinimo vadovų priskyrimas komandai](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
+    ![[Supažindinimo vadovų pridėjimas komandai](./media/onboard-add-guides-to-team.png)](./media/onboard-add-guides-to-team.png)
 
 4. Pažymėkite kiekvieno parengimo vadovo, kurį norite priskirti komandai, žymės langelį, tada pasirinkite **Įtraukti.**
 
-    ![[Komandai priskiriamų supažindinimo vadovų pasirinkimas](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
+    ![[Supažindinimo vadovų pasirinkimas norint įtraukti į komandą](./media/onboard-select-guides.png)](./media/onboard-select-guides.png)
 
 ## <a name="assign-onboarding-templates-to-a-hiring-team"></a>Supažindinimo šablonų priskyrimas samdos komandai
 
@@ -63,11 +63,11 @@ Programoje „Microsoft Dynamics 365 Talent: Onboard” galite kurti samdos koma
 2. Pasirinkite komandą.
 3. Skirtuke **Šablonai** pasirinkite **Pridėti šablonų**.
 
-    ![[Šablonų priskyrimas komandai](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
+    ![[Šablonų įtraukimas į komandą](./media/onboard-add-templates-to-team.png)](./media/onboard-add-templates-to-team.png)
 
 4. Pažymėkite kiekvieno šablono, kurį norite priskirti komandai, žymės langelį, tada pasirinkite **Įtraukti.**
 
-    ![[Komandai priskiriamų šablonų pasirinkimas](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
+    ![[Šablonų pasirinkimas norint įtraukti į komandą](./media/onboard-select-templates.png)](./media/onboard-select-templates.png)
 
 ### <a name="see-also"></a>Taip pat žiūrėkite
 

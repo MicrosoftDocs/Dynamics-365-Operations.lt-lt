@@ -3,7 +3,7 @@ title: Mažmeninės prekybos pardavimo kainos valdymas
 description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Dynamics 365 Retail“ koncepcijos.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 081fadf0c120eba50af9e6c396fb3e492051bb3c
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: d8c6f8d7d368be8ffa192f8dee6b46a753b04cad
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2025223"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934776"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -221,11 +221,11 @@ Vieno kainodaros mechanizmas naudojamas apskaičiuoti mažmeninę kainą visuose
 
 Mažmeninės prekybos kainodara skirta dirbti su mažmeninės prekybos subjektais, o ne kitais subjektais. Tiksliau sakant, ji skirta nustatyti kainoms pagal parduotuvę, o ne pagal sandėlį.
 
-Mažmeninės prekybos kainodaros mechanizmas nepalaiko tokių kainodaros funkcijų:
+Mažmeninės prekybos kainodaros mechanizmas **nepalaiko** toliau pateikiamų kainodaros funkcijų.
 
-- Kainos nustatymas naudojant vietos ir sandėlio saugojimo dimensijas
-- Atributais grindžiama kainodara
-- Tiekėjo nuolaidos perėjimas
+- Kainų nustatymas pagal vietos arba vietos ir sandėlio saugojimo dimensijas nepalaikomas. Jei prekybos sutartyse nurodysite tik vietos dimensiją, nustatant mažmeninės prekybos kainas vietos bus nepaisoma ir prekybos sutartis bus taikoma visoms vietoms. Jei nurodysite ir vietą, ir sandėlį, tada elgesys yra nenurodytas / netikrintas, nes tikimasi, kad pardavėjai naudoja parduotuvės kainų grupes kiekvienos parduotuvės / sandėlio kainoms kontroliuoti.
+- Atributais grindžiama kainodara nepalaikoma.
+- Tiekėjo nuolaidos perėjimas nepalaikomas.
 
 Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** mažmeninės prekybos kainodaros mechanizmas:
 

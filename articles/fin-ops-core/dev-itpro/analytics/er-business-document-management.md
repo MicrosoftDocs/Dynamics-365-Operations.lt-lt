@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0a2fa6a7f6efef05862a3727a80122c22d591487
-ms.sourcegitcommit: 4162d9ef4239c9d4e5297b8aaa903dd54f9cafc3
+ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "2824525"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933913"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
-Verslo vartotojai naudoja [Elektroninių ataskaitų (ER) apžvalgą](general-electronic-reporting.md), kad konfigūruotų siunčiamų dokumentų formatus pagal įvairių šalių / regionų teisinius reikalavimus. Vartotojai taip pat gali apibrėžti duomenų srautą, kad nurodytų kokie programos duomenys išdėstyti sugeneruotuose dokumentuose. ER sistema generuoja išsiunčiamus dokumentus „Microsoft Office“ formatais („Excel“ darbaknygėmis arba „Word“ dokumentais) naudojant iš anksto nustatytus šablonus. Šablonai yra užpildomi reikiama informacija pagal sukonfigūruotą duomenų srautą, kol reikalingi dokumentai yra generuojami. Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis tam tikriems išsiunčiamiems dokumentams generuoti. Tai parodo ER formato konfigūracija, kurioje yra šablonų, kuriuos galite naudoti skirtingiems išsiunčiamiems dokumentams generuoti. Verslo vartotojai gali naudoti šią sistemą reikalingiems verslo dokumentams valdyti.
+Verslo vartotojai naudoja [elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemą, kad konfigūruotų siunčiamų dokumentų formatus pagal įvairių šalių / regionų teisinius reikalavimus. Vartotojai taip pat gali apibrėžti duomenų srautą, kad nurodytų kokie programos duomenys išdėstyti sugeneruotuose dokumentuose. ER sistema generuoja išsiunčiamus dokumentus „Microsoft Office“ formatais („Excel“ darbaknygėmis arba „Word“ dokumentais) naudojant iš anksto nustatytus šablonus. Šablonai yra užpildomi reikiama informacija pagal sukonfigūruotą duomenų srautą, kol reikalingi dokumentai yra generuojami. Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis tam tikriems išsiunčiamiems dokumentams generuoti. Tai parodo ER formato konfigūracija, kurioje yra šablonų, kuriuos galite naudoti skirtingiems išsiunčiamiems dokumentams generuoti. Verslo vartotojai gali naudoti šią sistemą reikalingiems verslo dokumentams valdyti.
 
 **Verslo dokumentų valdymas** sukurtas papildant ER sistemą ir leidžia verslo vartotojams redaguoti verslo dokumentų šablonus naudojant „Microsoft Office 365“ paslaugą arba atitinkamą „Microsoft Office“ darbalaukio programą. Dokumentų redagavimai gali apimti verslo dokumento dizaino keitimą ir vietos rezervavimo ženklų pridėjimą prie papildomų duomenų be šaltinio kodo keitimo ir naujų diegimų. Verslo dokumentų šablonų naujinimui nereikalingas joks ER sistemos išmanymas.
 
@@ -59,7 +59,7 @@ Toliau nurodytos ataskaitos (kartu su „Excel“ pagrįstais šablonais) bus pr
 
 Daugiau ataskaitų bus pasiekiamos. Specialūs pranešimai apie papildomas ataskaitas bus atsiųsti atskirai. 
 
-Pilną visų ataskaitų, suplanuotų 2019 m. spalio mėn. leidimui, sąrašą galite rasti čia: [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](https://docs.microsoft.com/en-us/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
+Pilną visų ataskaitų, suplanuotų 2019 m. spalio mėn. leidimui, sąrašą galite rasti čia: [Konfigūruotinų verslo dokumentų ataskaitos programose „Word“ ir „Excel“](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details). Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esantį pavyzdį.
 
 ## <a name="configure-er-parameters"></a>ER parametrų konfigūravimas
 

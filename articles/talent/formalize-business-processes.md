@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: 2a245891e2e3e8c0eae4f28d0932776c3ee976dc
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 0f4d2b8e5f78c5815c5ad7e5eae0d13ad7d15c12
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832820"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898694"
 ---
 # <a name="formalize-business-processes"></a>Verslo procesų formalizavimas
-
-[!include [banner](includes/banner.md)]
 
 Funkcija Verslo procesas leidžia sukurti verslo proceso šabloną, skirtą verslo procesams, kuriuos reikia atlikti jūsų organizacijoje. Pavyzdžiui, jūsų įmonė kiekvienais metais atlieka personalo auditą. Tokiu atveju galite sukurti šabloną, sekantį visas užduotis, kurios sudaro audito procesą. Tada šis šablonas gali padėti užtikrinti, kad kiekvieną kartą atliekant auditą būtų atliktos visos užduotys. Be to, jei užduotis reikia atlikti konkrečia tvarka, šablonas gali padėti užtikrinti, kad jos būtų atliktos teisinga tvarka.
 

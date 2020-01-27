@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9708c37f10cd08e6b98167fe24d9ae0380c3dac
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
+ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772173"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2890332"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
@@ -76,7 +76,7 @@ Kai registruojate SF, kiekvienos prekės **SF likučio** kiekis atnaujinamas vis
 
 Pasirenkant šią parinktį tariama, kad pirkimo užsakymui užregistruotas bent vienas produkto gavimo kvitas. Tiekimo SF remiasi šiais produktų gavimo kvitais ir atspindi kiekius iš jų. SF finansinė informacija yra paremta informacija, įvesta jums registruojant SF.
 
-Daugiau informacijos žr. [Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+Daugiau informacijos žr. [Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
 ## <a name="working-with-multiple-invoices"></a>Darbas su keliomis SF
 

@@ -3,7 +3,7 @@ title: Apibrėžti ir prižiūrėti mažmeninės prekybos kanalus
 description: Šioje temoje pateikiama tradicinių parduotuvių, kurios „Dynamics 365 Retail“ nurodomos kaip mažmeninės prekybos parduotuvės, nustatymo proceso apžvalga. Jame pateikiama informacija apie užduotis, kurias turite atlikti prieš ir po mažmeninės prekybos parduotuvės nustatymo.
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f55099ad283e665965aad0684b3c9d87223d5ed7
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 45d0386d215da15103a417502debb245c91f6309
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2019375"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934613"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Apibrėžti ir prižiūrėti mažmeninės prekybos kanalus
 
@@ -85,3 +85,6 @@ Atlikę būtinas užduotis, atlikite tolesnes užduotis, norėdami nustatyti inf
 ## <a name="organization-hierarchies"></a>Organizacijų hierarchijos
 
 „Retail‟ naudoja organizacijos hierarchijas mažmeninės prekybos kanalams struktūrizuoti. Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą. Kai nustatote parduotuves, galite įtraukti jas į organizacijos hierarchiją. Tada parduotuvės bendrina duomenis, kurie naudojami asortimentams, papildymui ir ataskaitoms.
+
+> [!NOTE]
+> Norint naudoti „Retail“ pardavimo funkcijas, turi būti įgalintas konfigūracijos raktas **Kelios siuntimo vietos**. Šį konfigūracijos raktą galima rasti prie **prekybos konfigūracijos** raktų (**Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūracija**). Tai būtina dėl „Retail“ funkcijų, kurios atlieka įvairius tikrinimus pagal pristatymo adresą, sukonfigūruotą pardavimo užsakymo eilutės lygiu.

@@ -3,7 +3,7 @@ title: Išplėstinio filtravimo ir užklausų sintaksė
 description: Šiame straipsnyje aprašomos filtravimo ir užklausos parinktys, kurios galimos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas, filtro srityje esantį operatorių atitinka arba tinklelio stulpelių antraščių filtrus.
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9e57cac740a26c6c5b451c92d856e533c6db33e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
+ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180834"
+ms.lasthandoff: 01/02/2020
+ms.locfileid: "2931293"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Išplėstinio filtravimo ir užklausų sintaksė
 
@@ -114,6 +114,12 @@ ms.locfileid: "2180834"
 <td>Ieškoma verčių, atskirtų kableliais</td>
 <td>Įveskite visus kriterijus ir atskirkite juos kableliais.</td>
 <td><strong>Įvedus A, D, F, G</strong> surandama būtent &quot;A&quot;, &quot;D&quot;, &quot;F&quot; ir &quot;G&quot;. <strong>Įvedus 10, 20, 30, 100</strong> surandama būtent &quot;10, 20, 30, 100&quot;.</td>
+</tr>
+<tr>
+<td>"" (dvi dvigubos kabutės)</td>
+<td>Tuščios reikšmės gretinimas</td>
+<td>Jei norite tame lauke filtruodami rasti tuščias reikšmes , iš eilės įveskite dvi dvigubas kabutes.</td>
+<td>Naudojant dvi iš eilės įvestas dvigubas kabutes (<strong>""</strong>), randamos eilutės, kuriose dabartinio stulpelio reikšmių nėra.</td>
 </tr>
 <tr>
 <td>(<span class="code">SQL sakinys</span>) (SQL sakinys tarp skliaustelių)</td>

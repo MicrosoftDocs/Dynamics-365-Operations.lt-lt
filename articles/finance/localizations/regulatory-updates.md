@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft“ „Dynamics 365 Finance“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/23/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 480253d1401c567e27f636f8a2b19fa3937e89e5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: dc919d232f0e4f0cfbab372b9fdded2657906a1d
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770389"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934682"
 ---
 # <a name="regulatory-updates"></a>Reglamentavimo naujinimai
 
@@ -42,54 +42,42 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 
 |Suplanuota išleidimo data|Leidimo versija|Šalis|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------|
-|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Italija      |   PVM valdymo pakeitimai pagal D.L. 2019 m. spalio 23 d. 119: Ketvirčio PVM pranešimas („Lipe 2018“)    |
-|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Italija      |   „Retail“ – kliento informacijos valdymas EKA |
-|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Italija      |   „Retai“ – kliento informacijos spausdinimas fiskaliniame kvite | 
-|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Japonija      |   Įdiegtas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčio tarifas (SF maketai) | 
-|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Meksika      |   2.7.2.9 atnaujinimo taisyklė – naudojama institucijos, išduodančios CFDI dokumentą, laiko juosta pagal pašto kodą | 
-|      2019 m. lapkričio mėn.          |   10.0.7(PEAP)      | Jungtinė Karalystė     |   Mokesčių pavertimas skaitmeniniais – PVM grąžinimo ataskaitos kūrimas įmonėms, kurioms ataskaitos kuriamos kaip PVM grupei toje pačioje sistemos duomenų bazėje v.10 | 
-|      2019 m. lapkritis – rugpjūtis          |   10.0.7(PEAP), 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.20 versija    |
-|      2019 m. lapkritis – rugpjūtis          |   10.0.7(PEAP), 10.0.6      | Brazilija      |   DRCST deklaracija SC   |
-|      2019 m. lapkritis – rugpjūtis          |   10.0.7(PEAP), 10.0.6      | Italija      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d., 119 – „Dynamics 365 for Finance and Operations“  |
-|      2019 m. rugpjūčio mėn.          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.10 versija    |
-|      2019 m. rugpjūčio mėn.          |   10.0.6, 10.0.5HF      | Brazilija     |   Naujus teisės aktus įgyvendina Rio de Žaneiro valstija dėl EFD-ICMS/IPI. Rio de Žaneiro (RJ) 13/19 rezoliucijos įgyvendinimas yra skirtas „specialiosioms procedūroms vykdant atleidimą“     |
-|      2019 m. rugpjūčio mėn.          |   10.0.6      | Brazilija      |   Mokesčių deklaracija CAT 42/18    |
-|      2019 m. rugpjūčio mėn.          |   10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      | Japonija      |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas    |
-|      2019 m. rugpjūčio ir liepos mėn.          |   10.0.5, 10.0.4HF, 10.0.3HF      | Ispanija      |   Ispanija: SII: Tvirtinimo taisyklės keičiasi nuo 2019 m. spalio 1 d.    |
-|      2019 m. liepos mėn.          |   10.0.5, 10.0.4HF, 10.0.2HF      | Brazilija      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.00 versija  |
-|      2019 m. liepos mėn.          |   10.0.5      | Brazilija      |   „Sped“ įnašų praktinis vadovas 1.31. naujos naudojimo instrukcijos    |
-|      2019 m. liepos mėn.          |   10.0.5      | Meksika      |   MX – CFDI 3.3 – IEPS mokesčio operacijų išsami informacija XML formatu turėtų būti neprivaloma neatsižvelgiant į kliento profilį    |
-|      2019 m. liepos ir birželio mėn.          |   10.0.5, 10.0.3HF      | Jungtinė Karalystė      |   Mokesčių pavertimas skaitmeniniais – sukčiavimo prevencijos parametrai apie siuntėjo įrenginį – 10.0.5    |
-|      Gegužės 2019          |   10.0.4      | Brazilija      |   66 gaunamas finansinis dokumentas    |
-|      Gegužės 2019          |   10.0.4, 10.0.3HF, 10.02HF, 10.0.1HF      | Brazilija      |   „NF-e“ dekretas 54.308/18 – RS    |
-|      Gegužės 2019          |   10.0.4, 10.0.3HF, 10.0.2HF, 10.0.1HF      | Brazilija      |   „NF-e“ ir „NFC-e“ – 13/2019 rezoliucija ir SUCIEF 55/2019-RJ nutarimas – naujos „NF-e“ neapmokestinimo žymių išvesties sąlygos    |
-|      Gegužės 2019          |   10.0.4, 10.0.3HF      | Indija      |   Reikšmių „Tiekimo vieta“ ir „Būsena“ rodymas GST mokesčio SF    |
-|      Gegužės 2019          |   10.0.4      | Meksika      |   DIOT trečiosios šalies deklaracija – išdėstymo pakeitimai 2019 m.    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Brazilija      |   ICMS finansinio dokumento koregavimų įgalinimo lentelė 5.2    |
-|      2019 m. balandžio mėn.          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazilija      |   NF-e naujas NT 2018.005 - v. 1.20    |
-|      2019 m. balandžio mėn.          |   10.0.3, 10.0.2HF, 10.0.1HF      | Brazilija     |   SPED ECD 7 maketas    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Brazilija      |   SPED ECF - 5 maketas 2019 m.    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Indija      |   Mokesčio muito valiuta koregavimas BOE vietoj sudarymo operacijos valiuta    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Indija      |   Mokesčio muito valiuta skaičiavimas BOE vietoj sudarymo operacijos valiuta   |
-|      2019 m. balandžio mėn.          |   10.0.3, 10.02HF, 10.0.1HF      | Indija      |   IEC numerio formato pakeitimas    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Lietuva      |   i.SAF ataskaitoje vartotojas gali nurodyti sistemos PVM kodus kartu su teisinių mokesčių kodais    |
-|      2019 m. balandžio mėn.          |   10.0.3      | Lenkija      |   SAF SF (JPK_FA) 2 v. nuo 2019 m. liepos 1 d.    |
-|      2019 m. balandžio mėn.          |   10.0.2      | Italija      |   Italija: „naujas „Spesometro“ („Esterometro“) siekiant palaikyti bylų dalijimą pagal bylos apimtį ir įrašų skaičiaus apribojimus    |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Austrija     |Mažmeninė prekyba – fiskalinė integracija         |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Europa     |El. sąskaitų faktūrų išrašymas – klientų sąskaitos faktūros eksportuojamos PEPPOL BIS 3 formatu         |
-|      Balandžio 2019          |   10.0.1      |    Europa     |El. sąskaitų faktūrų išrašymas – tiekėjų sąskaitos faktūros importuojamos iš PEPPOL BIS 3 formato         |
-|      Balandžio 2019          |   10.0.1      |   Vokietija     |El. sąskaitų faktūrų išrašymas – klientų sąskaitos faktūros eksportuojamos „xRechnung“ 1.1 formatu         |
-|      2019 m. balandžio mėn.          |   10.0.1      | Vengrija      |  Vengrija: internetinio sąskaitų faktūrų išrašymo 2019 m. 1.1. versija  |
-|      2019 m. balandžio mėn.          |   10.0.1      | Japonija      |  2019 m. Japonijos kalendoriaus eros keitimas  |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Rusija     |Žemės mokesčio deklaracijos pakeitimai nuo 2018 m. |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Rusija     |[Apskaičiuotų mokesčių deklaracija](rus-assessed-tax-declaration.md)|
-|      2019 m. balandžio mėn.          |   10.0.1      |    Rusija     |Transporto mokesčio deklaracijos pakeitimai nuo 2019 m.  |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Rusija     |[PVM deklaracija](rus-VAT-declaration.md) |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Rusija     |PVM deklaracijos formato pakeitimai nuo 2019 m. (pardavimo ir pirkimo knygos) |
-|      2019 m. balandžio mėn.          |   10.0.1      |    Jungtinė Karalystė     |[„Finance and Operations“ paruošimas integravimui su MTD dėl PVM](emea-gbr-mtd-vat-integration.md)    |    
-|      Kovo 2019          |   10.0.0      |    Austrija   |   „Kammerumlage 2019“ pakeitimai (pirkimo muito mokestis)    |
-|      Kovo 2019          |   10,0,0      |    Brazilija    |     SPED EFD įmokos – 004 ir 005 maketai  |
-|      Kovo 2019          |   10,0,0      |    Malaizija     |Malaizija keičia GST į SST pardavimo ir aptarnavimo mokestį        |
+|      Brazilija        |   2019 m. gruodžio mėn.       | 10.0.8      |   „SPED Fiscal” 014 maketas |
+|      Brazilija         |   2019 m. lapkritis – rugpjūtis       | 10.0.7, 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.20 versija    |
+|      Brazilija          |   2019 m. lapkritis – rugpjūtis       | 10.0.7, 10.0.6      |   DRCST deklaracija SC   |
+|      Brazilija         |   2019 m. rugpjūčio mėn.       | 10.0.6HF, 10.0.5HF, 10.0.4HF      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.10 versija    |
+|      Brazilija          |   2019 m. rugpjūčio mėn.      | 10.0.6HF, 10.0.5HF, 10.0.4HF     |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.10 versija    |
+|      Brazilija          |   2019 m. rugpjūčio mėn.      | 10.0.6, 10.0.5HF     |   Naujus teisės aktus įgyvendina Rio de Žaneiro valstija dėl EFD-ICMS/IPI. Rio de Žaneiro (RJ) 13/19 rezoliucijos įgyvendinimas yra skirtas „specialiosioms procedūroms vykdant atleidimą“     |
+|      Brazilija          |   2019 m. rugpjūčio mėn.      | 10.0.6        |   Mokesčių deklaracija CAT 42/18    |
+|      Brazilija          |   2019 m. liepos mėn.     | 10.0.5, 10.0.4HF, 10.0.2HF      |   Nauja „NF-e“ techninių pastabų versija: NT 2019.001 1.00 versija  |
+|      Brazilija          |   2019 m. liepos mėn.     | 10.0.5      |   „Sped“ įnašų praktinis vadovas 1.31. naujos naudojimo instrukcijos    |
+|      Brazilija          |   20191 m. gegužės mėn.     | 10.0.4      |   66 gaunamas finansinis dokumentas    |
+|      Brazilija          |   Gegužės 2019      | 10.0.4      |   „NF-e“ dekretas 54.308/18 – RS    |
+|      Brazilija          |   Gegužės 2019      | 10.0.4      |   „NF-e“ ir „NFC-e“ – 13/2019 rezoliucija ir SUCIEF 55/2019-RJ nutarimas – naujos „NF-e“ neapmokestinimo žymių išvesties sąlygos    |
+|      Indija          |   2019 m. rugpjūčio mėn.     | 10.0.6       |   „Retail“: klientų registracijos numerių valdymas Indijos EKA    |
+|      Indija          |   Gegužės 2019     | 10.0.4      |   Reikšmių „Tiekimo vieta“ ir „Būsena“ rodymas GST mokesčio SF    |
+|      Italija          |   2019 m. gruodžio mėn.       | 10.0.8      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d., 119: kasmetinių mokesčių ryšys |
+|      Italija         |   2019 m. lapkričio mėn.       | 10.0.7      |   PVM valdymo pakeitimai pagal D.L. 2019 m. spalio 23 d. 119: Ketvirčio PVM pranešimas („Lipe 2018“)    |
+|      Italija         |   2019 m. lapkričio mėn.     | 10.0.7      |   „Retail“ – kliento informacijos valdymas EKA |
+|      Italija         |   2019 m. lapkričio mėn.      | 10.0.7      |   „Retai“ – kliento informacijos spausdinimas fiskaliniame kvite |
+|      Italija         |   2019 m. lapkritis – rugpjūtis     | 10.0.7, 10.0.6      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d., 119 – „Dynamics 365 for Finance and Operations“  |
+|      Italija          |   2019 m. rugpjūčio mėn.      | 10.0.6      |   PVM registro data    |
+|      Italija          |   2019 m. rugpjūčio mėn.     | 10.0.6      |   PVM valdymas pagal PVM registro datą    |
+|      Japonija          |   2019 m. gruodis–lapkritis     | 10.0.8, 10.0.7HF       |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas (Vartojimo mokesčio ataskaita) |
+|      Japonija         |   2019 m. lapkričio mėn.      | 10.0.7       |   Įdiegtas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčio tarifas (SF maketai) |
+|      Japonija          |   2019 m. lapkričio mėn.     | 10.0.6HF     |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas (Vartojimo mokesčio ataskaita)  |
+|      Japonija          |   2019 m. rugpjūčio mėn.      | 10.0.6, 10.0.5HF, 10.0.4HF, 10.0.3HF      |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas    |
+|      Meksika          |   2019 m. gruodis–spalis    | 10.0.8, 10.0.7HF, 10.0.6HF        |   „Retail“ - Visuotinės CFDI: 2019 m. įv. spr. - c_CodigoPostal ir laiko juosta |
+|     Meksika          |   2019 m. lapkritis–rugsėjis       | 10.0.7, 10.0.6HF      |   2.7.2.9 atnaujinimo taisyklė – naudojama institucijos, išduodančios CFDI dokumentą, laiko juosta pagal pašto kodą |
+|      Meksika           |   2019 m. gruodis–spalis      | 10.0.8, 10.0.7HF, 10.0.6HF     |   Kodo tikrinimas produktų ir paslaugų kataloge |
+|      Meksika         |   2019 m. liepos mėn.     | 10.0.5      |   MX – CFDI 3.3 – IEPS mokesčio operacijų išsami informacija XML formatu turėtų būti neprivaloma neatsižvelgiant į kliento profilį    |
+|      Meksika          |   Gegužės 2019     | 10.0.4      |   DIOT trečiosios šalies deklaracija – išdėstymo pakeitimai 2019 m.    |
+|      Lenkija          |   2019 m. lapkritis–spalis     | 10.0.7, 10.0.6HF Lenkija     |   Privalomas skaidytas mokėjimas - 10.0.7 |
+|      Singapūras           |   2019 m. gruodžio mėn.     | 10.0.7      |   GST grąžinimo ataskaita |
+|      Ispanija          |   2019 m. rugpjūčio ir liepos mėn.      | 10.0.5, 10.0.4HF      |   Ispanija: SII: Tvirtinimo taisyklės keičiasi nuo 2019 m. spalio 1 d.    |
+|      Jungtinė Karalystė          |   2019 m. gruodžio mėn.       | 10.0.8      |   Mokesčių pavertimas skaitmeniniais (MTD) – sistemos administratoriaus sutikimas perduoti informaciją už D365 ribų, naudojant integravimą į HMRC |
+|      Jungtinė Karalystė          |   2019 m. lapkričio mėn.     | 10.0.7     |   Mokesčių pavertimas skaitmeniniais – PVM grąžinimo ataskaitos kūrimas įmonėms, kurioms ataskaitos kuriamos kaip PVM grupei toje pačioje sistemos duomenų bazėje v.10 |
+|      Jungtinė Karalystė          |   2019 m. liepos ir birželio mėn.      | 10.0.5     |   Mokesčių pavertimas skaitmeniniais – Sukčiavimo prevencijos parametrai apie siuntėjo įrenginį – 10.0.5    |
 
 
 

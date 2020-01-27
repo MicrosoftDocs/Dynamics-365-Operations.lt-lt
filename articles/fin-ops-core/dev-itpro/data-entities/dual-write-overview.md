@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 11a5792c9c039eb76337309ef2fdb2b994ce191a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 072564446b74318ffc8e8e6ad4fd16f4421e7854
+ms.sourcegitcommit: d0322d1ed6c798301058e44dae76227a0e1f49ac
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772392"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "2853911"
 ---
 # <a name="near-real-time-data-integration-with-common-data-service"></a>Beveik realiuoju laiku vykstantis duomenų integravimas su „Common Data Service”
 
@@ -59,7 +59,7 @@ Sinchroninis, dvikryptis, beveik realiojo laiko duomenų srautams reikia šių v
 Atlikite šiuos veiksmus, kad nustatytumėte „Finance and Operations“ programų ir „Common Data Service“ integravimą.
     
 1. Informacijos apie dvigubo rašymo sistemos diegimą ieškokite [išsamiame vadove](https://aka.ms/dualwrite-docs) temoje „Dbigubo rašymo peržiūros paskelbimas“.
-2. Atsisiųsti ir įdiegti sprendimą iš [Finance and Operations, Common Data Service ir „Customer Engagement“ integravimo](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096)Yammer grupės. Pakete yra penki sprendimai:
+2. Sprendimą atsisiųskite ir įdiekite iš „Yammer“ grupės [„Fin Ops and CDS/CE Integration via Dual-Write“](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Pakete yra penki sprendimai:
 
     + Dynamics365Company
     + Valiutų kursai

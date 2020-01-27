@@ -3,7 +3,7 @@ title: Vaizdo įrašų leistuvo modulis
 description: Šioje temoje aprašomi vaizdo įrašų leistuvo moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 12/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32504351f712c83ba8f593c17d2e51c532374311
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: 1c78583f39dbacdc7b38e89c33e67ae23731bf8a
+ms.sourcegitcommit: 96bfc20eb748f4090a2b5e1ff9f54997d5a5d359
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785334"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "2885906"
 ---
 # <a name="video-player-module"></a>Vaizdo įrašų leistuvo modulis
 
@@ -57,6 +57,8 @@ Aplinkos vaizdo įrašų leistuvo modulis palaiko trumpus informacinius vaizdo �
 ## <a name="video-player-module"></a>Vaizdo įrašų leistuvo modulis
 
 Naudojant vaizdo įrašų leistuvo modulį, el. prekybos svetainėje galima parodyti vaizdo įrašus. Jis palaiko visas atkūrimo galimybes, pvz., leidimo, pristabdymo, viso dydžio režimo ir subtitrų. Vaizdo įrašų leistuvo modulis taip pat palaiko subtitrų tinkinimo galimybę, kad jie atitiktų „Microsoft“ pritaikymo neįgaliesiems standartus. Pavyzdžiui, galite tinkinti šrifto dydį ir fono spalvą.
+
+Vaizdo įrašų leistuvo modulis taip pat palaiko antrinius garso takelius. Nusiunčiant vaizdo įrašą, taip pat galima nusiųsti antrinį garso takelį. Tada, jei vartotojas pasirenka antrinį garso takelį, vaizdo įrašų leistuvo modulis gali jį leisti.
 
 ### <a name="examples-of-video-player-modules-in-e-commerce"></a>Vaizdo įrašų leistuvo modulio pavyzdžiai el. prekyboje
 

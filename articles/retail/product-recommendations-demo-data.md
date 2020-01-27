@@ -3,7 +3,7 @@ title: Daugiakanalių produktų rekomendacijų demonstraciniai duomenys
 description: Šiuo dokumentu siekiama pateikti patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 12/1/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 81af4c1bb7828c9b346a3ef514d8657e853dcefb
-ms.sourcegitcommit: c526cfd1f823df1ff33ded95e599a72f0a15cc5a
+ms.openlocfilehash: 31aa5dbd2fa814fd572024a4ae36b9d9b46a2fb0
+ms.sourcegitcommit: 398c0652acde12c953de007d06055456d6e0a516
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2226231"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "2872331"
 ---
 # <a name="omni-channel-product-recommendations-demo-data"></a>Daugiakanalių produktų rekomendacijų demonstraciniai duomenys
 
 Šiuo dokumentu siekiama pateikti patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
 
-Daugiakanalės produktų rekomendacijos pateikia atrinktų arba programiškai sugeneruotų užsakytų produktų surikiuotą sąrašą. Šiuos sąrašus galima naudoti keliuose scenarijuose, atsižvelgiant į verslo poreikį. Daugiau informacijos apie produktų rekomendacijų sąrašus rasite [produkto rekomendacijų apžvalgoje.](product-recommendaitons-overview.md)
+Daugiakanalės produktų rekomendacijos pateikia atrinktų arba programiškai sugeneruotų užsakytų produktų surikiuotą sąrašą. Šiuos sąrašus galima naudoti keliuose scenarijuose, atsižvelgiant į verslo poreikį. Daugiau informacijos apie produktų rekomendacijų sąrašus rasite [produkto rekomendacijų apžvalgoje.](../commerce/product-recommendations.md)
 
 Antros ir aukštesnių pakopų „Dynamics“ aplinkose produktų rekomendacijos automatiškai apskaičiuojamos pagal kliento duomenis.
 Naudojant produktų rekomendacijų demonstracinius duomenis, produktų rekomendacijų sprendimas, kuris jau parengtas aplinkoje, ir išlaidos, susijusios su jo naudojimu, neišjungiamos.
@@ -68,6 +68,6 @@ Plėtinyje yra duomenų failas, pavadintas RecoMockDataset.csv, kuri leidžia kl
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Produktų rekomendacijų apžvalga](product-recommendations-overview.md)
+[Produktų rekomendacijų apžvalga](../commerce/product-recommendations.md)
 
-[Aplinkos planavimas](environment-planning.md)
+[Aplinkos planavimas](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)

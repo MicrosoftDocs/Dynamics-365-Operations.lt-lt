@@ -3,7 +3,7 @@ title: Vieninga produkto patirtis
 description: Šioje temoje aprašomas produkto duomenų integravimas tarp „Finance and Operations“ programų ir „Common Data Service“.
 author: t-benebo
 manager: AnnBe
-ms.date: 09/3/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: bcc2c3d2530153a225a94fa0fb3cc990abbf65b4
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7df9097feeb9566705f50f8a62809aa79dc10cd7
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769734"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914776"
 ---
 # <a name="unified-product-experience"></a>Vieninga produkto patirtis
 
@@ -52,7 +52,7 @@ Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią info
 
 „Finance and Operations” | Kitos „Dynamics 365” programos | Aprašymas
 -----------------------|--------------------------------|---
-Išleisti produktai V2 | msdyn\_sharedproductdetails | Objekte **msdyn\_sharedproductdetails** yra produktą apibrėžiantys laukai iš „Finance and Operations“ programų ir kuriuose pateikima produkto finansinė ir valdymo informacija. Toliau esančioje lentelėje nurodyti ryšiai.
+Išleisti produktai V2 | msdyn\_sharedproductdetails | Objekte **msdyn\_sharedproductdetails** yra produktą apibrėžiantys laukai iš „Finance and Operations“ programų ir kuriuose pateikima produkto finansinė ir valdymo informacija. 
 „Common Data Service“ išleisti išskirtieji produktai | Produktas | Objekte **Produktas** yra laukų, kurie apibrėžia produktą. Tai yra atskirų produktų (produktų su potipio produktu) ir produkto variantų informacija. Toliau esančioje lentelėje nurodyti ryšiai.
 Identifikuotas produkto numerio brūkšninis kodas | msdyn\_productbarcodes | Produktų brūkšniniai kodai naudojami siekiant unikaliai identifikuoti produktus.
 Numatytieji užsakymo parametrai | msdyn\_productdefaultordersettings
@@ -74,7 +74,7 @@ Vienetų konvertavimas | msdyn_ unitofmeasureconversions
 Būdingo produkto matavimo vieneto konvertavimas | msdyn_productspecificunitofmeasureconversion
 Produkto kategorijos | msdyn_productcategories | Kiekviena produktų kategorija ir informacija apie jos struktūrą bei charakteristikas yra įtraukta į produktų kategorijos objektą. 
 Produktų kategorijų hierarchijos | msdyn_productcategoryhierarhies | Produktų hierarchijos naudojamos produktus skirstant į kategorijas arba grupuojant. Kategorijų hierarchijos tarnyboje „Common Data Service“ pasiekiamos naudojant objektą Produktų kategorijų hierarchija. 
-Produktų kategorijų hierarchijų vaidmenys | msdyn_productcategoryhierarchies | Produktų hierarchijas galima naudoti su skirtingais „D365 Finance and Operations“ vaidmenimis. Norint nurodyti, kuri kategorija naudojama su kiekvienu vaidmeniu, naudojamas produktų kategorijos vaidmens objektas su tolesnėmis sąsajomis. 
+Produktų kategorijų hierarchijų vaidmenys | msdyn_productcategoryhierarchies | Produktų hierarchijas galima naudoti su skirtingais „D365 Finance and Operations“ vaidmenimis. Norint nurodyti, kuri kategorija naudojama su kiekvienu vaidmeniu, naudojamas produktų kategorijos vaidmens objektas. 
 Produktų kategorijos priskyrimai | msdyn_productcategoryassignments | Norint produktą priskirti kategorijai, galima naudoti produktų kategorijų priskyrimų objektą.
 
 ## <a name="integration-of-products"></a>Produktų integravimas

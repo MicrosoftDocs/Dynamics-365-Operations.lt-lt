@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3376a9aec5c0003e9cc7c076c4d221a697df61ce
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1518632"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2898299"
 ---
 # <a name="leave-and-absence-management"></a>Atostogų ir neatvykimų valdymas
-
-[!include [banner](includes/banner.md)]
 
 **Atostogų ir neatvykimų valdymo** modulis siūlo lanksčią neatvykimo valdymo proceso nustatymo sistemą. Atostogų ir neatvykimų planus galima kurti siekiant nustatyti, darbuotojų sukauptą arba naudojamą nedarbo laiką. Įtraukus darbuotojus į planą, jie gali pateikti vadovams patvirtinti prašymus išleisti iš darbo. Atostogų sekimo funkcija leidžia pirmojo lygio vadovams ir personalo vadovams peržiūrėti iš darbo išeinančius asmenis ir sužinoti kiekvieno darbuotojo likusių atostogų dienų skaičių.  
 

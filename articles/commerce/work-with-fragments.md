@@ -3,7 +3,7 @@ title: Darbas su fragmentais
 description: Šioje temoje aprašoma, kodėl, kada ir kaip naudoti fragmentus programoje „Microsoft Dynamics 365 Commerce“.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d92b9077f8584bfa0710bbaacbc7caa3220baa4a
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
+ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698101"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2914705"
 ---
 # <a name="work-with-fragments"></a>Darbas su fragmentais 
 
@@ -126,3 +126,5 @@ Fragmentą taip pat galite redaguoti pasirinkę jį puslapyje, šablone arba pir
 [Darbas su šablonais](work-with-templates.md)
 
 [Darbas su esamais maketais](work-with-layouts.md)
+
+[Darbas su publikavimo grupėmis](publish-groups.md)

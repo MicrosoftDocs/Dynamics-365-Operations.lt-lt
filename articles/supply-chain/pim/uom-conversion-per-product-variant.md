@@ -3,12 +3,12 @@ title: Produkto varianto matavimo vieneto konvertavimas
 description: Šioje temoje paaiškinama, kaip galima nustatyti produkto variantų matavimo vienetą.
 author: johanhoffmann
 manager: AnnBe
-ms.date: 12/18/2018
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: UnitOfMeasureConversion
 ROBOTS: noindex, nofollow
 audience: Application User
 ms.reviewer: josaw
@@ -17,34 +17,26 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 196b68db02867f8d864be8bcc593aa01f554f7c3
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: c8181f0bda9b781a6c2b0feb0aba1beb51bfea65
+ms.sourcegitcommit: af36eb17b36092a3101bbfc96486b25036676558
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249453"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2935104"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
 [!include [banner](../includes/banner.md)]
 
-[!include [pivate-preview](../includes/pivate-preview-banner.md)]
-
 Šioje temoje paaiškinama, kaip galima nustatyti produkto variantų matavimo vienetą. Joje pateikiamas nustatymo pavyzdys.
 
 Ši funkcija leidžia įmonėms nustatyti skirtingų vienetų konvertavimą tarp to paties produkto variantų. Šioje temoje naudojamas toliau pateiktas pavyzdys. Įmonė parduoda mažo, vidutinio, didelio ir labai didelio dydžio marškinėlius. Marškinėliai apibrėžiami kaip produktas, o skirtingi dydžiai – kaip produkto variantai. Marškinėliai supakuoti dėžėse, o vienoje dėžėje jų gali būti penkeri, išskyrus labai didelio dydžio marškinėlius, kurie į dėžę telpa tik ketveri. Įmonė nori sekti skirtingų variantų marškinėlius pagal vienetą **Vienetai**, tačiau pardavinėja marškinėlius pagal vienetą **Dėžės**. Konvertavimo santykis tarp atsargų vieneto ir pardavimo vieneto yra 1 dėžė = 5 vienetai, išskyrus labai didelio dydžio variantą, kur santykis yra 1 dėžė = 4 vienetai.
-
-## <a name="setup"></a>Sąranka
-
-Galite konfigūruoti parametrus naudodami funkciją, skirtą produktams, kurie įgalinti **visiems procesams**, arba tik produktui, kuris įgalintas **sandėlio procesams**, naudodami parinktį **Įgalinti matavimo vieneto konvertavimą**, esančią puslapyje **Produkto informacijos parametrai**.
 
 ### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Nustatyti produkto varianto vieneto konvertavimą
 
 Produkto variantus galima kurti tik produktams, kurių **Produkto potipis**: **Bendrasis produktas**. Daugiau informacijos žr. [Bendrojo produkto kūrimas](tasks/create-product-master.md).
 
 Funkcija neįgalinta produktams, kurie nustatyti esamo svorio procesams. 
-
-Kuriant bendrąjį produktą, matavimo vieneto konvertavimas įgalinamas naudojant parinktį **Įgalinti matavimo vieneto konvertavimą**, esančią puslapyje **Produkto informacija**.
 
 Sukūrus bendrąjį produktą su išleistų produktų variantais, galima nustatyti vieneto konvertavimą pagal variantus. Galite rasti meniu elementą vieneto konvertavimo puslapiui atidaryti pagal toliau nurodytuose puslapiuose esantį produktą arba produkto variantą.
 

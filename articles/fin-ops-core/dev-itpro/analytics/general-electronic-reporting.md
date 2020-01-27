@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad6c1c7544f3c9d53b9d5759b246f81dae6cfe2c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
+ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771078"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2933937"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -51,12 +51,12 @@ ER mechanizmas turi toliau nurodytas galimybes.
 
 ER palaiko dviejų tipų komponentus: **Duomenų modelis** ir **Formatas**.
 
-#### <a name="data-model-components"></a>Duomenų modelio komponentai
+#### <a name="data-model-and-model-mapping-components"></a>Duomenų modelio ir modelio susiejimo komponentai
 
 Duomenų modelio komponentas abstrakčiai vaizduoja duomenų struktūrą. Jis yra naudojamas tam tikrai verslo domeno sričiai aprašyti pakankamai išsamiai, kad būtų tenkinami tos srities ataskaitų reikalavimai. Duomenų modelio komponentą sudaro toliau nurodytos dalys.
 
-- Duomenų modelis kaip domenui būdingų verslo objektų rinkinys ir hierarchiškai susistemintas jų ryšių aprašas.
-- Modelio susiejimas, kuris susieja pasirinktus duomenų šaltinius su atskirais duomenų modelio elementais, vykdymo metu nurodančiais duomenų srautą ir taisykles, pagal kurias verslo duomenys įvedami į duomenų modelio komponentą.
+- <a name="DataModelComponent"></a>Duomenų modelis kaip domenui būdingų verslo objektų rinkinys ir hierarchiškai susistemintas jų ryšių aprašas.
+- <a name="ModelMappingComponent"></a>Modelio susiejimas, kuris susieja pasirinktus duomenų šaltinius su atskirais duomenų modelio elementais, vykdymo metu nurodančiais duomenų srautą ir taisykles, pagal kurias verslo duomenys įvedami į duomenų modelio komponentą.
 
 Duomenų modelio verslo objektas pateikiamas kaip konteineris (įrašas). Verslo subjekto ypatybės pateikiamos kaip duomenų elementai (laukai). Kiekvienas duomenų elementas turi unikalų pavadinimą, žymę, aprašą ir reikšmę. Kiekvieno duomenų elemento reikšmė gali būti sukurta taip, kad būtų atpažinta kaip eilutė, sveikasis skaičius, realusis skaičius, data, išvardijimas, Bulio logika ir t. t. Be to, tai gali būti kitas įrašas arba įrašų sąrašas.
 
@@ -81,7 +81,7 @@ Modelio susiejimas, kuris palaiko gaunamus elektroninius dokumentus, turi šias 
 
 Duomenų modelio komponentas skirtas kiekvienam verslo domenui, kuris turi būti naudojamas kaip suvienodintas ataskaitų duomenų šaltinis, atskiriantis ataskaitų teikimą nuo fizinio duomenų šaltinių diegimo. Tai konkrečios srities verslo koncepcijos ir funkcijos, pateiktos tokia forma, dėl kurios ataskaitų formato pirminis kūrimas ir tolesnė priežiūra tampa efektyvesnė.
 
-#### <a name="format-components-for-outgoing-electronic-documents"></a>Siunčiamų elektroninių dokumentų formato komponentai
+#### <a name="FormatComponentOutbound"></a>Siunčiamų elektroninių dokumentų formato komponentai
 
 Formato komponentas yra ataskaitų kūrimo planas, kuris bus generuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
 
@@ -107,7 +107,7 @@ Formato komponentas leidžia pridėti toliau nurodytus tam tikrus failus, kurie 
 
 Norėdami paleisti vieną ER formato konfigūraciją ir generuoti siunčiamą elektroninį dokumentą, turite nustatyti formato konfigūracijos susiejimą.
 
-#### <a name="format-components-for-incoming-electronic-documents"></a>Gaunamų elektroninių dokumentų formato komponentai
+#### <a name="FormatComponentInbound"></a>Gaunamų elektroninių dokumentų formato komponentai
 Formato komponentas yra gaunamo dokumento planas, kuris importuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
 
 - Formatas, kuris apibrėžia vykdymo metu importuoto gaunamo elektroninio dokumento, kuriame yra duomenų, struktūrą ir turinį. Formato komponentas naudojamas išanalizuoti įvairiais formatais gaunamą dokumentą, pvz., teksto ir XML.
@@ -144,7 +144,7 @@ Prieiga prie ER formato komponentų priklauso nuo ISO valstybės / regiono kodo 
 
 Skirtingos duomenų formato komponento versijos gali turėti skirtingus ISO valstybės / regiono kodų parametrus.
 
-#### <a name="configuration"></a>Konfigūravimas
+#### <a name="Configuration"></a>Konfigūravimas
 
 ER konfigūracija yra tam tikro ER komponento ER viršelis. Šis komponentas gali būti duomenų modelio komponentas arba formato komponentas. Konfigūracija gali apimti skirtingas ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Konfigūracijos komponento versiją **Juodraštis** galima redaguoti, jei konfigūracijos savininkas pasirinktas kaip aktyvus teikėjas programos ER parametruose.
 
@@ -154,13 +154,13 @@ Sukurtoje formato konfigūracijoje yra formato komponentas. Pirminės modelio ko
 
 Programos įmonės bendrai naudoja ER konfigūraciją.
 
-#### <a name="provider"></a>Teikėjas
+#### <a name="Provider"></a>Teikėjas
 
 ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formatų konfigūracijos, skirtos elektroniniams dokumentams kaip „Finance and Operations“ sprendimo dalis, yra pažymėtos kaip priklausančios konfigūracijos teikėjui **Microsoft**.
 
 Norėdami sužinoti, kaip registruoti naują ER teikėją, paleiskite užduočių vedlį **ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677)** dalis).
 
-#### <a name="repository"></a>Saugykla
+#### <a name="Repository"></a>Saugykla
 
 ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos šių tipų ER saugyklos: 
 

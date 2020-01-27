@@ -3,7 +3,7 @@ title: Produkto ciklo būsenos apžvalga
 description: Produkto ciklo būsena nurodo išleisto produkto arba produkto varianto ciklo būseną.
 author: cvocph
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3674442dfec11afc26881f3e5c442ba05a4821b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: b5b0ceb1926de6efda239fdbc69fb36a9d4b28e0
+ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813551"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "2934845"
 ---
 # <a name="product-lifecycle-state-overview"></a>Produkto ciklo būsenos apžvalga
 
@@ -74,11 +74,7 @@ Daugiau informacijos apie tai, kaip naudoti produkto ciklo būseną norint paša
 
 ## <a name="default-migration-import-and-export"></a>Numatytasis perėjimas, importavimas ir eksportavimas 
 
-Produkto ciklo būsenų nepalaiko duomenų objektai ir ciklo būsenos negalima nustatyti į kintamąją būseną naudojant išleisto produkto duomenų objektus.
-
--  Vykdant perėjimą iš ankstesnių leidimų, visų produktų ir produkto variantų ciklo būsena bus nenurodyta.  
--  Kai importuojami išleisti produktai naudojant duomenų objektą, kuriant bus taikoma numatytoji ciklo būsena.  
--  Kai importuojami išleisti produkto variantai naudojant duomenų objektą, bus importuojama išleisto bendrojo produkto ciklo būsena.   
+Produktų ciklo būsenas palaiko duomenų objektai ir ciklo būseną galima nustatyti į kintamąją būseną naudojant arba išleisto produkto duomenų objektą, arba išleisto varianto duomenų objektą.
 
 ## <a name="find-obsolete-products-and-products-variants"></a>Pasenusių produktų ir produktų variantų radimas 
 

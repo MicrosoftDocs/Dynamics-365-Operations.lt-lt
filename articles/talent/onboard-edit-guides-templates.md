@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 24369a878e95076783d670894236d56dca18e765
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 291f7aefac61c26dfab81cfff28c1c6580d46de5
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812884"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2897125"
 ---
-# <a name="edit-onboarding-guides-and-templates-in-dynamics-365-talent---onboard"></a>Supažindinimo vadovų ir šablonų redagavimas „Dynamics 365 Talent - Onboard”
+# <a name="edit-onboarding-guides-and-templates"></a>Supažindinimo vadovų ir šablonų redagavimas
 
 [!include [banner](includes/banner.md)]
 
@@ -114,11 +114,11 @@ Toliau nurodyti veiksmai, kuriuos turite atlikti norėdami paskelbti keitimus.
 1. Skirtuke **Veiklos** nuvilkite elementus iš dešinės į redagavimo sritį.
 2. Norėdami sutvarkyti savo vadovą, suskirstydami jį į skyrius, nuvilkite elementą **Naujas skyrius** į redagavimo sritį ir įveskite skyriaus pavadinimą bei pasirenkamą aprašą.
 
-    ![[Naujo skyriaus įtraukimas į supažindinimo vadovą ar šabloną](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
+    ![[Naujo skyriaus įtraukimas į supažindinimo vadovą arba šabloną](./media/onboard-edit-add-section.png)](./media/onboard-edit-add-section.png)
 
 3. Jei norite pridėti veiklų naujam darbuotojui atlikti, nuvilkite elementą **Nauja veikla** į redagavimo sritį ir įveskite veiklos pavadinimą bei aprašą.
 
-    ![[Naujos veiklos įtraukimas į supažindinimo vadovą ar šabloną](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
+    ![[Naujos veiklos įtraukimas į supažindinimo vadovą arba šabloną](./media/onboard-edit-add-activity.png)](./media/onboard-edit-add-activity.png)
 
 4. Norėdami įtraukti raiškųjį turinį į supažindinimo vadovą, atlikite toliau nurodytus veiksmus.
 
@@ -129,7 +129,7 @@ Toliau nurodyti veiksmai, kuriuos turite atlikti norėdami paskelbti keitimus.
     - Norėdami įtraukti „Microsoft Forms“ formą, nuvilkite elementą **Microsoft Forms** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, įveskite „Microsoft Forms“ formos URL ir nurodykite ekrano srities dydį.
     - Norėdami įtraukti „Iframe”, kuriame yra žiniatinklio turinio, nuvilkite elementą **Web Content (iframe)** į redagavimo sritį, įveskite veiklos pavadinimą ir aprašą, įveskite žiniatinklio turinio URL ir nurodykite ekrano srities dydį.
 
-    ![[Raiškiojo turinio įtraukimas į supažindinimo vadovą ar šabloną](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
+    ![[Naujo raiškiojo turinio įtraukimas į supažindinimo vadovą arba šabloną](./media/onboard-edit-add-rich-content.png)](./media/onboard-edit-add-rich-content.png)
 
 2. Pasirinktinai: kiekvienos veiklos dešinėje srityje priskirkite veiklą konkrečiam asmeniui arba vaidmeniui, įtraukite terminą ir kontaktinį asmenį bei priskirkite kategorijos spalvą. Kai priskiriate veiklą asmeniui ar vaidmeniui, kiekvienam asmeniui sukuriama užduotis. Ši užduotis rodoma „Onboard” meniu **Užduotys**.
 
@@ -148,7 +148,7 @@ Galite įtraukti kontaktinius asmenis, kurie gali padėti jūsų naujam darbuoto
 1. Skirtuke **Kontaktai** pasirinkite **Naujas kontaktas**.
 2. Dialogo lange **Įtraukti komandos narį** įveskite kontaktinio asmens vardą arba el. pašto adresą, trumpą aprašą, paaiškinantį, kaip kontaktinis asmuo gali padėti naujam darbuotojui, ir pasirinkite **Įtraukti**. 
 
-    ![[Kontaktų įtraukimas į supažindinimo vadovą ar šabloną](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
+    ![[Naujų kontaktų įtraukimas į supažindinimo vadovą arba šabloną](./media/onboard-edit-add-contact.png)](./media/onboard-edit-add-contact.png)
 
     Kitu atveju, galite pasirinkti vieną ar daugiau kontaktų po elementu **Pasiūlymai**.
 
@@ -169,7 +169,7 @@ Norėdami redaguoti kontaktą, pasirinkite mygtuką **Redaguoti** (pieštuko sim
     - Norėdami įtraukti saitą, pasirinkite skirtuką **Saitas**, įveskite saito pavadinimą ir adresą, tada pasirinkite **Įtraukti**.
     - Norėdami įtraukti schemą, pasirinkite skirtuką **Schema**, įveskite schemos pavadinimą ir adresą, tada pasirinkite **Įtraukti**. „Onboard” pateiks adreso, kurį nurodėte, schemą.
 
-    ![[Naujų išteklių įtraukimas į supažindinimo vadovą ar šabloną](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
+    ![[Naujų išteklių įtraukimas į supažindinimo vadovą arba šabloną](./media/onboard-edit-add-resource.png)](./media/onboard-edit-add-resource.png)
 
 3. Pasirinkite **Įrašyti**, kad įrašytumėte savo darbą.
 

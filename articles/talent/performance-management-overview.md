@@ -3,7 +3,7 @@ title: Našumo valdymas
 description: Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,16 +17,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: 18e9606e62bc2739da99b75ab56161bd7cc7eafe
+ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590510"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "2921155"
 ---
 # <a name="performance-management"></a>Našumo valdymas
-
-[!include [banner](includes/banner.md)]
 
 Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.  
 
@@ -91,6 +89,8 @@ Norėdami išsamesnių apžvalgų galite įtraukti aktyvius ir įvykdytus tikslu
 Be to, galite naudoti skyrių **Kompetencijos** norėdami aptarti, peržiūrėti ir įvertinti darbuotojo kompetencijas. Galite įtraukti tiek kompetencijų, kiek jums reikia, ir galite pasirinkti, ar kompetencija turi būti įvertinta. 
 
 Galite sukurti naujų apžvalgų, pagrįstų sukurtais šablonais. Pavyzdžiui, galite turėti šabloną individualioms, tobulėjimo planų arba periodinėms apžvalgoms. Kai kuriate naują apžvalgą, galite pasirinkti šabloną.
+
+Norėdami spausdinti atsiliepimus, pasirinkite mygtuką **Spaudinio peržiūra**. Jei puslapyje**Peržiūra** nematote mygtuko, įsitikinkite, kad įgalinote funkciją darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
 ## <a name="components-you-can-include-in-performance-reviews"></a>Komponentai, kuriuos galite įtraukti į našumo apžvalgas
 Į našumo apžvalgas galite įtraukti daug informacijos tipų. Jie apima apžvalgos informaciją, matavimus, veiklos rūšis, vertinimus, išsiregistravimus ir priedus.

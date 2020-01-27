@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-05-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 42feeb044d0a4cd25faf2d74863aa4e948c200fd
-ms.sourcegitcommit: 434dd21450bddcd891aba0555b9853d9ba0afb6f
+ms.openlocfilehash: ab201e099a5075760c038d819759162682874a33
+ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "2008827"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "2896924"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-may-13-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. gegužės 13 d.)
-
-[!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 

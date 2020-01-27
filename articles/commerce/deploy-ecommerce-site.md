@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c2632632b9b21dd3a88e9a4df0e65cfd28e579d2
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
+ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697456"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "2945518"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Naujo el. prekybos nuomotojo diegimas
 
@@ -88,16 +88,16 @@ Norėdami pasiekti kūrimo aplinką, eikite į skirtuką **El. prekyba** puslapy
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Interneto parduotuvės peržiūra](online-store-overview.md)
+[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
 [E. prekybos svetainės kūrimas](create-ecommerce-site.md)
 
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
-[Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
+[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+
+[Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 
-[Įgalinti parduotuvės nustatymą pagal vietą](enable-store-detection.md)
-
-[Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
+[Parduotuvės nustatymo pagal vietą įgalinimas](enable-store-detection.md)

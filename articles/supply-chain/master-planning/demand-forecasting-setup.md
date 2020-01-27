@@ -3,7 +3,7 @@ title: Poreikio prognozių nustatymas
 description: Šioje temoje aprašomos nustatymo užduotys, kurias turite atlikti, norėdami prognozuoti poreikį.
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 09/16/2017
+ms.date: 01/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 048b0e8e57211893cae538fae20e87186399dd38
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f56157be8cc61486801fc4c01bb191432dd9a541
+ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813804"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "2935496"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -63,7 +63,7 @@ Prognozės dimensijas į naudojamų poreikio prognozės dimensijų sąrašą įt
 
 Ne visos prekių elgsena prognozuojant poreikį vienoda. Panašias prekes galima sugrupuoti į vieną prekės paskirstymo raktą, o kiekvienam prekių paskirstymo raktui galima nustatyti konkrečius parametrus, pvz., operacijų tipus ir prognozės metodo parametrus. Kairėje puslapio **Poreikio prognozės parametrai** srityje spustelėkite **Prekių paskirstymo raktai**. 
 
-„Supply Chain Management“ naudoja mašininio mokymo žiniatinklio tarnybą prognozei generuoti. Norėdami prisijungti prie tarnybos, turite pateikti toliau nurodytą informaciją, jei prisijungiate prie „Microsoft Azure“ mašininio mokymo studijos.
+„Supply Chain Management“ naudoja mašininio mokymo žiniatinklio tarnybą prognozei generuoti. Norėdami prisijungti prie tarnybos, turite pateikti toliau nurodytą informaciją, jei prisijungiate prie „Microsoft Azure“ mašininio mokymo studijos (klasikinės).
 
 -   Žiniatinklio tarnybos taikomojo programavimo sąsajos (API) raktas
 -   Žiniatinklio tarnybos galinio punkto URL
@@ -71,7 +71,7 @@ Ne visos prekių elgsena prognozuojant poreikį vienoda. Panašias prekes galima
 -   „Azure“ saugyklos abonemento raktas
 
 > [!NOTE]
-> „Azure“ saugyklos abonemento pavadinimas ir raktas yra privalomi tik tada, jei naudojate pasirinktinį saugyklos abonementą. Jei diegiate vietinę versiją, privalote turėti pasirinktinį „Azure“ saugyklos abonementą, kad mašininio mokymo tarnyba galėtų pasiekti retrospektyvinius duomenis. 
+> „Azure“ saugyklos abonemento pavadinimas ir raktas yra privalomi tik tada, jei naudojate pasirinktinį saugyklos abonementą. Jei diegiate vietinę versiją, privalote turėti pasirinktinę „Azure“ saugyklos paskyrą, kad mašininio mokymo tarnyba galėtų pasiekti retrospektyvinius duomenis. 
 
 Norėdami kurti poreikio prognozes, galite įdiegti savo tarnybą naudodami mašininio mokymo studiją arba „Supply Chain Management“ poreikio prognozės bandymus. Poreikio prognozės bandymų kaip tinklo tarnybos diegimo instrukcijos pateikiamos „Supply Chain Management“. Puslapyje **Poreikio prognozės parametrai** spustelėkite skirtuką **„Azure“ mašininis mokymas**.
 

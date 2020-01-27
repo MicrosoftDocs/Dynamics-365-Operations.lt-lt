@@ -46,7 +46,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/cloud-prem-comparison.md?toc=/dynamics365/retail/toc.json
                 - name: Visuotinis debesies diegimas
                   href: ../fin-ops-core/dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/retail/toc.json
-                - name: Visuotiniams debesies diegimams taikomi sistemos reikalavimai
+                - name: „Retail” kliento komponentams taikomi sistemos reikalavimai
                   href: get-started/system-requirements.md
                 - name: Vietinis visuotinis diegimas
                   href: ../fin-ops-core/dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/retail/toc.json
@@ -62,20 +62,14 @@
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/retail/toc.json
             - name: Kas nauja ar pasikeitė
               items:
-                - name: 10.0.7 versijos „Retail“ peržiūros funkcijos
+                - name: „Retail” versija 10.0.7
                   href: get-started/whats-new-10-0-7.md
                 - name: „Retail” versija 10.0.6
                   href: get-started/whats-new-10-0-6.md
-                - name: „Retail” versija 10.0.5
-                  href: get-started/whats-new-10-0-5.md
                 - name: Kas nauja ar pasikeitė ankstesnėse versijose
                   items:
                     - name: Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/retail/toc.json
-                    - name: „Finance and Operations“ programos 10.0.5 (2019 m. spalio mėn.)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-5.md?toc=/dynamics365/retail/toc.json
-                    - name: „Finance and Operations” 10.0.4 (2019 m. liepos mėn.)
-                      href: ../fin-ops-core/fin-ops/get-started/whats-new-changed-10-0-4.md?toc=/dynamics365/retail/toc.json
                     - name: 'Finance and Operations, Enterprise edition 7.3'
                       href: ../fin-ops-core/fin-ops/get-started/whats-new-application-7.3-update.md?toc=/dynamics365/retail/toc.json
                 - name: Pašalintos arba nebenaudojamos funkcijos
@@ -788,13 +782,11 @@
               href: ../supply-chain/pim/product-information.md?toc=/dynamics365/retail/toc.json
             - name: Mažmeninės prekybos hierarchijos
               href: retail-hierarchies.md
-            - name: Atributai ir atributų grupės
+            - name: Atributų ir atributų grupių tvarkymas
               href: attribute-attributegroups-lifecycle.md
-            - name: Atributų kūrimas ir valdymas
-              href: create-manage-attributes.md
             - name: Mažmeninės prekybos produktų nustatymas
               href: set-up-retail-products.md
-            - name: Sukurti produktą
+            - name: Produkto kūrimas
               href: ../supply-chain/pim/tasks/create-product.md?toc=/dynamics365/retail/toc.json
             - name: Susietų produktų konfigūravimas
               href: ../supply-chain/pim/tasks/configure-linked-products.md?toc=/dynamics365/retail/toc.json
@@ -1146,7 +1138,9 @@
               items:
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-swe-cash-registers.md
-                - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys
+                - name: Švedijos kontrolės įtaiso integracijos pavyzdys
+                  href: localizations/emea-swe-fi-sample.md
+                - name: „Retail POS“ integravimo su kontrolės įtaisais pavyzdys (senesnis)
                   href: localizations/retail-sdk-control-unit-sample.md
         - name: „Retail“ užduotys
           items:
