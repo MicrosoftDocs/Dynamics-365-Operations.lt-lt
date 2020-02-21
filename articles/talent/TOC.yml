@@ -8,6 +8,12 @@
         - name: Kas nauja ar pasikeitė „Talent”
           href: whats-new.md
           items:
+            - name: "2020\_m. sausio 21\_d."
+              href: whats-new-talent-january-21-2020.md
+            - name: "2020\_m. sausio 14\_d."
+              href: whats-new-talent-january-14-2020.md
+            - name: "2020\_m. sausio 7\_d."
+              href: whats-new-talent-january-7-2020.md
             - name: "2019\_m. gruodžio 17\_d."
               href: whats-new-talent-december-17-2019.md
             - name: "2019\_m. gruodžio 12\_d."
@@ -28,19 +34,19 @@
               href: whats-new-talent-october-8-2019.md
             - name: "2019\_m. spalio 1\_d."
               href: whats-new-talent-october-1-2019.md
-            - name: "2019\_m. rugsėjo 17\_d."
-              href: whats-new-talent-september-17-2019.md
-            - name: "2019\_m. rugsėjo 10\_d."
-              href: whats-new-talent-september-12-2019.md
-            - name: 2019 m. skyriaus „Kas nauja“ archyvai
+            - name: Skyriaus Kas nauja 2019 m. archyvai
               items:
+                - name: "2019\_m. rugsėjo 17\_d."
+                  href: whats-new-talent-september-17-2019.md
+                - name: "2019\_m. rugsėjo 10\_d."
+                  href: whats-new-talent-september-12-2019.md
                 - name: "2019\_m. rugpjūčio 27\_d."
                   href: whats-new-talent-august-28-2019.md
                 - name: "2019\_m. rugpjūčio 22\_d."
                   href: whats-new-talent-august-21-2019.md
-                - name: "2019\_m. rugpjūčio 13\_d."
+                - name: 2019 m. rugpjūčio 13 d.
                   href: whats-new-talent-august-15-2019.md
-                - name: "2019\_m. rugpjūčio 6\_d."
+                - name: 2019 m. rugpjūčio 6 d.
                   href: whats-new-talent-august-7-2019.md
                 - name: "2019\_m. liepos 30\_d."
                   href: whats-new-talent-july-31-2019.md
@@ -136,18 +142,14 @@
           href: talent-updates.md
         - name: „Talent“ parengimas
           href: provisioning-talent.md
-        - name: „Core HR“ egzemplioriaus kopijavimas
-          href: hr-copy-instance.md
-        - name: „Talent“ aplinkų šalinimas
-          href: remove-talent-environment.md
         - name: Funkcijų valdymas
           href: access-preview-feature.md
         - name: „Onboard” parengimas
           href: modular-app-tech-faq.md
-        - name: „Power Apps“ programų įdėjimas
+        - name: Duomenų eksportavimas iš „Attract“ ir „Onboard“
+          href: attract-onboard-export-data.md
+        - name: Įdėtoji „Microsoft Power Apps“
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: „Core HR” objektai „Common Data Service”
-          href: CoreHREntities.md
         - name: Pagalba dėl „Talent“
           href: talent-support.md
     - name: Organizacijos aprūpinimas personalu naudojant „Attract“
@@ -232,266 +234,19 @@
           href: onboard-view-status.md
         - name: Samdos komandos kūrimas
           href: onboard-create-team.md
-    - name: Darbo jėgos valdymas naudojant „Core HR“
-      items:
-        - name: Darbo jėgos organizavimas
-          items:
-            - name: 'Darbo jėgos organizavimas naudojant padalinius, užduotis ir pareigas'
-              href: departments-jobs-positions.md
-            - name: Užduoties komponentų nustatymas
-              href: create-job.md
-            - name: Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
-              href: streamlined-employee-entry.md
-            - name: Padalinių kūrimas ir jų įtraukimas į padalinių hierarchiją
-              href: create-department-add-department-hierarchy.md
-            - name: Personalo parametrų nustatymas visiems juridiniams subjektams
-              href: set-up-hr-parameters-across-legal-entities.md
-            - name: Konkrečios įmonės personalo parametrų nustatymas
-              href: set-up-company-specific-hr-parameters.md
-            - name: Datos ir laiko laukai „Talent“
-              href: date-time-fields-in-talent.md
-            - name: DUK apie personalo veiksmus
-              href: personnel-actions-faq.md
-            - name: Verslo procesų formalizavimas
-              href: formalize-business-processes.md
-            - name: Darbo eigų naudojimas darbuotojų informacijai valdyti
-              href: workflow-manage-employee-information.md
-            - name: Numeracijų nustatymas
-              items:
-                - name: Numeracijų apžvalga
-                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Atskirų numeracijų nustatymas
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Numeracijų nustatymas naudojant vediklį
-                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Organizacijų ir organizacijų hierarchijų konfigūravimas
-              items:
-                - name: Organizacijų apžvalga
-                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Organizacijos hierarchijos planavimas
-                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Organizacijos hierarchijos kūrimas
-                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Juridinio subjekto kūrimas
-                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Valdymo vieneto kūrimas
-                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Visuotinės adresų knygelės nustatymas
-              items:
-                - name: Visuotinės adresų knygelės apžvalga
-                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Visuotinės ir kitų adresų knygelių planavimas
-                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Visuotinės adresų knygelės konfigūravimas
-                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: DUK apie adresų knygeles
-                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Darbo eigų konfigūravimas
-              items:
-                - name: Darbo eigų apžvalga
-                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbo eigos elementai
-                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbo eigos patvirtinimo procesų veiksmai
-                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbo eigų kūrimas
-                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                  items:
-                    - name: Darbo eigos ypatybių konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Neautomatizuotų užduočių konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Automatizuotų užduočių konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Patvirtinimo procesų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Patvirtinimo veiksmų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Neautomatizuotų sprendimų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Sąlyginių sprendimų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Lygiagrečių veiklų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Lygiagrečių šakų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                    - name: Eilutės elemento darbo eigų konfigūravimas
-                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Pranešimo apdorojimo paketinės užduoties konfigūravimas
-                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbo eigos darbo elementų perdavimas
-                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Darbo eigos retrospektyvos peržiūra
-                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Leidimas vartotojams gauti su darbo eiga susijusius el. laiškus
-                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Įspėjimų nustatymas
-              items:
-                - name: Įspėjimų apžvalga
-                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Įspėjimo taisyklių kūrimas
-                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Paketinis įspėjimų apdorojimas
-                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Atvejų valdymas
-              items:
-                - name: Atvejų valdymo apžvalga
-                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: 'Atvejų saugos, procesų ir kategorijų planavimas'
-                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Dokumentų valdymo konfigūravimas
-              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: El. pašto konfigūravimas ir siuntimas
-              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: "Datos\_/ laiko duomenys ir laiko juostos"
-              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Atostogų ir neatvykimų nustatymas
-          items:
-            - name: Atostogų ir neatvykimų valdymas
-              href: leave-absence-overview.md
-            - name: Atostogų ir neatvykimų koncepcijos
-              href: leave-absence-concepts.md
-            - name: Laisvo laiko kaupimas pagal išdirbtas valandas
-              href: leave-accrue-hours-worked.md
-            - name: Darbo laiko kalendoriai
-              href: working-time-calendars.md
-        - name: Kompensacijos planų nustatymas
-          items:
-            - name: Kompensacijos planų apžvalga
-              href: compensation-plans.md
-            - name: Pastoviosios atlyginimo dalies planų kūrimas
-              href: create-fixed-compensation-plans.md
-            - name: Kintamosios atlyginimo dalies planų kūrimas
-              href: create-variable-compensation-plans.md
-            - name: Kompensavimo apdorojimas
-              href: process-compensation.md
-            - name: Užduoties komponentų nustatymas
-              href: create-job.md
-        - name: Darbuotojų tobulinimas ir mokymas
-          items:
-            - name: Našumo valdymas
-              href: performance-management-overview.md
-            - name: Darbo jėgos įgūdžių ir verslo poreikių suderinimas
-              href: skills.md
-            - name: Mokymo kursų rengimas
-              href: courses.md
-            - name: Įtraukimas į našumo žurnalą ir tam tikro asmens pagyrimo siuntimas
-              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Tikslo kūrimas
-              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Našumo apžvalgos kūrimas
-              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Išmokų programos nustatymas ir valdymas
-          items:
-            - name: Išmokų programos nustatymas ir valdymas
-              href: manage-benefit-program.md
-            - name: Teisės į išmoką strategijos
-              href: benefit-eligibility-policies.md
-            - name: Ataskaitų pagal įstatymą dėl prieinamos sveikatos priežiūros (ACA) generavimas
-              href: generate-aca-reports.md
-            - name: Darbininkams paskolintų prekių valdymas
-              href: loan-items.md
-        - name: Pagrindinės metrikos įvertinimas naudojant klausimynus
-          items:
-            - name: Informacijos rinkimas naudojant klausimynus
-              href: questionnaires.md
-            - name: Klausimynų sudarymas
-              href: design-questionnaires.md
-            - name: Klausimynų platinimas ir planavimas
-              href: distribute-questionnaires.md
-            - name: Klausimynų rezultatų peržiūra ir įvertinimas
-              href: evaluate-questionnaire-results.md
-        - name: Darbo vietos sauga ir atitiktis (Jungtinės Valstijos)
-          items:
-            - name: Atsakymas į užklausą dėl asmens duomenų sprendime „Talent“
-              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: 'Forma I-9, tinkamumo dirbti patikrinimas'
-              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: ADA laikymasis
-              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Integravimas
-      items:
-        - name: Duomenų integravimo į „Dynamics 365 for Talent“ instrukcijos
-          href: data-integration.md
-        - name: Konfigūruoti „Common Data Service“ integravimą
-          href: hr-common-data-service-integration.md
-        - name: Integravimas su „Dynamics 365 for Finance and Operations“
-          href: talent-financeandoperations-integration.md
-        - name: Algalapių integravimo tarp „Talent“ ir „Dayforce“ konfigūravimas
-          href: configure-payroll-integration.md
-        - name: Su integravimu susiję DUK
-          href: talent-fo-integration.md
-        - name: Pasikartojantis duomenų eksportavimas naudojant „Azure Logic Apps”
-          href: tutorial-integration-recurring-export.md
-        - name: „Office“ integravimas
-          items:
-            - name: „Office“ integravimo mokomoji programa
-              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Objekto duomenų naujinimas programoje „Excel“
-              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: Atidarymo programoje „Excel“ patirčių kūrimas
-              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
-            - name: „Office“ integravimo trikčių diagnostika
-              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
     - name: Išplečiamumas
       items:
-        - name: Įdėtoji „Power BI“ darbo srityse
-          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: „Talent“ išplėtimas su „Power Apps“ ir „Power Automate“
-          href: extensibility-examples.md
-        - name: Mobilioji programa
-          items:
-            - name: Mobiliosios darbo sritys
-              items:
-                - name: Mobilioji darbo sritis „Įmonės katalogas”
-                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Mobilioji darbo sritis „Mano komanda”
-                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Įdarbinimo duomenų pakeitimų sekimas
           href: process-auditing.md
         - name: „Attract“ išplečiamumas
           href: extensibility-attract.md
-        - name: Pasirinktiniai „Core HR“ laukai
-          href: corehr-custom-fields.md
-        - name: Objekto API nuoroda
-          items:
-            - name: Autentifikavimas
-              href: api-odata-authentication.md
-            - name: Objektai
-              items:
-                - name: MyLeaveRequests
-                  items:
-                    - name: MyLeaveRequests apžvalga
-                      href: api-myleaverequests-overview.md
-                    - name: Prašymo išeiti atostogų pateikimas darbo eigai
-                      href: api-myleaverequests-submit.md
-    - name: „Talent“ trikčių diagnostika
+        - name: „Talent“ išplėtimas su „Power Apps“ ir „Power Automate“
+          href: extensibility-examples.md
+    - name: „Attract“ ir „Onboard“ trikčių šalinimas
       items:
-        - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
-          href: talent-batch-history-cleanup.md
         - name: Darbo skelbimų publikavimo „LinkedIn“ trikčių šalinimas
           href: attract-troubleshoot-linkedin.md
-        - name: Neatnaujinamos analizės ataskaitos
-          href: analytic-reports-not-updated.md
-        - name: Nepavyksta sukurti aplinkos „PowerApps“ administravimo centre
-          href: create-envi-powerapps-admin-ctr.md
-        - name: Atsijungia „Talent“ klientas
-          href: client-disconnects.md
-        - name: Kaip išvengti pareigų hierarchijos teksto trumpinimo ir ją eksportuoti į „Visio“
-          href: avoid-text-truncation-position-hierarchy-visio.md
-        - name: Kompensavimo proceso vykdymas
-          href: run-compensation-process.md
-        - name: Užduočių vedlių įrašymas į LCS ir pakartotinis leidimas
-          href: save-play-task-guides-LCS.md
-        - name: Prieiga prie privačių adresų pagal saugos vaidmenį
-          href: security-roles-addresses.md
-        - name: „Talent“ nerodoma tarp „Microsoft Dynamics 365“ programų („Common Data Service 1.0“)
-          href: talent-not-in-home-CDS.md
-        - name: 'Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“'
+        - name: 'Vartotojas gali pasiekti „Human Resources“, bet ne programas „Onboard“ ar „Attract“'
           href: user-access-core-hr.md
-        - name: Ataskaitų parinktys sprendime „Talent“
-          href: talent-reporting-options.md
-        - name: Su integravimu susiję DUK
-          href: talent-FO-integration.md
         - name: „Azure Active Directory“ vartotojų žmonių parinkiklyje nerasta
           href: people-picker-user-not-found.md
