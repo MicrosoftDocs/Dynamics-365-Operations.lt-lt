@@ -1,0 +1,7 @@
+## <a name="sizes-to-msdyn_productsizes"></a><span data-ttu-id="24e96-101">Dydžiai su msdyn_productsizes</span><span class="sxs-lookup"><span data-stu-id="24e96-101">Sizes to msdyn_productsizes</span></span>
+
+<span data-ttu-id="24e96-102">Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operations“ programų ir „Common Data Service“.</span><span class="sxs-lookup"><span data-stu-id="24e96-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="24e96-103">„Finance and Operations“ laukas</span><span class="sxs-lookup"><span data-stu-id="24e96-103">Finance and Operations field</span></span> | <span data-ttu-id="24e96-104">Schemos tipas</span><span class="sxs-lookup"><span data-stu-id="24e96-104">Map type</span></span> | <span data-ttu-id="24e96-105">Kitas „Dynamics 365” laukas</span><span class="sxs-lookup"><span data-stu-id="24e96-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="24e96-106">Numatytoji reikšmė</span><span class="sxs-lookup"><span data-stu-id="24e96-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="24e96-107">SIZEID</span><span class="sxs-lookup"><span data-stu-id="24e96-107">SIZEID</span></span> | >> | <span data-ttu-id="24e96-108">msdyn_productsize</span><span class="sxs-lookup"><span data-stu-id="24e96-108">msdyn_productsize</span></span> | 

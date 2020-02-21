@@ -1,0 +1,2 @@
+> [!NOTE]
+> <span data-ttu-id="9ec30-101">Šis straipsnis taikomas tiek „Dynamics 365 Human Resources“, tiek darbo sričiai **„Human resources“** „Dynamics 365 Finance“.</span><span class="sxs-lookup"><span data-stu-id="9ec30-101">This article applies to both Dynamics 365 Human Resources and the **Human resources** workspace in Dynamics 365 Finance.</span></span>

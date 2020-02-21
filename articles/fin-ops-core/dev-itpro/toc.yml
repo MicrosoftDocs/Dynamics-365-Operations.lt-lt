@@ -2,44 +2,56 @@
   items:
     - name: „Finance and Operations“ programų kūrimas ir administravimas
       items:
-        - name: „Finance and Operations“ programos dokumentacija
+        - name: „Finance and Operations“ programų dokumentacija
           href: ../fin-ops/index.md
         - name: „Finance and Operations“ programų kūrimas ir administravimas
           href: index.md
         - name: Kas nauja ar pasikeitė
           items:
-            - name: "Peržiūros funkcijos „Platform update 32“ (2020\_m. vasario mėn.)"
-              href: get-started/whats-new-platform-update-32.md
-            - name: "„Platform Update 31“ (2020\_m. sausio mėn.)"
-              href: get-started/whats-new-platform-update-31.md
-            - name: "„Platform Update 30“ (2019\_m. lapkričio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-30.md
-            - name: "„Platform Update 29” (2019\_m. spalio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-29.md
-            - name: "„Platform Update 28” (2019\_m. liepos mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-28.md
-            - name: "„Platform Update 27” (2019\_m. birželio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-27.md
-            - name: "„Platform Update 26“ (2019\_m. gegužės mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-26.md
-            - name: "„Platform Update 25” (2019\_m. balandžio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-25.md
-            - name: "„Platform Update 24“ (2019\_m. kovo mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-24.md
-            - name: "„Platform Update 23“ (2019\_m. sausio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-23.md
-            - name: "„Platform Update 22“ (2018\_m. gruodžio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-22.md
-            - name: "„Platform Update 21“ (2018\_m. lapkričio mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-21.md
-            - name: "„Platform Update 20“ (2018\_m. rugsėjo mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-20.md
-            - name: "„Platform Update 15“ (2018\_m. kovo mėn.)"
-              href: ../fin-ops/get-started/whats-new-platform-update-15.md
-            - name: Kas nauja ar pasikeitė ankstesnėse versijose
+            - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
+              href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Kas nauja ar pasikeitė „Platform“ naujinimuose
               items:
-                - name: Kas nauja ar pasikeitė „Finance and Operations“ pagrindiniame puslapyje
-                  href: ../fin-ops/get-started/whats-new-changed.md
+                - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
+                  href: get-started/whats-new-home-page.md
+                - name: "„Platform Update 33” (2020\_m. balandžio mėn.)"
+                  href: get-started/whats-new-platform-update-33.md
+                - name: "„Platform Update 32” (2020\_m. vasaris)"
+                  href: get-started/whats-new-platform-update-32.md
+                - name: "„Platform Update 31“ (2020\_m. sausio mėn.)"
+                  href: get-started/whats-new-platform-update-31.md
+                - name: "„Platform Update 30“ (2019\_m. lapkričio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
+                - name: "„Platform Update 29” (2019\_m. spalio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
+                - name: "„Platform Update 28” (2019\_m. liepos mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
+                - name: "„Platform Update 27” (2019\_m. birželio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
+                - name: "„Platform Update 26“ (2019\_m. gegužės mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
+                - name: "„Platform Update 25” (2019\_m. balandžio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-25.md
+                - name: "„Platform Update 24“ (2019\_m. kovo mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
+                - name: "„Platform Update 23“ (2019\_m. sausio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
+                - name: "„Platform Update 22“ (2018\_m. gruodžio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
+                - name: "„Platform Update 21“ (2018\_m. lapkričio mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
+                - name: "„Platform Update 20“ (2018\_m. rugsėjo mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
+                - name: "„Platform Update 15“ (2018\_m. kovo mėn.)"
+                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
+            - name: Pašalintos arba nebenaudojamos funkcijos
+              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Atidėtos AX 2012 funkcijos
+              href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: Vietinėse įdiegtyse neįdiegtos funkcijos
+              href: ../fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+            - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
+              href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
         - name: Verslo įvykiai
           items:
             - name: Verslo įvykių apžvalga
@@ -133,35 +145,35 @@
                     - name: 'Sinchroninis, dvikryptis integravimas'
                       items:
                         - name: Beveik realiuoju laiku vykstantis duomenų integravimas
-                          href: data-entities/dual-write-overview.md
+                          href: data-entities/dual-write/dual-write-overview.md
                         - name: Organizacijos hierarchija „Common Data Service“
-                          href: data-entities/dual-write-organization.md
+                          href: data-entities/dual-write/organization-mapping.md
                         - name: Įmonės integravimas
                           items:
-                            - name: Įmonės koncepcija „Common Data Service“
-                              href: data-entities/dual-write-company.md
+                            - name: Įmonės koncepcija „Common Data Services“
+                              href: data-entities/dual-write/company-data.md
                             - name: Perkrovimas naudojant įmonės duomenis
-                              href: data-entities/dual-write-bootstrap.md
+                              href: data-entities/dual-write/bootstrap-company-data.md
                         - name: Bendrieji integruoto kliento duomenys
-                          href: data-entities/dual-write-customer.md
+                          href: data-entities/dual-write/customer-mapping.md
                         - name: Integruota didžioji knyga
-                          href: data-entities/dual-write-ledger.md
+                          href: data-entities/dual-write/ledger-mapping.md
                         - name: Bendrosios produkto funkcijos
-                          href: data-entities/dual-write-product.md
+                          href: data-entities/dual-write/product-mapping.md
                         - name: Tiekėjo integravimas
                           items:
                             - name: Bendrieji integruoto tiekėjo duomenys
-                              href: data-entities/dual-write-vendor.md
+                              href: data-entities/dual-write/vendor-mapping.md
                             - name: Perjungti iš vieno tiekėjo dizaino į kitą
-                              href: data-entities/dual-write-vendor-switch.md
+                              href: data-entities/dual-write/vendor-switch.md
                         - name: Integruotos svetainės ir sandėliai
-                          href: data-entities/dual-write-sites-and-warehouses.md
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
                         - name: Bendrieji integruotų mokesčių duomenys
-                          href: data-entities/dual-write-tax.md
+                          href: data-entities/dual-write/tax-mapping.md
                         - name: Pradinė sinchronizacija
-                          href: data-entities/dual-write-initial.md
+                          href: data-entities/dual-write/initial-sync.md
                         - name: Duomenų integravimo trikčių diagnostika
-                          href: data-entities/dual-write-troubleshooting.md
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                     - name: 'Nesinchroninis, vienakryptis integravimas'
                       items:
                         - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
@@ -170,7 +182,7 @@
                               href: ../../supply-chain/sales-marketing/prospect-to-cash.md
                             - name: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
                               href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais
+                            - name: Tiesioginis produktų sinchronizavimas iš „Finance and Operations“ su produktais „Sales“
                               href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
                             - name: Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais
                               href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
@@ -302,7 +314,7 @@
               href: data-entities/dm-error-descriptions.md
         - name: Duomenų bazių perkėlimo operacijos
           items:
-            - name: Peržiūrėti
+            - name: Apžvalga
               href: database/dbmovement-operations.md
             - name: Greito pasirengimo darbui vadovai
               items:
@@ -328,7 +340,7 @@
                   href: database/dbmovement-scenario-destructivetests.md
             - name: „RESTful API”
               items:
-                - name: Peržiūrėti
+                - name: Apžvalga
                   href: database/api/dbmovement-api-overview.md
                 - name: Versijų kūrimas ir palaikymas
                   href: database/api/dbmovement-api-versioning-support.md
@@ -378,7 +390,7 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                 - name: Baigtas „Azure Resource Manager“ supažindinimas
                   href: deployment/arm-onboarding.md
-                - name: „Azure ExpressRoute“ ir „Finance and Operations”
+                - name: „Azure ExpressRoute“ ir „Finance and Operations“
                   href: deployment/expressroute.md
                 - name: „Finance and Operations“ architektūra
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
@@ -522,7 +534,7 @@
                   href: dev-tools/metadata-search-visual-studio.md
                 - name: Modeliai ir paketai
                   href: dev-tools/models.md
-                - name: Projekto tipas – „Finance and Operations“
+                - name: „Finance and Operations“ projekto tipas
                   href: dev-tools/projects.md
                 - name: 'Įrankių papildiniai, skirti „Visual Studio“'
                   href: dev-tools/developer-tools-add-ins.md
@@ -912,7 +924,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Prieigos prie slaptų duomenų valdymas
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: Atsakymas į užklausas dėl asmens duomenų naudojant „Talent“
+                - name: Atsakymas į užklausas dėl asmens duomenų naudojant „Human Resources“
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Atsakymas į užklausas dėl asmens duomenų AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1258,21 +1270,21 @@
                   href: lcs-solutions/submit-localization-alerts.md
         - name: Pagalba
           items:
-            - name: „Finance and Operations“ ir „Lifecycle Services“ pagalbos gavimas
+            - name: Gauti pagalbos dėl „Finance and Operations“ ir „Lifecycle Services“
               href: lifecycle-services/lcs-support.md
-            - name: „Dynamics 365“ palaikymo apžvalga
+            - name: „Dynamics 365“ pagalbos apžvalga
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
-            - name: '„Finance and Operations“, valdomos „21Vianet“ Kinijoje, pagalbos gavimas'
+            - name: 'Gauti pagalbos dėl „Finance and Operations, valdomos „21Vianet“ Kinijoje'
               href: lifecycle-services/21vianet-support.md
             - name: Užklausų teikimas „Dynamics“ paslaugų inžinierių komandai
               href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-            - name: „Finance and Operations“ techninio palaikymo nustatymas
+            - name: 'Nustatyti techninę pagalbą, skirtą „Finance and Operations“'
               href: lifecycle-services/support-experience.md
             - name: DUK apie suplanuotą priežiūros laiko intervalą
               href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Debesies operacijos ir aptarnavimas
               href: lifecycle-services/cloud-operations-servicing.md
-            - name: „Finance and Operations“ palaikymo patirčių valdymas
+            - name: Tvarkyti „Finance and Operations“ palaikymo funkcijas
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Sistemos administravimas
           items:
@@ -1390,7 +1402,7 @@
                       href: migration-upgrade/upgrade-budget-planning.md
             - name: Duomenų perkėlimas iš AX 2009
               items:
-                - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations”
+                - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations“
                   href: migration-upgrade/data-migration-tool.md
                 - name: AX 2009 perkėlimas – duomenų perkėlimo įrankio diegimas
                   href: migration-upgrade/install-dmt.md
@@ -1672,5 +1684,7 @@
       href: ../../supply-chain/index.md
     - name: „Dynamics 365 Finance“
       href: ../../finance/index.md
+    - name: „Dynamics 365 Commerce“
+      href: ../../commerce/index.md
     - name: „Dynamics 365 Retail“
-      href: ../../retail/index.md
+      href: ../../commerce/index.md

@@ -1,0 +1,8 @@
+## <a name="all-products-to-msdyn_globalproducts"></a><span data-ttu-id="1e091-101">Visi produktai su msdyn_globalproducts</span><span class="sxs-lookup"><span data-stu-id="1e091-101">All products to msdyn_globalproducts</span></span>
+
+<span data-ttu-id="1e091-102">Naudojant šį šabloną sinchronizuojami duomenys tarp „Finance and Operations“ programų ir „Common Data Service“.</span><span class="sxs-lookup"><span data-stu-id="1e091-102">This template synchronizes data between Finance and Operations apps and Common Data Service.</span></span>
+
+<span data-ttu-id="1e091-103">„Finance and Operations“ laukas</span><span class="sxs-lookup"><span data-stu-id="1e091-103">Finance and Operations field</span></span> | <span data-ttu-id="1e091-104">Schemos tipas</span><span class="sxs-lookup"><span data-stu-id="1e091-104">Map type</span></span> | <span data-ttu-id="1e091-105">Kitas „Dynamics 365” laukas</span><span class="sxs-lookup"><span data-stu-id="1e091-105">Other Dynamics 365 field</span></span> | <span data-ttu-id="1e091-106">Numatytoji reikšmė</span><span class="sxs-lookup"><span data-stu-id="1e091-106">Default value</span></span>
+---|---|---|---
+<span data-ttu-id="1e091-107">PRODUCTNAME</span><span class="sxs-lookup"><span data-stu-id="1e091-107">PRODUCTNAME</span></span> | >> | <span data-ttu-id="1e091-108">msdyn_productname</span><span class="sxs-lookup"><span data-stu-id="1e091-108">msdyn_productname</span></span> | 
+<span data-ttu-id="1e091-109">PRODUCTNUMBER</span><span class="sxs-lookup"><span data-stu-id="1e091-109">PRODUCTNUMBER</span></span> | >> | <span data-ttu-id="1e091-110">msdyn_productnumber</span><span class="sxs-lookup"><span data-stu-id="1e091-110">msdyn_productnumber</span></span> | 
