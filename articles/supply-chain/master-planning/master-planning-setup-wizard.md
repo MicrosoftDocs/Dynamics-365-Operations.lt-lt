@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 8fbccce6e23c9bc965f66f761f4c1cab32224ef1
-ms.sourcegitcommit: fbd6d027ef3b50c056260e30e78066839efa3ddb
+ms.openlocfilehash: 9d7da31f2df31c7e5cbac73b3232233090ac369e
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "2635131"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3031072"
 ---
 # <a name="master-planning-setup-wizard"></a>Bendrojo planavimo nustatymo vedlys
 
@@ -32,9 +32,9 @@ ms.locfileid: "2635131"
 
 Šioje temoje pateikiamas **Bendrojo planavimo nustatymo vedlio**vadovas. Jame paaiškinta, kaip apskaičiuojami parametrų pasiūlymai, taip pat pateikiami pavyzdžiai, parodantys, kaip skirtingos įmonės nustato bendrąjį planavimą pagal savo verslo poreikius.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YnSB]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YnSB]
 
-[Bendrojo planavimo sąrankos vedlys sistemoje „Dynamics 365 Supply Chain Management“](https://youtu.be/c-e6n-8rZb4) vaizdo įrašas (pateiktas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galima rasti „YouTube“.
+[Bendrojo planavimo nustatymo vedlys, esantis „Dynamics 365 Supply Chain Management“](https://youtu.be/c-e6n-8rZb4) vaizdo įraše (pateiktas aukščiau), įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kuris prieinamas „YouTube“.
 
 
 ## <a name="specific-requirements-of-your-company"></a>Konkretūs jūsų įmonės reikalavimai
@@ -184,7 +184,7 @@ Vedlyje „Contoso Manufacturer“ įvedamos šios reikšmės:
 „Contoso Retailer“ yra platinimo įmonė, veikianti mados pramonės srityje. Ji naudoja bendrąjį planavimą, kad apskaičiuotų, kada turėtų būti pateikiami pirkimo užsakymai, atsižvelgiant į prognozuojamus pardavimus. Štai keletas įmonės ypatybių:
 
 - „Contoso Retailer“ pardavimams prognozuoti naudoja poreikio prognozę. Pirkimo užsakymai bus planuojami atsižvelgiant į prognozę.
-- Mažmeninės prekybos parduotuvės naudoja paraiškas papildymui.
+- Parduotuvės papildymui naudoja rekvizitus.
 - Visų elementų vykdymo laikas iš pagrindinio sandėlio į kiekvieną parduotuvę yra maždaug dvi savaitės.
 
 Vedlyje „Contoso Retailer“ įvedamos šios reikšmės:
@@ -208,4 +208,4 @@ Vedlyje „Contoso Retailer“ įvedamos šios reikšmės:
     - **Klausimas:** „Ar norite įtraukti poreikį iš patvirtintų paraiškų, kad būtų papildytos mažmeninės prekybos parduotuvės?“
     - **Atsakymas:** „Taip, kaip apibrėžta šiame bendrajame plane.“ Įdedama **1 diena**.
 
-    „Contoso“ naudoja patvirtintas paraiškas iš savo mažmeninės prekybos parduotuvių, kad sukurtų suplanuotus pirkimo užsakymus, skirtus papildyti tas parduotuves. Bendrasis planavimas vykdomas kiekvieną dieną, todėl paraiškos iš paskutinės dienos bus įtrauktos į planavimą.
+    „Contoso“ naudoja patvirtintas savo parduotuvių paraiškas, kad sukurtų planuojamus pirkimo užsakymus ir papildytų tas parduotuves. Bendrasis planavimas vykdomas kiekvieną dieną, todėl paraiškos iš paskutinės dienos bus įtrauktos į planavimą.

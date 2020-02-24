@@ -1,9 +1,9 @@
 ---
 title: Turinio įtraukimo būdai
-description: Šioje temoje pateikiama informacijos apie tai, kaip savo „Microsoft Dynamics 365 Commerce“ svetainėje įtraukti ir valdyti turinį.
+description: Šioje temoje pateikiama apžvalga ir parenkami saitai, kur ir kaip pradėti tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,43 +17,40 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2232dc7cdd24416b0df0919b96cd5d1f8113299f
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 916e28c2628613332246d19af0fae81f258404b0
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914659"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025740"
 ---
 # <a name="ways-to-add-content"></a>Turinio įtraukimo būdai
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacijos apie tai, kaip savo „Microsoft Dynamics 365 Commerce“ svetainėje įtraukti ir valdyti turinį.
+Šioje temoje pateikiama apžvalga ir saitai į dokumentus apie tai, kaip tvarkyti turinį, naudojant „Microsoft Dynamics 365 Commerce“ svetainės generatoriaus žiniatinklio kūrimo įrankių rinkinį.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Yra daug būdų, kaip pakeisti svetainės išvaizdą, pojūtį ir turinį. Daug šių pakeitimų gali atlikti ne programuotojai – tai priklauso nuo reikiamo tinkinimo lygio. Pavyzdžiui, nereikia rašyti kodo norint kurti šablonus, pasirinkti temas ir pasirinkti bei konfigūruoti modulius. Priešingai, norint sukurti naują temą arba modulį, reikia naudoti programavimo įgūdžius, nes būtina naudoti el. prekybos programinės įrangos kūrimo rinkinį (SDK) ir „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo darbo eigą.
+Yra daug būdų, kaip pakeisti svetainės išvaizdą, pojūtį ir turinį. Atsižvelgiant į reikiamą tinkinimo lygį, daugelį šių pakeitimų gali įdiegti ne kūrėjai svetainės generatoriuje, žiniatinklio kūrimo įrankių rinkinyje, įtrauktame į „Dynamics 365 Commerce“. Svetainės generatorius leidžia kurti šablonus, pasirinkti temas ir pasirinkti ir generuoti modulius nerašant kodų. Priešingai, norint sukurti naują temą arba modulį, reikia naudoti programavimo įgūdžius, nes būtina naudoti el. prekybos programinės įrangos kūrimo rinkinį (SDK) ir „Microsoft Dynamics Lifecycle Services“ (LCS) diegimo darbo eigą.
 
-Tolesnėse temose pateikiama išsamios informacijos apie tai, kaip įtraukti ir valdyti svetainės turinį. Jose dėmesys skiriamas toms svetainės sritims, kurioms nereikia programuotojo. Pagal poreikį jose nurodomos užduotys, kurioms atlikti reikia dirbti naudojant SDK.
+Šios temos yra geras atspirties taškas pradėti suprasti, kaip įtraukti ir tvarkyti svetainės turinį. Daugumoje temų dėmesys skiriamas toms svetainės sritims, kurioms nereikia programuotojo. Kai kuriose aprašomi turinio redagavimo pagrindai, kitos skirtos svetainės administratorių užduotims. Kiekvienoje iš šių temų bus nurodomos konkrečios užduotys, kurioms gali reikėti SDK darbo. Kiekvienoje temoje laikoma, kad jau sukonfigūravote svetainę ir turite prieigą prie svetainės generatoriaus įrankių rinkinio.
 
+Pasirinkite vieną iš šių temų, kad pradėtumėte.
+
+- Norėdami susipažinti su turinio valdymo terminologija, naudojama svetainės generatoriuje ir šiuose dokumentuose, žr. [Puslapio modelio žodynėlis](page-elements-overview.md).
+- Norėdami suprasti, kaip veikia moduliai turinio valdymo darbo eigoje, žr. [Darbas su modeliais](work-with-modules.md).
 - Norėdami esamame svetainės puslapyje pakeisti tekstą, vaizdus ar vaizdo įrašą, žr. [Darbas su moduliais](work-with-modules.md).
-- Norėdami užtikrinti suprantamą nuo prekės ženklo nenutolusią kūrimo patirtį žiniatinklio turinio autoriams, žr. [Darbas su šablonais](work-with-templates.md).
+- Norėdami pamatyti, kaip fragmentai padeda efektyviau ir lanksčiau valdyti turinį, žr. [Darbas su fragmentais](work-with-fragments.md).
+- Norėdami užtikrinti sėkmingą žiniatinklio turinio autorių prekių ženklų kūrimo patirtį, žr. [Šablonų ir maketų apžvalga](templates-layouts-overview.md) ir [Darbas su šablonais](work-with-templates.md).
 - Norėdami pertvarkyti svetainės puslapio skyrius, žr. [Darbas su maketais](work-with-layouts.md).
-- Norėdami pakeisti svetainės puslapių šriftus, spalvas ir bendrą išvaizdą, žr. [Svetainės temos pasirinkimas](select-site-theme.md).
+- Norėdami pakeisti svetainės puslapių šriftus, spalvas ir bendrą išvaizdą, žr. [Svetainės temos pasirinkimas](select-site-theme.md) arba [Darbas su CSS perrašymo failais](css-override-files.md).
+- Norėdami pertvarkyti arba pridėti naujų naršymo parinkčių, žr. [Svetainės naršymo tinkinimas](customize-site-navigation.md).
+- Norėdami sužinoti, kaip organizuoti, peržiūrėti ir publikuoti didelį kiekį lygiagrečių žiniatinklio turinio keitimų, žr. [Darbas su publikavimo grupėmis](publish-groups.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Puslapio modelio žodynas](page-elements-overview.md)
+[Turinio kūrimo puslapio apžvalga](authoring-home-overview.md)
 
 [Dokumentų būsenos ir vykdymo ciklas](document-states-overview.md)
-
-[Darbas su publikavimo grupėmis](publish-groups.md)
-
-[Darbas su moduliais](work-with-modules.md)
-
-[Darbas su fragmentais](work-with-fragments.md)
-
-[Šablonų ir maketų apžvalga](templates-layouts-overview.md)
-
-[Svetainės naršymo tinkinimas](customize-site-navigation.md)

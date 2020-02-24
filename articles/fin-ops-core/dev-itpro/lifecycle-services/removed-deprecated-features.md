@@ -1,9 +1,9 @@
 ---
 title: Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
-author: sericks007
+author: AngelMarshall
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,15 +12,15 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c792d06e9b0aa42919de924bdcc9118358779b72
-ms.sourcegitcommit: 75bbcff474cfb8d2f282be2b9d2d7984d1505fa3
+ms.openlocfilehash: 96ecd040ef8661765c0a3861d8e07fee3c241161
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2885460"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027985"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
 
@@ -53,7 +53,7 @@ ms.locfileid: "2885460"
 </tr>
 <tr>
 <td><strong>Būsena</strong></td>
-<td>Nebenaudojama: BPM struktūrinių diagramos komponentą numatoma pašalinti 2020 m. vasario pradžioje. Bus pašalintos toliau pateikiamos funkcijos.
+<td>Nebenaudojama: tikimasi, kad BPM struktūrinės schemos diagramų komponentas bus pašalintas 2020 m. Bus pašalintos toliau pateikiamos funkcijos.
 <ul>
 <li>Esamų struktūrinių schemų nebus galima peržiūrėti arba redaguoti. Formos ypatybės, susietos su struktūrinių schemų veikla, taip pat nebus pasiekiamos, nes bus pašalintas visas skirtukas <strong>Struktūrinės schemos</strong>. Šios struktūrinės schemos apima ir numatytąsias struktūrines schemas, kurios yra automatiškai generuojamos, ir pritaikytas struktūrines schemas, modifikuojamas pagal minėtas numatytąsias struktūrines schemas.</li>
 <li>Senstelėjusi tinkamumo / trūkumų analizės funkcija nebus pasiekiama. Todėl trūkumų sąrašas nebus automatiškai sukuriamas ir jo nebus galima eksportuoti.

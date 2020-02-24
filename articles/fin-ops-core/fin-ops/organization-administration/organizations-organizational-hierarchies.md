@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c28c9e8c2573bcd82434f88daa8f9cadc946209
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fc9064f0386fe7c0f4093fc30587be4baa259eb0
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812391"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003684"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Organizacijų ir organizacijos hierarchijų apžvalga
 
@@ -47,7 +47,7 @@ Juridinis subjektas yra organizacija, turinti registruotą ar įteisintą teisin
 
 Valdymo vienetas yra organizacija, kuri yra naudojama ekonominiams ištekliams valdyti ir verslo veiklos procesams skirstyti. Valdymo vienete žmonės turi maksimaliai išnaudoti negausius išteklius, pagerinti procesus ir atsiskaityti už savo našumą.
 
-Valdymo vienetų tipai apima išlaidų centrus, verslo struktūros vienetus, vertės srautus, padalinius ir mažmeninės prekybos kanalus. Tolesnėje lentelėje pateikta daugiau informacijos apie kiekvieną valdymo vieneto tipą.
+Valdymo vienetų tipai apima išlaidų centrus, verslo vienetus, vertės srautus, padalinius ir „Commerce“ kanalus. Tolesnėje lentelėje pateikta daugiau informacijos apie kiekvieną valdymo vieneto tipą.
 
 | Valdymo vienetų tipai | Aprašymas | Paskirtis |
 |---------------------|-------------|---------|
@@ -55,7 +55,7 @@ Valdymo vienetų tipai apima išlaidų centrus, verslo struktūros vienetus, ver
 | Verslo struktūros vienetas       | Pusiau savarankiškas valdymo vienetas, sukurtas strateginiams verslo tikslams pasiekti. | Naudojama finansinėms ataskaitoms, pagrįstoms pramonės šakomis ar produkto eilutėmis, kurias organizacija prižiūri nepriklausomai nuo juridinių subjektų. |
 | Vertės srautas        | Valdymo vienetas, kontroliuojantis vieną ar daugiau gamybos srautų. | Dažniausiai naudojama „lean manufacturing“ siekiant valdyti veiklas ir srautus, būtinus tiekiant klientams produktą ar paslaugą. |
 | Padalinys          | Valdymo vienetas, nurodantis organizacijos, kuri atlieka konkrečią užduotį, pvz., pardavimą ar apskaitą, kategoriją ar funkcinę sritį. | Naudojama informuoti apie funkcines sritis. Padaliniui gali būti priskirta pelno ir nuostolio atsakomybė, be to, jį gali sudaryti išlaidų centrų grupė. |
-| Mažmeninės prekybos kanalas      | Valdymo vienetas, nurodantis plytų ir skiedinio parduotuvę, internetinę parduotuvę ar internetinę prekyvietę. | Naudojama vieno ar kelių juridinių subjektų vienos ar daugiau parduotuvių valdymo ir veikimo kontrolei. |
+| „Commerce“ kanalas      | Valdymo vienetas, nurodantis plytų ir skiedinio parduotuvę, internetinę parduotuvę ar internetinę prekyvietę. | Naudojama vieno ar kelių juridinių subjektų vienos ar daugiau parduotuvių valdymo ir veikimo kontrolei. |
 
 ### <a name="teams"></a>Komandos
 

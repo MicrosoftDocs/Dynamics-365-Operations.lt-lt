@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df158e80bd1c11832376678a631a9e0e162534ad
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: b09efeb6b5d8bd2ea452dbf7a9ddaeec2ab75c92
+ms.sourcegitcommit: 0455a024185f79ecb82df61e6d994bd71dee5c10
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915722"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "2974297"
 ---
 # <a name="FORMAT">FORMAT ER funkcija</a>
 
@@ -96,7 +96,7 @@ Jei ta pati ataskaita apdorojama **„Litware Retail“** klientui 2015 m. gruo
 >[!NOTE]
 > ER formulėse žymoms taikoma tokia sintaksė:
 >
-> - **„Microsoft Dynamics 365 Finance“ programos išteklių žymoms:** **@X**, kai **X** yra žymos ID programos objektų medyje (AOT)
+> - **„Microsoft Dynamics 365 Finance“ programos išteklių žymėms:** **\@X**, kai **X** yra žymės ID programos objektų medyje (AOT)
 > - **ER konfigūracijose esančioms žymėms:** **@"GER_LABEL:X"**, kai **X** yra žymės ID ER konfigūracijoje
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

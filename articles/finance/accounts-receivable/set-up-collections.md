@@ -1,5 +1,5 @@
 ---
-title: Nustatyti Kreditą ir surinkimą
+title: Mokėjimų priežiūros nustatymas
 description: Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas.
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,18 +18,30 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ed075484f79d7ef7d0d4e6d62d037bb3e9cc96f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 58d3e7f66ab5816849d393098d073ea7629e6b7c
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179078"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013168"
 ---
-# <a name="set-up-credit-and-collections"></a>Nustatyti Kreditą ir surinkimą
+# <a name="set-up-collections"></a>Mokėjimų priežiūros nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas.
+Šiame straipsnyje paaiškinama, kaip nustatyti mokėjimų priežiūros funkcijas. Kai naudojatės mokėjimais, turite užbaigti kai kuriuos priežiūros nustatymo veiksmus. Taip pat yra tam tikrų pasirinktinių galimybių, įskaitant klientų telkinius ir mokėjimų priežiūros komandas. 
+
+- Skirstymo pagal terminus laikotarpio apibrėžimai
+- Skirstymo pagal terminus momentinės kopijos
+- Žurnalų pavadinimai
+- Nurašymo operacijų priežasties kodas
+- Mokėjimų priežiūros agentai
+- Nurašymo sąskaita
+- Informacija apie lėšų trūkumą
+- „Outlook“ nuostatos puslapio **Mokėjimai** naudotojams
+- El. pašto adresai
+
+Šie punktai išsamiau aptariami likusioje šios temos dalyje. 
 
 <a name="set-up-aging-period-definitions"></a>Nustatyti skirstymo pagal terminus laikotarpių apibrėžimus
 -------------------------------
@@ -46,12 +58,12 @@ Galite nustatyti klientų telkinius, kurie atitinka klientų grupes. Galite naud
 Jei jūsų organizacijoje keli žmonės užsiima mokėjimų priežiūra, galite nustatyti mokėjimų priežiūros komandą. Komandą galite pasirinkti **Gautinų sumų parametrų** puslapyyje. Jei nesukuriate surinkimo komandos, ji sukuriama automatiškai, kai puslapyje **Surinkimo agentas** nustatote surinkimo agentus.
 
 ## <a name="set-up-a-collections-case-category"></a>Nustatyti mokėjimų priežiūros atvejo kategoriją
-Jei organizuosite surinkimo komandos darbą naudodami atvejus, nustatykite atvejo kategorijos tipą **Surinkimas**. Šios sąrankos reikia tik jei **Surinkimo** puslapyje norite naudoti atvejų funkcijas.
+Norėdami organizuoti mokėjimų priežiūros komandos darbą naudodami atvejus, nustatykite atvejo kategorijos tipą **Mokėjimai**. Šios sąrankos reikia tik jei puslapyje **Mokėjimai** norite naudoti atvejų funkcijas.
 
 ## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Nustatyti žurnalų pavadinimus (atsiskaitymas, nurašymas ir NSF)
 Nustatykite žurnalų pavadinimus, kurie naudojami, kai **Surinkimo** puslapyje apdorojamos operacijos. Šis apdorojimas apima operacijos sudengimą, operacijos nurašymą ir lėšų trūkumo (NSF) mokėjimo apdorojimą.
 
-| Prekės/Paslaugos pavadinimas | Žurnalo tipas     |
+| Aprašymas | Žurnalo tipas     |
 |-------------|------------------|
 | Atsiskaitymas  | Kliento mokėjimas |
 | Nurašymas   | Kasdienis            |
@@ -78,16 +90,19 @@ Atnaujinkite banko sąskaitas, kad jos naudotų tinkamą žurnalą, kai **Surink
 ## <a name="set-up-outlook-settings-for-users-of-the-collections-page"></a>Nustatyti „Outlook“ nuostatas puslapio Surinkimas naudotojams
 Kad darbuotojai galėtų kurti operacijas arba siųsti el. laiškus naudodami puslapį **Surinkimas**, turite patikrinti, ar pasirinktas **„Microsoft Outlook“ sinchronizavimo** konfigūracijos raktas ir ar tie darbuotojai gali naudotis „Outlook“ sinchronizavimo funkcija.
 
-## <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Nustatyti el. pašto adreso parametrus, taikomus mokėjimų priežiūros klientų kontaktams
-Nustatykite kliento kontaktų el. pašto adresus, jei norite siųsti el. laiškus tiems kontaktams iš puslapio **Surinkimas**. Surinkimo kontaktas yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas**. Galite nustatyti klientui skirtą išrašo gavimo adresą, jei išrašų adresas turi skirtis nuo pagrindinio adreso. 
+## <a name="set-up-email-and-addresses"></a>El. pašto adreso ir adresų nustatymas
+Norėdami susisiekti su klientais ir pardavėjais dėl mokėjimų problemų, galite naudoti el. paštą ir siųsti el. laiškus iš puslapio **Mokėjimai**. 
+
+### <a name="set-up-email-and-address-settings-for-collections-customer-contacts"></a>Nustatyti el. pašto adreso parametrus, taikomus mokėjimų priežiūros klientų kontaktams
+Nustatykite kliento kontaktų el. pašto adresus, kad galėtumėte siųsti el. laiškus tiems kontaktams iš puslapio **Mokėjimai**. Surinkimo kontaktas yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas**. Galite nustatyti klientui skirtą išrašo gavimo adresą, jei išrašų adresas turi skirtis nuo pagrindinio adreso. 
 
 Kliento **Kredito ir surinkimo** „FastTab‟, **Surinkimo kontakto** lauke pasirinkite kliento organizacijos asmenį, kuris dirba su jūsų surinkimo agentu. Šis asmuo yra naudojamas kaip numatytasis kontaktas puslapyje **Surinkimas** ir jam ar jai siunčiami el. laiškai. 
 
 > [!NOTE] 
 > Jei kliento surinkimo kontaktas nenurodytas, naudojamas pagrindinis kliento kontaktas. Jie pagrindinis kontaktas nenurodytas, el. laiškai siunčiami pirmu puslapyje **Kontaktai** nurodytu adresu.
 
-## <a name="set-up-email-settings-for-salespeople"></a>Nustatyti el. pašto parametrus, taikomus pardavėjams
-Nustatykite pardavėjų el. pašto adresus, jei norite siųsti el. laiškus pardavėjams iš puslapio **Surinkimas**. Nustatykite kiekvieno pardavimo atstovo el. paštą adresą kiekvienoje pardavimo komisinių grupėje. Pardavimo atstovas, prie kurio pasirinkta parinktis **Kontaktas**, yra numatytasis pardavėjas, kuriam siunčiami el. laiškai. 
+### <a name="set-up-email-settings-for-salespeople"></a>Nustatyti el. pašto parametrus, taikomus pardavėjams
+Nustatykite pardavėjų el. pašto adresus, kad galėtumėte siųsti el. laiškus pardavėjams iš puslapio **Mokėjimai**. Nustatykite kiekvieno pardavimo atstovo el. paštą adresą kiekvienoje pardavimo komisinių grupėje. Pardavimo atstovas, prie kurio pasirinkta parinktis **Kontaktas**, yra numatytasis pardavėjas, kuriam siunčiami el. laiškai. 
 
 Jei pardavimo atstovas nenurodytas, naudojamas pagrindinis kliento organizacijos pardavėjas. Jei pagrindinis pardavėjas nenurodytas, el. laiškai siunčiami pirmam puslapyje nurodytam pardavėjui.
 

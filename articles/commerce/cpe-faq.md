@@ -1,5 +1,5 @@
 ---
-title: DUK apie „Commerce” peržiūros aplinką
+title: „Dynamics 365 Commerce“ peržiūros aplinkos DUK
 description: Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,15 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 53e593931850d6b8b22bb756d5828f742416aa4d
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 061a160380e500ea52afbc35f0a95fe84d971bcf
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906098"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024757"
 ---
-# <a name="commerce-preview-environment-faq"></a>DUK apie „Commerce” peržiūros aplinką
+# <a name="dynamics-365-commerce-preview-environment-faq"></a>„Dynamics 365 Commerce“ peržiūros aplinkos DUK
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
@@ -83,10 +82,10 @@ Jei, bandant pasiekti „Yammer“ grupę, kyla problemų, su „Microsoft“ ga
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Commerce” peržiūros aplinkos apžvalga](cpe-overview.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos apžvalga](cpe-overview.md)
 
-[„Commerce” peržiūros aplinkos parengimas](provisioning-guide.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md)
 
-[„Commerce” peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
 
-[Pasirenkamų „Commerce” peržiūros aplinkos funkcijų konfigūravimas](cpe-optional-features.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md)

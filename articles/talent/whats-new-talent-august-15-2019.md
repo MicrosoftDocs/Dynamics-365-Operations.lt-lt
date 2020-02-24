@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: cfb122cd01fcaae331f61327966916388d70e923
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: cfefc6ea654a3012137a1135db5696da39a19048
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897838"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006014"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-august-13-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. rugpjūčio 13 d.)
 
@@ -52,9 +52,9 @@ Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išp
 
 ## <a name="coming-soon"></a>Jau greitai
 
-### <a name="platform-update-29-for-finance-and-operations"></a>„Finance and Operations“ platformos 29 naujinimas
+### <a name="platform-update-29-for-finance-and-operations"></a>„Finance and Operations” platformos 29 naujinimas
 
-Daugiau informacijos apie 29 platformos naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 Finance and Operations“ platformos 29 naujinime (2019 m. spalio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Daugiau informacijos apie „Finance and Operations” platformos 29 naujinimą žr. [„Dynamics 365 Finance and Operations” platformos 29 naujinimo (2019 m. spalio mėn.) peržiūros funkcijos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 

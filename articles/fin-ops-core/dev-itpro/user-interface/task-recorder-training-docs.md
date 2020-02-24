@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4bb523c2817a220623d8a1b6cc1ac04d7b96283
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812654"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006200"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -32,7 +32,7 @@ ms.locfileid: "2812654"
 Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
 
 > [!IMPORTANT]
-> Galite įrašyti savo užduotis vedlius, skirtus „Dynamics 365 Talent“, tačiau šiuo metu negalėsite jų įrašyti į verslo procesų modeliavimo įrankio (BPM) biblioteką arba jų atidaryti iš srities Žinynas. Galite juos įrašyti vietiniame diske arba tinklo vietoje ir tada atidaryti bei pakartotinai leisti naudodami užduočių įrašymo priemonę. 
+> Galite įrašyti savo užduotis vedlius, skirtus „Dynamics 365 Human Resources“, tačiau šiuo metu negalėsite jų įrašyti į verslo procesų modeliavimo įrankio (BPM) biblioteką arba jų atidaryti iš srities „Žinynas“. Galite juos įrašyti vietiniame diske arba tinklo vietoje ir tada atidaryti bei pakartotinai leisti naudodami užduočių įrašymo priemonę. 
 
 <a name="learn-about-task-recorder"></a>Sužinokite daugiau apie Užduočių įrašytuvą
 -------------------------

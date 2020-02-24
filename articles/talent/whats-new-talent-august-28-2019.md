@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-08-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1d7e5be0d9ba5e372e57f06fec77326561196626
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 1f19049b362070e2573db769bf7070ace0028406
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899248"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005945"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-august-27-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 for Talent” (2019 m. rugpjūčio 27 d.)
 
@@ -79,7 +79,7 @@ Po šio pakeitimo, pareigų **priskyrimo pabaigos data** automatiškai keičiama
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 
-Ši funkcija dabar yra smėlio dėžės ir bandomosios versijos aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbuotojo forma ir naršymas**. Tai įgalina šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
+Ši funkcija dabar yra smėlio dėžės ir bandomosios versijos aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbininko forma ir naršymas**. Tai įgalina šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 
 Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./streamlined-employee-entry.md).
 
@@ -87,4 +87,4 @@ Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./s
 
 ### <a name="platform-update-29"></a>Platformos „update 29“
 
-Daugiau informacijos apie „Platform Update 29“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 29“ (2019 m. spalio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Daugiau informacijos apie „Platform Update 29“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 29“ (2019 m. spalio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).

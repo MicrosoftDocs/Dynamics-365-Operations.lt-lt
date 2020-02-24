@@ -1,9 +1,9 @@
 ---
-title: E. prekybos svetainės kūrimas
-description: Šioje temoje aprašomos užduotys, susijusios su naujos el. prekybos svetainės kūrimu programoje „Dynamics 365 Commerce“.
+title: El. prekybos svetainės kūrimas
+description: Šioje temoje aprašomi veiksmai ir pateikiama informacija, reikalinga kuriant naują El. prekybos svetainę „Dynamics 365 Commerce“ svetainių daryklėje.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,29 +19,31 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 54259d3f5dfd8c8e1ff2caaadfac497cc0e133e0
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945840"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002018"
 ---
-# <a name="create-an-e-commerce-site"></a>E. prekybos svetainės kūrimas
+# <a name="create-an-e-commerce-site"></a>El. prekybos svetainės kūrimas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomos užduotys, susijusios su naujos el. prekybos svetainės kūrimu programoje „Dynamics 365 Commerce“.
+Šioje temoje aprašomi veiksmai ir pateikiama informacija, reikalinga kuriant naują El. prekybos svetainę „Dynamics 365 Commerce“ svetainių daryklėje.
 
-## <a name="overview"></a>Peržiūrėti
+Prieš kurdami savo El. prekybos svetainę, pirma turite sukurti naują svetainę svetainių daryklėje. 
 
-Norėdami pradėti kurti savo el. prekybos svetainę, pirmiausia turite sukurti naują svetainę svetainės kūrimo aplinkoje. Kad galėtumėte kurti naują svetainę, programoje „Dynamics 365 Retail“ reikia sukurti bent vieną internetinę parduotuvę. 
+
+Norėdami pradėti kurti savo el. prekybos svetainę, pirmiausia turite sukurti naują svetainę svetainės kūrimo aplinkoje. Kad galėtumėte kurti naują svetainę, programoje „Commerce“ reikia sukurti bent vieną internetinę parduotuvę. 
+
 
 ## <a name="set-up-your-site"></a>Svetainės nustatymas
 
 Norėdami nustatyti svetainę, atlikite toliau nurodytus veiksmus.
 
-1. Sprendime „Microsoft Lifecycle Services“ (LCS) pasirinkite svetainės kūrimo aplinkos saitą. 
+1. Atidarykite svetainių daryklės aplinką. „Microsoft Lifecycle Services“ (LCS) „Commerce“ aplinkos funkcijų puslapyje pateikiamas saitas į svetainių daryklę.
 1. Svetainės kūrimo aplinkos pagrindiniame puslapyje pasirinkite **Nauja svetainė**.
 1. Dialogo lange **Nauja svetainė** nurodykite tolesnę informaciją.
 

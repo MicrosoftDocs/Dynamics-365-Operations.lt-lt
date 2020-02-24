@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 642cb5c145dec68631eb9ab27d926ba8ab75c59b
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: c2235510c7ef386d66fe3b137f8e791d14706379
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914915"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001834"
 ---
 # <a name="customize-site-navigation"></a>Svetainės naršymo tinkinimas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip sukurti tinkintą interneto naršymo hierarchiją, kad būtų galima tvarkyti savo „Microsoft Dynamics 365 Commerce“ svetainėje naršomas prekes.
@@ -35,11 +35,11 @@ ms.locfileid: "2914915"
 
 Internetinėse vitrinose paprastai klientai gali atrasti ir naršyti produktus, naršydami per produktų kategorijas. Šią galimybę paprastai teikiama skirtukais puslapio viršuje arba naršymo juosta kairėje pusėje. „Dynamics 365 Commerce“ galite kurti ir valdyti savo hierarchinę, kategorijų naršymo ir į įvairias kategorijas įtrauktų produktų, struktūrą.
 
-## <a name="create-a-retail-channel-navigation-hierarchy"></a>Mažmeninės prekybos kanalų naršymo hierarchijos kūrimas
+## <a name="create-a-channel-navigation-hierarchy"></a>Kanalo naršymo hierarchijos kūrimas
 
-Norėdami sukurti mažmeninės prekybos kanalų naršymo hierarchiją, atlikite šiuos veiksmus.
+Norėdami sukurti kanalo naršymo hierarchiją, atlikite tolesnius veiksmus.
 
-1. Eikite į **„Retail“ \> Produktai ir kategorijos \> Kategorijų ir produktų valdymas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Produktai ir kategorijos \> Kategorijų ir produktų valdymas**.
 1. Pasirinkite **Kategorijų hierarchijos** ir pasirinkite **Nauja**.
 1. Pavadinkite hierarchiją.
 
@@ -57,28 +57,28 @@ Pagal numatytuosius parametrus, jūsų nustatytos kategorijos svetainėje bus ro
 
 ## <a name="assign-a-category-hierarchy-type"></a>Kategorijų hierarchijos tipo priskyrimas
 
-1. Eikite į **„Retail“ \> Produktai ir kategorijos \> Kategorijų ir produktų valdymas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Produktai ir kategorijos \> Kategorijų ir produktų valdymas**.
 1. Pasirinkite **Kategorijų hierarchijos**.
 1. Veiksmų srities skirtuko **Kategorijų hierarchija** grupėje **Nustatyti** pasirinkite **Susieti hierarchijos tipą**.
 1. Pasirinkite **Naujas**.
-1. Lauke **Kategorijų hierarchijos tipas** pasirinkite **Mažmeninės prekybos kanalo naršymo hierarchija**.
+1. Lauke **Kategorijų hierarchijos tipas** pasirinkite **Kanalo naršymo hierarchija**.
 1. Lauke **Kategorijų hierarchija** pasirinkite kanalo naršymo hierarchiją, kurią sukūrėte anksčiau.
 
 ## <a name="publish-new-or-updated-navigation-hierarchies"></a>Naujų ar atnaujintų naršymo hierarchijų publikavimas
 
 Norėdami, kad jūsų naršymo hierarchija būtų pasiekiama jūsų internetinėje vitrinoje, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Kanalo sąranka \> Kanalo kategorijų ir produktų atributai**.
+1. Pasirinkite **Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Kanalo kategorijos ir produkto atributai**.
 1. Kairėje esančiame medyje pasirinkite savo internetinę parduotuvę.
 1. Pasirinkite **Publikuoti kanalo naujinimus**.
-1. Eikite į **Mažmeninė prekyba \> Mažmeninės prekybos IT \> Paskirstymo grafikas**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
 1. Sąraše raskite ir pasirinkite **Užduotis 1040**.
 1. Pasirinkite **Vykdyti dabar**.
 1. Pakartokite 5 ir 6 veiksmus, skirtus užduotims 1070 ir 1150.
 
 ## <a name="show-categories-on-your-site"></a>Kategorijų rodymas jūsų svetainėje
 
-Norėdami savo kategorijų hierarchiją rodyti savo internetinėje vitrinoje, turite įtraukti naršymo meniu modulį į atitinkamas šablono ar fragmento vietas. Tada naršymo meniu modulis rodys naršymo hierarchiją, jei savo mažmeninės prekybos naršymo hierarchiją publikavote kanale, su kuriuo yra susieta jūsų svetainė.
+Norėdami savo kategorijų hierarchiją rodyti savo internetinėje vitrinoje, turite įtraukti naršymo meniu modulį į atitinkamas šablono ar fragmento vietas. Tada naršymo meniu modulis rodys naršymo hierarchiją, jei savo naršymo hierarchiją publikavote kanale, su kuriuo yra susieta jūsų svetainė.
 
 > [!NOTE]
 > Naršymo meniu modulis, įtrauktas į parduotuvės darbo pradžios rinkinį, leidžia vartotojams pereiti tik į kategorijas, kurios neturi subkategorijų. Jei jūsų klientai turėtų galėti pereiti į kategorijas, kurios turi subkategorijas, turite tinkinti naršymo meniu modulį.

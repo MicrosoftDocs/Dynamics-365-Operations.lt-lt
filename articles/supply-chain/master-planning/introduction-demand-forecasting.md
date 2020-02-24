@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9280a2580d20d64f6542902aab1dbf55434bf84c
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: ca463d821292a2ad53462a3575f2d5712b9e53cc
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935519"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004047"
 ---
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
@@ -50,7 +50,7 @@ Poreikio prognozėje taikomos trys pagrindinės temos, nurodytos toliau.
 -   **Moduliarumas** – poreikio prognozė yra modulinė ir ją lengva konfigūruoti. Funkciją galite įjungti ir išjungti, pakeitę konfigūracijos raktą pasirinkdami **Prekyba** &gt; **Atsargų prognozė** &gt; **Poreikio prognozė**.
 -   **Pakartotinis „Microsoft“ dėklo naudojimas** – „Microsoft“ pristatė mašininio mokymo platformą 2015 m. vasario mėn. Mašininis mokymas, kuris šiuo metu yra „Microsoft Cortana“ analizės rinkinio dalis, suteikia galimybę greitai ir lengvai kurti prognozavimo analizės bandymus, pvz., poreikio įvertinimo bandymus, naudojant R algoritmus arba „Python“ programavimo kalbas ir paprastą nuvilkimo sąsają.
     -   Galite atsisiųsti poreikio prognozavimo bandymus, keisti juos, kad jie atitiktų jūsų verslo poreikius, publikuoti kaip „Azure“ tinklo tarnybą ir naudoti poreikio prognozėms generuoti. Bandymus galite atsisiųsti, jei kaip įmonės lygio vartotojas įsigijote gamybos planuotojo „Supply Chain Management“ prenumeratą.
-    -   Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi poreikio prognozės bandymai yra automatiškai integruojami su „Supply Chain Management“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl bandymus, atsisiųstus iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/), naudoti nėra taip paprasta, kaip „Finance and Operations“ poreikio prognozės bandymus. Turite modifikuoti bandymų kodą, kad būtų naudojama „Finance and Operations“ taikomojo programavimo sąsaja (API).
+    -   Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi poreikio prognozės bandymai yra automatiškai integruojami su „Supply Chain Management“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) bandymus nėra taip lengva naudoti, kaip „Finance and Operations“ poreikio prognozavimo bandymus. Reikia modifikuoti bandymų kodą, kad jie naudotų „Finance and Operations“ taikomojo programavimo sąsają (angl. API).
     -   Galite sukurti savo bandymus naudodami „Microsoft Azure“ mašininio mokymo studiją (klasikinė), publikuoti juos kaip „Azure“ tarnybas ir naudoti poreikio prognozėms generuoti.
     -   Jei jums nereikia didelio našumo arba jei jums nereikia apdoroti didelio duomenų kiekio, galite naudoti nemokamą mašininio mokymo pakopą. Rekomenduojame visada pradėti nuo šios pakopos, ypač diegimo ir tikrinimo etapų metu. Jei jums reikia didesnio našumo ir papildomos saugyklos, galite naudoti standartinę mašininio mokymo pakopą. Norint naudoti šią pakopą reikalinga „Azure“ prenumerata ir taikomos papildomos išlaidos. Informacijos apie mašininio mokymo kainodarą žr. [Mašininio mokymo įrangos kainodara](https://aka.ms/machine-learning-price-info).
 -   **Prognozės sumažinimas bet kada atsiejimo metu** – poreikio prognozės, pagrįstos šia funkcija, kuri suteikia galimybę prognozuoti priklausomą ir nepriklausomą poreikį bet kada atsiejimo metu.
@@ -69,7 +69,7 @@ Tada „Supply Chain Management“ galima naudoti prognozes, retrospektyvinius d
 „Supply Chain Management“ galite naudoti pagrindinėms prognozėms vizualizuoti ir modifikuoti. Neautomatinius koregavimus reikia įgalioti prieš prognozių planavimą.
 
 ## <a name="limitations"></a>Apribojimai
-Poreikio prognozė yra įrankis, kuris klientams gamybos pramonėje padeda kurti prognozavimo procesus. Jis teikia poreikio prognozės sprendimo pagrindinę funkciją ir yra sukurtas taip, kad jį būtų galima lengvai išplėsti. Poreikio prognozė gali būti ne pats tinkamas pasirinkimas klientams tam tikrose pramonės šakose, pvz., mažmeninėje prekyboje, didmeninėje prekyboje, sandėliavime, transportavime arba kitose profesionalių paslaugų srityse.
+Poreikio prognozė yra įrankis, kuris klientams gamybos pramonėje padeda kurti prognozavimo procesus. Jis teikia poreikio prognozės sprendimo pagrindinę funkciją ir yra sukurtas taip, kad jį būtų galima lengvai išplėsti. Poreiko prognozė gali būti netinkama klientams tokiose pramonės šakose kaip prekyba, didmeninė prekyba, sandėliavimas, transportavimas ar kitose profesionaliose paslaugų teikimo šakose.
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

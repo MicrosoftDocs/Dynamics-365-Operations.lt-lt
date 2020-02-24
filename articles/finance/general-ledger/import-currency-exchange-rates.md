@@ -1,35 +1,37 @@
 ---
-title: Importuoti valiutų kursus
-description: Jei juridinis subjektas gavo SF užsienio valiuta, svarbu užsienio valiutą konvertuoti į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias internete skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą.
+title: Valiutų kursų importavimas
+description: Šioje temoje pateikiama informacija apie reikalavimus, taikomus importuojant užsienio valiutų kursų nuorodas, kurias skelbia valiutų kursų teikėjai.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cdc9373ab22092e1f28bd087519f7476a7f2139a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.search.validFrom: 2020-02-03
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 6684a1ef041d624d6bfe80337c4db0913f0ca066
+ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186514"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3013145"
 ---
-# <a name="import-currency-exchange-rates"></a>Importuoti valiutų kursus
+# <a name="import-currency-exchange-rates"></a>Valiutų kursų importavimas
 
 [!include [banner](../includes/banner.md)]
 
-Jei juridinis subjektas gavo SF užsienio valiuta, svarbu užsienio valiutą konvertuoti į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias internete skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą.
+[!include [banner](../includes/banner.md)]
+
+Jei juridinis subjektas gavo SF užsienio valiuta, užsienio valiuta turi būti konvertuojama į vietos valiutą. Todėl reikalingi naujausi skirtingų valiutų kursai. Šioje temoje pateikiama informacija apie užsienio valiutų kursų nuorodų, kurias skelbia valiutų kursų teikėjai (pvz., Europos centrinis bankas ir Rusijos centrinis bankas), importavimo reikiamus parametrus ir apdorojimą.
 
 Toliau pateikiamuose skyriuose aprašomas informacijos, kuri naudojama nustatant ir apdorojant užsienio valiutų kursų importavimo procesą, srautas.
 
@@ -40,23 +42,19 @@ Prieš importuodami valiutų kursus turite nustatyti informaciją, kurios reikia
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Laukas** | **Aprašas**                                                                                                                                                                                                             |
 | **Pavadinimas**  | Valiutų kursų teikėjo pavadinimas.                                                                                                                                                                                     |
-| **Raktas**   | Teikėjo reikalaujamas unikalus kiekvienos konfigūracijos informacijos dalies identifikatorius. Ši informacija automatiškai įtraukiama ir priskiriama kiekvienam valiutų kursų teikėjui, kurį įtraukiate spustelėdami mygtuką **Įtraukti**. |
-| **Vertė** | Kiekvieno rakto informacija. Ši informacija įtraukiama ir priskiriama kiekvienam valiutų kursų teikėjui, kurį įtraukiate spustelėdami mygtuką **Įtraukti**.                                                                                         |
+| **Raktas**   | Teikėjo reikalaujamas unikalus kiekvienos konfigūracijos informacijos dalies identifikatorius. Ši informacija automatiškai įtraukiama kiekvienam valiutų kursų teikėjui, kurį įtraukiate. |
+| **Value** | Kiekvieno rakto informacija. Ši informacija įtraukiama kiekvienam valiutų kursų teikėjui, kurį įtraukiate.                                                                                         |
 
-## <a name="import-currency-exchange-rates"></a>Importuoti valiutų kursus
-Galite importuoti valiutų kursus iš valiutų kursų teikėjų šaltinio ir juos nustatyti puslapyje **Valiutų kursai**. Naudokite puslapį **Importuoti valiutų kursus**, norėdami importuoti valiutų kursus. Toliau esančioje lentelėje pateikiami laukų, reikalingų importavimo procesui sėkmingai atlikti, aprašai.
+## <a name="import-currency-exchange-rates"></a>Valiutų kursų importavimas
+Galite importuoti valiutų kursus iš valiutų kursų teikėjų šaltinio ir juos pridėti puslapyje **Valiutų kursai**. Naudokite puslapį **Importuoti valiutų kursus**, norėdami importuoti valiutų kursus. Toliau esančioje lentelėje pateikiami laukų, reikalingų importavimo procesui sėkmingai atlikti, aprašai.
 
 |                                        |                                                                                                                                                                                                                                                                                                                                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Laukas**                              | **Aprašas**                                                                                                                                                                                                                                                                                                                                                             |
 | **Valiutos kurso tipas**                 | Valiutos kurso tipas.                                                                                                                                                                                                                                                                                                                                                      |
 | **Valiutų kursų teikėjas**             | Valiutų kursų teikėjas.                                                                                                                                                                                                                                                                                                                                                  |
-| **Importuoti kaip**                       | Pagal šį parametrą nustatoma, ar importuoti šios dienos, ar datų intervalo valiutų kursus. Jei norite naudoti datų intervalą, Įveskite arba pasirinkite pradžios ir pabaigos datas.                                                                                                                                                                                                                |
+| **Importuoti kaip**                       | Pagal šį parametrą nustatoma, ar importuoti šios dienos, ar konkretaus datų intervalo valiutų kursus. Jei norite naudoti datų intervalą, Įveskite arba pasirinkite pradžios ir pabaigos datas.                                                                                                                                                                                                                |
 | **Sukurti būtinas valiutų poras**    | Pagal šį žymės langelį nustatomas automatinis valiutų porų kūrimas, jei importuojamų valiutų porų nėra. Pasirinkus kai kuriuos teikėjus, šios parinkties naudoti negalima.                                                                                                                                                                                               |
 | **Nepaisyti esamų valiutų kursų**   | Pagal šį žymės langelį nustatomas esamo valiutų poros kurso naujinimas, kai tam tikros datos valiutos kursas jau nustatytas. Jei šio žymės langelio nepažymėsite, tam tikrų datų valiutos kursas nebus importuotas, kai nustatytas kitas valiutos kursas.                                                                                       |
 | **Neleisti importuoti nacionalinės šventės metu** | Pagal šį žymės langelį nustatomas datos, kuri yra valstybinė šventė, valiutos kurso importavimas. Pavyzdžiui, jei pažymėsite šį žymės langelį ir kaip valiutų kursų teikėją naudosite Europos centrinį banką, sistema nenaujins valiutos kurso per valstybinę šventę, susijusią su dabartiniu juridiniu subjektu. Pasirinkus kai kuriuos teikėjus, šios parinkties naudoti negalima. |
-
-
-
-
-
+| **Praėjusios dienos kursas** | Šis žymės langelis yra pasiekiamas, jei puslapyje **Funkcijų valdymas** įgalinate funkciją **ECB importavimas esamą arba praėjusią dieną**. Šį žymės langelį gali naudoti tik teikėjas, *Europos centrinis bankas*. Pažymėkite šį žymės langelį, jei norite importuoti valiutos keitimo kursą, kurį Europos Centrinis Bankas paskelbė praėjusią darbo dieną maždaug 16:00 val. Vidurio Europos laiku. Šis žymės langelis yra pažymėtas pagal numatytuosius nustatymus. Išvalykite šį žymės langelį, jei norite importuoti tą pačią darbo dieną publikuotus valiutų kursus.  |

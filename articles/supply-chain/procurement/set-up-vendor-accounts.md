@@ -3,7 +3,7 @@ title: Tiekėjų sąskaitų nustatymas
 description: Šioje temoje aprašoma informacijos, kurią turite nurodyti kurdami naują tiekėjo sąskaitą, tipai.
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5ab1f10f0874df36d1227e39f2d2146e85de41e
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 63843381207fbe6cb72ac1b5533eda754b1ba55b
+ms.sourcegitcommit: 5457cbec3399d8ed9f87c3a9dc586173b5616c11
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249402"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3012450"
 ---
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
@@ -88,7 +88,7 @@ Galite sulaikyti įvairių tipų tiekėjo operacijas. Galimos toliau nurodytos p
 -   **SF** – neleidžiama registruoti sąskaitų faktūrų tiekėjui.
 -   **Visos** – sulaikomos visų tipų tiekėjo operacijos. Šie operacijų tipai apima pirkimo paraiškas, SF ir mokėjimus.
 -   **Mokėjimas** – neleidžiama generuoti mokėjimų tiekėjui.
--   **Paraiška** – galima kurti tik pirkimo paraiškas. Negalima kurti jokių kitų operacijų.
+-   **Paraiška** – negalima sukurti tiekėjo pirkimo paraiškų, o paraiškos eilučių, jau sukurtų prieš tai, kai buvo nustatyta sulaikyti tiekėją, negalima konvertuoti į pirkimo užsakymą. Tiekėjo paraiškos eilutės bus atšauktos, jei jūsų strategija nustatyta taip, kad pirkimo užsakymai būtų kuriami automatiškai.
 -   **Niekada** – tiekėjas niekada nėra sulaikomas dėl neaktyvumo.
 
 Kai sulaikote tiekėją, taip pat galite nurodyti priežastį ir datą, kada sulaikymo būsena pasibaigs. Jei pabaigos datos neįvesite, tiekėjo sulaikymo būsena galios neribotą laiką.

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af8a30e69d9ed143e045950efdcece207f6da14c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697939"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003239"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Gaukite produktų rekomendacijas, naudodami demonstracinius duomenis
 Šiuo dokumentu pateikiama patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
@@ -39,7 +39,7 @@ Pirmos pakopos aplinkose produktų rekomendacijos yra paremtos tik statiniais de
 Klientai turi įdiegti „Dynamics 365 Commerce“ peržiūros demonstracinį plėtinį į atitinkamą aplinką, automatiškai įgalinančiu produktų rekomendacijų demonstracinius duomenis. Tai atlikus automatiškai įgalinami produkto rekomendacijų demonstraciniai duomenys.
 
 ## <a name="default-demo-data"></a>Numatytieji demonstraciniai duomenys
-Kiekviena „Onebox“ tipo aplinka pateikiama su iš anksto įkeltu produktų rekomendacijų demonstracinių duomenų rinkiniu, saugomu kableliais atskirtame faile „reco_demo_data.csv“, esančiame „Retail Server“.
+Kiekvienoje „Onebox“ tipo aplinkoje yra iš anksto įkeltų produktų rekomendacijų rinkinys, skirtas demonstraciniams duomenims, saugomiems kableliu atskirtame „reco_demo_data.csv“ faile, esančiame „Commerce Scale Unit“.
 
 Šie duomenys suskirstyti į šiuos stulpelius.
 

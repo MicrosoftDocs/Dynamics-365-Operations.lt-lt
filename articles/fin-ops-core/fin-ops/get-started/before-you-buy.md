@@ -1,9 +1,9 @@
 ---
 title: Prieš perkant
-description: Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 for Finance and Operations“.
-author: kfend
+description: Nuoseklūs nurodymai, ką daryti norint įsigyti „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“.
+author: ShellyBakke
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -13,85 +13,83 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 3f8017ab23ce77a03469a6a6c82bc22986ec4478
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
+ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812631"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3027729"
 ---
 # <a name="before-you-buy"></a>Prieš perkant
 
 [!include [banner](../includes/banner.md)]
 
-Naujas „Dynamics 365 for Finance and Operations“ vartotojas? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino „Finance and Operations“, ir tiems, kurie jau yra pasirengę įsigyti.
+Kas nauja „Dynamics 365 Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“? Parengėme nuoseklius nurodymus tiems, kurie dar galutinai neįvertino, ir tiems, kurie jau yra pasirengę įsigyti.
 
-## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: bandykite „Finance and Operations“ 30 dienų nemokamai
+## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Pirmas veiksmas: išbandykite „Finance and Operations“ nemokamai 30 dienų
 
-„Dynamics 365 for Finance and Operations“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Į „Finance and Operations“ bandomąją versiją įtraukti darbo pradžios vadovai, kuriuose pateiktos nuoseklios instrukcijos, suteikiančios galimybę peržiūrėti konkrečių scenarijų vykdymą. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Daugiau informacijos ieškokite adresu [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+„Dynamics 365 for Finance“, „Dynamics 365 Supply Chain Management“ arba „Dynamics 365 Commerce“ galite bandyti 30 dienų, paprasčiausiai užregistravę savo el. pašto adresą. Į „Finance and Operations“ programų bandomąją versiją įtraukti darbo pradžios vadovai, kuriuose pateiktos nuoseklios instrukcijos, suteikiančios galimybę peržiūrėti konkrečių scenarijų vykdymą. Naudojant produktą galima peržiūrėti ir vykdyti įvairius scenarijus, bet negalima tinkinti. Demonstraciniai duomenys įtraukti siekiant palengvinti naudojimąsi produktu ir paversti patirtį prasmingesne. Likus 3 dienoms iki bandomosios versijos pabaigos bus išsiųstas priminimo el. laiškas. Daugiau informacijos ieškokite adresu [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Antras veiksmas: diegimo parinkčių pasirinkimas
 
-Dabar „Microsoft Dynamics 365 for Finance and Operations“ galite diegti debesyje arba kaip vietinę versiją. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
+Dabar „Finance and Operations“ programas galite diegti debesyje arba kaip vietinę versiją. Debesies įdiegtys siūlo ERP paslaugą, kurią visiškai valdo „Microsoft“, o vietinės įdiegtys atliekamos vietoje, kliento duomenų centre.
 
 Kaip visuotinio diegimo parinktį pasirinkdami vietinį diegimą, turite atsižvelgti į tolesnius dalykus.
 
-- Reguliaciniai ir atitikties reikalavimai, kurių nėra debesies sertifikatuose
-- Atjungtas verslo procesas esant kintamam interneto ryšiui, kurio reikia norint pasiekti „Microsoft Dynamics Lifecycle Services“ (LC), kad būtų galima valdyti programų gyvavimo ciklą
-- [Vietinėse įdiegtyse neįdiegtos funkcijos](features-not-implemented-on-prem.md)
-- [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+- Reguliaciniai ir atitikties reikalavimai, kurių nėra debesies sertifikatuose.
+- Atjungtas verslo procesas esant kintamam interneto ryšiui, kurio reikia norint pasiekti „Microsoft Dynamics Lifecycle Services“ (LC), kad būtų galima valdyti programų gyvavimo ciklą.
+- [Vietinėse įdiegtyse neįdiegtos funkcijos](features-not-implemented-on-prem.md).
+- [Vietiniams visuotiniams diegimams taikomi sistemos reikalavimai](system-requirements-on-prem.md).
 
 > [!IMPORTANT]
-> Vietinės visuotinės „Microsoft Dynamics 365 for Finance and Operations“ įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Azure“.
+> Vietinės visuotinės įdiegtys nepalaikomos jokioje viešojo debesies infrastruktūroje, įskaitant „Microsoft Azure“.
 
 Norėdami gauti daugiau informacijos, žr. [Visuotinio diegimo parinktys](../../dev-itpro/deployment/choose-deployment-type.md).
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Trečias veiksmas: pirkite ir tvarkykite abonementą
 
-Norėdami naršyti abonemento parinktis, eikite į [Dynamics 365](https://www.microsoft.com/dynamics365/pricing) kainodaros puslapį. Šiame puslapyje pateikta keletas skirtingų planų, siekiant atitikti jūsų organizacijos poreikius.
+Norėdami naršyti abonemento parinktis, eikite į [„Dynamics 365“ kainodara](https://www.microsoft.com/dynamics365/pricing) puslapį. Šiame puslapyje pateikta keletas skirtingų planų, siekiant atitikti jūsų organizacijos poreikius.
 
-Yra daug būdų įsigyti „Dynamics 365 for Finance and Operations“ abonementą
+Yra daug būdų įsigyti abonementą.
 
-- Pirkite iš partnerio ir naudokite bendrąjį licencijavimą (debesies arba vietinei versijai)
-- Pirkite iš debesies sprendimų teikėjo (tik debesies versijai)
-- Pirkite iš partnerio pasirinkę kainą iš „Dynamics“ kainoraščio (tik vietinei versijai)
+- Pirkite iš debesies sprendimų teikėjo (tik debesies versijai).
+- Pirkite iš partnerio ir naudokite bendrąjį licencijavimą (debesies arba vietinei versijai).
+- Pirkite iš partnerio pasirinkę kainą iš „Dynamics“ kainoraščio (tik vietinei versijai).
 
-Yra du būdai įsigyti abonementą vietiniam diegimui
+### <a name="buy-through-a-cloud-solution-provider-cloud-only"></a>Pirkite iš debesies sprendimų teikėjo (tik debesies versijai)
 
-### <a name="buy-through-volume-licensing"></a>Pirkite pasinaudodami bendruoju licencijavimu
+Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis gali glaudžiai bendradarbiauti „Microsoft“ debesies sprendimų teikėjas. Norėdami rasti jūsų poreikius atitinkantį partnerį, naudokitės [„Microsoft“ partnerių centro portalu](https://partnercenter.microsoft.com/partner/home).
+
+### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
+
+Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos rasite [„Finance + Operations (on-premises)“ pirkimas](purchase-on-premises.md).
+
+### <a name="buy-through-volume-licensing-cloud-or-on-premises"></a>Pirkite bendrąjį licencijavimą (debesies arba vietinei versijai)
 
 Jei jūsų organizacijoje yra 250 ar daugiau „Dynamics 365“ vartotojų, jus gali dominti [Bendrojo licencijavimo sutartis](https://www.microsoft.com/Licensing/product-licensing/dynamics365).
 
-Naudojant bendrąjį licencijavimą, „Finance and Operations“ galima pasiekti toliau nurodytais būdais.
+Naudojant bendrąjį licencijavimą, „Finance and Operations“ programos pasiekiamos per:
 
 - „Enterprise“ sutartis
 - „Enterprise“ sutarties prenumerata
 - Užsiregistravus mokymo sprendimams (sudarius sutartį su universitetu ar mokykla)
 - Sudarius „Microsoft“ produktų ir paslaugų sutartį (MPSA)
 
-### <a name="buy-through-a-cloud-solution-provider-cloud-only"></a>Pirkimas iš debesies sprendimų teikėjo (tik debesies versijai)
-
-Siekiant geriau suprasti jūsų įmonės ar organizacijos poreikius, su jumis gali glaudžiai bendradarbiauti „Microsoft“ debesies sprendimų teikėjas. [Norėdami rasti jūsų poreikius atitinkantį partnerį, naudokitės „Microsoft“ partnerių centro portalu](https://partnercenter.microsoft.com/partner/home).
-
-### <a name="buy-through-a-dynamics-partner-on-premises"></a>Pirkimas iš „Dynamics“ partnerio (vietinė versija)
-
-Norėdami įsigyti vietinę „Finance and Operations“ versiją, turite dirbti su partneriu. Daugiau informacijos rasite [„Finance + Operations (on-premises)“ pirkimas](purchase-on-premises.md)
-
 ### <a name="choose-your-support-option"></a>Pasirinkite reikiamos pagalbos parinktį
 
 „Microsoft“ teikia lanksčią, pramonėje pirmaujančią pagalbą, paslaugas ir išteklius, suteikiančias vartotojams galimybę greitai spręsti technines problemas ir maksimaliai padidinti investicijų į „Dynamics 365“ grąžą. Pasirinkite geriausiai jūsų verslo poreikius atitinkantį planą.
 
-Daugiau informacijos:
+Papildomus išteklius žr.:
 
 - [„Dynamics 365“ pagalba](https://www.microsoft.com/dynamics365/support)
 - [„Microsoft Dynamics“ debesies paslaugos pagalbos privalumų greito pasirengimo darbui vadovas](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>Ketvirtas veiksmas: sužinokite apie „FastTrack“ ir suplanuokite diegimą
 
-„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos: [„Microsoft FastTrack“](fasttrack-dynamics-365-overview.md)
+„Microsoft FastTrack for Dynamics 365“ yra sėkmingai veikianti mūsų kliento paslauga, sukurta siekiant padėti pereiti prie „Dynamics 365“ sklandžiai ir patikimai, kad galėtumėte greičiau sukurti verslo vertę. Dalyvaudami „FastTrack“ programoje gausite patarimų dėl geriausios praktikos ir kaip planuoti, kad išvestys būtų sėkmingos. Taip pat sužinosite būdų, kaip įgalinti naujus vartotojus ir išplėsti galimybes dirbant savo tempu. Be to, turėsite prieigą prie „Microsoft“ inžinerijos išteklių, skirtų padėti paversti „Dynamics 365“ patirtį tikra sėkme. Daugiau informacijos žr. [„Microsoft FastTrack“](fasttrack-dynamics-365-overview.md).
 
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Jei naujinate iš „Dynamics AX 2012“ arba pereinate iš „AX 2009“
 

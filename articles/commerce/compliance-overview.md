@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b409b6cd5eb8c1b96ffb9cc1df47ff88019989f9
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2946050"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002271"
 ---
 # <a name="compliance-overview"></a>Atitikties apžvalga
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje apžvelgiamos atitikties rekomendacijos, pateikiamos su „Microsoft Dynamics 365 Commerce“, kad lengviau užtikrintumėte, jog jūsų įmonės svetainės atitinka reikalavimus. Atitiktis yra svarbus veiksnys visoms įmonėms, nes ji įmonių vartotojų bazei padeda pasiekti svetainių turinį. Jei atitinkate reikalavimus, taip pat galite padėti apsaugoti savo įmonę nuo brangių teisinių veiksmų ar didelių baudų.

@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 607458b129c1c8255b6ce1f3b1a38ca40dc9652d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f94799b892f09ed978a63ab7e7bd8a6b332ac22b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181248"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005853"
 ---
 # <a name="benefits-power-bi-content"></a>„Power BI“ turinys Išmokos
 
@@ -33,7 +33,7 @@ ms.locfileid: "2181248"
 „Power BI“ turinys **Išmokos** rodomas darbo srityje **Išmokų valdymas**, jei naudojate vieną iš toliau nurodytų produktų.
 
 - „Microsoft Dynamics 365 Finance“
-- „Microsoft Dynamics 365 Talent“
+- „Microsoft Dynamics 365 Human Resources“
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos ataskaitos
 Į „Power BI“ turinį **Išmokos** įtrauktose ataskaitose yra diagramos ir lentelės, kuriose pateikiama papildoma informacija. Tolesnėje lentelėje aprašomos ataskaitos.

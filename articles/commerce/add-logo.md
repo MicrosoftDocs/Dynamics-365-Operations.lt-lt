@@ -3,7 +3,7 @@ title: Įtraukti logotipą
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ į svetainę įtraukti logotipą.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,16 +19,16 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 23bac9aae6beb59912bbc9e1f2c6958c007550b0
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5fc0673dcdcc8b761089be2c2d201c8488128865
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914628"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025718"
 ---
 # <a name="add-a-logo"></a>Įtraukti logotipą
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ į svetainę įtraukti logotipą.
@@ -43,7 +43,7 @@ Logotipą galite įtraukti tiesiai į šabloną, maketą arba puslapį. Tokiu b�
 
 Kad galėtumėte įtraukti logotipą į visus svetainės puslapius, turite atlikti tolesnes užduotis.
 
-1. Logotipą nusiųskite į skaitmeninių išteklių tvarkytuvą, kurį galite pasiekti puslapyje **Ištekliai**.
+1. Įkelkite savo logotipą į medijos biblioteką.
 1. Sukurkite antraštės fragmentą. Daugiau informacijos apie tai, kaip kurti ir naudoti fragmentus, rasite temoje [Darbas su fragmentais](work-with-fragments.md).
 1. Antraštės fragmentą įtraukite į šabloną, kuris svetainės puslapiuose naudojamas kaip jų maketo ir modulių parinktys. Daugiau informacijos apie šablonus rasite temoje [Darbas su šablonais](work-with-templates.md).
 
@@ -51,13 +51,11 @@ Kad galėtumėte įtraukti logotipą į visus svetainės puslapius, turite atlik
 
 Norėdami logotipą įtraukti į svetainės antraštės fragmentą, atlikite toliau nurodytus veiksmus.
 
-1. Kairėje esančioje naršymo srityje pasirinkite **Fragmentai**, tada – savo sukurtą antraštės fragmentą.
-2. Pasirinkite **Paimti**.
-3. Išplėskite dalis **Antraštė** ir **Logotipas**.
-4. Pasirinkite prie dalies **Logotipas** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti modulį**.
-5. Pasirinkite logotipo modulį.
-6. Dešinėje esančioje ypatybių srityje sukonfigūruokite logotipo modulį, kad jame būtų rodomas jūsų logotipas.
-7. Antraštės fragmentą įrašykite, atrakinkite ir publikuokite.
+1. Kairėje naršymo srityje pasirinkite **Puslapio fragmentai**.
+1. Pasirinkite sukurtą antraštės fragmentą, tada – **Redaguoti**.
+1. Išplėskite antraštės modulį.
+1. Antraštės modulio ypatybių srityje pateikite vaizdą ir saitą į logotipą. 
+1. Įrašykite antraštės fragmentą, baikite redagavimą ir publikuokite.
 
 Publikavus atnaujintą antraštės fragmentą, visuose svetainės puslapiuose, kuriuose naudojamas šablonas su šiuo antraštės fragmentu, bus rodomas jūsų logotipas.
 

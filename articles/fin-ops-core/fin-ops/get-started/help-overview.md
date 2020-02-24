@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf1a417130cb9d17f33d96f5e510582c79e875ca
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4594da0feeb3b74eb066fb5761e36398804b4fc2
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811677"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005708"
 ---
 # <a name="help-system"></a>Žinyno sistema
 
@@ -32,9 +32,9 @@ ms.locfileid: "2811677"
 Šioje temoje pateikiama žinyno sistemos komponentų apžvalga. Žinyno sistema yra bendrai naudojama tolesniuose produktuose:
 
 - „Dynamics 365 Finance“ 
-- „Dynamics 365 Retail“
+- Dynamics 365 Commerce
 - „Dynamics 365 Supply Chain Management“
-- „Dynamics 365 Talent“
+- „Dynamics 365 Human Resources“
 
 Žinyną galite pasiekti bet kurio naudojamo gaminio srityje Žinynas. 
 
@@ -73,7 +73,7 @@ Galite prisidėti prie dokumentacijos kūrimo ir redagavimo. Norėdami pradėti,
 
 Vaizdo įrašas [Kaip prisidėti prie „Microsoft Dynamics 365“ dokumentacijos kūrimo](https://youtu.be/m5djioozRbg) (esantis prieš tai) įtrauktas į „Microsoft Dynamics 365“ kanalą, esantį „YouTube“.
 
-Norėdami gauti daugiau informacijos, skaitykite mūsų [bendraautoriaus vadovą](https://docs.microsoft.com/en-us/contribute).
+Norėdami gauti daugiau informacijos, skaitykite mūsų [bendraautoriaus vadovą](https://docs.microsoft.com/contribute).
 
 > [!NOTE]
 > Šiuo metu galima prisidėti tik prie turinio anglų kalba.
@@ -106,12 +106,12 @@ Norėdami pasiekti žinyno turinį, spustelėkite piktogramą **Žinynas** (**?*
 Iš žinyno srities galite pasiekti straipsnius, taikomus klientui. Pirmą kartą atidarydami žinyno sritį ir spustelėję skirtuką **Žinynas**, matysite straipsnius, taikomus puslapiui, kuriame dabar esate. Jei nerasite nė vieno straipsnio, įvedę raktažodžius galite patikslinti iešką. Kai straipsnį spustelėjate žinyno srityje, jūsų naršyklėje atidaromas naujas skirtukas ir rodomas tas straipsnis.
 
 > [!IMPORTANT]
-> Šis skyrius netaikomas „Dynamics 365 Talent“. „Talent‟ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Talent“ negalima sukurti pasirinktinių užduočių vedlių.
+> Šis skyrius netaikomas „Dynamics 365 Human Resources“. „Human Resources“ žinyno sistema automatiškai prijungta prie produkto užduočių vedlių. Be to, programoje „Human Resources“ negalima sukurti pasirinktinių užduočių vedlių.
 
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Užduočių vedlių pasiekimas iš žinyno srities
 
-Tam, kad galėtumėte užduočių vedlius pasiekti iš žinyno srities, sistemos administratorius turi atidaryti į „Finance‟, „Supply Chain Management“ ir „Retail“ puslapį **Sistemos parametrai** ir sukonfigūruoti kai kuriuos nustatymus.
+Tam, kad galėtumėte užduočių vedlius pasiekti iš žinyno srities, sistemos administratorius turi atidaryti į „Finance“, „Supply Chain Management“ ir „Commerce“ puslapį **Sistemos parametrai** ir sukonfigūruoti kai kuriuos parametrus.
 
 > [!NOTE]
 > - Norėdami konfigūruoti žinyną, turite būti prisijungę naudodami paskyrą tame pačiame nuomotojuje, kuriame įdiegta programa.

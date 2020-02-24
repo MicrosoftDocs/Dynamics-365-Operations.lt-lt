@@ -1,6 +1,6 @@
 ---
 title: PVM priskyrimas ir perrašymai
-description: Šioje procedūroje parodoma, kaip PVM grupes priskirti mažmeninės prekybos kanalams.
+description: Ši procedūra parodo, kaip prekybos kanalams galima priskirti PVM grupes.
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,38 +16,38 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fbaa467c22656aa8d1e39d26a8233250e2bb66f8
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 40723d35c1914f6cec6aa361a6c38100d1667cb6
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026606"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003632"
 ---
-# <a name="sales-tax-assignment-and-overrides"></a>PVM priskyrimas ir perrašymai
+# <a name="sales-tax-assignment-and-overrides"></a> PVM priskyrimas ir perrašymai​
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Šioje procedūroje parodoma, kaip PVM grupes priskirti mažmeninės prekybos kanalams. Joje taip pat paaiškinamas procesas, kurio metu sukuriamas naujas PVM perrašymas ir priskiriamas esamai PVM perrašymo grupei. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
+Ši procedūra parodo, kaip prekybos kanalams galima priskirti PVM grupes. Joje taip pat paaiškinamas procesas, kurio metu sukuriamas naujas PVM perrašymas ir priskiriamas esamai PVM perrašymo grupei. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 
-1. Eikite į Mažmeninė prekyba ir prekyba > Kanalai > Mažmeninės prekybos parduotuvės > Visos mažmeninės prekybos parduotuvės.
-2. Sąraše spustelėkite „Houston“ saitą Mažmeninės prekybos kanalo ID.
+1. Eikite į „Retail and Commerce“ > Kanalai > Parduotuvės > Visos parduotuvės.
+2. Sąraše spustelėkite „Houston“ nuorodą „Kanalo ID“.
 3. Spustelėkite Redaguoti.
     * Lauke PVM grupė pateikiamas dabartinės įmonės PVM grupių sąrašas. Šiuo metu priskirta grupė yra bendroji PVM grupė „Texas“. Taip pat galimos PVM grupės „Washington“ ir „Washington, King County“. PVM grupės gali apimti keliose savivaldybėse taikomus mokesčius.  
     * Lauke PVM perrašymas PVM perrašymo grupes galima susieti su kanalu. PVM perrašymo grupes galima naudoti norint grupuoti PVM perrašymus, taikomus kelioms parduotuvėms. Užuot neautomatiniu būdu priskyrus atskirus PVM perrašymus, galima sutaupyti laiko sukuriant grupę ir ją tiesiogiai priskiriant kanalams.  
 4. Spustelėkite Įrašyti.
 5. Uždarykite puslapį.
-6. Pasirinkite Mažmeninė prekyba ir prekyba > Kanalo sąranka > PVM > PVM perrašymai.
+6. Eikite į „Retail and Commerce“ > Kanalo sąranka > PVM > PVM perrašymai.
 7. Spustelėkite Naujas.
 8. Lauke PVM perrašymas nurodykite naujo perrašymo pavadinimą.
 9. Lauke Aprašas nurodykite perrašymo aprašą.
 10. Nustatykite būseną į Įjungta.
 11. Išplėskite arba sutraukite sekciją Perrašymas.
 12. Lauke „Tipas“ pasirinkite parinktį.
-    * Prekės PVM grupes galima naudoti norint perrašyti konkrečių grupei priklausančių prekių mokesčius. Pvz., maisto prekės paprastai apmokestinamos kitaip nei fizinės medžiagos ir tikėtina, kad jos priklauso atskirai PVM grupei.     PVM grupės yra mokesčių, kurie taikomi konkrečiam kanalui, grupės. Pvz., jei kanale vykdoma tiek mažmeninė, „verslo verslui“ prekyba, gali būti naudojamos skirtingos prekių PVM grupės. Visi taikomi mokesčiai būtų susieti su PVM grupe.  
-    * Dabar gali būti pasirinkti mokesčiai Iš ir Į arba Iš mokesčių grupės ir Į mokesčių grupę, kad būtų sukurtas PVM perrašymas.    Lauke Iš nurodomi mokesčiai arba mokesčių grupė, kurią reikia perrašyti. Perrašant pagal prekės PVM grupę galima naudoti kitas parinktis nei perrašant pagal PVM grupę.    Galima nustatyti, kad PVM perrašymai perrašytų visų operacijų mokesčius arba konkrečių operacijos eilučių mokesčius.  
+    * Prekės PVM grupes galima naudoti norint perrašyti konkrečių grupei priklausančių prekių mokesčius. Pvz., maisto prekės paprastai apmokestinamos kitaip nei fizinės medžiagos ir tikėtina, kad jos priklauso atskirai PVM grupei. PVM grupės yra mokesčių, kurie taikomi konkrečiam kanalui, grupės. Pvz., jei kanale vykdoma tiek mažmeninė, „verslo verslui“ prekyba, gali būti naudojamos skirtingos prekių PVM grupės. Visi taikomi mokesčiai būtų susieti su PVM grupe.  
+    * Dabar gali būti pasirinkti mokesčiai Iš ir Į arba Iš mokesčių grupės ir Į mokesčių grupę, kad būtų sukurtas PVM perrašymas. Lauke Iš nurodomi mokesčiai arba mokesčių grupė, kurią reikia perrašyti. Perrašant pagal prekės PVM grupę galima naudoti kitas parinktis nei perrašant pagal PVM grupę. Galima nustatyti, kad PVM perrašymai perrašytų visų operacijų mokesčius arba konkrečių operacijos eilučių mokesčius.  
 13. Spustelėkite Įrašyti.
 14. Uždarykite puslapį.
-15. Pasirinkite Mažmeninė prekyba ir prekyba > Kanalo sąranka > PVM > PVM perrašymų grupės.
+15. Eikite į „Retail and Commerce“ > Kanalo sąranka > PVM > PVM perrašymo grupės.
     * Atlikdami šį veiksmą jūs priskirsite naujai sukurtą PVM perrašymą PVM perrašymo grupei, priskirtai kanalui „Houston“.  
 16. Spustelėkite Redaguoti.
 17. Išplėskite arba sutraukite sekciją Sąranka.

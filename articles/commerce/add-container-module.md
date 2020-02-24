@@ -3,7 +3,7 @@ title: Konteinerio modulis
 description: Šioje temoje aprašomi konteinerio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,27 +17,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 22a09b61fbe3bd1cca96011d3fb81a12ef1bc844
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697065"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025533"
 ---
 # <a name="container-module"></a>Konteinerio modulis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi konteinerio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Konteinerio modulis yra modulis, kuriame yra kitų modulių. Tai yra bendriausias konteineris, naudojamas programoje „Dynamics 365 Commerce“. Pagrindinė konteinerio modulio paskirtis yra naudojant jam nustatytas ypatybes nustatyti viduje esančių modulių išdėstymą. Pavyzdžiui, šie moduliai gali būti rodomi vienas šalia kito dviejų stulpelių, trijų stulpelių, keturių stulpelių arba šešių stulpelių makete. Jie taip pat gali būti ribojami pagal konteinerio plotį arba užpildyti ekraną. Į kiekvieną konteinerio modulį taip pat galima įtraukti antraštę.
+Konteinerio modulis yra modulis, kuriame yra kitų modulių. Pagrindinė konteinerio modulio paskirtis yra naudojant jam nustatytas ypatybes nustatyti jo turimų modulių išdėstymą. Pavyzdžiui, šie moduliai gali būti rodomi vienas šalia kito dviejų stulpelių, trijų stulpelių, keturių stulpelių arba šešių stulpelių makete. Jie taip pat gali būti ribojami pagal konteinerio plotį arba užpildyti ekraną. Į kiekvieną konteinerio modulį taip pat galima įtraukti antraštę.
 
-Konteinerio modulių yra trys standartiniai tipai: konteineris, konteineris su 2 vietomis ir konteineris su 3 vietomis. Į šiuos konteinerius galima įdėti bet kokio tipo modulių. Konteinerio modulių taip pat yra specialių tipų, pvz., karuselės, raiškiojo turinio bloko, turinio išdėstymo, krepšelio, pirkimo užbaigimo, pirkimo langelio, antraštės ir poraštės. Šie konteineriai turi konkrečią paskirtį ir į juos galima įdėti tik konkrečių palaikomų tipų modulių.
+Palaikomi trys konteinerio moduliai: konteineris, konteineris su 2 vietomis ir konteineris su 3 vietomis. Į šiuos konteinerius galima įdėti bet kokio tipo modulių. 
 
-Modulius rekomenduojame įdėti į konteinerį, kad juos būtų galima apriboti pagal konteinerio plotį.
+> [!NOTE] 
+> Modulius rekomenduojame visada įdėti į konteinerio modulį, kad juos būtų galima apriboti pagal konteinerio plotį.
 
 ## <a name="examples-of-container-modules-in-e-commerce"></a>Konteinerio modulių pavyzdžiai el. prekyboje
 
@@ -98,20 +99,19 @@ Naudojant papildomus parametrus, galima optimizuoti skirtingų rodinių maketą.
 
 Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Sukurkite puslapio šabloną, pavadintą **konteinerio šablonas**.
-1. Numatytojo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį.
-1. Konteinerio modulyje įtraukite ypatybių modulį.
-1. Šabloną įrašykite ir atrakinkite bei publikuokite.
+1. Sukurkite puslapio šabloną, pavadintą **konteinerio šablonas**. 
+1. Srityje **Pagrindinė dalis** įtraukite modulį **Numatytasis modulis**.
+1. Baikite šablono redagavimą ir publikuokite.
 1. Naudodami ką tik sukurtą konteinerio šabloną, sukurkite puslapį, pavadintą **konteinerio puslapis**.
 1. Naujo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį.
-1. Konteinerio modulio ypatybių srityje ypatybę **Stulpelių skaičius** nustatykite kaip **1**, o ypatybę **Plotis** – kaip **Priderinti prie konteinerio**.
-1. Konteinerio modulyje įtraukite ypatybių modulį.
-1. Ypatybių modulio ypatybių srityje sukonfigūruokite antraštę.
+1. Konteinerio modulio ypatybių srityje ypatybę **Stulpelių skaičius** nustatykite kaip **1**, o ypatybę **Plotis** – kaip **Užpildyti konteinerį**.
+1. Į konteinerio modulį įtraukite turinio bloko modulį.
+1. Turinio bloko modulio ypatybių srityje sukonfigūruokite antraštę, vaizdą ir išdėstymą.
 1. Puslapį įrašykite ir peržiūrėkite. Turėtumėte matyti vieną ypatybių modulį, priderintą pire konteinerio modulio pločio.
 1. Konteinerio modulio ypatybių srityje ypatybės **Stulpelių skaičius** reikšmę pakeiskite į **3**.
-1. Į konteinerio modulį įtraukite dar du ypatybių modulius.
-1. Puslapį įrašykite ir peržiūrėkite. Dabar turėtumėte matyti tris ypatybių modulius, rodomus vienas šalia kito.
-1. Pasiekę norimą maketą, puslapį įrašykite ir atrakinkite bei publikuokite.
+1. Į konteinerio modulį įtraukite dar du turinio bloko modulius.
+1. Puslapį įrašykite ir peržiūrėkite. Dabar turėtumėte matyti tris turinio bloko modulius, rodomus vienas šalia kito.
+1. Pasiekę norimą maketą, baikite puslapio redagavimą ir publikuokite.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -119,15 +119,13 @@ Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti
 
 [Karuselės modulis](add-carousel.md)
 
-[Raiškiojo turinio bloko modulis](add-content-rich-block.md)
-
-[Turinio išdėstymo modulis](add-content-placement-modules.md)
+[Teksto bloko modulis](add-content-rich-block.md)
 
 [Pirkimo langelio modulis](add-buy-box.md)
 
 [Krepšelio modulis](add-cart-module.md)
 
-[Pirkimo užbaigimo modulį](add-checkout-module.md)
+[Pirkimo užbaigimo modulis](add-checkout-module.md)
 
 [Antraštės modulis](author-header-module.md)
 

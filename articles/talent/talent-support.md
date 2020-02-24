@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.openlocfilehash: 7e42e68f48de9518199c38d07b650d55628114a7
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 33e0183109bc0bf8c825e3d5a51dcc36dbf58fc1
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896986"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006106"
 ---
 # <a name="get-support-for-microsoft-dynamics-365-talent"></a>Palaikymo dėl „Microsoft“ „Dynamics 365 Talent“ gavimas
 
-Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Microsoft“ „Dynamics 365 Talent: Core HR“, „Dynamics 365 Talent: Attract“ ir „Dynamics 365 Talent: Onboard“.
+Šioje temoje paaiškinama, kaip gauti pagalbos, susijusios su „Dynamics 365 Talent: Attract” ir „Dynamics 365 Talent: Onboard”.
 
 ## <a name="support-for-talent"></a>Palaikymas „Talent“
 
@@ -34,7 +34,7 @@ Norėdami gauti „Talent“ palaikymą, naudokite toliau pateiktoje lentelėje 
 |------|------------------|
 | Klauskite bendruomenės. | Eikite į [„Dynamics 365 Talent“ bendruomenę](https://community.dynamics.com/365/talent) ir gaukite pagalbos savo klausimais. Norėdami rasti atsakymus, į ieškos lauką įveskite klausimą šalia **Turiu klausimą**. Norėdami užduoti klausimą, pasirinkite **Užduoti klausimą**. |
 | Incidentų atkūrimo debesies aplinkoje įrankio naudojimas. | Programoje [„Microsoft Dynamics Lifecycle Services“ (LCS)](https://lcs.dynamics.com/) eikite į savo projektą ir pasirinkite plytelę **Palaikymas**. Iš ten problemas galima pateikti dviem būdais:<ul><li>Skirtuke **Aktyvios problemos** pasirinkite problemą, kurią norite pateikti, ir pasirinkite **Pateikti „Microsoft“**.</li><li>Skirtuke **Pateikta „Microsoft“** pasirinkite **Pateikti naują incidentą**, kad pateiktumėte naują problemą.</li></ul> |
-| Gaukite palaikymą programoje. | Pasirinkite mygtuką **Žinynas** (**?**) viršutiniame dešiniajame puslapio kampe. Tada, jei esate „Core HR“, pasirinkite **Palaikymas**. Jei esate „Attract“ arba „Onboard“, pasirinkite **Pranešti apie problemą**. Problemos pateikiamos skirtuke **Aktyvios problemos** LCS, kur administratorius gali nustatyti, ar teikti vidinį palaikymą, ar pateikti problemas „Microsoft“. (Jei turite atskirą „Onboard“ versiją, problemos pateikiamos tiesiogiai „Microsoft“.) |
+| Gaukite palaikymą programoje. | Pasirinkite mygtuką **Žinynas** (**?**) viršutiniame dešiniajame puslapio kampe. Pasirinkite **Pranešti apie problemą**. Problemos pateikiamos skirtuke **Aktyvios problemos** LCS, kur administratorius gali nustatyti, ar teikti vidinį palaikymą, ar pateikti problemas „Microsoft“. (Jei turite atskirą „Onboard“ versiją, problemos pateikiamos tiesiogiai „Microsoft“.) |
 | Pagalba iškilus klausimų apie „Talent“ licencijavimą. | Susisiekite su partneriu ar „Microsoft“ pardavimo atstovu. |
 | Prašymas naudotis naujomis „Talent“ savybėmis ir funkcijomis. | Pagrindiniame programos „Talent“ puslapyje pasirinkite mygtuką **Žinynas** (**?**), tada pasirinkite **Idėjos**. Taip pat galite apsilankyti [„Dynamics 365“](https://experience.dynamics.com/ideas/), kad peržiūrėtumėte, rastumėte arba balsuotumėte už esamas idėjas arba pridėtumėte naujų idėjų. |
 

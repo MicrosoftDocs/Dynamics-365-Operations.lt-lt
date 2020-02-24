@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2c7ee610c6e3c446a4bcc9d6d46ca72dd71cb23c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 45a2335d7a661ddc1d8907c56ae8193387f44e26
+ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771403"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "3030871"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Pasirinktinės saugyklos vietos, skirtos sugeneruotiems dokumentams, nurodymas
 
@@ -56,7 +56,7 @@ Esamoje topologijoje [sukurkite naują ER formatą](tasks/er-format-configuratio
 
 Norėdami nurodyti, kaip dokumentai, kuriuos generuoja ER formatas, turi būti nukreipiami, turite sukonfigūruoti [Elektroninių ataskaitų (ER) paskirties vietos](electronic-reporting-destinations.md). Kiekvienoje ER paskirties vietoje, kuri sukonfigūruota saugoti sugeneruotus dokumentus kaip failus, turite nurodyti dokumentų valdymo sistemos dokumento tipą. Galima naudoti skirtingus dokumentų tipus norint nukreipti dokumentus, kuriuos sugeneruoja skirtingi ER formatai.
 
-1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
+1. Įtraukite anksčiau sukurto arba importuoto ER formato [dokumento tipą](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Toliau pateiktame paveikslėlyje dokumento tipas yra **FileX**.
 2. Norėdami atskirti šį dokumento tipą nuo kitų dokumentų tipų, įtraukite tam tikrą raktažodį į jo pavadinimą. Pavyzdžiui, toliau pateiktame paveikslėlyje pavadinimas yra **(VIETINIS) aplankas**.
 3. Lauke **Klasė** nurodykite **Pridėti failą**.
 4. Lauke **Grupė** nurodykite **Failas**.
@@ -70,7 +70,7 @@ Norėdami nurodyti, kaip dokumentai, kuriuos generuoja ER formatas, turi būti n
 
 Peržiūrėkite klasės **ERDocuManagement** metodo **insertFile()** kodą. Atkreipkite dėmesį, kad įvykis **AttachingFile()** paleidžiamas pridedant sugeneruotą failą prie įrašo.
 
-```
+```xpp
 /// <summary>
 /// Inserts file as attachment in Document Management.
 /// </summary>
@@ -131,7 +131,7 @@ public DocuRef insertFile(
     1. Saugokite sugeneruotus failus serverio, kuriame veikia programos objektų serverio (AOS) tarnyba, vietinės failų sistemos aplanke.
     2. Saugokite šiuos sugeneruoti failus tik kai naudojamas naujas dokumento tipas (pvz., tipas **FileX**, kurio pavadinime yra raktažodis „(VIETINIS)“) ir failas yra pridėtas prie įrašo ER vykdymo užduočių žurnale.
 
-    ```
+    ```xpp
     class ERDocuSubscriptionSample
     {
         void new()

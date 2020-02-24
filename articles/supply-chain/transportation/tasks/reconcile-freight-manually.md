@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb9c850aa045b72137b8a1d3c8cdae51cf2fd7b6
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec17fc31df1daed943f9bc3f4cbe25a683c8ac7e
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1843246"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026319"
 ---
 # <a name="reconcile-freight-manually"></a>Transportavimo derinimas neautomatiniu būdu
 
@@ -37,7 +37,7 @@ ms.locfileid: "1843246"
 3. Sąraše pasirinkite krovinį, kurio krovinio ID yra 00006.
 
 ## <a name="create-a-carrier-invoice"></a>Vežėjo SF kūrimas
-    * Jei transportavimą derinate neautomatiniu būdu ir negaunate vežėjo SF automatiškai, galite kurti SF pagal transportavimo sąskaitą.  
+Jei transportavimą derinate neautomatiniu būdu ir negaunate vežėjo SF automatiškai, galite kurti SF pagal transportavimo sąskaitą.  
 1. Spustelėkite Susijusi informacija.
 2. Spustelėkite Transportavimo sąskaitos informacija
 3. Spustelėkite Generuoti krovinio atsiskaitymo SF.
@@ -45,7 +45,7 @@ ms.locfileid: "1843246"
 5. Spustelėkite GERAI.
 
 ## <a name="reconcile-the-invoice"></a>SF derinimas
-    * Vežėjo SF ir transportavimo sąskaitos derinimas atliekamas kiekvienoje eilutėje.  
+Vežėjo SF ir transportavimo sąskaitos derinimas atliekamas kiekvienoje eilutėje.  
 1. Spustelėkite Gretinti transportavimo sąskaitas ir SF.
 2. Išplėskite skyrių SF informacija.
 3. Išplėskite skyrių Nesugretinta transportavimo sąskaitos informacija.

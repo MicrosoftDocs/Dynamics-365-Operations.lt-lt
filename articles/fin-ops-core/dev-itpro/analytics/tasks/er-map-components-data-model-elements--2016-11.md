@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9a033853be17d6013daa5550ca9c061198bb0330
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 548f16034ebdf7e0f29e8e89d85aac880f6323a1
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184743"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026245"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER sukurto formato komponentų susiejimas su duomenų modelio elementais (2016 m. lapkričio mėn.)
 
@@ -98,7 +98,7 @@ Tolesnėje procedūroje parodoma, kaip sistemos administratoriaus arba elektroni
 2. Uždarykite puslapį.
 
 ## <a name="change-status-of-the-current-version-of-format-configuration"></a>Pakeisti esamos formato konfigūracijos versijos būseną
-    * Atlikdami kitus veiksmus pakeisite formato konfigūracijos būseną iš Juodraštis į Baigta, kad ją būtų galima naudoti generuojant mokėjimo dokumentus.  
+Atlikdami kitus veiksmus pakeisite formato konfigūracijos būseną iš Juodraštis į Baigta, kad ją būtų galima naudoti generuojant mokėjimo dokumentus.  
 1. Spustelėkite keisti būseną.
 2. Spustelėkite Baigti.
 3. Lauke Aprašas įveskite reikšmę.
@@ -108,7 +108,7 @@ Tolesnėje procedūroje parodoma, kaip sistemos administratoriaus arba elektroni
     * Atkreipkite dėmesį, kad konfigūracija įrašoma kaip 1.1 baigta versija: formato 1 versija, paremta duomenų modelio 1 versija.  
 
 ## <a name="define-effective-date-for-completed-version-of-format"></a>Nustatyti baigtos formato versijos įsigaliojimo datą
-    * Kiekvieną formato versiją galima sukonfigūruoti taip,kad ji būtų parengta naudoti nuo tam tikros datos. Kai pasirinktą dieną veikia daugiau nei viena formato versija, bus naudojamas naujausias formatas (pagal versijos numerį). Tinkame versija parenkama naudojant seanso datos reikšmę.  
+Kiekvieną formato versiją galima sukonfigūruoti taip,kad ji būtų parengta naudoti nuo tam tikros datos. Kai pasirinktą dieną veikia daugiau nei viena formato versija, bus naudojamas naujausias formatas (pagal versijos numerį). Tinkame versija parenkama naudojant seanso datos reikšmę.  
 
 ## <a name="restrict-access-to-created-format-from-companies"></a>Apriboti įmonių prieigą prie sukurto formato
 1. Išplėskite dalį ISO šalies / regiono kodai.

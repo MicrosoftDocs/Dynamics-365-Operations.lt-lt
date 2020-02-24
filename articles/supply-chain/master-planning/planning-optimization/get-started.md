@@ -3,7 +3,7 @@ title: Darbo su „Planning Optimization“ pradžia
 description: Šioje temoje aiškinama, kaip pradėti naudoti „Planning Optimization“ funkciją.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/29/2019
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 37c2acb2397b2a0ad69272c0645bd200a8d7910d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 3e0371c6addc0412dc2fc105891b012941e92a06
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2774011"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971469"
 ---
 [!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
@@ -47,15 +47,17 @@ Norėdami naudoti „Planning Optimization“, įdiekite „Planning Optimizatio
 
 1. Prisijunkite prie LCS ir atsidarykite pageidaujamą aplinką.
 1. Eikite į **Išsami informacija**.
-1. Pasirinkite **Tvarkyti**arba slinkite žemyn iki „FastTab“ **Aplinkos papildiniai**.
+1. Slinkite žemyn iki „FastTab“ **Aplinkos papildiniai**.
 1. Pasirinkite **Diegti naują papildinį**.
 1. Pasirinkite **Planning Optimization**.
 1. Vadovaukitės diegimo vadovu ir sutikite su sąlygomis ir nuostatomis.
 1. Pasirinkti **Diegti**.
+1. „FastTab“ **Aplinkos papildiniai** turėtumėte matyti, kad diegiamas planavimo optimizavimas.
+1. Po kelių minučių būsena **Diegiama** turėtų pakisti į **Įdiegta** (jums gali prireikti atnaujinti puslapį). Baigus diegti galite aktyvinti planavimo optimizavimą programoje „Dynamics 365 Supply Chain Management“.
 
 ### <a name="planning-optimization-integration"></a>„Planning Optimization“ integravimas
 
-Norėdami sukonfigūruoti, ar „Planning Optimization“ papildinį reikia naudoti bendrajam planavimui, eikite į **Bendrasis planavimas** \> **Sąranka** \> **„Planning Optimization“ integravimas** \> **Integravimo parametrai**.
+Norėdami sukonfigūruoti, ar planavimo optimizavimo papildinys turi būti naudojamas bendrajam planavimui, eikite į **Bendrasis planavimas** \> **Sąranka** \> **Planavimo optimizavimo parametrai**.
 
 #### <a name="connection-status"></a>Ryšio būsena
 

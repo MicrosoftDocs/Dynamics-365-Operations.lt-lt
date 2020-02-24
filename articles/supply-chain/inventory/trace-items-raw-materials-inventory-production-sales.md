@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: adfb8ffce3f91c0e8e8b996c284414f5ddc1baf1
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1562535"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004070"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Prekių ir žaliavų sekimas atsargose, gamyboje ir pardavimuose
 
@@ -44,7 +44,7 @@ Prekių sekimas yra verslo tyrimų (BI) įrankis, kuris užtikrina prekių ir ž
 -   Ištirti, kur prekė arba žaliava buvo panaudota kitos prekės gamybai.
 
 ## <a name="what-can-i-trace-and-are-there-any-limitations"></a>Ką galima sekti ir ar yra apribojimų?
-Galite sekti retrospektyvines prekių ir žaliavų atsargų operacijas pagal prekės numerį ir sekimo dimensiją, pvz., serijos numerį, paketo numerį arba tiekėjo paketo numerį. Prekę ar žaliavą sekti galite tik jei jai priskirta sekimo dimensija. Kadangi sekimo pagrindas yra atsargų operacijos, yra tam tikrų prekių sekimo apribojimų. Pavyzdžiui, yra apribojimų, susijusių su projektų, ilgalaikio turto ir mažmeninės prekybos operacijomis. Be to, sekimo duomenyse rodomi sudėtiniai produktai, bet neįtraukiami šalutiniai produktai. Sekimas apima visas sandėlio operacijas iš vienos vietos į kitą. Todėl vartotojams tiek informacijos gali būti per daug. Vienu metu rodomas vieno juridinio subjekto sekimas. Vidinės įmonės kontekste visoms įmonėms taikomų galimybių nėra. Turite pradėti naują kiekvienos įmonės, kurioje gaunama ar išduodama prekė, sekimą.
+Galite sekti retrospektyvines prekių ir žaliavų atsargų operacijas pagal prekės numerį ir sekimo dimensiją, pvz., serijos numerį, paketo numerį arba tiekėjo paketo numerį. Prekę ar žaliavą sekti galite tik jei jai priskirta sekimo dimensija. Kadangi sekimo pagrindas yra atsargų operacijos, yra tam tikrų prekių sekimo apribojimų. Pavyzdžiui, yra apribojimų, susijusių su projektų, ilgalaikio turto ir prekybos operacijomis. Be to, sekimo duomenyse rodomi sudėtiniai produktai, bet neįtraukiami šalutiniai produktai. Sekimas apima visas sandėlio operacijas iš vienos vietos į kitą. Todėl vartotojams tiek informacijos gali būti per daug. Vienu metu rodomas vieno juridinio subjekto sekimas. Vidinės įmonės kontekste visoms įmonėms taikomų galimybių nėra. Turite pradėti naują kiekvienos įmonės, kurioje gaunama ar išduodama prekė, sekimą.
 
 ## <a name="what-criteria-can-i-specify-for-an-item-trace"></a>Kokius prekės sekimo kriterijus galiu nurodyti?
 Kriterijai, kurių reikia norint sekti prekę, yra prekės numeris, sekimo dimensija (pvz., paketo numeris arba serijos numeris) ir kryptis. Šioje lentelėje aprašomi kriterijai, kuriuose galite naudoti sekdami prekę.

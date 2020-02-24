@@ -19,16 +19,15 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6d075635b7b986cc854550d15f7e941a9ea9cf72
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770418"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024938"
 ---
 # <a name="create-curated-product-recommendation-lists"></a>Kurti kuruojamus produktų rekomendacijų sąrašus
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip prekybininkai „Microsoft Dynamics 365 Commerce“ klientams gali kurti ir valdyti pasirinktinius produktų sąrašus.
@@ -39,7 +38,7 @@ Kuruojami sąrašai yra atskiro turinio, kurį sukūrė ir kuruoja žmonės, rin
 
 Norėdami sukurti kuruojamą produktų rekomendacijų sąrašą, atlikite tolesnius veiksmus.
 
-1. Nueikite į **Mažmeninė prekyba** &gt; **Produktų rekomendacijos** &gt; **Rekomendacijų sąrašai**.
+1. Eikite į **Mažmeninė prekyba ir prekyba &gt; Produktų rekomendacijos &gt; Rekomendacijų sąrašai**.
 1. Pasirinkite **Naujas**.
 1. Lauke **Sąrašo ID** įveskite reikšmę.
 1. Lauke **Sąrašo pavadinimas** įveskite reikšmę.
@@ -60,3 +59,5 @@ Norėdami sukurti kuruojamą produktų rekomendacijų sąrašą, atlikite tolesn
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 
 [ĮProduktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md)
+
+[Produktų rinkinio modulio peržiūra](product-collection-module-overview.md)

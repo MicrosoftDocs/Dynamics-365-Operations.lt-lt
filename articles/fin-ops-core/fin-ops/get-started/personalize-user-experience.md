@@ -3,7 +3,7 @@ title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
 manager: AnnBe
-ms.date: 01/07/2020
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ac8f154fdf892553f69d135727589bf13efd6076
-ms.sourcegitcommit: 34395464ec80cea800b953eae49af579d436fc1b
+ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
+ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935470"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029367"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -59,7 +59,8 @@ Naudojantis programa, dauguma pasirinkčių išsaugomos, kad kitą kartą galėt
 
 Netiesioginis personalizavimas atliekamas tiesiog sąveikaujant su tam tikrais valdikliais, kurie išsaugo savo esamą matomą būseną.
 
-- **Tinklelio stulpeliai**: galite koreguoti tinklelio stulpelio plotį, kairėje arba dešinėje stulpelio antraštės pusėje pasirinkdami dydžio keitimo juostą ir slinkdami ją į kairę arba į dešinę, kol stulpelis bus reikiamo pločio. Programoje saugomas nustatytas stulpelio plotis. Tada, kitą kartą atidarius puslapį, kuriame yra tas tinklelis, bus pakeičiamas stulpelio dydis.
+- **Tinklelio stulpelio pločiai** – galite sureguliuoti stulpelio plotį tinklelyje, pasirinkdami dydžio juostą stulpelio antraštės kairėje arba dešinėje pusėje ir stumdami ją kairėn arba dešinėn, kol stulpelis yra norimo pločio. Programoje saugomas nustatytas stulpelio plotis. Tada, kitą kartą atidarius puslapį, kuriame yra tas tinklelis, bus pakeičiamas stulpelio dydis.
+- **Tinklelio stulpelio sumos** – pasiekiamos tik įjungus naująjį tinklelio valdymą. Galite nuspręsti, ar bet kurio tinklelio skaitinių stulpelių apačioje turėtų būti rodoma bendra suma, taip pat, ar bus matoma tinklelio poraštė. Programa saugo šiuos duomenis, kad šios nuostatos būtų įsimenamos kitą kartą atidarius puslapį. Daugiau informacijos rasite temoje [Tinklelio galimybės](grid-capabilities.md). 
 - **„FastTabs“**: kai kuriuose puslapiuose yra išplečiamos dalys, vadinamos *„FastTabs“*. Programoje saugoma informacija apie išplėstus ir sutrauktus „FastTabs“. Tada, kitą kartą atidarius puslapį, tie patys „FastTabs“ bus išplečiami arba sutraukiami, priklausomai nuo paskutinės sąveikos su puslapiu. Kai kuriais atvejais sutraukus „FastTab“ galima padidinti sistemos efektyvumą, nes programai nereikia nuskaityti „FastTabs“ informacijos, kol jie neišskleisti. Kaip vėliau paaiškinta šioje temoje, taip pat galite keisti puslapio „FastTabs“ tvarką.
 - **„Fact Boxes”**: kai kuriuose puslapiuose yra **susijusios informacijos** sritis, rodanti tik skaityti skirtą informaciją, kuri susijusi su dabartine puslapio tema. Kiekviena **susijusios informacijos** srities dalis vadinama *„Fact Box“*. Galite išplėsti arba sutraukti **susijusios informacijos** sritį, taip pat galite išplėsti arba sutraukti atskiras „Fact Boxes“. Programa išsaugo šias nuostatas. Tada, kitą kartą atidarius į puslapį, priklausomai nuo paskutinės sąveikos su puslapiu, išplečiama arba sutraukiama **susijusios informacijos** sritis ir atskiros „Fact Boxes“. Kai kuriais atvejais sutraukus „FactBox“ galima padidinti sistemos efektyvumą, nes programai nereikia nuskaityti „FactBoxes“ informacijos, kol jos neišskleistos.
 - **Veiksmų sritys**: šalia daugelio puslapių viršaus rodoma *Veiksmų sritis*. Veiksmų srityje yra daugeliui dabartiniame puslapyje galimų atlikti veiksmų skirtų mygtukų. Šie mygtukai skirtukuose dažnai sisteminami. Pagal numatytuosius parametrus galite „prisegti” visą atidarytą veiksmų sritį arba galite ją sutraukti. Tada, kitą kartą atidarius puslapį, veiksmų sritis bus atidaryta arba sutraukta, priklausomai nuo paskutinės sąveikos su puslapiu. Jei prisegate atidarytą veiksmų sritį, bus rodomas paskutinis naudotas skirtukas.
@@ -95,7 +96,7 @@ Priklausomai nuo elemento, ypatybių lange gali būti įterpta kitų personaliza
 
 Norėdami puslapyje atlikti kelis pakeitimus arba tokius pakeitimus, kurių negalima atlikti naudojantis kitu mechanizmu (pvz., keisti elementų išdėstymo tvarką), galite naudotis įrankių juosta **Personalizavimas**. Norėdami atidaryti įrankių juostą **Personalizavimas**, atlikite vieną iš toliau pateiktų veiksmų.
 
-- Elemento ypatybių lange pasirinkite **Pritaikyti šią formą asmeniniams poreikiams**.
+- Elemento ypatybių lange pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**.
 - Bet kurio puslapio veiksmų srities skirtuke **Parinktys** esančioje grupėje **Personalizavimas**, pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**.
 - Naršymo juostoje pasirinkite mygtuką **Parametrai** (krumpliaračio simbolis), tada pasirinkite **Personalizavimas**.
 
@@ -116,7 +117,8 @@ Kai atidaroma įrankių juosta **Personalizavimas**, esamas puslapis skirtas tik
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankių juostoje esantį mygtuką **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Galite interaktyviai pašalinti arba įtraukti laukus į skirtukų seką.
 - Įrankį **Rodyti antraštėje** naudokite norėdami, kad laukas būtų rodomas „FastTab“ suvestinės skyriuje. Paspaudus įrankių juostoje esantį mygtuką **Rodyti antraštėje** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Pasirinkdami laukus į „FastTab“ suvestinę galite interaktyviai įtraukti laukų arba iš jos juos pašalinti.
 - Įrankį **Užrakinti** naudokite norėdami pažymėti elementą kaip redaguojamą arba neredaguojamą. Paspaudus įrankių juostoje esantį mygtuką **Užrakinti** visi šiuo metu neredaguojami elementai yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad juos būtų galima redaguoti. Atminkite, kad kai kurie laukai būtini ir jų negalima padaryti neredaguojamais. Šalia tų laukų rodomas spynos simbolis.
-- Naudokite mygtuką **Įtraukti „PowerApp“** norėdami į puslapį įdėti programą, sukurtą naudojant „Microsoft PowerApps“. Norėdami gauti išsamios informacijos apie tai, kaip į puslapį įdėti „PowerApps“ programą, žr. [Įdėti „PowerApps“ programas](embed-power-apps.md).
+- Norėdami įdėti programą į puslapį, sukurtą naudojant „Microsoft Power Apps“, spauskite mygtuką **Pridėti programą iš „Power Apps**“. Norėdami gauti išsamesnės informacijos apie tai, kaip įdėti programą iš „Power Apps“ į puslapį, žr. [Įdėti programą iš „Power Apps“](embed-power-apps.md). Ši parinktis galima tik tada, kai funkcija [Įrašyti rodiniai](saved-views.md) yra išjungta.  
+- Norėdami įdėti programą į puslapį, sukurtą naudojant „Microsoft Power Apps“ arba trečiosios šalies programą, spauskite mygtuką **Pridėti programą**. Ši parinktis galima tik tada, kai įjungta funkcija [Įrašyti rodiniai](saved-views.md). 
 - Naudodami įrankį **Valyti** galite atkurti numatytąją įdiegus puslapį naudotą būseną. Visas dabartinio puslapio personalizavimas bus panaikintas. Veiksmo anuliuoti negalima. Todėl naudokite šį įrankį tik tada, jei tikrai norite atkurti puslapį.
 - Naudodami įrankį **Importuoti** galite įkelti personalizavimą iš jūsų ar ko nors kito sukurto failo. Kai importuojate puslapio personalizavimo nustatymus, galite pasirinkti, ar jie turi būti įtraukti į esamus puslapio personalizavimo nustatymus, ar juos pakeisti. Veiksmo anuliuoti negalima. Todėl, kai importuojate personalizavimą, turite rankiniu būdu išvalyti arba anuliuoti keitimus, kurių nenorite.
 - Naudodami įrankį **Eksportuoti** galite įrašyti savo puslapio personalizavimus į failą. Tada galite pasidalinti savo personalizavimais su kitais vartotojais. Tiems vartotojams tiesiog reikia importuoti failą, kuriame yra jūsų puslapio personalizavimai.
@@ -152,7 +154,7 @@ Ataskaitų sritis dažnai yra pirmasis atidarius programą rodomas puslapis. Gal
 Norėdami personalizuoti ataskaitų sritį, dešiniuoju pelės klavišu spustelėkite bet kurią išklotinę, po to paspauskite **Personalizuoti**, kad būtų atidaromas išklotinės ypatybių langas.
 
 - Jei norite slėpti pasirinktą išklotinę arba pakeisti jos pavadinimą, tokį pakeitimą galite atlikti tiesiogiai ypatybių lange.
-- Jei norite keisti darbo srities išklotinių išdėstymo tvarką, ypatybių lange paspaudę **Personalizuoti šią formą** atidarykite įrankių juostą **Personalizavimas**. Tada galite naudoti įrankį **Perkelti** ir pakeisti išklotinių išdėstymo tvarką.
+- Norėdami pertvarkyti darbo srities išklotines, ypatybių lange pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**, kad atidarytumėte įrankių juostą **Pritaikymas asmeniniams poreikiams**. Tada galite naudoti įrankį **Perkelti** ir pakeisti išklotinių išdėstymo tvarką.
 - Norėdami įtraukti naują darbo srities išklotinę, ypatybių lange paspauskite **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Į darbo sritį taip pat galite įtraukti sąrašų, išklotinių ir nuorodų, kaip aprašyta šios temos skyriuje [Sąrašų, išklotinių arba nuorodų įtraukimas į darbo sritis](#adding-a-tile-list-or-link-to-a-workspace).
 
 ## <a name="administration-of-personalizations"></a>Personalizavimo parametrų administravimas

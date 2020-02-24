@@ -3,7 +3,7 @@ title: Verslo dokumentų valdymo apžvalga
 description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/09/2019
+ms.date: 01/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3aac66cc39d854cabdb3d29bde029d93683e2ef7
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
+ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933913"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "2957372"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -122,7 +122,7 @@ Atlikite toliau nurodytą procedūrą, kad įjungtumėte verslo dokumentų valdy
 4. Norėdami pasiekti naują funkciją, atnaujinkite puslapį.
 
 >[!NOTE]
-> Taip pat turite įjungti **į „Office“ panašią funkcijos Verslo dokumentų valdymas vartotojo sąsają**, kad galėtumėte naudoti naują verslo dokumentų valdymo sąsają
+> Daugiau informacijos apie tai, kaip naudoti naujo dokumento vartotojo sąsają funkcijoje Verslo dokumentų valdymas, žr. [Naujo dokumento vartotojo sąsaja funkcijoje Verslo dokumentų valdymas](er-business-document-management-new-template-ui.md).
 
 ![Funkcijos valdymo darbo sritis](./media/BDM-Overview-FMEnabling.png)
 
@@ -147,7 +147,7 @@ Daugiau informacijos apie tai, kaip nustatyti reikalingus dokumentų valdymo par
 
 ![Dokumentų valdymo dokumento tipo nustatymas](./media/BDM-Overview-DMSetting.png)
 
-### <a name="set-up-parameters"></a>Parametrų nustatymas
+### <a name="SetupBdmParameters">Parametrų nustatymas</a>
 
 Pagrindinius verslo dokumentų valdymo parametrus galite nustatyti puslapyje **Verslo dokumentų parametrai**. Puslapis pasiekiamas tik konkretiems vartotojams. Vartotojai, galintys pasiekti puslapį:
 
@@ -166,6 +166,9 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 ![Verslo dokumentų valdymo parametrų nustatymas](./media/BDM-Overview-BDMSetting.png)
 
 Pasirinktas dokumento tipas yra būdingas įmonei ir bus naudojamas, kai vartotojas dirba su verslo dokumentų valdymu įmonėje, kuriai sukonfigūruotas pasirinktas dokumento tipas. Kai vartotojas dirba su verslo dokumentų valdymu kitoje įmonėje, tas pats pasirinktas dokumento tipas bus naudojamas jei jis nebuvo sukonfigūruotas šiai įmonei. Kai dokumento tipas sukonfigūruotas, jis bus naudojamas vietoje to, kuris pasirinktas lauke **„SharePoint“ dokumento tipas**.
+
+> [!NOTE]
+> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šis parametras gali būti tuščias, jei planuojate modifikuoti šabloną naudodami tik „Office 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Office 365“](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Prieigos teisių konfigūravimas
 
@@ -258,23 +261,18 @@ Pasirinktam šablonui pasiekiama parinktis **Redaguoti šabloną**. Ši parinkti
 
 ### <a name="initiate-editing-templates-owned-by-other-providers"></a>Redagavimo šablonų, priklausančių kitiems teikėjams, iniciavimas
 
-1. Darbo srityje Verslo dokumentų valdymas pasirinkite **naują dokumentą**.
+1. Darbo srityje Verslo dokumentų valdymas pasirinkite dokumentą, kurį norite naudoti kaip šabloną.
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM_overview_new_template1.png)
+![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate3.png)
 
-2. Pasirinkite dokumentą, kurį norite naudoti kaip šabloną.
+3. Pasirinkite **Naujas dokumentas** ir, jei reikia, lauke **Pavadinimas** pakeiskite redaguojamo šablono pavadinimą. Tekstas bus naudojamas automatiškai sukurtai ER formato konfigūracijai pavadinti. Atkreipkite dėmesį, kad šios konfigūracijos (**Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija**), kurioje bus suredaguotas šablonas, juodraščio versija bus automatiškai pažymėta vykdyti šį ER formatą dabartiniam vartotojui. Tuo pat metu, nemodifikuotas originalus šablonas iš pagrindinio ER formato konfigūracijos bus naudojamas šiam bet kuriam kitam vartotojui skirtam ER formatui vykdyti.
+4. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
+5. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo komentarą.
+6. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią
 
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM_overview_new_template2.png)
+![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate4.png)
 
-3. Spustelėkite **Kurti dokumentą**
-4. Jei reikia, lauke **Pavadinimas** pakeiskite redaguojamo šablono pavadinimą. Tekstas bus naudojamas automatiškai sukurtai ER formato konfigūracijai pavadinti. Atkreipkite dėmesį, kad šios konfigūracijos (**Kliento laisvos formos sąskaitos-faktūros ataskaitos (GER) kopija**), kurioje bus suredaguotas šablonas, juodraščio versija bus automatiškai pažymėta vykdyti šį ER formatą dabartiniam vartotojui. Tuo pat metu, nemodifikuotas originalus šablonas iš pagrindinio ER formato konfigūracijos bus naudojamas šiam bet kuriam kitam vartotojui skirtam ER formatui vykdyti.
-5. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
-6. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo pastabą.
-7. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią
-
-![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM_overview_new_template3.png)
-
-Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos šablonui, kurį teikia kitas tiekėjas (šiame pavyzdyje – „Microsoft“). Spustelėję **Naujas dokumentas**, matote visus šablonus, priklausančius dabartiniam ir kitiems teikėjams. Pasirinkus šabloną, jis bus atidarytas redaguoti. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
+Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos šablonui, kurį teikia dabartinis ir kitas tiekėjas (šiame pavyzdyje – „Microsoft“) ir kuriame nėra pataisymų. Redaguotas šablonas bus išsaugotas naujoje automatiškai sugeneruotoje ER formato konfigūracijoje.
 
 ### <a name="start-editing-a-template"></a>Pradėkite redaguoti šabloną
 
@@ -282,7 +280,7 @@ Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos ša
 2. Lauke **Pavadinimas** pakeiskite automatiškai sukurto redaguojamo šablono pirmo pataisymo pavadinimą.
 3. Lauke **Komentaras** pakeiskite redaguojamo šablono automatiškai sukurto pataisymo pastabą.
 
-    ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM_overview_new_template4.png)
+    ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate5.png)
 
 5. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
@@ -290,13 +288,16 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 
 ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="edit-a-template-in-office-365"></a>Šablono redagavimas naudojant „Office 365“
+### <a name="EditInOffice365">Šablono redagavimas naudojant „Office 365“</a>
 
-Modifikuokite šabloną naudojant „Office 365“ funkciją. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai saugomi šiam redaguojamam šablonui, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje), kuri konfigūruojama ER sistemai.
+Šabloną galima modifikuoti naudojant „Office 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai saugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
 
 ![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="edit-a-template-in-the-office-desktop-application"></a>Šablono redagavimas „Office“ darbalaukio programoje
+### <a name="EditInOfficeDesktopApp">Šablono redagavimas „Office“ darbalaukio programoje</a>
+
+> [!NOTE]
+> Ši funkcija galima tik tada, kai parametras **„SharePoint“ dokumento tipas** tinkamai sukonfigūruotas. Daugiau informacijos žr. [Parametrų konfigūravimas](#SetupBdmParameters).
 
 1. Pasirinkite parinktį **Atidaryti darbalaukio programoje**, kad modifikuotumėte šabloną naudojant „Office“darbalaukio programų (šiame pavyzdyje – „Excel“) funkciją. Redaguojamas šablonas nukopijuojamas iš nuolatinės saugyklos į laikiną saugyklą, sukonfigūruotą verslo dokumentų valdymo parametruose kaip „SharePoint“ aplankas.
 2. Patvirtinkite, kad norite atidaryti šabloną iš laikinos failų saugyklos „Office“ darbalaukio „Excel“ programoje.
@@ -386,7 +387,7 @@ Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam ti
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Pasirinkau **Redaguoti dokumentą**, tačiau vietoje puslapio **BDM šablonų rengyklė** atidarymo programoje „Finance and Operations“ atsidarė „Office 365“ tinklalapis.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Pasirinkau **Redaguoti dokumentą**, tačiau vietoj puslapio **BDM šablonų rengyklė**, atsidarančio programoje „Finance and Operations“, atsidarė „Office 365“ tinklalapis.
 Tai žinoma problema su „Office 365“ peradresavimu. Tai atsitinka, kai pirmą kartą prisijungiate prie „Office 365“. Norėdami išspręsti šią problemą, pasirinkite naršyklės mygtuką **Atgal**, kad grįžtumėte atgal.
 
 #### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Office 365“ pirmame programos seanse ir kaip naudoti šabloną antrame programos seanse koreguojant šabloną, kad pamatyčiau, kaip pakeitimai paveikia sugeneruotą verslo dokumentą. Ar galiu tai atlikti naudojant „Office“ darbalaukio programą?
@@ -411,3 +412,4 @@ Tikėtina, kad prisijungėte prie dabartinio „Azure AD“ domeno programos egz
 [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](electronic-reporting-embed-images-shapes.md)
 
 [Elektroninių ataskaitų (ER) konfigūravimas duomenims perkelti į „Power BI“](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+

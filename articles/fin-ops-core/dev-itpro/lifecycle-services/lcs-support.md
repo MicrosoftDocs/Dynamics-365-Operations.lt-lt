@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations‟ programos arba „Lifecycle Services“ (LCS) palaikymo gavimas
-description: Šioje temoje paaiškinta, kaip gauti pagalbos dėl „Finance and Operations“ programų arba „Microsoft Dynamics Lifecycle Services“ (LCS).
+title: Gaukite programų „Finance and Operations“ arba „Lifecycle Services“ (LCS) palaikymą
+description: Šioje temoje pateikiama informacija, kaip gauti pagalbos naudojant programas „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS).
 author: kfend
 manager: AnnBe
 ms.date: 10/14/2019
@@ -17,24 +17,24 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e62e406de5d972b3e66319cf293d3d420c69d46
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812140"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005521"
 ---
-# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>„Finance and Operations‟ programos arba „Lifecycle Services“ (LCS) palaikymo gavimas
+# <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Gaukite programų „Finance and Operations“ arba „Lifecycle Services“ (LCS) palaikymą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip gauti pagalbos dėl „Finance and Operations“ programų arba „Microsoft Dynamics Lifecycle Services“ (LCS). 
+Šioje temoje pateikiama informacija, kaip gauti pagalbos naudojant programas „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS). 
 
 ## <a name="contact-support"></a>Kreiptis į pagalbos tarnybą
 
 Naudodamiesi straipsnyje pateikta informacija kreipkitės į „Microsoft“, jeigu turite techninių klausimų arba reikia pagalbos pasiekiant „Microsoft Dynamics Lifecycle Services“ (LCS).
 
-### <a name="finance-and-operations-apps-support"></a>„Finance and Operations” programų palaikymas
+### <a name="finance-and-operations-apps-support"></a>Programų „Finance and Operations“ palaikymas
 
 Norėdami gauti palaikymą, naudokite toliau pateiktoje lentelėje nurodytus išteklius. Šie ištekliai išvardyti tvarka, į kurią rekomenduojame atsižvelgti šalinant nesklandumus.
 
@@ -72,12 +72,12 @@ Pastaba: „Microsoft“ „Premier“ klientai ir partneriai taip pat gali pate
 <td>Jei kilo problemų bandant pateikti bilietą „Microsoft“ iš plytelės <strong>Palaikymas</strong> LCS, žr. <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Kreiptis į „Microsoft Business Solutions“ palaikymo centrą</span></a>, kad gautumėte daugiau informacijos apie pagalbą iš „Microsoft Dynamics“ regioninio operacijų centro. Palaikymo komanda gali padėti išspręsti toliau nurodytų tipų techninius klausimus:
 <ul>
 <li>Klaidos, kurios įvyksta naudojant LCS, arba problemos, kurios kyla bandant pasiekti LCS.</li>
-<li>Klaidos, kurios įvyksta naudojant „Finance and Operations“ programas.</li>
+<li>Klaidos, atsirandančios naudojant programas „Finance and Operations“.</li>
 </ul>
 Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „CustomerSource“, el. mokymosi, ieškos, žinių bazės, failų atsisiuntimo ir puslapio arba sistemos klaidų, eikite į <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Svetainės palaikymas</span></a>.</td>
 </tr>
 <tr class="odd">
-<td>Gaukite pagalbos dėl klausimų apie „Finance and Operations“ programų licencijavimą.</td>
+<td>Gaukite atsakymus į klausimus, susijusius su programų „Finance and Operations“ licencijavimu.</td>
 <td>Susisiekite su partneriu, stambių paskyrų pardavėju (LAR) ar „Microsoft“ pardavimo atstovu.</td>
 </tr>
 <tr class="even">
@@ -90,6 +90,6 @@ Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „Custome
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [„Dynamics 365 Retail“ palaikymo gavimas](../../../retail/retail-support.md)
-- [Palaikymo dėl „Microsoft Dynamics 365 Talent“ gavimas](../../../talent/talent-support.md)
-- Daugiau informacijos apie „Microsoft Dynamics” palaikymo pasiūlymus, žr. [„Finance and Operations“ programų palaikymo patirčių valdymas](cloud-powered-support-lcs.md).
+- [Palaikymo dėl „Microsoft Dynamics 365 Human Resources“ gavimas](../../../human-resources/hr-admin-troubleshooting-support.md)
+- Norėdami gauti daugiau informacijos apie „Microsoft Dynamics“ palaikymą, žr. [Tvarkyti palaikymo patirtis programoms „Finance and Operations“](cloud-powered-support-lcs.md).
 

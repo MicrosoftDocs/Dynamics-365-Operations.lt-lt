@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 7837fbaaffdbd61a1adce1698800017bf4f6a018
-ms.sourcegitcommit: 282552609fdb82ec4463f801023b4bc01bc151d5
+ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "2935392"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005731"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Debesies ir vietinių funkcijų palyginimas
 
@@ -32,8 +32,8 @@ ms.locfileid: "2935392"
 
 - [„Dynamics 365 Finance“](cloud-prem-comparison.md#dynamics-365-finance)
 - [„Dynamics 365 Supply Chain Management“](cloud-prem-comparison.md#dynamics-365-supply-chain-management)
-- [„Dynamics 365 Retail“](cloud-prem-comparison.md#dynamics-365-retail)
-- [„Dynamics 365 Talent“](cloud-prem-comparison.md#dynamics-365-talent)
+- [„Dynamics 365 Commerce“](cloud-prem-comparison.md#dynamics-365-commerce)
+- [„Dynamics 365 Human Resources“](cloud-prem-comparison.md#dynamics-365-human-resources)
 
 Taip pat pateikiama informacija apie [kūrimo ir administravimo funkcijas](cloud-prem-comparison.md#development-and-administration-features).
 
@@ -45,8 +45,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |---------------------|-----------------------------|-----------|-----------------|
 | Atitiktis ir sertifikavimai        |                                                                                           | Taip       | Taip             |
 |                                      | SOC 1 1 tipo sertifikavimas                                                                | Taip       | Ne              |
-| Duomenų valdymas ir integravimas      |                                                                                           | Taip       | Taip             |
-|                                      | Konfigūracijomis paremtas plėtinys                                                            | Taip       | Nr.              |
+| Duomenų valdymas ir integravimas      |                                                                                           | Taip       | Taip             
 |                                      | Duomenų eksportavimas į savo duomenų sandėlį                                                    | Taip       | Taip             |
 |                                      | Papildančiųjų naujinimų eksportavimo į duomenų objektą funkcijos įjungimas                                 | Taip       | Taip              |
 |                                      | Duomenų integravimai                                                                         | Taip       | Taip             |
@@ -146,15 +145,15 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 | Pagalba                              |                                                                                           | Taip       | Taip             |
 |                                      | Prieiga prie palaikymo per meniu Pagalba ir palaikymas                                             | Taip       | Ne              |
 
-## <a name="dynamics-365-retail"></a>„Dynamics 365 Retail” 
+## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Norėdami peržiūrėti mažmeninės prekybos galimybes, kurios suteikiamos vietinių visuotinių įdiegčių naudotojams, žr. [Mažmeninės prekybos galimybės vietinėse visuotinėse įdiegtyse](../../../retail/retail-onprem.md).
+Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių diegimų naudotojams, sąrašą žr. [Mažmeninės prekybos galimybės vietiniuose visuotinėse diegimuose](../../../retail/retail-onprem.md).
 
-## <a name="dynamics-365-talent"></a>„Dynamics 365 Talent“ 
+## <a name="dynamics-365-human-resources"></a>„Dynamics 365 Human Resources“ 
 
 | **Sritis**         | **Funkcija**         | **Debesis** | **Vietoje** |
 |------------------|---------------------|-----------|-----------------|
-| Visos „Talent“ sritys | Visos „Talent“ funkcijos | Taip       | Ne              |
+| Visos žmogiškųjų išteklių sritys | Visos žmogiškųjų išteklių funkcijos | Taip       | Ne              |
 
 ## <a name="development-and-administration-features"></a>Kūrimo ir administravimo funkcijos
 

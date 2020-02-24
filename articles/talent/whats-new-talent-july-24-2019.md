@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ffbb29fb89ed6a3fd6db11f2c8d656ab565c43f3
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 8d89b1251429281521f32338f642cc7034420e0b
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897654"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005991"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-23-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 23 d.)
 
@@ -73,6 +73,6 @@ Nauja parinktis leis vadovams peržiūrėti savo tiesioginių ataskaitų ir išp
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Regiono palaikymas Kanadai ir Pietryčių Azijai
 
-Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus įtraukti į programą „Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta čia [„Talent” konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus įtraukti į programą „Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta čia [„Talent” konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esamų projektų duomenų perkėlimas iš kitų regionų į Kanados ir Azijos regionus yra nepalaikomas. Tik nauji projektai gali būti konfigūruojami šiuose naujuose palaikomuose regionuose.

@@ -3,7 +3,7 @@ title: Įtraukti informaciją apie autorių teises
 description: Šioje temoje aprašoma, kaip į el. prekybos svetainę įtraukti informaciją apie autorių teises.
 author: psimolin
 manager: AnnBe
-ms.date: 12/12/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 58c2949057ef777f706d12cee2dd3341d1a3b7e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914581"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025487"
 ---
 # <a name="add-a-copyright-notice"></a>Įtraukti informaciją apie autorių teises
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip į el. prekybos svetainę įtraukti informaciją apie autorių teises.
@@ -48,8 +48,8 @@ Norėdami kiekvieno puslapio, kuriame naudojamas konkretus šablonas, apačioje 
 1. Naršymo srityje pasirinkite prie elemento **Poraštė** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange pasirinkite **Poraštės kategorija** ir **Gerai**.
 1. Naršymo srityje pasirinkite prie elemento **Poraštės kategorija** esantį daugtaškio mygtuką, tada – **Įtraukti modulį**.
-1. Dialogo lange pasirinkite **Raiškiojo turinio bloko elementas** ir **Gerai**.
-1. Naršymo srityje pasirinkite **Raiškiojo turinio bloko elementas**.
+1. Dialogo lange pasirinkite **Teksto blokas** ir **Gerai**.
+1. Naršymo srityje pasirinkite **Teksto blokas**.
 1. Dešinėje esančios ypatybių srities lauke **Pastraipa** įtraukite pranešimą apie autorių teises. Pavyzdžiui, įveskite **Autorių teisės priklauso „Fabrikam“, 2019 m.**
 1. Pasirinkite **Įrašyti**, **Įrašyti ir atrakinti**, tada – **Publikuoti**.
 1. Nueikite į **Šablonai**, pasirinkite šabloną, tada – **Paimti ir užrakinti**.
