@@ -17,60 +17,60 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 79d0e11946f3c6f4704d3a726d33de0378eb53bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 674d00faf1b30f87a0b0062129e1b9fbff955dd4
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914544"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001282"
 ---
-# <a name="add-script-code-to-site-pages-to-support-telemetry"></a><span data-ttu-id="23eaf-103">Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija</span><span class="sxs-lookup"><span data-stu-id="23eaf-103">Add script code to site pages to support telemetry</span></span>
+# <a name="add-script-code-to-site-pages-to-support-telemetry"></a><span data-ttu-id="70386-103">Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija</span><span class="sxs-lookup"><span data-stu-id="70386-103">Add script code to site pages to support telemetry</span></span>
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="23eaf-104">Šioje temoje aprašoma, kaip į savo svetainės puslapius įtraukti kliento scenarijaus kodą, kad būtų palaikoma kliento telemetrijos rinkimo galimybė.</span><span class="sxs-lookup"><span data-stu-id="23eaf-104">This topic describes how to add client-side script code to your site pages to support the collection of client-side telemetry.</span></span>
+<span data-ttu-id="70386-104">Šioje temoje aprašoma, kaip į savo svetainės puslapius įtraukti kliento scenarijaus kodą, kad būtų palaikoma kliento telemetrijos rinkimo galimybė.</span><span class="sxs-lookup"><span data-stu-id="70386-104">This topic describes how to add client-side script code to your site pages to support the collection of client-side telemetry.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="23eaf-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="23eaf-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="70386-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="70386-105">Overview</span></span>
 
-<span data-ttu-id="23eaf-106">Žiniatinklio analizė yra esminė priemonė, kai norima suprasti, kaip klientai elgiasi jūsų svetainėje, ir priimti sprendimus, kurie padės optimizuoti maksimalaus konvertavimo tikslą.</span><span class="sxs-lookup"><span data-stu-id="23eaf-106">Web analytics are an essential tool when you want to understand how your customers interact with your site and make decisions that will help optimize the experience for maximum conversion.</span></span> <span data-ttu-id="23eaf-107">Šiems tikslams pasiekti yra daug žiniatinklio analizės paketų, pvz., „Google Analytics“, „Clicky“, „Moz Analytics“ ir „KISSMetrics“.</span><span class="sxs-lookup"><span data-stu-id="23eaf-107">Many web analytics packages are available to help you achieve these goals, such as Google Analytics, Clicky, Moz Analytics, and KISSMetrics.</span></span> <span data-ttu-id="23eaf-108">Naudojant daugumą žiniatinklio analizės paketų reikalaujama, kad visuose svetainės puslapiuose į HTML elementą **\<head\>** įtrauktumėte kliento scenarijaus kodą.</span><span class="sxs-lookup"><span data-stu-id="23eaf-108">Most web analytics packages require that you add client-side script code in the **\<head\>** element of the HTML for all pages of your site.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="23eaf-109">Šioje temoje pateiktos instrukcijos taikomos ir kitoms pasirinktinėms kliento funkcijoms, kurių „Microsoft Dynamics 365 Commerce“ pati nesiūlo.</span><span class="sxs-lookup"><span data-stu-id="23eaf-109">The instructions in this topic also apply to other custom client-side functionality that Microsoft Dynamics 365 Commerce doesn't natively offer.</span></span>
-
-## <a name="create-a-reusable-fragment-for-your-script-code"></a><span data-ttu-id="23eaf-110">Pakartotinai galimo naudoti fragmento sukūrimas scenarijaus kodui</span><span class="sxs-lookup"><span data-stu-id="23eaf-110">Create a reusable fragment for your script code</span></span>
-
-<span data-ttu-id="23eaf-111">Sukūrus scenarijaus kodo fragmentą, jį galima pakartotinai naudoti visuose svetainės puslapiuose.</span><span class="sxs-lookup"><span data-stu-id="23eaf-111">After you create a fragment for your script code, it can be reused across all pages on your site.</span></span>
-
-1. <span data-ttu-id="23eaf-112">Nueikite į **Fragmentai \> Naujas puslapio fragmentas**.</span><span class="sxs-lookup"><span data-stu-id="23eaf-112">Go to **Fragments \> New page fragment**.</span></span>
-2. <span data-ttu-id="23eaf-113">Pasirinkite **Išorinis scenarijus**, įveskite fragmento pavadinimą ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="23eaf-113">Select **External Script**, enter a name for the fragment, and then select **OK**.</span></span>
-3. <span data-ttu-id="23eaf-114">Fragmentų hierarchijoje pasirinkite ką tik sukurto fragmento antrinį modulį **scenarijaus injektorius**.</span><span class="sxs-lookup"><span data-stu-id="23eaf-114">In the fragment hierarchy, select the **script injector** module child of the fragment that you just created.</span></span>
-4. <span data-ttu-id="23eaf-115">Dešinėje esančioje ypatybių srityje įtraukite kliento scenarijų ir pagal poreikį nustatykite kitas konfigūracijos parinktis.</span><span class="sxs-lookup"><span data-stu-id="23eaf-115">In the property pane on the right, add your client-side script, and set other configuration options as you require.</span></span>
-
-## <a name="add-the-fragment-to-templates"></a><span data-ttu-id="23eaf-116">Fragmento įtraukimas į šablonus</span><span class="sxs-lookup"><span data-stu-id="23eaf-116">Add the fragment to templates</span></span>
-
-1. <span data-ttu-id="23eaf-117">Nueikite į **Šablonai** ir atidarykite puslapių, į kuriuos norite įtraukti scenarijaus kodą, šabloną.</span><span class="sxs-lookup"><span data-stu-id="23eaf-117">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
-2. <span data-ttu-id="23eaf-118">Kairiojoje srityje išplėskite šablonų hierarchiją, kad būtų rodoma vieta **HTML antraštė**.</span><span class="sxs-lookup"><span data-stu-id="23eaf-118">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
-3. <span data-ttu-id="23eaf-119">Pasirinkite prie vietos **HTML antraštė** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti fragmentą**.</span><span class="sxs-lookup"><span data-stu-id="23eaf-119">Select the ellipsis button (**...**) for the **HTML Head** slot, and then select **Add fragment**.</span></span>
-4. <span data-ttu-id="23eaf-120">Pasirinkite fragmentą, kurį sukūrėte savo scenarijaus kodui.</span><span class="sxs-lookup"><span data-stu-id="23eaf-120">Select the fragment that you created for your script code.</span></span>
-5. <span data-ttu-id="23eaf-121">Šabloną įrašykite ir atrakinkite.</span><span class="sxs-lookup"><span data-stu-id="23eaf-121">Save the template, and check it in.</span></span>
+<span data-ttu-id="70386-106">Žiniatinklio analizė yra esminė priemonė, kai norima suprasti, kaip klientai elgiasi jūsų svetainėje, ir priimti sprendimus, kurie padės optimizuoti maksimalaus konvertavimo tikslą.</span><span class="sxs-lookup"><span data-stu-id="70386-106">Web analytics are an essential tool when you want to understand how your customers interact with your site and make decisions that will help optimize the experience for maximum conversion.</span></span> <span data-ttu-id="70386-107">Šiems tikslams pasiekti yra daug žiniatinklio analizės paketų, pvz., „Google Analytics“, „Clicky“, „Moz Analytics“ ir „KISSMetrics“.</span><span class="sxs-lookup"><span data-stu-id="70386-107">Many web analytics packages are available to help you achieve these goals, such as Google Analytics, Clicky, Moz Analytics, and KISSMetrics.</span></span> <span data-ttu-id="70386-108">Naudojant daugumą žiniatinklio analizės paketų reikalaujama, kad visuose svetainės puslapiuose į HTML elementą **\<head\>** įtrauktumėte kliento scenarijaus kodą.</span><span class="sxs-lookup"><span data-stu-id="70386-108">Most web analytics packages require that you add client-side script code in the **\<head\>** element of the HTML for all pages of your site.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="23eaf-122">Baigę turite publikuoti fragmentą ir pagrindinį šabloną.</span><span class="sxs-lookup"><span data-stu-id="23eaf-122">After you've finished, you must publish the fragment and the master template.</span></span> 
+> <span data-ttu-id="70386-109">Šioje temoje pateiktos instrukcijos taikomos ir kitoms pasirinktinėms kliento funkcijoms, kurių „Microsoft Dynamics 365 Commerce“ pati nesiūlo.</span><span class="sxs-lookup"><span data-stu-id="70386-109">The instructions in this topic also apply to other custom client-side functionality that Microsoft Dynamics 365 Commerce doesn't natively offer.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="23eaf-123">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="23eaf-123">Additional resources</span></span>
+## <a name="create-a-reusable-fragment-for-your-script-code"></a><span data-ttu-id="70386-110">Pakartotinai galimo naudoti fragmento sukūrimas scenarijaus kodui</span><span class="sxs-lookup"><span data-stu-id="70386-110">Create a reusable fragment for your script code</span></span>
 
-[<span data-ttu-id="23eaf-124">Įtraukti logotipą</span><span class="sxs-lookup"><span data-stu-id="23eaf-124">Add a logo</span></span>](add-logo.md)
+<span data-ttu-id="70386-111">Sukūrus scenarijaus kodo fragmentą, jį galima pakartotinai naudoti visuose svetainės puslapiuose.</span><span class="sxs-lookup"><span data-stu-id="70386-111">After you create a fragment for your script code, it can be reused across all pages on your site.</span></span>
 
-[<span data-ttu-id="23eaf-125">Pasirinkti svetainės temą</span><span class="sxs-lookup"><span data-stu-id="23eaf-125">Select a site theme</span></span>](select-site-theme.md)
+1. <span data-ttu-id="70386-112">Nueikite į **Fragmentai \> Naujas puslapio fragmentas**.</span><span class="sxs-lookup"><span data-stu-id="70386-112">Go to **Fragments \> New page fragment**.</span></span>
+2. <span data-ttu-id="70386-113">Pasirinkite **Išorinis scenarijus**, įveskite fragmento pavadinimą ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="70386-113">Select **External Script**, enter a name for the fragment, and then select **OK**.</span></span>
+3. <span data-ttu-id="70386-114">Fragmentų hierarchijoje pasirinkite ką tik sukurto fragmento antrinį modulį **scenarijaus injektorius**.</span><span class="sxs-lookup"><span data-stu-id="70386-114">In the fragment hierarchy, select the **script injector** module child of the fragment that you just created.</span></span>
+4. <span data-ttu-id="70386-115">Dešinėje esančioje ypatybių srityje įtraukite kliento scenarijų ir pagal poreikį nustatykite kitas konfigūracijos parinktis.</span><span class="sxs-lookup"><span data-stu-id="70386-115">In the property pane on the right, add your client-side script, and set other configuration options as you require.</span></span>
 
-[<span data-ttu-id="23eaf-126">Darbas su CSS perrašymo failais</span><span class="sxs-lookup"><span data-stu-id="23eaf-126">Work with CSS override files</span></span>](css-override-files.md)
+## <a name="add-the-fragment-to-templates"></a><span data-ttu-id="70386-116">Fragmento įtraukimas į šablonus</span><span class="sxs-lookup"><span data-stu-id="70386-116">Add the fragment to templates</span></span>
 
-[<span data-ttu-id="23eaf-127">Įtraukti parankinių piktogramą</span><span class="sxs-lookup"><span data-stu-id="23eaf-127">Add a favicon</span></span>](add-favicon.md)
+1. <span data-ttu-id="70386-117">Nueikite į **Šablonai** ir atidarykite puslapių, į kuriuos norite įtraukti scenarijaus kodą, šabloną.</span><span class="sxs-lookup"><span data-stu-id="70386-117">Go to **Templates**, and open the template for the pages that you want to add your script code to.</span></span>
+2. <span data-ttu-id="70386-118">Kairiojoje srityje išplėskite šablonų hierarchiją, kad būtų rodoma vieta **HTML antraštė**.</span><span class="sxs-lookup"><span data-stu-id="70386-118">In the left pane, expand the template hierarchy to show the **HTML Head** slot.</span></span>
+3. <span data-ttu-id="70386-119">Pasirinkite prie vietos **HTML antraštė** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti fragmentą**.</span><span class="sxs-lookup"><span data-stu-id="70386-119">Select the ellipsis button (**...**) for the **HTML Head** slot, and then select **Add fragment**.</span></span>
+4. <span data-ttu-id="70386-120">Pasirinkite fragmentą, kurį sukūrėte savo scenarijaus kodui.</span><span class="sxs-lookup"><span data-stu-id="70386-120">Select the fragment that you created for your script code.</span></span>
+5. <span data-ttu-id="70386-121">Šabloną įrašykite ir atrakinkite.</span><span class="sxs-lookup"><span data-stu-id="70386-121">Save the template, and check it in.</span></span>
 
-[<span data-ttu-id="23eaf-128">Įtraukti pasveikinimo pranešimą</span><span class="sxs-lookup"><span data-stu-id="23eaf-128">Add a welcome message</span></span>](add-welcome-message.md)
+> [!NOTE]
+> <span data-ttu-id="70386-122">Baigę turite publikuoti fragmentą ir pagrindinį šabloną.</span><span class="sxs-lookup"><span data-stu-id="70386-122">After you've finished, you must publish the fragment and the master template.</span></span> 
 
-[<span data-ttu-id="23eaf-129">Įtraukti informaciją apie autorių teises</span><span class="sxs-lookup"><span data-stu-id="23eaf-129">Add a copyright notice</span></span>](add-copyright-notice.md)
+## <a name="additional-resources"></a><span data-ttu-id="70386-123">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="70386-123">Additional resources</span></span>
 
-[<span data-ttu-id="23eaf-130">Kalbų įtraukimas į savo svetainę</span><span class="sxs-lookup"><span data-stu-id="23eaf-130">Add languages to your site</span></span>](add-languages-to-site.md)
+[<span data-ttu-id="70386-124">Įtraukti logotipą</span><span class="sxs-lookup"><span data-stu-id="70386-124">Add a logo</span></span>](add-logo.md)
+
+[<span data-ttu-id="70386-125">Pasirinkti svetainės temą</span><span class="sxs-lookup"><span data-stu-id="70386-125">Select a site theme</span></span>](select-site-theme.md)
+
+[<span data-ttu-id="70386-126">Darbas su CSS perrašymo failais</span><span class="sxs-lookup"><span data-stu-id="70386-126">Work with CSS override files</span></span>](css-override-files.md)
+
+[<span data-ttu-id="70386-127">Įtraukti parankinių piktogramą</span><span class="sxs-lookup"><span data-stu-id="70386-127">Add a favicon</span></span>](add-favicon.md)
+
+[<span data-ttu-id="70386-128">Įtraukti pasveikinimo pranešimą</span><span class="sxs-lookup"><span data-stu-id="70386-128">Add a welcome message</span></span>](add-welcome-message.md)
+
+[<span data-ttu-id="70386-129">Įtraukti informaciją apie autorių teises</span><span class="sxs-lookup"><span data-stu-id="70386-129">Add a copyright notice</span></span>](add-copyright-notice.md)
+
+[<span data-ttu-id="70386-130">Kalbų įtraukimas į savo svetainę</span><span class="sxs-lookup"><span data-stu-id="70386-130">Add languages to your site</span></span>](add-languages-to-site.md)
 

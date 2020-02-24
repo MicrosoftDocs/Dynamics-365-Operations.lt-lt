@@ -15,58 +15,58 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d95feb3395c36f9cf8a23770dc3173377067d9b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184881"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026068"
 ---
-# <a name="generate-documents-that-have-application-data"></a><span data-ttu-id="830ef-103">Dokumentų, kuriuose yra prašymų duomenys, generavimas</span><span class="sxs-lookup"><span data-stu-id="830ef-103">Generate documents that have application data</span></span>
+# <a name="generate-documents-that-have-application-data"></a><span data-ttu-id="cbf70-103">Dokumentų, kuriuose yra prašymų duomenys, generavimas</span><span class="sxs-lookup"><span data-stu-id="cbf70-103">Generate documents that have application data</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="830ef-104">Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (4 dalis: modifikuoti formatą)“.</span><span class="sxs-lookup"><span data-stu-id="830ef-104">To complete the steps in this procedure, you must first complete the procedure, “ER Generate documents with application data update (Part 4: Modify format)”.</span></span>
+<span data-ttu-id="cbf70-104">Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (4 dalis: modifikuoti formatą)“.</span><span class="sxs-lookup"><span data-stu-id="cbf70-104">To complete the steps in this procedure, you must first complete the procedure, “ER Generate documents with application data update (Part 4: Modify format)”.</span></span>
 
 
 
-<span data-ttu-id="830ef-105">Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis.</span><span class="sxs-lookup"><span data-stu-id="830ef-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="830ef-106">Šioje procedūroje vykdote ER formato konfigūraciją, kad sugeneruotumėte Intrastat ataskaitą ir atnaujintumėte programos duomenis ataskaitų proceso archyvavimo informacijai.</span><span class="sxs-lookup"><span data-stu-id="830ef-106">In this procedure, you execute the ER format configuration to generate the Intrastat report and update application data for archiving details of the reporting process.</span></span>
+<span data-ttu-id="cbf70-105">Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis.</span><span class="sxs-lookup"><span data-stu-id="cbf70-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="cbf70-106">Šioje procedūroje vykdote ER formato konfigūraciją, kad sugeneruotumėte Intrastat ataskaitą ir atnaujintumėte programos duomenis ataskaitų proceso archyvavimo informacijai.</span><span class="sxs-lookup"><span data-stu-id="cbf70-106">In this procedure, you execute the ER format configuration to generate the Intrastat report and update application data for archiving details of the reporting process.</span></span>
 
 
 
-<span data-ttu-id="830ef-107">Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo.</span><span class="sxs-lookup"><span data-stu-id="830ef-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="830ef-108">Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį.</span><span class="sxs-lookup"><span data-stu-id="830ef-108">These steps can be completed using the DEMF dataset.</span></span> <span data-ttu-id="830ef-109">Prieš pradėdami įsitikinkite, kad šalies kontekstas DEMF įmonei yra BEL (Belgija).</span><span class="sxs-lookup"><span data-stu-id="830ef-109">Before you begin, make sure that the country context for the DEMF company is BEL (Belgium).</span></span>
+<span data-ttu-id="cbf70-107">Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo.</span><span class="sxs-lookup"><span data-stu-id="cbf70-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="cbf70-108">Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį.</span><span class="sxs-lookup"><span data-stu-id="cbf70-108">These steps can be completed using the DEMF dataset.</span></span> <span data-ttu-id="cbf70-109">Prieš pradėdami įsitikinkite, kad šalies kontekstas DEMF įmonei yra BEL (Belgija).</span><span class="sxs-lookup"><span data-stu-id="cbf70-109">Before you begin, make sure that the country context for the DEMF company is BEL (Belgium).</span></span>
 
 
-## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="830ef-110">Nustatyti užsienio prekybos parametrus</span><span class="sxs-lookup"><span data-stu-id="830ef-110">Set up foreign trade parameters</span></span>
-1. <span data-ttu-id="830ef-111">Eikite į Mokestis > Nustatymas > Užsienio prekyba > Užsienio prekybos parametrai.</span><span class="sxs-lookup"><span data-stu-id="830ef-111">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
-2. <span data-ttu-id="830ef-112">Spustelėkite skirtuką Numeracijos.</span><span class="sxs-lookup"><span data-stu-id="830ef-112">Click the Number sequences tab.</span></span>
-    * <span data-ttu-id="830ef-113">Archyvuojami Intrastat ataskaitų kūrimo proceso informaciją, turime nustatyti kiekvieno archyvo, kurį sukūrėme, įrašus.</span><span class="sxs-lookup"><span data-stu-id="830ef-113">Archiving details of Intrastat reporting process, we need to identify records of each archive we created.</span></span> <span data-ttu-id="830ef-114">Tam reikia konfigūruoti specialią numerių seką.</span><span class="sxs-lookup"><span data-stu-id="830ef-114">A special number sequence must be configured for that.</span></span>  
-3. <span data-ttu-id="830ef-115">Pasirinkite „Intrastat archyvo ID“ nuorodą.</span><span class="sxs-lookup"><span data-stu-id="830ef-115">Select the ‘Intrastat archive ID’ reference.</span></span>
-4. <span data-ttu-id="830ef-116">Lauke Numeracijos kodas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="830ef-116">In the Number sequence code field, type a value.</span></span>
-    * <span data-ttu-id="830ef-117">Lauke „Numerių sekos kodas“ įveskite arba pasirinkite vertę „Fore_2“.</span><span class="sxs-lookup"><span data-stu-id="830ef-117">In the ‘Number sequence code’ field, enter or select the value ‘Fore_2’.</span></span>  
-5. <span data-ttu-id="830ef-118">ResolveChanges Numerio sekos kodas.</span><span class="sxs-lookup"><span data-stu-id="830ef-118">ResolveChanges the Number sequence code.</span></span>
-6. <span data-ttu-id="830ef-119">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="830ef-119">Click Save.</span></span>
-7. <span data-ttu-id="830ef-120">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="830ef-120">Close the page.</span></span>
+## <a name="set-up-foreign-trade-parameters"></a><span data-ttu-id="cbf70-110">Nustatyti užsienio prekybos parametrus</span><span class="sxs-lookup"><span data-stu-id="cbf70-110">Set up foreign trade parameters</span></span>
+1. <span data-ttu-id="cbf70-111">Eikite į Mokestis > Nustatymas > Užsienio prekyba > Užsienio prekybos parametrai.</span><span class="sxs-lookup"><span data-stu-id="cbf70-111">Go to Tax > Setup > Foreign trade > Foreign trade parameters.</span></span>
+2. <span data-ttu-id="cbf70-112">Spustelėkite skirtuką Numeracijos.</span><span class="sxs-lookup"><span data-stu-id="cbf70-112">Click the Number sequences tab.</span></span>
+    * <span data-ttu-id="cbf70-113">Archyvuojami Intrastat ataskaitų kūrimo proceso informaciją, turime nustatyti kiekvieno archyvo, kurį sukūrėme, įrašus.</span><span class="sxs-lookup"><span data-stu-id="cbf70-113">Archiving details of Intrastat reporting process, we need to identify records of each archive we created.</span></span> <span data-ttu-id="cbf70-114">Tam reikia konfigūruoti specialią numerių seką.</span><span class="sxs-lookup"><span data-stu-id="cbf70-114">A special number sequence must be configured for that.</span></span>  
+3. <span data-ttu-id="cbf70-115">Pasirinkite „Intrastat archyvo ID“ nuorodą.</span><span class="sxs-lookup"><span data-stu-id="cbf70-115">Select the ‘Intrastat archive ID’ reference.</span></span>
+4. <span data-ttu-id="cbf70-116">Lauke Numeracijos kodas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbf70-116">In the Number sequence code field, type a value.</span></span>
+    * <span data-ttu-id="cbf70-117">Lauke „Numerių sekos kodas“ įveskite arba pasirinkite vertę „Fore_2“.</span><span class="sxs-lookup"><span data-stu-id="cbf70-117">In the ‘Number sequence code’ field, enter or select the value ‘Fore_2’.</span></span>  
+5. <span data-ttu-id="cbf70-118">ResolveChanges Numerio sekos kodas.</span><span class="sxs-lookup"><span data-stu-id="cbf70-118">ResolveChanges the Number sequence code.</span></span>
+6. <span data-ttu-id="cbf70-119">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="cbf70-119">Click Save.</span></span>
+7. <span data-ttu-id="cbf70-120">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbf70-120">Close the page.</span></span>
 
-## <a name="run-modified-er-format"></a><span data-ttu-id="830ef-121">Paleiskite pakeistą ER formatą</span><span class="sxs-lookup"><span data-stu-id="830ef-121">Run modified ER format</span></span>
-1. <span data-ttu-id="830ef-122">Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="830ef-122">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="830ef-123">Medyje išplėskite „Intrastat (model)“.</span><span class="sxs-lookup"><span data-stu-id="830ef-123">In the tree, expand 'Intrastat (model)'.</span></span>
-3. <span data-ttu-id="830ef-124">Medyje pasirinkite „Intrastat (model)\Intrastat (format)“.</span><span class="sxs-lookup"><span data-stu-id="830ef-124">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
-4. <span data-ttu-id="830ef-125">Spustelėkite Vykdyti.</span><span class="sxs-lookup"><span data-stu-id="830ef-125">Click Run.</span></span>
-5. <span data-ttu-id="830ef-126">Lauke Įveskite failo pavadinimą įveskite „intrastat2.xml“.</span><span class="sxs-lookup"><span data-stu-id="830ef-126">In the Enter file name field, type 'intrastat2.xml'.</span></span>
-    * <span data-ttu-id="830ef-127">intrastat2.xml</span><span class="sxs-lookup"><span data-stu-id="830ef-127">intrastat2.xml</span></span>  
-6. <span data-ttu-id="830ef-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="830ef-128">Click OK.</span></span>
+## <a name="run-modified-er-format"></a><span data-ttu-id="cbf70-121">Paleiskite pakeistą ER formatą</span><span class="sxs-lookup"><span data-stu-id="cbf70-121">Run modified ER format</span></span>
+1. <span data-ttu-id="cbf70-122">Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.</span><span class="sxs-lookup"><span data-stu-id="cbf70-122">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="cbf70-123">Medyje išplėskite „Intrastat (model)“.</span><span class="sxs-lookup"><span data-stu-id="cbf70-123">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="cbf70-124">Medyje pasirinkite „Intrastat (model)\Intrastat (format)“.</span><span class="sxs-lookup"><span data-stu-id="cbf70-124">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="cbf70-125">Spustelėkite Vykdyti.</span><span class="sxs-lookup"><span data-stu-id="cbf70-125">Click Run.</span></span>
+5. <span data-ttu-id="cbf70-126">Lauke Įveskite failo pavadinimą įveskite „intrastat2.xml“.</span><span class="sxs-lookup"><span data-stu-id="cbf70-126">In the Enter file name field, type 'intrastat2.xml'.</span></span>
+    * <span data-ttu-id="cbf70-127">intrastat2.xml</span><span class="sxs-lookup"><span data-stu-id="cbf70-127">intrastat2.xml</span></span>  
+6. <span data-ttu-id="cbf70-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cbf70-128">Click OK.</span></span>
 
-## <a name="review-er-format-executions-results"></a><span data-ttu-id="830ef-129">Peržiūrėkite ER formato vykdymo rezultatus</span><span class="sxs-lookup"><span data-stu-id="830ef-129">Review ER format execution’s results</span></span>
-    * <span data-ttu-id="830ef-130">Peržiūrėkite sugeneruotą XML failą.</span><span class="sxs-lookup"><span data-stu-id="830ef-130">Review the generated XML file.</span></span>  
-1. <span data-ttu-id="830ef-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="830ef-131">Close the page.</span></span>
-2. <span data-ttu-id="830ef-132">Pasirinkite Mokesčiai > Deklaracijos > Užsienio prekyba > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="830ef-132">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-    * <span data-ttu-id="830ef-133">Atidarykite šią formą, kurioje yra Intrastat operacijos, kurios buvo įtrauktos sugeneruotą elektroninį dokumentą.</span><span class="sxs-lookup"><span data-stu-id="830ef-133">Open this form containing Intrastat transactions that have been included to the generated electronic document.</span></span>  
-3. <span data-ttu-id="830ef-134">Spustelėkite Intrastat archyvas.</span><span class="sxs-lookup"><span data-stu-id="830ef-134">Click Intrastat archive.</span></span>
-    * <span data-ttu-id="830ef-135">Kadangi įvykdyto ER formate dabar yra programos duomenų atnaujinimo parametrai, informacija apie užpildytą Intrastat ataskaitą suarchyvuota.</span><span class="sxs-lookup"><span data-stu-id="830ef-135">Since the executed ER format contains now settings for application data update, the details of the completed Intrastat reporting have been archived.</span></span> <span data-ttu-id="830ef-136">Šioje formoje galite pamatyti sukurto archyvo antraštės įrašą.</span><span class="sxs-lookup"><span data-stu-id="830ef-136">In this form, you can see the header record of the created archive.</span></span>  
-4. <span data-ttu-id="830ef-137">Spustelėkite Informacija.</span><span class="sxs-lookup"><span data-stu-id="830ef-137">Click Details.</span></span>
-    * <span data-ttu-id="830ef-138">Šioje formoje galite pamatyti sukurto archyvo išsamią informaciją.</span><span class="sxs-lookup"><span data-stu-id="830ef-138">In this form, you can see the details for the created archive.</span></span>  
-5. <span data-ttu-id="830ef-139">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="830ef-139">Close the page.</span></span>
-6. <span data-ttu-id="830ef-140">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="830ef-140">Close the page.</span></span>
-7. <span data-ttu-id="830ef-141">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="830ef-141">Close the page.</span></span>
+## <a name="review-er-format-executions-results"></a><span data-ttu-id="cbf70-129">Peržiūrėkite ER formato vykdymo rezultatus</span><span class="sxs-lookup"><span data-stu-id="cbf70-129">Review ER format execution’s results</span></span>
+<span data-ttu-id="cbf70-130">Peržiūrėkite sugeneruotą XML failą.</span><span class="sxs-lookup"><span data-stu-id="cbf70-130">Review the generated XML file.</span></span>  
+1. <span data-ttu-id="cbf70-131">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbf70-131">Close the page.</span></span>
+2. <span data-ttu-id="cbf70-132">Pasirinkite Mokesčiai > Deklaracijos > Užsienio prekyba > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="cbf70-132">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+    * <span data-ttu-id="cbf70-133">Atidarykite šią formą, kurioje yra Intrastat operacijos, kurios buvo įtrauktos sugeneruotą elektroninį dokumentą.</span><span class="sxs-lookup"><span data-stu-id="cbf70-133">Open this form containing Intrastat transactions that have been included to the generated electronic document.</span></span>  
+3. <span data-ttu-id="cbf70-134">Spustelėkite Intrastat archyvas.</span><span class="sxs-lookup"><span data-stu-id="cbf70-134">Click Intrastat archive.</span></span>
+    * <span data-ttu-id="cbf70-135">Kadangi įvykdyto ER formate dabar yra programos duomenų atnaujinimo parametrai, informacija apie užpildytą Intrastat ataskaitą suarchyvuota.</span><span class="sxs-lookup"><span data-stu-id="cbf70-135">Since the executed ER format contains now settings for application data update, the details of the completed Intrastat reporting have been archived.</span></span> <span data-ttu-id="cbf70-136">Šioje formoje galite pamatyti sukurto archyvo antraštės įrašą.</span><span class="sxs-lookup"><span data-stu-id="cbf70-136">In this form, you can see the header record of the created archive.</span></span>  
+4. <span data-ttu-id="cbf70-137">Spustelėkite Informacija.</span><span class="sxs-lookup"><span data-stu-id="cbf70-137">Click Details.</span></span>
+    * <span data-ttu-id="cbf70-138">Šioje formoje galite pamatyti sukurto archyvo išsamią informaciją.</span><span class="sxs-lookup"><span data-stu-id="cbf70-138">In this form, you can see the details for the created archive.</span></span>  
+5. <span data-ttu-id="cbf70-139">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbf70-139">Close the page.</span></span>
+6. <span data-ttu-id="cbf70-140">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbf70-140">Close the page.</span></span>
+7. <span data-ttu-id="cbf70-141">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="cbf70-141">Close the page.</span></span>
 
