@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 21ee0b835cbe6cc3a238247be29f8a8d3de42a8d
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: bdbff802ca85f7cc568efb8a1aacaf6f8fb2874a
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570753"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004001"
 ---
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
@@ -32,7 +32,7 @@ ms.locfileid: "2570753"
 
 Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų. 
 
-Produktų informacija yra tiekimo grandinės ir mažmeninės prekybos programų pagrindas visose pramonės šakose. Ji nurodo procesus ir technologijas, kuriuos naudojant pirmiausia centralizuotai valdoma informacija apie produktus (pavyzdžiui, keliose tiekimo grandinėse). Labai svarbu, kad būtų naudojamos bendrinamos produktų apibrėžtys, dokumentacija, atributai ir identifikatoriai. Įvairiuose verslo sprendimo moduliuose būtina turėti konkretaus produkto informaciją ir konfigūraciją, kad būtų galima valdyti verslo procesus, susijusius su konkrečiais produktais, produktų šeimomis ar produktų kategorijomis.
+Informacija apie produktus yra tiekimo grandinės ir prekybos programų pagrindas visose pramonės šakose. Ji nurodo procesus ir technologijas, kuriuos naudojant pirmiausia centralizuotai valdoma informacija apie produktus (pavyzdžiui, keliose tiekimo grandinėse). Labai svarbu, kad būtų naudojamos bendrinamos produktų apibrėžtys, dokumentacija, atributai ir identifikatoriai. Įvairiuose verslo sprendimo moduliuose būtina turėti konkretaus produkto informaciją ir konfigūraciją, kad būtų galima valdyti verslo procesus, susijusius su konkrečiais produktais, produktų šeimomis ar produktų kategorijomis.
 
 ## <a name="product-definition"></a>Produkto apibrėžtis
 

@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 347db3af36521e11dc70d5188dcc54b07efa1fbe
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 07905b9a843eb42d3031dcc80b4e185c122a9e50
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697847"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002940"
 ---
 # <a name="overview-of-cart-and-checkout-pages"></a>Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
@@ -65,11 +65,11 @@ Pagrindinė pirkimo užbaigimo puslapio struktūra yra vieta, kur renkama visa u
 
 ### <a name="shipping-address"></a>Siuntimo adresas
 
-Siuntimo adresas yra būtinas, jei prekės turi būti išsiųstos. Galima konfigūruoti kiekvienos lokalės siuntimo adresų formatą sprendime „Dynamics 365 Retail“. Pavyzdžiui, jei prekės bus išsiųstos į Jungtines Amerikos Valstijas, siuntimo adrese turi būti gatvės adresas, valstija ir pašto indeksas. Siuntimo adreso laukams atliekamas tam tikras pagrindinis įvesties patvirtinimas, pvz., tikrinami raidiniai ir skaitmenų simboliai, maksimalus ilgis ir numeriai. Nors pats adreso galiojimas nepatvirtintas, šį tikrinimą galima atlikti naudojant pritaikytas trečiosios šalies tarnybas.
+Siuntimo adresas yra būtinas, jei prekės turi būti išsiųstos. Galima konfigūruoti kiekvienos lokalės siuntimo adresų formatą sprendime „Dynamics 365 Commerce“. Pavyzdžiui, jei prekės bus išsiųstos į Jungtines Amerikos Valstijas, siuntimo adrese turi būti gatvės adresas, valstija ir pašto indeksas. Siuntimo adreso laukams atliekamas tam tikras pagrindinis įvesties patvirtinimas, pvz., tikrinami raidiniai ir skaitmenų simboliai, maksimalus ilgis ir numeriai. Nors pats adreso galiojimas nepatvirtintas, šį tikrinimą galima atlikti naudojant pritaikytas trečiosios šalies tarnybas.
 
 Siuntimo adresas taikomas visoms krepšelio prekėms, kurių parinkta parinktis Siųsti. Jei naudojate pirkimo užbaigimo srautą, kuris pateikiamas internetiniame darbo pradžios rinkinyje, atskiros krepšelio prekės negali būti išsiųstos į skirtingus adresus. Jei norite, kad ši funkcija būtų galima, ji gali būti įgyvendinta naudojant pirkimo užbaigimo modulių tinkinimą.
 
-Kai pateikiamas siuntimo adresas, bus rodomi siuntimo būdai, galimi „Dynamics 365 Commerce“ internetinėje parduotuvėje. Siuntimo būdai ir adresai, kuriuos jie palaiko, gali būti sukonfigūruoti „Retail“ programoje.
+Kai pateikiamas siuntimo adresas, bus rodomi siuntimo būdai, galimi „Dynamics 365 Commerce“ internetinėje parduotuvėje. Siuntimo būdus ir adresus, kuriuos jie palaiko, galima sukonfigūruoti „Commerce“.
 
 ### <a name="payment"></a>Mokėjimas
 

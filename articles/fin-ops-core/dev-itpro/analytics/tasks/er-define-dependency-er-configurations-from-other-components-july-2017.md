@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d949be57d9e9fe744860f5c4045bef2923b7f284
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 97aedf17bb6fa67fd08497ec6e15a7c92866fa4d
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249186"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026115"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
 
@@ -49,7 +49,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 7. Pasirinkite Microsoft Dynamics 365 for Operations (1611).
 8. Lauke Versija įrašykite „[7.1.1541.3036,8)“.
     * [7.1.1541.3036,8)  
-    * Įvedamos priklausomybės įvertinamos atsisiunčiant šią konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei ji atsisiųsta iš anksto, ji būti baigta naudojant „Finance and Operations“i 7.1.1541.3036 arba naujesnę versiją, tačiau ji negali būti naujesnės nei 8 pagrindinės versijos.   
+    * Įvedamos priklausomybės įvertinamos atsisiunčiant šią konfigūraciją iš ER saugyklos. Ši konfigūracijos versija bus atsisiųsta iš ER saugyklos, kai „Duomenų pavyzdžio modelio“ 1 versijos konfigūracija jau bus reikiamoje vietoje arba iš anksto atsisiųsta. Jei ji atsisiųsta iš anksto, ji turi būti baigta naudojant „Finance and Operations“ 7.1.1541.3036 arba naujesnę versiją, tačiau ji negali būti naujesnės nei 8 pagrindinės versijos.   
 9. Spustelėkite Įrašyti.
 10. Uždarykite puslapį.
 11. Spustelėkite keisti būseną.
@@ -109,7 +109,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
     * 1.1 šios modelio susiejimo konfigūracijos versija nusiųsta į LCS, naudojant LCS projektą ER saugyklai, kuri anksčiau buvo sukonfigūruota.   
 
 ## <a name="evaluate-er-configuration-dependencies"></a>Įvertinkite ER konfigūracijos priklausomybes
-    * Mes panaikinsime iš sistemos sukurtas konfigūracijas ir vėl atsisiųsime jas iš LCS saugyklos.  
+Mes panaikinsime iš sistemos sukurtas konfigūracijas ir vėl atsisiųsime jas iš LCS saugyklos.  
 1. Medyje pasirinkite „Sample data model\Sample mapping“.
 2. Spustelėkite Naikinti.
 3. Spustelėkite Taip.
@@ -139,5 +139,5 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 25. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
 26. Medyje išplėskite „Duomenų pavyzdžio modelis“.
     * Atkreipkite dėmesį, kad modelio „Susiejimo pavyzdys“ susiejimo konfigūracija buvo atsisiųsta kartu su pasirinkta duomenų modelio konfigūracija. Du failai atsisiunčiami kartu, kadangi „Susiejimo pavyzdys“ apibrėžtas kaip pasirinkto duomenų modelio įgyvendinimas, ir todėl, kad jis taikomas programoms. Konfigūracija „Susiejimo pavyzdys (alternatyvus)“ dar neatsisiųsta, nes reikiamos programos versijos sąlyga nėra patenkinta.   
-    * Jei prisijungiate prie „Finance and Operations“, registruojate tą patį teikėją, jungiatės prie to paties LCS projekto ir atsisiunčiate tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
+    * Jei prisijungiate prie „Finance and Operations“, registruojate tą patį teikėją, naudojate prieigą prie to paties LCS projekto ir atsisiunčiate tą pačią duomenų modelio konfigūraciją, bus atsisiųsta konfigūracija „Susiejimo pavyzdys (alternatyvus)“, o konfigūracija „Susiejimo pavyzdys“ bus praleista.  
 

@@ -1,9 +1,9 @@
 ---
-title: Pagrindinis mobiliosios programos puslapis
-description: Šioje temoje aprašoma „Finance and Operations“ mobilioji programa ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
+title: Mobiliosios programos pagrindinis puslapis
+description: Šioje temoje aprašoma mobiliųjų įrenginių programėlė „Finance and Operations“ („Dynamics 365“) ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
 author: sericks007
 manager: AnnBe
-ms.date: 11/26/2019
+ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: aaff4e3b3bfb079e183a12a5a85e452eed6df51d
-ms.sourcegitcommit: e30ced8f136ef23017d2d8215a756236e42eec25
+ms.openlocfilehash: 012b51b66c831a66a54c7c868735e310f05eb8c1
+ms.sourcegitcommit: f939bc6292840e29bc0f498efc8f4641dfe8f994
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853937"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "2975202"
 ---
 # <a name="mobile-app-home-page"></a>Mobiliosios programos pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašoma „Finance and Operations“ mobilioji programa ir pateikiami saitai į išteklius, kurie gali padėti programą įdiegti jūsų organizacijoje.
+Šioje temoje aprašoma mobiliųjų įrenginių programėlė **„Finance and Operations“ („Dynamics 365“)** ir pateikiamos nuorodos į išteklius, kurie jums gali padėti tai įgyvendinti savo organizacijoje.
 
 <a name="overview"></a>Apžvalga
 --------
@@ -80,7 +80,7 @@ Tolesnėje iliustracijoje parodytas mobiliųjų darbo sričių, kurias teikia �
 <tr class="odd">
 <td>1</td>
 <td>Sistemos administratorius</td>
-<td>Įdiekite „Finance and Operations“ programas savo organizacijoje.</td>
+<td>Programos „Finance and Operations“ diegimas jūsų organizacijoje.</td>
 <td><ul><li>Jei dar neįdiegėte kokios nors „Microsoft Dynamics 365“ versijos, žr. <a href="../deployment/deploy-demo-environment.md">Visuotinis demonstracinės aplinkos diegimas</a>.</li><li>Norėdami peržiūrėti mobiliųjų sričių, kurias galima naudoti, sąrašą, žr. <a href="mobile-workspaces-released.md">Neseniai išleistos mobiliosios darbo sritys</a>.</li></ul></td>
 </tr>
 <tr class="even">

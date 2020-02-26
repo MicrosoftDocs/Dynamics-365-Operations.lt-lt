@@ -3,7 +3,7 @@ title: Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurody
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: AnnBe
-ms.date: 09/21/2018
+ms.date: 02/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d9a5292e88fe022482ab9c6c5a8f016745946988
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 4645cf36201aa1b87c22ba4dbfb1b8d8117f425a
+ms.sourcegitcommit: fb7d0efd97754f1ae0b5aa765d0eeb3f57b8078f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026966"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3028033"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus
 
@@ -152,7 +152,7 @@ Pažymėkite norėdami paketų strategijas naudoti prekėms, kurioms įgalinti p
 ### <a name="strategy"></a>Strategija
 
 -   **Konsoliduoti** – Ši strategija naudojama norint konsoliduoti konkrečios vietos prekes, kai jau yra panašių prekių. Tai taikoma tik vietos nurodymo paėmimo tipui. Dažniausiai padėjimas nustatomas taip, kad būtų konsoliduojama pirmoje veiksmo eilutėje, o paskui antroje eilutėje pabandoma padėti nekonsoliduojant. Konsoliduojant prekes vėliau jų paėmimas vyksta sparčiau.
--   **Pakavimo kiekio atitikimas** – Ši strategija naudojama norint patikrinti, ar paėmimo vietoje yra konkretus pakavimo kiekis. Tai taikoma tik paėmimo tipo vietos nurodymui. 
+-   **Pakuotės kiekio atitikimas:** – ši strategija suras vietą, kurioje yra numerio lentelė, turinti tikslų reikalaujamą kiekį. Jos negalima naudoti su vietomis, kurios nėra valdomos pagal numerio lentelę. Ši strategija taikoma tik paėmimo darbo tipo vietos nurodymui.
 -   **FEFO paketo rezervavimas** – Ši strategija naudojama, kai atsargos surandamos naudojant paketo galiojimo datą ir priskiriamos paketo rezervavimui. Šią strategiją galima naudoti tik prekėms, kurioms įgalinti paketai. Tai taikoma tik paėmimo darbo tipo vietos nurodymui. 
 -   **Apvalinti iki viso LP** – Ši strategija naudojama norint suapvalinti atsargų kiekį, kad atitiktų paimamoms prekėms priskirtą numerio lentelės (LP) kiekį. Šią strategiją galite naudoti tik paėmimo tipo vietos nurodymo papildymo tipui. 
 -   **Tuščia vieta, kurioje negaunama darbo** – Ši strategija naudojama tuščioms vietoms rasti. Vieta laikoma tuščia, jei joje nėra fizinių atsargų ir jokio planuojamo darbo. Ši strategija naudojama tik vietos nurodymo padėjimo tipui. 

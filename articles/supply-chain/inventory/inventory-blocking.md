@@ -3,7 +3,7 @@ title: Atsargų blokavimas
 description: Šioje temoje apžvelgiamas atsargų blokavimas, kuris yra „Supply Chain Management‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f41fbe6e2034c0e58fc03d1dfbbd87844f3a4466
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e1a870936619d07db01d5a8fe83b3fab73693187
+ms.sourcegitcommit: e5a3c85a322a9216b8f176536d664fef40ae0bec
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814380"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "2971492"
 ---
 # <a name="inventory-blocking"></a>Atsargų blokavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje apžvelgiamas atsargų blokavimas, kuris yra „Supply Chain Management‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
+Šioje temoje apžvelgiamas atsargų blokavimas, kuris yra „Supply Chain Management‟ kokybės tikrinimo proceso dalis. Naudodami atsargų blokavimą galite neleisti apdoroti ar vartoti prekių.
 
 Atsargų prekes blokuoti galite toliau nurodytais būdais.
 -   Rankiniu būdu
@@ -43,6 +43,9 @@ Galite blokuoti prekės kiekį, sukurdami operaciją puslapyje **Atsargų blokav
 
 ## <a name="blocking-items-by-creating-a-quality-order"></a>Prekių blokavimas sukuriant kokybės užsakymą
 Galite nurodyti prekes, kurias reikia patikrinti, kurdami kokybės užsakymą puslapyje **Kokybės užsakymai**. Sukūrus kokybės užsakymą, nurodytas prekės kiekis yra užblokuojamas. Pavyzdžių ėmimo planas, susietas su kokybės užsakymu, valdo tik prekių, kurias reikia patikrinti, kiekį, o ne kiekį, kuris yra užblokuotas. Užblokuojamas tas prekės kiekis, kuris įvestas kokybės užsakyme, neatsižvelgiant į pavyzdžių ėmimo plane nurodytą kaip siųstiną tikrinti kiekį.
+
+> [!NOTE]
+> Bendrasis planavimas nepalaiko nei paketo galiojimo datos, nei atsargų būsenos blokavimo funkcijų, kai jos naudojamos kartu. Tai gali lemti dvigubą turimų atsargų neįtraukimą, kuris gali įvykti per bendrąjį planavimą. Norėdami blokuoti nebegaliojančius paketus, naudokite paketo perdavimo kodus, o ne atsargų būseną.
 
 ## <a name="blocking-items-by-using-a-process-that-generates-a-quality-order"></a>Prekių blokavimas naudojant procesą, kuris generuoja kokybės užsakymą
 Jei kokybės procese nurodyta, kad prekę reikia patikrinti, prekių kiekis blokuojamas automatiškai. Todėl, kai automatiškai sugeneruojamas kokybės užsakymas, prekių tikrinimo planas, susijęs su kokybės užsakymu, kontroliuoja ir blokuojamų prekių kiekį, ir prekių, kurias reikia patikrinti, kiekį. Jei puslapyje **Prekės pavyzdžio ėmimas** pasirinkta parinktis **Visiškas blokavimas**, per patikrinimą blokuojamas visas kiekis, pvz., pirkimo užsakymo eilutė, nepaisant prekės tikrinimo kiekio.

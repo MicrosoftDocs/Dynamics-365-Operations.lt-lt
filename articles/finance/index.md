@@ -1,5 +1,5 @@
 ---
-title: Pagrindinis finansų valdymo puslapis
+title: „Finance“ pagrindinis puslapis
 description: Šioje temoje pateikiamas „Microsoft Dynamics 365 Finance“ finansų valdymo funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: roschlom
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b5ed05e9c53b17632e94e913f7f3663676c3e91
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
+ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770579"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "3000330"
 ---
-# <a name="financial-management-home-page"></a>Pagrindinis finansų valdymo puslapis
+# <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
 [!include [banner](includes/banner.md)]
 
@@ -60,7 +60,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [„Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
+Programoje „Finance and Operations“ papildoma pagalba prieinama kaip užduočių vedliai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
 
 ### <a name="videos"></a>Vaizdo įrašai
 
@@ -72,5 +72,5 @@ Peržiūrėkite mokomuosius vaizdo įrašus, kuriuos dabar galite rasti [„Micr
 
 ### <a name="additional-content"></a>Papildomas turinys
 
-Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, sąskaitų faktūrų išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informacijos apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindinį „Supply Chain Management” puslapį](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
+Tiekimo grandinės valdymo funkcijos apima įsigijimo ir apmokėjimo proceso dalis, į kurias įeina pareikalavimas, užsakymas, gavimas, sąskaitų faktūrų išrašymas ir apmokėjimas už organizacijos įsigytas prekes ir paslaugas. Informaciją apie pirkimo, atsargų ir gamybos pajėgumus žr. [pagrindiniame „Supply Chain Management” puslapyje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md). 
 

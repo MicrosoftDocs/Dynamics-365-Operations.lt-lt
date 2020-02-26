@@ -1,6 +1,6 @@
 ---
-title: Sukurti produktą
-description: Ši procedūra padeda kurti naują produktą mažmeninės prekybos produktų hierarchijoje.
+title: Produkto kūrimas
+description: Ši procedūra padeda kurti naują produktą prekybos produktų hierarchijoje.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,23 +16,23 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1dca3156a7fb90f8117e34225938cba151916842
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: dd154aeb037be5ac1062cc12a5911638db5a8239
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2026330"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003932"
 ---
-# <a name="create-a-product"></a>Sukurti produktą
+# <a name="create-a-product"></a>Produkto kūrimas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Ši procedūra padeda kurti naują produktą „Retail” produktų hierarchijoje. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USRT, ir ši užduotis yra skirta reklamavimo vadovui ir produktų dizaineriui.
+Ši procedūra padeda kurti naują produktą prekybos produktų hierarchijoje. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USRT, ir ši užduotis yra skirta reklamavimo vadovui ir produktų dizaineriui.
 
 1. Eikite į Mažmeninė prekyba ir prekyba> ... > Produktai pagal kategoriją.
 2. Spustelėkite Naujas.
 3. Lauke Produkto pavadinimas įveskite produkto pavadinimą.
-4. Lauke Mažmeninės prekybos kategorija spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+4. Kategorijos lauke spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 5. Medyje išplėskite „VISOS (VISOS) \ Madingos prekės (madingos prekės)‟.
 6. Medyje pasirinkite „VISOS (VISOS) \ Madingos prekės (Madingos prekės) \ Madingi priedai (Madingi priedai)“.
 7. Spustelėkite Gerai.

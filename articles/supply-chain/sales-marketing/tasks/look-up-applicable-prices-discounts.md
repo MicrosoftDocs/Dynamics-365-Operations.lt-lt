@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db9caaa7f425133eda7a5f225b39ca52e11e0716
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: debf66029d6efa42fe6d85eadb3866aadb312a97
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1835592"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025833"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Peržiūrėti taikytinas kainas ir nuolaidas
 
@@ -49,7 +49,7 @@ ms.locfileid: "1835592"
 10. Uždarykite puslapį.
 
 ## <a name="find-the-applicable-discount"></a>Rasti taikomą nuolaidą
-    * Įsitikinkite, kad lauke „Kliento sąskaita“ yra kliento numeris US-001    
+Įsitikinkite, kad lauke „Kliento sąskaita“ yra kliento numeris US-001    
 1. Lauke „Prekės numeris“ įveskite „T0012“.
     * Įsitikinkite, kad lauko „Kiekis“ reikšmė yra 1.  
     * Tokie produktui T0012 taikomi įkainiai nustatyti pagal vieną ar daugiau prekybos sutarčių: vieneto kaina yra 1000 CAD, o nuolaidos procentas yra 5.  

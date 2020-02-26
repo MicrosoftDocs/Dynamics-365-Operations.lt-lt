@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7506953c797f5a55a93f1169bf48af8b06eb440e
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 68e3f428215bdc4f9a4ce0dd69cfd4482c72fbf3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896801"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006269"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-23-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. spalio 23 d.)
 
@@ -39,17 +39,17 @@ ms.locfileid: "2896801"
 
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2569 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo palaikymo numerius „Microsoft Dynamics Lifecycle Services“ (LCS).
 
-### <a name="platform-update-30-for-finance-and-operations-apps"></a>„Finance and Operations“ programų platformos 30 naujinimas
+### <a name="platform-update-30-for-finance-and-operations-apps"></a>„Finance and Operations” programų 30 platformos naujinimas
 
-Daugiau informacijos žr. [žr. Kas nauja arba pakeista „Finance and Operations“ programų platformos 30 naujinime (2019 m. lapkritis)](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
+Daugiau informacijos žr. [Kas nauja arba pakeista „Finance and Operations“ programų platformos 30 naujinime (2019 m. lapkritis)](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/whats-new-platform-update-30).
 
 ### <a name="remove-benefits-open-enrollment-preview-feature"></a>Šalinama išmokų atviros registracijos peržiūros funkcija
 
 Kartu su mūsų pranešimu, paskelbtu tinklaraščio įraše [Strateginis investavimas į „Core HR“ veiklos efektyvumą](https://cloudblogs.microsoft.com/dynamics365/bdm/2019/10/02/strategic-investments-in-core-hr-drive-operational-excellence), „Microsoft“ pašalino išmokų atviros registracijos funkciją iš viešosios peržiūros 2019 m. spalio 18 d. Vietoj jos ateityje bus išleistos naujos funkcijos. Išmokų atviros registracijos funkcijos, kuri šiuo metu yra viešojoje peržiūroje, nebus galima naudoti gamybos aplinkoje.
 
-### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Klaida antrą kartą pasirenkant šalį / regioną darbuotojo formoje (350294)
+### <a name="error-while-selecting-the-countryregion-on-the-worker-form-a-second-time-350294"></a>Klaida antrą kartą pasirenkant šalį / regioną darbininko formoje (350294)
 
-Šios savaitės leidime buvo išspręsta problema pasirenkant šalį / regioną formoje **Darbuotojas**.
+Šios savaitės leidime buvo išspręsta problema pasirenkant šalį / regioną formoje **Darbininkas**.
 
 ### <a name="financial-dimension-values-default-to-the-combination-display-field-when-do-not-allow-manual-entry-is-set-to-true-340097"></a>Kaip numatytosios finansinių dimensijų vertės naudojamos jungtinio rodinio lauko reikšmės, kai neleidžiama įrašyti rankiniu būdu (340097)
 
@@ -89,4 +89,4 @@ Esant šiam pakeitimui, kai data **Galima priskirti** yra ankstesnė už datą *
 
 Funkcijos įtraukiamos ir atnaujinamos kiekviename leidime. Funkcijų valdymo patirtis suteikia darbo sritį, kurioje galite peržiūrėti kiekviename leidime pristatytų funkcijų sąrašą. Pagal numatytuosius nustatymus naujos funkcijos yra išjungtos. Galite naudoti darbo sritį, norėdami jas įjungti ir peržiūrėti jų dokumentaciją.
 
-Norėdami daugiau sužinoti apie pakeitimus, pristatytus su funkcijų valdymu, žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Norėdami daugiau sužinoti apie pakeitimus, pristatytus su funkcijų valdymu, žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).

@@ -3,7 +3,7 @@ title: Darbas su fragmentais
 description: Šioje temoje aprašoma, kodėl, kada ir kaip naudoti fragmentus programoje „Microsoft Dynamics 365 Commerce“.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 32482538b2913e6585257bcf7a1cbe780d3cdd30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914705"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3026045"
 ---
 # <a name="work-with-fragments"></a>Darbas su fragmentais 
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kodėl, kada ir kaip naudoti fragmentus programoje „Microsoft Dynamics 365 Commerce“.
@@ -57,25 +57,34 @@ Toliau pateiktame paveikslėlyje rodoma, kaip fragmentai gali būti naudojami be
 
 Galite sukurti naują fragmentą arba kaip fragmentą įrašyti esamą modulio konfigūraciją.
 
+### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Esamos modulio konfigūracijos įrašymas kaip fragmento
+
+Norėdami anksčiau sukonfigūruotą modulį konvertuoti į daugkartinio naudojimo fragmentą, atlikite šiuos veiksmus.
+
+1. Atidarykite puslapį arba šabloną, kuriame yra modulis, kurį norite konvertuoti į fragmentą.
+1. Struktūros srityje kairėje šalia modulio pavadinimo pasirinkite daugtaškio mygtuką (**...**). 
+1. Pasirinkite **Bendrinti kaip fragmentą**. 
+1. Atsiranda dialogo langas. Įveskite fragmento pavadinimą ir metaduomenis.
+1. Pasirinkite **Gerai**, kad modulių konfigūraciją įrašytumėte kaip fragmentą, kurį galima įtraukti į kitus puslapius.
+
+Toliau pateiktame paveiksle parodyta, kaip modulio konfigūraciją įrašyti kaip fragmentą.
+
+![Ekrano vaizdas, kuriame parodyta, kaip modulio konfigūraciją įrašyti kaip fragmentą](./media/save-as-fragment.png)
+
 ### <a name="create-a-new-fragment"></a>Naujo fragmento kūrimas
 
 Norėdami sukurti naują fragmentą, atlikite toliau nurodytus veiksmus.
 
 1. Kairėje naršymo srityje pasirinkite **Fragmentai**.
 1. Pasirinkite **Naujas puslapio fragmentas**. Pasirodys dialogo langas, kuriame rodomi visi galimi modulių tipai. Kaip minėta anksčiau, fragmentai gali būti kuriami naudojant bet kokį modulio tipą.
-1. Pasirinkite fragmento modulio tipą, tada pasirinkite **Gerai**.
+1. Pasirinkite fragmento modulio tipą.
 
-    > [!TIP]
-    > Pasirinkdami bendrąjį konteinerio modulio tipą, gausite daugiausiai lankstumo, kai vėliau reikės atnaujinti ir konfigūruoti fragmentą.
+Toliau pateiktame paveikslėlyje parodyta, kur kurti naują fragmentą.
 
-### <a name="save-an-existing-module-configuration-as-a-fragment"></a>Esamos modulio konfigūracijos įrašymas kaip fragmento
+![Ekrano vaizdas, kuriame parodyta, kur kurti naują fragmentą](./media/fragment-nav-menu.png)
 
-Norėdami anksčiau sukonfigūruotą modulį konvertuoti į daugkartinio naudojimo fragmentą, atlikite šiuos veiksmus.
-
-1. Atidarykite puslapį arba šabloną, kuriame yra modulis, kurį norite konvertuoti į fragmentą.
-1. Struktūros srityje kairėje šalia modulio pavadinimo pasirinkite daugtaškio mygtuką (**...**), tada pasirinkite **Įrašyti kaip fragmentą**. Atsiranda dialogo langas.
-1. Įveskite fragmento pavadinimą ir metaduomenis.
-1. Pasirinkite **Gerai**, kad modulių konfigūraciją įrašytumėte kaip fragmentą, kurį galima įtraukti į kitus puslapius.
+> [!TIP]
+> Pasirinkdami bendrąjį konteinerio modulio tipą, gausite daugiausiai lankstumo, kai vėliau reikės atnaujinti ir konfigūruoti fragmentą.
 
 ## <a name="add-remove-or-edit-fragments-on-a-page"></a>Puslapio fragmentų įtraukimas, pašalinimas arba redagavimas
 
@@ -88,11 +97,15 @@ Norėdami į puslapį įtraukti fragmentą, atlikite toliau nurodytus veiksmus.
 1. Struktūros srityje kairėje pasirinkite konteinerį arba vietą, į kuriuos galima įtraukti antrinių modulių.
 1. Šalia konteinerio arba vietos pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite **Įtraukti fragmentą**. Atsiranda dialogo langas.
 
+    ![Ekrano vaizdas, kuriame parodyta, kaip įtraukti esamą fragmentą į vietą arba konteinerį](./media/add-fragment.png)
+ 
     > [!NOTE]
     > Jei konteineris arba vieta nepalaiko naujų antrinių modulių, parinktis **Įtraukti fragmentą** nepasiekiama.
-
+    
 1. Dialogo lange raskite ir pasirinkite fragmentą, kurį norite įtraukti. Jei sąraše nėra pasiekiamų fragmentų, pirmiausia gali reikėti sukurti fragmentą naudojant pasirinkto konteinerio ar vietos palaikomą modulio tipą.
-1. Pasirinkite **Gerai**, kad pasirinktą fragmentą įtrauktumėte į pasirinktą konteinerį arba vietą jūsų puslapyje.
+1. Pasirinkite fragmentą, kurį norite įtraukti į konteinerį arba vietą jūsų puslapyje.
+
+    ![Ekrano vaizdas, kuriame parodytas fragmentų parinkiklio modalusis langas](./media/fragment-picker.png)
 
 > [!NOTE]
 > Konteineryje arba vietoje leidžiami moduliai nustatomi puslapio šablone arba pačių modulių aprašuose.

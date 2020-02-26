@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 31307035014f2fae6146f33bc23e3e06103f82eb
-ms.sourcegitcommit: c237123ad94d9418994ac095fbd8634c05a927b1
+ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943268"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025953"
 ---
 # <a name="product-collection-modules"></a>Produktų rinkinio moduliai
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų rinkinio modulių apžvalga.
@@ -39,7 +39,7 @@ Produktų rinkinio moduliai yra fiziniai produktai ir paslaugos svetainėje. Pro
 
 Produktų rinkinių šaltiniai gali būti toliau pateikiamų keturių tipų sąrašai.
 
-- Redakciniai produktų sąrašai, nurodyti rankiniu būdu sprendime „Dynamics 365 Retail“ kaip susiję produktai produktui ar produktų sąrašams
+- Redakciniai produktų sąrašai, nurodyti rankiniu būdu sprendime „Dynamics 365 Commerce“ kaip susiję produktai produktui ar produktų sąrašams
 - Algoritminiai sąrašai, pvz., naujų, perkamiausių ar populiariausių produktų sąrašai
 - Rekomendacijų sąrašai, pagrįsti mašininiu mokymu
 - Personalizavimo sąrašai, palaikantys kliento personalizuotus rezultatus. Klientai turi būti prisijungę prie el. prekybos svetainės, kad matytų personalizuotus rezultatus. Vartotojai svečiai nemato personalizuotų rezultatų. Klientai gali atsisakyti personalizavimo [sąskaitos valdymo puslapyje](account-management.md).
@@ -57,9 +57,10 @@ Toliau pateikiamoje lentelėje aprašomi „Dynamics 365 Commerce“ įvairių t
 
 | Produktų atsiėmimo modulis  | Tipas | Aprašymas |
 |----------------------------|------|-------------|
-| Kategorija                   | Kategorija | Šiame modulyje rodomas tam tikros kategorijos produktų sąrašas, apibrėžtas naršymo kategorijų hierarchijoje, kurią pardavėjas sukūrė mažmeninės prekybos kanalui. |
-| Susiję produktai           | Redakcinis | Šis modulis pateikia produktų, kuriuos prekybos vadybininkas sukonfigūravo kaip susijusius produktus programoje „Retail“, sąrašą, skirtą ryšio tipui, kurį pasirinko autorius. |
-| Kuruotų produktų sąrašai      | Redakcinis | Šiame modulyje rodomi tinkinti sąrašai, kuriuos sukūrė prekybininkai ir redaktoriai programoje „Retail“. |
+| Kategorija                   | Kategorija | Šis modulis rodo kategorijos produktų sąrašą, kaip apibrėžta naršymo kategorijų hierarchijoje, kurią mažmenininkas sukūrė kanalui. |
+| Susiję produktai           | Redakcinis | Šiame modulyje pateikiamas autoriaus pasirinkto tipo produktų, kuriuos reklamavimo parduotuvėje vadovas sukonfigūravo kaip susijusius produktus „Commerce“, sąrašas. |
+| Ieškos rezultatai             | Ieškos užklausa | Šio tipo produktų rinkinio modulis pateikia produktų sąrašą, kuris geriausiai atitinka ieškos užklausą, įvestą kliento. |
+| Kuruotų produktų sąrašai      | Redakcinis | Šis modulis rodo pasirinktinius sąrašus, kuriuos prekybininkai ir redaktoriai sukūrė „Commerce“. |
 | Naujos                        | Algoritminis | Šiame modulyje rodomas naujausių produktų, kurie buvo atrinkti į kanalus ir katalogus, sąrašas. Šiame sąraše prisiregistravusiam vartotojui gali būti rodomi personalizuoti rezultatai, jei svetainės autorius nustato atitinkamą parinktį. |
 | Perkamiausia               | Algoritminis | Šiame modulyje rodomas produktų, kurie išdėstyti pagal didžiausią pardavimo skaičių, sąrašas. Šiame sąraše prisiregistravusiam vartotojui gali būti rodomi personalizuoti rezultatai, jei svetainės autorius nustato atitinkamą parinktį. |
 | Populiaru                   | Algoritminis | Šiame modulyje rodomas tam tikro laikotarpio parduodamiausių produktų sąrašas. Šiame sąraše prisiregistravusiam vartotojui gali būti rodomi personalizuoti rezultatai, jei svetainės autorius nustato atitinkamą parinktį. |
@@ -76,7 +77,6 @@ Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite
 1. Dialogo lange **Įtraukti modulį** pasirinkite **Konteineris** ir pasirinkite **Gerai**.
 1. Pasirinkite daugtaškio mygtuką konteinerio modulyje ir pasirinkite **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite **Produkto rinkinys** ir pasirinkite **Gerai**.  
-![Produktų rinkinio modulio vediklio srauto pavyzdys](./media/productCollectionModule.png)
 1. Konfigūruokite parametrus pasirinkdami reikiamą duomenų šaltinį ir produktų rinkinio įvestis.
 1. Produktų rinkinio modulio ypatybių srityje pasirinkite **Įtraukti produktų sąrašą**.
 1. Dialogo lange **Pasirinkti produktų sąrašo konfigūraciją** pasirinkite sąrašo tipą, įveskite elementų skaičių ir pasirinkite bet kurias kitas sąrašo tipui galimas pasirinktis. Daugiau informacijos apie sąrašų tipus, žr. toliau pateikiamą lentelę. 
@@ -88,8 +88,8 @@ Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite
 | Tipas                       | Aprašymas | Naudojimas | Puslapio kontekstas | Konkretus kontekstas | Personalizavimas |
 |----------------------------|-------------|-------|--------------|------------------|-----------------|
 | Produktai pagal kategoriją       | Produktų, priklausančių konkrečiai kategorijai, sąrašas. Ši kategorija nustatoma pagal puslapio kontekstą arba pagal kontekstą, kurį pateikia autorius. | Šis sąrašo tipas gali būti naudojamas bet kuriame puslapyje (pvz., pagrindiniame puslapyje, kategorijos puslapyje, rinkodaros puslapyje arba produkto išsamios informacijos puslapyje \[PIIP\]), norint reklamuoti konkrečią produktų kategoriją. | Kategorija nustatoma pagal puslapio kontekstą, jei yra (pvz., pagal kategorijos puslapį) | Autorius gali pateikti tam tikrą kategoriją kaip sąrašo kontekstą. | Netaikoma |
-| Susiję produktai           | Produktų, kuriuos prekybos vadybininkas sukonfigūravo kaip ryšio tipo susijusius produktus programoje „Retail“, sąrašas. | Šis sąrašo tipas visų pirma naudojamas PIIP, tačiau jis gali būti naudojamas bet kuriame puslapyje, jei pateikiamas pirminis produktas. | Produktas pagal puslapį, ryšio tipą (privalomas) | Produktą galima pasirinkti parinkiklyje; naudojamas ryšio tipas. | Netaikoma |
-| Kuravo                    | Tinkintas sąrašas, kurį sukūrė prekybininkai ir redaktoriai „Retail“ programoje. | Papildytas kategorijos puslapis, pagrindinis puslapis, prikimo užbaigimo bei krepšelio puslapiai ir produkto puslapiai | Netaikoma | Netaikoma | Netaikoma |
+| Susiję produktai           | „Commerce“ pasirinkto tipo produktų, kuriuos reklamavimo parduotuvėje vadovas sukonfigūravo kaip susijusius produktus, sąrašas. | Šis sąrašo tipas visų pirma naudojamas PIIP, tačiau jis gali būti naudojamas bet kuriame puslapyje, jei pateikiamas pirminis produktas. | Produktas pagal puslapį, ryšio tipą (privalomas) | Produktą galima pasirinkti parinkiklyje; naudojamas ryšio tipas. | Netaikoma |
+| Kuravo                    | Pasirinktinis sąrašas, kurį prekybininkai ir redaktoriai sukūrė „Commerce“. | Papildytas kategorijos puslapis, pagrindinis puslapis, prikimo užbaigimo bei krepšelio puslapiai ir produkto puslapiai | Netaikoma | Netaikoma | Netaikoma |
 | Algoritminis                | <ul><li>**Nauja** – naujausių produktų, kurie buvo atrinkti į kanalus ir katalogus, sąrašas.</li><li>**Perkamiausi** – produktų, kurie išdėstyti pagal didžiausią pardavimų skaičių, sąrašas.</li><li>**Populiaru** – tam tikro laikotarpio parduodamiausių produktų sąrašas.</li></ul> | Pagrindinis puslapis, papildytas kategorijos puslapis ir prikimo užbaigimo bei krepšelio puslapiai | Kategorija nustatoma pagal puslapio kontekstą (pvz., pagal kategorijos puslapį) | Kategorija, kurią nustato svetainės autorius | Palaikoma |
 | Dažnai perkama kartu | Sąrašas, kuriame naudojamas mašininis mokymas, skirtas vartotojų pirkimo tendencijoms analizuoti ir rekomenduoti susijusias prekes, kurios dažnai perkamos kartu su konkrečiu produktu. | Šis sąrašo tipas taikomas tik krepšelio puslapiui. | Krepšelis | Netaikoma | Palaikoma |
 | Žmonėms taip pat patinka           | Sąrašas, kuriame naudojamas mašininis mokymas, skirtas vartotojų pirkimo tendencijoms analizuoti ir rekomenduoti prekes, susijusias su konkrečiu produktu. | Šis sąrašo tipas naudojamas PIIP, kad būtų rodomi kitų klientų įsigyti produktai. | Produkto kontekstas pagal puslapį | Produktas, kurį pateikia svetainės autorius | Palaikoma |
@@ -102,8 +102,6 @@ Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite
 [Karuselės modulis](add-carousel.md)
 
 [Raiškiojo turinio bloko modulis](add-content-rich-block.md)
-
-[Turinio išdėstymo modulis](add-content-placement-modules.md)
 
 [Konteinerio modulis](add-container-module.md)
 

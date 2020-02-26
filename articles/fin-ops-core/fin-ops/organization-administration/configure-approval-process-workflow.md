@@ -3,7 +3,7 @@ title: Darbo eigos patvirtinimo procesų konfigūravimas
 description: Naudokite šią procedūrą, norėdami konfigūruoti patvirtinimo proceso ypatybes.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4032d5e56b9dd014ec0472abfc1b2ad4a15ff1d
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 1f58e227542b1e5ca1235748d14e71bddac826ee
+ms.sourcegitcommit: 759325234a763e14071348a6f5399999a92f8264
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811386"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "2983769"
 ---
 # <a name="configure-approval-processes-in-a-workflow"></a>Darbo eigos patvirtinimo procesų konfigūravimas
 
@@ -138,11 +138,12 @@ Pranešimus žmonėms galima siųsti, kai dokumentas yra patvirtintas, atmestas,
 
 ## <a name="specify-a-final-approver"></a>Galutinio tvirtintojo nurodymas
 
-Galite nustatyti galutinį tvirtintoją tiems atvejams, kai tvirtintojas yra asmuo, kuris pateikė dokumentą tvirtinti. Norėdami nurodyti galutinį tvirtintoją, atlikite šiuos veiksmus.
+Galite nurodyti galutinį scenarijų, kuriuose tvirtintojas yra asmuo, pateikęs dokumentą patvirtinimui, ir naudojamas „Neleisti tvirtinti pateikėjui“, tvirtintoją. Norėdami nurodyti galutinį tvirtintoją, atlikite šiuos veiksmus.
 
-1. Kairiojoje srityje spustelėkite **Išplėstiniai parametrai**.
-2. Pažymėkite žymės langelį **Naudoti galutinį tvirtintoją**.
-3. Sąraše pasirinkite vartotoją, kuris bus galutinis tvirtintojas.
+1. Darbo eigos rengyklėje dešiniuoju pelės mygtuku spustelėkite patvirtinimo elementą, tada pasirinkite **Ypatybės**, kad atidarytumėte formą **Ypatybės**.
+2. Kairiojoje srityje spustelėkite **Išplėstiniai parametrai**.
+3. Pažymėkite žymės langelį **Naudoti galutinį tvirtintoją**.
+4. Sąraše pasirinkite vartotoją, kuris bus galutinis tvirtintojas.
 
 ## <a name="set-a-time-limit"></a>Laiko limito nustatymas
 

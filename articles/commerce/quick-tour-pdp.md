@@ -3,7 +3,7 @@ title: Produkto informacijos puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų išsamios informacijos puslapių (PDP) apžvalga.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3b02d50adbfcda27d590bcb87fd9669d67d4a01c
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: dbf8f4c1ea479a508f4a0294020b7201b32fe228
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697870"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025930"
 ---
 # <a name="overview-of-product-details-pages"></a>Produkto informacijos puslapių apžvalga
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų išsamios informacijos puslapių (PDP) apžvalga.
@@ -45,7 +45,7 @@ PDP viršuje yra antraštė, rodanti visas produktų kategorijas ir kitus puslap
 
 ## <a name="buy-box-module"></a>Pirkimo langelio modulis
 
-Svarbiausias PDP modulis yra pirkimo langelių modulis. Todėl jis yra pirmas pagrindinės puslapio dalies elementas. Pirkimo langelių modulis yra konteinerio modulis ir jame saugomi keli moduliai, kuriuose yra svarbiausia informacija apie produktą. Į šią informaciją įeina produkto pavadinimas, produkto atvaizdai, aprašas, kaina ir produktų įvertinimai.
+Svarbiausias PDP modulis yra pirkimo langelio modulis, kuris pasirodo kaip pirmasis elementas pagrindinėje puslapio dalyje. Pirkimo langelių modulyje rodoma svarbi informacija apie produktą, kaip pavyzdžiui, produkto pavadinimas, produkto aprašymas, produkto kaina, produkto nuotraukos ir produkto įvertinimas.
 
 Pirkimo langelių modulis leidžia klientui pasirinkti produkto parinktis (pavyzdžiui, dydžio, stiliaus ir spalvos) ir įtraukti produktą į krepšelį. Be to, juo klientas gali pirkti produktą internetu ir atsiimti jį parduotuvėje. Pirkimo internetu ir atsiėmimo parduotuvėje modulis naudoja integravimą su „Bing“ žemėlapių programos programavimo sąsajomis (API), kad būtų galima rasti netoliese esančių parduotuvių arba parduotuvių kitoje vietoje, kurią nurodo klientas.
 
@@ -53,7 +53,7 @@ Pirkimo langelių moduliui reikia produkto ID. Šis ID išvestas iš puslapio ko
 
 ## <a name="product-specifications-module"></a>Produkto specifikacijų modulis
 
-Produkto specifikacijų modulį galima naudoti norint parodyti papildomą produkto informaciją. Ši išsami informacija paimama iš produkto atributų, esančių „Dynamics 365 Retail“. Produkto specifikacijų modulyje nurodomas kiekvienas atributas, kurio **matoma** ypatybė nustatyta kaip **teisinga**. Jis reikalauja, kad produkto ID gautų produkto atributus.
+Produkto specifikacijų modulį galima naudoti norint parodyti papildomą produkto informaciją. Ši informacija yra paimta iš produkto atributų, esančių „Commerce“. Produkto specifikacijų modulyje nurodomas kiekvienas atributas, kurio **matoma** ypatybė nustatyta kaip **teisinga**. Jis reikalauja, kad produkto ID gautų produkto atributus.
 
 ## <a name="recommendations-module"></a>Rekomendacijų modulis
 
@@ -62,17 +62,23 @@ Rekomendacijų modulis yra svarbus PDP modulis. Vartotojams naršant produktus, 
 Galimi skirtingi rekomendacijų sąrašų tipai:
 
 - **Žmonėms taip pat patiko** sąrašas pagrįstas mašininiu mokymu. Jam naudojama kitų klientų operacijų retrospektyvą pateikti rekomendacijų. Šį sąrašą generuoja rekomendacijų tarnyba ir primena sąrašus „Klientai, kurie pirko, taip pat pirko...“. Šiam sąrašui generuoti reikia produkto ID.
-- **Susiję** sąrašą galima konfigūruoti produktui „Retail“ programoje. Pavyzdžiui, rudos odos kelioninei rankinei gali būti konfigūruojama susijusiame sąraše daugiau rankinių, kurios yra iš odos arba skirtos kelionėms. Kiti susiję sąrašai, pvz. **Papuošalai** ir **Daugiau panašių**, taip pat gali būti sukonfigūruoti „Retail“ programoje. Šiam sąrašui generuoti reikia produkto ID. Todėl, jei jis pridėtas prie pagrindinio puslapio, kuriame puslapio kontekste nėra produkto ID, sąrašas bus tuščias.
+- **„Susiję“** sąrašą galima sukonfigūruoti „Commerce“ produktui. Pavyzdžiui, rudos odos kelioninei rankinei gali būti konfigūruojama susijusiame sąraše daugiau rankinių, kurios yra iš odos arba skirtos kelionėms. Kitų tipų susijusius sąrašus, tokius kaip **Aksesuarai** ir **Daugiau panašių**, taip pat galima sukonfigūruoti „Commerce“. Šiam sąrašui generuoti reikia produkto ID. Todėl, jei jis pridėtas prie pagrindinio puslapio, kuriame puslapio kontekste nėra produkto ID, sąrašas bus tuščias.
 - Algoritmiškai sugeneruoti rekomendacijų sąrašai, pvz. **Populiaru**, **Perkamiausi** ir **Nauja**, galima naudoti PDP. Nors šie sąrašai gali būti tiesiogiai nesusiję su PDP produktu, jie yra dar vienas būdas padėti klientams rasti produktus, kurie gali juos dominti. Šie sąrašų tipai nereikalauja produkto ID. Jie yra bendri sąrašai, sugeneruoti pagal pirkimo tendencijas svetainėje.
 - Redakciniai sąrašai yra neautomatiniu būdu kuruoti sąrašai. Pavyzdžiui, pardavėjas gali nuspręsti neautomatiniu būdu kuruoti produktų, kuriuos norima rodyti, sąrašą.
 
-## <a name="ratings-and-reviews-module"></a>Įvertinimų ir apžvalgų modulis
+## <a name="ratings-and-reviews-modules"></a>Įvertinimų ir apžvalgų moduliai
 
-Modulyje įvertinimai ir apžvalgos pateikiami įvertinimai ir apžvalgos, kuriuos pateikė kiti klientai. Jame klientai taip pat gali parašyti produkto apžvalgą. Be to, jame yra histograma, rodanti produkto įvertinimų tendenciją. Daugiau informacijos žr. [Įvertinimų ir apžvalgų apžvalga](ratings-reviews-overview.md).
+Norint parodyti ir pridėti apžvalgas, gali būti naudojami trys moduliai.
+
+- **Apžvalgos** – šiame modulyje pateikiami įvertinimai ir apžvalgos, kuriuos pateikė kiti klientai. Klientai gali rūšiuoti ir filtruoti apžvalgas. Šis modulis taip pat leidžia klientams pamėgti ar nepamėgti apžvalgas ir pranešti apie problemas.
+- **Rašyti apžvalgą** – šis modulis leidžia klientams parašyti savo apžvalgą apie produktą.
+- **Įvertinimo histograma** – šiame modulyje yra histograma, rodanti produkto įvertinimo tendencijas.
+
+Daugiau informacijos žr. [Įvertinimų ir apžvalgų apžvalga](ratings-reviews-overview.md).
 
 ## <a name="marketing-modules"></a>Rinkodaros moduliai
 
-Jeigu rinkodaros turinys yra unikalus konkrečiam produktui, bet koks rinkodaros modulis gali būti pridėtas prie PDP. Galite įtraukti rinkodaros modulius į PDP, naudodami puslapio „papildymą“. 
+Jeigu rinkodaros turinys yra unikalus konkrečiam produktui, bet koks rinkodaros modulis gali būti pridėtas prie PDP. Galite įtraukti rinkodaros modulius į PDP, naudodami puslapio „papildymą“. Norėdami gauti išsamesnės informacijos, žr. [„Papildyti produkto puslapį“](enrich-product-page.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -83,3 +89,5 @@ Jeigu rinkodaros turinys yra unikalus konkrečiam produktui, bet koks rinkodaros
 [Krepšelio ir pirkimo užbaigimo puslapių apžvalga](quick-tour-cart-checkout.md)
 
 [Paskyros valdymo puslapių apžvalga](quick-tour-account-management.md)
+
+[„Papildyti produkto aprašymo puslapį“.](enrich-product-page.md)

@@ -17,16 +17,16 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f7f7e2d3dddc35a43adff8d186cf755eba854313
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2697732"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002572"
 ---
 # <a name="work-with-templates"></a>Darbas su šablonais
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“dirbti su šablonais.
@@ -132,7 +132,7 @@ Norėdami įtraukti scenarijų į šabloną, atlikite toliau nurodytus veiksmus.
 Norėdami įrašyti ir įrašyti bei atrakinti šabloną, atlikite šiuos veiksmus.
 
 1. Šablono rengyklės viršuje pasirinkite **Įrašyti**. Įrašyti keitimai neturės įtakos tolesniems puslapiams, kol jie nebus įrašomi ir atrakinami.
-1. Pasirinkite **Įrašyti ir atrakinti**. Dabar jūsų keitimai yra aptinkami atsiuntimo srauto darbo eigose.
+1. Pasirinkite **Įregistruoti**. Dabar jūsų keitimai yra aptinkami atsiuntimo srauto darbo eigose.
 
 Norėdami peržiūrėti keitimus atidarykite esamą puslapį, kuriame naudojamas išablonas, arba naudodami šabloną sukurkite naują puslapį.
 

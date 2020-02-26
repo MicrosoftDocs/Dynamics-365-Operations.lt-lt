@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 111bcaba971b6223f670176135574633d2f1c5ec
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: fa3029387d5f1ca605fc9559c4272c8dfebcddaf
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914629"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001420"
 ---
 # <a name="add-languages-to-your-site"></a>Kalbų įtraukimas į savo svetainę
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip į „Microsoft Dynamics 365 Commerce“ svetainę įtraukti papildomų kalbų palaikymą.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Savo svetainę galite lokalizuoti į bet kurią „Dynamics 365 Commerce“ palaikomą kalbą. (Palaikomų kalbų sąrašas parodytas tolesnėje šios temos dalyje). Norėdami į savo svetainę įtraukti kalbą, pirmiausia ją turite įtraukti į internetinę parduotuvę, susietą su jūsų svetaine.
+Savo svetainę galite lokalizuoti į bet kurią „Commerce“ palaikomą kalbą. (Palaikomų kalbų sąrašas parodytas tolesnėje šios temos dalyje). Norėdami į savo svetainę įtraukti kalbą, pirmiausia ją turite įtraukti į internetinę parduotuvę, susietą su jūsų svetaine.
 
 ## <a name="add-a-language-to-an-online-store"></a>Kalbos įtraukimas į internetinę parduotuvę
 
 Norėdami į internetinę parduotuvę įtraukti kalbą, atlikite toliau nurodytus veiksmus.
 
-1. Atidarykite savo svetainės „Dynamics 365 Retail“ aplinką.
-1. Eikite į **Mažmeninė prekyba \> Kanalai \> Internetinės parduotuvės**, kad matytumėte jūsų aplinkai sukonfigūruotų internetinių parduotuvių sąrašą. Arba kaip ieškos frazę įveskite **internetinės parduotuvės**.
+1. Atidarykite savo svetainės „Dynamics 365 Commerce“ aplinką.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalai \> Internetinės parduotuvės**, kad matytumėte jūsų aplinkai sukonfigūruotų internetinių parduotuvių sąrašą. Arba kaip ieškos frazę įveskite **internetinės parduotuvės**.
 1. Pasirinkite internetinę parduotuvę, kuriai norite įtraukti kalbą.
 1. „FastTab“ elemente **Kalbos** pasirinkite **Įtraukti**.
 1. Lauke **Kalba** pasirinkite įtrauktiną kalbą.

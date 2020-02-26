@@ -1,5 +1,5 @@
 ---
-title: „Commerce” peržiūros aplinkos apžvalga
+title: „Dynamics 365 Commerce“ peržiūros aplinkos apžvalga
 description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ peržiūros aplinka.
 author: v-chgri
 manager: annbe
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 901583afde4739be5313fa129ff0e52f11326881
-ms.sourcegitcommit: 610d5c3efadbaf11752b46f24680af619bcd70a6
+ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
+ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "2906075"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024688"
 ---
-# <a name="commerce-preview-environment-overview"></a>„Commerce” peržiūros aplinkos apžvalga
+# <a name="dynamics-365-commerce-preview-environment-overview"></a>„Dynamics 365 Commerce“ peržiūros aplinkos apžvalga
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ peržiūros aplinka.
@@ -52,10 +52,10 @@ Jei norite „Commerce“ peržiūros aplinką parengti, žr. [„Commerce“ pe
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Commerce” peržiūros aplinkos parengimas](provisioning-guide.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md)
 
-[„Commerce” peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
 
-[Pasirenkamų „Commerce” peržiūros aplinkos funkcijų konfigūravimas](cpe-optional-features.md)
+[„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md)
 
-[DUK apie „Commerce” peržiūros aplinką](cpe-faq.md)
+[DUK apie „Dynamics 365 Commerce“ peržiūros aplinką](cpe-faq.md)

@@ -3,7 +3,7 @@ title: Karuselės modulis
 description: Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,25 +18,25 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c2c5adc8ab2e0330f7b07e5153fd8332ab0203e5
-ms.sourcegitcommit: 3a4e137ef3a96ba0a58c5352f4a3b57467ace9ae
+ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2785242"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025786"
 ---
 # <a name="carousel-module"></a>Karuselės modulis
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Naudojant karuselės modulį kelios reklaminės prekės įdedamos į karuselę, kurią klientai gali naršyti. Tai yra specialus konteinerio modulis, kuriame yra kitų modulių. Pavyzdžiui, karuselės modulį naudodamas pagrindiniame puslapyje pardavėjas gali parodyti kelis naujus produktus ar akcijas.
+Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraiškingus veiksmus) įdedamos į rotacinę karuselės reklaminę juostą, kurią klientai gali naršyti. Pavyzdžiui, karuselės modulį naudodamas pagrindiniame puslapyje pardavėjas gali parodyti kelis naujus produktus ar akcijas.
 
-Į karuselės modulį galite įtraukti pagrindinės reklaminės juostos ir ypatybių modulius. Tada karuselės modulio ypatybėmis apibrėžiama, kaip šie moduliai vaizduojami.
+Į karuselės modulį galite įtraukti turinio bloko modulius. Tada karuselės modulio ypatybėmis apibrėžiama, kaip šie moduliai vaizduojami.
 
 ## <a name="examples-of-carousel-modules-in-e-commerce"></a>Karuselės modulių pavyzdžiai el. prekyboje
 
@@ -46,45 +46,39 @@ Naudojant karuselės modulį kelios reklaminės prekės įdedamos į karuselę, 
 
 ## <a name="carousel-module-properties"></a>Karuselės modulio ypatybės
 
-| Ypatybės pavadinimas             | Vertė                                | Aprašymas |
-|---------------------------|--------------------------------------|-------------|
-| Automatinis paleidimas                  | **Teisinga** arba **Klaidinga**                | Jei reikšmė nustatoma kaip **Teisinga**, nuo vienos prekės prie kitos karuselėje pereinama automatiškai. Jei reikšmė nustatoma kaip **Klaidinga**, prie kitos prekės nepereinama, nebent klientas nuo vienos prekės prie kitos pereina klaviatūra ar pele. |
-| Skaidrių perėjimo intervalas | Reikšmė sekundėmis                   | Perėjimo nuo vienos prekės prie kitos intervalas. |
-| Perėjimo animacija      | **Slinkimas** arba **Išnykimas**                | Perėjimo efektas. |
-| Plotis                     | **Priderinti prie konteinerio** arba **Užpildyti ekraną** | Jei reikšmė nustatoma kaip **Priderinti prie konteinerio**, karuselės prekių plotį riboja karuselė. Jei reikšmė nustatoma kaip **Užpildyti ekraną**, prekių pločio karuselė neriboja ir jas galima vaizduoti viso ekrano režimu. Keisdami reikšmę, galite pasiekti norimą išdėstymą. |
+| Ypatybės pavadinimas             | Vertė                 | Aprašymas |
+|---------------------------|-----------------------|-------------|
+| Automatinis paleidimas                  | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatoma kaip **Teisinga**, nuo vienos prekės prie kitos karuselėje pereinama automatiškai. Jei reikšmė nustatoma kaip **Klaidinga**, prie kitos prekės nepereinama, nebent klientas nuo vienos prekės prie kitos pereina klaviatūra ar pele. |
+| Skaidrių perėjimo intervalas | Reikšmė sekundėmis    | Perėjimo nuo vienos prekės prie kitos intervalas. |
+| Perėjimo tipas           | **Slinkimas** arba **Išnykimas** | Perėjimo poveikis tarp prekių. |
+| Slėpti karuselės sukimo priemonę     | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatyta kaip **Teisinga**, karuselės pelekas ir sekos indikatorius yra paslėpti. |
+| Karuselės atmetimo leidimas    | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatyta kaip **Teisinga**, klientai gali atmesti karuselę. |
 
 ## <a name="add-a-carousel-module-to-a-page"></a>Karuselės modulio įtraukimas į puslapį
 
 Norėdami į naują puslapį įtraukti karuselės modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
 1. Sukurkite puslapio šabloną, pavadintą **karuselės šablonas**.
-1. Numatytojo puslapio vietoje **Pagrindinis** įtraukite karuselės modulį.
-1. Į karuselės modulį įtraukite pagrindinės reklaminės juostos modulį.
-1. Į karuselės modulį įtraukite ypatybių modulį.
+1. Srityje **Pagrindinė dalis** įtraukite modulį **Numatytasis modulis**.
 1. Šabloną įrašykite ir atrakinkite bei publikuokite. 
 1. Naudodami ką tik sukurtą karuselės šabloną, sukurkite puslapį, pavadintą **karuselės puslapis**.
-1. Naujo puslapio vietoje **Pagrindinis** įtraukite karuselės modulį.
-1. Karuselės modulio ypatybę **Plotis** nustatykite kaip **Užpildyti ekraną**. 
-1. Ypatybę **Perėjimo animacija** nustatykite kaip **Slinkimas**.
-1. Į karuselės modulį įtraukite pagrindinės reklaminės juostos modulį.
-1. Pagrindinės reklaminės juostos modulyje įtraukite vaizdą ir antraštę, tada pasirinkite **Įrašyti**.
-1. Į karuselės modulį įtraukite ypatybių modulį.
-1. Ypatybių modulyje įtraukite vaizdą, antraštę ir teksto pastraipą.
+1. Naujo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį. 
+1. Dešiniojoje srityje nustatykite **Plotis** vertę, kad galėtumėte **Užpildyti ekraną**.
+1. Dalyje **Puslapio kontūras** įtraukite karuselės modulį į konteinerio modulį.
+1. Į karuselės modulį įtraukite turinio bloko modulį. Nustatykite turinio bloko modulio ypatybes pateikdami **Antraštė**, **Saitas**, **Išdėstymas** ir kitas ypatybes.
+1. Įtraukite ir konfigūruokite kitą turinio bloko modulį.
+1. Pagal pageidavimą, nustatykite kitas karuselės modulio ypatybes.
 1. Puslapį įrašykite ir peržiūrėkite. Puslapyje turėtų būti rodoma karuselė su dviem moduliais (pagrindinės reklaminės juostos moduliu ir ypatybių moduliu). Norėdami pasiekti norimą rezultatą, galite keisti papildomas karuselės, pagrindinės reklaminės juostos ir ypatybių modulių ypatybes.
-1. Puslapį įrašykite ir atrakinkite bei publikuokite.
+1. Baikite puslapio redagavimą ir publikuokite.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
 
-[Įspėjimo modulis](add-alert.md)
+[Reklaminės juostos modulis](add-alert.md)
 
-[Raiškiojo turinio bloko modulis](add-content-rich-block.md)
+[Teksto bloko modulis](add-content-rich-block.md)
 
-[Turinio išdėstymo modulis](add-content-placement-modules.md)
-
-[Ypatybių modulis](add-feature-module.md)
-
-[Pagrindinės reklaminės juostos modulis](add-hero-module.md)
+[Turinio bloko modulis](add-hero-module.md)
 
 [Vaizdo įrašų leistuvo modulis](add-video-player.md)

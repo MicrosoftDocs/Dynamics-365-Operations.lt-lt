@@ -3,7 +3,7 @@ title: Naujo el. prekybos nuomotojo diegimas
 description: Šioje temoje aprašoma, kaip įdiegti naują el. prekybos nuomininką naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
 author: psimolin
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 01/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 10dab1e62446ff7f60ad48fd0841bde5cfd29e12
-ms.sourcegitcommit: ef3a1d7527311d00b69a1072ae5eb021ce68034c
+ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "2945518"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3001788"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Naujo el. prekybos nuomotojo diegimas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip įdiegti naują el. prekybos svetainę naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
 
 ## <a name="overview"></a>Peržiūrėti
-    
+
 „Microsoft Dynamics“ „Lifecycle Services“ (LCS) yra debesiu pagrįsta bendradarbiavimo darbo sritis, kurią partneriai ir klientai gali naudoti savo projektams ir aplinkoms tvarkyti, peržiūrėti naujausią informaciją apie „Microsoft Dynamics“ produktus ir funkcijas bei kurti, sekti ir naršyti palaikymo incidentus. El. prekybos valdymo funkcijos integruotos į LCS.
 
 Norėdami sužinoti daugiau apie LCS, žr. [„Lifecycle Services“ vartotojo vadovą](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
@@ -80,17 +80,22 @@ Surinkę reikiamą informaciją, atlikite šiuos veiksmus, norėdami paleisti el
 1. Kitame puslapyje įveskite reikiamą informaciją ir pateikite formą. Jūs grąžinami į skirtuką **El. prekyba**, kur turėtumėte matyti, kad inicijavimas pradėtas.
 1. Norėdami peržiūrėti inicijavimo būseną, **atnaujinkite** arba grįžkite į skirtuką **El. prekyba**.
     
-Paleidus el. prekybą iš LCS, sistema sukuria keletą komponentų, kurie būtini el. prekybai ir susieja juos su aplinka. Baigus parengimą, skirtukas **El. prekyba** puslapyje **„Retail“ valdymas** atnaujinamas, kad atsispindėtų parengimą. Puslapyje pateikiami naujausi tinkinimo diegimai ir bet kurių kitų vykdomų diegimų būsena. Jame taip pat yra saitų į el. prekybos svetainę ir el. prekybos svetainių valdymo įrankį (kūrimo įrankį).
+Paleidus el. prekybą iš LCS, sistema sukuria keletą komponentų, kurie būtini el. prekybai ir susieja juos su aplinka. Pasibaigus parengimui, skirtukas **El. prekyba** puslapyje **„Retail“ valdymas** atnaujinamas, kad atsispindėtų parengimą. Puslapyje pateikiami naujausi tinkinimo diegimai ir bet kurių kitų vykdomų diegimų būsena. Jame taip pat yra saitų į El. prekybos svetainę ir El. prekybos svetainių daryklę, kurioje kuriamos svetainės.
 
-## <a name="access-the-authoring-environment"></a>Prieiga prie kūrimo aplinkos
+## <a name="access-site-builder"></a>Prieiga prie svetainių daryklės
 
-Norėdami pasiekti kūrimo aplinką, eikite į skirtuką **El. prekyba** puslapyje **„Retail“ valdymas**. Ten rasite saitus į savo el. prekybos svetainę ir svetainės valdymo įrankį.
+Norėdami pasiekti svetainių daryklę, eikite į skirtuką **El. prekyba** LCS puslapyje **„Retail“ valdymas** ir pasirinkite saitą **El. prekybos svetainių valdymo įrankis**. Svetainių daryklės nukreipimo puslapyje rodomas nuomotojo lygio rodinys. Šiame puslapyje galite atlikti tolesnius veiksmus.
+
+- Modifikuoti nuomotojo lygio parametrus.
+- Pereiti į bet kurią sukurtą svetainę, kurią turite teisę peržiūrėti. 
+- Naudotis peržiūros funkcijomis, pvz., priežiūra ir ataskaitų pateikimu.
+- Sukurkite naują svetainę. Daugiau informacijos apie tai, kaip sukurti naują svetainę, žr. [El. prekybos svetainės kūrimas](create-ecommerce-site.md). 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[El. prekybos svetainės kūrimas](create-ecommerce-site.md)
 
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 

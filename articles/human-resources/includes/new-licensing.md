@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> „Dynamics 365 for Finance and Operations“ dabar licencijuojama kaip „Dynamics 365 Finance“ ir „Dynamics 365 Supply Chain Management“. Daugiau informacijos apie šiuos licencijos pakeitimus žr. [„Dynamics 365 licencijavimo naujinimas“](https://docs.microsoft.com/dynamics365/licensing/update).

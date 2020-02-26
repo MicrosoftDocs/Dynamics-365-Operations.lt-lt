@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1a357c4623f4f9dc441fe328ec0d5481c14ae4af
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de85bf52d8e3415549db64501b2435ebd7377fef
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771638"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025859"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
 
@@ -111,7 +111,7 @@ Atlikite šiuos veiksmus, norėdami įtraukti verslo logiką, inicijuojančią �
 2. Paspauskite F7, kad pasiektumėte kodo aprašo kodą.
 3. Įtraukite toliau nurodytą X++ kodą.
 
-    ```
+    ```xpp
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
@@ -156,7 +156,7 @@ Užbaigėte verslo logikos įtraukimo užduotį, skirtą įdėtam ataskaitų per
 Šiame skyriuje pateikiama informacija apie pagelbiklio klasę, naudojamą „Power BI“ ataskaitai (.pbix išteklius) į formos grupės valdiklį įdėti.
 
 #### <a name="syntax"></a>Sintaksė
-```
+```xpp
 public static void initializeReportControl(
     str                 _resourceName,
     FormGroupControl    _formGroupControl,

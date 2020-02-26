@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb369e6d1356ba13a2310d523b671ac57b9642bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e249c7d450510a3a9a33158e9e1c33f832a1f91c
+ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770052"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "3024984"
 ---
 # <a name="product-recommendations-overview"></a>Produktų rekomendacijų apžvalga
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 „Microsoft Dynamics 365 Commerce“ gali būti naudojama rodyti produkto rekomendacijas „e-Commerce“ svetainėje ir elektroninio kasos aparato (EKA) įrenginyje. Produkto rekomendacijos – tai prekės, kurios gali sudominti klientą. Rekomendacijos yra paremtos kitų klientų pirkimo tendencijomis internetinėse ir fizinėse parduotuvėse.
@@ -45,6 +44,7 @@ Produktų rekomendacijos pasiekiamos toliau nurodytais scenarijais:
 - **Bet kuriame parduotuvės naršymo puslapyje ar nukreipimo puslapyje el. prekyboje:** Jei klientai arba parduotuvės partneriai lankosi parduotuvės puslapyje, rekomendacijų mechanizmas gali siūlyti produktus iš sąrašų **Nauja**, **Perkamiausi** ir **Populiaru**.
 - **Produkto išsamios informacijos puslapyje:** Jei klientai ar parduotuvės partneriai apsilanko puslapyje **Produkto išsami informacija**, rekomendacijos mechanizmas pasiūlys papildomas prekes, kurios taip pat gali būti perkamos. Šie elementai rodomi sąraše **Žmonėms taip pat patiko**.
 - **Operacijų puslapyje arba pirkimo užbaigimo puslapyje:** rekomendacijų mechanizmas siūlo prekių pagal visų prekių krepšelyje sąrašą. Šios prekės rodomos sąraše **Dažnai kartu perkama**.
+- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, be naujų funkcijų, leidžiančių esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. funkcijos dokumentaciją:\[įgalinti pagal asmeninius poreikius pritaikytas rekomendacijas.](personalized-recommendations.md)
 
 ## <a name="recommendation-service"></a>Rekomendacijų paslauga
 
@@ -56,6 +56,10 @@ Produktų rekomendacijoms naudojamos rekomendacijų mašininio mokymo technologi
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
+
+[Įgalinti asmeniniams poreikiams pritaikytas rekomendacijas](personalized-recommendations.md)
+
+[Produktų rinkinio modulio peržiūra](product-collection-module-overview.md)
 
 [Kurti kuruojamus produktų rekomendacijų sąrašus](create-editorial-recommendation-lists.md)
 

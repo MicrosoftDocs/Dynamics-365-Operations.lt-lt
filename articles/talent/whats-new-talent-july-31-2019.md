@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 96937d48e0d1003adbc5f7fedc89b2686ace01cd
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 311042caf6a391a06c7e2d8c4c2c2f6e1f855437
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899040"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006292"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-30-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. liepos 30 d.)
 
@@ -41,7 +41,7 @@ ms.locfileid: "2899040"
 
 ### <a name="region-support-for-canada-and-southeast-asia"></a>Regiono palaikymas Kanadai ir Pietryčių Azijai
 
-Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus įtraukti į programą „Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta [„Talent” konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/provisioning-talent).
+Džiaugiamės galėdami pranešti, kad Kanados ir Pietryčių Azijos regionai bus įtraukti į programą „Talent” 2019 m. rugpjūčio 1 d. Naudodami šį pakeitimą, galite sukurti aplinkas Kanados ir Azijos regionuose, o visi „Talent” duomenys bus tvarkomi tik tose vietose. Šiuose naujuose regionuose galite sukurti aplinką pasirinkdami vietą dialogo lange Nauja aplinka ir naudoti šią aplinką „Talent” konfigūravimui LCS, kaip aprašyta [„Talent” konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent).
 
 Esamų projektų duomenų perkėlimas iš kitų regionų į Kanados ir Azijos regionus yra nepalaikomas. Tik nauji projektai gali būti konfigūruojami šiuose naujuose palaikomuose regionuose.
 

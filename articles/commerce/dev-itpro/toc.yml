@@ -1,0 +1,1620 @@
+- name: „Finance and Operations“ skirtas kūrimas ir administravimas
+  href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Kas nauja ar pasikeitė
+  items:
+    - name: Peržiūros funkcijos „Platform update 30“ (2019 m. lapkričio mėn.)
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-30.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 29” (2019\_m. spalio mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-29.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 28” (2019\_m. liepos mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-28.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 27” (2019\_m. birželio mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-27.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 26“ (2019\_m. gegužės mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-26.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 25” (2019\_m. balandžio mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-25.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 24“ (2019\_m. kovo mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-24.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 23“ (2019\_m. sausio mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-23.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 22“ (2018\_m. gruodžio mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-22.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 21“ (2018\_m. lapkričio mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-21.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 20“ (2018\_m. rugsėjo mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-20.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: "„Platform Update 15“ (2018\_m. kovo mėn.)"
+      href: ../../fin-and-ops/get-started/whats-new-platform-update-15.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Verslo įvykiai
+  items:
+    - name: Verslo įvykių apžvalga
+      href: ../../dev-itpro/business-events/home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Programos verslo įvykiai
+      href: ../../dev-itpro/business-events/app-business-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Darbo eigos verslo įvykiai
+      href: ../../dev-itpro/business-events/business-events-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Įspėjimai kaip verslo įvykiai
+      href: ../../dev-itpro/business-events/alerts-business-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Verslo įvykiai programoje „Microsoft Flow“
+      href: ../../dev-itpro/business-events/business-events-flow.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Verslo įvykių kūrėjo dokumentacija
+      href: ../../dev-itpro/business-events/business-events-dev-doc.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Verslo įvykių trikčių šalinimas
+      href: ../../dev-itpro/business-events/troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Atvejų taikymas verslo įvykiams
+      href: ../../dev-itpro/business-events/potential-use-cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Mokymo programos
+      items:
+        - name: Verslo įvykiai ir „Microsoft Flow“
+          href: ../../dev-itpro/business-events/how-to/how-to-flow.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Verslo įvykiai ir „Azure Event Grid“
+          href: ../../dev-itpro/business-events/how-to/how-to-eventgrid.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Verslo įvykiai ir „Azure Service Bus“
+          href: ../../dev-itpro/business-events/how-to/how-to-servicebus.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Verslo įvykiai ir darbo eigos patvirtinimai
+          href: ../../dev-itpro/business-events/how-to/how-to-workflow.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Verslo įvykiai ir „Microsoft Forms Pro“
+          href: ../../dev-itpro/business-events/how-to/FormsPro.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Verslo įvykiai ir „Azure Event Hubs“
+          href: ../../dev-itpro/business-events/how-to/event-hub.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Nuolatinis pristatymas
+  items:
+    - name: Nuolatinio pristatymo pagrindinis puslapis
+      href: ../../dev-itpro/dev-tools/continuous-delivery-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: DUK apie kūrimą ir nuolatinį pristatymą
+      href: ../../dev-itpro/dev-tools/continuous-delivery-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Testinių paketų pašalinimas iš komponavimo versijos išvesties
+      href: ../../dev-itpro/dev-tools/exclude-test-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį
+      href: ../../dev-itpro/dev-tools/manage-runtime-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Modelių versijų automatizuotoje komponavimo versijoje naujinimas
+      href: ../../dev-itpro/dev-tools/version-models-build.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Duomenų integravimas
+  items:
+    - name: Duomenų integravimo (importo / eksporto) strategijos pasirinkimas
+      href: ../../dev-itpro/data-entities/integration-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų integravimo API sąsajos
+      items:
+        - name: Duomenų valdymo paketo REST API
+          href: ../../dev-itpro/data-entities/data-management-api.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paslaugų galiniai punktai
+          items:
+            - name: Paslaugų galinių punktų apžvalga
+              href: ../../dev-itpro/data-entities/services-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Tarnybų autentifikavimo trikčių diagnostika
+              href: ../../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „OData“
+          href: ../../dev-itpro/data-entities/odata.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pasirinktinių paslaugų kūrimas
+          href: ../../dev-itpro/data-entities/custom-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pasikartojančios integracijos
+          href: ../../dev-itpro/data-entities/recurring-integrations.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paslaugų tikrinimas naudojant trečiųjų šalių priemones
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Finance and Operations“ jungtis
+      href: ../../dev-itpro/data-entities/fin-ops-connector.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Integravimo kūrimas
+      items:
+        - name: Duomenų integravimas naudojant duomenų objektus
+          items:
+            - name: Duomenų integravo naudojant duomenų objektus apžvalga
+              href: ../../dev-itpro/data-entities/data-management-integration-data-entity.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Duomenų perkėlimo objekto kūrimas
+              href: ../../dev-itpro/data-entities/develop-entity-for-data-migration.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Sudėtinių duomenų objektų kūrimas
+              href: ../../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Konfigūruoti finansinių duomenų bendrinimą tarp įmonių
+              href: ../../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Įrašų šablonų sukūrimas, kad būtų paprasčiau įvesti duomenis'
+              href: ../../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Įrašų kūrimas naudojant įrašų šablonus
+              href: ../../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų integravimas naudojant „Common Data Service“
+          items:
+            - name: Duomenų integravimo naudojant „Common Data Service“ apžvalga
+              href: ../../dev-itpro/data-entities/data-integration-cds.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Sinchroninis, dvikryptis integravimas'
+              items:
+                - name: Beveik realiuoju laiku vykstantis duomenų integravimas
+                  href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Organizacijos hierarchija „Common Data Service“
+                  href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Įmonės koncepcija „Common Data Services“
+                  href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Bendrieji integruoto kliento duomenys
+                  href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Bendrosios produkto funkcijos
+                  href: ../../dev-itpro/data-entities/dual-write-product.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Bendrieji integruoto tiekėjo duomenys
+                  href: ../../dev-itpro/data-entities/dual-write-vendor.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Integruotos svetainės ir sandėliai
+                  href: ../../dev-itpro/data-entities/dual-write-sites-and-warehouses.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Pradinė sinchronizacija
+                  href: ../../dev-itpro/data-entities/dual-write-initial.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Duomenų integravimo trikčių diagnostika
+                  href: ../../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Nesinchroninis, vienakryptis integravimas'
+              items:
+                - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
+                  items:
+                    - name: Potencialaus kliento pavertimas pinigais
+                      href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
+                      href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Tiesioginis produktų sinchronizavimas iš „Finance and Operations“ su produktais „Sales“
+                      href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais
+                      href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Tiesioginis „Sales“ pardavimo pasiūlymų antraščių ir eilučių sinchronizavimas su „Finance and Operations“
+                      href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Tiesioginis pardavimo užsakymų sinchronizavimas tarp „Sales“ ir „Finance and Operations“
+                      href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Tiesioginis „Finance and Operations“ pardavimo sąskaitų faktūrų antraščių ir eilučių sinchronizavimas su „Sales“
+                      href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Integravimo su „Field Service“ konfigūravimas
+                  items:
+                    - name: Integravimo su „Field Service“ konfigūravimo apžvalga
+                      href: ../../supply-chain/sales-marketing/field-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Finance and Operations“ produktų sinchronizavimas su „Field Service“ produktais
+                      href: ../../supply-chain/sales-marketing/field-service-product.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Field Service“ darbo užsakymų sinchronizavimas su „Finance and Operations“ pardavimo užsakymais
+                      href: ../../supply-chain/sales-marketing/field-service-work-order.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Field Service“ sutarčių sąskaitų faktūrų sinchronizavimas su „Finance and Operations“ laisvos formos sąskaitomis faktūromis
+                      href: ../../supply-chain/sales-marketing/field-service-invoice.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Field Service“ atsargų perkėlimo ir koregavimo sinchronizavimas su „Finance and Operations“
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Finance and Operations“ atsargų lygio informacijos sinchronizavimas su „Field Service“
+                      href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Finance and Operations“ produktų su atsargų vienetais sinchronizavimas su „Field Service“
+                      href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Finance and Operations“ projektų sąrašo sinchronizavimas su „Field Service“
+                      href: ../../supply-chain/sales-marketing/synchronize-project-list.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Finance and Operations“ sandėlių sinchronizavimas su „Field Service“
+                      href: ../../supply-chain/sales-marketing/synchronize-warehouse.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Field Service“ darbo užsakymų ir projekto sinchronizavimas su „Finance and Operations“
+                      href: ../../supply-chain/sales-marketing/synchronize-work-orders.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: „Project Service Automation“ integravimo konfigūravimas
+                  items:
+                    - name: „Project Service Automation“ apžvalga
+                      href: ../../financials/project-management/PSA-integration.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: „Project Service Automation“ integravimo parametrai
+                      href: ../../financials/project-management/PSA-parameters.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Projektų sutarčių ir projektų sinchronizavimas
+                      href: ../../financials/project-management/project-contracts-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Projektų užduočių sinchronizavimas
+                      href: ../../financials/project-management/project-tasks-template.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Projektų išlaidų kategorijų sinchronizavimas
+                      href: ../../financials/project-management/project-categories-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Projekto įvertinimų sinchronizavimas su projekto prognozėmis
+                      href: ../../financials/project-management/project-estimates-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+                    - name: Projekto faktinių duomenų sinchronizavimas su projekto integravimo žurnalu
+                      href: ../../financials/project-management/project-actuals-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Išorinių žiniatinklio tarnybų naudojimas
+      href: ../../dev-itpro/data-entities/consume-external-web-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Elektroniniai pranešimai
+      href: ../../financials/general-ledger/electronic-messaging.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Duomenų valdymas
+  items:
+    - name: Duomenų valdymo apžvalga
+      href: ../../dev-itpro/data-entities/data-entities-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų objektai
+      items:
+        - name: Duomenų objektų apžvalga
+          href: ../../dev-itpro/data-entities/data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Konfigūracijos duomenų projektai
+          href: ../../dev-itpro/data-entities/configuration-data-projects.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Konfigūracijos duomenų tarp įmonių ar juridinių subjektų kopijavimas
+          items:
+            - name: Konfigūracijos duomenų kopijavimo apžvalga
+              href: ../../dev-itpro/data-entities/copy-configuration.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Konfigūracijos duomenų paketai
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)
+              href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
+              href: ../../dev-itpro/data-entities/entity-store-data-lake.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Konfigūracijos duomenų šablonai
+          href: ../../dev-itpro/data-entities/configuration-data-templates.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Objekto keitimų sekimas
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Informacijos apie standartinius duomenų objektus ieška
+          href: ../../dev-itpro/data-entities/data-entities-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų šablonai su keliais darbalapiais
+          href: ../../dev-itpro/data-entities/excel-template-multiple.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Objektų keitimų sekimo įjungimas
+          href: ../../dev-itpro/data-entities/entity-change-track.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Konfigūracijos raktai ir duomenų objektai
+          href: ../../dev-itpro/data-entities/config-key-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Konfigūracijos duomenų paketai
+          href: ../../dev-itpro/data-entities/configuration-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų importavimo ir eksportavimo užduotys
+      items:
+        - name: Duomenų importavimo ir eksportavimo užduočių apžvalga
+          href: ../../dev-itpro/data-entities/data-import-export-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Geriausia kvitų importavimo praktika naudojant bendrojo žurnalo objektą
+          href: ../../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų objektų kūrimas
+      items:
+        - name: Duomenų objektų dizaino principai ir geriausia praktika
+          href: ../../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Naujų duomenų objektų kūrimas
+          href: ../../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų objektų ypatybės
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Apskaičiuotų stulpelių ir virtualiųjų laukų kūrimas
+          href: ../../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Visos įmonės veikimo būdas
+          href: ../../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Šalių\_/ regionų kodų tvarkymas"
+          href: ../../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paveldėjimo šablonai
+          href: ../../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų objekto vedlio taisyklės
+          href: ../../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Metaduomenų ypatybės
+          href: ../../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Tikrinimai, numatytosios reikšmės ir nesusieti laukai'
+          href: ../../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sauga ir duomenų objektai
+          href: ../../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Trečiųjų šalių paslaugų tikrinimo priemonių naudojimas
+          href: ../../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Tik skaitomų objektų, rodančių finansines dimensijas, kūrimas'
+          href: ../../dev-itpro/financial/read-only-entity-financial.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Savo duomenų bazės naudojimas
+      href: ../../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Automatizuotas objektų saugyklos atnaujinimas
+      href: ../../dev-itpro/analytics/automated-entity-store-refresh.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų užduočių automatizavimas
+      href: ../../dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų tikrinimo kontrolinio sąrašo darbo sritis
+      href: ../../dev-itpro/user-interface/data-validation-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų valdymo klaidų aprašai
+      href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Duomenų bazių perkėlimo operacijos
+  items:
+    - name: Apžvalga
+      href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Greito pasirengimo darbui vadovai
+      items:
+        - name: Duomenų bazės atnaujinimas
+          href: ../../dev-itpro/database/database-refresh.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų bazės eksportavimas
+          href: ../../dev-itpro/database/export-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų bazės importavimas
+          href: ../../dev-itpro/database/import-database.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Tam tikro taško duomenų bazės atkūrimas
+          href: ../../dev-itpro/database/database-point-in-time-restore.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Mokymo programos
+      items:
+        - name: Atnaujinimas mokymo tikslais
+          href: ../../dev-itpro/database/dbmovement-scenario-general-refresh.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Gamybos duomenų bazės kopijos derinimas
+          href: ../../dev-itpro/database/dbmovement-scenario-debugdiag.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Standartinės vartotojų priėmimo bandymų (UAT) duomenų bazės kopijos eksportavimas
+          href: ../../dev-itpro/database/dbmovement-scenario-exportuat.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Auksinės konfigūracijos perkėlimas į aukštesnį lygį
+          href: ../../dev-itpro/database/dbmovement-scenario-goldenconfig.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Ardomieji bandymai
+          href: ../../dev-itpro/database/dbmovement-scenario-destructivetests.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Demonstraciniai duomenys
+  items:
+    - name: Demonstracinių duomenų apžvalga
+      href: ../../fin-and-ops/get-started/demo-data.md?toc=/dynamics365/unified-operations/retail/toc.json?toc=/dev-itpro/toc.json
+    - name: Demonstracinių duomenų generavimas naudojant duomenų paketus
+      href: ../../dev-itpro/data-entities/generate-demo-data-packages.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Visuotinis diegimas
+  items:
+    - name: Visuotinis demonstracinių aplinkų diegimas
+      href: ../../dev-itpro/deployment/deploy-demo-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Visuotinis debesies diegimas
+      items:
+        - name: Visuotinio debesies diegimo apžvalga
+          href: ../../dev-itpro/deployment/cloud-deployment-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Visuotinis savitarnos paslaugos diegimas
+          items:
+            - name: Visuotinio savitarnos paslaugos diegimo apžvalga
+              href: ../../dev-itpro/deployment/infrastructure-stack.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Visuotinis naujos aplinkos diegimas
+              href: ../../dev-itpro/deployment/deployenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: DUK apie visuotinį diegimą
+              href: ../../dev-itpro/deployment/deploymentFAQ.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Žinomos visuotinio savitarnos paslaugos diegimo problemos
+              href: ../../dev-itpro/deployment/known-issues-new-deployment-experience.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Visuotinio diegimo priežiūros operacijos
+              href: ../../dev-itpro/deployment/maintenanceoperationsguide-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Aplinkos naujinimas
+              href: ../../dev-itpro/deployment/updateenvironment-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Visuotinai diegiant savitarnos paslaugą įdiegtų aplinkų trikčių šalinimas
+              href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Baigtas „Azure Resource Manager“ supažindinimas
+          href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Azure ExpressRoute“ ir „Finance and Operations“
+          href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Finance and Operations“ architektūra
+          href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Debesies aplinkų naujinimų taikymas
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Naujinimų ir plėtinių taikymas debesyje įdiegtiems „Retail“ kanalo komponentams
+          href: ../../dev-itpro/deployment/Update-retail-channel.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Retail Cloud Scale Unit“ inicijavimas
+          href: ../../dev-itpro/deployment/Initialize-Retail-Channels.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Retail“ duomenų laikymo vieta
+          href: ../../dev-itpro/deployment/retail-data-residency.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Vietinis visuotinis diegimas
+      items:
+        - name: Vietinio visuotinio diegimo pagrindinis puslapis
+          href: ../../dev-itpro/deployment/on-premises-deployment-landing-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinio visuotinio diegimo apžvalga
+          href: ../../dev-itpro/deployment/on-premises-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Visuotinių vietinių diegimų planavimas ir rengimas
+          href: ../../dev-itpro/deployment/plan-onprem-deployment.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Aparatūros dydžio reikalavimai
+          href: ../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dynamics365/unified-operations/retail/toc.json?toc=/dev-itpro/toc.json
+        - name: Vietinių projektų nustatymas
+          href: ../../dev-itpro/lifecycle-services/lbd-create-lcs-on-prem-project.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
+          items:
+            - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimo pagrindinis puslapis
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vietinių aplinkų diegimas („Platform update 12“ar naujesnės versijos)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vietinių aplinkų diegimas („Platform Updates“ 8 ir 11)
+              href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
+              href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
+          href: ../../dev-itpro/deployment/develop-deploy-custom-models-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: PowerBI.com integravimas į vietines aplinkas
+          href: ../../dev-itpro/analytics/entity-store-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinių aplinkų atvirkštinių tarpinių serverių konfigūravimas
+          href: ../../dev-itpro/deployment/onprem-reverseproxy.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinės visuotinės įdiegties naujinimų taikymas
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinė diagnostika
+          href: ../../dev-itpro/deployment/on-premises-diagnostics.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kartotinis visuotinis vietinių visuotinių įdiegčių diegimas
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietos agentas
+          items:
+            - name: „AD FS Office 365“ suderinamumas
+              href: ../../dev-itpro/deployment/onprem-adfscompatibility.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai
+              href: ../../dev-itpro/lifecycle-services/pre-post-scripts.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vietos agento atnaujinimas
+              href: ../../dev-itpro/lifecycle-services/update-local-agent.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kartotinis aplinkų konfigūravimas
+          href: ../../dev-itpro/lifecycle-services/reconfigure-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kliento interneto ryšys
+          href: ../../dev-itpro/user-interface/client-disconnected.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinių visuotinių diegimų trikčių diagnostika
+          href: ../../dev-itpro/deployment/troubleshoot-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sertifikatų kaita
+          href: ../../dev-itpro/deployment/certificate-rotation-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pasirinktinio kodo diegimas
+      items:
+        - name: Galimų diegti modelių paketų kūrimas
+          href: ../../dev-itpro/deployment/create-apply-deployable-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Galimų diegti paketų diegimas iš komandų eilutės
+          href: ../../dev-itpro/deployment/install-deployable-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketo šalinimas
+          href: ../../dev-itpro/deployment/uninstall-deployable-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketo programos trikčių diagnostika
+          href: ../../dev-itpro/deployment/deployable-package-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Kūrimas ir tinkinimas
+  items:
+    - name: Kūrimo ir tinkinimo pagrindinis puslapis
+      href: ../../dev-itpro/dev-tools/developer-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Programų dėklo ir serverio architektūra
+      href: ../../dev-itpro/dev-tools/application-stack-server-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Įvertinimo kopijų gavimas
+      href: ../../dev-itpro/dev-tools/get-evaluation-copy.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Registravimasis prenumeratų peržiūros versijai gauti
+      href: ../../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Visuotinis kūrimo aplinkų diegimas ir naudojimas
+      items:
+        - name: Programavimo aplinkos
+          href: ../../dev-itpro/dev-tools/access-instances.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vieno bloko programavimo aplinkų konfigūravimas
+          href: ../../dev-itpro/dev-tools/configure-developer-vm.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Naujų vartotojų kūrimas kūrimo įrenginiuose
+          href: ../../dev-itpro/dev-tools/enable-development-machine.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'DUK apie kūrimo ir komponavimo VM, nesuteikiančias administravimo prieigos'
+          href: ../../dev-itpro/sysadmin/VMs-no-admin-access.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Vietinių aplinkų pervardijimas, kad būtų galima pasiekti „Azure DevOps“'
+          href: ../../dev-itpro/migration-upgrade/vso-machine-renaming.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kūrimo sistemos reikalavimai
+          href: ../../dev-itpro/dev-tools/development-system-requirements.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'Versijos kontrolė, metaduomenų ieška ir naršymas'
+      href: ../../dev-itpro/dev-tools/version-control-metadata-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Transporto parko valdymo programos pavyzdys
+      items:
+        - name: Tiesioginis transporto parko valdymo programos pavyzdžio scenarijus
+          href: ../../dev-itpro/dev-tools/fleet-management-sample.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Transporto parko valdymo programos pavyzdys
+          href: ../../dev-itpro/dev-tools/introduction-fleet-management-sample.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Visual Studio“ įrankiai
+      items:
+        - name: Kūrimo įrankiai
+          href: ../../dev-itpro/dev-tools/development-tools-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kūrimo įrankių mokymo programa
+          href: ../../dev-itpro/dev-tools/introduction-visual-studio.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Programų tikrintuvas
+          items:
+            - name: „BaseX” programų tikrintuvui diegimas
+              href: ../../dev-itpro/dev-tools/install-basex.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Programų naršyklė
+          href: ../../dev-itpro/dev-tools/application-explorer.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Projektų kūrimas ir derinimas
+          href: ../../dev-itpro/dev-tools/build-debug-project.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kūrimo operacijos
+          href: ../../dev-itpro/dev-tools/build-operations.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kodo rengyklės funkcijos
+          href: ../../dev-itpro/dev-tools/code-editor.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Modelių ir duomenų modelio elementų kūrimas
+          items:
+            - name: Modelių ir duomenų modelio elementų kūrimo apžvalga
+              href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Plėtinių pavadinimų suteikimo gairės
+              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas
+              href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pritaikymo analizės ataskaita​
+          href: ../../dev-itpro/dev-tools/customization-analysis-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Elementų kūrimo įrankiai​
+          href: ../../dev-itpro/dev-tools/element-designers.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Komandos elementų naudojimui nustatyti
+          href: ../../dev-itpro/dev-tools/element-usage.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Modelių eksportavimas ir importavimas
+          href: ../../dev-itpro/dev-tools/models-export-import.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Metaduomenų ieška „Visual Studio“
+          href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Modeliai ir paketai
+          href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Finance and Operations“ projekto tipas
+          href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Įrankių papildiniai, skirti „Visual Studio“'
+          href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Visual Studio“ kūrimo įrankių naujinimas
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: X++ programavimo kalba
+      items:
+        - name: X++ ir derintuvės funkcijos
+          href: ../../dev-itpro/dev-tools/new-x-debugger-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: X++ kodo derinimas
+          href: ../../dev-itpro/dev-tools/debug-xpp.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: EventHandlerResult klasės užklausų ar atsakymų scenarijų metu
+          href: ../../dev-itpro/dev-tools/event-handler-result-class.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Verslo logikos rašymas naudojant C# ir X++ šaltinio kodą'
+          href: ../../dev-itpro/dev-tools/write-business-logic.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: X++ pakeitimai ir X++ kompiliatorius
+          href: ../../dev-itpro/dev-tools/programming-language-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'C# LINQ teikėjas'
+          href: ../../dev-itpro/dev-tools/linq-provider-c.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Geriausios praktikos taisyklių rašymas
+          href: ../../dev-itpro/dev-tools/author-best-practice-rules.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Programų naršyklės ypatybės
+          href: ../../dev-itpro/dev-ref/application-explorer-aot-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: X++ kalbos nuoroda
+          items:
+            - name: X++ kalbos nuorodos apžvalga
+              href: ../../dev-itpro/dev-ref/xpp-language-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Kintamųjų ir duomenų tipai
+              items:
+                - name: Kintamieji
+                  href: ../../dev-itpro/dev-ref/xpp-variables-data-types.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Pagrindinių duomenų tipai
+                  href: ../../dev-itpro/dev-ref/xpp-data-primitive.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Sudėtinių duomenų tipai
+                  href: ../../dev-itpro/dev-ref/xpp-data-composite.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Surinkimo klasės
+                  href: ../../dev-itpro/dev-ref/xpp-data-collection.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Išplėstinių duomenų tipai
+                  href: ../../dev-itpro/dev-ref/xpp-data-edt.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Išrašai, ciklai ir išimčių tvarkymas'
+              items:
+                - name: 'Komentarai, naudojimas ir spaudinys'
+                  href: ../../dev-itpro/dev-ref/xpp-statements-loops.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Sąlyginiai išrašai
+                  href: ../../dev-itpro/dev-ref/xpp-conditional.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Ciklo išrašai
+                  href: ../../dev-itpro/dev-ref/xpp-loops.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Išimčių tvarkymas
+                  href: ../../dev-itpro/dev-ref/xpp-exceptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: SQL ryšio klaidos X++ išimtis
+              href: ../../dev-itpro/dev-ref/sql-connection-error.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ operatoriai
+              href: ../../dev-itpro/dev-ref/xpp-operators.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ operatorių pirmumo tvarka
+              href: ../../dev-itpro/dev-ref/xpp-operator-precedence.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ klasės ir metodai
+              items:
+                - name: Klasės ir metodai
+                  href: ../../dev-itpro/dev-ref/xpp-classes-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Paveldėjimas
+                  href: ../../dev-itpro/dev-ref/xpp-inheritance.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Statinės klasės nariai
+                  href: ../../dev-itpro/dev-ref/xpp-static-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Sąsajos
+                  href: ../../dev-itpro/dev-ref/xpp-interfaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Bibliotekos
+                  href: ../../dev-itpro/dev-ref/xpp-library-objects.md?toc=/dynamics365/unified-operations/retail/toc.json
+                - name: Įvykiai
+                  href: ../../dev-itpro/dev-ref/xpp-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ duomenų pasirinkimas ir tvarkymas
+              href: ../../dev-itpro/dev-ref/xpp-data-query.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Prieiga prie duomenų naudojant „SysDa API“
+              href: ../../dev-itpro/dev-ref/sysda.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ makrokomandos
+              href: ../../dev-itpro/dev-ref/xpp-macros.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ atributų klasės​
+              href: ../../dev-itpro/dev-ref/xpp-attribute-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'X++ ir C# palyginimas'
+              href: ../../dev-itpro/dev-ref/xpp-cs-comparison.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ sintaksė
+              href: ../../dev-itpro/dev-ref/xpp-syntax.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'API, klasės ir lentelės nuoroda'
+      items:
+        - name: 'API, klasės ir lentelės ištekliai'
+          href: ../../dev-itpro/dev-ref/api-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: X++ kompiliacijos laiko funkcijos
+          href: ../../dev-itpro/dev-ref/xpp-compile-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: X++ vykdymo laiko funkcijos
+          items:
+            - name: X++ vykdymo laiko funkcijų ištekliai
+              href: ../../dev-itpro/dev-ref/xpp-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ verslo vykdymo laiko funkcijos
+              href: ../../dev-itpro/dev-ref/xpp-business-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ konteinerio vykdymo laiko funkcijos
+              href: ../../dev-itpro/dev-ref/xpp-container-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ konvertavimo vykdymo laiko funkcijos
+              href: ../../dev-itpro/dev-ref/xpp-conversion-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ datos vykdymo laiko funkcijos
+              href: ../../dev-itpro/dev-ref/xpp-date-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ matematikos vykdymo laiko funkcijos
+              href: ../../dev-itpro/dev-ref/xpp-math-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ atspindžio vykdymo laiko funkcijos
+              href: ../../dev-itpro/dev-ref/xpp-reflection-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ seanso vykdymo laiko funkcijos​
+              href: ../../dev-itpro/dev-ref/xpp-session-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X++ eilutės vykdymo laiko funkcijos​
+              href: ../../dev-itpro/dev-ref/xpp-string-run-time-functions.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sistemos lentelės
+          href: ../../dev-itpro/dev-ref/system-tables.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sistemos klasės
+          items:
+            - name: A klasės
+              href: ../../dev-itpro/dev-ref/a-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: B klasės
+              href: ../../dev-itpro/dev-ref/b-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: C klasės
+              href: ../../dev-itpro/dev-ref/c-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: D klasės
+              href: ../../dev-itpro/dev-ref/d-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: E klasės
+              href: ../../dev-itpro/dev-ref/e-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FieldBinding – FormBuildAnimateControl)
+              href: ../../dev-itpro/dev-ref/fieldbinding-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormBuildButtonControl – FormBuildFastTabSummarySeparator)
+              href: ../../dev-itpro/dev-ref/formbuildbuttoncontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormBuildFilterPaneControl – FormBuildRealControl)
+              href: ../../dev-itpro/dev-ref/formbuildfilterpanecontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormBuildReferenceControl – FormButtonSeparatorControl)
+              href: ../../dev-itpro/dev-ref/formbuildreferencecontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormChangeTracker – FormControlEventArgs)
+              href: ../../dev-itpro/dev-ref/formchangetracker-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormDataObject – FormFastTabHeaderControl)
+              href: ../../dev-itpro/dev-ref/formdataobject-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormFastTabSummarySeparator – FormGridControl)
+              href: ../../dev-itpro/dev-ref/formfasttabsummaryseparator-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormGroupControl – FormIntControl)
+              href: ../../dev-itpro/dev-ref/formgroupcontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormListBoxControl – FormNotifyEventArgs)
+              href: ../../dev-itpro/dev-ref/formlistboxcontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormObject – FormRealControl)
+              href: ../../dev-itpro/dev-ref/formobject-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormReferenceControl – FormStringControl)
+              href: ../../dev-itpro/dev-ref/formreferencecontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: F klasės (FormTabControl – FormWindowControl)
+              href: ../../dev-itpro/dev-ref/formtabcontrol-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: G klasės
+              href: ../../dev-itpro/dev-ref/g-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: H klasės
+              href: ../../dev-itpro/dev-ref/h-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: I klasės
+              href: ../../dev-itpro/dev-ref/i-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: J klasės
+              href: ../../dev-itpro/dev-ref/j-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: K klasės
+              href: ../../dev-itpro/dev-ref/k-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: L klasės
+              href: ../../dev-itpro/dev-ref/l-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: M klasės
+              href: ../../dev-itpro/dev-ref/m-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: N klasės
+              href: ../../dev-itpro/dev-ref/n-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: O klasės
+              href: ../../dev-itpro/dev-ref/o-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: P klasės
+              href: ../../dev-itpro/dev-ref/p-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Q klasės
+              href: ../../dev-itpro/dev-ref/q-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: R klasės
+              href: ../../dev-itpro/dev-ref/r-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: S klasės
+              href: ../../dev-itpro/dev-ref/s-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: T klasės
+              href: ../../dev-itpro/dev-ref/t-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: U klasės
+              href: ../../dev-itpro/dev-ref/u-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: V klasės
+              href: ../../dev-itpro/dev-ref/v-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: W klasės
+              href: ../../dev-itpro/dev-ref/w-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: X klasės
+              href: ../../dev-itpro/dev-ref/x-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Išplečiamumas
+      items:
+        - name: Išplečiamumo pagrindinis puslapis
+          href: ../../dev-itpro/extensibility/extensibility-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Įvadas ir darbo pradžia
+          items:
+            - name: Programų išplečiamumo planas
+              href: ../../dev-itpro/extensibility/extensibility-roadmap.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo užklausos
+              href: ../../dev-itpro/extensibility/extensibility-requests.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: DUK apie išplečiamumą
+              href: ../../dev-itpro/extensibility/app-sealing-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Perkėlimas iš perdengimo į plėtinius
+              href: ../../dev-itpro/extensibility/migrate-overlayer-extension.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Modelių elementų tinkinimas naudojant plėtinius (mokymo programa)
+              href: ../../dev-itpro/extensibility/customize-model-elements-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Tinkinimas naudojant plėtinius ir perdengiant
+              href: ../../dev-itpro/extensibility/customization-overlayering-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kas nauja
+          items:
+            - name: Kas nauja ar pasikeitė išplečiamumo klausimu
+              href: ../../dev-itpro/extensibility/extensibility-new.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (10.0.3 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-3.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (10.0.2 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-2.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (10.0.1 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-10-1.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (10.0 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-10.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.1.3 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-813.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.1.2 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-812.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.1.1 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-811.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.1 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-81.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.0.4 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-804.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.0.3 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-803.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.0.2 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-802.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai (8.0.1 versija)
+              href: ../../dev-itpro/extensibility/extensibility-changes-801.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai 8.0 versijoje
+              href: ../../dev-itpro/extensibility/changes-80.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamumo pakeitimai 7.3 versijoje
+              href: ../../dev-itpro/extensibility/extensibility-changes-73.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: "Išplečiamumo pakeitimai (2017\_m. liepos mėn.)"
+              href: ../../dev-itpro/extensibility/changes-july-2017.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pagrindai
+          items:
+            - name: Nepageidaujami tinkinimai
+              href: ../../dev-itpro/extensibility/intrusive-customizations.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Klasės plėtinio modelis
+              href: ../../dev-itpro/extensibility/class-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Klasės plėtinys naudojant metodų apgaubimą ir eiliškumo modelį
+              href: ../../dev-itpro/extensibility/method-wrapping-coc.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Plėtinių pavadinimų suteikimo gairės
+              href: ../../dev-itpro/extensibility/naming-guidelines-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: „Relax“ modelio apribojimai maketų persidengimui pertvarkyti į plėtinius
+              href: ../../dev-itpro/extensibility/refactoring-over-layering.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Plėtinių kūrimas
+          items:
+            - name: Reikšmių įtraukimas į išvardijimus
+              href: ../../dev-itpro/extensibility/add-enum-value.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplėstinių duomenų tipų modifikavimas
+              href: ../../dev-itpro/extensibility/modify-edt.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Gamyklos metodų poklasių registravimas
+              href: ../../dev-itpro/extensibility/register-subclass-factory-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Atsakymas naudojant EventHandlerResult
+              href: ../../dev-itpro/extensibility/respond-event-handler-result.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: RunBase klasės išplėtimas
+              href: ../../dev-itpro/extensibility/extend-runbase-class.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Programų paleisties tinkinimas naudojant perėmėjus
+              href: ../../dev-itpro/extensibility/startup-customizations.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Esamų lentelės laukų modifikavimas
+              href: ../../dev-itpro/extensibility/modify-existing-field.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Laukų įtraukimas į lenteles
+              href: ../../dev-itpro/extensibility/add-field-extension.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Indeksų įtraukimas į lenteles
+              href: ../../dev-itpro/extensibility/add-index.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Ryšių įtraukimas į lenteles
+              href: ../../dev-itpro/extensibility/add-relation.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Lentelės ypatybių modifikavimas
+              href: ../../dev-itpro/extensibility/modify-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Metodų įtraukimas į lenteles
+              href: ../../dev-itpro/extensibility/add-method-table.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Verslo veiksmai visų lentelės įrašų vykdymo ciklo metu
+              href: ../../dev-itpro/extensibility/subscribe-table-events.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Duomenų šaltinių įtraukimas į formas
+              href: ../../dev-itpro/extensibility/add-datasource.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Formų antraščių keitimas
+              href: ../../dev-itpro/extensibility/change-caption-form.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Formos valdiklio ypatybių modifikavimas
+              href: ../../dev-itpro/extensibility/modify-control-properties.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Numeracijų aprėpties išplėtimas​
+              href: ../../dev-itpro/extensibility/extend-number-sequence-scope.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Naujų atsargų dimensijų įtraukimas
+              href: ../../dev-itpro/extensibility/inventory-dimensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Kainų ir nuolaidų išplėtimas
+              href: ../../dev-itpro/extensibility/pricing-app73.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Lentelių schemos plėtinys
+              href: ../../dev-itpro/extensibility/map-extensions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Lentelių schemų, naudojamų kaip sąsajos, išplėtimas'
+              href: ../../dev-itpro/extensibility/maps-as-interfaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: 'Lentelių schemų, naudojamų versijoms kurti, išplėtimas'
+              href: ../../dev-itpro/extensibility/maps-with-versioning.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Pasirinktų duomenų tipų dešimtainio tikslumo išplėtimas
+              href: ../../dev-itpro/extensibility/decimal-point-precision.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Išplečiamųjų sprendimų kūrimas
+          items:
+            - name: Išplečiamojo kodo rašymas
+              href: ../../dev-itpro/extensibility/writing-extensible-code.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Klasės
+              href: ../../dev-itpro/extensibility/extensible-classes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Metodai
+              href: ../../dev-itpro/extensibility/extensible-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Formos
+              href: ../../dev-itpro/extensibility/extensible-forms.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplėstinių duomenų tipai
+              href: ../../dev-itpro/extensibility/extensible-edts.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Išplečiamieji išvardijimai
+              href: ../../dev-itpro/extensibility/extensible-enums.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Perėmėjai
+              href: ../../dev-itpro/extensibility/extensible-code-delegates.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Lentelės
+              href: ../../dev-itpro/extensibility/extensible-tables.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Metodų išplečiamumo atributai
+              href: ../../dev-itpro/extensibility/extensibility-attributes.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Gedimų sukeliantys keitimai
+              href: ../../dev-itpro/extensibility/breaking-changes.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Efektyvumas
+      items:
+        - name: Sekimas naudojant „Trace parser“
+          href: ../../dev-itpro/perf-test/trace-trace-tutorial.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir našumo SDK
+          href: ../../dev-itpro/perf-test/single-user-test-perf-sdk.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kelių vartotojų aplinkos bandymas naudojant našumo SDK ir vietinį bandymo valdiklį
+          href: ../../dev-itpro/perf-test/multi-user-testing-local-test-controller.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kelių vartotojų aplinkos bandymas naudojant našumo SDK ir „Azure DevOps“
+          href: ../../dev-itpro/perf-test/multi-user-testing-perfsdk-azuredevops.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vieno vartotojo arba kelių vartotojų aplinkos bandymo naudojant našumo SDK trikčių diagnostikos vadovas
+          href: ../../dev-itpro/perf-test/troubleshoot-perf-sdk-user-testing.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Našumo SDK ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
+          href: ../../dev-itpro/perf-test/perfsdk-tutorial-lbd.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Problemų diagnozavimas ir efektyvumo analizavimas naudojant „Trace parser”
+          href: ../../dev-itpro/perf-test/trace-parser.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Efektyvumo laikmatis
+          href: ../../dev-itpro/perf-test/performance-timer.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Visual Studio“ bandymų palaikymas
+      items:
+        - name: Bandymas ir tikrinimas
+          href: ../../dev-itpro/perf-test/testing-validation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Visual Studio“ bandymų projektai
+          href: ../../dev-itpro/perf-test/testing-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Visuotinis aplinkų, palaikančių nuolatinio komponavimo versijų ir bandymo automatizavimo funkciją, diegimas'
+          href: ../../dev-itpro/perf-test/continuous-build-test-automation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „SysTest“ filtravimas naudojant klasės ir metodo atributus
+          href: ../../dev-itpro/perf-test/systest-filtering.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Priėmimo bandymų biblioteka
+          items:
+            - name: Priėmimo bandymų bibliotekos ištekliai
+              href: ../../dev-itpro/perf-test/acceptance-test-library.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Naršymo sąvokos
+              href: ../../dev-itpro/perf-test/concepts-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Duomenų metodų bandymas
+              href: ../../dev-itpro/perf-test/test-data-methods.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Priėmimo bandymų bibliotekos objektai
+              href: ../../dev-itpro/perf-test/concepts-entities.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Priėmimo bandymų bibliotekos komandos
+              href: ../../dev-itpro/perf-test/concepts-commands.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Priėmimo bandymų bibliotekos kūrėjai
+              href: ../../dev-itpro/perf-test/concepts-creators.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Priėmimo bandymų bibliotekos užklausos
+              href: ../../dev-itpro/perf-test/concepts-queries.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Specifikacijos klasės
+              href: ../../dev-itpro/perf-test/concepts-specifications.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Priėmimo bandymų bibliotekos kodų generavimo vediklis
+              href: ../../dev-itpro/perf-test/code-generation-wizard.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Geriausia priėmimo bandymų bibliotekos praktika
+              href: ../../dev-itpro/perf-test/atl-best-practices.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Dažnai užduodami klausimai
+              href: ../../dev-itpro/perf-test/atl-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Datos galiojimas
+      href: ../../dev-itpro/dev-tools/date-effectivity.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: ISV licencijavimas
+      href: ../../dev-itpro/dev-tools/isv-licensing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: ISV licencijavimas vietinėje sistemoje
+      href: ../../dev-itpro/dev-tools/isv-licensing-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Bendrasis duomenų apsaugos reglamentas (BDAR)
+  items:
+    - name: Bendrasis duomenų apsaugos reglamento apžvalga
+      href: ../../dev-itpro/gdpr/gdpr-guide.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Atsakymas į BDAR duomenų užklausas
+      items:
+        - name: Atsakymo į BDAR duomenų užklausas ištekliai
+          href: ../../dev-itpro/gdpr/gdpr-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Turto klasifikavimas
+          href: ../../dev-itpro/gdpr/gdpr-asset-classification-values.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Asmenų ieškos ataskaita
+          href: ../../dev-itpro/gdpr/gdpr-person-search-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Asmenų ieškos ataskaitos išplėtimas
+          href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Prieigos prie slaptų duomenų valdymas
+          href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Atsakymas į užklausas dėl asmens duomenų naudojant „Talent“
+          href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Atsakymas į užklausas dėl asmens duomenų AX 2012
+          href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: BDAR duomenų užklausos LCS
+          href: ../../dev-itpro/gdpr/gdpr-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: „Lifecycle Services“
+  items:
+    - name: 'Ištekliai, skirti „Lifecycle Services“'
+      items:
+        - name: „Lifecycle Services“ ištekliai
+          href: ../../dev-itpro/lifecycle-services/lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: LCS klientams
+          href: ../../dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: LCS partneriams
+          href: ../../dev-itpro/lifecycle-services/getting-started-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kas nauja
+          href: ../../dev-itpro/lifecycle-services/whats-new-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Žinomos problemos
+          href: ../../dev-itpro/lifecycle-services/known-issues.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Lifecycle Services“ vartotojo vadovas
+      href: ../../dev-itpro/lifecycle-services/lcs-user-guide.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Prenumeratos poreikio vertinimo įrankis
+      href: ../../dev-itpro/lifecycle-services/subscription-estimator.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Saugos konfigūravimas
+      href: ../../dev-itpro/lifecycle-services/configure-lcs-security.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Problemų ieška
+      href: ../../dev-itpro/lifecycle-services/issue-search-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Konfigūracijos tvarkyklė
+      items:
+        - name: Konfigūracijos tvarkyklės apžvalga
+          href: ../../dev-itpro/lifecycle-services/configuration-manager-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Konfigūracijos tvarkyklės nustatymas
+          href: ../../dev-itpro/lifecycle-services/set-up-configuration-manager-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Kodo plėtojimo tarnybos konfigūravimas
+      href: ../../dev-itpro/lifecycle-services/configure-execute-code-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Metodikų kūrimas arba naujinimas
+      href: ../../dev-itpro/lifecycle-services/create-methodology.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Verslo procesų modeliavimo įrankis
+      href: ../../dev-itpro/lifecycle-services/bpm-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Verslo procesų bibliotekos verslo procesų modeliavimo įrankyje
+      href: ../../dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'Verslo procesų modeliavimo įrankio biibliotekų kūrimas, redagavimas ir naršymas'
+      href: ../../dev-itpro/lifecycle-services/creating-editing-browsing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Užduočių atlikimas verslo procesų modeliavimo įrankyje
+      href: ../../dev-itpro/lifecycle-services/complete-tasks-bpm.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Darbas su veiklos diagramomis BPM bibliotekose
+      href: ../../dev-itpro/lifecycle-services/using-activity-diagrams.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: BPM bibliotekų sinchronizavimas su „Azure DevOps“
+      href: ../../dev-itpro/lifecycle-services/synchronize-bpm-vsts.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Vartotojo lygio priėmimo bandymų bibliotekų kūrimas naudojant užduočių vedlius ir BPM
+      href: ../../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Struktūrinės diagramos verslo procesų modeliavimo įrankyje
+      href: ../../dev-itpro/lifecycle-services/flowcharts-business-process-modeler.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pasirinktinių verslo procesų nusiuntimas į verslo procesų modeliavimo įrankį
+      href: ../../dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Stebėjimas ir diagnostika
+      href: ../../dev-itpro/lifecycle-services/monitoring-diagnostics.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Aplinkos paslaugų paleidimas iš naujo
+      href: ../../dev-itpro/lifecycle-services/restart-environment-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pranešimas apie gamybos sutrikimus
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Vartotojų prisijungimų sekimas
+      href: ../../dev-itpro/lifecycle-services/user-logins.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Turto biblioteka
+      href: ../../dev-itpro/lifecycle-services/asset-library.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Našumo trikčių diagnostika naudojant LCS įrankius
+      href: ../../dev-itpro/lifecycle-services/performancetroubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Užklausų mokomoji medžiaga
+      href: ../../dev-itpro/lifecycle-services/querycookbook.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Microsoft Dynamics 365 Translation Service“
+      items:
+        - name: „Dynamics 365 Translation Service“ apžvalga
+          href: ../../dev-itpro/lifecycle-services/translation-service-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vartotojo sąsajos failų vertimas
+          href: ../../dev-itpro/lifecycle-services/use-translation-service.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Dokumentacijos failų vertimas
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-ua.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vertimo atminties failai
+          href: ../../dev-itpro/lifecycle-services/use-translation-service-tm.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Mobilioji platforma
+  items:
+    - name: Mobiliosios platformos ištekliai
+      href: ../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pradžia
+      items:
+        - name: Darbo su mobiliąja platforma pradžia
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-getting-started.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Architektūros ir dizaino aplinkybės
+          href: ../../dev-itpro/mobile-apps/platform/mobile-platform-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Verslo logikos įvykiai
+          href: ../../dev-itpro/mobile-apps/platform/business-logic-events-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Puslapių dizaino rekomendacijos
+          href: ../../dev-itpro/mobile-apps/platform/page-design-guidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Veiksmų dizaino rekomendacijos
+          href: ../../dev-itpro/mobile-apps/platform/action-design-guidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Formų dizaino reikalavimai
+          href: ../../dev-itpro/mobile-apps/platform/form-design-requirements.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Bendros užduotys
+      items:
+        - name: Darbo sričių konfigūravimas naudojant „SysAppWorkspace“ klasę
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/mobile-workspace-configuration.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Laukų nustatymas taip, kad juos būtų galima spustelėti mobiliųjų programų puslapiuose'
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-workspace-field-clickable.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Skaičiavimo rezultatų rodymas laukuose
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/display-count-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pagalba apsaugant mobiliąsias darbo sritis
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/secure-mobile-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Mobiliųjų darbo sričių lokalizavimas
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/localize-workspaces-on-server.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Laukų nustatymas taip, kad naudojant darbo sričių klases jie būtų privalomi'
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/make-field-mandatory.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Programavimo serveryje nuoroda
+      items:
+        - name: Programavimas serveryje (darbo srities X++ API)
+          href: ../../dev-itpro/mobile-apps/platform/mobile-workspace-server-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Programavimo kliente nuoroda
+      items:
+        - name: Kūrimo kliente API sąsajos
+          href: ../../dev-itpro/mobile-apps/platform/scenarios/client-api-design-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kliento API sąsajos
+          items:
+            - name: Kliento API sąsajų pagrindinis puslapis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/client-apis-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageState išvardijimas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/enums/view-model-ipage-pagestate.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Programos modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-application.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Atidėjimo modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/defer.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Įvykio modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/event-ievent.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Kontrolės modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-icontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Konteinerio modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-container-icontainercontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Lauko modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-field-ifield.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Failų nusiuntimo įrankio modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-fileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Grupės modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-group-igroup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Hipersaito modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-hyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vaizdo modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-image-iimage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Įvesties modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-basecontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Sąrašo modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-list-ilist.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Peržvalgos modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-ilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Kelių pasirinkčių peržvalgos modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Puslapio modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-ipage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: „Pagelink“ modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Dalies modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Paslaugų modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/services-business-logic-services.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vertės modulis
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Programos tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ApplicationMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: AsyncService tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-iasyncservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: CacheService tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-icacheservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: CompleteEventArgs tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-icompleteeventargs.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ContainerControl tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ContainerControlDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontroldesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ContainerControlMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-container-icontainercontrol-icontainercontrolmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ControlMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: DataService tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Atidėjimo tipas<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/defer-ideferred.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Dizaino tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: EventHook tipas<T>
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Lauko tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: FieldDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifielddesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: FieldMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifieldmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: FileUploader tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploader.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: FileUploaderDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploaderdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: FileUploaderMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: GenericValue tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: getDataSource tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Grupės tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: GroupDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: GroupMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroupmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: HyperLink tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: HyperLinkDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: HyperLinkMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-hyperlink-ihyperlink-ihyperlinkmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vaizdo tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ImageDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagedesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ImageMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-image-iimage-iimagemetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: InputControl tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrol.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: InputControlDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontroldesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: InputControlMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-iinputcontrolmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Sąrašo tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilist.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ListDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ListMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-ilistmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Peržvalgos tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: LookupDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: LookupMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-ilookup-ilookupmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: MetadataService tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-imetadataservice.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: MultiLookup tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookup.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: MultiLookupDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: MultiLookupMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-lookup-imultilookup-imultilookupmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: NavigationArgs tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-inavigationargs.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: NumberSequenceConfig tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-iinputcontrol-inumbersequenceconfig.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Puslapio tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipage.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageData tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/services-business-logic-services-ipagedata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageLink tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelink.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageLinkDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageLinkMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-pagelink-ipagelink-ipagelinkmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagemetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageOptions tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipageoptions.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageSubmitArgs tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagesubmitargs.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PageTarget tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-ipage-ipagetarget.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Dalies tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipart.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PartDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartdesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: PartMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-part-ipart-ipartmetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Eilutės tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-list-ilist-irow.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vertės tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivalue.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ValueDesign tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: ValueMetadata tipas
+              href: ../../dev-itpro/mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: „Regression Suite Automation Tool”
+  items:
+    - name: „Regression Suite Automation Tool“ apžvalga
+      href: ../../dev-itpro/perf-test/rsat/rsat-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Diegimas ir konfigūravimas
+      href: ../../dev-itpro/perf-test/rsat/rsat-install-configure.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Agnostinis duomenų testavimas naudojant „Regression Suite Automation Tool“
+      href: ../../fin-and-ops/get-started/recommendation-data-agnostic-testing-rsat.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Bandymo atvejų vykdymas
+      href: ../../dev-itpro/perf-test/rsat/rsat-run.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Numatomų verčių tikrinimas
+      href: ../../dev-itpro/perf-test/rsat/rsat-validate-expected.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Grandinės bandymo atvejai
+      href: ../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Išvestiniai bandymo atvejai
+      href: ../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Regression Suite Automation Tool“ mokymo programos naudojimas
+      href: ../../fin-and-ops/get-started/hol-use-regression-suite-automation-tool.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Geriausia praktika
+      href: ../../dev-itpro/perf-test/rsat/rsat-best-practices.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Trikčių šalinimas
+      href: ../../dev-itpro/perf-test/rsat/rsat-troubleshooting.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Sprendimų išleidimas naudojant „Lifecycle Services“
+  items:
+    - name: Kūrimas ir išleidimas
+      href: ../../dev-itpro/lcs-solutions/lcs-solutions-app-source.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Paruošimas ir publikavimas
+      href: ../../dev-itpro/lcs-solutions/marketing-content-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Metodikų įtraukimas
+      href: ../../dev-itpro/lcs-solutions/methodologies-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Verslo procesų modeliavimo įrankio bibliotekų nustatymas
+      href: ../../dev-itpro/lcs-solutions/business-process-modeler-libraries-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Kodo perkėlimas
+      href: ../../dev-itpro/lcs-solutions/code-migration-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Programų tikrinimas
+      href: ../../dev-itpro/lcs-solutions/app-validation-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų paketų apdorojimas ir naudojimas
+      href: ../../dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Sprendimų duomenų bazių atsarginių kopijų kūrimas
+      href: ../../dev-itpro/lcs-solutions/database-backup-lcs-solutions.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Lokalizavimo ir reguliavimo priemonės
+      items:
+        - name: Globalizacijos ištekliai
+          href: ../../dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Lokalizavimo priemonių klasifikacija
+          href: ../../dev-itpro/lcs-solutions/classify-localization-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: "Šalies\_/ regiono konteksto taikymas"
+          href: ../../dev-itpro/lcs-solutions/apply-country-context.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Reglamentavimo sertifikavimo informacija apie funkcijų pavadinimus
+          href: ../../dev-itpro/lcs-solutions/regulatory-certifications.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Reglamentavimo naujinimai
+          href: ../../dev-itpro/lcs-solutions/regulatory-watch-communication.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Lokalizavimo modelių atskyrimas
+          href: ../../dev-itpro/lcs-solutions/separate-localization-models.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Priežiūros įspėjimų pateikimas
+          href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Pagalba
+  items:
+    - name: Gauti pagalbos dėl „Finance and Operations“ ir „Lifecycle Services“
+      href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Dynamics 365“ pagalbos apžvalga
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
+    - name: 'Gauti pagalbos dėl „Finance and Operations, valdomos „21Vianet“ Kinijoje'
+      href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: „Premier“ palaikymo kvito registravimas
+      href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Užklausų teikimas „Dynamics“ paslaugų inžinierių komandai
+      href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: 'Nustatyti techninę pagalbą, skirtą „Finance and Operations“'
+      href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: DUK apie suplanuotą priežiūros laiko intervalą
+      href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Debesies operacijos ir aptarnavimas
+      href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Tvarkyti „Finance and Operations“ palaikymo funkcijas
+      href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Sistemos administravimas
+  items:
+    - name: Sistemos administravimo pagrindinis puslapis
+      href: ../../dev-itpro/sysadmin/system-administration-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Saitų įtraukimas į jūsų teisines sąlygas ir privatumo nuostatas
+      href: ../../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Licencijų kodų ir konfigūracijos raktų ataskaita
+      href: ../../dev-itpro/sysadmin/license-codes-configuration-keys-report.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų bendrinimas tarp įmonių
+      href: ../../dev-itpro/sysadmin/cross-company-data-sharing.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Priežiūros režimas
+      href: ../../dev-itpro/sysadmin/maintenance-mode.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Iš anksto sukonfigūruotos sistemos sąskaitos
+      href: ../../dev-itpro/sysadmin/pre-configured-system-accounts.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: B2B vartotojų eksportavimas į „Azure AD“
+      href: ../../dev-itpro/sysadmin/implement-b2b.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Sauga
+      items:
+        - name: Vaidmenimis grįsta sauga
+          href: ../../dev-itpro/sysadmin/role-based-security.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Saugos architektūra
+          href: ../../dev-itpro/sysadmin/security-architecture.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Seanso laukimo būsenos skirtojo laiko nustatymas
+          href: ../../dev-itpro/sysadmin/session-idle-timeout.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Parengtos naudoti saugos ataskaitos
+          href: ../../dev-itpro/sysadmin/security-reports.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Naujų vartotojų kūrimas
+          href: ../../dev-itpro/sysadmin/tasks/create-new-users.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Masinis vartotojų importavimas
+          href: ../../dev-itpro/sysadmin/tasks/import-bulk-users.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pareigų atskyrimo nustatymas
+          href: ../../dev-itpro/sysadmin/tasks/set-up-segregation-duties.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pareigų atskyrimo nesuderinamumų nustatymas ir pašalinimas
+          href: ../../dev-itpro/sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vartotojų priskyrimas saugos vaidmenims
+          href: ../../dev-itpro/sysadmin/tasks/assign-users-security-roles.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Paketinis vykdymas
+      items:
+        - name: Paketinio vykdymo apžvalga
+          href: ../../dev-itpro/sysadmin/batch-processing-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketinis vykdymas ir paketinio apdorojimo serveriai
+          href: ../../dev-itpro/sysadmin/batch-server-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketinių užduočių kūrimas
+          href: ../../dev-itpro/sysadmin/tasks/create-batch-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketinės užduoties kopijavimas
+          href: ../../dev-itpro/sysadmin/copy-batch-job.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Aktyvieji paketo laikotarpiai
+          href: ../../dev-itpro/sysadmin/activeperiod.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketų vadovo saugos vaidmuo
+          href: ../../dev-itpro/sysadmin/runby.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketinė užduotis SQL indekso defragmentavimui apdoroti
+          href: ../../dev-itpro/sysadmin/batch-job-SQL-defragmentation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketinių įspėjimų konfigūravimas
+          href: ../../dev-itpro/sysadmin/alerts.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Patobulintos paketų formos
+          href: ../../dev-itpro/sysadmin/enhanced-forms.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketų istorijos valymas
+          href: ../../dev-itpro/sysadmin/batch-history-cleanup.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paketinės užduoties vykdymo atšaukimas
+          href: ../../dev-itpro/sysadmin/batch-abort.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Optimizavimo patariamasis įrankis
+      items:
+        - name: Optimizavimo patariamojo įrankio apžvalga
+          href: ../../dev-itpro/sysadmin/optimization-advisor-overview.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Optimizavimo patariamojo įrankio taisyklių kūrimas
+          href: ../../dev-itpro/sysadmin/create-rules-optimization-advisor.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pranešimas apie gamybos sutrikimus
+      href: ../../dev-itpro/lifecycle-services/report-production-outage.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: 'Plėtotės, naujinimai ir karštosios pataisos'
+  items:
+    - name: 'Plėtočių, naujinimų ir karštųjų pataisų ištekliai'
+      href: ../../dev-itpro/migration-upgrade/upgrade-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Naujinimas iš AX 2012
+      items:
+        - name: Naujinimas iš AX 2012 į „Finance and Operations“
+          href: ../../dev-itpro/migration-upgrade/upgrade-overview-2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – planavimas naudojant plėtojimo analizavimo įrankį
+          href: ../../dev-itpro/migration-upgrade/upgrade-analyzer-tool.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – pastangų numatymas naudojant kodo plėtojimo tarnybą
+          href: ../../dev-itpro/migration-upgrade/analyze-code-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – visuotinis analizės demonstracinės aplinkos diegimas
+          href: ../../dev-itpro/migration-upgrade/analysis-sandbox.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – duomenų plėtojimas programavimo aplinkose
+          href: ../../dev-itpro/migration-upgrade/data-upgrade-2012.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – išankstinis duomenų naujinimo kontrolinis sąrašas
+          href: ../../dev-itpro/migration-upgrade/prepare-data-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-sandbox.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – visiško perkėlimo bandymai
+          href: ../../dev-itpro/migration-upgrade/upgrade-cutover-testing.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – užduotys po atnaujinimo
+          href: ../../dev-itpro/migration-upgrade/app-validation-process.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – funkcijų tikrinimai
+          href: ../../dev-itpro/migration-upgrade/upgrade-functional-validation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – rengimasis įgyvendinimo pradžiai
+          href: ../../dev-itpro/migration-upgrade/upgrade-go-live-prep.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2012 versijos naujinimas – įgyvendinimo pradžia
+          href: ../../dev-itpro/migration-upgrade/2012-upgrade-cutover.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Keitimai, turintys įtakos AX 2012 versijos naujinimui'
+          items:
+            - name: 'Sąskaitų plano skyriklio nustatymas, kad jis būtų unikalus'
+              href: ../../dev-itpro/migration-upgrade/chart-accounts-delimiter-unique.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vieno kvito žurnalų ir valiutos kurso pasikeitimų plėtojimas
+              href: ../../dev-itpro/migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Projekto išteklių planavimo duomenų modelis
+              href: ../../dev-itpro/migration-upgrade/data-model-changes-resource-management.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Darbo eigos posistemės pokyčiai
+              href: ../../dev-itpro/migration-upgrade/workflow-subsystem.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Vietoje kubų naudojamų modelių agregavimas analizei atlikti
+              href: ../../dev-itpro/migration-upgrade/in-memory-real-time-aggregate-models.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Atnaujintų pardavimo kubų perkėlimas į objektų saugyklą
+              href: ../../dev-itpro/migration-upgrade/migrate-upgraded-cube-entity-store.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Biudžeto planavimo naujinimas
+              href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Duomenų perkėlimas iš AX 2009
+      items:
+        - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations“
+          href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2009 perkėlimas – duomenų perkėlimo įrankio diegimas
+          href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2009 perkėlimas – schemų generavimas
+          href: ../../dev-itpro/migration-upgrade/generate-maps.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2009 perkėlimas – šablonų kūrimas
+          href: ../../dev-itpro/migration-upgrade/create-package-templates-dmt.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2009 perkėlimas – perkėlimo grupių kūrimas
+          href: ../../dev-itpro/migration-upgrade/create-definition.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2009 perkėlimas – paketų eksportavimas
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-export-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: AX 2009 perkėlimas – paketų importavimas
+          href: ../../dev-itpro/migration-upgrade/ax2009-upgrade-import-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Kodo perkėlimas ir plėtojimas
+      items:
+        - name: Kodo perkėlimo ir plėtojimo pagrindinis puslapis
+          href: ../../dev-itpro/migration-upgrade/code-migration-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pasirengimas kodui perkelti
+          href: ../../dev-itpro/migration-upgrade/prepare-migration.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Azure DevOps“ susiejimo konfigūravimas
+          href: ../../dev-itpro/migration-upgrade/configure-vso-solution.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Modelių išskaidymas
+          href: ../../dev-itpro/dev-tools/model-split.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Priklausomybių tarp modelių sprendimas naudojant perėmėjus
+          href: ../../dev-itpro/migration-upgrade/delegates-migration.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Plėtojimas į naujausią naujinimą (debesis)
+      items:
+        - name: Perėjimo prie naujausio naujinimo procesas
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Keliai į vieną versiją
+          items:
+            - name: Savarankiškas naujinimas į naujausią versiją
+              href: ../../dev-itpro/migration-upgrade/self-service-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+            - name: Atkūrimas ir naujinimas į naujausią versiją
+              href: ../../dev-itpro/migration-upgrade/appupdate-80-81.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Programinės įrangos ciklo strategija ir debesies leidimai
+          href: ../../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Naujausio platformos naujinimo taikymas aplinkoms
+          href: ../../dev-itpro/migration-upgrade/upgrade-latest-platform-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Duomenų plėtojimas programavimo arba demonstracinėje aplinkose
+          href: ../../dev-itpro/migration-upgrade/upgrade-data-to-latest-update.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kūrimo įrankių naujinimas
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kodo kompiliavimo pagal naujausią naujinimą planavimas ir ruošimasis tam
+          href: ../../dev-itpro/migration-upgrade/compile-considerations.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Plėtojimas į naujausią naujinimą (vietinė versija)
+      items:
+        - name: Vietinių visuotinių įdiegčių naujinimų taikymas
+          href: ../../dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kartotinis visuotinis vietinės visuotinės įdiegties diegimas
+          href: ../../dev-itpro/deployment/redeploy-on-prem.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vietinės versijos naujinimas iš 7.x į 8.1
+          href: ../../dev-itpro/migration-upgrade/on-prem-upgrade.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Karštosios pataisos
+      items:
+        - name: Naujinimų gavimas iš „Lifecycle Services“
+          href: ../../dev-itpro/migration-upgrade/download-hotfix-lcs.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Debesies aplinkų naujinimų taikymas
+          href: ../../dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Karštųjų metaduomenų pataisų diegimas programavimo aplinkose
+          href: ../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Reporting Services“ taisymas vieno bloko aplinkose
+          href: ../../dev-itpro/migration-upgrade/patch-reporting-service-environment.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Visual Studio“ kūrimo įrankių naujinimas
+          href: ../../dev-itpro/dev-tools/update-development-tools.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Draudimai naudoti
+      items:
+        - name: Pašalintos arba nebenaudojamos funkcijos
+          href: ../../dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pasenusių metodų ir metaduomenų elementų nenaudojimas
+          href: ../../dev-itpro/migration-upgrade/deprecation-deletion-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Nebenaudojamos API sąsajos
+          href: ../../dev-itpro/migration-upgrade/deprecated-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+- name: Vartotojo sąsajos kūrimas
+  items:
+    - name: Vartotojo sąsajos kūrimo pagrindinis puslapis
+      href: ../../dev-itpro/user-interface/user-interface-development-home-page.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Mokymo programos
+      items:
+        - name: Nuomos išlaidų tipo formos kūrimas
+          href: ../../dev-itpro/user-interface/build-rental-charge-type-form.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kliento formos kūrimas
+          href: ../../dev-itpro/user-interface/build-customer-form.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Komponavimo versijos naršymas
+          href: ../../dev-itpro/user-interface/build-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Darbo sričių kūrimas
+          href: ../../dev-itpro/user-interface/build-workspace.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Formos
+      items:
+        - name: Naršymo sąvokos
+          href: ../../dev-itpro/user-interface/page-navigation.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Puslapio maketas žiniatinklio kliente
+          href: ../../dev-itpro/user-interface/page-layout.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „Dynamics“ simbolių šriftas​
+          href: ../../dev-itpro/user-interface/symbol-font.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Įrašyti rodiniai
+          href: ../../fin-and-ops/get-started/saved-views.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Formų, kurios visiškai išnaudoja įrašytus rodinius, kūrimas'
+          href: ../../dev-itpro/user-interface/understanding-saved-views.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Formų, kurios naudoja pasirinktinius šablonus, bandymas​'
+          href: ../../dev-itpro/user-interface/testing-forms-custom-patterns.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Bendrinamų, saugių URL (giliųjų saitų) kūrimas'
+          href: ../../dev-itpro/user-interface/create-deep-links.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Formų, produktų ir valdiklių pritaikymas neįgaliesiems'
+          href: ../../dev-itpro/user-interface/enable-accessibility.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Laukų aprašų tinkinimas
+          href: ../../dev-itpro/user-interface/customize-field-help.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Valdikliai
+      items:
+        - name: Veiksmo valdikliai
+          href: ../../dev-itpro/user-interface/action-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Įvesties valdikliai ir tinklelio stulpelių dydžiai
+          href: ../../dev-itpro/user-interface/sizing-input-controls-grid-columns.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Žymės langelių palaikymas medžio valdikliuose
+          href: ../../dev-itpro/user-interface/check-box-tree-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Filtravimo parinktys
+          href: ../../dev-itpro/user-interface/filtering.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „PowerApps“ pagrindinis valdymo kompiuteris
+          href: ../../dev-itpro/user-interface/powerapps-host-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Langų valdymas
+      items:
+        - name: Kontekstinio meniu kodo perkėlimas
+          href: ../../dev-itpro/migration-upgrade/code-migration-context-menus.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pelės spustelėjimo du kartus logikos perkėlimas
+          href: ../../dev-itpro/migration-upgrade/code-migration-double-click.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kontekstinių duomenų įvedimas į peržvalgos laukus
+          href: ../../dev-itpro/user-interface/contextual-data-entry-lookups.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: HierarchyViewer valdiklis
+          href: ../../dev-itpro/user-interface/hierarchy-viewer-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Peržvalgos valdikliai
+          href: ../../dev-itpro/user-interface/lookups-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Failų nusiuntimo valdiklis
+          href: ../../dev-itpro/user-interface/file-upload-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sistemos nustatyti mygtukai
+          href: ../../dev-itpro/user-interface/system-defined-buttons.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vaizdai puslapyje arba tinklelyje
+          href: ../../dev-itpro/user-interface/images-form-grid.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Įvesties, lentelių ir tinklelių valdiklių šrifto bei fono spalvos'
+          href: ../../dev-itpro/user-interface/specify-color-font-background-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Kalbų, kuriomis rašoma iš dešinės į kairę, palaikymas ir dvikryptis tekstas'
+          href: ../../dev-itpro/user-interface/bidirectional-support.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Darbo sričių plytelių piktogramų kūrimas
+          href: ../../dev-itpro/user-interface/create-icons-workspace-tiles.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Viešosios „JavaScript“ API, skirtos išplečiamiesiems valdikliams'
+          href: ../../dev-itpro/user-interface/public-javascript-apis.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Kontrolinis valdiklių sąrašas
+          href: ../../dev-itpro/user-interface/control-checklist.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pranešimai
+      items:
+        - name: Funkcijų paaiškinimai
+          href: ../../dev-itpro/user-interface/feature-callouts.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Slankiklis ir pranešimo lauko dialogo langai
+          href: ../../dev-itpro/user-interface/slider-messagebox.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Pranešimų centras, pranešimų juosta ir išsamios pranešimų informacijos API'
+          href: ../../dev-itpro/user-interface/messaging-api-center-bar-details.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'DUK apie pranešimų centrą, pranešimų juostą ir išsamią pranešimų informaciją'
+          href: ../../dev-itpro/user-interface/messaging-user.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Formos šablono gairės
+      items:
+        - name: Perkeltoms formoms skirti formų šablonai
+          href: ../../dev-itpro/user-interface/select-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Formų stiliai ir šablonai
+          href: ../../dev-itpro/user-interface/form-styles-patterns.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Formų šablonus palaikantys „Visual Studio“ papildiniai
+          href: ../../dev-itpro/user-interface/form-pattern-add-ins.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Formų šablonai
+      items:
+        - name: Bendrieji formų nurodymai
+          href: ../../dev-itpro/user-interface/general-form-guidelines.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Pagrindinės informacijos formos šablonas
+          href: ../../dev-itpro/user-interface/details-master-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Operacijos informacijos formos šablonas
+          href: ../../dev-itpro/user-interface/details-transaction-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Formos dalių sekcijų sąrašo formų šablonai
+          href: ../../dev-itpro/user-interface/section-list-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sąrašo puslapio formos šablonas
+          href: ../../dev-itpro/user-interface/list-page-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paprastos informacijos formos šablonas
+          href: ../../dev-itpro/user-interface/simple-details-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paprasto sąrašo ir informacijos formos šablonas
+          href: ../../dev-itpro/user-interface/simple-list-details-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Paprasto sąrašo formos šablonas
+          href: ../../dev-itpro/user-interface/simple-list-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Turinio formos šablonas
+          href: ../../dev-itpro/user-interface/table-of-contents-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Dvigubos užduoties formos šablonas
+          href: ../../dev-itpro/user-interface/task-double-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Viengubos užduoties formos šablonas
+          href: ../../dev-itpro/user-interface/task-single-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vedlio formos šablonas
+          href: ../../dev-itpro/user-interface/wizard-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Darbo srities formos šablonas
+          href: ../../dev-itpro/user-interface/workspace-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Antriniai formų šablonai
+      items:
+        - name: Išplėstinio pasirinkimo formos šablonas
+          href: ../../dev-itpro/user-interface/advanced-selection-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Dialogo lango formos šablonas
+          href: ../../dev-itpro/user-interface/dialog-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Išplečiamojo dialogo lango formos šablonas
+          href: ../../dev-itpro/user-interface/drop-dialog-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Peržvalgos formos šablonas
+          href: ../../dev-itpro/user-interface/lookup-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: „FactBox“ formų šablonai
+          href: ../../dev-itpro/user-interface/factbox-form-patterns.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Pošabloniai
+      items:
+        - name: Pasirinktinės filtrų grupės pošablonis
+          href: ../../dev-itpro/user-interface/custom-filter-group-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Dimensijų įrašų valdiklio pošablonis
+          href: ../../dev-itpro/financial/dimension-entry-control-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Dimensijų reiškinių daryklės pošablonis
+          href: ../../dev-itpro/financial/dimension-expression-builder-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Laukų ir laukų grupių pošablonis
+          href: ../../dev-itpro/user-interface/fields-field-groups-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Filtrų ir įrankių juostos pošablonis
+          href: ../../dev-itpro/user-interface/filters-toolbar-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Užpildos teksto pošablonis
+          href: ../../dev-itpro/user-interface/fill-text-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Horizontalių laukų ir mygtukų grupių pošablonis
+          href: ../../dev-itpro/user-interface/horizontal-fields-buttons-group-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Vaizdo peržiūros pošablonis
+          href: ../../dev-itpro/user-interface/image-preview-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sąrašo skydo pošablonis
+          href: ../../dev-itpro/user-interface/list-panel-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Įdėto sąrašo ir informacijos pošablonis
+          href: ../../dev-itpro/user-interface/nested-simple-list-details-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sekcijų diagramų formos šablonas
+          href: ../../dev-itpro/user-interface/section-chart-form-pattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sekcijų „Power BI“ pošablonis
+          href: ../../dev-itpro/user-interface/section-powerbi-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sekcijų susijusių saitų pošablonis
+          href: ../../dev-itpro/user-interface/section-related-links-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sekcijų suspaustų diagramų pošablonis
+          href: ../../dev-itpro/user-interface/section-stacked-chart-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sekcijų sąrašo su skirtukais pošablonis
+          href: ../../dev-itpro/user-interface/section-tabbed-list-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sekcijų plytelių pošablonis
+          href: ../../dev-itpro/user-interface/section-tiles-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Lentelių laukų pošablonis
+          href: ../../dev-itpro/user-interface/tabular-fields-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Įrankių juostos ir laukų pošablonis
+          href: ../../dev-itpro/user-interface/toolbar-fields-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Įrankių juostos ir sąrašo pošablonis
+          href: ../../dev-itpro/user-interface/toolbar-list-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Darbo srities puslapio filtrų grupės pošablonis
+          href: ../../dev-itpro/user-interface/workspace-filter-group-subpattern.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Valdiklių išplečiamumas
+      items:
+        - name: Išplečiamųjų valdiklių kūrimas
+          href: ../../dev-itpro/user-interface/build-extensible-control.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Išplečiamųjų valdiklių spartieji klaviatūros klavišai
+          href: ../../dev-itpro/user-interface/keyboard-shortcuts-controls.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Išplečiamųjų valdiklių programavimo nuoroda
+          href: ../../dev-itpro/user-interface/extensible-control-programming-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Valdiklių išplečiamumas
+          href: ../../dev-itpro/user-interface/control-extensibility.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Lokalizuojamų žymų kūrimas
+          href: ../../dev-itpro/user-interface/create-localizable-labels-client.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Išplečiamųjų valdiklių maketo nurodymai
+          href: ../../dev-itpro/user-interface/extensible-controls-layout.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: 'Teksto, kurį užduočių įrašymo priemonė generuoja valdikliui, valdymas'
+          href: ../../dev-itpro/user-interface/task-recorder-control-text.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Darbo sričių kūrimas
+      items:
+        - name: Veikiančių darbo sričių kūrimas
+          href: ../../dev-itpro/user-interface/build-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Darbo sričių plytelių ir sąrašų kaupimas talpykloje
+          href: ../../dev-itpro/user-interface/tile-list-caching-workspaces.md?toc=/dynamics365/unified-operations/retail/toc.json
+    - name: Užduočių įrašymo priemonė
+      items:
+        - name: Užduočių įrašymo priemonės ištekliai
+          href: ../../dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Sparčioji užduočių įrašymo priemonės nuoroda
+          href: ../../dev-itpro/user-interface/task-recorder-quick-reference.md?toc=/dynamics365/unified-operations/retail/toc.json
+        - name: Dokumentų ar mokymų kūrimas pagal užduočių įrašus
+          href: ../../dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/unified-operations/retail/toc.json

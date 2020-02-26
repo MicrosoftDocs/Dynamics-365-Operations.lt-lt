@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: 3199bccca19ab8ee4d7503e4a8443fcb05acbb1b
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: 230cb7c2fe8f3c1972766a25414bb33a78b37a42
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934891"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3004024"
 ---
 # <a name="product-identifiers"></a>Produkto identifikatoriai 
 
@@ -88,7 +88,7 @@ Puslapyje **Išoriniai prekių aprašai** kliento arba tiekėjo prekės numerį 
 | aprašymas | Pavadinimas, kurį klientas susieja su preke | Pavadinimas, kurį tiekėjas susieja su preke |
 | Išorinis prekės tekstas | Kliento prekės aprašas | Tiekėjo prekės aprašas |
 
-Jei tuos pačius prekės numerius naudoja daug klientų arba tiekėjų (pavyzdžiui, pirkimo susiejimo arba mažmeninės prekybos grupės atveju), galite sukurti kliento arba tiekėjų grupes ir taip supaprastinti išorinės produkto informacijos tvarkymą.
+Jei dauguma klientų ar tiekėjų naudoja tuos pačius prekių numerius (pavyzdžiui, pirkimų asociacijos ar prekybos grupės atveju), galite sudaryti klientų ar tiekėjų grupes, kad būtų paprasčiau sekti išorinę informaciją apie produktą.
 
 - Klientų grupių atveju eikite į parinktį **Pardavimai** &gt; **Sąranka** &gt; **Prekės** &gt; **Išorinis prekės aprašas**, kad galėtumėte sukurti ir tvarkyti grupes bei susijusius prekių numerius. Norėdami klientus susieti su grupe, eikite į parinktį **Gautinos sumos** &gt; **Klientai** &gt; **Visi klientai**, tada „FastTab“ **Pardavimo užsakymo numatytieji nustatymai** lauke **Prekė – klientų grupė** nustatykite vertę.
 - Tiekėjų grupių atveju eikite į parinktį **Paraiškos** &gt; **Sąranka** &gt; **Išorinio prekės aprašo grupė** , kad galėtumėte sukurti ir tvarkyti grupes bei susijusius prekių numerius. Norėdami tiekėjus susieti su grupe, eikite į parinktį **Mokėtinos sumos** &gt; **Tiekėjai** &gt; **Visi tiekėjai**, tada „FastTab“ **Pirkimo užsakymo numatytieji nustatymai** lauke **Prekė – tiekėjų grupė** nustatykite vertę.

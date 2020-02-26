@@ -1,7 +1,7 @@
-Kopijuojant duomenų bazę iš vienos aplinkos į kitą, nukopijuota duomenų bazė taps visiškai funkcionali tik paleidus pakartotinio parengimo įrankį ir užtikrinus, kad visi „Retail“ komponentai yra atnaujinti.
+Kopijuojant duomenų bazę iš vienos aplinkos į kitą, nukopijuota duomenų bazė taps visiškai funkcionali tik paleidus pakartotinio parengimo įrankį ir užtikrinus, kad visi „Commerce“ komponentai yra atnaujinti.
 
 > [!IMPORTANT]
-> Rekomenduojame paleisti šią procedūrą, nepaisant to, ar naudojate „Retail“ komponentus, ar ne, nes „Retail“ funkcijos įtrauktos į visas aplinkas. 
+> Rekomenduojame paleisti šią procedūrą, nepaisant to, ar naudojate „Commerce“ komponentus, ar ne, nes „Commerce“ funkcijos įtrauktos į visas aplinkas. 
 
 Prieš tęsdami turite įsitikinti, kad įvykdytos šios būtinosios sąlygos:
 1. Jei naujinate į 2017 liepos mėn. leidimo versiją (taip pat vadinamą 7.2) 7.2.11792.56024, prieš paleisdami duomenų atnaujinimą toje aplinkoje, įdiekite programos X++ karštąsias pataisas paskirties aplinkoje. Tai užkirs kelią įvairioms duomenų atnaujinimo metu atsirandančioms klaidoms:

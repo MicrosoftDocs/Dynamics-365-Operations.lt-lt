@@ -1,6 +1,6 @@
 ---
 title: Generuoti interneto kanalo ataskaitas
-description: Šioje temoje aprašoma, kaip generuoti internetinio kanalo ataskaitas „Microsoft Dynamics 365 Retail“.
+description: Šioje temoje aprašoma, kaip generuoti internetinio kanalo ataskaitas „Microsoft Dynamics 365 Commerce“.
 author: psimolin
 manager: annbe
 ms.date: 10/01/2019
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 77737c134df8f3ba598fe9026fa7c01ca9976733
-ms.sourcegitcommit: 295d940a345879b3dfc5991e387b91c7257019ea
+ms.openlocfilehash: fd40aabdf40e0f2bb257b914326df5595a0e6945
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "2698055"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003009"
 ---
 # <a name="generate-online-channel-reports"></a>Generuoti interneto kanalo ataskaitas
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip generuoti internetinio kanalo ataskaitas „Microsoft Dynamics 365 Retail“.
+Šioje temoje aprašoma, kaip generuoti internetinio kanalo ataskaitas „Microsoft Dynamics 365 Commerce“.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Galite generuoti ir peržiūrėti keletą „Retail“ ataskaitų, kad pamatytumėte, kaip veikia interneto kanalas.
+Galite generuoti ir peržiūrėti keletą „Commerce“ ataskaitų, kad pamatytumėte, kaip veikia interneto kanalas.
 
 ## <a name="channel-summary-report"></a>Kanalo suvestinės ataskaita
 
@@ -46,7 +46,7 @@ Ataskaitoje **Kanalo suvestinė** pateikiama šių pasirinkto kanalo operacijų 
 
 Norėdami sugeneruoti ataskaitą **Kanalo suvestinė**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kanalo suvestivės ataskaita**.
+1. Eikite į **„Retail“ ir „Commerce“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kanalo suvestivės ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -58,7 +58,7 @@ Ataskaitoje **Kanalo pardavimai pagal metus** nurodomas tam tikros parduotuvės 
 
 Norėdami sugeneruoti ataskaitą **Kanalo pardavimas pagal metus**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kanalo pardavimų pagal metus ataskaita**.
+1. Eikite į **„Retail“ ir „Commerce“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kanalo pardavimo pagal metus ataskaita**.
 1. Įveskite metus lauke **Nuo kalendorinių metų**.
 1. Įveskite metus lauke **Iki kalendorinių metų**.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -70,7 +70,7 @@ Ataskaitoje **Kanalo pardavimai pagal valandą** rodoma per valandą pasirinkto 
 
 Norėdami sugeneruoti ataskaitą **Kanalo pardavimas pagal valandą**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kanalo pardavimų pagal valandą ataskaita**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kanalo pardavimo pagal valandas ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -82,7 +82,7 @@ Ataskaitoje **Geriausi klientai** pateikiama pasirinkto kanalo arba valdymo vien
 
 Norėdami sugeneruoti ataskaitą **Geriausi klientai**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Geriausių klientų ataskaita**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Geriausių klientų ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -94,7 +94,7 @@ Ataskaitoje **Didžiausios nuolaidos** pateikiama pasirinkto kanalo arba valdymo
 
 Norėdami sugeneruoti ataskaitą **Didžiausios nuolaidos**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Didžiausių nuolaidų ataskaita**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Didžiausių nuolaidų ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -106,7 +106,7 @@ Ataskaitoje **Daugiausiai parduoti produktai** pateikiama pasirinkto kanalo arba
 
 Norėdami sugeneruoti ataskaitą **Daugiausiai parduotų produktų**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Daugiausiai parduotų produktų ataskaita**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Daugiausiai parduotų produktų ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -118,7 +118,7 @@ Ataskaitoje **Kategorijos pardavimai** nurodoma kiekvieno pasirinkto kanalo ar v
 
 Norėdami sugeneruoti ataskaitą **Kategorijos pardavimai**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kategorijos pardavimų ataskaita**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Kategorijos pardavimo ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Lauke **Kanalas** pasirinkite internetinį kanalą.
@@ -126,11 +126,11 @@ Norėdami sugeneruoti ataskaitą **Kategorijos pardavimai**, atlikite šiuos vei
 
 ## <a name="organization-sales-report"></a>Organizacijos pardavimo ataskaita
 
-Ataskaitoje **Organizacijos pardavimai** nurodomas jūsų mažmeninės prekybos parduotuvių efektyvumas pagal organizacijos vienetą. Šioje ataskaitoje pateikiamas pardavimo kiekis ir suma pagal parduotuvę ir kiekvienos parduotuvės pelno marža. Organizacijos vienetas yra paremtas numatytąja ataskaitų hierarchija.
+Ataskaitoje **Organizacijos pardavimai** nurodomas jūsų parduotuvių efektyvumas pagal organizacijos vienetą. Šioje ataskaitoje pateikiamas pardavimo kiekis ir suma pagal parduotuvę ir kiekvienos parduotuvės pelno marža. Organizacijos vienetas yra paremtas numatytąja ataskaitų hierarchija.
 
 Norėdami sugeneruoti ataskaitą **Organizacijos pardavimai**, atlikite šiuos veiksmus.
 
-1. Eikite į **„Retail“ \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Organizacijos pardavimų ataskaita**.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Pardavimo ataskaitos \> Organizacijos pardavimo ataskaita**.
 1. Lauke **Pradžios data** įveskite datą.
 1. Lauke **Pabaigos data** įveskite datą.
 1. Pasirinkite **Gerai**.

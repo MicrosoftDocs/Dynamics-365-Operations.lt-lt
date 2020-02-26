@@ -3,7 +3,7 @@ title: Darbas su moduliais
 description: Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
 author: v-chgri
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 01/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3c4161e7a40cdbbb40292a6ce9acab58347460bd
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
+ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914799"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "3025884"
 ---
 # <a name="work-with-modules"></a>Darbas su moduliais
 
 Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
 
-[!include [banner](includes/preview-banner.md)]
+
 [!include [banner](includes/banner.md)]
 
 ## <a name="overview"></a>Peržiūrėti
@@ -99,12 +99,10 @@ Tolesnėse procedūrose aprašoma, kaip konfigūruoti turinio ir konteinerio mod
 
 Norėdami konfigūruoti turinio modulį puslapyje, atlikite šiuos veiksmus.
 
-1. Kairėje pusėje esančioje struktūros srityje pasirinkite turinio modulio tipą (pvz, **Ypatybė**, **Pagrindinė reklaminė juosta** arba **Reklaminė juosta**).
-1. Ypatybių srityje dešinėje išplėskite įdėtuosius valdiklius pasirinkdami antraštes, tada nustatykite bet kokias reikiamas valdiklių reikšmes.
-1. Jei ypatybių srityje yra skyrius **Duomenų konfigūracija**, jį spustelėkite, kad išplėstumėte. Priešingu atveju pereikite į 5 veiksmą.
-1. Jei rodomas mygtukas **Įtraukti duomenų šaltinį**, jį spustelėkite ir pasirinkite turinio elementus, kuriuos norite įtraukti.
-1. Įveskite visų būtinų arba pageidaujamų modulio valdiklių parametrus.
-1. Pasirinkite **Įrašyti**.
+1. Kairėje pusėje esančioje struktūros srityje išplėskite medžio struktūrą ir pasirinkite bet kurį turinio modulį (pvz., **Ypatybė**, **Pagrindinė reklaminė juosta** arba **Reklaminė juosta**).
+1. Dešinėje pusėje esančioje ypatybių srityje raskite modulio turinio ir parametrų valdiklius.
+1. Įveskite visų pageidaujamų modulio valdiklių ypatybes.
+1. Komandų juostoje pasirinkite **Įrašyti**. Tai padarius, taip pat bus atnaujinta peržiūros drobė.
 
 ### <a name="configure-a-container-module"></a>Konteinerio modulio konfigūravimas
 
@@ -112,7 +110,7 @@ Norėdami konfigūruoti konteinerio modulį puslapyje, atlikite šiuos veiksmus.
 
 1. Savo puslapyje pasirinkite konteinerio modulį (pavyzdžiui, karuselės arba nepastovaus konteinerio modulį).
 1. Ypatybių srityje dešinėje išplėskite įdėtuosius valdiklius pasirinkdami antraštes, tada nustatykite bet kokias reikiamas valdiklių reikšmes.
-1. Struktūros srityje kairėje šalia konteinerio arba bet kokių konteineryje esančių vietų pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite **Įtraukti modulį**. Tada į pasirinktą konteinerį įtraukite antrinių modulių. Norėdami gauti daugiau informacijos, žr. pirmiau šioje temoje aprašytą procedūrą [Modulio įtraukimas](#add-a-module).
+1. Struktūros srityje kairėje šalia konteinerio arba bet kokių konteineryje esančių vietų pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite **Įtraukti modulį**. Tada į pasirinktą konteinerį įtraukite antrinių modulių. Daugiau informacijos žr. ankstesniame šios temos skyriuje [Darbas su moduliais](#add-a-module).
 1. Jei pirminiame konteineryje yra keli tos pačios kilmės antriniai moduliai, galite pakeisti jų rodymo pirminiame konteineryje tvarką. Pasirinkite modulio daugtaškio mygtuką, tada naudokite rodyklės aukštyn arba rodyklės žemyn mygtukus.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
@@ -126,8 +124,6 @@ Norėdami konfigūruoti konteinerio modulį puslapyje, atlikite šiuos veiksmus.
 [Darbas su fragmentais](work-with-fragments.md)
 
 [Konteinerio modulio įtraukimas į puslapį](add-container-module.md)
-
-[Turinio išdėstymo modulių įtraukimas į puslapį](add-content-placement-modules.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
 

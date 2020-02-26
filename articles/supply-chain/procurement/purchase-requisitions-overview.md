@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bfec4660d9e6b0898cf81e1f1fdd2e4c1fdcaef
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 0a51d443e40dbf948a06657293dcca77dc177896
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2815347"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3003658"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
@@ -81,7 +81,7 @@ Bendrąją pirkimo paraiškos būseną nustato pirkimo paraiškos eilučių būs
 <li><strong>Peržiūrima</strong> – pirkimo paraiškos eilutės pateiktos peržiūrėti. Kai pirkimo paraiškos eilutės darbo eigos procesas yra baigtas, tos eilutės būsena lieka <strong>Peržiūrima</strong> tol, kol bus peržiūrėtos visos likusios pirkimo paraiškos eilutės.</li>
 <li><strong>Atmesta</strong> – pirkimo paraiškos eilutė atmesta. Pirkimo paraiškos eilutes, kurios buvo atmestos, galima pakeisti ir pateikti iš naujo.</li>
 </ul>
-Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiūros procesas prasideda visoms pirkimo paraiškos eilutėms, kurios vis dar peržiūrimos. <strong>Pastaba:</strong> galima atšaukti jau pateiktą pirkimo paraišką. Atšaukus pirkimo paraišką, taip pat atšaukiamos visos kitos pirkimo paraiškos eilutės. Galima panaikinti pirkimo paraiškos eilutes, kurios buvo atšauktos.</td>
+Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiūros procesas prasideda visoms pirkimo paraiškos eilutėms, kurios vis dar peržiūrimos. </br><strong>Pastaba:</strong> galima atšaukti jau pateiktą pirkimo paraišką. Atšaukus pirkimo paraišką, taip pat atšaukiamos visos kitos pirkimo paraiškos eilutės. Galima panaikinti pirkimo paraiškos eilutes, kurios buvo atšauktos.</td>
 </tr>
 <tr class="odd">
 <td>Atmesta</td>
@@ -109,7 +109,7 @@ Jei iš naujo pateikiate pirkimo paraiškos eilutę, kuri buvo atmesta, peržiū
 <tr class="odd">
 <td>Atšaukta</td>
 <td>Atšaukta</td>
-<td>Pirkimo paraiška ir visos pirkimo paraiškos eilutės atšauktos. <strong>Pastaba:</strong> jei jums nebereikia pirkimo paraiškos eilutėje nurodytos prekės, turite atšaukti pirkimo paraiškos eilutę, jeigu ji jau buvo patvirtinta. Galima atšaukti tik tas pirkimo paraiškos eilutes, kurios buvo patvirtintos. Jei kuri nors pirkimo paraiškos eilutė peržiūrima, pirkimo paraiškos būsena yra <strong>Peržiūrima</strong>. Tokiu atveju galite atšaukti pirkimo paraišką ir panaikinti atitinkamą pirkimo paraiškos eilutę.</td>
+<td>Pirkimo paraiška ir visos pirkimo paraiškos eilutės atšauktos.</br> <strong>Pastaba:</strong> jei jums nebereikia pirkimo paraiškos eilutėje nurodytos prekės, turite atšaukti pirkimo paraiškos eilutę, jeigu ji jau buvo patvirtinta. Galima atšaukti tik tas pirkimo paraiškos eilutes, kurios buvo patvirtintos. Jei kuri nors pirkimo paraiškos eilutė peržiūrima, pirkimo paraiškos būsena yra <strong>Peržiūrima</strong>. Tokiu atveju galite atšaukti pirkimo paraišką ir panaikinti atitinkamą pirkimo paraiškos eilutę.</td>
 </tr>
 <tr class="even">
 <td>Uždaryta</td>
@@ -156,7 +156,8 @@ Kai kuriais atvejais, galite pradėti pasiūlymo patvirtinimo (RFQ) procesą, no
 
 Galite sulaikyti pirkimo paraišką puslapyje **Pirkimo paraiškos informacija** pažymėdami žymės langelį **Sulaikyta**. Pirkimo paraiškos apdorojimą galite tęsti tik pašalinę sulaikymą panaikindami žymės langelio žymėjimą.  
 
-**Pastaba:** programoje „eProcurement“ pirkimo paraiškos RFQ gali leisti tiekėjams įtraukti alternatyvių eilučių. Tokiu atveju, jūsų pirkimo paraiškoje bus nurodyti patvirtinti pakeitimai.
+> [!NOTE]
+> „eProcurement“ pirkimo užklausų RFQ gali leisti tiekėjams pridėti alternatyvių eilučių. Tokiu atveju, jūsų pirkimo paraiškoje bus nurodyti patvirtinti pakeitimai.
 
 ## <a name="demand-consolidation"></a>Poreikio konsolidacija
 Konsolidavę pirkimo paraiškos eilutes iš kelių pirkimo paraiškų, galite efektyviau derėtis su tiekėjais dėl geresnių kainų, mažesnių siuntimo ir tvarkymo išlaidų ir mažesnių pridėtinių išlaidų.  
@@ -172,7 +173,8 @@ Konsolidavimo galimybė yra rinkinys pirkimo paraiškos eilučių, kurios yra su
 
 Įtraukę paraiškos eilutes į konsolidavimo galimybę ir atlikę reikiamus pakeitimus, galite sukurti pirkimo užsakymą pagal konsoliduotas pirkimo paraiškos eilutes.  
 
-**Pastaba:** pirkimo paraiškos eilutės pakeitimai, kuriuos atliekate puslapyje **Pirkimo paraiškos konsolidavimas**, nurodomi kuriamame pirkimo užsakyme. Tačiau pirkimo paraiškoje eilutė lieka nepakeista, kad būtų galima peržiūrėti retrospektyvos informaciją.  
+> [!NOTE]
+> Pakeitimai, atlikti pirkimo paraiškos eilutėje, puslapyje **Pirkimo paraiškos konsolidacija**, matomi jūsų sukurtame pirkimo užsakyme. Tačiau pirkimo paraiškoje eilutė lieka nepakeista, kad būtų galima peržiūrėti retrospektyvos informaciją.  
 
 Norėdami sukurti pirkimo užsakymą pagal pirkimo paraiškos eilutes, kurios neatitinka poreikio konsolidavimo arba kurios nepasirinktos įtraukti į konsolidavimo galimybę, turite šias eilutes apdoroti neautomatiniu būdu.
 

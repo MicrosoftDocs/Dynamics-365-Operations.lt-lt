@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations“ programos dokumentacija
-description: „Finance and Operations“ programų dokumentacija.
+title: „Finance and Operations“ programų dokumentacija
+description: Dokumentacija, skirta „Finance and Operations“programoms.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89139c149146b64125370c3840f8d3011b92e067
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770924"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005545"
 ---
-# <a name="finance-and-operations-application-documentation"></a>„Finance and Operations“ programos dokumentacija
+# <a name="finance-and-operations-application-documentation"></a>„Finance and Operations“ programų dokumentacija
 
 [!include [banner](includes/banner.md)]
 
 Sužinokite, kaip „Finance and Operations“ programas pritaikyti savo verslui – naudodami šioje temoje pateiktus išteklius rasite puikaus turinio galutiniams vartotojams, programuotojams ir IT profesionalams. 
 
-Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 Retail“ ir „Talent“. 
+Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 Commerce“ ir „Dynamics 365 Human Resources“. 
 
 <table>
 <colgroup>
@@ -44,10 +44,10 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 <h3><a href="get-started/before-you-buy.md">Prieš perkant</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Registravimasis peržiūros versijos prenumeratai gauti</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Visuotinio diegimo parinkties pasirinkimas</a></p>
- <p><a href="get-started/purchase-on-premises.md">„Finance and Operations (on-premises)‟ pirkimas</a></p>
+ <p><a href="get-started/purchase-on-premises.md">„Finance and Operations (on-premises)“ pirkimas</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Diegimo ciklas</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">„FastTrack for Dynamics 365“</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekto parengimas</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Rengimasis įgyvendinimo pradžiai</a></p>
 
@@ -84,9 +84,9 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Regioninės reguliavimo priemonės</a></p>
 
 <h3><a href="hr/hr-landing-page.md">Personalas</a></h3>
-<p><a href="../../talent/manage-benefit-program.md">Išmokos</a></p>
-<p><a href="../../talent/performance-management-overview.md">Darbuotojų tobulinimas ir mokymas</a></p>
-<p><a href="../../talent/questionnaires.md">Klausimynas</a></p>
+<p><a href="../../human-resources/hr-benefits-manage-program.md">Išmokos</a></p>
+<p><a href="../../human-resources/hr-develop-performance-management-overview.md">Darbuotojų tobulinimas ir mokymas</a></p>
+<p><a href="../../human-resources/hr-learning-questionnaires.md">Klausimynai</a></p>
 <p><a href="hr/manage-recruiting-process.md">Įdarbinimas</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">JAV algalapis</a></p>
 
@@ -129,16 +129,17 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 </td>
 <td>
 <h3>Susiję produktai</h3>
-<h4><a href="../../retail/index.md">Dynamics 365 Retail</a></h4>
+<h4><a href="../../retail/index.md">„Dynamics 365 Commerce“</a></h4>
 <p><a href="../../retail/call-center-functionality.md">Skambučių centras</p>
 <p><a href="../../retail/define-maintain-retail-channels.md">Kanalo nustatymas ir valdymas</p>
 <p><a href="../../retail/retail-peripherals-overview.md">MPOS ir „Cloud POS‟</p>
-<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">„Retail“ programavimas ir administravimas</p>
+<p><a href="../../retail/dev-itpro/dev-retail-home-page.md">„Commerce“ kūrimas ir administravimas</p>
 
-<h4><a href="../../talent/index.yml">Dynamics 365 Talent</a></h4>
-<p><a href="../../talent/manage-benefit-program.md">Išmokos</a></p>
-<p><a href="../../talent/performance-management-overview.md">Darbuotojų tobulinimas ir mokymas</a></p>
-<p><a href="../../talent/questionnaires.md">Klausimynas</a></p>
+<h4><a href="../../human-resources/hr-welcome.md">„Dynamics 365 Human Resources“</a></h4>
+<p><a href="../../human-resources/hr-admin-overview.md">Administratoriaus vadovas</a></p>
+<p><a href="../../human-resources/hr-developer-overview.md">Kūrėjo vadovas</a></p>
+<p><a href="../../human-resources/hr-hrpro-overview.md">Vartotojo vadovas</a></p>
+
 
 </td>
 </tr>

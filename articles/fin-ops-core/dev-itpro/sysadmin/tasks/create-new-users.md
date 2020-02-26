@@ -3,7 +3,7 @@ title: Naujų vartotojų kūrimas
 description: Vartotojai yra vidiniai jūsų organizacijos darbuotojai arba išoriniai klientai bei tiekėjai, kuriems reikalinga prieiga prie sistemos, kad galėtų atlikti savo užduotis.
 author: maertenm
 manager: AnnBe
-ms.date: 10/08/2019
+ms.date: 02/06/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c347a34a389c32d005cc8086c4a1349ecb8a698
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 6d884dfe30be5684a90925d4d2d9ab7eebca5b44
+ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570526"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "3029814"
 ---
 # <a name="create-new-users"></a>Naujų vartotojų kūrimas
 
@@ -30,9 +30,12 @@ ms.locfileid: "2570526"
 Vartotojai yra vidiniai jūsų organizacijos darbuotojai arba išoriniai klientai bei tiekėjai, kuriems reikalinga prieiga prie sistemos, kad galėtų atlikti savo užduotis.
 
 ## <a name="associate-a-user-with-a-license-new-license-types-only"></a>Susiekite vartotoją su licencija (tik naujų licencijų tipais)
-Klientams, kurių licencija yra viena iš naujų licencijų tipų, įtrauktų 2019 m. spalio mėn., vartotojai turi būti susieti su licencija. Vartotojai, kurie susieti su licencija, automatiškai pridedami kaip sistemos vartotojai, kurie neturi vaidmenų pirmą kartą prisiregistravus. Vartotojai, kurie nesusieti su licencija, gauna įspėjamąjį pranešimą.
+Klientams, kurių licencija yra viena iš naujų licencijų tipų, įtrauktų 2019 m. spalio mėn., vartotojai turi būti susieti su licencija. Vartotojai, kurie susieti su licencija, automatiškai pridedami kaip sistemos vartotojai, kurie neturi vaidmenų pirmą kartą prisiregistravus.
 
 Sistemos administratoriai gali [priskirti licencijas vartotojams](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) [„Microsoft 365” administravimo centre](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+
+## <a name="associate-an-external-user-with-a-license-new-license-types-only"></a>Išorinio vartotojo susiejimas su licencija (tik su naujais licencijų tipais)
+Vartotojai, nepriklausantys nuomotojui, kuriame buvo įdiegta aplinka, turi būti pateikiami pagrindinio nuomotojo kataloge („Azure Active Directory“ („Azure AD“)), kad jiems būtų galima priskirti licencijas. Minėtus išorinius vartotojus reikia įtraukti į „Azure AD“ esantį nuomotoją kaip vartotojus svečius ir priskirti jiems atitinkamas licencijas. Norėdami gauti daugiau informacijos, žr. [„Azure Active Directory“ B2B bendradarbiavimo vartotojų įtraukimas „Azure“ portale](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="add-a-new-user"></a>Naujo vartotojo įtraukimas
 1. Eikite į **Sistemos administravimas \> Vartotojai \> Vartotojai**.
@@ -42,7 +45,7 @@ Sistemos administratoriai gali [priskirti licencijas vartotojams](https://docs.m
 5. Lauke **Domenas** įveskite vartotojo domeną.  
 6. Lauke **Pseudonimas** įveskite vartotojo pseudonimą.  
 7. Lauke **Įmonė** pasirinkite norimą įmonę. 
-8. „FastTab” konteineryje **Vartotojo vaidmenys** pasirinkite **Priskirti vaidmenis**, kad [priskirtumėte vartotojams saugos vaidmenis](assign-users-security-roles.md).
+8. „FastTab” **Vartotojo vaidmenys** pasirinkite **Priskirti vaidmenis**, kad priskirtumėte vartotojams saugos vaidmenis. Norėdami gauti daugiau informacijos, žr. [Vartotojų priskyrimas saugos vaidmenims](assign-users-security-roles.md).
 9. Pasirinkite **Gerai**.
 10. Pasirinkite **Įrašyti**.
 

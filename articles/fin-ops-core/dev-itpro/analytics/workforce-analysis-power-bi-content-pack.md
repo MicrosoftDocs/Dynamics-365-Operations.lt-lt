@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Core, Operations, Human Resources
 ms.custom: 264084
 ms.assetid: 8e700583-3a7d-4f5f-9ac8-58c4feed1a02
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 868b0781a84d345297ab40b1a423272e47d50ec5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 263fa2fc97e39b0521407d3fdc5a6d6e3f2ca034
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249163"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3005761"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Darbo jėgos metrikos „Power BI“ turinys
 
@@ -35,7 +35,7 @@ ms.locfileid: "2249163"
 **Darbo jėgos metrikos** „Power BI“ turinys pasirodo darbo srityje **Personalo valdymas**, jei naudojate vieną iš šių produktų:
 
 - „Microsoft Dynamics 365 Finance“
-- „Microsoft Dynamics 365 Talent“
+- „Microsoft Dynamics 365 Human Resources“
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Į „Power BI“ turinį įtrauktos metrikos
 Šioje lentelėje išvardijamos metrikos, kurios bus rodomos kiekvienoje ataskaitoje.
@@ -71,7 +71,7 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Kalendoriaus poslinkis          | Kalendoriaus poslinkiai ataskaitoms skaidyti                                                   | Buvusių pareigų priskyrimas, pareigų tendencija, darbuotojo tendencija, atleistas darbuotojas |
 | Įmonė                  | Įmonės, pagal kurias filtruojamos ataskaitos                                                      | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Dabartinės pareigos         | Pareigos dabartinę datą, FTE, laisvos darbo vietos ir laisvos / užimtos darbo vietos | Darbas, pareigos |
-| Dabartinis darbuotojas         | Darbuotojai dabartinę dieną, amžius ir darbuotojų skaičius                                  | Įmonė, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), darbuotojo pareigos, demografiniai duomenys, užduotis, darbas, pareigos |
+| Dabartinis darbuotojas         | Darbininkų dabartinę dieną, amžius ir darbininkų skaičius                                  | Įmonė, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), darbuotojo pareigos, demografiniai duomenys, užduotis, darbas, pareigos |
 | Data                     | Dienos, savaitės, mėnesiai ir metai                                                      | Buvusių pareigų priskyrimas, pareigų tendencija, atleistas darbuotojas, darbuotojo tendencija |
 | Demografiniai duomenys             | Gimimo data, lytis etninė kilmė ir šeimyninė padėtis                            | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
 | Užimtumas               | Pradžios data, pabaigos data ir perėjimo data                                           | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
@@ -81,9 +81,9 @@ Toliau pateiktoje lentelėje nurodomi objektai, kuriais pagrįstas turinys.
 | Pozicija                 | Padalinys, FTE, pareigos, pareigų tipas ir pareigos                                 | Dabartinės pareigos, dabartinis darbuotojas |
 | Pareigų tendencija           | Pareigos per tam tikrą laikotarpį, FTE ir užduotis                                                   | Kalendoriaus poslinkis, data, darbas, pareigos |
 | Ataskaitos               | Vardas, pavardė ir vardas bei pavardė                                                | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
-| Atleistas darbuotojas      | Atleisti darbuotojai, atleidimo data, pareigos ir užduotis                      | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis, pareigos |
-| Darbuotojo vardas ir pavardė            | Vardas, pavardė ir vardas bei pavardė                                                | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
+| Atleistas darbuotojas      | Atleisti darbininkai, atleidimo data, pareigos ir užduotis                      | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis, pareigos |
+| Darbuotojo vardas ir pavardė            | Vardas, pavardė ir vardas bei pavardė                                                | Dabartinis darbininkas, atleistas darbuotojas, darbuotojo tendencija |
 | Darbuotojo pareigos           | Pareigos ir paaukštinimo data                                                            | Dabartinis darbuotojas, atleistas darbuotojas, darbuotojo tendencija |
-| Darbuotojų tendencija           | Darbuotojai per tam tikrą laiką, darbuotojų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
+| Darbuotojų tendencija           | Darbininkai per tam tikrą laiką, darbininkų skaičius, įmonė ir pareigos                                 | Įmonė, kompensacija, geografinė vieta, darbuotojo vardas ir pavardė, atskaitingas (kam), kalendoriaus poslinkis, data, darbuotojo pareigos, demografiniai duomenys, darbas, užduotis |
 | Masinės samdos projektas        | Masinės samdos projektų skaičius, projekto savininkas ir projekto būsena                     | Įmonė, masinės samdos eilutė |
 | Masinės samdos eilutė           | Padalinys, įdarbinimo tipas ir pareigos                                           | Data, darbas, masinės samdos projektas |

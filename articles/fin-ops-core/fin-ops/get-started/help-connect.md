@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2955464aa8a220563db1b9ebbb348be52f520659
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4427388d75c1aef40a978ce35c831d5b714f2562
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812585"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006177"
 ---
 # <a name="connect-the-help-system"></a>Žinyno sistemos prijungimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomi žinyno sistemos komponentai, naudojami „Finance and Operations“ programoms, pvz. „Dynamics 365 Finance“, „Supply Chain Management“, „Retail“ ir „Talent“. Joje pateikiama apžvalga apie tai, kaip šiuos komponentus sujungti, ir pasirinktinio žinyno kūrimo suvestinė.
+Šioje temoje aprašomi žinyno sistemos komponentai, naudojami „Finance and Operations“ programoms, pvz. „Dynamics 365 Finance“, „Supply Chain Management“, „Commerce“ ir „Human Resources“. Joje pateikiama apžvalga apie tai, kaip šiuos komponentus sujungti, ir pasirinktinio žinyno kūrimo suvestinė.
 
 ## <a name="help-architecture"></a>Žinyno architektūra
 
@@ -43,7 +43,7 @@ Toliau esančiame paveikslėlyje pavaizduotos žinyno sistemos dalys. Vidinio ž
 ## <a name="connecting-the-help-system"></a>Žinyno sistemos prijungimas
 
 > [!NOTE]
-> Skirtukas **Užduočių vedliai** „Dynamics 365 Talent“ arba „Retail“ šiuo metu nėra pasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Talent‟ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių gidai. „Retail“ ir „Talent“ procedūrinis žinynas taip pat pasiekiamas svetainėje docs.microsoft.com.
+> Skirtukas **Užduočių vedliai** „Dynamics 365 Human Resources“ arba „Commerce“ šiuo metu nėra pasiekiamas. Šiuo metu dirbame, kad įgalintume šią funkciją būsimame leidime. Darbo su „Human Resources“ pradžioje išlieka pasiekiami pagrindinių funkcijų užduočių vedliai. „Human Resources“ ir „Commerce“ procedūrinis žinynas taip pat pasiekiamas svetainėje docs.microsoft.com.
 
 Naudodami puslapį **Sistemos parametrai**, sistemos administratoriai prijungia žinyno sistemos dalis diegti.
 
@@ -60,7 +60,7 @@ Puslapyje **Sistemos parametrai** atlikite tolesnius veiksmus.
 2. Pasirinkite, iš kurių BPM bibliotekų (pasirinkto projekto) gauti užduočių įrašus.
 3. Nustatykite BPM bibliotekų rodymo tvarką. Taip nustatoma tvarka, kuria užduočių įrašai iš bibliotekų bus rodomi **Žinyno** srityje.
 
-Atlikę šiuos veiksmus, galite atidaryti sritį **Žinynas** ir spustelėti skirtuką **Užduočių vedliai**. Matysite užduočių vedlius, taikomus „Finance and Operations“ programų puslapiui, kuriame dabar esate. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką.
+Atlikę šiuos veiksmus, galite atidaryti sritį **Žinynas** ir spustelėti skirtuką **Užduočių vedliai**. Matysite užduočių vedlius, taikomus „Finance and Operations“ programose puslapiui, kuriame dabar esate. Jei nerasite nė vieno užduočių vedlio, galite įvedę raktažodžius patikslinti iešką.
 
 ### <a name="showing-translated-task-guides"></a>Išverstų užduočių vedlių rodymas
 
@@ -78,7 +78,7 @@ Norėdami sukurti pasirinktinį žinyną, galite naudoti užduočių vedlius arb
 
 ### <a name="create-custom-help-with-task-guides"></a>Pasirinktinio žinyno kūrimas naudojant užduočių vedlius
 
-Kurdami užduočių įrašus, kurie atspindi jūsų diegimą, ir juos įrašydami į LCS verslo procesų biblioteką, galite sukurti pasirinktinį „Finance“, „Supply Chain Management“ ir „Retail“ žinyną. „Talent“ pasirinktinių užduočių vedlių sukurti negalima.
+Kurdami užduočių įrašus, kurie atspindi jūsų diegimą, ir juos įrašydami į LCS verslo procesų biblioteką, galite sukurti pasirinktinį „Finance“, „Supply Chain Management“ ir „Commerce“ žinyną. Programoje „Human Resources“ negalima sukurti pasirinktinių užduočių vedlių.
 
 Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei įtrauksite ją į sprendimą, biblioteką galės naudoti jūsų klientai. Taip pat galite kopijuoti APQC suvienodintą visuotinę biblioteką ir tada savo kopiją atidaryti, iš jos atidaryti užduočių įrašus ir juos modifikuoti bei įrašus įrašyti su savo pakeitimais. Daugiau informacijos žr. [Užduoties įrašymo ištekliai](../../dev-itpro/user-interface/task-recorder.md).
 
@@ -86,7 +86,7 @@ Jei esate partneris ir biblioteką paaukštinsite iki įmonės bibliotekos bei �
 
 „Microsoft“ yra pateikusi techninę dokumentaciją ir pavyzdinį kodą, kuriuo aprašoma, kaip kurti ir susieti pasirinktinę žinyno žiniatinklio svetainę su sritimi Žinynas. Daugiau informacijos ieškokite:
 
-- [Pasirinktinio „Finance and Operations“ programų žinyno kūrimas (techninė dokumentacija)](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [„Finance and Operations“programų pasirinktinio žinyno kūrimas (techninė dokumentacija)](https://go.microsoft.com/fwlink/?linkid=2041185)
 - [Pasirinktinio žinyno „GitHub“ saugykla](https://github.com/microsoft/dynamics356f-o-custom-help)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

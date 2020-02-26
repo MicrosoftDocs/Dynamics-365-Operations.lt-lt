@@ -16,12 +16,12 @@ ms.search.region: Lithuania
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 251663fcc5728c4d02607ff92f2a2d163b92bf24
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cb2a754f29b3856fcebe1aa4a52c4cf2f82bbd60
+ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175158"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "2994107"
 ---
 # <a name="lithuania-overview"></a>Lietuvos apžvalga
 
@@ -33,3 +33,4 @@ ms.locfileid: "2175158"
 - [Ilgalaikio turto perkėlimo iš vieno sandėlio į kitą dokumento generavimas](tasks/lt-00003-fixed-asset-transfer.md)
 - [Sąskaitų faktūrų ir važtaraščių numeravimas](emea-invoices-packing-slips-numbering.md)
 - [PVM išrašo informacija](emea-ltu-vat-statement-details.md)
+- [i.SAF ataskaitos](emea-ltu-isaf.md)

@@ -1,4 +1,4 @@
-- name: „Finance and Operations“ modulis Kūrimas ir administravimas
+- name: „Finance and Operations“ skirtas kūrimas ir administravimas
   href: ../../dev-itpro/index.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Kas nauja ar pasikeitė
   items:
@@ -120,7 +120,7 @@
                   href: ../../dev-itpro/data-entities/dual-write-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Organizacijos hierarchija „Common Data Service“
                   href: ../../dev-itpro/data-entities/dual-write-organization.md?toc=/dynamics365/unified-operations/financials/toc.json
-                - name: Įmonės koncepcija „Common Data Service“
+                - name: Įmonės koncepcija „Common Data Services“
                   href: ../../dev-itpro/data-entities/dual-write-company.md?toc=/dynamics365/unified-operations/financials/toc.json
                 - name: Bendrieji integruoto kliento duomenys
                   href: ../../dev-itpro/data-entities/dual-write-customer.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -142,7 +142,7 @@
                       href: ../../supply-chain/sales-marketing/prospect-to-cash.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Tiesioginis „Sales“ sąskaitų sinchronizavimas su „Finance and Operations“ klientais
                       href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
-                    - name: Tiesioginis „Finance and Operations“ produktų sinchronizavimas su „Sales“ produktais
+                    - name: Tiesioginis produktų sinchronizavimas iš „Finance and Operations“ su produktais „Sales“
                       href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
                     - name: Tiesioginis „Sales“ kontaktų sinchronizavimas su „Finance and Operations“ kontaktais arba klientais
                       href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -274,7 +274,7 @@
       href: ../../dev-itpro/data-entities/dm-error-descriptions.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Duomenų bazių perkėlimo operacijos
   items:
-    - name: Peržiūrėti
+    - name: Apžvalga
       href: ../../dev-itpro/database/dbmovement-operations.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Greito pasirengimo darbui vadovai
       items:
@@ -330,7 +330,7 @@
               href: ../../dev-itpro/deployment/troubleshoot-newinfrastructure.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Baigtas „Azure Resource Manager“ supažindinimas
           href: ../../dev-itpro/deployment/arm-onboarding.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: „Azure ExpressRoute“ ir „Finance and Operations”
+        - name: „Azure ExpressRoute“ ir „Finance and Operations“
           href: ../../dev-itpro/deployment/expressroute.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: „Finance and Operations“ architektūra
           href: ../../fin-and-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -360,7 +360,7 @@
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-environments.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: Vietinių aplinkų diegimas („Platform update 12“ar naujesnės versijos)
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu12.md?toc=/dynamics365/unified-operations/financials/toc.json
-            - name: Vietinių aplinkų diegimas („Platform“ 8 ar 11 naujinimai)
+            - name: Vietinių aplinkų diegimas („Platform Updates“ 8 ir 11)
               href: ../../dev-itpro/deployment/setup-deploy-on-premises-pu8-pu11.md?toc=/dynamics365/unified-operations/financials/toc.json
             - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
               href: ../../dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -472,7 +472,7 @@
           href: ../../dev-itpro/dev-tools/metadata-search-visual-studio.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Modeliai ir paketai
           href: ../../dev-itpro/dev-tools/models.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Projekto tipas – „Finance and Operations“
+        - name: „Finance and Operations“ projekto tipas
           href: ../../dev-itpro/dev-tools/projects.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: 'Įrankių papildiniai, skirti „Visual Studio“'
           href: ../../dev-itpro/dev-tools/developer-tools-add-ins.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -862,7 +862,7 @@
           href: ../../dev-itpro/gdpr/gdpr-extend-person-search-report.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Prieigos prie slaptų duomenų valdymas
           href: ../../dev-itpro/gdpr/gdpr-auditing-sensitive-data.md?toc=/dynamics365/unified-operations/financials/toc.json
-        - name: Atsakymas į užklausas dėl asmens duomenų naudojant „Talent“
+        - name: Atsakymas į užklausas dėl asmens duomenų naudojant „Human Resources“
           href: ../../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: Atsakymas į užklausas dėl asmens duomenų AX 2012
           href: ../../dev-itpro/gdpr/gdpr-ax2012.md?toc=/dynamics365/unified-operations/financials/toc.json
@@ -1206,23 +1206,23 @@
           href: ../../dev-itpro/lcs-solutions/submit-localization-alerts.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Pagalba
   items:
-    - name: „Finance and Operations“ ir „Lifecycle Services“ pagalbos gavimas
+    - name: Gauti pagalbos dėl „Finance and Operations“ ir „Lifecycle Services“
       href: ../../dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: „Dynamics 365“ palaikymo apžvalga
+    - name: „Dynamics 365“ pagalbos apžvalga
       href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/retail/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
-    - name: '„Finance and Operations“, valdomos „21Vianet“ Kinijoje, pagalbos gavimas'
+    - name: 'Gauti pagalbos dėl „Finance and Operations, valdomos „21Vianet“ Kinijoje'
       href: ../../dev-itpro/lifecycle-services/21vianet-support.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: „Premier“ palaikymo bilieto registravimas
+    - name: „Premier“ palaikymo kvito registravimas
       href: ../../dev-itpro/lifecycle-services/premier-support.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Užklausų teikimas „Dynamics“ paslaugų inžinierių komandai
       href: ../../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: „Finance and Operations“ techninio palaikymo nustatymas
+    - name: 'Nustatyti techninę pagalbą, skirtą „Finance and Operations“'
       href: ../../dev-itpro/lifecycle-services/support-experience.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: DUK apie suplanuotą priežiūros laiko intervalą
       href: ../../dev-itpro/lifecycle-services/planned-maintenance-window-faq.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Debesies operacijos ir aptarnavimas
       href: ../../dev-itpro/lifecycle-services/cloud-operations-servicing.md?toc=/dynamics365/unified-operations/financials/toc.json
-    - name: „Finance and Operations“ palaikymo patirčių valdymas
+    - name: Tvarkyti „Finance and Operations“ palaikymo funkcijas
       href: ../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md?toc=/dynamics365/unified-operations/financials/toc.json
 - name: Sistemos administravimas
   items:
@@ -1340,7 +1340,7 @@
               href: ../../dev-itpro/migration-upgrade/upgrade-budget-planning.md?toc=/dynamics365/unified-operations/financials/toc.json
     - name: Duomenų perkėlimas iš AX 2009
       items:
-        - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations”
+        - name: Duomenų perkėlimas iš AX 2009 į „Finance and Operations“
           href: ../../dev-itpro/migration-upgrade/data-migration-tool.md?toc=/dynamics365/unified-operations/financials/toc.json
         - name: AX 2009 perkėlimas – duomenų perkėlimo įrankio diegimas
           href: ../../dev-itpro/migration-upgrade/install-dmt.md?toc=/dynamics365/unified-operations/financials/toc.json

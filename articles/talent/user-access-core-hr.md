@@ -1,6 +1,6 @@
 ---
-title: Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“
-description: Šioje temoje aiškinama, kaip išspręsti problemą, kai vartotojas gali pasiekti „Microsoft“ „Dynamics 365 Talent – Core HR“, bet negali pasiekti programų „Attract“ arba „Onboard“.
+title: Vartotojas gali pasiekti „Human Resources“, bet ne „Onboard“ ar „Attract“
+description: Šioje temoje aiškinama, kaip išspręsti problemą, kai vartotojas gali pasiekti „Microsoft Dynamics 365 Talent – „Human Resources”, bet negali pasiekti programų „Attract“ arba „Onboard“.
 author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 1a86936d756d8375761ce50c9d9bf33dc638dfad
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6c384d9a7100982eabd201d910e1bea14355dc1f
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772924"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006315"
 ---
-# <a name="user-can-access-core-hr-but-not-onboard-or-attract"></a>Vartotojas gali pasiekti „Core HR“, bet ne programas „Onboard“ ar „Attract“
+# <a name="user-can-access-human-resources-but-not-onboard-or-attract"></a>Vartotojas gali pasiekti „Human Resources“, bet ne „Onboard“ ar „Attract“
 
 [!include [banner](includes/banner.md)]
 
 **Aplinkos informacija**
 
 - „Microsoft Dynamics Lifecycle Services“ (LCS) diegimą atliko vartotojas A.
-- Vartotojas A įtraukė vartotoją B kaip „Microsoft“ „Dynamics 365 Talent: Core HR Core HR“ vartotoją.
+- Vartotojas A įtraukė vartotoją B kaip „Microsoft“ „Dynamics 365 Human Resources Core HR“ vartotoją.
 
 **Išduoti**
 
-Vartotojas B gali pasiekti „Core HR“, bet negali pasiekti programų „Talent: Attract“ arba „Talent: Onboard“. Vietoj to, vartotojui bandant apsilankyti **„Experience“ programose** jis nukreipiamas į bandomosios versijos aplinką.
+Vartotojas B gali pasiekti „Human Resources“, bet negali pasiekti programų „Talent: Attract“ arba „Talent: Onboard“. Vietoj to, vartotojui bandant apsilankyti **„Experience“ programose** jis nukreipiamas į bandomosios versijos aplinką.
 
 **Sprendimas**
 
@@ -45,4 +45,4 @@ Daugiau informacijos ieškokite dalyje [„Talent“ parengimas](https://docs.mi
 
 **Ilgalaikis sprendimas**
 
-„Microsoft“ ketina automatiškai priskirti atitinkamas teises „Onboard“ arba „Attract“, kai vartotojas įtraukiamas į „Core HR“.
+„Microsoft“ ketina automatiškai priskirti atitinkamas teises „Onboard“ arba „Attract“, kai vartotojas įtraukiamas į „Human Resources“.

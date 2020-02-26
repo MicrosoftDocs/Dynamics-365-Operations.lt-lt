@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-09-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 14e3482f366319851bed84b6cdd6135f0bcd1e80
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 0aadecd5b37759492f7895ccfda1a777793a08b3
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897340"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006246"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-september-10-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 for Talent“ (2019 m. rugsėjo 10 d.)
 
@@ -55,15 +55,15 @@ Daugiau informacijos apie tai, kaip publikuojami pakeitimai, žr. [„Talent“ 
 
 ### <a name="platform-update-29"></a>Platformos „update 29“
 
-Daugiau informacijos apie „Platform Update 29“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 29“ (2019 m. spalio mėn.)](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+Daugiau informacijos apie „Platform Update 29“ žr. [Peržiūros funkcijos „Dynamics 365 for Finance and Operations Platform Update 29“ (2019 m. spalio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
 
 ### <a name="new-job-base-entity-available-in-data-management-framework-347202"></a>Naujas užduoties pagrindinis objektas duomenų valdymo sistemoje (347202)
 
 Šiame leidime pateikiamas naujas pagrindinis užduoties objektas, naudojamas importuojant / eksportuojant duomenis. 
 
-### <a name="worker-advanced-security-policy-incorrectly-displays-positions-in-position-hierarchy-354868"></a>Darbuotojų išplėstinėje saugos strategijoje netinkamai rodomos pareigų hierarchijos pareigos (354868)
+### <a name="worker-advanced-security-policy-incorrectly-displays-positions-in-position-hierarchy-354868"></a>Darbininkų išplėstinėje saugos strategijoje netinkamai rodomos pareigų hierarchijos pareigos (354868)
 
-Šiame leidime „tuščias“ darbuotojas nebebus rodomas pareigose, kai vartotojų prieiga apribota.
+Šiame leidime „tuščias“ darbininkas nebebus rodomas pareigose, kai vartotojų prieiga apribota.
 
 ### <a name="job-form-close-box-wont-close-form-in-certain-situations-342467"></a>Užduoties formos uždarymo langeliu tam tikrose situacijose forma neuždaroma (342467)
 
@@ -89,9 +89,9 @@ Su šiuo pakeitimu galite pakeisti įdarbinimo datą, kad ji skirtųsi nuo 23:59
 
 Įgyvendinus šį pakeitimą, pradžios data / laikas dabar pagal numatytuosius nustatymus atitinka dienos pradžią, o pabaigos data / laikas pagal numatytuosius nustatymus atitinka dienos pabaigą.
 
-### <a name="changing-the-employment-end-date-on-worker-action-form-displays-an-error-354092"></a>Pakeitus darbuotojo veiksmo formos įdarbinimo pabaigos datą, rodoma klaida (354092) 
+### <a name="changing-the-employment-end-date-on-worker-action-form-displays-an-error-354092"></a>Pakeitus darbininko veiksmo formos įdarbinimo pabaigos datą, rodoma klaida (354092) 
 
-Šis pakeitimas pataiso problemą, kylančia keičiant įdarbinimo pabaigos datą atliekant su darbuotoju susijusius veiksmus.
+Šis pakeitimas pataiso problemą, kylančia keičiant įdarbinimo pabaigos datą atliekant su darbininku susijusius veiksmus.
 
 ### <a name="applying-onboarding-checklists-across-companies-338433"></a>Visų įmonių supažindinimo kontrolinių sąrašų taikymas (338433)
 
@@ -101,6 +101,6 @@ Su šiuo pakeitimu galite pakeisti įdarbinimo datą, kad ji skirtųsi nuo 23:59
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 
-Ši funkcija dabar yra smėlio dėžės aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbuotojo forma ir naršymas**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
+Ši funkcija dabar yra smėlio dėžės aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbininko forma ir naršymas**. Tai įgalins šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 
 Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./streamlined-employee-entry.md).

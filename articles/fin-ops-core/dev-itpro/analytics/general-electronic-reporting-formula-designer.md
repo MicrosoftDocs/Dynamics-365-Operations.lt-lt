@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0028d1f64aced1bbff91b18456c81adbb95bce30
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
+ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2914823"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "3002525"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Elektroninių ataskaitų (ER) formulių kūrimo įrankis
 
@@ -51,7 +51,7 @@ Puslapį **Formulių konstruktorius**galite atidaryti atlikdami bet kurį iš to
 - Nurodžius proceso kontrolės tikrinimų sąlygas.
 - Nurodžius proceso kontrolės tikrinimų pranešimo tekstą.
 
-## <a name="Binding">Duomenų susiejimas</a>
+## <a name="Binding"></a>Duomenų susiejimas
 
 ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri transformuoja iš duomenų šaltinių gautus duomenis, kad tuos duomenis būtų galima įvesti į duomenų vartotoją vykdymo metu tokiais būdais:
 
@@ -69,7 +69,7 @@ Tolesnėje iliustracijoje parodyta, kaip galima naudoti šio tipo išraišką. �
 
 Vykdymo metu sukurta formulė `ROUND (Intrastat.AmountMST, 2)` kiekvieno „Intrastat“ lentelės įrašo lauko **AmountMST** reikšmę suapvalina iki dviejų skaičių po kablelio. Suapvalintą reikšmę ji tada įveda į duomenų modelio **Mokesčių ataskaitos** komponentą **Transaction.InvoicedAmount**.
 
-## <a name="Transformation">Duomenų formatavimas</a>
+## <a name="Transformation"></a>Duomenų formatavimas
 
 ER formulių kūrimo įrankį galima naudoti apibrėžiant išraišką, kuri formatuoja iš duomenų šaltinių gautus duomenis, kad tuos duomenis būtų galima siųsti kaip generuojamo elektroninio dokumento dalį. Galite turėti formatavimą, kuris turi būti taikomas kaip įprasta pakartotinai naudojama formato taisyklė. Tokiu atveju šį formatavimą galite vienu kartu įvesti į formato konfigūraciją kaip įvardytąją transformaciją, kuri turi formatavimo išraišką. Tada šią įvardytąją transformaciją galima susieti su daugeliu formato komponentų, kurių išvedami duomenys turi būti formatuojami pagal jūsų sukurtą formatavimo išraišką.
 
@@ -87,7 +87,7 @@ Jei formatavimą būtina taikyti atskirai, galite jį nustatyti kaip atskirą ko
 
 [![Formatavimo taikymas atskiram komponentui](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation">Proceso eigos valdymas</a>
+## <a name="Validation"></a>Proceso eigos valdymas
 
 ER formulių dizaino įrankis gali būti naudojamas apibrėžiant išraiškas, kurios valdo elektroninių dokumentų generavimo proceso eigą. Galite atlikti šias užduotis:
 
@@ -112,7 +112,7 @@ ER formulių kūrimo įrankį taip pat galima naudoti ir generuojamo elektronini
 
 [![Proceso eigos valdymas](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled">Dokumento turinio kontrolė</a>
+## <a name="Enabled"></a>Dokumento turinio kontrolė
 
 ER formulių kūrimo įrankį galima naudoti konfigūruojant išraiškas, kontroliuojančias duomenis, įtraukiamus į generuojamus elektroninius dokumentus vykdymo metu. Pagal išraiškas įjungiama arba išjungiama tam tikrų formato elementų išvestis, atsižvelgiant į apdorojamus duomenis ir sukonfigūruotą logiką. Vieno formato elemento išraiškas galima įvesti lauke **Įjungta** skirtuke **Susiejimas** puslapyje **Operacijų kūrimo įrankis**. Išraiškas galite įvesti kaip loginę sąlygą, kuri grąžina *Bulio logikos* reikšmę:
 
@@ -139,7 +139,7 @@ Tolesnė iliustracija nurodo šio tipo išraiškas. (**ISO20022 kredito perdavim
 > 
 > Remiantis šia sąranka, į kiekvieno skolininko mokėjimo generuojamą pranešimą, XML elementą **Ustrd** bus įtrauktas arba mokėjimo pastabų tekstas, arba, kai toks tekstas yra tuščias, kableliais atskirtų sąskaitų faktūrų numerių, naudojamų atliekant šį mokėjimą, tekstas.
 
-## <a name="TestFormula">Sukonfigūruotų formulių tikrinimas</a>
+## <a name="TestFormula"></a>Sukonfigūruotų formulių tikrinimas
 
 Puslapyje **Formulių kūrimo įrankis** pasirinkite **Bandymas**, kad patikrintumėte, kaip veikia sukonfigūruota formulė.
 

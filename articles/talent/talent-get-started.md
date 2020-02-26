@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ff9cfdff410001f08f920e3c05df6bc4ab1b77fd
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: c3a2881ede53e4adfba775b9bb23071468c8f602
+ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2024257"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "3006522"
 ---
 # <a name="get-started-with-talent"></a>Darbo su „Talent“ pradžia
 
@@ -31,7 +31,7 @@ ms.locfileid: "2024257"
 Programoje „Microsoft Dynamics 365 Talent“ lengva modifikuoti vartotojo sąsają ir nustatyti parinktis, paverčiančias programinę įrangą intuityvesne jūsų poreikiams. Šioje temoje pateikiami saitai į temas, kuriose pateikiama informacija apie tai, kaip pritaikyti vartotojo sąsają pagal asmenines nuostatas. Šioje temoje taip pat pateikiami saitai, nukreipiantys į informaciją, galinčią padėti efektyviai ir tiksliai rasti sistemoje pateikiamą informaciją. 
 
 > [!NOTE] 
-> Toliau išvardyti produktai yra glaudžiai susiję: „Dynamics 365 Finance“, „Dynamics 365 Retail“ ir „Dynamics 365 Talent“. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Retail“, produkto pavadinimas bus „Dynamics 365 Retail“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 Finance“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
+> Toliau išvardyti produktai yra glaudžiai susiję: „Dynamics 365 Finance“, „Dynamics 365 Commerce“ ir „Dynamics 365 Talent“. Gali būti, kad tas pačias funkcijas galima rasti visuose trijuose produktuose. Todėl temose, kurios pirmiausia susijusios su „Commerce“, produkto pavadinimas bus „Dynamics 365 Commerce“; temose, kurios pirmiausia susijusios su „Talent“, produkto pavadinimas bus „Dynamics 365 Talent“; temose, kurios pirmiausia susijusios su pagrindiniu produktu, produkto pavadinimas bus „Dynamics 365 Finance“. Vienam produktui parašytos temos gali būti taikomos toms pačioms funkcijoms susijusiame produkte.
 
 ## <a name="personalizing-talent"></a>„Talent“ personalizavimas 
 Toliau pateikiamose temose rodoma, kaip nustatyti daugelį „Talent“ funkcijų, padedančių atlikti jūsų užduotis laiku. 
