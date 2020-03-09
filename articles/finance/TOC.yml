@@ -150,6 +150,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/finance/toc.json
                 - name: Įrašyti rodiniai
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
+                - name: Tinklelio charakteristikos
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: „PowerApps“ programų įdėjimas
@@ -940,7 +942,9 @@
                   href: general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
                 - name: Nustatyti PVM ataskaitų kodus
                   href: general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: PVM specifikacija pagal DK operacijos ataskaitą
+                - name: PVM dviejų valiutų palaikymas
+                  href: general-ledger/dual-currency-for-tax.md
+                - name: PVM specifikacija pagal didžiosios knygos operacijos ataskaitą
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: PVM sudengimo laikotarpių nustatymas
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
@@ -1102,6 +1106,8 @@
                   href: public-sector/interest-distribution.md
             - name: Įsigijimas ir šaltinio pasirinkimas viešajame sektoriuje
               href: public-sector/procurement-sourcing-public-sector.md
+            - name: Eilutės pristatymo datos nustatymas pagal gamybos laiką
+              href: public-sector/po-delivery-date.md
             - name: Saugos vaidmenys viešajame sektoriuje
               href: public-sector/security-roles-public-sector.md
             - name: Fondai viešajame sektoriuje
@@ -1298,6 +1304,8 @@
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: „SPED Fiscal“ – 014 maketas
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
+                - name: SPED EFD įnašų nustatymas
+                  href: localizations/latam-bra-sped-contributions.md
                 - name: Juridinių subjektų parametrai
                   href: localizations/latam-bra-legal-entity-parameters.md
                 - name: Juridinio subjekto parametrų nustatymas
@@ -2793,7 +2801,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Įdarbinimas
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: 'Mažmeninės prekybos kanalų efektyvumas '
+                - name: „Retail“ kanalų efektyvumas
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/finance/toc.json
                 - name: Pardavimo ir pelningumo efektyvumas
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
@@ -2807,9 +2815,11 @@
               items:
                 - name: Dokumentų ataskaitų paslaugų apžvalga
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/finance/toc.json
+                - name: Palaikomi šriftai
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Vietinių visuotinių diegimų SSRS konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
-                - name: Spausdinimas
+                - name: Spausdinama
                   items:
                     - name: Dokumento spausdinimo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/finance/toc.json
@@ -3686,6 +3696,4 @@
     - name: „Dynamics 365 Supply Chain Management”
       href: ../supply-chain/index.md
     - name: „Dynamics 365 Commerce“
-      href: ../commerce/index.md
-    - name: „Dynamics 365 Retail”
       href: ../commerce/index.md
