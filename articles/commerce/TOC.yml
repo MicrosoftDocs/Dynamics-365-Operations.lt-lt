@@ -166,6 +166,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/commerce/toc.json
                 - name: Įrašyti rodiniai
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
+                - name: Tinklelio charakteristikos
+                  href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: „PowerApps“ programų įdėjimas
@@ -306,7 +308,7 @@
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
                     - name: Numatytojo kliento ir adresų knygelės nustatymas
                       href: default-customer.md
-                - name: Būtinosios mažmeninės prekybos kanalo sąlygos
+                - name: Būtinosios „Retail“ kanalo sąlygos
                   items:
                     - name: Informacijos kodai ir informacijos kodų grupės
                       href: info-codes-retail.md
@@ -438,8 +440,6 @@
                   href: configure-call-center-delivery.md
                 - name: Įspėjimų dėl apgaulės nustatymas ir jų naudojimas
                   href: set-up-fraud-alerts.md
-                - name: Skambučių centrų tęstinumo programų nustatymas
-                  href: set-up-continuity-program.md
             - name: Pagrindinio kanalo konfigūravimas
               items:
                 - name: Kanalo įtraukimas į organizacijos hierarchiją
@@ -450,7 +450,13 @@
                       href: omni-auto-charges.md
                     - name: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
                       href: pro-rate-charges-matching-lines.md
-                - name: Mažmeninės prekybos parduotuvės valdymas
+                - name: Tęstinumo programų valdymas
+                  items:
+                    - name: Skambučių centrų tęstinumo programų nustatymas
+                      href: set-up-continuity-program.md
+                    - name: Tęstinumo grafikų nustatymas
+                      href: tasks/define-continuity-schedules.md
+                - name: „Retail“ parduotuvės valdymas
                   items:
                     - name: Parduotuvės darbo valandų nustatymas ir keitimas
                       href: dev-itpro/store-hours.md
@@ -460,8 +466,6 @@
                   items:
                     - name: Skambučių centro užsakymo sulaikymo funkcijų konfigūravimas ir jų naudojimas
                       href: work-with-order-holds.md
-                    - name: Tęstinumo grafikų nustatymas
-                      href: tasks/define-continuity-schedules.md
                 - name: Mokėjimai
                   items:
                     - name: Mokėjimo būdai
@@ -478,6 +482,8 @@
                       href: dev-itpro/adyen-connector.md
                     - name: Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį
                       href: dev-itpro/adyen-connector-listpi.md
+                    - name: Sklandus dovanų kortelių ir pažymų operacijų perjungimas neprisijungus
+                      href: dev-itpro/seamless-offline-improvements.md
                     - name: Sąskaitų faktūrų apmokėjimo scenarijų nustatymas
                       href: payinvoice.md
                     - name: Besidubliuojančių mokėjimų prevencija
@@ -494,9 +500,9 @@
                   href: ../supply-chain/pim/product-information.md?toc=/dynamics365/commerce/toc.json
                 - name: Mažmeninės prekybos produktų nustatymas
                   href: set-up-retail-products.md
-                - name: Mažmeninės prekybos produkto hierarchija
+                - name: Produktų hierarchija
                   items:
-                    - name: Mažmeninės prekybos hierarchijos
+                    - name: „Commerce“ hierarchijos
                       href: retail-hierarchies.md
                     - name: Naujos produktų hierarchijos kūrimas
                       href: create-product-hierarchy.md
@@ -624,6 +630,12 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Prekių skirstymo ir skirstymo pirkėjams taisyklių bei parametrų nustatymas
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+                    - name: Atvežamų atsargų operacija EKA
+                      href: pos-inbound-inventory-operation.md
+                    - name: Siunčiamų atsargų operacija EKA
+                      href: pos-outbound-inventory-operation.md
+                    - name: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
+                      href: calculated-inventory-retail-channels.md
                 - name: Pirkimo užsakymai
                   items:
                     - name: Pirkimo užsakymų apžvalga
@@ -726,6 +738,18 @@
               href: tasks/store-configurations-retail-statements.md
             - name: Pardavimo ir mokėjimų internetu registravimas
               href: tasks/posting-online-sales-payments.md
+        - name: Darbininko užduočių valdymas
+          items:
+            - name: Užduočių valdymo apžvalga
+              href: task-mgmt-overview.md
+            - name: Užduočių valdymo konfigūravimas
+              href: task-mgmt-configure.md
+            - name: Užduočių sąrašų kūrimas ir užduočių įtraukimas
+              href: task-mgmt-create-lists.md
+            - name: Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams
+              href: task-mgmt-assign-lists.md
+            - name: Užduočių valdymas EKA
+              href: task-mgmt-pos.md
         - name: El. prekybos svetainės valdymas
           items:
             - name: Interneto parduotuvės peržiūra
@@ -880,6 +904,8 @@
                   items:
                     - name: Pirkimo langelio modulis
                       href: add-buy-box.md
+                    - name: Įvertinimų ir apžvalgų moduliai
+                      href: ratings-reviews-modules.md
                 - name: Pirkimo moduliai
                   items:
                     - name: Krepšelio modulis
@@ -930,9 +956,9 @@
               href: set-up-rfm-analysis.md
         - name: Lokalizavimo ir reguliavimo priemonės
           items:
-            - name: Prekybos kanalo fiskalinės integracijos peržiūra
+            - name: „Commerce“ kanalo fiskalinės integracijos peržiūra
               href: localizations/fiscal-integration-for-retail-channel.md
-            - name: Prekybos kanalo fiskalinės integracijos nustatymas
+            - name: „Commerce“ kanalo fiskalinės integracijos nustatymas
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Austrija
               items:
@@ -940,9 +966,9 @@
                   href: localizations/emea-aut-fi-sample.md
             - name: Rytų Europa
               items:
-                - name: Išankstinės prekybos sąskaitos faktūros (Rytų Europa)
+                - name: Išankstinės „Commerce“ sąskaitos faktūros (Rytų Europa)
                   href: localizations/emea-eeu-advance-invoices-for-retail.md
-                - name: Prekybos smulkių išlaidų valdymas (Rytų Europa)
+                - name: „Commerce“ smulkių išlaidų valdymas (Rytų Europa)
                   href: localizations/emea-eeu-petty-cash-for-retail.md
                 - name: Kliento SF ir grąžinimo pardavimo užsakymai Rytų Europos šalyse
                   href: localizations/emea-eeu-retail-invoices.md
@@ -1042,7 +1068,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: Įdarbinimas
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Mažmeninės prekybos kanalų efektyvumas '
+                - name: '„Retail“ kanalų efektyvumas '
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Pardavimo ir pelningumo efektyvumas
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/commerce/toc.json
@@ -1056,9 +1082,11 @@
               items:
                 - name: Dokumentų ataskaitų paslaugų apžvalga
                   href: ../fin-ops-core/dev-itpro/analytics/document-reporting-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Palaikomi šriftai
+                  href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Vietinių visuotinių diegimų SSRS konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Spausdinimas
+                - name: Spausdinama
                   items:
                     - name: Dokumento spausdinimo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/commerce/toc.json
@@ -1786,7 +1814,7 @@
               href: ../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/commerce/toc.json
         - name: Išplečiamumas
           items:
-            - name: Prekybos plėtra ir išplečiamumas
+            - name: „Commerce“ plėtra ir išplečiamumas
               href: dev-itpro/dev-retail-home-page.md
             - name: Interneto kanalo išplečiamumas
               items:
@@ -1834,8 +1862,6 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Peržiūrėti ir derinti modulius
                       href: e-commerce-extensibility/test-module.md
-                    - name: Derinti modulius
-                      href: e-commerce-extensibility/debug-modules.md
                     - name: Testuoti modulius naudojant maketus
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Testuoti modulius naudojant puslapių maketus
@@ -1976,6 +2002,8 @@
                   href: dev-itpro/pos-run-samples.md
                 - name: Įrenginių valdymo diegimo instrukcijos
                   href: implementation-considerations-devices.md
+                - name: EKA krepšelio peržiūros įvykiai ir apdorojimo programos
+                  href: dev-itpro/cart-view-handlers.md
             - name: „Hardware Station“ išplečiamumas
               items:
                 - name: „Hardware Station“ ir išplečiamumas
@@ -2006,7 +2034,7 @@
                   href: dev-itpro/commerce-runtime-extensibility.md
                 - name: Kliento nuostatų duomenų įtraukimas į kanalų duomenų bazes
                   href: dev-itpro/add-customer-preference-channel.md
-                - name: Mažmeninės prekybos kanalų slaptųjų raktų tvarkymas
+                - name: „Retail“ kanalų slaptųjų raktų tvarkymas
                   href: dev-itpro/manage-secrets.md
                 - name: Ypatybių įtraukimas į pardavimo užsakymus
                   href: dev-itpro/add-properties-sales-order.md
@@ -2032,6 +2060,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-samples.md
                 - name: Plėtinio įvykių registravimas „Application Insights“
                   href: dev-itpro/commerce-application-insights.md
+                - name: Asinchroninės „Commerce“ (CRT) API kūrimas verslo logikoje
+                  href: dev-itpro/async-commerce-extension.md
             - name: Mokėjimo jungties išplečiamumas
               items:
                 - name: Mokėjimų integravimo į mokėjimo terminalą kūrimas
@@ -2048,6 +2078,8 @@
                   href: payment-connector-data-fields.md
                 - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
                   href: dev-itpro/duplicate-payment-protection.md
+                - name: Programų naršyklės mokėjimo paketo kūrimas diegiant „Service Fabric“
+                  href: dev-itpro/payment-connector-package.md
             - name: Trečiosios šalies ir el. prekybos išplečiamumas
               items:
                 - name: Internetinių parduotuvių konfigūravimas
@@ -2060,8 +2092,6 @@
               href: dev-itpro/extension-resource-localization.md
     - name: „Finance and Operations“ programų kūrimas ir administravimas
       href: ../fin-ops-core/dev-itpro/index.md
-    - name: „Dynamics 365 Retail”
-      href: index.md
     - name: „Dynamics 365 Finance”
       href: ../finance/index.md
     - name: „Dynamics 365 Supply Chain Management”

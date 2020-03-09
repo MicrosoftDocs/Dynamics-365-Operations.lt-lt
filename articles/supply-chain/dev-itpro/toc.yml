@@ -456,8 +456,6 @@
           items:
             - name: Modelių ir duomenų modelio elementų kūrimo apžvalga
               href: ../../dev-itpro/dev-tools/create-data-model-elements.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
-            - name: Plėtinių pavadinimų suteikimo gairės
-              href: ../../dev-itpro/extensibility/NamingGuidelines.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
             - name: Modelių tinkinimo ir nebenaudojimo funkcijų išjungimas
               href: ../../dev-itpro/dev-tools/lock-models.md?toc=/dynamics365/unified-operations/supply-chain/toc.json
         - name: Pritaikymo analizės ataskaita​
