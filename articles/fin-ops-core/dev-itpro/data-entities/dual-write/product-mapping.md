@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: a52e8f65e7e2a8d90ddf5efa47c07d6995ef645d
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
+ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019917"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3081156"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -91,7 +91,7 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 
 ![Produktų duomenų modelis](media/dual-write-product.png)
 
-Įgalinus dvigubo rašymo funkciją, programos „Finance and Operations“ bus sinchronizuojamos kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Jie pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinio subjekto, kuriame produktas išleidžiamas programoje „Finance and Operations“, valiutą. 
+Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Jie pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinio subjekto, kuriame produktas išleidžiamas programoje „Finance and Operations“, valiutą. 
 
 Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**. 
 
@@ -109,7 +109,7 @@ Atminkite, kad produktai sinchronizuojami iš programų „Finance and Operation
 
 Produkto dimensijos – tai charakteristikos, identifikuojančios produkto variantą. Keturios produkto dimensijos (spalva, dydis, stilius ir konfigūracija) taip pat yra susietos su „Common Data Service“ ir apibrėžia produkto variantus. Toliau pateiktame paveikslėlyje parodytas produkto spalvos dimensijos duomenų modelis. Tas pats modelis taikomas dydžiams, stiliams ir konfigūracijoms. 
 
-![Produktų duomenų modelis](media/dual-write-product-2.PNG)
+![Produktų duomenų modelis](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +145,7 @@ Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus p
 
 Matavimo vienetai ir atitinkami konvertavimai tarnyboje „Common Data Service“ pasiekiami pagal diagramoje pavaizduotą duomenų modelį.
 
-![Produktų duomenų modelis](media/dual-write-product-3.PNG)
+![Produktų duomenų modelis](media/dual-write-product-three.png)
 
 Matavimo vieneto koncepcija yra integruota tarp programų „Finance and Operations“ ir kitų „Dynamics 365“ programų. Kiekvienai programos „Finance and Operations“ vienetų klasei „Dynamics 365“ programoje sukuriama vienetų grupė, kurioje yra vienetų klasei priklausantys vienetai. Kiekvienai vieneto grupei taip pat sukuriamas numatytasis pradinis vienetas. 
 
@@ -176,7 +176,7 @@ Kaip dvigubo rašymo funkcijos dalis, vienetų grupės, esančios programose „
 
 Skirta vienetams kitose „Dynamics 365“ programose, kurie neegzistuoja programose „Finance and Operations“.
 
-Lauką msdyn_symbol reikia užpildyti visuose vienetuose. Vienetus visada galima sukurti programose „Finance and Operations“, atitinkamoje vienetų klasėje (jei ji egzistuoja). Jei vieneto klasė neegzistuoja, pirmiausia reikia sukurti vienetų klasę (įsidėmėkite, kad vienetų klasės negalite sukurti programose „Finance and Operations“, išskyrus atvejus, kai praplečiate sąrašą), atitinkančią kitą „Dynamics 365“ programų vienetų grupę. Tada galite sukurti vienetą. Įsidėmėkite, kad vieneto simbolis programose „Finance and Operations“ turi būti „msdyn_symbol“, kuris nurodytas anksčiau kitose vieneto „Dynamics 365“ programose.
+Lauką msdyn_symbol reikia užpildyti visuose vienetuose. Vienetus visada galima sukurti programose „Finance and Operations“, atitinkamoje vienetų klasėje (jei ji egzistuoja). Jei vieneto klasės nėra, pirmiausia reikia sukurti vienetų klasę (įsidėmėkite, kad vienetų klasės negalite sukurti „Finance and Operations“ programose, išskyrus atvejus, kai praplečiate išvardijimą), atitinkančią kitą „Dynamics 365“ programų vienetų grupę. Tada galite sukurti vienetą. Įsidėmėkite, kad vieneto simbolis programose „Finance and Operations“ turi būti „msdyn_symbol“, kuris nurodytas anksčiau kitose vieneto „Dynamics 365“ programose.
 
 ## <a name="product-policies-dimension-tracking-and-storage-groups"></a>Produktų strategijos: dimensija, sekimas ir saugojimo grupės
 
@@ -205,13 +205,13 @@ Siekiant unikaliai identifikuoti „Dynamics 365 for Finance and Operations“ i
 
 Kitų „Dynamics 365“ programų vartotojui produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad lauko žyma yra **Produkto numeris**). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau laukas (productnumber) – unikalus produkto raktas – nerodomas. 
 
-Atkreipkite dėmesį, kad, jei programos yra sukurtos „Common Data Service“ pagrindu, reikia ypač atkreipti dėmesį į tai, kad kaip integravimo raktas būtų naudojamas unikalus produkto ID, o ne msdyn_productnumber, nes pastarasis nėra unikalus. 
+Jei kuriate programas, naudodami „Common Data Service“, turėtumėte atkreipti dėmesį į **productnumber** (unikalaus produkto ID) naudojimą kaip integravimo kodą. Nenaudokite **msdyn_productnumber**, nes jis nėra unikalus. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Pradinis produktų ir duomenų perkėlimo iš „Common Data Service“ į „Finance and Operations“ sinchronizavimas
 
 ### <a name="initial-synchronization-of-products"></a>Pradinis produktų sinchronizavimas 
 
-Kai įjungta dvigubo rašymo funkcija, „Dynamics 365 Finance and Operations“ produktai sinchronizuojami su „Common Data Service“ ir kitomis „Dynamics 365“ programomis. Įsidėmėkite, kad produktai, sukurti „Common Data Service“ ir kitose „Dynamics 365“ programose prieš dvigubą rašymą, nebus atnaujinti arba suderinti su „Finance and Operations“ produktų duomenimis.
+Kai įjungta dvigubo rašymo funkcija, „Finance and Operations“ programų produktai sinchronizuojami su „Common Data Service“ ir kitomis modeliu paremtomis „Dynamics 365“ programomis. Produktai, kurie buvo sukurti „Common Data Service“ ir kitose „Dynamics 365“ programose prieš išleidžiant dvigubą rašymą, nebus atnaujinti arba suderinti su „Finance and Operations“ programų produktų duomenimis.
 
 ### <a name="matching-product-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Produkto duomenų suderinimas iš „Finance and Operations“ ir kitų „Dynamics 365“ programų.
 
@@ -223,4 +223,4 @@ Kai vyksta sinchronizacija, „Finance and Operations“ produktai sinchronizuoj
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Produktų duomenų perkėlimas iš kitų „Dynamics 365“ programų į „Finance and Operations.“
 
-Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity**, importuodamas tuos produktus iš „Finance and Operations“. Taip pat suderinkite „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta aukščiau. 
+Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity**, importuodamas tuos produktus į „Finance and Operations“. Taip pat suderinkite „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta aukščiau. 

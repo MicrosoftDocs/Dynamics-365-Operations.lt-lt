@@ -3,7 +3,7 @@ title: Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus
 description: Šioje temoje pateikiama informacija apie elektroninio kasos aparato (EKA) veikimą „Dynamics 365 Commerce“. Joje nurodoma, kur programoje galima iškviesti operacijas ir ar jos pasiekiamos neprisijungus.
 author: jblucher
 manager: AnnBe
-ms.date: 05/21/2019
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bf67c53ffd5bd530f484b60da604fd9338c964fd
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023470"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081344"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -51,7 +51,9 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 135 | Įtraukti priskyrimą iš sąrašo | Įtraukite priskyrimą į operaciją pasirinkdami ją iš sąrašo. | Taip | Taip | Taip | Taip | Nr. |
 | 137 | Kliento priskyrimo įtraukimas | Įtraukite kliento priskyrimą puslapyje **Kliento informacija**. | Nr. | Nr. | Nr. | Taip | Nr. |
 | 138 | Kliento priskyrimo pašalinimas | Pašalinkite priskyrimą puslapyje **Kliento informacija**. | Nr. | Nr. | Nr. | Taip | Nr. |
-| 643 | Įtraukti kupono kodą | Įtraukite kuponą įvesdami jo kodą į EKA. | Taip | Taip | Nr. | Taip | Nr. |
+| 643 | Įtraukti kupono kodą | Įtraukite kuponą įvesdami jo kodą į EKA. | Taip | Taip | Ne | Taip | Ne |
+| 141 | Įtraukti antraštės išlaidas | Įtraukti papildomą mokestį į užsakymo antraštę. | Taip | Taip | Ne | Ne| Ne |
+| 141 | Įtraukti eilutės išlaidas | Įtraukti papildomą mokestį į pasirinktą pardavimo eilutę. | Taip | Taip | Ne | Ne| Ne |
 | 117 | Įtraukti lojalumo kortelę | Paraginkite vartotoją įvesti lojalumo kortelės numerį, kuris bus įtrauktas į esamą operaciją. | Taip | Taip | Nr. | Taip | Nr. |
 | 136 | Įtraukti serijos numerį | Ši operacija leidžia vartotojui nurodyti tuo metu pasirinkto produkto serijos numerį. | Taip | Taip | Nr. | Taip | Nr. |
 | 1214 | Pridėti siuntimo adresą | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
@@ -63,7 +65,8 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 1053 | Uždaryti pamainą anonimiškai | Esamą pamainą nustatykite į uždaryta anonimiškai ir atjunkite vartotoją. Anonimiškai uždarius pamainą, negalima atlikti papildomų operacijų, bet galima atlikti stalčių operacijas, pvz., pašalinti mokėjimo priemonę mokėjimo priemonių deklaravimą. | Taip | Taip | Taip | Nr. | Nr. |
 | 310 | Skaičiuoti sumą | Kai nuolaidos skaičiavimas vėluoja, ši operacija inicijuoja dabartinės operacijos apskaičiavimą. | Taip | Taip | Nr. | Taip | Nr. |
 | 642 | Tiekti visus produktus | Visų eilučių pristatymo režimą nustatykite į **Carryout**. | Taip | Taip | Nr. | Taip\* | Nr. |
-| 641 | Tiekti pasirinktus produktus | Pasirinktų eilučių pristatymo režimą nustatykite į **Carryout**. | Taip | Taip | Nr. | Taip\* | Nr. |
+| 641 | Tiekti pasirinktus produktus | Pasirinktų eilučių pristatymo režimą nustatykite į **Carryout**. | Taip | Taip | Ne | Taip\* | Ne |
+| 647 | Keisti pristatymo režimą | Keisti pristatymo būdą iš anksto sukonfigūruotose siuntimo pardavimo eilutėse. | Taip | Taip | Ne | Ne| Ne |
 | 1215 | Keisti slaptažodį | Ši operacija leidžia EKA vartotojui keisti savo slaptažodį. | Taip | Taip | Taip | Nr. | Nr. |
 | 123 | Keisti matavimo vienetą | Pakeiskite pasirinktos eilutės elemento matavimo vienetą. | Taip | Taip | Nr. | Taip | Nr. |
 | 639 | Išvalyti numatytąjį operacijos pardavimo atstovą | Pašalinkite komisinių pardavimo grupę (pardavimo ats.) iš operacijos. | Taip | Taip | Nr. | Taip | Nr. |
@@ -99,7 +102,8 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 1201 | Nefiksuotas įrašas | Ši operacija suteikia vartotojui galimybę įtraukti papildomų pinigų į esamą stalčių ar pamainą. | Taip | Taip | Taip | Taip | Nr. |
 | 1218 | Priversti atrakinti išorinį elementą | Sistema naudoja šią operaciją aparato viduje esantiems EKA periferiniams įrenginiams atrakinti. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 520 | Dovanų kortelės likutis | Rodomas dovanų kortelės likutis. | Taip | Taip | Nr. | Nr. | Nr. |
-| 708 | Išjungti įrenginį | Išjunkite dabartinį įrenginį, kad jo nebūtų galima naudoti kaip POS aparato. | Nr. | Nr. | Nr. | Nr. | Nr. |
+| 708 | Išjungti įrenginį | Išjunkite dabartinį įrenginį, kad jo nebūtų galima naudoti kaip POS aparato. | Ne | Ne | Ne | Ne | Ne |
+| 804 | Gaunamos operacijos | Prieiga prie gaunamų parduotuvės atsargų valdymo funkcijų. | Taip | Ne | Taip | Ne| Ne |
 | 517 | Pajamų sąskaitos | Įrašyti pinigus, įdėtus į kasos stalčių dėl bet kurios priežasties, išskyrus pirkimą. | Taip | Taip | Taip | Taip | Nr. |
 | 801 | Atsargų peržvalga | Ieškokite pasiekiamo, užsakyme pateikto ir prieinamų atsargų (ATP) kiekio, esančio dabartinėje parduotuvėje ir kitose pasiekiamose vietose. | Taip | Taip | Taip | Nr. | Nr. |
 | 122 | SF komentaras | Ši operacija leidžia vartotojui įvesti komentarą apie dabartinę operaciją. | Taip | Taip | Nr. | Taip | Nr. |
@@ -110,11 +114,13 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 301 | Eilutės nuolaida procentais | Įvesti operacijos eilutės prekės nuolaidos procentą. Ši operacija atliekama tik su prekėmis, kurioms taikoma nuolaida, ir tik nurodytos nuolaidos ribose. | Taip | Taip | Nr. | Taip | Nr. |
 | 703 | Užrakto registras | Užrakinkite dabartinį aparatą, kad juo nebūtų galima naudotis, bet neatjunkite dabartinio vartotojo. | Nr. | Nr. | Nr. | Taip | Nr. |
 | 701 | Išsiregistruoti | Atjunkite dabartį vartotoją iš aparato. | Taip | Taip | Taip | Taip | Nr. |
-| 521 | Lojalumo kortelės taškų balansas | Rodomas nurodytos lojalumo kortelės taškų balansas. | Taip | Taip | Nr. | Nr. | Nr. |
+| 521 | Lojalumo kortelės taškų balansas | Rodomas nurodytos lojalumo kortelės taškų balansas. | Taip | Taip | Ne | Ne | Ne |
+| 142 | Valdyti mokesčius | Peržiūrėti ir valdyti operacijai taikomus papildomus mokesčius. | Taip | Taip | Ne | Ne| Ne |
 | 918 | Valdyti pamainas | Rodomas aktyvių, sustabdytų ir anonimiškai uždarytų pamainų sąrašas. | Taip | Taip | Taip | Nr. | Nr. |
 | 914 | Minimizuoti EKA langą | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 1000 | Atidaryti stalčių | Atlikite operaciją „Neparduodama“ ir atidarykite tuo metu pasirinktą kasos stalčių. | Taip | Taip | Taip | Taip | Nr. |
-| 928 | Užsakymo įvykdymas | Ši operacija suteikia galimybę vartotojui paimti, supakuoti, siųsti arba atšaukti parduotuvėje paimtinus užsakymus. | Taip | Taip | Taip | Nr. | Nr. |
+| 928 | Užsakymo įvykdymas | Ši operacija suteikia galimybę vartotojui paimti, supakuoti, siųsti arba atšaukti parduotuvėje paimtinus užsakymus. | Taip | Taip | Taip | Ne | Ne |
+| 805 | Siuntimo operacija | Naudoti siunčiamų perkėlimo užsakymų siuntų valdymo funkcijas. | Taip | Ne | Taip | Ne| Ne |
 | 129 | Nepaisyti eilutės produkto mokesčio | Perrašykite pasirinktoje eilutėje pateiktos prekės mokestį ir naudokite kitą nurodytą mokestį. | Taip | Taip | Nr. | Taip | Nr. |
 | 130 | Nepaisyti eilutės produkto mokesčio iš sąrašo | Perrašykite pasirinktoje eilutėje pateiktos prekės mokestį ir naudokite mokestį, kurį vartotojas pasirenka iš sąrašo. | Taip | Taip | Nr. | Taip | Nr. |
 | 127 | Perrašyti operacijos mokestį | Perrašykite operacijos mokestį ir naudoti kitą nurodytą mokestį. | Taip | Taip | Nr. | Taip | Nr. |
@@ -146,7 +152,8 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 100 | Produkto pardavimas | Įtraukite nurodytą produktą į operaciją. | Taip | Taip | Taip | Taip | Nr. |
 | 108 | Produktų paieška | Ši operacija leidžia vartotojui ieškoti produkto apsilankius EKA produkto ieškos puslapyje. | Taip | Taip | Taip | Taip | Nr. |
 | 633 | Pasiūlymo galiojimo data | Ši operacija leidžia vartotojui peržiūrėti arba modifikuoti pardavimo pasiūlymo galiojimo datą. | Taip | Taip | Nr. | Taip\* | Nr. |
-| 627 | Perskaičiuoti | Perskaičiuokite visas kliento užsakymo eilutes ir mokesčius, kuriems taikoma dabartinė konfigūracija. | Taip | Taip | Nr. | Taip\* | Nr. |
+| 627 | Perskaičiuoti | Perskaičiuokite visas kliento užsakymo eilutes ir mokesčius, kuriems taikoma dabartinė konfigūracija. | Taip | Taip | Ne | Taip\* | Ne |
+| 143 | Perskaičiuoti mokesčius | Perskaičiuoti užsakymui taikomas automatines išlaidas. | Taip | Taip | Ne | Ne| Ne |
 | 515 | Atšaukti užsakymą | Ši operacija leidžia vartotojui ieškoti kliento užsakymų ir juos bei pardavimo pasiūlymus atšaukti. | Taip | Taip | Taip | Nr. | Nr. |
 | 504 | Atšaukti operaciją | Ši operacija leidžia vartotojui atšaukti anksčiau sustabdytą operaciją dabartinėje parduotuvėje. | Taip | Taip | Nr. | Taip‡ | Nr. |
 | 305 | Panaudoti lojalumo taškus | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Taip |

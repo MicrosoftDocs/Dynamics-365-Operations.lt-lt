@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9ce977b36cd96a27a228dba1bc8c8445bafd879
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 961ccd18e70d4f9851027492366a7d9408a668c5
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916389"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042417"
 ---
 # <a name="DATETODATETIME">ER DATETODATETIME funkcija</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916389"
 
 ## <a name="syntax"></a>Sintaksė
 
-```
+```vb
 DATETODATETIME (date)
 ```
 
@@ -51,7 +51,7 @@ Gauta datos / laiko reikšmė.
 
 ## <a name="example-1"></a>1 pavyzdys
 
-`DATETODATETIME (CompInfo. 'getCurrentDate()')` dabartinio „Microsoft Dynamics 365 Finance“ seanso datą – 2015 m. gruodžio 24 d. – pateikia kaip **12/24/2015 12:00:00 AM**. Šiame pavyzdyje **CompInfo** yra tipo **Finance and Operations/Table** modulio Elektroninės ataskaitos (ER) duomenų šaltinis, nurodantis lentelę CompanyInfo.
+`DATETODATETIME (CompInfo. 'getCurrentDate()')` dabartinio „Microsoft Dynamics 365 Finance“ seanso datą – 2015 m. gruodžio 24 d. – pateikia kaip **12/24/2015 12:00:00 AM**. Šiame pavyzdyje **CompInfo** yra tipo **„Finance and Operations” / Lentelė** modulio Elektroninės ataskaitos (ER) duomenų šaltinis, nurodantis lentelę CompanyInfo.
 
 ## <a name="example-2"></a>2 pavyzdys
 

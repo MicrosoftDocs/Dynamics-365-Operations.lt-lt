@@ -1,9 +1,9 @@
 ---
 title: Vietinio visuotinio diegimo pagrindinis puslapis
 description: Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą.
-author: kfend
+author: sericks007
 manager: AnnBe
-ms.date: 11/04/2019
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
-ms.author: kfend
+ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 81698517dc501a6001f62216f3804510144c1045
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
+ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770951"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090594"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
@@ -51,18 +51,18 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [Elektroninių ataskaitų (ER) konfigūracijų importavimas](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Dokumentų generavimas, publikavimas ir spausdinimas vietinėse visuotinėse įdiegtyse](../analytics/printing-capabilities-on-premises.md)
 - [Vietinių aplinkų tarpinių serverių konfigūravimas](onprem-reverseproxy.md)
-- [Programų „Finance and Operations“ techninio palaikymo nustatymas](../lifecycle-services/support-experience.md)
+- [Techninės pagalbos, skirtos „Finance and Operations“ programoms, nustatymas](../lifecycle-services/support-experience.md)
 - [Kliento interneto ryšys](../user-interface/client-disconnected.md)
 - [Vietinių visuotinių įdiegčių naujinimų taikymas](apply-updates-on-premises.md)
 - [Kartotinis visuotinis vietinių aplinkų diegimas](redeploy-on-prem.md)
 
-## <a name="retail"></a>Retail
-- [Mažmeninės prekybos galimybės, pasiekiamos vietinėse visuotinėse įdiegtyse](../../../retail/retail-onprem.md)
+## <a name="commerce"></a>Commerce
+- [„Commerce“ galimybės, pasiekiamos vietinėse visuotinėse įdiegtyse](../../../retail/retail-onprem.md)
 - [„Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai](deploy-retail-onprem.md)
-- [„Retail Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](../../../retail/retail-modern-pos-device-activation.md)
-- [„Retail Store Scale Unit“ konfigūravimas ir diegimas](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](../../../retail/retail-modern-pos-device-activation.md)
+- [„Commerce Scale Unit“ konfigūravimas ir diegimas](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-## <a name="upgrade"></a>Atnaujinti
+## <a name="upgrade"></a>Atnaujinti versiją
 - [Vietinio naujovinimo procesas, skirtas vietinėms aplinkoms](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Kiti ištekliai
@@ -71,6 +71,6 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [Sertifikatų kaita](certificate-rotation-on-prem.md)
 - [Vietinė diagnostika](on-premises-diagnostics.md)
 - [Vietinėse įdiegtyse neįdiegtos funkcijos](../../fin-ops/get-started/features-not-implemented-on-prem.md)
-- [Pašalintos arba nebenaudojamos „Finance and Operations” funkcijos](../migration-upgrade/deprecated-features.md)
+- [Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos](../migration-upgrade/deprecated-features.md)
 - [Programinės įrangos ciklo strategija ir vietinės versijos leidimai](../migration-upgrade/on-prem-version-update-policy.md)
  

@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b4ee6b128e473d0999885f1cb1b4dbb015026c4e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023434"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057214"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Įspėjimų dėl apgaulės nustatymas skambučių centre ir jų naudojimas
 
@@ -54,6 +54,7 @@ Galiausiai naudodami lauką **Apgaulės komentaro tipas** nurodykite dokumento t
 Sistema naudoja dviejų tipų apgaulės kriterijus, pagal kuriuos nustatoma, ar užsakymą reikia sulaikyti dėl galimos apgaulės ir peržiūrėti:
 
 - **Statiniai apgaulės duomenys** naudoja konkrečią vertę, pvz., telefono numerį, kuris buvo įtrauktas į užblokuotų numerių sąrašą, ar el. pašto adresą, kuris yra pažymėtas, nes buvo anksčiau naudotas atliekant apgaulingas operacijas. Norėdami nustatyti statinius apgaulės duomenis, eikite į **Mažmeninė prekyba ir prekyba** \> **Kanalo nustatymas** \> **Skambučių centro sąranka** \> **Apgaulė** \> **Statiniai apgaulės duomenys**. Puslapyje **Statiniai apgaulės duomenys** galite įtraukti apgaulės kriterijus rankiniu būdu ar importuodami duomenis. Prie apgaulingos informacijos pridedamos rezultatų vertės. Jei įjungta apgaulės patikros funkcija, kiekvienas įvestas pardavimo užsakymas bus lyginamas su statiniais duomenimis. Jei duomenys randami kliento sąskaitų siuntimo adrese arba pristatymo adrese, susietame su užsakymo antrašte, arba jei duomenys randami pristatymo adresuose, susietuose su bet kuria to pardavimo užsakymo eilute, visų unikalių atitikmenų rezultatų vertės sudedamos ir bendras rezultatas palyginamas su lauke **Minimalus rezultatas** nurodyta verte, siekiant nustatyti, ar užsakymą reikia sulaikyti.
+
 - **Apgaulės taisykles** sudaro vartotojo apibrėžti kintamieji ir apibrėžtos tų kintamųjų sąlygos. Norėdami kurti taisykles, eikite į **Mažmeninė prekyba ir prekyba** \> **Kanalo nustatymas** \> **Skambučių centro sąranka** \> **Apgaulė** \> **Taisyklės**. Naudodama apgaulės taisykles įmonė gali sukonfigūruoti sudėtingesnį taisyklių rinkinį, kuriame naudojami sakiniai **IR** arba **ARBA**, kad būtų galima įvertinti keletą sąlygų. Pavyzdžiui, vartotojas nori sulaikyti ir peržiūrėti dėl galimos apgaulės visus klientų, kurie priklauso konkrečiai klientų grupei ir kurie užsisakė konkretų produktą, užsakymus. Tokiu atveju sąlygos, taikomos tikrinant klientą ir produktus, apibrėžiamos puslapyje **Taisyklės** ir naudojama sąlyga IR. Užsakymas sulaikomas tik tada, jei tenkinamos abi sąlygos ir jei bendras užsakymo apgaulės rezultatas, sudarytas iš šiai taisyklei priskirtos rezultato vertės ir kitų taisyklių, kurias atitinka užsakymas, rezultatų verčių, viršija vertę **Minimalus rezultatas**, kuri apibrėžta puslapyje **Skambučių centro parametrai**.
 
 > [!NOTE]

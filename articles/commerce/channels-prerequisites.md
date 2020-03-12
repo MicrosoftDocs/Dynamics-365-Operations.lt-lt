@@ -3,7 +3,7 @@ title: Būtinosios kanalo nustatymo sąlygos
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ būtinųjų kanalo nustatymo sąlygų apžvalga.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b861d90f1333c8f6e61a83602ed74e30b65f3dc1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 8a0927f6ee9b2d5bed1327bb223ceca85ecc16a0
+ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002294"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "3081320"
 ---
 # <a name="channel-setup-prerequisites"></a>Būtinosios kanalo nustatymo sąlygos
 
@@ -40,16 +40,16 @@ Prieš sukuriant „Dynamics 365 Commerce“ kanalą reikia atlikti keletą būt
 
 ## <a name="initialization"></a>Inicializacija
 
-- [Pradinių duomenų inicijavimas](../retail/enable-configure-retail-functionality.md)
+- [Pradinių duomenų inicijavimas](enable-configure-retail-functionality.md)
 
 ## <a name="global-prerequisities-required-for-all-channel-types"></a>Visuotinės visų kanalų tipų būtinosios sąlygos
 
 - [Juridinio subjekto apibrėžimas ir konfigūravimas](channels-legal-entities.md) 
 - [Organizacijos hierarchijos konfigūravimas](channels-org-hierarchies.md)
 - [Sandėlio nustatymas](channels-setup-warehouse.md)
-- [PVM konfigūravimas](https://docs.microsoft.com/en-us/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
+- [PVM konfigūravimas](https://docs.microsoft.com/dynamics365/finance/general-ledger/indirect-taxes-overview?toc=/dynamics365/commerce/toc.json)
 - [El. paštu siunčiamo pranešimo šablono nustatymas](email-notification-profiles.md)
-- [Numeracijų nustatymas](https://docs.microsoft.com/en-us/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
+- [Numeracijų nustatymas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview?toc=/dynamics365/commerce/toc.json)
 - [Numatytojo kliento ir adresų knygelės nustatymas](default-customer.md)
 <!--
 - [Configure commerce parameters](commerce-parameters.md)
@@ -57,19 +57,17 @@ Prieš sukuriant „Dynamics 365 Commerce“ kanalą reikia atlikti keletą būt
 
 ## <a name="retail-channel-prerequisites"></a>Būtinosios mažmeninės prekybos kanalo sąlygos
 
-- [Informacijos kodai ir informacijos kodų grupės](https://docs.microsoft.com/en-us/dynamics365/retail/info-codes-retail?toc=/dynamics365/commerce/toc.json)
+- [Informacijos kodai ir informacijos kodų grupės](info-codes-retail.md)
 - [Mažmeninės prekybos funkcijų šablono nustatymas](retail-functionality-profile.md)
 - [Darbuotojų adresų knygelės nustatymas](new-address-book.md)
-- [Ekrano maketo nustatymas](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json)
-- [Aparatūros stoties nustatymas](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/commerce/toc.json)
+- [Ekrano maketo nustatymas](pos-screen-layouts.md)
+- [Aparatūros stoties nustatymas](retail-hardware-station-configuration-installation.md)
 
 ## <a name="call-center-channel-prerequisites"></a>Skambučių centro kanalo būtinosios sąlygos
 
 - Skambučių centro parametrai
-- Skambučių centro grąžinimo metodai
-- Nuomos tipai
-- Mokėjimo tarnybos
-- Užsakymo sulaikymo kodai
+- [Skambučių centro užsakymo ir grąžinimo mokėjimo būdai](work-with-payments.md)
+- [Skambučių centro pristatymo ir mokesčių konfigūravimo būdai](configure-call-center-delivery.md)
 
 ## <a name="online-channel-prerequisites"></a>Būtinosios interneto kanalo sąlygos
 

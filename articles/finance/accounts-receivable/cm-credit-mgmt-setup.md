@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 02d7e2238e58098428397121de848a1947a991ad
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: b4234ac428cc80836852d4edfb0f37098b4a1e8e
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015327"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071665"
 ---
 # <a name="credit-management-parameters-setup"></a>Kreditų valdymo parametrų nustatymas
 
@@ -38,8 +38,8 @@ Yra keturi „FastTab“, kur galite pakeisti parametrus, kontroliuojančius kre
 - Nustatykite parinktį **Leisti redaguoti pardavimo užsakymų reikšmes po sulaikyto užsakymo išleidimo** kaip **Taip**, kad galėtumėte prašyti dar kartą patikrinti registravimo taisykles, jei pirkimo užsakymo reikšmė (išplėstinė kaina) pasikeitė nuo to laiko, kai pardavimo užsakymas buvo išleistas iš sulaikymų sąrašo. .
 - Lauke **Atšauktų užsakymų priežastys** pasirinkite išleidimo priežastį, kuri bus naudojama pagal numatytuosius parametrus, kai pardavimo užsakymas, kuris buvo kreditų valdymo sulaikymų sąraše, yra atšaukiamas.
 - Nustatykite parinktį **Patikrinti klientų kredito grupių kredito limitą** kaip **Taip**, kad galėtumėte patikrinti klientų kredito grupės kredito limitą, kai pardavimo užsakymas priklauso klientų kredito grupei. Bus patikrintas grupės kredito limitas; tada, jei jis pakankamas, bus patikrintas kliento kredito limitas.
-- Nustatykite parinktį **Patikrinti kredito limitą, kai mokėjimo sąlygos padidinamos** kaip **Taip**, jei norite patikrinti mokėjimo sąlygų reitingus, kad nustatytumėte, ar pardavimo užsakymo mokėjimo sąlygos skiriasi nuo pardavimo užsakymo mokėjimo sąlygų. Jeigu naujos mokėjimo sąlygos turi aukštesnį reitingą nei originalios mokėjimo sąlygos, užsakymas įtraukiamas į kreditų valdymo sulaikymo sąrašą.
-- Nustatykite parinktį **Patikrinti kredito limitą, kai atsiskaitymo nuolaida padidinama** kaip **Taip**, jei norite patikrinti atsiskaitymo nuolaidos reitingus, kad nustatytumėte, ar pardavimo užsakymo mokėjimo nuolaida skiriasi nuo pardavimo užsakymo mokėjimo sąlygų. Jeigu nauja mokėjimo nuolaida turi aukštesnį reitingą nei originali mokėjimo, užsakymas įtraukiamas į kreditų valdymo sulaikymo sąrašą.
+- Nustatykite parinktį **Patikrinti kredito limitą, kai mokėjimo sąlygos padidinamos** kaip **Taip**, jei norite patikrinti mokėjimo sąlygų reitingus, kad nustatytumėte, ar pardavimo užsakymo mokėjimo sąlygos skiriasi nuo numatytųjų kliento mokėjimo sąlygų. Jeigu naujos mokėjimo sąlygos turi aukštesnį reitingą nei originalios mokėjimo sąlygos, užsakymas įtraukiamas į kreditų valdymo sulaikymo sąrašą.
+- Nustatykite parinktį **Patikrinti kredito limitą, kai atsiskaitymo nuolaida padidinama** kaip **Taip**, jei norite patikrinti atsiskaitymo nuolaidos reitingus, kad nustatytumėte, ar pardavimo užsakymo mokėjimo nuolaida skiriasi nuo numatytosios kliento mokėjimo nuolaidos. Jeigu nauja mokėjimo nuolaida turi aukštesnį reitingą nei originali mokėjimo, užsakymas įtraukiamas į kreditų valdymo sulaikymo sąrašą.
 - Lauke **Modifikuotų užsakymų išleidimo priežastis** pasirinkite išleidimo priežastį, kuri bus naudojama pagal numatytuosius parametrus, kai modifikuoti užsakymai automatiškai išleidžiami iš kreditų valdymo sulaikymo.
 - Nustatykite parinktį **Ignoruoti kredito limito nebegaliojančią blokavimo taisyklė, kai galiojimo data yra tuščia** kaip **Taip**, kad galėtumėte valdyti taisyklės **Kredito limito galiojimas pasibaigęs** elgseną. Nustatykite pasirinktį kaip **Ne**, kad būtų blokuojamas užsakymas, kai galiojimo data yra tuščia.
 - Sandėlio valdyme kroviniai gali būti kuriami pardavimo užsakymo įvedimo metu. Nustatykite parinktį **Pašalinti užblokuotas krovinio eilutes** kaip **Ne**, kad pardavimo užsakymo eilutės būtų sulaikytos, kai sulaikytas pardavimo užsakymo kreditas. Krovinio negalima apdoroti, kol sulaikytas pardavimo užsakymas. Nustatykite parinktį kaip **Taip**, kad pašalintumėte pardavimo užsakymo eilutes iš krovinio, kai sulaikytas pardavimo užsakymo kreditas. Tada krovinys gali būti apdorojamas.

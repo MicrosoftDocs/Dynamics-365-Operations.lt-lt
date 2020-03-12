@@ -1,12 +1,12 @@
 ---
-title: Kurti atlyginimų / kompensavimo struktūrą ir planą
-description: Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles.
+title: Kompensacijos struktūros kūrimas
+description: Šiame straipsnyje apžvelgiama, kaip kurti pastoviosios kompensacijos planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 02/10/2020
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
+ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
@@ -16,62 +16,100 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5711dc8a7fbd44ea9c27e1d57b936765808d199e
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 124d0f7f83feebabf622f00732c25bfa0f6eccdd
+ms.sourcegitcommit: de715b7fda2f1548f2f443b9e0f6d09f5b881d61
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009990"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "3034268"
 ---
-# <a name="develop-salarycompensation-structure-and-plan"></a>Kurti atlyginimų / kompensavimo struktūrą ir planą
+# <a name="develop-a-compensation-structure"></a>Kompensacijos struktūros kūrimas
 
+Šiame straipsnyje apžvelgiama, kaip kurti pastoviosios kompensacijos planą ir į jį užregistruoti darbuotojus taikant tinkamumo taisykles. Šiame straipsnyje naudojami USMF demonstraciniai duomenys ir jis skirtas kompensacijų bei išmokų vadovams.
 
+## <a name="create-a-fixed-compensation-plan"></a>Pastoviosios atlyginimo dalies plano kūrimas
 
-Šis užduočių vadovas apžvelgia procesą, kaip kurti pastoviosios atlyginimo dalies planą ir leisti darbuotojams būti įtrauktiems į tą planą taikant tinkamumo taisykles. Demonstracinė duomenų įmonė, naudota kuriant šią užduotį, yra USMF, ir užduotis yra skirta kompensacijų ir išmokų vadovams.
+1. Pasirinkite **Kompensacijų valdymas**.
 
+2. Pasirinkite **Pastoviosios kompensacijos planai**.
 
-## <a name="create-fixed-compensation-plan"></a>Kurti pastoviosios atlyginimo dalies planą
-1. Spustelėkite Kompensavimo valdymas.
-2. Spustelėkite Pastoviosios atlyginimo dalies planai.
-3. Spustelėkite Naujas.
-4. Lauke Planas surinkite reikšmę.
-5. Lauke Aprašas įveskite reikšmę.
-6. Lauke Įsigaliojimo data įveskite datą.
-7. Lauke Tipas pasirinkite, ar pastoviosios atlyginimo dalies planas yra Intervalo, Kategorijos, ar Veiksmo.
-8. Žymės langelis Leistina rekomendacija veikia kaip bet kokių veiksmų, įtrauktų į šį planą apdorojimo įvykyje, numatytoji reikšmė.  Leidę rekomendacijas galėsite nepaisyti paskaičiuotos siūlomos sumos apdorodami kompensaciją.
-9. Funkcija Nepatenka į leistiną nuokrypio diapazoną leidžia nurodyti, kaip norite elgtis su kompensacijų sumomis, kurios nepatenka į nurodytą pateikto lygio kompensavimo struktūros diapazoną.  Funkcijos Nepatenka į leistiną nuokrypio diapazoną parinktis Nėra leis naudoti bet kokią kompensacijos sumą.  Negriežto nuokrypio parinktis naudotoją įspės, jei kompensacijos suma bus mažesnė nei minimali to lygio atskaitos taško suma, arba didesnė nei maksimali to lygio suma. Naudotojas gali įspėjimo nepaisyti ir tęsti veiklą.  Griežto nuokrypio parinktis generuos klaidą, jei darbuotojo kompensacija bus nustatyta ne tarp minimalių ir maksimalių to lygio atskaitos taškų, ir darbuotojo kompensaciją automatiškai pakoreguos, kad ji patektų į šį diapazoną.
-10. Laukas Samdos taisyklė naudojamas, kai, norint apskaičiuoti darbuotojo kompensaciją, vykdomas kompensacijos apdorojimo įvykis.  Procentinė samdos taisyklė skaičiuos padidėjimą, proporcingą laiko trukmei, kurią darbuotojas dirba cikle.
-11. Lauke Valiuta surinkite reikšmę.
-12. Lauke Užmokesčio tarifo konvertavimas įveskite arba pasirinkite reikšmę.
-13. Išplėskite dalį Diapazono realizavimo matrica.
-    * Papildomai galite įtraukti diapazono realizavimo įrašų, kad darbuotojai greičiau pasiektų vidurio tašką ir kad sulėtintumėte spartą, kuria jie juda link savo diapazono maksimumo.  
-14. Šiame etape turite įrašyti pastoviosios atlyginimo dalies planą, kad įgalintumėte mygtuką Nustatyti kompensaciją ir toliau apibrėžtumėte plano kompensacijų struktūrą.  Spustelėkite Įrašyti.
-15. Spustelėkite Nustatyti kompensaciją.
-    * Yra trys būdai, kaip sukurti kompensavimo struktūrą. 1: sukurti visiškai naują struktūrą, pasirenkant atskaitos taškų rinkinį ir įtraukiant lygių bei sukuriant savą struktūrą. 2: kompensavimo struktūrą kopijuoti iš esamo plano kaip pradžios tašką ir ją modifikuoti naujajam planui. 3: pasirinkti esamą kompensacijų tinklelį. Jei kompensacijų tinklelį jau naudoja kitas planas, visi atlikti tinklelio pakeitimai taip pat atsispindės kitame plane.  
-16. Pažymėkite parinktį Pagal esamą kompensavimo matricą sukurti naują.
-17. Lauke Kopijuoti iš tinklelio įveskite arba pasirinkite reikšmę.
-    * Jei norite, galite keisti naujojo kompensacijų tinklelio, kuris bus sukurtas kaip pasirinkto tinklelio kopija, pavadinimą.  
-18. Spustelėkite GERAI.
-19. Spustelėkite Masinis keitimas.
-    * Masinis keitimas leidžia išlaikyti kompensacijų matricos sumas, vieną ar kelis lygius ir (arba) atskaitos taškus padidinant procentine dalimi arba standartine suma.  
-20. Lauke Koregavimo suma įveskite skaičių.
+3. Pasirinkite **Naujas**.
+
+4. Lauke **Planas** įveskite reikšmę.
+
+5. Lauke **Aprašas** įveskite reikšmę.
+
+6. Lauke **Įsigaliojimo data** įveskite datą.
+
+7. Lauke **Tipas** pasirinkite, ar pastoviosios kompensacijos planas yra **Intervalo**, **Kategorijos** ar **Veiksmo**.
+
+8. Žymės langelis **Leistina rekomendacija** veikia kaip bet kokių veiksmų, įtrauktų į šį planą apdorojimo įvykyje, numatytoji reikšmė. Leidę rekomendacijas galėsite nepaisyti paskaičiuotos siūlomos sumos apdorodami kompensaciją.
+
+9. Laukas **Leistinas nepatekimas į intervalą** leidžia nurodyti, kaip norite elgtis su kompensacijų sumomis, kurios nepatenka į nurodytą pateikto lygio kompensavimo struktūros diapazoną. Lauką **Leistinas nepatekimas į intervalą** nustačius kaip **Joks**, galima naudoti bet kokią kompensacijos sumą. Pasirinkus parinktį **Negriežtas nuokrypis**, vartotojas įspėjamas, jei kompensacijos suma yra mažesnė, nei minimali to lygio atskaitos taško suma, arba didesnė, nei maksimali to lygio suma. Vartotojai gali įspėjimo nepaisyti ir tęsti veiklą. Pasirinkus parinktį **Griežtas nuokrypis**, sugeneruojama klaida, jei darbuotojo kompensacija nustatyta ne tarp minimalių ir maksimalių to lygio atskaitos taškų, ir darbuotojo kompensacija automatiškai pakoreguojama, kad ji patektų į šį intervalą.
+
+10. Laukas **Samdos taisyklė** apskaičiuoja darbuotojo kompensaciją apdorojimo įvykio metu. **Procentinė** **samdos taisyklė** apskaičiuoja padidėjimą, proporcingą laiko trukmei, kurią darbuotojas dirba cikle.
+
+11. Lauke **Valiuta** įveskite reikšmę.
+
+12. Lauke **Užmokesčio tarifo konvertavimas** įveskite arba pasirinkite reikšmę.
+
+13. Išplėskite dalį **Intervalo realizavimo matrica**. Papildomai galite įtraukti diapazono realizavimo įrašų, kad darbuotojai greičiau pasiektų vidurio tašką ir kad sulėtintumėte spartą, kuria jie juda link savo diapazono maksimumo.
+
+14. Pasirinkite **Įrašyti**. Taip įjungiamas mygtukas **Nustatyti kompensaciją** ir toliau nustatoma kompensacijos plano struktūra.
+
+15. Pasirinkite **Nustatyti kompensaciją**. Kompensacijos struktūrą galite sukurti vienu iš toliau nurodytų trijų būdų.
+
+    - Sukurti visiškai naują struktūrą, pasirenkant atskaitos taškų rinkinį ir įtraukiant lygių bei sukuriant savą struktūrą.
+    - Kompensacijos struktūrą kopijuoti iš esamo plano kaip pradžios tašką ir ją modifikuoti naujajam planui.
+    - Pasirinkti esamą kompensacijų tinklelį. Jei kompensacijų tinklelį jau naudoja kitas planas, visi atlikti tinklelio pakeitimai taip pat atsispindi kitame plane.
+
+16. Pasirinkite **Pagal esamą kompensavimo matricą sukurti naują**.
+
+17. Lauke **Kopijuoti iš tinklelio** įveskite arba pasirinkite reikšmę. Jei norite, galite keisti naujojo kompensacijų tinklelio, kurį sukuriate nukopijuodami pasirinktą tinklelį, pavadinimą.
+
+18. Pasirinkite **Gerai**.
+
+19. Pasirinkite **Masinis keitimas**. **Masinis keitimas** leidžia išlaikyti kompensacijų matricos sumas, vieną ar kelis lygius ir (arba) atskaitos taškus padidinant procentine dalimi arba standartine suma.
+
+20. Lauke **Koregavimo suma** įveskite skaičių.
+
 21. Pažymėkite arba atžymėkite visas sąrašo eilutes.
-22. Spustelėkite Taikyti tinkleliui.
-23. Uždarykite puslapį.
-    * Kai kompensavimo struktūra sukurta arba pasirinkta, galite pasirinkti, kurie atskaitos taškai turėtų būti naudojami kaip pastoviosios atlyginimo dalies plano kontrolinis taškas.  Kontrolinis taškas naudojamas skaičiuoti darbuotojo lyginamajam koeficientui.  
-24. Lauke Kontrolinis taškas įveskite arba pasirinkite reikšmę.
+
+22. Spustelėkite **Taikyti tinkleliui**.
+
+23. Uždarykite puslapį. Sukūrę kompensavimo struktūrą, galite pasirinkti, kurie atskaitos taškai turėtų būti naudojami kaip pastoviosios kompensacijos plano kontrolinis taškas. Kontrolinis taškas naudojamas darbuotojo lyginamajam koeficientui skaičiuoti.
+
+24. Lauke **Kontrolinis taškas** įveskite arba pasirinkite reikšmę.
+
 25. Uždarykite puslapį.
 
-## <a name="create-an-eligibility-rule-for-the-new-fixed-compensation-plan"></a>Kurti naujojo kompensavimo plano tinkamumo taisyklę
-    * Naujojo pastoviosios atlyginimo dalies plano darbuotojui priskirti negalima tol, kol nebus nustatytos plano tinkamumo taisyklės.  
-1. Spustelėkite Tinkamumo taisyklės.
-2. Spustelėkite Naujas.
-3. Lauke Tinkamumas surinkite reikšmę.
-4. Lauke Aprašas įveskite reikšmę.
-5. Lauke Įsigaliojimo data įveskite datą.
-    * Tinkamumo taisyklės naudojamos tiek pastoviosios, tiek kintamosios atlyginimo dalies planams.  Lauke Tipas pasirinkite, kokio tipo planui skirtas šis tinkamumo taisyklių rinkinys.  
-6. Lauke Planas įveskite arba pasirinkite vertę.
-    * Pasirinkite kriterijus, kuriuos turi atitikti darbuotojas, kad turėtų teisę į kompensavimo planą. Kriterijai gali būti Skyrius, Profesinė sąjunga, Vieta (Kompensacijos sritis), Darbas, Funkcija, Darbo tipas arba Kompensavimo lygis. Kad turėtų teisę į kompensavimo planą, darbuotojas turi atitikti visus nurodytus kriterijus. Jei nenurodyti jokie kriterijai, į kompensavimo planą teisę turi visi darbuotojai. Jei darbuotojas neatitinka tinkamumo taisyklėje nurodytų kriterijų, arba jei kompensavimo plano tinkamumo taisyklė nenurodyta, kuriant darbuotojo pastoviosios atlyginimo dalies įrašą, peržvalgoje kompensavimo planas nebus rodomas.  
+## <a name="create-an-eligibility-rule-for-the-fixed-compensation-plan"></a>Pastoviosios kompensacijos plano tinkamumo taisyklės kūrimas
+
+Pastoviosios kompensacijos plano darbuotojui priskirti negalite tol, kol nenustatote plano tinkamumo taisyklių.  
+
+1. Pasirinkite **Tinkamumo taisyklės**.
+
+2. Pasirinkite **Naujas**.
+
+3. Lauke **Tinkamumas** įveskite reikšmę.
+
+4. Lauke **Aprašas** įveskite reikšmę.
+
+5. Lauke **Įsigaliojimo data** įveskite datą. Tinkamumo taisyklės naudojamos tiek pastoviosios, tiek kintamosios kompensacijos planuose. Lauke **Tipas** pasirinkite plano tipą.
+
+6. Lauke **Planas** įveskite arba pasirinkite reikšmę. Pasirinkite kriterijus, kuriuos turi atitikti darbuotojas, kad turėtų teisę į kompensavimo planą. Toliau nurodyti galimi kriterijai.
+
+    - **Skyrius**
+    - **Profesinė sąjunga**
+    - **Vieta** (**Kompensacijų regionas**)
+    - **Užduotis**
+    - **Funkcija**
+    - **Užduoties tipas**
+    - **Kompensavimo lygis**
+    
+    Kad turėtų teisę į kompensavimo planą, darbuotojas turi atitikti visus nurodytus kriterijus. Jei nenurodote jokių kriterijų, į kompensacijos planą teisę turi visi darbuotojai. Jei darbuotojas neatitinka tinkamumo taisyklėje nurodytų kriterijų, arba jei kompensavimo plano tinkamumo taisyklė nenurodyta, kuriant darbuotojo pastoviosios kompensacijos įrašą, peržvalgoje kompensavimo planas nebus rodomas.
+
 7. Uždarykite puslapį.
+
 8. Uždarykite puslapį.
 

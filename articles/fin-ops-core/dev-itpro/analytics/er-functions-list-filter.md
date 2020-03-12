@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2783fbfa0ba45c8d3772cf9ca16d110549d227b4
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: adeefd08531f59e478efbb45ab294b3bc8216f4c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917378"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042163"
 ---
 # <a name="FILTER">ER FILTER funkcija</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2917378"
 
 ## <a name="syntax"></a>Sintaksė
 
-```
+```vb
 FILTER (list, condition)
 ```
 
@@ -47,7 +47,7 @@ Tinkamas *Įrašų sąrašo* duomenų tipo duomenų šaltinio elemento maršruta
 
 Tinkama sąlyginė išraiška, naudojama nurodyto sąrašo įrašams filtruoti.
 
-## <a name="return-values"></a>Pateikiamos reikšmės
+## <a name="return-values"></a>Grįžties vertės
 
 *Įrašų sąrašas*
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 23f819139e74d81d24810c63bae1de19358983b9
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015330"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057675"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pardavimo užsakymų kredito sulaikymai
 [!include [banner](../includes/banner.md)]
@@ -264,7 +264,7 @@ Pardavimo užsakymai, kurie buvo priverstinai sulaikyti, negali būti apdorojami
 #### <a name="releasing-orders-that-were-added-to-the-credit-management-hold-list-with-a-forced-credit-hold"></a>Užsakymų, kurie buvo įtraukti į kreditų valdymo sulaikymo sąrašą taikant priverstinį kredito sulaikymą, išleidimas
 Pardavimo užsakymai, kurie turi priverstinio sulaikymo priežastį, negali būti automatiškai išleisti. Jei pardavimo užsakymas buvo priverstinai sulaikytas ir jūs naudojote procesą, kuris automatiškai išleidžia pardavimo užsakymus, pardavimo užsakymas bus rodomas kaip **Paruoštas išleidimui** ir liks sulaikymo sąraše. Norėdami išleisti užsakymą, turite naudoti meniu **Išleisti**.
  
-## <a name="free-text-invoices-retail-orders-and-project-invoice-support-in-credit-management"></a>Laisvos formos SF, mažmeninės prekybos užsakymų ir projektų SF palaikymas kredito valdyme 
-Kredito valdymą šiuo metu galima naudoti tik pardavimo užsakymams. Laisvos formos SF, mažmeninės prekybos elektroniniai kasos aparatai ir skambučių centro užsakymai naudos laikinus kredito limitus ir draudimą / garantijas, kurias įtraukiate, kad galėtumėte keisti kredito limitą. Jos nenaudos blokavimo taisyklių ir nebus patalpintos sulaikymo sąraše, jei kyla problemų dėl kredito limito.
+## <a name="free-text-invoices-orders-and-project-invoice-support-in-credit-management"></a>Laisvos formos SF, užsakymų ir projektų SF palaikymas kredito valdyme 
+Kredito valdymą šiuo metu galima naudoti tik pardavimo užsakymams. Laisvos formos SF, elektroniniai kasos aparatai ir skambučių centro užsakymai naudos laikinus kredito limitus ir draudimą / garantijas, kurias įtraukiate, kad galėtumėte keisti kredito limitą. Jos nenaudos blokavimo taisyklių ir nebus patalpintos sulaikymo sąraše, jei kyla problemų dėl kredito limito.
 
 Projektų SF kredito valdyme nėra palaikomos.

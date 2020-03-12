@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f3f2616fd98b37576625d9586a1cda29ce1b89f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023464"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057492"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -43,23 +43,23 @@ ms.locfileid: "3023464"
 
 ## <a name="price-groups"></a>Kainų grupės
 
-Kainų grupės yra kainų ir nuolaidų valdymo pagrindas „Commerce“. Kainų grupės yra naudojamos priskiriant kainas ir nuolaidas mažmeninės prekybos objektams, kanalams, katalogams, priskyrimams ir lojalumo programoms. Kainų grupės naudojamos visoms kainoms ir nuolaidoms, todėl prieš pradedant labai svarbu suplanuoti, kaip jas naudosite.
+Kainų grupės yra kainų ir nuolaidų valdymo pagrindas „Commerce“. Kainų grupės yra naudojamos priskiriant kainas ir nuolaidas prekybos objektams (t. y. kanalams, katalogams, priskyrimams ir lojalumo programoms). Kainų grupės naudojamos visoms kainoms ir nuolaidoms, todėl prieš pradedant labai svarbu suplanuoti, kaip jas naudosite.
 
-Pati savaime kainų grupė yra tik pavadinimas, aprašymas ir, pasirinktinai, kainodaros prioritetas. Svarbiausia, ką reikėtų atsiminti apie kainų grupes, yra tai, kad jų pagalba yra valdomi daugelis ryšių, kurie nuolaidas ir kainas sieja su mažmeninės prekybos objektais.
+Pati savaime kainų grupė yra tik pavadinimas, aprašymas ir, pasirinktinai, kainodaros prioritetas. Svarbiausia, ką reikėtų atsiminti apie kainų grupes, yra tai, kad jas naudojant yra valdomi įvairūs ryšiai, kurie nuolaidas ir kainas sieja su prekybos objektais.
 
-Toliau pateikta iliustracija parodo, kaip naudojamos kainų grupės. Atkreipkite dėmesį, kad šioje iliustracijoje „Kainų grupė“ yra tiesiogine to žodžio prasme kainų ir nuolaidų valdymo centre. Mažmeninės prekybos objektai, kuriais galite valdyti skirtingas kainas ir nuolaidas, yra kairėje, o patys kainų ir nuolaidų įrašai yra dešinėje.
+Toliau pateikta iliustracija parodo, kaip naudojamos kainų grupės. Atkreipkite dėmesį, kad šioje iliustracijoje „Kainų grupė“ yra tiesiogine to žodžio prasme kainų ir nuolaidų valdymo centre. Prekybos objektai, kuriais galite valdyti skirtingas kainas ir nuolaidas, yra kairėje, o patys kainų ir nuolaidų įrašai yra dešinėje.
 
 ![Kainų grupės](./media/PriceGroups.png "Kainų grupės")
 
-Kuriant kainų grupes, nereikėtų naudoti vienos kainų grupės kelių tipų mažmeninės prekybos objektams. Antraip gali būti sunku nustatyti, kodėl operacijai taikoma būtent tokia kaina ar nuolaida.
+Kuriant kainų grupes, nereikėtų naudoti vienos kainų grupės kelių tipų prekybos objektams. Antraip gali būti sunku nustatyti, kodėl operacijai taikoma būtent tokia kaina ar nuolaida.
 
 Raudona punktyrinė linija iliustracijoje rodo, kad „Commerce“ palaiko pagrindinę „Microsoft Dynamics 365“ kainų grupės, nustatomos tiesiogiai klientui, funkciją. Tačiau šiuo atveju gaunate tik pardavimo kainos prekybos sutartis. Jei norite taikyti konkretaus kliento kainas, nerekomenduojame kainų grupes nustatyti tiesiogiai klientui. Vietoje to reikėtų naudoti priskyrimus.
 
-Tolesniuose skyriuose pateikiama daugiau informacijos apie mažmeninės prekybos objektus, kuriais galite nustatyti skirtingas kainas, kai naudojamos kainų grupės. Kainų ir nuolaidų sukonfigūravimas visiems šiems objektams yra dviejų veiksmų procesas. Šiuos veiksmus galima atlikti bet kuria tvarka. Tačiau logiška tvarka yra pirma nustatyti kainų grupes objektams, nes tikėtina, kad šis veiksmas bus vienkartinis nustatymas, atliekamas diegimo metu. Tada, sukūrus kainas ir nuolaidas, galima nustatyti kainų grupes atskiroms kainoms ir nuolaidoms.
+Tolesniuose skyriuose pateikiama daugiau informacijos apie prekybos objektus, kuriais galite nustatyti skirtingas kainas, kai naudojamos kainų grupės. Kainų ir nuolaidų sukonfigūravimas visiems šiems objektams yra dviejų veiksmų procesas. Šiuos veiksmus galima atlikti bet kuria tvarka. Tačiau logiška tvarka yra pirma nustatyti kainų grupes objektams, nes tikėtina, kad šis veiksmas bus vienkartinis nustatymas, atliekamas diegimo metu. Tada, sukūrus kainas ir nuolaidas, galima nustatyti kainų grupes atskiroms kainoms ir nuolaidoms.
 
 ### <a name="channels"></a>Kanalai
 
-Mažmeninės prekybos sektoriuje yra labai įprasta skirtinguose kanaluose turėti skirtingas kainas. Du pagrindiniai veiksniai, darantys įtaką konkrečių kanalų kainoms, yra išlaidos ir vietos rinkos sąlygos.
+Prekybos sektoriuje yra labai įprasta skirtinguose kanaluose nustatyti skirtingas kainas. Du pagrindiniai veiksniai, darantys įtaką konkrečių kanalų kainoms, yra išlaidos ir vietos rinkos sąlygos.
 
 - **Išlaidos** – kuo toliau kanalas yra nuo produkto šaltinio, tuo daugiau kainuoja tą produktą sandėliuoti. Pvz., švieži maisto produktai gali būti laikomi ribotą laiką ir jiems taikomi specialūs gamybos reikalavimai (pvz., augimo sezonas). Tikėtina, kad žiemą šviežios salotos kainuos daugiau šiaurės klimato šalyse nei pietų klimato šalyse. Jei reikia nustatyti kainas platesnėje geografinėje zonoje veikiantiems kanalams, tikriausiai norėsite nustatyti skirtingas kainas skirtinguose kanaluose.
 - **Vietos rinkos sąlygos** – parduotuvė, kuri turi tiesioginį konkurentą kitoje gatvės pusėje bus daug jautresnė kainai nei parduotuvė, kuri šalia neturės tiesioginio konkurento.
@@ -84,7 +84,7 @@ Kai kurie mažmenininkai naudoja fizinius arba virtualius katalogus, kuriuose re
 
 ### <a name="best-practices-for-price-groups"></a>Geriausia kainų grupių praktika
 
-Nenaudokite vienos kainų grupės kelių tipų mažmeninės prekybos objektams. Vietoje to, naudokite vieną kainų grupių rinkinį kanalams, kitą kainų grupių rinkinį priskyrimams arba lojalumo programoms ir t. t. Galite naudoti priešdėlį arba priesagą kainų grupės pavadinime, kad vizualiai sugrupuotumėte savo naudojamas įvairių tipų kainų grupes.
+Nenaudokite vienos kainų grupės kelių tipų objektams. Vietoje to, naudokite vieną kainų grupių rinkinį kanalams, kitą kainų grupių rinkinį priskyrimams arba lojalumo programoms ir t. t. Galite naudoti priešdėlį arba priesagą kainų grupės pavadinime, kad vizualiai sugrupuotumėte savo naudojamas įvairių tipų kainų grupes.
 
 Venkite kainų grupę nustatyti tiesiogiai klientui. Vietoje to, naudokite priskyrimą. Tokiu būdu klientams galite priskirti visų tipų kainas ir nuolaidas, o ne vien pardavimo kainos prekybos sutartis.
 
@@ -98,7 +98,7 @@ Norėdami kainodaros prioritetą taikyti kainoms, kainų grupei turite priskirti
 
 Kainodaros prioriteto funkcija buvo įvesta tam atvejui, jei mažmenininkas tam tikrose parduotuvėse norėtų taikyti aukštesnes kainas. Pvz., mažmenininkas nustatė JAV Rytų pakrantei nustatė regionines kainas, bet kai kuriems produktams Niujorko parduotuvėse nori taikyti aukštesnes kainas, nes šiame mieste kai kuriuos produktus parduoti kainuoja brangiau ir (arba) vietinė rinka sugebės pakelti aukštesnę kainą.
 
-Kaip aprašyta šios temos skyriuje „Geriausia kaina“, mažmeninės prekybos kainodaros mechanizmas paprastai pasirenka mažesniąją iš dviejų kainų. Todėl mažmenininkas paprastai negali taikyti aukštesnės iš dviejų kainų parduotuvėje, turinčioje ir Rytų pakrantės, ir Niujorko kainų grupes. Norėdamas išspręsti šią problemą, kai dar nebuvo įvesta kainodaros prioriteto funkcija, mažmenininkas kainas kiekvienam produktui turėjo nurodyti du kartus ir turėjo nepriskirti abiejų kainų grupių. Arba mažmenininkas turėjo sukurti papildomų kainų grupių, kad atskirtų aukštesnes kainas turinčius produktus nuo produktų, kurie turi įprastas žemesnes kainas.
+Kaip aprašyta šios temos skyriuje „Geriausia kaina“, kainodaros mechanizmas paprastai pasirenka mažesniąją iš dviejų kainų. Todėl mažmenininkas paprastai negali taikyti aukštesnės iš dviejų kainų parduotuvėje, turinčioje ir Rytų pakrantės, ir Niujorko kainų grupes. Norėdamas išspręsti šią problemą, kai dar nebuvo įvesta kainodaros prioriteto funkcija, mažmenininkas kainas kiekvienam produktui turėjo nurodyti du kartus ir turėjo nepriskirti abiejų kainų grupių. Arba mažmenininkas turėjo sukurti papildomų kainų grupių, kad atskirtų aukštesnes kainas turinčius produktus nuo produktų, kurie turi įprastas žemesnes kainas.
 
 O štai kainodaros prioriteto funkcija mažmenininkui leidžia parduotuvės kainoms sukurti kainodaros prioritetą, kuris yra aukštesnis už regioninių kainų kainodaros prioritetą. Arba mažmenininkas gali sukurti kainodaros prioritetą tik parduotuvių kainoms, o regioninėms kainoms palikti numatytąjį kainodaros prioritetą, kuris yra 0 (nulis). Abu nustatymai padeda užtikrinti, kad parduotuvių kainos visada turės pirmenybę prieš regionines kainas.
 
@@ -142,7 +142,7 @@ Lengviausia produkto kainą nustatyti yra tiesiogiai konkrečiam produktui. Vert
 
 Jei produkto kaina visiems yra vienoda, bazinė kaina yra efektyviausias būdas valdyti šio produkto kainą. Net jei kainoms nustatyti naudojate prekybos sutartis, taip pat galite nustatyti bazinę produkto kainą. Tada, jei nenorite naudoti **Visos** prekybos sutarties, turite atsarginę kainą, kuri naudojama, kai prekybos sutartis nėra taikoma.
 
-Jei mažmeninės prekybos kanalo valiuta skiriasi nuo įmonės valiutos, bazinė to kanalo kaina nustatoma naudojant valiutos konvertavimą pagal kainą, kuri yra nustatyta tam produktui.
+Jei kanalo valiuta skiriasi nuo įmonės valiutos, bazinė to kanalo kaina nustatoma konvertuojant nustatyto produkto kainos valiutą.
 
 Nors kainos vieneto atvejų pasitaiko retai, kainodaros mechanizmas jį palaiko. Jei yra nustatyta kita kainos kiekio vertė nei **0** (nulis), vieneto kaina yra lygi Kaina ÷ Kainos vienetas. Pvz., jei produkto kaina yra 10,00 $, o kainos vienetas yra 50, 1 vieneto kaina yra 0,20 $ (= 10,00 $ ÷ 50).
 
@@ -150,9 +150,9 @@ Nors kainos vieneto atvejų pasitaiko retai, kainodaros mechanizmas jį palaiko.
 
 Naudodami prekybos sutarčių žurnalą, galite kurti kiekvieno produkto pardavimo kainos prekybos sutartis. „Microsoft Dynamics 365“ yra trys klientų aprėptys, taikomos pardavimo kainos prekybos sutartims: **Lentelė**, **Grupė** ir **Visos**. Klientų aprėptis nustato, kuriems klientams bus taikoma atitinkama pardavimo kainos prekybos sutartis.
 
-**Lentelės** pardavimo kainos prekybos sutartis yra skirta vienam klientui, kuris nustatomas tiesiogiai prekybos sutartyje. Tai nėra įprastas mažmeninės prekybos verslas–vartotojui (B2C) scenarijus. Tačiau jei taip atsitinka, kainodaros mechanizmas, nustatydamas kainą, naudoja prekybos sutartis **Lentelė**.
+**Lentelės** pardavimo kainos prekybos sutartis yra skirta vienam klientui, kuris nustatomas tiesiogiai prekybos sutartyje. Tai nėra įprastas verslas–vartotojui (B2C) scenarijus. Tačiau jei taip atsitinka, kainodaros mechanizmas, nustatydamas kainą, naudoja prekybos sutartis **Lentelė**.
 
-**Grupės** pardavimo kainos prekybos sutarties tipas yra dažniausiai naudojama mažmeninės prekybos funkcija. Išorės „Commerce“, **Grupės** pardavimo kainos prekybos sutartys yra skirtos paprastai klientų grupei. Tačiau „Commerce“ klientų grupės sąvoka platesnė, jai priskiriama bendresnė kainų grupė. Kainų grupę galima susieti su kanalu, priskyrimu, lojalumo programa ar katalogu. Daugiau informacijos apie kainų grupes žr. skyriuje „Kainų grupės“, pateiktame ankstesnėje šios temos dalyje.
+**Grupės** pardavimo kainos prekybos sutarties tipas yra dažniausiai naudojamas. Išorės „Commerce“, **Grupės** pardavimo kainos prekybos sutartys yra skirtos paprastai klientų grupei. Tačiau „Commerce“ klientų grupės sąvoka platesnė, jai priskiriama bendresnė kainų grupė. Kainų grupę galima susieti su kanalu, priskyrimu, lojalumo programa ar katalogu. Daugiau informacijos apie kainų grupes žr. skyriuje „Kainų grupės“, pateiktame ankstesnėje šios temos dalyje.
 
 > [!NOTE]
 > Prekybos sutarties kaina visada naudojama prieš bazinę kainą.
@@ -211,7 +211,7 @@ Kanalų duomenų bazėse dažnai naudojama „Microsoft SQL Server Express“ d�
 
 ## <a name="prices-that-include-tax-vs-prices-that-exclude-tax"></a>Kainos su mokesčiais ir kainos be mokesčių
 
-Kai nustatote pardavimo kainas „Dynamics 365“, jūs nenurodote, ar į nustatomą kainos vertę įskaičiuojami mokesčiai. Vertė yra tiesiog kaina. Tačiau parametras **Į kainą įtrauktas PVM**, esantis mažmeninės prekybos kanaluose, leidžia konfigūruoti kanalus taip, kad į juos būtų įtrauktas arba neįtrauktas mokestis. Šis parametras nustatomas kanale ir gali skirtis net toje pačioje įmonėje.
+Kai nustatote pardavimo kainas „Dynamics 365“, jūs nenurodote, ar į nustatomą kainos vertę įskaičiuojami mokesčiai. Vertė yra tiesiog kaina. Tačiau parametras **Į kainą įtrauktas PVM**, esantis kanaluose, leidžia konfigūruoti kanalus taip, kad į kainas būtų įtraukiamas arba neįtraukiamas mokestis. Šis parametras nustatomas kanale ir gali skirtis net toje pačioje įmonėje.
 
 Jei dirbate ir su mokesčius apimančiomis ir neapimančiomis kainomis, labai svarbu teisingai nustatyti kainas, nes, pakeitus kanalo parametrą **Kaina su PVM**, bendra kliento mokama suma bus skirtinga.
 
@@ -219,15 +219,15 @@ Jei dirbate ir su mokesčius apimančiomis ir neapimančiomis kainomis, labai sv
 
 Kainų apskaičiavimui visais kanalais naudojamas vienas kainodaros mechanizmas: Skambučių centras, Mažmeninė parduotuvė ir Internetinės parduotuvės. Tai padeda taikyti suvienodintus prekybos scenarijus.
 
-Mažmeninės prekybos kainodara skirta dirbti su mažmeninės prekybos subjektais, o ne kitais subjektais. Tiksliau sakant, ji skirta nustatyti kainoms pagal parduotuvę, o ne pagal sandėlį.
+Kainodara skirta dirbti su mažmeninės prekybos subjektais, o ne kitais subjektais. Tiksliau sakant, ji skirta nustatyti kainoms pagal parduotuvę, o ne pagal sandėlį.
 
-Mažmeninės prekybos kainodaros mechanizmas **nepalaiko** toliau pateikiamų kainodaros funkcijų.
+Kainodaros mechanizmas **nepalaiko** toliau pateikiamų kainodaros funkcijų.
 
-- Kainų nustatymas pagal vietos arba vietos ir sandėlio saugojimo dimensijas nepalaikomas. Jei prekybos sutartyse nurodysite tik vietos dimensiją, nustatant mažmeninės prekybos kainas vietos bus nepaisoma ir prekybos sutartis bus taikoma visoms vietoms. Jei nurodysite ir vietą, ir sandėlį, tada elgesys yra nenurodytas / netikrintas, nes tikimasi, kad pardavėjai naudoja parduotuvės kainų grupes kiekvienos parduotuvės / sandėlio kainoms kontroliuoti.
+- Kainų nustatymas pagal vietos arba vietos ir sandėlio saugojimo dimensijas nepalaikomas. Jei prekybos sutartyse nurodysite tik vietos dimensiją, kainodaros mechanizmas nepaisys vietos ir prekybos sutartis bus taikoma visoms vietoms. Jei nurodysite ir vietą, ir sandėlį, tada elgesys yra nenurodytas / netikrintas, nes tikimasi, kad pardavėjai naudoja parduotuvės kainų grupes kiekvienos parduotuvės / sandėlio kainoms kontroliuoti.
 - Atributais grindžiama kainodara nepalaikoma.
 - Tiekėjo nuolaidos perėjimas nepalaikomas.
 
-Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** mažmeninės prekybos kainodaros mechanizmas:
+Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** kainodaros mechanizmas.
 
 - Kaina nustatoma pagal produkto dimensijas, nuo konkrečiausio varianto kainos iki mažiausiai konkretaus varianto kainos iki bendrojo produkto kainos. Kainai, kuri yra nustatyta naudojant dvi produkto dimensijas (pvz., spalvos ir dydžio), teikiama pirmenybė prieš kainą, kuri yra nustatyta naudojant tik vieną produkto dimensiją (pvz., dydžio).
 - Ta pačia kainų grupe galima kontroliuoti kainas ir nuolaidas.

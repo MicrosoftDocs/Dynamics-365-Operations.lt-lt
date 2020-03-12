@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 623c25490964ccdf6abc37acaffee7ac0844cf39
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 35aad9bf89ba8c1ed6451304d8fc4fc6ffa575b5
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251160"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057784"
 ---
 # <a name="trade-allowance-management"></a>Prekybos nuolaidų valdymas
 
 [!include [banner](../includes/banner.md)]
 
-Prekybos nuolaidų valdymas suteikia galimybę įmonėms valdyti pardavimo akcijų programas, kuriomis siūlomi mažmeninės prekybos „užmokesčio už veiklą“ piniginiai atlygiai klientams, kurie pasiekia apimties ir elgsenos tikslų. Funkcijos galimybės yra skirtos įmonėms, kurios vykdo išsamius skatinimo siekiant padidinti pelną procesus – nuo skatinimo lėšų biudžeto sudarymo ir paskirstymo iki nuolaidų sutarčių nustatymo, paraiškos kūrimo ir tvarkymo, mokėjimų apdorojimo, akcijų nuolaidos efektyvumo analizės.
+Prekybos nuolaidų valdymas suteikia galimybę įmonėms valdyti pardavimo akcijų programas, kuriomis siūlomi „užmokesčio už veiklą“ piniginiai atlygiai klientams, kurie pasiekia apimties ir elgsenos tikslų. Funkcijos galimybės yra skirtos įmonėms, kurios vykdo išsamius skatinimo siekiant padidinti pelną procesus – nuo skatinimo lėšų biudžeto sudarymo ir paskirstymo iki nuolaidų sutarčių nustatymo, paraiškos kūrimo ir tvarkymo, mokėjimų apdorojimo, akcijų nuolaidos efektyvumo analizės.
 
 
 Šiame straipsnyje pateikiama plati prekybos nuolaidų valdymo funkcijų apžvalga ir supažindinama su įprastu užduočių, kurios susijusios su pardavimo akcijų programos valdymu, rinkiniu. Kelių tipų vartotojai, turintys veiklos ir sprendimų priėmimo atsakomybę, turėtų naudoti šią funkciją norėdami pasiekti atitinkamų tikslų.
@@ -61,7 +61,7 @@ Prekybos nuolaidų sutartis yra skatinimo programa, kurioje mokėjimo už rezult
 
 Lėšos, kurios paskirstomos prekybos nuolaidų sutartims, įrašomos puslapyje **Lėšos**. Norėdami atidaryti puslapį **Lėšos** pasirinkite **Pardavimas ir rinkodara** \> **Prekybos nuolaidos** \> **Lėšos** \> **Lėšos**.
 
-![Puslapis Lėšos](./media/trade-allowance-management-funds-page.png "Puslapis Lėšos")
+![Lėšų puslapis](./media/trade-allowance-management-funds-page.png "Lėšų puslapis")
 
 Puslapyje **Lėšos** galite peržiūrėti išsamią informaciją apie akcijų lėšas.
 
@@ -77,7 +77,7 @@ Kai lėšų aprašas nustatytas, kitas akcijos planavimo veiksmas yra akcijų su
 
 Prekybos nuolaidų sutartys įrašomos puslapyje **Prekybos nuolaidų sutartys**. Norėdami atidaryti puslapį **Prekybos nuolaidų sutartys** pasirinkite **Pardavimo ir rinkodara** \> **Prekybos nuolaidos** \> **Prekybos nuolaidų sutartys**.
 
-![Puslapis Prekybos nuolaidų sutartys](./media/trade-allowance-management-agreements-page.png "Puslapis Prekybos nuolaidų sutartys")
+![Prekybos nuolaidų sutarčių puslapis](./media/trade-allowance-management-agreements-page.png "Prekybos nuolaidų sutarčių puslapis")
 
 #### <a name="header"></a>Antraštė
 
@@ -105,7 +105,7 @@ Skirtuke **Prekybos įvykiai** rodomi įvykių, kuriems taikoma sutartis, tipai.
 
 Kai pasirenkate prekybos įvykį ir tada pasirinkate skirtuką **Sumos**, surandama įvykio informacija.
 
-![Prekybos nuolaidos sutarties eilutės](./media/trade-allowance-management-agreements-lines.png "Prekybos nuolaidos sutarties eilutės")
+![Prekybos nuolaidų sutarties eilutės](./media/trade-allowance-management-agreements-lines.png "Prekybos nuolaidų sutarties eilutės")
 
 Skiltyje **Prekybos nuolaidos eilutės** nurodykite kiekio arba sumos diapazoną, kurį klientas turi pasiekti, kad gautų atlygius.
 

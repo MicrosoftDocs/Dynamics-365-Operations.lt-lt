@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68a92610a880c574b4a3a48951c432bc2764c24b
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 408767539628a14f8ea039155c72f5e9aa6803af
+ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771546"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "3070765"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Finansinių ataskaitų stulpelių aprašai
 
@@ -120,11 +120,11 @@ Toliau pateikiamoje lentelėje aprašomi stulpelio apribojimo kodai.
 | ADJ                     | Apriboti stulpelio sumas, kad būtų rodomos tik laikotarpio koregavimo sumos, jei šios sumos galimos. |
 | XAD                     | Apriboti stulpelio sumas, kad būtų nerodomos laikotarpio koregavimo sumos. |
 | SP                      | Apriboti stulpelio sumas, kad būtų įtraukiamos tik užregistruotos operacijos, jei šios operacijos galimos. |
-| UPT                     | Apriboti stulpelio sumas, kad būtų įtraukiamos tik neužregistruotos operacijos, jei šios operacijos galimos.<p><strong>Pastaba:</strong> ne visi duomenų teikėjai palaiko neužregistruotas operacijas. Daugiau informacijos žr. „Microsoft Dynamics ERP“ sistemos <a href='https://go.microsoft.com/fwlink/?LinkID=162565'>duomenų integravimo vadove</a>.</p> |
+| UPT                     | Apriboti stulpelio sumas, kad būtų įtraukiamos tik neužregistruotos operacijos, jei šios operacijos galimos.<p><strong>Pastaba:</strong> ne visi duomenų teikėjai palaiko neužregistruotas operacijas. </p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Stulpelio apibojimas iki ataskaitinio vieneto
 
-1. Naudodami ataskaitų dizaino įrankį atidarykite norimą modifikuoti stulpelių aprašą.
+1. Ataskaitų dizaino įrankyje atidarykite norimą modifikuoti stulpelio aprašą.
 2. Norėdami apriboti stulpelį, dukart spustelėkite langelį **Ataskaitinis vienetas**.
 3. Dialogo lango **Ataskaitinio vieneto pasirinkimas** sąraše **Ataskaitų medis** pasirinkite medį.
 4. Išplėskite arba sutraukite vienetų sąrašą, pasirinkite ataskaitinį vienetą, tada spustelėkite **Gerai**.

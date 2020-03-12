@@ -3,7 +3,7 @@ title: Papildymo apžvalga
 description: Šioje temoje aprašomos papildymo strategijos, skirtos sandėliams, kuriuose naudojamos modulio Sandėlio valdymas funkcijos.
 author: Mirzaab
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3c1989f11563db343129c678623725e2e61b27fc
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 7aa17df3c3632c89f35a69022084bbd9f4171f36
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2251478"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076367"
 ---
 # <a name="replenishment-overview"></a>Papildymo apžvalga
 
@@ -49,6 +49,8 @@ Vietos nurodymai naudojami siekiant nustatyti, kurią vietą reikia papildyti. �
 Be to, kurdami šabloną, bangos šablone turite nurodyti kai kuriuos papildymo parametrus. Bangos šablone turi būti bangos veiksmas, skirtas papildymui, kuris vykdomas, tik jei prekės nepavyksta sėkmingai paskirstyti. Šis papildymo bangos veiksmas naudoja bangos veiksmo kodą, kad nustatytų, kurį papildymo šabloną naudoti. Turite užtikrinti ne tik tai, kad šablone būtų papildymo bangos veiksmas, bet ir tai, kad bangos šablono dalyje **Metodai** yra pažymėta parinktis **Papildyti**. 
 
 Puslapyje **Papildymo šablonas** yra žymės langelis **Leisti poreikio bangai naudoti nerezervuotus kiekius**. Pažymėkite šį žymės langelį, jei poreikio papildymas turi galėti išskaičiuoti nerezervuotus kiekius iš darbo, sugeneruoto iš pasirinkto papildymo šablono. Norėdami, kad poreikio papildymo šablonai naudotų šią logiką, šį žymės langelį pažymėkite prie kiekvieno esamo papildymo šablono. Kai sandėlyje prireikia papildyti poreikį, ši bus išskaičiuojama ir esamo papildymo darbo su nerezervuotais kiekiais, jei darbas atsirado iš papildymo šablonų su pažymėtu žymės langeliu **Leisti bangos poreikiui naudoti nerezervuotus kiekius**.
+
+**Papildymo vienetas** yra mažiausias vienetas, kurį galima papildyti. Tai turi būti sveikasis skaičius, kuris yra vieneto sudėtinis kiekis. Kuriant darbą, sistema suapvalins iki didžiausio galimo vieneto.
 
 Poreikio papildymo funkciją galima naudoti su pardavimo užsakymais, perkėlimo užsakymais, gamybos užsakymais ir „kanban‟ signalais. 
 

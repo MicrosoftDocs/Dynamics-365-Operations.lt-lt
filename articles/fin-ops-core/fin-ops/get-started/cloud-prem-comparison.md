@@ -3,7 +3,7 @@ title: Debesies ir vietinių funkcijų palyginimas
 description: Temoje parodyta, kurios funkcijos palaikomos debesies ir vietinėje versijose.
 author: sericks007
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: aa60f3bc35f2bc10902da060ccacd7767bc9af8f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a918d9fa1ad7ed5adcbb1d056bb8cc3306507aec
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005731"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081975"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Debesies ir vietinių funkcijų palyginimas
 
@@ -81,6 +81,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 |                                      | Užduočių įrašymo priemonė – užduočių įrašų įrašymas ar įkėlimas iš BPM bibliotekos                         | Taip       | Nr.              |
 | Pagalba                              |                                                                                           | Taip       | Taip             |
 |                                      | Prieiga prie palaikymo per meniu Pagalba ir palaikymas                                             | Taip       | Ne              |
+|                                      | Verslo įvykiai                                                                           | Taip       | Taip (reikia interneto ryšio arba turi būti įdiegti pasirinktiniai galiniai punktai, kad būtų galima siųsti / gauti verslo įvykius intranete)              |
 
 ## <a name="dynamics-365-supply-chain-management"></a>„Dynamics 365 Supply Chain Management” 
 
@@ -147,7 +148,7 @@ Tolesnėse lentelėse išvardytos programų sritys. Nurodomas visos funkcijos pa
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių diegimų naudotojams, sąrašą žr. [Mažmeninės prekybos galimybės vietiniuose visuotinėse diegimuose](../../../retail/retail-onprem.md).
+Norėdami peržiūrėti galimybių, kurios suteikiamos vietinių visuotinių diegimų naudotojams, sąrašą žr. [„Commerce“ galimybės vietiniuose visuotiniuose diegimuose](../../../retail/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>„Dynamics 365 Human Resources“ 
 

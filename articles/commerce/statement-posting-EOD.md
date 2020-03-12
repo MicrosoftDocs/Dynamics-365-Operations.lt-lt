@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1e3fc0e8cb5c9a6cc7729dfbddd5d918a1d6bdb5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 68abef8f28c04a4f6f88e638c8abf944d06a32c4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023437"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057260"
 ---
 # <a name="improvements-to-statement-posting-functionality"></a>Išrašų registravimo funkcionalumo patobulinimai
 
@@ -33,46 +33,46 @@ ms.locfileid: "3023437"
 
 Pagal numatytuosius nustatymus, diegiant programą „Finance and Operations 7.3.2“ nustatoma, kad joje būtų naudojama senesnė išrašų registravimo funkcija. Norėdami įgalinti patobulintą išrašų registravimo funkciją, turite įjungti jos konfigūracijos raktą.
 
-- Eikite į **Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūravimas**, po to mazge **Mažmeninė prekyba** panaikinkite žymės langelio **Mažmeninės prekybos išrašai (senesni)** žymėjimą ir pažymėkite žymės langelį **Mažmeninės prekybos išrašai**.
+- Eikite į **Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūravimas**, po to mazge **Mažmeninė prekyba ir prekyba** panaikinkite žymės langelio **Išrašai (senesni)** žymėjimą ir pažymėkite žymės langelį **Mažmeninės prekybos išrašai**.
 
-Įjungus naują srities **Mažmeninės prekybos išrašai** konfigūracijos raktą galima naudotis nauju meniu elementu, kurio pavadinimas **Mažmeninės prekybos išrašai**. Naudodamiesi šiuo meniu elementu galite patys sukurti, apskaičiuoti ir registruoti išrašus. Naudojantis šiuo meniu elementu taip pat bus galima matyti visus vykdant paketinį registravimą klaidas sukeliančius išrašus. (Įjungus srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktą meniu elemento pavadinimas **Atviri išrašai**.)
+Įjungus naują srities **Išrašai** konfigūracijos raktą galima naudotis nauju meniu elementu, kurio pavadinimas **Išrašai**. Naudodamiesi šiuo meniu elementu galite patys sukurti, apskaičiuoti ir registruoti išrašus. Naudojantis šiuo meniu elementu taip pat bus galima matyti visus vykdant paketinį registravimą klaidas sukeliančius išrašus. (Įjungus srities **Išrašai (senesni)** konfigūracijos raktą meniu elemento pavadinimas **Atviri išrašai**.)
 
-Naudojantis „Retail“ atliekami toliau nurodyti su šiais konfigūracijos raktais siejami tikrinimai:
+Naudojantis „Commerce“ atliekami toliau nurodyti su šiais konfigūracijos raktais siejami tikrinimai.
 
 - Abiejų konfigūracijos raktų negalima įjungti tuo pačiu metu.
-- Visoms atliekamoms nurodyto galiojančio išrašo operacijoms (kūrimo, skaičiavimo, naikinimo, registravimo ir t. t.) turi būti naudojami tie patys konfigūracijos raktai. Pavyzdžiui, kai įjungtas srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktas, negalite kurti ir skaičiuoti išrašo, o po to bandyti užregistruoti tą patį išrašą įjungę srities **Mažmeninės prekybos išrašai** konfigūracijos raktą.
+- Visoms atliekamoms nurodyto galiojančio išrašo operacijoms (kūrimo, skaičiavimo, naikinimo, registravimo ir t. t.) turi būti naudojami tie patys konfigūracijos raktai. Pavyzdžiui, kai įjungtas srities **Išrašai (senesni)** konfigūracijos raktas, negalite kurti ir skaičiuoti išrašo, o po to bandyti užregistruoti tą patį išrašą įjungę srities **Išrašai** konfigūracijos raktą.
 
 > [!NOTE]
-> Srities **Mažmeninės prekybos išrašai** konfigūracijos raktu rekomenduojame naudotis naudojantis patobulinta išrašų registravimo funkcija, nebent esama svarių priežasčių naudotis srities **Mažmeninės prekybos išrašai (senesni)** konfigūracijos raktu. „Microsoft“ ir toliau investuos į naują ir patobulintą išrašų registravimo funkciją ir, norint ja pasinaudoti, svarbu kuo greičiau prie jos pereiti. Senesne išrašų registravimo funkcija nuo 8.0 leidimo nebebus naudojama.
+> Rekomenduojame naudotis srities **Išrašai** konfigūracijos raktu norint naudotis patobulinta išrašų registravimo funkcija, nebent esama svarių priežasčių naudotis srities **Išrašai (senesni)** konfigūracijos raktu. „Microsoft“ ir toliau investuos į naują ir patobulintą išrašų registravimo funkciją ir, norint ja pasinaudoti, svarbu kuo greičiau prie jos pereiti. Senesne išrašų registravimo funkcija nuo 8.0 leidimo nebebus naudojama.
 
 ## <a name="setup"></a>Sąranka
 
-Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ skirtuko **Išrašas** parametrai.
+Tobulinant išrašų registravimo funkciją sukurti trys nauji puslapio **Prekybos parametrai** skirtuko **Registravimas** „FastTab“ skirtuko **Išrašas** parametrai.
 
 - **Išjungti išrašų valymo funkciją** – ši parinktis taikoma tik naudojantis senesne išrašų registravimo funkcija. Rekomenduojame nustatyti šios parinkties reikšmę **Ne**, kad vartotojai negalėtų išvalyti išrašų, kurių būsena „pusiau užregistruoti“. Išvalius išrašus, kurių būsena „pusiau užregistruoti“, duomenys sugadinami. Šios parinkties reikšmę **Taip** turėtumėte nustatyti tik išskirtiniais atvejais.
 - **Skaičiuojant rezervuoti atsargas** – norint rezervuoti atsargas rekomenduojame naudoti paketinę užduotį **Registruoti atsargas** ir nustatyti šios parinkties reikšmę **Ne**. Nustačius šios parinkties reikšmę **Ne** skaičiuojant ir naudojantis patobulinta išrašų registravimo funkcija nebandoma sukurti atsargų rezervavimo įrašų (jei įrašai nebuvo sukurti atliekant paketinę užduotį **Registruoti atsargas**). Naudojantis funkcija atsargų rezervavimo įrašai sukuriami tik registruojant. Šis diegimas atliktas norint įgyvendinti dizaino sprendimą ir buvo pagrįstas tuo, kad nuo skaičiavimo proceso iki registravimo proceso paprastai praeina nedaug laiko. Tačiau, jei norite rezervuoti atsargas, kai atliekamas skaičiavimas, galite nustatyti šios parinkties reikšmę **Taip**.
 
     Naudojantis senesne išrašo registravimo funkcija atsargos visada rezervuojamos vykstant išrašo skaičiavimo procesui (jei atsargos dar nerezervuotos atliekant paketinę užduotį **Registruoti atsargas**), nepriklausomai nuo to, kokia naudojama šios parinkties nuostata.
 
-- **Reikia išjungti skaičiavimą** – nustačius šios parinkties reikšmę **Taip** išrašo registravimo procesas tęsiamas net jei skirtumas tarp išraše nurodytos apskaičiuotos sumos ir operacijos sumos yra didesnis negu mažmeninės prekybos parduotuvių „FastTab“ skirtuke **Išrašas** nurodyta ribinė reikšmė.
+- **Reikia išjungti skaičiavimą** – nustačius šios parinkties reikšmę **Taip** išrašo registravimo procesas tęsiamas net jei skirtumas tarp išraše nurodytos apskaičiuotos sumos ir operacijos sumos yra didesnis negu parduotuvių „FastTab“ skirtuke **Išrašas** nurodyta ribinė reikšmė.
 
-Be to, šie parametrai buvo įdiegti puslapio **„Retail“ parametrai** sparčiojo skirtuko **Paketinis apdorojimas** skirtuke **Registravimas**: 
+Be to, šie parametrai buvo įdiegti „FastTab“ skirtuke **Paketinis apdorojimas** skirtuke **Registravimas** puslapyje **Prekybos parametrai**. 
 
 - **Maksimalus lygiagrečiai registruojamų išrašų skaičius** – šiame lauke apibrėžiamas paketinių užduočių, kurios bus naudojamos registruojant kelis išrašus, skaičius. 
 - **Maksimalus užsakymų apdorojimo išrašui gijų skaičius** – šis laukas rodo maksimalų gijų skaičių, kurį naudoja paketinės užduoties išrašo registravimas, kad būtų galima kurti ir išrašyti vieno išrašo pardavimo užsakymus. Bendras gijų, kurias naudos išrašo registravimo procesas, skaičius bus apskaičiuojamas pagal šio parametro vertę, padaugintą iš vertės **Maksimalus lygiagrečiai registruojamų išrašų skaičius**. Nustačius per didelę šio parametro vertę galima neigiamai paveikti išrašo registravimo proceso efektyvumą.
-- **Maksimalus operacijų eilučių skaičius telkime** – šiame lauke apibrėžiamas operacijų eilučių, kurios bus įtrauktos į vieną suvestinę operaciją prieš sukuriant naują, skaičius. Apibendrintos operacijos kuriamos remiantis skirtingais sumavimo kriterijais, pvz., klientais, darbo data ar finansinėmis dimensijomis. Svarbu pažymėti, kad viena mažmeninės prekybos operacijos eilutė nebus išskaidytą skirtingose suvestinėse operacijose. Tai reiškia, kad gali būti, kad suvestinės operacijos eilučių skaičius yra šiek tiek didesnis arba mažesnis, remiantis tokiais veiksniais, kaip atskirų produktų skaičius.
-- **Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius** – šiame lauke apibrėžiamas gijų, kurios bus naudojamos mažmeninės prekybos operacijoms tikrinti, skaičius. Mažmeninės prekybos operacijų tikrinimas yra būtinas veiksmas, kurį reikia atlikti prieš tai, kai operacijos gali būti traukiamos į išrašus. Be to, puslapio **Mažmeninės prekybos parametrai** skirtuko **Registravimas** „FastTab“ konteineryje **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Jį reikia apibrėžti, net jei organizacija dovanų kortelių nenaudoja.
+- **Maksimalus operacijų eilučių skaičius telkime** – šiame lauke apibrėžiamas operacijų eilučių, kurios bus įtrauktos į vieną suvestinę operaciją prieš sukuriant naują, skaičius. Apibendrintos operacijos kuriamos remiantis skirtingais sumavimo kriterijais, pvz., klientais, darbo data ar finansinėmis dimensijomis. Svarbu pažymėti, kad viena operacijos eilutė nebus išskaidyta skirtingose suvestinėse operacijose. Tai reiškia, kad gali būti, kad suvestinės operacijos eilučių skaičius yra šiek tiek didesnis arba mažesnis, remiantis tokiais veiksniais, kaip atskirų produktų skaičius.
+- **Didžiausias gijų, reikalingų parduotuvės operacijoms tikrinti, skaičius** – šiame lauke apibrėžiamas gijų, kurios bus naudojamos operacijoms tikrinti, skaičius. Operacijų tikrinimas yra būtinas veiksmas, kurį reikia atlikti prieš operacijas traukiant į išrašus. Be to, puslapio **Prekybos parametrai** skirtuko **Registravimas** „FastTab“ skirtuke **Dovanų kortelė** reikia apibrėžti elementą **Dovanų kortelės produktas**. Jį reikia apibrėžti, net jei organizacija dovanų kortelių nenaudoja.
 
 > [!NOTE]
-> Visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Mažmeninės prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
+> Visi su išrašo registravimu susiję nustatymai ir parametrai, kurie nurodyti mažmeninės prekybos parduotuvėse ir puslapyje **Prekybos parametrai** taikomi naudojantis patobulinta išrašo registravimo funkcija.
 
 ## <a name="processing"></a>Vykdymas
 
-Naudojantis meniu elementais **Skaičiuoti išrašų paketą** ir **Registruoti išrašų paketą** gali būti skaičiuojamas ir registruojamas išrašų paketas. Išrašai taip pat gali būti skaičiuojami ir registruojami neautomatiškai – naudojantis taikant patobulintą išrašų registravimo funkciją matomu meniu elementu **Mažmeninės prekybos išrašai**.
+Naudojantis meniu elementais **Skaičiuoti išrašų paketą** ir **Registruoti išrašų paketą** gali būti skaičiuojamas ir registruojamas išrašų paketas. Išrašai taip pat gali būti skaičiuojami ir registruojami neautomatiškai – naudojantis taikant patobulintą išrašų registravimo funkciją matomu meniu elementu **Išrašai**.
 
 Išrašų paketo skaičiavimo ir registravimo procesas ir veiksmai yra tokie patys, kaip ir naudojantis senesne išrašo registravimo funkcija. Tačiau atlikta reikšmingų pagrindinio vidinio išrašų vykdymo patobulinimų. Dėl šių patobulinimų procesas lankstesnis, taip pat geriau matoma informacija apie būsenas ir klaidas. Todėl vartotojai gali pašalinti pagrindinę klaidų priežastį ir tęsti registravimo procesą nesugadindami duomenų, kad vėliau nereikėtų atlikti duomenų taisymų.
 
-Toliau pateikiamuose skyriuose aprašomi kai kurie pagrindiniai vartotojo sąsajoje rodomų mažmeninės prekybos ir užregistruotų išrašų registravimo funkcijos patobulinimai.
+Toliau pateikiamuose skyriuose aprašomi kai kurie pagrindiniai vartotojo sąsajoje rodomų išrašų ir užregistruotų išrašų registravimo funkcijos patobulinimai.
 
 ### <a name="status-details"></a>Būsenos informacija
 
@@ -131,7 +131,7 @@ Sutelktos operacijos skirtuke **Išsami informacija apie pardavimo užsakymą** 
 - **Būsena** – paskutinė sutelktos operacijos būsena.
 - **Sąskaitos faktūros ID** – kai išrašoma sutelktos operacijos pardavimo užsakymo SF, pardavimo sąskaitos faktūros ID. Jei šis laukas tuščias, pardavimo užsakymo sąskaita faktūra užregistruota.
 
-Sutelktos operacijos skirtuke **Išsami informacija apie operaciją** rodomos visos į sutelktą operaciją įtrauktos mažmeninės prekybos operacijos. Sutelktos operacijos sutelktose eilutėse rodomi visi sutelkti mažmeninės prekybos operacijų įrašai. Sutelktose eilutėse taip pat rodoma tokia išsami informacija kaip prekė, variantas, kiekis, kaina, grynoji suma, vienetas ir sandėlis. Iš esmės, kiekviena sutelkta eilutė atitinka vieną pardavimo užsakymo eilutę.
+Sutelktos operacijos skirtuke **Išsami informacija apie operaciją** rodomos visos į sutelktą operaciją įtrauktos operacijos. Sutelktos operacijos sutelktose eilutėse rodomi visi sutelkti operacijų įrašai. Sutelktose eilutėse taip pat rodoma tokia išsami informacija kaip prekė, variantas, kiekis, kaina, grynoji suma, vienetas ir sandėlis. Iš esmės, kiekviena sutelkta eilutė atitinka vieną pardavimo užsakymo eilutę.
 
 Puslapyje **Sutelktos operacijos** naudodamiesi mygtuku **Eksportuoti pardavimo užsakymo XML failą** galite atsisiųsti tam tikros sutelktos operacijos XML failą. Naudodamiesi XML failu galite išspręsti su pardavimo užsakymo kūrimu ir registravimu susijusias problemas. Tiesiog atsisiųskite XML failą, įkelkite jį į bandomąją aplinką ir išspręskite problemą bandomojoje aplinkoje. Užregistruotų išrašų sutelktų operacijų XML failo atsisiuntimo funkcija naudotis negalima.
 
@@ -139,7 +139,7 @@ Sutelktos operacijos rodinyje nurodoma toliau išvardyta nauda.
 
 - Vartotojas gali matyti sutelktas operacijas, kurių nepavyko įvykdyti kuriant pardavimo užsakymą, ir pardavimo užsakymus, kurių nepavyko sukurti išrašant SF.
 - Vartotojas gali matyti, kaip operacijos telkiamos.
-- Vartotojas gali sekti visus patikrinimus, nuo mažmeninės prekybos operacijų, taip pat pardavimo užsakymų iki pardavimo SF. Tikrinimų nebuvo galima sekti naudojantis senesne išrašų registravimo funkcija.
+- Vartotojas gali sekti visus patikrinimus, nuo operacijų, taip pat pardavimo užsakymų iki pardavimo SF. Tikrinimų nebuvo galima sekti naudojantis senesne išrašų registravimo funkcija.
 - Naudojantis sutelktu XML failu lengviau nustatyti problemas kuriant pardavimo užsakymą ir išrašant sąskaitas faktūras.
 
 ### <a name="journal-vouchers"></a>Žurnalo kvitai
@@ -159,11 +159,11 @@ Paspaudus išrašo grupės **Išsami informacija apie vykdymą** mygtuką **Mok�
 Kiti vidiniai vartotojų matomi išrašų registravimo funkcijai atlikti patobulinimai. Štai keletas pavyzdžių:
 
 - Telkimas neapima darbuotojų, terminalo ir pamainų objektų. Kadangi yra mažiau telkimo parametrų, turi būti vykdoma mažiau pardavimo užsakymo eilučių.
-- Mažmeninės prekybos operacijų lentelėse atsirandančių aklaviečių skaičius sumažės sukūrus papildomas išplėstines lenteles ir mažmeninės prekybos operacijų lentelėse vietoje atnaujinimo operacijų atliekant įterpimo operacijas.
+- Operacijų lentelėse atsirandančių aklaviečių skaičius sumažės sukūrus papildomas išplėstines lenteles ir operacijų lentelėse vietoje atnaujinimo operacijų atliekant įterpimo operacijas.
 - Vykdomų paketinių užduočių skaičiui taikomi atitinkami parametrai ir jis ribotas. Todėl šis skaičius gali būti specialiai priderinamas pagal kliento aplinką. Naudojantis senesne išrašų registravimo funkcija vienu metu buvo sukuriamas neribotas paketinių užduočių skaičius. Rezultatai – nevaldomos apkrovos, pridėtinės išlaidos ir silpnosios vietos paketinio apdorojimo serveryje.
 - Išrašai efektyviai išrikiuojami į eilę apdorojimui, pirmenybę suteikiant tiems išrašams, kuriuose operacijų skaičius didžiausias.
 - Paketiniai procesai, pavyzdžiui, **Skaičiuoti išrašų paketą** ir **Registruoti išrašų paketą** vykdomi tik įjungus paketinį režimą. Naudodamiesi senesne išrašų registravimo funkcija vartotojai galėjo pasirinkti, kad šie paketiniai procesai būtų vykdomi interaktyviuoju režimu, t. y. kaip vienos gijos operacija, priešingai negu kelių gijų paketiniai procesai.
-- Naudojantis senesne išrašų registravimo funkcija dėl bet kokios paketinės užduoties klaidos visa paketinė užduotis būdavo klaidos būsenos. Naudojantis patobulinta funkcija, jei pavyksta sėkmingai atlikti kitas paketines užduotis, dėl paketinės užduoties klaidų nerodoma, kad paketinė užduotis yra klaidos būsenos. Turėtumėte įvertinti paketinio vykdymo, atliekamo naudojantis puslapiu **Mažmeninės prekybos išrašai**, kuriame galite matyti visus dėl klaidų neužregistruotus išrašus, registravimo būseną.
+- Naudojantis senesne išrašų registravimo funkcija dėl bet kokios paketinės užduoties klaidos visa paketinė užduotis būdavo klaidos būsenos. Naudojantis patobulinta funkcija, jei pavyksta sėkmingai atlikti kitas paketines užduotis, dėl paketinės užduoties klaidų nerodoma, kad paketinė užduotis yra klaidos būsenos. Turėtumėte įvertinti paketinio vykdymo, atliekamo naudojantis puslapiu **Išrašai**, kuriame galite matyti visus dėl klaidų neužregistruotus išrašus, registravimo būseną.
 - Naudojantis senesne išrašų registravimo funkcija po pirmo išrašo klaidos atvejo nepavyksta užregistruoti viso paketo. Likę išrašai nevykdomi. Naudojantis patobulinta funkcija ir atliekant paketinį vykdymą vykdomi visi išrašai, net jei kai kurių išrašų užregistruoti nepavyksta. Vienas privalumas – vartotojai mato tikslų išrašų, kuriuose esama klaidų, skaičių. Todėl vartotojams nėra būtina nuolat taisyti klaidas ir tol vykdyti išrašo registravimo procesą, kol užregistruojami visi išrašai.
 
 ## <a name="general-guidance-about-the-statement-posting-process"></a>Bendrieji nurodymai dėl išrašų registravimo proceso
@@ -172,5 +172,5 @@ Kiti vidiniai vartotojų matomi išrašų registravimo funkcijai atlikti patobul
 - Norint, kad registravimas būtų nuoseklus, rekomenduojame įjungti neigiamas faktines prekių modelio grupės atsargas. Kai kuriais atvejais gali nepavykti užregistruoti neigiamų išrašų nenurodžius neigiamų faktinių atsargų. Pavyzdžiui, teoriškai, jei atsargose yra tik viena prekė ir buvo vykdomos tos prekės pardavimo ir grąžinimo operacijos, operaciją turėtų pavykti užregistruoti net ir tuo atveju, jei neigiamos atsargos neįjungtos. Tačiau, kadangi vykstant išrašo registravimo procesui į vieną kliento užsakymą įtraukiama ir pardavimo operacija, ir grąžinimo operacija, pardavimo eilutė nebūtinai bus užregistruota pirma, o po jos – grąžinimo eilutė. Todėl gali įvykti klaidų. Jei šioje situacijoje įjungiamos neigiamos atsargos, tai neturi neigiamos įtakos registruojant operaciją ir sistema atsargas nurodys teisingai.
 - Skaičiuojant ir registruojant išrašus rekomenduojame naudotis telkimo funkcija. Taip pat rekomenduojame naudoti toliau nurodytas kai kurių telkimo parametrų nuostatas.
 
-    - Eikite į **Mažmeninė prekyba** \> **„Headquarters“ sąranka** \> **Parametrai** \> **Mažmeninės prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuko **Atsargų atnaujinimas** lauke **Detalumo lygis** pasirinkite **Suvestinė**.
-    - Eikite į **Mažmeninė prekyba** \> **„Headquarters“ sąranka** \> **Parametrai** \> **Mažmeninės prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuke **Telkimas** nustatykite parinkties **Kvito operacijos** reikšmę **Taip**.
+    - Eikite į **Mažmeninė prekyba ir prekyba** \> **Būstinės sąranka** \> **Parametrai** \> **Prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuko **Atsargų atnaujinimas** lauke **Detalumo lygis** pasirinkite **Suvestinė**.
+    - Eikite į **Mažmeninė prekyba ir prekyba** \> **Būstinės sąranka** \> **Parametrai** \> **Prekybos parametrai**. Po to skirtuko **Registravimas** „FastTab“ skirtuke **Telkimas** nustatykite parinkties **Kvito operacijos** reikšmę **Taip**.

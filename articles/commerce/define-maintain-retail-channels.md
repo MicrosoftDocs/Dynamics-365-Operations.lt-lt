@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 63639d69af90c6aa37bbf7af7868bca71942063f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0fbca2c9178cd372653287afdf72deaf75442604
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023373"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057919"
 ---
 # <a name="define-and-maintain-retail-channels"></a>Mažmeninės prekybos kanalų nustatymas ir tvarkymas
 
@@ -47,9 +47,9 @@ Prieš nustatydami parduotuvę, turite atlikti tolesnes užduotis.
 3. Nustatykite parduotuvių, parduotuvių išrašų ir išrašų kvitų numeracijas.
 4. Konfigūruokite „Commerce“ parametrus.
 5. Nustatykite parduotuvėje naudojamus mokėjimo būdus.
-6. Norėdami kredito kortelių operacijas apdoroti mažmeninės prekybos POS kasos aparatuose, taip pat galite nustatyti mokėjimo paslaugas.
+6. Norėdami kredito kortelių operacijas apdoroti POS kasos aparatuose, taip pat galite nustatyti mokėjimo paslaugas.
 7. Nustatykite PVM grupes.
-8. Nustatykite mažmeninės prekybos produktus. Vykdant šią užduotį, taip pat nustatomos produktų hierarchijos, produktų variantai ir produktų asortimentai.
+8. Nustatykite produktus. Vykdant šią užduotį, taip pat nustatomos produktų hierarchijos, produktų variantai ir produktų asortimentai.
 9. Nustatykite produktų kainų grupes.
 10. Nustatykite produktų kainodarą. Vykdant šią užduotį, taip pat nustatomi kainos koregavimai, nuolaidos ir nuolaidų laikotarpiai.
 11. Nustatykite darbuotojus.
@@ -87,5 +87,5 @@ Atlikę būtinas užduotis, atlikite toliau pateikiamas užduotis, norėdami nus
 „Commerce“ naudoja organizacijos hierarchijas kanalams struktūrizuoti. Organizacijos hierarchijos nurodo ryšius tarp organizacijų, kurios sudaro jūsų verslą. Kai nustatote parduotuves, galite įtraukti jas į organizacijos hierarchiją. Tada parduotuvės bendrina duomenis, kurie naudojami asortimentams, papildymui ir ataskaitoms.
 
 > [!NOTE]
-> Norint naudoti „Retail“ pardavimo funkcijas, turi būti įgalintas konfigūracijos raktas **Kelios siuntimo vietos**. Šį konfigūracijos raktą galima rasti prie **prekybos konfigūracijos** raktų (**Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūracija**). Tai būtina dėl „Retail“ funkcijų, kurios atlieka įvairius tikrinimus pagal pristatymo adresą, sukonfigūruotą pardavimo užsakymo eilutės lygiu.
+> Norint naudoti „Commerce“ pardavimo funkcijas, turi būti įgalintas konfigūracijos raktas **Kelios siuntimo vietos**. Šį konfigūracijos raktą galima rasti prie **prekybos konfigūracijos** raktų (**Sistemos administravimas** \> **Sąranka** \> **Licencijos konfigūracija**). Tai būtina dėl įvairių tikrinimų pagal pristatymo adresą, sukonfigūruotų pardavimo užsakymo eilutės lygiu.
 

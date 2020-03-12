@@ -1,6 +1,6 @@
 ---
-title: Skambučių centro kanalų kūrimas ir kanalų atributų nustatymas
-description: Ši procedūra padeda kurti naują mažmenos kanalą ir apibrėžti kanalo atributus.
+title: Skambučių centro kanalų kūrimas ir kanalo atributų nustatymas
+description: Ši procedūra padeda kurti naują kanalą ir apibrėžti kanalo atributus.
 author: mugunthanm
 manager: AnnBe
 ms.date: 05/22/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4b6db1bfdaf17cd857a0a08515f1e0413994bd6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 62075c01ad7e2a4c393e9658fa67f8b536654aec
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023411"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057179"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Skambučių centro kanalų kūrimas ir kanalo atributų nustatymas
 

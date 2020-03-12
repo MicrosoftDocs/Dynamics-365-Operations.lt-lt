@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef7d81852a0bbb84fd8f37cd89555766cc47f5f8
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 92150bb23e76f82907e0f3e8f0738b25801958bf
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915860"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041568"
 ---
 # <a name="ROUNDDOWN">ROUNDDOWN ER funkcija</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2915860"
 
 ## <a name="syntax"></a>Sintaksė
 
-```
+```vb
 ROUNDDOWN (number, decimals)
 ```
 
@@ -47,7 +47,7 @@ Skaitinė reikšmė, kurią reikia apvalinti su trūkumu.
 
 Skaitinė reikšmė, nurodanti skaičių po kablelio.
 
-## <a name="return-values"></a>Grįžimo vertės
+## <a name="return-values"></a>Grįžties vertės
 
 *Tikrasis*
 

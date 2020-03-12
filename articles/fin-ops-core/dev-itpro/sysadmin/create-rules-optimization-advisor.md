@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 27066cd860d78743d5ae7c851876eb62fe019245
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e14949b871534868c42d2b26a116e10ff9f05179
+ms.sourcegitcommit: 8ff2413b6cb504d2b36fce2bb50441b2e690330e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180995"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3082001"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Optimizavimo patariamojo įrankio taisyklių kūrimas
 
@@ -36,7 +36,7 @@ ms.locfileid: "2180995"
 
 Norėdami sukurti naują **optimizavimo patariamojo įrankio** taisyklę, įtraukite naują klasę, išplečiančią abstrakčią klasę **SelfHealingRule**, įdiegiančią **IDiagnosticsRule** sąsają ir kurią įformina atributas **DiagnosticRule**. Klasėje taip pat turi būti metodas, kurį įformina atributas **DiagnosticsRuleSubscription**. Paprastai tai daroma naudojant metodą **opportunityTitle**, kuris bus aptartas vėliau. Šią naująją klasę galima įtraukti į pasirinktinį modelį su priklausomybe modelyje **SelfHealingRules**. Tolesniame pavyzdyje įdiegiama taisyklė vadinama **RFQTitleSelfHealingRule**.
 
-```
+```xpp
 [DiagnosticsRule] 
 public final class RFQTitleSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule 
 { 
@@ -46,7 +46,7 @@ public final class RFQTitleSelfHealingRule extends SelfHealingRule implements ID
 
 Abstrakčioje klasėje **SelfHealingRule** yra abstrakčių metodų, kuriuos reikia įdiegti paveldinčiose klasėse. Pagrindas yra metodas **įvertinti**, kuris pateikia taisyklės nustatytų galimybių sąrašą. Galimybės gali būti taikomos vienam juridiniam subjektui arba visai sistemai.
 
-```
+```xpp
 protected List evaluate() 
 { 
     List results = new List(Types::Record); 
@@ -82,7 +82,7 @@ Galimybės taip pat gali būti taikomos visoje įmonėje. Tokiu atveju įmonių 
 
 Tolesniame kode rodomas metodas **findRFQCasesWithEmptyTitle**, pateikiantis RFQ atvejų tuščiais pavadinimais ID.
 
-```
+```xpp
 private container findRFQCasesWithEmptyTitle() 
 { 
     container result; 
@@ -115,7 +115,7 @@ Pavadinimas, kurį pateikia **opportunityTitle**, rodomas darbo srities **Optimi
 
 Toliau pateikiamas diegimo pavyzdys. Kad būtų paprasčiau, naudojamos neapdorotos eilutės, tačiau, norint diegti tinkamai, reikia naudoti žymas. 
 
-```
+```xpp
 [DiagnosticsRuleSubscription(DiagnosticsArea::SCM, 
                              'Assign titles to Request for Quotation cases', 
                              DiagnosticsRunFrequency::Daily,  
@@ -128,7 +128,7 @@ public str opportunityTitle()
 
 Aprašas, kurį pateikia **opportunityDetails**, rodomas šoninėje srityje, kurioje apie galimybę rodoma daugiau informacijos. Su juo galima naudoti argumentą **SelfHealingOpportunity**, kuris yra laukas **Duomenys** ir kurį naudojant apie galimybę galima pateikti daugiau informacijos. Pavyzdyje metodas pateikia RFQ atvejų tuščiu pavadinimu ID. 
 
-```
+```xpp
 public str opportunityDetails(SelfHealingOpportunity _opportunity) 
 { 
     str details = ''; 
@@ -153,7 +153,7 @@ Du likę įgyvendinti abstraktūs metodai yra **provideHealingAction** ir **secu
 
 Jei nurodomas atkūrimo veiksmas, **provideHealingAction** pateikia true, kitu atveju pateikiama false. Jei pateikiama true, turi būti įdiegtas metodas **performAction**, kitaip bus pateikta klaida. Su metodu **performAction** galima naudoti argumentą **SelfHealingOpportunity**, kuriame su veiksmu galima naudoti duomenis. Pavyzdyje veiksmas atidaro **PurchRFQCaseTableListPage**, kad būtų galima koreguoti rankiniu būdu. 
 
-```
+```xpp
 public boolean providesHealingAction() 
 { 
     return true; 
@@ -172,7 +172,7 @@ Gali būti įmanoma naudojant galimybės duomenis imtis automatinių veiksmų �
 > [!NOTE]
 > Meniu elementas turi būti veiksmų meniu elementas, kad sauga veiktų tinkamai. Kiti meniu elementų tipai, pvz., **Rodymo meniu elementai** veiks netinkamai.
 
-```
+```xpp
 public MenuName securityMenuItem() 
 { 
     return menuItemActionStr(PurchRFQCaseTitleAction); 
@@ -181,7 +181,7 @@ public MenuName securityMenuItem()
 
 Sukompiliavę taisyklę, vykdykite tolesnę užduotį, kad ji būtų rodoma vartotojo sąsajoje (UI).
 
-```
+```xpp
 class ScanNewRulesJob 
 {         
     public static void main(Args _args) 
@@ -197,7 +197,7 @@ Taisyklė bus rodoma formoje **Diagnostikos tikrinimo taisyklė**, kurią galima
 
 Toliau pateiktas pavyzdys yra kodo fragmentas su taisyklės griaučiais, apimančiais visus reikiamus metodus ir atributus. Tai jums padės pradėti rašyti naujas taisykles.Pavyzdyje pateiktos etiketės ir veiksmų meniu elementai naudojami tik demonstraciniais tikslais.
 
-```
+```xpp
 [DiagnosticsRuleAttribute]
 public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
 {
