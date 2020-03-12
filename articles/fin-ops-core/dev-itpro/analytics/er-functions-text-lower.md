@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b016feb0c907ef384eae91840791c357d61cf634
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 6784384bac31d8c7cdc9c6f71b7dbab79c15a934
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916826"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041106"
 ---
-# <span data-ttu-id="91ea6-103"><a name="LOWER">LOWER ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="91ea6-103"><a name="LOWER">LOWER ER function</a></span></span>
+# <span data-ttu-id="23bdb-103"><a name="LOWER">LOWER ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="23bdb-103"><a name="LOWER">LOWER ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="91ea6-104">`LOWER` funkcija pateikia nurodytą teksto eilutę kaip *Eilutės* reikšmę, kai ji buvo konvertuota į mažąsias raides.</span><span class="sxs-lookup"><span data-stu-id="91ea6-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
+<span data-ttu-id="23bdb-104">`LOWER` funkcija pateikia nurodytą teksto eilutę kaip *Eilutės* reikšmę, kai ji buvo konvertuota į mažąsias raides.</span><span class="sxs-lookup"><span data-stu-id="23bdb-104">The `LOWER` function returns the specified text string as a *String* value after it has been converted to lowercase letters.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="91ea6-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="91ea6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="23bdb-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="23bdb-105">Syntax</span></span>
 
-```
+```vb
 LOWER (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="91ea6-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="91ea6-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="23bdb-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="23bdb-106">Arguments</span></span>
 
-<span data-ttu-id="91ea6-107">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="91ea6-107">`text`: *String*</span></span>
+<span data-ttu-id="23bdb-107">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="23bdb-107">`text`: *String*</span></span>
 
-<span data-ttu-id="91ea6-108">*Eilutės* reikšmė, nurodanti tekstą.</span><span class="sxs-lookup"><span data-stu-id="91ea6-108">A *String* value that specifies the text.</span></span>
+<span data-ttu-id="23bdb-108">*Eilutės* reikšmė, nurodanti tekstą.</span><span class="sxs-lookup"><span data-stu-id="23bdb-108">A *String* value that specifies the text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="91ea6-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="91ea6-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="23bdb-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="23bdb-109">Return values</span></span>
 
-<span data-ttu-id="91ea6-110">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="91ea6-110">*String*</span></span>
+<span data-ttu-id="23bdb-110">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="23bdb-110">*String*</span></span>
 
-<span data-ttu-id="91ea6-111">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="91ea6-111">The resulting text value.</span></span>
+<span data-ttu-id="23bdb-111">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="23bdb-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="91ea6-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="91ea6-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="23bdb-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="23bdb-112">Example</span></span>
 
-<span data-ttu-id="91ea6-113">`LOWER ("Sample")` grąžina **„pavyzdys“**.</span><span class="sxs-lookup"><span data-stu-id="91ea6-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
+<span data-ttu-id="23bdb-113">`LOWER ("Sample")` grąžina **„pavyzdys“**.</span><span class="sxs-lookup"><span data-stu-id="23bdb-113">`LOWER ("Sample")` returns **"sample"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="91ea6-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="91ea6-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="23bdb-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="23bdb-114">Additional resources</span></span>
 
-[<span data-ttu-id="91ea6-115">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="91ea6-115">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="23bdb-115">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="23bdb-115">Text functions</span></span>](er-functions-category-text.md)

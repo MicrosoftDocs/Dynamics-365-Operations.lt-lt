@@ -18,49 +18,49 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d3ff87a59632d58a7c34ef96f856b38f005651
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 04c7b32e2a9578f8864570a552817ec3ce28fa43
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915768"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041184"
 ---
-# <span data-ttu-id="45f82-103"><a name="CONCATENATE">CONCATENATE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="45f82-103"><a name="CONCATENATE">CONCATENATE ER function</a></span></span>
+# <span data-ttu-id="8a4bc-103"><a name="CONCATENATE">CONCATENATE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="8a4bc-103"><a name="CONCATENATE">CONCATENATE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="45f82-104">`CONCATENATE` funkcija grąžina visas nurodytas teksto eilutes kaip *Eilutės* reikšmę, sujungus jas į vieną eilutę.</span><span class="sxs-lookup"><span data-stu-id="45f82-104">The `CONCATENATE` function returns all the specified text strings as a *String* value after they have been joined into one string.</span></span>
+<span data-ttu-id="8a4bc-104">`CONCATENATE` funkcija grąžina visas nurodytas teksto eilutes kaip *Eilutės* reikšmę, sujungus jas į vieną eilutę.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-104">The `CONCATENATE` function returns all the specified text strings as a *String* value after they have been joined into one string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="45f82-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="45f82-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8a4bc-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="8a4bc-105">Syntax</span></span>
 
-```
+```vb
 CONCATENATE (text 1[, text 2, …, text N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="45f82-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="45f82-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="8a4bc-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="8a4bc-106">Arguments</span></span>
 
-<span data-ttu-id="45f82-107">`text 1`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="45f82-107">`text 1`: *String*</span></span>
+<span data-ttu-id="8a4bc-107">`text 1`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8a4bc-107">`text 1`: *String*</span></span>
 
-<span data-ttu-id="45f82-108">Nuoroda į duomenų šaltinį, kuris yra *Eilutės* duomenų tipas.</span><span class="sxs-lookup"><span data-stu-id="45f82-108">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="45f82-109">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="45f82-109">This argument is required.</span></span>
+<span data-ttu-id="8a4bc-108">Nuoroda į duomenų šaltinį, kuris yra *Eilutės* duomenų tipas.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-108">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="8a4bc-109">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-109">This argument is required.</span></span>
 
-<span data-ttu-id="45f82-110">`text N`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="45f82-110">`text N`: *String*</span></span>
+<span data-ttu-id="8a4bc-110">`text N`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8a4bc-110">`text N`: *String*</span></span>
 
-<span data-ttu-id="45f82-111">Nuoroda į duomenų šaltinį, kuris yra *Eilutės* duomenų tipas.</span><span class="sxs-lookup"><span data-stu-id="45f82-111">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="45f82-112">Šie papildomi argumentai yra pasirinktiniai.</span><span class="sxs-lookup"><span data-stu-id="45f82-112">These additional arguments are optional.</span></span>
+<span data-ttu-id="8a4bc-111">Nuoroda į duomenų šaltinį, kuris yra *Eilutės* duomenų tipas.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-111">A reference to a data source of the *String* data type.</span></span> <span data-ttu-id="8a4bc-112">Šie papildomi argumentai yra pasirinktiniai.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-112">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="45f82-113">Grįžimo vertės</span><span class="sxs-lookup"><span data-stu-id="45f82-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8a4bc-113">Grįžimo vertės</span><span class="sxs-lookup"><span data-stu-id="8a4bc-113">Return values</span></span>
 
-<span data-ttu-id="45f82-114">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="45f82-114">*String*</span></span>
+<span data-ttu-id="8a4bc-114">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8a4bc-114">*String*</span></span>
 
-<span data-ttu-id="45f82-115">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="45f82-115">The resulting text value.</span></span>
+<span data-ttu-id="8a4bc-115">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-115">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="45f82-116">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="45f82-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8a4bc-116">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="8a4bc-116">Example</span></span>
 
-<span data-ttu-id="45f82-117">`CONCATENATE ("abc", "def")`grąžina **„abcdef“**.</span><span class="sxs-lookup"><span data-stu-id="45f82-117">`CONCATENATE ("abc", "def")` returns **"abcdef"**.</span></span>
+<span data-ttu-id="8a4bc-117">`CONCATENATE ("abc", "def")`grąžina **„abcdef“**.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-117">`CONCATENATE ("abc", "def")` returns **"abcdef"**.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="45f82-118">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="45f82-118">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="8a4bc-118">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="8a4bc-118">Usage notes</span></span>
 
-<span data-ttu-id="45f82-119">Išraiška `"abc" & "def"` taip pat grąžina **„abcdef“**.</span><span class="sxs-lookup"><span data-stu-id="45f82-119">The expression `"abc" & "def"` also returns **"abcdef"**.</span></span>
+<span data-ttu-id="8a4bc-119">Išraiška `"abc" & "def"` taip pat grąžina **„abcdef“**.</span><span class="sxs-lookup"><span data-stu-id="8a4bc-119">The expression `"abc" & "def"` also returns **"abcdef"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="45f82-120">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="45f82-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="8a4bc-120">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="8a4bc-120">Additional resources</span></span>
 
-[<span data-ttu-id="45f82-121">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="45f82-121">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="8a4bc-121">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="8a4bc-121">Text functions</span></span>](er-functions-category-text.md)

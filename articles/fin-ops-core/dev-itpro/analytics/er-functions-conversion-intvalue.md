@@ -18,59 +18,59 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b279de39cf91c3919145735518034fc60cd3341
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 5e06236bf1d158a4cf579b8b89cc0a5f7d815c38
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917723"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042661"
 ---
-# <span data-ttu-id="6f654-103"><a name="INTVALUE">ER INTVALUE funkcija</a></span><span class="sxs-lookup"><span data-stu-id="6f654-103"><a name="INTVALUE">INTVALUE ER function</a></span></span>
+# <span data-ttu-id="33ca9-103"><a name="INTVALUE">ER INTVALUE funkcija</a></span><span class="sxs-lookup"><span data-stu-id="33ca9-103"><a name="INTVALUE">INTVALUE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6f654-104">`INTVALUE` funkcija pateikia *Int* reikšmę, kuri nurodo nurodytą eilutę.</span><span class="sxs-lookup"><span data-stu-id="6f654-104">The `INTVALUE` function returns an *Int* value that represents the specified string.</span></span>
+<span data-ttu-id="33ca9-104">`INTVALUE` funkcija pateikia *Int* reikšmę, kuri nurodo nurodytą eilutę.</span><span class="sxs-lookup"><span data-stu-id="33ca9-104">The `INTVALUE` function returns an *Int* value that represents the specified string.</span></span>
 
-## <a name="syntax-1"></a><span data-ttu-id="6f654-105">1-oji sintaksė</span><span class="sxs-lookup"><span data-stu-id="6f654-105">Syntax 1</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="33ca9-105">1-oji sintaksė</span><span class="sxs-lookup"><span data-stu-id="33ca9-105">Syntax 1</span></span>
 
-```
+```vb
 INTVALUE (text)
 ```
 
-## <a name="syntax-2"></a><span data-ttu-id="6f654-106">2-oji sintaksė</span><span class="sxs-lookup"><span data-stu-id="6f654-106">Syntax 2</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="33ca9-106">2-oji sintaksė</span><span class="sxs-lookup"><span data-stu-id="33ca9-106">Syntax 2</span></span>
 
-```
+```vb
 INTVALUE (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="6f654-107">Argumentai</span><span class="sxs-lookup"><span data-stu-id="6f654-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="33ca9-107">Argumentai</span><span class="sxs-lookup"><span data-stu-id="33ca9-107">Arguments</span></span>
 
-<span data-ttu-id="6f654-108">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="6f654-108">`text`: *String*</span></span>
+<span data-ttu-id="33ca9-108">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="33ca9-108">`text`: *String*</span></span>
 
-<span data-ttu-id="6f654-109">Teksto reikšmė, kurią reikia konvertuoti į *Int* skaičių.</span><span class="sxs-lookup"><span data-stu-id="6f654-109">A text value that must be converted to an *Int* number.</span></span>
+<span data-ttu-id="33ca9-109">Teksto reikšmė, kurią reikia konvertuoti į *Int* skaičių.</span><span class="sxs-lookup"><span data-stu-id="33ca9-109">A text value that must be converted to an *Int* number.</span></span>
 
-<span data-ttu-id="6f654-110">`number`: *Realusis* arba *Sveikasis*</span><span class="sxs-lookup"><span data-stu-id="6f654-110">`number`: *Real* or *Integer*</span></span>
+<span data-ttu-id="33ca9-110">`number`: *Realusis* arba *Sveikasis*</span><span class="sxs-lookup"><span data-stu-id="33ca9-110">`number`: *Real* or *Integer*</span></span>
 
-<span data-ttu-id="6f654-111">Skatinė tipo *Realusis skaičius* arba *Sveikasis skaičius* reikšmė, kurią reikia konvertuoti į *Int* skaičių.</span><span class="sxs-lookup"><span data-stu-id="6f654-111">A numeric *Real* or *Integer* value that must be converted to an *Int* number.</span></span>
+<span data-ttu-id="33ca9-111">Skatinė tipo *Realusis skaičius* arba *Sveikasis skaičius* reikšmė, kurią reikia konvertuoti į *Int* skaičių.</span><span class="sxs-lookup"><span data-stu-id="33ca9-111">A numeric *Real* or *Integer* value that must be converted to an *Int* number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6f654-112">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="6f654-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="33ca9-112">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="33ca9-112">Return values</span></span>
 
-<span data-ttu-id="6f654-113">*Int*</span><span class="sxs-lookup"><span data-stu-id="6f654-113">*Int*</span></span>
+<span data-ttu-id="33ca9-113">*Int*</span><span class="sxs-lookup"><span data-stu-id="33ca9-113">*Int*</span></span>
 
-<span data-ttu-id="6f654-114">Gaunama skaitinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="6f654-114">The resulting numeric value.</span></span>
+<span data-ttu-id="33ca9-114">Gaunama skaitinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="33ca9-114">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="6f654-115">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="6f654-115">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="33ca9-115">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="33ca9-115">Usage notes</span></span>
 
-<span data-ttu-id="6f654-116">Visi skaičiai po kablelio pašalinami.</span><span class="sxs-lookup"><span data-stu-id="6f654-116">Any decimal places are truncated.</span></span>
+<span data-ttu-id="33ca9-116">Visi skaičiai po kablelio pašalinami.</span><span class="sxs-lookup"><span data-stu-id="33ca9-116">Any decimal places are truncated.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="6f654-117">1 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="6f654-117">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="33ca9-117">1 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="33ca9-117">Example 1</span></span>
 
-<span data-ttu-id="6f654-118">`INTVALUE ("100.77")` pateikia *Int* reikšmę **100**.</span><span class="sxs-lookup"><span data-stu-id="6f654-118">`INTVALUE ("100.77")` returns the *Int* value **100**.</span></span>
+<span data-ttu-id="33ca9-118">`INTVALUE ("100.77")` pateikia *Int* reikšmę **100**.</span><span class="sxs-lookup"><span data-stu-id="33ca9-118">`INTVALUE ("100.77")` returns the *Int* value **100**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="6f654-119">2 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="6f654-119">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="33ca9-119">2 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="33ca9-119">Example 2</span></span>
 
-<span data-ttu-id="6f654-120">`INTVALUE (-100.77)` pateikia *Int* reikšmę **–100**.</span><span class="sxs-lookup"><span data-stu-id="6f654-120">`INTVALUE (-100.77)` returns the *Int* value **-100**.</span></span>
+<span data-ttu-id="33ca9-120">`INTVALUE (-100.77)` pateikia *Int* reikšmę **–100**.</span><span class="sxs-lookup"><span data-stu-id="33ca9-120">`INTVALUE (-100.77)` returns the *Int* value **-100**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6f654-121">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="6f654-121">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="33ca9-121">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="33ca9-121">Additional resources</span></span>
 
-[<span data-ttu-id="6f654-122">Tipų konvertavimo funkcijos</span><span class="sxs-lookup"><span data-stu-id="6f654-122">Type conversion functions</span></span>](er-functions-category-type-conversion.md)
+[<span data-ttu-id="33ca9-122">Tipų konvertavimo funkcijos</span><span class="sxs-lookup"><span data-stu-id="33ca9-122">Type conversion functions</span></span>](er-functions-category-type-conversion.md)

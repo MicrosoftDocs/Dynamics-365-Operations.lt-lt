@@ -18,69 +18,69 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38b51a4d8bf8dc997bae2ae9206d8e71ca48dec6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 3bba9cd190db61fda3636cc3c8093030f886b9bd
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916067"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3041773"
 ---
-# <span data-ttu-id="0787b-103"><a name="CASE">CASE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="0787b-103"><a name="CASE">CASE ER function</a></span></span>
+# <span data-ttu-id="0cf2e-103"><a name="CASE">CASE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="0cf2e-103"><a name="CASE">CASE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0787b-104">`CASE` funkcija įvertina nurodytos išraiškos reikšmę pagal nurodytas alternatyvias parinktis ir grąžina pirmosios parinkties, kuri yra lygi nurodytos išraiškos vertei, rezultatą.</span><span class="sxs-lookup"><span data-stu-id="0787b-104">The `CASE` function evaluates the value of the specified expression against the specified alternative options and returns the result of the first option that equals the value of the specified expression.</span></span> <span data-ttu-id="0787b-105">Kitu atveju ji grąžina pasirenkamą numatytąjį rezultatą, jei numatytasis rezultatas yra nurodytas kaip paskutinis iškviestos funkcijos argumentas, prieš kurį nėra parinkties.</span><span class="sxs-lookup"><span data-stu-id="0787b-105">Otherwise, it returns the optional default result, if a default result is specified as the last argument of the called function that isn't preceded by an option.</span></span> <span data-ttu-id="0787b-106">Grąžinama reikšmė gali būti bet kurių palaikomo duomenų tipų reikšmė.</span><span class="sxs-lookup"><span data-stu-id="0787b-106">The value that is returned can be a value of any of the supported data types.</span></span>
+<span data-ttu-id="0cf2e-104">`CASE` funkcija įvertina nurodytos išraiškos reikšmę pagal nurodytas alternatyvias parinktis ir grąžina pirmosios parinkties, kuri yra lygi nurodytos išraiškos vertei, rezultatą.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-104">The `CASE` function evaluates the value of the specified expression against the specified alternative options and returns the result of the first option that equals the value of the specified expression.</span></span> <span data-ttu-id="0cf2e-105">Kitu atveju ji grąžina pasirenkamą numatytąjį rezultatą, jei numatytasis rezultatas yra nurodytas kaip paskutinis iškviestos funkcijos argumentas, prieš kurį nėra parinkties.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-105">Otherwise, it returns the optional default result, if a default result is specified as the last argument of the called function that isn't preceded by an option.</span></span> <span data-ttu-id="0cf2e-106">Grąžinama reikšmė gali būti bet kurių palaikomo duomenų tipų reikšmė.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-106">The value that is returned can be a value of any of the supported data types.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="0787b-107">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="0787b-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0cf2e-107">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="0cf2e-107">Syntax</span></span>
 
-```
+```vb
 CASE (expression, option 1, result 1[, option 2, result 2, …, option N, result N, default result])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="0787b-108">Argumentai</span><span class="sxs-lookup"><span data-stu-id="0787b-108">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="0cf2e-108">Argumentai</span><span class="sxs-lookup"><span data-stu-id="0cf2e-108">Arguments</span></span>
 
-<span data-ttu-id="0787b-109">`expression`: *Primityvusis duomenų tipas* (Bulio logikos, skaitinis arba tekstinis)</span><span class="sxs-lookup"><span data-stu-id="0787b-109">`expression`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="0cf2e-109">`expression`: *Primityvusis duomenų tipas* (Bulio logikos, skaitinis arba tekstinis)</span><span class="sxs-lookup"><span data-stu-id="0cf2e-109">`expression`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="0787b-110">Tinkama išraiška, grąžinanti primityviojo duomenų tipo reikšmę.</span><span class="sxs-lookup"><span data-stu-id="0787b-110">A valid expression that returns a value of the primitive data type.</span></span>
+<span data-ttu-id="0cf2e-110">Tinkama išraiška, grąžinanti primityviojo duomenų tipo reikšmę.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-110">A valid expression that returns a value of the primitive data type.</span></span>
 
-<span data-ttu-id="0787b-111">`option 1`: *Primityvusis duomenų tipas* (Bulio logikos, skaitinis arba tekstinis)</span><span class="sxs-lookup"><span data-stu-id="0787b-111">`option 1`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="0cf2e-111">`option 1`: *Primityvusis duomenų tipas* (Bulio logikos, skaitinis arba tekstinis)</span><span class="sxs-lookup"><span data-stu-id="0cf2e-111">`option 1`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="0787b-112">Tinkama išraiška, kuri grąžina to paties primityviojo duomenų tipo reikšmę kaip iškvietos `expression` funkcijos argumentą.</span><span class="sxs-lookup"><span data-stu-id="0787b-112">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="0787b-113">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="0787b-113">This argument is required.</span></span>
+<span data-ttu-id="0cf2e-112">Tinkama išraiška, kuri grąžina to paties primityviojo duomenų tipo reikšmę kaip iškvietos `expression` funkcijos argumentą.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-112">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="0cf2e-113">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-113">This argument is required.</span></span>
 
-<span data-ttu-id="0787b-114">`result 1`: *Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0787b-114">`result 1`: *Any of the supported data types*</span></span>
+<span data-ttu-id="0cf2e-114">`result 1`: *Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0cf2e-114">`result 1`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="0787b-115">Grąžintas rezultatas, atitinkantis ankstesnę parinktį.</span><span class="sxs-lookup"><span data-stu-id="0787b-115">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="0787b-116">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="0787b-116">This argument is required.</span></span>
+<span data-ttu-id="0cf2e-115">Grąžintas rezultatas, atitinkantis ankstesnę parinktį.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-115">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="0cf2e-116">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-116">This argument is required.</span></span>
 
-<span data-ttu-id="0787b-117">`option N`: *Primityvusis duomenų tipas* (Bulio logikos, skaitinis arba tekstinis)</span><span class="sxs-lookup"><span data-stu-id="0787b-117">`option N`: *Primitive data type* (Boolean, numeric, or text)</span></span>
+<span data-ttu-id="0cf2e-117">`option N`: *Primityvusis duomenų tipas* (Bulio logikos, skaitinis arba tekstinis)</span><span class="sxs-lookup"><span data-stu-id="0cf2e-117">`option N`: *Primitive data type* (Boolean, numeric, or text)</span></span>
 
-<span data-ttu-id="0787b-118">Tinkama išraiška, kuri grąžina to paties primityviojo duomenų tipo reikšmę kaip iškvietos `expression` funkcijos argumentą.</span><span class="sxs-lookup"><span data-stu-id="0787b-118">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="0787b-119">Šis argumentas yra pasirinktinis.</span><span class="sxs-lookup"><span data-stu-id="0787b-119">This argument is optional.</span></span>
+<span data-ttu-id="0cf2e-118">Tinkama išraiška, kuri grąžina to paties primityviojo duomenų tipo reikšmę kaip iškvietos `expression` funkcijos argumentą.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-118">A valid expression that returns a value of the same primitive data type as the `expression` argument of the called function.</span></span> <span data-ttu-id="0cf2e-119">Šis argumentas yra pasirinktinis.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-119">This argument is optional.</span></span>
 
-<span data-ttu-id="0787b-120">`result N`: *Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0787b-120">`result N`: *Any of the supported data types*</span></span>
+<span data-ttu-id="0cf2e-120">`result N`: *Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0cf2e-120">`result N`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="0787b-121">Grąžintas rezultatas, atitinkantis ankstesnę parinktį.</span><span class="sxs-lookup"><span data-stu-id="0787b-121">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="0787b-122">Šis argumentas yra pasirinktinis.</span><span class="sxs-lookup"><span data-stu-id="0787b-122">This argument is optional.</span></span>
+<span data-ttu-id="0cf2e-121">Grąžintas rezultatas, atitinkantis ankstesnę parinktį.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-121">The returned result that corresponds to the preceding option.</span></span> <span data-ttu-id="0cf2e-122">Šis argumentas yra pasirinktinis.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-122">This argument is optional.</span></span>
 
-<span data-ttu-id="0787b-123">`default result`: *Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0787b-123">`default result`: *Any of the supported data types*</span></span>
+<span data-ttu-id="0cf2e-123">`default result`: *Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0cf2e-123">`default result`: *Any of the supported data types*</span></span>
 
-<span data-ttu-id="0787b-124">Rezultatas, kuris turėtų būti grąžintas, jei nėra atitikmens.</span><span class="sxs-lookup"><span data-stu-id="0787b-124">The result that should be returned if there is no match.</span></span> <span data-ttu-id="0787b-125">Šis argumentas yra pasirinktinis.</span><span class="sxs-lookup"><span data-stu-id="0787b-125">This argument is optional.</span></span>
+<span data-ttu-id="0cf2e-124">Rezultatas, kuris turėtų būti grąžintas, jei nėra atitikmens.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-124">The result that should be returned if there is no match.</span></span> <span data-ttu-id="0cf2e-125">Šis argumentas yra pasirinktinis.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-125">This argument is optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="0787b-126">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="0787b-126">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="0cf2e-126">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="0cf2e-126">Return values</span></span>
 
-<span data-ttu-id="0787b-127">*Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0787b-127">*Any of the supported data types*</span></span>
+<span data-ttu-id="0cf2e-127">*Bet kuris iš palaikomų duomenų tipų*</span><span class="sxs-lookup"><span data-stu-id="0cf2e-127">*Any of the supported data types*</span></span>
 
-<span data-ttu-id="0787b-128">Gauta bet kurio palaikomų duomenų tipo reikšmė.</span><span class="sxs-lookup"><span data-stu-id="0787b-128">The resulting value of any of the supported data types.</span></span>
+<span data-ttu-id="0cf2e-128">Gauta bet kurio palaikomų duomenų tipo reikšmė.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-128">The resulting value of any of the supported data types.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="0787b-129">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="0787b-129">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="0cf2e-129">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="0cf2e-129">Usage notes</span></span>
 
-<span data-ttu-id="0787b-130">Vykdymo metu pateikiama išimtis, jei nėra atitikmens ir pasirinktinis numatytasis rezultatas nėra apibrėžtas.</span><span class="sxs-lookup"><span data-stu-id="0787b-130">An exception is thrown at runtime if there is no match and an optional default result isn't defined.</span></span>
+<span data-ttu-id="0cf2e-130">Vykdymo metu pateikiama išimtis, jei nėra atitikmens ir pasirinktinis numatytasis rezultatas nėra apibrėžtas.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-130">An exception is thrown at runtime if there is no match and an optional default result isn't defined.</span></span>
 
-<span data-ttu-id="0787b-131">Visi rezultatai ir turi būti nurodyti naudojant tą patį duomenų tipą.</span><span class="sxs-lookup"><span data-stu-id="0787b-131">All results must be specified by using the same data type.</span></span> <span data-ttu-id="0787b-132">Jei sukonfigūruotų rezultatų duomenų tipai nesutampa, kūrimo metu pateikiama išimtis.</span><span class="sxs-lookup"><span data-stu-id="0787b-132">An exception is thrown at design time if the data types of the configured results don't match.</span></span>
+<span data-ttu-id="0cf2e-131">Visi rezultatai ir turi būti nurodyti naudojant tą patį duomenų tipą.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-131">All results must be specified by using the same data type.</span></span> <span data-ttu-id="0cf2e-132">Jei sukonfigūruotų rezultatų duomenų tipai nesutampa, kūrimo metu pateikiama išimtis.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-132">An exception is thrown at design time if the data types of the configured results don't match.</span></span>
 
-<span data-ttu-id="0787b-133">Jei pirmasis rezultatas ir *N*-tasis rezultatas yra duomenų tipo *Konteineris (įrašas)* arba *Įrašų sąrašas* reikšmės, rezultatai apima tik tuos laukus, kurie yra abiejose reikšmėse.</span><span class="sxs-lookup"><span data-stu-id="0787b-133">If the first result value and the *N*th result value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
+<span data-ttu-id="0cf2e-133">Jei pirmasis rezultatas ir *N*-tasis rezultatas yra duomenų tipo *Konteineris (įrašas)* arba *Įrašų sąrašas* reikšmės, rezultatai apima tik tuos laukus, kurie yra abiejose reikšmėse.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-133">If the first result value and the *N*th result value are values of the *Container (record)* or *Record list* data type, the result has only the fields that exist in both values.</span></span>
 
-## <a name="example"></a><span data-ttu-id="0787b-134">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="0787b-134">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0cf2e-134">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="0cf2e-134">Example</span></span>
 
-<span data-ttu-id="0787b-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")`grąžina eilutę **„ŽIEMA“**, jei dabartinė programos seanso data yra nuo spalio iki gruodžio mėn.</span><span class="sxs-lookup"><span data-stu-id="0787b-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` returns the string **"WINTER"** if the current application session date is between October and December.</span></span> <span data-ttu-id="0787b-136">Kitu atveju pateikia tuščią eilutę.</span><span class="sxs-lookup"><span data-stu-id="0787b-136">Otherwise, it returns a blank string.</span></span>
+<span data-ttu-id="0cf2e-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")`grąžina eilutę **„ŽIEMA“**, jei dabartinė programos seanso data yra nuo spalio iki gruodžio mėn.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-135">`CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")` returns the string **"WINTER"** if the current application session date is between October and December.</span></span> <span data-ttu-id="0cf2e-136">Kitu atveju pateikia tuščią eilutę.</span><span class="sxs-lookup"><span data-stu-id="0cf2e-136">Otherwise, it returns a blank string.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="0787b-137">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="0787b-137">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="0cf2e-137">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="0cf2e-137">Additional resources</span></span>
 
-[<span data-ttu-id="0787b-138">Loginės funkcijos</span><span class="sxs-lookup"><span data-stu-id="0787b-138">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="0cf2e-138">Loginės funkcijos</span><span class="sxs-lookup"><span data-stu-id="0cf2e-138">Logical functions</span></span>](er-functions-category-logical.md)

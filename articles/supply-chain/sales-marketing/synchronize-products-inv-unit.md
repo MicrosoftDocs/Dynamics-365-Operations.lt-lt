@@ -19,47 +19,47 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 18bedcc99d7d70875ec363a97e4e6eccbace3a9c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 741b823d6cc5dbd23cda4f07e463f28d6bbe77d6
+ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814193"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081869"
 ---
-# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="0a57b-103">Tiekimo grandinės valdymo produktų su atsargų vienetais sinchronizavimas su „Field Service“</span><span class="sxs-lookup"><span data-stu-id="0a57b-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
+# <a name="synchronize-products-with-inventory-unit-from-supply-chain-management-to-field-service"></a><span data-ttu-id="2fe41-103">Tiekimo grandinės valdymo produktų su atsargų vienetais sinchronizavimas su „Field Service“</span><span class="sxs-lookup"><span data-stu-id="2fe41-103">Synchronize products with inventory unit from Supply Chain Management to Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="0a57b-104">Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus su atsargų vienetu sinchronizuojant su „Dynamics 365 Field Service“.</span><span class="sxs-lookup"><span data-stu-id="0a57b-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
+<span data-ttu-id="2fe41-104">Šioje temoje aptariami šablonai ir pagrindinė užduotis, naudojami „Dynamics 365 Supply Chain Management“ produktus su atsargų vienetu sinchronizuojant su „Dynamics 365 Field Service“.</span><span class="sxs-lookup"><span data-stu-id="2fe41-104">This topic discusses the templates and underlying task that are used to synchronize products with inventory unit from Dynamics 365 Supply Chain Management to Dynamics 365 Field Service.</span></span>
 
-<span data-ttu-id="0a57b-105">[![Tiekimo grandinės valdymo ir „Field Service“ verslo procesų sinchronizavimas](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="0a57b-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
+<span data-ttu-id="2fe41-105">[![Tiekimo grandinės valdymo ir „Field Service“ verslo procesų sinchronizavimas](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span><span class="sxs-lookup"><span data-stu-id="2fe41-105">[![Synchronization of business processes between Supply Chain Management and Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)</span></span>
 
-<span data-ttu-id="0a57b-106">Naudojamas šablonas **„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Field Service“)** yra paremtas šablonu **„Field Service“ produktai (iš Tiekimo grandinės valdymo į „Field Service“)**.</span><span class="sxs-lookup"><span data-stu-id="0a57b-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="0a57b-107">Daugiau informacijos žr. [Produktų „Supply Chain Management“ sinchronizavimas į produktus „Field Service“](field-service-product.md).</span><span class="sxs-lookup"><span data-stu-id="0a57b-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
+<span data-ttu-id="2fe41-106">Naudojamas šablonas **„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Field Service“)** yra paremtas šablonu **„Field Service“ produktai (iš Tiekimo grandinės valdymo į „Field Service“)**.</span><span class="sxs-lookup"><span data-stu-id="2fe41-106">The used **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template is based on the **Field Service Products (Supply Chain Management to Field Service)** template.</span></span> <span data-ttu-id="2fe41-107">Daugiau informacijos žr. [Produktų „Supply Chain Management“ sinchronizavimas į produktus „Field Service“](field-service-product.md).</span><span class="sxs-lookup"><span data-stu-id="2fe41-107">For more information, see [Synchronize products in Supply Chain Management to products in Field Service](field-service-product.md).</span></span>
 
-<span data-ttu-id="0a57b-108">Šioje temoje aprašomi tik skirtumus tarp dviejų šablonų.</span><span class="sxs-lookup"><span data-stu-id="0a57b-108">This topic only describes the differences between the two templates:</span></span> 
-- <span data-ttu-id="0a57b-109">**„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Sales“)**</span><span class="sxs-lookup"><span data-stu-id="0a57b-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
-- <span data-ttu-id="0a57b-110">**„Field Service“ produktai (iš Tiekimo grandinės valdymo į „Field Service“)**</span><span class="sxs-lookup"><span data-stu-id="0a57b-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
+<span data-ttu-id="2fe41-108">Šioje temoje aprašomi tik skirtumus tarp dviejų šablonų.</span><span class="sxs-lookup"><span data-stu-id="2fe41-108">This topic only describes the differences between the two templates:</span></span> 
+- <span data-ttu-id="2fe41-109">**„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Sales“)**</span><span class="sxs-lookup"><span data-stu-id="2fe41-109">**Field Service Products with Inventory unit (Supply Chain Management to Sales)**</span></span>
+- <span data-ttu-id="2fe41-110">**„Field Service“ produktai (iš Tiekimo grandinės valdymo į „Field Service“)**</span><span class="sxs-lookup"><span data-stu-id="2fe41-110">**Field Service Products (Supply Chain Management to Field Service)**</span></span> 
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="0a57b-111">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="0a57b-111">Templates and tasks</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="2fe41-111">Šablonai ir užduotys</span><span class="sxs-lookup"><span data-stu-id="2fe41-111">Templates and tasks</span></span>
 
-<span data-ttu-id="0a57b-112">**Šablono pavadinimas naudojant funkciją Duomenų integravimas:**</span><span class="sxs-lookup"><span data-stu-id="0a57b-112">**Name of the template in Data integration:**</span></span>
+<span data-ttu-id="2fe41-112">**Šablono pavadinimas naudojant funkciją Duomenų integravimas:**</span><span class="sxs-lookup"><span data-stu-id="2fe41-112">**Name of the template in Data integration:**</span></span>
 
-- <span data-ttu-id="0a57b-113">„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Sales“)</span><span class="sxs-lookup"><span data-stu-id="0a57b-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
+- <span data-ttu-id="2fe41-113">„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Sales“)</span><span class="sxs-lookup"><span data-stu-id="2fe41-113">Field Service Products with Inventory unit (Supply Chain Management to Sales)</span></span>
 
-<span data-ttu-id="0a57b-114">**Užduoties pavadinimas projekte Duomenų integravimas:**</span><span class="sxs-lookup"><span data-stu-id="0a57b-114">**Name of the task in the Data integration project:**</span></span>
+<span data-ttu-id="2fe41-114">**Užduoties pavadinimas projekte Duomenų integravimas:**</span><span class="sxs-lookup"><span data-stu-id="2fe41-114">**Name of the task in the Data integration project:**</span></span>
 
-- <span data-ttu-id="0a57b-115">Produktai</span><span class="sxs-lookup"><span data-stu-id="0a57b-115">Products</span></span>
+- <span data-ttu-id="2fe41-115">Produktai</span><span class="sxs-lookup"><span data-stu-id="2fe41-115">Products</span></span>
 
-<span data-ttu-id="0a57b-116">Šablone **„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Field Service“)** yra vienas susiejimas, kuris nėra įtrauktas į šabloną **„Field Service“ produktai (iš Tiekimo grandinės valdymo į „Field Service“)**.</span><span class="sxs-lookup"><span data-stu-id="0a57b-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Managementto Field Service)** template.</span></span> <span data-ttu-id="0a57b-117">Šis susiejimas užtikrina, kad būtų įtrauktas atsargų lygio sinchronizavimui reikalingas atsargų vienetas.</span><span class="sxs-lookup"><span data-stu-id="0a57b-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
+<span data-ttu-id="2fe41-116">Šablone **„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Field Service“)** yra vienas susiejimas, kuris nėra įtrauktas į šabloną **„Field Service“ produktai (iš Tiekimo grandinės valdymo į „Field Service“)**.</span><span class="sxs-lookup"><span data-stu-id="2fe41-116">The **Field Service Products with Inventory unit (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Field Service Products (Supply Chain Managementto Field Service)** template.</span></span> <span data-ttu-id="2fe41-117">Šis susiejimas užtikrina, kad būtų įtrauktas atsargų lygio sinchronizavimui reikalingas atsargų vienetas.</span><span class="sxs-lookup"><span data-stu-id="2fe41-117">This mapping ensures that the Inventory unit needed for inventory level synchronization is included.</span></span>
 
-```
+```Text
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
 ```
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="0a57b-118">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="0a57b-118">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="2fe41-118">Šablono susiejimas naudojant funkcija Duomenų integravimas</span><span class="sxs-lookup"><span data-stu-id="2fe41-118">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="0a57b-119">Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.</span><span class="sxs-lookup"><span data-stu-id="0a57b-119">The following illustrations show the template mapping in Data integration.</span></span>
+<span data-ttu-id="2fe41-119">Toliau pateiktose iliustracijose vaizduojamas šablono susiejimas naudojant funkciją Duomenų integravimas.</span><span class="sxs-lookup"><span data-stu-id="2fe41-119">The following illustrations show the template mapping in Data integration.</span></span>
 
-### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="0a57b-120">„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Field Service“): produktai</span><span class="sxs-lookup"><span data-stu-id="0a57b-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
+### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a><span data-ttu-id="2fe41-120">„Field Service“ produktai su atsargų vienetu (iš Tiekimo grandinės valdymo į „Field Service“): produktai</span><span class="sxs-lookup"><span data-stu-id="2fe41-120">Field Service Products with Inventory unit (Supply Chain Management to Field Service): Products</span></span>
 
-<span data-ttu-id="0a57b-121">[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="0a57b-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>
+<span data-ttu-id="2fe41-121">[![Šablono susiejimas naudojant funkcija Duomenų integravimas](./media/FSProduct1.png)](./media/FSProduct1.png)</span><span class="sxs-lookup"><span data-stu-id="2fe41-121">[![Template mapping in Data integration](./media/FSProduct1.png)](./media/FSProduct1.png)</span></span>

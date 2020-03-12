@@ -18,47 +18,47 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac0910d213ee05a2a7a7b218a6714d4f935be16
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916757"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040853"
 ---
-# <span data-ttu-id="73918-103"><a name="QRCODE">QRCODE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="73918-103"><a name="QRCODE">QRCODE ER function</a></span></span>
+# <span data-ttu-id="8a5d1-103"><a name="QRCODE">QRCODE ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="8a5d1-103"><a name="QRCODE">QRCODE ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="73918-104">`QRCODE` funkcija grąžina *konteinerio* reikšmę, kuri pateikia nurodytą eilutę dvejetainiu formatu kaip greito atsakymo kodo (QR kodą) atvaizdą.</span><span class="sxs-lookup"><span data-stu-id="73918-104">The `QRCODE` function returns a *Container* value that presents the Quick Response code (QR code) image for the specified string in binary format.</span></span>
+<span data-ttu-id="8a5d1-104">`QRCODE` funkcija grąžina *konteinerio* reikšmę, kuri pateikia nurodytą eilutę dvejetainiu formatu kaip greito atsakymo kodo (QR kodą) atvaizdą.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-104">The `QRCODE` function returns a *Container* value that presents the Quick Response code (QR code) image for the specified string in binary format.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="73918-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="73918-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8a5d1-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="8a5d1-105">Syntax</span></span>
 
-```
+```vb
 QRCODE (text)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="73918-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="73918-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="8a5d1-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="8a5d1-106">Arguments</span></span>
 
-<span data-ttu-id="73918-107">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="73918-107">`text`: *String*</span></span>
+<span data-ttu-id="8a5d1-107">`text`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8a5d1-107">`text`: *String*</span></span>
 
-<span data-ttu-id="73918-108">*Eilutės* reikšmė, nurodanti pradinį tekstą.</span><span class="sxs-lookup"><span data-stu-id="73918-108">A *String* value that represents the original text.</span></span>
+<span data-ttu-id="8a5d1-108">*Eilutės* reikšmė, nurodanti pradinį tekstą.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-108">A *String* value that represents the original text.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="73918-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="73918-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8a5d1-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="8a5d1-109">Return values</span></span>
 
-<span data-ttu-id="73918-110">*Konteineris*</span><span class="sxs-lookup"><span data-stu-id="73918-110">*Container*</span></span>
+<span data-ttu-id="8a5d1-110">*Konteineris*</span><span class="sxs-lookup"><span data-stu-id="8a5d1-110">*Container*</span></span>
 
-<span data-ttu-id="73918-111">Gautas dvejetainis srautas.</span><span class="sxs-lookup"><span data-stu-id="73918-111">The resulting binary stream.</span></span>
+<span data-ttu-id="8a5d1-111">Gautas dvejetainis srautas.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-111">The resulting binary stream.</span></span>
 
-## <a name="example"></a><span data-ttu-id="73918-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="73918-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8a5d1-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="8a5d1-112">Example</span></span>
 
-<span data-ttu-id="73918-113">Galite sukonfigūruoti elektroninių ataskaitų (ER) formatą, kad sugeneruotumėte siunčiamą dokumentą „Microsoft Office“ formatu („Excel“ darbaknygės arba „Word“ dokumentai), naudodami iš anksto nustatytą šabloną.</span><span class="sxs-lookup"><span data-stu-id="73918-113">You can configure an Electronic reporting (ER) format to generate an outbound document in Microsoft Office format (Excel workbooks or Word documents) by using a predefined template.</span></span> <span data-ttu-id="73918-114">Šiame šablone gali būti **Paveikslėlio** objektas („Excel“ darbaknygė) arba **Paveikslėlio turinio valdiklis** („Word“ dokumentas) kaip QR kodo atvaizdo vietos rezervavimo ženklas.</span><span class="sxs-lookup"><span data-stu-id="73918-114">This template may contain a **Picture** object (Excel workbook) or a **Picture Content Control** (Word document) as a placeholder for a QR code image.</span></span> <span data-ttu-id="73918-115">Jums reikia pridėti prie sukonfigūruoto ER formato **langelio** elementą, kuris bus naudojamas užpildyti šį vietos rezervavimo ženklą.</span><span class="sxs-lookup"><span data-stu-id="73918-115">You need to add to the configured ER format a **Cell** element that will be used to fill this placeholder in.</span></span> <span data-ttu-id="73918-116">Norėdami nurodyti, kokia informacija bus saugoma QR kodu, turite nustatyti šio **langelio** elemento susiejimą.</span><span class="sxs-lookup"><span data-stu-id="73918-116">To specify what information will be stored in a QR code, you need to define a binding for this **Cell** element.</span></span> <span data-ttu-id="73918-117">Pavyzdžiui, galite sukonfigūruoti tokį susiejimą, kuriame yra ši išraiška:</span><span class="sxs-lookup"><span data-stu-id="73918-117">For example, you can configure such binding as containing the following expression:</span></span>
+<span data-ttu-id="8a5d1-113">Galite sukonfigūruoti elektroninių ataskaitų (ER) formatą, kad sugeneruotumėte siunčiamą dokumentą „Microsoft Office“ formatu („Excel“ darbaknygės arba „Word“ dokumentai), naudodami iš anksto nustatytą šabloną.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-113">You can configure an Electronic reporting (ER) format to generate an outbound document in Microsoft Office format (Excel workbooks or Word documents) by using a predefined template.</span></span> <span data-ttu-id="8a5d1-114">Šiame šablone gali būti **Paveikslėlio** objektas („Excel“ darbaknygė) arba **Paveikslėlio turinio valdiklis** („Word“ dokumentas) kaip QR kodo atvaizdo vietos rezervavimo ženklas.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-114">This template may contain a **Picture** object (Excel workbook) or a **Picture Content Control** (Word document) as a placeholder for a QR code image.</span></span> <span data-ttu-id="8a5d1-115">Jums reikia pridėti prie sukonfigūruoto ER formato **langelio** elementą, kuris bus naudojamas užpildyti šį vietos rezervavimo ženklą.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-115">You need to add to the configured ER format a **Cell** element that will be used to fill this placeholder in.</span></span> <span data-ttu-id="8a5d1-116">Norėdami nurodyti, kokia informacija bus saugoma QR kodu, turite nustatyti šio **langelio** elemento susiejimą.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-116">To specify what information will be stored in a QR code, you need to define a binding for this **Cell** element.</span></span> <span data-ttu-id="8a5d1-117">Pavyzdžiui, galite sukonfigūruoti tokį susiejimą, kuriame yra ši išraiška:</span><span class="sxs-lookup"><span data-stu-id="8a5d1-117">For example, you can configure such binding as containing the following expression:</span></span>
 
-```
+```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 
-<span data-ttu-id="73918-118">Kai paleidžiate sukonfigūruotas ER formatą, **LabelText** lauko, priklausančio duomenų šaltiniui **model.ListOfShelfLabels**, teksto reikšmės bus naudojama generuoti QR kodo atvaizdą.</span><span class="sxs-lookup"><span data-stu-id="73918-118">When you run the configured ER format, the text value of the **LabelText** field of the **model.ListOfShelfLabels** data source will be used to generate a QR code image.</span></span> <span data-ttu-id="73918-119">Šis paveikslėlis pakeis QR kodo atvaizdo vietos rezervavimo ženklą dokumento šablone, naudodamas siuntimo dokumento generavimui.</span><span class="sxs-lookup"><span data-stu-id="73918-119">This image will replace a QR code image placeholder in the document template using to generate an outbound document.</span></span> <span data-ttu-id="73918-120">Kai nuskaitomas šis sugeneruoto dokumento vaizdas, jis grąžina tekstą, paimtą iš lauko **LabelText**, priklausančio duomenų šaltiniui **model.ListOfShelfLabels**.</span><span class="sxs-lookup"><span data-stu-id="73918-120">When this image of the generated document is scanned, it returns the text that was taken from the **LabelText** field of the **model.ListOfShelfLabels** data source.</span></span> <span data-ttu-id="73918-121">Daugiau informacijos žr. [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](electronic-reporting-embed-images-shapes.md).</span><span class="sxs-lookup"><span data-stu-id="73918-121">For more information, see [Embed images and shapes in documents that you generate by using ER](electronic-reporting-embed-images-shapes.md).</span></span>
+<span data-ttu-id="8a5d1-118">Kai paleidžiate sukonfigūruotas ER formatą, **LabelText** lauko, priklausančio duomenų šaltiniui **model.ListOfShelfLabels**, teksto reikšmės bus naudojama generuoti QR kodo atvaizdą.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-118">When you run the configured ER format, the text value of the **LabelText** field of the **model.ListOfShelfLabels** data source will be used to generate a QR code image.</span></span> <span data-ttu-id="8a5d1-119">Šis paveikslėlis pakeis QR kodo atvaizdo vietos rezervavimo ženklą dokumento šablone, naudodamas siuntimo dokumento generavimui.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-119">This image will replace a QR code image placeholder in the document template using to generate an outbound document.</span></span> <span data-ttu-id="8a5d1-120">Kai nuskaitomas šis sugeneruoto dokumento vaizdas, jis grąžina tekstą, paimtą iš lauko **LabelText**, priklausančio duomenų šaltiniui **model.ListOfShelfLabels**.</span><span class="sxs-lookup"><span data-stu-id="8a5d1-120">When this image of the generated document is scanned, it returns the text that was taken from the **LabelText** field of the **model.ListOfShelfLabels** data source.</span></span> <span data-ttu-id="8a5d1-121">Daugiau informacijos žr. [Vaizdų ir figūrų įterpimas generuojamuose dokumentuose naudojant ER](electronic-reporting-embed-images-shapes.md).</span><span class="sxs-lookup"><span data-stu-id="8a5d1-121">For more information, see [Embed images and shapes in documents that you generate by using ER](electronic-reporting-embed-images-shapes.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="73918-122">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="73918-122">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="8a5d1-122">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="8a5d1-122">Additional resources</span></span>
 
-[<span data-ttu-id="73918-123">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="73918-123">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="8a5d1-123">Tekstinės funkcijos</span><span class="sxs-lookup"><span data-stu-id="8a5d1-123">Text functions</span></span>](er-functions-category-text.md)

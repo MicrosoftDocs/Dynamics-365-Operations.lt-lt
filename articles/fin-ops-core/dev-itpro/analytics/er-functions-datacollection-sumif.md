@@ -18,51 +18,51 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 579b14c713bc5f9831c5e012d16bb3b6f97b1035
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916435"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042486"
 ---
-# <span data-ttu-id="13b32-103"><a name="SUMIF">ER SUMIF funkcija</a></span><span class="sxs-lookup"><span data-stu-id="13b32-103"><a name="SUMIF">SUMIF ER function</a></span></span>
+# <span data-ttu-id="d6eba-103"><a name="SUMIF">ER SUMIF funkcija</a></span><span class="sxs-lookup"><span data-stu-id="d6eba-103"><a name="SUMIF">SUMIF ER function</a></span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="13b32-104">`SUMIF` funkcija pateikia tipo *Realusis skaičius* reikšmę, kuri nurodo reikšmių, kurias pateikė formato elementų susiejimai ir kurios buvo surinktos, kai, naudojant formato elementus, vykdant formatą buvo generuojamas siunčiamas dokuments, sumą ir kuri tenkina nurodytą sąlygą.</span><span class="sxs-lookup"><span data-stu-id="13b32-104">The `SUMIF` function returns a *Real* value that represents the sum of values that were returned by bindings of format elements and collected when the format elements were used to generate an outbound document during the format run, and that satisfies the specified condition.</span></span> <span data-ttu-id="13b32-105">Sąlygą sudaro raktų intervalas ir rakto reikšmė.</span><span class="sxs-lookup"><span data-stu-id="13b32-105">The condition consists of a key range and a key value.</span></span>
+<span data-ttu-id="d6eba-104">`SUMIF` funkcija pateikia tipo *Realusis skaičius* reikšmę, kuri nurodo reikšmių, kurias pateikė formato elementų susiejimai ir kurios buvo surinktos, kai, naudojant formato elementus, vykdant formatą buvo generuojamas siunčiamas dokuments, sumą ir kuri tenkina nurodytą sąlygą.</span><span class="sxs-lookup"><span data-stu-id="d6eba-104">The `SUMIF` function returns a *Real* value that represents the sum of values that were returned by bindings of format elements and collected when the format elements were used to generate an outbound document during the format run, and that satisfies the specified condition.</span></span> <span data-ttu-id="d6eba-105">Sąlygą sudaro raktų intervalas ir rakto reikšmė.</span><span class="sxs-lookup"><span data-stu-id="d6eba-105">The condition consists of a key range and a key value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="13b32-106">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="13b32-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d6eba-106">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="d6eba-106">Syntax</span></span>
 
-```
+```vb
 SUMIF (key name for summing, condition range, condition value)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="13b32-107">Argumentai</span><span class="sxs-lookup"><span data-stu-id="13b32-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d6eba-107">Argumentai</span><span class="sxs-lookup"><span data-stu-id="d6eba-107">Arguments</span></span>
 
-<span data-ttu-id="13b32-108">`key name for summing`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="13b32-108">`key name for summing`: *String*</span></span>
+<span data-ttu-id="d6eba-108">`key name for summing`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="d6eba-108">`key name for summing`: *String*</span></span>
 
-<span data-ttu-id="13b32-109">Reikšmė, kurią pateikia reiškinys, sukonfigūruotas modulio Elektroninės ataskaitos (ER) formato komponento, kuriam sumavimo tikslais reikia naudoti susiejimo reikšmę, ypatybėje **Surinktų duomenų rakto pavadinimas**.</span><span class="sxs-lookup"><span data-stu-id="13b32-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of the Electronic reporting (ER) format component for which the value of the binding must be used for summing purposes.</span></span>
+<span data-ttu-id="d6eba-109">Reikšmė, kurią pateikia reiškinys, sukonfigūruotas modulio Elektroninės ataskaitos (ER) formato komponento, kuriam sumavimo tikslais reikia naudoti susiejimo reikšmę, ypatybėje **Surinktų duomenų rakto pavadinimas**.</span><span class="sxs-lookup"><span data-stu-id="d6eba-109">A value that is returned by the expression that has been configured in the **Collected data key name** property of the Electronic reporting (ER) format component for which the value of the binding must be used for summing purposes.</span></span>
 
-<span data-ttu-id="13b32-110">Ypatybę **Surinktų duomenų rakto reikšmė** galima sukonfigūruoti ER formato, esančio komponente **Common\\File**, kuriame įjungta parinktis **Rinkti išeigos informaciją**, komponentui **Seka** arba **XML elementas**.</span><span class="sxs-lookup"><span data-stu-id="13b32-110">The **Collected data key value** property can be configured for either a **Sequence** component or an **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
+<span data-ttu-id="d6eba-110">Ypatybę **Surinktų duomenų rakto reikšmė** galima sukonfigūruoti ER formato, esančio komponente **Common\\File**, kuriame įjungta parinktis **Rinkti išeigos informaciją**, komponentui **Seka** arba **XML elementas**.</span><span class="sxs-lookup"><span data-stu-id="d6eba-110">The **Collected data key value** property can be configured for either a **Sequence** component or an **XML Element** component of an ER format that resides under the **Common\\File** component where the **Collect output details** option is turned on.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="13b32-111">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="13b32-111">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d6eba-111">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="d6eba-111">Return values</span></span>
 
-<span data-ttu-id="13b32-112">*Tikrasis*</span><span class="sxs-lookup"><span data-stu-id="13b32-112">*Real*</span></span>
+<span data-ttu-id="d6eba-112">*Tikrasis*</span><span class="sxs-lookup"><span data-stu-id="d6eba-112">*Real*</span></span>
 
-<span data-ttu-id="13b32-113">Gaunama skaitinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="13b32-113">The resulting numeric value.</span></span>
+<span data-ttu-id="d6eba-113">Gaunama skaitinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="d6eba-113">The resulting numeric value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="13b32-114">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="13b32-114">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="d6eba-114">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="d6eba-114">Usage notes</span></span>
 
-<span data-ttu-id="13b32-115">Kai dabartinio komponento **Common\\File parinktis** **Rinkti išeigos informaciją** yra išjungta, ši funkcija pateikia **0** (nulio) reikšmę.</span><span class="sxs-lookup"><span data-stu-id="13b32-115">This function returns a **0** (zero) value when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
+<span data-ttu-id="d6eba-115">Kai dabartinio komponento **Common\\File parinktis** **Rinkti išeigos informaciją** yra išjungta, ši funkcija pateikia **0** (nulio) reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d6eba-115">This function returns a **0** (zero) value when the **Collect output details** option of the current **Common\\File** component is turned off.</span></span>
 
-<span data-ttu-id="13b32-116">`condition range` argumente pakaitos simbolį **„\*“** galima naudoti norint vaizduoti kelis simbolius.</span><span class="sxs-lookup"><span data-stu-id="13b32-116">In the `condition range` argument, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="d6eba-116">`condition range` argumente pakaitos simbolį **„\*“** galima naudoti norint vaizduoti kelis simbolius.</span><span class="sxs-lookup"><span data-stu-id="d6eba-116">In the `condition range` argument, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-<span data-ttu-id="13b32-117">`condition value` argumente pakaitos simbolį **„\*“** galima naudoti norint vaizduoti kelis simbolius.</span><span class="sxs-lookup"><span data-stu-id="13b32-117">In the `condition value` argument, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
+<span data-ttu-id="d6eba-117">`condition value` argumente pakaitos simbolį **„\*“** galima naudoti norint vaizduoti kelis simbolius.</span><span class="sxs-lookup"><span data-stu-id="d6eba-117">In the `condition value` argument, the wildcard character **"\*"** can be used to represent any multiple characters.</span></span>
 
-## <a name="example"></a><span data-ttu-id="13b32-118">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="13b32-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d6eba-118">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="d6eba-118">Example</span></span>
 
-<span data-ttu-id="13b32-119">Norėdami apie tai, kaip naudoti šią funkciją, gauti daugiau informacijos, žr. užduočių vedlį [ER: duomenų formato išvesties duomenų naudojimas skaičiuojant ir sumuojant](tasks/er-format-counting-summing-1.md) (verslo proceso **Įsigyti / sukurti IT paslaugų ir sprendimų komponentų** dalis).</span><span class="sxs-lookup"><span data-stu-id="13b32-119">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
+<span data-ttu-id="d6eba-119">Norėdami apie tai, kaip naudoti šią funkciją, gauti daugiau informacijos, žr. užduočių vedlį [ER: duomenų formato išvesties duomenų naudojimas skaičiuojant ir sumuojant](tasks/er-format-counting-summing-1.md) (verslo proceso **Įsigyti / sukurti IT paslaugų ir sprendimų komponentų** dalis).</span><span class="sxs-lookup"><span data-stu-id="d6eba-119">For more information about how to use this function, see the [ER Use data of format output for counting and summing](tasks/er-format-counting-summing-1.md) task guide, which is part of the **Acquire/Develop IT service/solution components** business process.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="13b32-120">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="13b32-120">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d6eba-120">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="d6eba-120">Additional resources</span></span>
 
-[<span data-ttu-id="13b32-121">Duomenų rinkinio funkcijos</span><span class="sxs-lookup"><span data-stu-id="13b32-121">Data collection functions</span></span>](er-functions-category-data-collection.md)
+[<span data-ttu-id="d6eba-121">Duomenų rinkinio funkcijos</span><span class="sxs-lookup"><span data-stu-id="d6eba-121">Data collection functions</span></span>](er-functions-category-data-collection.md)

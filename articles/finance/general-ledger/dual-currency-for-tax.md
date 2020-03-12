@@ -1,0 +1,150 @@
+---
+title: Mokesčiuose dviejų valiutų palaikymas
+description: Šioje temoje paaiškinama, kaip išplėsti dviejų valiutų apskaitos funkciją mokesčių srityje, ir nurodoma, koks gali būti poveikis mokesčiams apskaičiuoti ir registruoti
+author: EricWang
+manager: Ann Beebe
+ms.date: 12/16/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: TaxTable
+audience: Application User
+ms.reviewer: roschlom
+ms.search.scope: Core, Operations, Retail
+ms.custom: 4464
+ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
+ms.search.region: Global
+ms.author: vstehman
+ms.search.validFrom: 2020-01-14
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: c9318f518135bf7aa545cdb5ddd2e68c54a6d211
+ms.sourcegitcommit: bcc8cba8905ed51797d36e1712d7360452cfc5c5
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "3090569"
+---
+# <a name="dual-currency-support-for-sales-tax"></a><span data-ttu-id="e0c2d-103">PVM dviejų valiutų palaikymas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-103">Dual currency support for sales tax</span></span>
+[!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+<span data-ttu-id="e0c2d-104">Šioje temoje paaiškinama, kaip išplėsti dviejų valiutų apskaitos funkciją PVM srityje, ir nurodoma, koks gali būti poveikis PVM apskaičiuoti, registruoti ir sudengti.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-104">This topic explains how to extend dual currency accounting for sales taxes and the impact for sales tax calculations, posting and settlements.</span></span>
+
+<span data-ttu-id="e0c2d-105">„Dynamics 365 Finance“ dviejų valiutų funkcija atsirado 8.1 versijoje (2018 m. spalio mėn.).</span><span class="sxs-lookup"><span data-stu-id="e0c2d-105">The Dual currency feature for Dynamics 365 Finance was introduced in version 8.1 (October 2018).</span></span> <span data-ttu-id="e0c2d-106">Ji pakeitė, kaip apskaičiuojami apskaitos įrašai ataskaitų valiuta.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-106">It changes the way that accounting entries in the reporting currency are calculated.</span></span>
+
+<span data-ttu-id="e0c2d-107">Ankstesnėse versijose operacijos buvo konvertuojamos į ataskaitų valiutą tokia tvarka:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-107">In earlier versions, transactions were converted to the reporting currency in the following sequence:</span></span> 
+
+<span data-ttu-id="e0c2d-108">Operacijos suma buvo apskaičiuota operacijos valiuta > operacijos suma buvo konvertuota į apskaitos valiutą > apskaitos valiutos suma buvo konvertuota į ataskaitų valiutą</span><span class="sxs-lookup"><span data-stu-id="e0c2d-108">Transaction total was calculated in the transaction currency > Transaction amount was converted to the accounting currency > Accounting currency amount was converted to the Reporting currency</span></span>
+
+<span data-ttu-id="e0c2d-109">Įjungus dviejų valiutų funkciją, operacijos buvo konvertuotos į ataskaitų valiutą tokia tvarka:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-109">After enabling the dual currency feature, transactions were converted to the reporting currency in the following sequence:</span></span>
+
+- <span data-ttu-id="e0c2d-110">Suma operacijos valiuta > Suma ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-110">Transaction currency amount > Reporting currency amount</span></span>
+
+<span data-ttu-id="e0c2d-111">Daugiau informacijos apie dviejų valiutų funkciją rasite [Dvi valiutos](dual-currency.md).</span><span class="sxs-lookup"><span data-stu-id="e0c2d-111">For more information about dual currency, please refer to [Dual currency](dual-currency.md).</span></span>
+
+<span data-ttu-id="e0c2d-112">Dėl dviejų valiutų palaikymo funkcijų valdyme atsirado dvi naujos funkcijos:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-112">As a consequence of support for dual currencies, two new features are available in feature management:</span></span> 
+
+- <span data-ttu-id="e0c2d-113">PVM konvertavimas (10.0.9 versijoje)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-113">Sales tax conversion (Release in version 10.0.9)</span></span>
+- <span data-ttu-id="e0c2d-114">Mokesčių sudengimo automatinis balansas ataskaitų valiuta (10.0.11 versijoje)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-114">Tax settlement auto balance in reporting currency (Release in version 10.0.11)</span></span>
+
+<span data-ttu-id="e0c2d-115">Dviejų valiutų palaikymas PVM srityje užtikrina, kad mokesčiai bus tiksliai apskaičiuoti mokesčių valiuta ir kad PVM sudengimo balansas bus apskaičiuotas tiksliai ir apskaitos valiuta, ir ataskaitų valiuta.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-115">Dual currency support for sales taxes ensures that taxes are calculated accurately in the tax currency, and that the sales tax settlement balance is calculated accurately in both the accounting currency and reporting currency.</span></span> 
+
+<span data-ttu-id="e0c2d-116">Šiuo metu veikia naujos klientų asmeninės peržiūros funkcijos.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-116">The new features are currently enabled for private preview customers.</span></span> <span data-ttu-id="e0c2d-117">Norėdami įgalinti funkcijas, per atitinkamą kanalą „Microsoft“ pateikite aptarnavimo užklausą.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-117">To enable the features, raise a service request through corresponding channels to Microsoft.</span></span>
+
+## <a name="sales-tax-conversion"></a><span data-ttu-id="e0c2d-118">PVM konvertavimas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-118">Sales tax conversion</span></span>
+
+<span data-ttu-id="e0c2d-119">Parametras **PVM konvertavimas** suteikia dvi parinktis, kaip galima konvertuoti mokesčių sumą iš operacijos valiutos į mokesčių valiutą.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-119">The **Sales tax conversion** parameter provides two options to convert tax amount from transaction currency to tax currency.</span></span> 
+
+- <span data-ttu-id="e0c2d-120">Apskaitos valiuta: kelias: Suma operacijos valiuta > Suma apskaitos valiuta > Suma mokesčių valiuta.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-120">Accounting currency: The path will be "Amount in transaction currency > Amount in accounting currency > Amount in tax currency".</span></span> <span data-ttu-id="e0c2d-121">Valiutos konvertavimui bus naudojamas apskaitos valiutos kurso tipas (sukonfigūruotas DK sąrankoje).</span><span class="sxs-lookup"><span data-stu-id="e0c2d-121">The accounting currency exhange rate type (configured in Ledger setup) will be used for the currency conversion.</span></span>
+- <span data-ttu-id="e0c2d-122">Ataskaitų valiuta: kelias: Suma operacijos valiuta > Suma ataskaitų valiuta > Suma mokesčių valiuta.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-122">Reporting currency: The path will be "Amount in transaction currency > Amount in reporting currency > Amount in tax currency".</span></span> <span data-ttu-id="e0c2d-123">Valiutos konvertavimui bus naudojamas ataskaitų valiutos kurso tipas (sukonfigūruotas DK sąrankoje).</span><span class="sxs-lookup"><span data-stu-id="e0c2d-123">The reporting currency exhange rate type (configured in Ledger setup) will be used for the currency conversion.</span></span>
+
+### <a name="example"></a><span data-ttu-id="e0c2d-124">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="e0c2d-124">Example</span></span>
+
+<span data-ttu-id="e0c2d-125">Paprastas pavyzdys, skirtas šiai funkcijai pademonstruoti:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-125">A simple example to demonstrate this functionality is:</span></span>
+
+<span data-ttu-id="e0c2d-126">DK ir mokesčių valiutos nustatymas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-126">Currency setup for ledger and tax</span></span>
+
+| <span data-ttu-id="e0c2d-127">Operacijos valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-127">Transaction currency</span></span> | <span data-ttu-id="e0c2d-128">Apskaitos valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-128">Accounting currency</span></span> | <span data-ttu-id="e0c2d-129">Ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-129">Reporting currency</span></span> | <span data-ttu-id="e0c2d-130">Mokesčių valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-130">Tax currency</span></span> |
+| -------------------- | ------------------- | ------------------ | ------------ |
+| <span data-ttu-id="e0c2d-131">EUR</span><span class="sxs-lookup"><span data-stu-id="e0c2d-131">EUR</span></span>                  | <span data-ttu-id="e0c2d-132">USD</span><span class="sxs-lookup"><span data-stu-id="e0c2d-132">USD</span></span>                 | <span data-ttu-id="e0c2d-133">LT</span><span class="sxs-lookup"><span data-stu-id="e0c2d-133">GBP</span></span>                | <span data-ttu-id="e0c2d-134">LT</span><span class="sxs-lookup"><span data-stu-id="e0c2d-134">GBP</span></span>          |
+
+<span data-ttu-id="e0c2d-135">Valiutos kursas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-135">Exchange rate</span></span>
+
+| <span data-ttu-id="e0c2d-136">Iš valiutos</span><span class="sxs-lookup"><span data-stu-id="e0c2d-136">From currency</span></span> | <span data-ttu-id="e0c2d-137">Į valiutą</span><span class="sxs-lookup"><span data-stu-id="e0c2d-137">To currency</span></span> | <span data-ttu-id="e0c2d-138">Koeficientas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-138">Factor</span></span> | <span data-ttu-id="e0c2d-139">Valiutos kursas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-139">Exchange rate</span></span> |
+| ------------- | ----------- | ------ | ------------- |
+| <span data-ttu-id="e0c2d-140">EUR</span><span class="sxs-lookup"><span data-stu-id="e0c2d-140">EUR</span></span>           | <span data-ttu-id="e0c2d-141">USD</span><span class="sxs-lookup"><span data-stu-id="e0c2d-141">USD</span></span>         | <span data-ttu-id="e0c2d-142">1</span><span class="sxs-lookup"><span data-stu-id="e0c2d-142">1</span></span>      | <span data-ttu-id="e0c2d-143">1.11</span><span class="sxs-lookup"><span data-stu-id="e0c2d-143">1.11</span></span>          |
+| <span data-ttu-id="e0c2d-144">EUR</span><span class="sxs-lookup"><span data-stu-id="e0c2d-144">EUR</span></span>           | <span data-ttu-id="e0c2d-145">LT</span><span class="sxs-lookup"><span data-stu-id="e0c2d-145">GBP</span></span>         | <span data-ttu-id="e0c2d-146">1</span><span class="sxs-lookup"><span data-stu-id="e0c2d-146">1</span></span>      | <span data-ttu-id="e0c2d-147">0.83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-147">0.83</span></span>          |
+| <span data-ttu-id="e0c2d-148">USD</span><span class="sxs-lookup"><span data-stu-id="e0c2d-148">USD</span></span>           | <span data-ttu-id="e0c2d-149">LT</span><span class="sxs-lookup"><span data-stu-id="e0c2d-149">GBP</span></span>         | <span data-ttu-id="e0c2d-150">1</span><span class="sxs-lookup"><span data-stu-id="e0c2d-150">1</span></span>      | <span data-ttu-id="e0c2d-151">0.75</span><span class="sxs-lookup"><span data-stu-id="e0c2d-151">0.75</span></span>          |
+
+<span data-ttu-id="e0c2d-152">Mokesčio sumos skaičiavimas naudojant skirtingas parametro parinktis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-152">Tax amount calculation in different parameter options</span></span>
+
+<span data-ttu-id="e0c2d-153">Mokesčio suma = 100 EUR</span><span class="sxs-lookup"><span data-stu-id="e0c2d-153">Tax amount = 100 EUR</span></span>
+
+| <span data-ttu-id="e0c2d-154">PVM konvertavimo parametrai</span><span class="sxs-lookup"><span data-stu-id="e0c2d-154">Sales tax conversion parameters</span></span> | <span data-ttu-id="e0c2d-155">Operacijos valiuta (EUR)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-155">Transaction currency (EUR)</span></span> | <span data-ttu-id="e0c2d-156">Apskaitos valiuta (USD)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-156">Accounting currency (USD)</span></span> | <span data-ttu-id="e0c2d-157">Ataskaitų valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-157">Reporting currency (GBP)</span></span> | <span data-ttu-id="e0c2d-158">Mokesčių valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-158">Tax currency (GBP)</span></span> |
+| ------------------------------- | -------------------------- | ------------------------- | ------------------------ | ------------------ |
+| <span data-ttu-id="e0c2d-159">Apskaitos valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-159">Accounting currency</span></span>             | <span data-ttu-id="e0c2d-160">100</span><span class="sxs-lookup"><span data-stu-id="e0c2d-160">100</span></span>                        | <span data-ttu-id="e0c2d-161">111</span><span class="sxs-lookup"><span data-stu-id="e0c2d-161">111</span></span>                       | <span data-ttu-id="e0c2d-162">83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-162">83</span></span>                       | <span data-ttu-id="e0c2d-163">**83.25**</span><span class="sxs-lookup"><span data-stu-id="e0c2d-163">**83.25**</span></span>          |
+| <span data-ttu-id="e0c2d-164">Ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-164">Reporting currency</span></span>              | <span data-ttu-id="e0c2d-165">100</span><span class="sxs-lookup"><span data-stu-id="e0c2d-165">100</span></span>                        | <span data-ttu-id="e0c2d-166">111</span><span class="sxs-lookup"><span data-stu-id="e0c2d-166">111</span></span>                       | <span data-ttu-id="e0c2d-167">83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-167">83</span></span>                       | <span data-ttu-id="e0c2d-168">**83**</span><span class="sxs-lookup"><span data-stu-id="e0c2d-168">**83**</span></span>             |
+
+<span data-ttu-id="e0c2d-169">Šis parametras gali būti sukonfigūruotas, atsižvelgiant į tai, ko reikalauja mokesčių inspekcija.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-169">This parameter can be configured based on the compliance need from tax authority.</span></span>
+
+
+### <a name="upgrade-consideration"></a><span data-ttu-id="e0c2d-170">Atnaujinimo aplinkybės</span><span class="sxs-lookup"><span data-stu-id="e0c2d-170">Upgrade Consideration</span></span>
+
+<span data-ttu-id="e0c2d-171">Ši funkcija bus taikoma tik naujoms operacijoms.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-171">This feature will only apply for new transactions.</span></span> <span data-ttu-id="e0c2d-172">Mokesčių operacijai, kuri jau įrašyta TAXTRANS lentelėje, bet dar nėra sudengta, sistema neperskaičiuos mokesčių sumos mokesčių valiuta, nes registruojant mokestį nėra valiutos kurso.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-172">For tax transaction already saved in TAXTRANS table but not settled yet, system will not recalculate tax amount in tax currency because the exchange rate at time point of posting tax is already missing.</span></span>
+
+<span data-ttu-id="e0c2d-173">Kad būtų užkirstas kelias ankstesniam scenarijui, rekomenduojame pakeisti šią parametro vertę nauju (švariu) mokesčių sudengimo laikotarpiu, kuriame nėra nesudengtų mokesčių operacijų.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-173">To prevent preceding scenario, we recommend changing this parameter value in a new (clean) tax settlement period that doesn't contain any unsettled tax transactions.</span></span> <span data-ttu-id="e0c2d-174">Norėdami pakeisti šią vertę mokesčių sudengimo laikotarpio viduryje, prieš keisdami šio parametro reikšmę vykdykite dabartinio mokesčių sudengimo laikotarpio programą Sudengti ir registruoti PVM.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-174">To change this value in the middle of a tax settlement period, please run "Settle and post sales tax" program for current tax settlement period before changing this parameter value.</span></span>
+
+
+## <a name="track-reporting-currency-tax-amount"></a><span data-ttu-id="e0c2d-175">Mokesčių sumos ataskaitų valiuta sekimas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-175">Track reporting currency tax amount</span></span>
+
+<span data-ttu-id="e0c2d-176">Trys nauji laukai buvo įtraukti į su mokesčiais susijusias lenteles, kad būtų galima sekti sumas ataskaitų valiuta.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-176">Three new fields were added to tax-related tables to track amounts in the reporting currency.</span></span> <span data-ttu-id="e0c2d-177">Šie laukai yra lentelėse TAXUNCOMMITTED ir TAXTRANS:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-177">These fields are within the TAXUNCOMMITTED and TAXTRANS tables:</span></span>
+
+- <span data-ttu-id="e0c2d-178">TaxAmountRep: mokesčių suma ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-178">TaxAmountRep: tax amount in reporting currency</span></span>
+- <span data-ttu-id="e0c2d-179">TaxBaseAmountRep: bazinė suma ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-179">TaxBaseAmountRep: base amount in reporting currency</span></span>
+- <span data-ttu-id="e0c2d-180">TaxInCostPriceRep: neišskaitoma suma ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-180">TaxInCostPriceRep: non-deductible amount in reporting currency</span></span>
+
+<span data-ttu-id="e0c2d-181">Mokesčių, tik įrašytų lentelėje TAXUNCOMMITTED, bet dar neužregistruotų atveju sistema perskaičiuos mokesčių sumą ataskaitų valiuta, kai registruos, ir įrašys lentelėje TAXTRANS.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-181">For tax only saved in TAXUNCOMMITTED table but not posted yet, system will recalculate tax amount in reporting currency at the time of posting and save in TAXTRANS table.</span></span>
+
+<span data-ttu-id="e0c2d-182">Šioje versijoje nėra pakeitimų, susijusių su ataskaitomis ir formomis, kuriose rodoma mokesčių suma ataskaitų valiuta.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-182">This release will not include changes to reports and forms that show the tax amount in the reporting currency.</span></span> <span data-ttu-id="e0c2d-183">Ataskaitų ir formų pakeitimai bus pristatyti būsimose versijose.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-183">Changes to reports and forms will be delivered in the future release.</span></span>
+
+
+
+## <a name="tax-settlement-auto-balance-in-reporting-currency"></a><span data-ttu-id="e0c2d-184">Mokesčių sudengimo automatinis balansas ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-184">Tax settlement auto-balance in reporting currency</span></span>
+
+<span data-ttu-id="e0c2d-185">Jei mokesčių sudengimas nėra subalansuotas ataskaitų valiuta dėl tam tikrų priežasčių, pvz., PVM konvertavimo kelias yra Apskaitos valiuta, arba valiutos kursas pasikeitė vieno mokesčio sudengimo laikotarpiu, sistema automatiškai sugeneruos apskaitos įrašus, kad būtų galima koreguoti mokesčio sumos nuokrypį ir kompensuoti jį pagal gautą pelną / nuostolį, kuris sukonfigūruotas DK sąrankoje.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-185">If the tax settlement is not balanced in the reporting currency for certain reason such as the sales tax conversion path is "Accounting currency", or the exchange rate change in a single tax settlement period, thebn the system will automatically generate accounting entries to adjust the tax amount variance and offset it against realized exchange gain/loss account, which is configured in Ledger setup.</span></span>
+
+<span data-ttu-id="e0c2d-186">Pagal ankstesnį pavyzdį šiai funkcijai pademonstruoti, įsivaizduokite, kad registravimo metu lentelėje TAXTRANS yra tokie duomenys.</span><span class="sxs-lookup"><span data-stu-id="e0c2d-186">Using the the previous example to demonstrate this feature, suppose that the data in TAXTRANS table at the time of posting is as follows.</span></span>
+
+| <span data-ttu-id="e0c2d-187">PVM konvertavimo parametrai</span><span class="sxs-lookup"><span data-stu-id="e0c2d-187">Sales tax conversion parameters</span></span> | <span data-ttu-id="e0c2d-188">Operacijos valiuta (EUR)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-188">Transaction currency (EUR)</span></span> | <span data-ttu-id="e0c2d-189">Apskaitos valiuta (USD)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-189">Accounting currency (USD)</span></span> | <span data-ttu-id="e0c2d-190">Ataskaitų valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-190">Reporting currency (GBP)</span></span> | <span data-ttu-id="e0c2d-191">Mokesčių valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-191">Tax currency (GBP)</span></span> |
+| ------------------------------- | -------------------------- | ------------------------- | ------------------------ | ------------------ |
+| <span data-ttu-id="e0c2d-192">Apskaitos valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-192">Accounting currency</span></span>             | <span data-ttu-id="e0c2d-193">100</span><span class="sxs-lookup"><span data-stu-id="e0c2d-193">100</span></span>                        | <span data-ttu-id="e0c2d-194">111</span><span class="sxs-lookup"><span data-stu-id="e0c2d-194">111</span></span>                       | <span data-ttu-id="e0c2d-195">83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-195">83</span></span>                       | <span data-ttu-id="e0c2d-196">**83.25**</span><span class="sxs-lookup"><span data-stu-id="e0c2d-196">**83.25**</span></span>          |
+| <span data-ttu-id="e0c2d-197">Ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-197">Reporting currency</span></span>              | <span data-ttu-id="e0c2d-198">100</span><span class="sxs-lookup"><span data-stu-id="e0c2d-198">100</span></span>                        | <span data-ttu-id="e0c2d-199">111</span><span class="sxs-lookup"><span data-stu-id="e0c2d-199">111</span></span>                       | <span data-ttu-id="e0c2d-200">83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-200">83</span></span>                       | <span data-ttu-id="e0c2d-201">**83**</span><span class="sxs-lookup"><span data-stu-id="e0c2d-201">**83**</span></span>             |
+
+<span data-ttu-id="e0c2d-202">Paleidus PVM sudengimo programą mėnesio pabaigoje, apskaitos įrašas bus toks:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-202">When you run the sales tax settlement program at month-end, the accounting entry will be as follows:.</span></span>
+#### <a name="scenario-sales-tax-conversion--accounting-currency"></a><span data-ttu-id="e0c2d-203">Scenarijus: PVM konvertavimas = apskaitos valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-203">Scenario: sales tax conversion = "Accounting currency"</span></span>
+
+| <span data-ttu-id="e0c2d-204">Korespondentinė sąskaita, subsąskaita</span><span class="sxs-lookup"><span data-stu-id="e0c2d-204">Main account</span></span>           | <span data-ttu-id="e0c2d-205">Operacijos valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-205">Transaction currency (GBP)</span></span> | <span data-ttu-id="e0c2d-206">Apskaitos valiuta (USD)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-206">Accounting currency (USD)</span></span> | <span data-ttu-id="e0c2d-207">Ataskaitų valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-207">Reporting currency (GBP)</span></span> |
+| ---------------------- | -------------------------- | ------------------------- | ------------------------ |
+| <span data-ttu-id="e0c2d-208">Mokėtinas / susigrąžinamas mokestis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-208">Tax Payable/Receivable</span></span> | <span data-ttu-id="e0c2d-209">-83,25</span><span class="sxs-lookup"><span data-stu-id="e0c2d-209">-83.25</span></span>                     | <span data-ttu-id="e0c2d-210">-111</span><span class="sxs-lookup"><span data-stu-id="e0c2d-210">-111</span></span>                      | <span data-ttu-id="e0c2d-211">-83,25</span><span class="sxs-lookup"><span data-stu-id="e0c2d-211">-83.25</span></span>                   |
+| <span data-ttu-id="e0c2d-212">Mokesčio sudengimas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-212">Tax Settlement</span></span>         | <span data-ttu-id="e0c2d-213">83.25</span><span class="sxs-lookup"><span data-stu-id="e0c2d-213">83.25</span></span>                      | <span data-ttu-id="e0c2d-214">111</span><span class="sxs-lookup"><span data-stu-id="e0c2d-214">111</span></span>                       | <span data-ttu-id="e0c2d-215">83.25</span><span class="sxs-lookup"><span data-stu-id="e0c2d-215">83.25</span></span>                    |
+| <span data-ttu-id="e0c2d-216">Gautas pelnas / nuostolis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-216">Realized Gain/Loss</span></span>     | <span data-ttu-id="e0c2d-217">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-217">0</span></span>                          | <span data-ttu-id="e0c2d-218">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-218">0</span></span>                         | <span data-ttu-id="e0c2d-219">-0,25</span><span class="sxs-lookup"><span data-stu-id="e0c2d-219">-0.25</span></span>                    |
+| <span data-ttu-id="e0c2d-220">Mokėtinas / susigrąžinamas mokestis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-220">Tax Payable/Receivable</span></span> | <span data-ttu-id="e0c2d-221">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-221">0</span></span>                          | <span data-ttu-id="e0c2d-222">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-222">0</span></span>                         | <span data-ttu-id="e0c2d-223">0.25</span><span class="sxs-lookup"><span data-stu-id="e0c2d-223">0.25</span></span>                     |
+
+#### <a name="scenario-sales-tax-conversion--reporting-currency"></a><span data-ttu-id="e0c2d-224">Scenarijus: PVM konvertavimas = ataskaitų valiuta</span><span class="sxs-lookup"><span data-stu-id="e0c2d-224">Scenario: sales tax conversion = "Reporting currency"</span></span>
+
+
+| <span data-ttu-id="e0c2d-225">Korespondentinė sąskaita, subsąskaita</span><span class="sxs-lookup"><span data-stu-id="e0c2d-225">Main account</span></span>           | <span data-ttu-id="e0c2d-226">Operacijos valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-226">Transaction currency (GBP)</span></span> | <span data-ttu-id="e0c2d-227">Apskaitos valiuta (USD)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-227">Accounting currency (USD)</span></span> | <span data-ttu-id="e0c2d-228">Ataskaitų valiuta (GBP)</span><span class="sxs-lookup"><span data-stu-id="e0c2d-228">Reporting currency (GBP)</span></span> |
+| ---------------------- | -------------------------- | ------------------------- | ------------------------ |
+| <span data-ttu-id="e0c2d-229">Mokėtinas / susigrąžinamas mokestis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-229">Tax Payable/Receivable</span></span> | <span data-ttu-id="e0c2d-230">-83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-230">-83</span></span>                        | <span data-ttu-id="e0c2d-231">-110,67</span><span class="sxs-lookup"><span data-stu-id="e0c2d-231">-110.67</span></span>                   | <span data-ttu-id="e0c2d-232">-83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-232">-83</span></span>                      |
+| <span data-ttu-id="e0c2d-233">Mokesčio sudengimas</span><span class="sxs-lookup"><span data-stu-id="e0c2d-233">Tax Settlement</span></span>         | <span data-ttu-id="e0c2d-234">83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-234">83</span></span>                         | <span data-ttu-id="e0c2d-235">110.67</span><span class="sxs-lookup"><span data-stu-id="e0c2d-235">110.67</span></span>                    | <span data-ttu-id="e0c2d-236">83</span><span class="sxs-lookup"><span data-stu-id="e0c2d-236">83</span></span>                       |
+| <span data-ttu-id="e0c2d-237">Gautas pelnas / nuostolis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-237">Realized Gain/Loss</span></span>     | <span data-ttu-id="e0c2d-238">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-238">0</span></span>                          | <span data-ttu-id="e0c2d-239">0.33</span><span class="sxs-lookup"><span data-stu-id="e0c2d-239">0.33</span></span>                      | <span data-ttu-id="e0c2d-240">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-240">0</span></span>                        |
+| <span data-ttu-id="e0c2d-241">Mokėtinas / susigrąžinamas mokestis</span><span class="sxs-lookup"><span data-stu-id="e0c2d-241">Tax Payable/Receivable</span></span> | <span data-ttu-id="e0c2d-242">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-242">0</span></span>                          | <span data-ttu-id="e0c2d-243">-0,33</span><span class="sxs-lookup"><span data-stu-id="e0c2d-243">-0.33</span></span>                     | <span data-ttu-id="e0c2d-244">0</span><span class="sxs-lookup"><span data-stu-id="e0c2d-244">0</span></span>                        |
+
+
+
+<span data-ttu-id="e0c2d-245">Daugiau informacijos ieškokite šiose temose:</span><span class="sxs-lookup"><span data-stu-id="e0c2d-245">For more information, see the following topics:</span></span>
+
+- [<span data-ttu-id="e0c2d-246">Dvi valiutos</span><span class="sxs-lookup"><span data-stu-id="e0c2d-246">Dual currency</span></span>](dual-currency.md)
+- [<span data-ttu-id="e0c2d-247">PVM apžvalga</span><span class="sxs-lookup"><span data-stu-id="e0c2d-247">Sales tax overview</span></span>](indirect-taxes-overview.md)
+
