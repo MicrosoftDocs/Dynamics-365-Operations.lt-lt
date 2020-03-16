@@ -1,6 +1,6 @@
 ---
-title: Mažmeninės prekybos funkcionalumo profilio kūrimas
-description: Šioje temoje aprašoma, kaip sukurti mažmeninės prekybos funkcionalumo profilį, naudojant „Microsoft Dynamics 365 Commerce“.
+title: Mažmeninės prekybos funkcijų šablono kūrimas
+description: Šioje temoje aprašoma, kaip sukurti funkcionalumo profilį, naudojant „Microsoft Dynamics 365 Commerce“.
 author: samjarawan
 manager: annbe
 ms.date: 01/27/2020
@@ -17,27 +17,27 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9fb0fd63b11e55f2b153fc9c135f148a6e343057
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6bee51eb25b04eb65e588dd4cf54a0cef587aa15
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002848"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057353"
 ---
-# <a name="create-a-retail-functionality-profile"></a>Mažmeninės prekybos funkcionalumo profilio kūrimas
+# <a name="create-a-retail-functionality-profile"></a>Mažmeninės prekybos funkcijų šablono kūrimas
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip sukurti mažmeninės prekybos funkcionalumo profilį, naudojant „Microsoft Dynamics 365 Commerce“.
+Šioje temoje aprašoma, kaip sukurti funkcionalumo profilį, naudojant „Microsoft Dynamics 365 Commerce“.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Mažmeninės prekybos funkcionalumo profilyje pateikiami įvairūs internetinių kanalų parametrai. Kiekvienas mažmeninės prekybos kanalas turi nurodyti mažmeninės prekybos funkcionalumo profilį.
+Prekybos funkcionalumo profilyje pateikiami įvairūs interneto kanalų parametrai. Kiekvienas kanalas turi nurodyti funkcionalumo profilį.
 
-## <a name="create-a-retail-functionality-profile"></a>Mažmeninės prekybos funkcionalumo profilio kūrimas
+## <a name="create-a-functionality-profile"></a>Kurti funkcijų šabloną
 
-Norėdami sukurti mažmeninės prekybos funkcionalumo profilį, atlikite toliau nurodytus veiksmus.
+Norėdami sukurti funkcionalumo profilį, atlikite toliau nurodytus veiksmus.
 
 1. Naršymo srityje eikite į **Moduliai \> Kanalo sąranka \> EKA profiliai \> Funkcionalumo profiliai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
@@ -51,9 +51,9 @@ Norėdami sukurti mažmeninės prekybos funkcionalumo profilį, atlikite toliau 
 1. Jei reikia, skyriuje **Informacijos kodai** pakeiskite kitus nustatymus.
 1. Jei reikia, skyriuje **Kvitų numeravimas** pakeiskite kitus nustatymus. 
   
-Toliau parodytame paveikslėlyje pavaizduotas mažmeninės prekybos funkcionalumo profilio pavyzdys.
+Toliau pateiktame vaizde parodytas funkcionalumo profilio pavyzdys.
   
-![Mažmeninės prekybos funkcionalumo profilio pavyzdys](media/retail-functionality-profile.png)
+![Funkcionalumo profilio pavyzdys](media/retail-functionality-profile.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

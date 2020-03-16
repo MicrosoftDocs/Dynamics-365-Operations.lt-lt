@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: c0c303ec5d009fce0c975eb797f018b5e27a41eb
-ms.sourcegitcommit: 4c60f5dccdf0b94ed110a657ef331546adc5424a
+ms.openlocfilehash: 6e18e8108a7382bfa052986bab5a8552e38100c6
+ms.sourcegitcommit: a2f9dce06322dada6b5f1c82051ef2359f8c0f12
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "2982412"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "3081846"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-january-21-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2020 m. sausio 21 d.)
 
@@ -82,4 +82,4 @@ Nauju „Common Data Service” sprendimu greitai galėsite naudotis atlikdami �
 | Objekto **Įdarbinimas** keitimai | <ul><li>Pridėta **Finansinės dimensijos**</li><li>Pridėta **Atleidimo priežastis**</li><li>**Perėjimo data** pervardyta į **Atleidimo data**</li><li>Pridėta **Bandomojo laikotarpio data**</li></ul> |
 | Objekto **Darbininko adresas** keitimai | <ul><li>Pridėta **Gatvė**</li><li>**1 adreso eilutė**, **2 adreso eilutė**ir **3 adreso eilutė** pažymėtos kaip nebenaudojamos</li></ul> |
 | Nauji kintamosios atlyginimo dalies sąrankos objektai | <ul><li>**Kompensacijų kitimo plano tipas**</li><li>**Kompensacijų kitimo planas**</li><li>**Kintamosios atlyginimo dalies paskirstymo taisyklės**</li><li>**Kompensacijų kitimo plano lygis**</li></ul> |
-| Naujas objektas **Darbininko įdarbinimo kalendorius** | <ul><li>Pridėta **Darbo kalendoriaus objektas**</li></ul> |
+| Naujas objektas **Darbuotojo įdarbinimo kalendorius** | <ul><li>Pridėta **Darbo kalendoriaus objektas**</li></ul> |

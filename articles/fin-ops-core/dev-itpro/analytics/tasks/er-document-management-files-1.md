@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82b1719990caeb1b383ab806a3e09a4c4a6e41a
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c6085f2f06fb374887d504c332a34705f0fd9e99
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026139"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042832"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-1---prepare-data-model"></a>ER: dokumentų valdymo failų naudojimas formato išvestyse (1 dalis – Duomenų modelio ruošimas)
 
@@ -36,10 +36,14 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje
 
 ## <a name="get-access-to-the-list-of-configurations-provided-by-microsoft"></a>Gaukite prieigą prie „Microsoft“ teikiamų konfigūracijų sąrašo
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Įsitikinkite, kad teikėjas „Litware, Inc.“ yra pasiekiamas ir pažymėtas kaip aktyvus.  
+
+    Įsitikinkite, kad teikėjas „Litware, Inc.“ yra pasiekiamas ir pažymėtas kaip aktyvus.  
+
 2. Pasirinkite „Litware, Inc.“ „Litware, Inc.“.
 3. Spustelėkite Saugyklos.
-    * Jei tipo Operacijų ištekliai saugykla jau yra, praleiskite likusius dabartinės antrinės užduoties veiksmus.  
+
+    Jei tipo Operacijų ištekliai saugykla jau yra, praleiskite likusius dabartinės antrinės užduoties veiksmus.  
+
 4. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
 5. Lauke Konfigūracijų saugyklos tipas įveskite Operacijų ištekliai.
 6. Spustelėkite Kurti saugyklą.
@@ -51,9 +55,13 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje
 3. Spustelėkite Rodyti filtrus.
 4. Spustelėkite Atidaryti.
 5. Medyje pasirinkite Kliento SF modelis.
-    * Pasirinkite modelio konfigūraciją Kliento SF modelis, kad ją importuotumėte.  
+
+    Pasirinkite modelio konfigūraciją Kliento SF modelis, kad ją importuotumėte.  
+
 6. Spustelėkite Importuoti.
-    * Spustelėkite Importuoti 1 pasirinktos konfigūracijos versiją.  
+
+    Spustelėkite Importuoti 1 pasirinktos konfigūracijos versiją.  
+
 7. Spustelėkite Taip.
 8. Uždarykite puslapį.
 9. Uždarykite puslapį.
@@ -65,6 +73,5 @@ Savo kliento SF modelio konfigūraciją sukursite pagal „Microsoft“ pateikt�
 1. Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.
 2. Lauke Naujas įveskite Kildinti iš pavadinimo: kliento SF modelis, „Microsoft“.
 3. Lauke Pavadinimas įveskite Kliento SF modelis (pasirinktinis).
-    * Kliento SF modelis (pasirinktinis)  
 4. Spustelėkite Sukurti konfigūraciją.
 

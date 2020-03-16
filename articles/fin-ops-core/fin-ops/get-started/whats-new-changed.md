@@ -3,7 +3,7 @@ title: Kas nauja ar pasikeitė „Finance and Operations“ programų pagrindini
 description: Šiame puslapyje nurodomos temos, kurios gali padėti jums sužinoti daugiau apie naujas funkcijas naujausiose „Finance and Operations“ programose.
 author: josaw1
 manager: AnnBe
-ms.date: 01/31/2020
+ms.date: 02/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 70901bedff1babadff6586aa2f584db87d71bcc7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 39f72c534c7179f4535e6eb8a31ef7e9b72b7b88
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003788"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076047"
 ---
 # <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a>Kas nauja ar pasikeitė „Finance and Operations“ programų pagrindiniame puslapyje
 [!include [banner](../includes/banner.md)]
@@ -38,11 +38,17 @@ Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Finance and Operatio
 - **„Finance”:** [Kas nauja ar pasikeitė „Dynamics 365 Finance”](../../../finance/get-started/whats-new-home-page.md) 
 - **„Supply Chain Management”:** [„Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management”](../../../supply-chain/get-started/whats-new-home-page.md) 
 - **„Commerce”:** [Kas nauja ar pasikeitė „Dynamics 365 Commerce”](../../../retail/get-started/whats-new-home-page.md)
+- **„Human Resources”:**[kas nauja ar pasikeitė „Dynamics 365 Human Resources“](../../../human-resources/hr-admin-whats-new.md)
 
 ## <a name="platform-updates"></a>Platformos naujinimai
 
 Norėdami sužinoti, kas nauja ar pasikeitė „Finance and Operations” programų platformų naujinimuose, žr. šią temą:
 
-- [Kas nauja ar pasikeitė platformų naujinimuose](../../dev-itpro/get-started/whats-new-home-page.md)
+- [Kas nauja ar pasikeitė „Platform“ naujinimuose](../../dev-itpro/get-started/whats-new-home-page.md)
+
+## <a name="lifecycle-services-releases"></a>„Lifecycle Services“ leidimai
+Norėdami sužinoti, kas nauja ar pasikeitė „Lifecycle Services“, žr. šią temą:
+
+- [Kas nauja ar pasikeitė „Lifecycle Services” (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 

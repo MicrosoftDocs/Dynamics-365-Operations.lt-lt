@@ -3,7 +3,7 @@ title: DUK apie darbo eigas
 description: Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdddd26a662e9334f6d3c9806871df5b58ec03c7
-ms.sourcegitcommit: 4d77d06a07ec9e7a3fcbd508afdffaa406fd3dd8
+ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2934914"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076091"
 ---
 # <a name="workflow-faq"></a>DUK apie darbo eigas
 
@@ -34,7 +34,7 @@ Kai atmetamas darbo elementas, tas darbo elementas užbaigiamas kaip atmestas. S
 Kiekvienas pranešimas skirtas skirtingam darbo elementui, tačiau dėl panašumų gali kilti painiava. Ieškome būdų, kaip šią situaciją išspręsti būsimuose leidimuose.
 
 ## <a name="why-are-my-workflow-exports-failing"></a>Kodėl man nepavyksta eksportuoti darbo eigos?
-Šiuo metu darbo eigos eksportavimo funkcija yra ribojama darbo eigos pavadinimams neleidžiant viršyti 48 ženklų. Naudojant ilgesnius kaip 48 ženklų pavadinimus, pateikiama klaida „Serveriui nepavyko autentifikuoti užklausos“ ir (arba) neleidžiama eksportuoti failo be failo tipo. Šiame tinklaraščio įraše pateikiama išsamesnė informacija [Darbo eigos eksportavimo trikčių šalinimas](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
+Šiuo metu darbo eigos eksportavimo funkcija yra ribojama darbo eigos pavadinimams neleidžiant viršyti 48 ženklų. Naudojant ilgesnius kaip 48 ženklų pavadinimus, pateikiama klaida „Serveriui nepavyko autentifikuoti užklausos“ ir (arba) neleidžiama eksportuoti failo be failo tipo. Šiame tinklaraščio įraše pateikiama išsamesnė informacija, [Darbo eigos eksportavimo trikčių šalinimas](https://community.dynamics.com/ax/b/elandaxdynamicsaxupgradesanddevelopment/archive/2019/04/10/workflow-export-troubleshooting).
 
 ## <a name="can-the-submitter-of-a-workflow-also-approve-the-workflow"></a>Ar darbo eigos pateikėjas gali ją taip pat ir tvirtinti?
 Taip, darbo eigos pateikėjas taip pat gali ją tvirtinti, jei darbo eiga taip sukonfigūruota. Jei norite to neleisti, nustatykite **Sistemos administravimas > Darbo eiga > Darbo eigos parametrai > Bendra > Tvirtintojas > Neleisti tvirtinti pateikėjui** reikšmę **Taip**.
@@ -52,5 +52,9 @@ Toliau pateikiamos kelios pagrindinės sritys, susijusios su įspėjimų įtrauk
 
 Apibendrinant, jei vartotojas negauna tinkamo pranešimo iš veiksmų centro, kai jam priskiriamas darbo eigos darbo elementas, naudokite [Darbo eigos verslo įvykiai](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) programoje „Microsoft Power Automate“, kad pateiktumėte papildomų arba kitokių pranešimų.
 
-## <a name="workflow-editor-has-trouble-starting-under-adfs"></a>Darbo eigos rengyklės nepavyksta paleisti naudojant ADFS 
+## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Kodėl nepavyksta paleisti darbo eigos rengyklės, naudojant AD FS?
 Kai darbo eigos rengyklė veikia naudojant „Active Directory“ susiejimo tarnybą (AD FS) atnaujintoje aplinkoje, gali nepavykti paleisti rengyklę. Šiuo atveju įsitikinkite, kad URL "https://dynamicsaxworkfloweditor/" įtrauktas į ypatybę **„Microsoft Dynamics 365 for Operations“ (vietinė) - Darbo eiga - Vietinė programa** ADFS parametruose.
+
+## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Kodėl apdorojant darbo eigą atsiranda SQL aklaviečių? 
+Puslapyje **Darbo eigos parametrai** esančio lauko **Darbo eigos elementų skaičius vienoje paketinėje** numatytoji reikšmė yra 0. Jei reikšmė yra 0, numatytoji reikšmė keičiasi į 20 elementų vienoje paketinėje. Būkite atsargūs, koreguodami šią reikšmę, nes dėl didelio elementų skaičiaus vienoje paketinėje (> 40) gali atsirasti SQL aklaviečių.
+

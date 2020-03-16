@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a46ff0a1d6e29cc567a86fae60ff803a102d1a2e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3b04f78f2a8210837e16c8246609ad2fddd804f0
+ms.sourcegitcommit: 0dace221e8874021dd212271567666f717d39793
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181225"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "3071595"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Išplėstinės finansinių ataskaitų formatavimo parinktys
 
@@ -216,7 +216,7 @@ Skaičiavimo formulėje naudojami sudėtingesni operatoriai nei eilučių sumos 
 Jei eilutės aprašo eilutė turi **KPL** formato kodą ir langelyje **Susijusios formulės / eilutės / vienetai** įvedate matematinį skaičiavimą, taip pat turite įvesti susieto stulpelio raidę ir ataskaitos eilutę. Pavyzdžiui, įveskite **A.120** – tai reiškia A stulpelis, 120 eilutė. Arba galite naudoti ženklą eta (@) visiems stulpeliams nurodyti. Pavyzdžiui, įveskite **@120** – tai reiškia visus 120 eilutės stulpelius. Bet koks matematinis skaičiavimas, neturintis stulpelio raidės arba ženklo eta (@), laikomas realiuoju skaičiumi.
 
 > [!NOTE]
-> Pastaba. Jei naudojate žymės eilutės kodą eilutei nurodyti, turite naudoti tašką (.) kaip skyriklį tarp stulpelio raidės ir žymės (pavyzdžiui, **A.BRUTOMARŽA\_A.PARDAVIMAS**). Jei naudojate ženklą (@), skyriklis nebūtinas (pavyzdžiui, **@BRUTO\_MARŽA/@PARDAVIMAS**).
+> Pastaba. Jei naudojate žymės eilutės kodą eilutei nurodyti, turite naudoti tašką (.) kaip skyriklį tarp stulpelio raidės ir žymės (pavyzdžiui, **A.BRUTOMARŽA\_A.PARDAVIMAS**). Jei naudojate ženklą (@), skyriklis nebūtinas (pavyzdžiui, **\@BRUTOMARŽA\_/@PARDAVIMAS**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Konkretaus stulpelio skaičiavimo formulės pavyzdys
 

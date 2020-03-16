@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9f043d66fbd417633de71b5fa12b13b3f04e3452
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023378"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057815"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Skambučių centro pristatymo būdų ir mokesčių konfigūravimas
 
@@ -66,7 +66,7 @@ Išlaidas galima sukonfigūruoti taip, kad jos būtų taikomos konkrečiam prist
 
 Skyriuje **Eilutės**, jei reikia, vieną ar kelias išlaidų sumas galite apibrėžti pagal valiutą. Išlaidos turi būti susietos su išlaidų kodu, kuriuo apibrėžiamos su išlaidomis susiję finansų registravimo taisyklės. Laukas **Kategorija** naudojamas norint apibrėžti, kaip skaičiuojamos išlaidos. Pvz., jei klientams turi būti taikomas fiksuotas 9,95 USD išlaidų tarifas, kad užsakymą būtų galima išsiųsti taikant konkretų pristatymo būdą, naudokite kategoriją **Fiksuotas**. Jei įmonė nusprendžia apmokestinti klientus procentine dalimi nuo bendros užsakymo sumos, kad padengtų pristatymo išlaidas, naudokite kategoriją **Procentas**. Faktinės klientams tenkančios išlaidos apibrėžiamos lauke **Išlaidų vertė**.
 
-Mažmeninės prekybos įmonės dažnai konfigūruoja pakopines išlaidas. Tokiu atveju suma, kurią, klientai sumoka už pristatymą, priklauso nuo užsakymo vertės. Norėdami sukonfigūruoti pakopines išlaidas, laukuose **Suma Nuo** ir **Suma Iki** įveskite reikšmes, o lauke **Išlaidų vertė** apibrėžkite pačią vertę. Pvz., užsakymų, kurių vertė mažesnė nei 50 USD, atveju, mažmenininkas už siuntas antžeminiu transportu taikys 5,95 USD mokestį. Užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas taikys 7,95 USD mokestį. Galiausiai, užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas netaikys siuntimo mokesčio. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
+Įmonės dažnai konfigūruoja pakopines išlaidas. Tokiu atveju suma, kurią, klientai sumoka už pristatymą, priklauso nuo užsakymo vertės. Norėdami sukonfigūruoti pakopines išlaidas, laukuose **Suma Nuo** ir **Suma Iki** įveskite reikšmes, o lauke **Išlaidų vertė** apibrėžkite pačią vertę. Pvz., užsakymų, kurių vertė mažesnė nei 50 USD, atveju, mažmenininkas už siuntas antžeminiu transportu taikys 5,95 USD mokestį. Užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas taikys 7,95 USD mokestį. Galiausiai, užsakymų, kurių vertė lygi 50 USD arba yra didesnė, bet mažesnė nei 100 USD, atveju, mažmenininkas netaikys siuntimo mokesčio. Toliau pateiktoje iliustracijoje pavaizduota šių išlaidų konfigūracija.
 
 ![Fiksuotų pakopinių išlaidų pavyzdys](media/fixedtieredcharges.png)
 

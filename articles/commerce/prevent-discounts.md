@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 822bd39bca3a95f073bacea90a8ee58eada50ae2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 6a683ffce487dc4388711ad160c2e8dc55a690dd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023466"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057469"
 ---
 # <a name="options-for-preventing-discounts-for-retail-products"></a>Nuolaidų mažmeninės prekybos produktams nesuteikimo parinktys
 
@@ -32,7 +32,7 @@ ms.locfileid: "3023466"
 
 Yra įvairių priežasčių, dėl kurių mažmenininkai gali norėti nesuteikti kai kuriems produktams nuolaidų EKA akcijų arba išpardavimų metu.
 
-Šios parinktys, kurias galima rasti išleistų produktų skirtuke **„+Commerce“**, leidžia sukonfigūruoti produktą, kad būtų išvengta visų ar rankiniu būdu nustatomų nuolaidų. Parametrus taip pat galima nurodyti kategorijos lygiu iš mažmeninės prekybos kategorijų hierarchijos.
+Šios parinktys, kurias galima rasti išleistų produktų skirtuke **„+Commerce“**, leidžia sukonfigūruoti produktą, kad būtų išvengta visų ar rankiniu būdu nustatomų nuolaidų. Parametrus taip pat galima nurodyti kategorijos lygiu iš kategorijų hierarchijos.
 
 - **Neleisti jokių nuolaidų** – pasirinkite šią parinktį norėdami neleisti šiam produktui taikyti jokių tipų nuolaidų. Tai apima akcijas prekių rinkiniams, nuolaidas dėl kiekio ir rankinės eilutės ir operacijų nuolaidas, kurias pardavimų metu taiko EKA vartotojas.
 - **Neleisti rankiniu būdu nustatomų nuolaidų** – pasirinkite šią parinktį norėdami neleisti rankiniu būdu nustatomos eilutės arba operacijos nuolaidų, kurias pardavimo metu taiko EKA vartotojas. Produktai su šia parinktimi vis tiek gali būti įtraukiami į reklamines akcijas, pvz., nuolaidas prekių rinkiniams ir kiekio nuolaidas.

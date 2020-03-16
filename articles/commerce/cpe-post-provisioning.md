@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 12d3a86698e9250f5d1645de51e0749c8d929f75
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024711"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057722"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>„Dynamics 365 Commerce” peržiūros aplinkos konfigūravimas
 
@@ -35,7 +35,7 @@ ms.locfileid: "3024711"
 
 Šios temos procedūras atlikite tik tada, kai „Commerce“ peržiūros aplinka yra parengta. Informacijos apie tai, kaip parengti „Commerce“ peržiūros aplinką, rasite temoje [„Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md).
 
-Kai „Commerce“ peržiūros aplinka visapusiškai parengta, pradėti ją vertinti galėsite tik atlikę papildomus po parengimo atliekamus konfigūravimo veiksmus. Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS), „Dynamics 365 Commerce“ ir „Dynamics 365 Retail“.
+Kai „Commerce“ peržiūros aplinka visapusiškai parengta, pradėti ją vertinti galėsite tik atlikę papildomus po parengimo atliekamus konfigūravimo veiksmus. Norėdami atlikti šiuos veiksmus, turite naudoti „Microsoft Dynamics Lifecycle Services“ (LCS) ir „Dynamics 365 Commerce“.
 
 ## <a name="before-you-start"></a>Prieš pradedant
 
@@ -53,7 +53,7 @@ Kai „Commerce“ peržiūros aplinka visapusiškai parengta, pradėti ją vert
 
 Norėdami susieti darbuotoją su jūsų tapatybe portale LCS, atlikite tolesnius veiksmus.
 
-1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> „Retail“ \> Darbuotojai \> Darbuotojai**.
+1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Darbuotojai \> Darbininkai**.
 1. Sąraše raskite ir pasirinkite šį įrašą **000713 - Andrew Collette**.
 1. Veiksmų srityje pasirinkite **„Retail“**.
 1. Pasirinkite **Susieti esamą tapatybę**.
@@ -91,12 +91,12 @@ Norėdami pradėti nustatyti peržiūros svetainę programoje „Commerce“, at
 1. Lauko **Kelias** reikšmę palikite tokią, kokia yra.
 1. Pasirinkite **Gerai**. Atsiranda svetainės puslapių sąrašas.
 
-## <a name="enable-jobs-in-retail"></a>Užduočių įjungimas programoje „Retail“
+## <a name="enable-jobs"></a>Užduočių įgalinimas
 
-Norėdami programoje „Retail“ įjungti užduotis, atlikite toliau nurodytus veiksmus.
+Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie aplinkos (būstinėje).
-1. Naudodami kairėje esantį meniu, nueikite į **„Retail“ \> Užklausos ir ataskaitos \> Paketines užduotys**.
+1. Naudodami kairėje esantį meniu, nueikite į **Mažmeninė prekyba ir prekyba \> Užklausos ir ataskaitos \> Paketines užduotys**.
 
     Likusius šios procedūros veiksmus reikia atlikti su kiekviena iš tolesnių užduočių.
 
@@ -112,11 +112,11 @@ Norėdami programoje „Retail“ įjungti užduotis, atlikite toliau nurodytus 
     1. Veiksmų srities skirtuke **Paketinė užduotis** pasirinkite **Keisti būseną**.
     1. Pasirinkite **Laukiama**, tada – **Gerai**.
 
-### <a name="run-full-data-synchronization-in-retail"></a>Visų duomenų sinchronizavimas programoje „Retail“
+### <a name="run-full-data-synchronization"></a>Vykdyti visą duomenų sinchronizavimą
 
-Norėdami sinchronizuoti visus duomenis programoje „Retail“, atlikite toliau nurodytus veiksmus.
+Norėdami sinchronizuoti visus duomenis programoje „Commerce“, atlikite toliau nurodytus veiksmus.
 
-1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> „Retail“ \> Būstinės sąranka \> Duomenų apsikeitimo valdymas \> Kanalo duomenų bazė**.
+1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Duomenų apsikeitimo valdymas \> Kanalo duomenų bazė**.
 1. Kairėje esančiame sąraše pasirenkamas kanalas **Numatytasis**. Pasirinkite kitą galimą kanalą. Šio kanalas pavadinimas – **scXXXXXXXXX**.
 1. Veiksmų srityje pasirinkite **Visas duomenų sinchronizavimas**.
 1. Įveskite **9999** kaip paskirstymo grafiką.
@@ -148,7 +148,7 @@ Norėdami konfigūruoti pasirenkamas „Commerce“ peržiūros aplinkos funkcij
 
 [„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md)
 
-[DUK apie „Dynamics 365 Commerce“ peržiūros aplinką](cpe-faq.md)
+[„Dynamics 365 Commerce“peržiūros aplinkos DUK](cpe-faq.md)
 
 [„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 

@@ -1,9 +1,9 @@
 ---
-title: Beveik realiuoju laiku vykstantis duomenų integravimas su „Common Data Service”
-description: Šioje temoje pateikiama integravimo tarp „Finance and Operations“ ir „Common Data Service“ apžvalga.
+title: Dvigubo rašymo apžvalga
+description: Šioje temoje pateikiama dvigubo rašymo apžvalga. Dvigubas rašymas yra infrastruktūra, kuri beveik realiuoju laiku teikia sąveiką tarp „Microsoft Dynamics 365” modeliu pagrįstų programų ir „Finance and Operations” programų.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,59 +18,91 @@ ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
-ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c09b0c0bb695e7695acb7a8821ffb99ae1f6f06
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 12c6a39700a260c138fab67ed370f94b3aa04213
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019922"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3075995"
 ---
-# <a name="near-real-time-data-integration-with-common-data-service"></a>Beveik realiuoju laiku vykstantis duomenų integravimas su „Common Data Service”
+# <a name="dual-write-overview"></a>Dvigubo rašymo apžvalga
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
-Šiame skaitmeniniame pasaulyje verslo ekosistemos naudoja „Microsoft Dynamics 365“ programas kaip visumą. Kadangi žmonių, klientų, operacijų ir daiktų interneto („IoT“) įrenginiai patenka į vieną šaltinį, galimos skaitmeninės grįžtamojo ryšio spragos. Norint pasiekti šią patirtį, būtinas integravimas tarp „Finance and Operations“ programų ir kitų „Dynamics 365“ programų. Kai kurios programos sukurtos remiantis „Common Data Service“. Integravus „Finance and Operations“ programų duomenis į „Common Data Service“, kitos programos nuosekliai ir sklandžiai palaiko ryšį su „Finance and Operations“.
+## <a name="what-is-dual-write"></a>Kas yra dvigubas rašymas?
 
-„Finance and Operations“ programos ir „Common Data Service“ užtikrina duomenų sinchronizavimą tarp „Finance and Operations“ programų ir kitų „Dynamics 365” programų beveik realiuoju laiku per dvigubo rašymo sistemą. Padengimas yra platus ir apima 28 programos paviršiaus sritis. Tikslas yra suteikti „One Dynamics 365“ vartotojo patirtį per sklandžius duomenų srautus, kurie jungia verslo procesus visose programose.
+Dvigubas rašymas yra parengta naudoti infrastruktūra, kuri beveik realiuoju laiku teikia sąveiką tarp „Microsoft Dynamics 365” esančių modeliu pagrįstų programų ir „Finance and Operations” programų. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
 
-![Struktūros apžvalgos diagrama](media/dual-write-overview.jpg)
+Dvigubu rašymu pateikiama glaudžiai susieta, dvikryptė integracija tarp „Finance and Operations” programų ir „Common Data Service”. Bet kokie duomenų keitimai, vykdomi „Finance and Operations” programose, taip pat įrašomi į „Common Data Service”, o bet kokie „Common Data Service” duomenų keitimai yra įrašomi  „Finance and Operations” programose. Šis automatizuotas duomenų srautas suteikia integruotą vartotojo patirtį susietose programose.
 
-Galimi tolesni vertės pasiūlymai.
+![Duomenų ryšys tarp programų](media/dual-write-overview.jpg)
 
-+ [Organizacijos hierarchija Common Data Service](organization-mapping.md)
-+ [Įmonės sąvoka programoje „Common Data Service“](company-data.md)
-+ [Integruotas kliento šablonas](customer-mapping.md)
-+ [Integruota didžioji knyga](ledger-mapping.md)
-+ [Bendrosios produkto funkcijos](product-mapping.md)
-+ [Integruotas tiekėjo šablonas](vendor-mapping.md)
-+ [Integruotos svetainės ir sandėliai](sites-warehouses-mapping.md)
-+ [Bendrieji integruotų mokesčių duomenys](tax-mapping.md)
+Dvigubo rašymo aspektai yra du – *infrastruktūros* aspektas ir *programos* aspektas.
 
-## <a name="system-requirements"></a>Sistemos reikalavimai
+### <a name="infrastructure"></a>Infrastruktūra
 
-Sinchroninis, dvikryptis, beveik realiojo laiko duomenų srautams reikia šių versijų:
+Dvigubo rašymo infrastruktūra yra išplėstinė ir patikima, joje yra šios pagrindinės funkcijos:
 
-+ Microsoft Dynamics 365 for Finance and Operations 10.0.4 versija (2019 m. liepos mėn.) su 28 arba naujesniu platformos versija
-+ Microsoft Dynamics 365 for Customer Engagement, 9.1 (4.2) arba naujesnė versija
++ Sinchroninis ir dvikryptis duomenų srautas tarp programų
++ Sinchronizavimas, kartu su atkūrimo, pristabdymo ir papildymo režimais, siekiant palaikyti sistemą internetiniu ir autonominiu / asinchroniniu režimais.
++ Galimybė sinchronizuoti pradinius duomenis tarp programų
++ Konsoliduotas veiklos rodinys ir duomenų administratorių klaidų žurnalas
++ Galimybė konfigūruoti pasirinktinius įspėjimus ir ribines vertes bei prenumeruoti pranešimus
++ Intuityviosios vartotojo sąsajos (UI) filtravimas ir transformacijos
++ Galimybė nustatyti ir peržiūrėti objekto priklausomybes ir ryšius
++ Ir standartinių, ir tinkintų objektų bei žemėlapių išplėtimas
++ Patikimas programos vykdymo ciklo valdymas
++ Naujo kliento iš anksto parengtos sąrankos funkcijos
 
-## <a name="setup-instructions"></a>Sąrankos instrukcijos
+### <a name="application"></a>Programos
 
-Norėdami nustatyti „Finance and Operations“ programų ir „Common Data Service“ integravimą, atlikite tolesnius veiksmus.
-    
-1. Informacijos apie dvigubo rašymo sistemos diegimą ieškokite [išsamiame vadove](https://aka.ms/dualwrite-docs) temoje „Dbigubo rašymo peržiūros paskelbimas“.
-2. Sprendimą atsisiųskite ir įdiekite iš „Yammer“ grupės [„Fin Ops and CDS/CE Integration via Dual-Write“](https://www.yammer.com/dynamicsaxfeedbackprograms/#/threads/inGroup?type=in_group&feedId=66052096). Pakete yra penki sprendimai:
+Dvigubu rašymu sukuriamas susiejimas tarp sąvokų, esančių „Finance and Operations” programose, ir sąvokų, esančių „Dynamics 365” modeliu pagrįstų programų. Ši integracija palaiko šiuos scenarijus:
 
-    + Dynamics365Company
-    + Valiutų kursai
-    + Dynamics365FinanceAndOperationsCommon
-    + Dynamics365FinanceCommon
-    + Dynamics365SupplyChainCommon
++ Bendrieji integruoto kliento duomenys
++ Prieiga prie kliento lojalumo kortelių ir atlygio taškų
++ Bendrojo produkto bendrosios funkcijos
++ Supratimas apie organizacijos hierarchiją
++ Bendrieji integruoto tiekėjo duomenys
++ Prieiga prie finansinių ir mokesčių nuorodos duomenų
++ Kainos pagal poreikį mechanizmo funkcijos
++ Integruotos potencialių klientų ir grynųjų pinigų funkcijos
++ Galimybė aptarnauti vidaus turtą ir klientų turtą per techninės pagalbos darbo vietoje agentus
++ Integruotos įsigijimo ir apmokėjimo funkcijos
++ Kliento duomenų ir dokumentų integruotos veiklos ir pastabos
++ Galimybė ieškoti turimų atsargų pasiekiamumą ir išsamią informaciją
++ Projekto ir grynųjų pinigų funkcijos
++ Galimybė tvarkyti kelis adresus ir vaidmenis naudojant šalies sąvoką
++ Vartotojams skirtas vieno šaltinio valdymas
++ Integruoti mažmeninės prekybos ir rinkodaros kanalai
++ Akcijų ir nuolaidų matomumas
++ Užklausų dėl aptarnavimo funkcijos
++ Racionalizuotos aptarnavimo operacijos
 
-3. Sekite vykdymo tvarką, skirtą [pradinių nuorodos duomenų sinchronizavimui](initial-sync.md).
-4. Jei susiduriate su dvigubo rašymo sinchronizavimo problemomis, žr. [„Duomenų integravimo tirikčių šalinimo vadovas](dual-write-troubleshooting.md).
+## <a name="top-reasons-to-use-dual-write"></a>Pagrindinės priežastys naudoti dvigubą rašymą
 
-> [!IMPORTANT]
-> Jūs negalite vienu metu paleisti funkcijos [Potencialus klientas į grynuosius pinigus](../../../../supply-chain/sales-marketing/prospect-to-cash.md) ir dvigubo rašymo. Jei naudojate potencialaus kliento į grynuosius pinigus sprendimą, turite jį pašalinti. Taip pat turite išjungti kliento ir tiekėjo dvigubo rašymo šablonus, kurie yra potencialaus kliento į grynuosius pinigus sprendimo dalis.
+Dvigubu rašymu pateikiama duomenų integracija „Microsoft Dynamics 365” programose. Ši patikima sistema susieja aplinkas ir įgalina skirtingas verslo programas dirbti kartu. Čia pateikiamos pagrindinės priežastys, kodėl reikia naudoti dvigubą rašymą:
+
++ Dvigubas rašymas suteikia glaudžiai susietą, beveik realiuoju laiku ir dvikryptę integraciją tarp „Finance and Operations” programų ir „Dynamics 365” modeliu pagrįstų programų. Su šiuo integravimu „Microsoft Dynamics 365“ tampa ypač daugialype visiems jūsų verslo sprendimams. Klientai, kurie naudoja „Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”, bet kurie naudoja ne „Microsoft” sprendimus kliento ryšių valdymui (CRM), ilgainiui renkasi dažniau „Dynamics 365” dėl jame palaikomo dvigubo rašymo.
++ Duomenys iš klientų, produktų, operacijų, projektų ir internetu sąveikaujančių įrenginių („IoT”) automatiškai siunčiami į „Common Data Service” naudojant dvigubą rašymą. Šis ryšys yra labai naudingas verslo įmonėms, kurios domisi „Microsoft Power Platform” plėtiniais.
++ Dvigubo rašymo infrastruktūra atitinka kodo nereikalavimo / automatizuoto kodavimo principą. Reikia minimalių inžinerinių pastangų, kad būtų galima išplėsti standartinius tarpusavy susietų lentelių žemėlapius ir į juos įterpti pasirinktinius žemėlapius.
++ Dvigubas rašymas palaiko ir internetinį režimą, ir autonominį režimą. „Microsoft” yra vienintelė įmonė, teikianti palaikymą internetiam ir autonominiam režimams.
+
+## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>Kuo vartotojui ir CRM produktų architektams naudingas dvigubas rašymas?
+
+Dvigubas rašymas automatizuoja duomenų srautą tarp „Finance and Operations” programų ir „Common Data Service”. Būsimuose leidimuose sąvokos, esančios „Dynamics 365” modeliu pagrįstose programose, (pvz., klientas, kontaktas, pasiūlymas ir užsakymas) bus pritaikytos vidutinių įmonių ir didesnių nei vidutinės įmonių klientams.
+
+Pirmuoju leidimu didžioji dalis automatizavimo valdoma dvigubo rašymo sprendimų. Būsimuose leidimuose šie sprendimai taps „Common Data Service“ dalimi. Suprasdami būsimų keitimų, kurie bus vykdomi „Common Data Service”, naudą ilgainiui galėsite sutaupyti pastangų. Štai keletas esminių keitimų:
+
++ „Common Data Service” bus naujų sąvokų, tokių kaip įmonė ir šalis. Šios sąvokos paveiks visas programas, kurios yra sukurtos platformoje „Common Data Service”, pvz., „Dynamics 365 Sales”, „Dynamics 365 Marketing”, „Dynamics 365 Customer Service” ir „Dynamics 365 Field Service”.
++ Veiklos ir pastabos yra suvienodintos ir išplėstos, kad būtų palaikomi ir C1 (sistemos vartotojai), ir C2 (sistemos klientai).
++ Štai keletas būsimų „Common Data Service” keitimų:
+
+    - Dešimtainių duomenų tipas pakeis pinigų duomenų tipą.
+    - Datos galiojime bus palaikomi ankstesni, dabartiniai ir būsimi duomenys toje pačioje vietoje.
+    - Bus išplėstas valiutos ir valiutos kursų palaikymas, o programos programavimo sąsaja (API) **Valiutos kursas** bus peržiūrėta.
+    - Bus palaikomi vienetų konvertavimai.
+
+Norėdami gauti daugiau informacijos apie būsimus keitimus, žr. [Duomenys platformoje „Common Data Service” – 1 ir 2 etapai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/extensibility/extensibility-roadmap).

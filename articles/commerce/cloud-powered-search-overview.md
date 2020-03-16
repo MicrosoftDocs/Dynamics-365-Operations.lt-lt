@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de0981d3200c2b1d62cab7600d2382bd11dd4b20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002248"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057838"
 ---
 # <a name="cloud-powered-search-overview"></a>Debesų technologija valdoma ieškos peržiūra
 
@@ -33,7 +33,7 @@ ms.locfileid: "3002248"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Produktų aptinkamumas padeda užtikrinti, kad vartotojai galėtų greitai ir lengvai rasti produktus naršydami kategorijas, ieškodami bei filtruodami. Mažmenininkai produkto atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose mažmeninės prekybos kanaluose.
+Produktų aptinkamumas padeda užtikrinti, kad vartotojai galėtų greitai ir lengvai rasti produktus naršydami kategorijas, ieškodami bei filtruodami. Pardavėjai produktų atradimą laiko pirminiu įrankiu, skirtu bendrauti su klientais visuose kanaluose.
 
 Klientai yra įpratę prie beveik momentinio interneto ieškos modulių atsako laiko, įmantrių el. prekybos svetainių, socialinės medijos programų, automatinių pasiūlymų, kurie rodomi vedant ieškos terminus, ypatybėmis pagrįsto naršymo ir paryškinimo. Jei klientai pakankamai greitai negali rasti ieškomo produkto vienoje el. prekybos parduotuvėje, jie iš karto eina į kitą el. prekybos parduotuvę.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 9585d5a399ebf45b0ad7640f3c4e48d8afc46cd8
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017733"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042947"
 ---
 # <a name="embed-microsoft-power-apps"></a>„Microsoft Power Apps“ įdėjimas
 
@@ -55,7 +55,7 @@ Toliau pateiktose instrukcijose parodyta, kaip įdėti programą iš „Power Ap
 
     - Lauke **Pavadinimas** nurodomas mygtuke arba skirtuke, kuriame bus įdėtoji programa, rodomas tekstas. Daugeliu atveju patartina pakartoti programos pavadinimą šiame lauke.
     - **Programos ID** yra programos, kurią norite įdėti, GUID. Norėdami gauti šią reikšmę, raskite programą puslapyje [web.powerapps.com](https://web.powerapps.com) ir raskite lauką **Programos ID**, pateiktą dalyje **Informacija**.
-    - Dalyje **Programos įvesties kontekstas** galite pasirinktinai pasirinkti lauką su duomenimis, kuriuos kaip įvestį norite perduoti programai. Informacijos apie tai, kaip programa gali pasiekti duomenis, išsiųstus iš „Finance and Operations“ programų, žr. šios temos skyriuje [Programų, kurios naudoja „Finance and Operations“ programų duomenis, kūrimas](#building-a-power-app-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Dalyje **Programos įvesties kontekstas** galite pasirinktinai pasirinkti lauką su duomenimis, kuriuos kaip įvestį norite perduoti programai. Informacijos apie tai, kaip programa gali pasiekti duomenis, išsiųstus iš „Finance and Operations“ programų, žr. šios temos skyriuje [Programos, naudojančios „Finance and Operations“ programų siųstus duomenis, kūrimas](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps).
     - Pasirinkite parinktį **Programos dydis**, atitinkančią įdedamos programos tipą. Jei kuriate mobiliesiems įrenginiams skirtas programas, pasirinkite parinktį **Plona**, o jei kuriate planšetiniams kompiuteriams skirtas programas, pasirinkite **Plati**. Taip užtikrinama, kad įdėtajai programai bus skirta pakankamai vietos.
     - „FastTab“ **Juridiniai subjektai** pateikiama galimybė rinktis, kuriems juridiniams subjektams suteikiama programa. Pagal numatytuosius parametrus programa suteikiama visiems juridiniams subjektams. Ši parinktis galima tik tada, kai funkcija [Įrašyti rodiniai](saved-views.md) yra išjungta. 
 
@@ -76,7 +76,7 @@ Kuriant programą iš „Power Apps“, kuri bus įdėta į „Finance and Opera
 
 Pvz., programos funkcijoje „OnStart“ galite nustatyti „Finance and Operations“ programų įvesties duomenis į kintamąjį toliau nurodytu būdu.
 
-```
+```powerapps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
@@ -101,7 +101,7 @@ Atlikite toliau nurodytus veiksmus norėdami redaguoti įdėtosios programos kon
 
 Įdėjus programą į puslapį, jei reikia, ją galima pašalinti dviem būdais.
 
-- Pasirinkite sritį **Redaguoti programą**, vadovaudamiesi instrukcijomis iš ankstesnio šios temos skyriaus [Įdėtosios programos redagavimas](#editing-an-embedded-power-app). Įsitikinkite, kad srityje rodoma įdėtosios programos, kurią norite pašalinti, informacija, tada spustelėkite mygtuką **Naikinti**.
+- Pasirinkite sritį **Redaguoti programą**, vadovaudamiesi instrukcijomis iš ankstesnio šios temos skyriaus [Įdėtosios programos redagavimas](#editing-an-embedded-app). Įsitikinkite, kad srityje rodoma įdėtosios programos, kurią norite pašalinti, informacija, tada spustelėkite mygtuką **Naikinti**.
 - Kadangi įdėtoji programa įrašoma kaip pritaikymo asmeniniams poreikiams duomenys, išvalius puslapio pritaikymo asmeniniams poreikiams elementus taip pat bus pašalintos visos to puslapio įdėtosios programos. Atminkite, kad puslapio pritaikymo asmeniniams poreikiams elementų šalinimas yra nuolatinis veiksmas ir jo atšaukti negalima. Norėdami šalinti puslapio pritaikymo asmeniniams poreikiams elementus, pasirinkite **Parinktys**, tada pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams** ir galiausiai spustelėkite mygtuką **Išvalyti**. Atnaujinus naršyklę bus pašalinti visi ankstesni šio puslapio pritaikymo asmeniniams poreikiams elementai. Daugiau informacijos apie tai, kaip optimizuoti puslapius naudojant pritaikymo asmeniniams poreikiams elementus, žr. puslapyje [Vartotojo patirties pritaikymas asmeniniams poreikiams](personalize-user-experience.md).
 
 ## <a name="appendix"></a>Priedas
@@ -115,7 +115,7 @@ Pagal numatytuosius parametrus vartotojai gali įdėti programas bet kuriame pus
 
 Toliau pateiktame pavyzdyje parodoma nauja klasė ir du būdai, kaip sukonfigūruoti, kur galima įdėti programas.
 
-```
+```powerapps
 [ExtensionOf(classStr(FormRunConfigurationPowerAppsConfiguration))]
 
 public final class ClassTest_Extension

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6af7113031fd77a0a7e06ec23a149a3fa7ad0012
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 759869577ef30cd3f81eb74103a93cc5d1a3d608
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3026068"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042855"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Dokumentų, kuriuose yra prašymų duomenys, generavimas
 
@@ -40,10 +40,14 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 ## <a name="set-up-foreign-trade-parameters"></a>Nustatyti užsienio prekybos parametrus
 1. Eikite į Mokestis > Nustatymas > Užsienio prekyba > Užsienio prekybos parametrai.
 2. Spustelėkite skirtuką Numeracijos.
-    * Archyvuojami Intrastat ataskaitų kūrimo proceso informaciją, turime nustatyti kiekvieno archyvo, kurį sukūrėme, įrašus. Tam reikia konfigūruoti specialią numerių seką.  
+
+    Archyvuojami Intrastat ataskaitų kūrimo proceso informaciją, turime nustatyti kiekvieno archyvo, kurį sukūrėme, įrašus. Tam reikia konfigūruoti specialią numerių seką.  
+
 3. Pasirinkite „Intrastat archyvo ID“ nuorodą.
 4. Lauke Numeracijos kodas įveskite reikšmę.
-    * Lauke „Numerių sekos kodas“ įveskite arba pasirinkite vertę „Fore_2“.  
+
+    Lauke „Numerių sekos kodas“ įveskite arba pasirinkite vertę „Fore_2“.  
+
 5. ResolveChanges Numerio sekos kodas.
 6. Spustelėkite Įrašyti.
 7. Uždarykite puslapį.
@@ -54,18 +58,23 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 3. Medyje pasirinkite „Intrastat (model)\Intrastat (format)“.
 4. Spustelėkite Vykdyti.
 5. Lauke Įveskite failo pavadinimą įveskite „intrastat2.xml“.
-    * intrastat2.xml  
-6. Spustelėkite GERAI.
+6. Spustelėkite Gerai.
 
 ## <a name="review-er-format-executions-results"></a>Peržiūrėkite ER formato vykdymo rezultatus
 Peržiūrėkite sugeneruotą XML failą.  
 1. Uždarykite puslapį.
 2. Pasirinkite Mokesčiai > Deklaracijos > Užsienio prekyba > Intrastat.
-    * Atidarykite šią formą, kurioje yra Intrastat operacijos, kurios buvo įtrauktos sugeneruotą elektroninį dokumentą.  
+
+    Atidarykite šią formą, kurioje yra Intrastat operacijos, kurios buvo įtrauktos sugeneruotą elektroninį dokumentą.  
+
 3. Spustelėkite Intrastat archyvas.
-    * Kadangi įvykdyto ER formate dabar yra programos duomenų atnaujinimo parametrai, informacija apie užpildytą Intrastat ataskaitą suarchyvuota. Šioje formoje galite pamatyti sukurto archyvo antraštės įrašą.  
+
+    Kadangi įvykdyto ER formate dabar yra programos duomenų atnaujinimo parametrai, informacija apie užpildytą Intrastat ataskaitą suarchyvuota. Šioje formoje galite pamatyti sukurto archyvo antraštės įrašą.  
+
 4. Spustelėkite Informacija.
-    * Šioje formoje galite pamatyti sukurto archyvo išsamią informaciją.  
+
+    Šioje formoje galite pamatyti sukurto archyvo išsamią informaciją.  
+
 5. Uždarykite puslapį.
 6. Uždarykite puslapį.
 7. Uždarykite puslapį.

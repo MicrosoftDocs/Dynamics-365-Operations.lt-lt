@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6abac72b7530dc7b82c8e95faebdce791cf7dbd1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003239"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042785"
 ---
 # <a name="get-product-recommendations-using-demo-data"></a>Gaukite produktų rekomendacijas, naudodami demonstracinius duomenis
 Šiuo dokumentu pateikiama patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
@@ -57,10 +57,10 @@ Galite redaguoti numatytuosius demonstracinius duomenis, naudodami bet kokią pr
 Plėtinyje yra duomenų failas, pavadintas „RecoMockDataset.csv“, kuriuo galite kontroliuoti duomenų rinkinį, naudojamą, norint gauti netikrus rekomendacijų rezultatus. Failo pavadinimą galima kontroliuoti naudojant plėtinio konfigūraciją ir parametrą **ext.Recommendations.DemoFilePath**. Tai jums leidžia turėti keletą duomenų rinkinių, kuriuos galima lengvai perjungti naudojant konfigūraciją.
 
 
-```
-  <settings>
+```xml
+<settings>
     <add name="ext.Recommendations.DemoFilePath" value="RecoMockDataset.csv" />
-  </settings>
+</settings>
 ```
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

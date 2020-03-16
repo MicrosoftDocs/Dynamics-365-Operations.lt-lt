@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: dd72c8a54498cc6ffae7125c5c2f44bfac5a5995
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 88ba96b1d9d2f722528a4a920eabe4ab64304a7a
+ms.sourcegitcommit: 4f668b23f5bfc6d6502858850d2ed59d7a79cfbb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658649"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3059433"
 ---
 # <a name="mobile-invoice-approvals"></a>SF patvirtinimai mobiliąja programa
 
@@ -54,8 +54,8 @@ Kiekviena organizacija skirtingai planuoja ir nustato tiekėjo SF verslo proces�
     -   Kiek SF eilutėje yra apskaitos paskirstymų (išplėstinė kaina, PVM, išlaidos, skaidymai ir t. t.)? Vėl taikykite 80 / 20 taisyklę.
     -   Ar SF antraštėje taip pat yra apskaitos paskirstymų? Jei taip, ar šie apskaitos paskirstymai turėtų būti pasiekiami įrenginyje?
 
-> [!NOTE]
-> Šioje temoje nepaaiškinama, kaip redaguoti apskaitos paskirstymus, nes mobiliųjų įrenginių scenarijuose ši funkcija šiuo metu nepalaikoma.
+    > [!NOTE]
+    > Šioje temoje nepaaiškinama, kaip redaguoti apskaitos paskirstymus, nes mobiliųjų įrenginių scenarijuose ši funkcija šiuo metu nepalaikoma.
 
 -   Ar vartotojai įrenginyje norės matyti SF priedus?
 
@@ -158,9 +158,9 @@ Pirmasis mobiliųjų įrenginių puslapis, kurį turėtumėte sukurti, yra SF, k
     - SF numeris
     - Data
 
-  Įvedus laukus mobiliųjų įrenginių puslapyje turi būti rodoma tolesnėje iliustracijoje nurodyta informacija. 
+    Įvedus laukus mobiliųjų įrenginių puslapyje turi būti rodoma tolesnėje iliustracijoje nurodyta informacija. 
     
-   [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Puslapio rodinys įtraukus laukus](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Taip pat dabar turite įtraukti tolesnius stulpelius, kad vėliau galėtumėte įjungti darbo eigos veiksmus.
     - Rodyti baigti užduotį
@@ -247,9 +247,10 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
     - Jis paslepia papildomus su darbo eiga susijusius stulpelius, kuriuos į mobiliųjų įrenginių sąrašo puslapį mes įtraukėme anksčiau. Šiuos stulpelius mes įtraukėme, kad programai pateiktume informacijos kontekstą ir ji galėtų atlikti kitą veiksmą.
     - Atsižvelgiant į aktyvų darbo eigos veiksmą, jis pritaiko logiką, kad būtų rodomi tik tie veiksmai.
 
-> [!NOTE]
-> Kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
+    > [!NOTE]
+    > Kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -308,6 +309,7 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
                  },
            };
         }
+    ```
 
 2.  Įkelkite kodo failą į darbo sritį pasirinkdami skirtuką **Logika**
 3.  Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
@@ -341,7 +343,7 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
 
 1.  URL pakeiskite meniu elemento pavadinimą, kaip tai padarėte anksčiau. Pasirodžiusiame puslapyje turi būti tolesnėje iliustracijoje nurodyta informacija.
 
-[![Puslapis Visi paskirstymai](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Puslapis Visi paskirstymai](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Atidarykite mobiliųjų įrenginių dizaino įrankį spustelėdami (krumpliaračio) mygtuką **Parametrai**.
 
@@ -367,16 +369,18 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
 
 10. Spustelėkite **Publikuoti darbo sritį**, kad įrašytumėte savo darbą
 
-> [!NOTE] 
-> Mobiliųjų įrenginių puslapis **Apskaitos peržiūra** nėra susietas su jokiais iki šiol sukurtais mobiliųjų įrenginių puslapiais. Kadangi vartotojas privalo gebėti mobiliajame įrenginyje naršydamas iš puslapio **SF informacija** atidaryti puslapį **Apskaitos peržiūra**, turime pateikti nurodyti naršymą iš puslapio **SF informacija** į puslapį **Apskaitos peržiūra**. Šį naršymą nustatome naudodami papildomą logiką ir „JavaScript“.
+#### <a name="adding-navigation-to-view-accounting-page"></a>Naršymo įtraukimas į puslapį Apskaitos peržiūra
+
+Mobiliųjų įrenginių puslapis **Apskaitos peržiūra** nėra susietas su jokiais iki šiol sukurtais mobiliųjų įrenginių puslapiais. Kadangi vartotojas privalo gebėti mobiliajame įrenginyje naršydamas iš puslapio **SF informacija** atidaryti puslapį **Apskaitos peržiūra**, turime pateikti nurodyti naršymą iš puslapio **SF informacija** į puslapį **Apskaitos peržiūra**. Šį naršymą nustatome naudodami papildomą logiką ir „JavaScript“.
 
 1.  Atidarykite anksčiau sukurtą .js failą ir įtraukite toliau nurodytu kodu pažymėtas eilutes. Šio kodo paskirtys yra dvi.
     1.  Taip užtikrinama, kad naršydami puslapį **Apskaitos peržiūra** vartotojai negalės atidaryti darbo srities.
     2.  Sukuriamas naršymo iš puslapio **SF informacija** į puslapį **Apskaitos peržiūra** valdiklis.
 
-> [!NOTE] 
-> Kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
+    > [!NOTE] 
+    > Kode nurodyti puslapių ir kitų valdiklių pavadinimai turi sutapti su pavadinimais darbo srityje.
 
+    ```javascript
     function main(metadataService, dataService, cacheService, $q) {
            return {
                appInit: function (appMetadata) {
@@ -439,7 +443,8 @@ Norėdami įtraukti darbo eigos veiksmų, naudokite puslapį **VendMobileInvoice
                  },
            };
         }
-
+    ```
+    
 2.  Įkelkite kodo failą į darbo sritį pasirinkdami skirtuką **Logika**, kad perrašytumėte ankstesnį kodą
 3.  Spustelėkite **Atlikta**, kad uždarytumėte redagavimo režimą.
 4.  Spustelėkite **Atgal** ir tada spustelėkite **baigta**, kad uždarytumėte darbo sritį.

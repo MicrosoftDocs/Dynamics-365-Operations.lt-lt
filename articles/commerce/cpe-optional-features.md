@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 43b23b9ef881b2ab2f3d005d4ba761848a7fa4ed
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024734"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057745"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Pasirinktinių „Dynamics 365 Commerce” peržiūros aplinkos funkcijų konfigūravimas
 
@@ -63,8 +63,8 @@ Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naud
 
 ### <a name="update-the-media-base-url"></a>Pagrindinio medijos URL naujinimas
 
-1. Prisijunkite prie „Dynamics 365 Retail“.
-1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> „Retail“ \> Kanalo sąranka \> Kanalo profiliai**.
+1. Prisijunkite prie „Dynamics 365 Commerce“.
+1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Kanalo profiliai**.
 1. Pasirinkite **Redaguoti**.
 1. Dalyje **Profilio ypatybės** ypatybės **Pagrindinis medijos serverio URL** reikšmę pakeiskite savo anksčiau sukurtu pagrindiniu medijos URL.
 1. Kairėje esančiame sąraše prie kanalo **Numatytasis** pasirinkite kitą kanalą.
@@ -77,7 +77,7 @@ Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naud
 > [!NOTE]
 > SMTP serveris arba el. pašto paslauga, kuriuos čia įvedate, turi būti pasiekiami „Azure“ prenumeratoje, kurią naudojate aplinkoje.
 
-1. Prisijunkite prie „Retail“.
+1. Prisijunkite prie „Commerce“.
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Sistemos administravimas \> Sąranka \> El. paštas \> El. pašto parametrai**.
 1. Skirtuko **SMTP parametrai** lauke **Siunčiamo pašto serveris** įveskite savo SMTP serverio ar el. pašto tarnybos FQDN arba IP adresą.
 1. Lauke **SMTP prievado numeris** įveskite prievado numerį. (Jei nenaudojate saugiųjų jungčių lygmens \[SSL\], numatytasis prievado numeris yra **25**.)
@@ -92,7 +92,7 @@ Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naud
 
 Kiekvieno operacinio įvykio, dėl kurio norite siųsti el. laiškus, el. laiškų šabloną turite atnaujinti galiojančiu siuntėjo el. pašto adresu.
 
-1. Prisijunkite prie „Retail“.
+1. Prisijunkite prie „Commerce“.
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Organizacijos administravimas \> Sąranka \> Organizacijos el. laiškų šablonai**.
 1. Pasirinkite **Rodyti sąrašą**.
 1. Su kiekvienu sąraše esančiu šablonu atlikite toliau nurodytus veiksmus.
@@ -115,7 +115,7 @@ Galbūt norėsite el. laiškų šablonus tinkinti, kad juose būtų naudojami sk
     - Paėmimo užsakymo šablonas
 
 1. Tinkinkite šablonus naudodami teksto arba HTML rengyklę. [Palaikomų atpažinimo ženklų](#supported-tokens-in-the-email-template) sąrašą rasite tolesnėje šios temos dalyje.
-1. Prisijunkite prie „Retail“.
+1. Prisijunkite prie „Commerce“.
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Organizacijos administravimas \> Sąranka \> Organizacijos el. laiškų šablonai**.
 1. Išskleiskite sąrašą kairėje, kad pamatytumėte visus šablonus.
 1. Su kiekvienu norimu tinkinti šablonu atlikite tolesnius veiksmus.

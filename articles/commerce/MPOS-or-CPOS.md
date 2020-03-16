@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 1fffc7141c041873f39f716aaf1a775984ef499c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023362"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057699"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Pasirinkite „Modern POS“ (MPOS) arba „Cloud POS“
 
@@ -60,7 +60,7 @@ Nors MPOS ir CPOS iš esmės yra tas pats, yra keletas svarbių skirtumų, kuriu
 MPOS „Windows“, „iOS“ arba „Android“ įrenginyje yra programa, kuri yra sukomplektuota, įdiegta ir prižiūrima tame įrenginyje.
 
 - **„Windows“**. MPOS programoje, skirtoje „Windows“, yra visas programos kodas ir įdėtoji „Commerce Runtime“ (CRT). 
-- **iOS/Android** Šiose platformose programa veikia kaip CPOS programos kodo pagrindinis kompiuteris. Kitaip tariant, programos kodas ateina iš CPOS serverio, esančio „Microsoft Azure“ arba „Commerce Scale Unit“. Daugiau informacijos žr. [„Retail Store Scale Unit“ apžvalga](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
+- **iOS/Android** Šiose platformose programa veikia kaip CPOS programos kodo pagrindinis kompiuteris. Kitaip tariant, programos kodas ateina iš CPOS serverio, esančio „Microsoft Azure“ arba „Commerce Scale Unit“. Norėdami gauti daugiau informacijos, žr. [„Commerce Scale Unit“ apžvalga](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin).
 
 #### <a name="cpos"></a>CPOS
 

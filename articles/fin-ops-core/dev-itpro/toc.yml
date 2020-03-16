@@ -45,7 +45,11 @@
                 - name: "„Platform Update 15“ (2018\_m. kovo mėn.)"
                   href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Pašalintos arba nebenaudojamos funkcijos
-              href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
+              items:
+                - name: Pašalintos arba nebenaudojamos „Platform“ funkcijos
+                  href: get-started/removed-deprecated-features-platform-updates.md
+                - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
+                  href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Atidėtos AX 2012 funkcijos
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Vietinėse įdiegtyse neįdiegtos funkcijos
@@ -144,7 +148,9 @@
                       href: data-entities/data-integration-cds.md
                     - name: 'Sinchroninis, dvikryptis integravimas'
                       items:
-                        - name: Beveik realiuoju laiku vykstantis duomenų integravimas
+                        - name: Dvigubo rašymo pagrindinis puslapis
+                          href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Dvigubo rašymo apžvalga
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Organizacijos hierarchija „Common Data Service“
                           href: data-entities/dual-write/organization-mapping.md
@@ -940,7 +946,7 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS partneriams
                   href: lifecycle-services/getting-started-lcs.md
-                - name: Kas nauja
+                - name: Kas nauja ar pasikeitė „Lifecycle Services”
                   href: lifecycle-services/whats-new-lcs.md
                 - name: Žinomos problemos
                   href: lifecycle-services/known-issues.md
@@ -1685,6 +1691,4 @@
     - name: „Dynamics 365 Finance“
       href: ../../finance/index.md
     - name: „Dynamics 365 Commerce“
-      href: ../../commerce/index.md
-    - name: „Dynamics 365 Retail“
       href: ../../commerce/index.md

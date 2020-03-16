@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: feb28b9c801786f63282c4189d3eeb6d53ed07e1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 320f21916a5f451ebf4f21e0075017a121ba6d6a
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003147"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057619"
 ---
 # <a name="set-up-an-email-notification-profile"></a>El. paštu siunčiamų pranešimų šablono nustatymas
 
@@ -41,7 +41,7 @@ Papildomos informacijos apie tai, kaip konfigūruoti el. paštą, žr. [El. lai�
 
 Norėdami sukurti el. paštu siunčiamų pranešimų šabloną, atlikite tolesnius veiksmus.
 
-1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Retail“ el. paštu siunčiamų pranešimų šablonas**.
+1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Commerce“ el. paštu siunčiamų pranešimų šablonas**.
 1. Veiksmų srityje spustelėkite **Naujas**.
 1. Lauke **El. paštu siunčiamų pranešimų šablonas** įveskite šablono pavadinimą.
 1. Lauke **Aprašas** įveskite tinkamą aprašą.
@@ -71,16 +71,16 @@ Toliau pateiktame vaizde parodyti keli el. pašto šablonų parametrų pavyzdži
 
 Norėdami sukurti el. laiško įvykį, atlikite toliau nurodytus veiksmus.
 
-1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Retail“ el. paštu siunčiamų pranešimų šablonas**.
+1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \>„Commerce“ el. paštu siunčiamų pranešimų šablonas**.
 1. Sąraše raskite ir pasirinkite norimą įrašą. 
 1. Išplečiamajame sąraše **El. pašto ID** pasirinkite el. laiško šabloną.
 1. Išplečiamajame sąraše pasirinkite tinkamą parinktį **El. paštu siunčiamo pranešimo tipas**.
 1. Pažymėkite žymės langelį **Aktyvusis**.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
-Toliau pateiktame vaizde parodyti keli mažmeninės prekybos įvykių pranešimų parametrų pavyzdžiai.
+Toliau pateiktame vaizde parodyti keli įvykių pranešimų parametrų pavyzdžiai.
 
-![Mažmeninės prekybos įvykio pranešimo parametrai](media/email-notification-profile.png)
+![Įvykio pranešimo parametrai](media/email-notification-profile.png)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

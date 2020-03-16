@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bac0910d213ee05a2a7a7b218a6714d4f935be16
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 8a52dbce29140591baf4be97baef237dce1f2511
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916757"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3040853"
 ---
 # <a name="QRCODE">QRCODE ER funkcija</a>
 
@@ -33,7 +33,7 @@ ms.locfileid: "2916757"
 
 ## <a name="syntax"></a>Sintaksė
 
-```
+```vb
 QRCODE (text)
 ```
 
@@ -53,7 +53,7 @@ Gautas dvejetainis srautas.
 
 Galite sukonfigūruoti elektroninių ataskaitų (ER) formatą, kad sugeneruotumėte siunčiamą dokumentą „Microsoft Office“ formatu („Excel“ darbaknygės arba „Word“ dokumentai), naudodami iš anksto nustatytą šabloną. Šiame šablone gali būti **Paveikslėlio** objektas („Excel“ darbaknygė) arba **Paveikslėlio turinio valdiklis** („Word“ dokumentas) kaip QR kodo atvaizdo vietos rezervavimo ženklas. Jums reikia pridėti prie sukonfigūruoto ER formato **langelio** elementą, kuris bus naudojamas užpildyti šį vietos rezervavimo ženklą. Norėdami nurodyti, kokia informacija bus saugoma QR kodu, turite nustatyti šio **langelio** elemento susiejimą. Pavyzdžiui, galite sukonfigūruoti tokį susiejimą, kuriame yra ši išraiška:
 
-```
+```vb
 QRCODE (model.ListOfShelfLabels.LabelText)`
 ```
 

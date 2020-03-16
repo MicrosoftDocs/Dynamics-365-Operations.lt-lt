@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 7d68f65c27ec8704ef588cf98bbe30fc70cd5b47
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4185d4762b65b6b1ce7531c3995f8bbe084a9c5f
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023444"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057306"
 ---
 # <a name="get-support-for-dynamics-365-retail"></a>„Dynamics 365 Retail“ palaikymo gavimas
 
@@ -48,7 +48,7 @@ Norėdami gauti „Commerce“ palaikymą, naudokite toliau nurodytos lentelės 
 <tbody>
 <tr>
 <td>Klauskite bendruomenės.</td>
-<td>Eikite į bendruomenės puslapį <a href="https://community.dynamics.com/365/retail">Dynamics 365 Retail</a>, jei norite rasti atsakymus į klausimus, susijusius su „Dynamics 365“ bendruomene.</td>
+<td>Eikite į puslapį <a href="https://community.dynamics.com/365/retail">„Dynamics 365“ bendruomenė</a>, jei norite paprašyti „Dynamics 365“ bendruomenės pagalbos turimais klausimais.</td>
 </tr>
 <tr>
 <td>Naudokite problemų ieškos įrankį.</td>

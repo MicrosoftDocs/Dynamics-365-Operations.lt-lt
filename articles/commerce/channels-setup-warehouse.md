@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: fe785e3bfd503193a588958ae5df0d1c0fdb9e52
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
+ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002317"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "3057861"
 ---
 # <a name="warehouse-set-up"></a>Sandėlio nustatymas
 
@@ -59,7 +59,7 @@ Norėdami nustatyti sandėlį, atlikite toliau nurodytus veiksmus.
 
 1. Naršymo srityje eikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Sandėliai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
-1. Lauke **Sandėlis** įveskite reikšmę.  Jei tai yra 1:1 mažmeninės parduotuvės susiejimas, apsvarstykite parduotuvės pavadinimo arba regiono platintojo centro pavadinimo naudojimą.
+1. Lauke **Sandėlis** įveskite reikšmę.  Jei tai yra 1:1 parduotuvės susiejimas, apsvarstykite parduotuvės pavadinimo arba regiono platintojo centro pavadinimo naudojimą.
 1. Lauke **Pavadinimas** įveskite reikšmę.
 1. Išplečiamajame sąraše **Vieta** pasirinkite anksčiau sukurtą sandėlio vietą.
 1. Lauke **Tipas** pasirinkite **Numatytasis**.

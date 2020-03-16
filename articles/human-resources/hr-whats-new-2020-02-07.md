@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78043273fb98a12a8d33f7bb94ba8ad2e9fb49fb
-ms.sourcegitcommit: 13c4a6f98ccce243d6befde90992aefcf562bdab
+ms.openlocfilehash: c6ca9877eb172794c67ac55b8dc54ed28af9576d
+ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029962"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "3076275"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 7 d.)
 
@@ -47,7 +47,7 @@ Dabar į dabartinį balansą įtraukiamos pateiktos atostogų užklausos.
 
 - **Atostogų ir neatvykimų peržiūros funkcijos** – daugiau informacijos žr. skyrių [Atostogų ir neatvykimų peržiūros funkcijos](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-- **Išmokų valdymo peržiūros funkcija** – norėdami gauti daugiau informacijos, įskaitant žinomas problemas, žr. skyrių [Išmokų valdymo peržiūra](hr-benefits-management-overview.md).
+- **Išmokų valdymo peržiūros funkcija** – norėdami gauti daugiau informacijos, įskaitant žinomas problemas, žr. skyrių [Išmokų valdymo apžvalga](hr-benefits-management-overview.md).
 
 ## <a name="coming-soon"></a>Jau greitai
 
@@ -61,12 +61,18 @@ Nauju „Common Data Service” sprendimu greitai galėsite naudotis atlikdami �
 
 | Aprašymas | Keitimas |
 | ----------------------------------------- | --- |
-| Subjekto **Užduotis / pareigos** pakeitimai | Pridėta **Kompensacijos sritis**</br>Pridėta **Finansinės dimensijos** |
+| Objekto **Užduotis / pareigos** keitimai | Pridėta **Kompensacijos sritis**</br>Pridėta **Finansinės dimensijos** |
 | Objekto **Darbininkas** keitimai | Pridėta **Pavadinimų seka**</br>Pridėta **Dirba iš namų**</br>Pridėta **Kalba**</br>Pridėta **Paaukštinimo data**</br>Pridėta **Jubiliejaus data**</br>Pridėta **Pradinio įdarbinimo data** |
 | Objekto **Įdarbinimas** keitimai | Pridėta **Finansinės dimensijos**</br>Pridėta **Atleidimo priežastis**</br>**Perėjimo data** pervardyta į **Atleidimo data**</br>Pridėta **Bandomojo laikotarpio data** |
 | Objekto **Darbininko adresas** keitimai | Pridėta **Gatvė**</br>**1 adreso eilutė**, **2 adreso eilutė**ir **3 adreso eilutė** pažymėtos kaip nebenaudojamos |
 | Nauji kintamosios atlyginimo dalies sąrankos objektai | **Kompensacijų kitimo plano tipas**</br>**Kompensacijų kitimo planas**</br>**Kintamosios atlyginimo dalies paskirstymo taisyklės**</br>**Kompensacijų kitimo plano lygis** |
 | Naujas objektas **Darbuotojo įdarbinimo kalendorius** | Pridėta **Darbo kalendoriaus objektas** |
 | Naujas objektas **Algalapio pareigų informacija** | Pridėta **Algalapio pareigų informacija** |
-| Naujas subjektas **Pavadinimas** | Pridėtas **Pavadinimas**. Naujas objektas **Pavadinimas** bus įtrauktas į „Human Resources“ ir „Common Data Service“ sinchronizavimo procesą, bet nebus nurodomas iš pradžių objektuose **Pareigos** ar **Užduotis**. |
+| Naujas subjektas **Pavadinimas** | Pridėtas **Pavadinimas**. Į „Human Resources“ ir „Common Data Service“ sinchronizavimo procesą bus įtrauktas naujas objektas **Pavadinimas**. Jis iš pradžių nebus nurodomas iš objektų **Pareigos** ar **Darbas**. |
 
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

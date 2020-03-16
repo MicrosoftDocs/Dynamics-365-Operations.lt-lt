@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: c0c578ca44919671b67daeea51a9ec7687f755c9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 48854c15e429d51dcf30ea804eb636dee7965443
+ms.sourcegitcommit: a356299be9a593990d9948b3a6b754bd058a5b3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773650"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "3080777"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Pasirinktinių laukų naudojimas „Microsoft Dynamics 365 Project Timesheet“ mobiliojoje programoje (sistemose „iOS“ ir „Android“)
 
@@ -183,7 +183,7 @@ Toliau pateiktame pavyzdyje rodomas eilutės laukas laiko įrašuose. Šiame lau
 
 Atkreipkite dėmesį, kad galite naudoti metodą **TSTimesheetCustomField::newFromMetatdata()** norėdami supaprastinti pasirinktinių laukų ypatybių inicijavimą: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** ir **numberOfDecimals**. Šiuos parametrus taip pat galite nustatyti neautomatiniu būdu, kaip pageidaujate.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -212,7 +212,7 @@ final class TSTimesheetSettings_Extension
 
 Metodas **buildCustomFieldListForEntry** naudojamas norint įvesti vertes įrašytose tabelio eilutėse mobilioje programoje. Įrašas TSTimesheetTrans naudojamas kaip parametras. Šio įrašo laukai gali būti naudojami norint užpildyti pasirinktinę lauko vertę programoje.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetEntry))]
 final class TsTimesheetEntry_Extension
@@ -250,7 +250,7 @@ Norėdami įrašyti pasirinktinį lauką į duomenų bazę įprasto naudojimo s�
 > [!NOTE]
 > Toliau pateiktame pavyzdyje įrašoma vertė **firstOption** arba **firstOption**, kurią vartotojas pasirenka duomenų bazėje kaip neapdorotą eilutės vertę. Jei duomenų bazės laukas yra tipo **Išvardijimas** laukas, šias vertes galima neautomatiniu būdu susieti su išvardijimo verte ir įrašyti į duomenų bazės lentelės išvardijimo lauką.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetEntryService))]
 final class TSTimesheetEntryService_Extension
@@ -339,7 +339,7 @@ Antraštės skilties laukai programoje visada tik skaitomi.
 
 Toliau pateiktame pavyzdyje rodoma apskaičiuota vertė programos antraštės skiltyje.
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TsTimesheetSettings))]
 final class TSTimesheetSettings_Extension
@@ -369,7 +369,7 @@ final class TSTimesheetSettings_Extension
 Metodas **buildCustomFieldListForHeader** naudojamas norint užpildyti tabelio antraštės informaciją mobilioje programoje. Įrašas TSTimesheetTable naudojamas kaip parametras. Šio įrašo laukai gali būti naudojami norint užpildyti pasirinktinę lauko vertę programoje. Toliau pateiktame pavyzdyje nenuskaitomos jokios vertės iš duomenų bazės. Tačiau naudojama X++ logika siekiant generuoti apskaičiuotą vertę, kuri rodoma programoje.
 
 
-```
+```xpp
 ...
 [ExtensionOf(classStr(TSTimesheetDetails))]
 final class TSTimesheetDetails_Extension

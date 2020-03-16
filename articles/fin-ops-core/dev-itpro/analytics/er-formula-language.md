@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1c6a3f3fd5b55012d89a6c9f0bf2ed5dddd13c
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: bdd8b9c120fc4a860717a66b9dfa66e6b0daed93
+ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2916665"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "3042716"
 ---
 # <a name="electronic-reporting-formula-language"></a>Modulio Elektroninės ataskaitos formulių kalba
 
@@ -154,7 +154,7 @@ ER leidžia papildyti ER išraiškose naudojamų funkcijų sąrašą. Tam reikė
 
 Jei sutampa duomenų tipai, galite kurti sudėtinius reiškinius, kuriuose naudojamos skirtingų kategorijų funkcijos. Kai kartu naudojate kelias funkcijas, užtikrinkite, kad vienos funkcijos išvesties duomenų tipas sutaptų su įvesties duomenų tipu, kurio reikia kitai funkcijai. Pavyzdžiui, siekdami išvengti galimos klaidos „sąrašas tuščias“ lauką susiejant su ER formato elementu, kategorijos [Sąrašas](er-functions-category-list.md) funkcijas suderinkite su kategorijos [Loginės](er-functions-category-logical.md) funkcija, kaip parodyta tolesniame pavyzdyje. Šioje formulėje naudojant funkciją [IF](er-functions-logical-if.md) patikrinama, ar sąrašas **IntrastatTotals** yra tuščias, o tada pateikiama reikiamo telkimo reikšmė iš to sąrašo. Jei sąrašas **IntrastatTotals** yra tuščias, formulė pateikia **0** (nulį).
 
-```
+```vb
 IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
@@ -162,7 +162,7 @@ IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded'
 
 Dažnai tą pačią duomenų transformaciją galite pasiekti keliais būdais, naudodami skirtingų kategorijų funkcijas arba skirtingas tos pačios kategorijos funkcijas. Pavyzdžiui, ankstesnį reiškinį taip pat galima sukonfigūruoti naudojant kategorijos [Sąrašas](er-functions-category-list.md) funkciją [COUNT](er-functions-list-count.md).
 
-```
+```vb
 IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded') 
 ```
 
