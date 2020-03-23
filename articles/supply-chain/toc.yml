@@ -24,6 +24,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Debesies aplinkų naujinimų taikymas
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Vietinių visuotinių įdiegčių naujinimų taikymas
+                  href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Paslaugų naujinimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Paslaugų naujinimų pristabdymas
@@ -72,10 +74,12 @@
                       href: get-started/whats-new-scm-10-0-9.md
                     - name: „Supply Chain Management“ versija 10.0.8 (2020 m. vasario mėn.)
                       href: get-started/whats-new-scm-10-0-8.md
-                    - name: „Supply Chain Management“ versija 10.0.7 (2020 m. sausio mėn.)
-                      href: get-started/whats-new-scm-10-0-7.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
-                  href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
+                  items:
+                    - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
+                      href: get-started/removed-deprecated-features-scm-updates.md
+                    - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
+                      href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Atidėtos AX 2012 funkcijos
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vietinėse įdiegtyse neįdiegtos funkcijos
@@ -493,7 +497,7 @@
               href: ../finance/cost-accounting/tasks/configure-cost-control-workspace-parameters.md?toc=/dynamics365/supply-chain/toc.json
             - name: Supažindinimas su „Microsoft Power BI‟ prieigos sąrašo sauga ir RLS
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-            - name: „Microsoft Power BI“ ataskaitų turinio paketo naudojimas
+            - name: „Microsoft Power BI‟ ataskaitų turinio paketo naudojimas
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: „Finance and Operations“ mobiliosios programos kaštų kontrolės darbo srities naudojimas
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
@@ -665,7 +669,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Įdarbinimas
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „Retail“ kanalų efektyvumas
+                - name: 'Mažmeninės prekybos kanalų efektyvumas '
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pardavimo ir pelningumo efektyvumas
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/supply-chain/toc.json
@@ -1635,7 +1639,7 @@
           items:
             - name: Gamybos procesų apžvalga
               href: production-control/production-process-overview.md
-            - name: 'Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir LEAN tiekimo suderinimas'
+            - name: 'Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas'
               href: production-control/mixed-mode-plan.md
             - name: Subrangos darbo valdymas gamybos metu
               href: production-control/manage-subcontract-work-production.md
@@ -1769,27 +1773,27 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Nukrypimų grupės
                       href: production-control/time-attendance-flex-groups.md
-            - name: LEAN gamyba
+            - name: „Lean manufacturing“
               items:
-                - name: LEAN gamybos apžvalga
+                - name: „Lean manufacturing“ apžvalga
                   href: production-control/lean-manufacturing-overview.md
                 - name: Subranga pagal veiklą
                   href: production-control/activity-based-subcontracting.md
                 - name: Bendrųjų gamybos duomenų tvarkymas
                   items:
-                    - name: LEAN organizacijos modeliavimas
+                    - name: „Lean‟ organizacijos modeliavimas
                       href: production-control/lean-manufacturing-modeling-lean-organization.md
                     - name: „Operations“ ištekliai
                       href: production-control/operations-resources.md
-                    - name: LEAN gamybos darbo elementų apibrėžimas
+                    - name: „Lean manufacturing“ darbo elementų apibrėžimas
                       href: production-control/tasks/define-lean-manufacturing-work-cells.md
                     - name: Pažangiosios gamybos planavimo grupių apibrėžimas
                       href: production-control/tasks/define-lean-schedule-groups.md
                 - name: „Kanban“ užduočių planavimas
                   items:
-                    - name: LEAN gamybos vaizdinis planavimas
+                    - name: „Lean manufacturing“ vaizdinis planavimas
                       href: production-control/visual-scheduling-lean-manufacturing.md
-                    - name: LEAN gamybos „kanban“ užduočių planavimas
+                    - name: „Lean manufacturing“ „kanban“ užduočių planavimas
                       href: production-control/lean-manufacturing-kanban-job-scheduling.md
                     - name: Užduočių planavimas
                       href: production-control/job-scheduling.md
@@ -1801,9 +1805,9 @@
                       href: production-control/production-feedback.md
                     - name: Gamybos eigos versijos kūrimas
                       href: production-control/tasks/create-production-flow-version.md
-                    - name: LEAN gamybos apdorojimo veiklų kūrimas
+                    - name: „Lean manufacturing“ apdorojimo veiklų kūrimas
                       href: production-control/tasks/create-process-activities-lean-manufacturing.md
-                    - name: LEAN gamybos perdavimo veiklų kūrimas
+                    - name: „Lean manufacturing“ perdavimo veiklų kūrimas
                       href: production-control/tasks/create-transfer-activities-lean-manufacturing.md
                     - name: Gamybos eigos ir versijos tikrinimas
                       href: production-control/tasks/validate-production-flow-version.md
@@ -1815,9 +1819,9 @@
                       href: production-control/tasks/add-predecessor-production-flow-activity.md
                     - name: Vertės srauto kūrimas
                       href: production-control/tasks/create-value-stream.md
-                    - name: LEAN iškvietimas iš pardavimo užsakymų
+                    - name: „Lean“ iškvietimas iš pardavimo užsakymų
                       href: production-control/tasks/lean-pegging-sales-orders.md
-                    - name: LEAN gamybos subrangovo darbo elemento kūrimas
+                    - name: „Lean manufacturing“ subrangovo darbo elemento kūrimas
                       href: production-control/tasks/create-subcontracted-work-cell-lean-manufacturing.md
                     - name: „Kanban“ kiekio skaičiavimo strategijos įtraukimas į „kanban“ taisyklę
                       href: production-control/tasks/add-kanban-quantity-calculation-policy-kanban-rule.md
@@ -2427,7 +2431,7 @@
                   href: warehousing/process-guide-framework.md
             - name: Plėtojimas ir perėjimas
               items:
-                - name: Sandėlio valdymo procesų naujinimas iš „Microsoft DynamicsAX 2012“ į „Finance and Operations“
+                - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
                   href: warehousing/upgrade-migration-warehouse-management-processes.md
             - name: Registravimo ir atidėjimo gavimai
               items:
