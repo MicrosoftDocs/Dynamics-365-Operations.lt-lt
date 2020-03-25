@@ -18,37 +18,36 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-09-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 39f72c534c7179f4535e6eb8a31ef7e9b72b7b88
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 41ec4737ccb270d2ba84dd473770f18e1aa6b044
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076047"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117389"
 ---
-# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="79fc5-103">Kas nauja ar pasikeitė „Finance and Operations“ programų pagrindiniame puslapyje</span><span class="sxs-lookup"><span data-stu-id="79fc5-103">What's new or changed in Finance and Operations apps home page</span></span>
+# <a name="whats-new-or-changed-in-finance-and-operations-apps-home-page"></a><span data-ttu-id="5b88a-103">Kas nauja ar pasikeitė „Finance and Operations“ programų pagrindiniame puslapyje</span><span class="sxs-lookup"><span data-stu-id="5b88a-103">What's new or changed in Finance and Operations apps home page</span></span>
+
 [!include [banner](../includes/banner.md)]
 
 
-[!include [release notes](../includes/release-notes.md)]
+## <a name="application-releases"></a><span data-ttu-id="5b88a-104">Programos leidimai</span><span class="sxs-lookup"><span data-stu-id="5b88a-104">Application releases</span></span>
 
-## <a name="application-releases"></a><span data-ttu-id="79fc5-104">Programos leidimai</span><span class="sxs-lookup"><span data-stu-id="79fc5-104">Application releases</span></span>
+<span data-ttu-id="5b88a-105">Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Finance and Operations” programos leidime, žr. šias temas:</span><span class="sxs-lookup"><span data-stu-id="5b88a-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
 
-<span data-ttu-id="79fc5-105">Norėdami sužinoti, kas nauja ar pasikeitė kiekviename „Finance and Operations” programos leidime, žr. šias temas:</span><span class="sxs-lookup"><span data-stu-id="79fc5-105">To see what's new or changed in each release of a Finance and Operations app, see the following topics:</span></span>
+- <span data-ttu-id="5b88a-106">**„Finance”:** [Kas nauja ar pasikeitė „Dynamics 365 Finance”](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="5b88a-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="5b88a-107">**„Supply Chain Management”:** [„Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management”](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="5b88a-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
+- <span data-ttu-id="5b88a-108">**„Commerce”:** [Kas nauja ar pasikeitė „Dynamics 365 Commerce”](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="5b88a-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
+- <span data-ttu-id="5b88a-109">**„Human Resources”:**[kas nauja ar pasikeitė „Dynamics 365 Human Resources“](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="5b88a-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
 
-- <span data-ttu-id="79fc5-106">**„Finance”:** [Kas nauja ar pasikeitė „Dynamics 365 Finance”](../../../finance/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="79fc5-106">**Finance:** [What's new or changed in Dynamics 365 Finance](../../../finance/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="79fc5-107">**„Supply Chain Management”:** [„Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management”](../../../supply-chain/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="79fc5-107">**Supply Chain Management:** [What's new or changed in Dynamics 365 Supply Chain Management](../../../supply-chain/get-started/whats-new-home-page.md)</span></span> 
-- <span data-ttu-id="79fc5-108">**„Commerce”:** [Kas nauja ar pasikeitė „Dynamics 365 Commerce”](../../../retail/get-started/whats-new-home-page.md)</span><span class="sxs-lookup"><span data-stu-id="79fc5-108">**Commerce:** [What's new or changed in Dynamics 365 Commerce](../../../retail/get-started/whats-new-home-page.md)</span></span>
-- <span data-ttu-id="79fc5-109">**„Human Resources”:**[kas nauja ar pasikeitė „Dynamics 365 Human Resources“](../../../human-resources/hr-admin-whats-new.md)</span><span class="sxs-lookup"><span data-stu-id="79fc5-109">**Human Resources:** [What's new or changed in Dynamics 365 Human Resources](../../../human-resources/hr-admin-whats-new.md)</span></span>
+## <a name="platform-updates"></a><span data-ttu-id="5b88a-110">Platformos naujinimai</span><span class="sxs-lookup"><span data-stu-id="5b88a-110">Platform updates</span></span>
 
-## <a name="platform-updates"></a><span data-ttu-id="79fc5-110">Platformos naujinimai</span><span class="sxs-lookup"><span data-stu-id="79fc5-110">Platform updates</span></span>
+<span data-ttu-id="5b88a-111">Norėdami sužinoti, kas nauja ar pasikeitė „Finance and Operations” programų platformų naujinimuose, žr. šią temą:</span><span class="sxs-lookup"><span data-stu-id="5b88a-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
 
-<span data-ttu-id="79fc5-111">Norėdami sužinoti, kas nauja ar pasikeitė „Finance and Operations” programų platformų naujinimuose, žr. šią temą:</span><span class="sxs-lookup"><span data-stu-id="79fc5-111">To see what's new or changed in the Platform updates for Finance and Operations apps, see the following topic:</span></span>
+- [<span data-ttu-id="5b88a-112">Kas nauja ar pasikeitė „Platform“ naujinimuose</span><span class="sxs-lookup"><span data-stu-id="5b88a-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
 
-- [<span data-ttu-id="79fc5-112">Kas nauja ar pasikeitė „Platform“ naujinimuose</span><span class="sxs-lookup"><span data-stu-id="79fc5-112">What's new or changed in Platform updates</span></span>](../../dev-itpro/get-started/whats-new-home-page.md)
+## <a name="lifecycle-services-releases"></a><span data-ttu-id="5b88a-113">„Lifecycle Services“ leidimai</span><span class="sxs-lookup"><span data-stu-id="5b88a-113">Lifecycle Services releases</span></span>
+<span data-ttu-id="5b88a-114">Norėdami sužinoti, kas nauja ar pasikeitė „Lifecycle Services“, žr. šią temą:</span><span class="sxs-lookup"><span data-stu-id="5b88a-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
 
-## <a name="lifecycle-services-releases"></a><span data-ttu-id="79fc5-113">„Lifecycle Services“ leidimai</span><span class="sxs-lookup"><span data-stu-id="79fc5-113">Lifecycle Services releases</span></span>
-<span data-ttu-id="79fc5-114">Norėdami sužinoti, kas nauja ar pasikeitė „Lifecycle Services“, žr. šią temą:</span><span class="sxs-lookup"><span data-stu-id="79fc5-114">To see what's new or changed in Lifecycle Services, see the following topic:</span></span>
-
-- [<span data-ttu-id="79fc5-115">Kas nauja ar pasikeitė „Lifecycle Services” (LCS)</span><span class="sxs-lookup"><span data-stu-id="79fc5-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
+- [<span data-ttu-id="5b88a-115">Kas nauja ar pasikeitė „Lifecycle Services” (LCS)</span><span class="sxs-lookup"><span data-stu-id="5b88a-115">What's new or changed in Lifecycle Services (LCS)</span></span>](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
