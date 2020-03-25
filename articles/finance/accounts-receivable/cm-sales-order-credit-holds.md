@@ -1,6 +1,6 @@
 ---
 title: Pardavimo užsakymų kredito sulaikymai
-description: ''
+description: Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka.
 author: mikefalkner
 manager: AnnBe
 ms.date: 01/25/2019
@@ -9,25 +9,23 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschloma
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 316a626e6a18f0afda632111138482f62f6809db
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 8a0e006be8a72f35d6c6009ca9d67d083b8fac89
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057675"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124259"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Pardavimo užsakymų kredito sulaikymai
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-
-Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka. Kredito valdymo blokavimo taisyklės gali būti taikomos atskiram klientui arba klientų grupei.  Blokavimo taisyklės apibrėžia atsakymus esant šioms aplinkybėms:
+Šioje temoje aprašoma taisyklių, naudojamų pardavimo užsakymų kredito sulaikymui, sąranka. Kredito valdymo blokavimo taisyklės gali būti taikomos atskiram klientui arba klientų grupei. Blokavimo taisyklės apibrėžia atsakymus esant šioms aplinkybėms:
 
 1. Pradelstų dienų skaičius
 2. Sąskaitos būsena
@@ -87,9 +85,9 @@ Atidarykite skirtuką **Kredito limito baigėsi**, jei blokavimo taisyklė taiko
    - Pasirinkite **Visi**, jei taisyklė taikoma visiems klientams. 
 3. Pasirinkite **Rizikos grupė**, kad galėtumėte toliau riboti klientų, kurie bus įtraukti į kreditų valdymo sulaikymą, sąrašą. 
 4. Pasirinkti taisyklės, kurią nustatote, tipą. 
-  - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
-  - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
-6. Pasirinktai blokavimo taisyklei įveskite **Kredito limito galiojimo dienos** prieš užsakymui pritaikydami kreditų valdymo sulaikymą. Pradelstų dienų skaičius nurodo papildomas atidėjimo dienas, kurios pridedamos prie pasibaigusio kredito limito dienų skaičiaus.
+   - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
+   - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
+5. Pasirinktai blokavimo taisyklei įveskite **Kredito limito galiojimo dienos** prieš užsakymui pritaikydami kreditų valdymo sulaikymą. Pradelstų dienų skaičius nurodo papildomas atidėjimo dienas, kurios pridedamos prie pasibaigusio kredito limito dienų skaičiaus.
 
 ### <a name="overdue-amount"></a>Laiku nesumokėta suma
 
@@ -104,11 +102,10 @@ Atidaryti skirtuką **Pradelsta suma**, jei blokavimo taisyklė taikoma klientam
    - Pasirinkite **Visi**, jei taisyklė taikoma visiems klientams. 
 3. Pasirinkite **Rizikos grupė**, jei norite toliau riboti klientų, kurie įtraukiami į kreditų valdymo sulaikymą, sąrašą. 
 4. Pasirinkti taisyklės, kurią nustatote, tipą. 
-  - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
-  - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
+   - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
+   - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
 5. Pasirinktai blokavimo taisyklei įveskite **Pradelsta suma** prieš užsakymo pateikimą į kredito valdymo sulaikymą peržiūrai. 
-6. Pasirinkite **Vertės tipas**, kuris nurodo vertės tipą, kuris bus taip pat bus naudojamas siekiant patikrinti, kiek kredito limito išnaudota. Blokavimo taisyklei reikia nurodyti procentus, o pašalinimui – fiksuotą sumą arba procentus.
-shold. Ribinė vertė yra susijusi su kredito limitu.
+6. Pasirinkite **Vertės tipas**, kuris nurodo vertės tipą, kuris bus taip pat bus naudojamas siekiant patikrinti, kiek kredito limito išnaudota. Blokavimo taisyklei reikia nurodyti procentus, o pašalinimui – fiksuotą sumą arba procentus. Ribinė vertė yra susijusi su kredito limitu.
 7. Pasirinktai taisyklei įveskite **Kredito limito ribinė vertė** prieš klientą įtraukiant į kreditų valdymo sulaikymą. Tai gali būti suma arba procentas, pagrįstas vertės tipu pagal pasirinktą vertės tipą.
 8. Taisyklė patikrina, ar viršijama **Pradelsta suma** ir ar viršijama **Kredito limito ribinė vertė**. 
 
@@ -125,9 +122,9 @@ Pasirinkite **Pardavimo užsakymas**, jei blokavimo taisyklė taikoma pardavimo 
    - Pasirinkite **Visi**, jei taisyklė taikoma visiems klientams. 
 3. Pasirinkite **Rizikos grupė**, jei norite toliau riboti klientų, kurie įtraukiami į kreditų valdymo sulaikymą, sąrašą. 
 4. Pasirinkti taisyklės, kurią nustatote, tipą.  
-  - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
-  - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
-6. Pasirinktai blokavimo taisyklei įveskite **Pardavimo užsakymo suma** prieš užsakymo pateikimą į kredito valdymo sulaikymą. 
+   - Pasirinkite **Blokavimas**, kad sukurtumėte taisyklę, kuri blokuoja užsakymą. 
+   - Pasirinkite **Pašalinimas**, kad sukurtumėte taisyklę, kuri pašalins kitą taisyklę, kad neblokuotų užsakymo. 
+5. Pasirinktai blokavimo taisyklei įveskite **Pardavimo užsakymo suma** prieš užsakymo pateikimą į kredito valdymo sulaikymą. 
 
 Pardavimo užsakymo taisyklėje yra papildomas parametras, kuris nepaiso visų kitų taisyklių. Norėdami sukurti pašalinimą, kuris išleis pardavimo užsakymą, neatsižvelgdamas į jokias kitas taisykles, pasirinkite žymės langelį **Išleisti pardavimo užsakymą**, esantį pašalinimo eilutėje.
 
@@ -187,7 +184,7 @@ Taisyklės **Išnaudotas kredito limitas** elgsena keisis pagal parametro **Pard
 
 Užsakymai gali būti pašalinti iš kreditų valdymo, net jei jau yra taisyklės. 
 
-- Jei parametrus **Pašalinti klientą iš kreditų valdymo**, esančius **Visi klientai > pasirinkti klientą > Kreditų ir surinkimo „fasttab“**, nustatote kaip **Taip**, nebus apdorojami jokie šio kliento užsakymai.
+- Jei parametrus **Pašalinti klientą iš kreditų valdymo**, esančius „FastTab“ **Visi klientai > Pasirinkti klientą > Kreditas ir surinkimas**, nustatote kaip **Taip**, nebus apdorojami jokie šio kliento užsakymai
 - Jei **Pašalinti iš kreditų valdymo** vertę **pardavimo užsakymo antraštėje**, esančioje **Kredito valdymo „fast tab“**, nustatote kaip **Taip**, nebus apdorojamos kreditų valdymo taisyklės. Šį parametrą gali nustatyti tik kreditų valdininkas arba kreditų vadovas.
 
 ## <a name="processing-orders-on-hold-using-the-credit-management-hold-list"></a>Sulaikytų užsakymų apdorojimas naudojant kreditų valdymo sulaikymo sąrašą
@@ -216,8 +213,8 @@ Kai išanalizavote sulaikymo priežastis ir jas pašalinote, galite išleisti pa
 2) Pasirinkite **Išleidimo priežastis** užsakymui, kurį pasirinkote išleisti.  
 3) Įveskite **Peržiūros data** kiekvienam užsakymui, kuriuos pasirinkote išleisti.  
 4) Veiksmų srityje pasirinkite meniu **Išleisti**, kad išleistumėte užsakymą. Šis meniu bus pasiekiamas tik pasirinkus operacijas. Vartotojui pateikiamos dvi parinktys.
- - Pasirinkti **Su registravimu**, kad būtų pašalintas sulaikymas ir dokumentas užregistruotas naudojant tą patį registravimo procesą, kuris buvo naudojamas, kai dokumentas buvo sulaikytas. Pavyzdžiui, jei pardavimo užsakymo patvirtinimas sulaikytas, pardavimo užsakymo patvirtinimas bus baigtas po išleidimo. Bus rodoma pardavimo užsakymo registravimo forma, leidžianti vartotojui užregistruoti patvirtinimą.
- - Pasirinkite **Be registravimo**, kad pašalintumėte sulaikymą be tolesnio apdorojimo. Pardavimo užsakymą galima registruoti rankiniu būdu.
+   - Pasirinkti **Su registravimu**, kad būtų pašalintas sulaikymas ir dokumentas užregistruotas naudojant tą patį registravimo procesą, kuris buvo naudojamas, kai dokumentas buvo sulaikytas. Pavyzdžiui, jei pardavimo užsakymo patvirtinimas sulaikytas, pardavimo užsakymo patvirtinimas bus baigtas po išleidimo. Bus rodoma pardavimo užsakymo registravimo forma, leidžianti vartotojui užregistruoti patvirtinimą.
+   - Pasirinkite **Be registravimo**, kad pašalintumėte sulaikymą be tolesnio apdorojimo. Pardavimo užsakymą galima registruoti rankiniu būdu.
 
 ### <a name="rejecting-orders-in-the-hold-list"></a>Užsakymų sulaikymų sąraše atmetimas
 Galite naudoti veiksmų srities meniu **Atmesti**, kad atmestumėte pardavimo užsakymą.

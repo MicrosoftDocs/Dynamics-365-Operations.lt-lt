@@ -3,7 +3,7 @@ title: El. prekybos svetainės kūrimas
 description: Šioje temoje aprašomi veiksmai ir pateikiama informacija, reikalinga kuriant naują El. prekybos svetainę „Dynamics 365 Commerce“ svetainių daryklėje.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3d3d8a290f06d9734be21f2d59152acac6857506
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002018"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096779"
 ---
 # <a name="create-an-e-commerce-site"></a>El. prekybos svetainės kūrimas
 
@@ -65,11 +65,19 @@ Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite 
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
+[Interneto parduotuvės kanalo integravimas](online-stores.md)
+
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
 [„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
+[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
+
+[B2C nuomotojo nustatymas „Commerce“ aplinkoje](set-up-B2C-tenant.md)
+
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
+
+[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 

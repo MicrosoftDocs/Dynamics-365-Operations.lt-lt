@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2fdfe05483d577819d64bdf7a4ebfe5d37cd414c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: a822e5f5a6cb71a0234b1776211788578470b0bb
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015317"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124305"
 ---
 # <a name="credit-and-collections-overview"></a>Kredito ir surinkimo apžvalga
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Galite valdyti savo klientų kreditų limitus ir vykdyti surinkimo veiklas, kai jos tampa būtinos.
 

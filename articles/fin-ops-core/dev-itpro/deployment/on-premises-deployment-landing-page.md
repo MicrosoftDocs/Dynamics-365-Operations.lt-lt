@@ -3,7 +3,7 @@ title: Vietinio visuotinio diegimo pagrindinis puslapis
 description: Šioje temoje pateikta informacija ir saitai į turinį apie vietinių versijų diegimą.
 author: sericks007
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 03/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 50fb53902e9f9796cac958f7cea2605ba00ba1bd
-ms.sourcegitcommit: ae8625f44453a71a94df6fb98d054c1c56b76700
+ms.openlocfilehash: b251125323bb74eb8be4172cb1b143c4866a8eac
+ms.sourcegitcommit: ec4df51e17be0b2df393635605ea17250c991ee9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "3090594"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "3099735"
 ---
 # <a name="on-premises-deployment-home-page"></a>Vietinio visuotinio diegimo pagrindinis puslapis
 
@@ -55,8 +55,9 @@ Galite diegti „Dynamics 365 Finance + Operations“ (vietinė versija). Pasiri
 - [Kliento interneto ryšys](../user-interface/client-disconnected.md)
 - [Vietinių visuotinių įdiegčių naujinimų taikymas](apply-updates-on-premises.md)
 - [Kartotinis visuotinis vietinių aplinkų diegimas](redeploy-on-prem.md)
+- [To paties AD FS egzemplioriaus naudojimas keliose aplinkose](onprem-reuseadfs.md)
 
-## <a name="commerce"></a>Commerce
+## <a name="commerce"></a>Prekyba
 - [„Commerce“ galimybės, pasiekiamos vietinėse visuotinėse įdiegtyse](../../../retail/retail-onprem.md)
 - [„Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai](deploy-retail-onprem.md)
 - [„Modern POS“ (MPOS) konfigūravimas, diegimas ir aktyvinimas](../../../retail/retail-modern-pos-device-activation.md)

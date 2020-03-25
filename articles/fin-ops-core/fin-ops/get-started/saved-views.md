@@ -3,7 +3,7 @@ title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
 manager: AnnBe
-ms.date: 10/16/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 62d7dc1bd877cd1267f87ed24f8fb8be8f6c74a3
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: c6a5880c6ae9470dbf7986f39798ec888d0c22ea
+ms.sourcegitcommit: 1789a78de1cbeac19d96767812df653a191c67e9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3017709"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "3100313"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -71,7 +71,7 @@ Norėdami įrašyti šiuos pakeitimus, atlikite toliau nurodytus veiksmus.
 2.  Norėdami modifikuoti esamą rodinį, atlikite toliau nurodytą veiksmą.
      1. Pasirinkite **Įrašyti**. Atkreipkite dėmesį, kad šio veiksmo negalima atlikti užrakintiems rodiniams. 
 3.  Norėdami sukurti naują rodinį, atlikite toliau nurodytus veiksmus.
-     1.    Pasirinkite **Išsaugoti kaip...**. 
+     1.    Pasirinkite **Įrašyti kaip**. 
      2.    Įveskite rodinio pavadinimą ir aprašą (nebūtinai).
      3.    Pasirinkite **Įrašyti**.
 
@@ -83,9 +83,9 @@ Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus.
 2.  Pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklį. 
 3.  Pasirinkite **Daugiau**, o paskui – **Prisegti kaip numatytąjį**.  
 
-Arba, kai sukuriate naują rodinį (naudodamiesi veiksmu **Išsaugoti kaip...**), prieš išsaugodami rodinį, galite padaryti tą naują rodinį numatytuoju rodiniu, nustatydami parinktį **Prisegti kaip numatytąjį**.
+Arba kurdami naują rodinį (naudodami veiksmą **Įrašyti kaip**) galite nustatyti, kad naujas rodinys būtų numatytasis rodinys – prieš įrašydami rodinį pasirinkite parinktį **Prisegti kaip numatytąjį**.
 
-Atkreipkite dėmesį, kad kai kuriais atvejais su numatytuoju rodiniu susieta užklausa nevykdoma į puslapį perėjus pirmą kartą. Pavyzdžiui, perėjus į puslapį naudojantis plytele, plytelės užklausa bus vykdoma neatsižvelgiant į su numatytuoju rodiniu susietą užklausą. Taip pat perėjus į puslapį, kurio klasikiniame rodinyje jau nurodyta užklausa, iš pradžių bus vykdoma ne numatytojo rodinio užklausa, o pradinė užklausa. Taip nutikus, įkeliant rodinį rodomas įspėjantis informacinis pranešimas. Perjungus rodinius, kai puslapis įkeltas, rodinio užklausą turėtų būti leidžiama vykdyti kaip numatyta.
+Atkreipkite dėmesį, kad kai kuriais atvejais su numatytuoju rodiniu susieta užklausa nevykdoma į puslapį perėjus pirmą kartą. Pavyzdžiui, perėjus į puslapį naudojantis plytele, plytelės užklausa bus vykdoma neatsižvelgiant į su numatytuoju rodiniu susietą užklausą. Taip pat perėjus į puslapį, kurio standartinėje rodinyje jau nurodyta užklausa, iš pradžių bus vykdoma ne numatytojo rodinio užklausa, o pradinė užklausa. Taip nutikus, įkeliant rodinį rodomas įspėjantis informacinis pranešimas. Perjungus rodinius, kai puslapis įkeltas, rodinio užklausą turėtų būti leidžiama vykdyti kaip numatyta. Pradedant nuo 10.0.10 versijos platformos 34 naujinimo, informacinis pranešimas turės įdėtąjį veiksmą, kuris leis tiesiogiai įkelti numatytąją rodinio užklausą.
 
 ## <a name="managing-personal-views"></a>Asmeninių rodinių valdymas 
 Dialogo lange **Valdyti mano rodinius** suteikiama galimybė atlikti pagrindinę asmeninių rodinių priežiūrą ir nurodyti rodinių tvarką rodinių išrinkiklyje. Norėdami atidaryti šį puslapį, spustelėkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.  
@@ -133,7 +133,7 @@ Jeigu publikuotam rodiniui norimi atlikti pakeitimai apima tik publikavimo param
 3.  Pasirinkite **Taip**, jei norite atnaujinti esamą rodinį (arba **Ne**, jei norite jį publikuoti kitu pavadinimu).
 4.  Atnaujinkite rodinio pavadinimą, aprašą ir (arba) saugos vaidmenis. 
 5.  Pasirinkite **Publikuoti**. 
-6.  [10.0.8 / 32 ar ankstesnis platformos atnaujinimas] Jei atnaujinote paskelbto rodinio pavadinimą, taip pat turėsite ištrinti senu pavadinimu paskelbtą rodinį (daugiau informacijos rasite skyriuje **„Paskelbtų rodinių tvarkymas“**). 
+6.  [10.0.8 / 32 ar ankstesnis platformos atnaujinimas] Jei atnaujinote paskelbto rodinio pavadinimą, taip pat turėsite ištrinti senu pavadinimu paskelbtą rodinį (daugiau informacijos rasite skyriuje **Paskelbtų rodinių tvarkymas**). 
 7. [10.0.9 / 33 ar naujesnis platformos atnaujinimas] Jei iš pradžių pasirinkote šį paskelbtą rodinį kaip numatytąjį rodinį, po pakartotinio paskelbimo jis vėl bus numatytasis šių vartotojų rodinys.  
 
 Jeigu publikuoto rodinio pakeitimai apima su rodiniu susietų personalizavimų ar filtrų modifikavimą, atlikite toliau nurodytus veiksmus. 

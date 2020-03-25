@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 8bef8edb46a1942d3efc325e2c437a138ad44839
-ms.sourcegitcommit: e1a55b4dc43abedf523c33ba9a8abe7b073f2ec6
+ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3083023"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113925"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
@@ -41,7 +41,7 @@ ms.locfileid: "3083023"
 Galite naudoti šias API, kad būtų rodoma, kirk yra produkto atsargų, kai jūsų klientai apsiperka el. prekybos svetainėje.
 
 - **GetEstimatedAvailability** – naudokite šią API, norėdami gauti prekės atsargų pasiekiamumą el. prekybos kanalo sandėlyje arba visuose sandėliuose, kurie susieti su elektroninės prekybos kanalo vykdymo grupės konfigūracija. Ši API taip pat gali būti naudojama sandėliams, esantiems konkrečioje ieškos srityje arba konkrečiu spinduliu, remiantis ilgumos ir platumos duomenimis.
-- **ProductWarehouseInventoryAvailabilities** – naudokite šią API, norėdami užklausti, kiek prekės atsargų yra konkrečiame sandėlyje. Pavyzdžiui, galite naudoti ją, kad būtų rodomas atsargų pasiekiamumas scenarijuose, į kuriuos įtrauktas užsakymo paėmimas.
+- **GetEstimatedProductWarehouseAvailability** – naudokite šią API, norėdami užklausti, kiek prekės atsargų yra konkrečiame sandėlyje. Pavyzdžiui, galite naudoti ją, kad būtų rodomas atsargų pasiekiamumas scenarijuose, į kuriuos įtrauktas užsakymo paėmimas.
 
 > [!NOTE]
 > Šios API pakeičia **GetProductAvailabilities** ir **GetAvailableInventoryNearby** API, esančias „Dynamics 365 Retail“ 10.0.7 ir ankstesnėse versijose.

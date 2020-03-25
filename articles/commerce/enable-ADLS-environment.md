@@ -3,7 +3,7 @@ title: ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
 description: Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ (ADLS) „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.
 author: bebeale
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 068eb522bd44e02dd31d3337a051691a956637fc
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 553e1512ba72559923403eef741ce08222172a09
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025266"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127772"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
 
@@ -95,8 +95,22 @@ Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomenda
 
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 
-[ĮProduktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md)
+[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
-[Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną](../retail/add-recommendations-control-pos-screen.md?toc=/dynamics365/commerce/toc.json)
+[Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
+
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
+
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
+
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
+
+[Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
+
+[DUK apie produktų rekomendacijas](faq-recommendations.md)
 
 

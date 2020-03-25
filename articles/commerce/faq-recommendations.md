@@ -3,7 +3,7 @@ title: DUK apie produktų rekomendacijas
 description: Šioje temoje pateikiama informacija apie procesus ir įrankius, kuriuos galite naudoti problemoms, susijusioms su produkto rekomendacijomis arba jų rezultatais, diagnozuoti.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7951f92ef68a7a782f2874d7b73d7e45eba0afba
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3add4e2e0d5cc16b561b808aacf5cef94fea5ae5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003032"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127795"
 ---
 # <a name="product-recommendations-faq"></a>DUK apie produktų rekomendacijas
 
@@ -75,12 +75,28 @@ Norėdami gauti informacijos apie tai, kaip įtraukti produkto rekomendacijų pu
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Kaip įjungti EKA rekomendacijas?
 
-Įjungus produkto rekomendacijas, prie valdiklio EKA ekrano reikės pridėti rekomendacijų skydelį. Norėdami gauti daugiau informacijos apie tai, kaip į savo EKA įrenginio maketą įtraukti į rekomendacijų skydelį, žr. [šios funkcijos dokumentaciją](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/add-recommendations-control-pos-screen).
+Įjungus produkto rekomendacijas, prie valdiklio EKA ekrano reikės pridėti rekomendacijų skydelį. Daugiau informacijos rasite [Rekomendacijų valdiklio įtraukimas į EKA įrenginių operacijų ekraną](add-recommendations-control-pos-screen.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
+[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 
-[Tvarkyti AI-ML pagrįstų produktų rekomendacijų rezultatus](modify-product-recommendation-results.md)
+[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
+
+[Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
+
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
+
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
+
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
+
+[Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)

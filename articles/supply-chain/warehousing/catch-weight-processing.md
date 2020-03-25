@@ -3,7 +3,7 @@ title: Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2020
+ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 8bc3e3e7bea15127062edfcd362476de97bff07d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3014a7b22c47f99b5c57fd6acd9be8d89c6fb8ab
+ms.sourcegitcommit: 75974ae567bb0eacf0f65cac992b34ce5c680b93
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004116"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3095802"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -30,10 +30,10 @@ ms.locfileid: "3004116"
 
 ## <a name="feature-exposure"></a>Funkcijos įjungimas
 
-Norėdami naudoti sandėlio valdymą esamo svorio produktams apdoroti, turite naudoti licencijos konfigūracijos raktą, kad įjungtumėte funkciją. (Pasirinkite **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**. Tada skirtuke **Konfigūracijos raktai** išplėskite **Prekyba \> Sandėlio ir transportavimo valdymas**, tada pasirinkite žymės langelį **Esamas svoris sandėlyje**).
+Norėdami naudoti sandėlio valdymą esamo svorio produktams apdoroti, turite naudoti licencijos konfigūracijos raktą, kad įjungtumėte funkciją. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**. Tada skirtuke **Konfigūracijos raktai** išplėskite **Prekyba \> Sandėlio ir transportavimo valdymas**, tada pasirinkite žymės langelį **Esamas svoris sandėlyje**.
 
 > [!NOTE]
-> Licencijos konfigūracijos raktas **Sandėlio ir transportavimo valdymas** ir licencijos konfigūracijos raktai **Apdoroti paskirstymą \> Esamas svoris** turi būti įjungti. Norėdami nustatyti esamo svorio konfigūracijos raktus, taip pat turite įjungti funkciją naudodami darbo sritį **Funkcijų valdymas**. Pagrindinė funkcija, kurią reikia įjungti, yra **Esamo svorio produktų apdorojimas naudojant sandėlio valdymą**. Kita susijusi, bet pasirenkama funkcija, kurią galbūt norėsite įjungti, yra **Esamo svorio produktų atsargų būsenos pakeitimai**. Ši funkcija suteikia galimybę pakeisti produktų, kuriuos įgalino esamas svoris, atsargų būseną.
+> Licencijos konfigūracijos raktas **Sandėlio ir transportavimo valdymas** ir licencijos konfigūracijos raktai **Apdoroti paskirstymą \> Esamas svoris** turi būti įjungti. Norėdami nustatyti esamo svorio konfigūracijos raktus, taip pat turite įjungti funkciją naudodami darbo sritį **Funkcijų valdymas**. Pagrindinė funkcija, kurią reikia įjungti, yra **Esamo svorio produktų apdorojimas naudojant sandėlio valdymą**. Dvi susijusios, bet papildomos funkcijos, kurias galbūt norėsite įjungti, yra **Esamo svorio produktų atsargų būsenos keitimai** ir **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**.
 
 Įjungus licencijos konfigūracijos raktą, kurdami išleistą produktą galite pasirinkti **Esamas svoris**. Išleistą produktą taip pat galima susieti su saugojimo dimensijų grupe, kurios parametras **Naudoti sandėlio valdymo procesus** yra pasirinktas.
 
@@ -107,6 +107,7 @@ Be to, kai prekė yra sekama pagal žymę, yra parametras **Siunčiamo žymės f
 **Kai naudojamas esamo svorio žymės sekimas**,, žymė visada turi būti sukurta ir priskirta kiekvienam gaunamam esamo svorio vienetui, o kiekviena žymė visada turi būti susieta su svoriu.
 
 Pvz., **Dėžė** yra esamo svorio vienetas ir jūs gaunate vieną aštuonių dėžių padėklą. Šiuo atveju turi būti sukurtos aštuonios unikalios esamo svorio žymės, o svoris turi būti susietas su kiekviena žyme. Priklausomai nuo gaunamų prekių esamo svorio žymės, galima užfiksuoti visų aštuonių dėžių svorį ir paskirstyti vidutinį svorį kiekvienai dėžei arba galima užfiksuoti unikalų kiekvienos dėžės svorį.
+Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**, atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėliavimo programėlėje neraginama užfiksuoti esamo svorio žymių duomenų kaip gamybos ataskaitos dalį kaip užbaigtą operaciją.
 
 **Kai esamo svorio žymės sekimas nenaudojamas**, svorį galima užfiksuoti kiekviename dimensijų rinkinyje (pvz., ir kiekvienoje numerio lentelėje ir sekimo dimensijoje). Taip pat svoris gali būti užfiksuotas sujungtu lygiu, pvz., kaip penkių numerių lentelių (padėklų) svoris.
 

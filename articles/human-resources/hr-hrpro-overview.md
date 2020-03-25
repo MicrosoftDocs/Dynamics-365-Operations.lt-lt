@@ -1,6 +1,6 @@
 ---
-title: Peržiūrėti
-description: ''
+title: Peržiūra
+description: „Dynamics 365 Human Resources“ vartotojo vadove pateikiami nurodymai, kaip nustatyti „Human Resources“, kaip nustatyti darbuotojų kompensacijas ir išmokas bei kaip valdyti darbo jėgą.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c489ddaec0363a5a6d68f0464786dfbe1b0e1349
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 7bef82f83de150df69a1a001fa9c07e34270742d
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009930"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091729"
 ---
-# <a name="overview"></a>Peržiūrėti
+# <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Human Resources“ vartotojo vadove pateikiami nurodymai, kaip nustatyti „Human Resources“, kaip nustatyti darbuotojų kompensacijas ir išmokas bei kaip valdyti darbo jėgą.
 
@@ -33,8 +33,8 @@ ms.locfileid: "3009930"
 
 [„Human Resources“ parametrų konfigūravimas](hr-setup-parameters.md)</br>
 [Bendrai naudojamų „Human Resources“ parametrų konfigūravimas](hr-setup-shared-parameters.md)</br>
-[„Human Resources“ darbo eigų nustatymas](hr-setup-workflows.md)</br>
-[Supažindinimas su datos ir laiko laukais](hr-setup-date-time-fields.md)</br>
+[„Human Resource“ darbo eigų nustatymas](hr-setup-workflows.md)</br>
+[Susipažinkite su datos ir laiko laukais](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Organizacijos parametrų konfigūravimas
 
@@ -50,7 +50,7 @@ ms.locfileid: "3009930"
 [El. pašto konfigūravimas ir siuntimas](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/human-resources/toc.json)</br>
 [Datos / laiko duomenys ir laiko juostos](../fin-ops-core/fin-ops/organization-administration/date-time-zones.md?toc=/dynamics365/human-resources/toc.json)</br>
 
-## <a name="manage-personnel"></a>Valdyti personalą
+## <a name="manage-personnel"></a>Personalo valdymas
 
 [Darbo jėgos organizavimas](hr-personnel-departments-jobs-positions.md)</br>
 [Užduoties komponentų nustatymas](hr-personnel-jobs.md)</br>
@@ -68,8 +68,8 @@ ms.locfileid: "3009930"
 ## <a name="set-up-compensation-plans"></a>Kompensacijos planų nustatymas
 
 [Kompensacijos planų apžvalga](hr-compensation-overview.md)</br>
-[Kompensavimo tinklelių nustatymas](hr-compensation-grids.md)</br>
-[Kurti kompensavimo struktūrą ir planą](hr-compensation-structure.md)</br>
+[Kompensacijos tinklelių nustatymas](hr-compensation-grids.md)</br>
+[Kompensacijos struktūros ir plano kūrimas](hr-compensation-structure.md)</br>
 [Pastoviosios atlyginimo dalies planų kūrimas](hr-compensation-fixed-plans.md)</br>
 [Kintamosios atlyginimo dalies planų kūrimas](hr-compensation-variable-plans.md)</br>
 [Darbuotojų įtraukimas į pastoviosios atlyginimo dalies planą](hr-compensation-enroll-employees-fixed.md)</br>
@@ -86,7 +86,7 @@ ms.locfileid: "3009930"
 [Teisės į išmoką taisyklių ir strategijų nustatymas](hr-benefits-define-eligibility-rules.md)</br>
 [Darbuotojų išmokų programos teikimas](hr-benefits-deliver-employee-benefits-program.md)</br>
 [Naujų išmokų kūrimas](hr-benefits-create.md)</br>
-[Darbuotojų registracija išmokoms gauti](hr-benefits-enroll-workers.md)</br>
+[Darbininkų registravimas išmokoms](hr-benefits-enroll-workers.md)</br>
 [Išmokos galiojimo datų tvarkymas](hr-benefits-expiration-dates.md)</br>
 [ACA ataskaitų generavimas](hr-benefits-aca-reports.md)</br>
 
@@ -95,36 +95,36 @@ ms.locfileid: "3009930"
 [Peržiūrėti](hr-leave-and-absence-overview.md)</br>
 [Atostogų ir neatvykimų parametrų konfigūravimas](hr-leave-and-absence-parameters.md)</br>
 [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)</br>
-[Atostogų užklausos darbo eigos kūrimas](hr-leave-and-absence-workflow.md)</br>
-[Atostogų ir neatvykimų tipai konfigūravimas](hr-leave-and-absence-types.md)</br>
+[Prašymo išeiti atostogų darbo eigos kūrimas](hr-leave-and-absence-workflow.md)</br>
+[Atostogų ir neatvykimų tipų konfigūravimas](hr-leave-and-absence-types.md)</br>
 [Atostogų ir neatvykimų plano kūrimas](hr-leave-and-absence-plans.md)</br>
-[Darbuotojų priskyrimas atostogų planui](hr-leave-and-absence-enroll.md)</br>
+[Darbininkų priskyrimas atostogų planui](hr-leave-and-absence-enroll.md)</br>
 [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)</br>
-[Peržiūrėti atostogų ir neatvykimų analizę](hr-leave-and-absence-analytics.md)</br>
-[Atostogų ir neatvykimų užklausų valdymas](hr-employee-self-service-manage-requests.md)</br>
-[Atostogų užklausa](hr-employee-self-service-request-time-off.md)</br>
-[Peržiūrėti komandos ir įmonės kalendorius](hr-employee-self-service-calendar.md)</br>
+[Atostogų ir neatvykimų analizės peržiūra](hr-leave-and-absence-analytics.md)</br>
+[Atostogų ir leidimo neatvykti prašymų valdymas](hr-employee-self-service-manage-requests.md)</br>
+[Laisvo laiko prašymas](hr-employee-self-service-request-time-off.md)</br>
+[Komandos ir įmonių kalendorių peržiūra](hr-employee-self-service-calendar.md)</br>
 
-## <a name="develop-employees"></a>Darbuotojų tobulinimas
+## <a name="develop-employees"></a>Darbuotojų rengimas
 
 [Našumo valdymo apžvalga](hr-develop-performance-management-overview.md)</br>
 [Darbo jėgos įgūdžių derinimas](hr-develop-skills.md)</br>
-[Įtraukti į našumo žurnalą](hr-develop-add-performance-journal.md)</br>
+[Įtraukimas į našumo žurnalą](hr-develop-add-performance-journal.md)</br>
 [Tikslo kūrimas](hr-develop-create-goal.md)</br>
 [Našumo apžvalgos kūrimas](hr-develop-create-performance-review.md)</br>
 
-## <a name="create-courses"></a>Kurti kursus
+## <a name="create-courses"></a>Kursų kūrimas
 
 [Mokymo kursų rengimas](hr-learning-courses.md)</br>
 [Klausimynų apžvalga](hr-learning-questionnaires.md)</br>
 [Klausimynų sudarymas](hr-learning-design-questionnaires.md)</br>
 [Klausimynų platinimas ir planavimas](hr-learning-distribute-questionnaires.md)</br>
 [Klausimynų platinimas naudojant planavimą](hr-learning-distribute-questionnaires-scheduling.md)</br>
-[Peržiūrėti klausimyno rezultatus](hr-learning-evaluate-questionnaire-results.md)</br>
+[Klausimyno rezultatų peržiūra](hr-learning-evaluate-questionnaire-results.md)</br>
 [Klausimyno rezultatų analizavimas](hr-learning-analyze-questionnaire-results.md)</br>
-[Sukurti atvirą klausimą](hr-learning-create-open-ended-question.md)</br>
-[Kurti uždarą klausimą](hr-learning-create-closed-ended-question.md)</br>
-[Kurti priklausomojo klausimą](hr-learning-depending-question.md)</br>
+[Atvirų klausimų kūrimas](hr-learning-create-open-ended-question.md)</br>
+[Uždarų klausimų kūrimas](hr-learning-create-closed-ended-question.md)</br>
+[Priklausomų klausimų kūrimas](hr-learning-depending-question.md)</br>
 
 
 

@@ -16,14 +16,16 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2989906c5aa3ead9e46b8ed5333e880e5cf1c6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 10795c90cb90961c17a4326b71ed43dc72039f2b
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769952"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117430"
 ---
 # <a name="import-files-in-xml-format-with-optional-attributes"></a>Failų importavimas XML formatu su pasirinktiniais atributais
+
+[!include [banner](../includes/banner.md)]
 
 Galite sukurti elektroninių ataskaitų (ER) formatus, skirtus analizuoti gaunamus elektroninius dokumentus XML formatu. Sukurtame ER formate tam tikri XML elementų atributai gali būti nurodyti kaip pasirinktiniai. Taigi galėsite tinkamai tvarkyti gaunamus failus naudodami tokius XML atributus arba jų nenaudodami. Tada galite naudoti šių failų turinį programos duomenims atnaujinti.
 
@@ -52,17 +54,17 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus 
 7. Spustelėkite **Pridėti**.
 8. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą.
 9. Lauke **Pavadinimas** įveskite „Sąrašas“.
-10. Lauke **Elemento tipas** pasirinkite **Įrašų sąrašas**.
-11. Spustelėkite **Pridėti**.
-12. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą.
-13. Lauke **Pavadinimas** įveskite „Kodas“.
-14. Lauke **Elemento tipas** pasirinkite **Eilutė**.
-15. Spustelėkite **Pridėti**.
-16. Spustelėkite **Įrašyti**.
-17. Uždarykite puslapį.
-18. Spustelėkite **Keisti būseną**.
-19. Spustelėkite **Baigta**.
-20. Spustelėkite **Gerai**.
+10.    Lauke **Elemento tipas** pasirinkite **Įrašų sąrašas**.
+11.    Spustelėkite **Pridėti**.
+12.    Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą.
+13.    Lauke **Pavadinimas** įveskite „Kodas“.
+14.    Lauke **Elemento tipas** pasirinkite **Eilutė**.
+15.    Spustelėkite **Pridėti**.
+16.    Spustelėkite **Įrašyti**.
+17.    Uždarykite puslapį.
+18.    Spustelėkite **Keisti būseną**.
+19.    Spustelėkite **Baigta**.
+20.    Spustelėkite **Gerai**.
 
 ## <a name="create-a-format-for-data-import"></a>Duomenų importavimo formato kūrimas
 1. Spustelėdami **Kurti konfigūraciją**, atidarykite išplečiamąjį dialogo langą.
@@ -81,32 +83,32 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus 
 7. Medyje pasirinkite **XML \ Elementas**.
 8. Lauke **Pavadinimas** įveskite „dokumentas“.
 9. Lauke **Daugialypumas** pasirinkite **Vienas daug**.
-10. Spustelėkite **Gerai**.
-11. Medyje pasirinkite **root\document**.
-12. Spustelėdami **Įtraukti** atidarykite išplečiamąjį dialogo langą.
-13. Medyje pasirinkite **XML \ Atributas**.
-14. Lauke **Pavadinimas** įveskite „id“.
-15. Spustelėkite **Gerai**.
-16. Spustelėkite **Įrašyti**.
+10.    Spustelėkite **Gerai**.
+11.    Medyje pasirinkite **root\document**.
+12.    Spustelėdami **Įtraukti** atidarykite išplečiamąjį dialogo langą.
+13.    Medyje pasirinkite **XML \ Atributas**.
+14.    Lauke **Pavadinimas** įveskite „id“.
+15.    Spustelėkite **Gerai**.
+16.    Spustelėkite **Įrašyti**.
 
 ## <a name="design-a-format-mapping-to-save-parsed-information-to-data-model"></a>Formato susiejimo, skirto įrašyti išanalizuotą informaciją į duomenų modelį, kūrimas
-1.  Spustelėkite **Susieti formatą su modeliu**.
-2.  Spustelėkite **Naujas**.
-3.  Lauke **Apibrėžtis** įveskite arba pasirinkite reikšmę.
-4.  Lauke **Pavadinimas** įveskite „Susiejimas“.
-5.  Spustelėkite **Įrašyti**.
-6.  Spustelėkite **Konstruktorius**.
-7.  Medyje išplėskite **format**.
-8.  Medyje išplėskite **format\root: XML Element(root)**.
-9.  Medyje pasirinkite **format\root: XML Element(root)\document: XML Element 1..* (dokumentas)**.
-10. Spustelėkite **Susieti**.
-11. Medyje išplėskite **format\root: XML Element(root)\document: XML Element 1..* (dokumentas)**.
-12. Medyje pasirinkite **format\root: XML Element(root)\document: XML Element 1..* (dokumentas)\id**.
-13. Medyje išplėskite **List = format.root.document**.
-14. Medyje pasirinkite **List = format.root.document\Code**.
-15. Spustelėkite **Susieti**.
-16. Spustelėkite **Įrašyti**.
-17. Uždarykite puslapį.
+1.    Spustelėkite **Susieti formatą su modeliu**.
+2.    Spustelėkite **Naujas**.
+3.    Lauke **Apibrėžtis** įveskite arba pasirinkite reikšmę.
+4.    Lauke **Pavadinimas** įveskite „Susiejimas“.
+5.    Spustelėkite **Įrašyti**.
+6.    Spustelėkite **Konstruktorius**.
+7.    Medyje išplėskite **format**.
+8.    Medyje išplėskite **format\root: XML Element(root)**.
+9.    Medyje pasirinkite **format\root: XML Element(root)\document: XML Element 1..* (dokumentas)**.
+10.    Spustelėkite **Susieti**.
+11.    Medyje išplėskite **format\root: XML Element(root)\document: XML Element 1..* (dokumentas)**.
+12.    Medyje pasirinkite **format\root: XML Element(root)\document: XML Element 1..* (dokumentas)\id**.
+13.    Medyje išplėskite **List = format.root.document**.
+14.    Medyje pasirinkite **List = format.root.document\Code**.
+15.    Spustelėkite **Susieti**.
+16.    Spustelėkite **Įrašyti**.
+17.    Uždarykite puslapį.
 
 ## <a name="run-format-mapping"></a>Formato susiejimo vykdymas
 1. Spustelėkite **Vykdyti**.
@@ -128,4 +130,4 @@ Norėdami daugiau sužinoti apie šią funkciją, atlikite veiksmus, aprašytus 
 2. Spustelėkite **Vykdyti**.
 3. Spustelėkite **Naršyti** ir pasirinkite failą **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Spustelėkite **Gerai**.
-5. Peržiūrėkite sugeneruotą failą. Atkreipkite dėmesį, kad tas pats failas buvo importuotas kaip formato dizainas. Dabar elemento „dokumentas“ atributą „ID“ laikykite pasirinktinu.
+5. Peržiūrėkite sugeneruotą failą. Atkreipkite dėmesį, kad tas pats failas buvo importuotas kaip formato dizainas. Dabar elemento „dokumentas“ atributą „ID“ laikykite pasirinktiniu.

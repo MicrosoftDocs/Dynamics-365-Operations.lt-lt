@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16a67ef625fdde0755e96c959be1fb2989ca53b6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e827ede0508d07b6800ecdc4cc99cb2b6a0bcc78
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770671"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124502"
 ---
 # <a name="sales-tax-overview"></a>PVM apžvalga
 
@@ -46,7 +46,7 @@ Kiekvieną PVM kodą reikia susieti su PVM sudengimo laikotarpiu. PVM sudengimo 
 
 Kiekvieną PVM kodą taip pat reikia susieti su DK registravimo grupe. DK registravimo grupė nurodo pagrindines sąskaitas, į kurias bus registruojamos PVM kodų sumos. 
 
-Taip pat galima apibrėžti pasirinktinius PVM ataskaitų kodus. Juos galima priskirti įvairių tipų apskaičiuotų PVM kodų sumų PVM kodams. Ataskaitoje **PVM mokėjimas pagal kodą** rodomos bendrosios nurodyto PVM sudengimo laikotarpio ir intervalo vieno mokesčių ataskaitų kodo sumos. 
+Taip pat galima apibrėžti pasirinktinius PVM ataskaitų kodus. Juos galima priskirti įvairių tipų apskaičiuotų PVM kodų sumų PVM kodams. Ataskaitoje **PVM mokėjimas pagal kodą** rodomos bendrosios nurodyto PVM sudengimo laikotarpio ir intervalo vieno PVM ataskaitų kodo sumos. 
 
 Kiekviena operacija, kuriai reikia apskaičiuoti ir registruoti PVM, turi turėti PVM grupę ir prekių PVM grupę. PVM grupės yra susijusios su operacijos šalimi (pvz., kliento ar tiekėjo), o prekių PVM grupės yra susijusios su operacijos ištekliumi (pvz., prekių arba įsigijimo kategorijos). Mokesčių grupėse yra mokesčių kodų sąrašas. Mokesčių kodai, esantys tiek operacijos PVM grupėje, tiek prekių PVM grupėje, yra kodai, taikomi tai operacijai. 
 

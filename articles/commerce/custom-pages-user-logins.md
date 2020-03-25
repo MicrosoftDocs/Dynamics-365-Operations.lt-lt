@@ -3,7 +3,7 @@ title: Vartotojo registracijos pasirinktinių puslapių sąranka
 description: Šioje temoje aprašoma, kaip sukurti tinkintus „Microsoft Dynamics 365 Commerce“ puslapius, kuriuose galima valdyti pritaikytus „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojų vartotojų prisijungimus.
 author: brianshook
 manager: annbe
-ms.date: 12/05/2019
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fe2a716d370c350c0c7e034835ff755f1ec9c6a1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 210a7d1c2b0a9a9606723b48681cca3a50fcc05b
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001950"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096802"
 ---
 # <a name="set-up-custom-pages-for-user-logins"></a>Vartotojo prisijungimo tinkintų puslapių sąranka
 
@@ -199,11 +199,19 @@ Atnaujinus global.json failą ir publikavus keitimus, naujas saito tekstas atsir
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Interneto parduotuvės kanalo integravimas](online-stores.md)
+
+[El. prekybos svetainės kūrimas](create-ecommerce-site.md)
 
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
 [„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+
+[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
+
+[B2C nuomotojo nustatymas „Commerce“ aplinkoje](set-up-B2C-tenant.md)
+
+[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 

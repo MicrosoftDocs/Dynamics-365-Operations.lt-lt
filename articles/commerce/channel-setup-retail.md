@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 8ac01f36912fa5e8a09bb4f324ef272cec737aa1
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002386"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113833"
 ---
 # <a name="set-up-a-retail-channel"></a>Mažmeninės prekybos kanalo nustatymas
 
@@ -66,7 +66,7 @@ Toliau pateiktame vaizde parodytas mažmeninės prekybos kanalo pavyzdys.
 
 Yra daug kitų pasirinktinių parametrų, kuriuos galima nustatyti skyriuose **Išrašas / uždarymas** ir **Įvairūs** pagal mažmeninės prekybos parduotuvės poreikius.
 
-Be to, žr. [Elektroninio kasos aparato (EKA) ekrano maketai](https://docs.microsoft.com/en-us/dynamics365/retail/pos-screen-layouts?toc=/dynamics365/commerce/toc.json), kur pateikta informacijos, kaip nustatyti numatytąjį ekrano maketą skyriuje **Ekrano maketas** ir [„Retail Hardware Station“ konfigūravimas ir diegimas](https://docs.microsoft.com/en-us/dynamics365/retail/retail-hardware-station-configuration-installation), kur pateikta skyriaus **Aparatūros stotys** sąrankos informacija.
+Be to, žr. [Elektroninio kasos aparato (EKA) ekrano maketai](pos-screen-layouts.md), kur pateikta informacijos, kaip nustatyti numatytąjį ekrano maketą skyriuje **Ekrano maketas** ir [„Retail Hardware Station“ konfigūravimas ir diegimas](retail-hardware-station-configuration-installation.md), kur pateikta skyriaus **Aparatūros stotys** sąrankos informacija.
 
 Toliau pateiktame vaizde parodytas mažmeninės prekybos kanalo sąrankos konfigūravimas.
 

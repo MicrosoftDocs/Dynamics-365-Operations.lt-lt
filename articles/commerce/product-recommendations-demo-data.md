@@ -1,9 +1,9 @@
 ---
-title: Gaukite produktų rekomendacijas, naudodami demonstracinius duomenis
+title: Rekomendacijų su demonstraciniais duomenimis kūrimas
 description: Šiuo dokumentu pateikiama patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
 author: bebeale
 manager: AnnBe
-ms.date: 10/01/19
+ms.date: 03/12/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,14 +19,17 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1456feb0665b6ec79a36a3704f17da80ffd759a0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e790d78b4d5216822ffda3a3895feb674876bd8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042785"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127841"
 ---
-# <a name="get-product-recommendations-using-demo-data"></a>Gaukite produktų rekomendacijas, naudodami demonstracinius duomenis
+# <a name="create-recommendations-with-demo-data"></a>Rekomendacijų su demonstraciniais duomenimis kūrimas
+
+[!include [banner](includes/banner.md)]
+
 Šiuo dokumentu pateikiama patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
 
 Daugiakanalės produktų rekomendacijos pateikia atrinktų arba programiškai sugeneruotų produktų surikiuotą sąrašą. Šiuos sąrašus galima naudoti keliuose scenarijuose, atsižvelgiant į verslo poreikį. Daugiau informacijos apie produktų rekomendacijų sąrašus rasite [produktų rekomendacijų apžvalgoje](product-recommendations.md).
@@ -67,4 +70,22 @@ Plėtinyje yra duomenų failas, pavadintas „RecoMockDataset.csv“, kuriuo gal
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
-[Aplinkos planavimas](../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md)
+[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+
+[Įjungti produktų rekomendacijas](enable-product-recommendations.md)
+
+[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
+
+[Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
+
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
+
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
+
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
+
+[DUK apie produktų rekomendacijas](faq-recommendations.md)

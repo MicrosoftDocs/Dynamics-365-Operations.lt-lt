@@ -3,7 +3,7 @@ title: Atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų
 description: Šioje temoje pateikiama informacija, kaip galite leisti klientams atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų, naudojant „Microsoft Dynamics 365 Commerce“.
 author: bebeale
 manager: AnnBe
-ms.date: 01/28/2020
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8e7b800218f68167901d86d61ae483680a04cfab
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: a6d2388e863135c2b6d51af915b606a56f0603a8
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3025267"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127749"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Atsisakyti asmeniniams poreikiams pritaikytų rekomendacijų
 
@@ -85,12 +85,22 @@ Toliau parodytame pavyzdyje matoma, kaip mažmenininkas gali įvykdyti šią už
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
+[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 
-[Įgalinti asmeniniams poreikiams pritaikytas rekomendacijas](personalized-recommendations.md)
+[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
-[ĮProduktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md)
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
 
-[Rekomendacijų skydelio įtraukimas į EKA įrenginius](add-recommendations-control-pos-screen.md)
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
 
-[Produktų rinkinio modulio peržiūra](product-collection-module-overview.md)
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
+
+[Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
+
+[DUK apie produktų rekomendacijas](faq-recommendations.md)

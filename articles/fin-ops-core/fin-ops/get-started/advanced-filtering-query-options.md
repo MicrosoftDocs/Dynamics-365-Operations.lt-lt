@@ -1,9 +1,9 @@
 ---
 title: Išplėstinio filtravimo ir užklausų sintaksė
-description: Šiame straipsnyje aprašomos filtravimo ir užklausos parinktys, kurios galimos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas, filtro srityje esantį operatorių atitinka arba tinklelio stulpelių antraščių filtrus.
+description: Šioje temoje aprašomos filtravimo ir užklausos parinktys, kurios pasiekiamos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas arba filtro srityje esantį atitikimo operatorių, arba tinklelio stulpelių antraščių filtrus.
 author: jasongre
 manager: AnnBe
-ms.date: 01/02/2020
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5a96921436311440ba60c3fa31135457cf9f291
-ms.sourcegitcommit: 8585de8acf579bcc033671ef270fa9d92230121b
+ms.openlocfilehash: 7a525422a091efe8ea88f42e91dc52488430cfe5
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/02/2020
-ms.locfileid: "2931293"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112196"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>Išplėstinio filtravimo ir užklausų sintaksė
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašomos filtravimo ir užklausos parinktys, kurios galimos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas, filtro srityje esantį operatorių **atitinka** arba tinklelio stulpelių antraščių filtrus.
+Šioje temoje aprašomos filtravimo ir užklausos parinktys, kurios pasiekiamos naudojant dialogo langą Išplėstinis filtravimas / rūšiavimas arba filtro srityje esantį **atitikimo** operatorių, arba tinklelio stulpelių antraščių filtrus.
 
 ## <a name="advanced-query-syntax"></a>Išplėstinės užklausos sintaksė
 
@@ -122,10 +122,11 @@ ms.locfileid: "2931293"
 <td>Naudojant dvi iš eilės įvestas dvigubas kabutes (<strong>""</strong>), randamos eilutės, kuriose dabartinio stulpelio reikšmių nėra.</td>
 </tr>
 <tr>
-<td>(<span class="code">SQL sakinys</span>) (SQL sakinys tarp skliaustelių)</td>
+<td>(<span class="code">„Finance and Operations” užklausa</span>) („Finance and Operations” užklausa skliausteliuose)</td>
 <td>Ieškoma užklausos, atitinkančios nustatytą</td>
-<td>Įveskite užklausą kaip SQL sakinį tarp skliaustelių.</td>
-<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
+<td>Įveskite užklausą kaip SQL sakinį tarp skliaustelių naudodami „Finance and Operations” užklausos kalbą.</td>
+  <td><strong><span class="code">((AccountNum LIKE "US *") && (DirPartyTable.Name LIKE "Cont*"))</span></strong><br><br> 
+       tai pavyzdys sintaksės, naudojamos šakninio duomenų šalitinio lauko ir kito duomenų šaltinio (skirto puslapiui Visi klientai) lauko filtro sąlygai</td>
 </tr>
 <tr>
 <td>A</td>
