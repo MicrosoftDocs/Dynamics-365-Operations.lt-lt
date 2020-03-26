@@ -1,9 +1,9 @@
 ---
-title: Kurti kuruojamus produktų rekomendacijų sąrašus
-description: Šioje temoje paaiškinama, kaip prekybininkai „Microsoft Dynamics 365 Commerce“ klientams gali kurti ir valdyti pasirinktinius produktų sąrašus.
+title: Kuruojamų rekomendacijų kūrimas rankiniu būdu
+description: Šioje temoje paaiškinama, kaip prekybininkai gali rankiniu būdu kurti ir tvarkyti produktų sąrašus, skirtus „Microsoft Dynamics 365 Commerce“ klientams.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,18 +19,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 46fbd2d8c1235a6cb22c9341bcc21ee3754c8ede
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: b39ef61e7dabdd8a53d5666926a95cb7b9e6b9a5
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024938"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127726"
 ---
-# <a name="create-curated-product-recommendation-lists"></a>Kurti kuruojamus produktų rekomendacijų sąrašus
+# <a name="manually-create-curated-recommendations"></a>Kuruojamų rekomendacijų kūrimas rankiniu būdu
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip prekybininkai „Microsoft Dynamics 365 Commerce“ klientams gali kurti ir valdyti pasirinktinius produktų sąrašus.
+Šioje temoje paaiškinama, kaip prekybininkai gali rankiniu būdu kurti ir tvarkyti produktų rekomendacijų sąrašus, skirtus „Microsoft Dynamics 365 Commerce“ klientams.
 
 Kuruojami sąrašai yra atskiro turinio, kurį sukūrė ir kuruoja žmonės, rinkiniai.  
 
@@ -56,8 +56,22 @@ Norėdami sukurti kuruojamą produktų rekomendacijų sąrašą, atlikite tolesn
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
+[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 
-[ĮProduktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md)
+[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
-[Produktų rinkinio modulio peržiūra](product-collection-module-overview.md)
+[Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
+
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
+
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
+
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
+
+[DUK apie produktų rekomendacijas](faq-recommendations.md)

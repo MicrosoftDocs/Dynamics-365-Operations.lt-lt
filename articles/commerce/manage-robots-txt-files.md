@@ -3,7 +3,7 @@ title: „Robots.txt” failų tvarkymas
 description: Šioje temoje aprašoma, kaip tvarkyti „robots.txt“ failus sprendime „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
 manager: annbe
-ms.date: 01/08/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brishoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0ce49f2968030ca4656a01c7646819c01635e12
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d248dae36e6e038749ee17a5a6ccb32f1dde0aed
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003492"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096849"
 ---
 # <a name="manage-robotstxt-files"></a>„Robots.txt” failų tvarkymas
 
@@ -92,11 +92,19 @@ Norėdami naikinti failą „robots.txt“ iš „Commerce“, atlikite šiuos v
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Interneto parduotuvės kanalo integravimas](online-stores.md)
+
+[El. prekybos svetainės kūrimas](create-ecommerce-site.md)
 
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
+[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
+
+[B2C nuomotojo nustatymas „Commerce“ aplinkoje](set-up-B2C-tenant.md)
+
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
+
+[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 

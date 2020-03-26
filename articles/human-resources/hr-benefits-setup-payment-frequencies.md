@@ -1,6 +1,6 @@
 ---
 title: Mokėjimo dažnumo nustatymas
-description: ''
+description: „Microsoft Dynamics 365 Human Resources“ naudoja mokėjimų dažnumą, kad apskaičiuotų metinį išmokų atlyginimą, nustatytų draudimo įnašo sumą, kurią darbuotojas moka kiekvieną laikotarpį ir nustatytų, kaip dažnai mokama teikėjams.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5fe0a16c4abbb9241fcdac88fd56e92bf04788c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: b786485ab53dcdb3b7e5ff02562f674a7f8e6eae
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009997"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3092596"
 ---
 # <a name="set-up-payment-frequencies"></a>Mokėjimo dažnumo nustatymas
 
@@ -51,7 +51,7 @@ Konvertavimo koeficientų laukuose nustatomas konvertavimo iš mokėjimo dažnum
    | Kas pusmetinis konvertavimo koeficientas | Mokėjimo dažnumo kaspusmetinis konvertavimo koeficientas. Pavyzdžiui, mėnesinio mokėjimo dažnumo kaspusmetinis konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 2 kartai per metus) = 6 |
    | Ketvirčio konvertavimo koeficientas | Mokėjimo dažnumo ketvirčio konvertavimo koeficientas. Pavyzdžiui, mėnesinio mokėjimo dažnumo ketvirčio konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 4 ketvirčiai) = 3 |
    | Mėnesis konvertavimo koeficientas | Mėnesinis mokėjimo dažnumo konvertavimo koeficientas. Pavyzdžiui, mėnesinio mokėjimo dažnumo mėnesinis konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 12 mėnesių) = 1 |
-   | Pusės mėnesio konvertavimo koeficientas | Mokėjimo dažnumo pusės mėnesio konvertavimo koeficientas. Pavyzdžiui, mėnesinio mokėjimo dažnumo pusės mėnesio konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 24 (2 k. per mėnesį) = 0,5 | 
+   | Pusės mėnesio konvertavimo koeficientas | Mokėjimo dažnumo pusės mėnesio konvertavimo koeficientas. Pavyzdžiui, mėnesinio mokėjimo dažnumo pusės mėnesio konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 24 (2 k. per mėnesį)) = 0,5 | 
    | Kas dvi savaites konvertavimo koeficientas | Metinis mokėjimo dažnumo konvertavimo koeficientas. Pavyzdžiui, metinis mėnesinio mokėjimo dažnumo konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 26 savaitės) = 0,461538 |
    | Savaitinis konvertavimo koeficientas | Metinis mokėjimo dažnumo konvertavimo koeficientas. Pavyzdžiui, metinis mėnesinio mokėjimo dažnumo konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 52 savaitės) = 0,230769 |
    | Dieninis konvertavimo koeficientas | Metinis mokėjimo dažnumo konvertavimo koeficientas. Pavyzdžiui, metinis mėnesinio mokėjimo dažnumo konvertavimo koeficientas yra: </br></br>(12 mėnesinių mokėjimų / 365 dienos) = 0,032877 |

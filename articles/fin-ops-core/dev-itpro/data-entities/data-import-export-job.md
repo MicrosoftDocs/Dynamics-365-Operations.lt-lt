@@ -3,7 +3,7 @@ title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 09/16/2019
+ms.date: 02/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87b852a73268251241cd66a07d7e4f4720706c0d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184559"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124617"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -191,8 +191,11 @@ Planuodami valymo procesą, turite nurodyti šiuos parametrus, kad apibrėžtum�
 
 -   **„Dienų, kiek saugoma retrospektyva, skaičius“** – šis parametras naudojamas kontroliuoti vykdymo retrospektyvos saugomą kiekį. – Lauke nurodytas dienų skaičius. Kai valymo užduotis suplanuota kaip pasikartojanti paketinė užduotis, šis parametras veiks kaip nuolat judantis langas, tokiu būdu visada palikdamas retrospektyvą nepaliestą tam tikram nurodytam dienų skaičiui, naikindamas likusią dalį. Numatytoji vertė yra 7.
 
--   **„Valandų skaičius, reikalingas užduočiai įvykdyti“** – priklausomai nuo retrospektyvos, kurią reikia išvalyti, kiekio, bendras valymo užduoties vykdymo laikas gali svyruoti nuo kelių minučių iki kelių valandų. Kadangi minėtų lentelių valymas turi būti atliekamas, kai sistemoje nėra kitos duomenų tvarkymo veiklos, tampa svarbu įsitikinti, kad valymo užduotis vykdoma ir baigiama prieš pradedant verslo veiklą.
+-   **„Valandų skaičius, reikalingas užduočiai įvykdyti“** – priklausomai nuo retrospektyvos, kurią reikia išvalyti, kiekio, bendras valymo užduoties vykdymo laikas gali svyruoti nuo kelių minučių iki kelių valandų. Šis parametras turi būti nustatytas kaip valandų, kurias bus vykdoma užduotis, skaičius. Po to, kai nurodytą valandų skaičių vykdoma išvalymo užduotis, ji bus išjungta ir vėl bus tęsiama pagal pasikartojimo grafiką.
 
     Maksimalų įvykdymo laiką galima nurodyti nustatant maksimalią valandų skaičiaus ribą, per kurią užduotis turi būti vykdoma naudojant šį parametrą. Valymo logika vienu metu remiasi vienos užduoties vykdymo ID chronologine tvarka išdėstyta seka, kur seniausia užduotis yra pirmoji susijusios vykdymo retrospektyvos valymui. Ji nustos rinkti naujo vykdymo ID valymui, kai likusi vykdymo trukmė yra nurodytos trukmės paskutiniuose 10 %. Kai kuriais atvejais tikimasi, kad valymo užduotis tęsis ilgiau nei nurodytas maksimalus laikas. Tai daugiausia priklausys nuo dabartinio vykdymo ID, kuris buvo pradėtas prieš 10% slenkstį, įrašų, kuriuos reikia panaikinti, skaičiaus. Pradėtas išvalymas turi būti užbaigtas siekiant užtikrinti duomenų vientisumą, o tai reiškia, kad išvalymas tęsis nepaisant nurodyto limito viršijimo. Kai valymas bus baigtas, naujas vykdymo ID neįtraukiamas ir valymo užduotis yra baigiama. Likusi vykdymo istorija, kuri nebuvo išvalyta dėl pakankamo vykdymo laiko trūkumo, bus įtraukta į kitą valymo užduoties planuojamą kartą. Numatytoji ir minimali šio parametro reikšmė nustatyta kaip 2 valandos.
 
 -   **„Pasikartojantis paketas“** – valymo užduotį galima vykdyti vieną kartą rankiniu būdu, arba ji taip pat gali būti suplanuota pasikartojančiam vykdymui pakete. Paketas gali būti planuojamas naudojant **Vykdyti fone** parametrus, tai yra standartinis paketo nustatymas.
+
+> [!NOTE]
+> Jei įrašai išdėstymo lentelėse iki galo nėra išvalyti, įsitikinkite, kad valymo užduotis yra suplanuota vykdyti pasikartojančiu grafiku. Kaip paaiškinta pirmiau, bet kuriuo valymo vykdymo metu užduotis išvalys tik tiek vykdymo ID, kiek galės per nustatytą maksimalų valandų skaičių. Kad būtų galima tęsti visų likusių išdėstymo įrašų valymą, užduotis turi būti suplanuota vykdyti periodiškai.

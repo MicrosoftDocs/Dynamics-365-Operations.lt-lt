@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0deb51bb23851b179e2c4166b6444af654a64e1d
-ms.sourcegitcommit: 380664bf10bb25449e3af3d62e235b76d46c0c89
+ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
+ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "2957372"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "3117342"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
+
+[!include [banner](../includes/banner.md)]
 
 Verslo vartotojai naudoja [elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemą, kad konfigūruotų siunčiamų dokumentų formatus pagal įvairių šalių / regionų teisinius reikalavimus. Vartotojai taip pat gali apibrėžti duomenų srautą, kad nurodytų kokie programos duomenys išdėstyti sugeneruotuose dokumentuose. ER sistema generuoja išsiunčiamus dokumentus „Microsoft Office“ formatais („Excel“ darbaknygėmis arba „Word“ dokumentais) naudojant iš anksto nustatytus šablonus. Šablonai yra užpildomi reikiama informacija pagal sukonfigūruotą duomenų srautą, kol reikalingi dokumentai yra generuojami. Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis tam tikriems išsiunčiamiems dokumentams generuoti. Tai parodo ER formato konfigūracija, kurioje yra šablonų, kuriuos galite naudoti skirtingiems išsiunčiamiems dokumentams generuoti. Verslo vartotojai gali naudoti šią sistemą reikalingiems verslo dokumentams valdyti.
 
@@ -147,7 +149,7 @@ Daugiau informacijos apie tai, kaip nustatyti reikalingus dokumentų valdymo par
 
 ![Dokumentų valdymo dokumento tipo nustatymas](./media/BDM-Overview-DMSetting.png)
 
-### <a name="SetupBdmParameters">Parametrų nustatymas</a>
+### <a name=""></a><a name="SetupBdmParameters">Parametrų nustatymas</a>
 
 Pagrindinius verslo dokumentų valdymo parametrus galite nustatyti puslapyje **Verslo dokumentų parametrai**. Puslapis pasiekiamas tik konkretiems vartotojams. Vartotojai, galintys pasiekti puslapį:
 
@@ -158,7 +160,7 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 
 1. Prisijunkite kaip vartotojas, kuriam suteikta prieiga prie puslapio **Verslo dokumentų parametrai**.
 2. Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Verslo dokumentų valdymas** \> **Verslo dokumentų parametrai**.
-3.  Puslapyje **Verslo dokumentų parametrai**, skirtuke **Priedai**, lauke **„SharePoint“ dokumento tipas** apibrėžkite dokumento tipą, kuris turėtų būti naudojamas laikinai saugoti šablonus „Office“ formatais, kol jie redaguojami naudojant „Office“ darbalaukio programas. 
+3.    Puslapyje **Verslo dokumentų parametrai**, skirtuke **Priedai**, lauke **„SharePoint“ dokumento tipas** apibrėžkite dokumento tipą, kuris turėtų būti naudojamas laikinai saugoti šablonus „Office“ formatais, kol jie redaguojami naudojant „Office“ darbalaukio programas. 
 
 > [!NOTE]
 > Šis parametras pasiekiamas tik dokumentų tipams, kurie sukonfigūruoti naudojant „SharePoint“ vietą.
@@ -288,13 +290,13 @@ Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus 
 
 ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name="EditInOffice365">Šablono redagavimas naudojant „Office 365“</a>
+### <a name=""></a><a name="EditInOffice365">Šablono redagavimas naudojant „Office 365“</a>
 
-Šabloną galima modifikuoti naudojant „Office 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai saugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
+Šabloną galima modifikuoti naudojant „Office 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai išsaugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
 
 ![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout2.png)
 
-### <a name="EditInOfficeDesktopApp">Šablono redagavimas „Office“ darbalaukio programoje</a>
+### <a name=""></a><a name="EditInOfficeDesktopApp">Šablono redagavimas „Office“ darbalaukio programoje</a>
 
 > [!NOTE]
 > Ši funkcija galima tik tada, kai parametras **„SharePoint“ dokumento tipas** tinkamai sukonfigūruotas. Daugiau informacijos žr. [Parametrų konfigūravimas](#SetupBdmParameters).
@@ -359,7 +361,7 @@ Modifikuotas šablonas naudojamas pažymėtos prekės laisvos formos sąskaitos-
 
     ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-AddRevision.png)
 
-    Sukūrėte naują šablono pataisymą, kuris buvo išsaugotas nuolatinėje šablono saugykloje. Dabar galite tęsti antro pataisymo, kuris šiuo metu pažymėtas kaip aktyvus, šablono redagavimą.
+    Sukūrėte naują šablono versiją, kuri buvo išsaugota nuolatinėje šablono saugykloje. Dabar galite tęsti antro pataisymo, kuris šiuo metu pažymėtas kaip aktyvus, šablono redagavimą.
 
 5. Pasirinkite pirmą pataisymą, o tada pasirinkite **Nustatyti kaip aktyvų**. Galite pasirinkti kitą pataisymą kaip aktyvų jei kuriuo nors metu norėsite grąžinti tą šablono pataisymą.
 6. Pasirinkite antrą pataisymą ir tada pasirinkite **Naikinti**.

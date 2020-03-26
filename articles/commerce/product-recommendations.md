@@ -3,7 +3,7 @@ title: Produktų rekomendacijų apžvalga
 description: Šioje temoje pateikta bendra informacija apie produkto rekomendacijas. Produktų rekomendacijos leidžia vartotojams lengvai ir greitai rasti norimus produktus ir netgi produktų, kurių jie neketina pirkti.
 author: Moonma
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e249c7d450510a3a9a33158e9e1c33f832a1f91c
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: abeeb3c35c21f6d7a6ec24a84522033f9a5367f3
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024984"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127864"
 ---
 # <a name="product-recommendations-overview"></a>Produktų rekomendacijų apžvalga
 
@@ -32,10 +32,16 @@ ms.locfileid: "3024984"
 
 „Microsoft Dynamics 365 Commerce“ gali būti naudojama rodyti produkto rekomendacijas „e-Commerce“ svetainėje ir elektroninio kasos aparato (EKA) įrenginyje. Produkto rekomendacijos – tai prekės, kurios gali sudominti klientą. Rekomendacijos yra paremtos kitų klientų pirkimo tendencijomis internetinėse ir fizinėse parduotuvėse.
 
-Pasitelkdami produktų rekomendacijas vartotojai gali lengvai ir greitai rasti norimų produktų, tad ši funkcija jiems labai naudinga. Kryžminis pardavimas ir papildomas pardavimas netgi gali būti naudojami siekiant padėti klientams surasti papildomų produktų, kurių iš pradžių jie net neketino pirkti. Naudojant rekomendacijas padėti aptikti produktų, jomis galima sukurti daugiau konvertavimo galimybių, padėti padidinti įplaukas ir netgi padėti padidinti klientų pasitenkinimą bei išsaugojimą.
+Pasitelkdami produktų rekomendacijomis vartotojai gali lengvai ir greitai rasti norimų produktų, tad ši funkcija jiems labai naudinga. Kryžminis pardavimas ir papildomas pardavimas gali būti naudojami netgi siekiant padėti klientams surasti papildomų produktų, kurių iš pradžių jie net neketino pirkti. Kai rekomendacijos yra naudojamos siekiant pagerinti produkto atradimą, atsiranda daugiau konversijos padidinimo galimybių, išauga pardavimo įplaukos, netgi pagerėja klientų pasitenkinimas ir tokiu būdu jie išsaugomi.
 
-„Commerce“ produktų rekomendacijoms plačiai naudojama „Microsoft“ rekomendacijų mašininio mokymo technologijų platforma.
+„e-Commerce“ produktų rekomendacijoms plačiai naudojama „Microsoft“ rekomendacijų mašininio mokymo technologijų platforma.
 
+## <a name="recommendation-service"></a>Rekomendacijų paslauga
+
+Produkto rekomendacijų paslauga naudoja dirbtinio intelekto ir mašininio mokymosi (AI-ML) technologijas toliau nurodytais būdais.
+
+- Rekomendacijų paslaugai reikiamu formatu pateikti duomenys ištraukiami iš „Commerce“ operacinės duomenų bazės ir siunčiami į „Azure Data Lake Storage“ (ADLS) arba objekto parduotuvę.
+- Rekomendacijų paslaugai naudojami išsaugoti duomenys, skirti mokyti rekomendavimo modelius sąrašams **Žmonėms taip pat patiko**, **Dažnai kartu perkama**, **Nauja**, **Perkamiausi** ir **Populiaru**.
 
 ## <a name="scenarios"></a>Scenarijai
 
@@ -44,25 +50,41 @@ Produktų rekomendacijos pasiekiamos toliau nurodytais scenarijais:
 - **Bet kuriame parduotuvės naršymo puslapyje ar nukreipimo puslapyje el. prekyboje:** Jei klientai arba parduotuvės partneriai lankosi parduotuvės puslapyje, rekomendacijų mechanizmas gali siūlyti produktus iš sąrašų **Nauja**, **Perkamiausi** ir **Populiaru**.
 - **Produkto išsamios informacijos puslapyje:** Jei klientai ar parduotuvės partneriai apsilanko puslapyje **Produkto išsami informacija**, rekomendacijos mechanizmas pasiūlys papildomas prekes, kurios taip pat gali būti perkamos. Šie elementai rodomi sąraše **Žmonėms taip pat patiko**.
 - **Operacijų puslapyje arba pirkimo užbaigimo puslapyje:** rekomendacijų mechanizmas siūlo prekių pagal visų prekių krepšelyje sąrašą. Šios prekės rodomos sąraše **Dažnai kartu perkama**.
-- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, be naujų funkcijų, leidžiančių esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. funkcijos dokumentaciją:\[įgalinti pagal asmeninius poreikius pritaikytas rekomendacijas.](personalized-recommendations.md)
+- **Pagal asmeninius poreikius pritaikytos rekomendacijos:** prekybininkai gali pateikti prisijungusiems klientams asmeninius sąrašus **Parinkta jums**, be naujų funkcijų, leidžiančių esamus sąrašo scenarijus pritaikyti pagal asmeninius poreikius ir atsižvelgiant į konkretų klientą. Norėdami sužinoti daugiau, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
 
-## <a name="recommendation-service"></a>Rekomendacijų paslauga
+### <a name="types-of-product-recommendations"></a>Produktų rekomendacijų tipai
 
-Produktų rekomendacijoms naudojamos rekomendacijų mašininio mokymo technologijos šiais būdais:
+Šioje lentelėje aprašytos įvairių tipų automatizuotos produktų rekomendacijos, kurias mažmenininkai gali naudoti „Dynamics 365 Commerce“ per [produktų rinkinio modulį](product-collection-module-overview.md). Mažmenininkai taip pat gali šiame sąraše prisiregistravusiam vartotojui pateikti personalizuotus rezultatus, jei svetainės autorius nustato atitinkamą parinktį.
 
-- Rekomendavimo paslaugai reikiamu formatu pateikti duomenys ištraukiami iš „Commerce“ operacinės duomenų bazės ir siunčiami į objekto parduotuvę.
-- Rekomendavimo paslaugai naudojami duomenys, skirti mokyti rekomendavimo modelius sąrašams **Žmonėms taip pat patiko**, **Dažnai kartu perkama**, **Nauja**, **Perkamiausi** ir **Populiaru**.
+| Produktų atsiėmimo modulis  | Tipas | aprašymas |
+|----------------------------|------|-------------|
+| Naujos                        | Algoritminis | Šiame modulyje rodomas naujausių produktų, kurie buvo neseniai atrinkti į kanalus ir katalogus, sąrašas. |
+| Perkamiausia               | Algoritminis | Šiame modulyje rodomas produktų, kurie išdėstyti pagal didžiausią pardavimo skaičių, sąrašas. |
+| Populiaru                   | Algoritminis | Šis modulis pateikia tam tikro laikotarpio labiausiai parduodamų produktų sąrašą pagal didžiausią pardavimų skaičių.  |
+| Dažnai perkama kartu | AI-ML | Šiame modulyje rekomenduojami produktai, kurie dažniausiai perkami kartu su dabartinio vartotojo krepšelio turiniu. |
+| Žmonėms taip pat patinka           | AI-ML | Šiame modulyje rekomenduojami tam tikro pradinio gaminio produktai, atsižvelgiant į vartotojų pirkimo tendencijas. |
+| Parinkta jums              | AI-ML | Šiame modulyje rekomenduojamas asmeniniams poreikiams pritaikytų produktų sąrašas, atsižvelgiant į prisiregistravusio vartotojo pirkimo tendencijas. Vartotojui svečiui bus rodomas sutrauktas sąrašas. |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
+[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 
-[Įgalinti asmeniniams poreikiams pritaikytas rekomendacijas](personalized-recommendations.md)
+[Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
-[Produktų rinkinio modulio peržiūra](product-collection-module-overview.md)
+[Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
 
-[Kurti kuruojamus produktų rekomendacijų sąrašus](create-editorial-recommendation-lists.md)
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
 
-[Tvarkyti AI-ML pagrįstų produktų rekomendacijų rezultatus](modify-product-recommendation-results.md)
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
 
-[ĮProduktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md)
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
+
+[Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
+
+[DUK apie produktų rekomendacijas](faq-recommendations.md)

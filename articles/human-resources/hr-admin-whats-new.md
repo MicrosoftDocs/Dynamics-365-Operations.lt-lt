@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Human Resources”
-description: ''
+description: Kiekvieną savaitę išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Čia nurodytuose straipsniuose išsamiai pateikiami kiekvieną savaitę atlikti keitimai.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f36aba8a68ea8cc261423f79db00e175df1cf349
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4058618ec95fabc90fdc784552c1920a109e6418
+ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075953"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "3123975"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Kas nauja ar pasikeitė „Human Resources”
 
@@ -41,6 +41,9 @@ Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcij
 
 Norėdami sužinoti, kas nauja ar pasikeitė kiekviename savaitiniame „Human Resources” leidime, žr. tolesnius straipsnius.
 
+[2020 m. kovo 10 d.](hr-whats-new-2020-03-10.md)</br>
+[2020 m. kovo 3 d.](hr-whats-new-2020-03-03.md)</br>
+[2020 m. vasario 25 d.](hr-whats-new-2020-02-25.md)</br>
 [2020 m. vasario 18 d.](hr-whats-new-2020-02-18.md)</br>
 [2020 m. vasario 12 d.](hr-whats-new-2020-02-12.md)</br>
 [2020 m. vasario 7 d.](hr-whats-new-2020-02-07.md)</br>

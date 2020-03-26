@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f5e2fbe74d24c729711c6b96d5ff2b7f0c82922c
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: 9b236f489fa2045bdff05f76fadbeacc2f9ed2f4
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015325"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124213"
 ---
 # <a name="credit-limit-adjustments"></a>Kredito limito koregavimai 
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Kredito limito koregavimai leidžia kreditų vadovams naujinti vieno kliento, klientų grupės arba visų klientų kreditų limitus ir galiojimo datas naudojant registravimo procesą. Galite įtraukti kredito limito koregavimo įrašus, kad atnaujintumėte klientus ir klientų kredito grupes, arba galite juos naudoti norėdami automatiškai apskaičiuoti kredito limitus. Po to įrašai gali būti peržiūrimi, siunčiami tvirtinimui naudojant darbo eigą ir registruojami kliento sąskaitoje.
 

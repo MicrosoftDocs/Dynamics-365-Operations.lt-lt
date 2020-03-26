@@ -19,11 +19,11 @@ ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
 ms.openlocfilehash: 6efa4466dbf7f5ca1d3945acf15fac65d628d691
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015319"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3124548"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Sekos elementų ER formatais vykdymo atidėjimas
 
@@ -45,7 +45,7 @@ Parinktis **Atidėtas vykdymas** taikoma tik sekos elementams, kurie sukonfigūr
 
 Parinktis **Atidėtas vykdymas** netaikoma sekoms, kurios buvo sukonfigūruotos kaip apkarpytos sekos, kuriose didžiausias ilgis yra ribotas.
 
-## <a name="Example"></a>Pavyzdys: sekos elemento ER formatu vykdymo atidėjimas
+## <a name="example-defer-the-execution-of-a-sequence-element-in-an-er-format"></a><a name="Example"></a>Pavyzdys: sekos elemento ER formatu vykdymo atidėjimas
 
 Toliau pateikiamuose veiksmuose paaiškinama, kaip vartotojas, kuriam priskirtas Sistemos administratoriaus arba Elektroninės ataskaitos funkcijų konsultanto [vaidmuo](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/tasks/assign-users-security-roles), gali konfigūruoti ER formatą, kuriame yra sekos elementas, kai vykdymo tvarka skiriasi nuo tvarkos formato hierarchijoje.
 

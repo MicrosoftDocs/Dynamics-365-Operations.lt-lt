@@ -3,7 +3,7 @@ title: Skambučių centro kanalo nustatymas
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują skambučių centro kanalą.
 author: samjarawan
 manager: annbe
-ms.date: 01/27/2020
+ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 42448bd54c00b8642b158f422e17d2b46ee25579
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
+ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057884"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3131736"
 ---
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
@@ -33,25 +33,27 @@ ms.locfileid: "3057884"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Programoje „Dynamics 365 Commerce“ skambučių centras yra kanalo tipas, kurį galima nustatyti programoje. Nustačius skambučių centro objektų kanalą, sistema leidžia susieti tam tikrus duomenis ir užsakymų apdorojimą pagal numatytuosius pardavimo užsakymus. Programoje „Commerce“ įmonė gali nurodyti keletą skambučių centro kanalų. 
 
-Prieš kurdami naują skambučių centro kanalą, įsitikinkite, kad įvykdėte [Būtinosios kanalo nustatymo sąlygos](channels-prerequisites.md).
+Programoje „Dynamics 365 Commerce“ skambučių centras yra mažmeninės prekybos kanalo tipas, kurį galima nustatyti programoje. Nustačius skambučių centro objektų kanalą, sistema leidžia susieti tam tikrus duomenis ir užsakymų apdorojimą pagal numatytuosius pardavimo užsakymus. Nors įmonė gali nustatyti kelis skambučių centro kanalus programoje „Commerce“, svarbu pažymėti, kad atskiras vartotojas gali būti susietas tik su vienu skambučių centro kanalu. 
+
+Prieš kurdami naują skambučių centro kanalą, įsitikinkite, kad įvykdėte [būtinąsias kanalo nustatymo sąlygas](channels-prerequisites.md).
 
 ## <a name="create-and-configure-a-new-call-center-channel"></a>Naujo skambučių centro kanalo kūrimas ir konfigūravimas
 
 Norėdami sukurti ir sukonfigūruoti naują skambučių centro kanalą, atlikite tolesnius veiksmus.
 
-1. Naršymo srityje eikite į **Moduliai \> Kanalai \> Skambučių centras \> Visi skambučių centrai**.
+1. Naršymo srityje eikite į **Mažmeninė prekyba ir prekyba \> Kanalai \> Skambučių centrai \> Visi skambučių centrai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Lauke **Pavadinimas** įveskite naujo kanalo pavadinimą.
-1. Pasirinkite atitinkamą **Juridinis asmuo** iš išplečiamojo meniu.
-1. Pasirinkite atitinkamą **Sandėlis** vieta iš išplečiamojo meniu.
-1. Lauke **Numatytasis klientas** pateikite galiojantį numatytąjį klientą.
-1. Lauke **El. paštu siunčiamo pranešimo šablonas** pateikite galiojantį el. siunčiamo pranešimo šabloną.
-1. Pateikite **Kainos perrašymas** informacinį kodą. Atkreipkite dėmesį, kad pirmiausia gali reikti sukurti informacinį kodą.
-1. Nurodykite **Sulaikymo kodas** informacinį kodą. Atkreipkite dėmesį, kad pirmiausia gali reikti sukurti informacinį kodą.
-1. Nurodykite **Kreditas** informacinį kodą. Atkreipkite dėmesį, kad pirmiausia gali reikti sukurti informacinį kodą.
-1. Pasirinkite **Įrašyti**.
+1. Pasirinkite atitinkamą **juridinį subjektą** iš išplečiamojo meniu.
+1. Pasirinkite atitinkamą **sandėlio** vietą iš išplečiamojo meniu. Ši vieta bus naudojama kaip numatytoji pardavimo užsakymuose, sukurtuose šiam skambučių centro kanalui, tik tuo atveju, jei kliento arba prekės lygyje nebuvo nustatyta kitų numatytųjų reikšmių.
+1. Lauke **Numatytasis klientas** pateikite galiojantį numatytąjį klientą. Šie duomenys naudojami, kai kuriami nauji kliento įrašai, kad būtų automatiškai užpildoma numatytosiomis reikšmėmis. Kuriant skambučių centro užsakymus, nėra patartina sukurti užsakymų numatytajam klientui.
+1. Lauke **El. paštu siunčiamo pranešimo šablonas** pateikite galiojantį el. siunčiamo pranešimo šabloną. Kadangi skambučių centro užsakymai kuriami ir apdorojami, el. paštu siunčiamo pranešimo šablonas naudojamas suaktyvinti automatinių el. pašto įspėjimų siuntimą klientams su informacija apie jų užsakymo būseną.
+1. Pateikite **Kainos perrašymas** informacinį kodą. Pirmiausia gali prireikti sukurti informacinį kodą. Šis informacinis kodas pateikia priežasčių kodų rinkinį, kurį vartotojas bus raginamas pasirinkti, kai skambučių centro užsakyme naudojama kainos perrašymo funkcija.
+1. Nurodykite **Sulaikymo kodas** informacinį kodą. Pirmiausia gali prireikti sukurti informacinį kodą. Šis informacinis kodas pateikia pasirinktinų priežasčių kodų rinkinį, iš kurio vartotojas bus raginamas pasirinkti, kai užsakymas yra sulaikomas.
+1. Nurodykite **Kreditas** informacinį kodą. Pirmiausia gali prireikti sukurti informacinį kodą. Šis informacinis kodas pateikia priežasčių kodų rinkinį, iš kurio vartotojas gali pasirinkti, naudodamas skambučių centro užsakymo kredito funkcijas, kad klientas galėtų gauti įvairias grąžinamąsias išmokas dėl klientų aptarnavimo priežasčių.
+1. Pasirinktinai: nustatykite finansines dimensijas „FastTab“ **Finansinės dimensijos**. Čia įvestos dimensijos bus numatytosios visuose pardavimo užsakymuose, sukurtuose šiame skambučių centro kanale.
+1. Spustelėkite **Įrašyti**.
 
 Toliau pateiktame vaizde parodytas naujo skambučių centro kanalo kūrimas.
 
@@ -65,20 +67,20 @@ Toliau pateiktame vaizde parodytas skambučių centro kanalo pavyzdys.
 
 Papildomos užduotys, reikalingos skambučių centro kanalo sąrankai, apima mokėjimo metodų ir pristatymo būdų nustatymą.
 
-Toliau pateiktame paveiksle rodomi **Pristatymo būdai** ir **Mokėjimo metodai** nustatymo parinktys, esančios skirtuke **Nustatyti**.
+Toliau pateiktame atvaizde rodomos sąrankos parinktys **Pristatymo būdai** ir **Mokėjimo metodai**, esančios skirtuke **Nustatyti**.
 
 ![Papildomi skambučių centro kanalo nustatymo veiksmai](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Nustatyti mokėjimo būdus
 
-Norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo metodus, atlikite toliau nurodytus veiksmus.
+Atlikite toliau nurodytus veiksmus, norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo metodus. Vartotojams reikės pasirinkti iš anksto nustatytų mokėjimo metodų, kuriuos reikia susieti su skambučių centro kanalu. Prieš nustatydami savo skambučių centro mokėjimo metodus, pirmiausia nustatykite savo pagrindinius atsiskaitymo būdus dalyje **Mažmeninė prekyba ir prekyba \>Kanalų sąranka \> Mokėjimo metodai \> Mokėjimo metodai**.
 
 1. Veiksmų srityje pasirinkite skirtuką **Sąranka**, tada pasirinkite **Mokėjimo metodai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
-1. Naršymo srityje pasirinkite pageidaujamą mokėjimo metodą.
-1. Skyriuje **Bendri** nurodykite **Operacijos pavadinimas** ir konfigūruokite kitus pageidaujamus nustatymus.
-1. Konfigūruokite visus papildomus parametrus, kurių reikia mokėjimo tipui.
-1. Veiksmų srityje pasirinkite **Įrašyti**.
+1. Naršymo srityje pasirinkite mokėjimo metodą iš anksto nustatytų galimų mokėjimų.
+1. Konfigūruokite visus papildomus parametrus, kurių reikia mokėjimo tipui. Kredito kortelėms, dovanų kortelėms ar lojalumo kortelėms reikalingi papildomi parametrai pasirenkant funkciją **Kortelės sąranka**. 
+1. Konfigūruokite tinkamas mokėjimo tipo registravimo sąskaitas skyriuje **Registravimas**.
+1. Veiksmų srityje spustelėkite **Įrašyti**.
 
 Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
@@ -88,15 +90,38 @@ Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
 Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas**, esančiame **Veiksmų sritis**.  
 
-Norėdami pakeisti arba įtraukti pristatymo būdą, atlikite toliau nurodytus veiksmus.
+Norėdami pakeisti arba pridėti pristatymo būdą, kuris bus susietas su skambučių centro kanalu, atlikite šiuos veiksmus.
 
-1. Naršymo srityje eikite į **Moduliai \> Atsargų valdymas \> Pristatymo būdai**.
+1. Skambučių centro pristatymo būdo parinktyse pasirinkite **Valdyti pristatymo būdus**
 1. Veiksmų srityje pasirinkite **Naujas**, kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
-1. Skyriuje **Mažmeninės prekybos kanalai** pasirinkite **Įtraukti eilutę**, kad galėtumėte įtraukti kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
+1. Skyriuje **Mažmeninės prekybos kanalai** spustelėkite **Įtraukti eilutę**, kad galėtumėte įtraukti skambučių centro kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
+1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“**Produkai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
+1. Po to, kai buvo atlikti bet kokie skambučių centro pristatymo būdo konfigūracijų keitimai, užduotis **Apdoroti pristatymo būdus** turi būti vykdoma, kad išskleistumėte keitimo matricą. Šią užduotį galima surasti pereinant į **Mažmeninė prekyba ir prekyba \>Mažmeninės prekybos ir prekybos IT \>Apdoroti pristatymo būdus**.
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
 ![Nustatyti pristatymo būdus](media/channel-setup-retail-7.png)
+
+### <a name="set-up-channel-users"></a>Kanalo vartotojų nustatymas
+
+Norėdamas sukurti pardavimo užsakymą, kuris yra susietas su skambučių centro kanalu iš „Commerce Headquarters”, pardavimo užsakymą kuriantis vartotojas turi būti susietas su skambučių centro kanalu. Vartotojas rankiniu būdu negali susieti pardavimo užsakymo, sukurto „Commerce Headquarters”, su skambučių centro kanalu. Saitas yra sistemingas, jis paremtas vartotoju ir vartotojo ryšiu su skambučių centro kanalu. Vartotojas gali būti susietas tik su vienu skambučių centro kanalu.
+
+1. Veiksmų srityje pasirinkite skirtuką **Kanalas**, tada pasirinkite **Kanalo vartotojai**.
+1. Veiksmų srityje pasirinkite **Nauja**.
+1. Pasirinkite esamą **Vartotojo ID** iš išplečiamojo pasirinkimo sąrašo, jei norite susieti šį vartotoją su skambučių centro kanalu
+
+Kai kanalo vartotojų sąranka baigta ir vartotojas sukūrė naują pardavimo užsakymą programoje „Commerce Headquarters”, pardavimo užsakymas bus susietas su jo susietu skambučių centro kanalu. Visos šio kanalo konfigūracijos bus sistemingai taikomos pardavimo užsakymui. Vartotojas gali patvirtinti, su kuriuo skambučių centro kanalu pardavimo užsakymas yra susietas, pardavimo užsakymo antraštėje peržiūrėdamas kanalo pavadinimo nuorodą.
+
+
+### <a name="set-up-price-groups"></a>Nustatyti kainų grupes
+
+Kainos grupės yra pasirinktinės, tačiau, jei jos naudojamos, galima kontroliuoti, kurios pardavimo kainos bus siūlomos klientams, pateikiantiems užsakymus skambučių centro kanale. Jei kainos grupė nesukonfigūruota klientui, arba jei katalogo kainos grupės nėra taikomos pardavimo užsakymui (skambučių centro užsakymo antraštėje naudojant lauką **Šaltinio kodo ID**), tada kanalo kainos grupė naudojama prekių kainoms rasti. Jei kainos grupė skambučių centro kanale nerasta, naudojamos numatytosios pagrindinės prekės kainos. 
+
+Norėdami nustatyti kainos grupę, atlikite šiuos veiksmus.
+
+1. Veiksmų srityje spustelėkite skirtuką **Kanalas**, tada pasirinkite **Kainos grupės**.
+1. Veiksmų srityje spustelėkite **Naujas**.
+1. Išplečiamajame pasirinkimo sąraše pažymėkite **Mažmeninės kainos grupė**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -3,7 +3,7 @@ title: Naujo el. prekybos nuomotojo diegimas
 description: Šioje temoje aprašoma, kaip įdiegti naują el. prekybos nuomininką naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
 author: psimolin
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d7dfcaf244260de5f39a1201ec1ea78e94351e7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
+ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001788"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "3096683"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Naujo el. prekybos nuomotojo diegimas
 
@@ -97,11 +97,19 @@ Norėdami pasiekti svetainių daryklę, eikite į skirtuką **El. prekyba** LCS 
 
 [El. prekybos svetainės kūrimas](create-ecommerce-site.md)
 
+[Interneto parduotuvės kanalo integravimas](online-stores.md)
+
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
 [„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
+[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
+
+[B2C nuomotojo nustatymas „Commerce“ aplinkoje](set-up-B2C-tenant.md)
+
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
+
+[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 

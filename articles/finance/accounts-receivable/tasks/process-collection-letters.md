@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 326d9375670cb4f4990a4f7070bf923a28b2c025
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2b8ce102086535a5462d3fa0e8ac76e9ec3dd15c
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179071"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106864"
 ---
 # <a name="process-collection-letters"></a>Priminimo laiškų apdorojimas
 
@@ -70,7 +70,11 @@ ms.locfileid: "2179071"
     1. Lauke **Išspausdinta** pasirinkite parinktį.
 
 ## <a name="control-collection-letters-at-the-customer-level"></a>Valdykite priminimo laiškus kliento lygiu
-Taip pat galite nustatyti priminimo laiškus kliento lygiu, kad būtų sekamas kiekvienos operacijos priminimo laiško kodas, tačiau priminimo laiško apdorojimas bus grindžiamas vieno priminimo laiško lygiu, kuris saugomas klientui. Viename priminimo laiške bus visos pradelstos kliento operacijos. Nors atidėjimo dienos dabar sekamos kliento lygiu, kitas priminimo laiškas nebus išsiųstas, kol nepraeis kito sekoje esančio priminimo laiško atidėjimo dienų skaičius net jei po paskutinio išsiųsto priminimo laiško operacijos taps pradelstos. Ši parinktis sumažina priminimo laiškų, kuriuos siųsite vienam klientui, skaičių. 
+Jei priminimo laiškai nustatomi operacijos lygiu, klientui gali būti sugeneruota keletas raidžių, remiantis operacijos skirstymu pagal terminus. Jei operacijos pateikiamos skirtingomis raidžių sekomis, kiekvienai pradelstų operacijų grupei klientui bus sugeneruoti atskiri priminimo laiškai. Todėl klientas gali gauti, pavyzdžiui, vieną priminimo laišką už pradelstas 60 dienų operacijas ir kitą priminimo laišką už pradelstas 90 dienų operacijas. 
+
+Kiekvienas priminimo laiškas taip pat susietas su priminimo laiško kodu. Priminimo laiško kodas yra susietas su individualia operacija ir jį naudojant nustatoma, kada turi būti sugeneruotas kitas kiekvienos operacijos priminimo laiškas. Pavyzdžiui, jei operacija yra pradelsta daugiau nei 30 dienų, priminimo laiško kodas nurodo, kad kitas priminimo laiškas bus išsiųstas tada, kai operacija pradelsta 60 dienų, jei ji nesumokama anksčiau. 
+
+Priminimo laiškus taip pat galima nustatyti kliento lygiu. Tokiu atveju stebimas kiekvienos operacijos priminimo laiško kodas, tačiau priminimo laiško apdorojimas bus grindžiamas vieno priminimo laiško lygiu, kuris saugomas klientui. Viename priminimo laiške bus visos pradelstos kliento operacijos. Nors atidėjimo dienos dabar sekamos kliento lygiu, kitas priminimo laiškas nebus išsiųstas, kol nepraeis kito sekoje esančio priminimo laiško atidėjimo dienų skaičius net jei po paskutinio išsiųsto priminimo laiško operacijos taps pradelstos. Ši parinktis sumažina priminimo laiškų, kuriuos turite siųsti kiekvienam klientui, skaičių.
 
 ### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a>Nustatykite klientą, kad galėtumėte valdyti priminimo laiškus kliento lygiu
 1.  Eikite į **Naršymo sritis > Moduliai > Kreditas ir mokesčių rinkimas > Sąranka > Gautinos sumos parametrai** ir pasirinkite skirtuką **Mokesčių rinkimas**. 

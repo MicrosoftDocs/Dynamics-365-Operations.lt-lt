@@ -1,6 +1,6 @@
 ---
-title: Peržiūrėti
-description: ''
+title: Peržiūra
+description: Programos Dynamics 365 Human Resources darbo sritis **Atostogos ir neatvykimai** suteikia lanksčią sistemą, skirtą naujiems atostogų planams ir užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti.
 author: andreabichsel
 manager: AnnBe
 ms.date: 02/03/2020
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a36f6b6ba696fa926ab3d6298568dddfce43a57
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
+ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009980"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "3091753"
 ---
-# <a name="overview"></a>Peržiūrėti
+# <a name="overview"></a>Peržiūra
 
 „Dynamics 365 Human Resources“ padeda jums suteikti puikias atostogų išmokas savo darbuotojams. Darbo sritis **Atostogos ir neatvykimai** suteikia lanksčią sistemą, skirtą naujiems atostogų planams bei užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti. Analizė padeda organizacijai matuoti ir stebėti atostogų balansus ir atostogų planų naudojimą.
 
@@ -43,7 +43,7 @@ Prieš kurdami savo darbuotojų atostogų planus, turite sukurti atostogų ir ne
 
 - [Atostogų ir neatvykimų tipai konfigūravimas](hr-leave-and-absence-types.md)
 - [Atostogų ir neatvykimų plano kūrimas](hr-leave-and-absence-plans.md)
-- [Darbuotojų priskyrimas atostogų planui](hr-leave-and-absence-enroll.md)
+- [Darbininkų priskyrimas atostogų planui](hr-leave-and-absence-enroll.md)
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)
 - [Peržiūrėti atostogų ir neatvykimų analizę](hr-leave-and-absence-analytics.md)
 

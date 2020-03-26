@@ -3,7 +3,7 @@ title: Biudžeto planavimo duomenų paskirstymas
 description: Šioje temoje aprašyti paskirstymo metodai, kuriuos galima naudoti „Microsoft Dynamics 365 Finance“, ir kaip juos naudoti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,23 +18,26 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8bcfb4d3720d03ce84024766a66ccfc546767ab
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ceddeda5760d961568d58e7e4805955ea972c586
+ms.sourcegitcommit: 8fad5a8c7ea5d0d0037669e61e2313f684bcae23
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772081"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "3106887"
 ---
 # <a name="budget-planning-data-allocation"></a>Biudžeto planavimo duomenų paskirstymas
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje aprašyti paskirstymo metodai, kuriuos galima naudoti „Microsoft Dynamics 365 Finance“, ir kaip juos naudoti.  
+Šioje temoje aprašyti paskirstymo metodai, kuriuos galima naudoti „Microsoft Dynamics 365 Finance“, ir kaip juos naudoti.  
 
 Biudžeto plano duomenis galima paskirstyti keliais būdais, kad būtų tiksliai atvaizduojamos numatomos sumos.
 
 ## <a name="allocation-methods"></a>Paskirstymo būdai
 Naudojantis trimis paskirstymo būdais (Paskirstyti laikotarpiams, Paskirstyti dimensijoms ir Naudoti DK paskirstymo taisykles) galima sukurti biudžeto plano eilutes, kurios pagrįstos to paties biudžeto plano eilutėmis. Naudojantis trimis kitais būdais (Sujungti, Paskirstyti ir Kopijuoti iš biudžeto plano) galima sukurti biudžeto plano eilutes kituose biudžeto planuose. Naudodami visus šešis paskirstymo būdus nurodote paskirties scenarijų. Paskirties scenarijus gali būti toks pat kaip šaltinio scenarijus arba kitoks negu šaltinio scenarijus. Be to, galite nurodyti, ar prie biudžeto plano prijungti naujas eilutes, ar pakeisti dabartines biudžeto plano eilutes.
+
+> [!NOTE] 
+> Telkimui reikia naudoti unikalų scenarijų, kuris skiriasi nuo scenarijaus, naudojamo paskirstymui ar kitoms modifikacijoms, anksčiau atliktoms pirminiame plane.  
 
 [![Paskirstymo metodas „Paskirstyti laikotarpiams“](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
 **Paskirstyti laikotarpiams** – norint paskirstyti šaltinio biudžeto plano scenarijaus biudžeto plano eilutes paskirties scenarijaus laikotarpiams naudojama laikotarpio paskirstymo kategorija. Šaltinio suma priskiriama kelioms paskirties scenarijaus eilutėms, priklausomai nuo laikotarpio paskirstymo kategorijoje nurodyto procento ir datos.         

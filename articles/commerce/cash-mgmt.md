@@ -18,17 +18,17 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28b034c9b2a2c7ae63b055338dea3aab4a3b86f2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023381"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127703"
 ---
 # <a name="cash-management-improvements"></a>Grynųjų pinigų valdymo patobulinimai
 
 [!include [banner](includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Grynųjų pinigų valdymas yra pagrindinė fizinių mažmeninės prekybos parduotuvių funkcija. Mažmenininkai nori, kad jų parduotuvėse veiktų sistemos, galinčios padėti užtikrinti visišką grynųjų pinigų atsekamumą ir atskaitomybę bei jų judėjimą tarp įvairių parduotuvės registrų ir kasininkų. Jie privalo galėti suderinti visus skirtumus ir nustatyti atskaitomybę.
 

@@ -1,9 +1,9 @@
 ---
 title: Pasirinktinių laukų kūrimas ir naudojimas
-description: Šioje temoje parodoma, kaip kurti pasirinktinius laukus ir programą pritaikyti savo verslui.
+description: Šioje temoje parodoma, kaip vartotojo sąsajoje kurti pasirinktinius laukus ir programą pritaikyti savo verslui.
 author: jasongre
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 03/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 9146921c47e89c5895a1a727de874b0ffbc93c37
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: f689bb3ec844459d1dd6e199804a30f3e0cb38bc
+ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812510"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "3112341"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Pasirinktinių laukų kūrimas ir naudojimas
 
 [!include [banner](../includes/banner.md)]
 
-Nors yra platus parengtų naudoti laukų rinkinys, skirtas valdyti įvairius verslo procesus, kartais įmonei sistemoje reikia sekti papildomą informaciją. Kad patenkintumėte šį poreikį, galite kurti pasirinktinių laukų, kad programą galėtumėte pritaikyti savo verslui, jei turite funkcijos naudojimo teisių.
+Nors yra platus parengtų naudoti laukų rinkinys, skirtas valdyti įvairius verslo procesus, kartais įmonei sistemoje reikia sekti papildomą informaciją. Nors programuotojai gali įtraukti šiuos laukus kaip plėtinius į programavimo įrankius, pasirinktinių laukų funkcija leidžia įtraukti laukus tiesiai iš vartotojo sąsajos, todėl galite pritaikyti programą prie savo įmonės per žiniatinklio naršyklę.
 
-Galimybė pridėti pasirinktinius laukus pasiekiama 13-ame ir vėlesniuose platformos naujinimuose.
+Galimybė pridėti pasirinktinius laukus pasiekiama 13-ame ir vėlesniuose platformos naujinimuose. Tik vartotojai, turintis specialias teises, turi prieigą prie šios funkcijos.
 
 Šiame vaizdo įraše rodoma, kaip lengva į puslapį įtraukti pasirinktinį lauką: [Pasirinktinių laukų įtraukimas](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -159,3 +159,7 @@ Dėl našumo ir techninių priežasčių pasirinktinių laukų galima įtraukti 
 - Kitos lentelės naudojant šią lentelę išplėsti negalima.
 - Lentelės negalima pažymėti sistemos lentele.
 - Lentelė negali būti laikina.
+
+### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Ar galiu nurodyti pasirinktinius laukus iš programavimo įrankių?  
+
+Pasirinktinius laukus galima valdyti tik vartotojo sąsajoje ir jų negalima nurodyti pagal kodą. 

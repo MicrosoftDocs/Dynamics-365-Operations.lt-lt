@@ -3,7 +3,7 @@ title: Įjungti produktų rekomendacijas
 description: Šioje temoje paaiškinama, kaip pateikti produkto rekomendacijas, paremtas dirbtinio intelekto mašininiu mokymu (AI-ML), kurį gali naudoti „Microsoft Dynamics 365 Commerce“ klientai.
 author: bebeale
 manager: AnnBe
-ms.date: 10/1/2019
+ms.date: 03/12/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2d3f1bc2526eeacb4bd6338a0679eadd95a75989
-ms.sourcegitcommit: b5ecde955a69f577de46e7db10e89caaedeb2b49
+ms.openlocfilehash: 879fccb063ca0b74e0f022a9edf6a15f7d1311ae
+ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024961"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3127887"
 ---
 # <a name="enable-product-recommendations"></a>Įjungti produktų rekomendacijas
 
@@ -38,7 +38,7 @@ Prieš įjungdami, atkreipkite dėmesį, kad produkto rekomendacijos palaikomos 
 
 Norėdami sužinoti apie veiksmus, skirtus ADLS įgalinti, žr. [Kaip įjungti ADLS „Dynamics 365“ aplinkoje](enable-ADLS-environment.md).
 
-Be to, užtikrinkite, kad būtų įjungti RetailSale matavimo vienetai. Norėdami sužinoti daugiau apie šį sąrankos procesą, eikite [čia.](https://docs.microsoft.com/en-us/dynamics365/ai/customer-insights/pm-measures)
+Be to, užtikrinkite, kad būtų įjungti RetailSale matavimo vienetai. Norėdami sužinoti daugiau apie šį sąrankos procesą, eikite [čia.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
 
 
 ## <a name="turn-on-recommendations"></a>Rekomendacijų įjungimas
@@ -70,13 +70,23 @@ Norėdami daugiau sužinoti apie tai, kaip gauti personalizuotų rekomendacijų,
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
+[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+
 [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
-[ĮProduktų rekomendacijų sąrašų įtraukimas į puslapius](add-reco-list-to-page.md)
+[Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
 
-[Rekomendacijų skydelio įtraukimas į EKA įrenginius](add-recommendations-control-pos-screen.md)
+[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
 
-[Produktų rinkinio modulio peržiūra](product-collection-module-overview.md)
+[Produktų rekomendacijų įtraukimas į EKA](product.md)
 
-[ADLS įgalinimas „Dynamics 365“ aplinkoje](enable-ADLS-environment.md)
+[Rekomendacijų įtraukimas į operacijų ekraną](add-recommendations-control-pos-screen.md)
+
+[AI-ML rekomendacijų rezultatų koregavimas](modify-product-recommendation-results.md)
+
+[Kuruojamų rekomendacijų kūrimas rankiniu būdu](create-editorial-recommendation-lists.md)
+
+[Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
+
+[DUK apie produktų rekomendacijas](faq-recommendations.md)
 

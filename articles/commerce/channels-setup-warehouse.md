@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9ba12876a8c8f841733d8ec49c33e900211c4ab4
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6da72ae612f0520965a2b11a21123d4642303ac3
+ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057861"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "3113764"
 ---
 # <a name="warehouse-set-up"></a>Sandėlio nustatymas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3057861"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Kiekvieną „Commerce“ kanalą reikia susieti su sukonfigūruotu sandėliu. Toliau pateiktos procedūros yra minimalios konfigūracijos, kurias reikia atlikti norint nustatyti „Commerce“ kanalo sandėlį. Daugiau informacijos apie sandėlio nustatymą žr. [Sandėlio valdymo peržiūra](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview).
+Kiekvieną „Commerce“ kanalą reikia susieti su sukonfigūruotu sandėliu. Toliau pateiktos procedūros yra minimalios konfigūracijos, kurias reikia atlikti norint nustatyti „Commerce“ kanalo sandėlį. Daugiau informacijos apie sandėlio nustatymą žr. [Sandėlio valdymo peržiūra](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json).
 
 ## <a name="configure-a-warehouse-site"></a>Sandėlis vietos konfigūravimas
 
@@ -131,7 +131,7 @@ Toliau pateiktame vaizde rodoma išsami informacija apie sukonfigūruotą sandė
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Sandėlio valdymo apžvalga](https://docs.microsoft.com/en-us/dynamics365/supply-chain/warehousing/warehouse-management-overview)
+[Sandėlio valdymo apžvalga](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 
 [Kanalų apžvalga](channels-overview.md)
 

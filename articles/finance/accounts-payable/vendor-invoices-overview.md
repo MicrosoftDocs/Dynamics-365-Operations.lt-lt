@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 411daa5bc08df530750fd5c09ca8b54bf537b548
-ms.sourcegitcommit: ba1c76497acc9afba85257976f0d4e96836871d1
+ms.openlocfilehash: 0cfa7d55f5d4d219c0bc43eb6313c0c6bd014ab6
+ms.sourcegitcommit: ac7c457bda3d8545ee8c0de45e4fcc24d677ffdc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "2890332"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "3133901"
 ---
 # <a name="vendor-invoices-overview"></a>Tiekėjų sąskaitų faktūrų apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiama bendra informacija apie tiekėjo SF. Tiekėjo SF yra mokėjimo už gautus produktus ir paslaugas užklausos. Tiekėjo SF gali būti atitikti sąskaitą už vykdomas paslaugas, arba jos gali būti pagrįstos konkrečių prekių ir paslaugų pirkimo užsakymais.
 
@@ -66,6 +67,16 @@ Jei jūsų juridinis subjektas naudoja SF gretinimą, kiekio gretinimo rezultatu
 
 Jūsų organizacija gali naudoti darbo eigas, kad galėtų valdyti tiekėjų SF peržiūros procesą. Darbo eigos peržiūros gali būti reikalaujama sąskaitos faktūros antraštei, sąskaitos faktūros eilutei arba abiem. Darbo eigos valdikliai taikomi antraštei arba eilutei, tai priklauso nuo židinio vietos pasirenkant valdiklį. Vietoj mygtuko **Registruoti** matysite mygtuką **Pateikti**, kurį galite naudoti siųsti tiekėjo SF pro peržiūros procesą.
 
+### <a name="preventing-invoice-from-being-submitted-to-workflow"></a>Apsauga, kad SF nebūtų pateikta į darbo eigą 
+
+Toliau pateikiami keli būdai, kaip galima išvengti SF pateikimo į darbo eigą.
+
+- **Bendroji SF suma ir užregistruota bendroji suma nėra lygios.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad bendrosios sumos nėra lygios, todėl jis galės pakoreguoti balansus prieš pateikdamas SF į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai sąskaitos faktūros ir registruotos sąskaitos faktūros sumos nesutampa** puslapyje **Funkcijų valdymas** yra įjungtas. 
+
+- **SF yra nepriskirtų išlaidų.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad sąskaitoje yra nepriskirtų išlaidų, todėl jis galės pakoreguoti SF prieš pateikdamas ją į darbo eigą. Ši funkcija galima tik tada, kai parametras **Uždrausti pateikti į darbo eigą, kai tiekėjo SF yra nepriskirtų išlaidų** puslapyje **Funkcijų valdymas** yra įjungtas.
+
+- **SF numeris yra toks pats kaip kitos užregistruotos SF.** Asmuo, kuris pateikė SF, gaus įspėjimą, kad rasta sąskaita tokiu pačiu numeriu, todėl jis galės ją pakoreguoti prieš pateikdamas į darbo eigą. Šis įspėjimas bus rodomas, kai mokėtinų sumų pažymėtas parametras **Patikrinti naudojamą SF numerį** yra nustatytas kaip **Neleisti dubliuoti**. Ši funkcija galima, jei parametras **Drausti pateikimą į darbo eigą, kai SF numerį jau turi kita užregistruota SF, o sistema nenustatyta, kad leistų priimti dubliuotus SF numerius** puslapyje **Funkcijų valdymas** yra įjungtas.  
+
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Tiekėjo SF ir produkto gavimo kvitų gretinimas
 
 Galite įvesti ir įrašyti informaciją apie tiekėjo SF, taip pat galite gretinti sąskaitų faktūrų eilutes su produkto gavimo kvitų eilutėmis. Taip pat galite gretinti dalinius eilutės kiekius.
@@ -77,6 +88,16 @@ Kai registruojate SF, kiekvienos prekės **SF likučio** kiekis atnaujinamas vis
 Pasirenkant šią parinktį tariama, kad pirkimo užsakymui užregistruotas bent vienas produkto gavimo kvitas. Tiekimo SF remiasi šiais produktų gavimo kvitais ir atspindi kiekius iš jų. SF finansinė informacija yra paremta informacija, įvesta jums registruojant SF.
 
 Daugiau informacijos žr. [Įrašyti tiekėjo SF ir sugretinti su gautu kiekiu](../accounts-payable/tasks/record-vendor-invoice-match-against-received-quantity.md).
+
+## <a name="configure-an-automated-task-for-vendor-invoice-workflow-to-post-the-vendor-invoice-using-a-batch-job"></a>Tiekėjo SF darbo eigos automatizuotos užduoties konfigūravimas siekiant užregistruoti tiekėjo SF naudojant paketinę užduotį
+
+Galite pridėti automatizuotą registravimo užduotį prie tiekėjo SF darbo eigos, kad SF būtų apdorotos paketais. SF registravimas paketais leidžia tęsti darbo eigos procesą nelaukiant, kada bus baigtas registravimas, tai pagerina bendrą visų užduočių, pateiktų į darbo eigą, efektyvumą.
+
+Norėdami užregistruoti tiekėjo SF kaip paketą, puslapyje **Funkcijų valdymas** įjunkite parametrą **Tiekėjo SF paketo registravimas**. Tiekėjo SF darbo eigos konfigūruojamos einant į **Mokėtinos sumos > Sąranka > Mokėtinų sumų darbo eigas**.
+
+Užduotį **Registruoti tiekėjo SF naudojant paketą** galite matyti darbo eigos rengyklėje nepaisant to, ar įjungtas parametras **Tiekėjo SF paketo registravimas**. Kai funkcijos parametras neįjungtas, SF, kurioje yra **Registruoti tiekėjo SF naudojant paketines užduotis**, negalima apdoroti darbo eigoje, kol parametras neįjungtas. Užduoties **Registruoti tiekėjo SF naudojant paketą** negalima naudoti toje pačioje darbo eigoje, kurioje yra automatizuota užduotis **Registruoti tiekėjo SF**. Be to, užduotis **Registruojant tiekėjo SF naudojant paketą** turi būti paskutinis elementas darbo eigos konfigūracijoje.
+
+Galite nurodyti, kiek SF turi būti įtraukta į paketą, ir valandų skaičių, kurį reikia laukti prieš perplanuojant paketą, eidami į **Mokėtinos sumos > Sąranka > Mokėtinų sumų parametrai > SF > SF darbo eiga**. 
 
 ## <a name="working-with-multiple-invoices"></a>Darbas su keliomis SF
 
