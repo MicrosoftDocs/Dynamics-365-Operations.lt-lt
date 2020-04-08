@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 30bbb404e624c33e047c5505c5b21565ed8cce10
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ec4d86673555f594bb2f81010235fd7eb6e83f27
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847188"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148290"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Neautomatinio pakavimo nustatymas (2016 m. vasario ir 2016 m. gegužės mėn.)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Atliekant pakavimo procesą, produktus galima tikrinti ir pakuoti į konteinerius. Atlikdami ši procesą sandėlio darbininkai produktus paima iš saugojimo vietų ir perkelia į pakavimo stotį, kurioje jie patikrina prekių kiekį ir tipus bei jas priskiria į atitinkamus konteinerius. Kai konteineris yra visiškai supakuotas, jie jį gali uždaryti ir perkelti į pakrovimo rampas, ir produktus galima siųsti. Šioje procedūroje naudojama demonstracinė įmonė USMF. Ši procedūra skirta tik 2016 m. vasario ir 2016 m. gegužės „Dynamics 365 for Operations“ versijoms.
 

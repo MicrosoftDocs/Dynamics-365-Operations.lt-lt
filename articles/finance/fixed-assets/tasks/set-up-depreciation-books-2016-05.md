@@ -1,6 +1,6 @@
 ---
-title: Nusidėvėjimo knygų nustatymas (2016 m. gegužės mėn.)
-description: Šis užduočių vadovas sukurs naują nusidėvėjimo knygą ir ją susies su ilgalaikio turto grupe.
+title: Nusidėvėjimo knygų nustatymas
+description: Šioje procedūroje aprašomas naujos nusidėvėjimo knygos kūrimo procesas ir susiejimas su ilgalaikio turto grupe.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6840e211847494598a81cd3228dbd3796447e18c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 03f915fa91e0eeff2f26ab9a60bbd5118317e853
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186905"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154608"
 ---
-# <a name="set-up-depreciation-books-may-2016"></a>Nusidėvėjimo knygų nustatymas (2016 m. gegužės mėn.)
+# <a name="set-up-depreciation-books"></a>Nusidėvėjimo knygų nustatymas 
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šis užduočių vadovas sukurs naują nusidėvėjimo knygą ir ją susies su ilgalaikio turto grupe.  Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.
-
+Šioje procedūroje aprašomas naujos nusidėvėjimo knygos kūrimo procesas ir susiejimas su ilgalaikio turto grupe. 
 
 ## <a name="create-a-depreciation-book"></a>Kurti nusidėvėjimo knygą
 1. Pasirinkite Ilgalaikis turtas > Nustatymas > Nusidėvėjimo knygos.

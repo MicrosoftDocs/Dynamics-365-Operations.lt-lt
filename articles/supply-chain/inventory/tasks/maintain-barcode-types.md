@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0551784ff55f5dc05fbe92ee354316eb04d755cb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 7834745923bf5ec05018ff5829ddaa0b75df5db7
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845461"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145589"
 ---
 # <a name="maintain-barcode-types"></a>Prižiūrėti brūkšninių kodų tipus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti naują brūkšninio kodo aprašą, kurį būtų galima naudoti kaip išrinkimo dokumento ataskaitos dalį. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Jei naudojate USMF, galite naudoti rodomas pavyzdines reikšmes. Šias užduotis paprastai turėtų atlikti sandėlio vadovas.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40b40b77877680e28671b7a15ea8c8b58ce94417
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 712cc90bef4f3ad56291e99edd9f963ae88add48
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180880"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143517"
 ---
 # <a name="set-up-segregation-of-duties"></a>Nustatyti pareigų atskyrimą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Pavyzdžiui, galbūt nenorite, kad tas pats asmuo patvirtintų prekių gavimą ir apdorotų mokėjimą tiekėjui. Pareigų atskyrimas padeda sumažinti apgaulės riziką ir nustatyti klaidas arba pažeidimus. Taip pat galite naudoti pareigų atskyrimą norėdami taikyti vidinės kontrolės strategijas. Norėdami sukurti taisyklę, atlikite tolesnę procedūrą. Turite būti sistemos administratorius, kad galėtumėte atlikti procedūrą. Juriant šią procedūrą naudojama demonstracinių duomenų įmonė yra DAT. 
 

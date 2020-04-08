@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72f017294c976dcd1b7ddda01ac9e39252f036d6
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 58518f5291b70c63506c20717034daff0268901b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250284"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143366"
 ---
 # <a name="set-up-vendor-invoice-policies"></a>Tiekėjų sąskaitų faktūrų strategijų nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip nustatyti tiekėjų SF strategijas. Tiekėjo SF strategijos vykdomos, kai registruojate tiekėjo SF naudodami puslapį Tiekėjo SF ir kai atidarote tiekėjo SF puslapį Strategijos pažeidimai. Taip pat galite sukonfigūruoti, kad tiekėjo SF darbo eiga vykdytų tiekėjo SF strategijas kiekvieną kartą, kai į darbo eigą pateikiate SF. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "2250284"
 1. Eikite į **Naršymo sritis > Moduliai > Mokėtinos sumos > Strategijos nustatymas > Tiekėjo SF strategijos**.
 2. Pasirinkite **Naujas**.
 3. Įveskite reikšmes laukuose **Taisyklės vardas** ir **Aprašas**.
-4. Lauke **Užklausos pavadinimas** spustelėkite išplečiamojo meniu mygtuką, kad atidarytumėte peržvalgą. Ją atidarę, pasirinkite norimą įrašą.
+4. Laukelyje **Užklausos pavadinimas** pasirinkite išskleidžiamąjį mygtuką, kad atidarytumėte peržvalgą. Tada pasirinkite norimą įrašą.
 5. Pasirinkite **Įrašyti**.
 6. Norėdami grįžti į neregistruotų tabelių puslapį, uždarykite puslapį.
 

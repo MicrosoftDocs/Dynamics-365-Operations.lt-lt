@@ -3,7 +3,7 @@ title: Rekomendacijų įtraukimas į operacijų ekraną
 description: Šioje temoje paaiškinama, kaip rekomendacijų valdiklį įtraukti į elektroninio kasos aparato (EKA) įrenginio operacijų ekraną naudojant ekrano maketo dizaino įrankį programoje „Microsoft Dynamics 365 Commerce“.
 author: bebeale
 manager: AnnBe
-ms.date: 03/12/20
+ms.date: 03/19/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9117f398ee1d9edbd3aee9bed366eea225964184
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: a39389da0908953cbbc161f07d067ce3fc569a1b
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127680"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154137"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Rekomendacijų įtraukimas į operacijų ekraną
 
@@ -107,8 +107,6 @@ Galima pasirinkti iš dviejų konfigūracijų parinkčių. Pasirinkite geriausia
 [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
 [Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
-
-[Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę](add-reco-list-to-page.md)
 
 [Produktų rekomendacijų įtraukimas į EKA](product.md)
 

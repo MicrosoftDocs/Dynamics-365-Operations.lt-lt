@@ -17,27 +17,27 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9002b1d9f8507af42277ccc47621d92a4a00f62
-ms.sourcegitcommit: 7b74425637ddcf02087f1d391755e5cb8ce25949
+ms.openlocfilehash: e8210369139b3c3d4123deff5279abb26b1cbb17
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "2559194"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145967"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.–maks. papildymo proceso nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją. Kai atsargos nukris žemiau minimalaus lygio, papildyti tai vietai bus sukurtas darbas. Šia procedūra taip pat rodoma, kaip naudojant fiksuotas paėmimo vietas leisti papildyti sandėlį, net jei atsargos nukrenta žemiau minimalaus lygio, ir kaip įgalinti reguliarų papildymo proceso vykdymą, naudojant paketinę užduotį. Šias užduotis paprastai turėtų atlikti sandėlio vadovas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF, naudodami toliau pateiktus reikšmių pavyzdžius, arba ją galite vykdyti su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad turite sandėlį, kuriame galima atlikti sandėlio valdymo procesus.
+Šia procedūra paaiškinama, kaip nustatyti naują papildymo procesą, kuris naudoja minimalaus / maksimalaus papildymo strategiją. Kai atsargos nukris žemiau minimalaus lygio, papildyti tai vietai bus sukurtas darbas. Šia procedūra taip pat rodoma, kaip naudojant fiksuotas paėmimo vietas leisti papildyti sandėlį, net jei atsargos nukrenta žemiau minimalaus lygio, ir kaip įgalinti reguliarų papildymo proceso vykdymą, naudojant paketinę užduotį. Šias užduotis paprastai turėtų atlikti sandėlio vadovas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF, naudodami toliau pateiktus reikšmių pavyzdžius, arba ją galite vykdyti su savo duomenimis. Jei naudojate savo duomenis, įsitikinkite, kad turite sandėlį, įgalintą sandėlio valdymo procesams.
 
 
 ## <a name="create-a-fixed-picking-location"></a>Fiksuotos paėmimo vietos kūrimas
 1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Sąranka > Sandėlis > Fiksuotos vietos**. Tai – neprivaloma min.–maks. papildymo užduotis, tačiau, jei naudojate fiksuotą paėmimo vietą, taip atsargas galima papildyti net jei jos nukrenta žemiau minimalaus lygio, nes sistema gali nustatyti, kurias prekes reikia papildyti, net jei jų nelikę.
 2. Spustelėkite **Naujas**.
-3. Lauke **Prekės numeris** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti prekę A0001.  
-4. Lauke **Teritorija** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti 2-ąją vietą.  
-5. Lauke **Sandėlis** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti 24-ąjį sandėlį.  
-6. Lauke **Vieta** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti CP-003.  
+3. Lauke **Prekės numeris** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti elementą „A0001“.  
+4. Lauke **Teritorija** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti svetainę „2“.  
+5. Lauke **Sandėlis** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti sandėlį „24“.  
+6. Lauke **Vieta** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti „CP-003“.  
 7. Uždarykite puslapį.
 
 ## <a name="create-a-replenishment-location-directive"></a>Papildymo vietos nurodymo kūrimas
@@ -46,8 +46,8 @@ ms.locfileid: "2559194"
 3. **Veiksmų sritis** spustelėkite **Naujas**.
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Lauke **Darbo tipas** pasirinkite Paimti.
-6. Lauke **Teritorija** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti 2-ąją vietą.  
-7. Lauke **Sandėlis** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti 24-ąjį sandėlį.  
+6. Lauke **Teritorija** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti svetainę „2“.  
+7. Lauke **Sandėlis** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti sandėlį „24“.  
 8. Spustelėkite **Įrašyti**.
 9. Dalyje **Eilutės** spustelėkite **Nauja**.
 10. Sąraše pažymėkite pasirinktą eilutę.
@@ -63,14 +63,14 @@ ms.locfileid: "2559194"
 20. Uždarykite puslapį.
 
 ## <a name="create-a-replenishment-work-template"></a>Papildymo darbo šablono kūrimas
-1. Eikite į **Sandėlio valdymas > Sąranka > Darbas > Darbo šablonai**. Darbo šablonas naudojamas valdyti sistemai – kaip reikia kurti min. / maks. papildymo darbą. Turi būti bent paėmimo ir padėjimo darbo šablono eilutė. Kol nebus įvesta visa būtina informacija, bus rodoma, kad darbo šablonas netinkamas. 
+1. Eikite į **Sandėlio valdymas > Sąranka > Darbas > Darbo šablonai**. Darbo šablonas naudojamas valdyti sistemai – kaip reikia kurti min. / maks. papildymo darbą. Turi būti bent paėmimo ir padėjimo darbo šablono eilutė. Jei nebus užpildyta visa reikalinga informacija, darbo šablonas negalios. 
 2. Lauke **Darbo užsakymo tipas** pasirinkite Papildymas.
 3. **Veiksmų sritis** spustelėkite **Naujas**.
 4. Lauke **Darbo šablonas** įveskite reikšmę.
 5. Spustelėkite **Įrašyti**.
 6. Dalyje **Darbo šablono informacija** spustelėkite **Naujas**.
 7. Lauke **Darbo tipas** pasirinkite Paimti.
-8. Lauke **Darbo klasės ID** įveskite arba pasirinkite reikšmę. Tai turėtų būti darbo klasė, susijusi su papildymu. Jei naudojate USMF, pasirinkite Papildyti.  
+8. Lauke **Darbo klasės ID** įveskite arba pasirinkite reikšmę. Tai turėtų būti darbo klasė, susijusi su papildymu. Jei naudojate USMF, pasirinkite „Papildyti“.  
 9. Dalyje **Darbo šablono informacija** spustelėkite **Naujas**.
 10. Sąraše pažymėkite pasirinktą eilutę.
 11. Lauke **Darbo tipas** pasirinkite „Padėjimas“.
@@ -81,16 +81,16 @@ ms.locfileid: "2559194"
 ## <a name="create-a-new-replenishment-template"></a>Naujo papildymo šablono kūrimas
 1. Eikite į **Sandėlio valdymas > Sąranka > Papildymas > Papildymo šablonai**. Papildymo šablonas naudojamas apibrėžti, kurias prekes, kiekius ir vietą reikia papildyti.
 2. **Veiksmų sritis** spustelėkite **Naujas**.
-3. Lauke **Papildymo šablonas** įveskite reikšmę. Šablonui suteikite pavadinimą, nurodantį, kad jis skirtas min. / maks. papildymui.  
+3. Lauke **Papildymo šablonas** įveskite reikšmę. Sukurkite šablono pavadinimą, nurodantį, kad jis yra skirtas „min / maks“ papildymams.  
 4. Lauke **Aprašo laukas**surinkite reikšmę.
-5. Pažymėkite žymės langelį **Leisti poreikio bangai naudoti nerezervuotus kiekius**. Jei pasirenkate šią parinktį, atliekant bangos bangos paklausos papildymą galima vartoti kiekius, kurie yra susiję su min. / maks. papildymu. Pavyzdžiui, tai gali būti naudinga, jei min. / maks. papildymo darbas apdorojamas ne iš karto, kad nebūtų sukurta nereikalingo paklausos papildymo darbo.
+5. Pažymėkite žymės langelį **Leisti poreikio bangai naudoti nerezervuotus kiekius**. Jei pasirenkate šią parinktį, atliekant bangos bangos paklausos papildymą galima vartoti kiekius, kurie yra susiję su min. / maks. papildymu. Pavyzdžiui, tai gali būti naudinga, jei „min / maks“ papildymo darbai neapdorojami iš karto, kad būtų išvengta papildomo ir nereikalingo papildymo.
 6. Dalyje **Darbo šablono informacija** spustelėkite **Naujas**.
 7. Lauke **Sekos skaičius** įveskite skaičių.
 8. Lauke **Aprašo laukas**surinkite reikšmę.
 9. Sąraše pažymėkite pasirinktą eilutę.
 10. Lauke **Papildymo vienetas** įveskite arba pasirinkite reikšmę. Pvz., pasirinkite vnt. Šis parametras yra privalomas. Juo galima nurodyti papildymo darbo matavimo vienetą, kuris skiriasi nuo nurodyto šio šablono mažiausio ir didžiausio atsargų lygio vieneto.
 11. Lauke **Darbo šablonas** įveskite arba pasirinkite reikšmę. Pasirinkite darbo šabloną, kurį sukūrėte anksčiau.  
-12. Lauke **Mažiausias kiekis** įveskite skaičių. Pasirinkite mažiausią kiekį, kuris turėtų paleisti papildymą. Pavyzdžiui, nustatykite 50. Šį kiekį galima palikti nustatytą į nulį – jei papildote fiksuotą vietą ir parinktis **Papildyti tuščias fiksuotas vietas** nustatyta į Taip. Taip pat rekomenduojame pasirinkti parinktį **Papildyti atsargas tik fiksuotose vietose**, kad procesas būtų našesnis.
+12. Lauke **Mažiausias kiekis** įveskite skaičių. Pasirinkite mažiausią kiekį, kuris turėtų paleisti papildymą. Pavyzdžiui, nustatykite 50. Jei papildote fiksuotą vietą ir parinktis **Papildyti tuščias fiksuotas vietas** nustatyta į „Taip“, šį nustatymą galite palikti nustatytą į 0. Taip pat rekomenduojame pasirinkti parinktį **Papildyti atsargas tik fiksuotose vietose**, kad procesas būtų našesnis.
 13. Lauke **Didžiausias kiekis** įveskite skaičių. Pavyzdžiui, nustatykite 100.  
 14. Lauke **Vienetas** įveskite arba pasirinkite reikšmę. Priskirkite mažiausio ir didžiausio kiekių vienetą. Pavyzdžiui, nustatykite „vnt.‟.  
 15. Pažymėkite žymės langelį **Papildyti tuščias fiksuotas vietas**. Pažymėkite šį žymės langelį, kad fiksuotas vietas papildytumėte, kai jos tuščios. Kitu atveju bus papildytos tik vietos, kuriose yra turimas kiekis.
@@ -107,7 +107,7 @@ ms.locfileid: "2559194"
 26. Uždarykite puslapį.
 
 ## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Nustatymas, kad papildymo procesas būtų vykdomas kaip paketinė užduotis
-1. Eikite į **Sandėlio valdymas > Papildymas > Papildymai**. Puslapyje Papildymai galima nustatyti, kad papildymas būtų vykdomas kaip paketinė užduotis, arba reikalauti, kad jis būtų pradedamas rankiniu būdu.
+1. Eikite į **Sandėlio valdymas > Papildymas > Papildymai**. Puslapis „Papildymai“ leidžia nustatyti papildymą, kad jis būtų vykdomas kaip paketinė užduotis, arba reikalauti, kad jis būtų paleistas rankiniu būdu.
 2. Spustelėkite **Filtras**.
 3. Sąraše pažymėkite pasirinktą eilutę.
 4. Lauke **Kriterijai** įveskite arba pasirinkite reikšmę.

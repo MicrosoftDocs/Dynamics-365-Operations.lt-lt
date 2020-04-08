@@ -1,6 +1,6 @@
 ---
 title: Ataskaitų „Office“ formatu su įdėtaisiais vaizdais generavimas
-description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“).
+description: Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektroninių ataskaitų kūrėjas“ vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 64fade6578e9cd4f8a51c524e4f6ebbf63b93f20
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184766"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143104"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų „Office“ formatu su įdėtaisiais vaizdais generavimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“).
+Tolesni veiksmai paaiškina, kaip sistemos administratoriaus arba „Elektroninių ataskaitų kūrėjas“ vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų teikimo (ER) konfigūraciją, skirtą elektroninių dokumentų, turinčių įdėtųjų vaizdų, generavimui „MS office“ formatais („Excel“ ir „Word“).
 
-Šiame pavyzdyje naudosite sukurtas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas.  Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje „ER padaryti ataskaitas „MS Office“ formatais su įdėtaisiais vaizdais (2 dalis: peržiūrėti konfigūracijas)“. Šiuos veiksmus galima atlikti USMF įmonėje.
+Šiame pavyzdyje naudosite sukurtas kaip pavyzdys pateiktos įmonės „Litware, Inc.“ ER konfigūracijas.  Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus užduočių vedlyje „ER: ataskaitų kūrimas „MS Office“ formatais su įdėtaisiais vaizdai (2 dali. Konfigūracijų peržiūra)“. Šiuos veiksmus galima atlikti USMF įmonėje.
 
 
 ## <a name="run-format-with-initial-model-mapping"></a>Paleiskite formatą pradiniu modelio susiejimu
@@ -40,7 +40,7 @@ ms.locfileid: "2184766"
     * Paleiskite formatą bandymams.  
 6. Lauke Perduodamo čekio formatas pasirinkite Taip.
 7. Spustelėkite GERAI.
-    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad įmonės logotipas pateikiamas ataskaitoje, taip pat ir įgalioto asmens parašas. Parašo vaizdas paimamas iš čekio išdėstymo įrašo duomenų tipo „Konteineris“ lauko, kuris susietas su pasirinkta banko sąskaita.  
+    * Peržiūrėkite sukurtą išvestį. Atkreipkite dėmesį, kad ataskaitoje yra pateiktas įmonės logotipas ir įgaliotojo asmens parašas. Parašo vaizdas yra paimtas iš čekio maketo įrašo, kuris susietas su pasirinkta banko sąskaita, duomenų tipo „Konteineris“ lauko.  
 8. Išplėskite skyrių Kopijos.
 9. Spustelėkite Redaguoti.
 10. Lauke Vandenženklis įveskite „Spausdinti vandenženklį kaip anuliuotą“.
@@ -105,7 +105,7 @@ ms.locfileid: "2184766"
 9. Spustelėkite Taip.
 10. Spustelėkite Naujas.
 11. Spustelėkite Failas.
-    * Spustelėkite Naršyti ir pasirinkite atsisiųstą iš anksto „Cheque template Word.docx" failą.  
+    * Spustelėkite Naršyti ir pasirinkite iš anksto atsisiųstą „Cheque template Word.docx" failą.  
 12. Uždarykite puslapį.
 13. Lauke Šablonas įveskite arba pasirinkite reikšmę.
 14. Spustelėkite Įrašyti.

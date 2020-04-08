@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8269e5119e45522373eca6cb8fb06bfb94a37566
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5155ada23fe4f559c79964e6bd10d86712009d1d
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845575"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145782"
 ---
 # <a name="correct-inventory-tracking-information"></a>Taisyti atsargų sekimo informaciją
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra padės kūrimo ir atsargų perkėlimo žurnalo registravimo proceso metu, kad pakoreguotumėte atsargų sekimo informaciją. Šiame pavyzdyje atnaujinsime paketo valdomos prekės informaciją, pakeitę neteisingai užregistruotą paketą į kitą paketą. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonės USPI arba savo duomenis. Jei naudojate savo duomenis, jums reikia turėti prekę, kurios paketas įgalintas ir jis neturi būti kontroliuojamas pagal vietą. Be to, norint atlikti atsargų perkėlimą, turi būti nustatytas atsargų žurnalo pavadinimas. Šias užduotis paprastai turėtų atlikti sandėlio darbuotojas.
 

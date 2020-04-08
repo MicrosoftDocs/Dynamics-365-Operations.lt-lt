@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 116085a71e872c13bbf2820f4408e3c7d1261d17
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: ba585a9bb1a296bbf7181530e151d737bfa22fc2
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924429"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149601"
 ---
 # <a name="create-a-vendor-account"></a>Tiekėjo sąskaitos kūrimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip sukurti tiekėjo sąskaitą ir įtraukti adresą bei kontaktinę informaciją. Procedūra nenurodo, kaip užpildyti visus laukus, pirkimo ir finansiniais sumetimais. Jei norite apie šiuos laukus sužinoti daugiau, prašome perskaityti laukų aprašus. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Tiekėjų sąskaitas paprastai kuria profesionalūs už pirkimus ar gautinas sumas atsakingi darbuotojai.
 

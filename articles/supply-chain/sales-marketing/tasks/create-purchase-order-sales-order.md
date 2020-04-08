@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b346731ec80d08afabe648e1b47b30b53b29e744
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 30ffb34e2aee984d29bedb47d6bfc9cb6173470a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924411"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148681"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip kurti pirkimo užsakymą, pagrįstą pardavimo užsakymu. Produkto pirkimo užsakymo kiekiai tada nurodomi norint patenkinti pradinio pardavimo užsakymo poreikį. Pardavimo poreikio vykdymas tokiu būdu yra išsamesnio ir optimizuoto metodo Platinimo poreikio planavimas alternatyva. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis.
 

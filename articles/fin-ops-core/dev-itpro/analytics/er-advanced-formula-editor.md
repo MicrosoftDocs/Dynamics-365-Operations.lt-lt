@@ -3,7 +3,7 @@ title: Elektroninių ataskaitų išplėstinė formulių rengyklė
 description: Šioje temoje aprašoma, kaip išplėstinę formulių rengyklę galima naudoti konfigūruojant išraiškas elektroninių ataskaitų (ER) modelių susiejime ir formato komponentuose.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/22/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d183f77da1dda0c4f04e4e48ab3db0133f494a55
-ms.sourcegitcommit: 6a70f9ac296158edd065d52a12703b3ce85ce5ee
+ms.openlocfilehash: df402bc20753d2ba14295592f4b40e20f9fdc7bf
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3015318"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138903"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Elektroninių ataskaitų išplėstinė formulių rengyklė
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Be [elektroninių ataskaitų](general-electronic-reporting.md)[formulių rengyklės](general-electronic-reporting-formula-designer.md), galite naudoti išplėstinę elektroninių ataskaitų formulių rengyklę, kad pagerėtų elektroninių ataskaitų (ER) išraiškų konfigūravimo patirtis. Išplėstinė rengyklė veikia naršyklėje [„Monaco Editor“ pagrindu](https://microsoft.github.io/monaco-editor). Dažniausiai naudojamos išplėstinės rengyklės funkcijos aprašomos šioje temoje.
 
@@ -42,7 +40,7 @@ Be [elektroninių ataskaitų](general-electronic-reporting.md)[formulių rengykl
 - [Duomenų įklijavimas](#DataPasting)
 - [Sintaksės žymėjimas spalvomis](#SyntaxColorization)
 
-## <a name="ActivateAdvEditor">Išplėstinės formulių rengyklės aktyvinimas</a>
+## <a name=""></a><a name="ActivateAdvEditor">Išplėstinės formulių rengyklės aktyvinimas</a>
 
 Atlikite tolesnius veiksmus, kad pradėtumėte naudoti išplėstinę formulių rengyklę „Microsoft Dynamics 365 Finance“ egzemplioriuje.
 
@@ -55,7 +53,7 @@ Atlikite tolesnius veiksmus, kad pradėtumėte naudoti išplėstinę formulių r
 > [!NOTE]
 > Atminkite, kad šis parametras yra susijęs su konkrečiu vartotoju ir įmone.
 
-## <a name="Autoformatting">Automatinis kodo formatavimas</a>
+## <a name=""></a><a name="Autoformatting">Automatinis kodo formatavimas</a>
 
 Rašant sudėtingą išraišką, kurią sudaro keletas kodo eilučių, naujai įvestos eilutės įtrauka bus automatiškai pagrįsta ankstesnės eilutės įtrauka. Galite pasirinkti eilutes ir pakeisti jų įtrauką, paspausdami **Tabuliavimo klavišas** arba **„Shift“ + tabuliavimo klavišas**.
 
@@ -63,13 +61,13 @@ Rašant sudėtingą išraišką, kurią sudaro keletas kodo eilučių, naujai į
 
 Automatinis formatavimas leidžia išsaugoti visos išraiškos tinkamą formatavimą, kad būtų lengviau atlikti priežiūrą ir būtų paprasčiau suprasti sukonfigūruotą logiką.
 
-## <a name="IntelliSense">„IntelliSense“</a>
+## <a name=""></a><a name="IntelliSense">„IntelliSense“</a>
 
 Rengyklėje yra žodžių užbaigimo funkcija, padedanti parašyti išraišką greičiau ir išvengti rašybos klaidų. Pradėjus įtraukti naują tekstą, rengyklėje automatiškai siūlomas sąrašas funkcijų, kurios palaikomos naudojant ER funkcijas ir kuriose yra įvestų simbolių. Taip pat galite paleisti „IntelliSense“ bet kurioje sukonfigūruotos išraiškos vietoje, paspausdami **„Ctrl“+ tarpo klavišas**.
 
 [![ER formulių rengyklė](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
-## <a name="CodeCompletion">Kodo užbaigimas</a>
+## <a name=""></a><a name="CodeCompletion">Kodo užbaigimas</a>
 
 Rengyklėje kodas automatiškai užbaigiamas toliau pateikiamais būdais.
 
@@ -81,7 +79,7 @@ Rengyklėje kodas automatiškai užbaigiamas toliau pateikiamais būdais.
 
 Kai žymeklį nukreipiate į įvestą skliaustą, antras šios poros skliaustas automatiškai paryškinamas, kad būtų rodoma skliaustuose esanti konstrukcija.
 
-## <a name="CodeNavigation">Kodo naršymas</a>
+## <a name=""></a><a name="CodeNavigation">Kodo naršymas</a>
 
 Išraiškoje norimus simbolius arba eilutes rasite, įvedę komandą **Eiti į**, naudodami komandų paletę arba kontekstinį meniu.
 
@@ -95,7 +93,7 @@ Pavyzdžiui, norėdami pereiti į **8** eilutę, atlikite tolesnius veiksmus.
 
 [![ER formulių rengyklė](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
-## <a name="CodeStructuring">Kodo susisteminimas</a>
+## <a name=""></a><a name="CodeStructuring">Kodo susisteminimas</a>
 
 Kai kurių funkcijų, pvz., [„IF“](er-functions-logical-if.md) ar [„CASE“](er-functions-logical-case.md), kodas yra automatiškai susisteminamas. Galite išplėsti ir sutraukti keletą arba visas šio kodo sulankstomas sritis, kad būtų sumažinta redaguojama išraiškos dalis ir būtų sutelktas dėmesys tik į tą kodo fragmentą, kuriam turite skirti dėmesio. Tam galima naudoti sulenkimo / atlenkimo perjungimo komandas.
 
@@ -117,7 +115,7 @@ Norėdami atlenkti visas sritis, atlikite tolesnius veiksmus.
 
 [![ER formulių rengyklė](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
-## <a name="FindAndReplace">Surasti ir pakeisti</a>
+## <a name=""></a><a name="FindAndReplace">Surasti ir pakeisti</a>
 
 Norėdami rasti tam tikro teksto pasikartojimų, pažymėkite tekstą išraiškoje ir atlikite tolesnius veiksmus.
 
@@ -145,13 +143,13 @@ Norėdami pakeisti visus tam tikro teksto pasikartojimus, pažymėkite tekstą i
 
 [![ER formulių rengyklė](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
-## <a name="DataPasting">Duomenų šaltiniai ir funkcijų įklijavimas</a>
+## <a name=""></a><a name="DataPasting">Duomenų šaltiniai ir funkcijų įklijavimas</a>
 
 Galite pasirinkti **Įtraukti duomenų šaltinį**, kad į dabartinę išraišką būtų įklijuotas duomenų šaltinis, kuris šiuo metu yra pasirinktas kairiajame skyde **Duomenų šaltinis**. Taip pat galite pasirinkti **Įtraukti funkciją**, kad į dabartinę išraišką būtų įklijuota funkcija, kuri šiuo metu yra pasirinkta dešiniajame skyde **Funkcijos**. Jei naudojate ER formulių rengyklę, pasirinkta funkcija arba pasirinktas duomenų šaltinis visuomet įklijuojami sukonfigūruotos išraiškos gale. Kai naudojate išplėstinę ER formulių rengyklę, pasirinktą funkciją arba pasirinktą duomenų šaltinį galima įklijuoti į bet kurią sukonfigūruotos išraiškos vietą. Turėsite žymekliu nurodyti, kur norite įklijuoti duomenis.
 
 [![ER formulių rengyklė](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
-## <a name="SyntaxColorization">Sintaksės žymėjimas spalvomis</a>
+## <a name=""></a><a name="SyntaxColorization">Sintaksės žymėjimas spalvomis</a>
 
 Šiuo metu skirtingomis spalvomis paryškinamos toliau pateikiamos išraiškų dalys.
 

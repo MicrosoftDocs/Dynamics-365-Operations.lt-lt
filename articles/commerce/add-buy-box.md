@@ -3,7 +3,7 @@ title: Pirkimo langelio modulis
 description: Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 13d044a150651dd18c3a09c4db6a783fe8f42287
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 3417156cbf3cb20a5190e5e51b61b3423816895a
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025464"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154068"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
@@ -58,7 +58,7 @@ Temos gali būti naudojamos norint pašalinti arba pakeisti pirkimo langelio pro
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduliai, kuriuos galima naudoti pirkimo langelio modulyje
 
 - **Medijos galerija** – naudojant šį modulį, produkto išsamios informacijos puslapyje demonstruojami produkto vaizdai. Jis gali palaikyti vieną ir daugiau vaizdų. Jis taip pat palaiko miniatiūrų vaizdus. Miniatiūrų vaizdus galima išdėstyti horizontaliai (kaip eilutę po vaizdu) arba vertikaliai (kaip stulpelį prie vaizdo). Medijos galerijos modulį galima įtraukti į pirkimo langelio modulio vietą **Medija**. Šiuo metu jis palaiko tik vaizdus. 
-- **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Parduotuvės parinkiklio modulis yra integruotas su „Bing“ žemėlapių geokodavimo programos programavimo sąsaja (API), kad vieta būtų konvertuojama į platumą ir ilgumą. Reikalingas „Bing“ žemėlapių API raktas ir jį reikia įtraukti į mažmeninės prekybos bendrinamus parametrus puslapyje „Dynamics 365 Retail“. Šis modulis palaiko dvi ypatybes – **Ieškos spindulys** ir **Paslaugų saito sąlygos**. Ypatybė **Ieškos spindulys** nurodo parduotuvių ieškos spindulį, išreikštą myliomis. Jei nenurodyta jokia reikšmė, naudojamas numatytasis ieškos spindulys, kuris yra 50 mylių. Jei naudojami „Bing“ žemėlapiai arba bet kokia išorinė paslauga, ypatybė **Paslaugos saito sąlygos** gali būti naudojama norint pateikti saitą į paslaugos sąlygas. Paslaugos saito sąlygų reikia „Bing“ žemėlapių paslaugai. 
+- **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Daugiau informacijos apie šį modulį žr. [Parduotuvės parinkiklio modulis](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Pirkimo langelio modulių parametrai
 
@@ -92,6 +92,8 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+
+[Parduotuvės parinkiklio modulis](store-selector.md)
 
 [Konteinerio modulis](add-container-module.md)
 

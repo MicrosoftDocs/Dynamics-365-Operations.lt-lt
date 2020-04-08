@@ -3,7 +3,7 @@ title: Produkto identifikatoriai
 description: Šioje temoje pateikiama informacija apie įvairių tipų produkto identifikatorius ir paaiškinama, kaip produktų duomenyse galite pridėti produkto identifikatorių.
 author: cvocph
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 03/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,14 @@ ms.search.industry: ''
 ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: adac308a17ac51ed6da28d04d8c69b01f579aab7
-ms.sourcegitcommit: 7789ef6b0d337bee6aa05110c40e002f02eec71b
+ms.openlocfilehash: 0aa8baf5802ccdd9a502e2a7d291a76fc4afe932
+ms.sourcegitcommit: d91d96c98b31ae59bc82ec91efbb7da86ffb25fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3095622"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172030"
 ---
-# <a name="product-identifiers"></a>Produkto identifikatoriai 
+# <a name="product-identifiers"></a>Produkto identifikatoriai
 
 [!include [banner](../includes/banner.md)]
 
@@ -53,6 +53,9 @@ Be to, produkto varianto pagal prekės numerį unikaliai identifikuoti negalima.
 Daugelyje puslapių prekės numeris ir produkto dimensijos vis dar laikomos pirminiais identifikatoriais. Tačiau produktų numerius galima naudoti atliekant ieškas. Apsilankę parinktyje **Pardavimas ir rinkodara** &gt; **Sąranka** &gt; **Ieška** &gt; **Ieškos parametrai** ieškos peržvalgas galite pakeisti taip, kad vietoje prekių numerių kaip pirminė ieškos strategija būtų naudojami produktų numeriai. Jei parinktį **Įjungti produkto ieškos peržvalgą** nustatysite į **Taip**, peržiūroje bus rodomi ne tik bendrieji produktai, bet ir produkto variantai. Daugiau informacijos rasite perskaitę [Ieškoti produktų ir produkto variantų įvedant užsakymą](search-products-product-variants.md).
 
 Be to, galėsite ieškoti ir filtruoti pagal produkto numerį, produkto pavadinimą ir aprašą bei produkto varianto produkto dimensijų ID. Pasirinkus variantą, bus pasirinktas susijęs prekės numeris ir visi produkto dimensijos ID. Todėl rasti ir pasirinkti tinkamą variantą taps dar paprasčiau. Šį parametrą ypač rekomenduojama naudoti tuo atveju, jei kaip pirminius produkto identifikatorius naudojate produkto variantus ir unikalų produkto numerį. Vienintelė išimtis gali būti taikoma mados pramonei, kurioje, dėl tenai vykstančių verslo procesų, dažnai reikalaujama, kad prieš pasirenkant variantą būtų pasirinktas bendrasis produktas. Prieš įdiegdami numeravimo sistemą, atidžiai įvertinkite šią parinktį.
+
+> [!NOTE]
+> Produkto prekės numerio negalima pakeisti, kai yra vienas ar daugiau to produkto operacijų.
 
 ## <a name="product-name-and-description"></a>Produkto pavadinimas ir aprašas
 
@@ -123,7 +126,7 @@ Deja, nėra jokių standartinių funkcijų, kurios leistų ieškoti produktų pa
 | Produktai V2 | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Priklausomai nuo subjekto parametrų ir produkto numeriui taikomos numeracijos, produkto numerį galima sukurti automatiškai importavimo metu. |
 | Produkto variantai | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas | Priklausomai nuo produkto nomenklatūros šablono, produkto numerį galima sukurti automatiškai importavimo metu. Tačiau galite importuoti bet kokį unikalų produkto numerį ir šis produkto numeris neturi atitikti produkto nomenklatūros šablonų struktūros. |
 | Produkto vertimai | Produkto pavadinimas, produkto aprašas | Produkto pavadinimas, produkto aprašas | Šis subjektas perrašo bet kokią kalbą. Atkreipkite dėmesį, kad kai perrašoma juridinio subjekto pavadinimo arba aprašo pagrindinė kalba, pakinta paties produkto pavadinimas ir aprašas. |
-| Išleisti produktai V2 | Prekės numeris, produkto numeris, prekės ieškos pavadinimas| Prekės numeris, produkto numeris, prekės ieškos pavadinimas, produkto ieškos pavadinimas, produkto pavadinimas | Šis subjektas gali kelti sunkumų, kai naujai patvirtintų produktų kūrimo metu naudojamos numeracijos. Įtakos turi tiek numeracija pagal **prekės numerį**, tiek ir numeracija pagal **produkto numerį**. Vis dėlto, numeracija pagal **prekės numerį** atliekama atskirame juridiniame subjekte, o numeracija pagal **produkto numerį** yra bendrinė. Dėl šios priežasties numeracijos pagal **prekės numerį** nerekomenduojame naudoti diegiant naujus patvirtintus produktus. Savaime suprantama, kai subjektas naudojamas esamam produktui išleisti, subjekte būtina pateikti produkto numerį. Daugiau informacijos ieškokite šios temos skyriuje „Numeracijos pagal produktą ir prekės numerį“. |
+| Išleisto produkto kūrimas V2 | Prekės numeris, produkto numeris, prekės ieškos pavadinimas| Prekės numeris, produkto numeris, prekės ieškos pavadinimas, produkto ieškos pavadinimas, produkto pavadinimas | Šis subjektas gali kelti sunkumų, kai naujai patvirtintų produktų kūrimo metu naudojamos numeracijos. Įtakos turi tiek numeracija pagal **prekės numerį**, tiek ir numeracija pagal **produkto numerį**. Vis dėlto, numeracija pagal **prekės numerį** atliekama atskirame juridiniame subjekte, o numeracija pagal **produkto numerį** yra bendrinė. Dėl šios priežasties numeracijos pagal **prekės numerį** nerekomenduojame naudoti diegiant naujus patvirtintus produktus. Savaime suprantama, kai subjektas naudojamas esamam produktui išleisti, subjekte būtina pateikti produkto numerį. Daugiau informacijos ieškokite šios temos skyriuje „Numeracijos pagal produktą ir prekės numerį“. |
 | Patvirtinto produkto variantai | Prekės numeris, produkto dimensijos, produkto numeris | Produkto numeris, produkto ieškos pavadinimas, produkto pavadinimas, produkto aprašas, produkto dimensijos | Šį subjektą, kaip ir subjektą **Produkto variantai**, galima panaudoti naujiems produktams, atitinkantiems produkto nomenklatūros šabloną arba produktams, kuriuose naudojami turimi varianto produktų numeriai, kurti. |
 | Klientų išorinis prekės aprašas | Kliento prekės numeris, kliento prekės pavadinimas, kliento aprašas, kliento kodas | Kliento prekės numeris, kliento prekės pavadinimas, kliento aprašas, kliento kodas | Klientų grupę (pvz., pirkėjo asociaciją) į vieną grupę apjungti galima panaudojus subjektą **Išorinių prekių aprašų klientų grupės**. |
 | Tiekėjų išorinis prekių aprašas | Tiekėjo prekės numeris, tiekėjo prekės pavadinimas, tiekėjo aprašas, tiekėjo kodas | Tiekėjo prekės numeris, tiekėjo prekės pavadinimas, tiekėjo aprašas, tiekėjo kodas | Tiekėjų grupę (pvz., pirkėjo asociaciją arba pramonės organizaciją) į vieną grupę apjungti galima panaudojus subjektą **Išorinių prekių aprašų tiekėjų grupės**. |
@@ -144,7 +147,7 @@ Galite nurodyti dvi skirtingas numeracijas.
 > [!NOTE]
 > Prekės numerį kaip atskirą identifikatorių turėtumėte naudoti tik tada, kai perkeliate skirtingų šaltinių, kuriuose naudojamos skirtingos numeravimo sistemos, skirtingus teisinius subjektus. Turite stengtis visada naudoti visuose teisiniuose subjektuose unikalų produkto identifikatorių. Dėl šios priežasties parinktį **Neautomatinis**, skirtą numeracijai pagal **prekės numerį**, reikia nustatyti į **Taip**. Tokiu būdu kūrimo metu prekės numeris atitiks produkto numerį. Jei Tiekimo grandinės valdymas nėra pagrindinė naujų produktų numerių sistema, numeracijos pagal **prekės numerį** ir **produkto numerį** parinktį **Neautomatinis** turite nustatyti į **Taip**.
 
-Kai naudojate subjektą **Patvirtintas produktas V2** produktams kurti, tai, kaip numeracijos naudojamos produkto numeriui ir prekės numeriui kurti, įtakos gali turėti keletas parametrų.
+Kai naudojate subjektą **Išleisto produkto kūrimas V2** produktams kurti, tai, kaip numeracijos naudojamos produkto numeriui ir prekės numeriui kurti, įtakos gali turėti keletas parametrų.
 
 - Numeracijos pagal **produkto numerį** parametrai
 - Numeracijos pagal **prekės numerį** parametrai
@@ -155,9 +158,9 @@ Toliau esančioje lentelėje pateikiama importavimo ir neautomatinio kūrimo, ka
 
 | Numeracija pagal produkto numerį | Numeracija pagal prekės numerį | Prekės numerio susiejimas | Produkto numerio susiejimas | Subjekto importavimo rezultatas | Neautomatinio kūrimo rezultatas | Išvada |
 |--------------------------------|-----------------------------|----------------------------|-------------------------------|-------------------------|----------------------------|-----------|
-| Neautomatinis = ne | Neautomatinis = ne | Nėra susiejimo | Nėra susiejimo | Produktų numeriai numeruojami pagal **produkto numerį**. Prekės numeriai numeruojami pagal **prekės numerį**. | Produktų numeriai numeruojami pagal **produkto numerį**. Prekės numeriai numeruojami pagal **prekės numerį**. | Šie parametrai gali būti naudojami, jei reikalaujate, kad produktams ir prekėms būtų suteiktas kitas numeris. Tačiau prekėms ir produktams nerekomenduojame naudoti skirtingų numerių. |
-| Neautomatinis = ne | Neautomatinis = taip | Automatinis generavimas | Nėra susiejimo | Produktų ir prekių numeriai numeruojami pagal **prekės numerį**. | Produktų ir prekių numeriai numeruojami pagal **produkto numerį**. | Rinktis šių parametrų nerekomenduojama. Importavimas ir neautomatinis kūrimas veikia skirtingai. |
-| Neautomatinis = ne | Neautomatinis = taip | Nėra susiejimo | Nėra susiejimo | Produktų ir prekių numeriai numeruojami pagal **produkto numerį**. | Produktų ir prekių numeriai numeruojami pagal **produkto numerį**. | Šie parametrai rekomenduojami tuo atveju, jei produktų numeracija turi būti nuosekli nepriklausomai nuo to, ar naudojamas importavimas, ar neautomatinis kūrimas. |
+| Neautomatinis = ne | Neautomatinis = ne | Nėra susiejimo | Nėra susiejimo | Produktų numeriai numeruojami pagal **produkto numerį**. Prekės numeriai numeruojami pagal **prekės numerį**. | Produktų numeriai numeruojami pagal **produkto numerį**. Prekės numeriai numeruojami pagal **prekės numerį**. | Naudojant šią konfigūraciją, produktų numeriai atitiks produkto numeraciją, o prekių numeriai atitiks prekės numeraciją. Tačiau ši konfigūracija neveikia, jei yra daugiau nei viena prekė (eilutė), kurią reikia importuoti. |
+| Neautomatinis = ne | Neautomatinis = taip | Automatinis generavimas | Nėra susiejimo | Produktų ir prekių numeriai numeruojami pagal **prekės numerį**. | Produktų ir prekių numeriai numeruojami pagal **produkto numerį**. | Produktų ir prekių numeriai atitinka produkto numeraciją. Tai rekomenduojamas metodas importuoti didelius produktus, naudojant išleistą produkto kūrimo V2 duomenų objektą. |
+| Neautomatinis = ne | Neautomatinis = taip | Nėra susiejimo | Nėra susiejimo | Produktų ir prekių numeriai numeruojami pagal **produkto numerį**. | Produktų ir prekių numeriai numeruojami pagal **produkto numerį**. | Produktų ir prekių numeriams naudojama produkto numeracija. Tačiau ši konfigūracija neveikia, jei yra daugiau nei viena prekė (eilutė), kurią reikia importuoti. |
 | Neautomatinis = taip | Netaikoma | Netaikoma | Automatinis generavimas | Jūs gaunate šį klaidos pranešimą: „Negalima nustatyti numeracijos“. | Remiantis numeracija pagal **prekės numerį** | Importuojant šis parametras nepalaikomas. |
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Produkto subjekto identifikatorius (visų produkto identifikatorių eksportavimas)

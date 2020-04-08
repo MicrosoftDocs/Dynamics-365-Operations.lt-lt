@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22680a3033c1518735eb9edb4c6f22f310509aba
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b9960c3fdf0d65be19e28dbb41913a310ae7530
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188814"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140219"
 ---
 # <a name="establish-customer-method-of-payment"></a>Kliento mokėjimo būdo nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip sukurti mokėjimo būdą kliento mokėjimams. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
@@ -43,6 +43,6 @@ ms.locfileid: "2188814"
 12. Įveskite pagrindinę sąskaitą, naudojamą registruoti tarpiškai. Tai yra pagrindinė sąskaita, kurioje, jei naudojama tarpinė funkcija, bus laikinai registruojamas mokėjimas.  
 13. Norėdami apibrėžti elektroninių mokėjimų parametrą, naudokite skirtuką **Failo formatas**.
 14. Norėdami apibrėžti privalomus laukus, naudokite skirtuką **Mokėjimų kontrolė**. Pavyzdžiui, jei reikia pervesti visus šiuo būdu atliktus mokėjimus, tokią parinktį galite pasirinkti šiame skirtuke.  
-15. Norėdami apibrėžti, kuriuos atributus naudosite šiam mokėjimo būdui, naudokite skirtuką **Mokėjimo atributai**.
+15. Naudokite skirtuką **Mokėjimo atributai**, kad apibrėžtumėte, kuriuos šio mokėjimo būdo atributus norite naudoti.
 16. Pasirinkite **Įrašyti**.
 

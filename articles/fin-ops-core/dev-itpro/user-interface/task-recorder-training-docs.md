@@ -3,7 +3,7 @@ title: Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 description: Šioje temoje paaiškinama, kas yra užduočių įrašymo priemonė ir užduočių vedliai, kaip sukurti užduočių įrašus bei kaip tinkinti „Microsoft“ užduočių vedlius ir juos įtraukti į žinyną.
 author: josaw1
 manager: AnnBe
-ms.date: 10/24/2017
+ms.date: 03/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 268b95aad57c2e4863a3f58cd54828dbb0e09465
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 927f6475e60b5b93aac0e0c2840cb0b4fc7f0ac8
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3006200"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164563"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę
 
@@ -40,8 +40,6 @@ ms.locfileid: "3006200"
 Užduočių įrašymo priemonė yra įrankis, naudojamas įrašyti veiksmams, kuriuos atliekate produkto vartotojo sąsajoje (UI). Kai naudojate Užduočių įrašytuvą, fiksuojami visi įvykiai, kuriuos atliekate naudotojo sąsajoje su serveriu, įskaitant reikšmių pridėjimą, nuostatų keitimą, duomenų šalinimą. Veiksmai, kuriuos įrašote, bendrai vadinami *užduoties įrašu*. Užduočių įrašus galima naudoti įvairiais būdais.
 
 -   **Užduočių įrašus galima paleisti kaip užduočių vadovus.** Užduočių vedliai integruojami į žinyną.Užduočių vedlys – tai kontroliuojama, valdoma, interaktyvi priemonė, kuri naudojama atliekant verslo proceso veiksmus. Naudotojui atlikti kiekvieną veiksmą nurodoma iššokančiuoju raginimu („burbuliuku‟), kurio animacija rodoma visoje UI ir kuris nurodo į UI elementą, su kuriuo naudotojas turėtų sąveikauti. Burbuliuke taip pat pateikiama informacija apie sąveikavimo su elementu būdą, pvz., „Spustelėkite čia“ ar „Šiame lauke įveskite reikšmę“.Užduočių vedlys veikia naudodamas dabartinių vartotojo duomenų rinkinį, o įvesti duomenys įrašomi vartotojo aplinkoje.
--   **Užduočių įrašai gali būti pateikiami kaip procedūros veiksmai žinyno srityje.** Naudodami žinyno sritį galite ieškoti užduočių įrašų ir juos pateikti. Žinyno sritį galite pasiekti spustelėję piktogramą **?**, esančią viršutinėje naršymo juostoje, arba galite naudoti sparčiųjų klavišų derinį  **Ctrl + Shift + ?**. Žinyno srityje galite perskaityti užduoties įrašo veiksmus arba galite pasirinkti, kad įrašas būtų paleistas kaip užduočių vedlys – tuomet jį naudodami atliksite veiksmus vartotojo sąsajoje.
--   **Užduočių įrašus galima įrašyti į BPM.** Savo užduoties įrašą galite įrašyti į „Lifecycle Services“ (LCS) BPM bibliotekos hierarchijos eilutę. Iš įrašo bus sugeneruotas veiksmų sąrašas ir verslo procesų srauto diagrama. Užduočių įrašai, įrašyti į BPM biblioteką, gali būti rodomi kaip žinyno elementai.
 -   **Užduočių įrašus galima įrašyti kaip „Word‟ dokumentus.** Taip galite lengvai kurti spausdinamus mokymo vadovus.
 
 Galite kurti savo užduočių įrašus, leisti „Microsoft‟ pateiktus užduočių įrašus arba modifikuoti „Microsoft‟ pateiktus užduočių įrašus, kad jie atitiktų jūsų konfigūraciją.Norėdami gauti daugiau informacijos apie užduočių įrašymo priemonę, žr. [Užduočių įrašymo priemonė](task-recorder.md).
@@ -114,8 +112,7 @@ Galite atsisiųsti bei redaguoti „Microsoft‟ užduočių įrašus ir juos na
 10. Įrašą atkūrę iki pabaigos, ekrano viršuje esančioje užduočių įrašytuvo juostoje spustelėkite **Sustabdyti**.
 11. Pasirinkite, kaip norite įrašyti užduoties įrašą.
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>Užduočių įrašus įtraukite į žinyno sritį
-Kad tinkinti užduočių įrašai būtų pateikiami žinyno srityje ir juos būtų galima atkurti kaip užduočių vedlius arba peržiūrėti kaip tekstą, užduočių įrašus turite įrašyti į savo BPM biblioteką, tada atnaujinti žinyno sistemos parametrus, kad būtų nurodoma BPM biblioteka. Daugiau informacijos žr. [Žinyno sistemos prijungimas](../../fin-ops/get-started/help-connect.md)
+
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

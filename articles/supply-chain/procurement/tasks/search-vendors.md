@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfa5bfa2eba39b981c5dc1d029f4847651c8fc6f
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1982c8dffbc7a65263babce7738045b744db2592
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844038"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149532"
 ---
 # <a name="search-for-vendors"></a>Ieškoti tiekėjų
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus. Šis pavyzdys nurodo, kaip ieškoti tiekėjų, kurie patvirtinti konkrečioje įsigijimo kategorijoje ir kurių pirminis adresas yra konkrečioje šalyje. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Šią užduotį paprastai atlieka pirkimų profesionalai.
 
@@ -34,7 +34,7 @@ Sužinokite, kaip ieškoti tiekėjų pagal konkrečius kriterijus. Šis pavyzdys
 3. Medyje pasirinkite „CORP ĮSIGIJIMO KATEGORIJOS \ BIURO MAŠINOS“.
     * Jei šią procedūrą vykdote kaip užduočių vadovą, gali reikėti spustelėti mygtuką „Atrakinti“, kad galėtumėte pasirinkti tinkamą mazgą. Jei nenaudojate USMF, pasirinkite vieną iš jūsų turimų kategorijų.  
 4. Spustelėkite Pridėti.
-    * Daugiau nei vieną kategoriją galima pasirinkti čia. Jei taip padarysite, paieška ras visus tiekėjus, kurie yra patvirtinti bent vienoje iš kategorijų.  
+    * Čia galima pasirinkti daugiau nei vieną kategoriją. Jei taip padarysite, paieška ras visus tiekėjus, kurie yra patvirtinti bent vienoje iš kategorijų.  
 5. Spustelėkite GERAI.
 6. Lauke Šalis / regionas surinkite reikšmę.
 7. Spustelėkite GERAI.

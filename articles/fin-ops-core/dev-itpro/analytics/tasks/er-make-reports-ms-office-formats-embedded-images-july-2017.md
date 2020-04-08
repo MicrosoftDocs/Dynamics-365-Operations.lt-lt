@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143782413359d87f3d4c46940f9a699fbf0e8f90
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 6d292d028ebc87892760524dbd7709e8f181fc5d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769814"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141815"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų kūrimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu.“ Šia procedūra paaiškinama, kaip kurti elektroninių ataskaitų (ER) konfigūracijas, norint generuoti „Microsoft Excel“ ar „Word“ dokumentą su įdėtaisiais vaizdais. Atlikdami šią procedūrą, kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Prieš pradėdami, atsisiųskite ir įrašykite žinyno temoje nurodytus failus [Įdėtieji vaizdai ir formos dokumentuose, kurie generuojami naudojant ER](../electronic-reporting-embed-images-shapes.md). Failai: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png ir Cheque template Word.docx.
 
 ## <a name="verify-prerequisites"></a>Būtinų sąlygų tikrinimas  
  1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.  
- 2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijų teikėjo, atlikite procedūros „Konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“ veiksmus.   
+ 2. Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“ veiksmus.   
  3. Spustelėkite Ataskaitų konfigūracijos.  
  
 ## <a name="add-a-new-er-model-configuration"></a>Įtraukti naują ER modelio konfigūraciją  
@@ -42,7 +42,7 @@ Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą �
  6. Įkeltas modelis bus naudojamas kaip duomenų informacijos šaltinis kuriant „Excel“ ir „Word“ dokumentus, kuriuose yra vaizdų.  
 
 ## <a name="add-a-new-er-format-configuration"></a>Įtraukite naują ER formato konfigūraciją  
- 1. Užuot kūrę naują formatą, galite įkelti ankščiau įrašytą ER formato konfigūracijos failą (Cheques printing format.xml). Šiame faile yra formato maketo pavyzdys, kai čekiai spausdinami naudojant iš anksto išspausdintą formą, ir šio formato susiejimas su duomenų modeliu „Model for cheques“.   
+ 1. Užuot kūrę naują formatą, galite įkelti ankščiau įrašytą ER formato konfigūracijos failą (Cheques printing format.xml). Šiame faile yra formato maketo, skirto čekių spausdinimui naudojant iš anksto išspausdintą formą, pavyzdys ir šio formato susiejimas su duomenų modeliu „Model for cheques“.   
  2. Spustelėkite Keitimas.  
  3. Spustelėkite Įkelti iš XML failo.  
  4. Spustelėkite Naršyti ir pasirinkite failą Cheques printing format.xml.   

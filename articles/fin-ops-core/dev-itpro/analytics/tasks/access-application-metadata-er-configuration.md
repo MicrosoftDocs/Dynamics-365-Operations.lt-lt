@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa8444b081650e3d375e6f28f47866c8d4853721
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a4c7341941df3ba7bf0a0dfeef8cb3009726838e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772468"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142713"
 ---
 # <a name="access-application-metadata-by-using-er-configuration"></a>Prieiga prie programos metaduomenų naudojant ER konfigūraciją
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“ (RCS) vartotojas, turintis sistemos administratoriaus arba elektroninės ataskaitos kūrėjo vaidmenį, gali kurti naują elektroninės ataskaitos (ER) modelio susiejimą naudodamas programos metaduomenis. Programos metaduomenys bus pasiekiami naudojant ER metaduomenų konfigūraciją, kurioje yra metaduomenų pavyzdžių rinkinys, skirtas užsienio prekybos operacijoms pasiekti. Norint atlikti šiuos veiksmus, pirmiausia RCS reikia atlikti temos [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md) procedūros veiksmus. Tada reikia atlikti temoje [Programos metaduomenų, kurie bus naudojami RCS, paruošimas](prepare-application-metadata-rcs.md) nurodytus veiksmus.
 
@@ -52,28 +52,28 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 7. Lauke **Pavadinimas** įveskite „Šaknis“. 
 8. Spustelėkite **Pridėti**. 
 9. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
-10. Lauke **Pavadinimas** įveskite Operacija. 
-11. Lauke **Elemento tipas** pasirinkite **Įrašų sąrašas**. 
-12. Spustelėkite **Pridėti**. 
-13. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
-14. Lauke **Pavadinimas** įveskite Prekės kodas. 
-15. Lauke **Elemento tipas** pasirinkite **Eilutė**. 
-16. Spustelėkite **Pridėti**. 
-17. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
-18. Lauke **Pavadinimas** įveskite Sąskaitos faktūros suma. 
-19. Lauke **Elemento tipas** pasirinkite **Realusis skaičius**. 
-20. Spustelėkite **Pridėti**. 
-21. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
-22. Lauke **Pavadinimas** įveskite Data. 
-23. Lauke **Elemento tipas** pasirinkite **Data**. 
-24. Spustelėkite **Pridėti**. 
-25. Spustelėkite **Šakninė nuoroda**. 
-26. Spustelėkite **Gerai**. 
-27. Spustelėkite **Įrašyti**. 
-28. Uždarykite puslapį. 
-29. Spustelėkite **Keisti būseną**. 
-30. Spustelėkite **Baigta**. 
-31. Spustelėkite **Gerai**. 
+10.    Lauke **Pavadinimas** įveskite Operacija. 
+11.    Lauke **Elemento tipas** pasirinkite **Įrašų sąrašas**. 
+12.    Spustelėkite **Pridėti**. 
+13.    Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
+14.    Lauke **Pavadinimas** įveskite Prekės kodas. 
+15.    Lauke **Elemento tipas** pasirinkite **Eilutė**. 
+16.    Spustelėkite **Pridėti**. 
+17.    Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
+18.    Lauke **Pavadinimas** įveskite Sąskaitos faktūros suma. 
+19.    Lauke **Elemento tipas** pasirinkite **Realusis skaičius**. 
+20.    Spustelėkite **Pridėti**. 
+21.    Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą. 
+22.    Lauke **Pavadinimas** įveskite Data. 
+23.    Lauke **Elemento tipas** pasirinkite **Data**. 
+24.    Spustelėkite **Pridėti**. 
+25.    Spustelėkite **Šakninė nuoroda**. 
+26.    Spustelėkite **Gerai**. 
+27.    Spustelėkite **Įrašyti**. 
+28.    Uždarykite puslapį. 
+29.    Spustelėkite **Keisti būseną**. 
+30.    Spustelėkite **Baigta**. 
+31.    Spustelėkite **Gerai**. 
 
 ## <a name="create-model-mapping-configuration"></a>Modelio susiejimo konfigūracijos kūrimas 
 1. Spustelėdami **Kurti konfigūraciją**, atidarykite išplečiamąjį dialogo langą. 
@@ -85,43 +85,43 @@ Toliau nurodyti veiksmai paaiškina, kaip „Regulatory configuration service“
 7. Spustelėkite **Naujas**. 
 8. Sąraše pažymėkite pasirinktą eilutę. 
 9. Lauke **Būtinojo komponento tipas** pasirinkite **Konfigūracija**. 
-10. Pasirinkite konfigūraciją **Užsienio prekybos metaduomenys**. 
-11. Spustelėkite **Įrašyti**. 
-12. Įtraukėme nuorodą į konfigūracijos Užsienio prekybos metaduomenys 1 versiją. Kuriant šį modelio susiejimą bus siūlomi šios konfigūracijos programos metaduomenys. 
-13. Uždarykite puslapį. 
-14. Spustelėkite **Konstruktorius**. 
-15. Spustelėkite **Konstruktorius**. 
-16. Medyje pasirinkite **Dynamics 365 for Operations\Lentelės įrašai**. 
-17. Spustelėkite **Įtraukti šakninį elementą**. 
-18. Lauke **Pavadinimas** įveskite Intrastat. 
-19. Pasirinkite **Intrastat** lentelės įrašus. 
-20. Spustelėkite **Gerai**. 
+10.    Pasirinkite konfigūraciją **Užsienio prekybos metaduomenys**. 
+11.    Spustelėkite **Įrašyti**. 
+12.    Įtraukėme nuorodą į konfigūracijos „Užsienio prekybos metaduomenys“ 1 versiją. Kuriant šį modelio susiejimą bus siūlomi šios konfigūracijos programos metaduomenys. 
+13.    Uždarykite puslapį. 
+14.    Spustelėkite **Konstruktorius**. 
+15.    Spustelėkite **Konstruktorius**. 
+16.    Medyje pasirinkite **Dynamics 365 for Operations\Lentelės įrašai**. 
+17.    Spustelėkite **Įtraukti šakninį elementą**. 
+18.    Lauke **Pavadinimas** įveskite Intrastat. 
+19.    Pasirinkite **Intrastat** lentelės įrašus. 
+20.    Spustelėkite **Gerai**. 
 
 > [!NOTE]
 > Siūlytos tik 2 lentelės, nes tik 2 lentelės buvo įtrauktos į šiuo metų naudojamų metaduomenų rinkinį. 
 
-21. Spustelėkite **Susieti**. 
-22. Medyje išplėskite **Intrastat**. 
-23. Medyje pasirinkite **Intrastat\AmountMST**. 
-24. Medyje išplėskite **Operacija = Intrastat**. 
-25. Medyje pasirinkite **Operacija = Intrastat\Sąskaitos faktūros suma**. 
-26. Spustelėkite **Susieti**. 
-27. Medyje pasirinkite **Intrastat\TransDate**. 
-28. Medyje pasirinkite **Operacija = Intrastat\Data**. 
-29. Spustelėkite **Susieti**. 
-30. Medyje išplėskite **Intrastat\>Ryšiai**. 
-31. Medyje išplėskite **Intrastat\>Ryšiai\IntrastatCommodity**. 
-32. Medyje pasirinkite **Intrastat\>Ryšiai\IntrastatCommodity\Kodas**. 
-33. Medyje pasirinkite **Operacija = Intrastat\Prekės kodas**. 
-34. Spustelėkite **Susieti**. 
-35. Spustelėkite **Tikrinti**. 
+21.    Spustelėkite **Susieti**. 
+22.    Medyje išplėskite **Intrastat**. 
+23.    Medyje pasirinkite **Intrastat\AmountMST**. 
+24.    Medyje išplėskite **Operacija = Intrastat**. 
+25.    Medyje pasirinkite **Operacija = Intrastat\Sąskaitos faktūros suma**. 
+26.    Spustelėkite **Susieti**. 
+27.    Medyje pasirinkite **Intrastat\TransDate**. 
+28.    Medyje pasirinkite **Operacija = Intrastat\Data**. 
+29.    Spustelėkite **Susieti**. 
+30.    Medyje išplėskite **Intrastat\>Ryšiai**. 
+31.    Medyje išplėskite **Intrastat\>Ryšiai\IntrastatCommodity**. 
+32.    Medyje pasirinkite **Intrastat\>Ryšiai\IntrastatCommodity\Kodas**. 
+33.    Medyje pasirinkite **Operacija = Intrastat\Prekės kodas**. 
+34.    Spustelėkite **Susieti**. 
+35.    Spustelėkite **Tikrinti**. 
 
 > [!NOTE]
 > Sėkmingai susiejome duomenų modelio elementus su duomenų šaltinių elementais, kurie aprašomi naudojant programos metaduomenų informaciją iš nurodytos ER metaduomenų konfigūracijos. 
-36. Spustelėkite **Įrašyti**. 
-37. Uždarykite puslapį. 
-38. Uždarykite puslapį. 
-39. Kai reikia, galite išplėsti esamą metaduomenų rinkinį ir eksportuoti naują baigtos versijos ER metaduomenų konfigūraciją. Tada galite importuoti ją į RCS ir atnaujinti sukonfigūruoto modelio susiejimo konfigūracijos būtinuosius komponentus, nurodančius naują importuotų metaduomenų konfigūracijos versiją. 
+36.    Spustelėkite **Įrašyti**. 
+37.    Uždarykite puslapį. 
+38.    Uždarykite puslapį. 
+39.    Kai reikia, galite išplėsti esamą metaduomenų rinkinį ir eksportuoti naują baigtos versijos ER metaduomenų konfigūraciją. Tada galite importuoti ją į RCS ir atnaujinti sukonfigūruoto modelio susiejimo konfigūracijos būtinuosius komponentus, nurodančius naują importuotų metaduomenų konfigūracijos versiją. 
 
 > [!NOTE]
 > Tai yra vienintelis būdas gauti informaciją apie programos metaduomenis, prieinamas naudojant vietinėje sistemoje įdiegtas programas (kai naudojamas vietos verslo duomenų (LBD) arba vietinio diegimo modelis).

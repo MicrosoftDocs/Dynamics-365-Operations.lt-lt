@@ -1,5 +1,5 @@
 ---
-title: Išlaidų darbo eigų nustatymas
+title: Išlaidų valdymo darbo eigų nustatymas
 description: Galite nustatyti darbo eigos procesą, naudojamą kelionių ir išlaidų dokumentams peržiūrėti bei tvirtinti.
 author: ShylaThompson
 manager: AnnBe
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86cadf7277fbb7e08dad4b5dc2a46e1c6ce5a888
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cdd4d69cb86da12e4a265f89c021c238d00cad08
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179027"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3153999"
 ---
-# <a name="set-up-workflows-for-expense"></a>Išlaidų darbo eigų nustatymas
+# <a name="set-up-workflows-for-expense-management"></a>Išlaidų valdymo darbo eigų nustatymas
 
 [!include [banner](../includes/banner.md)]
 
- Galite nustatyti darbo eigos procesą, naudojamą kelionių ir išlaidų dokumentams peržiūrėti bei tvirtinti. Dokumentai, kurių darbo eigas galima apibrėžti – tai išlaidų ataskaitos, kelionių paraiškos ir avanso grynaisiais pinigais užklausos.
+Galite nustatyti darbo eigos procesą, naudojamą kelionių ir išlaidų dokumentams peržiūrėti bei tvirtinti. Dokumentai, kurių darbo eigas galima apibrėžti – tai išlaidų ataskaitos, kelionių paraiškos ir avanso grynaisiais pinigais užklausos.
 
 Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo, kas turi atlikti užduotį arba patvirtinti dokumentą. Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
 

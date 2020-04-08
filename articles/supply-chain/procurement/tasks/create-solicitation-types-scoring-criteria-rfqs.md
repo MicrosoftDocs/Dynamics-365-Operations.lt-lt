@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1a3e0d00d674af913953d7fd01183b0289c20d3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 57abbab21a20278d77001a39e226af11994230be
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844118"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149644"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Kurti RFQ siūlymo tipus ir vertinimo kriterijus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šiame vedlyje parodoma, kaip kurti siūlymo tipą ir susieti jį su vertinimo būdu. Jame taip pat parodoma, kaip siūlymo tipą naudoti pasiūlymo patvirtinime (RFQ), kuris tada nustato numatytąjį vertinimo būdą. Šias užduotis paprastai atlieka pirkimo vadovas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami, turite galėti naudoti vertinimo būdą.
 

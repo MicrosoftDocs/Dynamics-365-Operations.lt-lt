@@ -1,6 +1,6 @@
 ---
 title: Modelio modifikavimas ir susiejimas siekiant generuoti dokumentus, kuriuose yra prašymų duomenys
-description: 'Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (2 dalis: generuoti dokumentus)“.'
+description: 'Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą „ER: dokumentų su programos duomenų atnaujinimu generavimas (2 dalis. Dokumentų generavimas)“.'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5df6128228b9ff620c606c550c5eb7a6039b915
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a4546de2c5c1773aadce0ec084ee7058ff2ae153
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182306"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141884"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modelio modifikavimas ir susiejimas siekiant generuoti dokumentus, kuriuose yra prašymų duomenys
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (2 dalis: generuoti dokumentus)“. 
+Norėdami atlikti šios procedūros veiksmus, pirmiausia atlikite procedūrą „ER: dokumentų su programos duomenų atnaujinimu generavimas (2 dalis. Dokumentų generavimas)“. 
 
 Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą ir atnaujinti programos duomenis. Taikydami šią procedūrą modifikuosite ER konfigūracijas, kad jas pradėtumėte naudoti elektroniniams dokumentams generuoti ir programos duomenims atnaujinti. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį.
 
@@ -101,9 +101,9 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 10. Spustelėkite „Įtraukti šaknį“.
 11. Lauke Pavadinimas įrašykite „modelis“.
     * modelis  
-12. Lauke Apibrėžtis įveskite arba pasirinkite reikšmę „Programos duomenų atnaujinimui“.
+12. Lauke Apibrėžtis įveskite arba pasirinkite reikšmę „Programos duomenų naujinimui“.
     * Programos duomenų atnaujinimui  
-13. Spustelėkite GERAI.
+13. Spustelėkite Gerai.
 14. Medyje išplėskite „modelis‟.
 15. Medyje pasirinkite „Funkcijos \ Apskaičiuotas laukas“.
 16. Medyje pasirinkite „model\Archive header“.
@@ -129,11 +129,11 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
     * Archyvuoti  
 32. Lauke Lentelės pavadinimas įrašykite „IntrastatArchiveGeneral“.
     * IntrastatArchiveGeneral  
-    * Išlaikykite įrašo veiksmą „Įterpti“, kad galėtumėte pridėti įrašų per kiekvieno Intrastat ataskaitų kūrimo proceso informacijos archyvavimą.  
+    * Išlaikykite įrašo veiksmą „Įterpti“, kad galėtumėte pridėti įrašų per kiekvieno „Intrastat“ ataskaitų kūrimo proceso informacijos archyvavimą.  
 33. Lauke Įrašo inform. žurnalas pasirinkite Taip.
     * Pasirinkite Taip, kad gautumėte informaciją apie programos duomenų atnaujinimo problemas.  
 34. Lauke Praleisti įrašo veiksmo tikrinimą pasirinkite Taip.
-    * Pasirinkite Taip, jei norite nerodyti tikrinimo klaidų apie tuščią lauką „Intrastat archyvo ID“. Tai bus padaryta pridėjus įrašus, pagal eilės numerio parametrus, kurie konfigūruojami šiai lentelei užsienio prekybos parametrų formoje.  
+    * Pasirinkite Taip, jei norite nerodyti tikrinimo klaidų, kad laukas „Intrastat“ archyvo ID“ tuščias. Tai bus padaryta pridėjus įrašus, pagal eilės numerio parametrus, kurie konfigūruojami šiai lentelei užsienio prekybos parametrų formoje.  
 35. Spustelėkite GERAI.
     * Susiekite įtraukto duomenų šaltinio elementus (filtruotas modelis, pagrįstas pasirinktu šakniniu elementu) su elementais iš pridėtos paskirties.  
 36. Medyje išplėskite „Archyvas“

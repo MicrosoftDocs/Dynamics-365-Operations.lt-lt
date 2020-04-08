@@ -3,7 +3,7 @@ title: Kreditų valdymo parametrų nustatymas
 description: Šioje temoje aprašomos parinktys, kurias galite naudoti norėdami konfigūruoti kreditų valdymą, kad atitiktų jūsų verslo poreikius.
 author: mikefalkner
 manager: AnnBe
-ms.date: 09/04/2019
+ms.date: 03/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba0b047fe984f6bc164cbe137320d6bf6c13dafc
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124190"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154533"
 ---
 # <a name="credit-management-parameters-setup"></a>Kreditų valdymo parametrų nustatymas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje aprašomos parinktys, kurias galite naudoti norėdami konfigūruoti kreditų valdymą, kad atitiktų jūsų verslo poreikius. Norėdami pradėti naudoti kreditų valdymo funkcijas, puslapyje **Kreditų valdymo parametrai** (**Kreditų valdymas \> Nustatymas \> Kreditų valdymo parametrai**).
+Šioje temoje aprašomos parinktys, kurias galite naudoti norėdami konfigūruoti kreditų valdymą, kad atitiktų jūsų verslo poreikius. Norėdami naudoti kreditų valdymo funkcijas, puslapyje **Kredito ir surinkimo parametrai** (**Kreditas ir surinkimas \> Nustatymas \> Kredito ir surinkimo parametrai**).
 
 ## <a name="credit-parameters"></a>Kreditų parametrai
 
-Yra keturi „FastTab“, kur galite pakeisti parametrus, kontroliuojančius kreditų valdymą: **Kredito sulaikymas**, **Kreditų valdymo kontrolinis taškas**, **Kreditų valdymo statistika** ir **Kredito limitas**. Toliau esančiuose skyriuose aprašomi kiekvieno „FastTab“ parametrai.
+Skyriuje **Kreditas** yra keturi „FastTab“, kur galite pakeisti parametrus, kontroliuojančius kreditų valdymą: **Kredito sulaikymas**, **Kreditų valdymo kontrolinis taškas**, **Kreditų valdymo statistika** ir **Kredito limitas**. Toliau esančiuose skyriuose aprašomi kiekvieno „FastTab“ parametrai.
 
 ### <a name="credit-holds"></a>Kredito sulaikymai
 

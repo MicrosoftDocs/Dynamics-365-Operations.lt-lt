@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 44f6ac3263f115e76d054e68c99d58dc11e6f1a0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: cf19d69c498da32594e17e16fb83ed25e6747982
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182237"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143000"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER duomenų modelio susiejimas su pasirinktais duomenų šaltiniais
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali susieti elektroninių ataskaitų (ER) duomenų modelį su pasirinktais duomenų šaltiniais. Vėliau šis modelio susiejimas bus naudojamas kaip duomenų šaltinis formato konfigūracijoje, kuri bus naudojama elektroninio mokėjimo dokumentams valdyti. Šiame pavyzdyje susiesite pavyzdinės įmonės „Litware, Inc“ duomenų modelį su duomenų šaltiniais. Norėdami užbaigti šiuos veiksmus, pirmiausia turite užbaigti procedūros „Pasirinkti modelio susiejimo duomenų šaltinius“ veiksmus.
+Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali susieti elektroninių ataskaitų (ER) duomenų modelį su pasirinktais duomenų šaltiniais. Vėliau šis modelio susiejimas bus naudojamas kaip duomenų šaltinis formato konfigūracijoje, kuri bus naudojama elektroninio mokėjimo dokumentams valdyti. Šiame pavyzdyje susiesite pavyzdinės įmonės „Litware, Inc“ duomenų modelį su duomenų šaltiniais. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „Pasirinkti modelio susiejimo duomenų šaltinius“ veiksmus.
 
 
 ## <a name="open-er-configurations-tree"></a>Atidaryti ER konfigūracijos medį
@@ -36,7 +36,7 @@ ms.locfileid: "2182237"
 
 ## <a name="select-created-model-mapping"></a>Pasirinkti sukurto modelio susiejimą
 1. Medyje pasirinkite „Mokėjimai (supaprastintas modelis)“.
-    * Įsitikinkite, kad modelio konfigūracija „Mokėjimai (supaprastas modelis)“ buvo sukurta iš anksto. Priešingu atveju tuoj pat sustabdykite ir grįžkite užbaigę užduočių vadovą „Naujos konfigūracijos naudojant pasirinkto domeno duomenų modelį kūrimas”.  
+    * Įsitikinkite, kad modelio konfigūracija „Mokėjimai (supaprastintas modelis)“ buvo sukurta iš anksto. Priešingu atveju tuoj pat sustabdykite ir grįžkite užbaigę užduočių vadovą „Naujos konfigūracijos naudojant pasirinkto domeno duomenų modelį kūrimas”.  
 2. Spustelėkite „Modelių kūrimo įrankis“.
 3. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
 4. Pasirinkite įrašą „Kredito pervedimo susiejimas“.

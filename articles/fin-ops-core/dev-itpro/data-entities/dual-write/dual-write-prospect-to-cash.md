@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 249fde6f7bba5d6e0bc6cfde62fd792dee3f1301
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/09/2020
-ms.locfileid: "3112485"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172813"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [banner](../../includes/preview-banner.md)]
+
 
 Svarbus daugumos įmonių tikslas – paversti potencialius klientus į klientus, o tada išlaikyti nuolatinius verslo ryšius su tais klientais. Naudojant „Microsoft Dynamics 365“ programas, potencialių klientų pavertimo grynaisiais pinigais procesas vyksta per pasiūlymus arba užsakymų apdorojimo darbo eigas, o finansai yra suderinami ir atpažįstami. Potencialių klientų pavertimo grynaisiais pinigais integravimas su dvigubo rašymo funkcija sukuria darbo eigą, kuri priima pasiūlymą ir užsakymą, kuris yra „Dynamics 365 Sales“ arba „Dynamics 365 Supply Chain Management“ programose, o pasiūlymas ir užsakymas tampa prieinami abiejose programose.
 

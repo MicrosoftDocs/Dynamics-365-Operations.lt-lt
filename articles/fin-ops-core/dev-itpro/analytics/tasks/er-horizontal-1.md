@@ -16,26 +16,26 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b616998738d6b6986f157d136fc56e061900ef41
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 501936734b6ec970062d0d2cbcc8a3cdc11b934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550537"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142368"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER: horizontaliai išplečiamų diapazonų naudojimas norint dinamiškai įtraukti stulpelius į „Excel“ ataskaitas (1 dalis – Formato kūrimas)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas ataskaitas generuoti kaip OPENXML darbalapių („Excel“) failus, kuriuose būtinus stulpelius galima dinamiškai kurti kaip horizontaliai išplečiamus diapazonus. Šiuos veiksmus galima atlikti bet kurioje įmonėje.
 
 Norėdami atlikti šiuos veiksmus, pirmiausia turite baigti šiuos tris užduočių vadovus: 
 
-„ER sukurti konfigūracijų teikėją ir jį pažymėti kaip aktyvų“
+„ER: konfigūracijos teikėjo kūrimas ir žymėjimas aktyviu“
 
-„ER naudoti finansines dimensijas kaip duomenų šaltinį (1 dalis: duomenų modelio kūrimas)“
+„ER: finansinių dimensijų naudojimas kaip duomenų šaltinis (1 dalis. Duomenų modelio kūrimas)“
 
-„ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis: modelio susiejimas)“
+„ER: finansinių dimensijų naudojimas kaip duomenų šaltinis (2 dalis. Modelio susiejimas)“
 
 Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos pavyzdžiu, esančią čia [Finansinių ataskaitų pavyzdžių žiniatinklio tarnybos ataskaita](https://go.microsoft.com/fwlink/?linkid=862266).
 
@@ -57,7 +57,7 @@ Taip pat turite atsisiųsti ir įrašyti vietinę šablono kopiją su ataskaitos
 
 ## <a name="design-the-report-format"></a>Ataskaitos formato kūrimas
 1. Spustelėkite Konstruktorius.
-2. Įjunkite perjungimo mygtuką Rodyti išsamią informaciją.
+2. Įjunkite perjungimo mygtuką „Rodyti išsamią informaciją“.
 3. Veiksmų srityje spustelėkite Importuoti.
 4. Spustelėkite Importuoti iš „Excel‟.
 5. Spustelėkite Priedai.

@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 523f6414ec212aef48eece487f4199ea2cf4b87e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 5dfd5655ecdfa74d75490b0915c4cea609baebe3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836159"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146513"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Patikrinti gamybos eigą ir versiją
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip sukurti naują gamybos eigą ir pirmąją „lean manufacturing“ versiją. Būtinos sąlygos: turi būti nurodyti „lean manufacturing“ parametrai ir klasės laiko matavimo vienetai. Būtina nurodyti vertės srautą ir gamybos grupę. Žr. „Lean manufacturing“ techninę dokumentaciją, kad susipažintumėte su gamybos eigos koncepcijomis ir veiklomis. Ši procedūra taikoma juridiniams subjektui USMF ir demonstraciniams duomenims. Tačiau jeigu juridinis subjektas sukonfigūruotas „Lean manufacturing“, gali būti naudojami kiti juridiniai subjektai.
 

@@ -19,52 +19,53 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 2442a6869daac22a435c1a7504b93ea4b5c14747
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: 8d531ed4e46d8ee5d2b0937b6efc480e051fe708
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019914"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173113"
 ---
 # <a name="integrated-vendor-master"></a>Bendrieji integruoto tiekėjo duomenys
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Terminas *Tiekėjas* reiškia tiekėjo organizaciją arba įmonės savininką, kuris yra tiekimo grandinės proceso dalis ir kuris tiekia prekes verslui. Nors *tiekėjas* yra apibrėžta koncepcija „Finance and Operations“ programose, tiekėjo koncepcijos nėra kitose „Dynamics 365“ programose. Vietoje to kai kuriose įmonėse naudojamas paskyros objektas, skirtas saugoti kliento ir tiekėjo informaciją. Kitos įmonės naudoja pasirinktinę tiekėjo koncepciją. „Common Data Service“ integracija palaiko abu šiuos modelius. Todėl galima įjungti bet kurį modelį, atsižvelgiant į savo verslo scenarijų.
 
-Tiekėjo duomenų integravimas tarp „Finance and Operations“ programų ir kitų „Dynamics 365” programų suteikia galimybę valdyti duomenis. Neatsižvelgiant į tiekėjo duomenų kilmę, jis integruojamas fone už programų ribų ir infrastruktūros skirtumų. 
+Terminas *tiekėjas* reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Nors *tiekėjas* yra nusistovėjusi „Microsoft Dynamics 365 Supply Chain Management“ sąvoka, „Dynamics 365“ modeliuose veikiančiose programose nėra tiekėjo sąvokos. Tačiau galite perkrauti objektą **Klientas / Kontaktas**, kad galėtumėte saugoti informaciją apie tiekėją. Integruotas tiekėjas pristato aiškią tiekėjo sąvoką modeliais paremtose programose, esančiose „Dynamics 365“. Galite naudoti naują tiekėjo dizainą arba saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**. Dvejopas rašymas palaiko abu būdus.
 
-### <a name="vendor-data-flow"></a>Tiekėjo duomenų srautas
+Abiem būdais tiekėjo duomenys yra integruoti tarp „Dynamics 365 Supply Chain Management“, „Dynamics 365 Sales“, „Dynamics 365 Field Service“ ir „Power Apps“ portalų. „Supply Chain Management“ yra duomenų apie tokias darbo eigas, kaip pirkimo paraiškos ir pirkimo užsakymai.
 
-Jei tiekėjo valdymui norite naudoti kitas „Dynamics 365” programas ir pageidaujate atskirti tiekėjo informaciją nuo kliento informacijos, galite naudoti naująjį tiekėjo modelį.
+## <a name="vendor-data-flow"></a>Tiekėjo duomenų srautas
+
+Jei nenorite saugoti tiekėjo duomenų objekte **Klientas / Kontaktas**, esančiame „Common Data Service“, galite naudoti naują tiekėjo dizainą.
 
 ![Tiekėjo duomenų srautas](media/dual-write-vendor-data-flow.png)
 
-Jei tiekėjo valdymui norite naudoti kitas „Dynamics 365” programas ir pageidaujate toliau naudoti paskyros objektą tiekėjo informacijai saugoti, galite naudoti naująjį išplėstąjį tiekėjo modelį. Šiame modelyje išplėsta tiekėjo informacija, pvz., tiekėjų grupė ir tiekėjo registravimo profilis, saugoma tiekėjo informacijoje.
+Jei norite ir toliau saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**, galite naudoti išplėstinį tiekėjo dizainą. Norėdami naudoti išplėstinį tiekėjo dizainą, turite sukonfigūruoti tiekėjo darbo eigas dvejopo rašymo sprendimų pakete. Daugiau informacijos rasite [„Tiekėjo dizaino keitimas“](vendor-switch.md).
 
 ![Išplėstas tiekėjo duomenų srautas](media/dual-write-vendor-detail.jpg)
 
-Tiekėjo kontaktinė informacija primena kliento kontaktinę informaciją. Fone kontaktinio asmens informacija saugoma ir gaunama iš tų pačių objektų.
+> [!TIP]
+> Jei savitarnos paslaugų tiekėjams naudojate „Power Apps“ portalus, tiekėjo informacija gali būti tiesiogiai nukreipta į „Finance and Operations“ programas.
 
 ## <a name="templates"></a>Šablonai
 
 Tiekėjo duomenys apima visą informaciją apie tiekėją, pvz., tiekėjų grupę, adresus, kontaktinę informaciją, mokėjimo profilį, sąskaitos faktūros profilį. Objektų schemų rinkinys veikia kartu interaktyviai naudojant tiekėjų duomenis, kaip parodyta tolesnėje lentelėje.
 
-„Finance and Operations” programėlės | Kitos „Dynamics 365” programos         | Aprašymas
-----------------------------|---------------------------------|------------
-V2 tiekėjas               | Paskyra | Įmonės, kurios naudoja paskyros objektą, kad galėtų saugoti tiekėjo informaciją, gali ir toliau jį naudoti tokiu pačiu būdu. Jos taip pat gali naudotis aiškiomis tiekėjo funkcijomis, kurios teikiamos pasitelkus „Finance and Operations“ programų integraciją.
-V2 tiekėjas               | Msdyn\_vendors | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams, gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Common Data Service“ ir teikiama dėl „Finance and Operations“ programų integracijos. 
-Tiekėjų grupės | msdyn_vendorgroups | Naudojant šį šabloną sinchronizuojama tiekėjų grupių informacija.
-Tiekėjo mokėjimo būdas | msdyn_vendorpaymentmethods | Naudojant šį šabloną sinchronizuojama tiekėjų mokėjimo būdų informacija.
-CDS kontaktai V2             | kontaktai                        | Naudojant [kontaktų](customer-mapping.md#cds-contacts-v2-to-contacts) šabloną sinchronizuojama visa tiek klientų, tiek tiekėjų pirminė, antrinė ir tretinė kontaktinė informacija.
-Mokėjimo grafiko eilutės      | msdyn_paymentschedulelines      | Naudojant [mokėjimo grafiko eilučių](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) šabloną sinchronizuojami klientų ir tiekėjų nuorodos duomenys.
-Mokėjimo grafikas            | msdyn_paymentschedules          | Naudojant [mokėjimo grafikų](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų nuorodos duomenys.
-Mokėjimo dienos eilutės CDS V2    | msdyn_paymentdaylines           | Naudojant [mokėjimo dienos eilučių](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) šabloną sinchronizuojami klientų ir tiekėjų mokėjimo dienos eilučių nuorodos duomenys.
-Mokėjimo dienos CDS            | msdyn_paymentdays               | Naudojant [mokėjimo dienų](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų nuorodos duomenys.
-Mokėjimo sąlygos            | msdyn_paymentterms              | Naudojant [mokėjimo sąlygų](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo sąlygų nuorodos duomenys.
-Pavadinimo afiksai                | msdyn_nameaffixes               | Naudojant [pavadinimų afiksų](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) šabloną sinchronizuojami tiek klientų, tiek tiekėjų pavadinimų afiksų nuorodos duomenys.
+„Finance and Operations” programėlės | Kitos „Dynamics 365” programos     | Aprašymas
+----------------------------|-----------------------------|------------
+V2 tiekėjas                   | Paskyra                     | Įmonės, kurios naudoja paskyros objektą, kad galėtų saugoti tiekėjo informaciją, gali ir toliau jį naudoti tokiu pačiu būdu. Jos taip pat gali naudotis aiškiomis tiekėjo funkcijomis, kurios teikiamos pasitelkus „Finance and Operations“ programų integraciją.
+V2 tiekėjas                   | Msdyn\_vendors              | Įmonės, kurios naudoja pasirinktinį sprendimą tiekėjams, gali pasinaudoti pradine tiekėjo koncepcija, kuri yra pristatyta „Common Data Service“ ir teikiama dėl „Finance and Operations“ programų integracijos. 
+Tiekėjų grupės               | msdyn\_vendorgroups         | Naudojant šį šabloną sinchronizuojama tiekėjų grupių informacija.
+Tiekėjo mokėjimo būdas       | msdyn\_vendorpaymentmethods | Naudojant šį šabloną sinchronizuojama tiekėjų mokėjimo būdų informacija.
+CDS kontaktai V2             | kontaktai                    | Naudojant [kontaktų](customer-mapping.md#cds-contacts-v2-to-contacts) šabloną sinchronizuojama visa tiek klientų, tiek tiekėjų pirminė, antrinė ir tretinė kontaktinė informacija.
+Mokėjimo grafiko eilutės      | msdyn\_paymentschedulelines | Naudojant [mokėjimo grafiko eilučių](customer-mapping.md#payment-schedule-lines-to-msdyn_paymentschedulelines) šabloną sinchronizuojami klientų ir tiekėjų nuorodos duomenys.
+Mokėjimo grafikas            | msdyn\_paymentschedules     | Naudojant [mokėjimo grafikų](customer-mapping.md#payment-schedule-to-msdyn_paymentschedules) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo grafikų nuorodos duomenys.
+Mokėjimo dienos eilutės CDS V2    | msdyn\_paymentdaylines      | Naudojant [mokėjimo dienos eilučių](customer-mapping.md#payment-day-lines-cds-v2-to-msdyn_paymentdaylines) šabloną sinchronizuojami klientų ir tiekėjų mokėjimo dienos eilučių nuorodos duomenys.
+Mokėjimo dienos CDS            | msdyn\_paymentdays          | Naudojant [mokėjimo dienų](customer-mapping.md#payment-days-cds-to-msdyn_paymentdays) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų nuorodos duomenys.
+Mokėjimo sąlygos            | msdyn\_paymentterms         | Naudojant [mokėjimo sąlygų](customer-mapping.md#terms-of-payment-to-msdyn_paymentterms) šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo sąlygų nuorodos duomenys.
+Pavadinimo afiksai                | msdyn\_nameaffixes          | Naudojant [pavadinimų afiksų](customer-mapping.md#name-affixes-to-msdyn_nameaffixes) šabloną sinchronizuojami tiek klientų, tiek tiekėjų pavadinimų afiksų nuorodos duomenys.
 
 [!include [symbols](../../includes/dual-write-symbols.md)]
 

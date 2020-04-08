@@ -16,27 +16,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48a327fc5033a7478d2ae5e401ffdce6e4546ad0
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042878"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143320"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: reikiamų konfigūracijų kūrimas norint importuoti duomenis iš išorinio failo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į programą. Šiame pavyzdyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadovo „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus.“ Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Be to, naudodami nuorodas į elektroninių ataskaitų apžvalgos temą, turite atsisiųsti ir įrašyti vietoje šiuos failus (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
+Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali kurti elektroninių ataskaitų (ER) konfigūracijas norėdamas importuoti duomenis iš išorinio failo į programą. Šiame pavyzdyje kursite reikiamas kaip pavyzdys pateiktos įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti užduočių vedlio „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“ veiksmus“. Šiuos veiksmus galima atlikti naudojant USMF duomenų rinkinį. Be to, naudodami nuorodas į elektroninių ataskaitų apžvalgos temą, turite atsisiųsti ir įrašyti vietoje šiuos failus (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.
 
 ER įmonių vartotojams suteikia galimybę konfigūruoti išorinių duomenų failų importavimo į lenteles procesą .XML arba .TXT formatu. Pirma, turi būti sukurta abstraktaus duomenų modelio ir ER duomenų modelio konfigūracija, kad būtų rodomi importuojami duomenys. Tada turite nustatyti importuojamo failo struktūrą ir metodą, kurį naudosite duomenims iš failo į abstraktų duomenų modelį perkelti. ER formato konfigūracija, susiejama su sukurtu duomenų modeliu, turi būti sukurta tam abstrakčiam duomenų modeliui. Tada duomenų modelio konfigūracija turi būti išplėsta įtraukiant susiejimą, kuriame aprašoma, kokiu būdu importuoti duomenys išlaikomi kaip abstraktaus duomenų modelio duomenys ir kaip jie naudojami atnaujinant lenteles.  ER duomenų modelio konfigūracija turi būti pridėta įtraukiant naujo modelio susiejimą, kuriame aprašomas duomenų modelio susiejimas su programos paskirties vietomis.  
 
-Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima tiekėjų operacijas, kurios sekamos išorėje, tada importuojamos ir vėliau įtraukiamos į 1099 tiekėjo sudengimo ataskaitą.   
+Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima tiekėjų operacijas, kurios sekamos išorėje, tada importuojamos ir įtraukiamos į 1099 tiekėjo sudengimo ataskaitą.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Įtraukti naują ER modelio konfigūraciją
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
 
-    Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.‟ konfigūracijų teikėjas yra pasiekiamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.“   
+    Patikrinkite, ar kaip pavyzdys pateiktos įmonės „Litware, Inc.‟ konfigūracijų teikėjas yra pasiekiamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti procedūros „Konfigūracijos teikėjo sukūrimas ir pažymėjimas aktyviu” veiksmus.   
 
 2. Spustelėkite Ataskaitų konfigūracijos.
 
@@ -53,7 +53,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 ## <a name="review-data-model-settings"></a>Peržiūrėti duomenų modelio parametrus
 1. Spustelėkite Konstruktorius.
 
-    Šis modelis skirtas tiekėjų operacijoms verslo požiūriu pateikti ir diegiamas atskirai.   
+    Šis modelis skirtas pavaizduoti tiekėjų operacijas iš įmonės perspektyvos ir diegiamas atskirai.   
 
 2. Medyje išplėskite „1099-MISC”.
 3. Medyje pasirinkite „1099-MISC \ Operacijos”.
@@ -70,7 +70,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 3. Lauke Palaikomas duomenų importavimas pasirinkite Taip.
 4. Norėdami uždaryti šį puslapį, paspauskite klavišą ESC.
 
-    Užuot kūrę naują formatą, skirtą duomenų importavimui palaikyti, įkelkite anksčiau atsisiųstą failą 1099format.xml. Šiame faile nustatyta importuojamo failo struktūra, susieta su tiekėjų operacijų pasirinktinių duomenų modeliu.   
+    Užuot kūrę naują formatą, skirtą duomenų importavimui palaikyti, įkelkite anksčiau atsisiųstą failą 1099format.xml. Šiame faile yra importuojamo failo struktūra ir struktūros susiejimas su tiekėjo operacijų pasirinktiniu duomenų modeliu.   
 5. Spustelėkite Keitimas.
 6. Spustelėkite Įkelti iš XML failo.
     Spustelėkite Naršyti ir suraskite anksčiau atsisiųstą failą 1099format.xml.  
@@ -84,7 +84,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 3. Spustelėkite Išplėsti / sutraukti.
 4. Spustelėkite Išplėsti / sutraukti.
 
-    Sukurtas formatas atitinka numatytą išorinio failo struktūrą. Šis failas turi būti XML formatu ir turėti sudengimo šakninį elementą. Kiekvieno tiekėjo operacija pateikiama pagal operacijos elementą, kuris apibrėžiamas kaip operacijų nuo nulio iki daugybės įvairovė. Tai reiškia, kad gaunamame faile gali būti maždaug nuo nulio iki kelių operacijų. Įdėtieji „operacijos” elementai atitinka vienos operacijos atributus. Atkreipkite dėmesį, kad visi atributai, išskyrus šalį, pažymėti kaip privalomi, t. y. būtina juos turėti importuojamame faile.   
+    Sukurtas formatas atitinka numatytą išorinio failo struktūrą. Šis failas turi būti XML formatu ir turėti sudengimo šakninį elementą. Kiekvieno tiekėjo operacija pateikiama pagal operacijos elementą, kuris apibrėžtas kaip operacijų nuo nulio iki daugybės įvairovė. Tai reiškia, kad gaunamame faile gali būti maždaug nuo nulio iki kelių operacijų. Įdėtieji „operacijos” elementai atitinka vienos operacijos atributus. Atkreipkite dėmesį, kad visi atributai, išskyrus šalį, pažymėti kaip privalomi, t. y. būtina juos turėti importuojamame faile.   
 
 ## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>Peržiūrėti formato susiejimo su duomenų modeliu parametrus
 1. Spustelėkite Susieti formatą su modeliu.
@@ -104,14 +104,14 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 9. Medyje išplėskite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti \ operacija: XML elementas 0..* (operacija): Įrašų sąrašas \ šalis: XML elementas 0..1 (šalis): Įrašyti”.
 10. Medyje pasirinkite „formatas: Įrašyti\*sudengimas: XML elementas 1..1 (sudengimas): Įrašyti \ operacija: XML elementas 0..* (operacija): Įrašų sąrašas\*tiekėjas: XML elementas 1..1 (tiekėjas): Įrašyti”.
 
-    Įsidėmėkite, kad privalomų ir pasirinktinių formato elementų pateikimas skiriasi nuo iš anksto nustatyto „formato” duomenų šaltinio komponento pateikimo.  
+    Atkreipkite dėmesį, kad privalomų ir pasirinktinių formato elementų pateikimas skiriasi nuo iš anksto nustatyto „formato” duomenų šaltinio komponento pateikimo.  
 11. Medyje išplėskite „Operacijos: Įrašų sąrašas= format.settlement.„$išvardyta”.
 
-    Atminkite, kad formato, kuris nurodo importuoto failo struktūrą, elementai susieti su pasirinktinių duomenų modelio elementais. Pagal šiuos susiejimus importuoto XML failo turinys apdorojimo metu bus saugomas esamame duomenų modelyje. Atkreipkite dėmesį į šalies elemento susiejimą. Bet kurio operacijos elemento gaunant failą, kuriame nėra tokio elemento, atveju į duomenų modelį bus įvestas numatytasis šalies kodas „JAV”.  
+    Atminkite, kad formato, kuris nurodo importuoto failo struktūrą, elementai susieti su pasirinktinių duomenų modelio elementais. Pagal šiuos susiejimus importuoto XML failo turinys apdorojimo metu bus saugomas esamame duomenų modelyje. Atkreipkite dėmesį į šalies elemento susiejimą. Bet kuriame operacijos elemente, esančiame gaunamame faile, kuriame nėra tokio elemento, į duomenų modelį bus įvestas numatytasis šalies kodas „JAV”.  
 
 12. Spustelėkite skirtuką Tikrinimai.
 
-    Šio formato susiejimas gali būti vartotojo nustatyta logika verslo požiūriu patikrinti importuotų duomenų tikslumą. Pavyzdžiui, pagal nustatymą bet kurios operacijos importuojamame faile be nustatyto šalies kodo atveju bus sugeneruotas įspėjamasis sistemos pranešimas, informuojantis vartotoją apie atvejį ir nurodantis operacijos sekos numerį.  
+    Šio formato susiejimas gali būti vartotojo nustatyta logika verslo požiūriu patikrinti importuotų duomenų tikslumą. Pavyzdžiui, pagal nustatymą, jei operacija importuojamame faile neturi nustatyto šalies kodo, bus sugeneruotas įspėjamasis sistemos pranešimas, informuojantis vartotoją apie atvejį ir nurodantis operacijos sekos numerį.  
 
 13. Uždarykite puslapį.
 
@@ -148,7 +148,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 8. Spustelėkite Redaguoti.
 9. Spustelėkite „Redaguoti formulę“.
 
-    Nepavykus patikrinti bent vienos importuotos operacijos, ši bus pažymėta kaip nepavykusi pagal duomenų šaltinio atributą „$nepavyko”.  
+    Nepavykus patikrinti bent vienos importuotos operacijos, tokia operacija bus pažymėta kaip nepavykusi pagal duomenų šaltinio atributą „$nepavyko”.  
 
 10. Uždarykite puslapį.
 11. Spustelėkite Atšaukti.
@@ -237,7 +237,7 @@ Pateiktame scenarijuje parodytos ER duomenų importavimo galimybės. Tai apima t
 19. Uždarykite puslapį.
 20. Spustelėkite Redaguoti.
 
-    Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 Finance, Enterprise Edition“ versijose“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), vykdykite kitą veiksmą „Įjungti vėliavėlę Numatytoji modelio susiejimo reikšmė“, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
+    Jei įdiegėte karštąją pataisą „KB 4012871 GER duomenų modelio susiejimų į atskiras konfigūracijas su galimybe nurodyti būtinuosius skirtingų rūšių komponentus, diegiant juos kitose „Dynamics 365 Finance, Enterprise Edition“ versijose“ (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), vykdykite kitą veiksmą „Įjungti vėliavėlę „Numatytoji modelio susiejimo reikšmė“, skirtą įvestai formato konfigūracijai. Kitu atveju praleiskite tolesnį veiksmą.  
 
 21. Lauke Numatytoji modelio susiejimo reikšmė pasirinkite Taip.
 22. Medyje pasirinkite „1099 mokėjimų modelis”.

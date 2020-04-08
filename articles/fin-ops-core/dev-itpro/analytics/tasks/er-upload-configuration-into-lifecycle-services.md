@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 980ce00ae702ea0a3394efa15419e0f7b7dc2530
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182214"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143296"
 ---
 # <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER: konfigūracijos nusiuntimas į „Lifecycle Services‟
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Lifecycle Services‟ (LCS).
 
-Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“. Norint atlikti šiuos veiksmus, taip pat reikia prieigos prie LCS.
+Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“. Norint atlikti šiuos veiksmus, taip pat reikia prieigos prie LCS.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
 2. Pasirinkite „Litware, Inc.“ ir nustatykite kaip aktyvią.
@@ -79,11 +79,11 @@ ms.locfileid: "2182214"
 2. Medyje pasirinkite „Modelio konfigūracijos pavyzdys‟.
     * Pasirinkite sukurtą, jau baigtą konfigūraciją.  
 3. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite pasirinktos konfigūracijos versiją, kurios būsena – Baigta.  
+    * Pasirinkite pasirinktos konfigūracijos versiją, kurios būsena – „Baigta“.  
 4. Spustelėkite keisti būseną.
 5. Spustelėkite Bendrinti.
     * Kai konfigūracija bus publikuota LCS portale, jos būsena iš „Baigta“ pasikeis į „Bendrai naudojama“.  
-6. Spustelėkite GERAI.
+6. Spustelėkite Gerai.
 7. Sąraše raskite ir pasirinkite norimą įrašą.
     * Pasirinkite konfigūracijos versiją, kurios būsena – „Bendrai naudojama‟.  
     * Atkreipkite dėmesį, kad pasirinktos versijos būsena pasikeitė iš „Baigta‟ į „Bendrai naudojama‟.  
@@ -93,5 +93,5 @@ ms.locfileid: "2182214"
 10. Spustelėkite Atidaryti.
     * Pasirinkite LCS saugyklą ir ją atidarykite.  
     * Atkreipkite dėmesį, kad pasirinkta konfigūracija rodoma kaip pasirinkto LCS projekto turtas.  
-    * LCS galite atidaryti adresu https://lcs.dynamics.com. Atidarykite projektą, kuris buvo ankščiau naudotas registruojant saugyklas, atidarykite šio projekto turto biblioteką ir išskleiskite turto tipo „GER konfigūracija‟ turinį – bus galima naudoti nusiųstąją ER konfigūraciją. Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.  
+    * LCS galite atidaryti adresu https://lcs.dynamics.com. Atidarykite projektą, kuris buvo ankščiau naudotas registruojant saugyklas, atidarykite šio projekto „Turto biblioteka“ ir išskleiskite turto tipo „GER konfigūracija‟ turinį – bus galima naudoti įkeltą ER konfigūraciją. Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.  
 

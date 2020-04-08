@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6eea2a905a59842b6f39c5b1e1c78ae6801b28e0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174674"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144519"
 ---
 # <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a>EUR-00002: ES vidaus operacijos pakrovimo adreso nurodymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje procedūroje parodoma, kaip nustatyti pakrovimo adresą, skirtą ES vidaus prekybos operacijai. Pavyzdžiui, Vokietijos įmonės užsisako prekių iš tiekėjo, kurio darbo adresas yra Vokietijoje. Šis tiekėjas turi sandėlį Italijoje ir siunčia prekes iš ten. Šis pristatymas turi būti pateiktas „Intrastat“ ataskaitoje. Tokia pati procedūra gali būti taikoma kliento grąžinimams.
 Ši procedūra taikoma visoms Europos šalims / regionams. Užduotis buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, kurios pirminis adresas yra Vokietijoje. Prieš atlikdami šią procedūrą, turite sukonfigūruoti „Intrastat“ ataskaitas. Ši procedūra skirta buhalteriams. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.

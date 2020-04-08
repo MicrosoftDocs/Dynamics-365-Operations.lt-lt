@@ -16,27 +16,27 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fcceb0e4d5f3bec54598515da0a5cbd8d11def3d
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2769860"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142137"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: konfigūracijos, skirtos generuoti ataskaitoms OPENXML formatu, kūrimas (2016 m. lapkričio mėn.)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali kurti naują elektroninių ataskaitų (ER) konfigūraciją, kurioje yra šablonas, skirtas generuoti elektroniniams dokumentams OPENXML formatu. Ši konfigūracija bus naudojama apdoroti tiekėjų mokėjimams.
 
 Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją. Šiuos veiksmus galima atlikti GBSI įmonėje.
 
-Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje „Sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“. Taip pat reikia turėti „Excel‟ failą, kuris bus importuotas kuriant šabloną. Šį failą galima rasti srityje [Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266).
+Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“. Taip pat reikia turėti „Excel‟ failą, kuris bus importuotas kuriant šabloną. Šį failą galima rasti srityje [Mokėjimo ataskaitos šablonas](https://go.microsoft.com/fwlink/?linkid=862266).
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Mokėjimų duomenų modelio konfigūracijos nusiuntimas
 1. Naršymo srityje eikite į **Moduliai > Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos**.
-2. Sąraše pažymėkite kaip pavyzdys pateiktos įmonės „Litware, Inc“ konfigūracijų teikėją. Jei nematote konfigūracijų teikėjo, turite atlikti veiksmus, nurodytus [Konfigūracijų teikėjų kūrimas ir pažymėjimas kaip aktyvių](er-configuration-provider-mark-it-active-2016-11.md).
+2. Sąraše pažymėkite kaip pavyzdys pateiktos įmonės „Litware, Inc.“ konfigūracijų teikėją. Jei nematote konfigūracijų teikėjo, turite atlikti veiksmus, nurodytus [Konfigūracijų teikėjų kūrimas ir pažymėjimas kaip aktyvių](er-configuration-provider-mark-it-active-2016-11.md).
 3. Pasirinkite **Nustatyti kaip aktyvų**.
 4. Pasirinkite **Saugyklos**. Jei yra, pasirinkite tipo Operacijų ištekliai saugyklą. Jei tokia yra, praleiskite tolesnius naujos saugyklos kūrimo veiksmus.  
 5. Pasirinkite **Įtraukti** ir atidarykite išplečiamąjį dialogo langą.
@@ -55,7 +55,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite juos užbaigti procedūroje
 3. Pasirinkite **Kurti konfigūraciją**, kad atidarytumėte tiesioginį dialogo langą.
 4. Lauke **Naujas** įveskite `Format based on data model PaymentModel`. Sukurkite formatą, paremtą duomenų modeliu „PaymentModel‟.
 5. Lauke **Pavadinimas** įveskite `Sample worksheet report`. Darbalapio ataskaitos pavyzdys  
-6. Lauke **Aprašas** įveskite `Sample worksheet report for vendors’ payments`. Darbalapio ataskaitos, skirtos tiekėjų mokėjimams, pavyzdys.  
+6. Lauke **Aprašas** įveskite `Sample worksheet report for vendors' payments`. Darbalapio ataskaitos, skirtos tiekėjų mokėjimams, pavyzdys.  
 7. Lauke **Duomenų modelio aprašas** įveskite arba pasirinkite reikšmę. Pasirinkite aprašą **CustomerCreditTransferInitiation**.  
 8. Pasirinkite **Kurti konfigūraciją**.
 

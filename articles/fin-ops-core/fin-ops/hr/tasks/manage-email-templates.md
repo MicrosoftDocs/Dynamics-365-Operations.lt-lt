@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ecfa720dfa9b3ed6ee15ec68498d2a46612a9ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a911fea9e7d1009160a021e53533c0ce49efbfe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179129"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143701"
 ---
 # <a name="manage-email-templates"></a>El. laiškų šablonų valdymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Galite perkelti informaciją iš jūsų organizacijos duomenų bazės į žymeles naujame dokumente ir naudoti ją šablonuose, kurie padeda efektyviai bendrauti su pretendentais ir kandidatais. Norėdami tai padaryti, turite sukurti šabloną, kuriame būtų standartinis tekstas ir kelios žymelės tose vietose, kur turėtų būti įterpti sistemos duomenys. Pvz., galite įterpti pretendento adresą ir kontaktinę informaciją į „Microsoft Word“ dokumentą, kurį galite naudoti bendraudami su tuo pretendentu. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
+Galite perkelti informaciją iš savo organizacijos duomenų bazės į žymeles naujame dokumente ir naudoti ją šablonuose, kurie padeda efektyviai bendrauti su pretendentais ir kandidatais. Norėdami tai padaryti, turite sukurti šabloną, kuriame būtų standartinis tekstas ir kelios žymelės tose vietose, kur turėtų būti įterpti sistemos duomenys. Pvz., galite įterpti pretendento adresą ir kontaktinę informaciją į „Microsoft Word“ dokumentą, kurį galite naudoti bendraudami su tuo pretendentu. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
 
 ## <a name="select-which-bookmarks-to-use-in-your-email-templates"></a>Pasirinkite, kurias žymeles naudoti el. pašto šablonuose

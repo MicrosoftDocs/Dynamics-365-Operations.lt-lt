@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844494"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147692"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Pardavimo kainos pasirinkimo kriterijų kūrimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti pardavimo kainos pasirinkimo kriterijus, skirtus atributais pagrįstiems pardavimo kainos modeliams. Norint paleisti šią procedūrą, reikia, kad būtų galimas bent vienas pardavimo kainos modelis. Šiame pavyzdyje naudojamas kainos modelio, skirtas demonstracinių duomenų įmonės USMF garsiakalbio sprendimo pardavimo kainos modeliui. Paprastai šią procedūrą atlieka produktų vadovas.
 
@@ -37,7 +37,7 @@ ms.locfileid: "1844494"
 4. Veiksmų srityje spustelėkite Modelis.
 5. Spustelėkite Kainos modelio kriterijai.
 6. Spustelėkite Naujas.
-7. Lauke Pavadinimas įveskite 10 klientų grupė.
+7. Lauke Pavadinimas įveskite „10 klientų grupė“.
     * Kainos modelio kriterijaus pavadinimas padeda nustatyti pagrindinius pasirinkimo kriterijus.  
 8. Lauke Kainos modelis įveskite arba pasirinkite reikšmę.
 9. Lauke Užsakymo tipas pasirinkite Pardavimo užsakymas.
