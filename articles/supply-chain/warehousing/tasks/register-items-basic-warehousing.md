@@ -1,6 +1,6 @@
 ---
 title: Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą
-description: Ši procedūra jums parodo, kaip registruoti prekes, naudojant prekių gavimo žurnalą, kai modulyje Atsargų valdymas naudojate „pagrindinį sandėliavimą‟.
+description: Ši procedūra nurodo, kaip reikia užregistruoti elementus naudojant prekių gavimo žurnalą, kai atsargų valdymo modulyje naudojate „pagrindinį sandėliavimą“.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,44 +17,44 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4e64a6df41e43c1b97243a6f7291393982575636
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 537418a78f7cc9d1375188076264e38b790e081b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847236"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145990"
 ---
-# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a><span data-ttu-id="39599-103">Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą</span><span class="sxs-lookup"><span data-stu-id="39599-103">Register items for a basic warehousing enabled item using an item an item arrival journal</span></span>
+# <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a><span data-ttu-id="cdf00-103">Registruoti prekės, kurios pagrindinio sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą</span><span class="sxs-lookup"><span data-stu-id="cdf00-103">Register items for a basic warehousing enabled item using an item an item arrival journal</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="39599-104">Ši procedūra jums parodo, kaip registruoti prekes, naudojant prekių gavimo žurnalą, kai modulyje Atsargų valdymas naudojate „pagrindinį sandėliavimą‟.</span><span class="sxs-lookup"><span data-stu-id="39599-104">This procedure shows you how to register items using the item arrival journal when you are using “basic warehousing” in the Inventory management module.</span></span> <span data-ttu-id="39599-105">Paprastai tai atlieka gavimo klerkas.</span><span class="sxs-lookup"><span data-stu-id="39599-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="39599-106">Galite vykdyti šią procedūrą demonstracinių duomenų įmonėje USMF, naudodami rodomas pavyzdines reikšmes.</span><span class="sxs-lookup"><span data-stu-id="39599-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="39599-107">Jei nenaudojate USMF, prieš pradėdami šį vadovą turite turėti patvirtintą pirkimo užsakymą su atidaryta pirkimo užsakymo eilute.</span><span class="sxs-lookup"><span data-stu-id="39599-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="39599-108">Prekė eilutėje turi būti laikoma atsargose.</span><span class="sxs-lookup"><span data-stu-id="39599-108">The item on the line must be stocked.</span></span> <span data-ttu-id="39599-109">Taip pat prekės turi būti susietos su saugojimo dimensijų grupe, kurioje aktyvūs teritorija ir sandėlis.</span><span class="sxs-lookup"><span data-stu-id="39599-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
+<span data-ttu-id="cdf00-104">Ši procedūra nurodo, kaip reikia užregistruoti elementus naudojant prekių gavimo žurnalą, kai atsargų valdymo modulyje naudojate „pagrindinį sandėliavimą“.</span><span class="sxs-lookup"><span data-stu-id="cdf00-104">This procedure shows you how to register items using the item arrival journal when you are using "basic warehousing" in the Inventory management module.</span></span> <span data-ttu-id="cdf00-105">Paprastai tai atlieka gavimo klerkas.</span><span class="sxs-lookup"><span data-stu-id="cdf00-105">This would usually be done by a receiving clerk.</span></span> <span data-ttu-id="cdf00-106">Galite vykdyti šią procedūrą demonstracinių duomenų įmonėje USMF, naudodami rodomas pavyzdines reikšmes.</span><span class="sxs-lookup"><span data-stu-id="cdf00-106">You can run this procedure in demo data company USMF with the example values that are shown.</span></span>  <span data-ttu-id="cdf00-107">Jei nenaudojate USMF, prieš pradėdami šį vadovą turite turėti patvirtintą pirkimo užsakymą su atidaryta pirkimo užsakymo eilute.</span><span class="sxs-lookup"><span data-stu-id="cdf00-107">If you are not using USMF, you need to have a confirmed purchase order with an open purchase order line before you start this guide.</span></span> <span data-ttu-id="cdf00-108">Prekė eilutėje turi būti laikoma atsargose.</span><span class="sxs-lookup"><span data-stu-id="cdf00-108">The item on the line must be stocked.</span></span> <span data-ttu-id="cdf00-109">Taip pat prekės turi būti susietos su saugojimo dimensijų grupe, kurioje aktyvūs teritorija ir sandėlis.</span><span class="sxs-lookup"><span data-stu-id="cdf00-109">And the item needs to be associated with a storage dimension group, where site and warehouse are active.</span></span>
 
 
-## <a name="create-item-arrival-journal-header"></a><span data-ttu-id="39599-110">Kurti prekių gavimo žurnalo antraštę</span><span class="sxs-lookup"><span data-stu-id="39599-110">Create item arrival journal header</span></span>
-1. <span data-ttu-id="39599-111">Pasirinkite Atsargų valdymas > Žurnalo įrašai > Prekių gavimas > Prekių gavimas.</span><span class="sxs-lookup"><span data-stu-id="39599-111">Go to Inventory management > Journal entries > Item arrival > Item arrival.</span></span>
-2. <span data-ttu-id="39599-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="39599-112">Click New.</span></span>
-3. <span data-ttu-id="39599-113">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="39599-113">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="39599-114">Jei naudojate USMF, galite surinkti WHS.</span><span class="sxs-lookup"><span data-stu-id="39599-114">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="39599-115">Jei naudojate kitus duomenis, žurnalas, kurio pavadinimą pasirinkote, turi turėti toliau nurodytas ypatybes: Tikrinti paėmimo vietą turi būti nustatyta į Ne ir Sulaikymo valdymas turi būti nustatyta į Ne.</span><span class="sxs-lookup"><span data-stu-id="39599-115">If you’re using other data, the journal whose name you choose has to have the following properties: cheque picking location must be set to No, and Quarantine management must be set to No.</span></span>  
-4. <span data-ttu-id="39599-116">Lauke Važtaraštis surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="39599-116">In the Packing slip field, type a value.</span></span>
-    * <span data-ttu-id="39599-117">Tai yra važtaraščio ID iš tiekėjo išduoto važtaraščio.</span><span class="sxs-lookup"><span data-stu-id="39599-117">This is the packing slip ID from the packing slip issued by the vendor.</span></span> <span data-ttu-id="39599-118">Pridėkite unikalų numerį.</span><span class="sxs-lookup"><span data-stu-id="39599-118">Add a unique number.</span></span>  
-5. <span data-ttu-id="39599-119">Lauke Numeris pasirinkite pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="39599-119">In the Number field, In the Number field, select the purchase order..</span></span>
-6. <span data-ttu-id="39599-120">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="39599-120">Click OK.</span></span>
+## <a name="create-item-arrival-journal-header"></a><span data-ttu-id="cdf00-110">Kurti prekių gavimo žurnalo antraštę</span><span class="sxs-lookup"><span data-stu-id="cdf00-110">Create item arrival journal header</span></span>
+1. <span data-ttu-id="cdf00-111">Pasirinkite Atsargų valdymas > Žurnalo įrašai > Prekių gavimas > Prekių gavimas.</span><span class="sxs-lookup"><span data-stu-id="cdf00-111">Go to Inventory management > Journal entries > Item arrival > Item arrival.</span></span>
+2. <span data-ttu-id="cdf00-112">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="cdf00-112">Click New.</span></span>
+3. <span data-ttu-id="cdf00-113">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cdf00-113">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="cdf00-114">Jei naudojate USMF, galite surinkti WHS.</span><span class="sxs-lookup"><span data-stu-id="cdf00-114">If you are using USMF, you can type WHS.</span></span> <span data-ttu-id="cdf00-115">Jei naudojate kitus duomenis, žurnalas, kurio pavadinimą pasirinksite, turi turėti šias savybes: patikros rinkimo vieta turi būti nustatyta į „Ne“ ir karantino valdymas turi būti nustatytas į „Ne“.</span><span class="sxs-lookup"><span data-stu-id="cdf00-115">If you're using other data, the journal whose name you choose has to have the following properties: cheque picking location must be set to No, and Quarantine management must be set to No.</span></span>  
+4. <span data-ttu-id="cdf00-116">Lauke Važtaraštis surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cdf00-116">In the Packing slip field, type a value.</span></span>
+    * <span data-ttu-id="cdf00-117">Tai yra važtaraščio ID iš tiekėjo išduoto važtaraščio.</span><span class="sxs-lookup"><span data-stu-id="cdf00-117">This is the packing slip ID from the packing slip issued by the vendor.</span></span> <span data-ttu-id="cdf00-118">Pridėkite unikalų numerį.</span><span class="sxs-lookup"><span data-stu-id="cdf00-118">Add a unique number.</span></span>  
+5. <span data-ttu-id="cdf00-119">Lauke Numeris pasirinkite pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="cdf00-119">In the Number field, In the Number field, select the purchase order..</span></span>
+6. <span data-ttu-id="cdf00-120">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cdf00-120">Click OK.</span></span>
 
-## <a name="add-lines-to-item-arrival-journal"></a><span data-ttu-id="39599-121">Į prekių gavimo žurnalą pridėti eilučių</span><span class="sxs-lookup"><span data-stu-id="39599-121">Add lines to item arrival journal</span></span>
-1. <span data-ttu-id="39599-122">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="39599-122">Click Functions.</span></span>
-2. <span data-ttu-id="39599-123">Spustelėkite Kurti eilutes.</span><span class="sxs-lookup"><span data-stu-id="39599-123">Click Create lines.</span></span>
-    * <span data-ttu-id="39599-124">Į šį žurnalą eilutes galima įvesti rankiniu būdu arba sukurti automatiškai.</span><span class="sxs-lookup"><span data-stu-id="39599-124">The lines can be entered manually into this journal or created automatically.</span></span> <span data-ttu-id="39599-125">Bus parodyta, kaip sukurti automatiškai.</span><span class="sxs-lookup"><span data-stu-id="39599-125">This will show you how to create this automatically.</span></span>  
-3. <span data-ttu-id="39599-126">Pažymėkite arba atžymėkite žymės langelį Inicijuoti kiekį.</span><span class="sxs-lookup"><span data-stu-id="39599-126">Check or uncheck the Initialize quantity checkbox.</span></span>
-    * <span data-ttu-id="39599-127">Kiekis žurnalo eilutėse bus inicijuojamas su kiekiu, neužregistruotu pirkimo užsakymo eilutėje.</span><span class="sxs-lookup"><span data-stu-id="39599-127">This will initialize the quantity on the journal lines with the quantity not registered from the purchase order line.</span></span>  
-4. <span data-ttu-id="39599-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="39599-128">Click OK.</span></span>
+## <a name="add-lines-to-item-arrival-journal"></a><span data-ttu-id="cdf00-121">Į prekių gavimo žurnalą pridėti eilučių</span><span class="sxs-lookup"><span data-stu-id="cdf00-121">Add lines to item arrival journal</span></span>
+1. <span data-ttu-id="cdf00-122">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="cdf00-122">Click Functions.</span></span>
+2. <span data-ttu-id="cdf00-123">Spustelėkite Kurti eilutes.</span><span class="sxs-lookup"><span data-stu-id="cdf00-123">Click Create lines.</span></span>
+    * <span data-ttu-id="cdf00-124">Į šį žurnalą eilutes galima įvesti rankiniu būdu arba sukurti automatiškai.</span><span class="sxs-lookup"><span data-stu-id="cdf00-124">The lines can be entered manually into this journal or created automatically.</span></span> <span data-ttu-id="cdf00-125">Bus parodyta, kaip sukurti automatiškai.</span><span class="sxs-lookup"><span data-stu-id="cdf00-125">This will show you how to create this automatically.</span></span>  
+3. <span data-ttu-id="cdf00-126">Pažymėkite arba atžymėkite žymės langelį Inicijuoti kiekį.</span><span class="sxs-lookup"><span data-stu-id="cdf00-126">Check or uncheck the Initialize quantity checkbox.</span></span>
+    * <span data-ttu-id="cdf00-127">Kiekis žurnalo eilutėse bus inicijuojamas su kiekiu, neužregistruotu pirkimo užsakymo eilutėje.</span><span class="sxs-lookup"><span data-stu-id="cdf00-127">This will initialize the quantity on the journal lines with the quantity not registered from the purchase order line.</span></span>  
+4. <span data-ttu-id="cdf00-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cdf00-128">Click OK.</span></span>
 
-## <a name="post-the-journal"></a><span data-ttu-id="39599-129">Registruoti žurnalą</span><span class="sxs-lookup"><span data-stu-id="39599-129">Post the journal</span></span>
-1. <span data-ttu-id="39599-130">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="39599-130">Click Post.</span></span>
-2. <span data-ttu-id="39599-131">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="39599-131">Click OK.</span></span>
+## <a name="post-the-journal"></a><span data-ttu-id="cdf00-129">Registruoti žurnalą</span><span class="sxs-lookup"><span data-stu-id="cdf00-129">Post the journal</span></span>
+1. <span data-ttu-id="cdf00-130">Spustelėkite Registruoti.</span><span class="sxs-lookup"><span data-stu-id="cdf00-130">Click Post.</span></span>
+2. <span data-ttu-id="cdf00-131">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cdf00-131">Click OK.</span></span>
 
-## <a name="generate-the-product-receipt"></a><span data-ttu-id="39599-132">Generuoti produkto gavimo kvitą</span><span class="sxs-lookup"><span data-stu-id="39599-132">Generate the product receipt</span></span>
-1. <span data-ttu-id="39599-133">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="39599-133">Click Functions.</span></span>
-2. <span data-ttu-id="39599-134">Spustelėkite Produkto gavimo kvitas.</span><span class="sxs-lookup"><span data-stu-id="39599-134">Click Product receipt.</span></span>
-3. <span data-ttu-id="39599-135">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="39599-135">Click OK.</span></span>
+## <a name="generate-the-product-receipt"></a><span data-ttu-id="cdf00-132">Generuoti produkto gavimo kvitą</span><span class="sxs-lookup"><span data-stu-id="cdf00-132">Generate the product receipt</span></span>
+1. <span data-ttu-id="cdf00-133">Spustelėkite Funkcijos.</span><span class="sxs-lookup"><span data-stu-id="cdf00-133">Click Functions.</span></span>
+2. <span data-ttu-id="cdf00-134">Spustelėkite Produkto gavimo kvitas.</span><span class="sxs-lookup"><span data-stu-id="cdf00-134">Click Product receipt.</span></span>
+3. <span data-ttu-id="cdf00-135">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cdf00-135">Click OK.</span></span>
 

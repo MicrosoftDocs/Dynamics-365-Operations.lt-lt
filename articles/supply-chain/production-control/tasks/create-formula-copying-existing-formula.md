@@ -17,43 +17,43 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fbf5f12e10762e83bdf7a6c67a436ac906d0f7e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 1dad2cc4a47e24d6cdd68edd4b3d391428d28320
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837859"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147071"
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="15983-103">Kurti formulę kopijuojant iš esamos formulės</span><span class="sxs-lookup"><span data-stu-id="15983-103">Create a formula by copying from an existing formula</span></span>
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="78ee5-103">Kurti formulę kopijuojant iš esamos formulės</span><span class="sxs-lookup"><span data-stu-id="78ee5-103">Create a formula by copying from an existing formula</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="15983-104">Ši procedūra nurodo, kaip greitai sukurti naują formulę, ją nukopijavus iš esamos formulės.</span><span class="sxs-lookup"><span data-stu-id="15983-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="15983-105">Norėdami sukurti šią procedūrą galite naudoti demonstracinių duomenų įmonės USMF, USP2 arba USPI.</span><span class="sxs-lookup"><span data-stu-id="15983-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
+<span data-ttu-id="78ee5-104">Ši procedūra nurodo, kaip greitai sukurti naują formulę, ją nukopijavus iš esamos formulės.</span><span class="sxs-lookup"><span data-stu-id="78ee5-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="78ee5-105">Norėdami sukurti šią procedūrą galite naudoti demonstracinių duomenų įmonės USMF, USP2 arba USPI.</span><span class="sxs-lookup"><span data-stu-id="78ee5-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 
 
-## <a name="create-a-new-formula"></a><span data-ttu-id="15983-106">Kurti naują formulę</span><span class="sxs-lookup"><span data-stu-id="15983-106">Create a new formula</span></span>
-1. <span data-ttu-id="15983-107">Eikite į Formulės.</span><span class="sxs-lookup"><span data-stu-id="15983-107">Go to Formulas.</span></span>
-2. <span data-ttu-id="15983-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="15983-108">Click New.</span></span>
-3. <span data-ttu-id="15983-109">Lauke „Formulė“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="15983-109">In the Formula field, type a value.</span></span>
-4. <span data-ttu-id="15983-110">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="15983-110">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="15983-111">Lauke Teritorija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="15983-111">In the Site field, enter or select a value.</span></span>
-6. <span data-ttu-id="15983-112">Lauke Prekių grupė įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="15983-112">In the Item group field, enter or select a value.</span></span>
-7. <span data-ttu-id="15983-113">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="15983-113">Click Save.</span></span>
+## <a name="create-a-new-formula"></a><span data-ttu-id="78ee5-106">Kurti naują formulę</span><span class="sxs-lookup"><span data-stu-id="78ee5-106">Create a new formula</span></span>
+1. <span data-ttu-id="78ee5-107">Eikite į Formulės.</span><span class="sxs-lookup"><span data-stu-id="78ee5-107">Go to Formulas.</span></span>
+2. <span data-ttu-id="78ee5-108">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="78ee5-108">Click New.</span></span>
+3. <span data-ttu-id="78ee5-109">Lauke „Formulė“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-109">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="78ee5-110">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="78ee5-111">Lauke Teritorija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="78ee5-112">Lauke Prekių grupė įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-112">In the Item group field, enter or select a value.</span></span>
+7. <span data-ttu-id="78ee5-113">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="78ee5-113">Click Save.</span></span>
 
-## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="15983-114">Kopijuoti iš esamos formulės</span><span class="sxs-lookup"><span data-stu-id="15983-114">Copy from an existing formula</span></span>
-1. <span data-ttu-id="15983-115">Spustelėkite Kopijuoti.</span><span class="sxs-lookup"><span data-stu-id="15983-115">Click Copy.</span></span>
-2. <span data-ttu-id="15983-116">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="15983-116">In the Item number field, enter or select a value.</span></span>
-3. <span data-ttu-id="15983-117">Lauke Formulės versija įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="15983-117">In the Formula version field, enter or select a value.</span></span>
-4. <span data-ttu-id="15983-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="15983-118">Click OK.</span></span>
+## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="78ee5-114">Kopijuoti iš esamos formulės</span><span class="sxs-lookup"><span data-stu-id="78ee5-114">Copy from an existing formula</span></span>
+1. <span data-ttu-id="78ee5-115">Spustelėkite Kopijuoti.</span><span class="sxs-lookup"><span data-stu-id="78ee5-115">Click Copy.</span></span>
+2. <span data-ttu-id="78ee5-116">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-116">In the Item number field, enter or select a value.</span></span>
+3. <span data-ttu-id="78ee5-117">Lauke Formulės versija įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-117">In the Formula version field, enter or select a value.</span></span>
+4. <span data-ttu-id="78ee5-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="78ee5-118">Click OK.</span></span>
 
-## <a name="revise-the-copied-formula"></a><span data-ttu-id="15983-119">Peržiūrėti nukopijuotą formulę</span><span class="sxs-lookup"><span data-stu-id="15983-119">Revise the copied formula</span></span>
-1. <span data-ttu-id="15983-120">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="15983-120">In the list, find and select the desired record.</span></span>
-2. <span data-ttu-id="15983-121">Spustelėkite Naikinti.</span><span class="sxs-lookup"><span data-stu-id="15983-121">Click Delete.</span></span>
-3. <span data-ttu-id="15983-122">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="15983-122">Click Yes.</span></span>
+## <a name="revise-the-copied-formula"></a><span data-ttu-id="78ee5-119">Peržiūrėti nukopijuotą formulę</span><span class="sxs-lookup"><span data-stu-id="78ee5-119">Revise the copied formula</span></span>
+1. <span data-ttu-id="78ee5-120">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="78ee5-120">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="78ee5-121">Spustelėkite Naikinti.</span><span class="sxs-lookup"><span data-stu-id="78ee5-121">Click Delete.</span></span>
+3. <span data-ttu-id="78ee5-122">Spustelėkite Taip.</span><span class="sxs-lookup"><span data-stu-id="78ee5-122">Click Yes.</span></span>
 
-## <a name="approve-formula"></a><span data-ttu-id="15983-123">Tvirtinti formulę</span><span class="sxs-lookup"><span data-stu-id="15983-123">Approve formula</span></span>
-1. <span data-ttu-id="15983-124">Spustelėkite „Tvirtinti formulę“.</span><span class="sxs-lookup"><span data-stu-id="15983-124">Click Approve formula.</span></span>
-2. <span data-ttu-id="15983-125">Lauke Patvirtino įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="15983-125">In the Approved by field, enter or select a value.</span></span>
-3. <span data-ttu-id="15983-126">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="15983-126">Click OK.</span></span>
-4. <span data-ttu-id="15983-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="15983-127">Close the page.</span></span>
+## <a name="approve-formula"></a><span data-ttu-id="78ee5-123">Tvirtinti formulę</span><span class="sxs-lookup"><span data-stu-id="78ee5-123">Approve formula</span></span>
+1. <span data-ttu-id="78ee5-124">Spustelėkite „Tvirtinti formulę“.</span><span class="sxs-lookup"><span data-stu-id="78ee5-124">Click Approve formula.</span></span>
+2. <span data-ttu-id="78ee5-125">Lauke Patvirtino įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="78ee5-125">In the Approved by field, enter or select a value.</span></span>
+3. <span data-ttu-id="78ee5-126">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="78ee5-126">Click OK.</span></span>
+4. <span data-ttu-id="78ee5-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="78ee5-127">Close the page.</span></span>
 
