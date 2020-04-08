@@ -660,11 +660,11 @@
               href: expense-management/expense-report-distributions.md
             - name: Vidinės įmonės išlaidos
               href: expense-management/intercompany-expense.md
-            - name: Išlaidų strategijos
+            - name: Išlaidų strategijų apibrėžimas
               href: expense-management/travel-expense-policies.md
-            - name: Peržiūrėti išlaidų ataskaitą
+            - name: Išlaidų ataskaitos peržiūra
               href: expense-management/view-expense-report.md
-            - name: Registruoti išlaidų ataskaitą
+            - name: Išlaidų ataskaitos registravimas
               href: expense-management/post-expense.md
             - name: Išlaidų ataskaitos ir keli tvirtintojai
               href: expense-management/expense-report-multiple-approvers.md
@@ -984,6 +984,8 @@
               href: project-management/project-contracts.md
             - name: Projektų prognozės ir biudžetai
               href: project-management/project-forecasts-budgets.md
+            - name: Projektų biudžetų perkėlimas finansinių metų pabaigoje
+              href: project-management/process-project-budgets-for-fiscal-year-end.md
             - name: Projekto pardavimo užsakymai
               href: project-management/project-sales-orders.md
             - name: Projekto pirkimo užsakymai
@@ -1646,6 +1648,12 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Sudengimo operacijų peržiūra
                   href: localizations/emea-transactions-settlement-form.md
+            - name: Suomija
+              items:
+                - name: Suomijos apžvalga
+                  href: localizations/finland.md
+                - name: PVM mokėjimo ataskaita (Suomija)
+                  href: localizations/emea-fin-sales-tax-payment-report-finland.md
             - name: Prancūzija
               items:
                 - name: Prancūzijos apžvalga
@@ -1696,6 +1704,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Kliento mokėjimo būdo naujinimas
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: DAS-2 ataskaita
+                  href: localizations/emea-fra-das2-report.md
             - name: Vokietija
               items:
                 - name: Vokietijos apžvalga
@@ -1988,14 +1998,20 @@
                   href: localizations/emea-ita-exil-structured-notes.md
                 - name: Ketinimų raštas – sąskaitų faktūrų išrašymas įprastiniams eksportuotojams
                   href: localizations/emea-ita-exil-intent-letter.md
-                - name: Mokesčio SF nemokamai pristatytoms prekėms
+                - name: Mokesčių sąskaita faktūra nemokamai pristatytoms prekėms
                   href: localizations/emea-ita-exil-goods-for-free.md
                 - name: Patobulintos užklausos apie debeto arba kredito sudengimą
                   href: localizations/emea-ita-exil-improved-inquiry-settlement.md
+                - name: Mokėjimų komisinių sudengimas
+                  href: localizations/emea-ita-exil-commission-settlement.md
                 - name: Didžiosios knygos modeliavimai (Italija)
                   href: localizations/emea-ita-exil-general-ledger-simulations.md
+                - name: Konfigūruojami bankų arba pavedimo tipų registravimo šablonai
+                  href: localizations/emea-ita-exil-bank-remittance.md
                 - name: Unikalusis sertifikavimas
                   href: localizations/emea-ita-exil-unique-certification.md
+                - name: Įsakomojo vekselio užprotestavimo importavimas
+                  href: localizations/emea-ita-exil-protest-boe.md
             - name: Japonija
               items:
                 - name: Japonijos apžvalga
@@ -2460,6 +2476,8 @@
                       href: localizations/rus-inventory-cost-structure.md
                     - name: Atsargų koregavimo vedlys
                       href: localizations/rus-inventory-adjustment-wizard.md
+                    - name: Atsargų ataskaitos
+                      href: localizations/rus-inventory-reports.md
                 - name: Ataskaitos
                   items:
                     - name: Finansinės ataskaitos
