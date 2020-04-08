@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2020\_m. kovo 19\_d."
+          href: hr-whats-new-2020-03-19.md
         - name: "2020\_m. kovo 10\_d."
           href: hr-whats-new-2020-03-10.md
         - name: "2020\_m. kovo 3\_d."
@@ -539,3 +541,9 @@
               href: hr-learning-create-closed-ended-question.md
             - name: Priklausomų klausimų kūrimas
               href: hr-learning-depending-question.md
+        - name: Darbuotojų ir vadovų savitarnos nustatymas
+          items:
+            - name: Darbuotojų ir vadovų savitarnos apžvalga
+              href: hr-employee-manager-self-service-overview.md
+            - name: Asmeninės informacijos kūrimas
+              href: hr-employee-manager-self-service-edit-personal-information.md

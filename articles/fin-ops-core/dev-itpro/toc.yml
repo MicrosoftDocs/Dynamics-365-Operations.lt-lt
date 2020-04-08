@@ -162,38 +162,62 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Dvigubo rašymo sąranka iš „Lifecycle Services“
                               href: data-entities/dual-write/lcs-setup.md
-                        - name: Programėlių sąvokų susiejimas
-                          items:
-                            - name: Organizacijos hierarchija „Common Data Service“
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Įmonės integravimas
+                            - name: Pirminis sinchronizavimas
+                              href: data-entities/dual-write/initial-sync.md
+                            - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
                               items:
-                                - name: Įmonės koncepcija „Common Data Services“
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Paleidimas naudojant įmonės duomenis
-                                  href: data-entities/dual-write/bootstrap-company-data.md
+                                - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
+                                  href: data-entities/dual-write/enable-dual-write.md
+                                - name: Sistemos reikalavimai ir būtinosios sąlygos
+                                  href: data-entities/dual-write/requirements-and-prerequisites.md
+                                - name: Kaip naudoti dvigubo rašymo vedlį aplinkoms susieti
+                                  href: data-entities/dual-write/link-your-environment.md
+                                - name: Objekto schemos įjungimas dvigubam rašymui
+                                  href: data-entities/dual-write/enable-entity-map.md
+                        - name: Dvigubo rašymo valdymas
+                          items:
+                            - name: Objektų ir laukų susiejimo tinkinimas
+                              href: data-entities/dual-write/customizing-mappings.md
+                            - name: Klaidų valdymas ir įspėjimo pranešimai
+                              href: data-entities/dual-write/errors-and-alerts.md
+                            - name: Programos ciklo valdymas
+                              href: data-entities/dual-write/app-lifecycle-management.md
+                        - name: Programų sąvokų susiejimas
+                          items:
                             - name: Bendrieji integruoto kliento duomenys
                               href: data-entities/dual-write/customer-mapping.md
+                            - name: Tiekėjo integravimas
+                              items:
+                                - name: Bendrieji integruoto tiekėjo duomenys
+                                  href: data-entities/dual-write/vendor-mapping.md
+                                - name: Perjungimas iš vieno tiekėjo dizaino į kitą
+                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Kliento lojalumo kortelės ir atlygio taškai
+                              href: data-entities/dual-write/loyalty-mapping.md
                             - name: Produkto integravimas
                               items:
                                 - name: Bendrosios produkto funkcijos
                                   href: data-entities/dual-write/product-mapping.md
                                 - name: Integruotos svetainės ir sandėliai
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
+                            - name: Įmonės integravimas
+                              items:
+                                - name: Įmonės koncepcija „Common Data Services“
+                                  href: data-entities/dual-write/company-data.md
+                                - name: Perkrovimas naudojant įmonės duomenis
+                                  href: data-entities/dual-write/bootstrap-company-data.md
+                            - name: Organizacijos hierarchija „Common Data Service“
+                              href: data-entities/dual-write/organization-mapping.md
                             - name: Finansų ir mokesčių duomenys
                               items:
-                                - name: Prieiga prie finansinių ir mokesčių nuorodos duomenų
+                                - name: Prieiga prie finansų ir mokesčių nuorodos duomenų
                                   href: data-entities/dual-write/finance-tax-reference.md
                                 - name: Integruota didžioji knyga
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Bendrieji integruotų mokesčių duomenys
                                   href: data-entities/dual-write/tax-mapping.md
-                            - name: Tiekėjo integravimas
-                              items:
-                                - name: Bendrieji integruoto tiekėjo duomenys
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Perjungti iš vieno tiekėjo dizaino į kitą
-                                  href: data-entities/dual-write/vendor-switch.md
+                            - name: Sinchronizavimas su „Dynamics 365 Supply Chain Management“ kainodaros mechanizmu pareikalavus
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Dvigubas rašymas sprendime Potencialūs klientai ir grynieji pinigai
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
                             - name: Vidaus paslaugų turtas
@@ -204,11 +228,25 @@
                           items:
                             - name: „Field Service“ ir „Project Service Automation“ sprendimų palaikymas
                               href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Pradinė sinchronizacija
-                              href: data-entities/dual-write/initial-sync.md
-                            - name: Duomenų integravimo trikčių diagnostika
-                              href: data-entities/dual-write/dual-write-troubleshooting.md
-                    - name: Integravimas su „Power Platform” duomenų integravimo priemone
+                            - name: Trikčių šalinimas
+                              items:
+                                - name: 'Patikrinti, ar dvigubas rašymas sukonfigūruotas „Finance and Operations“ programose ir „Common Data Service“'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                                - name: Problemų šalinimas pradinio nustatymo metu
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                                - name: Problemų šalinimas pradinės sinchronizacijos metu
+                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                                - name: Dvigubo rašymo modulio „Finance and Operations“ programose problemų šalinimas
+                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                                - name: Tiesioginės sinchronizacijos problemų šalinimas
+                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                                - name: 'Problemų, susijusių su sprendimo supratimu, šalinimas'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                                - name: 'Problemų, susijusių su „Finance and Operations“ programų plėtotėmis, sprendimas'
+                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                                - name: Bendras problemų sprendimas
+                                  href: data-entities/dual-write/dual-write-troubleshooting.md
+                    - name: Integravimas su „Power Platform“
                       items:
                         - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
                           items:
@@ -386,12 +424,14 @@
                   href: database/api/dbmovement-api-throttling.md
                 - name: Nuoroda
                   items:
-                    - name: API 1 versijos nuoroda
+                    - name: API v1 nuoroda
                       href: database/api/v1/dbmovement-api-v1-overview.md
                     - name: Duomenų bazės atsarginių kopijų sąrašas
                       href: database/api/v1/reference-list-backups.md
                     - name: Duomenų bazės atnaujinimo sukūrimas
                       href: database/api/v1/reference-create-refresh.md
+                    - name: Duomenų bazės eksportavimo kūrimas
+                      href: database/api/v1/reference-create-export.md
                     - name: Operacijos veiklos būsenos gavimas
                       href: database/api/v1/reference-get-status.md
         - name: Demonstraciniai duomenys
@@ -1032,6 +1072,8 @@
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Stebėjimas ir diagnostika
               href: lifecycle-services/monitoring-diagnostics.md
+            - name: Poveikio analizės ataskaita
+              href: lifecycle-services/impact-analysis-report.md
             - name: Aplinkos paslaugų paleidimas iš naujo
               href: lifecycle-services/restart-environment-services.md
             - name: Pranešimas apie gamybos sutrikimus
@@ -1396,6 +1438,10 @@
                   href: sysadmin/create-rules-optimization-advisor.md
             - name: Pranešimas apie gamybos sutrikimus
               href: lifecycle-services/report-production-outage.md
+            - name: Duomenų bazės registravimo konfigūravimas ir valdymas
+              href: sysadmin/configure-manage-database-log.md
+            - name: „OData“ metaduomenų podėlio kūrimas paleidus AOS
+              href: sysadmin/odata-warmup.md
         - name: 'Plėtotės, naujinimai ir karštosios pataisos'
           items:
             - name: 'Plėtočių, naujinimų ir karštųjų pataisų ištekliai'
