@@ -16,39 +16,38 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d684eedd5b40ee9775ab779c243d05cdc6e01f58
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c0c5b20ff6fff2bc62daca68c46e949a38df8d92
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188860"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140281"
 ---
-# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="002d3-103">Kurti palūkanų kodą su intervalu</span><span class="sxs-lookup"><span data-stu-id="002d3-103">Create an interest code with a range</span></span>
+# <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="84b70-103">Kurti palūkanų kodą su intervalu</span><span class="sxs-lookup"><span data-stu-id="84b70-103">Create an interest code with a range</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+<span data-ttu-id="84b70-104">Palūkanų kodus galima nustatyti apskaičiuoti kitas palūkanų sumas pagal verčių diapazoną.</span><span class="sxs-lookup"><span data-stu-id="84b70-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="84b70-105">Šios procedūros metu pamatysite, kaip įtraukti palūkanų kodą ir į jį įtraukti diapazoną.</span><span class="sxs-lookup"><span data-stu-id="84b70-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 
-<span data-ttu-id="002d3-104">Palūkanų kodus galima nustatyti apskaičiuoti kitas palūkanų sumas pagal verčių diapazoną.</span><span class="sxs-lookup"><span data-stu-id="002d3-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="002d3-105">Šios procedūros metu pamatysite, kaip įtraukti palūkanų kodą ir į jį įtraukti diapazoną.</span><span class="sxs-lookup"><span data-stu-id="002d3-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
-
-1. <span data-ttu-id="002d3-106">Pasirinkite Kreditas ir mokėjimai > Palūkanos > Nustatyti palūkanų kodus.</span><span class="sxs-lookup"><span data-stu-id="002d3-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
-2. <span data-ttu-id="002d3-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="002d3-107">Click New.</span></span>
-3. <span data-ttu-id="002d3-108">Lauke Palūkanų kodas įveskite palūkanų kodo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="002d3-108">In the Interest code field, enter the name of the interest code.</span></span>
-4. <span data-ttu-id="002d3-109">Lauke Aprašas įveskite palūkanų kodo aprašą.</span><span class="sxs-lookup"><span data-stu-id="002d3-109">In the Description field, enter a description for the interest code.</span></span>
-5. <span data-ttu-id="002d3-110">Pasirinkite Mėnuo.</span><span class="sxs-lookup"><span data-stu-id="002d3-110">Select Month.</span></span>
-6. <span data-ttu-id="002d3-111">Išplėskite skyrių Pajamos.</span><span class="sxs-lookup"><span data-stu-id="002d3-111">Expand the Earnings section.</span></span>
-7. <span data-ttu-id="002d3-112">Išplėskite skyrių Pajamos pagal valiutą.</span><span class="sxs-lookup"><span data-stu-id="002d3-112">Expand the Earnings by currency section.</span></span>
-8. <span data-ttu-id="002d3-113">Lauke Didžiosios knygos registravimo sąskaita nurodykite norimas vertes.</span><span class="sxs-lookup"><span data-stu-id="002d3-113">In the Ledger posting account field, specify the desired values.</span></span>
-9. <span data-ttu-id="002d3-114">Lauke Palūkanos pagal diapazoną pasirinkite 'Mėnesiai'.</span><span class="sxs-lookup"><span data-stu-id="002d3-114">In the Interest by range field, select 'Months'.</span></span>
-10. <span data-ttu-id="002d3-115">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="002d3-115">Click Add.</span></span>
-11. <span data-ttu-id="002d3-116">Lauke Aprašas įveskite šios valiutos ir diapazono aprašymą.</span><span class="sxs-lookup"><span data-stu-id="002d3-116">In the Description field, enter a description for this currency and range.</span></span>
-12. <span data-ttu-id="002d3-117">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="002d3-117">Click Save.</span></span>
-13. <span data-ttu-id="002d3-118">Spustelėkite Diapazonai.</span><span class="sxs-lookup"><span data-stu-id="002d3-118">Click Ranges.</span></span>
-14. <span data-ttu-id="002d3-119">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="002d3-119">Click New.</span></span>
-15. <span data-ttu-id="002d3-120">Vertę Nuo įveskite kaip 0, tada įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas.</span><span class="sxs-lookup"><span data-stu-id="002d3-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="002d3-121">Mūsų pavyzdyje tai yra 1,5.</span><span class="sxs-lookup"><span data-stu-id="002d3-121">For our example, it is 1.5.</span></span>
-16. <span data-ttu-id="002d3-122">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="002d3-122">Click New.</span></span>
-17. <span data-ttu-id="002d3-123">Įveskite kitą vertę Nuo kaip 4, tai yra pirmas mėnuo, kada apskaičiuosite naują palūkanų sumą.</span><span class="sxs-lookup"><span data-stu-id="002d3-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
-18. <span data-ttu-id="002d3-124">Įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas nuo 4 mėnesio.</span><span class="sxs-lookup"><span data-stu-id="002d3-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="002d3-125">Šiame pavyzdyje tai yra 2,0.</span><span class="sxs-lookup"><span data-stu-id="002d3-125">For this example, it is 2.0.</span></span>
-19. <span data-ttu-id="002d3-126">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="002d3-126">Click New.</span></span>
-20. <span data-ttu-id="002d3-127">Įveskite kitą vertę Nuo kaip 7, tai yra kitas mėnuo, kada apskaičiuosite naują palūkanų sumą.</span><span class="sxs-lookup"><span data-stu-id="002d3-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
-21. <span data-ttu-id="002d3-128">Įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas nuo 7 mėnesio.</span><span class="sxs-lookup"><span data-stu-id="002d3-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="002d3-129">Šiame pavyzdyje tai yra 2,5.</span><span class="sxs-lookup"><span data-stu-id="002d3-129">For this example, it is 2.5.</span></span>
-22. <span data-ttu-id="002d3-130">Spustelėję Uždaryti užbaigsite nustatymą.</span><span class="sxs-lookup"><span data-stu-id="002d3-130">Click Close to complete the setup.</span></span>
+1. <span data-ttu-id="84b70-106">Pasirinkite Kreditas ir mokėjimai > Palūkanos > Nustatyti palūkanų kodus.</span><span class="sxs-lookup"><span data-stu-id="84b70-106">Go to Credit and collections > Interest > Set up interest codes.</span></span>
+2. <span data-ttu-id="84b70-107">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="84b70-107">Click New.</span></span>
+3. <span data-ttu-id="84b70-108">Lauke Palūkanų kodas įveskite palūkanų kodo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="84b70-108">In the Interest code field, enter the name of the interest code.</span></span>
+4. <span data-ttu-id="84b70-109">Lauke Aprašas įveskite palūkanų kodo aprašą.</span><span class="sxs-lookup"><span data-stu-id="84b70-109">In the Description field, enter a description for the interest code.</span></span>
+5. <span data-ttu-id="84b70-110">Pasirinkite Mėnuo.</span><span class="sxs-lookup"><span data-stu-id="84b70-110">Select Month.</span></span>
+6. <span data-ttu-id="84b70-111">Išplėskite skyrių Pajamos.</span><span class="sxs-lookup"><span data-stu-id="84b70-111">Expand the Earnings section.</span></span>
+7. <span data-ttu-id="84b70-112">Išplėskite skyrių Pajamos pagal valiutą.</span><span class="sxs-lookup"><span data-stu-id="84b70-112">Expand the Earnings by currency section.</span></span>
+8. <span data-ttu-id="84b70-113">Lauke Didžiosios knygos registravimo sąskaita nurodykite norimas vertes.</span><span class="sxs-lookup"><span data-stu-id="84b70-113">In the Ledger posting account field, specify the desired values.</span></span>
+9. <span data-ttu-id="84b70-114">Lauke Palūkanos pagal diapazoną pasirinkite 'Mėnesiai'.</span><span class="sxs-lookup"><span data-stu-id="84b70-114">In the Interest by range field, select 'Months'.</span></span>
+10. <span data-ttu-id="84b70-115">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="84b70-115">Click Add.</span></span>
+11. <span data-ttu-id="84b70-116">Lauke Aprašas įveskite šios valiutos ir diapazono aprašymą.</span><span class="sxs-lookup"><span data-stu-id="84b70-116">In the Description field, enter a description for this currency and range.</span></span>
+12. <span data-ttu-id="84b70-117">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="84b70-117">Click Save.</span></span>
+13. <span data-ttu-id="84b70-118">Spustelėkite Diapazonai.</span><span class="sxs-lookup"><span data-stu-id="84b70-118">Click Ranges.</span></span>
+14. <span data-ttu-id="84b70-119">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="84b70-119">Click New.</span></span>
+15. <span data-ttu-id="84b70-120">Vertę Nuo įveskite kaip 0, tada įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas.</span><span class="sxs-lookup"><span data-stu-id="84b70-120">Enter the From value as 0 and then enter the interest percent per month that will be used to calculate the interest.</span></span> <span data-ttu-id="84b70-121">Mūsų pavyzdyje tai yra 1,5.</span><span class="sxs-lookup"><span data-stu-id="84b70-121">For our example, it is 1.5.</span></span>
+16. <span data-ttu-id="84b70-122">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="84b70-122">Click New.</span></span>
+17. <span data-ttu-id="84b70-123">Įveskite kitą vertę Nuo kaip 4, tai yra pirmas mėnuo, kada apskaičiuosite naują palūkanų sumą.</span><span class="sxs-lookup"><span data-stu-id="84b70-123">Enter the next From value as 4, which is the first month that you will be calculating a new interest amount.</span></span>
+18. <span data-ttu-id="84b70-124">Įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas nuo 4 mėnesio.</span><span class="sxs-lookup"><span data-stu-id="84b70-124">Enter the interest percent per month that will be used to calculate the interest starting in month 4.</span></span> <span data-ttu-id="84b70-125">Šiame pavyzdyje tai yra 2,0.</span><span class="sxs-lookup"><span data-stu-id="84b70-125">For this example, it is 2.0.</span></span>
+19. <span data-ttu-id="84b70-126">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="84b70-126">Click New.</span></span>
+20. <span data-ttu-id="84b70-127">Įveskite kitą vertę Nuo kaip 7, tai yra kitas mėnuo, kada apskaičiuosite naują palūkanų sumą.</span><span class="sxs-lookup"><span data-stu-id="84b70-127">Enter the next From value as 7, which is the next month that you will be calculating a new interest amount.</span></span>
+21. <span data-ttu-id="84b70-128">Įveskite palūkanų procentą per mėnesį, kuris bus naudojamas skaičiuojant palūkanas nuo 7 mėnesio.</span><span class="sxs-lookup"><span data-stu-id="84b70-128">Enter the interest percent per month that will be used to calculate the interest starting in month 7.</span></span> <span data-ttu-id="84b70-129">Šiame pavyzdyje tai yra 2,5.</span><span class="sxs-lookup"><span data-stu-id="84b70-129">For this example, it is 2.5.</span></span>
+22. <span data-ttu-id="84b70-130">Spustelėję Uždaryti užbaigsite nustatymą.</span><span class="sxs-lookup"><span data-stu-id="84b70-130">Click Close to complete the setup.</span></span>
 

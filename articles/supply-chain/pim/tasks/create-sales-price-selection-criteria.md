@@ -16,41 +16,41 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72940f719baca5e8042c2f2caa8abbacb7d8264e
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: ed8c60b188b7c7090546e8367455e0f58ce9359b
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844494"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147692"
 ---
-# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="a186f-103">Pardavimo kainos pasirinkimo kriterijų kūrimas</span><span class="sxs-lookup"><span data-stu-id="a186f-103">Create sales price selection criteria</span></span>
+# <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="5447d-103">Pardavimo kainos pasirinkimo kriterijų kūrimas</span><span class="sxs-lookup"><span data-stu-id="5447d-103">Create sales price selection criteria</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a186f-104">Šioje procedūroje parodoma, kaip kurti pardavimo kainos pasirinkimo kriterijus, skirtus atributais pagrįstiems pardavimo kainos modeliams.</span><span class="sxs-lookup"><span data-stu-id="a186f-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="a186f-105">Norint paleisti šią procedūrą, reikia, kad būtų galimas bent vienas pardavimo kainos modelis.</span><span class="sxs-lookup"><span data-stu-id="a186f-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="a186f-106">Šiame pavyzdyje naudojamas kainos modelio, skirtas demonstracinių duomenų įmonės USMF garsiakalbio sprendimo pardavimo kainos modeliui.</span><span class="sxs-lookup"><span data-stu-id="a186f-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="a186f-107">Paprastai šią procedūrą atlieka produktų vadovas.</span><span class="sxs-lookup"><span data-stu-id="a186f-107">Typically, a product manager uses this procedure.</span></span>
+<span data-ttu-id="5447d-104">Šioje procedūroje parodoma, kaip kurti pardavimo kainos pasirinkimo kriterijus, skirtus atributais pagrįstiems pardavimo kainos modeliams.</span><span class="sxs-lookup"><span data-stu-id="5447d-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="5447d-105">Norint paleisti šią procedūrą, reikia, kad būtų galimas bent vienas pardavimo kainos modelis.</span><span class="sxs-lookup"><span data-stu-id="5447d-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="5447d-106">Šiame pavyzdyje naudojamas kainos modelio, skirtas demonstracinių duomenų įmonės USMF garsiakalbio sprendimo pardavimo kainos modeliui.</span><span class="sxs-lookup"><span data-stu-id="5447d-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="5447d-107">Paprastai šią procedūrą atlieka produktų vadovas.</span><span class="sxs-lookup"><span data-stu-id="5447d-107">Typically, a product manager uses this procedure.</span></span>
 
 
-## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="a186f-108">Naujo esamo pardavimo kainos modelio kriterijaus įtraukimas</span><span class="sxs-lookup"><span data-stu-id="a186f-108">Add a new criterion for an existing sales price model</span></span>
-1. <span data-ttu-id="a186f-109">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="a186f-109">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="a186f-110">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="a186f-110">Click Product configuration models.</span></span>
-3. <span data-ttu-id="a186f-111">Sąraše pasirinkite garsiakalbio sprendimo produkto modelio eilutę, bet nespustelėkite modelio pavadinimo nuorodos.</span><span class="sxs-lookup"><span data-stu-id="a186f-111">In the list, select the row for the Speaker solution product model, but don’t click the link for the model name.</span></span>
-4. <span data-ttu-id="a186f-112">Veiksmų srityje spustelėkite Modelis.</span><span class="sxs-lookup"><span data-stu-id="a186f-112">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="a186f-113">Spustelėkite Kainos modelio kriterijai.</span><span class="sxs-lookup"><span data-stu-id="a186f-113">Click Price model criteria.</span></span>
-6. <span data-ttu-id="a186f-114">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="a186f-114">Click New.</span></span>
-7. <span data-ttu-id="a186f-115">Lauke Pavadinimas įveskite 10 klientų grupė.</span><span class="sxs-lookup"><span data-stu-id="a186f-115">In the Name field, type ‘Customer group 10’.</span></span>
-    * <span data-ttu-id="a186f-116">Kainos modelio kriterijaus pavadinimas padeda nustatyti pagrindinius pasirinkimo kriterijus.</span><span class="sxs-lookup"><span data-stu-id="a186f-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
-8. <span data-ttu-id="a186f-117">Lauke Kainos modelis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="a186f-117">In the Price model field, enter or select a value.</span></span>
-9. <span data-ttu-id="a186f-118">Lauke Užsakymo tipas pasirinkite Pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="a186f-118">In the Order type field, select Sales order.</span></span>
-    * <span data-ttu-id="a186f-119">Užsakymo tipas nustato duomenų bazės laukus, kuriuos bus galima naudoti teikiant pasirinkimo užklausą.</span><span class="sxs-lookup"><span data-stu-id="a186f-119">The order type determines the database fields that will be available for the selection query.</span></span>  
-10. <span data-ttu-id="a186f-120">Lauke Galioja nuo įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="a186f-120">In the Valid from field, enter a date.</span></span>
-11. <span data-ttu-id="a186f-121">Lauke Galioja iki įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="a186f-121">In the Expire by field, enter a date.</span></span>
-12. <span data-ttu-id="a186f-122">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="a186f-122">Click Save.</span></span>
+## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a><span data-ttu-id="5447d-108">Naujo esamo pardavimo kainos modelio kriterijaus įtraukimas</span><span class="sxs-lookup"><span data-stu-id="5447d-108">Add a new criterion for an existing sales price model</span></span>
+1. <span data-ttu-id="5447d-109">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="5447d-109">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="5447d-110">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="5447d-110">Click Product configuration models.</span></span>
+3. <span data-ttu-id="5447d-111">Sąraše pasirinkite garsiakalbio sprendimo produkto modelio eilutę, bet nespustelėkite modelio pavadinimo nuorodos.</span><span class="sxs-lookup"><span data-stu-id="5447d-111">In the list, select the row for the Speaker solution product model, but don't click the link for the model name.</span></span>
+4. <span data-ttu-id="5447d-112">Veiksmų srityje spustelėkite Modelis.</span><span class="sxs-lookup"><span data-stu-id="5447d-112">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="5447d-113">Spustelėkite Kainos modelio kriterijai.</span><span class="sxs-lookup"><span data-stu-id="5447d-113">Click Price model criteria.</span></span>
+6. <span data-ttu-id="5447d-114">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="5447d-114">Click New.</span></span>
+7. <span data-ttu-id="5447d-115">Lauke Pavadinimas įveskite „10 klientų grupė“.</span><span class="sxs-lookup"><span data-stu-id="5447d-115">In the Name field, type 'Customer group 10'.</span></span>
+    * <span data-ttu-id="5447d-116">Kainos modelio kriterijaus pavadinimas padeda nustatyti pagrindinius pasirinkimo kriterijus.</span><span class="sxs-lookup"><span data-stu-id="5447d-116">The name of the price model criterion is used to help identify the underlying selection criteria.</span></span>  
+8. <span data-ttu-id="5447d-117">Lauke Kainos modelis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="5447d-117">In the Price model field, enter or select a value.</span></span>
+9. <span data-ttu-id="5447d-118">Lauke Užsakymo tipas pasirinkite Pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="5447d-118">In the Order type field, select Sales order.</span></span>
+    * <span data-ttu-id="5447d-119">Užsakymo tipas nustato duomenų bazės laukus, kuriuos bus galima naudoti teikiant pasirinkimo užklausą.</span><span class="sxs-lookup"><span data-stu-id="5447d-119">The order type determines the database fields that will be available for the selection query.</span></span>  
+10. <span data-ttu-id="5447d-120">Lauke Galioja nuo įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="5447d-120">In the Valid from field, enter a date.</span></span>
+11. <span data-ttu-id="5447d-121">Lauke Galioja iki įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="5447d-121">In the Expire by field, enter a date.</span></span>
+12. <span data-ttu-id="5447d-122">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="5447d-122">Click Save.</span></span>
 
-## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="a186f-123">Pasirinkimo kriterijų užklausos kūrimas</span><span class="sxs-lookup"><span data-stu-id="a186f-123">Create the query for the selection criteria</span></span>
-1. <span data-ttu-id="a186f-124">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="a186f-124">Click Edit.</span></span>
-2. <span data-ttu-id="a186f-125">Lauke Lentelė pasirinkite Klientai.</span><span class="sxs-lookup"><span data-stu-id="a186f-125">In the Table field, select Customers.</span></span> 
-3. <span data-ttu-id="a186f-126">Lauke Laukas pasirinkite Klientų grupė.</span><span class="sxs-lookup"><span data-stu-id="a186f-126">In the Field field, select Customer group.</span></span>
-    * <span data-ttu-id="a186f-127">Šiame pavyzdyje nustatydami pasirinkimo kriterijus mes naudosime konkrečią klientų grupę.</span><span class="sxs-lookup"><span data-stu-id="a186f-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
-4. <span data-ttu-id="a186f-128">Lauke Kriterijai pasirinkite 10 klientų grupė.</span><span class="sxs-lookup"><span data-stu-id="a186f-128">In the Criteria field, select Customer group 10.</span></span> 
-5. <span data-ttu-id="a186f-129">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="a186f-129">Click OK.</span></span>
+## <a name="create-the-query-for-the-selection-criteria"></a><span data-ttu-id="5447d-123">Pasirinkimo kriterijų užklausos kūrimas</span><span class="sxs-lookup"><span data-stu-id="5447d-123">Create the query for the selection criteria</span></span>
+1. <span data-ttu-id="5447d-124">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="5447d-124">Click Edit.</span></span>
+2. <span data-ttu-id="5447d-125">Lauke Lentelė pasirinkite Klientai.</span><span class="sxs-lookup"><span data-stu-id="5447d-125">In the Table field, select Customers.</span></span> 
+3. <span data-ttu-id="5447d-126">Lauke Laukas pasirinkite Klientų grupė.</span><span class="sxs-lookup"><span data-stu-id="5447d-126">In the Field field, select Customer group.</span></span>
+    * <span data-ttu-id="5447d-127">Šiame pavyzdyje nustatydami pasirinkimo kriterijus mes naudosime konkrečią klientų grupę.</span><span class="sxs-lookup"><span data-stu-id="5447d-127">In this example, we will use a specific customer group for the selection criteria.</span></span>  
+4. <span data-ttu-id="5447d-128">Lauke Kriterijai pasirinkite 10 klientų grupė.</span><span class="sxs-lookup"><span data-stu-id="5447d-128">In the Criteria field, select Customer group 10.</span></span> 
+5. <span data-ttu-id="5447d-129">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="5447d-129">Click OK.</span></span>
 
