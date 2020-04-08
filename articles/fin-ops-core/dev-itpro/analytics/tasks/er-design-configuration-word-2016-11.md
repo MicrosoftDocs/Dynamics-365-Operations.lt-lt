@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 327f03435ab55551953fd998dd89c831c76c4c26
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 208b1be20a8833afbf4929a7ceda706aeb5bda3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182605"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142091"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>ER konfigūracijų kūrimas siekiant generuoti ataskaitas „Word“ formatu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Toliau nurodytuose veiksmuose paaiškinta, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmens vartotojas gali konfigūruoti elektroninių ataskaitų (ER) formatus, norėdamas ataskaitas generuoti kaip „Microsoft Word“ failus. Šiuos veiksmus galima atlikti GBSI įmonėje.
 
@@ -39,7 +39,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti užduočių vadov
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Pasirinkite esamą ER ataskaitos konfigūraciją
-1. **Naršymo srityje eikite į Moduliai > Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos**. Įsitikinkite, kad konfigūracijos teikėjas „Litware, Inc.“. pasirinktas kaip aktyvus.  
+1. **Naršymo srityje eikite į Moduliai > Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos**. Įsitikinkite, kad konfigūracijos teikėjas „Litware, Inc.“ pasirinktas kaip aktyvus.  
 2. Spustelėkite **Ataskaitų konfigūracijos**. Pakartotinai naudosime esamą ER konfigūraciją, kuri iš pradžių buvo skirta ataskaitos išvesčiai OPENXML formatu generuoti.  
 3. Medyje išplėskite „Mokėjimo modelis‟.
 4. Medyje pasirinkite Mokėjimo modelis\Darbalapio ataskaitos pavyzdys.

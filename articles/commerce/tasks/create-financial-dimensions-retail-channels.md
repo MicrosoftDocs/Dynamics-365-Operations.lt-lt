@@ -16,16 +16,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79abb6875e2f5b101410ca004b525c4b881621a2
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ea36732023092f714b3a783d98b512c0fea7dade
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023419"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141412"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Mažmeninės prekybos kanalų finansinių dimensijų kūrimas ir dimensijų reikšmių parduotuvėse konfigūravimas
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ši procedūra padeda kurti prekybos kanalo finansinę dimensiją su dimensijų reikšmėmis ir nurodo parduotuvių finansinių dimensijų reikšmių konfigūravimo veiksmus. Ši tema neapima kitų susijusių veiksmų, pavyzdžiui, dimensijų rinkinių ir sąskaitų struktūrų kūrimo. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT.
 

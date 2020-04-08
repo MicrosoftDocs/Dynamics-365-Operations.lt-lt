@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1c922d16b46e26031e5f80886e4e4e8f08bcdaf
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 71353e961c54f4d56b6ecdb1075c8c74edfe220f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916877"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145944"
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>Nustatyti mobiliojo įrenginio meniu elementą Pirkimo užsakymo tipo darbui atlikti
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašyta, kaip nustatyti mobiliojo įrenginio meniu elementą. Šiame pavyzdyje meniu elementas naudojamas atliekant tipo Pirkimo užsakymas darbą. Galiojantis darbas nustatomas pagal darbo klasę, kuri susieta su meniu elementu. Šį vadovą galite naudoti demonstracinių duomenų įmonėje USMF. Šią procedūrą paprastai atlieka sandėlio vadovas.
+Šioje temoje aprašyta, kaip nustatyti mobiliojo įrenginio meniu elementą. Šiame pavyzdyje meniu elementas naudojamas atliekant tipo Pirkimo užsakymas darbą. Darbo klasė, susieta su meniu elementu, nustato, kuris darbas yra galiojantis. Šį vadovą galite naudoti demonstracinių duomenų įmonėje USMF. Šią procedūrą paprastai atlieka sandėlio vadovas.
 
 
 ## <a name="create-a-mobile-device-menu-item"></a>Mobiliojo įrenginio meniu elemento kūrimas
@@ -41,7 +41,7 @@ ms.locfileid: "1916877"
     - Šis mobiliojo įrenginio meniu elementas yra naudojamas esamam darbui atlikti. Todėl šią reikšmę turite nustatyti kaip **Taip**.  
     - Laukas **Rodyti atsargų būseną** nustato, ar sandėlio darbuotojui mobiliajame įrenginyje bus rodoma turimų atsargų būsena.  
 7. Lauke **Nurodyta pagal** pasirinkite **Sistemos grupavimas**. Lauke **Nurodyta pagal** pasirinkus kokią nors reikšmę, šio puslapio skyriuje **Bendra** bus rodomi papildomi laukai. Rodomi laukai priklauso nuo to, ką pasirinkote. Pasirinkus **Sistemos grupavimas** bus įtraukti du nauji laukai. Jie yra paaiškinti toliau.  
-8. Lauke **Sistemos grupavimas** pasirinkite **Darbo telkinio ID**. Sandėlio darbuotojams atidarius šią meniu elementą, jie bus prašyti nuskaityti darbo telkinio ID. Visi darbo užsakymai su šiuo darbo telkinio ID ir į šį meniu elementą įtrauktų darbo klasių atviros darbo užsakymo eilutės bus perkelti darbuotojui.  
+8. Lauke **Sistemos grupavimas** pasirinkite **Darbo telkinio ID**. Kai sandėlio darbuotojai atidarys šį meniu elementą, jų bus paprašyta nuskaityti darbo telkinio ID. Visi darbo užsakymai su šiuo darbo telkinio ID ir į šį meniu elementą įtrauktų darbo klasių atviros darbo užsakymo eilutės bus perkelti darbuotojui.  
 9. Lauke **Sistemos grupavimo žyma** įveskite reikšmę. Šis tekstas rodomas vartotojui mobiliajame įrenginyje. Pavyzdžiui, galite įvesti **Darbo telkinys**.  
 10. Lauke **Perrašyti numerio lentelę padedant** pasirinkite **Taip**. Ši parinktis leidžia sandėlio darbuotojams perrašyti tikslinę numerio lentelę, kai prekės padedamos vietoje, kuri kontroliuojama pagal numerio lentelę.  
 11. Lauke **Grupinis atidėjimas** pasirinkite **Taip**.

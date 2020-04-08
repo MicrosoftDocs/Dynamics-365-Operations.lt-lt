@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e29df3b42479a215b66354f8dfceea002a146e74
-ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
+ms.openlocfilehash: c8416f9a869b9144a63a6fb08c667cc32dec9854
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "1856477"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149716"
 ---
 # <a name="create-purchasing-policies"></a>Pirkimo strategijų kūrimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje pasakojama, kaip kurti pirkimo strategijas, kad lygiuotis su jūsų pirkimo verslo procesais. Prieš kurdami pirkimo strategijas turite nustatyti pirkimo strategijos parametrus. Galima kurti, modifikuoti ir nurašyti pirkimo strategiją, bet pirkimo strategijos negalima naikinti. Šią procedūrą paprastai atlieka pirkimo vadovas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis.
 
@@ -43,7 +43,7 @@ ms.locfileid: "1856477"
 ## <a name="create-a-new-policy"></a>Kurti naują strategiją
 1. Pasirinkite **Naujas**.
 2. Lauke **Pavadinimas** įveskite reikšmę.
-3. Lauke **Description field**surinkite reikšmę.
+3. Lauke **Aprašas** įveskite reikšmę.
 - Viena pirkimo strategija gali būti taikoma tik vienai organizacijos hierarchijai. Pvz., viena hierarchija vadinasi „Geografinė“, o kita – „Padalinys“, o joms priskirtos pirkimo strategijos skiriasi.  
 - Pasirinkite organizaciją, kuriai turėtų būti taikoma strategija.  
 4. Norėdami įtraukti pasirinktą organizaciją, spustelėkite rodyklę.

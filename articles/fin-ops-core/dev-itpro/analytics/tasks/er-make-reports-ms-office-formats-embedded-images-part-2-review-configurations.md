@@ -1,6 +1,6 @@
 ---
 title: Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų peržiūra
-description: 'Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje „ER padaryti ataskaitas „MS Office“ formatais su įdėtaisiais vaizdais (1 dalis: nustatyti parametrus)“.'
+description: 'Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus užduočių vedlyje „ER: ataskaitų kūrimas „MS Office“ formatais su įdėtaisiais vaizdais (1 dalis. Parametrų nustatymas)“.'
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d05020c5b83137d977d7260e269cb7d8c219406
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 8f81f0f86c255d048393047965c0aa29cbef09d0
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184789"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143081"
 ---
 # <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Ataskaitų generavimo „Office“ formatu su įdėtaisiais vaizdais konfigūracijų peržiūra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje „ER padaryti ataskaitas „MS Office“ formatais su įdėtaisiais vaizdais (1 dalis: nustatyti parametrus)“.
+Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus užduočių vedlyje „ER: ataskaitų kūrimas „MS Office“ formatais su įdėtaisiais vaizdais (1 dalis. Parametrų nustatymas)“.
 
 Ši procedūra parodo, kaip sukurti elektroninių ataskaitų kūrimo (ER) konfigūracijas, norint generuoti elektroninius dokumentus, kuriuose yra įdėtųjų vaizdų „Microsoft Excel“ ir „Microsoft Word“. Šiame pavyzdyje peržiūrėsite pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. 
 
@@ -37,7 +37,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 1. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
 2. Medyje pasirinkite „Model for cheques“.
 3. Spustelėkite Konstruktorius.
-    * Šis modelis skirtas atstovauti mokėjimo čekius verslo požiūriu ir susieti šį modelį su programos duomenų šaltiniais. Peržiūrėkite šį modelį naudodami ER operacijų kūrimo priemonę. Atkreipkite dėmesį į pateiktus modelio elementų atributus: struktūrą, pavadinimą, aprašymą, duomenų tipą ir t.t.   
+    * Šis modelis skirtas nurodyti, kokius mokėjimo čekius naudoja įmonė, ir parodyti šio modelio susiejimą su programos duomenų šaltiniais. Peržiūrėkite šį modelį naudodami ER operacijų kūrimo priemonę. Atkreipkite dėmesį į pateiktus modelio elementų atributus: struktūrą, pavadinimą, aprašymą, duomenų tipą ir t.t.   
 4. Medyje išplėskite „root“.
 5. Medyje pasirinkite „root\cheques“.
 6. Medyje išplėskite „root\cheques“.
@@ -55,7 +55,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 17. Medyje išplėskite „root\layout\signature“.
 18. Medyje pasirinkite „root\layout\signature\image“.
 19. Medyje pasirinkite „root\layout\signature\isprinted“.
-    * Atkreipkite dėmesį, kad du vaizdo duomenų modelio elementai susieti su lentelių laukais, kuriuose yra įmonės logotipas ir įgalioto asmens parašas dvejetainiu formatu.  
+    * Atkreipkite dėmesį, kad du vaizdo duomenų modelio elementai susieti su lentelių laukais, kuriuose yra įmonės logotipas ir įgaliotojo asmens parašas dvejetainiu formatu.  
 20. Medyje išplėskite „root\layout\watermark“.
 21. Spustelėkite „Susieti modelį su duomenų šaltiniu“.
 22. Spustelėkite Konstruktorius.
@@ -86,9 +86,9 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
     * Atkreipkite dėmesį, kad „CompLogo“ formato langelio elementas rodo „Excel“ elementą, naudojamą įmonės logotipo vaizdui įtraukti į ataskaitą. Šis formato elementas yra susietas su vaizdo duomenų modelio elementu, vykdant jame yra įmonės logotipo vaizdas dvejetainiu formatu.   
 11. Spustelėkite skirtuką „Susiejimas“.
 12. Spustelėkite Redagavimas įgalintas
-    * Atkreipkite dėmesį, kad galite padaryti „CompLogo“ formato langelio elementą, kuris nebeįgalintas. Šiuo atveju susietas „Excel“ vaizdo elementas paslėps įmonės logotipą sugeneruotoje ataskaitoje. Jei įgalintos išraiškos rezultatas TRUE ir apibrėžtas susiejimas neteikia vaizdo, susietas „Excel“ vaizdo elementas rodys vaizdą, kuris buvo įrašytas „Excel“ šablone.   
+    * Atkreipkite dėmesį, kad galite nustatyti „CompLogo“ formato langelio elementą taip, kad jis daugiau nebūtų įjungtas. Šiuo atveju susietas „Excel“ vaizdo elementas paslėps įmonės logotipą sugeneruotoje ataskaitoje. Jei įgalintos išraiškos rezultatas TRUE ir apibrėžtas susiejimas neteikia vaizdo, susietas „Excel“ vaizdo elementas rodys vaizdą, kuris buvo įrašytas „Excel“ šablone.   
 13. Uždarykite puslapį.
 14. Medyje išplėskite „labels: Container“.
-    * Kai kurios etiketės, kurios pateikiamos iš anksto išspausdintoje čekio formoje, bus įtrauktos į ataskaitą, kai sukuriama bandymams. Tačiau tos etiketės nebus išspausdintos spausdinant iš tikrųjų, nes iš anksto išspausdintoje formoje jos jau yra.  
+    * Kai kurios etiketės, kurios pateikiamos iš anksto išspausdintoje čekio formoje, bus įtrauktos į ataskaitą, kai ji sukuriama bandymo tikslu. Tačiau tos etiketės nebus išspausdintos spausdinant tinkamas etiketes, nes iš anksto išspausdintoje formoje jos jau yra.  
 15. Uždarykite puslapį.
 

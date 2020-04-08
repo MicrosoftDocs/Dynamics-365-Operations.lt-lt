@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7038af3977797a0be2523f2414800400757b7007
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 37f1a6e3bf39e16702d1367a325134ec84369945
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183763"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144384"
 ---
 # <a name="eur-00011-generate-the-eu-sales-list-report"></a>EUR-00011, ES pardavimo sąrašo ataskaitos generavimas.
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra padeda generuoti ES pardavimų sąrašo ataskaitą. Tai apima ES vidaus prekybos operacijų perkėlimą į ES pardavimų sąrašą ir ataskaitos vykdymą. Ši procedūra taip pat apima ES vidaus prekybos operacijos kūrimą demonstraciniais tikslais. Daugiau informacijos apie ES pardavimo sąrašų ataskaitas, įskaitant būtinąsias sąlygas, žr. žinyne.
 
@@ -96,7 +96,7 @@ ms.locfileid: "2183763"
 3. Sąraše pažymėkite lauko SF data eilutę.
 4. Lauke Kriterijai įveskite '01/01/2016... 01/31/2016'.
 5. Sąraše pažymėkite lauko Ataskaitos būsena eilutę.
-6. Lauke Kriterijai pasirinkite 'Ataskaita paruošta'.
+6. Lauke Kriterijai pasirinkite „Ataskaita paruošta“.
     * Be to, galite nurodyti papildomus norimus pažymėti kaip Uždarytus filtrus ES vidaus prekybos operacijoms.  
 7. Spustelėkite GERAI.
 8. Lauke Pasirinkimas pasirinkite 'Uždaryta'.

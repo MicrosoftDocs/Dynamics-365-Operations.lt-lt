@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 599a533c90b0346637221fecc78ddd688410fb3c
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 5783742b382c333c9ba7b60701c043c74c87c458
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914750"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148318"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aprašyta mobiliojo įrenginio meniu elemento sąranka. Šis meniu elementas naudojamas registruojant naudojantis pirkimo užsakymais užsakytų prekių gavimą. 
 
@@ -38,14 +38,14 @@ ms.locfileid: "1914750"
 2. Pasirinkite **Naujas**.
 3. Lauke **Meniu elemento pavadinimas** įveskite reikšmę. Tai šio mobiliojo įrenginio meniu elemento unikalus identifikatorius. Pavyzdžiui, galite įvesti `My PO registration`.  
 4. Lauke **Pavadinimas** įveskite reikšmę. Tai yra pavadinimas, kuris bus rodomas vartotojui mobiliajame įrenginyje. Pavyzdžiui, galite įvesti `PO registration`.  
-5. Lauke **Režimas** pasirinkite **Darbas**. Užregistravus turimus kiekius, gautus pirkimo užsakymo eilutei, bus sukuriamas darbas, kad būtų galima perkelti prekes iš gavimo skyriaus į atsargas. Darbo nesukuriamas, kol prekės neužregistruojamos. Todėl palikite parinkties **Naudoti esamą darbą** nuostatą **Ne**. 
+5. Lauke **Režimas** pasirinkite **Darbas**. Užregistravus turimus kiekius, gautus pirkimo užsakymo eilutei, bus sukuriamas darbas, kad būtų galima perkelti prekes iš gavimo skyriaus į atsargas. Darbas sukuriamas tik tada, kai prekės užregistruotos. Todėl palikite parinkties **Naudoti esamą darbą** nuostatą **Ne**. 
 6. Skyriaus **Bendra** lauke **Darbo kūrimo procesas** pasirinkite **Pirkimo užsakymo prekės gavimas**.
     - Norint užregistruoti turimą kiekį sandėlyje, pirkimo užsakymo eilutė turi būti unikaliai identifikuota. Šiuo atveju mobilusis įrenginys užregistruos pirkimo užsakymo numerį ir prekės numerį ir taip sistema galės identifikuoti PO eilutę. Bus sukurtas atidėjimo laikas ir galės išrinkti kitas darbuotojas. Nuo pasirinkto darbo kūrimo metodo priklauso, kurie laukai bus pasiekiami „FastTab“ **Bendra**.  
     - Jei pažymėsite parinktį **Naudoti numatytuosius duomenis**, bus įjungtas mygtukas **Numatytieji duomenys**. Čia galite pasirinkti laukus, kuriuose bus rodomi duomenys, paprastai reikalingi darbuotojui kasdieniame jo darbe, kad šios reikšmės būtų rodomos mobiliajame įrenginyje.  
-    - Parametras **Numerio lentelių grupavimas** veikia kartu su vienetų sekų grupe, priskirta gaunamai prekei. Galite nurodyti, ar gavimus, mažesnius arba didesnius nei vienas padėklas, reikia grupuoti į vieną numerio lentelę, ar skaidyti į atskiras numerio lenteles kiekvienam vienetui.  
+    - **Numerio lentelės grupavimo** parametras veikia kartu su vienetų sekų grupe, kuri priskiriama gaunamai prekei. Galite nurodyti, ar gavimus, mažesnius arba didesnius nei vienas padėklas, reikia grupuoti į vieną numerio lentelę, ar skaidyti į atskiras numerio lenteles kiekvienam vienetui.  
     - Jei pažymėsite parinktį **Generuoti numerio lentelę**, remiantis pasirinkta numeracija bus sugeneruotas unikalus numerio lentelės numeris.  
-    - Galite pasirinkti šabloną, kuris bus naudojamas kuriant darbą. Pavyzdžiui, jei registruojate pirkimo užsakymo prekę, atidėjimo darbas bus sugeneruotas remiantis darbo šablonu. Jei čia nepasirinksite darbo šablono, sistema priskirs šabloną pagal užklausos kriterijus, kurie yra susieti su šablonais.  
-    - Jei perdavimo kodai rodomi mobiliajame įrenginyje, darbuotojai gali įvertinti prekių būseną arba kokybę ir pasirinkti tinkamą kodą. Perdavimo kodo taisyklėse nurodoma, ar prekės bus pasiekiamos kitiems sandėlio procesams. Taisyklėse taip pat nurodoma, kuris sukurto darbo vietos nurodymas naudojamas.   
+    - Galite pasirinkti šabloną, kuris bus naudojamas kuriant darbą. Pavyzdžiui, jei registruojate pirkimo užsakymo prekę, atidėjimo darbas bus sugeneruotas remiantis darbo šablonu. Jei čia nepasirinksite darbo šablono, sistema paskirs šabloną pagal užklausos kriterijus, kurie yra susieti su šablonais.  
+    - Jei perdavimo kodai rodomi mobiliajame įrenginyje, darbuotojai gali įvertinti prekių būseną arba kokybę ir pasirinkti tinkamą kodą. Perdavimo kodo taisyklėse nurodoma, ar prekės bus pasiekiamos kitiems sandėlio procesams. Taisyklėse taip pat nurodoma, kuris vietos nustatymas naudojamas sukurtam darbui.   
     - Jei pažymėsite parinktį **Paketo perdavimo kodai**, darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti tinkamą perdavimo kodą. Nustatytos paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams.  
     - Jei pažymėsite parinktį **Spausdinti žymes**, gavus prekes automatiškai bus atspausdinta numerio lentelės žymė.  
 7. Pasirinkite **Įrašyti**.

@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9e311d3e033168ed577094e94477e7fe47d185d
-ms.sourcegitcommit: e10491a2ff04f65d9f306ef6e068ee123213b23b
+ms.openlocfilehash: 9bd90767af741760b1fbd3fd5c2b4cbbae95a477
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/21/2019
-ms.locfileid: "1914935"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146404"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Pardavimo užsakymų siuntimas be sandėliavimo
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šioje temoje paaiškinta, kaip atnaujinti pardavimo užsakymą, kai produktai siunčiami klientui. Vadovas taikomas vykdymo eigai, kuri nenustatyta sandėlio valdymui (nei pagrindiniam, nei papildomam sandėliui), ir todėl prieš siunčiant nereikia užregistruoti produkto išrinkimo. Šią procedūrą galite vykdyti su savo duomenimis arba demonstracinėje duomenų įmonėje USMF. Abiem atvejais, prieš pradėdami šią užduotį, sukurkite inventorizuoto produkto, kurio kiekis didesnis negu 1, pardavimo užsakymą. Norėdami išvengti registravimo klaidos, turite patikrinti, ar šiuo metu užsakyme pasirinktoje vietoje ir sandėlyje turimo produkto kiekis sutampa su užsakymo kiekiu.
+Šioje temoje paaiškinta, kaip atnaujinti pardavimo užsakymą, kai produktai siunčiami klientui. Vadovas taikomas vykdymo eigai, kuri nenustatyta sandėlio valdymui (nei pagrindiniam, nei papildomam sandėliui), ir todėl prieš siunčiant nereikia užregistruoti produkto išrinkimo. Šią procedūrą galite vykdyti su savo duomenimis arba demonstracinėje duomenų įmonėje USMF. Abiem atvejais, prieš pradėdami šią užduotį, sukurkite inventorizuoto produkto, kurio kiekis didesnis negu 1, pardavimo užsakymą. Norėdami išvengti registravimo klaidos, turite patikrinti, ar jūsų užsakytas prekių kiekis svetainėje ir sandėlyje atitinka užsakymo kiekį.
 
 ## <a name="post-packing-slip-for-an-order"></a>Užsakymo važtaraščio registravimas
 1. Naršymo srityje eikite į **Moduliai > Pardavimas ir rinkodara > Pardavimo užsakymai > Visi pardavimo užsakymai**.
@@ -38,7 +38,7 @@ ms.locfileid: "1914935"
 6. Lauke **Kiekis** pasirinkite **Visi**.
     - Kitos parinktys – **Pristatyti dabar** ir **Paimta**. Jei užsakymo eilutė turi būti siunčiama iš dalies, o užsakymo eilutės lauke **Pristatyti dabar** nurodytas kiekis, pasirinktumėte **Pristatyti dabar**. Jei jūsų organizacijos vykdymo eiga kaip atskirą procesą apima išrinkimą, kuris valdomas ir registruojamas naudojant išrinkimo sąrašą, reikia pasirinkti **Paimta**.  
     - Patikrinkite, ar nustatyta parinkties **Registravimas** nuostata **Taip**.  
-7. Nustatykite parinkties **Spausdinti važtaraštį** nuostatą **Taip**.  Skirtuke **Apžvalga** pateiktas važtaraščių, kurie bus sugeneruoti šiame registravime, sąrašas. Jei siunčiate individualų užsakymą, paprastai būna vienas važtaraštis. Tačiau jei to užsakymo eilutės turi būti siunčiamos iš skirtingų vietų, registravimas bus automatiškai padalintas į atitinkamą skaičių dokumentų. Tai būtina sąlyga, kurios negalima keisti. Be to, jei užsakymo eilutės turi būti siunčiamos skirtingais pristatymo adresais, o siuntimo strategijoje nustatyta, kad būtų reikalaujama padalinimo, registravimas bus taip pat padalintas į keletą dokumentų.  
+7. Nustatykite parinkties **Spausdinti važtaraštį** nuostatą **Taip**.  Skirtuke **Apžvalga** pateiktas važtaraščių, kurie bus sugeneruoti šiame registravime, sąrašas. Jei siunčiate individualų užsakymą, paprastai būna vienas važtaraštis. Tačiau jei to užsakymo eilutės turi būti siunčiamos iš skirtingų vietų, registravimas bus automatiškai padalintas į atitinkamą skaičių dokumentų. Tai būtina sąlyga, kurios negalima keisti. Jei užsakymo eilutės bus siunčiamos skirtingais pristatymo adresais, o siuntimo strategijoje nustatyta, kad juos reikia padalyti, registravimas taip pat bus padalintas į kelis dokumentus panašiu būdu.  
 8. Skirtuke **Eilutės** pasirinkite užsakymo eilutės, kurią reikia išsiųsti, eilutę.
 9. Lauke **Naujinimas** įveskite skaičių, kuris yra mažesnis nei pradinis kiekis.
 10. Pasirinkite **Gerai**.

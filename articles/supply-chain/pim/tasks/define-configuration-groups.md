@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: de2209ccf5f55c02b94cfef1ffa759f748e201bb
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 094431f26fc92918b5baa97e4848fa78f3589d29
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844470"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147715"
 ---
 # <a name="define-configuration-groups"></a>Apibrėžti konfigūracijos grupes
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip nustatyti produkto konfigūracijos grupes sukuriant dvi grupes demonstracinių duomenų įmonėje „USMF Company“. Tai yra ketvirtoji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7777ba38e4bf41b17fae698200017b933fc9e876
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9196bedcea26a0024b3eabbbcb9c58a0155a7490
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188170"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141677"
 ---
 # <a name="customer-payment-overview"></a>Kliento mokėjimų apžvalga
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šis užduoties vadovas žingsnis po žingsnio apžvelgia įvairius klientų mokėjimų įvedimo būdus. Šioje užduotyje naudojama demonstracinė įmonė USMF.
 
@@ -45,7 +45,7 @@ ms.locfileid: "2188170"
 14. **Veiksmų srityje** spustelėkite Eilutės. Atidarydami eilutes matysite visus mokėjimus, kuriuos įrašėte į puslapį **Įvesti klientų mokėjimus** ir į žurnalą. Taip pat galite naudoti šį puslapį norėdami įvesti naujus klientų mokėjimus arba redaguoti esamus klientų mokėjimus prieš juos registruodami.
 15. Spustelėkite **Naujas**, kad sukurtumėte kitą mokėjimą. 
 16. Pažymėkite klientą, iš kurio gavote mokėjimą. Jei nežinote kliento, bet žinote įvykdytą mokėjimo operaciją, galite įvesti arba pažymėti sąskaitą faktūrą rankiniu būdu lauke „Sąskaita faktūra“. Pasirinkus sąskaitą faktūrą klientas bus rodomas kaip numatytasis.  
-17. Spustelėkite **Sudengti operacijas** norėdami pažymėti apmokėtas sąskaitas faktūras. Nereikia sudengti jokių sąskaitų faktūrų mokėjimo. Jei tai išankstinis mokėjimas ar jei nežinote, kokia sąskaita faktūra buvo apmokėta, galite įvesti ir registruoti mokėjimą. Mokėjimą sudengti pagal sąskaitą faktūrą bus galima vėliau.  
+17. Spustelėkite **Sudengti operacijas**, norėdami pažymėti apmokėtas sąskaitas faktūras. Nereikia sudengti jokių sąskaitų faktūrų mokėjimo. Jei tai išankstinis mokėjimas ar jei nežinote, kokia sąskaita faktūra buvo apmokėta, galite įvesti ir registruoti mokėjimą. Mokėjimą sudengti pagal sąskaitą faktūrą bus galima vėliau.  
 18. Pažymėkite sąskaitas faktūras, kurios buvo apmokėtos pasirinktu mokėjimu. 
 19. Lauke **Suma** įveskite mokėjimo sumą, kuri bus sudengta pagal sąskaitą faktūrą.
 20. Spustelėkite **Gerai**.

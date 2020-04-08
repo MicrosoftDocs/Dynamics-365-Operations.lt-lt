@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f9274a90ffbf6e5703d3ed97a8b974227b25c2a0
-ms.sourcegitcommit: 62d66f98d4bbf916e19184506b90055bb68d219f
+ms.openlocfilehash: 6383576302789d268d64edcbbe05305b03e956d0
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "1924383"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148714"
 ---
 # <a name="confirm-sales-orders"></a>Patvirtinti pardavimo užsakymus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra parodo, kaip patvirtinti pardavimo užsakymus. Jums bus parodyta, kaip patvirtinti vieną užsakymą, ir kaip patvirtinti kelis užsakymus vienu kartu. Šias užduotis paprastai atlieka pardavimo užsakymų tvarkytojas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami įsitikinkite, kad yra keletas atvirų to paties kliento pardavimo užsakymų. Jei naudojate USMF, galite naudoti klientą US-027.
 

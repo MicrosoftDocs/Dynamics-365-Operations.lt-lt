@@ -16,16 +16,16 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3b6254c63b73e175a9d9093bb58e96d480678920
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 496c4841d36174be3e65b0a4fc9a3a331662637f
+ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2174670"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3139025"
 ---
 # <a name="eur-00018-vat-reconciliation-report"></a>EUR-00018: PVM derinimo ataskaita
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje procedūroje parodoma, kaip generuoti mokesčių suderinimo ataskaitą, kurią gali naudoti Islandijos ir Norvegijos juridiniai subjektai. Ši užduotis buvo sukurta naudojant demonstracinių duomenų įmonę DEMF, o juridinio subjekto pirminio adreso šalis / regionas atnaujintas į Norvegiją.
 

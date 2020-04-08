@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e47124e22dd6c0e756bf42429327254f966b48a2
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 135b3a6bea2c0a8940550299504139551c9c3559
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2018094"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147508"
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a>Konkrečių įsigijimo kategorijų tiekėjų tvirtinimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip patvirtinti konkrečių įsigijimo kategorijų Dynamics 365 Supply Chain Management tiekėjus. Sukūrus pirkimo paraišką, gali reikėti pasirinkti patvirtintą arba pageidaujamą tiekėją, atsižvelgiant į tai, kaip nustatytos pirkimo strategijos. Šioje procedūroje parodoma, kaip nurodyti, kad konkrečios įsigijimo kategorijos tiekėjas yra patvirtintas arba pageidaujamas. Šią užduotį paprastai atlieka pirkimų profesionalai. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF.
 

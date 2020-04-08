@@ -3,7 +3,7 @@ title: Reguliavimo naujinimai
 description: Šioje temoje pateikiamas suplanuotų ir išleistų reguliavimo „Microsoft Dynamics 365 Finance“ naujinimų sąrašas.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 03/09/2020
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2aea83f99c7e5b017ae0cf9d755882739e22ccb7
-ms.sourcegitcommit: 48c39c0c0949fe48b3536d9d2d0e451d561ff5c6
+ms.openlocfilehash: f35ab4b3ad49edfd0b68f906f44b8a2b04787f1a
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3112760"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161810"
 ---
 # <a name="regulatory-updates"></a>Reguliavimo naujinimai
 
@@ -42,34 +42,38 @@ Naujausių reglamentavimo naujinių planų ieškokite toliau pateiktoje lentelė
 
 |Šalis|Suplanuota išleidimo data|Leidimo versija|Reguliavimo naujinimas|
 |--------------------|---------------|-------|-------|
-|      Brazilija         |   2020 m. kovo mėn. – 2020 m. sausio mėn.      | 10.0.9, 10.0.8      |   DRCST SC – potvarkis SEF Nr. 416    |
-|      Brazilija         |   2020 m. kovas – 2020 m. sausis     | 10.0.9, 10.0.8      |   SPED įnašas – maketas, skirtas 2020 m. sausio mėn. versijai    |
+|      Brazilija         |   2020 m. balandžio mėn. – 2020 m. sausio mėn.      | 10.0.10, 10.0.9 HF, 10.0.8 HF      |   DRCST SC – potvarkis SEF Nr. 416    |
+|      Brazilija         |   2020 m. balandžio mėn.      | 10.0.10      |   SPED įmokos (PIS / COFINS) – M115 ir M515 blokai    |
+|      Brazilija         |   2020 m. balandžio mėn.      | 10.0.10      |   SPED įmokos – įrašykite C100 ir D100 atnaujinimus, kai negalima atgauti kredito    |
+|      Brazilija         |   2020 m. balandžio mėn. – 2020 m. sausio mėn.     | 10.0.10, 10.0.9 HF, 10.0.8 HF      |   SPED įnašas – maketas, skirtas 2020 m. sausio mėn. versijai    |
 |      Brazilija         |   2020 m. kovo mėn.       | 10.0.9      |   Sped fiscal – pakeitimai įrašo D100 laukelyje COD_MUN_ORI    |
 |      Brazilija         |   2020 m. kovo mėn. – 2020 m. sausio mėn.       | 10.0.9, 10.0.8      |   DRCST SC – potvarkis SEF Nr. 254/19    |
 |      Brazilija         |   Sausio 2020 d.       | 10.0.8      |   Papildoma ICMS-ST informacija    |
-|      Brazilija        |   2020 m. kovo mėn. – 2020 m. sausio mėn.       | 10.0.9, 10.0.8, 10.0.8 HF      |   „SPED Fiscal” 014 maketas |
-|      Brazilija          |   2020 m. kovo mėn. – 2020 m. sausio mėn.       | 10.0.9, 10.0.8, 10.0.8 HF      |   DRCST SC – potvarkis SEF Nr. 343DR   |
-|      Prancūzija          |   2020 m. kovo mėn.       | 10.0.9      |   Prancūzijos lokalizacija: tarptautinių mokėjimų ir iždo pervedimų formatas, skirtas ISO 20022   |
-|      Vengrija          |   2020 m. kovo mėn.       | 10.0.9, 10.0.8      |   Internetinių sąskaitų išrašymo sistema v. 2.0, esanti „Finance and Operations“    |
-|      Indija          |   2020 m. kovo mėn.       | 10.0.9      |   Naujas GSTR (ANX-1 ir ANX-2) grąžinimo neprisijungus įrankis   |
-|      Italija          |   Sausio 2020 d.       | 10.0.8      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d., 119: kasmetinių mokesčių ryšys |
-|      Italija         |   2020 m. kovo mėn.     | 10.0.9, 10.0.8, 10.0.8 HF      |   „Retail“ – kliento informacijos valdymas EKA |
+|      Brazilija         |   2020 m. kovo mėn. – 2020 m. sausio mėn.       | 10.0.9, 10.0.8, 10.0.8 HF      |   „SPED Fiscal” 014 maketas |
+|      Brazilija         |   2020 m. kovo mėn. – 2020 m. sausio mėn.       | 10.0.9, 10.0.8, 10.0.8 HF      |   DRCST SC – potvarkis SEF Nr. 343DR   |
+|      Prancūzija         |   2020 m. balandžio mėn.       | 10.0.10      |   Teisinių mokesčių deklaravimas mokesčių rinkėjui, skirtas savarankiškai dirbantiems asmenims (DAS2)    |
+|      Prancūzija         |   2020 m. kovo mėn.       | 10.0.9      |   Prancūzijos lokalizacija: tarptautinių mokėjimų ir iždo pervedimų formatas, skirtas ISO 20022    |
+|      Indija         |   2020 m. kovo mėn.      | 10.0.9      |   Naujas GSTR (ANX-1 ir ANX-2) grąžinimo neprisijungus įrankis    |
+|      Italija         |   Sausio 2020 d.      | 10.0.8      |   PVM valdymo pakeitimai pagal D.L. 2018 m. spalio 23 d., 119: kasmetinių mokesčių ryšys    |
+|      Italija         |   2020 m. kovo mėn.      | 10.0.9, 10.0.8, 10.0.8 HF      |   „Retail“ – kliento informacijos valdymas EKA |
 |      Italija         |   2020 m. kovo mėn.      | 10.0.9, 10.0.8, 10.0.8 HF      |   „Retai“ – kliento informacijos spausdinimas fiskaliniame kvite |
 |      Japonija          |   2020 m. kovo mėn.     | 10.0.9, 10.0.8, 10.0.8 HF     |   Japonijos bankininkų asociacija keičia JBA fiksuoto ilgio mokėjimo formatus į ISO20022 |
 |      Japonija          |   Sausio 2020 d.      | 10.0.8       |   Įvedamas vartojimo mokesčio tarifo pakeitimas ir sumažintas mokesčių tarifas (Vartojimo mokesčio ataskaita) |
 |      Meksika          |   Sausio 2020 d.     | 10.0.8        |   „Retail“ - Visuotinės CFDI: 2019 m. įv. spr. - c_CodigoPostal ir laiko juosta |
 |      Meksika           |   Sausio 2020 d.       | 10.0.8     |   Kodo tikrinimas produktų ir paslaugų kataloge |
+|      Olandija          |   2020 m. balandžio mėn.   | 10.0.10     |   Naujoji olandų taksonomijos versija – NT14 |
 |      Norvegija          |   2020 m. kovo mėn.   | 10.0.9, 10.0.8, 10.0.8 HF     |   SAF-T XSD atnaujinimas į versiją 1.1, skirtą „Dynamics 365 for Finance and Operations“ |
 |      Lenkija          |   2020 m. kovo mėn.    | 10.0.9     |   Pirkimo PVM registras ir SAF PVM registras: muitinės įstaiga iš BAD dokumentų turi būti pakeista trečiosios šalies pavadinimu ir neapmokestinamuoju numeriu |
 |      Lenkija          |   2020 m. kovo mėn. – 2020 m. sausio mėn.   | 10.0.9, 10.0.8, 10.0.8 HF     |   „Retail“ – kliento informacijos valdymas EKA |
 |      Lenkija          |   2020 m. kovo mėn. – 2020 m. sausio mėn.     | 10.0.9, 10.0.8, 10.0.8 HF     |   „Retai“ – kliento informacijos spausdinimas fiskaliniame kvite |
 |      Lenkija          |   2020 m. kovo mėn. – 2020 m. sausio mėn.     | 10.0.9, 10.0.8     |   SAF SF (JPK_FA) v.3 nuo 2019 m. gruodžio 2 d. |
-|      Lenkija          |   2020 m. kovo mėn. – 2020 m. sausio mėn.     | 10.0.9, 10.0.8     |   JPK_VDEK, pakeičiantis JPK_VAT (SAF PVM) |
+|      Lenkija          |   2020 m. balandžio mėn. – 2020 m. sausio mėn.     | 10.0.10, 10.0.9, 10.0.8     |   JPK_VDEK, pakeičiantis JPK_VAT (SAF PVM) |
 |      Rusija          |   2020 m. kovo mėn.     | 10.0.9     |   Turto mokesčio deklaracijos formatas už 2019 m. |
 |      Rusija          |   2020 m. kovo mėn.     | 10.0.9     |   Pelno mokesčio deklaracijos formato atnaujinimai |
 |      Singapūras           |   Sausio 2020 d.     | 10.0.8      |   GST grąžinimo ataskaita |
 |      Šveicarija           |   2020 m. kovo mėn.     | 10.0.9      |   Šveicarijos mokėjimo kortelių ISR įgauna naują formatą (QR kodas) |
-|      Jungtinė Karalystė          |   Sausio 2020 d.       | 10.0.8      |   Mokesčių pavertimas skaitmeniniais (MTD) – sistemos administratoriaus sutikimas perduoti informaciją už D365 ribų, naudojant integravimą į HMRC |
+|      Jungtinė Karalystė           |   2020 m. balandžio mėn.     | 10.0.10      |   Mokesčių pavertimo skaitmeniniais (angl. MTD) sukčiavimo prevencijos papildytas paketas |
+|      Jungtinė Karalystė         |   Sausio 2020 d.      | 10.0.8      |   Mokesčių pavertimas skaitmeniniais (MTD) – sistemos administratoriaus sutikimas perduoti informaciją už D365 ribų, naudojant integravimą į HMRC    |
 
 
 

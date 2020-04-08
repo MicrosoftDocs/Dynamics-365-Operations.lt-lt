@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66b9636f6d9da06f0ea65ab311dd9308ff6ae020
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 374c31b5ea9160fba773e82f658e8de05c67cab4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184720"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143251"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>Duomenų modelio aprašo pasirinkimas, kuriant formatus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją“ ir pažymėti jį kaip aktyvų. 
 
-Ši procedūra nurodo, kaip modelio šakninis elementas gali būti pasirinktas kaip duomenų modelio aprašas įterpiant elektroninių ataskaitų (ER) formato konfigūraciją, skirtą generuoti elektroninius dokumentus. Atlikdami šią procedūrą sukursite pavyzdinės įmonės „Litware, Inc.“ naują ER formato konfigūraciją. 
+Ši procedūra nurodo, kaip modelio šakninis elementas gali būti pasirinktas kaip duomenų modelio aprašas norint įterpti elektroninių ataskaitų (ER) formato konfigūraciją, skirtą generuoti elektroninius dokumentus. Atlikdami šią procedūrą sukursite pavyzdinės įmonės „Litware, Inc.“ naują ER formato konfigūraciją. 
 
 Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų” veiksmus.  
+    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų veiksmus.  
 2. Spustelėkite Ataskaitų konfigūracijos.
 
 ## <a name="add-a-new-er-data-model-configuration"></a>Pridėkite naują ER duomenų modelio konfigūraciją
@@ -80,7 +80,7 @@ Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūr
 1. Spustelėkite Konstruktorius.
     * Naudokite ER kūrimo priemonę nurodyti modelio susiejimus reikalingiems šakniniams elementams.  
 2. Spustelėkite Konstruktorius.
-    * Modeliuokite pasirinktą modelio susiejimo nustatymą pasirinkto modelio šakniniam elementui.  
+    * Modeliuokite pasirinkto modelio susiejimo nustatymą pasirinkto modelio šakniniam elementui.  
 3. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 4. Spustelėkite „Įtraukti šaknį“.
 5. Lauke Pavadinimas įveskite „Didžioji knyga“.

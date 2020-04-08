@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6e913f3630862ba07718592cdd039940c5d40b8
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 34cd29c4c31e1941c4e4acdbc1609210ea46934f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187687"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142299"
 ---
 # <a name="process-and-trace-source-data"></a>Apdoroti ir sekti šaltinio duomenis
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Visą duomenų apdorojimą vykdo užduotys. Kiekvienai užduočiai ir duomenų teikėjui sukuriamas žurnalas dokumentuoti, kad procesas buvo vykdomas, ir kad įrašai buvo apdoroti dabartinėje užduotyje. Naudokite šią procedūrą, norėdami nustatyti duomenų šaltinį, ir tada sekite konkretaus savikainos įrašo kilmę. Šiame įraše naudojama USP2 demonstracinių duomenų įmonė USP2. Prieš atlikdami šią užduotį įsitikinkite, kad leidžiate tolesnes užduoties nuorodas: „Sukurkite savikainos apskaitos didžiąją knygą“, „Apibrėžkite savikainos kontrolės įtaisus“ ir „Valdykite duomenų šaltinį savikainos apskaitos didžiajai knygai“.
 

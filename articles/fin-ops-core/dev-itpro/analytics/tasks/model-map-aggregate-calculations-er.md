@@ -15,22 +15,22 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3084882dd4b51f067793b3a7999ce89cda1257d9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0912b620fc70f8ed33e336da9ecefacd1f4e376e
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184605"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143182"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Modelio susiejimo konfigūracijų naudojimas agreguotiems skaičiavimams duomenų bazės lygiu
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują elektroninių ataskaitų (ER) modelio susiejimo konfigūraciją ir, siekiant efektyviai sutelkti skaičiavimus, naudoti integruotas ER funkcijas. Šioje procedūroje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją. 
 
 Ši procedūra sukurta vartotojams, kuriems priskirtas vaidmuo Sistemos administratorius arba Elektroninių ataskaitų teikimo programuotojas. Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį.
 
- Norėdami atlikti šiuos veiksmus, turite užbaigti procedūros „ER pagerina sujungtų skaičiavimų efektyvumą juos atliekant duomenų bazės lygmeniu (1 dalis: Konfigūracijų parengimas)“ veiksmus.
+ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „ER pagerina agreguotų skaičiavimų efektyvumą juos atliekant duomenų bazės lygmeniu (1 dalis. Konfigūracijų parengimas)“ veiksmus.
 
 1. Eikite į Organizacijos administravimas > Elektroninės ataskaitos > Konfigūracijos.
 2. Medyje išplėskite „Intrastat“ modelis.
@@ -52,7 +52,7 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
     * TransactionsGroups  
 14. Spustelėkite Redaguoti grupę pagal.
 15. Medyje pasirinkite „Operacijos“.
-    * Pasirinkite norimus grupuoti įrašus apimantį tipo „Įrašų sąrašas“ įtrauktą dumenų šaltinį.  
+    * Pasirinkite „Įrašų sąrašas“ tipo, kuris žymi duomenis, kuriuos norite grupuoti, pridėtus duomenų šaltinius.  
 16. Spustelėkite Įtraukti lauką į.
 17. Spustelėkite Ką grupuoti.
 18. Medyje išplėskite „Operacijos“.
@@ -70,7 +70,7 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 27. Lauke Pavadinimas įveskite „SumOfAmountMST“ (bendroji MST suma).
     * Nurodykite šio telkimo pavadinimą sukonfigūruotame duomenų šaltinyje.  
 28. Spustelėkite Įrašyti.
-    * Atkreipkite dėmesį į tai, kad lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo metu SQL duomenų bazėje.  
+    * Atkreipkite dėmesį, kad lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo metu SQL duomenų bazėje.  
 29. Uždarykite puslapį.
 30. Spustelėkite GERAI.
 31. Medyje išplėskite „Totals“ (bendrosios sumos).
@@ -79,7 +79,7 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 34. Medyje pasirinkite „OperacijųGrupės\susietos\BendrojiMSTsuma“.
 35. Medyje pasirinkite „Totals\Total invoice value(TotalInvoiceValue) = IF(ISEMPTY(IntrastatTotals), 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded')“.
 36. Spustelėkite Susieti.
-    * Pagal šį parametrą šis duomenų šaltinis skaičiuos kiekvienos operacijų grupės lauko „AmountMST“ verčių sumą. Šis telkimo skaičiavimas bus pasiekiamas kaip elementas TransactionsGroups.aggregated.TotalAmount.  
+    * Pagal šį parametrą, šis duomenų šaltinis skaičiuos kiekvienos operacijų grupės lauko „AmountMST“ verčių sumą. Šis telkimo skaičiavimas bus pasiekiamas kaip elementas TransactionsGroups.aggregated.TotalAmount.  
 37. Medyje išplėskite „TransactionsGroups“ (operacijų grupės).
 38. Medyje pasirinkite „TransactionsGroups“ (operacijų grupės).
 39. Spustelėkite Redaguoti.
@@ -92,8 +92,8 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 46. Lauke Metodas pasirinkite „Max“ (maksimalus).
 47. Lauke Pavadinimas įveskite „MaxOfAmountMST“ (maksimali MST suma).
 48. Spustelėkite Įrašyti.
-    * Šiuo metu GROUPBY duomenų šaltinių vykdymas gali būti konvertuotas į SQL duomenų bazės lygį taikant tam tikrus apribojimus. Galima atlikti tipo „Įrašų sąrašas“ duomenų šaltinių arba kaip išraiška pateikiamų duomenų šaltinių konvertavimą naudojant funkciją FILTER (filtras). Tai taip pat galima atlikti, kai sukonfigūruotas tik vienas vieno grupavimo įrašų lauko telkimas.  
-    * Atkreipkite dėmesį į tai, kad, nors sukonfigūruotas daugiau nei vienas lauko AmountMST telkimas, lauke „Vykdymas“ vis tiek nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku SQL duomenų bazėje. Taip yra todėl, kad su duomenų modelio elementu susietas tik vienas telkimas, kuris bus naudojamas vykdymo laiku norint ištraukti duomenis iš šio duomenų šaltinio.  
+    * Šiuo metu GROUPBY duomenų šaltinių vykdymas gali būti konvertuotas į SQL duomenų bazės lygį taikant tam tikrus apribojimus. Galima atlikti tipo „Įrašų sąrašas“ duomenų šaltinių arba kaip išraiška pateikiamų duomenų šaltinių konvertavimą naudojant funkciją FILTRAS. Tai taip pat galima atlikti, kai sukonfigūruotas tik vienas vieno grupavimo įrašų lauko telkimas.  
+    * Atkreipkite dėmesį, kad, nors sukonfigūruotas daugiau nei vienas lauko AmountMST telkimas, lauke „Vykdymas“ vis tiek nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku SQL duomenų bazėje. Taip yra todėl, kad su duomenų modelio elementu susietas tik vienas telkimas, kuris bus naudojamas vykdymo laiku norint ištraukti duomenis iš šio duomenų šaltinio.  
 49. Uždarykite puslapį.
 50. Spustelėkite GERAI.
 51. Medyje išplėskite „TransactionsGroups“ (operacijų grupės).
@@ -105,7 +105,7 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 57. Medyje pasirinkite „TransactionsGroups“ (operacijų grupės).
 58. Spustelėkite Redaguoti.
 59. Spustelėkite Redaguoti grupę pagal.
-    * Atkreipkite dėmesį į tai, lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku atmintyje, nes abu to paties lauko telkimai susieti su duomenų modelio elementais.   
+    * Atkreipkite dėmesį, lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku atmintyje, nes abu to paties lauko telkimai susieti su duomenų modelio elementais.   
 60. Pažymėkite arba atžymėkite visas sąrašo eilutes.
 61. Spustelėkite Naikinti.
 62. Spustelėkite Taip.
@@ -115,5 +115,5 @@ Naudojant šią procedūrą pateikiama informacija apie tai, kaip sukurti naują
 66. Spustelėkite Ką grupuoti.
 67. Medyje išplėskite „Commodity record(Intrastat)“.
 68. Spustelėkite Įrašyti.
-    * Atkreipkite dėmesį į tai, kad lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku atmintyje, nors nėra nurodytų telkimų, o pasirinktas tipo „Lentelės įrašai“ duomenų šaltinis paremtas ta pačia „Intrastat“ lentele. Taip yra todėl, kad duomenų šaltinyje yra keletas apskaičiuotų laukų, kurie dar negali būti konvertuoti į SQL duomenų bazės lygį.  
+    * Atkreipkite dėmesį, kad lauke „Vykdymas“ nurodoma, kad šis grupavimas bus atliekamas vykdymo laiku atmintyje, nors nėra nurodytų telkimų, o pasirinktas tipo „Lentelės įrašai“ duomenų šaltinis paremtas ta pačia „Intrastat“ lentele. Taip yra todėl, kad duomenų šaltinyje yra keletas apskaičiuotų laukų, kurie dar negali būti konvertuoti į SQL duomenų bazės lygį.  
 

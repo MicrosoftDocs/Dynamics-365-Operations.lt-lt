@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bbed62c80c14e7cfe96d38d43a5db39b0469d939
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184927"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142460"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Formato keitimas siekiant generuti dokumentus, kuriuose yra prašymo duomenys
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Norėdami atlikti šios procedūros veiksmus, turite pirma užbaigti procedūrą „ER generuoti dokumentus su programos duomenų atnaujinimu (3 dalis: modifikuoti modelį ir susiejimą)“.
 
@@ -97,12 +97,12 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Keiskite formatą, norėdami įsiminti ataskaitų informaciją
 1. Spustelėkite Susieti formatą su modeliu.
 2. Spustelėkite Naujas.
-3. Lauke Apibrėžtis įveskite arba pasirinkite šakninį elementą „Programos duomenų atnaujinimui“.
+3. Lauke Apibrėžtis įveskite arba pasirinkite šakninį elementą „Programos duomenų naujinimui“.
     * Programos duomenų atnaujinimui  
 4. Lauke Pavadinimas įrašykite „Susiejimas duomenų atnaujinimui“.
     * Susiejimas duomenims atnaujinti  
 5. Spustelėkite Įrašyti.
-    * Šis susiejimas apibrėžia, kaip Intrastat ataskaitos duomenys surenkami duomenų modelyje, struktūrą, kuri nustatoma pagal pasirinktą šakninį elementą „Programos duomenų atnaujinimui“. Šie duomenys, modelio susiejimas su pačiu šakniniu elementu „Programos duomenų atnaujinimui“ ir kryptis „Į paskirties vietą“ bus naudojami programos duomenų atnaujinimui. Programos duomenų atnaujinimas prasideda iš karto po to, kai sugeneruojama siunčiama Intrastat ataskaita. Atkreipkite dėmesį, kad programos duomenų atnaujinimas gali būti praleidžiamas vykdymo metu, tačiau duomenų modelis turi būti tuščias (su tuščiu įrašų sąrašu).   
+    * Šis susiejimas apibrėžia, kaip „Intrastat“ ataskaitos duomenys surenkami duomenų modelyje, kurio struktūra yra nustatoma pagal pasirinktą šakninį elementą „Programos duomenų naujinimui“. Šie duomenys, modelio susiejimas su tuo pačiu šakniniu elementu „Programos duomenų naujinimui“ ir kryptis „Į paskirties vietą“ bus naudojami programos duomenų naujinimui. Programos duomenų atnaujinimas prasideda iš karto po to, kai sugeneruojama siunčiama Intrastat ataskaita. Atkreipkite dėmesį, kad programos duomenų atnaujinimas gali būti praleidžiamas vykdymo metu, tačiau duomenų modelis turi būti tuščias (su tuščiu įrašų sąrašu).   
 6. Spustelėkite Konstruktorius.
     * Žinokite, kad siunčiamos Intrastat ataskaitos formatas yra įtrauktas numatytai kaip šio modelio susiejimo duomenų šaltinis.  
     * Susiekite sukurtos ataskaitos elementus (pateikiamus kaip duomenų šaltinis) su duomenų modelio, kuris filtruojamas pagal pasirinktą modelio šakninį elementą, elementais.  

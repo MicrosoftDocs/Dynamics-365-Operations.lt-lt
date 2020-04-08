@@ -19,18 +19,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9593e8e54b18c6fe723a133eca699a30baabfdd0
-ms.sourcegitcommit: e0e013fa8a4cc994ef6d1e0a1a3389b36b5afffa
+ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "3081156"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173205"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 Kai verslo ekosistema sudaryta iš „Dynamics 365“ programų, pvz., „Finance“, „Supply Chain Management“ ir „Sales“, natūralu, įmonės šias programas dažnai naudoja kaip produktų duomenų šaltinį. Taip yra todėl, kad šios programos sudaro patikimą produktų infrastruktūrą, papildytą sudėtingomis kainodaros koncepcijomis ir tiksliais turimų atsargų duomenimis. Įmonės, kurios produkto duomenims gauti naudoja Produkto ciklo tapatybės valdymo sistemą, gali nukreipti produktus iš programų „Finance and Operations“ į kitas „Dynamics 365“ programas. Bendroji produkto funkcija leidžia integruoti produktų duomenų modelį į „Common Data Service“, kad visi programų vartotojai, įskaitant „Power Platform“ vartotojus, galėtų naudotis išsamiais produktų, gaunamų iš „Finance and Operations“ programų, duomenimis.
 
@@ -52,7 +52,7 @@ Produktų, turinčių dvigubą rašymą, objektų schemos buvo sukurtos duomenų
 
 Produkto informacija apima visą su produktu ir jo apibrėžtimi susijusią informaciją, pvz., produkto dimensijas arba sekimo ir saugojimo dimensijas. Kaip parodyta toliau esančioje lentelėje, sukurtas objektų schemų rinkinys, skirtas produktų ir susijusios informacijos sinchronizavimui.
 
-„Finance and Operations“ | Kitos „Dynamics 365” programos | Aprašymas
+„Finance and Operations” programėlės | Kitos „Dynamics 365” programos | aprašymas
 -----------------------|--------------------------------|---
 Išleisti produktai V2 | msdyn\_sharedproductdetails | **msdyn\_sharedproductdetails** objektas apima programų „Finance and Operations“ laukus, kurie apibūdina produktą ir kuriuose yra produkto finansinė ir valdymo informacija. 
 „Common Data Service“ išleisti išskirtieji produktai | Produktas | Objekte **Produktas** yra laukų, kurie apibrėžia produktą. Tai yra atskirų produktų (produktų su potipio produktu) ir produkto variantų informacija. Toliau esančioje lentelėje nurodyti ryšiai.
@@ -75,8 +75,8 @@ Vienetas | mat. vnt.
 Vienetų konvertavimas | msdyn_ unitofmeasureconversions
 Būdingo produkto matavimo vieneto konvertavimas | msdyn_productspecificunitofmeasureconversion
 Produkto kategorijos | msdyn_productcategories | Kiekviena produktų kategorija ir informacija apie jos struktūrą bei charakteristikas yra įtraukta į produktų kategorijos objektą. 
-Produktų kategorijų hierarchijos | msdyn_productcategoryhierarhies | Produktų hierarchijos naudojamos produktus skirstant į kategorijas arba grupuojant. Kategorijų hierarchijos tarnyboje „Common Data Service“ pasiekiamos naudojant objektą Produktų kategorijų hierarchija. 
-Produktų kategorijų hierarchijų vaidmenys | msdyn_productcategoryhierarchies | Produktų hierarchijos gali būti naudojamos skirtingoms „D365 Finance and Operations“ užduotims. Norint nurodyti, kuri kategorija naudojama su kiekvienu vaidmeniu, naudojamas produktų kategorijos vaidmens objektas. 
+Produktų kategorijų hierarchijos | msdyn_productcategoryhierarhies | Produktų klasifikavimui ar grupavimui naudojamos produktų hierarchijos. Kategorijų hierarchijos galimos tarnyboje „Common Data Service” naudojant produkto kategorijų hierarchijos objektą. 
+Produktų kategorijų hierarchijų vaidmenys | msdyn_productcategoryhierarchies | Produktų hierarchijos gali būti naudojamos skirtingoms „D365 Finance and Operations“ užduotims. Jomis nurodoma, kuri kategorija naudojama su kiekvienu vaidmeniu ar kuris naudojamas produktų kategorijos vaidmens objektas. 
 Produktų kategorijos priskyrimai | msdyn_productcategoryassignments | Norint produktą priskirti kategorijai, galima naudoti produktų kategorijų priskyrimų objektą.
 
 ## <a name="integration-of-products"></a>Produktų integravimas
@@ -133,9 +133,9 @@ Tam, kad būtų galima sekti produkto dimensijas, kurias gali turėti bendrasis 
 
 [!include [product bar codes](includes/EcoResProductNumberIdentifiedBarcode-msdyn-productbarcodes.md)]
 
-## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Numatytieji užsakymo parametrai ir konkretaus produkto numatytieji užsakymo parametrai
+## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Numatytieji užsakymo parametrai ir su konkrečiu produktu susiję numatytieji užsakymo parametrai
 
-Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Ši informacija pasiekiama tarnyboje „Common Data Service“ naudojant numatytųjų užsakymo parametrų ir konkretaus produkto numatytųjų užsakymo parametrų objektą. Daugiau informacijos apie funkciją galite perskaityti [temoje Numatytieji užskaymų parametrai](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Ši informacija pasiekiama tarnyboje „Common Data Service“ naudojant numatytųjų užsakymo parametrų ir su konkrečiu produktu susijusių numatytųjų užsakymo parametrų objektą. Daugiau informacijos apie funkciją galite perskaityti [temoje Numatytieji užskaymų parametrai](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 
@@ -143,7 +143,7 @@ Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus p
 
 ## <a name="unit-of-measure-and-unit-of-measure-conversions"></a>Matavimo vienetas ir matavimo vieneto konvertavimai
 
-Matavimo vienetai ir atitinkami konvertavimai tarnyboje „Common Data Service“ pasiekiami pagal diagramoje pavaizduotą duomenų modelį.
+Matavimo vienetai ir atitinkamas konvertavimas tarnyboje „Common Data Service“ pasiekiami pagal diagramoje pavaizduotą duomenų modelį.
 
 ![Produktų duomenų modelis](media/dual-write-product-three.png)
 
@@ -153,13 +153,13 @@ Matavimo vieneto koncepcija yra integruota tarp programų „Finance and Operati
 
 [!include [unit of measure conversions](includes/UnitOfMeasureConversionEntity-msdyn-unitofmeasureconversions.md)]
 
-[!include [product specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
+[!include [product-specific unit of measure conversions](includes/EcoResProductSpecificUnitConversionEntity-msdyn-productspecificunitofmeasureconversions.md)]
 
 ## <a name="initial-synchronization-of-units-data-matching-between-finance-and-operations-and-common-data-service"></a>Pradinis vienetų duomenų suderinimo tarp „Finance and Operations“ ir „Common Data Service“ sinchronizavimas
 
 ### <a name="initial-synchronization-of-units"></a>Pradinis vienetų sinchronizavimas
 
-Įgalinus dvigubo rašymo funkciją, programų „Finance and Operations“ vienetai sinchronizuojami su kitomis „Dynamics 365“ programomis. Vienetų grupės, susinchronizuotos iš programų „Finance and Operations“, esančių „Common Data Service“, yra pažymėtos vėliavėle, kuri rodo, kad jos yra „Tvarkomos išorėje“.
+Įgalinus dvigubo rašymo funkciją, programų „Finance and Operations“ vienetai sinchronizuojami su kitomis „Dynamics 365“ programomis. Vienetų grupės, susinchronizuotos iš „Finance and Operations“ programų, esančių „Common Data Service“, yra pažymėtos vėliavėle, kuri rodo, kad jos yra „Tvarkomos išorėje“.
 
 ### <a name="matching-units-and-unit-classesgroups-data-from-finance-and-operations-and-other-dynamics-365-apps"></a>Vienetų ir vienetų klasių / grupių duomenų suderinimas iš „Finance and Operations“ ir kitų „Dynamics 365“ programų
 
@@ -167,12 +167,12 @@ Pirmiausia svarbu pažymėti, kad vieneto integravimo raktas yra msdyn_symbol. T
 
 Skirta vienetams, atitinkantiems / sutampantiems programose „Finance and Operations“ ir kitose „Dynamics 365“ programose.
 
-+ **Kitose „Dynamics 365“ programose vienetas priklauso vienetų grupei, kuri atitinka susietą vienetų klasę programose „Finance and Operations“**. Tokiu atveju laukas „msdyn_symbol“ kitose „Dynamics 365“ programose turi būti užpildytas vieneto simboliu iš programų „Finance and Operations“. Taip gretinant duomenis vienetų grupė kitose „Dynamics 365“ programose bus nustatyta kaip Tvarkoma išorėje.
++ **Kitose „Dynamics 365“ programose vienetas priklauso vienetų grupei, kuri atitinka susietą vienetų klasę programose „Finance and Operations“**. Tokiu atveju laukas „msdyn_symbol“ kitose „Dynamics 365“ programose turi būti užpildytas vieneto simboliu iš programų „Finance and Operations“. Taip gretinant duomenis vienetų grupė kitose „Dynamics 365“ programose bus nustatyta kaip „Tvarkoma išorėje”.
 + **Vienetas priklauso vienetų grupei kitose „Dynamics 365“ programose, kurios neatitinka susietos vienetų klasės programose „Finance and Operations“ (vienetų klasė neegzistuoja programose „Finance and Operations“, skirtose vienetų klasei kitose „Dynamics 365“ programose).** Tokiu atveju lauką msdyn_symbol reikia užpildyti atsitiktine eilute. Atkreipkite dėmesį, kad ši reikšmė kitose „Dynamics 365“ programose turi būti unikali.
 
 Jei vienetai ir vienetų klasės, esančios programose „Finance and Operations“, neegzistuoja kitose „Dynamics 365“ programose:
 
-Kaip dvigubo rašymo funkcijos dalis, vienetų grupės, esančios programose „Finance and Operations“, ir jas atitinkantys vienetai yra sukuriami ir sinchronizuojamo kitose „Dynamics 365“ programose ir „Common Data Service“, o vienetų grupė nustatoma kaip „Tvarkoma išorėje“. Nereikia atlikti jokių papildomų perkrovimo veiksmų.
+Kaip dvigubo rašymo funkcijos dalis, vienetų grupės, esančios „Finance and Operations“ programose, ir jas atitinkantys vienetai yra sukuriami ir sinchronizuojami kitose „Dynamics 365“ programose ir „Common Data Service“, o vienetų grupė nustatoma kaip „Tvarkoma išorėje“. Nereikia atlikti jokių papildomų perkrovimo veiksmų.
 
 Skirta vienetams kitose „Dynamics 365“ programose, kurie neegzistuoja programose „Finance and Operations“.
 
@@ -203,7 +203,7 @@ Produktų strategijos yra strategijų rinkiniai, naudojami produktams apibrėžt
 
 Siekiant unikaliai identifikuoti „Dynamics 365 for Finance and Operations“ ir „Common Data Service“ produktus, naudojami integravimo raktai. Tarnyboje „Common Data Service“ produktas identifikuojamas unikaliu raktu **(productnumber)**. Jį sudaro jungtinis elementas **(company, msdyn_productnumber)**. **Įmonė** nurodo juridinį subjektą, esantį „Finance and Operations“, ir **„msdyn_productnumber“** nurodo konkretaus produkto „Finance and Operations“ produkto numerį. 
 
-Kitų „Dynamics 365“ programų vartotojui produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad lauko žyma yra **Produkto numeris**). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau laukas (productnumber) – unikalus produkto raktas – nerodomas. 
+Kitų „Dynamics 365“ programų vartotojams produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad lauko žyma yra **Produkto numeris**). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau laukas (productnumber) – unikalus produkto raktas – nerodomas. 
 
 Jei kuriate programas, naudodami „Common Data Service“, turėtumėte atkreipti dėmesį į **productnumber** (unikalaus produkto ID) naudojimą kaip integravimo kodą. Nenaudokite **msdyn_productnumber**, nes jis nėra unikalus. 
 
