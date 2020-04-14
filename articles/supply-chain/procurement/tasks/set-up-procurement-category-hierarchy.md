@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d7010a1c612b9b3884c675f578657d951da06c38
-ms.sourcegitcommit: 25fe679b73663fda6b5b3c32646026d0993a9f00
+ms.openlocfilehash: c7010fb702d16dc276bfee397066ccf95bf5d25a
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "1995287"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147278"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Nustatyti įsigijimo kategorijų hierarchiją
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip sukurti naujų mazgų įsigijimo kategorijų hierarchijoje ir kaip konfigūruoti įsigijimo kategoriją, kuri bus naudojama įsigijimo procese. Šias užduotis paprastai atlieka pirkimo vadybininkas. Šią procedūrą galėsite pradėti tik esant įsigijimo tipo kategorijų hierarchijai. Jei naudojate demonstracinių duomenų įmonę, šią procedūrą galite vykdyti su USMF įmonėje.
 
@@ -39,7 +39,7 @@ ms.locfileid: "1995287"
 7. Pasirinkite **Įrašyti**.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Įtraukti produktus į naują įsigijimo kategoriją
-1. Eikite į **Įsigijimas ir šaltiniai > Konsignacija > Įsigijimo kategorijos**. Pasirinkite mazgą, kurį ką tik pridėjote. Jei šią procedūrą vykdote kaip užduočių vadovą, jį gali reikėti atrakinti, kad galėtumėte pasirinkti mazgą,  
+1. Eikite į **Įsigijimas ir šaltiniai > Konsignacija > Įsigijimo kategorijos**. Pasirinkite mazgą, kurį ką tik pridėjote. Jei vykdote šią procedūrą kaip užduoties vadovą, gali reikėti atrakinti užduoties vadovą, kad pasirinktumėte mazgą.  
 2. Perjunkite skyriaus **Produktai** išplėtimą.
 3. Spustelėkite **Įtraukti**, kad susietumėte produktus su įsigijimo kategorija.
 4. Pasirinkite produktus, kuriuos norite įtraukti į įsigijimo kategoriją.

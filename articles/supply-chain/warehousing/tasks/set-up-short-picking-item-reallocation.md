@@ -1,6 +1,6 @@
 ---
 title: Trumpalaikio išrinkimo elementų perskirstymo nustatymas
-description: Šioje procedūroje parodoma, kaip sandėlio darbuotojams suteikti galimybę greitai rasti kitų vietų, jei vietoje, į kurią jie buvo nukreipti, atsargų nepakanka.
+description: Šioje procedūroje pateikiama informacija apie tai, kaip įgalinti sandėlio darbuotojus greitai rasti alternatyvias vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,24 +17,24 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 964302cb7e7835b6e619602ac7165c9e7adbcefb
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: eae86b307ac8d8539c3897293c2fc21ea57d2d60
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916765"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148244"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Trumpalaikio išrinkimo elementų perskirstymo nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šioje procedūroje parodoma, kaip sandėlio darbuotojams suteikti galimybę greitai rasti kitų vietų, jei vietoje, į kurią jie buvo nukreipti, atsargų nepakanka. Galima naudoti automatinio pakartotinio paskirstymo procesą, kuris naudoja vietos nurodymus prekėms gauti, jei jų yra kitoje vietoje. Kitu atveju, kai naudojamas neautomatinis pakartotinis paskirstymas, mobiliajame įrenginyje rodomas vietų su turimu kiekiu sąrašas, todėl sandėlio darbuotojas gali pasirinkti, kurios vietos atsargas naudoti. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
+Šioje procedūroje pateikiama informacija apie tai, kaip įgalinti sandėlio darbuotojus greitai rasti alternatyvias vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų. Galima naudoti automatinį perskirstymo procesą, kuris naudoja vietos direktyvas prekėms gauti, jei jų yra kitoje vietoje. Kitu atveju, kai naudojamas neautomatinis pakartotinis paskirstymas, mobiliajame įrenginyje rodomas vietų su turimu kiekiu sąrašas, todėl sandėlio darbuotojas gali pasirinkti, kurios vietos atsargas naudoti. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
 
 ## <a name="set-up-work-exceptions"></a>Nustatyti darbo išimtis
 1. **Naršymo srityje** eikite į **Sandėlio valdymas > Sąranka > Darbas > Darbo išimtys**.
-2. Spustelėkite **Naujas**. Galima apibrėžti kelias darbo išimtis su skirtingomis prekių perskirstymo strategijomis, norint suteikti sandėlio darbuotojui galimybę strategiją pasirinkti pagal su jo apdorojama siunta susijusius poreikius.  
-3. Lauke **Darbo išimties kodas** įveskite reikšmę. Nurodykite darbo išimties pavadinimą nurodydami, kam ji naudojama. Pavyzdžiui, Neautomatinis nevisiškas paėmimas.  
+2. Spustelėkite **Naujas**. Galima apibrėžti keletą darbo išimčių, naudojant skirtingas elementų perskirstymo strategijas, kad sandėlio darbuotojas galėtų pasirinkti vieną, atsižvelgdamas į siuntos, kurią jis apdoroja, specifikacijas.  
+3. Lauke **Darbo išimties kodas** įveskite reikšmę. Sukurkite pavadinimą darbo išimčiai, kad būtų aišku, kam ji naudojama. Pavyzdžiui, Neautomatinis nevisiškas paėmimas.  
 4. Lauke **Aprašo laukas**surinkite reikšmę.
 5. Lauke **Išimties tipas** pasirinkite Nevisiškas paėmimas.
 6. Pažymėkite žymės langelį **Koreguoti atsargas**. Ši parinktis nurodo, kad atsargų lygis bus automatiškai nustatytas į 0 vietoje, iš kurioje bus vykdomas nevisiškas paėmimas.  

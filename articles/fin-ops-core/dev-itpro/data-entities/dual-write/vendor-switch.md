@@ -1,6 +1,6 @@
 ---
 title: Perjungti iš vieno tiekėjo dizaino į kitą
-description: Šioje temoje aprašoma, kaip perjungti tiekėjo duomenų integravimą tarp „Finance and Operations“ programų ir „Common Data Service“.
+description: Šioje temoje aprašoma, kaip perjungti tiekėjo duomenų integravimą programose „Finance and Operations“ ir „Common Data Service“.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 09/20/2019
@@ -19,48 +19,61 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 587a9b98f28b11e303aff4b59e9726f220d956eb
-ms.sourcegitcommit: 54baab2a04e5c534fc2d1fd67b67e23a152d4e57
+ms.openlocfilehash: ffd7a4c01810578b4abb6942aeff76e5147fafa9
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3019913"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3173044"
 ---
 # <a name="switch-between-vendor-designs"></a>Perjungti iš vieno tiekėjo dizaino į kitą
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
+
 
 ## <a name="vendor-data-flow"></a>Tiekėjo duomenų srautas 
 
-Jei tiekėjams valdyti naudojate kitas „Dynamics 365” programas ir norite atskirti tiekėjo informaciją nuo klientų, naudokite šį bazinį tiekėjo dizainą.  
+Jei nuspręsite naudoti objektą **Klientas**, kad galėtumėte išsaugoti tipo **Organizacija** tiekėjus, o objektą **Kontaktas**, kad galėtumėte išsaugoti tipo **Asmuo** tiekėjus, sukonfigūruokite toliau nurodytas darbo eigas. Priešingu atveju ši konfigūracija nebūtina.
 
-![Bazinis tiekėjo srautas](media/dual-write-vendor-data-flow.png)
- 
-Jei tiekėjams valdyti naudojate kitas „Dynamics 365” programas ir norite toliau naudoti objektą **Klientas** tiekėjo informacijai saugoti, naudokite šį išplėstąjį tiekėjo dizainą. Taikant šį dizainą išplėstinė tiekėjo informacija, pvz., tiekėjo sulaikymo būsena ir profilis, saugoma „Common Data Service“ **tiekėjų** objekte. 
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Tipo Organizacija tiekėjams naudokite išplėstinį tiekėjo dizainą
 
-![Išplėstinis tiekėjo srautas](media/dual-write-vendor-detail.jpg)
- 
-Norėdami naudoti išplėstinį tiekėjo dizainą, atlikite toliau nurodytus veiksmus. 
- 
-1. **SupplyChainCommon** sprendimo pakete pateikiami darbo eigos procesų šablonai, kaip parodyta tolesniame vaizde.
-    > [!div class="mx-imgBorder"]
-    > ![Darbo eigos procesų šablonai](media/dual-write-switch-3.png)
-2. Naujus darbo eigos procesus galite kurti naudodami darbo eigos procesų šablonus, kaip nurodyta toliau. 
-    1. Naudodami darbo eigos procesą **Kurti tiekėjus kliento objekte**, sukurkite naują objekto **Tiekėjas** darbo eigos procesą ir spustelėkite **Gerai**. Šia darbo eiga tvarkomas objekto **Klientas** tiekėjų kūrimo scenarijus.
-        > [!div class="mx-imgBorder"]
-        > ![Kurti tiekėjus kliento objekte](media/dual-write-switch-4.png)
-    2. Naudodami darbo eigos procesą **Atnaujinti klientų objektą**, sukurkite naują objekto **Tiekėjas** darbo eigos procesą ir spustelėkite **Gerai**. Šia darbo eiga tvarkomas objekto **Klientas** tiekėjų naujinimo scenarijus. 
-        > [!div class="mx-imgBorder"]
-        > ![Atnaujinti klientų objektą](media/dual-write-switch-5.png)
-    3. Sukurkite naujų darbo eigos procesų pagal objekte **Klientai** sukurtus šablonus. 
-        > [!div class="mx-imgBorder"]
-        > ![Kurti tiekėjus tiekėjų objekte](media/dual-write-switch-6.png)
-        > [!div class="mx-imgBorder"]
-        > ![Atnaujinti tiekėjų objektą](media/dual-write-switch-7.png)
-    4. Darbo eigas pagal poreikius galite konfigūruoti kaip realiuoju laiku vykdomas arba fonines darbo eigas. 
-        > [!div class="mx-imgBorder"]
-        > ![Konvertavimas į foninę darbo eigą](media/dual-write-switch-8.png)
-    5. Norėdami pradėti tiekėjų informaciją saugoti naudojant objektą **Klientas**, suaktyvinkite darbo eigas, kurias sukūrėte objektuose **Klientas** ir **Tiekėjas**. 
- 
+**„Dynamics365FinanceExtended“** sprendimų pakete yra toliau nurodyti darbo eigos proceso šablonai. Sukurkite darbo eigą kiekvienam šablonui.
+
++ Tiekėjų kūrimas objekte Klientai
++ Tiekėjų kūrimas objekte Tiekėjai
++ Tiekėjų naujinimas objekte Klientai
++ Tiekėjų naujinimas objekte Tiekėjai
+
+Norėdami sukurti naujus darbo eigos procesus, naudojant darbo eigos proceso šablonus, atlikite toliau nurodytus veiksmus.
+
+1. Sukurkite darbo eigos procesą objektui **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas objekte Klientai**. Tada pasirinkite **Gerai**. Šia darbo eiga tvarkomas objekto **Klientas** tiekėjų kūrimo scenarijus.
+
+    ![Tiekėjų kūrimas darbo eigos proceso objekte Klientas](media/create_process.png)
+
+2. Sukurkite darbo eigos procesą objektui **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų naujinimas objekte Klientai**. Tada pasirinkite **Gerai**. Šia darbo eiga tvarkomas objekto **Klientas** tiekėjų naujinimo scenarijus.
+3. Sukurkite darbo eigos procesą objektui **Klientas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas objekte Tiekėjai**.
+4. Sukurkite darbo eigos procesą objektui **Klientas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų naujinimas objekte Tiekėjai**.
+5. Priklausomai nuo poreikių, darbo eigas galite konfigūruoti kaip realaus laiko arba foninę darbo eigą. Norėdami sukonfigūruoti darbo eigą kaip foninę darbo eigą, pasirinkite **Konvertuoti į foninę darbo eigą**.
+
+    ![Mygtukas „Konvertuoti į foninę darbo eigą“](media/background_workflow.png)
+
+6. Aktyvinkite objektams **Klientas** ir **Tiekėjas** sukurtas darbo eigas, kad pradėtumėte naudoti objektą **Klientas** ir galėtumėte saugoti tipo **Organizacija** informaciją tiekėjams.
+
+## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Tipo Asmuo tiekėjams naudokite išplėstinį tiekėjo dizainą
+
+**„Dynamics365FinanceExtended“** sprendimų pakete yra toliau nurodyti darbo eigos proceso šablonai. Sukurkite darbo eigą kiekvienam šablonui.
+
++ Tiekėjų kūrimas tipo Asmuo objekte Tiekėjai
++ Tiekėjų kūrimas tipo Asmuo objekte Kontaktai
++ Tiekėjų naujinimas tipo Asmuo objekte Kontaktai
++ Tiekėjų naujinimas tipo Asmuo objekte Tiekėjai
+
+Norėdami sukurti naujus darbo eigos procesus, naudojant darbo eigos proceso šablonus, atlikite toliau nurodytus veiksmus.
+
+1. Sukurkite darbo eigos procesą objektui **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų kūrimas tipo Asmuo objekte Kontaktai**. Tada pasirinkite **Gerai**. Ši darbo eiga valdo objekto **Kontaktai** kūrimo scenarijų.
+2. Sukurkite darbo eigos procesą objektui **Tiekėjas** ir pasirinkite darbo eigos proceso šabloną **Tiekėjų naujinimas tipo Asmuo objekte Kontaktai**. Tada pasirinkite **Gerai**. Ši darbo eiga valdo objekto **Kontaktai** naujinimo scenarijų.
+3. Sukurkite darbo eigos procesą objektui **Kontaktas** ir pasirinkite šabloną **Tiekėjų kūrimas tipo Asmuo objekte Tiekėjai**.
+4. Sukurkite darbo eigos procesą objektui **Kontaktas** ir pasirinkite šabloną **Tiekėjų naujinimas tipo Asmuo objekte Tiekėjai**.
+5. Priklausomai nuo poreikių, darbo eigas galite konfigūruoti kaip realaus laiko arba foninę darbo eigą. Norėdami sukonfigūruoti darbo eigą kaip foninę darbo eigą, pasirinkite **Konvertuoti į foninę darbo eigą**.
+6. Aktyvinkite objektams **Kontaktas** ir **Tiekėjas** sukurtas darbo eigas, kad pradėtumėte naudoti objektą **Kontaktas** ir galėtumėte saugoti tipo **Asmuo** informaciją tiekėjams.

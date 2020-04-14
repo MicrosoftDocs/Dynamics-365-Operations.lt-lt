@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92481749fa15d8a9c273edf6a79ee9fcfdc722e7
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: b02496ebb06e0c2eb644fc7ef3280ca4eca05923
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550676"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142037"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER naudoti finansines dimensijas kaip duomenų šaltinį (1 dalis – Duomenų modelio kūrimas)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šie veiksmai paaiškina, kaip sistemos administratorius arba elektroninių ataskaitų kūrėjas gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį. Šiuos veiksmus galima atlikti bet kurioje įmonėje.
 
@@ -34,7 +34,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 
 ## <a name="create-a-new-data-model"></a>Naujo duomenų modelio kūrimas
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Įsitikinkite, kad teikėjas „Litware, Inc.“ yra pasiekiamas ir pažymėtas kaip aktyvus.  
+    * Įsitikinkite, kad „Litware, Inc.“ yra pasiekiamas ir pažymėtas kaip aktyvus.  
 2. Spustelėkite Ataskaitų konfigūracijos.
 3. Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.
 4. Lauke Pavadinimas įveskite Finansinių dimensijų modelio pavyzdys.
@@ -46,7 +46,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 10. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
 11. Lauke „Pavadinimas“ įveskite „Įmonė“.
 12. Spustelėkite Pridėti.
-    * Įtrauksime mūsų modelį į naują įrašų sąrašą. Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų parametrai. Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukus, nurodančiais dimensijos parametrą.  
+    * Įtrauksime mūsų modelį į naują įrašų sąrašą. Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų parametrai. Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukais, nurodančiais dimensijos parametrą.  
 13. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
 14. Lauke Pavadinimas įveskite Dimensijos parametras.
 15. Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.
@@ -93,7 +93,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 56. Lauke Pavadinimas įveskite Dimensijų duomenys.
 57. Lauke „Prekės tipas“ pasirinkite „Įrašų sąrašas“.
 58. Spustelėkite Pridėti.
-    * Įtraukėme mūsų modelį į naują įrašų sąrašą. Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų reikšmės. Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukus, nurodančiais dimensijos reikšmes. Dimensijos pavadinimas taip pat bus pateiktas šiame įraše yra laukas, kurį, jei reikia, galima naudoti norint pasirinkti.  
+    * Įtraukėme mūsų modelį į naują įrašų sąrašą. Šiame sąraše bus parodyti (jei ER ataskaitose šis modelis naudojamas kaip duomenų šaltinis) pasirinktų finansinių dimensijų reikšmės. Kiekviena finansinė dimensija bus šiame sąraše pateikta kaip įrašas su atitinkamais laukais, nurodančiais dimensijos reikšmes. Dimensijos pavadinimas taip pat bus pateiktas šiame įraše yra laukas, kurį, jei reikia, galima naudoti norint pasirinkti.  
 59. Spustelėdami Naujas atidarykite išplečiamąjį dialogo langą.
 60. Lauke Pavadinimas įveskite Kodas.
 61. Lauke „Prekės tipas“ pasirinkite „Eilutė“.

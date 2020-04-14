@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f97c4cd6cdb117ebdd67a155478bb6f8d1703541
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 76dc32f2254ffd2a2e33eef594d6e602092bcb6f
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179114"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140508"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>Numeracijų nustatymas naudojant vediklį
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Numerių sekos naudojamos generuojant perskaitomus, unikalius identifikatorius bendrųjų duomenų įrašams ir operacijų įrašams, kuriems jie reikalingi. Pagrindinių duomenų arba operacijų įrašas, kuriam reikia identifikatoriaus, vadinamas nuoroda. Kad galėtumėte kurti naujus įrašus kaip nuorodas, turite nustatyti numeraciją ir susieti ją su nuoroda. Šioje temoje paaiškinta, kaip naudojant vedlį tuo pačiu metu nustatyti visas reikalingas numeracijas. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

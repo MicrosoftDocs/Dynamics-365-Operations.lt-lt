@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bd7e02c9aea17fbc3312660d0e50cd8bbf39aa3d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f93f3db022b7b338bfa18ff6aea79f8086ea997f
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845022"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147945"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Pagrindinės išleisto bendrojo produkto sąrankos baigimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip atlikti minimalų nustatymą, kurio reikia prieš naudojant bendrąjį produktą KS versijose.
 
@@ -34,7 +34,7 @@ Tai yra trečioji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti 
 1. Eikite į **Naršymo sritis > Moduliai > Produkto informacijos valdymas > Produktai > Patvirtinti produktai**.
 2. Sąraše raskite ir pasirinkite norimą įrašą. Pasirinkite bendrąjį produktą, kurį paleidote antrojoje procedūroje. Šis bendrasis produktas sukurtas su konfigūravimo pagal dimensijas technologija.  
 3. Veiksmų srityje spustelėkite **Produktas**.
-4. Spustelėdami **Dimension groups** atidarykite išplečiamąjį dialogo langą.
+4. Spustelėdami **Dimensijų grupės** atidarykite išplečiamąjį dialogo langą.
 5. Lauke **Saugojimo dimensijų grupė** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 6. Sąraše raskite ir pasirinkite norimą įrašą. Saugojimo dimensijų grupė nustato, kurios saugojimo dimensijos bus naudojamos produktų operacijoms. Šioje procedūroje pasirinkite **Svetainė**.  
 7. Lauke **Sekimo dimensijų grupė** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.

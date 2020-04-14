@@ -19,20 +19,19 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 269346d38eeb3812c352d16f9d50fbcd09307c12
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 977b74b10b4549d09a8816264f9ff603fa86e91c
+ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124594"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "3172836"
 ---
 # <a name="integrated-customer-master"></a>Bendrieji integruoto kliento duomenys
 
 [!include [banner](../../includes/banner.md)]
 
-[!include [preview-banner](../../includes/preview-banner.md)]
 
-Klientų įrašai paprastai naudojami daugiau negu vienoje programoje. Pavyzdžiui, pardavimo veikla gali pateikti komercinio kliento įrašus per programą „Sales“, o El. prekybos ar mažmeninės prekybos pardavimas gali pateikti kliento įrašus per programą „Finance and Operations“. Neatsižvelgiant į kliento įrašo kilmę, jis integruojamas fone už programų ribų ir infrastruktūros skirtumų. Integruoto kliento bendrieji duomenys padeda atlikti bendrųjų duomenų įsisavinimo scenarijus ir teikia išsamų kliento vaizdą „Dynamics 365“ programų pakete.
+Kliento duomenys gali būti tvarkomi daugiau nei vienoje „Dynamics 365” programoje. Pavyzdžiui, kliento įrašas gali būti sukurtas naudojant pardavimo veiklą programoje „Dynamics 365 Sales“ (modeliu pagrįstoje „Dynamics 365“ programoje) arba įrašas gali būti sukurtas naudojant mažmeninės prekybos veiklą programoje „Dynamics 365 Commerce” („Finance and Operations” programoje). Neatsižvelgiant į tai, kur paimti kliento duomenys, jie integruojami fone. Integruotas kliento šablonas suteikia lankstumo tvarkant kliento duomenis programoje „Dynamics 365“ ir teikia išsamų kliento vaizdą „Dynamics 365“ programų pakete.
 
 ## <a name="customer-data-flow"></a>Kliento duomenų srautas
 
@@ -59,7 +58,6 @@ Klientų grupės             | msdyn_customergroups            | Naudojant šį 
 Kliento mokėjimo būdas     | msdyn_customerpaymentmethods    | Naudojant šį šabloną sinchronizuojama klientų mokėjimo būdų informacija.
 Klientai V3                | sąskaitos                        | Naudojant šį šabloną sinchronizuojama komercinių ir organizacijos klientų bendroji informacija.
 Klientai V3                | kontaktai                        | Naudojant šį šabloną sinchronizuojmi vartotojų ir galutinių vartotojų klientų bendrieji duomenys.
-Lojalumo kortelė                | msdyn_loyaltycards              | Naudojant šį šabloną sinchronizuojama klientų lojalumo kortelių informacija.
 Pavadinimo afiksai                | msdyn_nameaffixes               | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų pavadinimų afiksų nuorodos duomenys.
 Mokėjimo dienos eilutės CDS V2    | msdyn_paymentdaylines           | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų eilučių nuorodos duomenys.
 Mokėjimo dienos CDS            | msdyn_paymentdays               | Naudojant šį šabloną sinchronizuojami tiek klientų, tiek tiekėjų mokėjimo dienų nuorodos duomenys.
@@ -78,8 +76,6 @@ Mokėjimo sąlygos            | msdyn_paymentterms              | Naudojant šį
 [!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
 
 [!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping loyalty card](includes/LoyaltyCard-msdyn-loyaltycards.md)]
 
 [!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
 

@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d785b321037645837dbcbaf28c8ede9b8e97b79
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 20188438a4ca623fc926e6c373fb002f148c3df4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550607"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142483"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-2---configure-computations"></a>ER: formato konfigūravimas skaičiavimo ir sumavimo veiksmams atlikti (2 dalis – Skaičiavimų konfigūravimas)
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Toliau nurodytuose veiksmuose paaiškinta, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) formatą, norėdamas atlikti skaičiavimo ir sumavimo veiksmus pagal jau sugeneruotos teksto išvesties duomenis. Šiuos veiksmus galima atlikti bet kurioje įmonėje.
 
-Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: formato konfigūravimas, norint atlikti skaičiavimo ir sumavimo veiksmus (1 dalis: formato kūrimas)“.
+Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „ER: formato konfigūravimas, norint atlikti skaičiavimo ir sumavimo veiksmus (1 dalis. Formato kūrimas)“.
 
 Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
@@ -82,7 +82,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 31. Uždarykite puslapį.
 32. Spustelėkite GERAI.
 33. Medyje pasirinkite Intrastat\Data.
-34. Spustelėkite lauko Surinktų duomenų rakto pavadinimas mygtuką Redaguoti
+34. Spustelėkite lauko „Surinktų duomenų rakto pavadinimas“ mygtuką Redaguoti
 35. Spustelėkite „Įtraukti duomenų šaltinį“.
     * $BlockName  
 36. Spustelėkite Įrašyti.
@@ -92,27 +92,27 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
     * IF(Intrastat.CommodityRecord.Direction=Direction.Import, "Import", "Export")  
 40. Spustelėkite Įrašyti.
 41. Uždarykite puslapį.
-    * Suskaičiuokite šios sekos eilutes. Rezultatai, pavadinimu „blokas“, bus atskirai naudojami skirtingoms kryptims. Reikšmė Importuoti bus naudojama visoms „Intrastat“ gavimų operacijoms. Reikšmė Eksportuoti bus naudojama visoms „Intrastat“ išsiuntimų operacijoms. Tai gali būti laikoma virtualia „Excel“ skaičiuokle. Kiekvienos operacijos eilutė, kurios pirmasis stulpelis, pavadinimu „blokas“, bus užpildytas atitinkamomis reikšmėmis Importuoti ir Eksportuoti.  
+    * Suskaičiuokite šios sekos eilutes. Rezultatai, pavadinimu „blokas“, bus atskirai naudojami skirtingoms kryptims. Reikšmė „Importuoti“ bus naudojama visoms „Intrastat“ gavimų operacijoms. Reikšmė „Eksportuoti“ bus naudojama visoms „Intrastat“ išsiuntimų operacijoms. Tai gali būti laikoma virtualia „Excel“ skaičiuokle. Kiekvienos operacijos eilutė, kurios pirmasis stulpelis yra „blokas“, užpildytas atitinkamomis reikšmėmis „Importuoti“ ir „Eksportuoti“.  
 42. Medyje išplėskite dalį Intrastat\Data: Sequence.
 43. Medyje pasirinkite Intrastat\Data: Sequence\Arrivals?.
-44. Spustelėkite lauko Surinktų duomenų rakto pavadinimas mygtuką Redaguoti.
+44. Spustelėkite lauko „Surinktų duomenų rakto pavadinimas“ mygtuką Redaguoti.
     * Suskaičiuokite šios sekos eilutes. Rezultatai bus išsaugoti naudojant pavadinimą „įrašas“.  
 45. Medyje pasirinkite $RecName.
 46. Spustelėkite „Įtraukti duomenų šaltinį“.
 47. Spustelėkite Įrašyti.
 48. Uždarykite puslapį.
-49. Spustelėkite lauko Surinktų duomenų rakto reikšmė mygtuką Redaguoti
+49. Spustelėkite lauko „Surinktų duomenų rakto reikšmė“ mygtuką Redaguoti
 50. Lauke Formulė įveskite Intrastat.CommodityRecord.CommodityCode.
 51. Spustelėkite Įrašyti.
 52. Uždarykite puslapį.
-    * Suskaičiuokite šios sekos eilutes. Rezultatai, pavadinimu „įrašas“, bus atskirai naudojami skirtingiems prekių kodams. Tai gali būti laikoma virtualia „Excel“ skaičiuokle. Kiekvienos operacijos eilutė, kurios pirmasis stulpelis, pavadinimu „blokas“, užpildytas atitinkamomis reikšmėmis Importuoti ir Eksportuoti, o antrasis blokas, pavadinimu „įrašas“, užpildytas prekės kodo reikšme.  
+    * Suskaičiuokite šios sekos eilutes. Rezultatai, pavadinimu „įrašas“, bus atskirai naudojami skirtingiems prekių kodams. Tai gali būti laikoma virtualia „Excel“ skaičiuokle. Kiekvienos operacijos eilutė, kurios pirmasis stulpelis yra „blokas“, užpildytas atitinkamomis reikšmėmis „Importuoti“ ir „Eksportuoti“, o antrasis blokas, pavadinimu „įrašas“, užpildytas prekės kodo reikšme.  
 53. Medyje pasirinkite Intrastat\Data: Sequence\Dispatches?.
-54. Spustelėkite lauko Surinktų duomenų rakto pavadinimas mygtuką Redaguoti
+54. Spustelėkite lauko „Surinktų duomenų rakto pavadinimas“ mygtuką Redaguoti
 55. Medyje pasirinkite $RecName.
 56. Spustelėkite „Įtraukti duomenų šaltinį“.
 57. Spustelėkite Įrašyti.
 58. Uždarykite puslapį.
-59. Spustelėkite lauko Surinktų duomenų rakto reikšmė mygtuką Redaguoti.
+59. Spustelėkite lauko „Surinktų duomenų rakto reikšmė“ mygtuką Redaguoti.
 60. Lauke Formulė įveskite Intrastat.CommodityRecord.CommodityCode.
 61. Spustelėkite Įrašyti.
 62. Uždarykite puslapį.
@@ -121,18 +121,18 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 65. Spustelėkite skirtuką Formatas.
 66. Medyje pasirinkite Intrastat\Data\Dispatches\Record\Invoice amount EUR.
 67. Spustelėkite skirtuką „Susiejimas“.
-68. Spustelėkite lauko Surinktų duomenų rakto pavadinimas mygtuką Redaguoti.
+68. Spustelėkite lauko „Surinktų duomenų rakto pavadinimas“ mygtuką Redaguoti.
 69. Medyje pasirinkite $InvName.
 70. Spustelėkite „Įtraukti duomenų šaltinį“.
 71. Spustelėkite Įrašyti.
 72. Uždarykite puslapį.
-    * Susumuokite šios sekos eilučių SF sumos reikšmes. Rezultatai, pavadinimu „InvoicedAmountEUR“, bus naudojami skirtingoms „Intrastat“ kryptims ir prekių kodams. Tai gali būti laikoma virtualiai sukurtu elementu „Excel“ skaičiuoklėje. Kiekvienos operacijos eilutė, kurios pirmasis stulpelis, pavadinimu „blokas“, bus užpildytas atitinkamomis reikšmėmis Importuoti ir Eksportuoti. Antrasis blokas, pavadinimu „įrašas“, užpildomas prekės kodo reikšme, o trečiasis stulpelis, pavadinimu „InvoicedAmountEUR“, užpildomas SF sumos reikšme.  
+    * Susumuokite šios sekos eilučių SF sumos reikšmes. Rezultatai, pavadinimu „InvoicedAmountEUR“, bus naudojami skirtingoms „Intrastat“ kryptims ir prekių kodams. Tai gali būti laikoma virtualiai sukurtu elementu „Excel“ skaičiuoklėje. Kiekvienos operacijos eilutė, kurios pirmasis stulpelis yra „blokas“, užpildytas atitinkamomis reikšmėmis „Importuoti“ ir „Eksportuoti“. Antrasis blokas, pavadinimu „įrašas“, užpildomas prekės kodo reikšme, o trečiasis stulpelis, pavadinimu „InvoicedAmountEUR“, užpildomas SF sumos reikšme.  
 73. Medyje išplėskite dalį Intrastat\Data\Arrivals?.
 74. Medyje išplėskite dalį Intrastat\Data\Arrivals?\Record =  Intrastat.CommodityRecord.
 75. Spustelėkite skirtuką Formatas.
 76. Medyje pasirinkite Intrastat\Data\Arrivals\Record\Invoice amount EUR.
 77. Spustelėkite skirtuką „Susiejimas“.
-78. Spustelėkite lauko Surinktų duomenų rakto pavadinimas mygtuką Redaguoti.
+78. Spustelėkite lauko „Surinktų duomenų rakto pavadinimas“ mygtuką Redaguoti.
 79. Medyje pasirinkite $InvName.
 80. Spustelėkite „Įtraukti duomenų šaltinį“.
 81. Spustelėkite Įrašyti.

@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227a6865df826caf8ce154f9c44ebe082acd76a5
-ms.sourcegitcommit: cbcf344b3b552acca56c3e27606eac7f2f124afe
+ms.openlocfilehash: 473bb133159bb6cdcbbd30ab2c8452eb69f8cfaf
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/22/2019
-ms.locfileid: "1916746"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148205"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Pirkimo užsakymų darbo šablono nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aprašyta, kaip nustatyti paprastą darbo šabloną, kuris bus naudojamas atidedant gautas prekes. Darbo šablonai nustato instrukcijų rinkinį, pateiktą sandėlio darbuotojui mobiliajame įrenginyje, perkeliant prekes iš gavimo srities. Šią procedūrą galite naudoti su demonstracinių duomenų įmonės USMF nurodytais duomenimis. Prieš paleisdami šį vadovą, sukurkite darbo telkinio ID. Šiame pavyzdyje naudojamas darbo telkinio ID, iškviestas iš Gaunama. Ši procedūra skirta sandėlio vadovui.
 
@@ -38,14 +38,14 @@ ms.locfileid: "1916746"
 2. Lauke **Sekos skaičius** įveskite skaičių. Tai seka, pagal kurią yra vertinami darbo šablonai. Seką, jei reikia, galite modifikuoti.  
 3. Lauke **Darbo šablonas** įveskite reikšmę. Tai unikalus šio šablono identifikatorius.  
 4. Lauke **Darbo šablono aprašas** įveskite reikšmę.
-    - Parinktis **Galioja** nebus pažymėta tol, kol neįvesite visos šablonui reikalingos informacijos ir nepažymėsite **Įrašyti**.  
+    - Jei neužpildysite visos informacijos, reikalingos šablonui, ir nepasirinksite **Įrašyti**, parinktis **Galioja** nebus tikrinama.  
     - Darbo užsakymo, kurio tipas yra **Pirkimo užsakymas**, automatiškai apdoroti negalima, todėl palikite parinkties **Apdoroti automatiškai** nuostatą **Ne**.  
-5. Lauke **Darbo telkinio ID** įveskite reikšmę. Darbo telkinio ID leidžia skirstyti darbą į grupes. Čia nustatyta vertė bus bet kurio darbo, sukurto naudojant šį šabloną, numatytoji vertė.  
+5. Lauke **Darbo telkinio ID** įveskite reikšmę. Darbo telkinio ID leidžia skirstyti darbą į grupes. Čia nustatyta reikšmė bus numatytoji kiekvieno darbo, sukurto naudojant šį šabloną, reikšmė.  
 6. Lauke **Darbo prioritetas** įveskite `1`. Tai nurodo darbo svarbą, o čia nustatyta vertė bus kiekvieno darbo, sukurto naudojant šį šabloną, numatytoji vertė.  
 7. Pasirinkite **Įrašyti**. Reikia įrašyti darbo šablono antraštę, kad mygtukas **Redaguoti užklausą** taptų pasiekiamas.  
 
 ## <a name="set-up-the-query-for-the-work-template"></a>Nustatyti darbo šablono užklausą
-1. Pasirinkite **Redaguoti užklausą**. Mes nustatysime apribojimą, pagal kurį šablonas gali būti naudojamas tik tam tikrame sandėlyje.  
+1. Pasirinkite **Redaguoti užklausą**. Nustatysime apribojimą, kad šabloną būtų galima naudoti tik konkrečiame sandėlyje.  
 2. Pasirinkite **Įtraukti**.
 3. Naujos eilutės lauke **Laukas** įveskite `warehouse`.
 4. Lauke **Kriterijai** įveskite reikšmę.

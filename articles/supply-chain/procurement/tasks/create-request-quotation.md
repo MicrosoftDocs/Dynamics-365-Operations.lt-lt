@@ -16,58 +16,58 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3e35dbc489608c0aa3bfb13db5ae237f854612b1
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 954bfe3972e46eac803681a5a09e85661999f1d6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844133"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149670"
 ---
 # <a name="create-a-request-for-quotation"></a>Kurti pasiūlymo patvirtinimą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šia procedūra parodoma, kaip kurti pasiūlymo patvirtinimą. Paprastai tai atlieka pirkimo agentas. Šią procedūrą galite atlikti demonstracinių duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami turite nustatyti siūlymų tipus. Atlikę šią užduotį ir sukūrę bei išsiuntę RFQ, galite įvesti atsakymus pagal tiekėją, juos palyginti ir pasirinkti sutartį.
 
 
 ## <a name="prepare-a-new-rfq"></a>Naujo RFQ parengimas
-1. Pasirinkite **Navigation pane > Modules > Procurement and sourcing > Requests for quotations > All requests for quotations**.
+1. Eikite į **Naršymo sritis > Moduliai > Įsigijimas ir šaltinio pasirinkimas > Pasiūlymų patvirtinimai > Visi pasiūlymų patvirtinimai**.
 2. Spustelėkite **Naujas**.
     Galimi tolesni pirkimo tipai. Pirkimo užsakymas (numatytasis tipas): dokumentas, kuriuo patvirtinamas siūlymas pirkti produktų arba priimamas siūlymas parduoti produktų už užmokestį. Pirkimo paraiška: šis tipas pasirenkamas automatiškai, jei RFQ kuriate tiesiai iš pirkimo paraiškos. Jei šią parinktį pasirinksite rankiniu būdu, gausite klaidą. Pirkimo sutartis: susitarimas per tam tikrą laikotarpį nupirkti tam tikrą produktų kiekį arba tam tikros vertės produktų. Jei pasirenkate šią parinktį, turite pasirinkti datų intervalą, taikomą pirkimo sutarčiai.  
-3. Lauke **Document title** įveskite reikšmę.
-4. Lauke **Solicitation type** įveskite arba pasirinkite reikšmę.
+3. Lauke **Dokumento antraštė** įveskite reikšmę.
+4. Lauke **Siūlymo tipas** įveskite arba pasirinkite reikšmę.
     + Jei vertinimo būdas susietas su siūlymo tipu, jis bus numatytasis jūsų kuriamo RFQ vertinimo būdas. Vertinimo būdą vėliau galima pakeisti.  
-    + Lauke **Delivery date** įveskite datą.  
+    + Lauke **Pristatymo data** įveskite datą.  
     + Pasirinkite datą, iki kurios norite gauti prekes.  
-    + Lauke **Expiration date and time** įveskite datą ir laiką.  
+    + Lauke **Galiojimo data ir laikas** įveskite datą ir laiką.  
     + Nurodykite datą ir laiką, iki kurių tiekėjai turi atsakyti į RFQ.  
-5. Lauke **Warehouse field** įveskite arba pasirinkite reikšmę. Numatytasis pristatymo adresas bus sandėlio adresas.  
+5. **Sandėlio lauke** įveskite arba pasirinkite reikšmę. Numatytasis pristatymo adresas bus sandėlio adresas.  
 6. Spustelėkite **Gerai**.
 
 ## <a name="add-lines"></a>Pridėti eilutes
 
 Nurodę pagrindinę informaciją apie RFQ, galite nurodyti prekes arba paslaugas, kurių kainos pasiūlymus turi teikti tiekėjai. Numatytasis eilutės tipas yra Prekė.
 
-1. Lauke **Item number** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti T0020.  
+1. Lauke **Prekės numeris** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti T0020.  
 2. Lauke **Kiekis** įveskite skaičių.
 3. Spustelėkite **Pridėti eilutę**.
-4. Lauke **Line type** pasirinkite Kategorija. Naudodami tipą Kategorijos eilutė, galite kurti ne atsargų prekių ar paslaugų RFQ. Tada iš įsigijimo kategorijų hierarchijos turite pasirinkti prekių ar paslaugų tipą.  
-5. Lauke **Procurement category** įveskite arba pasirinkite reikšmę.
+4. Lauke **Eilutės tipas** pasirinkite Kategorija. Naudodami tipą Kategorijos eilutė, galite kurti ne atsargų prekių ar paslaugų RFQ. Tada iš įsigijimo kategorijų hierarchijos turite pasirinkti prekių ar paslaugų tipą.  
+5. Lauke **Įsigijimo kategorija** įveskite arba pasirinkite reikšmę.
 6. Lauke **Produkto gavimo kvitas** įveskite vertę.
 7. Lauke **Kiekis** įveskite skaičių.
-8. Lauke **Unit**įveskite arba pasirinkite reikšmę.
+8. Lauke **Vienetas** įveskite arba pasirinkite reikšmę.
 
 ## <a name="add-vendors"></a>Įtraukti tiekėjų
-1. Spustelėdami **Header**, rodinį Eilutės pakeisite į rodinį Antraštė. 
-2. Išplėskite sekciją **Vendor**
-3. Spustelėkite **Auto-add vendors**. Tiekėjų į RFQ galite įtraukti automatiškai pagal pageidaujamų prekių įsigijimo kategoriją. Jei nėra patvirtintų eilutėse įtrauktų kategorijų tiekėjų, jų įtraukti galite rankiniu būdu.  
+1. Spustelėdami **Antraštė**, rodinį Eilutės pakeisite į rodinį Antraštė. 
+2. Išplėskite sekciją **Tiekėjas**.
+3. Spustelėkite **Automatiškai įtraukti tiekėjų**. Tiekėjų į RFQ galite įtraukti automatiškai pagal pageidaujamų prekių įsigijimo kategoriją. Jei nėra patvirtintų eilutėse įtrauktų kategorijų tiekėjų, jų įtraukti galite rankiniu būdu.  
 4. Spustelėkite **Pridėti**.
 5. Lauke **Tiekėjo paskyra** įveskite arba pasirinkite reikšmę.
 6. Spustelėkite **Pridėti**.
 7. Lauke **Tiekėjo paskyra** įveskite arba pasirinkite reikšmę. Kai pasirenkate tiekėją, būsena yra Sukurtas. Tai reiškia, kad tiekėjo informacija buvo įrašyta į RFQ, tačiau RFQ nebuvo išsiųstas tiekėjui. Galite pridėti tiekėją prie RFQ, nepriklausomai nuo jo statuso.  
 
 ## <a name="send-the-rfq-to-vendors"></a>Siųsti RFQ tiekėjams
-1. **Veiksmų srityje** spustelėkite **Send**. Puslapyje Pasiūlymo patvirtinimo siuntimas patikrinkite, ar sąraše esantys tiekėjai yra tie, kurie turi gauti RFQ.  
+1. **Veiksmų srityje** spustelėkite **Siųsti**. Puslapyje Pasiūlymo patvirtinimo siuntimas patikrinkite, ar sąraše esantys tiekėjai yra tie, kurie turi gauti RFQ.  
 2. Spustelėkite **Spausdinti**. Naudodami šį dialogo langą galite spausdinti RFQ. Jei pasirinksite spausdinti atsakymų lapą, jo turinys apibrėžtas įsigijimo ir šaltinio pasirinkimo parametruose. Norėdami pasirinkti, kaip spausdinti atsakymų lapus, atidarę dialogo langą Spausdinti, spustelėkite Papildomos spausdinimo parinktys. Kiekvienam tiekėjui bus išspausdintas vienas RFQ su eilutėmis, kurių būsena – Sukurta arba Išsiųsta. Atšauktos eilutės ir eilutės su registruotas atsakymais nebus išspausdintos.   
 3. Spustelėkite **Atšaukti**.
 4. Spustelėkite **Gerai**.
@@ -75,9 +75,9 @@ Nurodę pagrindinę informaciją apie RFQ, galite nurodyti prekes arba paslaugas
 6. Uždarykite puslapį.
 
 ## <a name="view-the-rfq-journal"></a>RFQ žurnalo peržiūra
-1. Pasirinkit **Procurement and sourcing > Requests for quotations > Request for quotations follow-up > Request for quotation journals**.
-2. Spustelėkite **Preview/Print**.
-3. Spustelėkite **Original preview**.
+1. Eikite į **Įsigijimas ir šaltinio pasirinkimas > Pasiūlymų patvirtinimai > Pasiūlymo patvirtinimų sekimas > Pasiūlymo patvirtinimų žurnalai**.
+2. Spustelėkite **Peržiūrėti / spausdinti**.
+3. Spustelėkite **Originalo peržiūra**.
 4. Uždarykite puslapį.
 5. Uždarykite puslapį.
 

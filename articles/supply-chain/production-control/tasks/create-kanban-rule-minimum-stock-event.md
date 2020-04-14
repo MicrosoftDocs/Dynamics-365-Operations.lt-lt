@@ -17,16 +17,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b578a664e9e3b6496e5665b2eefd9d75f86ecc3
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 6ca5a2e2180235e51ef569fd93ad06867c3dddae
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1837835"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3149325"
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Kurti „kanban“ taisyklę naudojant minimalių atsargų įvykį
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje procedūroje dėmesys skiriamas sąrankai, kuri reikalinga siekiant „kanban“ taisyklę kurti pagal minimalių atsargų įvykį ir užtikrinti, kad konkrečioje vietoje visada turima konkretaus produkto. „Kanban“ taisyklė sukuriama, siekiant medžiagą perkelti į vietą, kai atsargų lygis būna mažesnis nei 200 vienetų. Vykdant iškvietimo įvykių apdorojimą, sukuriami reikiami „kanban“. Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF. Ši užduotis skirta proceso inžinieriui arba vertės srauto vadovui, nes jie parengia naujos arba pakeistos prekės gamybą „lean“ aplinkoje.
 

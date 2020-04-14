@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a5592e41ef8f2a082646b9024af0d91917bb451a
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2c6502a05d3cc53d8031b9f8e365454556513c3c
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023405"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140855"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a> Užmegzti ryšius tarp organizacijos vienetų
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ši procedūra apžvelgia, kaip projektuoti ryšį tarp organizacijos vienetų. Prieš apibrėždami ryšį, turite sukurti naują organizacijos paskirtį, arba galite naudoti esamą organizacijos paskirtį. Atliekant šią procedūrą naudota demonstracinių duomenų įmonė yra USRT. Ši užduotis yra skirta administratoriaus vaidmeniui.
 

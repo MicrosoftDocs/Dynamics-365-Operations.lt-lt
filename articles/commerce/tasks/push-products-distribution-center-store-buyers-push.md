@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62eeb29e348c558e8954f656b89d90792b0c347b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: dad74855ab9a9c225a5cd64a8c27663aedcd21e4
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023398"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141233"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a> Skirstyti produktus iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ši procedūra padeda atlikti žingsnius, norint kurti ir vykdyti skirstymą pirkėjams, skirtą produktams iš vienos vietos į vieną ar kelias parduotuves paskirstyti. Vartotojas gali nustatyti kelias konfigūracijas ir nurodyti sistemai siūlyti, kaip paskirstyti produktus, arba patys įvesti, kur produktai turi būti paskirstomi ir koks jų kiekis paskirstomas į kiekvieną parduotuvę. Į šią procedūrą neįtraukiamas duomenų, kuriuos galima naudoti skirstyme pirkėjams, pvz., papildymo taisyklių, organizacijos hierarchijų ir parduotuvės reikšmės, nustatymas. Šioje procedūroje naudojama demonstracinė įmonė USRT.
 

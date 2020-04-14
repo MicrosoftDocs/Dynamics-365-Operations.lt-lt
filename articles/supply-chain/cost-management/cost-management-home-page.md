@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd51fa667fd48b7bab64c3566b616631c6f9bcd1
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: df8552aab5f1566dccf0b905c2d5db372671ec09
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249637"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3144116"
 ---
 # <a name="cost-management-home-page"></a>Išlaidų valdymo pagrindinis puslapis
 
@@ -32,12 +32,13 @@ ms.locfileid: "2249637"
 
 [Išlaidų valdymas (vaizdo įrašas)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) leidžia atlikti žaliavų, pusgaminių, pagamintų prekių ir nebaigtos gamybos turto vertinimą ir apskaitą. Šio proceso metu apibrėžiama, valdoma ir teikiamos ataskaitos apie [Atsargų apskaitą](cost-object.md) ir [Gamybos apskaitą](bom-calculations.md).
 
-Išlaidų strategijas galite nustatyti šiose srityse: 
--  [Iš anksto nustatyta savikaina](costing-versions.md)
--  [Atsargų apskaita](cost-object.md)
--  [Gamybos apskaita](bom-calculations.md)
--  [Netiesioginių išlaidų apskaita](costing-sheets.md)
--  [DK integracija](production-order-cost-analysis.md)
+Išlaidų strategijas galite nustatyti šiose srityse:
+
+- [Iš anksto nustatyta savikaina](costing-versions.md)
+- [Atsargų apskaita](cost-object.md)
+- [Gamybos apskaita](bom-calculations.md)
+- [Netiesioginių išlaidų apskaita](costing-sheets.md)
+- [DK integracija](production-order-cost-analysis.md)
 
 Pavyzdžiui, galite nurodyti, kuriuos atsargų vertinimo metodus (pvz., [FIFO](fifo-physical-value-marking.md), [Svertinio vidurkio](weighted-average-physical-value-marking.md), [Standartinių išlaidų](prerequisites-standard-costs.md) ar [Slenkančio vidurkio](moving-average.md)) norite taikyti produktams [Prekių modelių grupėje](../inventory/reserve-inventory-quantities.md) atlikdami atsargų apskaitą.
 
@@ -51,23 +52,16 @@ Gamybos apskaita leidžia atlikti [Užduoties užsakymo įkainojimą](production
 
 #### <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
 
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/). 
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Microsoft Dynamics 365“ plano svetainę](https://roadmap.dynamics.com/).
 
 #### <a name="white-paper"></a>Techninė dokumentacija
-[KS skaičiavime naudojant įkainojimo lapą](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) aprašoma, kaip nustatyti įkainojimo lapą su medžiagomis ir gamyba, ir kaip ši sąranka veikia KS skaičiavimo rezultatus. Siekiant geriau paaiškinti šias temas, ten pateikiami konkretūs scenarijai ir duomenys, kurie rodo įvairių parametrų ir konfigūracijų poveikį. Nesitikime, kad atliksite visus šiuos scenarijus, nes šis dokumentas nesuteikia pakankamai informacijos jiems sukonfigūruoti. Nepaisant to, jei turite bazinių žinių, galite pabandyti atlikti žemiau nurodytas užduotis tokia seka, kokia jos pateikiamos. Panaudokite žinias, kurias įgijote skaitydami šį dokumentą, KS skaičiavimo analizei atlikti. 
 
--  [Kurti galutinį produktą](tasks/create-finished-product-2016-02.md)
--  [Kurti pusiau baigtą produktą](tasks/create-semi-finished-product-2016-02.md)
--  [Kurti žaliavas](tasks/create-raw-materials-2016-02.md)
--  [Kurti KS](tasks/create-boms-2016-02.md)
--  [Kurti maršrutus](tasks/create-routes-2016-02.md)
--  [KS skaičiavimas naudojant vieno lygio struktūrą](tasks/calculate-bom-single-level-structure-2016-02.md)
--  [KS skaičiavimas naudojant kelių lygių struktūrą](tasks/calculate-bom-multilevel-structure-2016-02.md)
-
+[KS skaičiavime naudojant įkainojimo lapą](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet) aprašoma, kaip nustatyti įkainojimo lapą su medžiagomis ir gamyba, ir kaip ši sąranka veikia KS skaičiavimo rezultatus. Siekiant geriau paaiškinti šias temas, ten pateikiami konkretūs scenarijai ir duomenys, kurie rodo įvairių parametrų ir konfigūracijų poveikį.
 
 #### <a name="blogs"></a>Tinklaraščiai
+
 Nuomonių, naujienų ir kitos informacijos apie išlaidų valdymą galima rasti [„Dynamics AX“ gamybos tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg) ir [„Dynamics AX Supply Chain Management“ tyrimų ir plėtros komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm). Kai kurie iš šių įrašų parašyti ankstesnei išlaidų valdymo versijai, tačiau dabartinėje versijoje galioja tie patys principai, o procedūros taip pat yra panašios.
 
 #### <a name="task-guides"></a>Užduočių vedliai
-Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
 
+Papildoma pagalba prieinama kaip užduočių vadovai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.

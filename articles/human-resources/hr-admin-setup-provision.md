@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f982f3c3b2703a71e6c8a1a0d1be15fb260a6ef1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092251"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138364"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -56,7 +56,7 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
 2. Nurodykite, ar tai smėlio dėžės ar gamybos „Human Resources“ egzempliorius. „Smėlio dėžės“ egzemplioriuose gali būti prieinamos išankstinės peržiūros funkcijos, kad būtų galima pateikti išankstinį grįžtamąjį ryšį ir atlikti bandymus.
    
     > [!NOTE]
-    > Jau nustatytas „Talent“ egzemplioriaus tipas negali būti pakeistas. Prieš tęsdami įsitikinkite, kad pasirinktas teisingas egzemplioriaus tipas.</br></br>
+    > Jau nustatytas „Human Resources“ egzemplioriaus tipas negali būti pakeistas. Prieš tęsdami įsitikinkite, kad pasirinktas teisingas egzemplioriaus tipas.</br></br>
     > „Human Resources“ egzemplioriaus tipas yra atskiras nuo „Microsoft Power Apps“ aplinkos egzemplioriaus tipo, kurį nustatote „Power Apps“ administravimo centre.
     
 3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Human Resources“ bandomosios versijos funkcijose. Tai yra naudinga ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojama gamybos aplinkose.  Atkreipkite dėmesį į tai, kad turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
@@ -74,7 +74,7 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
     > [!NOTE]
     > Jei dar nesate patvirtinę galutinių reikalavimų, projekte galite įdiegti „Human Resources“ bandymo egzempliorių. Tada galite naudoti šį egzempliorių, kad išbandytumėte sprendimą, kol patvirtinsite. Jei naudojate naują aplinką bandymams, turite pakartoti šią procedūrą norėdami sukurti gamybos aplinką.
 
-    > Į „Human Resources“ paskyrą galima įtraukti tik dvi LCS aplinkas, todėl galbūt norėsite 60 dienų nemokamai išbandyti [„Human Resources“ bandomąją aplinką](https://dynamics.microsoft.com/talent/overview/). Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+    > Galbūt norėsite 60 dienų nemokamai naudotis [„Human Resources“ bandomoji aplinka ](https://dynamics.microsoft.com/talent/overview/). Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 ## <a name="select-a-power-apps-environment"></a>„Power Apps“ aplinkos pasirinkimas
 
@@ -97,7 +97,10 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
     - **Bandomosios aplinkos** – šios aplinkos kuriamos pritaikant galiojimo datą ir šiai pasibaigus nebegalios, o jūsų aplinka ir visi joje esantys „Human Resources“ egzemplioriai bus automatiškai pašalinti.
    
     - **Nepalaikomi regionai** – šiuo metu „Human Resources“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Europoje, Jungtinėje Karalystėje, Australijoje, Kanadoje ir Azijoje.
-  
+
+    > [!NOTE]
+    > „Human Resources“ aplinka yra parengta tame pačiame regione, kuriame parengta „Power Apps“ aplinka. „Human Resources“ aplinkos perkėlimas į kitą regioną nepalaikomas.
+
 6. Nustatę tinkamą naudotiną aplinką, galite tęsti parengimo procesą. 
  
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas

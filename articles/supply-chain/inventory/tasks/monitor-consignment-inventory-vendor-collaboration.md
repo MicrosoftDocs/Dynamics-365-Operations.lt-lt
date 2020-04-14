@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfbe5e9de7b700d991e0826fb4387de416ce242a
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 589b478fa59f2fb2a5008d02e39f2808391d0994
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845399"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145585"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje procedūroje parodoma, kaip naudoti tiekėjo bendradarbiavimą, norint pamatyti informaciją apie kliento produktų konsignacijos atsargų lygį. Taip pat galite stebėti žaliavų sunaudojimą, kai klientas perima atsargų nuosavybę. Šią procedūrą galite naudoti USMF demonstracinių duomenų įmonėje. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
 
@@ -41,5 +41,5 @@ ms.locfileid: "1845399"
 
 ## <a name="view-on-hand-inventory"></a>Rodyti turimas atsargas
 1. Eikite į Tiekėjo bendradarbiavimas > Konsignacijos atsargos > Turimos konsignacijos atsargos.
-    * Puslapyje Turimos konsignacijos atsargos rodomos kliento sandėlio atsargos, kuris priklauso jums. Galima rodyti papildomas dimensijas, pvz., teritoriją ir sandėlį, spustelėjus skirtuką Rodyti dimensijas.   
+    * Puslapyje Turimos konsignacijos atsargos rodomos jūsų kliento sandėlyje turimos atsargos. Galima rodyti papildomas dimensijas, pvz., teritoriją ir sandėlį, spustelėjus skirtuką Rodyti dimensijas.   
 

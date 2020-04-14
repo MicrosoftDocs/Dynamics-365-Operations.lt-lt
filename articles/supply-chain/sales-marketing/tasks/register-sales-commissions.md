@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db27255c74c55b10680594ad23424253e4c3f79e
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 8f9cb895f733442e95cd7008c63942463bbd2cba
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867058"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148527"
 ---
 # <a name="register-sales-commissions"></a>Pardavimo komisinių registravimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje paaiškinta, kaip apskaičiuojami ir registruojami pardavimo komisiniai. Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Prieš paleisdami šį vadovą, paleiskite vadovą pavadinimu „Pardavimo komisinių taisyklių nustatymas“, kad įsitikintumėte, jog turite visus reikalingus komisinių skaičiavimo nustatymus.
 
@@ -59,7 +59,7 @@ Atkreipkite dėmesį į savo pasirinktus komisinių proceso kliento ir prekės n
 17. Išplėskite skyrių **Parametrai**.
 18. Lauke **Kiekis** pasirinkite **Visi**.
 19. Lauke **Registravimas** pasirinkite **Taip**.
-20. Pasirinkite **Gerai**, tada kitoje srityje – **Gerai**. Operacijos registravimas gali užtrukti apie minutę. Palaukite, kol apdorojimas baigsis ir neuždarykite puslapio.  
+20. Pasirinkite **Gerai**, tada kitoje srityje – **Gerai**. Operacijos registravimas gali užtrukti apie minutę. Neuždarykite puslapio, kol procesas nesibaigs.  
 
 ## <a name="review-the-registered-sales-commissions"></a>Registruotų pardavimo komisinių peržiūra
 1. Veiksmų srityje pasirinkite **Sąskaita faktūra**, o tada vėl pasirinkite **Sąskaita faktūra**.

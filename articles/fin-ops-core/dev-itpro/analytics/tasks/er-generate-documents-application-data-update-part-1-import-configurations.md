@@ -1,6 +1,6 @@
 ---
 title: Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
-description: Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją“ ir pažymėti jį kaip aktyvų.
+description: Norėdami atlikti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu.“
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd7a07d041373b266103f313df1bf2810e9c858
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 0bfa09fe7059925249f20e1d93bc9d091d6bc63d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182352"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141907"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Konfigūracijų, skirtų generuoti dokumentus, kuriuose yra prašymų duomenys, importavimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją“ ir pažymėti jį kaip aktyvų.
+Norėdami atlikti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu.“
 
 Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint generuoti elektroninį dokumentą. Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, tada generuosite elektroninius dokumentus. Ši procedūra sukurta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant DEMF duomenų rinkinį. Prieš pradėdami, atsisiųskite ir įrašykite failus, išvardytus žinyno temoje „Elektroninių dokumentų generavimas ir programų duomenų naujinimas naudojant ER įrankį“ (generate-electronic-documents-update-application-data/). Failai yra Intrastat (modelis).xml, Intrastat (susiejimas).xml ir Intrastat (formatas).xml
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų” veiksmus.  
+    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų veiksmus.  
     * Šios procedūros veiksmuose rodoma, kaip naudoti ER galimybes, norint atlikti programos duomenų naujinimą ir kaip generuoti Intrastat ataskaitą. Išsamią informaciją apie ataskaitų teikimo procesą archyvuojama programos lentelėse. Dabar, kai Intrastat ataskaitų kūrimo procesas aktyvintas iš Intrastat formos, archyvavimas daromas remiantis logika, užprogramuota esamame šaltinio kode. Taikydami šią procedūrą, konfigūruosite panašią dar supaprastintą programos duomenų logiką, naudojant tik ER sistemą. Šaltinio kodo pakeitimai nebus daromi.   
 
 ## <a name="import-er-configurations"></a>Importuokite ER konfigūracijas
@@ -45,7 +45,7 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 6. Spustelėkite Konstruktorius.
 7. Medyje išplėskite „For outgoing document“.
 8. Medyje išplėskite „For outgoing document\Transactions“.
-    * Peržiūrėkite importuoto duomenų modelio struktūrą. Žinokite, kad šakninis elementas „Išeinančiam dokumentui“ apibrėžtas, kad nurodytų srautą duomenims gauti iš programos ir naudoti kaip duomenų šaltinį Intrastat ataskaitai generuoti. „Operacijos (įrašų sąrašas)“ naudojamas parodyti Intrastat operacijas, apie kurias turi būti pateikta ataskaita. Kadangi archyvuosite paskelbtus prekių kodus, unikalus vieno prekės kodo „Prekės įr. ID (Int64)“ identifikatorius reikalingas šiame duomenų sraute.   
+    * Peržiūrėkite importuoto duomenų modelio struktūrą. Atkreipkite dėmesį, kad šakninis elementas „Išeinančiam dokumentui“ apibrėžtas taip, kad nurodytų srautą duomenims gauti iš programos ir naudoti juos kaip duomenų šaltinį „Intrastat“ ataskaitai generuoti. „Operacijų (įrašų sąrašas)“ naudojamas parodyti „Intrastat“ operacijas, apie kurias turi būti pateikta ataskaita. Kadangi archyvuosite paskelbtus prekių kodus, unikalus vieno prekės kodo „Prekės įr. ID (Int64)“ identifikatorius reikalingas šiame duomenų sraute.   
 9. Uždarykite puslapį.
 10. Spustelėkite Keitimas.
 11. Spustelėkite Įkelti iš XML failo.
@@ -55,11 +55,11 @@ Veiksmai šioje procedūroje paaiškina, kaip kurti elektroninių ataskaitų (ER
 13. Medyje išplėskite „Intrastat (model)“.
 14. Medyje pasirinkite „Intrastat (model)\Intrastat (mapping)“.
 15. Spustelėkite Konstruktorius.
-    * Atkreipkite dėmesį, kad dabartinio modelio susiejime lauke Kryptis yra reikšmė „Į modelį“. Tai reiškia, kad šis modelio susiejimas buvo sukurtas duomenims iš programos gauti ir jiems saugoti duomenų modelyje.  
+    * Atkreipkite dėmesį, kad dabartinio modelio susiejimas lauke Kryptis turi reikšmę „Į modelį“. Tai reiškia, kad šis modelio susiejimas buvo sukurtas duomenims iš programos gauti ir jiems saugoti duomenų modelyje.  
 16. Spustelėkite Konstruktorius.
 17. Medyje išplėskite „List“.
 18. Medyje išplėskite „Transactions= List“.
-    * Peržiūrėkite modelio susiejimo struktūrą, kuriai naudojamas duomenų modelis, išfiltruotas pagal šakninį elementą „Siunčiamam dokumentui“. Atkreipkite dėmesį, kad įtrauktas duomenų šaltinis, „Sąrašas“, suteikia prieigą prie reikalingų programos duomenų, kurie yra įrašų sąrašas iš Intrastat lentelės.  
+    * Peržiūrėkite modelio susiejimo struktūrą, kuriai naudojamas duomenų modelis, filtruotas pagal šakninį elementą „Siunčiamam dokumentui“. Atkreipkite dėmesį, kad įtrauktas duomenų šaltinis „Sąrašas“ suteikia prieigą prie reikalingų programos duomenų, kurie yra įrašų sąrašas iš „Intrastat“ lentelės.  
 19. Uždarykite puslapį.
 20. Uždarykite puslapį.
 21. Spustelėkite Keitimas.

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd606461b9d7198bda12e297598fae0cbf8b39a7
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188722"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143343"
 ---
 # <a name="review-collections-information"></a>Surinkimo informacijos peržiūra
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra padės peržiūrėti mokėjimų priežiūros informaciją, taip pat įvairias sąrankos parinktis ir mokėjimų priežiūros operacijas. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
@@ -107,10 +107,10 @@ ms.locfileid: "2188722"
 - Naujinkite kliento skirstymo pagal terminus momentinę kopiją, dabartinę datą naudodami kaip skirstymo pagal terminus datą, su kuria bus lyginamos operacijų datos. Jei skirstymo pagal terminus momentinėje kopijoje yra kelių juridinių subjektų informacija, atnaujintoje skirstymo pagal terminus momentinėje kopijoje bus tų pačių juridinių subjektų rinkinio informacija. Sumos yra išsaugomos juridinio subjekto, prie kurio esate prisiregistravę, kai naujinate skirstymo pagal terminus momentinę kopiją, apskaitos valiuta.  
 - Pasirinkite skirstymo pagal terminus laikotarpio aprašą. Pagal numatytuosius nustatymus rodomas skirstymo pagal terminus laikotarpio aprašas, susietas su kliento skirstymo pagal terminus momentine kopija. Skirstymo pagal terminus laikotarpio aprašas valdo skirstymo pagal terminus laikotarpius ir sumas, rodomas „FactBox“ **Suskirstyti pagal terminus balansai** ir **Kredito informacija**.  
 - Atidarykite meniu, kuriame yra šie elementai:    
-  - Įmonė – rodyti sumas pagal terminus suskirstytuose balansuose ir kredito informacijos FactBox juridinio subjekto apskaitos valiuta.  
-  - Klientas – „FactBox“ Pagal terminus suskirstyti balansai ir Kredito informacija sumas rodykite kliento valiuta.  
-- Kliento skirstymo pagal terminus momentinėje kopijoje pasirinkite vieną arba daugiau juridinių subjektų, kurių informaciją norite peržiūrėti. Sąraše rodomi juridiniai subjektai buvo pasirinkti kuriant skirstymo pagal terminus momentinę kopiją.  
-- Peržiūrėti kliento išrašą „Microsoft Excel“ formatu. Galite pasirinkti į išrašą įtrauktinų operacijų intervalo pradžios datą ir pasirinkti įtraukti tik atviras operacijas arba atviras ir sudengtas operacijas. Jei skirstymo pagal terminus momentinėje kopijoje pateikta kelių juridinių subjektų informacija, įtraukiamos visų juridinių subjektų operacijos.  
+  - Įmonė – rodo sumas „FactBoxes“ „Suskirstyti pagal terminus balansai“ ir „Kredito informacija“, esančias juridinio subjekto apskaitos valiutoje.  
+  - Klientas – rodo sumas „FactBoxes“ „Suskirstyti pagal terminus balansai“ ir „Kredito informacija“, esančias kliento valiutoje.  
+- Kliento skirstymo pagal terminus momentinėje kopijoje pasirinkite vieną ar daugiau juridinių subjektų, kurie gali peržiūrėti informaciją. Sąraše rodomi juridiniai subjektai buvo pasirinkti kuriant skirstymo pagal terminus momentinę kopiją.  
+- Peržiūrėkite kliento patvirtinimą „Microsoft Excel“ formatu. Galite pasirinkti į išrašą įtrauktinų operacijų intervalo pradžios datą ir pasirinkti įtraukti tik atviras operacijas arba atviras ir sudengtas operacijas. Jei skirstymo pagal terminus momentinėje kopijoje pateikta kelių juridinių subjektų informacija, įtraukiamos visų juridinių subjektų operacijos.  
 - Atidarykite formą **Dokumentai**, kurioje galite kurti ar redaguoti dokumentus arba pastabas.  
 4. Veiksmų srityje spustelėkite **Susisiekti**.  
 - Atidarykite „Outlook“, kurią naudodami galite siųsti el. laišką kontaktui, nurodytam lauke Kontaktas. Jei mokėjimų kontaktas nenurodytas, naudojamas pirminis kliento adresas. Jei nenurodytas pagrindinis kontaktas, el. laiškai bus siunčiami pirmu formoje **Kontaktai** nurodytu adresu. Pasirinktos operacijos įtraukiamos kaip priedas. Priedas pateikiamas „Excel“ formatu, jame yra trys darbalapiai. El. laiškų kliento kontaktams šablonus galima nurodyti formoje **Gautinų sumų parametrai**.  
@@ -119,7 +119,7 @@ ms.locfileid: "2188722"
 - Šio mygtuko naudoti negalima, jei šioje formoje pasirinkto kontakto el. pašto adresas nenustatytas.  
 - Atidarykite „Outlook“, kurią naudodami galite siųsti el. laišką darbuotojui, nurodytam klientui priskirtos pardavimo grupės pardavimo atstovu. Jei pasirinktos operacijos, jos įtraukiamos kaip priedas. Priedas pateikiamas „Excel“ formatu, jame yra du darbalapiai. El. laiškų pardavėjams šablonus galima nurodyti formoje **Gautinų sumų parametrai**.  
 - Šio mygtuko naudoti negalima, jei šioje formoje rodomo pardavėjo el. pašto adresas nenustatytas.  
-- Peržiūrėkite kliento DK operacijas ir atlikite veiksmus. Jei naudojate centralizuotus mokėjimus, pateikiama visų juridinių subjektų, įtrauktų į kliento skirstymo pagal terminus momentinę kopiją, informacija. Juridinių subjektų informaciją galite apriboti, pasirinkdami **Įmonė** veiksmų srities grupėje **Žymėti**.  
+- Peržiūrėkite kliento DK operacijas ir atlikite veiksmus. Jei naudojate centralizuotus mokėjimus, pridedama informacija apie visus juridinius subjektus, kurie yra įtraukti į kliento skirstymo pagal terminus momentinę kopiją. Juridinių subjektų informaciją galite apriboti, pasirinkdami **Įmonė** veiksmų srities grupėje **Žymėti**.  
 - Keiskite pasirinktų operacijų mokėjimų priežiūros būseną.    
   - Ginčų nebuvo – operacijai nebuvo atlikta jokių mokėjimų priežiūros veiksmų.    
   - Užginčyta – klientas informavo, kad kilo problema dėl operacijos.    

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 910d2347bcfb7dcdaa9ff96f324f99e17614d3a9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 33773725a1da38e017f660a4ccfc5bdd98de2b69
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179118"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140634"
 ---
 # <a name="change-the-date-for-a-session"></a>Seanso datos keitimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip pakeisti seanso datą. Pagal numatytuosius nustatymus esama data naudojama įvedant ir registruojant žurnalo įrašus arba šaltinio dokumentus. Datą, kuri naudojama dabartiniam seansui, galite pakeisti. Jei reikia, naudokite šią funkciją žurnalo įrašams arba šaltinio dokumentams atgaline data kurti.
 

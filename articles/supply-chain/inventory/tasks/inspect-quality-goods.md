@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10acb9aadfeb11ede1d66dd525ace7b70db3bd1c
-ms.sourcegitcommit: fbaccf72df82e6b6927f0c9f0d35af0ca3ecbc2d
+ms.openlocfilehash: 75fbfbb7b993b528e96d247dafa2bdfe20837987
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "1855691"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145622"
 ---
 # <a name="inspect-the-quality-of-goods"></a>Prekių kokybės tikrinimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip apdoroti kokybės užsakymą. Šį vadovą galite vykdyti demonstracinių duomenų įmonėje USMF. Prieš pradėdami šį procedūros pavyzdį, turite patvirtinti pirkimo užsakymą „000016“ ir užregistruoti produkto gavimo kvitą. Tai automatiškai sukurs kokybės užsakymą. Kokybės patikrinimus paprastai atlieka kokybės klerkas.
 

@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 142ff6f968e695da9f4a93be6950529a718e160b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2098ffed81ab3c18855363f0c3ef43dc1d11a77d
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186054"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138096"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Nustatyti didžiosios knygos pseudonimą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip sukurti sąskaitos pseudonimą, kuriame pateikiama nuoroda, kur galima įvesti sąskaitos numerį. Šioje procedūroje naudojama demonstracinių duomenų įmonė USMF.
 

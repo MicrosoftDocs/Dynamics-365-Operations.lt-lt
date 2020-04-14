@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf322973ea5e4afd9c828c3cbd1ebbd9972a964
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182260"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143058"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Atskirų ER konfigūracijų ER modelio susiejimo valdymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali valdyti elektroninių ataskaitų (ER) modelio susiejimus atskirose ER konfigūracijose. Šiame užduočių vedlyje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti užduočių vedlio veiksmus, pirmiausia turite užbaigti užduočių vedlio „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
+Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali valdyti elektroninių ataskaitų (ER) modelio susiejimus atskirose ER konfigūracijose. Šiame užduočių vedlyje kursite reikiamas kaip pavyzdys pateiktos įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti užduočių vedlio veiksmus, pirmiausia turite atlikti užduočių vedlio „ER: konfigūracijų teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
 
 Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių vedlį, naudodami jūsų pasirinktą įmonės duomenų rinkinį. Šio užduočių vedlio funkcijas galima naudoti, jei įdiegėte vieną iš tolesnių karštųjų pataisų: https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872, skirtą „Dynamics AX“ 7.0 versijai arba https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871, skirtą „Dynamics 365 for Operations“ versijai.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti užduočių vedlio „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.   
+    * Patikrinkite, ar pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra galimas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, pirmiausia turite atlikti užduočių vedlio „Konfigūracijų teikėjo kūrimas ir pažymėjimas aktyviu” veiksmus.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Įtraukti naują ER modelio konfigūraciją
 1. Spustelėkite Ataskaitų konfigūracijos.
@@ -153,7 +153,7 @@ Kadangi įmonės dalijasi ER konfigūracijomis, galite baigti šį užduočių v
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>Naudokite esamą ER modelio susiejimo konfigūraciją
 1. Medyje pasirinkite „Sample data model\Sample format“.
 2. Spustelėkite Vykdyti.
-    * Atkreipkite dėmesį, kad pasirinktos ER formato konfigūracijos projekto versijos vykdyti negalima, nes yra daugiau kaip viena modelio susiejimo konfigūracija, prieinama neapibrėžtam duomenų modeliui, kuris buvo pasirinktas kaip veikiančio ER formato duomenų šaltinis.   
+    * Atkreipkite dėmesį, kad pasirinktos ER formato konfigūracijos projekto versijos vykdyti negalima, nes yra daugiau kaip viena modelio susiejimo konfigūracija, prieinama neapibrėžtam duomenų modeliui, kuris buvo pasirinktas kaip vykdomo ER formato duomenų šaltinis.   
     * toliau jūs apibrėšite alternatyvią modelio susiejimo konfigūraciją, kaip tą, iš kurios bus naudojami modelio susiejimai kaip duomenų šaltiniai veikiančiam ER formatui.   
 3. Medyje pasirinkite „Sample data model\Sample mapping (alternative)“.
 4. Lauke Numatytoji modelio susiejimo reikšmė pasirinkite Taip.

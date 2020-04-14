@@ -454,6 +454,8 @@
                   items:
                     - name: Išplėstinių automatinių išlaidų konfigūravimas ir naudojimas
                       href: omni-auto-charges.md
+                    - name: Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą
+                      href: auto-charges-by-channel.md
                     - name: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
                       href: pro-rate-charges-matching-lines.md
                 - name: Tęstinumo programų valdymas
@@ -525,7 +527,7 @@
                 - name: Naujo produkto kūrimas
                   items:
                     - name: Naujo produkto kūrimas „Commerce“
-                      href: create-new-product.md
+                      href: create-new-product-commerce.md
                     - name: Produktų kategorijų ir produktų valdymas
                       href: category-management-product-creation.md
                 - name: Produkto atributai
@@ -598,8 +600,6 @@
                       href: personalized-recommendations.md
                     - name: Personalizuotų rekomendacijų atsisakymas
                       href: personalization-gdpr.md
-                - name: Rekomendacijų sąrašų įtraukimas į el. prekybos svetainę
-                  href: add-reco-list-to-page.md
                 - name: EKA patirtys
                   items:
                     - name: Produktų rekomendacijų įtraukimas į EKA
@@ -944,6 +944,8 @@
                       href: add-checkout-module.md
                     - name: Užsakymo patvirtinimo modulis
                       href: order-confirmation-module.md
+                    - name: Parduotuvės išrinkiklio modulis
+                      href: store-selector.md
                 - name: Sąskaitos valdymo moduliai
                   items:
                     - name: Sąskaitos valdymo puslapiai ir moduliai
@@ -2115,7 +2117,7 @@
                 - name: Mokėjimo duomenų naudojimas
                   href: payment-connector-data-fields.md
                 - name: Apsaugos nuo mokėjimo dubliavimosi mokėjimo jungtyje įjungimas
-                  href: dev-itpro/duplicate-payment-protection.md
+                  href: dev-itpro/duplicate-payments-protection.md
                 - name: Programų naršyklės mokėjimo paketo kūrimas diegiant „Service Fabric“
                   href: dev-itpro/payment-connector-package.md
             - name: Trečiosios šalies ir el. prekybos išplečiamumas

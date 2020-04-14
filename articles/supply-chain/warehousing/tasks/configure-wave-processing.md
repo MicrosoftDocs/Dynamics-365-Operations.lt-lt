@@ -17,32 +17,32 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bc28149aa56302e09eb0e7be581a582f58a76416
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 9c813a429d7837493663625bde341638eecfc5ee
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847356"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148518"
 ---
 # <a name="configure-wave-processing"></a>Bangos apdorojimo konfigūravimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šiame vadove aprašoma, kaip nustatyti kriterijus, pagal kuriuos nustatoma, koks darbas sugeneruojamas sandėliui apdorojus bangą ir ar bangos apdorojamos rankiniu būdu, ar automatiškai. Kriterijus galite nurodyti nustatydami bangos šablonus ir užklausas, kurios sugretina bangą su išleistais pardavimo užsakymais, gamybos užsakymais arba „kanban“ užsakymais. Bangos apdorojimas naudojamas tuose sandėliuose, kurie šią funkciją naudoja modulyje Sandėlio valdymas, o tuose, kurie šią funkciją naudoja modulyje Atsargų valdymas, jis nenaudojamas. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF.
 
 1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Konfigūracija > Bangos > Bangos šablonai**.
 2. Spustelėkite **Naujas**.
-3. Lauke **Wave template name** įveskite reikšmę. Kai nustatote bangos šabloną, nurodote seką, kuria šablonai bus gretinami su išleistomis pardavimo užsakymų, gamybos užsakymų ar „kanban‟ eilutėmis. Kai eilutė išleidžiama į sandėlį ar į gamybą, ji naudoja pirmąjį bangos šabloną, kurio kriterijus atitinka. Rekomenduojame padėti šablonus su specifiškiausiais kriterijais sąrašo viršuje. Kuo platesni kriterijai, tuo didesnė tikimybė, kad eilutė atitiks kriterijus, todėl eilutės gali būti priskirtos netinkamai bangai.  
-4. Lauke **Wave template description** įveskite reikšmę.
-5. Lauke **Site** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti 2-ąją vietą.  
-6. Lauke **Warehouse** įveskite arba pasirinkite reikšmę. Jei naudojate USMF, galite pasirinkti 24-ąjį sandėlį.  
+3. Lauke **Bangos šablono pavadinimas** įveskite reikšmę. Kai nustatote bangos šabloną, nurodote seką, kuria šablonai bus gretinami su išleistomis pardavimo užsakymų, gamybos užsakymų ar „kanban‟ eilutėmis. Kai eilutė išleidžiama į sandėlį ar į gamybą, ji naudoja pirmąjį bangos šabloną, kurio kriterijus atitinka. Rekomenduojame padėti šablonus su specifiškiausiais kriterijais sąrašo viršuje. Kuo platesni kriterijai, tuo didesnė tikimybė, kad eilutė atitiks kriterijus, todėl eilutės gali būti priskirtos netinkamai bangai.  
+4. Lauke **Bangos šablono aprašas** įveskite reikšmę.
+5. Lauke **Teritorija** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti svetainę „2“.  
+6. Lauke **Sandėlis** įveskite arba pasirinkite reikšmę. Jeigu naudojate USMF, galite pasirinkti sandėlį „24“.  
 7. Lauką **Automatiškai kurti bangą** nustatykite į **Taip**. Pasirinkite šią parinktį, kad banga būtų automatiškai kuriama į sandėlį išleidus pardavimo užsakymą, gamybos užsakymą arba „kanban“.  
 8. Parinktį **Apdoroti bangą išleidžiant ją į sandėlį** nustatykite į **Taip**. Pasirinkite šią parinktį, kad būtų automatiškai apdorojama banga ir sukuriamas darbas į sandėlį išleidus eilutę.  
 9. Nustatykite **Parinktis automatizuoti bangos išleidimą** į **Taip**. Pasirinkus šią parinktį bus automatiškai išleidžiama banga. Paėmimo darbas sukuriamas ir prieinamas mobiliuosiuose įrenginiuose.  
 10. Nustatykite **Parinktis priskirti atidaryti bangas** į **Taip**. Eilutės priskiriamos bangoms pagal bangos šablono užklausos filtrą.  
 11. Nustatykite **Parinktis apdoroti bangą automatiškai ties ribine reikšme** į **Taip**. Pasirinkite šią parinktį, kad banga būtų automatiškai apdorojama jos vertėms pasiekus svorio, siuntos ir laukų grupėje Bangos slenksčiai nurodytų eilučių slenksčius. Šią parinktį galima naudoti tik lauke Bangos šablono tipas pasirinkus Siunta.  
 12. Nustatykite **Parinktis automatiškai leisti papildymo darbą** į **Taip**. Pasirinkus šią parinktį bus automatiškai sukuriamas ir išleidžiamas papildymo darbas pagal poreikį. Turite įtraukti papildymo bangos metodą į bangos šabloną ir sukurti tipo Bangos poreikis papildymo šabloną.  
-13. Išplėskite dalį **Methods**.
+13. Išplėskite dalį **Metodai**.
 
     - Bangos šablonų būdais galima valdyti veiklų, per kurias praeina kiekviena apdorojama banga, seką. Pavyzdžiui, galite turėti bangų papildymo būdą. Kai pridedate metodą, jis automatiškai pateikiamas atitinkamoje vietoje pagal sekos veiksmus. Jei parinktį Automatiškai leisti papildymo darbą nustatėte į Taip, čia turite įtraukti papildymo būdą.  
     - Bangų atributai veikia kaip filtrai – jie riboja, kokios prekės gali naudoti bangą. Pavyzdžiui, galite nurodyti prekių grupę.  

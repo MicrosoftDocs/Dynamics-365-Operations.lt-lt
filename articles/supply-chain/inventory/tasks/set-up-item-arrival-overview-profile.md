@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1c6bcbb71f52e0ec5f979f8d79c896d10689a1b
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 55512c75445a5f3b9c1521376a20d48dd60e22c6
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1867238"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145530"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Gaunamų prekių apžvalgos profilio nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]]
 
 Šioje temoje aprašyta gaunamų prekių apžvalgos profilio sąranka. Gaunamų prekių apžvalgos profilis yra rinkinys taisyklių, kurios taikomos, kai vartotojas atidaro puslapį „Gaunamų prekių apžvalga“. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Šią procedūrą paprastai atlieka gavimo klerkas.
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: fb34ecc0ff5966ae09fdb00e80134a11eceb30a2
-ms.sourcegitcommit: c6be9706bca05089d4a4dc898d991410edb5c609
+ms.openlocfilehash: d62cf8be089eb8bccaf323041bf446b7f120b93f
+ms.sourcegitcommit: 61f9e15c5791d27db392d0a90cd781aa8e5baa6f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "3097500"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3164540"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.8 (2020 m. vasario mėn.)
 
@@ -32,13 +32,14 @@ ms.locfileid: "3097500"
 
 - **Peržiūros leidimas:** 2019 m. gruodžio mėn
 - **Bendras pasiekiamumas (automatinis naujinimas):** 2020 m. sausis
-- **Automatinis atnaujinimas:** 2020 m. vasaris 
+- **Automatinis atnaujinimas:** 2020 m. vasaris
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Kai kurios iš šių funkcijų taip pat galėjo būti įtrauktos į ankstesnį papildantįjį leidimą, bet nebuvo paskelbtos ankstesnėje temoje *Kas nauja*, todėl jas pridedame čia. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 - [Papildomos vietos zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+- [Turto valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management). Norėdami gauti daugiau informacijos, žr. [Turto valdymo apžvalga](../asset-management/index.md).
 - [Atšaukti darbą](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work); daugiau informacijos žr. [Darbo sandėlyje atšaukimas dėl išimčių tvarkymo](../warehousing/cancel-warehouse-work.md).
 - [Darbo telkinio keitimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)
 - [Klasterio pareigos pilnos](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)

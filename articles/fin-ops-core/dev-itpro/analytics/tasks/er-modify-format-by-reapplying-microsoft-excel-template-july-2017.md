@@ -15,23 +15,23 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 73f2c10d7462c4b52a2b36dd5f221593707d2f4f
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5408fd883e91bbff465434ab23974f22bb0f07da
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2184674"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143009"
 ---
 # <a name="modify-formats-by-reapplying-excel-templates"></a>Formatų modifikavimas iš naujo pritaikant „Excel‟ šablonus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Norėdami užbaigti veiksmus šioje procedūroje, pirmiausia turite užbaigti procedūrą „ER – kurkite konfigūraciją ataskaitoms generuoti OPENXML formatu“.
 
 Šia procedūra paaiškinama, kaip keisti elektroninių ataskaitų teikimo (ER) formato konfigūraciją, iš naujo taikant „Microsoft Excel“ šabloną, kuris buvo pakeistas. Šios procedūros metu importuosite modifikuotą „Excel“ šabloną į ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, ir tada generuokite elektroninius dokumentus. Ši procedūra skirta vartotojams, kuriems priskirtas sistemos administratoriaus arba elektroninių ataskaitų teikimo programuotojo vaidmuo. Šiuos veiksmus galima atlikti naudojant GBSI duomenų rinkinį. Prieš pradėdami atsisiųskite ir įrašykite failą SampleVendPaymWsReport2.xlsx, kuris nurodytas žinyno temoje „Elektroninių ataskaitų formato modifikavimas iš naujo pritaikant „Excel“ šabloną“ (modify-electronic-reporting-format-reapply-excel-template/).
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų” veiksmus.  
+    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų veiksmus.  
 
 ## <a name="select-the-er-format"></a>Pasirinkite ER formatą
 1. Spustelėkite Ataskaitų konfigūracijos.
@@ -49,10 +49,10 @@ Norėdami užbaigti veiksmus šioje procedūroje, pirmiausia turite užbaigti pr
     * Atidarykite pasirinkto ER formato juodraščio versiją redagavimui.  
 2. Veiksmų srityje spustelėkite Importuoti.
 3. Spustelėkite Naujinti iš „Excel‟.
-    * Spustelėkite „Atnaujinti šabloną“ ir pasirinkite failą, SampleVendPaymWsReport2.xlsx.  
+    * Spustelėkite „Naujinti šabloną“ ir pasirinkite failą SampleVendPaymWsReport2.xlsx.  
     * Spustelėkite Atnaujinti šabloną ir naršykite, kad gautumėte anksčiau atsisiųstą SampleVendPaymWsReport2.xlsx failą.  
 4. Spustelėkite GERAI.
-    * Pritaikytas SampleVendPaymWsReport2.xlsx šablonas. ER formato struktūra sinchronizuojama su šablono, kurio elementai pridėti prie ER formato, turiniu. Bet kokie ER formate esantys elementai, kurie neįtraukiami į šabloną, pašalinami iš formato apibrėžties.  
+    * Pritaikytas SampleVendPaymWsReport2.xlsx šablonas. ER formato struktūra sinchronizuojama su šablono, kurio elementai pridėti prie ER formato, turiniu. Bet kokie ER formate esantys elementai, kurie neįtraukti į šabloną, pašalinami iš formato apibrėžties.  
 5. Medyje pasirinkite „Excel“.
     * Atkreipkite dėmesį, kad šablono lauke dabar yra nuoroda į naują šabloną.   
 6. Spustelėkite Priedai.

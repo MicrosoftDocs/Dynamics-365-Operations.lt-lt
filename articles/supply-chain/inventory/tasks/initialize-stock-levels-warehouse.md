@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dbd6dc6c2e5b7c1abe6e19f00a5df285e0147a92
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 3f922620c7aeeafd8560316239875c1ec5486191
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1845398"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145691"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Inicijuoti atsargų lygius sandėlyje
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip atnaujinti turimas atsargas rankiniu būdu, naudojant atsargų perkėlimo žurnalą. (Turimas atsargas taip pat galima atnaujinti importuojant duomenų objektų operacijas.) Šį vadovą galite paleisti naudodami demonstracinių duomenų įmonę USMF, kurioje pateikiami visi būtinieji komponentai, pvz., žurnalo pavadinimas, prekių nustatymai, registravimo šablonai ir sąskaitos. Vadovas siūlo konkrečias naudojamos prekės ir dimensijų reikšmes. Jei pasirinksite kitą prekę, gali reikėti įvesti kitų dimensijų reikšmes.
 

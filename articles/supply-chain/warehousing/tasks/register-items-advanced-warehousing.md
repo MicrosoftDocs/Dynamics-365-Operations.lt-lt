@@ -17,20 +17,20 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ec15a5d35c360ed8f8eddffc44d303df193ce3e7
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 2550e32db8b0d769f62c13654aa1dc1d201388ff
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1847273"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3148336"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registruoti prekės, kurios patobulinto sandėliavimo funkcija įjungta, prekes naudojant prekių gavimo žurnalą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra jums parodo, kaip registruoti prekes, naudojant prekių gavimo žurnalą, kai naudojate patobulintus sandėlio valdymo procesus. Paprastai tai atlieka gavimo klerkas. 
 
-Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami šį vadovą, turite turėti patvirtintą pirkimo užsakymą su atidaryta pirkimo užsakymo eilute. Prekė eilutėje turi būti laikoma atsargose, nenaudoti produktų variantų ir neturėti sekimo dimensijų. Taip pat prekės turi būti susietos su saugojimo dimensijų grupe, kurioje įgalintas sandėlio valdymo procesas. Naudojamas sandėlis turi būti įgalintas naudoti sandėlio valdymo procesus, o naudojama gavimo vieta turi būti kontroliuojama pagal numerio lentelę. Jei naudojate USMF, norėdami sukurti savo PO, galite naudoti įmonės sąskaitą 1001, 51 sandėlį ir prekę M9200. 
+Šią procedūrą galite vykdyti demonstracinėje duomenų įmonėje USMF arba su savo duomenimis. Prieš pradėdami šį vadovą, turite turėti patvirtintą pirkimo užsakymą su atidaryta pirkimo užsakymo eilute. Prekė eilutėje turi būti laikoma atsargose, nenaudoti produktų variantų ir neturėti sekimo dimensijų. Taip pat prekės turi būti susietos su saugojimo dimensijų grupe, kurioje įgalintas sandėlio valdymo procesas. Naudojamame sandėlyje turi būti įgalinti sandėlio valdymo procesai, o vieta, kurią naudojate prekių gavimui, turi būti kontroliuojama numerio lentelės. Jei naudojate USMF, kurdami savo pirkimo užsakymą, galite naudoti įmonės klientą 1001, sandėlį 51 ir elementą M9200. 
 
 Pasižymėkite savo sukurto pirkimo užsakymo numerį ir prekės numerį bei pirkimo užsakymo eilutėje naudotą vietą.
 
@@ -39,14 +39,14 @@ Pasižymėkite savo sukurto pirkimo užsakymo numerį ir prekės numerį bei pir
 1. Eikite į Prekių gavimas.
 2. Spustelėkite Naujas.
 3. Lauke Pavadinimas surinkite reikšmę.
-    * Jei naudojate USMF, galite surinkti WHS. Jei naudojate kitus duomenis, žurnalas, kurio pavadinimą pasirinkote, turi turėti toliau nurodytas ypatybes: Tikrinti paėmimo vietą turi būti nustatyta į Ne ir Sulaikymo valdymas turi būti nustatyta į Ne.  
+    * Jei naudojate USMF, galite surinkti WHS. Jei naudojate kitus duomenis, žurnalas, kurio pavadinimą pasirinksite, turi turėti šias savybes: patikros rinkimo vieta turi būti nustatyta į „Ne“ ir karantino valdymas turi būti nustatytas į „Ne“.  
 4. Lauke Numeris surinkite reikšmę.
 5. Lauke Teritorija surinkite reikšmę.
     * Pasirinkite vietą, kurią naudojote savo pirkimo užsakymo eilutėje. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jei USMF naudojote 51 sandėlį, pasirinkite 5 vietą.  
 6. Lauke Sandėlis surinkite reikšmę.
-    * Pasirinkite tinkamą pasirinktos vietos sandėlį. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jei USMF naudojate reikšmių pavyzdžius, pasirinkite 51.  
+    * Pasirinkite tinkamą jūsų pasirinktos svetainės sandėlį. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jeigu USMF naudojate reikšmių pavyzdžius, pasirinkite „51“.  
 7. Lauke Vieta surinkite reikšmę.
-    * Pasirinkite tinkamą pasirinkto sandėlio vietą. Vieta turi būti susieta su vietos šablonu, kuris yra kontroliuojamas pagal numerio lentelę. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jei USMF naudojate reikšmių pavyzdžius, pasirinkite Bulk-008.  
+    * Pasirinkite tinkamą jūsų pasirinktos vietos sandėlį. Vieta turi būti susieta su vietos šablonu, kuris yra kontroliuojamas pagal numerio lentelę. Tai bus numatytoji visų žurnalo eilučių reikšmė. Jeigu USMF naudojate reikšmių pavyzdžius, pasirinkite „Bulk-008“.  
 8. Dešiniuoju pelės mygtuku spustelėkite lauko Numerio lentelė išplečiamąją rodyklę ir pasirinkite Peržiūrėti išsamią informaciją.
 9. Spustelėkite Naujas.
 10. Lauke Numerio lentelė įveskite reikšmę.

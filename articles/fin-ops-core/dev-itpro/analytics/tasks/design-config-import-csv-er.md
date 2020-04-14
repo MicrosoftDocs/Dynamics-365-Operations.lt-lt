@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf27590d80bbaf7749a0b6e69adc63ddcf4f9380
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c8511b83a5d327f6a1d5c9ace091eae9e546307b
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185157"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142261"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER konfigūracijų kūrimas norint importuoti duomenis iš išorinių CSV failų
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Naudokite šią procedūrą elektroninių ataskaitų (ER) konfigūracijoms kurti, kad iš išorinio CSV formato failo būtų galima importuoti duomenis į programą. Šioje procedūroje kursite reikiamas pavyzdinės įmonės „Litware, Inc.“ ER konfigūracijas. Norėdami atlikti šiuos veiksmus, pirmiausia turite užbaigti procedūros „ER: konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“ veiksmus. 
 

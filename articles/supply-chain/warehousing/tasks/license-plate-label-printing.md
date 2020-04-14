@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed4fa28039c9320998f6524c9c9edb0a0301b7b0
-ms.sourcegitcommit: a368682f9cf3897347d155f1a2d4b33e555cc2c4
+ms.openlocfilehash: 545f1c15888bcd0b46e1028f58cbe3a274846c92
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/08/2019
-ms.locfileid: "1866831"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146036"
 ---
 # <a name="enable-license-plate-label-printing"></a>Numerio lentelės žymės spausdinimo įgalinimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip įjungti gabenimo konteinerio serijos kodo (SSCC) etiketės automatinį spausdinimą, pardavimo paėmimo darbo procese paėmus paskutinę prekę iš atsargų. Šią procedūrą galite vykdyti demonstracinių duomenų įmonėje USMF. Jei ją vykdote naudodami savo duomenis, reikia nustatyti numerio lentelių numeraciją. Prieš pradėdami šią užduotį, turite nustatyti etikečių spausdintuvą. Pasirinkite Organizacijos administravimas > Nustatymas > Tinklo spausdintuvai. Srityje Veiksmas spustelėkite Parinktys ir tada spustelėkite mygtuką Atsisiųsti dokumento kelvados agento diegimo programą. Paleiskite diegimo programą ir prieš tęsdami procedūrą įsitikinkite, kad nustatyta veikiančio tinklo spausdintuvo parinktis Aktyvus.
 

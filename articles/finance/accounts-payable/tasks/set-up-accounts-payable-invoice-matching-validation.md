@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b048c49de7357ec1b5cbf36dd4f22a5d3efd443b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a101edd9e25fba1aa2325cb2193c6ea56282c9d1
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189412"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143793"
 ---
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Mokėtinų sumų SF gretinimo tikrinimo nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Prieš pradėdami įsitikinkite, kad pasirinktas SF gretinimo konfigūracijos raktas. Jei jūsų juridinis subjektas seka išlaidas, pavyzdžiui, transportavimo, įsitikinkite, kad pasirinktas konfigūracijos raktas Išlaidos.  Mokėtinų sumų SF gretinimas yra tiekėjo SF, pirkimo užsakymo ir produkto gavimo kvito informacijos gretinimo procesas. Skirtumai tarp šių dokumentų vadinami gretinimo neatitikimais. Gretinimo nesutapimai lyginami su nurodytais leistinais nuokrypiais. Jei gretinimo nesutapimas viršija leistino nuokrypio procentą arba sumą, puslapiuose **Tiekėjo SF** ir **SF gretinimo informacija** rodomos gretinimo nuokrypio piktogramos.
 
@@ -42,14 +42,14 @@ Galimi keturi skirtingi gretinimo tikrinimo tipai.
 2. Pasirinkite skirtuką **SF tikrinimas.**.
 3. Pažymėkite arba atžymėkite žymės langelį **Įgalinti SF gretinimo tikrinimą**.
     * Pasirinkite, ar reikalauti patvirtinimo prieš registruojant SF, kurioje yra SF gretinimo nesutapimų. Jei nustatyta parinktis **Leisti įspėjant**, kai SF gretinimo nesutapimas viršys leistiną nuokrypį, tai bus parodyta vizualiai. Tačiau SF galėsite registruoti. Kad galėtumėte darbo eigas naudoti kartu su SF gretinimo tikrinimo funkcija, įsitikinkite, kad lauko **Registruoti SF su nesutapimais** reikšmė nustatyta kaip **Leisti įspėjant**, kad nereikėtų tvirtinti kelis kartus.  
-    * Lauke **Automatiškai atnaujinti sąskaitos faktūros antraštės gretinimo būseną** pasirinkite, ar sistemai įvedant sąskaitos faktūros duomenis gretinimas bus atliekamas automatiškai. Rekomenduojamas nustatymas **Taip**, išskyrus atvejus, jei jums kyla duomenų įvedimo efektyvumo problemų. Išjungus automatinius atnaujinimus gali pagreitėti sistemos efektyvumas, nes SF gretinimo tikrinimas įvedant duomenis bus praleistas. Kai nustatyta parinktis **Ne**, duomenų įvedimo klerkas, norėdamas matyti SF gretinimo tikrinimo rezultatus, turės rankiniu būdu atnaujinti sąskaitos faktūros gretinimo būseną.  
+    * Lauke **Automatiškai atnaujinti sąskaitos faktūros antraštės gretinimo būseną** pasirinkite, ar sistemai įvedant sąskaitos faktūros duomenis gretinimas bus atliekamas automatiškai. Rekomenduojamas nustatymas **Taip**, išskyrus atvejus, jei jums kyla duomenų įvedimo efektyvumo problemų. Išjungus automatinius atnaujinimus gali pagreitėti sistemos efektyvumas, nes SF gretinimo tikrinimas įvedant duomenis bus praleistas. Duomenų įvedimo klerkas turės rankiniu būdu atnaujinti SF gretinimo būseną, kad pamatytų SF gretinimo patvirtinimo rezultatus, kai tai nustatyta į **„Ne“**.  
 4. Parinkties **SF bendrų sumų gretinimas** nustatymas.
 5. Pažymėkite arba atžymėkite žymės langelį **Gretinti sąskaitos faktūros sumas**, kad sugretintumėte faktines sąskaitos faktūros bendras sumas su numatytomis bendromis sumomis.
     * Pasirinkite, ar rodyti piktogramą, jei SF gretinimo neatitikimas viršija leistiną nuokrypį. Galite pasirinkti rodyti piktogramą, kai teigiamas neatitikimas viršija leistiną nuokrypį arba kai teigiamas ar neigiamas neatitikimas viršija leistiną nuokrypį.  
     * Pvz., leistinas nuokrypis yra 5 proc., o pirkimo užsakymo bendroji SF suma yra 100,00. Todėl kainų gretinimo piktograma rodoma, jei SF bendroji suma viršija 105,00. Pažymėjus parinktį **Jei didesnis arba mažesnis nei leistinas nuokrypis**, piktograma taip pat rodoma, kai sąskaitos faktūros suma yra mažesnė nei 95,00.  
 6. Lauke **Sąskaitos faktūros bendrų sumų leistino nuokrypio procentas** įveskite priimtiną leistino nuokrypio procentą. Ši vertė yra numatytoji įmonės vertė. Konkretiems tiekėjams šią vertę galima pakeisti puslapyje **Sąskaitos faktūros sumų leistini nuokrypiai**. Norėdami gauti informacijos apie tai, kaip pakeisti konkretaus tiekėjo sąskaitų faktūrų bendrų sumų leistino nuokrypio procentą, žr. toliau šioje temoje esantį skyrių „Sąskaitų faktūrų bendrų sumų gretinimo leistino nuokrypio nustatymas tiekėjams“.
 7. Parinkties **Kainos ir kiekio gretinimas** nustatymas.
-8. Lauke **Eilučių atitikimo strategija** pasirinkite reikšmę, kurią norite naudoti kaip numatytąją juridinio subjekto, su kuriuo dirbate, strategiją. **Nebūtina** reiškia, kad nereikia tikrinti atskirų sąskaitos faktūros eilučių kainų su pirkimo užsakymo kainomis bei sąskaitos faktūros kiekių su važtaraščio kiekiais. **Dvikryptis gretinimas** reiškia, kad reikia tikrinti sąskaitos faktūros eilutes, bet tikrinant reikia naudoti tik pirkimo užsakymo ir tiekėjo sąskaitos faktūros dokumentus. Produkto gavimo kvitas į gretinimo tikrinimus neįtraukiamas. **Trikryptis gretinimas** reiškia, kad sąskaitos faktūros grynoji prekės kaina bus lyginama su pirkimo užsakymo grynąja prekės kaina bei gretinamo produkto gavimo kvito kiekis bus lyginamas su sąskaitos faktūros kiekiu.
+8. Lauke **Eilučių atitikimo strategija** pasirinkite reikšmę, kurią norite naudoti kaip numatytąją juridinio subjekto, su kuriuo dirbate, strategiją. **Nebūtina** reiškia, kad nereikia tikrinti atskirų sąskaitos faktūros eilučių kainų su pirkimo užsakymo kainomis bei sąskaitos faktūros kiekių su važtaraščio kiekiais. **Dvipusis gretinimas** reiškia, kad reikia patvirtinti SF eilutes, tačiau tikrinamas tik pirkimo užsakymas ir tiekėjo SF dokumentai. Neatsižvelgiama į produkto gretinimo patvirtinimą. **Tripusis gretinimas** reiškia, kad SF grynoji vieneto kaina bus palyginta su pirkimo užsakymo grynąja vieneto kaina, o gretinamo produkto gavimo kiekis bus lyginamas su SF kiekiu.
 9. Norėdami leisti, kad prekei, tiekėjui, tiekėjo ir prekės deriniui arba pirkimo užsakymo eilutei būtų taikomas kitoks gretinimo lygis, pasirinkite lauko **Leisti keisti atitikimo strategiją** reikšmę. Konkretaus tiekėjo, prekės ar tiekėjo ir prekės derinio juridinio subjekto eilučių atitikimo strategiją galima pakeisti puslapyje **Atitikimo strategija**.
     * Jei naudojate dvikrypčio gretinimo arba trikrypčio gretinimo eilučių atitikimo strategiją, puslapyje **Leistinas prekių kainų nuokrypis** galite nustatyti juridinio subjekto, prekių ir tiekėjų leistinų kainų nuokrypių procentus. Numatytasis juridinio subjekto dvikrypčio ir trikrypčio gretinimo leistino kainų nuokrypio procentas bus nustatytas kaip nulis. Kai tiekėjo SF palyginamos su pirkimo užsakymų informacija, ieškoma taikytino leistino kainų nuokrypio procento.   
 10. Norėdami gretinti sąskaitų faktūrų eilučių prekių kainų bendras sumas, pasirinkite lauko **Gretinti kainų bendras sumas** reikšmę. Šis gretinimo tipas yra naudingas, kai tiekėjas už tą pačią pirkimo užsakymo eilutę siunčia kelias SF. Kiekvienos SF eilutės ir visų laukiančių bei anksčiau užregistruotų SF eilučių grynosios sumos kainos informaciją galite palyginti su atitinkamos pirkimo užsakymo eilutės grynąja suma.  Galimos parinktys: **Nėra**, **Procentas**, **Suma** arba **Procentas ir suma**.

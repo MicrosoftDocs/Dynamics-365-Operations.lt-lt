@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fea46cb7e16ece8835bbd18d8830558b5cdb9978
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: caac7baa7841eea85c2c47f938f75663a7f9255a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023403"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141282"
 ---
 # <a name="manage-assortments-november-2016"></a>Asortimentų valdymas (2016 m. lapkričio mėn.)
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Šioje procedūroje parodoma, kaip kurti ir publikuoti naują produktų asortimentą, ir joje naudojami įmonės USRT demonstraciniai duomenys. 
 

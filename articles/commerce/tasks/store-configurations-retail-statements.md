@@ -17,16 +17,16 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b73282abd2df92b3f466f7c1c6c210173001fd7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 57081b9e737373641cd9d884919d03dcf62a2ffe
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023394"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3140660"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Mažmeninės prekybos išrašų parduotuvės konfigūracijos
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Ši procedūra nurodo parduotuvės konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami prekybos išrašai. Parduotuvių finansiniai aspektai aprašyti kitoje procedūroje. Šioje procedūroje naudojama demonstracinė įmonė USRT.
 

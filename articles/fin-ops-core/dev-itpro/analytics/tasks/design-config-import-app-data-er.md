@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26a3dee8b73ae710def7e526ceefa7194171d716
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: a261acee47c6d52e3a1390d0e55cb3f9d197efec
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182674"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142259"
 ---
 # <a name="design-er-configurations-to-parse-incoming-documents"></a>ER konfigūracijų kūrimas siekiant išanalizuoti gaunamus dokumentus
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą. Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, ir jas panaudosite gaunamų elektroninių dokumentų analizei. Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu“.
+Šioje procedūroje parodoma, kaip kurti elektroninių ataskaitų (ER) konfigūraciją, norint analizuoti gaunamą elektroninį dokumentą. Šios procedūros metu importuosite reikiamas ER formato konfigūracijas, sukurtas pavyzdinei įmonei „Litware, Inc.“, ir jas panaudosite gaunamų elektroninių dokumentų analizei. Norėdami baigti šios procedūros veiksmus, pirmiausia turite atlikti procedūrą „ER sukurti konfigūracijos teikėją ir pažymėti jį kaip aktyvų“.
 
 Ši procedūra sukurta vartotojams, kuriems priskirtas vaidmuo Sistemos administratorius arba Elektroninių ataskaitų teikimo programuotojas. 
 
 Šiuos veiksmus galima atlikti naudojant bet kurį duomenų rinkinį. Prieš pradėdami atsisiųskite ir išsaugokite failus, pateiktus temoje „Gaunamų dokumentų analizė siekiant atnaujinti prašymų duomenis“ (https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Turimi omenyje šie failai: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų“ veiksmus.  
+    * Įsitikinkite, kad pavyzdinės įmonės „Litware, Inc.” konfigūracijos teikėjas yra prieinamas ir pažymėtas kaip aktyvus. Jei nematote šio konfigūracijos teikėjo, atlikite procedūros „Kurkite konfigūracijos teikėją ir pažymėkite kaip aktyvų” veiksmus.  
 2. Spustelėkite Ataskaitų konfigūracijos.
     * Toliau pateikiamas scenarijus bus naudojamas norint nurodyti XML formatu pateiktų gaunamų elektroninių dokumentų analizavimo galimybes: ERP programa reikalauja duomenų iš žiniatinklio tarnybos (pvz., http://efsta.org/ EFSTA finansų tarnybos) ir analizuoja gaunamus atsakymus, kad būtų galima atitinkamai atnaujinti programos duomenis. Siekiant, kad analizavimas būtų efektyviausias naudojamas vienas ER formatas, nepaisant to, kad laukiamų gaunamų XML formatu pateikiamų dokumentų struktūra skiriasi.   
 

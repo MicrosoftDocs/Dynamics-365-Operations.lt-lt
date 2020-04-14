@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58b725af456f1a5c7f158f01ffe48a2d8cdf056b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 03fcc62236b14a8721a4cb611978e8672ae77ea3
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550542"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3146933"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Kurti „lean manufacturing“ subrangovo darbo elementą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Norėdami modeliuoti subrangovo darbą „lean manufacturing“, turite sukurti darbo elementą, susietą su tiekėju, atliekančiu darbą. Subrangovo darbo elementas yra susietas su tiekėju, susiejant tiekėjo tipo išteklių. Jei leidžiate šį įrašą naudodami USMF demonstracinę įmonę, galite pasirinkti tiekėjo kodo ID 1002 ir 1 svetainę.
 

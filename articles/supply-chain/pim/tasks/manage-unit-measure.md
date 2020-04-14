@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 042a7495d55fb9d884771972cfc18e5ddb25330d
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: f26b55f6e79200ac273fbb642c49998d8cd7e388
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844326"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3147623"
 ---
 # <a name="manage-unit-of-measure"></a>Tvarkyti matavimo vienetą
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra nurodo, kaip apibrėžti matavimo vienetą, pateikti vieneto vertimus ir jo aprašą ir apibrėžti susijusių vienetų konvertavimo taisykles. Šią procedūrą galite žingsnis po žingsnio atlikti naudodami demonstracinius duomenis arba savo pačių duomenis.
 
@@ -34,28 +34,28 @@ ms.locfileid: "1844326"
 
 ## <a name="create-a-unit-of-measure"></a>Kurti matavimo vienetą
 1. Spustelėkite **Naujas**.
-2. Lauke **Unit** įveskite reikšmę. Įveskite ID arba simbolį, naudojamą nurodant matavimo vienetą.  
-3. Lauke **Description field**surinkite reikšmę. Įveskite matavimo vieneto aprašomąjį pavadinimą sistemos kalba.  
+2. Lauke **Vienetas** įveskite reikšmę. Įveskite ID arba simbolį, naudojamą nurodant matavimo vienetą.  
+3. Lauke **Aprašymas įveskite**surinkite reikšmę. Įveskite matavimo vieneto aprašomąjį pavadinimą sistemos kalba.  
 4. Lauke **Vieneto klasė** pasirinkite parinktį. Vieneto klasė apibrėžia, kokiai loginei grupei, pvz., plotui, masei ar kiekiui, priklauso matavimo vienetas.  
 5. Lauke **Dešimtainis tikslumas** įveskite skaičių. Nurodykite dešimtainių dalių skaičių, iki kurio turi būti apvalinamas konvertuojamas matavimo vienetas atlikus skaičiavimą su šiuo matavimo vienetu.  
 6. Spustelėkite **Įrašyti**.
 
 ## <a name="define-unit-translations"></a>Apibrėžti vieneto vertimus
-1. **Action pane** spustelėkite **Unit texts**.
+1. **Veiksmų srityje** spustelėkite **Vieneto tekstai**.
 2. Spustelėkite **Naujas**. Naudodami vieneto tekstą sukurkite matavimo vienetą reprezentuojančio ID arba simbolio vertimą, kuris bus naudojamas išoriniuose dokumentuose konkretaus kliento arba tiekėjo kalbomis.  
 3. Lauke **Kalba** įveskite arba pasirinkite reikšmę.
 4. Lauke **Tekstas** įveskite reikšmę.
 5. Spustelėkite **Įrašyti**.
 6. Uždarykite puslapį.
-7. **Action pane** spustelėkite **Translated unit descriptions**.
+7. **Veiksmų srityje** spustelėkite **Išversti vienetų aprašai**.
 8. Spustelėkite **Naujas**. Nurodykite matavimo vieneto aprašus konkrečia kalba.  
 9. Lauke **Kalba** įveskite arba pasirinkite reikšmę.
-10. Lauke **Description field**surinkite reikšmę.
+10. Lauke **Aprašymas įveskite**surinkite reikšmę.
 11. Spustelėkite **Įrašyti**.
 12. Uždarykite puslapį.
 
 ## <a name="define-unit-conversion-rules"></a>Apibrėžti vieneto konvertavimo taisykles
-1. **Action pane** spustelėkite **Unit conversions**. Apibrėžkite matavimo vieneto konvertavimo į ir iš kitų matavimo vienetų pasirinktoje vieneto klasėje taisykles.  
+1. **Veiksmų srityje** spustelėkite **Vienetų konvertavimas**. Apibrėžkite matavimo vieneto konvertavimo į ir iš kitų matavimo vienetų pasirinktoje vieneto klasėje taisykles.  
 2. Spustelėdami **Naujas** atidarykite išplečiamąjį dialogo langą.
 3. Lauke **Koeficientas** įveskite skaičių. Konvertavimo iš vienetų į vienetus koeficientas. Pvz., konvertavimo iš centimetrus į metrus koeficientas yra 100, nes vienas metras turi 100 centimetrų.  
 4. Lauke **Į vnt.** įveskite arba pasirinkite reikšmę.

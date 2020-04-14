@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6f27675a2aa2160619bf78eea33bba2ce0b7bd81
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 11089584e150a1a302eb969a5fb61cb9d1900901
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188101"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3141746"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registruoti kliento vėlesnį čekį
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-Galite užregistruoti išsamią vėlesnio čekio informaciją, gautą iš kliento. Taip pat galite užregistruoti vėlesnį čekį ir sugeneruoti finansines operacijas.   Prieš registruodami iš kliento gautą vėlesnį čekį, gautas iš kliento, atlikite šias užduotis:  • Nustatykite vėlesnį čekį puslapyje Grynųjų pinigų ir banko valdymas • Nustatykite vėlesnių čekių apmokėjimo būdą  Šios procedūros vaidmuo yra Iždininkas. Šioje procedūroje naudojama demonstracinė įmonė USMF.
+Galite užregistruoti išsamią vėlesnio čekio informaciją, gautą iš kliento. Taip pat galite užregistruoti vėlesnį čekį ir sugeneruoti finansines operacijas.   Prieš užregistruodami iš kliento gautą vėlesnį čekį, atlikite toliau nurodytus veiksmus. *Nustatykite vėlesnį čekį puslapyje „Grynųjų pinigų ir banko tvarkymas“.* Nustatykite vėlesnių čekių atsiskaitymo būdą. Šios procedūros vaidmuo yra „Iždininkas“. Šioje procedūroje naudojama demonstracinė įmonė USMF.
 
 1. Pasirinkite Gautinos sumos > Mokėjimai > Mokėjimų žurnalas.
 2. Spustelėkite Naujas.

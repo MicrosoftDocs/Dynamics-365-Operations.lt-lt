@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 1ba4d09240888f0c533fb07614e75ffecea0742c
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 863403dc3b2444f00f0cac27a494fc49d3d70de7
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124098"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161597"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>PVM dviejų valiutų palaikymas
 [!include [banner](../includes/banner.md)]
@@ -34,7 +34,7 @@ ms.locfileid: "3124098"
 
 Ankstesnėse versijose operacijos buvo konvertuojamos į ataskaitų valiutą tokia tvarka: 
 
-Operacijos suma buvo apskaičiuota operacijos valiuta > operacijos suma buvo konvertuota į apskaitos valiutą > apskaitos valiutos suma buvo konvertuota į ataskaitų valiutą
+- Operacijos suma buvo apskaičiuota operacijos valiuta > operacijos suma buvo konvertuota į apskaitos valiutą > apskaitos valiutos suma buvo konvertuota į ataskaitų valiutą
 
 Įjungus dviejų valiutų funkciją, operacijos buvo konvertuotos į ataskaitų valiutą tokia tvarka:
 
@@ -48,8 +48,6 @@ Dėl dviejų valiutų palaikymo funkcijų valdyme atsirado dvi naujos funkcijos:
 - Mokesčių sudengimo automatinis balansas ataskaitų valiuta (10.0.11 versijoje)
 
 Dviejų valiutų palaikymas PVM srityje užtikrina, kad mokesčiai bus tiksliai apskaičiuoti mokesčių valiuta ir kad PVM sudengimo balansas bus apskaičiuotas tiksliai ir apskaitos valiuta, ir ataskaitų valiuta. 
-
-Šiuo metu veikia naujos klientų asmeninės peržiūros funkcijos. Norėdami įgalinti funkcijas, per atitinkamą kanalą „Microsoft“ pateikite aptarnavimo užklausą.
 
 ## <a name="sales-tax-conversion"></a>PVM konvertavimas
 

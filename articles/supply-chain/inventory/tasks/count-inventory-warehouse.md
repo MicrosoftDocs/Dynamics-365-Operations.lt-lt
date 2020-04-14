@@ -17,16 +17,16 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0909625f31d15fe6b1387ff9ab7fd5d9a9135f4
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 53e9457074b696efaf5958b3a3b4616f06f5a6ff
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1836458"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145769"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Sandėlio atsargų skaičiavimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Ši procedūra padės kurti ir registruoti atsargų inventorizacijos žurnalą, norint suskaičiuoti tam tikrą prekę tam tikros teritorijos sandėlyje. Procedūra taikoma „pagrindinio sandėliavimo“ funkcijai, kuri galima Atsargų valdymo modulyje, o ne sandėliavimo funkcijai, kuri galima Sandėlio valdymo modulyje. Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis. Jei naudojate savo duomenis, įsitikinkite, kad nustatėte produktus ir teritorijas ir kad sukūrėte atsargų žurnalo pavadinimą, skirtą skaičiavimo žurnalams. Atsargų inventorizaciją paprastai atlieka sandėlio darbuotojas.
 
@@ -44,7 +44,7 @@ ms.locfileid: "1836458"
 2. Lauke **Prekės numeris** pasirinkite norimą įrašą išplečiamajame sąraše. Jei naudojate demonstracinių duomenų įmonės USMF, pasirinkite **A0001**.  
 3. Lauke **Puslapis** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Jei naudojate demonstracinių duomenų įmonės USMF, pasirinkite teritoriją **2**.
 4. Lauke **Sandėlis** pasirinkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą. Jei naudojate demonstracinių duomenų įmonės USMF, pasirinkite sandėlį **24**.  
-5. Skirtuke **Location** iš išplečiamojo sąrašo pasirinkite norimą įrašą. Jei naudojate demonstracinių duomenų įmonės USMF, pasirinkite vietą **BULK-001**.  
+5. Skirtuke **Vieta** iš išplečiamojo sąrašo pasirinkite norimą įrašą. Jei naudojate demonstracinių duomenų įmonės USMF, pasirinkite vietą **BULK-001**.  
 6. Lauke Suskaičiuota įveskite skaičių. Jei įvesite apskaičiuotą numerį, kuris skiriasi nuo lauke **Turimos atsargos**rodomo skaičiaus, laukas **Kiekis** bus atnaujintas ir rodys neatitikimą.  
 7. Pasirinkite **Įrašyti**.
 

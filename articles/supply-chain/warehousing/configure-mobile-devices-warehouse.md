@@ -3,7 +3,7 @@ title: Mobiliųjų įrenginių nustatymas darbui sandėlyje
 description: Šioje temoje aprašoma, kaip konfigūruoti meniu elementus, kuriuos sandėlio darbuotojai naudoja dirbdami mobiliuoju įrenginiu.
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 04/18/2019
+ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df3968c01006d773300593b966a69b5283a889a2
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 4c4b131c14101722593f685cbe1133b1aa1319b0
+ms.sourcegitcommit: 34e543e807ac8790597f522fe3b4f0266cf4ee56
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813047"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "3161833"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -95,11 +95,11 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 </tr>
 <tr>
 <td>Gaunama numerio lentelė</td>
-<td>Priimkite gaunamą krovinį naudodami numerio lentelės ID.</td>
+<td>Priimkite gaunamą išankstinį siuntimo pranešimą (ASN) naudodami numerio lentelės ID.</td>
 </tr>
 <tr>
 <td>Numerio lentelės gavimas ir atidėjimas</td>
-<td>Priimkite ir atidėkite gaunamą krovinį naudodami numerio lentelės ID.</td>
+<td>Priimkite ir atidėkite gaunamą išankstinį siuntimo pranešimą (ASN) naudodami numerio lentelės ID.</td>
 </tr>
 <tr>
 <td>Krovinio prekės gavimas</td>
@@ -119,7 +119,7 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 <td>Registruokite prekės kiekio gavimą registruodami RMA numerį ir atidėkite prekes. Abu veiksmus atlieka tas pats darbuotojas.</td>
 </tr>
 <tr>
-<td rowspan="4">Perkėlimo užsakymas</td>
+<td rowspan="6">Perkėlimo užsakymas</td>
 <td>Gaunama perkėlimo užsakymo prekė</td>
 <td>Registruokite prekės kiekio gavimą ir sukurkite atidėjimo darbą kitam darbuotojui.
 
@@ -140,8 +140,16 @@ Galite nustatyti meniu elementą, kuris kuria darbą kitam darbuotojui, kai mobi
 <td>Registruokite prekės kiekio gavimą ir atidėkite prekes. Abu veiksmus atlieka tas pats darbuotojas.</td>
 </tr>
 <tr>
+<td>Gaunama numerio lentelė</td>
+<td>Priimkite gaunamą išankstinį siuntimo pranešimą (ASN) naudodami numerio lentelės ID.</td>
+</tr>
+<tr>
+<td>Numerio lentelės gavimas ir atidėjimas</td>
+<td>Priimkite ir atidėkite gaunamą išankstinį siuntimo pranešimą (ASN) naudodami numerio lentelės ID.</td>
+</tr>
+<tr>
 <td rowspan="4">Gamyba</td>
-<td>Pranešti apie pabaigimą</td>
+<td>Skelbti baigtu</td>
 <td>Registruokite pabaigtos prekės, baigtos gamybai, kiekį ir sukurkite atidėjimo darbą kitam darbuotojui. Šis kiekis gali būti visas suplanuotas gamybos kiekis arba jo dalis.</td>
 </tr>
 <tr>

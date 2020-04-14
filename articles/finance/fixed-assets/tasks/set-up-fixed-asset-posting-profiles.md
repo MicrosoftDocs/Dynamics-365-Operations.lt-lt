@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 494af854d408f0b0c02d753ff3d24eb3d6216fd9
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 07961d8613b6b5e0e1c5dc6a91b554305dcb17f5
+ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179003"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3138166"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Ilgalaikio turto registravimo šablonų nustatymas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šis užduočių vadovas nustatys ilgalaikio turto registravimo šablonus.  Jis naudoja vaidmenį Buhalteris ir USMF juridinio subjekto demonstracinius duomenis.  Užduočių vadove pateikiami pagrindinio registravimo šablono pavyzdžiai, nors reikia sukurti jūsų konkretaus sąskaitų plano ir finansinių ataskaitų reikalavimų registravimo šablonus.
 
@@ -34,7 +34,7 @@ ms.locfileid: "2179003"
 3. Lauke **Registravimo šablonas** surinkite reikšmę.
 4. Lauke **Aprašymas įveskite**surinkite reikšmę. Turėsite sukurti kiekvieno ilgalaikio turto operacijos tipo, kurį naudosite dirbdami su ilgalaikiu turtu, registravimo šabloną. Šis užduočių vadovas pradės nuo įsigijimo operacijos tipo.  
 5. Įrankių juostoje spustelėkite **Įrašyti**.
-6. Lauke **Knyga** įveskite arba pasirinkite reikšmę. Laukas **Grupavimai** leidžia registravimo šabloną apibrėžti iki lentelės (kiekvienam ilgalaikiam turtui nustatyta po vieną sąskaitą) arba grupės (kiekvienai ilgalaikio turto grupei nustatyta po vieną sąskaitą). Šiame užduočių vadove reikšmę paliksiu nustatytą į „Visi”, kad būtų taikoma visam ilgalaikiam turtui su nurodyta knyga.  
+6. Lauke **Knyga** įveskite arba pasirinkite reikšmę. Laukas **Grupavimai** leidžia registravimo šabloną apibrėžti iki lentelės (kiekvienam ilgalaikiam turtui nustatyta po vieną sąskaitą) arba grupės (kiekvienai ilgalaikio turto grupei nustatyta po vieną sąskaitą). Šiame užduočių vadove palikite reikšmę „Visi“, kad ji būtų taikoma visam ilgalaikiam turtui su nurodyta knyga.  
 7. Lauke **Pagrindinė sąskaita** nustatykite norimas reikšmes. Lauke Įsigijimai galite įvesti korespondentinę sąskaitą arba jį palikti tuščią, kad būtų galima užpildyti atliekant konkrečią operaciją.    
 8. „FastTab" skirtuko **DK sąskaitos** išplečiamajame meniu pasirinkite „Įsigijimų koregavimas“. Atlikdami įsigijimo koregavimo operacijas, naudojame tas pačias sąskaitas, kurios buvo naudojamos atliekant įsigijimo operacijas.  
 9. Spustelėkite **Pridėti**.
@@ -63,7 +63,7 @@ ms.locfileid: "2179003"
 32. Lauke **Knyga** įveskite arba pasirinkite reikšmę.
 33. Lauke **Registruoti vertę** pasirinkite Įsigijimo vertė.
     * Įsigijimo reikšmė palies kiekvienų metų įsigijimo ir įsigijimo koregavimo reikšmes. Šių operacijų tipų sąskaitas taip pat galite apibrėžti atskirai.  
-    * Galite nustatyti, kad likvidavimo procesas naudotų skirtingas sąskaitas – tai priklausytų nuo to, ar likvidavimo rezultatas – pelnas, ar – nuostolis. Pardavimo vertės tipą nustatysiu į „Visi‟, kad tos pačios sąskaitos būtų naudojamos visiems likvidavimų tipams.  
+    * Galite nustatyti, kad likvidavimo procesas naudotų skirtingas sąskaitas – tai priklausytų nuo to, ar likvidavimo rezultatas – pelnas, ar – nuostolis. Nustatysiu pardavimo reikšmės tipą į „Visi“, kad visų tipų likvidavimams būtų naudojamos tos pačios sąskaitos.  
 34. Lauke **Pagrindinė sąskaita** nustatykite norimas reikšmes.
 35. Lauke **Korespondentinė sąskaita** nustatykite norimas reikšmes.
 36. Spustelėkite **Pridėti**.

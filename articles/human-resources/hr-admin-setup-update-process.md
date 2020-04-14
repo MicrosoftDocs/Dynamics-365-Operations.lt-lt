@@ -3,7 +3,7 @@ title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 02/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -16,14 +16,14 @@ ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
-ms.search.validFrom: 2020-02-03
+ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 267682f4497bacf70f93840a948d0e525dfa4aa1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 424027e82717b8636d59289b28978d6ce3c6db4d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092206"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154510"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
@@ -37,52 +37,39 @@ Naujinimai išleidžiami reguliariais intervalais visoms aplinkoms. „Human Res
 
 „Human Resources“ naujinimai taikomi visoms aplinkoms automatiškai. „Human Resources“ teikia dviejų tipų leidimus:
 
-- **Paslaugų naujinimai**: savaitiniai naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos. Į paslaugos naujinimus taip pat įtraukiami taikomi platformų naujinimai, kai jie išleidžiami. Norėdami sužinoti, kada platformų naujinimai išleidžiami, žr. [3 lentelė: platformų leidimai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Savaitiniai naujinimai paprastai išleidžiami trečiadieniais. Daugiau informacijos apie savaitinius naujinimus žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](https://docs.microsoft.com/dynamics365/talent/whats-new).
+- **Paslaugų naujinimai**: naujinimai, kuriuose yra klaidų taisymai ir naujos funkcijos, vykdomi kas dvi savaites. Į paslaugos naujinimus taip pat įtraukiami taikomi platformų naujinimai, kai jie išleidžiami. Norėdami sužinoti, kada platformų naujinimai išleidžiami, žr. [3 lentelė: platformų leidimai](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). Naujinimai kas dvi savaites regionuose bus įdiegti etapais. Daugiau informacijos apie naujinimus kas dvi savaites žr. [Kas nauja arba pasikeitė programoje „Dynamics 365 Human Resources“](hr-admin-whats-new.md).
 
-    Visi palaikomi duomenų centrai teikia naujinimus kas savaitę, nebent nurodyta kitaip. Savaitiniai naujinimai paprastai prasideda trečiadienį ir baigiasi iki sekmadienio. JAV, Australija, Europa, JK, Azija ir Kanada yra įtraukiamos į savaitinius naujinimus. 
+    Visi palaikomi duomenų centrai teikia naujinimus kas dvi savaites, nebent nurodyta kitaip. JAV, Australija, Europa, JK, Azija ir Kanada yra įtraukiamos į naujinimus, vykdomus kas dvi savaites. 
 
-- **„Common Data Service“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Common Data Service“, keitimų. Šie naujinimai išleidžiami tuose pačiuose regionuose kaip ir savaitiniams naujinimams, bei užtrunka apie šešias savaites, kol jie dubliuojami visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su savaitiniais paslaugų naujinimais.
-
-Šioje lentelėje parodytas pavyzdinis grafikas:
-
-| Savaitė | Naujinimo tipas |
-| --- | --- |
-| 1 | Paslaugų naujinimas (visi regionai) |
-| 2 | Paslaugų naujinimas (visi regionai) + sprendimų naujinimas (1 savaitės regionai) |
-| 3 | Paslaugų naujinimas (visi regionai) + sprendimų naujinimas (2 savaitės regionai) |
-| 4 | Paslaugų naujinimas (visi regionai) + sprendimų naujinimas (3 savaitės regionai) |
-| 5 | Paslaugų naujinimas (visi regionai) + sprendimų naujinimas (4 savaitės regionai) |
-| 6 | Paslaugų naujinimas (visi regionai) + sprendimų naujinimas (5 savaitės regionai) |
-| 7 | Paslaugų naujinimas (visi regionai) + sprendimų naujinimas (6 savaitės regionai) |
-| 8 | Paslaugų naujinimas (visi regionai) |
+- **„Common Data Service“ sprendimų naujinimai**: šie naujinimai vykdomi maždaug kas šešios savaitės, jei reikia. Juose yra naujų objektų ir esamų objektų, esančių „Common Data Service“, keitimų. Šie naujinimai išleidžiami tuose pačiuose regionuose kaip ir naujinimams, vykdomiems kas dvi savaites, bei užtrunka apie šešias savaites, kol jie dubliuojami visuose duomenų centruose. Sprendimų naujinimai sutampa arba nesutampa su paslaugų naujinimais, vykdomais kas dvi savaites.
 
 > [!NOTE]
 > Sprendimų naujinimai pasiekiami visuose duomenų centruose, kai jie išleidžiami. Jei nenorite laukti, kol naujinimai bus dubliuojami automatiškai, galite rankiniu būdu taikyti šiuos naujinimus bet kuriai aplinkai bet kuriame duomenų centre.
 
 Kai reikia, „Human Resources“ taip pat teikia šiuos taisymų tipus:
 
-- **Tikslinimas (karštosios pataisos)**: klaidų pataisos, kurios gali būti vykdomos kartu su savaitiniu paslaugų naujinimo leidimu arba atskirai nuo jo
+- **Tikslinimas (karštosios pataisos)**: klaidų pataisos, kurios gali būti vykdomos kartu su paslaugų naujinimo kas dvi savaites leidimu arba atskirai nuo jo
 
-- **Avarinis taisymas**: aktyvios ir reaktyviosios karštosios pataisos, kurios yra įprastai vykdomos atskirai, gali apimti tik konfigūracijų arba kodo keitimus, siekiant išspręsti tiesiogines svetainės problemas ir gali būti taikomos atskirai nuo savaitinio paslaugų naujinimo leidimo
+- **Avarinis taisymas**: aktyvios ir reaktyviosios karštosios pataisos, kurios yra įprastai vykdomos atskirai, gali apimti tik konfigūracijų arba kodo keitimus, siekiant išspręsti tiesiogines svetainės problemas ir gali būti taikomos atskirai nuo paslaugų naujinimo kas dvi savaites leidimo
 
 Leidimai yra peržiūrimi, tikrinami ir patvirtinami vidinėje aplinkoje. Kai atsijungiama nuo komponavimo versijų, jos bus įdiegtos gamybai.
 
-## <a name="exceptions-in-2019"></a>2019 m. išimtys
+## <a name="release-cadence-exceptions-in-2020"></a>Numatomi išleidimo intervalai 2020 m.
 
 Šiomis datomis numatomos išimtys įprastame leidimų grafike:
 
-| Data | Aprašymas |
+| Data | aprašymas |
 | --- | --- |
-| Lapkričio 25 d. savaitė | Nėra naujinimų |
-| Gruodžio 16 d. savaitė | Tik smulkūs naujinimai |
-| Gruodžio 23 d. savaitė | Nėra naujinimų |
-| Gruodžio 30 d. savaitė | Nėra naujinimų |
+| Lapkričio 23 d. savaitė | Nėra naujinimų |
+| Gruodžio 14 d. savaitė | Tik smulkūs naujinimai |
+| Gruodžio 21 d. savaitė | Nėra naujinimų |
+| Gruodžio 28 d. savaitė | Nėra naujinimų |
 
 ## <a name="communications"></a>Kontaktai
 
 Galite sužinoti, kas rengiama programai „Human Resources“ ir ką išleidome, šiose vietose:
 
-- [„Dynamics 365 Human Resources“ veiksmų planas](https://dynamics.microsoft.com/roadmap/talent/)
+- [„Dynamics 365 Human Resources“ veiksmų planas](https://dynamics.microsoft.com/roadmap/human-resources/)
 
 - [„Dynamics 365“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans/)
 
@@ -114,7 +101,7 @@ Tikrinandami peržiūros funkcijas arba išbandandydami naujas galimybes, galite
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
-- [„Dynamics 365“ ir „Power Platform“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans)
-- [Kas nauja ar pasikeitė programoje „Dynamics 365 Human Resources”](hr-admin-whats-new.md)
-- [Programinės įrangos ciklo strategija](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[„Dynamics 365“ ir „Power Platform“ leidimo planai](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Kas nauja ar pasikeitė programoje „Dynamics 365 Human Resources”](hr-admin-whats-new.md)</br>
+[Programinės įrangos ciklo strategija](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 

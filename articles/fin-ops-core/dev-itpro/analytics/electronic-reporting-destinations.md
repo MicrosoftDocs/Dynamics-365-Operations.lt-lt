@@ -3,7 +3,7 @@ title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų (ER) paskirties vietų valdymą, palaikomus paskirties vietų tipus ir saugumo klausimus.
 author: nselin
 manager: AnnBe
-ms.date: 02/07/2020
+ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 2e4c6951afbff367dc93072d20395c3a37fffbcb
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
+ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3030778"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150820"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -114,7 +114,7 @@ Atlikus šį nustatymą, galima naudoti modifikuojamų ER formatų parinktį **V
 
 [![Parinktis Vykdyti juodraštį](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
-## <a name="DestinationFailure"></a>Paskirties vietų trikčių apdorojimas
+## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Paskirties vietų trikčių apdorojimas
 
 Paprastai ER formatas vykdomas kaip konkretaus verslo proceso dalis. Tačiau siuntimo dokumento, generuojamo vykdant ER formatą, pristatymas kartais turi būti laikomas to verslo proceso dalimi. Tokiu atveju, jei nepavyksta pristatyti sugeneruoto siuntimo dokumento į sukonfigūruotą paskirties vietą, verslo proceso vykdymą reikia atšaukti. Norėdami sukonfigūruoti tinkamą ER paskirties vietą, pasirinkite parinktį **Nutraukti apdorojimą trikties atveju**.
 
@@ -124,7 +124,7 @@ Pavyzdžiui, konfigūruojate tiekėjo mokėjimo apdorojimą, kad ER formatas **I
 
 Jei išvalysite žymės langelį **Nutraukti apdorojimą trikties atveju** paskirties vietos komponente **CoveringLetter**, bus laikoma, kad mokėjimas sėkmingai apdorotas, net lydraščio nepristačius el. paštu. Mokėjimo būsena **Nėra** pasikeis į **Išsiųsta**, net jei lydraščio neįmanoma išsiųsti nes, pavyzdžiui, nėra gavėjo arba siuntėjo el. pašto adreso arba adresas yra netikslus.
 
-## <a name="OutputConversionToPDF"></a>Išvesties konvertavimas į PDF formatą
+## <a name="output-conversion-to-pdf"></a><a name="OutputConversionToPDF"></a>Išvesties konvertavimas į PDF formatą
 
 Galite naudoti PDF konvertavimo parinktį, norėdami konvertuoti išvestį „Microsoft Office“ formatu („Excel“ / „Word“) į PDF formatą.
 
@@ -157,6 +157,19 @@ PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudoj
 Norėdami įjungti failo paskirties vietos PDF konvertavimą, pažymėkite žymės langelį **Konvertuoti į PDF**.
 
 [![Failo paskirties vietos PDF konvertavimo įjungimas](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+
+### <a name=""></a><a name="SelectPdfPageOrientation">Pasirinkite PDF konvertavimui skirtą puslapio padėtį</a>
+
+Jei sugeneruojate ER konfigūraciją „Excel” formatu ir norite konvertuoti ją į PDF formatą, galite nurodyti PDF puslapio padėtį. Kai pasirenkate žymės langelį **Konvertuoti į PDF**, kad įjungtumėte PDF konvertavimą failo paskirties vietai, kurioje gaunamas išvesties failas „Excel” formatu, laukas **Puslapio padėtis** tampa pasiekiamas „FastTab” elemente **PDF konvertavimo parametrai**. Lauke **Puslapio padėtis** pasirinkite pageidaujamą padėtį.
+
+[![PDF konvertavimui skirtos puslapio padėties pasirinkimas](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+
+> [!NOTE]
+> Jei norite turėti parinktį pasirinkti PDF puslapio padėtį, turite įdiegti „Microsoft Dynamics 365 Finance” 10.0.10 (2020 m. gegužės mėn.) arba naujesnę versiją.
+>
+> Pasirinkto puslapio padėtis taikoma visoms ER konfigūracijoms, kurios yra generuojamos „Excel” formatu ir konvertuojamos į PDF formatą.
+>
+> Jei konvertuotas PDF yra sukurtas naudojant ER konfigūraciją „Word” formatu, PDF puslapio padėtis gaunama iš „Word” dokumento.
 
 ## <a name="security-considerations"></a>Saugos klausimai
 

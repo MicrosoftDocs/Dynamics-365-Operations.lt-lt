@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 468a2637f4a5b2b7ff3514c92c52fb26b9231bc4
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e06fdda7d2d73c3fe4a4b9ee5bd44e6ef857b8d5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042924"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3142260"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje, ER valdymo modelio susiejimo konfigūracijos, ir jūs turite turėti prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS).
 
@@ -83,7 +83,7 @@ Norėdami atlikti šiuos veiksmus, turite užbaigti veiksmus užduočių vedlyje
 9. Spustelėkite Kurti saugyklą.
 10. Lauke Projektas įveskite arba pasirinkite vertę.
     * Pasirinkite norimą LCS projektą iš lauko „Projektas“ peržvalgos.  
-11. Spustelėkite GERAI.
+11. Spustelėkite Gerai.
 12. Uždarykite puslapį.
 
 ## <a name="upload-configurations-to-lcs"></a>Nusiųskite konfigūracijas į LCS

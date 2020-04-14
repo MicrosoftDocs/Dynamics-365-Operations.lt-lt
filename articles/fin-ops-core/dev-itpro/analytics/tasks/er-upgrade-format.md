@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b4ad9fb7a3d768acb0af73dcbe3d87b323de727
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 52bc276a4a88971a7214fa09087cb1323b91aaf5
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042809"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143283"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER: formato atnaujinimas pritaikant naują pagrindinę to formato versiją
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali prižiūrėti elektroninių ataskaitų (ER) formato konfigūraciją. Šia procedūra paaiškinama, kaip pasirinktinę formato versiją galima sukurti pagal iš konfigūracijų teikėjo (KT) gautą formatą. Ja taip pat paaiškinama, kaip pritaikyti naują, pagrindinę to formato versiją.
 
@@ -127,7 +127,7 @@ Lygiagrečiame „Finance and Operations” seanse atlikite procedūros „Sukur
 ## <a name="update-the-existing-country-specific-configuration"></a>Esamos konkrečios šalies konfigūracijos naujinimas
 „Litware, Inc.“ turi atnaujinti BACS (JK fiktyvus) konfigūraciją ir įgyvendinti naujus šalies reikalavimus dėl elektroninio dokumento formato valdymo. Vėliau tai bus įtraukta į naują šios konfigūracijos versiją, kuri bus teikiama aptarnavimo abonentams, įskaitant „Proseware, Inc.‟  
 
-Tikrų su paslaugų teikimu susijusių procesų metu kiekvieną naują BACS (JK fiktyvus) versiją „Proseware, Inc.‟ gali importuoti iš „Litware, Inc.‟ konfigūracijų LCS saugyklos. Atlikdami šią procedūrą tai imituosime BACS (JK fiktyvus) atnaujindami paslaugų teikėjo vardu.  
+Tikrų su paslaugų teikimu susijusių procesų metu kiekvieną naują BACS (JK fiktyvus) versiją „Proseware, Inc.‟ galima importuoti iš „Litware, Inc.‟ konfigūracijų LCS saugyklos. Atlikdami šią procedūrą tai imituosime BACS (JK fiktyvus) atnaujindami paslaugų teikėjo vardu.  
 
 1. Uždarykite puslapį.
 2. Pasirinkite teikėją „Litware, inc.“.
@@ -211,7 +211,7 @@ Norėdami tai padaryti, „Proseware, Inc.‟ turi pakeisti pagrindinę pasirink
 
 9. Spustelėkite GERAI.
 
-    Atkreipkite dėmesį, kad suliejant pasirinktinę versiją ir naują pagrindinę versiją rasta konfliktų, susijusių su tam tikrais formato pakeitimais, kurių automatiškai sulieti negalima.  
+    Atkreipkite dėmesį, kad, suliejant pasirinktinę versiją ir naują pagrindinę versiją, rasta konfliktų, susijusių su tam tikrais formato pakeitimais, kurių automatiškai sulieti negalima.  
 
 ## <a name="resolve-rebase-conflicts"></a>Pritaikymo kitoje vietoje konfliktų sprendimas
 1. Spustelėkite Konstruktorius.

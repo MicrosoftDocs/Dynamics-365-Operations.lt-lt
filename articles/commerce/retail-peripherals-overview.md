@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 278cfe89181efbbb934e108708db8fc29c25ab62
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: dd2ce6b223c99d890691d5fdb9f93a5ceaf33a0d
+ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124410"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "3154185"
 ---
 # <a name="peripherals"></a>Išorinis įrenginys
 
@@ -158,7 +158,7 @@ Vietinius (arba „Įrenginius“, nes tipas įvardintas aparatūros šablone) s
 
 ### <a name="dedicated"></a>Paskirta
 
-„Modern POS“ klientuose, skirtuose „Windows“ ir „Android“ yra **„Paskirtos“** arba įmontuotos aparatūros stotys. Šie klientai gali tiesiogiai susisiekti su periferiniais įrenginiais, naudodamiesi verslo logika, integruota programose. „Android“ programa palaiko tik tinklo įrenginius. Norėdami gauti daugiau informacijos apie „Android” periferinį palaikymą, apsilankykite straipsnio [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp) puslapyje.
+„Modern POS“ klientuose, skirtuose „Windows“ ir „Android“ yra **„Paskirtos“** arba įmontuotos aparatūros stotys. Šie klientai gali tiesiogiai susisiekti su periferiniais įrenginiais, naudodamiesi verslo logika, integruota programose. „Android“ programa palaiko tik tinklo įrenginius. Norėdami gauti daugiau informacijos apie „Android” periferinį palaikymą, apsilankykite straipsnio [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp) puslapyje.
 
 Norėdami naudoti paskirtą aparatūros įrangos stotį, priskirkite aparatūros profilį registrui, kuris naudos „Modern POS“, skirtą „Windows“ ar „Android“ programoms. Tada parduotuvei, kurioje registras bus naudojamas, sukurkite aparatūros stotį, kurios tipas **Paskirta**. Norėdami įjungti aparatūros stoties galimybes, paleiskite „Modern POS“ ne stalčiaus režime ir naudokite operaciją **Tvarkyti aparatūros stotis**, o paskirta aparatūros stotis bus aktyvi pagal numatytuosius nustatymus. Atsijunkite nuo „Modern POS“, tada vėl prisijunkite, atidarykite pamainą ir aparatūros profilyje sukonfigūruoti periferiniai įrenginiai bus tinkami naudoti. 
 
@@ -199,7 +199,7 @@ Daugiau informacijos žr. [„Modern POS” (MPOS) konfigūravimas, diegimas ir 
 
 ### <a name="modern-pos-for-android-and-ios-setup-and-configuration"></a>„Modern POS“, skirto „Android“ ir „iOS“ nustatymas ir konfigūravimas
 
-Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+Daugiau informacijos žr. [Programos „POS hybrid” nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="opos-device-setup-and-configuration"></a>OEKA įrenginio nustatymas ir konfigūracija
 
@@ -494,7 +494,7 @@ Išsamesnės informacijos apie tai, kaip kurti aparatūros šablonus, žr. [Apib
 
 ### <a name="modern-pos-for-android-with-an-ipc-built-in-hardware-station"></a>„Modern POS“, skirta „Android“, turi įmontuotą IPC aparatūros stotį
 
-**Nauja versijai 10.0.8** – „Epson“ tinklo spausdintuvai ir grynųjų pinigų stalčiai, prijungti prie tų spausdintuvų per DK prievadą, dabar palaikomi „Modern POS“, skirtos „Android“ programai. Norėdami gauti daugiau informacijos, apsilankykite puslapyje [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/en-us/dynamics365/commerce/dev-itpro/hybridApp).
+**Nauja versijai 10.0.8** – „Epson“ tinklo spausdintuvai ir grynųjų pinigų stalčiai, prijungti prie tų spausdintuvų per DK prievadą, dabar palaikomi „Modern POS“, skirtos „Android“ programai. Norėdami gauti daugiau informacijos, apsilankykite puslapyje [Programos „POS Hybrid“ nustatymas, skirtas „Android” ir „iOS”](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp).
 
 ### <a name="all-modern-pos-clients-that-have-a-committed-shared-iis-hardware-station"></a>Visi „Modern POS“ klientai, turintys patvirtintą bendrą IIS aparatūros stotį
 
