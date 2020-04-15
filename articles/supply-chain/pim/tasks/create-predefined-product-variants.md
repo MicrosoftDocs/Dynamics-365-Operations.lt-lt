@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: baf1e41d0071a4c78d2a0f43548e44ae9d426580
-ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
+ms.openlocfilehash: 678e2d7207628529530dcf3decd094583d3dff22
+ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "1844782"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3150123"
 ---
 # <a name="create-predefined-product-variants"></a>Iš anksto apibrėžtų produkto variantų kūrimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šia procedūra apžvelgiamas bendrojo produkto variantų kūrimas naudojant produkto dimensijų kombinacijas. Kuriant šią procedūrą naudojama demonstracinė įmonė yra USMF.
 
