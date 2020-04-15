@@ -16,75 +16,75 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186123"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145034"
 ---
-# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="7f8df-103">Šaltinio dokumentų audito strategijų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="7f8df-103">Define audit policies for source documents</span></span>
+# <a name="define-audit-policies-for-source-documents"></a><span data-ttu-id="6c140-103">Šaltinio dokumentų audito strategijų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="6c140-103">Define audit policies for source documents</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7f8df-104">Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles.</span><span class="sxs-lookup"><span data-stu-id="7f8df-104">This topic explains how to set up and run audit policy rules.</span></span> <span data-ttu-id="7f8df-105">Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="7f8df-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="7f8df-106">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="7f8df-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="7f8df-107">Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.</span><span class="sxs-lookup"><span data-stu-id="7f8df-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
+<span data-ttu-id="6c140-104">Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles.</span><span class="sxs-lookup"><span data-stu-id="6c140-104">This topic explains how to set up and run audit policy rules.</span></span> <span data-ttu-id="6c140-105">Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos.</span><span class="sxs-lookup"><span data-stu-id="6c140-105">The example uses expense reports with the hotel expense type.</span></span> <span data-ttu-id="6c140-106">Šioje procedūroje naudojama demonstracinė įmonė USMF.</span><span class="sxs-lookup"><span data-stu-id="6c140-106">This procedure uses the USMF demo company.</span></span> <span data-ttu-id="6c140-107">Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.</span><span class="sxs-lookup"><span data-stu-id="6c140-107">The auditor role contains the correct permissions in order to perform these tasks.</span></span>
 
-1. <span data-ttu-id="7f8df-108">Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Strategijos taisyklės tipas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-108">In the navigation pane, go to **Modules > Audit workbench > Setup > Policy rule type**.</span></span>
-2. <span data-ttu-id="7f8df-109">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-109">Select **New**.</span></span>
-3. <span data-ttu-id="7f8df-110">Lauke **Taisyklės pavadinimas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-110">In the **Rule name** field, type a value.</span></span>
-4. <span data-ttu-id="7f8df-111">Lauke **Aprašo laukas**surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-111">In the **Description** field, type a value.</span></span>
-5. <span data-ttu-id="7f8df-112">Lauke **Užklausos pavadinimas** pasirinkite **Išlaidų ataskaitos eilutė**</span><span class="sxs-lookup"><span data-stu-id="7f8df-112">In the **Query name** field, select **Expense report line**</span></span>
-6. <span data-ttu-id="7f8df-113">Lauke **Užklausos tipas** pasirinkite **Agregavimas**</span><span class="sxs-lookup"><span data-stu-id="7f8df-113">In the **query type** field, select **Aggregate**</span></span>
-7. <span data-ttu-id="7f8df-114">Lauke **Juridinis subjektas** pasirinkite **Juridinis subjektas**</span><span class="sxs-lookup"><span data-stu-id="7f8df-114">In the **Legal entity** field, select **Legal entity**</span></span>
-8. <span data-ttu-id="7f8df-115">Lauke **Dokumento datos nuoroda** pasirinkite **Modifikavimo data ir laikas**</span><span class="sxs-lookup"><span data-stu-id="7f8df-115">In the **Document date reference** field, select **Modified date and time**</span></span>
-9. <span data-ttu-id="7f8df-116">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-116">Select **Save**.</span></span>
-10. <span data-ttu-id="7f8df-117">Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Audito strategijos**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-117">In the navigation pane, go to **Modules > Audit workbench > Setup > Audit policies**.</span></span>
-11. <span data-ttu-id="7f8df-118">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-118">Select **New**.</span></span>
-12. <span data-ttu-id="7f8df-119">Lauke **Pavadinimas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-119">In the **Name** field, type a value.</span></span>
-13. <span data-ttu-id="7f8df-120">Išplėskite skyrių **Organizacijų strategijos**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-120">Expand the **Policy organizations** section.</span></span>
-14. <span data-ttu-id="7f8df-121">Medyje pasirinkite **„Contoso Entertainment System“, JAV**, tada pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-121">In the tree, select **Contoso Entertainment System USA**, then select **Add**.</span></span>
-15. <span data-ttu-id="7f8df-122">Medyje pasirinkite **„Contoso Consulting“, JAV**, tada pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-122">In the tree, select **Contoso Consulting USA**, then select **Add**.</span></span>
-16. <span data-ttu-id="7f8df-123">Medyje pasirinkite **„Contoso Retail“, JAV**, tada pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-123">In the tree, select **Contoso Retail USA**, then select **Add**.</span></span>
-17. <span data-ttu-id="7f8df-124">Sutraukite skyrių **Organizacijų strategijos**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-124">Collapse the **Policy organizations** section.</span></span>
-18. <span data-ttu-id="7f8df-125">Išplėskite skyrių **Strategijų taisyklės**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-125">Expand the **Policy rules** section.</span></span>
-19. <span data-ttu-id="7f8df-126">Sąraše raskite ir pasirinkite anksčiau sukurtą strategijos taisyklę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-126">In the list, find and select the Policy Rule that was created previously.</span></span>
-20. <span data-ttu-id="7f8df-127">Pasirinkite **Kurti strategijos taisyklę**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-127">Select **Create policy rule**.</span></span>
-21. <span data-ttu-id="7f8df-128">Lauke **Įsigaliojimo data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7f8df-128">In the **Effective date** field, enter a date and time.</span></span>
-22. <span data-ttu-id="7f8df-129">Pasirinkite **Filtras**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-129">Select **Filter**.</span></span>
-23. <span data-ttu-id="7f8df-130">Sąraše pasirinkite eilutę parinkčiai **Išlaidų kategorija** ir nustatykite išsamią informaciją į **Viešbutis**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-130">In the list, select the row for **Expense category**, and set the details to **Hotel**.</span></span>
-24. <span data-ttu-id="7f8df-131">Lauke **Kriterijai** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-131">In the **Criteria** field, enter or select a value.</span></span>
-25. <span data-ttu-id="7f8df-132">Pasirinkite skirtuką **Agregavimas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-132">Select the **Aggregate** tab.</span></span>
-26. <span data-ttu-id="7f8df-133">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-133">Select **Add**.</span></span>
-27. <span data-ttu-id="7f8df-134">Sąraše pasirinkite parinkties **Operacijos suma** lauko reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-134">In the list, select a field value of **Transaction amount**.</span></span>
-28. <span data-ttu-id="7f8df-135">Lauke **Laukas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-135">In the **Field** field, enter or select a value.</span></span>
-29. <span data-ttu-id="7f8df-136">Lauke **AggregateFunction** pasirinkite **Suma**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-136">In the **AggregateFunction** field, select **Sum**.</span></span>
-30. <span data-ttu-id="7f8df-137">Pasirinkite skirtuką **Grupuoti pagal**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-137">Select the **Group by** tab.</span></span>
-31. <span data-ttu-id="7f8df-138">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-138">Select **Add**.</span></span>
-32. <span data-ttu-id="7f8df-139">Sąraše pasirinkite reikšmę parinkčiai **Darbuotojas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-139">In the list, select a value of **Employee** .</span></span>
-33. <span data-ttu-id="7f8df-140">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-140">Select **Add**.</span></span>
-34. <span data-ttu-id="7f8df-141">Sąraše pasirinkite reikšmę parinkčiai **Išlaidų kategorija**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-141">In the list, select a value of **Expense category**.</span></span>
-35. <span data-ttu-id="7f8df-142">Lauke **Laukas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-142">In the **Field** field, enter or select a value.</span></span>
-36. <span data-ttu-id="7f8df-143">Pažymėkite skirtuką **Having**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-143">Select the **Having** tab.</span></span>
-37. <span data-ttu-id="7f8df-144">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-144">Select **Add**.</span></span>
-38. <span data-ttu-id="7f8df-145">Pasirinkite **Operacijos suma**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-145">Select **Transaction amount**.</span></span>
-39. <span data-ttu-id="7f8df-146">Lauke **Laukas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="7f8df-146">In the **Field** field, enter or select a value.</span></span>
-40. <span data-ttu-id="7f8df-147">Lauke **AggregateFunction** pasirinkite **Suma**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-147">In the **AggregateFunction** field, select **Sum**.</span></span>
-41. <span data-ttu-id="7f8df-148">Lauke **Kriterijai** įveskite `>2000`.</span><span class="sxs-lookup"><span data-stu-id="7f8df-148">In the **Criteria** field, type `>2000`.</span></span>
-42. <span data-ttu-id="7f8df-149">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-149">Select **OK**.</span></span>
-43. <span data-ttu-id="7f8df-150">Pasirinkite **Tikrinti**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-150">Select **Test**.</span></span>
-44. <span data-ttu-id="7f8df-151">Lauke **Dokumento žymėjimo pradžios data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7f8df-151">In the **Document selection starting date** field, enter a date and time.</span></span>
-45. <span data-ttu-id="7f8df-152">Lauke **Dokumento žymėjimo pabaigos data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7f8df-152">In the **Document selection ending date** field, enter a date and time.</span></span>
-46. <span data-ttu-id="7f8df-153">Pasirinkite **Paleisti tikrinimą**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-153">Select **Run test**.</span></span>
-47. <span data-ttu-id="7f8df-154">Veiksmų srityje pasirinkite **Audito strategija**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-154">On the Action Pane, select **Audit policy**.</span></span>
-48. <span data-ttu-id="7f8df-155">Pasirinkite **Papildomos parinktys**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-155">Select **Additional options**.</span></span>
-49. <span data-ttu-id="7f8df-156">Lauke **Pradžios data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7f8df-156">In the **Starting date** field, enter a date and time.</span></span>
-50. <span data-ttu-id="7f8df-157">Lauke **Pabaigos data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="7f8df-157">In the **Ending date** field, enter a date and time.</span></span>
-51. <span data-ttu-id="7f8df-158">Pasirinkite **Paketas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-158">Select **Batch**.</span></span>
-52. <span data-ttu-id="7f8df-159">Išplėskite skyrių **Vykdyti fone**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-159">Expand the **Run in the background** section.</span></span>
-53. <span data-ttu-id="7f8df-160">Pasirinkite **Taip** lauke **Paketinis vykdymas**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-160">Select **Yes** in the **Batch processing** field.</span></span>
-54. <span data-ttu-id="7f8df-161">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-161">Select **OK**.</span></span>
-55. <span data-ttu-id="7f8df-162">Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Audito atvejai**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-162">In the navigation pane, go to **Modules > Audit workbench > Audit cases**.</span></span>
-56. <span data-ttu-id="7f8df-163">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="7f8df-163">In the list, find and select the desired record.</span></span>
-57. <span data-ttu-id="7f8df-164">Išplėskite skyrių **Sąsajos**.</span><span class="sxs-lookup"><span data-stu-id="7f8df-164">Expand the **Associations** section.</span></span>
-58. <span data-ttu-id="7f8df-165">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="7f8df-165">In the list, find and select the desired record.</span></span>
+1. <span data-ttu-id="6c140-108">Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Strategijos taisyklės tipas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-108">In the navigation pane, go to **Modules > Audit workbench > Setup > Policy rule type**.</span></span>
+2. <span data-ttu-id="6c140-109">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-109">Select **New**.</span></span>
+3. <span data-ttu-id="6c140-110">Lauke **Taisyklės pavadinimas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-110">In the **Rule name** field, type a value.</span></span>
+4. <span data-ttu-id="6c140-111">Lauke **Aprašo laukas**surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-111">In the **Description** field, type a value.</span></span>
+5. <span data-ttu-id="6c140-112">Lauke **Užklausos pavadinimas** pasirinkite **Išlaidų ataskaitos eilutė**</span><span class="sxs-lookup"><span data-stu-id="6c140-112">In the **Query name** field, select **Expense report line**</span></span>
+6. <span data-ttu-id="6c140-113">Lauke **Užklausos tipas** pasirinkite **Agregavimas**</span><span class="sxs-lookup"><span data-stu-id="6c140-113">In the **query type** field, select **Aggregate**</span></span>
+7. <span data-ttu-id="6c140-114">Lauke **Juridinis subjektas** pasirinkite **Juridinis subjektas**</span><span class="sxs-lookup"><span data-stu-id="6c140-114">In the **Legal entity** field, select **Legal entity**</span></span>
+8. <span data-ttu-id="6c140-115">Lauke **Dokumento datos nuoroda** pasirinkite **Modifikavimo data ir laikas**</span><span class="sxs-lookup"><span data-stu-id="6c140-115">In the **Document date reference** field, select **Modified date and time**</span></span>
+9. <span data-ttu-id="6c140-116">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-116">Select **Save**.</span></span>
+10. <span data-ttu-id="6c140-117">Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Konfigūravimas > Audito strategijos**.</span><span class="sxs-lookup"><span data-stu-id="6c140-117">In the navigation pane, go to **Modules > Audit workbench > Setup > Audit policies**.</span></span>
+11. <span data-ttu-id="6c140-118">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-118">Select **New**.</span></span>
+12. <span data-ttu-id="6c140-119">Lauke **Pavadinimas** įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-119">In the **Name** field, type a value.</span></span>
+13. <span data-ttu-id="6c140-120">Išplėskite skyrių **Organizacijų strategijos**.</span><span class="sxs-lookup"><span data-stu-id="6c140-120">Expand the **Policy organizations** section.</span></span>
+14. <span data-ttu-id="6c140-121">Medyje pasirinkite **„Contoso Entertainment System“, JAV**, tada pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-121">In the tree, select **Contoso Entertainment System USA**, then select **Add**.</span></span>
+15. <span data-ttu-id="6c140-122">Medyje pasirinkite **„Contoso Consulting“, JAV**, tada pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-122">In the tree, select **Contoso Consulting USA**, then select **Add**.</span></span>
+16. <span data-ttu-id="6c140-123">Medyje pasirinkite **„Contoso Retail“, JAV**, tada pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-123">In the tree, select **Contoso Retail USA**, then select **Add**.</span></span>
+17. <span data-ttu-id="6c140-124">Sutraukite skyrių **Organizacijų strategijos**.</span><span class="sxs-lookup"><span data-stu-id="6c140-124">Collapse the **Policy organizations** section.</span></span>
+18. <span data-ttu-id="6c140-125">Išplėskite skyrių **Strategijų taisyklės**.</span><span class="sxs-lookup"><span data-stu-id="6c140-125">Expand the **Policy rules** section.</span></span>
+19. <span data-ttu-id="6c140-126">Sąraše raskite ir pasirinkite anksčiau sukurtą strategijos taisyklę.</span><span class="sxs-lookup"><span data-stu-id="6c140-126">In the list, find and select the Policy Rule that was created previously.</span></span>
+20. <span data-ttu-id="6c140-127">Pasirinkite **Kurti strategijos taisyklę**.</span><span class="sxs-lookup"><span data-stu-id="6c140-127">Select **Create policy rule**.</span></span>
+21. <span data-ttu-id="6c140-128">Lauke **Įsigaliojimo data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="6c140-128">In the **Effective date** field, enter a date and time.</span></span>
+22. <span data-ttu-id="6c140-129">Pasirinkite **Filtras**.</span><span class="sxs-lookup"><span data-stu-id="6c140-129">Select **Filter**.</span></span>
+23. <span data-ttu-id="6c140-130">Sąraše pasirinkite eilutę parinkčiai **Išlaidų kategorija** ir nustatykite išsamią informaciją į **Viešbutis**.</span><span class="sxs-lookup"><span data-stu-id="6c140-130">In the list, select the row for **Expense category**, and set the details to **Hotel**.</span></span>
+24. <span data-ttu-id="6c140-131">Lauke **Kriterijai** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-131">In the **Criteria** field, enter or select a value.</span></span>
+25. <span data-ttu-id="6c140-132">Pasirinkite skirtuką **Agregavimas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-132">Select the **Aggregate** tab.</span></span>
+26. <span data-ttu-id="6c140-133">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-133">Select **Add**.</span></span>
+27. <span data-ttu-id="6c140-134">Sąraše pasirinkite parinkties **Operacijos suma** lauko reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-134">In the list, select a field value of **Transaction amount**.</span></span>
+28. <span data-ttu-id="6c140-135">Lauke **Laukas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-135">In the **Field** field, enter or select a value.</span></span>
+29. <span data-ttu-id="6c140-136">Lauke **AggregateFunction** pasirinkite **Suma**.</span><span class="sxs-lookup"><span data-stu-id="6c140-136">In the **AggregateFunction** field, select **Sum**.</span></span>
+30. <span data-ttu-id="6c140-137">Pasirinkite skirtuką **Grupuoti pagal**.</span><span class="sxs-lookup"><span data-stu-id="6c140-137">Select the **Group by** tab.</span></span>
+31. <span data-ttu-id="6c140-138">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-138">Select **Add**.</span></span>
+32. <span data-ttu-id="6c140-139">Sąraše pasirinkite reikšmę parinkčiai **Darbuotojas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-139">In the list, select a value of **Employee** .</span></span>
+33. <span data-ttu-id="6c140-140">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-140">Select **Add**.</span></span>
+34. <span data-ttu-id="6c140-141">Sąraše pasirinkite reikšmę parinkčiai **Išlaidų kategorija**.</span><span class="sxs-lookup"><span data-stu-id="6c140-141">In the list, select a value of **Expense category**.</span></span>
+35. <span data-ttu-id="6c140-142">Lauke **Laukas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-142">In the **Field** field, enter or select a value.</span></span>
+36. <span data-ttu-id="6c140-143">Pažymėkite skirtuką **Having**.</span><span class="sxs-lookup"><span data-stu-id="6c140-143">Select the **Having** tab.</span></span>
+37. <span data-ttu-id="6c140-144">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-144">Select **Add**.</span></span>
+38. <span data-ttu-id="6c140-145">Pasirinkite **Operacijos suma**.</span><span class="sxs-lookup"><span data-stu-id="6c140-145">Select **Transaction amount**.</span></span>
+39. <span data-ttu-id="6c140-146">Lauke **Laukas** įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6c140-146">In the **Field** field, enter or select a value.</span></span>
+40. <span data-ttu-id="6c140-147">Lauke **AggregateFunction** pasirinkite **Suma**.</span><span class="sxs-lookup"><span data-stu-id="6c140-147">In the **AggregateFunction** field, select **Sum**.</span></span>
+41. <span data-ttu-id="6c140-148">Lauke **Kriterijai** įveskite `>2000`.</span><span class="sxs-lookup"><span data-stu-id="6c140-148">In the **Criteria** field, type `>2000`.</span></span>
+42. <span data-ttu-id="6c140-149">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="6c140-149">Select **OK**.</span></span>
+43. <span data-ttu-id="6c140-150">Pasirinkite **Tikrinti**.</span><span class="sxs-lookup"><span data-stu-id="6c140-150">Select **Test**.</span></span>
+44. <span data-ttu-id="6c140-151">Lauke **Dokumento žymėjimo pradžios data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="6c140-151">In the **Document selection starting date** field, enter a date and time.</span></span>
+45. <span data-ttu-id="6c140-152">Lauke **Dokumento žymėjimo pabaigos data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="6c140-152">In the **Document selection ending date** field, enter a date and time.</span></span>
+46. <span data-ttu-id="6c140-153">Pasirinkite **Paleisti tikrinimą**.</span><span class="sxs-lookup"><span data-stu-id="6c140-153">Select **Run test**.</span></span>
+47. <span data-ttu-id="6c140-154">Veiksmų srityje pasirinkite **Audito strategija**.</span><span class="sxs-lookup"><span data-stu-id="6c140-154">On the Action Pane, select **Audit policy**.</span></span>
+48. <span data-ttu-id="6c140-155">Pasirinkite **Papildomos parinktys**.</span><span class="sxs-lookup"><span data-stu-id="6c140-155">Select **Additional options**.</span></span>
+49. <span data-ttu-id="6c140-156">Lauke **Pradžios data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="6c140-156">In the **Starting date** field, enter a date and time.</span></span>
+50. <span data-ttu-id="6c140-157">Lauke **Pabaigos data** įveskite datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="6c140-157">In the **Ending date** field, enter a date and time.</span></span>
+51. <span data-ttu-id="6c140-158">Pasirinkite **Paketas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-158">Select **Batch**.</span></span>
+52. <span data-ttu-id="6c140-159">Išplėskite skyrių **Vykdyti fone**.</span><span class="sxs-lookup"><span data-stu-id="6c140-159">Expand the **Run in the background** section.</span></span>
+53. <span data-ttu-id="6c140-160">Pasirinkite **Taip** lauke **Paketinis vykdymas**.</span><span class="sxs-lookup"><span data-stu-id="6c140-160">Select **Yes** in the **Batch processing** field.</span></span>
+54. <span data-ttu-id="6c140-161">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="6c140-161">Select **OK**.</span></span>
+55. <span data-ttu-id="6c140-162">Naršymo srityje eikite į **Moduliai > Audito darbo sritis > Audito atvejai**.</span><span class="sxs-lookup"><span data-stu-id="6c140-162">In the navigation pane, go to **Modules > Audit workbench > Audit cases**.</span></span>
+56. <span data-ttu-id="6c140-163">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="6c140-163">In the list, find and select the desired record.</span></span>
+57. <span data-ttu-id="6c140-164">Išplėskite skyrių **Sąsajos**.</span><span class="sxs-lookup"><span data-stu-id="6c140-164">Expand the **Associations** section.</span></span>
+58. <span data-ttu-id="6c140-165">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="6c140-165">In the list, find and select the desired record.</span></span>
 
