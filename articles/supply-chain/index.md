@@ -2,14 +2,14 @@
 title: Žinyno ištekliai „Supply Chain Management“
 description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 11/26/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b5f82d76f2e285b6318d900d41919aae14ec71a
-ms.sourcegitcommit: b8a51a0ba8fc33576ff78e5bbe826c14e1df2844
+ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "2853993"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201530"
 ---
 # <a name="help-resources-for-supply-chain-management"></a>Žinyno ištekliai „Supply Chain Management“
 
@@ -61,7 +61,7 @@ Informacijos apie „Dynamics 365 Finance“ žr. [pagrindiniame finansų valdym
 
 - [„Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“](https://youtu.be/hAB4TDVMjxU)
 
-Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ 7.3 versijos (2017 m. gruodžio mėn.) funkcijas.
+Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3“ (2017 m. gruodžio mėn.) funkcijas.
 
 -  [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
 -  [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
@@ -109,7 +109,7 @@ Informacijos apie „Dynamics 365 Finance“ žr. [pagrindiniame finansų valdym
 -  [Transportavimo valdymas (TMS) naujojoje „Microsoft Dynamics AX“](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Tinklaraščiai
-Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti <a href="https://blogs.msdn.microsoft.com/axmfg/">„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Tiekimo grandinės valdymo sprendime „Dynamics AX‟ pagrindinės komandos tinklaraštyje</a>. Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
+Daug temų apie gamybos ir „Supply Chain Management“ galima rasti <a href="https://blogs.msdn.microsoft.com/axmfg/">„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">„Supply Chain Management“ „Dynamics AX‟ pagrindinės komandos tinklaraštyje</a>. Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
 
 ## <a name="white-papers"></a>Techninė dokumentacija
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Išlaidų apskaitos praktiniai laboratoriniai darbai</a> 
