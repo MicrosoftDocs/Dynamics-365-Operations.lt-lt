@@ -22,7 +22,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/commerce/toc.json
                 - name: Debesies aplinkų naujinimų taikymas
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
-                - name: Vietinių visuotinių įdiegčių naujinimų taikymas
+                - name: Vietinių visuotinių diegimų naujinimų taikymas
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/commerce/toc.json
                 - name: Paslaugų naujinimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/commerce/toc.json
@@ -84,13 +84,13 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Kas nauja ar pasikeitė „Commerce”
                   items:
-                    - name: Kas nauja ar pasikeitė „Commerce“ pagrindinis puslapis
+                    - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
-                    - name: „Commerce“ 10.0.10 versija (2020 m. gegužė)
+                    - name: „Commerce 10.0.10“ (2020 m. gegužės mėn.)
                       href: get-started/whats-new-commerce-10-0-10.md
-                    - name: „Commerce“ 10.0.9 versija (2020 m. balandis)
+                    - name: „Commerce 10.0.9“ (2020 m. balandžio mėn.)
                       href: get-started/whats-new-10-0-9.md
-                    - name: „Commerce“ 10.0.8 versija (2020 m. vasaris)
+                    - name: „Commerce 10.0.8“ (2020 m. vasario mėn.)
                       href: get-started/whats-new-10-0-8.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
@@ -186,8 +186,8 @@
           items:
             - name: Architektūra
               items:
-                - name: „Commerce“ komponentai
-                  href: retail-components.md
+                - name: „Dynamics 365 Commerce“ architektūros apžvalga
+                  href: commerce-architecture.md
                 - name: „Commerce Scale Unit“ architektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Parduotuvės topologijos pasirinkimas
@@ -214,7 +214,7 @@
                   href: retail-modern-pos-device-activation.md
                 - name: Sąskaitų ir įrenginių valdymas iš būstinės
                   href: set-up-activation-accounts-validate-devices-hq.md
-                - name: EKA įrenginio aktyvinimas
+                - name: POS įrenginio aktyvinimas
                   href: dev-itpro/retail-device-activation.md
                 - name: Pagalba apsaugant „Cloud POS“ bendrinamose aplinkose
                   href: dev-itpro/secure-retail-cloud-pos.md
@@ -334,25 +334,25 @@
                   items:
                     - name: Pasirinkimas tarp MPOS ir „Cloud POS“
                       href: MPOS-or-CPOS.md
-                    - name: EKA operacijos prisijungus ir neprisijungus prie interneto
+                    - name: POS operacijos prisijungus ir neprisijungus prie interneto
                       href: pos-operations.md
                     - name: Tinkinto „Modern POS“ įrenginių aktyvinimas
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: EKA prisijungimo „Azure Active Directory“ autentifikavimo įjungimas
+                    - name: POS prisijungimo „Azure Active Directory“ autentifikavimo įjungimas
                       href: aad-pos-logon.md
                     - name: MPOS ir „Cloud POS“ demonstracinių duomenų ekrano maketai
                       href: demo-data.md
-                    - name: Produktų ir klientų ieška EKA
+                    - name: Produktų ir klientų ieška POS
                       href: POS-search-improvements.md
                     - name: Produktų ir produkto variantų įvedant užsakymą ieška
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Grynųjų pinigų valdymo patobulinimai
                       href: cash-mgmt.md
-                    - name: EKA atsargų peržvalga
+                    - name: POS atsargų peržvalga
                       href: product-variants-POS.md
-                    - name: EKA operacijų sulaikymas ir atnaujinimas
+                    - name: POS operacijų sulaikymas ir atnaujinimas
                       href: pos-suspend-recall-transactions.md
-                    - name: Autonominės EKA funkcijos
+                    - name: Autonominės POS funkcijos
                       href: pos-offline-functionality.md
                     - name: Pamainos ir kasos stalčių valdymas
                       href: shift-drawer-management.md
@@ -360,7 +360,7 @@
                       href: dev-itpro/gift-card-cash-out.md
                     - name: Užsakymų iš kitos parduotuvės siuntimas
                       href: charge-send.md
-                    - name: Ne vežėjo pristatymo būdų slėpimas EKA siuntų dialoge
+                    - name: Ne vežėjo pristatymo būdų slėpimas POS siuntų dialoge
                       href: hide-non-carrier-modes.md
                     - name: Užduočių įrašymo priemonė ir MPOS bei „Cloud POS“ žinynas
                       href: task-recorder-retail-pos.md
@@ -370,25 +370,25 @@
                           href: retail-peripherals-overview.md
                         - name: Periferinis simuliatorius
                           href: dev-itpro/retail-peripheral-simulator.md
-                        - name: Išorinių įrenginių prijungimas prie EKA
+                        - name: Išorinių įrenginių prijungimas prie POS
                           href: define-maintain-channel-clients-registers-hw-stations.md
-                        - name: EKA periferinių įrenginių ir paslaugų sveikatos patikra
+                        - name: POS periferinių įrenginių ir paslaugų sveikatos patikra
                           href: pos-healthcheck.md
                     - name: Ekrano maketai
                       items:
                         - name: "MPOS\_/ CPOS demonstracinių duomenų ekrano maketai"
                           href: demo-data.md
-                        - name: EKA ekrano maketai
+                        - name: POS ekrano maketai
                           href: pos-screen-layouts.md
-                        - name: EKA maketų dizaino įrankio diegimas
+                        - name: POS maketų dizaino įrankio diegimas
                           href: install-pos-layout-designer.md
                         - name: Pranešimo parametrų pasirinkimas
                           href: Notifications-POS.md
-                        - name: EKA programos ir vartotojo kalbos parametrai
+                        - name: POS programos ir vartotojo kalbos parametrai
                           href: pos-application-user-language-settings.md
                         - name: MPOS vaizdų nustatymas ir tvarkymas
                           href: set-up-manage-images-retail-mpos.md
-                        - name: Klientų vaizdai EKA
+                        - name: Klientų vaizdai POS
                           href: pos-image.md
                     - name: Kliento užsakymai
                       items:
@@ -398,7 +398,7 @@
                           href: hybrid-customer-orders.md
                     - name: Pardavimo darbuotojai
                       items:
-                        - name: EKA komisinių sekimas naudojant pardavimo grupes
+                        - name: POS komisinių sekimas naudojant pardavimo grupes
                           href: pos-sales-groups-track-commissions.md
                     - name: Įrenginio aktyvinimas
                       items:
@@ -408,11 +408,11 @@
                           href: extended-logon.md
                         - name: Sąskaitų aktyvinimo ir įrenginių tikrinimo valdymas
                           href: set-up-activation-accounts-validate-devices-hq.md
-                    - name: EKA registrų finansinių dimensijų kūrimas ir dimensijų reikšmių registruose konfigūravimas
+                    - name: POS registrų finansinių dimensijų kūrimas ir dimensijų reikšmių registruose konfigūravimas
                       href: tasks/create-financial-dimensions-pos.md
-                    - name: EKA teisių grupės kūrimas
+                    - name: POS teisių grupės kūrimas
                       href: tasks/create-pos-permission-groups.md
-                    - name: EKA vaizdo šablonų kūrimas
+                    - name: POS vaizdo šablonų kūrimas
                       href: tasks/create-pos-visual-profile-2016-02.md
                 - name: „Retail Hardware Station“ konfigūravimas ir diegimas
                   href: retail-hardware-station-configuration-installation.md
@@ -424,6 +424,8 @@
                       href: email-receipts.md
                     - name: Kvitų numerių nustatymas iš naujo
                       href: reset_receipt_number_sequence.md
+                    - name: Procesoriaus kredito kortelės kvitų įdėjimas į klientų kvitus
+                      href: dev-itpro/embed-cc-receipt.md
                 - name: Pardavimo atstovų funkcijų profilių kūrimas
                   href: tasks/configure-functionality-profile-sales-representative.md
                 - name: Mažmeninės prekybos kanalų finansinių dimensijų kūrimas ir reikšmių parduotuvėse konfigūravimas
@@ -482,7 +484,7 @@
                       href: work-with-payments.md
                     - name: 'Kredito kortelių nustatymas, autorizacija ir patvirtinimas'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
-                    - name: Grynųjų pinigų nominaliosios vertės EKA konfigūravimas
+                    - name: Grynųjų pinigų nominaliosios vertės POS konfigūravimas
                       href: cash-denominations.md
                     - name: Kredito kortelės apdorojimo konfigūravimas
                       href: tasks/configure-credit-card-processing.md
@@ -578,7 +580,7 @@
                   href: retail-shipping-discount.md
                 - name: Kuponų nustatymas
                   href: retail-coupons.md
-                - name: Nuolaidų rodymas EKA
+                - name: Nuolaidų rodymas POS
                   href: discounts-pos.md
                 - name: Kainų ataskaitos
                   href: price-report.md
@@ -600,9 +602,9 @@
                       href: personalized-recommendations.md
                     - name: Personalizuotų rekomendacijų atsisakymas
                       href: personalization-gdpr.md
-                - name: EKA patirtys
+                - name: POS patirtys
                   items:
-                    - name: Produktų rekomendacijų įtraukimas į EKA
+                    - name: Produktų rekomendacijų įtraukimas į POS
                       href: product.md
                     - name: Rekomendacijų įtraukimas į operacijų ekraną
                       href: add-recommendations-control-pos-screen.md
@@ -638,9 +640,9 @@
                       href: tasks/push-products-distribution-center-store-buyers-push.md
                     - name: Prekių skirstymo ir skirstymo pirkėjams taisyklių bei parametrų nustatymas
                       href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
-                    - name: Atvežamų atsargų operacija EKA
+                    - name: Atvežamų atsargų operacija POS
                       href: pos-inbound-inventory-operation.md
-                    - name: Siunčiamų atsargų operacija EKA
+                    - name: Siunčiamų atsargų operacija POS
                       href: pos-outbound-inventory-operation.md
                     - name: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
                       href: calculated-inventory-retail-channels.md
@@ -664,7 +666,7 @@
               items:
                 - name: Skambučių centro užsakymo kūrimas
                   href: tasks/create-call-center-orders.md
-                - name: Pristatymo režimo keitimas EKA
+                - name: Pristatymo režimo keitimas POS
                   href: POS-change-delivery-mode.md
             - name: Paskirstytų užsakymų tvarkymas
               items:
@@ -678,7 +680,7 @@
                   href: order-fulfillment-overview.md
                 - name: Parduotuvių užsakymų įvykdymo nustatymas
                   href: order-fulfillment-pos-setup.md
-                - name: Užsakymų pranešimų rodymas EKA
+                - name: Užsakymų pranešimų rodymas POS
                   href: notifications-pos.md
                 - name: Tęstinumo programų pardavimas ir pardavimo užsakymų apdorojimas
                   href: tasks/use-continuity-program.md
@@ -758,7 +760,7 @@
               href: task-mgmt-create-lists.md
             - name: Užduočių sąrašų priskyrimas parduotuvėms arba darbuotojams
               href: task-mgmt-assign-lists.md
-            - name: Užduočių valdymas EKA
+            - name: Užduočių valdymas POS
               href: task-mgmt-pos.md
         - name: El. prekybos svetainės valdymas
           items:
@@ -1042,74 +1044,40 @@
               items:
                 - name: Kasos aparato funkcijos
                   href: localizations/emea-swe-cash-registers.md
-                - name: EKA integravimo su kontrolės įtaisais pavyzdys
+                - name: POS integravimo su kontrolės įtaisais pavyzdys
                   href: localizations/retail-sdk-control-unit-sample.md
-        - name: Įžvalgos
+        - name: Ataskaitų ir „Power BI“ integravimai
           items:
-            - name: Pagrindinis įžvalgų puslapis
+            - name: Ataskaitos ir analizė naudojant „Power BI“
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Prieiga prie informacijos ir ataskaitos
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Personalizavimo parinktys naudojantis PowerBI.com
+              items:
+                - name: 'Funkcijos, galimos naudojant PowerBI.com integravimą'
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: PowerBI.com turinio prisegimas
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: Analizės darbo srities pasirinkimas iš PowerBI.com
+                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: „Power BI“ turinys
               items:
                 - name: Pagrindinis „Power BI“ turinio puslapis
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Faktinis, palyginti su biudžeto'
-                  href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Išmokos
-                  href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Grynųjų pinigų apžvalga
-                  href: ../finance/cash-bank-management/Cash-Overview-Power-BI-content.md?toc=/dynamics365/commerce/toc.json
-                - name: CFO apžvalga
-                  href: ../fin-ops-core/dev-itpro/analytics/CFO-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Kompensacija
-                  href: ../fin-ops-core/dev-itpro/analytics/compensation-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Kompensacija ir išmokos
-                  href: ../fin-ops-core/dev-itpro/analytics/compensation-and-benefits-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Kaštų apskaitos analizė
-                  items:
-                    - name: Kaštų apskaitos analizės „Power BI“ turinys
-                      href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/commerce/toc.json
-                    - name: Kaštų apskaitos analizės „Power BI“ turinio apsaugos nustatymas
-                      href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Kaštų valdymas
-                  href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Kredito ir mokėjimų priežiūros valdymas
-                  href: ../finance/accounts-receivable/credit-collections-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Darbuotojų kompetencijos ir tobulinimas
-                  href: ../fin-ops-core/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Darbuotojų tobulinimas
-                  href: ../fin-ops-core/dev-itpro/analytics/employee-development-PBI.md?toc=/dynamics365/commerce/toc.json
-                - name: Išlaidų valdymas – „Power BI“ turinys
-                  href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Finansinės veiklos rezultatai
-                  href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Finansinės įžvalgos
-                  href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/commerce/toc.json
-                - name: Ilgalaikio turto valdymas
-                  href: ../finance/fixed-assets/Fixed-asset-management-workspace.md?toc=/dynamics365/commerce/toc.json
                 - name: Mokymasis
                   href: ../fin-ops-core/dev-itpro/analytics/learning-power-bi.md?toc=/dynamics365/commerce/toc.json
                 - name: Organizacinis mokymas
                   href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Praktikos vadovas
-                  href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Gamybos našumas
-                  href: ../fin-ops-core/dev-itpro/analytics/production-performance-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Pirkimo ir išlaidų analizė
-                  href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/commerce/toc.json
-                - name: Įdarbinimas
-                  href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Mažmeninės prekybos kanalų efektyvumas '
+                - name: „Retail Channel Performance“
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Pardavimo ir pelningumo efektyvumas
-                  href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/commerce/toc.json
-                - name: Tiekėjo mokėjimai
-                  href: ../finance/accounts-payable/Vendor-payments-workspace.md?toc=/dynamics365/commerce/toc.json
-                - name: Sandėlio našumas
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/dynamics365/commerce/toc.json
-                - name: Darbo jėgos metrika
-                  href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/commerce/toc.json
+            - name: Analizės darbo sritys
+              items:
+                - name: Analizės darbo sritys (naudojant „Power BI Embedded“)
+                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: „Power BI Embedded“ integravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Į analizės darbo sritis įdėtųjų ataskaitų tinkinimas
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: Dokumentų ataskaitos ir spausdinimas
               items:
                 - name: Dokumentų ataskaitų paslaugų apžvalga
@@ -1125,21 +1093,45 @@
                     - name: Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimą
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
                     - name: Dokumento maršruto planavimo agento naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=/dynamics365/commerce/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/commerce/toc.json
                     - name: Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Dokumentų generavimas, publikavimas ir spausdinimas vietinėse visuotinėse įdiegtyse'
+                    - name: 'Dokumentų generavimas, publikavimas ir spausdinimas vietiniuose visuotiniuose diegimuose'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/commerce/toc.json
                     - name: Dokumento maršruto planavimo agento kaip „Windows“ paslaugos paleidimas
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/commerce/toc.json
-                - name: Kaip išvengti ilgalaikių ataskaitų skirtojo laiko pabaigos
-                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/commerce/toc.json
-                - name: Galimos SQL serverio ataskaitų tarnybos ataskaitos
+                - name: Galimos „SQL Server“ ataskaitų tarnybos ataskaitos
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/commerce/toc.json
-                - name: Ataskaitų sprendimų kūrimas
-                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/commerce/toc.json
                 - name: Ataskaitų dizaino šablonų diegimas
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/commerce/toc.json
+            - name: Patyrusiems vartotojams skirti valdymo įrankiai
+              items:
+                - name: „Power BI“ integravimas su objektų saugykla
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
+                - name: Problemų sprendimas po objektų saugyklos tvarkymo
+                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
+                - name: PowerBI.com integravimo konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
+                - name: Savo duomenų bazės naudojimas
+                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
+                - name: PDF dokumentų peržiūra naudojant PDF peržiūros programą
+                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/commerce/toc.json
+            - name: Sprendimų kūrimo ir plėtimo kūrėjo įrankiai
+              items:
+                - name: 'Analizė, agreguoti matavimo vienetai ir KPI modeliavimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
+                - name: Modelių agreguoti duomenys
+                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
+                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
+                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
+                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
+                - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
+                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“
+                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/commerce/toc.json
+                - name: Ataskaitų sprendimų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/commerce/toc.json
                 - name: Programų paketo ataskaitų tinkinimas naudojant plėtinius
                   href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/commerce/toc.json
                 - name: Programų paketo ataskaitų duomenų rinkinių išplėtimas
@@ -1148,28 +1140,28 @@
                   href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/commerce/toc.json
                 - name: Verslo dokumentų pasirinktinių dizainų kūrimas
                   href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/commerce/toc.json
-                - name: PDF dokumentų peržiūra naudojant įdėtąją peržiūros programą
-                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/commerce/toc.json
-            - name: Elektroninės ataskaitos
+                - name: Kaip išvengti ilgalaikių ataskaitų skirtojo laiko pabaigos
+                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/commerce/toc.json
+        - name: Elektroninės ataskaitos
+          items:
+            - name: Elektroninių ataskaitų apžvalga
+              href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Konfigūracijos
               items:
-                - name: Elektroninių ataskaitų apžvalga
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
-                - name: Konfigūracijos
+                - name: Konfigūracijų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
+                - name: Elektroninių ataskaitų sprendimo komponentų kūrimas
                   items:
-                    - name: Konfigūracijų kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/commerce/toc.json
-                    - name: Elektroninių ataskaitų sprendimo komponentų kūrimas
+                    - name: Konkretaus domeno duomenų modelio kūrimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
+                    - name: Programai būdingų metaduomenų parengimas
                       items:
-                        - name: Konkretaus domeno duomenų modelio kūrimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/commerce/toc.json
-                        - name: Programai būdingų metaduomenų parengimas
-                          items:
-                            - name: '(ER) Programos metaduomenų, kurie bus naudojami RCS, parengimas'
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
-                            - name: (RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
-                            - name: (RCS) Prieiga prie programos metaduomenų naudojant prijungtas programas
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
+                        - name: '(ER) Programos metaduomenų, kurie bus naudojami RCS, parengimas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/commerce/toc.json
+                        - name: (RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/commerce/toc.json
+                        - name: (RCS) Prieiga prie programos metaduomenų naudojant prijungtas programas
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/commerce/toc.json
                         - name: Modelių susiejimų nustatymas ir duomenų šaltinių pasirinkimas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/commerce/toc.json
                         - name: Duomenų modelio susiejimas su pasirinktais duomenų šaltiniais
@@ -1186,472 +1178,462 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/commerce/toc.json
                     - name: Formato naujinimas pritaikant naują pagrindinę to formato versiją
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroninių ataskaitų formulių kūrimo įrankis
+            - name: Elektroninių ataskaitų formulių konstruktoriai
+              items:
+                - name: Formulių konstruktorius
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/commerce/toc.json
-                - name: Formulės kalba ir funkcijos
+                - name: Išplėstinis formulių konstruktorius
+                  href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/commerce/toc.json
+            - name: Formulės kalba ir funkcijos
+              items:
+                - name: Formulės kalba
+                  href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Funkcijos
                   items:
-                    - name: Formulės kalba
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
-                    - name: Funkcijos
+                    - name: Data ir laikas
                       items:
-                        - name: Data ir laikas
-                          items:
-                            - name: Datos ir laiko funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
-                            - name: AddDays
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
-                            - name: DateFormat
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
-                            - name: DateTimeFormat
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/commerce/toc.json
-                            - name: DateTimeValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: DateToDateTime
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
-                            - name: DateValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: DayOfYear
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/commerce/toc.json
-                            - name: Days
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/commerce/toc.json
-                            - name: Now
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/commerce/toc.json
-                            - name: NullDate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/commerce/toc.json
-                            - name: NullDateTime
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/commerce/toc.json
-                            - name: SessionNow
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
-                            - name: SessionToday
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
+                        - name: Datos ir laiko funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: AddDays
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateTimeValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateToDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: DateValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: DayOfYear
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/commerce/toc.json
+                        - name: Days
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/commerce/toc.json
+                        - name: Now
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionNow
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/commerce/toc.json
+                        - name: SessionToday
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/commerce/toc.json
+                    - name: Sąrašas
+                      items:
+                        - name: Sąrašo funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItems
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/commerce/toc.json
+                        - name: AllItemsQuery
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/commerce/toc.json
+                        - name: Count
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
+                        - name: Išvardyti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Filtruoti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
+                        - name: Pirma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
+                        - name: FirstOrNull
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
+                        - name: Indeksas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsEmpty
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
                         - name: Sąrašas
-                          items:
-                            - name: Sąrašo funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/commerce/toc.json
-                            - name: AllItems
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/commerce/toc.json
-                            - name: AllItemsQuery
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/commerce/toc.json
-                            - name: Count
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/commerce/toc.json
-                            - name: EmptyList
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/commerce/toc.json
-                            - name: Enumerate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/commerce/toc.json
-                            - name: Filter
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/commerce/toc.json
-                            - name: First
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/commerce/toc.json
-                            - name: FirstOrNull
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/commerce/toc.json
-                            - name: Index
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/commerce/toc.json
-                            - name: IsEmpty
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/commerce/toc.json
-                            - name: List
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
-                            - name: ListOfFields
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
-                            - name: ListOfFirstItem
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
-                            - name: OrderBy
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
-                            - name: Reverse
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
-                            - name: Split
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
-                            - name: SplitList
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
-                            - name: SplitListByLimit
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/commerce/toc.json
-                            - name: StringJoin
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
-                            - name: Where
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/commerce/toc.json
-                        - name: Loginės
-                          items:
-                            - name: Loginės funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/commerce/toc.json
-                            - name: And
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/commerce/toc.json
-                            - name: Case
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
-                            - name: If
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
-                            - name: Not
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
-                            - name: Or
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
-                            - name: ValueIn
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/commerce/toc.json
-                        - name: Matematinės
-                          items:
-                            - name: Matematinės funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/commerce/toc.json
-                            - name: Abs
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/commerce/toc.json
-                            - name: Power
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/commerce/toc.json
-                            - name: Round
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/commerce/toc.json
-                            - name: RoundDown
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/commerce/toc.json
-                            - name: RoundUp
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/commerce/toc.json
-                        - name: Įrašai
-                          items:
-                            - name: Įrašų funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/commerce/toc.json
-                            - name: NullContainer
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
-                            - name: EmptyRecord
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFields
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: ListOfFirstItem
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/commerce/toc.json
+                        - name: OrderBy
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/commerce/toc.json
+                        - name: Atšaukti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/commerce/toc.json
+                        - name: Skaidyti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: SplitListByLimit
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/commerce/toc.json
+                        - name: StringJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: Where
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/commerce/toc.json
+                    - name: Loginės
+                      items:
+                        - name: Loginės funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/commerce/toc.json
+                        - name: And
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/commerce/toc.json
+                        - name: Case
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/commerce/toc.json
+                        - name: If
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/commerce/toc.json
+                        - name: Not
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/commerce/toc.json
+                        - name: Or
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/commerce/toc.json
+                        - name: ValueIn
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/commerce/toc.json
+                    - name: Matematinės
+                      items:
+                        - name: Matematinės funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/commerce/toc.json
+                        - name: Abs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/commerce/toc.json
+                        - name: Power
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/commerce/toc.json
+                        - name: Round
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundDown
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundUp
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/commerce/toc.json
+                    - name: Įrašai
+                      items:
+                        - name: Įrašų funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/commerce/toc.json
+                        - name: EmptyRecord
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/commerce/toc.json
+                        - name: NullContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/commerce/toc.json
+                    - name: Text
+                      items:
+                        - name: Tekstinės funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Char
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: Concatenate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Format
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetEnumValueByName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
+                        - name: GuidValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: JsonValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: Left
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/commerce/toc.json
+                        - name: Len
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/commerce/toc.json
+                        - name: Lower
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mid
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumberFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumeralsToText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/commerce/toc.json
+                        - name: PadLeft
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/commerce/toc.json
+                        - name: QrCode
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: Replace
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/commerce/toc.json
+                        - name: Right
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/commerce/toc.json
                         - name: Text
-                          items:
-                            - name: Tekstinės funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/commerce/toc.json
-                            - name: Char
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
-                            - name: Concatenate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/commerce/toc.json
-                            - name: Format
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/commerce/toc.json
-                            - name: GetEnumValueByName
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/commerce/toc.json
-                            - name: GuidValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: JsonValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: Left
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/commerce/toc.json
-                            - name: Len
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/commerce/toc.json
-                            - name: Lower
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
-                            - name: Mid
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
-                            - name: NumberFormat
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
-                            - name: NumeralsToText
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/commerce/toc.json
-                            - name: PadLeft
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/commerce/toc.json
-                            - name: QrCode
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                            - name: Replace
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/commerce/toc.json
-                            - name: Right
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/commerce/toc.json
-                            - name: Text
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-                            - name: Translate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/commerce/toc.json
-                            - name: Trim
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/commerce/toc.json
-                            - name: Upper
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/commerce/toc.json
-                        - name: Duomenų rinkimas
-                          items:
-                            - name: Duomenų rinkimo funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/commerce/toc.json
-                            - name: CollectedList
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/commerce/toc.json
-                            - name: CountIF
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/commerce/toc.json
-                            - name: CountIFs
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/commerce/toc.json
-                            - name: FormatElementName
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/commerce/toc.json
-                            - name: SumIF
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/commerce/toc.json
-                            - name: SumIFs
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/commerce/toc.json
-                        - name: Kitos
-                          items:
-                            - name: Kitos (konkrečios verslo srities) funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/commerce/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/commerce/toc.json
-                            - name: CN_GBT_AdditionalDimensionID
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/commerce/toc.json
-                            - name: ConvertCurrency
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/commerce/toc.json
-                            - name: CurCredRef
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/commerce/toc.json
-                            - name: FA_Balance
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/commerce/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/commerce/toc.json
-                            - name: FA_Sum
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/commerce/toc.json
-                            - name: GetCurrentCompany
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/commerce/toc.json
-                            - name: ISOCredRef
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/commerce/toc.json
-                            - name: IsValidCharacterISO7064
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/commerce/toc.json
-                            - name: Mod_97
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/commerce/toc.json
-                            - name: NumSeqValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: RoundAmount
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/commerce/toc.json
-                            - name: TableName2ID
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/commerce/toc.json
-                        - name: Tipo konvertavimas
-                          items:
-                            - name: Tipo konvertavimo funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/commerce/toc.json
-                            - name: Int64Value
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/commerce/toc.json
-                            - name: IntValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: NumberValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: Value
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Datos ir laiko kategorija: DateTimeValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Datos ir laiko kategorija: DateToDateTime'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Datos ir laiko kategorija: DateValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Sąrašo kategorija: List'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Sąrašo kategorija: ListOfFields'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Sąrašo kategorija: Split'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Sąrašo kategorija: StringJoin'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Teksto kategorija: Char'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Teksto kategorija: GuidValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Teksto kategorija: NumberFormat'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Teksto kategorija: QrCode'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                            - name: 'Teksto kategorija: Text'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
-                - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Duomenų modelio aprašo pasirinkimas, kuriant formatus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
-                - name: (ER) Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
-                  href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
-                  items:
-                    - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų kūrimas pildymui PDF šablonuose
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
-                - name: Vaizdų ir figūrų įdėjimas
-                  items:
-                    - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
-                    - name: Įdedamų vaizdų ir figūrų pavyzdys
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+                        - name: Translate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/commerce/toc.json
+                        - name: Trim
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/commerce/toc.json
+                        - name: Upper
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/commerce/toc.json
+                    - name: Duomenų rinkimas
                       items:
-                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
-                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
-                  href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
-                - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
-                - name: ER sprendimo kūrimas norint naudoti finansines dimensijas
-                  items:
-                    - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
-                - name: ER formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus naudojant sugeneruotos išvesties informaciją
-                  items:
-                    - name: Formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
-                    - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
-                    - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
-                    - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
-                - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
-                  items:
-                    - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
-                - name: Dokumentų valdymo failų naudojimas formato išvestyse
-                  items:
-                    - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, ruošimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, išplėtimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, modifikavimas ir taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
-                - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
-                  items:
-                    - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, importavimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
-                    - name: Dokumentų generavimo naudojant prašymų duomenis modelių modifikavimas ir susiejimai
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                    - name: Dokumentų generavimo naudojant prašymų duomenis formatų modifikavimas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'Dokumentų, kuriuose yra prašymų duomenų, generavimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
-                - name: Duomenų importavimas iš gaunamų failų naudojant ER sprendimus
-                  items:
-                    - name: Gaunamų dokumentų analizė skirtingais formatais
-                      href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
-                    - name: Duomenų importavimo iš rankiniu būdu pasirinktų failų konfigūravimas
+                        - name: Duomenų rinkimo funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/commerce/toc.json
+                        - name: CollectedList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/commerce/toc.json
+                        - name: CountIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/commerce/toc.json
+                        - name: FormatElementName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/commerce/toc.json
+                        - name: SumIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/commerce/toc.json
+                    - name: Kitos
                       items:
-                        - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
-                    - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
-                    - name: Failų importavimas XML formatu
+                        - name: Kitos (konkrečios verslo srities) funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/commerce/toc.json
+                        - name: CH_Bank_Mod_10
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/commerce/toc.json
+                        - name: CN_GBT_AdditionalDimensionID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/commerce/toc.json
+                        - name: ConvertCurrency
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/commerce/toc.json
+                        - name: CurCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Balance
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/commerce/toc.json
+                        - name: FA_Sum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/commerce/toc.json
+                        - name: GetCurrentCompany
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/commerce/toc.json
+                        - name: ISOCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/commerce/toc.json
+                        - name: IsValidCharacterISO7064
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/commerce/toc.json
+                        - name: Mod_97
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/commerce/toc.json
+                        - name: NumSeqValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: RoundAmount
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/commerce/toc.json
+                        - name: TableName2ID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/commerce/toc.json
+                    - name: Tipo konvertavimas
                       items:
-                        - name: Failų importavimas XML formatu su pasirinktiniais atributais
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
-                        - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
-                - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
-                  href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
-                - name: Konfigūracijos ciklas
-                  items:
-                    - name: Konfigūracijų ciklo valdymas
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų importavimas iš „Lifecycle Services“
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
-                    - name: Konfigūracijų importavimas
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER konfigūracijų atsisiuntimas iš RCS saugyklos
-                      items:
-                        - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
-                - name: Mokymo programos
-                  items:
-                    - name: 'Norėdami gauti duomenis iš kelių programos lentelių elektroninių ataskaitų (ER) modelio susiejimuose, naudokite duomenų šaltinių jungimo funkciją'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
-                    - name: 'ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
-                - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
-                  items:
-                    - name: Sistemos konfigūravimas
-                      items:
-                        - name: Elektroninių ataskaitų sistemos konfigūravimas
-                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/commerce/toc.json
-                        - name: Kurti atsargines ER šablonų kopijas ir atkurti
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Paskirties vietos
-                      items:
-                        - name: Paskirties vietų apžvalga
-                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/commerce/toc.json
-                        - name: Paskirties vietų konfigūravimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
-                    - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
-                      items:
-                        - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
-                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
-                        - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
-                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
-                        - name: Bandymų automatizavimas naudojant elektronines ataskaitas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
-                    - name: Verslo procesų automatizavimas naudojant elektroninių ataskaitų konfigūracijas
-                      items:
-                        - name: Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI“
-                          href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
-                        - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                    - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
-                    - name: Verslo dokumentų valdymas
-                      items:
-                        - name: Verslo dokumentų valdymo apžvalga
-                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
-                        - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
-                - name: ER sistemos API
-                  items:
-                    - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
-                    - name: „Application Update 7.3“ elektroninės ataskaitų sistemos API pakeitimai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
-                    - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
-            - name: Įdėtieji analizės sprendimai
+                        - name: Tipo konvertavimo funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tipas: Int64Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tipas: IntValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tipas: NumberValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tipas: reikšmė'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Data ir laikas: DateTimeValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Data ir laikas: DateToDateTime'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Data ir laikas: DateValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Sąrašas: sąrašas'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Sąrašas: ListOfFields'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Sąrašas: skaidyti'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Sąrašas: StringJoin'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekstas: Char'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekstas: GuidValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekstas: NumberFormat'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekstas: QrCode'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
+                        - name: 'Tekstas: tekstas'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
+            - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: 'Duomenų modelio aprašo pasirinkimas, kuriant formatus'
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: 'Išplėstinės filtravimo parinktys, ieškant konfigūracijų visuotinėje saugykloje'
+              href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/commerce/toc.json
+            - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/commerce/toc.json
+            - name: (ER) Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/commerce/toc.json
+            - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
               items:
-                - name: Įdėtoji „Power BI“ darbo srityse
-                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/commerce/toc.json
-                - name: „Power BI Embedded“ integravimas
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Į analizės darbo sritis įdėtųjų ataskaitų tinkinimas
-                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
-            - name: Personalizavimo parinktys naudojantis PowerBI.com
+                - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: Konfigūracijų kūrimas pildymui PDF šablonuose
+                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/commerce/toc.json
+            - name: Vaizdų ir figūrų įdėjimas
               items:
-                - name: Galimos funkcijos ir paslaugos naudojant „Power BI“ integravimą
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: „Power BI“ ataskaitų prisegimas prie darbo sričių
-                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Analizės darbo srities pasirinkimas iš PowerBI.com
-                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
-            - name: Sprendimų kūrimo ir plėtimo įrankiai
+                - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/commerce/toc.json
+                - name: Įdedamų vaizdų ir figūrų pavyzdys
+                  items:
+                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+            - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/commerce/toc.json
+            - name: ER sprendimo kūrimas norint naudoti finansines dimensijas
               items:
-                - name: 'Analizė, agreguoti matavimo vienetai ir KPI modeliavimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/commerce/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
-                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Modelių agreguoti duomenys
-                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
-                - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
-                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
-                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
-                - name: Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“
-                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/commerce/toc.json
-            - name: Patyrusiems vartotojams skirti valdymo įrankiai
+                - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/commerce/toc.json
+            - name: ER formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus naudojant sugeneruotos išvesties informaciją
               items:
-                - name: „Power BI“ integravimas su objektų saugykla
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
-                - name: Problemų sprendimas po objektų saugyklos tvarkymo
-                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md?toc=/dynamics365/commerce/toc.json
-                - name: „Power BI“ integravimo darbo srityse konfigūravimas
-                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: Savo duomenų bazės naudojimas
-                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
+                - name: Formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/commerce/toc.json
+                - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/commerce/toc.json
+                - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/commerce/toc.json
+                - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/commerce/toc.json
+            - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
+              items:
+                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+            - name: Dokumentų valdymo failų naudojimas formato išvestyse
+              items:
+                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, ruošimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, išplėtimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, modifikavimas ir taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/commerce/toc.json
+            - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
+              items:
+                - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
+                  href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, importavimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: Dokumentų generavimo naudojant prašymų duomenis modelių modifikavimas ir susiejimai
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: Dokumentų generavimo naudojant prašymų duomenis formatų modifikavimas
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Dokumentų, kuriuose yra prašymų duomenų, generavimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/commerce/toc.json
+            - name: Duomenų importavimas iš gaunamų failų naudojant ER sprendimus
+              items:
+                - name: Gaunamų dokumentų analizė skirtingais formatais
+                  href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/commerce/toc.json
+                - name: Duomenų importavimo iš rankiniu būdu pasirinktų failų konfigūravimas
+                  items:
+                    - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/commerce/toc.json
+                - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/commerce/toc.json
+                - name: Failų importavimas XML formatu
+                  items:
+                    - name: Failų importavimas XML formatu su pasirinktiniais atributais
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+                    - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
+            - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
+            - name: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
+            - name: Konfigūracijos ciklas
+              items:
+                - name: Konfigūracijų ciklo valdymas
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Konfigūracijų importavimas iš „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/commerce/toc.json
+                - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/commerce/toc.json
+                - name: Konfigūracijų importavimas
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/commerce/toc.json
+                - name: ER konfigūracijų atsisiuntimas iš RCS saugyklos
+                  items:
+                    - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Konfigūracijų importavimas iš RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
+            - name: Mokymo programos
+              items:
+                - name: JOIN duomenų šaltinių naudojimas norint gauti duomenis iš kelių programos lentelių
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
+                - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
+                - name: 'ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/commerce/toc.json
+                - name: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
+                - name: ER formato elementų vykdymo atidėjimas
+                  items:
+                    - name: Sekos elemento vykdymo atidėjimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                    - name: XML elemento vykdymo atidėjimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+            - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
+              items:
+                - name: Sistemos konfigūravimas
+                  items:
+                    - name: Elektroninių ataskaitų sistemos konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/commerce/toc.json
+                    - name: Kurti atsargines ER šablonų kopijas ir atkurti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/commerce/toc.json
+                    - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: Paskirties vietos
+                  items:
+                    - name: Paskirties vietų apžvalga
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/commerce/toc.json
+                    - name: Paskirties vietų tipai
+                      items:
+                        - name: Archyvo paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/commerce/toc.json
+                        - name: El. pašto paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/commerce/toc.json
+                        - name: Failo paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/commerce/toc.json
+                        - name: „Power BI“ paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/commerce/toc.json
+                        - name: Spausdintuvo paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/commerce/toc.json
+                        - name: Ekrano paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/commerce/toc.json
+                    - name: Paskirties vietų konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/commerce/toc.json
+                - name: Nuorodos į ER formatą nustatymas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/commerce/toc.json
+                - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
+                  items:
+                    - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commerce/toc.json
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
+                    - name: Bandymų automatizavimas naudojant elektronines ataskaitas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
+                - name: Verslo procesų automatizavimas naudojant elektroninių ataskaitų konfigūracijas
+                  items:
+                    - name: Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI“
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
+                    - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
+                - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Verslo dokumentų valdymas
+                  items:
+                    - name: Verslo dokumentų valdymo apžvalga
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/commerce/toc.json
+                    - name: Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/commerce/toc.json
+                    - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/commerce/toc.json
+            - name: ER sistemos API
+              items:
+                - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/commerce/toc.json
+                - name: „Application Update 7.3“ elektroninės ataskaitų sistemos API pakeitimai
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/commerce/toc.json
+                - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
         - name: „Finance and Operations“ („Dynamics 365“) mobilioji programa
           items:
             - name: Mobiliosios programos pagrindinis puslapis
@@ -1988,23 +1970,23 @@
                   href: dev-itpro/cloud-dev-box.md
             - name: Elektroninio kasos aparato išplečiamumas
               items:
-                - name: EKA ekrano maketai
+                - name: POS ekrano maketai
                   href: pos-screen-layouts.md
-                - name: URL atidarymas EKA
+                - name: URL atidarymas POS
                   href: Open-URL-in-POS.md
-                - name: EKA maketų dizaino įrankio diegimas
+                - name: POS maketų dizaino įrankio diegimas
                   href: install-pos-layout-designer.md
-                - name: Dvigubo EKA ekrano rodinio išplėtimas
+                - name: Dvigubo POS ekrano rodinio išplėtimas
                   href: dev-itpro/pos-dual-display-extension.md
                 - name: „Modern POS“ ir „Cloud POS“ paleidiklių išplečiamumas
                   href: dev-itpro/modern-pos-trigger-extensibility.md
-                - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
+                - name: Pasirinktinių valdiklių įtraukimas į POS rodinius
                   href: dev-itpro/pos-custom-control.md
-                - name: EKA operacijų įtraukimas į EKA maketus naudojant mygtukų dizaino įrankį
+                - name: POS operacijų įtraukimas į POS maketus naudojant mygtukų dizaino įrankį
                   href: dev-itpro/add-POS-operations.md
-                - name: EKA API
+                - name: POS API
                   href: dev-itpro/POS-APIs.md
-                - name: EKA mokėjimo plėtinys
+                - name: POS mokėjimo plėtinys
                   href: dev-itpro/pos-payment-extension.md
                 - name: Išorinių dovanų kortelių palaikymas
                   href: dev-itpro/gift-card.md
@@ -2012,41 +1994,41 @@
                   href: dev-itpro/create-retail-experience-app.md
                 - name: Programos „POS Hybrid“ nustatymas sistemose „Android“ ir „iOS“
                   href: dev-itpro/hybridApp.md
-                - name: EKA užklausų apdorojimo programos perrašymas
+                - name: POS užklausų apdorojimo programos perrašymas
                   href: dev-itpro/pos-handler.md
-                - name: EKA plėtinių paketų informacijos peržiūra
+                - name: POS plėtinių paketų informacijos peržiūra
                   href: dev-itpro/view-pos-extension-package-details.md
                 - name: Testavimo įrašymo priemonė ir „Cloud POS“ „Regression Suite Automation Tool“
                   href: dev-itpro/pos-rsat.md
-                - name: Pasirinktinių laukų įtraukimas į EKA bendrųjų sumų sritį
+                - name: Pasirinktinių laukų įtraukimas į POS bendrųjų sumų sritį
                   href: dev-itpro/custom-field-pos-totals.md
-                - name: Rodyti pasirinktinius pranešimus EKA
+                - name: Rodyti pasirinktinius pranešimus POS
                   href: dev-itpro/extend-pos-notification.md
                 - name: 'Pasirašykite MPOS, naudodami kodo pasirašymo sertifikatą'
                   href: dev-itpro/pos-app-signing-certificate.md
-                - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
+                - name: POS rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
                   href: dev-itpro/pos-view-extension.md
                 - name: Pasirinktinių valdiklių įtraukimas į „Modern POS“ operacijų puslapius
                   href: dev-itpro/pos-custom-transaction.md
-                - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
+                - name: Pasirinktinių stulpelių įtraukimas į POS operacijų tinklelį
                   href: dev-itpro/pos-custom-transaction-column.md
-                - name: EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių
+                - name: POS API sąsajų iškvietimas arba operacijos iš POS plėtinių
                   href: dev-itpro/pos-api-extension.md
                 - name: „Modern POS“ paleidikliai ir spausdinimas
                   href: dev-itpro/pos-trigger-printing.md
-                - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius
+                - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus POS rodinius
                   href: dev-itpro/pos-control-non-screen.md
-                - name: EKA pavyzdžių vykdymas
+                - name: POS pavyzdžių vykdymas
                   href: dev-itpro/pos-run-samples.md
                 - name: Įrenginių valdymo diegimo instrukcijos
                   href: implementation-considerations-devices.md
-                - name: EKA krepšelio peržiūros įvykiai ir apdorojimo programos
+                - name: POS krepšelio peržiūros įvykiai ir apdorojimo programos
                   href: dev-itpro/cart-view-handlers.md
             - name: „Hardware Station“ išplečiamumas
               items:
                 - name: „Hardware Station“ ir išplečiamumas
                   href: dev-itpro/hardware-station-extensibility.md
-                - name: EKA integravimas su nauju aparatūros įrenginiu
+                - name: POS integravimas su nauju aparatūros įrenginiu
                   href: dev-itpro/hardware-device-extension.md
             - name: „Retail Server“ išplečiamumas
               items:

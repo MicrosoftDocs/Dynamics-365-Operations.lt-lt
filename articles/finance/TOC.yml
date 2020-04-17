@@ -24,7 +24,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/public-preview-releases.md?toc=/dynamics365/finance/toc.json
                 - name: Debesies aplinkų naujinimų taikymas
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/finance/toc.json
-                - name: Vietinių visuotinių įdiegčių naujinimų taikymas
+                - name: Vietinių visuotinių diegimų naujinimų taikymas
                   href: ../fin-ops-core/dev-itpro/deployment/apply-updates-on-premises.md?toc=/dynamics365/finance/toc.json
                 - name: Paslaugų naujinimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/configure-service-updates.md?toc=/dynamics365/finance/toc.json
@@ -70,11 +70,11 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: "„Finance” 10.0.10 versija (2020\_m. gegužė)"
+                    - name: „Finance 10.0.10“ (2020 m. gegužės mėn.)
                       href: get-started/whats-new-changed-10-0-10.md
-                    - name: "„Finance” 10.0.9 versija (2020\_m. balandis)"
+                    - name: „Finance 10.0.9“ (2020 m. balandžio mėn.)
                       href: get-started/whats-new-changed-10-0-9.md
-                    - name: "„Finance” 10.0.8 versija (2020\_m. vasaris)"
+                    - name: „Finance 10.0.8“ (2020 m. vasario mėn.)
                       href: get-started/whats-new-changed-10-0-8.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
@@ -956,8 +956,10 @@
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
                 - name: Išskaitomo mokesčio nustatymas
                   href: general-ledger/tasks/set-up-withholding-tax.md
-                - name: Registruotų PVM operacijų peržiūra
+                - name: Užregistruotų PVM operacijų peržiūra
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
+                - name: Spausdinti PVM mokėjimo pagal kodą ataskaitą
+                  href: general-ledger/print-sales-tax-payment-by-code-report.md
             - name: Audito darbo sritis
               items:
                 - name: Audito strategijos taisyklės
@@ -1952,6 +1954,8 @@
                       href: general-ledger/tax-engine-integration.md
                     - name: Mokesčių mechanizmo plėtimas
                       href: general-ledger/extend-tax-engine-configurations.md
+                    - name: Šalinti triktis GTE
+                      href: localizations/tax-engine-trouble-shooting.md
                 - name: DUK apie ribines mokesčių reikšmes
                   href: localizations/apac-ind-tax-thresholds.md
                 - name: Atsargų perkėlimai
@@ -2262,10 +2266,12 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Tiekėjo registracijos ID
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Olandija
+            - name: Nyderlandai
               items:
-                - name: Olandijos apžvalga
+                - name: Nyderlandų apžvalga
                   href: localizations/netherlands.md
+                - name: PVM deklaracija
+                  href: localizations/emea-nl-VAT-declaration.md
                 - name: Elektroninės mokesčių deklaracijos (EVAT)
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: „Semansys XBRL“ integravimas
@@ -2582,6 +2588,8 @@
                   href: localizations/switzerland.md
                 - name: Kliento mokėjimų importavimas ESR
                   href: localizations/emea-che-esr-customer-payments-import.md
+                - name: Šveicarijos QR sąskaitos
+                  href: localizations/emea-che-swiss-qr-bills.md
             - name: Tailandas
               items:
                 - name: Tailando apžvalga
@@ -2792,19 +2800,27 @@
                   href: ../fin-ops-core/fin-ops/hr/localizations/noam-usa-comply-ada.md
                 - name: Darbuotojų apgyvendinimo valdymas
                   href: ../fin-ops-core/fin-ops/hr/localizations/tasks/manage-worker-accommodations.md
-        - name: Įžvalgos
+        - name: Ataskaitų ir „Power BI“ integravimai
           items:
-            - name: Pagrindinis įžvalgų puslapis
+            - name: Ataskaitos ir analizė naudojant „Power BI“
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Prieiga prie informacijos ir ataskaitos
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Personalizavimo parinktys naudojantis PowerBI.com
+              items:
+                - name: 'Funkcijos, galimos naudojant PowerBI.com integravimą'
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
+                - name: PowerBI.com turinio prisegimas
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Analizės darbo srities pasirinkimas iš PowerBI.com
+                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/finance/toc.json
             - name: „Power BI“ turinys
               items:
                 - name: Pagrindinis „Power BI“ turinio puslapis
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-home-page.md?toc=/dynamics365/finance/toc.json
                 - name: 'Faktinis, palyginti su biudžeto'
                   href: ../fin-ops-core/dev-itpro/analytics/ledger-budgets-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Išmokos
+                - name: Nauda
                   href: ../fin-ops-core/dev-itpro/analytics/benefits-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: „Power BI“ turinys Grynųjų pinigų apžvalga
                   href: cash-bank-management/Cash-Overview-Power-BI-content.md
@@ -2820,11 +2836,9 @@
                       href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/finance/toc.json
                     - name: Kaštų apskaitos analizės „Power BI“ turinio apsaugos nustatymas
                       href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Kaštų valdymas
-                  href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Kredito ir mokėjimų priežiūros valdymas
                   href: accounts-receivable/credit-collections-power-bi.md
-                - name: Darbuotojų kompetencijos ir tobulinimas
+                - name: Darbuotojo kompetencijos ir tobulėjimas
                   href: ../fin-ops-core/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Darbuotojų tobulinimas
                   href: ../fin-ops-core/dev-itpro/analytics/employee-development-PBI.md?toc=/dynamics365/finance/toc.json
@@ -2842,22 +2856,24 @@
                   href: ../fin-ops-core/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Praktikos vadovas
                   href: ../fin-ops-core/dev-itpro/analytics/practice-manager-power-bi.md?toc=/dynamics365/finance/toc.json
-                - name: Gamybos našumas
-                  href: ../fin-ops-core/dev-itpro/analytics/production-performance-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Pirkimo ir išlaidų analizė
                   href: ../fin-ops-core/dev-itpro/analytics/purchase-content-pack-for-power-bi.md?toc=/dynamics365/finance/toc.json
                 - name: Įdarbinimas
                   href: ../fin-ops-core/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: 'Mažmeninės prekybos kanalų efektyvumas '
-                  href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/finance/toc.json
                 - name: Pardavimo ir pelningumo efektyvumas
                   href: ../fin-ops-core/dev-itpro/analytics/sales-profitability-performance-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Tiekėjo mokėjimai
                   href: accounts-payable/Vendor-payments-workspace.md
-                - name: Sandėlio našumas
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/dynamics365/finance/toc.json
                 - name: Darbo jėgos metrika
                   href: ../fin-ops-core/dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
+            - name: Analizės darbo sritys
+              items:
+                - name: Analizės darbo sritys (naudojant „Power BI Embedded“)
+                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/finance/toc.json
+                - name: „Power BI Embedded“ integravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/finance/toc.json
+                - name: Į analizės darbo sritis įdėtųjų ataskaitų tinkinimas
+                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentų ataskaitos ir spausdinimas
               items:
                 - name: Dokumentų ataskaitų paslaugų apžvalga
@@ -2866,6 +2882,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/finance/toc.json
                 - name: Vietinių visuotinių diegimų SSRS konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/finance/toc.json
+                - name: Numatytųjų ataskaitų patirtys IaaS aplinkose
+                  href: ../fin-ops-core/dev-itpro/analytics/reporting-experience-iias-environments.md?toc=/dynamics365/finance/toc.json
                 - name: Spausdinama
                   items:
                     - name: Dokumento spausdinimo apžvalga
@@ -2873,21 +2891,45 @@
                     - name: Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimą
                       href: ../fin-ops-core/dev-itpro/analytics/install-document-routing-agent.md?toc=/dynamics365/finance/toc.json
                     - name: Dokumento maršruto planavimo agento naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md
+                      href: ../fin-ops-core/dev-itpro/analytics/upgrade-document-routing-agent.md?toc=dynamics/365/finance/toc.json
                     - name: Tinklo spausdinimo įrenginių diegimas vietinėse aplinkose
                       href: ../fin-ops-core/dev-itpro/analytics/install-network-printer-onprem.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Dokumentų generavimas, publikavimas ir spausdinimas vietinėse visuotinėse įdiegtyse'
+                    - name: 'Dokumentų generavimas, publikavimas ir spausdinimas vietiniuose visuotiniuose diegimuose'
                       href: ../fin-ops-core/dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/dynamics365/finance/toc.json
                     - name: Dokumento maršruto planavimo agento kaip „Windows“ paslaugos paleidimas
                       href: ../fin-ops-core/dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/dynamics365/finance/toc.json
-                - name: Kaip išvengti ilgalaikių ataskaitų skirtojo laiko pabaigos
-                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/finance/toc.json
-                - name: Galimos SQL serverio ataskaitų tarnybos ataskaitos
+                - name: Galimos „SQL Server“ ataskaitų tarnybos ataskaitos
                   href: ../fin-ops-core/dev-itpro/analytics/SSRS-report.md?toc=/dynamics365/finance/toc.json
-                - name: Ataskaitų sprendimų kūrimas
-                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/finance/toc.json
                 - name: Ataskaitų dizaino šablonų diegimas
                   href: ../fin-ops-core/dev-itpro/analytics/install-modern-report-design-templates.md?toc=/dynamics365/finance/toc.json
+            - name: Patyrusiems vartotojams skirti valdymo įrankiai
+              items:
+                - name: „Power BI“ integravimas su objektų saugykla
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/finance/toc.json
+                - name: Problemų sprendimas po objektų saugyklos tvarkymo
+                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
+                - name: PowerBI.com integravimo konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/finance/toc.json
+                - name: Savo duomenų bazės naudojimas
+                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/finance/toc.json
+                - name: PDF dokumentų peržiūra naudojant PDF peržiūros programą
+                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/finance/toc.json
+            - name: Sprendimų kūrimo ir plėtimo kūrėjo įrankiai
+              items:
+                - name: 'Analizė, agreguoti matavimo vienetai ir KPI modeliavimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/finance/toc.json
+                - name: Modelių agreguoti duomenys
+                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
+                - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
+                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
+                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
+                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
+                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
+                - name: Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“
+                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/finance/toc.json
+                - name: Ataskaitų sprendimų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/create-nextgen-reporting-solutions.md?toc=/dynamics365/finance/toc.json
                 - name: Programų paketo ataskaitų tinkinimas naudojant plėtinius
                   href: ../fin-ops-core/dev-itpro/analytics/customize-app-suite-reports-with-extensions.md?toc=/dynamics365/finance/toc.json
                 - name: Programų paketo ataskaitų duomenų rinkinių išplėtimas
@@ -2896,28 +2938,28 @@
                   href: ../fin-ops-core/dev-itpro/analytics/extend-report-menu-items.md?toc=/dynamics365/finance/toc.json
                 - name: Verslo dokumentų pasirinktinių dizainų kūrimas
                   href: ../fin-ops-core/dev-itpro/analytics/custom-designs-business-docs.md?toc=/dynamics365/finance/toc.json
-                - name: PDF dokumentų peržiūra naudojant įdėtąją peržiūros programą
-                  href: ../fin-ops-core/dev-itpro/analytics/preview-pdf-documents.md?toc=/dynamics365/finance/toc.json
-            - name: Elektroninės ataskaitos
+                - name: Kaip išvengti ilgalaikių ataskaitų skirtojo laiko pabaigos
+                  href: ../fin-ops-core/dev-itpro/analytics/prevent-long-running-reports-timing-out.md?toc=/dynamics365/finance/toc.json
+        - name: Elektroninės ataskaitos
+          items:
+            - name: Elektroninių ataskaitų apžvalga
+              href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Konfigūracijos
               items:
-                - name: Elektroninių ataskaitų apžvalga
-                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
-                - name: Konfigūracijos
+                - name: Konfigūracijų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
+                - name: Elektroninių ataskaitų sprendimo komponentų kūrimas
                   items:
-                    - name: Konfigūracijų kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md?toc=/dynamics365/finance/toc.json
-                    - name: Elektroninių ataskaitų sprendimo komponentų kūrimas
+                    - name: Konkretaus domeno duomenų modelio kūrimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Programai būdingų metaduomenų parengimas
                       items:
-                        - name: Konkretaus domeno duomenų modelio kūrimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
-                        - name: Programai būdingų metaduomenų parengimas
-                          items:
-                            - name: '(ER) Programos metaduomenų, kurie bus naudojami RCS, parengimas'
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                            - name: (RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                            - name: (RCS) Prieiga prie programos metaduomenų naudojant prijungtas programas
-                              href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
+                        - name: '(ER) Programos metaduomenų, kurie bus naudojami RCS, parengimas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
+                        - name: (RCS) Prieiga prie programos metaduomenų naudojant ER konfigūraciją
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: (RCS) Prieiga prie programos metaduomenų naudojant prijungtas programas
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Modelių susiejimų nustatymas ir duomenų šaltinių pasirinkimas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
                         - name: Duomenų modelio susiejimas su pasirinktais duomenų šaltiniais
@@ -2934,500 +2976,466 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Formato naujinimas pritaikant naują pagrindinę to formato versiją
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-                - name: Elektroninių ataskaitų formulių konstruktoriai
+            - name: Elektroninių ataskaitų formulių konstruktoriai
+              items:
+                - name: Formulių konstruktorius
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
+                - name: Išplėstinis formulių konstruktorius
+                  href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+            - name: Formulės kalba ir funkcijos
+              items:
+                - name: Formulės kalba
+                  href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Funkcijos
                   items:
-                    - name: Formulių konstruktorius
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
-                    - name: Išplėstinis formulių konstruktorius
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                - name: Formulės kalba ir funkcijos
-                  items:
-                    - name: Formulės kalba
-                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
-                    - name: Funkcijos
+                    - name: Data ir laikas
                       items:
-                        - name: Data ir laikas
-                          items:
-                            - name: Datos ir laiko funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
-                            - name: AddDays
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
-                            - name: DateFormat
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
-                            - name: DateTimeFormat
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/finance/toc.json
-                            - name: DateTimeValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: DateToDateTime
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: DateValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: DayOfYear
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/finance/toc.json
-                            - name: Days
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/finance/toc.json
-                            - name: Now
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/finance/toc.json
-                            - name: NullDate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/finance/toc.json
-                            - name: NullDateTime
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: SessionNow
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
-                            - name: SessionToday
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                        - name: Datos ir laiko funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
+                        - name: AddDays
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: DateFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
+                        - name: DateTimeFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimeformat.md?toc=/dynamics365/finance/toc.json
+                        - name: DateTimeValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
+                        - name: DateToDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
+                        - name: DateValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
+                        - name: DayOfYear
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dayofyear.md?toc=/dynamics365/finance/toc.json
+                        - name: Days
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-days.md?toc=/dynamics365/finance/toc.json
+                        - name: Now
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-now.md?toc=/dynamics365/finance/toc.json
+                        - name: NullDate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldate.md?toc=/dynamics365/finance/toc.json
+                        - name: NullDateTime
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-nulldatetime.md?toc=/dynamics365/finance/toc.json
+                        - name: SessionNow
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessionnow.md?toc=/dynamics365/finance/toc.json
+                        - name: SessionToday
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-sessiontoday.md?toc=/dynamics365/finance/toc.json
+                    - name: Sąrašas
+                      items:
+                        - name: Sąrašo funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
+                        - name: AllItems
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/finance/toc.json
+                        - name: AllItemsQuery
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/finance/toc.json
+                        - name: Count
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/finance/toc.json
+                        - name: EmptyList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
+                        - name: Išvardyti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
+                        - name: Filtruoti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
+                        - name: Pirma
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
+                        - name: FirstOrNull
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/finance/toc.json
+                        - name: Indeksas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
+                        - name: IsEmpty
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: Sąrašas
-                          items:
-                            - name: Sąrašo funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-list.md?toc=/dynamics365/finance/toc.json
-                            - name: AllItems
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitems.md?toc=/dynamics365/finance/toc.json
-                            - name: AllItemsQuery
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-allitemsquery.md?toc=/dynamics365/finance/toc.json
-                            - name: Count
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-count.md?toc=/dynamics365/finance/toc.json
-                            - name: EmptyList
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-emptylist.md?toc=/dynamics365/finance/toc.json
-                            - name: Enumerate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-enumerate.md?toc=/dynamics365/finance/toc.json
-                            - name: Filter
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-filter.md?toc=/dynamics365/finance/toc.json
-                            - name: First
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-first.md?toc=/dynamics365/finance/toc.json
-                            - name: FirstOrNull
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-firstornull.md?toc=/dynamics365/finance/toc.json
-                            - name: Index
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-index.md?toc=/dynamics365/finance/toc.json
-                            - name: IsEmpty
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
-                            - name: List
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
-                            - name: ListOfFields
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
-                            - name: ListOfFirstItem
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
-                            - name: OrderBy
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
-                            - name: Reverse
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
-                            - name: Split
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
-                            - name: SplitList
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/finance/toc.json
-                            - name: SplitListByLimit
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/finance/toc.json
-                            - name: StringJoin
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: Where
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
-                        - name: Loginės
-                          items:
-                            - name: Loginės funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/finance/toc.json
-                            - name: And
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
-                            - name: Case
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
-                            - name: If
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
-                            - name: Not
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
-                            - name: Or
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
-                            - name: ValueIn
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
-                        - name: Matematinės
-                          items:
-                            - name: Matematinės funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/finance/toc.json
-                            - name: Abs
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/finance/toc.json
-                            - name: Power
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/finance/toc.json
-                            - name: Round
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/finance/toc.json
-                            - name: RoundDown
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/finance/toc.json
-                            - name: RoundUp
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/finance/toc.json
-                        - name: Įrašai
-                          items:
-                            - name: Įrašų funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
-                            - name: EmptyRecord
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
-                            - name: NullContainer
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
+                        - name: ListOfFields
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
+                        - name: ListOfFirstItem
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffirstitem.md?toc=/dynamics365/finance/toc.json
+                        - name: OrderBy
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
+                        - name: Atšaukti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
+                        - name: Skaidyti
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
+                        - name: SplitList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/finance/toc.json
+                        - name: SplitListByLimit
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlistbylimit.md?toc=/dynamics365/finance/toc.json
+                        - name: StringJoin
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
+                        - name: Where
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
+                    - name: Loginės
+                      items:
+                        - name: Loginės funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/finance/toc.json
+                        - name: And
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
+                        - name: Case
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: If
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
+                        - name: Not
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
+                        - name: Or
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: ValueIn
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
+                    - name: Matematinės
+                      items:
+                        - name: Matematinės funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-mathematical.md?toc=/dynamics365/finance/toc.json
+                        - name: Abs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-abs.md?toc=/dynamics365/finance/toc.json
+                        - name: Power
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-power.md?toc=/dynamics365/finance/toc.json
+                        - name: Round
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-round.md?toc=/dynamics365/finance/toc.json
+                        - name: RoundDown
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-rounddown.md?toc=/dynamics365/finance/toc.json
+                        - name: RoundUp
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-mathematical-roundup.md?toc=/dynamics365/finance/toc.json
+                    - name: Įrašai
+                      items:
+                        - name: Įrašų funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-record.md?toc=/dynamics365/finance/toc.json
+                        - name: EmptyRecord
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-emptyrecord.md?toc=/dynamics365/finance/toc.json
+                        - name: NullContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-record-nullcontainer.md?toc=/dynamics365/finance/toc.json
+                    - name: Text
+                      items:
+                        - name: Tekstinės funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
+                        - name: Char
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
+                        - name: Concatenate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
+                        - name: Format
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
+                        - name: GetEnumValueByName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
+                        - name: GuidValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
+                        - name: JsonValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/finance/toc.json
+                        - name: Left
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/finance/toc.json
+                        - name: Len
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/finance/toc.json
+                        - name: Lower
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
+                        - name: Mid
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NumberFormat
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
+                        - name: NumeralsToText
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/finance/toc.json
+                        - name: PadLeft
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/finance/toc.json
+                        - name: QrCode
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
+                        - name: Replace
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/finance/toc.json
+                        - name: Right
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/finance/toc.json
                         - name: Text
-                          items:
-                            - name: Tekstinės funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-text.md?toc=/dynamics365/finance/toc.json
-                            - name: Char
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                            - name: Concatenate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-concatenate.md?toc=/dynamics365/finance/toc.json
-                            - name: Format
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-format.md?toc=/dynamics365/finance/toc.json
-                            - name: GetEnumValueByName
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-getenumvaluebyname.md?toc=/dynamics365/finance/toc.json
-                            - name: GuidValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: JsonValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-jsonvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: Left
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-left.md?toc=/dynamics365/finance/toc.json
-                            - name: Len
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-len.md?toc=/dynamics365/finance/toc.json
-                            - name: Lower
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
-                            - name: Mid
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
-                            - name: NumberFormat
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                            - name: NumeralsToText
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numeralstotext.md?toc=/dynamics365/finance/toc.json
-                            - name: PadLeft
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-padleft.md?toc=/dynamics365/finance/toc.json
-                            - name: QrCode
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: Replace
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-replace.md?toc=/dynamics365/finance/toc.json
-                            - name: Right
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-right.md?toc=/dynamics365/finance/toc.json
-                            - name: Text
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-                            - name: Translate
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/finance/toc.json
-                            - name: Trim
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/finance/toc.json
-                            - name: Upper
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/finance/toc.json
-                        - name: Duomenų rinkimas
-                          items:
-                            - name: Duomenų rinkimo funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/finance/toc.json
-                            - name: CollectedList
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/finance/toc.json
-                            - name: CountIF
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/finance/toc.json
-                            - name: CountIFs
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/finance/toc.json
-                            - name: FormatElementName
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/finance/toc.json
-                            - name: SumIF
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/finance/toc.json
-                            - name: SumIFs
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/finance/toc.json
-                        - name: Kitos
-                          items:
-                            - name: Kitos (konkrečios verslo srities) funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/finance/toc.json
-                            - name: CH_Bank_Mod_10
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
-                            - name: CN_GBT_AdditionalDimensionID
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/finance/toc.json
-                            - name: ConvertCurrency
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/finance/toc.json
-                            - name: CurCredRef
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
-                            - name: FA_Balance
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
-                            - name: FA_Sum
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
-                            - name: GetCurrentCompany
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/finance/toc.json
-                            - name: ISOCredRef
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/finance/toc.json
-                            - name: IsValidCharacterISO7064
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/finance/toc.json
-                            - name: Mod_97
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/finance/toc.json
-                            - name: NumSeqValue
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: RoundAmount
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/finance/toc.json
-                            - name: TableName2ID
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/finance/toc.json
-                        - name: Tipo konvertavimas
-                          items:
-                            - name: Tipo konvertavimo funkcijos
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tipas: Int64Value'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tipas: IntValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tipas: NumberValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tipas: reikšmė'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Data ir laikas: DateTimeValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Data ir laikas: DateToDateTime'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Data ir laikas: DateValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Sąrašas: sąrašas'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Sąrašas: ListOfFields'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Sąrašas: skaidyti'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Sąrašas: StringJoin'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstas: Char'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstas: GuidValue'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstas: NumberFormat'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstas: QrCode'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
-                            - name: 'Tekstas: tekstas'
-                              href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-                - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
-                - name: 'Duomenų modelio aprašo pasirinkimas, kuriant formatus'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
+                        - name: Translate
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-translate.md?toc=/dynamics365/finance/toc.json
+                        - name: Trim
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-trim.md?toc=/dynamics365/finance/toc.json
+                        - name: Upper
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-upper.md?toc=/dynamics365/finance/toc.json
+                    - name: Duomenų rinkimas
+                      items:
+                        - name: Duomenų rinkimo funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-data-collection.md?toc=/dynamics365/finance/toc.json
+                        - name: CollectedList
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-collectedlist.md?toc=/dynamics365/finance/toc.json
+                        - name: CountIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countif.md?toc=/dynamics365/finance/toc.json
+                        - name: CountIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-countifs.md?toc=/dynamics365/finance/toc.json
+                        - name: FormatElementName
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-formatelementname.md?toc=/dynamics365/finance/toc.json
+                        - name: SumIF
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumif.md?toc=/dynamics365/finance/toc.json
+                        - name: SumIFs
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datacollection-sumifs.md?toc=/dynamics365/finance/toc.json
+                    - name: Kitos
+                      items:
+                        - name: Kitos (konkrečios verslo srities) funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-other.md?toc=/dynamics365/finance/toc.json
+                        - name: CH_Bank_Mod_10
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-chbankmode10.md?toc=/dynamics365/finance/toc.json
+                        - name: CN_GBT_AdditionalDimensionID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-cngbtadditionaldimensionid.md?toc=/dynamics365/finance/toc.json
+                        - name: ConvertCurrency
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-convertcurrency.md?toc=/dynamics365/finance/toc.json
+                        - name: CurCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-curcredref.md?toc=/dynamics365/finance/toc.json
+                        - name: FA_Balance
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fabalance.md?toc=/dynamics365/finance/toc.json
+                        - name: FA_Sum
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-fasum.md?toc=/dynamics365/finance/toc.json
+                        - name: GetCurrentCompany
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-getcurrentcompany.md?toc=/dynamics365/finance/toc.json
+                        - name: ISOCredRef
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isocredref.md?toc=/dynamics365/finance/toc.json
+                        - name: IsValidCharacterISO7064
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-isvalidchariso7064.md?toc=/dynamics365/finance/toc.json
+                        - name: Mod_97
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-mod97.md?toc=/dynamics365/finance/toc.json
+                        - name: NumSeqValue
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-numseqvalue.md?toc=/dynamics365/finance/toc.json
+                        - name: RoundAmount
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-roundamount.md?toc=/dynamics365/finance/toc.json
+                        - name: TableName2ID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-other-tablename2id.md?toc=/dynamics365/finance/toc.json
+                    - name: Tipo konvertavimas
+                      items:
+                        - name: Tipo konvertavimo funkcijos
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-type-conversion.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tipas: Int64Value'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-int64value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tipas: IntValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tipas: NumberValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tipas: reikšmė'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Data ir laikas: DateTimeValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Data ir laikas: DateToDateTime'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetodatetime.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Data ir laikas: DateValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datevalue.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Sąrašas: sąrašas'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Sąrašas: ListOfFields'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listoffields.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Sąrašas: skaidyti'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Sąrašas: StringJoin'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tekstas: Char'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-char.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tekstas: GuidValue'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-guidvalue.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tekstas: NumberFormat'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tekstas: QrCode'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Tekstas: tekstas'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
+            - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+            - name: 'Duomenų modelio aprašo pasirinkimas, kuriant formatus'
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
+            - name: 'Išplėstinės filtravimo parinktys, ieškant konfigūracijų visuotinėje saugykloje'
+              href: ../finance/localizations/enhanced-filtering-global-repo.md
+            - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
+              href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
+            - name: (ER) Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
+              href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
+            - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
+              items:
+                - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                - name: Konfigūracijų kūrimas pildymui PDF šablonuose
+                  href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
+            - name: Vaizdų ir figūrų įdėjimas
+              items:
+                - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                - name: Įdedamų vaizdų ir figūrų pavyzdys
+                  items:
+                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+            - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
+              href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
+            - name: ER sprendimo kūrimas norint naudoti finansines dimensijas
+              items:
+                - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
+                - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
+                - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
+                - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
+            - name: ER formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus naudojant sugeneruotos išvesties informaciją
+              items:
+                - name: Formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
+                - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
+                - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
+                - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
+            - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
+              items:
+                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+            - name: Dokumentų valdymo failų naudojimas formato išvestyse
+              items:
+                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, ruošimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
+                - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, išplėtimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
+                - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, modifikavimas ir taikymas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
+            - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
+              items:
+                - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
+                  href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
+                - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, importavimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/finance/toc.json
+                - name: Dokumentų generavimo naudojant prašymų duomenis modelių modifikavimas ir susiejimai
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/finance/toc.json
+                - name: Dokumentų generavimo naudojant prašymų duomenis formatų modifikavimas
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/finance/toc.json
+                - name: 'Dokumentų, kuriuose yra prašymų duomenų, generavimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/finance/toc.json
+            - name: Duomenų importavimas iš gaunamų failų naudojant ER sprendimus
+              items:
+                - name: Gaunamų dokumentų analizė skirtingais formatais
+                  href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/finance/toc.json
+                - name: Duomenų importavimo iš rankiniu būdu pasirinktų failų konfigūravimas
+                  items:
+                    - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
+                - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
+                - name: Failų importavimas XML formatu
+                  items:
+                    - name: Failų importavimas XML formatu su pasirinktiniais atributais
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
+                    - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+            - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
+              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+            - name: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
+              href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
+            - name: Konfigūracijos ciklas
+              items:
+                - name: Konfigūracijų ciklo valdymas
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
+                - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                - name: Konfigūracijų importavimas iš „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
+                - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
+                  href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
+                - name: Konfigūracijų importavimas
+                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: 'Išplėstinės filtravimo parinktys, ieškant konfigūracijų visuotinėje saugykloje'
-                  href: ../finance/localizations/enhanced-filtering-global-repo.md
-                - name: 'Ataskaitų, įtraukiant turinį kaip neapdorotą XML, generavimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) Visos įmonės duomenų šaltiniai elektroninėse ataskaitose
-                  href: ../fin-ops-core/dev-itpro/analytics/er-cross-company-data-sources.md?toc=/dynamics365/finance/toc.json
-                - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
+                  href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                - name: ER konfigūracijų atsisiuntimas iš RCS saugyklos
                   items:
-                    - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfigūracijų kūrimas pildymui PDF šablonuose
-                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-                - name: Vaizdų ir figūrų įdėjimas
-                  items:
-                    - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                    - name: Įdedamų vaizdų ir figūrų pavyzdys
-                      items:
-                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-                - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
-                  href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
-                - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-                - name: ER sprendimo kūrimas norint naudoti finansines dimensijas
-                  items:
-                    - name: 'Duomenų modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Modelių, pagal kuriuos finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, susiejimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Ataskaitų, pagal kurias finansinės dimensijos būtų naudojamos kaip duomenų šaltiniai, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Ataskaitų, kurios finansines dimensijas naudoja kaip duomenų šaltinius, taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/dynamics365/finance/toc.json
-                - name: ER formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus naudojant sugeneruotos išvesties informaciją
-                  items:
-                    - name: Formatų kūrimas norint atlikti skaičiavimo ir sumavimo veiksmus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/dynamics365/finance/toc.json
-                    - name: Formato konfigūravimas norint atlikti skaičiavimo ir sumavimo veiksmus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/dynamics365/finance/toc.json
-                    - name: Skaičiavimų naudojimas skaičiavimo ir sumavimo veiksmų išvestims generuoti
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/dynamics365/finance/toc.json
-                    - name: Formatų taikymas norint atlikti skaičiavimo ir sumavimo veiksmus
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/dynamics365/finance/toc.json
-                - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
-                  items:
-                    - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
-                - name: Dokumentų valdymo failų naudojimas formato išvestyse
-                  items:
-                    - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, ruošimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Duomenų modelių, skirtų dokumentų valdymo failams naudoti ER išvestyse, išplėtimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Formatų, skirtų dokumentų valdymo failams naudoti ER išvestyse, modifikavimas ir taikymas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
-                - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
-                  items:
-                    - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
-                      href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, importavimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Konfigūracijų, skirtų dokumentams generuoti naudojant prašymų duomenis, kūrimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/dynamics365/finance/toc.json
-                    - name: Dokumentų generavimo naudojant prašymų duomenis modelių modifikavimas ir susiejimai
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/dynamics365/finance/toc.json
-                    - name: Dokumentų generavimo naudojant prašymų duomenis formatų modifikavimas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/dynamics365/finance/toc.json
-                    - name: 'Dokumentų, kuriuose yra prašymų duomenų, generavimas'
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/dynamics365/finance/toc.json
-                - name: Duomenų importavimas iš gaunamų failų naudojant ER sprendimus
-                  items:
-                    - name: Gaunamų dokumentų analizė skirtingais formatais
-                      href: ../fin-ops-core/dev-itpro/analytics/er-parse-incoming-documents.md?toc=/dynamics365/finance/toc.json
-                    - name: Duomenų importavimo iš rankiniu būdu pasirinktų failų konfigūravimas
-                      items:
-                        - name: Konfigūracijų kūrimas norint importuoti duomenis iš išorinio XML failo
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/dynamics365/finance/toc.json
-                    - name: Duomenų importavimo paketiniu režimu iš „SharePoint“ esančių failų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/dynamics365/finance/toc.json
-                    - name: Failų importavimas XML formatu
-                      items:
-                        - name: Failų importavimas XML formatu su pasirinktiniais atributais
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
-                        - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-                - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
-                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
-                - name: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
-                  href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/finance/toc.json
-                - name: Konfigūracijos ciklas
-                  items:
-                    - name: Konfigūracijų ciklo valdymas
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfigūracijų nusiuntimas į „Lifecycle Services“
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfigūracijų importavimas iš „Lifecycle Services“
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfigūracijų atsisiuntimas iš „Lifecycle Services“
-                      href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Konfigūracijų importavimas
-                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: ER konfigūracijų atsisiuntimas iš RCS saugyklos
-                      items:
-                        - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Konfigūracijų importavimas iš RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
-                - name: Mokymo programos
-                  items:
-                    - name: JOIN duomenų šaltinių naudojimas norint gauti duomenis iš kelių programos lentelių
-                      href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
-                    - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
-                    - name: 'ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai'
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
-                    - name: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
-                    - name: ER formato elementų vykdymo atidėjimas
-                      items:
-                        - name: Sekos elemento vykdymo atidėjimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                        - name: XML elemento vykdymo atidėjimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
-                - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
-                  items:
-                    - name: Sistemos konfigūravimas
-                      items:
-                        - name: Elektroninių ataskaitų sistemos konfigūravimas
-                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
-                        - name: Kurti atsargines ER šablonų kopijas ir atkurti
-                          href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
-                        - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: Paskirties vietos
-                      items:
-                        - name: Paskirties vietų apžvalga
-                          href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
-                        - name: Paskirties vietų tipai
-                          items:
-                            - name: Archyvo paskirties vieta
-                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
-                            - name: El. pašto paskirties vieta
-                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
-                            - name: Failo paskirties vieta
-                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
-                            - name: „Power BI“ paskirties vieta
-                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
-                            - name: Spausdintuvo paskirties vieta
-                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
-                            - name: Ekrano paskirties vieta
-                              href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
-                        - name: Paskirties vietų konfigūravimas
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
-                    - name: Nuorodos į ER formatą nustatymas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
-                      items:
-                        - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
-                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                        - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
-                          href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                        - name: Bandymų automatizavimas naudojant elektronines ataskaitas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                    - name: Verslo procesų automatizavimas naudojant elektroninių ataskaitų konfigūracijas
-                      items:
-                        - name: Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI“
-                          href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
-                        - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
-                          href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                    - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
-                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                    - name: Verslo dokumentų valdymas
-                      items:
-                        - name: Verslo dokumentų valdymo apžvalga
-                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                        - name: Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme
-                          href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
-                        - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
-                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
-                - name: ER sistemos API
-                  items:
-                    - name: Elektroninių ataskaitų funkcijų sąrašo išplėtimas
-                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: „Application Update 7.3“ elektroninės ataskaitų sistemos API pakeitimai
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
-                    - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
-                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
-            - name: Įdėtieji analizės sprendimai
+                    - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
+                      href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                    - name: Konfigūracijų importavimas iš RCS
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: Mokymo programos
               items:
-                - name: Įdėtoji „Power BI“ darbo srityse
-                  href: ../fin-ops-core/dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/finance/toc.json
-                - name: „Power BI Embedded“ integravimas
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-embedded-integration.md?toc=/dynamics365/finance/toc.json
-                - name: Į analizės darbo sritis įdėtųjų ataskaitų tinkinimas
-                  href: ../fin-ops-core/dev-itpro/analytics/customize-analytical-workspace.md?toc=/dynamics365/finance/toc.json
-            - name: Personalizavimo parinktys naudojantis PowerBI.com
+                - name: JOIN duomenų šaltinių naudojimas norint gauti duomenis iš kelių programos lentelių
+                  href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md
+                - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md
+                - name: 'ER formatų konfigūravimas, kurį atlikus naudojami juridiniam subjektui nurodyti parametrai'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md
+                - name: ER formato parametrų nustatymas kiekvienam juridiniam subjektui
+                  href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md
+                - name: ER formato elementų vykdymo atidėjimas
+                  items:
+                    - name: Sekos elemento vykdymo atidėjimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
+                    - name: XML elemento vykdymo atidėjimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
+            - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
               items:
-                - name: Galimos funkcijos ir paslaugos naudojant „Power BI“ integravimą
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
-                - name: „Power BI“ ataskaitų prisegimas prie darbo sričių
-                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
-                - name: Analizės darbo srities pasirinkimas iš PowerBI.com
-                  href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/finance/toc.json
-            - name: Sprendimų kūrimo ir plėtimo įrankiai
+                - name: Sistemos konfigūravimas
+                  items:
+                    - name: Elektroninių ataskaitų sistemos konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/dynamics365/finance/toc.json
+                    - name: Kurti atsargines ER šablonų kopijas ir atkurti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-backup-storage-templates.md?toc=/dynamics365/finance/toc.json
+                    - name: 'Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius'
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/dynamics365/finance/toc.json
+                - name: Paskirties vietos
+                  items:
+                    - name: Paskirties vietų apžvalga
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Paskirties vietų tipai
+                      items:
+                        - name: Archyvo paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                        - name: El. pašto paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                        - name: Failo paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                        - name: „Power BI“ paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                        - name: Spausdintuvo paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                        - name: Ekrano paskirties vieta
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                    - name: Paskirties vietų konfigūravimas
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                - name: Nuorodos į ER formatą nustatymas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
+                - name: Automatiškas sugeneruotų ataskaitų tvirtinimas
+                  items:
+                    - name: Sugeneruotų ataskaitų rezultatų sekimas ir jų palyginimas su bazinėmis vertėmis
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
+                    - name: Sugeneruotų ER ataskaitų rezultatų sekimo ir palyginimo su bazinėmis vertėmis patobulinimai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
+                    - name: Bandymų automatizavimas naudojant elektronines ataskaitas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
+                - name: Verslo procesų automatizavimas naudojant elektroninių ataskaitų konfigūracijas
+                  items:
+                    - name: Elektroninių ataskaitų konfigūravimas duomenims perkelti į „Power BI“
+                      href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
+                    - name: Spausdintinų laisvos formos sąskaitų faktūrų (FTI) formų generavimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
+                - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
+                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: Verslo dokumentų valdymas
+                  items:
+                    - name: Verslo dokumentų valdymo apžvalga
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
+                    - name: Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
+                    - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+            - name: ER sistemos API
               items:
-                - name: 'Analizė, agreguoti matavimo vienetai ir KPI modeliavimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/analytics.md?toc=/dynamics365/finance/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
-                  href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
-                - name: Modelių agreguoti duomenys
-                  href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
-                - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
-                  href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
-                  href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
-                - name: Padėkite apsaugoti analizės darbo sritis ir ataskaitas naudodami „Power BI Embedded“
-                  href: ../fin-ops-core/dev-itpro/analytics/secure-analytical-workspaces.md?toc=/dynamics365/finance/toc.json
-            - name: Patyrusiems vartotojams skirti valdymo įrankiai
-              items:
-                - name: „Power BI“ integravimas su objektų saugykla
-                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/finance/toc.json
-                - name: Problemų sprendimas po objektų saugyklos tvarkymo
-                  href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: „Power BI“ integravimo darbo srityse konfigūravimas
-                  href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/finance/toc.json
-                - name: Savo duomenų bazės naudojimas
-                  href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/finance/toc.json
+                - name: Įtaisytųjų funkcijų sąrašo išplėtimas
+                  href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
+                - name: „Application update 10.0.11“ API pakeitimai
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                - name: „Application update 7.3“ API pakeitimai
+                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
         - name: Mobilioji programa
           items:
             - name: Mobiliosios programos pagrindinis puslapis
