@@ -3,7 +3,7 @@ title: Tarifo pakeitimų apdorojimas
 description: Išmokų tarifo pakeitimų apdorojimas programoje „Microsoft Dynamics 365 Human Resources“, kai pasikeičia naujo ar esamo išmokų plano tinkamumo taisyklių parametrai.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9ebe5cfc2bdf7790770d27ece2dc67f7677db593
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 850709480326f6a0871f19ea1bb287631cd58b42
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009897"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229949"
 ---
 # <a name="process-rate-changes"></a>Tarifo pakeitimų apdorojimas
-
-[!include [banner](includes/preview-feature.md)]
 
 Išmokų tarifo pakeitimų apdorojimas programoje „Microsoft Dynamics 365 Human Resources“, kai pasikeičia naujo ar esamo išmokų plano tinkamumo taisyklių parametrai. Jei sukuriama nauja tinkamumo taisyklė ir priskiriama planui, sistema iš naujo patikrina darbuotojo tinkamumą ir nustato, ar pagal naujas tinkamumo parinktis jis turi teisę gauti šį planą. 
 
@@ -37,7 +35,7 @@ Išmokų tarifo pakeitimų apdorojimas programoje „Microsoft Dynamics 365 Huma
 
    | Laukas | Aprašymas |
    | --- | --- |
-   | Registracijos laikotarpis | Išmokų pakeitimų apdorojimo registracijos laikotarpis. |
+   | **Registracijos laikotarpis** | Išmokų pakeitimų apdorojimo registracijos laikotarpis. |
 
 3. Jei norite vykdyti procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
 

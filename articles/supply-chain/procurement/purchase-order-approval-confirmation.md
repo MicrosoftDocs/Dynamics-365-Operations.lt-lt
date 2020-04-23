@@ -1,30 +1,30 @@
 ---
 title: Pirkimo užsakymų tvirtinimas
-description: Šioje temoje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui (PU), paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą.
-author: FrankDahl
-manager: AnnBe
-ms.date: 06/20/2017
+description: Šioje temoje aprašomos būsenos, kurios taikomos sukurtam pirkimo užsakymui, paaiškinama, kas nutinka suaktyvinus PU keitimų valdymą.
+author: mkirknel
+manager: tfehr
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: fdahl
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d0fc75f233ee2eab42317f835834ff24b6ada2f
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 6b331b7e7725b3dd284deb02e59fcf2d699822c4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2813436"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207999"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Pirkimo užsakymų tvirtinimas
 
@@ -69,9 +69,10 @@ Kai kuriais atvejais gali reikėti PU pakeisti po to, kai jo būsena buvo nustat
 
 Jei PU buvo sukurtas vykdant pakeitimų valdymo procesą, keitimus galite atlikti užsakymą atšaukdami arba, jei užsakymas jau buvo patvirtintas, naudodami veiksmą **Reikalauti keitimo**. Tokiu atveju patvirtinimo būsena vėl pakeičiama į **Juodraštis** ir tada užsakymą tada galite keisti. Atlikus keitimus, PU gali reikėti pateikti pakartotinai patvirtinti. Pakeitimų, kuriuos atlikus užsakymą reikia pakartotinai patvirtinti, tipus galite naudodami puslapio **Pirkimo užsakymų pakartotinio patvirtinimo taisyklė** veiksmą **Pirkimo strategijos**.
 
-Jei pristatyta užsakyto PO eilutės kiekio dalis, užsakyto kiekio keisti negalima. Tačiau eilutėje galite keisti kiekį **Pristatymo likutis**. Tada galite naudoti veiksmą **Baigti**, norėdami atšaukti eilutės ir neleisti toliau apdoroti 
+Jei pristatyta užsakyto PO eilutės kiekio dalis, užsakyto kiekio keisti negalima, kai pirkimo užsakymo būsena yra **Juodraštis**. Tačiau pirkimo užsakymo, kurio būsena yra **Juodraštis**, eilutėje galite keisti kiekį **Pristatymo likutis**.
 
-Patvirtinus užsakymą jo panaikinti nebegalima. Tačiau užsakyme galite atšaukti visą kiekį ar bet kokį likusį kiekį, jei kiekis nebuvo gautas arba neišrašyta jo SF.
+Patvirtinus užsakymą jo panaikinti nebegalima. Tačiau užsakyme galite atšaukti visą kiekį ar bet kokį likusį kiekį, jei kiekis nebuvo gautas arba neišrašyta jo SF. Tada galite naudoti veiksmą **Baigti**, norėdami neleisti toliau apdoroti. 
+
 
 ## <a name="canceling-purchase-orders"></a>Pirkimo užsakymų atšaukimas
 

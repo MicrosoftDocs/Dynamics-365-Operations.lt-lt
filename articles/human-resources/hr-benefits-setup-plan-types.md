@@ -3,7 +3,7 @@ title: Planų tipų kūrimas
 description: Plano tipas programoje „Microsoft Dynamics 365 Human Resources“ yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8d9bb490326c6dbfafa0f186cd05185ac01bad30
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 06a36f9f3fef54e7e06d616c9179374db4ce7115
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092375"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229699"
 ---
 # <a name="create-plan-types"></a>Planų tipų kūrimas
-
-[!include [banner](includes/preview-feature.md)]
 
 Plano tipas programoje „Microsoft Dynamics 365 Human Resources“ yra konkrečių išmokų tipų aukščiausio lygio grupavimas. Kiekvienam plano tipui taikomas plano tipo kodas, kuriuo nustatomos plano tipo taisykles. Pavyzdžiui, plano tipui „Basic Life“ bus priskiriamas plano tipo kodas „Life“, nes tai yra gyvybės draudimo plano rūšis ir turi atitikti taisykles, nustatytas plano „Life“ tipo kodui. Kitas plano tipas galėtų būti „Supplemental Life“, kuriam taip pat bus taikomas plano tipo kodas „Life“.
 
@@ -45,23 +43,23 @@ Plano tipas gali nurodyti padengimo pasirinktis. Padengimo parinktys nustatytos 
 
    | Laukas | Aprašymas |
    | --- | --- |
-   | Plano tipas | Unikalus pavadinimas, nurodantis plano tipą. |
-   | Aprašymas | Plano tipo aprašas. |
-   | Plano tipo kodas | Iš išplečiamojo sąrašo reikšmių pasirinkite plano tipo kodą. Plano tipo kodų sąraše išvardijami visi plano tipai, palaikomi dabartinėje versijoje. |
-   | Registravimas tuo pačiu metu | Nurodo, ar darbuotojas gali registruoti keliems to paties plano tipo išmokų planams, ar tik vienam plano tipo išmokų planui. |
-   | Kontakto tipas | Nurodo asmeninio kontakto vaidmenį. Vertės yra tokios: tuščia, priklausomasis ir gavėjas. Galite palikti tuščią kontakto tipo lauką, jei plano tipo nereikalaujama įtraukti priklausomąjį ar gavėją, atsižvelgiant į padengimo parinktį. |
+   | **Plano tipas** | Unikalus pavadinimas, nurodantis plano tipą. |
+   | **Aprašas** | Plano tipo aprašas. |
+   | **Plano tipo kodas** | Iš išplečiamojo sąrašo reikšmių pasirinkite plano tipo kodą. Plano tipo kodų sąraše išvardijami visi plano tipai, palaikomi dabartinėje versijoje. |
+   | **Registravimas tuo pačiu metu** | Nurodo, ar darbuotojas gali registruoti keliems to paties plano tipo išmokų planams, ar tik vienam plano tipo išmokų planui. |
+   | **Kontakto tipas** | Nurodo asmeninio kontakto vaidmenį. Vertės yra tokios: tuščia, priklausomasis ir gavėjas. Galite palikti tuščią **kontakto tipo** lauką, jei plano tipo nereikalaujama įtraukti priklausomąjį ar gavėją, atsižvelgiant į padengimo parinktį. |
 
 4. Norėdami konfigūruoti gyvybės įvykio parinktis, pasirinkite **Veiksmai**, tada pasirinkite **Gyvenimo įvykio parinktys**. Nurodyti šių laukų vertes:
 
    | Laukas | Aprašymas |
    | --- | --- |
-   | Plano tipas | Plano tipas, dėl kurio konfigūruojamos gyvenimo įvykio parinktys. |
-   | Gyvenimo įvykio tipo ID | Gyvenimo įvykio tipo ID. |
-   | Leisti atšaukti | Nurodo, ar darbuotojas gali atšaukti išmokų planą gyvenimo įvykio metu. |
-   |Keisti padengimo parinktį | Nurodo, ar darbuotojas gali keisti padengimo parinktis gyvenimo įvykio metu. |
-   | Keisti į naują planą | Nurodo, ar darbuotojas gali keisti planus gyvenimo įvykio metu. |
-   | Planą atšaukti automatiškai |Nurodo, ar planas automatiškai atšaukiamas gyvenimo įvykio metu. |
-   | Automatiškai pakartotinai atidaryti tinkamumo patikrą | Nurodo, ar gyvenimo įvykio metu automatiškai pakartotinai atidaryti registracijos išmokoms gauti tinkamumo patikrą. |
-   | Ataskaitų teikimo langas | Nurodo gyvenimo įvykio ataskaitų teikimo langą dienomis. **Pastaba**. Jei neįvesite reikšmės, sistema laikys, kad ataskaitų lango reikšmė yra nulis ir gyvenimo įvykio neapdoros. |
+   | **Plano tipas** | Plano tipas, dėl kurio konfigūruojamos gyvenimo įvykio parinktys. |
+   | **Gyvenimo įvykio tipo ID** | Gyvenimo įvykio tipo ID. |
+   | **Leisti atšaukti** | Nurodo, ar darbuotojas gali atšaukti išmokų planą gyvenimo įvykio metu. |
+   | **Keisti padengimo parinktį** | Nurodo, ar darbuotojas gali keisti padengimo parinktis gyvenimo įvykio metu. |
+   | **Keisti į naują planą** | Nurodo, ar darbuotojas gali keisti planus gyvenimo įvykio metu. |
+   | **Planą atšaukti automatiškai** | Nurodo, ar planas automatiškai atšaukiamas gyvenimo įvykio metu. |
+   | **Automatiškai pakartotinai atidaryti tinkamumo patikrą** | Nurodo, ar gyvenimo įvykio metu automatiškai pakartotinai atidaryti registracijos išmokoms gauti tinkamumo patikrą. |
+   | **Ataskaitų teikimo langas** | Nurodo gyvenimo įvykio ataskaitų teikimo langą dienomis. **Pastaba**. Jei neįvesite reikšmės, sistema laikys, kad ataskaitų lango reikšmė yra nulis ir gyvenimo įvykio neapdoros. |
 
 5. Pasirinkite **Įrašyti**. 

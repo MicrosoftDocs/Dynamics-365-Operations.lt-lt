@@ -1,9 +1,9 @@
 ---
 title: Išmokų valdymo apžvalga
-description: Išmokų valdymo peržiūros funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
+description: Išmokų valdymo funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 63db1b55bae9150dd87d9981136b96d72ffd0c59
-ms.sourcegitcommit: 523049c363a999050c58d20695f1c7d151b3fd3e
+ms.openlocfilehash: 91a4425b4f020f90843bb3b0b280b7ee28463670
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029468"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230159"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
 
-[!include [banner](includes/preview-feature.md)]
-
-Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, kad pritrauktumėte ir išlaikytumėte savo geriausius darbuotojus. Be įprastų privalumų, pvz., sveikatos ir dantų priežiūros draudimo, taip pat galite siūlyti išplėstines paslaugas, pvz., įvaikinimo pagalbą, poilsio programas ir išmokas drabužiams. Išmokų valdymo peržiūros funkcija programoje „Microsoft Dynamics 365 Human Resources“ – dinamiškas sprendimas, palaikantis daugybę išmokų parinkčių. „Human Resources“ taip pat apima lengvai naudojamas darbuotojų funkcijas, kuriomis demonstruojami jūsų pasiūlymai.
+Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, kad pritrauktumėte ir išlaikytumėte savo geriausius darbuotojus. Be įprastų privalumų, pvz., sveikatos ir dantų priežiūros draudimo, taip pat galite siūlyti išplėstines paslaugas, pvz., įvaikinimo pagalbą, poilsio programas ir išmokas drabužiams. Išmokų valdymas programoje „Microsoft Dynamics 365 Human Resources“ – dinamiškas sprendimas, palaikantis daugybę išmokų parinkčių. „Human Resources“ taip pat apima lengvai naudojamas darbuotojų funkcijas, kuriomis demonstruojami jūsų pasiūlymai.
 
 - Išplėstiniai išmokų planai leidžia kurti ir valdyti unikalius išmokų planus ir palaikymo sudėtinių išmokų tarifų lenteles ir įdėtąsias pakopas. Galite lengvai sukurti išmokų programas, paketus ir automatinės registracijos taisykles, kad palengvintumėte darbuotojo patirtį.
 
@@ -39,30 +37,30 @@ Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, ka
 
 - Internetine išmokų registracija suteikiama puiki jūsų darbuotojų patirtis.
 
-- Tinkamo gyvenimo įvykio apdorojimas integruojamas su darbuotojo savitarnos paslauga, taip pat palaiko būsimus gyvenimo įvykius.
+- Tinkamo gyvenimo įvykio apdorojimas palaiko būsimus gyvenimo įvykius.
 
 Jei norite gauti prieigą prie demonstracinių duomenų, turite iš naujo įdiegti savo smėlio dėžės aplinką.
 
-Galite pateikti tiesioginį grįžtamąjį ryšį arba pranešti apie problemas šiuo adresu: D365BenefitsPreview@microsoft.com.
-
 ## <a name="benefits-management-known-issues"></a>Išmokų valdymo žinomos problemos
 
-### <a name="eligibility-processing"></a>Tinkamumo apdorojimas
+### <a name="flex-credit-programs"></a>Lanksčiųjų kreditų programos
 
-Paleidus tinkamumą gauti išmokas, kuriam naudojami penktadalis atlyginimo,procentinė atlyginimo dalis ir standartinė draudimo suma, turite nustatyti datą **Išmokų išsami informacija** kaip **Darbuotojo darbo pradžios data**, esančią **Įdarbinimo retrospektyva**. Taip pat turite nurodyti **Išdirbtos valandos**, **Mokėjimo dažnis** ir **Metinių išmokų atlyginimo suma**. Jei darbuotojui priskirta pastovioji atlyginimo dalis, įveskite **Išdirbtos valandos** ir **Mokėjimo dažnis**. Apskaičiuojamas metinio atlyginimo sumos dydis. Jei darbuotojas gauna fiksuotą atlyginimą, jums nereikia įvesti **Išdirbtos valandos**. Rekomenduojame, kad kurdami naujus darbininkus, pirmiausia įvestumėte pastoviąją atlyginimo dalį. Norėdami atnaujinti išmokų išsamios informacijos įrašą, eikite į **Darbininkas > Darbininko retrospektyva > Įdarbinimo išsami informaciją**. Darbininko pradžios datai koreguokite datą.
-
-### <a name="employee-self-service"></a>Darbuotojų savitarna
-
-Darbuotojo suma neapskaičiuojama atnaujinant gyvybės draudimo sumą. Pavyzdžiui, kai darbuotojui siūlomas gyvybės draudimo planas, jis gali pasirinkti iki 50 000 $ draudimo sumos, kai mokama 0,36 $ už draudimo sumos 1 000 $.  Kai darbuotojas atnaujina draudimo sumą, su darbuotoju susijusios išlaidos išlieka lygios nuliui.
-
-Pasirinkdamas išmokų planą, kuriam leidžiama pasirinkti tik vieną to plano tipą, vartotojas gaus klaidos pranešimą, jei mėgins atsisakyti plano jau jį pasirinkęs. Pavyzdžiui, vartotojas pasirenka gydymo planą ir perkelia jį į krepšelį. Tada vartotojas pasirenka **Atsisakyti** kitam gydymo planui. Vartotojas gaus klaidos pranešimą.
+Bendra kreditų vertė, nustatyta lanksčiųjų kreditų programai, nėra rodoma formoje **Darbininkų išmokų planai**. Be to, jei lanksčiųjų kreditų programoje esančią proporcingumo taisyklę nustatysite į **Nėra**, formoje **Darbininkų išmokų planai** pasirenkant ir patvirtinant planus gali kilti klaida.
 
 ## <a name="enable-benefits-management"></a>Išmokų valdymo įjungimas
 
-Išmokų valdymas yra peržiūros funkcija ir ji pasiekiama tik **smėlio dėžės** aplinkose. Šiuose straipsniuose aprašoma, kaip įjungti „Human Resources“ peržiūros funkcijas. Juose taip pat nurodoma, kurios esamos „Human Resources“ funkcijos išmokų valdyme pakeičiamos arba kurios yra išjungiamos, kai įjungiate išmokų valdymą.
+Šiame straipsnyje aprašoma, kaip įjungti „Human Resources“ funkcijas. Jame taip pat nurodoma, kurios esamos „Human Resources“ funkcijos išmokų valdyme pakeičiamos arba kurios yra išjungiamos, kai įjungiate išmokų valdymą.
+
+> [!IMPORTANT]
+> Po to, kai **gamybos** aplinkoje įgalinate išmokų valdymą, jo išjungti negalima. Rekomenduojame įjungti ir testuoti išmokų valdymą **smėlio dėžės** aplinkoje prieš įjungiant jį **gamybos** aplinkoje. Yra reikšmingų skirtumų tarp pasenusių išmokų funkcijų ir naujų išmokų valdymo funkcijų – joms reikalingi papildomi nustatymai ir tikrinimai prieš įtraukiant į gamybos procesą.
 
 - [Funkcijų valdymas](hr-admin-manage-features.md)
-- [Peržiūros funkcija: išmokų valdymas](hr-admin-manage-features.md?preview-feature-benefits-management)
+
+## <a name="configure-employee-information"></a>Darbuotojų informacijos konfigūravimas
+
+Kad užregistruotumėte darbuotojus išmokoms gauti, turite pateikti reikiamą informaciją. Turite užregistruoti darbuotoją į **pastoviosios atlyginimo dalies planą** jų darbo pradžios dieną ir pasirinkti **išmokų mokėjimo dažnumą** dalies **Įdarbinimo informacija** formoje **Darbininkas**.
+
+Kai kuriate išmokų planą, naudojantį tarifus, pagrįstus lytimi arba amžiumi, turite įvesti darbuotojo gimimo datą ir lytį, kad būtų apskaičiuota išmokų savikaina.
 
 ## <a name="configure-benefits-management"></a>Išmokų valdymo konfigūravimas
 
@@ -70,13 +68,13 @@ Kad galėtumėte kurti savo darbuotojų išmokų planus, reikia konfigūruoti pl
 
 - [Išmokų valdymo parametrų nustatymas](hr-benefits-setup-parameters.md)
 - [Tinkamumo taisyklių ir parinkčių konfigūravimas](hr-benefits-setup-eligibility-rules.md)
-- [Asmeninių kontaktų tinkamumo parinkčių konfigūravimas](hr-benefits-setup-contact-eligibility-options.md)
-- [Draudimo parinkčių kūrimas](hr-benefits-setup-coverage-options.md)
-- [Mokėjimo dažnio nustatymas](hr-benefits-setup-payment-frequencies.md)
+- [Asmeninio kontakto tinkamumo parinkčių konfigūravimas](hr-benefits-setup-contact-eligibility-options.md)
+- [Padengimo parinkčių kūrimas](hr-benefits-setup-coverage-options.md)
+- [Mokėjimo dažnumo nustatymas](hr-benefits-setup-payment-frequencies.md)
 - [Gyvenimo įvykių tipų konfigūravimas](hr-benefits-setup-life-event-types.md)
 - [Planų tipų kūrimas](hr-benefits-setup-plan-types.md)
-- [Nustatyti priežasčių kodus](hr-benefits-setup-reason-codes.md)
-- [Pakopų kodų nustatymas](hr-benefits-setup-tier-codes.md)
+- [Priežasčių kodų nustatymas](hr-benefits-setup-reason-codes.md)
+- [Pakopos kodų nustatymas](hr-benefits-setup-tier-codes.md)
 - [Tarifų konfigūravimas](hr-benefits-setup-rates.md)
 - [Atskaitymų konfigūravimas](hr-benefits-setup-deductions.md)
 - [Laukimo dienų konfigūravimas](hr-benefits-setup-waiting-days.md)
@@ -90,12 +88,10 @@ Kad galėtumėte kurti savo darbuotojų išmokų planus, reikia konfigūruoti pl
 
 Šiuose straipsniuose nurodoma, kaip sukurti išmokų planus, įskaitant grupių ir lanksčiųjų kreditų programas.
 
-- [Išmokų planų sąranka](hr-benefits-plans-setup.md)
-- [Darbininko išmokų planų kūrimas](hr-benefits-plans-worker.md)
-- [Lanksčiųjų kreditų programų nustatymas](hr-benefits-plans-flex-credit-programs.md)
-- [Būsimų gyvenimo įvykių konfigūravimas](hr-benefits-plans-future-life-events.md)
+- [Išmokų planų nustatymas](hr-benefits-plans-setup.md)
+- [Lanksčių kredito programų nustatymas](hr-benefits-plans-flex-credit-programs.md)
 
-## <a name="process-benefit-plans"></a>Išmokos planų apdorojimas
+## <a name="process-benefit-plans"></a>Išmokų planų apdorojimas
 
 Turite apdoroti kai kuriuos keitimus, kad jie būtų aktyvūs.
 

@@ -3,7 +3,7 @@ title: ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
 description: Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ (ADLS) „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c037f5603af5af84917084eefa1edd508891c0d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154441"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259753"
 ---
 # <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
 
@@ -48,7 +48,8 @@ Daugiau informacijos apie ADLS ieškokite [Oficialioje ADLS dokumentacijoje](htt
   
 ## <a name="configuration-steps"></a>Konfigūravimo veiksmai
 
-Šiame skyriuje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti, norint įgalinti ADLS aplinkoje.
+Šiame skyriuje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti, norint įgalinti ADLS aplinkoje, susijusioje su produktų rekomendacijomis.
+Išsamesnės informacijos apie veiksmus, reikalingus įgalinti ADLS, žr. [Leidimas objektų saugyklą naudoti kaip „Data Lake“](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
 ### <a name="enable-adls-in-the-environment"></a>ADLS įgalinimas aplinkoje
 
@@ -91,6 +92,8 @@ Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomenda
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
+[Leidimas objektų saugyklą naudoti kaip „Data Lake“](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
@@ -110,5 +113,3 @@ Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomenda
 [Rekomendacijų su demonstraciniais duomenimis kūrimas](product-recommendations-demo-data.md)
 
 [DUK apie produktų rekomendacijas](faq-recommendations.md)
-
-

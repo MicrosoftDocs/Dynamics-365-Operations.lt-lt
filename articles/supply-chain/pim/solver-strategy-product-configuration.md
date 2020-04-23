@@ -2,7 +2,7 @@
 title: Sprendimo priemonės strategija produktams konfigūruoti
 description: Šioje temoje aprašoma, kaip, naudodami sprendimo priemonės strategiją, galite pagerinti produktų konfigūravimo našumą.
 author: cvocph
-manager: AnnBe
+manager: tfehr
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 241e1ae9bfd347695d7a2dbb7b3e71a7d49c2b93
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5ec7e81c3a0135b075ecb88ab5fc9e7c8b30588a
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814541"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3209357"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Sprendimo priemonės strategija produktams konfigūruoti
 
@@ -43,7 +43,7 @@ Sprendimo priemonės strategijos koncepciją dabar sudaro tolesnės strategijos.
 
 ## <a name="solver-strategy"></a>Sprendimo priemonės strategija 
 
-Produkto konfigūracijos modelį galima suformuluota kaip [apribojimų patenkinimo problemą (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). Spręsti CSP problemoms „Microsoft Solver Foundation“ (MSF) teikia dviejų tipų sprendimo priemonės strategijas, kurias galima naudoti produktų konfigūracijos modeliuose. Šios sprendimo priemonės strategijos remiasi [euristika](https://techterms.com/definition/heuristic), kurią naudojant, nustatoma, kokia tvarka svarstomi CSP kintamieji sprendžiant problemą. Euristika gali pastebimai paveikti našumą, kai sprendžiama problema ar problemų klasė.
+Produkto konfigūracijos modelį galima suformuluota kaip [apribojimų patenkinimo problemą (CSP)](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf). „Microsoft Solver Foundation” (MSF) debesies sprendimų teikėjų problemoms spręsti teikia dviejų tipų sprendimo priemonių strategijas, kurias galima naudoti produktų konfigūracijos modeliuose. Šios sprendimo priemonės strategijos remiasi [euristika](https://techterms.com/definition/heuristic), kurią naudojant, nustatoma, kokia tvarka svarstomi CSP kintamieji sprendžiant problemą. Euristika gali pastebimai paveikti našumą, kai sprendžiama problema ar problemų klasė.
 
 Produktų konfigūracijos modelių sprendimo priemonės strategija nustato, kuri sprendimo priemonė naudojama su euristika. Strategijos **Numatytoji**, **Pirmiausia mažiausi domenai** ir **Iš viršaus į apačią** naudoja dvi MSF sprendimo priemones, o strategija **Z3** naudoja sprendimo priemonę Z3. 
 
