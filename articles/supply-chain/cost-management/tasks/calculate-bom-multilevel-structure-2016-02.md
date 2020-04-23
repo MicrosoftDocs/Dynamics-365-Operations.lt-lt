@@ -2,7 +2,7 @@
 title: Apskaičiuoti KS naudojant kelių lygių struktūrą (2016 m. vasario mėn.)
 description: Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant kelių lygių išskleidimą, paremtą įkainojimo lapu.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,42 +10,42 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7c35d2b2d5c0fdd14c7e0a35316d482b2e3ffb49
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: f4f3e20d483e2184366c4ee6eb179e12d2e2492e
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150470"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214368"
 ---
-# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a><span data-ttu-id="31ac3-103">Apskaičiuoti KS naudojant kelių lygių struktūrą (2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="31ac3-103">Calculate a BOM by using a multilevel structure (February 2016)</span></span>
+# <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a><span data-ttu-id="bf212-103">Apskaičiuoti KS naudojant kelių lygių struktūrą (2016 m. vasario mėn.)</span><span class="sxs-lookup"><span data-stu-id="bf212-103">Calculate a BOM by using a multilevel structure (February 2016)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="31ac3-104">Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant kelių lygių išskleidimą, paremtą įkainojimo lapu.</span><span class="sxs-lookup"><span data-stu-id="31ac3-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="31ac3-105">Tai septintoji KS skaičiavimo sekų užduotis.</span><span class="sxs-lookup"><span data-stu-id="31ac3-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="31ac3-106">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="31ac3-106">The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="bf212-104">Šioje procedūroje nurodoma, kaip apskaičiuoti galutinio produkto savikainą naudojant kelių lygių išskleidimą, paremtą įkainojimo lapu.</span><span class="sxs-lookup"><span data-stu-id="bf212-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="bf212-105">Tai septintoji KS skaičiavimo sekų užduotis.</span><span class="sxs-lookup"><span data-stu-id="bf212-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="bf212-106">Kuriant šią užduotį naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="bf212-106">The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="31ac3-107">Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="31ac3-107">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="31ac3-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="31ac3-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="31ac3-109">Pasirinkite produktą BOM_1.</span><span class="sxs-lookup"><span data-stu-id="31ac3-109">Select product BOM_1.</span></span>  
-3. <span data-ttu-id="31ac3-110">Veiksmų srityje spustelėkite Valdyti išlaidas.</span><span class="sxs-lookup"><span data-stu-id="31ac3-110">On the Action Pane, click Manage costs.</span></span>
-4. <span data-ttu-id="31ac3-111">Spustelėkite Prekės kaina.</span><span class="sxs-lookup"><span data-stu-id="31ac3-111">Click Item price.</span></span>
-5. <span data-ttu-id="31ac3-112">Spustelėkite Skaičiuoti prekės savikainą.</span><span class="sxs-lookup"><span data-stu-id="31ac3-112">Click Calculate item cost.</span></span>
-    * <span data-ttu-id="31ac3-113">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="31ac3-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
-6. <span data-ttu-id="31ac3-114">Lauke Įkainojimo versija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="31ac3-114">In the Costing version field, enter or select a value.</span></span>
-    * <span data-ttu-id="31ac3-115">Pasirinkite įkainojimo versijos reikšmę 20, nes jos suplanuotų išlaidų tipas ir išskleidimo režimas yra kelių lygių.</span><span class="sxs-lookup"><span data-stu-id="31ac3-115">Select Costing version 20, because it's Planned cost type and Explosion mode is Multilevel.</span></span>   <span data-ttu-id="31ac3-116">Kelių lygių išskleidimo režimas skirtas suplanuotoms išlaidoms ir modeliavimui.</span><span class="sxs-lookup"><span data-stu-id="31ac3-116">The Multilevel explosion mode is for planned costs and simulations.</span></span> <span data-ttu-id="31ac3-117">Jis nenaudojamas standartinei savikainai.</span><span class="sxs-lookup"><span data-stu-id="31ac3-117">It is not used for standard cost.</span></span>  
-7. <span data-ttu-id="31ac3-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="31ac3-118">Click OK.</span></span>
-8. <span data-ttu-id="31ac3-119">Spustelėkite Peržiūrėti skaičiavimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="31ac3-119">Click View calculation details.</span></span>
-    * <span data-ttu-id="31ac3-120">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="31ac3-120">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  <span data-ttu-id="31ac3-121">Šiuo atveju atkreipkite dėmesį, kaip apskaičiuota BOM_2 atsižvelgiant į žaliavas, procesą ir pridėtines išlaidas (iš viso – 29,40) vietoj standartinės savikainos – 10, suaktyvintos pradiniame šios serijos užduočių vadove.</span><span class="sxs-lookup"><span data-stu-id="31ac3-121">In this case, notice how BOM_2 has been calculated taking into account the raw material, process, and overhead with a total of 29,40 instead of the standard cost of 10 that was activated in the initial task guide in this series.</span></span>  
-9. <span data-ttu-id="31ac3-122">Spustelėkite skirtuką Įkainojimo lapas.</span><span class="sxs-lookup"><span data-stu-id="31ac3-122">Click the Costing sheet tab.</span></span>
-    * <span data-ttu-id="31ac3-123">Perėjus į skirtuką Įkainojimo lapas, išlaidų grupės bendrosios sumos skiriasi lyginant su ankstesniame užduočių vadove atliktu skaičiavimu.</span><span class="sxs-lookup"><span data-stu-id="31ac3-123">Moving to the Costing sheet tab, the totals per cost group are different compared to the calculation done in previous task guide.</span></span>  
-10. <span data-ttu-id="31ac3-124">Lauke „Lygis” pasirinkite „Keli”.</span><span class="sxs-lookup"><span data-stu-id="31ac3-124">In the Level field, select 'Multi'.</span></span>
-    * <span data-ttu-id="31ac3-125">Pasirinkus Keli, išlaidos klasifikuojamos pagal BOM_2 sudėtį, kur 10 išvedamas iš M1 išlaidų grupės (ITEM_C), o 15,60 išvedama iš jos gamybos, kur išlaidų grupė yra L2.</span><span class="sxs-lookup"><span data-stu-id="31ac3-125">When selecting Multi, the costs are classified according to the composition of BOM_2, where 10 is derived from the M1 cost group (ITEM_C), and 15,60 is derived from its manufacturing where the cost group is L2.</span></span> <span data-ttu-id="31ac3-126">Netiesioginės išlaidos taip pat skiriasi.</span><span class="sxs-lookup"><span data-stu-id="31ac3-126">Indirect costs also vary.</span></span>  
-11. <span data-ttu-id="31ac3-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="31ac3-127">Close the page.</span></span>
-12. <span data-ttu-id="31ac3-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="31ac3-128">Close the page.</span></span>
+1. <span data-ttu-id="bf212-107">Eikite į Produkto informacijos valdymas > Produktai > Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="bf212-107">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="bf212-108">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="bf212-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="bf212-109">Pasirinkite produktą BOM_1.</span><span class="sxs-lookup"><span data-stu-id="bf212-109">Select product BOM_1.</span></span>  
+3. <span data-ttu-id="bf212-110">Veiksmų srityje spustelėkite Valdyti išlaidas.</span><span class="sxs-lookup"><span data-stu-id="bf212-110">On the Action Pane, click Manage costs.</span></span>
+4. <span data-ttu-id="bf212-111">Spustelėkite Prekės kaina.</span><span class="sxs-lookup"><span data-stu-id="bf212-111">Click Item price.</span></span>
+5. <span data-ttu-id="bf212-112">Spustelėkite Skaičiuoti prekės savikainą.</span><span class="sxs-lookup"><span data-stu-id="bf212-112">Click Calculate item cost.</span></span>
+    * <span data-ttu-id="bf212-113">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="bf212-113">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  
+6. <span data-ttu-id="bf212-114">Lauke Įkainojimo versija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bf212-114">In the Costing version field, enter or select a value.</span></span>
+    * <span data-ttu-id="bf212-115">Pasirinkite įkainojimo versijos reikšmę 20, nes jos suplanuotų išlaidų tipas ir išskleidimo režimas yra kelių lygių.</span><span class="sxs-lookup"><span data-stu-id="bf212-115">Select Costing version 20, because it's Planned cost type and Explosion mode is Multilevel.</span></span>   <span data-ttu-id="bf212-116">Kelių lygių išskleidimo režimas skirtas suplanuotoms išlaidoms ir modeliavimui.</span><span class="sxs-lookup"><span data-stu-id="bf212-116">The Multilevel explosion mode is for planned costs and simulations.</span></span> <span data-ttu-id="bf212-117">Jis nenaudojamas standartinei savikainai.</span><span class="sxs-lookup"><span data-stu-id="bf212-117">It is not used for standard cost.</span></span>  
+7. <span data-ttu-id="bf212-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="bf212-118">Click OK.</span></span>
+8. <span data-ttu-id="bf212-119">Spustelėkite Peržiūrėti skaičiavimo informaciją.</span><span class="sxs-lookup"><span data-stu-id="bf212-119">Click View calculation details.</span></span>
+    * <span data-ttu-id="bf212-120">Gali reikėti spustelėti elipsės mygtuką (...), kad šią parinktį matytumėte viršutiniame meniu.</span><span class="sxs-lookup"><span data-stu-id="bf212-120">You may need to click the ellipsis (...) to see this option in the top menu.</span></span>  <span data-ttu-id="bf212-121">Šiuo atveju atkreipkite dėmesį, kaip apskaičiuota BOM_2 atsižvelgiant į žaliavas, procesą ir pridėtines išlaidas (iš viso – 29,40) vietoj standartinės savikainos – 10, suaktyvintos pradiniame šios serijos užduočių vadove.</span><span class="sxs-lookup"><span data-stu-id="bf212-121">In this case, notice how BOM_2 has been calculated taking into account the raw material, process, and overhead with a total of 29,40 instead of the standard cost of 10 that was activated in the initial task guide in this series.</span></span>  
+9. <span data-ttu-id="bf212-122">Spustelėkite skirtuką Įkainojimo lapas.</span><span class="sxs-lookup"><span data-stu-id="bf212-122">Click the Costing sheet tab.</span></span>
+    * <span data-ttu-id="bf212-123">Perėjus į skirtuką Įkainojimo lapas, išlaidų grupės bendrosios sumos skiriasi lyginant su ankstesniame užduočių vadove atliktu skaičiavimu.</span><span class="sxs-lookup"><span data-stu-id="bf212-123">Moving to the Costing sheet tab, the totals per cost group are different compared to the calculation done in previous task guide.</span></span>  
+10. <span data-ttu-id="bf212-124">Lauke „Lygis” pasirinkite „Keli”.</span><span class="sxs-lookup"><span data-stu-id="bf212-124">In the Level field, select 'Multi'.</span></span>
+    * <span data-ttu-id="bf212-125">Pasirinkus Keli, išlaidos klasifikuojamos pagal BOM_2 sudėtį, kur 10 išvedamas iš M1 išlaidų grupės (ITEM_C), o 15,60 išvedama iš jos gamybos, kur išlaidų grupė yra L2.</span><span class="sxs-lookup"><span data-stu-id="bf212-125">When selecting Multi, the costs are classified according to the composition of BOM_2, where 10 is derived from the M1 cost group (ITEM_C), and 15,60 is derived from its manufacturing where the cost group is L2.</span></span> <span data-ttu-id="bf212-126">Netiesioginės išlaidos taip pat skiriasi.</span><span class="sxs-lookup"><span data-stu-id="bf212-126">Indirect costs also vary.</span></span>  
+11. <span data-ttu-id="bf212-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bf212-127">Close the page.</span></span>
+12. <span data-ttu-id="bf212-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="bf212-128">Close the page.</span></span>
 

@@ -2,7 +2,7 @@
 title: Kurti projekto pirkimo užsakymą
 description: Šioje procedūroje parodoma, kaip kurti projekto pirkimo užsakymą.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,41 +10,41 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, InventItemIdLookupPurchase
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2751f6e547ccdce70f550cf30a4184f8afdf132
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 88fa6298d91398e86e2d83e3163707ff36d9e8d0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149793"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207766"
 ---
-# <a name="create-project-purchase-order"></a><span data-ttu-id="bd704-103">Kurti projekto pirkimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="bd704-103">Create project purchase order</span></span>
+# <a name="create-project-purchase-order"></a><span data-ttu-id="d5119-103">Kurti projekto pirkimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="d5119-103">Create project purchase order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="bd704-104">Šioje procedūroje parodoma, kaip kurti projekto pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="bd704-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="bd704-105">Šioje užduotyje naudojamas USSI duomenų rinkinys.</span><span class="sxs-lookup"><span data-stu-id="bd704-105">This task uses the USSI data set.</span></span>
+<span data-ttu-id="d5119-104">Šioje procedūroje parodoma, kaip kurti projekto pirkimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="d5119-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="d5119-105">Šioje užduotyje naudojamas USSI duomenų rinkinys.</span><span class="sxs-lookup"><span data-stu-id="d5119-105">This task uses the USSI data set.</span></span>
 
-1. <span data-ttu-id="bd704-106">Eikite į Projektų valdymas ir apskaita > Projektai > Visi projektai.</span><span class="sxs-lookup"><span data-stu-id="bd704-106">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="bd704-107">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="bd704-107">In the list, click the link in the selected row.</span></span>
-3. <span data-ttu-id="bd704-108">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="bd704-108">On the Action Pane, click Manage.</span></span>
-4. <span data-ttu-id="bd704-109">Spustelėkite „Prekės užduotis“.</span><span class="sxs-lookup"><span data-stu-id="bd704-109">Click Item task.</span></span>
-5. <span data-ttu-id="bd704-110">Spustelėkite Pirkimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="bd704-110">Click Purchase order.</span></span>
-6. <span data-ttu-id="bd704-111">Lauke Tiekėjo sąskaita įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="bd704-111">In the Vendor account field, enter or select a value.</span></span>
-7. <span data-ttu-id="bd704-112">Lauke Teritorija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bd704-112">In the Site field, enter or select a value.</span></span>
-    * <span data-ttu-id="bd704-113">Šių veiksmų nereikia, bet jie supaprastina pirkimo užsakymą nustatant pirkimo užsakymo eilučių numatytąją vietą ir sandėlį.</span><span class="sxs-lookup"><span data-stu-id="bd704-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
-8. <span data-ttu-id="bd704-114">Lauke Sandėlis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bd704-114">In the Warehouse field, enter or select a value.</span></span>
-9. <span data-ttu-id="bd704-115">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="bd704-115">Click OK.</span></span>
-10. <span data-ttu-id="bd704-116">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="bd704-116">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="bd704-117">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="bd704-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="bd704-118">Tai gali būti prekės numeris arba įsigijimo kategorija.</span><span class="sxs-lookup"><span data-stu-id="bd704-118">This can be the item number or a procurement category.</span></span>  
-12. <span data-ttu-id="bd704-119">Išplėskite skyrių Eilutės informacija.</span><span class="sxs-lookup"><span data-stu-id="bd704-119">Expand the Line details section.</span></span>
-13. <span data-ttu-id="bd704-120">Spustelėkite skirtuką Projektas.</span><span class="sxs-lookup"><span data-stu-id="bd704-120">Click the Project tab.</span></span>
-    * <span data-ttu-id="bd704-121">Patikrinkite, ar yra pardavimo kaina ir savikaina.</span><span class="sxs-lookup"><span data-stu-id="bd704-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="bd704-122">Jei jų nėra, bet reikia, įveskite informaciją.</span><span class="sxs-lookup"><span data-stu-id="bd704-122">If they are not available but needed, enter the information.</span></span>  
-14. <span data-ttu-id="bd704-123">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="bd704-123">Click Save.</span></span>
+1. <span data-ttu-id="d5119-106">Eikite į Projektų valdymas ir apskaita > Projektai > Visi projektai.</span><span class="sxs-lookup"><span data-stu-id="d5119-106">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="d5119-107">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="d5119-107">In the list, click the link in the selected row.</span></span>
+3. <span data-ttu-id="d5119-108">Veiksmų srityje spustelėkite Valdyti.</span><span class="sxs-lookup"><span data-stu-id="d5119-108">On the Action Pane, click Manage.</span></span>
+4. <span data-ttu-id="d5119-109">Spustelėkite „Prekės užduotis“.</span><span class="sxs-lookup"><span data-stu-id="d5119-109">Click Item task.</span></span>
+5. <span data-ttu-id="d5119-110">Spustelėkite Pirkimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="d5119-110">Click Purchase order.</span></span>
+6. <span data-ttu-id="d5119-111">Lauke Tiekėjo sąskaita įveskite arba pasirinkite vertę.</span><span class="sxs-lookup"><span data-stu-id="d5119-111">In the Vendor account field, enter or select a value.</span></span>
+7. <span data-ttu-id="d5119-112">Lauke Teritorija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d5119-112">In the Site field, enter or select a value.</span></span>
+    * <span data-ttu-id="d5119-113">Šių veiksmų nereikia, bet jie supaprastina pirkimo užsakymą nustatant pirkimo užsakymo eilučių numatytąją vietą ir sandėlį.</span><span class="sxs-lookup"><span data-stu-id="d5119-113">These steps aren't required, but they do simplify the purchase order by setting up a default site and warehouse for the purchase order lines.</span></span>  
+8. <span data-ttu-id="d5119-114">Lauke Sandėlis įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d5119-114">In the Warehouse field, enter or select a value.</span></span>
+9. <span data-ttu-id="d5119-115">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="d5119-115">Click OK.</span></span>
+10. <span data-ttu-id="d5119-116">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="d5119-116">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="d5119-117">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d5119-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="d5119-118">Tai gali būti prekės numeris arba įsigijimo kategorija.</span><span class="sxs-lookup"><span data-stu-id="d5119-118">This can be the item number or a procurement category.</span></span>  
+12. <span data-ttu-id="d5119-119">Išplėskite skyrių Eilutės informacija.</span><span class="sxs-lookup"><span data-stu-id="d5119-119">Expand the Line details section.</span></span>
+13. <span data-ttu-id="d5119-120">Spustelėkite skirtuką Projektas.</span><span class="sxs-lookup"><span data-stu-id="d5119-120">Click the Project tab.</span></span>
+    * <span data-ttu-id="d5119-121">Patikrinkite, ar yra pardavimo kaina ir savikaina.</span><span class="sxs-lookup"><span data-stu-id="d5119-121">Verify that the sales and cost prices are available.</span></span> <span data-ttu-id="d5119-122">Jei jų nėra, bet reikia, įveskite informaciją.</span><span class="sxs-lookup"><span data-stu-id="d5119-122">If they are not available but needed, enter the information.</span></span>  
+14. <span data-ttu-id="d5119-123">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="d5119-123">Click Save.</span></span>
 

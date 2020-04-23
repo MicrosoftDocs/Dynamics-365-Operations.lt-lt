@@ -2,7 +2,7 @@
 title: Paleisti dimensijomis pagrįstą bendrąjį produktą
 description: Ši procedūra nurodo, kaip paleisti bendrąjį produktą, kuris bus naudojamas konfigūruojant pagal dimensijas.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductRelease
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bf9f4725120a7b893bf113a50d208ae27755d56
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: fb2aa6b2a1d32dce662f13855c7bcf81191e51a0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3149854"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3213106"
 ---
-# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="d4b0a-103">Paleisti dimensijomis pagrįstą bendrąjį produktą</span><span class="sxs-lookup"><span data-stu-id="d4b0a-103">Release a dimension-based product master</span></span>
+# <a name="release-a-dimension-based-product-master"></a><span data-ttu-id="5915f-103">Paleisti dimensijomis pagrįstą bendrąjį produktą</span><span class="sxs-lookup"><span data-stu-id="5915f-103">Release a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d4b0a-104">Ši procedūra nurodo, kaip paleisti bendrąjį produktą, kuris bus naudojamas konfigūruojant pagal dimensijas.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="d4b0a-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d4b0a-106">Būtina sąlyga – turite būti sukūrę bendrąjį produktą su konfigūravimo pagal dimensijas technologija.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="d4b0a-107">Tai yra antroji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
+<span data-ttu-id="5915f-104">Ši procedūra nurodo, kaip paleisti bendrąjį produktą, kuris bus naudojamas konfigūruojant pagal dimensijas.</span><span class="sxs-lookup"><span data-stu-id="5915f-104">This procedure shows how to release a product master, which will be used for the dimension-based configurations.</span></span> <span data-ttu-id="5915f-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="5915f-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5915f-106">Būtina sąlyga – turite būti sukūrę bendrąjį produktą su konfigūravimo pagal dimensijas technologija.</span><span class="sxs-lookup"><span data-stu-id="5915f-106">It is a prerequisite that you have created a product master with the dimension-based configuration technology.</span></span> <span data-ttu-id="5915f-107">Tai yra antroji iš aštuonių procedūrų, kuriomis paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas.</span><span class="sxs-lookup"><span data-stu-id="5915f-107">This is the second procedure out of eight which explains how to build combinations for dimension-based configuration.</span></span>
 
-1. <span data-ttu-id="d4b0a-108">Pasirinkite Produkto informacijos valdymas > Produktai > Bendrieji produktai.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-108">Go to Product information management > Products > Product masters.</span></span>
-    * <span data-ttu-id="d4b0a-109">Filtruokite skiltį „Konfigūracijos technologija“, kad būtų rodomas tik konfigūravimas pagal dimensijas.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="d4b0a-110">Pvz., galite filtruoti skiltį įvesdami „dimensija“.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-110">For example, you can filter the column by typing Dimension.</span></span>    
-2. <span data-ttu-id="d4b0a-111">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-111">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="d4b0a-112">Spustelėkite „Išleisti produktus“.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-112">Click Release products.</span></span>
-4. <span data-ttu-id="d4b0a-113">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-113">Click Next.</span></span>
-    * <span data-ttu-id="d4b0a-114">Produktų, sukurtų naudojant konfigūravimo pagal dimensijas technologiją, variantai turi būti kuriame įmonėje, kurioje bus sukurta KS.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
-5. <span data-ttu-id="d4b0a-115">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-115">Click Next.</span></span>
-6. <span data-ttu-id="d4b0a-116">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-116">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d4b0a-117">Šiai procedūrai pasirinkite įmonę USMF.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-117">Select the company USMF for this procedure.</span></span>  
-7. <span data-ttu-id="d4b0a-118">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-118">Click Next.</span></span>
-8. <span data-ttu-id="d4b0a-119">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="d4b0a-119">Click Finish.</span></span>
+1. <span data-ttu-id="5915f-108">Pasirinkite Produkto informacijos valdymas > Produktai > Bendrieji produktai.</span><span class="sxs-lookup"><span data-stu-id="5915f-108">Go to Product information management > Products > Product masters.</span></span>
+    * <span data-ttu-id="5915f-109">Filtruokite skiltį „Konfigūracijos technologija“, kad būtų rodomas tik konfigūravimas pagal dimensijas.</span><span class="sxs-lookup"><span data-stu-id="5915f-109">Filter the Configuration technology column so that only the dimension-based configuration is displayed.</span></span> <span data-ttu-id="5915f-110">Pvz., galite filtruoti skiltį įvesdami „dimensija“.</span><span class="sxs-lookup"><span data-stu-id="5915f-110">For example, you can filter the column by typing Dimension.</span></span>    
+2. <span data-ttu-id="5915f-111">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="5915f-111">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="5915f-112">Spustelėkite „Išleisti produktus“.</span><span class="sxs-lookup"><span data-stu-id="5915f-112">Click Release products.</span></span>
+4. <span data-ttu-id="5915f-113">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="5915f-113">Click Next.</span></span>
+    * <span data-ttu-id="5915f-114">Produktų, sukurtų naudojant konfigūravimo pagal dimensijas technologiją, variantai turi būti kuriame įmonėje, kurioje bus sukurta KS.</span><span class="sxs-lookup"><span data-stu-id="5915f-114">For products that are crated with the dimension-based configuration technology, the product variants must be created in the company where the bill of materials will be created.</span></span>  
+5. <span data-ttu-id="5915f-115">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="5915f-115">Click Next.</span></span>
+6. <span data-ttu-id="5915f-116">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="5915f-116">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="5915f-117">Šiai procedūrai pasirinkite įmonę USMF.</span><span class="sxs-lookup"><span data-stu-id="5915f-117">Select the company USMF for this procedure.</span></span>  
+7. <span data-ttu-id="5915f-118">Spustelėkite Pirmyn.</span><span class="sxs-lookup"><span data-stu-id="5915f-118">Click Next.</span></span>
+8. <span data-ttu-id="5915f-119">Spustelėkite Baigti.</span><span class="sxs-lookup"><span data-stu-id="5915f-119">Click Finish.</span></span>
 
