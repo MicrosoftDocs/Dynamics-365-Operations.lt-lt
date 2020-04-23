@@ -3,7 +3,7 @@ title: Dokumentų būsenos ir vykdymo ciklas
 description: Šioje temoje aptariamos įvairios „Microsoft Dynamics 365 Commerce“ puslapių elementų būsenos.
 author: phinneyridge
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b4f1c462f734b2d58843308f0f877fe18a4d9af7
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002986"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261518"
 ---
 # <a name="document-states-and-lifecycle"></a>Dokumentų būsenos ir vykdymo ciklas
 
@@ -37,13 +37,13 @@ Temoje [Puslapio elementai](page-elements-overview.md) pateikiama įvairių doku
 
 Šioje lentelėje pateikiamos galimos „Commerce“ puslapio elementų dokumento būsenos.
 
-| Dokumento būsena | Aprašymas |
-|---|---|
-| Paimta ir užrakinta | Jums paėmus ir užrakinus TVS elementą, jo negali redaguoti jokie kiti autentifikuoti sistemos vartotojai. Visi keitimai, kuriuos atliekate elementui, matomi tik jums. |
-| Įrašyta ir atrakinta | Kai TVS elementas įrašytas ir atrakintas, visi keitimai yra matomi kitiems autentifikuotiems sistemos vartotojams, ir tie vartotojai gali tik tada paimti ir užrakinti elementą bei jį redaguoti. Kiekvienas įrašymas ir atrakinimas sukuria dokumento versijos įrašą elemento retrospektyvoje. |
-| Publikuota | Kai TVS elementas yra publikuotas, jis yra priverstinai teikiamas į jūsų tiesioginę svetainę ir tampa aptinkamas internete neautentifikuotų Išorinių vartotojų. Elementai gali būti publikuojami tik tada, kai jie įrašyti ir atrakinti. |
-| Įrašyta | Keitimai, kurie buvo atlikti su paimtu ir užrakintu TVS elementu, gali būti įrašyti į TVS, prieš elementą įrašant ir atrakinant ar publikuojant. Šie įrašyti keitimai nematomi kitiems autentifikuotiems sistemos vartotojams, kol elementas nebus įrašytas ir atrakintas. Jie nematomi išoriniams vartotojams, kol elementas nebus publikuotas. |
-| Atmestas paėmimas ir užrakinimas | Kai paimtas ir užrakintas TVS elementas atmetamas, visi įrašyti keitimai panaikinami, o elementas grįžta į vėliausiai įrašytą ir atrakintą versiją. |
+| Dokumento būsena      | Svetainių daryklės veiksmai        | aprašymas                                                  |
+| ------------------- | -------------------------- | ------------------------------------------------------------ |
+| Išregistruota         | Pasirinkite **Redaguoti**.           | Taikomas dokumentas paimamas ir užrakinamas. Kol dokumentas yra šioje būsenoje, jo negalima pakeisti kiti autentifikuoti sistemos vartotojai, o visi keitimai, kuriuos atliekate dokumente, matomi tik jums. |
+| Įrašyta               | Pasirinkite **Įrašyti**.           | Keitimai, atlikti išregistruotame dokumente, įrašomi į duomenų bazę, tačiau dokumentas dar nėra įrašomas ir atrakinamas ar publikuojamas. Įrašyti keitimai nematomi kitiems autentifikuotiems sistemos vartotojams, kol autorius nepasirenka **Baigti redagavimą**. Jie nematomi išoriniams vartotojams, kol elementas nebus publikuotas. |
+| Atmestas paėmimas ir užrakinimas | Pasirinkite **Atmesti pakeitimus**.  | Visi išregistruoto dokumento pakeitimai atmetami, o elementas grįžta į paskutinę įrašytą ir atrakintą versiją. |
+| Įregistruota          | Pasirinkite **Baigti redagavimą**. | Redaguotas dokumentas yra įrašomas ir atrakinamas. Visi pakeitimai yra matomi kitiems autentifikuotiems sistemos vartotojams ir tie vartotojai gali redaguoti dokumentą. Kiekvienas įrašymas ir atrakinimas sukuria dokumento versijos įrašą elemento retrospektyvoje. |
+| Publikuota           | Pasirinkite **Publikuoti**.        | Dokumentas publikuojamas, o pakeitimai yra paskelbiami jūsų paleistoje svetainėje ir tampa aptinkami išoriniams vartotojams. Elementai gali būti publikuojami tik tada, kai jie įrašyti ir atrakinti pasirinkus **Baigti redagavimą**. |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -3,7 +3,7 @@ title: Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo
 description: Šioje temoje aprašomos papildomos „Commerce“ kanalų užsakymų apskaičiavimo ir automatinio apmokestinimo galimybės, naudojant išplėstinę automatinio apmokestinimo funkciją.
 author: hhaines
 manager: annbe
-ms.date: 04/23/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 5c03b1a1db11098058022a6916dc5bddf5518f9b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 048885cac7a316e144b2df072da405d74096203f
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023462"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175136"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms
 
@@ -37,7 +37,7 @@ ms.locfileid: "3023462"
 
 Ši nauja funkcija suteikia organizacijoms daugiau lankstumo apskaičiuojant automatinį apmokestinimą antraščių lygiu ir jį taikant pardavimo sandoriams.
 
-Programos versijose, kurios yra senesnės nei 10.0.1 versija, antraštės lygio automatiniai apmokestinimai, turintys tam tikrą pristatymo būdo ryšį, apskaičiuojami tik tada, kai yra atitikimas pristatymo būdo ryšys, kuris apibrėžtas pardavimo užsakymo antraštėje.
+Ankstesnėse nei 10.0.1 programos versijose antraštės lygio automatinės išlaidos, kurioms priskirtas konkretus pristatymo būdo ryšys, skaičiuojamos tik nustačius atitikimą su pardavimo užsakymo antraštėje nurodytu pristatymo būdu.
 
 Pavyzdžiui, antraštės lygio automatinės išlaidos nustatomos ir priskiriamos pristatymo būdui **99** ir pristatymo būdui **11**. Sukuriamas pardavimo užsakymas ir užsakymo antraštėje nustatomas pristatymo būdas **99**. Tačiau kai kurios pardavimo eilutės nustatomos taip, kad jos siunčiamos naudojant pristatymo būdą **11**. Šiuo atveju tik antraštės lygio išlaidos, susietos su pristatymo būdu **99**, yra apdorojamos ir taikomos pardavimo užsakymui.
 
@@ -169,3 +169,9 @@ Todėl šiame pavyzdyje 81334 prekei bus priskirtas 5,62 transportavimo mokestis
 ![81334 prekės pardavimo eilutės proporcingai paskirstytos išlaidos](media/proratedlinecharge.png)
 
 Kai šis skaičiavimo metodas naudojamas dalinio grąžinimo scenarijuje, jei išlaidų kodas yra grąžinamas, tik dalis išlaidų, paskirstytų tai eilutei, bus grąžinta grąžinus prekę.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+[Integruoto kanalo išplėstinės automatinės išlaidos](omni-auto-charges.md)
+
+[Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą](auto-charges-by-channel.md)

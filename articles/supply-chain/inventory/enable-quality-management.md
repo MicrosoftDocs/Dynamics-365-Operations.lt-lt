@@ -2,7 +2,7 @@
 title: Kokybės valdymo peržiūra
 description: Šioje temoje aprašyta, kaip galima naudoti kokybės valdymą „Dynamics 365 Supply Chain Management“, siekiant pagerinti tiekimo grandinės produktų kokybę.
 author: perlynne
-manager: AnnBe
+manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c2d51c659d9d06f075458359d81de978e7a6d14b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
+ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814403"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3224914"
 ---
 # <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
 
@@ -302,122 +302,6 @@ Pirkdami, jei nustatėte lauko **Įvykio tipas** reikšmę **Gavimo dokumentas**
 
 - Jei nustatyta parinkties **Pagal atnaujintą kiekį** reikšmė **Taip**, kokybės užsakymas generuojamas kiekvienam dokumentui pagal pirkimo užsakymą, remiantis gautu kiekiu ir prekės pavyzdžių ėmimo parametrais. Kiekvieną kartą, kai pagal pirkimo užsakymą gaunamas kiekis, remiantis naujai gautu kiekiu generuojami nauji kokybės užsakymai.
 - Jei nustatyta parinkties **Pagal atnaujintą kiekį** reikšmė **Ne**, kokybės užsakymas generuojamas pirmajam dokumentui pagal pirkimo užsakymą, remiantis gautu kiekiu. Be to, remiantis likusiu kiekiu kuriamas vienas ar daugiau kokybės užsakymų, atsižvelgiant į sekimo dimensijas. Kokybės užsakymai negeneruojami vėlesniems kvitams pagal pirkimo užsakymą.
-
-<table>
-<tbody>
-<tr>
-<th>Kokybės specifikacija</th>
-<th>Pagal atnaujintą kiekį</th>
-<th>Pagal sekimo dimensiją</th>
-<th>Rezultatas</th>
-</tr>
-<tr>
-<td>Procentinė reikšmė: 10 %</td>
-<td>Taip</td>
-<td>
-<p>Paketo numeris: ne</p>
-<p>Serijos numeris: ne</p>
-</td>
-<td>
-<p>Užsakymo kiekis: 100</p>
-<ol>
-<li>Paskelbti kaip baigtą 30
-<ul>
-<li>Kokybės užsakymas #1, skirtas 3 (10 % iš 30)</li>
-</ul>
-</li>
-<li>Paskelbti kaip baigtą 70
-<ul>
-<li>Kokybės užsakymas #2, skirtas 7 (10 % likusio užsakymo kiekio, kuris šiuo atveju yra lygus 70)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fiksuotas kiekis: 1</td>
-<td>Ne</td>
-<td>
-<p>Paketo numeris: ne</p>
-<p>Serijos numeris: ne</p>
-</td>
-<td>Užsakymo kiekis: 100
-<ol>
-<li>Paskelbti kaip baigtą 30
-<ul>
-<li>Kokybės užsakymas #1 sukuriamas 1 (pirmajam paskelbtam baigtu kiekiui, kuris turi 1 fiksuotą vertę).</li>
-<li>Likusiam kiekiui daugiau kokybės užsakymų nekuriama.</li>
-</ul>
-</li>
-<li>Paskelbti kaip baigtą 10
-<ul>
-<li>Nėra sukurtų kokybės užsakymų.</li>
-</ul>
-</li>
-<li>Paskelbti kaip baigtą 60
-<ul>
-<li>Nėra sukurtų kokybės užsakymų.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Fiksuotas kiekis: 1</td>
-<td>Taip</td>
-<td>
-<p>Paketo numeris: taip</p>
-<p>Serijos numeris: taip</p>
-</td>
-<td>
-<p>Užsakymo kiekis: 10</p>
-<ol>
-<li>Paskelbti kaip baigtą 3
-<ul>
-<li>Kokybės užsakymas #1, skirtas 1, paketo #b1, serijos #s1</li>
-<li>Kokybės užsakymas #2, skirtas 1, paketo #b2, serijos #s2</li>
-<li>Kokybės užsakymas #3, skirtas 1, paketo #b3, serijos #s3</li>
-</ul>
-</li>
-<li>Paskelbti kaip baigtą 2
-<ul>
-<li>Kokybės užsakymas #4, skirtas 1, paketo #b4, serijos #s4</li>
-<li>Kokybės užsakymas #5, skirtas 1, paketo #b5, serijos #s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Pastaba:</strong> paketą galima naudoti pakartotinai.</p>
-</td>
-</tr>
-<tr>
-<td>Fiksuotas kiekis: 2</td>
-<td>Ne</td>
-<td>
-<p>Paketo numeris: taip</p>
-<p>Serijos numeris: taip</p>
-</td>
-<td>
-<p>Užsakymo kiekis: 10</p>
-<ol>
-<li>Paskelbti kaip baigtą 4
-<ul>
-<li>Kokybės užsakymas #1, skirtas 1, paketo #b1, serijos #s1.</li>
-<li>Kokybės užsakymas #2, skirtas 1, paketo #b2, serijos #s2.</li>
-<li>Kokybės užsakymas #3, skirtas 1, paketo #b3, serijos #s3.</li>
-<li>Kokybės užsakymas #4, skirtas 1, paketo #b4, serijos #s4.</li>
-<li>Likusiam kiekiui daugiau kokybės užsakymų nekuriama.</li>
-</ul>
-</li>
-<li>Paskelbti kaip baigtą 6
-<ul>
-<li>Nėra sukurtų kokybės užsakymų.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
 
 ### <a name="production"></a>Gamyba
 

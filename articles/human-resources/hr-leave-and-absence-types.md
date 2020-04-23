@@ -3,7 +3,7 @@ title: Atostogų ir neatvykimų tipų konfigūravimas
 description: Darbuotojams skiriamų atostogų tipų nustatymas „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1748ec2a888a50af9b9260720dfd439adc4686f9
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009978"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198055"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atostogų ir neatvykimų tipų konfigūravimas
 
@@ -58,17 +58,21 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 
 9. Pasirinkite **Įrašyti**.
 
-## <a name="configure-preview-features"></a>Peržiūros funkcijų konfigūravimas
-
-Jeigu įgalinote atostogų ir neatvykimų peržiūros funkcijas, jums reikės konfigūruoti ir jų parametrus.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
+## <a name="configure-leave-type-rules"></a>Atostogų tipo taisyklių konfigūravimas
 
 1. Atostogų tipo apvalinimo parinkčių nustatymas. Parinktys yra tokios: **Nėra**, **Į didesnę reikšmę**, **Į mažesnę reikšmę** ir **Į artimiausią reikšmę**. Taip pat galite nustatyti atostogų tipo apvalinimo tikslumą.
 
 2. Atostogų tipo lauko **Šventinių dienų koregavimas** nustatymas. Pasirinkus šią parinktį, „Human Resources“ naudoja šventinių dienų, kurios būna darbo dienomis, skaičių, kad nustatytų, kaip kaupti atostogas šiam atostogų tipui. Pavyzdžiui, jei Kalėdos yra pirmadienį, „Human Resources“ atims vieną dieną iš atostogų tipo, kai apdoros kaupimus.
 
    Nustatote šventine dienas darbo laiko kalendoriuje. Daugiau informacijos žr. skyriuje [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
+   
+## <a name="configure-preview-features"></a>Peržiūros funkcijų konfigūravimas
+
+Jeigu įgalinote atostogų ir neatvykimų peržiūros funkcijas, jums reikės konfigūruoti ir jų parametrus.
+
+[!include [banner](includes/preview-feature-leave-absence.md)]
+
+1. Pasirinkite atostogų tipą, į kurį bus perkeliami perkėlimo balansai. Taip pat galite sukurti naują atostogų tipą, skirtą perkėlimui. 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

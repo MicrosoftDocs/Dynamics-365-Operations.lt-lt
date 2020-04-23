@@ -3,7 +3,7 @@ title: Krepšelio modulis
 description: Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 598b35b1bd365e761d8d4c5ef214935e60b971f4
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d91f6ff24f8f2c051ed23565983c2bc6a2c12b55
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154022"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261426"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
@@ -47,12 +47,13 @@ Krepšelio modulyje yra ypatybė **Antraštė**, kurią galima nustatyti kaip **
 - **Teksto blokas** – šis modulis palaiko pasirinktinių pranešimų krepšelio modulyje galimybę. Pranešimai grindžiami turinio valdymo sistema (TVS). Galimą įtraukti bet kokį pranešimą, pvz., „Jei kyla problemų dėl užsakymo, kreipkitės numeriu 1-800-Fabrikam“.
 - **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Daugiau informacijos apie šį modulį žr. [Parduotuvės parinkiklio modulis](store-selector.md).
 
-## <a name="cart-module-settings"></a>Krepšelio modulio parametrai
+
+## <a name="module-properties"></a>Modulio ypatybės
 
 Krepšelio moduliai turi šiuos parametrus, kuriuos galima konfigūruoti einant į **Svetainės parametrai \> Plėtiniai**:
 
 - **Maksimalus kiekis** – ši ypatybė yra naudojama nurodyti maksimalų kiekvienos prekės skaičių, kurį galima įtraukti į krepšelį. Pavyzdžiui, pardavėjas gali nuspręsti, kad vienos operacijos metu galima parduoti tik 10 kiekvieno produkto vienetų.
-- **Atsargų patikra** – kai reikšmė nustatoma kaip **Teisinga**, prekė į krepšelį įtraukiama tik tada, kai pirkimo langelio modulis užtikrina, kad yra jos atsargų. Ši atsargų patikra atliekama tose situacijose, kai prekė bus siunčiama, ir situacijose, kai ji bus atsiimama iš parduotuvės. Jei reikšmė nustatoma kaip **Klaidinga**, prieš prekę įtraukiant į krepšelį ir pateikiant užsakymą atsargos nepatikrinamos.
+- **Atsargų patikra** – kai reikšmė nustatoma kaip **Teisinga**, prekė į krepšelį įtraukiama tik tada, kai pirkimo langelio modulis užtikrina, kad yra jos atsargų. Ši atsargų patikra atliekama tose situacijose, kai prekė bus siunčiama, ir situacijose, kai ji bus atsiimama iš parduotuvės. Jei reikšmė nustatoma kaip **Klaidinga**, prieš prekę įtraukiant į krepšelį ir pateikiant užsakymą atsargos nepatikrinamos. Informacijos apie tai, kaip sukonfigūruoti atsargų parametrus įmonės padalinyje, žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
 - **Atsargų buferis** – ši ypatybė naudojama norint nurodyti atsargų buferio skaičių. Atsargos tvarkomos realiuoju laiku ir dideliam klientų skaičiui teikiant užsakymus gali būti sudėtinga turėti tikslų atsargų skaičių. Jei, tikrinant atsargas, jų yra mažiau nei buferio suma, laikoma, kad produkto atsargų nėra. Todėl greitai pardudodant keliais kanalais, kai ne visiškai sinchronizuojamas atsargų kiekis, yra mažiau rizikos, kad bus parduota prekė, kurios atsargų nėra.
 - **Grįžimas prie pirkimo** – ši ypatybė naudojama norint nurodyti saito **Grįžimas prie pirkimo** maršrutą. Maršrutas gali būti sukonfigūruotas svetainės lygiu, leidžiant mažmeninės prekybos klientams grįžti į pagrindinį puslapį arba bet kurį kitą svetainės puslapį.
 
@@ -80,9 +81,11 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 
 [Konteinerio modulis](add-container-module.md)
 
-[Parduotuvės parinkiklio modulis](store-selector.md)
+[Parduotuvės išrinkiklio modulis](store-selector.md)
 
 [Pirkimo langelio modulis](add-buy-box.md)
+
+[Krepšelio piktogramos modulis](cart-icon-module.md)
 
 [Pirkimo užbaigimo modulis](add-checkout-module.md)
 
@@ -91,3 +94,5 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 [Antraštės modulis](author-header-module.md)
 
 [Poraštės modulis](author-footer-module.md)
+
+[Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)

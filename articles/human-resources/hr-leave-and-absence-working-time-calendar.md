@@ -3,7 +3,7 @@ title: Darbo laiko kalendoriaus kūrimas
 description: Darbo laiko kalendoriaus, šventinių dienų ir ne darbo laiko nustatymas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 641f66c75875cfba51af3753223a070d7cb7dc50
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: dc209b62836011b18362f78b63cdd3fcda884dc3
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009977"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198032"
 ---
 # <a name="create-a-working-time-calendar"></a>Darbo laiko kalendoriaus kūrimas
 
@@ -68,10 +68,6 @@ Galite pridėti arba keisti ne darbo laiką atskirai nuo darbo laiko kalendoriau
 1. Puslapyje **Organizacijos administravimas** pasirinkite **Ne darbo laikas**.
 
 2. Pasirinkite **Naujas** ir įveskite ne darbo laiko pavadinimą bei laiko intervalą.
-
-## <a name="leave-and-absence-preview-feature"></a>Atostogų ir neatvykimų peržiūros funkcija
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
 
 Jeigu įgalinote atostogų ir neatvykimų koregavimų peržiūros funkciją, „Human Resources“ naudoja atostogų ir nedarbo dienų datas, kad nustatytų dienų, kurias reikia koreguoti kalendoriuje užregistruotiems darbuotojams, skaičių.
 

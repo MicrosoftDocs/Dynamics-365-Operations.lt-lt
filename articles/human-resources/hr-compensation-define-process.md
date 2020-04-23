@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42fcbeaadf0e8156cd72bee4328ca612c1abbaff
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 058102b369ec7ed79874017e50a06d265b96b424
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009993"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198771"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Kompensavimo proceso nustatymas ir rezultatų skaičiavimas
-
-
 
 Kompensacijos procesai naudojami nustatyti naujas kompensacijų ir premijų sumas darbuotojams, užregistruotiems pastoviosios ir kintamosios atlyginimo dalies planuose. Kompensacijos procesą galima vykdyti kelis kartus, norint atlikti sąlyginę analizę siekiant patikrinti, ar visi pakeitimai ir parametrai yra teisingi. Šios procedūros metu bus sukurtas kompensacijos procesas, vykdomas procesas ir peržiūrėti rezultatai. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

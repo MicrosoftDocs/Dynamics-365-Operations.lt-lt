@@ -3,7 +3,7 @@ title: Atostogų ir neatvykimų parametrų konfigūravimas
 description: Žmogiškųjų išteklių parametrų, skirtų atostogoms ir neatvykimams, nustatymas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2acb8502ebcab122a0a1ff21e9f5e23931026327
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: eb992cbfbed33f88e125d3a8b721f8815414599a
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009921"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197986"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Atostogų ir neatvykimų parametrų konfigūravimas
 
@@ -50,18 +50,25 @@ Prieš nustatant atostogų ir neatvykimų planus „Dynamics 365 Human Resources
 
 7. Pasirinkite **Įrašyti**.
 
-## <a name="configure-calendar-parameters"></a>Kalendoriaus parametrų konfigūravimas
-
-Jeigu įjungėte atostogų ir neatvykimų kalendoriaus peržiūros funkciją, jums reikia sukonfigūruoti papildomus parametrus. 
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-> [!NOTE]
-> 2020 m. vasario 3 d. peržiūros leidime įgalintos tik **Laukiančios atostogų užklausos**.
+## <a name="view-and-change-leave-and-absence-parameters"></a>Peržiūrėti ir keisti atostogų ir neatvykimų parametrus
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-2. Dalyje **Sąranka** pasirinkite **Žmogiškųjų išteklių parametrai**.
+2. Dalyje **Sąranka**pasirinkite **Atostogų ir neatvykimų parametrai**.
+
+3. Skirtuke **Bendra** nustatykite tolesnius parametrus.
+ 
+    - Nustatykite **Atostogų ir neatvykimų vienetas** į valandas arba dienas. Jei nustatėte dienas, galite pasirinkti **Įjungti pusės dienos apibrėžtį**, kad darbuotojai galėtų pasirinkti pirmąją ar antrą dienos pusę prašymuose išleisti iš darbo. 
+
+    - Pasirinkite **Paslaugos įsigaliojimo datos mėnesiai**, kad nustatytumėte, kada atostogų planų, naudojančių darbo mėnesius, kaupimo tarifai įsigalios.
+
+    - Pasirinkite **Balanso skaičiavimas**, kad būtų rodomi šiandienos arba kaupimo laikotarpio balansai. Jei pasirinksite **Šiandienos balansas**, balansas rodys visus šiandienos kaupimus, koregavimus ir užklausas. Jei pasirinksite **Kaupimo laikotarpio balansas**, balansas rodys visus kaupimo laikotarpio, nustatyto pagal atostogų plano dažnumą, kaupimus, koregavimus ir užklausas. 
+
+## <a name="configure-calendar-parameters"></a>Kalendoriaus parametrų konfigūravimas
+
+1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
+
+2. Dalyje **Sąranka**pasirinkite **Atostogų ir neatvykimų parametrai**.
 
 3. Skirtuke **Kalendorius** keiskite kalendoriaus parametrus, jei reikia.
 

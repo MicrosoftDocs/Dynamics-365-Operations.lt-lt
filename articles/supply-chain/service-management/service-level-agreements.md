@@ -2,7 +2,7 @@
 title: Aptarnavimo lygio sutarčių apžvalga
 description: Teikiamų paslaugų sutartyje klientas sutinka su minimaliu atsiliepimo laiku, kuris remiasi laiku, nuo to, kai aptarnavimo įmonė užregistruoja problemą, iki tol, kai problema išsprendžiama.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServicelevelagreement
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90915502100c6165838f7eb2ebc620c7b15e6ec8
-ms.sourcegitcommit: e286572ce94a9442a5b3076c3ff5b429be0ed512
+ms.openlocfilehash: 30b06e537b010b6b32799f76964cb85af892bc3f
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "1865926"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216142"
 ---
 # <a name="service-level-agreements-overview"></a>Aptarnavimo lygio sutarčių apžvalga       
 

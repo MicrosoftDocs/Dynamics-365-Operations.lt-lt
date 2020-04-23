@@ -2,14 +2,14 @@
 title: Turimų atsargų mobilioji darbo sritis
 description: Šioje temoje pateikiama informacija apie mobiliąją darbo sritį Turimos atsargos. Ši darbo sritis mobiliojoje aplinkoje suteikia įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada.
 author: Mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 267094
 ms.assetid: 3fa385ba-894d-4a9e-b394-ef3697abf895
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: f4f6de139d0399263fa19507d63e9521f489dcbd
-ms.sourcegitcommit: 38ce9f4ef499ad208f2fbbc51bc21b12c67dfa16
+ms.openlocfilehash: 4a41f877816e331351a0950dcdc07ee07f643beb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "2574804"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3212738"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Turimų atsargų mobilioji darbo sritis
 
@@ -31,9 +31,9 @@ ms.locfileid: "2574804"
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Turimos atsargos**. Ši darbo sritis suteikia įžvalgų apie rezervuotas ir turimas atsargas bet kur ir bet kada.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
+Ši mobili darbo sritis skirta naudoti kartu su mobiliųjų įrenginių programėle „Finance and Operations“.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūra
 Paprastai įmonės kas dieną apdoroja daug atsargų siuntų ir gavimų. Dėl šių perkėlimų nuolat kinta turimų atsargų būsena. Mobilioji darbo sritis **Turimos atsargos** suteikia galimybę peržiūrėti turimų atsargų būseną visose įmonėse, todėl galite sužinoti naujausią informaciją apie atsargų duomenis savo pasirinktame mobiliajame įrenginyje. Nepriklausomai nuo to, ar dirbate sandėlyje, pirkimo, pardavimo, gamybos arba vadovybės skyriuje, ar turite kitų vaidmenų, turimų atsargų duomenis galite pasiekti bet kur ir bet kada. 
 
 Mobilioji darbo sritis pateikia visų objektų turimų atsargų būsenos momentinį rodinį. Ji suteikia galimybę peržiūrėti visų objektų turimas atsargas, esamus medžiagų rezervavimus ir nerezervuotas turimas atsargas. Taip pat galite įvesti prekių numerius ir pateikti turimų atsargų užklausą bei atlikti filtruotą turimų produktų ar jų variantų iešką. 
@@ -96,7 +96,7 @@ Jei jūsų organizacijoje visuotinai įdiegta 3 platformos naujinimo arba naujes
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
 
-Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
+Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

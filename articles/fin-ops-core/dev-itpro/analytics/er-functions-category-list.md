@@ -3,7 +3,7 @@ title: Sąrašo kategorijos ER funkcijų sąrašas
 description: Šioje temoje pateikiama informacijos apie sąrašo funkcijas, palaikomas modulyje Elektroninės ataskaitos (ER).
 author: NickSelin
 manager: kfend
-ms.date: 12/17/2019
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9461d0afd75f421cf03ddefed5dac379f1369ec7
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2917769"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201048"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Sąrašo kategorijos ER funkcijų sąrašas
 
@@ -46,6 +46,7 @@ Naudojant modulio Elektroninės ataskaitos (ER) sąrašo funkcijas, galima išga
 | [Index](er-functions-list-index.md)                       | Ši funkcija pateikia tipo *Konteineris (įrašas)* reikšmę, kuri pasirenkama naudojant konkretų nurodyto sąrašo skaitinį indeksą. Jei indekse nėra nurodyto sąrašo įrašų intervalo, ši funkcija pateikia išimtį. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Jei nurodytame sąraše nėra įrašų, ši funkcija pateikia *Bulio logikos* reikšmę **TRUE**. Kitu atveju išraiška grąžina *Bulio logikos* reikšmę **FALSE**. |
 | [Sąrašas](er-functions-list-list.md)                         | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, sudarytą iš naujo sąrašo, sukurto iš nurodytų argumentų.|
+| [ListJoin](er-functions-list-listjoin.md)                 | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, nurodančią naują jungtinį sąrašą, sukurtą iš nurodytų argumentų.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, sukurtą pagal nurodyto tipo *Išvardijimas* arba *Konteineris (įrašas)* argumento struktūrą. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, kurią sudaro tik pirmasis nurodyto sąrašo įrašas.|
 | [OrderBy](er-functions-list-orderby.md)                   | Ši funkcija nurodytą sąrašą pateikia kaip tipo *Įrašų sąrašas* reikšmę, jį surikiavus pagal nurodytus argumentus. Šiuos argumentus galima apibrėžti kaip išraiškas. |

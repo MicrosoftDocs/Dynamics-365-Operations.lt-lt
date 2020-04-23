@@ -3,7 +3,7 @@ title: Funkcijų valdymas
 description: Sužinokite, kaip įjungti arba išjungti naujas funkcijas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 84ff11e8237ce0669f7f6ac70c5b4411c5d4b466
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009909"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230205"
 ---
 # <a name="manage-features"></a>Funkcijų valdymas
 
@@ -50,9 +50,14 @@ Norėdami pasiekti peržiūros funkcijas, pirmiausia turite jas įjungti savo ap
 
 3. Norėdami įjungti peržiūros funkciją, pasirinkite ją iš sąrašo, tada pažymėkite **Įjungti**. Norėdami išjungti peržiūros funkciją, pasirinkite ją iš sąrašo, tada pažymėkite **Išjungti**.
 
-## <a name="preview-feature-benefits-management"></a>Peržiūros funkcija: išmokų valdymas
+## <a name="enable-or-disable-benefits-management"></a>Išmokų valdymo įjungimas arba išjungimas
 
-Išmokų valdymu suteikiamas lankstus sprendimas, kuriame palaikoma daugybė išmokų parinkčių, kartu su paprastomis naudoti darbuotojų funkcijomis, kuriomis demonstruojami jūsų pasiūlymai. Daugiau informacijos apie išmokų valdymo konfigūravimą ir naudojimą žr. [Išmokų valdymo apžvalga](hr-benefits-management-overview.md).
+Norėdami įgalinti išmokų valdymą, atlikite procedūrą, esančią [Peržiūros funkcijų įjungimas arba išjungimas](hr-admin-manage-features.md?enable-or-disable-preview-features).
+
+> [!IMPORTANT]
+> Po to, kai **gamybos** aplinkoje įgalinate išmokų valdymą, jo išjungti negalima. Tačiau galite išjungti išmokų valdymą **smėlio dėžės** aplinkose.
+
+Daugiau informacijos apie išmokų valdymo konfigūravimą ir naudojimą žr. [Išmokų valdymo apžvalga](hr-benefits-management-overview.md).
 
 Išmokų valdymu pakeičiamos funkcijos darbo srityje **Išmokos**. Kai įjungiate peržiūros funkciją Išmokų valdymas, nebegalite naudotis šiomis formomis darbo srityje **Išmokos**:
 
@@ -65,62 +70,23 @@ Išmokų valdymu pakeičiamos funkcijos darbo srityje **Išmokos**. Kai įjungia
 - **Teisės į išmoką strategijos**
 - **Tinkamumo įvykiai**
 
-Galite peržiūrėti šių formų informaciją tik skaitymo režimu. Jei norite redaguoti informaciją, pirmiausia turite išjungti išmokų valdymo peržiūros funkciją.
+Galite peržiūrėti šių formų informaciją tik skaitymo režimu. Jei norite redaguoti informaciją, pirmiausia turite išjungti išmokų valdymą (taikoma tik **smėlio dėžės** aplinkose).
 
-### <a name="benefits-management-known-issues"></a>Išmokų valdymo žinomos problemos
+## <a name="enable-or-disable-leave-and-absence"></a>Atostogų ir neatvykimų įjungimas arba išjungimas
 
-#### <a name="life-events"></a>Gyvenimo įvykiai
+Norėdami įgalinti atostogas ir neatvykimus, atlikite procedūrą, esančią [Peržiūros funkcijų įjungimas arba išjungimas](hr-admin-manage-features.md?enable-or-disable-preview-features).
 
-Apdorodamas gyvenimo įvykius vartotojas gaus klaidos pranešimą:
+> [!IMPORTANT]
+> Po to, kai įjungiate atostogų ir neatvykimų funkciją **Keli atostogų tipai**, jos išjungti negalima. Tai taikoma ir **smėlio dėžės**, ir **gamybos** aplinkose.
 
-Draudimo pradžios data turi būti tarp *plano laikotarpio pradžios* ir *plano laikotarpio pabaigos*. 
+Daugiau informacijos apie atostogų ir neatvykimų peržiūros funkcijas žr. [Atostogų ir neatvykimų peržiūros funkcijos](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
-Gyvenimo įvykis ir toliau bus vykdomas kaip tikėtasi.
-
-#### <a name="eligibility-processing"></a>Tinkamumo apdorojimas
-
-Paleidus tinkamumą gauti išmokas, kuriam naudojami penktadalis atlyginimo, procentinė atlyginimo dalis ir standartinė draudimo suma, turite nustatyti išmokų informacijos datą kaip darbuotojo darbo pradžios datą, esančią **Įdarbinimo retrospektyva**, su išdirbtų valandų, mokėjimo dažnio ir metinių išmokų atlyginimo sumos reikšmėmis. Jei darbuotojui taikoma pastovioji atlyginimo dalis, įveskite išdirbtas valandas kartu su mokėjimo dažniu, tada metinio atlyginimo suma bus skaičiuojama. Jei darbuotojas gauna fiksuotą atlyginimą, išdirbtų valandų nebūtina nurodyti. Rekomenduojame, kad kurdami naujus darbininkus, pirmiausia įvestumėte pastoviąją atlyginimo dalį. Norėdami atnaujinti išmokų informacijos įrašą: eikite į **Darbininkas > Darbininko retrospektyva > Įdarbinimo išsami informacija**. Darbininkų pradžios datai koreguokite datą.
-
-#### <a name="employee-self-service"></a>Darbuotojų savitarnos paslauga
-
-Darbuotojai gali pasirinkti planą, kurio jie neatitinka, bei paimti jį ir užrakinti. Pavyzdžiui: darbuotojas neturi jokių priklausomųjų, bet jis gali pasirinkti gydymo planą su šeimos draudimo parinktimi.
-
-Darbuotojo suma neskaičiuojama atnaujinant gyvybės draudimo sumą. Pavyzdžiui, kai darbuotojui siūlomas gyvybės draudimo planas, jis gali pasirinkti iki 50 000 $ draudimo sumos, kai mokama 0,36 $ už draudimo sumos 1 000 $.  Kai darbuotojas atnaujina draudimo sumą, su darbuotoju susijusios išlaidos išlieka lygios nuliui.
-
-Pasirinkdamas išmokų planą, kuriam leidžiama pasirinkti tik vieną to plano tipą, vartotojas gaus klaidos pranešimą, jei mėgins atsisakyti plano jau jį pasirinkęs. Pavyzdžiui, vartotojas pasirenka gydymo planą ir perkelia jį į krepšelį. Tada vartotojas pasirenka **Atsisakyti** kitam gydymo planui. Vartotojas gaus klaidos pranešimą.
-
-## <a name="preview-features-in-leave-and-absence"></a>Atostogų ir neatvykimų peržiūros funkcijos
-
-Atostogų ir neatvykimų peržiūros funkcijos apima:
-
-- **Atostogų ir neatvykimų kalendorius** – atostogų ir neatvykimų parametrai pereis iš **Personalo parametrai** į naują ekraną, pavadintą **Atostogų ir neatvykimų parametrai**. Naujame ekrane yra naujas skirtukas **Kalendorius**. Ši peržiūra įgalina tik parametrų porinkinį. Galite turėti prieigą prie naujo ekrano iš skirtuko **Saitai** darbo srityje **Atostogos ir neatvykimai**. Kalendoriai apima:
-  - **Įmonės kalendorius** – parodo visus darbuotojo laisvo laiko prašymus. Žmonės, turintys vaidmenį **Personalas**, gali pasiekti šį kalendorių iš skirtuko **Saitai**, esančio darbo srityje **Atostogos ir neatvykimai**.
-  - **Vadybininkų komandos kalendorius** – pateikiami visi tiesioginių ataskaitų laisvo laiko prašymai. Valdybininkai gali turėti prieigą prie kalendoriaus iš skirtuko **Mano komanda**, esančio darbuotojo savitarnos paslaugoje, dalyje **Atostogos ir neatvykimai**. 
-
-- **Atostogų ir neatvykimų šventinių dienų kalendoriai** – atostogų tipai apima naują parinktį **Šventinė diena**, naudojamą kartu su darbo laiko kalendoriumi. Dienos, apibrėžiamos kaip šventės ir ne darbo laikas, dabar priskiriamos kaip **Šventinė diena**, kai sugeneruojamos darbo dienos. Kai kaupimai apdorojami, koregavimai vykdomi su darbuotojais, paskirtais į kalendorių, kad būtų atsižvelgiama į šventines dienas, kurios yra darbo dieną.
-
-- **Atostogų kaupimo auditas** – naujas ekranas leidžia peržiūrėti, kada kaupimai buvo apdoroti ir panaikinti visiems arba atskiriems darbuotojams. Galite turėti prieigą prie šio naujo ekrano iš skirtuko **Saitai** darbo srityje **Atostogos ir neatvykimai**.
-
-- **Atostogų kaupimo naikinimas** – dabar galite panaikinti konkrečių atostogų planų kaupimo įrašus. Galite turėti prieigą prie šios naujos parinkties iš skirtuko **Saitai**, esančio darbo srityje **Atostogos ir neatvykimai**. Atskiriems darbuotojams ši parinktis rodoma darbuotojo profilyje, grupavime**Atostogos ir neatvykimai**. 
-
-- **Atostogų kaupimo apvalinimas** – naujos parinktys, skirtos **atostogų tipui**, apibrėžia, koks kaupimo apvalinimo tipas turi būti naudojamas, taip pat koks turi būti apvalinimo dešimtainių skaičių tikslumu tipas kaupimo proceso metu. Apdorojus kaupimus, apvalinimas ir tikslumas taikomi kaupimo įrašams. 
-
-- **Konfigūruoti kelis atostogų tipus viename atostogų plane** – naujas atostogų tipų atostogų kaupimo grafiko stulpelis leidžia nurodyti kelis atostogų tipus atostogų ir neatvykimų plane naudojant skirtingus kaupimo grafikus. Ankstesnis laukas **Atostogų tipas** pašalinamas. Darbuotojų registracijoje atostogų tipų balansai dabar rodomi lentelėje, o ne ekrano viršuje.
-
-  > [!IMPORTANT]
-  > Įjungę šią funkciją jos nebegalėsite išjungti.
-
-- **Naudoti darbuotojo visos darbo dienos ekvivalentiškumą (FTE) kaupimui** – naujas stulpelis, esantis atostogų kaupimo grafike, leidžia naudoti FTE kaupimui. Kai apdorojami kaupimai, programoje naudojama pirminės darbuotojo pareigos ir FTE nustatytas, kad būtų apibrėžta proporcingai paskirstyta kaupimo suma.
-
-  > [!NOTE]
-  > Ši funkcija galima tik tada, jei įjungsite **Konfigūruoti kelis atostogų tipus atostogų planui**. 
-
-## <a name="feedback"></a>Grižt. ryšys
+## <a name="send-us-feedback"></a>Atsiųskite atsiliepimą
 
 Norime sužinoti jūsų nuomonę apie jūsų įspūdžius naudojant peržiūros funkcijas. Naudojant šias arba bet kurias kitas funkcijas, skatiname reguliariai registruoti savo atsiliepimus toliau nurodytose svetainėse.
 
 - [Bendruomenė](https://community.dynamics.com/enterprise/f/759?pi53869=0&category=Talent) – ši svetainė yra puikus šaltinis, kuriame vartotojai gali diskutuoti, naudoti atvejus, užduoti klausimų ir gauti bendruomenės pagalbos.
-- Praneškite mums apie funkcijas, kurias norite matyti produkte, arba praneškite apie esamų funkcijų pakeitimus, kurie, jūsų manymu, turi būti atlikti. Siūlykite produktų idėjų skiltyje [„Human Resource“ idėjos](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
+- Praneškite mums apie funkcijas, kurias norite matyti produkte, arba praneškite apie esamų funkcijų pakeitimus, kurie, jūsų manymu, turi būti atlikti. Siūlykite produktų idėjų skiltyje [„Human Resource“ idėjos](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources).
     
 Neįtraukite asmeninių duomenų (bet kokios informacijos, kuri gali jus identifikuoti) į savo atsiliepimų ar produkto apžvalgų pateikimus. Surinkta informacija gali būti analizuojama toliau, ji nebus naudojama atsakyti į užklausas pagal taikomus privatumo įstatymus. Atskirai surinktiems asmeniniams duomenims pagal šias programas taikomos [„Microsoft“ privatumo nuostatos](https://privacy.microsoft.com/privacystatement).
 

@@ -3,7 +3,7 @@ title: Verslo dokumentų valdymo apžvalga
 description: Šioje temoje pateikiama informacija apie tai, kaip naudotis ER sistemos verslo dokumentų valdymo funkcija.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/15/2020
+ms.date: 04/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 11db3ee1e9407febce7731d0888e7a10375a90da
-ms.sourcegitcommit: 66eae22cd99e53fe8e4c6c94945ad8061b69a442
+ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
+ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3117342"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "3258562"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -248,9 +248,18 @@ Atlikite toliau nurodytą procedūrą, kad galėtumėte redaguoti laisvos formos
 1. Prisijunkite kaip vartotojas, kuriam suteikta prieiga prie verslo dokumentų valdymo darbo srities.
 2. Atidarykite verslo dokumentų valdymo darbo sritį.
 
+Kai funkcija **Į „Office“ panaši vartotojo sąsaja funkcijoje Verslo dokumentų valdymas** yra išjungta darbo srityje **Funkcijų valdymas**, darbo srities **Verslo dokumentų valdymas** pagrindiniame tinklelyje rodomi toliau pateikti šablonai.
+
+- Šablonai, priklausantys jūsų ER konfigūracijos teikėjui (t. y. teikėjui, kuris šiuo metu pažymėtas kaip aktyvus darbo srityje **Elektroninės ataskaitos**). Pasirinkę vieną iš šių šablonų, galite pasirinkti **Redaguoti šabloną**, kad pradėtumėte jį redaguoti arba tęstumėte darbą.
+- Šablonai, priklausantys kitiems ER konfigūracijos teikėjams. Pasirinkę vieną iš šių šablonų, galite pasirinkti **Naujas dokumentas**, kad sukurtumėte kopiją, priklausančią jūsų ER konfigūracijos teikėjui, o tada pradėti redaguoti kopiją.
+
 ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingTemplate1.png)
 
 Skirtuke **Šablonas** pristatomas pasirinkto šablono turinys. Pasirinkite skirtuką **Išsami informacija**, kad peržiūrėtumėte išsamią pasirinkto šablono informaciją, taip pat ER formato konfigūracijos, kurioje yra šis šablonas, išsamią informaciją. Atkreipkite dėmesį, kad visi šablonai turi būseną **Paskelbta** ir neturi jokios išsamios informacijos stulpelyje **Tikslinimas**. Tai reiškia, kad šie šablonai šiuo metu neredaguojami.
+
+Kai funkcija **Į „Office“ panaši vartotojo sąsaja funkcijoje Verslo dokumentų valdymas** įjungta darbo srityje **Funkcijų valdymas**, darbo srities **Verslo dokumentų valdymas** pagrindiniame tinklelyje rodomi šablonai, priklausantys jūsų ER konfigūracijos teikėjui (t. y. teikėjui, kuris šiuo metu pažymėtas kaip aktyvus darbo srityje **Elektroninės ataskaitos**). Pasirinkę vieną iš šių šablonų, galite pasirinkti **Redaguoti šabloną**, kad pradėtumėte jį redaguoti arba tęstumėte darbą.
+
+Norėdami dirbti su šablonais, priklausančiais kitiems ER konfigūracijos teikėjams, pasirinkite **Naujas dokumentas**, kad sukurtumėte šablono, priklausančio jūsų ER teikėjui, kopiją. Tada galite pradėti redaguoti kopiją. Daugiau informacijos žr. [Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme](er-business-document-management-new-template-ui.md).
 
 ### <a name="initiate-editing-templates-owned-by-your-configuration-provider"></a>Redagavimo šablonų, priklausančių jūsų konfigūracijos teikėjui, iniciavimas
 

@@ -2,7 +2,7 @@
 title: To paties pardavimo užsakymo paketo rezervavimas
 description: Šiame straipsnyje paaiškinta, kaip nustatyti produktą, kad būtų leidžiamas atsargų rezervavimas pagal vieną atsargų paketą.
 author: omulvad
-manager: AnnBe
+manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d90105b4713041b0c1efdc8a2e0cdf50e7dedc7
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: f1e101473c5b6958c7e0fb5c5fa80dccd3d9b467
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154625"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3216027"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>To paties pardavimo užsakymo paketo rezervavimas
 

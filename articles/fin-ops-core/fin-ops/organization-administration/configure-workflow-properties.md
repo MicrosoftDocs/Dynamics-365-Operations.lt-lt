@@ -3,7 +3,7 @@ title: Darbo eigos ypatybių konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes.
 author: sericks007
 manager: AnnBe
-ms.date: 07/17/2018
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76d44c472989a73d71c2edd19f1187ecd09827ae
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
+ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2190125"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3199441"
 ---
 # <a name="configure-workflow-properties"></a>Darbo eigos ypatybių konfigūravimas
 
@@ -75,9 +75,11 @@ Galite pateikti instrukcijas vartotojams, kurie pateiks apdorotinus ir tvirtinti
     5. Norėdami personalizuoti tekstą, galite įterpti vietos rezervavimo ženklus. Norėdami instrukcijų apie tai, kaip įvesti vietos rezervavimo ženklą, žr. 3 veiksmą.
     6. Spustelėkite **Uždaryti**.
 
-## <a name="specify-when-this-workflow-is-used"></a>Nustatymas, kada naudojama ši darbo eiga
+## <a name="specify-when-this-workflow-is-used-through-activation-conditions"></a>Nustatymas, kada naudojama ši darbo eiga naudojant aktyvinimo sąlygas
 
-Galite sukurti kelias darbo eigas pagal tą patį tipą. Pavyzdžiui, galite sukurti pirkimo paraiškos darbo eigą kiekvienai šaliai / regionui, kuriame veikia jūsų verslas, pavyzdžiui, Pirkimo paraiškos Danijoje ir Pirkimo paraiškos Ispanijoje. Sukūrus kelias darbo eigas pagal tą patį tipą, jums reikia nurodyti, kada kiekvienas šablonas bus naudojamas. Aukščiau pateiktame pavyzdyje galite nurodyti tolesnes sąlygas.
+Galite sukurti kelias darbo eigas pagal tą patį darbo eigos tipą. Sukūrus kelias darbo eigas pagal tą patį tipą, jums reikia nurodyti, kada naudojamas kiekvienas šablonas naudojant aktyvinimo sąlygas. Jei aktyvinimo sąlygų nesilaikoma, naudojama numatytoji darbo eiga. Taip pat, jei darbo eigos tipui nustatyta tik viena darbo eigos konfigūracija, ta darbo eigos konfigūracija bus naudojama neatsižvelgiant į aktyvinimo sąlygas.
+
+Pavyzdžiui, galite sukurti pirkimo paraiškos darbo eigą kiekvienai šaliai / regionui, kuriame veikia jūsų verslas, pavyzdžiui, Pirkimo paraiškos Danijoje ir Pirkimo paraiškos Ispanijoje, su toliau nurodytomis sąlygomis.
 
 - Pirkimo paraiškos Danijoje naudojamos, kai: šalis / regionas = DK.
 - Pirkimo paraiškos Ispanijoje naudojamos, kai: šalis / regionas = ES.

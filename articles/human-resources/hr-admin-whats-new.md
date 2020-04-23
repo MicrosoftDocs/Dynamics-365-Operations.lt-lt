@@ -3,7 +3,7 @@ title: Kas nauja ar pasikeitė „Human Resources”
 description: Kiekvieną savaitę išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Čia nurodytuose straipsniuose išsamiai pateikiami kiekvieną savaitę atlikti keitimai.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7ba311a3ab6ac482821e485186d81a5bcb91ab38
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 25a70b812af76fa420de69ed9b4e718991a21e43
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154464"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259614"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Kas nauja ar pasikeitė „Human Resources”
 
-Kiekvieną savaitę išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Šio skyriaus straipsniuose išsamiai pateikiami kiekvieną savaitę atlikti keitimai.
+Kas dvi savaites išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Šio skyriaus straipsniuose išsamiai pateikiami kiekviename leidime atlikti keitimai.
 
 Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcijas arba naujinimo procesą, žr. tolesnius straipsnius.
 
@@ -39,8 +39,12 @@ Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcij
 
 ## <a name="human-resources-weekly-releases"></a>Savaitiniai „Human Resources“ leidimai
 
-Norėdami sužinoti, kas nauja ar pasikeitė kiekviename savaitiniame „Human Resources” leidime, žr. tolesnius straipsnius.
+Norėdami sužinoti, kas nauja ar pasikeitė kiekviename kas dvi savaites leidžiamame „Human Resources” leidime, žr. tolesnius straipsnius.
 
+[2020 m. balandžio 13 d.](hr-whats-new-2020-04-13.md)</br>
+[2020 m. balandžio 3 d.](hr-whats-new-2020-04-03.md)</br>
+[2020 m. kovo 24 d.](hr-whats-new-2020-03-24.md)</br>
+[2020 m. kovo 19 d.](hr-whats-new-2020-03-19.md)</br>
 [2020 m. kovo 10 d.](hr-whats-new-2020-03-10.md)</br>
 [2020 m. kovo 3 d.](hr-whats-new-2020-03-03.md)</br>
 [2020 m. vasario 25 d.](hr-whats-new-2020-02-25.md)</br>

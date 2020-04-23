@@ -3,7 +3,7 @@ title: Tarifų konfigūravimas
 description: Tarifai programoje „Microsoft Dynamics 365 Human Resources“ nustato, kiek darbdaviai ir darbuotojai prisideda prie išmokos.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f846dcd0a15424ac681dd7e6a229d9da445a54e1
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 26b1e0e5f259e012cfb9079eb75898a9337a300d
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092412"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229837"
 ---
 # <a name="configure-rates"></a>Tarifų konfigūravimas
-
-[!include [banner](includes/preview-feature.md)]
 
 Tarifai programoje „Microsoft Dynamics 365 Human Resources“ nustato, kiek darbdaviai ir darbuotojai prisideda prie išmokos. Reikšmė gali būti suma arba lankstieji kreditai, atsižvelgiant į konfigūraciją.
 
@@ -43,22 +41,21 @@ Naudokite tarifus, kad nustatytumėte, kiek darbuotojai ir darbdaviai moka už k
 
    | Laukas | Aprašymas |
    | --- | --- |
-   | Tarifas | Unikalus pavadinimas, nurodantis išmokos tarifą. |
-   | Aprašymas | Išmokos tarifo aprašas. |
-   | Galioja | Tarifo įsigaliojimo data. Dabartinė sistemos data yra numatytoji reikšmė. 
-   | Galiojimo pabaiga | Tarifo pabaigos data. Data 2154-12-31 (kuri reiškia niekada) yra numatytoji reikšmė. |
-   | Naudoti pakopas | Pakopa, naudojama išmokų tarifui apskaičiuoti. Viena pakopa, skirta vienos pakopos išmokų tarifui arba dviguba pakopa, skirta dviejų pakopų išmokų tarifui. Dvigubos pakopos pavyzdys yra pakopa, grindžiama lytimi ir amžiumi. |
-   | Mokėjimo dažnumas | Mokėjimo dažnumas, kuris nustato, kaip dažnai išmokos draudimo įnašo tarifas yra mokamas išmokos teikėjui. Pavyzdžiui, esant mėnesiniam mokėjimo dažnumui, išmokos tarifas atitinka mėnesinio mokėjimo sumą. |
-   | Mokėjimo dažnumo apskaičiavimas | Mokėjimo dažnumo tarifo apskaičiavimo metodas: standartinis arba metinis. |
-   | Mokėjimo dažnumo apvalinimas | Tarifo apvalinimo metodas: standartinis arba sutrumpintas. |
-   | Nerūkančio darbuotojo suma | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Nerūkančio darbdavio suma | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Rūkančio darbuotojo suma | Mokesčio suma, kurią išmokos teikėjas taiko rūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Rūkančio darbdavio suma | Mokesčio suma, kurią išmokos teikėjas taiko rūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Administracinė suma | Administracinė suma, mokama trečiosios šalies administratoriui. Tai yra suma, kurią darbdavys moka trečiosios šalies administratoriui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Lanksčiųjų kreditų tarifas | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius. Taikoma tik išmokų planų, susietų su lanksčiųjų kreditų programomis, tarifams. Jei naudojate pakopų tarifus, lanksčiųjų kreditų tarifas nustatomas einant į „Veiksmai“ > „Pakopų tarifai“. |
-   | Keitimo įsigaliojimo data | Tarifo pasikeitimo įsigaliojimo data. Sistema automatiškai pakeis išmokų tarifą ir atnaujins visus su šiuo tarifu susijusius išmokų planus, jei vykdysite tarifo keitimo naujinimo apdorojimą. Nustatykite šią datą tik tuo atveju, jei norite, kad sistema automatiškai naujintų darbuotojų išmokų planus pagal šį tarifą. Paprastai tai taikoma tik automatiniam būsimų tarifų keitimų apdorojimui. Pakeitimo įsigaliojimo data turi atitikti išmokos tarifo įsigaliojimo ir galiojimo pabaigos datas. |
-   | Tarifas pakeistas | Žymimasis langelis „Tarifo pakeitimas atliktas” bus pasirenkamas automatiškai, kai išmokų tarifo pakeitimai bus užbaigti apdorojus tarifo pakeitimo atnaujinimą. |
+   | **Tarifas** | Unikalus pavadinimas, nurodantis išmokos tarifą. |
+   | **Aprašymas** | Išmokos tarifo aprašas. |
+   | **Galioja** | Tarifo įsigaliojimo data. Dabartinė sistemos data yra numatytoji reikšmė. 
+   | **Galiojimo pabaiga** | Tarifo pabaigos data. Data 2154-12-31 (kuri reiškia niekada) yra numatytoji reikšmė. |
+   | **Naudoti pakopas** | Pakopa, naudojama išmokų tarifui apskaičiuoti. Viena pakopa, skirta vienos pakopos išmokų tarifui arba dviguba pakopa, skirta dviejų pakopų išmokų tarifui. Dvigubos pakopos pavyzdys yra pakopa, grindžiama lytimi ir amžiumi. |
+   | **Mokėjimo dažnumas** | Mokėjimo dažnumas, kuris nustato, kaip dažnai išmokos draudimo įnašo tarifas yra mokamas išmokos teikėjui. Pavyzdžiui, esant mėnesiniam mokėjimo dažnumui, išmokos tarifas atitinka mėnesinio mokėjimo sumą. |
+   | **Mokėjimo dažnumo apvalinimas** | Tarifo apvalinimo metodas: standartinis arba sutrumpintas. |
+   | **Nerūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Nerūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Rūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko rūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Rūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko rūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Administracinė suma** | Administracinė suma, mokama trečiosios šalies administratoriui. Tai yra suma, kurią darbdavys moka trečiosios šalies administratoriui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Lanksčiųjų kreditų tarifas** | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius. Taikoma tik išmokų planų, susietų su lanksčiųjų kreditų programomis, tarifams. Jei naudojate pakopų tarifus, lanksčiųjų kreditų tarifas nustatomas einant į „Veiksmai“ > „Pakopų tarifai“. |
+   | **Keitimo įsigaliojimo data** | Tarifo pasikeitimo įsigaliojimo data. Sistema automatiškai pakeis išmokų tarifą ir atnaujins visus su šiuo tarifu susijusius išmokų planus, jei vykdysite tarifo keitimo naujinimo apdorojimą. Nustatykite šią datą tik tuo atveju, jei norite, kad sistema automatiškai naujintų darbuotojų išmokų planus pagal šį tarifą. Paprastai tai taikoma tik automatiniam būsimų tarifų keitimų apdorojimui. Pakeitimo įsigaliojimo data turi atitikti išmokos tarifo įsigaliojimo ir galiojimo pabaigos datas. |
+   | **Tarifas pakeistas** | Žymimasis langelis **Tarifo pakeitimas atliktas** bus pasirenkamas automatiškai, kai išmokų tarifo pakeitimai bus užbaigti apdorojus tarifo pakeitimo atnaujinimą. |
 
 4. Norėdami sekti ir tvarkyti išmokų tarifo sąrankos keitimus, pasirinkite **Veiksmai**, tada pasirinkite **Tvarkyti versijas**.
 
@@ -80,19 +77,19 @@ Taip pat galite naudoti dvigubas pakopas. Jeigu formoje **Tarifų sąranka** pas
 
    | Laukas | Aprašymas |
    | --- | --- | 
-   | Aprašymas | Aprašo lauko vertė bus taikoma iš aprašo, esančio tarifo sąrankos įraše. Taip yra lengviau nustatyti, su kokia tarifo sąranka susieti pakopų tarifai. |
-   | Pakopos kodas | Pakopų kodo pasirinkimas. Pakopų kodai apibrėžiami pakopų kodų formoje. Sistema automatiškai rodys pakopų kodo aprašą kairėje esančiame tinklelyje. |
-   | Pakopos tipas | Nurodo, kuris laukas turi būti naudojamas kaip pakopų tarifo apskaičiavimo proceso atrankos kriterijus. Pavyzdys:</br></br><ul><li>Jei naudojamas amžius, sistema naudosis darbuotojo gimimo data išmokų tarifo apskaičiavimo procese.</li><li>Jei naudojamas atlyginimas, sistema naudosis darbuotojo metini išmokų atlyginimą išmokų tarifo apskaičiavimo procese.</li><li>Jei naudojamas užduoties tipas, sistema naudos darbuotojo dabartinį aktyvų pareigų įrašą, kad nustatytų užduoties tipą, naudodama su pareigomis susietą užduoties įrašą.</li></ul></br></br>Pakopų tipai yra amžius, atlyginimas, sveikatos duomenys, lytis, viso etapo ekvivalentas, užduoties tipas, kompensavimo sritis ir lygis. | 
-   | Lygis | Vertė, kuri turi būti naudojama kartu su pakopų tipu išmokų tarifo apskaičiavimo proceso metu. Pavyzdys:</br></br><ul><li>Jei pakopos tipas yra amžius, bus naudojama amžiaus reikšmė.</li><li>Jei pakopos tipas yra atlyginimas, bus naudojama atlyginimo suma.</li><li> Jei pakopos tipas yra užduoties tipas, bus naudojamas užduoties tipas.</li></ul></br></br>Pasirinkus amžiaus arba atlyginimo pakopą, rinkdama pakopos tarifą sistema naudoja didėjimo metodą, t. y. vertė lauke „Lygis“ žymi apatinę pakopos ribą. Pasirinkus pakopos tipą „Darbo tipas”, rinkdama pakopos tarifą sistema naudos tikslios atitikties metodą. |
-   | Skaičiavimo tipas | Nurodo, kaip apskaičiavimo sumos lauke naudoti sumą ir kokį matematinį skaičiavimą atlikti, jei reikia. Jei skaičiavimo tipas yra fiksuota suma, sistema naudoja tokius sumos laukus, kokie yra. Jei skaičiavimo tipas yra už atlyginimo ar padengimo sumą $, sistema matematiniuose skaičiavimuose naudoja skaičiavimo sumą ir skaičiavimo kryptį.</br></br>Jei skaičiavimo tipas yra už atlyginimo sumą $, sistema naudos šią matematinę lygtį:</br></br>metinis išmokų atlyginimas, padalytas iš skaičiavimo sumos (suapvalintos į didžiąją arba mažąją pusę), padaugintos iš rūkančiam arba nerūkančiam darbuotojui ar darbdaviui skirtos sumos.</br></br>Jei skaičiavimo tipas yra už padengimo sumą $, sistema naudos šią matematinę lygtį:</br></br>padengimo suma, padalyta iš skaičiavimo sumos (suapvalintos į didžiąją arba mažąją pusę), padaugintos iš rūkančiam arba nerūkančiam darbuotojui ar darbdaviui skirtos sumos.</br></br>Abiejuose skaičiavimuose skaičiavimo kryptis naudojama siekiant nustatyti, ar metinį išmokų atlyginimą arba padengimo sumą, padalytą iš skaičiavimo sumos, suapvalinti į didžiąją ar mažąją pusę. |
-   | Skaičiavimo suma | Suma, kurią reikia naudoti išmokos tarifo apskaičiavimo procese. Ši suma bus daliklis matematiškai apskaičiuojant pakopos tarifą. |
-   | Skaičiavimo kryptis | Kryptis (didinti arba mažinti), kuria turi būti apvalinama apskaičiuoto rezultato suma. Sistema palaiko tris skaičiavimo kryptis: „Tuščias” (tikslus metodas), „Padidinti” ir „Sumažinti”.</br></br><ul><li>Jei tuščia, sistema naudos tikslų atlyginimo / padengimo sumos apskaičiavimą, padalytą iš skaičiavimo sumos. Jei ši vertė turi trupmeną, sistema tai naudos skaičiuodama.</li><li>Jei didinama, sistema padidins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalytą iš skaičiavimo sumos, iki kito sveikojo skaičiaus (tai reiškia, kad 12,25 padidės iki 13).</li><li>Jei mažinama, sistema sumažins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalytą iš skaičiavimo sumos, į turimą sveikąjį skaičių (pvz., 12,25 sumažės iki 12).</li></ul> |
-   | Nerūkančio darbuotojo suma | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Nerūkančio darbdavio suma | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Rūkančio darbuotojo suma | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Rūkančio darbdavio suma | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Administracinė suma | Administracinė suma, mokama trečiosios šalies administratoriui. Tai yra suma, kurią darbdavys moka trečiosios šalies administratoriui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
-   | Lanksčiųjų kreditų nerūkančiojo tarifas | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius, remiantis skaičiavimu, nustatytu nerūkančiųjų pakopos lygyje. Pavyzdžiui, jei skaičiavimo tipas yra „Už padengimo sumą $“, skaičiavimo suma yra 10 000, nerūkantiesiems taikomas lanksčiųjų kreditų tarifas yra 6 (tai reiškia, kad jeigu nerūkantis darbuotojas pasirenka 10 000 $ padengimą, jis kainuos 6 lanksčiuosius kreditus). Pasirinkus 20 000 $ padengimą, jis kainuos 12 lanksčiųjų kreditų ir t. t. |
-   | Lanksčiųjų kreditų tarifas, taikomas rūkantiesiems | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius, remiantis skaičiavimu, nustatytu rūkančiųjų pakopos lygyje. |
+   | **Aprašymas** | Aprašo lauko vertė bus taikoma iš aprašo, esančio tarifo sąrankos įraše. Taip yra lengviau nustatyti, su kokia tarifo sąranka susieti pakopų tarifai. |
+   | **Pakopos kodas** | Pakopų kodo pasirinkimas. Pakopų kodai apibrėžiami pakopų kodų formoje. Sistema automatiškai rodys pakopų kodo aprašą kairėje esančiame tinklelyje. |
+   | **Pakopos tipas** | Nurodo, kuris laukas turi būti naudojamas kaip pakopų tarifo apskaičiavimo proceso atrankos kriterijus. Pavyzdys:</br></br><ul><li>Jei naudojamas amžius, sistema naudosis darbuotojo gimimo data išmokų tarifo apskaičiavimo procese.</li><li>Jei naudojamas atlyginimas, sistema naudosis darbuotojo metini išmokų atlyginimą išmokų tarifo apskaičiavimo procese.</li><li>Jei naudojamas užduoties tipas, sistema naudos darbuotojo dabartinį aktyvų pareigų įrašą, kad nustatytų užduoties tipą, naudodama su pareigomis susietą užduoties įrašą.</li></ul></br></br>Pakopų tipai yra amžius, atlyginimas, sveikatos duomenys, lytis, viso etapo ekvivalentas, užduoties tipas, kompensavimo sritis ir lygis. | 
+   | **Lygis** | Vertė, kuri turi būti naudojama kartu su pakopų tipu išmokų tarifo apskaičiavimo proceso metu. Pavyzdys:</br></br><ul><li>Jei pakopos tipas yra amžius, bus naudojama amžiaus reikšmė.</li><li>Jei pakopos tipas yra atlyginimas, bus naudojama atlyginimo suma.</li><li> Jei pakopos tipas yra užduoties tipas, bus naudojamas užduoties tipas.</li></ul></br></br>Pasirinkus amžiaus arba atlyginimo pakopą, rinkdama pakopos tarifą sistema naudoja didėjimo metodą, t. y. vertė lauke „Lygis“ žymi apatinę pakopos ribą. Pasirinkus pakopos tipą „Darbo tipas”, rinkdama pakopos tarifą sistema naudos tikslios atitikties metodą. |
+   | **Skaičiavimo tipas** | Nurodo, kaip apskaičiavimo sumos lauke naudoti sumą ir kokį matematinį skaičiavimą atlikti, jei reikia. Jei skaičiavimo tipas yra fiksuota suma, sistema naudoja tokius sumos laukus, kokie yra. Jei skaičiavimo tipas yra už atlyginimo ar padengimo sumą $, sistema matematiniuose skaičiavimuose naudoja skaičiavimo sumą ir skaičiavimo kryptį.</br></br>Jei skaičiavimo tipas yra už atlyginimo sumą $, sistema naudos šią matematinę lygtį:</br></br>metinis išmokų atlyginimas, padalytas iš skaičiavimo sumos (suapvalintos į didžiąją arba mažąją pusę), padaugintos iš rūkančiam arba nerūkančiam darbuotojui ar darbdaviui skirtos sumos.</br></br>Jei skaičiavimo tipas yra už padengimo sumą $, sistema naudos šią matematinę lygtį:</br></br>padengimo suma, padalyta iš skaičiavimo sumos (suapvalintos į didžiąją arba mažąją pusę), padaugintos iš rūkančiam arba nerūkančiam darbuotojui ar darbdaviui skirtos sumos.</br></br>Abiejuose skaičiavimuose skaičiavimo kryptis naudojama siekiant nustatyti, ar metinį išmokų atlyginimą arba padengimo sumą, padalytą iš skaičiavimo sumos, suapvalinti į didžiąją ar mažąją pusę. |
+   | **Skaičiavimo suma** | Suma, kurią reikia naudoti išmokos tarifo apskaičiavimo procese. Ši suma bus daliklis matematiškai apskaičiuojant pakopos tarifą. |
+   | **Skaičiavimo kryptis** | Kryptis (didinti arba mažinti), kuria turi būti apvalinama apskaičiuoto rezultato suma. Sistema palaiko tris skaičiavimo kryptis: „Tuščias” (tikslus metodas), „Padidinti” ir „Sumažinti”.</br></br><ul><li>Jei tuščia, sistema naudos tikslų atlyginimo / padengimo sumos apskaičiavimą, padalytą iš skaičiavimo sumos. Jei ši vertė turi trupmeną, sistema tai naudos skaičiuodama.</li><li>Jei didinama, sistema padidins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalytą iš skaičiavimo sumos, iki kito sveikojo skaičiaus (tai reiškia, kad 12,25 padidės iki 13).</li><li>Jei mažinama, sistema sumažins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalytą iš skaičiavimo sumos, į turimą sveikąjį skaičių (pvz., 12,25 sumažės iki 12).</li></ul> |
+   | **Nerūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Nerūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Rūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Rūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Administracinė suma** | Administracinė suma, mokama trečiosios šalies administratoriui. Tai yra suma, kurią darbdavys moka trečiosios šalies administratoriui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
+   | **Lanksčiųjų kreditų nerūkančiojo tarifas** | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius, remiantis skaičiavimu, nustatytu nerūkančiųjų pakopos lygyje. Pavyzdžiui, jei skaičiavimo tipas yra **Už padengimo sumą $**, skaičiavimo suma yra 10 000, nerūkantiesiems taikomas lanksčiųjų kreditų tarifas yra 6 (tai reiškia, kad jeigu nerūkantis darbuotojas pasirenka 10 000 $ padengimą, jis kainuos 6 lanksčiuosius kreditus). Pasirinkus 20 000 $ padengimą, jis kainuos 12 lanksčiųjų kreditų ir t. t. |
+   | **Lanksčiųjų kreditų tarifas, taikomas rūkantiesiems** | Lanksčiųjų kreditų, kuriuos kainuoja išmoka, skaičius, remiantis skaičiavimu, nustatytu rūkančiųjų pakopos lygyje. |
 
 5. Pasirinkite **Įrašyti**. 

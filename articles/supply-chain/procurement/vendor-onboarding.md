@@ -2,7 +2,7 @@
 title: Tiekėjų supažindinimas
 description: Šioje temoje aprašomas naujų tiekėjų supažindinimas. Jame paaiškinami veiksmai, reikalingi įvairiems vaidmenims šio proceso metu.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: b1290617cc691f88f517a4f3cae5c20668173b0d
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: a7168f9042bae561eb46ecdc8eea377862af8df0
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250162"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203416"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 [!include [banner](../includes/banner.md)]
@@ -48,7 +48,7 @@ Toliau pateikiamoje lentelėje parodomi proceso veiksmai ir vaidmenys.
 | Administratorius            | | | Sukurkite vartotoją Tiekimo grandinės valdyme ir „Microsoft Azure“. | | | |
 | Tiekėjo kontaktinis asmuo    | | | Siųskite el. laišką kontaktiniam asmeniui. | Užregistruokite tiekėjo informaciją. | | |
 
-Trumpa tiekėjo supažindinimo proceso apžvalga parodyta šiame trumpame „YouTube“ vaizdo įraše: [Naujo tiekėjo supažindinimas programoje „Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk).
+Greita tiekėjų supažindinimo proceso demonstracija parodyta šiame trumpame „YouTube“ vaizdo įraše apie tai, [kaip paruošti naują tiekėją programoje „Finance and Operations“](https://www.youtube.com/watch?v=0KUc3AGaTKk).
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>Galimo tiekėjo registravimo užklausos importavimas
 
