@@ -2,7 +2,7 @@
 title: Priežiūros užklausų ataskaitos
 description: Šioje temoje aprašoma, kaip modulyje Turto valdymas sukurti priežiūros užklausų ataskaitas.
 author: josaw1
-manager: AnnBe
+manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,43 +18,43 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 0734416eccf149330b390cce897d2c254f6c698b
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 5abb62e7f92f62d4635309625d765e1c081052eb
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2571627"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3205143"
 ---
-# <a name="maintenance-request-reports"></a><span data-ttu-id="af7cc-103">Priežiūros užklausų ataskaitos</span><span class="sxs-lookup"><span data-stu-id="af7cc-103">Maintenance request reports</span></span>
+# <a name="maintenance-request-reports"></a><span data-ttu-id="ca272-103">Priežiūros užklausų ataskaitos</span><span class="sxs-lookup"><span data-stu-id="ca272-103">Maintenance request reports</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="af7cc-104">Modulyje Turto valdymas galite generuoti dvi ataskaitas, susijusias su priežiūros užklausomis.</span><span class="sxs-lookup"><span data-stu-id="af7cc-104">In Asset Management, you can generate two reports that are related to maintenance requests.</span></span> <span data-ttu-id="af7cc-105">Vienoje ataskaitoje pateikiama išsami informacija, o kitoje pateikiamas sąrašas, kurį galima naudoti planuojant ir atliekant tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="af7cc-105">One report shows details, and the other report provides a list that can be used for planning and follow-up.</span></span>
+<span data-ttu-id="ca272-104">Modulyje Turto valdymas galite generuoti dvi ataskaitas, susijusias su priežiūros užklausomis.</span><span class="sxs-lookup"><span data-stu-id="ca272-104">In Asset Management, you can generate two reports that are related to maintenance requests.</span></span> <span data-ttu-id="ca272-105">Vienoje ataskaitoje pateikiama išsami informacija, o kitoje pateikiamas sąrašas, kurį galima naudoti planuojant ir atliekant tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="ca272-105">One report shows details, and the other report provides a list that can be used for planning and follow-up.</span></span>
 
-## <a name="create-a-maintenance-request-details-report"></a><span data-ttu-id="af7cc-106">Ataskaitos Išsami priežiūros užklausos informacija kūrimas</span><span class="sxs-lookup"><span data-stu-id="af7cc-106">Create a Maintenance request details report</span></span>
+## <a name="create-a-maintenance-request-details-report"></a><span data-ttu-id="ca272-106">Ataskaitos Išsami priežiūros užklausos informacija kūrimas</span><span class="sxs-lookup"><span data-stu-id="ca272-106">Create a Maintenance request details report</span></span>
 
-<span data-ttu-id="af7cc-107">Ataskaitoje **Išsami priežiūros užklausos informacija** rodoma įvairi informacija, susijusi su priežiūros užklausoms.</span><span class="sxs-lookup"><span data-stu-id="af7cc-107">The **Maintenance request details** report shows various information that is related to maintenance requests.</span></span>
+<span data-ttu-id="ca272-107">Ataskaitoje **Išsami priežiūros užklausos informacija** rodoma įvairi informacija, susijusi su priežiūros užklausoms.</span><span class="sxs-lookup"><span data-stu-id="ca272-107">The **Maintenance request details** report shows various information that is related to maintenance requests.</span></span>
 
-1. <span data-ttu-id="af7cc-108">Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausos informacija**.</span><span class="sxs-lookup"><span data-stu-id="af7cc-108">Select **Asset management** \> **Reports** \> **Maintenance requests** \> **Maintenance request details**.</span></span>
-2. <span data-ttu-id="af7cc-109">FastTab **Įtrauktini įrašai** galite pasirinkti konkrečias į ataskaitą įtrauktinas priežiūros užklausas.</span><span class="sxs-lookup"><span data-stu-id="af7cc-109">On the **Records to include** FastTab, you can select specific maintenance requests to include on the report.</span></span>
-3. <span data-ttu-id="af7cc-110">Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.</span><span class="sxs-lookup"><span data-stu-id="af7cc-110">On the **Run in the background** FastTab, you can set up report generation as a batch job, as you require.</span></span>
-4. <span data-ttu-id="af7cc-111">Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="af7cc-111">Select **OK** to generate the report.</span></span>
+1. <span data-ttu-id="ca272-108">Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausos informacija**.</span><span class="sxs-lookup"><span data-stu-id="ca272-108">Select **Asset management** \> **Reports** \> **Maintenance requests** \> **Maintenance request details**.</span></span>
+2. <span data-ttu-id="ca272-109">FastTab **Įtrauktini įrašai** galite pasirinkti konkrečias į ataskaitą įtrauktinas priežiūros užklausas.</span><span class="sxs-lookup"><span data-stu-id="ca272-109">On the **Records to include** FastTab, you can select specific maintenance requests to include on the report.</span></span>
+3. <span data-ttu-id="ca272-110">Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.</span><span class="sxs-lookup"><span data-stu-id="ca272-110">On the **Run in the background** FastTab, you can set up report generation as a batch job, as you require.</span></span>
+4. <span data-ttu-id="ca272-111">Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="ca272-111">Select **OK** to generate the report.</span></span>
 
-<span data-ttu-id="af7cc-112">Toliau pateikiamoje iliustracijoje pavaizduotas ataskaitos **Išsami priežiūros užklausos informacija** pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="af7cc-112">The following illustration shows an example of the **Maintenance request details** report.</span></span>
+<span data-ttu-id="ca272-112">Toliau pateikiamoje iliustracijoje pavaizduotas ataskaitos **Išsami priežiūros užklausos informacija** pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="ca272-112">The following illustration shows an example of the **Maintenance request details** report.</span></span>
 
 ![Ataskaita Išsami priežiūros užklausos informacija](media/09-manage-maintenance-requests.png)
 
-## <a name="create-a-maintenance-request-list-report"></a><span data-ttu-id="af7cc-114">Ataskaitos Priežiūros užklausų sąrašas kūrimas</span><span class="sxs-lookup"><span data-stu-id="af7cc-114">Create a Maintenance request list report</span></span>
+## <a name="create-a-maintenance-request-list-report"></a><span data-ttu-id="ca272-114">Ataskaitos Priežiūros užklausų sąrašas kūrimas</span><span class="sxs-lookup"><span data-stu-id="ca272-114">Create a Maintenance request list report</span></span>
 
-<span data-ttu-id="af7cc-115">Ataskaitoje **Priežiūros užklausų sąrašas** rodomas visų to paties užklausos tipo priežiūros užklausų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="af7cc-115">The **Maintenance request list** report shows a list of all maintenance requests of the same request type.</span></span>
+<span data-ttu-id="ca272-115">Ataskaitoje **Priežiūros užklausų sąrašas** rodomas visų to paties užklausos tipo priežiūros užklausų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="ca272-115">The **Maintenance request list** report shows a list of all maintenance requests of the same request type.</span></span>
 
-1. <span data-ttu-id="af7cc-116">Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausų sąrašas**.</span><span class="sxs-lookup"><span data-stu-id="af7cc-116">Select **Asset management** \> **Reports** \> **Maintenance requests** \> **Maintenance request list**.</span></span>
-2. <span data-ttu-id="af7cc-117">FastTab **Įtrauktini įrašai** galite pasirinkti į ataskaitą įtrauktinas priežiūros užklausas.</span><span class="sxs-lookup"><span data-stu-id="af7cc-117">On the **Records to include** FastTab, you can make selections to define which maintenance requests are included on the report.</span></span>
-3. <span data-ttu-id="af7cc-118">Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.</span><span class="sxs-lookup"><span data-stu-id="af7cc-118">On the **Run in the background** FastTab, you can set up report generation as a batch job, as you require.</span></span>
-4. <span data-ttu-id="af7cc-119">Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="af7cc-119">Select **OK** to generate the report.</span></span>
+1. <span data-ttu-id="ca272-116">Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausų sąrašas**.</span><span class="sxs-lookup"><span data-stu-id="ca272-116">Select **Asset management** \> **Reports** \> **Maintenance requests** \> **Maintenance request list**.</span></span>
+2. <span data-ttu-id="ca272-117">FastTab **Įtrauktini įrašai** galite pasirinkti į ataskaitą įtrauktinas priežiūros užklausas.</span><span class="sxs-lookup"><span data-stu-id="ca272-117">On the **Records to include** FastTab, you can make selections to define which maintenance requests are included on the report.</span></span>
+3. <span data-ttu-id="ca272-118">Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.</span><span class="sxs-lookup"><span data-stu-id="ca272-118">On the **Run in the background** FastTab, you can set up report generation as a batch job, as you require.</span></span>
+4. <span data-ttu-id="ca272-119">Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.</span><span class="sxs-lookup"><span data-stu-id="ca272-119">Select **OK** to generate the report.</span></span>
 
-<span data-ttu-id="af7cc-120">Toliau pateikiamoje iliustracijoje parodytas visų aktyvių priežiūros užklausų ataskaitos **Priežiūros užklausų sąrašas** pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="af7cc-120">The following illustration shows an example of the **Maintenance request list** report for all active maintenance requests.</span></span>
+<span data-ttu-id="ca272-120">Toliau pateikiamoje iliustracijoje parodytas visų aktyvių priežiūros užklausų ataskaitos **Priežiūros užklausų sąrašas** pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="ca272-120">The following illustration shows an example of the **Maintenance request list** report for all active maintenance requests.</span></span>
 
 ![Ataskaita Priežiūros užklausų sąrašas](media/10-manage-maintenance-requests.png)

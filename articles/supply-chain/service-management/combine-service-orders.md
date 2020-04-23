@@ -2,7 +2,7 @@
 title: Jungti aptarnavimo užsakymus
 description: Galite jungti aptarnavimo užsakymus.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,31 +18,31 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b94d81c431a068e891a0e05e996594f7e0be19f9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f2a27e0476ba0b4868d713d87248941dfc3579ff
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571967"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202910"
 ---
-# <a name="combine-service-orders"></a><span data-ttu-id="4bc86-103">Jungti aptarnavimo užsakymus</span><span class="sxs-lookup"><span data-stu-id="4bc86-103">Combine service orders</span></span>   
+# <a name="combine-service-orders"></a><span data-ttu-id="0ca73-103">Jungti aptarnavimo užsakymus</span><span class="sxs-lookup"><span data-stu-id="0ca73-103">Combine service orders</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="4bc86-104">Kurdami aptarnavimo užsakymo eilutes automatiškai, formoje **Aptarnavimo sutartys** galite pasirinkti vieną iš toliau pateiktų parinkčių, skirtų nurodyti, kaip juos norite grupuoti:</span><span class="sxs-lookup"><span data-stu-id="4bc86-104">When you create service order lines automatically in the **Service agreements** form, you can choose one of the following options to specify how you want to group them:</span></span>
+<span data-ttu-id="0ca73-104">Kurdami aptarnavimo užsakymo eilutes automatiškai, formoje **Aptarnavimo sutartys** galite pasirinkti vieną iš toliau pateiktų parinkčių, skirtų nurodyti, kaip juos norite grupuoti:</span><span class="sxs-lookup"><span data-stu-id="0ca73-104">When you create service order lines automatically in the **Service agreements** form, you can choose one of the following options to specify how you want to group them:</span></span>
 
-  - <span data-ttu-id="4bc86-105">**Pagal aptarnavimo sutartį**</span><span class="sxs-lookup"><span data-stu-id="4bc86-105">**By service agreement**</span></span>
+  - <span data-ttu-id="0ca73-105">**Pagal aptarnavimo sutartį**</span><span class="sxs-lookup"><span data-stu-id="0ca73-105">**By service agreement**</span></span>
 
-  - <span data-ttu-id="4bc86-106">**Pagal aptarnavimo užduotį**</span><span class="sxs-lookup"><span data-stu-id="4bc86-106">**By service task**</span></span>
+  - <span data-ttu-id="0ca73-106">**Pagal aptarnavimo užduotį**</span><span class="sxs-lookup"><span data-stu-id="0ca73-106">**By service task**</span></span>
 
-  - <span data-ttu-id="4bc86-107">**Pagal darbuotoją**</span><span class="sxs-lookup"><span data-stu-id="4bc86-107">**By employee**</span></span>
+  - <span data-ttu-id="0ca73-107">**Pagal darbuotoją**</span><span class="sxs-lookup"><span data-stu-id="0ca73-107">**By employee**</span></span>
 
-  - <span data-ttu-id="4bc86-108">**Pagal aptarnavimo objektą**</span><span class="sxs-lookup"><span data-stu-id="4bc86-108">**By service object**</span></span>
+  - <span data-ttu-id="0ca73-108">**Pagal aptarnavimo objektą**</span><span class="sxs-lookup"><span data-stu-id="0ca73-108">**By service object**</span></span>
 
-## <a name="example"></a><span data-ttu-id="4bc86-109">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="4bc86-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0ca73-109">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="0ca73-109">Example</span></span>
 
-<span data-ttu-id="4bc86-110">Sukūrėte aptarnavimo sutartį, kurios pradžios data yra 2007-03-31.</span><span class="sxs-lookup"><span data-stu-id="4bc86-110">You create a service agreement that has a start date on 03-31-2007.</span></span> <span data-ttu-id="4bc86-111">Lauke **Jungti aptarnavimo užsakymus** nurodykite **Pagal aptarnavimo objektą**.</span><span class="sxs-lookup"><span data-stu-id="4bc86-111">In the **Combine service orders** field, you specify **By service object**.</span></span> <span data-ttu-id="4bc86-112">Tada sukuriate šias aptarnavimo sutarties eilutes:</span><span class="sxs-lookup"><span data-stu-id="4bc86-112">You then create the following service agreement lines:</span></span>
+<span data-ttu-id="0ca73-110">Sukūrėte aptarnavimo sutartį, kurios pradžios data yra 2007-03-31.</span><span class="sxs-lookup"><span data-stu-id="0ca73-110">You create a service agreement that has a start date on 03-31-2007.</span></span> <span data-ttu-id="0ca73-111">Lauke **Jungti aptarnavimo užsakymus** nurodykite **Pagal aptarnavimo objektą**.</span><span class="sxs-lookup"><span data-stu-id="0ca73-111">In the **Combine service orders** field, you specify **By service object**.</span></span> <span data-ttu-id="0ca73-112">Tada sukuriate šias aptarnavimo sutarties eilutes:</span><span class="sxs-lookup"><span data-stu-id="0ca73-112">You then create the following service agreement lines:</span></span>
 
 <table style="width:100%;">
 <colgroup>
@@ -55,60 +55,60 @@ ms.locfileid: "1571967"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4bc86-113">Sutarties eilutės numeris</span><span class="sxs-lookup"><span data-stu-id="4bc86-113">Agreement line number</span></span></p></th>
-<th><p><span data-ttu-id="4bc86-114">Operacijos tipas</span><span class="sxs-lookup"><span data-stu-id="4bc86-114">Transaction type</span></span></p></th>
-<th><p><span data-ttu-id="4bc86-115">aprašymas</span><span class="sxs-lookup"><span data-stu-id="4bc86-115">Description</span></span></p></th>
-<th><p><span data-ttu-id="4bc86-116">Intervalas</span><span class="sxs-lookup"><span data-stu-id="4bc86-116">Interval</span></span></p></th>
-<th><p><span data-ttu-id="4bc86-117">Aptarnavimo objektas</span><span class="sxs-lookup"><span data-stu-id="4bc86-117">Service object</span></span></p></th>
-<th><p><span data-ttu-id="4bc86-118">Pradžios data</span><span class="sxs-lookup"><span data-stu-id="4bc86-118">Start date</span></span></p></th>
+<th><p><span data-ttu-id="0ca73-113">Sutarties eilutės numeris</span><span class="sxs-lookup"><span data-stu-id="0ca73-113">Agreement line number</span></span></p></th>
+<th><p><span data-ttu-id="0ca73-114">Operacijos tipas</span><span class="sxs-lookup"><span data-stu-id="0ca73-114">Transaction type</span></span></p></th>
+<th><p><span data-ttu-id="0ca73-115">aprašymas</span><span class="sxs-lookup"><span data-stu-id="0ca73-115">Description</span></span></p></th>
+<th><p><span data-ttu-id="0ca73-116">Intervalas</span><span class="sxs-lookup"><span data-stu-id="0ca73-116">Interval</span></span></p></th>
+<th><p><span data-ttu-id="0ca73-117">Aptarnavimo objektas</span><span class="sxs-lookup"><span data-stu-id="0ca73-117">Service object</span></span></p></th>
+<th><p><span data-ttu-id="0ca73-118">Pradžios data</span><span class="sxs-lookup"><span data-stu-id="0ca73-118">Start date</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4bc86-119">1</span><span class="sxs-lookup"><span data-stu-id="4bc86-119">1</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-120"><strong>Valanda</strong></span><span class="sxs-lookup"><span data-stu-id="4bc86-120"><strong>Hour</strong></span></span></p></td>
-<td><p><span data-ttu-id="4bc86-121">SAL1</span><span class="sxs-lookup"><span data-stu-id="4bc86-121">SAL1</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-122">Savaitinis</span><span class="sxs-lookup"><span data-stu-id="4bc86-122">Weekly</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-123">X-1</span><span class="sxs-lookup"><span data-stu-id="4bc86-123">X-1</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-124">2007-04-01</span><span class="sxs-lookup"><span data-stu-id="4bc86-124">04-01-2007</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-119">1</span><span class="sxs-lookup"><span data-stu-id="0ca73-119">1</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-120"><strong>Valanda</strong></span><span class="sxs-lookup"><span data-stu-id="0ca73-120"><strong>Hour</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ca73-121">SAL1</span><span class="sxs-lookup"><span data-stu-id="0ca73-121">SAL1</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-122">Savaitinis</span><span class="sxs-lookup"><span data-stu-id="0ca73-122">Weekly</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-123">X-1</span><span class="sxs-lookup"><span data-stu-id="0ca73-123">X-1</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-124">2007-04-01</span><span class="sxs-lookup"><span data-stu-id="0ca73-124">04-01-2007</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4bc86-125">2</span><span class="sxs-lookup"><span data-stu-id="4bc86-125">2</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-126"><strong>Valanda</strong></span><span class="sxs-lookup"><span data-stu-id="4bc86-126"><strong>Hour</strong></span></span></p></td>
-<td><p><span data-ttu-id="4bc86-127">SAL2</span><span class="sxs-lookup"><span data-stu-id="4bc86-127">SAL2</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-128">Kas dvi savaites</span><span class="sxs-lookup"><span data-stu-id="4bc86-128">Biweekly</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-129">X-2</span><span class="sxs-lookup"><span data-stu-id="4bc86-129">X-2</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-130">2007-04-01</span><span class="sxs-lookup"><span data-stu-id="4bc86-130">04-01-2007</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-125">2</span><span class="sxs-lookup"><span data-stu-id="0ca73-125">2</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-126"><strong>Valanda</strong></span><span class="sxs-lookup"><span data-stu-id="0ca73-126"><strong>Hour</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ca73-127">SAL2</span><span class="sxs-lookup"><span data-stu-id="0ca73-127">SAL2</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-128">Kas dvi savaites</span><span class="sxs-lookup"><span data-stu-id="0ca73-128">Biweekly</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-129">X-2</span><span class="sxs-lookup"><span data-stu-id="0ca73-129">X-2</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-130">2007-04-01</span><span class="sxs-lookup"><span data-stu-id="0ca73-130">04-01-2007</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4bc86-131">3</span><span class="sxs-lookup"><span data-stu-id="4bc86-131">3</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-132"><strong>Valanda</strong></span><span class="sxs-lookup"><span data-stu-id="4bc86-132"><strong>Hour</strong></span></span></p></td>
-<td><p><span data-ttu-id="4bc86-133">SAL3</span><span class="sxs-lookup"><span data-stu-id="4bc86-133">SAL3</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-134">Savaitinis</span><span class="sxs-lookup"><span data-stu-id="4bc86-134">Weekly</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-135">X-2</span><span class="sxs-lookup"><span data-stu-id="4bc86-135">X-2</span></span></p></td>
-<td><p><span data-ttu-id="4bc86-136">2007-04-01</span><span class="sxs-lookup"><span data-stu-id="4bc86-136">04-01-2007</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-131">3</span><span class="sxs-lookup"><span data-stu-id="0ca73-131">3</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-132"><strong>Valanda</strong></span><span class="sxs-lookup"><span data-stu-id="0ca73-132"><strong>Hour</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ca73-133">SAL3</span><span class="sxs-lookup"><span data-stu-id="0ca73-133">SAL3</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-134">Savaitinis</span><span class="sxs-lookup"><span data-stu-id="0ca73-134">Weekly</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-135">X-2</span><span class="sxs-lookup"><span data-stu-id="0ca73-135">X-2</span></span></p></td>
+<td><p><span data-ttu-id="0ca73-136">2007-04-01</span><span class="sxs-lookup"><span data-stu-id="0ca73-136">04-01-2007</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="4bc86-137">Nenurodote jokios aptarnavimo sutarties eilutės laiko lango.</span><span class="sxs-lookup"><span data-stu-id="4bc86-137">You do not specify time windows for any of the service agreement lines.</span></span> <span data-ttu-id="4bc86-138">Dėl to aptarnavimo užsakymo eilutės nebus perkeltos iš apskaičiuotos dienos, į kurią jos patenka.</span><span class="sxs-lookup"><span data-stu-id="4bc86-138">Therefore, the service order lines will not move from the calculated day on which they fall.</span></span>
+<span data-ttu-id="0ca73-137">Nenurodote jokios aptarnavimo sutarties eilutės laiko lango.</span><span class="sxs-lookup"><span data-stu-id="0ca73-137">You do not specify time windows for any of the service agreement lines.</span></span> <span data-ttu-id="0ca73-138">Dėl to aptarnavimo užsakymo eilutės nebus perkeltos iš apskaičiuotos dienos, į kurią jos patenka.</span><span class="sxs-lookup"><span data-stu-id="0ca73-138">Therefore, the service order lines will not move from the calculated day on which they fall.</span></span>
 
-<span data-ttu-id="4bc86-139">Toliau formoje **Kurti aptarnavimo užsakymus** sugeneruokite aptarnavimo užsakymo eilutes nuo 2007-04-01 iki 2007-04-30.</span><span class="sxs-lookup"><span data-stu-id="4bc86-139">Next, you generate service order lines from the **Create service orders** form from 04-01-2007 until 04-30-2007.</span></span>
+<span data-ttu-id="0ca73-139">Toliau formoje **Kurti aptarnavimo užsakymus** sugeneruokite aptarnavimo užsakymo eilutes nuo 2007-04-01 iki 2007-04-30.</span><span class="sxs-lookup"><span data-stu-id="0ca73-139">Next, you generate service order lines from the **Create service orders** form from 04-01-2007 until 04-30-2007.</span></span>
 
-<span data-ttu-id="4bc86-140">Iš viso sukuriama 10 aptarnavimo užsakymų.</span><span class="sxs-lookup"><span data-stu-id="4bc86-140">In total, 10 service orders are created.</span></span> <span data-ttu-id="4bc86-141">Kadangi jūsų pasirinkti sujungti nustatymai buvo **Pagal aptarnavimo objektą**, visuose sukurtuose aptarnavimo užsakymuose yra tik tos aptarnavimo užsakymo eilutės, kuriose nurodytas vienas konkretus aptarnavimo objektas.</span><span class="sxs-lookup"><span data-stu-id="4bc86-141">Because the combined setting that you selected was **By service object**, all service orders that are created have only service order lines with one specific service object.</span></span> <span data-ttu-id="4bc86-142">Aptarnavimo užsakymo eilutės, sugeneruotos aptarnavimo sutartyje, kurių aptarnavimo data ir objektas yra tokie patys, sujungiamos į vieną aptarnavimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="4bc86-142">Service order lines that are generated from the service agreement and have the same service date and object are combined on the same service order.</span></span>
+<span data-ttu-id="0ca73-140">Iš viso sukuriama 10 aptarnavimo užsakymų.</span><span class="sxs-lookup"><span data-stu-id="0ca73-140">In total, 10 service orders are created.</span></span> <span data-ttu-id="0ca73-141">Kadangi jūsų pasirinkti sujungti nustatymai buvo **Pagal aptarnavimo objektą**, visuose sukurtuose aptarnavimo užsakymuose yra tik tos aptarnavimo užsakymo eilutės, kuriose nurodytas vienas konkretus aptarnavimo objektas.</span><span class="sxs-lookup"><span data-stu-id="0ca73-141">Because the combined setting that you selected was **By service object**, all service orders that are created have only service order lines with one specific service object.</span></span> <span data-ttu-id="0ca73-142">Aptarnavimo užsakymo eilutės, sugeneruotos aptarnavimo sutartyje, kurių aptarnavimo data ir objektas yra tokie patys, sujungiamos į vieną aptarnavimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="0ca73-142">Service order lines that are generated from the service agreement and have the same service date and object are combined on the same service order.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="4bc86-143">Šiame pavyzdyje kalendoriuje, kuris nurodytas formoje <STRONG>Aptarnavimo valdymo parametrai</STRONG>, nėra uždarytų dienų.</span><span class="sxs-lookup"><span data-stu-id="4bc86-143">In this example, the calendar that is specified in the <STRONG>Service management parameters</STRONG> form has no closed days.</span></span></P>
+> <P><span data-ttu-id="0ca73-143">Šiame pavyzdyje kalendoriuje, kuris nurodytas formoje <STRONG>Aptarnavimo valdymo parametrai</STRONG>, nėra uždarytų dienų.</span><span class="sxs-lookup"><span data-stu-id="0ca73-143">In this example, the calendar that is specified in the <STRONG>Service management parameters</STRONG> form has no closed days.</span></span></P>
 
 
 
-<span data-ttu-id="4bc86-144">Papildomas aptarnavimo užsakymo eilučių grupavimas į aptarnavimo užsakymus vykdomas pagal bet kokį laiko langą, kurį nurodote aptarnavimo sutarties eilutėse.</span><span class="sxs-lookup"><span data-stu-id="4bc86-144">Additional grouping of service order lines into service orders occurs according to any time window that you specify on the service agreement lines.</span></span>
+<span data-ttu-id="0ca73-144">Papildomas aptarnavimo užsakymo eilučių grupavimas į aptarnavimo užsakymus vykdomas pagal bet kokį laiko langą, kurį nurodote aptarnavimo sutarties eilutėse.</span><span class="sxs-lookup"><span data-stu-id="0ca73-144">Additional grouping of service order lines into service orders occurs according to any time window that you specify on the service agreement lines.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="4bc86-145">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="4bc86-145">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0ca73-145">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="0ca73-145">See also</span></span>
 
-[<span data-ttu-id="4bc86-146">Automatiškai kurkite aptarnavimo užsakymus</span><span class="sxs-lookup"><span data-stu-id="4bc86-146">Create service orders automatically</span></span>](create-service-orders-automatically.md)
+[<span data-ttu-id="0ca73-146">Automatiškai kurkite aptarnavimo užsakymus</span><span class="sxs-lookup"><span data-stu-id="0ca73-146">Create service orders automatically</span></span>](create-service-orders-automatically.md)
 
   
 

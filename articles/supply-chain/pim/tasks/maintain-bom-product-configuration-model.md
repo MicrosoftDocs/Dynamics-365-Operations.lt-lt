@@ -2,7 +2,7 @@
 title: Prižiūrėti produkto konfigūracijos modelio KS
 description: Norint paleisti šią procedūrą, reikalingas esamas produkto konfigūracijos modelis.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -10,51 +10,51 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCBOMLineDetails, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bf4854b8c596abd45eb2cffd21cf03adff68982
-ms.sourcegitcommit: fcb27d6a46cd544feef34f6ec7607bdd46b0c12b
+ms.openlocfilehash: 1aa2a22056ff4435d4c66f13c170aeadc02fbe03
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3147646"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3203577"
 ---
-# <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="fc91f-103">Prižiūrėti produkto konfigūracijos modelio KS</span><span class="sxs-lookup"><span data-stu-id="fc91f-103">Maintain BOM for a product configuration model</span></span>
+# <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="e65d3-103">Prižiūrėti produkto konfigūracijos modelio KS</span><span class="sxs-lookup"><span data-stu-id="e65d3-103">Maintain BOM for a product configuration model</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="fc91f-104">Norint paleisti šią procedūrą, reikalingas esamas produkto konfigūracijos modelis.</span><span class="sxs-lookup"><span data-stu-id="fc91f-104">Running this procedure requires an existing product configuration model.</span></span> <span data-ttu-id="fc91f-105">Šiai procedūrai sukurti naudojamas demonstracinės įmonės USMF aukščiausios kokybės garsiakalbio modelis.</span><span class="sxs-lookup"><span data-stu-id="fc91f-105">The High end speaker model in the demo company USMF is used to create this procedure.</span></span>
+<span data-ttu-id="e65d3-104">Norint paleisti šią procedūrą, reikalingas esamas produkto konfigūracijos modelis.</span><span class="sxs-lookup"><span data-stu-id="e65d3-104">Running this procedure requires an existing product configuration model.</span></span> <span data-ttu-id="e65d3-105">Šiai procedūrai sukurti naudojamas demonstracinės įmonės USMF aukščiausios kokybės garsiakalbio modelis.</span><span class="sxs-lookup"><span data-stu-id="e65d3-105">The High end speaker model in the demo company USMF is used to create this procedure.</span></span>
 
 
-## <a name="add-a-bom-line"></a><span data-ttu-id="fc91f-106">Įtraukti KS eilutę</span><span class="sxs-lookup"><span data-stu-id="fc91f-106">Add a BOM line</span></span>
-1. <span data-ttu-id="fc91f-107">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="fc91f-107">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="fc91f-108">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="fc91f-108">Click Product configuration models.</span></span>
-3. <span data-ttu-id="fc91f-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="fc91f-109">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="fc91f-110">Šiai procedūrai pasirinkite aukščiausios kokybės garsiakalbį.</span><span class="sxs-lookup"><span data-stu-id="fc91f-110">Select the High end speaker for this procedure.</span></span>  
-4. <span data-ttu-id="fc91f-111">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="fc91f-111">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="fc91f-112">Išplėskite KS eilučių skyrių.</span><span class="sxs-lookup"><span data-stu-id="fc91f-112">Expand the BOM lines section.</span></span>
-6. <span data-ttu-id="fc91f-113">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="fc91f-113">Click Add.</span></span>
-7. <span data-ttu-id="fc91f-114">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fc91f-114">In the Name field, type a value.</span></span>
-8. <span data-ttu-id="fc91f-115">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fc91f-115">In the Description field, type a value.</span></span>
-9. <span data-ttu-id="fc91f-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="fc91f-116">Click Save.</span></span>
+## <a name="add-a-bom-line"></a><span data-ttu-id="e65d3-106">Įtraukti KS eilutę</span><span class="sxs-lookup"><span data-stu-id="e65d3-106">Add a BOM line</span></span>
+1. <span data-ttu-id="e65d3-107">Spustelėkite Produkto varianto modelio aprašą.</span><span class="sxs-lookup"><span data-stu-id="e65d3-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="e65d3-108">Spustelėkite Produkto konfigūracijos modeliai.</span><span class="sxs-lookup"><span data-stu-id="e65d3-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="e65d3-109">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="e65d3-109">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e65d3-110">Šiai procedūrai pasirinkite aukščiausios kokybės garsiakalbį.</span><span class="sxs-lookup"><span data-stu-id="e65d3-110">Select the High end speaker for this procedure.</span></span>  
+4. <span data-ttu-id="e65d3-111">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="e65d3-111">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="e65d3-112">Išplėskite KS eilučių skyrių.</span><span class="sxs-lookup"><span data-stu-id="e65d3-112">Expand the BOM lines section.</span></span>
+6. <span data-ttu-id="e65d3-113">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="e65d3-113">Click Add.</span></span>
+7. <span data-ttu-id="e65d3-114">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e65d3-114">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="e65d3-115">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e65d3-115">In the Description field, type a value.</span></span>
+9. <span data-ttu-id="e65d3-116">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="e65d3-116">Click Save.</span></span>
 
-## <a name="add-bom-line-details"></a><span data-ttu-id="fc91f-117">Įtraukti KS eilutės informaciją</span><span class="sxs-lookup"><span data-stu-id="fc91f-117">Add BOM line details</span></span>
-1. <span data-ttu-id="fc91f-118">Spustelėkite KS eilutės informacija.</span><span class="sxs-lookup"><span data-stu-id="fc91f-118">Click BOM line details.</span></span>
-2. <span data-ttu-id="fc91f-119">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="fc91f-119">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="fc91f-120">Pvz., galite pasirinkti prekę M0055.</span><span class="sxs-lookup"><span data-stu-id="fc91f-120">For example, you can select the item M0055.</span></span>  
-    * <span data-ttu-id="fc91f-121">Kiekvienai KS eilutės ypatybei galite pasirinkti, ar jai priskiriama fiksuota vertė, ar ji susieta su atributu.</span><span class="sxs-lookup"><span data-stu-id="fc91f-121">For each BOM line property, you can select if it takes a fixed value or is mapped to an attribute.</span></span>  
-3. <span data-ttu-id="fc91f-122">Pažymėkite žymės langelį Nustatyti.</span><span class="sxs-lookup"><span data-stu-id="fc91f-122">Select the Set check box.</span></span>
-4. <span data-ttu-id="fc91f-123">Lauke Skaičiavimas pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="fc91f-123">Select Yes in the Calculation field.</span></span>
-    * <span data-ttu-id="fc91f-124">Skaičiavimo ypatybę nustačius į Taip, užtikrinama, kad KS eilutė bus įtraukta į išlaidų skaičiavimą.</span><span class="sxs-lookup"><span data-stu-id="fc91f-124">Setting the Calculation property to Yes ensures that the BOM line is included in cost calculations.</span></span>  
-5. <span data-ttu-id="fc91f-125">Spustelėkite skirtuką Nustatymas.</span><span class="sxs-lookup"><span data-stu-id="fc91f-125">Click the Setup tab.</span></span>
-6. <span data-ttu-id="fc91f-126">Pažymėkite žymės langelį Nustatyti.</span><span class="sxs-lookup"><span data-stu-id="fc91f-126">Select the Set check box.</span></span>
-7. <span data-ttu-id="fc91f-127">Lauke Kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="fc91f-127">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="fc91f-128">Kiekio laukas nustato, kiek yra prekės, kuri bus įtraukta į KS.</span><span class="sxs-lookup"><span data-stu-id="fc91f-128">The quantity field determines how much of the item that will be included in the BOM.</span></span> <span data-ttu-id="fc91f-129">Tai gali būti aiškus kandidatas į atributo susiejimą.</span><span class="sxs-lookup"><span data-stu-id="fc91f-129">This could be an obvious candidate for an attribute mapping.</span></span>  
-8. <span data-ttu-id="fc91f-130">Spustelėkite skirtuką Dimensija.</span><span class="sxs-lookup"><span data-stu-id="fc91f-130">Click the Dimension tab.</span></span>
-    * <span data-ttu-id="fc91f-131">Patikrinkite, ar kuri nors prekės dimensija yra aktyvi, ir todėl privalo turėti priskirtą vertę arba atributą.</span><span class="sxs-lookup"><span data-stu-id="fc91f-131">Verify if any of the product dimensions are active,  and therefore must have a value or attribute assigned.</span></span>  
-9. <span data-ttu-id="fc91f-132">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="fc91f-132">Click OK.</span></span>
+## <a name="add-bom-line-details"></a><span data-ttu-id="e65d3-117">Įtraukti KS eilutės informaciją</span><span class="sxs-lookup"><span data-stu-id="e65d3-117">Add BOM line details</span></span>
+1. <span data-ttu-id="e65d3-118">Spustelėkite KS eilutės informacija.</span><span class="sxs-lookup"><span data-stu-id="e65d3-118">Click BOM line details.</span></span>
+2. <span data-ttu-id="e65d3-119">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="e65d3-119">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="e65d3-120">Pvz., galite pasirinkti prekę M0055.</span><span class="sxs-lookup"><span data-stu-id="e65d3-120">For example, you can select the item M0055.</span></span>  
+    * <span data-ttu-id="e65d3-121">Kiekvienai KS eilutės ypatybei galite pasirinkti, ar jai priskiriama fiksuota vertė, ar ji susieta su atributu.</span><span class="sxs-lookup"><span data-stu-id="e65d3-121">For each BOM line property, you can select if it takes a fixed value or is mapped to an attribute.</span></span>  
+3. <span data-ttu-id="e65d3-122">Pažymėkite žymės langelį Nustatyti.</span><span class="sxs-lookup"><span data-stu-id="e65d3-122">Select the Set check box.</span></span>
+4. <span data-ttu-id="e65d3-123">Lauke Skaičiavimas pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="e65d3-123">Select Yes in the Calculation field.</span></span>
+    * <span data-ttu-id="e65d3-124">Skaičiavimo ypatybę nustačius į Taip, užtikrinama, kad KS eilutė bus įtraukta į išlaidų skaičiavimą.</span><span class="sxs-lookup"><span data-stu-id="e65d3-124">Setting the Calculation property to Yes ensures that the BOM line is included in cost calculations.</span></span>  
+5. <span data-ttu-id="e65d3-125">Spustelėkite skirtuką Nustatymas.</span><span class="sxs-lookup"><span data-stu-id="e65d3-125">Click the Setup tab.</span></span>
+6. <span data-ttu-id="e65d3-126">Pažymėkite žymės langelį Nustatyti.</span><span class="sxs-lookup"><span data-stu-id="e65d3-126">Select the Set check box.</span></span>
+7. <span data-ttu-id="e65d3-127">Lauke Kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="e65d3-127">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="e65d3-128">Kiekio laukas nustato, kiek yra prekės, kuri bus įtraukta į KS.</span><span class="sxs-lookup"><span data-stu-id="e65d3-128">The quantity field determines how much of the item that will be included in the BOM.</span></span> <span data-ttu-id="e65d3-129">Tai gali būti aiškus kandidatas į atributo susiejimą.</span><span class="sxs-lookup"><span data-stu-id="e65d3-129">This could be an obvious candidate for an attribute mapping.</span></span>  
+8. <span data-ttu-id="e65d3-130">Spustelėkite skirtuką Dimensija.</span><span class="sxs-lookup"><span data-stu-id="e65d3-130">Click the Dimension tab.</span></span>
+    * <span data-ttu-id="e65d3-131">Patikrinkite, ar kuri nors prekės dimensija yra aktyvi, ir todėl privalo turėti priskirtą vertę arba atributą.</span><span class="sxs-lookup"><span data-stu-id="e65d3-131">Verify if any of the product dimensions are active,  and therefore must have a value or attribute assigned.</span></span>  
+9. <span data-ttu-id="e65d3-132">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="e65d3-132">Click OK.</span></span>
 

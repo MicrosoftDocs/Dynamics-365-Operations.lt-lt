@@ -2,7 +2,7 @@
 title: Faktiniai ir finansiniai atnaujinimai
 description: Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius.
 author: AndersGirke
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
@@ -19,58 +19,58 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4360f9132d31c9d0038f51c68c1f6c3fcaaa2025
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 5ea79bd9c6561c4e4f6fad2c177f44fe62bdea5b
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250876"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3214647"
 ---
-# <a name="physical-and-financial-updates"></a><span data-ttu-id="ace1b-103">Faktiniai ir finansiniai atnaujinimai</span><span class="sxs-lookup"><span data-stu-id="ace1b-103">Physical and financial updates</span></span>
+# <a name="physical-and-financial-updates"></a><span data-ttu-id="313fc-103">Faktiniai ir finansiniai atnaujinimai</span><span class="sxs-lookup"><span data-stu-id="313fc-103">Physical and financial updates</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ace1b-104">Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius.</span><span class="sxs-lookup"><span data-stu-id="ace1b-104">This topic provides an overview of which types of transactions increase or decrease inventory quantities.</span></span> 
+<span data-ttu-id="313fc-104">Šioje temoje apžvelgiama, kokių tipų operacijos didina arba mažina atsargų kiekius.</span><span class="sxs-lookup"><span data-stu-id="313fc-104">This topic provides an overview of which types of transactions increase or decrease inventory quantities.</span></span> 
 
-<span data-ttu-id="ace1b-105">Atsargų operacijas galima faktiškai ir finansiškai naujinti „Dynamics 365 Supply Chain Management“.</span><span class="sxs-lookup"><span data-stu-id="ace1b-105">Inventory transactions can be physically updated and financially updated in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="ace1b-106">Kai kurių tipų faktinėse ir finansinėse operacijose atsargų kiekiai yra padidinami, o kitose – sumažinami.</span><span class="sxs-lookup"><span data-stu-id="ace1b-106">Some types of physical and financial transactions increase inventory quantities, whereas others decrease the quantity.</span></span>
+<span data-ttu-id="313fc-105">Atsargų operacijas galima faktiškai ir finansiškai naujinti „Dynamics 365 Supply Chain Management“.</span><span class="sxs-lookup"><span data-stu-id="313fc-105">Inventory transactions can be physically updated and financially updated in Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="313fc-106">Kai kurių tipų faktinėse ir finansinėse operacijose atsargų kiekiai yra padidinami, o kitose – sumažinami.</span><span class="sxs-lookup"><span data-stu-id="313fc-106">Some types of physical and financial transactions increase inventory quantities, whereas others decrease the quantity.</span></span>
 
-## <a name="physical-increases"></a><span data-ttu-id="ace1b-107">Faktinis didėjimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-107">Physical increases</span></span>
-<span data-ttu-id="ace1b-108">Kai užregistruota faktinė operacija, operacijos įrašo būsena yra **Gauta**.</span><span class="sxs-lookup"><span data-stu-id="ace1b-108">When a physical transaction is posted, the status of the transaction record is **Received**.</span></span> <span data-ttu-id="ace1b-109">Toliau pateiktos operacijos laikomos faktiniais padidėjimais:</span><span class="sxs-lookup"><span data-stu-id="ace1b-109">The following transactions are considered physical increases:</span></span>
+## <a name="physical-increases"></a><span data-ttu-id="313fc-107">Faktinis didėjimas</span><span class="sxs-lookup"><span data-stu-id="313fc-107">Physical increases</span></span>
+<span data-ttu-id="313fc-108">Kai užregistruota faktinė operacija, operacijos įrašo būsena yra **Gauta**.</span><span class="sxs-lookup"><span data-stu-id="313fc-108">When a physical transaction is posted, the status of the transaction record is **Received**.</span></span> <span data-ttu-id="313fc-109">Toliau pateiktos operacijos laikomos faktiniais padidėjimais:</span><span class="sxs-lookup"><span data-stu-id="313fc-109">The following transactions are considered physical increases:</span></span>
 
--   <span data-ttu-id="ace1b-110">Pirkimo užsakymo gavimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-110">Purchase order receipt</span></span>
--   <span data-ttu-id="ace1b-111">Pardavimo užsakymo važtaraščio grąžinimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-111">Sales order packing slip return</span></span>
--   <span data-ttu-id="ace1b-112">Gamybos užsakymo skelbimas baigtu</span><span class="sxs-lookup"><span data-stu-id="ace1b-112">Reporting a production order as finished</span></span>
--   <span data-ttu-id="ace1b-113">Šalutinis produktas gamybos užsakymo išrinkimo dokumente</span><span class="sxs-lookup"><span data-stu-id="ace1b-113">By-product on a production order picking list</span></span>
+-   <span data-ttu-id="313fc-110">Pirkimo užsakymo gavimas</span><span class="sxs-lookup"><span data-stu-id="313fc-110">Purchase order receipt</span></span>
+-   <span data-ttu-id="313fc-111">Pardavimo užsakymo važtaraščio grąžinimas</span><span class="sxs-lookup"><span data-stu-id="313fc-111">Sales order packing slip return</span></span>
+-   <span data-ttu-id="313fc-112">Gamybos užsakymo skelbimas baigtu</span><span class="sxs-lookup"><span data-stu-id="313fc-112">Reporting a production order as finished</span></span>
+-   <span data-ttu-id="313fc-113">Šalutinis produktas gamybos užsakymo išrinkimo dokumente</span><span class="sxs-lookup"><span data-stu-id="313fc-113">By-product on a production order picking list</span></span>
 
-## <a name="financial-increases"></a><span data-ttu-id="ace1b-114">Finansiniai padidėjimai</span><span class="sxs-lookup"><span data-stu-id="ace1b-114">Financial increases</span></span>
-<span data-ttu-id="ace1b-115">Kai užregistruojama finansinė gavimo operacija, operacijos įrašo būsena, didinanti kiekį, yra **Nupirkta**.</span><span class="sxs-lookup"><span data-stu-id="ace1b-115">When a financial receipt transaction is posted, the status of the transaction record that increases the quantity is **Purchased**.</span></span> <span data-ttu-id="ace1b-116">Toliau pateiktos operacijos laikomos finansiniais padidėjimais:</span><span class="sxs-lookup"><span data-stu-id="ace1b-116">The following transactions are considered financial increases:</span></span>
+## <a name="financial-increases"></a><span data-ttu-id="313fc-114">Finansiniai padidėjimai</span><span class="sxs-lookup"><span data-stu-id="313fc-114">Financial increases</span></span>
+<span data-ttu-id="313fc-115">Kai užregistruojama finansinė gavimo operacija, operacijos įrašo būsena, didinanti kiekį, yra **Nupirkta**.</span><span class="sxs-lookup"><span data-stu-id="313fc-115">When a financial receipt transaction is posted, the status of the transaction record that increases the quantity is **Purchased**.</span></span> <span data-ttu-id="313fc-116">Toliau pateiktos operacijos laikomos finansiniais padidėjimais:</span><span class="sxs-lookup"><span data-stu-id="313fc-116">The following transactions are considered financial increases:</span></span>
 
--   <span data-ttu-id="ace1b-117">Tiekėjo SF</span><span class="sxs-lookup"><span data-stu-id="ace1b-117">Vendor invoice</span></span>
--   <span data-ttu-id="ace1b-118">Pardavimo užsakymo grąžinimo SF</span><span class="sxs-lookup"><span data-stu-id="ace1b-118">Sales order invoice for a return</span></span>
--   <span data-ttu-id="ace1b-119">Gamybos užsakymo įkainojimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-119">Production order costing</span></span>
--   <span data-ttu-id="ace1b-120">Teigiamo kiekio atsargų žurnalai, pvz., judėjimo, pelno ir nuostolio, inventorizacijos, KS, ir perkėlimo</span><span class="sxs-lookup"><span data-stu-id="ace1b-120">Positive quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
+-   <span data-ttu-id="313fc-117">Tiekėjo SF</span><span class="sxs-lookup"><span data-stu-id="313fc-117">Vendor invoice</span></span>
+-   <span data-ttu-id="313fc-118">Pardavimo užsakymo grąžinimo SF</span><span class="sxs-lookup"><span data-stu-id="313fc-118">Sales order invoice for a return</span></span>
+-   <span data-ttu-id="313fc-119">Gamybos užsakymo įkainojimas</span><span class="sxs-lookup"><span data-stu-id="313fc-119">Production order costing</span></span>
+-   <span data-ttu-id="313fc-120">Teigiamo kiekio atsargų žurnalai, pvz., judėjimo, pelno ir nuostolio, inventorizacijos, KS, ir perkėlimo</span><span class="sxs-lookup"><span data-stu-id="313fc-120">Positive quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
 
-## <a name="transactions-that-increase-quantity"></a><span data-ttu-id="ace1b-121">Kiekį didinančios operacijos</span><span class="sxs-lookup"><span data-stu-id="ace1b-121">Transactions that increase quantity</span></span>
-<span data-ttu-id="ace1b-122">Operacijos, kuriose kiekis padidinamas, registruojamos vykdoma vidutine savikaina.</span><span class="sxs-lookup"><span data-stu-id="ace1b-122">Transactions that increase quantity are posted at the running average cost price.</span></span> <span data-ttu-id="ace1b-123">Apskaičiuota naudojama vidutinė savikaina pagrįsta kiekvienos iš šių operacijų išlaidomis kiekvienai atsargų dimensijai, kuri sekama finansiškai.</span><span class="sxs-lookup"><span data-stu-id="ace1b-123">The calculated running average cost price is based on the cost of each of these transactions for each inventory dimension that is being tracked financially.</span></span> <span data-ttu-id="ace1b-124">Daugiau informacijos apie naudojamą vidutinę savikainą rasite dalyje [Naudojama vidutinė savikaina](running-average-cost-price.md).</span><span class="sxs-lookup"><span data-stu-id="ace1b-124">For information about running average cost prices, see [Running average cost price](running-average-cost-price.md).</span></span>
+## <a name="transactions-that-increase-quantity"></a><span data-ttu-id="313fc-121">Kiekį didinančios operacijos</span><span class="sxs-lookup"><span data-stu-id="313fc-121">Transactions that increase quantity</span></span>
+<span data-ttu-id="313fc-122">Operacijos, kuriose kiekis padidinamas, registruojamos vykdoma vidutine savikaina.</span><span class="sxs-lookup"><span data-stu-id="313fc-122">Transactions that increase quantity are posted at the running average cost price.</span></span> <span data-ttu-id="313fc-123">Apskaičiuota naudojama vidutinė savikaina pagrįsta kiekvienos iš šių operacijų išlaidomis kiekvienai atsargų dimensijai, kuri sekama finansiškai.</span><span class="sxs-lookup"><span data-stu-id="313fc-123">The calculated running average cost price is based on the cost of each of these transactions for each inventory dimension that is being tracked financially.</span></span> <span data-ttu-id="313fc-124">Daugiau informacijos apie naudojamą vidutinę savikainą rasite dalyje [Naudojama vidutinė savikaina](running-average-cost-price.md).</span><span class="sxs-lookup"><span data-stu-id="313fc-124">For information about running average cost prices, see [Running average cost price](running-average-cost-price.md).</span></span>
 
-## <a name="transactions-that-decrease-quantity"></a><span data-ttu-id="ace1b-125">Kiekį mažinančios operacijos</span><span class="sxs-lookup"><span data-stu-id="ace1b-125">Transactions that decrease quantity</span></span>
-<span data-ttu-id="ace1b-126">Apskaičiuota vykdoma vidutinė savikaina naudojama, kai užregistruojama kiekį mažinanti operacija, nepaisant, koks atsargų modelis yra susietas su tomis atsargomis.</span><span class="sxs-lookup"><span data-stu-id="ace1b-126">The calculated running average cost price is used  when a transaction that decreases quantity is posted, regardless of the inventory model that is associated with that inventory.</span></span> <span data-ttu-id="ace1b-127">Kiekį mažinanti operacijos negali būti pažymėta kitai operacijai prieš registruojant.</span><span class="sxs-lookup"><span data-stu-id="ace1b-127">The transaction that decreases quantity must not have been marked to another transaction before it was posted.</span></span> <span data-ttu-id="ace1b-128">Jei faktinės turimos atsargos tampa neigiamos, naudojama atsargų savikaina, nustatyta prekei puslapyje **Prekė**.</span><span class="sxs-lookup"><span data-stu-id="ace1b-128">If the physical on-hand inventory becomes negative, the inventory cost that is defined for the item on the **Item** page is used.</span></span> 
+## <a name="transactions-that-decrease-quantity"></a><span data-ttu-id="313fc-125">Kiekį mažinančios operacijos</span><span class="sxs-lookup"><span data-stu-id="313fc-125">Transactions that decrease quantity</span></span>
+<span data-ttu-id="313fc-126">Apskaičiuota vykdoma vidutinė savikaina naudojama, kai užregistruojama kiekį mažinanti operacija, nepaisant, koks atsargų modelis yra susietas su tomis atsargomis.</span><span class="sxs-lookup"><span data-stu-id="313fc-126">The calculated running average cost price is used  when a transaction that decreases quantity is posted, regardless of the inventory model that is associated with that inventory.</span></span> <span data-ttu-id="313fc-127">Kiekį mažinanti operacijos negali būti pažymėta kitai operacijai prieš registruojant.</span><span class="sxs-lookup"><span data-stu-id="313fc-127">The transaction that decreases quantity must not have been marked to another transaction before it was posted.</span></span> <span data-ttu-id="313fc-128">Jei faktinės turimos atsargos tampa neigiamos, naudojama atsargų savikaina, nustatyta prekei puslapyje **Prekė**.</span><span class="sxs-lookup"><span data-stu-id="313fc-128">If the physical on-hand inventory becomes negative, the inventory cost that is defined for the item on the **Item** page is used.</span></span> 
 
 > [!NOTE]
-> <span data-ttu-id="ace1b-129">Jei įgalinta kelių teritorijų funkcija, ši savikaina bus atsargų savikaina, nustatyta teritorijai puslapyje **Numatytieji užsakymo parametrai**.</span><span class="sxs-lookup"><span data-stu-id="ace1b-129">If multisite functionality is enabled, this cost will instead be the inventory cost that is defined for a site on the **Default order settings** page.</span></span>
+> <span data-ttu-id="313fc-129">Jei įgalinta kelių teritorijų funkcija, ši savikaina bus atsargų savikaina, nustatyta teritorijai puslapyje **Numatytieji užsakymo parametrai**.</span><span class="sxs-lookup"><span data-stu-id="313fc-129">If multisite functionality is enabled, this cost will instead be the inventory cost that is defined for a site on the **Default order settings** page.</span></span>
 
-## <a name="physical-issues-vs-financial-issues"></a><span data-ttu-id="ace1b-130">Faktinis išdavimas ir finansinis išdavimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-130">Physical issues vs. financial issues</span></span>
-<span data-ttu-id="ace1b-131">Kai užregistruota faktinė išdavimo operacija, operacijos įrašo būsena yra **Paimta**.</span><span class="sxs-lookup"><span data-stu-id="ace1b-131">When a physical issue transaction is posted, the status of the transaction record is **Deducted**.</span></span> <span data-ttu-id="ace1b-132">Toliau pateiktos operacijos laikomos faktiniais išdavimais:</span><span class="sxs-lookup"><span data-stu-id="ace1b-132">The following transactions are considered physical issues:</span></span>
+## <a name="physical-issues-vs-financial-issues"></a><span data-ttu-id="313fc-130">Faktinis išdavimas ir finansinis išdavimas</span><span class="sxs-lookup"><span data-stu-id="313fc-130">Physical issues vs. financial issues</span></span>
+<span data-ttu-id="313fc-131">Kai užregistruota faktinė išdavimo operacija, operacijos įrašo būsena yra **Paimta**.</span><span class="sxs-lookup"><span data-stu-id="313fc-131">When a physical issue transaction is posted, the status of the transaction record is **Deducted**.</span></span> <span data-ttu-id="313fc-132">Toliau pateiktos operacijos laikomos faktiniais išdavimais:</span><span class="sxs-lookup"><span data-stu-id="313fc-132">The following transactions are considered physical issues:</span></span>
 
--   <span data-ttu-id="ace1b-133">Gamybos užsakymo išrinkimo dokumentų žurnalas</span><span class="sxs-lookup"><span data-stu-id="ace1b-133">Production order picking list journal</span></span>
--   <span data-ttu-id="ace1b-134">Pardavimo užsakymo važtaraštis</span><span class="sxs-lookup"><span data-stu-id="ace1b-134">Sales order packing slip</span></span>
--   <span data-ttu-id="ace1b-135">Pirkimo užsakymo važtaraščio grąžinimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-135">Purchase order packing slip return</span></span>
+-   <span data-ttu-id="313fc-133">Gamybos užsakymo išrinkimo dokumentų žurnalas</span><span class="sxs-lookup"><span data-stu-id="313fc-133">Production order picking list journal</span></span>
+-   <span data-ttu-id="313fc-134">Pardavimo užsakymo važtaraštis</span><span class="sxs-lookup"><span data-stu-id="313fc-134">Sales order packing slip</span></span>
+-   <span data-ttu-id="313fc-135">Pirkimo užsakymo važtaraščio grąžinimas</span><span class="sxs-lookup"><span data-stu-id="313fc-135">Purchase order packing slip return</span></span>
 
-<span data-ttu-id="ace1b-136">Kai užregistruota finansinė operacija, operacijos įrašo būsena yra **Parduota**.</span><span class="sxs-lookup"><span data-stu-id="ace1b-136">When a financial transaction is posted, the status of the transaction record is **Sold**.</span></span> <span data-ttu-id="ace1b-137">Toliau pateiktos operacijos laikomos finansiniais išdavimais:</span><span class="sxs-lookup"><span data-stu-id="ace1b-137">The following transactions are considered financial issues:</span></span>
+<span data-ttu-id="313fc-136">Kai užregistruota finansinė operacija, operacijos įrašo būsena yra **Parduota**.</span><span class="sxs-lookup"><span data-stu-id="313fc-136">When a financial transaction is posted, the status of the transaction record is **Sold**.</span></span> <span data-ttu-id="313fc-137">Toliau pateiktos operacijos laikomos finansiniais išdavimais:</span><span class="sxs-lookup"><span data-stu-id="313fc-137">The following transactions are considered financial issues:</span></span>
 
--   <span data-ttu-id="ace1b-138">Gamybos užsakymo baigimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-138">Ending a production order</span></span>
--   <span data-ttu-id="ace1b-139">Pardavimo užsakymo SF</span><span class="sxs-lookup"><span data-stu-id="ace1b-139">Sales order invoice</span></span>
--   <span data-ttu-id="ace1b-140">Tiekėjo SF grąžinimas</span><span class="sxs-lookup"><span data-stu-id="ace1b-140">Vendor invoice return</span></span>
--   <span data-ttu-id="ace1b-141">Neigiamo kiekio atsargų žurnalai, pvz., judėjimo, pelno ir nuostolio, inventorizacijos, KS, ir perkėlimo</span><span class="sxs-lookup"><span data-stu-id="ace1b-141">Negative quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
+-   <span data-ttu-id="313fc-138">Gamybos užsakymo baigimas</span><span class="sxs-lookup"><span data-stu-id="313fc-138">Ending a production order</span></span>
+-   <span data-ttu-id="313fc-139">Pardavimo užsakymo SF</span><span class="sxs-lookup"><span data-stu-id="313fc-139">Sales order invoice</span></span>
+-   <span data-ttu-id="313fc-140">Tiekėjo SF grąžinimas</span><span class="sxs-lookup"><span data-stu-id="313fc-140">Vendor invoice return</span></span>
+-   <span data-ttu-id="313fc-141">Neigiamo kiekio atsargų žurnalai, pvz., judėjimo, pelno ir nuostolio, inventorizacijos, KS, ir perkėlimo</span><span class="sxs-lookup"><span data-stu-id="313fc-141">Negative quantity inventory journals, such as movement, profit and loss, counting, bill of materials, and transfer</span></span>
 
-<span data-ttu-id="ace1b-142">Operacijos, kurios mažina kiekį, registruojamos vykdoma vidutine savikaina.</span><span class="sxs-lookup"><span data-stu-id="ace1b-142">Transactions that decrease quantity are posted at the running average cost price.</span></span> <span data-ttu-id="ace1b-143">Todėl norint sudengti išdavimo operacijas su gavimo operacijomis pagal kiekvienai prekei priskirtą atsargų modelį, reikia atlikti atsargų uždarymo procedūrą.</span><span class="sxs-lookup"><span data-stu-id="ace1b-143">Therefore, the inventory close procedure is required in order to settle issue transactions to receipt transactions, based on the inventory model that is assigned to each item.</span></span>
+<span data-ttu-id="313fc-142">Operacijos, kurios mažina kiekį, registruojamos vykdoma vidutine savikaina.</span><span class="sxs-lookup"><span data-stu-id="313fc-142">Transactions that decrease quantity are posted at the running average cost price.</span></span> <span data-ttu-id="313fc-143">Todėl norint sudengti išdavimo operacijas su gavimo operacijomis pagal kiekvienai prekei priskirtą atsargų modelį, reikia atlikti atsargų uždarymo procedūrą.</span><span class="sxs-lookup"><span data-stu-id="313fc-143">Therefore, the inventory close procedure is required in order to settle issue transactions to receipt transactions, based on the inventory model that is assigned to each item.</span></span>

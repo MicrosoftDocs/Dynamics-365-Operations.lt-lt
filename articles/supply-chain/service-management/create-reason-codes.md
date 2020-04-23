@@ -2,7 +2,7 @@
 title: Priežasčių kodų kūrimas
 description: Galite sukurti priežasčių kodus, skirtus paaiškinti, kodėl atnaujinate aptarnavimo užsakymo etapą.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAReasonCodeTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,25 +18,25 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 906325ddc7c5873a3050745100ceef6a6b8a8aa0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff99161aa88e853790ddbf5f327bff5bb3898f56
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1558416"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202841"
 ---
-# <a name="create-reason-codes"></a><span data-ttu-id="5e97b-103">Priežasčių kodų kūrimas</span><span class="sxs-lookup"><span data-stu-id="5e97b-103">Create reason codes</span></span>    
+# <a name="create-reason-codes"></a><span data-ttu-id="a786f-103">Priežasčių kodų kūrimas</span><span class="sxs-lookup"><span data-stu-id="a786f-103">Create reason codes</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="5e97b-104">Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo užsakymai** \> **Etapo priežasties kodai**.</span><span class="sxs-lookup"><span data-stu-id="5e97b-104">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
+1.  <span data-ttu-id="a786f-104">Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo užsakymai** \> **Etapo priežasties kodai**.</span><span class="sxs-lookup"><span data-stu-id="a786f-104">Click **Service management** \> **Setup** \> **Service orders** \> **Stage reason codes**.</span></span>
 
-2.  <span data-ttu-id="5e97b-105">Norėdami sukurti naują priežasties kodą, paspauskite CTRL+N.</span><span class="sxs-lookup"><span data-stu-id="5e97b-105">Press CTRL+N to create a new reason code.</span></span>
+2.  <span data-ttu-id="a786f-105">Norėdami sukurti naują priežasties kodą, paspauskite CTRL+N.</span><span class="sxs-lookup"><span data-stu-id="a786f-105">Press CTRL+N to create a new reason code.</span></span>
 
-3.  <span data-ttu-id="5e97b-106">Norėdami įrašyti priežasties kodą, paspauskite CTRL+S.</span><span class="sxs-lookup"><span data-stu-id="5e97b-106">Press CTRL+S to save the reason code.</span></span>
+3.  <span data-ttu-id="a786f-106">Norėdami įrašyti priežasties kodą, paspauskite CTRL+S.</span><span class="sxs-lookup"><span data-stu-id="a786f-106">Press CTRL+S to save the reason code.</span></span>
 
-<span data-ttu-id="5e97b-107">Paraginus pateikti priežasties kodą, skirtą paaiškinti, kodėl atnaujinate aptarnavimo užsakymo etapą, galite pasirinkti bet kurį iš čia jūsų sukurtų priežasties kodų.</span><span class="sxs-lookup"><span data-stu-id="5e97b-107">When you are prompted for a reason code to explain why you are updating a stage of the service order, you can select any of the reason codes that you create here.</span></span>
+<span data-ttu-id="a786f-107">Paraginus pateikti priežasties kodą, skirtą paaiškinti, kodėl atnaujinate aptarnavimo užsakymo etapą, galite pasirinkti bet kurį iš čia jūsų sukurtų priežasties kodų.</span><span class="sxs-lookup"><span data-stu-id="a786f-107">When you are prompted for a reason code to explain why you are updating a stage of the service order, you can select any of the reason codes that you create here.</span></span>
 
   
 

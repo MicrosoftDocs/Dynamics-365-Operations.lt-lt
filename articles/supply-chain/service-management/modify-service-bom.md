@@ -2,7 +2,7 @@
 title: Aptarnavimo KS modifikavimas
 description: Modifikuokite aptarnavimo KS.
 author: ShylaThompson
-manager: AnnBe
+manager: tfehr
 ms.date: 05/03/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
@@ -18,56 +18,56 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a66f7ea7b30e033a39c292dff4064deef6bff4c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 11017cf239c55bde5f90a0d48783740a1b3e0591
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570347"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3202266"
 ---
-# <a name="modify-a-service-bom"></a><span data-ttu-id="d85b6-103">Aptarnavimo KS modifikavimas</span><span class="sxs-lookup"><span data-stu-id="d85b6-103">Modify a Service BOM</span></span> 
+# <a name="modify-a-service-bom"></a><span data-ttu-id="df874-103">Aptarnavimo KS modifikavimas</span><span class="sxs-lookup"><span data-stu-id="df874-103">Modify a Service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="d85b6-104">Aptarnavimo KS galite įrašyti elementų retrospektyvą.</span><span class="sxs-lookup"><span data-stu-id="d85b6-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="d85b6-105">Kiekvieną kartą, kai atnaujinate KS eilutę, srityje **Retrospektyva** sukuriama retrospektyvos eilutė.</span><span class="sxs-lookup"><span data-stu-id="d85b6-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="d85b6-106">Retrospektyvos eilutėje rodoma dabartinė KS eilutės būsena.</span><span class="sxs-lookup"><span data-stu-id="d85b6-106">The history line shows the current state of the BOM line.</span></span>
+<span data-ttu-id="df874-104">Aptarnavimo KS galite įrašyti elementų retrospektyvą.</span><span class="sxs-lookup"><span data-stu-id="df874-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="df874-105">Kiekvieną kartą, kai atnaujinate KS eilutę, srityje **Retrospektyva** sukuriama retrospektyvos eilutė.</span><span class="sxs-lookup"><span data-stu-id="df874-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="df874-106">Retrospektyvos eilutėje rodoma dabartinė KS eilutės būsena.</span><span class="sxs-lookup"><span data-stu-id="df874-106">The history line shows the current state of the BOM line.</span></span>
 
-## <a name="update-a-service-bom-element"></a><span data-ttu-id="d85b6-107">Aptarnavimo KS elemento atnaujinimas</span><span class="sxs-lookup"><span data-stu-id="d85b6-107">Update a service BOM element</span></span>
+## <a name="update-a-service-bom-element"></a><span data-ttu-id="df874-107">Aptarnavimo KS elemento atnaujinimas</span><span class="sxs-lookup"><span data-stu-id="df874-107">Update a service BOM element</span></span>
 
-1.  <span data-ttu-id="d85b6-108">Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="df874-108">Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="df874-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="d85b6-109">Spustelėję **Redaguoti** atidarysite informacijos formą **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-109">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="df874-109">Spustelėję **Redaguoti** atidarysite informacijos formą **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="df874-109">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="d85b6-110">Dalyje **Veiksmų sritis** spustelėję **Aptarnavimo objektai** atidarysite formą **Aptarnavimo objektai**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="df874-110">Dalyje **Veiksmų sritis** spustelėję **Aptarnavimo objektai** atidarysite formą **Aptarnavimo objektai**.</span><span class="sxs-lookup"><span data-stu-id="df874-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="d85b6-111">Pasirinkite objektą, kurio KS eilutę atnaujinsite, tada spustelėkite **Dizaino įrankis**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="df874-111">Pasirinkite objektą, kurio KS eilutę atnaujinsite, tada spustelėkite **Dizaino įrankis**.</span><span class="sxs-lookup"><span data-stu-id="df874-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="d85b6-112">Formoje **Dizaino įrankis** pasirinkite norimą atnaujinti KS eilutę, tada spustelėkite **Redaguoti KS eilutę**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
+5.  <span data-ttu-id="df874-112">Formoje **Dizaino įrankis** pasirinkite norimą atnaujinti KS eilutę, tada spustelėkite **Redaguoti KS eilutę**.</span><span class="sxs-lookup"><span data-stu-id="df874-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
     
     > [!NOTE]
-    > <P><span data-ttu-id="d85b6-113">Skirtuke <STRONG>Sąranka</STRONG> pažymėkite žymės langelį <STRONG>Redaguoti įtraukiant</STRONG>, jei norite, kad atsidarytų forma <STRONG>Redaguoti KS eilutę</STRONG>, vilkite eilutę į aptarnavimo KS.</span><span class="sxs-lookup"><span data-stu-id="d85b6-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
+    > <P><span data-ttu-id="df874-113">Skirtuke <STRONG>Sąranka</STRONG> pažymėkite žymės langelį <STRONG>Redaguoti įtraukiant</STRONG>, jei norite, kad atsidarytų forma <STRONG>Redaguoti KS eilutę</STRONG>, vilkite eilutę į aptarnavimo KS.</span><span class="sxs-lookup"><span data-stu-id="df874-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
 
-6.  <span data-ttu-id="d85b6-114">Lauke **Kiekis** įveskite kiekį.</span><span class="sxs-lookup"><span data-stu-id="d85b6-114">In the **Quantity** field, enter the quantity.</span></span>
+6.  <span data-ttu-id="df874-114">Lauke **Kiekis** įveskite kiekį.</span><span class="sxs-lookup"><span data-stu-id="df874-114">In the **Quantity** field, enter the quantity.</span></span>
 
-7.  <span data-ttu-id="d85b6-115">Jei norite sukurti prekės, kuriai bus išrašoma SF, pakeitimo aptarnavimo užsakymo eilutę, pažymėkite žymės langelį **Kurti aptarnavimo užsakymo eilutę**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
+7.  <span data-ttu-id="df874-115">Jei norite sukurti prekės, kuriai bus išrašoma SF, pakeitimo aptarnavimo užsakymo eilutę, pažymėkite žymės langelį **Kurti aptarnavimo užsakymo eilutę**.</span><span class="sxs-lookup"><span data-stu-id="df874-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
 
-8.  <span data-ttu-id="d85b6-116">Spustelėkite **Gerai** formai uždaryti.</span><span class="sxs-lookup"><span data-stu-id="d85b6-116">Click **OK** to close the form.</span></span>
+8.  <span data-ttu-id="df874-116">Spustelėkite **Gerai** formai uždaryti.</span><span class="sxs-lookup"><span data-stu-id="df874-116">Click **OK** to close the form.</span></span>
 
-## <a name="delete-a-service-bom-line"></a><span data-ttu-id="d85b6-117">Aptarnavimo KS eilutės naikinimas</span><span class="sxs-lookup"><span data-stu-id="d85b6-117">Delete a service BOM line</span></span>
+## <a name="delete-a-service-bom-line"></a><span data-ttu-id="df874-117">Aptarnavimo KS eilutės naikinimas</span><span class="sxs-lookup"><span data-stu-id="df874-117">Delete a service BOM line</span></span>
 
-1.  <span data-ttu-id="d85b6-118">Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="df874-118">Spustelėkite **Aptarnavimo valdymas** \> **Bendrasis** \> **Aptarnavimo sutartys** \> **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="df874-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="d85b6-119">Spustelėję **Redaguoti** atidarysite informacijos formą **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-119">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="df874-119">Spustelėję **Redaguoti** atidarysite informacijos formą **Aptarnavimo sutartys**.</span><span class="sxs-lookup"><span data-stu-id="df874-119">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="d85b6-120">Dalyje **Veiksmų sritis** spustelėję **Aptarnavimo objektai** atidarysite formą **Aptarnavimo objektai**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="df874-120">Dalyje **Veiksmų sritis** spustelėję **Aptarnavimo objektai** atidarysite formą **Aptarnavimo objektai**.</span><span class="sxs-lookup"><span data-stu-id="df874-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="d85b6-121">Pasirinkite objektą, iš kurio norite ištrinti aptarnavimo KS eilutę, o tada spustelėkite **Dizaino įrankis**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="df874-121">Pasirinkite objektą, iš kurio norite ištrinti aptarnavimo KS eilutę, o tada spustelėkite **Dizaino įrankis**.</span><span class="sxs-lookup"><span data-stu-id="df874-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="d85b6-122">Formoje **Dizaino įrankis** pasirinkite norimą naikinti KS eilutę, tada spustelėkite **Naikinti KS eilutę**.</span><span class="sxs-lookup"><span data-stu-id="d85b6-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
+5.  <span data-ttu-id="df874-122">Formoje **Dizaino įrankis** pasirinkite norimą naikinti KS eilutę, tada spustelėkite **Naikinti KS eilutę**.</span><span class="sxs-lookup"><span data-stu-id="df874-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="d85b6-123">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="d85b6-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df874-123">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="df874-123">See also</span></span>
 
-[<span data-ttu-id="d85b6-124">Šabloninės KS</span><span class="sxs-lookup"><span data-stu-id="d85b6-124">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="df874-124">Šabloninės KS</span><span class="sxs-lookup"><span data-stu-id="df874-124">Template BOMs</span></span>](template-boms.md)
 
   
 
