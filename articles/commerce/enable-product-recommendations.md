@@ -3,7 +3,7 @@ title: Įjungti produktų rekomendacijas
 description: Šioje temoje paaiškinama, kaip pateikti produkto rekomendacijas, paremtas dirbtinio intelekto mašininiu mokymu (AI-ML), kurį gali naudoti „Microsoft Dynamics 365 Commerce“ klientai.
 author: bebeale
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d8a579be5df3c5e7718a6fb4720341f3bd01a64c
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154418"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259799"
 ---
 # <a name="enable-product-recommendations"></a>Įjungti produktų rekomendacijas
 
@@ -36,10 +36,30 @@ ms.locfileid: "3154418"
 
 Prieš įjungdami, atkreipkite dėmesį, kad produkto rekomendacijos palaikomos tik „Commerce“ klientams, perkėlusiems savo saugyklą naudoti „Azure Data Lake Storage“ (ADLS). 
 
-Norėdami sužinoti apie veiksmus, skirtus ADLS įgalinti, žr. [Kaip įjungti ADLS „Dynamics 365“ aplinkoje](enable-ADLS-environment.md).
+Prieš įgalinant rekomendacijas tarnybiniame biure turi būti įjungtos toliau pateiktos konfigūracijos.
 
-Be to, užtikrinkite, kad būtų įjungti RetailSale matavimo vienetai. Norėdami sužinoti daugiau apie šį sąrankos procesą, eikite [čia.](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures)
+1. Užtikrinkite, kad ADLS buvo nupirktas ir sėkmingai patikrintas aplinkoje. Daugiau informacijos žr. [Užtikrinkite, kad ADLS buvo nupirktas ir sėkmingai patikrintas aplinkoje](enable-ADLS-environment.md).
+2. Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas. Daugiau informacijos žr. [Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+3. Patvirtinkite, kad „Azure AD” tapatybės konfigūracijoje yra rekomendacijų įrašas. Toliau pateikiama daugiau informacijos apie tai, kaip atlikti šį veiksmą.
 
+Be to, užtikrinkite, kad būtų įjungti RetailSale matavimo vienetai. Norėdami sužinoti daugiau apie šį sąrankos procesą, žr. [Darbas su priemonėmis](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+
+## <a name="azure-ad-identity-configuration"></a>„Azure AD” tapatybės konfigūracija
+
+Šis veiksmas būtinas visiems klientams, kurie naudoja infrastruktūrą kaip paslaugos (IaaS) konfigūraciją. Klientams, naudojantiems „Service Fabric“ (SF), šis veiksmas turėtų būti automatinis ir rekomenduojame patikrinti, ar parametras sukonfigūruotas taip, kaip tikėtasi.
+
+### <a name="setup"></a>Sąranka
+
+1. Tarnybiniame biure ieškokite puslapio **„Azure Active Directory“ programos**.
+2. Patikrinkite, ar yra įrašas „RecommendationSystemApplication-1”.
+
+Jei įrašo nėra, pridėkite naują įrašą su toliau pateikta informacija.
+
+- **Kliento ID** – d37b07e8-dd1c-4514-835d-8b918e6f9727
+- **Pavadinimas** – „RecommendationSystemApplication-1”
+- **Vartotojo ID** – RetailServiceAccount
+
+Įrašykite ir uždarykite puslapį. 
 
 ## <a name="turn-on-recommendations"></a>Rekomendacijų įjungimas
 
@@ -49,7 +69,7 @@ Norėdami įjungti produktų rekomendacijas, atlikite toliau pateikiamus veiksmu
 1. Bendrai naudojamų parametrų sąraše pasirinkite **Rekomendacijų sąrašai**.
 1. Parinktį **Įjungti rekomendacijas** nustatykite kaip **Taip**.
 
-![įjungti produktų rekomendacijas](./media/enableproductrecommendations.png)
+![Rekomendacijų įjungimas](./media/enablepersonalization.png)
 
 > [!NOTE]
 > Ši procedūra paleidžia produktų rekomendacijų sąrašų generavimo procesą. Gali užtrukti iki kelių valandų, kol sąrašai bus pasiekiami ir juos bus galima matyti elektroniniame kasos aparate (EKA) arba programoje „Dynamics 365 Commerce“.
@@ -64,7 +84,9 @@ Po to, kai bus įjungtos rekomendacijos „Commerce“ tarnybiniame biure, rekom
 
 ## <a name="enable-personalized-recommendations"></a>Personalizuotų rekomendacijų įjungimas
 
-Norėdami daugiau sužinoti apie tai, kaip gauti personalizuotų rekomendacijų, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
+Naudojant „Microsoft Dynamics 365 Commerce“, mažmenininkai gali pritaikyti produktų rekomendacijas asmeniniams poreikiams (dar žinoma kaip suasmeninimas). Tokiu būdu asmeniniams poreikiams pritaikytos rekomendacijos gali būti įtrauktos į klientų patirtį internete ir elektroniniame kasos aparate. Įjungus suasmeninimo funkciją, sistema gali susieti vartotojo pirkinio ir produkto informaciją, kad sugeneruotų individualizuotas produkto rekomendacijas.
+
+Norėdami daugiau sužinoti apie personalizuotas rekomendacijas, žr. [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

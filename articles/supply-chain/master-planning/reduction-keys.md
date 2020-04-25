@@ -2,15 +2,15 @@
 title: Prognozės mažinimo raktai
 description: Šioje temoje pateikiami pavyzdžiai, kuriais rodoma, kaip nustatyti mažinimo raktą. Jame pateikiama informacija apie įvairius mažinimo rakto parametrus ir kiekvieno iš jų rezultatus. Naudodami mažinimo raktą, galite apibrėžti, kaip sumažinti prognozės poreikius.
 author: roxanadiaconu
-manager: AnnBe
-ms.date: 07/09/2019
+manager: tfehr
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11d5613f23805993b2a83d007c818c80de6a4b9b
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814288"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225110"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozės mažinimo raktai
 
@@ -34,7 +34,7 @@ ms.locfileid: "2814288"
 
 ## <a name="methods-that-are-used-to-reduce-forecast-requirements"></a>Naudojami prognozes poreikių mažinimo metodai
 
-Kai įtraukiate prognozę į bendrąjį planą, galite pasirinkti, kaip mažinami prognozės poreikiai, kai faktinis poreikis yra įtrauktas.
+Kai įtraukiate prognozę į bendrąjį planą, galite pasirinkti, kaip mažinami prognozės poreikiai, kai faktinis poreikis yra įtrauktas. Atkreipkite dėmesį, kad bendrasis planavimas neapima buvusių prognozės poreikių, t. y. visų prognozės poreikių, kurių data yra ankstesnė nei šios dienos data.
 
 Norėdami įtraukti prognozę į bendrąjį planą ir pasirinkti metodą, kuris naudojamas siekiant sumažinti prognozės poreikius, pasirinkite **Bendrasis planavimas \> Sąranka \> Planai \> Bendrieji planai**. Lauke **Prognozės modelis** pasirinkite prognozės modelį. Lauke **Prognozes poreikių mažinimo metodas** pasirinkite metodą. Galimos toliau nurodytos parinktys.
 

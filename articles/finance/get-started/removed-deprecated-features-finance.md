@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ec13076e6a05c3402af566487f7921f6971da215
-ms.sourcegitcommit: 1e7e7c4bc197b0a42e4d53d2a54600a2fb125b69
+ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3127982"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175113"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
 
@@ -47,6 +47,18 @@ ms.locfileid: "3127982"
 | **Paveiktos produkto sritys**         | Programos |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | Nebenaudojama: iki 2021 m. liepos 1 d. planuojame nutraukti šių SSRS ataskaitų palaikymą: **pardavimo PVM registrą, pirkimo PVM registrą, ES suvestinės PVM registrą – funkcijos nuoroda PL-00014**. Bus įvedamas „Excel“ formato pavyzdys, skirtas standartiniam audito failui kartu su PVM deklaracija (JPK_VDEK). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.11 versijoje
+
+### <a name="norwegian-standard-main-accounts"></a>Norvegijos standartinės pagrindinės sąskaitos
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Pertvarka  |
+| **Pakeitė kita funkcija?**   | Taip (pakeista programai būdingais ER formato parametrais) |
+| **Paveiktos produkto sritys**         | Programos |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Nebenaudojama: nuo 2021 m. balandžio 1 d. planuojame nebepalaikyti funkcijų, susijusių su standartinėmis pagrindinėmis sąskaitomis: nuorodos lauko, susijusios lentelės, duomenų objekto. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Finance“ 10.0.7 versijoje
 

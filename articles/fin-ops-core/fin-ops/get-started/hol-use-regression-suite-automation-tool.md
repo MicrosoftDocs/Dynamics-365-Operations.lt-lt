@@ -1,7 +1,7 @@
 ---
 title: „Regression Suite Automation Tool“ mokymo programos naudojimas
 description: Šioje temoje parodoma, kaip naudoti „Regression Suite Automation Tool“ (RSAT). Joje aprašomos įvairios funkcijos ir pateikiami pavyzdžiai, kuriuose naudojami išplėstiniai scenarijai.
-author: kfend
+author: robinarh
 manager: AnnBe
 ms.date: 06/09/2019
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: sericks
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: kfend
+ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 6cdaa89fb6d50ebaaaefe7f92d7224a1567d17d1
-ms.sourcegitcommit: 3dede95a3b17de920bb0adcb33029f990682752b
+ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
+ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/18/2020
-ms.locfileid: "3070825"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "3248741"
 ---
 # <a name="use-the-regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymo programos naudojimas
 
@@ -30,79 +30,13 @@ ms.locfileid: "3070825"
 > [!NOTE]
 > Naudodamiesi interneto naršyklės įrankiais atsisiųskite ir įrašykite šį puslapį PDF formatu. 
 
-Šioje mokymo priemonėje paaiškinamos kai kurios išplėstinės „Regression Suite Automation Tool“ (RSAT) funkcijos, pateikiamas demonstracinis priskyrimas ir aprašoma strategija bei pagrindiniai mokymosi aspektai.
+Šioje mokymo priemonėje paaiškinamos kai kurios išplėstinės „Regression Suite Automation Tool“ (RSAT) funkcijos, pateikiamas demonstracinis priskyrimas ir aprašoma strategija bei pagrindiniai mokymosi aspektai. 
 
-## <a name="features-of-rsattask-recorder"></a>RSAT / užduočių įrašymo priemonės funkcijos
+## <a name="notable-features-of-rsat-and-task-recorder"></a>Įsidėmėtinos RSAT ir užduočių įrašymo priemonės funkcijos
 
 ### <a name="validate-a-field-value"></a>Patikrinti lauko reikšmę
 
-Norėdami gauti informacijos apie šią funkciją, žr. [Naujo užduoties įrašo, turinčio tikrinimo funkciją, kūrimas](./hol-set-up-regression-suite-automation-tool.md#create-a-new-task-recording-that-has-a-validate-function).
-
-### <a name="saved-variable"></a>Įrašytas kintamasis
-
-Norėdami gauti informacijos apie šią funkciją, žr. [Esamo užduoties įrašo modifikavimas norint sukurti įrašytą kintamąjį](./hol-set-up-regression-suite-automation-tool.md#modify-an-existing-task-recording-to-create-a-saved-variable).
-
-### <a name="derived-test-case"></a>Išvesto testo atvejis
-
-1. Atidarykite „Regression suite automation tool“ (RSAT) ir pasirinkite abu tikrinimo atvejus, kuriuos sukūrėte [„Regression suite automation tool“ mokymo priemonės nustatymas ir diegimas](./hol-set-up-regression-suite-automation-tool.md).
-2. Pasirinkite **Naujas \> Kurti išvestinį tikrinimo atvejį**.
-
-    ![Komanda Kurti išvestinį tikrinimo atvejį meniu Naujas](./media/use_rsa_tool_01.png)
-
-3. Gaunate pranešimą, kuriame teigiama, kad kiekvienam pasirinktam tikrinimui skirtas tikrinimo atvejis bus sukurtas pagal dabartinį tikrinimo komplektą ir kad kiekvienas išvestinis tikrinimo atvejis turės savo „Excel“ parametro failo kopiją. Pasirinkite **Gerai**.
-
-    > [!NOTE]
-    > Paleidus išvestinį tikrinimo atvejį, jis naudoja jo pirminio tikrinimo atvejo ir savo „Excel“ parametro failo kopijos užduoties įrašą. Tokiu būdu galite atlikti tą patį tikrinimą su skirtingais parametrais, neprivalėdami tvarkyti daugiau nei vieną užduoties įrašą. Išvestinis tikrinimo atvejis nebūtinai turi priklausyti tam pačiam tikrinimų paketui kaip jo pirminis tikrinimo atvejis.
-
-    ![Pranešimo laukas](./media/use_rsa_tool_02.png)
-
-    Sukuriami du papildomi išvestiniai tikrinimo atvejai ir pažymimas jų žymės langelis **Išvestinis?**.
-
-    ![Sukuriami išvestiniai tikrinimo atvejai](./media/use_rsa_tool_03.png)
-
-    Išvestinis tikrinimo atvejis sukuriamas automatiškai „Azure DevOps“. Tai antrinis tikrinimo atvejo **Kurti naują produktą** elementas ir jis pažymėtas specialiu raktažodžiu: **RSAT:DerivedTestSteps**. Šie tikrinimo atvejai taip pat automatiškai įtraukiami į tikrinimo planą „Azure DevOps“.
-
-    ![Raktažodis RSAT:DerivedTestSteps](./media/use_rsa_tool_04.png)
-
-    > [!NOTE]
-    > Jei dėl kokių nors priežasčių išvestiniai tikrinimo atvejai nėra pateikiami tinkama tvarka, atidarykite „Azure DevOps“ ir pertvarkykite tikrinimo atvejus tikrinimo komplekte, kad RSAT galėtų paleisti juos tinkama tvarka.
-
-4. Pasirinkite išvestinius tikrinimo atvejus ir pasirinkite **Redaguoti**, kad atidarytumėte atitinkamus „Excel“ parametrų failus.
-5. Redaguokite šiuos „Excel“ parametrų failus tokiu pat būdu, kaip redagavote pirminį failą. Kitaip tariant, įsitikinkite, kad produkto ID nustatytas taip, jog jis būtų automatiškai sugeneruotas. Taip pat įsitikinkite, kad įrašytas kintamasis nukopijuojamas į atitinkamus laukus.
-6. Abiejų „Excel“ parametrų failų skirtukuose **Bendra** atnaujinkite lauko **Įmonė** reikšmę į **USSI**, kad išvestiniai tikrinimo atvejai būtų vykdomi kitame juridiniame subjekte nei pirminis tikrinimo atvejis. Norėdami vykdyti tikrinimo atvejus pagal konkretų vartotoją (arba vaidmenį, kuris susietas su konkrečiu vartotoju), galite atnaujinti lauko **Tikrinimo vartotojas** reikšmę.
-7. Pasirinkite **Vykdyti** ir įsitikinkite, kad produktas sukurtas ir juridiniame subjekte USMF ir juridiniame subjekte USSI.
-
-### <a name="validate-notifications"></a>Tikrinti pranešimus
-
-Šią funkciją galima naudoti norint patikrinti, ar įvyko veiksmas. Pavyzdžiui, kai sukuriamas, įvertinamas ir pradedamas gamybos užsakymas, programa rodo pranešimą „Gamyba – pradžia“, kad praneštų, jog pradėtas gamybos užsakymas.
-
-![Pranešimas Gamyba – pradžia](./media/use_rsa_tool_05.png)
-
-Šį pranešimą galite patikrinti naudodami RSAT – įveskite pranešimo tekstą atitinkamo įrašo „Excel“ parametro failo skirtuke **MessageValidation**.
-
-![Skirtukas Pranešimo tikrinimas](./media/use_rsa_tool_06.png)
-
-Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas su rodomu pranešimu. Jei pranešimai nesutampa, tikrinimo atvejis nepavyks.
-
-> [!NOTE]
-> „Excel“ parametro failo skirtuke **MessageValidation** galite įvesti daugiau nei vieną pranešimą. Pranešimai taip pat gali būti klaidos arba įspėjantys, o ne informaciniai pranešimai.
-
-### <a name="validate-values-by-using-operators"></a>Tikrinti reikšmes naudojant operatorius
-
-Ankstesnėse RSAT versijose galėjote tikrinti vertes tik jei kontrolinė reikšmė sutapo su numatoma reikšme. Nauja funkcija suteikia galimybę patikrinti, ar kintamasis nėra lygus, yra mažesnis arba yra didesnis už nurodytą reikšmę.
-
-- Norėdami naudoti šią funkciją atidarykite failą **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **false** į **true**.
-
-    ```xml
-    <add key="AddOperatorFieldsToExcelValidation" value="false" />
-    ```
-
-    „Excel“ parametro faile atsiranda naujas laukas **Operatorius**.
-
-    > [!NOTE]
-    > Jei naudojate senesnę RSAT versiją, turite sugeneruoti naujus „Excel“ parametrų failus.
-
-    ![Laukas Operatorius](./media/use_rsa_tool_07.png)
+RSAT leidžia įtraukti tikrinimo veiksmus jūsų testavimo atveju, kad galėtumėte tikrinti numatomas vertes. Daugiau informacijos apie šią funkciją žr. straipsnyje [Numatomų verčių tikrinimas](../../dev-itpro/perf-test/rsat/rsat-validate-expected.md).
 
 Toliau pateiktame pavyzdyje parodyta, kaip galima naudoti šią funkciją norint patikrinti, ar turimos atsargos yra daugiau nei 0 (nulis).
 
@@ -115,7 +49,7 @@ Toliau pateiktame pavyzdyje parodyta, kaip galima naudoti šią funkciją norint
     5. Sąraše pažymėkite pasirinktą eilutę.
     6. Patikrinkite, ar lauko **Iš viso turima** yra reikšmė yra **411,0000000000000000**.
 
-2. Įrašykite užduoties įrašą į BPM biblioteką, esančią LCS, ir sinchronizuokite jį į „Azure DevOps“.
+2. Įrašykite užduoties įrašą ir pridėkite jį prie testavimo atvejo, esančio „Azure Devops”.
 3. Įtraukite tikrinimo atvejį į tikrinimo planą ir įkelkite tikrinimo atvejį į RSAT.
 4. Atidarykite „Excel“ parametrų failą. Skirtuke **InventOnhandItem** matysite skiltį **Tikrinti InventOnhandItem**, kurioje pateiktas laukas **Operatorius**.
 
@@ -130,28 +64,32 @@ Toliau pateiktame pavyzdyje parodyta, kaip galima naudoti šią funkciją norint
 
 Dabar, jei nurodytos atsargų prekės reikšmė lauke **Iš viso turima** yra didesnė nei 0 (nulis), tikrinimai pavyks, nepriklausomai nuo faktinės turimų atsargų vertės.
 
-### <a name="generator-logs"></a>Generatoriaus žurnalai
+### <a name="saved-variables-and-chaining-of-test-cases"></a>Įrašyti kintamieji ir testavimo atvejų sujungimas
 
-Ši funkcija sukuria aplanką, kuriame yra paleistų tikrinimo atvejų žurnalai.
+Viena iš pagrindinių RSAT funkcijų – testavimo atvejų sujungimas, t. y. testavimo galimybė perkelti kintamuosius į kitus testus. Daugiau informacijos žr. straipsnyje [Kopijuoti kintamuosius į sujungtus testavimo atvejus](../../dev-itpro/perf-test/rsat/rsat-chain-test-cases.md).
 
-- Norėdami naudoti šią funkciją atidarykite failą **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **false** į **true**.
+### <a name="derived-test-case"></a>Išvesto testo atvejis
 
-    ```xml
-    <add key="LogGeneration" value="false" />
-    ```
+RSAT leidžia naudoti tą patį užduoties įrašą su keliais testavimo atvejais, o tai leidžia vykdyti užduotį naudojant skirtingas duomenų konfigūracijas. Daugiau informacijos žr. straipsnyje [Išvestiniai testavimo atvejai](../../dev-itpro/perf-test/rsat/rsat-derived-test-cases.md).
 
-Paleidus tikrinimo atvejus, žurnalų failus galima rasti čia: **C:\\Vartotojai\\\<Vartotojo vardas\>\\AppData\\Roaming\\regressionTool\\generatorLogs**.
+### <a name="validate-notifications-and-messages"></a>Pranešimų tikrinimas
 
-![Aplankas GeneratorLogs](./media/use_rsa_tool_10.png)
+Šią funkciją galima naudoti norint patikrinti, ar įvyko veiksmas. Pavyzdžiui, kai sukuriamas, įvertinamas ir pradedamas gamybos užsakymas, programa rodo pranešimą „Gamyba – pradžia“, kad praneštų, jog pradėtas gamybos užsakymas.
+
+![Pranešimas Gamyba – pradžia](./media/use_rsa_tool_05.png)
+
+Šį pranešimą galite patikrinti naudodami RSAT – įveskite pranešimo tekstą atitinkamo įrašo „Excel“ parametro failo skirtuke **MessageValidation**.
+
+![Skirtukas Pranešimo tikrinimas](./media/use_rsa_tool_06.png)
+
+Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas su rodomu pranešimu. Jei pranešimai nesutampa, tikrinimo atvejis nepavyks.
 
 > [!NOTE]
-> Jei prieš pakeičiant vertę, esančią .config faile, buvo tikrinimo atvejų, tų tikrinimo atvejų žurnalai nebus generuojami, kol nesugeneruosite naujų tikrinimo vykdymo failų.
-> 
-> ![Komanda Generuoti tik tikrinimo vykdymo failus meniu Naujas](./media/use_rsa_tool_11.png)
+> „Excel“ parametro failo skirtuke **MessageValidation** galite įvesti daugiau nei vieną pranešimą. Pranešimai taip pat gali būti klaidos arba įspėjantys, o ne informaciniai pranešimai.
 
 ### <a name="snapshot"></a>Momentinė kopija
 
-Ši funkcija užfiksuoja veiksmų, kurie buvo atlikti įrašant užduotį, ekrano kopijas.
+Ši funkcija užfiksuoja veiksmų, kurie buvo atlikti įrašant užduotį, ekrano kopijas. Ji naudinga audito arba programinių klaidų taisymo tikslais.
 
 - Norėdami naudoti šią funkciją atidarykite failą **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** RSAT diegimo aplanke (pvz., **C:\\Program Files (x86)\\Regression Suite Automation Tool**) ir pakeiskite toliau nurodyto elemento reikšmę iš **false** į **true**.
 
@@ -159,13 +97,7 @@ Paleidus tikrinimo atvejus, žurnalų failus galima rasti čia: **C:\\Vartotojai
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Dalyje **C:\\Vartotojai\\\<Vartotojo vardas\>\\AppData\\Roaming\\regressionTool\\atkūrimas** sukuriamas atskiras aplankas, skirtas kiekvienam paleistam atvejui.
-
-![Tikrinimo atvejo momentinės kopijos aplankas](./media/use_rsa_tool_12.png)
-
-Kiekviename iš šių aplankų galite rasti veiksmų, kurie buvo atlikti, kai buvo paleisti tikrinimo atvejai, momentines kopijas.
-
-![Momentinės kopijos failai](./media/use_rsa_tool_13.png)
+Kai vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus), esančias darbo kataloge, testavimo atvejų atkūrimo aplanke. Jei naudojate senesnę RSAT versiją, vaizdai įrašomi **C:\\Vartotojai\\\<Vartotojo vardas\>\\AppData\\Roaming\\regressionTool\\atkūrimas**, kiekvienam vykdomam testavimo atvejui sukuriamas atskiras aplankas.
 
 ## <a name="assignment"></a>Priskyrimas
 
@@ -183,7 +115,7 @@ Tolesnėje iliustracijoje vaizduojamas šio scenarijaus srautas.
 
 ![Tikrinimo scenarijaus srautas](./media/use_rsa_tool_14.png)
 
-Tolesnėje iliustracijoje vaizduojami šio scenarijaus veiklos procesai RSAT.
+Tolesnėje iliustracijoje rodoma šio scenarijaus verslo procesų hierarchija LCS verslo procesų modeliavimo įrankyje.
 
 ![Tikrinimo scenarijaus veiklos procesai](./media/use_rsa_tool_15.png)
 
@@ -377,7 +309,7 @@ Norėdami gauti visus galimus testavimo paketus, galite naudoti komandą ``listt
 
 
 #### <a name="help"></a>help
-Identiška elementui [?](####?) command
+Identiška elementui [?](#section) command
 
 
 #### <a name="list"></a>sąrašas
@@ -512,6 +444,8 @@ Rodomi du būdai, kaip iškviesti šią programą: naudojant numatytąjį parame
 
 ### <a name="windows-powershell-examples"></a>„Windows PowerShell“ pavyzdžiai
 
+[!IMPORTANT] Toliau nurodyti pavyzdiniai scenarijai yra pateikiami iliustravimo tikslais ir nėra palaikomi „Microsoft”.
+
 #### <a name="run-a-test-case-in-a-loop"></a>Tikrinimo atvejo vykdymas cikle
 
 Turite tikrinimo scenarijų, kuris sukuria naują klientą. Naudojant scenarijų šis tikrinimo atvejis gali būti vykdomas ciklu, nustatant toliau nurodytų duomenų atsitiktinumą prie kiekvieno pakartojimo vykdymą.
@@ -551,7 +485,7 @@ function RunTestCase
     $cmd = $cmd + $filename
     cmd /c $cmd
 }
-$excelFilename = "full path to excel file parameter file"
+$excelFilename = "full path to Excel parameter file"
 l$sheetName = "DirPartyQuickCreateForm"
 for ($i = $start; $i -lt $start + $nr; $i++ )
 {

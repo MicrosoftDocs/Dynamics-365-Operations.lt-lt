@@ -3,7 +3,7 @@ title: Uždarymas metų pabaigoje
 description: Šioje temoje aprašomi nustatymai ir veiksmai, reikalingi DK uždarymo metų pabaigoje procesui vykdyti.
 author: kweekley
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3071365640eb6c012cb9af5461e885bb3f135143
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 3f5b81ed788536a8b81ca53d6b6f12200836b6f5
+ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175538"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "3259776"
 ---
 # <a name="year-end-close"></a>Uždarymas metų pabaigoje
 
@@ -74,7 +74,7 @@ Parinktis **Perkelti balanso dimensijas** naudojama apibrėžiant, ar finansines
 Uždarymo metų pabaigoje procesas vykdomas nesilaikant sąskaitos struktūrų. Taip yra todėl, kad paskyros struktūras finansiniais metais galima keisti bet kada, o dėl šių pokyčių identifikuoti susijusią paskyros struktūrą pavyksta ne visada.  Sukūrus atidarymo operacijas, balansai bus perkelti kartu su finansinėmis dimensijomis, kaip apibrėžta uždarymo metų pabaigoje šablone. Į pradinių balansų vertes galima įtraukti finansines dimensijas, nebeesančias dabartinės sąskaitos struktūroje, taip pat ir nebegaliojančias dabartinės sąskaitos struktūros segmentų kombinacijas. Jei jūsų organizacija nori išskirti finansinę nepaskirstyto pelno pradinio balanso dimensiją, tą finansinę dimensiją nustatykite kaip  **Uždaryti vieną**, o dimensijos vertės lauką palikite tuščią.
 
 ## <a name="run-the-year-end-close-process"></a>Uždarymo metų pabaigoje proceso vykdymo pradžia
-Sukūrus uždarymo metų pabaigoje šablonus, uždarymo metų pabaigoje procesas pradedamas vykdyti veiksmų srityje pasirinkus **Atidaryti fiskalinį laikotarpį**. Pasirinkite visus arba dalį šablone pateiktų juridinių subjektų, kuriems norite taikyti uždarymo metų pabaigoje procesą. Pirmą kartą vykdant finansinių metų uždarymo metų pabaigoje procesą, greičiausiai norėsite pasirinkti, kad būtų sukurti visų teisinių subjektų pradiniai balansai. Jei uždarymo metų pabaigoje procesą vykdote iš naujo, galite pasirinkti, kad procesas būtų taikomas tik tiems juridiniams subjektams, kurių koregavimo įrašai buvo užregistruoti. 
+Sukūrus uždarymo metų pabaigoje šablonus, uždarymo metų pabaigoje procesas pradedamas vykdyti veiksmų srityje pasirinkus **Uždaryti finansinį laikotarpį**. Pasirinkite visus arba dalį šablone pateiktų juridinių subjektų, kuriems norite taikyti uždarymo metų pabaigoje procesą. Pirmą kartą vykdant finansinių metų uždarymo metų pabaigoje procesą, greičiausiai norėsite pasirinkti, kad būtų sukurti visų teisinių subjektų pradiniai balansai. Jei uždarymo metų pabaigoje procesą vykdote iš naujo, galite pasirinkti, kad procesas būtų taikomas tik tiems juridiniams subjektams, kurių koregavimo įrašai buvo užregistruoti. 
 
 Pasirinkite finansinius metus, kuriems norėtumėte taikyti uždarymo metų pabaigoje procesą. Jei tų finansinių metų paskutinis laikotarpis turi daugiau nei vieną uždarymo laikotarpį, bus pasiekiamas laukas **Laikotarpio pavadinimas**, kad galėtumėte pasirinkti, kurį laikotarpį registruoti uždarymo operacijai, jei sąrankoje apibrėžta sukurti tokią operaciją. 
 

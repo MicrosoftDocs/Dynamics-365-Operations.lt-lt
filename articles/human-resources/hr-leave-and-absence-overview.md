@@ -1,9 +1,9 @@
 ---
 title: Peržiūra
-description: Programos Dynamics 365 Human Resources darbo sritis **Atostogos ir neatvykimai** suteikia lanksčią sistemą, skirtą naujiems atostogų planams ir užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti.
+description: Programos Dynamics 365 Human Resources darbo sritis Atostogos ir neatvykimai suteikia lanksčią sistemą, skirtą naujiems atostogų planams ir užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 493bc3abe82103541125914896252b2eae596b38
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
+ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091753"
+ms.lasthandoff: 04/04/2020
+ms.locfileid: "3226235"
 ---
 # <a name="overview"></a>Peržiūra
 
@@ -51,31 +51,35 @@ Prieš kurdami savo darbuotojų atostogų planus, turite sukurti atostogų ir ne
 
 Jūsų darbuotojai gali pateikti atostogų užklausas, o jūs galite jas tvarkyti darbo srityje **Darbuotojo savitarna**.
 
-- [Atostogų užklausa](hr-employee-self-service-request-time-off.md)
-- [Atostogų ir neatvykimų užklausų valdymas](hr-employee-self-service-manage-requests.md)
+- [Prašyti išleisti iš darbo](hr-employee-self-service-request-time-off.md)
+- [Atostogų ir leidimo neatvykti prašymų valdymas](hr-employee-self-service-manage-requests.md)
+
+## <a name="leave-and-absence-known-issues"></a>Žinomos atostogų ir neatvykimų problemos
+
+### <a name="rounding-precision"></a>Apvalinimo tikslumas
+
+Negalite nustatyti **apvalinimo tikslumo**, kai nustatote **apvalinimo tipą**. **Apvalinimo tikslumą** galite nustatyti tik naudodami objektą **Atostogų ir neatvykimo tipai**. 
+
+1. Dalyje **Atostogų ir neatvykimų tipai** pasirinkite **Atidaryti naudojant „Excel“**, kad atidarytumėte objektą **Atostogų ir neatvykimų tipai**.
+
+2. Atidarę ir įjungę failą, pasirinkite **Dizainas**.
+
+3. Lentelėje **Atostogų ir neatvykimo tipai** pasirinkite pieštuko parinktį, kad galėtumėte redaguoti.
+
+4. Pasirinkite **Apvalinimo tikslumas** ir **Apvalinimo tipas**, tada pasirinkite **Įtraukti**, kad įtrauktumėte į laukų sąrašą.
+
+5. Pasirinkite **Naujinti**, tada – **Atlikta**.
+
+6. Įveskite arba pasirinkite kiekvieno atostogų tipo **apvalinimo tipą**, jei nėra jau nustatyta. 
+
+7. Įveskite atitinkamų tipų **apvalinimo tikslumą**.
+
+8. Pasirinkite **Publikuoti**, kad keitimai būtų taikomi „Human Resources”.
 
 ## <a name="leave-and-absence-preview-features"></a>Atostogų ir neatvykimų peržiūros funkcijos
 
 Naujas atostogų ir neatvykimų funkcijas galite išbandyti aplinkoje **Smėlio dėžė**. Daugiau informacijos apie peržiūros funkcijas, žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md). Peržiūros funkcijos apima:
 
-- **Atostogų ir neatvykimų kalendorius** – atostogų ir neatvykimų parametrai pereis iš **Personalo parametrai** į naują ekraną, pavadintą **Atostogų ir neatvykimų parametrai**. Naujame ekrane yra naujas skirtukas **Kalendorius**. Ši peržiūra įgalina tik parametrų porinkinį. Galite turėti prieigą prie naujo ekrano iš skirtuko **Saitai** darbo srityje **Atostogos ir neatvykimai**. Kalendoriai apima:
-  - **Įmonės kalendorius** – parodo visus darbuotojo laisvo laiko prašymus. Žmonės, turintys vaidmenį **Personalas**, gali pasiekti šį kalendorių iš skirtuko **Saitai**, esančio darbo srityje **Atostogos ir neatvykimai**.
-  - **Vadybininkų komandos kalendorius** – pateikiami visi tiesioginių ataskaitų laisvo laiko prašymai. Valdybininkai gali turėti prieigą prie kalendoriaus iš skirtuko **Mano komanda**, esančio darbuotojo savitarnos paslaugoje, dalyje **Atostogos ir neatvykimai**. 
+- **Atostogų sustabdymas** – programoje „Human Resources” galite sustabdyti darbuotojo atostogas ir neatvykimą. Atostogų sustabdymas sustabdo pasirinktų atostogų tipų atostogų kaupimus. Jei sustabdymas įvyksta po to, kai kaupimas apdorojamas, atostogų sustabdymas sukuria proporcingai paskirstytą darbuotojo atostogų balanso koregavimą. 
 
-- **Atostogų ir neatvykimų šventinių dienų kalendoriai** – atostogų tipai apima naują parinktį **Šventinė diena**, naudojamą kartu su darbo laiko kalendoriumi. Dienos, apibrėžiamos kaip šventės ir ne darbo laikas, dabar priskiriamos kaip **Šventinė diena**, kai sugeneruojamos darbo dienos. Kai kaupimai apdorojami, koregavimai vykdomi su darbuotojais, paskirtais į kalendorių, kad būtų atsižvelgiama į šventines dienas, kurios yra darbo dieną.
-
-- **Atostogų kaupimo auditas** – naujas ekranas leidžia peržiūrėti, kada kaupimai buvo apdoroti ir panaikinti visiems arba atskiriems darbuotojams. Galite turėti prieigą prie šio naujo ekrano iš skirtuko **Saitai** darbo srityje **Atostogos ir neatvykimai**.
-
-- **Atostogų kaupimo naikinimas** – dabar galite panaikinti konkrečių atostogų planų kaupimo įrašus. Galite turėti prieigą prie šios naujos parinkties iš skirtuko **Saitai**, esančio darbo srityje **Atostogos ir neatvykimai**. Atskiriems darbuotojams ši parinktis rodoma darbuotojo profilyje, grupavime**Atostogos ir neatvykimai**. 
-
-- **Atostogų kaupimo apvalinimas** – naujos parinktys, skirtos **atostogų tipui**, apibrėžia, koks kaupimo apvalinimo tipas turi būti naudojamas, taip pat koks turi būti apvalinimo dešimtainių skaičių tikslumu tipas kaupimo proceso metu. Apdorojus kaupimus, apvalinimas ir tikslumas taikomi kaupimo įrašams. 
-
-- **Konfigūruoti kelis atostogų tipus viename atostogų plane** – naujas atostogų tipų atostogų kaupimo grafiko stulpelis leidžia nurodyti kelis atostogų tipus atostogų ir neatvykimų plane naudojant skirtingus kaupimo grafikus. Ankstesnis laukas **Atostogų tipas** pašalinamas. Darbuotojų registracijoje atostogų tipų balansai dabar rodomi lentelėje, o ne ekrano viršuje.
-
-  > [!IMPORTANT]
-  > Įjungę šią funkciją jos nebegalėsite išjungti.
-
-- **Naudoti darbuotojo visos darbo dienos ekvivalentiškumą (FTE) kaupimui** – naujas stulpelis, esantis atostogų kaupimo grafike, leidžia naudoti FTE kaupimui. Kai apdorojami kaupimai, programoje naudojama pirminės darbuotojo pareigos ir FTE nustatytas, kad būtų apibrėžta proporcingai paskirstyta kaupimo suma.
-
-  > [!NOTE]
-  > Ši funkcija galima tik tada, jei įjungsite **Konfigūruoti kelis atostogų tipus atostogų planui**. 
+- **Perkėlimo taisyklės** – galite nurodyti perkėlimo atostogų tipą, skirtą perkėlimo balansams ir į kurį perkeliami perkeliamų balansų koregavimai. Pavyzdžiui, jei darbuotojas perkelia 10 dienų, toms 10 dienų galite pasirinkti kitą atostogų tipą. 

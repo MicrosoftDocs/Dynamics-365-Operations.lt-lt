@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a6b0fa28d778a4d9fa1f718b1d50bf1dce00be00
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: ba720fd1bbbbf8b4f3b936d65d9d7840432f291a
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2186123"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3145034"
 ---
 # <a name="define-audit-policies-for-source-documents"></a>Šaltinio dokumentų audito strategijų apibrėžimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje aiškinama, kaip konfigūruoti ir vykdyti audito strategijų taisykles. Pavyzdyje naudojamos viešbučio tipo išlaidų ataskaitos. Šioje procedūroje naudojama demonstracinė įmonė USMF. Kad būtų galima atlikti šias užduotis, auditoriaus vaidmenį sudaro tinkamos teisės.
 

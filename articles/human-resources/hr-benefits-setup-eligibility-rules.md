@@ -3,7 +3,7 @@ title: Tinkamumo taisyklių ir parinkčių konfigūravimas
 description: Tinkamumo taisyklių ir parinkčių valdant išmokas programoje „Microsoft Dynamics 365 Human Resources“ nustatymas.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 448156a2428e99d8b95de547cb6f1621d49b1c7b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 07dd8a6ca7edb460769f761950dc0c143112f708
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3010001"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3229906"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Tinkamumo taisyklių ir parinkčių konfigūravimas
-
-[!include [banner](includes/preview-feature.md)]
 
 Sukonfigūravus reikiamus išmokų valdymo parametrus programoje „Microsoft Dynamics 365 Human Resources“, galima kurti tinkamumo taisykles, grupavimus, laikotarpius ir programas, kurias susiesite su išmokų planais.
 
@@ -57,6 +55,7 @@ Atviros registracijos metu darbuotojai gali pasirinkti išmokų planus. Jeigu pa
    | **Įdarbinimo kategorija** | Darbuotojo įdarbinimo kategorija, jei perjungiklis **Naudoti įdarbinimo kategoriją** nustatytas kaip **Taip**. |
    | **Naudoti naują samdos taisyklę** | Nurodo, ar naudoti naujos samdos laikotarpio reikšmę kuriant išmokų tinkamumo taisyklę. |
    | **Registracijos laikotarpis** | Laikotarpis, per kurį leidžiama naujos samdos registracija. Jei tą patį nustatėte parametruose, parametrų nustatymams teikiama pirmenybė. |
+   | **Naudoti ankstesnę įdarbinimo būseną** | Nurodo, ar naudoti ankstesnę darbuotojo įdarbinimo būseną išmokų tinkamumo taisyklėje. Pavyzdžiui, galite nurodyti tinkamumo taisyklę, kuri atsisako visų darbuotojų, kurie per 90 dienų nuo ankstesnio įdarbinimo perėjo iš būsenos **Atleistas** į būseną **Įdarbintas**, draudimo laukimo laikotarpio. |
 
 4. Dalyje **Papildomi kriterijai** pasirinkite šias pasirinktis ir, jei reikia, pridėkite informaciją:
 

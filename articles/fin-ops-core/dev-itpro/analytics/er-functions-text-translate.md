@@ -3,7 +3,7 @@ title: TRANSLATE ER funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama TRANSLATE elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/10/2019
+ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 07fe19c5f66c33e336f76f3a72d3bbda0c7e8d86
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 415444bda097c00522155d1b37988a79da836902
+ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3040922"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3201117"
 ---
-# <a name="TRANSLATE">TRANSLATE ER funkcija</a>
+# <a name=""></a><a name="TRANSLATE">TRANSLATE ER funkcija</a>
 
 [!include [banner](../includes/banner.md)]
 
-`TRANSLATE` funkcija grąžina nurodytą teksto eilutę kaip *Eilutės* reikšmę po to, kai visa arba jos dalis buvo pakeista kita eilute.
+`TRANSLATE` funkcija grąžina *Eilutės* reikšmę, kurioje pateikiamas kito pateikto rinkinio nurodyto teksto simbolių pakeitimas.
 
 ## <a name="syntax"></a>Sintaksė
 
@@ -57,9 +57,23 @@ Tekstas, kurį norite naudoti kaip pakaitą.
 
 Gaunama tekstinė reikšmė.
 
-## <a name="example"></a>Pavyzdys
+## <a name="usage-notes"></a>Naudojimo pastabos
 
-`TRANSLATE ("abcdef", "cd", "GH")` pakeičia šabloną **„cd“** į eilutę **„GH“** ir grąžinama **„abGHef“**.
+`TRANSLATE` funkcija vienu metu pakeičia vieną simbolį. Funkcija pakeičia pirmą `text` argumento simbolį pirmu `pattern` argumento simboliu, tada pakeičia antrą simbolį ir naudoja tokią pačią gamybos eigą, kol užbaigia darbą. Kai `text` ir `pattern` argumentų simboliai sutampa, jie pakeičiami `replacement` argumento simboliu, kuris yra tokioje pačioje vietoje kaip ir `pattern` argumento simbolis. Jei `pattern` argumente simbolis rodomas kelis kartus, naudojamas `replacement` argumento susiejimas, atitinkantis pirmą šio simbolio atvejį.
+
+## <a name="example-1"></a>1 pavyzdys
+
+`TRANSLATE ("abcdef", "cd", "GH")` pakeičia nurodyto teksto **„abcdef”** simbolį **c** `replacement` teksto simboliu **G** dėl toliau pateiktų priežasčių.
+-   Simbolis **c** pateikiamas pirmoje `pattern` teksto vietoje.
+-   Pirmoje `replacement` teksto vietoje yra simbolis **G**.
+
+## <a name="example-2"></a>2 pavyzdys
+
+`TRANSLATE ("abcdef", "ccd", "GH")` grąžina **„abGdef“**.
+
+## <a name="example-3"></a>3 pavyzdys
+
+`TRANSLATE ("abccba", "abc", "123")` grąžina **„123321“**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

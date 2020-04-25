@@ -3,7 +3,7 @@ title: Daugiakanalės papildomos automatinės išlaidos
 description: Šioje temoje aprašomos papildomos „Commerce“ kanalo užsakymų mokesčių tvarkymo galimybės naudojant pažangias automatinio apmokestinimo funkcijas.
 author: hhaines
 manager: annbe
-ms.date: 03/08/2019
+ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,18 +19,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: fd02a81f35b40e5075ccfe5c9a617d7de4e8250d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
+ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023480"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "3175159"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie išplėstinės automatinių išlaidų funkcijos, kurią galima rasti „Dynamics 365 for Retail“ 10.0 versijoje, konfigūracijas ir diegimą.
+Šioje temoje pateikiama informacija apie išplėstinių automatinių išlaidų funkcijų, kurias galima rasti „Dynamics 365 for Retail“ 10.0 versijoje, konfigūracijas ir diegimą.
 
 Įgalinus išplėstines automatinių išlaidų funkcijas, užsakymuose, sukurtuose bet kuriame palaikomame „Commerce“ kanale (elektroniniame kasos aparate (EKA), skambučių centre ir internete), galima naudotis [automatinių išlaidų](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery#define-charges-for-delivery-services) konfigūracijų privalumais, apibrėžtais ERP programoje, tiek antraščių, tiek eilutės lygio mokesčiams.
 
@@ -77,7 +77,7 @@ Svarbu atkreipti dėmesį, kad pirmiau išvardytas EKA operacijas taip pat galim
 
 #### <a name="use-case-scenario"></a>Naudojimo atvejis
 
-Mažmenininkas nori automatiškai pridėti išlaidas už krovinių gabenimą, kai bet kuriame „Commerce“ kanale sudaromos operacijos, kurių metu klientui reikia siųsti produktus. Mažmenininkas siūlo 2 pristatymo būdus: žeme ir oru. Jei klientas nusprendžia naudoti pristatymo žeme būdą ir užsakymo vertė yra mažesnė nei 100 USD, pardavėjas nori klientui priskirti 10,00 USD transportavimo išlaidas. Jei užsakymas yra daugiau nei 100 USD vertės ir klientas pasirenka siuntimą žeme, klientui nereikės mokėti jokių papildomų transportavimo išlaidų. Jei klientas pasirenka visų užsakymų pristatymą oru, nepriklausomai nuo jų bendros vertės, klientui bus priskirtos 20,00 USD transportavimo mokestis.
+Mažmenininkas nori automatiškai pridėti išlaidas už krovinių gabenimą, kai bet kuriame „Commerce“ kanale sudaromos operacijos, kurių metu klientui reikia siųsti produktus. Mažmenininkas siūlo du pristatymo būdus: žeme ir oru. Jei klientas nusprendžia naudoti pristatymo žeme būdą ir užsakymo vertė yra mažesnė nei 100 USD, pardavėjas nori klientui priskirti 10,00 USD transportavimo išlaidas. Jei užsakymas yra daugiau nei 100 USD vertės ir klientas pasirenka siuntimą žeme, klientui nereikės mokėti jokių papildomų transportavimo išlaidų. Jei klientas pasirenka visų užsakymų pristatymą oru, nepriklausomai nuo jų bendros vertės, klientui bus priskirtos 20,00 USD transportavimo mokestis.
 
 #### <a name="setup-and-configuration"></a>Nustatymas ir konfigūracija
 
@@ -157,7 +157,7 @@ Norėdamas vykdyti šį scenarijų EKA programoje, EKA vartotojas įprastai suku
 
 #### <a name="use-case-scenario"></a>Naudojimo atvejis
 
-Klientas pageidauja, kad 2 iš 5 pardavimo užsakymo prekių būtų supakuotos kaip dovanos. Mažmenininkas siūlo pasirinktinę paslauga taikydamas 2,00 USD mokestį už vieną prekę. Užsakymo priėmėjas turi priskirti šiuos mokesčius konkrečioms prekėms, kurias reikia supakuoti kaip dovanas.
+Klientas pageidauja, kad dvi iš penkių pardavimo užsakymo prekių būtų supakuotos kaip dovanos. Mažmenininkas siūlo pasirinktinę paslauga taikydamas 2,00 USD mokestį už vieną prekę. Užsakymo priėmėjas turi priskirti šiuos mokesčius konkrečioms prekėms, kurias reikia supakuoti kaip dovanas.
 
 #### <a name="setup-and-configuration"></a>Nustatymas ir konfigūracija
 
@@ -215,3 +215,10 @@ Kai kurios organizacijos norės palaukti, kol vartotojas baigs įtraukti visas p
 ### <a name="charges-override-reports"></a>Išlaidų perrašymo ataskaitos
 
 Jei vartotojai neautomatiškai perrašo apskaičiuotas išlaidas arba įtraukia neautomatines išlaidas į operaciją, šiuos duomenis bus galima patikrinti ataskaitoje **Išlaidų perrašymo retrospektyva**. Ataskaitą galima rasti **„Retail and Commerce“ \> Užklausos ir ataskaitos \> Mokesčių perrašymo retrospektyva**. Svarbu atkreipti dėmesį, kad šioje ataskaitoje reikalingi duomenys yra importuojami iš kanalo duomenų bazės HQ naudojant „P“ paskirstymo grafiko užduotis. Todėl informacija apie perrašymus, neseniai atliktus EKA, gali būti pateikiama šioje ataskaitoje ne iš karto, kol ši užduotis nenusiuntė parduotuvės operacijos duomenų į HQ.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+[Automatinių išlaidų įjungimas ir konfigūravimas pagal kanalą](auto-charges-by-channel.md)
+
+[Proporcingas antraštės išlaidų paskirstymas atitinkančioms pardavimo eilutėms](pro-rate-charges-matching-lines.md)
+

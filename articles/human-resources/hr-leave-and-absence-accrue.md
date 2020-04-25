@@ -3,7 +3,7 @@ title: Sukauptų atostogų ir neatvykimų planai
 description: „Dynamics 365 Human Resources“ galite kaupti atostogas ir neatvykimus keletui darbuotojų arba vienam asmeniui.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba60fc2e5b17ec32aa6ad7eb104e8ae55ddee3bb
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 3048f9b6b52a150219067430abb54e5b5bf5c3e4
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092343"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197318"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Sukauptų atostogų ir neatvykimų planai
 
@@ -35,7 +35,7 @@ ms.locfileid: "3092343"
 
 2. Dalyje **Valdyti atostogų laiką**pasirinkite **Atostogų ir neatvykimų kaupimo planai**.
 
-3. Dialogo lange **Atostogų ir neatvykimų kaupimo planai** lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
+3. Atsiranda dialogo langas **Atostogų ir neatvykimų kaupimo planai**. lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
 
 4. Jei norite vykdyti kaupimo procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
 
@@ -53,7 +53,7 @@ ms.locfileid: "3092343"
 
 2. Pasirinkite **Atostogų ir neatvykimų kaupimas**.
 
-3. Dialogo lange **Atostogų ir neatvykimų kaupimo planai** lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
+3. Atsiranda dialogo langas **Atostogų ir neatvykimų kaupimo planai**. lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
 
 4. Jei norite vykdyti kaupimo procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
 
@@ -65,15 +65,43 @@ ms.locfileid: "3092343"
 
    4. Pasirinkite **Gerai**. Kaupimo procesas bus vykdomas naudojant jūsų nustatytus parametrus.
 
-## <a name="preview-features-for-leave-and-absence"></a>Peržiūrėti atostogų ir neatvykimų funkcijas
+## <a name="delete-leave-and-absence-accruals-for-multiple-employees"></a>Naikinti atostogų ir neatvykimų kaupimus keletui darbuotojų
 
-[!include [banner](includes/preview-feature-leave-absence.md)]
+Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data turi būti šios dienos arba ateities data.
 
-Galite įgalinti šias atostogų ir neatvykimų peržiūros funkcijas:
+1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-- **Naikinti atostogų ir neatvykimų kaupimus**. Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data turi būti šios dienos arba ateities data.
+2. Dalyje **Valdyti atostogų laiką**pasirinkite **Naikinti atostogų ir neatvykimo planų kaupimus**.
 
-- **Atostogų kaupimo auditas**. Rodomas kaskart, kai kas nors vykdo arba panaikina vieno ar visų darbuotojų kaupimą, taip pat rodoma data ir kas atliko veiksmą.
+3. Dialogo lange **Naikinti atostogų ir neatvykimo planų kaupimus** pasirinkite **Atostogų planas**. 
+
+4. Jei taikoma, pasirinkite **Naikinti balanso koregavimus**.
+
+5. Įveskite arba pasirinkite **atostogų kaupimo datą**. Ši data turi būti šios dienos arba ateities data. 
+
+6. Pasirinkite **Gerai**. Kaupimo proceso metu bus panaikinti kaupimai naudojant jūsų nustatytus parametrus. 
+
+## <a name="delete-leave-and-absence-accruals-for-a-single-employee"></a>Naikinti atostogų ir neatvykimų kaupimus vienam darbuotojui
+
+1. Darbuotojo įraše pasirinkite **Atostogos**.
+
+2. Pasirinkite **Naikinti atostogų ir neatvykimo planų kaupimus**.
+
+3. Dialogo lange **Naikinti atostogų ir neatvykimo planų kaupimus** pasirinkite **Atostogų planas**. 
+
+4. Jei taikoma, pasirinkite **Naikinti balanso koregavimus**.
+
+5. Įveskite arba pasirinkite **atostogų kaupimo datą**. Ši data turi būti šios dienos arba ateities data. 
+
+6. Pasirinkite **Gerai**. Kaupimo proceso metu bus panaikinti kaupimai naudojant jūsų nustatytus parametrus. 
+
+## <a name="review-leave-accrual-and-deletion-processes"></a>Atostogų kaupimo ir naikinimo procesų peržiūra
+
+**Atostogų kaupimo auditas** rodomas kaskart, kai vykdote arba naikinate vieno ar visų darbuotojų kaupimą. Taip pat rodoma data ir asmuo, atlikęs veiksmą.
+
+1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
+
+2. Dalyje **Valdyti atostogų laiką**pasirinkite **Naikinti atostogų kaupimo auditą**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

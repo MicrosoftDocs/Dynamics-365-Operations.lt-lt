@@ -3,7 +3,7 @@ title: Atostogų ir neatvykimų plano kūrimas
 description: Atostogų planų, skirtų skirtingoms atostogų rūšims, kūrimas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ed7a47068c451cd3ffaa26ee709599373858721b
-ms.sourcegitcommit: 3cad15f8ecc257d3a45c1bc1fada7c094ff4bcec
+ms.openlocfilehash: 532d9b276692858c77e4de41018775e9520f1882
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "3087305"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197364"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Atostogų ir neatvykimų plano kūrimas
 
@@ -42,6 +42,11 @@ Taip pat galite kurti pareigomis grindžiamas atostogų išmokas, pvz., tik vado
 1. Puslapyje **Atostogų ir neatvykimų planai** pasirinkite **Kurti naują planą**.
 
 2. Dalyje **Išsami informacija**, įveskite plano **pavadinimą**, **pradžios datą**, **aprašą** ir **atostogų tipą**.
+
+Jei funkcija **Konfigūruoti kelis atostogų tipus, skirtus vienam atostogų ir neatvykimų planui** įjungta, atostogų tipai bus konfigūruojami skirtuke **Kaupimo grafikas**, o ne dalyje **Išsami informacija**. Galite nustatyti atostogų tipą kiekvienam kaupimo grafiko lentelės įrašui.
+
+ > [!IMPORTANT]
+   > Įgalinę šią funkciją, negalėsite jos išjungti.
 
 3. Skirtuke **Kaupimai** nustatykite sukauptas sumas. Kaupimai nustato, kada ir kaip dažnai darbuotojui suteikiamos atostogos. Šiame etape nustatoma strategija, nusakanti, kada turi būti teikiami kaupimai, ir atostogų išmokų skirstymo strategija.
 
@@ -95,8 +100,8 @@ Taip pat galite kurti pareigomis grindžiamas atostogų išmokas, pvz., tik vado
    Galite kurti pakopas, kad laisvas laikas būtų skiriamas remiantis skirtingais lygiais.
 
    Jeigu turite už valandinį įkainį dirbančių darbuotojų, nedarbo laiką galite skirti pagal dirbtas valandas, o ne pagal pareigų ėjimo organizacijoje trukmę. Duomenys apie dirbtas valandas paprastai saugomi laiko ir lankomumo sistemoje. Galite importuoti įprastines darbo valandas ir viršvalandžius iš laiko ir lankomumo sistemos ir naudoti jas kaip darbuotojui skiriamos premijos pagrindą.
-
-   1. Pasirinkite parinktį išplečiamajame lauke **Kaupimo tipas**:
+   
+    1. Pasirinkite parinktį išplečiamajame lauke **Kaupimo tipas**:
 
       - **Darbo mėnesiai** – kaupimo grafikas grindžiamas darbo mėnesiais.
 
@@ -117,6 +122,13 @@ Taip pat galite kurti pareigomis grindžiamas atostogų išmokas, pvz., tik vado
       - **Maksimalus perkeliamas balansas** – apdorojant kaupimą koreguojami atostogų balansai, kurie viršija maksimalų perkėlimo balansą praėjus metams nuo pradžios datos.
 
       - **Paskirtoji suma** – pradinis skaičių valandų ar dienų, kurios paskiriamos darbuotojui, kai jis pirmą kartą įtraukiamas į atostogų planą. Suma nekaupiama kiekvieną kaupimo laikotarpį.
+      
+Jei funkcija **Konfigūruoti kelis atostogų tipus, skirtus vienam atostogų ir neatvykimų planui** įjungta, pasirinkite parinktį lauke **Atostogų tipas**. 
+
+   > [!IMPORTANT]
+   > Įgalinę šią funkciją, negalėsite jos išjungti.
+
+Jei funkcija **Naudoti visos darbo dienos ekvivalentiškumą** įjungta, „Human Resources“ naudos pareigoms nustatytą visos darbo dienos ekvivalentiškumą (FTE), kad paskirstytų darbuotojo kaupimą. Pavyzdžiui, jei FTE yra 5, o kaupimo suma yra 10, darbuotojas sukaups 5. Šią funkciją galima naudoti tik įgalinus kelis atostogų tipus.  
 
 5. Pasirinkite **Įrašyti**.
 
@@ -358,21 +370,8 @@ Prognozuojamas balansas (30) = sukaupta suma (10 x 1) + esamas balansas (40) –
 | Jeannette Nicholson | 0,00              | 6/1/2018        | 6/1/2018   | 1,00           | 9/1/2018        | 3.00    |
 | Jay Norman          | 0,00              | 6/15/2018       | 6/15/2018  | 1.00           | 9/1/2018        | 2.00    |
 
-## <a name="configure-preview-features"></a>Peržiūros funkcijų konfigūravimas
-
-Jeigu įgalinote atostogų ir neatvykimų peržiūros funkcijas, jums reikės konfigūruoti ir jų parametrus.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. **Peržiūros funkcija: konfigūruokite kelis atostogų tipus, skirtus vienam atostogų ir neatvykimų planui**. Galite nustatyti atostogų tipą kiekvienam kaupimo grafiko lentelės įrašui.
-
-   > [!IMPORTANT]
-   > Įgalinę šią funkciją, negalėsite jos išjungti.
-
-2. **Peržiūros funkcija: naudoti visos darbo dienos ekvivalentiškumą**. Jei įgalinsite šią peržiūros funkciją, „Human Resources“ naudos pareigoms nustatytą visos darbo dienos ekvivalentiškumą (FTE), kad paskirstytų darbuotojo kaupimą. Pavyzdžiui, jei FTE yra 5, o kaupimo suma yra 10, darbuotojas sukaups 5. Šią funkciją galima naudoti tik įgalinus kelis atostogų tipus.
-
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
-- [Atostogų ir neatvykimų tipai konfigūravimas](hr-leave-and-absence-types.md)
+- [Atostogų ir neatvykimų tipų konfigūravimas](hr-leave-and-absence-types.md)
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)

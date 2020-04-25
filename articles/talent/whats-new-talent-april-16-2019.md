@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a37436eb15ee4c561d5d0c15c90e37815cb80860
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa61a70e14b7997258376beaf389129a4ad2fa73
+ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897930"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3197272"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-16-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 16 d.)
 
@@ -46,10 +46,6 @@ Dabar galite sekti keitimus kandidatams, darbo vietas ir darbo paraiškas. Norė
 ### <a name="compensation-region-compensation-level-benefit-option-and-skill-type-entities-in-common-data-service-updated-to-include-customer-field-support"></a>Objektai Kompensacijos regionas, Kompensacijos lygis, Išmokos parinktis ir Įgūdžių tipas „Common Data Service“ atnaujinti, kad būtų įtrauktas kliento lauko palaikymas
 
 Šiame leidime šie „Common Data Service“ objektai buvo atnaujinti įtraukiant galimybę įtraukti pasirinktinį lauką, įtraukiamą naudojant „Talent: Core HR“.
-
-### <a name="new-common-data-service-entity-support-for-compensation-vesting-rules-compensation-variable-plan-variable-compensation"></a>Naujų „Common Data Service“ objektų palaikymas: Kompensacijos paskirstymo taisyklės, Kompensacijos kintamojo atlyginimo planas, Kintamojo atlyginimo dalis
-
-Šiame leidime į „Common Data Service“ buvo įtraukti objektai Kompensacijos kintamosios atlyginimo dalies paskirstymo taisyklės, Kompensacijos kintamosios atlyginimo dalies planas ir Kintamoji atlyginimo dalis. Šie objektai taip pat palaiko pasirinktinius laukus, įtrauktus naudojant „Talent: Core HR“.
 
 ### <a name="powerbi-refresh-issues-314342"></a>„PowerBI“ atnaujinimo problemos (314342)
 
@@ -93,6 +89,6 @@ Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o
 
 ### <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
 
-Įdiegę „Finance and Operations“ platformos 25 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.
+25 platformos naujinį, skirtą „Finance and Operations”, įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis.
 
 

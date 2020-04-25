@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias buvo numatyta pašalinti iš „Dynamics 365 for Finance and Operations“ ir ankstesnių šio produkto leidimų.
 author: sericks007
 manager: AnnBe
-ms.date: 03/05/2020
+ms.date: 04/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f2e079f1eb43d46acdc39819ae81e0472bba6aa1
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
+ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124571"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "3225133"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -263,11 +263,11 @@ Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL �
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas*, o ne *klaida*, o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
-| **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą.  |
-| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai. |
-| **Visuotinio diegimo parinktis**              | Visi. |
-| **Būsena**                         | Nerekomenduojama. Įspėjimas ateityje taps kompiliavimo laiko klaida. Šiuo metu tai taikome 30 platformos naujinimui. |
+| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas*, o ne *klaida*, o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
+| **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Nerekomenduojama. Įspėjimas ateityje taps kompiliavimo laiko klaida. Šis keitimas yra skirtas „Finance and Operations” programų 10.0.11 versijos platformos naujinimams. |
 
 #### <a name="complete-list"></a>Visas sąrašas
 Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduomenų elementų nebenaudojimas](deprecation-deletion-apis.md).

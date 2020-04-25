@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c89d27eb8b587e8936258aae3ec1fee4574ccfb
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70fe3bb707f2f204cda92ec979fe9fe1a3b96bac
+ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180926"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "3143609"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Pareigų atskyrimo nesuderinamumų nustatymas ir pašalinimas
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Šioje temoje paaiškinama, kaip nustatyti ir pašalinti pareigų atskyrimo nesuderinamumus. Galite nustatyti taisykles, kad atskirtumėte užduotis, kurias turi atlikti skirtingi vartotojai. Ši koncepcija vadinama pareigų atskyrimu. Kai saugos vaidmens apibrėžimas arba vartotojo vaidmens priskyrimai pažeidžia taisykles, registruojamas neatitikimas. Visus neatitikimus turi išspręsti administratorius. Norėdami identifikuoti ir išspręsti neatitikimus, atlikite šią procedūrą. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 

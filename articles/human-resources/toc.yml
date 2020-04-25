@@ -5,6 +5,12 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: 2020 m. balandžio 13 d.
+          href: hr-whats-new-2020-04-13.md
+        - name: 2020 m. balandžio 3 d.
+          href: hr-whats-new-2020-04-03.md
+        - name: "2020\_m. kovo 24\_d."
+          href: hr-whats-new-2020-03-24.md
         - name: "2020\_m. kovo 19\_d."
           href: hr-whats-new-2020-03-19.md
         - name: "2020\_m. kovo 10\_d."
@@ -401,7 +407,7 @@
               href: hr-compensation-process.md
         - name: Išmokų tvarkymas
           items:
-            - name: 'Peržiūros versijos funkcija: išmokų valdymas'
+            - name: Išmokų valdymas
               items:
                 - name: Išmokų valdymo apžvalga
                   href: hr-benefits-management-overview.md
@@ -445,12 +451,8 @@
                   items:
                     - name: Išmokų planų nustatymas
                       href: hr-benefits-plans-setup.md
-                    - name: Darbininko išmokų planų kūrimas
-                      href: hr-benefits-plans-worker.md
                     - name: Lanksčių kredito programų nustatymas
                       href: hr-benefits-plans-flex-credit-programs.md
-                    - name: Būsimų gyvenimo įvykių konfigūravimas
-                      href: hr-benefits-plans-future-life-events.md
                 - name: Išmokų planų apdorojimas
                   items:
                     - name: Registracijos tinkamumo apdorojimas
@@ -497,8 +499,10 @@
               href: hr-leave-and-absence-plans.md
             - name: Darbininkų priskyrimas atostogų planui
               href: hr-leave-and-absence-enroll.md
-            - name: Atostogų ir neatvykimų kaupimo planai
+            - name: Sukauptų atostogų ir neatvykimų planai
               href: hr-leave-and-absence-accrue.md
+            - name: Atostogų sulaikymas
+              href: hr-leave-and-absence-suspend-leave.md
             - name: Atostogų ir neatvykimų analizės peržiūra
               href: hr-leave-and-absence-analytics.md
             - name: Atostogų ir leidimo neatvykti prašymų valdymas

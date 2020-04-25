@@ -1,9 +1,9 @@
 ---
-title: Elektroninio kasos aparato (EKA) ekrano maketai
+title: EKA vartotojo sąsajos vaizdo konfigūracijos
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Commerce“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
-author: jblucher
-manager: AnnBe
-ms.date: 05/20/2019
+author: boycezhu
+manager: annbe
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,23 +16,22 @@ ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: jeffbl
+ms.author: boycezhu
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5bf7b3d20ff0b42eb9eaedf584b2a508c1307707
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 3a84318f7156ef42f7e00f1e89228f541b1634ce
+ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023467"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3261472"
 ---
-# <a name="screen-layouts-for-the-point-of-sale-pos"></a>Elektroninio kasos aparato (EKA) ekrano maketai
+# <a name="pos-user-interface-visual-configurations"></a>EKA vartotojo sąsajos vaizdo konfigūracijos
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
-Šioje temoje pateikiama informacija apie „Dynamics 365 Commerce“ elektroninio kasos aparato (EKA) patirčių ekrano išdėstymus.
-
-EKA vartotojo sąsają galima sukonfigūruoti naudojant vaizdo profilių ir ekrano maketų derinius, kurie priskiriami parduotuvėms, registrams ir (arba) vartotojams.
+„Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) vartotojo sąsają (UI) galima sukonfigūruoti naudojant parduotuvėms, kasos aparatams ir vartotojams priskirtų vaizdo profilių ir ekrano išdėstymų kombinaciją. Šioje temoje pateikiama informacija tas konfigūracijos parinktis.
 
 Tolesnėje iliustracijoje parodyti ryšiai tarp įvairių objektų, kuriuos galima konfigūruoti EKA vartotojo sąsajoje.
 
@@ -40,7 +39,7 @@ Tolesnėje iliustracijoje parodyti ryšiai tarp įvairių objektų, kuriuos gali
 
 ## <a name="visual-profile"></a>Vaizdo šablonas
 
-Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparatą suskirstytus ir vartotojų bendrai naudojamus vaizdo elementus. Kiekvienas prie kasos aparato prisijungęs vartotojas mato tą pačią temą, spalvas ir vaizdus.
+Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparatą suskirstytus ir vartotojų bendrai naudojamus vaizdo elementus. Kiekvienas prie kasos aparato prisijungęs vartotojas mato tą pačią temą, maketą, spalvas ir vaizdus.
 
 ![EKA darbo pradžios ekranas su šviesia tema](../commerce/media/POS-Welcome-Screen-with-Light-theme.png)
 
@@ -48,16 +47,24 @@ Vaizdo profiliai priskiriami kasos aparatams ir jais nurodoma pagal kasos aparat
 
 - **Profilio numeris** – tai unikalusis vaizdo profilio identifikatorius.
 - **Aprašas** – galite nurodyti prasmingą pavadinimą, kuris padėtų nuspręsti, kuris profilis tinkamas jūsų atveju.
-- **Tema** – galite pasirinkti šviesią arba tamsią programos temą. Nuo temos priklauso visos programos šriftų ir fono spalvos.
+- **Tema** – galite pasirinkti programos temą **Šviesi** arba **Tamsi**. Nuo temos priklauso visos programos šriftų ir fono spalvos.
 - **Akcento spalva** – tai spalva, kuri naudojama elektroniniame kasos aparate norint atskirti arba paryškinti konkrečius vaizdo elementus, pvz., plyteles, komandų mygtukus ir hipersaitus. Paprastai su šiais elementais galima atlikti veiksmų.
-- **Antraštės spalva** – puslapio antraštės spalvą galite konfigūruoti pagal pardavėjo prekių ženklų reikalavimus. Ši funkcija pasiekiama tik „Retail“ 1611 versijoje.
-- **Rodyti datą / laiką** – įjungus dabartiniai data ir laikas bus rodomi EKA antraštėje.
-- **Prisijungimo fonai** – gali nurodyti, koks fono vaizdas bus naudojamas prisijungimo ekrane. Fono vaizdų failų dydis turėtų būti kuo mažesnis, nes saugant ir įkeliant didelius failus gali pablogėti programos veikimas ir našumas.
-- **Programos fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos. Kaip ir prisijungimo fonų, šių fonų failų dydis turėtų būti kuo mažesnis.
+- **Antraštės spalva** – puslapio antraštės spalvą galite konfigūruoti pagal pardavėjo prekių ženklų reikalavimus.
+- **Šrifto schema** – galite pasirinkti šrifto schemą **Standartinė** arba **Didelė**. Šrifto schema turi įtakos visos programos šrifto dydžiui. Numatytoji parinktis yra **Standartinė**.
+- **Visada rodyti programos juostos etiketes** – kai ši pasirinktis įjungta, etiketės tekstas visada matomas programos juostos mygtukuose.
+- **Maketas** – galite pasirinkti maketą **Centruotas** arba **Dešinysis**. Maketas turi įtakos prisijungimo langelio, esančio prisijungimo ekrane, lygiuotei. Numatytoji parinktis yra **Centruotas**.
+- **Rodyti datą / laiką** – kai ši parinktis įjungta, dabartinė data ir laikas rodomi EKA antraštėje ir prisijungimo ekrane.
+- **Klaviatūra** – galite pasirinkti **Numatytoji operacinės sistemos klaviatūra** arba **Rodyti skaičių klaviatūrą**, kad nurodytumėte numatytąją klaviatūrą, naudojamą įvesčiai prisijungimo ekrane. Skaičių klaviatūra yra virtualioji klaviatūra, kuri visų pirma naudojama lietimu pagrįstuose įrenginiuose. Numatytasis pasirinkimas yra **Numatytoji operacinės sistemos klaviatūra**.
+- **Logotipo vaizdas** – galite nurodyti logotipo vaizdą, kuris rodomas prisijungimo ekrane. Rekomenduojame naudoti vaizdą, turintį permatomą foną. Failų dydis turėtų būti kuo mažesnis, nes saugant ir įkeliant didelius failus gali pablogėti programos veikimas ir našumas.
+- **Prisijungimo fonas** – galite nurodyti, koks fono vaizdas bus naudojamas prisijungimo ekrane. Fono vaizdų failų dydis turėtų būti kuo mažesnis.
+- **Fonas** – galite nurodyti fono vaizdą, kuris visoje programoje būtų naudojamas vietoj vienspalvės temos. Prisijungimo ekrano fono vaizdų failų dydis turėtų būti kuo mažesnis.
+
+> [!NOTE]
+> Maketas **Dešinysis** ir datos / laiko rodymas netaikomi kompaktiško rodinio prisijungimo ekrane.
 
 ## <a name="screen-layouts"></a>Ekrano maketai
 
-Nuo ekrano išdėstymo konfigūracijų priklauso, kokie bus UI valdiklių veiksmai, turinys ir išdėstymo tvarka EKA darbo pradžios ekrane ir **operacijų** ekrane.
+Nuo ekrano išdėstymo konfigūracijų priklauso, kokie bus UI valdiklių veiksmai, turinys ir išdėstymo tvarka EKA **darbo pradžios** ekrane ir **operacijų** ekrane.
 
 ![EKA ekrano išdėstymo rodinys](../commerce/media/POS-Screen-Layout-View.png)
 

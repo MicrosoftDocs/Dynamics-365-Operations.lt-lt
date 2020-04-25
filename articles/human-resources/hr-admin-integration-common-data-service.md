@@ -1,9 +1,9 @@
 ---
-title: Konfigūruoti „Common Data Service“ integravimą
-description: Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Microsoft Dynamics 365 Human Resources“ egzemplioriaus. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
+title: „Common Data Service“ integravimo konfigūravimas
+description: Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Dynamics 365 Human Resources“. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,31 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 042daf3fdf7a906086af726472da050467d217e3
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 04280aa0908ed6dab86ef87b6c1843e4b4348e08
+ms.sourcegitcommit: c9657b44adb9c1a77c7c2f6ab63a58cc848974ea
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009912"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "3198427"
 ---
-# <a name="configure-common-data-service-integration"></a>Konfigūruoti „Common Data Service“ integravimą
+# <a name="configure-common-data-service-integration"></a>„Common Data Service“ integravimo konfigūravimas
 
-Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Microsoft Dynamics 365 Human Resources“ egzemplioriaus. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
+Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Dynamics 365 Human Resources“. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
 
 Kai išjungiate integravimą, vartotojai gali vykdyti „Human Resources“ arba „Common Data Service“ keitimus, tačiau tie keitimai nėra sinchronizuojami tarp dviejų aplinkų.
 
-Pagal numatytuosius parametrus integravimas tarp „Human Resources“ ir „Common Data Service“ yra arba išjungtas, arba įjungtas, atsižvelgiant į tai, ar aplinkose yra demonstracinių duomenų:
-
-- **Išjungta** naujoms aplinkoms, kuriose nėra demonstracinių duomenų
-- **Įjungta** naujoms aplinkoms, kuriose yra demonstracinių duomenų
-
-Naujos aplinkos, kuriose yra demonstracinių duomenų, pradės sinchronizuoti duomenis, kai jie parengiami.
+Pagal numatytuosius parametrus duomenų integravimas tarp „Human Resources“ ir „Common Data Service“ yra išjungtas.
 
 Galbūt norėsite išjungti integravimą šiais atvejais:
 
 - Jūs užpildote duomenis naudodami duomenų valdymo sistemą ir turite importuoti duomenis kelis kartus, kad jie taptų tinkamos būsenos.
 
-- Yra problemų, susijusių su duomenimis, esančiais „Human Resources“ arba „Common Data Service”. Jei išjungsite integravimą, galite panaikinti įrašą vienoje aplinkoje, jo nepanaikindami kitoje. Kai vėl įjungsite integraciją, įrašas aplinkoje, kurioje jis nebuvo panaikintas, bus sinchronizuojamas atgal į aplinką, kur jis buvo panaikintas. Sinchronizavimas prasideda, kai kitą kartą paleidžiama paketinė užduotis **„Common Data Service“ integravimo praleistų užklausų sinchronizavimas**.
+- Yra problemų, susijusių su duomenimis, esančiais „Human Resources“ arba „Common Data Service”. Jei išjungsite integravimą, galite panaikinti įrašą vienoje aplinkoje, jo nepanaikindami kitoje. Kai vėl įjungsite integraciją, įrašas aplinkoje, kurioje jis nebuvo panaikintas, sinchronizuojamas atgal į aplinką, kur jis buvo panaikintas. Sinchronizavimas prasideda, kai kitą kartą paleidžiama paketinė užduotis **„Common Data Service“ integravimo praleistų užklausų sinchronizavimas**.
 
 > [!WARNING]
 > Kai išjungiate duomenų integravimą, įsitikinkite, kad neredaguojate to paties įrašo abiejose aplinkose. Kai vėl įjungsite integravimą, paskutinis redaguotas įrašas bus sinchronizuojamas. Todėl, jei abiejose aplinkose neatliekate tų pačių keitimų, gali būti prarasti duomenys.
@@ -103,9 +98,17 @@ Išvalę sekimą, norėdami vykdyti visišką objekto sinchronizavimą, žr. tol
 
 ## <a name="sync-an-entity-between-human-resources-and-common-data-service"></a>Objekto sinchronizavimas tarp „Human Resources“ ir „Common Data Service“
 
-Naudokite šią procedūrą, jei „Common Data Service“ keitimai atliekami per ilgai, kad būtų rodomi programoje „Human Resources“, arba jei išvalę sekimą turite atnaujinti sekimo lentelę.
+Naudokite šią procedūrą, kai:
 
-- Norėdami vykdyti visišką objekto sinchronizavimą tarp „Human Resources“ ir „Common Data Service“, lauke **CDS objekto pavadinimas** pasirinkite objektą, tada pasirinkite **Sinchronizuoti dabar**.
+- „Common Data Service” keitimai atliekami per ilgai, kad būtų rodomi programoje „Human Resources“.
+
+- Išvalę sekimą turite atnaujinti sekimo lentelę.
+
+Norėdami vykdyti visišką objekto sinchronizavimą tarp „Human Resources“ ir „Common Data Service”, atlikite toliau pateiktus veiksmus.
+
+1. Lauke **CDS objekto pavadinimas** pasirinkite objektą.
+
+2. Pasirinkite **Sinchronizuoti dabar**.
 
 [![Visiško sinchronizavimo paleidimas](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 

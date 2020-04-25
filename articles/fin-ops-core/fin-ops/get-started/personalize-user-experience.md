@@ -3,7 +3,7 @@ title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c745248a0c7e54b58b1d3e491f3bbb067ec0e2c2
-ms.sourcegitcommit: d8a2301eda0e5d0a6244ebbbe4459ab6caa88a95
+ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
+ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "3029367"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "3260511"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -80,7 +80,7 @@ Meniu nurodomi keli būdai, kaip tiesiogiai keisti puslapį, kad jis geriau atit
 
 Be to, pačio paprasčiausio tipo personalizavimą galima atlikti dešiniuoju pelės mygtuku spustelėjus elementą, o po to paspaudus **Personalizuoti**. (Atkreipkite dėmesį, kad personalizuoti galima ne visus jūsų puslapyje esančius elementus.) Naudojant šį personalizavimo metodą rodomas elemento ypatybių langas.
 
-![Elemento ypatybių personalizavimas](./media/personalization-element-properties.png)
+![Elemento ypatybių personalizavimas](./media/cli-element-property-window.png)
 
 Naudojantis ypatybių langu elementą galima personalizuoti toliau išvardytais būdais.
 
@@ -89,6 +89,7 @@ Naudojantis ypatybių langu elementą galima personalizuoti toliau išvardytais 
 - Įterpti informaciją į „FastTab“ suvestinės skyrių (jei elementas yra „FastTab“).
 - Praleisti lauką, kad niekada nebūtų rodomas, kai puslapyje vykdote keitimus.
 - Neleisti redaguoti lauke esančių (bet kurio įrašo) duomenų.
+- Nurodykite lauką, kurio reikės duomenims įvesti. Jei šiame lauke neįvesta jokia reikšmė, jis bus pažymėtas raudonu rėmeliu ir žvaigždute, kad būtų nurodyta ši būsena. Ši pasirinktis galima tik naudojant 10.0.11 versiją, kai įjungtos funkcijos [Įrašyti rodiniai](saved-views.md) ir **Nurodyti būtinus laukus naudojant pritaikymą asmeniniams poreikiams**.
 
 Priklausomai nuo elemento, ypatybių lange gali būti įterpta kitų personalizavimo galimybių. Pavyzdžiui, gali būti, kad naudojantis išklotinės ypatybių langu jums bus leista perkelti tą išklotinę į ataskaitų sritį, o naudojantis ataskaitų srities ypatybių langu – sukurti naują tos ataskaitų srities darbo sritį.
 
@@ -116,6 +117,7 @@ Kai atidaroma įrankių juosta **Personalizavimas**, esamas puslapis skirtas tik
 - Įrankį **Perkelti** naudokite norėdami perkelti elementą į kitą dabartinės elementų grupės vietą. Atkreipkite dėmesį, kad negalima perkelti elemento už jo pirminės grupės ribų. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Perkelti**, tada pasirinkite norimą perkelti elementą. Pasirinkus elementą, programa nustato vietas, kur leidžiama perkelti elementą. Šios vietos vadinamos *nuvilkimo zonomis*. Velkant elementą dabartinėje grupėje kiekviena nuvilkimo zona rodoma kaip spalvota, paryškinta linija šalia srities, į kurią galima nuvilkti elementą.
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankių juostoje esantį mygtuką **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Galite interaktyviai pašalinti arba įtraukti laukus į skirtukų seką.
 - Įrankį **Rodyti antraštėje** naudokite norėdami, kad laukas būtų rodomas „FastTab“ suvestinės skyriuje. Paspaudus įrankių juostoje esantį mygtuką **Rodyti antraštėje** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Pasirinkdami laukus į „FastTab“ suvestinę galite interaktyviai įtraukti laukų arba iš jos juos pašalinti.
+- Naudokite įrankį **Reikalauti**, kad nurodytumėte elementą, būtiną duomenims įvesti. Paspaudus įrankių juostoje esantį mygtuką **Reikalauti** visi personalizuoti elementai, kurių bus reikalaujama, yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad jų nebūtų reikalaujama. Ši pasirinktis galima tik būsimame leidime, kai įjungtos funkcijos [Įrašyti rodiniai](saved-views.md) ir **Nurodyti būtinus laukus naudojant pritaikymą asmeniniams poreikiams**.
 - Įrankį **Užrakinti** naudokite norėdami pažymėti elementą kaip redaguojamą arba neredaguojamą. Paspaudus įrankių juostoje esantį mygtuką **Užrakinti** visi šiuo metu neredaguojami elementai yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad juos būtų galima redaguoti. Atminkite, kad kai kurie laukai būtini ir jų negalima padaryti neredaguojamais. Šalia tų laukų rodomas spynos simbolis.
 - Norėdami įdėti programą į puslapį, sukurtą naudojant „Microsoft Power Apps“, spauskite mygtuką **Pridėti programą iš „Power Apps**“. Norėdami gauti išsamesnės informacijos apie tai, kaip įdėti programą iš „Power Apps“ į puslapį, žr. [Įdėti programą iš „Power Apps“](embed-power-apps.md). Ši parinktis galima tik tada, kai funkcija [Įrašyti rodiniai](saved-views.md) yra išjungta.  
 - Norėdami įdėti programą į puslapį, sukurtą naudojant „Microsoft Power Apps“ arba trečiosios šalies programą, spauskite mygtuką **Pridėti programą**. Ši parinktis galima tik tada, kai įjungta funkcija [Įrašyti rodiniai](saved-views.md). 

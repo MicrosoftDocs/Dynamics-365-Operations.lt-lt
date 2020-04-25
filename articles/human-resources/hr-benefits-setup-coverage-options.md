@@ -1,9 +1,9 @@
 ---
 title: Padengimo parinkčių kūrimas
-description: „Microsoft Dynamics 365 Human Resources“ padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti, pvz., medicinos planas, skirtas tik darbuotojams, arba gyvybes draudimo planas, skirtas gaunantiems 2 x atlyginimus.
+description: „Microsoft Dynamics 365 Human Resources” padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0af2b6ae0853b4c7f64c4d4f04299c87089d622b
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: 021fea7604af2fff833ddc6868d55a316ef70aae
+ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092711"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "3230182"
 ---
 # <a name="create-coverage-options"></a>Padengimo parinkčių kūrimas
 
-[!include [banner](includes/preview-feature.md)]
+„Microsoft Dynamics 365 Human Resources” padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti. Pvz., padengimo parinktys gali apimti medicinos planą, skirtą **tik darbuotojams**, arba gyvybės draudimo planą, skirtą gaunantiems **2 x atlyginimus**. Apibrėžus išmokų padengimo parinktis, jas galima naudoti pakartotinai. Galite susieti parinktį su vienu ar daugiau planų.
 
-„Microsoft Dynamics 365 Human Resources“ padengimo parinktys yra padengimo lygiai, skirti išmokų plano ar programos dalyviams išrinkti, pvz., medicinos planas, skirtas tik darbuotojams, arba gyvybes draudimo planas, skirtas gaunantiems 2 x atlyginimus. Apibrėžus išmokų padengimo parinktis, galima jas naudoti pakartotinai, taip pat galite susieti parinktį su vienu ar daugiau planų.
-
-Apibrėžę padengimo parinktis, susiekite padengimo parinktis su išmokų plano tipu. Tada plano tipas susiejamas su išmokų planu ar programa. Su plano tipu susietas parinktis bus galima taikyti visiems planams, sukurtiems, naudojant šį plano tipą. 
+Apibrėžę padengimo parinktis, susiekite padengimo parinktis su išmokų plano tipu. Tada plano tipas susiejamas su išmokų planu ar programa. Su plano tipu susietas parinktis galima taikyti visiems planams, sukurtiems, naudojant šį plano tipą. 
 
 1. Darbo srities **Išmokų valdymas** dalyje **Sąranka** pasirinkite **Padengimo parinktys**.
 

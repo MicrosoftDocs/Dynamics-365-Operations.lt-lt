@@ -2,7 +2,7 @@
 title: Importuoti tiekėjų katalogus
 description: Šioje temoje aprašomas tiekėjo katalogo duomenų importavimo procesas.
 author: mkirknel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
 ms.prod: ''
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9f85b1d1f0b1c2378dd3f278640d984c31923c35
-ms.sourcegitcommit: f87de0f949b5d60993b19e0f61297f02d42b5bef
+ms.openlocfilehash: 35b8e2a87708c88b12c5c7605a7977712a35a0f4
+ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "2017879"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "3207382"
 ---
 # <a name="import-vendor-catalogs"></a>Importuoti tiekėjų katalogus
 [!include[banner](../includes/banner.md)]
@@ -35,17 +35,16 @@ Naudojant „Dynamics 365 Supply Chain Management“, pirkimo specialistai gali 
 Galite įkelti tiekėjo naudojantis „Microsoft Dynamics 365“ klientu pateiktus katalogo duomenis.
 
 Tiekėjas produkto duomenis turi pateikti kaip katalogo techninės priežiūros užklausos (CRM) failą XML formatu. CMR faile turi būti pateikiama informacija apie tiekėjo jūsų įmonei tiekiamus produktus.
-
+''''
 ## <a name="import-vendor-catalog-data"></a>Importuoti tiekėjo katalogo duomenis
-
 Norėdami importuoti tiekėjo katalogo duomenis, turite atlikti toliau nurodytas užduotis.
 
 1.  Darbo srityje Duomenų valdymas, kurioje nurodėte savo duomenų išdėstymo taisykles, parenkite projektą. Pasirinkite **Duomenų valdymas**, po to pasirinkite **Nustatyti duomenų projektų vaidmenis**. 
-
+    ''
 2.  Nustatykite įsigijimo kategorijų hierarchiją ir priskirkite savo tiekėjus įsigijimo kategorijoms. Jei naudojate prekių kodus, įtraukite juos į įsigijimo kategorijas. Informacijos apie tai, kaip nustatyti įsigijimo kategorijų hierarchiją, ieškokite dalyje [Nustatyti įsigijimo kategorijų hierarchiją](../procurement/tasks/set-up-procurement-category-hierarchy.md).
-
+    ''
 3.  Sukonfigūruokite katalogo importavimo tiekėją. Pasirinkite tiekėją, po to pasirinkite **Įsigijimas** > **Sąranka** > **Sukonfigūruoti katalogo importavimo tiekėją**.
-
+''''
 4.  Sukonfigūruokite katalogo importavimo darbo eigą. Sukurkite CMR failo šabloną ir pasidalinkite juo su savo tiekėju.
 
 5.  Norėdami sukurti tiekėjo katalogą, pasirinkite **Įsigijimas ir šaltinio pasirinkimas** \> **Bendra** \> **Katalogai** \> **Tiekėjo katalogai**. Iš tiekėjo gauti katalogo techninės priežiūros užklausos (CMR) failai grupuojami šiame kataloge. 

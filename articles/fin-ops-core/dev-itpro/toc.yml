@@ -14,7 +14,9 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
-                - name: "„Platform Update 34“ (2020\_m. gegužės mėn.)"
+                - name: "„Platform“ naujinimai, skirti 10.0.11 (2020\_m. liepos mėn.)"
+                  href: get-started/whats-new-platform-update-35.md
+                - name: "„Platform“ naujinimai, skirti 10.0.10 (2020\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-update-34.md
                 - name: "„Platform Update 33” (2020\_m. balandžio mėn.)"
                   href: get-started/whats-new-platform-update-33.md
@@ -324,8 +326,6 @@
                       href: data-entities/configuration-data-packages.md
                     - name: Konfigūracijos duomenų paketai (tik 2017 m. liepos mėn. leidimas)
                       href: data-entities/configuration-data-packages.md
-                    - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
-                      href: data-entities/entity-store-data-lake.md
                 - name: Konfigūracijos duomenų šablonai
                   href: data-entities/configuration-data-templates.md
                 - name: Objekto keitimų sekimas
@@ -384,9 +384,17 @@
               href: user-interface/data-validation-workspace.md
             - name: Duomenų valdymo klaidų aprašai
               href: data-entities/dm-error-descriptions.md
+        - name: „Azure Data Lake“
+          items:
+            - name: „Azure Data Lake“ apžvalga
+              href: data-entities/azure-data-lake-overview.md
+            - name: „Finance and Operations“ programos „Azure Data Lake“
+              href: data-entities/finance-data-azure-data-lake.md
+            - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
+              href: data-entities/entity-store-data-lake.md
         - name: Duomenų bazių perkėlimo operacijos
           items:
-            - name: Peržiūrėti
+            - name: Apžvalga
               href: database/dbmovement-operations.md
             - name: Greito pasirengimo darbui vadovai
               items:
@@ -414,7 +422,7 @@
                   href: database/dbmovement-scenario-destructivetests.md
             - name: „RESTful API”
               items:
-                - name: Peržiūrėti
+                - name: Apžvalga
                   href: database/api/dbmovement-api-overview.md
                 - name: Versijų kūrimas ir palaikymas
                   href: database/api/dbmovement-api-versioning-support.md
@@ -482,38 +490,46 @@
               items:
                 - name: Vietinio visuotinio diegimo pagrindinis puslapis
                   href: deployment/on-premises-deployment-landing-page.md
-                - name: Vietinio visuotinio diegimo apžvalga
-                  href: deployment/on-premises-overview.md
-                - name: Visuotinių vietinių diegimų planavimas ir rengimas
-                  href: deployment/plan-onprem-deployment.md
-                - name: Aparatūros dydžio reikalavimai
-                  href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-                - name: Vietinių projektų nustatymas
-                  href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                - name: Vietinių visuotinių diegimų rengimas
+                  items:
+                    - name: Vietinio visuotinio diegimo apžvalga
+                      href: deployment/on-premises-overview.md
+                    - name: Vietinių visuotinių diegimų planavimas ir rengimas
+                      href: deployment/plan-onprem-deployment.md
+                    - name: Aparatūros dydžio reikalavimai
+                      href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                 - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
                   items:
-                    - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimo pagrindinis puslapis
-                      href: deployment/setup-deploy-on-premises-environments.md
-                    - name: Vietinių aplinkų diegimas („Platform update 12“ar naujesnės versijos)
+                    - name: Vietinių projektų LCS nustatymas
+                      href: lifecycle-services/lbd-create-lcs-on-prem-project.md
+                    - name: Vietinių aplinkų konfigūravimas ir visuotinis diegimas
                       href: deployment/setup-deploy-on-premises-pu12.md
-                    - name: Vietinių aplinkų diegimas („Platform Updates“ 8 ir 11)
-                      href: deployment/setup-deploy-on-premises-pu8-pu11.md
                     - name: „Retail“ kanalų komponentų vietinėje aplinkoje diegimo veiksmai
                       href: deployment/deploy-retail-onprem.md
+                    - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
+                      href: deployment/develop-deploy-custom-models-on-premises.md
+                - name: Aplinkos priežiūra
+                  items:
+                    - name: Vietinio visuotinio diegimo naujinimų taikymas
+                      href: deployment/apply-updates-on-premises.md
+                    - name: Sertifikatų kaita
+                      href: deployment/certificate-rotation-on-prem.md
+                    - name: Kliento interneto ryšys
+                      href: user-interface/client-disconnected.md
+                    - name: Vietinių aplinkų tarpinių serverių konfigūravimas
+                      href: deployment/onprem-reverseproxy.md
+                    - name: Vietinė diagnostika
+                      href: deployment/on-premises-diagnostics.md
+                    - name: PowerBI.com integravimas į vietines aplinkas
+                      href: analytics/entity-store-on-prem.md
+                    - name: Kartotinis aplinkų konfigūravimas
+                      href: lifecycle-services/reconfigure-environment.md
+                    - name: Kartotinis visuotinis vietinių visuotinių diegimų diegimas
+                      href: deployment/redeploy-on-prem.md
+                    - name: AOS mazgo šalinimas ir diegimas iš naujo
+                      href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: To paties AD FS egzemplioriaus naudojimas keliose aplinkose
                       href: deployment/onprem-reuseadfs.md
-                - name: Pasirinktinių modelių kūrimas ir visuotinis diegimas vietinėse aplinkose
-                  href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: PowerBI.com integravimas į vietines aplinkas
-                  href: analytics/entity-store-on-prem.md
-                - name: Vietinių aplinkų tarpinių serverių konfigūravimas
-                  href: deployment/onprem-reverseproxy.md
-                - name: Vietinės visuotinės įdiegties naujinimų taikymas
-                  href: deployment/apply-updates-on-premises.md
-                - name: Vietinė diagnostika
-                  href: deployment/on-premises-diagnostics.md
-                - name: Kartotinis visuotinis vietinių visuotinių įdiegčių diegimas
-                  href: deployment/redeploy-on-prem.md
                 - name: Vietos agentas
                   items:
                     - name: „AD FS Office 365“ suderinamumas
@@ -522,16 +538,12 @@
                       href: lifecycle-services/pre-post-scripts.md
                     - name: Vietos agento atnaujinimas
                       href: lifecycle-services/update-local-agent.md
-                - name: Kartotinis aplinkų konfigūravimas
-                  href: lifecycle-services/reconfigure-environment.md
-                - name: Kliento interneto ryšys
-                  href: user-interface/client-disconnected.md
-                - name: Vietinių visuotinių diegimų trikčių diagnostika
-                  href: deployment/troubleshoot-on-prem.md
-                - name: Vietinių aplinkų problemų sprendimo scenarijai
-                  href: deployment/onprem-tsg-implementations.md
-                - name: Sertifikatų kaita
-                  href: deployment/certificate-rotation-on-prem.md
+                - name: Trikčių šalinimas
+                  items:
+                    - name: Vietinių visuotinių diegimų trikčių šalinimas
+                      href: deployment/troubleshoot-on-prem.md
+                    - name: Vietinių aplinkų problemų sprendimo scenarijai
+                      href: deployment/onprem-tsg-implementations.md
             - name: Pasirinktinio kodo diegimas
               items:
                 - name: Galimų diegti modelių paketų kūrimas
@@ -928,9 +940,11 @@
                       href: extensibility/extensibility-attributes.md
                     - name: Gedimų sukeliantys keitimai
                       href: extensibility/breaking-changes.md
-            - name: Efektyvumas
+                    - name: Suderinamumo tikrinimo įrankis
+                      href: extensibility/compatibility-checker-tool.md
+            - name: Našumas
               items:
-                - name: Sekimas naudojant „Trace parser“
+                - name: Sekimas naudojant sekimo analizatorių
                   href: perf-test/trace-trace-tutorial.md
                 - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir našumo SDK
                   href: perf-test/single-user-test-perf-sdk.md
@@ -1442,6 +1456,8 @@
               href: sysadmin/configure-manage-database-log.md
             - name: „OData“ metaduomenų podėlio kūrimas paleidus AOS
               href: sysadmin/odata-warmup.md
+            - name: „Azure Key Vault“ kliento nustatymas
+              href: ../../finance/localizations/setting-up-azure-key-vault-client.md
         - name: 'Plėtotės, naujinimai ir karštosios pataisos'
           items:
             - name: 'Plėtočių, naujinimų ir karštųjų pataisų ištekliai'
@@ -1538,11 +1554,11 @@
                   href: migration-upgrade/compile-considerations.md
             - name: Plėtojimas į naujausią naujinimą (vietinė versija)
               items:
-                - name: Vietinių visuotinių įdiegčių naujinimų taikymas
+                - name: Vietinių visuotinių diegimų naujinimų taikymas
                   href: deployment/apply-updates-on-premises.md
-                - name: Kartotinis visuotinis vietinės visuotinės įdiegties diegimas
+                - name: Kartotinis visuotinis vietinio visuotinio diegimo diegimas
                   href: deployment/redeploy-on-prem.md
-                - name: Vietinės versijos naujinimas iš 7.x į 8.1
+                - name: 'Vietinio naujovinimo procesas, skirtas vietinėms aplinkoms'
                   href: migration-upgrade/on-prem-upgrade.md
             - name: Karštosios pataisos
               items:
