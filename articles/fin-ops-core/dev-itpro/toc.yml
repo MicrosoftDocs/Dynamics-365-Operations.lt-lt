@@ -20,37 +20,11 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: "„Platform Update 33” (2020\_m. balandžio mėn.)"
                   href: get-started/whats-new-platform-update-33.md
-                - name: "„Platform Update 32” (2020\_m. vasaris)"
+                - name: "„Platform Update 32” (2020\_m. vasario mėn.)"
                   href: get-started/whats-new-platform-update-32.md
-                - name: "„Platform Update 31“ (2020\_m. sausio mėn.)"
-                  href: get-started/whats-new-platform-update-31.md
-                - name: "„Platform Update 30“ (2019\_m. lapkričio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-30.md
-                - name: "„Platform Update 29” (2019\_m. spalio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-29.md
-                - name: "„Platform Update 28” (2019\_m. liepos mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-28.md
-                - name: "„Platform Update 27” (2019\_m. birželio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-27.md
-                - name: "„Platform Update 26“ (2019\_m. gegužės mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-26.md
-                - name: "„Platform Update 25” (2019\_m. balandžio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-25.md
-                - name: "„Platform Update 24“ (2019\_m. kovo mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-24.md
-                - name: "„Platform Update 23“ (2019\_m. sausio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-23.md
-                - name: "„Platform Update 22“ (2018\_m. gruodžio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-22.md
-                - name: "„Platform Update 21“ (2018\_m. lapkričio mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-21.md
-                - name: "„Platform Update 20“ (2018\_m. rugsėjo mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-20.md
-                - name: "„Platform Update 15“ (2018\_m. kovo mėn.)"
-                  href: ../fin-ops/get-started/whats-new-platform-update-15.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
-                - name: Pašalintos arba nebenaudojamos „Platform“ funkcijos
+                - name: Pašalintos arba nebenaudojamos platformos funkcijos
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -104,7 +78,9 @@
               href: dev-tools/exclude-test-packages.md
             - name: Trečiosios šalies modelių ir vykdymo paketų valdymas naudojant šaltinio valdiklį
               href: dev-tools/manage-runtime-packages.md
-            - name: Modelių versijų automatizuotoje komponavimo versijoje naujinimas
+            - name: Universalūs diegiami paketai
+              href: dev-tools/aio-deployable-packages.md
+            - name: Modelių versijų naujinimas automatizuotoje komponavimo versijoje
               href: dev-tools/version-models-build.md
         - name: Duomenų integravimas
           items:
@@ -526,7 +502,7 @@
                       href: lifecycle-services/reconfigure-environment.md
                     - name: Kartotinis visuotinis vietinių visuotinių diegimų diegimas
                       href: deployment/redeploy-on-prem.md
-                    - name: AOS mazgo šalinimas ir diegimas iš naujo
+                    - name: 'AOS mazgo šalinimas, diegimas iš naujo arba įtraukimas'
                       href: deployment/onprem-remove-reinstall-AOS-node.md
                     - name: To paties AD FS egzemplioriaus naudojimas keliose aplinkose
                       href: deployment/onprem-reuseadfs.md
@@ -1316,9 +1292,9 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata tipas
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-        - name: „Regression Suite Automation Tool”
+        - name: „Regression suite automation tool”
           items:
-            - name: „Regression Suite Automation Tool“ apžvalga
+            - name: „Regression suite automation tool“ apžvalga
               href: perf-test/rsat/rsat-overview.md
             - name: Diegimas ir konfigūravimas
               href: perf-test/rsat/rsat-install-configure.md
@@ -1332,7 +1308,7 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Išvestiniai bandymo atvejai
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: „Regression Suite Automation Tool“ mokymo programos naudojimas
+            - name: „Regression suite automation tool“ mokymo programos naudojimas
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Geriausia praktika
               href: perf-test/rsat/rsat-best-practices.md
