@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0072ca507301fdb880f0595a06377ff01366ca20
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260534"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268752"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -46,7 +46,7 @@ ms.locfileid: "3260534"
 | **Pakeitė kita funkcija?**   | Ši kompiliatoriaus klaida visam laikui pakeičia kompiliatoriaus įspėjimą.  |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | **Nebenaudojama:** „Finance and Operations” programų 10.0.11 versijos platformos naujinimuose kompiliatoriaus įspėjimas pakeistas į kompiliatoriaus klaidą. |
+| **Būsena**                         | **Nebenaudojama:** „Finance and Operations” programų 10.0.11 versijos platformos naujinimuose kompiliatoriaus įspėjimas yra kompiliatoriaus klaida. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV licencijos, sukurtos naudojant SHA1 maišos algoritmą
 

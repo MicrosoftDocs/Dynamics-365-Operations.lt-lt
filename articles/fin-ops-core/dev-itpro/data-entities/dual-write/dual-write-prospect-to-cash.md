@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 12a0e07d1c60a359b3ba6c0d20176927ffe89431
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172813"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270293"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -66,6 +66,14 @@ Pardavimo pasiūlymai gali būti kuriami programose „Sales“ arba „Supply C
 + Pasiūlyme galite pridėti nuolaidą produktui. Šiuo atveju nuolaida bus sinchronizuojama su „Supply Chain Management“. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo Tiekimo grandinės valdymo sąranka. Šioje sąrankoje nepalaikomas integravimo susiejimas. Vietoje to, laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** išlaikyti ir tvarkomi „Supply Chain Management“ programoje.
 + Laukai **Nuolaidos %**, **Nuolaida** ir **Transportavimo suma**, esantys pardavimo pasiūlymo antraštėje yra skirti tik skaitymui.
 + Laukai **Transportavimo sąlygos**, **Pristatymo sąlygos** **Siuntimo būdas** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
+
+Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įgalinti parametro **Pasiūlymo eilutės greitasis kūrimas**. Iš naujo įgalinus parametrą galima toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
+1. Pereikite į „Dynamics 365 Sales” programą.
+2. Viršutinėje naršymo juostoje pasirinkite parametrų piktogramą.
+3. Pasirinkite **Išplėstiniai parametrai**.
+4. Pasirinkite parinktį **Tinkinti sistemą**.
+5. Pasirinkite meniu elementą **Pasiūlymo eilutė**.
+6. Eikite į skyrių **Duomenų paslaugos** ir pasirinkite žymės langelį **Leisti greitąjį kūrimą**.
 
 ## <a name="sales-orders"></a>Pardavimo užsakymai
 

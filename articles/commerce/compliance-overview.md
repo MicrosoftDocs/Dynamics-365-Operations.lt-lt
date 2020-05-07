@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8c2cdbf055a2854c4140d3ccc264da260c7cdf5
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 45d96317f5b6ef956647bfc511e80533e2c34bca
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002271"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275353"
 ---
 # <a name="compliance-overview"></a>Atitikties apžvalga
 
@@ -43,4 +43,6 @@ Norėdami daugiau sužinoti apie pagrindinius „Microsoft“ naudojamus princip
 
 [Slapukų atitiktis](cookie-compliance.md)
 
-[Privatumo strategijos puslapio įtraukimas](add-privacy-page.md)
+[Įtraukti privatumo strategijos puslapį](add-privacy-page.md)
+
+[Su sekamais turinio pakeitimais susietų vartotojo ID keitimas](replace-IDs-tracked-changes.md)

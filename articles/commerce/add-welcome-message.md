@@ -3,7 +3,7 @@ title: Įtraukti pasveikinimo pranešimą
 description: Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ svetainę įtraukti pasisveikinimo pranešimą.
 author: psimolin
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ca10b01268b5dcd4c6fe448d90cd0ebd65a2673b
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001259"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269619"
 ---
 # <a name="add-a-welcome-message"></a>Įtraukti pasveikinimo pranešimą
 
@@ -41,17 +41,14 @@ Kai pasisveikinimo pranešimas įtraukiamas į bendrai naudojamą antraštės fr
 
 Norėdami į savo svetainę įtraukti pasisveikinimo pranešimą, atlikite tolesnius veiksmus.
 
-1. Programoje „Dynamics 365 Commerce“ nueikite į savo svetainę.
+1. Eikite į savo svetainę „Commerce“ svetainių daryklėje.
 1. Pasirinkite **Fragmentai**.
 1. Pasirinkite antraštės fragmentą, į kurį norite įtraukti pranešimą.
 1. Struktūros medyje išplėskite **Klaidų / informaciniai pranešimai**.
-1. Pasirinkite įspėjimo modulį.
-
-    Jei įspėjimo modulio dar nėra, pasirinkite prie elemento **Klaidų / informaciniai pranešimai** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti modulį**. Pasirinkite įspėjimo modulį ir **Gerai**.
-
+1. Pasirinkite įspėjimo modulį ir **Gerai**. Jei įspėjimo modulio dar nėra, pirmiausia pasirinkite prie elemento **Klaidų / informaciniai pranešimai** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti modulį**.
 1. Dešinėje esančios ypatybių srities skirtuke **Duomenys** pasirinkite **Įtraukti duomenų šaltinį** ir **Turinys**.
 1. Lauke **Įvesties tekstas** įveskite pasisveikinimo pranešimo tekstą.
-1. Antraštės fragmentą įrašykite, atrakinkite ir publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte antraštės fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
 
 Pasisveikinimo pranešimas dabar bus rodomas kiekvieno svetainės puslapio, kuriame naudojamas pasirinktas antraštės fragmentas, viršuje.
 

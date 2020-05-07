@@ -3,7 +3,7 @@ title: Papildyti kategorijos nukreipimo puslapį
 description: Šioje temoje aptariamas kategorijos puslapių papildymas sprendime „Dynamics 365 Commerce“.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71348efba9fc1374b9e6599eb23f198d3851036e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: ca31ec7d2eee7d2b0c863506338341a870ff07ee
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003055"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269848"
 ---
 # <a name="enrich-a-category-landing-page"></a>Papildyti kategorijos nukreipimo puslapį
 
@@ -39,7 +39,7 @@ Tačiau užuot naudoję numatytąjį kategorijos puslapį, galbūt norėsite nau
 
 ![Papildytas kategorijos nukreipimo puslapis](./media/CategoryLandingPages.png)
 
-Kūrimo įrankyje puslapyje **Produktas** yra priskirtų svetainei kanalo kategorijų sąrašas. Jei kategorijos puslapyje pasirinkta būsena **Papildyta**, tas puslapis yra papildytas. Kitu atveju kategorijai naudojami numatytasis kategorijos puslapis ir turinys. Galite peržiūrėti ir papildytų, ir nepapildytų kategorijų puslapių konkrečiai kategorijai, pasirinkdami kategorijos pavadinimą.
+„Commerce“ svetainių daryklėje, puslapyje **Produktai** yra priskirtų svetainei kanalo kategorijų sąrašas. Jei kategorijos puslapyje pasirinkta būsena **Papildyta**, tas puslapis yra papildytas. Kitu atveju kategorijai naudojami numatytasis kategorijos puslapis ir turinys. Galite peržiūrėti ir papildytų, ir nepapildytų kategorijų puslapių konkrečiai kategorijai, pasirinkdami kategorijos pavadinimą.
 
 Norėdami papildyti kategorijos puslapį, atlikite šiuos veiksmus.
 
@@ -48,9 +48,7 @@ Norėdami papildyti kategorijos puslapį, atlikite šiuos veiksmus.
 3. Pasirinkti papildyto kategorijos puslapio šabloną. Jei atliekate tik nedidelius keitimus, galite pasirinkti numatytąjį kategorijos puslapį. Taip pat galite pasirinkti konkretų kategorijos puslapio šabloną. Kai pasirenkate šabloną, atidaroma puslapio rengyklė, o pasirinktas šablonas naudojamas kuriant naują kategorijos puslapį pasirinktai kategorijai. Puslapis paimamas ir užrakinamas, tad dabar galite atlikti savo keitimus.
 
 > [!NOTE]
-> Moduliai, kurie naudoja kategorijos specifikacijos duomenis, naudoja jūsų pasirinktoje kategorijoje esančius duomenis.
->
-> Pasirinkto šablono parametrai nustato keitimus, kuriuos galite atlikti.
+> Moduliai, kurie naudoja kategorijos specifikacijos duomenis, naudoja jūsų pasirinktoje kategorijoje esančius duomenis. Pasirinkto šablono parametrai nustato keitimus, kuriuos galite atlikti.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

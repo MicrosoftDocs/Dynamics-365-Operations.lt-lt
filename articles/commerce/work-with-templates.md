@@ -3,7 +3,7 @@ title: Darbas su šablonais
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“dirbti su šablonais.
 author: phinneyridge
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 815565dd203925fa0acca9336c4ddc56db8c4058
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002572"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269871"
 ---
 # <a name="work-with-templates"></a>Darbas su šablonais
 
@@ -132,14 +132,14 @@ Norėdami įtraukti scenarijų į šabloną, atlikite toliau nurodytus veiksmus.
 Norėdami įrašyti ir įrašyti bei atrakinti šabloną, atlikite šiuos veiksmus.
 
 1. Šablono rengyklės viršuje pasirinkite **Įrašyti**. Įrašyti keitimai neturės įtakos tolesniems puslapiams, kol jie nebus įrašomi ir atrakinami.
-1. Pasirinkite **Įregistruoti**. Dabar jūsų keitimai yra aptinkami atsiuntimo srauto darbo eigose.
+1. Pasirinkite **Baigti redagavimą**. Dabar jūsų keitimai yra aptinkami atsiuntimo srauto darbo eigose.
 
 Norėdami peržiūrėti keitimus atidarykite esamą puslapį, kuriame naudojamas išablonas, arba naudodami šabloną sukurkite naują puslapį.
 
 Kai peržiūrėsite šablono keitimus, atlikite vieną iš toliau nurodytų veiksmų, kad šablonas būtų publikuojamas jūsų aktyvioje svetainėje.
 
 * Eikite į **Šablonai**, pasirinkite šabloną, tada – **Publikuoti**.
-* Šablono rengyklėje pasirinkite **Publikuoti**.
+* Norėdami atidaryti maketų rengyklę pasirinkite maketo pavadinimą, tada pasirinkite **Publikuoti**.
 * Publikuokite puslapį, kuris nurodo nepublikuotą šabloną. Šablonas automatiškai publikuojamas.
 
 > [!WARNING]

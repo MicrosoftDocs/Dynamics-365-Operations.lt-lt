@@ -3,7 +3,7 @@ title: Prognozės mažinimo raktai
 description: Šioje temoje pateikiami pavyzdžiai, kuriais rodoma, kaip nustatyti mažinimo raktą. Jame pateikiama informacija apie įvairius mažinimo rakto parametrus ir kiekvieno iš jų rezultatus. Naudodami mažinimo raktą, galite apibrėžti, kaip sumažinti prognozės poreikius.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 04/03/2020
+ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25cdde073878ed090a4d981eff75a337a79b37af
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: 6191b4809c3785d92395bec1b7d51bfc978f9245
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225110"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262701"
 ---
 # <a name="forecast-reduction-keys"></a>Prognozės mažinimo raktai
 
@@ -222,7 +222,7 @@ Prekės padengimo grupei turi būti priskirtas prognozės mažinimo raktas. Atli
 
 ## <a name="reduce-a-forecast-by-transactions"></a>Prognozės mažinimas naudojant operacijas
 
-Kai parinktį **Operacijos – mažinimo raktas** arba **Operacijos – dinaminis laikotarpis** pasirenkate kaip prognozės poreikių mažinimo metodą, galite nurodyti, kurios operacijos sumažina prognozę. Puslapio **Patvirtinti produktai** „FastTab“ **Kita** lauke **Prognozę sumažina** pasirinkite **Visos operacijos**, jei visos operacijos turėtų mažinti prognozę, arba **Užsakymai**, jei tik pardavimo užsakymai turėtų mažinti prognozę.
+Kai parinktį **Operacijos – mažinimo raktas** arba **Operacijos – dinaminis laikotarpis** pasirenkate kaip prognozės poreikių mažinimo metodą, galite nurodyti, kurios operacijos sumažina prognozę. Puslapio **Padengimo grupės** „FastTab“ konteinerio **Kita** lauke **Prognozę sumažina** pasirinkite **Visos operacijos**, jei visos operacijos turėtų mažinti prognozę, arba **Užsakymai**, jei tik pardavimo užsakymai turėtų mažinti prognozę.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

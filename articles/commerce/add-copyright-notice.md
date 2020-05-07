@@ -3,7 +3,7 @@ title: Įtraukti informaciją apie autorių teises
 description: Šioje temoje aprašoma, kaip į el. prekybos svetainę įtraukti informaciją apie autorių teises.
 author: psimolin
 manager: AnnBe
-ms.date: 01/23/2020
+ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54b48ee74bc9d9f2b77f0584a0bf1739a8dfdbdb
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025487"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269595"
 ---
 # <a name="add-a-copyright-notice"></a>Įtraukti informaciją apie autorių teises
-
 
 [!include [banner](includes/banner.md)]
 
@@ -51,12 +50,12 @@ Norėdami kiekvieno puslapio, kuriame naudojamas konkretus šablonas, apačioje 
 1. Dialogo lange pasirinkite **Teksto blokas** ir **Gerai**.
 1. Naršymo srityje pasirinkite **Teksto blokas**.
 1. Dešinėje esančios ypatybių srities lauke **Pastraipa** įtraukite pranešimą apie autorių teises. Pavyzdžiui, įveskite **Autorių teisės priklauso „Fabrikam“, 2019 m.**
-1. Pasirinkite **Įrašyti**, **Įrašyti ir atrakinti**, tada – **Publikuoti**.
-1. Nueikite į **Šablonai**, pasirinkite šabloną, tada – **Paimti ir užrakinti**.
+1. Pasirinkite **Įrašyti**, **Baigti redagavimą**, tada – **Publikuoti**.
+1. Eikite į **Šablonai**, pasirinkite šabloną, tada – **Redaguoti**.
 1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas**, tada – **Numatytasis puslapis**.
 1. Pasirinkite prie elemento **Poraštės vieta** esantį daugtaškio mygtuką, tada – **Įtraukti fragmentą**.
 1. Pasirinkite anksčiau sukurtą fragmentą, tada – **Pasirinkti**.
-1. Šabloną įrašykite ir atrakinkite bei publikuokite.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Poraštė su informacija apie autorių teises automatiškai atsiranda visų puslapių, kuriuose naudojamas pasirinktas šablonas, apačioje.
 

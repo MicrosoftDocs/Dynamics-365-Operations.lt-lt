@@ -1,9 +1,9 @@
 ---
 title: Užsakymų vykdymo perspektyva
-description: Šiame straipsnyje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
+description: Šioje temoje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
 author: ShylaThompson
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78b81431d44ea5f85676b6999eece1330d3101a4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ccb7ef432553c0516eb49013eaad68dd21bf752c
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210064"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270032"
 ---
 # <a name="order-promising"></a>Užsakymų vykdymo perspektyva
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
+Šioje temoje pateikiama informacija apie užsakymų įsipareigojimus. Užsakymų įsipareigojimai suteikia galimybę patikimai įsipareigoti klientui laikytis pristatymo datų ir suteikia lankstumo, kad tų datų laikytumėtės.
 
 Užsakymų žadėjimas apskaičiuoja anksčiausias siuntimo ir gavimo datas ir yra paremtas pristatymo datos kontrolės būdu ir transportavimo dienomis. Galite pasirinkti iš toliau nurodytų keturių pristatymo datos kontrolės būdų.
 
@@ -47,11 +47,13 @@ APT apskaičiuojamos pagal tolesnę formulę.
 
 ATP = ankstesnio laikotarpio ATP + dabartinio laikotarpio gavimai – dabartinio laikotarpio išdavimai – kiekvieno būsimo laikotarpio grynasis išdavimo kiekis iki laikotarpio, kai visų būsimų laikotarpių gavimų suma (iki būsimo laikotarpio įskaitytinai) yra didesnė nei išdavimų suma iki būsimo laikotarpio įskaitytinai.  
 
+Atkreipkite dėmesį, kad ATP skaičiavime nėra informacijos apie galiojimo datą ir už ATP laiko ribų, kurių sistema tikisi, kai gali būti pažadėtas bet koks kiekis.
+
 Kai daugiau nėra svarstytinų išdavimų arba gavimų, ATP kiekis šioms datoms yra toks pat kaip vėliausias apskaičiuotas ATP kiekis.  
 
 Jeigu atlikus ATP patikrinimą pateiktos ne visos prekei naudojamos dimensijos, jas dar galima nurodyti išdavime ir gavimuose. Šiuo atveju, skaičiuojant ATP, gavimai ir išdavimai turi būti sudedami pagal esamas dimensijas, kad būtų sumažintas ATP skaičiavime naudojamų gavimo ir išdavimo eilučių skaičius.  
 
-Rodomas ATP kiekis visada yra didesnis už 0 (nulį) arba jam lygus. Jeigu skaičiuojant gaunamas neigiamas ATP kiekis (pavyzdžiui, jeigu anksčiau pažadėtas kiekis viršija turimą kiekį), programa automatiškai nustato kiekį į **0**.
+Rodomas ATP kiekis visada yra didesnis už 0 (nulį) arba jam lygus. Jeigu skaičiuojant gaunamas neigiamas ATP kiekis (pavyzdžiui, jeigu anksčiau pažadėtas kiekis viršija turimą kiekį), kiekis automatiškai nustatomas į 0.
 
 ### <a name="example"></a>Pavyzdys
 

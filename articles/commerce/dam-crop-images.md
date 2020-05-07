@@ -3,7 +3,7 @@ title: Apkarpyti vaizdai
 description: Šioje temoje aprašoma, kaip apkarpyti vaizdus „Microsoft Dynamics 365 Commerce“ svetainės generatoriuje.
 author: psimolin
 manager: annbe
-ms.date: 03/03/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 771f98ef11355ad30ededcb310e9794ce792b7f0
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 9496a1f96e2d0e18eb477a9743927b2076c5548a
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097052"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269572"
 ---
 # <a name="crop-images"></a>Apkarpyti vaizdai
 
@@ -41,7 +41,7 @@ Norėdami apkarpyti vaizdą svetainės generatoriuje, atlikite šiuos veiksmus.
 
 1. Kairiojoje „Commerce“ svetainės generatoriaus naršymo srityje pasirinkite **Medijos biblioteka**.
 1. Pagrindiniame lange pasirinkite vaizdą, kurį norite modifikuoti.
-1. Komandų juostoje pasirinkite **Redaguoti**, kad pažymėtumėte failą.
+1. Komandų juostoje pasirinkite **Redaguoti**.
 1. Pasirinkite vaizdą, kad atsidarytų **Redaguoti režimą** langas.
 1. Po pasirinktimi **Redaguoti režimą** pasirinkite **Redaguoti rodinį pagal modulį**.
 1. Pasirinkite modulio tipą išplečiamajame meniu **Modulis**.

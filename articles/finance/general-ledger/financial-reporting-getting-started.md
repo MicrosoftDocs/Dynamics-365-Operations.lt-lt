@@ -3,7 +3,7 @@ title: Finansinių ataskaitų apžvalga
 description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 01fcc7c4f3e1eb7aadfc93b120cd57e62077d0c0
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
+ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249065"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "3262654"
 ---
 # <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 
@@ -83,13 +83,15 @@ Pridėjus naudotoją ar pakeitus vaidmenį, naudotojas finansines ataskaitas tur
 ## <a name="report-deletions-and-expirations"></a>Ataskaitų naikinimai ir galiojimo pabaiga
 Vartotojai, kurie sugeneruoja ataskaitą, gali panaikinti savo ataskaitas. Vartotojai, kurių pareiga **Prižiūrėti finansinių ataskaitų saugą**, gali panaikinti kitų ataskaitas. 
 
-Nuo 10.0.7 leidimo (imtinai) buvo įvesta galiojimo datų koncepcija. Nauja privaloma funkcija bus įgalinta funkcijų valdymo darbo srityje. Su šia funkcija įvedami tokie pakeitimai:
+10.0.8 versijoje įvesta galiojimo datų koncepcija. Nauja reikalinga priemonė bus įjungta funkcijų valdymo darbo srities puslapyje **Visi**. Funkcijoje **Finansinių ataskaitų saugojimo strategijos** yra toliau pateikti keitimai.
 * Naujai sugeneruotos ataskaitos bus automatiškai pažymėtos kaip turinčios 90 dienų galiojimo datą nuo tada, kai jos sugeneruojamos
 * Visoms esamoms ataskaitoms, buvusioms iki įdiegiant funkciją, bus suteiktas 90 dienų galiojimo laikotarpis. Data gali būti rodoma kaip tuščia trumpam laikotarpiui, kol bus paleista finansinių ataskaitų tarnyba, kai sugeneruojama ataskaita, tarnyba atlieka naujinimą esamoms ataskaitoms su tuščia galiojimo data. 
-* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra dvi saugojimo galimybės - 
-  * 90 dienų galiojimo laikotarpis
-  * Galimybė nustatyti, kad ataskaita niekada nebaigtų galioti
-
+* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra dvi saugojimo galimybės. 
+  * 90 dienų galiojimo laikotarpis.
+  * Galimybė nustatyti, kad ataskaita niekada nebaigtų galioti.
+  
+Kuriant būsimas funkcijas bus apsvarstytos papildomos parinktys. 90 dienų galiojimo laikotarpis bus numatytasis, o vartotojai, turintys atitinkamas teises, galės perrašyti numatytąsias reikšmes sąrašo puslapyje **Finansinės ataskaitos**.    
+  
 Pasirinkus galiojimo laikotarpį, pvz., 90 dienų, suteikiamos 90 dienų nuo šiandien, o tai skiriasi nuo 90 dienų nuo pradinės generavimo datos, kuri buvo nustatyta ataskaitos generavimo metu. 
 
 ## <a name="default-reports"></a>Numatytosios ataskaitos

@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 679448255bd85aafb07270f4858d4b83d2fe643b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 4577b8b189403b3d71eb634e159d51d2fa53ce12
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204038"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268798"
 ---
 # <a name="set-up-quality-orders"></a>Nustatyti kokybės užsakymus
 
@@ -78,6 +78,9 @@ ms.locfileid: "3204038"
 8. Spustelėkite **Įrašyti**.
 9. Uždarykite puslapį.
 
+> [!NOTE]
+> Funkcija *Sandėlio procesų kokybės valdymas* pateikia papildomų prekių pavyzdžių ėmimo galimybių. Ji įtraukia *prekių pavyzdžių ėmimo aprėpties* sąvoką ir galimybę apibrėžti visą numerio lentelę kaip kiekio specifikaciją. Jei įgalinote šią funkciją, norėdami gauti išsamios informacijos žr. [Sandėlio procesų kokybės valdymas](../quality-management-for-warehouses-processes.md).
+
 ## <a name="create-a-quality-group"></a>Kurti kokybės grupę
 1. Pasirinkite **Atsargų valdymas > Sąranka > Kokybės kontrolė > Kokybės grupės**.
 2. Spustelėkite **Naujas**.
@@ -97,7 +100,7 @@ ms.locfileid: "3204038"
 1. Pasirinkite **Atsargų valdymas > Sąranka > Kokybės kontrolė > Bandymo grupės**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Bandymo grupė** įveskite reikšmę. Suteikite **Bandymo grupė** pavadinimą, kuris padės prisiminti, kokie bandymai vykdomi ir su kuria kokybės grupe ji turėtų būti susieta. Pavyzdžiui, ji turi būti naudojamas su kokybės grupe, kuri pasirenka elementus, prasidedančius raide „T“. Galite ją pavadinti „T elemento bandymai“.  
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašas** įveskite reikšmę.
 5. Lauke **Prekės pavyzdys** pasirinkite prekių pavyzdžių ėmimo eilutę, kurią sukūrėte anksčiau.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
 7. Spustelėkite **Pridėti**.
@@ -131,3 +134,5 @@ ms.locfileid: "3204038"
 16. Spustelėkite **Įrašyti**.
 17. Uždarykite puslapį.
 
+> [!NOTE]
+> Funkcija *Sandėlio procesų kokybės valdymas* pateikia papildomų parinkčių kokybės susiejimams nustatyti. Ji įtraukia naują sąlygą (**Taikomas sandėlio tipas**) ir naują parametrą (**Kokybės apdorojimo strategija**). Jei įgalinote šią funkciją, norėdami gauti išsamios informacijos žr. [Sandėlio procesų kokybės valdymas](../quality-management-for-warehouses-processes.md).

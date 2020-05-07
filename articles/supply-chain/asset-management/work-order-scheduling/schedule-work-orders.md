@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a09b90c19d8d4fe5d08abc892ed0c42d9d4592d8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a594bacb1fcf53ae4a278dbb26f1de174e22288c
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211726"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275607"
 ---
 # <a name="schedule-work-orders"></a>Planuoti darbo užsakymus
 
@@ -66,7 +66,7 @@ Pagal darbo užsakymo tipą, susijusį su darbo užsakymais, gali būti nustatom
 Planavimo procese naudojant modulį Turto valdymas apskaičiuojant grafiką naudojami keli veiksniai.
 
 - Skaičiuojami ir darbo užsakymų, ir priežiūros darbuotojų rezultatai. Darbo užsakymų ir priežiūros darbuotojų rezultatai nustatomi **Turto valdymo parametruose**. 
-- Tikrinama, ar yra užduočiai atlikti reikalingos sutampančios kompetencijos, t. y., įgūdžiai ir pažymėjimai.  Priežiūros darbuotojų įgūdžiai ir liudijimai nustatomi modulyje **Žmogiškieji ištekliai** (**Žmogiškieji ištekliai** > **Darbuotojai** > **Darbuotojai** > sąraše pasirinkite darbuotoją > skirtukas **Darbuotojas** > skyrius **Kompetencijos** > mygtukai **Įgūdžiai** ir **Liudijimai**). Be to, įgūdžius ir liudijimas galima įtraukti į priežiūros užduočių tipus ir priežiūros užduočių profesijas. Norėdami gauti daugiau informacijos apie kompetencijas ir priežiūros užduočių tipus žr. [Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių profesijos ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).  
+- Tikrinama, ar yra užduočiai atlikti reikalingos sutampančios kompetencijos, t. y., įgūdžiai ir pažymėjimai. Priežiūros darbuotojų įgūdžiai ir liudijimai nustatomi modulyje **Žmogiškieji ištekliai** (**Žmogiškieji ištekliai** > **Darbuotojai** > **Darbuotojai** > sąraše pasirinkite darbuotoją > skirtukas **Darbuotojas** > skyrius **Kompetencijos** > mygtukai **Įgūdžiai** ir **Liudijimai**). Be to, įgūdžius ir liudijimas galima įtraukti į priežiūros užduočių tipus ir priežiūros užduočių profesijas. Norėdami gauti daugiau informacijos apie kompetencijas ir priežiūros užduočių tipus žr. [Priežiūros užduočių tipų kategorijos ir priežiūros užduočių tipai, priežiūros užduočių tipų variantai, priežiūros užduočių profesijos ir prižiūrimo turto kontroliniai sąrašai](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md).  
 
 ## <a name="scores-used-in-work-order-scheduling"></a>Planuojant darbo užsakymus naudojami rezultatai
 
@@ -102,14 +102,14 @@ Jei aptarnavimo lygio rezultatas padidinamas iki „100“ vietoje „5“, plan
 
 Vertinimo rezultatai, susiję su apskaičiavimu, kurie priežiūros darbuotojai turėtų dirbti vykdant darbo užsakymus, yra nustatyti kaip skaičiai, kurie įtraukiami į kiekvieną priežiūros darbuotojo skaičiavimą planuojant darbo užsakymą. Darbo užsakyme pasirenkamas priežiūros darbuotojas, kurio rezultatas yra didžiausias. Toliau pateiktas trumpas priežiūros darbuotojo rezultatų aprašas.
 
-| Priežiūros darbuotojo rezultatas       | Aprašymas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Atsakingas darbininkas | Jei priežiūros darbuotojas yra pasirinktas kaip darbo užsakymo atsakingas darbuotojas, rezultatas pridedamas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Atsakinga priežiūros darbuotojų grupė | Jei priežiūros darbuotojas priklauso darbo užsakymo atsakingai priežiūros darbuotojų grupei, rezultatas pridedamas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| Pageidaujamas priežiūros darbuotojas         | Jei darbuotojas yra pasirinktas kaip pageidaujamas turto priežiūros darbuotojas, rezultatas pridedamas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| Pageidaujama priežiūros darbuotojų grupė   | Jei darbuotojas priklauso pageidaujamai turto priežiūros darbuotojų grupei, rezultatas pridedamas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Vieta                 | Jei jūsų įmonėje naudojamos funkcinės vietos, priežiūros darbuotojai gauna visą rezultatą, jei jie yra su turtu susijusioje funkcinėje vietoje. Jei yra turto funkcinės vietos pirminė vieta, priežiūros darbuotojai toje funkcinėje vietoje gaus 1/2 rezultato. Jei ta vieta taip pat turi pirminę vietą, priežiūros darbuotojai toje funkcinėje vietoje gaus 1/3 rezultato. Jei ta vieta taip pat turi pirminę vietą, priežiūros darbuotojai toje funkcinėje vietoje gaus 1/4 rezultato, ir t. t. Jei jūsų įmonėje naudojama turto vieta (nerekomenduojame to daryti), apskaičiuojant vietos rezultatus naudojama vieta, sritis ir zona. Darbuotojai gauna visą balą, jei jie yra su turtu susietoje vietoje, srityje ir zonoje. Jei darbuotojo vieta atitinka tik vietą ir sritį, priežiūros darbuotojo vertinimo rezultatas yra 2/3 viso rezultato. Jei priežiūros darbuotojo vieta atitinka tik vietą, priežiūros darbuotojo vertinimo rezultatas yra 1/3 viso rezultato. |
-| Darbininko darbo pradžios data               | Dėl kiekvienos datos, kai suplanuota pradžios data yra vėlesnė už numatytą pradžios datą, rezultatas atimamas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| Priežiūros darbuotojo rezultatas| Aprašymas |
+|---|---|
+| Atsakingas darbininkas | Jei priežiūros darbuotojas yra pasirinktas kaip darbo užsakymo atsakingas darbuotojas, rezultatas pridedamas. |
+| Atsakinga priežiūros darbuotojų grupė | Jei priežiūros darbuotojas priklauso darbo užsakymo atsakingai priežiūros darbuotojų grupei, rezultatas pridedamas. |
+| Pageidaujamas priežiūros darbuotojas         | Jei darbuotojas yra pasirinktas kaip pageidaujamas turto priežiūros darbuotojas, rezultatas pridedamas. |
+| Pageidaujama priežiūros darbuotojų grupė   | Jei darbuotojas priklauso pageidaujamai turto priežiūros darbuotojų grupei, rezultatas pridedamas.  |
+| Vieta  | Jei jūsų įmonėje naudojamos funkcinės vietos, priežiūros darbuotojai gauna visą rezultatą, jei jie yra su turtu susijusioje funkcinėje vietoje. Jei yra turto funkcinės vietos pirminė vieta, priežiūros darbuotojai toje funkcinėje vietoje gaus 1/2 rezultato. Jei ta vieta taip pat turi pirminę vietą, priežiūros darbuotojai toje funkcinėje vietoje gaus 1/3 rezultato. Jei ta vieta taip pat turi pirminę vietą, priežiūros darbuotojai toje funkcinėje vietoje gaus 1/4 rezultato, ir t. t. Jei jūsų įmonėje naudojama turto vieta (nerekomenduojame to daryti), apskaičiuojant vietos rezultatus naudojama vieta, sritis ir zona. Darbuotojai gauna visą balą, jei jie yra su turtu susietoje vietoje, srityje ir zonoje. Jei darbuotojo vieta atitinka tik vietą ir sritį, priežiūros darbuotojo vertinimo rezultatas yra 2/3 viso rezultato. Jei priežiūros darbuotojo vieta atitinka tik vietą, priežiūros darbuotojo vertinimo rezultatas yra 1/3 viso rezultato. |
+| Darbininko darbo pradžios data  | Dėl kiekvienos datos, kai suplanuota pradžios data yra vėlesnė už numatytą pradžios datą, rezultatas atimamas.  |
 
 >[!NOTE]
 >Jei rezultatas nustatytas kaip „0“, tas rezultatas neskaičiuojamas. Tai naudinga, jei, pavyzdžiui, planuodami nenorite įtraukti atsakingo darbuotojo.
@@ -120,3 +120,21 @@ Galima nustatyti priežiūros užduočių tipų (**Išteklių valdymas** > **Są
 
 Priežiūros užduočių tipai ir priežiūros užduočių profesijos pasirenkamos darbo užsakymo užduotyse. Jei buvo pasirinkti priežiūros užduoties tipo ar priežiūros užduoties profesijos įgūdžiai ar liudijimai, o tas priežiūros užduoties tipas ar priežiūros užduoties profesija naudojama darbo užsakymo užduotyje, tame darbo užsakyme suplanuojami dirbti tik priežiūros darbuotojai su atitinkančiais įgūdžiais ir liudijimais.
 
+<a name="gantt"></a>
+
+## <a name="work-with-scheduled-work-orders-using-a-gantt-chart"></a>Darbas su suplanuotais darbo užsakymais naudojant Ganto diagramą
+
+**Suplanuotų darbo užsakymų Ganto diagrama** pateikiama grafinė sąsaja, kur galite peržiūrėti ir perplanuoti savo darbo užsakymus.
+
+Norėdami peržiūrėti Ganto diagramą ir su ja dirbti, atlikite toliau nurodytus veiksmus.
+
+1. Eikite į **Turto valdymas > Darbo užsakymai > Suplanuotų darbo užsakymų Ganto diagrama**.
+
+1. Norėdami nustatyti, kuri funkcinė vieta, trukmė ir laiko skalė turėtų būti rodoma Ganto diagramoje, naudokite dalyje **Parametrai** esančius išplečiamuosius sąrašus ir laukus.
+
+1. Pasirinkite **Taikyti**.
+
+    - Ganto diagrama atnaujinama, kad būtų rodomi jūsų nustatymus atitinkantys suplanuoti darbo užsakymai. Kiekvieną darbo užsakymą vaizduoja mėlynas stačiakampis.
+    - Norėdami perplanuoti rodomą darbo užsakymą, pasirinkite ir nuvilkite jį į norimą naują datą ir laiką.
+
+1. Jei atlikote pakeitimus, veiksmų srityje pasirinkite **Įrašyti**, kad juos įrašytumėte.

@@ -3,7 +3,7 @@ title: Papildyti produkto puslapį
 description: Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ papildyti produkto puslapį.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4c495fc6dfe4aa6561a1bb703253ef8ec71dc13
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 12508a80c440894ec6e2073b5e550846480e6c45
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003079"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269825"
 ---
 # <a name="enrich-a-product-page"></a>Papildyti produkto puslapį
 
@@ -53,7 +53,7 @@ Norėdami papildyti produkto puslapį, atlikite šiuos veiksmus.
 1. Pasirinkite **Funkcija**, tada pasirinkite **Gerai**.
 1. Dešinėje, srityje Ypatybės, lauke **Raiškusis tekstas**, įveskite atnaujintą produkto aprašą.
 1. Lauke **Antraštė** įveskite antraštės tekstą ir pasirinkite **Gerai**.
-1. Pasirinkite **Įrašyti**, tada – **Įrašyti ir atrakinti**.
+1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Lauke **Komentarai** įveskite **Papildyti produktą** ir pasirinkite **Gerai**.
 1. Norėdami peržiūrėti papildytą produkto puslapį, pasirinkite **Peržiūra**. Baigę uždarykite peržiūros skirtuką – grįšite į kūrimo įrankį.
 1. Pasirinkite **Publikuoti**.

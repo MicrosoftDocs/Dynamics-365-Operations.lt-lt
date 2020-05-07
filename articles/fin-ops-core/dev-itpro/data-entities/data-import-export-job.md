@@ -3,7 +3,7 @@ title: Duomenų importavimo ir eksportavimo užduočių apžvalga
 description: Norėdami kurti ir valdyti duomenų importavimo bei eksportavimo užduotis, naudokite darbo sritį Duomenų valdymas.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 02/20/2020
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a4b5396d2bb3fbb98b3f0f8a1bf59d62f673a3d
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124617"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278903"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Duomenų importavimo ir eksportavimo užduočių apžvalga
 
@@ -151,6 +151,18 @@ Vykdymo informacijoje rodoma kiekvieno duomenų objekto, kurį užduotis apdoroj
 Išdėstymo duomenis galite atsisiųsti kaip eksportavimo užduočių failą arba kaip importavimo ir eksportavimo užduočių paketą.
 
 Vykdymo informacijos srityje taip pat galite atidaryti vykdymo žurnalą.
+
+## <a name="parallel-imports"></a>Lygiagretus importavimas
+Norint pagreitinti duomenų importavimą, galima įjungti lygiagretų failo importavimo apdorojimą, jei objektas palaiko lygiagretų importavimą. Norėdami sukonfigūruoti objekto lygiagretų importavimą, atlikite toliau pateiktus veiksmus.
+
+1. Eikite į **Sistemos administravimas \> Darbo sritys \> Duomenų valdymas**.
+2. Skyriuje **Importavimas / eksportavimas** pasirinkite plytelę **Sistemos parametrai**, kad atidarytumėte puslapį **Duomenų importavimo / eksportavimo sistemos parametrai**.
+3. Skirtuke **Objekto parametrai** pasirinkite **Konfigūruoti objekto vykdymo parametrus**, kad atidarytumėte puslapį **Objekto importavimo vykdymo parametrai**.
+4. Nustatyti toliau pateiktus laukus, kad sukonfigūruotumėte objekto lygiagretų importavimą.
+
+    - Lauke **Objektas** pasirinkite objektą.
+    - Lauke **Importavimo įrašų ribinė reikšmė** įveskite importavimo įrašų ribinę reikšmę. Ji nurodo įrašų, kuriuos reikia apdoroti naudojant giją, skaičių. Jei faile yra 10 000 įrašų, o 2 500 įrašų yra 4 užduotys, kiekviena gija apdoros 2 500 įrašų.
+    - Lauke **Importavimo užduočių skaičius** įveskite importavimo užduočių skaičių. Jis neturi viršyti maksimalaus paketo apdorojimui priskirto paketinių gijų skaičiaus dalyje **Sistemos administravimas \>Serverio konfigūravimas**.
 
 ## <a name="clean-up-the-staging-tables"></a>Išdėstymo lentelių valymas
 Pradedant platformos 29 naujinimu, ši funkcija buvo nebenaudojama. Ji pakeista nauja užduočių retrospektyvos valymo funkcija, kuri paaiškinama toliau.

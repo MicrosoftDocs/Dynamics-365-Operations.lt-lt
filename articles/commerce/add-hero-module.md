@@ -3,7 +3,7 @@ title: Turinio bloko modulis
 description: Šioje temoje aprašomi turinio bloko moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f91de93ce5ed4813f9f2adbe7678229189b5af2f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: daf9193a7fdc3b57defbb3250ae902f6eb6ee6c4
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025763"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269687"
 ---
 # <a name="content-block-module"></a>Turinio bloko modulis
 
@@ -79,10 +79,10 @@ Toliau pateiktame paveiksle parodytas turinio bloko modulis su funkcijos maketu.
 
 Norėdami į naują puslapį įtraukti pagrindinės reklaminės juostos modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Eikite į **Šablonai** ir sukurkite puslapio šabloną pavadinimu **turinio bloko šablonas**.
+1. Eikite į **Šablonai** ir sukurkite puslapio šabloną pavadinimu **Turinio bloko šablonas**.
 1. Numatytojo puslapio vietoje **Pagrindinis** įtraukite pagrindinės reklaminės juostos modulį.
-1. Šabloną įrašykite ir atrakinkite bei publikuokite.
-1. Naudodami ką tik sukurtą pagrindinį šabloną, sukurkite puslapį, pavadintą **turinio bloko puslapis**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Naudodami ką tik sukurtą pagrindinį šabloną, sukurkite puslapį, pavadintą **Turinio bloko puslapis**.
 1. Numatytojo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti modulį**.
 1. Dialogo lango **Modulio įtraukimas** dalyje **Pasirinkti modulius** pasirinkite pagrindinės reklaminės juostos modulį ir **Gerai**.
 1. Kairėje esančiame struktūros medyje pasirinkite turinio bloko modulį.
@@ -93,8 +93,8 @@ Norėdami į naują puslapį įtraukti pagrindinės reklaminės juostos modulį 
 1. Pasirinkite **Pridėti saitą**.
 1. Dialogo lange **Saitas** įtraukite saito tekstą, saito URL ir saito ARIA žymą, tada pasirinkite **Gerai**.
 1. Pasirinkite maketą **Pagrindinis**.
-1. Įrašykite puslapį ir peržiūrėkite keitimus.
-1. Puslapį įrašykite ir atrakinkite bei publikuokite.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

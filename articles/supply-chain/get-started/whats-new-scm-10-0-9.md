@@ -1,6 +1,6 @@
 ---
-title: Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 (2020 m. balandžio mėn.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.9 funkcijos.
+title: Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 versijoje (2020 m. balandžio mėn.)?
+description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.9 versijos funkcijos.
 author: kamaybac
 manager: tfehr
 ms.date: 02/19/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 24132e5c43948232bb8ae3c08577d7505b5df3e4
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: c9965d72474e5fa39fbc0a43753f7645df6881a5
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261216"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275702"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 (2020 m. balandžio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Kas nauja arba pasikeitė „Dynamics 365 Supply Chain Management” 10.0.9 versijoje (2020 m. balandžio mėn.)?
 
 [!include [banner](../includes/banner.md)]
 
@@ -46,7 +46,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 - [Siuntimo patobulinimų konsolidavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/consolidate-shipment-enhancements)
 - [Prekių skirstymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planned-cross-docking). Daugiau informacijos rasite vaizdo įraše [Suplanuotas prekių skirstymas](https://www.microsoft.com/videoplayer/embed/RE4f7LF).
 - Tolesnis esamo svorio integravimas [10.0.1](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.1), [10.0.2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.2), [10.0.3](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.3), [10.0.4](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.4), [10.0.5](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.5), [10.0.6](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.6), [10.0.7](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/further-catch-weight-integration-10.0.7); daugiau informacijos žr. [Esamo svorio produkto apdorojimas ir sandėlio valdymas](../warehousing/catch-weight-processing.md), taip pat [Esamo svorio produktų tobulinimas](https://www.microsoft.com/videoplayer/embed/RE4jzx8) vaizdo įrašas.
-- [Ilgalaikio turto integravimas su turto valdymo ciklu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle)
+- [Ilgalaikio turto integravimas su turto valdymo ciklu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/fixed-assets-integration-asset-management-lifecycle) – Daugiau informacijos žr. [Turto valdymo integravimas naudojant ilgalaikį turtą](../asset-management/integration-to-fixed-assets/fixed-asset-integration.md)
 - [Lanksti sandėlio dimensijų rezervacija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/flexible-warehouse-level-dimension-reservation); daugiau informacijos žr. [Lanksti sandėlio dimensijų rezervavimo strategija](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 - [Patobulintas užduoties kortelės įrenginys](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/improved-job-card-device). Daugiau informacijos rasite [Pranešti apie eigą mobiliajame užduoties įrenginyje](../production-control/tasks/report-progress-mobile-job-device.md) ir [Pranešti kaip baigtą į numerio lentelės kontroliuojamą vietą iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md)
 - [aunamas kokybės patikrinimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/inbound-quality-check)
@@ -64,7 +64,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 - [Gavimo rūšiavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/receive-sortation)
 - [Mažų siuntinių siuntimas (angl. SPS)](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/small-package-shipping-sps)
 - [Tiekėjų pasiūlymai – tiekėjų klausimai ir apibendrinti atsakymai](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/vendor-bidding-questions-vendors-summarized-responses)
-- [Vaizdinis darbo užsakymų planavimas turto valdyme](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management)
+- [Vaizdinis darbo užsakymų planavimas turto valdyme](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/visual-scheduling-work-orders-asset-management) – Daugiau informacijos žr. [Darbas su suplanuotais darbo užsakymais naudojant Ganto diagramą](../asset-management/work-order-scheduling/schedule-work-orders.md#gantt)
 - [Sandėlio intervalas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-slotting)
 - [Bangos etikečių spausdinimo patobulinimai](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-label-printing-enhancements)
 - [Bangos veiksmo kodas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-step-code)
@@ -73,7 +73,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 ### <a name="platform-update-33"></a>Platformos „update 33“
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.9 sudaro platformos 33 naujinimas. Norėdami sužinoti daugiau, žr [Peržiūros funkcijos platformos 33 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-33.md).
+Į „Microsoft Dynamics 365 Supply Chain Management“ 10.0.9 versiją įtrauktas platformos 33 naujinimas. Norėdami sužinoti daugiau, žr [Peržiūros funkcijos platformos 33 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-33.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

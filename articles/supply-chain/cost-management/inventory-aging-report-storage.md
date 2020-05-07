@@ -1,5 +1,5 @@
 ---
-title: Atsargų skirstymo pagal terminus ataskaita
+title: Atsargų skirstymo pagal terminus ataskaitos saugykla
 description: Šioje temoje aprašomos funkcijos, leidžiančios vykdyti atsargų skirstymo pagal terminus ataskaitą ir įgalinti išvestis kaip formą ir diagramą.
 author: AndersGirke
 manager: tfehr
@@ -19,24 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 790c8fe3a52bce652227f1cef97eff6496476100
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9148a9032615222a1fdfe453488e716bacadbabc
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201627"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275584"
 ---
-# <a name="inventory-aging-report"></a>Atsargų skirstymo pagal terminus ataskaita
+# <a name="inventory-aging-report-storage"></a>Atsargų skirstymo pagal terminus ataskaitos saugykla
 
 
 [!include [banner](../includes/banner.md)]
 [!include [banner](../includes/preview-banner.md)]
 
-„Microsoft Dynamics 365 Supply Chain Management“ galite vykdyti **Atsargų skirstymas pagal terminus** ataskaitą ir įgalinti išvestį kaip formą ir diagramą. Formoje stulpeliai ir kaupiamieji balansai yra dinamiškai koreguojami atsižvelgiant į sukonfigūruotą maketą. Diagramoje pateikiama vizualinė peržiūra, kuri palaiko filtravimą ir leidžia detalizuoti informaciją. Be to, duomenų subjektas pavadinimu **Atsargų skirstymas pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymas pagal terminus** ataskaitą, kad būtų galima naudoti, pavyzdžiui, „Microsoft Excel“ failo arba PDF failo formatą.
+„Microsoft Dynamics 365 Supply Chain Management“ galite vykdyti **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitą ir įgalinti išvestį kaip formą ir diagramą. Formoje stulpeliai ir kaupiamieji balansai yra dinamiškai koreguojami atsižvelgiant į sukonfigūruotą maketą. Diagramoje pateikiama vizualinė peržiūra, kuri palaiko filtravimą ir leidžia detalizuoti informaciją. Be to, duomenų subjektas pavadinimu **Atsargų skirstymas pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitą, kad būtų galima naudoti, pavyzdžiui, „Microsoft Excel“ failo arba PDF failo formatą.
 
-Šis **Atsargų skirstymas pagal terminus** ataskaitos vykdymo metodas naudingas tais atvejais, kai išvestyje yra daug eilučių. Pavyzdžiui, išvestyje yra daug eilučių, jei yra 50 000 prekių ir 300 parduotuvių, sukurtų kaip sandėliai, o jūs prašote atsargų skirstymo pagal terminus pagal prekę, teritoriją ir sandėlį.
+Šis **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitos vykdymo metodas naudingas tais atvejais, kai išvestyje yra daug eilučių. Pavyzdžiui, išvestyje yra daug eilučių, jei yra 50 000 prekių ir 300 parduotuvių, sukurtų kaip sandėliai, o jūs prašote atsargų skirstymo pagal terminus pagal prekę, teritoriją ir sandėlį.
 
-## <a name="run-an-inventory-aging-report"></a>Atsargų skirstymo pagal terminus ataskaitos vykdymas
+## <a name="enable-the-inventory-value-storage-report-feature"></a>Atsargų vertės saugyklos ataskaitos funkcijos įjungimas
+
+Kad galėtumėte naudoti šią funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įgalinti ją, jei reikia. Čia funkcija yra nurodyta kaip:
+
+- **Modulis** – kaštų valdymas
+- **Funkcijos pavadinimas** – Atsargų skirstymo pagal terminus ataskaitos saugykla
+
+## <a name="run-an-inventory-aging-report-storage"></a>Atsargų skirstymo pagal terminus ataskaitos saugyklos vykdymas
 
 1. Eikite į **Išlaidų valdymas \> Užklausos ir ataskaitos \> Atsargų skirstymas pagal terminus**.
 1. Pasirinkite **Naujas**.
@@ -51,4 +58,4 @@ ms.locfileid: "3201627"
     > [!NOTE]
     > Formoje nebus įtrauktos tarpinės sumos, kurios nurodytos ataskaitos makete.
 
-Duomenų objektas**Atsargų skirstymo pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymas pagal terminus** ataskaitą taikant filtrą **Proceso identifikatorius – pavadinimas** bet kokiam formatui, kurį palaiko duomenų valdymas.
+Duomenų objektas**Atsargų skirstymo pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitą taikant filtrą **Proceso identifikatorius – pavadinimas** bet kokiam formatui, kurį palaiko duomenų valdymas.

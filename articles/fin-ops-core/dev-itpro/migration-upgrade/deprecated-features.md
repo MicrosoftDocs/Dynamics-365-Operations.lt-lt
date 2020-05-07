@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias buvo numatyta pašalinti iš „Dynamics 365 for Finance and Operations“ ir ankstesnių šio produkto leidimų.
 author: sericks007
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1aade5d1272e069c1c2e3470363ffd7d5fc3cdc
-ms.sourcegitcommit: 724f5b400a4e7c385da9d8b22db416ebc3623b93
+ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
+ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3225133"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284019"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -230,7 +230,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 | **Pakeitė kita funkcija?**   | Nr. |
 | **Paveiktos produkto sritys**         | Produkto informacijos valdymas |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas  |
-| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 10.0.0 versijos su 24 platformos naujiniu. (Jei ir tik tada, jei jums reikia ištaisyti sugadintus duomenis dėl ankstesnio pateikto produkto pirminio rakto pervardijimo, kreipkitės į „Microsoft“ palaikymo tarnybą ir prašykite laikino šio apribojimo pašalinimo.) |
+| **Būsena**                         | Pašalinta pradedant nuo „Finance and Operations“ 10.0.0 versijos su 24 platformos naujiniu.|
 
 
 ## <a name="finance-and-operations-813-with-platform-update-23"></a>„Finance and Operations 8.1.3“ su „Platform Update 23“
@@ -267,7 +267,7 @@ Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL �
 | **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
-| **Būsena**                         | Nerekomenduojama. Įspėjimas ateityje taps kompiliavimo laiko klaida. Šis keitimas yra skirtas „Finance and Operations” programų 10.0.11 versijos platformos naujinimams. |
+| **Būsena**                         | Nebenaudojama: „Finance and Operations” programų 10.0.11 versijos platformos naujinimuose įspėjimas pakeistas į kompiliacijos laiko klaidą. |
 
 #### <a name="complete-list"></a>Visas sąrašas
 Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduomenų elementų nebenaudojimas](deprecation-deletion-apis.md).

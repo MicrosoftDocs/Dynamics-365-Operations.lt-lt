@@ -3,7 +3,7 @@ title: PVM mokėjimo ir apvalinimo taisyklės
 description: Šiame straipsnyje paaiškinama, kaip srityje PVM rinkėjai veikia apvalinimo taisyklės nustatymas ir paaiškinamas PVM balansas vykdant užduotį Sudengti ir užregistruoti PVM.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/30/2018
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e66a62007025964b3d58ff0620ebecd6d9769f9
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: adc48d1841903670577684b1c3d773d323c19ea1
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771757"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275679"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>PVM mokėjimo ir apvalinimo taisyklės
 
@@ -43,26 +43,26 @@ Rodoma, kad bendrojo laikotarpio PVM kredito balansas yra –98 765,43. Juridini
 
 Juridinis subjektas nori naudoti apvalinimo metodą, kuris apvalina likutį iki artimiausio 1,00. Naudotojas, atsakingas už PVM apskaitą, atlieka toliau nurodytus veiksmus.
 
-1.  Spustelėkite Mokestis &gt; Netiesioginiai mokesčiai &gt; PVM &gt; PVM rinkėjai
-2.  „FastTab“ skirtuke Bendra esančiame lauke Apvalinimo forma pasirinkite parinktį Įprastas.
-3.  Lauke Apvalinimas įveskite 1,00.
-4.  Kai ateina laikas mokėti PVM mokesčių inspekcijai, atidarykite puslapį Sudengti ir užregistruoti PVM. (Spustelėkite Mokestis &gt; Deklaracijos &gt; PVM &gt; Sudengti ir užregistruoti PVM.)
-5.  PVM sudengimo sąskaitoje mokesčių skolos suma 98 765,43 suapvalinama iki 98 765.
+1. Spustelėkite **Mokestis** > **Netiesioginiai mokesčiai** > **PVM** > **PVM institucijos**.
+2. „FastTab“ konteineryje **Bendra** esančiame lauke **Apvalinimo forma** pasirinkite **Įprasta**.
+3. Lauke **Apvalinimas** įveskite 1,00.
+4. Kai ateina laikas mokėti PVM mokesčių inspekcijai, eikite į **Mokestis** > **Deklaracijos** > **PVM** > **Sudengti ir užregistruoti PVM**. PVM sudengimo sąskaitoje galite matyti, kad mokesčių skolos suma **98 765,43** suapvalinama iki **98 765**.
 
-Toliau pateikiamoje lentelėje parodoma, kaip 98 765,43 suma suapvalinama taikant kiekvieną apvalinimo metodą, galimą puslapio PVM rinkėjai lauke Apvalinimo forma.
+Toliau pateikiamoje lentelėje parodoma, kaip 98 765,43 suma suapvalinama taikant kiekvieną apvalinimo metodą, galimą puslapio **PVM rinkėjai** lauke **Apvalinimo forma**.
 
-| Apvalinimo formos parinktis                | Apvalinimo vertė = 0,01 | Apvalinimo vertė = 0,10 | Apvalinimo vertė = 1,00 | Apvalinimo vertė = 100,00 |
-|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|
-| Įprastas                              | 98 765,43              | 98 765,40              | 98 765,00              | 98 800,00                |
-| Žemyn                            | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Į didesnę pusę                         | 98 765,43              | 98 765,50              | 98 766,00              | 98 800,00                |
-| Pranašumas, kredito balansas | 98 765,43              | 98 765,40              | 98 765,00              | 98 700,00                |
-| Pranašumas, debeto balansas  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
+> [!NOTE]                                                                                  
+> Jei apvalinimo reikšmė nustatyta kaip 0,00, tada:
+>
+> - Apvalinant įprastai, apvalinimo veiksmas yra toks pats, kaip **Apvalinimas = 0,01**.
+> - Naudojant **Apvalinimo formos parinktys**, **Mažinant**, **Apvalinimas** ir **Pranašumas**, veiksmas yra toks pats kaip **Apvalinimas = 1,00**.
 
-
-### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>Apvalinimo nėra, nes apvalinimas yra 0,00
-
-apvalinimas (1,0151; 0,00) = 1,0151 apvalinimas (1,0149; 0,00) = 1.0149
+| Apvalinimo formos parinktis                | Apvalinimo vertė = 0,01 | Apvalinimo vertė = 0,10 | Apvalinimo vertė = 1,00 | Apvalinimo vertė = 100,00 | Apvalinimo vertė = 0,00   |
+|-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|
+| Įprasta                              | 98,765.43              | 98,765.40              | 98,765.00              | 98,800.00                | 98,765.43                |
+| Žemyn                            | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Apvalinimas į didesnę pusę                         | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
+| Pranašumas, kredito balansas | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                | 98,765.00                |
+| Pranašumas, debeto balansas  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                | 98,766.00                |
 
 ### <a name="normal-round-and-round-precision-is-001"></a>Įprastas apvalinimas, o apvalinimo tikslumas yra 0,01
 
