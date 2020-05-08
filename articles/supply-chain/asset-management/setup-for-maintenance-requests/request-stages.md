@@ -3,7 +3,7 @@ title: Priežiūros užklausos ciklo būsenos
 description: Šioje temoje aprašoma, kaip nustatyti priežiūros užklausos ciklo būsenas modulyje „Turto valdymas“.
 author: josaw1
 manager: tfehr
-ms.date: 07/26/2019
+ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1e4412af0619b57467b5bcba75ea7259604d1d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 08c45742b064f3a13a0ea2704f8873b9c53aad4e
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209012"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275631"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Priežiūros užklausos ciklo būsenos
 
@@ -44,10 +44,10 @@ Priežiūros užklausos ciklo būsenos nurodo etapus, kuriuose gali būti užkla
     „FastTab“ skirtuko **Informacija** lauke **Ciklo modeliai** matysite priežiūros užklausų ciklo modelių, kurie naudoja šią ciklo būseną, skaičių.
 
 5. „FastTab" skirtuke **Bendra** nustatykite parinktį **Aktyvi** į **Taip**, jei priežiūros užklausa turėtų būti aktyvi, kol ji yra šioje ciklo būsenoje.
-6. Nustatykite parinktį **Nustatyti faktinę pabaigą** į **Taip**, jei faktinė pabaigos data ir laikas turėtų būti automatiškai įvedami į šioje ciklo būsenoje esančią priežiūros užklausą.
+6. Nustatykite parinkties **Nustatyti faktinę pabaigą** reikšmę į **Taip**, jei faktinė pabaigos data ir laikas turėtų būti automatiškai įvedami į šioje ciklo būsenoje esančią priežiūros užklausą.
 7. Nustatykite parinktį **Kurti darbo užsakymą** į **Taip**, jei darbo užsakymas gali būti sukurtas iš šioje ciklo būsenoje esančios priežiūros užklausos.
 8. Nustatykite parinktį **Trinti** į **Taip**, jei priežiūros užklausa gali būti ištrinta jai esant šioje ciklo būsenoje.
-9. „FastTab“ skirtuke **Naujinimas**, parinktys **Gaunama** ir **Siunčiama**, esančios skyriuje **Turtas**, yra svarbios, jei naudojate sandėlio remontą. Nustatykite reikiamą parinktį į **Taip**, jei turto ciklo būsena, pasirinkta priežiūros užklausoje, turėtų būti automatiškai atnaujinta į **Gaunama** arba **Siunčiama**, kai priežiūros užklausos ciklo būsena nustatyta į **Gaunama** arba **Siunčiama**.
+9. „FastTab“ konteinerio **Atnaujinimas** dalyje **Turtas** esančios parinktys **Gaunama** ir **Siunčiama** yra svarbios, jei naudojate sandėlio remontą. Nustatykite reikiamą parinktį į **Taip**, jei priežiūros užklausoje pasirinkta turto ciklo būsena turėtų būti automatiškai atnaujinta į **Gaunama** arba **Siunčiama**, kai tos priežiūros užklausos ciklo būsena nustatyta kaip **Gaunama** arba **Siunčiama**.
 
 Paveikslėlyje pavaizduotas puslapio **Priežiūros užklausos ciklo būsenos** pavyzdys.
 

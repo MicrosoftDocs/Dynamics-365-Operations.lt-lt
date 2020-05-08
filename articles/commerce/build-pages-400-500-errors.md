@@ -3,7 +3,7 @@ title: Kurti pasirinktinius 4xx/5xx būsenos kodo klaidų atsakymų puslapius
 description: Šioje temoje aprašoma, kaip, naudojant „Microsoft Dynamics 365 Commerce“ kūrimo įrankius, kurti pasirinktinius atsako į 4xx ir 5xx būsenos kodo klaidas puslapius.
 author: v-chgri
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4477a0a43971b5322c6acd6971cba2e79e2dc8c6
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001144"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269549"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Kurti pasirinktinius 4xx/5xx būsenos kodo klaidų atsakymų puslapius
 
@@ -46,19 +46,21 @@ Norėdami pradėti kurti būsenos kodo klaidų atsako puslapį, atlikite tolesni
 
 Norėdami sukurti būsenos kodo klaidų atsako puslapio šabloną, atlikite tolesnius veiksmus.
 
-1. Nueikite į **Šablonai \> Naujas šablonas**.
-1. Naująjį šabloną pavadinkite.
+1. Eikite į parinktį **Šablonai**.
+1. Pasirinkite **Naujas**, kad sukurtumėte puslapio šabloną.
+1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite naujo šablono pavadinimą ir pasirinkite **Gerai**.
 1. Sukurkite šabloną su norima būsenos kodo klaidų atsako puslapio struktūra.
-1. Šabloną įrašykite ir atrakinkite bei publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
 
 ### <a name="build-the-status-code-error-response-page"></a>Būsenos kodo klaidų atsako puslapio kūrimas
 
 Norėdami kurti būsenos kodo klaidų atsako puslapį, atlikite tolesnius veiksmus.
 
-1. Nueikite į **Puslapiai \> Naujas puslapis**.
-1. Pavadinkite būsenos kodo klaidų atsako puslapį, tačiau **nenustatykite** lauko **URL**.
+1. Eiti į **Puslapiai**.
+1. Pasirinkite **Naujas**, kad sukurtumėte puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną, tada dalyje **Puslapio pavadinimas** įveskite būsenos kodo klaidų atsako puslapio pavadinimą. Lauką **Puslapio URL** palikite tuščią.
 1. Sukurkite puslapį.
-1. Puslapį įrašykite ir atrakinkite bei publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 > [!NOTE]
 > Galite sukurti atskirus būsenos kodo klaidų atsako puslapius, skirtus 4xx ir 5xx būsenos kodo klaidoms. Taip pat galite naudoti tą patį bendrą būsenos kodo klaidų atsako puslapį abiem klaidų kategorijoms.

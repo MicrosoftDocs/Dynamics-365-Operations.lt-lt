@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 59384d8e8d043eb14231a471c7218ced2dddf739
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 53df00de82b101aa02160d865a9c3bbebcfcae15
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172882"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275469"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Trikčių, susijusių su „Finance and Operations” programų naujinimais, šalinimas
 
@@ -85,9 +85,8 @@ Jei problema išlieka, atlikite šiuos veiksmus.
 > Šie veiksmai padės jums pašalinti objektą ir vėl jį pridėti. Norėdami išvengti problemų, tiksliai atlikite nurodytus veiksmus.
 
 1. „Finance and Operations” programoje eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Duomenų objektai**.
-2. Raskite objektą, kurio nėra lauke. Pasižymėkite tikslinį objektą, išdėstymo lentelę, objekto pavadinimą ir kitas stulpelių vertes.
-3. Jei yra apdorojimo grupių, priklausančių nuo šio objekto, prieš naikindami objektą, imkitės atitinkamų veiksmų, susijusių su apdorojimo grupėmis.
-4. Panaikinkite objektą, kurio nėra lauke.
-5. Pasirinkite **Naujas** ir vėl pridėkite objektą. Nurodykite vertes, kurias pasižymėjote atlikdami 2 veiksmą.
-6. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su objektu**.
-7. Pasirinkite **Atnaujinti objektų sąrašą**, kad susiejimų su objektu laukai būtų užpildyti automatiškai.
+2. Raskite objektą, kuriam trūksta atributo. Įrankių juostoje spustelėkite **Modifikuoti paskirties vietos susiejimą**.
+3. Srityje **Susieti išdėstymą su paskirties vieta** spustelėkite **Generuoti susiejimą**.
+4. Eikite į „Finance and Operations” programos **dvigubo rašymo puslapį** ir atidarykite puslapį **Susiejimas su objektu**.
+5. Jei atributas nėra automatiškai užpildomas schemoje, įtraukite jį neautomatiniu būdu spustelėdami mygtuką **Įtraukti atributą**, o tada – **Įrašyti**. 
+6. Pasirinkite schemą ir spustelėkite **Vykdyti**.

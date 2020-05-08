@@ -3,7 +3,7 @@ title: Poraštės modulis
 description: Šioje temoje aprašomi poraštės moduliai ir tai, kaip juos kurti programoje „Dynamics 365 Commerce“.
 author: anupamar
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f8e0290b5af9d0c1fc9ad0279b0d7f81c9feb2fc
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 51f8d26d6223dcd1f6961058cd9d772a67c69670
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001166"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269641"
 ---
 # <a name="footer-module"></a>Poraštės modulis  
 
@@ -58,12 +58,12 @@ Kaip ir dauguma konteinerių, poraštės modulis palaiko antraštės ir pločio 
 1. Norėdami į poraštę įtraukti saitą „grįžti į viršų“, pasirinkite prie poraštės kategorijos modulio esantį daugtaškio mygtuką, tada – **Įtraukti modulį**.
 1. Dialogo lange **Modulio įtraukimas** pasirinkite grįžimo į viršų modulį ir **Gerai**.
 1. Struktūros medyje pasirinkite grįžimo į viršų modulį. Tada dešinėje esančioje ypatybių srityje pagal poreikį sukonfigūruokite grįžimo į viršų modulį.
-1. Puslapio fragmentą įrašykite, atrakinkite ir publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapio fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Kiekviename sukurtame svetainės puslapio šablone atlikite tolesnius veiksmus.
 
 1. Numatytojo puslapio vietos **Pagrindinis** poraštės modulyje įtraukite sukurtą poraštės fragmentą.
-1. Šabloną įrašykite ir atrakinkite bei publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Puslapio fragmentą įtraukdami į puslapio šablonus, padedate užtikrinti, kad poraštė bus vaizduojama kiekviename puslapyje.
 

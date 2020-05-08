@@ -3,7 +3,7 @@ title: „Human Resources“ parengimas
 description: Šiame straipsnyje pateikiami veiksmai, skirti paruošti naują gamybos aplinką programai „Microsoft Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4f2fd2b7bf9f09a61d07e1bc35ad48fe2c5d7383
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 88a0be50a9b861190e7ce9b3f56bb4e583b791d1
+ms.sourcegitcommit: 33685a5cc37081a189279e917def7f122d3beaef
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138364"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "3285494"
 ---
 # <a name="provision-human-resources"></a>„Human Resources“ parengimas
 
@@ -53,13 +53,13 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
 
 1. LCS projekte pasirinkite plytelę **Programos „Human Resources“ valdymas**.
 
-2. Nurodykite, ar tai smėlio dėžės ar gamybos „Human Resources“ egzempliorius. „Smėlio dėžės“ egzemplioriuose gali būti prieinamos išankstinės peržiūros funkcijos, kad būtų galima pateikti išankstinį grįžtamąjį ryšį ir atlikti bandymus.
+2. Nurodykite, ar ši aplinka yra smėlio dėžės, ar gamybos „Human Resources“ egzempliorius. „Smėlio dėžės“ egzemplioriuose gali būti prieinamos išankstinės peržiūros funkcijos, kad būtų galima pateikti išankstinį grįžtamąjį ryšį ir atlikti bandymus.
    
     > [!NOTE]
     > Jau nustatytas „Human Resources“ egzemplioriaus tipas negali būti pakeistas. Prieš tęsdami įsitikinkite, kad pasirinktas teisingas egzemplioriaus tipas.</br></br>
     > „Human Resources“ egzemplioriaus tipas yra atskiras nuo „Microsoft Power Apps“ aplinkos egzemplioriaus tipo, kurį nustatote „Power Apps“ administravimo centre.
     
-3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Human Resources“ bandomosios versijos funkcijose. Tai yra naudinga ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojama gamybos aplinkose.  Atkreipkite dėmesį į tai, kad turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
+3. Pasirinkite parinktį **Įtraukti demonstracinius duomenis**, jei norite, kad jūsų aplinka apimtų tą patį demonstracinių duomenų rinkinį, kuris naudojamas ir „Human Resources“ bandomosios versijos funkcijose. Demonstraciniai duomenys yra naudingi ilgalaikių demonstracijų ar mokymų aplinkose, bet niekada neturėtų būti naudojami gamybos aplinkose. Turite pasirinkti šią pasirinktį atlikdami pradinį diegimą. Vėliau negalėsite atnaujinti esamo diegimo.
 
 4. „Human Resources“ visada konfigūruojama „Microsoft Power Apps“ aplinkai, siekiant įgalinti „Power Apps“ integravimą ir išplečiamumą. Prieš tęsdami perskaitykite šio straipsnio dalį „Power Apps“ aplinkos pasirinkimas“. Jei dar neturite „Power Apps“ aplinkos, LCS pasirinkite Valdyti aplinkas arba pereikite į „Power Apps“ administravimo centrą. Tada atlikite nurodytus veiksmus, norėdami [Kurti „Power Apps“ aplinką](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
@@ -74,27 +74,27 @@ Sukūrę LCS projektą, galite aplinkai paruošti „Human Resources“.
     > [!NOTE]
     > Jei dar nesate patvirtinę galutinių reikalavimų, projekte galite įdiegti „Human Resources“ bandymo egzempliorių. Tada galite naudoti šį egzempliorių, kad išbandytumėte sprendimą, kol patvirtinsite. Jei naudojate naują aplinką bandymams, turite pakartoti šią procedūrą norėdami sukurti gamybos aplinką.
 
-    > Galbūt norėsite 60 dienų nemokamai naudotis [„Human Resources“ bandomoji aplinka ](https://dynamics.microsoft.com/talent/overview/). Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
+    > Galbūt norėsite 60 dienų nemokamai naudotis [„Human Resources“ bandomoji aplinka ](https://go.microsoft.com/fwlink/p/?LinkId=2115962). Nors bandomoji aplinka priklauso vartotojui, kuris to pageidavo, kiti vartotojai gali būti pakviesti per sistemos administravimo galimybę, skirtą žmogiškiesiems ištekliams. Bandomosiose aplinkose pateikti išgalvoti duomenys, kuriais naudojantis galima saugiai tyrinėti programą. Jos nėra skirtos naudoti kaip gamybos aplinkos. Atkreipkite dėmesį, kad, po 60 dienų pasibaigus bandomosios aplinkos naudojimo terminui, visi joje esantys duomenys panaikinami ir jų nebegalima susigrąžinti. Pasibaigus dabartinės aplinkos naudojimo terminui, galite užsiregistruoti naujai bandomajai aplinkai.
 
 ## <a name="select-a-power-apps-environment"></a>„Power Apps“ aplinkos pasirinkimas
 
-„Human Resources“ ir „Power Apps“ aplinkų integracija leidžia integruoti ir išplėsti „Human Resources“ duomenų naudojimą „Power Apps“ įrankiams. Informacija apie „Power Apps“ aplinkų tikslą ne tik padės sukurti programų, išplečiančių „Human Resources“ funkcijas, bet ir pagelbės renkantis tinkamą aplinką „Human resources“ parengimo metu. Norėdami gauti daugiau informacijos apie „Power Apps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„Power Apps“ aplinkų paskelbimas](https://powerapps.microsoft.com/blog/powerapps-environments/). 
+Naudodami „Power Apps” įrankius galite integruoti ir išplėsti „Human Resources“ duomenų naudojimą. Norėdami gauti daugiau informacijos apie „Power Apps“ aplinkas, įskaitant aplinkų aprėptį, prieigą prie jų ir aplinkų kūrimą bei pasirinkimą, žr. [„Power Apps“ aplinkų paskelbimas](https://powerapps.microsoft.com/blog/powerapps-environments/). 
 
 Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pasinaudokite toliau pateiktais nurodymais. 
 
-1. LCS pasirinkite **Valdyti aplinkas** arba eikite tiesiai į „Power Apps“ administravimo centrą, kuriame galėsite peržiūrėti esamas aplinkas ir sukurti naujų.
+1. LCS pasirinkite **Valdyti aplinkas**. Taip pat galite tiesiogiai pereiti į „Power Apps“ administravimo centrą, kur galite peržiūrėti esamas aplinkas ir kurti naujas.
 
 2. Viena „Human Resources“ aplinka susieta su viena „Power Apps“ aplinka.
 
 3. „Power Apps“ aplinkoje kartu su programa „Human Resources“ pateikiamos atitinkamos „Power Apps“, „Power Automate“ ir „Common Data Service“ programos. Panaikinus „Power Apps“ aplinką, panaikinamos ir joje pateikiamos programos. Rengiant „Human Resources“ aplinką, galima sukonfigūruoti aplinkas **Bandomoji versija** arba **Gamyba**. Pagal tai, kaip aplinka bus naudojama, pasirinkite aplinkos tipą. 
 
-4. Apsvarstykite, ar nereikėtų numatyti duomenų integravimo ir bandymo strategijų, pvz., smėlio dėžės, UAT arba gamybos. Rekomenduojame įvertinti įvairius diegimo padarinius, nes vėliau pakeisti su „Power Apps“ aplinka susietą „Human Resources“ aplinką nėra paprasta.
+4. Apsvarstykite, ar nereikėtų numatyti duomenų integravimo ir bandymo strategijų, pvz., smėlio dėžės, UAT arba gamybos. Atidžiai apsvarstykite diegimo padarinius, nes pakeisti su „Power Apps“ aplinka susietą „Human Resources“ aplinką nėra paprasta.
 
-5. Toliau nurodytų „Power Apps“ aplinkų negalima naudoti programoje „Human Resources“ ir LCS esančiame pasirinkimo sąraše jos bus filtruojamos.
+5. Programoje „Human Resources“ negalite naudoti toliau pateiktų „Power Apps” aplinkų. Jos filtruojamos LCS esančiame pasirinkimo sąraše.
  
-    - **Numatytosios „Power Apps“ aplinkos** – nors kiekvienas nuomotojas automatiškai parengiamas pagal numatytąją „Power Apps“ aplinką, nerekomenduojame jų naudoti kartu su „Human Resources“, nes visi vartotojai, kurie yra nuomotojai, turi prieigą prie „Power Apps “ aplinkos ir bandydami bei naršydami pasitelkiant „Power Apps“ ar „Power Automate“ integravimus gali netyčia sugadinti jūsų gamybos duomenis.
+    - **Numatytosios „Power Apps” aplinkos** – nors kiekvienas nuomotojas automatiškai sukonfigūruojamas pagal numatytąją „Power Apps“ aplinką, nerekomenduojame jų naudoti kartu su „Human Resources“. Visi nuomotojo vartotojai turi prieigą prie „Power Apps“ aplinkos ir bandydami bei naršydami naudodami „Power Apps“ ar „Power Automate“ integravimus jie gali netyčia sugadinti gamybos duomenis.
    
-    - **Bandomosios aplinkos** – šios aplinkos kuriamos pritaikant galiojimo datą ir šiai pasibaigus nebegalios, o jūsų aplinka ir visi joje esantys „Human Resources“ egzemplioriai bus automatiškai pašalinti.
+    - **Bandomosios aplinkos** – šios aplinkos kuriamos pritaikant galiojimo datą. Baigus galioti, jūsų aplinka ir visi joje esantys „Human Resources“ egzemplioriai bus automatiškai pašalinti.
    
     - **Nepalaikomi regionai** – šiuo metu „Human Resources“ palaikoma tik šiuose regionuose: Jungtinėse Amerikos Valstijose, Europoje, Jungtinėje Karalystėje, Australijoje, Kanadoje ir Azijoje.
 
@@ -105,4 +105,4 @@ Svarstydami, kurioje „Power Apps“ aplinkoje diegti „Human Resources“, pa
  
 ## <a name="grant-access-to-the-environment"></a>Prieigos prie aplinkos suteikimas
 
-Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Tačiau papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Norėdami suteikti prieigą, turite pridėti vartotojų ir priskirti jiems tinkamus vaidmenis žmogiškųjų išteklių aplinkoje. „Human Resources“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems vartotojams, kurie yra nuomotojai.  Kol tai nebus atlikta, kiti vartotojai neturės prieigos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Pagal numatytuosius nustatymus, aplinką sukūręs visuotinis administratorius turi prie jos prieigą. Papildomiems programos vartotojams prieiga turi būti aiškiai suteikta. Turite pridėti vartotojų ir priskirti jiems tinkamus vaidmenis „Human Resources“ aplinkoje. „Human Resources“ įdiegęs visuotinis administratorius taip pat turi paleisti „Attract“ ir „Onboard“ programas, kad užbaigtų inicijavimą ir suteiktų prieigą kitiems vartotojams, kurie yra nuomotojai. Kol tai nebus atlikta, kiti vartotojai neturės prieigos prie „Attract“ ir „Onboard“ programų ir matys prieigos pažeidimo klaidas. Daugiau informacijos rasite [Naujų vartotojų kūrimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) ir [Vartotojų priskyrimas saugos vaidmenims](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

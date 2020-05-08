@@ -19,17 +19,16 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 54201de6b242f8100c19a78468476a6308b1b18a
-ms.sourcegitcommit: 5554b3abb4365666992efad692ae28e943faebd4
+ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
+ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "3116561"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3265591"
 ---
 # <a name="show-discounts-in-pos"></a>Nuolaidų rodymas EKA
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Akcijos vaidina svarbų vaidmenį motyvuojant klientus, kurie priima pirkimo sprendimus. Pavyzdžiui, atostogos gali sudaryti didžiausią mažmenininkų pardavimo skaičių, nes visa mažmeninės prekybos rinka yra užtvindyta viliojančiomis akcijomis ir nuolaidomis. Jei parduotuvės darbuotojai žino ir supranta siūlomas akcijas, jie gali nesunkiai pasinaudoti šių nuolaidų privalumais, kad parduotų prekes kryžminio ir papildomo pardavimų būdais. Šioje temoje paaiškinama, kaip „Microsoft Dynamics 365 Commerce“ padeda pardavimo partneriams sužinoti apie akcijas ir kaip jos gali būti naudojamos kryžminiams ir papildomiems pardavimams.
 

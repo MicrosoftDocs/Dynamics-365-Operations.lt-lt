@@ -3,7 +3,7 @@ title: Karuselės modulis
 description: Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f279d7db0a92df9e64b1d3f6ca01c65ca1478d79
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025786"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269733"
 ---
 # <a name="carousel-module"></a>Karuselės modulis
 
@@ -58,18 +58,19 @@ Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraišking
 
 Norėdami į naują puslapį įtraukti karuselės modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Sukurkite puslapio šabloną, pavadintą **karuselės šablonas**.
+1. Pasirinkite **Naujas**, kad sukurtumėte puslapio šabloną.
+1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **Karuselės šablonas** ir pasirinkite **Gerai**.
 1. Srityje **Pagrindinė dalis** įtraukite modulį **Numatytasis modulis**.
-1. Šabloną įrašykite ir atrakinkite bei publikuokite. 
-1. Naudodami ką tik sukurtą karuselės šabloną, sukurkite puslapį, pavadintą **karuselės puslapis**.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.  
+1. Naudodami ką tik sukurtą karuselės šabloną, sukurkite puslapį, pavadintą **Karuselės puslapis**.
 1. Naujo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį. 
 1. Dešiniojoje srityje nustatykite **Plotis** vertę, kad galėtumėte **Užpildyti ekraną**.
 1. Dalyje **Puslapio kontūras** įtraukite karuselės modulį į konteinerio modulį.
 1. Į karuselės modulį įtraukite turinio bloko modulį. Nustatykite turinio bloko modulio ypatybes pateikdami **Antraštė**, **Saitas**, **Išdėstymas** ir kitas ypatybes.
 1. Įtraukite ir konfigūruokite kitą turinio bloko modulį.
 1. Pagal pageidavimą, nustatykite kitas karuselės modulio ypatybes.
-1. Puslapį įrašykite ir peržiūrėkite. Puslapyje turėtų būti rodoma karuselė su dviem moduliais (pagrindinės reklaminės juostos moduliu ir ypatybių moduliu). Norėdami pasiekti norimą rezultatą, galite keisti papildomas karuselės, pagrindinės reklaminės juostos ir ypatybių modulių ypatybes.
-1. Baikite puslapio redagavimą ir publikuokite.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Puslapyje turėtų būti rodoma karuselė su dviem moduliais (pagrindinės reklaminės juostos moduliu ir ypatybių moduliu). Norėdami pasiekti norimą rezultatą, galite keisti papildomas karuselės, pagrindinės reklaminės juostos ir ypatybių modulių ypatybes.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

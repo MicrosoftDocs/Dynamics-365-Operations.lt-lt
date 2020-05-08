@@ -3,7 +3,7 @@ title: Dvi valiutos
 description: Šioje temoje pateikiama informacija apie dvi valiutas, kai ataskaitų valiuta naudojama kaip antroji „Microsoft Dynamics 365 Finance“ apskaitos valiuta.
 author: kweekley
 manager: AnnBe
-ms.date: 08/07/2019
+ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4a01b8387afd45648f1205d4246378edc8a9e79b
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
+ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249016"
+ms.lasthandoff: 04/18/2020
+ms.locfileid: "3270317"
 ---
 # <a name="dual-currency"></a>Dvi valiutos
 
@@ -174,10 +174,10 @@ Be to, atlikti dideli nusidėvėjimo proceso pakeitimai. Atlikus šiuos pakeitim
 
         | Ilgalaikis turtas | Rezervuoti      | Operacijos tipas | Operacijos data | Valiuta | Suma operacijos valiuta | Suma  | Valiutos kursas | Suma ataskaitų valiuta |
         |-------------|-----------|------------------|------------------|----------|--------------------------------|---------|-----------|---------------------------|
-        | BUIL-00001  | 200\_SLLT | Įsigijimas      | 6/3/2016         | DKK      | 1 000 000                      | 500,000 | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Nusidėvėjimas     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Nusidėvėjimas     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250,000                   |
-        | BUIL-00001  | 200\_SLLT | Nusidėvėjimas     | 6/3/2016         | DKK      | 50 000                         | 50 000  | 2,5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Įsigijimas      | 6/3/2016         | DKK      | 1 000 000                      | 500,000 | 2.5       | 250,000                   |
+        | BUIL-00001  | 200\_SLLT | Nusidėvėjimas     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Nusidėvėjimas     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
+        | BUIL-00001  | 200\_SLLT | Nusidėvėjimas     | 6/3/2016         | USD      | 50,000                         | 50,000  | 2.5       |  25,000                   |
 
     - Daugelis klientų sekė savo turto operacijų duomenis pasižymėdami juos darbaknygėse. Prie šių duomenų priskiriami valiutos kursai ir sumos. Jei turite šiuos duomenis darbaknygėje, galite sukurti pasirinktinį valiutos kurso tipą ir jį atnaujinti, pasinaudodami darbaknygėje nurodytais valiutos kursais. Tada šis valiutos kurso tipas bus naudojamas įvedant numatytąjį valiutos kursą įsigijimo dieną ir apskaičiuojant sumą ataskaitų valiuta. Jeigu valiutos kurso tipas nepasirinktas, vedlys naudoja didžiojoje knygoje nurodytą valiutos kurso tipą.
     - Valiutos kursą ir sumas ataskaitų valiuta galima pakeisti. Pasikeitus valiutos kursui, ataskaitų valiuta nurodyta suma perskaičiuojama naudojant naują kursą.

@@ -3,7 +3,7 @@ title: Pasirinkti puslapių maketus
 description: Šioje temoje paaiškinama, kaip kurti ir pasirinkti puslapių maketus naudojant „Microsoft Dynamics 365 Commerce”.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a3e8efcdc236911ac79007c606d5d1da56f6c424
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0cbcba7ce4f40298e0f2665fa811b125f11e9490
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002779"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269917"
 ---
 # <a name="select-page-layouts"></a>Pasirinkti puslapių maketus
 
@@ -39,7 +39,7 @@ ms.locfileid: "3002779"
 Norėdami kurti esamo puslapio maketus, atlikite toliau nurodytus veiksmus.
 
 1. Eiti į dalį **Puslapiai** ir sąraše raskite esamą puslapį. Jei reikia, naudokite ieškos funkciją.
-1. Pasirinkite puslapį, jį patikrinkite, o tada jį spustelėkite, kad atidarytumėte. Pasižymėkite modulių tvarką.
+1. Pasirinkite puslapį, norėdami jį patikrinti pasirinkite **Redaguoti**, tada pasirinkite puslapio pavadinimą, kad jį atidarytumėte. Pasižymėkite modulių tvarką.
 1. Pasirinkite **Įrašyti kaip naują maketą**.
 1. Įveskite maketo pavadinimą, tada pasirinkite **Gerai**.
 1. Pasirinkite **Konvertuoti į įdėtąjį maketą**.
@@ -47,6 +47,7 @@ Norėdami kurti esamo puslapio maketus, atlikite toliau nurodytus veiksmus.
 1. Pasirinkite **Įrašyti kaip naują maketą**.
 1. Įveskite maketo pavadinimą, tada pasirinkite **Gerai**.
 1. Pasirinkite **Keisti maketą**, pasirinkite pirmą sukurtą maketą ir pasirinkite **Gerai**. Pasižymėkite modulių tvarką. Pakeiskite ją taip, kad ji atitiktų modulių tvarką, kuri buvo įrašyta su maketu.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
 
 ## <a name="select-a-different-layout-for-an-existing-page"></a>Kito esamo puslapio maketo pasirinkimas
 
@@ -56,9 +57,10 @@ Norėdami kurti esamo puslapio maketus, atlikite toliau nurodytus veiksmus.
 Norėdami pasirinkti kitą esamo puslapio maketą, atlikite toliau nurodytus veiksmus.
 
 1. Eiti į dalį **Puslapiai** ir sąraše raskite esamą puslapį. Jei reikia, naudokite ieškos funkciją.
-1. Pasirinkite puslapį, jį patikrinkite, o tada jį spustelėkite, kad atidarytumėte.
+1. Pasirinkite puslapį, norėdami jį patikrinti pasirinkite **Redaguoti**, tada pasirinkite puslapio pavadinimą, kad jį atidarytumėte.
 1. Pasirinkite **Keisti maketą**.
 1. Pasirinkite naują puslapio maketą, tada pasirinkite **Gerai**. Puslapio rengyklė atnaujinama, kad būtų rodomas naujas maketas.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

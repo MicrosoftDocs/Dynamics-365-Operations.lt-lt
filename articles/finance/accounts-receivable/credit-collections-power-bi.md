@@ -3,7 +3,7 @@ title: „Power BI“ Kredito ir mokėjimų priežiūros valdymas
 description: Šioje temoje paaiškinama, kas įtraukta į „Power BI“ turinį Kredito ir mokėjimų priežiūros valdymas. Jame paaiškinta, kaip pasiekti „Power BI“ ataskaitas, ir pateikta informacija apie duomenų modelį ir objektus, naudojamus turinio paketui kurti.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 04/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5ac47ee086569cdaaa3c30f76435432e64f8fac6
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5c4a2289d7fa0f062735c93cf26cba9ac29ab94e
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189113"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3278879"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ Kredito ir mokėjimų priežiūros valdymas
 
@@ -49,7 +49,7 @@ Kad duomenys būtų rodomi **Klientų kredito ir mokėjimų priežiūra** „Pow
 1. Eikite į **Sistemos administravimas > Sąranka > Sistemos parametrai** ir nustatykite **Sistemos valiuta** ir **Sistemos valiutos kursas**.
 2. Eikite į **Didžioji knyga > Sąranka > Didžioji knyga** ir nustatykite **Apskaitos valiuta** ir **Valiutos kurso tipas**.
 3. Nurodykite valiutos kursus tarp operacijos valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
-4. Eikite į **Sistemos administravimas > Sąranka > Objektų saugykla** ir atnaujinkite agreguotą matavimo vienetą **CustCollectionsBIMeasurements**.
+4. Eikite į **Sistemos administravimas > Sąranka > Objektų saugykla** ir atnaujinkite agreguotą matavimo vienetą **CustCollectionsBIMeasurementsV2**.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 

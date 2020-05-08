@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f7ee0b5aa4e72614205e129acd986376b33efc70
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: d5d9dbce0c74d32107db6bbae033b921e4201693
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172696"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275655"
 ---
 # <a name="general-troubleshooting"></a>Bendroji trikčių šalinimo informacija
 
@@ -70,14 +70,12 @@ Norėdami įjungti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 Norėdami peržiūrėti sekimo žurnalą, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie „Finance and Operations” programos, atidarykite puslapį **Parametrai**, tada dalyje **Tinkinimas** pasirinkite **Priedo sekimo žurnalas**.
-2. Raskite sekimo žurnalus, kuriuose laukas **Tipo pavadinimas** nustatytas kaip **Microsoft.Dynamics.Integrator.CrmPlugins.Plugin**.
+2. Raskite sekimo žurnalus, kuriuose laukas **Tipo pavadinimas** nustatytas kaip **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Dukart spustelėkite elementą, kad peržiūrėtumėte visą žurnalą, tada „FastTab” **Vykdymas** peržiūrėkite tekstą **Pranešimų blokas**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Norėdami šalinti tiesioginio sinchronizavimo triktis „Finance and Operations” programose, įgalinkite derinimo režimą
 
-**Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratorius
-
-Dvigubo rašymo funkcijos klaidos, sukurtos „Common Data Service”, gali atsirasti „Finance and Operations” programoje. Kai kuriais atvejais visas klaidos pranešimo tekstas nepasiekiamas, nes pranešimas yra per ilgas arba jame yra asmens identifikavimo informacijos (PII). Galite įjungti daugiažodį klaidų registravimą atlikdami šiuos veiksmus.
+**Reikiamas vaidmuo, norint peržiūrėti klaidas:** sistemos administratoriaus dvigubos rašymo klaidos, sukurtos „Common Data Service”, gali atsirasti „Finance and Operations” programoje. Kai kuriais atvejais visas klaidos pranešimo tekstas nepasiekiamas, nes pranešimas yra per ilgas arba jame yra asmens identifikavimo informacijos (PII). Galite įjungti daugiažodį klaidų registravimą atlikdami šiuos veiksmus.
 
 1. Visų „Finance and Operations” programų projektų konfigūracijų objekte **DualWriteProjectConfiguration** yra ypatybė **IsDebugMode**. Atidarykite objektą **DualWriteProjectConfiguration** naudodami „Excel“ papildinį.
 
@@ -104,7 +102,7 @@ Dvigubo rašymo funkcijos klaidos, sukurtos „Common Data Service”, gali atsi
 
 ## <a name="unlink-and-link-another-common-data-service-environment-from-a-finance-and-operations-app"></a>Atsieti ir susieti kitą „Common Data Service” aplinką iš „Finance and Operations” programos
 
-**Reikiami kredencialai, norint atsieti aplinką:** „Azure AD” nuomotojo administratorius
+**Būtinas vaidmuo, norint atsieti aplinką:** „Finance and Operations” programų arba „Common Data Service” sistemos administratorius.
 
 1. Prisijungimas prie „Finance and Operations” programos.
 2. Eikite į **Darbo sritys \> Duomenų valdymas** ir pasirinkite plytelę **Dvigubas rašymas**.
@@ -113,3 +111,13 @@ Dvigubo rašymo funkcijos klaidos, sukurtos „Common Data Service”, gali atsi
 5. Kad patvirtintumėte operaciją, pasirinkite **Taip**.
 
 Dabar galite susieti naują aplinką.
+
+## <a name="unable-to-view-the-sales-order-line-information-form"></a>Nepavyko peržiūrėti pardavimo užsakymo eilutės informacijos formos 
+
+Sukurę pardavimo užsakymą „Dynamics 365 Sales”, paspaudę **+ Įtraukti produktus** galite būti nukreipti į „Dynamics 365 Project Operations” užsakymo eilutės formą. Nėra būdo toje formoje peržiūrėti pardavimo užsakymo eilutės formą **Informacija**. Parinktis **Informacija** neatsiranda toliau esančiame išplečiamajame lauke **Nauja užsakymo eilutė**. Taip nutinka, nes jūsų aplinkoje įdiegta „Project Operations”.
+
+Norėdami iš naujo įgalinti formos parinktį **Informacija**, atlikite toliau pateiktus veiksmus.
+1. Pereikite į objektą **Užsakymo eilutė**.
+2. Formų mazge raskite formą **Informacija**. 
+3. Pasirinkite formą **Informacija** ir spustelėkite **Įgalinti saugos vaidmenis**. 
+4. Pakeiskite saugos parametro parinktį į **Rodyti visiems**.

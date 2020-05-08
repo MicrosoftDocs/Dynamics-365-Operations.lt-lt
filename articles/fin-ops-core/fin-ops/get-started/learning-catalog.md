@@ -3,20 +3,20 @@ title: „Finance and Operations“ mokymosi katalogas
 description: Raskite visas „Finance and Operations“ mokymo galimybes.
 author: loreleishannonmsft
 ms.topic: article
-ms.date: 02/19/2020
+ms.date: 04/17/2020
 ms.author: v-lshann
-audience: Application User
+audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: Operations
 ms.search.region: Global
-ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 751e0ec649d962af084f992957f0e4821ea9509d
-ms.sourcegitcommit: 41950e3b5e4d1d0014bef308ac017cb4c2b8e134
+ms.search.validFrom: 2019-1-29
+ms.dyn365.ops.version: 8.0999999999999996
+ms.openlocfilehash: 32b67cfd4c007ddc590cd0ee95255d6f3fbc1d17
+ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3077998"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3279046"
 ---
 # <a name="learning-catalog-for-finance-and-operations"></a>„Finance and Operations“ mokymosi katalogas
 
@@ -33,6 +33,10 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
     Ar sprendžiate, ar investuoti į naujas technologijas? 
 
     [Verslo ir techninių sprendimų priėmėjų mokymosi katalogas](learning-catalog-bdm.md#)
+
+    [Pradžia](learning-catalog-bdm.md#get-started)
+
+    [Egzaminas](learning-catalog-bdm.md#exam)
 
         :::column-end:::
     :::column:::
@@ -53,12 +57,14 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
 
     [Finansų valdymas](learning-catalog-business-user.md#financial-management)
 
+    [Egzaminas](learning-catalog-business-user.md#exam)
+
     :::column-end:::
 :::row-end:::
 :::row:::
     :::column:::
 
-        ### <a name="implementation-project-managers"></a>Diegimo projekto vadovai
+    ### <a name="implementation-project-managers"></a>Diegimo projekto vadovai
 
     Ar esate atsakingas už tai, kad diegimas jūsų įmonėje vyktų sklandžiai?
 
@@ -73,6 +79,9 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
     [Gamyba](learning-catalog-project-manager.md#manufacturing)
 
     [Tiekimo grandinės valdymas](learning-catalog-project-manager.md#supply-chain-management)
+
+    [Egzaminai](learning-catalog-project-manager.md#exams)
+
         :::column-end:::
     :::column:::
 
@@ -82,15 +91,19 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
 
     [Administratorių mokymosi katalogas](learning-catalog-administrator.md)
 
-    [Darbo pradžia](learning-catalog-administrator.md#get-started)
+    [Pradžia](learning-catalog-administrator.md#get-started)
 
     [Bendrosios platformos žinios](learning-catalog-administrator.md#core-platform-knowledge)
+
+    [Pagrindinis kūrimas](learning-catalog-administrator.md#core-development)
 
     [Perkėlimas ir atnaujinimas](learning-catalog-administrator.md#migration-and-upgrade)
 
     [Aptarnavimas](learning-catalog-administrator.md#servicing)
 
     [Tikrinama](learning-catalog-administrator.md#testing)
+
+    [Egzaminas](learning-catalog-administrator.md#exam)
 
   :::column-end:::
 :::row-end:::
@@ -131,6 +144,8 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
 
     [Tiekimo grandinės valdymas](learning-catalog-functional-consultant.md#supply-chain-management)
 
+    [Egzaminai](learning-catalog-functional-consultant.md#exams)
+
     :::column-end:::
 :::row-end:::
 :::row:::
@@ -141,6 +156,10 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
     Ar esate atsakingas už suteikiamą pagalbą, kad klientai pirkdami pasirinktų jiems tinkamiausią sprendimą? 
 
     [„Microsoft“ pardavimo ir rinkodaros partnerių mokymosi katalogas](learning-catalog-partner-sales.md)
+
+    [Pradžia](learning-catalog-partner-sales.md#get-started)
+
+    [Egzaminas](learning-catalog-partner-sales.md#exam)
 
         :::column-end:::
     :::column:::

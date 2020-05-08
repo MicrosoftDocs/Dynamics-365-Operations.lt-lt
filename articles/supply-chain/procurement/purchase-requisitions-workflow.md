@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a3d0b6c4ef9e6f21e1542bece9046e98edcab6b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5cbf313666e03c0006bee985bcf622a20ce4e51
+ms.sourcegitcommit: f1bef1cb4b3d2c9261e89820d624e4b0fe60d25c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207838"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "3281514"
 ---
 # <a name="purchase-requisition-workflow"></a>Pirkimo paraiškos darbo eiga
 
@@ -85,6 +85,9 @@ Galite sukonfigūruoti darbo eigą, kad ji atspindėtų jūsų organizacijos pir
 3.  Prašytojo eilučių vadovas peržiūri ir patvirtina pirkimo paraiškos eilutes. Jei, pavyzdžiui, pirkimo paraiškos eilutės suma viršija prašytojo išlaidų pirkimo paraiškų eilutėms limitą, patvirtinimas gali būti nukreipiamas prašytojo vadovui. Vadovas gali patvirtinti arba atmesti vieną ar abi pirkimo paraiškos eilutes.
 4.  Rinkodaros skyriaus vadovas peržiūri tiek plakatų, tiek marškinėlių pirkimo paraiškos eilutes. Pardavimo skyriaus vadovas peržiūri tik plakatų pirkimo paraiškos eilutę, nes tik už juos turi sumokėti pardavimo skyrius.
 5.  Grupės vadovas peržiūri ir patvirtina marškinėlių pirkimo paraiškos eilutes tik jei grupės vadovo patvirtinimas yra būtinas, nes, pvz., pirkimo paraiškos eilutės suma viršija padalinio vadovo patvirtinimo ribą. Grupės vadovui nereikia patvirtinti plakatų pirkimo paraiškos eilutės.
+
+> [!NOTE]
+> Turi būti nustatyta sistemos valiuta, jei pirkimo paraiškos antraštės darbo eigai reikia patvirtinimų, susijusių su pasirašymo limitais.
 
 ## <a name="configuring-a-workflow-for-purchase-requisitions"></a>Pirkimo paraiškų darbo eigos konfigūravimas
 Norėdami pirkimo paraišką nukreipti peržiūrai, turite sukonfigūruoti pirkimo paraiškų darbo eigos procesus. Jūsų apibrėžtas darbo eigos procesas valdo sąveiką tarp vartotojo, pareikalavusio prekių (prašytojo) ir darbo eigos peržiūrėtojo bei tvirtintojo. Pirkimo paraiškų maršruto planavimas priklauso nuo sąlygų, nurodytų darbo eigos konfigūracijoje. Pvz., šios sąlygos nustato, kada pirkimo paraiška turėtų būti nukreipiama, kokiam vartotojui arba vaidmeniui ji turėtų būti nukreipiama ir kokių veiksmų gali imtis vartotojai.  

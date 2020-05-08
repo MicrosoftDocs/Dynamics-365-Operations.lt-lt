@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management” 10.0.11 (2020 m. birželio mėn.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.11 funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.11 versijoje (2020 m. birželio mėn.)?
+description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.11 versijos funkcijos.
 author: kamaybac
 manager: tfehr
 ms.date: 04/17/2020
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 3ef4b77df29daefefaa775b7453db2137154c730
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 479a7edd456a1f4d121ceef292d2559c400c31a2
+ms.sourcegitcommit: c30a9956d9c29a504856487a3a98090eef9aab2b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261611"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "3266328"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-june-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management” 10.0.11 (2020 m. birželio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.11 versijoje (2020 m. liepos mėn.)?
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -33,7 +33,7 @@ ms.locfileid: "3261611"
 
 - **Vertinimo versijos leidimas:** 2020 m. balandžio mėn.
 - **Bendras pasiekiamumas (automatinis naujinimas):** 2020 m. gegužės mėn.
-- **Automatinis naujinimas:** 2020 m. birželio mėn.
+- **Automatinis naujinimas:** 2020 m. liepos mėn.
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
@@ -50,7 +50,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
 
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.11 yra platformos naujinimai. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.11 versijos platformos naujinimai (2020 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.11 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.11 versijos platformos naujinimai (2020 m. liepos mėn.)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-35.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 

@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b090450c6b39607f9661667f8063998bbe5ff52
-ms.sourcegitcommit: c79062ba89498aa3fe3d86e478d9f32484f5f6dc
+ms.openlocfilehash: e1d7828e6bb9a3684c1d76e2cfac96174a8dfbf4
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "3224914"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268821"
 ---
 # <a name="quality-management-overview"></a>Kokybės valdymo peržiūra
 
@@ -43,7 +43,11 @@ Kokybės valdymas yra lankstus ir gali būti diegiamas įvairiais būdais, sieki
 
 -   Pagal iš anksto nustatytus kriterijus automatiškai paleisti kokybės kontrolės procesą (sandėlyje registravus pirkimo užsakymą iš konkretaus tiekėjo).
 -   Tikrinimo metu blokuoti atsargas, siekiant neleisti naudoti nepatvirtintų atsargų (visiškas pirkimo užsakymų kiekių blokavimas).
--   Kaip kokybės susiejimo dalį naudoti prekių pavyzdžių ėmimą, siekiant apibrėžti dabartinių faktinių atsargų, kurias reikia tikrinti, sumą. Pavyzdžių ėmimas gali būti paremtas fiksuotais kiekiais arba procentine dalimi.
+-   Kaip kokybės susiejimo dalį naudoti prekių pavyzdžių ėmimą, siekiant apibrėžti dabartinių faktinių atsargų, kurias reikia tikrinti, sumą. Pavyzdžių ėmimas gali būti paremtas fiksuotais kiekiais, procentine dalimi arba visa numerio lentele.
+
+> [!NOTE]
+> Funkcija _Sandėlio procesų kokybės valdymas_ išplečia kokybės valdymo galimybes. Jei naudojate šią funkciją, žr. [Sandėlio procesų kokybės valdymas](quality-management-for-warehouses-processes.md) pateiktus pavyzdžius, kaip veikia įgalintas kokybės valdymas.
+
 -   kurkite dalinių kvitų kokybės užsakymus. Norėdami kurti kokybės užsakymą, pagrįstą faktiškai su užsakymu gautu kiekiu, formoje **Prekės pavyzdžio ėmimas** turite pažymėti žymės langelį **Pagal atnaujintą kiekį**.
 -   Kurti testų tipus, apimančius minimalias, maksimalias ir paskirties testo reikšmes, ir atlikti kokybės–kiekybės tikrinimą su iš anksto nustatytais tikrinimo rezultatais.
 -   Nurodyti priimtiną kokybės lygį (AQL), siekiant kontroliuoti leistinus kokybės matavimo nuokrypius.
@@ -428,6 +432,9 @@ Gamybos aplinkoje, jei nustatėte lauko **Įvykio tipas** reikšmę **Gavimo dok
 </tbody>
 </table>
 
+> [!NOTE]
+> Funkcija *Sandėlio procesų kokybės valdymas* įtraukia kokybės užsakymų apdorojimo galimybių, skirtų gamybai, kai **Įvykio tipas** nustatytas į *Skelbti baigtu* ir **Vykdymas** nustatytas į *Po*, ir pirkimui, kai **Įvykio tipas** nustatytas į *Registracija*. Daugiau informacijos rasite dalyje [Sandėlio procesų kokybės valdymas](quality-management-for-warehouses-processes.md).
+
 ## <a name="quality-management-pages"></a>Kokybės valdymo puslapiai
 <table>
 <colgroup>
@@ -438,7 +445,7 @@ Gamybos aplinkoje, jei nustatėte lauko **Įvykio tipas** reikšmę **Gavimo dok
 <thead>
 <tr class="header">
 <th>Puslapis</th>
-<th>Aprašymas</th>
+<th>aprašymas</th>
 <th>Pavyzdys</th>
 </tr>
 </thead>
@@ -495,3 +502,5 @@ Turite apibrėžti kiekvieno verslo proceso varianto, kuriam reikalingas automat
 [Kokybės valdymo procesai](quality-management-processes.md)
 
 [Neatitikimo valdymas](enable-nonconformance-management.md)
+
+[Sandėlio procesų kokybės valdymas](quality-management-for-warehouses-processes.md)

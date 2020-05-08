@@ -3,7 +3,7 @@ title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norint turėti prieigą prie šių charakteristikų, turi būti įjungta nauja tinklelio funkcija.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0fd0e15ea88e9f5f34d8dff82606a8d26616a16d
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fd45f71fc15e467c461433682310ab7b7cc0158a
+ms.sourcegitcommit: 0d7b700950b1f95dc030ceab5bbdfd4fe1f79ace
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260465"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "3284409"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -86,6 +86,23 @@ Jei kitame stulpelyje pasirinksite **Grupuoti pagal šį stulpelį**, pradinis g
 
 Norėdami anuliuoti grupavimą tinklelyje, dešiniuoju pelės klavišu spustelėkite grupavimo stulpelį ir pasirinkite **Išgrupuoti**.  
 
+## <a name="typing-ahead-of-the-system"></a>Rašymas anksčiau sistemos
+Daugelyje verslo scenarijų itin svarbu greitai įvesti duomenis į sistemą. Prieš naujo tinklelio valdiklio įvedimą vartotojai galėjo keisti duomenis tik šioje eilutėje. Prieš sukurdami naują eilutę arba perjungdami į kitą eilutę, jie buvo priversti palaukti, kol sistema sėkmingai patikrins visus keitimus. Bandydamas sutrumpinti laiką, kurį vartotojai laukia, kol šie tikrinimai baigiami, ir pagerinti vartotojo produktyvumą, naujas tinklelis koreguoja šiuos tikrinimus, kad jie būtų asinchroniniai. Todėl vartotojas gali pereiti prie kitų eilučių, kad atliktų keitimus, kol ankstesnių eilučių tikrinimai laukia patvirtinimo. 
+
+Siekiant palaikyti šį naują veikimą, kai tinklelis veikia redagavimo režimu, į tinklelio viršų įtraukiamas naujas eilutės būsenos stulpelis. Šiame stulpelyje rodoma viena iš tolesnių būsenų.
+
+- **Tuščia** – jei nėra būsenos vaizdo, tai nurodo, kad sistema sėkmingai įrašė eilutę.
+- **Apdorojimas laukia patvirtinimo** – ši būsena rodo, kad serveryje dar neįrašyti eilutės keitimai, tačiau jie yra keitimų, kuriuos reikia apdoroti, eilėje. Prieš imdamiesi veiksmų ne tinklelyje turite palaukti, kol bus apdoroti visi laukiantys keitimai. Be to, šių eilučių tekstas parašomas kursyvu, kad nurodytų neįrašytą eilučių būseną. 
+- **Tikrinimo įspėjimas** – ši būsena nurodo, kad sistema negali įrašyti eilutės pakeitimų dėl tam tikros tikrinimo problemos. Senajame tinklelyje buvote priversti grįžti atgal į eilutę, kad išspręstumėte problemą iš karto. Naujame tinklelyje jums pranešama, kad įvyko tikrinimo problema, tačiau jūs galite nuspręsti, kada norite taisyti bet kurias eilutės problemas. Kai esate pasiruošę ištaisyti problemą, galite rankiniu būdu pereiti atgal į eilutę. Taip pat galite pasirinkti veiksmą **Išspręsti šią problemą**. Pasirinkus šį veiksmą iš karto pereinama atgal į eilutę, kurioje yra problema, ir leidžiama redaguoti tinklelyje arba ne tinklelyje. Atkreipkite dėmesį, kad tolesnių laukiančių eilučių apdorojimas sustabdomas, kol išsprendžiamas šis tikrinimo įspėjimas. 
+- **Pristabdyta** – ši būsena rodo, kad apdorojimas serveryje pristabdytas, nes tikrinant eilutę buvo suaktyvintas iššokantysis dialogo langas, reikalaujantis vartotojo įvesties. Kadangi vartotojas tuo metu gali vesti duomenis kitoje eilutėje, iššokantysis dialogo langas nėra iš karto pateikiamas vartotojui. Jis bus pateiktas, kai vartotojas nuspręs tęsti apdorojimą. Šią būseną lydi pranešimas, pranešantis vartotojui apie situaciją. Pranešime yra veiksmas **Tęsti apdorojimą**, kuris suaktyvina iššokantįjį dialogo langą.  
+    
+Kai vartotojai įveda duomenis anksčiau vietos, kur serveris vykdo apdorojimą, duomenų įvedimo metu gali įvykti sutrikimų, pvz., peržvalgų, tikrinimo kontrolės lygiu ir numatytųjų reikšmių įvedimo trūkumo. Vartotojams, kuriems reikia išplečiamojo sąrašo rasti reikšmę, patariama palaukti, kol serveris pasivys dabartinę eilutę. Tikrinimas kontrolės lygiu ir numatytųjų reikšmių įvedimas taip pat įvyks tada, kai serveris tą eilutę apdoros.   
+
+### <a name="pasting-from-excel"></a>Įklijavimas iš „Excel”
+Vartotojai visada galėjo eksportuoti duomenis iš „Finance and Operations” tinklelių į „Excel”, naudodami mechanizmą **Eksportuoti į „Excel“**. Tačiau galimybė įvesti duomenis anksčiau sistemos įgalina naujo tinklelio lentelių kopijavimo iš „Excel” ir jų įklijavimo tiesiai į „Finance and Operations” programų tinklelius palaikymą. Tinklelio langelis, kuriame inicijuojama įklijavimo operacija, nustato, kur pradedamas nukopijuotos lentelės įklijavimas. Tinklelio turinys perrašomas nukopijuotos lentelės turiniu, išskyrus du tolesnius atvejus.
+
+- Jei nukopijuotoje lentelėje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje, vartotojas informuojamas, kad papildomų stulpelių, pradedant nuo įklijavimo vietos, nepaisoma. 
+- Jei nukopijuotoje lentelėje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje, pradedant nuo įklijavimo vietos, esami langeliai perrašomi įklijuotu turiniu, o visos papildomos nukopijuotos lentelės eilutės įterpiamos kaip naujos eilutės tinklelio apačioje. 
 
 ## <a name="evaluating-math-expressions"></a>Matematinių išraiškų vertinimas
 Norėdami didinti produktyvumą vartotojai gali įvesti matematines formules tinklelyje esančiuose skaitiniuose langeliuose. Jiems nebereikia atlikti skaičiavimo programoje, esančioje ne sistemoje. Pavyzdžiui, jei įvesite **=15\*4**, o tada paspausite klavišą **TAB**, kad perkeltumėte lauką, sistema įvertins išraišką ir įrašys į lauką vertę **60**.
@@ -110,3 +127,64 @@ Norėdami, kad sistema atpažintų vertę kaip išraišką, paleiskite reikšmę
 4.  **Įjunkite funkciją**: funkcijų sąraše raskite funkciją **Naujas tinklelio valdiklis** ir išsamios informacijos srityje pasirinkite **Įjungti dabar**. Turėkite omenyje, kad reikia atnaujinti naršyklę. 
 
 Visi vėlesni vartotojo seansai prasidės įjungus naują tinklelio valdiklį.
+
+## <a name="known-issues"></a>Žinomos problemos
+Šiame skyriuje pateikimas žinomų problemų, susijusių su nauju tinklelio valdikliu, kai funkcija yra peržiūros būsenoje, sąrašas.  
+
+### <a name="open-issues"></a>Atviros problemos
+
+- Kortelių sąrašai, kurie buvo vaizduojami kaip keli stulpeliai, dabar vaizduojami kaip vienas stulpelis.
+- Sugrupuoti sąrašai nėra vaizduojami kaip grupės arba atskiruose stulpeliuose.
+- Patarimai vaizdams nerodomi.
+- Tinklelio eilučių rodymas veikia ne visuose laukų tipuose.
+- Su pertrūkiais negalima spustelėti ne tinklelyje, kai pasirenkamos kelios eilutės.
+- Užduočių įrašymo priemonės parinktys **Tikrinti** ir **Kopijuoti** nepasiekiamos datos / numerio valdikliams.
+
+### <a name="fixed-as-part-of-10012"></a>10.0.12 pataisymai
+
+> [!Note]
+> Tolesnė informacija pateikiama, kad galėtumėte atitinkamai planuoti. Daugiau informacijos apie tikslinį 10.0.12 versijos leidimų grafiką žr. [Paslaugų naujinimų pasiekiamumas](../../fin-ops/get-started/public-preview-releases.md).
+
+- [Problema 429126] Po to, kai panaikinamas paskutinis įrašas, valdikliai ne tinklelyje neatnaujinami.
+- [Problema 430575] Lentelės valdikliai neatnaujina rodomų elementų turinio.
+- [KB 4558570] Elementai vis dar rodomi puslapyje po to, kai įrašas panaikinamas.
+- [KB 4558584] Neigiami skaičiai nėra tinkamai atvaizduojami.
+- [KB 4558575] Laukai neatnaujinami po eilutės keitimo / tinklelio apdorojimas užstringa po eilučių naikinimo.
+- [Problema 436980] Stiliaus keitimas, susietas su sąrašo skydu **ExtendedStyle**, nepritaikomas.
+- [KB 4558573] Tikrinimo klaidų negalima ištaisyti, kai reikalingas pakeitimas yra ne tinklelyje.
+    
+### <a name="quality-update-for-10011"></a>Kokybinis naujinimas, skirtas 10.0.11
+
+- [KB 4558381] Neigiami skaičiai nėra tinkamai atvaizduojami / vartotojai kartais užstringa po susidūrimo su tikrinimo problemomis.
+
+### <a name="fixed-as-part-of-10011"></a>10.0.11 pataisymai
+
+- [KB 4558374] Įrašo, kuriam reikalingas polimorfinis parinkiklio dialogo langas, sukurti negalima.
+- [KB 4558382] Įvyksta netikėtos kliento klaidos.
+- [KB 4558375] Naujo tinklelio stulpeliuose nerodomas žinyno tekstas.
+- [KB 4558376] Sąrašo skydo tinkleliai nėra atvaizduojami tinkamame aukštyje „Internet Explorer”.
+- [KB 4558377] Pasirinktinio įvedimo lauko stulpeliai, kurių plotis yra **SizeToAvailable**, kai kuriuose puslapiuose neatvaizduojami.
+- [KB 4549711] Po to, kai įjungiamas naujas tinklelio valdiklis, negalima tinkamai pašalinti mokėjimo pasiūlymo eilučių.
+- [KB 4558378] Naudojant detalizavimą kartais atidaromas neteisingas įrašas.
+- [KB 4558379] Kai peržvalgos atidaromos ten, kur **ReplaceOnLookup**=**Ne**, įvyksta klaida.
+- [KB 4558380] Laisva vieta tinklelyje neužpildoma iškart po to, kai puslapio dalis sutraukiama.
+- [Problema 432458] Tuščios arba besidubliuojančios eilutės rodomos kai kurių antrinių surinkimų pradžioje.
+- [KB 4558587] Kontrolinės grupės, kuriose yra pasirinktinio įvedimo laukai, skirti pakeitimo laukams, nerodo reikšmių.
+
+### <a name="fixed-as-part-of-10010"></a>10.0.10 pataisymai
+
+- [Problema 414301] Kai sukuriamos naujos eilutės, kai kurie ankstesnių eilučių duomenys dingsta.
+- [KB 4550367] Laiko vertės nėra tinkamai suformatuotos.
+- [KB 4549734] Aktyvios eilutės nėra laikomos pažymėtomis, jei žymėjimo stulpelis paslėptas.
+- [Klaida 417044] Nėra tuščio tinklelio pranešimo, skirto sąrašo stiliaus tinkleliams.
+- [KB 4558367] Teksto pasirinkimas nesuderinamas, kai keičiamos eilutės.
+- [KB 4558372] Naujas tinklelis užstringa apdorojimo metu, jei įklijuotame turinyje esančių stulpelių skaičius yra didesnis nei stulpelių, esančių tinklelyje.
+- [KB 4558368] Vienos pasirinkties scenarijuose galima pasirinkti kelias eilutes klaviatūra.
+- [KB 4539058] Kai kurie tinkleliai (paprastai „FastTab”) kartais nėra atvaizduojami (bet jie atvaizduojami, jei sumažinamas vaizdo mastelis).
+- [KB 4558369] Būsenos vaizdai dingsta hierarchiniame tinklelyje.
+- [KB 4558370] Nauja eilutė nėra nuslenkama į rodinį.
+- [KB 4549796] Kai tinklelis veikia rodinio režimu, negalima redaguoti reikšmių.
+
+### <a name="quality-update-for-1009platform-update-33"></a>Kokybinis naujinimas, skirtas 10.0.9 / platformos 33 naujinimui
+
+- [KB 4550367] Laiko vertės nėra tinkamai suformatuotos.

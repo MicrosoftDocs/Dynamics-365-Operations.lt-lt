@@ -3,7 +3,7 @@ title: Tvarkyti SEO metaduomenis
 description: Šioje temoje aprašoma, kaip valdyti ieškos modulio optimizavimo (SEO) metaduomenis programoje „Microsoft Dynamics 365 Commerce“.
 author: psimolin
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e7da7bf5c473746413e92babfa943f546b7724d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 74229628e48ffb8ac974acd868e325eeca77d91e
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003469"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3270055"
 ---
 # <a name="manage-seo-metadata"></a>Tvarkyti SEO metaduomenis
 
@@ -72,13 +72,10 @@ Norėdami modifikuoti metaduomenis, atlikite šiuos veiksmus.
 1. Dalyje **Svetainės** pasirinkite **„Fabrikam“** (arba savo svetainės pavadinimą).
 1. Kairėje naršymo srityje pasirinkite **Puslapiai**.
 1. Pasirinkite pagrindinį puslapį, kad jis būtų atidaromas puslapio rengyklėje.
-1. Veiksmų srityje pasirinkite **Paimti ir užrakinti**.
+1. Komandų juostoje pasirinkite **Redaguoti**.
 1. Dešiniojoje ypatybių srityje išplėskite **Numatytosios metažymės**.
-1. Norėdami įtraukti naują metažymę, pasirinkite **Įtraukti** ir lauke įveskite žymę.
-
-    Norėdami pašalinti esamą metažymę, pasirinkite šiukšliadėžės simbolį jos dešinėje.
-
-1. Pasirinkite **Įrašyti**, tada – **Įrašyti ir atrakinti**.
+1. Norėdami įtraukti naują metažymę, pasirinkite **Įtraukti** ir lauke įveskite žymę. Norėdami pašalinti esamą metažymę, pasirinkite šiukšliadėžės simbolį jos dešinėje.
+1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Lauke **Komentarai** įveskite **Atnaujintos metažymės** ir pasirinkite **Gerai**.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Peržiūra**. Baigę uždarykite peržiūros skirtuką – grįšite į kūrimo įrankį.
 1. Pasirinkite **Publikuoti**.

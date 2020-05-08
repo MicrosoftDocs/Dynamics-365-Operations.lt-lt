@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e20c9c5e1250c8e65b5642a7c45d7ae859315697
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172673"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3275446"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Trikčių šalinimas pradinės sąrankos metu
 
@@ -39,7 +39,7 @@ ms.locfileid: "3172673"
 
 ## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>Negalite susieti „Finance and Operations” programos su „Common Data Service”
 
-**Reikiami kredencialai, norint nustatyti dvigubo rašymo funkciją:** „Azure AD” nuomotojo administratorius
+**Reikiamas vaidmuo, norint nustatyti dvigubo rašymo funkciją:** „Finance and Operations” programų ir „Common Data Service” sistemos administratorius.
 
 Klaidos puslapyje **Susiejimo su „Common Data Service” sąranka** dažniausiai atsiranda dėl neužbaigtos sąrankos arba su teisėmis susijusių problemų. Įsitikinkite, kad puslapyje **Susiejimo su „Common Data Service” sąranka** atlikta visiška būsenos patikra, kaip parodyta tolesnėje iliustracijoje. Negalite susieti dvigubo rašymo, neatlikę visiškos būsenos patikros.
 

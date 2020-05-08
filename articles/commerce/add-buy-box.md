@@ -3,7 +3,7 @@ title: Pirkimo langelio modulis
 description: Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 35b7027e0f0b680dd82ebfcea754fef1617c0163
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261403"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269756"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
@@ -80,15 +80,15 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 1. Sukurkite fragmentą pavadinimu **pirkimo langelio fragmentas** ir į jį įtraukite pirkimo langelio modulį.
 1. Pirkimo langelio modulio vietoje **Medija** įtraukite medijos galerijos modulį.
 1. Į pirkimo langelio modulio atkarpą **Parduotuvės parinkiklis** įtraukite parduotuvės parinkiklio modulį.
-1. Puslapį įrašykite ir atrakinkite bei publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Sukurkite produkto išsamios informacijos puslapio šabloną ir jį pavadinkite **PIIP šablonas**.
 1. Įtraukite numatytąjį puslapį.
 1. Numatytojo puslapio vietoje **Pagrindinis** įtraukite pirkimo langelio fragmentą.
-1. Įrašykite šabloną, baikite redagavimą ir publikuokite.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Naudodami ką tik sukurtą šabloną, sukurkite puslapį, pavadintą **PIIP puslapis**.
 1. Naujo puslapio vietoje **Pagrindinis** įtraukite pirkimo langelio fragmentą.
 1. Puslapį įrašykite ir peržiūrėkite. Į peržiūros puslapio URL įtraukite užklausos eilutės parametrą **?productid=&lt;product id&gt;**. Taip peržiūros puslapis įkeliamas ir vaizduojamas naudojant produkto kontekstą.
-1. Įrašykite puslapį, baikite redagavimą ir publikuokite. Produkto išsamios informacijos puslapyje turėtų būti rodomas pirkimo langelis.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. Produkto išsamios informacijos puslapyje turėtų būti rodomas pirkimo langelis.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

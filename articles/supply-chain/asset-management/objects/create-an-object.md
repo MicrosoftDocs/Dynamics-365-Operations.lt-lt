@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f734def69ff50549acae1506015ce9b23a1b8a93
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5c77f32caad5e2e79cbc0e21f72a3daa79acecb
+ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209909"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "3274170"
 ---
 # <a name="create-an-asset"></a>Turto kūrimas
 
@@ -38,13 +38,13 @@ ms.locfileid: "3209909"
 3. Dialogo lange **Kurti turtą** įterpkite duomenis apie **Turtą** (turto ID) ir turto pavadinimą. Pasirinkite turto datą ir laiką lauke **Galioja**. Nuo tos datos bus galima diegti turtą funkcinėje vietoje, taip pat perkelti ir pakeisti turtą turto struktūroje.
 4. Lauke **Turto tipas** pasirinkite turto tipą (privalomas laukas). Jei reikia, pasirinkite informaciją **Turto gamintojas** ir **Turto modelis**. Jei nustatytas tik vienas produktas, tas produktas automatiškai parenkamas lauke **Turto gamintojas**. Laukeliuose **Turto gamintojas** ir **Turto modelis** galimi pasirinkimai priklauso nuo nustatymų [Turto gamintojai ir modeliai](../setup-for-objects/product-and-model.md).
 5. Grupėje **Pagrindinis turtas** laukas **Turtas** paliktas tuščias kaip numatytasis. Jei reikia, galite pasirinkti pagrindinį turtą, tada visi laukai grupėje **Pagrindinis turtas** bus automatiškai užpildyti.
->[!NOTE]  
->Pasirinkus pagrindinį turtą teikiami du arba trys skirtukai: skirtuke **Mano turtas** yra turtas, susijęs su funkcinėmis vietomis, į kurias galite būti priskirtas (sistemoje užregistruotas priežiūros darbuotojas). Jei formoje [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md) nėra nustatyta jokia priežiūros darbuotojo funkcinė vieta, skirtukas **Mano turtas** nerodomas. Skirtuke **Aktyvus turtas** yra viso turto, kurio turto ciklo būsena „Aktyvi“, sąrašas. Skirtuke **Turto rodinys** rodomas funkcinių vietų ir tose vietose įdiegto turto medžio rodinys.
+    >[!NOTE]  
+    >Pasirinkus pagrindinį turtą teikiami du arba trys skirtukai: skirtuke **Mano turtas** yra turtas, susijęs su funkcinėmis vietomis, į kurias galite būti priskirtas (sistemoje užregistruotas priežiūros darbuotojas). Jei formoje [Priežiūros darbuotojai ir darbuotojų grupės](../setup-for-objects/workers-and-worker-groups.md) nėra nustatyta jokia priežiūros darbuotojo funkcinė vieta, skirtukas **Mano turtas** nerodomas. Skirtuke **Aktyvus turtas** yra viso turto, kurio turto ciklo būsena „Aktyvi“, sąrašas. Skirtuke **Turto rodinys** rodomas funkcinių vietų ir tose vietose įdiegto turto medžio rodinys.
 
 6. Nustatyta numatytoji funkcinė vieta siūloma turtui grupės **Turtas** > lauke **Funkcinė vieta**. Jei reikia, pasirinkite kitą funkcinę vietą.
 
->[!NOTE]
->Sukūrus turtą jį galima diegti kitoje funkcinėje vietoje. Funkcinėje vietoje galima diegti tik aukščiausio lygio turtą (turtą be esamo pagrindinio turto). Tai reiškia, kad pasirinktoje funkcinėje vietoje diegiamas aukščiausio lygio turtas ir visi antriniai turtai. Daugiau informacijos apie turto diegimą funkcinėse vietose rasite skyriuje [Funkcinių vietų pristatymas](../functional-locations/introduction-to-functional-locations.md).
+    >[!NOTE]
+    >Sukūrus turtą jį galima diegti kitoje funkcinėje vietoje. Funkcinėje vietoje galima diegti tik aukščiausio lygio turtą (turtą be esamo pagrindinio turto). Tai reiškia, kad pasirinktoje funkcinėje vietoje diegiamas aukščiausio lygio turtas ir visi antriniai turtai. Daugiau informacijos apie turto diegimą funkcinėse vietose rasite skyriuje [Funkcinių vietų pristatymas](../functional-locations/introduction-to-functional-locations.md).
 
 7. Spustelėkite **Gerai**.
 8. Sąraše **Visas turtas** pasirinkite turtą, tada spustelėkite mygtuką **Redaguoti**, kad įtrauktumėte papildomos turto informacijos.

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d5cf2804c44e81ad135a3248d38c228148b530cc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: 3febd3ca36f4d517033e910c4087ad3a6ffff35a
+ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096683"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3269940"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Naujo el. prekybos nuomotojo diegimas
 
@@ -66,8 +66,8 @@ Be to, galite rinkti tokią pasirinktinę informaciją:
     - Slaptažodžio nustatymo iš naujo strategijos ID.
     - Redagagavimo profilio strategijos ID.
 
-[!NOTE]
-Šią informaciją galima įtraukti vėliau, naudojant paslaugos užklausą.
+> [!NOTE]
+> Šią informaciją galima įtraukti vėliau, naudojant paslaugos užklausą.
 
 Surinkę reikiamą informaciją, atlikite šiuos veiksmus, norėdami paleisti el. prekybą.
 

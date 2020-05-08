@@ -1,6 +1,6 @@
 ---
 title: Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.10 versijoje (2020 m. kovo mėn.)?
-description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.10 funkcijos.
+description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.10 versijos funkcijos.
 author: kamaybac
 manager: tfehr
 ms.date: 04/08/2020
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 8297daa0d802b0b821b43aebe7a841011c70fd55
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
+ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261193"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "3268775"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.10 versijoje (2020 m. kovo mėn.)?
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje nurodomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.10 funkcijos. Šios versijos komponavimo numeris yra 10.0.420 ir jis pasiekiamas tokius būdu:
+Šioje temoje nurodomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.10 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.420 ir jis pasiekiamas tokius būdu:
 
 - **Vertinimo versijos leidimas:** 2020 m. kovo mėn.
 - **Bendras prieinamumas (automatinis naujinimas):** 2020 m. balandžio mėn.
@@ -43,13 +43,13 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 - [Etikečių spausdinimo patobulinimai, skirti sandėlio valdymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) – daugiau informacijos žr. [Numerio lentelės etikečių dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
 - [Įgalinus išankstinio apdorojimo filtrus, į pagrindinį planavimą įeina elementai su turimomis atsargomis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nauji gamybos srities duomenų objektai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Sandėlio procesų kokybės valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)
+- [Sandėlio procesų kokybės valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) – Daugiau informacijos žr. [Sandėlio procesų kokybės valdymas](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>„Finance and Operations” programų platformos naujinimai
 
-„Dynamics 365 Supply Chain Management“ 10.0.10 yra platformos naujinimai. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.10 versijos platformos naujinimai](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md).
+„Dynamics 365 Supply Chain Management“ 10.0.10 versijoje yra platformos naujinimų. Norėdami sužinoti daugiau, žr. [„Finance and Operations” programų 10.0.10 versijos platformos naujinimai](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
