@@ -417,7 +417,7 @@
                   href: asset-management/controlling-and-reporting/work-hour-control.md
                 - name: Turto gedimų kaštų kontrolė
                   href: asset-management/controlling-and-reporting/asset-fault-cost-control.md
-                - name: Turto gedimų analizė
+                - name: Turto klaidų analizė
                   href: asset-management/controlling-and-reporting/asset-fault-analysis.md
                 - name: Turto KPI
                   href: asset-management/controlling-and-reporting/asset-kpis.md
@@ -425,6 +425,8 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Priežiūros būsena
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Turto valdymo integravimas su „Dynamics 365 Guides“
+              href: asset-management/asset-management-guides-integration.md
             - name: Turto valdymo mobilioji darbo sritis
               href: asset-management/asset-management-mobile-workspace.md
         - name: Duomenų valdymas
@@ -703,7 +705,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „PowerBI Desktop“
+                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1319,7 +1321,7 @@
               items:
                 - name: Planavimo optimizavimo apžvalga
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Turimos neigiamos atsargos laikomos nuliu
+                - name: Planavimas su neigiamais turimais kiekiais
                   href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Darbo su planavimo optimizavimu pradžia
                   href: master-planning/planning-optimization/get-started.md
@@ -2653,8 +2655,6 @@
                   href: warehousing/material-replenishment-withdrawal-kanban.md
                 - name: Min. – maks. papildymo proceso nustatymas
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
-                - name: Pirkimo užsakymų darbo šablono nustatymas
-                  href: ../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md
             - name: Sandėliavimo programos diegimas ir konfigūravimas
               items:
                 - name: Diegimo ir konfigūravimo apžvalga
@@ -2663,7 +2663,7 @@
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
                 - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
                   href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Su mobiliąja sandėliavimo programa gaunama numerio lentelė
+                - name: Su sandėliavimo programa gaunama numerio lentelė
                   href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                 - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
                   href: warehousing/tasks/set-up-mobile-device-menu.md
