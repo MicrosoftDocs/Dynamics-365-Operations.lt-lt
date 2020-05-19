@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1cc1040393d843f39ca8c741a7c51435c7169c00
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 05e6ccdce21ccc5f3e83ad860163cccadcea2edc
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211059"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346427"
 ---
 # <a name="subcontracting"></a>Subranga
 
@@ -211,7 +211,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 
     ![Puslapyje Darbas rodomi du žaliavų paėmimo darbo rinkiniai](./media/subcontract22_work-page.png)
 
-26. Paleiskite sandėlio programą, kad apdorotumėte 10 operacijos sandėlio darbą.
+26. Paleiskite sandėliavimo programą, kad apdorotumėte 10 operacijos sandėlio darbą.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -229,7 +229,7 @@ Sukuriamas 10 vienetų gamybos užsakymas, skirtas produktui D8100, kuris vadina
 
     Atkreipkite dėmesį, kad dabar gamybos užsakymo būsena yra **Pradėtas**. 10 operacijos medžiagos naudojamos vykdant automatinį išrinkimo žurnalo registravimą. 10 operacijos laiko sąnaudos užregistruojamos vykdant automatinį maršruto kortelės žurnalo registravimą.
 
-32. Paleiskite sandėlio programą, kad apdorotumėte 20 operacijos sandėlio darbą.
+32. Paleiskite sandėliavimo programą, kad apdorotumėte 20 operacijos sandėlio darbą.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 

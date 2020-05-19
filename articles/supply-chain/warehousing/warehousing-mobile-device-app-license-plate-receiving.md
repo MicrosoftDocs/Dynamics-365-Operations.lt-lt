@@ -1,6 +1,6 @@
 ---
-title: Numerio lentelės gavimas naudojant mobiliąją sandėliavimo programą
-description: Šioje temoje paaiškinama, kaip nustatyti mobiliąją sandėliavimo programą, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
+title: Numerio lentelės gavimas naudojant sandėliavimo programą
+description: Šioje temoje paaiškinama, kaip nustatyti sandėliavimo programą, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
 author: perlynne
 manager: tfehr
 ms.date: 03/31/2020
@@ -15,16 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 98cd608edea1d5365d0d3532244f1fcdb6293d3c
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261358"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346381"
 ---
-# <a name="license-plate-receiving-via-the-warehousing-mobile-app"></a>Numerio lentelės gavimas naudojant mobiliąją sandėliavimo programą
+# <a name="license-plate-receiving-via-the-warehousing-app"></a>Numerio lentelės gavimas naudojant sandėliavimo programą
 
-Šioje temoje paaiškinama, kaip nustatyti mobiliąją sandėliavimo programą, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
+Šioje temoje paaiškinama, kaip nustatyti sandėliavimo programą, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
 
 Šią funkciją galite naudoti norėdami greitai įrašyti gaunamų atsargų gavimą, susijusį su išankstiniu siuntimo pranešimu (ASN). Sistema automatiškai sukuria ASN, kai sandėlio valdymo procesai naudojami perkėlimo užsakymui siųsti. Pirkimo užsakymo procese ASN gali būti įrašytas rankiniu būdu arba automatiškai importuotas naudojant gaunamo ASN duomenų objekto procesą.
 

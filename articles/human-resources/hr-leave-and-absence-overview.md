@@ -3,7 +3,7 @@ title: Peržiūra
 description: Programos Dynamics 365 Human Resources darbo sritis Atostogos ir neatvykimai suteikia lanksčią sistemą, skirtą naujiems atostogų planams ir užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 04/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7ba32b31a67d81ee5be568b0e64842f343f96b
-ms.sourcegitcommit: 9940ca772807d3c4e1ff3bf47f45b7251c4469ac
+ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
+ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/04/2020
-ms.locfileid: "3226235"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3325770"
 ---
 # <a name="overview"></a>Peržiūra
 
@@ -78,8 +78,16 @@ Negalite nustatyti **apvalinimo tikslumo**, kai nustatote **apvalinimo tipą**. 
 
 ## <a name="leave-and-absence-preview-features"></a>Atostogų ir neatvykimų peržiūros funkcijos
 
-Naujas atostogų ir neatvykimų funkcijas galite išbandyti aplinkoje **Smėlio dėžė**. Daugiau informacijos apie peržiūros funkcijas, žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md). Peržiūros funkcijos apima:
+Naujas atostogų ir neatvykimų funkcijas galite išbandyti aplinkoje **Smėlio dėžė**. Daugiau informacijos apie peržiūros funkcijas, žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md). 
 
-- **Atostogų sustabdymas** – programoje „Human Resources” galite sustabdyti darbuotojo atostogas ir neatvykimą. Atostogų sustabdymas sustabdo pasirinktų atostogų tipų atostogų kaupimus. Jei sustabdymas įvyksta po to, kai kaupimas apdorojamas, atostogų sustabdymas sukuria proporcingai paskirstytą darbuotojo atostogų balanso koregavimą. 
+[!include [banner](includes/preview-feature.md)]
+
+Peržiūros funkcijos apima:
+
+- **Atostogų sustabdymas** – programoje „Human Resources” galite sustabdyti darbuotojo atostogas ir neatvykimą. Atostogų sustabdymas sustabdo pasirinktų atostogų tipų atostogų kaupimus. Jei sustabdymas įvyksta po to, kai kaupimas apdorojamas, atostogų sustabdymas sukuria proporcingai paskirstytą darbuotojo atostogų balanso koregavimą. Taip pat sustabdydami darbuotojo atostogas galite įtraukti priežasčių kodus. Vartotojo patirtis atnaujinta, kad būtų galima nurodyti sustabdymą. 
 
 - **Perkėlimo taisyklės** – galite nurodyti perkėlimo atostogų tipą, skirtą perkėlimo balansams ir į kurį perkeliami perkeliamų balansų koregavimai. Pavyzdžiui, jei darbuotojas perkelia 10 dienų, toms 10 dienų galite pasirinkti kitą atostogų tipą. 
+
+- **Įtraukti koregavimo priežasties kodą ir komentarų** – atlikdami darbuotojo atostogų balanso koregavimus galite įtraukti priežasties kodą ir komentarą. 
+
+- **Pereiti į atostogų ir neatvykimų parametrus** – dabar galite naudoti tik atostogų ir neatvykimų parametrus vietoje „Human Resources“ parametrų. 

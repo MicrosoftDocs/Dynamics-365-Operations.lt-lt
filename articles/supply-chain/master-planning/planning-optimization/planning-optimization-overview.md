@@ -19,17 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: f88ee8067fdd816ba6890ee28bafe8fa4d3b3ac5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 110045d4c7e4f32c29b73096dd4df3a09b5434ac
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208736"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323398"
 ---
 # <a name="planning-optimization-overview"></a>„Planning Optimization“ apžvalga
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 „Planning Optimization“ papildinys, skirtas „Microsoft Dynamics 365 Supply Chain Management“, leidžia, kad pagrindinių duomenų skaičiavimas vyktų ne „Dynamics 365 Supply Chain Management“ ir susijusioje SQL duomenų bazėje. „Planning Optimization“ funkcijos privalumai yra geresnis veikimas ir minimalus poveikis SQL duomenų bazei pagrindinių planavimų vykdymų metu. Greitą planavimo vykdymą galima atlikti netgi darbo valandomis, kad planuotojai galėtų nedelsiant reaguoti į poreikį ir parametrų keitimus.
 

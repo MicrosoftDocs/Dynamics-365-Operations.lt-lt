@@ -3,7 +3,7 @@ title: Elektroninių ataskaitų (ER) paskirties vietos
 description: Šioje temoje pateikiama informacija apie elektroninių ataskaitų (ER) paskirties vietų valdymą, palaikomus paskirties vietų tipus ir saugumo klausimus.
 author: nselin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a6536c82cd3407626fc0d8e102e3819c80cfd4b
-ms.sourcegitcommit: 0d9ca44b48fb2e33d8160faccc1e6bd932e58934
+ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
+ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3150820"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "3323697"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Elektroninių ataskaitų (ER) paskirties vietos
 
@@ -52,7 +52,36 @@ Taip pat yra paskirties vietos tipas [Spausdinti](er-destination-type-print.md).
 
 ## <a name="overview"></a>Peržiūrėti
 
-Paskirties vietas galite nustatyti tik į dabartinį „Finance“ egzempliorių [importuotoms](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER konfigūracijoms ir tik tokiems formatams, kurie pateikti puslapyje **Elektroninių ataskaitų konfigūracijos**. ER paskirties vietų valdymo funkciją galima rasti pasirinkus **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninių ataskaitų paskirties vieta**. Puslapyje **Elektroninių ataskaitų paskirties vieta** galite nepaisyti numatytojo konfigūracijos veikimo būdo. Importuotos konfigūracijos šiame puslapyje bus rodomos tik tada, kai pasirinksite **Nauja** ir tada lauke **Nuoroda** pasirinksite, kuriai konfigūracijai norite kurti paskirties vietų parametrus.
+Paskirties vietas galite nustatyti tik į dabartinį „Finance“ egzempliorių [importuotoms](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) ER konfigūracijoms ir tik tokiems formatams, kurie pateikti puslapyje **Elektroninių ataskaitų konfigūracijos**. ER paskirties vietų valdymo funkciją galima rasti pasirinkus **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninių ataskaitų paskirties vieta**.
+
+### <a name="default-behavior"></a>Numatytasis veikimo būdas
+
+Numatytasis ER formato konfigūracijos veikimo būdas priklauso nuo vykdymo tipo, kurį nurodote, kai paleidžiamas ER formatas.
+
+Jei nustatysite parinktį **Paketinis vykdymas** į **Ne**, dialogo lango **Intrastat ataskaita** „FastTab” **Vykdyti fone** ER formatas vykdomas interaktyviuoju režimu nedelsiant. Kai šis vykdymas sėkmingai baigtas, galima atsisiųsti sugeneruotą siuntimo dokumentą.
+
+Jei nustatysite parinktį **Paketinis vykdymas** į **Taip**, ER formatas vykdomas [paketiniu](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview) režimu. Sukuriama reikiama paketinė užduotis, remiantis parametrais, nurodytais dialogo lango **ER parametrai** skirtuke **Vykdyti fone**.
+
+> [!NOTE]
+> Inicijuojamas užduoties aprašas, kad jums būtų pranešta apie ER formato susiejimo vykdymą. Jame taip pat yra vykdyto ER komponento pavadinimas.
+
+[![ER formato vykdymas](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+
+Informacijos apie šią užduotį galite rasti keliose vietose.
+
+- Eikite į **Bendra** \> **Užklausos** \> **Paketinės užduotys** \> **Mano paketinės užduotys**, kad patikrintumėte suplanuotos užduoties būseną.
+- Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Elektroninės ataskaitos užduotys**, kad patikrintumėte suplanuotos užduoties būseną ir baigtos užduoties vykdymo rezultatus. Kai užduoties vykdymas sėkmingai baigtas, puslapyje **Elektroninės ataskaitos užduotys** pasirinkite **Rodyti failus**, kad gautumėte sugeneruotą siuntimo dokumentą.
+
+    > [!NOTE]
+    > Šis dokumentas saugomas kaip dabartinės užduoties įrašo priedas ir jį valdo [dokumentų valdymo](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management) sistema. [Dokumento tipas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types), naudojamas saugoti šio tipo artefaktus, yra sukonfigūruotas naudojant [ER parametrus](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+
+- Puslapyje **Elektroninės ataskaitos užduotys** pasirinkite **Rodyti failus**, kad peržiūrėtumėte klaidų ir įspėjimų, sugeneruotų vykdant užduotį, sąrašą.
+
+    [![ER užduočių sąrašo peržiūra](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+
+### <a name="user-configured-behavior"></a>Vartotojo sukonfigūruotas veikimo būdas
+
+Puslapyje **Elektroninių ataskaitų paskirties vieta** galite nepaisyti numatytojo konfigūracijos veikimo būdo. Importuotos konfigūracijos šiame puslapyje bus rodomos tik tada, kai pasirinksite **Nauja** ir tada lauke **Nuoroda** pasirinksite, kuriai konfigūracijai norite kurti paskirties vietų parametrus.
 
 [![Konfigūracijos pasirinkimas lauke Nuoroda](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
@@ -148,7 +177,7 @@ PDF konvertavimo parinktį galima įjungti tik failų komponentams, kurie naudoj
 >
 > Didžiausias gaunamų PDF puslapių skaičius yra 300.
 >
-> Šiuo metu PDF dokumente, gaunamame naudojant „Excel“ išvestį, palaikoma tik gulsčia puslapio padėtis.
+> „Microsoft Dynamics 365 Finance” 10.0.9 versijos (2020 m. balandžio mėn.) PDF dokumente, gaunamame naudojant „Excel“ išvestį, palaikoma tik gulsčia puslapio padėtis. „Dynamics 365 Finance” 10.0.10 versijos (2020 m. gegužės mėn.) leidime galite [nurodyti puslapio padėtį](#SelectPdfPageOrientation) PDF dokumente, sukurtame naudojant „Excel” išvestį, kol konfigūruojate ER paskirties vietą.
 >
 > Tik įprasti operacinės sistemos „Windows“ sistemos šriftai naudojami konvertuojant išvestį, kurioje nėra įdėtųjų šriftų.
 

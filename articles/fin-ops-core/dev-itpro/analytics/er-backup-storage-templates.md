@@ -3,7 +3,7 @@ title: ER šablonų atsarginių kopijų saugykla
 description: Šioje temoje paaiškinta, kaip naudoti elektroninių ataskaitų (ER) atsarginių kopijų saugyklą šablonų atkūrimui.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/19/2019
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5dad101ffe56c9266c0d81ede8be1f72b684a8fb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2e399290153c2c63ac1c02f0f9cdb956ff5031e5
+ms.sourcegitcommit: 5de75c61c33e57c813944f1ab6100aceb020d432
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771426"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "3321671"
 ---
 # <a name="backup-storage-of-er-templates"></a>ER šablonų atsarginių kopijų saugykla
 
@@ -35,12 +35,14 @@ Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo 
 
 ER sistema naudoja [dokumentų valdymo konfigūravimo](../../fin-ops/organization-administration/configure-document-management.md) funkciją, kad saugotų esamam „Finance and Operations“ egzemplioriui reikalingus šablonus. Atsižvelgiant į ER sistemos nustatymus, kaip fizinę pirminę šablonų saugyklos vietą galima pasirinkti „Microsoft Azure“ didelių dvejetainių objektų saugyklą arba „Microsoft SharePoint“ aplanką. (Norėdami gauti daugiau informacijos, žr. [Elektroninių ataskaitų (ER) sistemos konfigūravimas](electronic-reporting-er-configure-parameters.md).) „DocuValue“ lentelėje kiekvienam šablonui saugomas atskiras įrašas. Kiekviename įraše esančiame lauke **AccessInformation** saugomas šablono failo, esančio sukonfigūruotoje saugyklos vietoje, kelias.
 
-Valdydami savo „Finance and Operations“ egzempliorius, galbūt nuspręsite perkelti dabartinį egzempliorių į kitą vietą. Pavyzdžiui, galite perkelti gamybos egzempliorių į naują smėlio dėžės aplinką. Jei sukonfigūruosite, kad ER sistema saugotų šablonus didelių dvejetainių objektų saugykloje, DocuValue lentelėje, esančioje naujojoje smėlio dėžės aplinkoje, bus nuoroda į didelių dvejetainių objektų saugyklos egzempliorių gamybos aplinkoje. Tačiau šio egzemplioriaus negalima pasiekti iš smėlio dėžės aplinkos, nes perkėlimo procesas nepalaiko artefaktų perkėlimo didelių dvejetainių objektų saugykloje. Todėl, pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti ER valymo įrankį, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas. Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti.
+Valdydami „Finance and Operations“ egzempliorius, galbūt nuspręsite perkelti dabartinį egzempliorių į kitą vietą. Pavyzdžiui, galite perkelti gamybos egzempliorių į naują smėlio dėžės aplinką. Jei sukonfigūruosite, kad ER sistema saugotų šablonus didelių dvejetainių objektų saugykloje, DocuValue lentelėje, esančioje naujojoje smėlio dėžės aplinkoje, bus nuoroda į didelių dvejetainių objektų saugyklos egzempliorių gamybos aplinkoje. Tačiau šio egzemplioriaus negalima pasiekti iš smėlio dėžės aplinkos, nes perkėlimo procesas nepalaiko artefaktų perkėlimo didelių dvejetainių objektų saugykloje. Todėl, pasirinkus ER formatą, kuris naudoja šabloną generuoti verslo dokumentams, įvyksta išimtis ir informuojama apie trūkstamą šabloną. Taip pat rekomenduojama naudoti ER valymo įrankį, kad panaikintumėte, o tada iš naujo importuotumėte ER konfigūraciją, kurioje yra šablonas. Kadangi gali būti kelios ER formato konfigūracijos, šis procesas gali užtrukti.
 
 ER šablonų atsarginių kopijų saugyklos funkcija gali padėti kurti šablonus, kad juos visada galėtumėte panaudoti verslo dokumentams generuoti.
 
 > [!NOTE]
 > Šią funkciją galima naudoti tik tada, kai kaip fizinė ER šablonų saugyklos vieta yra pasirinkta didelių dvejetainių objektų saugykla.
+
+## <a name="automated-recovery-and-notification"></a>Automatizuotas atkūrimas ir pranešimas
 
 Naudojant šią funkciją, kiekvienas naujos ER formato konfigūracijos šablonas dabartinėje aplinkoje automatiškai įrašomas į šablonams skirtą atsarginių kopijų saugojimo vietą (duomenų bazės lentelė ERDocuDatabaseStorage), kai įvyksta šie įvykiai:
 
@@ -59,7 +61,7 @@ Jei ER formato šablono, pavyzdžiui, norint apdoroti tiekėjo mokėjimus, reiki
 
 Norėdami nustatyti parametrą **Automatiškai kaip paketą vykdyti sugadintų šablonų atkūrimo procedūrą**, atlikite šiuos veiksmus:
 
-1. „Finance and Operations“ atidarykite **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijų puslapis**.
+1. Programoje „Finance and Operations” atidarykite puslapį **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijos**.
 2. Puslapio **Konfigūracijos** veiksmų srities skirtuke **Konfigūracijos**, grupėje **Papildomi parametrai** pasirinkite **Vartotojo parametrai**.
 3. Dialogo lange **Vartotojo parametrai** nustatykite reikiamą parametro **Automatiškai kaip paketą vykdyti sugadintų šablonų atkūrimo procedūrą** reikšmę.
 
@@ -87,6 +89,10 @@ Norėdami nustatyti parinkties **Nebekurti šablonų atsarginių kopijų** reik�
 Jei savo aplinką atnaujinote į „Finance and Operations“ 10.0.5 (2019 m. spalio) versiją ir norite pereiti prie naujos aplinkos, kuri apima vykdytinas ER formato konfigūracijas, prieš vykdydami perkėlimą, pasirinkite **Užpildyti atsarginių kopijų saugyklą** puslapyje **Elektroninių ataskaitų parametrai**. Šiuo mygtuku pradedamas visų galimų šablonų atsarginių kopijų kūrimo procesas, kad jie galėtų būti išsaugoti šablonų ER atsarginių kopijų saugojimo vietoje.
 
 ![Elektroninių ataskaitų parametrų puslapis](./media/GER-BackupTemplates-5.png)
+
+## <a name="manual-recovery"></a>Rankinis atkūrimas
+
+Eikite į **Organizacijos administravimas** \> **Elektroninės ataskaitos** \> **Atkurti sugadintus šablonus**, norėdami neautomatiniu būdu inicijuoti ER šablonų atkūrimo iš atsarginės saugyklos vietos į pirminę saugyklos vietą procesą. Prieš pradėdami šį procesą, puslapyje **Atkurti sugadintus šablonus** galite nurodyti, ar procesas bus vykdomas interaktyviai, ar bus planuojamas paketinis vykdymas.
 
 ## <a name="supported-deployments"></a>Palaikomi diegimai
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0fe9ed9f2bebe8683f3b8bb37b33e8a63b9521f6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205672"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346473"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Pritaikomų sandėlio lygio dimensijų rezervavimo strategija
 
@@ -233,7 +233,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nepaisyti vietos</strong>, esantį sandėlio „Mmobile“ programėlėje (WMA), paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nepaisyti vietos</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Pasirinkite <strong>Siūlyti</strong>.</li>
 <li>Patvirtinkite naują vietą, kuri siūloma pagal paketo kiekio pasiekiamumą.</li>
 </ol>
@@ -247,10 +247,10 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Netaikoma</td>
 </tr>
 <tr>
-<td>Ne</td>
+<td>nr.</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nepaisyti vietos</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nepaisyti vietos</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Įveskite vietą rankiniu būdu.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Netaikoma</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Visas</strong>, esantį WMA, apdoroję paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Visas</strong>, esantį sandėliavimo programoje, apdoroję paėmimo darbą.</li>
 <li>Lauke <strong>Paimtas kiekis</strong> įveskite reikiamo paėmimo dalinį kiekį, kad nurodytumėte visą pajėgumą.</li>
 </ol>
 </td>
@@ -353,7 +353,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>WMA pradėkite perkėlimą.</li>
+<li>Sandėliavimo programoje pradėkite perkėlimą.</li>
 <li>Įveskite „iš“ ir „į“ vietas.</li>
 </ol></td>
 <td>
@@ -469,7 +469,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Lauke <strong>Paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> įveskite <strong>Perskirstymo nėra</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Lauke <strong>Paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> įveskite <strong>Perskirstymo nėra</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su neautomatiniu perskirstymu iš naujo</strong>.</li>
 <li>Sąraše pasirinkite vietą / numerio lentelę.</li>
@@ -545,10 +545,10 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 </tr>
 <tr>
 <td>Tipo <strong>Nevisiškai paimta</strong> darbo išimtis nustatyta, kai <strong>Prekių perskirstymas</strong> = <strong>Neautomatinis</strong>, <strong>Atsargų koregavimas</strong> = <strong>Taip</strong> ir <strong>Pašalinti rezervavimus</strong> = <strong>Ne</strong>. Be to, parinktis <strong>Leisti neautomatinį prekių perskirstymą</strong> darbuotojui yra įjungta.</td>
-<td>Ne</td>
+<td>nr.</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su neautomatiniu perskirstymu iš naujo</strong>.</li>
 </ol>
@@ -558,10 +558,10 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 </tr>
 <tr>
 <td>Tipo <strong>Nevisiškai paimta</strong> darbo išimtis nustatyta, kai <strong>Prekių perskirstymas</strong> = <strong>Neautomatinis</strong>, <strong>Atsargų koregavimas</strong> = <strong>Taip</strong> ir <strong>Pašalinti rezervavimus</strong> = <strong>Taip</strong>. Be to, parinktis <strong>Leisti neautomatinį prekių perskirstymą</strong> darbuotojui yra įjungta.</td>
-<td>Ne</td>
+<td>nr.</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su neautomatiniu perskirstymu iš naujo</strong>.</li>
 <li>Sąraše pasirinkite vietą / numerio lentelę.</li>
@@ -585,7 +585,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Netaikoma</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį WMA, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su automatiniu perskirstymu iš naujo</strong>.</li>
 </ol>

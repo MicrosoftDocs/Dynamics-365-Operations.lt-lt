@@ -3,7 +3,7 @@ title: Darbo su „Planning Optimization“ pradžia
 description: Šioje temoje aiškinama, kaip pradėti naudoti „Planning Optimization“ funkciją.
 author: ChristianRytt
 manager: tfehr
-ms.date: 02/10/2020
+ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 4f9124e824a0b6d5035b2567cb19c2c494390d55
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce1bbb18e9a448e84d001a4195421d2b0e4af5be
+ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213520"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "3339883"
 ---
 # <a name="get-started-with-planning-optimization"></a>Darbo su „Planning Optimization“ pradžia
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 „Planning Optimization“ funkcija šiuo metu nepalaiko visų funkcijų, kurias galima naudoti planavimo mechanizme, kuris įdiegtas „Microsoft"Dynamics 365 Supply Chain Management“. Todėl svarbu, kad įvertintumėte, ar funkcijų rinkinys, kurį šiuo metu galima naudoti „Planning Optimization“, atitiks jūsų reikalavimus. „Planning Optimization“ funkcija pagal numatytuosius parametrus nėra įjungta „Dynamics Lifecycle Services“ (LCS). Todėl prieš ją įjungdami turite galimybę atlikti savo vertinimą.
@@ -36,6 +35,11 @@ ms.locfileid: "3213520"
 Galiausiai, „Planning Optimization“ pakeis dabartinį įdiegtą „Supply Chain Management“ planavimo mechanizmą.
 
 Prieš įjungiant „Planning Optimization“, primygtinai rekomenduojame įvertinti „Planning Optimization“ tinkamumo analizės rezultatus. Daugiau informacijos žr. [„Planning Optimization“ tinkamumo analizė](planning-optimization-fit-analysis.md).
+
+### <a name="availability"></a>Prieinamumas
+Šiuo metu planavimo optimizavimas pasiekiamas tolesniuose „Azure” regionuose: Jungtinės Valstijos, Kanada, Europa, Jungtinė Karalystė ir Australija. Jei bandote įdiegti papildinį kitame geografiniame regione, LCS rodys pranešimą, nurodantį, kad šis regionas nepalaikomas.
+
+Turėkite omenyje, kad planavimo optimizavimas nepalaiko vietinių visuotinių „Dynamics 365 Supply Chain Management” diegimų.
 
 ### <a name="licensing"></a>Licencijavimas
 
@@ -46,7 +50,7 @@ Jei galite vykdyti bendrąjį planavimą naudodami esamą licenciją, jums nerei
 Norėdami naudoti „Planning Optimization“, įdiekite „Planning Optimization“ papildinį, skirtą „Dynamics 365 Supply Chain Management“. Galite pasiekti papildinį savo LCS projekte ir įjungti „Planning Optimization“ funkciją „Supply Chain Management“ vartotojo sąsajoje (UI).
 
 > [!NOTE]
-> Planavimo optimizavimo reikalavimas yra su įgalintais LCS plačiai pasiekiama aplinka (ne „OneBox” aplinka), turinti „Dynamics 365 Supply Chain Management” versiją 10.0.7 arba naujesnę versiją.
+> Planavimo optimizavimo reikalavimas yra su įgalintais LCS plačiai pasiekiama 2 ar aukštesnės pakopos aplinka (ne „OneBox” aplinka), turinti „Dynamics 365 Supply Chain Management” versiją 10.0.7 arba naujesnę versiją. Jei bandote įdiegti papildinį „OneBox” aplinkoje, diegimas nebus užbaigtas ir jį reikės atšaukti.
 
 1. Prisijunkite prie LCS ir atsidarykite pageidaujamą aplinką.
 1. Eikite į **Išsami informacija**.
@@ -88,7 +92,7 @@ Parinkties **Naudoti „Planning Optimization“** parametras apibrėžia, kuris
 
 Jei „Planning Optimization“ peržiūra įjungta, bendrasis planavimas atliekamas naudojant „Planning Optimization“ papildinį. Šiuo atveju, bus paveikti bendrojo planavimo rezultatai ir funkcijos.
 
-## <a name="related-resources"></a>Susiję ištekliai
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Peržiūros sąlygos ir nuostatos.](https://go.microsoft.com/fwlink/?linkid=2015274)
 
