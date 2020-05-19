@@ -3,7 +3,7 @@ title: Įtraukti parankinių piktogramą
 description: Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,61 +17,85 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 287663817232e7ce86e8fdb1fb5c2fcfeed33d20
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
+ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001547"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295085"
 ---
-# <a name="add-a-favicon"></a><span data-ttu-id="d8e49-103">Įtraukti parankinių piktogramą</span><span class="sxs-lookup"><span data-stu-id="d8e49-103">Add a favicon</span></span>
-
+# <a name="add-a-favicon"></a><span data-ttu-id="d023f-103">Įtraukti parankinių piktogramą</span><span class="sxs-lookup"><span data-stu-id="d023f-103">Add a favicon</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d8e49-104">Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.</span><span class="sxs-lookup"><span data-stu-id="d8e49-104">This topic explains how to add a favicon to your site.</span></span>
+<span data-ttu-id="d023f-104">Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.</span><span class="sxs-lookup"><span data-stu-id="d023f-104">This topic explains how to add a favicon to your site.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="d8e49-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="d8e49-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="d023f-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="d023f-105">Overview</span></span>
 
-<span data-ttu-id="d8e49-106">Parankinių piktogrma yra mažas grafikos failas, rodomas žiniatinklio naršyklės skirtuke, adresų juostoje, naršymo retrospektyvoje, žymelėse, parankiniuose ir kitose vietose.</span><span class="sxs-lookup"><span data-stu-id="d8e49-106">A favicon is a small graphics file that is shown on a web browser tab, in the Address bar, in the browsing history, and in bookmarks or favorites, among other places.</span></span> <span data-ttu-id="d8e49-107">Rekomenduojame parankinių piktogramą įtraukti į savo svetainę, nes ji vaizduoja ir sustiprina jūsų prekės ženklą bei jūsų svetainę padeda atskirti nuo kitų svetainių, kuriose lankosi jūsų klientai.</span><span class="sxs-lookup"><span data-stu-id="d8e49-107">We recommend that you add a favicon to your site, because it represents and reinforces your brand, and helps distinguish your site from other sites that your customers visit.</span></span>
+<span data-ttu-id="d023f-106">Parankinių piktogrma yra mažas grafikos failas, rodomas žiniatinklio naršyklės skirtuke, adresų juostoje, naršymo retrospektyvoje, žymelėse, parankiniuose ir kitose vietose.</span><span class="sxs-lookup"><span data-stu-id="d023f-106">A favicon is a small graphics file that is shown on a web browser tab, in the Address bar, in the browsing history, and in bookmarks or favorites, among other places.</span></span> <span data-ttu-id="d023f-107">Rekomenduojame parankinių piktogramą įtraukti į savo svetainę, nes ji vaizduoja ir sustiprina jūsų prekės ženklą bei jūsų svetainę padeda atskirti nuo kitų svetainių, kuriose lankosi jūsų klientai.</span><span class="sxs-lookup"><span data-stu-id="d023f-107">We recommend that you add a favicon to your site, because it represents and reinforces your brand, and helps distinguish your site from other sites that your customers visit.</span></span>
 
-<span data-ttu-id="d8e49-108">Nors į svetainę galima įtraukti kelias įvairių dydžių ir failų tipų parankinių piktogramas, šioje temoje parodyta, kaip įtraukti vieną parankinių piktogramą.</span><span class="sxs-lookup"><span data-stu-id="d8e49-108">Although you can add multiple favicons of various sizes and file types to your site, this topic shows how to add a single favicon.</span></span> <span data-ttu-id="d8e49-109">Tačiau tas pats procesas ir vieta naudojami norint įtraukti daugiau parankinių piktogramų.</span><span class="sxs-lookup"><span data-stu-id="d8e49-109">However, the same process and location are used to add more favicons.</span></span>
+<span data-ttu-id="d023f-108">Nors į svetainę galima įtraukti kelias įvairių dydžių ir failų tipų parankinių piktogramas, šioje temoje parodyta, kaip įtraukti vieną parankinių piktogramą.</span><span class="sxs-lookup"><span data-stu-id="d023f-108">Although you can add multiple favicons of various sizes and file types to your site, this topic shows how to add a single favicon.</span></span> <span data-ttu-id="d023f-109">Tačiau tas pats procesas ir vieta naudojami norint įtraukti daugiau parankinių piktogramų.</span><span class="sxs-lookup"><span data-stu-id="d023f-109">However, the same process and location are used to add more favicons.</span></span>
 
-## <a name="upload-a-favicon-to-your-sites-asset-collection"></a><span data-ttu-id="d8e49-110">Parankinių piktogramos nusiuntimas į svetainės turto rinkinį</span><span class="sxs-lookup"><span data-stu-id="d8e49-110">Upload a favicon to your site's asset collection</span></span>
+## <a name="upload-a-favicon-to-your-sites-asset-collection"></a><span data-ttu-id="d023f-110">Parankinių piktogramos nusiuntimas į svetainės turto rinkinį</span><span class="sxs-lookup"><span data-stu-id="d023f-110">Upload a favicon to your site's asset collection</span></span>
 
-<span data-ttu-id="d8e49-111">Norėdami parankinių piktogramą nusiųsti į savo svetainės turto rinkinį, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="d8e49-111">To upload a favicon to your site's asset collection, follow these steps.</span></span>
+<span data-ttu-id="d023f-111">Norėdami parankinių piktogramą nusiųsti į savo svetainės turto rinkinį, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="d023f-111">To upload a favicon to your site's asset collection, follow these steps.</span></span>
 
-1. <span data-ttu-id="d8e49-112">Nueikite į **Turtas \> Nusiųsti \> Nusiųsti turtą**.</span><span class="sxs-lookup"><span data-stu-id="d8e49-112">Go to **Assets \> Upload \> Upload assets**.</span></span>
-1. <span data-ttu-id="d8e49-113">Suraskite ir pasirinkite parankinių piktogramą vietinėje failų sistemoje.</span><span class="sxs-lookup"><span data-stu-id="d8e49-113">Find and select the favicon on your local file system.</span></span>
-1. <span data-ttu-id="d8e49-114">Įveskite pavadinimą ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="d8e49-114">Enter a title, and then select **OK**.</span></span> 
-1. <span data-ttu-id="d8e49-115">Dešinėje esančioje ypatybių srityje nukopijuokite viešąjį parankinių piktogramos URL.</span><span class="sxs-lookup"><span data-stu-id="d8e49-115">In the property pane on the right, copy the public URL of the favicon.</span></span>
+1. <span data-ttu-id="d023f-112">Kairiojoje naršymo srityje pasirinkite **Medijos biblioteka**.</span><span class="sxs-lookup"><span data-stu-id="d023f-112">In the left navigation pane, select **Media Library**.</span></span>
+1. <span data-ttu-id="d023f-113">Komandų juostoje pasirinkite **įkelti \> Įkelti medijos elementus**.</span><span class="sxs-lookup"><span data-stu-id="d023f-113">On the command bar, select **Upload \> Upload Media Items**.</span></span>
+1. <span data-ttu-id="d023f-114">Failų naršyklės lange eikite į parankinių piktogramos vaizdo failą, kurį norite įkelti, pasirinkite jį ir tada pasirinkite **Atidaryti**.</span><span class="sxs-lookup"><span data-stu-id="d023f-114">In the File Explorer window, browse to the favicon image file that you want to upload, select it, and then select **Open**.</span></span>
+1. <span data-ttu-id="d023f-115">Dialogo lange **Įkelti medijos elementą** įveskite reikiamą pavadinimą ir alternatyvųjį tekstą.</span><span class="sxs-lookup"><span data-stu-id="d023f-115">In the **Upload Media Item** dialog box, enter the required title and alt text.</span></span>
+1. <span data-ttu-id="d023f-116">Norėdami iš karto po nusiuntimo publikuoti vaizdą, pažymėkite žymės langelį **Publikuoti medijos elementus po įkėlimo**.</span><span class="sxs-lookup"><span data-stu-id="d023f-116">If you want to publish the image immediately after upload, select the **Publish media items after upload** check box.</span></span>
 
-> [!NOTE]
-> <span data-ttu-id="d8e49-116">Jei nepasirenkate parinkties **Nusiųstą turtą publikuoti**, turite grįžti į puslapį **Turtas** ir parankinių piktogramą patys publikuoti vėliau.</span><span class="sxs-lookup"><span data-stu-id="d8e49-116">If you don't select the **Publish assets after upload** option, you must return to **Assets** page and manually publish the favicon later.</span></span>
+    > [!NOTE]
+    > <span data-ttu-id="d023f-117">Jei nepasirenkate žymės langelio **Publikuoti medijos elementus po įkėlimo**, turite grįžti į puslapį **Medijos elementai** ir parankinių piktogramą patys publikuoti vėliau.</span><span class="sxs-lookup"><span data-stu-id="d023f-117">If you don't select the **Publish media items after upload** check box, you must return to **Media items** page and manually publish the favicon later.</span></span>
 
-## <a name="create-the-html-for-the-favicon"></a><span data-ttu-id="d8e49-117">Parankinių piktogramos HTML kūrimas</span><span class="sxs-lookup"><span data-stu-id="d8e49-117">Create the HTML for the favicon</span></span>
+1. <span data-ttu-id="d023f-118">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="d023f-118">Select **OK**.</span></span>
+1. <span data-ttu-id="d023f-119">Dešinėje esančioje ypatybių srityje nukopijuokite viešąjį parankinių piktogramos URL.</span><span class="sxs-lookup"><span data-stu-id="d023f-119">In the property pane on the right, copy the public URL of the favicon.</span></span> <span data-ttu-id="d023f-120">Šį URL naudosite vėliau.</span><span class="sxs-lookup"><span data-stu-id="d023f-120">You will use this URL later.</span></span>
 
-<span data-ttu-id="d8e49-118">Norėdami sukurti parankinių piktogramos HTML, naudokite tolesnį HTML fragmentą.</span><span class="sxs-lookup"><span data-stu-id="d8e49-118">To create the HTML for the favicon, use the following HTML snippet.</span></span> <span data-ttu-id="d8e49-119">Atribute **href** **"Public\_URL\_for\_your\_favicon"** („viešasis parankinių piktogramos URL“) pakeiskite anksčiau nukopijuotu viešuoju URL.</span><span class="sxs-lookup"><span data-stu-id="d8e49-119">For the **href** attribute, replace **"Public\_URL\_for\_your\_favicon"** with the public URL that you copied earlier.</span></span>
+## <a name="create-the-html-for-your-favicon"></a><span data-ttu-id="d023f-121">Jūsų parankinių piktogramos HTML kūrimas</span><span class="sxs-lookup"><span data-stu-id="d023f-121">Create the HTML for your favicon</span></span>
+
+<span data-ttu-id="d023f-122">Norėdami sukurti parankinių piktogramos HTML, naudokite tolesnę HTML eilutę.</span><span class="sxs-lookup"><span data-stu-id="d023f-122">To create the HTML for the favicon, use the following HTML string.</span></span> <span data-ttu-id="d023f-123">Atribute **href** **Public\_URL\_for\_your\_favicon** („viešasis parankinių piktogramos URL“) pakeiskite anksčiau nukopijuotu viešuoju URL.</span><span class="sxs-lookup"><span data-stu-id="d023f-123">For the **href** attribute, replace **Public\_URL\_for\_your\_favicon** with the public URL that you copied earlier.</span></span>
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="add-the-html-for-the-favicon-to-the-head-element-of-your-pages"></a><span data-ttu-id="d8e49-120">Parankinių piktogramos HTML įtraukimas į puslapių elementą \<head\></span><span class="sxs-lookup"><span data-stu-id="d8e49-120">Add the HTML for the favicon to the \<head\> element of your pages</span></span>
+## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a><span data-ttu-id="d023f-124">Puslapio fragmento, kuriame yra jūsų parankinių piktogramos metažymių, kūrimas</span><span class="sxs-lookup"><span data-stu-id="d023f-124">Create a page fragment that contains a metatag for your favicon</span></span>
 
-<span data-ttu-id="d8e49-121">Norėdami į savo svetainę įtraukti parankinių piktogramą, naudokite tą pačią procedūrą, kurią naudojant į jūsų svetainės puslapių elementą **\<head\>** įtraukiamas bet kokio tipo HTML ar scenarijus.</span><span class="sxs-lookup"><span data-stu-id="d8e49-121">To add a favicon to your site, use the same procedure that is used to add any type of HTML or script to the **\<head\>** element of your site pages.</span></span>
+<span data-ttu-id="d023f-125">Norėdami sukurti puslapio fragmentą, kuriame yra jūsų parankinių piktogramos metažymių, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="d023f-125">To create a page fragment that contains a metatag for your favicon, follow these steps.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d8e49-122">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="d8e49-122">Additional resources</span></span>
+1. <span data-ttu-id="d023f-126">Eikite į **Puslapio fragmentai** ir pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="d023f-126">Go to **Page fragments**, and select **New**.</span></span>
+1. <span data-ttu-id="d023f-127">Dialogo lange **Naujas puslapio fragmentas** kaip modulį, kuriuo paremtas puslapio fragmentas, pasirinkite **Metažymės**.</span><span class="sxs-lookup"><span data-stu-id="d023f-127">In the **New Page Fragment** dialog box, select **Metatags** as the module that the page fragment is based on.</span></span>
+1. <span data-ttu-id="d023f-128">Įveskite puslapio fragmento pavadinimą, tada pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="d023f-128">Enter a name for the page fragment, and then select **OK**.</span></span>
+1. <span data-ttu-id="d023f-129">Fragmento hierarchijos medyje pasirinkite antrinį elementą **Numatytosios metažymės**.</span><span class="sxs-lookup"><span data-stu-id="d023f-129">In the fragment hierarchy tree, select the **Default metatags** child.</span></span>
+1. <span data-ttu-id="d023f-130">Dešiniosios srities dalyje **Metažymės** pasirinkite **Įtraukti** ir įveskite anksčiau sukurtą HTML eilutę, skirtą parankinių piktogramai.</span><span class="sxs-lookup"><span data-stu-id="d023f-130">In the right pane, under **Meta Tags**, select **Add**, and then enter the HTML string that you created earlier for the favicon.</span></span> 
+1. <span data-ttu-id="d023f-131">Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte puslapio fragmentą.</span><span class="sxs-lookup"><span data-stu-id="d023f-131">Select **Finish editing**, and then select **Publish** to publish the page fragment.</span></span>
 
-[<span data-ttu-id="d8e49-123">Įtraukti logotipą</span><span class="sxs-lookup"><span data-stu-id="d8e49-123">Add a logo</span></span>](add-logo.md)
+## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a><span data-ttu-id="d023f-132">Metažymės puslapio fragmento įtraukimas į jūsų puslapių HTML antraštės sekciją</span><span class="sxs-lookup"><span data-stu-id="d023f-132">Add the metatag page fragment to the HTML head section of your pages</span></span>
 
-[<span data-ttu-id="d8e49-124">Pasirinkti svetainės temą</span><span class="sxs-lookup"><span data-stu-id="d8e49-124">Select a site theme</span></span>](select-site-theme.md)
+<span data-ttu-id="d023f-133">Norėdami įtraukti metažymės puslapio fragmentą į jūsų puslapių HTML **antraštės** sekciją, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="d023f-133">To add the metatag page fragment to the HTML **head** section of your pages, follow these steps.</span></span>
 
-[<span data-ttu-id="d8e49-125">Darbas su CSS perrašymo failais</span><span class="sxs-lookup"><span data-stu-id="d8e49-125">Work with CSS override files</span></span>](css-override-files.md)
+1. <span data-ttu-id="d023f-134">Eikite į **Šablonai**, atidarykite puslapių, į kuriuos norite įtraukti parankinių piktogramą, šabloną ir pasirinkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="d023f-134">Go to **Templates**, open the template for the pages that you want to add your favicon to, and then select **Edit**.</span></span>
+1. <span data-ttu-id="d023f-135">Šablonų hierarchijos medyje pasirinkite daugtaškio (**...**) mygtuką, esantį dešinėje konteinerio **HTML antraštė** pusėje, ir pasirinkite **Įtraukti puslapio fragmentą**.</span><span class="sxs-lookup"><span data-stu-id="d023f-135">In the template hierarchy tree, select the ellipsis (**...**) button to the right of the **HTML head** container, and then select **Add page fragment**.</span></span>
+1. <span data-ttu-id="d023f-136">Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite anksčiau sukurtą metažymės puslapio fragmentą ir pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="d023f-136">In the **Select Page Fragment** dialog box, select the metatag page fragment that you created earlier, and then select **OK**.</span></span>
+1. <span data-ttu-id="d023f-137">Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte šabloną.</span><span class="sxs-lookup"><span data-stu-id="d023f-137">Select **Finish editing**, and then select **Publish** to publish the template.</span></span>
 
-[<span data-ttu-id="d8e49-126">Įtraukti pasveikinimo pranešimą</span><span class="sxs-lookup"><span data-stu-id="d8e49-126">Add a welcome message</span></span>](add-welcome-message.md)
+> [!NOTE]
+> <span data-ttu-id="d023f-138">Jei jūsų svetainė naudoja daugiau nei vieną šabloną, turite įtraukti metažymės puslapio fragmentą į visus juos.</span><span class="sxs-lookup"><span data-stu-id="d023f-138">If your site uses more than one template, you must add the metatags page fragment to all of them.</span></span>
 
-[<span data-ttu-id="d8e49-127">Įtraukti informaciją apie autorių teises</span><span class="sxs-lookup"><span data-stu-id="d8e49-127">Add a copyright notice</span></span>](add-copyright-notice.md)
+<span data-ttu-id="d023f-139">Kai peržiūrite puslapius, pagrįstus šablonu, į kurį įtraukėte metažymės puslapio fragmentą, matysite parankinių piktogramą naršyklės skirtuke.</span><span class="sxs-lookup"><span data-stu-id="d023f-139">When you preview pages that are based on the template that you added the metatags page fragment to, you should now see the favicon on the browser tab.</span></span>
 
-[<span data-ttu-id="d8e49-128">Kalbų įtraukimas į savo svetainę</span><span class="sxs-lookup"><span data-stu-id="d8e49-128">Add languages to your site</span></span>](add-languages-to-site.md)
+## <a name="additional-resources"></a><span data-ttu-id="d023f-140">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="d023f-140">Additional resources</span></span>
 
-[<span data-ttu-id="d8e49-129">Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija</span><span class="sxs-lookup"><span data-stu-id="d8e49-129">Add script code to site pages to support telemetry</span></span>](add-telemetry.md)
+[<span data-ttu-id="d023f-141">Įtraukti logotipą</span><span class="sxs-lookup"><span data-stu-id="d023f-141">Add a logo</span></span>](add-logo.md)
+
+[<span data-ttu-id="d023f-142">Pasirinkti svetainės temą</span><span class="sxs-lookup"><span data-stu-id="d023f-142">Select a site theme</span></span>](select-site-theme.md)
+
+[<span data-ttu-id="d023f-143">Darbas su CSS perrašymo failais</span><span class="sxs-lookup"><span data-stu-id="d023f-143">Work with CSS override files</span></span>](css-override-files.md)
+
+[<span data-ttu-id="d023f-144">Įtraukti pasveikinimo pranešimą</span><span class="sxs-lookup"><span data-stu-id="d023f-144">Add a welcome message</span></span>](add-welcome-message.md)
+
+[<span data-ttu-id="d023f-145">Įtraukti informaciją apie autorių teises</span><span class="sxs-lookup"><span data-stu-id="d023f-145">Add a copyright notice</span></span>](add-copyright-notice.md)
+
+[<span data-ttu-id="d023f-146">Kalbų įtraukimas į savo svetainę</span><span class="sxs-lookup"><span data-stu-id="d023f-146">Add languages to your site</span></span>](add-languages-to-site.md)
+
+[<span data-ttu-id="d023f-147">Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija</span><span class="sxs-lookup"><span data-stu-id="d023f-147">Add script code to site pages to support telemetry</span></span>](add-telemetry.md)
 
