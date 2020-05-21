@@ -3,7 +3,7 @@ title: „Commerce” B2C nuomotojo sąranka
 description: Šioje temoje aprašoma, kaip nustatyti „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojus, skirtus vartotojo svetainės autentifikavimui „Dynamics 365 Commerce“.
 author: BrianShook
 manager: annbe
-ms.date: 04/17 /2020
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f4768eede43003aac892b861b4a86ababe98a189
-ms.sourcegitcommit: 063c4d7155be6c2cadcafa1630d16ee235285479
+ms.openlocfilehash: 22d62419c703c64470723cf82864a4782306ea8a
+ms.sourcegitcommit: 1b00e21faf89de8b3450936253a4c02cb4d12a3d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270215"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3295274"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -87,7 +87,7 @@ Norėdami sukurti B2C programą, atlikite tolesnius veiksmus.
 
 ### <a name="reply-urls"></a>Atsakymo URL
 
-Atsakymo URL yra svarbūs, nes jie leidžia grąžinimo domenų baltąjį sąrašą, kai jūsų svetainė reikalauja „Azure AD“ B2C, kad būtų autentifikuotas vartotojas. Tai leidžia autentifikuoti vartotoją grąžinti į domeną, iš kurio jis prisijungė (jūsų svetainės domenas). 
+Atsakymo URL yra svarbūs, nes jie suteikia leidžiamų grąžinimo domenų sąrašą, kai jūsų svetainė reikalauja „Azure AD“ B2C, kad būtų autentifikuotas vartotojas. Tai leidžia autentifikuoti vartotoją grąžinti į domeną, iš kurio jis prisijungė (jūsų svetainės domenas). 
 
 Lauke **Atsakymo URL** ekrane **„Azure AD“ B2c – programos \> Nauja programa** turite įtraukti atskiras eilutes tiek svetainės domenui, tiek (kai jūsų aplinka paruošta) „Commerce“ sugeneruotam URL. Šie URL turi visada naudoti tinkamą URL formatą ir jie turi būti tik pagrindiniai URL (nėra pasvirųjų brūkšnių ar maršrutų). Tada eilutę ``/_msdyn365/authresp`` reikia pridėti prie pagrindinių URL, kaip tolesniuose pavyzdžiuose.
 
@@ -121,9 +121,9 @@ Norėdami sukurti prisiregistravimo ir prisijungimo vartotojo srauto strategiją
 
     | **Rinkti atributą** | **Grąžinti pretenziją** |
     | ---------------------- | ----------------- |
-    |                        | El. pašto adresai   |
+    | El. pašto adresas          | El. pašto adresai   |
     | Vardas             | Vardas        |
-    |                        | Tapatybės teikimo įrankis |
+    |                        | Tapatybės teikėjas |
     | Pavardė                | Pavardė           |
     |                        | Vartotojo objekto ID  |
 
@@ -246,10 +246,6 @@ Norėdami atnaujinti būstinę su naują „Azure AD“ B2C informaciją, atliki
     1. Lauke **Tipas** įveskite **Viešas**.
     1. Lauke **Vartotojo tipas** įveskite **Klientas**.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. „Commerce“ ieškos lauke ieškokite **Numeracijos** (organizacijos administravimas > Numeracijos).
-1. Veiksmų srityje pasirinkite **Redaguoti** dalyje **Tvarkyti**.
-1. „Fast tab“ **Bendra** pasirinkite **Ne** ties **Rankiniu būdu**.
-1. Veiksmų srityje pasirinkite **Įrašyti**. 
 1. „Commerce“ ieškos lauke ieškokite **Paskirstymo grafikas**
 1. Puslapio **Paskirstymo grafikai** kairiajame naršymo meniu pasirinkite užduotį **1110 visuotinė konfigūracija**.
 1. Veiksmų srityje pasirinkite **Vykdyti dabar**.
@@ -304,13 +300,14 @@ Norėdami įtraukti AAD B2C nuomotojo programos informaciją į „Commerce“, 
 1. Į rodomą formą įveskite toliau nurodytus privalomus elementus naudodami reikšmes iš B2C nuomotojo ir programos. Neprivalomus laukus (be žvaigždutės) galima palikti tuščius.
 
     - **Programos pavadinimas**: jūsų B2C programos pavadinimas, pavyzdžiui, „Fabrikam B2C“.
-    - **Nuomotojo pavadinimas**: jūsų B2C nuomotojo pavadinimas, pavyzdžiui, „Fabrikam“.
+    - **Nuomotojo pavadinimas:** B2C nuomotojo pavadinimas (pvz.: naudokite „fabrikam”, jei B2C nuomotojo domenas rodomas kaip „fabrikam.onmicrosoft.com”). 
     - **Pamiršto slaptažodžio strategijos ID**: pamiršto slaptažodžio vartotojo srauto strategijos ID, pavyzdžiui, „B2C_1_PasswordReset“.
     - **Registracijos / prisijungimo strategijos ID**: registracija ir prisijungimas vartotojo srauto strategijos ID, pavyzdžiui, „B2C_1_signup_signin“.
     - **Kliento GUID**: B2C programos ID, pavyzdžiui, „22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6“.
     - **Redaguoti profilio strategijos ID**: profilį redaguojančio vartojo srauto strategijos ID, pavyzdžiui, „B2C_1A_ProfileEdit“.
 
 1. Pasirinkite **Gerai**. Dabar sąraše turėtumėte matyti savo B2C programos pavadinimą.
+1. Pasirinkite **Įrašyti**, kad įrašytumėte pakeitimus.
 
 ### <a name="associate-the-b2c-application-to-your-site-and-channel"></a>B2C programos susiejimas su svetaine ir kanalu
 

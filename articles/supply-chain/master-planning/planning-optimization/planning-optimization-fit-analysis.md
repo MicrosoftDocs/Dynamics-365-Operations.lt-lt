@@ -3,7 +3,7 @@ title: Planavimo optimizavimo tinkamumo analizė
 description: Šioje temoje paaiškinama, kaip patikrinti dabartinę sąranką ir duomenis, atsižvelgiant į „Planning Optimization“ funkcijos galimybes.
 author: ChristianRytt
 manager: tfehr
-ms.date: 04/17/2020
+ms.date: 05/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,16 +19,15 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0382e78942e6cb2047e37b76f1daf5725638d5c3
-ms.sourcegitcommit: 915ee7c59ef5fbd4927c10840e5c5e8652f667a9
+ms.openlocfilehash: 9bf19604d246988e05b91c8a41b1f57b523d2192
+ms.sourcegitcommit: 73ae66c9464bcc9ddc1efbf4e76abb2758862fe6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3277803"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346658"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
-[!include [banner](../../includes/preview-banner.md)]
 [!include [banner](../../includes/banner.md)]
 
 Norėdami pamatyti, kaip suderinama dabartinė sąranka ir duomenys „Planning Optimization“, eikite į **Bendrasis planavimas** \> **Sąranka** \> **„Planning Optimization“ tinkamumo analizė** ir pasirinkite **Atlikti analizę**. Jei atlikus analizę randama neatitikimų, jie pateikiami tame pačiame puslapyje. (Analizė gali užtrukti kelias minutes.)
@@ -73,6 +72,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Vidinė įmonė | Bendrieji planai, įskaitant proceso pabaigoje suplanuotą poreikį: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į bendrąjį planavimą neįtraukiamas proceso pabaigos suplanuotas poreikis, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. Atkreipkite dėmesį, kad išleisti / patvirtinti užsakymai vis dar veikia su įprastomis vidinės įmonės funkcijomis ir apima daugelį scenarijų. |
 | Kanban | Prekės padengimo įrašai su suplanuoto užsakymo tipu „kanban“: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu prekės padengimo, nustatyto į „kanban”, bus nepaisoma, kai įjungtas planavimo optimizavimas. Suplanuoto užsakymo tipas „kanban” bendrojo planavimo metu sukurs įspėjimą, o suplanuoti pirkimo užsakymai bus sukurti padengti susijusį poreikį. |
 | Kanban | Prekės su numatytojo užsakymo tipu „kanban“: _\#_ | Šiuo metu numatytojo užsakymo tipo, nustatyto į „kanban”, bus nepaisoma, kai įjungtas planavimo optimizavimas. Numatytojo užsakymo tipas „kanban” bendrojo planavimo metu sukurs įspėjimą, o suplanuoti pirkimo užsakymai bus sukurti padengti susijusį poreikį. |
+| Produkto ciklo būsena   | Produkto ciklų būsenos nesuaktyvintos planavimui: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu produkto ciklo būsenos nepaisoma, kai įjungtas planavimo optimizavimas. Galite koreguoti plano lygio produkto filtrą, kad nereikėtų įtraukti produktų, kuriuose išjungta planavimo produkto ciklo būsena. |
 | Gamyba | KS eilutės su apvalinimu arba keliais nustatymais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS eilutėse esančio apvalinimo ir kelių nustatymų nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. |
 | Gamyba | KS / formulės eilutės su formulės matavimo vienetu: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS ir formulės eilutėse esančio formulės matavimo vieneto nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. |
 | Gamyba | KS / formulės eilutės su prekės pakeitimu (planavimo grupės): _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS ir formulės eilutėse esančio prekės pakeitimo (planavimo grupių) nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. |
@@ -99,7 +99,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Pardavimo pasiūlymai | Bendrieji planai su įgalintais pardavimo pasiūlymais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į pasiūlymus neatsižvelgiama, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. |
 | Laikymo trukmė | Bendrieji planai su įgalinta laikymo trukme: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į laikymo trukmę neatsižvelgiama, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. |
 
-## <a name="related-resources"></a>Susiję ištekliai
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Planavimo optimizavimo apžvalga](planning-optimization-overview.md)
 

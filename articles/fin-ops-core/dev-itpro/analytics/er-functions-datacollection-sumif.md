@@ -3,7 +3,7 @@ title: ER SUMIF funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama modulio Elektroninės ataskaitos (ER) SUMIF funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/04/2019
+ms.date: 04/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 374569d3bbe59f1b96eee9c789b97b7b2a6004bf
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 9df7be0825203f91434d348385c1ee358ae555ea
+ms.sourcegitcommit: ef6fd78c817f93610771cfb2477f52f16b882164
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042486"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "3290205"
 ---
-# <a name="SUMIF">ER SUMIF funkcija</a>
+# <a name=""></a><a name="SUMIF">ER SUMIF funkcija</a>
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,6 +62,8 @@ Kai dabartinio komponento **Common\\File parinktis** **Rinkti išeigos informaci
 ## <a name="example"></a>Pavyzdys
 
 Norėdami apie tai, kaip naudoti šią funkciją, gauti daugiau informacijos, žr. užduočių vedlį [ER: duomenų formato išvesties duomenų naudojimas skaičiuojant ir sumuojant](tasks/er-format-counting-summing-1.md) (verslo proceso **Įsigyti / sukurti IT paslaugų ir sprendimų komponentų** dalis).
+
+Daugiau informacijos ir funkcijos naudojimo pavyzdžių žr. [Sekos elementų ER formatais vykdymo atidėjimas](er-defer-sequence-element.md#Example) ir [XML elementų ER formatais vykdymo atidėjimas](er-defer-xml-element.md#Example).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

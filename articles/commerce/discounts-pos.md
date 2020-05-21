@@ -3,7 +3,7 @@ title: Nuolaidų rodymas EKA
 description: Šioje temoje paaiškinama, kaip „Microsoft Dynamics 365 Commerce“ padeda pardavimo partneriams sužinoti apie akcijas ir kaip jos gali būti naudojamos kryžminiams ir papildomiems pardavimams.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/06/2020
+ms.date: 05/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 89f7b79733f01c089a16c507b127b23ada5df1a6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
+ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265591"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "3334713"
 ---
 # <a name="show-discounts-in-pos"></a>Nuolaidų rodymas EKA
 
@@ -54,9 +54,9 @@ Kai parinktis **Taikyti be kupono kodo** įjungta, atsiranda įvairių scenarij�
 
 Kelių eilučių nuolaidos, pvz., kiekio nuolaidos, prekių rinkinių nuolaidos ir slenksčio nuolaidos, yra puikus būdas motyvuoti klientus pirkti daugiau produktų, kad būtų galima gauti didesnių nuolaidų. Todėl jie taip pat padeda didinti kliento krepšelio ir mažmeninės prekybos įplaukų dydį. Šias nuolaidas galima publikuoti „e-Commerce“ svetainėse, socialiniuose tinkluose ir reklaminėse juostose parduotuvėse.
 
-Tačiau net naudojant visus šiuos viešumo metodus klientai gali praleisti galimybę pasinaudoti akcijų siūlomais privalumais. Kad pardavimų darbuotojai lengviau sužinotų, kokios akcijos taikomos pasirinktai eilutei ar net visam krepšeliui, mažmenininkai gali įtraukti mygtuką veiksmui „Peržiūrėti visas nuolaidas“ į bet kurį EKA mygtukyną. Rekomenduojame, kad mygtukas būtų įtrauktas į puslapiui **Operacija** skirtą mygtukyną. Tokiu būdu pardavimų darbuotojas gali pasirinkti operacijos eilutę ir pasirinkti mygtuką, kad būtų rodomos visos pasirinktos eilutės nuolaidos. Be to, pardavimų darbuotojas gali pasirinkti kitą skirtuką, norėdamas rodyti visas operacijai taikomas nuolaidas.
+Tačiau net naudojant visus šiuos viešumo metodus klientai gali praleisti galimybę pasinaudoti akcijų siūlomais privalumais. Kad pardavimų darbuotojai lengviau sužinotų, kokios akcijos taikomos pasirinktai eilutei ar net visam krepšeliui, mažmenininkai gali įtraukti mygtuką veiksmui „Peržiūrėti pasiekiamas nuolaidas“ į puslapio **Operacija** mygtukyną. Tokiu būdu pardavimų darbuotojas gali pasirinkti operacijos eilutę ir pasirinkti mygtuką, kad būtų rodomos visos pasirinktos eilutės nuolaidos. Be to, pardavimų darbuotojas gali pasirinkti kitą skirtuką, norėdamas rodyti visas operacijai taikomas nuolaidas.
 
-Anksčiau paminėtame **Visų nuolaidų** puslapyje rodomos tik nuolaidos, kurios nekonkuruoja su jokiomis pritaikytomis nuolaidomis. Taip užtikrinama, kad, jei pardavimų darbuotojas informuos klientą apie nuolaidą, o klientas imsis reikalaujamo veiksmo (pvz., klientas nusiperka dar vieną prekę, kado gautų 10 procentų nuolaidą), nuolaida taikoma operacijai. Kaip minėta anksčiau, kuponų nuolaidos rodomos tik tada, kai kupono antraštėje įgalinta parinktis **Taikyti be kupono kodo**.
+Puslapyje **Visos nuolaidos** rodomos tik nuolaidos, kurios nekonkuruoja su jokiomis pritaikytomis nuolaidomis. Taip užtikrinama, kad, jei pardavimų darbuotojas informuos klientą apie nuolaidą, o klientas imsis reikalaujamo veiksmo (pvz., klientas nusiperka dar vieną prekę, kado gautų 10 procentų nuolaidą), nuolaida taikoma operacijai. Kuponų nuolaidos rodomos tik tada, kai kupono antraštėje įgalinta parinktis **Taikyti be kupono kodo**.
 
 Paprastame scenarijuje, kur visos nuolaidos turi tą pačią pirmenybę, nuolaidos sutapimo režimas yra **skaičiuojamas**, o nuolaidos sutapimo valdiklis nustatytas į **Geriausia kaina ir apskaičiuota pirmenybėje, niekada neskaičiuoti už pirmenybės ribų**, puslapyje **Visos nuolaidos** rodomos visos produktui prieinamos nuolaidos, nes visos nuolaidos yra apskaičiuojamos ir nekonkuruoja tarpusavyje.
 

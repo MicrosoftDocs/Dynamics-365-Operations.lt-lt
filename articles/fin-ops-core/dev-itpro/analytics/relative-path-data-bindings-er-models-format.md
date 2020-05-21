@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
-ms.search.form: ERSolutionTable , ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
+ms.search.form: ERSolutionTable, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2940d99243ac52ee0d56a1c4423c4f0250f42f57
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.openlocfilehash: c08e81b6e2983a8f16104698944820e93ba3852d
+ms.sourcegitcommit: 139c8007e68d279d7ca9aa302598217522abb8cb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091777"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331329"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Santykinio kelio naudojimas ER modelių ir formatų duomenų sąsajose
 
@@ -29,10 +29,10 @@ ms.locfileid: "3091777"
 
 Naudodami elektroninių ataskaitų (ER) įrankį vartotojai gali nustatyti elektroninio formato struktūras ir tada aprašyti, kaip šias struktūras reikia pildyti naudojant programoje esančius duomenis ir algoritmus. Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų kūrimas](electronic-reporting-configuration.md). Norėdami nurodyti duomenų srautą, kuriuo bus gaunami „Finance and Operations“ duomenys, ir jį naudoti generuodami elektroninį dokumentą, turite atlikti toliau nurodytus veiksmus.
 
-- Susiekite sukonfigūruotus duomenų šaltinius su konkretaus domeno duomenų modelio elementais. Modelio struktūra ir pasirinkti duomenų šaltiniai gali būti sudėtingos hierarchinės struktūros dalys. Todėl galutinės sąsajos gali būti gana didelės ir jose gali būti daug skirtingų tipų elementų (pavyzdžiui, ryšių, lentelių ir metodų). Sąsajas gali tapti sunkiau skaityti ir gana sudėtinga peržiūrėti bei suprasti, ypač ne savininkams. 
-- Susiekite duomenų modelio elementus su formato komponentais, kad apibrėžtumėte, kokie duomenų modelio duomenys bus automatiškai įvedami generuojant formato išvestis.
+- Susiekite sukonfigūruotus duomenų šaltinius su konkretaus domeno [duomenų modelio](general-electronic-reporting.md#data-model-and-model-mapping-components) elementais. Modelio struktūra ir pasirinkti duomenų šaltiniai gali būti sudėtingos hierarchinės struktūros dalys. Todėl galutinės sąsajos gali būti gana didelės ir jose gali būti daug skirtingų tipų elementų (pavyzdžiui, ryšių, lentelių ir metodų). Sąsajas gali tapti sunkiau skaityti ir gana sudėtinga peržiūrėti bei suprasti, ypač ne savininkams. 
+- Susiekite duomenų modelio elementus su [formato](general-electronic-reporting.md#FormatComponentOutbound) komponentais, kad apibrėžtumėte, kokie duomenų modelio duomenys bus automatiškai įvedami generuojant formato išvestis.
 
-Siekiant patobulinti ER susiejimo kūrimo įrankių naudojimą buvo įdiegta santykinio kelio funkcija. Pagal numatytuosius parametrus visuose naujuose programos egzemplioriuose, kuriuose yra įgalintos ER kūrimo funkcijos („Microsoft“ „Dynamics 365 Finance“, „Microsoft Regulatory Configuration Service“), santykinio kelio rodymo parinktis yra įjungta. Įdiegėme santykinio kelio parametrą, kad vartotojai dirbdami su šia ER sąsajų pateiktimi galėtų naudoti visą kelią.
+Siekiant patobulinti ER susiejimo kūrimo įrankių naudojimą buvo įdiegta [santykinio kelio](er-formula-language.md#relative-path) funkcija. Pagal numatytuosius parametrus visuose naujuose programos egzemplioriuose, kuriuose yra įgalintos ER kūrimo funkcijos („Microsoft“ „Dynamics 365 Finance“, „Microsoft Regulatory Configuration Service“), santykinio kelio rodymo parinktis yra įjungta. Įdiegėme santykinio kelio parametrą, kad vartotojai dirbdami su šia ER sąsajų pateiktimi galėtų naudoti visą kelią.
 
 [![Vartotojo parametrai](./media/relative-path-01.png)](./media/relative-path-01.png)
 
@@ -54,3 +54,7 @@ Jei patvirtinsite įdėtųjų elementų sąsają, naujas pirminis elementas bus 
 
 > [!NOTE]
 > Visi pakeitimai, įdiegti masiškai modifikuojant įdėtųjų elementų sąsajas modelių susiejimuose, įrašomi konfigūracijos pokytyje (pakeitimų sekimas). Tai leidžia klientams pritaikyti išvestinę modelio susiejimo versiją bet kokiai naujai jo pagrindinei versijai, modifikuotai naudojant šią naują funkciją.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+[ER formulės kalba](er-formula-language.md)

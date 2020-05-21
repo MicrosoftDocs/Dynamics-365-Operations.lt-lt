@@ -3,7 +3,7 @@ title: Norėdami gauti duomenis iš kelių programos lentelių, ER modelio susie
 description: Šioje temoje paaiškinta, kaip galima naudoti duomenų šaltinių jungimo funkciją elektroninėms ataskaitoms (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 10/25/2019
+ms.date: 05/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 224acc19ee5dda430cd9471aa50e9d870a4f8c60
-ms.sourcegitcommit: 564aa8eec89defdbe2abaf38d0ebc4cca3e28109
+ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
+ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667959"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3332327"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Norėdami gauti duomenis iš kelių programos lentelių elektroninių ataskaitų (ER) modelio susiejimuose, naudokite duomenų šaltinių jungimo funkciją
 
@@ -140,7 +140,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
 7.  Uždarykite puslapį.
 
-### <a name="review"></a>ER modelio susiejimo peržiūra (2 dalis)
+### <a name="review-er-model-mapping-part-2"></a><a name="review"></a>ER modelio susiejimo peržiūra (2 dalis)
 
 Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfigūruotas taip, kad pasiektų informaciją apie ER konfigūracijų versijas, informaciją apie konfigūracijas ir konfigūracijos teikėjus naudodamas **sujungimo** tipo duomenų šaltinį.
 
@@ -185,7 +185,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 9.  Uždarykite puslapį.
 10. Pasirinkite **Atšaukti**.
 
-### <a name="executeERformat"></a> ER formato vykdymas
+### <a name="execute-er-format"></a><a name="executeERformat"></a> ER formato vykdymas
 
 1.  Prisijunkite prie „Finance“ arba RCS antrojo jūsų žiniatinklio naršyklės seanso metu, naudodami tuos pačius kredencialus ir įmonę kaip ir pirmojo seanso metu.
 2.  Eikite į **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijos**.
@@ -230,7 +230,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
 5.  Uždarykite puslapį.
 
-### <a name="execute-er-format"></a> ER formato vykdymas
+### <a name="execute-er-format"></a>ER formato vykdymas
 
 1.  Pereikite į žiniatinklio naršyklės skirtuką, kuriame vyksta antrasis „Finance“ arba RCS seansas.
 2.  Pasirinkite **Vykdyti**.
@@ -240,7 +240,7 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
 
     ![ER vartotojo dialogo puslapis](./media/GER-JoinDS-Set2Run.PNG)
 
-#### <a name="analyze"></a> ER formato vykdymo sekimo analizė
+#### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> ER formato vykdymo sekimo analizė
 
 1.  Pirmajame „Finance“ arba RCS seanse pasirinkite **Dizaino įrankis**.
 2.  Pasirinkite **Našumo sekimas**.
@@ -256,6 +256,33 @@ Peržiūrėkite ER modelio susiejimo komponento parametrus. Komponentas sukonfig
     - Programos duomenų bazė buvo iškviesta vieną kartą siekiant apskaičiuoti konfigūracijos versijų skaičių ir tam naudojant sąryšius, sukonfigūruotus duomenų šaltinyje **Details**.
 
     ![ER modelio susiejimo dizaino įrankio puslapis](./media/GER-JoinDS-Set2Run3.PNG)
+
+## <a name="limitations"></a>Apribojimai
+
+Kaip matote šioje temoje pateiktame pavyzdyje, duomenų šaltinis **JOIN** gali būti sukurtas naudojant kelis duomenų šaltinius, apibūdinančius atskirus įrašų, kurie turi būti sujungti, duomenų rinkinius. Galite konfigūruoti šiuos duomenų šaltinius naudodami integruotą ER funkciją [FILTER](er-functions-list-filter.md). Kai sukonfigūruosite duomenų šaltinį taip, kad jį būtų galima iškviesti už duomenų šaltinio **JOIN** ribų, galite naudoti įmonės diapazonus kaip duomenų pasirinkimo sąlygos dalį. Pradinis duomenų šaltinio **JOIN** diegimas nepalaiko šio tipo duomenų šaltinių. Pavyzdžiui, kai iškviečiate duomenų šaltinį, pagrįstą [FILTER](er-functions-list-filter.md), kuris patenka į duomenų šaltinio **JOIN** vykdymo aprėptį, jei iškviestame duomenų šaltinyje esantys įmonės diapazonai yra duomenų pasirinkimo sąlygos dalis, įvyksta išimtis.
+
+„Microsoft Dynamics 365 Finance” 10.0.12 versijos (2020 m. rugpjūčio mėn.) duomenų šaltiniuose, pagrįstuose [FILTER](er-functions-list-filter.md), kurie iškviesti ir patenka į duomenų šaltinio **JOIN** vykdymo aprėptį, galite naudoti įmonės diapazonus kaip duomenų pasirinkimo sąlygos dalį. Dėl programos [užklausų](../dev-ref/xpp-library-objects.md#query-object-model) generatoriaus apribojimų įmonės diapazonai palaikomi tik pirmame duomenų šaltinio **JOIN** duomenų šaltinyje.
+
+### <a name="example"></a>Pavyzdys
+
+Pavyzdžiui, norėdami gauti kelių įmonių užsienio prekybos operacijų sąrašą ir informaciją apie atsargų prekę, nurodytą tose operacijose, turite paskambinti į programos duomenų bazę.
+
+Šiuo atveju tolesnius artefaktus konfigūruojate jūsų ER modelio susiejime.
+
+- **Intrastat** šakninis duomenų šaltinis, rodantis **Intrastat** lentelę.
+- **Elementų** šakninis duomenų šaltinis, rodantis **InventTable** lentelę.
+- **Įmonių** šakninis duomenų šaltinis, grąžinantis įmonių (šiame pavyzdyje – **DEMF** ir **GBSI**), kuriose turi būti pasiekiamos operacijos, sąrašą. Įmonės kodas yra pasiekiamas lauke **Companies.Code**.
+- Šakninis duomenų šaltinis**X1** , kurio išraiška yra `FILTER (Intrastat, VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code))`. Šioje išraiškoje įmonės diapazonų apibrėžimas `VALUEIN(Intrastat.dataAreaId, Companies, Companies.Code)` yra duomenų pasirinkimo sąlygos dalis.
+- Duomenų šaltinis **X2**, veikiantis kaip įdėtasis **X1** duomenų šaltinio elementas. Jame yra išraiška `FILTER (Items, Items.ItemId = X1.ItemId)`.
+
+Galiausiai galite sukonfigūruoti duomenų šaltinį **JOIN**, kuriame **X1** yra pirmas duomenų šaltinis, o **X2** yra antras duomenų šaltinis. Parinktį **Vykdyti** galite nustatyti į **Užklausa**, kad ER priverstinai vykdytų šį duomenų šaltinį duomenų bazės lygiu kaip tiesioginį SQL iškvietimą.
+
+Kai vykdomas sukonfigūruotas duomenų šaltinis ir [sekamas](trace-execution-er-troubleshoot-perf.md) ER vykdymas, ER modelio susiejimo kūrimo įrankyje rodomas tolesnis teiginys kaip ER našumo sekimo dalis.
+
+`SELECT ... FROM INTRASTAT T1 CROSS JOIN INVENTTABLE T2 WHERE ((T1.PARTITION=?) AND (T1.DATAAREAID IN (N'DEMF',N'GBSI') )) AND ((T2.PARTITION=?) AND (T2.ITEMID=T1.ITEMID AND (T2.DATAAREAID = T1.DATAAREAID) AND (T2.PARTITION = T1.PARTITION))) ORDER BY T1.DISPATCHID,T1.SEQNUM`
+
+> [!NOTE]
+> Įvyksta klaida, jei vykdote duomenų šaltinį **JOIN**, sukonfigūruotą taip, kad jame būtų duomenų pasirinkimo sąlygos, turinčios papildomų vykdyto duomenų šaltinio **JOIN** duomenų šaltinių įmonių diapazonų.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

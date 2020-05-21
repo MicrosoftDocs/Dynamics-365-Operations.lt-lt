@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-34.md
                 - name: "„Platform Update 33” (2020\_m. balandžio mėn.)"
                   href: get-started/whats-new-platform-update-33.md
-                - name: "„Platform Update 32” (2020\_m. vasario mėn.)"
-                  href: get-started/whats-new-platform-update-32.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
@@ -140,8 +138,6 @@
                               href: data-entities/dual-write/connection-setup.md
                             - name: Dvigubo rašymo sąranka iš „Lifecycle Services“
                               href: data-entities/dual-write/lcs-setup.md
-                            - name: Pirminis sinchronizavimas
-                              href: data-entities/dual-write/initial-sync.md
                             - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
                               items:
                                 - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
@@ -556,6 +552,16 @@
                   href: dev-tools/development-system-requirements.md
             - name: 'Versijos kontrolė, metaduomenų ieška ir naršymas'
               href: dev-tools/version-control-metadata-navigation.md
+            - name: Kurti automatizavimą naudojant „Azure“
+              items:
+                - name: Automatizavimo kūrimas naudojant „Microsoft“ nuomojamus agentus ir „Azure Pipelines“
+                  href: dev-tools/hosted-build-automation.md
+                - name: Licencijų failų įtraukimas į diegiamus paketus „Azure Pipelines“
+                  href: dev-tools/pipeline-add-license-package.md
+                - name: Diegiamų paketų kūrimas „Azure Pipelines“
+                  href: dev-tools/pipeline-create-deployable-package.md
+                - name: X++ modelių versijos „Azure Pipelines“
+                  href: dev-tools/pipeline-model-version.md
             - name: Transporto parko valdymo programos pavyzdys
               items:
                 - name: Tiesioginis transporto parko valdymo programos pavyzdžio scenarijus
@@ -1396,7 +1402,9 @@
                   href: sysadmin/tasks/identify-resolve-conflicts-segregation-duties.md
                 - name: Vartotojų priskyrimas saugos vaidmenims
                   href: sysadmin/tasks/assign-users-security-roles.md
-            - name: Paketinis vykdymas
+                - name: Užduoties įrašų saugos diagnostika
+                  href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Paketinis apdorojimas
               items:
                 - name: Paketinio vykdymo apžvalga
                   href: sysadmin/batch-processing-overview.md

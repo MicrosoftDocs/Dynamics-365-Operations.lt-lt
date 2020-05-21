@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a68ed1cf21039ec1077bae428dea242f19514b51
-ms.sourcegitcommit: 574309903f15eeab7911091114885b5c7279d22a
+ms.openlocfilehash: 81a3d64d04ceb20fec2f5ca4bb005e7ecb3c1929
+ms.sourcegitcommit: d2b111bf7a5fbf62ff2874d6c57c5ef8412df82e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "2658625"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "3331377"
 ---
 # <a name="project-invoicing"></a>Projekto SF išrašymas
 
@@ -112,6 +112,9 @@ Kai iš tiekėjo užsakote prekę ir ją priskiriate projektui, jūsų pasirinkt
 
 -   Už prekę SF išrašyti klientui: prekės eilutės ypatybę nustatykite į pirkimo užsakymo apmokestinamą reikšmę ir, naudodami tinkamą projekto SF išrašymo būdą, klientui išrašykite SF.
 -   Už prekę SF išrašyti ne projekto klientui: nesirinkite prekės **Apmokestinamos** eilutės ypatybės, esančios pirkimo užsakyme. Tada už pirkimo užsakymą galite išrašyti SF, ir nereikia atlikti jokių kitų veiksmų.
+
+> [!NOTE] 
+> Leidimo užlaikymo eilutės nėra apmokestinamos pagal numatytuosius parametrus. Tai reiškia, kad yra galimybė kurti SF pasiūlymą, nes išleistas užlaikymas neįjungtas.
 
 ## <a name="credit-notes"></a>Kredito pažymos
 Kai kliento SF sumos reikšmė yra neigiama, SF klasifikuojama kaip kredito pažyma. Spausdinant dokumentą, jo pavadinimas yra „Kredito pažyma‟. 

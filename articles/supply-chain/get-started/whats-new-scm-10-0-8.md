@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 6ace25bc64bcd5afce7e3f23479b0d93535b1a9b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 40d1090d18857c6978ce42a34d6d67241f9df18f
+ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201507"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "3346334"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.8 (2020 m. vasario mėn.)
 
@@ -51,7 +51,7 @@ Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinima
 - [Išskaidyti poreikio papildymo darbą iš paėmimo darbo veiksmo kūrimo](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-demand-replenishment-work-create-pick-work-step)
 - [Išskaidyti darbą](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/split-work)
 - [Sistemos nukreiptas klasterio paėmimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/system-directed-cluster-picking); daugiau informacijos žr. [Sistemos nukreiptas klasterio paėmimas](../warehousing/system-directed-cluster-pick.md).
-- [Sandėlio programos užduoties tikrinimas su RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
+- [Sandėliavimo programos užduoties tikrinimas su RSAT](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-app-task-validation-rsat)
 - [Išleidimo į sandėlį taisyklė](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/warehouse-release-rule)
 - [Bangos būsenos vizualizacija](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-status-visualization)
 - [Bangos šablonų grupavimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/wave-template-grouping)

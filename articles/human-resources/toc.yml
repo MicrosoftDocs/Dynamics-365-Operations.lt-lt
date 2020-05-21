@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: 2020 m. gegužės 1 d.
+          href: hr-whats-new-2020-05-01.md
         - name: 2020 m. balandžio 13 d.
           href: hr-whats-new-2020-04-13.md
         - name: 2020 m. balandžio 3 d.
@@ -501,8 +503,10 @@
               href: hr-leave-and-absence-enroll.md
             - name: Sukauptų atostogų ir neatvykimų planai
               href: hr-leave-and-absence-accrue.md
-            - name: Atostogų sulaikymas
+            - name: Atostogų sustabdymas
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Darbuotojų atostogų valdymas
+              href: hr-leave-and-absence-manage-employee-leave.md
             - name: Atostogų ir neatvykimų analizės peržiūra
               href: hr-leave-and-absence-analytics.md
             - name: Atostogų ir leidimo neatvykti prašymų valdymas
