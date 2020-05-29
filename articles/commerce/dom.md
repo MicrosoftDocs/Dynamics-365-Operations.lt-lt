@@ -3,7 +3,7 @@ title: Paskirstytų užsakymų tvarkymas (DOM)
 description: Šioje temoje aprašoma „Dynamics 365 Commerce“ paskirstytų užsakymų tvarkymo (DOM) funkcija.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 05/22/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7a584953b0f4961e25b59bca51aa3928b87b2c7c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1121cc89b278c3694d0bbd667f1a540d17f4d180
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3004325"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396037"
 ---
 # <a name="distributed-order-management-dom"></a>Paskirstytų užsakymų tvarkymas (DOM)
 
@@ -37,20 +37,20 @@ DOM optimizuoja užsakymų įvykdymą sudėtingame sistemų ir procesų tinkle. 
 
 Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
-![Pardavimo užsakymo ciklas DOM kontekste](./media/flow.png "Pardavimo užsakymo ciklas DOM kontekste")
+![![Pardavimo užsakymo ciklas DOM kontekste](./media/flow.png "Pardavimo užsakymo ciklas DOM kontekste")](./media/flow.png "Sales order lifecycle in the context of DOM")
 
 ## <a name="set-up-dom"></a>DOM nustatymas
 
 1. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**.
 2. Skirtuke **Konfigūracijos raktai** išplėskite mazgą **Prekyba** ir pažymėkite žymės langelį **Paskirstytų užsakymų tvarkymas**.
-3. Eikite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
+3. Eikite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
 4. Skirtuke **Bendra** nustatykite tolesnes reikšmes.
 
     - **Įjungti paskirstytų užsakymų tvarkymą** – šią parinktį nustatykite kaip **Taip**.
     - **Patvirtinti „Bing“ žemėlapių naudojimą DOM sistemoje** – šią parinktį nustatykite kaip **Taip**.
 
         > [!NOTE]
-        > Šią parinktį nustatyti kaip **Taip** galite, tik jei kaip **Taip** taip pat nustatyta puslapio **Bendrai naudojami prekybos parametrai** (**Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Parametrai \> Bendrai naudojami prekybos parametrai**) skirtuke **„Bing“ žemėlapiai** esanti parinktis **Įjungti „Bing“ žemėlapius** ir jei lauke **„Bing“ žemėlapių raktas** įvestas tinkamas raktas.
+        > Šią parinktį nustatyti kaip **Taip** galite, tik jei kaip **Taip** taip pat nustatyta puslapio **Bendrai naudojami prekybos parametrai** (**„Retail“ ir „Commerce“ \> Būstinės sąranka \> Parametrai \> Bendrai naudojami prekybos parametrai**) skirtuke **„Bing“ žemėlapiai** esanti parinktis **Įjungti „Bing“ žemėlapius** ir jei lauke **„Bing“ žemėlapių raktas** įvestas tinkamas raktas.
 
     - **Saugojimo laikotarpis dienomis** – nurodykite, kiek laiko sistemoje laikomi DOM vykdymų metu generuojami įvykdymo planai. Paketinė užduotis **DOM įvykdymo duomenų naikinimo užduoties sąranka** panaikins visus įvykdymo planus, kurie yra senesni nei čia jūsų nurodytas dienų skaičius.
     - **Atmetimo laikotarpis (dienomis)** – nurodykite, kiek laiko turi praeiti, kol atmestą užsakymo eilutę bus galima priskirti tai pačiai vietai.
@@ -71,7 +71,7 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
         >
         > Nors supaprastintoji sprendimo priemonė suteikia tas pačias galimybes kaip gamybos sprendimo priemonė, ribotas jos efektyvumas (ribojama, kiek užsakymų ir užsakymų eilučių galima apdoroti vieno vykdymo metu) ir rezultatų konvergavimas (kai kuriose situacijose naudojant tam tikrą užsakymų paketą galima gauti ne geriausią rezultatą).
      
-6. Grįžkite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
+6. Grįžkite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Sąranka \> DOM parametrai**.
 7. Skirtuke **Numeracijos** įvairiems DOM objektams priskirkite reikiamas numeracijas.
 
     > [!NOTE]
@@ -79,12 +79,21 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
 8. DOM funkcija palaiko galimybę apibrėžti įvairių tipų DOM taisykles, o organizacijos pagal savo verslo poreikius gali sukonfigūruoti keletą taisyklių. DOM taisykles galima apibrėžti vietų grupei arba atskiroms vietoms bei konkrečiai produktų kategorijai, konkrečiam produktui ar variantui. Norėdami sukurti vietų grupę, kurią reikia naudoti su DOM taisyklėmis, atlikite tolesnius veiksmus.
 
-    1. Eikite į **Mažmeninė prekyba ir prekyba \> Kanalų sąranka \> Įvykdymo grupės**.
+    1. Eikite į **„Retail“ ir „Commerce“ \> Kanalų sąranka \> Įvykdymo grupės**.
     2. Pasirinkite **Nauja** ir įveskite naujosios grupės pavadinimą bei aprašą.
     3. Pasirinkite **Įrašyti**.
     4. Norėdami į grupę įtraukti vieną vietą, pasirinkite **Įtraukti eilutę**. Jei norite įtraukti kelias vietas, pasirinkite **Įtraukti eilučių**.
+    
+    > [!NOTE]
+    > „Commerce“ 10.0.12 ir naujesnėse versijose **Galimybė nurodyti vietas kaip „Siuntimas“ arba „Paėmimas“ įjungta įvykdymo grupėje** turi būti įjungta **funkcijų valdymo** darbo srityje.
+    >
+    > Šia funkcija įtraukiamos naujos konfigūracijos į **įvykdymo grupės** puslapį, kad galėtumėte nustatyti, ar sandėlis gali būti naudojamas siuntimui, ar sandėlis ir parduotuvė kartu gali būti naudojami siuntimui ir (arba) paėmimui. 
+    >
+    > Įjungus šia funkciją, bus atnaujintos vietos pasirinkimo parinktys, kai EKA kuriate paėmimo ar siuntimo užsakymus.
+    >
+    > Įjungus šią funkciją taip pat atnaujinami puslapiai EKA, kai pasirenkamos operacijos „siųsti viską“ arba „siųsti pasirinktus“.
 
-9. Norėdami apibrėžti taisykles, eikite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Sąranka \> Tvarkyti taisykles**. Šiuo metu palaikomos tolesnės DOM taisyklės.
+9. Norėdami apibrėžti taisykles, eikite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Sąranka \> Tvarkyti taisykles**. Šiuo metu palaikomos tolesnės DOM taisyklės.
 
     - **Minimalių atsargų taisyklė** – šio tipo taisyklė organizacijoms leidžia kitu nei užsakymų įvykdymas tikslu „aptverti“ konkretų produkto kiekį. Pavyzdžiui, organizacijos gali norėti, kad DOM užsakymams įvykdyti pasiekiamomis laikytų ne visas parduotuvėje esančias atsargas. Jos gali norėti kažkiek atsargų rezervuoti į parduotuvę užeinantiems klientams. Kai naudojama šio tipo taisyklė, galite nustatyti minimalias norimas išlaikyti tam tikros produktų kategorijos, atskiro produkto ar produkto varianto vienoje vietoje ar vietų grupėje atsargas.
     - **Įvykdymo vietos prioriteto taisyklė** – šio tipo taisyklė organizacijoms leidžia nustatyti vietų hierarchiją ir prioritetą, į kurį atsižvelgia DOM mechanizmas, bandydamas nustatyti įvykdymo vietas konkretiems produktams. Tinkamas prioritetų intervalas yra nuo 1 iki 10 – 1 yra didžiausias prioritetas, o 10 – mažiausias. Į didesnio prioriteto vietas atsižvelgiama pirmiau nei į mažesnio prioriteto vietas. Jei taisyklė nustatoma kaip labai ribota, užsakymai tarpininkaujant perkeliami tik į tas vietas, kurioms nustatyti prioritetai.
@@ -112,7 +121,7 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
         \* Jei parinktis **Įvykdyti dalinius užsakymus** yra nustatyta kaip **Ne**, visada laikoma, kad parinktis **Įvykdyti dalines eilutes** yra nustatyta kaip **Ne** – nesvarbu, kaip ji nustatyta iš tikrųjų.
 
         > [!NOTE]
-        > „Retail” versijoje 10.0.5 parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų (iki 5) rinkinio ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą.
+        > „Retail” 10.0.5 versijoje parametras **Užsakymą įvykdyti tik iš vienos vietos** buvo pakeistas į **Maksimalus įvykdymo vietų skaičius**. Užuot leidę vartotojui konfigūruoti, ar užsakymai gali būti įvykdyti iš vienos ar iš visų įmanomų vietų, vartotojai nuo šiol gali nurodyti, ar įvykdyti galima iš nustatyto vietų (iki 5) rinkinio ar iš visų įmanomų vietų. Tai suteikia daugiau lankstumo atsižvelgiant į vietas, iš kurių galima įvykdyti užsakymą.
 
    - **Neprijungtos įvykdymo vietos taisyklė** – ši taisyklė organizacijoms leidžia tam tikrą vietą ar vietų grupę nurodyti kaip neprijungtą ar nepasiekiamą DOM sistemai, kad toms vietoms nebūtų galima priskirti užsakymų, kuriuos reikia įvykdyti.
     - **Didžiausio atmetimų skaičiaus taisyklė** – ši taisyklė organizacijoms leidžia nustatyti atmetimų ribą. Kai bus pasiekta ši riba, DOM doroklė užsakymą arba užsakymo eilutę pažymės kaip išimtį ir jų neįtrauks į kitą apdorojimo etapą.
@@ -130,11 +139,21 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
 10. Naudojant įvykdymo profilius grupuojamas taisyklių, juridinių subjektų, pardavimo užsakymų kilmių ir pristatymo būdų rinkinys. Kiekvienas DOM vykdymas atliekamas konkrečiam įvykdymo profiliui. Taip organizacijos tam tikras taisykles gali nustatyti ir vykdyti tam tikriems juridiniams subjektams (užsakymuose su konkrečiomis pardavimo užsakymų kilmėmis ir pristatymo būdais). Todėl, jei skirtingoms pardavimo užsakymų kilmėms ar skirtingiems pristatymo būdams reikia vykdyti skirtingas taisykles, įvykdymo profilius galima nustatyti atitinkamai. Norėdami nustatyti įvykdymo profilius, atlikite tolesnius veiksmus.  
 
-    1. Eikite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Sąranka \> Įvykdymo profiliai**.
+    1. Eikite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Sąranka \> Įvykdymo profiliai**.
     2. Pasirinkite **Naujas**.
     3. Įveskite reikšmes laukuose **Profilis** ir **Aprašas**.
     4. Nustatykite parinktį **Automatiškai taikyti rezultatą**. Jei šią parinktį nustatysite kaip **Taip**, profilio DOM vykdymo rezultatai bus automatiškai pritaikyti pardavimo užsakymų eilutėms. Jei ją nustatote kaip **Ne**, rezultatus galima peržiūrėti tik įvykdymo plane. Jie nebus taikomi pardavimo užsakymų eilutėms.
-    5. Jei norite, kad DOM profilis būtų vykdomas užsakymams su visomis pardavimo užsakymų kilmėmis – net tiems užsakymams, kurių pardavimo užsakymo kilmė yra nenustatyta, parinktį **Apdoroti užsakymus be nurodytos pardavimo kilmės** nustatykite kaip **Taip**. Norėdami profilį vykdyti tik kelioms pardavimo užsakymų kilmėms, jas galite nustatyti puslapyje **Pardavimo kilmės**, kaip paaiškinta vėliau.
+    5. Jei norite, kad DOM profilis būtų vykdomas užsakymams su visomis pardavimo užsakymų kilmėmis, įskaitant užsakymus, kurių pardavimo užsakymo kilmė yra nenustatyta, parinktį **Apdoroti užsakymus be nurodytos pardavimo kilmės** nustatykite kaip **Taip**. Norėdami profilį vykdyti tik kelioms pardavimo užsakymų kilmėms, jas galite nustatyti puslapyje **Pardavimo kilmės**, kaip paaiškinta vėliau.
+
+    > [!NOTE]
+    > „Commerce“ 10.0.12 ir naujesnėje versijoje **Galimybė priskirti įvykdymo grupę įvykdymo profiliui** turi būti įjungta **funkcijų valdymo** darbo srityje. 
+    >
+    > Šia funkcija įtraukiama nauja konfigūracija į **įvykdymo profilio** puslapį, kuris gali būti susietas su viena įvykdymo grupe. 
+    >
+    > Jei pasirinksite įvykdymo grupę, to įvykdymo profilio DOM taisyklės bus veiksmingai vykdomos į įvykdymo grupę įtrauktuose siuntimo sandėliuose. 
+    > 
+    > Norėdami veiksmingai naudoti šią funkciją, įsitikinkite, kad yra viena įvykdymo grupė, į kurią įtraukti visi siuntimo sandėliai, ir tada susiekite tą įvykdymo grupę su įvykdymo profiliu.
+    
     6. „FastTab“ konteineryje **Juridiniai subjektai** pasirinkite **Įtraukti**, tada – juridinį subjektą.
     7. „FastTab“ konteineryje **Taisyklės** pasirinkite **Įtraukti**, tada – su profiliu susietiną taisyklę.
     8. Kartokite ankstesnius du veiksmus tol, kol su profiliu bus susietos visos reikiamos taisyklės.
@@ -157,7 +176,7 @@ Tolesnėje iliustracijoje rodomas pardavimo užsakymo ciklas DOM sistemoje.
 
 DOM sistema bus vykdoma tik paketinėje užduotyje. Norėdami sukonfigūruoti paketinę užduotį DOM vykdymams, atlikite tolesnius veiksmus.
 
-1. Eikite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Paketinis apdorojimas \> DOM doroklės užduoties sąranka**.
+1. Eikite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Paketinis apdorojimas \> DOM doroklės užduoties sąranka**.
 1. „FastTab“ konteinerio **Parametrai** lauke **Įvykdymo profilis** pasirinkite profilį, kuriam turi būti vykdoma DOM sistema.
 1. „FastTab“ konteinerio **Vykdyti fone** lauke **Paketų grupė** pasirinkite sukonfigūruotą paketų grupę.
 1. Lauke **Užduoties aprašas** įveskite paketinės užduoties pavadinimą.
@@ -179,7 +198,7 @@ Apdorojimo metu DOM užsakymą ir užsakymo eilutes svarstys taip, kaip aprašyt
 
 Pritaikiusi taisykles, atsargų apribojimus ir optimizavusi, DOM pasirenka arčiausiai kliento pristatymo adreso esančią vietą.
 
-![Pardavimo užsakymų kriterijai](./media/ordercriteria.png "Pardavimo užsakymų kriterijai")
+![![Pardavimo užsakymų kriterijai](./media/ordercriteria.png "Pardavimo užsakymų kriterijai")](./media/ordercriteria.png "Sales order criteria")
 
 ## <a name="results-of-dom-runs"></a>DOM vykdymų rezultatai
 
@@ -187,7 +206,7 @@ Jei įvykdymo profilis nustatytas kaip **Automatiškai taikyti**, vykdymo rezult
 
 Norėdami peržiūrėti visus sugeneruotus įvykdymo planus, atlikite tolesnius veiksmus.
 
-1. Eikite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Paskirstytų užsakymų tvarkymas**.
+1. Eikite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Paskirstytų užsakymų tvarkymas**.
 2. Darbo srityje **Paskirstytų užsakymų tvarkymas** pasirinkite plytelę **Įvykdymo planai**.
 3. Norėdami peržiūrėti konkretų užsakymo įvykdymo planą, pasirinkite jo ID.
 
@@ -201,7 +220,7 @@ Norėdami peržiūrėti visus sugeneruotus įvykdymo planus, atlikite tolesnius 
 
 ## <a name="order-line-actions-and-statuses"></a>Užsakymo eilučių veiksmai ir būsenos
 
-Toliau aprašomi užsakymo eilutės parametrai. Norėdami atidaryti užsakymo eilutę, eikite į **Mažmeninė prekyba ir prekyba \> Klientai \> Visi pardavimo užsakymai**.
+Toliau aprašomi užsakymo eilutės parametrai. Norėdami atidaryti užsakymo eilutę, eikite į **„Retail“ ir „Commerce“ \> Klientai \> Visi pardavimo užsakymai**.
 - Jei pardavimo užsakymo eilutės skirtuke **Bendra** esančią parinktį **Neįtraukti į DOM apdorojimą** nustatysite kaip **Taip**, užsakymas ar užsakymo eilutė nebus įtraukti į DOM apdorojimo procesą.
 - Pardavimo užsakymo eilutės skirtuke **Bendra** esantį lauką **DOM būsena** galima nustatyti kaip vieną iš tolesnių reikšmių.
 
@@ -221,7 +240,7 @@ Toliau aprašomi užsakymo eilutės parametrai. Norėdami atidaryti užsakymo ei
 
 Vykdant DOM apdorojimą, kuriami įvykdymo planai. Ilgainiui sistemoje bus laikoma daugybė įvykdymo planų. Norėdami valdyti sistemos laikomų įvykdymo planų skaičių, galite sukonfigūruoti paketinę užduotį, kurį pagal lauko **Saugojimo laikotarpis dienomis** reikšmę panaikintų senesnius įvykdymo planus.
 
-1. Eikite į **Mažmeninė prekyba ir prekyba \> Paskirstytų užsakymų tvarkymas \> Paketinis apdorojimas \> DOM įvykdymo duomenų naikinimo užduoties sąranka**. 
+1. Eikite į **„Retail“ ir „Commerce“ \> Paskirstytų užsakymų tvarkymas \> Paketinis apdorojimas \> DOM įvykdymo duomenų naikinimo užduoties sąranka**. 
 1. Lauke **Paketų grupė** pasirinkite sukonfigūruotą paketų grupę.
 1. Pasirinkite **Pasikartojimas** ir nustatykite paketinės užduoties pasikartojimą.
 1. Pasirinkite **Gerai**.

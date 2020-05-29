@@ -88,14 +88,14 @@
               href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
             - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
-            - name: Dokumentacijos šaltiniai
+            - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Žinyno sistemos prijungimas
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/finance/toc.json
-                - name: Pasirinktinio žinyno svetainės prijungimas
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/finance/toc.json
+                - name: Kliento žinyno apžvalga
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Laukų aprašų peržiūra ir eksportas
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/finance/toc.json
                 - name: Užduočių įrašymo priemonė
@@ -316,7 +316,7 @@
               href: accounts-receivable/tasks/establish-customer-method-payment.md
             - name: Kliento mokėjimo mokesčių nustatymas
               href: accounts-receivable/tasks/establish-customer-payment-fees.md
-            - name: Kliento mokėjimo įžvalgos (peržiūra)
+            - name: Kliento mokėjimo įžvalgos (peržiūros versija)
               href: accounts-receivable/payment-insights-overview.md
             - name: Kliento registravimo šablonai
               href: accounts-receivable/customer-posting-profiles.md
@@ -1736,6 +1736,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Elektroninis PVM deklaracijos perkėlimas (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Vokietijos PVM deklaracija
+                  href: localizations/emea-de-vat-declaration.md
                 - name: Žurnalų sąrašo ataskaita
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektroninių mokesčių deklaracijų nustatymas
@@ -2286,7 +2288,7 @@
                   href: localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: „Semansys XBRL“ integravimas
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
-                - name: 'Audito failas (XML Auditfile Financieel, XAF)'
+                - name: 'Audito failas – XML „Auditfile Financieel“, XAF'
                   hred: localizations/emea-nl-audit-file.md
             - name: Norvegija
               items:
@@ -2398,6 +2400,8 @@
                       href: localizations/rus-prepayments-management.md
                     - name: Gaunamo PVM susigrąžinimas
                       href: localizations/rus-incoming-VAT-restoring.md
+                    - name: Eksporto prekybos sąskaitų faktūrų apdorojimas
+                      href: localizations/rus-export-trade.md
                 - name: Ilgalaikis turtas
                   items:
                     - name: Ilgalaikio turto apžvalga
@@ -2496,6 +2500,12 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Atsargų ataskaitos
                       href: localizations/rus-inventory-reports.md
+                    - name: Atsargų šablono apžvalga
+                      href: localizations/rus-inventory-profile-overview.md
+                    - name: Atsargų šablono nustatymas
+                      hreF: localizations/rus-set-up-inventory-profile.md
+                    - name: Atsargų šablono naudojimas dokumentuose ir užklausose
+                      href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Ataskaitos
                   items:
                     - name: Finansinės ataskaitos
@@ -3248,34 +3258,40 @@
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
             - name: ER formatų kūrimas siunčiamiems elektroniniams dokumentams įvairiais formatais generuoti
               items:
-                - name: '(ER) Konfigūracijos, skirtos ataskaitoms OPENXML formatu generuoti, kūrimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
-                - name: (ER) Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
+                - name: Konfigūracijų kūrimas siunčiamiems dokumentams „Excel“ formatu generuoti
+                  items:
+                    - name: Konfigūracijų kūrimas dokumentams „Excel“ formatu generuoti
+                      href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
+                    - name: Ataskaitų generavimo OPENXML formatu pavyzdys
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: ER formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
+                      href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
+                      items:
+                        - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas, kūrimas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas, paleidimas'
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                - name: Ataskaitų generavimo „Word“ formatu konfigūracijų kūrimas
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Konfigūracijų kūrimas pildymui PDF šablonuose
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
-            - name: Vaizdų ir figūrų įdėjimas
-              items:
-                - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
-                  href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
-                - name: Įdedamų vaizdų ir figūrų pavyzdys
+                - name: Vaizdų ir figūrų įdėjimas
                   items:
-                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
-                    - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Elektroninių ataskaitų formatų modifikavimas iš naujo pritaikant „Excel“ šablonus
-              href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: '(ER) Vaizdų ir figūrų įdėjimas į dokumentus, kuriuos generuojate'
+                      href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
+                    - name: Įdedamų vaizdų ir figūrų pavyzdys
+                      items:
+                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų kūrimas
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/dynamics365/finance/toc.json
+                        - name: Ataskaitų generavimo „Office“ formatais su įdėtaisiais vaizdais konfigūracijų peržiūra
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Ataskaitų „Office“ formatais su įdėtaisiais vaizdais generavimas
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
+                  href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: ER konfigūracijų priklausomybės nuo kitų komponentų apibrėžimas
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/dynamics365/finance/toc.json
-            - name: Dinaminis stulpelių įtraukimas į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus
-              items:
-                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, kūrimas'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
-                - name: 'Formatų, skirtų stulpeliams dinamiškai įtraukti į „Excel“ ataskaitas naudojant horizontaliai išplečiamus diapazonus, taikymas'
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
             - name: Prašymo duomenų naujinimas naudojant elektronines ataskaitas
               items:
                 - name: Elektroninių dokumentų generavimas ir prašymų duomenų naujinimas
@@ -3306,8 +3322,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-optional-attributes.md?toc=/dynamics365/finance/toc.json
                     - name: ER formatų konfigūravimas norint importuoti XML formato failus su pasirinktiniais atributais
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
-            - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
-              href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
             - name: Konfigūracijos ciklas
               items:
                 - name: Konfigūracijų ciklo valdymas
@@ -3327,7 +3341,11 @@
                     - name: Konfigūracijų atsisiuntimas iš RCS tipo ER saugyklos
                       href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Konfigūracijų importavimas iš RCS
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md
+                - name: Kurkite ER konfigūracijas RCS ir įkelkite jas į bendrąją saugyklą
+                  href: localizations/rcs-global-repo-upload.md
+                - name: Bendrinkite ER konfigūracijas RCS su išorinėmis organizacijomis
+                  href: localizations/rcs-global-repo-share-configuration.md
             - name: Mokymo programos
               items:
                 - name: 'Sužinokite, kaip naudoti duomenų šaltinius'
