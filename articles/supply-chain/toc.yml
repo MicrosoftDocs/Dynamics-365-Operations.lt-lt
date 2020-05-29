@@ -2,7 +2,7 @@
   items:
     - name: „Dynamics 365 Supply Chain Management”
       items:
-        - name: „Dynamics 365 Supply Chain Management”
+        - name: „Dynamics 365 Supply Chain Management“ pagrindinis puslapis
           href: index.md
         - name: Pradžia
           items:
@@ -88,14 +88,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Dokumentacijos šaltiniai
+            - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Žinyno sistemos prijungimas
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Pasirinktinio žinyno svetainės prijungimas
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Kliento žinyno apžvalga
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Laukų aprašų peržiūra ir eksportas
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Užduočių įrašymo priemonė
@@ -1313,6 +1313,22 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+        - name: IoT įžvalgos
+          items:
+            - name: Pagrindinis IoT įžvalgų puslapis
+              href: iot/iot-intelligence-home-page.md
+            - name: „Azure“ išteklių nustatymas
+              href: iot/iot-azure-setup.md
+            - name: IoT telkinio pranešimo schemų formatai
+              href: iot/iot-schema-format.md
+            - name: Papildinio diegimas LCS
+              href: iot/iot-lcs-setup.md
+            - name: Metrikos nustatymas
+              href: iot/iot-metrics-setup.md
+            - name: Scenarijaus nustatymas
+              href: iot/iot-scenario-setup.md
+            - name: Stebėjimas ir valdymas
+              href: iot/iot-management.md
         - name: Bendrasis planavimas
           items:
             - name: Pagrindinis bendrojo planavimo puslapis
@@ -1335,6 +1351,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Planavimo užduoties atšaukimas
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Planavimo optimizavimo trikčių diagnostika
+                  href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Bendrieji planai
               items:
                 - name: Bendrųjų planų apžvalga
@@ -2653,11 +2671,11 @@
                   href: warehousing/immediate-replenishment.md
                 - name: Papildymas naudojant išėmimų „kanban“
                   href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Min. – maks. papildymo proceso nustatymas
+                - name: Min. ir maks. papildymo proceso nustatymas
                   href: warehousing/tasks/set-up-min-max-replenishment-process.md
             - name: Sandėliavimo programos diegimas ir konfigūravimas
               items:
-                - name: Diegimo ir konfigūravimo apžvalga
+                - name: Sandėliavimo programos diegimas ir prijungimas
                   href: warehousing/install-configure-warehousing-app.md
                 - name: Laukų pavadinimų konfigūravimas sandėliavimo programoje
                   href: warehousing/configure-app-field-names-priorities-warehouse.md
@@ -2697,6 +2715,22 @@
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Pirkimo užsakymų darbo šablono nustatymas
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
+            - name: Siuntos konsolidacijos strategijos
+              items:
+                - name: Siuntos konsolidacijos strategijos
+                  href: warehousing/about-shipment-consolidation-policies.md
+                - name: Siuntos konsolidacijos strategijų konfigūravimas
+                  href: warehousing/configure-shipment-consolidation-policies.md
+                - name: '1 scenarijus – konsoliduoti siuntas, kai jos išleidžiamos į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
+                  href: warehousing/consolidate-shipments-automatic.md
+                - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma išleidimo į sandėlį puslapyje'
+                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                - name: 3 scenarijus – konsoliduoti siuntas naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
+                  href: warehousing/consolidate-shipments-load-planning-workbench.md
+                - name: 4 scenarijus – konsoliduoti siuntas naudojant siuntų konsolidavimo darbo sritį
+                  href: warehousing/consolidate-shipments-manual-workbench.md
+                - name: 5 scenarijus – konsoliduoti siuntas rankiniu būdu naudojant siuntų konsolidavimo puslapį
+                  href: warehousing/consolidate-shipments-manual-form.md
         - name: „Supply Chain Management“ kūrimas
           items:
             - name: Gantt valdiklio kūrimo vadovas

@@ -2,7 +2,7 @@
   items:
     - name: „Dynamics 365 Commerce“
       items:
-        - name: „Dynamics 365 Commerce“
+        - name: „Dynamics 365 Commerce“ pagrindinis puslapis
           href: index.md
         - name: Pradžia
           items:
@@ -79,7 +79,7 @@
                 - name: 'Laipsniškas išleidimo (N-1) diegimas, konfigūravimas ir pritaikymas'
                   href: dev-itpro/n-1-installation-configuration.md
                 - name: „Retail” kanalo plėtinio plėtotė į naujausią „Retail SDK“
-                  href: dev-itpro/retailSDK-update.md
+                  href: dev-itpro/RetailSDK-update.md
             - name: Kas nauja ar pasikeitė
               items:
                 - name: Kas nauja ar pasikeitė „Finance and Operations“ programose
@@ -106,14 +106,14 @@
                   href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/commerce/toc.json
                 - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/commerce/toc.json
-            - name: Dokumentacijos šaltiniai
+            - name: Dokumentacijos ištekliai
               items:
                 - name: Žinyno sistema
                   href: ../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Žinyno sistemos prijungimas
                   href: ../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/commerce/toc.json
-                - name: Pasirinktinio žinyno svetainės prijungimas
-                  href: ../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/commerce/toc.json
+                - name: Kliento žinyno apžvalga
+                  href: ../fin-ops-core/dev-itpro/help/custom-help-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Laukų aprašų peržiūra ir eksportas
                   href: ../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/commerce/toc.json
                 - name: Užduočių įrašymo priemonė
@@ -499,7 +499,9 @@
                     - name: „Adyen“ mokėjimo jungtis
                       href: dev-itpro/adyen-connector.md
                     - name: Internetinių mokėjimo priemonių įrašymas naudojant „Adyen“ jungtį
-                      href: dev-itpro/adyen-connector-listpi.md
+                      href: dev-itpro/adyen-connector-listPI.md
+                    - name: Griežtas kliento autentiškumo patvirtinimas (SCA) naudojant „Adyen“ jungtį
+                      href: adyen_redirect.md
                     - name: Sklandus dovanų kortelių ir pažymų operacijų perjungimas neprisijungus
                       href: dev-itpro/seamless-offline-improvements.md
                     - name: Sąskaitų faktūrų apmokėjimo scenarijų nustatymas
@@ -510,6 +512,8 @@
                       href: omni-channel-payments.md
                     - name: DUK apie mokėjimus
                       href: dev-itpro/payments-retail.md
+                - name: „Bing“ žemėlapių valdymas jūsų organizacijoje
+                  href: dev-itpro/manage-bing-maps.md
         - name: Prekyba produktais ir paslaugomis
           items:
             - name: 'Kategorijos, produktai ir asortimentai'
@@ -824,6 +828,8 @@
                   href: search-engine-optimization-considerations.md
                 - name: Turinio saugos strategijos (CSP) tvarkymas
                   href: manage-csp.md
+                - name: Žiniatinklio veiklos įvykių rinkinio atsisakymas
+                  href: web-activity-opt-out.md
             - name: Svetainės turinio tvarkymas
               items:
                 - name: Turinio įtraukimo būdai
@@ -1714,6 +1720,8 @@
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: El. pašto konfigūravimas ir siuntimas
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
+            - name: 'El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas'
+              href: email-templates-transactions.md
             - name: El. pašto aplinkų kūrimas
               href: ../fin-ops-core/dev-itpro/dev-tools/sysmailer-develop.md?toc=/dynamics365/commerce/toc.json
             - name: „Office“ integravimo trikčių diagnostika
@@ -2116,6 +2124,8 @@
                   href: dev-itpro/async-commerce-extension.md
                 - name: Kanalo duomenų bazės iš anksto išplėsti stulpeliai
                   href: dev-itpro/extended-columns.md
+                - name: „Commerce Data Exchange“ išplėtimas – paslauga realiuoju laiku
+                  href: dev-itpro/extend-commerce-data-exchange.md
             - name: Mokėjimo jungties išplečiamumas
               items:
                 - name: Mokėjimų integravimo į mokėjimo terminalą kūrimas
