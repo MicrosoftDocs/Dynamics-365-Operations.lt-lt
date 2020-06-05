@@ -3,7 +3,7 @@ title: Siunčiamų atsargų operacija EKA
 description: Šioje temoje aprašomos siunčiamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
 author: hhaines
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 26d8d67ac6d2fde0753104483fd2127f9acbaa05
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
+ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123927"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3384134"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -117,6 +117,18 @@ Rodinyje **Visas užsakymų sąrašas** galite rankiniu būdu pasirinkti eilutę
 ### <a name="over-delivery-shipping-validations"></a>Pristatymo perviršio siuntimo tikrinimas
 
 Tikrinimas vykdomas dokumento eilučių gavimo proceso metu. Jis apima pristatymo perviršio tikrinimą. Jei vartotojas bando gauti daugiau atsargų, nei buvo užsakyta pirkimo užsakyme, bet pristatymo perviršis nesukonfigūruotas arba gautas kiekis viršija pirkimo užsakymo eilutėje sukonfigūruotą leistiną pristatymo perviršio nuokrypį, vartotojas gauna klaidą ir jam neleidžiama gauti perteklinio kiekio.
+
+### <a name="underdelivery-close-lines"></a>Pristatymo trūkumo uždarymo eilutės
+
+„Commerce“ 10.0.12 versijoje buvo įtrauktos funkcijos, leidžiančios EKA vartotojams siuntimo užsakymo siuntimo metu uždaryti arba atšaukti likusius kiekius, jei siuntimo sandėlis nustato, kad jis negali išsiųsti viso pageidauto kiekio. Kiekius taip pat galima uždaryti arba atšaukti vėliau. Norint naudoti šią funkciją, įmonė turi būti sukonfigūruota leisti perkėlimo užsakymų pristatymo trūkumą. Be to, turi būti nurodytas perkėlimo užsakymo eilutės pristatymo trūkumo procentas.
+
+Norėdami konfigūruoti įmonę, kad būtų leidžiamas perkėlimo užsakymų pristatymo trūkumas, „Commerce“ pagrindiniame komponente eikite į **Atsargų valdymas \> Sąranka \> Atsargų ir sandėlio valdymo parametrai**. Puslapio **Atsargų ir sandėlio valdymo parametrai** skirtuke **Perkėlimo užsakymai** įjunkite parametrą **Priimti pristatymo trūkumą**. Tada paleiskite **1070** paskirstymo grafiko užduotį, kad parametrų pakeitimai būtų sinchronizuojami jūsų parduotuvės kanale.
+
+Perkėlimo užsakymo eilutės pristatymo trūkumo procentai gali būti iš anksto nustatyti produktams kaip produkto konfigūracijos „Commerce“ pagrindiniame komponente dalis. Jie taip pat gali būti nustatyti arba perrašyti konkrečioje perkėlimo užsakymo eilutėje „Commerce“ pagrindiniame komponente.
+
+Kai organizacija baigs konfigūruoti perkėlimo užsakymo pristatymo trūkumą, vartotojai, EKA operacijoje **Siuntimo operacija** pasirinkę siuntimo perkėlimo užsakymo eilutę, srityje **Išsami informacija** matys naują parinktį **Uždaryti likusį kiekį**. Tada, kai vartotojai užbaigs siuntimą naudodami operaciją **Baigti įvykdymą**, jie galės išsiųsti prašymą į „Commerce“ pagrindinį komponentą ir atšaukti likusį neišsiųstą kiekį. Jei vartotojas nusprendžia uždaryti likusį kiekį, „Commerce“ patikrina, ar atšaukiamas kiekis patenka į pristatymo trūkumo procentinį nuokrypį, kuris yra apibrėžtas perkėlimo užsakymo eilutėje. Jeigu pristatymo trūkumo nuokrypis viršytas, vartotojas gauna klaidos pranešimą ir negalės uždaryti likusio kiekio tol, kol anksčiau išsiųstas ir dabar siunčiamas kiekis atitiks arba viršys pristatymo trūkumo nuokrypį.
+
+Siuntą sinchronizavus su „Commerce“ pagrindiniu komponentu, EKA siuntimo užsakymo eilutės lauke **Siųsti dabar** nurodytas kiekis „Commerce“ pagrindiniame komponente atnaujinamas į būseną „Išsiųsta“. Visas neišsiųstas kiekis, kuris anksčiau būtų buvęs laikomas kiekiu „Liko išsiųsti“ (t. y. kiekiu, kuris bus siunčiamas vėliau), vietoj to yra laikomas atšauktu kiekiu. Perkėlimo užsakymo eilutėje kiekis „Liko išsiųsti“ yra nustatytas kaip **0** (nulis), o eilutė laikoma visiškai išsiųsta.
 
 ### <a name="shipping-location-controlled-items"></a>Pagal vietą kontroliuojamų prekių siuntimas
 

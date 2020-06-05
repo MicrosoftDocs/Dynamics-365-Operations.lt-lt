@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e16c9adf592282a941b1112e197ea1ce9bdd34f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207720"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383256"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkimo užsakymo su pristatymo grafiku kūrimas
 
@@ -31,7 +31,7 @@ ms.locfileid: "3207720"
 
 ## <a name="create-a-delivery-schedule"></a>Pristatymo grafiko kūrimas
 1. Naršymo srityje eikite į **„Moduliai“ > „Įsigijimas ir šaltiniai“ > „Pirkimo užsakymai“ > „Visi pirkimo užsakymai“**.
-2. Veiksmų srityje pasirinkite **„Naujas“**.
+2. Veiksmų srityje pasirinkite **Naujas**.
 3. Lauke **„Tiekėjo paskyra“** įveskite „`US-101`“.
 4. Pasirinkite **Gerai**.
 5. Lauke **„Prekės numeris“** įveskite „`M0001`“.

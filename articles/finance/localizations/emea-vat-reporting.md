@@ -17,12 +17,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9d307ceae85773feb58d11e575df27e74b065cd3
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a9b5bafb70883d9daf35a7d5a9107d7aee23469
+ms.sourcegitcommit: 98ef9178b28cd548f08f8c32255636e6e09b25f2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773450"
+ms.lasthandoff: 05/22/2020
+ms.locfileid: "3395987"
 ---
 # <a name="vat-reporting-for-europe"></a>PVM ataskaitos Europoje
 
@@ -265,13 +265,13 @@ Kiekvienos šalies PVM išrašas turi atitikti šalies teisės reikalavimus. Tol
 | Belgija        |                                                                                 |
 | Čekijos Respublika |  [Čekijos PVM išrašas](emea-cze-vat-statement-details.md)   |
 | Estija        |  [PVM išrašo informacija, skirta Estijai](emea-est-vat-statement-details.md) |
-| Suomija        |                                                                                 |
-| Vokietija        |                                                                                 |
+| Suomija        | [PVM ataskaita (Suomija)](emea-fin-sales-tax-payment-report-finland.md)          |
+| Vokietija        | [PVM deklaracija (Vokietija)](emea-de-vat-declaration.md)                       |
 | Italija          | [Išsami informacija apie Italijos PVM išrašus](emea-ita-vat-statements-details.md)            |
 | Latvija         | [PVM išrašo informacija, skirta Latvijai](emea-lva-vat-statement-details.md)           |
 | Lietuva      | [PVM išrašo informacija, skirta Lietuvai](emea-ltu-vat-statement-details.md)         |
-| Olandija    |                                                                                 |
-| Švedija         |                                                                                 |
+| Olandija    | [PVM deklaracija (Nyderlandai)](emea-nl-vat-declaration.md)           |
+| Švedija         | [PVM ataskaita (Švedija)](emea-swe-sales-tax-payment-report-sweden.md)          |
 
 
 

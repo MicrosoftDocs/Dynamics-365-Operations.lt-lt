@@ -526,6 +526,32 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Paketo programos trikčių diagnostika
                   href: deployment/deployable-package-troubleshooting.md
+            - name: Pasirinktinio kodo žinynas
+              items:
+                - name: Kliento žinyno apžvalga
+                  href: help/custom-help-overview.md
+                - name: Turinio paruošimas naudoti su žinyno sritimi
+                  href: help/preparing-content.md
+                - name: Pasirinktinio žinyno diegimas „Azure“
+                  href: help/walkthrough-help-azure.md
+                - name: Pasirinktinio žinyno prijungimas prie žinyno srities
+                  href: help/connect-help-pane.md
+                - name: Pasirinktinio žinyno įrankių rinkinys
+                  items:
+                    - name: Apžvalga
+                      href: help/custom-help-toolkit.md
+                    - name: „HTML From Repo Generator“ įrankis
+                      href: help/custom-help-toolkit-HtmlFromRepoGenerator.md
+                    - name: „Convert HTML To JSON“ įrankis
+                      href: help/custom-help-toolkit-ConvertHtmlToJson.md
+                    - name: „HTML Locale Changer“ įrankis
+                      href: help/custom-help-toolkit-HtmlLocaleChanger.md
+                    - name: „Dynamics AX“ pasirinktinio žinyno konvertavimas naudoti „Dynamics 365“
+                      href: help/migrate-dynamicsax2012.md
+                - name: Kalbos ir lokalės aprašai produkte ir žinyne
+                  href: help/language-locale.md
+                - name: 'Žinyno išplėtimas, tinkinimas ir bendradarbiavimas jį kuriant'
+                  href: help/contributor-guide.md
         - name: Kūrimas ir tinkinimas
           items:
             - name: Kūrimo ir tinkinimo pagrindinis puslapis
@@ -835,7 +861,7 @@
                     - name: Išplečiamumo pakeitimai (8.0.1 versija)
                       href: extensibility/extensibility-changes-801.md
                     - name: Išplečiamumo pakeitimai 8.0 versijoje
-                      href: extensibility/changes-80.md
+                      href: extensibility/Changes-80.md
                     - name: Išplečiamumo pakeitimai 7.3 versijoje
                       href: extensibility/extensibility-changes-73.md
                     - name: "Išplečiamumo pakeitimai (2017\_m. liepos mėn.)"

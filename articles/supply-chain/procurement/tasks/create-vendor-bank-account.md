@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ab0a108b5c8b7f2f90a4d33d8a9ff088335c18d4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f8092ab7f960fd36515afb8448dfe1e262197595
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207669"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383141"
 ---
 # <a name="create-a-vendor-bank-account"></a>Sukurti tiekėjo banko sąskaitą
 
@@ -31,9 +31,9 @@ ms.locfileid: "3207669"
 
 1. Eikite į **Naršymo sritis > Moduliai > Įsigijimas ir išteklių paskirstymas > Tiekėjai > Visi tiekėjai**.
 2. Pasirinkite tiekėją, kuriam norite sukurti banko sąskaitą, tada spustelėkite saitą lauke **Tiekėjo kliento ID**.
-3. **Veiksmų sritis** spustelėkite **Tiekėjas**.
+3. **Veiksmų srityje** spustelėkite **Tiekėjas**.
 4. Spustelėkite **Banko sąskaitos**.
-5. **Veiksmų sritis** spustelėkite **Naujas**.
+5. **Veiksmų srityje** spustelėkite **Nauja**.
 6. Lauke **Banko sąskaita** įveskite reikšmę. Šis ID bus naudojamas siekiant identifikuoti tiekėjo įrašo banko kodą.  
 7. Lauke **Pavadinimas** įveskite reikšmę.
 8. Lauke **Banko grupės** įveskite arba pažymėkite reikšmę.

@@ -3,7 +3,7 @@ title: Parduotuvės atsargų valdymas
 description: Šioje temoje aprašyti dokumentų, kuriuos galite naudoti atsargoms valdyti, tipai.
 author: rubencdelgado
 manager: AnnBe
-ms.date: 04/23/2019
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,56 +18,54 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3f7f228bbf312a2ccdc96d3e95287898bee01de4
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a3e6450c358d12dc62c2ffa20e7ff529be86bbe5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023386"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379264"
 ---
 # <a name="store-inventory-management"></a>Parduotuvės atsargų valdymas
 
 [!include [banner](includes/banner.md)]
 
-Dirbant su atsargų programoje „Dynamics 365 Commerce“ ir naudojant EKA programą, svarbu atminti, kad atsargų dimensijų ir tam tikrų atsargų prekių tipų palaikymas EKA yra ribotas.
+Kai dirbate su atsargomis programoje „Microsoft Dynamics 365 Commerce“ ir naudojate elektroninio kasos aparato (EKA) programą, svarbu žinoti, kad EKA teikia ribotą kai kurių atsargų dimensijų ir kai kurių atsargų elementų prekių tipų palaikymą. EKA programa nepalaiko visų prekių konfigūracijos galimybių, kurios pasiekiamos naudojant prekių konfigūravimo parinktis programoje „Dynamics 365 Supply Chain Management“.
 
-EKA sprendimas nepalaiko tolesnių prekių konfigūracijų.
+Šiuo metu EKA sprendimas nepalaiko toliau nurodytų produktų dimensijų ir prekių konfigūracijų.
 
-- KS prekės (išskyrus rinkinio produktus, kurie naudoja keletą KS struktūros komponentų)
+- Produkto dimensijos ir KS prekių (išskyrus mažmeninės prekybos rinkinio produktus, kurie naudoja kai kuriuos KS sistemos komponentus) konfigūracija
 - Esamo svorio prekės
-- Paketo valdomos prekės
+- Versijos produkto dimensijos kontroliuojamos prekės
 
 Šiuo metu EKA programa nepalaiko toliau nurodytų dimensijų EKA.
 
 - Paketo sekimo dimensija
 - Savininko dimensija
 
-EKA sprendimas ribotai palaiko toliau nurodytas dimensijas. Ribotas palaikymas nurodo, kad EKA gali nustatyti kai kurių iš šių dimensijų numatytąsias reikšmes į atsargų operacijas automatiškai, atsižvelgiant į sandėlio / parduotuvės sąrankos konfigūraciją. EKA dimensijų išsamiai nepalaikys, kaip jos yra palaikomos, jei į ERP neautomatiniu būdu įvedama į pardavimo operacija. 
+EKA teikia ribotą toliau nurodytų dimensijų palaikymą. Kitaip tariant, EKA gali automatiškai įvesti kai kurias iš šių dimensijų į atsargų operacijas, atsižvelgiant į sandėlio / parduotuvės sąrankos konfigūraciją. EKA dimensijų išsamiai nepalaikys taip, kaip jos yra palaikomos, jei pardavimo operacija bus neautomatiniu būdu įvesta „Commerce“ pagrindiniame komponente. 
 
-- **Sandėlio vieta** – Vartotojai negalės valdyti priimančio sandėlio vietos prekėms, gautoms į parduotuvės sandėlį, kai parduotuvė nesukonfigūruota naudoti sandėlio valdymo procesą. Šioms prekėms bus naudojama numatytoji priėmimo vieta, nurodyta parduotuvės sandėlyje. Jei parduotuvės sandėlio valdymo procesas buvo įjungtas, bus pradėtas ribotas palaikymas, raginantis vartotoją pasirinkti priėmimo vietą visam priėmimui. Parduotuvėje parduodamos prekės bus visada parduodamos numatytoje vietoje, nurodytoje parduotuvės sandėlio sąrankoje. Grąžinamų atsargų tvarkymo vietą galima valdyti nurodant numatytąją grąžinimo vietą parduotuvės sandėlyje arba pagal grąžinimo priežasties kodus, nurodytus grąžinimo vietos politikoje.
-- **Numerio lentelė** – numerio lentelės taikomos tik kai parametras **Naudoti sandėlio valdymo procesą** įjungtas prekės ir parduotuvės sandėlyje. EKA atveju, jei atsargos priimamos į parduotuvės sandėlį, kuriame įgalintas sandėlio valdymo procesas, ir pasirinkta prekės priėmimo vieta susieta su vietos profiliu, kuriam būtina numerio lentelės kontrolė, EKA programa sistemiškai taikys numerio lentelę priėmimo linijai. EKA vartotojai negalės keisti arba valdyti šio numerio lentelės datos. Jei būtinas visapusiškas numerio lentelės valdymas, siūlome parduotuvei naudoti WMS mobiliąją programą arba biuro ERP klientą šių prekių priėmimui valdyti.
-- **Serijos numeris** – EKA programa turi ribotą palaikymą vienam serijos numeriui registruoti operacijos pardavimo linijoje užsakymams, sukurtiems EKA su eilutėmis išdėstytomis prekėmis. Šis serijos numeris nėra patikrintas pagal užregistruotus atsargose jau esančius serijos numerius. Jei pardavimo užsakymas sukurtas skambučių centro kanale arba įvykdytas per ERP ir keli serijos numeriai yra registruojami vienoje pardavimo eilutėje vykdant ERP vykdymo procesą, šie serijos numeriai negalės būti taikomi arba patikrinti, jei šių užsakymų grąžinimas yra apdorojamas EKA.
-- **Atsargų būsena** – prekėms, kurios naudoja sandėlio valdymo procesą ir kurioms reikalinga atsargų būsena, šis būsenos laukas negali būti nustatytas arba modifikuotas EKA programoje. Numatytoji atsargų būsena, nurodyta parduotuvės sandėlio konfigūracijoje, bus naudojama, kai prekės gaunamos į atsargas.
+- **Sandėlio vieta** – kai vartotojai naudoja naujas [gavimo operacijos](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) ir [siuntimo operacijos](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) EKA operacijas, jie gali pasirinkti sandėlio atsargų vietą, į kurią būtų galima gauti prekes arba iš kurios būtų galima siųsti siunčiamo perkėlimo užsakymo prekes. Jei jie naudoja seną operaciją **Paėmimas ir gavimas**, gavimo ir siuntimo perkėlimo užsakymams galimas ribotas vietos valdymo palaikymas. Palaikymas galimas tik tada, jei buvo įjungta prekės ir parduotuvės sandėlio parinktis **Naudoti sandėlio valdymo procesą**. Šiuo metu atsargų vietos negalima naudoti su operacija **Inventorizacija** arba operacija **Atsargų peržvalga**.
+- **Numerio lentelė** – numerio lentelės taikomos tik tada, kai įjungta prekės ir parduotuvės sandėlio parinktis **Naudoti sandėlio valdymo procesą**. EKA atveju, jei atsargos gaunamos į parduotuvės sandėlį, naudojant operaciją **Gavimo operacija** arba operaciją **Paėmimas ir gavimas**, kai sandėlio valdymo procesas įjungtas, ir jei vieta, į kurią buvo pasirinkta gauti prekę, yra susiejama su vietos profiliu, kuriam reikalinga numerio lentelės kontrolė, EKA programa sistemiškai taikys numerio lentelę gavimo eilutei. EKA vartotojai negali keisti arba tvarkyti šių numerio lentelės duomenų. Jei būtinas visapusiškas numerio lentelės valdymas, rekomenduojame parduotuvei naudoti [sandėliavimo programą](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) arba biuro klientą šių prekių priėmimui valdyti.
+- **Serijos numeris** – EKA programa reikia ribotą palaikymą vienam serijos numeriui registruoti pardavimo operacijos eilutėje tuose užsakymuose, kurie yra sukurti EKA ir turi serijos prekių. Šis serijos numeris nėra patikrintas pagal užregistruotus atsargose jau esančius serijos numerius. Jei pardavimo užsakymas sukurtas skambučių centro kanale arba įvykdytas per įmonės išteklių planavimo (ERP) modulį, ir keli serijos numeriai užregistruojami vienoje pardavimo eilutėje ERP vykdymo proceso metu, tie serijos numeriai negali būti taikomi arba tikrinami, jei apdorojamas EKA užsakymo grąžinimas. Kai atsargos gaunamos naudojant operaciją **Gavimo operacija**, vartotojai gali [užregistruoti arba patvirtinti gautus serijos numerius](https://docs.microsoft.com/dynamics365/commerce/pos-serialized-items).
+- **Atsargų būsena** – prekėms, kurios naudoja sandėlio valdymo procesą ir kurioms reikalinga atsargų būsena, šis būsenos laukas negali būti nustatytas arba modifikuotas EKA programoje. Numatytoji atsargų būsena, kuri yra apibrėžta parduotuvės sandėlio konfigūracijoje, naudojama, kai prekės gaunamos į atsargas.
 
 > [!NOTE]
-> Visos organizacijos turi patikrinti prekių konfigūracijas naudodamos EKA programavimo ar tikrinimo aplinkoje prieš jas diegdamos gamyboje. Tikrinkite prekes atlikdami reguliarias grynųjų pinigų pardavimo operacijas ir kurdami klientų užsakymus (jei taikoma) per EKA su savo prekėmis. Tikrinimas turi apimti išsamaus išrašo registravimo procesus tikrinimo aplinkoje ir patikrinimą, ar nėra problemų.
+> Visos organizacijos turi patikrinti prekių konfigūracijas naudodamos EKA programavimo ar tikrinimo aplinkoje prieš diegdamos jas gamybos aplinkose. Tikrinkite prekes panaudodami jas įprastoms grynųjų pinigų pardavimo operacijoms atlikti ir kurkite klientų užsakymus (jei taikoma) naudodami EKA. Taip pat prieš diegdami bet kokias naujas prekių konfigūracijas turite patikrinti EKA vykdymo ir atsargų procesus (pvz., atsargų gavimo ir užsakymų įvykdymo operacijas), kad įsitikintumėte, jog EKA programa gali juos palaikyti. Tikrinimo metu jūsų tikrinimo aplinkoje turi būti atliktas visas išrašų registravimo procesas ir turi būti patikrinta, ar kuriant ir „Commerce“ pagrindiniame komponente skelbiant šių prekių užsakymus nekyla problemų.
 >
-> Prekių konfigūravimas tokiu būdu, kurio nepalaiko EKA programa, tinkamai nepatikrinus, išrašo registravimo proceso metu gali kilti gamybos problemų ir jas išspręsti gali būti sudėtinga. Partnerio arba kliento programos tinkinimai gali būti taikomi pasirinktinai, kad šie registravimo procesai būtų sėkmingai užbaigti. Jei tinkinimai nėra būtini, organizacijos turi užtikrinti, kad produktų konfigūracijos būtų atliekamos tokiu būdu, kurį palaiko standartinė EKA programa / užsakymo kūrimas / išrašo registravimo procesas.
+> Jei EKA programa nepalaiko prekių konfigūracijos ir atitinkami patikrinimai nėra atlikti, užsakymo kūrimo proceso metu gali kilti problemų dėl duomenų gedimų, kurie nėra lengvai ištaisomi arba kuriems netaikomas standartinis produkto palaikymas.
 
 ## <a name="purchase-orders"></a>Pirkimo užsakymai
 
-Pirkimo užsakymai kuriami pagrindiniame biure. Jei į pirkimo užsakymo antraštę įtraukiamas sandėlis, užsakymą parduotuvėje galima gauti naudojant „Modern POS“ (MPOS) arba „Cloud POS“ per operaciją **Paėmimas / gavimas**. Kai iš parduotuvė priimti kiekiai įvedami į pirkimo užsakymo dokumento EKA lauką **Gauti dabar**, juos galima įrašyti vietoje arba užfiksuoti. Šių duomenų įrašymas vietoje neturi poveikio turimoms atsargoms. Įrašyti rekomenduojama, tik jei vartotojas nėra pasiruošęs registruoti gavimo kvito būstinėje ir tiesiog reikia būdo laikinai išsaugoti anksčiau įvestus duomenis **Gauti dabar**. Taip duomenys Gauti dabar įrašomi vietinėje vartotojo kanalo duomenų bazėje. Kai dokumentas apdorojamas naudojant parinktį **Fiksuoti**, duomenys **Gauti dabar** siunčiami į būstinę ir pirkimo užsakymo kvitas užregistruojamas. 
+Pirkimo užsakymai kuriami „Commerce“ pagrindiniame komponente. Jei parduotuvės sandėlis įtrauktas į pirkimo užsakymo antraštę arba pirkimo užsakymo eilutes, eilutes parduotuvėje galima gauti naudojant EKA operaciją [Gavimo operacija](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation). 
 
 ## <a name="transfer-orders"></a>Perkėlimo užsakymai
 
-Perdavimo užsakyme galima nurodyti, kad prekes galima išsiųsti tik iš konkrečios parduotuvės arba kur jus jos bus priimtos. Jei EKA vartotojas yra perdavimo užsakymo siuntimo sandėlys, jis galės įvesti **Siųsti dabar** kiekius programoje EKA. Siunčiančios parduotuvės gali būti įrašytos vietoje arba užfiksuotos. Įrašius vietoje perdavimo užsakymas būstinėje neatnaujinamas. Įrašyti rekomenduojama, tik jei vartotojas nėra pasiruošęs registruoti siuntimo kvito būstinėje ir reikia būdo laikinai išsaugoti anksčiau įvestus duomenis **Siųsti dabar**. Kai parduotuvė pasiruošusi patvirtinti siuntimą, reikia pasirinkti parinktį **Fiksuoti**. Taip išsiunčiamas būstinės perdavimo užsakymo siuntinys, kad priimantis sandėlys galės priimti pagal jį. 
-
-Jei EKA vartotojas yra perdavimo užsakymo priėmimo sandėlys, jis galės įvesti **Gauti dabar** kiekius programoje EKA. Priimančios parduotuvės gali būti įrašytos vietoje arba užfiksuotos. Įrašyti rekomenduojama, tik jei vartotojas nėra pasiruošęs registruoti gavimo kvito būstinėje ir reikia būdo laikinai išsaugoti anksčiau įvestus duomenis **Gauti dabar**. Taip duomenys Gauti dabar įrašomi vietinėje vartotojo kanalo duomenų bazėje. Kai dokumentas apdorojamas naudojant parinktį **Fiksuoti**, duomenys **Gauti dabar** siunčiami į būstinę ir perdavimo užsakymo kvitas užregistruojamas. Svarbu turėti omenyje, kad priimančiai parduotuvei bus galima tik fiksuoti gaunamus kiekius, kurie neviršija siunčiamų kiekių. Bandymas gauti perdavimo užsakymo kiekius, kurie dar nebuvo išsiųsti, sukels klaidas ir priėmimas nebus fiksuotas būstinėje.
+Perkėlimo užsakymai gali būti kuriami „Commerce“ pagrindiniame komponente arba EKA operaciją [Gavimo operacija](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) arba [Siuntimo operacija](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation). Norėdami kurti perkėlimo užsakymo užklausą, kad atsargos būtų siunčiamos į parduotuvę iš kitos sandėlio ar parduotuvės vietos, naudokite EKA operaciją **Gavimo operacija**. Norėdami kurti perkėlimo užsakymo užklausą, kad atsargos būtų siunčiamos iš parduotuvės į kitą sandėlio ar parduotuvės vietą, naudokite EKA operaciją **Siuntimo operacija**. Sukūrus parduotuvės perkėlimo užsakymą, ta parduotuvė gali valdyti perkėlimo užsakymo atsargų gavimą per EKA operaciją **Gavimo operacija**. Jei parduotuvė siunčia atsargas į kitą vietą, parduotuvės siuntimo procesui valdyti naudojama EKA operacija **Siuntimo operacija**.
 
 ## <a name="stock-counts"></a>Inventorizacijos
 
-Inventorizacijos gali būti planinės arba neplaninės. Planinės inventorizacijos inicijuojamos pagrindiniame biure, kuris nurodo, kurias prekes reikia skaičiuoti. Pagrindinis biuras sukuria inventorizavimo dokumentą, kurį galima gauti parduotuvėje, kurioje faktinių turimų atsargų kiekiai įvedami į MPOS arba debesies EKA. Neplaninės inventorizacijos inicijuojamos parduotuvėje, o faktinių turimų atsargų kiekiai atnaujinami MPOS arba debesies EKA. Skirtingai nei planinės inventorizacijos, neplaninės inventorizacijos neturi iš anksto apibrėžto prekių sąrašo. Alikus bet kurio tipo inventorizaciją, ji fiksuojama ir siunčiama į pagrindinį biurą. Pagrindiniame biure inventorizacija patikrinama ir registruojama atskiru veiksmu.
+Inventorizacijos gali būti planinės arba neplaninės. Suplanuoti inventorizacijos kuriamos „Commerce“ pagrindiniame komponente sukuriant inventorizacijos žurnalo dokumentą, susietą su parduotuvės sandėliu. Šis žurnalas nurodo prekes, kurios turi būti inventorizuotos. Tada parduotuvė gali pasiekti šiuos iš anksto apibrėžtus inventorizacijos žurnalus ir veikti pagal juos naudodama EKA operaciją **Inventorizacija**. Kai parduotuvės vartotojai naudoja EKA operaciją **Inventorizacija**, jie inicijuoja nesuplanuotą inventorizaciją, nes ji yra reikalinga. Skirtingai nei planinės inventorizacijos, neplaninės inventorizacijos neturi iš anksto apibrėžto prekių sąrašo. EKA alikus bet kurio tipo inventorizaciją, ji fiksuojama ir siunčiama į pagrindinį biurą. Tada pagrindiniame biure inventorizacija turi būti patikrinta ir užregistruota „Commerce“ pagrindiniame komponente kaip atskiras veiksmas.
 
 ## <a name="inventory-lookup"></a>Atsargų peržvalga
 
-Dabar keliose parduotuvėse ir sandėliuose turimą produktų kiekį galima peržiūrėti **atsargų peržvalgos** puslapyje. Neskaitant dabartinio turimo kiekio, galima pamatyti kiekvienos atskiros parduotuvės būsimus prieinamų atsargų (ATP) kiekius. Norėdami tai padaryti pasirinkite parduotuvę, kurios ATP norite peržiūrėti, ir tada spustelėkite **Rodyti parduotuvės pasiekiamumą**.
+Dabar keliose parduotuvėse ir sandėliuose turimą produktų kiekį galima peržiūrėti puslapyje **Atsargų peržvalga**. Neskaitant dabartinio turimo kiekio, galima pamatyti kiekvienos parduotuvės būsimus prieinamų atsargų (ATP) kiekius. Pasirinkite parduotuvę, kurios ATP kiekius norite peržiūrėti, tada pasirinkite **Rodyti parduotuvės pasiekiamumą**. Informacijos apie galimas konfigūracijos parinktis žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).

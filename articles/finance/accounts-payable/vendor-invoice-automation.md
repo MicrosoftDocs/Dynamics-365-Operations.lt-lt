@@ -3,7 +3,7 @@ title: Tiekėjo sąskaitų faktūrų automatizavimas
 description: Šioje temoje paaiškinamos funkcijos, pasiekiamos iki galo automatizuojant tiekėjų SF – net ir SF su priedais.
 author: abruer
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 05/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ba986afb5c17c7a317b47d1e9cf4ae57ac29da97
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4560d7b61fa8f014f9a1185da087df8b1c8e61ba
+ms.sourcegitcommit: b7af921189048d9f2eb4d3fd57c704c742bc96e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179091"
+ms.lasthandoff: 05/23/2020
+ms.locfileid: "3396014"
 ---
 # <a name="vendor-invoice-automation"></a>Tiekėjo sąskaitų faktūrų automatizavimas
 
@@ -61,7 +61,7 @@ Duomenų paketas yra darbo vienetas, kuris turi būti išsiųstas, kad būtų ga
 
 Tiekėjo SF dokumento priedas yra naujas duomenų objektas, pristatomas kaip šios funkcijos dalis. Tiekėjo SF antraštės objektas buvo pakeistas, kad palaikytų priedus. Tiekėjo SF eilutės objektas nebuvo modifikuotas šioje funkcijoje.
 
-Šioje temoje nėra išsamaus duomenų paketo apibrėžimo. Joje taip pat nepaaiškinta, kaip sukurti duomenų paketus. Šią informaciją rasite [Duomenų objektų ir paketų sistema](../../dev-itpro/data-entities/data-entities-data-packages.md).
+Išsamios informacijos apie duomenų paketus žr. [Duomenų valdymo apžvalga](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md). Informacijos apie tai, kaip kurti duomenų paketus naudojant duomenų valdymo darbo sritį, žr. [Duomenų paketų apdorojimas ir naudojimas „Dynamics 365 Finance and Operations“ programų sprendime](../../fin-ops-core/dev-itpro/lcs-solutions/process-data-packages-lcs-solutions.md).
 
 Norėdami greitai sugeneruoti bandymo duomenis, kurie apima SF ir priedus, atlikite šiuos veiksmus.
 

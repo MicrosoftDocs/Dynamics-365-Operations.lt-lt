@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e76c123ffbeb33cbc3ba01b4b2758208ed0c445f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 66b6b365958820a76f733df5eb2aabf6c3c4ebac
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204222"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383509"
 ---
 # <a name="check-the-availability-of-stock"></a>Tikrinti turimas atsargas
 
@@ -35,7 +35,7 @@ ms.locfileid: "3204222"
 2. Pasirinkti eilutę **Prekių skaičius**. Norėdami teikti užklausą dėl turimų atsargų pagal prekės numerį, pasirinkite eilutę, kurioje lentelė nustatyta į **Turimos atsargos**, o laukas nustatytas į **Prekės** numeris.
 3. Lauke **Kriterijai** pasirinkite prekę, dėl kurios norite pateikti užklausą. Jei naudojate demonstracinių duomenų įmonę USMF, galite pasirinkti „M9201‟.  
 4. Spustelėkite **Gerai**.
-5. **Veiksmų srityje** spustelėkite **Dimensijos**. Skirtukas **Dimensijos** leidžia pasirinkti, kiek informacijos apie turimas atsargas norite matyti. Jei reikia duomenų, susijusių su rezervavimu, turite vaizduoti visas prekių, naudojančių patobulintus sandėlio (WHS) procesus, atsargų dimensijas.
+5. **Veiksmų srityje** spustelėkite **Dimensijos**. Skirtukas **Dimensijos** leidžia pasirinkti, kiek informacijos apie turimas atsargas norite matyti. Jei reikia duomenų, susijusių su rezervavimu, turite vaizduoti visas prekių, naudojančių patobulintus sandėlio (WMS) procesus, atsargų dimensijas.
 6. Spustelėkite **Gerai**.
 7. **Veiksmų srityje** spustelėkite **Susijusi informacija**. Jei tokios parinkties nematote, gali reikėti spustelėti ant elipsės mygtuko (...), kad matytumėte papildomų veiksmų srities parinkčių.
 8. Spustelėkite **Tiekimo apžvalga**. Skirtuke **Tiekimo apžvalga** pateikiama konkrečios prekės tiekimo informacija, pvz., turimas kiekis, gamybos laikas ir tiekėjo informacija.  

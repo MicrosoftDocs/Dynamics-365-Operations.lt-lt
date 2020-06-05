@@ -1,5 +1,5 @@
 ---
-title: Žinyno ištekliai „Supply Chain Management“
+title: „Supply Chain Management“ pagrindinis puslapis
 description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
 author: josaw1
 manager: tfehr
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 014b5db6efc15fbed7401d9a857586912c7578f2
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
+ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201530"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "3386392"
 ---
-# <a name="help-resources-for-supply-chain-management"></a>Žinyno ištekliai „Supply Chain Management“
+# <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
 [!include [banner](includes/banner.md)]
 
@@ -42,8 +42,9 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [Kaštų apskaita](../finance/cost-accounting/cost-accounting-home-page.md)
 - [Kaštų valdymas](cost-management/cost-management-home-page.md)  
 - [Atsargų valdymas](inventory/inventory-home-page.md)
+- [IoT įžvalgos](iot/iot-intelligence-home-page.md)
 - [Bendrasis planavimas](master-planning/master-planning-home-page.md)
-- [Paraiškos](procurement/procurement-sourcing-overview.md)
+- [Įsigijimas ir šaltinio pasirinkimas](procurement/procurement-sourcing-overview.md)
 - [Produkto informacijos valdymas](pim/product-information.md)
 - [Gamybos kontrolė](production-control/production-process-overview.md)
 - [Pardavimas ir rinkodara](sales-marketing/overview-sales-marketing.md)

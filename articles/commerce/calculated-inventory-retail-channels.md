@@ -3,7 +3,7 @@ title: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 description: Šioje temoje aprašomos parinktys, kurias galima naudoti, kad būtų rodomos parduotuvės ir interneto kanalų turimos atsargos.
 author: hhainesms
 manager: annbe
-ms.date: 02/25/2020
+ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 5b85438bc23e8f6cef0730dee9ac2c7f6dc26589
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
+ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113925"
+ms.lasthandoff: 05/15/2020
+ms.locfileid: "3379241"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
@@ -50,12 +50,7 @@ Abi šios API teikia duomenis iš „Commerce Server“ ir nurodo tam tikro prod
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Pradėkite naudoti el. prekybos apskaičiuotą atsargų pasiekiamumą
 
-Prieš pradėdami naudoti dvi anksčiau paminėtas API, turite pakeisti „Commerce Headquarters“ parametrą, kad užtikrintumėte, jog į atsargų verčių, kurias „Commerce Headquarters“ apskaičiuoja naudodama užduotį **Produkto pasiekiamumas**, momentinę kopiją patenka tinkamų lentelių duomenys.
-
-Norėdami nustatyti parametrus, atlikite toliau nurodytus veiksmus.
-
-1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**.
-1. Skirtuke **Atsargos**, dalyje **Produkto pasiekiamumo užduotis**, pasirinkite **Naudoti optimizuotą produkto pasiekiamumo užduoties procesą**. Šis parametras užtikrina, kad būtų naudojamas optimalus funkcijų rinkinys kanalo galimoms atsargoms apskaičiuoti per „Commerce“ serverį.
+Prieš pradėdami naudoti dvi anksčiau paminėtas API, turite įjungti funkciją **Optimizuotas produkto prieinamumo skaičiavimas** naudodami „Commerce“ pagrindinio komponento darbo sritį **Funkcijų valdymas**.
 
 Kad API galėtų tiksliai apskaičiuoti prekės atsargų pasiekiamumą, „Commerce Headquarters“ turi būti padaryta momentinė turimų atsargų kopija ir nusiųsta į kanalo duomenų bazę, kurią naudoja el. prekybos „Commerce Scale Unit“. Momentinė kopija rodo informaciją, kurią „Commerce Headquarters“ turi apie atsargų pasiekiamumą pagal tam tikrą produktą arba produkto variantą ir sandėlį. Joje gali būti ir atsargų koregavimai arba perkėlimai, kuriuos sukėlė atsargų gavimai, siuntimai arba kiti procesai, atlikti „Commerce Headquarters“ ir žinomi el. prekybos kanalui tik dėl sinchronizavimo proceso.
 
@@ -85,20 +80,15 @@ Kai kanalo skaičiavimas tinkamai sukonfigūruotas ir valdomas, jis gali teikti 
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Pradėkite naudoti EKA kanalo apskaičiuotą atsargų pasiekiamumą
 
-Norėdami naudoti kanalo skaičiavimo logiką ir išjungti atsargų peržvalgos paslaugos realiu laiku iškvietas iš EKA programos, pirmiausia turite atlikti du parametro pakeitimus. Tada turite sinchronizuoti kanalo keitimus su paskirstymo grafiko procesu.
+Norėdami naudoti kanalo skaičiavimo logiką ir išjungti atsargų peržvalgos paslaugos realiu laiku iškvietas iš EKA programos, pirmiausia turite įjungti funkciją **Optimizuotas produkto prieinamumo skaičiavimas** naudodami „Commerce” pagrindinio komponento darbo sritį **Funkcijų valdymas**. Be funkcijos įjungimo, turite atlikti **funkcijų šablono** pakeitimus.
 
-Norėdami nustatyti pirmą parametrą, atlikite toliau nurodytus veiksmus.
-
-1. Eikite į **Mažmeninė prekyba ir prekyba \> „Headquarters“ sąranka \> Parametrai \> „Commerce“ bendrinami parametrai**.
-1. Skirtuke **Atsargos**, dalyje **Produkto pasiekiamumo užduotis**, pasirinkite **Naudoti optimizuotą produkto pasiekiamumo užduoties procesą**. Šis parametras užtikrina, kad būtų naudojamas optimalus funkcijų rinkinys kanalo galimoms atsargoms apskaičiuoti per „Commerce“ serverį.
-
-Norėdami nustatyti antrą parametrą, atlikite toliau nurodytus veiksmus.
+Norėdami pakeisti **funkcijų profilį**, atlikite toliau nurodytus veiksmus.
 
 1. Eikite į **„Retail and Commerce“\> Kanalo sąranka \> EKA sąranka \> EKA profiliai \> Funkcionalumo profiliai**.
 1. Pasirinkite funkcijų šabloną.
 1. „FastTab“ **Funkcijos**, skyriuje **Atsargų pasiekiamumo skaičiavimas**, pakeiskite lauko **Atsargų pasiekiamumo skaičiavimo būdas** vertę iš **Paslauga realiu laiku** į **Kanalas**. Pagal numatytuosius parametrus visi funkcijų profiliai naudoja paslaugos realiu laiku iškvietimus. Todėl, jei norite naudoti kanalo skaičiavimo logiką, turite pakeisti šio lauko vertę. Atlikus šį pakeitimą bus paveiktos visos mažmeninės prekybos parduotuvės, kurios yra susijusios su pasirinktu funkcijų šablonu.
 
-Norėdami atnaujinti serverius, atlikite toliau nurodytus veiksmus.
+Tada turite sinchronizuoti kanalo keitimus naudodami paskirstymo grafiko procesą ir atlikdami tolesnius veiksmus.
 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
 1. Vykdykite **1070** (**Kanalo konfigūracija**) užduotį.
