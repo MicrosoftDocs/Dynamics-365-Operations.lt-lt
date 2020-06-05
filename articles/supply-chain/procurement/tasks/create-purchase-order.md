@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 26112a9d25c0097bdbf30003247ce6dd4b4fb634
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7ed359521dd018047fdbd5312d0cb73d764de925
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204889"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383233"
 ---
 # <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
 
@@ -68,7 +68,7 @@ ms.locfileid: "3204889"
 ## <a name="review-order-totals"></a>Užsakymo bendrųjų sumų peržiūra
 1. Pasirinkite **Bendrosios sumos**.
 
-    - Jei nematote veiksmo **Bendrosios sumos**, veiksmų juostoje pažymėkite skirtuką **Pirkimo užsakymas**.  
+    - Jei nematote veiksmo **Bendrosios sumos**, veiksmų srityje pažymėkite skirtuką **Pirkimo užsakymas**.  
     - Šiame dialogo lange rodomos viso užsakymo bendrosios sumos.  
     - Laukas **Pasirinkimas** leidžia keisti pagrindą, pagal kurį skaičiuojamos bendrosios sumos. Pavyzdžiui, galite pasirinkti **Produkto gavimo kiekis**, kad būtų rodomos bendrosios sumos, susijusios su gauto (-ų) produkto (-ų) kiekiu, arba **Užsakytas kiekis**, kad būtų rodomas užsakytas produkto kiekis.  
 

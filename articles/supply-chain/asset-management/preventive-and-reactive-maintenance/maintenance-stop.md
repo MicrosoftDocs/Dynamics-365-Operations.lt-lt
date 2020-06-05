@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8946baa4597ad4b696bcb6bcc49d4202163a41a9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c1b219d352b6b090c5c2cd3c063d7f890beaa35c
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214872"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383532"
 ---
 # <a name="maintenance-downtime"></a>Prižiūrimo turto prastova
 
@@ -92,7 +92,7 @@ Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos 
 
 15. Jei reikia, dialogo lange **Apskaičiuoti elemento prognozę**redaguokite pradžios ir pabaigos laikus ir pasirinkite, ar norite į skaičiavimą įterpti darbo užsakymus ir priežiūros grafikus. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti skaičiuojant pajėgumą. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, tai visas turtas, skirtas funkcinei vietai ir pasirinktas prižiūrimo turto prastovos veiklai, bus rodomas viršuje, todėl valandas į eilutę galėsite įtraukti iš žemiau esančių funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, pajėgumo eilutes.
 
-16. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**. Bendras elemento prognozių skaičius, rodomas apžvalgoje **Elemento prognozė**. Skirtuke **Elemento prognozė** > veiksmų srities grupėse **Grupuoti pagal..**. spustelėkite atitinkamus mygtukus, norėdami gauti išsamesnę prognozuojamų elementų paskirstymo apžvalgą. Toliau esančiame paveikslėlyje pavaizduoti **Elemento prognozė** rezultatai.
+16. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**. Bendras elemento prognozių skaičius, rodomas apžvalgoje **Elemento prognozė**. Skirtuke **Elemento prognozė** > veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, norėdami gauti išsamesnę prognozuojamų elementų paskirstymo apžvalgą. Toliau esančiame paveikslėlyje pavaizduoti **Elemento prognozė** rezultatai.
 
 ![4 pav.](media/22-preventive-maintenance.png)
 

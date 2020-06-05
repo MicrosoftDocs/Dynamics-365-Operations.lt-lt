@@ -1,9 +1,9 @@
 ---
 title: Vaizdo įrašai
-description: Šiame puslapyje pateikiami „Microsoft“ sukurti su „Finance and Operations“ programomis susiję mokomieji ir techniniai vaizdo įrašai, pasiekiami „YouTube“ ir kitose svetainėse.
+description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Finance and Operations“ programomis, pasiekiami „YouTube“ ir kitose svetainėse.
 author: josaw1
 manager: AnnBe
-ms.date: 11/11/2019
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 00ea8de8ba0567e8cc086a754062b3fec9672937
-ms.sourcegitcommit: 0138b6c108a10f2bcb90c91205da8092917160d8
+ms.openlocfilehash: f5e7751b71c75f80f1c3031ef00b32e80e7db42a
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781855"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367134"
 ---
 # <a name="videos"></a>Vaizdo įrašai 
 
@@ -33,9 +33,9 @@ ms.locfileid: "2781855"
 > [!Note]
 > Kai kurie iš minėtų vaizdo įrašų buvo publikuojami naudojant ankstesnį produkto pavadinimą, bet jie vis tiek aktualūs.
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a>Vaizdo įrašai apie „Finance and Operations“ kūrimą ir administravimą
+## <a name="videos-for-finance-and-operations-development-and-administration"></a>„Finance and Operations“ programų vaizdo įrašų kūrimas ir administravimas
 
-### <a name="data-integration"></a>Duomenų integravimas
+### <a name="data-integration"></a>Duomenų integracija
 
 - [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg)
 - [„Dynamics 365 for Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“ programomis](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
@@ -55,8 +55,8 @@ ms.locfileid: "2781855"
 ### <a name="intelligence"></a>Įžvalgos
 
 - [Kaip redaguoti analizės įdėtąją ataskaitą analitinėje darbo srityje](https://youtu.be/_8WlwmSggcQ)
-- [Kaip įdėti „PowerBI.com“ ataskaitas „Finance and Operations“ programose](https://youtu.be/gGWuNJDoi-M)
-- [Savo duomenų bazės naudojimas (BYOD) „Finance and Operations“ programose](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Kaip įdėti PowerBI.com ataskaitas „Finance and Operations“ programose](https://youtu.be/gGWuNJDoi-M)
+- [Savo duomenų bazės (BYOD) naudojimas „Finance and Operations“ programose](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
 - [Kaip naudoti išlaidų valdymo „Power BI“ turinį programoje „Dynamics 365“](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 ### <a name="lifecycle-services-lcs"></a>„ Lifecycle Services“ (LCS)
@@ -77,8 +77,14 @@ ms.locfileid: "2781855"
 - [Naujos platformos leidimo po 3-iojo platformos naujinimo naudojimas](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
 - [Telemetrijos naudojimas pagrindiniams efektyvumo skaitikliams „Dynamics Lifecycle Services“ stebėti](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
+### <a name="regression-suite-automation-tool-rsat"></a>„Regression Suite Automation Tool“ (RSAT)
 
-## <a name="videos-for-dynamics-365-finance"></a>Vaizdo įrašai apie „Dynamics 365 Finance“
+- [Kaip naudoti užduočių įrašymo priemonę norint sukurti „Regression Suite Automation Tool“ (RSAT) testavimo atvejį](https://youtu.be/bBr4BXAxTNI)
+- [Kaip sukurti testavo planą „Azure DevOps“, kad jį būtų galima naudoti su „Regression Suite Automation Tool“ (RSAT)](https://youtu.be/3jIuBleAnQk) 
+- [Kaip naudoti „Regression Suite Automation Tool“ (RSAT)](https://youtu.be/uhN9JItzGAk)
+
+
+## <a name="videos-for-dynamics-365-finance"></a>„Dynamics 365 Finance“ vaizdo įrašai
 
 ### <a name="customize-the-app"></a>Tinkinti programą
 - [Įtraukti pasirinktinių laukų](https://www.youtube.com/watch?v=gWSGZI9Vtnc)

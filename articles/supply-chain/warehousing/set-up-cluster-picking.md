@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daf8bc65dc937962e2e08b6f25805ddd3b8ee3c5
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 86aed1b2071875117b74309030ac5e9008babdaf
+ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204291"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "3367412"
 ---
-[!include[banner](../includes/banner.md)]
-
 # <a name="set-up-cluster-picking"></a>Klasterio paėmimo nustatymas
+
+[!include[banner](../includes/banner.md)]
 
 Šioje temoje aprašoma, kaip leisti darbuotojams naudotis savo mobiliaisiais įrenginiais norint grupuoti paėmimo darbą, kad vienu metu iš vienos vietos būtų galima paimti keleto darbo užsakymų prekes. Tai vadinama *klasterio paėmimu*.
 
@@ -36,35 +36,35 @@ Pateikus darbo užsakymus į sandėlį, darbuotojas gali naudoti mobilųjį įre
 
 Jei reikia, darbuotojas gali perduoti klasterį kitam darbuotojui. Tada klasterio būsena pakeičiama į Perduota. Kai darbuotojas naudoja mobilųjį įrenginį norėdamas nurodyti, kad paėmimo ir atidėjimo darbas baigtas, siuntą arba krovinį reikia patvirtinti kliente.
 
-## <a name="set-up-cluster-picking"></a>Klasterio paėmimo nustatymas
+## <a name="enable-cluster-picking"></a>Klasterio paėmimo įgalinimas
 
 Norėdami įgalinti klasterio paėmimą, turite nustatyti taip:
 
--   **Klasterio šablonai** – nurodykite, ar norite automatiškai sugeneruoti klasterio ID, naudotinų padėčių skaičių, kada klasterius skaidyti ir kaip nuosekliai išdėstyti bei patikrinti paėmimo darbą.
+- **Klasterio šablonai** – nurodykite, ar norite automatiškai sugeneruoti klasterio ID, naudotinų padėčių skaičių, kada klasterius skaidyti ir kaip nuosekliai išdėstyti bei patikrinti paėmimo darbą.
 
--   **Darbo šablonai** – apibrėžkite, kaip sukurti klasterio paėmimo darbą.
+- **Darbo šablonai** – apibrėžkite, kaip sukurti klasterio paėmimo darbą.
 
--   **Vietos nurodymai** – nurodykite, iš kur prekes paimti ir kur jas padėti.
+- **Vietos nurodymai** – nurodykite, iš kur prekes paimti ir kur jas padėti.
 
--   **Mobiliojo įrenginio meniu elementai** – sukonfigūruokite mobiliojo įrenginio meniu elementą norėdami naudoti esamą darbą, kurį nurodo klasterio paėmimas. Tada turite įtraukti meniu elementą į mobiliojo įrenginio meniu, kad jis būtų rodomas mobiliuosiuose įrenginiuose.
+- **Mobiliojo įrenginio meniu elementai** – sukonfigūruokite mobiliojo įrenginio meniu elementą norėdami naudoti esamą darbą, kurį nurodo klasterio paėmimas. Tada turite įtraukti meniu elementą į mobiliojo įrenginio meniu, kad jis būtų rodomas mobiliuosiuose įrenginiuose.
 
--   **Sandėlio valdymo parametrai** – nurodykite numeraciją, naudotiną norint sugeneruoti klasterių identifikatorius.
+- **Sandėlio valdymo parametrai** – nurodykite numeraciją, naudotiną norint sugeneruoti klasterių identifikatorius.
 
 ## <a name="set-up-a-cluster-profile"></a>Klasterio šablono nustatymas
 
 Norėdami nustatyti klasterio šabloną atlikite šiuos veiksmus:
 
-1.  Spustelėkite **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Klasterio šablonai**.
+1. Spustelėkite **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Klasterio šablonai**.
 
-2.  Norėdami sukurti naują šabloną spustelėkite **Naujas**.
+1. Norėdami sukurti naują šabloną spustelėkite **Naujas**.
 
-3.  Spustelėję **Sukurti klasterį**, o po to srityje **Klasterio rūšiavimas** spustelėję **Naujas** nustatykite klasterio rūšiavimo kriterijus. Rūšiavimo kriterijai valdo tvarką, kuria darbuotojas atliks paėmimo darbą. Galite įtraukti tiek kriterijų, kiek reikia.
+1. Spustelėję **Sukurti klasterį**, o po to srityje **Klasterio rūšiavimas** spustelėję **Naujas** nustatykite klasterio rūšiavimo kriterijus. Rūšiavimo kriterijai valdo tvarką, kuria darbuotojas atliks paėmimo darbą. Galite įtraukti tiek kriterijų, kiek reikia.
 
-4.  Lauke **Eilės numeris** įveskite skaičių norėdami apibrėžti rūšiavimo kriterijų apdorojimo tvarką.
+1. Lauke **Eilės numeris** įveskite skaičių norėdami apibrėžti rūšiavimo kriterijų apdorojimo tvarką.
 
-5.  Lauke **Lauko pavadinimas** pasirinkite lauką, kuris nustatys rūšiavimą. Pavyzdžiui, jei pasirenkate lauką **WMSLocationId**, darbas bus rūšiuojamas pagal vietą.
+1. Lauke **Lauko pavadinimas** pasirinkite lauką, kuris nustatys rūšiavimą. Pavyzdžiui, jei pasirenkate lauką **WMSLocationId**, darbas bus rūšiuojamas pagal vietą.
 
-6.  Lauke **Rūšiavimas** pasirinkite vieną iš toliau nurodytų pasirinkčių.
+1. Lauke **Rūšiavimas** pasirinkite vieną iš toliau nurodytų pasirinkčių.
 
 | **Parinktis**     | **Aprašas**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -77,6 +77,6 @@ Kai taikomas klasterio pasirinkimas, būtina patvirtinti prekes, kad būtų gali
 
 ### <a name="set-up-item-verification-with-cluster-picking"></a>Prekės patikrinimo nustatymas atliekant klasterio parinkimą
 
-1.  Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** \> **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Mobiliojo įrenginio meniu elementai**.
+1. Mobiliojo įrenginio meniu elemente atidarykite darbo patvirtinimo sąrankos formą: **Sandėlio valdymas** \> **Sandėlio valdymas** \> **Sąranka** \> **Mobilusis įrenginys** \> **Mobiliojo įrenginio meniu elementai**.
 
-2.  Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**. Naudodamiesi parinktimi **Produkto patvirtinimas** mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.
+1. Mobiliojo įrenginio meniu elemente atidarykite **Darbo patvirtinimo sąranka**. Naudodamiesi parinktimi **Produkto patvirtinimas** mobiliuoju įrenginiu nuskaitydami galite patikrinti kiekvieną atsargų dalį.

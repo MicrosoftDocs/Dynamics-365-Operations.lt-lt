@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e6a29dce877a53d125c5a151da6cfbb13d46b29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0d157470527a986ea1c9fe0a9a02e2ba6ee8819e
+ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201599"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3383003"
 ---
 # <a name="set-up-shipping-carriers"></a>Siuntų vežėjų nustatymas
 
@@ -32,7 +32,7 @@ ms.locfileid: "3201599"
 
 ## <a name="create-a-new-shipping-carrier"></a>Kurti naują siuntų vežėją
 1. Eikite į **Naršymo sritis > Moduliai > Transportavimo valdymas > Sąranka > Vežėjai > Siuntų vežėjai**.
-2. Veiksmų srityje pasirinkite **Naujas**.
+2. Veiksmų srityje pasirinkite **Nauja**.
 3. Lauke **Siuntų vežėjas** įveskite reikšmę.
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Lauke **Būdas** išplečiamajame meniu pažymėkite parinktį.

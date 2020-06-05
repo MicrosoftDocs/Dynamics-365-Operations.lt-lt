@@ -1,9 +1,9 @@
 ---
 title: Produkto varianto matavimo vieneto konvertavimas
-description: Šioje temoje paaiškinama, kaip galima nustatyti produkto variantų matavimo vienetą.
+description: Šioje temoje paaiškinama, kaip nustatyti produkto variantų matavimo vienetų konvertavimus. Joje pateikiamas nustatymo pavyzdys.
 author: johanhoffmann
 manager: tfehr
-ms.date: 01/06/2020
+ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,71 +17,93 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e50be7fa6fa686a90b2dd5c5200c881e4629f019
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
+ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204498"
+ms.lasthandoff: 05/18/2020
+ms.locfileid: "3382802"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Produkto varianto matavimo vieneto konvertavimas
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip galima nustatyti produkto variantų matavimo vienetą. Joje pateikiamas nustatymo pavyzdys.
+Šioje temoje paaiškinama, kaip nustatyti įvairių produkto variantų matavimo vienetų konvertavimus.
 
-Ši funkcija leidžia įmonėms nustatyti skirtingų vienetų konvertavimą tarp to paties produkto variantų. Šioje temoje naudojamas toliau pateiktas pavyzdys. Įmonė parduoda mažo, vidutinio, didelio ir labai didelio dydžio marškinėlius. Marškinėliai apibrėžiami kaip produktas, o skirtingi dydžiai – kaip produkto variantai. Marškinėliai supakuoti dėžėse, o vienoje dėžėje jų gali būti penkeri, išskyrus labai didelio dydžio marškinėlius, kurie į dėžę telpa tik ketveri. Įmonė nori sekti skirtingų variantų marškinėlius pagal vienetą **Vienetai**, tačiau pardavinėja marškinėlius pagal vienetą **Dėžės**. Konvertavimo santykis tarp atsargų vieneto ir pardavimo vieneto yra 1 dėžė = 5 vienetai, išskyrus labai didelio dydžio variantą, kur santykis yra 1 dėžė = 4 vienetai.
+Užuot kūrę kelis atskirus produktus, kuriuos reikia prižiūrėti, galite naudoti produkto variantus, kad sukurtumėte vieno produkto variantus. Pavyzdžiui, produkto variantas gali būti nurodyto dydžio ir spalvos marškinėliai.
 
-### <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Nustatyti produkto varianto vieneto konvertavimą
+Anksčiau vienetų konvertavimus buvo galima nustatyti tik bendrajam produktui. Todėl visi produkto variantai turėjo tokias pačias vienetų konvertavimo taisykles. Tačiau kai įjungta funkcija *Produkto variantų matavimo vieneto konvertavimas*, jei jūsų marškinėliai parduodami dėžėse, o marškinėlių skaičius, kurį galima supakuoti dėžėje, priklauso nuo marškinėlių dydžio, dabar galite nustatyti skirtingų marškinėlių dydžių ir pakavimui naudojamų dėžių vienetų konvertavimus.
 
-Produkto variantus galima kurti tik produktams, kurių **Produkto potipis**: **Bendrasis produktas**. Daugiau informacijos žr. [Bendrojo produkto kūrimas](tasks/create-product-master.md).
+## <a name="turn-on-the-feature-in-your-system"></a>Funkcijos įjungimas sistemoje
 
-Funkcija neįgalinta produktams, kurie nustatyti esamo svorio procesams. 
+Jeigu šios funkcijos savo sistemoje dar nematote, eikite į dalį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) ir įjunkite funkciją *Produkto variantų matavimo vieneto konvertavimas*.
 
-Sukūrus bendrąjį produktą su išleistų produktų variantais, galima nustatyti vieneto konvertavimą pagal variantus. Galite rasti meniu elementą vieneto konvertavimo puslapiui atidaryti pagal toliau nurodytuose puslapiuose esantį produktą arba produkto variantą.
+## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Nustatyti produkto varianto vieneto konvertavimą
 
--   Puslapis **Produkto informacija**
--   Puslapis **Išleistų produktų informacija**
--   Puslapis **Išleisto produkto variantai**
+Produkto variantus galima kurti tik bendriesiems produktams. Daugiau informacijos žr. [Bendrojo produkto kūrimas](tasks/create-product-master.md). Produktams, kurie nustatyti esamo svorio procesams, funkcija *Produkto variantų matavimo vieneto konvertavimas* negalima.
 
-Atidarydami puslapį **Vieneto konvertavimas** pagal bendrąjį produktą arba išleisto produkto variantą, galite pasirinkti, ar norite nustatyti produkto arba produkto varianto vieneto konvertavimą. Tai atlikti galite pasirinkdami **Produkto variantas** arba **Produktas** lauke **Sukurti konvertavimą, skirtą**.
+Norėdami konfigūruoti bendrąjį produktą, kad būtų palaikomas kiekvieno varianto vienetų konvertavimas, atlikite toliau nurodytus veiksmus.
 
-### <a name="product-variant"></a>Produkto variantas
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Bendrieji produktai**.
+1. Kurkite arba atidarykite bendrąjį produktą, jei norite eiti į jo puslapį **Produkto informacija**.
+1. Nustatykite parinkties **Įjungti matavimo vienetų konvertavimą** reikšmę kaip *Taip*.
+1. Veiksmų srities skirtuko **Produktas** grupėje **Nustatyti** pasirinkite **Vienetų konvertavimas**.
+1. Atidaromas puslapis **Vienetų konvertavimas**. Pasirinkite vieną iš toliau nurodytų skirtukų.
 
-Pasirinkę **Produkto variantas**, galite pasirinkti, kuriam variantui norite nustatyti vieneto konvertavimą lauke **Produkto variantas**.
+    - **Vidiniai klasės konvertavimai** – pasirinkite šį skirtuką, jei norite konvertuoti vienetus, kurie priklauso tai pačiai vieneto klasei.
+    - **Tarpklasiniai konvertavimai** – pasirinkite šį skirtuką, jei norite konvertuoti vienetus, kurie priklauso skirtingoms vienetų klasėms.
 
-### <a name="product"></a>Produktas
+1. Norėdami įtraukti naują vieneto konvertavimą, spustelėkite **Naujas**.
+1. Lauke **Sukurti konvertavimą, skirtą** nustatykite vieną iš toliau nurodytų reikšmių.
 
-Pasirinkę **Produktas**, galite nustatyti bendrojo produkto vieneto konvertavimą. Šis vieneto konvertavimas bus taikomas visiems produkto variantams, kurių vieneto konvertavimas neapibrėžtas.
+    - **Produktas** – jei pasirinksite šią reikšmę, galite nustatyti bendrojo produkto vieneto konvertavimą. Toks vieneto konvertavimas bus naudojamas kaip atsarginis visų produkto variantų, kuriems neapibrėžtas vienetų konvertavimas, konvertavimo būdas.
+    - **Produkto variantas** – jei pasirinksite šią reikšmę, galite nustatyti konkretaus produkto varianto vieneto konvertavimą. Norėdami pasirinkti variantą, naudokite lauką **Produkto variantas**.
 
-### <a name="example"></a>Pavyzdys
+    ![Naujo vieneto konvertavimo įtraukimas](media/uom-new-conversion.png "Naujo vieneto konvertavimo įtraukimas")
 
-Bendrasis produktas **Marškinėliai** turi keturis išleistų produktų variantus: mažą, vidutinį, didelį ir labai didelį. Marškinėliai supakuoti dėžėse, o vienoje dėžėje jų gali būti penkeri, išskyrus labai didelio dydžio marškinėlius, kurie į dėžę telpa tik ketveri.
+1. Vienetų konvertavimui nustatyti naudokite kitus pateikiamus laukus.
+1. Norėdami įrašyti naują vieneto konvertavimą, pasirinkite **Gerai**.
 
-Pirmiausia atidarykite puslapį **Vieneto konvertavimas**, esantį **marškinėliams** skirtame išleisto produkto informacijos puslapyje.
+> [!TIP]
+> Produkto arba produkto varianto puslapį **Vienetų konvertavimas** galite atidaryti iš bet kurio iš toliau nurodytų puslapių.
+> 
+> - Produkto informacija
+> - Patvirtintų produktų informacija
+> - Patvirtinto produkto variantai
 
-Puslapyje **Vieneto konvertavimas** nustatykite išleisto produkto varianto Labai didelis vieneto konvertavimą.
+## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-| **Laukas**             | **Parametras**             |
-|-----------------------|-------------------------|
-| Sukurti konvertavimą, skirtą | Produkto variantas         |
-| Produkto variantas       | Marškinėliai : : Labai didelis : : |
-| Iš vieneto             | Dėžės                   |
-| Koeficientas                | 4                       |
-| Į vienetą               | Dalys                  |
+Šiame scenarijuje įmonė parduoda mažo, vidutinio, didelio ir labai didelio dydžio marškinėlius. Marškinėliai apibrėžiami kaip produktas, o skirtingi dydžiai – kaip to produkto variantai. Marškėliai yra supakuoti dėžėse. Kiekvienoje dėžėje gali būti penkti mažo, vidutinio ir didelio dydžio marškinėliai. Tačiau, jei marškinėliai yra labai didelio dydžio, kiekvienoje dėžėje yra vietos tik keturiems marškinėliams.
 
-Išleisto produkto variantų Mažas, Vidutinis ir Didelis vieneto konvertavimas tarp vieneto dėžės ir vienetų yra toks pat, o tai reiškia, kad galite nustatyti šių bendrojo produkto variantų vieneto konvertavimą.
+Įmonė skirtingus variantus nori sekti pagal vienetą *Vienetai*, tačiau parduoda juos pagal vienetą *Dėžės*. Mažo, vidutinio ir didelio dydžio marškinėlių atsargų vieneto ir pardavimo vieneto konvertavimas yra 1 dėžė = 5 vienetai. Labai didelio dydžio marškinėlių konvertavimas yra 1 dėžė = 4 vienetai.
 
-| **Laukas**             | **Parametras** |
-|-----------------------|-------------|
-| Sukurti konvertavimą, skirtą | Produktas     |
-| Produktas               | Marškinėliai     |
-| Iš vieneto             | Dėžės       |
-| Koeficientas                | 5           |
-| Į vienetą               | Dalys      |
+1. Iš produkto **Marškinėliai** puslapio **Patvirtinto produkto informacija** atidarykite puslapį  **Vienetų konvertavimas**.
+1. Puslapyje **Vienetų konvertavimas** nustatykite patvirtinto produkto varianto **Labai didelis** toliau nurodyto vieneto konvertavimą.
 
-### <a name="using-excel-to-update-the-unit-conversions"></a>Vieneto konvertavimo naujinimas naudojant „Excel“
+    | Laukas                 | Parametras                 |
+    |-----------------------|-------------------------|
+    | Sukurti konvertavimą, skirtą | Produkto variantas         |
+    | Produkto variantas       | Marškinėliai : : Labai didelis : : |
+    | Iš vieneto             | Dėžės                   |
+    | Koeficientas                | 4                       |
+    | Į vienetą               | Dalys                  |
 
-Jei produktas turi daug produkto variantų su skirtingų vienetų konvertavimu, naudinga eksportuoti vienetų konvertavimą iš puslapio **Vienetų konvertavimas** į „Excel“ skaičiuoklę, atnaujinti konvertavimą ir tada jį publikuoti Tiekimo grandinės valdyme.
+1. Visų produkto variantų **Mažas**, **Vidutinis** ir **Didelis** vienetų *Dėžė* ir *Vienetai* konvertavimas yra toks pat, todėl galite apibrėžti jų bendrojo produkto toliau nurodytą vieneto konvertavimą.
 
-Parinktis eksportuoti į „Excel“ ir vėl publikuoti redagavimą Tiekimo grandinės valdyme įgalinama per meniu elementą **Atidaryti naudojant „Microsoft Office“**, esantį Veiksmų srities puslapyje **Vienetų konvertavimas**.
+    | Laukas                 | Parametras |
+    |-----------------------|---------|
+    | Sukurti konvertavimą, skirtą | Produktas |
+    | Produktas               | Marškinėliai |
+    | Iš vieneto             | Dėžės   |
+    | Koeficientas                | 5       |
+    | Į vienetą               | Dalys  |
+
+## <a name="using-excel-to-update-the-unit-conversions"></a>Vieneto konvertavimo naujinimas naudojant „Excel“
+
+Jei produktas yra daug produktų variantų, kurie turi skirtingus vienetų konvertavimus, verta eksportuoti vienetų konvertavimus į „Microsoft Excel“ darbaknygę, atnaujinti juos ir tada vėl publikuoti juos „Dynamics 365 Supply Chain Management“.
+
+Norėdami eksportuoti vienetų konvertavimus į „Excel“, puslapio **Vienetų konvertavimas** veiksmų srityje pasirinkite **Atidaryti programoje „Microsoft Office“**.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+[Matavimo vieneto valdymas](tasks/manage-unit-measure.md)
