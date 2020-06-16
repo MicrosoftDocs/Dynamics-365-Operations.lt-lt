@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: 2020 m. gegužės 28 d.
+          href: hr-whats-new-2020-05-28.md
         - name: 2020 m. gegužės 14 d.
           href: hr-whats-new-2020-05-14.md
         - name: 2020 m. gegužės 1 d.
@@ -509,6 +511,8 @@
               href: hr-leave-and-absence-accrue.md
             - name: Atostogų sustabdymas
               href: hr-leave-and-absence-suspend-leave.md
+            - name: Prašymas dėl atostogų laiko
+              href: hr-employee-self-service-request-leave-of-absence.md
             - name: Darbuotojų atostogų valdymas
               href: hr-leave-and-absence-manage-employee-leave.md
             - name: Atostogų ir neatvykimų analizės peržiūra
@@ -519,6 +523,10 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Komandos ir įmonių kalendorių peržiūra
               href: hr-employee-self-service-calendar.md
+            - name: Atostogų pirkimo ir pardavimo strategijų valdymas
+              href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
+            - name: Atostogų pirkimas ir pardavimas
+              href: hr-employee-self-service-buy-sell-leave.md
         - name: Atostogų prašymų valdymas „Teams“
           href: hr-teams-leave-app.md
         - name: Darbuotojų rengimas

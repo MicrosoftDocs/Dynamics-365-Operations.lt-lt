@@ -14,6 +14,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: "„Platform“ naujinimai, skirti 10.0.12 (2020\_m. rugpjūčio mėn.)"
+                  href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "„Platform“ naujinimai, skirti 10.0.11 (2020\_m. liepos mėn.)"
                   href: get-started/whats-new-platform-update-35.md
                 - name: "„Platform“ naujinimai, skirti 10.0.10 (2020\_m. gegužės mėn.)"
@@ -198,6 +200,8 @@
                               href: data-entities/dual-write/in-house-assets.md
                             - name: 'Integruotas darbininkas, užduotis ir padėtis'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Atsargų pasiekiamumas
+                              href: data-entities/dual-write/inventory-availability.md
                         - name: Dvigubo rašymo palaikymas
                           items:
                             - name: „Field Service“ ir „Project Service Automation“ sprendimų palaikymas
@@ -452,9 +456,9 @@
                   href: ../fin-ops/imp-lifecycle/architecture-overview.md
                 - name: Debesies aplinkų naujinimų taikymas
                   href: deployment/apply-deployable-package-system.md
-                - name: Naujinimų ir plėtinių taikymas debesyje įdiegtiems „Retail“ kanalo komponentams
+                - name: Naujinimų ir plėtinių taikymas „Commerce Scale Unit“ (debesyje)
                   href: deployment/Update-retail-channel.md
-                - name: „Retail Cloud Scale Unit“ inicijavimas
+                - name: „Commerce Scale Unit“ (debesyje) inicijavimas
                   href: deployment/Initialize-Retail-Channels.md
                 - name: „Retail“ duomenų laikymo vieta
                   href: deployment/retail-data-residency.md
@@ -488,6 +492,8 @@
                       href: deployment/certificate-rotation-on-prem.md
                     - name: Kliento interneto ryšys
                       href: user-interface/client-disconnected.md
+                    - name: Tik paketo ir tik interaktyvių AOS mazgų konfigūravimas vietinėse įdiegtyse
+                      href: deployment/onprem-batchonly.md
                     - name: Vietinių aplinkų tarpinių serverių konfigūravimas
                       href: deployment/onprem-reverseproxy.md
                     - name: Vietinė diagnostika
@@ -646,11 +652,11 @@
                   href: dev-tools/debug-xpp.md
                 - name: EventHandlerResult klasės užklausų ar atsakymų scenarijų metu
                   href: dev-tools/event-handler-result-class.md
-                - name: 'Verslo logikos rašymas naudojant C# ir X++ šaltinio kodą'
+                - name: Verslo logikos rašymas naudojant C# ir X++ šaltinio kodą
                   href: dev-tools/write-business-logic.md
                 - name: X++ pakeitimai ir X++ kompiliatorius
                   href: dev-tools/programming-language-support.md
-                - name: 'C# LINQ teikėjas'
+                - name: C# LINQ teikėjas
                   href: dev-tools/linq-provider-c.md
                 - name: Geriausios praktikos taisyklių rašymas
                   href: dev-tools/author-best-practice-rules.md
@@ -710,7 +716,7 @@
                       href: dev-ref/xpp-macros.md
                     - name: X++ atributų klasės​
                       href: dev-ref/xpp-attribute-classes.md
-                    - name: 'X++ ir C# palyginimas'
+                    - name: X++ ir C# palyginimas
                       href: dev-ref/xpp-cs-comparison.md
                     - name: X++ sintaksė
                       href: dev-ref/xpp-syntax.md
@@ -1048,6 +1054,8 @@
                   href: lifecycle-services/removed-deprecated-features.md
             - name: „Lifecycle Services“ vartotojo vadovas
               href: lifecycle-services/lcs-user-guide.md
+            - name: Projekto parengimas
+              href: lifecycle-services/project-onboarding.md
             - name: Prenumeratos poreikio vertinimo įrankis
               href: lifecycle-services/subscription-estimator.md
             - name: Saugos konfigūravimas
@@ -1118,6 +1126,20 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Vertimo atminties failai
                   href: lifecycle-services/use-translation-service-tm.md
+        - name: „Microsoft Power Platform“ integravimas
+          items:
+            - name: „Microsoft Power Platform“ integravimas su „Finance and Operations“
+              href: power-platform/overview.md
+            - name: Objekto modeliavimas
+              href: power-platform/entity-modeling.md
+            - name: Programos ciklo valdymas
+              href: power-platform/application-lifecycle-management.md
+            - name: „Finance and Operations“ ir „Common Data Service“ administravimo nuoroda
+              href: power-platform/admin-reference.md
+            - name: „Power Apps“ portalai su „Finance and Operations“
+              href: power-platform/power-portal-reference.md
+            - name: DUK apie „Finance and Operations“ virtualius objektus
+              href: power-platform/faq.md
         - name: Mobilioji platforma
           items:
             - name: Mobiliosios platformos ištekliai
@@ -1326,13 +1348,11 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
         - name: „Regression suite automation tool”
           items:
-            - name: „Regression suite automation tool“ apžvalga
+            - name: „Regression Suite Automation Tool“ apžvalga
               href: perf-test/rsat/rsat-overview.md
             - name: Diegimas ir konfigūravimas
               href: perf-test/rsat/rsat-install-configure.md
-            - name: Agnostinis duomenų testavimas naudojant „Regression Suite Automation Tool“
-              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
-            - name: Bandymo atvejų vykdymas
+            - name: „Regression Suite Automation Tool“ naudojimas
               href: perf-test/rsat/rsat-run.md
             - name: Numatomų verčių tikrinimas
               href: perf-test/rsat/rsat-validate-expected.md
@@ -1340,10 +1360,12 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Išvestiniai bandymo atvejai
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: „Regression suite automation tool“ mokymo programos naudojimas
+            - name: „Regression Suite Automation Tool“ mokymo programa ir kitos funkcijos
               href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
             - name: Geriausia praktika
               href: perf-test/rsat/rsat-best-practices.md
+            - name: Agnostinis duomenų testavimas naudojant „Regression Suite Automation Tool“
+              href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
             - name: Trikčių šalinimas
               href: perf-test/rsat/rsat-troubleshooting.md
         - name: Sprendimų išleidimas naudojant „Lifecycle Services“
@@ -1442,6 +1464,8 @@
                   href: sysadmin/copy-batch-job.md
                 - name: Aktyvieji paketo laikotarpiai
                   href: sysadmin/activeperiod.md
+                - name: Vasaros laiko palaikymas aktyviaisiais paketo laikotarpiais
+                  href: sysadmin/batch-active-period-dst.md
                 - name: Paketų vadovo saugos vaidmuo
                   href: sysadmin/runby.md
                 - name: Paketinė užduotis SQL indekso defragmentavimui apdoroti
