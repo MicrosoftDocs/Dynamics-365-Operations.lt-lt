@@ -70,12 +70,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Supply Chain Management 10.0.12“ (2020 m. rugpjūčio mėn.)
+                      href: get-started/whats-new-scm-10-0-12.md
                     - name: „Supply Chain Management 10.0.11“ (2020 m. liepos mėn.)
                       href: get-started/whats-new-scm-10-0-11.md
                     - name: „Supply Chain Management 10.0.10“ (2020 m. gegužės mėn.)
                       href: get-started/whats-new-scm-10-0-10.md
-                    - name: „Supply Chain Management 10.0.9“ (2020 m. balandžio mėn.)
-                      href: get-started/whats-new-scm-10-0-9.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -595,6 +595,8 @@
                   href: cost-management/bom-calculations.md
                 - name: KS skaičiavimų grupės
                   href: cost-management/bom-calculation-groups.md
+                - name: Išlaidų skaičiavimo lygis
+                  href: cost-management/cost-calculation-level.md
                 - name: Įkainojimas atvirkštine tvarka
                   href: cost-management/backflush-costing.md
                 - name: Bendrieji gamybos nuokrypių šaltiniai
@@ -1009,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tekstas: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Tekstas: tekstas'
+                        - name: 'Tekstas: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
             - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -1137,7 +1139,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mokymo programos
               items:
-                - name: JOIN duomenų šaltinių naudojimas norint gauti duomenis iš kelių programos lentelių
+                - name: Duomenų šaltinių SUJUNGIMO naudojimas norint gauti duomenis iš kelių programos lentelių
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/supply-chain/toc.json
@@ -1345,6 +1347,8 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filtrų taikymas planui
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Bendrasis planavimas su įsigijimo prekybos sutartimis
+                  href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Plano retrospektyvos ir planavimo žurnalų peržiūra
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Automatinis patvirtinimas naudojant planavimo optimizavimo funkciją
@@ -1989,7 +1993,9 @@
                       href: production-control/release-production-orders.md
                     - name: Gamybos užsakymų skelbimas baigtais
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Skelbimas baigtais į pagal numerio lentelę kontroliuojamą vietą
+                    - name: Įrenginių užduoties kortelės konfigūravimas
+                      href: production-control/config-job-card-device.md
+                    - name: Skelbimas baigtu iš užduoties kortelės įrenginio
                       href: production-control/report-finished-job-device.md
                     - name: Gamybos užsakymo būsenos atšaukimas
                       href: production-control/reverse-production-order-status.md
@@ -2259,9 +2265,19 @@
                   href: sales-marketing/tasks/register-sales-commissions.md
                 - name: Pardavimo komisinių taisyklių nustatymas
                   href: sales-marketing/tasks/set-up-sales-commission-rules.md
+            - name: „Dynamics 365 Supply Chain Management“ kliento portalas
+              items:
+                - name: Kliento portalo apžvalga
+                  href: sales-marketing/customer-portal-overview.md
+                - name: 'Kliento portalo diegimas, nustatymas ir naujinimas'
+                  href: sales-marketing/customer-portal-setup.md
+                - name: Kliento portalo vartotojų kūrimas ir valdymas
+                  href: sales-marketing/customer-portal-user-admin.md
+                - name: Kliento portalo tinkinimas ir naudojimas
+                  href: sales-marketing/customer-portal-customize.md
             - name: Prekybos nuolaida
               href: sales-marketing/trade-allowance.md
-            - name: Naujos prekybos sutarties sukūrimas
+            - name: Naujos prekybos sutarties kūrimas
               href: sales-marketing/tasks/create-new-trade-agreement.md
         - name: Aptarnavimo valdymas
           items:
@@ -2653,8 +2669,10 @@
                   href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
                 - name: Dalinis vietos ciklų skaičiavimas
                   href: warehousing/partial-location-cycle-counting.md
-                - name: 'Dalinio vietos ciklų skaičiavimo proceso apibrėžimas '
+                - name: Dalinio vietos ciklų skaičiavimo proceso apibrėžimas
                   href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                - name: Sandėlio valdymo turimų įrašų valymo užduotis
+                  href: warehousing/onhand-cleanup.md
                 - name: Atsargų žurnalas
                   href: inventory/inventory-journals.md
                 - name: Atsargų vieta

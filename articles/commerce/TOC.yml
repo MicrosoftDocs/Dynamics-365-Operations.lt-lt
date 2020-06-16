@@ -86,8 +86,10 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Kas nauja ar pasikeitė „Commerce”
                   items:
-                    - name: Kas nauja ar pasikeitė „Commerce“ pagrindinis puslapis
+                    - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce 10.0.12“ (2020 m. rugpjūčio mėn.)
+                      href: get-started/whats-new-commerce-10-0-12.md
                     - name: „Commerce 10.0.11“ (2020 m. liepos mėn.)
                       href: get-started/whats-new-commerce-10-0-11.md
                     - name: „Commerce 10.0.10“ (2020 m. gegužės mėn.)
@@ -198,7 +200,7 @@
                   href: dev-itpro/retail-in-store-topology.md
                 - name: „Commerce Data Exchange“ ir prekybos kanalų ryšiai
                   href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: „Modern POS“ architektūra
+                - name: Modernaus EKA architektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Internetinių parduotuvių publikavimo architektūra
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -212,11 +214,11 @@
               items:
                 - name: Savitarnos diegimo programų sinchronizavimas „Dynamics 365 Commerce“
                   href: dev-itpro/Synchronize-installers.md
-                - name: „Commerce Scale Unit“
+                - name: „Commerce Scale Unit“ (savarankiškai nuomojamas)
                   href: dev-itpro/retail-store-system-begin.md
-                - name: „Commerce Scale Unit“ konfigūravimas ir diegimas
+                - name: „Commerce Scale Unit“ (savarankiškai nuomojamo) konfigūravimas ir diegimas
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: „Modern POS“ konfigūravimas ir diegimas
+                - name: Modernaus EKA konfigūravimas ir diegimas
                   href: retail-modern-pos-device-activation.md
                 - name: Sąskaitų ir įrenginių valdymas iš būstinės
                   href: set-up-activation-accounts-validate-devices-hq.md
@@ -338,13 +340,13 @@
                   href: channel-setup-retail.md
                 - name: Mažmeninės prekybos darbininkų konfigūravimas
                   href: tasks/worker.md
-                - name: Modernusis elektroninis kasos aparatas (MPOS) ir „Cloud POS“
+                - name: Modernus elektroninis kasos aparatas (MPOS) ir „Cloud POS“
                   items:
                     - name: Pasirinkimas tarp MPOS ir „Cloud POS“
                       href: MPOS-or-CPOS.md
                     - name: EKA operacijos prisijungus ir neprisijungus prie interneto
                       href: pos-operations.md
-                    - name: Tinkinto „Modern POS“ įrenginių aktyvinimas
+                    - name: Tinkinto modernaus EKA įrenginių aktyvinimas
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: EKA prisijungimo „Azure Active Directory“ autentifikavimo įjungimas
                       href: aad-pos-logon.md
@@ -604,7 +606,7 @@
               items:
                 - name: Produktų rekomendacijų apžvalga
                   href: product-recommendations.md
-                - name: ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
+                - name: „Azure Data Lake Storage“ įjungimas „Dynamics 365 Commerce“ aplinkoje
                   href: enable-ADLS-environment.md
                 - name: Produktų rekomendacijų įjungimas
                   href: enable-product-recommendations.md
@@ -646,8 +648,8 @@
                   items:
                     - name: Parduotuvės atsargų valdymas
                       href: work-with-store-inventory.md
-                    - name: Darbas su serijos prekėmis
-                      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md?toc=/dynamics365/commerce/toc.json
+                    - name: Atsargų buferių ir atsargų lygių konfigūravimas
+                      href: inventory-buffers-levels.md
                     - name: Darbas su serijos prekėmis EKA
                       href: pos-serialized-items.md
                     - name: Produktų skirstymas iš paskirstymo centro į parduotuvę naudojant skirstymą pirkėjams
@@ -824,6 +826,8 @@
                   href: authoring-home-overview.md
                 - name: Vartotojų ir vaidmenų tvarkymas
                   href: manage-ecommerce-users-roles.md
+                - name: Atsargų parametrų taikymas
+                  href: inventory-settings.md
                 - name: Ieškos modulio optimizavimo (SEO) aplinkybės jūsų svetainei
                   href: search-engine-optimization-considerations.md
                 - name: Turinio saugos strategijos (CSP) tvarkymas
@@ -848,6 +852,8 @@
                       href: select-site-theme.md
                     - name: Darbas su CSS perrašymo failais
                       href: css-override-files.md
+                    - name: Darbas su iš anksto nustatytų stilių rinkiniais
+                      href: style-presets.md
                     - name: Įtraukti parankinių piktogramą
                       href: add-favicon.md
                     - name: Įtraukti pasveikinimo pranešimą
@@ -932,6 +938,10 @@
                   items:
                     - name: Konteinerio modulis
                       href: add-container-module.md
+                    - name: Akordeono modulis
+                      href: add-accordion.md
+                    - name: Skirtuko modulis
+                      href: add-tab.md
                 - name: Rinkodaros moduliai
                   items:
                     - name: Reklaminės juostos modulis
@@ -978,7 +988,11 @@
                   items:
                     - name: Produktų rinkinio moduliai
                       href: product-collection-module-overview.md
-            - name: Ieškoti
+                - name: Naršymo moduliai
+                  items:
+                    - name: Naršymo kelio modulis
+                      href: add-breadcrumb.md
+            - name: Ieška
               items:
                 - name: Numatytasis kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis
                   href: category-search-page-overview.md
@@ -1048,6 +1062,10 @@
                   href: localizations/emea-fra-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
                   href: localizations/emea-fra-deployment.md
+            - name: Vokietija
+              items:
+                - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Vokietijai'
+                  href: localizations/emea-deu-fi-sample.md
             - name: Indija
               items:
                 - name: Kasos aparatų prekių ir paslaugų mokesčio (GST) integravimas
@@ -1462,7 +1480,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Tekstas: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Tekstas: tekstas'
+                        - name: 'Tekstas: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1590,7 +1608,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/commerce/toc.json
             - name: Mokymo programos
               items:
-                - name: JOIN duomenų šaltinių naudojimas norint gauti duomenis iš kelių programos lentelių
+                - name: Duomenų šaltinių SUJUNGIMO naudojimas norint gauti duomenis iš kelių programos lentelių
                   href: ../fin-ops-core/dev-itpro/analytics/er-join-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Nuo šalies konteksto priklausomo ER modelio susiejimų konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/commerce/toc.json
@@ -1976,7 +1994,9 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Temos parametrų konfigūravimas
                       href: e-commerce-extensibility/configure-theme-settings.md
-                    - name: Temos išplėtimas
+                    - name: Temos išplėtimas modulio plėtiniams įtraukti
+                      href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Temos išplėtimas iš pagrindinės temos
                       href: e-commerce-extensibility/extend-theme.md
                 - name: Scenarijaus įvedimas
                   items:
@@ -2018,7 +2038,7 @@
                   href: install-pos-layout-designer.md
                 - name: Dvigubo EKA ekrano rodinio išplėtimas
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: „Modern POS“ ir „Cloud POS“ paleidiklių išplečiamumas
+                - name: Modernaus EKA ir „Cloud POS“ paleidiklių išplečiamumas
                   href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
                   href: dev-itpro/pos-custom-control.md
@@ -2048,13 +2068,13 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
                   href: dev-itpro/pos-view-extension.md
-                - name: Pasirinktinių valdiklių įtraukimas į „Modern POS“ operacijų puslapius
+                - name: Pasirinktinių valdiklių įtraukimas į modernaus EKA operacijų puslapius
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių
                   href: dev-itpro/pos-api-extension.md
-                - name: „Modern POS“ paleidikliai ir spausdinimas
+                - name: Modernaus EKA paleidikliai ir spausdinimas
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius
                   href: dev-itpro/pos-control-non-screen.md
@@ -2072,17 +2092,17 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: „Retail Server“ išplečiamumas
               items:
-                - name: „Retail Server OData“ valdiklio išplėtimas
+                - name: „Commerce Scale Unit“ „OData“ valdiklio išplėtimas
                   href: dev-itpro/extend-retail-server-odata-controller.md
-                - name: „Retail Server“ klientų ir vartotojų API sąsajos
+                - name: „Commerce Scale Unit“ kliento ir vartotojo API
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Numatytojo „Retail Server“ metaduomenų valdiklio išplėtimas
+                - name: Numatytojo „Commerce Scale Unit“ metaduomenų valdiklio išplėtimas
                   href: dev-itpro/extend-metadata.md
                 - name: CRT tarnybos iškvietimas neprisijungus
                   href: dev-itpro/call-crt-service-offline.md
-                - name: Kurti naują „Retail Server“ plėtinį
+                - name: Naujo „Retail Server“ plėtinio kūrimas
                   href: dev-itpro/retail-server-extension.md
-                - name: '„Retail Typescript“ ir C# tarpiniai serveriai'
+                - name: „Retail Typescript“ ir C# tarpiniai serveriai
                   href: dev-itpro/typescript-proxy-retail-pos.md
             - name: „Commerce Runtime“ (CRT) išplečiamumas
               items:
@@ -2096,8 +2116,6 @@
                   href: dev-itpro/add-customer-preference-channel.md
                 - name: Mažmeninės prekybos kanalų slaptųjų raktų tvarkymas
                   href: dev-itpro/manage-secrets.md
-                - name: Ypatybių įtraukimas į pardavimo užsakymus
-                  href: dev-itpro/add-properties-sales-order.md
                 - name: CRT išplečiamumas ir paleidikliai
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Operacijų blokavimas naudojant paleidiklius
