@@ -3,7 +3,7 @@ title: Europos mokesčių direktyvos
 description: Galite nurodyti, kad pardavimo SF ir projekto SF būtų įtrauktas PVM kodų paaiškinimas. Nuorodų numerius galite spausdinti pardavimo SF, laisvos formos SF ir projektų SF.
 author: epodkolz
 manager: AnnBe
-ms.date: 05/12/2017
+ms.date: 06/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2d054a1bdcfb3d189b343b51de77b407335a7792
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 70c86d85b66f1b5c0bf72f80f93299c3848ca158
+ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183767"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3422996"
 ---
 # <a name="tax-directives-for-europe"></a>Europos mokesčių direktyvos
 
@@ -31,3 +31,5 @@ ES direktyvoje nurodomos taisyklės, kurių turi laikytis visos šalys narės, d
 - Norėdami spausdinti PVM kodų aprašą pardavimo SF, laisvos formos SF arba projekto SF ataskaitoje, nustatykite mokesčių direktyvos nuorodos PVM koduose.
 - Kredito pažymų numeris ir pirminės SF data spausdinami kartu nurodant ir taisymo priežastį.
 
+> [!NOTE]
+> Puslapyje **Formos nustatymai** (**Gautinos sumos** > **Sąranka** > **Formos** > **Formos nustatymai**, skirtuke **Bendra**) patikrinkite, ar laukas **PVM specifikacija** yra nustatytas į **Registracijos valiuta**, ar į **Registracijos ir įmonės valiuta**.

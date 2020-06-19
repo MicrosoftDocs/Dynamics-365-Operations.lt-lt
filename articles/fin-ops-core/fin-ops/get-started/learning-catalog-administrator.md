@@ -11,12 +11,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c66b25e941d9492c9749043b65c929c9b81db641
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: ad0f33aae7651dff4f424a047eccabd691a99d83
+ms.sourcegitcommit: 840230f3dc500852791953d05c2737dd539ed0b3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3279054"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3418571"
 ---
 # <a name="administrators-learning-catalog"></a>Administratorių mokymosi katalogas
 
@@ -30,7 +30,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 |-----------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [„Dynamics 365“ ir „Power Platform“ pagrindai](https://docs.microsoft.com/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Ar norite sužinoti apie verslo programas? Pradėkite nuo šio mokymosi scenarijaus, kad sužinotumėte, kaip naudojamos „Dynamics 365“ programos. Sužinokite apie debesų koncepcijas, „Power Platform“ ir apie tai, kaip pradėti naudotis „Dynamics 365“ programomis.  | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus  | 5.5 valandos |
 | [Darbo su „Finance and Operations“ programomis pradžia](https://docs.microsoft.com/learn/paths/get-started-finance-operations/)      | Sužinokite, kaip „Finance and Operations“ programos padeda įmonėms tvarkyti savo globalias finansines sistemas, darbinius verslo procesus ir supaprastintas tiekimo grandines, siekiant suteikti žmonėms galimybę greitai priimti pagrįstus sprendimus. Darydami pirmąjį darbo su „Finance and Operations“ programomis karjeros žingsnį, turite susipažinti su jų funkcijomis ir savybėmis, kad ir kokių pareigų siektumėte. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus   | 2 valandos   |
-| [Kursas MB-900T01-A: „Dynamics 365“ pagrindai](https://www.microsoft.com/learning/course.aspx?cid=MB-900T01)   | Šis kursas supažindins besimokantįjį su „Dynamics 365“ funkcijomis ir nauda verslui. Kursas apžvelgs „Dynamics 365“ programas, „Power Platform“, debesų koncepcijas, saugos modelį ir licencijavimo klausimus.  | Šis kursas gali būti asmeniškai vedamas mokytojo arba pasiekiamas internetinių mokymų formatu, o kaina priklauso nuo regiono ir partnerio | 1 diena     |
+
 
 
 ## <a name="core-platform-knowledge"></a>Bendrosios platformos žinios<a name="core-platform-knowledge"></a>

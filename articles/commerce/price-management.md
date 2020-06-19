@@ -3,7 +3,7 @@ title: Mažmeninės prekybos pardavimo kainos valdymas
 description: Šioje temoje aprašomos pardavimo kainų kūrimo ir valdymo „Dynamics 365 Commerce“ koncepcijos.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 01/06/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-retail
@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1eb0b218b9008b255cc5a09eefb8c7fa35836cd7
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 84d673bef8597bd7d376c5c74737d5c7db247759
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057492"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3432006"
 ---
 # <a name="retail-sales-price-management"></a>„Retail“ pardavimo kainų valdymas
 
@@ -53,7 +53,9 @@ Toliau pateikta iliustracija parodo, kaip naudojamos kainų grupės. Atkreipkite
 
 Kuriant kainų grupes, nereikėtų naudoti vienos kainų grupės kelių tipų prekybos objektams. Antraip gali būti sunku nustatyti, kodėl operacijai taikoma būtent tokia kaina ar nuolaida.
 
-Raudona punktyrinė linija iliustracijoje rodo, kad „Commerce“ palaiko pagrindinę „Microsoft Dynamics 365“ kainų grupės, nustatomos tiesiogiai klientui, funkciją. Tačiau šiuo atveju gaunate tik pardavimo kainos prekybos sutartis. Jei norite taikyti konkretaus kliento kainas, nerekomenduojame kainų grupes nustatyti tiesiogiai klientui. Vietoje to reikėtų naudoti priskyrimus.
+Raudona punktyrinė linija iliustracijoje rodo, kad „Commerce“ palaiko pagrindinę „Microsoft Dynamics 365“ kainų grupės, nustatomos tiesiogiai klientui, funkciją. Tačiau šiuo atveju gaunate tik pardavimo kainos prekybos sutartis. Jei norite taikyti konkretaus kliento kainas, nerekomenduojame kainų grupes nustatyti tiesiogiai klientui. Vietoje to reikėtų naudoti priskyrimus. 
+
+Turėkite omenyje, kad jei kainos grupė nustatyta klientui, šios kainų grupės bus susietos su šiam klientui sukurtų užsakymų pardavimo užsakymo antrašte. Jei vartotojas pakeičia kainos grupę užsakymo antraštėje, senoji kainos grupė bus pakeista naująja kainos grupe tik dabartiniam užsakymui. Pavyzdžiui, senoji kainos grupė neturės įtakos dabartiniam užsakymui, bet vis dar bus susieta su klientu būsimiems užsakymams.
 
 Tolesniuose skyriuose pateikiama daugiau informacijos apie prekybos objektus, kuriais galite nustatyti skirtingas kainas, kai naudojamos kainų grupės. Kainų ir nuolaidų sukonfigūravimas visiems šiems objektams yra dviejų veiksmų procesas. Šiuos veiksmus galima atlikti bet kuria tvarka. Tačiau logiška tvarka yra pirma nustatyti kainų grupes objektams, nes tikėtina, kad šis veiksmas bus vienkartinis nustatymas, atliekamas diegimo metu. Tada, sukūrus kainas ir nuolaidas, galima nustatyti kainų grupes atskiroms kainoms ir nuolaidoms.
 
@@ -226,6 +228,7 @@ Kainodaros mechanizmas **nepalaiko** toliau pateikiamų kainodaros funkcijų.
 - Kainų nustatymas pagal vietos arba vietos ir sandėlio saugojimo dimensijas nepalaikomas. Jei prekybos sutartyse nurodysite tik vietos dimensiją, kainodaros mechanizmas nepaisys vietos ir prekybos sutartis bus taikoma visoms vietoms. Jei nurodysite ir vietą, ir sandėlį, tada elgesys yra nenurodytas / netikrintas, nes tikimasi, kad pardavėjai naudoja parduotuvės kainų grupes kiekvienos parduotuvės / sandėlio kainoms kontroliuoti.
 - Atributais grindžiama kainodara nepalaikoma.
 - Tiekėjo nuolaidos perėjimas nepalaikomas.
+- Naudojant standartinį „Supply Chain Management“ kainodaros mechanizmą palaikomas kainos skaičiavimas pagal „Pageidaujamą siuntimo datą“ ir „Pageidaujamą gavimo data“ kartu su dabartine data. Tačiau mažmeninės prekybos kainodara šiuo metu nepalaiko šių verčių. Taip yra todėl, kad dėl B2C scenarijų klientai negali tikėtis, kad pageidaujama pristatymo data galėtų paveikti prekės kainą. Kai kuriais atvejais mažmenininkai naudoja teik B2B, tiek B2C operacijas. B2B operacijose įprasta pakeisti kainas pagal pristatymo datas. Šie mažmenininkai gali naudoti „Supply Chain Management“ kainodarą savo B2B verslui ir mažmeninės prekybos kainodarą savo B2C verslui. Mažmeninės prekybos kainodara prasideda tik tada, kai programos vartotojas yra įtraukiamas kaip skambučių centro vartotojas, todėl mažmenininkai gali priskirti konkrečius vartotojus, kurie dirbs su „Supply Chain Management“ kainodara, ir kelis vartotojus, kurie dirbs su mažmeninės prekybos kainodara, t. y. šie vartotojai turi būti įtraukti kaip skambučių centro vartotojai. Be to, reikia įjungti ypatybę **Naudoti šios dienos datą kainoms apskaičiuoti** dalyje **Prekybos parametrai> kainos ir nuolaidos > įvairios**. Tokiu būdu jie gali toliau naudoti gautinų sumų parametro reikšmę pageidaujamai siuntimo datai arba pageidaujamai gavimo datai, kad būtų galima nustatyti „Supply Chain Management“ kainodarą, bet mažmeninės prekybos kainodarai ir toliau bus naudojama šiandienos data.
 
 Be to, toliau nurodytas kainodaros funkcijas palaiko **tik** kainodaros mechanizmas.
 

@@ -3,7 +3,7 @@ title: Bendrųjų planų apžvalga
 description: Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo operacijoms palaikyti, įvairioms planavimo strategijoms, kurias norite stebėti, modeliuoti, įmonės strategijai, pavyzdžiui, strategijai dėl vidinio našumo arba klientų poreikio tenkinimo, vykdyti.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56c9c3f910c5c5386cdab25566b43198288eb419
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f5b37347cf2d5b720ed7ac364800fb8cfe2d67ca
+ms.sourcegitcommit: ace6451fde3e4b20cbcaa6279fa1da4d7151ad1e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213543"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3409527"
 ---
 # <a name="master-plans-overview"></a>Bendrųjų planų apžvalga
 
@@ -35,7 +35,7 @@ Naudokite įvairius bendruosius planus, kurie skirti įmonės kasdienėms darbo 
 Bendruosius planus galite konfigūruoti puslapyje **Bendrieji planai**.
 
 Yra du planų tipai:
--   **Statinis planas** – bendrojo planavimo skaičiavimas generuoja grynojo poreikio planą naudodamas esamus duomenis. Šis planas nekinta iki kito bendrojo planavimo vykdymo. Tai veikiantis planas, kurį įvairus įmonės personalas, pavyzdžiui, pirkėjų arba gamybos planuotojas, gali naudoti savo sprendimams pagrįsti ir kasdienėms užduotims atlikti.
+-   **Statinis planas** – bendrojo planavimo skaičiavimas generuoja grynojo poreikio planą naudodamas esamus duomenis. Šis planas nekinta iki kito bendrojo planavimo vykdymo arba rankinio plano pakeitimo. Šis veikiantis planas, kurį įvairus įmonės personalas, pavyzdžiui, pirkėjų arba gamybos planuotojas, gali naudoti savo sprendimams pagrįsti ir kasdienėms užduotims ir veiklai atlikti.
 -   **Dinaminis planas** – šis planas pradedamas kartu su tuo pačiu grynojo poreikio planu, kurį sugeneravo bendrasis planavimas. Tačiau dinaminį planą galite atnaujinti kaskart, kai pasikeičia bendrieji duomenys. Taip gali būti, pavyzdžiui, sukūrus naują pardavimo užsakymą. Tai įgalina stebėti kintančią užsakymo struktūrą ir prekių prieinamumą, netrikdant statinio plano, kurį kiti naudoja savo darbo procesams.
 
 Įmonė gali pasirinkti dirbti tik su dinaminiu planu arba naudoti ir statinį, ir dinaminį planus. Be to, bet kurį bendrąjį planą galite konfigūruoti, kad atspindėtų konkrečią strategiją arba adresuotų išdavimą. Pavyzdžiai yra tokie:
