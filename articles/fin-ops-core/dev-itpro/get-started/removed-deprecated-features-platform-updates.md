@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f6365d42de5d19d960641f188cb6052ef07d721f
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
+ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268752"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "3433927"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -36,7 +36,39 @@ ms.locfileid: "3268752"
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
+## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.12 versijos platformos naujinimai
+
+### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Tinklelio arba grupės valdiklio formų plėtiniai, kuriuose yra netinkamų laukų nuorodų
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Tinklelio arba grupės valdiklių duomenų grupės ypatybė naudojama automatiškai rodyti visus laukų grupės laukus. Tinklelyje arba grupės valdiklyje, pridėtame prie plėtinio, gali būti laukų, kurie nebėra apibrėžti laukų grupėje, arba jame gali būti trūkstamų laukų, kurie apibrėžti laukų grupėje. Tai gali sukelti nenuoseklų veikimą apdorojimo laiko metu. Platformos naujiniai, skirti „Finance and Operations” programų 10.0.12 versijai, dabar klasifikuoja šią problemą kaip kompiliatoriaus *įspėjimą*. Norėdami išspręsti šią problemą, atidarykite formos plėtinį ir jį įrašykite.
+| **Pakeitė kita funkcija?**   | Atliekant būsimą naujinimą, šis kompiliatoriaus įspėjimas bus pakeistas kompiliavimo klaidos pranešimu. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Kompiliatoriaus įspėjimas pristatytas platformos naujiniuose, skirtuose „Finance and Operations” programų versijai 10.0.12. |
+
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.11 versijos platformos naujinimai
+
+### <a name="explicit-whitelisting-for-self-service-environments"></a>Išsamus baltasis sąrašas savitarnos aplinkoms
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | IP baltojo sąrašo sudarymo procesas pasikeitė. Savitarna nebepalaiko IP baltojo sąrašo. |
+| **Pakeitė kita funkcija?**   | Daugiau informacijos rasite [„Azure Active Directory” sąlyginės prieigos konfigūracija](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Paveiktos produkto sritys**         | Sauga |
+| **Visuotinio diegimo parinktis**              | Debesis |
+| **Būsena**                         | **Nuvertėjęs:** Ši funkcija yra visiškai pasenusi savitarnos diegimui. |
+
+### <a name="visual-studio-2015"></a>„Visual Studio 2015“
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Norint, kad būtų palaikomos naujausios „Visual Studio” versijos, reikia atlikti tam tikrus X + + plėtinių, skirtų „Visual Studio”, keitimus. Šie pakeitimai nesuderinami su „Visual Studio” 2015. |
+| **Pakeitė kita funkcija?**   | „Visual Studio 2017” bus pakeista „Visual Studio 2015” kaip įdiegta ir reikalinga versija. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Paskelbus apie naujų virtualių mašinų (VM) naudojimą su „Visual Studio 2017“, esamos VM, naudojamos tik su „Visual Studio 2015“, turės būti iš naujo įdiegtos kartu su pirmąja išleidimo banga nuo 2021 m. |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Laukų grupės, kuriose pateiktos netinkamos laukų nuorodos
 

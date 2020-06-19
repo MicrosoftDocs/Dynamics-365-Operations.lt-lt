@@ -3,7 +3,7 @@ title: Mažmeninės prekybos pardavimo kuponų nustatymas
 description: Šioje temoje apžvelgiami kuponai ir paaiškinama, kaip juos nustatyti.
 author: scott-tucker
 manager: AnnBe
-ms.date: 05/22/2017
+ms.date: 06/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4c580e40ae1f0398ab9f8437d42ddcb2979558c3
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
+ms.sourcegitcommit: 97206552616b248f88e516fea08b3f059257e8d1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057376"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431983"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Mažmeninės prekybos pardavimo kuponų nustatymas
 
@@ -48,8 +48,10 @@ Kuponus galima sukonfigūruoti kaip riboto naudojimo. Naudojimo limitą galima a
 
 Limitas taikomas vienam kupono kodui. Pavyzdžiui, vienkartinį kuponą su dviem kodais galima naudoti du kartus: kiekvieną kupono kodą po kartą. Kiekvieną kupono kodą galima nepriklausomai nustatyti kaip aktyvų.
 
+Kuponai gali būti naudojami bet kuriame pardavimo kanale, tačiau, skambučių centro užsakymams, riboto naudojimo kuponus galima naudoti tik tiems skambučių centrų užsakymams, kuriuose įjungtas skambučių centro parametras **Užsakymo užbaigimas**. Jei neįjungta, tai tada ne tik neriboto naudojimo tipo kuponai gali būti naudojami skambučių centro užsakymuose.
+
 > [!NOTE]
-> Kupono kodui pasiekus savo naudojimo limitą sistema automatiškai *nepakeičia* kupono kodo būsenos į „Panaudotas“. Tačiau sistema neleidžia toliau naudotis kuponu jam pasiekus naudojimo limitą. Jei neautomatiškai nustatoma kita kupono kodo būsena išskyrus „Aktyvus“, šio kupono kodo negalima naudoti jokiame kanale.
+> Panaudojus kupono kodą visus galimus kartus, sistemą automatiškai *nepakeičia* kupono kodo būsenos į „Panaudotas“. Tačiau kupono kodas jau panaudotas visus galimus kartus ir negali būti panaudotas dar kartą. Jei rankiniu būdu nustatoma kita kupono kodo būsena, išskyrus **Aktyvus**, tada šio kupono kodo negalima naudoti jokiame kanale.  
 
 ## <a name="managing-coupons"></a>Kuponų valdymas
 
