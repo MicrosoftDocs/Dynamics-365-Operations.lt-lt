@@ -3,7 +3,7 @@ title: 'ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (3 dalis �
 description: Šie veiksmai paaiškina, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7bbbc81eaf8c13e8d13e30a0276e38453e07ead9
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: cef61787e50561eaac4fd52741ab5f90d9c4171d
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142529"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406502"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER: finansinių dimensijų kaip duomenų šaltinio naudojimas (3 dalis – Ataskaitos kūrimas)
 
@@ -94,7 +94,8 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 58. Spustelėkite GERAI.
 59. Spustelėkite Įtraukti atributą.
 60. Lauke Pavadinimas įveskite Aprašas.
-61. Spustelėkite GERAI.
+61. Spustelėkite Gerai.
+![ER operacijų dizaino įrankio puslapis](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Ataskaitos elementų susiejimas su duomenų šaltiniais
 1. Spustelėkite skirtuką „Susiejimas“.
@@ -143,4 +144,5 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 44. Spustelėkite Susieti.
 45. Spustelėkite Įrašyti.
 46. Uždarykite puslapį.
+![ER operacijų dizaino įrankio puslapis](../media/er-financial-dimensions-guides-format2.png)
 

@@ -3,24 +3,24 @@ title: „Azure Active Directory” EKA prisijungimo autentifikavimo įjungimas
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) prisijungimo funkcijas, kad būtų naudojamas „Azure Active Directory” autentifikavimas.
 author: boycezhu
 manager: annbe
-ms.date: 03/08/2020
+ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: dfc49585434383385b6b993893d93b95ef888384
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248945"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410040"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>„Azure Active Directory” EKA prisijungimo autentifikavimo įjungimas
 [!include [banner](includes/banner.md)]
@@ -47,6 +47,8 @@ Norėdami taikyti parametrus EKA klientams, atlikite toliau pateikiamus veiksmus
 
 > [!NOTE]
 > „Azure AD” autentifikavimui reikia interneto ryšio. Jis neveiks, kai EKA veikia atjungties režimu.
+> 
+> Šiuo metu **valdytojo nepaisymo** funkcija nepalaiko „Azure AD“ kaip autentifikavimo būdo. Operatoriaus ID ir slaptažodis yra privalomi, net jei jie „Azure AD“ sukonfigūruoti kaip EKA prisijungimo autentifikavimo metodas.
 
 ## <a name="associate-an-azure-ad-account-with-a-worker"></a>„Azure AD” paskyros susiejimas su darbininku
 

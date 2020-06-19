@@ -3,7 +3,7 @@ title: Įjungti produktų rekomendacijas
 description: Šioje temoje paaiškinama, kaip pateikti produkto rekomendacijas, paremtas dirbtinio intelekto mašininiu mokymu (AI-ML), kurį gali naudoti „Microsoft Dynamics 365 Commerce“ klientai.
 author: bebeale
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d38d7b0e98d84e23d7a51c5d8ee65df4a3b9e4a7
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 694e5a451b8e25f3729364dfaed0adc7d242f2fe
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259799"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404214"
 ---
 # <a name="enable-product-recommendations"></a>Įjungti produktų rekomendacijas
 
@@ -34,11 +34,11 @@ ms.locfileid: "3259799"
 
 ## <a name="recommendations-pre-check"></a>Rekomendacijų išankstinė patikra
 
-Prieš įjungdami, atkreipkite dėmesį, kad produkto rekomendacijos palaikomos tik „Commerce“ klientams, perkėlusiems savo saugyklą naudoti „Azure Data Lake Storage“ (ADLS). 
+Prieš įjungdami, atkreipkite dėmesį, kad produkto rekomendacijos palaikomos tik „Commerce“ klientams, perkėlusiems savo saugyklą naudoti „Azure Data Lake Storage“. 
 
 Prieš įgalinant rekomendacijas tarnybiniame biure turi būti įjungtos toliau pateiktos konfigūracijos.
 
-1. Užtikrinkite, kad ADLS buvo nupirktas ir sėkmingai patikrintas aplinkoje. Daugiau informacijos žr. [Užtikrinkite, kad ADLS buvo nupirktas ir sėkmingai patikrintas aplinkoje](enable-ADLS-environment.md).
+1. Užtikrinkite, kad „Azure Data Lake Storage“ buvo nupirktas ir sėkmingai patikrintas aplinkoje. Daugiau informacijos žr. [Užtikrinkite, kad „Azure Data Lake Storage“ buvo nupirktas ir sėkmingai patikrintas aplinkoje](enable-ADLS-environment.md).
 2. Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas. Daugiau informacijos žr. [Užtikrinkite, kad objektų saugyklos atnaujinimas buvo automatizuotas](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Patvirtinkite, kad „Azure AD” tapatybės konfigūracijoje yra rekomendacijų įrašas. Toliau pateikiama daugiau informacijos apie tai, kaip atlikti šį veiksmą.
 
@@ -92,7 +92,7 @@ Norėdami daugiau sužinoti apie personalizuotas rekomendacijas, žr. [Personali
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
-[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+[„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje](enable-adls-environment.md)
 
 [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 

@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7cd3e2ac729bdb3ecc8e7bfacb060e433b185f09
-ms.sourcegitcommit: 3a06d3b38d9de2afc22839e5a794829405068024
+ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
+ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "2933937"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "3421660"
 ---
 # <a name="electronic-reporting-er-overview"></a>Elektroninių ataskaitų (ER) apžvalga
 
@@ -40,7 +40,7 @@ ER šiuo metu palaiko TEXT, XML, „Microsoft Word“ dokumento ir OPENXML darba
 ## <a name="capabilities"></a>Galimybės
 ER mechanizmas turi toliau nurodytas galimybes.
 
-- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, naudojamų kurti tam tikras „Finance and Operations“ elektronines ataskaitas.
+- Tai vienas bendrai naudojamas įrankis, skirtas elektroninėms ataskaitoms skirtinguose domenuose kurti, kuris pakeičia daugiau nei 20 skirtingų mechanizmų, kuriančių tam tikras „Finance and Operations“ elektronines ataskaitas.
 - Jis atskiria ataskaitos formatą nuo dabartinės įdiegtos versijos. Kitaip tariant, formatą galima taikyti skirtingoms versijoms.
 - Jis palaiko pasirinktinio formato kūrimą pagal jo pradinę versiją. Jis taip pat apima galimybes automatiškai naujinti tinkintą formatą, kai pradinis formatas pakeičiamas dėl įvestų lokalizavimo / tinkinimo reikalavimų.
 - Jis tampa pagrindiniu standartiniu „Microsoft“ ir „Microsoft“ partnerių elektroninių ataskaitų lokalizavimo reikalavimus palaikančiu įrankiu.
@@ -81,7 +81,7 @@ Modelio susiejimas, kuris palaiko gaunamus elektroninius dokumentus, turi šias 
 
 Duomenų modelio komponentas skirtas kiekvienam verslo domenui, kuris turi būti naudojamas kaip suvienodintas ataskaitų duomenų šaltinis, atskiriantis ataskaitų teikimą nuo fizinio duomenų šaltinių diegimo. Tai konkrečios srities verslo koncepcijos ir funkcijos, pateiktos tokia forma, dėl kurios ataskaitų formato pirminis kūrimas ir tolesnė priežiūra tampa efektyvesnė.
 
-#### <a name="FormatComponentOutbound"></a>Siunčiamų elektroninių dokumentų formato komponentai
+#### <a name="format-components-for-outgoing-electronic-documents"></a><a name="FormatComponentOutbound"></a>Siunčiamų elektroninių dokumentų formato komponentai
 
 Formato komponentas yra ataskaitų kūrimo planas, kuris bus generuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
 
@@ -107,7 +107,7 @@ Formato komponentas leidžia pridėti toliau nurodytus tam tikrus failus, kurie 
 
 Norėdami paleisti vieną ER formato konfigūraciją ir generuoti siunčiamą elektroninį dokumentą, turite nustatyti formato konfigūracijos susiejimą.
 
-#### <a name="FormatComponentInbound"></a>Gaunamų elektroninių dokumentų formato komponentai
+#### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Gaunamų elektroninių dokumentų formato komponentai
 Formato komponentas yra gaunamo dokumento planas, kuris importuojamas vykdymo metu. Schemą sudaro toliau nurodyti elementai.
 
 - Formatas, kuris apibrėžia vykdymo metu importuoto gaunamo elektroninio dokumento, kuriame yra duomenų, struktūrą ir turinį. Formato komponentas naudojamas išanalizuoti įvairiais formatais gaunamą dokumentą, pvz., teksto ir XML.
@@ -144,7 +144,7 @@ Prieiga prie ER formato komponentų priklauso nuo ISO valstybės / regiono kodo 
 
 Skirtingos duomenų formato komponento versijos gali turėti skirtingus ISO valstybės / regiono kodų parametrus.
 
-#### <a name="Configuration"></a>Konfigūravimas
+#### <a name="configuration"></a><a name="Configuration"></a>Konfigūravimas
 
 ER konfigūracija yra tam tikro ER komponento ER viršelis. Šis komponentas gali būti duomenų modelio komponentas arba formato komponentas. Konfigūracija gali apimti skirtingas ER komponento versijas. Kiekviena konfigūracija pažymėta kaip priklausanti konkrečiam konfigūracijos teikėjui. Konfigūracijos komponento versiją **Juodraštis** galima redaguoti, jei konfigūracijos savininkas pasirinktas kaip aktyvus teikėjas programos ER parametruose.
 
@@ -154,26 +154,26 @@ Sukurtoje formato konfigūracijoje yra formato komponentas. Pirminės modelio ko
 
 Programos įmonės bendrai naudoja ER konfigūraciją.
 
-#### <a name="Provider"></a>Teikėjas
+#### <a name="provider"></a><a name="Provider"></a>Teikėjas
 
 ER teikėjas yra šalies identifikatorius, naudojamas kiekvienos ER konfigūracijos autoriui (savininkui) nurodyti. ER suteikia galimybę valdyti konfigūracijos teikėjų sąrašą. Formatų konfigūracijos, skirtos elektroniniams dokumentams kaip „Finance and Operations“ sprendimo dalis, yra pažymėtos kaip priklausančios konfigūracijos teikėjui **Microsoft**.
 
 Norėdami sužinoti, kaip registruoti naują ER teikėją, paleiskite užduočių vedlį **ER: konfigūracijų teikėjo sukūrimas ir pažymėjimas aktyviu** (verslo proceso **7.5.4.3 Įsigyti / sukurti IT paslaugų / sprendimų komponentų (10677)** dalis).
 
-#### <a name="Repository"></a>Saugykla
+#### <a name="repository"></a><a name="Repository"></a>Saugykla
 
 ER saugykloje saugomos ER konfigūracijos. Šiuo metu palaikomos šių tipų ER saugyklos: 
 
 - LCS bendrai naudojama biblioteka
 - LCS projektas
 - Failų sistema
-- „Regulatory Configuration Services“ (RCS)
+- RCS
 - „Operations“ ištekliai
-
+- Visuotinė saugykla
 
 Saugykloje **LCS bendrai naudojama biblioteka** suteikiama prieiga prie „Lifecycle Services“ (LCS) bendrai naudojamo turto bibliotekos konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš LCS bendrai naudojamo turto bibliotekos galite importuoti į esamą egzempliorių.
 
-**LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos etape, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite konfigūracijas importuoti iš **LCS projekto** saugyklos į dabartinį „Finance and Operations“ egzempliorių.
+**LCS projekto** saugykla suteikia prieigą prie tam tikro LCS projekto (LCS projekto turto bibliotekos), pasirinkto saugyklos registracijos metu, konfigūracijų sąrašo. ER suteikia galimybę nusiųsti bendrai naudojamas konfigūracijas iš dabartinio egzemplioriaus į konkrečią **LCS projekto** saugyklą. Taip pat galite konfigūracijas importuoti iš **LCS projekto** saugyklos į dabartinį „Finance and Operations“ programų egzempliorių.
 
 Saugykla **Failų sistema** suteikia prieigą prie konfigūracijų, konkrečiame įrenginio vietinės failų sistemos aplanke, kuriame priglobta AOS tarnyba, esančių kaip XML failai, sąrašo. Reikiamas aplankas pasirenkamas saugyklos registracijos etapo metu. Konfigūracijas iš saugyklos **Failų sistema** galite importuoti į dabartinį egzempliorių. 
 
@@ -184,9 +184,13 @@ Atminkite, kad šio tipo saugykla pasiekiama toliau nurodytose aplinkose.
 
 Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importavimas](./electronic-reporting-import-ger-configurations.md).
 
-Saugykla **RCS egzempliorius** suteikia prieigą prie tam tikro RCS egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. Jei naudojatės ER, užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius galėsite importuoti į dabartinį egzempliorių ir naudoti jas elektroninėms ataskaitoms.
+**RCS** saugykla suteikia prieigą prie tam tikro [konfigūravimo tarnybos (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) egzemplioriaus, pasirinkto saugyklos registracijos etapo metu, konfigūracijų sąrašo. Jei naudojatės ER, užbaigtas arba bendrai naudojamas konfigūracijas iš pasirinkto RCS egzempliorius galėsite importuoti į dabartinį egzempliorių ir naudoti jas elektroninėms ataskaitoms.
 
-Daugiau informacijos rasite [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](./rcs-download-configurations.md).
+Daugiau informacijos žr. [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš RCS](./rcs-download-configurations.md).
+
+**Bendroji saugykla** suteikia prieigą prie [konfigūravimo tarnybos](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) bendrojoje saugykloje esančių konfigūracijų sąrašo. Šio tipo ER saugyklą galima registruoti tik „Microsoft“ teikėjui. Naujausios versijos ER konfigūracijas iš bendrosios saugyklos galite importuoti į esamą egzempliorių.
+
+Daugiau informacijos rasite [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš konfigūravimo tarnybos bendrosios saugyklos](./er-download-configurations-global-repo.md).
 
 Naudojantis saugykla **Operacijų ištekliai** suteikiama prieiga prie konfigūracijų sąrašo, kurį „Microsoft“ kaip ER konfigūracijų teikėjas pirmiausia išleidžia kaip programos sprendimo dalį. Šias konfigūracijas galima importuoti į esamą egzempliorių ir naudoti elektroninėms ataskaitoms kurti arba pavyzdžio užduočių vadovams paleisti. Taip pat jas galima naudoti tolesniam lokalizavimui ir tinkinimui atlikti. Atkreipkite dėmesį į tai, kad importuojant naujausias „Microsoft“ ER konfigūracijose pateiktas versijas iš LCS bendrai naudojamo turto bibliotekos, būtina naudoti atitinkamą ER saugyklą.
 

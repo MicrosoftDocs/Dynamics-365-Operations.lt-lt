@@ -3,7 +3,7 @@ title: Antraštės modulis
 description: Šioje temoje aprašomi antraštės moduliai ir tai, kaip juos kurti puslapio antraštėse „Microsoft Dynamics 365 Commerce“.
 author: anupamar
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cec138ebefbd2beb2f1cf6302ce58d8bbc5c4bbd
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261449"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411223"
 ---
 # <a name="header-module"></a>Antraštės modulis
-
 
 [!include [banner](includes/banner.md)]
 
@@ -36,6 +35,10 @@ ms.locfileid: "3261449"
 „Dynamics 365 Commerce“ puslapio antraštę sudaro keli moduliai, pavyzdžiui, antraštė, naršymo meniu, ieška, reklaminė juosta, sutikimo naudoti slapukus moduliai. 
 
 Antraštės modulyje yra svetainės logotipas, saitai į naršymo hierarchiją, saitai į kitus svetainės puslapius, krepšelio simbolis, pageidavimų sąrašo simbolis, prisijungimo parinktys ir ieškos juosta. Antraštės modulis automatiškai optimizuojamas įrenginiui, kuriame peržiūrima svetainė (kitais žodžiais, stacionariam įrenginiui arba mobiliajam įrenginiui). Pavyzdžiui, mobiliajame įrenginyje naršymo juosta sutraukiama į mygtuką **Meniu** (kuris kartais vadinamas *mėsainio stiliaus meniu*).
+
+Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio antraštės modulio pavyzdys.
+
+![Antraštės modulio pavyzdys](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Antraštės modulio ypatybės
 
@@ -50,31 +53,40 @@ Ypatybę **Mano paskyros saitai** galima naudoti norint apibrėžti paskyros pus
 Antraštės modulyje galima naudoti tolesnius modulius.
 
 - **Naršymo meniu** – naršymo meniu vaizduojama kanalo naršymo hierarchija ir kiti statiniai naršymo saitai. Kanalo naršymo hierarchiją galima konfigūruoti programoje „Dynamics 365 Commerce“. Naršymo meniu turi ypatybę **Naršymo šaltinis**, kuri naudojama norint apibrėžti mažmeninės prekybos serverio naršymo meniu elementus ir statinio meniu elementus kaip šaltinį. Jei statinio meniu elementai apibrėžiami kaip šaltinis, svetainėje gali būti pateikiami susiję saitai į kitus puslapius. Sukonfigūruoti elementai tada rodomi kaip antraštės naršymo elementai. 
+
 - **Ieška** – ieškos modulyje vartotojai gali įvesti ieškos terminus, kad galėtų ieškoti produktų. Numatytojo ieškos puslapio URL ir ieškos užklausos parametrai turi būti pateikti **Svetainės parametrai \> Plėtiniai**. Ieškos modulyje yra ypatybių, kurios leidžia nerodyti ieškos mygtuko arba pažymėti, kaip pageidaujate. Ieškos modulis taip pat palaiko automatinio pasiūlymo parinktis, pavyzdžiui, produktų, raktažodžių ar kategorijų ieškos rezultatus.
+
 - **Krepšelio piktograma** – krepšelio piktogramos modulis vaizduoja krepšelio piktogramą, rodančią krepšelyje esančių prekių skaičių bet kuriuo metu. Daugiau informacijos žr. [Krepšelio piktogramos modulis](cart-icon-module.md).
 
 ## <a name="create-a-header-module-for-a-page"></a>Puslapio antraštės modulio kūrimas
 
 Norėdami sukurti antraštės modulį, atlikite toliau nurodytus veiksmus.
 
-1. Sukurkite fragmentą pavadinimu **Antraštės fragmentas** ir į jį įtraukite konteinerio modulį.
-1. Konteinerio modulio ypatybių srityje nustatykite ypatybę **Plotis** į **Užpildyti konteinerį**.
-1. Į konteinerio modulį įtraukite reklaminę juostą ir sutikimo dėl slapukų modulius.
-1. Į fragmentą įtraukite kitą konteinerio modulį ir ypatybę **Plotis** nustatykite į **Užpildyti konteinerį**.
-1. Į antrą konteinerio modulį įtraukite antraštę.
-1. Antraštės modulio atkarpoje **Naršymo meniu** įtraukite naršymo meniu modulį. 
-1. Naršymo meniu modulio ypatybių srityje sukonfigūruokite naršymo meniu modulio ypatybes.
-1. Į antraštės modulio atkarpą **Ieška** įtraukite ieškos modulį. 
-1. Ieškos meniu modulio ypatybių srityje sukonfigūruokite ieškos modulio ypatybes. 
-1. Antraštės modulio vietoje **Krepšelio piktograma** įtraukite krepšelio piktogramos modulį. 
-1. Krepšelio piktogramos modulio ypatybių srityje sukonfigūruokite krepšelio piktogramos modulio ypatybes. Jei norite, kad būtų rodomas mažasis krepšelis, kai virš jo užvestas pelės žymiklis, nustatykite parinktį **Rodyti mažąjį krepšelį** į **Teisinga**.
-1. Įrašykite puslapio fragmentą, baikite redagavimą ir publikuokite. 
-
+1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte naują fragmentą.
+1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Konteineris**, įveskite puslapio fragmento pavadinimą ir pasirinkite **Gerai**.
+1. Pasirinkite lizdą **Numatytasis konteineris**, tada dešinėje esančioje ypatybių srityje nustatykite ypatybės **Plotis** vertę **Užpildyti konteinerį**.
+1. Vietoje **Numatytasis konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulius **Reklaminė juosta** ir **Sutikimas dėl slapukų**, tada pasirinkite **Gerai**.
+1. Vietoje **Numatytasis konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Pasirinkite vietą **Konteineris**, tada dešinėje esančioje ypatybių srityje nustatykite ypatybės **Plotis** vertę **Užpildyti konteinerį**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Antraštė**, tada pasirinkite **Gerai**.
+1. Antraštės modulio vietoje **Naršymo meniu** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Naršymo meniu** ir **Gerai**.
+1. Naršymo meniu modulio ypatybių srityje pagal poreikį sukonfigūruokite ypatybes.
+1. Antraštės modulio vietoje **Ieška** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Paieška**, tada pasirinkite **Gerai**.
+1. Ieškos modulio ypatybių srityje pagal poreikį sukonfigūruokite ypatybes.
+1. Antraštės modulio vietoje **Krepšelio piktograma** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Krepšelio piktograma**, tada pasirinkite **Gerai**.
+1. Krepšelio piktogramos modulio ypatybių srityje pagal poreikį sukonfigūruokite ypatybes. Jei norite, kad krepšelio piktogramoje būtų rodoma krepšelio santrauka (taip pat žinoma kaip mini krepšelis), kai vartotojai užveda žymeklį, pasirinkite **Rodyti mini krepšelį**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Norėdami padėti užtikrinti, kad antraštė būtų rodoma kiekviename puslapyje, kiekviename sukurtame svetainės puslapio šablone atlikite tolesnius veiksmus.
 
-1. Į numatytojo puslapio atkarpą **Pagrindinis** įtraukite antraštės puslapio fragmentą, kuriame yra antraštės modulis.
-1. Įrašykite šabloną, baikite redagavimą ir publikuokite.
+1. Modulio **Numatytasis puslapis** vietoje **Antraštė** įtraukite jūsų sukurtą poraštės fragmentą.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

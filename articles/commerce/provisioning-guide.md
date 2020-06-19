@@ -3,7 +3,7 @@ title: „Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas
 description: Šioje temoje paaiškinama, kaip parengti „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
 author: psimolin
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 06/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d54db89372a0f9ef5b267d25e14067e3243a803c
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
+ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254753"
+ms.lasthandoff: 06/03/2020
+ms.locfileid: "3426470"
 ---
 # <a name="provision-a-dynamics-365-commerce-preview-environment"></a>„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas
 
@@ -193,7 +193,7 @@ Atlikite toliau pateikiamus veiksmus, norėdami įdiegti aplinką.
 
 1. Prieš tęsdami įsitikinkite, kad jūsų aplinkos būsena yra **Įdiegta**.
 
-### <a name="initialize-the-commerce-scale-unit-csu"></a>Inicijuokite „Commerce scale unit“ (CSU)
+### <a name="initialize-the-commerce-scale-unit-cloud"></a>Inicijuoti „Commerce Scale Unit“ (debesyje)
 
 Norėdami inicijuoti CSU, atlikite toliau nurodytus veiksmus.
 
@@ -215,7 +215,7 @@ Norėdami inicijuoti „e-Commerce“, atlikite toliau nurodytus veiksmus.
 
 1. Skirtuke **„e-Commerce“** peržiūrėkite sutikimą dėl peržiūros ir pasirinkite **Sąranka**.
 1. Lauke **„e-Commerce“ nuomotojo pavadinimas** įveskite pavadinimą. Tačiau įsidėmėkite, kad šis pavadinimas bus rodomas kai kuriuose URL, nukreiptuose į jūsų „e-Commerce“ egzempliorių.
-1. Lauke **„Commerce scale unit“ pavadinimas** iš sąrašo pasirinkite savo CSU. (Sąraše turėtų būti tik viena parinktis.)
+1. Lauke **„Commerce Scale Unit“ pavadinimas** iš sąrašo pasirinkite savo CSU. (Sąraše turėtų būti tik viena parinktis.)
 
     Laukas **„e-Commerce“ geografija** nustatomas automatiškai ir vertės keisti negalima.
 
@@ -251,7 +251,7 @@ Norėdami tęsti „Commerce“ peržiūros aplinkos parengimo ir konfigūravimo
 
 [„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[„Retail Cloud Scale Unit“ (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[„Commerce Scale Unit“ (debesyje)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 

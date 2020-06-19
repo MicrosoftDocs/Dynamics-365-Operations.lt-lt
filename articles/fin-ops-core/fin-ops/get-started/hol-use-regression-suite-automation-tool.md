@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 2d3dde69b102ce161e5c1f1dd393ffceca608bcb
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 0c2babc3144cae5c68075bd853a2587505263776
+ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248741"
+ms.lasthandoff: 05/28/2020
+ms.locfileid: "3410155"
 ---
-# <a name="use-the-regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymo programos naudojimas
+# <a name="regression-suite-automation-tool-tutorial"></a>„Regression Suite Automation Tool“ mokymas
 
 [!include [banner](../includes/banner.md)]
 
@@ -97,7 +97,7 @@ Paleidus tikrinimo atvejį, pranešimas „Excel“ parametro faile palyginamas 
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Kai vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus), esančias darbo kataloge, testavimo atvejų atkūrimo aplanke. Jei naudojate senesnę RSAT versiją, vaizdai įrašomi **C:\\Vartotojai\\\<Vartotojo vardas\>\\AppData\\Roaming\\regressionTool\\atkūrimas**, kiekvienam vykdomam testavimo atvejui sukuriamas atskiras aplankas.
+Kai vykdote testavimo atvejį, RSAT sugeneruoja veiksmų momentines kopijas (vaizdus), esančias darbo kataloge, testavimo atvejų atkūrimo aplanke. Jei naudojate senesnę RSAT versiją, vaizdai įrašomi **C:\\Users\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback**, kiekvienam vykdomam testavimo atvejui sukuriamas atskiras aplankas.
 
 ## <a name="assignment"></a>Priskyrimas
 
@@ -454,7 +454,7 @@ Turite tikrinimo scenarijų, kuris sukuria naują klientą. Naudojant scenarijų
 - Kliento pavadinimas
 - Kliento adresas
 
-Kliento ID bus formato *ATCUS\<skaičius\>*, kai \<skaičius\> yra reikšmė tarp **000000001** ir **999999999**.
+Kliento ID formatas bus *ATCUS\<number\>*, kur \<number\> yra reikšmė nuo **000000001** iki **999999999**.
 
 Tolesnis pavyzdys naudoja vieną parametrą, **pradžia**, kad apibrėžtų pirmą naudojamą skaičių. Jis naudoja antrą parametrą, **Nr.**, kad apibrėžtų klientų, kurie turi būti sukurti, skaičių. Kiekvieno pakartojimo metu „Excel“ parametro failo parametrai pakeičiami naudojant funkciją UpdateCustomer. Tada RSAT komandinė eilutė iškviečiama funkcijoje RunTestCase.
 

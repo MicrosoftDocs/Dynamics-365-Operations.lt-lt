@@ -3,7 +3,7 @@ title: Rekomendacijų su demonstraciniais duomenimis kūrimas
 description: Šioje temoje pateikiama patarimų, kaip naudoti daugiakanales produktų rekomendacijas 1 pakopos vieno lauko aplinkose, naudojant iš anksto paruoštus, tinkinamus demonstracinius duomenis.
 author: bebeale
 manager: AnnBe
-ms.date: 03/30/20
+ms.date: 05/26/20
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec23461352abc53b90b6af539a3dd1764e4b5460
-ms.sourcegitcommit: 67cf9e2cf0f75e90526cae6bf176a40156c62a53
+ms.openlocfilehash: 68275f3e36bce0f641b0273cf3b3b8c8ce9db137
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175554"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404330"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Rekomendacijų su demonstraciniais duomenimis kūrimas
 
@@ -71,7 +71,7 @@ Plėtinyje yra duomenų failas, pavadintas „RecoMockDataset.csv“, kuriuo gal
 
 [Produktų rekomendacijų apžvalga](product-recommendations.md)
 
-[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+[„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje](enable-adls-environment.md)
 
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 

@@ -3,7 +3,7 @@ title: Konteinerio modulis
 description: Šioje temoje aprašomi konteinerio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 93c16da0988cc955835231bdd1f7342f19063f85
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: c7d607047aab92144932b4b59db050a588d6483d
+ms.sourcegitcommit: 2683aacb426bfb3b541637edf1f8ec2d6cb5a745
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025533"
+ms.lasthandoff: 06/01/2020
+ms.locfileid: "3417351"
 ---
 # <a name="container-module"></a>Konteinerio modulis
-
 
 [!include [banner](includes/banner.md)]
 
@@ -46,9 +45,13 @@ Palaikomi trys konteinerio moduliai: konteineris, konteineris su 2 vietomis ir k
 - Svetainės autorius nori šešių stulpelių maketo, kuriame šeši moduliai rodomi vienas šalia kito. Todėl svetainės autorius naudoja konteinerį su šešiais stulpeliais.
 - Svetainės autorius puslapyje nori įdėti modulį, tačiau nenori, kad jis užpildytų ekraną. Todėl svetainės autorius modulį įtraukia į konteinerio modulį ir konteinerio ypatybę **Plotis** nustato kaip **Priderinti prie konteinerio**.
 
+Toliau pateiktame paveikslėlyje parodytas „Commerce“ svetainių daryklėje esančio konteinerio modulio, kuriame yra karuselės modulis, pavyzdys. Šiame pavyzdyje konteinerio modulio ypatybė **Plotis** nustatyta kaip **Užpildyti ekraną**.
+
+![Konteinerio modulio pavyzdys](./media/ecommerce-container.PNG)
+
 ## <a name="container-module-properties"></a>Konteinerio modulio ypatybės
 
-| Ypatybės pavadinimas     | Reikšmės | Aprašymas |
+| Ypatybės pavadinimas     | Reikšmės | aprašymas |
 |-------------------|--------|-------------|
 | Antraštė           | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Galima nurodyti pasirenkamą konteinerio antraštę. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
 | Plotis             | **Priderinti prie konteinerio** arba **Užpildyti ekraną** | Jei reikšmė nustatoma kaip **Priderinti prie konteinerio** (numatytoji reikšmė), konteineryje esantys moduliai ribojami pagal konteinerio plotį. Jei reikšmė nustatoma kaip **Užpildyti ekraną**, moduliai neribojami pagal konteinerio plotį, tačiau jie gali užpildyti ekraną. |
@@ -99,23 +102,32 @@ Naudojant papildomus parametrus, galima optimizuoti skirtingų rodinių maketą.
 
 Norėdami į naują puslapį įtraukti konteinerio leistuvo modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Sukurkite puslapio šabloną, pavadintą **konteinerio šablonas**. 
-1. Srityje **Pagrindinė dalis** įtraukite modulį **Numatytasis modulis**.
-1. Baikite šablono redagavimą ir publikuokite.
-1. Naudodami ką tik sukurtą konteinerio šabloną, sukurkite puslapį, pavadintą **konteinerio puslapis**.
-1. Naujo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
+1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **Konteinerio šablonas** ir pasirinkite **Gerai**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite vaizdo įrašų leistuvo šabloną, kurį sukūrėte. Dalyje **Puslapio pavadinimas** įveskite **Konteinerio puslapis**, tada pasirinkite **Gerai**.
+1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
 1. Konteinerio modulio ypatybių srityje ypatybę **Stulpelių skaičius** nustatykite kaip **1**, o ypatybę **Plotis** – kaip **Užpildyti konteinerį**.
-1. Į konteinerio modulį įtraukite turinio bloko modulį.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Turinio blokas**, tada pasirinkite **Gerai**.
 1. Turinio bloko modulio ypatybių srityje sukonfigūruokite antraštę, vaizdą ir išdėstymą.
-1. Puslapį įrašykite ir peržiūrėkite. Turėtumėte matyti vieną ypatybių modulį, priderintą pire konteinerio modulio pločio.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Turėtumėte matyti vieną ypatybių modulį, priderintą pire konteinerio modulio pločio.
 1. Konteinerio modulio ypatybių srityje ypatybės **Stulpelių skaičius** reikšmę pakeiskite į **3**.
-1. Į konteinerio modulį įtraukite dar du turinio bloko modulius.
-1. Puslapį įrašykite ir peržiūrėkite. Dabar turėtumėte matyti tris turinio bloko modulius, rodomus vienas šalia kito.
-1. Pasiekę norimą maketą, baikite puslapio redagavimą ir publikuokite.
+1. Pridėkite dar du turinio blokų modulius į konteinerio modulį ir sukonfigūruokite juos.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Dabar turėtumėte matyti tris turinio bloko modulius, rodomus vienas šalia kito.
+1. Nustatę pageidaujamą maketą, pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, tada paskelbkite jį pasirinkdami **Publikuoti**.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+
+[Akordeono modulis](add-accordion.md)
+
+[Skirtuko modulis](add-tab.md)
 
 [Karuselės modulis](add-carousel.md)
 
