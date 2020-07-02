@@ -589,6 +589,8 @@
                   href: cost-management/inventory-value-report-storage.md
                 - name: Atsargų skirstymo pagal terminus ataskaitos saugykla
                   href: cost-management/inventory-aging-report-storage.md
+                - name: Atsargų skirstymo pagal terminus ataskaitos pavyzdžiai ir logika
+                  href: cost-management/inventory-aging-report.md
             - name: Gamybos apskaita
               items:
                 - name: KS skaičiavimai
