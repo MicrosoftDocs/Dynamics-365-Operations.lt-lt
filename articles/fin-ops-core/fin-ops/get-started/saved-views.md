@@ -3,7 +3,7 @@ title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
 manager: AnnBe
-ms.date: 04/10/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: fe79558b9d2ac4ef1c83918b949d11983b2cc0d8
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260488"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412336"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -137,7 +137,7 @@ Jeigu publikuotam rodiniui norimi atlikti pakeitimai apima tik publikavimo param
 7. [10.0.9 / 33 ar naujesnis platformos atnaujinimas] Jei iš pradžių pasirinkote šį paskelbtą rodinį kaip numatytąjį rodinį, po pakartotinio paskelbimo jis vėl bus numatytasis šių vartotojų rodinys.  
 
 Jeigu publikuoto rodinio pakeitimai apima su rodiniu susietų personalizavimų ar filtrų modifikavimą, atlikite toliau nurodytus veiksmus. 
-1.  Įjunkite norimą modifikuoti publikuotą rodinį. 
+1.  Įkelkite paskelbtą rodinį, kurį norite modifikuoti. 
 2.  Įrašyti publikuoto rodinio kopiją, kad būtų galima sukurti vietinį publikuoto rodinio juodraštį. 
 3.  Modifikuokite vietinį juodraštį atlikdami reikiamus pakeitimus.
 4.  Publikuokite rodinį nurodydami pradinį pavadinimą. 
@@ -149,14 +149,27 @@ Nors visi vartotojai mato skirtuką **Mano rodiniai**, kuriame rodomi jų asmeni
 
 Toliau išvardyti su visų publikuotų puslapio rodinių sąrašu galimi atlikti veiksmai. 
 
--    **Publikuoti**: veiksmą **Publikuoti** naudokite norėdami iš naujo publikuoti rodinį pakeitus publikavimo parametrus (pavadinimą, aprašą, saugos vaidmenis ar juridinius subjektus).
--    **Pašalinti**: veiksmą **Pašalinti** naudokite norėdami negrįžtamai panaikinti publikuotą rodinį. Šiuo veiksmu pašalinamas visų sistemos vartotojų rodinys. Paskelbtų rodinių pašalinimas įsigalios pasirinkus mygtuką **„Išsaugoti“**.
+-    **Publikuoti** – naudokite veiksmą **Publikuoti**, kad iš naujo publikuotumėte rodinį pakeitus publikavimo parametrus (pavadinimą, aprašą, saugos vaidmenis ar juridinius asmenis).
+-    **Įrašyti kaip asmeninį** – naudokite **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte publikavimo rodinio asmeninį juodraštį. Ši funkcija gali padėti suprasti rodinio turinį, kuris nebuvo jums publikuotas arba kuris dar nebuvo publikuotas. Taip pat galite naudoti jį redaguoti, o tada iš naujo publikuoti rodinį. Ši funkcija pristatyta 10.0.12 versijoje.  
+-    **Pašalinti** – naudokite **Pašalinti** veiksmą, kad visiškai panaikintumėte publikuotą rodinį. Šiuo veiksmu pašalinamas visų sistemos vartotojų rodinys. Paskelbtų rodinių pašalinimas įsigalios pasirinkus mygtuką **„Išsaugoti“**.
+
+## <a name="managing-views-globally"></a>Rodinių valdymas visame pasaulyje
+Nors kai kurie valdymo pajėgumai matosi kiekviename puslapyje, kaip nurodyta šioje temoje,, **sistemos administratoriai** ir **įrašyti rodinio administratoriai** sistemoje gali tvarkyti rodinius labiau visapusiškai naudojant **Personalizavimas** puslapį. Detaliau tyrinėjant, šiame puslapyje yra šie skyriai ir funkcijos: 
+
+- **Publikuoti rodiniai** – šiame skyriuje išvardyti visi jūsų organizacijai publikuoti rodiniai. Iš čia galite iš naujo publikuoti rodinį po to, kai pakoreguojate saugos vaidmenis arba juridinius asmenis, į kuriuos rodinys orientuotas. Taip pat galite eksportuoti arba naikinti vieną ar daugiau publikuotų rodinių. 10.0.12 versijoje ir vėliau galite naudoti **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte asmeninę rodinio kopiją, kad galėtumėte atnaujinti rodinį arba geriau suprasti jo turinį. 
+- **Nepublikuoti rodiniai** – šis skyrius pateikia visus rodinius, importuotus į jūsų sistemą, bet kurie dar nebuvo publikuoti. Galite publikuoti, eksportuoti ar naikinti šiuos rodinius. Dėl **Greito publikavimas** veiksmo, kuris buvo pridėtas 10.0.12 versijoje, šiame skyriuje galima publikuoti kelis rodinius vienu veiksmu, naudojant esamą saugos vaidmenį ir juridinio asmens konfigūracijas. 10.0.12 versijoje ir vėlesnėse galite naudoti **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte šių rodinių kopijas, kad galėtumėte geriau suprasti jų turinį.   
+- **Asmeniniai rodiniai** – šiame skyriuje pateikiami visi vartotojų sistemoje sukurti rodiniai. Nuo čia galite publikuoti asmeninį rodinį organizacijai arba nukopijuoti vieną ar daugiau šių rodinių kitiems vartotojams. Taip pat galite pagal poreikį eksportuoti ar naikinti šiuos rodinius.
+- **Vartotojai** – pasirinkite vartotoją, kad peržiūrėtumėte vartotojo aplankytų puslapių sąrašą. Tada galite koreguoti vartotojo galimybę naudoti personalizavimą konkrečiuose puslapiuose arba visoje sistemoje. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, pristačiusius naujas funkcijas, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
+- **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
+
+Vartotojai, kurie turi prieigą prie puslapio **Personalizavimas**, taip pat gali importuoti asmeninius arba šablonų rodinius, naudodami veiksmų srities mygtuką **Importuoti rodinius**. 10.0.12 versijoje ir vėlesnėse buvo pridėtas mechanizmas, skirtas iš karto publikuoti rodinius juos importavus.  
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje? 
-Pastaba: norėdami įjungti funkciją **„Išsaugoti rodiniai“**, turite įjungti suasmeninimo sistemą, esančią „Finance and Operations“. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
+> [!NOTE]
+> Norėdami įjungti funkciją **Įrašyti rodiniai**, turite įjungti personalizavimo sistemą, esančią „Finance and Operations“. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
 
-**10.0.9 / 33 ar naujesnis platformos atnaujinimas** Funkcija **„Išsaugoti rodiniai“** yra prieinama funkcijų valdyme bet kurioje aplinkoje. Įgalinant šią funkciją, kaip ir visas kitas funkcijas, gamyboje taikoma [Papildomų naudojimo sąlygų sutartis](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / 33 ar naujesnis platformos atnaujinimas** Funkcija **„Išsaugoti rodiniai“** yra prieinama funkcijų valdyme bet kurioje aplinkoje. Kalbant apie kitas peržiūras funkcijas, šios funkcijos įjungimui gamyboje taikomos [Naudojimo sutarties papildomos sąlygos](https://go.microsoft.com/fwlink/?linkid=2105274) nuostatos.  
 
 **10.0.8 / 32 ar ankstesni platformos atnaujinimai** Funkciją **Išsaugoti rodiniai** galima įjungti 1 pakopos (kūrėjų / testavimo) ir 2 pakopos (smėlio dėžė) aplinkoje, kad, sekant toliau nurodytus veiksmus, būtų galima atlikti papildomus bandymus ir projektavimo pakeitimus.
 

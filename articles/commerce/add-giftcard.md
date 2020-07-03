@@ -3,7 +3,7 @@ title: Dovanų kortelės modulis
 description: Šioje temoje aprašomi dovanų kortelių moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 70047376cec44523cc9cfe4df792bde23c776d8c
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: a8428963e105e422dcd048863c17df0926a409ac
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261581"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411117"
 ---
 # <a name="gift-card-module"></a>Dovanų kortelės modulis
 
@@ -35,6 +35,10 @@ ms.locfileid: "3261581"
 Dovanų kortelės yra įprasta mokėjimo forma, o dovanų kortelės modulį galima naudoti pirkimo užbaigimo modulyje, kad dovanų kortelės būtų priimtos. Dovanų kortelės modulis palaiko „Dynamics 365”, „SVS” ir „Givex” dovanų korteles. „SVS” ir „Givex” dovanų kortelėmis apmokama naudojant „Adyen” mokėjimo paslaugų teikėją.
 
 Daugiau informacijos apie išorinių dovanų kortelių, pvz., „SVS” ir „Givex”, palaikymą žr. [Išorinių dovanų kortelių palaikymas](./dev-itpro/gift-card.md)
+
+Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapyje esančio dovanų kortelės modulio pavyzdys.
+
+![Dovanų kortelės modulio pavyzdys](./media/ecommerce-giftcard.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 

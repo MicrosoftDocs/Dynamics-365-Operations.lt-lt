@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: FeatureManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 423ec36a73e8af9d915c5cfe16bd4d552448e2b6
-ms.sourcegitcommit: d1541831d556b722a71aed442043ffb4a4576d87
+ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "3388121"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3431135"
 ---
 # <a name="human-resources-app-in-teams"></a>„Human Resources“ programa platformoje „Teams“
 
@@ -45,6 +45,7 @@ Informacijos apie programų teisių valdymą „Teams“ žr. [Programų teisių
 
 | Išdavimas | Būsena |
 | --- | --- |
+| Klaida: kyla problemų ieškant aplinkos, prie kurios reikia prisijungti. | Galite gauti šią klaidą, net jei patikrinote, kad vartotojas gali pasiekti vieną ar daugiau „Human Resources“ aplinkų. Be to, galbūt nematyti visų numatytų aplinkų. Kol išspręsite šią problemą, panaikinkite vartotoją ir importuokite juos dar kartą, kad išspręstumėte problemą. |
 | Balansas yra netinkamas, kai ne darbo laikas pateikiamas būsimo laikotarpio datai. | Prognozavimas dar negalimas. Rodomas dabartinio laikotarpio balansas. |
 | Sumažinus esamos užklausos valandų skaičių, **Likęs balandas** sumažėja, o ne padidėja. | Šią žinomą problemą spręsime ateityje. Rodoma netinkamai, tačiau tinkami kiekiai koreguojami pateikus. |
 | Toms pačioms datoms rodomos dvi kortelės **Būsimas ne darbo laikas**. | Kortelės atitinka atskiras pateiktis. Toliau priimsime atsiliepimus ir atliksime koregavimus. |

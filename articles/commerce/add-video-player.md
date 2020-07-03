@@ -3,7 +3,7 @@ title: Vaizdo įrašų leistuvo modulis
 description: Šioje temoje aprašomi vaizdo įrašų leistuvo moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e94658eed12b12d6666e63d2c06b86646c81a120
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 0612682d310362c7523bf08db40faf51c80ea2e3
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025664"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411164"
 ---
 # <a name="video-player-module"></a>Vaizdo įrašų leistuvo modulis
 
@@ -47,9 +47,13 @@ Vaizdo įrašų leistuvo modulis taip pat palaiko antrinius garso takelius. Įke
 - Reklaminiai vaizdo įrašai arba vaizdo įrašai apie strategijas bet kuriame rinkodaros puslapyje
 - Rinkodaros vaizdo įrašai, akcentuojantys produktų ypatybes produktų išsamios informacijos puslapiuose ar rinkodaros puslapiuose
 
+Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio vaizdo įrašų leistuvo modulio pavyzdys.
+
+![Vaizdo įrašų leistuvo modulio pavyzdys](./media/ecommerce-videoplayer.PNG)
+
 ### <a name="video-player-module-properties"></a>Vaizdo įrašų leistuvo modulių ypatybės
 
-| Ypatybės pavadinimas         | Vertė                               | Aprašymas |
+| Ypatybės pavadinimas         | Vertė                               | aprašymas |
 |-----------------------|-------------------------------------|-------------|
 | Automatinis paleidimas             | **Teisinga** arba **Klaidinga**               | Kai reikšmė nustatoma kaip **Teisinga**, vaizdo įrašas paleidžiamas automatiškai. |
 | Nutildyti                  | **Teisinga** arba **Klaidinga**               | Kai reikšmė nustatoma kaip **Teisinga**, garsas yra nutildomas. Numatytoji šio leistuvo reikšmė yra **Klaidinga**. Naršyklėje „Chrome“ automatiškai leidžiami vaizdo įrašai yra nutildyti pagal numatytuosius parametrus, o garsas leidžiamas, tik jei vartotojas pats paleidžia vaizdo įrašą. |
@@ -68,16 +72,28 @@ Vaizdo įrašų leistuvo modulis taip pat palaiko antrinius garso takelius. Įke
 
 Norėdami į naują puslapį įtraukti vaizdo įrašų leistuvo modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Sukurkite puslapio šabloną, pavadintą **vaizdo įrašų leistuvo šablonas**.
-1. Numatytojo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį.
-1. Konteinerio modulyje įtraukite vaizdo įrašų leistuvo ir aplinkos vaizdo įrašų leistuvo modulius.
-1. Baikite šablono redagavimą ir publikuokite.
-1. Naudodami ką tik sukurtą vaizdo įrašų leistuvo šabloną, sukurkite puslapį, pavadintą **vaizdo įrašų leistuvo puslapis**.
-1. Naujo puslapio vietoje **Pagrindinis** įtraukite vaizdo įrašų leistuvo modulį.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
+1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **Vaizdo įrašų leistuvo šablonas** ir pasirinkite **Gerai**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Vaizdo įrašų leistuvas**, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite vaizdo įrašų leistuvo šabloną, kurį sukūrėte. Dalyje **Puslapio pavadinimas** įveskite **Vaizdo įrašų leistuvo puslapis**, tada pasirinkite **Gerai**.
+1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Vaizdo įrašų leistuvas**, tada pasirinkite **Gerai**.
 1. Vaizdo įrašų leistuvo modulio ypatybių srityje pasirinkite **Įtraukti vaizdo įrašą**.
 1. Dialogo lange **Medijos parinkiklis** pasirinkite vaizdo įrašą, tada pasirinkite **Įkelti naują medijos elementą**.
-1. Puslapį įrašykite ir peržiūrėkite. Puslapyje turėtumėte matyti vaizdo įrašų leistuvo modulį. Keisdami papildomus parametrus, galite tinkinti modulio veikimą.
-1. Baikite puslapio redagavimą ir publikuokite.
+1. Failų naršyklėje pasirinkite vaizdo įrašo failą ir pasirinkite **Atidaryti**.
+1. Dialogo lange **Įkelti medijos elementą** įveskite pavadinimą ir kitą reikiamą informaciją, tada pasirinkite **Gerai**.
+1. Dialogo lange **Medijos parinkiklis** pasirinkite **Uždaryti**.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Puslapyje turėtumėte matyti vaizdo įrašų leistuvo modulį. Keisdami papildomus parametrus, galite tinkinti modulio veikimą.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

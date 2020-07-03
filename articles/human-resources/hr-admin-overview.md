@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b2d65be5163e5dcb7971f04ebcad2fce55a06dad
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 981a66706c07bb350dd08307213f654e56b232ac
+ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009893"
+ms.lasthandoff: 06/11/2020
+ms.locfileid: "3443423"
 ---
 # <a name="overview"></a>Peržiūrėti
 
@@ -35,21 +35,23 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
   - [Personalo parengimas](hr-admin-setup-provision.md)
   - [Egzemplioriaus kopijavimas](hr-admin-setup-copy-instance.md)
   - [Egzemplioriaus šalinimas](hr-admin-setup-remove-instance.md)
-  - [Proceso naujinimas](hr-admin-setup-update-process.md)
+  - [Atnaujinimo procesas](hr-admin-setup-update-process.md)
 
-- Duomenų integravimo sąranka
+- Duomenų integravimo nustatymas
   - [Duomenų integravimo technologijos pasirinkimas](hr-admin-integration-choose-technology.md)
   - [„Common Data Service“ integravimo konfigūravimas](hr-admin-integration-common-data-service.md)
-  - [Integravimo su „Finance “ konfigūravimas](hr-admin-integration-finance.md)
-  - [Integravimo su „Dayforce “ konfigūravimas](hr-admin-integration-dayforce.md)
+  - [Integravimo su „Finance“ konfigūravimas](hr-admin-integration-finance.md)
+  - [Integravimo su „Dayforce“ konfigūravimas](hr-admin-integration-dayforce.md)
   - [Pasikartojančių duomenų eksportavimo programos kūrimas](hr-admin-integration-recurring-data-export.md)
-  - Integravimas su „ Office‟
+  - Integravimas su „Office“
     - [„Office“ integravimo mokomoji programa](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Objekto duomenų naujinimas programoje „Excel“](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
     - [Atidarymo programoje „Excel“ patirčių kūrimas](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [„Office“ integravimo trikčių diagnostika](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [„Office“ integravimo trikčių šalinimas](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
 - [Funkcijų valdymas](hr-admin-manage-features.md)
+
+- [Duomenų bazės registravimo konfigūravimas ir valdymas](hr-admin-database-logging.md)
 
 - Vartotojo sąsajos naršymas
   - [Vartotojo sąsajos elementai](../fin-ops-core/fin-ops/get-started/user-interface-elements.md?toc=/dynamics365/human-resources/toc.json)
@@ -72,23 +74,22 @@ Vadovaudamiesi šiuo administratoriaus vadovu galėsite nustatyti, valdyti progr
   - [Vartotojo pageidaujamos laiko zonos nustatymas](../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/human-resources/toc.json)
   - [Susipažinkite su „Lifecycle Services“](../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/dynamics365/human-resources/toc.json)
 
-- Dokumentacijos šaltiniai
+- Dokumentacijos ištekliai
   - [Žinyno sistema](../fin-ops-core/fin-ops/get-started/help-overview.md?toc=/dynamics365/human-resources/toc.json)
   - [Žinyno sistemos prijungimas](../fin-ops-core/fin-ops/get-started/help-connect.md?toc=/dynamics365/human-resources/toc.json)
-  - [Pasirinktinio žinyno svetainės prijungimas](../fin-ops-core/fin-ops/get-started/help-custom.md?toc=/dynamics365/human-resources/toc.json        )
   - [Laukų aprašų peržiūra ir eksportas](../fin-ops-core/fin-ops/get-started/view-export-field-descriptions.md?toc=/dynamics365/human-resources/toc.json)
   - [Užduočių įrašymo priemonė](../fin-ops-core/dev-itpro/user-interface/task-recorder.md?toc=/dynamics365/human-resources/toc.json)
   - [Dokumentų ar mokymų kūrimas naudojant užduočių įrašymo priemonę](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
-- „Human Resources“ trikčių diagnostika
+- „Human Resources“ trikčių šalinimas
   - [Palaikymo gavimas](hr-admin-troubleshooting-support.md)
   - [Efektyvumo optimizavimas naudojant automatinio valymo užduotis](hr-admin-troubleshooting-batch-history.md)
   - [Neatnaujinamos analizės ataskaitos](hr-admin-troubleshooting-analytic-reports.md)
   - [Nepavyksta sukurti aplinkos „Power Apps“ administravimo centre](hr-admin-troubleshooting-power-apps.md)
-  - [Klientas atjungiamas](hr-admin-troubleshooting-disconnect.md)
-  - [IKaip išvengti teksto trumpinimo pareigų hierarchijoje](hr-admin-troubleshooting-truncate.md)
+  - [Klientas atsijungia](hr-admin-troubleshooting-disconnect.md)
+  - [Sutrumpinto teksto vengimas pareigų hierarchijoje](hr-admin-troubleshooting-truncate.md)
   - [Kompensavimo proceso vykdymas](hr-admin-troubleshooting-compensation.md)
-  - [Užduočių vadovo įrašymas į LCS](hr-admin-troubleshooting-task-guide.md)
+  - [Užduočių vedlio įrašymas į LCS](hr-admin-troubleshooting-task-guide.md)
   - [Prieiga prie privačių adresų pagal saugos vaidmenį](hr-admin-troubleshooting-private-addresses.md)
   - [„Human Resources“ nėra „Dynamics 365“ programose](hr-admin-troubleshooting-not-in-apps.md)
   - [Ataskaitų parinktys](hr-admin-troubleshooting-reporting.md)

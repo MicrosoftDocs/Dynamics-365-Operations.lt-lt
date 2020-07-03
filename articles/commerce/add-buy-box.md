@@ -3,7 +3,7 @@ title: Pirkimo langelio modulis
 description: Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 095374c14cddf1ae3608ae1427a7144b3e7ca7b2
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 583937be92b62991cd13f0806df4a0a6c9ac049c
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269756"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411347"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
@@ -38,6 +38,10 @@ Terminas *pirkimo langelis* paprastai reiškia produkto išsamios informacijos p
 Pirkimo langelio modulis yra specialus konteineris, kuriame laikomi visi moduliai, rodomi produkto išsamios informacijos puslapio pirkimo langelio srityje.
 
 Produkto išsamios informacijos puslapio URL adrese yra produkto ID. Iš šio produkto ID išvedama visa informacija, kurios reikia norint atvaizduoti pirkimo langelio modulį. Jei produkto ID nėra nurodytas, pirkimo langelio modulis nebus tinkamai vaizduojamas puslapyje. Todėl pirkimo langelio modulį galima naudoti tik tuose puslapiuose, kurie turi produkto kontekstą. Norėdami naudoti jį puslapyje, kuriame nėra produkto konteksto (pavyzdžiui, pagrindinis puslapis arba rinkodaros puslapis), turite atlikti papildomus tinkinimus.
+
+Toliau pateiktame paveikslėlyje parodytas produkto informacijos puslapyje esančio pirkimo langelio modulio pavyzdys.
+
+![Pirkimo langelio modulio pavyzdys](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Pirkimo langelio modulio ypatybės ir vietos 
 
@@ -58,35 +62,47 @@ Temos gali būti naudojamos norint pašalinti arba pakeisti pirkimo langelio pro
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduliai, kuriuos galima naudoti pirkimo langelio modulyje
 
 - **Medijos galerija** – naudojant šį modulį, produkto išsamios informacijos puslapyje demonstruojami produkto vaizdai. Jis gali palaikyti vieną ir daugiau vaizdų. Jis taip pat palaiko miniatiūrų vaizdus. Miniatiūrų vaizdus galima išdėstyti horizontaliai (kaip eilutę po vaizdu) arba vertikaliai (kaip stulpelį prie vaizdo). Medijos galerijos modulį galima įtraukti į pirkimo langelio modulio vietą **Medija**. Šiuo metu jis palaiko tik vaizdus. 
-- **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Daugiau informacijos apie šį modulį žr. [Parduotuvės parinkiklio modulis](store-selector.md).
+- **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Norėdami gauti daugiau informacijos apie šį modulį, žr. [Parduotuvės parinkiklio modulis](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Pirkimo langelio modulių parametrai
 
-Galima konfigūruoti tolesnius tris pirkimo langelio modulių parametrus einant į **Svetainės parametrai \> Plėtiniai**:
+Dalyje **Svetainės parametrai \> Plėtiniai** galima konfigūruoti toliau pateiktus pirkimo langelio modulio parametrus:
 
-- **Maksimalus kiekis** – ši ypatybė yra naudojama nurodyti maksimalų kiekvienos prekės skaičių, kurį galima įtraukti į krepšelį. Pavyzdžiui, pardavėjas gali nuspręsti, kad vienos operacijos metu galima parduoti tik 10 kiekvieno produkto vienetų.
-- **Atsargų patikra** – kai reikšmė nustatoma kaip **Teisinga**, prekė į krepšelį įtraukiama tik tada, kai pirkimo langelio modulis užtikrina, kad yra jos atsargų. Ši atsargų patikra atliekama tose situacijose, kai prekė bus siunčiama, ir situacijose, kai ji bus atsiimama iš parduotuvės. Jei reikšmė nustatoma kaip **Klaidinga**, prieš prekę įtraukiant į krepšelį ir pateikiant užsakymą atsargos nepatikrinamos. Informacijos apie tai, kaip sukonfigūruoti atsargų parametrus įmonės padalinyje, žr. [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
+- **Krepšelio eilutės kiekio riba** – ši ypatybė yra naudojama nurodyti maksimalų kiekvienos prekės skaičių, kurį galima įtraukti į krepšelį. Pavyzdžiui, pardavėjas gali nuspręsti, kad vienos operacijos metu galima parduoti tik 10 kiekvieno produkto vienetų.
+- **Atsargos** – norėdami gauti informacijos apie atsargų parametrų taikymą, žr. [Atsargų parametrų taikymas](inventory-settings.md).
+- **Įtraukti į krepšelį** – ši ypatybė naudojama nurodyti veikimo būdą po to, kai prekė įtraukiama į krepšelį. Galimos vertės yra **Pereiti į krepšelį**, **Nepereiti į krepšelį** ir **Rodyti pranešimus**. Kai nustatyta vertė **Pereiti į krepšelį**, po to, kai įtraukia prekę, vartotojai nukreipiami į krepšelio puslapį. Kai nustatyta vertė **Nepereiti į krepšelį**, po to, kai įtraukia prekę, vartotojai nenukreipiami į krepšelio puslapį. Kai nustatyta vertė **Rodyti pranešimus**, vartotojams parodomas patvirtinimo pranešimas ir jie gali toliau naršyti produkto informacijos puslapyje. 
 
-- **Atsargų buferis** – ši ypatybė naudojama norint nurodyti atsargų buferio skaičių. Atsargos tvarkomos realiuoju laiku ir dideliam klientų skaičiui teikiant užsakymus gali būti sudėtinga turėti tikslų atsargų skaičių. Jei, tikrinant atsargas, jų yra mažiau nei buferio suma, laikoma, kad produkto atsargų nėra. Todėl greitai pardudodant keliais kanalais, kai ne visiškai sinchronizuojamas atsargų kiekis, yra mažiau rizikos, kad bus parduota prekė, kurios atsargų nėra.
+    Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ puslapyje esančio patvirtinimo pranešimo „Įtraukta į krepšelį“ pavyzdys.
+
+    ![Pranešimo modulio pavyzdys](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 
-Pirkimo langelio modulis produkto informaciją gauna naudodamas „Commerce Scale Unit“ API sąsajas. Visa informacija gaunama naudojant produkto išsamios informacijos puslapyje esantį produkto ID.
+Pirkimo langelio modulis produkto informaciją gauna naudodamas „Commerce Scale Unit“ programų kūrimo sąsajas (API). Visa informacija gaunama naudojant produkto išsamios informacijos puslapyje esantį produkto ID.
 
 ## <a name="add-a-buy-box-module-to-a-page"></a>Pirkimo langelio modulio įtraukimas į puslapį
 
 Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Sukurkite fragmentą pavadinimu **pirkimo langelio fragmentas** ir į jį įtraukite pirkimo langelio modulį.
-1. Pirkimo langelio modulio vietoje **Medija** įtraukite medijos galerijos modulį.
-1. Į pirkimo langelio modulio atkarpą **Parduotuvės parinkiklis** įtraukite parduotuvės parinkiklio modulį.
+1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte naują fragmentą.
+1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Pirkimo langelis**.
+1. Dalyje **Puslapio fragmento pavadinimas** įveskite pavadinimą **Pirkimo langelio fragmentas** ir pasirinkite **Gerai**.
+1. Pirkimo langelio modulio vietoje **Medijos galerija** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Medijos galerija**, tada pasirinkite **Gerai**.
+1. Pirkimo langelio modulio vietoje **Parduotuvės parinkiklis** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Parduotuvės parinkiklis**, tada pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
-1. Sukurkite produkto išsamios informacijos puslapio šabloną ir jį pavadinkite **PIIP šablonas**.
-1. Įtraukite numatytąjį puslapį.
-1. Numatytojo puslapio vietoje **Pagrindinis** įtraukite pirkimo langelio fragmentą.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
+1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **PDP šablonas** ir pasirinkite **Gerai**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
+1. Numatytojo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti puslapio fragmentą**.
+1. Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite anksčiau sukurtą **pirkimo langelio fragmentą** ir pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
-1. Naudodami ką tik sukurtą šabloną, sukurkite puslapį, pavadintą **PIIP puslapis**.
-1. Naujo puslapio vietoje **Pagrindinis** įtraukite pirkimo langelio fragmentą.
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną**pasirinkite šabloną **PDP šablonas**. Dalyje **Puslapio pavadinimas** įveskite **PDP puslapis**, tada pasirinkite **Gerai**.
+1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti puslapio fragmentą**.
+1. Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite anksčiau sukurtą **pirkimo langelio fragmentą** ir pasirinkite **Gerai**.
 1. Puslapį įrašykite ir peržiūrėkite. Į peržiūros puslapio URL įtraukite užklausos eilutės parametrą **?productid=&lt;product id&gt;**. Taip peržiūros puslapis įkeliamas ir vaizduojamas naudojant produkto kontekstą.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. Produkto išsamios informacijos puslapyje turėtų būti rodomas pirkimo langelis.
 

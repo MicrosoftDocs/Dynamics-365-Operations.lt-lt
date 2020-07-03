@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55820d7376750c210d2b7f214f705ffcb222c6cd
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0513392fe066e02f0789bcfadb0ee676559cb223
+ms.sourcegitcommit: f3456df4d91cf0c51cd395ae64e3c192bd46835e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212508"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428405"
 ---
 # <a name="production-setup-requirements"></a>Gamybos nustatymo reikalavimai
 
@@ -71,7 +71,7 @@ Jei naudojate maršrutus, operacijos turi būti apibrėžtos kiekvienam nustatyt
 2.  **Išlaidų grupės** – nustatyti išlaidų grupes, siekiant sukurti ir prižiūrėti skirtingus išlaidų tipus.
 3.  **Maršrutų grupės** – nustatyti maršrutų grupes, siekiant apibrėžti parametrus, kurie yra susiję su maršrutų grupėmis. Prieš kuriant gamybos maršrutus, reikia nustatyti maršrutų grupes.
 4.  **Maršrtai** – nustatyti gamybos maršrutus ir apibrėžti numatytąsias nuostatas, siekiant kontroliuoti maršruto operacijų planavimą, įkainojimą ir kainodarą bei kontroliuoti eigos ataskaitas.
-5.  **Maršrutai** – nustatyti maršrutų versijas, siekiant įgalinti prekių nuokrypius gamyboje.
+5.  **Maršruto versija** – nustatyti maršrutų versijas, siekiant įgalinti prekių nuokrypius gamyboje.
 
 ## <a name="optional-advanced-settings"></a>Neprivalomos išplėstinės nuostatos
 1.  **Gamybos grupės** – nustatyti gamybos grupes, siekiant nustatyti gamybos užsakymo ir DK sąskaitų ryšius. DK sąskaitos naudojamos registruoti arba grupuoti ataskaitų užsakymams.

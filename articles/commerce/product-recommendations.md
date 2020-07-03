@@ -3,7 +3,7 @@ title: Produktų rekomendacijų apžvalga
 description: Šioje temoje pateikta bendra informacija apie produkto rekomendacijas. Produktų rekomendacijos leidžia vartotojams lengvai ir greitai rasti norimus produktus ir netgi produktų, kurių jie neketina pirkti.
 author: Moonma
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 05/26/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e61136ed296d673e14600762c6f6199093530546
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 1b01589322c26b6a7b69d1b992b03603f5f3d29a
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154231"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404353"
 ---
 # <a name="product-recommendations-overview"></a>Produktų rekomendacijų apžvalga
 
@@ -40,7 +40,7 @@ Pasitelkdami produktų rekomendacijomis vartotojai gali lengvai ir greitai rasti
 
 Produkto rekomendacijų paslauga naudoja dirbtinio intelekto ir mašininio mokymosi (AI-ML) technologijas toliau nurodytais būdais.
 
-- Rekomendacijų paslaugai reikiamu formatu pateikti duomenys ištraukiami iš „Commerce“ operacinės duomenų bazės ir siunčiami į „Azure Data Lake Storage“ (ADLS) arba objekto parduotuvę.
+- Rekomendavimo paslaugai reikiamu formatu pateikti duomenys ištraukiami iš „Commerce“ operacinės duomenų bazės ir siunčiami į Azure Data Lake Storage arba objekto parduotuvę.
 - Rekomendacijų paslaugai naudojami išsaugoti duomenys, skirti mokyti rekomendavimo modelius sąrašams **Žmonėms taip pat patiko**, **Dažnai kartu perkama**, **Nauja**, **Perkamiausi** ir **Populiaru**.
 
 ## <a name="scenarios"></a>Scenarijai
@@ -67,7 +67,7 @@ Produktų rekomendacijos pasiekiamos toliau nurodytais scenarijais:
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[ADLS įgalinimas „Dynamics 365 Commerce” aplinkoje](enable-adls-environment.md)
+[„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje](enable-adls-environment.md)
 
 [Įjungti produktų rekomendacijas](enable-product-recommendations.md)
 

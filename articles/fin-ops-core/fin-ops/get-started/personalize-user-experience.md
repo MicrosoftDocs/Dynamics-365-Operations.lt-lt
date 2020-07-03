@@ -3,7 +3,7 @@ title: Vartotojo patirties personalizavimas
 description: Šiame straipsnyje paaiškinama, kaip galite personalizuoti programą.
 author: jasongre
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 05/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0a995d25cfc5e78cc76dd73ddea2fb8bd904328
-ms.sourcegitcommit: cd8a28be0acf31c547db1b8f6703dd4b0f62940c
+ms.openlocfilehash: bb66db1e41dce6987bdfc52dd58e2b704ce36720
+ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3260511"
+ms.lasthandoff: 05/30/2020
+ms.locfileid: "3412359"
 ---
 # <a name="personalize-the-user-experience"></a>Vartotojo patirties personalizavimas
 
@@ -117,7 +117,11 @@ Kai atidaroma įrankių juosta **Personalizavimas**, esamas puslapis skirtas tik
 - Įrankį **Perkelti** naudokite norėdami perkelti elementą į kitą dabartinės elementų grupės vietą. Atkreipkite dėmesį, kad negalima perkelti elemento už jo pirminės grupės ribų. Norėdami naudoti šį įrankį, įrankių juostoje pasirinkite mygtuką **Perkelti**, tada pasirinkite norimą perkelti elementą. Pasirinkus elementą, programa nustato vietas, kur leidžiama perkelti elementą. Šios vietos vadinamos *nuvilkimo zonomis*. Velkant elementą dabartinėje grupėje kiekviena nuvilkimo zona rodoma kaip spalvota, paryškinta linija šalia srities, į kurią galima nuvilkti elementą.
 - Įrankį **Praleisti** naudokite norėdami pašalinti elementą iš puslapio klaviatūros tabuliavimo sekos. Paspaudus įrankių juostoje esantį mygtuką **Praleisti** visi šiuo metu praleisti elementai yra rodomi užtamsintame fone. Galite interaktyviai pašalinti arba įtraukti laukus į skirtukų seką.
 - Įrankį **Rodyti antraštėje** naudokite norėdami, kad laukas būtų rodomas „FastTab“ suvestinės skyriuje. Paspaudus įrankių juostoje esantį mygtuką **Rodyti antraštėje** visi pasirinkti suvestinės laukai rodomi užtamsintame fone. Pasirinkdami laukus į „FastTab“ suvestinę galite interaktyviai įtraukti laukų arba iš jos juos pašalinti.
-- Naudokite įrankį **Reikalauti**, kad nurodytumėte elementą, būtiną duomenims įvesti. Paspaudus įrankių juostoje esantį mygtuką **Reikalauti** visi personalizuoti elementai, kurių bus reikalaujama, yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad jų nebūtų reikalaujama. Ši pasirinktis galima tik būsimame leidime, kai įjungtos funkcijos [Įrašyti rodiniai](saved-views.md) ir **Nurodyti būtinus laukus naudojant pritaikymą asmeniniams poreikiams**.
+- Naudokite įrankį **Reikalauti**, kad nurodytumėte elementą, būtiną duomenims įvesti. Paspaudus įrankių juostoje esantį mygtuką **Reikalauti** visi personalizuoti elementai, kad jų būtų reikalaujama, yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad jų nebūtų reikalaujama. Ši parinktis galima tik naudojant 10.0.12 ir naujausią versiją, kai įjungta funkcija **Nurodyti būtinus laukus naudojant pritaikymą asmeniniams poreikiams**.
+
+    > [!IMPORTANT]
+    > Versija 10.0.12 yra peržiūros leidimas. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
 - Įrankį **Užrakinti** naudokite norėdami pažymėti elementą kaip redaguojamą arba neredaguojamą. Paspaudus įrankių juostoje esantį mygtuką **Užrakinti** visi šiuo metu neredaguojami elementai yra rodomi užtamsintame fone. Tada vėl galite padaryti, kad juos būtų galima redaguoti. Atminkite, kad kai kurie laukai būtini ir jų negalima padaryti neredaguojamais. Šalia tų laukų rodomas spynos simbolis.
 - Norėdami įdėti programą į puslapį, sukurtą naudojant „Microsoft Power Apps“, spauskite mygtuką **Pridėti programą iš „Power Apps**“. Norėdami gauti išsamesnės informacijos apie tai, kaip įdėti programą iš „Power Apps“ į puslapį, žr. [Įdėti programą iš „Power Apps“](embed-power-apps.md). Ši parinktis galima tik tada, kai funkcija [Įrašyti rodiniai](saved-views.md) yra išjungta.  
 - Norėdami įdėti programą į puslapį, sukurtą naudojant „Microsoft Power Apps“ arba trečiosios šalies programą, spauskite mygtuką **Pridėti programą**. Ši parinktis galima tik tada, kai įjungta funkcija [Įrašyti rodiniai](saved-views.md). 
@@ -159,28 +163,21 @@ Norėdami personalizuoti ataskaitų sritį, dešiniuoju pelės klavišu spustel�
 - Norėdami pertvarkyti darbo srities išklotines, ypatybių lange pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**, kad atidarytumėte įrankių juostą **Pritaikymas asmeniniams poreikiams**. Tada galite naudoti įrankį **Perkelti** ir pakeisti išklotinių išdėstymo tvarką.
 - Norėdami įtraukti naują darbo srities išklotinę, ypatybių lange paspauskite **Įtraukti darbo sritį**. Nauja darbo srities išklotinė sukuriama ataskaitų srities apačioje. Galite pakeisti šios naujos darbo srities išklotinės pavadinimą. Į darbo sritį taip pat galite įtraukti sąrašų, išklotinių ir nuorodų, kaip aprašyta šios temos skyriuje [Sąrašų, išklotinių arba nuorodų įtraukimas į darbo sritis](#adding-a-tile-list-or-link-to-a-workspace).
 
+
+## <a name="sharing-personalizations"></a>Personalizavimo bendrinimas
+Personalizavę puslapį galite bendrinti personalizavimą su kitais vartotojais eksportuodami personalizuotą puslapį. Tada kitų vartotojų galite paprašyti atidaryti personalizuotą puslapį ir importuoti personalizavimo failą, kurį sukūrėte. Arba galite perduoti savo personalizavimą administratoriaus teises turinčiam vartotojui. Tokiu būdu tas vartotojas galės jūsų personalizavimo failą vienu metu taikyti keliems vartotojams, naudodamas administravimo puslapį **Personalizavimas**.
+
 ## <a name="administration-of-personalizations"></a>Personalizavimo parametrų administravimas
+**Personalizavimo** puslapis yra personalizavimo valdymo organizacijos lygmeniu centras. Šiame puslapyje esantis turinys ir galimybės priklauso nuo to, ar įjungta funkcija **Įrašyti rodiniai**.  
 
-Personalizavę puslapį galite bendrinti personalizavimą su kitais vartotojais eksportuodami personalizuotą puslapį. Tada kitų vartotojų galite paprašyti atidaryti personalizuotą puslapį ir importuoti personalizavimo failą, kurį sukūrėte. Arba galite perduoti savo personalizavimą administratoriaus teises turinčiam vartotojui. Tokiu būdu tas vartotojas galės jūsų personalizavimo failą vienu metu taikyti keliems vartotojams.
+Klientams, kurie įjungė **Įrašytų rodinių** funkciją, žr. dalį „Visuotinis rodinių valdymas“ temoje [„Įrašyti rodiniai“](saved-views.md).  
 
-Vartotojai, turintys administratoriaus teises, taip pat gali valdyti kitų vartotojų personalizavimą puslapyje **Personalizavimas**.
-
-Šiame puslapyje yra keturi skirtukai, skirti klientams, kurie neįjungė funkcijos [Įrašyti rodiniai](saved-views.md).
+Šiame puslapyje yra keturi skirtukai, skirti klientams, kurie dar neįjungė funkcijos [Įrašyti rodiniai](saved-views.md).
 
 - **Taikyti**: galite importuoti arba pasirinkti personalizavimą vienam ar daugiau vartotojų. Norėdami personalizavimą taikyti vienam ar keliems vartotojams, pirmiausia pasirinkite vaidmenį ir vartotojus, kuriems tas vaidmuo suteiktas. Tada pasirinkite esamą personalizavimą, taikykite pasirinktiems vartotojams arba importuokite personalizavimo failą. Personalizavimas patikrinamas ir taikomas visiems pasirinktiems vartotojams, kai jie kitą kartą atidarys pasirinktą puslapį.
 - **Išvalyti**: galite išvalyti visus vieno ar kelių vartotojų puslapio ar darbo srities personalizavimus. Pirmiausia pasirinkite puslapį arba darbo sritį, kad būtų rodomas tą puslapį ar darbo sritį personalizavusių vartotojų sąrašas. Tada pažymėkite vartotojus, kurių puslapio ar darbo srities personalizavimą norėtumėte išvalyti, ir paspauskite **Valyti**. Panaikinami visi personalizavimai, kuriuos pasirinkti vartotojai taikė pasirinktam puslapiui arba darbo sričiai. Šio veiksmo anuliuoti negalima. Tačiau jei buvo įrašytas puslapio ar darbo srities personalizavimas, tokį personalizavimą galima importuoti iš naujo.
 - **Vartotojai**: pasirinkite vartotoją, kad būtų rodomas vartotojo personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, kurie supažindino su naujomis funkcijomis, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
 - **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
-
-Puslapyje **Personalizavimas** yra penki skirtukai, skirti klientams, kurie įjungė funkciją [Įrašyti rodiniai](saved-views.md).
-
-- **Publikuoti rodiniai**: šie rodiniai publikuoti jūsų organizacijoje. Norėdami pakeisti vartotojus, kuriems skirti šie rodiniai, galite keisti saugos vaidmenis arba juridinius subjektus, susietus su kiekvienu rodiniu. Taip pat galite eksportuoti arba naikinti vieną ar daugiau publikuotų rodinių.
-- **Nepublikuoti rodiniai**: šie rodiniai yra šablonų rodiniai, kurie buvo importuoti į jūsų sistemą, tačiau dar nebuvo publikuoti. Galite publikuoti, eksportuoti ar naikinti šiuos rodinius.
-- **Asmeniniai rodiniai**: šiuos rodinius sukūrė sistemos vartotojai. Galite publikuoti asmeninį rodinį organizacijai arba kopijuoti vieną ar daugiau šių rodinių kitiems vartotojams. Taip pat galite pagal poreikį eksportuoti ar naikinti šiuos rodinius.
-- **Vartotojai**: pasirinkite vartotoją, kad būtų rodomas vartotojo personalizuotų puslapių sąrašas. Tada galite įjungti arba išjungti pasirinkto vartotojo galimybę jam naudotis konkrečių puslapių arba visos sistemos personalizavimais. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, kurie supažindino su naujomis funkcijomis, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
-- **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
-
-Vartotojai, kurie turi prieigą prie puslapio **Personalizavimas**, taip pat gali importuoti asmeninius arba šablonų rodinius, naudodami veiksmų srities mygtuką **Importuoti rodinius**.
 
 ## <a name="personalizing-inventory-dimensions"></a>Atsargų dimensijų personalizavimas
 

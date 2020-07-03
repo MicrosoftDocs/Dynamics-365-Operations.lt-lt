@@ -3,7 +3,7 @@ title: FIFO su faktine verte ir žymėjimu
 description: Pirma gaunama, pirma išduodama (FIFO) yra atsargų modelis, kuriame anksčiau gauti gavimai yra išduodami pirmi. Finansiškai atnaujinti atsargų išdavimai yra sudengiami prieš pirma finansiškai atnaujintus atsargų gavimus, pagrįstus atsargų operacijų finansine data.
 author: AndersGirke
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e237d1e9f9bb83d0fe65556eca07c8757f920664
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a66a1b977a4e36f9ad057683366c39a81ba1d833
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201760"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454631"
 ---
 # <a name="fifo-with-physical-value-and-marking"></a>FIFO su faktine verte ir žymėjimu
 
@@ -49,8 +49,8 @@ Naudojant FIFO nereikia naudoti FIFO taisyklės. Užuot ją naudoję, galite pa�
 -   4a. Faktinis atsargų gavimas, kai kiekis yra 1 o išlaidos – 30,00 USD už vienetą.
 -   4b. 1 vieneto, kurio kaina 30,00 USD, finansinis gavimas į atsargas.
 -   5a. Atsargų faktinis išdavimas, kai kiekis – 1, vieneto savikaina – 20,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
--   5b. Atsargų finansinis išdavimas, kai kiekis – 1, kiekvieno savikaina – 20,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
--   6. Atsargų uždarymas atliktas. Pagal FIFO metodą, pirmas finansiškai atnaujintas išdavimas sudengiamas pagal pirmą finansiškai atnaujintą gavimą. Išdavimo operacija bus pakoreguota –10,00 USD.
+-   5b. Atsargų finansinis išdavimas, kai kiekis – 1, kiekvieno savikaina – 15,00 USD (finansiškai atnaujintų operacijų slankusis vidurkis).
+-   6. Atsargų uždarymas atliktas. Pagal FIFO metodą, pirmas finansiškai atnaujintas išdavimas sudengiamas pagal pirmą finansiškai atnaujintą gavimą. Išdavimo operacija bus pakoreguota –5,00 USD.
 
 Nauja veikiančio vidurkio savikaina atitinka finansiškai atnaujintų operacijų vidurkį. Toliau pateiktose iliustracijose parodytas FIFO atsargų modelio poveikis kai kurioms operacijoms, kai parinktis **Įtraukti faktinę vertę** nenaudojama. 
 

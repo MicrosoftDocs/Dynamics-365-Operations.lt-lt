@@ -3,12 +3,12 @@ title: Atostogų ir neatvykimų tipų konfigūravimas
 description: Darbuotojams skiriamų atostogų tipų nustatymas „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df6e34fe6a23e6f0a8307a035752a35a15a3431c
-ms.sourcegitcommit: 79f8aa2c0b166a423db9b8503da53e96e3fc43dc
+ms.openlocfilehash: 1802938f54a1d78e6ea60572a76177a037192ae0
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3198055"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428598"
 ---
 # <a name="configure-leave-and-absence-types"></a>Atostogų ir neatvykimų tipų konfigūravimas
 
@@ -56,7 +56,9 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 
 8. Dalyje **Riboti prieigą prie pasirinktų vaidmenų** pasirinkite, ar norite riboti prieigą. Tada pasirinkite saugos vaidmenis dalyje **Šio atostogų tipo saugos vaidmenys**. Saugos vaidmenys nustatyti darbo eigoje, kurią pasirinkote dalyje **Darbo eigos ID** anksčiau šios procedūros metu.
 
-9. Pasirinkite **Įrašyti**.
+9. Dalyje **Suspendavimo ryšiai** pasirinkite, ar norite, kad šis atostogų tipas suspenduotų kitą atostogų tipą, ar jį suspenduotų kitas atostogų tipas. Kai atostogų prašymas bus pateiktas suspendavimo atostogų tipui, jam bus automatiškai sukurtos suspendavimo atostogos. 
+
+10. Pasirinkite **Įrašyti**.
 
 ## <a name="configure-leave-type-rules"></a>Atostogų tipo taisyklių konfigūravimas
 
@@ -66,16 +68,15 @@ Atostogų tipai programoje „Dynamics 365 Human Resources“ apibrėžia neatvy
 
    Nustatote šventine dienas darbo laiko kalendoriuje. Daugiau informacijos žr. skyriuje [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
    
-## <a name="configure-preview-features"></a>Peržiūros funkcijų konfigūravimas
-
-Jeigu įgalinote atostogų ir neatvykimų peržiūros funkcijas, jums reikės konfigūruoti ir jų parametrus.
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-1. Pasirinkite atostogų tipą, į kurį bus perkeliami perkėlimo balansai. Taip pat galite sukurti naują atostogų tipą, skirtą perkėlimui. 
-
+ 3. Nustatykite **Perkeliamų atostogų tipą** atostogų tipui. Pasirinkus šią parinktį, visi perkeliami likučiai bus perkelti į nurodytą atostogų tipą. Perkeliamų atostogų tipas taip pat turi būti nurodytas atostogų plane. 
+ 
+ 4. Apibrėžkite **Galiojimo taisykles** atostogų tipui. Konfigūruodami šią parinktį, galite pasirinkti dienų ar mėnesių vienetą ir nustatyti galiojimo pabaigos trukmę. Taip pat galite nustatyti galiojimo taisyklės įsigaliojimo datą. Visi galiojimo pabaigos metu esantys atostogų likučiai bus atimami iš atostogų tipo ir bus įtraukti į atostogų likutį. 
+ 
+ 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 
 - [Atostogų ir neatvykimų apžvalga](hr-leave-and-absence-overview.md)
 - [Atostogų ir neatvykimų plano kūrimas](hr-leave-and-absence-plans.md)
 - [Darbo laiko kalendoriaus kūrimas](hr-leave-and-absence-working-time-calendar.md)
+- [Atostogų sustabdymas](hr-leave-and-absence-suspend-leave.md)
+

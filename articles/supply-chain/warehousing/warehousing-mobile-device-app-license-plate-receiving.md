@@ -3,7 +3,7 @@ title: Numerio lentelės gavimas naudojant sandėliavimo programą
 description: Šioje temoje paaiškinama, kaip nustatyti sandėliavimo programą, kad faktinių atsargų gavimui būtų palaikomas numerio lentelės gavimo proceso naudojimas.
 author: perlynne
 manager: tfehr
-ms.date: 03/31/2020
+ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 7d5ac6598ab80ece0164d7c92f5d84e91d21b385
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 82b4f40510d5bbf829508f17f1064886620a4aed
+ms.sourcegitcommit: a3cd2783ae120ac6681431c010b9b126a9ca7d94
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346381"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410890"
 ---
 # <a name="license-plate-receiving-via-the-warehousing-app"></a>Numerio lentelės gavimas naudojant sandėliavimo programą
 
@@ -33,58 +33,59 @@ ASN duomenys yra susieti su kroviniais ir siuntomis naudojant *pakavimo struktū
 > [!NOTE]
 > Kad būtų sumažintas atsargų operacijų skaičius, kai naudojamos pakavimo struktūros, kuriose yra įdėtųjų numerio lentelių, sistema įrašo faktines turimas atsargas pirminėje numerio lentelėje. Norėdami suaktyvinti faktinių turimų atsargų perkėlimą iš pirminės numerio lentelės į įdėtąsias numerio lenteles, remiantis pakavimo struktūros duomenimis, mobilusis įrenginys turi pateikti meniu elementą, kuris yra pagrįstas darbo kūrimo procesu *Pakavimas su įdėtosiomis numerių lentelėmis*.
 
-<!-- To be used later (will require further editing):
-## Warehousing mobile device app processing
+## <a name="warehousing-mobile-device-app-processing"></a>Sandėliavimo mobiliojo įrenginio programėlės apdorojimas
 
-When a worker scans an incoming license plate ID, the system initializes a license plate receiving process. Based on this information, the content of the license plate (data coming from the ASN) gets physically registered at the inbound dock location. The flows that follow will depend your business process needs.
+Darbuotojui nuskaičius gaunamą numerio lentelės ID, sistema inicijuoja numerio lentelės gavimo procesą. Remiantis šia informacija, numerio lentelės turinys (duomenys gaunami iš ASN) faktiškai užregistruojamas atvežimo rampos vietoje. Toliau nurodytas srautas priklausys nuo jūsų verslo proceso poreikių.
 
-## Work policies
+## <a name="work-policies"></a>Darbo strategijos
 
-As with (for example) the *Report as finished* mobile device menu item process, the license plate receiving process supports several workflows based on the defined setup.
+Kaip ir (pavyzdžiui) *Pranešti kaip baigta* mobiliojo įrenginio meniu elementų procese, numerio lentelės gavimo procesas palaiko kelias darbo eigas, pagrįstas nustatyta sąranka.
 
-### Work policies with work creation
+### <a name="work-policies-with-work-creation"></a>Darbo strategijos su darbo kūrimu
 
-Registration of physical on-hand where either the same warehouse worker immediately process a put-away work process following the inbound receiving (License plate receiving and put away) or where the registration and put away process gets handled as two different warehouse operations (License plate receiving) following the processing of the put-away work by using the existing work process via another mobile device menu item.
+Kai registruojate gaunamas prekes naudodami darbo strategiją, kuriančią darbą, sistema sugeneruoja ir išsaugo atidėjimo darbo įrašus kiekvienai registracijai. Jei naudojate *Numerio lentelės gavimas ir atidėjimas* darbo procesą, tada registracija ir atidėjimas yra tvarkomi kaip viena operacija naudojant vieną mobiliojo įrenginio meniu elementą. Jei naudojate *Numerio lentelės gavimas* procesą, gavimo ir atidėjimo procesai yra tvarkomi kaip dvi skirtingos sandėlio operacijos, kurių kiekviena turi savo mobiliojo įrenginio meniu elementą.
 
-## Work policies without work creation
+### <a name="work-policies-without-work-creation"></a>Darbo strategijos be darbo kūrimo
 
-You can use the license plate receiving process without creating work by using the *License plate receiving without creating work* feature.
+Galite naudotis numerio lentelės gavimo procesu nesukūrę darbo. Jei apibrėžiate darbo strategijas, turinčias darbo užsakymo tipą, skirtą *Perkėlimo gavimas* ir (arba) *Pirkimų užsakymai* ir naudojatės procesu, skirtu *Numerio lentelės gavimas ir (atidėjimas)*, šie du „Warehousing mobile app” procesai nesukuria darbo. Vietoj to, jie tik užregistruos gaunamas faktines atsargas, esančias numerio lentelėje atvežimo gavimo rampoje.
 
-By defining **Work policies** with a **Work order type** of *Transfer receipt* and/or *Purchase orders*, and using the **Process** for **License plate receiving (and put away)**, the two Warehousing app process:
+- *Gaunama numerio lentelė*
+- *Numerio lentelės gavimas ir atidėjimas*
 
-- License plate receiving
-- License plate receiving and put away
+> [!NOTE]
+> - Skyriuje **Atsargų vietos** turite nustatyti bent vieną darbo strategijos vietą. Negalite nurodyti tos pačios kelių darbo strategijų vietos.
+> - **Spausdinti etiketes** parinktis, skirta Sandėliavimo mobiliojo įrenginio meniu elementams, nespausdina numerio lentelės etiketėje be darbo kūrimo.
 
-will not create work, but only register the inbound physical inventory on the license plate at the inbound receiving dock.
+Jei norite, kad šios funkcijos būtų prieinamos jūsų sistemoje, turite įjungti *Numerio lentelės gavimo patobulinimai* funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-For more information about the *Report as finished* production scenario, see the [Warehouse work policies overview](warehouse-work-policies.md).
+### <a name="receive-inventory-on-a-location-that-doesnt-track-license-plates"></a>Gaukite vietos atsargas, kurioje nesekamos numerio lentelės
 
--->
+Galima naudoti sandėlio vietą, priskirtą vietos profiliui, net jei **Naudoti numerio lentelės sekimas** funkcija nėra įjungta. Todėl, kai gaunate atsargas, galite tiesiogiai užregistruoti turimas atsargas vietoje nekurdami darbo.
+
+## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Pridėkite mobiliojo įrenginio meniu elementus kiekvienai gavimo vietai sandėlyje
+
+*Numerio lentelės gavimo patobulinimai* funkcija suteikia galimybę gauti bet kurioje sandėlio vietoje, pridedant konkrečiai vietai būdingos numerio lentelės gavimo (ir atidėjimo) meniu elementus į „Warehousing mobile app”. Anksčiau sistema palaikė tik numatytąją vietą, nurodytą kiekvienam sandėliui. Tačiau, kai ši funkcija įjungta, mobiliojo įrenginio meniu elementai, skirti numerio lentelei (ir atidėjimui), dabar suteikia galimybę **Naudoti numatytuosius duomenis** parinktį, leidžiančią pasirinkti pasirinktiną „į” vietą kiekvienam meniu elementui. (Šią pasirinktį jau buvo galima naudoti kai kuriuose kituose meniu elementų tipuose.)
+
+Jei norite, kad šios funkcijos būtų prieinamos jūsų sistemoje, turite įjungti *Numerio lentelės gavimo patobulinimai* funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Gavimo suvestinės puslapio rodymas arba praleidimas
 
 Galite naudoti funkciją *Kontroliuoti, ar mobiliuosiuose įrenginiuose bus rodomas gavimo suvestinės puslapis*, kad numerio lentelės gavimo proceso metu galėtumėte pasinaudoti papildomu išsamiu sandėliavimo programos srautu.
-
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Kontroliuoti, ar mobiliuosiuose įrenginiuose bus rodomas gavimo suvestinės puslapis*
 
 Kai ši funkcija įjungta, mobiliojo įrenginio meniu elementai, skirti numerio lentelei gauti arba numerio lentelei gauti ir atidėti, teikia parametrą **Rodyti gavimo suvestinės puslapį**. Šis parametras turi toliau pateiktas parinktis.
 
 - **Rodyti išsamią suvestinę** – numerio lentelės gavimo metu darbuotojai matys papildomą puslapį, kuriame bus rodoma visa ASN informacija.
 - **Praleisti suvestinę** – darbuotojai nematys visos ASN informacijos. Sandėlio darbuotojai taip pat negalės nustatyti perdavimo kodo arba pridėti išimtis gavimo proceso metu.
 
+Jei norite, kad ši funkcija veiktų jūsų sistemoje, turite įjungti *Kontroliuokite, ar rodyti gaunamą santraukos puslapį mobiliuosiuos įrenginiuose* funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
 ## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje
 
-Numerio lentelės gavimo proceso negalima naudoti, jei ASN yra numerio lentelės ID, kuris jau egzistuoja ir turi faktinių turimų duomenų ne sandėlio, kur vyksta numerio lentelės registravimas, vietoje.
+Numerio lentelės gavimo proceso negalima naudoti, jei ASN yra numerio lentelės ID, kuris jau egzistuoja ir turi faktinių turimų duomenų kitoje sandėlio vietoje, nei sandėlio vietoje, kur vyksta numerio lentelės registracija.
 
 Perkėlimo užsakymo scenarijuose, kuriuose tranzito sandėlis neseka numerio lentelių (todėl taip pat neseka kiekvienos numerio lentelės faktinių turimų atsargų), galite naudoti funkciją *Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje*, kad būtų išvengta faktinių turimų numerio lentelių atnaujinimo tranzito metu.
 
-Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
-
-- **Modulis:** *sandėlio valdymas*
-- **Funkcijos pavadinimas:** *Neleisti perkėlimo užsakyme siunčiamų numerio lentelių naudoti ne paskirties sandėlyje*
+Jei norite, kad ši funkcija veiktų jūsų sistemoje, turite įjungti *Neleisti naudoti perkėlimo užsakymo išsiųstas numerio lenteles kituose sandėliuose, išskyrus kelionės tikslo sandėlį* funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Norėdami valdyti funkciją, kai ji pasiekiama, atlikite toliau pateiktus veiksmus.
 
@@ -96,6 +97,8 @@ Norėdami valdyti funkciją, kai ji pasiekiama, atlikite toliau pateiktus veiksm
 
 ## <a name="more-information"></a>Daugiau informacijos
 
-<!-- To read more about inbound loads, see [Link for Inbound load (Olga's doc.)] -->
-
 Daugiau informacijos apie mobiliojo įrenginio meniu elementus žr. [Mobiliųjų įrenginių nustatymas darbui sandėlyje](configure-mobile-devices-warehouse.md).
+
+Daugiau informacijos apie *Pranešti kaip baigta* gamybos scenarijų rasite [Sandėlio darbo strategijų peržiūroje](warehouse-work-policies.md).
+
+Daugiau informacijos apie gaunamos apkrovos valdymą rasite [Sandėlio pirkimų užsakymų gaunamos apkrovos tvarkymas](inbound-load-handling.md).

@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Commerce“.
 author: josaw
 manager: AnnBe
-ms.date: 05/04/2020
+ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c47c5430a8f5d67e13c95db609a95d5ad66933ae
-ms.sourcegitcommit: a8b6cd799eddaf5be9aec9ea3c2b55e2c3231652
+ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3335281"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443923"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -35,6 +35,16 @@ ms.locfileid: "3335281"
 
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.11 versijoje
+### <a name="data-action-hooks"></a>Duomenų veiksmų trikčių gaudyklės
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Duomenų veiksmų trikčių gaudyklė nebeaktyvi dėl našumo problemų. |
+| **Pakeitė kita funkcija?**   | Vietoj to rekomenduojama, naudoti [duomenų veiksmų perrašymus](../e-commerce-extensibility/data-action-overrides.md), kad modifikuotumėte verslo logiką duomenų veiksmų sluoksnyje.|
+| **Paveiktos produkto sritys**         | El. prekybos išplėtimo duomenų veiksmai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10010-release"></a>Pašalintos arba nebenaudojamos funkcijos, esančios „Commerce“ 10.0.10 versijoje
 ### <a name="pos-operation-803---picking-and-receiving"></a>EKA 803 operacija – paėmimas ir gavimas

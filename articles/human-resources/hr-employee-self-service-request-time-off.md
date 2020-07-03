@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EssWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d871bead89e48e65c411686e1bf3697b13b9a5aa
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: f4c2d082ebe7f97d5c649c38d2462a3c011aa0e7
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009985"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3429594"
 ---
 # <a name="request-time-off"></a>Atostogų užklausa
 
@@ -42,6 +42,12 @@ Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų bal
 5. Jeigu reikia, lauke **Komentaras** įveskite informaciją.
 
 6. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**. Arba pasirinkite **Įrašyti juodraštį**.
+
+## <a name="add-an-attachment-to-an-existing-request"></a>Priedo įtraukimas į esamą užklausą
+
+[!include [banner](includes/preview-feature.md)]
+
+Atnaujindami esamą laiką išleidimo iš darbo užklausos, galite pridėti priedą. Taip pat galite matyti visas su konkrečia data susijusias užklausas. 
 
 ## <a name="view-leave-balances"></a>Peržiūrėti atostogų balansus
 

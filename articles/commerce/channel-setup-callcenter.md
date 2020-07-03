@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 14cee020cc8aead627180343c82bf23534ae83c4
-ms.sourcegitcommit: 0681a00d60c9f8cc8f7b9888b8c5ddf07279fc04
+ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
+ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3131736"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3410418"
 ---
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
@@ -31,10 +31,10 @@ ms.locfileid: "3131736"
 
 Šioje temoje aprašoma, kaip „Microsoft Dynamics 365 Commerce“ sukurti naują skambučių centro kanalą.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
 
-Programoje „Dynamics 365 Commerce“ skambučių centras yra mažmeninės prekybos kanalo tipas, kurį galima nustatyti programoje. Nustačius skambučių centro objektų kanalą, sistema leidžia susieti tam tikrus duomenis ir užsakymų apdorojimą pagal numatytuosius pardavimo užsakymus. Nors įmonė gali nustatyti kelis skambučių centro kanalus programoje „Commerce“, svarbu pažymėti, kad atskiras vartotojas gali būti susietas tik su vienu skambučių centro kanalu. 
+Programoje „Dynamics 365 Commerce“ skambučių centras yra tam tikras „Commerce“ kanalas, kurį galima nustatyti programoje. Nustačius skambučių centro objektų kanalą, sistema leidžia susieti tam tikrus duomenis ir užsakymų apdorojimą pagal numatytuosius pardavimo užsakymus. Nors įmonė gali nustatyti kelis skambučių centro kanalus programoje „Commerce“, svarbu pažymėti, kad atskiras vartotojas gali būti susietas tik su vienu skambučių centro kanalu. 
 
 Prieš kurdami naują skambučių centro kanalą, įsitikinkite, kad įvykdėte [būtinąsias kanalo nustatymo sąlygas](channels-prerequisites.md).
 
@@ -84,7 +84,7 @@ Atlikite toliau nurodytus veiksmus, norėdami nustatyti kiekvieno mokėjimo tipo
 
 Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
-![Mokėjimo metodų pavyzdys](media/channel-setup-retail-5.png)
+![Mokėjimo metodų pavyzdys](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 

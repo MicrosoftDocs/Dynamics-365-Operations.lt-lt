@@ -1,6 +1,6 @@
 ---
-title: ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
-description: Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ (ADLS) „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.
+title: „Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje
+description: Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.
 author: bebeale
 manager: AnnBe
 ms.date: 04/13/2020
@@ -19,57 +19,57 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba428765babb9ca7566da7a457368959b1c29083
-ms.sourcegitcommit: dbff1c6bb371a443a0cd2a310f5a48d5c21b08ca
+ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
+ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "3259753"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3404191"
 ---
-# <a name="enable-adls-in-a-dynamics-365-commerce-environment"></a>ADLS įgalinimas „Dynamics 365 Commerce“ aplinkoje
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ (ADLS) „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.
+Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.
 
 ## <a name="overview"></a>Peržiūrėti
 
-Sprendime „Dynamics 365 Commerce“ visų produktų ir operacijų informacija sekama aplinkos objektų saugykloje. Norint, kad šiuos duomenis būtų galima pasiekti naudojant kitas „Dynamics 365“ tarnybas, pvz., duomenų analizę, verslo įžvalgas ir personalizuotas rekomendacijas, reikia sujungti aplinką su klientui priklausančiu sprendimu „Azure Data Lake Storage“ „Gen 2“ (ADLS).
+Sprendime „Dynamics 365 Commerce“ visų produktų ir operacijų informacija sekama aplinkos objektų saugykloje. Norint, kad šiuos duomenis būtų galima pasiekti naudojant kitas „Dynamics 365“ tarnybas, pvz., duomenų analizę, verslo įžvalgas ir personalizuotas rekomendacijas, reikia sujungti aplinką su klientui priklausančiu „Gen 2“ sprendimu „Azure Data Lake Storage“.
 
-Kadangi ADLS konfigūruojamas aplinkoje, visi reikiami objektų saugyklos duomenys yra dubliuojami, apsaugomi ir valdomi kliento.
+Kadangi „Azure Data Lake Storage“ konfigūruojama aplinkoje, visi reikiami objektų saugyklos duomenys yra dubliuojami, apsaugomi ir valdomi kliento.
 
-Jei produkto rekomendacijos arba personalizuotos rekomendacijos aplinkoje taip pat įgalintos, produkto rekomendacijų dėklui bus suteikta prieiga prie paskirto aplanko, esančio ADLS, kad būtų galima nuskaityti kliento duomenis ir apskaičiuoti jais pagrįstas rekomendacijas.
+Jei produkto rekomendacijos arba personalizuotos rekomendacijos aplinkoje taip pat įgalintos, produkto rekomendacijų dėklui bus suteikta prieiga prie paskirto aplanko, esančio „Azure Data Lake Storage“, kad būtų galima nuskaityti kliento duomenis ir apskaičiuoti jais pagrįstas rekomendacijas.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Klientai turi sukonfigūruoti ADLS jiems priklausančioje „Azure“ prenumeratoje. Šioje temoje neaprašomas „Azure“ prenumeratos pirkimas arba saugyklos abonemento, kuriame įgalintas ADLS, nustatymas.
+Klientai turi sukonfigūruoti „Azure Data Lake Storage“ jiems priklausančioje „Azure“ prenumeratoje. Šioje temoje neaprašomas „Azure“ prenumeratos pirkimas arba saugyklos abonemento, kuriame įgalintas „Azure Data Lake Storage“, nustatymas.
 
-Daugiau informacijos apie ADLS ieškokite [Oficialioje ADLS dokumentacijoje](https://azure.microsoft.com/pricing/details/storage/data-lake).
+Daugiau informacijos apie „Azure Data Lake Storage“ ieškokite [„Azure Data Lake Storage“ oficialioje „Gen2“ dokumentacijoje](https://azure.microsoft.com/pricing/details/storage/data-lake).
   
 ## <a name="configuration-steps"></a>Konfigūravimo veiksmai
 
-Šiame skyriuje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti, norint įgalinti ADLS aplinkoje, susijusioje su produktų rekomendacijomis.
-Išsamesnės informacijos apie veiksmus, reikalingus įgalinti ADLS, žr. [Leidimas objektų saugyklą naudoti kaip „Data Lake“](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
+Šiame skyriuje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti, norint įgalinti „Azure Data Lake Storage“ aplinkoje, susijusioje su produktų rekomendacijomis.
+Išsamesnės informacijos apie veiksmus, reikalingus įgalinti „Azure Data Lake Storage“, žr. [Leidimas objektų saugyklą naudoti kaip „Data Lake“](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 
-### <a name="enable-adls-in-the-environment"></a>ADLS įgalinimas aplinkoje
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a>„Azure Data Lake Storage“ įgalinimas aplinkoje
 
 1. Prisijunkite prie aplinkos tarnybinio biuro portalo.
 1. Ieškokite **Sistemos parametrai** ir pereikite į skirtuką **Duomenų ryšiai**. 
 1. Parinktyje **Įjungti „Data Lake“ integraciją** nustatykite **Taip**.
 1. Parinktyje **Nuolat naujinti „Data Lake“** nustatykite **Taip**.
 1. Paskui įveskite toliau pateikiamą būtiną informaciją.
-    1. **Programos ID** // **Programos slapta informacija** // **DNS pavadinimas** – reikalinga, jungiantis prie KeyVault, kur saugoma slapta ADLS informacija.
-    1. **Slaptas pavadinimas** – slaptas pavadinimas, saugomas KeyVault ir naudojamas autentifikuojant ADLS.
+    1. **Programos ID** // **Programos slapta informacija** // **DNS pavadinimas** – reikalinga, jungiantis prie „KeyVault“, kur saugoma slapta „Azure Data Lake Storage“ informacija.
+    1. **Slaptas pavadinimas** – slaptas pavadinimas, saugomas „KeyVault“ ir naudojamas autentifikuojant „Azure Data Lake Storage“.
 1. Išsaugokite keitimus puslapio viršutiniame kairiajame kampe.
 
-Toliau pateiktame vaizde parodytas ADLS konfigūracijos pavyzdys.
+Toliau pateiktame vaizde parodytas „Azure Data Lake Storage“ konfigūracijos pavyzdys.
 
-![ADLS konfigūracijos pavyzdys](./media/exampleADLSConfig1.png)
+![„Azure Data Lake Storage“ konfigūracijos pavyzdys](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-adls-connection"></a>ADLS ryšio tikrinimas
+### <a name="test-the-azure-data-lake-storage-connection"></a>„Azure Data Lake Storage“ ryšio tikrinimas
 
 1. Patikrinkite ryšį su KeyVault, naudodami saitą **Tikrinti „Azure Key Vault“**.
-1. Patikrinkite ryšį su ADLS, naudodami saitą **Tikrinti „Azure Storage“**.
+1. Patikrinkite ryšį su „Azure Data Lake Storage“, naudodami saitą **Tikrinti „Azure Storage“**.
 
 > [!NOTE]
 > Jei tikrinimo rezultatai neigiami, dar kartą patikrinkite, ar visa pirmiau pateikiama KeyVault informacija yra tinkama, tada bandykite dar kartą.
@@ -86,7 +86,7 @@ Toliau pateiktame vaizde parodytas objektų saugyklos pavyzdys, kai automatinis 
 
 ![Objektų saugyklos pavyzdys, kai automatinis atnaujinimas įjungtas](./media/exampleADLSConfig2.png)
 
-Dabar ADLS aplinkoje sukonfigūruotas. 
+Dabar „Azure Data Lake Storage“ sukonfigūruota aplinkoje. 
 
 Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomendacijas ir personalizavimą](enable-product-recommendations.md) aplinkoje.
 

@@ -3,7 +3,7 @@ title: Teksto bloko modulis
 description: Šioje temoje aprašomi teksto bloko moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fc5b2fa35633b1ce7f7ffefacec318e14fa8db3f
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 93ad09a05d188a30b099b9a44c35e15839be80a7
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025602"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411140"
 ---
 # <a name="text-block-module"></a>Teksto bloko modulis
 
@@ -46,9 +46,13 @@ Teksto bloko modulius galima naudoti toliau nurodytais būdais.
 * Norint produktų išsamios informacijos puslapyje įtraukti pasirinktinių pranešimų. (Pavyzdžiui, „Didesni, nei 50 USD, užsakymai pristatomi nemokamai“).
 * Norint produktų išsamios informacijos puslapiuose, krepšelio puslapiuose, pirkimo užbaigimo puslapiuose ir kituose puslapiuose įtraukti informaciją apie atsakomės atsisakymą ir kontaktinę informaciją (pavyzdžiui, „Siunčiant ir grąžinant prekes taikomos parduotuvės strategijos“).
 
+Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio teksto bloko modulio pavyzdys.
+
+![Teksto bloko modulio pavyzdys](./media/ecommerce-textblock.PNG)
+
 ## <a name="text-block-module-properties"></a>Teksto bloko modulio ypatybės
 
-| Ypatybės pavadinimas     | Value                                            | Aprašymas |
+| Ypatybės pavadinimas     | Vertė                                            | aprašymas |
 |-------------------|--------------------------------------------------|-------------|
 | Raiškusis tekstas         | Raiškusis tekstas                                        | Pastraipos tekstas. Palaikomos kelios pagrindinės raiškiojo teksto galimybės, pvz., paryškintasis, pabrauktasis ir pasvirasis tekstas. |
 | Pasirinktinis klasės pavadinimas | Pakopinio stiliaus aprašų (CSS) klasės pavadinimas        | Pasirinktinės CSS klasės, kurią kūrėjas teikia formatuoti šį modulį, pavadinimas. Klasės pavadinimas turi būti nurodytas temų pakete. |
@@ -58,15 +62,21 @@ Teksto bloko modulius galima naudoti toliau nurodytais būdais.
 
 Norėdami į naują puslapį įtraukti teksto bloko modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Sukurkite puslapio šabloną, pavadintą **Turinio šablonas**. 
-1. Srityje **Pagrindinė dalis** įtraukite modulį **Numatytasis modulis**.
-1. Baikite šablono redagavimą ir publikuokite.
-1. Naudodami ką tik sukurtą turinio šabloną, sukurkite puslapį, pavadintą **Turinio puslapis**.
-1. Naujo puslapio vietoje **Pagrindinis** įtraukite konteinerio modulį.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
+1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **Turinio šablonas**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite **Turinio šablonas**. Dalyje **Puslapio pavadinimas** įveskite **Turinio puslapis**, tada pasirinkite **Gerai**.
+1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
 1. Konteinerio modulio ypatybių srityje nustatykite ypatybę **Plotis** į **Užpildyti konteinerį**.
-1. Į konteinerio modulį įtraukite teksto bloko modulį. 
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Teksto blokas**, tada pasirinkite **Gerai**. 
 1. Teksto bloko modulio ypatybių srityje įtraukite tekstą į lauką **Raiškusis tekstas**.
-1. Baikite puslapio redagavimą ir publikuokite.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

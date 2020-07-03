@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-update-35.md
                 - name: "„Platform“ naujinimai, skirti 10.0.10 (2020\_m. gegužės mėn.)"
                   href: get-started/whats-new-platform-update-34.md
-                - name: "„Platform Update 33” (2020\_m. balandžio mėn.)"
-                  href: get-started/whats-new-platform-update-33.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
@@ -150,6 +148,8 @@
                                   href: data-entities/dual-write/link-your-environment.md
                                 - name: Objekto schemos įjungimas dvigubam rašymui
                                   href: data-entities/dual-write/enable-entity-map.md
+                            - name: Dvigubo rašymo valiutos duomenų tipo perkėlimas
+                              href: data-entities/dual-write/currrency-decimal-places.md
                         - name: Dvigubo rašymo valdymas
                           items:
                             - name: Objektų ir laukų susiejimo tinkinimas
@@ -364,6 +364,8 @@
           items:
             - name: „Azure Data Lake“ apžvalga
               href: data-entities/azure-data-lake-overview.md
+            - name: Eksportavimo į „Azure Data Lake“ konfigūravimas
+              href: data-entities/configure-export-data-lake.md
             - name: „Finance and Operations“ programos „Azure Data Lake“
               href: data-entities/finance-data-azure-data-lake.md
             - name: Leidimas objektų saugyklą naudoti kaip „Data Lake“
@@ -498,6 +500,8 @@
                       href: deployment/onprem-reverseproxy.md
                     - name: Vietinė diagnostika
                       href: deployment/on-premises-diagnostics.md
+                    - name: Vietinė avarinio atkūrimo konfigūracija
+                      href: deployment/onprem-dr.md
                     - name: PowerBI.com integravimas į vietines aplinkas
                       href: analytics/entity-store-on-prem.md
                     - name: Kartotinis aplinkų konfigūravimas
@@ -1436,6 +1440,8 @@
                   href: sysadmin/role-based-security.md
                 - name: Saugos architektūra
                   href: sysadmin/security-architecture.md
+                - name: Šifravimas „Finance and Operations“ programose
+                  href: sysadmin/encryption.md
                 - name: Seanso laukimo būsenos skirtojo laiko nustatymas
                   href: sysadmin/session-idle-timeout.md
                 - name: Parengtos naudoti saugos ataskaitos

@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
 author: AngelMarshall
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tsmarsha
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c5c525b403715ba8dfd3c1bc2dfac4dd69f4a3d
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: e571cc26f55e0bd7a1eef301e193921e0b3f8e31
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367273"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454700"
 ---
 # <a name="removed-or-deprecated-features-in-lifecycle-services-lcs"></a>Pašalintos arba nebenaudojamos „Lifecycle Services” (LCS) funkcijos
 
@@ -56,6 +56,7 @@ ms.locfileid: "3367273"
 <td>Nebenaudojama: tikimasi, kad BPM struktūrinės schemos diagramų komponentas bus pašalintas 2020 m. Toliau nurodytos funkcijos bus nepasiekiamos.
 <ul>
 <li>Visas struktūrines schemas bus galima tik skaityti. Jų redaguoti bus negalima. Formų ypatybės, susietos su struktūrinės schemos veiklomis, bus taip pat nepasiekiamos. Šios struktūrinės schemos apima ir numatytąsias struktūrines schemas, kurios yra automatiškai generuojamos, ir pritaikytas struktūrines schemas, modifikuojamas pagal minėtas numatytąsias struktūrines schemas.</li>
+<li>Proceso veiksmus galite tik skaityti ir negalima jų redaguoti.</li>     
 <li>Senstelėjusi tinkamumo / trūkumų analizės funkcija nebus pasiekiama. Todėl trūkumų sąrašas nebus automatiškai sukuriamas ir jo nebus galima eksportuoti.
 <p><strong>Pastaba.</strong> Ši funkcija anksčiau tapo nebenaudojama ir ją pakeitė „Microsoft Azure DevOps“ integracijos.</p>
 </li>

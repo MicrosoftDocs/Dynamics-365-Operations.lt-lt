@@ -3,7 +3,7 @@ title: Karuselės modulis
 description: Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,16 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f399e4c5618b65b781fdd3ec835e841614579313
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 35aaf35419a8c5b83b2a3e1136a02200bf347c6b
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269733"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411301"
 ---
 # <a name="carousel-module"></a>Karuselės modulis
 
-
+[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi karuselės moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
@@ -44,9 +44,13 @@ Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraišking
 - Karuselę su keliais reklaminiais moduliais galima naudoti produkto išsamios informacijos puslapyje.
 - Karuselę galima naudoti bet kuriame rinkodaros puslapyje norint reklamuoti kelias akcijas ar produktus.
 
+Toliau pateiktame paveikslėlyje parodytas pagrindiniame puslapyje esančio karuselės modulio pavyzdys. Šiame karuselės modulyje yra keli turinio blokų elementai.
+
+![Karuselės modulio pavyzdys](./media/Hero.PNG)
+
 ## <a name="carousel-module-properties"></a>Karuselės modulio ypatybės
 
-| Ypatybės pavadinimas             | Vertė                 | Aprašymas |
+| Ypatybės pavadinimas             | Vertė                 | aprašymas |
 |---------------------------|-----------------------|-------------|
 | Automatinis paleidimas                  | **Teisinga** arba **Klaidinga** | Jei reikšmė nustatoma kaip **Teisinga**, nuo vienos prekės prie kitos karuselėje pereinama automatiškai. Jei reikšmė nustatoma kaip **Klaidinga**, prie kitos prekės nepereinama, nebent klientas nuo vienos prekės prie kitos pereina klaviatūra ar pele. |
 | Skaidrių perėjimo intervalas | Reikšmė sekundėmis    | Perėjimo nuo vienos prekės prie kitos intervalas. |
@@ -58,7 +62,7 @@ Naudojant karuselės modulį kelios reklaminės prekės (įskaitant išraišking
 
 Norėdami į naują puslapį įtraukti karuselės modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Pasirinkite **Naujas**, kad sukurtumėte puslapio šabloną.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
 1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **Karuselės šablonas** ir pasirinkite **Gerai**.
 1. Srityje **Pagrindinė dalis** įtraukite modulį **Numatytasis modulis**.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.  

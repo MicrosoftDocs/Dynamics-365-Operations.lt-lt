@@ -3,7 +3,7 @@ title: ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis – Mod
 description: Šie veiksmai paaiškina, kaip vartotojas, kuriam priskirtas sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmuo, gali konfigūruoti elektroninių ataskaitų (ER) modelį, norėdamas naudoti finansines dimensijas kaip ER ataskaitų duomenų šaltinį.
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 05/27/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 48ce4942f8407242013df45f533390784694d4e6
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 3aabd622d15917d7e4549d0b0679aa20231c5815
+ms.sourcegitcommit: d9125c20b21459076e4fd92fd9ebfe2e53a0431b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142552"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "3406525"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER naudoti finansines dimensijas kaip duomenų šaltinį (2 dalis – Modelio susiejimas)
 
@@ -59,12 +59,14 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 21. Lauke Prašyti pagrindinės sąskaitos pasirinkite Taip.
     * Nustatykite parinktį „Prašyti pagrindinės sąskaitos“ į Taip, kad leistumėte vartotojams pasirinkti pagrindinę sąskaitą kaip dimensijų sąrašo dalį.   Jei pasirinksite Ne, pagrindinė sąskaita nebus įtraukta į dimensijų sąrašą ir parinktis „Ar pagrindinė sąskaita yra privaloma“ bus įjungta. Jei parinktį „Ar pagrindinė sąskaita yra privaloma“ yra nustatyta į Taip, įtraukite pagrindinę sąskaitą į dimensijų sąrašą neatsižvelgdami į vartotojo pasirinkimą.  
 22. Spustelėkite Gerai.
+![ER modelio susiejimo dizaino įrankio puslapis](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Medyje pasirinkite Dynamics 365 for Operations\Table records.
 24. Spustelėkite „Įtraukti šaknį“.
 25. Lauke Pavadinimas įveskite LedgerJournal.
 26. Lauke „Prašyti užklausos“ pasirinkite „Taip“.
 27. Lauke Lentelė įveskite LedgerJournalTable.
-28. Spustelėkite GERAI.
+28. Spustelėkite Gerai.
+![ER modelio susiejimo dizaino įrankio puslapis](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Duomenų modelio elementų susiejimas su įtrauktais duomenų šaltiniais
 1. Medyje išplėskite dalį Žurnalas.
@@ -95,6 +97,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 25. Medyje pasirinkite LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Main account and dimensions.
 26. Medyje pasirinkite Journal\Transaction\Dimensions data.
 27. Spustelėkite Susieti.
+![ER modelio susiejimo dizaino įrankio puslapis](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Medyje pasirinkite LedgerJournal\<Relations\LedgerJournalTrans\Debit(AmountCurDebit).
 29. Medyje pasirinkite Journal\Transaction\Debit.
 30. Spustelėkite Susieti.
@@ -133,6 +136,7 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 63. Lauke expressionAsStringText įveskite Company.'find()'.'name()'.
     * Company.'find()'.'name()'  
 64. Spustelėkite Įrašyti.
+![ER modelio susiejimo dizaino įrankio puslapis](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Uždarykite puslapį.
 66. Spustelėkite Įrašyti.
 67. Uždarykite puslapį.
@@ -142,5 +146,5 @@ Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus
 2. Uždarykite puslapį.
 3. Spustelėkite keisti būseną.
 4. Spustelėkite Baigti.
-5. Spustelėkite GERAI.
-
+5. Spustelėkite Gerai.
+![ER modelio susiejimo dizaino įrankio puslapis](../media/er-financial-dimensions-guides-model-mapping5.png)

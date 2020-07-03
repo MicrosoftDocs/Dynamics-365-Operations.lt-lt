@@ -3,7 +3,7 @@ title: Neautomatinių darbo eigos sprendimų konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti neautomatizuoto sprendimo ypatybes.
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f46b875f52d3d3e7c755ee92dcd5faddf0d94356
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 130cb50369c13bc3478340023c94f169ee5250cf
+ms.sourcegitcommit: a5009c8958037afbaa1dd4f1469255b187ced93a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179124"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3455038"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Neautomatinių darbo eigos sprendimų konfigūravimas
 
@@ -239,26 +239,6 @@ Atlikite šiuos veiksmus, norėdami nurodyti, kam neautomatizuotas sprendimas tu
     <li>Pasirinkę <strong>Vartotojas</strong>, spustelėkite skirtuką <strong>Vartotojas</strong>.</li>
     <li>Sąrašas <strong>Galimi vartotojai</strong> apima visus vartotojus. Pasirinkite, kuriems vartotojams norite priskirti sprendimą, o tada tuos vartotojus perkelkite į sąrašą <strong>Pasirinkti vartotojai</strong>.</li>
     </ol>
-    </td>
-    </tr>
-    <tr>
-    <td>Darbo grupė</td>
-    <td>Darbo elementų eilė</td>
-    <td>
-    <ol>
-    <li>Pasirinkę <strong>Eilė</strong> spustelėkite skirtuką <strong>Pagal eilę</strong>.</li>
-    <li>Norėdami priskirti sprendimą konkrečiai eilei, atlikite šiuos veiksmus. <ol>
-    <li>Sąraše <strong>Eilės tipas</strong> pasirinkite <strong>Darbo elemento eilės</strong>.</li>
-    <li>Sąraše <strong>Eilės pavadinimas</strong> pasirinkite eilę.</li>
-    </ol>
-    </li>
-    <li>Jei nuo tam tikros sąlygos turi priklausyti, kuriai eilei sprendimas turi būti priskirtas, atlikite šiuos veiksmus. <ol>
-    <li>Sąraše <strong>Eilės tipas</strong> pasirinkite <strong>Sąlyginės darbo elemento eilės</strong>.</li>
-    <li>Sąraše <strong>Eilės pavadinimas</strong> pasirinkite <strong>Sąlyginė eilė</strong>.</li>
-    </ol>
-    </li>
-    </ol>
-    <blockquote>[!NOTE] Ši parinktis naudojama tik kelioms darbo eigoms, pvz., atvejų valdymui.</blockquote>
     </td>
     </tr>
     </tbody>

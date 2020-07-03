@@ -3,12 +3,12 @@ title: Peržiūra
 description: Programos Dynamics 365 Human Resources darbo sritis Atostogos ir neatvykimai suteikia lanksčią sistemą, skirtą naujiems atostogų planams ir užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/30/2020
+ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: anbichse
 ms.search.scope: Human Resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bb123b808615ff7d770c7c6b83338a32d922be3
-ms.sourcegitcommit: de217452a85429675994e9cc0e06eb4821cab3e5
+ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
+ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3325770"
+ms.lasthandoff: 06/04/2020
+ms.locfileid: "3428972"
 ---
 # <a name="overview"></a>Peržiūra
 
@@ -84,10 +84,9 @@ Naujas atostogų ir neatvykimų funkcijas galite išbandyti aplinkoje **Smėlio 
 
 Peržiūros funkcijos apima:
 
-- **Atostogų sustabdymas** – programoje „Human Resources” galite sustabdyti darbuotojo atostogas ir neatvykimą. Atostogų sustabdymas sustabdo pasirinktų atostogų tipų atostogų kaupimus. Jei sustabdymas įvyksta po to, kai kaupimas apdorojamas, atostogų sustabdymas sukuria proporcingai paskirstytą darbuotojo atostogų balanso koregavimą. Taip pat sustabdydami darbuotojo atostogas galite įtraukti priežasčių kodus. Vartotojo patirtis atnaujinta, kad būtų galima nurodyti sustabdymą. 
+- **Įmonės arba plano atostogų kaupimas**– galite vykdyti kaupimo procesą visoms įmonėms arba vienai įmonei. Taip pat galite vykdyti konkrečios įmonės konkrečių atostogų plano kaupimo procesą. 
 
-- **Perkėlimo taisyklės** – galite nurodyti perkėlimo atostogų tipą, skirtą perkėlimo balansams ir į kurį perkeliami perkeliamų balansų koregavimai. Pavyzdžiui, jei darbuotojas perkelia 10 dienų, toms 10 dienų galite pasirinkti kitą atostogų tipą. 
+- **Atostogų pirkimas** – galite įgalinti ir kurti atostogų pirkimo strategijas, skirtas darbuotojams, kad jie pateiktų pirkimo reikalavimus. Darbuotojai gali pateikti pirkimo užklausas ir automatiškai atnaujintus likučius, kad galėtų atsižvelgti į užklausą.  
 
-- **Įtraukti koregavimo priežasties kodą ir komentarų** – atlikdami darbuotojo atostogų balanso koregavimus galite įtraukti priežasties kodą ir komentarą. 
+- **Įtraukti priedų į patvirtintas atostogų užklausas** – galite įtraukti priedą į jau patvirtintą atostogų prašymą. 
 
-- **Pereiti į atostogų ir neatvykimų parametrus** – dabar galite naudoti tik atostogų ir neatvykimų parametrus vietoje „Human Resources“ parametrų. 

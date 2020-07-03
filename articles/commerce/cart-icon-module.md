@@ -3,7 +3,7 @@ title: Krepšelio piktogramos modulis
 description: Šioje temoje paaiškinamas krepšelio piktogramos modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8cc96e0476a9d8a46aed7011359dc65fbc678fbf
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
+ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261580"
+ms.lasthandoff: 05/29/2020
+ms.locfileid: "3411094"
 ---
 # <a name="cart-icon-module"></a>Krepšelio piktogramos modulis
 
@@ -33,6 +33,10 @@ ms.locfileid: "3261580"
 ## <a name="overview"></a>Peržiūra
 
 Krepšelio piktogramos modulis nurodo krepšelį puslapio antraštės modulyje esantį krepšelį ir krepšelyje esančių prekių skaičių. Krepšelio piktogramos modulis taip pat nurodo ir krepšelio suvestinę (dar vadinamą mažuoju krepšeliu), kai pelės žymiklis užvestas virš krepšelio piktogramos. Mažasis krepšelis suteikia vartotojui krepšelyje esančių prekių suvestinę ir nereikia pereiti į krepšelio puslapį. Be to, jis taip pat leidžia vartotojui tiesiogiai pereiti prie pirkimo užbaigimo puslapio, jei jis patenkintas suvestine. Tai sumažina naršymo puslapių skaičių ir leidžia greičiau užbaigti pirkimą. 
+
+Toliau pateiktame vaizde parodytas krepšelio piktogramos modulio, kuris rodo mažąjį krepšelį „Fabrikam“ antraštėje, pavyzdys.
+
+![Krepšelio piktogramos modulio pavyzdys](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Modulio ypatybės
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e879ec53a88e5e30257608cba7604b404ac2368a
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e11ccdf138adbf05ae1fc8ef739687b9212ae1fe
+ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383824"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "3403340"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijų konfigūravimas
 
@@ -270,7 +270,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 
 - Strategija pateiks užklausą konkrečiam užsakymų telkiniui, kad galėtų nustatyti klientus, priimančius konsoliduotas siuntas.
 - Konsolidacija su atviromis siuntomis yra išjungta.
-- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją CrossOrder strategiją (kad būtų dubliuotas ankstesnis žymės langelis **Sandėlis**).
+- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį**).
 
 - Galite nepaisyti pardavimo užsakymo taisyklės pasirinkdami kitą užsakymų telkinį.
 
@@ -306,7 +306,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 
 - Strategija pateiks užklausą konkrečiam užsakymų telkiniui, kad galėtų nustatyti sandėlius, galinčius konsoliduoti siuntas.
 - Konsolidacija su atviromis siuntomis yra išjungta.
-- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją CrossOrder strategiją (kad būtų dubliuotas ankstesnis žymės langelis **Sandėlis**).
+- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį**).
 
 Paprastai šis verslo atvejis gali būti sprendžiamas naudojant numatytąsias strategijas, kurias sukūrėte [1 scenarijuje](#scenario-1). Tačiau taip pat galite rankiniu būdu sukurti panašias strategijas atlikdami tolesnius veiksmus.
 
