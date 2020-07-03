@@ -3,7 +3,7 @@ title: Krovimo į konteinerius nustatymas
 description: Šia procedūra aprašoma, kaip automatizuoti krovinių krovimą į konteinerius modulyje Sandėlio valdymas.
 author: ShylaThompson
 manager: tfehr
-ms.date: 07/22/19
+ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f0f042e6ffe5ecf01b9e5044fc83d081528fbc56
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: d08b89ac32b8ec40ae9dff15dbbd3264800cfb1a
+ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383302"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "3454723"
 ---
 # <a name="set-up-containerization"></a>Krovimo į konteinerius nustatymas
 
@@ -75,7 +75,7 @@ ms.locfileid: "3383302"
 5. Lauke **Bangos veiksmo kodas** įveskite reikšmę.
 6. Pažymėkite žymės langelį **Leisti skaidyti paėmimus**.
 7. Pasirinkite **Įrašyti**.
-8. Spustelėkite**Konteinerių maišymo apribojimai**. Maišymo logikos skaidymais galima nustatyti paskirstymo eilučių pakavimo konteineriuose taisykles. Pavyzdžiui, jei įtrauksite **Laukas Prekės numeris**, prekes priskiriant konteineriams ir esant naujam prekės numeriui, bus sukurtas naujas konteineris. Taip darbininkai tame pačiame konteineryje nesupakuos paskirstymo eilučių dviem skirtingiems klientams.  
+8. Pasirinkite **Konteinerio maišymo apribojimai**. Maišymo logikos skaidymais galima nustatyti paskirstymo eilučių pakavimo konteineriuose taisykles. Pavyzdžiui, jei įtrauksite **Laukas Prekės numeris**, prekes priskiriant konteineriams ir esant naujam prekės numeriui, bus sukurtas naujas konteineris. Taip darbininkai tame pačiame konteineryje nesupakuos paskirstymo eilučių dviem skirtingiems klientams.  
 9. Pasirinkite **Naujas**.
 10. Lauke **Lentelė** pasirinkite parinktį.
 11. Lauke **Laukų pasirinkimas** įveskite arba pasirinkite reikšmę.

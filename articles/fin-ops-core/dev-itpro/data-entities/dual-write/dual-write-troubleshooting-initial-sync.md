@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 10065039fce441d7f96f700ff826d959e96f2479
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410086"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443854"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Trikčių šalinimas pradinio sinchronizavimo metu
 
@@ -39,7 +39,7 @@ ms.locfileid: "3410086"
 
 Įgalinus susiejimo šablonus, schemų būsena turi būti **Vykdoma**. Jei būsena yra **Nevykdoma**, pradinio sinchronizavimo metu įvyko klaidų. Norėdami peržiūrėti klaidas, pasirinkite skirtuką **Pradinio sinchronizavimo informacija** puslapyje **Dvigubas rašymas**.
 
-![Pradinio sinchronizavimo informacijos skirtukas](media/initial_sync_status.png)
+![Pradinio sinchronizavimo informacijos skirtuko klaida](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Negalite užbaigti pradinio sinchronizavimo: 400 netinkama užklausa
 
@@ -47,7 +47,7 @@ ms.locfileid: "3410086"
 
 Kai bandote vykdyti susiejimą ir pradinį sinchronizavimą, galite gauti tokį klaidos pranešimą:
 
-*Nuotolinis serveris pateikė klaidą: (400 netinkama užklausa), AX eksportavimo funkcija susidūrė su klaida*
+*(\[Netinkama užklausa\], nuotolinis serveris grąžino klaidą: (400) netinkam užklausa.), AX eksportavimo funkcijoje atsirado klaida*
 
 Čia pateikiamas viso klaidos pranešimo pavyzdys.
 
@@ -86,130 +86,127 @@ Norėdami ištaisyti klaidą, atlikite toliau nurodytus veiksmus.
 1. Prisijungimas prie „Finance and Operations” programos.
 2. Puslapyje **„Azure Active Directory” programos** panaikinkite klientą **DtAppID** ir vėl jį pridėkite.
 
-![„Azure AD” programų sąrašas](media/aad_applications.png)
+![DtAppID klientas „Azure AD” programų sąraše](media/aad_applications.png)
 
-## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Nuorodų į save arba ciklinių nuorodų klaidos pradinio sinchronizavimo metu
+## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Nepavykusi auto-nuoroda arba ciklinių nuorodų klaidos pradinio sinchronizavimo metu
 
 Jeigu bet kurie iš jūsų susiejimų turi nuorodų į save ar ciklinių nuorodų, galite gauti klaidos pranešimų. Klaidos skirstomos į toliau pateiktas kategorijas.
 
-- [Objektų „Tiekėjai V2“ ir „msdyn_vendors“ susiejimas](#error-vendor-map)
-- [Objektų „Klientai V3“ ir „Paskyros“ susiejimas](#error-customer-map)
+- [Klaidos Tiekėjuose V2–to–msdyn_tiekėjai objekto susiejimas](#error-vendor-map)
+- [Klaidos Klientuose V3–to–Paskyros objekto susiejimas](#error-customer-map)
 
-## <a name="resolve-an-error-in-vendors-v2-to-msdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Objektų „Tiekėjai V2ׅ“ ir „msdyn_vendors“ susiejimo klaidos šalinimas
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Išspręsti problemas Tiekėjuose V2–to–msdyn_tiekėjai objekto susiejimas
 
-Atlikdami **Tiekėjai V2** susiejimą su **msdyn_vendors** gali kilti toliau pateiktų pradinio sinchronizavimo klaidų, jei objektai turi esamų įrašų su vertėmis laukuose **PrimaryContactPersonId** ir **InvoiceVendorAccountNumber**. Taip yra todėl, kad susiejant tiekėją **InvoiceVendorAccountNumber** yra nuorodos į save laukas, o **PrimaryContactPersonId** yra ciklinė nuoroda.
+Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Tiekėjai V2** su **msdyn\_tiekėjai**, jei objektai turi egzistuojančius įrašus, kai yra verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** yra nuorodos į save laukas, o **PirminioKontaktinioAsmensId** yra ciklinė nuoroda tiekėjo susiejime.
 
-*Nepavyko išspręsti lauko guid: <field>. Peržvalga nerasta: <value>. Naudodami šį (šiuos) URL patikrinkite, ar yra nuorodos duomenys: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+Gauti klaidos pranešimai bus šios formos.
+
+*Nepavyko išspręsti lauko GUID: \<field\>. Peržvalga nerasta: \<value\>. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar yra nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
 Štai keletas pavyzdžių:
 
-- *Nepavyko išspręsti lauko guid: msdyn_vendorprimarycontactperson.msdyn_contactpersonid. Peržvalga nerasta: 000056. Naudodami šį (šiuos) URL patikrinkite, ar yra nuorodos duomenys: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Nepavyko išspręsti lauko guid: msdyn_invoicevendoraccountnumber.msdyn_vendoraccountnumber. Peržvalga nerasta: V24-1. Naudodami šį (šiuos) URL patikrinkite, ar yra nuorodos duomenys: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'*
+- *Nepavyko išspręsti lauko GUID: msdyn\_tiekėjopirminiskontaktinisasmuo.msdyn\_kontaktinioasmensid. Peržvalga nerasta: 000056. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Nepavyko išspręsti lauko GUID: msdyn\_sąskaitosfaktūrostiekėjopaskyrosnumeris.msdyn\_tiekėjopaskyrosnumeris. Peržvalga nerasta: V24-1. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Jei jūs tiekėjo objekte turite įrašų su vertėmis šiuose laukuose, vadovaukitės tolesniame skyriuje pateiktais veiksmais, kad sėkmingai atliktumėte pradinį sinchronizavimą.
+Jei įrašai tiekėjo objekte turi verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukuose, vykdykite šiuos žingsnius, kad užbaigtumėte pradinę sinchronizaciją.
 
-1. Finance and Operations programoje panaikinkite laukus **PrimaryContactPersonId** ir **InvoiceVendorAccountNumber** iš susiejimo ir įrašykite pakeitimus.
+1. „Finance and Operations” programoje panaikinkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukus iš susiejimo ir tada jį įrašykite.
 
-    1. Pereikite į **Tiekėjai V2 (msdyn_vendors)** dvigubo rašymo susiejimo puslapį ir pasirinkite skirtuką **Objektų susiejimai**. Kairiajame filtre pasirinkite **Finance and Operations programos.Tiekėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
+    1. Dvigubo rašymo susiejimo puslapyje **Tiekėjai V2 (msdyn\_tiekėjai)**, **Objekto susiejimai** skirtuke, kairiajame filtre pasirinkite **„Finance and Operations” programos.Tiekėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
+    2. Paieškoje įveskite **pirminiskontaktinisasmuo**, kad surastumėte **PirminioKontaktinioAsmensId** šaltinio lauką.
+    3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
-    2. Paieškoje įveskite **primarycontactperson**, kad surastumėte šaltinio lauką **PrimaryContactPersonId**.
-    
-    3. Spustelėkite mygtuką **Veiksmai** ir pasirinkite **Naikinti**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 3](media/vend_selfref3.png)
-    
-    4. Pakartokite veiksmus, kad panaikintumėte lauką **InvoiceVendorAccountNumber**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 4](media/vend-selfref4.png)
-    
-    5. Įrašykite susiejimo pakeitimus.
+        ![PirminioKontaktinioAsmensId lauko naikinimas](media/vend_selfref3.png)
 
-2. Išjunkite objekto **Tiekėjai V2** keitimų sekimą.
+    4. Pakartokite šiuos veiksmus, kad panaikintumėte **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** lauką.
 
-    1. Eikite į **Duomenų valdymas \> Duomenų objektai**.
-    
+        ![SąskaitosFaktūrosTiekėjoPaskyrosNumerio lauko naikinimas](media/vend-selfref4.png)
+
+    5. Įrašykite savo pakeitimus susiejime.
+
+2. Išjunkite **Tiekėjai V2** objekto keitimų sekimą.
+
+    1. **Duomenų valdymas** darbo srityje pasirinkite **Duomenų objektai** plytelę.
     2. Pasirinkite objektą **Tiekėjai V2**.
-    
-    3. Meniu juostoje spustelėkite **Parinktys**, tada – **Keisti sekimą**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 5](media/selfref_options.png)
-    
-    4. Spustelėkite **Išjungti keitimų sekimą**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 6](media/selfref_tracking.png)
+    3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
 
-3. Paleiskite pradinį **Tiekėjai V2 (msdyn_vendors)** susiejimo sinchronizavimą. Pradinis sinchronizavimas turėtų būtį įvykdytas sėkmingai ir be klaidų.
+        ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
 
-4. Paleiskite pradinį **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizavimą. Turite sinchronizuoti šį susiejimą, jei norite sinchronizuoti tiekėjų objekto pagrindinio kontakto lauką, nes kontaktų įrašams taip pat turi būti atliekamas pradinis sinchronizavimas.
+    4. Pasirinkite **Išjungti keitimų sekimą**.
 
-5. Įtraukite laukus **PrimaryContactPersonId** ir **InvoiceVendorAccountNumber** atgal į **Tiekėjai V2 (msdyn_vendors)** susiejimą ir įrašykite jį.
+        ![Išjungti keitimų sekimą pasirinkimas](media/selfref_tracking.png)
 
-6. Dar kartą paleiskite pradinį **Tiekėjai V2 (msdyn_vendors)** susiejimo sinchronizavimą. Visi įrašai bus sinchronizuoti, nes keitimų sekimas yra išjungtas.
+3. Paleiskite pradinę sinchronizaciją, skirtą **Tiekėjai V2 (msdyn\_tiekėjai)** siejimui. Pradinė sinchronizacija turėtų pavykti sėkmingai be klaidų.
+4. Paleiskite pradinę **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizaciją. Turite sinchronizuoti šį susiejimą, jei norite sinchronizuoti pirminių kontaktų lauką tiekėjų objekte, nes taip pat turite atlikti kontaktų įrašų sinchronizaciją.
+5. Pridėkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukus vėl į **Tiekėjai V2 (msdyn\_tiekėjai)** susiejimą ir tada jį įrašykite.
+6. Vėl paleiskite pradinę sinchronizaciją, skirtą **Tiekėjai V2 (msdyn\_tiekėjai)** susiejimui. Kadangi keitimų sekimas išjungtas, visi įrašai bus sinchronizuoti.
+7. Vėl įjunkite **Tiekėjai V2** objekto keitimų sekimą.
 
-7. Įjunkite objekto **Tiekėjai V2** keitimų sekimą.
+## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>„Klientai V3 į Paskyras objekto susiejimą” klaidų šalinimas
 
-## <a name="resolve-an-error-in-customers-v3-to-accounts-entity-mapping"></a><a id="error-customer-map"></a>Objektų „Klientai V3“ ir „Paskyros“ susiejimo klaidų šalinimas
+Galite atsirasti pradinės sinchronizacijos klaidų susiejant **Klientai V3** su **Paskyros**, jei objektuose yra įrašų, kuriuose yra verčių **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosPaskyra** yra nuorodos į save laukas, o **KontaktinioAsmensID** yra ciklinė nuoroda tiekėjo susiejime.
 
-Atlikdami **Klientai V3** susiejimą su **Paskyros** gali kilti toliau pateiktų pradinio sinchronizavimo klaidų, jei objektai turi įrašų su vertėmis laukuose **ContactPersonID** ir **InvoiceAccount**. Taip yra todėl, kad susiejant tiekėją **InvoiceAccount** yra nuorodos į save laukas, o **ContactPersonID** yra ciklinė nuoroda.
+Gauti klaidos pranešimai bus šios formos.
 
-*Nepavyko išspręsti lauko guid: <field>. Peržvalga nerasta: <value>. Naudodami šį (šiuos) URL patikrinkite, ar yra nuorodos duomenys: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>*
+*Nepavyko išspręsti lauko GUID: \<field\>. Peržvalga nerasta: \<value\>. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar yra nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/<entity>?$select=<field>&$filter=<field> eq <value>`*
 
-- *Nepavyko išspręsti lauko guid: primarycontactid.msdyn_contactpersonid. Peržvalga nerasta: 000056. Naudodami šį (šiuos) URL patikrinkite, ar yra nuorodos duomenys: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'*
-- *Nepavyko išspręsti lauko guid: msdyn_billingaccount.accountnumber. Peržvalga nerasta: 1206-1. Naudodami šį (šiuos) URL patikrinkite, ar yra nuorodos duomenys: https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account$filter=accountnumber eq '1206-1'*
+Štai keletas pavyzdžių:
 
-Jei jūs kliento objekte turite įrašų su vertėmis šiuose laukuose, vadovaukitės tolesniame skyriuje pateiktais veiksmais, kad sėkmingai atliktumėte pradinį sinchronizavimą. Galite naudoti šį metodą bet kuriems iš karto pasiekiamiems objektams, pvz., „Paskyros“ ir „Kontaktai“.
+- *Nepavyko išspręsti lauko GUID: pirminiokontaktoid.msdyn\_kontaktinioasmensid. Peržvalga nerasta: 000056. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
+- *Nepavyko išspręsti lauko GUID: msdyn\_atsiskaitymopaskyra.paskyrosnumeris. Peržvalga nerasta: 1206-1. Pabandykite šį (-iuos) URL adresą (-us), kad patikrintumėte, ar egzistuoja nuorodos duomenys: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-1. „Finance and Operations“ programoje panaikinkite laukus **ContactPersonID** ir **InvoiceAccount** iš **Klientai V3 (paskyros)** susiejimo ir įrašykite pakeitimus.
+Jei įrašai kliento objekte turi verčių **KontaktinioAsmensId** ir **SąskaitosFaktūrosPaskyra** laukuose, atlikite šiuos veiksmus, kad užbaigtumėte pradinę sinchronizaciją. Galite naudoti šį metodą bet kuriems paruoštiems objektams, pvz., **Paskyros** ir **Kontaktai**.
 
-    1. Eikite į **Klientai V3 (paskyros)** dvigubo rašymo susiejimo puslapį ir pasirinkite skirtuką **Objektų susiejimai**. Kairiajame filtre pasirinkite **Finance and Operations programa.Tiekėjai V3**. Dešiniajame filtre pasirinkite **Common Data Service.Paskyra**.
+1. „Finance and Operations“ programoje panaikinkite laukus **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukus iš **Klientai V3 (paskyros)** susiejimo ir tada jį įrašykite.
 
-    2. Paieškoje įveskite **contactperson**, kad surastumėte šaltinio lauką **ContactPersonID**.
-    
-    3. Spustelėkite mygtuką **Veiksmai** ir pasirinkite **Naikinti**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 3](media/cust_selfref3.png)
-    
-    4. Pakartokite, kad panaikintumėte lauką **InvoiceAccount**.
-    
-        ![nuoroda į save ar ciklinė nuoroda](media/cust_selfref4.png)
-    
-    5. Įrašykite susiejimo pakeitimus.
+    1. Dvigubo rašymo susiejimo puslapyje, skirtame **Klientai V3 (paskyros)** **Objektų susiejimai** skirtuke kairiajame filtre pasirinkite **Finance and Operations programa.Klientai V3**. Dešiniajame filtre pasirinkite **Common Data Service.Paskyra**.
+    2. Paieškoje įveskite **kontaktinisasmuo**, kad surastumėte **KontaktinioAsmensID** šaltinio lauką.
+    3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
-2. Išjunkite objekto **Klientai V3** keitimų sekimą.
+        ![KonatktinioAsmensId lauko naikinimas](media/cust_selfref3.png)
 
-    1. Eikite į **Duomenų valdymas \> Duomenų objektai**.
-    
+    4. Pakartokite šiuos veiksmus, kad panaikintumėte **SąskaitosFaktūrosPaskyra** lauką.
+
+        ![SąskaitosFaktūrosPaskyros lauko naikinimas](media/cust_selfref4.png)
+
+    5. Įrašykite savo pakeitimus susiejime.
+
+2. Išjunkite **Klientai V3** objekto keitimų sekimą.
+
+    1. **Duomenų valdymas** darbo srityje pasirinkite **Duomenų objektai** plytelę.
     2. Pasirinkite objektą **Klientai V3**.
-    
-    3. Meniu juostoje spustelėkite **Parinktys**, tada – **Keisti sekimą**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 5](media/selfref_options.png)
-    
-    4. Spustelėkite **Išjungti keitimų sekimą**.
-    
-        ![nuoroda į save ar ciklinė nuoroda 6](media/selfref_tracking.png)
+    3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
 
-3. Paleiskite pradinį **Klientai V3 (Paskyros)** susiejimo sinchronizavimą. Pradinis sinchronizavimas turėtų būtį įvykdytas sėkmingai ir be klaidų.
+        ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
 
-4. Paleiskite pradinį **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizavimą. Yra 2 schemos su tuo pačiu pavadinimu. Pasirinkite tą, kurios aprašymas yra **Dvigubo rašymo šablonas, skirtas sinchronizuoti FO.CDS Tiekėjo kontaktai V2 su CDS.Kontaktai. Reikalingas naujas paketas \[Dynamics365SupplyChainExtended\] .** schemos skirtuke **Išsami informacija**.
+    4. Pasirinkite **Išjungti keitimų sekimą**.
 
-5. Įtraukite laukus **InvoiceAccount** ir **ContactPersonId** atgal į **Klientai V3 (Paskyros)** susiejimą ir įrašykite jį. Dabar laukai **InvoiceAccount** ir **ContactPersonId** vėl įtraukti į tiesioginio sinchronizavimo režimą. Kitame veiksme užbaigiate pradinį šių laukų sinchronizavimą.
+        ![Išjungti keitimų sekimą pasirinkimas](media/selfref_tracking.png)
 
-6. Vėl paleiskite pradinį **Klientai V3 (Paskyros)** susiejimo sinchronizavimą. Kadangi keitimų sekimas yra išjungtas, paleidus sinchronizavimą bus sinchronizuoti **InvoiceAccount** ir **ContactPersonId** duomenys iš „Finance and Operations“ programos į „Common Data Service“.
+3. Paleiskite pradinę **Klientai V3 (Paskyros)** susiejimo sinchronizaciją. Pradinė sinchronizacija turėtų pavykti sėkmingai be klaidų.
+4. Paleiskite pradinę **CDS Kontaktai V2 (kontaktai)** susiejimo sinchronizaciją.
 
-7. Norėdami sinchronizuoti **InvoiceAccount** ir **ContactPersonId** duomenis iš „Common Data Service“ į „Finance and Operations“, naudokite duomenų integravimo projektą.
+    > [!NOTE]
+    > Yra du tokiu pačiu pavadinimu žemėlapiai. Būtinai pasirinkite žemėlapį, turintį tokį aprašą **Išsami informacija** skirtuke: **Dvigubo rašymo šablonas, skirto FO.CDS Tiekėjo Kontaktai V2 su to CDS.Kontaktai sinchronizacijai atlikti. Reikalingas naujas paketas \[Dynamics365PraplėstaTiekimoGrandinė\].**
 
-    1. „Power Apps“ sukurkite duomenų integravimo projektą tarp **Pardavimai.Paskyra** ir **Finance and Operations programos.Klientai V3** objektų. Duomenų kryptis turi būti iš „Common Data Service“ į „Finance and Operations“ programą.  Kadangi **InvoiceAccount** yra naujas atributas dvigubo rašymo funkcijoje, rekomenduojama praleisti pradinį šio atributo sinchronizavimą. Prireikus daugiau informacijos, žr. [Duomenų integravimas į Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+5. Pridėkite **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** laukus vėl į **Klientai V3 (Paskyros)** susiejimą ir tada įrašykite jį. Abu **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** laukai dabar įtraukti į tiesioginio sinchronizavimo režimą. Kitame veiksme atliksite šių laukų sinchronizaciją.
+6. Vėl paleiskite pradinę **Klientai V3 (Paskyros)** susiejimo sinchronizaciją. Kadangi keitimų sekimas yra išjungtas, **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** duomenys iš „Finance and Operations“ programos į „Common Data Service“ bus sinchronizuoti.
+7. Norėdami sinchronizuoti **SąskaitosFaktūrosPaskyra** ir **KontaktinioAsmensId** duomenis iš „Common Data Service“ į „Finance and Operations“ programą, turite naudoti duomenų integravimo projektą.
 
-        Toliau pateiktame paveikslėlyje parodytas projektas, kuris atnaujina **CustomerAccount** ir **ContactPersonId**.
+    1. „Power Apps“ sukurkite duomenų integravimo projektą tarp **Pardavimai.Paskyra** ir **Finance and Operations programos.Klientai V3** objektų. Duomenų kryptis turi būti iš „Common Data Service“ į „Finance and Operations“ programą. Kadangi **SąskaitosFaktūrosPaskyra** yra naujas atributas dvigubo rašymo funkcijoje, galite praleisti jos pradinę sinchronizaciją. Prireikus daugiau informacijos, žr. [Duomenų integravimas į Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
-        ![nuoroda į save ar ciklinė nuoroda](media/cust_selfref6.png)
+        Toliau pateiktame paveikslėlyje parodytas projektas, kuris atnaujina **KlientoPaskyra** ir **KontaktinioAsmensId**.
 
-    2. Įtraukite įmonės kriterijus į „Common Data Service“ filtrą, nes programoje „Finance and Operations“ bus atnaujinti tik tie įrašai, kurie atitinka filtro kriterijus. Norėdami įtraukti filtrą, spustelėkite filtro piktogramą. Dialogo lange **Redaguoti užklausą** galite įtraukti filtro užklausą, pvz., **_msdyn_company_value eq '\<guid\>'**. Jei filtro piktogramos nėra, sukurkite palaikymo kvitą, kad paprašytumėte duomenų integravimo komandos įjungti filtro funkciją jūsų nuomotojui. Jei neįvesite **_msdyn_company_value** filtro užklausos, visi įrašai bus sinchronizuoti.
+        ![Duomenų integravimo projektas, skirtas Kliento paskyrai ir KontaktinioAsmensId atnaujinti](media/cust_selfref6.png)
 
-        ![nuoroda į save ar ciklinė nuoroda](media/cust_selfref7.png)
+    2. Pridėkite įmonės kriterijus į filtrą, esantį „Common Data Service“, kad tik įrašai, atitinkantys filtro kriterijus, būtų atnaujinti „Finance and Operations“ programoje. Norėdami pridėti filtrą, pažymėkite filtro mygtuką. Tada **Redaguoti užklausą** dialogo lange galite pridėti filtro užklausą, pavyzdžiui, **\_msdyn\_įmonė\_vertės lyg. '\<guid\>'**. 
 
-        Tai yra pradinio įrašų sinchronizavimo pabaiga.
+        > [PASTABA] Jei filtro mygtuko nėra, sukurkite palaikymo kvitą, kad paprašytumėte duomenų integravimo komandos įjungti filtro funkciją jūsų nuomotojui.
 
-8. Įjunkite objekto **Klientai V3** keitimų sekimą „Finance and Operations“ programoje.
+        Jei neįvesite filtro užklausos, skirtos **\_msdyn\_įmonės\_vertė**, visi įrašai bus sinchronizuoti.
 
+        ![Filtro užklausos pridėjimas](media/cust_selfref7.png)
+
+    Pradinė įrašų sinchronizacija baigta.
+
+8. „Finance and Operations” programoje vėl įjunkite **Klientai V3** objekto keitimų sekimą.

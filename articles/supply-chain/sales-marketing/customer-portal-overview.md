@@ -3,7 +3,7 @@ title: „Dynamics 365 Supply Chain Management“ skirto kliento portalo apžval
 description: Šioje temoje pristatomas kliento portalas ir paaiškinama, kas turėtų jį naudoti ir kaip jis veikia.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b57365d8042c1d791ee2c50c5458a6595a58270
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 709ba18be9e2edd5d0a7f143aaed5ef94f365b91
+ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413989"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456931"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>„Dynamics 365 Supply Chain Management“ skirto kliento portalo apžvalga
 
@@ -37,6 +37,12 @@ Kliento portalo šablonas turi visas tinkinimo galimybes, kurias siūlo „Power
 
 > [!NOTE]
 > Kliento portalo dokumentacija yra skirta administratoriams, tinkintojams ir sistemos integratoriams, kurie nustatys „Supply Chain Management“ sistemos kliento portalą. Joje naudojami terminai _klientas_ir _vartotojas_, siekiant apibūdinti žmones, kurie yra „Supply Chain Management“ sistemą naudojančios organizacijos klientai ir kurie naudos galutinį portalą.
+
+## <a name="video"></a>Vaizdo
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylwW]
+
+[Kliento portalo šablono „Dynamics 365 Supply Chain Management”](https://youtu.be/nPrqoLuHfV8) vaizdo įrašas (rodomas aukščiau) yra įtrauktas į [„Finance and Operations grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW), kurį galite rasti „YouTube”.
 
 ## <a name="who-should-use-it"></a>Kas turėtų jį naudoti?
 
@@ -58,6 +64,6 @@ Kliento portalas pateikiamas kaip „Power Apps“ portalų šablonas. Jis prikl
 
 [Dvigubas rašymas](https://docs.microsoft.com/powerapps/maker/portals/overview) yra parengtas naudoti infrastruktūros produktas, kuris beveik realiuoju laiku leidžia sąveiką tarp „Dynamics 365” esančių modeliu pagrįstų programų ir „Finance and Operations“ programų. Dvigubas rašymas suteikia dvikryptės integracijos tarp „Finance and Operations” programų ir „Common Data Service” galimybę. Todėl šis produktas suteikia integruotą vartotojo patirtį susietose programose. Kliento portalas priklauso nuo objektų, sinchronizuojamų naudojant dvigubą rašymą. Prieš naudojant „Supply Chain Management“ duomenis kliento portale, visiems atitinkamiems objektams reikia įjungti dvigubo rašymo funkciją.
 
-![![Kliento portalo priklausomybes](media/customer-portal-elements.png "Kliento portalo priklausomybes")](media/customer-portal-elements.png "Customer portal dependencies")
+![Kliento portalo priklausomybes](media/customer-portal-elements.png "Kliento portalo priklausomybes")
 
 Kliento portalas veikia kaip atspirties taškas organizacijoms, kurios nori naudotis „Power Apps“ portalais ir sukurti išorinę svetainę, naudojančią duomenis iš organizacijos „Supply Chain Management“ sistemos. Jis padeda organizacijoms sujungti dvigubo rašymo funkciją, „Supply Chain Management“ ir „Power Apps“ portalus.

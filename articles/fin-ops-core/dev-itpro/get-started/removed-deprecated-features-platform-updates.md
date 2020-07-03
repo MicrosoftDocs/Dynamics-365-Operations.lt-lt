@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 06/02/2020
+ms.date: 06/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 6fc699907d30fff2d05e752ea055cae8d1134d9b
-ms.sourcegitcommit: 3eaa71c889545318737b3bc88b05eae1a47ad2c0
+ms.openlocfilehash: 1faee75c9112b3aa584ad021ffdc1144fcf4ba32
+ms.sourcegitcommit: 3485d7f36058151cb4fff5c425ef27f56e3ee7d6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/05/2020
-ms.locfileid: "3433927"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "3457571"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -36,6 +36,22 @@ ms.locfileid: "3433927"
 > [!NOTE]
 > Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
+## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.13 versijos platformos naujinimai
+
+> [!NOTE]
+> Versija 10.0.13 dar neišleista. Ši informacija pateikiama planavimo tikslais. Versijos 10.0.13 turinys ir funkcionalumas gali būti keičiami. Norėdami sužinoti daugiau apie leidimus, skaitykite [Paslaugų naujinimų pasiekiamumas](../../fin-ops/get-started/public-preview-releases.md).
+
+
+### <a name="upgrade-of-three-jquery-component-libraries"></a>Trijų „jQuery” komponentų bibliotekų atnaujinimas 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Trijų „jQuery” komponentų bibliotekos atnaujintos dėl saugumo spragų, kad būtų tvarkoma valiuta.   
+| **Pakeitė kita funkcija?**   | Šiose bibliotekose matysis pakeitimai: „jQuery” (3.5.0 versiją iš 2.1.4 versijos), „jQuery UI” (1.12.1 versiją iš 1.11.4 versijos), „jQuery qTip” (3.0.3 versiją iš 2.2.1 versijos). „jQuery” internetu pateikė perkėlimo nurodymus.  |
+| **Paveiktos produkto sritys**         | Išplėstiniai valdikliai, ypač pasirinktinis „JavaScript” kodas, naudojantis pasenusias arba pašalintas API |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | 10.0.13 versijoje/platformos atnaujinime Nr. 37 klientai gali pasirinktinai perkelti į naujausias bibliotekas įjungdami „Atnaujinti tris „jQuery” komponentų bibliotekas” funkciją. Perkėlimas į naujausias bibliotekas bus privalomas nuo 2021 m. balandžio mėnesio leidimo, kad būtų skirta laiko paveiktoms API perkelti.   |
+
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.12 versijos platformos naujinimai
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Tinklelio arba grupės valdiklio formų plėtiniai, kuriuose yra netinkamų laukų nuorodų
@@ -50,11 +66,11 @@ ms.locfileid: "3433927"
 
 ## <a name="platform-updates-for-version-10011-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.11 versijos platformos naujinimai
 
-### <a name="explicit-whitelisting-for-self-service-environments"></a>Išsamus baltasis sąrašas savitarnos aplinkoms
+### <a name="explicit-safe-lists-for-self-service-environments"></a>Išsamūs baltieji sąrašai savitarnos aplinkoms
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | IP baltojo sąrašo sudarymo procesas pasikeitė. Savitarna nebepalaiko IP baltojo sąrašo. |
+| **Nebenaudojimo / pašalinimo priežastis** | IP perkėlimo procesas į baltuosius sąrašus pasikeitė. Savitarna nebepalaiko IP baltųjų sąrašų. |
 | **Pakeitė kita funkcija?**   | Daugiau informacijos rasite [„Azure Active Directory” sąlyginės prieigos konfigūracija](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
 | **Paveiktos produkto sritys**         | Sauga |
 | **Visuotinio diegimo parinktis**              | Debesis |

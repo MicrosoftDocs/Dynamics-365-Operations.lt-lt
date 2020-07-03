@@ -3,7 +3,7 @@ title: Kliento portalo įdiegimas, nustatymas ir atnaujinimas
 description: Šioje temoje pateikiama licencijavimo informacija ir kliento portalo nustatymo instrukcijos.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 06/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b9d1e742f78254d949dc49fda008d63b8bff4d65
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 0343100362c4d7bc3e09334fb7890919bdb84941
+ms.sourcegitcommit: 7d943499f302298c6ff127f56cecc34af6cee289
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413990"
+ms.lasthandoff: 06/08/2020
+ms.locfileid: "3435613"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Kliento portalo įdiegimas, nustatymas ir atnaujinimas
 
@@ -35,7 +35,7 @@ Norėdami naudoti kliento portalą, turite turėti toliau išvardytas licencijas
 
 Kliento portalas yra priklausomas nuo „Power Apps“ portalų ir dvigubo rašymo, kaip parodyta tolesnėje iliustracijoje.
 
-![![Kliento portalo priklausomybės](media/customer-portal-elements.png "Kliento portalo priklausomybes")](media/customer-portal-elements.png "Customer portal dependencies")
+![Kliento portalo priklausomybės](media/customer-portal-elements.png "Kliento portalo priklausomybes")
 
 Skirtingai nei kitos „Supply Chain Management“ funkcijos, kliento portalo šablonas yra „Power Apps“ portaluose. Todėl klientų portalą riboja „Power Apps“ portalų teikiamos funkcijos bei galimybės ir dvigubą rašymą naudojantys objektai.
 
@@ -59,7 +59,7 @@ Prieš pradėdami įsitikinkite, kad jau atlikote [reikiamus nustatymo veiksmus]
 
 1. Eikite į [make.powerapps.com](https://make.powerapps.com/).
 2. Įsitikinkite, kad naudojate aplinką, kurioje įjungėte dvigubo rašymo funkciją.
-3. Skirtuke **Kurti** slinkite iki dalies **Pradėti nuo šablono** ir pasirinkite šabloną, kurio pavadinimas **„Supply Chain Management“ klientas**.
+3. Skirtuke **Kurti** slinkite iki **Pradėti nuo šablono** dalies ir pasirinkite šabloną, pavadintą **Kliento portalas**.
 4. Vadovaukitės ekrane pateikiamais nurodymais.
 
 Užbaigus parengimą, kliento portalą galima pasiekti puslapyje **Pagrindinis**, dalyje **Jūsų programos**.
@@ -71,7 +71,7 @@ Užbaigus parengimą, kliento portalą galima pasiekti puslapyje **Pagrindinis**
 
 Vėliau į kliento portalą galima įtraukti daugiau funkcijų. Bet kokie pakeitimai, kuriuos „Microsoft“ atlieka pagrindiniams komponentams, bus automatiškai rodomi jūsų aplinkoje. Tačiau svetainėje, kuri parengta jūsų aplinkoje, konfigūravimo duomenų pakeitimai nebus automatiškai rodomi. Jums reikės rankiniu būdu pritaikyti šiuos pakeitimus – gauti kodą iš naujo šablono ir sujungti jį su parengta svetaine.
 
-## <a name="resources"></a>Ištekliai
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 Norėdami sužinoti, kaip nustatyti ir tinkinti kliento portalą, pirmiausia peržiūrėkite toliau pateiktą pagrindinių technologijų dokumentaciją.
 

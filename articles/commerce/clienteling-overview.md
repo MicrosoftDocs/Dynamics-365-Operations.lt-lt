@@ -3,7 +3,7 @@ title: Ryšių su klientais apžvalga
 description: Šioje temoje pateikiama klientavimo galimybių, teikiamų parduotuvės programoje, apžvalga.
 author: bebeale
 manager: AnnBe
-ms.date: 11/01/19
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 4f045f8509a6b5027fd3cf8e5ca9e382457a5e83
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
+ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023379"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456512"
 ---
 # <a name="clienteling-overview"></a>Ryšių su klientais apžvalga
 
@@ -115,7 +115,7 @@ Norėdami sukonfigūruoti integraciją, atlikite toliau nurodytus veiksmus.
 3. Susikurkite „Azure“ raktų saugyklą ir išsaugokite programos slaptažodį. Instrukcijas rasite [„Quickstart“: slaptažodžio sukūrimas ir išgavimas iš „Azure“ raktų saugyklos naudojant „Azure“ portalą](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
 4. Įjunkite prieigą prie „Azure“ raktų saugyklos iš „Commerce“. Norėdami atlikti šį veiksmą, turite turėti programos ID ir slaptažodį. Programa gali būti ta pati programa, kurią sukūrėte 1 veiksmu, arba tai gali būti nauja programa. (Kitaip tariant, galite naudoti programą, kurią atlikdami 1 veiksmą sukūrėte dėl prieigos prie raktų saugyklos ar „Customer Insights“ tarnybos arba galite susikurti unikalią programą kiekvienam prieigos tipui.) Instrukcijas rasite [Tarnybos pagrindinių prisijungimo duomenų laikymas „Azure Stack“ raktų saugykloje](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal).
 5. Programoje „Headquarters“ eikite į **Sistemos administravimas \> Sąranka \> Raktų saugyklos parametrai** ir įveskite informaciją, reikalingą raktų saugyklai. Tada laukelyje **Raktų saugyklos klientas** įveskite programos, kurią naudojote 4 veiksme, ID, kad „Commerce“ galėtų pasiekti raktų saugykloje laikomus slaptažodžius.
-6. Norėdami įtraukti programą, kurią sukūrėte atlikdami 1 veiksmą, į saugių programų sąrašą (kartais dar vadinamą baltuoju sąrašu), eikite į „Customer Insights“ ir programai suteikite prieigą **Peržiūrėti**. Instrukcijas rasite [Teisės](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Norėdami pridėti programą, kurią sukūrėte 1-ame veiksme saugių programų sąraše (kartais vadinamas saugiuoju sąrašu), eikite į „Customer Insights” ir suteikite programai prieigą **Peržiūrėti**.  Instrukcijas rasite [Teisės](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
 7. Programos „Commerce puslapyje **Prekybos parametrai**, skirtuke **Klientavimas**, **Dynamics 365 Customer Insights** „FastTab“ atlikite toliau nurodytus veiksmus:
 
     1. Laukelyje **Programos ID** įveskite programos ID, kurį naudojote atlikdami 1 veiksmą.

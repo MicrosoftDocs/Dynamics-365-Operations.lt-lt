@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 57aabeef0ee94b4b13bbe6e3925bcafe1e809ab2
-ms.sourcegitcommit: 984604fd651d74aa49a2d7513f096faaf49f9f27
+ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
+ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/18/2020
-ms.locfileid: "3270293"
+ms.lasthandoff: 06/12/2020
+ms.locfileid: "3443900"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -67,7 +67,7 @@ Pardavimo pasiūlymai gali būti kuriami programose „Sales“ arba „Supply C
 + Laukai **Nuolaidos %**, **Nuolaida** ir **Transportavimo suma**, esantys pardavimo pasiūlymo antraštėje yra skirti tik skaitymui.
 + Laukai **Transportavimo sąlygos**, **Pristatymo sąlygos** **Siuntimo būdas** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
 
-Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įgalinti parametro **Pasiūlymo eilutės greitasis kūrimas**. Iš naujo įgalinus parametrą galima toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
+Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įjungti parametro **Kainos linijos greitasis kūrimas**. Iš naujo įgalinus parametrą galima toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
 1. Pereikite į „Dynamics 365 Sales” programą.
 2. Viršutinėje naršymo juostoje pasirinkite parametrų piktogramą.
 3. Pasirinkite **Išplėstiniai parametrai**.

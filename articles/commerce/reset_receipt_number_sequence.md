@@ -19,17 +19,19 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: fc719348f94ff4a1fb7b4ac96f6f617872c9af92
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: e3243a69b98aae25ad8514890fb984c8a0d9f694
+ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3123951"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "3456578"
 ---
-# <a name="reset-receipt-numbers"></a>Kvito numerių atkūrimas 
+# <a name="reset-receipt-numbers"></a>Kvitų numerių nustatymas iš naujo 
 
 [!include [banner](includes/banner.md)]
 
+> [!NOTE]
+> Prieš naudojantis ta funkcija, būtina, kad pasirinktumėte **Nepriklausoma seka** ypatybę visiems kvitų tipams funkcijų profilyje. Be to, įrenginio sistemos laiko juosta, kurioje naudojamas EKA, turi sutapti su atitinkama parduotuvės laiko juosta. Būsimame leidime šių apribojimų nebeliks. Prieš naudojantis šia funkcija „Production”, susisiekite su „Microsoft Support”.
 
 Mažmenininkai sugeneruoja kvitų numerius įvairiems veiksmams parduotuvėje, tokiems kaip atsiskaitymo grynaisiais operacijoms, grąžinimo operacijoms, klientų užsakymams, pasiūlymams ir mokėjimams. Nors mažmenininkai nustato savo kvitų formatus, kai kurios šalys ar regionai turi taisykles, kurios riboja šiuos kvitų formatus. Pavyzdžiui, šios taisyklės gali apriboti kvite esančių simbolių skaičių, reikalauti iš eilės gaunamų kvitų numerius, apriboti kai kuriuos specialiuosius ženklus arba reikalauti atkurti kvito numerius metų pradžioje. „Microsoft Dynamics 365 Commerce“ leidžia labai lanksčiai tvarkyti kvitų numerius, kad padėtų mažmenininkams įvykdyti norminius reikalavimus. Šioje temoje aiškinama, kaip naudoti kvitų numerių nustatymo funkciją.
 

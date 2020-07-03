@@ -3,7 +3,7 @@ title: Produktų rinkinio moduliai
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ produktų rinkinio modulių apžvalga.
 author: v-chgri
 manager: annbe
-ms.date: 01/07/2020
+ms.date: 06/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 069fa1cb6acad4b8d6618cebb754cbc0892ca9cf
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: 698bdd22cffad26bc9126fca5649f091fbeef4dd
+ms.sourcegitcommit: 49656661c89c864e8e067259a601c3bbceb8bef4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025953"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "3464958"
 ---
 # <a name="product-collection-modules"></a>Produktų rinkinio moduliai
 
@@ -72,16 +72,17 @@ Toliau pateikiamoje lentelėje aprašomi „Dynamics 365 Commerce“ įvairių t
 
 Norėdami įtraukti produktų rinkinio modulį į kategorijos puslapį, atlikite šiuos veiksmus.
 
-1. Būdami „Dynamics 365 Commerce“ eikite į savo svetainę ir sukurkite puslapį, kuriame naudojamas tas pats šablonas kaip numatytajame kategorijos puslapyje.
-1. Puslapio struktūroje pasirinkite atkarpą **Antrinė poraštė**, pasirinkite daugtaškio mygtuką (**...**) ir pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite **Konteineris** ir pasirinkite **Gerai**.
-1. Pasirinkite daugtaškio mygtuką konteinerio modulyje ir pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite **Produkto rinkinys** ir pasirinkite **Gerai**.  
-1. Konfigūruokite parametrus pasirinkdami reikiamą duomenų šaltinį ir produktų rinkinio įvestis.
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite tą patį šabloną, kurį naudoja jūsų numatytosios kategorijos sritis. Po **Puslapio pavadinimas** įveskite atitinkamą pavadinimą ir tada pasirinkite **Gerai**.
+1. Vietoje **Poraštė** pasirinkite daugtaškį (**...**), tada – **Pridėti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
+1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. **Pridėti modulį** dialogo lange pasirinkite **Produkto rinkinys** modulį ir pasirinkite **Gerai**.  
 1. Produktų rinkinio modulio ypatybių srityje pasirinkite **Įtraukti produktų sąrašą**.
-1. Dialogo lange **Pasirinkti produktų sąrašo konfigūraciją** pasirinkite sąrašo tipą, įveskite elementų skaičių ir pasirinkite bet kurias kitas sąrašo tipui galimas pasirinktis. Daugiau informacijos apie sąrašų tipus, žr. toliau pateikiamą lentelę. 
+1. Dialogo lange **Pasirinkti produktų sąrašo konfigūraciją** pasirinkite sąrašo tipą, sąrašo šaltinį ir įveskite elementų skaičių. Sukonfigūruokite visas kitas pasirinktis, kurias galima naudoti sąrašo tipui. Daugiau informacijos apie sąrašų tipus, žr. toliau pateikiamą lentelę. 
 1. Pasirinkite **Gerai**.
-1. Puslapį įrašykite, tada įrašykite ir atrakinkite.
+1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 Šioje lentelėje pateikiami sąrašų tipai, kuriuos galima pasirinkti dialogo lange **Pasirinkti produktų sąrašo konfigūraciją**.
 
