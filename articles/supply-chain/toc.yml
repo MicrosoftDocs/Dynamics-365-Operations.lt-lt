@@ -74,8 +74,6 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: „Supply Chain Management 10.0.11“ (2020 m. liepos mėn.)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: „Supply Chain Management 10.0.10“ (2020 m. gegužės mėn.)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -709,7 +707,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
+                - name: Analizės ataskaitų kūrimas naudojant „PowerBI Desktop“
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1013,7 +1011,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tekstas: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Tekstas: Text'
+                        - name: 'Tekstas: tekstas'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/supply-chain/toc.json
             - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/supply-chain/toc.json
@@ -2565,192 +2563,230 @@
           items:
             - name: Sandėlio valdymo apžvalga
               href: warehousing/warehouse-management-overview.md
-            - name: Sandėlio konfigūracija
+            - name: Sandėlio gavimo operacijos
               items:
-                - name: Sandėlio konfigūracijos apžvalga
-                  href: warehousing/warehouse-configuration.md
-                - name: Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
-                  href: inventory/warehouse-template.md
-                - name: Darbo kontrolė naudojant darbo šablonus ir vietos nurodymus
-                  href: warehousing/control-warehouse-location-directives.md
-                - name: Bangos veiksmo kodai
-                  href: warehousing/wave-step-codes.md
-                - name: Bangos apdorojimo konfigūravimas
-                  href: warehousing/tasks/configure-wave-processing.md
-                - name: Automatinis siuntų naujinimas
-                  href: warehousing/auto-update-shipment.md
-                - name: Vietos šablono kūrimas
-                  href: warehousing/tasks/create-location-profile.md
-                - name: 'Sandėlio, kuriame veikia WMS, vietų konfigūravimas'
-                  href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
-                - name: Apkrovos efektyvumo planavimas
-                  href: warehousing/schedule-load-utilization.md
-                - name: Darbo krūvio pajėgumo planavimas
-                  href: warehousing/schedule-workload-capacity.md
-                - name: Perdavimo kodų nustatymas
-                  href: warehousing/tasks/set-up-dispositions-codes.md
-                - name: Matavimo vienetų ir sandėliavimo strategijos
-                  href: warehousing/unit-measure-stocking-policies.md
-                - name: Sandėlio „Power BI“ turinys
-                  href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
-                - name: Sistemos grupavimas atidarytame darbų sąraše
-                  href: warehousing/system-group-on-open-work-list.md
-                - name: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
-                  href: warehousing/document-routing-layout-for-license-plates.md
-                - name: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Mobiliųjų brūkšninių kodų palaikymas
-                  href: warehousing/mobile-barcode-support.md
-                - name: Sandėlių perkėlimo užsakymų nustatymas
-                  href: warehousing/transfer-orders-warehouse.md
-            - name: 'Rezervavimai, atliekami valdant sandėlį'
+                - name: Registravimo ir atidėjimo gavimai
+                  items:
+                    - name: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
+                      href: warehousing/inbound-load-handling.md
+                    - name: 'Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
+                      href: warehousing/tasks/register-items-advanced-warehousing.md
+                    - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
+                      href: warehousing/tasks/register-items-basic-warehousing.md
+                    - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
+                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                    - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
+                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                    - name: Pirkimo užsakymų darbo šablono nustatymas
+                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                    - name: Vietos produkto dimensijos maišymas
+                      href: warehousing/location-product-dimension-mixing.md
+            - name: Sandėlio siuntimo operacijos
               items:
-                - name: Lanksti sandėlio dimensijų rezervavimo strategija
-                  href: warehousing/flexible-warehouse-level-dimension-reservation.md
-            - name: Sandėlio darbo strategijos
-              items:
-                - name: Sandėlio darbo strategijų apžvalga
-                  href: warehousing/warehouse-work-policies.md
-                - name: Sandėlio darbo strategijų nustatymas
-                  href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
-                - name: Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas
-                  href: warehousing/move-inventory-associated-work.md
-                - name: Darbo klasės kūrimas
-                  href: warehousing/tasks/create-work-class.md
-                - name: Sandėlio darbuotojų valdymas
-                  href: warehousing/manage-warehouse-workers.md
-                - name: Atidėtas sandėlio darbo apdorojimas
-                  href: warehousing/deferred-put.md
-            - name: Prekių skirstymas
-              items:
-                - name: Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
-                  href: production-control/cross-docking-opportunities.md
-                - name: Automatinis siuntos išleidimas skirstant prekes
-                  href: warehousing/auto-release-shipment-for-cross-docking.md
-            - name: Dalinis išleidimas ir dalinis siuntimas
-              items:
-                - name: Dalinis transportuojamo krovinio siuntimas
-                  href: warehousing/partial-shipping-of-transport-loads.md
-                - name: Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas
-                  href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
-            - name: Paėmimas ir pakavimas
-              items:
-                - name: Klasterio paėmimo nustatymas
-                  href: warehousing/set-up-cluster-picking.md
-                - name: Krovimo į konteinerius nustatymas
-                  href: warehousing/tasks/set-up-containerization.md
-                - name: Paketo ir numerio lentelės patvirtinimas
-                  href: warehousing/batch-and-license-plate-confirmation.md
-                - name: Numerio lentelės žymės spausdinimo įgalinimas
-                  href: warehousing/tasks/license-plate-label-printing.md
-                - name: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“
-                  href: warehousing/scan-bar-codes-using-a-camera.md
-                - name: Vienetų paėmimo patvirtinimas
-                  href: warehousing/piece-picking-confirmation.md
-                - name: Pakavimo medžiagos ir mokesčiai
-                  href: warehousing/pack-materials-packing-material-fees.md
-                - name: Neautomatinio pakavimo nustatymas (tik 2016 m. vasario ir gegužės mėn.)
-                  href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
-                - name: Trumpalaikio išrinkimo elementų perskirstymo nustatymas
-                  href: warehousing/tasks/set-up-short-picking-item-reallocation.md
-                - name: Darbo sandėlyje atšaukimas dėl išimčių tvarkymo
-                  href: warehousing/cancel-warehouse-work.md
-                - name: Sistemos nukreiptas klasterio paėmimas
-                  href: warehousing/system-directed-cluster-pick.md
-                - name: Paėmimo eilutės grupavimas
-                  href: warehousing/pick-line-grouping.md
-            - name: Atsargų skaičiavimas
-              items:
-                - name: Atsargų skaičiavimo priežasčių kodai
-                  href: warehousing/reason-codes-for-counting-journals.md
-                - name: Atsargų blokavimas
-                  href: inventory/inventory-blocking.md
-                - name: Ciklo skaičiavimas
-                  href: warehousing/cycle-counting.md
-                - name: Ciklo skaičiavimo apibrėžimas
-                  href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
-                - name: Dalinis vietos ciklų skaičiavimas
-                  href: warehousing/partial-location-cycle-counting.md
-                - name: Dalinio vietos ciklų skaičiavimo proceso apibrėžimas
-                  href: warehousing/tasks/define-partial-location-cycle-counting-process.md
-                - name: Sandėlio valdymo turimų įrašų valymo užduotis
-                  href: warehousing/onhand-cleanup.md
-                - name: Atsargų žurnalas
-                  href: inventory/inventory-journals.md
-                - name: Atsargų vieta
-                  href: inventory/inventory-locations.md
-                - name: Atsargų būsena
-                  href: inventory/inventory-statuses.md
-                - name: Atsargų žymių inventorizacija
-                  href: inventory/inventory-tag-counting.md
-            - name: Papildymas
-              items:
-                - name: Papildymo apžvalga
-                  href: warehousing/replenishment.md
-                - name: Skubus papildymas
-                  href: warehousing/immediate-replenishment.md
-                - name: Papildymas naudojant išėmimų „kanban“
-                  href: warehousing/material-replenishment-withdrawal-kanban.md
-                - name: Min. ir maks. papildymo proceso nustatymas
-                  href: warehousing/tasks/set-up-min-max-replenishment-process.md
-            - name: Sandėliavimo programos diegimas ir konfigūravimas
-              items:
-                - name: Sandėliavimo programos diegimas ir prijungimas
-                  href: warehousing/install-configure-warehousing-app.md
-                - name: Laukų pavadinimų konfigūravimas sandėliavimo programoje
-                  href: warehousing/configure-app-field-names-priorities-warehouse.md
-                - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
-                  href: warehousing/configure-mobile-devices-warehouse.md
-                - name: Su sandėliavimo programa gaunama numerio lentelė
-                  href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
-                  href: warehousing/tasks/set-up-mobile-device-menu.md
-                - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
-                  href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
-                  href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
-                  href: warehousing/mixed-license-plate-receiving.md
-                - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
-                  href: warehousing/display-older-batches-within-warehouses.md
-                - name: Seniausio paketo paėmimas mobiliajame įrenginyje
-                  href: warehousing/pick-oldest-batch.md
-                - name: Proceso vadovo sistema
-                  href: warehousing/process-guide-framework.md
-            - name: Plėtojimas ir perėjimas
-              items:
-                - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
-                  href: warehousing/upgrade-migration-warehouse-management-processes.md
-            - name: Registravimo ir atidėjimo gavimai
-              items:
-                - name: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
-                  href: warehousing/inbound-load-handling.md
-                - name: 'Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
-                  href: warehousing/tasks/register-items-advanced-warehousing.md
-                - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
-                  href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
-                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
-                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                - name: Pirkimo užsakymų darbo šablono nustatymas
-                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
-            - name: Siuntos konsolidacijos strategijos
-              items:
+                - name: 'Rezervavimai, atliekami valdant sandėlį'
+                  items:
+                    - name: Lanksti sandėlio dimensijų rezervavimo strategija
+                      href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                - name: Dalinis išleidimas ir dalinis siuntimas
+                  items:
+                    - name: Dalinis transportuojamo krovinio siuntimas
+                      href: warehousing/partial-shipping-of-transport-loads.md
+                    - name: Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas
+                      href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                - name: Paėmimas ir pakavimas
+                  items:
+                    - name: Klasterio paėmimo nustatymas
+                      href: warehousing/set-up-cluster-picking.md
+                    - name: Krovimo į konteinerius nustatymas
+                      href: warehousing/tasks/set-up-containerization.md
+                    - name: Paketo ir numerio lentelės patvirtinimas
+                      href: warehousing/batch-and-license-plate-confirmation.md
+                    - name: Numerio lentelės žymės spausdinimo įgalinimas
+                      href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Vienetų paėmimo patvirtinimas
+                      href: warehousing/piece-picking-confirmation.md
+                    - name: Pakavimo medžiagos ir mokesčiai
+                      href: warehousing/pack-materials-packing-material-fees.md
+                    - name: Neautomatinio pakavimo nustatymas (tik 2016 m. vasario ir gegužės mėn.)
+                      href: warehousing/tasks/set-up-manual-packing-2016-02-05.md
+                    - name: Trumpalaikio išrinkimo elementų perskirstymo nustatymas
+                      href: warehousing/tasks/set-up-short-picking-item-reallocation.md
+                    - name: Darbo sandėlyje atšaukimas dėl išimčių tvarkymo
+                      href: warehousing/cancel-warehouse-work.md
+                    - name: Sistemos nukreiptas klasterio paėmimas
+                      href: warehousing/system-directed-cluster-pick.md
+                    - name: Sistemos nurodyta darbo seka
+                      href: warehousing/system-directed-work-sequencing.md
+                    - name: Paėmimo eilutės grupavimas
+                      href: warehousing/pick-line-grouping.md
+                    - name: Sandėlio intervalas
+                      href: warehousing/warehouse-slotting.md
+                - name: Papildymas
+                  items:
+                    - name: Papildymo apžvalga
+                      href: warehousing/replenishment.md
+                    - name: Skubus papildymas
+                      href: warehousing/immediate-replenishment.md
+                    - name: Papildymas naudojant išėmimų „kanban“
+                      href: warehousing/material-replenishment-withdrawal-kanban.md
+                    - name: Min. ir maks. papildymo proceso nustatymas
+                      href: warehousing/tasks/set-up-min-max-replenishment-process.md
+                    - name: Papildymo pagal zoną ribinės vertės
+                      href: warehousing/zone-threshold-replenishment.md
+                - name: Krovinio kūrimas ir siuntos
+                  items:
+                    - name: Tvirtinimas ir perkėlimas
+                      href: warehousing/confirm-and-transfer.md
+                    - name: Išplėstinis krovinio kūrimas bangos metu
+                      href: warehousing/advanced-load-building-during-wave.md
+                    - name: Išleidimo į sandėlį taisyklė
+                      href: warehousing/release-to-warehouse-rule.md
+                    - name: Bangos šablonų grupavimas
+                      href: warehousing/wave-template-grouping.md
                 - name: Siuntos konsolidacijos strategijos
-                  href: warehousing/about-shipment-consolidation-policies.md
-                - name: Siuntos konsolidacijos strategijų konfigūravimas
-                  href: warehousing/configure-shipment-consolidation-policies.md
-                - name: '1 scenarijus – konsoliduoti siuntas, kai jos išleidžiamos į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
-                  href: warehousing/consolidate-shipments-automatic.md
-                - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma išleidimo į sandėlį puslapyje'
-                  href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                - name: 3 scenarijus – konsoliduoti siuntas naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
-                  href: warehousing/consolidate-shipments-load-planning-workbench.md
-                - name: 4 scenarijus – konsoliduoti siuntas naudojant siuntų konsolidavimo darbo sritį
-                  href: warehousing/consolidate-shipments-manual-workbench.md
-                - name: 5 scenarijus – konsoliduoti siuntas rankiniu būdu naudojant siuntų konsolidavimo puslapį
-                  href: warehousing/consolidate-shipments-manual-form.md
+                  items:
+                    - name: Siuntos konsolidacijos strategijos
+                      href: warehousing/about-shipment-consolidation-policies.md
+                    - name: Siuntos konsolidacijos strategijų konfigūravimas
+                      href: warehousing/configure-shipment-consolidation-policies.md
+                    - name: '1 scenarijus – konsoliduoti siuntas, kai jos išleidžiamos į sandėlį naudojant automatinį pardavimo užsakymų išleidimą'
+                      href: warehousing/consolidate-shipments-automatic.md
+                    - name: '2 scenarijus – konsoliduoti siuntas, kai siuntos konsolidacijos strategijos nepaisoma išleidimo į sandėlį puslapyje'
+                      href: warehousing/consolidate-shipments-release-to-warehouse-override.md
+                    - name: 3 scenarijus – konsoliduoti siuntas naudojant išleidimo į sandėlį funkciją krovinio planavimo darbo srityje
+                      href: warehousing/consolidate-shipments-load-planning-workbench.md
+                    - name: 4 scenarijus – konsoliduoti siuntas naudojant siuntų konsolidavimo darbo sritį
+                      href: warehousing/consolidate-shipments-manual-workbench.md
+                    - name: 5 scenarijus – konsoliduoti siuntas rankiniu būdu naudojant siuntų konsolidavimo puslapį
+                      href: warehousing/consolidate-shipments-manual-form.md
+            - name: Visose sandėlio operacijose
+              items:
+                - name: Sandėlio darbo strategijos
+                  items:
+                    - name: Sandėlio darbo strategijų apžvalga
+                      href: warehousing/warehouse-work-policies.md
+                    - name: Sandėlio darbo strategijų nustatymas
+                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
+                    - name: Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas
+                      href: warehousing/move-inventory-associated-work.md
+                    - name: Darbo klasės kūrimas
+                      href: warehousing/tasks/create-work-class.md
+                    - name: Sandėlio darbuotojų valdymas
+                      href: warehousing/manage-warehouse-workers.md
+                    - name: Atidėtas sandėlio darbo apdorojimas
+                      href: warehousing/deferred-put.md
+                - name: Prekių skirstymas
+                  items:
+                    - name: Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
+                      href: production-control/cross-docking-opportunities.md
+                    - name: Automatinis siuntos išleidimas skirstant prekes
+                      href: warehousing/auto-release-shipment-for-cross-docking.md
+                    - name: Suplanuotas prekių skirstymas
+                      href: warehousing/planned-cross-docking.md
+                - name: Atsargų skaičiavimas
+                  items:
+                    - name: Atsargų skaičiavimo priežasčių kodai
+                      href: warehousing/reason-codes-for-counting-journals.md
+                    - name: Atsargų blokavimas
+                      href: inventory/inventory-blocking.md
+                    - name: Ciklo skaičiavimas
+                      href: warehousing/cycle-counting.md
+                    - name: Ciklo skaičiavimo apibrėžimas
+                      href: warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md
+                    - name: Dalinis vietos ciklų skaičiavimas
+                      href: warehousing/partial-location-cycle-counting.md
+                    - name: Dalinio vietos ciklų skaičiavimo proceso apibrėžimas
+                      href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Sandėlio valdymo turimų įrašų valymo užduotis
+                      href: warehousing/onhand-cleanup.md
+                    - name: Atsargų žurnalas
+                      href: inventory/inventory-journals.md
+                    - name: Atsargų vieta
+                      href: inventory/inventory-locations.md
+                    - name: Atsargų būsena
+                      href: inventory/inventory-statuses.md
+                    - name: Atsargų žymių inventorizacija
+                      href: inventory/inventory-tag-counting.md
+                - name: Sandėlio darbas
+                  items:
+                    - name: Darbo eilutės informacija
+                      href: warehousing/work-line-details.md
+                    - name: Vietos numerio lentelės padėtis
+                      href: warehousing/location-license-plate-positioning.md
+            - name: Sandėlio nustatymas
+              items:
+                - name: Sandėlio konfigūracija
+                  items:
+                    - name: Sandėlio konfigūracijos apžvalga
+                      href: warehousing/warehouse-configuration.md
+                    - name: Sandėlio nustatymas naudojant sandėlio konfigūracijos šabloną
+                      href: inventory/warehouse-template.md
+                    - name: Darbo kontrolė naudojant darbo šablonus ir vietos nurodymus
+                      href: warehousing/control-warehouse-location-directives.md
+                    - name: Bangos veiksmo kodai
+                      href: warehousing/wave-step-codes.md
+                    - name: Bangos apdorojimo konfigūravimas
+                      href: warehousing/tasks/configure-wave-processing.md
+                    - name: Automatinis siuntų naujinimas
+                      href: warehousing/auto-update-shipment.md
+                    - name: Vietos šablono kūrimas
+                      href: warehousing/tasks/create-location-profile.md
+                    - name: 'Sandėlio, kuriame veikia WMS, vietų konfigūravimas'
+                      href: warehousing/tasks/configure-locations-wms-enabled-warehouse.md
+                    - name: Sandėlio vietos būsena
+                      href: warehousing/warehouse-location-status.md
+                    - name: Papildomos vietos zonos
+                      href: warehousing/additional-location-zones.md
+                    - name: Apkrovos efektyvumo planavimas
+                      href: warehousing/schedule-load-utilization.md
+                    - name: Darbo krūvio pajėgumo planavimas
+                      href: warehousing/schedule-workload-capacity.md
+                    - name: Perdavimo kodų nustatymas
+                      href: warehousing/tasks/set-up-dispositions-codes.md
+                    - name: Matavimo vienetų ir sandėliavimo strategijos
+                      href: warehousing/unit-measure-stocking-policies.md
+                    - name: Sandėlio „Power BI“ turinys
+                      href: ../fin-ops-core/dev-itpro/analytics/warehouse-power-bi-content.md?toc=/fin-and-ops/toc.json
+                    - name: Sistemos grupavimas atidarytame darbų sąraše
+                      href: warehousing/system-group-on-open-work-list.md
+                    - name: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
+                      href: warehousing/document-routing-layout-for-license-plates.md
+                    - name: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Mobiliųjų brūkšninių kodų palaikymas
+                      href: warehousing/mobile-barcode-support.md
+                    - name: Sandėlių perkėlimo užsakymų nustatymas
+                      href: warehousing/transfer-orders-warehouse.md
+                - name: Sandėlio programos diegimas ir konfigūravimas
+                  items:
+                    - name: Sandėlio programos diegimas ir prijungimas
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Laukų pavadinimų konfigūravimas sandėlio programoje
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Su sandėlio programa gaunama numerio lentelė
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Konfigūracijos Rodyti senesnius paketus sandėlyje konfigūravimas mobiliajame įrenginyje
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Seniausio paketo paėmimas mobiliajame įrenginyje
+                      href: warehousing/pick-oldest-batch.md
+                    - name: Proceso vadovo sistema
+                      href: warehousing/process-guide-framework.md
+                - name: Plėtojimas ir perėjimas
+                  items:
+                    - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
+                      href: warehousing/upgrade-migration-warehouse-management-processes.md
         - name: „Supply Chain Management“ kūrimas
           items:
             - name: Gantt valdiklio kūrimo vadovas

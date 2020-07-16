@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "„Platform“ naujinimai, skirti 10.0.11 (2020\_m. liepos mėn.)"
                   href: get-started/whats-new-platform-update-35.md
-                - name: "„Platform“ naujinimai, skirti 10.0.10 (2020\_m. gegužės mėn.)"
-                  href: get-started/whats-new-platform-update-34.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
@@ -536,7 +534,7 @@
                   href: deployment/uninstall-deployable-package.md
                 - name: Paketo programos trikčių diagnostika
                   href: deployment/deployable-package-troubleshooting.md
-            - name: Pasirinktinio kodo žinynas
+            - name: Pasirinktinio žinyno įdiegimas
               items:
                 - name: Kliento žinyno apžvalga
                   href: help/custom-help-overview.md
@@ -560,7 +558,7 @@
                       href: help/migrate-dynamicsax2012.md
                 - name: Kalbos ir lokalės aprašai produkte ir žinyne
                   href: help/language-locale.md
-                - name: 'Žinyno išplėtimas, tinkinimas ir bendradarbiavimas jį kuriant'
+                - name: 'Žinyno išplėtimas, tinkinimas ir bendradarbiavimas'
                   href: help/contributor-guide.md
         - name: Kūrimas ir tinkinimas
           items:
@@ -713,9 +711,29 @@
                         - name: Įvykiai
                           href: dev-ref/xpp-events.md
                     - name: X++ duomenų pasirinkimas ir tvarkymas
-                      href: dev-ref/xpp-data-query.md
-                    - name: Prieiga prie duomenų naudojant „SysDa API“
-                      href: dev-ref/sysda.md
+                      items:
+                        - name: X++ duomenų pasirinkimo ir tvarkymo apžvalga
+                          href: dev-ref/xpp-data/xpp-data-home-page.md
+                        - name: Įrašo pasirinkimas
+                          href: dev-ref/xpp-data/xpp-select-statement.md
+                        - name: Duomenų pasirinkimas
+                          href: dev-ref/xpp-data/xpp-select.md
+                        - name: Duomenų įterpimas
+                          href: dev-ref/xpp-data/xpp-insert.md
+                        - name: Duomenų naujinimas
+                          href: dev-ref/xpp-data/xpp-update.md
+                        - name: Duomenų naikinimas
+                          href: dev-ref/xpp-data/xpp-delete.md
+                        - name: „While select“ sakinys
+                          href: dev-ref/xpp-data/xpp-while-select.md
+                        - name: „Select“ sakinio kaip išraiškos rašymas
+                          href: dev-ref/xpp-data/xpp-select-expression.md
+                        - name: Operacijų vientisumas
+                          href: dev-ref/xpp-data/xpp-transaction.md
+                        - name: Operacijų konvertavimas iš nustatytų pagal į įrašų pateikimą vienas po kito
+                          href: dev-ref/xpp-data/xpp-data-perf.md
+                        - name: Prieiga prie duomenų naudojant „SysDa API“
+                          href: dev-ref/sysda.md
                     - name: X++ makrokomandos
                       href: dev-ref/xpp-macros.md
                     - name: X++ atributų klasės​
@@ -754,76 +772,58 @@
                   href: dev-ref/system-tables.md
                 - name: Sistemos klasės
                   items:
-                    - name: A klasės
-                      href: dev-ref/a-classes.md
-                    - name: B klasės
-                      href: dev-ref/b-classes.md
-                    - name: C klasės
-                      href: dev-ref/c-classes.md
-                    - name: D klasės
-                      href: dev-ref/d-classes.md
-                    - name: E klasės
-                      href: dev-ref/e-classes.md
-                    - name: F klasės (FieldBinding – FormBuildAnimateControl)
-                      href: dev-ref/fieldbinding-classes.md
-                    - name: F klasės (FormBuildButtonControl – FormBuildFastTabSummarySeparator)
-                      href: dev-ref/formbuildbuttoncontrol-classes.md
-                    - name: F klasės (FormBuildFilterPaneControl – FormBuildRealControl)
-                      href: dev-ref/formbuildfilterpanecontrol-classes.md
-                    - name: F klasės (FormBuildReferenceControl – FormButtonSeparatorControl)
-                      href: dev-ref/formbuildreferencecontrol-classes.md
-                    - name: F klasės (FormChangeTracker – FormControlEventArgs)
-                      href: dev-ref/formchangetracker-classes.md
-                    - name: F klasės (FormDataObject – FormFastTabHeaderControl)
-                      href: dev-ref/formdataobject-classes.md
-                    - name: F klasės (FormFastTabSummarySeparator – FormGridControl)
-                      href: dev-ref/formfasttabsummaryseparator-classes.md
-                    - name: F klasės (FormGroupControl – FormIntControl)
-                      href: dev-ref/formgroupcontrol-classes.md
-                    - name: F klasės (FormListBoxControl – FormNotifyEventArgs)
-                      href: dev-ref/formlistboxcontrol-classes.md
-                    - name: F klasės (FormObject – FormRealControl)
-                      href: dev-ref/formobject-classes.md
-                    - name: F klasės (FormReferenceControl – FormStringControl)
-                      href: dev-ref/formreferencecontrol-classes.md
-                    - name: F klasės (FormTabControl – FormWindowControl)
-                      href: dev-ref/formtabcontrol-classes.md
-                    - name: G klasės
-                      href: dev-ref/g-classes.md
-                    - name: H klasės
-                      href: dev-ref/h-classes.md
-                    - name: I klasės
-                      href: dev-ref/i-classes.md
-                    - name: J klasės
-                      href: dev-ref/j-classes.md
-                    - name: K klasės
-                      href: dev-ref/k-classes.md
-                    - name: L klasės
-                      href: dev-ref/l-classes.md
-                    - name: M klasės
-                      href: dev-ref/m-classes.md
-                    - name: N klasės
-                      href: dev-ref/n-classes.md
-                    - name: O klasės
-                      href: dev-ref/o-classes.md
-                    - name: P klasės
-                      href: dev-ref/p-classes.md
-                    - name: Q klasės
-                      href: dev-ref/q-classes.md
-                    - name: R klasės
-                      href: dev-ref/r-classes.md
-                    - name: S klasės
-                      href: dev-ref/s-classes.md
-                    - name: T klasės
-                      href: dev-ref/t-classes.md
-                    - name: U klasės
-                      href: dev-ref/u-classes.md
-                    - name: V klasės
-                      href: dev-ref/v-classes.md
-                    - name: W klasės
-                      href: dev-ref/w-classes.md
-                    - name: X klasės
-                      href: dev-ref/x-classes.md
+                    - name: Sistemos klasių sąrašas
+                      href: dev-ref/system-classes/toc.yml
+                    - name: Abėcėlės tvarka sugrupuotos sistemos klasės
+                      items:
+                        - name: A klasės
+                          href: dev-ref/a-classes.md
+                        - name: B klasės
+                          href: dev-ref/b-classes.md
+                        - name: C klasės
+                          href: dev-ref/c-classes.md
+                        - name: D klasės
+                          href: dev-ref/d-classes.md
+                        - name: E klasės
+                          href: dev-ref/e-classes.md
+                        - name: F klasės
+                          href: dev-ref/f-classes.md
+                        - name: G klasės
+                          href: dev-ref/g-classes.md
+                        - name: H klasės
+                          href: dev-ref/h-classes.md
+                        - name: I klasės
+                          href: dev-ref/i-classes.md
+                        - name: J klasės
+                          href: dev-ref/j-classes.md
+                        - name: K klasės
+                          href: dev-ref/k-classes.md
+                        - name: L klasės
+                          href: dev-ref/l-classes.md
+                        - name: M klasės
+                          href: dev-ref/m-classes.md
+                        - name: N klasės
+                          href: dev-ref/n-classes.md
+                        - name: O klasės
+                          href: dev-ref/o-classes.md
+                        - name: P klasės
+                          href: dev-ref/p-classes.md
+                        - name: Q klasės
+                          href: dev-ref/q-classes.md
+                        - name: R klasės
+                          href: dev-ref/r-classes.md
+                        - name: S klasės
+                          href: dev-ref/s-classes.md
+                        - name: T klasės
+                          href: dev-ref/t-classes.md
+                        - name: U klasės
+                          href: dev-ref/u-classes.md
+                        - name: V klasės
+                          href: dev-ref/v-classes.md
+                        - name: W klasės
+                          href: dev-ref/w-classes.md
+                        - name: X klasės
+                          href: dev-ref/x-classes.md
             - name: Išplečiamumas
               items:
                 - name: Išplečiamumo pagrindinis puslapis
@@ -964,15 +964,15 @@
               items:
                 - name: Sekimas naudojant sekimo analizatorių
                   href: perf-test/trace-trace-tutorial.md
-                - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir našumo SDK
+                - name: Vieno vartotojo aplinkos bandymas naudojant užduočių įrašymo priemonę ir „Performance SDK“
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Kelių vartotojų aplinkos bandymas naudojant našumo SDK ir vietinį bandymo valdiklį
+                - name: Kelių vartotojų aplinkos bandymas naudojant „Performance SDK“ ir vietinį bandymo valdiklį
                   href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Kelių vartotojų aplinkos bandymas naudojant našumo SDK ir „Azure DevOps“
+                - name: Kelių vartotojų aplinkos bandymas naudojant „Performance SDK“ ir „Azure DevOps“
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Vieno vartotojo arba kelių vartotojų aplinkos bandymo naudojant našumo SDK trikčių diagnostikos vadovas
+                - name: Vieno vartotojo arba kelių vartotojų aplinkos bandymo naudojant „Performance SDK“ trikčių diagnostikos vadovas
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
-                - name: Našumo SDK ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
+                - name: „Performance SDK“ ir kelių vartotojų aplinkos bandymas vietinėse aplinkose
                   href: perf-test/perfsdk-tutorial-lbd.md
                 - name: Problemų diagnozavimas ir efektyvumo analizavimas naudojant „Trace parser”
                   href: perf-test/trace-parser.md
@@ -1434,6 +1434,8 @@
               href: sysadmin/pre-configured-system-accounts.md
             - name: B2B vartotojų eksportavimas į „Azure AD“
               href: sysadmin/implement-b2b.md
+            - name: Proceso automatizavimas
+              href: sysadmin/process-automation.md
             - name: Sauga
               items:
                 - name: Vaidmenimis grįsta sauga
@@ -1458,11 +1460,13 @@
                   href: sysadmin/tasks/assign-users-security-roles.md
                 - name: Užduoties įrašų saugos diagnostika
                   href: sysadmin/tasks/security-diagstics-task-recordings.md
+            - name: Proceso automatizavimas
+              href: /sysadmin/process-automation.md
             - name: Paketinis apdorojimas
               items:
-                - name: Paketinio vykdymo apžvalga
+                - name: Paketinio apdorojimo apžvalga
                   href: sysadmin/batch-processing-overview.md
-                - name: Paketinis vykdymas ir paketinio apdorojimo serveriai
+                - name: Paketinis apdorojimas ir paketinio apdorojimo serveriai
                   href: sysadmin/batch-server-overview.md
                 - name: Paketinių užduočių kūrimas
                   href: sysadmin/tasks/create-batch-job.md
@@ -1518,6 +1522,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose
                   href: migration-upgrade/upgrade-data-sandbox.md
+                - name: AX 2012 versijos naujinimas – vietinės aplinkos
+                  href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: AX 2012 versijos naujinimas – visiško perkėlimo bandymai
                   href: migration-upgrade/upgrade-cutover-testing.md
                 - name: AX 2012 versijos naujinimas – užduotys po atnaujinimo

@@ -92,8 +92,6 @@
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: „Commerce 10.0.11“ (2020 m. liepos mėn.)
                       href: get-started/whats-new-commerce-10-0-11.md
-                    - name: „Commerce 10.0.10“ (2020 m. gegužės mėn.)
-                      href: get-started/whats-new-commerce-10-0-10.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos
@@ -192,13 +190,15 @@
               items:
                 - name: „Dynamics 365 Commerce“ architektūros apžvalga
                   href: commerce-architecture.md
+                - name: „Dynamics 365 Commerce“ autentifikavimo srautai
+                  href: arch-auth-flow.md
                 - name: „Commerce Scale Unit“ architektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Parduotuvės topologijos pasirinkimas
                   href: dev-itpro/retail-in-store-topology.md
                 - name: „Commerce Data Exchange“ ir prekybos kanalų ryšiai
                   href: dev-itpro/define-retail-channel-communications-cdx.md
-                - name: Modernaus EKA architektūra
+                - name: „Modern POS“ architektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Internetinių parduotuvių publikavimo architektūra
                   href: dev-itpro/retail-online-store-publishing-architecture.md
@@ -216,7 +216,7 @@
                   href: dev-itpro/retail-store-system-begin.md
                 - name: „Commerce Scale Unit“ (savarankiškai nuomojamo) konfigūravimas ir diegimas
                   href: dev-itpro/retail-store-scale-unit-configuration-installation.md
-                - name: Modernaus EKA konfigūravimas ir diegimas
+                - name: „Modern POS“ konfigūravimas ir diegimas
                   href: retail-modern-pos-device-activation.md
                 - name: Sąskaitų ir įrenginių valdymas iš būstinės
                   href: set-up-activation-accounts-validate-devices-hq.md
@@ -338,13 +338,13 @@
                   href: channel-setup-retail.md
                 - name: Mažmeninės prekybos darbininkų konfigūravimas
                   href: tasks/worker.md
-                - name: Modernus elektroninis kasos aparatas (MPOS) ir „Cloud POS“
+                - name: Modernusis elektroninis kasos aparatas (MPOS) ir „Cloud POS“
                   items:
                     - name: Pasirinkimas tarp MPOS ir „Cloud POS“
                       href: MPOS-or-CPOS.md
                     - name: EKA operacijos prisijungus ir neprisijungus prie interneto
                       href: pos-operations.md
-                    - name: Tinkinto modernaus EKA įrenginių aktyvinimas
+                    - name: Tinkinto „Modern POS“ įrenginių aktyvinimas
                       href: dev-itpro/retail-POS-activation-changes.md
                     - name: EKA prisijungimo „Azure Active Directory“ autentifikavimo įjungimas
                       href: aad-pos-logon.md
@@ -516,7 +516,7 @@
                       href: dev-itpro/payments-retail.md
                 - name: „Bing“ žemėlapių valdymas jūsų organizacijoje
                   href: dev-itpro/manage-bing-maps.md
-        - name: Prekyba produktais ir paslaugomis
+        - name: Jūsų produktų ir paslaugų reklamavimas parduotuvėje
           items:
             - name: 'Kategorijos, produktai ir asortimentai'
               items:
@@ -744,16 +744,16 @@
               href: valid-checker.md
             - name: Mažmeninės prekybos operacijų vientisumo tikrintuvo taisyklių išjungimas
               href: disable-consistency-check-rule.md
-            - name: Redaguoti ir atlikti mažmeninės prekybos parduotuvės operacijų auditą
+            - name: Mažmeninės prekybos parduotuvės operacijų redagavimas ir audito atlikimas
               href: edit-audit-retail-transactions.md
             - name: 'Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas'
               href: tasks/create-calculate-post-statement-retail-store.md
-            - name: Išrašų registravimo funkcijos patobulinimai
-              href: statement-posting-eod.md
             - name: 'Nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas parduotuvių operacijoms'
               href: trickle-feed.md
             - name: 'Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas'
               href: tasks/create-calculate-post-statement-retail-store.md
+            - name: Finansinis suderinimas mažmeninės prekybos parduotuvėse
+              href: fin-recon.md
             - name: Išrašų registravimo funkcijos patobulinimai
               href: statement-posting-eod.md
             - name: Patobulintas pagal paketą sekamų prekių tvarkymas
@@ -792,8 +792,6 @@
                   href: configure-your-domain-name.md
                 - name: Naujo el. prekybos nuomotojo diegimas
                   href: deploy-ecommerce-site.md
-                - name: Interneto parduotuvės kanalo integravimas
-                  href: online-stores.md
                 - name: El. prekybos svetainės kūrimas
                   href: create-ecommerce-site.md
                 - name: El. prekybos svetainės ir interneto kanalo susiejimas
@@ -816,8 +814,6 @@
               items:
                 - name: Pagrindinio puslapio apžvalga
                   href: quick-tour-home-page.md
-                - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
-                  href: category-search-page-overview.md
                 - name: Produkto informacijos puslapių apžvalga
                   href: quick-tour-pdp.md
                 - name: Krepšelio ir pirkimo užbaigimo puslapių apžvalga
@@ -836,7 +832,7 @@
                   href: search-engine-optimization-considerations.md
                 - name: Turinio saugos strategijos (CSP) tvarkymas
                   href: manage-csp.md
-                - name: Žiniatinklio veiklos įvykių rinkinio atsisakymas
+                - name: Žiniatinklio veiklos įvykių rinkimo atsisakymas
                   href: web-activity-opt-out.md
             - name: Svetainės turinio tvarkymas
               items:
@@ -998,7 +994,7 @@
                       href: add-breadcrumb.md
             - name: Ieška
               items:
-                - name: Numatytasis kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis
+                - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
                   href: category-search-page-overview.md
                 - name: Debesų technologija valdomos ieškos apžvalga
                   href: cloud-powered-search-overview.md
@@ -1180,7 +1176,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
+                - name: Analizės ataskaitų kūrimas naudojant „PowerBI Desktop“
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -1484,7 +1480,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: 'Tekstas: QrCode'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/commerce/toc.json
-                        - name: 'Tekstas: Text'
+                        - name: 'Tekstas: tekstas'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: Atskirų ER konfigūracijų ER modelio susiejimo valdymas
               href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/commerce/toc.json
@@ -1738,7 +1734,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Šablonų įtraukimas į meniu Atidaryti eilutes programoje „Excel“
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
-            - name: Atidarytų elementų tinkinimas „Microsoft Office“ meniu
+            - name: „Atidaryti“ tinkinimas „Microsoft Office“ meniu
               href: ../fin-ops-core/dev-itpro/office-integration/customize-open-office-menu.md?toc=/dynamics365/commerce/toc.json
             - name: El. pašto konfigūravimas ir siuntimas
               href: ../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json
@@ -2000,6 +1996,8 @@
                       href: e-commerce-extensibility/create-theme.md
                     - name: Temos parametrų konfigūravimas
                       href: e-commerce-extensibility/configure-theme-settings.md
+                    - name: Iš anksto nustatytų temos stilių rinkinių konfigūravimas
+                      href: e-commerce-extensibility/theme-style-presets.md
                     - name: Temos išplėtimas modulio plėtiniams įtraukti
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Temos išplėtimas iš pagrindinės temos
@@ -2036,6 +2034,8 @@
                   href: dev-itpro/cloud-dev-box.md
                 - name: „Commerce SDK“ kūrimo srauto nustatymas
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
+                - name: DUK apie „Retail SDK“
+                  href: dev-itpro/retail-sdk/sdk-faq.md
             - name: Elektroninio kasos aparato išplečiamumas
               items:
                 - name: EKA ekrano maketai
@@ -2046,8 +2046,6 @@
                   href: install-pos-layout-designer.md
                 - name: Dvigubo EKA ekrano rodinio išplėtimas
                   href: dev-itpro/pos-dual-display-extension.md
-                - name: Modernaus EKA ir „Cloud POS“ paleidiklių išplečiamumas
-                  href: dev-itpro/modern-pos-trigger-extensibility.md
                 - name: Pasirinktinių valdiklių įtraukimas į EKA rodinius
                   href: dev-itpro/pos-custom-control.md
                 - name: EKA operacijų įtraukimas į EKA maketus naudojant mygtukų dizaino įrankį
@@ -2076,13 +2074,13 @@
                   href: dev-itpro/pos-app-signing-certificate.md
                 - name: EKA rodinių išplėtimas pasirinktiniais stulpeliais ir programos juostos mygtukais
                   href: dev-itpro/pos-view-extension.md
-                - name: Pasirinktinių valdiklių įtraukimas į modernaus EKA operacijų puslapius
+                - name: Pasirinktinių valdiklių įtraukimas į „Modern POS“ operacijų puslapius
                   href: dev-itpro/pos-custom-transaction.md
                 - name: Pasirinktinių stulpelių įtraukimas į EKA operacijų tinklelį
                   href: dev-itpro/pos-custom-transaction-column.md
                 - name: EKA API sąsajų iškvietimas arba operacijos iš EKA plėtinių
                   href: dev-itpro/pos-api-extension.md
-                - name: Modernaus EKA paleidikliai ir spausdinimas
+                - name: „Modern POS“ (MPOS) paleidikliai ir spausdinimas
                   href: dev-itpro/pos-trigger-printing.md
                 - name: Pasirinktinių valdiklių įtraukimas į ne ekrano dizaino įrankiu sukurtus EKA rodinius
                   href: dev-itpro/pos-control-non-screen.md
