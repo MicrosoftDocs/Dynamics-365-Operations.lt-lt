@@ -3,7 +3,7 @@ title: Funkcijų valdymo apžvalga
 description: Šioje temoje aprašoma funkcijų valdymo priemonė ir kaip ją naudoti.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/12/2020
+ms.date: 06/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 416c19dcf5b2c983afff7d2e8a9797fb0c0e2780
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
+ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456602"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3499624"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -140,6 +140,10 @@ Toliau pateikiami pavyzdžiai apibūdina, kas atsitinka, kai duomenis importuoja
 ## <a name="feature-management-and-flighting"></a>Funkcijų valdymas ir versijos
 
 Funkcijų valdymas suteikia galimybę kontroliuoti funkcijas, kurios įtraukiamos į kiekvieną leidimą. Versijos suteikia galimybę „Microsoft“ komandoms išleisti funkcijas ribotam klientų skaičiui, kad funkcijos galėtų būti išbandytos ir patikrintos nepakenkiant visiems klientams. Funkcijų valdymas nekontroliuoja funkcijų versijų.
+
+## <a name="new-features-are-optional-for-12-months"></a>Naujos funkcijos yra pasirinktinos 12 mėnesių
+
+Kai nauja neesminė funkcija įdiegiama, ji bus pasirinktina 12 mėnesių laikotarpiu. Tai suteikia laiko jums ir jūsų organizacijai planuoti iš anksto, kada įsisavinti funkciją ir išbandyti ją su kasdieninėmis operacijomis. Norėdami sužinoti daugiau, žr. [DUK apie „One Version” paslaugos naujinimus](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Funkcijų valdymo naudojimas, siekiant įgalinti ISV funkcijas arba pasirinktines funkcijas
 

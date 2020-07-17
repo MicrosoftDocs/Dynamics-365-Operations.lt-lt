@@ -3,7 +3,7 @@ title: „Dynamics 365 Commerce” peržiūros aplinkos konfigūravimas
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti parengtą „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d72caee25c03e8167b94dd387c7861f98bd0f4cb
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: ad05996eaabd3965308370649a27b8bc3080c7ce
+ms.sourcegitcommit: f72e90dccc80718e99cab2752eaf8931dcbb915e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057722"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3534072"
 ---
 # <a name="configure-a-dynamics-365-commerce-preview-environment"></a>„Dynamics 365 Commerce” peržiūros aplinkos konfigūravimas
 
@@ -116,7 +116,7 @@ Norėdami programoje „Commerce“ įjungti užduotis, atlikite toliau nurodytu
 
 Norėdami sinchronizuoti visus duomenis programoje „Commerce“, atlikite toliau nurodytus veiksmus.
 
-1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Duomenų apsikeitimo valdymas \> Kanalo duomenų bazė**.
+1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Būstinės sąranka \> Prekybos tvarkaraštis \> Kanalo duomenų bazė**.
 1. Kairėje esančiame sąraše pasirenkamas kanalas **Numatytasis**. Pasirinkite kitą galimą kanalą. Šio kanalas pavadinimas – **scXXXXXXXXX**.
 1. Veiksmų srityje pasirinkite **Visas duomenų sinchronizavimas**.
 1. Įveskite **9999** kaip paskirstymo grafiką.

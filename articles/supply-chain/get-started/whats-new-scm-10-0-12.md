@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c773b5e1013bbd58f48cd345f50a342175ed0c98
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: fd64a4ea53976293a6ff484a370d7804bf6c724f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413898"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530149"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Naujienos ir pakeitimai „Dynamics 365 Supply Chain Management” 10.0.12 (2020 m. rugpjūtis)
 
@@ -40,13 +40,12 @@ ms.locfileid: "3413898"
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 - [Užduoties kortelės liečiamo ekrano užrakinimo dezinfekcijai įgalinimas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/allow-locking-job-card-touchscreen-sanitization) – Daugiau informacijos rasite [ Užduoties kortelės prietaisuose konfigūravimas](../production-control/config-job-card-device.md).
-- [Nufotografuokite produkto variantus ir sekimo dimensijas sandėliavimo programėlėje gaunamos prekės įkėlimo metu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)– Daigiau informacijos rasite [ Mobiliųjų įrenginių sandėliavimo darbui nustatymas](../warehousing/configure-mobile-devices-warehouse.md).
+- [Užfiksuoti produkto variantus ir sekimo dimensijas „Warehousing“ programėlėje krovinio prekės gavimo metu](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/capture-product-variants-tracking-dimensions-warehousing-app-during-load-item-receiving)– Daugiau informacijos rasite [Mobiliųjų įrenginių nustatymas sandėliavimo darbams](../warehousing/configure-mobile-devices-warehouse.md).
 - Išlaidų skaičiavimo lygis (naujas KS lygis) – Daugiau informacijos rasite [Išlaidų skaičiavimo lygis](../cost-management/cost-calculation-level.md).
 - [Klientų portalas, skirtas Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/customer-self-service-experiences)– Daugiau informacijos rasite [Klientų portalas, skirtas Dynamics 365 Supply Chain Management peržiūrai](../sales-marketing/customer-portal-overview.md).
-- [Turimų atsargų paslauga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-service)
 - [IoT intelekto pagrindinės įžvalgos ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) – Daugiau informacijos rasite [IoT intelekto pagrindinis puslapis](../iot/iot-intelligence-home-page.md).
-- [Gaunamos numerio lentelės patobulinimai, skirti sandėliavimo programėlei (tęsiama)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) – Daugiau informacijos rasite [Gaunamos numerio lentelės naudojant sandėliavimo programėlę](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Masinis diegimas „Warehouse mobile app”](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) – Daugiau informacijos rasite [Sandėliavimo programėlės diegimo ir konfigūravimo apžvalga](../warehousing/install-configure-warehousing-app.md).
+- [Numerio lentelės gavimo patobulinimai, skirti sandėlio programėlei (tęsiama)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued) - Daugiau informacijos rasite [Numerio lentelės gavimas naudojant sandėlio programėlę](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Masinis „Warehouse mobile app” diegimas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app) – Daugiau informacijos rasite [„Warehousing“ programėlės diegimo ir konfigūravimo apžvalga](../warehousing/install-configure-warehousing-app.md).
 - [Maksimalaus sandėlio turimų įrašų valymo užduoties valdymo vykdymo laikas ](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job) – Daugiau informacijos rasite [Sandėlio turimų įrašų valymo užduoties valdymas](../warehousing/onhand-cleanup.md).
 - [Prekybos sutarčių pirkimo optimizavimo palaikymo planavimas](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements) – Daugiau informacijos rasite [Pagrindinis prekybos sutarčių pirkimo planavimas](../master-planning/planning-optimization/purchase-trade-agreement.md).
 

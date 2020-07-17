@@ -3,7 +3,7 @@ title: Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 description: Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
 author: brianshook
 manager: annbe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23ac9d8844c2a8ae20bd316c40078319601a3a4d
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096730"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533349"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 
@@ -144,9 +144,7 @@ Dabar jūsų CDN turėtų būti tinkamai sukonfigūruotas, kad jį būtų galima
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
-[Interneto parduotuvės kanalo integravimas](online-stores.md)
-
-[El. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
 
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 

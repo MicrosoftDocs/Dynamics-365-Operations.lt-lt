@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 826c955b7c99073ff41c8a5ed75254c824359925
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: c397354ade1ac1d4f5f9bc0e6bb5d4be5a7ae9f3
+ms.sourcegitcommit: f7294160d18f15cb762c24f2459b4f0887c37541
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175159"
+ms.lasthandoff: 06/25/2020
+ms.locfileid: "3505616"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Integruoto kanalo išplėstinės automatinės išlaidos
 
@@ -40,7 +40,7 @@ Naudojant ankstesnius nei 10.0 versija leidimus, EKA vartotojas paraginamas neau
 
 Neautomatinio įvedimo raginimai įtraukti siuntimo išlaidas vis dar teikiami 10.0 ir naujesnėse versijose. Jei organizacija neįjungia parametro **Išplėstinės automatinės išlaidos**, EKA raginimai neautomatiškai įvesti mokesčius nepasikeis.
 
-Naudojant išplėstinių automatinių išlaidų funkciją EKA vartotojai gali sistematiškai apskaičiuoti bet kokias nurodytas įvairias išlaidas pagal automatinių išlaidų nustatymo lenteles. Be to, vartotojai turės galimybę įtraukti arba redaguoti neribotą skaičių papildomų išlaidų ir mokesčių bet kurioje EKA pardavimo operacijoje antraštės arba eilutės lygiu (atsiskaitymo grynaisiais arba kliento užsakyme).
+Naudojant išplėstinių automatinių išlaidų funkciją EKA vartotojai gali sistematiškai apskaičiuoti bet kokias nurodytas įvairias išlaidas pagal automatinių išlaidų nustatymo lenteles. Taip pat, vartotojai galės įtraukti arba redaguoti neribotą skaičių papildomų išlaidų ir mokesčių į bet kurią EKA pardavimo operaciją antraštės arba eilutės lygiu (atsiskaitymo grynaisiais arba kliento užsakymams).
 
 ## <a name="enabling-advanced-auto-charges"></a>Išplėstinių automatinių išlaidų įjungimas
 
@@ -52,7 +52,7 @@ Ijungus išplėstines automatines išlaidas, vartotojai neberaginami neautomati�
 
 Įgalinus išplėstines automatines išlaidas, esami **„Commerce“ parametrai**, skirti **Siuntimo išlaidų kodas** ir **Grąžinti siuntimo išlaidas**, nebenaudojami. Šie parametrai taikomi tik jei parametras **Naudoti išplėstines automatines išlaidas** nustatytas į parinktį **Ne**.
 
-Prieš įjungdami šią funkciją įsitikinkite, kad patikrinote ir išmokėte savo darbuotojus, nes dėl to pasikeis verslo proceso srautas – siuntimo ar kitų išlaidų skaičiavimo ir įtraukimo į EKA pardavimo užsakymus tvarka. Įsitikinkite, kad supratate proceso srauto poveikį kuriant operacijas iš EKA. Kuriant skambučių centro ir „e-Commerce“ užsakymus, išplėstinių automatinių išlaidų įjungimo poveikis yra minimalus. Skambučių centro ir „e-Commerce“ programos ir toliau veiks kaip anksčiau – elgsena susijusi su automatinių išlaidų lentelėmis, skirtomis papildomiems užsakymo mokesčiams apskaičiuoti. Skambučių centro kanalo vartotojai ir toliau galės neautomatiškai redaguoti bet kurias sistemos apskaičuotas automatines išlaidas antraštės ar eilutės lygiu arba neautomatiškai įtraukti įvairių išlaidų antraštės ar eilutės lygiu.
+Prieš įjungdami šią funkciją įsitikinkite, kad patikrinote ir apmokėte savo darbuotojus, nes funkcijos įjungimas pakeis verslo procesų srautą – siuntimo ar kitų išlaidų skaičiavimą ir įtraukimą į EKA pardavimo užsakymus. Įsitikinkite, kad supratate proceso srauto poveikį kuriant operacijas iš EKA. Kuriant skambučių centro ir „e-Commerce“ užsakymus, išplėstinių automatinių išlaidų įjungimo poveikis yra minimalus. Skambučių centro ir „e-Commerce“ programos ir toliau veiks kaip anksčiau – elgsena susijusi su automatinių išlaidų lentelėmis, skirtomis papildomiems užsakymo mokesčiams apskaičiuoti. Skambučių centro kanalo vartotojai ir toliau galės neautomatiškai redaguoti bet kurias sistemos apskaičuotas automatines išlaidas antraštės ar eilutės lygiu arba neautomatiškai įtraukti įvairių išlaidų antraštės ar eilutės lygiu.
 
 ## <a name="additional-pos-operations"></a>Papildomos EKA operacijos
 
@@ -81,7 +81,7 @@ Mažmenininkas nori automatiškai pridėti išlaidas už krovinių gabenimą, ka
 
 #### <a name="setup-and-configuration"></a>Nustatymas ir konfigūracija
 
-Šiuo atveju būtina sukonfigūruoti dvi automatinių išlaidų lenteles.
+Šiam scenarijui būtina sukonfigūruoti dvi automatinių išlaidų lenteles.
 
 Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Automatinės išlaidos**.
 
@@ -89,7 +89,7 @@ Sukonfigūruokite dvejas skirtingas antraštės lygio automatines išlaidas. Suk
 
 Pristatymo žeme išlaidų puslapio **Automatinės išlaidos** eilutės dalyje nurodykite išlaidas, kurios bus taikomos užsakymams, vertiems 0,01–100,00 USD, kaip 10,00 USD. Sukurkite kitą išlaidų eilutę, kad nurodytumėte, jog užsakymams, vertiems 100,01 USD ir daugiau, išlaidos nebus priskiriamos.
 
-![Automatinių išlaidų pavyzdys](media/headerchargesexample.png)
+![Dviejų automatinių išlaidų lentelių pavyzdys](media/headerchargesexample.png)
 
 Pristatymo oru išlaidų automatinių išlaidų formos eilutės dalyje nurodykite 20,00 USD išlaidas, kurios bus taikomos visiems užsakymams (vertiems 0,01–9 999 999,00 USD).
 
@@ -119,7 +119,7 @@ Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Automatinės išlaidos**.
 
 Nustatykite išplečiamojo meniu **Lygis** parinktį **Eilutė** ir sukurkite naują automatinių išlaidų įrašą, skirtą visiems klientams ir konkrečiam produktui arba produktų grupei, kurioje nustatymo mokesčiai bus taikomi.
 
-![Automatinių išlaidų pavyzdys](media/linechargesexample.png)
+![Vienos eilutės lygio automatinių išlaidų lentelės pavyzdys](media/linechargesexample.png)
 
 Nusiųskite išlaidas į „Commerce Scale Unit“ / „Channel DB“, kad EKA galėtų juos naudoti, vykdydamas užduotį **1040 paskirstymo grafikas**.
 
@@ -173,7 +173,7 @@ Operacija **Įtraukti eilutės išlaidas** turi būti sukonfigūruota jūsų [PO
 
 Norėdamas vykdyti šį scenarijų EKA programoje, EKA vartotojas įprastai sukurs pardavimo operaciją, įtraukdamas produktus ir bet kokias kitas konfigūracijas į pardavimą. Prieš surinkdamas mokėjimą vartotojas turi pasirinkti konkrečią eilutę, kurioje bus taikomas mokestis, iš EKA prekių sąrašo ekrano ir vykdyti operaciją **Įtraukti eilutės išlaidas**. Vartotojas bus paragintas pasirinkti išlaidų kodą ir įvesti išlaidų vertę. Kai vartotojas baigia procesą, mokestis susiejamas su eilute ir įtraukiamas į bendras užsakymo išlaidas eilutės lygiu. Vartotojas gali kartoti papildomų eilutės išlaidų įtraukimo į kitas operacijos prekių eilutes procesą, jei reikia.
 
-Tą patį procesą galima taikyti skambučių centre naudojant funkciją „tvarkyti išlaidas“, pateiktą puslapio **Pardavimo užsakymas** skilties **Pardavimo užsakymo eilutės** išplečiamajame meniu **Finansai**. Tada atidaromas puslapis **Tvarkyti išlaidas**, kuriame vartotojas gali įtraukti naujas konkrečios eilutės išlaidas į operaciją.
+Tą patį procesą galima taikyti skambučių centre naudojant funkciją „tvarkyti išlaidas“, pateiktą puslapio **Pardavimo užsakymas** skilties **Pardavimo užsakymo eilutės** išplečiamajame meniu **Finansai**. Pasirinkus šią parinktį, atsidarys puslapis **Tvarkyti išlaidas**, kuriame vartotojas gali įtraukti naujas konkrečios eilutės išlaidas į operaciją.
 
 ## <a name="additional-features"></a>Papildomos funkcijos
 

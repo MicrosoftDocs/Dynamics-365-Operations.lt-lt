@@ -3,7 +3,7 @@ title: Banko išrašų derinimas naudojant išplėstinį banko banko derinimą
 description: Pažangaus banko suderinimo funkcija suteikia galimybę importuoti elektroninius banko išrašus ir automatiškai juos suderinti su banko operacijomis programoje „Microsoft“ „Dynamics 365 Finance“. Šioje temoje paaiškinamas derinimo procesas.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b37cf8d83c7134ae65da6a885bffeb01d16f9f06
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c13203217af1788fe3b8a6f9bbf805e03b650a0d
+ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179054"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497150"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Banko išrašų derinimas naudojant išplėstinį banko derinimą
 
@@ -41,9 +41,9 @@ Galite nusiųsti banko išrašą, kuriame yra informacija apie vieną ar kelias 
 -   Norėdami importuoti vieną vienos sąskaitos banko išrašą, nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Ne** ir pasirinkite banko sąskaitą, susietą su išrašu. Spustelėkite **Naršyti**, kad pasirinktumėte susietą banko išrašo failą, o tada spustelėkite **Nusiųsti**.
 -   Norėdami importuoti vieną kelių sąskaitų banko išrašo failą, nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte susietą banko išrašo failą, o tada spustelėkite **Nusiųsti**.
 
-Jei kurių nors elektroninio failo įrašų negalima susieti su banko sąskaita naudojant identifikavimo laukus, jie nebus importuojami. Tačiau kiti failo įrašai gali būti importuojami. Tada vartotojas gauna pranešimą, kuriame teigiama, kad tam tikrų banko sąskaitų banko išrašų importuoti nepavyko. Atkreipkite dėmesį, kad norėdamas importuoti juridinio subjekto banko sąskaitas banko išrašo failą importuojantis vartotojas turi turėti prieigą prie to juridinio subjekto. 
+Jei kurių nors elektroninio failo išrašų negalima susieti su banko sąskaita arba jeigu failas yra susietas su keliomis banko sąskaitomis naudojant identifikavimo laukus, išrašai nebus importuojami. Tačiau kiti failo įrašai gali būti importuojami. Tada vartotojas gauna pranešimą, kuriame teigiama, kad tam tikrų banko sąskaitų banko išrašų importuoti nepavyko. Atkreipkite dėmesį, kad norėdamas importuoti juridinio subjekto banko sąskaitas banko išrašo failą importuojantis vartotojas turi turėti prieigą prie to juridinio subjekto. 
 
-Norėdami vienu veiksmu į „Finance“ nusiųsti kelis išrašų failus, galite naudoti „zip“ failą. Norėdami importuoti kelis kelių sąskaitų banko išrašo failus, sujunkite visus banko išrašo failus į vieną „zip“ failą. Dialogo lange **Importuoti banko išrašus** nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte banko išrašo failų „zip“ failą, o tada spustelėkite **Nusiųsti**. Importavimo procesas atpažįsta „zip“ failą ir įkelia kiekvieną į jį įtrauktą išrašą, nepriklausomai nuo to, koks yra banko sąskaitos juridinis subjektas. 
+Norėdami vienu veiksmu į „Finance“ nusiųsti kelis išrašų failus, galite naudoti „zip“ failą. Norėdami importuoti kelis kelių sąskaitų banko išrašo failus, sujunkite visus banko išrašo failus į vieną „zip“ failą. Dialogo lange **Importuoti banko išrašus** nustatykite parinktį **Importuoti kelių banko sąskaitų išrašą visuose juridiniuose subjekuose** į **Taip**. Spustelėkite **Naršyti**, kad pasirinktumėte banko išrašo failų „zip“ failą, o tada spustelėkite **Nusiųsti**. Importavimo procesas atpažįsta „zip“ failą ir įkelia kiekvieną į jį įtrauktą išrašą, nepriklausomai nuo to, koks yra banko sąskaitos juridinis subjektas.
 
 Galima naudoti parinktį **Suderinti importavus**. Kai nustatote šios parinkties nuostatą **Taip**, sistema automatiškai patvirtina banko išrašą, sukuria naują banko derinimą ir darbalapį bei vykdo numatytąją gretinimo taisyklę, nustatytą nusiunčiant banko išrašą. Ši funkcija automatizuoja procesą iki to momento, kai operacijas reikia gretinti neautomatiniu būdu.
 

@@ -3,7 +3,7 @@ title: El. prekybos svetainės kūrimas
 description: Šioje temoje aprašomi veiksmai ir pateikiama informacija, reikalinga kuriant naują El. prekybos svetainę „Dynamics 365 Commerce“ svetainių daryklėje.
 author: bicyclingfool
 manager: AnnBe
-ms.date: 03/02/2020
+ms.date: 07/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,25 +19,20 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7177bae911dfa91a645b40581bf23b3ed76562a3
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
+ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3096779"
+ms.lasthandoff: 07/02/2020
+ms.locfileid: "3533441"
 ---
 # <a name="create-an-e-commerce-site"></a>El. prekybos svetainės kūrimas
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašomi veiksmai ir pateikiama informacija, reikalinga kuriant naują El. prekybos svetainę „Dynamics 365 Commerce“ svetainių daryklėje.
 
-Prieš kurdami savo El. prekybos svetainę, pirma turite sukurti naują svetainę svetainių daryklėje. 
-
-
-Norėdami pradėti kurti savo el. prekybos svetainę, pirmiausia turite sukurti naują svetainę svetainės kūrimo aplinkoje. Kad galėtumėte kurti naują svetainę, programoje „Commerce“ reikia sukurti bent vieną internetinę parduotuvę. 
-
+Kai licencijuojate el. komercijos galimybes, svetainės daryklė bus parengta naudojant pradinį tinklapį, kurį galite naudoti kaip savo svetainės pagrindą. Tačiau, jei norite pradėti nuo nulio, arba, jei norite sukurti antrą svetainę, turite sukurti naują svetainę svetainės kūrimo aplinkoje. 
 
 ## <a name="set-up-your-site"></a>Svetainės nustatymas
 
@@ -65,11 +60,9 @@ Sukūrę svetainę, patikrinti, ar ji susieta su internetine parduotuve, galite 
 
 [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
 
-[Interneto parduotuvės kanalo integravimas](online-stores.md)
-
 [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

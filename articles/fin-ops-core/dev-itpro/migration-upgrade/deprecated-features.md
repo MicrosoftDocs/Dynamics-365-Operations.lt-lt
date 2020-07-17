@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias buvo numatyta pašalinti iš „Dynamics 365 for Finance and Operations“ ir ankstesnių šio produkto leidimų.
 author: sericks007
 manager: AnnBe
-ms.date: 04/17/2020
+ms.date: 06/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be266f838c5e6cd10655546179e9075e36570bfc
-ms.sourcegitcommit: 399f128d90b71bd836a1c8c0c8c257b7f9eeb39a
+ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
+ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "3284019"
+ms.lasthandoff: 06/23/2020
+ms.locfileid: "3500417"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -588,7 +588,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                                                     |
-| **Pakeitė kita funkcija?**   | Nr. Būsimuose leidimuose formatą bus pakeis ISO 20022 išrašo importavimo formatas. |
+| **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.054 pranešimų importavimas. |
 | **Paveiktos produkto sritys**         | Gautinos sumos                                                                       |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.                            |
 
@@ -621,7 +621,7 @@ Galite pasirinkti Suomijos mokėjimų importavimo formatą, kurį naudojant klie
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                                                     |
-| **Pakeitė kita funkcija?**   | Nr. Būsimuose leidimuose formatą bus pakeis ISO 20022 išrašo importavimo formatas. |
+| **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.054 pranešimų importavimas. |
 | **Paveiktos produkto sritys**         | Gautinos sumos                                                                       |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.                            |
 
@@ -632,7 +632,7 @@ Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                                                     |
-| **Pakeitė kita funkcija?**   | Nr. Būsimuose leidimuose formatą bus pakeis ISO 20022 išrašo importavimo formatas. |
+| **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.053 banko išrašo importavimas naudojant pažangų banko suderinimą. |
 | **Paveiktos produkto sritys**         | Gautinos sumos                                                                       |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.                            |
 
@@ -698,7 +698,7 @@ Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus s
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                                                    |
-| **Pakeitė kita funkcija?**   | Nr. Būsimuose leidimuose formatus bus pakeis ISO 20022 išrašo importavimo formatas. |
+| **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.054 banko pranešimų importavimas. |
 | **Paveiktos produkto sritys**         | Gautinos sumos                                                                        |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.                             |
 
@@ -784,7 +784,7 @@ Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                                                        |
-| **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito pervedimo mokėjimo formatas ir „AvtaleGiro“ kliento mokėjimo formatas, skirti Norvegijai |
+| **Pakeitė kita funkcija?**   | Taip, ISO20022 kreditų perkėlimo formatas ir „AvtaleGiro” kliento mokėjimo formatas, skirtas Norvegijai, taip pat pain.002 ir camt.054 banko pranešimų grąžinamų failų importavimas. |
 | **Paveiktos produkto sritys**         | Mokėtinos sumos, gautinos sumos                                                          |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.                                 |
 
@@ -844,7 +844,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ir AxBC integracijos
 
-Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<dokumentų\>** klases.
+Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
 
 |   |  |
 |------------|--------------------|
@@ -1125,13 +1125,13 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 | **Paveiktos produkto sritys**         | Visi moduliai  |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta. |
 
-### <a name="german-dtazv-payment-format"></a>Vokietijos DTAZV mokėjimo formatas
+### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Vokietijos DTAZV mokėjimo formatas nacionaline valiuta
 
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Formatas Vokietijoje nebetaikomas, nes jį pakeitė (SEPA) funkcija. |
 | **Pakeitė kita funkcija?**   | SEPA mokėjimų eksportas    |
-| **Paveiktos produkto sritys**         | Visi moduliai   |
+| **Paveiktos produkto sritys**         | Mokėtinos sumos   |
 | **Būsena**                         | Nebenaudojama: šios funkcijos pašalinimo data nenustatyta.    |
 
 ### <a name="german-mt940-import"></a>Vokietijos MT940 importas

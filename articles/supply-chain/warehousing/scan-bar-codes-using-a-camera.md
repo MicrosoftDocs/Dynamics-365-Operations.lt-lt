@@ -1,6 +1,6 @@
 ---
-title: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“ – Sandėliavimo programa
-description: Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 for Finance and Operations“ – Sandėliavimo programą, kad būtų galima nuskaityti brūkšninius kodus naudojant mobiliojo įrenginio kamerą.
+title: Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
+description: Šioje temoje paaiškinama, kaip nustatyti „Warehousing“ programėlę brūkšninių kodų nuskaitymui naudojant mobiliojo įrenginio kamerą.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 01/03/2018
@@ -17,26 +17,26 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 9d3b807b18a0a9c7d24763a2a2a7ea9eccf9c2bb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: fd4818ab936e1c93000793da756c97df6d05b2a9
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205870"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530011"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-dynamics-365-supply-chain-management---warehousing-app"></a>Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 Supply Chain Management“ – Sandėliavimo programa
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip nustatyti „Dynamics 365 for Finance and Operations“ – Sandėliavimo programą, kad būtų galima nuskaityti brūkšninius kodus naudojant mobiliojo įrenginio kamerą. 
+Šioje temoje paaiškinama, kaip nustatyti „Warehousing“ programėlę brūkšninių kodų nuskaitymui naudojant mobiliojo įrenginio kamerą. 
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
-Norėdami naudoti šią funkciją, turite įsidiegti Sandėliavimo programos 1.2.0.0 versiją ir jūsų įrenginyje turi būti kamera. Atidarę programą po atnaujinimo, būsite paraginti leisti programai naudoti kamerą. Jei įrenginyje kameros nėra, raginimas nebus rodomas ir negalėsite naudoti kameros kaip skaitytuvo. 
+Norėdami naudotis šia funkcija, Jūsų įrenginyje turi būti įdiegta „Warehousing“ programėlės 1.2.0.0 versija ir įrenginyje turi būti kamera. Atidarę programą po atnaujinimo, būsite paraginti leisti programai naudoti kamerą. Jei įrenginyje kameros nėra, raginimas nebus rodomas ir negalėsite naudoti kameros kaip skaitytuvo. 
 
 ## <a name="setup"></a>Sąranka
-„Warehousing“ programos rodymo parametruose galite pasirinkti, ar leisti naudoti kamerą brūkšniniams kodams nuskaityti. Jei įjungsite **Naudoti kamerą kaip skaitytuvą**, galėsite naudoti kamerą kiekviename įvesties lauke, kuriame kaip pageidaujamas įvesties režimas nustatytas **Nuskaitymas**. 
+„Warehousing“ programėlės Ekrano parametruose galite pasirinkti, ar leisti naudoti kamerą brūkšniniams kodams nuskaityti. Jei įjungsite **Naudoti kamerą kaip skaitytuvą**, galėsite naudoti kamerą kiekviename įvesties lauke, kuriame kaip pageidaujamas įvesties režimas nustatytas **Nuskaitymas**. 
 
-Norėdami įvesties lauką nustatyti kaip nuskaitomą, puslapyje **Sandėlio programos laukų pavadinimai** nustatykite parametro **Pageidaujamas įvesties režimas** parinktį **Nuskaitymas**. Pasirinkus šią pasirinktį, nuskaitymus „Warehouse“ programoje bus galima atlikti su kamera. Norėdami gauti daugiau informacijos apie tai, kaip konfigūruoti laukų pavadinimus programoje „Warehousing“, žr. [Programos „Warehousing“ laukų pavadinimų konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Norėdami įvesties lauką nustatyti kaip nuskaitomą, puslapyje **Sandėlio programos laukų pavadinimai** nustatykite parametro **Pageidaujamas įvesties režimas** parinktį **Nuskaitymas**. Pasirinkus šią parinktį, „Warehousing“ programėlė naudos kamerą kodų nuskaitymui. Daugiau informacijos apie tai, kaip konfigūruoti „Warehousing“ laukų pavadinimus, rasite [„Warehousing“ programėlės laukų pavadinimų konfigūravimas](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
 
 ## <a name="supported-bar-code-formats"></a>Palaikomi brūkšninių kodų formatai
 Palaikomi dažniausi brūkšninių kodų formatai, įskaitant kodą 128, kodą 39, kodą 93, EAN-8, EAN-13, UPC-E, UPC-A ir QR kodus. 
