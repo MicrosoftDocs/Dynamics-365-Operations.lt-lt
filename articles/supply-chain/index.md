@@ -1,9 +1,9 @@
 ---
 title: „Supply Chain Management“ pagrindinis puslapis
 description: Šiame puslapyje pateikiamas „Supply Chain Management“ funkcijų žinyno temų ir kitų išteklių sąrašas.
-author: josaw1
+author: kamaybac
 manager: tfehr
-ms.date: 11/26/2019
+ms.date: 06/30/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,25 @@ ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: ''
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cf505f3e84cb8a8b4a1ac0af9f776587c06acf77
-ms.sourcegitcommit: 261b70ea358b2c231e20f320ed8bd6adc1e7d715
+ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "3386392"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530264"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiamas „Dynamics 365 Supply Chain Management“ žinyno temų ir kitų išteklių sąrašas. 
+Šioje temoje pateikiamas „Dynamics 365 Supply Chain Management“ žinyno temų ir kitų išteklių sąrašas.
 
 ## <a name="whats-new-and-in-development"></a>Kas nauja ir kuriama
-Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į <a href="https://roadmap.dynamics.com/">„Dynamics 365“ plano</a> svetainę. 
+
+Norėdami pamatyti naujas išleistas funkcijas ir kuriamas naujas funkcijas, eikite į [„Dynamics 365“ plano](https://roadmap.dynamics.com/) svetainę.
 
 ## <a name="core-concepts-and-tasks"></a>Pagrindinės koncepcijos ir užduotys
 
@@ -52,72 +53,60 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [Transportavimo valdymas](transportation/transportation-management-overview.md)
 - [Sandėlio valdymas](warehousing/warehouse-configuration.md)
 
-## <a name="dynamics-365-finance"></a>„Dynamics 365 Finance“
+## <a name="dynamics-365-finance"></a>„Dynamics 365 Finance”
 
-Informacijos apie „Dynamics 365 Finance“ žr. [pagrindiniame finansų valdymo puslapyje](../finance/index.md).
+Daugiau informacijos apie „Dynamics 365 Finance“ žr. [„Finance“ pagrindiniame puslapyje](../finance/index.md).
 
 ## <a name="videos"></a>Vaizdo įrašai
 
-Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations“ 8.0 versijos (2018 m. balandžio mėn.) funkcijas.
+Šiame trumpame vaizdo įraše apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations“ 8.0 versiją (2018 m. balandžio mėn.).
 
 - [„Field Service“ darbo užsakymo sinchronizavimas su „Finance and Operations“](https://youtu.be/hAB4TDVMjxU)
 
-Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3“ (2017 m. gruodžio mėn.) funkcijas.
+Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3“ (2017 m. gruodžio mėn.).
 
--  [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
--  [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
--  [Konfigūracijos kopijavimas naudojant sandėlio šabloną](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+- [Potencialaus kliento pavertimo pinigais integravimas](https://youtu.be/AVV9x5x-XCg) 
+- [Optimizavimo patarėjas](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [Konfigūracijos kopijavimas naudojant sandėlio šabloną](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-Šie trumpi vaizdo įrašai padės sužinoti apie naujas „Microsoft Dynamics 365 for Finance and Operations Enterprise edition“ versijos (2017 m. liepos mėn.) funkcijas.
+Šiuose trumpuose vaizdo įrašuose apibendrinamos naujos tiekimo grandinės valdymo funkcijos, įtrauktos į „Microsoft Dynamics 365 for Finance and Operations, Enterprise edition“ (2017 m. liepos mėn.).
 
--  [Darbo su moduliu Kaštų apskaita pradžia](https://youtu.be/1pUDtJQZ8FU)
--  [Išlaidų kontrolės mobilioji darbo sritis](https://youtu.be/imsuTg8rUVk)
--  [„Excel“ naudojimas išlaidų analizei](https://youtu.be/-HKHYdClvx8)
--  [Pirkimo užsakymų patvirtinimas mobiliajame įrenginyje](https://youtu.be/gZ-gOlJe7H8)
--  [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai)](https://youtu.be/BtbuShkGj4I)
+- [Darbo su moduliu Kaštų apskaita pradžia](https://youtu.be/1pUDtJQZ8FU)
+- [Išlaidų kontrolės mobilioji darbo sritis](https://youtu.be/imsuTg8rUVk)
+- [„Excel“ naudojimas išlaidų analizei](https://youtu.be/-HKHYdClvx8)
+- [Pirkimo užsakymų patvirtinimas mobiliajame įrenginyje](https://youtu.be/gZ-gOlJe7H8)
+- [Vaizdinis planavimas naudojant Ganto diagramą (gamybos ir paketiniai užsakymai)](https://youtu.be/BtbuShkGj4I)
 
-Šiuose techninių konferencijų įrašuose aptariamos ankstesnės „Finance and Operations‟ versijos funkcijos, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
+Toliau pateikiamuose techninių konferencijų įrašuose aptariamos ankstesnių „Finance and Operations“ versijų tiekimo grandinės valdymo funkcijos. Dabar šios funkcijos yra „Dynamics 365 Supply Chain Management“ dalis; vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios.
 
-**Kaštų valdymas**
-
--  [Modulio Kaštų valdymas apžvalga](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
-
-**Bendrasis planavimas**
-
--  [Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [Bendrasis planavimas – našumo trikčių šalinimo patarimai](https://youtu.be/7v8BPmEs9Dg)
--  [Padėkite! MRP veikia lėtai!](https://youtu.be/RLXybx20B5o)
-
-**Produkto informacijos valdymas**
-
--  [Produkto konfigūracija „Microsoft Dynamics AX“](https://youtu.be/zotrj3SbCl4)
-
-**Sandėlio valdymas** 
-
-<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
--  [Išnaudokite visus sandėlio valdymo sistemos pranašumus](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
--  [Išplėstinis R3 sandėlio valdymas – gaunamų apdorojimas ir min.–maks. papildymas](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
--  [Išplėstinis R3 sandėlio valdymas – viena gyvenimo diena, siunčiamų apdorojimas ir paklausos papildymas](https://youtu.be/Og0gLlVp7jA)
--  [Naujojo „Microsoft Dynamics AX“ 2012 R3 sandėlio valdymo žymės](https://youtu.be/5w1MngVchBA)
--  [„Dynamics AX 2012 R3“: išplėstinis sandėlio valdymas – viena gamybos proceso diena](https://www.youtube.com/embed/QUxXUrN-7n4)
-
-**Gamybos kontrolė**
-
--  [Subrangos operacijos ir gamybos veikla](https://youtu.be/y1jrd3A_k70)
-
-**Transportavimo valdymas**
-
--  [Transportavimo valdymas (TMS) naujojoje „Microsoft Dynamics AX“](https://youtu.be/jgmTgJIgEFQ)
+- **Kaštų valdymas:**
+  - [Modulio Kaštų valdymas apžvalga](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+- **Bendrasis planavimas:**
+  - [Poreikio prognozių funkcijų išplėtimas](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+  - [Bendrasis planavimas – našumo trikčių šalinimo patarimai](https://youtu.be/7v8BPmEs9Dg)
+  - [Padėkite! MRP veikia lėtai!](https://youtu.be/RLXybx20B5o)
+- **Produkto informacijos valdymas:**
+  - [Produkto konfigūracija „Microsoft Dynamics AX“](https://youtu.be/zotrj3SbCl4)
+- **Sandėlio valdymas:**
+  - [Išnaudokite visus sandėlio valdymo sistemos pranašumus](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+  - [Išplėstinis R3 sandėlio valdymas – gaunamų apdorojimas ir min. / maks. papildymas](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+  - [Išplėstinis R3 sandėlio valdymas – viena gyvenimo diena, siunčiamų apdorojimas ir paklausos papildymas](https://youtu.be/Og0gLlVp7jA)
+  - [Naujojo „Microsoft Dynamics AX“ 2012 R3 sandėlio valdymo žymės](https://youtu.be/5w1MngVchBA)
+  - [„Dynamics AX 2012 R3“: išplėstinis sandėlio valdymas – viena gamybos proceso diena](https://www.youtube.com/embed/QUxXUrN-7n4)
+- **Gamybos kontrolės vaizdo įrašai:**
+  - [Subrangos operacijos ir gamybos veikla](https://youtu.be/y1jrd3A_k70)
+- **Transportavimo valdymo vaizdo įrašai:**
+  - [Transportavimo valdymas (TMS) naujojoje „Microsoft Dynamics AX“](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>Tinklaraščiai
-Daug temų apie gamybos ir „Supply Chain Management“ galima rasti <a href="https://blogs.msdn.microsoft.com/axmfg/">„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje</a> ir <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">„Supply Chain Management“ „Dynamics AX‟ pagrindinės komandos tinklaraštyje</a>. Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios. 
+
+Daug temų apie gamybos ir tiekimo grandinės valdymą galima rasti [„Dynamics AX‟ gamybos pagrindinės komandos tinklaraštyje](https://blogs.msdn.microsoft.com/axmfg/) ir [„Supply Chain Management“ „Dynamics AX‟ pagrindinės komandos tinklaraštyje](https://blogs.msdn.microsoft.com/dynamicsaxscm/). Dauguma iš jų buvo skirtos ankstesnei versijai, tačiau vis tiek vartojamos tos pačios sąvokos, o procedūros dabartinėje versijoje yra panašios.
 
 ## <a name="white-papers"></a>Techninė dokumentacija
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Išlaidų apskaitos praktiniai laboratoriniai darbai</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">LEAN gamyba: galimos pateikti atsargos ir „kanban“ užduočių planavimas</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">KS skaičiavimas naudojant įkainojimo lapą</a>
+
+- [LEAN gamyba: galimos pateikti atsargos ir „kanban“ užduočių planavimas](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/)
+- [KS skaičiavimas naudojant įkainojimo lapą](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/)
 
 ## <a name="elearning-courses"></a>El. mokymosi kursai
-Informacijos apie „Dynamics 365“ mokymą žr. <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> „Microsoft Dynamics“ mokymosi portale</a>. (reikia „CustomerSource“ paskyros) 
 
-
+Internetinių kursų ir mokymų ieškokite [„Microsoft Learn“ esančiame „Dynamics 365“](https://docs.microsoft.com/learn/dynamics365/).

@@ -3,7 +3,7 @@ title: Tarifų konfigūravimas
 description: Tarifai programoje „Microsoft Dynamics 365 Human Resources“ nustato, kiek darbdaviai ir darbuotojai prisideda prie išmokos.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c90a45b79f2a383f0ace0cb07e791f6613d7a3c3
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
+ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429916"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "3497361"
 ---
 # <a name="configure-rates"></a>Tarifų konfigūravimas
 
@@ -75,15 +75,15 @@ Taip pat galite naudoti dvigubas pakopas. Jeigu formoje **Tarifų sąranka** pas
 
 3. Nurodyti šių laukų vertes:
 
-   | Laukas | Aprašymas |
+   | Laukas | aprašymas |
    | --- | --- | 
-   | **Aprašymas** | Aprašo lauko vertė bus taikoma iš aprašo, esančio tarifo sąrankos įraše. Taip yra lengviau nustatyti, su kokia tarifo sąranka susieti pakopų tarifai. |
+   | **Aprašas** | **Aprašas** lauko vertė pritaikyta iš aprašo, esančio kurso nustatymo įraše. Taip yra lengviau nustatyti, su kokia tarifo sąranka susieti pakopų tarifai. |
    | **Pakopos kodas** | Pakopų kodo pasirinkimas. Pakopų kodai apibrėžiami pakopų kodų formoje. Sistema automatiškai rodys pakopų kodo aprašą kairėje esančiame tinklelyje. |
-   | **Pakopos tipas** | Nurodo, kuris laukas turi būti naudojamas kaip pakopų tarifo apskaičiavimo proceso atrankos kriterijus. Pavyzdys:</br></br><ul><li>Jei naudojamas amžius, sistema naudosis darbuotojo gimimo data išmokų tarifo apskaičiavimo procese.</li><li>Jei naudojamas atlyginimas, sistema naudosis darbuotojo metini išmokų atlyginimą išmokų tarifo apskaičiavimo procese.</li><li>Jei naudojamas užduoties tipas, sistema naudos darbuotojo dabartinį aktyvų pareigų įrašą, kad nustatytų užduoties tipą, naudodama su pareigomis susietą užduoties įrašą.</li></ul></br></br>Pakopų tipai yra amžius, atlyginimas, sveikatos duomenys, lytis, viso etapo ekvivalentas, užduoties tipas, kompensavimo sritis ir lygis. | 
-   | **Lygis** | Vertė, kuri turi būti naudojama kartu su pakopų tipu išmokų tarifo apskaičiavimo proceso metu. Pavyzdys:</br></br><ul><li>Jei pakopos tipas yra amžius, bus naudojama amžiaus reikšmė.</li><li>Jei pakopos tipas yra atlyginimas, bus naudojama atlyginimo suma.</li><li> Jei pakopos tipas yra užduoties tipas, bus naudojamas užduoties tipas.</li></ul></br></br>Pasirinkus amžiaus arba atlyginimo pakopą, rinkdama pakopos tarifą sistema naudoja didėjimo metodą, t. y. vertė lauke „Lygis“ žymi apatinę pakopos ribą. Pasirinkus pakopos tipą „Darbo tipas”, rinkdama pakopos tarifą sistema naudos tikslios atitikties metodą. |
+   | **Pakopos tipas** | Nurodo, kuris laukas turi būti naudojamas kaip pakopų tarifo apskaičiavimo proceso atrankos kriterijus. Pavyzdys:</br></br><ul><li>Jei **Amžius** naudojamas, sistema naudos darbuotojo gimimo datą išmokos tarifo skaičiavimo metu.</li><li>Jei **Atlyginimas** naudojamas, sistema naudos darbuotojo metinį išmokų atlyginimą išmokų tarifo skaičiavimo metu.</li><li>Jei **Darbo tipas** naudojamas, sistema naudos darbuotojo dabartinį aktyvų pareigų įrašą, kad nustatytų darbo tipą pagal su pareigomis susietą darbo įrašą.</li></ul></br></br>Pakopų tipai: **Amžius**, **Atlyginimas**, **Faktinis**, **Lytis**, **Pilno etato ekvivalentas**, **Darbo tipas**, **Kompensacijų regionas** ir **Lygis**. | 
+   | **Lygis** | Vertė, kuri turi būti naudojama kartu su pakopų tipu išmokų tarifo apskaičiavimo proceso metu. Pavyzdys:</br></br><ul><li>Jei pakopos tipas yra **Amžius**, bus naudojama amžiaus vertė.</li><li>Jei pakopos tipas yra **Atlyginimas** bus naudojamas atlyginimo suma.</li><li> Jei pakopos tipas yra **Darbo tipas**, bus naudojamas darbo tipas.</li></ul></br></br>Jei tipas yra **Amžius** ar **Atlyginimas**, **Lygis** lauko vertė rodo viršutinę pakopos varžą. Jei pakopos tipas yra **Darbo tipas**, sistema naudoja tikslaus atitikimo metodą pakopos tarifo atrinkimo metu. |
    | **Skaičiavimo tipas** | Nurodo, kaip apskaičiavimo sumos lauke naudoti sumą ir kokį matematinį skaičiavimą atlikti, jei reikia. Jei skaičiavimo tipas yra fiksuota suma, sistema naudoja tokius sumos laukus, kokie yra. Jei skaičiavimo tipas yra už atlyginimo ar padengimo sumą $, sistema matematiniuose skaičiavimuose naudoja skaičiavimo sumą ir skaičiavimo kryptį.</br></br>Jei skaičiavimo tipas yra už atlyginimo sumą $, sistema naudos šią matematinę lygtį:</br></br>metinis išmokų atlyginimas, padalytas iš skaičiavimo sumos (suapvalintos į didžiąją arba mažąją pusę), padaugintos iš rūkančiam arba nerūkančiam darbuotojui ar darbdaviui skirtos sumos.</br></br>Jei skaičiavimo tipas yra už padengimo sumą $, sistema naudos šią matematinę lygtį:</br></br>padengimo suma, padalyta iš skaičiavimo sumos (suapvalintos į didžiąją arba mažąją pusę), padaugintos iš rūkančiam arba nerūkančiam darbuotojui ar darbdaviui skirtos sumos.</br></br>Abiejuose skaičiavimuose skaičiavimo kryptis naudojama siekiant nustatyti, ar metinį išmokų atlyginimą arba padengimo sumą, padalytą iš skaičiavimo sumos, suapvalinti į didžiąją ar mažąją pusę. |
    | **Skaičiavimo suma** | Suma, kurią reikia naudoti išmokos tarifo apskaičiavimo procese. Ši suma bus daliklis matematiškai apskaičiuojant pakopos tarifą. |
-   | **Skaičiavimo kryptis** | Kryptis (didinti arba mažinti), kuria turi būti apvalinama apskaičiuoto rezultato suma. Sistema palaiko tris skaičiavimo kryptis: „Tuščias” (tikslus metodas), „Padidinti” ir „Sumažinti”.</br></br><ul><li>Jei tuščia, sistema naudos tikslų atlyginimo / padengimo sumos apskaičiavimą, padalytą iš skaičiavimo sumos. Jei ši vertė turi trupmeną, sistema tai naudos skaičiuodama.</li><li>Jei didinama, sistema padidins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalytą iš skaičiavimo sumos, iki kito sveikojo skaičiaus (tai reiškia, kad 12,25 padidės iki 13).</li><li>Jei mažinama, sistema sumažins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalytą iš skaičiavimo sumos, į turimą sveikąjį skaičių (pvz., 12,25 sumažės iki 12).</li></ul> |
+   | **Skaičiavimo kryptis** | Kryptis, kuria apskaičiuoti rezultato suma turėtų būti suapvalinta. Sistema palaiko tris skaičiavimo kryptis: tuščias (tikslus metodas), **Didinti** ir **Sumažinti**.</br></br><ul><li>Jei tuščia, sistema naudos tikslų atlyginimo / padengimo sumos apskaičiavimą, padalytą iš skaičiavimo sumos. Jei ši vertė turi trupmeną, sistema tai naudos skaičiuodama.</li><li>Jei pasirenkama **Didinti**, sistema padidins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalintą iš skaičiavimo sumos iki kito sveikojo skaičiaus (vadinasi, 12,25 padidės iki 13).</li><li>Jei pasirenkama **Mažinti**, sistema sumažins atlyginimo / padengimo sumos matematinį apskaičiavimą, padalintą iš skaičiavimo sumos į dabartinį sveikąjį skaičių (vadinasi, 12,25 sumažės iki 12).</li></ul> |
    | **Nerūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
    | **Nerūkančio darbdavio suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |
    | **Rūkančio darbuotojo suma** | Mokesčio suma, kurią išmokos teikėjas taiko nerūkančiam darbuotojui. Tai yra suma, kurią darbdavys moka išmokos teikėjui ir kuri turi būti grindžiama mokėjimo dažnumu, skirtu tarifui nustatyti. |

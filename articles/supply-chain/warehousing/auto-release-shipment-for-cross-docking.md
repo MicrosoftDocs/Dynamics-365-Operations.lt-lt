@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d11db378be6b2ba845de0ac0a2252092a50bc96a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2d8d6e67040f19cac99f8e0164296ef49768496e
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201484"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530241"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatinis siuntos išleidimas skirstant prekes
 
@@ -164,7 +164,7 @@ Norėdami skirstyti gatavų prekių kiekį į susijusio pardavimo užsakymo pakr
 8. Puslapio **Gamybos užsakymas** veiksmų srityje, skirtuke **Gamybos užsakymas**, grupėje **Procesas**, pasirinkite **Įvertinti**, o tada pasirinkite **Gerai**. Užsakymas įvertintas, o žaliavų kiekis rezervuotas gamybai.
 9. Veiksmų srityje, esančioje skirtuke **Gamybos užsakymas**, grupėje **Procesas**, pasirinkite **Išleisti**, o tada pasirinkite **Gerai**. Žaliavoms sukuriamas paėmimo darbas.
 10. Atidarykite ir peržiūrėkite darbą. Veiksmų srityje, skirtuke **Sandėlis**, grupėje **Bendra** pasirinkite **Darbo informacija**. Pasižymėkite darbo ID.
-11. Atidarykite ir prisijunkite prie „Dynamics 365 for Finance and Operations“ – Sandėliavimo programos, kad būtų galima vykdyti darbą 51 sandėlyje.
+11. Prisijunkite prie sandėliavimo programos, kad pradėtumėte darbą sandėlyje Nr. 51.
 12. Eikite į **Gamyba** \> **Gaminių paėmimas**.
 13. Įveskite darbo ID, kad pradėtumėte ir užbaigtumėte žaliavų paėmimą. 
 

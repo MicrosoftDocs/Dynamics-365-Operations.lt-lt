@@ -1,9 +1,9 @@
 ---
 title: Perduoti darbo eigos darbo elementus
 description: Jei planuojate išvykti ar šiaip negalėsite dirbti su darbo elementais, juos galite perduoti arba iš naujo priskirti kitiems vartotojams.
-author: jasongre
+author: ChrisGarty
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 06/23/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: jasongre
+ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aceafbe8dfcdac2ac7b97a4f77a9a30599c60c51
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
+ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140587"
+ms.lasthandoff: 06/26/2020
+ms.locfileid: "3515769"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Darbo eigos darbo elementų perdavimas
 
@@ -30,6 +30,16 @@ ms.locfileid: "3140587"
 ## <a name="manually-delegate-a-work-item"></a>Rankinis darbo elemento perdavimas
 
 Norėdami perduoti atskirą darbo elementą, meniu **Darbo eiga** pasirinkite parinktį **Perduoti**, tada įveskite vartotoją, kuriam elementą reikia perduoti, ir komentarą. Taip darbo elementas bus iš naujo priskirtas tam vartotojui, kad jis elementą galėtų baigti.
+
+## <a name="manually-delegate-multiple-work-items"></a>Neautomatiniu būdu perduokite kelis darbo elementus
+
+Gali būti perduoti keli darbo elementai kartu iš **Man perduoti darbo elementai** puslapio. Šiems darbo eigos tipams taikomas masinis pervedimas: pirkimo sutarties patvirtinimo darbo eiga, pirkimo užsakymo darbo eiga, pirkimo paraiškų peržiūra ir tiekėjo SF darbo eiga. Numatyta, kad **Perduoti keletą darbo elementų** funkcija yra išjungta ir gali būti suaktyvinta **Darbo sritys > Funkcijų valdymas**. Norėdami suaktyvinti šią funkciją, kreipkitės į sistemos administratorių.
+1.  Pereikite į **Įprasti > Bendri > Darbo elementai > Man priskirti darbo elementai**.
+2.  Pasirinkite darbo elementus, kurie bus perduoti.
+3.  Spustelėkite **Perduoti darbo elementus** meniu.
+4.  Lauke **Vartotojas** lauke pasirinkite vartotoją, kuriam perduosite darbo elementus.
+5.  Lauke **Komentaras** įveskite komentarą, kuriuo paaiškinate kodėl perduodate darbo elementus.
+6.  Spustelėkite **Perduoti darbo elementus** mygtuką, kad užbaigtumėte darbo elementų perdavimą.
 
 ## <a name="automatically-delegate-work-items"></a>Automatinis darbo elementų perdavimas
 
@@ -47,5 +57,5 @@ Jei tam tikrą laiką planuojate nebūti biure ar dėl kitų priežasčių negal
 6. Lauke **Pradžios data / laikas** įveskite datą ir laiką.
 7. Lauke **Pabaigos data / laikas** įveskite datą ir laiką.
 8. Pasirinkite žymės langelį **Įjungta**, kad aktyvuotumėte perdavimo taisyklę. Jei kaip aprėptį pasirinkote **Modulis**, turite pasirinkti modulį pavadinimo lauke. Jei kaip aprėptį pasirinkote **Darbo eiga**, turite pasirinkti konkrečią perdavimo darbo eigą pavadinimo lauke.  
-9. Lauke **Komentaras** įveskite komentarą, kuriame paaiškinate kodėl perduodate darbo elementus.
+9. Lauke **Komentaras** įveskite komentarą, kuriuo paaiškinate kodėl perduodate darbo elementus.
 

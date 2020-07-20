@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5a751b360b2da8f786dd7b8d139e1a0a44052894
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211979"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530540"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -107,7 +107,7 @@ Be to, kai prekė yra sekama pagal žymę, yra parametras **Siunčiamo žymės f
 **Kai naudojamas esamo svorio žymės sekimas**,, žymė visada turi būti sukurta ir priskirta kiekvienam gaunamam esamo svorio vienetui, o kiekviena žymė visada turi būti susieta su svoriu.
 
 Pvz., **Dėžė** yra esamo svorio vienetas ir jūs gaunate vieną aštuonių dėžių padėklą. Šiuo atveju turi būti sukurtos aštuonios unikalios esamo svorio žymės, o svoris turi būti susietas su kiekviena žyme. Priklausomai nuo gaunamų prekių esamo svorio žymės, galima užfiksuoti visų aštuonių dėžių svorį ir paskirstyti vidutinį svorį kiekvienai dėžei arba galima užfiksuoti unikalų kiekvienos dėžės svorį.
-Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**, atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėliavimo programėlėje neraginama užfiksuoti esamo svorio žymių duomenų kaip gamybos ataskaitos dalį kaip užbaigtą operaciją.
+Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**, atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėlio programa neragina užfiksuoti esamo svorio žymių duomenis, priklausančius gamybos ataskaitai kaip užbaigtą operaciją.
 
 **Kai esamo svorio žymės sekimas nenaudojamas**, svorį galima užfiksuoti kiekviename dimensijų rinkinyje (pvz., ir kiekvienoje numerio lentelėje ir sekimo dimensijoje). Taip pat svoris gali būti užfiksuotas sujungtu lygiu, pvz., kaip penkių numerių lentelių (padėklų) svoris.
 

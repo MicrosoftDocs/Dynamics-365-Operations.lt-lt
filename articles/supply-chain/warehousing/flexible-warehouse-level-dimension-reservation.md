@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6c462a87494c434a6047542d448a85b3bce9f769
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: ec80346126713cc604b00e6ca7f6e8f4c242dc6f
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346473"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530310"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Pritaikomų sandėlio lygio dimensijų rezervavimo strategija
 
@@ -139,7 +139,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
 
     Paprastai šis puslapis veikia ir sąveikauja taip pat, kaip jis veikia ir sąveikauja su prekėmis, kurios turi su „Batch-above\[vieta\]“ tipu susijusią rezervavimo hierarchiją. Tačiau taikomos šios išimtys:
 
-    - „FastTab“**Paketo numeriai, įvykdyti šaltinio eilutei** nurodo paketo numerius, kurie rezervuoti užsakymo eilutei. Paketo vertės tinklelyje bus rodomos viso užsakymo eilutės vykdymo ciklo metu, įskaitant sandėlio apdorojimo etapus. Priešingai, „FastTab“ **Peržiūra** įprastas užsakymo eilutės rezervavimas (t. y. rezervavimas, kuris atliekamas virš **vietos** lygio dimensijų) rodomas tinklelyje iki vietos, kai sukuriamas sandėlio darbas. Tada darbo objektas perima eilutės rezervavimą, o eilutės rezervavimas puslapyje nebebus rodomas. „FastTab“ **Paketo numeriai, vykdomi šaltinio eilutei** padeda užtikrinti, kad pardavimo užsakymo procesorius galėtų peržiūrėti paketo numerius, kurie buvo įvykdyti kliento užsakymui, bet kada ciklo metu iki sąskaitos faktūros išrašymo.
+    - „FastTab“**Paketo numeriai, įvykdyti šaltinio eilutei** nurodo paketo numerius, kurie rezervuoti užsakymo eilutei. Paketinės vertės tinklelyje bus rodomos viso užsakymo eilutės ciklo vykdymo metu, įskaitant sandėliavimo apdorojimo etapus. Priešingai, „FastTab“ **Peržiūra** įprastas užsakymo eilutės rezervavimas (t. y. rezervavimas, kuris atliekamas virš **vietos** lygio dimensijų) rodomas tinklelyje iki vietos, kai sukuriamas sandėlio darbas. Tada darbo objektas perima eilutės rezervavimą, o eilutės rezervavimas puslapyje nebebus rodomas. „FastTab“ **Paketo numeriai, vykdomi šaltinio eilutei** padeda užtikrinti, kad pardavimo užsakymo procesorius galėtų peržiūrėti paketo numerius, kurie buvo įvykdyti kliento užsakymui, bet kada ciklo metu iki sąskaitos faktūros išrašymo.
     - Be to, kad būtų galima rezervuoti tam tikrą paketą, vartotojas gali rankiniu būdu pasirinkti konkrečią paketo vietą ir numerio lentelę, užuot leidęs sistemai automatiškai jas parinkti. Ši charakteristika susijusi su įvykdyto užsakymo paketo rezervavimo mechanizmo dizaino įrankiu. Kaip jau minėta, kai paketo numeris rezervuojamas prekei, esančiai „Batch-below\[vieta\]“ rezervavimo strategijoje, sistema turi rezervuoti visas dimensijas naudojant vietą. Todėl sandėlio darbas bus atliekamas tose pačiose saugojimo dimensijose, kurias rezervavo vartotojai, dirbę su užsakymais, ir ne visada gali nurodyti prekių saugojimo vietą, kuri yra patogi arba netgi įmanoma,kalbant apie išrinkimo operacijas. Jei užsakymo vykdytojai žino apie sandėlio apribojimus, jie gali norėti neautomatiniu būdu pasirinkti konkrečias vietas ir numerio lenteles, kai jie rezervuoja paketą. Šiuo atveju vartotojas turi naudoti funkcijas **Rodyti dimensijas** puslapio antraštėje ir įtraukti vietą bei numerio lentelę į tinklelį, esantį „FastTab“ **Peržiūra**.
 
 6. Puslapyje **Paketo rezervavimas** pasirinkite paketo eilutę **B11** ir pažymėkite **Rezervuoti eilutę**. Nėra skirtosios logikos vietų ir numerio lentelių priskyrimo automatiniam rezervavimui. Kiekį galite įvesti rankiniu būdu į lauką **Rezervavimas**. Atkreipkite dėmesį, kad „FastTab“ **Paketo numeriai, įvykdyti šaltinio eilutei** paketas **B11** rodomas kaip **Įvykdyta**.
@@ -186,7 +186,7 @@ Toliau pateiktame pavyzdyje parodytas visapusis srautas.
 
     Kiekis **10**, skirtas paketo numeriui **B11**, dabar paimamas pardavimo užsakymo eilutei ir padedamas į vietą **Galinės durys**. Šiuo metu, jis paruoštas būti pakrautas į sunkvežimį ir išsiųstas kliento adresu.
 
-## <a name="exception-handling-of-warehouse-work-thas-has-order-committed-batch-numbers"></a>Sandėlio darbo išimčių tvarkymas su įvykdyto užsakymo paketo numeriais
+## <a name="exception-handling-of-warehouse-work-that-has-order-committed-batch-numbers"></a>Sandėlio darbo išimčių tvarkymas su įvykdyto užsakymo paketo numeriais
 
 Sandėlio darbas, skirtas paimti įvykdyto užsakymo paketo numerius, yra vykdomas su tuo pačiu standartiniu sandėlio išimties apdorojimu i veiksmais, kaip ir įprastas darbas. Paprastai atidarytą darbą arba darbo eilutę galima atšaukti, juos galima pertraukti, nes vartotojo vieta pilna, juos galima trumpai paimti, ir juos galima naujinti dėl perkėlimo. Taip pat gali būti sumažintas jau atlikto darbo paimtas kiekis, arba darbas gali būti atšauktas.
 
@@ -233,7 +233,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nepaisyti vietos</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite <strong>Nepaisyti vietos</strong> meniu elementą, esantį sandėliavimo programoje, kai pradedate paėmimo darbą.</li>
 <li>Pasirinkite <strong>Siūlyti</strong>.</li>
 <li>Patvirtinkite naują vietą, kuri siūloma pagal paketo kiekio pasiekiamumą.</li>
 </ol>
@@ -250,7 +250,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>nr.</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nepaisyti vietos</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite <strong>Nepaisyti vietos</strong> meniu elementą, esantį sandėliavimo programoje, kai pradedate paėmimo darbą.</li>
 <li>Įveskite vietą rankiniu būdu.</li>
 </ol>
 </td>
@@ -278,7 +278,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Netaikoma</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Visas</strong>, esantį sandėliavimo programoje, apdoroję paėmimo darbą.</li>
+<li>Pasirinkite <strong>Visas</strong> meniu elementą, esantį sandėliavimo programėlėje, kai apdorojate paėmimo darbą.</li>
 <li>Lauke <strong>Paimtas kiekis</strong> įveskite reikiamo paėmimo dalinį kiekį, kad nurodytumėte visą pajėgumą.</li>
 </ol>
 </td>
@@ -469,7 +469,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programėlėje, kai paleidžiate paėmimo darbą.</li>
 <li>Lauke <strong>Paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> įveskite <strong>Perskirstymo nėra</strong>.</li>
 </ol>
@@ -498,7 +498,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programėlėje, kai paleidžiate paėmimo darbą.</li>
 <li>Lauke <strong>Paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> įveskite <strong>Perskirstymo nėra</strong>.</li>
 </ol>
@@ -522,7 +522,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Taip</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programėlėje, kai paleidžiate paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su neautomatiniu perskirstymu iš naujo</strong>.</li>
 <li>Sąraše pasirinkite vietą / numerio lentelę.</li>
@@ -548,7 +548,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>nr.</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programėlėje, kai paleidžiate paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su neautomatiniu perskirstymu iš naujo</strong>.</li>
 </ol>
@@ -561,7 +561,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>nr.</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programėlėje, kai paleidžiate paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su neautomatiniu perskirstymu iš naujo</strong>.</li>
 <li>Sąraše pasirinkite vietą / numerio lentelę.</li>
@@ -585,7 +585,7 @@ Toliau esančiose lentelėse pateikiama apžvalga, nurodanti, kaip sistema apdor
 <td>Netaikoma</td>
 <td>
 <ol>
-<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programoje, paleidę paėmimo darbą.</li>
+<li>Pasirinkite meniu elementą <strong>Nevisiškai paimta</strong>, esantį sandėliavimo programėlėje, kai paleidžiate paėmimo darbą.</li>
 <li>Lauke <strong>Trumpai paimti kiekį</strong> įveskite <strong>0</strong> (nulį).</li>
 <li>Lauke <strong>Priežastis</strong> pasirinkite <strong>Trumpas paėmimas su automatiniu perskirstymu iš naujo</strong>.</li>
 </ol>

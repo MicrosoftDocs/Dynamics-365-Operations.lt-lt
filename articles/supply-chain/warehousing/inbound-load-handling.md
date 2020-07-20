@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 709a75a259b1f8daa5b72e76b56942573c403f43
-ms.sourcegitcommit: 3a823444005d316bd95fc663e2dbc8252ac7d93a
+ms.openlocfilehash: 9a030f2e219c7c389d6255254545f3f895eff75b
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261356"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530586"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -66,7 +66,7 @@ Kai gaunamas krovinys pirmą kartą atvyksta į sandėlį, sandėlio darbuotojai
 
 - **Mobiliojo įrenginio meniu, sukonfigūruotas palaikyti krovinio gavimą**
 
-    Mobiliesiems įrenginiams skirta programa „[Dynamics 365 for Finance and Operations – Warehousing“](install-configure-warehousing-app.md) palaiko toliau nurodytus darbo kūrimo procesus.
+    [Sandėliavimo programėlė](install-configure-warehousing-app.md), skirta mobiliesiems įrenginiams, palaiko šiuos darbo kūrimo procesus:
 
     - Krovinio prekės gavimas
     - Krovinio prekės gavimas ir atidėjimas
@@ -285,7 +285,7 @@ Norėdami peržiūrėti šiuos scenarijus naudodami nurodytus įrašų ir reikš
 
 Tam, kad sandėlio priimantys darbuotojai galėtų su kroviniu susijusioms gaunamoms atsargoms registruoti naudoti mobilųjį įrenginį, turite šiam tikslui sukurti mobiliojo įrenginio meniu elementą.
 
-Šiame skyriuje sukusite mobiliojo įrenginio meniu elementą ir įtrauksite jį į esamą meniu. Tada sandėlio darbuotojas galės pasirinkti meniu elementą programoje „Warehousing“.
+Šiame skyriuje sukusite mobiliojo įrenginio meniu elementą ir įtrauksite jį į esamą meniu. Sandėlio darbuotojas gali pasirinkti meniu elementą sandėliavimo programėlėje.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Mobilusis įrenginys \> Mobiliojo įrenginio meniu elementai** ir įsitikinkite, kad mobiliojo įrenginio meniu yra meniu elementas, kurio parametrai yra tokie:
 

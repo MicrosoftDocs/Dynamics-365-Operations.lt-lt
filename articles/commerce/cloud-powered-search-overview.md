@@ -1,9 +1,9 @@
 ---
 title: Debesų technologija valdoma ieškos peržiūra
 description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ debesų technologija paremta ieška.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/01/2019
+ms.date: 06/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5501f4d39709990eb352511477b1427fb265afde
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 00a3de2515cea341f7529b8cb6cb2caae5e33d22
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057838"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527448"
 ---
 # <a name="cloud-powered-search-overview"></a>Debesų technologija valdoma ieškos peržiūra
 
@@ -73,8 +73,12 @@ Toliau pateiktoje iliustracijoje parodytas pavyzdys, kuriame naudojama įtraukia
 
 Patobulintos „Dynamics 365 Commerce“ rikiavimo galimybės klientams leidžia ieškos rezultatus rikiuoti, jų ieškoti, juos naršyti ir tikslinti pagal kriterijus, pvz., kainą, produkto pavadinimą ir produkto numerį. Klientai rezultatus taip pat gali rikiuoti pagal tai, ar produktas yra naujas, geriausiai parduodamas ar neseniai įtrauktas.
 
+>[!NOTE]
+>Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
+![Konfigūracijos parametrai debesies aplinkos ieškoje](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Numatytasis kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis](category-search-page-overview.md)
+[Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga](category-search-page-overview.md)
 
 [Tvarkyti SEO metaduomenis](manage-seo-metadata.md)

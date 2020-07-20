@@ -1,9 +1,9 @@
 ---
-title: Trumpalaikio išrinkimo elementų perskirstymo nustatymas
-description: Šioje procedūroje pateikiama informacija apie tai, kaip įgalinti sandėlio darbuotojus greitai rasti alternatyvias vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų.
+title: Prekių perskirstymo nustatymas nevisiško paėmimo atveju
+description: Ši procedūra padeda įgalinti sandėlio darbuotojus greitai surasti kitas vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų.
 author: ShylaThompson
 manager: tfehr
-ms.date: 08/29/2018
+ms.date: 06/29/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,50 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e860a54c2306f8140947b77cdcb538160a84e06f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216814"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527424"
 ---
-# <a name="set-up-short-picking-item-reallocation"></a>Trumpalaikio išrinkimo elementų perskirstymo nustatymas
+# <a name="set-up-short-picking-item-reallocation"></a>Prekių perskirstymo nustatymas nevisiško paėmimo atveju
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje procedūroje pateikiama informacija apie tai, kaip įgalinti sandėlio darbuotojus greitai rasti alternatyvias vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų. Galima naudoti automatinį perskirstymo procesą, kuris naudoja vietos direktyvas prekėms gauti, jei jų yra kitoje vietoje. Kitu atveju, kai naudojamas neautomatinis pakartotinis paskirstymas, mobiliajame įrenginyje rodomas vietų su turimu kiekiu sąrašas, todėl sandėlio darbuotojas gali pasirinkti, kurios vietos atsargas naudoti. Šią procedūrą galite naudoti demonstracinių duomenų įmonėje USMF. Ši procedūra yra skirta į 1611 „Dynamics 365 for Operations“ versiją įtrauktai funkcijai aprašyti.
+Ši procedūra padeda įgalinti sandėlio darbuotojus greitai rasti kitas vietas, jei toje vietoje, į kurią jie buvo nukreipti, nėra pakankamai atsargų. 
 
+Perskirstymo procesą kontroliuoja **Darbo išimtys** ir naudoja sandėlio **darbuotojas.**
 
-## <a name="set-up-work-exceptions"></a>Nustatyti darbo išimtis
-1. **Naršymo srityje** eikite į **Sandėlio valdymas > Sąranka > Darbas > Darbo išimtys**.
-2. Spustelėkite **Naujas**. Galima apibrėžti keletą darbo išimčių, naudojant skirtingas elementų perskirstymo strategijas, kad sandėlio darbuotojas galėtų pasirinkti vieną, atsižvelgdamas į siuntos, kurią jis apdoroja, specifikacijas.  
-3. Lauke **Darbo išimties kodas** įveskite reikšmę. Sukurkite pavadinimą darbo išimčiai, kad būtų aišku, kam ji naudojama. Pavyzdžiui, Neautomatinis nevisiškas paėmimas.  
-4. Lauke **Aprašo laukas**surinkite reikšmę.
-5. Lauke **Išimties tipas** pasirinkite Nevisiškas paėmimas.
-6. Pažymėkite žymės langelį **Koreguoti atsargas**. Ši parinktis nurodo, kad atsargų lygis bus automatiškai nustatytas į 0 vietoje, iš kurioje bus vykdomas nevisiškas paėmimas.  
-7. Lauke **Numatytojo koregavimo tipo kodas** įveskite arba pasirinkite reikšmę. Pavyzdžiui, USMF galite pasirinkti Šalinti Res Adj Out.  
-8. Lauke **Prekių perskirstymas** pasirinkite Neautomatinis. Jei pasirinksite Neautomatinis arba Automatinis ir neautomatinis, sandėlio darbuotojui reikia įjungti neautomatinio perskirstymo funkciją.  
+Galima naudoti Automatinius, Neautomatinius arba abu perskirstymo procesus:
+
+- Automatiniame perskirstyme naudojami vietos nurodymai siekiant sužinoti, ar prekės yra pasiekiamos kitoje vietoje. Jei įmanoma, darbas bus atnaujintas ir „Warehousing“ programos naudotojas bus nukreiptas į kitą vietą.
+- Neautomatinis perskirstymas leidžia „Warehousing“ programos naudototojui pasirinkti iš vienos ar daugiau vietų, kuriose yra nerezervuoti prekių kiekiai. 
+- Automatinis ir neautomatinis – jei sistemai nepavyko atlikti automatinio perskirstymo, o vietos su nerezervuotais kiekiais yra pasiekiamos, naudotojas bus paragintas pasirinkti vietą.
+
+## <a name="set-up-work-exceptions"></a>Nustatyti užduočių išimtis
+Galima apibrėžti keletą užduočių išimčių naudojant skirtingas prekių perskirstymo strategijas įgalinti sandėlio darbuotoją pasirinkti vieną iš jų, atsižvelgiant į jo apdorojamos siuntos specifikacijas.
+
+Kuriant šią procedūrą naudota demonstracinių duomenų įmonė yra USMF.
+
+1. **Naršymo srityje** eikite į **Sandėlio valdymas > Sąranka > Užduotys > Užduočių išimtys**.
+2. Spustelėkite **Naujas** 
+3. Lauke **Užduoties išimties kodas** įveskite reikšmę. Tai bus šios išimties pavadinimas. Pavyzdžiui, Neautomatinis nevisiškas paėmimas.
+4. Lauke **Aprašo laukas**surinkite reikšmę. Tai bus trumpas šios išimties naudojimo aprašas. Pavyzdžiui, „Trumpalaikis išrinkimas“ – prekė yra nepasiekiama.
+5. **Išimties** tipo lauke pasirinkite **Trumpalaikis išrinkimas**.
+6. Pažymėkite žymės langelį **Koreguoti atsargas**. Ši parinktis automatiškai nustatys atsargų lygį į 0 toje vietoje, iš kurios bus vykdomas trumpalaikis išrinkimas.
+7. Lauke **Numatytojo koregavimo tipo kodas** įveskite arba pasirinkite reikšmę. Pavyzdžiui, programoje USMF galite pasirinkti **Pašalinti rezervacijas Adj Out**. Kiekviename koregavimo tipo kode yra keturios charakteristikos: pavadinimas, aprašas, atsargų žurnalo pavadinimas ir **Pašalinti rezervacijas**. Jei funkcija **Pašalinti rezervacijas** yra įjungta, trumpalaikio išrinkimo eilutės rezervacijos bus pašalintos.  
+8. Lauke **Prekių perskirstymas** pasirinkite reikšmę, pavyzdžiui, Neautomatinis. Jei pasirinksite Neautomatinis arba Automatinis ir neautomatinis, reikia įgalinti sandėlio darbuotoją reikia naudoti neautomatinio perskirstymo funkciją.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Darbuotojo nustatymas naudoti neautomatinį perskirstymą
+
+Kuriant šią procedūrą naudota demonstracinių duomenų įmonė yra USMF.
+
 1. Uždarykite puslapį.
 2. **Naršymo srityje** eikite į **Sandėlio valdymas > Sąranka > Darbuotojas**.
 3. Spustelėkite **Redaguoti**.
-4. Sąraše pasirinkite 24 darbuotoją.
-5. Išplėskite „fastTab“ **Darbas**.
-6. Lauke **Leisti neautomatinį prekių perskirstymą** pasirinkite Taip.
-
+4. Pasirinkite darbuotoją iš sąrašo. Pavyzdžiui, Julija Funderburk.
+5. Išplėskite „FastTab“ skirtuką **Vartotojai**.
+6. Pasirinkite **Vartotojo ID** iš sąrašo. Pavyzdžiui, 24.
+7. Išplėskite „FastTab“ skirtuką**Užduotys**.
+8. Lauke **Leisti neautomatinį prekių perskirstymą** pasirinkite **Taip**.

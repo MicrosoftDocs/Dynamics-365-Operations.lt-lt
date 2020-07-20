@@ -1,6 +1,6 @@
 ---
-title: Sandėliavimo programos diegimas ir prijungimas
-description: Šioje temoje aiškinama, kaip įdiegti sandėliavimo programą kiekviename mobiliajame įrenginyje ir kaip ją sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
+title: Sandėliavimo programėlės diegimas ir prijungimas
+description: Šioje temoje aiškinama, kaip įdiegti sandėliavimo programėlę kiekviename jūsų mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 author: MarkusFogelberg
 manager: tfehr
 ms.date: 05/25/2020
@@ -19,46 +19,46 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 290888dbf7d194b8cf259d7218d01d4a4f911db0
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 88bce09a6d3bf154592955a6fb2dada6247f1993
+ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367087"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3530080"
 ---
-# <a name="install-and-connect-the-warehousing-app"></a>Sandėliavimo programos diegimas ir prijungimas
+# <a name="install-and-connect-the-warehouse-app"></a>Sandėliavimo programėlės diegimas ir prijungimas
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Šioje temoje aprašoma, kaip sukonfigūruoti visuotinėms debesies įdiegtims skirtą sandėliavimo funkciją. Jei ieškote informacijos, kaip konfigūruoti vietinėms visuotinėms įdiegtims skirtą sandėliavimo funkciją, žr. [Vietinėms visuotinėms įdiegtims skirtas sandėliavimas](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
-Sandėliavimo programą galima atsisiųsti iš „Google Play" parduotuvės ir „Microsoft Store“ parduotuvės. Ji teikiamas kaip atskiras komponentas. Todėl ją turite atsisiųsti į kiekvieną įrenginį ir sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
+Sandėliavimo programėlę galima atsisiųsti iš „Google Play Store" parduotuvės ir „Microsoft Store“. Ji teikiamas kaip atskiras komponentas. Todėl ją turite atsisiųsti į kiekvieną įrenginį ir sukonfigūruoti, kad būtų galima prisijungti prie „Microsoft Dynamics 365 Supply Chain Management“ aplinkos.
 
-Šioje temoje aiškinama, kaip įdiegti sandėliavimo programą kiekviename mobiliajame įrenginyje ir kaip ją sukonfigūruoti, kad būtų galima prisijungti prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
+Šioje temoje aiškinama, kaip įdiegti sandėliavimo programėlę kiekviename mobiliajame įrenginyje ir sukonfigūruoti ją, kad prijungtumėte prie „Supply Chain Management“ aplinkos. Kiekvieną įrenginį galite konfigūruoti neautomatiniu būdu arba galite importuoti ryšio parametrus naudodami failą arba nuskaitydami QR kodą.
 
 ## <a name="system-requirements"></a>Sistemos reikalavimai
 
-Sandėliavimo programą galima naudoti ir „Windows“, ir „Android“ operacinėse sistemoje. Norėdami naudoti naujausią programos versiją, savo mobiliuosiuose įrenginiuose turite būti įdiegę vieną iš toliau nurodytų operacinių sistemų.
+Sandėliavimo programėlę galima naudoti tiek „Windows“, tiek „Android“ operacinėse sistemose. Norėdami naudoti naujausią programos versiją, savo mobiliuosiuose įrenginiuose turite būti įdiegę vieną iš toliau nurodytų operacinių sistemų.
 
 - „Windows 10 Fall Creators Update“ („Universal Windows Platform“ \[UWP\]) 1709 (10.0.16299 komponavimo versija) arba naujesnė versija
 - „Android 4.4“ arba naujesnė versija
 
 > [!NOTE]
-> Jei turite palaikyti senesnius „Windows“ įrenginius, kuriuose neveikia naujausia „Windows“ versija, vis tiek galite iš „Microsoft Store“ parduotuvės atsisiųsti sandėliavimo programos 1.6.3.0 versiją. Ši versija veiks „Windows 10 November Update“ (UWP) 1511 (10.0.10586 komponavimo versija) arba naujesnėje versijoje. Tačiau atminkite, kad ši sandėliavimo programos versija nepalaiko masinio ryšio parametrų diegimo. Todėl turite [rankiniu būdu sukonfigūruoti ryšį](#config-manually) kiekviename įrenginyje, kuriame veikia ši programos versija.
+> Jei norite naudotis senesniais „Windows“ įrenginiais, kuriuose neveikia naujausia „Windows“ versija, vis tiek galite atsisiųsti sandėliavimo programėlės 1.6.3.0 versiją iš „Microsoft Store“. Ši versija veiks „Windows 10 November Update“ (UWP) 1511 (10.0.10586 komponavimo versija) arba naujesnėje versijoje. Tačiau atminkite, kad ši sandėliavimo programėlės versija nepalaiko masinio ryšių parametrų diegimo. Todėl turite [rankiniu būdu sukonfigūruoti ryšį](#config-manually) kiekviename įrenginyje, kuriame veikia ši programos versija.
 
-## <a name="get-the-warehousing-app"></a>Sandėliavimo programos įsigijimas
+## <a name="get-the-warehouse-app"></a>Gaukite sandėliavimo programėlę
 
 Norėdami atsisiųsti programą, naudokite vieną iš toliau nurodytų saitų.
 
 - **„Windows“ (UWP):** [„Dynamics 365 for Finance and Operations - Warehousing“ parduotuvėje „Microsoft Store“](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [„Warehousing - Dynamics 365“ parduotuvėje „Google Play“](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Nedidelių diegimų atveju galite kiekviename įrenginyje įdiegti programą iš atitinkamos parduotuvės, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis. Tačiau 1.7.0.0 ir naujesnėse sandėliavimo programos versijose programos diegimą ir (arba) konfigūravimą galite automatizuoti. Šis būdas patogus, jei valdote daug įrenginių ir naudojate mobiliųjų įrenginių bei mobiliųjų programų valdymo sprendimą, pvz., [„Microsoft Intune“](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Nedidelių diegimų atveju galite kiekviename įrenginyje įdiegti programą iš atitinkamos parduotuvės, o tada neautomatiniu būdu sukonfigūruoti ryšį su naudojamomis aplinkomis. Tačiau 1.7.0.0 ir vėlesnėse sandėliavimo programėlės versijose galite automatizuoti programėlės diegimą ir (arba) konfigūravimą. Šis būdas patogus, jei valdote daug įrenginių ir naudojate mobiliųjų įrenginių bei mobiliųjų programų valdymo sprendimą, pvz., [„Microsoft Intune“](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Norėdami gauti informacijos apie tai, kaip naudojant „Intune“ įtraukti programas, žr. [Programų įtraukimas į „Microsoft Intune“](https://docs.microsoft.com/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Žiniatinklio tarnybos programos kūrimas naudojant „Azure Active Directory“
 
-Norėdami įjungti sandėliavimo programos sąveiką su konkrečiu „Supply Chain Management“ serveriu, žiniatinklio tarnybos programą turite užregistruoti „Supply Chain Management“ nuomotojo „Azure Active Directory“ („Azure AD“). Toliau aprašyta procedūra pateikia vieną būdą, kaip atlikti šią užduotį. Išsamios informacijos ir alternatyvų ieškokite po procedūra pateiktuose saituose.
+Norėdami įjungti sandėliavimo programėlę, kad ji saveikautų su konkrečiu „Supply Chain Management“ serveriu, turite užregistruoti žiniatinklio tarnybos programą, skirtą „Supply Chain Management“ nuomotojui „Azure Active Directory“ („Azure AD“). Toliau aprašyta procedūra pateikia vieną būdą, kaip atlikti šią užduotį. Išsamios informacijos ir alternatyvų ieškokite po procedūra pateiktuose saituose.
 
 1. Interneto naršyklėje eikite į [https://portal.azure.com](https://portal.azure.com/).
 1. Įveskite vartotojo, kuris turi prieigą prie „Azure“ prenumeratos, vardą ir slaptažodį.
@@ -82,7 +82,7 @@ Norėdami įjungti sandėliavimo programos sąveiką su konkrečiu „Supply Cha
 
 1. Sąraše **Valdyti** pasirinkite **Sertifikatas ir slaptieji raktai**. Tada, atsižvelgdami į tai, kaip norite konfigūruoti programą autentifikavimui, pasirinkite vieną iš toliau pateiktų mygtukų. (Daugiau informacijos žr. tolesniame šios temos skyriuje [Autentifikavimas naudojant sertifikatą arba kliento slaptąjį raktą](#authenticate).)
 
-    - **Įkelti sertifikatą** – įkelkite sertifikatą, kuris bus naudojamas kaip slaptasis raktas. Rekomenduojame šį būdą, nes jis saugesnis ir gali būti visiškai automatizuotas. Jei sandėliavimo programą naudojate „Windows“ įrenginiuose, pasižymėkite **Kontrolinis kodas** reikšmę, kuri rodoma nusiuntus sertifikatą. Jums reikės šios reikšmės, kai konfigūruosite sertifikatą „Windows“ įrenginiuose.
+    - **Įkelti sertifikatą** – įkelkite sertifikatą, kuris bus naudojamas kaip slaptasis raktas. Rekomenduojame šį būdą, nes jis saugesnis ir gali būti visiškai automatizuotas. Jei sandėliavimo programėlę naudojate „Windows“ įrenginiuose, pasižymėkite rodomą **Nykščio antspaudas** vertę, po to kai įkeliate sertifikatą. Jums reikės šios reikšmės, kai konfigūruosite sertifikatą „Windows“ įrenginiuose.
     - **Naujas kliento slaptasis raktas** – sukurkite raktą įvesdami rakto aprašą ir trukmę dalyje **Slaptažodžiai**, tada pasirinkite **Įtraukti**. Sukurkite rakto kopiją ir saugiai išsaugokite.
 
     ![Sertifikatas ir slaptieji raktai](media/app-connect-azure-authentication.png "Sertifikatas ir slaptieji raktai")
@@ -99,7 +99,7 @@ Daugiau informacijos apie tai, kaip konfigūruoti žiniatinklio tarnybos program
 
 Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo „Azure AD“ programą, atlikite toliau nurodytus veiksmus.
 
-1. Sukurkite vartotoją, kuris atitinka sandėliavimo programos vartotojo kredencialus.
+1. Sukurkite vartotoją, kuris atitinka sandėliavimo programėlę vartotojo kredencialus:
 
     1. Programoje „Supply Chain Management“ eikite į **Sistemos administravimas \> Vartotojai \> Vartotojai**.
     1. Sukurkite vartotoją.
@@ -107,7 +107,7 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
 
     ![Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas](media/app-connect-app-users.png "Sandėliavimo mobiliojo įrenginio vartotojo priskyrimas")
 
-1. Susiekite savo „Azure AD“ programą su sandėliavimo programos vartotoju atlikdami toliau nurodytus veiksmus.
+1. Susiekite savo „Azure AD“ programą su sandėliavimo programėlės vartotoju:
 
     1. Eikite į **Sistemos administravimas \> Sąranka \> „Azure Active Directory“ programos**.
     1. Sukurkite eilutę.
@@ -119,9 +119,9 @@ Norėdami įgalinti „Supply Chain Management“, kad galėtumėte naudoti savo
 
 Autentifikavimas su „Azure AD“ leidžia saugiai prijungti mobilųjį įrenginį prie „Supply Chain Management“. Autentifikuoti galite naudodami kliento slaptąjį raktą arba sertifikatą. Jei importuosite ryšio parametrus, rekomenduojame vietoj kliento slaptojo rakto naudoti sertifikatą. Kliento slaptasis raktas turi būti visada saugomas saugiai, todėl negalite jo importuoti iš ryšio parametrų failo arba QR kodo, kaip aprašyta toliau šioje temoje.
 
-Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis nusiunčiama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta sandėliavimo programa. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
+Sertifikatai gali būti naudojami kaip slaptieji raktai programos tapatybei įrodyti, kai prašomas atpažinimo ženklas. Viešoji sertifikato dalis įkeliama į programos registraciją „Azure“ portale, o visas sertifikatas turi būti įdiegtas kiekviename įrenginyje, kuriame įdiegta sandėliavimo programėlė. Jūsų organizacija atsakinga už sertifikato rotacijos valdymą ir pan. Galite naudoti pasirašomus sertifikatus, bet visada turite naudoti neeksportuotinus sertifikatus.
 
-Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate sandėliavimo programą. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+Turite nustatyti, kad sertifikatas būtų pasiekiamas kiekviename įrenginyje, kuriame paleidžiate sandėliavimo programėlę. Norėdami gauti daugiau informacijos apie tai, kaip valdyti „Intune“ kontroliuojamų įrenginių sertifikatus, jei naudojate „Intune“, žr. [Sertifikatų naudojamas autentifikavimui programoje „Microsoft Intune“](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Programos konfigūravimas importuojant ryšio parametrus
 
@@ -177,7 +177,7 @@ Informaciją galite įrašyti kaip JSON failą arba sugeneruoti QR kodą su toki
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Ryšio parametrų failo įrašymas kiekviename įrenginyje
 
-Paprastai ryšio parametrų failams paskirtyti kiekviename savo valdomame įrenginyje naudojate įrenginių valdymo įrankį arba scenarijų. Jei kiekviename įrenginyje įrašydami ryšio parametrų failą naudosite numatytąjį vardą ir vietą, sandėliavimo programa jį importuos automatiškai, net kai programa bus paleista pirmą kartą po įdiegimo. Jei naudosite pasirinktinį failo vardą arba vietą, pirmą kartą paleidus programą, vartotojas turi nurodyti reikšmes. Tačiau programa vėliau naudos nurodytą vardą ir vietą.
+Paprastai ryšio parametrų failams paskirtyti kiekviename savo valdomame įrenginyje naudojate įrenginių valdymo įrankį arba scenarijų. Jei kiekviename įrenginyje naudojate numatytąjį pavadinimą ir vietą, kai įrašote ryšių nustatymų failą kiekviename įrenginyje, sandėliavimo programėlė automatiškai jį importuos net ir pirmą kartą paleidus programėlę po jos įdiegimo. Jei naudosite pasirinktinį failo vardą arba vietą, pirmą kartą paleidus programą, vartotojas turi nurodyti reikšmes. Tačiau programa vėliau naudos nurodytą vardą ir vietą.
 
 Kaskart paleidus programą, ji iš naujo importuoja ryšio parametrus iš ankstesnės vietos, kad nustatytų, ar buvo pakeitimų. Programa atnaujins tik tuos ryšius, kurių pavadinimai sutampa su ryšio parametrų faile esančių ryšių pavadinimais. Vartotojo sukurti ryšiai, kurie turi kitokius pavadinimus, atnaujinti nebus.
 
@@ -197,7 +197,7 @@ Paprastai keliai automatiškai sukuriami po pirmo programos paleidimo. Tačiau g
 
 Norėdami importuoti ryšio parametrus iš failo arba QR kodo, atlikite toliau nurodytus veiksmus.
 
-1. Atidarykite sandėliavimo programą savo mobiliajame įrenginyje.
+1. Atidarykite sandėliavimo programėlę savo mobiliajame įrenginyje.
 1. Eikite į **Ryšio parametrai**.
 1. Nustatykite parinkties **Naudoti demonstracinį režimą** reikšmę kaip _Ne_.
 
@@ -226,7 +226,7 @@ Norėdami importuoti ryšio parametrus iš failo arba QR kodo, atlikite toliau n
 
 Galite neautomatiškai konfigūruoti programą įrenginyje, kad ji prie „Supply Chain Management“ serverio jungtųsi per „Azure AD“ programą.
 
-1. Atidarykite sandėliavimo programą savo mobiliajame įrenginyje.
+1. Atidarykite sandėliavimo programėlę savo mobiliajame įrenginyje.
 1. Eikite į **Ryšio parametrai**.
 1. Nustatykite parinkties **Naudoti demonstracinį režimą** reikšmę kaip _Ne_.
 

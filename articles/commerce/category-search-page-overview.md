@@ -1,9 +1,9 @@
 ---
 title: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 description: Šioje temoje apžvelgiami numatytasis „Dynamics 365 Commerce“ kategorijos nukreipimo puslapis ir ieškos rezultatų puslapis.
-author: v-chgri
+author: ashishmsft
 manager: annbe
-ms.date: 10/31/2019
+ms.date: 06/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 17746d2923ab84311253c47647c0020807bdb75c
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: e85449c10fa4a768a144ce423a77bd1fc2c94352
+ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002501"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "3527473"
 ---
-# <a name="overview-of-default-category-landing-page-and-search-results-page"></a>Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
-
+# <a name="default-category-landing-page-and-search-results-page-overview"></a>Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
 
 [!include [banner](includes/banner.md)]
 
@@ -96,13 +95,19 @@ Toliau nurodyti esminiai ieškos rezultatų puslapio komponentai.
 - **Skaidymo į puslapius funkcija** svetainės lankytojams leidžia iš vieno į kategorijas suskirstytų produktų rezultatų puslapio pereiti į kitą puslapį.
 - **Bendras skaičius** – pateikiamas bendras kategorijoje nustatytų ir ieškos kriterijus atitinkančių produktų skaičius.
 
+>[!NOTE]
+>Šios debesų kompiuterijos ieškos galimybės prieinamos 10.0.8 versijoje. Įsitikinkite, kad dalyje **Prekybos parametrai > Konfigūracijos parametrai** yra įrašas, skirtas „Productsearch.UseAzureSearch” nustatytas kaip „true”. 
+![Konfigūracijos parametrai debesies aplinkos ieškoje](./media/CloudPoweredSearchConfigurationParameters.png)
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
+
+[Debesų technologija valdomos ieškos apžvalga](cloud-powered-search-overview.md)
 
 [Pagrindinio puslapio apžvalga](quick-tour-home-page.md)
 
-[Produkto informacijos puslapių apžvalga](quick-tour-pdp.md)
+[Išsamios informacijos apie produktus puslapių apžvalga](quick-tour-pdp.md)
 
 [Krepšelio ir pirkimo užbaigimo puslapių apžvalga](quick-tour-cart-checkout.md)
 
-[Paskyros valdymo puslapių apžvalga](quick-tour-account-management.md)
+[Paskyrų tvarkymo puslapių apžvalga](quick-tour-account-management.md)
 

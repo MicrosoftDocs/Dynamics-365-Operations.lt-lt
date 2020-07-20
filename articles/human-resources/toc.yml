@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: 2020 m. birželio 25 d.
+          href: hr-whats-new-2020-06-23.md
         - name: 2020 m. birželio 11 d.
           href: hr-whats-new-2020-06-11.md
         - name: 2020 m. gegužės 28 d.
@@ -141,6 +143,8 @@
           items:
             - name: Palaikymo gavimas
               href: hr-admin-troubleshooting-support.md
+            - name: Efektyvumo optimizavimas planuojant paketines užduotis po darbo valandų
+              href: hr-admin-troubleshooting-batch-jobs.md
             - name: Efektyvumo optimizavimas naudojant automatinio valymo užduotis
               href: hr-admin-troubleshooting-batch-history.md
             - name: Neatnaujinamos analizės ataskaitos
