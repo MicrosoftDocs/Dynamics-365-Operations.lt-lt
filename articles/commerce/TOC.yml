@@ -32,23 +32,23 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/commerce/toc.json
                 - name: Duomenų užduočių automatizavimas
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/commerce/toc.json
-                - name: 'ISV sprendimų teikimas, naudojant vieną versiją'
+                - name: 'ISV sprendimų teikimas, naudojant „One Version“'
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/commerce/toc.json
                 - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/commerce/toc.json
-            - name: „Dynamics 365 Commerce” peržiūros versijos aplinkos nustatymas
+            - name: „Dynamics 365 Commerce” vertinimo aplinkos nustatymas
               items:
-                - name: „Dynamics 365 Commerce” peržiūros versijos aplinkos apžvalga
+                - name: „Dynamics 365 Commerce” vertinimo aplinkos apžvalga
                   href: cpe-overview.md
-                - name: „Dynamics 365 Commerce” peržiūros versijos aplinkos parengimas
+                - name: „Dynamics 365 Commerce” vertinimo aplinkos parengimas
                   href: provisioning-guide.md
-                - name: „Dynamics 365 Commerce“ peržiūros versijos aplinkos konfigūravimas
+                - name: „Dynamics 365 Commerce“ vertinimo aplinkos konfigūravimas
                   href: cpe-post-provisioning.md
-                - name: BOPIS konfigūravimas „Dynamics 365 Commerce“ aplinkoje
+                - name: BOPIS konfigūravimas „Dynamics 365 Commerce“ vertinimo aplinkoje
                   href: cpe-bopis.md
-                - name: Pasirinktinių „Dynamics 365 Commerce” peržiūros versijos aplinkos funkcijų konfigūravimas
+                - name: Pasirinktinių „Dynamics 365 Commerce” vertinimo aplinkos funkcijų konfigūravimas
                   href: cpe-optional-features.md
-                - name: DUK apie „Dynamics 365 Commerce“ peržiūros versijos aplinką
+                - name: DUK apie „Dynamics 365 Commerce” vertinimo aplinką
                   href: cpe-faq.md
             - name: Visuotinio diegimo aplinkybės
               items:
@@ -72,6 +72,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: „Finance and Operations“ programos Prancūzijoje
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
+            - name: „Dynamics 365 Commerce“ palaikymo gavimas
+              href: retail-support.md
             - name: Plėtojimas ir N-1 palaikymas
               items:
                 - name: 'Plėtojimas ir N-1 palaikymas, skirtas „Commerce“'
@@ -192,6 +194,8 @@
                   href: commerce-architecture.md
                 - name: „Dynamics 365 Commerce“ autentifikavimo srautai
                   href: arch-auth-flow.md
+                - name: „Dynamics 365 Commerce“ komponento versijų kūrimo reikalavimai
+                  href: arch-component-versioning.md
                 - name: „Commerce Scale Unit“ architektūra
                   href: dev-itpro/retail-server-architecture.md
                 - name: Parduotuvės topologijos pasirinkimas
@@ -280,7 +284,7 @@
                   href: channels-prerequisites.md
                 - name: Bendrosios būtinosios sąlygos
                   items:
-                    - name: Organizacijos ir organizacinės hierarchijos
+                    - name: Organizacijų ir organizacijų hierarchijos
                       items:
                         - name: Organizacijų ir organizacijų hierarchijų apžvalga
                           href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
@@ -314,7 +318,7 @@
                           href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/retail/toc.json
                         - name: Atskirų numeracijų nustatymas
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/retail/toc.json
-                        - name: Numeracijos nustatymas naudojant vediklį
+                        - name: Numeracijos nustatymas naudojant vedlį
                           href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/retail/toc.json
                     - name: Numatytojo kliento ir adresų knygelės nustatymas
                       href: default-customer.md
@@ -1754,9 +1758,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Atskirų numeracijų nustatymas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/commerce/toc.json
-                - name: Numeracijų nustatymas naudojant vediklį
+                - name: Numeracijų nustatymas naudojant vedlį
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/commerce/toc.json
-            - name: Organizacijos ir organizacinės hierarchijos
+            - name: Organizacijų ir organizacijų hierarchijos
               items:
                 - name: Organizacijų ir organizacijų hierarchijų apžvalga
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json
@@ -1984,6 +1988,8 @@
                       href: e-commerce-extensibility/create-observable-data-action.md
                     - name: Būsenos moduliuose bendrinimas
                       href: e-commerce-extensibility/share-state-across-modules.md
+                    - name: Duomenų veiksmų talpyklos parametrai
+                      href: e-commerce-extensibility/data-action-cache-settings.md
                     - name: Veiksmų su duomenimis perrašymai
                       href: e-commerce-extensibility/data-action-overrides.md
                     - name: Duomenų veiksmų trikčių gaudyklės

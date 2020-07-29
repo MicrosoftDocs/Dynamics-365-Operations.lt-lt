@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2020\_m. liepos 8\_d."
+          href: hr-whats-new-2020-07-08.md
         - name: 2020 m. birželio 25 d.
           href: hr-whats-new-2020-06-23.md
         - name: 2020 m. birželio 11 d.
@@ -235,9 +237,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: Atskirų numeracijų nustatymas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
-                - name: Numeracijų nustatymas naudojant vediklį
+                - name: Numeracijų nustatymas naudojant vedlį
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
-            - name: Organizacijos ir organizacinės hierarchijos
+            - name: Organizacijų ir organizacijų hierarchijos
               items:
                 - name: Organizacijų ir organizacijų hierarchijų apžvalga
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
@@ -577,5 +579,7 @@
           items:
             - name: Darbuotojų ir vadovų savitarnos apžvalga
               href: hr-employee-manager-self-service-overview.md
-            - name: Asmeninės informacijos kūrimas
+            - name: Darbuotojų savitarnos darbo srities pavadinimo keitimas
+              href: hr-employee-self-service-workspace-name.md
+            - name: Asmeninės informacijos redagavimas
               href: hr-employee-manager-self-service-edit-personal-information.md
