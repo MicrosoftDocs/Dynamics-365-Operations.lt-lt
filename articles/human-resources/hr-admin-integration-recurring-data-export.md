@@ -41,7 +41,7 @@ Viename įprastame verslo scenarijuje, skirtame „Microsoft Dynamics 365“ int
 Šiose mokymo priemonėse naudojamos šios technologijos:
 
 - **[„Dynamics 365 Human Resources“](https://dynamics.microsoft.com/talent/overview/)**– bendrųjų duomenų šaltinis, skirtas darbuotojams, kurie bus eksportuojami.
-- **[„Azure“ loginės programos](https://azure.microsoft.com/services/logic-apps/)** – technologija, kuria galima organizuoti ir planuoti pasikartojantį eksportavimą.
+- **[„Azure Logic Apps“](https://azure.microsoft.com/services/logic-apps/)** – technologija, kuria galima organizuoti ir planuoti pasikartojantį eksportavimą.
 
     - **[Jungtys](https://docs.microsoft.com/azure/connectors/apis-list)** – technologija, naudojama prijungti loginę programą prie reikiamų galinių punktų.
 
@@ -83,7 +83,7 @@ Didžioji dalis pratimo susijusi su loginės programos kūrimu.
 
     ![Loginės programos kūrimo puslapis](media/integration-logic-app-creation-1.png)
 
-2. Loginės programos kūrimo įrankyje pradėkite nuo tuščios loginės programos.
+2. Įrankyje „Logic Apps Designer“ pradėkite nuo tuščios loginės programos.
 3. Įtraukite [pasikartojančio grafiko paleidiklį](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence), kad galėtumėte paleisti loginę programą kas 24 valandas (arba pagal pasirinktą grafiką).
 
     ![Pasikartojimo dialogo langas](media/integration-logic-app-recurrence-step.png)
@@ -196,7 +196,7 @@ Norėdami tikrinti loginę programą, pasirinkite kūrimo įrankyje mygtuką **V
 
 Jei pranešama apie bet kurio veiksmo triktį, kūrimo įrankyje pasirinkite nepavykusį veiksmą ir patikrinkite dėl jos laukus **Įvestys** ir **Išvestys**. Derinkite ir koreguokite veiksmą taip, kaip reikia, kad ištaisytumėte klaidas.
 
-Toliau pateiktoje iliustracijoje parodyta, kaip atrodo loginės programos kūrimo įrankis, kai visi loginės programos veiksmai sėkmingai vykdomi.
+Toliau pateiktoje iliustracijoje parodyta, kaip atrodo įrankis „Logic Apps Designer“, kai visi loginės programos veiksmai sėkmingai vykdomi.
 
 ![Sėkmingas loginės programos vykdymas](media/integration-logic-app-successful-run.png)
 
