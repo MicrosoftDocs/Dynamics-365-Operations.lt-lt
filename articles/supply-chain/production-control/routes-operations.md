@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a6d792a0e52d2b82b25de461dcec358fdc8f439
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f2422dcec1fb222f1be7162d7c799a13046329b4
+ms.sourcegitcommit: f0faa2929435cd1408c5925f0ee4d6636fec5da1
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211082"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3552922"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -225,7 +225,7 @@ Naudojant šį būdą, puslapis **Operacijų ryšiai** tampa pirmine vykdymo lai
 Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos išteklių reikalavimų dalies, taikomi ištekliai gali veikti skirtingu greičiu. Todėl laikas, reikalingas operacijai apdoroti, gali skirtis. Norėdami išspręsti šią problemą, naudokite operacijos ryšio lauką **Formulė** nurodyti, kaip apskaičiuojamas apdorojimo laikas. Galimos toliau nurodytos pasirinktys:
 
 -   **Standartinė** – (numatytoji parinktis) skaičiuojant naudojami tik laukai iš operacijos ryšio, ir vykdymo laikas padauginamas iš užsakymo kiekio.
--   **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. Ši vertė padauginama iš užsakymo kiekio ir vertės **Koeficientas** iš operacijos ryšio.
+-   **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuoajamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**.
 -   **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
 -   **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 

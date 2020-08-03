@@ -1,0 +1,84 @@
+---
+title: Kilmės šalis / regionas
+description: Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikrintų, jog jų produktai atitiktų sertifikato standartus. Šie sertifikatai dažnai priklauso nuo kilmės šalies. Šiame skyriuje pateikiama informacija apie kilmės šalies savybes, kurios leidžia jums susieti gaminį su jo kilmės šalimi ir sekti gaminių sertifikatus.
+author: dasani-madipalli
+manager: tfehr
+ms.date: 07/15/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: damadipa
+ms.search.validFrom: 2020-07-15
+ms.dyn365.ops.version: Release 10.0.9
+ms.openlocfilehash: fd234c57bf9893e9b8bcfa5ada7439a642f7a288
+ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 07/15/2020
+ms.locfileid: "3596258"
+---
+# <a name="country-of-origin"></a>Kilmės šalis / regionas
+
+[!include [banner](../includes/banner.md)]
+
+Daugelis organizacijų išduoda sertifikatus savo pardavėjams tam, kad užtikrintų, jog jų produktai atitiktų sertifikato standartus. Šie sertifikatai dažnai priklauso nuo kilmės šalies. Kilmės šalies savybės leidžia jums susieti gaminį su jo kilmės šalimi ir sekti gaminių sertifikatus.
+
+## <a name="configure-source-and-destination-countries"></a>Konfigūruoti šaltinį ir paskirties šalis
+
+Prieš jums išduodant sertifikatą gaminiui privalo susieti jį su jo paskirties šalimi ir kilmės šalimi.
+
+1. Eikite į**Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Kilmės šalis \> Kilmės šalies taisyklės**.
+2. Pasirinkite esančią šalies sąranką redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujos šalies sąranką.
+3. Naujosios politikos antraštėje, nustatykite šias vertes:
+
+    | Laukas | aprašymas |
+    |---|---|
+    | Prekės Nr. | Pasirinkite elemento gaminio numerį. |
+    | Paskirties šalis | Pasirinkite šalį, į kurią siunčiate gaminį. |
+    | Kilmės šalis | Pasirinkite šalį, iš kurios siunčiate gaminį. |
+
+Šios sąrankos tikslas yra padėti jums sukurti medžiagų sąskaitos (BOM) ataskaitą, į kurią galite įtraukti kilmės šalį kiekvienai daliai, kuriai yra nustatytas šaltinis ir paskirties šalis. Ši sąskaita padės jums gauti bendrą paveikslėlį, kuriame matysite, iš kur ateina jūsų dalys ir kur jos eina.
+
+## <a name="keep-track-of-vendor-certificates"></a>Sekite pardavėjų sertifikatus
+
+Galite naudoti **Kilmės šalies pardavėjo sertifikatų** puslapį tam, kad sektumėte sertifikatus, kuriuos išduodate pardavėjams.
+
+Privalote nuspręsti, kuriuos sertifikato dokumentus išduodate ir kaip apie juos pranešite klientams. Ši funkcija padeda jums sekti jūsų sertifikatus. Ji taip pat padeda jums pasirinkti, ar atitinkami sertifikato numeriai bus rodomi sąskaitose, pakavimo lapeliuose ir (arba) užsakymo patvirtinimuose.
+
+Sertifikato informacijos nustatymui, atlikite šiuos žingsnius.
+
+1. Eikite į**Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Kilmės šalis \> Pardavėjo kilmės šalies sertifikatai**.
+2. Pasirinkite esančią sertifikato sąranką redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujo sertifikato sąranką.
+3. Naujam ar pasirinktam sertifikatui nustatykite šiuose nustatymus.
+
+    | Laukas | aprašymas |
+    |---|---|
+    | Tiekėjo kodas | Pasirinkite pardavėją, kuriam išdavėte sertifikatą. |
+    | Prekės Nr. | Pasirinkite elementą, kuriam išdavėte sertifikatą. |
+    | Šalis/regionas | Paskirties šalis ar regionas, kuriame privalote naudoti šį sertifikatą. |
+    | Sertifikato numeris | Įveskite jūsų išduoto sertifikato identifikavimo numerį. |
+    | Galioja | Pasirinkite pirmą datą, kai esamas sertifikatas galioja.|
+    | Galiojimas | Pasirinkite paskutinę datą, kai esamas sertifikatas galioja. |
+    | Atspausdinkite sąskaitą | Pasirinkite žymimą laukelį, kad atspausdintumėte sertifikato numerį sąskaitose, kurios yra siunčiamos konkrečiai šaliai nurodytų duomenų intervale. |
+    | Atspausdinkite pakavimo lipduką | Pasirinkite žymimą laukelį, kad atspausdintumėte pakavimo lipdukų numerį sąskaitose, kurios yra siunčiamos konkrečiai šaliai nurodytų duomenų intervale. |
+    | Prekybos užsakymo spausdinimas | Pasirinkite žymimą laukelį, kad atspausdintumėte sertifikato numerį ar prekybos užsakymus, kurie yra siunčiami konkrečiai šaliai nurodytų duomenų intervale. |
+
+## <a name="include-the-country-of-origin-on-bom-reports"></a>Įtraukite kilmės šalį į BOM ataskaitas
+
+Kai sukuriate BOM ataskaitą, galite įtraukti kilmės šalį kiekvienai daliai, kurią nurodėte šaltinyje ir kilmės šalyse **Kilmės šalies taisyklės** puslapyje.
+
+1. Eikite į **Produkto informacijos valdymas \> Produktai \> Patvirtinti produktai**.
+1. Pasirinkite ar sukurkite produktą, kad atidarytumėte jo **Išleisto produkto informacija** puslapį.
+1. Veiksmų juostoje, **Inžinierius** skirtuke, **BOM** grupėje, pasirinkite **Projektuotojas**.
+1. Pasirodžiusiame puslapyje Veiksmų juostoje pasirinkite **BOM \> Spausdinti**.
+1. **Medžiagų linijų sąskaitos** teksto lange nustatykite **Paskirties šalies** laukelį į paskirties šalį, kurią norite peržiūrėti savo ataskaitoje.
+1. Pasirinkite **Gerai**.
+
+Informaciją pateikianti ataskaita apie kiekvienos dalies kilmės šalį yra sukuriama ir rodoma. Čia pateikiamas ataskaitos pavyzdys.
+
+![Kilmės šalies ataskaita](media/country-of-origin-report.png "Kilmės šalies ataskaita")

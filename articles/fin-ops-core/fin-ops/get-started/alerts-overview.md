@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 12fadd8387054db3e19d4136555724c23548e05c
-ms.sourcegitcommit: 4e62c22b53693c201baa646a8f047edb5a0a2747
+ms.openlocfilehash: 755181e956a3d93d87e9e5d57622283ff7bf4944
+ms.sourcegitcommit: f62c2151be477acfaeace73878471abb9b1b832d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "3031024"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3602534"
 ---
 # <a name="alerts-overview"></a>Įspėjimų apžvalga
 
@@ -73,10 +73,6 @@ Prieš nustatydami įspėjimo taisyklę nuspręskite, kada ar kokiais atvejais n
 
     > [!NOTE]
     > Šią parinktį gali naudoti tik organizacijos administratoriai.
-
-## <a name="email-notifications-from-alerts"></a>Įspėjimų el. paštu siunčiami pranešimai
-
-Įspėjimų el. paštu siunčiami pranešimai dar neįgalinti. Ši funkcija bus įgalinta būsimame naujinime.
 
 ## <a name="videos"></a>Vaizdo įrašai
 

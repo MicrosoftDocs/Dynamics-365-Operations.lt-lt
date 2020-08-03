@@ -3,7 +3,7 @@ title: Poreikio prognozės apžvalga
 description: Poreikio prognozės naudojamos siekiant klientų užsakymų nepriklausomą poreikį prognozuoti iš pardavimo užsakymų, o priklausomą poreikį – bet kada atsiejimo metu. Patobulintos poreikio prognozės mažinimo taisyklės suteikia idealų masinio pritaikymo sprendimą.
 author: roxanadiaconu
 manager: tfehr
-ms.date: 01/07/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be60bb5c856020d76d185249fddf09493ea1d2ed
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 1033432d0d820516d8c9b2f58f27241351e7c64b
+ms.sourcegitcommit: 2e7454c07adfc05164121307050f6f24303d36d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213888"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3550045"
 ---
 # <a name="demand-forecasting-overview"></a>Poreikio prognozės apžvalga
 
@@ -48,7 +48,7 @@ Toliau pateikiamos keletas pagrindinių poreikio prognozės funkcijų.
 Poreikio prognozėje taikomos trys pagrindinės temos, nurodytos toliau.
 
 -   **Moduliarumas** – poreikio prognozė yra modulinė ir ją lengva konfigūruoti. Funkciją galite įjungti ir išjungti, pakeitę konfigūracijos raktą pasirinkdami **Prekyba** &gt; **Atsargų prognozė** &gt; **Poreikio prognozė**.
--   **Pakartotinis „Microsoft“ dėklo naudojimas** – „Microsoft“ pristatė mašininio mokymo platformą 2015 m. vasario mėn. Mašininis mokymas, kuris šiuo metu yra „Microsoft Cortana“ analizės rinkinio dalis, suteikia galimybę greitai ir lengvai kurti prognozavimo analizės bandymus, pvz., poreikio įvertinimo bandymus, naudojant R algoritmus arba „Python“ programavimo kalbas ir paprastą nuvilkimo sąsają.
+-   **Naujas „Microsoft“ krūvos panaudojimas** – „Machine Learning“, kuris yra „Microsoft Cortana Analytics Suite“ dalis leidžia jums greitai ir paprastai sukurti nuspėjamus analizės eksperimentus, tokius kaip poreikio apskaičiavimo eksperimentai naudojant algoritmus R ar „Python“ programavimo kalbas ir paprastą tempimo ir paleidimo sąsają.
     -   Galite atsisiųsti poreikio prognozavimo bandymus, keisti juos, kad jie atitiktų jūsų verslo poreikius, publikuoti kaip „Azure“ tinklo tarnybą ir naudoti poreikio prognozėms generuoti. Bandymus galite atsisiųsti, jei kaip įmonės lygio vartotojas įsigijote gamybos planuotojo „Supply Chain Management“ prenumeratą.
     -   Bet kurį šiuo metu galimą poreikio prognozės bandymą galite atsisiųsti iš čia: [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/). Kadangi poreikio prognozės bandymai yra automatiškai integruojami su „Supply Chain Management“, klientai ir partneriai turi tvarkyti iš puslapio [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) atsisiųstų bandymų integravimą. Todėl [„Cortana“ analizės galerija](https://gallery.cortanaanalytics.com/) bandymus nėra taip lengva naudoti, kaip „Finance and Operations“ poreikio prognozavimo bandymus. Reikia modifikuoti bandymų kodą, kad jie naudotų „Finance and Operations“ taikomojo programavimo sąsają (angl. API).
     -   Galite sukurti savo bandymus naudodami „Microsoft Azure“ mašininio mokymo studiją (klasikinė), publikuoti juos kaip „Azure“ tarnybas ir naudoti poreikio prognozėms generuoti.
@@ -70,6 +70,16 @@ Tada „Supply Chain Management“ galima naudoti prognozes, retrospektyvinius d
 
 ## <a name="limitations"></a>Apribojimai
 Poreikio prognozė yra įrankis, kuris klientams gamybos pramonėje padeda kurti prognozavimo procesus. Jis teikia poreikio prognozės sprendimo pagrindinę funkciją ir yra sukurtas taip, kad jį būtų galima lengvai išplėsti. Poreiko prognozė gali būti netinkama klientams tokiose pramonės šakose kaip prekyba, didmeninė prekyba, sandėliavimas, transportavimas ar kitose profesionaliose paslaugų teikimo šakose.
+
+### <a name="demand-forecast-variant-conversion-limitation"></a>Poreikio prognozės varianto pavertimo apribojimai
+
+Matavimo vienetas (UOM) varianto pavertimui nėra visiškai palaikomas kuriant poreikio planavimą, jei inventorius UOM skiriasi nuo poreikio prognozės UOM.
+
+Prognozės kūrimas (**Inventorius UOM > Poreikio prognozė UOM**) naudoja UOM produkto pavertimą. Istorinių duomenų užkrovos poreikio prognozės kūrimo metu, pavertimo UOM produkto lygis bus visuomet naudojamas paverčiant iš inventoriaus UOM į prognozės poreikį UOM, net jei esama pavertimų nustatytų varianto lygyje.
+
+Pirmoji leidimo prognozės dalis (**Poreikio prognozė UOM > Inventorius UOM**) naudoja UOM pavertimo produktą. Antroji leidimo prognozės dalis (**Inventorius UOM > Pardavimo UOM**) naudoja UOM pavertimo variantą. Kai poreikio prognozės leidimas yra sukuriamas, UOM inventoriaus pavertimas iš poreikio prognozės UOM bus atliktas naudojant produkto lygio UOM pavertimą. Tuo pačiu metu, pavertimas tarp inventoriaus padalinio ir prekybos UOM atsižvelgs į varianto lygį nurodytą pavertimuose.
+
+Atkreipkite dėmesį, kad poreikio UOM prognozė neprivalo turėti jokios konkrečios reikšmės. Ji gali būti nustatyta kaip „Poreikio prognozės padalinys“. Visiems produktams galite nustatyti pavertimą į 1:1 su UOM inventoriumi.
 
 <a name="additional-resources"></a>Papildomi ištekliai
 --------

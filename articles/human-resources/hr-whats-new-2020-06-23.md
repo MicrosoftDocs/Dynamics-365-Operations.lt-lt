@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cc1931cee0f3da15e07908f221282ad6b57e1681
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: 8d83268292ac65d62cbe8fa9a4c146bf4af36b50
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500442"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555032"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. birželio mėn. 23 d.)
 
@@ -119,3 +119,10 @@ Naujoji parinktis bus prieinama **Žmogiškųjų išteklių parametrai**, kad b�
 ## <a name="checklist-entities-included-in-common-data-service"></a>Kontrolinio sąrašo objektai, nurodyti „Common Data Service”
 
 Kontrolinių sąrašų objektai, skirti supažindinimo, atleidimo, perkėlimo ir verslo procesams, greitai taps prieinami „Common Data Service”.
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

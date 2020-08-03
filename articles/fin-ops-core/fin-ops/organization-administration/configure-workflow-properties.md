@@ -3,7 +3,7 @@ title: Darbo eigos ypatybių konfigūravimas
 description: Šioje temoje paaiškinama, kaip konfigūruoti įvairias darbo eigos ypatybes.
 author: sericks007
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d745389b37b899760ea32ae75c5cb80d9139be2d
-ms.sourcegitcommit: 1852f08f015acd106f4cefd03fa07985dc009123
+ms.openlocfilehash: 268448049955170b8eb9e64cbd50416565a041b1
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3199441"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541114"
 ---
 # <a name="configure-workflow-properties"></a>Darbo eigos ypatybių konfigūravimas
 
@@ -91,12 +91,7 @@ Norėdami nustatyti, kada turėtų būti naudojama jūsų konfigūruojama darbo 
 3. Spustelėkite **Įtraukti sąlygą**.
 4. Įveskite sąlygą
 5. Įveskite visas reikalingas papildomas sąlygas.
-6. Norėdami patikrinti, kad sąlygos, kurias įvedėte yra nustatytos teisingai, atlikite tolesnius veiksmus.
-
-    1. Spustelėkite **Išbandyti**.
-    2. Puslapio **Tikrinti darbo eigos sąlygą** srityje **Tikrinti sąlygą** pasirinkite įrašą.
-    3. Spustelėkite **Išbandyti**. Įvertinusi įrašą sistema nustatys, ar jis tenkina jūsų nurodytas sąlygas. Pavyzdžiui, jei kuriate pirkimo paraiškos darbo eigą Ispanijai, puslapio srityje **Tikrinti sąlygą** bus rodomas pirkimo paraiškų sąrašas. Spustelėjus **Tikrinti**, sistema įvertins pasirinktą pirkimo paraišką, siekdama nustatyti, ar šalis / regionas yra ES.
-    4. Spustelėkite **Gerai** arba **Atšaukti**, kad grįžtumėte į puslapį **Ypatybės**.
+6. Apžvelkite darbo srautą su keletu paskirties įrašų tam, kad patikrintumėte, ar sąlyga tinkamai apima ir neįtraukia įrašų.
 
 ## <a name="specify-when-notifications-are-sent"></a>Nurodymas, kada siunčiami pranešimai
 

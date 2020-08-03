@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8385b7dfcd1d7294542c7f54f609b26b7988ac4
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b14baf49517f5d606038af20366944788b22eba2
+ms.sourcegitcommit: 1ec931f8fe86bde27f6def36ea214a2a05fb22f6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431250"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3554330"
 ---
 # <a name="copy-an-instance"></a>Egzemplioriaus kopijavimas
 
@@ -68,11 +68,11 @@ Norėdami atlikti šią užduotį, pirmiausia nukopijuokite egzempliorių, tada 
 
 4. Užduočių srityje **Kopijuoti egzempliorių** pasirinkite egzempliorių, kurį norite perrašyti, tada – **Kopijuoti**. Palaukite, kol lauko **Kopijuoti būseną** reikšmė bus atnaujinta į **Baigta**.
 
-   ![[Pasirinkite egzempliorių, kurį norite perrašyti](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Perrašytino egzemplioriaus pasirinkimas](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Pažymėkite **„Power Platform“** ir prisijunkite prie „Microsoft Power Platform“ admininstravimo centro.
 
-   ![[Power Platform pasirinkimas](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[„Power Platform“ pasirinkimas](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Pasirinkite kopijuotiną „PowerApps“ aplinką ir pasirinkite **Kopijuoti**.
 
@@ -108,6 +108,6 @@ Be to, kai kopijuojate egzempliorių, pasikeičia šios būsenos:
 
 ## <a name="environment-admin"></a>Aplinkos administratorius
 
-Visi paskirties smėlio dėžės aplinkos vartotojai, įskaitant administratorius, pakeičiami šaltinio aplinkos vartotojais. Prieš kopijuodami egzempliorių, patikrinkite, ar esate paskirties aplinkos administratorius. Jei nesate, baigę kopijuoti, negalėsite prisijungti prie paskirties smėlio dėžės aplinkos.
+Visi paskirties smėlio dėžės aplinkos vartotojai, įskaitant administratorius, pakeičiami šaltinio aplinkos vartotojais. Prieš tai kai nukopijuojate egzempliorių, įsitikinkite, kad šaltinio aplinkoje esate Administratorius. Jei nesate, baigę kopijuoti, negalėsite prisijungti prie paskirties smėlio dėžės aplinkos.
 
 Visi ne administratoriaus teises turintys vartotojai paskirties smėlio dėžės aplinkoje yra išjungti, kad būtų užkirstas kelias nepageidaujamiems prisijungimams smėlio dėžės aplinkoje. Jei reikia, administratoriai gali iš naujo įgalinti vartotojus.

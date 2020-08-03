@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39f18dc92fb01f9a0437f4166c0f08f8d6b1b81b
-ms.sourcegitcommit: 218e22014a964b8b52fc0152e355b07b0b84ae2c
+ms.openlocfilehash: cba6e48899ec39fc4de6656f8151a42b8aa43261
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456625"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555200"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. birželio mėn. 11 d.)
 
@@ -95,3 +95,10 @@ Jūs galėsite padaryti laukus privalomus naudojant personalizavimą. Norėdami 
 ## <a name="configure-the-name-of-employee-self-service"></a>Darbuotojų savitarnos pavadinimo konfigūravimas
 
 Nauja parinktis bus prieinama „Human Resources” parametruose, kad galėtumėte atnaujinti Darbuotojo savitarnos darbovietės pavadinimą į Savitarną. 
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

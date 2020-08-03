@@ -3,7 +3,7 @@ title: Išmokų valdymo apžvalga
 description: Išmokų valdymo funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/06/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4157cb1f83d686d435f3d04e47c578df455376c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
+ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429271"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3599385"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
 
@@ -59,6 +59,8 @@ Bendra kreditų vertė, nustatyta lanksčiųjų kreditų programai, nėra rodoma
 ## <a name="configure-employee-information"></a>Darbuotojų informacijos konfigūravimas
 
 Kad užregistruotumėte darbuotojus išmokoms gauti, turite pateikti reikiamą informaciją. Turite užregistruoti darbuotoją į **pastoviosios atlyginimo dalies planą** jų darbo pradžios dieną ir pasirinkti **išmokų mokėjimo dažnumą** dalies **Įdarbinimo informacija** formoje **Darbininkas**.
+
+Jei turite darbuotoją, kuris gauna papildomą užmokestį kaip komisinį mokestį, galite įtraukite **Metinio užmokesčio algos** sumą iš darbuotojo įrašo. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatydami padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. **Metinės algos išmokos** turi būti galiojančios nuo darbuotojo pradžios dienos arba nuo išmokos laikotarpio, priklausomai nuo to, kuri data yra vėlesnė. Jei fiksuota alga ir metinės algos užmokesčio suma darbuotojui įrašoma, metinės algos užmokestis bus naudoojamas nustatant padengiamas sumas.
 
 Kai kuriate išmokų planą, naudojantį tarifus, pagrįstus lytimi arba amžiumi, turite įvesti darbuotojo gimimo datą ir lytį, kad būtų apskaičiuota išmokų savikaina.
 

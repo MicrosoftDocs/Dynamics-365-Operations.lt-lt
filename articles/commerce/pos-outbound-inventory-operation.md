@@ -3,7 +3,7 @@ title: Siunčiamų atsargų operacija EKA
 description: Šioje temoje aprašomos siunčiamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
 author: hhaines
 manager: annbe
-ms.date: 05/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 22f057c20898bb4b4c34e38d62313d2634a33511
-ms.sourcegitcommit: 3b6fc5845ea2a0de3db19305c03d61fc74f4e0d4
+ms.openlocfilehash: c2c8acfaf7b84870ce00bf1ae84440dd369df9da
+ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3384134"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "3551630"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -58,6 +58,9 @@ Norėdami sukonfigūruoti nesinchroninę dokumentų sistemą, atlikite toliau pa
 7. Skyriaus **Sąranka** „FastTab“ elemente **Bendra** parinktyje **Ištisinis** nustatykite vertę **Ne**, kad išvengtumėte našumo problemų.
 
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Dviejų paketinių užduočių, skirtų dokumentų apdorojimo ir stebėjimo užduotims, kūrimas ir planavimas
+
+> [!NOTE]
+> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti pakeitinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite**Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui
 
 Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko sukurti arba kurių kūrimui skirtas laikas baigėsi, apdoroti. Taip pat jos bus naudojamos, kai aktyvių atsargų dokumentų, apdorojamų EKA, skaičius viršys sistemos sukonfigūruotą vertę.
 

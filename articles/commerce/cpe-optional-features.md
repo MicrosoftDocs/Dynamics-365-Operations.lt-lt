@@ -1,9 +1,9 @@
 ---
-title: Pasirinktinių „Dynamics 365 Commerce” peržiūros aplinkos funkcijų konfigūravimas
-description: Šioje temoje paaiškinama, kaip sukonfigūruoti pasirenkamas „Microsoft Dynamics 365 Commerce“ peržiūros aplinkos funkcijas.
+title: Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
+description: Šiame skyriuje paaiškinama, kaip sukonfigūruoti pasirenkamas funkcija „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje.
 author: psimolin
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,28 +17,25 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4b17f8e9b0d8a9a62714d0073561e66642b2eaf9
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3057745"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599825"
 ---
-# <a name="configure-optional-features-for-a-dynamics-365-commerce-preview-environment"></a>Pasirinktinių „Dynamics 365 Commerce” peržiūros aplinkos funkcijų konfigūravimas
-
+# <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip sukonfigūruoti pasirenkamas „Microsoft Dynamics 365 Commerce“ peržiūros aplinkos funkcijas.
+Šiame skyriuje paaiškinama, kaip sukonfigūruoti pasirenkamas funkcija „Microsoft Dynamics 365 Commerce“ vertinimo aplinkoje.
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
 Jei norite įvertinti operacines el. pašto funkcijas, turi būti įvykdytos šios būtinosios sąlygos:
 
-- Turite pasiekiamą el. pašto serverį (paprastųjų pašto siuntų protokolo \[SMTP\] serverį), kuris gali būti naudojamas iš „Microsoft Azure“ prenumeratos, kurioje sukonfigūravote peržiūros aplinką.
+- Turite prieinamą elektroninio pašto serverį („Simple Mail Transfer Protocol“ \[SMTP\] serverį), kuris gali būti naudojamas „Microsoft Azure“ prenumeratai, kuria aprūpinote savo vertinimo aplinką.
 - Turite pasiekiamus serverio visiškai apibrėžtą domeno vardą (FQDN) / IP adresą, SMTP prievado numerį ir autentifikavimo informaciją.
-
-Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naudodami daugiakanalės platformos vaizdus, turite turėti savo turinio valdymo sistemos (TVS) nuomotojo vardą. Nurodymai, kaip rasti šį vardą, pateikiami toliau šioje temoje. >>>(K: kur yra nurodymai?)
 
 ## <a name="configure-the-image-back-end"></a>Vaizdų posistemio konfigūravimas
 
@@ -47,9 +44,9 @@ Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naud
 > [!NOTE]
 > Kad galėtumėte atlikti šią procedūrą, turite atlikti dalyje [Svetainės nustatymas programoje „Commerce“](cpe-post-provisioning.md#set-up-your-site-in-commerce) nurodytus veiksmus.
 
-1. Prisijunkite prie „Commerce“ svetainių valdymo įrankio naudodami URL, kurį pasižymėjote inicijuodami el. prekybą jos konfigūravimo metu (žr. [El. prekybos inicijavimas](provisioning-guide.md#initialize-e-commerce)).
+1. Prisijunkite prie komercijos svetainės kūrėjo naudodami URL, kurį užsirašėte pradėdami „e-Commerce“ parengimo metu (žr. [Pradėti „e-Commerce“](provisioning-guide.md#initialize-e-commerce)).
 1. Atidarykite **„Fabrikam“** svetainę.
-1. Kairėje esančiame meniu pasirinkite **Ištekliai**.
+1. Meniu kairėje pasirinkite**Medijos biblioteka**.
 1. Pasirinkite bet kurį vieną vaizdo išteklių.
 1. Dešinėje esančiame ypatybių inspektoriuje suraskite ypatybę **Viešasis URL**. Jos reikšmė yra URL. Toliau pateikiamas pavyzdys.
 
@@ -63,22 +60,22 @@ Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naud
 
 ### <a name="update-the-media-base-url"></a>Pagrindinio medijos URL naujinimas
 
-1. Prisijunkite prie „Dynamics 365 Commerce“.
+1. Prisijunkite prie komercijos būstinės.
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Kanalo sąranka \> Kanalo profiliai**.
 1. Pasirinkite **Redaguoti**.
 1. Dalyje **Profilio ypatybės** ypatybės **Pagrindinis medijos serverio URL** reikšmę pakeiskite savo anksčiau sukurtu pagrindiniu medijos URL.
-1. Kairėje esančiame sąraše prie kanalo **Numatytasis** pasirinkite kitą kanalą.
+1. Pasirinkite kanalą pavadinimu **scXXXXXXXXX**.
 1. Dalyje **Profilio ypatybės** pasirinkite **Įtraukti**.
 1. Kaip įtrauktos ypatybės raktą pasirinkite **Pagrindinis medijos serverio URL**. Kaip ypatybės reikšmę įveskite savo anksčiau sukurtą pagrindinį medijos URL.
 1. Pasirinkite **Įrašyti**.
 
-## <a name="configure-the-email-server"></a>El. pašto serverio konfigūravimas
+## <a name="configure-and-test-the-email-server"></a>Konfigūruokite ir testuokite elektroninio pašto serverį
 
 > [!NOTE]
 > SMTP serveris arba el. pašto paslauga, kuriuos čia įvedate, turi būti pasiekiami „Azure“ prenumeratoje, kurią naudojate aplinkoje.
 
-1. Prisijunkite prie „Commerce“.
-1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Sistemos administravimas \> Sąranka \> El. paštas \> El. pašto parametrai**.
+1. Prisijunkite prie komercijos būstinės.
+1. Naudokite meniu kairėje ir eikite į**Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Elektroninio pašto parametrai**.
 1. Skirtuko **SMTP parametrai** lauke **Siunčiamo pašto serveris** įveskite savo SMTP serverio ar el. pašto tarnybos FQDN arba IP adresą.
 1. Lauke **SMTP prievado numeris** įveskite prievado numerį. (Jei nenaudojate saugiųjų jungčių lygmens \[SSL\], numatytasis prievado numeris yra **25**.)
 1. Jei reikalinga autentifikacija, įveskite reikšmes laukuose **Vartotojo vardas** ir **Slaptažodis**.
@@ -92,8 +89,8 @@ Jei norite įvertinti skaitmeninių išteklių valdymo funkcijas tiesiogiai naud
 
 Kiekvieno operacinio įvykio, dėl kurio norite siųsti el. laiškus, el. laiškų šabloną turite atnaujinti galiojančiu siuntėjo el. pašto adresu.
 
-1. Prisijunkite prie „Commerce“.
-1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Organizacijos administravimas \> Sąranka \> Organizacijos el. laiškų šablonai**.
+1. Prisijunkite prie komercijos būstinės.
+1. Naudokite meniu kairėje ir eikite į**Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Organizaciniai elektroninio pašto šablonai**.
 1. Pasirinkite **Rodyti sąrašą**.
 1. Su kiekvienu sąraše esančiu šablonu atlikite toliau nurodytus veiksmus.
 
@@ -104,9 +101,9 @@ Kiekvieno operacinio įvykio, dėl kurio norite siųsti el. laiškus, el. laišk
 
 ## <a name="customize-email-templates"></a>El. laiškų šablonų tinkinimas
 
-Galbūt norėsite el. laiškų šablonus tinkinti, kad juose būtų naudojami skirtingi vaizdai. Arba galbūt norėsite atnaujinti šablonų saitus, kad jų paskirties vieta būtų jūsų peržiūros aplinka. Šia procedūra paaiškinama, kaip atsisiųsti numatytuosius šablonus, juos tinkinti ir atnaujinti sistemos šablonus.
+Galbūt norėsite el. laiškų šablonus tinkinti, kad juose būtų naudojami skirtingi vaizdai. Arba jums reikėtų atnaujinti nuorodas į šablonus tam, kad jie galėtų patekti į jūsų vertinimo aplinką. Šia procedūra paaiškinama, kaip atsisiųsti numatytuosius šablonus, juos tinkinti ir atnaujinti sistemos šablonus.
 
-1. Naudodami žiniatinklio naršyklę, į vietinį kompiuterį atsisiųskite [„Microsoft Dynamics 365 Commerce“ peržiūros numatytųjų el. laiškų šablonų ZIP failą](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip). Šiame faile yra tolesni HTML dokumentai.
+1. Tinklo naršyklėje, atsisiųskite [„Microsoft Dynamics 365 Commerce Evaluation“ nustatytuosius elektroninio pašto šablonų archyvuotą failą](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) į savo vietos kompiuterį. Šiame faile yra tolesni HTML dokumentai.
 
     - Užsakymo patvirtinimo šablonas
     - Dovanų kortelės išdavimo šablonas
@@ -161,7 +158,7 @@ Tolesni atpažinimo ženklai pakeičiami kiekvieno užsakymo produkto reikšmėm
 | Produktų sąrašas – pradžia   | \<!--%tablebegin.salesline% --\> |
 | Produktų sąrašas – pabaiga     | \<!--%tableend.salesline%--\> |
 | Produkto pavadinimas           | %lineproductname% |
-| Aprašymas            | %lineproductdescription% |
+| aprašymas            | %lineproductdescription% |
 | Kiekis               | %linequantity% |
 | Eilutės vieneto kaina        | %lineprice% (tikrinti) |
 | Iš viso eilutės elementų        | %linenetamount% |
@@ -173,13 +170,15 @@ Tolesni atpažinimo ženklai pakeičiami kiekvieno užsakymo produkto reikšmėm
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos apžvalga](cpe-overview.md)
+[„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra](cpe-overview.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md)
+[Parenkite „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
+[Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką](cpe-post-provisioning.md)
 
-[DUK apie „Dynamics 365 Commerce“ peržiūros aplinką](cpe-faq.md)
+[Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-bopis.md)
+
+[„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
 
 [„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
