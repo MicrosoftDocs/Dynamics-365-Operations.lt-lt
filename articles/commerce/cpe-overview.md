@@ -1,9 +1,9 @@
 ---
-title: „Dynamics 365 Commerce“ peržiūros aplinkos apžvalga
-description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ peržiūros aplinka.
+title: „Dynamics 365 Commerce“ vertinimo aplinkos peržiūra
+description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ vertinimo aplinka.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,45 +17,50 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024688"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599767"
 ---
-# <a name="dynamics-365-commerce-preview-environment-overview"></a><span data-ttu-id="11d00-103">„Dynamics 365 Commerce“ peržiūros aplinkos apžvalga</span><span class="sxs-lookup"><span data-stu-id="11d00-103">Dynamics 365 Commerce preview environment overview</span></span>
-
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a><span data-ttu-id="61921-103">„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra</span><span class="sxs-lookup"><span data-stu-id="61921-103">Dynamics 365 Commerce evaluation environment overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="11d00-104">Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ peržiūros aplinka.</span><span class="sxs-lookup"><span data-stu-id="11d00-104">This topic gives an overview of the Microsoft Dynamics 365 Commerce preview environment.</span></span>
+<span data-ttu-id="61921-104">Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ vertinimo aplinka.</span><span class="sxs-lookup"><span data-stu-id="61921-104">This topic gives an overview of the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="11d00-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="11d00-105">Overview</span></span>
+> [!NOTE]
+> <span data-ttu-id="61921-105">Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskyru jų prašymu.</span><span class="sxs-lookup"><span data-stu-id="61921-105">Commerce evaluation environments aren't generally available, and are granted to partners and customers on a per-request basis.</span></span> <span data-ttu-id="61921-106">Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.</span><span class="sxs-lookup"><span data-stu-id="61921-106">For more information, reach out to your Microsoft partner contact.</span></span>
 
-<span data-ttu-id="11d00-106">„Commerce“ peržiūros aplinka yra pasirenkama visapusė „Dynamics 365 Commerce“ peržiūros aplinka, kurią naudodami galimi klientai gali išbandyti „Commerce“ produktą prieš jį išleidžiant visai visuomenei.</span><span class="sxs-lookup"><span data-stu-id="11d00-106">The Commerce preview environment is an optional end-to-end preview environment of Dynamics 365 Commerce that lets potential customers try out the Commerce product before its general release to the public.</span></span>
+## <a name="overview"></a><span data-ttu-id="61921-107">Peržiūra</span><span class="sxs-lookup"><span data-stu-id="61921-107">Overview</span></span>
 
-<span data-ttu-id="11d00-107">Be kai kurių nedidelių apribojimų, kurie neturi įtakos funkcijoms ar veikimui, „Commerce“ peržiūros aplinkoje suteikiamos visos „Commerce“ funkcijos ir, ją naudodami, klientai bei diegimo partneriai gali įvertinti produktą, pateikti atsiliepimų ir atlikti tinkamumo / trūkumų analizę.</span><span class="sxs-lookup"><span data-stu-id="11d00-107">Aside from some minor limitations that don't affect features or functionality, the Commerce preview environment provides the complete Commerce experience, and can be used by customers and implementation partners to evaluate the product, provide feedback, and do fit/gap analysis.</span></span>
+<span data-ttu-id="61921-108">Komercijos vertinimo aplinka yra pasirenkama „Dynamics 365 Commerce“ aplinka leidžianti partneriams ir potencialiems klientams išbandyti komercinius produktus.</span><span class="sxs-lookup"><span data-stu-id="61921-108">The Commerce evaluation environment is an optional end-to-end environment of Dynamics 365 Commerce that lets partners and potential customers try out the Commerce product.</span></span>
 
-## <a name="limitations-of-the-commerce-preview-environment"></a><span data-ttu-id="11d00-108">„Commerce“ peržiūros aplinkos apribojimai</span><span class="sxs-lookup"><span data-stu-id="11d00-108">Limitations of the Commerce preview environment</span></span>
+<span data-ttu-id="61921-109">Vertinimo aplinkos yra išankstinio konfigūravimo dalis ir sumažina reikalaujamus žingsnius po parengimo.</span><span class="sxs-lookup"><span data-stu-id="61921-109">Evaluation environments are partially preconfigured to reduce the required post-provisioning steps.</span></span>
 
-<span data-ttu-id="11d00-109">Nors „Commerce“ peržiūros aplinkoje suteikiamos visos „Commerce“ funkcijos ir galimybės, yra keletas nedidelių apribojimų, nurodytų toliau.</span><span class="sxs-lookup"><span data-stu-id="11d00-109">Although the Commerce preview environment provides the full set of Commerce features and functionality, there are some minor limitations:</span></span>
+<span data-ttu-id="61921-110">Kartu su keletu nežymių apribojimų, neveikiančių funkcionalumo ir savybių, komercijos vertinimo aplinka suteikia išbaigtą komercijos patirtį ir gali būti naudojama klientų ir įgyvendinimo partnerių siekiant įvertinti gaminį ir pateikti atsiliepimą bei pritaikymo ar neatitikimų analizę.</span><span class="sxs-lookup"><span data-stu-id="61921-110">Aside from some minor limitations that don't affect features or functionality, the Commerce evaluation environment provides the complete Commerce experience, and can be used by customers and implementation partners to evaluate the product, provide feedback, and do fit/gap analysis.</span></span>
 
-- <span data-ttu-id="11d00-110">Nors pačiai „Commerce“ peržiūros aplinkai netaikomi jokie geografiniai apribojimai, aplinkos komponentus, pvz., „Retail Cloud Scale Unit“ (RCSU) ir el. prekybos programas, galima parengti tik Jungtinėse Valstijose.</span><span class="sxs-lookup"><span data-stu-id="11d00-110">Although the Commerce preview environment itself has no geographical limitations, components of the environment, such as the Retail Cloud Scale Unit (RCSU) and e-Commerce applications, can be provisioned only in the United States.</span></span>
-- <span data-ttu-id="11d00-111">„Commerce“ peržiūos aplinkos naudojimo terminas apribotas iki 30 dienų nuo el. prekybos parengimo datos.</span><span class="sxs-lookup"><span data-stu-id="11d00-111">Use of the Commerce preview environment is limited to 30 days from the date when e-Commerce is provisioned.</span></span>
-- <span data-ttu-id="11d00-112">„Commerce“ peržiūros aplinką sėkmingai įdiegti ir inicijuoti galima tik tokioje aplinkoje, kurioje naudojama demonstracinė topologija ir visi aplinkos komponentai yra įdiegti vienoje virtualiojoje mašinoje (VM).</span><span class="sxs-lookup"><span data-stu-id="11d00-112">The Commerce preview environment can be successfully deployed and initialized only in an environment that uses the demo topology, where all components of an environment are deployed in a single virtual machine (VM).</span></span> <span data-ttu-id="11d00-113">Pagrindinis šios „OneBox“ VM topologijos apribojimas yra vienu metu dirbančių vartotojų skaičius, kurį gali palaikyti peržiūros aplinka.</span><span class="sxs-lookup"><span data-stu-id="11d00-113">The main limitation of this OneBox VM topology is the number of concurrent users that the preview environment can support.</span></span>
-- <span data-ttu-id="11d00-114">„Commerce“ peržiūros aplinką galima įvertinti tik tol, kol „Commerce“ produktas nėra pasiekiamas visuotinai.</span><span class="sxs-lookup"><span data-stu-id="11d00-114">The Commerce preview environment can be evaluated only until the general availability (GA) of the Commerce product.</span></span> <span data-ttu-id="11d00-115">Po visuotinio pasiekiamumo etapo bus galima naudoti naujas demonstracines aplinkas.</span><span class="sxs-lookup"><span data-stu-id="11d00-115">New demo environments will be available after GA.</span></span>
+## <a name="limitations-of-the-commerce-evaluation-environment"></a><span data-ttu-id="61921-111">Komercijos vertinimo aplinkos apribojimai</span><span class="sxs-lookup"><span data-stu-id="61921-111">Limitations of the Commerce evaluation environment</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="11d00-116">Darbo pradžia</span><span class="sxs-lookup"><span data-stu-id="11d00-116">Get started</span></span>
+<span data-ttu-id="61921-112">Nepaisant to, kad Komercijos vertinimo aplinka suteikia visą rinkinį komercijos savybių ir funkcijų, esama keleto nežymių apribojimų:</span><span class="sxs-lookup"><span data-stu-id="61921-112">Although the Commerce evaluation environment provides the full set of Commerce features and functionality, there are some minor limitations:</span></span>
 
-<span data-ttu-id="11d00-117">Jei norite „Commerce“ peržiūros aplinką parengti, žr. [„Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="11d00-117">To provision the Commerce preview environment, see [Provision a Commerce preview environment](provisioning-guide.md).</span></span>
+- <span data-ttu-id="61921-113">Nepaisant to, kad Komercijos vertinimo aplinka neturi geografinių apribojimų, aplinkos komponentai, tokie kaip „Retail Cloud Scale Unit“ (RCSU) ir „e-Commerce“ programos gali būti parūpintos tik Jungtinėse Amerikos Valstijose.</span><span class="sxs-lookup"><span data-stu-id="61921-113">Although the Commerce evaluation environment itself has no geographical limitations, components of the environment, such as the Retail Cloud Scale Unit (RCSU) and e-Commerce applications, should be provisioned only in the United States.</span></span>
+- <span data-ttu-id="61921-114">Komercijos vertinimo aplinkos naudojimas yra apribotas 30 dienų nuo „e-Commerce“ suteikimo dienos.</span><span class="sxs-lookup"><span data-stu-id="61921-114">Use of the Commerce evaluation environment is limited to 30 days from the date when e-Commerce is provisioned.</span></span>
+- <span data-ttu-id="61921-115">Komercijos vertinimo aplinka gali būti sėkmingai patalpinta ir pradėta naudoti tik aplinkoje, naudojančioje demonstracinę topologiją, kai visi aplinkos komponentai yra patalpinti vienoje debesyje esančioje virtualioje mašinoje (VM).</span><span class="sxs-lookup"><span data-stu-id="61921-115">The Commerce evaluation environment can be successfully deployed and initialized only in an environment that uses the demo topology, where all components of an environment are deployed on a single cloud-hosted virtual machine (VM).</span></span> <span data-ttu-id="61921-116">Pagrindinis topologijos apribojimas yra konkuruojančių vartotojų skaičius palaikomoje aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="61921-116">The main limitation of this topology is the number of concurrent users that the environment can support.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="11d00-118">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="11d00-118">Additional resources</span></span>
+## <a name="get-started"></a><span data-ttu-id="61921-117">Pradžia</span><span class="sxs-lookup"><span data-stu-id="61921-117">Get started</span></span>
 
-[<span data-ttu-id="11d00-119">„Dynamics 365 Commerce“ peržiūros aplinkos parengimas</span><span class="sxs-lookup"><span data-stu-id="11d00-119">Provision a Dynamics 365 Commerce preview environment</span></span>](provisioning-guide.md)
+<span data-ttu-id="61921-118">Komercijos vertinimo aplinkos parengimui, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="61921-118">To provision the Commerce evaluation environment, see [Provision a Commerce evaluation environment](provisioning-guide.md).</span></span>
 
-[<span data-ttu-id="11d00-120">„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="11d00-120">Configure a Dynamics 365 Commerce preview environment</span></span>](cpe-post-provisioning.md)
+## <a name="additional-resources"></a><span data-ttu-id="61921-119">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="61921-119">Additional resources</span></span>
 
-[<span data-ttu-id="11d00-121">„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas</span><span class="sxs-lookup"><span data-stu-id="11d00-121">Configure optional features for a Dynamics 365 Commerce preview environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="61921-120">Parenkite „Dynamics 365 Commerce“ vertinimo aplinką</span><span class="sxs-lookup"><span data-stu-id="61921-120">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-[<span data-ttu-id="11d00-122">DUK apie „Dynamics 365 Commerce“ peržiūros aplinką</span><span class="sxs-lookup"><span data-stu-id="11d00-122">Dynamics 365 Commerce preview environment FAQ</span></span>](cpe-faq.md)
+[<span data-ttu-id="61921-121">Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką</span><span class="sxs-lookup"><span data-stu-id="61921-121">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
+
+[<span data-ttu-id="61921-122">Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje</span><span class="sxs-lookup"><span data-stu-id="61921-122">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
+
+[<span data-ttu-id="61921-123">Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje</span><span class="sxs-lookup"><span data-stu-id="61921-123">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
+
+[<span data-ttu-id="61921-124">„Dynamics 365 Commerce“ vertinimo aplinkos DUK</span><span class="sxs-lookup"><span data-stu-id="61921-124">Dynamics 365 Commerce evaluation environment FAQ</span></span>](cpe-faq.md)
