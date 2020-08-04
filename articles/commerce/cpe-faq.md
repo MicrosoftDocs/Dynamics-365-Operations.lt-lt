@@ -1,9 +1,9 @@
 ---
-title: „Dynamics 365 Commerce“ peržiūros aplinkos DUK
-description: Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
+title: „Dynamics 365 Commerce“ vertinimo aplinkos DUK
+description: Šioje temoje pateikiami atsakymai į dažniausiai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 author: v-chgri
 manager: annbe
-ms.date: 04/10/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,73 +17,57 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5321d7937a9de3ba39f7a88bf0e9c26f4e62d7bc
-ms.sourcegitcommit: 4254acb3cf8c6299fc2f3818ea6c499f058320d9
+ms.openlocfilehash: 637714e28b9f8f4aa66e251e709d8f78bff2739d
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "3254729"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599770"
 ---
-# <a name="dynamics-365-commerce-preview-environment-faq"></a>„Dynamics 365 Commerce“ peržiūros aplinkos DUK
+# <a name="dynamics-365-commerce-evaluation-environment-faq"></a>„Dynamics 365 Commerce“ vertinimo aplinkos DUK
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiami atsakymai į dažnai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
+Šioje temoje pateikiami atsakymai į dažniausiai užduodamus klausimus apie „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 
-**Ar savo kvietimą išbandyti „Commerce“ peržiūros aplinką galiu perleisti kitam nuomotojui?**
+**Ar galime naudoti komercijos vertinimo aplinką kaip „e-Commerce“ parduotuvę savo klientams, kurie jau įgyvendino „Retail“?**
 
-Taip. Norėdami perleisti kvietimą, galite naudoti [„Commerce“ peržiūros perleidimo formą](https://aka.ms/Dynamics365CommercePreviewTransferForm).
+Nr. Komercijos vertinimo aplinka yra skirta tik vertinimui. Jei reikia aplinkos klientui, kuris yra įsidiegęs „Retail“, kreipkitės į „Microsoft“.
 
-**Kiek laiko užtrunka kvietimo perleidimas?**
+**Ar gali komercijos vertinimo aplinka būti naudojama „e-Commerce“ savybių parengimui esančioje aplinkoje ar programose, kurios įgyvendino „Retail“?**
 
-Perleidimas vidutiniškai trunka maždaug nuo trijų iki penkių darbo dienų. Tačiau gali pasitaikyti išimčių.
+Ne (dažniausiai). Komercijos vertinimo komponentai yra prieinami tik aplinkose, kurios atitinka konfigūravimus, nustatytus būtinosiose sąlygose ir parengimo gide. Taip pat, reikalaujama demo duomenų pagrindo versija nebus prieinama aplinkose, kurios turi pirmąją versiją, ankstesnę nei 10.0.8. 
 
-**Ar „Commerce“ peržiūros aplinka veikia su „Dynamics 365 Finance“ ar „Dynamics 365 Supply Chain“ projektais?**
+**Kiek kainuoja patalpinti komercijos vertinimo aplinką „Microsoft Azure“ per „Microsoft Dynamics Lifecycle Services“ (LCS)?**
 
-Nr. „Commerce“ peržiūros aplinka veikia tik su „Dynamics 365 Retail“ projektais.
+Įprasta „Dynamics 365 Finance“/„Dynamics 365 Supply Chain Management“/„Dynamics 365 Commerce“ būstinės demo aplinka (virtuali mašina \[VM\]) bus patalpinta jūsų „Azure“ prenumeratoje. Norėdami įvertinti šiuos kaštus, galite naudoti [„Azure“ kainų skaičiuotuvą](https://azure.microsoft.com/pricing/calculator/).
 
-**Ar „Commerce“ peržiūros aplinką galime naudoti kaip el. prekybos parduotuvę klientams, kurie šiuo metu yra įsidiegę „Retail“?**
+Kiti komponentai, tokie kaip „Commerce Scale Unit“, komercijos vietos kūrimo įrankis ir jūsų „e-Commerce“ vieta bus prieinama kaip programinės įrangos paslaugos (SaaS) ir patalpinti „Microsoft“.
 
-Nr. „Commerce“ peržiūros aplinka yra skirta tik vertinti. Jei reikia aplinkos klientui, kuris yra įsidiegęs „Retail“, kreipkitės į „Microsoft“.
+**Kokios „Azure“ geografinės sritys šiuo metu palikomos komercijos vertinimo aplinkoje?**
 
-**Ar, naudojant „Commerce“ peržiūros aplinką, galima konfigūruoti el. prekybas funkcijas taip pat naudojant esamą programą / aplinką, kurioje įdiegta „Retail“?**
-
-Nr. „Commerce“ peržiūros aplinka šiuo metu pasiekiama tik naujose aplinkose, kurios buvo įdiegtos „Retail“ sandėliavimo vienetų (SKU) projektuose su demonstraciniais duomenimis iš 10.0.6 versijos.
-
-**Kokie yra „Commerce“ peržiūros aplinkos diegimo tarnyboje „Microsoft Azure“ naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS) kaštai?**
-
-„Retail“ yra vienintelis jūsų prenumeratoje nuomojamas komponentas. Kiti komponentai, pvz., „Retail Cloud Scale Unit“ (RCSU) ir el. prekyba, bus nuomojami „Microsoft“ prenumeratose. Norėdami įvertinti šiuos kaštus, galite naudoti [„Azure“ kainų skaičiuotuvą](https://azure.microsoft.com/pricing/calculator/).
-
-**Kuriuose „Azure“ regionuose šiuo metu palaikoma „Commerce“ peržiūros aplinka?**
-
-„Commerce“ peržiūros aplinką galima įdiegti tik Šiaurės Amerikos regione.
+Komercijos vertinimo aplinka gali būt patalpinta tik Šiaurės Amerikos regione.
 
 **Ar galima atsisiųsti virtualųjį standųjį diską (VHD), kuriame yra visavertės „OneBox“ virtualiosios mašinos (VM) parinktis?**
 
-„Dynamics 365 Retail Cloud Scale Unit“ (RCSU) ir el. prekyba visapusiškai yra programinės įrangos nuomos paslauga (SaaS) ir turi būti nuomojama debesyje.
+„Dynamics 365 Commerce“ ir „Commerce Scale Unit“ yra visa programinė įranga, kaip paslaugų (Saas) ir turi būti patalpinta debesyje.
 
-**Kiek laiko galima naudoti „Commerce“ peržiūros aplinką?**
+**Kiek laiko galima naudoti komercijos vertinimo aplinką?**
 
-„Commerce“ peržiūos aplinkai taikomas 30 dienų terminas nuo el. prekybos sukonfigūravimo.
+Komercijos vertinimo aplinka turi 30 dienų laiko limitą nuo dienos, kai SaaS komponentai, tokie kaip „Commerce Scale Unit“, komercijos vietos kūrimo įrankis ir jūsų „e-Commerce“ vieta yra suteikta.
 
-**Ar galiu pratęsti „Commerce“ peržiūros aplinkos terminą?**
+**Ar galiu pratęsti komercijos vertinimo aplinkos laikotarpį?**
 
-Taip. Galite kreiptis į palaikymo komandą, naudodami [„Commerce“ peržiūros pratęsimo formą](https://aka.ms/Dynamics365CommercePreviewExtensionForm).
-
-**Ar galime pateikti kelias „Commerce“ peržiūros aplinkos užklausas?**
-
-Kiekvienai priimtai užklausai suteikiame vienos „Commerce“ peržiūros aplinkos kvotą. Jei reikia daugiau, nei vienos peržiūros aplinkos, kreipkitės į „Microsoft“. Kontaktinę informaciją rasite kitame skyriuje.
-
-## <a name="dynamics-365-commerce-preview-environment-contact-information"></a>Kontaktinė informacija dėl „Dynamics 365 Commerce“ peržiūros aplinkos
-
-Jei turite klausimų ar užklausų, susijusių su „Commerce“ peržiūros aplinka, pagalbos kreipkitės į „Microsoft“ apsilankydami [„Microsoft Dynamics 365 Commerce“ peržiūros „Yammer“ grupėje](https://aka.ms/Dynamics365CommercePreviewYammer).
+Laikotarpio pratęsimas yra išimtis iš taisyklės ir vertinamas kiekvienu atskiru atveju skirtingai. Turėtumėte susisiekite su „Microsoft“ partnerio pagalbos centru.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Dynamics 365 Commerce“peržiūros aplinkos apžvalga](cpe-overview.md)
+[„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra](cpe-overview.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md)
+[Parenkite „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
+[Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką](cpe-post-provisioning.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md)
+[Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-bopis.md)
+
+[Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)

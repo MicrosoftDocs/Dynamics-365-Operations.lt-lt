@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama pašalinti iš „Dynamics 365 Commerce“.
 author: josaw
 manager: AnnBe
-ms.date: 06/10/2020
+ms.date: 07/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 64241ef1c25359c7b3b305c4e8f2b24de7e8f5e4
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: aa18e7446a72a907fcad70f92ea529088b6cecbd
+ms.sourcegitcommit: 83c7e5ab54c1cad2e21e33769cc524cfa4213f58
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443923"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3539884"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Pašalintos arba nebenaudojamos „Dynamics 365 Commerce“ funkcijos
 
@@ -41,8 +41,35 @@ ms.locfileid: "3443923"
 |   |  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Duomenų veiksmų trikčių gaudyklė nebeaktyvi dėl našumo problemų. |
-| **Pakeitė kita funkcija?**   | Vietoj to rekomenduojama, naudoti [duomenų veiksmų perrašymus](../e-commerce-extensibility/data-action-overrides.md), kad modifikuotumėte verslo logiką duomenų veiksmų sluoksnyje.|
-| **Paveiktos produkto sritys**         | El. prekybos išplėtimo duomenų veiksmai |
+| **Pakeitė kita funkcija?**   | Rekomenduojame naudoti [duomenų veiksmų užrašymus](../e-commerce-extensibility/data-action-overrides.md) verslo logikos duomenų veiksmų sluoksnyje keitimui.|
+| **Paveiktos produkto sritys**         | „e-Commerce“ praplėtimo duomenų veiksmai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
+
+### <a name="retail-sdk-support-for-visual-studio-2015-msbuild-140-and-retail-sdkreference-libraries-and-tools"></a>Mažmeninės prekybos SDK pagalba „Visual Studio 2015“, msbuild 14.0, ir „Retail SDK“\Referencinės bibliotekos ir įrankiai
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | „Retail SDK“ pagalba „Visual Studio 2015“ buvo panaikinta ir atnaujinta tam, kad padėtų VS 2017, „msbuild 15.0“ ir visas referencines bibliotekas ir komercijos serverio generatoriaus įrankį „RetailSDK“\Referencinį kataloge, kuris buvo perkeltas į „NuGet“ paketus tam, kad būtų palengvintas plėtinio modelis ir SDK pagerinimo procesas.|
+| **Pakeitė kita funkcija?**   | Rekomenduojame jums sekti informaciją [Perkelti „Retail SDK“ iš „Visual Studio 2015“ į „Visual Studio 2017“](../dev-itpro/retail-sdk/migrate-sdk.md) savo sistemos atnaujinimui. |
+| **Paveiktos produkto sritys**         | „Retail SDK“ plėtiniai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
+
+### <a name="retail-server-extension-using-iedmmodelextender-and-commercecontroller"></a>„Retail Server Extension“ naudojantis „IEdmModelExtender“ ir „CommerceController“
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | „Retail“ serverio plėtinys naudojantis „IEdmModelExtender“ ir „CommerceControllerׅ“ buvo pašalintas tam, kad būtų pateiktas supaprastintas plėtinio modelis. Naujoji versija turės tik valdiklio klasę be papildomo „IEdmModelExtender“ klasės versijos. Tai taip pat panaikina priklausomybę nuo konkrečios „OData“ versijos (jei „OData“ versija yra atnaujinama, ji gali sugadinti plėtinius.) |
+| **Pakeitė kita funkcija?**   |  Rekomenduojame naudoti „IController“ klasės plėtinio modelį importuojant „NuGet“ (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketą. |
+| **Paveiktos produkto sritys**         | „Retail“ serverio plėtiniai |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
+
+### <a name="hardware-station-extension-using-ihardwarestationcontroller"></a>Kompiuterinės įrangos stoties plėtinys naudojantis „IHardwareStationController“
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Kompiuterinės įrangos plėtinys naudojantis „IHardwareStationController“ buvo pašalintas tam, kad būtų pateiktas supaprastintas plėtinio modelis. Naujos versijos turės tik „IController“ klasę be jokios papildomos klasės versijos ir taip bus išvengta priklausomybės nuo pagrindinių kompiuterinės įrangos stoties bibliotekų, nes ankstesnis plėtinys turėjo remtis keliomis bibliotekomis.) |
+| **Pakeitė kita funkcija?**   | Rekomenduojama naudoti „IController“ klasės plėtinio modelį importuojant „NuGet“ (Microsoft.Dynamics.Commerce.Hosting.Contracts) paketą. |
+| **Paveiktos produkto sritys**         | Kompiuterinės įrangos stoties plėtiniai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | Nebenaudojama: nuo 10.0.11 leidimo. |
 

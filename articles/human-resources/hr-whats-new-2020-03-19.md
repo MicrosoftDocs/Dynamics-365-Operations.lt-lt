@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d6988bb95cf2ffe8146434f4b194d97491952915
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3157401"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555264"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 19 d.)
 
@@ -122,3 +122,9 @@ Nuo balandžio pradžios „Human Resources“ išleidimo intervalai pereis nuo 
 
 - **Išmokų valdymo peržiūros funkcija** – norėdami gauti daugiau informacijos, įskaitant žinomas problemas, žr. skyrių [Išmokų valdymo peržiūra](hr-benefits-management-overview.md).
 
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

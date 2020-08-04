@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4fdd409b33989e371d0bd2a6e21b27721336cea0
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.openlocfilehash: d85ce8ccfcd7f1b975244cc2f65535101013ac89
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3114432"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555296"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 3 d.)
 
@@ -87,3 +87,10 @@ Atlikus šį pakeitimą, visi senųjų pareigų aktyvūs įrašai apie pastovią
 - **Atostogų ir neatvykimų peržiūros funkcijos** – daugiau informacijos žr. skyrių [Atostogų ir neatvykimų peržiūros funkcijos](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 
 - **Išmokų valdymo peržiūros funkcija** – norėdami gauti daugiau informacijos, įskaitant žinomas problemas, žr. skyrių [Išmokų valdymo peržiūra](hr-benefits-management-overview.md).
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

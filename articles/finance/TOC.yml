@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/finance/toc.json
                 - name: Duomenų užduočių automatizavimas
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/finance/toc.json
-                - name: 'ISV sprendimų teikimas, naudojant vieną versiją'
+                - name: 'ISV sprendimų teikimas, naudojant „One Version“'
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/finance/toc.json
                 - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/finance/toc.json
@@ -2540,12 +2540,14 @@
                       href: localizations/rus-inventory-adjustment-wizard.md
                     - name: Atsargų ataskaitos
                       href: localizations/rus-inventory-reports.md
-                    - name: Atsargų šablono apžvalga
-                      href: localizations/rus-inventory-profile-overview.md
-                    - name: Atsargų šablono nustatymas
-                      hreF: localizations/rus-set-up-inventory-profile.md
-                    - name: Atsargų šablono naudojimas dokumentuose ir užklausose
-                      href: localizations/rus-use-inventory-profile-documents-queries.md
+                    - name: Atsargų šablonas
+                      items:
+                        - name: Atsargų šablono apžvalga
+                          href: localizations/rus-inventory-profile-overview.md
+                        - name: Atsargų šablono nustatymas
+                          hreF: localizations/rus-set-up-inventory-profile.md
+                        - name: Atsargų šablono naudojimas dokumentuose ir užklausose
+                          href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Ataskaitos
                   items:
                     - name: Finansinės ataskaitos
@@ -3606,9 +3608,9 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Atskirų numeracijų nustatymas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/finance/toc.json
-                - name: Numeracijų nustatymas naudojant vediklį
+                - name: Numeracijų nustatymas naudojant vedlį
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/finance/toc.json
-            - name: Organizacijos ir organizacinės hierarchijos
+            - name: Organizacijų ir organizacijų hierarchijos
               items:
                 - name: Organizacijų ir organizacijų hierarchijų apžvalga
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/finance/toc.json

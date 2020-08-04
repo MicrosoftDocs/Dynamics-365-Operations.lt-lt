@@ -3,7 +3,7 @@ title: Našumo valdymas
 description: Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.
 author: andreabichsel
 manager: AnnBe
-ms.date: 12/11/2019
+ms.date: 07/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6147b5d92381d76c572f8a10e52c9ed00225e7eb
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
+ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430445"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3609777"
 ---
 # <a name="performance-management"></a>Našumo valdymas
 
@@ -145,9 +145,9 @@ Matavimų puslapis leidžia jums sukurti standartinius matavimus, kurie bus naud
 
 ### <a name="performance-journal-source-types"></a>Našumo žurnalo šaltinių tipai
 
-Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Galite matyti, ar žurnalo elementą peržiūrėti pagal numatytuosius nustatymus galės tik vadovas, tik darbuotojas, ar jie abu. Be to, galite įjungti arba išjungti funkciją Siųsti pagyrimą pakeisdami pagyrimo šaltinio tipą. Šiuo metu negalima išjungti kitų šaltinių tipų.
+Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Galite matyti, ar žurnalo elementą peržiūrėti pagal numatytuosius nustatymus galės tik vadovas, tik darbuotojas, ar jie abu. Šiuo metu negali išjungti šaltinio tipų.
 
-### <a name="review-types"></a>Apžvalgos tipai
+### <a name="review-types"></a>Peržiūros tipai
 
 Našumo apžvalgos tipai padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.
 

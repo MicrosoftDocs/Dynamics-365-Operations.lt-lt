@@ -2,7 +2,7 @@
 title: Išleidimo į sandėlį taisyklė
 description: Šioje temoje pateikiama informacija apie išleidimo į sandėlį taisyklę, suteikiančią lankstumo išleidimo į sandėlį metu. Jis prideda konfigūracijos parinktį, kontroliuojančią, ar sistema leidžia išleisti iš dalies rezervuotas užsakymo eilutes.
 author: mirzaab
-manager: AnnBe
+manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 06039c57b7fc0bb850b3fb31c810fe21bfdf747f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
+ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530425"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3597341"
 ---
 # <a name="release-to-warehouse-rule"></a>Išleidimo į sandėlį taisyklė
 

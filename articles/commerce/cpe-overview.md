@@ -1,9 +1,9 @@
 ---
-title: „Dynamics 365 Commerce“ peržiūros aplinkos apžvalga
-description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ peržiūros aplinka.
+title: „Dynamics 365 Commerce“ vertinimo aplinkos peržiūra
+description: Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ vertinimo aplinka.
 author: v-chgri
 manager: annbe
-ms.date: 12/10/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,45 +17,50 @@ ms.search.region: Global
 ms.author: v-chgri
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ff96aeb5963df9ddee56783a089dad129bbb71c
-ms.sourcegitcommit: 4ed1d8ad8a0206a4172dbb41cc43f7d95073059c
+ms.openlocfilehash: 25c0574e8d4502bcb846fba0ddf913d81eded87b
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "3024688"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599767"
 ---
-# <a name="dynamics-365-commerce-preview-environment-overview"></a>„Dynamics 365 Commerce“ peržiūros aplinkos apžvalga
-
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a>„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ peržiūros aplinka.
+Šioje temoje apžvelgiama „Microsoft Dynamics 365 Commerce“ vertinimo aplinka.
 
-## <a name="overview"></a>Peržiūrėti
+> [!NOTE]
+> Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskyru jų prašymu. Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.
 
-„Commerce“ peržiūros aplinka yra pasirenkama visapusė „Dynamics 365 Commerce“ peržiūros aplinka, kurią naudodami galimi klientai gali išbandyti „Commerce“ produktą prieš jį išleidžiant visai visuomenei.
+## <a name="overview"></a>Peržiūra
 
-Be kai kurių nedidelių apribojimų, kurie neturi įtakos funkcijoms ar veikimui, „Commerce“ peržiūros aplinkoje suteikiamos visos „Commerce“ funkcijos ir, ją naudodami, klientai bei diegimo partneriai gali įvertinti produktą, pateikti atsiliepimų ir atlikti tinkamumo / trūkumų analizę.
+Komercijos vertinimo aplinka yra pasirenkama „Dynamics 365 Commerce“ aplinka leidžianti partneriams ir potencialiems klientams išbandyti komercinius produktus.
 
-## <a name="limitations-of-the-commerce-preview-environment"></a>„Commerce“ peržiūros aplinkos apribojimai
+Vertinimo aplinkos yra išankstinio konfigūravimo dalis ir sumažina reikalaujamus žingsnius po parengimo.
 
-Nors „Commerce“ peržiūros aplinkoje suteikiamos visos „Commerce“ funkcijos ir galimybės, yra keletas nedidelių apribojimų, nurodytų toliau.
+Kartu su keletu nežymių apribojimų, neveikiančių funkcionalumo ir savybių, komercijos vertinimo aplinka suteikia išbaigtą komercijos patirtį ir gali būti naudojama klientų ir įgyvendinimo partnerių siekiant įvertinti gaminį ir pateikti atsiliepimą bei pritaikymo ar neatitikimų analizę.
 
-- Nors pačiai „Commerce“ peržiūros aplinkai netaikomi jokie geografiniai apribojimai, aplinkos komponentus, pvz., „Retail Cloud Scale Unit“ (RCSU) ir el. prekybos programas, galima parengti tik Jungtinėse Valstijose.
-- „Commerce“ peržiūos aplinkos naudojimo terminas apribotas iki 30 dienų nuo el. prekybos parengimo datos.
-- „Commerce“ peržiūros aplinką sėkmingai įdiegti ir inicijuoti galima tik tokioje aplinkoje, kurioje naudojama demonstracinė topologija ir visi aplinkos komponentai yra įdiegti vienoje virtualiojoje mašinoje (VM). Pagrindinis šios „OneBox“ VM topologijos apribojimas yra vienu metu dirbančių vartotojų skaičius, kurį gali palaikyti peržiūros aplinka.
-- „Commerce“ peržiūros aplinką galima įvertinti tik tol, kol „Commerce“ produktas nėra pasiekiamas visuotinai. Po visuotinio pasiekiamumo etapo bus galima naudoti naujas demonstracines aplinkas.
+## <a name="limitations-of-the-commerce-evaluation-environment"></a>Komercijos vertinimo aplinkos apribojimai
 
-## <a name="get-started"></a>Darbo pradžia
+Nepaisant to, kad Komercijos vertinimo aplinka suteikia visą rinkinį komercijos savybių ir funkcijų, esama keleto nežymių apribojimų:
 
-Jei norite „Commerce“ peržiūros aplinką parengti, žr. [„Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md).
+- Nepaisant to, kad Komercijos vertinimo aplinka neturi geografinių apribojimų, aplinkos komponentai, tokie kaip „Retail Cloud Scale Unit“ (RCSU) ir „e-Commerce“ programos gali būti parūpintos tik Jungtinėse Amerikos Valstijose.
+- Komercijos vertinimo aplinkos naudojimas yra apribotas 30 dienų nuo „e-Commerce“ suteikimo dienos.
+- Komercijos vertinimo aplinka gali būti sėkmingai patalpinta ir pradėta naudoti tik aplinkoje, naudojančioje demonstracinę topologiją, kai visi aplinkos komponentai yra patalpinti vienoje debesyje esančioje virtualioje mašinoje (VM). Pagrindinis topologijos apribojimas yra konkuruojančių vartotojų skaičius palaikomoje aplinkoje.
+
+## <a name="get-started"></a>Pradžia
+
+Komercijos vertinimo aplinkos parengimui, žr. [Komercijos vertinimo aplinkos nustatymas](provisioning-guide.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos parengimas](provisioning-guide.md)
+[Parenkite „Dynamics 365 Commerce“ vertinimo aplinką](provisioning-guide.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
+[Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką](cpe-post-provisioning.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md)
+[Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-bopis.md)
 
-[DUK apie „Dynamics 365 Commerce“ peržiūros aplinką](cpe-faq.md)
+[Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)
+
+[„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)

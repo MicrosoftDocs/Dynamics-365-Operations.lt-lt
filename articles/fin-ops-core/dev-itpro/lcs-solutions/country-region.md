@@ -17,25 +17,25 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 795e9f5b843ba8e50dc091949c9732b8b033355e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 89c38b354bbca022e80ace4aa8d0b947cfe67f3e
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812093"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598186"
 ---
 # <a name="globalization-resources"></a>Globalizacijos ištekliai
 
 ## <a name="local-and-regional-deployments"></a>Vietinis ir regioninis visuotinis diegimas
 Jeigu jūsų vyriausybės reglamentuose reikalaujama, kad duomenys būtų saugomi skirtingai nei kitose šalyse / regionuose, diegiant jums gali tekti atsižvelgti į šalies / regiono reikalavimus. Jums gali būti praversti šie ištekliai:
 
-[Microsoft Dynamics 365 Finance and Operations programos valdomos „21Vianet“ Kinijoje](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations programos valdomos „21Vianet“ Kinijoje](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalizavimo ir reguliavimo priemonės​
 
 [!include [banner](../includes/banner.md)]
 
-„Dynamics 365 Finance and Operations“ programos turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/dynamics_365_international_availability_deck). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
+„Finance and Operations“ programos turi funkcijų šalims / regionams, nurodytiems [produktų lokalizavimo ir vertimo prieinamumo vadove](https://aka.ms/dynamics_365_international_availability_deck). Šios funkcijos įgalinamos pagal pirminį aktyvaus juridinio subjekto adresą. 
 
 Šioje temoje pateikiama išteklių, galinčių padėti atlikti tolesnius veiksmus, sąrašų. 
 - Sužinokite daugiau apie konkrečioms šalims / regionams skirtų sprendimų kūrimą.
@@ -86,7 +86,7 @@ Užduočių vedlius galima pasiekti produkto žinyno srityje – jie supažindin
 
 Norėdami rasti užduočių vedlių, pereikite į kokį nors puslapį programoje ir spustelėkite Žinynas. Žinyno srityje išvardyti užduočių vedliai, naudojantys šį puslapį. Žinyno srityje užduočių vedlių taip pat galite ieškoti pagal pavadinimą.
 
-Norėdami sužinoti daugiau, žr. [žinyno sistemą](../../fin-ops/get-started/help-overview.md#task-guides).
+Norėdami sužinoti daugiau, žr. [Žinyno sistema](../../fin-ops/get-started/help-overview.md#task-guides).
 
 
 ### <a name="countryregion-specific-help-content"></a>Konkrečių šalių / regionų žinyno turinys

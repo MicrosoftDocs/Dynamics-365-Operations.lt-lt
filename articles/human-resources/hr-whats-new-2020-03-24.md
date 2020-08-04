@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 83f24dd6f094715f96666c3ae94faa4bdb97a652
-ms.sourcegitcommit: fac1d519a85eab0c936b54e0a9247f6a11842871
+ms.openlocfilehash: 4f46d631379711dd2002a95dfa6001a362727f4f
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "3177942"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555104"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-24-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 24 d.)
 
@@ -113,3 +113,10 @@ Nuo balandžio pradžios „Human Resources“ išleidimo intervalai pereis nuo 
 ## <a name="employment-detail-entity"></a>Objektas Įdarbinimo informacija
 
 Objektas **Įdarbinimo informacija** atnaujintas toliau nurodytais laukais: **Mokėjimo dažnumas**, **Įdarbinimo kategorijos ID**, **Įdarbinimo tipas**, **Įdarbinimo tipo ID** ir **Išmokų įdarbinimo būsena**. Šių laukų nustatymo duomenys priklauso nuo išmokų valdymo įjungimo funkcijų valdyme. Šie laukai neturėtų būti užpildyti ar atnaujinti objekte **Įdarbinimo informacija**, nes importavimo metu įvyks klaidų.
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

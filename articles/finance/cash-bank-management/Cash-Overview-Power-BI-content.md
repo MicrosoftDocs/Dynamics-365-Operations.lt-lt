@@ -3,7 +3,7 @@ title: „Power BI“ turinys Grynųjų pinigų apžvalga
 description: Šioje temoje aprašomas „Power BI“ turinys Grynųjų pinigų apžvalga. Joje paaiškinama, kaip pasiekti į turinį įtrauktas ataskaitas, ir pateikiama informacija apie duomenų modelį ir objektus, naudotus turiniui kurti.
 author: saraschi2
 manager: AnnBe
-ms.date: 06/25/2019
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7621ca961288af81966e0ac883c6525f89960654
-ms.sourcegitcommit: bbb64b3475eef155b3f9d1bdc440545da8a7182f
+ms.openlocfilehash: 6ad99f00438b0f9ccbf84e504219e39aa49f2bc1
+ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "2553145"
+ms.lasthandoff: 07/16/2020
+ms.locfileid: "3598138"
 ---
 # <a name="cash-overview-power-bi-content"></a>„Power BI“ turinys Grynųjų pinigų apžvalga
 
@@ -38,10 +38,11 @@ ms.locfileid: "2553145"
 Reikia atlikti toliau nurodytą sąranką, kad duomenys būtų rodomi **Grynųjų pinigų apžvalga** ir **Banko valdymas** „Power BI“ vaizdiniuose elementuose.
 
 1. Eikite į **Sistemos administravimas > Sąranka > Sistemos parametrai** ir nustatykite **Sistemos valiuta** ir **Sistemos valiutos kursas**.
-2. Norėdami nustatyti parinktis **Apskaitos valiuta** ir **Valiutos kurso tipas** eikite į **Didžioji knyga > Sąranka >DK**.
-2. Nurodykite valiutos kursus tarp operacijos valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos, apskaitos valiutos ir banko valiutų. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
-3. Sukonfigūruokite ir vykdykite grynųjų pinigų srautų prognozavimą. Daugiau informacijos, kaip nustatyti grynųjų pinigų srautų prognozavimą, žr. [Grynųjų pinigų srautų prognozavimas](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
-4. Norėdami atnaujinti agreguotą matavimo vienetą **LedgerCovLiquidityMeasurement**, eikite į **Sistemos administravimas > Sąranka > Objektų saugykla**.
+2. Eikite į **Didžioji knyga > Kalendoriai > Fiskaliniai kalendoriai** tam, kad patvirtintumėte fiskalinio kalendoriaus datas priskirtas aktyviam laikotarpiui.
+3. Norėdami nustatyti parinktis **Apskaitos valiuta** ir **Valiutos kurso tipas** eikite į **Didžioji knyga > Sąranka >DK**.
+4. Nustatykite valiutų keitimo kursus tarp perlaidų valiutų ir apskaitos valiutos, apskaitos valiutos ir sistemos valiutos bei apskaitos valiutos ir banko valiutų. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
+5. Sukonfigūruokite ir vykdykite grynųjų pinigų srautų prognozavimą. Daugiau informacijos, kaip nustatyti grynųjų pinigų srautų prognozavimą, žr. [Grynųjų pinigų srautų prognozavimas](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+6. Norėdami atnaujinti agreguotą matavimo vienetą **LedgerCovLiquidityMeasurement**, eikite į **Sistemos administravimas > Sąranka > Objektų saugykla**.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 

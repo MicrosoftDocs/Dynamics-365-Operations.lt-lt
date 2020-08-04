@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 37f21fffe209e17a6fe89c2661e49fc0dc8b9655
-ms.sourcegitcommit: 88f38d584c5befb96e4d1daab4b28af5519ef125
+ms.openlocfilehash: 7664afbd0b1fd4e2c9686053fa102d85809c0411
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "3443469"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555320"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-28-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. gegužės 28 d.)
 
@@ -103,3 +103,10 @@ Galite nurodyti perkėlimo atostogų tipą, skirtą perkėlimo balansams ir į k
 ## <a name="dmf-entity-available-for-accrual-suspensions-june-1"></a>DMF objektas pasiekiamas kaupimo sustabdymams (birželio 1 d.)
 
 DMF objektas dabar pasiekiamas kaupimo sustabdymams.
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

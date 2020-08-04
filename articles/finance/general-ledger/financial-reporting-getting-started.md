@@ -3,7 +3,7 @@ title: Finansinių ataskaitų apžvalga
 description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
 author: aprilolson
 manager: AnnBe
-ms.date: 04/14/2020
+ms.date: 07/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6cd77e22f9c6f90f6aa9934d70a121008e1274dd
-ms.sourcegitcommit: 5419f2b8f51cd5de55be66d1389b5b9d7771fd52
+ms.openlocfilehash: 015f0282a2defcd7a8388eeaa70e0de6fb7cac78
+ms.sourcegitcommit: faaa4215f513885dd92cf7430b3612848ec09893
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262654"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "3609594"
 ---
 # <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
 
@@ -34,7 +34,7 @@ ms.locfileid: "3262654"
 <a name="accessing-financial-reporting"></a>Prieiga prie finansinių ataskaitų
 -----------------------------
 
-Meniu **Finansinės ataskaitos** galite rasti toliau nurodytose vietose.
+Galite prieiti prie **„Financial reporting“** meniu šiose vietose:
 
 -   **Didžioji knyga** &gt; **Užklausos ir ataskaitos**
 -   **Biudžeto sudarymas** &gt; **Užklausos ir ataskaitos** &gt; **Pagrindinio biudžeto sudarymas**
@@ -45,10 +45,11 @@ Meniu **Finansinės ataskaitos** galite rasti toliau nurodytose vietose.
 Norėdami sukurti ir generuoti juridinio subjekto finansinių ataskaitų, turite nustatyti tolesnę to juridinio subjekto informaciją.
 
 -   Finansinis kalendorius
--   Didžioji knyga
+-   Ledger
 -   Sąskaitų planas
 -   Valiuta
 
+## <a name="granting-security-access-to-financial-reporting"></a>Saugios prieigos prie „Financial Reporting“
 Finansinių ataskaitų funkcijomis gali naudotis naudotojai, kuriems, naudojant jų saugos vaidmenis, priskirtos atitinkamos teisės ir pareigos. Tolesniuose skyriuose išvardijamos šios teisės ir pareigos bei susietieji vaidmenys.
 
 ### <a name="duties"></a>Pareigos
@@ -78,15 +79,26 @@ Finansinių ataskaitų funkcijomis gali naudotis naudotojai, kuriems, naudojant 
 | Generuoti finansines ataskaitas            | Generuoti finansines ataskaitas            | Vadovas, Vyriausiasis finansininkas, Buhalteris                                                            |
 | Peržiūrėti finansines ataskaitas                | Peržiūrėti finansinę veiklą          | Nepriskirtas joks                                                                   |
 
-Pridėjus naudotoją ar pakeitus vaidmenį, naudotojas finansines ataskaitas turėtų galėti pasiekti po kelių minučių. **Pastaba.** Sistemos administratoriaus vaidmuo finansinėse ataskaitose įtrauktas į visus vaidmenis.
+Pridėjus naudotoją ar pakeitus vaidmenį, naudotojas finansines ataskaitas turėtų galėti pasiekti po kelių minučių. 
+
+> [!NOTE]
+> Sistemos administratoriaus vaidmuo yra įtraukiamas į visus finansinių ataskaitų rengimo vaidmenis.
 
 ## <a name="report-deletions-and-expirations"></a>Ataskaitų naikinimai ir galiojimo pabaiga
 Vartotojai, kurie sugeneruoja ataskaitą, gali panaikinti savo ataskaitas. Vartotojai, kurių pareiga **Prižiūrėti finansinių ataskaitų saugą**, gali panaikinti kitų ataskaitas. 
 
-10.0.8 versijoje įvesta galiojimo datų koncepcija. Nauja reikalinga priemonė bus įjungta funkcijų valdymo darbo srities puslapyje **Visi**. Funkcijoje **Finansinių ataskaitų saugojimo strategijos** yra toliau pateikti keitimai.
+Pradedant nuo 10.0.7 versija, buvo pristatytas galiojimo pabaigos terminų konceptas. Nauja būtina savybė bus įjungta savybės valdymo darbo aplinkoje. Su šia funkcija įvedami tokie pakeitimai:
+
+* Naujai sukurtos ataskaitos bus automatiškai sužymėtos kaip turinčios 90 dienų galiojimo laiko pabaigą nuo jų sukūrimo momento.
+* Visoms esamoms ataskaitoms, buvusioms iki įdiegiant funkciją, bus suteiktas 90 dienų galiojimo laikotarpis. Data gali būti rodoma kaip tuščia trumpam laikotarpiui, kol bus paleista finansinių ataskaitų tarnyba, kai sugeneruojama ataskaita, tarnyba atlieka naujinimą esamoms ataskaitoms su tuščia galiojimo data. 
+* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra prieinamos dvi sulaikymo parinktys:
+   * 90 dienų galiojimo laikotarpis
+   * Galimybė nustatyti, kad ataskaita niekada nebaigtų galioti
+
+Kai pasirenkama galiojimo pabaiga, tokia kaip 90 dienų, 90 dienų yra skaičiuojama nuo šiandien, o tai yra skirtingas skaičiavimas nei 90 dienų nuo originalaus duomenų rinkinio sukūrimo ataskaitos sukūrimo metu. Pradedant nuo 10.0.8 versijoje buvo pristatytas galiojimo pabaigos terminų konceptas. Nauja būtina savybė bus įjungta savybės **Visi** puslapyje per funkcijos valdymo darbo sritį. Funkcijoje **Finansinių ataskaitų saugojimo strategijos** yra toliau pateikti keitimai.
 * Naujai sugeneruotos ataskaitos bus automatiškai pažymėtos kaip turinčios 90 dienų galiojimo datą nuo tada, kai jos sugeneruojamos
 * Visoms esamoms ataskaitoms, buvusioms iki įdiegiant funkciją, bus suteiktas 90 dienų galiojimo laikotarpis. Data gali būti rodoma kaip tuščia trumpam laikotarpiui, kol bus paleista finansinių ataskaitų tarnyba, kai sugeneruojama ataskaita, tarnyba atlieka naujinimą esamoms ataskaitoms su tuščia galiojimo data. 
-* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra dvi saugojimo galimybės. 
+* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra prieinamos dvi sulaikymo parinktys: 
   * 90 dienų galiojimo laikotarpis.
   * Galimybė nustatyti, kad ataskaita niekada nebaigtų galioti.
   
@@ -125,16 +137,36 @@ Finansinių ataskaitų modulyje pateikiamos 22 numatytosios finansinės ataskait
 | Turimos biudžeto lėšos – numatyt.                         | Peržiūrėkite visų sąskaitų patikslinto biudžeto, faktinių išlaidų, biudžeto rezervavimų ir biudžeto lėšų išsamų palyginimą.                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Finansinių ataskaitų atidarymas
-Kai spustelite **Finansinių ataskaitų** meniu, rodomas įmonės numatytųjų finansinių ataskaitų sąrašas. Tada galite ataskaitą atidaryti arba modifikuoti. Norėdami atidaryti vieną iš numatytųjų ataskaitų, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarant ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2016 m. rugpjūtį, ataskaita generuojama 2016 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
+Kai pasirenkate **„Financial Reporting“** meniu, yra rodomas bendrovės nustatytųjų finansinių ataskaitų sąrašas. Tada galite ataskaitą atidaryti arba modifikuoti. Norėdami atidaryti vieną iš numatytųjų ataskaitų, pasirinkite ataskaitos pavadinimą. Pirmą kartą atidarant ataskaitą, ji automatiškai sugeneruojama už praėjusį mėnesį. Pvz., jei pirmą kartą ataskaitą atidarote 2019 m. rugpjūtį, ataskaita generuojama 2019 m. liepos 31 dienai. Kai ataskaita atidaroma, galite pradėti ją tyrinėti detalizuodami konkrečius duomenis ir keisdami ataskaitos parinktis.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Finansinių ataskaitų kūrimas ir modifikavimas
-Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei turite reikiamas teises, naują finansinę ataskaitą galite sukurti veiksmų srityje spustelėdami **Nauja**. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąraše pateikiamos tik tos įmonės, kurią naudojate programoje „Finance‟, sukurtos ataskaitos. 
+Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei neturite reikiamų leidimų, galite sukurti naują finansinę ataskaitą pasirinkdami **Nauja** veiksmų juostoje. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąrašasr rodo tik ataskaitas, kurios buvo sukurtos jūsų bendrovėje jums naudojant „Dynamics 365 Finance“. 
 
-> [!NOTE] 
-> Kompiuteryje, į kurį atsisiunčiate ataskaitų dizaino įrankio klientą, turi būti įdiegta 4.6.2 „Microsoft .NET Framework“ versija. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345). Jei naudojate „Chrome“, turite įdiegti plėtinį „ClickOnce“, kad galėtumėte atsisiųsti ataskaitų dizaino įrankį. Jei naršyklė veikia inkognito režimu, įsitikinkite, kad plėtinys „ClickOnce“ nustatytas veikti inkognito režimu. Ataskaitą, kuri atsiranda finansinių ataskaitų sąraše, taip pat galite modifikuoti. Kai pasirinkta sritis aplink ataskaitos pavadinimą, veiksmų srityje spustelėkite **Redaguoti**. Paleidžiama ataskaitų dizaino įrankio programa.
+## <a name="troubleshooting-issues-opening-report-designer"></a>Trikčių šalinimo problemų atidarymas „Report Designer“
+Esama keletos trikdžių, kurie gali sukelti problemų atidarant „Report Designer“. Šie trikdžiai ir sprendimo žingsniai yra pateikti toliau.
+
+Trikdis 1: „Report Designer“ neįsijungia jums pasirinkus **Naujas** ar **Redaguoti**.
+
+* „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines ir pasirinkite **Svetainės**. **Įtraukti šią interneto svetainę į sritį** įveskite "\*\.dynamics.com" (be kabučių) ir tuomet pasirinkite **Įtraukti**. 
+* „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines. Srityje pavadintoje Saugumo lygis šiai sričiai, pakeiskite parinktį į **Vidutinis-Žemas**.
+* Išjunkite iššokančių langų blokavimo programą savo naršyklėje.
+* Darbo stotyse būtina įdiegti „Visual Studio“ .NET 4.6.2 ar aukštesnę versiją.
+
+Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345).
+* Jei naudojate „Chrome“ naršyklę, turi įdiegti „ClickOnce“ plėtinį, kad atsisiųstumėte „Report Designer“ klientą. Jei dirbate neatpažintu režimu, įsitikinkite, kad „ClickOnce“ plėtinys yra įjungtas neatpažintu režimu. Jei negalite prisijungti naudodami „Chrome“, pabandykite atlikti šiuos nustatymo žingsnius aprašytus Triktyje 1 naudodami „Internet Explorer“ ar „Edge“. 
+
+Triktis 2: Vartotojui nebuvo priskirti būtini leidimai naudoti „Financial Reporting“. 
+
+* Tam, kad patikrintumėte, ar vartotojas neturi leidimo, pasirinkite **Taip** klaidoje, „Neįmanoma prisijungti prie „Financial Reporting“ serverio“. Pasirinkite Taip, jei norite tęsti ir nurodyti kitą serverio adresą.” Tuomet pasirinkite **+ Testuoti ryšį**. Jei neturite leidimo, tuomet matysite pranešimą sakantį „Ryšio bandymas nepavyko. Vartotojas neturi reikiamų leidimų prisijungti prie serverio. Susisiekite su sistemos administratoriumi.”
+* Reikiami leidimai yra išvardyti toliau [Saugios prieigos prie „Financial Reporting“ užtikrinimas](#granting-security-access-to-financial-reporting). „Financial Reporting“ saugumas priklauso nuo šių privilegijų. Neturėsite prieigos, nebent šios privilegijos (ar kitas saugumo vaidmuo su šiomis privilegijomis) yra jums priskirtos. 
+* **Bendrovės vartotojo tiekėjas bendrovei** integravimo užduotis (kuri taip pat atsakinga už ir yra žinoma kaip vartotojo integravimas) veikia 5 minučių intervalu. Gali užtrukti iki 10 minučių, kol visi leidimai bus pakeisti tam, kad galiotų „Financial Reporting“. 
+  Jei kitas vartotojas gali atsidaryti „Report Designer“, pasirinkite **Įrankiai** ir tuomet pasirinkite **Integravimo būsena**. Patikrinkite, ar integravimo žemėlapis, „Bendrovės vartotojo tiekėjas bendrovei,“ sėkmingai buvo atliktas, nes jums buvo priskirtas leidimas naudoti „Financial Reporting“. 
+* Gali būti, kad kita klaida užkirto kelią **„Dynamics“ vartotojo integravimas su „Financial Reporting“ vartotoju** užbaigimui. Arba gali būti, kad duomenų saugykla yra perkraunama ir veiksmas dar tęsiasi, arba įvyko kita sistemos klaida. Pabandykite atlikite procesą vėliau. Jei problema nepasišalina, susisiekite su sistemos administratoriumi.
+
+Triktis 3: Galitei praeiti pro „ClickOnce Report Designer“ prisijungimo puslapį, tačiau negali užbaigti prisijungimo prie „Report Designer“. 
+
+* Jūsų kompiuteryje nustatytas vietinis laikas, kai įeinante į savo prisijungimo informaciją, gali atsilikti penkias minutes nuo „Financial Reporting“ serverio. Jei yra didesnis nei penkių minučių skirtumas, sistema neleis prisijungti. 
+* Tuo atveju, rekomenduojame įjungti „Windows“ parinktį, kad nustatytumėte savo kompiuterio laiką automatiniu būdu. 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
-- [Finansinių ataskaitų peržiūra](view-financial-reports.md)
-
-
-
+- [Peržiūrėti finansines ataskaitas](view-financial-reports.md)

@@ -3,7 +3,7 @@ title: Perduoti darbo eigos darbo elementus
 description: Jei planuojate išvykti ar šiaip negalėsite dirbti su darbo elementais, juos galite perduoti arba iš naujo priskirti kitiems vartotojams.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/07/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d98d84b89f1f3322a9c896b74b63a3b6425b13b
-ms.sourcegitcommit: 267864eb0dccd6e26d49d280bd4ad1b770a73a77
+ms.openlocfilehash: 96777b66645453bc909bd4053e2724a37771d5d6
+ms.sourcegitcommit: 561d06c2a74602dfaa40334d8afac5053aebc055
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/26/2020
-ms.locfileid: "3515769"
+ms.lasthandoff: 07/07/2020
+ms.locfileid: "3541090"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>Darbo eigos darbo elementų perdavimas
 
@@ -49,13 +49,15 @@ Jei tam tikrą laiką planuojate nebūti biure ar dėl kitų priežasčių negal
 1. Eikite į **Bendra > Sąranka > Vartotojo parinktys**.
 2. Spustelėkite skirtuką **Darbo eiga**. Įsitikinkite, ar perdavimo skyrius išplėstas. Norėdami sukonfigūruoti sistemą taip, kad jūsų darbo elementai kitiems vartotojams būtų perduodami automatiškai, turite sukurti perdavimo taisykles, nurodančias, kada bus perduoti tam tikrų tipų darbo elementai. Norėdami sukurti perdavimo taisyklę, atlikite toliau nurodytus veiksmus.  
 3. Spustelėkite **Pridėti**.
-4. Lauke **Aprėptis** pasirinkite parinktį.
+4. **Tikslas** laukelyje, pasirinkite parinktį:
     - Visi – perduoti visus jums priskirtus darbo elementus.
-    - Modulis – perduoti tik su tam tikro tipo darbo eiga susijusius darbo elementus. Jei pasirinksite šią parinktį, lauke Pavadinimas turite pasirinkti darbo eigos tipą.
-    - Darbo eiga – perduoti tik su tam tikra darbo eiga susijusius darbo elementus. Jei pasirinksite šią parinktį, lauke Pavadinimas turite pasirinkti darbo eigą.  
-5. Lauke **Perduoti** pasirinkite vartotoją, kuriam perduosite darbo elementus. Norėdami nurodyti, kada darbo elementai turėtų būti perduodami automatiškai, naudokite laukų Pradžios data / laikas ir Pabaigos data / laikas reikšmes.  
-6. Lauke **Pradžios data / laikas** įveskite datą ir laiką.
-7. Lauke **Pabaigos data / laikas** įveskite datą ir laiką.
-8. Pasirinkite žymės langelį **Įjungta**, kad aktyvuotumėte perdavimo taisyklę. Jei kaip aprėptį pasirinkote **Modulis**, turite pasirinkti modulį pavadinimo lauke. Jei kaip aprėptį pasirinkote **Darbo eiga**, turite pasirinkti konkrečią perdavimo darbo eigą pavadinimo lauke.  
-9. Lauke **Komentaras** įveskite komentarą, kuriuo paaiškinate kodėl perduodate darbo elementus.
-
+    - Modulis – perduoti tik su tam tikro tipo darbo eiga susijusius darbo elementus. Jei pasirenkate šią parinktį, privalote pasirinkti darbo srauto tipą **Pavadinimas** laukelyje.
+    - Darbo eiga – perduoti tik su tam tikra darbo eiga susijusius darbo elementus. Jei pasirenkate šią parinktį, privalote pasirinkti darbo srauto tipą **Pavadinimas** laukelyje.  
+5. **Pavadinimas** laukelis:
+    - **Modulis** tikslui, pasirinkite paskirties modulį.
+    - **Darbo srauto** tikslui, pasirinkite paskirties darbo srautą.
+6. Lauke **Perduoti** pasirinkite vartotoją, kuriam perduosite darbo elementus. Naudokite **Datos/laiko pradžia** ir **Datos/laiko pabaiga** laukelius tam, kad nurodytumėte elementų automatinio priskyrimo laiką.  
+7. Lauke **Pradžios data / laikas** įveskite datą ir laiką.
+8. Lauke **Pabaigos data / laikas** įveskite datą ir laiką.
+9. Pasirinkite žymės langelį **Įjungta**, kad aktyvuotumėte perdavimo taisyklę. 
+10. Lauke **Komentaras** įveskite komentarą, kuriuo paaiškinate kodėl perduodate darbo elementus.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c1a9f10a434343e4c9c8a42ec5c0b7a1a18ad36
-ms.sourcegitcommit: 437170338c49b61bba58f822f8494095ea1308c2
+ms.openlocfilehash: 1843095c41428d377341154c9f2140085831e770
+ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "3124021"
+ms.lasthandoff: 07/13/2020
+ms.locfileid: "3555263"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-10-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 10 d.)
 
@@ -97,3 +97,10 @@ Per artimiausias kelias savaites šie objektų pakeitimai bus galimi visose apli
 - Rekomenduojami laukai – vartotojams dažnai reikia pridėti laukus prie tinklelio ar puslapio. Tai gali būti sudėtinga su tiek daug galimų laukų. Vietoje to, kad paieška būtų atliekama dideliame sąraše, ši funkcija leidžia sistemai nustatyti rekomenduojamus laukus, atsižvelgiant į tai, kuriuos kitus vartotojus dažniausiai pridedate panašiose situacijose.
 
 - „Priklijuojamieji“ numatytieji veiksmai tinkleliuose – šia funkcija užtikrinama, kad numatytasis veiksmas tinklelyje būtų susietas su konkrečiu stulpeliu tinklelyje, nepriklausomai nuo to, ar tas stulpelis yra perkeltas ar paslėptas.
+
+## <a name="see-also"></a>Taip pat žiūrėkite
+
+[Kas nauja ar pasikeitė „Human Resources”](hr-admin-whats-new.md)</br>
+[„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Atnaujinimo procesas](hr-admin-setup-update-process.md)</br>
+[Funkcijų valdymas](hr-admin-manage-features.md)

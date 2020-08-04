@@ -1,9 +1,9 @@
 ---
-title: „Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas
-description: Šioje temoje paaiškinama, kaip parengti „Microsoft Dynamics 365 Commerce“ peržiūros aplinką.
+title: „Dynamics 365 Commerce“ vertinimo aplinkos parengimas
+description: Ši tema paaiškina, kaip galite parengti „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 author: psimolin
 manager: annbe
-ms.date: 06/02/2020
+ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,73 +18,48 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c109c2326cf01739255b49587c15aa34ad884f6a
-ms.sourcegitcommit: be7e4378c8122c6e7cfc4e7991efbdffee45e006
+ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
+ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3426470"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "3599855"
 ---
-# <a name="provision-a-dynamics-365-commerce-preview-environment"></a>„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas
-
+# <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie tai, kaip konfigūruoti „Dynamics 365 Commerce“ peržiūros aplinką.
+Ši tema paaiškina, kaip galite parengti „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 
 Prieš pradedant konfigūraciją, rekomenduojame perskaityti šią temą, kad suprastumėte proceso eigą.
 
 > [!NOTE]
-> Jei jums dar nesuteikta prieiga prie „Dynamics 365 Commerce“ peržiūros, prisijungimą galite gauti [Dynamics 365 Commerce svetainėje](https://aka.ms/Dynamics365CommerceWebsite).
+> Komercijos vertinimo aplinkos dažniausiai nėra prieinamos ir yra suteikiamos partneriams ir klientams atskyru jų prašymu. Dėl išsamesnės informacijos, susisiekite su „Microsoft“ partnerio pagalbos centru.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-Norėdami sėkmingai parengti savo „Commerce“ peržiūros aplinką, turite sukurti projektą, kuriame būtų konkretaus produkto pavadinimas ir tipas. Aplinka ir „Commerce scale unit“ (CSU) taip pat turi keletą specifinių parametrų, kuriuos turėsite naudoti teikdami „e-Commerce“. Šios temos instrukcijose aprašomi visi veiksmai, kuriuos reikia atlikti norint užbaigti konfigūravimą, ir parametrai, kuriuos turite naudoti.
+Tam, kad sėkmingai parengtumėte Komercijos vertinimo aplinką privalote sukurti projektą, kuris turi konkretų gaminio pavadinimą ir tipą. Aplinka ir „Commerce Scale Unit“ (CSU) taip pat turi keletą specifinių parametrų, kuriuos privalote naudoti tikėdamiesi vėliau nustatyti „e-Commerce“. Šioje temoje pateiktos instrukcijos aprašo visus žingsnius būtinus užbaigti jūsų privalomą naudoti parengimą ir parametrus.
 
-Sėkmingai parengę „Commerce“ peržiūros aplinką, turite atlikti keletą veiksmų po parengimo, kad ją paruoštumėte. Kai kurie veiksmai yra pasirinktiniai, atsižvelgiant į tai, kokius sistemos aspektus norite įvertinti. Visada galite atlikti pasirinktinius veiksmus vėliau.
+Kai sėkmingai parengėte savo Komercijos vertinimo aplinką, privalote užbaigti keletą žingsnių po nustatymo tam, kad pasirengtumėte naudojimui. Kai kurie veiksmai yra pasirinktiniai, atsižvelgiant į tai, kokius sistemos aspektus norite įvertinti. Visada galite atlikti pasirinktinius veiksmus vėliau.
 
-Informacijos apie tai, kaip sukonfigūruoti „Commerce“ peržiūros aplinką po to, kai ją parengsite, rasite skyriuje [„Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md). Informacijos apie tai, kaip sukonfigūruoti „Commerce“ peržiūros aplinkos pasirinktines funkcijas, rasite skyriuje [„Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md).
-
-Jei turite klausimų dėl parengimo veiksmų arba kyla problemų, praneškite apie tai „Microsoft“ [„Microsoft Dynamics 365 Commerce“ peržiūros „Yammer“ grupėje](https://aka.ms/Dynamics365CommercePreviewYammer).
+Dėl informacijos, kaip konfigūruoti savo Komercijos vertinimo aplinką po jos parengimo, žr. [Komercijos vertinimo aplinkos konfigūravimas](cpe-post-provisioning.md). Dėl informacijos, kaip konfigūruoti pasirenkamas jūsų Komercijos vertinimo aplinkos savybes, žr. [CKonfigūruoti pasirenkamas savybes savo Komercijos vertinimo aplinkoje](cpe-optional-features.md).
 
 ## <a name="prerequisites"></a>Būtinieji komponentai
 
-Toliau pateikiamos būtinosios sąlygos turi būti įvykdytos prieš parengiant „Commerce“ peržiūros aplinką.
+Toliau pateikti būtinieji komponentai privalo būti pritaikyti prieš jūsų Komercijos vertinimo aplinkos nustatymo:
 
 - Turite prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS) portalo.
 - Esate „Microsoft Dynamics“ 365 partneris ar klientas ir galite sukurti „Dynamics 365 Commerce“ projektą.
-- Buvote priimti į „Dynamics 365 Commerce“ peržiūros programą.
-- Turite reikiamus leidimus, kad galėtumėte sukurti projektą projektą, skirtą **Perkelti, rasti sprendimus ir mokytis**.
-- Esate vaidmens **Aplinkos administratorius** arba **Projekto savininkas** narys projekte, kuriame parengsite aplinką.
-- Turite administratoriaus prieigą prie savo „Microsoft Azure“ prenumeratos arba galite susisiekti su prenumeratos administratoriumi, kuris gali atlikti du veiksmus, reikalaujančius administratoriaus teisių, jūsų vardu.
+- Jūs turite administratoriaus prieigą prie savo „Microsoft Azure“ prenumeratos ir galite susisiekti su jos administratoriumi, kuris pagelbės jums esant poreikiui.
 - Turite savo „Azure Active Directory“ („Azure AD“) nuomotojo ID.
 - Sukūrėte „Azure AD“ saugos grupę, kuri gali būti naudojama kaip „e-Commerce“ sistemos administratoriaus grupė, ir turite jos ID.
 - Sukūrėte „Azure AD“ saugos grupę, kuri gali būti naudojama kaip įvertinimų ir apžvalgų moderatoriaus grupė, ir turite jos ID. (Ši saugos grupė gali sutapti su „e-Commerce“ sistemos administravimo grupe.)
 
-## <a name="provision-your-commerce-preview-environment"></a>Jūsų „Commerce“ peržiūros aplinkos parengimas
+Atkreipiame dėmesį, kad šis sąrašas nėra baigtinis. Jei turite problemų, susisiekite su „Microsoft“ partnerio pagalbos centru.
 
-Šiose procedūrose paaiškinama, kaip parengti „Commerce“ peržiūros aplinką. Sėkmingai jas atlikus, „Commerce“ peržiūros aplinka bus paruošta konfigūruoti. Visos čia aprašytos veiklos vyksta LCS portale.
+## <a name="provision-your-commerce-evaluation-environment"></a>Parenkite savo Komercijos vertinimo aplinką
 
-> [!IMPORTANT]
-> Peržiūros prieiga yra susieta su LCS paskyra ir organizacija, kurią nurodėte savo „Commerce“ peržiūros programoje. Norėdami parengti „Commerce“ peržiūros aplinką, turite naudoti tą pačią paskyrą. Jei „Commerce“ peržiūros aplinkoje turite naudoti kitą LCS paskyrą ar nuomininką, turite pateikti šią informaciją „Microsoft“. Kontaktinės informacijos ieškokite toliau šioje temoje, skyriuje [„Commerce“ peržiūros aplinkos palaikymas](#commerce-preview-environment-support).
-
-### <a name="confirm-that-preview-features-are-available-and-turned-on-in-lcs"></a>Patvirtinimas, kad peržiūros funkcijos prieinamos ir įjungtos LCS
-
-Norėdami patvirtinti, kad peržiūros funkcijos yra prieinamos ir įjungtos LCS, atlikite toliau pateikiamus veiksmus.
-
-1. Prisijunkite prie [LCS portalo](https://lcs.dynamics.com), naudodami LCS paskyrą, kurią naudojote prašydami suteikti prieigą prie peržiūros.
-1. LCS pagrindiniame puslapyje slinkite į dešinę iki pat galo ir pasirinkite plytelę **Peržiūros versijos funkcijų valdymas**.
-
-    ![Peržiūros versijos valdymo plytelė](./media/preview1.png)
-
-1. Slinkite žemyn iki **Asmeninės peržiūros funkcijos** ir patvirtinkite, kad toliau pateikiamos funkcijos yra galimos ir įjungtos.
-
-    - El. prekybos vertinimas
-    - „Commerce“ peržiūros programos aplinkos
-
-    ![Privačiosios vertinimo versijos funkcijos](./media/preview2.png)
-
-1. Jei šios funkcijos sąraše nerodomos, susisiekite su „Microsoft“ ir pateikite savo darbo el. pašto adresą, LCS paskyrą ir nuomotojo informaciją. Kontaktinės informacijos ieškokite skyriuje [„Commerce“ peržiūros aplinkos palaikymas](#commerce-preview-environment-support).
+Šios procedūros paaiškina, kaip galite parengti Komercijos vertinimo aplinką. Po to, kai jas sėkmingai atliksite, Komercijos vertinimo aplinka bus parengta konfigūravimui. Visos čia aprašytos veiklos vyksta LCS portale.
 
 ### <a name="create-a-new-project"></a>Kurti naują projektą
 
@@ -97,65 +72,15 @@ Norėdami sukurti naują projektą LCS, atlikite toliau pateikiamus veiksmus.
     - Jei esate klientas, pasirinkite **Galimas išankstinis pardavimas**.
 
 1. Įveskite pavadinimą, aprašą ir pramonės šaką.
-1. Lauke **Produkto pavadinimas** pasirinkite **Dynamics 365 Retail**.
-1. Lauke **Produkto versija** pasirinkite **Dynamics 365 Retail**.
+1. Lauke **Produkto pavadinimas** pasirinkite **Dynamics 365 Commerce**.
+1. Lauke **Produkto versija** pasirinkite **Dynamics 365 Commerce**.
 1. Lauke **Metodika** pasirinkite **„Dynamics Retail“ visuotinio diegimo metodika**.
 1. Pasirinktinai: galite importuoti vaidmenis ir vartotojus iš esamo projekto.
 1. Pasirinkite **Kurti**. Pateikiamas projekto rodinys.
 
 ### <a name="add-the-azure-connector"></a>„Azure“ jungties įtraukimas
 
-Norėdami įtraukti „Azure“ jungti į savo LCS projektą, atlikite toliau nurodytus veiksmus.
-
-1. Atlikite vieną iš toliau nurodytų veiksmų.
-
-    - Jei esate partneris, pasirinkite plytelę **Projekto parametrai** dešinės pusės gale.
-    - Jei esate klientas, viršutiniame meniu pasirinkite **Projekto parametrai**.
-
-1. Pasirinkite **„Azure“ jungtys**.
-1. Pasirinkite **Įtraukti**, norėdami įtraukti „Azure“ jungtį.
-1. Įvesti vardą.
-1. Įveskite savo „Azure“ prenumeratos ID.
-1. Įjunkite parinktį **Konfigūruoti, kad būtų galima naudoti „Azure“ išteklių tvarkytuvą (ARM)**.
-1. Įsitikinkite, kad vertė **„Azure“ prenumeratos AAD nuomotojo domenas ( arba ID)** yra tinkama. Pagal poreikį kreipkitės į „Azure“ prenumeratos administratorių.
-1. Pasirinkite **Toliau**.
-1. Sekite puslapyje pateikiamas instrukcijas, kad suteiktumėte reikiamoms programoms prieigą prie jūsų prenumeratos. Pagal poreikį kreipkitės į „Azure“ prenumeratos administratorių.
-
-    1. Prisijunkite prie [„Azure“ portalo](https://portal.azure.com/).
-    1. Įsitikinkite, kad pasirinktas tinkamas katalogas, o tada kairėje esančiame meniu pasirinkite **Prenumeratos**.
-    1. Sąraše raskite tinkamą prenumeratą ir ją pasirinkite. Pagal poreikį naudokite ieškos funkciją.
-    1. Meniu pasirinkite **Prieigos valdymas (IAM)**.
-    1. Dešinėje, dalyje **Įtraukti vaidmens priskyrimą** pasirinkite **Įtraukti**. Rodoma sritis **Įtraukti vaidmens priskyrimą**.
-    1. Lauke **Vaidmuo** pasirinkite **Bendraautorius**.
-    1. Lauke **Priskirti prieigą prie** palikite numatytąją reikšmę, **„Azure AD“ vartotojas, grupė arba paslaugos narys**.
-    1. Dalyje **Pasirinkti** įveskite **b96b7e94-b82e-4e71-99a0-cf7fb188acea**.
-    1. Sąraše pasirinkite **„Dynamics Deployment Services“ \[wsfed-enabled\]**.
-    1. Pasirinkite **Įrašyti**.
-
-1. Pasirinkite **Toliau**.
-1. Sekite puslapyje pateikiamas instrukcijas, kad suteiktumėte reikiamoms programoms prieigą prie jūsų prenumeratos. Pagal poreikį kreipkitės į „Azure“ prenumeratos administratorių.
-1. Pasirinkite **Toliau**.
-1. Lauke **„Azure“ regionas** pasirinkite **Rytų JAV**, **Rytų JAV 2**, **Vakarų JAV** arba **Vakarų JAV 2**.
-1. Pasirinkite **Prisijungti**. Jūsų „Azure“ jungtis turi pasirodyti sąraše.
-
-### <a name="import-the-commerce-preview-demo-base-extension"></a>„Commerce“ peržiūros demonstracinio pagrindinio plėtinio importavimas
-
-Norėdami importuoti „Commerce“ peržiūros demonstracinį pagrindinį plėtinį į savo projektą, atlikite toliau nurodytus veiksmus.
-
-1. Atidarykite projekto pagrindinį puslapį, pasirinkę projekto pavadinimą viršuje.
-1. Atlikite vieną iš toliau nurodytų veiksmų.
-
-    - Jei esate partneris, pasirinkite plytelę **Turto biblioteka** dešinės pusės gale.
-    - Jei esate klientas, viršutiniame meniu pasirinkite **Turto biblioteka**.
-
-1. Pasirinkite **Programinės įrangos diegimo paketas** iš sąrašo kairėje pusėje.
-1. Pasirinkite **Importuoti**.
-1. Dalyje **Bendrai naudojamo turto biblioteka** turto sąraše pasirinkite **„Commerce“ peržiūros demonstracinis pagrindinis plėtinys**.
-1. Pasirinkite **Paimti**. Grįšite į turto biblioteką ir turėtumėte matyti plėtinį sąraše.
-
-Toliau pateikiamoje iliustracijoje parodyti veiksmai, kurių reikia imtis LCS puslapyje **Turto biblioteka**.
-
-![„Commerce“ peržiūros demonstracinio pagrindinio plėtinio importavimas](./media/import.png)
+„Azure Connector“ įtraukimui į savo LCS projektą, atlikite šiuos žingsnius [Baigtame „Azure Resource Manager“ (ARM) įtraukimo procese](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/arm-onboarding).
 
 ### <a name="deploy-the-environment"></a>Aplinkos diegimas
 
@@ -175,10 +100,6 @@ Atlikite toliau pateikiamus veiksmus, norėdami įdiegti aplinką.
 1. Pasirinkite aplinkos topologiją **Demonstracinė versija**.
 
     ![1 aplinkos topologijos pasirinkimas](./media/project2.png)
-
-1. Pasirinkite **Dynamics 365 Commerce – Demo** kaip aplinkos topologiją. Jei anksčiau sukonfigūruosite vieną „Azure“ jungtį, ji bus naudojama šioje aplinkoje. Jei sukonfigūravote keletą „Azure“ jungčių, galite pasirinkti, kurią jungtį naudoti: **Rytų JAV**, **Rytų JAV 2**, **Vakarų JAV** arba **Vakarų JAV 2**. (Geriausiam betarpiškam našumui užtikrinti rekomenduojame pasirinkti **Vakarų JAV 2**.)
-
-    ![2 aplinkos topologijos pasirinkimas](./media/project3.png)
 
 1. Puslapyje **Diegti aplinką** įveskite aplinkos pavadinimą. Nekeiskite išplėstinių parametrų.
 
@@ -201,53 +122,51 @@ Norėdami inicijuoti CSU, atlikite toliau nurodytus veiksmus.
 1. Aplinkos rodinyje dešinėje pasirinkite **Visa išsami informacija**. Rodomas aplinkos išsamios informacijos rodinys.
 1. Dalyje **Aplinkos funkcijos** pasirinkite **Valdyti**.
 1. Skirtuke **„Commerce“** pasirinkite **Inicijuoti**. Rodomas CSU inicijavimo parametrų rodinys.
-1. Lauke **Regionas** pasirinkite **Rytų JAV**, **Rytų JAV 2**, **Vakarų JAV** arba **Vakarų JAV 2**.
-1. Lauke **Versija** sąraše pasirinkite **Nurodykite versiją**, tada pasirodžiusiame lauke nurodykite **9.18.20014.4**. Būtinai nurodykite būtent tą versiją, kuri nurodyta čia. Priešingu atveju vėliau teks atnaujinti RCSU į tinkamą versiją.
-1. Įjunkite parinktį **Taikyti plėtinį**.
-1. Plėtinių sąraše pasirinkite **„Commerce“ peržiūros demonstracinis pagrindinis plėtinys**.
+1. **Regiono** laukelyje pasirinkite tą patį regioną arba artimą regioną, kuriame įdiegėte savo aplinką.
+1. Palikite**Versija** laukelį tokį, koks yra.
 1. Pasirinkite **Inicijuoti**.
 1. Diegimo patvirtinimo puslapyje patikrinkite, ar išsami informacija yra tiksli, ir pasirinkite **Taip**. Vėl rodomas rodinys **„Commerce“ valdymas**, kuriame pasirinktas skirtukas **„Commerce“**. Jūsų CSU jau buvo rengimo eilėje.
 1. Prieš tęsdami įsitikinkite, kad jūsų CSU būsena yra **Pavyko**. Inicijavimas trunka maždaug dvi–penkias valandas.
+
+Jei negalite surasti **Tvarkyti** nuorodos aplinkos informacijos peržiūroje, susisiekite su savo „Microsoft“ pagalbos centru.
 
 ### <a name="initialize-e-commerce"></a>El. prekybos inicijavimas
 
 Norėdami inicijuoti „e-Commerce“, atlikite toliau nurodytus veiksmus.
 
-1. Skirtuke **„e-Commerce“** peržiūrėkite sutikimą dėl peržiūros ir pasirinkite **Sąranka**.
-1. Lauke **„e-Commerce“ nuomotojo pavadinimas** įveskite pavadinimą. Tačiau įsidėmėkite, kad šis pavadinimas bus rodomas kai kuriuose URL, nukreiptuose į jūsų „e-Commerce“ egzempliorių.
+1. **e-Commerce** skirtuke peržiūrėkite vertinimo sutikimą ir tuomet pasirinkite**Sąranka**.
+1. **„e-Commerce“ aplinkos pavadinimas** laukelyje, įveskite pavadinimą. Būkite atsargūs, nes šis pavadinimas bus rodomas kai kuriuose URL nuorodose, kurios veda į jūsų „e-Commerce“ objektą.
 1. Lauke **„Commerce Scale Unit“ pavadinimas** iš sąrašo pasirinkite savo CSU. (Sąraše turėtų būti tik viena parinktis.)
 
-    Laukas **„e-Commerce“ geografija** nustatomas automatiškai ir vertės keisti negalima.
+    **„e-Commerce“ geografija** laukelis nustatomas automatiškai.
 
 1. Pasirinkite **Pirmyn**, kad tęstumėte.
 1. Lauke **Palaikomi pagrindinių kompiuterių vardai** įveskite bet kurį tinkamą domeną, pvz., `www.fabrikam.com`.
-1.  Lauke **AAD saugos grupė sistemos administratoriui** įveskite keletą pirmų norimos naudoti saugos grupės pavadinimo raidžių. Pasirinkite padidinamojo stiklo piktogramą, kad būtų rodomi ieškos rezultatai. Iš sąrašo pasirinkite teisingą saugos grupę.
-2.  Lauke **AAD saugos grupė įvertinimų ir apžvalgų moderatoriui** įveskite keletą pirmų norimos naudoti saugos grupės pavadinimo raidžių. Pasirinkite padidinamojo stiklo piktogramą, kad būtų rodomi ieškos rezultatai. Iš sąrašo pasirinkite teisingą saugos grupę.
-1. Parinktį **Įjungti įvertinimų ir apžvalgų paslauga** palikite įjungtą.
+1. **AAD saugos grupė sistemos administratoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai.  Pasirinkite tinkamą saugos grupę sąraše.
+1.  **AAD saugos grupė reitingavimo ir peržiūros moderatoriui** laukelyje, pirmiausia įveskite kelias jūsų norimos naudoti saugos grupės pavadinimo raides ir tuomet pasirinkite didinamojo stiklo simbolį ieškos rezultatų peržiūrai.  Pasirinkite tinkamą saugos grupę sąraše.
+1. Palikite **Reitingavimo ir peržiūros paslaugų įjungimas** parinktį nustatytą į **Taip**.
 1. Pasirinkite **Inicijuoti**. Vėl rodomas rodinys **„Commerce“ valdymas**, kuriame pasirinktas skirtukas **„e-Commerce“**. „E-Commerce“ inicijavimas pradėtas.
 1. Prieš tęsdami, palaukite, kol „e-Commerce“ inicijavimo būsena bus **Inicijuota sėkmingai**.
 1. Dalyje **Saitai** apatiniame dešiniajame kampe pasižymėkite toliau pateikiamų saitų URL.
 
     * **„e-Commerce“ svetainė** – saitas į jūsų „e-Commerce“ svetainės šaknį.
-    * **„e-Commerce“ svetainės valdymo įrankis** – saitas į svetainės valdymo įrankį.
-
-## <a name="commerce-preview-environment-support"></a>„Commerce“ peržiūros aplinkos palaikymas
-
-Jei atlikdami parengimo veiksmus patiriate problemų, apsilankykite [„Microsoft Dynamics 365 Commerce“ peržiūros versijos „Yammer“ grupėje](https://aka.ms/Dynamics365CommercePreviewYammer) dėl pagalbos.
+    * **Komercijos vietos kūrėjas** – Nuoroda į vietos valdymo įrankį.
 
 ## <a name="next-steps"></a>Kiti veiksmai
 
-Norėdami tęsti „Commerce“ peržiūros aplinkos parengimo ir konfigūravimo procesą, žr. skyrių [„Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md).
+Jūsų Komercijos vertinimo aplinkos parengimo ir konfigūravimo proceso tąsai, žr. [Komercijos vertinimo aplinkos konfigūravimas](cpe-post-provisioning.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[„Dynamics 365 Commerce“peržiūros aplinkos apžvalga](cpe-overview.md)
+[„Dynamics 365 Commerce“ vertinimo aplinkos peržiūra](cpe-overview.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos konfigūravimas](cpe-post-provisioning.md)
+[Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką](cpe-post-provisioning.md)
 
-[„Dynamics 365 Commerce“ peržiūros aplinkos pasirinktinių funkcijų konfigūravimas](cpe-optional-features.md)
+[Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-bopis.md)
 
-[„Dynamics 365 Commerce“peržiūros aplinkos DUK](cpe-faq.md)
+[Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinamoje aplinkoje](cpe-optional-features.md)
+
+[„Dynamics 365 Commerce“ vertinimo aplinkos DUK](cpe-faq.md)
 
 [„Microsoft Lifecycle Services“ (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
@@ -256,4 +175,3 @@ Norėdami tęsti „Commerce“ peržiūros aplinkos parengimo ir konfigūravimo
 [„Microsoft Azure“ portalas](https://azure.microsoft.com/features/azure-portal)
 
 [„Dynamics 365 Commerce“ svetainė](https://aka.ms/Dynamics365CommerceWebsite)
-

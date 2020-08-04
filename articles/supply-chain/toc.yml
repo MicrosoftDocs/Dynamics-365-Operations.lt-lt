@@ -34,7 +34,7 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/notifications-service-updates.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Duomenų užduočių automatizavimas
                   href: ../fin-ops-core/dev-itpro/data-entities/data-task-automation.md?toc=/dynamics365/supply-chain/toc.json
-                - name: 'ISV sprendimų teikimas, naudojant vieną versiją'
+                - name: 'ISV sprendimų teikimas, naudojant „One Version“'
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-isv.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vartotojo priėmimo bandymų kūrimas ir automatizavimas
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md?toc=/dynamics365/supply-chain/toc.json
@@ -74,6 +74,8 @@
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: „Supply Chain Management 10.0.11“ (2020 m. liepos mėn.)
                       href: get-started/whats-new-scm-10-0-11.md
+                    - name: „Supply Chain Management 10.0.10“ (2020 m. gegužės mėn.)
+                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -1355,6 +1357,8 @@
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
                 - name: Planavimo užduoties atšaukimas
                   href: master-planning/planning-optimization/cancel-planning-job.md
+                - name: Planavimo optimizavimo išplečiamumas
+                  href: master-planning/planning-optimization/extensibility.md
                 - name: Planavimo optimizavimo trikčių diagnostika
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
             - name: Bendrieji planai
@@ -1509,9 +1513,11 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Atskirų numeracijų nustatymas
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Numeracijų nustatymas naudojant vediklį
+                - name: Numeracijų nustatymas naudojant vedlį
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Organizacijos ir organizacinės hierarchijos
+                - name: Sandėlio srautų numeracijų konfigūravimas
+                  href: warehousing/configure-number-sequence-extensions.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Organizacijų ir organizacijų hierarchijos
               items:
                 - name: Organizacijų ir organizacijų hierarchijų apžvalga
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/supply-chain/toc.json
@@ -1817,6 +1823,10 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Produktų neįtraukimas į sritį Bendrasis planavimas
                       href: pim/tasks/exclude-products-master-planning.md
+                - name: Dvejopo naudojimo prekės
+                  href: pim/dual-use.md
+                - name: Kilmės šalis / regionas
+                  href: pim/country-of-origin.md
                 - name: Produkto brūkšninio kodo kūrimas
                   href: pim/tasks/create-bar-code-product.md
                 - name: Produkto GTIN kodo įvedimas
@@ -2565,22 +2575,20 @@
               href: warehousing/warehouse-management-overview.md
             - name: Sandėlio gavimo operacijos
               items:
-                - name: Registravimo ir atidėjimo gavimai
-                  items:
-                    - name: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
-                      href: warehousing/inbound-load-handling.md
-                    - name: 'Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
-                      href: warehousing/tasks/register-items-advanced-warehousing.md
-                    - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
-                      href: warehousing/tasks/register-items-basic-warehousing.md
-                    - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
-                      href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                    - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
-                      href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
-                    - name: Pirkimo užsakymų darbo šablono nustatymas
-                      href: warehousing/tasks/set-up-work-template-purchase-orders.md
-                    - name: Vietos produkto dimensijos maišymas
-                      href: warehousing/location-product-dimension-mixing.md
+                - name: Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
+                  href: warehousing/inbound-load-handling.md
+                - name: 'Prekių, kurioms įjungta patobulinto sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
+                  href: warehousing/tasks/register-items-advanced-warehousing.md
+                - name: 'Prekių, kurioms įjungta pagrindinio sandėliavimo funkcija, registravimas naudojant prekių gavimo žurnalą'
+                  href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Produktų paskirstymas iš gavimo sandėlio į parduotuves
+                  href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
+                - name: Pirkimo užsakymo atidėjimo vietos nurodymo nustatymas
+                  href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
+                - name: Pirkimo užsakymų darbo šablono nustatymas
+                  href: warehousing/tasks/set-up-work-template-purchase-orders.md
+                - name: Vietos produkto dimensijos maišymas
+                  href: warehousing/location-product-dimension-mixing.md
             - name: Sandėlio siuntimo operacijos
               items:
                 - name: 'Rezervavimai, atliekami valdant sandėlį'
@@ -2597,14 +2605,14 @@
                   items:
                     - name: Klasterio paėmimo nustatymas
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Sistemos nukreiptas klasterio paėmimas
+                      href: warehousing/system-directed-cluster-pick.md
                     - name: Krovimo į konteinerius nustatymas
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Paketo ir numerio lentelės patvirtinimas
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Numerio lentelės žymės spausdinimo įgalinimas
                       href: warehousing/tasks/license-plate-label-printing.md
-                    - name: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Vienetų paėmimo patvirtinimas
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakavimo medžiagos ir mokesčiai
@@ -2615,14 +2623,18 @@
                       href: warehousing/tasks/set-up-short-picking-item-reallocation.md
                     - name: Darbo sandėlyje atšaukimas dėl išimčių tvarkymo
                       href: warehousing/cancel-warehouse-work.md
-                    - name: Sistemos nukreiptas klasterio paėmimas
-                      href: warehousing/system-directed-cluster-pick.md
                     - name: Sistemos nurodyta darbo seka
                       href: warehousing/system-directed-work-sequencing.md
                     - name: Paėmimo eilutės grupavimas
                       href: warehousing/pick-line-grouping.md
                     - name: Sandėlio intervalas
                       href: warehousing/warehouse-slotting.md
+                    - name: Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
+                      href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Siunčiamas rūšiavimas
+                      href: warehousing/outbound-sorting.md
+                    - name: Padėti prie sienos / padėti parduotuvėje
+                      href: warehousing/put-to-wall-put-to-store.md
                 - name: Papildymas
                   items:
                     - name: Papildymo apžvalga
@@ -2645,6 +2657,8 @@
                       href: warehousing/release-to-warehouse-rule.md
                     - name: Bangos šablonų grupavimas
                       href: warehousing/wave-template-grouping.md
+                    - name: Pakartotinis bangos žymų spausdinimas ir anuliavimas
+                      href: warehousing/reprint-and-void-wave-labels.md
                 - name: Siuntos konsolidacijos strategijos
                   items:
                     - name: Siuntos konsolidacijos strategijos
@@ -2715,6 +2729,10 @@
                       href: warehousing/work-line-details.md
                     - name: Vietos numerio lentelės padėtis
                       href: warehousing/location-license-plate-positioning.md
+                    - name: Darbo telkinio keitimas
+                      href: warehousing/change-work-pool-on-work.md
+                    - name: Prekės konsolidacija – vietos naudojimas
+                      href: warehousing/item-consolidation-location-utilization.md
             - name: Sandėlio nustatymas
               items:
                 - name: Sandėlio konfigūracija
@@ -2729,6 +2747,8 @@
                       href: warehousing/wave-step-codes.md
                     - name: Bangos apdorojimo konfigūravimas
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Bangos žymos spausdinimo nustatymas ir naudojimas
+                      href: warehousing/configure-wave-label-printing.md
                     - name: Automatinis siuntų naujinimas
                       href: warehousing/auto-update-shipment.md
                     - name: Vietos šablono kūrimas
@@ -2753,8 +2773,6 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Numerio lentelės etikečių dokumentų maršrutų planavimo maketas
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Brūkšninių kodų nuskaitymas naudojant kamerą „Dynamics 365 for Finance and Operations“
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Mobiliųjų brūkšninių kodų palaikymas
                       href: warehousing/mobile-barcode-support.md
                     - name: Sandėlių perkėlimo užsakymų nustatymas
@@ -2767,6 +2785,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Su sandėlio programa gaunama numerio lentelė
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
