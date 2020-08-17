@@ -3,7 +3,7 @@ title: Darbas su fragmentais
 description: Šioje temoje aprašoma, kodėl, kada ir kaip naudoti fragmentus programoje „Microsoft Dynamics 365 Commerce“.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,17 +17,17 @@ ms.search.industry: retail
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f29046ded47ed9c49a2cc841aa7c1f6492b49aec
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 7ae834f38fe380ce0a66f5b1968f1261af670979
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124364"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645996"
 ---
 # <a name="work-with-fragments"></a>Darbas su fragmentais 
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kodėl, kada ir kaip naudoti fragmentus programoje „Microsoft Dynamics 365 Commerce“.
 
@@ -62,9 +62,10 @@ Galite sukurti naują fragmentą arba kaip fragmentą įrašyti esamą modulio k
 Norėdami anksčiau sukonfigūruotą modulį konvertuoti į daugkartinio naudojimo fragmentą, atlikite šiuos veiksmus.
 
 1. Atidarykite puslapį arba šabloną, kuriame yra modulis, kurį norite konvertuoti į fragmentą.
-1. Struktūros srityje kairėje šalia modulio pavadinimo pasirinkite daugtaškio mygtuką (**...**). 
-1. Pasirinkite **Bendrinti kaip fragmentą**. 
-1. Atsiranda dialogo langas. Įveskite fragmento pavadinimą ir metaduomenis.
+1. Išorinėje juostoje kairėje arba tiesiai pagrindinėje drobėje pasirinkite anksčiau konfigūruotą modulį.
+1. Pasirinkite elipsę (**...**) šalia modulio pavadinimo išorės juostoje arba pasirinkto modulio įrankių juostoje drobėje. 
+1. Pasirinkite **Bendrinti puslapio fragmentą**. 
+1. **Įrašyti kaip puslapio fragmentą** teksto laukelyje įveskite fragmento pavadinimą.
 1. Pasirinkite **Gerai**, kad modulių konfigūraciją įrašytumėte kaip fragmentą, kurį galima įtraukti į kitus puslapius.
 
 Toliau pateiktame paveiksle parodyta, kaip modulio konfigūraciją įrašyti kaip fragmentą.
@@ -94,15 +95,16 @@ Tolesnėse procedūrose aprašoma, kaip įtraukti fragmentų, juos pašalinti ir
 
 Norėdami į puslapį įtraukti fragmentą, atlikite toliau nurodytus veiksmus.
 
-1. Struktūros srityje kairėje pasirinkite konteinerį arba vietą, į kuriuos galima įtraukti antrinių modulių.
-1. Šalia konteinerio arba vietos pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite **Įtraukti fragmentą**. Atsiranda dialogo langas.
+1. Išorinėje juostoje kairėje arba tiesiai pagrindinėje drobėje pasirinkite talpyklą ar vietą, į kurią galima įtraukti vaikų modulius.
+1. Interneto juostoje pasirinkite elipsę (**...**) šalia talpyklos ar vietos pavadinimo.  Kitų atveju, jei naudojate pagrindinę drobę, pasirinkite pliuso simbolį (**+**).  
+1. Pasirinkite **Įtraukti fragmentą**.
 
     ![Ekrano vaizdas, kuriame parodyta, kaip įtraukti esamą fragmentą į vietą arba konteinerį](./media/add-fragment.png)
  
     > [!NOTE]
     > Jei konteineris arba vieta nepalaiko naujų antrinių modulių, parinktis **Įtraukti fragmentą** nepasiekiama.
     
-1. Dialogo lange raskite ir pasirinkite fragmentą, kurį norite įtraukti. Jei sąraše nėra pasiekiamų fragmentų, pirmiausia gali reikėti sukurti fragmentą naudojant pasirinkto konteinerio ar vietos palaikomą modulio tipą.
+1. **Įtraukti fragmentą** teksto laukelyje ieškokite ir pasirinkite įtraukiamą fragmentą. Jei sąraše nėra pasiekiamų fragmentų, pirmiausia gali reikėti sukurti fragmentą naudojant pasirinkto konteinerio ar vietos palaikomą modulio tipą.
 1. Pasirinkite fragmentą, kurį norite įtraukti į konteinerį arba vietą jūsų puslapyje.
 
     ![Ekrano vaizdas, kuriame parodytas fragmentų parinkiklio modalusis langas](./media/fragment-picker.png)
@@ -114,7 +116,7 @@ Norėdami į puslapį įtraukti fragmentą, atlikite toliau nurodytus veiksmus.
 
 Norėdami fragmentą pašalinti iš vietos arba konteinerio puslapyje, atlikite šiuos veiksmus.
 
-1. Struktūros srityje kairėje šalia fragmento, kurį norite pašalinti, pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite šiukšliadėžės mygtuką.
+1. Išorinėje jusotoje lairėje, pasirinkite elipsę (**...**) šalia šalinamo fragmento pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį.  Kitu atveju, galite pasirinkite fragmentą drobėje ir pasirinkti šiukšlių dėžės simbolį fragmento įrankių juostoje.
 1. Kai būsite paraginti patvirtinti, kad norite pašalinti fragmentą, pasirinkite **Gerai**.
 
 > [!NOTE]

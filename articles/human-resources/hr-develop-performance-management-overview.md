@@ -3,7 +3,7 @@ title: Našumo valdymas
 description: Našumo valdymo procesas leidžia darbuotojams dokumentuoti ir aptarti savo našumą su vadovu. Savo ruožtu vadovai tada gali pateikti darbuotojams atsiliepimų ir nurodymų.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4786717826592973d3b049c4aa5ca615332d5bc6
-ms.sourcegitcommit: 98cfbb42fc556e1afcb2fab50d8dff0ae2b7aa67
+ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/21/2020
-ms.locfileid: "3609777"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628458"
 ---
 # <a name="performance-management"></a>Našumo valdymas
 
@@ -37,6 +37,7 @@ Kaip pateiktoje diagramoje parodyta, yra trys puslapiai, kurie padeda valdyti pr
 Pateiktoje diagramoje parodyta, kaip pirminiai našumo valdymo komponentai susiję vienas su kitu. [![Našumo proceso apžvalga](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Efektyvumo žurnalas
+
 Kaip darbuotojas prieš užbaigdamas savo apžvalgą dažnai renkate informaciją apie savo sėkmei apžvalgos laikotarpiu įtakos turėjusią veiklą ar įvykius. Našumo žurnale galite dokumentuoti tą veiklą ir įvykius. Be to, galite sukurti būsimą veiklą, kuri turi būti baigta, kad padėtų jums pasiekti tikslą, įvykdyti tobulėjimo plano reikalavimus arba našumo įsipareigojimus. Našumo žurnalai nebūtini norint sukurti tikslų arba našumo apžvalgas. 
 
 Yra dvi našumo žurnalo versijos: darbuotojo versija, kuri pasiekiama naudojant **Darbuotojų savitarnos** darbo sritį (**ESS**), ir vadovo versija, kuri pasiekiama naudojant **Vadovų savitarnos** darbo sritį (**MSS**). Darbuotojai gali sau sukurti žurnalus ir pasirinkti bendrinti juos su savo vadovu. Vadovai gali sukurti žurnalus savo komandai ir pasirinkti bendrinti juos su savo darbuotojais. 
@@ -58,6 +59,7 @@ Be to, galite susieti našumo žurnalą su išorine svetaine išsaugodami tos sv
 Našumo žurnale yra papildoma funkcija Atsiliepimas. Spustelėję **Siųsti atsiliepimą** galite pasirinkti darbuotoją ir pateikti tam darbuotojui atsiliepimą el. paštu. Pranešimas nusiunčiamas atsiliepimą gaunančiam darbuotojui, to darbuotojo vadovui, atsiliepimą siunčiančiam darbuotojui ir to darbuotojo vadovui. Našumo žurnalo įrašas sukuriamas kiekvienam asmeniui, kuris gauna atsiliepimo pranešimą.
 
 ## <a name="goals"></a>Tikslai
+
 Puslapis **Našumo tikslai** padeda jums sekti tikslus, kuriuos jūs ir jūsų vadovas jums sukūrė. Galite sukurti bet kokį skaičių tikslų ir šie tikslai gali apimti skirtingų laikotarpių ir našumo apžvalgas. Be to, galite kurti paprastus arba sudėtingus tikslus, atsižvelgdami į informaciją, kurią norite įvesti apie tikslą. Tikslai nėra reikalingi našumo apžvalgoms. 
 
 Pagrindinis tikslas turi apimti tokią informaciją:
@@ -80,6 +82,7 @@ Jei norite prie tikslo pridėti dokumentą, pvz., baigimo sertifikatą, galite p
 Galite sukurti tikslo šabloną ir naudoti šabloną norėdami kurti naujus tikslus, pagrįstus šablonu. Kuriant tikslo šabloną išsaugomas aprašymas, temos ir tikslo matavimai. Tačiau faktiniai matavimai, atlikimo datos ir temų pastabos yra pašalinami.
 
 ## <a name="performance-reviews"></a>Našumo apžvalgos
+
 Našumo apžvalgos oficialiau vadinamos diskusijomis. Dabar jos pakankamai lanksčios, kad galėtų palaikyti nuolatinį grįžtamąjį ryšį, tobulėjimo planus ir oficialesnes apžvalgas. Galite greitai sukurti mažus susitikimus dviem žmonėms, pvz., individualų susitikimą, arba galite sukurti sudėtingesnę apžvalgą, atitinkančią jūsų įmonės peržiūros procesą. 
 
 Individualus susitikimas yra paprasta apžvalga: reikalingas trumpas pavadinimas, ilgesnis susitikimo turinio aprašymas ir susitikimo data. Paprasta apžvalga apima tą pačią informaciją, taip pat aptariamą apžvalgos laikotarpį. Be to, vadovai matys asmens, kuriam sukurta apžvalga, vardą. 
@@ -92,7 +95,11 @@ Galite sukurti naujų apžvalgų, pagrįstų sukurtais šablonais. Pavyzdžiui, 
 
 Norėdami spausdinti atsiliepimus, pasirinkite mygtuką **Spaudinio peržiūra**. Jei puslapyje**Peržiūra** nematote mygtuko, įsitikinkite, kad įgalinote funkciją darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie funkcijų valdymą žr. [Funkcijos valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 
+> [!NOTE]
+> Galimybė atspausdinti vykdymo peržiūras galima ti žmogiškuosiuose ištekliuose. Jos nėra „Dynamics 365 Finance“.
+
 ## <a name="components-you-can-include-in-performance-reviews"></a>Komponentai, kuriuos galite įtraukti į našumo apžvalgas
+
 Į našumo apžvalgas galite įtraukti daug informacijos tipų. Jie apima apžvalgos informaciją, matavimus, veiklos rūšis, vertinimus, išsiregistravimus ir priedus.
 
 ### <a name="review-detail"></a>Apžvalgos informacija
@@ -119,24 +126,30 @@ Darbuotojas ir (arba) vadovas bus pateikti apžvalgoje remiantis jūsų nustatyt
 
 Galite pridėti dokumentą į apžvalgą skyriuje **Priedai**, kuris yra puslapyje **Apžvalgos**. Dokumentų peržiūros programa pateikiama taip, kad galėtumėte greitai peržiūrėti bet kurio pridėto dokumento turinį.
 
-### 
-
 ## <a name="workflow-for-performance-management"></a>Našumo valdymo darbo eiga
+
 Norėdami kontroliuoti apžvalgos patvirtinimą galite naudoti darbininko apžvalgos darbo eigą. Be to, galite praleisti automatizuotą darbo eigą ir rankiniu būdu pakeisti apžvalgos būseną – tada galėsite sukurti paprastesnius dokumentus, pvz., individualius, nenaudodami darbo eigos proceso. Prieigą prie apžvalgos kontroliuoja apžvalgos būsena.
 
 1.  Kai sukuriama apžvalga, nustatoma jos būsena **Nepradėta**. Apžvalgą gali redaguoti visi.
+
 2.  Kai darbuotojas paspaudžia mygtuką **Pradėti apžvalgą**, nustatoma apžvalgos būsena **Vykdoma**. Tada darbuotojas pradeda įtraukti turinį. Šiuo metu vadovas nebegali matyti apžvalgos dokumento.
+
 3.  Darbuotojas pakeičia būseną į **Paruošta peržiūrėti**.
+
 4.  Vadovas gali įtraukti pastabų ir įvertinimų. Šiuo metu apžvalgą gali matyti tik vadovas.
+
 5.  Vadovas pakeičia būseną į **Galutinė peržiūra**, kad vadovas ir darbuotojas galėtų matyti apžvalgą bei aptarti. Galite nurodyti parametrus, ar šiuo metu galima redaguoti apžvalgą, ar ne. Šis veiksmas nebūtinas, jei vadovas tiesiog nori pasidalinti apžvalga su darbuotoju ir pažymėti jį kaip **Atlikta**, kai yra baigta.
+
 6.  Išsiregistravus būsena pakeičiama į **Atlikta**. Tuo metu apžvalgos negalima pakeisti.
 
 Darbininko apžvalgos darbo eigoje yra du elementai:
 
 1.  Patvirtinkite apžvalgą. Įtraukite šį elementą norėdami kontroliuoti būsenos pakeitimą iš **Vykdoma** į **Parengta peržiūrėti**. Pakeiskite priskyrimą norėdami naudoti valdymo hierarchiją, kur Employee.line vadovo lygis = 1.
+
 2.  Galutinė apžvalga. Įtraukite šį elementą norėdami kontroliuoti būsenos pakeitimą iš **Parengta peržiūrėti** į **Galutinė peržiūra**. Jeigu norite, kad vadovas patvirtintų galutinę peržiūrą, pakeiskite priskyrimą naudoti valdymo hierarchiją, kai Employee.line vadovo lygis = 1. Pakeiskite priskyrimą į darbo eigos vartotoją, jei norite, kad darbuotojas jį patvirtintų. Jei norite, kad patvirtintų vadovas ir darbuotojas, įtraukite į darbo eigą du veiksmus ir atlikite atitinkamą kiekvieno veiksmo priskyrimą pageidaujama patvirtinimų tvarka.
 
 ## <a name="setup"></a>Sąranka
+
 Yra trys puslapiai, kurie padeda nustatyti informaciją, būtiną norint baigti našumo procesą: puslapis **Matavimai**, **Našumo žurnalo šaltinių tipai** ir **Apžvalgos tipai**.
 
 ### <a name="measurements"></a>Matavimai
@@ -150,6 +163,3 @@ Našumo žurnalo šaltinių tipai aprašo, iš kur gauti našumo žurnalai. Gali
 ### <a name="review-types"></a>Peržiūros tipai
 
 Našumo apžvalgos tipai padeda kontroliuoti apžvalgos veikimą. Galite įjungti arba išjungti apžvalgos darbo eigą. Jei apžvalga nenaudoja darbo eigos, galite nurodyti numatytąją būseną, kuri bus naudojama sukūrus apžvalgą. Be to, galite nuspręsti, ar darbuotojas, ar vadovas, ar jie abu turi išsiregistruoti iš apžvalgos.
-
-
-

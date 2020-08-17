@@ -3,7 +3,7 @@ title: Lojalumo apžvalga
 description: Šioje temoje aprašomos lojalumo galimybės programoje „Dynamics 365 Commerce“ ir atitinkami nustatymo veiksmai, padedantys mažmenininkui lengvai pradėti dirbti su savo lojalumo programomis.
 author: scott-tucker
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 07/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 337ede63cb9175f2674bae8f2caaac5f1ba5f5cb
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: fd0ceefe1890214ab5fe2f619f6bf8ce718dec11
+ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023455"
+ms.lasthandoff: 07/22/2020
+ms.locfileid: "3613208"
 ---
 # <a name="loyalty-overview"></a>Lojalumo apžvalga
 
@@ -55,7 +55,7 @@ Toliau pateikiamoje lentelėje aprašomas kiekvienas komponentas ir kur jis naud
 | Nustatykite nuolaidas (būtina)                  | Nustatyti nuolaidas, kurias norite pasiūlyti savo lojaliems klientams. Pvz., galite pasiūlyti 5 proc. nuolaidą visiems drabužiams. | Nuolaidos turi būti įtrauktos į kainų grupes prieš jas įtraukiant į lojalumo programą. Kainų grupės priskirtos lojalumo programoms ir lojalumo pakopoms. |
 | Nustatykite kainų grupes (prerequisite)               | Kainų grupės naudojamos kurti ir valdyti produktų kainas ir nuolaidas. Nustatykite kainų grupes, į kurias būtų įtrauktos nuolaidos, galiojančios jūsų lojalumo programoms. | Kainų grupės priskiriamos lojalumo programoms ir lojalumo programų pakopoms. |
 | Nustatykite kanalus (būtina)                   | Prekybos kanalai yra parduotuvės, dalyvaujančios jūsų lojalumo programose, pvz., plytų ir skiedinio parduotuvė, interneto parduotuvė arba skambučių centras. Turite nustatyti savo kanalus prieš jiems priskirdami lojalumo programas. | Galite priskirti kanalus lojalumo programai, jei kanalas dalyvauja lojalumo programoje. |
-| Lojalumo mokesčio metodo nustatymas (būtina) | Turite nustatyti lojalumo mokėjimo metodą, kad būtų galima lojalumo kortelę naudoti kasoje, ir išnaudoti lojalumo taškus dalyvaujant lojalumo programoje. Taip pat turite prie kanalo pridėti lojalumo mokėjimo būdą, kad klientai galėtų išnaudoti lojalumo taškus mokėdami už prekes. | Nustatykite lojalumo tipo mokėjimo būdą ir tuomet priskirkite lojalumo mokėjimo būdą kanalams, dalyvaujantiems lojalumo programoje. |
+| Lojalumo mokesčio metodo nustatymas (būtina) | Siekiant užtikrinti, kad lojalumo taškai būtų prieinami bet kuriame kanale, tokiam kaip plytų ar skiedinio parduotuvėse, interneto parduotuvės ar skambučių centruose, privalote nustatyti dėžės intervalą lojalumo kortelėms **Kortelių numeriai** puslapyje. | Nustatykite lojalumo tipo mokėjimo būdą ir tuomet priskirkite lojalumo mokėjimo būdą kanalams, dalyvaujantiems lojalumo programoje. |
 | Nustatykite datų intervalus                            | Datų intervalai leidžia lanksčiai nustatyti laiko tarpą, taikomą lojalumo pakopoms. Norėdami nurodyti, kiek laiko klientas gali likti pakopoje arba kiek laiko klientas turi veiklai, leidžiančiai gauti pakopą, atlikti, naudokite datų intervalus. | Datų intervalai taikomi, tik jei naudojate pakopas savo lojalumo programose. Pasirinkite datų intervalą, taikomą programos pakopoms ir datų intervalus, taikomus programos pakopos taisyklėms. |
 | Nustatykite atlygio taškus                             | Atlygio taškų tipai yra tipai atlygio, kurį siūlote savo klientams. Atlygio taškai gali būti išnaudojami arba neišnaudojami. Išnaudojami atlygio taškai gali būti iškeisti į prekes. Neišnaudojami atlygio taškai naudojami stebėjimui arba tam, kad klientas galėtų pereiti į kitą lojalumo programos pakopą. | Atlygio taškai nurodomi pakopos taisyklėse ir yra naudojami norint perkelti klientą į konkrečią pakopą. Atlygio taškai taip pat nurodomi lojalumo planuose, uždarbio ir naudojimo taisyklėse. Uždarbio taisyklėse nurodote atlygius, kuriuos klientas gali uždirbti už konkrečią veiklą. Apmokėjimo taisyklėse nurodote atlygį, kurį klientas gali panaudoti. |
 | Nustatykite lojalumo programas                          | Lojalumo programos yra pagrindinis lojalumo objektas, kurį galite pasiūlyti. Kiekvienai lojalumo programai taip pat galima priskirti lojalumo pakopas. Nuolaidos ir kainų grupės priskiriamos lojalumo programoms programos arba pakopos lygmenyje. | Jūs kuriate savo lojalumo programų lojalumo planus. Priskiriate lojalumo korteles lojalumo programoms ir lojalumo kortelės gali būti priskirtos klientui. Kanalai dalyvauja lojalumo programose, kurios priskirtos lojalumo planams. Bet kuris lojalumo kortelę turintis klientas gali dalyvauti kortelei priskirtose lojalumo programose. |

@@ -3,7 +3,7 @@ title: Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 description: Šioje temoje apžvelgiama, kaip patobulinta „Dynamics 365 Commerce“ produktų ir klientų ieškos funkcija.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 06/10/2019
+ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 2b4c17b41056a35c2d2caaedb4f52998179b3c3e
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
+ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023363"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628914"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -75,7 +75,7 @@ Naudojant klientų iešką, įvairiais tikslais ieškoma klientų. Pavyzdžiui, 
 - El. pašto adresas
 - Telefono numeris
 - Lojalumo kortelės numeris
-- Adresas 
+- Adresas
 - Sąskaitos numeris
 
 Iš visų šių ypatybių, pavadinimas / vardas ir (arba) pavardė suteikia daugiausiai lankstumo ieškant kelių raktinių žodžių, nes algoritmas pateikia visus klientus, kurie atitinka bet kurį iš ieškomų raktažodžių. Daugiausia raktažodžių atitinkantys klientai rodomi rezultatų viršuje. Tai naudinga kasininkams, kai jie ieško įvesdami vardą ir pavardę, bet pirmą kartą įvedant duomenis pavardė ir vardas buvo sukeisti vietomis. Tačiau dėl funkcionalumo, visose kitose ypatybėse išlaikoma ieškos raktažodžių tvarka. Todėl, jei ieškos raktinių žodžių tvarka nesutampa su tvarka, kuria duomenys išsaugomi, nebus pateikta jokių rezultatų.
@@ -94,6 +94,9 @@ Atliekant nuotolinę klientų iešką, kitų juridinių subjektų klientų ID ne
 ### <a name="enhancements-to-local-customer-search"></a>Vietinių klientų ieškos patobulinimai
 
 Ieška pagal telefono numerį supaprastinta. Atliekant tokią iešką dabar ignoruojami specialieji simboliai, pvz., tarpai, brūkšneliai ir skliausteliai, kurie galėjo būti pridėti sukūrus klientą. Todėl informacijos ieškantiems kasininkams nereikia nerimauti dėl telefono numerio formato. Jie taip pat gali ieškoti klientų įvesdami dalinį telefono numerį. Jei telefono numeryje yra specialių simbolių, jį taip pat galima surasti ieškant skaitmenų, kurie pateikti po specialiųjų simbolių. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **123**, **456**, **7890** arba **1234567890**, arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
+
+> [!NOTE]
+> Klientas gali turėti daugybę telefono numerių ir elektroninio pašto adresų. Kliento paieškos algoritmas taip pat ieško šiuose antriniuose elektroniniuose paštuose ir telefono numeriuose, tačiau kliento paieškos rezultatų puslapis tik rodo pirminį elektroninį paštą ir telefono numerį. Tai gali sukelti tam tikrą sąmyšį, nes grįžę kliento rezultatai nerodys ieškoto elektroninio pašto ar telefono numerio. Ateities leidimuose planuojame pagerinti kliento ieškos rezultatų ekraną, kad jis rodytų šią informaciją.
 
 Įprastinė kliento ieška gali užimti daug laiko, nes ji vykdoma daugelyje laukų. Dabar kasininkai gali ieškoti vieno kliento laukuose, pvz., vardo ir pavardės, el. pašto adreso arba telefono numerio. Kliento ieškos algoritmo naudojamos ypatybės kartu vadinamos *kliento ieškos kriterijais*. Sistemos administratorius gali lengvai sukonfigūruoti vieną arba kelis kriterijus kaip nuorodas, kurios bus rodomos EKA. Kadangi ieška apribojama iki vieno kriterijaus, rodomi tik tinkami ieškos rezultatai ir efektyvumas yra daug didesnis nei įprastos kliento ieškos efektyvumas. Toliau nurodytame paveikslėlyje pavaizduotos EKA kliento ieškos nuorodos.
 
@@ -114,3 +117,4 @@ Lauke **Rodymo tvarka** laukas nurodoma tvarka, kuria nuorodos rodomos EKA. Rodo
 Naujesnėje „Commerce“ versijoje mažmenininkai galės nustatyti numatytąjį klientų paieškos režimą EKA į **Peržiūrėti visas parduotuves**. Ši konfigūracija gali būti naudinga scenarijuose, kuriuose būtina nedelsiant rasti už EKA ribų sukurtus klientus (pvz., net prieš vykdant paskirstymo užduotį). Galima naudotis nauja EKA funkcijų šablono parinktimi **Numatytasis kliento ieškos režimas**. Nustatykite, kad ši parinktis būtų **Įjungta**, kad būtų galima nustatyti numatytojo ieškos režimo parinktį **Ieškoma visose parduotuvėse**. Po kiekvieno kliento ieškos bandymo realiuoju laiku kreipiamasi į būstinę.
 
 Siekiant išvengti nenumatytų funkcionalumo problemų, ši konfigūracija paslėpta už versijos vėliavėlės, kurios pavadinimas **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Todėl norėdamas, kad vartotojo sąsajoje (UI) būtų rodoma nuostata **Numatytasis kliento ieškos režimas**, pardavėjas turi sukurti palaikymo bilietą vartotojo priėmimo bandymui (UAT) ir gamybos aplinkas. Gavusi bilietą inžinierių komanda dirba su pardavėju, kad įsitikintų, jog pardavėjas bandymą atlieka ne gamybos aplinkose, kad įvertintų efektyvumą ir įdiegtų visus reikiamus optimizavimus.
+

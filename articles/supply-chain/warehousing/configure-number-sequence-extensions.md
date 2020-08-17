@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: v-olbara
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 3ee74ba108008ccef53fe3b904c71ddf5f51afb7
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: 2f4506d2c1808198d4b10e50f4635bcc21d934e1
+ms.sourcegitcommit: 0f877ee4b53cfb002b179a53a67c4f9adae354bf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546449"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3640404"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Konfigūruokite sekų numerį sandėlio srautams
 
@@ -36,7 +36,7 @@ Standartinio numerio sekos segmentai nėra tinkami GS1 įgyvendinimui, nes nėra
 - Važtaraščio identifikavimo kodai gali būti kuriami iš anksto.
 - Unikali numerio seka gali būti kuriama serijiniam siuntimo talpyklos kodo (SSCC) numeriams.
 - GS1 atitikties numerio seka gali būti kuriama BOL ir SSCC numeriams. Savybės nestandartiniai priedai palaiko licencijos numerio identifikavimo kodą, talpyklos identifikavimo kodą, bangos etiketės identifikavimo kodą ir BOL identifikavimo kodą.
-- Licencijos numerio identifikavimo kodo konfigūravimas yra lankstus. Pavyzdžiui, galite įtraukti ar neapimti dirbtinio intelekto, tokio kaip nulių seka (00).
+- Licencijos numerio identifikavimo kodo konfigūravimas yra lankstus. Pavyzdžiui, galite įtraukti ar neapimti programos identifikatorių (DI), tokių kaip priekyje esančių nulių (00).
 
 Ši funkcija užtikrina efektyvesnį dėžių etikečių palaikymą ir reguliuoja naujus skaičius, kuriuos sukuria sistema.
 

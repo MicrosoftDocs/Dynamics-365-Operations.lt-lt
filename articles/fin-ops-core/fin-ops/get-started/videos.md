@@ -1,9 +1,9 @@
 ---
 title: Vaizdo įrašai
 description: Šiame puslapyje pateikiami „Microsoft“ sukurti mokomieji ir techninės kalbos vaizdo įrašai, susiję su „Finance and Operations“ programomis, pasiekiami „YouTube“ ir kitose svetainėse.
-author: josaw1
+author: sericks007
 manager: AnnBe
-ms.date: 06/16/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
-ms.author: josaw
+ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: e4756e4d1697fdba40ad8a71a5d33594583a219a
-ms.sourcegitcommit: 9a2e9f7dfec47c42178bb67a3e099e610515baf3
+ms.openlocfilehash: c620e5e75ba1c547f0a1ee6830a5cf1b7fa58377
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456954"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645370"
 ---
 # <a name="videos"></a>Vaizdo įrašai 
 
@@ -124,7 +124,8 @@ ms.locfileid: "3456954"
 - [„Excel“ naudojimas išlaidų analizei](https://youtu.be/-HKHYdClvx8)
 
 ### <a name="customer-portal"></a>Kliento portalas
-- [Kliento portalo šablono peržiūra „Dynamics 365 Supply Chain Management”](https://youtu.be/nPrqoLuHfV8)
+- [Kliento portalo šablono apžvalga](https://youtu.be/nPrqoLuHfV8)
+- [Klientų kvietimas registruotis ir naudotis jų klientų portalu](https://youtu.be/drGUYHX9QIQ)
 
 ### <a name="help-system"></a>Žinyno sistema
 

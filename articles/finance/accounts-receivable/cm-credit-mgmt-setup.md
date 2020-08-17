@@ -3,7 +3,7 @@ title: Kreditų valdymo parametrų nustatymas
 description: Šioje temoje aprašomos parinktys, kurias galite naudoti norėdami konfigūruoti kreditų valdymą, kad atitiktų jūsų verslo poreikius.
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6d4ced14e51dd28d51d2081d8e92891e31eea49d
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: c4930d346ddc4679e6a3196c5f35adb598ed38c1
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154533"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651910"
 ---
 # <a name="credit-management-parameters-setup"></a>Kreditų valdymo parametrų nustatymas
 
@@ -34,7 +34,7 @@ Skyriuje **Kreditas** yra keturi „FastTab“, kur galite pakeisti parametrus, 
 
 ### <a name="credit-holds"></a>Kredito sulaikymai
 
-- Nustatykite parinktį **Leisti redaguoti pardavimo užsakymų reikšmes po sulaikyto užsakymo išleidimo** kaip **Taip**, kad galėtumėte prašyti dar kartą patikrinti registravimo taisykles, jei pirkimo užsakymo reikšmė (išplėstinė kaina) pasikeitė nuo to laiko, kai pardavimo užsakymas buvo išleistas iš sulaikymų sąrašo. .
+- Nustatykite **Leisti redaguoti prekybos užsakymų vertę po to, kai laikomas užsakymas yra paleidžiamas** parinktį į **Ne** tam, kad publikavimo taisyklės būtų dar kartą tikrinamos, jei prekybos užsakymo vertę (išplėsta kaina) buvo padidinta, nes prekybos užsakymas buvo paleistas iš laikomų sąrašo. .
 - Lauke **Atšauktų užsakymų priežastys** pasirinkite išleidimo priežastį, kuri bus naudojama pagal numatytuosius parametrus, kai pardavimo užsakymas, kuris buvo kreditų valdymo sulaikymų sąraše, yra atšaukiamas.
 - Nustatykite parinktį **Patikrinti klientų kredito grupių kredito limitą** kaip **Taip**, kad galėtumėte patikrinti klientų kredito grupės kredito limitą, kai pardavimo užsakymas priklauso klientų kredito grupei. Bus patikrintas grupės kredito limitas; tada, jei jis pakankamas, bus patikrintas kliento kredito limitas.
 - Nustatykite parinktį **Patikrinti kredito limitą, kai mokėjimo sąlygos padidinamos** kaip **Taip**, jei norite patikrinti mokėjimo sąlygų reitingus, kad nustatytumėte, ar pardavimo užsakymo mokėjimo sąlygos skiriasi nuo numatytųjų kliento mokėjimo sąlygų. Jeigu naujos mokėjimo sąlygos turi aukštesnį reitingą nei originalios mokėjimo sąlygos, užsakymas įtraukiamas į kreditų valdymo sulaikymo sąrašą.

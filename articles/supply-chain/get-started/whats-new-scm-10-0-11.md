@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 0d5265079dd96b272d13b30436b83b94bdb7297f
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530287"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652088"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.11 versijoje (2020 m. liepos mėn.)?
 
@@ -39,11 +39,11 @@ ms.locfileid: "3530287"
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 - [Turimų atsargų ataskaitos saugykla](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
-- [Numerio lentelės gavimo patobulinimai, skirti sandėlio programėlei](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app) - Norėdami gauti daugiau informacijos, žr. [Numerio lentelės gavimas naudojant sandėlio programėlę](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
-- [Eilučių rezervavimo patobulinimai, skirti paketo numerio rezervavimo formai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form) – Daugiau informacijos rasite [To paties paketo pardavimo užsakymui rezervavimas](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Su sandėlio programa gaunami numerio lentelės papildymai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Dėl išsamesnės informacijos, žr. [Licencijos ženklas gaunamas per sandėlio programą](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+- [Linijos rezervavimo papildymai pakuotės numerio rezervavimo formai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Dėl daugiau informacijos, žr.[To paties pardavimo užsakymo paketo rezervavimas](../sales-marketing/reserve-same-batch-sales-order.md).
 - [Nauji gamybos srities duomenų objektai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Krovinių kiekiai gauti per dideli](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) – daugiau informacijos žr. [Sandėlio pirkimo užsakymų gaunamų krovinių tvarkymas](../warehousing/inbound-load-handling.md).
-- [Paketo numerių iš užduoties kortelės įrenginio pabaigimo ataskaita](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)– Daugiau informacijos rasite [Pranešti kaip baigta iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md)
+- [Krovinio kiekių perviršis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Dėl daugiau informacijos, žr.[Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas](../warehousing/inbound-load-handling.md).
+- [Skelbimas apie paketų numerių, esančių užduoties kortelės įrenginyje, baigimą](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Dėl daugiau informacijos, žr. [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 50362ccd9df7a44961bd6e46fa16779829b1c408
-ms.sourcegitcommit: 96ec8b7252296de0049bff406c743f8da9e0f0be
+ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "3606827"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651671"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -38,8 +38,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.13 versijos platformos naujinimai
 
 > [!NOTE]
-> Versija 10.0.13 dar neišleista. Ši informacija pateikiama planavimo tikslais. Versijos 10.0.13 turinys ir funkcionalumas gali būti keičiami. Norėdami sužinoti daugiau apie leidimus, skaitykite [Paslaugų naujinimų pasiekiamumas](../../fin-ops/get-started/public-preview-releases.md).
-
+> Versija 10.0.13 yra peržiūros leidimas. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Trijų „jQuery” komponentų bibliotekų atnaujinimas 
 
@@ -50,6 +49,27 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Paveiktos produkto sritys**         | Išplėstiniai valdikliai, ypač pasirinktinis „JavaScript” kodas, naudojantis pasenusias arba pašalintas API |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
 | **Būsena**                         | 10.0.13 versijoje/platformos atnaujinime Nr. 37 klientai gali pasirinktinai perkelti į naujausias bibliotekas įjungdami „Atnaujinti tris „jQuery” komponentų bibliotekas” funkciją. Perkėlimas į naujausias bibliotekas bus privalomas nuo 2021 m. balandžio mėnesio leidimo, kad būtų skirta laiko paveiktoms API perkelti.   |
+
+### <a name="existing-grid-controlforcelegacygrid-api"></a>Esamas tinklelio valdymas/forceLegacyGrid() API
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Esamas tinklelio valdymas yra pakeičiamas nauju tinklelio valdymu. |
+| **Pakeitė kita funkcija?**   | [Naujas tinklelio valdymas](../..//fin-ops/get-started/grid-capabilities.md) |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | 10.0.13 versijoje naujas tinklelio valdymas yra bendrai prieinamas ir klientai gali pasirinktinai įjungti šią funkciją. Naujas tinklelio valdymas taps privalomas 2021 m. spalio mėn. leidime. Kai naujas tinklelio valdymas tamp privalomas, **forceLegacyGrid()** API nebebus apdovanota. |
+
+### <a name="personalization-without-saved-views"></a>Personalizavimas be įrašytų peržiūrų 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Personalizavimo papildoma sistema buvo perdaryta su naujomis įrašytomis peržiūros funkcijomis taip, kad ji galėtų geriau veikti ir siūlytų papildomas galimybes. |
+| **Pakeitė kita funkcija?**   | Įrašyti rodiniai |
+| **Paveiktos produkto sritys**         | Žiniatinklio klientas |
+| **Visuotinio diegimo parinktis**              | Visi / Viskas |
+| **Būsena**                         | 10.0.13 versijoje/platformos atnaujinimas 37, įrašyta peržiūros funkcija yra dažniausiai prieinama, o klientai gali pasirinktinai ją įjungti. Išsaugotų peržiūrų funkcija taps privaloma 2021 m. spalio mėn. leidime. |
+
 
 ## <a name="platform-updates-for-version-10012-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.12 versijos platformos naujinimai
 

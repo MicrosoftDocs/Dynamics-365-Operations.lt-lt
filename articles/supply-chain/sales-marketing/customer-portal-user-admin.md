@@ -3,7 +3,7 @@ title: Kliento portalo vartotojų kūrimas ir valdymas
 description: Šioje temoje paaiškinama, kaip sukurti kliento portalo vartotojų paskyras ir nustatyti jų teises.
 author: dasani-madipalli
 manager: tfehr
-ms.date: 04/22/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: c56e41b8ea5039531205083b5b42aff05e05cf66
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: a751cbffd98b8d47ca7dad222f0ce374381a393d
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413991"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645318"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Kliento portalo vartotojų kūrimas ir valdymas
 
@@ -30,11 +30,16 @@ Norint, kad vartotojas galėtų naudotis svetaine, pirmiausia reikia sukurti to 
 
 Kai vartotojai užsiregistruoja patys, jiems automatiškai sukuriami kontaktų įrašai. Todėl negalite užtikrinti, kad vartotojas pasirinks tinkamą kliento paskyrą ir juridinį subjektą. Pakvietimo procesas suteikia administratoriui galimybę priskirti teisingą kliento paskyrą ir juridinį subjektą kontakto įrašui prieš išsiunčiant pakvietimą. Jei ketinate pritaikyti priemonę taip, kad vartotojai galėtų registruotis savarankiškai, būtinai atsižvelkite į galimas pasekmes.
 
+## <a name="video"></a>Vaizdo
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ADkI]
+
+[Klientų pakvietimo registruotis ir naudoti savo kliento portalą](https://youtu.be/drGUYHX9QIQ) vaizdo įrašas (rodomas pirmiau) yra įtrauktas į [„Finance and Operations“ grojaraštį](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) prieinamą „YouTube“.
+
 ## <a name="prerequisite-setup"></a>Būtinieji nustatymo veiksmai
 
 „Power Apps“ portaluose esantys kontaktai saugomi kaip įrašai „Common Data Service“ objekte **Kontaktai**. Tada dvigubo rašymo funkcija pagal poreikį sinchronizuoja šiuos įrašus su „Microsoft Dynamics 365 Supply Chain Management“.
 
-![![Kliento portalo kontaktų sistemos schema](media/customer-portal-contacts.png "Kliento portalo kontaktų sistemos schema")](media/customer-portal-contacts.png "System diagram for Customer portal contacts")
+![Kliento portalo kontaktų sistemos schema](media/customer-portal-contacts.png "Kliento portalo kontaktų sistemos schema")
 
 Prieš pradėdami kviesti naujus klientus, įsitikinkite, kad dvigubo rašymo funkcijoje įjungėte susiejimą su objektu **Kontaktas**.
 

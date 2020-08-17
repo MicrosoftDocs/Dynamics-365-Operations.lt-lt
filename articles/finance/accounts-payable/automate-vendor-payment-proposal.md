@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 3418021f7b4c693779833e1c3c31501df02a0c21
-ms.sourcegitcommit: c5d0bd90334e259e96df17a217b2eff03c265f07
+ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
+ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/03/2020
-ms.locfileid: "3423041"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3618416"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Tiekėjo mokėjimo pasiūlymų automatizavimas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Dabar organizacijos, kurios moka tiekėjams pagal pasikartojantį grafiką, gali automatizuoti tiekėjo mokėjimo pasiūlymų kūrimo procesą. Tiekėjo mokėjimo pasiūlymų automatizuoti procesai apibrėžia šią informaciją:
 
@@ -73,7 +72,7 @@ Jei nustatysite parinkties **Nustatyti pabaigos datos kriterijus** vertę **Taip
 
 ### <a name="minimum-payment-date"></a>Minimali mokėjimo data
 
-Minimali mokėjimo data yra anksčiausia data, kuri naudojama kuriant mokėjimus. Pirma turite nustatyti parinkties **Nustatyti minimalius mokėjimo datos kriterijus** vertę **Taip**. Šis parametras leidžia naudoti minimalios mokėjimo datos funkciją. Jei ši parinktis nustatyta į **Taip**, naudokite lauką **Minimalios mokėjimo datos dienų skaičiaus koregavimas***, kad nustatytumėte minimalią mokėjimo datą kaip konkretų dienų skaičių prieš arba po proceso vykdymo datos. Skaičius gali būti teigiamas, neigiamas arba 0 (nulis). Pavyzdžiui, mokėjimo seka generuoja mokėjimus trečiadienį, kad būtų įtraukti visi mokėjimai, kurių minimali mokėjimo data yra praėjęs pirmadienis. Šiuo atveju nustatykite lauką **Minimalios mokėjimo datos dienų skaičiaus koregavimas** vertę **–2**.
+Minimali mokėjimo data yra anksčiausia data, kuri naudojama kuriant mokėjimus. Pirma turite nustatyti parinkties **Nustatyti minimalius mokėjimo datos kriterijus** vertę **Taip**. Šis parametras leidžia naudoti minimalios mokėjimo datos funkciją. Jei ši parinktis nustatyta į **Taip**, naudokite lauką **Minimalios mokėjimo datos dienų skaičiaus koregavimas**, kad nustatytumėte minimalią mokėjimo datą kaip konkretų dienų skaičių prieš arba po proceso vykdymo datos. Skaičius gali būti teigiamas, neigiamas arba 0 (nulis). Pavyzdžiui, mokėjimo seka generuoja mokėjimus trečiadienį, kad būtų įtraukti visi mokėjimai, kurių minimali mokėjimo data yra praėjęs pirmadienis. Šiuo atveju nustatykite lauką **Minimalios mokėjimo datos dienų skaičiaus koregavimas** vertę **–2**.
 
 Čia pateikiamas pavyzdys, rodantis, kaip kartu veikia pabaigos datos ir minimalios mokėjimo datos laukai. Nustatyta, kad mokėjimo pasiūlymo automatizuotas procesas bus vykdomas trečiadienį. Laukas **Pabaigos datos dienų skaičiaus koregavimas** yra nustatomas kaip **1**, kad pabaigos data būtų nustatoma pagal terminą. Laukas **Minimalios mokėjimo datos dienų skaičiaus koregavimas** nustatomas į **–2**. Jei mokėjimo proceso automatizavimas prasideda trečiadienį, kovo 25 d., visos sąskaitos faktūros, kurių terminas yra iki kovo 26 d., bus įtrauktos į mokėjimo pasiūlymą. Mokėjimo pasiūlymai kuriami, kaip nurodyta toliau:
 
@@ -84,7 +83,7 @@ Minimali mokėjimo data yra anksčiausia data, kuri naudojama kuriant mokėjimus
 
 ### <a name="summarized-payment-date"></a>Susumuoto mokėjimo data
 
-Susumuoto mokėjimo data naudojama tik tada, kai sąskaitos faktūros apmokėjimo būdo laukas **Laikotarpis** yra nustatytas į **Bendras**. Jei apmokėjimo būdų laukas **Laikotarpis** nustatytas į **Bendras**, reikia nustatyti parinktį **Nustatyti susumuoto mokėjimo datos kriterijus** į **Taip**. Jei ši parinktis nustatyta į **Taip**, naudokite lauką **Susumuoto mokėjimo datos dienų skaičiaus koregavimas***, kad nustatytumėte susumuoto mokėjimo datą kaip konkretų dienų skaičių prieš arba po proceso vykdymo datos. Skaičius gali būti teigiamas, neigiamas arba 0 (nulis). Pavyzdžiui, ši seka generuoja mokėjimus trečiadienį, o įmonė nori sukurti susumuotą mokėjimą trečiadienį. Šiuo atveju nustatykite lauko **Susumuoto mokėjimo datos dienų skaičiaus koregavimas** vertę **0**.
+Susumuoto mokėjimo data naudojama tik tada, kai sąskaitos faktūros apmokėjimo būdo laukas **Laikotarpis** yra nustatytas į **Bendras**. Jei apmokėjimo būdų laukas **Laikotarpis** nustatytas į **Bendras**, reikia nustatyti parinktį **Nustatyti susumuoto mokėjimo datos kriterijus** į **Taip**. Jei ši parinktis nustatyta į **Taip**, naudokite lauką **Susumuoto mokėjimo datos dienų skaičiaus koregavimas**, kad nustatytumėte susumuoto mokėjimo datą kaip konkretų dienų skaičių prieš arba po proceso vykdymo datos. Skaičius gali būti teigiamas, neigiamas arba 0 (nulis). Pavyzdžiui, ši seka generuoja mokėjimus trečiadienį, o įmonė nori sukurti susumuotą mokėjimą trečiadienį. Šiuo atveju nustatykite lauko **Susumuoto mokėjimo datos dienų skaičiaus koregavimas** vertę **0**.
 
 ### <a name="records-to-include"></a>Įtrauktini įrašai
 

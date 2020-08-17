@@ -3,7 +3,7 @@ title: Nuolaidų rodymas EKA
 description: Šioje temoje paaiškinama, kaip „Microsoft Dynamics 365 Commerce“ padeda pardavimo partneriams sužinoti apie akcijas ir kaip jos gali būti naudojamos kryžminiams ir papildomiems pardavimams.
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-Commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: 0ffa7ca6294c7b523ec743f1cb9bc4aef8ef46a8
-ms.sourcegitcommit: 4d5bcda288341572076364559125c86e2ec05273
+ms.openlocfilehash: 7531e250580019a1e9892d22fc7761770227c61f
+ms.sourcegitcommit: db1a8ffcaebc2896e8f528d7807c54f8597f450e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "3334713"
+ms.lasthandoff: 07/29/2020
+ms.locfileid: "3638187"
 ---
 # <a name="show-discounts-in-pos"></a>Nuolaidų rodymas EKA
 
@@ -54,7 +54,7 @@ Kai parinktis **Taikyti be kupono kodo** įjungta, atsiranda įvairių scenarij�
 
 Kelių eilučių nuolaidos, pvz., kiekio nuolaidos, prekių rinkinių nuolaidos ir slenksčio nuolaidos, yra puikus būdas motyvuoti klientus pirkti daugiau produktų, kad būtų galima gauti didesnių nuolaidų. Todėl jie taip pat padeda didinti kliento krepšelio ir mažmeninės prekybos įplaukų dydį. Šias nuolaidas galima publikuoti „e-Commerce“ svetainėse, socialiniuose tinkluose ir reklaminėse juostose parduotuvėse.
 
-Tačiau net naudojant visus šiuos viešumo metodus klientai gali praleisti galimybę pasinaudoti akcijų siūlomais privalumais. Kad pardavimų darbuotojai lengviau sužinotų, kokios akcijos taikomos pasirinktai eilutei ar net visam krepšeliui, mažmenininkai gali įtraukti mygtuką veiksmui „Peržiūrėti pasiekiamas nuolaidas“ į puslapio **Operacija** mygtukyną. Tokiu būdu pardavimų darbuotojas gali pasirinkti operacijos eilutę ir pasirinkti mygtuką, kad būtų rodomos visos pasirinktos eilutės nuolaidos. Be to, pardavimų darbuotojas gali pasirinkti kitą skirtuką, norėdamas rodyti visas operacijai taikomas nuolaidas.
+Tačiau net naudojant visus šiuos viešumo metodus klientai gali praleisti galimybę pasinaudoti akcijų siūlomais privalumais. Tam, kad palengvintų su prekyba susijusių asmenų supratimą, kokios akcijos yra taikomos pasirinktai eilutei arba visam vežimėliui, mažmenininkai gali įtraukti mygtuką **"Peržiūrėti esamas nuolaidas"** veiksmą tinklo mygtukui **Perlaidos** puslapyje. Dėl to, su prekyba susiję asmenys gali pasirinkti perlaidos eilutę ir tuomet pasirinkti mygtuką, kuriuo rodomos nuolaidos esames pasirinktai eilutei. Be to, pardavimų darbuotojas gali pasirinkti kitą skirtuką, norėdamas rodyti visas operacijai taikomas nuolaidas. Svarbu pastebėti, kad **Peržiūrėti esamas nuolaidas** nerodo nuolaidų, kurios jau yra taikomos prekybos eilutei, nes nuolaidos informacija jau yra rodoma prekybos eilutejė. Šio scenarijaus tikslas yra tik parodyti dar netaikomas nuolaidas. Išimtis šiam atvejui yra nuolaidos, kurios yra taikomos pagal kuponą pažymėtą „Taikyti be kupono kodo". Dėl to su prekyba susijusiam asmeniui tampa lengva pašalinti jau pritaikytą kuponą.
 
 Puslapyje **Visos nuolaidos** rodomos tik nuolaidos, kurios nekonkuruoja su jokiomis pritaikytomis nuolaidomis. Taip užtikrinama, kad, jei pardavimų darbuotojas informuos klientą apie nuolaidą, o klientas imsis reikalaujamo veiksmo (pvz., klientas nusiperka dar vieną prekę, kado gautų 10 procentų nuolaidą), nuolaida taikoma operacijai. Kuponų nuolaidos rodomos tik tada, kai kupono antraštėje įgalinta parinktis **Taikyti be kupono kodo**.
 

@@ -3,7 +3,7 @@ title: Gaunamų atsargų operacijos EKA
 description: Šioje temoje aprašomos gaunamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
 author: hhaines
 manager: annbe
-ms.date: 07/10/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: cf3bec8ab0bfafccfe4b2b5b245d00fd6aeff635
-ms.sourcegitcommit: 037712e348fcbf3569587089bd668ee7bf5567ff
+ms.openlocfilehash: aba4f2d7932ebc3a0129f04c60c8b6358da68c64
+ms.sourcegitcommit: 0aabe4157f82d8c59dd2d285ab0b33f3c8ec5bbc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "3551606"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3627543"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Gaunamų atsargų operacijos EKA
 
@@ -33,7 +33,7 @@ ms.locfileid: "3551606"
 „Microsoft Dynamics 365 Commerce“ 10.0.10 ir naujesnėse versijoje gaunamos ir siunčiamos operacijos elektroniniame kasos aparate (EKA) keičia paėmimo ir gavimo operacijas.
 
 > [!NOTE]
-> 10.0.10 ir naujesnėse versijoje bet kokios naujos EKA programos priemonės, susijusios su parduotuvės atsargų gavimu pagal pirkimo užsakymus ir perkėlimo užsakymus, bus pridėtos prie EKA operacijos **Gaunamos operacijos**. Jei šiuo metu naudojate EKA paėmimo ir gavimo operaciją, rekomenduojame sukurti strategiją, skirtą pakeisti šią operaciją naujomis gaunamomis ir siunčiamomis operacijomis. Nors paėmimo ir gavimo operacija nebus pašalinta iš produkto, po 10.0.9. versijos į ją nebebus investuojama funkciniu ir našumo požiūriu.
+> Komercijos versijoje 10.0.10 ir velesnėse, bet kokios naujos savybės POS programoje, susijusios su parduotuvės atsargų gavimo pagal prekybos užsakymos ir perdavimo užsakymus bus pridėtos prie **Vidaus operacijos** POS veikimo. Jei šiuo metu naudojate EKA paėmimo ir gavimo operaciją, rekomenduojame sukurti strategiją, skirtą pakeisti šią operaciją naujomis gaunamomis ir siunčiamomis operacijomis. Nors paėmimo ir gavimo operacija nebus pašalinta iš produkto, po 10.0.9. versijos į ją nebebus investuojama funkciniu ir našumo požiūriu.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Būtinoji sąlyga: nesinchroninės dokumentų sistemos konfigūravimas
 
@@ -153,6 +153,20 @@ Naudokite funkciją **Atšaukti gavimą** programos juostoje tik tada, jei norit
 Jei gaunate atsargų, galite naudoti funkciją **Pristabdyti gavimą**, jei norite padaryti pertrauką gavimo procese. Pavyzdžiui, norite atlikti kitą EKA operaciją, pavyzdžiui, įforminti pardavimą klientui arba atidėti gavimo registravimą.
 
 Kai pasirenkate **Pristabdyti gavimą**, dokumento būsena pakeičiama į **Pristabdyta**. Todėl vartotojai žinos, kad dokumento duomenys įvesti, bet dokumentas dar nepatvirtintas. Kai būsite pasirengę tęsti gavimo procesą, pasirinkite pristabdytą dokumentą ir pasirinkite **Užsakymo informacija**. Visi anksčiau įrašyti **Gaunama dabar** kiekiai išsaugomi ir juos galima peržiūrėti rodinyje **Visas užsakymų sąrašas**.
+
+### <a name="review"></a>Peržiūrėti
+
+Prieš paskutinį komercijos biuro kvito įsipareigojimą, galite naudoti Peržiūros funkciją tam, kad peržiūrėtumėte funkciją ir patvirtintumėte vidaus dokumentą. Peržiūra perspės jus apie visus dingusius ar neteisingus duomenis, kurie galėjo sukelti apdorojimo sutrikimą ir suteiks jums galimybę pataisyti problemas prie kvito užklausos pateikimą. Tam, kad įjungtumėte **Peržiūros** funkciją programų juostoje, įjunkite **Įjungti POS patvirtinimą vidaus ir išorės atsargų operacijose** funkciją per **Funkcijos valdymo** darbo sritį komercijos štabe (HQ).
+
+**Peržiūros** funkcija patvirtina tolesnes problemas vidaus dokumente:
+
+- **Per didelis gavimas** – dabar gavimo kiekis yra didesnis nei užsakytas kiekis. Šios problemos rimtumą nulemia per didelis gavimo konfigūravimas biuro štabe (HQ).
+- **Per mažas gavimas** – dabar gavimo kiekis yra mažesnis nei užsakytas kiekis. Šios problemos rimtumą nulemia per mažo gavimo konfigūravimas biuro štabe (HQ).
+- **Serijinis numeris** – serijinis numeris nėra pateiktas ar nepatvirtintas serijiniuose elementuose, kurie reikalauja serijinio numerio registravimui inventoriuje.
+- **Vieta nenustatyta** – vieta nėra nustatyta vietos kontroliuojamam elementui, kuriame tuščia vieta nėra leidžiama.
+- **Panaikinti eilutes** – užsakymas turi aa komercijos štabo (HQ) naudotojo panaikintų eilučių, kurios yra nežinomos POS programai.
+
+Nustatykite **Įjungti automatinį patvirtinimą** parametrą į **Taip** **Prekybos parametruose** > **Atsargos** > **Atsargų laikymas** tam, kad patvirtinimas būtų įgyvendinamas automatiškai, kai **Pabaigtas gavimas** yra pasirinktas.
 
 ### <a name="finish-receiving"></a>Baigti gavimą
 

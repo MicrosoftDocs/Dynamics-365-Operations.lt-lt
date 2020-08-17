@@ -3,7 +3,7 @@ title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norint turėti prieigą prie šių charakteristikų, turi būti įjungta nauja tinklelio funkcija.
 author: jasongre
 manager: AnnBe
-ms.date: 06/04/2020
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 88a4e2fe69000f8034729d468ad5fd108d435c3e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: b1dd5e852bdc116d0848687782c930b19eae7900
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431365"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651695"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -128,20 +128,47 @@ Norėdami, kad sistema atpažintų vertę kaip išraišką, paleiskite reikšmę
 
 Visi vėlesni vartotojo seansai prasidės įjungus naują tinklelio valdiklį.
 
+## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Kūrėjas] Individualių puslapių pasirinkimas naudojant naują tinklelį 
+Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudodama naują tinklelį, API yra prieinama tam, kad leistų individualiai formuoti naudojant ankstesnio tinklelio valdymą ir leidžiant jūsų sistemos likusiai daliai naudoti naujo tinklelio valdymą. Individualaus puslapio rodymui iš naujojo tinklelio, įtraukite tolesnius skambinimo viešinimus `super()` formos `run()` metode.
+
+        this.forceLegacyGrid();
+
+API bus palaikoma iki 2021 m. spalio mėn. išleidimo, kai naujo tinklelio valdymas taps privalomas. Prašome pranešti visas problemas „Microsoft“, kurios reikalauja naudoti šį API. 
+
 ## <a name="known-issues"></a>Žinomos problemos
 Šiame skyriuje pateikimas žinomų problemų, susijusių su nauju tinklelio valdikliu, kai funkcija yra peržiūros būsenoje, sąrašas.  
 
 ### <a name="open-issues"></a>Atviros problemos
+-  Įjungus **Naujo tinklelio valdymo** funkciją, kai kurie puslapiai ir toliau naudos esamą tinklelio valdymą. Tai atsitiks esant tokiai situacijai:  
+    -  Kortelės sąrašas egzistuoja puslapyje, kuris yra apdorojamas daugelyje stulpelių.
+    -  Grupuotų kortelių sąrašas egzistuoja puslapyje.
+    -  Tinklelio stulpelis su ne reaktyviu išplečiamu valdymu.
 
-- Kortelių sąrašai, kurie buvo vaizduojami kaip keli stulpeliai, dabar vaizduojami kaip vienas stulpelis.
-- Sugrupuoti sąrašai nėra vaizduojami kaip grupės arba atskiruose stulpeliuose.
+    Kai vartotojas pirmą kartą susiduria su viena iš šių situacijų, bus rodomas pranešimas dėl puslapio atnaujinimo. Šiai žinutei pasirodžius, puslapis ir toliau naudos esamą tinklelį visiems naudotojams iki kitos produkto naujinimo versijos. Geresnis šių scenarijų valdymas taip, kad naujas tinklelis gali būti naudojamas, bus svarstomas tolesniuose naujinimuose.     
 
 ### <a name="fixed-as-part-of-10013"></a>10.0.13 pataisymai
 
-> [!NOTE]
-> Tolesnė informacija pateikiama, kad galėtumėte atitinkamai planuoti. Daugiau informacijos apie tikslinį 10.0.13 versijos leidimų grafiką žr. [Paslaugų naujinimų pasiekiamumas](../../fin-ops/get-started/public-preview-releases.md).
-
-- [KB 4563317] Patarimai vaizdams nerodomi.
+-  [Bug 470173] Žymimi laukeliai neaktyviose eilutėse persijungia, kai balta erdvė laukelyje paspaudžiama.
+-  [Bug 474848] Pagerinta išankstinė peržiūra su nerodomais tinkleliais
+-  [Bug 474851] Hipersaitai ataskaitos grupės valdikliuose neveikia 
+-  [Bug 471777] Negali pasirinkti laukelių tinklelėje redagavimui ar mobilios programos sukūrimui
+-  [KB 4569441] Problemos su daugelio stulpelių kortelių sąrašų sukūrimu, patarimais ant paveikslėlių ir rodymo parinktimis kai kuriuose laukeliuose
+-  [KB 4575279] Ne visos pažymėtos eilutės yra pašalintos pagrindiniame žurnale
+-  [KB 4575233] Rodymo parinktys nėra atkuriamos perkėlus į kitą eilutę
+-  [KB 4571095] Produkto gavimo skelbimas atsitinka, kai netyčia paspaudžiamas „Enter“ klavišas (tinkamo puslapio nustatytojo veiksmo tvarkymas)
+-  [KB 4575437] Paieška su redaguojamais valdikliais netikėtai užsidaro
+-  [KB 4569418] Dublikuotų eilučių sukūrimas pristatymo tvarkaraščio formoje
+-  [KB 4575435] Pagerinta išankstinė peržiūra kartais išlieka, net jei pelės rodyklė nėra arti laukelio
+-  [KB 4575434] Paieška nefiltruoja, kai laukelis yra pakeistas
+-  [KB 4575430] Slaptažodžio vertės laukeliuose nėra maskuojamos tinklelyje
+-  [KB 4569438] „Apdorojimas sustojo dėl patvirtinimo problemos“ rodomas po eilučių sukūrimu nustačius tiekėjo perlaidas
+-  [KB 4569434] Teisinių subjektų atnaujinimas formuoja rezultatus keliuose įrašuose
+-  [KB 4575297] Fokusas ir toliau juda į užduoties įrašymo jusotą, kai redagavimo ar skirtukų sukūrimas vyksta tinklelyje
+-  [KB 4566773] Koregavimo perlaidos nerodomos kaip neigiamos kupono perlaidų užklausoje 
+-  [KB 4575288] Fokusas panaikina aktyvią eilutę pasirinkus liniją tarp eilučių pavyzdiniame sąraše
+-  [KB 4575287] Fokusas negrįžtą į pirmą eilutę naudojant apatinę rodyklę, kuria sukuriama nauja eilutę žurnaluose
+-  [KB 4564819] Negali panaikinti eilučių laisvo teksto sąskaitoje (dėl duomenų šaltinio ChangeGroupMode=ImplicitInnerOuter)
+-  [KB 4563317] Patarimai ar pagerinta išankstinė peržiūra paveikslėliams nėra rodoma
 
 ### <a name="fixed-as-part-of-10012"></a>10.0.12 pataisymai
 
@@ -158,6 +185,7 @@ Visi vėlesni vartotojo seansai prasidės įjungus naują tinklelio valdiklį.
 - [KB 4562647] Kai nauja eilutė įtraukiama į saugos vaidmenų tinklelį, dėmesio centras iš naujo perkeliamas į pirmąjį valdiklį dialogo lange **Publikavimas**.
 - [KB 4563310] Pakeitus eilutę, patobulinta peržiūra neuždaroma.
 - [KB 4563313] Kai peržvalgoje pasirenkama vertė, „Internet Explorer“ įvyksta „netikėta kliento klaida“.
+- [KB 4564557] Paieška ir iškrentantys meniu neatsidaro „Internet Explorer“
 - [KB 4563324] Naršymas neveikia po to, kai atidaroma darbo sritis **Personalo valdymas**.
 
 ### <a name="fixed-as-part-of-10011"></a>10.0.11 pataisymai

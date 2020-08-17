@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0efc2b50b080b769cb103d1519217517b8330668
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3478c4c2acb134df1c293c1c33f615595aeaadd0
+ms.sourcegitcommit: 3ae002804858f201297a729d03ec7eab8209be34
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429663"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "3628434"
 ---
 # <a name="view-team-and-company-calendars"></a>Komandos ir įmonių kalendorių peržiūra
 
@@ -33,15 +33,13 @@ Galite peržiūrėti komandos ir įmonės kalendorius „Dynamics 365 Human Reso
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Peržiūrėkite komandos kalendorių kaip darbuotojas
 
-1. Darbo srityje **Darbuotojo savitarna** pasirinkite **Mano komanda**.
-
-2. Pasirinkite **Atostogas ir neatvykimas**, tada pasirinkite **Peržiūrėti komandos kalendorių**.
+1. **Darbuotojo savitarnos** darbo srityje pasirinkite **Komandos nebuvimo kalendorius** skyriuje **Santrauka**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Peržiūrėkite komandos kalendorių kaip vadovas
 
 1. Darbo srityje **Darbuotojo savitarna** pasirinkite **Mano komanda**.
 
-2. Pasirinkite **Atostogas ir neatvykimas**, tada pasirinkite **Peržiūrėti komandos kalendorių**.
+2. Pasirinkite **Atostogos ar nebuvimas** ir tuomet pasirinkite **Peržiūrėti vadovo nebuvimo kalendorių**.
 
 Vadovai taip pat gali turėti prieigą prie komandos kalendoriaus skirtukuose **Laukiami mano komandos atostogų prašymai**, **Patvirtintos atostogos** ir **Atostogų užklausos**. 
 

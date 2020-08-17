@@ -3,7 +3,7 @@ title: Darbas su moduliais
 description: Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
 author: v-chgri
 manager: annbe
-ms.date: 01/31/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,19 +17,19 @@ ms.search.industry: ''
 ms.author: phinneyridge
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 769d6754fa944830b989d657e0dad9cc42212932
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025884"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646020"
 ---
 # <a name="work-with-modules"></a>Darbas su moduliais
 
-Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
-
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
+
+Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
 
 ## <a name="overview"></a>Peržiūrėti
 
@@ -42,8 +42,10 @@ Pagal numatytuosius nustatymus jūsų „Dynamics 365 Commerce“ svetainėje yr
 Kaip minėta anksčiau, kai kurie moduliai yra skirti laikyti antrinius modulius. Šie moduliai vadinami *konteineriais* ir leidžia naudoti įdėtųjų modulių hierarchijas. Konteinerio moduliai apima *vietas*. Vietos naudojamos antrinių modulių maketui ir paskirčiai konteineryje tvarkyti. Pavyzdys – pagrindinis puslapio konteinerio modulis (bet kurio puslapio aukščiausio lygio modulis), kuriame nustatytos kelios svarbios vietos.
 
 - Antraštės vieta
-- Pagrindinės dalies vieta
+- Papildomos antraštės vieta
+- Pagrindinė vieta
 - Poraštės vieta
+- Papildomos poraštės vieta
 
 Modulio kūrėjas apibrėžia šias vietas ir nustato, kuriuos antrinius modulius ir kiek antrinių modulių galima tiesiogiai įdėti jų viduje. Pavyzdžiui, antraštės vieta gali palaikyti tik vieną tipo **Antraštės modulis** modulį, o pagrindinės dalies vieta gali palaikyti neribotą skaičių bet kokio tipo modulių (išskyrus kitus puslapio konteinerio modulius).
 
@@ -51,7 +53,7 @@ Naudodami kūrimo įrankius puslapių autoriai neprivalo iš anksto žinoti, kur
 
 ## <a name="content-modules"></a>Turinio moduliai
 
-Turinio moduliuose yra turinio ir medijos elementų, pvz., teksto (pvz., antraščių, pastraipų ir saitų) arba turto nuorodų (pavyzdžiui, vaizdų, vaizdo įrašų ir PDF failų). Įprastų turinio modulių tipų pavyzdžiai – **Pagrindinė reklaminė juosta**, **Ypatybė** ir **Reklaminė juosta**. Šių trijų tipų moduliuose gali būti teksto arba medijos, ir jiems nereikia jokių antrinių modulių, kad kokią nors informaciją būtų galima padaryti matoma puslapyje.
+Turinio moduliuose yra turinio ir medijos elementų, pvz., teksto (pvz., antraščių, pastraipų ir saitų) arba turto nuorodų (pavyzdžiui, vaizdų, vaizdo įrašų ir PDF failų). Įprasto turinio modulio tipai apima turinio bloką, teksto bloką ir skatinančios reklamjuostės modulius. Šių trijų tipų moduliuose gali būti teksto arba medijos, ir jiems nereikia jokių antrinių modulių, kad kokią nors informaciją būtų galima padaryti matoma puslapyje.
 
 Dauguma įprastų, kasdienių puslapių ir turinio kūrimo užduočių apima turinio modulius, visų pirma todėl, kad šie moduliai apibrėžia faktinį turinį, kuris generuojamas jų pirminio konteinerio moduliuose. Yra daug turinio modulių ir jie paprastai yra paskutinės dalys, kurias įtrauksite į puslapio įdėtųjų modulių hierarchiją.
 
@@ -67,20 +69,20 @@ Tolesnėse procedūrose aprašoma, kaip įtraukti modulių arba juos pašalinti
 
 Norėdami modulį įtraukti į vietą arba konteinerį puslapyje, atlikite šiuos veiksmus.
 
-1. Struktūros srityje kairėje pasirinkite konteinerį arba vietą, į kuriuos galima įtraukti antrinį modulį.
+1. Išorinėje juostoje kairėje arba tiesiai pagrindinėje drobėje pasirinkite talpyklą ar vietą, į kurią galima įtraukti vaiko modulį.
 
     > [!NOTE]
-    > Modulių dizaino įrankyje nustatytas modulių, kuriuos galima įtraukti į konkrečią modulio vietą, tipų sąrašas. Tada šablonų autoriai gali patikslinti leidžiamų modulių parinktis, kad būtų užtikrintas visų puslapių, kurie kuriami naudojant konkretų šabloną, nuoseklus ieškos modulio optimizavimas (SEO) ir kūrimo efektyvumas.
+    > Modulių dizaino įrankyje nustatytas modulių, kuriuos galima įtraukti į konkrečią modulio vietą, tipų sąrašas. Šablono autoriai tuomet gali išdirbti leidžiamas modulio parinktis tam, kad padėtų užtikrinti nuoseklų ieškos variklio optimizavimą (SEO) ir leidžiamą efektyvumą puslapiams, kurie yra sukurti pagal specialų šabloną. Įtraukdami modulį į vietą,**Modulio įtraukimas** teksto laukelis automatiškai filtruojamas taip, kad rodytų tik pasirinktoje talpykloje ar vietoje palaikomus modulius. Šis leidžiamų modulių sąrašas yra sudaromas puslapio šablone arba talpyklos modulio apraše.
 
-1. Pasirinkite modulio daugtaškio mygtuką (**...**), tada pasirinkite **Įtraukti modulį**. Rodomas dialogo langas **Įtraukti modulį**. Šis dialogo langas automatiškai filtruojamas taip, kad jame būtų rodomi tik tie moduliai, kurie palaikomi pasirinktame konteineryje arba vietoje. Modulių sąrašas nustatomas pagal puslapio šabloną arba konteinerio modulio aprašą.
+1. Jei naudojate išorės juostą, pasirinkite elipsę (**...**) šalia modulio pavadinimo ir tuomet pasirinkite **Įtraukti modulį**. Jei naudojate valdiklius tiesiogiai drobėje, pasirinkite pliuso simbolį (**+**) tuščioje vietoje ar adjacente prie šiuo metu pasirinkto modulio ir tuomet pasirinkite **Įtraukti modulį**.
 
     > [!NOTE]
     > Jei konteineris arba vieta nepalaiko naujų antrinių modulių, parinktis **Įtraukti modulį** nepasiekiama.
 
-1. Dialogo lange raskite ir pasirinkite modulį, kurį norite įtraukti į puslapį.
+1. **Įtraukti modulį** teksto laukelyje pasirinkite modulį įtraukimui į jūsų puslapį.
 
     > [!TIP]
-    > **Ypatybės** ir **Pagrindinės reklaminės juostos** modulių tipai yra tinkami pradedantiesiems.
+    > **Turinio blokavimas** yra geras modulio tipas pradedantiems su juo dirbti.
 
 1. Pasirinkite **Gerai**, kad pasirinktą modulį įtrauktumėte į pasirinktą konteinerį arba vietą jūsų puslapyje.
 
@@ -88,8 +90,35 @@ Norėdami modulį įtraukti į vietą arba konteinerį puslapyje, atlikite šiuo
 
 Norėdami modulį pašalinti iš vietos arba konteinerio puslapyje, atlikite šiuos veiksmus.
 
-1. Struktūros srityje kairėje šalia modulio, kurį norite pašalinti, pavadinimo pasirinkite daugtaškio mygtuką, tada pasirinkite šiukšliadėžės mygtuką.
-1. Kai būsite paraginti patvirtinti, kad norite pašalinti modulį, pasirinkite **Gerai**.
+1. Išorinėje jusotoje lairėje, pasirinkite elipsę (**...**) šalia šalinamo modulio pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį. Kitu atveju, pagrindinėje drobėje galite pasirinkti fragmentą šiukšlių dėžės simbolį pasirinkto modulio įrankių juostoje.
+1. Kai esate paskatinti patvirtinti, ar norite pašalinti modulį, pasirinkite **Gerai**.
+
+## <a name="move-a-module-to-a-new-position"></a>Perkelkite modulį į naują padėtį
+
+Modulio perkėlimui į naują padėtį puslapyje, naudokite bet kurį iš tolesnių metodų.
+
+### <a name="move-a-module-using-the-outline-pane"></a>Perkelkite modulį naudodami išorės juostą
+
+Modulio perkėlimui naudojant išorės juostą, atlikite šiuos žingsnius.
+
+1. Pasirinkite ir laikykite norimą perkelti modulį išorės juostoje, tada tempkite modulį į naują padėtį išorėje. Mėlyna linija išorėje ir drobėje rodo, kur modulis gali būti padėtas.
+1. Atleiskite modulį jo numetimui į naują vietą.
+
+### <a name="move-a-module-directly-within-the-canvas"></a>Kelkite modulį tiesiai drobėje
+
+Modulio perkėlimui tiesiai drobėje, atlikite šiuos žingsnius.
+
+1. Pasirinkite modulį, kurį norite kelti drobėje. 
+1. Pasirinkite vieną iš į viršų ar apačią rodančių rodyklių simbolių modulio įrankių juostoje ir tuomet tempkite rodyklę į naują padėtį puslapyje. Mėlyna linija išorėje ir drobėje rodo, kur modulis gali būti padėtas. Jei modulis negali būti judinamas aukštyn ar žemyn, rodyklės simbolis bus papilkėjęs. 
+1. Atleiskite modulį jo numetimui į naują vietą.
+
+### <a name="move-a-module-using-the-ellipsis-menu"></a>Perkelkite modulį naudodami elipsės meniu
+
+Modulio perkėlimui naudojant elipsės meniu, atlikite šiuos žingsnius.
+
+1. Pasirinkite modulį išorėje ar drobėje.
+1. Pasirinkite elipsę (**...**) šalia modulio pavadinimo išorės juostoje arba modulio įrankių juostoje drobėje.
+1. Jei modulis gali būti judinamas aukštyn ar žemyne konteineryje ar vietoje, matysime parinktis **Judinti aukštyn** ar **Judinti žemyn**. Pasirinkite norimą judesio parinktį modulio judinimui aukštyn ar žemyn pagal jo gimines.
 
 ## <a name="configure-modules"></a>Modulių konfigūravimas
 
@@ -99,10 +128,28 @@ Tolesnėse procedūrose aprašoma, kaip konfigūruoti turinio ir konteinerio mod
 
 Norėdami konfigūruoti turinio modulį puslapyje, atlikite šiuos veiksmus.
 
-1. Kairėje pusėje esančioje struktūros srityje išplėskite medžio struktūrą ir pasirinkite bet kurį turinio modulį (pvz., **Ypatybė**, **Pagrindinė reklaminė juosta** arba **Reklaminė juosta**).
-1. Dešinėje pusėje esančioje ypatybių srityje raskite modulio turinio ir parametrų valdiklius.
-1. Įveskite visų pageidaujamų modulio valdiklių ypatybes.
-1. Komandų juostoje pasirinkite **Įrašyti**. Tai padarius, taip pat bus atnaujinta peržiūros drobė.
+1. Išorės juostoje kairėje, išplėskite medį ir pasirinkite bet kurį turinio modulį (pavyzdžiui, **Turinio blokavimą**). Kitu atveju, galite pasirinkti modulį pagrindinėje drobėje.
+1. Modulio parametrų juostoje dešinėje, įveskite parametrus bet kuriems norimo modulio valdikliams.
+1. Komandų juostoje, pasirinkite **Įrašyti**. Tai padarius, taip pat bus atnaujinta peržiūros drobė.
+
+### <a name="edit-module-text-properties"></a>Redaguokite modulio teksto parametrus
+
+Tik skaitymui neskirti modulio teksto parametrai gali būti tiesiai redaguojami drobėje.
+
+Modulio teksto parametrų redagavimui, atlikite tolesnius veiksmus.
+
+1. Pasirinkite teksto valdiklį drobėje, tuomet padėkite savo rodyklę ten, kur norite redaguoti tekstą.
+1. Įveskite teksto turinį.
+1. Pasirinkite bet kur už teksto turinio ribų tam, kad tęstumėte kito turinio redagavimą.
+
+### <a name="inline-image-selection"></a>Eilutės paveikslėlio pasirinkimas
+
+Tik skaitymui neskirti modulio paveikslėliai parametrai gali būti tiesiai keičiami drobėje.
+
+Tam, kad pasirinktumėte naują modulio turinio paveikslėlį, atlikite šiuos žingsnius.
+
+1. Dukart spustelėję drobėje ant paveikslėlio. Tai atidarys medijos pasirinkimo langą.
+1. Suraskite ir pasirinkite naują jūsų norimą naudoti paveikslėlį ir tuomet pasirinkite **Gerai**. Naujas paveikslėlis dabar bus rodomas drobėje.
 
 ### <a name="configure-a-container-module"></a>Konteinerio modulio konfigūravimas
 

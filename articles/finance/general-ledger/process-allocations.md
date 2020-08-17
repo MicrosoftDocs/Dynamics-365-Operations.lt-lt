@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32271e967da2e7f3702b0c6c2dcdba460aa1b382
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4c8216ebdd1f26601743e6b35849be0813d06b4a
+ms.sourcegitcommit: 4676ea9646fa1a182103ecab93e78a69001f0b8d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770625"
+ms.lasthandoff: 07/21/2020
+ms.locfileid: "3612667"
 ---
 # <a name="process-allocations"></a>Paskirstymų apdorojimas
 
@@ -34,8 +34,8 @@ ms.locfileid: "2770625"
 Šis procesas palaiko toliau pateikiamas galimybes.
 
 -   Rankiniu būdu paskirstykite operacijų sumas apskaitos paskirstymuose naudodami skaidymo veiksmą arba dokumentui pritaikydami finansinės dimensijos numatytuosius šablonus. Daugiau informacijos žr. [Apskaitos paskirstymai](../accounts-payable/accounting-distributions.md).
--   Automatiškai paskirstykite operacijų sumas pagal paskirstymo sąlygas, nurodytas atskiroje pagrindinėje sąskaitoje. Paskirstymo sąskaitos įrašai kiekvienam žurnalui bus generuojami pagal procentinę dalį ir paskirties DK sąskaitą, kai apskaitos įrašas atitiks kriterijus, apibrėžtus kaip pirminė DK sąskaita.
--   Automatiškai paskirstykite DK balansus arba fiksuotas sumas pagal DK paskirstymo taisykles. DK paskirstymo taisyklės apdorojamos periodiškai, naudojant paskirstymo žurnalus. 
+-   Automatiškai paskirstykite operacijų sumas pagal paskirstymo sąlygas, nurodytas atskiroje pagrindinėje sąskaitoje. Paskirstymo sąskaitos įrašai kiekvienam žurnalui bus generuojami pagal procentinę dalį ir paskirties DK sąskaitą, kai apskaitos įrašas atitiks kriterijus, apibrėžtus kaip pirminė DK sąskaita. Dėl platesnės informacijos, žr. [Pagrindinės paskyros paskirstymo sąlygas](../general-ledger/main-account-allocation-terms.md)
+-   Automatiškai paskirstykite DK balansus arba fiksuotas sumas pagal DK paskirstymo taisykles. DK paskirstymo taisyklės apdorojamos periodiškai, naudojant paskirstymo žurnalus. Norėdami gauti daugiau informacijos, žr. [Paskirstymo taisykles](../general-ledger/ledger-allocation-rules.md).
 
 ###  <a name="allocations-in-budget-planning"></a>Biudžeto planavimo paskirstymai
 
@@ -43,8 +43,4 @@ DK paskirstymo taisykles galima naudoti biudžeto planams. Kai DK paskirstymo ta
 
 > [!NOTE]
 > Biudžetui planuoti negalima naudoti vidinės įmonės DK paskirstymo taisyklių.
-
-
-
-
 
