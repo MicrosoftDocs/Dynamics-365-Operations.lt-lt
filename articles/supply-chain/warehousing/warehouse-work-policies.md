@@ -1,252 +1,302 @@
 ---
-title: Sandėlio darbo strategijų apžvalga
-description: Sandėlio darbo strategijos kontroliuoja, ar sandėlio darbą kuria gamybos sandėlio procesai, remdamiesi darbo užsakymo tipu, atsargų vieta ir produktu.
-author: johanhoffmann
+title: Darbo strategijos
+description: Šis skyrius paaiškina, kaip nustatyti darbo politikas.
+author: perlynne
 manager: tfehr
-ms.date: 07/25/2019
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
-ms.custom: 196561
-ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
-ms.search.industry: Manufacturing
-ms.author: johanho
-ms.search.validFrom: 2016-05-31
-ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3fe22a92b445abbf6d1dcc67ead878db3f80d532
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.author: perlynne
+ms.search.validFrom: 2020-07-31
+ms.dyn365.ops.version: Release 10.0.13
+ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204567"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652010"
 ---
-# <a name="warehouse-work-policies-overview"></a><span data-ttu-id="77325-103">Sandėlio darbo strategijų apžvalga</span><span class="sxs-lookup"><span data-stu-id="77325-103">Warehouse work policies overview</span></span>
+# <a name="work-policies"></a><span data-ttu-id="a42e0-103">Darbo strategijos</span><span class="sxs-lookup"><span data-stu-id="a42e0-103">Work policies</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="77325-104">Sandėlio darbo strategijos kontroliuoja, ar sandėlio darbą kuria gamybos sandėlio procesai, remdamiesi darbo užsakymo tipu, atsargų vieta ir produktu.</span><span class="sxs-lookup"><span data-stu-id="77325-104">Warehouse work policies control whether warehouse work is created by warehouse processes in manufacturing, based on work order type, inventory location, and product.</span></span>
+<span data-ttu-id="a42e0-104">Šis skyrius paaiškina, kaip nustatyti sistemos ir sandėlio programą taip, kad ji palaikytų darbo politikas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-104">This topic explains how to set up the system and the warehouse app so that they support work policies.</span></span> <span data-ttu-id="a42e0-105">Galite naudoti šią funkciją, kad greitai priregistruotumėte inventorių be kūrimo atidedamo darbo kūrimo, kai gaunate įsigijimo ar perdavimo užsakymus arba kai pabaigiate gamybos procesus.</span><span class="sxs-lookup"><span data-stu-id="a42e0-105">You can use this functionality to quickly register inventory without creating putaway work when you receive purchase or transfer orders, or when you complete manufacturing processes.</span></span> <span data-ttu-id="a42e0-106">Ši tema pateikia bendrą informaciją.</span><span class="sxs-lookup"><span data-stu-id="a42e0-106">This topic provides general information.</span></span> <span data-ttu-id="a42e0-107">Dėl išsamesnės informacijos, susijusios su licencijos numerio gavimu, žr. [Licencijos numerį gaunamą per sandėlio programą](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="a42e0-107">For detailed information that is related to license plate receiving, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
 
-<span data-ttu-id="77325-105">Ši darbo strategija nustato, ar kuriamas gamybos sandėlio procesų sandėlio darbas.</span><span class="sxs-lookup"><span data-stu-id="77325-105">This work policy controls whether warehouse work is created for warehouse processes in manufacturing.</span></span> <span data-ttu-id="77325-106">Galite nustatyti darbo strategiją naudodami **darbo užsakymų tipų**, **atsargų vietos** ir **produkto** derinį.</span><span class="sxs-lookup"><span data-stu-id="77325-106">You can set up the work policy by using a combination of **work order types**, an **inventory location**, and a **product**.</span></span> <span data-ttu-id="77325-107">Pavyzdžiui, produktas L0101 paskelbtas pagamintu išeigos vietoje 001.</span><span class="sxs-lookup"><span data-stu-id="77325-107">For example, product L0101 is reported as finished to output location 001.</span></span> <span data-ttu-id="77325-108">Vėliau pagaminta prekė panaudojama vykdant kitą gamybos užsakymą išeigos vietoje 001.</span><span class="sxs-lookup"><span data-stu-id="77325-108">The finished good is later consumed in another production order at output location 001.</span></span> <span data-ttu-id="77325-109">Šiuo atveju galite nustatyti darbo strategiją, kurią taikant bei produktą L0101 paskelbus pagamintu išeigos vietoje 001 nebus sukuriamas pagamintų prekių sandėliavimo darbas.</span><span class="sxs-lookup"><span data-stu-id="77325-109">In this case, you can set up a work policy to prevent the work for finished goods put-away from being created when you report product L0101 as finished to output location 001.</span></span> <span data-ttu-id="77325-110">Darbo strategija yra atskiras objektas, kurį galima apibrėžti naudojant tolesnę informaciją.</span><span class="sxs-lookup"><span data-stu-id="77325-110">The work policy is an individual entity that can be described through the following information:</span></span>
+<span data-ttu-id="a42e0-108">Darbo politika valdo, ar sandėlio darbas yra kuriamas, kai ataskaitoje pagamintas elementas yra paskelbiamas baigtu, ar kai prekės yra gaunamos naudojant sandėlio programą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-108">A work policy controls whether warehouse work is created when a manufactured item is reported as finished, or when goods are received by using the warehouse app.</span></span> <span data-ttu-id="a42e0-109">Jūs nustatote visas darbo politikas nustatydami sąlygas, kai jos yra taikomos: darbo užsakymo tipai ir procesai, inventoriaus vieta ir (pasirinktinai) gaminiai.</span><span class="sxs-lookup"><span data-stu-id="a42e0-109">You set up each work policy by defining the conditions where it applies: the work order types and processes, the inventory location, and (optionally) the products.</span></span> <span data-ttu-id="a42e0-110">Pavyzdžiui, produkto įsigjimo užsakymas *A0001* turi būti gaunamas *RECV* vietoje sandėlyje *24*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-110">For example, a purchase order for product *A0001* must be received in location *RECV* in warehouse *24*.</span></span> <span data-ttu-id="a42e0-111">Vėliau, produktas vartojamas kitame procese *RECV* vietoje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-111">Later, the product is consumed in another process at location *RECV*.</span></span> <span data-ttu-id="a42e0-112">Šiuo atveju, galite nustatyti darbo politiką siekiant apsaugoti atidedamą darbą nuo sukūrimo, kai darbuotojas praneša apie produktą *A0001* kaip gautą vietoje *RECV*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-112">In this case, you can set up a work policy to prevent putaway work from being created when a worker reports product *A0001* as received in location *RECV*.</span></span>
 
--   <span data-ttu-id="77325-111">**Darbo strategijos pavadinimas**(unikalus darbo strategijos identifikatorius)</span><span class="sxs-lookup"><span data-stu-id="77325-111">**Work policy name** (the unique identifier of the work policy)</span></span>
--   <span data-ttu-id="77325-112">**Darbo užsakymų tipai** ir **Darbo kūrimo metodas**</span><span class="sxs-lookup"><span data-stu-id="77325-112">**Work order types** and **Work creation method**</span></span>
--   <span data-ttu-id="77325-113">**Atsargų vietos**</span><span class="sxs-lookup"><span data-stu-id="77325-113">**Inventory locations**</span></span>
--   <span data-ttu-id="77325-114">**Produktai.**</span><span class="sxs-lookup"><span data-stu-id="77325-114">**Products**</span></span>
+> [!NOTE]
+> - <span data-ttu-id="a42e0-113">Tam, kad darbo politika būtų aktyvi, privalote nustatyti mažiausiai vieną jai vietą **Inventoriaus vietose** **Darbo politikų** puslapyje  „FastTab“.</span><span class="sxs-lookup"><span data-stu-id="a42e0-113">For a work policy to be active, you must define at least one location for it on the **Inventory locations** FastTab of the **Work policies** page.</span></span> 
+> - <span data-ttu-id="a42e0-114">Negalite nurodyti tos pačios kelių darbo strategijų vietos.</span><span class="sxs-lookup"><span data-stu-id="a42e0-114">You can't specify the same location for multiple work policies.</span></span>
+> - <span data-ttu-id="a42e0-115">**Spausdinti etiketęl** parinktis mobilaus prietaiso meniu elementams neatspausdins licencijos numerio etiketės, nebent darbas bus sukurtas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-115">The **Print label** option for mobile device menu items won't print a license plate label unless work was created.</span></span>
 
-## <a name="work-order-types"></a><span data-ttu-id="77325-115">Darbo užsakymo tipai</span><span class="sxs-lookup"><span data-stu-id="77325-115">Work order types</span></span>
-<span data-ttu-id="77325-116">Galite rinktis iš tolesnių darbo užsakymų tipų.</span><span class="sxs-lookup"><span data-stu-id="77325-116">You can select the following work order types:</span></span>
+## <a name="activate-the-features-in-your-system"></a><span data-ttu-id="a42e0-116">Įjungti funkcijas jūsų sistemoje</span><span class="sxs-lookup"><span data-stu-id="a42e0-116">Activate the features in your system</span></span>
 
--   <span data-ttu-id="77325-117">Baigtos prekės atidėtos</span><span class="sxs-lookup"><span data-stu-id="77325-117">Finished goods put away</span></span>
--   <span data-ttu-id="77325-118">Sudėtinis produktas ir šalutinis produktas atidėti</span><span class="sxs-lookup"><span data-stu-id="77325-118">Co-product and by-product put away</span></span>
--   <span data-ttu-id="77325-119">Žaliavų paėmimas</span><span class="sxs-lookup"><span data-stu-id="77325-119">Raw material picking</span></span>
+<span data-ttu-id="a42e0-117">Tam, kad visos šioje temoje aprašytus funkcijos būtų prieinamos jūsų sistemoje, įjunkite tolesnes dvi funkcijas [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span><span class="sxs-lookup"><span data-stu-id="a42e0-117">To make all the functionality that is described in this topic available in your system, turn on the following two features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):</span></span>
 
-<span data-ttu-id="77325-120">Lauke **Darbo kūrimo metodas** nustatyta reikšmė **Niekada**.</span><span class="sxs-lookup"><span data-stu-id="77325-120">The **Work creation method** field has the value **Never**.</span></span> <span data-ttu-id="77325-121">Ši reikšmė nurodo, kad darbo strategija neleis sandėlyje kurti pasirinkto darbo užsakymo tipo darbo.</span><span class="sxs-lookup"><span data-stu-id="77325-121">This value indicates that the work policy will prevent warehouse work from being created for the selected work order type.</span></span>
+- <span data-ttu-id="a42e0-118">Numerio lentelės gavimas patobulinimai</span><span class="sxs-lookup"><span data-stu-id="a42e0-118">License plate receiving enhancements</span></span>
+- <span data-ttu-id="a42e0-119">Gaunamo darbo strategijos patobulinimai</span><span class="sxs-lookup"><span data-stu-id="a42e0-119">Work policy enhancements for inbound work</span></span>
 
-## <a name="inventory-locations"></a><span data-ttu-id="77325-122">Atsargų vietos</span><span class="sxs-lookup"><span data-stu-id="77325-122">Inventory locations</span></span>
-<span data-ttu-id="77325-123">Galite pasirinkti vietą, kuriai darbo strategija taikoma.</span><span class="sxs-lookup"><span data-stu-id="77325-123">You can select a location that the work policy applies to.</span></span> <span data-ttu-id="77325-124">Jei su darbo strategija nesusiejama jokia vieta, darbo strategija netaikoma jokiam procesui.</span><span class="sxs-lookup"><span data-stu-id="77325-124">If no location is associated with a work policy, the work policy doesn’t apply to any processes.</span></span> <span data-ttu-id="77325-125">Puslapyje **Vietos** galite pažymėti arba atžymėti tam tikros vietos darbo strategiją.</span><span class="sxs-lookup"><span data-stu-id="77325-125">On the **Locations** page, you can also select or cancel the selection of the work policy for a specific location.</span></span>
+## <a name="the-work-policies-page"></a><span data-ttu-id="a42e0-120">Darbo politikų puslapis</span><span class="sxs-lookup"><span data-stu-id="a42e0-120">The Work policies page</span></span>
 
-## <a name="products"></a><span data-ttu-id="77325-126">Produktai</span><span class="sxs-lookup"><span data-stu-id="77325-126">Products</span></span>
-<span data-ttu-id="77325-127">Galite pasirinkti produktą, kuriam darbo strategija taikoma.</span><span class="sxs-lookup"><span data-stu-id="77325-127">You can select a product that the work policy applies to.</span></span> <span data-ttu-id="77325-128">Darbo strategiją galite taikyti visiems produktams arba pasirinktiems produktams.</span><span class="sxs-lookup"><span data-stu-id="77325-128">You can apply the work policy to either all products or selected products.</span></span>
+<span data-ttu-id="a42e0-121">Darbo politikų nustatymui, eikite į **Darbo valdymas \> Parametrai \> Darbas \> Darbo politikos**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-121">To set up work policies, go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span> <span data-ttu-id="a42e0-122">Tuomet, kiekviename „FastTab“ nustatykite laukus, kaip aprašyta tolesniuose papildomuose skyriuose.</span><span class="sxs-lookup"><span data-stu-id="a42e0-122">Then, on each FastTab, set the fields as described in the following subsections.</span></span>
 
-## <a name="example"></a><span data-ttu-id="77325-129">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="77325-129">Example</span></span>
-<span data-ttu-id="77325-130">Šiame pavyzdyje nurodyti du gamybos užsakymai, PRD-001 ir PRD-00*2*.</span><span class="sxs-lookup"><span data-stu-id="77325-130">In the following example, there are two production orders, PRD-001 and PRD-00*2*.</span></span> <span data-ttu-id="77325-131">Gamybos užsakymui PRD-001 priskirta operacija, pavadinimu **Surinkimas**, kurioje produktas SC1 yra paskelbiamas baigtu vietoje O1.</span><span class="sxs-lookup"><span data-stu-id="77325-131">Production order PRD-001 has an operation that is named **Assembly**, where product SC1 is being reported as finished to location O1.</span></span> <span data-ttu-id="77325-132">Gamybos užsakymui PRD-002 priskirta operacija, pavadinimu **Dažymas**, ir ją vykdant naudojamas produktas SC1 iš vietos O1.</span><span class="sxs-lookup"><span data-stu-id="77325-132">Production order PRD-002 has an operation that is named **Painting** and consumes product SC1 from location O1.</span></span> <span data-ttu-id="77325-133">Gamybos užsakymas PRD-002 taip pat naudoja žaliavas RM1 iš vietos O1.</span><span class="sxs-lookup"><span data-stu-id="77325-133">Production order PRD-002 also consumes raw material RM1 from location O1.</span></span> <span data-ttu-id="77325-134">RM1 saugomos sandėlio vietoje BULK-001 ir bus paimtos bei perkeltos į vietą O1, naudojant žaliavų paėmimo sandėlio darbą.</span><span class="sxs-lookup"><span data-stu-id="77325-134">RM1 is stored in warehouse location BULK-001 and will be picked to location O1 by warehouse work for raw material picking.</span></span> <span data-ttu-id="77325-135">Paėmimo darbas yra generuojamas, kai bus paleidžiama gamyba PRD-002.</span><span class="sxs-lookup"><span data-stu-id="77325-135">The picking work is generated when production PRD-002 is released.</span></span> 
+### <a name="the-work-order-types-fasttab"></a><span data-ttu-id="a42e0-123">Darbo užsakkymo tipai „FastTab“</span><span class="sxs-lookup"><span data-stu-id="a42e0-123">The Work order types FastTab</span></span>
 
-<span data-ttu-id="77325-136">[![Sandėlio darbo strategijos](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="77325-136">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span> 
+<span data-ttu-id="a42e0-124">**Darbo užsakymo tipai** „FastTab“, įtraukite visus darbo užsakymo tipus ir susijusius darbo procesus, kuriuose taiko darbo politika.</span><span class="sxs-lookup"><span data-stu-id="a42e0-124">On the **Work order types** FastTab, add all the work order types, and the related work processes, that the work policy applies to.</span></span> <span data-ttu-id="a42e0-125">Tolesni darbo užsakymo tipai ir susiję darbo procesai palaikomi darbo politikose.</span><span class="sxs-lookup"><span data-stu-id="a42e0-125">The following work order types and related work processes are supported for work policies.</span></span>
 
-<span data-ttu-id="77325-137">Kai šiuo atveju planuojate konfigūruoti sandėlio darbo strategiją, turėtumėte atsižvelgti į tolesnę informaciją.</span><span class="sxs-lookup"><span data-stu-id="77325-137">When you plan to configure a warehouse work policy for this scenario, you should consider the following information:</span></span>
+| <span data-ttu-id="a42e0-126">Darbo užsakymo tipas</span><span class="sxs-lookup"><span data-stu-id="a42e0-126">Work order type</span></span> | <span data-ttu-id="a42e0-127">Darbo procesas</span><span class="sxs-lookup"><span data-stu-id="a42e0-127">Work process</span></span> |
+|---|---|
+| <span data-ttu-id="a42e0-128">Žaliavų paėmimas</span><span class="sxs-lookup"><span data-stu-id="a42e0-128">Raw material picking</span></span>| <span data-ttu-id="a42e0-129">Visi susiję procesai</span><span class="sxs-lookup"><span data-stu-id="a42e0-129">All related processes</span></span> |
+| <span data-ttu-id="a42e0-130">Sudėtinis produktas ir šalutinis produktas atidėti</span><span class="sxs-lookup"><span data-stu-id="a42e0-130">Co-product and by-product put away</span></span> | <span data-ttu-id="a42e0-131">Visi susiję procesai</span><span class="sxs-lookup"><span data-stu-id="a42e0-131">All related processes</span></span> |
+| <span data-ttu-id="a42e0-132">Baigtos atidedamos prekės</span><span class="sxs-lookup"><span data-stu-id="a42e0-132">Finished goods putaway</span></span> | <span data-ttu-id="a42e0-133">Visi susiję procesai</span><span class="sxs-lookup"><span data-stu-id="a42e0-133">All related processes</span></span> |
+| <span data-ttu-id="a42e0-134">Perkelti gavimą</span><span class="sxs-lookup"><span data-stu-id="a42e0-134">Transfer receipt</span></span> | <span data-ttu-id="a42e0-135">Gaunamas licencijos ženklas (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-135">License plate receiving (and putaway)</span></span> |
+| <span data-ttu-id="a42e0-136">Pirkimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="a42e0-136">Purchase orders</span></span> | <ul><li><span data-ttu-id="a42e0-137">Gaunamas licencijos ženklas (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-137">License plate receiving (and putaway)</span></span></li><li><span data-ttu-id="a42e0-138">Gaunamas kraunamas elementas (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-138">Load item receiving (and putaway)</span></span></li><li><span data-ttu-id="a42e0-139">Įsigijimo užsakymo eilutė (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-139">Purchase order line receiving (and putaway)</span></span></li><li><span data-ttu-id="a42e0-140">Gaunamas įsigijimo užsakymo elementas  (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-140">Purchase order item receiving (and putaway)</span></span></li></ul> |
 
--   <span data-ttu-id="77325-138">Sandėlio darbas, skirtas pagamintoms prekėms atidėti, nėra būtinas, kai produktą SC1 skelbiate baigtu iš gamybos užsakymo PRD-001 į vietą O1.</span><span class="sxs-lookup"><span data-stu-id="77325-138">Warehouse work for finished goods put-away isn’t required when you report product SC1 as finished from production order PRD-001 to location O1.</span></span> <span data-ttu-id="77325-139">Tai yra todėl, kad gamybos užsakymo PRD-002 operacija **dažymo** naudoja SC1 toje pačioje vietoje.</span><span class="sxs-lookup"><span data-stu-id="77325-139">This is because the **Painting** operation for production order PRD-002 consumes SC1 at the same location.</span></span>
--   <span data-ttu-id="77325-140">Žaliavų paėmimo sandėlio darbas yra būtinas, norint žaliavas RM1 perkelti iš sandėlio vietos BULK-001 į vietą O1.</span><span class="sxs-lookup"><span data-stu-id="77325-140">Warehouse work for raw material picking is required in order to move raw material RM1 from warehouse location BULK-001 to location O1.</span></span>
+<span data-ttu-id="a42e0-141">Darbo politikos nustatymui, kuri taikoma keliems to paties darbo užsakymo tipo darbo procesams, įtraukite atskirą eilutę kiekvienam darbo procesui tinklelyje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-141">To set up a work policy so that it applies to several work processes of the same work order type, add a separate line for each work process to the grid.</span></span>
 
-<span data-ttu-id="77325-141">Čia pateikiamas darbo strategijos, kurią galite nustatyti atsižvelgdami į šiuos aspektus, pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="77325-141">Here is an example of the work policy that you can set up, based on these considerations.</span></span>
+<span data-ttu-id="a42e0-142">Kiekviena tinklelio linijai, nustatykite **Darbo sukūrimo metodo** lauką viename iš tolesnių verčių:</span><span class="sxs-lookup"><span data-stu-id="a42e0-142">For each line in the grid, set the **Work creation method** field to one of the following values:</span></span>
 
+- <span data-ttu-id="a42e0-143">**Niekada** – Darbo politika apsaugos sandėlio darbą nuo sukūrimo pasirinkta, darbo užsakymo tipui ir susijusiam darbo procesui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-143">**Never** – The work policy will prevent warehouse work from being created for the selected work order type and related work process.</span></span>
+- <span data-ttu-id="a42e0-144">**Kryžminis skirstymas** – Darbo politika sukurs kryžminio skirstymo darbą naudodama politiką, kurią pasirenkate **Kryžminio skirstymo politikos pavadinimas** laukelyje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-144">**Cross docking** – The work policy will create cross-docking work by using the policy that you select in the **Cross docking policy name** field.</span></span>
 
-|                                       |                                       |
-|---------------------------------------|---------------------------------------|
-| <span data-ttu-id="77325-142"><strong>Darbo strategijos pavadinimas</strong></span><span class="sxs-lookup"><span data-stu-id="77325-142"><strong>Work policy name</strong></span></span><br> | <span data-ttu-id="77325-143"><strong>Darbo užsakymo tipai</strong></span><span class="sxs-lookup"><span data-stu-id="77325-143"><strong>Work order types</strong></span></span><br> |
-|         <span data-ttu-id="77325-144">Sandėliavimo darbo nėra 01     \`</span><span class="sxs-lookup"><span data-stu-id="77325-144">No put away 01     \`</span></span>          |     <span data-ttu-id="77325-145">- Pagamintų prekių sandėliavimas</span><span class="sxs-lookup"><span data-stu-id="77325-145">- Finished good put away</span></span><br>      |
-|                                       |    <span data-ttu-id="77325-146"><strong>Vietos</strong></span><span class="sxs-lookup"><span data-stu-id="77325-146"><strong>Locations</strong></span></span><br>     |
-|                                       |                 <span data-ttu-id="77325-147">- O1</span><span class="sxs-lookup"><span data-stu-id="77325-147">- O1</span></span>                  |
-|                                       |    <span data-ttu-id="77325-148"><strong>Produktai</strong></span><span class="sxs-lookup"><span data-stu-id="77325-148"><strong>Products</strong></span></span> <br>     |
-|                                       |                 <span data-ttu-id="77325-149">- SC1</span><span class="sxs-lookup"><span data-stu-id="77325-149">- SC1</span></span>                 |
+### <a name="the-inventory-locations-fasttab"></a><span data-ttu-id="a42e0-145">Inventoriaus vietos „FastTab“</span><span class="sxs-lookup"><span data-stu-id="a42e0-145">The Inventory locations FastTab</span></span>
 
-<span data-ttu-id="77325-150">Tolesnėse procedūrose pateikiamos nuoseklios instrukcijos apie tai, kaip nustatyti šio scenarijaus sandėlio darbo strategijos.</span><span class="sxs-lookup"><span data-stu-id="77325-150">The following procedures provide step-by-step instructions about how to set up the warehouse work policy for this scenario.</span></span> <span data-ttu-id="77325-151">Taip pat aprašytas sąrankos pavyzdinis, kuriuo parodoma, kaip gamybos užsakymą skelbti baigtus vietoje, kuri nėra kontroliuojama pagal numerio lentelę.</span><span class="sxs-lookup"><span data-stu-id="77325-151">A sample setup showing how to report a production order as finished to a location that isn’t license plate–controlled is also described.</span></span>
+<span data-ttu-id="a42e0-146">**Inventoriaus vietos** „FastTab“, įtraukite visas vietas, kuriose ši darbo politika turi būti taikoma.</span><span class="sxs-lookup"><span data-stu-id="a42e0-146">On the **Inventory locations** FastTab, add all the locations where this work policy should be applied.</span></span> <span data-ttu-id="a42e0-147">Jei nėra susijusios jokios vietos su darbo politika, darbo politika nebus taikoma jokiems procesams.</span><span class="sxs-lookup"><span data-stu-id="a42e0-147">If no location is associated with a work policy, the work policy won't be applied to any process.</span></span>
 
-## <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="77325-152">Sandėlio darbo strategijos nustatymas</span><span class="sxs-lookup"><span data-stu-id="77325-152">Set up a warehouse work policy</span></span>
-<span data-ttu-id="77325-153">Sandėlio procesai ne visada apima sandėlio darbą.</span><span class="sxs-lookup"><span data-stu-id="77325-153">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="77325-154">Apibrėždami darbo strategiją, galite neleisti konkrečiose vietose kurti tam tikro produktų rinkinio žaliavų paėmimo ir pagamintų prekių padėjimo darbo.</span><span class="sxs-lookup"><span data-stu-id="77325-154">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="77325-155">Kuriant šią procedūrą naudota demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="77325-155">The USMF demo data company was used to create this procedure.</span></span> 
+<span data-ttu-id="a42e0-148">Negalite nurodyti tos pačios kelių darbo strategijų vietos.</span><span class="sxs-lookup"><span data-stu-id="a42e0-148">You can't specify the same location for multiple work policies.</span></span>
 
-<span data-ttu-id="77325-156">VEIKSMAI (21)</span><span class="sxs-lookup"><span data-stu-id="77325-156">STEPS (21)</span></span>
+<span data-ttu-id="a42e0-149">Galite naudoti sandėli vietą, kurią priskyrėte į vietos profilį, kai **Naudojamas licencijos numerio sekimas** prinktis yra išjungta.</span><span class="sxs-lookup"><span data-stu-id="a42e0-149">You can use a warehouse location that is assigned to a location profile where the **Use license plate tracking** option is turned off.</span></span> <span data-ttu-id="a42e0-150">Tokiu atveju, darbuotojai tiesiogiai registruos turimą inventorių.</span><span class="sxs-lookup"><span data-stu-id="a42e0-150">In this case, workers will directly register the on-hand inventory.</span></span>
 
-|     |                                                                            |
-|-----|----------------------------------------------------------------------------|
-| <span data-ttu-id="77325-157">1.</span><span class="sxs-lookup"><span data-stu-id="77325-157">1.</span></span>  | <span data-ttu-id="77325-158">Eikite į Sandėlio valdymas &gt; Nustatymas &gt; Darbas &gt; Darbo strategijos.</span><span class="sxs-lookup"><span data-stu-id="77325-158">Go to Warehouse management &gt; Setup &gt; Work &gt; Work policies.</span></span>        |
-| <span data-ttu-id="77325-159">2.</span><span class="sxs-lookup"><span data-stu-id="77325-159">2.</span></span>  | <span data-ttu-id="77325-160">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="77325-160">Click New.</span></span>                                                                 |
-| <span data-ttu-id="77325-161">3.</span><span class="sxs-lookup"><span data-stu-id="77325-161">3.</span></span>  | <span data-ttu-id="77325-162">Lauke Darbo strategijos pavadinimas įveskite „Atidėjimo darbo nėra‟.</span><span class="sxs-lookup"><span data-stu-id="77325-162">In the Work policy name field, type 'No put-away work'.</span></span>                    |
-| <span data-ttu-id="77325-163">4.</span><span class="sxs-lookup"><span data-stu-id="77325-163">4.</span></span>  | <span data-ttu-id="77325-164">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="77325-164">Click Save.</span></span>                                                                |
-| <span data-ttu-id="77325-165">5.</span><span class="sxs-lookup"><span data-stu-id="77325-165">5.</span></span>  | <span data-ttu-id="77325-166">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="77325-166">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="77325-167">6.</span><span class="sxs-lookup"><span data-stu-id="77325-167">6.</span></span>  | <span data-ttu-id="77325-168">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="77325-168">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="77325-169">7.</span><span class="sxs-lookup"><span data-stu-id="77325-169">7.</span></span>  | <span data-ttu-id="77325-170">Lauke Darbo užsakymo tipas pasirinkite Baigtos prekės atidėtos.</span><span class="sxs-lookup"><span data-stu-id="77325-170">In the Work order type field, select 'Finished goods put away'.</span></span>            |
-| <span data-ttu-id="77325-171">8.</span><span class="sxs-lookup"><span data-stu-id="77325-171">8.</span></span>  | <span data-ttu-id="77325-172">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="77325-172">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="77325-173">9.</span><span class="sxs-lookup"><span data-stu-id="77325-173">9.</span></span>  | <span data-ttu-id="77325-174">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="77325-174">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="77325-175">10.</span><span class="sxs-lookup"><span data-stu-id="77325-175">10.</span></span> | <span data-ttu-id="77325-176">Lauke Darbo užsakymo tipas pasirinkite Sudėtinis produktas ir šalutinis produktas atidėti.</span><span class="sxs-lookup"><span data-stu-id="77325-176">In the Work order type field, select 'Co-product and by-product put away'.</span></span> |
-| <span data-ttu-id="77325-177">11.</span><span class="sxs-lookup"><span data-stu-id="77325-177">11.</span></span> | <span data-ttu-id="77325-178">Išplėskite dalį Atsargų vietos.</span><span class="sxs-lookup"><span data-stu-id="77325-178">Expand the Inventory locations section.</span></span>                                    |
-| <span data-ttu-id="77325-179">12.</span><span class="sxs-lookup"><span data-stu-id="77325-179">12.</span></span> | <span data-ttu-id="77325-180">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="77325-180">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="77325-181">13.</span><span class="sxs-lookup"><span data-stu-id="77325-181">13.</span></span> | <span data-ttu-id="77325-182">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="77325-182">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="77325-183">14.</span><span class="sxs-lookup"><span data-stu-id="77325-183">14.</span></span> | <span data-ttu-id="77325-184">Sandėlių sąraše įveskite „51‟.</span><span class="sxs-lookup"><span data-stu-id="77325-184">In the Warehouse list, enter '51'.</span></span>                                         |
-| <span data-ttu-id="77325-185">15.</span><span class="sxs-lookup"><span data-stu-id="77325-185">15.</span></span> | <span data-ttu-id="77325-186">Lauke Vieta įveskite arba pasirinkite „001‟.</span><span class="sxs-lookup"><span data-stu-id="77325-186">In the Location field, enter or select '001'.</span></span>                              |
-| <span data-ttu-id="77325-187">16.</span><span class="sxs-lookup"><span data-stu-id="77325-187">16.</span></span> | <span data-ttu-id="77325-188">Išplėskite sekciją Produktai.</span><span class="sxs-lookup"><span data-stu-id="77325-188">Expand the Products section.</span></span>                                               |
-| <span data-ttu-id="77325-189">17.</span><span class="sxs-lookup"><span data-stu-id="77325-189">17.</span></span> | <span data-ttu-id="77325-190">Lauke Produktų pasirinkimas pasirinkite Pasirinkta.</span><span class="sxs-lookup"><span data-stu-id="77325-190">In the Product selection field, select 'Selected'.</span></span>                         |
-| <span data-ttu-id="77325-191">18.</span><span class="sxs-lookup"><span data-stu-id="77325-191">18.</span></span> | <span data-ttu-id="77325-192">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="77325-192">Click Add.</span></span>                                                                 |
-| <span data-ttu-id="77325-193">19.</span><span class="sxs-lookup"><span data-stu-id="77325-193">19.</span></span> | <span data-ttu-id="77325-194">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="77325-194">In the list, mark the selected row.</span></span>                                        |
-| <span data-ttu-id="77325-195">20.</span><span class="sxs-lookup"><span data-stu-id="77325-195">20.</span></span> | <span data-ttu-id="77325-196">Lauke Prekės numeris įveskite arba pasirinkite „L0101‟.</span><span class="sxs-lookup"><span data-stu-id="77325-196">In the Item number field, enter or select 'L0101'.</span></span>                         |
-| <span data-ttu-id="77325-197">21.</span><span class="sxs-lookup"><span data-stu-id="77325-197">21.</span></span> | <span data-ttu-id="77325-198">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="77325-198">Click Save.</span></span>                                                                |
+### <a name="the-products-fasttab"></a><span data-ttu-id="a42e0-151">Produktų „FastTab“</span><span class="sxs-lookup"><span data-stu-id="a42e0-151">The Products FastTab</span></span>
 
-## <a name="report-a-production-order-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="77325-199">Gamybos užsakymo skelbimas baigtu vietoje, kuri nėra kontroliuojama pagal numerio lentelę</span><span class="sxs-lookup"><span data-stu-id="77325-199">Report a production order as finished to a location that isn’t license plate–controlled</span></span>
-<span data-ttu-id="77325-200">Šioje procedūroje parodytas skelbimo baigtu vietoje, kuri nėra kontroliuojama pagal numerio lentelę, pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="77325-200">This procedure shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="77325-201">Norint atlikti šią užduotį, būtina tinkama darbo strategija.</span><span class="sxs-lookup"><span data-stu-id="77325-201">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="77325-202">Kaip nustatyti darbo strategiją, parodyta ankstesnėje procedūroje.</span><span class="sxs-lookup"><span data-stu-id="77325-202">The previous procedure shows the setup of the work policy.</span></span> 
+<span data-ttu-id="a42e0-152">**Produktų** skirtuke, nustatykite **Produkto pasirinkimo** laukelį siekiant valdyti, kurie produktai politikai turi būti taikomi:</span><span class="sxs-lookup"><span data-stu-id="a42e0-152">On the **Products** tab, set the **Product selection** field to control which products the policy should apply to:</span></span>
 
-<span data-ttu-id="77325-203">VEIKSMAI (25)</span><span class="sxs-lookup"><span data-stu-id="77325-203">STEPS (25)</span></span>
+- <span data-ttu-id="a42e0-153">**Visi** – Politika turi būti taikoma visiems produktams.</span><span class="sxs-lookup"><span data-stu-id="a42e0-153">**All** – The policy should apply to all products.</span></span>
+- <span data-ttu-id="a42e0-154">**Pasirinkta** – Politika turi būti taikoma tik produktams, esantiems tinklelyje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-154">**Selected** – The policy should apply only to products that are listed in the grid.</span></span> <span data-ttu-id="a42e0-155">Naudokite įrankių juostą **Produktus** „FastTab“ siekiant įtraukti produktus į tinklelį ar pašalinti juos iš tinklelio.</span><span class="sxs-lookup"><span data-stu-id="a42e0-155">Use the toolbar on the **Products** FastTab to add products to the grid or remove them from the grid.</span></span>
 
-<table>
-<tbody>
-<tr>
-<td colspan="3"><span data-ttu-id="77325-204"><strong>Antrinė užduotis: išeigos vietos nustatymas.</strong></span><span class="sxs-lookup"><span data-stu-id="77325-204"><strong>Sub-task: Set up an output location.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="77325-205">Eikite į Organizacijos administravimas &gt; Ištekliai &gt; Išteklių grupės.</span><span class="sxs-lookup"><span data-stu-id="77325-205">Go to Organization administration &gt; Resources &gt; Resource groups.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="77325-206">Sąraše pasirinkite išteklių grupę &#39;5102&#39;.</span><span class="sxs-lookup"><span data-stu-id="77325-206">In the list, select resource group &#39;5102&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="77325-207">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="77325-207">Click Edit.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="77325-208">Lauke Išeigos sandėlis įveskite &#39;51&#39;.</span><span class="sxs-lookup"><span data-stu-id="77325-208">In the Output warehouse field, enter &#39;51&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="77325-209">Lauke Išeigos vieta įveskite &#39;001&#39;.</span><span class="sxs-lookup"><span data-stu-id="77325-209">In the Output location field, enter &#39;001&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="77325-210">001 vieta nėra kontroliuojama pagal numerio lentelę.</span><span class="sxs-lookup"><span data-stu-id="77325-210">Location 001 isn&#39;t a license plate–controlled location.</span></span> <span data-ttu-id="77325-211">Ne pagal numerio lentelę kontroliuojamą išeigos vietą galite nustatyti tik jei yra tinkama vietos darbo strategija.</span><span class="sxs-lookup"><span data-stu-id="77325-211">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span></td>
-</tr>
-<tr>
-<td colspan="3"><span data-ttu-id="77325-212"><strong>Antrinė užduotis: gamybos užsakymo sukūrimas ir jo skelbimas baigtu.</strong></span><span class="sxs-lookup"><span data-stu-id="77325-212"><strong>Sub-task: Create a production order and report it as finished.</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>1.</td>
-<td><span data-ttu-id="77325-213">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="77325-213">Close the page.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>2.</td>
-<td><span data-ttu-id="77325-214">Eikite į Gamybos kontrolė &gt; Gamybos užsakymai &gt; Visi gamybos užsakymai.</span><span class="sxs-lookup"><span data-stu-id="77325-214">Go to Production control &gt; Production orders &gt; All production orders.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>3.</td>
-<td><span data-ttu-id="77325-215">Spustelėkite Naujas gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="77325-215">Click New production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>4.</td>
-<td><span data-ttu-id="77325-216">Lauke Prekės numeris įveskite &#39;L0101&#39;.</span><span class="sxs-lookup"><span data-stu-id="77325-216">In the Item number field, enter &#39;L0101&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>5.</td>
-<td><span data-ttu-id="77325-217">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="77325-217">Click Create.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>6.</td>
-<td><span data-ttu-id="77325-218">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="77325-218">On the Action Pane, click Production order.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>7.</td>
-<td><span data-ttu-id="77325-219">Spustelėkite Įvertinti.</span><span class="sxs-lookup"><span data-stu-id="77325-219">Click Estimate.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>8.</td>
-<td><span data-ttu-id="77325-220">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="77325-220">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>9.</td>
-<td><span data-ttu-id="77325-221">Spustelėkite Pradėti.</span><span class="sxs-lookup"><span data-stu-id="77325-221">Click Start.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>10.</td>
-<td><span data-ttu-id="77325-222">Spustelėkite skirtuką Bendra.</span><span class="sxs-lookup"><span data-stu-id="77325-222">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>11.</td>
-<td><span data-ttu-id="77325-223">Lauke Automatinis KS suvartojimas pasirinkite &#39;Niekada&#39;.</span><span class="sxs-lookup"><span data-stu-id="77325-223">In the Automatic BOM consumption field, select &#39;Never&#39;.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>12.</td>
-<td><span data-ttu-id="77325-224">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="77325-224">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>13.</td>
-<td><span data-ttu-id="77325-225">Spustelėkite Paskelbti baigtu.</span><span class="sxs-lookup"><span data-stu-id="77325-225">Click Report as finished.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>14.</td>
-<td><span data-ttu-id="77325-226">Spustelėkite skirtuką Bendra.</span><span class="sxs-lookup"><span data-stu-id="77325-226">Click the General tab.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>15.</td>
-<td><span data-ttu-id="77325-227">Lauke Leisti klaidą pasirinkite Taip.</span><span class="sxs-lookup"><span data-stu-id="77325-227">Select Yes in the Accept error field.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>16.</td>
-<td><span data-ttu-id="77325-228">Spustelėkite Gerai.</span><span class="sxs-lookup"><span data-stu-id="77325-228">Click OK.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>17.</td>
-<td><span data-ttu-id="77325-229">Veiksmų srityje spustelėkite Sandėlis.</span><span class="sxs-lookup"><span data-stu-id="77325-229">On the Action Pane, click Warehouse.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>18.</td>
-<td><span data-ttu-id="77325-230">Spustelėkite Darbo informacija.</span><span class="sxs-lookup"><span data-stu-id="77325-230">Click Work details.</span></span></td>
-</tr>
-<tr>
-<td></td>
-<td>19.</td>
-<td><span data-ttu-id="77325-231">Kai gamybos užsakymas buvo paskelbtas baigtu, nebuvo sugeneruota jokio padėjimo darbo.</span><span class="sxs-lookup"><span data-stu-id="77325-231">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="77325-232">Taip nutinka, nes yra apibrėžta darbo strategija, pagal kurią negalima generuoti darbo, kai produktas L0101 paskebiamas baigtu 001 vietoje.</span><span class="sxs-lookup"><span data-stu-id="77325-232">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span></td>
-</tr>
-</tbody>
-</table>
+## <a name="default-and-custom-to-locations"></a><span data-ttu-id="a42e0-156">Nustatytosios ir pasirinktos „į“ vietos</span><span class="sxs-lookup"><span data-stu-id="a42e0-156">Default and custom "to" locations</span></span>
 
+> [!NOTE]
+> <span data-ttu-id="a42e0-157">Tam, kad šiame skyriuje aprašyta funkcija būtų jūsų sistemoje, turite įjungti *Licencijos ženklo gavimo įtraukimus* ir *Darbo politikos įtraukimą į vidinius darbus* funkcijas[Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="a42e0-157">To make the functionality that is described in this section available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
 
+<span data-ttu-id="a42e0-158">Anksčiau sistema palaikė tik numatytąją vietą, nurodytą kiekvienam sandėliui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-158">Previously, the system supported receiving only at the default location that is defined for each warehouse.</span></span> <span data-ttu-id="a42e0-159">Nepaisant to, mobilaus prietaiso meniu elementai naudoja tolesnius darbo sukūrimo procesus dabar suteiks **Naudokite nustatytuosius duomenis** parinktį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-159">However, mobile device menu items that use the following work creation processes now provide the **Use default data** option.</span></span> <span data-ttu-id="a42e0-160">Ši parinktis leidžia jums priskirti pasirinktą „į“ vietą į vieną ar keletą meniu elementų.</span><span class="sxs-lookup"><span data-stu-id="a42e0-160">This option lets you assign a custom "to" location to one or more menu items.</span></span> <span data-ttu-id="a42e0-161">(Šią pasirinktį jau buvo galima naudoti kai kuriuose kituose meniu elementų tipuose.)</span><span class="sxs-lookup"><span data-stu-id="a42e0-161">(This option was already available for some other types of menu items.)</span></span>
 
+- <span data-ttu-id="a42e0-162">Gaunamas licencijos ženklas (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-162">License plate receiving (and putaway)</span></span>
+- <span data-ttu-id="a42e0-163">Gaunamas kraunamas elementas (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-163">Load item receiving (and putaway)</span></span>
+- <span data-ttu-id="a42e0-164">Įsigijimo užsakymo eilutė (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-164">Purchase order line receiving (and putaway)</span></span>
+- <span data-ttu-id="a42e0-165">Gaunamas įsigijimo užsakymo elementas  (ir atidėjimas)</span><span class="sxs-lookup"><span data-stu-id="a42e0-165">Purchase order item receiving (and putaway)</span></span>
+
+<span data-ttu-id="a42e0-166">**Į vietą** parametrai meniu elemente viršija nustatytąją gaunamą vietą sandėlyje, visiems užsakymams, kurie yra apdorojami naudojant tą meniu elementą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-166">The **To location** setting for a menu item overrides the default receiving location for the warehouse, for all orders that are processed by using that menu item.</span></span>
+
+<span data-ttu-id="a42e0-167">Mobilaus prietaiso meniu elemento nustatymui, kuris palaiko gaunamą tinkintą vietą, atlikite šiuos žingsnius.</span><span class="sxs-lookup"><span data-stu-id="a42e0-167">To set up a mobile device menu item to support receiving at a custom location, follow these steps.</span></span>
+
+1. <span data-ttu-id="a42e0-168">Eikite į **Sandėlio valdymas \> Sąranka \> Mobilusis įrenginys \> Mobiliojo įrenginio meniu elementai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-168">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="a42e0-169">Pasirinkite arba sukurkite meniu elementą, kuris naudoja vieną iš darbo sukūrimo procesų aprašytų anksčiau šiame skyriuje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-169">Select or create a menu item that uses one of the work creation processes that are listed earlier in this section.</span></span>
+1. <span data-ttu-id="a42e0-170">**Bendras** „FastTab“, nustatykite **Naudokite nustatytuosius duomenis** parinktį į **Taip**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-170">On the **General** FastTab, set the **Use default data** option to **Yes**.</span></span>
+1. <span data-ttu-id="a42e0-171">Veiksmų juostoje, pasirinkite **Nustatytieji duomenys**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-171">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="a42e0-172">Skirtuke **Nystatytieji duomenis** puslapis, nustatykite tolesnes reikšmes:</span><span class="sxs-lookup"><span data-stu-id="a42e0-172">On the **Default data** page, set the following values:</span></span>
+
+    - <span data-ttu-id="a42e0-173">**Nustatytųjų duomenų laukelis:** Nustatykite šį laukelį į *Į vietą*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-173">**Default data field:** Set this field to *To location*.</span></span>
+    - <span data-ttu-id="a42e0-174">**Sandėlis:** Pasirinkite sandėlio paskirtį naudojamą su šiuo meniu elementu.</span><span class="sxs-lookup"><span data-stu-id="a42e0-174">**Warehouse:** Select the destination warehouse to use with this menu item.</span></span>
+    - <span data-ttu-id="a42e0-175">**Vieta:** Šis laukelis išvardyja visas vietų ID, kurie yra prieinami pasirinktam sandėliui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-175">**Location:** This field lists all the location IDs that are available for the selected warehouse.</span></span> <span data-ttu-id="a42e0-176">Nepaisant to, šio laukelio paremtrai neturi jokio poveikio.</span><span class="sxs-lookup"><span data-stu-id="a42e0-176">However, the setting of this field doesn't actually have any effect.</span></span> <span data-ttu-id="a42e0-177">Dėl to, galite palikti jį tuščią.</span><span class="sxs-lookup"><span data-stu-id="a42e0-177">Therefore, you can leave it blank.</span></span> <span data-ttu-id="a42e0-178">Nepaisant to, galite naudoti sąrašą patvirtinimui, kad ID, kurį privalote įvesti **Kietai užkoduotų verčių** laukelyje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-178">Nevertheless, you can use the list to confirm the ID that you must enter in the **Hardcoded value** field.</span></span>
+    - <span data-ttu-id="a42e0-179">**Kietai užkoduota vertė:** Įveskite vietos ID gaunamai vietai, kuri taikoma šiam meniu elementui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-179">**Hardcoded value:** Enter the location ID for the receiving location that applies to this menu item.</span></span>
+
+> [!TIP]
+> <span data-ttu-id="a42e0-180">Darbo politika gali būti taikoma tik, jei visos gaunamos vietos yra išvardytos atitinkamame darbo politikos nustatyme.</span><span class="sxs-lookup"><span data-stu-id="a42e0-180">A work policy can be applied only if all the receiving locations are listed in the relevant work policy setup.</span></span> <span data-ttu-id="a42e0-181">Šis reikalavimas taikomas nepriklausomai nuo to, ar naudojate nustatytąją sandėlio gavimo vietą ar tinkintą „į“ vietą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-181">This requirement applies regardless of whether you're using the default warehouse receiving location or a custom "to" location.</span></span>
+
+## <a name="example-scenario-warehouse-receiving"></a><span data-ttu-id="a42e0-182">Pavyzdinis scenarijus: Sandėlio gavimas</span><span class="sxs-lookup"><span data-stu-id="a42e0-182">Example scenario: Warehouse receiving</span></span>
+
+<span data-ttu-id="a42e0-183">Visi produktai gauti *Prekybos užsakymo prekės gavime (ir atidėti)* procesu turi būti registruoti vietoje *FL-001* ir jie turi būti prieinami sandėlyje*24*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-183">All products that are received by the *Purchase order item receiving (and putaway)* process must be registered in location *FL-001*, and they must be available in warehouse *24*.</span></span> <span data-ttu-id="a42e0-184">Nepaisant to, darbas neturi būti kuriamas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-184">However, work should not be created.</span></span> <span data-ttu-id="a42e0-185">Visais kitais procesais gauti produktai (tai yra, naudojant kito mobilaus prietaiso meniu elementus) turi būti registruojami nustatytame sandėlyje gaunant vietą (*RECV*) ir darbas turi būti kuriamas kaip įprasta.</span><span class="sxs-lookup"><span data-stu-id="a42e0-185">Products that are received by any other process (that is, by using other mobile device menu items) should be registered at the default warehouse receiving location (*RECV*), and work should be created as usual.</span></span> <span data-ttu-id="a42e0-186">(Šis scenarijus nerodo nustatytojo gauto nustatymo.)</span><span class="sxs-lookup"><span data-stu-id="a42e0-186">(This scenario doesn't show the default receiving setup.)</span></span>
+
+<span data-ttu-id="a42e0-187">Šis scenarijus reikalauja tolesnių elementų:</span><span class="sxs-lookup"><span data-stu-id="a42e0-187">This scenario requires the following elements:</span></span>
+
+- <span data-ttu-id="a42e0-188">Darbo politika *Įsigijimo užsakymo elemento gavimas (ir atidėjimas)* procesas vietoje *FL-001* visiems produktams</span><span class="sxs-lookup"><span data-stu-id="a42e0-188">A work policy for the *Purchase order item receiving (and putaway)* process in location *FL-001*, for all products</span></span>
+- <span data-ttu-id="a42e0-189">Mobilaus prietaiso meniu elementas turintis nustatytuosius duomenis ir kuris nustato **Į vietą** laukelį į *FL-001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-189">A mobile device menu item that has default data, and that sets the **To location** field to *FL-001*</span></span>
+
+### <a name="prerequisites"></a><span data-ttu-id="a42e0-190">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="a42e0-190">Prerequisites</span></span>
+
+<span data-ttu-id="a42e0-191">Tam, kad šiame skyriuje aprašytas scenarijus būtų jūsų sistemoje, turite įjungti *Licencijos ženklo gavimo įtraukimus* ir *Darbo politikos įtraukimą į vidinius darbus* funkcijas[Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span><span class="sxs-lookup"><span data-stu-id="a42e0-191">To make the functionality that is described in this scenario available in your system, you must turn on the *License plate receiving enhancements* and *Work policy enhancements for inbound work* features in [Feature management](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).</span></span>
+
+<span data-ttu-id="a42e0-192">Šis scenarijus naudoja standartinius demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="a42e0-192">This scenario uses the standard demo data.</span></span> <span data-ttu-id="a42e0-193">Dėl to, jei norite dirbti su scenarijumi naudojant čia pateiktas vertes, įsitikinkite, privalote dirbti su sistema, kurioje demonstraciniai duomenys yra įdiegti.</span><span class="sxs-lookup"><span data-stu-id="a42e0-193">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="a42e0-194">Taip pat, turite pasirinkti **USMF** juridinį subjektą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-194">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-work-policy"></a><span data-ttu-id="a42e0-195">Nustatyti darbo politiką</span><span class="sxs-lookup"><span data-stu-id="a42e0-195">Set up a work policy</span></span>
+
+1. <span data-ttu-id="a42e0-196">Eikite į **Sandėlio valdymą \> Nustatymai \> Darbas \> Darbo politikos**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-196">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="a42e0-197">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-197">Select **New**.</span></span>
+1. <span data-ttu-id="a42e0-198">**Darbo politikos pavadinimas** laukelyje, įveskite *Jokio įsigijimo elemento atidėjimo darbas*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-198">In the **Work policy name** field, enter *No purchase item putaway work*.</span></span>
+1. <span data-ttu-id="a42e0-199">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-199">Select **Save**.</span></span>
+1. <span data-ttu-id="a42e0-200">**Darbo užsakymo tipai** „FastTab“, pasirinkite **Įtraukti** įtraukti eilutę į tinklelį ir tuomet nustatyti tolesnes vertes naujai eilutei:</span><span class="sxs-lookup"><span data-stu-id="a42e0-200">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="a42e0-201">**Darbo užsakymo tipas:** *Įsigijimo užsakymai*</span><span class="sxs-lookup"><span data-stu-id="a42e0-201">**Work order type:** *Purchase orders*</span></span>
+    - <span data-ttu-id="a42e0-202">**Darbo procesas:** *Įsigijimo užsakymo elementų gavimas (ir atidėjimas)*</span><span class="sxs-lookup"><span data-stu-id="a42e0-202">**Work process:** *Purchase order item receiving (and putaway)*</span></span>
+    - <span data-ttu-id="a42e0-203">**Darbo sukūrimo metodas:** *Niekuomet*</span><span class="sxs-lookup"><span data-stu-id="a42e0-203">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="a42e0-204">**Skirstymo doko politikos pavadinimas:** Palikite šį laukelį tuščią.</span><span class="sxs-lookup"><span data-stu-id="a42e0-204">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="a42e0-205">**Atsargų vietos** „FastTab“, pasirinkite **Įtraukti** įtraukti eilutę į tinklelį ir tuomet nustatyti tolesnes vertes naujai eilutei:</span><span class="sxs-lookup"><span data-stu-id="a42e0-205">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="a42e0-206">**Sandėlis:** *24*</span><span class="sxs-lookup"><span data-stu-id="a42e0-206">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="a42e0-207">**Vieta:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-207">**Location:** *FL-001*</span></span>
+
+1. <span data-ttu-id="a42e0-208">**Produktai** „FastTab“, nustatykite **Produkto pasirinkimas** laukelį į *Visi*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-208">On the **Products** FastTab, set the **Product selection** field to *All*.</span></span>
+1. <span data-ttu-id="a42e0-209">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-209">Select **Save**.</span></span>
+
+### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a><span data-ttu-id="a42e0-210">Mobiliojo įrenginio meniu elementas skirtas pakeisti gaunamą vietą</span><span class="sxs-lookup"><span data-stu-id="a42e0-210">Set up a mobile device menu item to change the receiving location</span></span>
+
+1. <span data-ttu-id="a42e0-211">Eikite į **Sandėlio valdymas \> Sąranka \> Mobilusis įrenginys \> Mobiliojo įrenginio meniu elementai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-211">Go to **Warehouse management \> Setup \> Mobile device \> Mobile device menu items**.</span></span>
+1. <span data-ttu-id="a42e0-212">Kairiojoje juostoje, pasirinkite esamą **Įsigijimo gavimo** meniu elementas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-212">In the left pane, select the existing **Purchase receive** menu item.</span></span>
+1. <span data-ttu-id="a42e0-213">**Bendras** „FastTab“, nustatykite **Naudokite nustatytuosius duomenis** parinktį į *Taip*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-213">On the **General** FastTab, set the **Use default data** option to *Yes*.</span></span>
+1. <span data-ttu-id="a42e0-214">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-214">Select **Save**.</span></span>
+1. <span data-ttu-id="a42e0-215">Veiksmų juostoje, pasirinkite **Nustatytieji duomenys**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-215">On the Action Pane, select **Default data**.</span></span>
+1. <span data-ttu-id="a42e0-216">**Nustatytieji duomenys** puslapyje, veiksmų juostoje pasirinkite **Naujas** siekiant įtraukti eilutę į tinklelį ir tuomet nustatyti tolesnes vertes naujai eilutei:</span><span class="sxs-lookup"><span data-stu-id="a42e0-216">On the **Default data** page, on the Action Pane, select **New** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="a42e0-217">**Nustatytųjų duomenų laukelis:** *Į vietą*</span><span class="sxs-lookup"><span data-stu-id="a42e0-217">**Default data field:** *To location*</span></span>
+    - <span data-ttu-id="a42e0-218">**Sandėlis:** *24*</span><span class="sxs-lookup"><span data-stu-id="a42e0-218">**Warehouse:** *24*</span></span>
+    - <span data-ttu-id="a42e0-219">**Vieta:** Palikite šį laukelį tuščią.</span><span class="sxs-lookup"><span data-stu-id="a42e0-219">**Location:** Leave this field blank.</span></span>
+    - <span data-ttu-id="a42e0-220">**Kietai užšifruota vertė:** *FL-001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-220">**Hardcoded value:** *FL-001*</span></span>
+
+1. <span data-ttu-id="a42e0-221">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-221">Select **Save**.</span></span>
+
+### <a name="receive-a-purchase-order-without-creating-work"></a><span data-ttu-id="a42e0-222">Gauti įsigijimo užsakymą be sukūrimo darbo</span><span class="sxs-lookup"><span data-stu-id="a42e0-222">Receive a purchase order without creating work</span></span>
+
+<span data-ttu-id="a42e0-223">Pavyzdys šiame skyriuje rodo, kaip gauti prekybos užsakymo elementą be kūrimo darbo vietoje, kuri skiriasi nuo pasirinktos gavimo vietos, kuri yra nustatyta sandėlyje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-223">The example in this section shows how to receive a purchase order item, but without creating work, at a location that differs from the default receiving location that is set up for the warehouse.</span></span> <span data-ttu-id="a42e0-224">Šis pavyzdys naudoja darbo politiką ir mobilaus prietaiso elementą, kurį sukūrėte anksčiau šiame scenarijuje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-224">This example uses the work policy and mobile device item that you created earlier in this scenario.</span></span>
+
+#### <a name="create-a-purchase-order"></a><span data-ttu-id="a42e0-225">Pirkimo užsakymo kūrimas</span><span class="sxs-lookup"><span data-stu-id="a42e0-225">Create a purchase order</span></span>
+
+1. <span data-ttu-id="a42e0-226">Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Visi pirkimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-226">Go to **Procurement and sourcing \> Purchase orders \> All purchase orders**.</span></span>
+1. <span data-ttu-id="a42e0-227">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-227">Select **New**.</span></span>
+1. <span data-ttu-id="a42e0-228">Dialogo lange **Sukurti pirkimo užsakymą** nustatykite šias vertes:</span><span class="sxs-lookup"><span data-stu-id="a42e0-228">In the **Create purchase order** dialog box, set the following values:</span></span>
+
+    - <span data-ttu-id="a42e0-229">**Pardavėjo paskyra:** *US-101*</span><span class="sxs-lookup"><span data-stu-id="a42e0-229">**Vendor account:** *US-101*</span></span>
+    - <span data-ttu-id="a42e0-230">**Vieta:** *2*</span><span class="sxs-lookup"><span data-stu-id="a42e0-230">**Site:** *2*</span></span>
+    - <span data-ttu-id="a42e0-231">**Sandėlis:** *24*</span><span class="sxs-lookup"><span data-stu-id="a42e0-231">**Warehouse:** *24*</span></span>
+
+1. <span data-ttu-id="a42e0-232">Pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį ir atidarytumėte naują įsigijimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-232">Select **OK** to close the dialog box and open the new purchase order.</span></span>
+1. <span data-ttu-id="a42e0-233">**Įsigijimo užsakymo linijos** „FastTab“, nustatykite tolesnes vertes tuščiai eilutei:</span><span class="sxs-lookup"><span data-stu-id="a42e0-233">On the **Purchase order lines** FastTab, set the following values for the empty row:</span></span>
+
+    - <span data-ttu-id="a42e0-234">**Prekės numeris:** *A0001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-234">**Item number:** *A0001*</span></span>
+    - <span data-ttu-id="a42e0-235">**Kiekis:** *1*</span><span class="sxs-lookup"><span data-stu-id="a42e0-235">**Quantity:** *1*</span></span>
+
+1. <span data-ttu-id="a42e0-236">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-236">Select **Save**.</span></span>
+1. <span data-ttu-id="a42e0-237">Pasižymėkite pirkimo užsakymo numerį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-237">Make a note of the purchase order number.</span></span>
+
+#### <a name="receive-a-purchase-order"></a><span data-ttu-id="a42e0-238">Gauti įsigijimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="a42e0-238">Receive a purchase order</span></span>
+
+1. <span data-ttu-id="a42e0-239">Mobiliame prietaise, prisijunkite prie sandėlio *24* naudodami *24* kaip vartotojo ID ir *1* kaip slaptažodį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-239">On the mobile device, sign in to warehouse *24* by using *24* as the user ID and *1* as the password.</span></span>
+1. <span data-ttu-id="a42e0-240">Pasirinkite **Viduje**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-240">Select **Inbound**.</span></span>
+1. <span data-ttu-id="a42e0-241">Pasirinkite **Įsigijimo gavimas**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-241">Select **Purchase receive**.</span></span> <span data-ttu-id="a42e0-242">**Vietos** laukelis turi būti nustatytas į *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-242">The **Location** field should be set to *FL-001*.</span></span>
+1. <span data-ttu-id="a42e0-243">Įveskite įsigijimo užsakymo numerį įsigijimo užsakymui, kurį sukūrėte ankstesnėje procedūroje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-243">Enter the purchase order number for the purchase order that you created in the previous procedure.</span></span>
+1. <span data-ttu-id="a42e0-244">**Elemento numerio** laukelyje, įveskite *A0001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-244">In the **Item number** field, enter *A0001*.</span></span>
+1. <span data-ttu-id="a42e0-245">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-245">Select **OK**.</span></span>
+1. <span data-ttu-id="a42e0-246">Lauke **Kiekis** įveskite *1*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-246">In the **Quantity** field, enter *1*.</span></span>
+1. <span data-ttu-id="a42e0-247">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-247">Select **OK**.</span></span>
+
+<span data-ttu-id="a42e0-248">Įsigijimo užsakymas dabar yra gaunamas, tačiau joks darbas su juo nesusiejamas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-248">The purchase order is now received, but no work is associated with it.</span></span> <span data-ttu-id="a42e0-249">Turimos atsargos buvo atnaujintos ir kiekis*1* elemento *A0001* dabar yra prieinamas vietoje *FL-001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-249">The on-hand inventory has been updated, and a quantity of *1* of item *A0001* is now available at location *FL-001*.</span></span>
+
+## <a name="example-scenario-manufacturing"></a><span data-ttu-id="a42e0-250">Pavyzdinis scenarijus: gamyba</span><span class="sxs-lookup"><span data-stu-id="a42e0-250">Example scenario: Manufacturing</span></span>
+
+<span data-ttu-id="a42e0-251">Tolesniame pavyzdyje, esama dviejų gamybos užsakymų, *PRD-001* ir *PRD-002*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-251">In the following example, there are two production orders, *PRD-001* and *PRD-002*.</span></span> <span data-ttu-id="a42e0-252">Gamybos užsakymas *PRD-001* turi operaciją pavadintą *Surinkimas*, kurioje gaminys *SC1* yra nusiunčiamas kaip baigtas į vietą *001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-252">Production order *PRD-001* has an operation that is named *Assembly*, where product *SC1* is being reported as finished to location *001*.</span></span> <span data-ttu-id="a42e0-253">Gamybos užsakymas *PRD-002* turi operaciją pavadintą *Dažymas* ir naudoja gaminį *SC1* iš vietos *001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-253">Production order *PRD-002* has an operation that is named *Painting* and consumes product *SC1* from location *001*.</span></span> <span data-ttu-id="a42e0-254">Gamybos užsakymas *PRD-002* taip pat naudoja žaliavas *RM1* iš vietos *001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-254">Production order *PRD-002* also consumes raw material *RM1* from location *001*.</span></span> <span data-ttu-id="a42e0-255">Žaliavos *RM1*yra laikomos sandėlio vietoje *BULK-001* ir bus paimtos į vietą *001* sandėlio darbui žaliavos medžiagos paėmimui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-255">Raw material *RM1* is stored in warehouse location *BULK-001* and will be picked to location *001* by warehouse work for raw material picking.</span></span> <span data-ttu-id="a42e0-256">Paėmimo darbas yra generuojamas, kai produkcija *PRD-002* išleidžiama.</span><span class="sxs-lookup"><span data-stu-id="a42e0-256">The picking work is generated when production *PRD-002* is released.</span></span>
+
+<span data-ttu-id="a42e0-257">[![Sandėlio darbo strategijos](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span><span class="sxs-lookup"><span data-stu-id="a42e0-257">[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)</span></span>
+
+<span data-ttu-id="a42e0-258">Jums planuojant konfigūruoti sandėlio darbo politiką šiame scenarijui, turėtumėte apsvarstyti tolesnius aspektus:</span><span class="sxs-lookup"><span data-stu-id="a42e0-258">When you're planning to configure a warehouse work policy for this scenario, you should consider the following points:</span></span>
+
+- <span data-ttu-id="a42e0-259">Sandėlio darbas baigtų prekių atidėjimui nereikalaujamas, kai jūs darote ataskaitą apie *SC1* produktą kaip baigtą iš prekybos užsakymo *PRD-001* į vietą *001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-259">Warehouse work for putaway of finished goods isn't required when you report product *SC1* as finished from production order *PRD-001* to location *001*.</span></span> <span data-ttu-id="a42e0-260">Tai yra dėl to, kad *Dažymo* veiksmas gamybos užsakymui *PRD-002* vartoja produktą*SC1* toje pačioje vietoje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-260">The reason is that the *Painting* operation for production order *PRD-002* consumes product *SC1* at the same location.</span></span>
+- <span data-ttu-id="a42e0-261">Sandėlio darbas žaliavos medžiagos paėmimui būtinas tam, kad būtų judinamos žaliavų medžiagos *RM1* iš sandėlio vietos *BULK-001* į vietą *001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-261">Warehouse work for raw material picking is required to move raw material *RM1* from warehouse location *BULK-001* to location *001*.</span></span>
+
+<span data-ttu-id="a42e0-262">Toliau pateikiamas darbo politikos pavyzdys, kurį galite nustatyti pagal šiuos apsvarstymus:</span><span class="sxs-lookup"><span data-stu-id="a42e0-262">Here is an example of a work policy that you can set up, based on these considerations:</span></span>
+
+- <span data-ttu-id="a42e0-263">**Darbo politikos pavadinimas:** *Nėra jokio atidedamo darbo*</span><span class="sxs-lookup"><span data-stu-id="a42e0-263">**Work policy name:** *No putaway work*</span></span>
+- <span data-ttu-id="a42e0-264">**Darbo užsakymo tipai:** *Pabaigtų prekių atidėjimas* ir *Papildomas produktas ir šalia produkto atidėjimas*</span><span class="sxs-lookup"><span data-stu-id="a42e0-264">**Work order types:** *Finished goods put away* and *Co-product and by-product put away*</span></span>
+- <span data-ttu-id="a42e0-265">**Atsargų vietos:** Sandėlis *51* ir vieta *001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-265">**Inventory locations:** Warehouse *51* and location *001*</span></span>
+- <span data-ttu-id="a42e0-266">**Produktai:** *SC1*</span><span class="sxs-lookup"><span data-stu-id="a42e0-266">**Products:** *SC1*</span></span>
+
+<span data-ttu-id="a42e0-267">Tolesnis pavyzdinis scenarijus pateikia žingsnis po žingsnio instrukciją nustatant sandėlio darbo politiką šiame scenarijui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-267">The following example scenario provides step-by-step instructions for setting up the warehouse work policy for this scenario.</span></span>
+
+## <a name="example-scenario-report-as-finished-to-a-location-that-isnt-license-platecontrolled"></a><span data-ttu-id="a42e0-268">Pavyzdinis scenarijus: Skelbimas baigtais į vietą, kuri nėra licencijos numerio kontroliuojama</span><span class="sxs-lookup"><span data-stu-id="a42e0-268">Example scenario: Report as finished to a location that isn't license plate–controlled</span></span>
+
+<span data-ttu-id="a42e0-269">Šis scenarijus rodo pavyzdį, kuriame gamybos užsakymas yra raportuojamas kaip baigtas į vietą, kuri nėra licencijos numerio kontroliuojama.</span><span class="sxs-lookup"><span data-stu-id="a42e0-269">This scenario shows an example where a production order is reported as finished to a location that isn't license plate–controlled.</span></span>
+
+<span data-ttu-id="a42e0-270">Šis scenarijus naudoja standartinius demonstracinius duomenis.</span><span class="sxs-lookup"><span data-stu-id="a42e0-270">This scenario uses the standard demo data.</span></span> <span data-ttu-id="a42e0-271">Dėl to, jei norite dirbti su scenarijumi naudojant čia pateiktas vertes, įsitikinkite, privalote dirbti su sistema, kurioje demonstraciniai duomenys yra įdiegti.</span><span class="sxs-lookup"><span data-stu-id="a42e0-271">Therefore, if you want to work through it by using the values that are provided here, you must work on a system where demo data is installed.</span></span> <span data-ttu-id="a42e0-272">Taip pat, turite pasirinkti **USMF** juridinį subjektą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-272">Additionally, you must select the **USMF** legal entity.</span></span>
+
+### <a name="set-up-a-warehouse-work-policy"></a><span data-ttu-id="a42e0-273">Sandėlio darbo strategijos nustatymas</span><span class="sxs-lookup"><span data-stu-id="a42e0-273">Set up a warehouse work policy</span></span>
+
+<span data-ttu-id="a42e0-274">Į sandėlio procesus ne visada įeina sandėlio darbas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-274">Warehouse processes don't always include warehouse work.</span></span> <span data-ttu-id="a42e0-275">Nustatant darbo politiką, galite apsaugoti sukūrimo darbą žaliavų paėmimui ir padėjimui baigtiems gaminiams nustatyti gaminiui konkrečiose vietose.</span><span class="sxs-lookup"><span data-stu-id="a42e0-275">By defining a work policy, you can prevent the creation of work for raw material picking and putaway of finished goods for a set of products at specific locations.</span></span>
+
+1. <span data-ttu-id="a42e0-276">Eikite į **Sandėlio valdymą \> Nustatymai \> Darbas \> Darbo politikos**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-276">Go to **Warehouse management \> Setup \> Work \> Work policies**.</span></span>
+1. <span data-ttu-id="a42e0-277">Pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-277">Select **New**.</span></span>
+1. <span data-ttu-id="a42e0-278">**Darbo politikos pavadinimas** laukelyje, įveskite *Jokio įsigijimo elemento atidėjimo darbas*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-278">In the **Work policy name** field, enter *No putaway work*.</span></span>
+1. <span data-ttu-id="a42e0-279">Veiksmų srityje pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-279">On the Action Pane, select **Save**.</span></span>
+1. <span data-ttu-id="a42e0-280">**Darbo užsakymo tipai** „FastTab“, pasirinkite **Įtraukti** įtraukti eilutę į tinklelį ir tuomet nustatyti tolesnes vertes naujai eilutei:</span><span class="sxs-lookup"><span data-stu-id="a42e0-280">On the **Work order types** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="a42e0-281">**Darbo užsakymo tipas** *Baigtų prekių atidėjimas*</span><span class="sxs-lookup"><span data-stu-id="a42e0-281">**Work order type:** *Finished goods put away*</span></span>
+    - <span data-ttu-id="a42e0-282">**Darbo procesas:** *Visi susiję darbo procesai*</span><span class="sxs-lookup"><span data-stu-id="a42e0-282">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="a42e0-283">**Darbo sukūrimo metodas:** *Niekuomet*</span><span class="sxs-lookup"><span data-stu-id="a42e0-283">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="a42e0-284">**Skirstymo doko politikos pavadinimas:** Palikite šį laukelį tuščią.</span><span class="sxs-lookup"><span data-stu-id="a42e0-284">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="a42e0-285">Pasirinkite **Įtraukti** darkart, kad įtrauktumėte antrą eilutę į tinklelį ir tuomet nustatytumėte tolesnes vertes naujoje eilutėje:</span><span class="sxs-lookup"><span data-stu-id="a42e0-285">Select **Add** again to add a second row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="a42e0-286">**Darbo užsakymo tipas:** *Papildomas gaminys ir šalia gaminio atidėjimas*</span><span class="sxs-lookup"><span data-stu-id="a42e0-286">**Work order type:** *Co-product and by-product put away*</span></span>
+    - <span data-ttu-id="a42e0-287">**Darbo procesas:** *Visi susiję darbo procesai*</span><span class="sxs-lookup"><span data-stu-id="a42e0-287">**Work process:** *All related work processes*</span></span>
+    - <span data-ttu-id="a42e0-288">**Darbo sukūrimo metodas:** *Niekuomet*</span><span class="sxs-lookup"><span data-stu-id="a42e0-288">**Work creation method:** *Never*</span></span>
+    - <span data-ttu-id="a42e0-289">**Skirstymo doko politikos pavadinimas:** Palikite šį laukelį tuščią.</span><span class="sxs-lookup"><span data-stu-id="a42e0-289">**Cross docking policy name:** Leave this field blank.</span></span>
+
+1. <span data-ttu-id="a42e0-290">**Atsargų vietos** „FastTab“, pasirinkite **Įtraukti** įtraukti eilutę į tinklelį ir tuomet nustatyti tolesnes vertes naujai eilutei:</span><span class="sxs-lookup"><span data-stu-id="a42e0-290">On the **Inventory locations** FastTab, select **Add** to add a row to the grid, and then set the following values for the new row:</span></span>
+
+    - <span data-ttu-id="a42e0-291">**Sandėlis:** *51*</span><span class="sxs-lookup"><span data-stu-id="a42e0-291">**Warehouse:** *51*</span></span>
+    - <span data-ttu-id="a42e0-292">**Vieta:** *001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-292">**Location:** *001*</span></span>
+
+1. <span data-ttu-id="a42e0-293">**Produktai** „FastTab“, nustatykite **Produkto pasirinkimas** laukelį į *Pasirinkti*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-293">On the **Products** FastTab, set the **Product selection** field to *Selected*.</span></span>
+1. <span data-ttu-id="a42e0-294">**Produktai** „FastTab“, pasirinkite **Įtraukti** tam, kad įtrauktumėte eilutę į tinklelį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-294">On the **Products** FastTab, select **Add** to add a row to the grid.</span></span>
+1. <span data-ttu-id="a42e0-295">Naujoje eilutėje, nustatykite**Elemento numerio** laukelį į *L0101*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-295">In the new row, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="a42e0-296">Veiksmų srityje pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-296">On the Action Pane, select **Save**.</span></span>
+
+### <a name="set-up-an-output-location"></a><span data-ttu-id="a42e0-297">Išeigos vietos nustatymas</span><span class="sxs-lookup"><span data-stu-id="a42e0-297">Set up an output location</span></span>
+
+1. <span data-ttu-id="a42e0-298">Eikite į **Organizacijos administravimas \> Resursai \> Resursų grupės**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-298">Go to **Organization administration \> Resources \> Resource groups**.</span></span>
+1. <span data-ttu-id="a42e0-299">Kairėje juostoje, pasirinkite resurso grupę **5102**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-299">In the left pane, select resource group **5102**.</span></span>
+1. <span data-ttu-id="a42e0-300">„FastTab“ skirtuke **Bendra** nustatykite šias reikšmes:</span><span class="sxs-lookup"><span data-stu-id="a42e0-300">On the **General** FastTab, set the following values:</span></span>
+
+    - <span data-ttu-id="a42e0-301">**Išeigos sandėlis:** *51*</span><span class="sxs-lookup"><span data-stu-id="a42e0-301">**Output warehouse:** *51*</span></span>
+    - <span data-ttu-id="a42e0-302">**Išeigos vieta:** *001*</span><span class="sxs-lookup"><span data-stu-id="a42e0-302">**Output location:** *001*</span></span>
+
+1. <span data-ttu-id="a42e0-303">Veiksmų srityje pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-303">On the Action Pane, select **Save**.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="a42e0-304">Vieta *001* nėra licencijos numerio kontroliuojama vieta.</span><span class="sxs-lookup"><span data-stu-id="a42e0-304">Location *001* isn't a license plate–controlled location.</span></span> <span data-ttu-id="a42e0-305">Galite nustatyti išeigos vietą, kuri nėra licencijos numerio kontroliuojama tik, jei taikoma darbo politika vietai egzistuoja.</span><span class="sxs-lookup"><span data-stu-id="a42e0-305">You can set up an output location that isn't license plate–controlled only if an applicable work policy exists for the location.</span></span>
+
+### <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="a42e0-306">Gamybos užsakymo sukūrimas ir jo skelbimas baigtu</span><span class="sxs-lookup"><span data-stu-id="a42e0-306">Create a production order and report it as finished</span></span>
+
+1. <span data-ttu-id="a42e0-307">Eikite į **Gamybos valdymas \> Gamybos užsakymai \> Visi gamybos užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-307">Go to **Production control \> Production orders \> All production orders**.</span></span>
+1. <span data-ttu-id="a42e0-308">Veiksmų juostoje, pasirinkite **Nauji gamybos užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-308">On the Action Pane, select **New production order**.</span></span>
+1. <span data-ttu-id="a42e0-309">**Sukurti gamybos užsakymą** teksto laukelyje nustatykite **Elemento numerio** laukelį į *L0101*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-309">In the **Create production order** dialog box, set the **Item number** field to *L0101*.</span></span>
+1. <span data-ttu-id="a42e0-310">Pasirinkite **Sukurti** tam, kad sukurtumėte užsakymą ir uždarytumėte teksto laukelį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-310">Select **Create** to create the order and close the dialog box.</span></span>
+
+    <span data-ttu-id="a42e0-311">Naujas gamybos užsakymas yra įtrauktas į tinklelį **Visi gamybos užsakymai** puslapyje.</span><span class="sxs-lookup"><span data-stu-id="a42e0-311">A new production order is added to the grid on the **All production orders** page.</span></span>
+
+    <span data-ttu-id="a42e0-312">Laikykite naują gamybos užsakymą pasirinktą.</span><span class="sxs-lookup"><span data-stu-id="a42e0-312">Keep the new production order selected.</span></span>
+
+1. <span data-ttu-id="a42e0-313">Veiksmų juostoje, **Gamybos užsakymas** skirtuke, **Procesas** grupėje pasirinkite **Apskaičiuoti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-313">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Estimate**.</span></span>
+1. <span data-ttu-id="a42e0-314">**Apskaičiavimo** teksto laukelyje perskaitykite apskaičiavimą ir tuomet pasirinkite **Gerai** teksto laukelio uždarymui.</span><span class="sxs-lookup"><span data-stu-id="a42e0-314">In the **Estimate** dialog box, read the estimate, and then select **OK** to close the dialog box.</span></span>
+1. <span data-ttu-id="a42e0-315">Veiksmų juostoje, **Gamybos užsakymas** skirtuke, **Procesas** grupėje pasirinkite **Pradėti**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-315">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Start**.</span></span>
+1. <span data-ttu-id="a42e0-316">**Pradėti** teksto laukelyje, **Bendra** skirtuke nustatykite**Automatinis BOM vartojimas** laukelį į *Niekada*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-316">In the **Start** dialog box, on the **General** tab, set the **Automatic BOM consumption** field to *Never*.</span></span>
+1. <span data-ttu-id="a42e0-317">Pasirinkite **Gerai** tam, kad įrašytumėte savo nustatymus ir uždarytumėte teksto laukelį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-317">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="a42e0-318">Veiksmų juostoje, **Gamybos užsakymas** skirtuke, **Procesas** grupėje pasirinkite **Raportuoti kaip baigtą**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-318">On the Action Pane, on the **Production order** tab, in the **Process** group, select **Report as finished**.</span></span>
+1. <span data-ttu-id="a42e0-319">**Raportuoti kaip baigą** teksto laukelyje, **Bendra** skirtuke nustatykite**Priimti klaidą** parinktį į *Taip*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-319">In the **Report as finished** dialog box, on the **General** tab, set the **Accept error** option to *Yes*.</span></span>
+1. <span data-ttu-id="a42e0-320">Pasirinkite **Gerai** tam, kad įrašytumėte savo nustatymus ir uždarytumėte teksto laukelį.</span><span class="sxs-lookup"><span data-stu-id="a42e0-320">Select **OK** to save your setting and close the dialog box.</span></span>
+1. <span data-ttu-id="a42e0-321">Veiksmų srityje, skirtuke **Sandėlis**, grupėje **Bendra** pasirinkite **Darbo informacija**.</span><span class="sxs-lookup"><span data-stu-id="a42e0-321">On the Action Pane, on the **Warehouse** tab, in the **General** group, select **Work details**.</span></span>
+
+<span data-ttu-id="a42e0-322">Kai gamybos užsakymas yra raportuojamas kaip baigtas, joks darbas atidėjimui nėra sukuriamas.</span><span class="sxs-lookup"><span data-stu-id="a42e0-322">When the production order is reported as finished, no work is generated for putaway.</span></span> <span data-ttu-id="a42e0-323">Toks elgesys atsitinka, nes darbo politika yra apibrėžiama taip, kad apsaugotų darbą nuo sukūrimo, kai produktas *L0101* raportuojamas kaip baigtas į vietą *001*.</span><span class="sxs-lookup"><span data-stu-id="a42e0-323">This behavior occurs because a work policy is defined that prevents work from being generated when product *L0101* is reported as finished to location *001*.</span></span>
+
+## <a name="more-information"></a><span data-ttu-id="a42e0-324">Daugiau informacijos</span><span class="sxs-lookup"><span data-stu-id="a42e0-324">More information</span></span>
+
+<span data-ttu-id="a42e0-325">Daugiau informacijos apie mobiliojo įrenginio meniu elementus žr. [Mobiliųjų įrenginių nustatymas darbui sandėlyje](configure-mobile-devices-warehouse.md).</span><span class="sxs-lookup"><span data-stu-id="a42e0-325">For more information about mobile device menu items, see [Set up mobile devices for warehouse work](configure-mobile-devices-warehouse.md).</span></span>
+
+<span data-ttu-id="a42e0-326">Dėl išsamesnės informacijos apie licencijos numerio gavimą ir darbo politikas,, žr. [Licencijos numerį gaunamą per sandėlio programą](warehousing-mobile-device-app-license-plate-receiving.md).</span><span class="sxs-lookup"><span data-stu-id="a42e0-326">For more information about license plate receiving and work policies, see [License plate receiving via the warehouse app](warehousing-mobile-device-app-license-plate-receiving.md).</span></span>
+
+<span data-ttu-id="a42e0-327">Daugiau informacijos apie gaunamos apkrovos valdymą rasite [Sandėlio pirkimų užsakymų gaunamos apkrovos tvarkymas](inbound-load-handling.md).</span><span class="sxs-lookup"><span data-stu-id="a42e0-327">For more information about inbound load management, see [Warehouse handling of inbound loads for purchase orders](inbound-load-handling.md).</span></span>
