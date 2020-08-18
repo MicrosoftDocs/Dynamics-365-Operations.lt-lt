@@ -3,7 +3,7 @@ title: Įrašyti rodiniai
 description: Šioje temoje aprašoma, kaip naudotis įrašytų rodinių funkcijomis.
 author: jasongre
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 07/29/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: f6b7f1c64c273f52dc1d414185ba54efdfb8e5c0
-ms.sourcegitcommit: dc67232c9aa3223d42f22cc1f7aafbd121e7e616
+ms.openlocfilehash: a190e2a117c3209993926af0a7bf031909b8ee0f
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/30/2020
-ms.locfileid: "3412336"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3651647"
 ---
 # <a name="saved-views"></a>Įrašyti rodiniai
 
@@ -29,183 +29,229 @@ ms.locfileid: "3412336"
 [!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Įžanga
+
 Personalizavimas atlieka svarbų vaidmenį, kadangi vartotojai ir organizacijos gali pagal poreikius optimizuoti vartotojo patirtį. Daugiau informacijos apie personalizavimą žr. [Vartotojo patirties personalizavimas](personalize-user-experience.md).
 
-Naudodami įprastą personalizavimą vartotojai gali turėti tik vieną vienos formos personalizavimų rinkinį. Naudojantis įrašytais rodiniais personalizavimas išplečiamas keliais svarbiais būdais.
+Tradicinis personalizavimas leidžia vartotojams turėti tik vieną personalizavimo rinkinį puslapyje. **Išsaugotų peržiūrų** funkcija praplėčia personalizavimą keliais svarbiais būdais:
 
--    Naudodamiesi rodiniais vartotojai gali turėti kelis pavadintus vienos formos personalizavimo rinkinius ir greitai įjungti reikiamą bet kurį iš jų. Taigi vartotojas gali sukurti kelis optimizuotus puslapio rodinius, kad kiekvienas rodinys būtų pritaikytas konkrečioms verslo užduotims atlikti. 
-
--    Tam tikro tipo puslapiams sukurti rodiniai taip pat gali apimti vartotojo įtrauktus filtrus arba rūšiavimus, kuriais naudodamiesi vartotojai gali greitai grįžti į dažniausiai filtruotus duomenų rinkinius. Daugiau informacijos ieškokite skyriuje [Kurie puslapiai palaiko rodinius](saved-views.md#what-pages-support-views). 
-
--    Rodinius galima publikuoti vartotojams, atliekantiems konkrečius saugos vaidmenis ir priklausantiems konkretiems juridiniams subjektams. Todėl bet kuris vartotojas, turintis nurodytą vaidmenį ir prieigą prie nurodyto juridinio subjekto, gali pasiekti ir naudoti tą rodinį, net jei tas vartotojas gali nesugebėti jo suasmeninti. Naudodamosi šia publikavimo galimybe, organizacijos gali apibrėžti standartinius verslui optimizuotus įmonės rodinius. Daugiau informacijos ieškokite skyriuje [Personalizavimų valdymas organizacijos lygiu naudojant rodinius](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
-
--    Kitaip nei įprasto personalizavimo atveju, rodiniai automatiškai neįrašomi vartotojui atliekant tiesioginius personalizavimus ar filtruojant sąrašą. Aiškiai įrašyti reikia tam, kad būtų užtikrintas lankstumas kuriant rodinį prieš atliekant su tokiu rodiniu susijusius pakeitimus arba po jų ir netyčia nebūtų pakeisti rodinio apibrėžimai naudojant filtrus ar personalizavimus, kurie nėra skirti ilgalaikiam naudojimui.  
-
--    Rodinius galima įtraukti į darbo sritis kaip plyteles, sąrašus arba saitus. Todėl filtruotas duomenų rinkinys gali būti iškeltas darbo srityje, o vartotojai gali susieti atitinkamą personalizavimo rinkinį su duomenų rinkiniu naudodami plytelę arba saitą.
+- Naudodamiesi rodiniais vartotojai gali turėti kelis pavadintus vienos formos personalizavimo rinkinius ir greitai įjungti reikiamą bet kurį iš jų. Taigi vartotojas gali sukurti kelis optimizuotus puslapio rodinius, kad kiekvienas rodinys būtų pritaikytas konkrečioms verslo užduotims atlikti. 
+- Tam tikro tipo puslapiams sukurti rodiniai taip pat gali apimti vartotojo įtrauktus filtrus arba rūšiavimus, kuriais naudodamiesi vartotojai gali greitai grįžti į dažniausiai filtruotus duomenų rinkinius. Daugiau informacijos ieškokite skyriuje [Kurie puslapiai palaiko rodinius](saved-views.md#what-pages-support-views). 
+- Rodinius galima publikuoti vartotojams, atliekantiems konkrečius saugos vaidmenis ir priklausantiems konkretiems juridiniams subjektams. Dėl to, visi naudotojai turintys specialų vaidmenį ir prieigą prie spcialiaus teisinio subjekto gali prieiti ir naudotis ta peržiūra, netgi jei naudotojas neturi leidimo personalizavimui. Naudodamosi šia publikavimo galimybe, organizacijos gali apibrėžti standartinius verslui optimizuotus įmonės rodinius. Daugiau informacijos ieškokite skyriuje [Personalizavimų valdymas organizacijos lygiu naudojant rodinius](saved-views.md#managing-personalizations-at-an-organizational-level-with-views).
+- Skirtingai nei tradicinis personalizavimas, peržiūros yra automatiškai išsaugojamas, kai naudotojas atlieka personalizavimą ar sąrašo filtravimą. Atskiri įrašymai yra reikalaujami siekiant suteikti naudotojams lankstumo kuriant peržiūras prieš ar po pakeitimų, kurie yra susiję su viena sukurta peržiūra. Šis reikalavimas taip pat užtikrina, kad peržiūros apibrėžimai nebūtų netyčia pakeisti filtrais ar personalizavimu, kurie nėra skirti naudoti ilgą laiką. Elementai, kuriuos sistema automatiškai talpina kaip dalį įprasto puslapio naudojimo (pavyzdžiui, stulpelių pločiai ar išplėstos ar sutrauktos skyrių būsenos) bus išsaugoti peržiūroje.
+- Rodinius galima įtraukti į darbo sritis kaip plyteles, sąrašus arba saitus. Dėl to, filtruoti duomenys gali būti pasirenkami darbo srityje ir naudotojai gali susieti personalizuotą rinkinį, atitinkantį būtent tą duomenų rinkinį su saitu ar plytele.
 
 ## <a name="switching-between-views"></a>Rodinių perjungimas
-Įgalinus rodinių naudojimą tam tikroje aplinkoje, bet kuriame rodinius palaikančio puslapio formos, kurioje rodomas dabartinio rodinio pavadinimas, viršuje pateikiamas sutrauktų rodinių išrinkiklio valdiklis.  
+
+Kai peržiūros yra įjungiamas aplinkoje, bet kurio puslapio viršus, palaikantis peržiūras, įtrauks sutrauktą peržiūros parinkėjų valdymą rodantį esamos peržiūros pavadinimą.
 
 Rodinių išrinkiklių esama dviejų dydžių. 
 
--   **Dideli rodinių išrinkikliai**: puslapių, kuriuose aiškiai esama sąrašo, rodinių išrinkiklis bus didesnis dėl kelių priežasčių. Svarbiausia nepamiršti, kad didesnis rodinių išrinkiklis reiškia tai, kad puslapių rodiniai gali apimti vartotojo nustatytus filtrus. Kadangi į rodinius įtraukti filtrai, didesnio dydžio išrinkiklis reikalingas ir todėl, kad rodinio pavadinimai dažnai yra geriausias ekrane rodomų duomenų aprašymas ir tikimasi, kad šio tipo puslapiuose vartotojai dažniau perjungs rodinius.  
+- **Didelės peržiūros parinkėjai** – Puslapiai, kurie iškiliai apima sąrašo funkciją, turintį didesnius peržiūrų parinkėjus dėl kelių priežasčių. Svarbiausia nepamiršti, kad didesnis rodinių išrinkiklis reiškia tai, kad puslapių rodiniai gali apimti vartotojo nustatytus filtrus. Kadangi į rodinius įtraukti filtrai, didesnio dydžio išrinkiklis reikalingas ir todėl, kad rodinio pavadinimai dažnai yra geriausias ekrane rodomų duomenų aprašymas ir tikimasi, kad šio tipo puslapiuose vartotojai dažniau perjungs rodinius.
+- **Mažos peržiūros selektoriai** – Visi viso ekrano puslapiai (išskyrus darbo sritis ir ataskaitų sritis) turi mažus peržiūros selektorius, kurie pasirodo šalia puslapio aprėpties. Peržiūros šiuose puslapiuose apima tik personalizavimus, ne vartotojo nustatytus filtrus. Šiuose puslapiuose aprėptis ar įrašo plyta dažnai yra svarbiausia informacija puslapio viršuje. Mažesnis peržiūros selektoriaus dydis taip pat atspindi žemesnį perjungimo peržiūros dažnį nei tikėtinas šiuose puslapiuose. 
  
--   **Mažo rodinio išrinkikliai**: visose kitose viso puslapio formose (išskyrus darbo sritis ir informacijos suvestinę) yra mažesnis rodmenų parinkiklis, rodomas šalia puslapio antraštės. Šių puslapių rodiniai apima tik personalizavimus (o ne vartotojo nustatytus filtrus). Šiuose puslapiuose formos antraštė arba įrašo pavadinimas dažnai yra svarbiausia informacija, esanti formos viršuje. Mažesnis dydis taip pat reiškia mažesnį tikėtiną šių puslapių rodinių perjungimo dažnumą. 
- 
-Spustelėjus rodinio pavadinimą, atidaromas rodinių išrinkiklis ir rodomas galimų šio puslapio rodinių sąrašas
+Jei pasirenkate peržiūrėti pavadinimą, peržiūros selektorius yra atidaromas ir rodo puslapyje esamų peržiūrų sąrašą.
 
--    **Standartinis rodinys**: **Standartinis** rodinys (anksčiau vadintas **Klasikiniu** rodiniu) yra parengtas naudoti puslapio rodinys, kuriame nėra taikomas personalizavimas.
--    **Asmeniniai rodiniai**: rodiniai be spynų yra jūsų asmeniniai rodiniai. Tai jūsų sukurti arba administratoriaus jums suteikti rodiniai.  
--    **Užrakinti rodiniai**: kai kurie rodiniai (pvz., **Standartinis** rodinys ir bet kokie jūsų vaidmeniui publikuoti rodiniai) yra pažymėti rodinių išrinkiklyje greta rodomu spynos simboliu. Šis simbolis nurodo, kad šių rodinių redaguoti negalima. Tačiau neišreikštiniai personalizavimai, susiję su puslapio naudojimu, yra išsaugomi automatiškai. Tokie išreikštiniai personalizavimai yra lentelės stulpelio pločio pakeitimas arba „FastTab“ išplėtimas arba suskleidimas. Tačiau, jei turite personalizavimo teises, atlikdami veiksmą **Įrašyti kaip** galite sukurti asmeninį rodinį, pagrįstą užrakintu rodiniu.
--    **Nauji rodiniai**: publikuotų, bet dar neatidarytų rodinių pavadinimo kairėje pusėje vaizduojama kibirkštis.  
+- **Standartinė peržiūra** – **Standartinė** peržiūra yra nestandartinė puslapio peržiūra, kurioje nėra taikomi jokie personalizavimai.
+- **Personalinės peržiūros** – Peržiūros be spynų rodo jūsų personalines peržiūras. Tai jūsų sukurti arba administratoriaus jums suteikti rodiniai.
+- **Užrakintos peržiūros** – Kai kuriso peržiūros (tokios kaip**Standartinės** peržiūros ir visos peržiūros, kurios yra publikuojamos jūsų vaidmenyje) turi spynos simbolį šalia peržiūros selektoriaus. Šis simbolis nurodo, kad šių rodinių redaguoti negalima. Nepaisant to, pakeitimai atspindintys puslapio naudojimą yra įrašomi automatiškai. Šie pakeitimai apima stulpelio tinklelio pločio pakeitimus ir išplėsto bei sutraukto „FastTab“ statuso pakeitimus. Tačiau, jei turite personalizavimo teises, atlikdami veiksmą **Įrašyti kaip** galite sukurti asmeninį rodinį, pagrįstą užrakintu rodiniu.
+- **Naujos peržiūros** – Publikuotos peržiūros, kurios dar nebuvo atidarytos turi kibirkšties simbolį peržiūros pavadinimo kairėje.
 
 Norėdami perjungti kitą rodinį, pirmiausia atidarykite rodinių išrinkiklį ir pasirinkite norimą įkelti rodinį. 
 
 ## <a name="creating-and-modifying-views"></a>Rodinių kūrimas ir modifikavimas
-Kitaip nei įprasto personalizavimo atveju, rodiniai automatiškai neįrašomi vartotojui atliekant tiesioginius personalizavimus (ar filtruojant sąrašą). Norint išsaugoti šiuos rodinio pakeitimus, reikia atlikti akivaizdų veiksmą. Taip užtikrinamas vartotojo lankstumas kuriant rodinį prieš atliekant su tokiu rodiniu susijusius pakeitimus arba po jų, taip pat užtikrinama, kad netyčia nebūtų pakeisti rodinio apibrėžimai naudojant vienkartinius filtrus ar personalizavimus. Atkreipkite dėmesį, kad netiesioginiai personalizavimai (pvz., „FastTab“ išplėtimas arba sutraukimas arba tinklelio stulpelio pločio keitimas) automatiškai įrašomi į dabartinį rodinį net ir užrakintus rodinius. 
 
-Siekiant užtikrinti, kad būtų žinoma dabartinė rodinio būsena, pradedant atlikti rodinio pakeitimus, atliekant tiesioginį personalizavimą arba filtravimą, šalia dabartinio rodinio pavadinimo rodoma žvaigždutė, o tai reiškia, kad rodomas neįrašytas, modifikuotas rodinys.
+Skirtingai nei tradicinis personalizavimas, peržiūros yra automatiškai išsaugojamas, kai naudotojas personalizuoja puslapį arba kai naudotojas taiko filtrą sąrašui ar jį rūšiuoja. Norint išsaugoti šiuos rodinio pakeitimus, reikia atlikti akivaizdų veiksmą. Šis reikalavimas suteikia naudotojams lankstumo kuriant peržiūras prieš ar po pakeitimų, kurie yra susiję su viena sukurta peržiūra. Jis taip pat užtikrina, kad peržiūros apibrėžimai nebūtų netyčia pakeisti vienkartiniais filtrais ar personalizavimu. Atkreipkite dėmesį, kad įprastos puslapio naudojamos elementai (pavyzdžiui, stulpelių pločiai ar išplėstos ar sutrauktos skyrių būsenos) yra automatiškai įrašomi esamoje peržiūroje ar netgi užrarkintos peržiūros.
+
+Siekiant užtikrinti, kad esama peržiūros būsena yra žinoma, jums pradedant keisti personalizavimo ar filtravimo peržiūrą, žvaigždutė (\*) pasirodo šalia esamo peržiūros pavadinimo. Šis simoblis rodo, kad ieškote neišsaugotos, pakeistos peržiūros versijos.
 
 Norėdami įrašyti šiuos pakeitimus, atlikite toliau nurodytus veiksmus.
-1.  Pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklį.
-2.  Norėdami modifikuoti esamą rodinį, atlikite toliau nurodytą veiksmą.
-     1. Pasirinkite **Įrašyti**. Atkreipkite dėmesį, kad šio veiksmo negalima atlikti užrakintiems rodiniams. 
-3.  Norėdami sukurti naują rodinį, atlikite toliau nurodytus veiksmus.
-     1.    Pasirinkite **Įrašyti kaip**. 
-     2.    Įveskite rodinio pavadinimą ir aprašą (nebūtinai).
-     3.    Pasirinkite **Įrašyti**.
+
+1. Pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklį.
+2. Tam, kad keistumėte esančia peržiūrą, pasirinkite **Įrašyti**. Atkreipkite dėmesį, kad šis veiksmas nėra galimas užrakintoms peržiūroms. 
+3. Norėdami sukurti naują rodinį, atlikite toliau nurodytus veiksmus.
+
+    1. Pasirinkite **Įrašyti kaip**. 
+    2. Įveskite rodinio pavadinimą ir aprašą (nebūtinai).
+    3. Pasirinkite **Įrašyti**.
 
 ## <a name="changing-the-default-view"></a>Numatytojo rodinio keitimas
-Numatytasis rodinys yra rodinys, kurį sistema bandys atidaryti, kai pirmą kartą pereisite į puslapį. Turėtumėte nustatyti, kad tai būtų rodinys, kurį tikitės naudoti dažnai.  
 
-Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus. 
-1.  Įjunkite rodinį, kuris naudojamas kaip numatytasis. 
-2.  Pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklį. 
-3.  Pasirinkite **Daugiau**, o paskui – **Prisegti kaip numatytąjį**.  
+Iš anksto nustatyta peržiūra yra peržiūra, kurią sistema bando atidaryti, kai pirmą kartą atveriate puslapį. Turite nustatyti iš anksto nustatytą peržiūrą, kad peržiūrėtumėte tai, ką tikitės dažniausiai naudoti. 
+
+> [!NOTE]
+> Esama vienos, globaliai nustatytos peržiūros visose bendrovėse. Jei keičiate nustatytą peržiūrą, ji bus atidaroma pagal nutylėjimą nepriklausomai nuo teisinio subjektu, kuriame šiuo metu esate. 
+
+Norėdami pakeisti puslapio numatytąjį rodinį, atlikite tolesnius veiksmus.
+
+1. Įjunkite rodinį, kuris naudojamas kaip numatytasis. 
+2. Pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklį. 
+3. Pasirinkite **Daugiau**, o paskui – **Prisegti kaip numatytąjį**.
 
 Arba kurdami naują rodinį (naudodami veiksmą **Įrašyti kaip**) galite nustatyti, kad naujas rodinys būtų numatytasis rodinys – prieš įrašydami rodinį pasirinkite parinktį **Prisegti kaip numatytąjį**.
 
-Atkreipkite dėmesį, kad kai kuriais atvejais su numatytuoju rodiniu susieta užklausa nevykdoma į puslapį perėjus pirmą kartą. Pavyzdžiui, perėjus į puslapį naudojantis plytele, plytelės užklausa bus vykdoma neatsižvelgiant į su numatytuoju rodiniu susietą užklausą. Taip pat perėjus į puslapį, kurio standartinėje rodinyje jau nurodyta užklausa, iš pradžių bus vykdoma ne numatytojo rodinio užklausa, o pradinė užklausa. Taip nutikus, įkeliant rodinį rodomas įspėjantis informacinis pranešimas. Perjungus rodinius, kai puslapis įkeltas, rodinio užklausą turėtų būti leidžiama vykdyti kaip numatyta. Pradedant nuo 10.0.10 versijos platformos 34 naujinimo, informacinis pranešimas turės įdėtąjį veiksmą, kuris leis tiesiogiai įkelti numatytąją rodinio užklausą.
+Atkreipkite dėmesį, kad kai kuriais atvejais su nustatyta peržiūra susieta užklausa neveikia, kai pirmą kartą atidarote puslapį. Pavyzdžiui, jei atidarote puslapį per plytą, jos užklausa veiks nepriklausomai nuo užklausos, kuri yra susieta su nustatytąja peržiūra. Be ti, jei atidarote puslapį, kuris turi **Standartinę** peržiūrą jau turinčią nustatytą užklausą, pirminė užklausa bus vykdoma vietoje nustatytosios peržiūros užklausos. Tokiu atveju, jūs gausite informacinį pranešimą, kai peržiūra bus įkelta. Jei perjungiate peržiūras po to, kai puslapis buvo įkeltas, peržiūros užklausa turi galėti veikti, kaip tikėtasi. 10.0.10 versijoje ir vėlesnėse, jūsų gaunamas informacinis pranešimas apims veiksmą, kuris jums leidžia įkelti nustatytosios peržiūros užklausą tiesiogiai.
 
-## <a name="managing-personal-views"></a>Asmeninių rodinių valdymas 
-Dialogo lange **Valdyti mano rodinius** suteikiama galimybė atlikti pagrindinę asmeninių rodinių priežiūrą ir nurodyti rodinių tvarką rodinių išrinkiklyje. Norėdami atidaryti šį puslapį, spustelėkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.  
+## <a name="managing-personal-views"></a>Asmeninių rodinių valdymas
 
-Toliau išvardyti su galimų to puslapio rodinių sąrašu galimi atlikti veiksmai.  
--    **Pakeisti numatytąjį rodinį**: atlikus veiksmą **Prisegti kaip numatytąjį** šiuo metu paryškintas rodinys tampa numatytuoju šio puslapio rodiniu.  
--    **Keisti rodinių tvarką**: atlikus veiksmus **Perkelti aukštyn** ir **Perkelti žemyn** rodiniai pertvarkomi tam tikra tvarka.  
--    **Pervardyti rodinį**: atlikus veiksmą **Pervardyti** pakeičiamas šiuo metu paryškinto asmeninio rodinio pavadinimas. Šis veiksmas išjungtas užrakintiems rodiniams. 
--    **Panaikinti rodinį**: atlikus veiksmą **Pašalinti** šiuo metu paryškintas rodinys visam laikui panaikinamas iš puslapio. Pašalinus rodinį, nėra jokių galimybių jį atkurti.  
+Dialogo lange **Valdyti mano rodinius** suteikiama galimybė atlikti pagrindinę asmeninių rodinių priežiūrą ir nurodyti rodinių tvarką rodinių išrinkiklyje. Norėdami atidaryti šį puslapį, pasirinkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.
+
+Toliau išvardyti su galimų to puslapio rodinių sąrašu galimi atlikti veiksmai.
+
+- **Peržiūrėti nustatytąją peržiūrą** – Naudokite **Smeigtuką kaip nustatytąjį** veiksmą tam, kad šiuo metu pasirinktumėte nustatytąjį peržiūrą šiam puslapiui.
+- **Įrašykite savo peržiūras** – Naudokite **Eiti aukštyn** ir **Eiti žemyn** veiksmus tam, kad sutvarkytumėte iš naujo savo peržiūras konkrečia tvarka.
+- **Pervardinti peržiūrą** – Naudokite **Pervardinti** veiksmą tam, pakeistumėte šiuo metu pasirinktos asmeninės peržiūros pavadinimą. Šis veiksmas išjungtas užrakintiems rodiniams. 
+- **Šalinti peržiūrą** – Naudokite **Šalinti** veiksmą tam, nuolatos pašalintumėte esamą pasirinktą puslapio peržiūrą. Pašalinus rodinį, nėra jokių galimybių jį atkurti.
 
 Visi šiame dialogo lange atlikti pakeitimai įsigalios pasirinkus mygtuką **Įrašyti**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Personalizavimų valdymas organizacijos lygiu naudojant rodinius
-Kad suprastumėte, kaip išsaugoti rodiniai padeda pagerinti personalizacijų valdymą organizaciniu lygiu, šiame skyriuje aprašomi kai kurie suasmeninimo valdymo skirtumai naudojant išsaugotų rodinių funkciją ir jos nenaudojant.
+
+Tam, kad padėtumėte suprasti, kaip įrašytos peržiūros padeda pagerinti personalizavimo valdymą organizaciniu lygiu, šis skyrius aprašo keletą personalizavimo valdymo skirtumų su ir be **Įrašytų peržiūrų** funkcijos.
 
 Kai rodinių nebuvo, administratoriai taikydavo puslapio personalizavimų rinkinį vartotojui, vartotojų grupei arba personalizavimo formą naudojantiems vartotojams. Jei tie vartotojai turėjo personalizavimo teises, personalizavimai būdavo taikomi tam puslapiui. Tačiau nepavyko išvengti tolesnio vartotojų atliekamo puslapio personalizavimo, o tai reiškė, kad organizacija negalėjo užtikrinti, kad jos vartotojai turi nuoseklią vartotojo sąsają. Jei kuris nors iš vartotojų neturėjo personalizavimo teisių, administratoriaus jiems suteikti personalizavimai nebūdavo įkeliami. Taip pat, jei organizacija pasamdydavo naujų vartotojų, administratoriai turėdavo patys įkelti vartotojui skirtą personalizavimų rinkinį. Nebūdavo automatinio mechanizmo, kuris nurodytų, kai esama tam tikro vartotojui skirto personalizavimų rinkinio.
 
-Naudojant įrašytų rodinių funkciją, organizacijos personalizavimų valdymas tampa daug paprastesnis, pirmiausia dėl galimybės publikuoti rodinius vartotojų grupėms. Paskelbus rodinį, bet kuris vartotojas, turintis vieną iš apibrėžtų saugos vaidmenų ir turintis prieigą prie nurodytų juridinių subjektų, galės pamatyti ir naudoti vaizdą, net jei tas vartotojas gali nesugebėti jo suasmeninti. Nors kiekvienas vartotojas turi publikuoto rodinio, kuriame automatiškai atsižvelgiama į puslapio naudojimą (neišreikštinis personalizavimas), kopiją, nė vienas vartotojas negali įrašyti išreikštinių personalizavimų ar užklausos naujinių į publikuotą rodinį. Kitaip tariant, paskelbtos peržiūros yra užrakintos. Be to, jei naujiems vartotojams suteikiami juridinių subjektų, kuriems buvo paskelbtos peržiūros, vaidmenys, jie automatiškai matys rodinius, susijusius su jų vaidmenimis ir juridiniais subjektais. Administratoriui nereikia atlikti jokių papildomų veiksmų. Taip pat, jei vartotojai keičiasi vaidmenimis organizacijoje arba jiems suteikiama prieiga prie skirtingų juridinių subjektų, jie gali nebeturėti prieigos prie anksčiau jiems paskelbtų rodinių. Ir šiuo atveju administratoriui nereikia atlikti jokių papildomų veiksmų.
+**Įrašytos peržiūros** funkcija leidžia daug paprasčiau organizuoti personalizavimo valdymą, daugiausiai dėl to, kad peržiūras galima publikuoti vartotojų grupėms. Po to, kai peržiūra buvo publikuoti, bet kuris vartotojas turintis vieną iš nustatytų saugos vaidmenų ir prieigą prie konkretaus teisinio subjekto, gali matyti ir naudoti peržiūrą, net jei vartotojas neturi prieigos prie personalizavimo. Nepaisant to, kad visi vartotojai turi publikuotos peržiūros kopiją, kurioje automatiškai nustatytas puslapio elementų naudojimas, jokie vartotojai negali išsaugoti personalzavimo ar užklausos atnaujinimo publikuotose peržiūrose. Kitaip tariant, paskelbtos peržiūros yra užrakintos. Taip pat, jei nauji vartotojai turi priskirtus vaidmenis teisiniuose subjektuose, kurių peržiūros buvo publikuotos, jei automatiškai matys peržiūras susietas su jų vaidmenimis ir teisinius subjektus. Administratorius neturi atlikti jokių papildomų veiksmų. Taip pat, jei vartotojai keičia vaidmenis organizacijoje arba jiems suteikiama prieiga prie skirtingų juridinių subjektų, jie gali nebeturėti galimybės pasiekti anksčiau publikuotų rodinių. Ir šiuo atveju administratoriui nereikia atlikti jokių papildomų veiksmų.
 
 Publikuoto rodinio naujinius paprasta išplatinti vartotojams iš naujo publikuojant rodinį atitinkamiems saugos vaidmenims ir juridiniams subjektams.
 
-Naudodamosi publikavimo galimybe organizacijos gali apibrėžti standartinius savo verslui optimizuotus įmonės rodinius, skirtus konkrečius saugos vaidmenis turintiems vartotojams.  
+Naudodamosi publikavimo galimybe organizacijos gali apibrėžti standartinius savo verslui optimizuotus įmonės rodinius, skirtus konkrečius saugos vaidmenis turintiems vartotojams.
 
 ## <a name="publishing-views"></a>Rodinių publikavimas
-Publikavimo proceso metu rodinius galima priskirti vienam ar daugiau saugos vaidmenų ir vienam ar daugiau juridinių subjektų. Todėl bet kuris vartotojas, kuris turi prieigą prie juridinio subjekto ir kuris yra priskirtas vienam iš šių vaidmenų, gali pasiekti ir naudoti rodinius, nors negali jų redaguoti. Prieigą prie veiksmo **Publikuoti** rodinių išrinkiklio išplečiamajame meniu turi sistemos administratoriai. Tačiau kitiems patikimiems jūsų organizacijos vartotojams taip pat gali būti suteikta prieiga prie rodinio publikavimo naudojant naują vaidmenį **Įrašytų rodinių administratorius**.
 
-Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus. 
-1.  Sukurkite ir įrašykite norimo publikuoti rodinio asmeninę kopiją. 
-2.  Jei tas rodinys šiuo metu įkeltas, pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklio išplečiamąjį meniu. 
-3.  Pasirinkite mygtuką **Daugiau**, o paskui pasirinkite **Publikuoti**. Atsidarys publikavimo dialogo langas.  
-4.  Įveskite rodinio pavadinimą ir aprašą (pasirinktinai). Įvestas pavadinimas yra pavadinimas, kurį vartotojai, gaunantys šį rodinį, matys savo rodinių išrinkikliuose. Publikuotų puslapio rodinių pavadinimai turi būti unikalūs. Pavadinimai negali kartotis, net jei skiriasi vaidmenų arba juridinių subjektų, kuriems taikomi rodiniai, sąrašas.
-5.  Pridėkite vartotojams, kuriems skirtas šis rodinys, taikomus saugos vaidmenis.
-6. Pridėkite juridinius subjektus, kuriems turi būti pasiekiamas šis rodinys. 
-7. [10.0.9 / 33 ar naujesnis platformos atnaujinimas] Nustatykite, ar rodinys turėtų būti paskelbtas kaip numatytasis rodinys pasirinktiems vartotojams. Padaryti rodinį numatytuoju reiškia, kad tai yra rodinys, kurį vartotojai pamatys kitą kartą atidarę paskirties puslapį. Tai pakeis numatytąjį šių vartotojų rodinį, tačiau vartotojai vis tiek gali pakeisti numatytąjį rodinį po paskelbimo.    
-8.  Pasirinkite **Publikuoti**.
+Publikavimo proceso metu peržiūros gali būti priskirtos vienam ar keletui saugos vaidmenų vienam ar keliems teisiniams subjektams. Dėl to, bet kuris vartotojas turėdamas prieigą prie teisinio subjekto ir priskirtas vienam iš šių vaidmenų gali prieiti ir naudoti peržiūras. Nepaisant to, vartotojas negali redaguoti peržiūrų. Pagal nutylėjimą, sistemų administratoriai turi prieigą prie **Publikavimo** veiksmo peržiūros selektoriaus iškrentančiame meniu. Tačiau kitiems patikimiems jūsų organizacijos vartotojams taip pat gali būti suteikta prieiga prie rodinio publikavimo naudojant naują vaidmenį **Įrašytų rodinių administratorius**.
+
+Norėdami publikuoti rodinį, atlikite toliau nurodytus veiksmus.
+
+1. Sukurkite ir įrašykite norimo publikuoti rodinio asmeninę kopiją. 
+2. Jei tas rodinys šiuo metu įkeltas, pasirinkę rodinio pavadinimą atidarykite rodinių išrinkiklio išplečiamąjį meniu. 
+3. Pasirinkite mygtuką **Daugiau**, o paskui pasirinkite **Publikuoti**. Atsidarys publikavimo dialogo langas.
+4. Įveskite rodinio pavadinimą ir aprašą (pasirinktinai). Įvestas pavadinimas yra pavadinimas, kurį vartotojai, gaunantys šį rodinį, matys savo rodinių išrinkikliuose. Publikuotų puslapio rodinių pavadinimai turi būti unikalūs. Pavadinimai negali kartotis, net jei skiriasi vaidmenų arba juridinių subjektų, kuriems taikomi rodiniai, sąrašas.
+5. **Versija 10.0.9 ir vėlesnė:** Nusprendžia, ar peržiūra turi būti publikuojama kaip nustatyta peržiūra pasirinktiems vartotojams. Kai peržiūra yra paversta nustatytąja, vartotojai ją matys kitą kartą, kai atidarys paskirties puslapį. Bus pakeista viena, iš anksto nustatyta globali peržiūra visų galutinių vartotojų. Nepaisant to, vartotojai dar gali keisti jų nustatytąją peržiūrą po jos publikavimo.
+6. Pridėkite vartotojams, kuriems skirtas šis rodinys, taikomus saugos vaidmenis. 
+7. **Versija 10.0.13 ir vėlesnė:** Nusprendžia, ar norite publikuoti peržiūrą į kiekvieno pasirinkto saugos vaidmens vaikų vaidmenis.  Jei taip atliekate, pasirinkite **Įtraukti vaikų vaidmenis** pažymimą laukelį eilutėje atitinkamiems saugos vaidmenims. Atkreipkite dėmesį, kad šis žymimas laukelis nėra prieinamas vaidmenims, neturintiems vaikų vaidmenų.
+7. Pridėkite juridinius subjektus, kuriems turi būti pasiekiamas šis rodinys. 
+8. Pasirinkite **Publikuoti**.
 
 Atkreipkite dėmesį, kad kai kuriose aplinkose gali šiek tiek užtrukti (iki valandos), kol vartotojai pamatys publikuotą rodinį.
 
-## <a name="modifying-a-published-view"></a>Publikuoto rodinio modifikavimas
-Kai rodinys jau publikuojamas, gali būti, kad norite keisti publikuotą rodinį. Nors negalite atlikti tiesioginių publikuoto rodinio keitimų, nes visiems vartotojams (taip pat leidėjams) šių rodinių redagavimo funkcija užrakinta, galite iš naujo publikuoti rodinį, kad būtų galima jį atnaujinti.  
+> [!NOTE]
+> Atsiminkite toliau pateiktas išimtis, kai publikuojate peržiūrą į teisinį subjektą ar kai publikuojate peržiūrą kaip nustatytąją.
+> - Jei publikuojate peržiūrą kaip nustatytąją į visus ar kelis teisinius subjektus, keičiate vieną, globalų nustatytą visų galutinių vartotojų peržiūrą. Jei vartotojas turi vaidmenis, kuriuos keletas peržiūrų yra publikuojama kaip nustatytosios, paskutinė publikuota peržiūra bus naudojama kaip vartotojo nustatytoji peržiūra. 
+> - Jei publikuojate peržiūrą teisiniam subjektui, tačiau jei nepublikuojate jos kaip nustatytosios peržiūros, vartotojai iš pradžių matys peržiūrą peržiūros selektoriuje tik konkretiems teisiniams subjektams. Nepaisant to, po peržiūros įkėlimo pirmą kartą, ji visuomet bus vartotojo peržiūros selektoriuje tame puslapyje nepriklausomai nuo teisinio subjekto. 
 
-Jeigu publikuotam rodiniui norimi atlikti pakeitimai apima tik publikavimo parametrus (rodinio pavadinimą ir aprašą arba saugos vaidmenis, kuriems rodinys publikuojamas), atlikite toliau nurodytus veiksmus. 
-1.  Įjunkite norimų atnaujinti parametrų publikuotą rodinį. 
-2.  Rodinio išrinkiklio išplečiamajame meniu pasirinkite **Publikuoti**. 
-3.  Pasirinkite **Taip**, jei norite atnaujinti esamą rodinį (arba **Ne**, jei norite jį publikuoti kitu pavadinimu).
-4.  Atnaujinkite rodinio pavadinimą, aprašą ir (arba) saugos vaidmenis. 
-5.  Pasirinkite **Publikuoti**. 
-6.  [10.0.8 / 32 ar ankstesnis platformos atnaujinimas] Jei atnaujinote paskelbto rodinio pavadinimą, taip pat turėsite ištrinti senu pavadinimu paskelbtą rodinį (daugiau informacijos rasite skyriuje **Paskelbtų rodinių tvarkymas**). 
-7. [10.0.9 / 33 ar naujesnis platformos atnaujinimas] Jei iš pradžių pasirinkote šį paskelbtą rodinį kaip numatytąjį rodinį, po pakartotinio paskelbimo jis vėl bus numatytasis šių vartotojų rodinys.  
+## <a name="modifying-a-published-view"></a>Publikuoto rodinio modifikavimas
+
+Po peržiūros publikavimo, jums gali prireikti jį keisti. Nepaisant to, kad negalite atlikti einamųjų pakeitimų publikuotoje peržiūroje, nes šios peržiūros redagavimas visiems vartotojams yra užrakintas (įskaitant publikuotojus), galite iš naujo publikuoti peržiūrą jos atnaujinimui.
+
+Jeigu publikuotam rodiniui norimi atlikti pakeitimai apima tik publikavimo parametrus (rodinio pavadinimą ir aprašą arba saugos vaidmenis, kuriems rodinys publikuojamas), atlikite toliau nurodytus veiksmus.
+
+1. Įjunkite norimų atnaujinti parametrų publikuotą rodinį. 
+2. Peržiūros selektoriuje iškrentančiame meniu pasirinkite **Publikuoti iš naujo**. Jei naudojate 10.0.12 versiją ar ankstesnė, turite pasirinkti **Publikuoti** ir tuomet **Taip** tam, kad atnaujintumėte esančią peržiūrą.
+3. Atnaujinkite pavadinimą, aprašą, saugos vaidmenis ir teisinius subjektus peržiūrai. 
+4. Pasirinkite **Publikuoti**. 
+5. **10.0.8 versija ir ankstesnė:** Jei atnaujinate publikuotos peržiūros pavadinimus, turite taip pat pašalinti publikuotą peržiūrą, kuris turi seną pavadinimą. (Daugiau informacijos rasite [Publikuotų peržiūrų valdymas](saved-views.md#managing-published-views) skyrius.)
+
+**Versija 10.0.9 ir vėlesnė:** Jei iš pradžių pasirenkate šią publikuojamą peržiūrą kaip nustatytąją, ji bus nustatytoji vartotojams dar kartą po jos naujo publikavimo.
 
 Jeigu publikuoto rodinio pakeitimai apima su rodiniu susietų personalizavimų ar filtrų modifikavimą, atlikite toliau nurodytus veiksmus. 
-1.  Įkelkite paskelbtą rodinį, kurį norite modifikuoti. 
-2.  Įrašyti publikuoto rodinio kopiją, kad būtų galima sukurti vietinį publikuoto rodinio juodraštį. 
-3.  Modifikuokite vietinį juodraštį atlikdami reikiamus pakeitimus.
-4.  Publikuokite rodinį nurodydami pradinį pavadinimą. 
+
+**10.0.13 versija ir vėlesnė:** Atlikite būtinus pakeitimus tiesiai peržiūroje. Žvaigždutė (\*) turi pasirodyti šalia peržiūros pavadinimo.
+
+1. Įkelkite publikuotą peržiūrą, kurią norite pakeisti. 
+2. Atlikite būtinus pakeitimus vietiniame šablone.
+3. Peržiūros selektoriuje iškrentančiame meniu pasirinkite **Publikuoti iš naujo**.
+4. Pasirinkite **Taip** tam, kad nurodytumėte, kad norite publikuoti peržiūrą kartu su neišsaugotais pakeitimais. 
+5. Keiskite visus publikuotus parametrus, kurių reikia keitimui ir tuomet pasirinkite **Publikuoti**. 
+
+**10.0.12 versija ir ankstesnė**
+
+1. Įkelkite paskelbtą rodinį, kurį norite modifikuoti. 
+2. Įrašyti publikuoto rodinio kopiją, kad būtų galima sukurti vietinį publikuoto rodinio juodraštį. 
+3. Modifikuokite vietinį juodraštį atlikdami reikiamus pakeitimus.
+4. Publikuokite rodinį nurodydami pradinį pavadinimą. 
 
 ## <a name="managing-published-views"></a>Publikuotų rodinių valdymas
+
 Kaip ir valdant asmeninius rodinius, dialogo lange **Valdyti mano rodinius** vartotojams, turintiems publikavimo teisę, suteikiama galimybė atlikti pagrindinius publikuotų to puslapio rodinių (taip pat savo asmeninių rodinių) priežiūros veiksmus. Norėdami atidaryti šį puslapį, pasirinkite rodinio pavadinimą, norėdami atidaryti rodinių išrinkiklio išplečiamąjį meniu, pasirinkite **Daugiau**, o paskui – **Valdyti mano rodinius**.
 
-Nors visi vartotojai mato skirtuką **Mano rodiniai**, kuriame rodomi jų asmeniniai rodiniai, publikavimo teises turintys vartotojai taip pat mato skirtuką **Publikuota**, kuriame rodomi visi publikuoti to puslapio rodiniai. Kadangi rodinius gali publikuoti keli vartotojai, svarbu galėti valdyti visą publikuotų rodinių sąrašą, nepriklausomai nuo to, ar esate faktiškai rodinį publikavęs vartotojas.
+Nepaisant to, kad visi vartotojai turi **Mano peržiūros** skirtuką, kuris rodo jų asmenines peržiūras, vartotojai, kurie publikavo privilegijas taip pat turi **Organizacijos peržiūros** skirtuką, kuris rodo visas publikuotas ar nepublikuotas peržiūras tame puslapyje. Kadangi keli vartotojai gali publikuoti peržiūras, svarbu, kad galėtumėte valdyti visą publikuotų peržiūrų sąrašą, net jei nesate vartotojas publikuojantis esamą peržiūrą.
 
 Toliau išvardyti su visų publikuotų puslapio rodinių sąrašu galimi atlikti veiksmai. 
 
--    **Publikuoti** – naudokite veiksmą **Publikuoti**, kad iš naujo publikuotumėte rodinį pakeitus publikavimo parametrus (pavadinimą, aprašą, saugos vaidmenis ar juridinius asmenis).
--    **Įrašyti kaip asmeninį** – naudokite **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte publikavimo rodinio asmeninį juodraštį. Ši funkcija gali padėti suprasti rodinio turinį, kuris nebuvo jums publikuotas arba kuris dar nebuvo publikuotas. Taip pat galite naudoti jį redaguoti, o tada iš naujo publikuoti rodinį. Ši funkcija pristatyta 10.0.12 versijoje.  
--    **Pašalinti** – naudokite **Pašalinti** veiksmą, kad visiškai panaikintumėte publikuotą rodinį. Šiuo veiksmu pašalinamas visų sistemos vartotojų rodinys. Paskelbtų rodinių pašalinimas įsigalios pasirinkus mygtuką **„Išsaugoti“**.
+- **Publikuoti iš naujo** – Naudoja **Publikuoti iš naujo** veiksmą tam, kad būtų publikuojama peržiūra po parametrų publikavimo (pavadinimas, aprašas, saugumo vaidmenys ar teisiniai subjektai) pakeitimų.
+- **Publikuoti** – Naudokite **Publikuoti** veiksmą tam, kad publikuotumėte peržiūrą, kuri šiuo metu nepublikuota. 
+- **Nepublikuoti** – Naudokite **Nepublikuoti** veiksmą tam, kad peržiūrą padarytumėte neaktyvią. Peržiūra dar bus prieinama sistemoje, tačiau vartotojai nematys jos peržiūros selektoriuje, kol peržiūra nebus dar kartą publikuojama.
+- **Įrašyti kaip asmeninį** – naudokite **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte publikavimo rodinio asmeninį juodraštį. Ši funkcija gali padėti suprasti rodinio turinį, kuris nebuvo jums publikuotas arba kuris dar nebuvo publikuotas. Taip pat galite naudoti jį redaguoti, o tada iš naujo publikuoti rodinį. Ši funkcija pristatyta 10.0.12 versijoje.
+- **Šalinti peržiūrą** – Naudokite **Šalinti** veiksmą tam, nuolatos pašalintumėte publikuotą ar nepublikuotą peržiūrą. Šis veiksmas taip pat pašalina vartotojų peržiūrą sistemoje. Publikuotų peržiūrų pašalinimas įsigalioja po to, kai **Įrašyti** mygtukas yra pasirenkamas. Pašalinus peržūrą, jos atstatyti nebeįmanoma. 
 
 ## <a name="managing-views-globally"></a>Rodinių valdymas visame pasaulyje
+
 Nors kai kurie valdymo pajėgumai matosi kiekviename puslapyje, kaip nurodyta šioje temoje,, **sistemos administratoriai** ir **įrašyti rodinio administratoriai** sistemoje gali tvarkyti rodinius labiau visapusiškai naudojant **Personalizavimas** puslapį. Detaliau tyrinėjant, šiame puslapyje yra šie skyriai ir funkcijos: 
 
-- **Publikuoti rodiniai** – šiame skyriuje išvardyti visi jūsų organizacijai publikuoti rodiniai. Iš čia galite iš naujo publikuoti rodinį po to, kai pakoreguojate saugos vaidmenis arba juridinius asmenis, į kuriuos rodinys orientuotas. Taip pat galite eksportuoti arba naikinti vieną ar daugiau publikuotų rodinių. 10.0.12 versijoje ir vėliau galite naudoti **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte asmeninę rodinio kopiją, kad galėtumėte atnaujinti rodinį arba geriau suprasti jo turinį. 
-- **Nepublikuoti rodiniai** – šis skyrius pateikia visus rodinius, importuotus į jūsų sistemą, bet kurie dar nebuvo publikuoti. Galite publikuoti, eksportuoti ar naikinti šiuos rodinius. Dėl **Greito publikavimas** veiksmo, kuris buvo pridėtas 10.0.12 versijoje, šiame skyriuje galima publikuoti kelis rodinius vienu veiksmu, naudojant esamą saugos vaidmenį ir juridinio asmens konfigūracijas. 10.0.12 versijoje ir vėlesnėse galite naudoti **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte šių rodinių kopijas, kad galėtumėte geriau suprasti jų turinį.   
+- **Publikuoti rodiniai** – šiame skyriuje išvardyti visi jūsų organizacijai publikuoti rodiniai. Iš čia galite iš naujo publikuoti rodinį po to, kai pakoreguojate saugos vaidmenis arba juridinius asmenis, į kuriuos rodinys orientuotas. Galite taip pat eksportuoti, pašalinti ar nepublikuoti peržiūrų. 10.0.12 versijoje ir vėlesnėse, galite naudoti **Įrašyti kaip asmeninę** veiksmą tam, kad sukurtumėte asmeninę peržiūros kopiją ir galėtumėte atnaujinti peržiūrą ar gauti geresnį supratimą apie jos turinį. 
+- **Nepublikuotos peržiūros** – Šis skyrius išvardyja visas organizacijos peržiūras jūsų sistemoje, kurios šiuo metu nėra publikuotos. Šiso peržiūros dažniausiai patenka į sistemą per importavimo savybes. Galite publikuoti, eksportuoti ar naikinti šiuos rodinius. Dėl **Greito publikavimas** veiksmo, kuris buvo pridėtas 10.0.12 versijoje, šiame skyriuje galima publikuoti kelis rodinius vienu veiksmu, naudojant esamą saugos vaidmenį ir juridinio asmens konfigūracijas. 10.0.12 versijoje ir vėlesnėse galite naudoti **Įrašyti kaip asmeninį** veiksmą, kad sukurtumėte šių rodinių kopijas, kad galėtumėte geriau suprasti jų turinį.
 - **Asmeniniai rodiniai** – šiame skyriuje pateikiami visi vartotojų sistemoje sukurti rodiniai. Nuo čia galite publikuoti asmeninį rodinį organizacijai arba nukopijuoti vieną ar daugiau šių rodinių kitiems vartotojams. Taip pat galite pagal poreikį eksportuoti ar naikinti šiuos rodinius.
-- **Vartotojai** – pasirinkite vartotoją, kad peržiūrėtumėte vartotojo aplankytų puslapių sąrašą. Tada galite koreguoti vartotojo galimybę naudoti personalizavimą konkrečiuose puslapiuose arba visoje sistemoje. Taip pat galite importuoti, eksportuoti arba išvalyti vartotojo personalizavimą. Be to, galite iš naujo nustatyti vartotojo funkcijų paaiškinimus. Tokiu atveju, jei vartotojas anksčiau atmetė visus iššokančiuosius langus, pristačiusius naujas funkcijas, jie bus rodomi dar kartą, kai vartotojas susidurs su šiomis funkcijomis.
-- **Sistema**: galite laikinai išjungti visų vartotojų sistemos personalizavimus. Šiuo atveju visi personalizavimai panaikinami visiems vartotojams, o visi puslapiai iš naujo nustatomi pagal numatytąją būseną. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
+- **Vartotojo parametrai** – Pasirinkite peržiūrimą vartotoją ar keiskite vartotojo galimybes personalizavimo naudojimui visoje sistemoje ar konkrečiuose puslapiuose, kuriuos vartotojas aplankė. Galite peržiūrėti ir sąveikauti su vartotojo personalizavimais sistemoje. Galite taip pat pašalinti visus personalizavimus tam vartotojui ar panaikinti funkcijos iškvietimus jam. Jei funkcijos iškvietimai yra paleidžiami iš naujo, visi iššokantys langai pristatantys naują funkciją ir vartotojo anksčiau atmesti langai pasirodys dar kartą, kai vartotojas kitą kartą susidurs su šiomis funkcijomis.
+- **Sistemos nustatymai** – Galite laikinai išjungti personalizavimą visiems vartotojams sistemoje. Tuo atveju, joks personalizavimas nebus taikomas jokiam vartotojui ir visi puslapiai bus paleidžiami iš naujo į savo nustatytąsias būsenas. Jeigu vėliau vėl įjungsite personalizavimą, visi personalizavimai bus pritaikyti iš naujo. Taip pat galite visam laikui išjungti visus visų vartotojų sistemos personalizavimus. Panaikintų personalizavimų atkurti neįmanoma. Todėl prieš atlikdami šią užduotį būtinai eksportuokite visus personalizavimus, kurių vėliau gali prireikti.
 
-Vartotojai, kurie turi prieigą prie puslapio **Personalizavimas**, taip pat gali importuoti asmeninius arba šablonų rodinius, naudodami veiksmų srities mygtuką **Importuoti rodinius**. 10.0.12 versijoje ir vėlesnėse buvo pridėtas mechanizmas, skirtas iš karto publikuoti rodinius juos importavus.  
+Vartotojai turintys prieigą prie **Personalziavimo** puslapio gali taip pat importuoti asmenines ar organizacijos peržiūras naudodami **Importavimo peržiūros** mygtuką veiksmų juostoje. 10.0.12 versijoje ir vėlesnėse buvo pridėtas mechanizmas, skirtas iš karto publikuoti rodinius juos importavus.
+
+## <a name="known-issues"></a>Žinomos problemos
+Dėl žinomų problemų sąrašo su įrašytomis peržiūromis, prašome žr. [Kurkite formas, kurio visiškai naudoja įrašytas peržiūras](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
-### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje? 
+
+### <a name="how-do-i-enable-saved-views-in-my-environment"></a>Kaip įgalinti įrašytus rodinius mano aplinkoje?
+
 > [!NOTE]
 > Norėdami įjungti funkciją **Įrašyti rodiniai**, turite įjungti personalizavimo sistemą, esančią „Finance and Operations“. Jei suasmeninimas išjungtas visoje aplinkoje, rodiniai taip pat bus išjungti, net jei atliksite toliau nurodytus veiksmus. 
 
-**10.0.9 / 33 ar naujesnis platformos atnaujinimas** Funkcija **„Išsaugoti rodiniai“** yra prieinama funkcijų valdyme bet kurioje aplinkoje. Kalbant apie kitas peržiūras funkcijas, šios funkcijos įjungimui gamyboje taikomos [Naudojimo sutarties papildomos sąlygos](https://go.microsoft.com/fwlink/?linkid=2105274) nuostatos.  
+**10.0.13 versija ir vėlesnė**
 
-**10.0.8 / 32 ar ankstesni platformos atnaujinimai** Funkciją **Išsaugoti rodiniai** galima įjungti 1 pakopos (kūrėjų / testavimo) ir 2 pakopos (smėlio dėžė) aplinkoje, kad, sekant toliau nurodytus veiksmus, būtų galima atlikti papildomus bandymus ir projektavimo pakeitimus.
+**Įrašytos peržiūros** funkcijos nebėra išankstinėje peržiūroje. Dabar ji prieinama tiesiogiai per funkcijos valdymą bet kurioje aplinkoje.
 
-1.  **Įgalinti testuojamą variantą**: vykdykite šį SQL teiginį: 
+**10.0.9 versijos per 10.0.12**
+
+**Įrašytos peržiūros** funkcija yra prieinama tiesiogiai funkcijos valdyme bet kurioje aplinkoje. Kalbant apie kitas peržiūras funkcijas, šios funkcijos įjungimui gamyboje taikomos [Naudojimo sutarties papildomos sąlygos](https://go.microsoft.com/fwlink/?linkid=2105274) nuostatos.
+
+**10.0.8 / Platformos atnaujinimas 32 ir iš anksto**
+
+**Išsaugotos peržiūros** funkcija yra įjungta Tier 1 (Dev/Test) ir Tier 2 (smėlio dėžėje) aplinkose tam, kad būtų pateiktas papildomas testavimas ir suprojektuoti tolesnių žingsnių pakeitimai.
+
+1. **Įgalinti testuojamą variantą**: vykdykite šį SQL teiginį: 
 
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
 
 2. **Iš naujo nustatykite IIS**, kad išvalytumėte statinę testuojamo varianto talpyklą. 
-
-3.  **Raskite funkciją**: eikite į darbo sritį **Funkcijų valdymas**. Jei **Įrašytieji rodiniai** sąraše nerodomi, pasirinkite **Tikrinti, ar yra naujinimų**.   
-
-4.  **Įjunkite funkciją**: funkcijų sąraše raskite funkciją **Įrašytieji rodiniai** ir išsamios informacijos srityje pasirinkite **Įjungti dabar**.
+3. **Raskite funkciją**: eikite į darbo sritį **Funkcijų valdymas**. Jei **Įrašytieji rodiniai** sąraše nerodomi, pasirinkite **Tikrinti, ar yra naujinimų**.
+4. **Įjunkite funkciją**: funkcijų sąraše raskite funkciją **Įrašytieji rodiniai** ir išsamios informacijos srityje pasirinkite **Įjungti dabar**.
 
 Visi vėlesni vartotojo seansai prasidės įjungus įrašytuosius rodinius.
 
-
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Kas atsitinka su esamais personalizavimais, kai rodiniai įgalinami? 
-Įgalinus rodinius, visi esami vartotojo ir formos personalizavimai įrašomi į naują rodinį, pavadintą **Mano rodinys**, kuris automatiškai nustatomas kaip numatytasis rodinys. Taip siekiama prieš įgalinant rodinius ir juos įgalinus užtikrinti nuoseklią vartotojo patirtį, išskyrus tuos atvejus, kai formose rodomas rodinių išrinkiklio valdiklis.  
+
+Įgalinus rodinius, visi esami vartotojo ir formos personalizavimai įrašomi į naują rodinį, pavadintą **Mano rodinys**, kuris automatiškai nustatomas kaip numatytasis rodinys. Taip siekiama prieš įgalinant rodinius ir juos įgalinus užtikrinti nuoseklią vartotojo patirtį, išskyrus tuos atvejus, kai formose rodomas rodinių išrinkiklio valdiklis.
 
 ### <a name="what-pages-support-views"></a>Kurie puslapiai palaiko rodinius? 
-Rodiniai galimi daugumoje puslapių, bet ne visuose. Rodiniai šiuo metu galimi visuose per visą ekraną rodomuose puslapiuose, išskyrus ataskaitų srityse ir darbo srityse. Puslapiai ne per visą ekraną, kuriuose yra dialogo langai, išplečiamieji dialogo langai, peržvalgos, patobulintos peržiūros, šiuo metu nepalaiko rodinių. Svarstoma, kad būsimuose naujiniuose rodiniai būtų palaikomi kitų tipų puslapiuose, pavyzdžiui, darbo srityse ir dialogo languose.   
+
+Rodiniai galimi daugumoje puslapių, bet ne visuose. Rodiniai šiuo metu galimi visuose per visą ekraną rodomuose puslapiuose, išskyrus ataskaitų srityse ir darbo srityse. Puslapiai ne per visą ekraną, kuriuose yra dialogo langai, išplečiamieji dialogo langai, peržvalgos, patobulintos peržiūros, šiuo metu nepalaiko rodinių. Svarstoma, kad būsimuose naujiniuose rodiniai būtų palaikomi kitų tipų puslapiuose, pavyzdžiui, darbo srityse ir dialogo languose.
 
 ### <a name="who-is-allowed-to-publish-views"></a>Kas gali publikuoti rodinius?
+
 Tik sistemos administratoriai ir vartotojai, kurie buvo priskirti vaidmeniui **Įrašytų rodinių administratorius**, turi teisę publikuoti rodinius. 
 
 ### <a name="why-am-i-not-able-to-save-filters-with-this-view"></a>Kodėl nepavyksta įrašyti filtrų naudojant šį rodinį? 
+
 Yra keletas priežasčių, kodėl gali nepavykti su rodiniu įrašyti filtro. 
 
 - Puslapyje gali būti nepalaikoma rodinio apraše nurodyta filtrų įrašymo funkcija. Įsidėmėkite, kad suasmeninimus ir užklausų modifikacijas galima išsaugoti kaip rodinį tik tokiuose puslapiuose, kurie turi didelius rodinių išrinkiklius. Daugiau informacijos rasite temoje **Rodinių perjungimas**. 
-
 - Reikiamame puslapyje rodiniai gali būti palaikomi netinkamai, kadangi rodinio užklausa gali būti visiškai nepaisoma arba veikti laikinoje lentelėje, kurios duomenys nėra pastovūs. 
 
-### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Kokius duomenis matysiu apsilankydamas puslapyje? 
-Puslapiuose su mažais rodinių parinkikliais (rodinyje galima išsaugoti tik suasmeninimus) matysite tuos pačius duomenis, kuriuos visada matote apsilankę puslapyje. 
+### <a name="what-data-will-i-see-when-i-visit-a-page"></a>Kokius duomenis matysiu apsilankydamas puslapyje?
 
-Puslapiuose su dideliais rodinių parinkikliais (suasmeninimus ir užklausas galima išsaugoti rodinyje) pirmiausia matysite duomenis, susietus su užklausa, kuri susieta su numatytuoju rodiniu. Yra dvi pagrindinės išimtys: jei naršote puslapyje, sudarytame iš išklotinių, išklotinės užklausa bus vykdoma nepriklausomai nuo užklausos, susijusios su numatytuoju rodiniu. Jei sukūrėte tą išklotinę įjungę rodinius, pasirinkus išklotinę atsidarys puslapis su rodiniu, susietu su ta išklotine.   
-     - Jei pateksite į puslapį ir tame įvesties taške yra užklausa, originali užklausa bus vykdoma vietoje numatytosios rodinio užklausos. Būkite atidūs, kai tai įvyksta informaciniu pranešimu, kai įkeliamas vaizdas. Taip pat galite patvirtinti įjungdami šį rodinį įsikėlus puslapiui, nes tokiu atveju užklausa vis tiek galėtų būti vykdoma.  
+Puslapiuose, kurie turi mažesnius peržiūros selektorius (tik personalizavimas gali būti įrašytas peržiūroje), matysite tokius pačius duomenis, kokius visuomet turėjote lankydamiesi puslapyje. 
 
+Puslapiams, kurie turi didelius peržiūros selektorius (tiek personalizavimo, tiek ir užklausos gali būti įrašomos peržiūroje) dažniausiai matysite duomenis, kurie yra susieti su užklausa, susieta su jūsų nustatytąja peržiūra. Esama dviejų išimčių:
 
+- Perėjus į puslapį iš plytelės, plytelės užklausa bus vykdoma neatsižvelgiant į su numatytuoju rodiniu susietą užklausą. Jei sukūrėte tą išklotinę įjungę rodinius, pasirinkus išklotinę atsidarys puslapis su rodiniu, susietu su ta išklotine.
+- Jei perėjus į puslapį įvesties vietoje yra užklausa, iš pradžių bus vykdoma ne numatytojo rodinio užklausa, o pradinė užklausa. Būkite atidūs, kai tai įvyksta informaciniu pranešimu, kai įkeliamas vaizdas. Taip pat galite patvirtinti įjungdami šį rodinį įsikėlus puslapiui, nes tokiu atveju užklausa vis tiek galėtų būti vykdoma.

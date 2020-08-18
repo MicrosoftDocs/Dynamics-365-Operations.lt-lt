@@ -3,7 +3,7 @@ title: „Azure Active Directory” EKA prisijungimo autentifikavimo įjungimas
 description: Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365 Commerce” elektroninio kasos aparato (EKA) prisijungimo funkcijas, kad būtų naudojamas „Azure Active Directory” autentifikavimas.
 author: boycezhu
 manager: annbe
-ms.date: 05/20/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: boycezhu
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 4f5a02348e8cef44424ae5d6a49de02d762ba245
-ms.sourcegitcommit: cecd97fd74ff7b31f1a677e8fdf3e233aa28ef5a
+ms.openlocfilehash: ccb2d62b09153d03b064d9661227f3499d67bca2
+ms.sourcegitcommit: dc1dcd0ccc40be5d45701114fa8c952c13488344
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3410040"
+ms.lasthandoff: 07/30/2020
+ms.locfileid: "3641038"
 ---
 # <a name="enable-azure-active-directory-authentication-for-pos-sign-in"></a>„Azure Active Directory” EKA prisijungimo autentifikavimo įjungimas
 [!include [banner](includes/banner.md)]
@@ -63,6 +63,9 @@ Norėdami susieti „Azure AD” paskyrą su darbininku, atlikite šiuos veiksmu
 1. Pasirinkite gautą „Azure AD” paskyrą ir pasirinkite **Gerai**.
 
 Darbininko informacijos puslapio laukai **Pseudonimas**, **UPN**, **Išorinis antrinis identifikatorius**, esančius skirtuke **Prekyba**, bus automatiškai užpildomi.
+
+> [!NOTE]
+> Po darbuotojo įrašo įkėlimo, jei pavyzdžiui, nauja „Azure AD“ paskyra yra susieta, slaptažodis yra pakeičiamas arba atnaujinama darbuotojo adresų knyga, jums rekomenduojama vykdyti **1060** (**Personalo**) paskirstymo grafiką tam, kad būtų sinchronizuota naujausia informaciją į kanalą. Tokiu būdu, POS programa gali gauti tikslius duomenis vartotojo autentifikavimui ir autorizavimo patikrai.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

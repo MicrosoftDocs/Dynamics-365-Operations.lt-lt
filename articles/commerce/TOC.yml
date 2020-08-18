@@ -90,6 +90,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce“ 10.0.13 (2020 m. spalio mėn.)
+                      href: get-started/whats-new-commerce-10-0-13.md
                     - name: „Commerce 10.0.12“ (2020 m. rugpjūčio mėn.)
                       href: get-started/whats-new-commerce-10-0-12.md
                     - name: „Commerce 10.0.11“ (2020 m. liepos mėn.)
@@ -127,23 +129,23 @@
             - name: Mokymosi katalogas
               items:
                 - name: Mokymosi katalogo pagrindinis puslapis
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog.md
                 - name: Verslo valdymo sprendimų priėmėjai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?
                 - name: Verslo valdymo sprendimų vartotojai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Diegimo projekto vadovai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administratoriai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Kūrėjai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partnerių pardavimai ir rinkodara
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funkcijų konsultantas
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Sprendimų architektai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/commerce/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Vartotojo sąsajos naršymas
               items:
                 - name: Vartotojo sąsajos elementai
@@ -310,6 +312,8 @@
                           href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md?toc=/dynamics365/commerce/toc.json
                         - name: Visos PVM kodų sumos ir intervalo skaičiavimo parinktys
                           href: ../finance/general-ledger/whole-amount-interval-options-sales-tax-codes.md?toc=/dynamics365/commerce/toc.json
+                        - name: Atleidimo nuo mokesčių skaičiavimas
+                          href: tax-exempt-price-inclusive.md
                     - name: El. paštu siunčiamo pranešimo šablono nustatymas
                       href: email-notification-profiles.md
                     - name: Numeracijos
@@ -386,6 +390,8 @@
                           href: define-maintain-channel-clients-registers-hw-stations.md
                         - name: EKA periferinių įrenginių ir paslaugų sveikatos patikra
                           href: pos-healthcheck.md
+                        - name: Išorinių tinklo įrenginių palaikymas
+                          href: dev-itpro/network-peripherals.md
                     - name: Ekrano maketai
                       items:
                         - name: "MPOS\_/ CPOS demonstracinių duomenų ekrano maketai"
@@ -946,6 +952,8 @@
                       href: add-accordion.md
                     - name: Skirtuko modulis
                       href: add-tab.md
+                    - name: „Iframe“ modulis
+                      href: iframe-module.md
                 - name: Rinkodaros moduliai
                   items:
                     - name: Reklaminės juostos modulis
@@ -968,6 +976,8 @@
                   items:
                     - name: Pirkimo langelio modulis
                       href: add-buy-box.md
+                    - name: Medijos galerijos modulis
+                      href: media-gallery-module.md
                     - name: Įvertinimų ir apžvalgų moduliai
                       href: ratings-reviews-modules.md
                 - name: Pirkimo moduliai
@@ -980,10 +990,14 @@
                       href: add-checkout-module.md
                     - name: Išsamios užsakymo informacijos modulis
                       href: order-confirmation-module.md
-                    - name: Parduotuvės išrinkiklio modulis
-                      href: store-selector.md
                     - name: Dovanų kortelės modulis
                       href: add-giftcard.md
+                - name: Parduotuvės ieškiklio moduliai
+                  items:
+                    - name: Žemėlapio modulis
+                      href: map-module.md
+                    - name: Parduotuvės išrinkiklio modulis
+                      href: store-selector.md
                 - name: Sąskaitos valdymo moduliai
                   items:
                     - name: Sąskaitos valdymo puslapiai ir moduliai
@@ -1938,7 +1952,7 @@
                       href: e-commerce-extensibility/add-module-config-fields.md
                     - name: Peržiūrėti ir derinti modulius
                       href: e-commerce-extensibility/test-module.md
-                    - name: Testuoti modulius naudojant maketus
+                    - name: Testuoti modulius naudojant modulių maketus
                       href: e-commerce-extensibility/test-module-mock.md
                     - name: Testuoti modulius naudojant puslapių maketus
                       href: e-commerce-extensibility/test-page-mock.md

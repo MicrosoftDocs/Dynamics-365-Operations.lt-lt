@@ -3,7 +3,7 @@ title: Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 description: Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: febef3bcc06dc1b5868a0decebee33d76110c505
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
+ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533349"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3646044"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 
@@ -35,7 +35,7 @@ ms.locfileid: "3533349"
 
 Programoje „Dynamics 365 Commerce“ nustatydami el. prekybos aplinką, galite sukonfigūruoti, kad ji veiktų su CDN tarnyba. 
 
-Jūsų pasirinktinį domeną galima įjungti konfigūruojant el. prekybos aplinką. Jį taip pat galite nustatyti naudodami aptarnavimo užklausą, kai konfigūravimo procesas baigtas. Konfigūruojant el. prekybos aplinką sugeneruojamas su aplinka susietas pagrindinio kompiuterio vardas. Toliau nurodytas šio pagrindinio kompiuterio vardo formatas, kuriame *el. prekybos-nuomotojo-vardas* yra jūsų aplinkos pavadinimas.
+Jūsų pasirinktinį domeną galima įjungti konfigūruojant el. prekybos aplinką. Jį taip pat galite nustatyti naudodami aptarnavimo užklausą, kai konfigūravimo procesas baigtas. Konfigūruojant el. prekybos aplinką sugeneruojamas su aplinka susietas pagrindinio kompiuterio vardas. Pagrindinio kompiuterio pavadinimas yra šio formato, kuriame \<*e-commerce-tenant-name*\> yra jūsų aplinkos pavadinimas:
 
 &lt;el.prekybos-numotojo-vardas&gt;.commerce.dynamics.com
 
@@ -65,7 +65,7 @@ Su „Commerce“ aplinka galima naudoti bet kurią CDN tarnybą. Toliau pateikt
 CDN sąrankos procesą sudaro tolesni bendrieji veiksmai.
 
 1. Įtraukite sąsajos serverio pagrindinį kompiuterį.
-1. Sukonfigūruokite vidinio serverio telkinį.
+1. Konfigūruoti vidinio serverio baseiną.
 1. Nustatykite maršruto parinkimo ir kaupimo talpykloje taisykles.
 
 ### <a name="add-a-front-end-host"></a>Sąsajos serverio pagrindinio kompiuterio įtraukimas
@@ -74,18 +74,20 @@ Galima naudoti bet kurią CDN tarnybą, tačiau šios temos pavyzdyje naudojama 
 
 Norėdami gauti informacijos apie tai, kaip nustatyti „Azure Front Door Service“, žr. [Greitas pasirengimas darbui: „Front Door“ profilio sukūrimas plačiai pasiekiamai visuotinei žiniatinklio programai](https://docs.microsoft.com/azure/frontdoor/quickstart-create-front-door).
 
-### <a name="configure-a-back-end-pool-in-azure-front-door-service"></a>Vidinio serverio telkinio sukonfigūravimas sprendime „Azure Front Door Service“
+### <a name="configure-a-backend-pool-in-azure-front-door-service"></a>Konfigūruoti vidinio serverio baseiną „Azure Front Door Service“
 
-Norėdami sprendime „Azure Front Door Service“ sukonfigūruoti vidinio serverio telkinį, atlikite tolesnius veiksmus.
+Vidinio serverio baseino „Azure Front Door Service“ konfigūravimui, atlikite šiuos žingsnius.
 
-1. Į vidinio serverio telkinį įtraukite **&lt;el.prek-nuomotojo-vardas&gt;.commerce.dynamics.com** kaip pasirinktinį pagrindinį kompiuterį su tuščia vidinio serverio pagrindinio kompiuterio antrašte.
-1. Dalies **Būklės patikros** lauke **Kelias** įveskite **/keepalive**.
-1. Lauke **Intervalas (sekundės)** įveskite **255**.
+1. Įtraukti **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** vidinio serverio baseiną, kaip tinkintą pagrindinį kompiuterį, kuris turi tuščią vidinio serverio pagrindinio kompiuterio antraštę.
 1. Dalyje **Apkrovos išlyginimas** palikite numatytąsias reikšmes.
 
-Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialogo langas **Vidinio serverio telkinio įtraukimas**.
+Toliau pateiktas paveikslėlis rodo **Įtraukti serverį** teksto langelį „Azure Front Door Service“ su serverio pagrindinio kompiuterio įvestu pavadinimu.
 
 ![Dialogo langas Vidinio serverio telkinio įtraukimas](./media/CDN_BackendPool.png)
+
+Toliau pateiktas paveikslėlis rodo **Įtraukti serverio baseiną** teksto langelį „Azure Front Door Service“ nustatytosios apkrovos balansavimo vertėmis.
+
+![Įtraukti serverio baseino teksto laukelio tęsinį](./media/CDN_BackendPool_2.png)
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>„Azure Front Door Service“ taisyklių nustatymas
 
@@ -121,20 +123,22 @@ Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialog
 
 ![Dialogo langas Taisyklės įtraukimas](./media/CDN_CachingRule.png)
 
-Įdiegę šią pradinę konfigūraciją, į „Azure Front Door Service“ konfigūraciją turite įtraukti savo pasirinktinį domeną. Norėdami įtraukti pasirinktinį domeną (pavyzdžiui, `www.fabrikam.com`), turite sukonfigūruoti domeno kanoninį vardą (CNAME).
+> [!WARNING]
+> Jei jūsų naudojamas domenas jau yra veikiantis ir paleistas, sukurkite paramos bilietą **Parama** dreną [„Microsoft Dynamics Lifecycle Services“](https://lcs.dynamics.com/) tam, kad gautumėte pagalbą tolesniems savo veiksmams. Dėl išsamesnės informacijos, žr.  [Gauti pagalbą „Finance and Operations“ programoms arba „Lifecycle Services (LCS)“](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
+
+Jei jūsų domenas yra naujas ir nėra iš anksto egzistuojantis gyvas domenas, galite įtraukti savo tinkintą domeną į „Azure Front Doore Service“ kongirūravimą. Tai leis žiniatinklio srautui vesti jūsų svetainę pro „Azure Front Door“ pavyzdį. Norėdami įtraukti pasirinktinį domeną (pavyzdžiui, `www.fabrikam.com`), turite sukonfigūruoti domeno kanoninį vardą (CNAME).
 
 Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialogo langas **CNAME konfigūravimas**.
 
 ![Dialogo langas CNAME konfigūravimas](./media/CNAME_Configuration.png)
-
-> [!NOTE]
-> Jei jūsų naudosimas domenas jau aktyvus ir paleistas, kreipkitės į palaikymo tarnybą, kad šį domeną būtų galima naudoti su „Azure Front Door Service“ ir nustatyti testą.
 
 Sertifikatą valdyti galite naudodami „Azure Front Door Service“ arba galite naudoti nuosavą pasirinktinio domeno sertifikatą.
 
 Toliau pateiktoje iliustracijoje parodytas „Azure Front Door Service“ dialogo langas **Pasirinktinio domeno HTTPS**.
 
 ![Dialogo langas Pasirinktinio domeno HTTPS](./media/Custom_Domain_HTTPS.png)
+
+Dėl išsamių instrukcijų apie kliento domeno įraukimą į savo „Azure Front Door“, žr. [Įtraukti tinkintą domentą į savo „Front Door“](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain).
 
 Dabar jūsų CDN turėtų būti tinkamai sukonfigūruotas, kad jį būtų galima naudoti su jūsų „Commerce“ svetaine.
 

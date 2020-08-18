@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7de7af1084b62a7248eeda54df215e56f2541286
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173205"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621333"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -86,7 +86,7 @@ Produktų kategorijos priskyrimai | msdyn_productcategoryassignments | Norint pr
 Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir produkto variantų koncepcijas „Common Data Service“ galima gauti tokiu būdu:
 
 - **Produktai su potipio produktu** yra patys save apibrėžiantys produktai. Nereikia nurodyti jokių dimensijų. Pavyzdys yra konkreti knyga. Šiems produktams vienas įrašas sukuriamas **produkto** objekte, o kitas įrašas sukuriamas **msdyn\_sharedproductdetails** objekte. Nesukuriamas produktų šeimos įrašas.
-- **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant, produkto lentelėje sukuriamas vienas įrašas kiekvienam variantui. Šis įrašas apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma objekte **msdyn\_sharedproductdetails**. (Ši bendroji informacija saugoma bendrajame produkte.) Be to, kiekvienam bendrajam produktui sukuriamas vienas produktų šeimos įrašas. Bendrojo produkto informacija sinchronizuojama su Common Data Service sukūrus išleistą bendrąjį produktą (bet prieš išleidžiant variantus).
+- **Bendrieji produktai** naudojami kaip bendri produktai, turintys aprašą ir taisykles, apibrėžiančias verslo procesų veikimo būdą. Remiantis šiais apibrėžimais galima generuoti išskirtuosius produktus, žinomus kaip produkto variantus. Pavyzdžiui, marškinėliai yra bendrasis produktas, kuris gali turėti spalvos ir dydžio dimensijas. Galima kurti variantus, turinčius skirtingas šių dimensijų kombinacijas, pavyzdžiui, mažus mėlynus marškinėlius arba vidutinio dydžio žalius marškinėlius. Integruojant, produkto lentelėje sukuriamas vienas įrašas kiekvienam variantui. Šis įrašas apima konkretaus varianto informaciją, pavyzdžiui, skirtingas dimensijas. Bendroji produkto informacija saugoma objekte **msdyn\_sharedproductdetails**. (Ši bendra informacija laikoma produkto vadove.) Produkto vadovo informacija sinchronizuojama į „Common Data Service“ iš karto po to, kai išleistas produkto vadovas yra sukuriamas (prieš tai kai išleidžiami variantai).
 - **Išskirtieji produktai** nurodo visus produktų potipio produktus ir visus produkto variantus. 
 
 ![Produktų duomenų modelis](media/dual-write-product.png)

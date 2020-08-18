@@ -3,7 +3,7 @@ title: Grynųjų pinigų srautų prognozavimas
 description: Šioje temoje pateikiama pinigų srautų prognozės proceso apžvalga. Taip pat paaiškinama, kaip pinigų srautų prognozės integruojamos į kitus sistemos modulius.
 author: saraschi2
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 08/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9795758a60d7913d306488ae6fbbfb7f9865cfc4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
+ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188423"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3653781"
 ---
 # <a name="cash-flow-forecasting"></a>Grynųjų pinigų srautų prognozavimas
 
@@ -102,7 +102,14 @@ Apskaičiuokite pinigų srauto prognozę naudodami puslapį **Pinigų srautų pr
 - Norėdami panaikinti visas pinigų srauto prognozės operacijas ir perskaičiuoti, nustatykite lauko **Pinigų srauto prognozės skaičiavimo metodas** parinktį **Iš viso**. Rekomenduojame naudoti šį metodą, jei ilgai neatnaujinote pinigų srautų prognozių. 
 - Norėdami atnaujinti tik su naujomis operacijomis susijusią esamą pinigų srautų informaciją, nustatykite lauko **Pinigų srauto prognozės skaičiavimo metodas** parinktį **Naujas**. Puslapyje bus rodoma data, kai paskutinį kartą buvo paleistas jūsų pinigų srauto skaičiavimas.
 
-Taip pat galite naudoti savo pinigų srauto prognozavimo paketinį apdorojimą. Norėdami, kad būtų užtikrinamas reguliarus jūsų prognozavimo analizės naujinimas, nustatykite pasikartojantį pinigų srauto prognozės skaičiavimo paketinį procesą.
+Taip pat galite naudoti savo pinigų srauto prognozavimo paketinį apdorojimą. Siekiant užtikrinti, kad jūsų prognozavimo analitika yra tinkamai atnaujinta, nustatykite periodinio paketinį apdorojimą srauto prognozavimo apskaičiavimui.
+
+Versijoje 10.0.13, buvo išleistas papildomas apskaičiavimo procesas naudojantis proceso automatizuotą tvarkaraštį, kuris numato pinigų srautų apskaičiavimo veiksmą. Tai padaroma naudojant **Pinigų srautų prognozavimo automatizavimo** funkciją**Funkcijos valdymo** darbo srityje. Kai jis įjungtas, pasirinkite **Pinigų srautų prognozavimo automatizavimo** nuorodą tam, kad būtų rodomas naujas automatizavimo puslapis, kuriame galite planuoti pinigų srautų apskaičiavimo procesą. Naujos pinigų srautų prognozavimo darbotvarkės sukūrimui, pasirinkite **Sukurti naują apdorojimo automatizavimą** ir tuomet pasirinkite **Pinigų srautų prognozavimo automatizavimą** **Darbotvarkės tipo** iškrentančiame meniu. Privalote nustatyti tvarkaraštį kiekvienai bendrovei, kuriai atnaujinate pinigų srautų prognozavimo duomenis.  Šis puslapis taip pat rodo, kuriuos pinigų srautų prognozavimo automatizavimo užduotys laukia ir paskutinę užbaigtą užduotį.  
+
+> [!NOTE] 
+> Jei esančios pakuotės užduotys jau yra suplanuotos pinigų srautų prognozėms, gausite klaidos pranešimą ir nebegalėsite įjungti šios funkcijos. Esamos pakuotės užduotys turėts būti panaikintos prieš tai, kai galėsite įjungti šią funkciją. 
+
+Norėdami gauti daugiau informacijos, [žr. Apdorojimo automatizavimas](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 ### <a name="reporting"></a>Ataskaitos
 
@@ -128,7 +135,7 @@ Darbo srityje **Pinigų apžvalga – visos įmonės** rodoma pinigų srauto pro
 
 Darbo srityje **Pinigų apžvalga – dabartinė įmonė** rodoma pinigų srautų prognozavimo analizė įmonės nurodyta apskaitos valiuta. Analizei naudojama apskaitos valiuta nurodoma puslapyje **Didžioji knyga**. Šioje darbo srityje rodoma pinigų srauto prognozavimo ir dabartinės įmonės banko sąskaitų likučių apžvalga. Grynųjų pinigų įplaukų ir išmokų diagramoje apžvelgiami būsimi pinigų perkėlimai ir likučiai apskaitos valiuta, taip pat pateikiama išsami informacija apie numatytas operacijas. Taip pat galite matyti prognozuojamus valiutos likučius.
 
-Norėdami gauti daugiau informacijos apie pinigų srautų prognozavimo analizę, žr. temą „Power BI“ turinio grynųjų pinigų apžvalga.
+Dėl išsamesnės informacijos apie pinigų srautų prognozavimo analitiką, žr. [Pinigų apžvalgos „Power BI“ turinio](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content) temą.
 
 Be to, toliau nurodytuose puslapiuose galite peržiūrėti tam tikrų sąskaitų, užsakymų ir prekių pinigų srautų prognozavimo duomenis.
 

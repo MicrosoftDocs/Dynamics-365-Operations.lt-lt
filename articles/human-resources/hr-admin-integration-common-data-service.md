@@ -3,7 +3,7 @@ title: „Common Data Service“ integravimo konfigūravimas
 description: Galite įjungti arba išjungti integravimą tarp „Common Data Service“ ir „Dynamics 365 Human Resources“. Taip pat galite peržiūrėti sinchronizavimo išsamią informaciją, išvalyti sekimo duomenis ir iš naujo sinchronizuoti objektą, kad būtų lengviau diagnozuoti duomenų problemas tarp dviejų aplinkų.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7aad8217d48917d6855046a6810fe994f5564d94
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 8cbead2961c4576a5394080aae2fec109bce3f10
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431319"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621309"
 ---
 # <a name="configure-common-data-service-integration"></a>„Common Data Service“ integravimo konfigūravimas
 
@@ -66,6 +66,9 @@ Galbūt norėsite išjungti integravimą šiais atvejais:
 - Norėdami išjungti integravimą, nustatykite parinktį į **Ne**.
 
 [![„Common Data Service“ integravimo įjungimas arba išjungimas](./media/hr-enable-or-disable-common-data-service-integration.png)](./media/hr-enable-or-disable-common-data-service-integration.png)
+
+> [!WARNING]
+> Primygtinai rekomenduojame išjungti „Common Data Service“ integravimą atliekant duomenų perkėlimo užduotis. Dideli duomenų įkėlimai gali reikšmingai pabloginti veikimą. Pavyzdžiui, 2000 darbuotojų atnaujinimas gali užimti kelias valandas, kol integravimas bus įjungtas ir mažiau nei valandą jo išjungimui.  Šiame pavyzdyje pateikti skaičiai yra tik demonstracijos tikslais. Tikslus laiko kiekis įrašų importavimui gali labai skirtis priklausomai nuo daugybės faktorių. 
 
 ## <a name="view-data-integration-details"></a>Duomenų integravimo išsamios informacijos apžvalga
 

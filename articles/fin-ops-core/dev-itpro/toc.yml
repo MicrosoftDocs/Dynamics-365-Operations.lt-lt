@@ -14,6 +14,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: "„Platform” naujinimai, skirti 10.0.13 (2020\_m. spalio mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: "„Platform“ naujinimai, skirti 10.0.12 (2020\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-update-10-0-12.md
                 - name: "„Platform“ naujinimai, skirti 10.0.11 (2020\_m. liepos mėn.)"
@@ -82,6 +84,8 @@
           items:
             - name: Duomenų integravimo (importo / eksporto) strategijos pasirinkimas
               href: data-entities/integration-overview.md
+            - name: Prioritetu grindžiamas ribojimas
+              hreF: data-entities/priority-based-throttling.md
             - name: Duomenų integravimo API sąsajos
               items:
                 - name: Duomenų valdymo paketo REST API
@@ -152,6 +156,8 @@
                           items:
                             - name: Objektų ir laukų susiejimo tinkinimas
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Juridinio subjekto redagavimas nustačius dvigubą rašymą
+                              href: data-entities/dual-write/edit-legal-entity.md
                             - name: Klaidų valdymas ir įspėjimo pranešimai
                               href: data-entities/dual-write/errors-and-alerts.md
                             - name: Programos ciklo valdymas

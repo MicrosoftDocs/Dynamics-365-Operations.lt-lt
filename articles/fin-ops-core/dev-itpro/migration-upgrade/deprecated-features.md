@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias buvo numatyta pašalinti iš „Dynamics 365 for Finance and Operations“ ir ankstesnių šio produkto leidimų.
 author: sericks007
 manager: AnnBe
-ms.date: 06/23/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8a73231a8286a412e9ec8a4eef6c58d7afd73ec0
-ms.sourcegitcommit: bdfc84aa7f607511981c0b2f20f03fabcb773510
+ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
+ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3500417"
+ms.lasthandoff: 07/31/2020
+ms.locfileid: "3645394"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -62,7 +62,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Programos |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama: nuo 2020 m. balandžio 1 d. programuotojai turi naudoti naująją API. |
+| **Būsena**                         | Nebenaudojamas: Nuo 2020 m. balandžio 1 d. kūrėjai turėtų naudoti API platformą esančią klasėje **„HasFunction“**. |
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
 
@@ -72,7 +72,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Platforma |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama: nuo 2020 m. balandžio 1 d. programuotojai turi naudoti naująją API. |
+| **Būsena**                         | Nebenaudojamas: Nuo 2020 m. balandžio 1 d. kūrėjai turėtų naudoti API platformą, esančią klasėje **„HasFunction“**. |
 
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()

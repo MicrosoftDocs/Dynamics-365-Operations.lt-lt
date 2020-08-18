@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: fdf4464e5b6fc6f2f4b99dcac80eb199799bf13d
-ms.sourcegitcommit: 6d6aa016c4971b0673d461b82fd80b060ae5f7a1
+ms.openlocfilehash: e9ca2d2cd018777b4c5c01fb10d63505af3940c4
+ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3268775"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "3652112"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Kas pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.10 versijoje (2020 m. kovo mėn.)?
 
@@ -39,11 +39,11 @@ ms.locfileid: "3268775"
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 - [Patobulinimas, skirtas naudoti esamas sveriamo kiekio žymes, naudojant sandėlio valdymą](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
-- [Gaunamų krovinių valdymo patobulinimai, skirti sandėlio valdymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement) – daugiau informacijos žr. [Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas](../warehousing/inbound-load-handling.md).
-- [Etikečių spausdinimo patobulinimai, skirti sandėlio valdymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management) – daugiau informacijos žr. [Numerio lentelės etikečių dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
+- [Gaunamų krovinių valdymo patobulinimai, skirti sandėlio valdymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Dėl daugiau informacijos, žr.[Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas](../warehousing/inbound-load-handling.md).
+- [Su sandėlio programa gaunami etiketės spausdinimo papildymai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Daugiau informacijos, žr. [Numerio lentelės etikečių dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
 - [Įgalinus išankstinio apdorojimo filtrus, į pagrindinį planavimą įeina elementai su turimomis atsargomis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 - [Nauji gamybos srities duomenų objektai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
-- [Sandėlio procesų kokybės valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes) – Daugiau informacijos žr. [Sandėlio procesų kokybės valdymas](../inventory/quality-management-for-warehouses-processes.md).
+- [Sandėlio procesų kokybės valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Dėl platesnės informacijos, žr. [Kokybės valdymas sandėlio apdorojimams](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

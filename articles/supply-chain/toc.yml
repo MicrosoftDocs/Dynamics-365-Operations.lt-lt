@@ -70,12 +70,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Supply Chain Management“ 10.0.13 (2020 m. spalio mėn.)
+                      href: get-started/whats-new-scm-10-0-13.md
                     - name: „Supply Chain Management 10.0.12“ (2020 m. rugpjūčio mėn.)
                       href: get-started/whats-new-scm-10-0-12.md
                     - name: „Supply Chain Management 10.0.11“ (2020 m. liepos mėn.)
                       href: get-started/whats-new-scm-10-0-11.md
-                    - name: „Supply Chain Management 10.0.10“ (2020 m. gegužės mėn.)
-                      href: get-started/whats-new-scm-10-0-10.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -109,23 +109,23 @@
             - name: Mokymosi katalogas
               items:
                 - name: Mokymosi katalogo pagrindinis puslapis
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verslo valdymo sprendimų priėmėjai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-bdm.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Verslo valdymo sprendimų vartotojai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-business-user.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-business-user.md
                 - name: Diegimo projekto vadovai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-project-manager.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-project-manager.md
                 - name: Administratoriai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-administrator.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-administrator.md
                 - name: Kūrėjai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-developer.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-developer.md
                 - name: Partnerių pardavimai ir rinkodara
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-partner-sales.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-partner-sales.md
                 - name: Funkcijų konsultantas
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-functional-consultant.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-functional-consultant.md
                 - name: Sprendimų architektai
-                  href: ../fin-ops-core/fin-ops/get-started/learning-catalog-solution-architect.md?toc=/dynamics365/supply-chain/toc.json
+                  href: ./get-started/learning-catalog-solution-architect.md
             - name: Vartotojo sąsajos naršymas
               items:
                 - name: Vartotojo sąsajos elementai
@@ -1257,6 +1257,8 @@
               items:
                 - name: Atsargų žurnalai
                   href: inventory/inventory-journals.md
+                - name: Atsargų žurnalų patvirtinimo darbo eigos
+                  href: inventory/inventory-journal-workflow.md
                 - name: Atsargų vietos
                   href: inventory/inventory-locations.md
                 - name: Atsargų būsenos
@@ -1267,6 +1269,8 @@
                   href: inventory/tasks/maintain-barcode-types.md
                 - name: Turimų atsargų tikrinimas
                   href: inventory/tasks/check-availability-stock.md
+                - name: Turimų atsargų sąrašas
+                  href: inventory/inventory-on-hand-list.md
                 - name: Atsargų lygių sandėlyje inicijavimas
                   href: inventory/tasks/initialize-stock-levels-warehouse.md
                 - name: Faktinių atsargų perkėlimas sandėlyje
@@ -1951,7 +1955,7 @@
                       href: production-control/tasks/define-resource-capabilities.md
                     - name: Maršrutai ir operacijos
                       href: production-control/routes-operations.md
-                    - name: Sandėlio darbo strategijos
+                    - name: Darbo strategijos
                       href: warehousing/warehouse-work-policies.md
                     - name: Darbo laiko planavimo ypatybių kūrimas
                       href: production-control/tasks/create-working-time-scheduling-properties.md
@@ -2589,6 +2593,8 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Vietos produkto dimensijos maišymas
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Kokybės patikra
+                  href: warehousing/quality-check.md
             - name: Sandėlio siuntimo operacijos
               items:
                 - name: 'Rezervavimai, atliekami valdant sandėlį'
@@ -2647,10 +2653,14 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Papildymo pagal zoną ribinės vertės
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Papildymas pagal vietos erdvę
+                      href: warehousing/replenishment-over-location-capacity.md
                 - name: Krovinio kūrimas ir siuntos
                   items:
                     - name: Tvirtinimas ir perkėlimas
                       href: warehousing/confirm-and-transfer.md
+                    - name: Siunčiamų siuntų patvirtinimas naudojant paketines užduotis
+                      href: warehousing/confirm-outbound-shipments-from-batch-jobs.md
                     - name: Išplėstinis krovinio kūrimas bangos metu
                       href: warehousing/advanced-load-building-during-wave.md
                     - name: Išleidimo į sandėlį taisyklė
@@ -2679,10 +2689,8 @@
               items:
                 - name: Sandėlio darbo strategijos
                   items:
-                    - name: Sandėlio darbo strategijų apžvalga
+                    - name: Darbo strategijos
                       href: warehousing/warehouse-work-policies.md
-                    - name: Sandėlio darbo strategijų nustatymas
-                      href: warehousing/tasks/set-up-warehouse-work-policies-2016-05.md
                     - name: Atsargų perkėlimas su susietu darbu modulyje Sandėlio valdymas
                       href: warehousing/move-inventory-associated-work.md
                     - name: Darbo klasės kūrimas
@@ -2715,7 +2723,7 @@
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
                     - name: Sandėlio valdymo turimų įrašų valymo užduotis
                       href: warehousing/onhand-cleanup.md
-                    - name: Atsargų žurnalas
+                    - name: Atsargų žurnalai
                       href: inventory/inventory-journals.md
                     - name: Atsargų vieta
                       href: inventory/inventory-locations.md

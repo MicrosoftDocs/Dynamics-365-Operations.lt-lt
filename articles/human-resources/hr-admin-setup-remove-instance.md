@@ -3,7 +3,7 @@ title: Egzemplioriaus šalinimas
 description: Šiame straipsnyje pateikiami veiksmai, skirti „Microsoft Dynamics 365 Human Resources“ bandomosios versijos arba gamybos aplinkai pašalinti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/03/2020
+ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17f299f81d1326dfb06c11a6125acc54b8ef2a6e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
+ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431204"
+ms.lasthandoff: 07/27/2020
+ms.locfileid: "3621385"
 ---
 # <a name="remove-an-instance"></a>Egzemplioriaus šalinimas
 
@@ -67,8 +67,21 @@ Norėdami „Human Resources“ aplinką pašalinti iš esamos „Power Apps“ 
 1. Kreipkitės į palaikymo tarnybą, kad inicijuotumėte pašalinimo užklausą.
 2. Palaikymo tarnybos komanda pašalinimo užklausą inicijuos kartu su „Human Resources DevOps“ komanda. 
 3. Gavę pranešimą, kad aplinka pašalinta, tęskite toliau.
-4.  Prisijunkite prie LCS naudodami paskyrą, kurią naudojote prisijungti prie „Human Resources“. 
+4. Prisijunkite prie LCS naudodami paskyrą, kurią naudojote prisijungti prie „Human Resources“. 
 5. Pasirinkite „Human Resources“ projektą, kuriame yra reikiama aplinka. 
 6. LCS projekte pasirinkite plytelę **Programos „Human Resources“ valdymas**. 
 7. Pasirinkite egzempliorių, kurį norite pašalinti ir kuris turi būti pažymėtas diegimo būsena **Nepavyko**.
 8. Pasirinkite **Pašalinti egzempliorių** ir patvirtinkite savo sprendimą. 
+
+## <a name="recover-a-soft-deleted-environment"></a>Švelniai pašalintos aplinkos atkūrimas
+
+Jei pašalinate „Power Apps“ aplinką, prie kurios yra prijunta žmogiškųjų išteklių aplinka. žmogiškųjų išteklių aplinkos būsena „Lifecycle Services“ bus **Švelniai pašalinta**. Tokiu atveju, naudotojai negalės prisijungti prie žmogiškųjų išteklių.
+
+Aplinkos atkūrimui:
+
+1. Vadovaukitės instrukcijomis [Atkurti „Power Apps“ aplinką](/power-platform/admin/recover-environment.md).
+
+2. Susisiekite su pagalbos skyriumi dėl žmogiškųjų išteklių aplinkos atkūrimo. Norėdami gauti daugiau informacijos, [Gauti pagalbos](hr-admin-troubleshooting-support.md).
+
+> [!Warning]
+> „Power Apps“ aplinkos yra saugojamos tik septynias dienas po pašalinimo. Privalote atkurti aplinką per septynių dienų laikotarpį.
