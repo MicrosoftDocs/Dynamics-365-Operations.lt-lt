@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ab0c66ad0536b20b1ab23e9498ca3cb56b98ccf5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: d601ca9b28bb720fd05e25ef66df7be12a08f7e0
+ms.sourcegitcommit: e2a953bea055611023c00a55c00391d14daaca25
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530264"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696135"
 ---
 # <a name="supply-chain-management-home-page"></a>„Supply Chain Management“ pagrindinis puslapis
 
@@ -89,8 +89,6 @@ Toliau pateikiamuose techninių konferencijų įrašuose aptariamos ankstesnių 
   - [Produkto konfigūracija „Microsoft Dynamics AX“](https://youtu.be/zotrj3SbCl4)
 - **Sandėlio valdymas:**
   - [Išnaudokite visus sandėlio valdymo sistemos pranašumus](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
-  - [Išplėstinis R3 sandėlio valdymas – gaunamų apdorojimas ir min. / maks. papildymas](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
-  - [Išplėstinis R3 sandėlio valdymas – viena gyvenimo diena, siunčiamų apdorojimas ir paklausos papildymas](https://youtu.be/Og0gLlVp7jA)
   - [Naujojo „Microsoft Dynamics AX“ 2012 R3 sandėlio valdymo žymės](https://youtu.be/5w1MngVchBA)
   - [„Dynamics AX 2012 R3“: išplėstinis sandėlio valdymas – viena gamybos proceso diena](https://www.youtube.com/embed/QUxXUrN-7n4)
 - **Gamybos kontrolės vaizdo įrašai:**
