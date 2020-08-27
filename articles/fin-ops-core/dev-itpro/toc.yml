@@ -156,6 +156,8 @@
                           items:
                             - name: Objektų ir laukų susiejimo tinkinimas
                               href: data-entities/dual-write/customizing-mappings.md
+                            - name: Kelių objektų schemų tvarkymas
+                              href: data-entities/dual-write/multiple-entity-maps.md
                             - name: Juridinio subjekto redagavimas nustačius dvigubą rašymą
                               href: data-entities/dual-write/edit-legal-entity.md
                             - name: Klaidų valdymas ir įspėjimo pranešimai

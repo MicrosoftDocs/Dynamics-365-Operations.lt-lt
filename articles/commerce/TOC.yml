@@ -408,12 +408,6 @@
                           href: set-up-manage-images-retail-mpos.md
                         - name: Klientų vaizdai EKA
                           href: pos-image.md
-                    - name: Kliento užsakymai
-                      items:
-                        - name: Kliento MPOS užsakymai
-                          href: customer-orders-overview.md
-                        - name: Hibridiniai kliento užsakymai
-                          href: hybrid-customer-orders.md
                     - name: Pardavimo darbuotojai
                       items:
                         - name: EKA komisinių sekimas naudojant pardavimo grupes
@@ -630,6 +624,8 @@
                       href: personalized-recommendations.md
                     - name: Personalizuotų rekomendacijų atsisakymas
                       href: personalization-gdpr.md
+                - name: Įjungti „pirkti panašios išvaizdos“ rekomendacijas
+                  href: shop-similar-looks.md
                 - name: EKA patirtys
                   items:
                     - name: Produktų rekomendacijų įtraukimas į EKA
@@ -692,6 +688,12 @@
                       href: tasks/create-product-packages-purchase-orders.md
         - name: Užsakymų tvarkymas
           items:
+            - name: Kliento užsakymai
+              items:
+                - name: Kliento MPOS užsakymai
+                  href: customer-orders-overview.md
+                - name: Hibridiniai kliento užsakymai
+                  href: hybrid-customer-orders.md
             - name: Pardavimo užsakymai
               items:
                 - name: Skambučių centro užsakymo kūrimas
@@ -988,6 +990,12 @@
                       href: cart-icon-module.md
                     - name: Pirkimo užbaigimo modulis
                       href: add-checkout-module.md
+                    - name: Mokėjimo modulis
+                      href: payment-module.md
+                    - name: Siuntimo adreso modulis
+                      href: ship-address-module.md
+                    - name: Pristatymo parinkčių modulis
+                      href: delivery-options-module.md
                     - name: Išsamios užsakymo informacijos modulis
                       href: order-confirmation-module.md
                     - name: Dovanų kortelės modulis
@@ -1974,6 +1982,8 @@
                       href: e-commerce-extensibility/extend-module-definition.md
                     - name: Slapukų API peržiūra
                       href: e-commerce-extensibility/cookie-api-overview.md
+                    - name: Interaktyviųjų komponentų peržiūra
+                      href: e-commerce-extensibility/interactive-components.md
                     - name: Globalizuoti modulius naudojant klasę „CultureInfoFormatter”
                       href: e-commerce-extensibility/globalize-modules.md
                 - name: Kurti veiksmus su duomenimis
@@ -2026,6 +2036,10 @@
                   items:
                     - name: Scenarijaus injektoriai
                       href: e-commerce-extensibility/script-injector.md
+                - name: Jungtys
+                  items:
+                    - name: Jungčių konfigūravimas ir įjungimas
+                      href: e-commerce-extensibility/connectors.md
                 - name: Telemetrija ir analizė
                   items:
                     - name: Telemetrijos registravimo programa
@@ -2042,6 +2056,8 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Būsimi „Retail SDK“ pakeitimai
                   href: dev-itpro/UpcomingSDKChanges.md
+                - name: Svarbūs naujinimai ir ALM pakeitimai iš versijos 10.0.10 į 10.0.13
+                  href: dev-itpro/dev-changes-10-13.md
                 - name: „Commerce“ ir „Finance and Operations“ kūrimo sistemų suliejimas
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: „Retail SDK“ perkėlimas iš „Visual Studio 2015“ į „Visual Studio 2017“
@@ -2118,15 +2134,11 @@
                   href: dev-itpro/hardware-device-extension.md
             - name: „Retail Server“ išplečiamumas
               items:
-                - name: „Commerce Scale Unit“ „OData“ valdiklio išplėtimas
-                  href: dev-itpro/extend-retail-server-odata-controller.md
                 - name: „Commerce Scale Unit“ kliento ir vartotojo API
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Numatytojo „Commerce Scale Unit“ metaduomenų valdiklio išplėtimas
-                  href: dev-itpro/extend-metadata.md
-                - name: CRT tarnybos iškvietimas neprisijungus
-                  href: dev-itpro/call-crt-service-offline.md
-                - name: Naujo „Retail Server“ plėtinio kūrimas
+                - name: Kurti naują „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir vėlesnė versija)
+                  href: dev-itpro/retail-server-icontroller-extension.md
+                - name: Kurti naują „Retail Server“ plėtinio API („Retail SDK“ 10.0.11 ir ankstesnė versija)
                   href: dev-itpro/retail-server-extension.md
                 - name: „Retail Typescript“ ir C# tarpiniai serveriai
                   href: dev-itpro/typescript-proxy-retail-pos.md
@@ -2138,16 +2150,12 @@
                   href: dev-itpro/crt-services.md
                 - name: CRT ir „Retail Server“ išplečiamumas
                   href: dev-itpro/commerce-runtime-extensibility.md
-                - name: Kliento nuostatų duomenų įtraukimas į kanalų duomenų bazes
-                  href: dev-itpro/add-customer-preference-channel.md
                 - name: Mažmeninės prekybos kanalų slaptųjų raktų tvarkymas
                   href: dev-itpro/manage-secrets.md
                 - name: CRT išplečiamumas ir paleidikliai
                   href: dev-itpro/commerce-runtime-extensibility-trigger.md
                 - name: Operacijų blokavimas naudojant paleidiklius
                   href: dev-itpro/trigger-example-blocking-transaction.md
-                - name: Grąžinimo strategijos įgyvendinimas naudojant paleidiklius
-                  href: dev-itpro/trigger-example-return-policy.md
                 - name: Lojalumo pratęsimas
                   href: dev-itpro/retail-sdk/loyalty-extension-sample.md
                 - name: Važtaraščių plėtinių taškai

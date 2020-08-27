@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2020\_m. rugpjūčio 6\_d."
+          href: hr-whats-new-2020-08-06.md
         - name: "2020\_m. liepos 23\_d."
           href: hr-whats-new-2020-07-23.md
         - name: "2020\_m. liepos 8\_d."
@@ -23,16 +25,16 @@
           href: hr-whats-new-2020-04-13.md
         - name: 2020 m. balandžio 3 d.
           href: hr-whats-new-2020-04-03.md
-        - name: "2020\_m. kovo 24\_d."
-          href: hr-whats-new-2020-03-24.md
-        - name: "2020\_m. kovo 19\_d."
-          href: hr-whats-new-2020-03-19.md
-        - name: "2020\_m. kovo 10\_d."
-          href: hr-whats-new-2020-03-10.md
-        - name: "2020\_m. kovo 3\_d."
-          href: hr-whats-new-2020-03-03.md
         - name: Skyriaus Kas nauja 2020 m. archyvai
           items:
+            - name: "2020\_m. kovo 24\_d."
+              href: hr-whats-new-2020-03-24.md
+            - name: "2020\_m. kovo 19\_d."
+              href: hr-whats-new-2020-03-19.md
+            - name: "2020\_m. kovo 10\_d."
+              href: hr-whats-new-2020-03-10.md
+            - name: "2020\_m. kovo 3\_d."
+              href: hr-whats-new-2020-03-03.md
             - name: "2020\_m. vasario 25\_d."
               href: hr-whats-new-2020-02-25.md
             - name: "2020\_m. vasario 18\_d."
@@ -225,8 +227,6 @@
               href: hr-setup-parameters.md
             - name: Bendrai naudojamų „Human Resources“ parametrų konfigūravimas
               href: hr-setup-shared-parameters.md
-            - name: „Human Resource“ darbo eigų nustatymas
-              href: hr-setup-workflows.md
             - name: Susipažinkite su datos ir laiko laukais
               href: hr-setup-date-time-fields.md
         - name: Organizacijos parametrų konfigūravimas
@@ -383,6 +383,8 @@
               href: hr-personnel-actions-faq.md
             - name: Darbo eigų naudojimas darbuotojų informacijai valdyti
               href: hr-workflow-manage-employee-information.md
+            - name: Peržiūrėti ir tvarkyti adreso keitimus
+              href: hr-personnel-view-address-changes.md
             - name: Pareigų ataskaitų ryšių modifikavimas
               href: hr-personnel-modify-reporting-relationships-position.md
             - name: Darbininko informacijos įvedimas
@@ -395,8 +397,6 @@
               href: hr-personnel-loan-items.md
             - name: Tęstinumo plano kūrimas
               href: hr-personnel-develop-succession-plan.md
-            - name: Projekto tabelių įvedimas
-              href: hr-personnel-enter-project-timesheets.md
             - name: Masinės samdos projektai
               href: hr-personnel-mass-hire-projects.md
             - name: Masinės samdos projekto kūrimas
