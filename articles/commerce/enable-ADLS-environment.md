@@ -19,97 +19,99 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 83b829306c2da2d10924e547fd3cac6ae6781db3
-ms.sourcegitcommit: fdc5dd9eb784c7d8e75692c8cdba083fe0dd87ce
+ms.openlocfilehash: 27e4f1c751ee865b0df536f3c1912cb1d8946032
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3404191"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665007"
 ---
-# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="5a02b-103">„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje</span><span class="sxs-lookup"><span data-stu-id="5a02b-103">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>
+# <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a><span data-ttu-id="31272-103">„Azure Data Lake Storage“ įgalinimas „Dynamics 365 Commerce“ aplinkoje</span><span class="sxs-lookup"><span data-stu-id="31272-103">Enable Azure Data Lake Storage in a Dynamics 365 Commerce environment</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="5a02b-104">Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.</span><span class="sxs-lookup"><span data-stu-id="5a02b-104">This topic explains how to enable and test Azure Data Lake Storage for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
+<span data-ttu-id="31272-104">Šioje temoje paaiškinama, kaip įjungti ir tikrinti „Azure Data Lake Storage“ „Dynamics 365 Commerce“ aplinkoje. Tai yra būtina sąlyga norint įgalinti produkto rekomendacijas.</span><span class="sxs-lookup"><span data-stu-id="31272-104">This topic explains how to enable and test Azure Data Lake Storage for a Dynamics 365 Commerce environment, which is a prerequisite for enabling product recommendations.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="5a02b-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="5a02b-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="31272-105">Peržiūrėti</span><span class="sxs-lookup"><span data-stu-id="31272-105">Overview</span></span>
 
-<span data-ttu-id="5a02b-106">Sprendime „Dynamics 365 Commerce“ visų produktų ir operacijų informacija sekama aplinkos objektų saugykloje.</span><span class="sxs-lookup"><span data-stu-id="5a02b-106">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="5a02b-107">Norint, kad šiuos duomenis būtų galima pasiekti naudojant kitas „Dynamics 365“ tarnybas, pvz., duomenų analizę, verslo įžvalgas ir personalizuotas rekomendacijas, reikia sujungti aplinką su klientui priklausančiu „Gen 2“ sprendimu „Azure Data Lake Storage“.</span><span class="sxs-lookup"><span data-stu-id="5a02b-107">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 solution.</span></span>
+<span data-ttu-id="31272-106">Sprendime „Dynamics 365 Commerce“ visų produktų ir operacijų informacija sekama aplinkos objektų saugykloje.</span><span class="sxs-lookup"><span data-stu-id="31272-106">In the Dynamics 365 Commerce solution, all product and transaction information is tracked in the environment's Entity store.</span></span> <span data-ttu-id="31272-107">Norint, kad šiuos duomenis būtų galima pasiekti naudojant kitas „Dynamics 365“ tarnybas, pvz., duomenų analizę, verslo įžvalgas ir personalizuotas rekomendacijas, reikia sujungti aplinką su klientui priklausančiu „Gen 2“ sprendimu „Azure Data Lake Storage“.</span><span class="sxs-lookup"><span data-stu-id="31272-107">To make this data accessible to other Dynamics 365 services, such as data analytics, business intelligence, and personalized recommendations, it is necessary to connect the environment to a customer-owned Azure Data Lake Storage Gen 2 solution.</span></span>
 
-<span data-ttu-id="5a02b-108">Kadangi „Azure Data Lake Storage“ konfigūruojama aplinkoje, visi reikiami objektų saugyklos duomenys yra dubliuojami, apsaugomi ir valdomi kliento.</span><span class="sxs-lookup"><span data-stu-id="5a02b-108">As Azure Data Lake Storage is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
+<span data-ttu-id="31272-108">Kadangi „Azure Data Lake Storage“ konfigūruojama aplinkoje, visi reikiami objektų saugyklos duomenys yra dubliuojami, apsaugomi ir valdomi kliento.</span><span class="sxs-lookup"><span data-stu-id="31272-108">As Azure Data Lake Storage is configured in an environment, all necessary data is mirrored from the Entity store while still being protected and under customer's control.</span></span>
 
-<span data-ttu-id="5a02b-109">Jei produkto rekomendacijos arba personalizuotos rekomendacijos aplinkoje taip pat įgalintos, produkto rekomendacijų dėklui bus suteikta prieiga prie paskirto aplanko, esančio „Azure Data Lake Storage“, kad būtų galima nuskaityti kliento duomenis ir apskaičiuoti jais pagrįstas rekomendacijas.</span><span class="sxs-lookup"><span data-stu-id="5a02b-109">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in Azure Data Lake Storage to retrieve the customer’s data and compute recommendations based on it.</span></span>
+<span data-ttu-id="31272-109">Jei produkto rekomendacijos arba personalizuotos rekomendacijos aplinkoje taip pat įgalintos, produkto rekomendacijų dėklui bus suteikta prieiga prie paskirto aplanko, esančio „Azure Data Lake Storage“, kad būtų galima nuskaityti kliento duomenis ir apskaičiuoti jais pagrįstas rekomendacijas.</span><span class="sxs-lookup"><span data-stu-id="31272-109">If product recommendations or personalized recommendations are also enabled in the environment, then the product recommendations stack will be granted access to the dedicated folder in Azure Data Lake Storage to retrieve the customer’s data and compute recommendations based on it.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="5a02b-110">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="5a02b-110">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="31272-110">Būtinieji komponentai</span><span class="sxs-lookup"><span data-stu-id="31272-110">Prerequisites</span></span>
 
-<span data-ttu-id="5a02b-111">Klientai turi sukonfigūruoti „Azure Data Lake Storage“ jiems priklausančioje „Azure“ prenumeratoje.</span><span class="sxs-lookup"><span data-stu-id="5a02b-111">Customers need to have Azure Data Lake Storage configured in an Azure subscription that they own.</span></span> <span data-ttu-id="5a02b-112">Šioje temoje neaprašomas „Azure“ prenumeratos pirkimas arba saugyklos abonemento, kuriame įgalintas „Azure Data Lake Storage“, nustatymas.</span><span class="sxs-lookup"><span data-stu-id="5a02b-112">This topic does not cover the purchase of an Azure subscription or the setup of an Azure Data Lake Storage-enabled storage account.</span></span>
+<span data-ttu-id="31272-111">Klientai turi sukonfigūruoti „Azure Data Lake Storage“ jiems priklausančioje „Azure“ prenumeratoje.</span><span class="sxs-lookup"><span data-stu-id="31272-111">Customers need to have Azure Data Lake Storage configured in an Azure subscription that they own.</span></span> <span data-ttu-id="31272-112">Šioje temoje neaprašomas „Azure“ prenumeratos pirkimas arba saugyklos abonemento, kuriame įgalintas „Azure Data Lake Storage“, nustatymas.</span><span class="sxs-lookup"><span data-stu-id="31272-112">This topic does not cover the purchase of an Azure subscription or the setup of an Azure Data Lake Storage-enabled storage account.</span></span>
 
-<span data-ttu-id="5a02b-113">Daugiau informacijos apie „Azure Data Lake Storage“ ieškokite [„Azure Data Lake Storage“ oficialioje „Gen2“ dokumentacijoje](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="5a02b-113">For more information about Azure Data Lake Storage, see [Azure Data Lake Storage Gen2 official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
+<span data-ttu-id="31272-113">Daugiau informacijos apie „Azure Data Lake Storage“ ieškokite [„Azure Data Lake Storage“ oficialioje „Gen2“ dokumentacijoje](https://azure.microsoft.com/pricing/details/storage/data-lake).</span><span class="sxs-lookup"><span data-stu-id="31272-113">For more information about Azure Data Lake Storage, see [Azure Data Lake Storage Gen2 official documentation](https://azure.microsoft.com/pricing/details/storage/data-lake).</span></span>
   
-## <a name="configuration-steps"></a><span data-ttu-id="5a02b-114">Konfigūravimo veiksmai</span><span class="sxs-lookup"><span data-stu-id="5a02b-114">Configuration steps</span></span>
+## <a name="configuration-steps"></a><span data-ttu-id="31272-114">Konfigūravimo veiksmai</span><span class="sxs-lookup"><span data-stu-id="31272-114">Configuration steps</span></span>
 
-<span data-ttu-id="5a02b-115">Šiame skyriuje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti, norint įgalinti „Azure Data Lake Storage“ aplinkoje, susijusioje su produktų rekomendacijomis.</span><span class="sxs-lookup"><span data-stu-id="5a02b-115">This section covers the configuration steps necessary for enabling Azure Data Lake Storage in an environment as it relates to product recommendations.</span></span>
-<span data-ttu-id="5a02b-116">Išsamesnės informacijos apie veiksmus, reikalingus įgalinti „Azure Data Lake Storage“, žr. [Leidimas objektų saugyklą naudoti kaip „Data Lake“](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="5a02b-116">For a more in-depth overview of the steps required to enable Azure Data Lake Storage, see [Make entity store available as a Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
+<span data-ttu-id="31272-115">Šiame skyriuje aprašomi konfigūravimo veiksmai, kuriuos reikia atlikti, norint įgalinti „Azure Data Lake Storage“ aplinkoje, susijusioje su produktų rekomendacijomis.</span><span class="sxs-lookup"><span data-stu-id="31272-115">This section covers the configuration steps necessary for enabling Azure Data Lake Storage in an environment as it relates to product recommendations.</span></span>
+<span data-ttu-id="31272-116">Išsamesnės informacijos apie veiksmus, reikalingus įgalinti „Azure Data Lake Storage“, žr. [Leidimas objektų saugyklą naudoti kaip „Data Lake“](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span><span class="sxs-lookup"><span data-stu-id="31272-116">For a more in-depth overview of the steps required to enable Azure Data Lake Storage, see [Make entity store available as a Data Lake](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).</span></span>
 
-### <a name="enable-azure-data-lake-storage-in-the-environment"></a><span data-ttu-id="5a02b-117">„Azure Data Lake Storage“ įgalinimas aplinkoje</span><span class="sxs-lookup"><span data-stu-id="5a02b-117">Enable Azure Data Lake Storage in the environment</span></span>
+### <a name="enable-azure-data-lake-storage-in-the-environment"></a><span data-ttu-id="31272-117">„Azure Data Lake Storage“ įgalinimas aplinkoje</span><span class="sxs-lookup"><span data-stu-id="31272-117">Enable Azure Data Lake Storage in the environment</span></span>
 
-1. <span data-ttu-id="5a02b-118">Prisijunkite prie aplinkos tarnybinio biuro portalo.</span><span class="sxs-lookup"><span data-stu-id="5a02b-118">Log in to the environment's back office portal.</span></span>
-1. <span data-ttu-id="5a02b-119">Ieškokite **Sistemos parametrai** ir pereikite į skirtuką **Duomenų ryšiai**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-119">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
-1. <span data-ttu-id="5a02b-120">Parinktyje **Įjungti „Data Lake“ integraciją** nustatykite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-120">Set **Enable Data Lake integration** to **Yes**.</span></span>
-1. <span data-ttu-id="5a02b-121">Parinktyje **Nuolat naujinti „Data Lake“** nustatykite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-121">Set **Trickle update Data Lake** to **Yes**.</span></span>
-1. <span data-ttu-id="5a02b-122">Paskui įveskite toliau pateikiamą būtiną informaciją.</span><span class="sxs-lookup"><span data-stu-id="5a02b-122">Next, enter the following required information:</span></span>
-    1. <span data-ttu-id="5a02b-123">**Programos ID** // **Programos slapta informacija** // **DNS pavadinimas** – reikalinga, jungiantis prie „KeyVault“, kur saugoma slapta „Azure Data Lake Storage“ informacija.</span><span class="sxs-lookup"><span data-stu-id="5a02b-123">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the Azure Data Lake Storage secret is stored.</span></span>
-    1. <span data-ttu-id="5a02b-124">**Slaptas pavadinimas** – slaptas pavadinimas, saugomas „KeyVault“ ir naudojamas autentifikuojant „Azure Data Lake Storage“.</span><span class="sxs-lookup"><span data-stu-id="5a02b-124">**Secret name** - The secret name stored in KeyVault and used to authenticate with Azure Data Lake Storage.</span></span>
-1. <span data-ttu-id="5a02b-125">Išsaugokite keitimus puslapio viršutiniame kairiajame kampe.</span><span class="sxs-lookup"><span data-stu-id="5a02b-125">Save your changes in the top left corner of the page.</span></span>
+1. <span data-ttu-id="31272-118">Prisijunkite prie aplinkos tarnybinio biuro portalo.</span><span class="sxs-lookup"><span data-stu-id="31272-118">Log in to the environment's back office portal.</span></span>
+1. <span data-ttu-id="31272-119">Ieškokite **Sistemos parametrai** ir pereikite į skirtuką **Duomenų ryšiai**.</span><span class="sxs-lookup"><span data-stu-id="31272-119">Search for **System Parameters** and navigate to the **Data connections** tab.</span></span> 
+1. <span data-ttu-id="31272-120">Parinktyje **Įjungti „Data Lake“ integraciją** nustatykite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="31272-120">Set **Enable Data Lake integration** to **Yes**.</span></span>
+1. <span data-ttu-id="31272-121">Parinktyje **Nuolat naujinti „Data Lake“** nustatykite **Taip**.</span><span class="sxs-lookup"><span data-stu-id="31272-121">Set **Trickle update Data Lake** to **Yes**.</span></span>
+1. <span data-ttu-id="31272-122">Paskui įveskite toliau pateikiamą būtiną informaciją.</span><span class="sxs-lookup"><span data-stu-id="31272-122">Next, enter the following required information:</span></span>
+    1. <span data-ttu-id="31272-123">**Programos ID** // **Programos slapta informacija** // **DNS pavadinimas** – reikalinga, jungiantis prie „KeyVault“, kur saugoma slapta „Azure Data Lake Storage“ informacija.</span><span class="sxs-lookup"><span data-stu-id="31272-123">**Application ID** // **Application Secret** // **DNS Name** - Needed to connect to KeyVault where the Azure Data Lake Storage secret is stored.</span></span>
+    1. <span data-ttu-id="31272-124">**Slaptas pavadinimas** – slaptas pavadinimas, saugomas „KeyVault“ ir naudojamas autentifikuojant „Azure Data Lake Storage“.</span><span class="sxs-lookup"><span data-stu-id="31272-124">**Secret name** - The secret name stored in KeyVault and used to authenticate with Azure Data Lake Storage.</span></span>
+1. <span data-ttu-id="31272-125">Išsaugokite keitimus puslapio viršutiniame kairiajame kampe.</span><span class="sxs-lookup"><span data-stu-id="31272-125">Save your changes in the top left corner of the page.</span></span>
 
-<span data-ttu-id="5a02b-126">Toliau pateiktame vaizde parodytas „Azure Data Lake Storage“ konfigūracijos pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="5a02b-126">The following image shows an example Azure Data Lake Storage configuration.</span></span>
+<span data-ttu-id="31272-126">Toliau pateiktame vaizde parodytas „Azure Data Lake Storage“ konfigūracijos pavyzdys.</span><span class="sxs-lookup"><span data-stu-id="31272-126">The following image shows an example Azure Data Lake Storage configuration.</span></span>
 
 ![„Azure Data Lake Storage“ konfigūracijos pavyzdys](./media/exampleADLSConfig1.png)
 
-### <a name="test-the-azure-data-lake-storage-connection"></a><span data-ttu-id="5a02b-128">„Azure Data Lake Storage“ ryšio tikrinimas</span><span class="sxs-lookup"><span data-stu-id="5a02b-128">Test the Azure Data Lake Storage connection</span></span>
+### <a name="test-the-azure-data-lake-storage-connection"></a><span data-ttu-id="31272-128">„Azure Data Lake Storage“ ryšio tikrinimas</span><span class="sxs-lookup"><span data-stu-id="31272-128">Test the Azure Data Lake Storage connection</span></span>
 
-1. <span data-ttu-id="5a02b-129">Patikrinkite ryšį su KeyVault, naudodami saitą **Tikrinti „Azure Key Vault“**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-129">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
-1. <span data-ttu-id="5a02b-130">Patikrinkite ryšį su „Azure Data Lake Storage“, naudodami saitą **Tikrinti „Azure Storage“**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-130">Test the connection to Azure Data Lake Storage using the **Test Azure Storage** link.</span></span>
+1. <span data-ttu-id="31272-129">Patikrinkite ryšį su KeyVault, naudodami saitą **Tikrinti „Azure Key Vault“**.</span><span class="sxs-lookup"><span data-stu-id="31272-129">Test the connection to KeyVault using the **Test Azure Key Vault** link.</span></span>
+1. <span data-ttu-id="31272-130">Patikrinkite ryšį su „Azure Data Lake Storage“, naudodami saitą **Tikrinti „Azure Storage“**.</span><span class="sxs-lookup"><span data-stu-id="31272-130">Test the connection to Azure Data Lake Storage using the **Test Azure Storage** link.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5a02b-131">Jei tikrinimo rezultatai neigiami, dar kartą patikrinkite, ar visa pirmiau pateikiama KeyVault informacija yra tinkama, tada bandykite dar kartą.</span><span class="sxs-lookup"><span data-stu-id="5a02b-131">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
+> <span data-ttu-id="31272-131">Jei tikrinimo rezultatai neigiami, dar kartą patikrinkite, ar visa pirmiau pateikiama KeyVault informacija yra tinkama, tada bandykite dar kartą.</span><span class="sxs-lookup"><span data-stu-id="31272-131">If the tests fail, double-check that all of the KeyVault information added above is correct, then try again.</span></span>
 
-<span data-ttu-id="5a02b-132">Kai ryšis patikrinamas sėkmingai, turite įjungti automatinį objektų saugyklos atnaujinimą.</span><span class="sxs-lookup"><span data-stu-id="5a02b-132">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
+<span data-ttu-id="31272-132">Kai ryšis patikrinamas sėkmingai, turite įjungti automatinį objektų saugyklos atnaujinimą.</span><span class="sxs-lookup"><span data-stu-id="31272-132">Once the connection tests are successful, you must enable automatic refresh for Entity store.</span></span>
 
-<span data-ttu-id="5a02b-133">Norėdami įjungti automatinį objektų saugyklos atnaujinimą, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="5a02b-133">To enable automatic refresh for Entity store, follow these steps.</span></span>
+<span data-ttu-id="31272-133">Norėdami įjungti automatinį objektų saugyklos atnaujinimą, atlikite tolesnius veiksmus.</span><span class="sxs-lookup"><span data-stu-id="31272-133">To enable automatic refresh for Entity store, follow these steps.</span></span>
 
-1. <span data-ttu-id="5a02b-134">Ieškokite **Objektų saugykla**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-134">Search for **Entity Store**.</span></span>
-1. <span data-ttu-id="5a02b-135">Kairėje esančiame sąraše pereikite prie įrašo **RetailSales** ir pasirinkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-135">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
-1. <span data-ttu-id="5a02b-136">Įsitikinkite, kad parinktyje **Automatinis atnaujinimas įjungtas** nustatyta **Taip**, pasirinkite **Atnaujinti**, tada pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="5a02b-136">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
+1. <span data-ttu-id="31272-134">Ieškokite **Objektų saugykla**.</span><span class="sxs-lookup"><span data-stu-id="31272-134">Search for **Entity Store**.</span></span>
+1. <span data-ttu-id="31272-135">Kairėje esančiame sąraše pereikite prie įrašo **RetailSales** ir pasirinkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="31272-135">In the list on the left, navigate to the **RetailSales** entry, and select **Edit**.</span></span>
+1. <span data-ttu-id="31272-136">Įsitikinkite, kad parinktyje **Automatinis atnaujinimas įjungtas** nustatyta **Taip**, pasirinkite **Atnaujinti**, tada pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="31272-136">Ensure that **Automatic Refresh Enabled** is set to **Yes**, select **Refresh**, and then select **Save**.</span></span>
 
-<span data-ttu-id="5a02b-137">Toliau pateiktame vaizde parodytas objektų saugyklos pavyzdys, kai automatinis atnaujinimas įjungtas.</span><span class="sxs-lookup"><span data-stu-id="5a02b-137">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
+<span data-ttu-id="31272-137">Toliau pateiktame vaizde parodytas objektų saugyklos pavyzdys, kai automatinis atnaujinimas įjungtas.</span><span class="sxs-lookup"><span data-stu-id="31272-137">The following image shows an example of Entity store with automatic refresh enabled.</span></span>
 
 ![Objektų saugyklos pavyzdys, kai automatinis atnaujinimas įjungtas](./media/exampleADLSConfig2.png)
 
-<span data-ttu-id="5a02b-139">Dabar „Azure Data Lake Storage“ sukonfigūruota aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="5a02b-139">Azure Data Lake Storage is now configured for the environment.</span></span> 
+<span data-ttu-id="31272-139">Dabar „Azure Data Lake Storage“ sukonfigūruota aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="31272-139">Azure Data Lake Storage is now configured for the environment.</span></span> 
 
-<span data-ttu-id="5a02b-140">Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomendacijas ir personalizavimą](enable-product-recommendations.md) aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="5a02b-140">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
+<span data-ttu-id="31272-140">Jei dar jų neatlikote, atlikite veiksmus, skirtus [įgalinti produkto rekomendacijas ir personalizavimą](enable-product-recommendations.md) aplinkoje.</span><span class="sxs-lookup"><span data-stu-id="31272-140">If not completed already, follow the steps for [enabling product recommendations and personalization](enable-product-recommendations.md) for the environment.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="5a02b-141">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="5a02b-141">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="31272-141">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="31272-141">Additional resources</span></span>
 
-[<span data-ttu-id="5a02b-142">Leidimas objektų saugyklą naudoti kaip „Data Lake“</span><span class="sxs-lookup"><span data-stu-id="5a02b-142">Make entity store available as a data lake</span></span>](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
+[<span data-ttu-id="31272-142">Leidimas objektų saugyklą naudoti kaip „Data Lake“</span><span class="sxs-lookup"><span data-stu-id="31272-142">Make entity store available as a data lake</span></span>](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md)
 
-[<span data-ttu-id="5a02b-143">Produktų rekomendacijų apžvalga</span><span class="sxs-lookup"><span data-stu-id="5a02b-143">Product recommendations overview</span></span>](product-recommendations.md)
+[<span data-ttu-id="31272-143">Produktų rekomendacijų apžvalga</span><span class="sxs-lookup"><span data-stu-id="31272-143">Product recommendations overview</span></span>](product-recommendations.md)
 
-[<span data-ttu-id="5a02b-144">Įjungti produktų rekomendacijas</span><span class="sxs-lookup"><span data-stu-id="5a02b-144">Enable product recommendations</span></span>](enable-product-recommendations.md)
+[<span data-ttu-id="31272-144">Įjungti produktų rekomendacijas</span><span class="sxs-lookup"><span data-stu-id="31272-144">Enable product recommendations</span></span>](enable-product-recommendations.md)
 
-[<span data-ttu-id="5a02b-145">Personalizuotų rekomendacijų įjungimas</span><span class="sxs-lookup"><span data-stu-id="5a02b-145">Enable personalized recommendations</span></span>](personalized-recommendations.md)
+[<span data-ttu-id="31272-145">Personalizuotų rekomendacijų įjungimas</span><span class="sxs-lookup"><span data-stu-id="31272-145">Enable personalized recommendations</span></span>](personalized-recommendations.md)
 
-[<span data-ttu-id="5a02b-146">Personalizuotų rekomendacijų atsisakymas</span><span class="sxs-lookup"><span data-stu-id="5a02b-146">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
+[<span data-ttu-id="31272-146">Personalizuotų rekomendacijų atsisakymas</span><span class="sxs-lookup"><span data-stu-id="31272-146">Opt out of personalized recommendations</span></span>](personalization-gdpr.md)
 
-[<span data-ttu-id="5a02b-147">Produktų rekomendacijų įtraukimas į EKA</span><span class="sxs-lookup"><span data-stu-id="5a02b-147">Add product recommendations on POS</span></span>](product.md)
+[<span data-ttu-id="31272-147">Įjungti „apsipirkti panašia mada“ rekomendacijas</span><span class="sxs-lookup"><span data-stu-id="31272-147">Enable "shop similar looks" recommendations</span></span>](shop-similar-looks.md)
 
-[<span data-ttu-id="5a02b-148">Rekomendacijų įtraukimas į operacijų ekraną</span><span class="sxs-lookup"><span data-stu-id="5a02b-148">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
+[<span data-ttu-id="31272-148">Produktų rekomendacijų įtraukimas į EKA</span><span class="sxs-lookup"><span data-stu-id="31272-148">Add product recommendations on POS</span></span>](product.md)
 
-[<span data-ttu-id="5a02b-149">AI-ML rekomendacijų rezultatų koregavimas</span><span class="sxs-lookup"><span data-stu-id="5a02b-149">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
+[<span data-ttu-id="31272-149">Rekomendacijų įtraukimas į operacijų ekraną</span><span class="sxs-lookup"><span data-stu-id="31272-149">Add recommendations to the transaction screen</span></span>](add-recommendations-control-pos-screen.md)
 
-[<span data-ttu-id="5a02b-150">Kuruojamų rekomendacijų kūrimas rankiniu būdu</span><span class="sxs-lookup"><span data-stu-id="5a02b-150">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
+[<span data-ttu-id="31272-150">AI-ML rekomendacijų rezultatų koregavimas</span><span class="sxs-lookup"><span data-stu-id="31272-150">Adjust AI-ML recommendations results</span></span>](modify-product-recommendation-results.md)
 
-[<span data-ttu-id="5a02b-151">Rekomendacijų su demonstraciniais duomenimis kūrimas</span><span class="sxs-lookup"><span data-stu-id="5a02b-151">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+[<span data-ttu-id="31272-151">Kuruojamų rekomendacijų kūrimas rankiniu būdu</span><span class="sxs-lookup"><span data-stu-id="31272-151">Manually create curated recommendations</span></span>](create-editorial-recommendation-lists.md)
 
-[<span data-ttu-id="5a02b-152">DUK apie produktų rekomendacijas</span><span class="sxs-lookup"><span data-stu-id="5a02b-152">Product recommendations FAQ</span></span>](faq-recommendations.md)
+[<span data-ttu-id="31272-152">Rekomendacijų su demonstraciniais duomenimis kūrimas</span><span class="sxs-lookup"><span data-stu-id="31272-152">Create recommendations with demo data</span></span>](product-recommendations-demo-data.md)
+
+[<span data-ttu-id="31272-153">DUK apie produktų rekomendacijas</span><span class="sxs-lookup"><span data-stu-id="31272-153">Product recommendations FAQ</span></span>](faq-recommendations.md)
