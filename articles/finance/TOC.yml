@@ -1156,7 +1156,7 @@
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
         - name: Finansinės ataskaitos
           items:
-            - name: Finansinių ataskaitų apžvalga
+            - name: Pradėkite naudoti finansines ataskaitas
               href: general-ledger/financial-reporting-getting-started.md
             - name: Finansinių ataskaitų apžvalga
               href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
@@ -2596,10 +2596,16 @@
                       href: localizations/rus-write-off-deferral.md
                     - name: Atidėjimų likvidavimas
                       href: localizations/rus-dispose-deferrals.md
-                    - name: Atidėjimų skaičiavimas
+                    - name: Atidėjimai skaičiuojami
                       href: localizations/rus-counting-deferrals.md
                     - name: Atidėjimų ataskaita
                       href: localizations/rus-reporting-deferrals.md
+                - name: Mokesčių apskaita
+                  items:
+                    - name: Išlaidų ir pajamų kodai
+                      href: localizations/rus-expense-and-income-codes.md
+                    - name: Turto mokesčių registrai
+                      href: localizations/rus-assets-tax-registers.md
             - name: Saudo Arabija
               items:
                 - name: Saudo Arabijos apžvalga
@@ -3126,6 +3132,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-isempty.md?toc=/dynamics365/finance/toc.json
                         - name: Sąrašas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-list.md?toc=/dynamics365/finance/toc.json
+                        - name: ListDistinct
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listdistinct.md?toc=/dynamics365/finance/toc.json
                         - name: ListJoin
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-listjoin.md?toc=/dynamics365/finance/toc.json
                         - name: ListOfFields
@@ -3413,7 +3421,9 @@
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: ER formato koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
-                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
+                - name: 'Naujo ER sprendimo, skirto spausdinti pasirinktinę ataskaitą, kūrimas'
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
             - name: Mokymo programos
               items:
                 - name: 'Sužinokite, kaip naudoti duomenų šaltinius'
