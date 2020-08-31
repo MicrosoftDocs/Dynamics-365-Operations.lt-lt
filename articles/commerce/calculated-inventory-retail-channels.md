@@ -3,7 +3,7 @@ title: Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 description: Šioje temoje aprašomos parinktys, kurias galima naudoti, kad būtų rodomos parduotuvės ir interneto kanalų turimos atsargos.
 author: hhainesms
 manager: annbe
-ms.date: 05/15/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhainesms
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 51e6633caa49daeedca685f3323eaf4e14e788a5
-ms.sourcegitcommit: e789b881440f5e789f214eeb0ab088995b182c5d
+ms.openlocfilehash: 6d25a426268ebfb6990eb3dadb1ad451f86f59a1
+ms.sourcegitcommit: 65a8681c46a1d99e7ff712094f472d5612455ff0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/15/2020
-ms.locfileid: "3379241"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3694927"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas
 
@@ -40,7 +40,7 @@ ms.locfileid: "3379241"
 
 Galite naudoti šias API, kad būtų rodoma, kirk yra produkto atsargų, kai jūsų klientai apsiperka el. prekybos svetainėje.
 
-- **GetEstimatedAvailability** – naudokite šią API, norėdami gauti prekės atsargų pasiekiamumą el. prekybos kanalo sandėlyje arba visuose sandėliuose, kurie susieti su elektroninės prekybos kanalo vykdymo grupės konfigūracija. Ši API taip pat gali būti naudojama sandėliams, esantiems konkrečioje ieškos srityje arba konkrečiu spinduliu, remiantis ilgumos ir platumos duomenimis.
+- **Gautiapskaičiuotąprieinamumą** – Naudokite šią API tam, kad gautumėte atsargų prieinamumą prekei el. prekybos kanalo sandėlyje ir visuose sandėliuose, kurie yra susieti su el. prekybos kanalo įgyvendinimo grupių konfigūravimu. Ši API taip pat gali būti naudojama sandėliams, esantiems konkrečioje ieškos srityje arba konkrečiu spinduliu, remiantis ilgumos ir platumos duomenimis.
 - **GetEstimatedProductWarehouseAvailability** – naudokite šią API, norėdami užklausti, kiek prekės atsargų yra konkrečiame sandėlyje. Pavyzdžiui, galite naudoti ją, kad būtų rodomas atsargų pasiekiamumas scenarijuose, į kuriuos įtrauktas užsakymo paėmimas.
 
 > [!NOTE]
@@ -50,7 +50,7 @@ Abi šios API teikia duomenis iš „Commerce Server“ ir nurodo tam tikro prod
 
 ### <a name="get-started-with-e-commerce-calculated-inventory-availability"></a>Pradėkite naudoti el. prekybos apskaičiuotą atsargų pasiekiamumą
 
-Prieš pradėdami naudoti dvi anksčiau paminėtas API, turite įjungti funkciją **Optimizuotas produkto prieinamumo skaičiavimas** naudodami „Commerce“ pagrindinio komponento darbo sritį **Funkcijų valdymas**.
+Prieš jums naudojant abi anksčiau paminėtas API programas, turite išjungti realaus laiko paslaugų skambučius atsargų paieškai iš POS programos, pirmiausia turite įjungti **Optimizuoto produkto prieinamumo skaičiavimo** funkciją per **Funkcijų valdymo** darbo sritį komercijos štabe.
 
 Kad API galėtų tiksliai apskaičiuoti prekės atsargų pasiekiamumą, „Commerce Headquarters“ turi būti padaryta momentinė turimų atsargų kopija ir nusiųsta į kanalo duomenų bazę, kurią naudoja el. prekybos „Commerce Scale Unit“. Momentinė kopija rodo informaciją, kurią „Commerce Headquarters“ turi apie atsargų pasiekiamumą pagal tam tikrą produktą arba produkto variantą ir sandėlį. Joje gali būti ir atsargų koregavimai arba perkėlimai, kuriuos sukėlė atsargų gavimai, siuntimai arba kiti procesai, atlikti „Commerce Headquarters“ ir žinomi el. prekybos kanalui tik dėl sinchronizavimo proceso.
 
@@ -66,7 +66,7 @@ Pasibaigus užduoties **Produkto pasiekiamumas** vykdymui, užfiksuoti duomenys 
 1. Eikite į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> Paskirstymo grafikas**.
 1. Paleiskite užduotį **1130** (**Produkto pasiekiamumas**), norėdami sinchronizuoti momentinės kopijos, kurią užduotis **Produkto pasiekiamumas** sukūrė iš „Commerce Headquarters“, duomenis su kanalų duomenų bazėmis.
 
-Kai atsargų pasiekiamumo reikšmės užklausiama iš API **GetEstimatedAvailabilty** arba **ProductWarehouseInventoryAvailabilities**, vykdomas skaičiavimas, kad būtų galima gauti geriausią produkto atsargų įvertinimą. Skaičiuojant remiamasi visais elektroninės prekybos klientų užsakymais, kurie yra kanalo duomenų bazėje, bet neįtraukti į momentinės kopijos duomenis, kuriuos pateikė 1130 užduotis. Ši logika vykdoma stebint paskutinę įvykdytą atsargų operaciją iš „Commerce Headquarters“ ir lyginant ją su operacijomis kanalo duomenų bazėje. Ji teikia kanalo skaičiavimo logikos atskaitos vertę, kad būtų galima papildomus atsargų perkėlimus, kurie buvo atlikti kliento užsakymo pardavimo operacijose elektroninės prekybos kanalo duomenų bazėje, įtraukti į atsargų vertę, kurią pateikia API.
+Kai atsargų prieinamumo reikalauja **Gautiapskaičiuotąprieinamumą** arba **Gautiapskaičiuotųprekiųsandėlioprieinamumą** API, skaičiavimas yra vykdomas tam, kad būtų gaunamas geriausias prekių atsargų apskaičiavimas. Skaičiuojant remiamasi visais elektroninės prekybos klientų užsakymais, kurie yra kanalo duomenų bazėje, bet neįtraukti į momentinės kopijos duomenis, kuriuos pateikė 1130 užduotis. Ši logika vykdoma stebint paskutinę įvykdytą atsargų operaciją iš „Commerce Headquarters“ ir lyginant ją su operacijomis kanalo duomenų bazėje. Ji teikia kanalo skaičiavimo logikos atskaitos vertę, kad būtų galima papildomus atsargų perkėlimus, kurie buvo atlikti kliento užsakymo pardavimo operacijose elektroninės prekybos kanalo duomenų bazėje, įtraukti į atsargų vertę, kurią pateikia API.
 
 Kanalo skaičiavimo logika pateikia įvertintą faktinę atsargų vertę ir bendrą galimą pageidaujamo produkto ir sandėlio vertę. Vertės gali būti rodomos jūsų elektroninės prekybos svetainėje, jei norite, arba jos gali būti naudojamos kitoms verslo logikoms suaktyvinti elektroninės prekybos svetainėje. Pavyzdžiui, galite rodyti pranešimą, kad atsargose nėra, o ne faktinį turimą kiekį, kurį apskaičiavo API.
 
@@ -80,7 +80,7 @@ Kai kanalo skaičiavimas tinkamai sukonfigūruotas ir valdomas, jis gali teikti 
 
 ### <a name="get-started-with-pos-channel-side-calculated-inventory-availability"></a>Pradėkite naudoti EKA kanalo apskaičiuotą atsargų pasiekiamumą
 
-Norėdami naudoti kanalo skaičiavimo logiką ir išjungti atsargų peržvalgos paslaugos realiu laiku iškvietas iš EKA programos, pirmiausia turite įjungti funkciją **Optimizuotas produkto prieinamumo skaičiavimas** naudodami „Commerce” pagrindinio komponento darbo sritį **Funkcijų valdymas**. Be funkcijos įjungimo, turite atlikti **funkcijų šablono** pakeitimus.
+Siekiant naudoti kanalo pusės apskaičiavimo logiką ir išjungti realaus laiko paslaugų skambučius atsargų paieškai iš POS programos, pirmiausia turite įjungti **Optimizuoto produkto prieinamumo skaičiavimo** funkciją per **Funkcijų valdymo** darbo sritį komercijos štabe. Be funkcijos įjungimo, turite atlikti **funkcijų šablono** pakeitimus.
 
 Norėdami pakeisti **funkcijų profilį**, atlikite toliau nurodytus veiksmus.
 
@@ -107,6 +107,8 @@ Norint užtikrinti, kad atsargos būtų įvertintos kuo tiksliau, svarbu naudoti
 - **Atlikti operacijų išrašų paketinį registravimą** – ši užduotis taip pat reikalinga duomenų perdavimo mažais kiekiais registravimui. Po jos eina užduotis **Atlikti operacijų išrašų paketinį skaičiavimą**. Ši užduotis sistemingai registruoja apskaičiuotas sumas, kad „Commerce Headquarters“ būtų sukurti pardavimo už grynuosius pinigus pardavimo užsakymai ir „Commerce Headquarters“ tiksliau atspindėtų parduotuvės atsargas.
 - **Produkto pasiekiamumas** – šia užduotimi sukuriama atsargų, esančių „Commerce Headquarters“, momentinė kopija.
 - **1130 (produkto pasiekiamumas)** – ši užduotis randama puslapyje **Paskirstymo grafikai** ir turi būti vykdoma iškart po užduoties **Produkto pasiekiamumas**. Ši užduotis perkelia atsargų momentinės kopijos duomenis iš „Commerce Headquarters“ į kanalų duomenų bazes.
+
+Jums nerekomenduojama naudoti tų darbų paketų per dažnai (kas keletą minučių). Dažni vykdymai perpildys komercijos štabus ir gali potencialiai pabloginti veikimą. Bendrai, geriausia praktika būtų vykdyti produkto prieinamumą ir 1130 darbus pagal valandas ir suplanuoti P-darbo sinchronizavimo užsakymus bei sumažinti su srauto talpinimu susijusius darbus tuo pačiu ar didesniu dažnumu.
 
 > [!NOTE]
 > Dėl našumo priežasčių, kai kanalo atsargų pasiekiamumo skaičiavimai naudojami atsargų pasiekiamumo užklausai įvykdyti naudojant el. prekybos API arba naują EKA kanalo atsargų logiką, skaičiuojant naudojama talpykla, kad būtų nustatyta, ar praėjo pakankamai laiko, kad būtų protinga skaičiavimo logiką vykdyti dar kartą. Numatytoji talpykla nustatyta kaip 60 sekundžių. Pavyzdžiui, jūs įjungėte kanalo skaičiavimą savo parduotuvei ir peržiūrėjote turimas produkto atsargas puslapyje **Atsargų peržvalga**. Jei tada vienas produkto vienetas parduodamas, puslapyje **Atsargų peržvalga** nebus rodomos sumažėjusios atsargos, kol talpykla nebus išvalyta. Po to, kai vartotojai užregistruos operacijas EKA, turi praeiti 60 sekundžių, kad būtų matomas turimų atsargų sumažėjimas.

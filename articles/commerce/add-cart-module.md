@@ -3,7 +3,7 @@ title: Krepšelio modulis
 description: Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,16 +17,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f21268ed4cffed1d5c789f722796cdf05e965819
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621041"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686771"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
@@ -42,9 +43,17 @@ Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio k
 
 ![Krepšelio modulio pavyzdys](./media/cart2.PNG)
 
+Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys. Šiame pavyzdyje, nėra jokio eilutės prekės paėmimo mokesčio.
+
+![Krepšelio modulio pavyzdys](./media/ecommerce-handling-fee.png)
+
 ## <a name="cart-module-properties-and-slots"></a>Krepšelio modulio ypatybės ir vietos
 
-Krepšelio modulyje yra ypatybė **Antraštė**, kurią galima nustatyti kaip **Pirkinių krepšelis** ir **Jūsų krepšelio prekės**. 
+| Ypatybė | Reikšmės | aprašymas |
+|----------------|--------|-------------|
+| Antraštė | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** ar **H6**) | Vežimėlio antraštė, tokia kaip „Apsipirkimo maišelis“ arba „Prekės jūsų vežimėlyje“. |
+| Rodyti nėra sandėlyje klaidas | **Teisinga** arba **Klaidinga** | Jei ši ypatybė nustatyta į **Tiesa**, vežimėlio puslapyje bus rodomos su atsargomis susijusios klaidos. Rekomenduojame nustatyti šią ypatybę į **Tiesa**, jei atsargų tikrinimai yra taikomi svetainėje. |
+| Rodyti eilutės prekių siuntimo mokesčius | **Teisinga** arba **Klaidinga** | Jei ši ypatybė yra nustatytą į **Teisinga**, vežimėlio eilučių prekės rodys siuntimo mokesčius, jei tokia informacija yra prieinama. Ši savybė nėra palaikoam „Fabrikam“ temoje, nes vartotojai pasirenka siuntimą tik išsiregistravimo sraute. Nepaisant to, šią funkciją galima įjungti kituose darbo srautuose, jei tai taikoma. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Moduliai, kuriuos galima naudoti krepšelio modulyje
 
@@ -67,9 +76,9 @@ Vežimėlio modulis produkto informaciją gauna naudodamas „Commerce Scale Uni
 
 Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Krepšelis**.
-1. Dalyje **Puslapio fragmento pavadinimas** įveskite pavadinimą **Krepšelio fragmentas** ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
+1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Vežimėlis** modulį.
+1. **Puslapio fragmento pavadinime** įveskite pavadinimą **Vežimėlio fragmentas** ir tuomet pasirinkite **Gerai**.
 1. Pasirinkite vietą **Krepšelis**.
 1. Dešinėje pusėje esančioje ypatybių srityje pasirinkite pieštuko simbolį, į laukelį įveskite antraštės tekstą ir pasirinkite varnelės simbolį.
 1. Vietoje **Krepšelis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
@@ -77,8 +86,8 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
 1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite šablono pavadinimą.
-1. Struktūros medyje pasirinkite vietą **Pagrindinė dalis**, pasirinkite daugtaškį (**...**), tada – **Įtraukti fragmentą**.
-1. Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite **krepšelio fragmentą** ir pasirinkite **Gerai**.
+1. Išorės medyje pasirinkite **Kūno** vietą ir pasirinkite elipsę (**...**), tuomet pasirinkite **Įtraukti puslapio fragmentą**.
+1. **Pasirinkite puslapio fragmentą** teksto laukelyje, pasirinkite **Vežimėlio fragmentas** fragmentą ir tuomet pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
 1. Dialogo lange **Pasirinkti šabloną** pasirinkite anksčiau sukurtą šabloną, įveskite puslapio pavadinimą ir pasirinkite **Gerai**.
@@ -87,22 +96,18 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
-
-[Konteinerio modulis](add-container-module.md)
-
-[Parduotuvės išrinkiklio modulis](store-selector.md)
-
-[Pirkimo langelio modulis](add-buy-box.md)
-
 [Krepšelio piktogramos modulis](cart-icon-module.md)
 
 [Pirkimo užbaigimo modulis](add-checkout-module.md)
 
-[Užsakymo patvirtinimo modulis](order-confirmation-module.md)
+[Mokėjimo modulis](payment-module.md)
 
-[Antraštės modulis](author-header-module.md)
+[Siuntimo adreso modulis](ship-address-module.md)
 
-[Poraštės modulis](author-footer-module.md)
+[Pristatymo parinkčių modulis](delivery-options-module.md)
+
+[Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
+
+[Dovanų kortelės modulis](add-giftcard.md)
 
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)

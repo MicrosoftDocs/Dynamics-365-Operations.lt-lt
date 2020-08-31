@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcf1b755959c7ae25928e3f44e988f800027786a
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 6e51d9a1d68c48391a223fe48f396c63c206580e
+ms.sourcegitcommit: 41e165482b9bff4175c0e3b224dbeead13461956
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201048"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3687963"
 ---
 # <a name="list-of-er-functions-in-the-list-category"></a>Sąrašo kategorijos ER funkcijų sąrašas
 
@@ -46,6 +46,7 @@ Naudojant modulio Elektroninės ataskaitos (ER) sąrašo funkcijas, galima išga
 | [Index](er-functions-list-index.md)                       | Ši funkcija pateikia tipo *Konteineris (įrašas)* reikšmę, kuri pasirenkama naudojant konkretų nurodyto sąrašo skaitinį indeksą. Jei indekse nėra nurodyto sąrašo įrašų intervalo, ši funkcija pateikia išimtį. |
 | [IsEmpty](er-functions-list-isempty.md)                   | Jei nurodytame sąraše nėra įrašų, ši funkcija pateikia *Bulio logikos* reikšmę **TRUE**. Kitu atveju išraiška grąžina *Bulio logikos* reikšmę **FALSE**. |
 | [Sąrašas](er-functions-list-list.md)                         | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, sudarytą iš naujo sąrašo, sukurto iš nurodytų argumentų.|
+| [Sąrašoatskiras](er-functions-list-listdistinct.md)         | Ši funkcija apskaičiuota nurodytą išraišką, kaip selektorių kiekvienam nurodyto sąrašo įrašui. Jis grįžta į naują *Įrašo sąrašo* vertę, kuri turi vieną įrašą kiekvienai atskirai selektoriaus vertei.|
 | [ListJoin](er-functions-list-listjoin.md)                 | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, nurodančią naują jungtinį sąrašą, sukurtą iš nurodytų argumentų.|
 | [ListOfFields](er-functions-list-listoffields.md)         | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, sukurtą pagal nurodyto tipo *Išvardijimas* arba *Konteineris (įrašas)* argumento struktūrą. |
 | [ListOfFirstItem](er-functions-list-listoffirstitem.md)   | Ši funkcija pateikia tipo *Įrašų sąrašas* reikšmę, kurią sudaro tik pirmasis nurodyto sąrašo įrašas.|

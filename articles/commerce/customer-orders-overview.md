@@ -3,7 +3,7 @@ title: Klientų užsakymai naudojant „Modern POS“ (MPOS)
 description: Šioje temoje pateikiama informacija apie klientų užsakymus naudojant „Modern POS“ (MPOS). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
+ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023376"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699374"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Klientų užsakymai naudojant „Modern POS“ (MPOS)
 
@@ -53,6 +53,8 @@ Toliau pateikiama keletas parametrų, kuriuos galima nustatyti puslapyje **Preky
 
     - Išlaidos taikomos pardavimo užsakymo antraštės lygyje ir, kai tam tikras produkto eilutės kiekis yra grąžinamas, didžiausios leidžiamos produktų ir kiekio siuntimo išlaidų grąžinimo sumos negalima nustatyti tokiu būdu, kuris tiktų visiems klientams.
     - Siuntimo išlaidos patiriamos kiekvieną kartą siunčiant prekes. Jei klientas kelis kartus grąžina produktus, o pardavėjo strategijoje nurodyta, kad pardavėjas padengs grąžinimo siuntimo išlaidų sumą, grąžinimo siuntimo išlaidų suma bus didesnė nei faktinės siuntimo išlaidos.
+    
+- **Mokesčių apskaičiavimo elgesysr** - **Perskaičiavimas** yra nustatytasis ir įprastas nustatymas mokesčių perskaičiavimui, kai tvarka yra importuojama į operacijų skyrių. **Neperskaičiuoti** išjungia mokesčių perskaičiavimą, kol arba tais atvejais, kai užsakymą pakeičia operacijų skyrius ir įjungia perskaičiavimą. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Kliento užsakymų operacijų srautas
 

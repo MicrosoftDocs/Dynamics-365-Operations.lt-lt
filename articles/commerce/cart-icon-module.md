@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6771a84118504cd5c8e44302380eb970e4658902
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: 137debe3f4cad3948d20b2902ea80e66fa74ffd4
+ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411094"
+ms.lasthandoff: 08/05/2020
+ms.locfileid: "3661152"
 ---
 # <a name="cart-icon-module"></a>Krepšelio piktogramos modulis
 
@@ -42,22 +42,22 @@ Toliau pateiktame vaizde parodytas krepšelio piktogramos modulio, kuris rodo ma
 
 - **Rodyti mažąjį krepšelį** – kai ši ypatybė įjungta, leidžiamas krepšelio suvestinės (mažojo krepšelio) rodymas užvedus pelės žymiklį virš krepšelio piktogramos. Ši funkcija palaikoma tik darbalaukio rodinio prievaduose.
 
-
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Krepšelio piktogramos modulio įtraukimas į puslapį
 
 Norėdami įtraukti krepšelio piktogramos modulį, žr. [Antraštės modulis](author-header-module.md).
 
-
 ## <a name="additional-resources"></a>Papildomi ištekliai
-
-[Pirkimo langelio modulis](add-buy-box.md)
 
 [Krepšelio modulis](add-cart-module.md)
 
 [Pirkimo užbaigimo modulis](add-checkout-module.md)
 
-[Užsakymo patvirtinimo modulis](order-confirmation-module.md)
+[Mokėjimo modulis](payment-module.md)
 
-[Antraštės modulis](author-header-module.md)
+[Pristatymo adreso modulis](ship-address-module.md)
 
-[Poraštės modulis](author-footer-module.md)
+[Pristatymo parinkčių modulis](delivery-options-module.md)
+
+[Išsamios užsakymo informacijos modulis](order-confirmation-module.md)
+
+[Dovanų kortelės modulis](add-giftcard.md)

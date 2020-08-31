@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59a2d9712a73c607cf5521f8e79e8e2558854fc4
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3274216"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686700"
 ---
 # <a name="add-a-privacy-policy-page"></a>Privatumo strategijos puslapio įtraukimas
 
@@ -88,9 +88,9 @@ Saitą su privatumo strategijos puslapiu galite įtraukti į fragmentą. Tokiu b
 
 Norėdami į poraštės fragmentą įtraukti saitą, atlikite toliau nurodytus veiksmus.
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte puslapio fragmentą.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Poraštė**.
-1. Dalyje **Puslapio fragmento pavadinimas** įveskite fragmento pavadinimą ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte puslapio fragmentą.
+1. **Naujo puslapio fragmento** teksto laukelyje pasirinkite **Poraštės** modulį.
+1. **Puslapio fragmento pavadinimo** skyriuje įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
 1. Dalyje **Poraštės kategorija** įtraukite modulį **Poraštės elementas**.
 1. Dešinėje esančioje ypatybių srityje pasirinkite **Saito tekstas**.
 1. Dialogo lange **Saito tekstas** įveskite privatumo strategijos puslapio saito tekstą ir paskirtį, tada spustelėkite **Gerai**.

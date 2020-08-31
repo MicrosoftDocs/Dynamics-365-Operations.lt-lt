@@ -1,9 +1,9 @@
 ---
 title: Finansinių ataskaitų apžvalga
-description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes. Ji apima pateikiamų numatytųjų finansinių ataskaitų aprašymą.
+description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
 manager: AnnBe
-ms.date: 07/23/2020
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86022b662c265b4b98f6df86647f61ea35d31432
-ms.sourcegitcommit: f5200f37c6c436183b4ee5711026ef92a7cb9538
+ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618043"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696693"
 ---
-# <a name="financial-reporting-overview"></a>Finansinių ataskaitų apžvalga
+# <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,7 +88,7 @@ Pridėjus naudotoją ar pakeitus vaidmenį, naudotojas finansines ataskaitas tur
 Vartotojai, kurie sugeneruoja ataskaitą, gali panaikinti savo ataskaitas. Vartotojai, kurių pareiga **Prižiūrėti finansinių ataskaitų saugą**, gali panaikinti kitų ataskaitas. 
 
 Pradedant nuo 10.0.8 versijoje buvo pristatytas galiojimo pabaigos terminų konceptas. Nauja būtina savybė bus įjungta savybės **Visi** puslapyje per funkcijos valdymo darbo sritį. Funkcijoje **Finansinių ataskaitų saugojimo strategijos** yra toliau pateikti keitimai.
-* Naujai sugeneruotos ataskaitos bus automatiškai pažymėtos kaip turinčios 90 dienų galiojimo datą nuo tada, kai jos sugeneruojamos
+* Naujai sukurtos ataskaitos bus automatiškai sužymėtos kaip turinčios 90 dienų galiojimo laiko pabaigą nuo jų sukūrimo momento.
 * Visoms esamoms ataskaitoms, buvusioms iki įdiegiant funkciją, bus suteiktas 90 dienų galiojimo laikotarpis. Data gali būti rodoma kaip tuščia trumpam laikotarpiui, kol bus paleista finansinių ataskaitų tarnyba, kai sugeneruojama ataskaita, tarnyba atlieka naujinimą esamoms ataskaitoms su tuščia galiojimo data. 
 * Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra prieinamos dvi sulaikymo parinktys: 
   * 90 dienų galiojimo laikotarpis.
@@ -134,6 +134,12 @@ Kai pasirenkate **„Financial Reporting“** meniu, yra rodomas bendrovės nust
 ## <a name="creating-and-modifying-financial-reports"></a>Finansinių ataskaitų kūrimas ir modifikavimas
 Finansinių ataskaitų sąraše galite kurti naują ataskaitą arba modifikuoti esamą ataskaitą. Jei neturite reikiamų leidimų, galite sukurti naują finansinę ataskaitą pasirinkdami **Nauja** veiksmų juostoje. Į jūsų įrenginį atsisiunčiama ir jame paleidžiama ataskaitų dizaino įrankio programa. Paleidus ataskaitų kūrimo įrankį galima kurti naują ataskaitą. Kai turite naująją ataskaitą, ji atsiranda finansinių ataskaitų sąraše. Sąrašasr rodo tik ataskaitas, kurios buvo sukurtos jūsų bendrovėje jums naudojant „Dynamics 365 Finance“. 
 
+## <a name="reporting-tree-definitions"></a>Ataskaitų medžio apibrėžimai 
+Viena iš dalių, kuri naudojama finansinių ataskaitų kūrimui, yra ataskaitų medžio sąvoka. Ataskaitų kūrimo aprašas padeda nustatyti organizacijos struktūrą ir hierarchiją. Kelių dimensijų hierarchijų struktūra pagrįsta finansinių duomenų dimensijų ryšiais. Jis suteikia informacijos ataskaitinių vienetų lygiu ir suvestinės lygiu visiems medžio vienetams.
+
+Galite sukurti neribotą skaičių ataskaitų medžių tam, kad įvairiais būdais parodytumėte savo organizacijos duomenis. Visi ataskaitų medžiai gali turėti bet kokią skyrių ir santraukų vienetų kombinaciją, tačiau ataskaitos sąvoka gali susieti tik su vienu ataskaitų medžiu vieną kartą. 
+
+
 ## <a name="troubleshooting-issues-opening-report-designer"></a>Trikčių šalinimo problemų atidarymas „Report Designer“
 Esama keletos trikdžių, kurie gali sukelti problemų atidarant „Report Designer“. Šie trikdžiai ir sprendimo žingsniai yra pateikti toliau.
 
@@ -155,10 +161,11 @@ Triktis 2: Vartotojui nebuvo priskirti būtini leidimai naudoti „Financial Rep
   Jei kitas vartotojas gali atsidaryti „Report Designer“, pasirinkite **Įrankiai** ir tuomet pasirinkite **Integravimo būsena**. Patikrinkite, ar integravimo žemėlapis, „Bendrovės vartotojo tiekėjas bendrovei,“ sėkmingai buvo atliktas, nes jums buvo priskirtas leidimas naudoti „Financial Reporting“. 
 * Gali būti, kad kita klaida užkirto kelią **„Dynamics“ vartotojo integravimas su „Financial Reporting“ vartotoju** užbaigimui. Arba gali būti, kad duomenų saugykla yra perkraunama ir veiksmas dar tęsiasi, arba įvyko kita sistemos klaida. Pabandykite atlikite procesą vėliau. Jei problema nepasišalina, susisiekite su sistemos administratoriumi.
 
-Triktis 3: Galitei praeiti pro „ClickOnce Report Designer“ prisijungimo puslapį, tačiau negali užbaigti prisijungimo prie „Report Designer“. 
+Triktis 3: Galite praeiti pro „ClickOnce Report Designer“ prisijungimo puslapį, tačiau negalite užbaigti prisijungimo prie „Report Designer“. 
 
 * Jūsų kompiuteryje nustatytas vietinis laikas, kai įeinante į savo prisijungimo informaciją, gali atsilikti penkias minutes nuo „Financial Reporting“ serverio. Jei yra didesnis nei penkių minučių skirtumas, sistema neleis prisijungti. 
 * Tuo atveju, rekomenduojame įjungti „Windows“ parinktį, kad nustatytumėte savo kompiuterio laiką automatiniu būdu. 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 - [Peržiūrėti finansines ataskaitas](view-financial-reports.md)
+- [Ataskaitų dizaino įrankio ataskaitų medžio apibrėžtys](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)

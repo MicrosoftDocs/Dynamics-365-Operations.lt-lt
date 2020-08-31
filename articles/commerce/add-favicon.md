@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d95e8b799c3b89418657342868e0ec7e94a86f9
-ms.sourcegitcommit: ce79fb570e299a26a644e29da7ceb5a57a1374e6
+ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "3295085"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686795"
 ---
 # <a name="add-a-favicon"></a>Įtraukti parankinių piktogramą
 
@@ -62,8 +62,8 @@ Norėdami sukurti parankinių piktogramos HTML, naudokite tolesnę HTML eilutę.
 
 Norėdami sukurti puslapio fragmentą, kuriame yra jūsų parankinių piktogramos metažymių, atlikite tolesnius veiksmus.
 
-1. Eikite į **Puslapio fragmentai** ir pasirinkite **Naujas**.
-1. Dialogo lange **Naujas puslapio fragmentas** kaip modulį, kuriuo paremtas puslapio fragmentas, pasirinkite **Metažymės**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
+1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Meta skirtukai**, kaip modulį, kuriuo remiasi puslapio fragmentas.
 1. Įveskite puslapio fragmento pavadinimą, tada pasirinkite **Gerai**.
 1. Fragmento hierarchijos medyje pasirinkite antrinį elementą **Numatytosios metažymės**.
 1. Dešiniosios srities dalyje **Metažymės** pasirinkite **Įtraukti** ir įveskite anksčiau sukurtą HTML eilutę, skirtą parankinių piktogramai. 
@@ -75,7 +75,7 @@ Norėdami įtraukti metažymės puslapio fragmentą į jūsų puslapių HTML **a
 
 1. Eikite į **Šablonai**, atidarykite puslapių, į kuriuos norite įtraukti parankinių piktogramą, šabloną ir pasirinkite **Redaguoti**.
 1. Šablonų hierarchijos medyje pasirinkite daugtaškio (**...**) mygtuką, esantį dešinėje konteinerio **HTML antraštė** pusėje, ir pasirinkite **Įtraukti puslapio fragmentą**.
-1. Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite anksčiau sukurtą metažymės puslapio fragmentą ir pasirinkite **Gerai**.
+1. **Pasirinkti puslapio fragmentą** teksto laukelyje, pasirinkite meta skirtuko puslapio fragmentą, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
 1. Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte šabloną.
 
 > [!NOTE]

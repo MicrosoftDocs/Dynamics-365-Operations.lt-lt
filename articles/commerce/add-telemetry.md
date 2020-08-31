@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 81c36685c1eccceb2f1854fe7c866186120c08a3
-ms.sourcegitcommit: de5af1912201dd70aa85fdcad0b184c42405802e
+ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "3154091"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686819"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
 
@@ -32,7 +32,7 @@ ms.locfileid: "3154091"
 
 ## <a name="overview"></a>Peržiūrėti
 
-Žiniatinklio analizė yra esminė priemonė, kai norima suprasti, kaip klientai elgiasi jūsų svetainėje, ir priimti sprendimus, kurie padės optimizuoti maksimalaus konvertavimo tikslą. Šiems tikslams pasiekti yra daug žiniatinklio analizės paketų, pvz., „Google Analytics“, „Clicky“, „Moz Analytics“ ir „KISSMetrics“. Naudojant daugumą žiniatinklio analizės paketų reikalaujama, kad visuose svetainės puslapiuose į HTML elementą **\<head\>** įtrauktumėte kliento scenarijaus kodą.
+Žiniatinklio analizė yra esminė priemonė, kai norima suprasti, kaip klientai elgiasi jūsų svetainėje, ir priimti sprendimus, kurie padės optimizuoti maksimalaus konvertavimo tikslą. Šiems tikslams pasiekti yra daug žiniatinklio analizės paketų, pvz., „Google Analytics“, „Clicky“, „Moz Analytics“ ir „KISSMetrics“. Didžiajai daliai tinklo analitikos paketų turėsite įtraukti kliento pusės scenarijaus kodą  **\<head\>** HTML elemente visiems jūsų svetainės puslapiams.
 
 > [!NOTE]
 > Šioje temoje pateiktos instrukcijos taikomos ir kitoms pasirinktinėms kliento funkcijoms, kurių „Microsoft Dynamics 365 Commerce“ pati nesiūlo.
@@ -45,9 +45,9 @@ Puslapio fragmentas leidžia jums pakartotinai naudoti įdėtojo ar išorinio sc
 
 Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti puslapio fragmentą įdėtojo scenarijaus kodui, atlikite šiuos veiksmus.
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite **Įdėtasis scenarijus**.
-1. Dalyje **Puslapio fragmento pavadinimas** įveskite fragmento pavadinimą ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
+1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Linijinis scenarijus**.
+1. **Puslapio fragmento pavadinimo** skyriuje įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
 1. Sukurto puslapio fragmento dalyje pasirinkite modulį **Numatytasis įdėtasis scenarijaus**.
 1. Dešinėje esančios ypatybių srities dalyje **Įdėtasis scenarijus** įveskite kliento scenarijų. Tada konfigūruokite kitas parinktis, kaip jums reikia.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
@@ -57,9 +57,9 @@ Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti puslapio fr
 
 Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti puslapio fragmentą išorinio scenarijaus kodui, atlikite šiuos veiksmus.
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite **Išorinis scenarijus**.
-1. Dalyje **Puslapio fragmento pavadinimas** įveskite fragmento pavadinimą ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
+1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Išorinis scenarijus**.
+1. **Puslapio fragmento pavadinimo** skyriuje įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
 1. Sukurto puslapio fragmento dalyje pasirinkite modulį **Numatytasis išorinis scenarijaus**.
 1. Dešinėje esančios ypatybių srities dalyje **Scenarijaus šaltinis** pridėkite išorinį arba santykinį išorinio scenarijaus šaltinio URL. Tada konfigūruokite kitas parinktis, kaip jums reikia.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.

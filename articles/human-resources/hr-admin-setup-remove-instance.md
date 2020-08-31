@@ -3,7 +3,7 @@ title: Egzemplioriaus šalinimas
 description: Šiame straipsnyje pateikiami veiksmai, skirti „Microsoft Dynamics 365 Human Resources“ bandomosios versijos arba gamybos aplinkai pašalinti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/27/2020
+ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a384801060b2b684f7908daaac2311edd27c773a
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: 0a8eac74f0d840251ab56445dd5af4d19d3c0490
+ms.sourcegitcommit: f759d361fa505323b8b171a98024dca9cc9fa0f0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621385"
+ms.lasthandoff: 08/07/2020
+ms.locfileid: "3668330"
 ---
 # <a name="remove-an-instance"></a>Egzemplioriaus šalinimas
 
@@ -70,7 +70,7 @@ Norėdami „Human Resources“ aplinką pašalinti iš esamos „Power Apps“ 
 4. Prisijunkite prie LCS naudodami paskyrą, kurią naudojote prisijungti prie „Human Resources“. 
 5. Pasirinkite „Human Resources“ projektą, kuriame yra reikiama aplinka. 
 6. LCS projekte pasirinkite plytelę **Programos „Human Resources“ valdymas**. 
-7. Pasirinkite egzempliorių, kurį norite pašalinti ir kuris turi būti pažymėtas diegimo būsena **Nepavyko**.
+7. Pasirinkite norimą pašalinti instanciją, kuri turi būti pažymėta talpinimo **Pašalinta** statusu.
 8. Pasirinkite **Pašalinti egzempliorių** ir patvirtinkite savo sprendimą. 
 
 ## <a name="recover-a-soft-deleted-environment"></a>Švelniai pašalintos aplinkos atkūrimas

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87ffc0204019f2f7122c40dc21bdb5de012929d6
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411216"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686723"
 ---
 # <a name="footer-module"></a>Poraštės modulis  
 
@@ -50,8 +50,8 @@ Kaip ir dauguma konteinerių, poraštės modulis palaiko antraštės ir pločio 
 
 ## <a name="create-a-footer-module"></a>Kurti poraštės modulį
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Konteineris**, įveskite puslapio fragmento pavadinimą ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
+1. **Naujo puslapio fragmento** teksto laukelyje pasirinkite **Talpyklos** modulį, įveskite puslapio fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
 1. Vietoje **Numatytasis konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Poraštės kategorija** ir **Gerai**.
 1. Vietoje **Poraštės kategorija** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
