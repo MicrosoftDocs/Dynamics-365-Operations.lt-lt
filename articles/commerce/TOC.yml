@@ -68,6 +68,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/deploy-retail-onprem.md?toc=/dynamics365/commerce/toc.json
                 - name: „Finance + Operations (on-premises)“ pirkimas
                   href: ../fin-ops-core/fin-ops/get-started/purchase-on-premises.md?toc=/dynamics365/commerce/toc.json
+                - name: „Commerce Data Exchange“ diegimo nurodymai
+                  href: dev-itpro/implementation-considerations-cdx.md
                 - name: '„Finance and Operations“ programos, valdomos „21Vianet“ Kinijoje'
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: „Finance and Operations“ programos Prancūzijoje
@@ -178,7 +180,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
-                - name: „PowerApps“ programų įdėjimas
+                - name: Įdėtoji „Microsoft Power Apps“
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
                 - name: Informacijos ieška naudojant peržvalgas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
@@ -202,8 +204,14 @@
                   href: dev-itpro/retail-server-architecture.md
                 - name: Parduotuvės topologijos pasirinkimas
                   href: dev-itpro/retail-in-store-topology.md
-                - name: „Commerce Data Exchange“ ir prekybos kanalų ryšiai
-                  href: dev-itpro/define-retail-channel-communications-cdx.md
+                - name: „Commerce Data Exchange“
+                  items:
+                    - name: Geriausios „Commerce Data Exchange“ praktikos
+                      href: dev-itpro/CDX-Best-Practices.md
+                    - name: „Commerce Data Exchange“ ir prekybos kanalų ryšiai
+                      href: dev-itpro/define-retail-channel-communications-cdx.md
+                    - name: „Commerce Data Exchange“ trikčių šalinimas
+                      href: dev-itpro/CDX-Troubleshooting.md
                 - name: „Modern POS“ architektūra
                   href: dev-itpro/retail-modern-pos-architecture.md
                 - name: Internetinių parduotuvių publikavimo architektūra
@@ -516,6 +524,8 @@
                       href: duplicate-payment-protection.md
                     - name: Integruotų kanalų mokėjimų apžvalga
                       href: omni-channel-payments.md
+                    - name: Daugiakanaliai „Commerce“ užsakymų mokėjimai
+                      href: dev-itpro/commerce-payments.md
                     - name: DUK apie mokėjimus
                       href: dev-itpro/payments-retail.md
                 - name: „Bing“ žemėlapių valdymas jūsų organizacijoje
@@ -758,8 +768,6 @@
               href: disable-consistency-check-rule.md
             - name: Mažmeninės prekybos parduotuvės operacijų redagavimas ir audito atlikimas
               href: edit-audit-retail-transactions.md
-            - name: 'Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas'
-              href: tasks/create-calculate-post-statement-retail-store.md
             - name: 'Nuolatiniu duomenų perdavimu mažais kiekiais pagrįstas užsakymų kūrimas, skirtas parduotuvių operacijoms'
               href: trickle-feed.md
             - name: 'Mažmeninės prekybos parduotuvės išrašų kūrimas, skaičiavimas ir registravimas'
@@ -1130,13 +1138,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/commerce/toc.json
             - name: Prieiga prie informacijos ir ataskaitos
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/commerce/toc.json
-            - name: Personalizavimo parinktys naudojantis PowerBI.com
+            - name: Personalizavimo parinktys naudojantis „Power BI“
               items:
-                - name: 'Funkcijos, galimos naudojant PowerBI.com integravimą'
+                - name: 'Funkcijos, galimos naudojant „Power BI“ integravimą'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/commerce/toc.json
-                - name: PowerBI.com turinio prisegimas
+                - name: „Power BI“ turinio prisegimas
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
-                - name: Analizės darbo srities pasirinkimas iš PowerBI.com
+                - name: Analizės darbo srities pasirinkimas iš „Power BI“
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/commerce/toc.json
             - name: „Power BI“ turinys
               items:
@@ -1188,7 +1196,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md?toc=/dynamics365/commerce/toc.json
                 - name: Problemų sprendimas po objektų saugyklos tvarkymo
                   href: ../fin-ops-core/dev-itpro/analytics/entity-store-maintenance.md
-                - name: PowerBI.com integravimo konfigūravimas
+                - name: „Power BI“ integravimo konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md?toc=/dynamics365/commerce/toc.json
                 - name: Savo duomenų bazės naudojimas
                   href: ../fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/dynamics365/commerce/toc.json
@@ -1202,7 +1210,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/commerce/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „PowerBI Desktop“
+                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/commerce/toc.json
@@ -2048,7 +2056,7 @@
                   items:
                     - name: Kurkite konfigūracijų paketus ir diekite juos į interneto aplinką
                       href: e-commerce-extensibility/package-deploy.md
-                    - name: SDK ir branduolio bibliotekos naujinimai
+                    - name: SDK ir parduotuvės darbo pradžios rinkinio atnaujinimai
                       href: e-commerce-extensibility/sdk-updates.md
             - name: „Retail SDK“
               items:
@@ -2186,6 +2194,8 @@
                   href: 'https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The Guide to Implementing Payment Connector and Payment Device_update.pdf'
                 - name: Visuotinis mokėjimo jungčių diegimas
                   href: dev-itpro/deploy-payment-connector.md
+                - name: Papildantysis operacijų skyriaus sąskaitų faktūrų išrašymo įrašymas
+                  href: dev-itpro/incremental-capture.md
                 - name: Pasirinktinių lokalizuotų klaidų pranešimų kūrimas mokėjimo terminalo plėtiniams
                   href: dev-itpro/payment-custom-error-messages.md
                 - name: „Windows“ diegimo programų kūrimas mokėjimo jungtims
