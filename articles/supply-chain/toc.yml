@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: „PowerApps“ programų įdėjimas
+                - name: Įdėtoji „Microsoft Power Apps“
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Informacijos ieška naudojant peržvalgas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -633,13 +633,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Prieiga prie informacijos ir ataskaitos
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Personalizavimo parinktys naudojantis PowerBI.com
+            - name: Personalizavimo parinktys naudojantis „Power BI“
               items:
-                - name: 'Funkcijos, galimos naudojant PowerBI.com integravimą'
+                - name: 'Funkcijos, galimos naudojant „Power BI“ integravimą'
                   href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/supply-chain/toc.json
-                - name: PowerBI.com turinio prisegimas
+                - name: „Power BI“ turinio prisegimas
                   href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analizės darbo srities pasirinkimas iš PowerBI.com
+                - name: Analizės darbo srities pasirinkimas iš „Power BI“
                   href: ../fin-ops-core/dev-itpro/analytics/select-analytical-workspace.md?toc=/dynamics365/supply-chain/toc.json
             - name: „Power BI“ turinys
               items:
@@ -1827,10 +1827,6 @@
                       href: pim/tasks/obsolete-product-variants.md
                     - name: Produktų neįtraukimas į sritį Bendrasis planavimas
                       href: pim/tasks/exclude-products-master-planning.md
-                - name: Dvejopo naudojimo prekės
-                  href: pim/dual-use.md
-                - name: Kilmės šalis / regionas
-                  href: pim/country-of-origin.md
                 - name: Produkto brūkšninio kodo kūrimas
                   href: pim/tasks/create-bar-code-product.md
                 - name: Produkto GTIN kodo įvedimas
@@ -1839,6 +1835,20 @@
                   href: pim/tasks/create-batch-attributes-product.md
                 - name: Vaizdo pridėjimas prie produkto
                   href: pim/tasks/add-image-product.md
+                - name: Kilmės šalis
+                  href: pim/country-of-origin.md
+                - name: Dvejopo naudojimo prekės
+                  href: pim/dual-use.md
+                - name: Pavojingos medžiagos
+                  items:
+                    - name: Pavojingų medžiagų apžvalga
+                      href: pim/hazmat-overview.md
+                    - name: Pavojingų medžiagų nustatymas
+                      href: pim/hazmat-setup.md
+                    - name: 'Pavojingos medžiagos produktuose, užsakymuose, siuntose ir kroviniuose'
+                      href: pim/hazmat-items.md
+                    - name: Pavojingų medžiagų užklausos ir ataskaitos
+                      href: pim/hazmat-reports.md
                 - name: Produkto informacijos vertimo DUK
                   href: pim/translations-product-related-information.md
                 - name: Produkto ieška įvedant užsakymą
