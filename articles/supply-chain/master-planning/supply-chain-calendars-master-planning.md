@@ -3,7 +3,7 @@ title: Kalendoriai ir bendrasis planavimas
 description: Šioje temoje apžvelgiami tiekimo grandinės kalendoriai ir tai, kaip jie paveikia bendrąjį planavimą.
 author: t-benebo
 manager: tfehr
-ms.date: 05/08/2019
+ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d542c52623c1b3c0aa4b23159d56791cdc981f48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 373af2e7bdcbf6860f21e049403fdf174d5e8ca7
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213497"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710338"
 ---
 # <a name="calendars-and-master-planning"></a>Kalendoriai ir bendrasis planavimas
 
@@ -105,28 +105,28 @@ Suplanuoto pirkimo užsakymo data nurodo datą, kurią pateikiamas užsakymas. T
 
 ### <a name="delivery-date-of-a-planned-purchase-order"></a>Suplanuoto pirkimo užsakymo pristatymo data
 Pirkimo gavimo data nurodo datą, kurią gausite prekes. Tai bus atidaryta data kalendoriuje. Kalendorius, į kurį bus atsižvelgiama siekiant nurodyti, kokiomis dienomis galima gauti pirkimo užsakymus, nurodytas toliau (nuo aukščiausio iki žemiausio prioriteto). 
-    1. Tiekėjo kalendorius
-    2. Padengimo grupės kalendorius
-    3. Gavimo sandėlio kalendorius
+1. Tiekėjo kalendorius
+1. Padengimo grupės kalendorius
+1. Gavimo sandėlio kalendorius
 
 Atminkite, kad padengimo grupės kalendorių galima nustatyti skirtinguose puslapiuose, prioritetas jam bus taikomas toliau nurodyta tvarka.
-    1. Prekės padengimo grupė puslapyje **Išleistų produktų informacija**
-    2. Prekės padengimo grupė puslapyje **Prekės padengimas**
-    3. Numatytoji prekės padengimo grupė puslapyje **Bendrojo planavimo parametrai**
+1. Prekės padengimo grupė puslapyje **Prekės padengimas**
+1. Prekės padengimo grupė puslapyje **Išleistų produktų informacija**
+1. Numatytoji prekės padengimo grupė puslapyje **Bendrojo planavimo parametrai**
 
 ### <a name="shipping-date-of-a-planned-transfer-order"></a>Suplanuoto perkėlimo užsakymo pristatymo data
 Kuriant perkėlimo tarp dviejų sandėlių užsakymą, siuntimo data ir gavimo data įtraukiamos į perkėlimo užsakymo antraštę kartu su siuntimo sandėliu ir gavimo sandėliu. Skirtumas tarp šių dviejų datų yra numatomas transportavimo tarp sandėlių laikas (dienomis).
 
 Suplanuoto perkėlimo užsakymo siuntimo data nurodo datą, kurią prekės siunčiamos iš siuntimo sandėlio. Kalendoriai, naudojami nurodant galimą siuntimo datą, yra išvardyti toliau pagal prioritetą. 
-    1. Siuntimo sandėlio kalendorius
-    2. Padengimo grupės kalendorius (žr. pirmiau aprašytą šio kalendoriaus atsarginį užsakymą) Jei nustatytas sandėlio kalendorių rinkinys, siuntimo data bus atidaryta data kalendoriuje. Jei sandėlio kalendorių rinkinys nenustatytas, bus naudojamas padengimo grupės kalendorius. 
+1. Siuntimo sandėlio kalendorius
+1. Padengimo grupės kalendorius (žr. pirmiau aprašytą šio kalendoriaus atsarginį užsakymą) Jei nustatytas sandėlio kalendorių rinkinys, siuntimo data bus atidaryta data kalendoriuje. Jei sandėlio kalendorių rinkinys nenustatytas, bus naudojamas padengimo grupės kalendorius. 
 
 ### <a name="receipt-date-of-a-planned-transfer-order"></a>Suplanuoto perkėlimo užsakymo gavimo data
 Perkėlimo užsakymo gavimo data nurodoma, kai prekės gaunamos į gavimo sandėlį.
 
 Kalendoriai, naudojami nurodant gavimo datą, yra išvardyti toliau pagal prioritetą. 
-    1. Padengimo grupės kalendorius 
-    2. Gavimo sandėlio kalendorius Jei nustatytas padengimo kalendorių rinkinys, gavimo data bus atidaryta data kalendoriuje. Jei padengimo grupės kalendorius nenustatytas, bus naudojamas sandėlio kalendorius. 
+1. Padengimo grupės kalendorius 
+1. Gavimo sandėlio kalendorius Jei nustatytas padengimo kalendorių rinkinys, gavimo data bus atidaryta data kalendoriuje. Jei padengimo grupės kalendorius nenustatytas, bus naudojamas sandėlio kalendorius. 
 
 Ieškant suplanuoto perkėlimo siuntimo ir gavimo datų, taip pat atsižvelgiama į vartotojo nustatytą siuntimo ir gavimo rezervą. 
 

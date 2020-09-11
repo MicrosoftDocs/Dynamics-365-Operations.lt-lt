@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5006f06d90ddcc314a51878e9e21337de7d493e7
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
+ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208471"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "3699541"
 ---
 # <a name="hazardous-materials"></a>Pavojingos medžiagos
 
@@ -35,7 +35,7 @@ Informacija apie pavojingas medžiagas nustatoma produkto informacijos valdyme. 
 Kai siunčiate medžiagas, kurios klasifikuojamos kaip pavojingos prekės, prie siuntų turi būti pridėti papildomi dokumentai. Pavojingų medžiagų funkcijose klientai gali išsaugoti klasifikacijos informaciją ir susieti ją su leidimo prekėmis. Ši informacija gali būti naudojama ruošiant siuntimo dokumentus.
 
 > [!IMPORTANT]
-> Kad būtų lengviau tvarkyti pavojingų prekių siuntas, „Microsoft Dynamics 365 Supply Chain Management“ galite nustatyti papildomą nuorodos informaciją, susijusią su produktais. Taip pat galite nustatyti papildomus siuntos dokumentus. Tačiau sistema automatiškai neatitinka jūsų šalies arba regiono nuostatų. Tai priemonė, kuri gali būti naudinga jūsų bendrajai programai.
+> Pavojingų medžiagų funkcijos „Microsoft Dynamics 365 Supply Chain Management” teikia naudingų produkto informacijos laukų ir susijusių funkcijų kolekciją, kuri gali padėti jums įrašyti ir nurodyti informaciją, susijusią su pavojingais produktais. Šios funkcijos taip pat gali padėti jums kurti ir spausdinti siuntimo dokumentus, kuriuose yra tam tikra informacija apie bet kokias pavojingas medžiagas, kurias siunčiate. Tačiau sistema automatiškai neatitiks visų nuostatų, taikomų jūsų šalyje arba regione. Nors šios priemonės skirtos tam, kad būtų lengviau laikytis bendrųjų nuostatų, jos nėra pakankamos ar garantuotos tokiomis būti. Jūsų organizacija yra atsakinga už visų taikomų nuostatų žinojimą ir visų jų laikymuisi būtinų veiksmų atlikimą.
 
 Kad galėtumėte naudoti šią funkciją, reikia nustatyti šiuos parametrus:
 

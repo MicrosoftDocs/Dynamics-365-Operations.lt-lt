@@ -3,7 +3,7 @@ title: Atostogų pirkimo ir pardavimo strategijų valdymas
 description: Galite suteikti darbuotojams galimybę pirkti ir parduoti atostogas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,24 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 859445f2b6e980b5960e512e69129f6a8fc6df2b
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 55d29c42cc1b2d69517e2fcd458ee6a1bdf5277f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429018"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712121"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Atostogų pirkimo ir pardavimo strategijų valdymas
 
-[!include [banner](includes/preview-feature.md)]
-
-Galite suteikti darbuotojams galimybę pirkti atostogas, kurdami pirkimo atostogų strategiją.  
+Galite įgalinti darbuotojus pirkti ir parduoti atostogas, sukuriant atostogų pirkimo ir pardavimo strategiją. Galite konfigūruoti šias strategijas, kad galėtumėte naudotis darbo eiga patvirtinimams, nustatyti maksimalias sumas bei tarifus, ir nustatyti pirkimo ir pardavimo tarifus.  
 
 ## <a name="enable-employees-to-buy-and-sell-leave"></a>Suteikite darbuotojams galimybę pirkti ir parduoti atostogas
 
-1. Puslapyje **Atostogų parametrai** pasirinkite **Taip**, jei norite **Leisti darbuotojams pirkti atostogas**. 
+1. **Atostogų ir neatvykimų parametrų** puslapyje, **Leisti darbuotojams pirkti atostogas** ir **Leisti darbuotojams parduoti atostogas** dalyse, pasirinkite **Taip**.
 
-## <a name="create-a-buy-leave-policy"></a>Atostogų pirkimo strategijos kūrimas
+## <a name="create-a-buy-and-sell-leave-policy"></a>Sukurkite atostogų pirkimo ir pardavimo strategiją 
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**. 
 
@@ -51,19 +49,23 @@ Galite suteikti darbuotojams galimybę pirkti atostogas, kurdami pirkimo atostog
 
 6. Pasirinkite strategijos **Pradžios datą** ir **Pabaigos datą**. Atostogų pirkimo ir pardavimo prašymus bus galima pateikti tik šiuo laikotarpiu. 
 
-7. Dalyje **Pirkimo strategija** pasirinkite **Visos darbo dienos ekvivalentiškumas** (FTE), norėdami proporcingai paskirstyti maksimalų kiekį pagal FTE, apibrėžtą darbuotojo pareigose. Jei strategijos tipas yra **Kiekis**, įveskite **Maksimalus fiksuotas kiekis**. 
+7. Parinkite **Darbo eigos ID** strategijai. Bet kurioms pirkimo ir pardavimo užklausoms bus naudojama ši darbo eiga peržiūrai ir patvirtinimui. 
 
-8. Pasirinkite **Įtraukti**, kad įtrauktumėte darbuotojų atostogų tipus, kad būtų galima pirkti atostogas. Prie strategijos galite pridėti keletą atostogų tipų. 
+8. Dalyje **Pirkimo strategija** pasirinkite **Visos darbo dienos ekvivalentiškumas** (FTE), norėdami proporcingai paskirstyti maksimalų kiekį pagal FTE, apibrėžtą darbuotojo pareigose. Jei strategijos tipas yra **Kiekis**, įveskite **Maksimalus fiksuotas kiekis**. 
 
-9. Norėdami nustatyti maksimalų kiekį, kurį gali įsigyti darbuotojas, įveskite **Darbo mėnesiai**, kad būtų įjungti skirtingi paslaugų mėnesiai. 
+9. Pasirinkite **Įtraukti**, kad įtrauktumėte darbuotojų atostogų tipus, kad būtų galima pirkti atostogas. Prie strategijos galite pridėti keletą atostogų tipų. 
 
-10. Įveskite atostogų tipo **Maksimalų kiekį**. 
+10. Norėdami nustatyti maksimalų kiekį, kurį gali įsigyti darbuotojas, įveskite **Darbo mėnesiai**, kad būtų įjungti skirtingi paslaugų mėnesiai. 
 
-11. Įveskite **Įkainį**, kuriuo darbuotojas įsigys atostogų. 
+11. Įveskite atostogų tipo **Maksimalų kiekį**. 
 
-12. Pasirinktinai įveskite **Uždarbio kodą,** kuris bus naudojamas perkant atostogas. 
+12. Įveskite **Įkainį**, kuriuo darbuotojas įsigys atostogų. 
 
-13. Pasirinktinai nustatykite, ar naudoti FTE, kad būtų galima nustatyti maksimalų atostogų tipo kiekį. 
+13. Pasirinktinai įveskite **Uždarbio kodą,** kuris bus naudojamas perkant atostogas. 
+
+14. Pasirinktinai nustatykite, ar naudoti FTE, kad būtų galima nustatyti maksimalų atostogų tipo kiekį. 
+
+15. Tam, kad sukurtumėte ir parduotumėte strategiją, sekite 8–14 žingsnius, esančius po **Parduoti strategiją**. 
 
 ## <a name="add-the-buy-and-sell-leave-policy-to-a-leave-and-absence-plan"></a>Atostogų pirkimo ir pardavimo strategijos įtraukimas į atostogų planą
 

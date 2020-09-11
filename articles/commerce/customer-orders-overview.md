@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 87d1217204e0c5cb22f567793b043bf399ca5685
-ms.sourcegitcommit: b07434f2bd6db67d8dd712f096329acc902751ae
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699374"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710264"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Klientų užsakymai naudojant „Modern POS“ (MPOS)
 
@@ -54,7 +54,10 @@ Toliau pateikiama keletas parametrų, kuriuos galima nustatyti puslapyje **Preky
     - Išlaidos taikomos pardavimo užsakymo antraštės lygyje ir, kai tam tikras produkto eilutės kiekis yra grąžinamas, didžiausios leidžiamos produktų ir kiekio siuntimo išlaidų grąžinimo sumos negalima nustatyti tokiu būdu, kuris tiktų visiems klientams.
     - Siuntimo išlaidos patiriamos kiekvieną kartą siunčiant prekes. Jei klientas kelis kartus grąžina produktus, o pardavėjo strategijoje nurodyta, kad pardavėjas padengs grąžinimo siuntimo išlaidų sumą, grąžinimo siuntimo išlaidų suma bus didesnė nei faktinės siuntimo išlaidos.
     
-- **Mokesčių apskaičiavimo elgesysr** - **Perskaičiavimas** yra nustatytasis ir įprastas nustatymas mokesčių perskaičiavimui, kai tvarka yra importuojama į operacijų skyrių. **Neperskaičiuoti** išjungia mokesčių perskaičiavimą, kol arba tais atvejais, kai užsakymą pakeičia operacijų skyrius ir įjungia perskaičiavimą. 
+
+## <a name="disable-option-to-pay-later"></a>Išjungti pasirinktį „mokėti vėliau”
+
+„Commerce” versijoje 10.0.12 ir vėlesnėje, prekybininkai gali pašalinti pasirinktį „mokėti vėliau”, kai yra sukurtas kliento užsakymas EKA. Norėdami išjungti pasirinktį, atsidarykite **Funkcijų šabloną** kanalui, kur mokėjimas vėliau neleidžiamas, o tada pasirinkite **Redaguoti**. Skirtuke **Bendra** iš išplečiamojo sąrašo pasirinkite **Reikalauti mokėjimo įvykdymo**. Jeigu mokėjimas vėliau negali būti leistinas EKA, pasirinkite **Reikiama kortelė** ir pasirinkite **Išsaugoti**. Paleiskite **1070** paskirstymo grafiką, kad sinchronizuotumėte šį pakeitimą kanale. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Kliento užsakymų operacijų srautas
 

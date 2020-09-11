@@ -3,7 +3,7 @@ title: Įjungti produktų rekomendacijas
 description: Šioje temoje paaiškinama, kaip pateikti produkto rekomendacijas, paremtas dirbtinio intelekto mašininiu mokymu (AI-ML), kurį gali naudoti „Microsoft Dynamics 365 Commerce“ klientai.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d2dacd4a94f706be5aa65947c0b6a92e281733ca
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: b201e5481cfaf5bb6cd64a89cdb6b5a91f31447f
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665031"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700847"
 ---
 # <a name="enable-product-recommendations"></a>Įjungti produktų rekomendacijas
 
@@ -65,11 +65,13 @@ Jei įrašo nėra, pridėkite naują įrašą su toliau pateikta informacija.
 
 Norėdami įjungti produktų rekomendacijas, atlikite toliau pateikiamus veiksmus.
 
-1. Eikite į **Mažmeninė prekyba ir prekyba &gt; Produktų rekomendacijos &gt; Rekomendacijų parametrai**.
-1. Bendrai naudojamų parametrų sąraše pasirinkite **Rekomendacijų sąrašai**.
-1. Parinktį **Įjungti rekomendacijas** nustatykite kaip **Taip**.
+1. "Commerce Headquarters" ieškokite **Funkcijų valdymas**.
+1. Norėdami pamatyti galimų funkcijų sąrašą, pasirinkite **Visi**. 
+1. Ieškos lauke įveskite **Rekomendacijos**.
+1. Pasirinkite **Produkto rekomendacijos** funkciją.
+1. **Produkto rekomendacijos** srityje Ypatybės ,pasirinkite **Įgalinti dabar**.
 
-![Rekomendacijų įjungimas](./media/enablepersonalization.png)
+![Rekomendacijų įjungimas](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Ši procedūra paleidžia produktų rekomendacijų sąrašų generavimo procesą. Gali užtrukti iki kelių valandų, kol sąrašai bus pasiekiami ir juos bus galima matyti elektroniniame kasos aparate (EKA) arba programoje „Dynamics 365 Commerce“.

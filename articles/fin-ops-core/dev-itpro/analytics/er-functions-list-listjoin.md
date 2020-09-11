@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3b5b82917e3083b5ffe4546a6a15fd14938383a
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: c7f78b687865e63e658c1c1c4f148b50595bf063
+ms.sourcegitcommit: 54bdcf8e9b6d1b1aae2a244f7a82754879d12053
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249040"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "3740668"
 ---
 # <a name=""></a><a name="LISTJOIN">LISTJOIN ER funkcija</a>
 
@@ -69,8 +69,18 @@ Tada įvedate tipo `Container` duomenų šaltinį **2-asis įrašas**. Šiame du
 - **Suma**. Šiame lauke yra reiškinys, pateikiantis tipo `Real` reikšmę.
 - **IsValid**. Šiame lauke yra reiškinys, pateikiantis tipo `Boolean` reikšmę.
 
-Šiuo atveju reiškinys `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` pateikia naują sąrašą, kuriame yra du įrašai. Šio sąrašo struktūrą sudaro vienas tipo `Real` laukas **Suma**, nes šis laukas yra vienintelis laukas, pateikiamas kiekviename iškviestos funkcijos argumente.
+![ER modelio susiejimo dizaino įrankio puslapis](./media/er-functions-list-listjoin-image1.gif)
+
+Šiuo atveju reiškinys `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` pateikia naują sąrašą, kuriame yra du įrašai.
+
+![ER modelio susiejimo dizaino įrankio puslapis](./media/er-functions-list-listjoin-image2.gif)
+
+Šio sąrašo struktūrą sudaro vienas tipo `Real` laukas **Suma**, nes šis laukas yra vienintelis laukas, pateikiamas kiekviename iškviestos funkcijos argumente.
+
+![ER modelio susiejimo dizaino įrankio puslapis](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Sąrašo funkcijos](er-functions-category-list.md)
+
+[Įvykdyto ER formato duomenų šaltinių derinimas duomenų srautams ir transformacijai analizuoti](er-debug-data-sources.md)

@@ -3,7 +3,7 @@ title: Darbuotojų ir vadovų savitarnos apžvalga
 description: Šiame straipsnyje pateikiama darbuotojų ir valdovų savitarnos darbo srities apžvalga.
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/19/2020
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5934b6a1a1a8aa30aa18d9be26845c84acfa2fd0
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: fd642d0976c607b47a7874d0771e441153272ec9
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429801"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712237"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Darbuotojų ir vadovų savitarnos apžvalga
 
@@ -32,6 +32,25 @@ ms.locfileid: "3429801"
 ## <a name="edit-personal-details"></a>Redaguoti asmeninę informaciją
 
 Jei reikia įtraukti arba pakeisti asmeninę informaciją, žr. [Asmeninės informacijos redagavimas](hr-employee-manager-self-service-edit-personal-information.md).
+
+## <a name="user-not-assigned-to-a-worker-record"></a>Vartotojui nepriskirtas darbininko įrašas
+
+Jei nesusiejote savo vartotojo su **Darbuotojas** įrašu, kuris yra **Vartotojai** puslapyje, bus rodomas šis pranešimas:
+
+**Jūsų vartotojo ID nėra susietas su jūsų darbuotojo įrašu sistemoje. Iki kol jis nebus susietas, tol jūs negalėsite peržiūrėti ar atnaujinti savo informacijos. Susisiekite su savo vadovu ar palaikymo komanda, jei reikia pagalbos.**
+
+Norėdami susieti vartotoją su **Darbuotojo** įrašu, pereikite į skiltį **Vartotojai** ir pasirinkite vartotoją. Pasirinkite **Redaguoti**, pridėkite atitinkamą darbininką formos lauke **Asmuo**, ir pasirinkite **Išsaugoti**. Dabar turėtumėte turėti prieigą prie darbuotojų savitarnos.
+
+## <a name="security-requirements-for-employee-and-manager-self-service"></a>Darbuotojų ir vadovų savitarnos saugos reikalavimai
+
+Darbuotojų ir vadovų savitarnoje būtini du saugos vaidmenys:
+
+- Darbuotojams būtinas darbuotojo vaidmuo.
+- Vadovams būtinas ir darbuotojo, ir vadovo vaidmuo.
+
+>[!NOTE]
+>Taip pat galite naudoti pasirinktinius vaidmenis, kad turėtumėte prieigą prie darbuotojų ir vadovų savitarnos tol, kol jiems buvo suteikta prieiga prie darbuotojų ir vadovų darbo sričių.<br>
+>Vadovo prieiga prie darbuotojo informacijos pagrįsta dabartine pareigų eilučių hierarchija, apibrėžta Žmogiškuosiuose ištekliuose.
 
 ## <a name="employee-self-service"></a>Darbuotojų savitarna
 

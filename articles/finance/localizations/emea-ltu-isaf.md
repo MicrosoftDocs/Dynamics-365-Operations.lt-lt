@@ -17,12 +17,12 @@ ms.search.region: Lithuania
 ms.author: v-elgolu
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 142b0eac8d14fad51cd3543d6c7bd1b6e6cd1ba5
-ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
+ms.openlocfilehash: 75ba2dd220282663f81c615cecdab894b96549df
+ms.sourcegitcommit: 0223e2d2276b9482f6ffdad643fc6a746f3b8469
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "2994202"
+ms.lasthandoff: 08/21/2020
+ms.locfileid: "3714653"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>i.SAF ataskaitų pateikimas Lietuvoje
 
@@ -30,7 +30,7 @@ ms.locfileid: "2994202"
 
 Pagal Valstybinės mokesčių inspekcijos prie Lietuvos Respublikos finansų ministerijos viršininko 2004 m. balandžio 21 d. įsakymą Nr. VA-55 „Dėl Pridėtinės vertės mokesčio sąskaitų faktūrų registrų tvarkymo“, pridėtinės vertės mokesčio sąskaitų faktūrų registrų duomenų apdorojimas ir pateikimas atnaujinami, kad būtų sudarytos sąlygos apmokestinamiems asmenims pateikti informaciją apie pateiktas ir priimtas sąskaitas faktūras mokesčių institucijai, naudojant standartinį i.SAF programos formatą. i.SAF formatas turi atitikti dabartinio apskaitos duomenų failų standarto technines specifikacijas ir techninius reikalavimus (FileVersion iSAF1.2).
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 
 Šioje temoje aprašoma, kaip nustatyti i.SAF ataskaitų pateikimo elektroninių ataskaitų (ER) konfigūracijas ir kaip nustatyti bei naudoti funkciją El. pranešimai (EM) programoje „Dynamics 365 Finance“.
 
@@ -48,12 +48,12 @@ Norėdami paruošti programą „Finance“ i.SAF ataskaitų pateikimui, turite 
 |---------------------|--------------------|
 | Sąskaitų faktūrų ryšių modelis  | Duomenų modelis |
 | i.SAF modelio susiejimas   | Modelio susiejimas |
-| i.SAF formatas (LT) |   Format  |
+| i.SAF formatas (LT) |   Formatas  |
 
 Importuokite naujausias šių konfigūracijų versijas. Versijos apraše paprastai yra „Microsoft“ žinių bazės (KB) straipsnio, kuriame paaiškinami konfigūracijos versijoje įgyvendinti pakeitimai, numeris.
 
 > [!NOTE]
-> Importavę visas anksčiau pateiktoje lentelėje nurodytas ER konfigūracijas, parinktyje **Numatytasis modelių susiejimui**, nustatykite **Taip** ER konfigūracijoje **Mokesčių deklaracijos modelio susiejimas**.
+> Importavus visas ER konfigūracijas iš ankstesnės lentelės, nustatykite parinktį **Numatytasis modelio susiejimas** į **Taip** ER konfigūracijai **i.SAF modelio susiejimas**.
 
 Daugiau informacijos apie ER konfigūracijų atsisiuntimą iš „Microsoft Dynamics Lifecycle Services (LCS)“ žr. [Elektroninių ataskaitų konfigūracijų atsisiuntimas iš „Lifecycle Services“](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
@@ -79,7 +79,7 @@ Daugiau informacijos apie ER konfigūracijų atsisiuntimą iš „Microsoft Dyna
 | PVM9                  | Ilgalaikio materialiojo turto pasigaminimas, vykdomas PVM mokėtojo, ir pastatų (statinių), priklausančių arba nepriklausančių PVM mokėtojui, esminis pagerinimas (LPVM 6 straipsnis), 21 proc. tarifas                                                                                                                                                                                                                |
 | PVM30                 | Ilgalaikio materialiojo turto pasigaminimas, vykdomas PVM mokėtojo, ir pastatų (statinių), priklausančių arba nepriklausančių PVM mokėtojui, esminis pagerinimas (LPVM 6 straipsnis), 9 proc. tarifas                                                                                                                                                                                                                 |
 | PVM31                 | Ilgalaikio materialiojo turto pasigaminimas, vykdomas PVM mokėtojo, ir pastatų (statinių), priklausančių arba nepriklausančių PVM mokėtojui, esminis pagerinimas (LPVM 6 straipsnis), 5 proc. tarifas                                                                                                                                                                                                                 |
-| PVM10                 | Kai operacijos apmokestinamos pagal specialią apmokestinimo schemą (maržą) (LPVM 101–105, 106–110 straipsniai, negalioja nuo 2016-03-31, 21, 9, 5, 0 proc. tarifas                                                                                                                                                                                                                                    |
+| PVM10                 | Kai operacijos apmokestinamos pagal specialią apmokestinimo schemą (maržą) (LPVM 101–105, 106–110 straipsniai,) negalioja nuo 2016-03-31, 21, 9, 5, 0 proc. tarifas                                                                                                                                                                                                                                    |
 | PVM32                 | Kai operacijos apmokestinamos pagal specialią apmokestinimo schemą (maržą) (LPVM II, III skirsniai), 21 proc.                                                                                                                                                                                                                                                                 |
 | PVM33                 | Specialios apmokestinimo schemos (maržos) taikymas operacijoms (LPVM II, III skirsniai), 0 proc.                                                                                                                                                                                                                                                                                    |
 | PVM12                 | Prekių eksportas (LPVM 41 straipsnis), 0 proc. tarifas                                                                                                                                                                                                                                                                                                                                                   |

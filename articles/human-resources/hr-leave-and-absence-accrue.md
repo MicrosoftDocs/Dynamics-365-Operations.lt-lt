@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f045cb7ab9f5e7aa4259f29e1b026f110425c236
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429064"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712174"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Sukauptų atostogų ir neatvykimų planai
 
@@ -37,7 +37,9 @@ ms.locfileid: "3429064"
 
 3. Atsiranda dialogo langas **Atostogų ir neatvykimų kaupimo planai**. lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
 
-4. Jei norite vykdyti kaupimo procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
+4. Jei norite vykdyti kaupimą visoms įmonėms, pasirinkite **Visos įmonės**. Jei norite apdoroti kaupimus vienam atostogų planui, pasirinkite **Ne** prie funkcijos **Visi planai**, ir tada pažymėkite **Atostogų planas**. Jei pasirenkate visas įmones, negalite pasirinkti individualaus atostogų plano. 
+
+5. Jei norite vykdyti kaupimo procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
 
    1. Įveskite kaupimo proceso informaciją.
 
@@ -55,7 +57,9 @@ ms.locfileid: "3429064"
 
 3. Atsiranda dialogo langas **Atostogų ir neatvykimų kaupimo planai**. lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
 
-4. Jei norite vykdyti kaupimo procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
+4. Jei norite vykdyti kaupimą visoms įmonėms, pasirinkite **Visos įmonės**. Jei norite apdoroti kaupimus vienam atostogų planui, pasirinkite **Ne** prie funkcijos **Visi planai**, ir tada pažymėkite **Atostogų planas**. Jei pasirenkate visas įmones, negalite pasirinkti individualaus atostogų plano. 
+
+5. Jei norite vykdyti kaupimo procesą fone, pasirinkite **Vykdyti fone** ir atlikite šias užduotis:
 
    1. Įveskite kaupimo proceso informaciją.
 
@@ -102,18 +106,6 @@ Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data tu
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
 2. Dalyje **Valdyti atostogų laiką**pasirinkite **Naikinti atostogų kaupimo auditą**.
-
-## <a name="configure-preview-features"></a>Peržiūros funkcijų konfigūravimas
-
-[!include [banner](includes/preview-feature-leave-absence.md)]
-
-Jeigu įgalinote atostogų ir neatvykimų peržiūros funkcijas, jums reikės konfigūruoti ir jų parametrus.
-
-### <a name="accrue-leave-per-company-or-per-leave-plan"></a>Įmonės arba plano atostogų kaupimas
-
-Kaupdami atostogų planus, galite pasirinkti kaupti visoms įmonėms. Jei pasirinksite visas įmones, negalėsite pasirinkti atskirų atostogų planų. Jei pasirinksite nekaupti visoms įmonėms, galite kaupti tam tikrą atostogų planą. 
-
-Šios pasirinktys galimos, kai kaupiama visiems darbuotojams ar atskiriems darbuotojams. 
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

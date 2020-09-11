@@ -1,9 +1,9 @@
 ---
 title: Atostogų pirkimas ir pardavimas
-description: Galite pateikti prašymą pirkti ir parduoti atostogoms.
+description: 'Dynamics 365 Human Resources galite pateikti užklausas pirkti ir parduoti atostogas, remiantis atostogų pirkimo ir pardavimo strategijomis, nustatytomis jūsų įmonės. '
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/01/2020
+ms.date: 08/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b765544dcca02ff629e4cc88e3b34d1d3b3e85dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: e3a10d183c50f4db31f5c08eb6c0ab8cff79b23e
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429686"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711823"
 ---
 # <a name="buy-and-sell-leave"></a>Atostogų pirkimas ir pardavimas
 
-[!include [banner](includes/preview-feature.md)]
-
-Galite pateikti prašymą pirkti atostogoms.  
+Dynamics 365 Human Resources galite pateikti užklausas pirkti ir parduoti atostogas, remiantis atostogų pirkimo ir pardavimo strategijomis, nustatytomis jūsų įmonės.   
 
 ## <a name="request-to-buy-leave"></a>Prašymas įsigyti atostogų
 
@@ -39,7 +37,17 @@ Galite pateikti prašymą pirkti atostogoms.
 
 3. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**. 
 
-Pateikus užklausą, jūsų likutis bus automatiškai atnaujintas pagal kiekį, kurį norite įsigyti. 
+Jūsų balansai arba automatiškai atsinaujins, arba pereis tvirtinimo procesą prieš atnaujinant. Tai priklauso nuo to, kaip pirkimo strategija buvo sukonfigūruota.
+
+## <a name="request-to-sell-leave"></a>Prašymas parduoti atostogas
+
+1. **Darbuotojų savitarnos** darbo srityje, **Išleidimo iš darbo balansų** išklotinėje, pasirinkite **Parduoti atostogų prašymą**. 
+
+2. Įtraukite **Atostogų tipą** ir įveskite **Kiekį**, kurį norite parduoti. 
+
+3. Kai būsite pasirengę pateikti užklausą, pasirinkite **Pateikti**.
+
+Jūsų balansai arba automatiškai atsinaujins, arba pereis tvirtinimo procesą prieš atnaujinant. Tai priklauso nuo to, kaip pirkimo strategija buvo sukonfigūruota.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

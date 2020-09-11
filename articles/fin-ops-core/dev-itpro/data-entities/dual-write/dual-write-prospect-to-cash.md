@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b10e5f0fe97e65ad380e85815c56e88a3ce4e303
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: a2ca0ce277a062c8d525b6a3619eaf1b0114667b
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443900"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719269"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -79,7 +79,7 @@ Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo �
 
 Pardavimo užsakymai gali būti kuriami programose „Sales“ arba „Supply Chain Management“. Jei kuriate pardavimo užsakymą „Sales“ programoje, jis bus sinchronizuojamas su „Supply Chain Management“ realiuoju laiku. Taip pat jei kuriate pardavimo užsakymą „Supply Chain Management“ programoje, jis bus sinchronizuojamas su „Sales“ realiuoju laiku. Atkreipkite dėmesį į toliau nurodytus punktus.
 
-+ Galite aktyvinti ir sinchronizuoti užsakymus iš „Sales“ tik tada, jei visi užsakyme esantys produktai gaunami iš „Finance and Operations“ programų. Todėl produktuose negali būti atliekami rašymai.
++ Įrašomieji produktai „Dynamics 365 Sales” bus rodomi kaip produktų kategorijos „Dynamics 365 Supply Chain Management”.
 + Nuolaidų skaičiavimas ir apvalinimas:
 
     - „Sales“ nuolaidos skaičiavimo modelis skiriasi nuo Tiekimo grandinės valdymo nuolaidos skaičiavimo modelio. Tiekimo grandinės valdyme galutinė nuolaidos suma pardavimo eilutėje gali būti nuolaidos sumų ir nuolaidos procentų kombinacijos suma. Jei ši galutinė nuolaidos suma eilutėje padalinama pagal kiekį, gali būti taikomas apvalinimas. Tačiau apvalinimo taikymas nėra svarstomas, jei suapvalinta vieneto nuolaidos suma sinchronizuojama su „Sales“. Norint padėti užtikrinti, kad visa nuolaidos suma iš pardavimo eilutės „Supply Chain Management“ programoje yra tinkamai sinchronizuota su „Sales“, visa suma turi būti sichronizuota neskirstant jos pagal eilutės kiekį. Todėl turite apibrėžti nuolaidos apskaičiavimo būdą kaip **EIlutės elementas** „Sales“ programoje.
@@ -139,7 +139,7 @@ Pardavimo sąskaitos faktūros kuriamos „Supply Chain Management“ programoje
 
 Potencialių klientų pavertimą grynaisiais pinigais sudaro pagrindinių objektų schemų, veikiančių kartu interaktyviai naudojant duomenis, rinkinys, kaip parodyta tolesnėje lentelėje.
 
-| „Finance and Operations” programėlės | Modeliu grįstos programos „Dynamics 365“ | aprašymas |
+| „Finance and Operations” programėlės | Modeliu grįstos programos „Dynamics 365“ | Aprašymas |
 |-----------------------------|-----------------------------------|-------------|
 | Pardavimo SF antraštės V2    | SF                          |             |
 | Pardavimo sąskaitos faktūros eilutės V2      | invoicedetails                    |             |

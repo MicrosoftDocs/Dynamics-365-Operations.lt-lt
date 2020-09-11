@@ -3,7 +3,7 @@ title: Įgalinti asmeniniams poreikiams pritaikytų produktų rekomendacijas
 description: Šioje temoje pateikiama informacija, kaip klientams pritaikyti produktų rekomendacijas asmeniniams poreikiams, naudojant „Microsoft Dynamics 365 Commerce“.
 author: bebeale
 manager: AnnBe
-ms.date: 05/26/2020
+ms.date: 08/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -19,12 +19,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4103096f23e5568cc2bf64f21720c7c16d3e0cd1
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.openlocfilehash: 8a61ef0720839d371701f2f0a1fdec7e85a5feb7
+ms.sourcegitcommit: d3b970c3b93d8be12886b1c5a6bf91f0b33726dd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3664863"
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "3700871"
 ---
 # <a name="enable-personalized-recommendations"></a>Įgalinti asmeniniams poreikiams pritaikytas rekomendacijas
 
@@ -32,7 +32,7 @@ ms.locfileid: "3664863"
 
 Šioje temoje pateikiama informacija, kaip klientams pritaikyti produktų rekomendacijas asmeniniams poreikiams, naudojant „Microsoft Dynamics 365 Commerce“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 
 Naudojant „Microsoft Dynamics 365 Commerce“, mažmenininkai gali pritaikyti produktų rekomendacijas asmeniniams poreikiams (dar žinoma kaip suasmeninimas). Tokiu būdu asmeniniams poreikiams pritaikytos rekomendacijos gali būti įtrauktos į klientų patirtį internete ir elektroniniame kasos aparate (EKA). Įjungus suasmeninimo funkciją, sistema gali susieti vartotojo pirkinio ir produkto informaciją, kad sugeneruotų individualizuotas produkto rekomendacijas.
 
@@ -49,11 +49,13 @@ Norėdami gauti daugiau informacijos apie produkto rekomendacijas, žr. [Produkt
 
 Norėdami įjungti suasmeninimą, atlikite toliau nurodytus veiksmus.
 
-1. Eikite į **„Retail and Commerce“ \> Produkto rekomendacijos \> Rekomendacijų parametrai**.
-1. Mažmeninės prekybos bendrinamų parametrų sąraše pasirinkite **Rekomendacijų sąrašai**.
-1. Nustatykite parinktį **Įgalinti suasmeninimą** į **Taip**.
+1. "Commerce Headquarters" ieškokite **Funkcijų valdymas**.
+1. Norėdami pamatyti galimų funkcijų sąrašą, pasirinkite **Visi**. 
+1. Ieškos lauke įveskite **Rekomendacijos**.
+1. Pasirinkite **Suasmenintos produktų rekomendacijos** funkciją.
+1. Ypatybių srityje **Suasmenintos produktų rekomendacijos** pasirinkite **Įgalinti dabar**.
 
-![Suasmeninimo įjungimas](./media/enablepersonalization.png)
+![Suasmeninimo įjungimas](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Įjungus suasmeninimą, pradedamas asmeniniams poreikiams pritaikytų produktų rekomendacijų sąrašų generavimo procesas. Gali prireikti vienos dienos, kol šie sąrašai bus prieinami ir matomi internete ir EKA.
