@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 59b4dd7a29af739d92a20f6fe55eff9f201fcb6d
-ms.sourcegitcommit: ac47e8679fb104515f7dcca509294264bd05d2b1
+ms.openlocfilehash: cca6913375eec2565852676f3c1da5a67f71e14f
+ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454561"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3664911"
 ---
 # <a name="create-recommendations-with-demo-data"></a>Rekomendacijų su demonstraciniais duomenimis kūrimas
 
@@ -78,6 +78,8 @@ Plėtinyje yra duomenų failas, pavadintas „RecoMockDataset.csv“, kuriuo gal
 [Personalizuotų rekomendacijų įjungimas](personalized-recommendations.md)
 
 [Personalizuotų rekomendacijų atsisakymas](personalization-gdpr.md)
+
+[Įjungti „apsipirkti panašia mada“ rekomendacijas](shop-similar-looks.md)
 
 [Produktų rekomendacijų įtraukimas į EKA](product.md)
 

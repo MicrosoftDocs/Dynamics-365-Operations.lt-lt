@@ -3,7 +3,7 @@ title: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų
 description: Šioje temoje pateikiama informacija apie tai, kaip naudoti ER duomenų šaltinių apskaičiuoto lauko tipą.
 author: NickSelin
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f331401f8d191243f72961333e4f1dbe84d0be5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 02d53f4326d8f31abf6ec7404575728837954bef
+ms.sourcegitcommit: c9baf9a3b4552f0317b5ec87d252834f52df1b98
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771334"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665615"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas
 
@@ -39,20 +39,20 @@ Norint įvykdyti šios temos pavyzdžių užduotis, reikia toliau nurodytų prie
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
-- Prieiga prie „Regulatory Configuration Services“ (RCS), kuris sukurtas tam pačiam kaip ir „Finance and Operations“ nuomotojui vienam iš toliau nurodytų vaidmenų:
+- Prieiga prie „Regulatory Configuration Services“, kuris buvo suteiktos tam pačiam nuomotojui, kaip ir „Finance and Operations“ vienai iš toliau paminėtų vaidmenų:
 
     - Elektroninės ataskaitos kūrėjas
     - Elektroninės ataskaitos funkcijų konsultantas
     - Sistemos administratorius
 
-Iš [„Microsoft“ atsisiuntimo centro](https://go.microsoft.com/fwlink/?linkid=874684) atsisiųskite suspaustą (suglaudintą) failą **Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų kvietimų palaikymas**. Jame yra nurodytos ER konfigūracijos, kurias reikia išskleisti ir saugoti vietoje.
+Taip pat turite atsiųsti ir vietoje saugoti toliau nurodytus failus.
 
 | **Turinys**                           | **Failo vardas**                                        |
 |---------------------------------------|------------------------------------------------------|
-| ER duomenų modelio konfigūracijos pavyzdys    | Parametrizuotų kvietimų mokymo modelis.versija.1.xml     |
-| ER metaduomenų konfigūracijos pavyzdys      | Parametrizuotų kvietimų mokymo metaduomenys.versija.1.xml  |
-| ER modelio susiejimo konfigūracijos pavyzdys | Parametrizuotų kvietimų mokymo susiejimas.versija.1.1.xml |
-| ER formato konfigūracijos pavyzdys        | Parametrizuotų kvietimų mokymo formatas.versija.1.1.xml  |
+| ER duomenų modelio konfigūracijos pavyzdys    | [Parametrizuotų kvietimų mokymo modelis.versija.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)     |
+| ER metaduomenų konfigūracijos pavyzdys      | [Parametrizuotų kvietimų mokymo metaduomenys.versija.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
+| ER modelio susiejimo konfigūracijos pavyzdys | [Parametrizuotų kvietimų mokymo susiejimas.versija.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER formato konfigūracijos pavyzdys        | [Parametrizuotų kvietimų mokymo formatas.versija.1.1.xml](https://mbs.microsoft.com/customersource/global/AX/downloads/hot-fixes/365optelecrepeg)  |
 
 ## <a name="sign-in-to-your-rcs-instance"></a>Prisijunkite prie savo RCS egzemplioriaus
 Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc.“ konfigūraciją. Pirmiausia naudodami RCS turite atlikti tolesnius procedūros [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](tasks/er-configuration-provider-mark-it-active-2016-11.md) veiksmus.
@@ -87,7 +87,7 @@ Iš [„Microsoft“ atsisiuntimo centro](https://go.microsoft.com/fwlink/?linki
             - Mokesčio verčių suma.
             - Mažiausioji taikomo mokesčio tarifo vertė.
 
-    Modelio susiejimas šioje konfigūracijoje taikomas kaip bazinis duomenų modelis visiems šiam modeliui sukurtiems ir vykdomiems „Finance and Operations“ ER formatams. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
+    Modelio žemėlapio nustatymas šiame konfigūravime įgyvendina pagrindinius duomenų modelius bet kuriems ER formatams sukurtiems šiam modeliui ir įgyvendintiems „Finance and Operations“. Todėl duomenų šaltinių **Mokestis** ir **Gr** turinys tampa prieinamas ER formatams, pvz., abstrakčių duomenų šaltiniams.
 
     ![Modelio susiejimo konstruktoriaus puslapis, kuriame rodomi duomenų šaltiniai „Mokestis“ ir „Gr“](media/er-calculated-field-type-01.png)
 

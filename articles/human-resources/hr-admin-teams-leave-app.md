@@ -3,7 +3,7 @@ title: „Human Resources“ programa platformoje „Teams“
 description: Šioje temoje pristatoma „Microsoft Dynamics 365 Human Resources” programa, veikianti platformoje „Microsoft Teams“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 05/18/2020
+ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36684710e39c27840cc4aaa259a85579104fd8d6
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 4822cc6560926df878a8b4e9f821b331ede27a8c
+ms.sourcegitcommit: 15c68822f4d412bfc609be31b3702f18c81ea0bc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431135"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3666365"
 ---
 # <a name="human-resources-app-in-teams"></a>„Human Resources“ programa platformoje „Teams“
 
@@ -45,10 +45,10 @@ Informacijos apie programų teisių valdymą „Teams“ žr. [Programų teisių
 
 | Išdavimas | Būsena |
 | --- | --- |
-| Klaida: kyla problemų ieškant aplinkos, prie kurios reikia prisijungti. | Galite gauti šią klaidą, net jei patikrinote, kad vartotojas gali pasiekti vieną ar daugiau „Human Resources“ aplinkų. Be to, galbūt nematyti visų numatytų aplinkų. Kol išspręsite šią problemą, panaikinkite vartotoją ir importuokite juos dar kartą, kad išspręstumėte problemą. |
+| Horizontalus slankiojimas neveikia „Android“ telefonuose | Horizontalus slankiojimas nėra problema „iOS“ ar stacionariuose prietaisuose. Dirbame, kad ištaisytumėme šią problemą „Android“. |
+| Klaida: kyla problemų ieškant aplinkos, prie kurios reikia prisijungti. | Galite gauti šią klaidą, net jei patikrinote, kad vartotojas gali pasiekti vieną ar daugiau „Human Resources“ aplinkų. Taip pat, galite nematyti visų jūsų norimų aplinkų. Kol išspręsite šią problemą, panaikinkite vartotoją ir importuokite juos dar kartą, kad išspręstumėte problemą. |
 | Balansas yra netinkamas, kai ne darbo laikas pateikiamas būsimo laikotarpio datai. | Prognozavimas dar negalimas. Rodomas dabartinio laikotarpio balansas. |
 | Sumažinus esamos užklausos valandų skaičių, **Likęs balandas** sumažėja, o ne padidėja. | Šią žinomą problemą spręsime ateityje. Rodoma netinkamai, tačiau tinkami kiekiai koreguojami pateikus. |
-| Toms pačioms datoms rodomos dvi kortelės **Būsimas ne darbo laikas**. | Kortelės atitinka atskiras pateiktis. Toliau priimsime atsiliepimus ir atliksime koregavimus. |
 | Nepavyksta atšaukti užklausos **Peržiūrima**. | Ši funkcija šiuo metu nepalaikoma ir bus įtraukta į būsimą leidimą. |
 | Balanso informacija skaičiuojama iki šios dienos. | Sistema šiuo metu nerodo balansų iki kaupimo laikotarpio, net jei tai sukonfigūruotaa atostogų ir neatvykimo parametruose. |
 

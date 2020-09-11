@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. gegužės 1 d.)
-description: Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Human Resources“ funkcijos.
+description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. gegužės 1 d.
 author: Darinkramer
 manager: AnnBe
 ms.date: 05/01/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e4da626ce3412fba6f90dd7f953c1cbc79ab60c3
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: 074c678d9d8294aabf4e78b2a6ee0fa53efbaf23
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555128"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712285"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-1-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. gegužės 1 d.)
 
-Šiame straipsnyje aprašomos naujos ir pakeistos „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3196 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
+Šiame straipsnyje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3196 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
 
 ## <a name="new-performance-management-entities-available-in-data-management-framework-dmf"></a>Nauji našumo valdymo objektai, pasiekiami duomenų valdymo sistemoje (DMF)
 

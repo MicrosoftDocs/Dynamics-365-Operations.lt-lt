@@ -18,11 +18,11 @@ ms.author: v-elgolu
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: e11cf9eb5944746428ab75ca55ef67687089f152
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: fa5c45f7842c4d20c994ac1655e2fbf2a1cf14a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124341"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "3734930"
 ---
 # <a name="advance-holders-overview"></a>Avanso turėtojų apžvalga
 
@@ -50,10 +50,10 @@ Naudokite puslapį **Avanso turėtojų grupės**, kad sukurtumėte avanso turėt
 
 Naudokite puslapį **Darbuotojų registravimo šablonai**, kad sukurtumėte avanso turėtojų operacijų šabloną. Galite nurodyti toliau pateiktą darbuotojų registravimo šablono informaciją.
 
-|      Laukas      |                                            aprašymas                                            |
+|      Laukas      |                                            Aprašymas                                            |
 |-----------------|---------------------------------------------------------------------------------------------------|
 | **Registravimo šablonas** |  Įveskite avanso turėtojo registravimo šablono identifikavimo kodą.               |
-|   **aprašymas**   |  Įveskite trumpą registravimo šablono aprašą.                         |
+|   **Aprašymas**   |  Įveskite trumpą registravimo šablono aprašą.                         |
 |    **Galioja**    |  Pasirinkite vieną iš tolesnių registravimo šablono nustatymo grupavimo lygio parinkčių. <ul> <li>**Lentelė** – ši parinktis naudojama nustatant vieno avanso turėtojo registravimo šabloną. Turite nurodyti avanso turėtojo kodą lauke **Nuoroda**.</li> <li>**Grupė** – ši parinktis naudojama nustatant avanso turėtojų grupės registravimo šabloną. Turite nurodyti grupės kodą lauke **Nuoroda**.</li> <li>**Visi** – ši parinktis naudojama nustatant visų avanso turėtojų registravimo šabloną.</li></ul> |
 | **Nuoroda** | Jei **Lentelė** pasirinkta lauke **Kam galioja**, pasirinkite avanso turėtojo kodą, o jei **Grupė** pasirinkta lauke **Kam galioja**, pasirinkite avanso turėtojo grupę. |
 | **Suminė sąskaita** | Pasirinkite suminę saskaitą operacijoms registruoti. |
@@ -134,7 +134,7 @@ Pirkimo užsakymo registravimo proceso metu sukuriamos dvi tiekėjo operacijos s
 ### <a name="settle-advance-holder-balances-via-a-bank"></a>Avanso turėtojo balanso sudengimas per banką
 Kai avanso turėtojų balansus sudengiate per banką, žurnalo įrašai apie avanso turėtojo balansų uždarymą sukuriami pagrindiniame žurnale. Žurnalo ir banko kodus galite nustatyti puslapio **Mokėtinų sumų parametrai** dalyje **Avanso turėtojai**. Norėdami uždaryti avanso turėtojo balansą per banką, atidarykite **Mokėtinos sumos** &gt; **Avanso turėtojai** &gt; **Avanso turėtojai**. Veiksmų srityje spustelėkite mygtuką **Balansas** ir tada spustelėkite **Uždaryti per banką**. Puslapyje **Uždaryti per banką** įveskite toliau nurodytą informaciją.
 
-| Laukas                    | aprašymas |
+| Laukas                    | Aprašymas |
 |------------------------------|-------------------|
 | **Mokėjimo data**          | Įvesti mokėjimo registravimo datą.|
 | **Suma, skirta perkelti** | Įveskite balanso sumą uždarymo metu. Suma, kuri yra nurodyta formos **Balansas** lauke **Suma**, rodoma pagal numatytuosius parametrus. |
@@ -143,7 +143,7 @@ Kai avanso turėtojų balansus sudengiate per banką, žurnalo įrašai apie ava
 ### <a name="settle-advance-holder-balances-via-cash"></a>Avanso turėtojo balanso sudengimas per kasą
 Kai avanso turėtojų balansus sudengiate per kasą, žurnalo įrašai apie avanso turėtojo balansų uždarymą sukuriami važtaraščių žurnale. Žurnalo ir kasos kodus galite nustatyti puslapio **Mokėtinų sumų parametrai** skirtuke **Avanso turėtojai**. Norėdami uždaryti avanso turėtojo balansą per kasą, atidarykite **Mokėtinos sumos** &gt; **Avanso turėtojai** &gt; **Avanso turėtojai**. Veiksmų srityje spustelėkite mygtuką **Balansas** ir tada spustelėkite **Uždaryti per kasą**. Puslapyje **Uždaryti per kasą** įveskite toliau nurodytą informaciją.
 
-| Laukas                    | aprašymas
+| Laukas                    | Aprašymas
 |------------------------------|-----------------|
 | **Mokėjimo data**          | Įvesti mokėjimo registravimo datą.|
 | **Suma, skirta perkelti** | Įveskite balanso sumą uždarymo metu. Suma, kuri yra nurodyta formos **Balansas** lauke **Suma**, rodoma pagal numatytuosius parametrus. |

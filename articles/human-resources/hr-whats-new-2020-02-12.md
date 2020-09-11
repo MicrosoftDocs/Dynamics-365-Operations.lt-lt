@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 12 d.)
-description: Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Human Resources“ funkcijos.
+description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. vasario 12 d.
 author: Darinkramer
 manager: AnnBe
 ms.date: 02/07/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1d352cae4b49efa8c893dceed448b30460e0eda5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 7bcb77b74f6e484d68fd57fd1680e8c2d8c82bc4
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076298"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712067"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. vasario 12 d.)
 
-Šiame straipsnyje aprašomos naujos ir pakeistos „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.2867 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo palaikymo numerius „Microsoft Dynamics Lifecycle Services“ (LCS).
+Šiame straipsnyje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.2867 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo palaikymo numerius „Microsoft Dynamics Lifecycle Services“ (LCS).
 
 ## <a name="existing-entities-compfixedempls-and-hcmpersonimage-should-be-accessible-from-odata-414178"></a>Esami objektai CompFixedEmpls ir HcmPersonImage turi būti pasiekiami naudojant „OData“ (414178)
 

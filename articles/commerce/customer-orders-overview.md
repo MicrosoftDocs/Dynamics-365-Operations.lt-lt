@@ -3,7 +3,7 @@ title: Klientų užsakymai naudojant „Modern POS“ (MPOS)
 description: Šioje temoje pateikiama informacija apie klientų užsakymus naudojant „Modern POS“ (MPOS). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: b8ea8339c2ad25ceed2415eb5ccf5e2048c612fa
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
+ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023376"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3710264"
 ---
 # <a name="customer-orders-in-modern-pos-mpos"></a>Klientų užsakymai naudojant „Modern POS“ (MPOS)
 
@@ -53,6 +53,11 @@ Toliau pateikiama keletas parametrų, kuriuos galima nustatyti puslapyje **Preky
 
     - Išlaidos taikomos pardavimo užsakymo antraštės lygyje ir, kai tam tikras produkto eilutės kiekis yra grąžinamas, didžiausios leidžiamos produktų ir kiekio siuntimo išlaidų grąžinimo sumos negalima nustatyti tokiu būdu, kuris tiktų visiems klientams.
     - Siuntimo išlaidos patiriamos kiekvieną kartą siunčiant prekes. Jei klientas kelis kartus grąžina produktus, o pardavėjo strategijoje nurodyta, kad pardavėjas padengs grąžinimo siuntimo išlaidų sumą, grąžinimo siuntimo išlaidų suma bus didesnė nei faktinės siuntimo išlaidos.
+    
+
+## <a name="disable-option-to-pay-later"></a>Išjungti pasirinktį „mokėti vėliau”
+
+„Commerce” versijoje 10.0.12 ir vėlesnėje, prekybininkai gali pašalinti pasirinktį „mokėti vėliau”, kai yra sukurtas kliento užsakymas EKA. Norėdami išjungti pasirinktį, atsidarykite **Funkcijų šabloną** kanalui, kur mokėjimas vėliau neleidžiamas, o tada pasirinkite **Redaguoti**. Skirtuke **Bendra** iš išplečiamojo sąrašo pasirinkite **Reikalauti mokėjimo įvykdymo**. Jeigu mokėjimas vėliau negali būti leistinas EKA, pasirinkite **Reikiama kortelė** ir pasirinkite **Išsaugoti**. Paleiskite **1070** paskirstymo grafiką, kad sinchronizuotumėte šį pakeitimą kanale. 
 
 ## <a name="transaction-flow-for-customer-orders"></a>Kliento užsakymų operacijų srautas
 

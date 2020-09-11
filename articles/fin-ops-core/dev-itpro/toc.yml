@@ -130,6 +130,8 @@
                       items:
                         - name: Dvigubo rašymo pagrindinis puslapis
                           href: data-entities/dual-write/dual-write-home-page.md
+                        - name: Kas nauja ar pasikeitė dvigubo rašymo integravime
+                          href: data-entities/dual-write/whats-new-dual-write.md
                         - name: Dvigubo rašymo apžvalga
                           href: data-entities/dual-write/dual-write-overview.md
                         - name: Dvigubo rašymo sąranka
@@ -1472,6 +1474,8 @@
                   href: sysadmin/extensible-data-security-policies.md
                 - name: Saugos strategijos kūrimas
                   href: sysadmin/create-simple-security-policy.md
+            - name: Toliau laikykitės vartotojų licencijavimo reikalavimų
+              href: sysadmin/stay-compliant-user-license-requirement.md
             - name: Proceso automatizavimas
               href: sysadmin/process-automation.md
             - name: Paketinis apdorojimas

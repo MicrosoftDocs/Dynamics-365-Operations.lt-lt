@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. birželio mėn. 11 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Human Resources“ funkcijos.
+description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. birželio 11 d.
 author: Darinkramer
 manager: AnnBe
 ms.date: 06/16/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-06-11
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8ec15c33cdb1abc32c28fd78822b06188dd0feac
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: 0720b2024a865fcd42cd80fd905586d626388f8f
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614291"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711799"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-11-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. birželio mėn. 11 d.)
 
-Šiame straipsnyje aprašomos naujos ir pakeistos „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3316 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
+Šiame straipsnyje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3316 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
 
 ## <a name="streamlined-employee-form-sometimes-causes-child-form-close-x-buttons-to-stop-working-442369"></a>Kartais dėl supaprastintos darbuotojo formos neveikia antrinės formos uždarymo (X) mygtukai (442369)
 
@@ -64,7 +64,7 @@ Kai kurios organizacijos suteikia išmoką, kuri leidžia darbuotojams pirkti ar
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Atostogų kaupimas vienai įmonei arba vienam planui
 
-Klientai gali apdoroti vienoje įmonėje sukauptas atostogas, vienkartines atostogas ir neatvykimų planą. Šis gebėjimas suteikia klientams su skirtingais išėjimo į pensiją metais ar atostogomis aiškumo apie kaupimo strategijas. Norėdami sužinoti daugiau, skaitykite [Sukauptos atostogos įmonėje ar atostogų planas](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Klientai gali apdoroti vienoje įmonėje sukauptas atostogas, vienkartines atostogas ir neatvykimų planą. Šis gebėjimas suteikia klientams su skirtingais išėjimo į pensiją metais ar atostogomis aiškumo apie kaupimo strategijas. Norėdami sužinoti daugiau, skaitykite [Sukauptos atostogos įmonėje ar atostogų planas](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Priedų pridėjimas prašymams atidėti
 

@@ -1,6 +1,6 @@
 ---
 title: Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 19 d.)
-description: Šiame straipsnyje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Human Resources“ funkcijos.
+description: Šiame straipsnyje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. kovo 19 d.
 author: Darinkramer
 manager: AnnBe
 ms.date: 03/19/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f636dbd3b0ba59ea6cafbc431af46315210dded1
-ms.sourcegitcommit: bd9ff0d28718d535356ffbe1cffaaf60310dd430
+ms.openlocfilehash: f0b961de23a76947440f6616176874dc6a86cc4c
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/13/2020
-ms.locfileid: "3555264"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712525"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-19-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ (2020 m. kovo 19 d.)
 
-Šiame straipsnyje aprašomos naujos ir pakeistos „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3014 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo „Lifecycle Services“ (LCS) palaikymo numerius kaip nuorodą.
+Šiame straipsnyje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3014 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo „Lifecycle Services“ (LCS) palaikymo numerius kaip nuorodą.
 
 ## <a name="human-resources-environment-limits-are-now-based-on-updated-licensing-394595"></a>„Human Resources“ aplinkų limitai dabar pagrįsti atnaujintu licencijavimu (394595)
 

@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 07/20/2020
+ms.date: 08/10/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 393349240d16636d3eec747126cc1ee6f6f9998d
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8b26ad668b6cc15d759e10952c042acd5e85bdea
+ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651671"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3678227"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -39,6 +39,16 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 > [!NOTE]
 > Versija 10.0.13 yra peržiūros leidimas. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+### <a name="custom-code-defined-in-ssrs-report-properties"></a>Tinkintas kodas nustatytas SSRS ataskaitos ypatybėse 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo / pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
+| **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Paveiktos produkto sritys**         | Programos ataskaitos projektavimo papildomas rinkinys turi tinkintą kodą. |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Su versija 10.0.13, užpildymo įrankis pradės išduoti perspėjimus instancijoms, kuriose tinkintas kodas yra aptiktas SSRS ataskaitos sąvokoje. Tam, kad išspręstumėte šią problemą, atverkite ataskaitos projektavimo sąvoka ir pašalinkite visus tinkintus kodo artefaktus. Šis pranešimas bus pakeistas užpildymo klaida ateities atnaujinimuose.   |
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Trijų „jQuery” komponentų bibliotekų atnaujinimas 
 

@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: c46a9e042482ad66e769383b4e81e2df85a5e97b
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: fa5c45f7842c4d20c994ac1655e2fbf2a1cf14a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124525"
+ms.lasthandoff: 08/28/2020
+ms.locfileid: "3734915"
 ---
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistinių dimensijų nariai ir statistinių priemonių teikimo įrankio šablonai
 
@@ -64,7 +64,7 @@ Statistinės dimensijos narys automatiškai tampa iš anksto apibrėžta paskirs
 
 Čia pateikiama keletas įprastų statistinės dimensijos narių pavyzdžių.
 
-| Statistinės dimensijos pavadinimas  | Statistiniai elementai | aprašymas             | Vienetas |
+| Statistinės dimensijos pavadinimas  | Statistiniai elementai | Aprašymas             | Vienetas |
 |-----------------------------|----------------------|-------------------------|------|
 | Bendrai naudojami statistiniai elementai | FTE                  | Darbuotojai, dirbantys visą darbo dieną     | Vnt.  |
 | Bendrai naudojami statistiniai elementai | Elektros energija          | Elektros energijos suvartojimas | kwh  |
@@ -94,7 +94,7 @@ HcmEmployment lentelėje pateikiamas visų egzemplioriaus darbuotojų sąrašas.
 
 Čia pateikiamas darbuotojų HcmEmployment lentelėje pavyzdys.
 
-| Vardas       | Išlaidų centras | aprašymas   | Darbininko tipas |
+| Vardas       | Išlaidų centras | Aprašymas   | Darbininko tipas |
 |------------|-------------|----|-------------|
 | 1 darbuotojas | CC001       | Personalas | Darbuotojas    |
 | 2 darbuotojas | CC002       | FI | Darbuotojas    |
@@ -171,7 +171,7 @@ Apdorojus statistinės priemonės šaltinio duomenis, modulyje Kaštų apskaita 
 
 Jei kaštų paskirstymo taisyklėje kaip paskirstymo bazė priskiriamas iš anksto nustatytas visu etatu dirbančių darbuotojų dimensijos nario paskirstymo pagrindas, kaštai bus paskirstomi naudojant tolesnį paskirstymo koeficientą.
 
-| Išlaidų objektas | aprašymas    | Reikšmė | Paskirstymo koeficientas |
+| Išlaidų objektas | Aprašymas    | Reikšmė | Paskirstymo koeficientas |
 |-------------|----|-----------|-------------------|
 | CC001       | Personalas | 1,00      | (1/5) × suma    |
 | CC002       | FI | 2,00      | (2/5) × suma    |

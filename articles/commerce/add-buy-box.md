@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9780aabbac6d01d41dae526c7c06139eba07de4e
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: 3fe5c1eb5808ef778aeda29442fa884556671296
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645344"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686675"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
@@ -61,7 +61,7 @@ Temos gali būti naudojamos norint pašalinti arba pakeisti pirkimo langelio pro
 
 ## <a name="modules-that-can-be-used-in-a-buy-box-module"></a>Moduliai, kuriuos galima naudoti pirkimo langelio modulyje
 
-- **Medijos galerija** – naudojant šį modulį, produkto išsamios informacijos puslapyje demonstruojami produkto vaizdai. Dėl daugiau informacijos apie šį modulį, žr. [Medijos galerijos modulis](mediagallery-module.md).
+- **Medijos galerija** – naudojant šį modulį, produkto išsamios informacijos puslapyje demonstruojami produkto vaizdai. Dėl daugiau informacijos apie šį modulį, žr. [Medijos galerijos modulis](media-gallery-module.md).
 - **Parduotuvės parinkiklis** – naudojant šį modulį rodomas netoliese esančių parduotuvių, kuriose galima atsiimti prekę, sąrašas. Jis leidžia vartotojams įvesti vietą, kad surastų netoliese esančias parduotuves. Norėdami gauti daugiau informacijos apie šį modulį, žr. [Parduotuvės parinkiklio modulis](store-selector.md).
 
 ## <a name="buy-box-module-settings"></a>Pirkimo langelio modulių parametrai
@@ -84,9 +84,9 @@ Pirkimo langelio modulis produkto informaciją gauna naudodamas „Commerce Scal
 
 Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Pirkimo langelis**.
-1. Dalyje **Puslapio fragmento pavadinimas** įveskite pavadinimą **Pirkimo langelio fragmentas** ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
+1. **Naujo puslapio fragmento** teksto laukelyje pasirinkite **Buybox** modulį.
+1. Skyriuje **Puslapio fragmento pavadinimas**, įveskite pavadinimą**Įsigijimo dėžės fragmentas** ir tuomet pasirinkite **Gerai**.
 1. Pirkimo langelio modulio vietoje **Medijos galerija** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Medijos galerija**, tada pasirinkite **Gerai**.
 1. Pirkimo langelio modulio vietoje **Parduotuvės parinkiklis** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
@@ -97,12 +97,12 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
 1. Numatytojo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti puslapio fragmentą**.
-1. Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite anksčiau sukurtą **pirkimo langelio fragmentą** ir pasirinkite **Gerai**.
+1. **Pasirinkti puslapio fragmentą** teksto laukelyje pasirinkite **Įsigijimo dėžutės fragmentą** fragmentą, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
 1. Dialogo lange **Pasirinkti šabloną**pasirinkite šabloną **PDP šablonas**. Dalyje **Puslapio pavadinimas** įveskite **PDP puslapis**, tada pasirinkite **Gerai**.
 1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti puslapio fragmentą**.
-1. Dialogo lange **Pasirinkti puslapio fragmentą** pasirinkite anksčiau sukurtą **pirkimo langelio fragmentą** ir pasirinkite **Gerai**.
+1. **Pasirinkti puslapio fragmentą** teksto laukelyje pasirinkite **Įsigijimo dėžutės fragmentą** fragmentą, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
 1. Puslapį įrašykite ir peržiūrėkite. Į peržiūros puslapio URL įtraukite užklausos eilutės parametrą **?productid=&lt;product id&gt;**. Taip peržiūros puslapis įkeliamas ir vaizduojamas naudojant produkto kontekstą.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. Produkto išsamios informacijos puslapyje turėtų būti rodomas pirkimo langelis.
 

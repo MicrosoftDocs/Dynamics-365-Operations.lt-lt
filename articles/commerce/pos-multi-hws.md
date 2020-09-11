@@ -5,7 +5,7 @@ author: rubendel
 manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
-ms.prod: tonyafehr
+ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4035817fb534477eb4146ff712a92d6e29ce2db2
-ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
+ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3416611"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719219"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Paskirtieji mokėjimo terminalai ir raginimai spausdintuvui ir kasos stalčiui
 
@@ -31,7 +31,7 @@ ms.locfileid: "3416611"
 
 Šioje temoje pateikiama informacija apie galimybę turėti specialų mokėjimo terminalą ir raginti vartotoją pasirinkti kasos stalčių bei kvitų spausdintuvą.
 
-## <a name="overview"></a>Peržiūra
+## <a name="overview"></a>Apžvalga
 
 Šiuolaikiniai mažmenininkai ieško būdų, kaip supaprastinti atsiskaitymo parduotuvėje patirtį. Naujausios tendencijos kompiuterizuoti atsiskaitymo procesą, naudojant elektroninius mokėjimus, padeda ne tik suteikti pirkimo patirčiai sklandumo, bet ir sumažinti būtinybę turėti visą periferinių įrenginių rinkinį kiekvienam parduotuvės darbuotojui.
 
@@ -39,7 +39,7 @@ ms.locfileid: "3416611"
 
 ## <a name="key-terms"></a>Pagrindiniai terminai
 
-| Terminas | aprašymas |
+| Terminas | Aprašymas |
 |---|---|
 | Registras | Objektas, naudojamas EKA kasos egzemplioriui konfigūruoti. |
 | Įrenginys | Fizinio EKA kasoso aparato ir „Modern POS“ programos, kuriai jis priskirtas, egzemplioriaus atvaizdas. |
@@ -78,8 +78,8 @@ Norėdami nustatyti kasos aparatui priskirtą aparatūros profilį, atlikite tol
 
     | Įrenginys | Tipas | Įrenginio pavadinimas | Papildoma informacija |
     |---|---|---|---|
-    | Spausdintuvas | Atsarginis | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. **Kvitų profilio ID** turi būti toks pat, kaip **Kvitų profilio ID**, kuris yra susietas su tinklo spausdintuvu, kuris yra susietas su aparatūros profiliu, priskirtu aparatūros stočiai kanalo lygmeniu. |
-    | Kasos stalčius | Atsarginis | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
+    | Spausdintuvas | Atsarginis | *Bet kuris* | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. **Kvitų profilio ID** turi būti toks pat, kaip **Kvitų profilio ID**, kuris yra susietas su tinklo spausdintuvu, kuris yra susietas su aparatūros profiliu, priskirtu aparatūros stočiai kanalo lygmeniu. |
+    | Kasos stalčius | Atsarginis | *Bet kuris* | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
     | EFT paslauga | „Adyen“ | Netaikoma | Informacijos apie tai, kaip nustatyti naują „Adyen“ jungtį, žr. [„Dynamics 365 Payment Connector for Adyen“](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Kitos mokėjimų jungtys gali būti palaikomos naudojant [„Commerce Software Development Kit“ (SDK) mokėjimams](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
     | PIN rinkiklis | Tinklas | **MicrosoftAdyenDeviceV001** | Nėra. |
 
@@ -103,7 +103,7 @@ Norėdami nustatyti aparatūros profilį, naudojamą tinklo kvitų spausdintuvui
     | Įrenginys | Tipas | aprašymas | Papildoma informacija |
     |---|---|---|---|
     | Spausdintuvas | Tinklas | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. **Kvitų profilio ID** turi būti toks pat, kaip **Kvitų profilio ID**, kuris yra susietas su spausdintuvu, kuris yra susietas su aparatūros profiliu, priskirtu kasos aparatui. |
-    | Kasos stalčius | Atsarginis | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
+    | Kasos stalčius | Tinklas | **„Epson“** arba **„Star“** | Skiriamos didžiosios ir mažosios įrenginio pavadinimo raidės. Nustatykite parinktį **Naudoti bendrą pamainą** į **Taip**. |
 
 5. Pasirinkite **Įrašyti**.
 

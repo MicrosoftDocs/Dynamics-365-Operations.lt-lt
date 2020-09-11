@@ -1,6 +1,6 @@
 ---
-title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 08 d.)
-description: Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Human Resources“ funkcijos.
+title: Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 8 d.)
+description: Šioje temoje aprašomos naujos arba pasikeitusios „Microsoft Dynamics 365 Human Resources” funkcijos 2020 m. liepos 8 d.
 author: Darinkramer
 manager: AnnBe
 ms.date: 07/08/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c4382aa7473e2b67201ac00753ac9abe11b3c646
-ms.sourcegitcommit: 81296c49be9953aa01e15527c34d0ef13b4622a9
+ms.openlocfilehash: d2f542195693e825391b85efc4a7e91fdfea3944
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3614367"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3711897"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 8 d.)
 
-Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Human Resources“ funkcijos. Pakeitimai taikomi 8.1.3382 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
+Šioje temoje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources” funkcijos. Pakeitimai taikomi 8.1.3382 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
 
 ## <a name="database-logging"></a>Duomenų bazės registravimas
 
@@ -105,7 +105,7 @@ Kai kurios organizacijos suteikia išmoką, kuri leidžia darbuotojams pirkti ar
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Atostogų kaupimas vienai įmonei arba vienam planui
 
-Klientai gali apdoroti vienoje įmonėje sukauptas atostogas, vienkartines atostogas ir neatvykimų planą. Tokia galimybė suteikia kaupimo proceso aiškumą klientams su skirtingais išėjimo į pensiją metais ir išėjimo į pensiją kaupimo politika. Norėdami sužinoti daugiau, skaitykite [Sukauptos atostogos įmonėje ar atostogų planas](hr-leave-and-absence-accrue.md#accrue-leave-per-company-or-per-leave-plan).
+Klientai gali apdoroti vienoje įmonėje sukauptas atostogas, vienkartines atostogas ir neatvykimų planą. Tokia galimybė suteikia kaupimo proceso aiškumą klientams su skirtingais išėjimo į pensiją metais ir išėjimo į pensiją kaupimo politika. Norėdami sužinoti daugiau, skaitykite [Sukauptos atostogos įmonėje ar atostogų planas](hr-leave-and-absence-accrue.md).
 
 ## <a name="add-attachments-to-time-off-requests"></a>Įtraukite priedus į laiko prašymus
 

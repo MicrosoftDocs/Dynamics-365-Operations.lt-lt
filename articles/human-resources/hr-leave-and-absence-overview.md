@@ -1,6 +1,6 @@
 ---
-title: Peržiūra
-description: Programos Dynamics 365 Human Resources darbo sritis Atostogos ir neatvykimai suteikia lanksčią sistemą, skirtą naujiems atostogų planams ir užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti.
+title: Atostogų ir neatvykimų apžvalga
+description: „Dynamics 365 Human Resources” atostogų ir neatvykimų darbo sritis suteikia lanksčią sistemą naujų atostogų planų kūrimui. Ji taip pat suteikia darbo eigas prašymų valdymui ir intuityvų savitarnos puslapį darbuotojams prašyti išleisti iš darbo.
 author: andreabichsel
 manager: AnnBe
 ms.date: 06/01/2020
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec72d2d741f7f8428a7daa97bb982e9fc00b8c3f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
+ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428972"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "3712405"
 ---
-# <a name="overview"></a>Peržiūra
+# <a name="leave-and-absence-overview"></a>Atostogų ir neatvykimų apžvalga
 
-„Dynamics 365 Human Resources“ padeda jums suteikti puikias atostogų išmokas savo darbuotojams. Darbo sritis **Atostogos ir neatvykimai** suteikia lanksčią sistemą, skirtą naujiems atostogų planams bei užklausų tvarkymo darbo eigoms kurti, taip pat intuityvų savitarnos puslapį, skirtą darbuotojų atostogų užklausoms teikti. Analizė padeda organizacijai matuoti ir stebėti atostogų balansus ir atostogų planų naudojimą.
+„Dynamics 365 Human Resources“ padeda jums suteikti puikias atostogų išmokas savo darbuotojams. Darbo sritis **Atostogos ir neatvykimai** suteikia lanksčią sistemą naujų atostogų planų kūrimui. Ji taip pat suteikia darbo eigas prašymų valdymui ir intuityvų savitarnos puslapį darbuotojams prašyti išleisti iš darbo. Analizė padeda organizacijai matuoti ir stebėti atostogų balansus ir atostogų planų naudojimą.
 
 ## <a name="set-up-leave-and-absence"></a>Atostogų ir neatvykimų nustatymas
 
@@ -47,46 +47,10 @@ Prieš kurdami savo darbuotojų atostogų planus, turite sukurti atostogų ir ne
 - [Atostogų ir neatvykimų kaupimo planai](hr-leave-and-absence-accrue.md)
 - [Peržiūrėti atostogų ir neatvykimų analizę](hr-leave-and-absence-analytics.md)
 
-## <a name="request-time-off-and-manage-requests"></a>Atostogų užklausos ir užklausų valdymas
+## <a name="request-time-off-and-manage-requests"></a>Prašymai išleisti iš darbo ir jų valdymas
 
-Jūsų darbuotojai gali pateikti atostogų užklausas, o jūs galite jas tvarkyti darbo srityje **Darbuotojo savitarna**.
+Jūsų darbuotojai gali pateikti prašymus išleisti iš darbo, o jūs galite valdyti juos **Darbuotojo savitarna** darbo srityje.
 
-- [Prašyti išleisti iš darbo](hr-employee-self-service-request-time-off.md)
-- [Atostogų ir leidimo neatvykti prašymų valdymas](hr-employee-self-service-manage-requests.md)
-
-## <a name="leave-and-absence-known-issues"></a>Žinomos atostogų ir neatvykimų problemos
-
-### <a name="rounding-precision"></a>Apvalinimo tikslumas
-
-Negalite nustatyti **apvalinimo tikslumo**, kai nustatote **apvalinimo tipą**. **Apvalinimo tikslumą** galite nustatyti tik naudodami objektą **Atostogų ir neatvykimo tipai**. 
-
-1. Dalyje **Atostogų ir neatvykimų tipai** pasirinkite **Atidaryti naudojant „Excel“**, kad atidarytumėte objektą **Atostogų ir neatvykimų tipai**.
-
-2. Atidarę ir įjungę failą, pasirinkite **Dizainas**.
-
-3. Lentelėje **Atostogų ir neatvykimo tipai** pasirinkite pieštuko parinktį, kad galėtumėte redaguoti.
-
-4. Pasirinkite **Apvalinimo tikslumas** ir **Apvalinimo tipas**, tada pasirinkite **Įtraukti**, kad įtrauktumėte į laukų sąrašą.
-
-5. Pasirinkite **Naujinti**, tada – **Atlikta**.
-
-6. Įveskite arba pasirinkite kiekvieno atostogų tipo **apvalinimo tipą**, jei nėra jau nustatyta. 
-
-7. Įveskite atitinkamų tipų **apvalinimo tikslumą**.
-
-8. Pasirinkite **Publikuoti**, kad keitimai būtų taikomi „Human Resources”.
-
-## <a name="leave-and-absence-preview-features"></a>Atostogų ir neatvykimų peržiūros funkcijos
-
-Naujas atostogų ir neatvykimų funkcijas galite išbandyti aplinkoje **Smėlio dėžė**. Daugiau informacijos apie peržiūros funkcijas, žr. skyrių [Funkcijų valdymas](hr-admin-manage-features.md). 
-
-[!include [banner](includes/preview-feature.md)]
-
-Peržiūros funkcijos apima:
-
-- **Įmonės arba plano atostogų kaupimas**– galite vykdyti kaupimo procesą visoms įmonėms arba vienai įmonei. Taip pat galite vykdyti konkrečios įmonės konkrečių atostogų plano kaupimo procesą. 
-
-- **Atostogų pirkimas** – galite įgalinti ir kurti atostogų pirkimo strategijas, skirtas darbuotojams, kad jie pateiktų pirkimo reikalavimus. Darbuotojai gali pateikti pirkimo užklausas ir automatiškai atnaujintus likučius, kad galėtų atsižvelgti į užklausą.  
-
-- **Įtraukti priedų į patvirtintas atostogų užklausas** – galite įtraukti priedą į jau patvirtintą atostogų prašymą. 
+[Prašymai išleisti iš darbo](hr-employee-self-service-request-time-off.md)
+[Atostogų ir neatvykimų prašymų valdymas](hr-employee-self-service-manage-requests.md)
 

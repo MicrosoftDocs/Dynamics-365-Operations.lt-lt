@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BriShoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b017b0f91960be1504134f6d46878fce956de203
-ms.sourcegitcommit: 8a1621327568edf49758b70964e0a3e637527e1b
+ms.openlocfilehash: f31f8898358626f2b008826aa69694dc16742aa0
+ms.sourcegitcommit: 59a9e840989bc9f2c7004efa3499b69c09a91b06
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3497173"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "3677909"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -77,7 +77,7 @@ Sukūrus B2C nuomotoją, bus sukurta B2C programa, skirta dirbti su „Commerce�
 
 Norėdami sukurti B2C programą, atlikite tolesnius veiksmus.
 
-1. „Azure“ portale pasirinkite **Programos**, tada pasirinkite **Įtraukti**.
+1. „Azure“ portale pasirinkite **Programos(ankstesnės)** ir tuomet pasirinkite **Įtraukti**.
 1. Dalyje **Pavadinimas** įveskite pageidaujamos AAD B2C programos pavadinimą.
 1. Dalyje **Web App/Web API** **Įtraukti žiniatinklio programa / žiniatinklio API** pasirinkite **Taip**.
 1. Norėdami **Leisti numanomą srautą** pasirinkite **Taip** (numatytoji reikšmė).

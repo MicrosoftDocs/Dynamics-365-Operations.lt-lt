@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a5f7ad7d9c5ff63c3c3a8fe38275eec0d138891d
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: e7dde3ba1ad375b309ae66cc6d31ccad85615e45
+ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411223"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "3686627"
 ---
 # <a name="header-module"></a>Antraštės modulis
 
@@ -62,8 +62,8 @@ Antraštės modulyje galima naudoti tolesnius modulius.
 
 Norėdami sukurti antraštės modulį, atlikite toliau nurodytus veiksmus.
 
-1. Nueikite į **Puslapio fragmentai** ir pasirinkite **Naujas**, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas puslapio fragmentas** pasirinkite modulį **Konteineris**, įveskite puslapio fragmento pavadinimą ir pasirinkite **Gerai**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
+1. **Naujo puslapio fragmento** teksto laukelyje pasirinkite **Talpyklos** modulį, įveskite puslapio fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
 1. Pasirinkite lizdą **Numatytasis konteineris**, tada dešinėje esančioje ypatybių srityje nustatykite ypatybės **Plotis** vertę **Užpildyti konteinerį**.
 1. Vietoje **Numatytasis konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulius **Reklaminė juosta** ir **Sutikimas dėl slapukų**, tada pasirinkite **Gerai**.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: dd1df355d39065d6959915cc916987d3c58b15a6
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.openlocfilehash: 93c9f2bebd038723d50e64bdaa0e0992c003f88d
+ms.sourcegitcommit: cec5de2dcfc7210a86a220e308f80ab204f12383
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570199"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "3665847"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Bendrojo žurnalo eilučių PVM apskaičiavimas
 [!include [banner](../includes/banner.md)]
@@ -64,23 +64,6 @@ Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 
 Jei kvite yra žurnalo eilutė, kurios sąskaitos tipas yra **Tiekėjas**, visoms kvito žurnalo eilutėms taikoma ta pati mokesčių kryptis. Toliau pateikiamuose punktuose rodomos galimos tiekėjų sąskaitų mokesčių kryptys. 
 
-• Jei PVM kodas yra neapmokestinamas, PVM kryptis yra Neapmokestinamas pirkimas.
-
-• Jei PVM kodas yra intracom PVM, PVM kryptis yra Gautinas PVM.
-
-• Jei PVM kodas yra atvirkštinis mokestis, PVM kryptis yra Gautinas PVM.
-
-
-Kitu atveju PVM kryptis yra Mokėtinas PVM.
-
-Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
-
-![Tiekėjų sąskaitų mokesčių krypties galimybės](media/Sales-Tax-Direction-Vendor.jpg)
-
-### <a name="account-type-is-customer"></a>Sąskaitos tipas yra Klientas
-
-Jei kvite yra žurnalo eilutė, kurios sąskaitos tipas yra **Klientas**, visoms kvito žurnalo eilutėms taikoma ta pati mokesčių kryptis. Toliau pateikiamuose punktuose rodomos galimos klientų sąskaitų mokesčių kryptys.
-
 • Jei PVM kodas yra naudojimo mokestis, PVM kryptis yra Naudojimo mokestis.
 
 • Jei PVM kodas yra neapmokestinamas, PVM kryptis yra Neapmokestinamas pirkimas.
@@ -90,6 +73,22 @@ Jei kvite yra žurnalo eilutė, kurios sąskaitos tipas yra **Klientas**, visoms
 • Jei PVM kodas yra atvirkštinis mokestis, PVM kryptis yra Mokėtinas PVM.
 
 Kitu atveju PVM kryptis yra Gautinas PVM.
+
+Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
+
+![Tiekėjų sąskaitų mokesčių krypties galimybės](media/Sales-Tax-Direction-Vendor.jpg)
+
+### <a name="account-type-is-customer"></a>Sąskaitos tipas yra Klientas
+
+Jei kvite yra žurnalo eilutė, kurios sąskaitos tipas yra **Klientas**, visoms kvito žurnalo eilutėms taikoma ta pati mokesčių kryptis. Toliau pateikiamuose punktuose rodomos galimos klientų sąskaitų mokesčių kryptys.
+
+• Jei PVM kodas yra neapmokestinamas, PVM kryptis yra Neapmokestinamas pirkimas.
+
+• Jei PVM kodas yra intracom PVM, PVM kryptis yra Gautinas PVM.
+
+• Jei PVM kodas yra atvirkštinis mokestis, PVM kryptis yra Gautinas PVM.
+
+Kitu atveju PVM kryptis yra Mokėtinas PVM.
 
 Toliau pateikiamoje diagramoje taisyklė pavaizduota grafiškai.
 

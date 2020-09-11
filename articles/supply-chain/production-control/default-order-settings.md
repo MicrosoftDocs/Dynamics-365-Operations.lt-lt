@@ -3,7 +3,7 @@ title: Numatytieji dimensijų ir produkto variantų užsakymo parametrai
 description: Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas.
 author: t-benebo
 manager: tfehr
-ms.date: 07/27/2020
+ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,13 +18,13 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 13df8eb7873495847d994922be1acd77e57f8f23
-ms.sourcegitcommit: dfe5916d982eaa879e2afef7440c30b1d0f4380a
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 0654ba019b71dc952ea52f206bc60d8fa05dd4ff
+ms.sourcegitcommit: f9917706d45693e8d3f9f6224dca9e601db44bae
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "3637761"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "3657345"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
@@ -32,7 +32,16 @@ ms.locfileid: "3637761"
 
 Numatytuose „Dynamics 365 Supply Chain Management“ užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus paimamos arba kuriuose bus laikomos prekės, minimalūs, maksimalūs, sudėtiniai ir standartiniai kiekiai, kurie bus naudojami prekiaujant arba valdant atsargas, vykdymo laikai, stabdymo vėliavėlė ir užsakymų vykdymo perspektyvos būdas. Numatytieji užsakymo parametrai naudojami kuriant pirkimo užsakymus, pardavimo užsakymus, perkėlimo užsakymus, atsargų žurnalus ir naudojant bendrąjį planavimą generuojant suplanuotus užsakymus. Numatytieji užsakymo parametrai gali būti pritaikyti prekei, vietai, produkto variantui arba produkto dimensijai.
 
-Numatytuosius užsakymo parametrus galite nustatyti puslapyje **Numatytieji užsakymo parametrai**. Šio puslapio atidarymui eikite į **Produkto informacijos valdymas** &gt; **Produktai** &gt; **Išleisti produktai** &gt; **Pasirinkti išleistą produktą** &gt; skyriuje **Planas**. Galite taip pat eiti į **Inventoriaus valdymas** &gt; **Užsakymo nustatymai** &gt; **Grąžinti užsakymo nustatymus į gamyklinius**.
+Tam, kad nustatytumėte iš anksto nustatytus užsakymo nustatymus produktui, atlikite šiuos žingsnius.
+
+1. Eikite į **Produkto informacijos valdymas** &gt; **Produktai** &gt; **Patvirtinti produktai**.
+1. Pasirinkite tinkamą produktą tinklelyje.
+1. Veiksmų juostoje atlikite vieną iš šių žingsnių tam, kad atvertumėte **Nustatytųjų užsakymo nustatymų** puslapį pasirinktam produktui:
+
+    - **Plano** skirtuke, **Užsakymo nustatymai** grupėje pasirinkite**Nustatytieji užsakymo nustatymai**.
+    - **Valdyti atsargas** skirtuke, **Užsakymo nustatymai** grupėje pasirinkite**Nustatytieji užsakymo nustatymai**.
+
+1. Konfigūruokite nustatymus kaip aprašyta šios temos likusioje dalyje.
 
 ## <a name="default-order-settings"></a>Numatytieji užsakymo parametrai
 
@@ -74,7 +83,7 @@ Numatytieji atsargų užsakymo parametrai taip pat taikomi kuriant:
 
 ## <a name="full-definition-of-a-released-product"></a>Visas išleisto produkto aprašas
 
-Kurdami operaciją eilutėje turite nurodyti visą išleisto produkto apibrėžimą, kad „Supply Chain Management“ pabandytų nustatyti numatytuosius užsakymo parametrus. Visas išleisto produkto apibrėžimas reiškia, kad prekės numeris ir visos aktyvios produkto dimensijos, pavyzdžiui, konfigūracija, dydis, stilius ir spalva yra nurodytos operacijoje. Pavyzdžiui, jei rankiniu būdu kuriate išleisto produkto varianto pirkimo užsakymo eilutę, turite nurodyti visas reikiamas produkto dimensijas prieš tai, kai pagal numatytuosius parametrus užsakymo eilutėje bus rodoma vieta, sandėlis, kiekiai ir vykdymo laikas. 
+Jums sukūrus perlaidą, privalote nurodyti visą išleisto produkto linijoje sąvoką taip, kad „Supply Chain Management” galėtų bandyti atpažinti nustatytuosius užsakymo nustatymus. Viso išleisto produkto sąvoka, prekės numeris ir visos esančios produkto dimensijos, tokios kaip konfigūravimas, dydis, stilius, versija ir spalva yra nurodyti perlaidoje. Pavyzdžiui, jei rankiniu būdu sukuriate įsigijimo užsakymo eilutę išleistam produkto variantui, privalote nurodyti visas reikiamas produkto dimensijas prieš tai, kai vieta, sandėlis, kiekiai ir pagrindinis laikas pasirodys pagal nutylėjimą užsakymo eilutėje. 
 
 Ne visi numatytieji užsakymo parametrai taikomi kuriant užsakymą arba žurnalo eilutes. Kiekiai ir vykdymo laikai bus rodomi tik pagal numatytuosius parametrus ir tik prireikus. Pavyzdžiui, skaičiuojant žurnalo eilutę, kai sukurta eilutė, pagal numatytuosius parametrus rodoma tik vieta ir sandėlis. Dėl šios priežasties, kuriant eilutę ar publikuojant žurnalą nėra iš anksto nustatyta jokių kiekių ar patikrinimų minimalioms ir maksimalioms vertėms. 
 
@@ -96,7 +105,7 @@ Dėl atskirai leidžiamų produktų, galite nuspresti bendrus užsakymo nustatym
 
 ### <a name="site-specific-order-settings"></a>Nuo vietos priklausomi užsakymo parametrai
 
-Tam, kad sukurtumėte vietos specifinius užsakymo nustatymus, pasirinkite **Naujas**. Dalies **Informacijos rodinys** lauke **Parametrai taikomi** &gt; **Vieta** įveskite vietą. **Tinklelio rodinys** stulpelyje **Vieta** įveskite vietą. Naujai taisyklei bus automatiškai suteikta nauja reitingo reikšmė, didesnė už nulį. Galite sukurti tiek nuo vietos priklausomų specialių taisyklių, kiek jums reikia ir tuomet priskirti nuo vietos priklausomas specialias taisykles vienam lygmeniui tam, kad sumodeliuotumėte vienodą jų svarbą. 
+Tam, kad sukurtumėte vietos specifinius užsakymo nustatymus, pasirinkite **Naujas**. **Išsaiomes informacijos peržiūroje**, įveskite vietą **Vietos** laukelyje **Nustatymuose taikomuose** skyriui. **Tinklelio peržiūroje**, įveskite vietą**Vietos** stulpelyje. Nauja taisyklė automatiškai priskiriama naujo reitingo vertei, kuri yra didesnė nei 0 (nulis). Galite sukurti tiek vietos konkrečių taisyklių, kiek jums reikia. Tam, kad parodytumėte, jog jos yra vienodai svarbios, galite priskirti tą pačią reitingo vertę visoms su vieta susijusioms taisyklėms.
 
 Jei esate dalyje **Informacijos rodinys**, negalite peržiūrėti prekei sukurtų taisyklių. Naudokite **Rodyti/slėpti sąrašą** mygtuką tam, kad peržiūrėtumėte informaciją. Sukūrus bet kokio tipo užsakymo eilutę, kurioje nėra nurodyta vieta, „Supply Chain Management“ ieško taisyklės, kurioje nenurodyta vieta. Tai padeda nustatyti iš anksto nustatytąją vietą užsakymo eilutėje. Ši vieta po to yra naudojama ieškoti nuo vietos priklausomų taisyklių, į kurias iš anksto nustatytas sandėlis gali būti nusiunčiamas. Šis sandėlis taikomas užsakymo eilutei.
 
@@ -111,41 +120,41 @@ Atkreipkite dėmesį į toliau pateikiamą produkto pavyzdį.
 | **Produkto pavadinimas**                                    | Fotoelektrinis jutiklis                    |
 | **Prekės Nr.**                                     | XW56                                    |
 | **Konfigūracija** (naudojama modeliuojant apšvietimo tipą) | C1 – matoma raudona šviesa, C2 – infraraudonųjų spindulių šviesa |
-| **Stilius** (naudojamas modeliuojant inžinerijos peržiūrą)  | R1, R2, R3                              |
+| **Versija** | V1, V2, V3                              |
 
 Pavyzdžiui, tarkime, kad produktas yra ne pagamintas, o įsigytas. Taip pat tarkime, kad konfigūracija C1 naudojama dažniausiai, todėl jos vykdymo laikas trumpesnis. 
 
 Norėdami modeliuoti šį scenarijų, sukurkite toliau nurodytus numatytuosius užsakymo parametrus.
 
-| Rangas | Svetainė | Konfigūravimas | Stilius | Pirkimas – nepaisyti numatytųjų parametrų | Pirkimo vykdymo laikas | Pirkimas – sustabdytas | Pardavimas – nepaisyti numatytųjų parametrų | Pardavimas – sustabdytas |
+| Rangas | Vieta | Konfigūravimas | Versija | Pirkimas – nepaisyti numatytųjų parametrų | Pirkimo vykdymo laikas | Pirkimas – sustabdytas | Pardavimas – nepaisyti numatytųjų parametrų | Pardavimas – sustabdytas |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
 | 10   |      | C1            |       | Taip                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Kai pirkimo užsakymo eilutė arba suplanuotas pirkimo užsakymas sukuriamas XW56, konfigūracijai C1, nepriklausomai nuo peržiūros ar eilutės buvimo vietos, vykdymo laikas bus 2. Tarkime, kad sustabdytos visos peržiūros, išskyrus R3.
+Kai prekybos užsakymo eilutė ar suplanuotas įsigijimo užsakymas yra sukuriamas XW56 prekei, konfigūravimui C1, nepriklausomai nuo versijos ar vietos, kurioje eilutė yra padėta, pagrindinis laikas bus nustatytas į 2. Manykime, kad visos versijos kartu su V3 yra sustabdytos.
 
 Galite sukurti toliau nurodytus numatytuosius užsakymo parametrus.
 
-| Rangas | Svetainė | Konfigūravimas | Stilius | Pirkimas – nepaisyti numatytųjų parametrų | Pirkimo vykdymo laikas | Pirkimas – sustabdytas | Pardavimas – nepaisyti numatytųjų parametrų | Pardavimas – sustabdytas |
+| Rangas | Vieta | Konfigūravimas | Versija | Pirkimas – nepaisyti numatytųjų parametrų | Pirkimo vykdymo laikas | Pirkimas – sustabdytas | Pardavimas – nepaisyti numatytųjų parametrų | Pardavimas – sustabdytas |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 20   |      |               | R2    | Taip                                  |                    | Taip                | Taip                               | Taip             |
-| 20   |      |               | R1    | Taip                                  |                    | Taip                | Taip                               | Taip             |
+| 20   |      |               | V2    | Taip                                  |                    | Taip                | Taip                               | Taip             |
+| 20   |      |               | V1    | Taip                                  |                    | Taip                | Taip                               | Taip             |
 | 10   |      | C1            |       | Taip                                  | 2                  |                    |                                   |                 |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
-Dviejų senų peržiūrų stabdymui skirtų taisyklių reitingas toks pats, o tai reiškia, kad jos yra vienodai svarbios. Abiejų jų reitingas aukštesnis negu konfigūracijos C1 taisyklės reitingas, o tai reiškia, kad jos svarbesnės negu konfigūracijos C1 taisyklė. 
+Dvi senosios versijos sustabdymo taisyklės turi vienodą reitingą. Dėl to, jos yra vienodai svarbios. Kadangi abi šios taisyklės turi didesnį reitingą nei C1 konfigūravimo taisyklė, jos yra viršesnės nei C1 konfigūravimo taisyklė. 
 
-Šiame pavyzdyje paaiškinama, kodėl reikalingas reitingas. Jei pirkimo užsakymas sukuriamas konfigūracijai C1 ir peržiūrai R2, kai nenurodytas reitingas, šios dvi R2 ir C1 nurodytos taisyklės būtų nevienareikšmiškos. Norėdama išspręsti dviprasmiškumo problemą „Supply Chain Management“ peržiūri taisykles pagal reitingą mažėjančia tvarka ir pritaiko pirmą taikytiną taisyklę. Dabartiniame pavyzdyje, kai pirkimo užsakymo eilutė sukuriama konfigūracijai C1 ir peržiūrai R2, vartotojas gaus įspėjantį pranešimą, kad prekė sulaikyta ir kad tai įvyko dėl peržiūros vertės. Jei konfigūravimo taisyklė turėjo aukštesnį lygmenį nei patikrinimo taisyklė, tuomet įsigijimo užsakymo eilutės sukūrimas C1 konfigūravimui ir R2 patikrinimui bus įvykęs ir 'elementas laikomas' pranešimas naudotojui nebus rodomas. 
+Šiame pavyzdyje paaiškinama, kodėl reikalingas reitingas. Jei reitingas yra nenaudojamas, C1 konfigūravimui ir V2 cersijai sukūrus įsigijimo užsakymą, abi taisyklės nustatytos V2 ir C1 bus dviprasmiškos. Norėdama išspręsti dviprasmiškumo problemą „Supply Chain Management“ peržiūri taisykles pagal reitingą mažėjančia tvarka ir pritaiko pirmą taikytiną taisyklę. Šiame pavyzdyje, kai prekybos užsakymo eilutė yra sukurta C1 konfigūravimui ir V2 versijai, vartotojas gaus perspėjantį pranešimą, kuris sako, kad prekė yra laikoma ir tai vyksta dėl versijos vertės. Jei konfigūravimo taisyklė turi didesnį reitingą nei versijos taisyklė, įsigijimo užsakymo eilutė bus sėkmingai sukurta C1 konfigūravimui ir V2 versijai bei vartotojas negaus „prekė laikoma“ pranešimo. 
 
 Atsižvelkite į toliau nurodytas numatytojo užsakymo parametro taisykles.
 
-| Rangas | Svetainė | Konfigūravimas | Stilius | Numatytoji vieta | Numatytasis sandėlis | Pirkimas – nepaisyti numatytųjų saugojimo dimensijų | Pirkimo sandėlis |
+| Rangas | Vieta | Konfigūravimas | Versija | Numatytoji teritorija | Numatytasis sandėlis | Pirkimas – nepaisyti numatytųjų saugojimo dimensijų | Pirkimo sandėlis |
 |------|------|---------------|-------|--------------|-------------------|------------------------------------------------|--------------------|
 | 20   | 2    |               |       |              |                   | Taip                                            | 22                 |
-| 10   |      | C1            |  R2   |  2           |  21               |                                                |                    |
+| 10   |      | C1            |  V2   |  2           |  21               |                                                |                    |
 | 0    |      |               |       | 1            | 11                |                                                |                    |
 
-Sistema perkeičia taisyklių rinkinį du kartus tam, kad nustatytų vietą ir sandėlį. Sukūrus konfigūracijos C1, stiliaus R2 pirkimo užsakymo eilutę, vieta nustatoma pagal taisyklę, kurios reitingas 10. Tuomet sistema ieško taisyklės vietai 2 tam, kad nustatytų sandėlį. Randama 20 taisyklė ir, kadangi jos reitingas aukštesnis, pirkimo užsakymo eilutėje nurodomas sandėlis 22, o ne 21.
+Sistema perkeičia taisyklių rinkinį du kartus tam, kad nustatytų vietą ir sandėlį. Kai įsigijimo užsakymo eilutė yra sukurta C1 konfigūravimui, V2 versijai, vieta nulemiama pagal taisyklę, turinčią 10 reitingą. Sistema tuomet ieško taisyklės vietai 2 tam, kad nustatytų sandėlį. Randama 20 taisyklė, nes ji turi didesnį reitingą, sandėlis įsigijimo užsakymo eilutėje bus 22, o ne 21.
 
 Kaip bendros gairės, specialios taisyklės ir dimensijų taisyklės svarbesnės nei kitos dimensijos gauna aukštesnį lygmenį, o bendresnės taisyklės gauna žemesnįjį. 
 
@@ -159,14 +168,14 @@ Išleistam produktui sukurtų taisyklių skaičius gali būti didelis. Tam, kad 
 
 Jei taisyklės sistema nustatytiems užsakymo parametrams yra per didelė, tuomet esama parinkties, kuria galima nustatyti iš anksto nustatytuosius užsakymo parametrus kiekvienam produkto variantui. Toliau pateiktas pavyzdys rodo, kaip tai atrodo produktui ir prieš tai aprašytus atvejus.
 
-| Rangas | Svetainė | Konfigūravimas | Stilius | Pirkimas – nepaisyti numatytųjų parametrų | Pirkimo vykdymo laikas | Pirkimas – sustabdytas | Pardavimas – nepaisyti numatytųjų parametrų | Pardavimas – sustabdytas |
+| Rangas | Vieta | Konfigūravimas | Versija | Pirkimas – nepaisyti numatytųjų parametrų | Pirkimo vykdymo laikas | Pirkimas – sustabdytas | Pardavimas – nepaisyti numatytųjų parametrų | Pardavimas – sustabdytas |
 |------|------|---------------|-------|--------------------------------------|--------------------|--------------------|-----------------------------------|-----------------|
-| 10   |      | C2            | R3    | Taip                                  | 5                  |                    |                                   |                 |
-| 10   |      | C2            | R2    | Taip                                  | 5                  | Taip                | Taip                               | Taip             |
-| 10   |      | C2            | R1    | Taip                                  | 5                  | Taip                | Taip                               | Taip             |
-| 10   |      | C1            | R3    | Taip                                  | 2                  |                    |                                   |                 |
-| 10   |      | C1            | R2    | Taip                                  | 2                  | Taip                | Taip                               | Taip             |
-| 10   |      | C1            | R1    | Taip                                  | 2                  | Taip                | Taip                               | Taip             |
+| 10   |      | C2            | V3    | Taip                                  | 5                  |                    |                                   |                 |
+| 10   |      | C2            | V2    | Taip                                  | 5                  | Taip                | Taip                               | Taip             |
+| 10   |      | C2            | V1    | Taip                                  | 5                  | Taip                | Taip                               | Taip             |
+| 10   |      | C1            | V3    | Taip                                  | 2                  |                    |                                   |                 |
+| 10   |      | C1            | V2    | Taip                                  | 2                  | Taip                | Taip                               | Taip             |
+| 10   |      | C1            | V1    | Taip                                  | 2                  | Taip                | Taip                               | Taip             |
 | 0    |      |               |       |                                      | 5                  |                    |                                   |                 |
 
 Reitingas šiuo atveju nėra svarbus, todėl galite jį paslėpti. Šis sprendimas gali būti techninės priežiūros problemos priežastis. Nepaisant to, jums reiketų apsvarstyti šio parametro naudojimą, jei galvojate apie produkto gyvavimo ciklos valdymo (PLM) sistemų integravimą.

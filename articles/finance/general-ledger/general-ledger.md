@@ -3,7 +3,7 @@ title: Didžiosios knygos ir finansinių ataskaitų apžvalga
 description: Naudokite didžiąją knygą nustatyti ir valdyti juridinio subjekto finansiniams įrašams.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/31/2017
+ms.date: 08/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b4cad11bcd1b1674055a07b5093093e33d3ac556
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e68fee44fdc18cada99e3c7e2cba021036e869db
+ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771804"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "3696669"
 ---
-# <a name="general-ledger-and-financial-reporting-overview"></a>Didžiosios knygos ir finansinių ataskaitų apžvalga
+# <a name="general-ledger-home-page"></a>Didžiosios knygos pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
@@ -57,9 +57,12 @@ Be to, taisykles reikia atnaujinti periodiškai, kai mokesčių institucijos pak
 
 Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [„Microsoft Dynamics 365” leidimo planai](https://go.microsoft.com/fwlink/?linkid=2010158). 
 
+#### <a name="financial-reporting"></a>Finansinės ataskaitos
+Eikite į [„Financial reporting“ apžvalgos](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) temą informacijai apie finansinės ataskaitas.
+
 #### <a name="blogs"></a>Tinklaraščiai
 
-Galite rasti nuomonių, naujienų ir kitos informacijos [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations“ – finansai“ tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
+[„Microsoft Dynamics 365” tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations – Financials” tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials) galite rasti nuomonių, naujienų ir kitos informacijos.
 
 „[Microsoft Dynamics Operations‟ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations‟ tendencijos.
 

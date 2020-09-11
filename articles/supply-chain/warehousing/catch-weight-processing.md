@@ -3,7 +3,7 @@ title: Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: tfehr
-ms.date: 03/03/2020
+ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c6598a9ac2beb799ddfc4e3cce182e1281ae8d03
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: b1d106fa6fe5072eb74813495253731dd988c376
+ms.sourcegitcommit: 9a0be1ceee90e80f4c75f241aba847547b5032e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530540"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "3693284"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -168,7 +168,7 @@ Ne visos darbo eigos palaiko esamo svorio produktų apdorojimą naudojant sandė
 
 - Klasterio paėmimo funkcija nepalaikoma naudojant esamo svorio produktus.
 - Paėmimo ir pakavimo sandėlio apdorojimas nepalaikoma naudojant esamo svorio produktus.
-- Darbas, nurodytas darbo šablone, gali būti vykdomas automatiškai naudojant esamo svorio produktus.
+- Pagauto svorio produktams, darbo šablone nenustatytas darbas negali būti vykdomas automatiškai.
 - Naudojant esamo svorio produktus, sistema nepalaiko rankinio pakavimo vietos apdorojimo, kai supakuoto konteinerio paėmimo darbas kuriamas uždarius konteinerius.
 - Nuoseklaus vienetų nuskaitymo funkcija nepalaikoma naudojant esamo svorio produktus.
 

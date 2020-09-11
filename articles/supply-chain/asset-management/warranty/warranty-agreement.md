@@ -3,7 +3,7 @@ title: Garantijos sutartys
 description: Šioje temoje paaiškintos garantijos sutartys modulyje Turto valdymas.
 author: josaw1
 manager: tfehr
-ms.date: 08/30/2019
+ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e9cbb9068101f3004179f338da18af0369190807
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: f049165fd12dfae672293e0c30ddb186ad3ed12c
+ms.sourcegitcommit: 18c5ef10e311f3dd2dbf45c6439ae6beff921af8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215383"
+ms.lasthandoff: 08/24/2020
+ms.locfileid: "3719243"
 ---
 # <a name="warranty-agreements"></a>Garantijos sutartys
 
@@ -42,12 +42,12 @@ Garantijos sutartyje gali būti kelios eilutės, apimančios darbo valandų, iš
 
 1. Pasirinkite **Turto valdymas** \> **Sąranka** \> **Turtas** \> **Garantija**.
 2. Pasirinkite **Naujas**, kad sukurtumėte produktą.
-3. Lauke **Garantija** įveskite garantijos ID.
+3. Lauke **Garantija** įveskite garantijos ID. 
 4. Lauke **Pavadinimas** įveskite aprašomąjį pavadinimą.
 
     „FastTab“ **Išsami informacija** esančiame lauke **Turtas** rodomas aktyvių turto objektų, su kuriais naudojama garantijos sutartis, skaičius.
 
-5. „FastTab“ konteineriuose **Valandų garantija** ir **Prekių garantija** atlikdami toliau nurodytus veiksmus, įtraukite eilutes, kurios turi būti garantijos sutartyje, susijusioje su valandomis ir prekėmis.
+5. Norėdami pridėti eilutes, kurios turėtų būti įtrauktos į garantijos sutartį, atlikite šiuos veiksmus **Garantijos eilutės** „FastTab“:
 
     1. Pasirinkite **Įtraukti eilutę**, kad į garantiją įtrauktumėte naują sąlygą. Lauke **Eilutė** automatiškai pagal eilės tvarką įvedamas eilutės numeris.
     2. Lauke **Laikotarpis** pasirinkite garantijos laikotarpio tipą.

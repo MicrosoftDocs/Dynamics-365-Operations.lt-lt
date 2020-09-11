@@ -3,7 +3,7 @@ title: Įmonės koncepcija „Common Data Service“
 description: Šioje temoje aprašomas įmonės duomenų integravimas tarp „Finance and Operations“ ir „Common Data Service“.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 07/15/2019
+ms.date: 08/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 9a39cf5fa980d9a815ba675e410589dbd1279c83
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
+ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172905"
+ms.lasthandoff: 08/27/2020
+ms.locfileid: "3728418"
 ---
 # <a name="company-concept-in-common-data-service"></a>Įmonės koncepcija „Common Data Service“
 
@@ -72,3 +72,32 @@ Paskutinėje temoje aptariama, kaip dvigubas rašymas nustato, kuriai savininkų
 + Įtraukus ir įrašius įmonę įrašų reikšmė tampa skirta tik skaityti. Todėl vartotojai turėtų įsitikinti, kad pasirinko tinkamą įmonę.
 + Tik tie įrašai, kurie apima įmonės duomenis, gali būti dvigubo rašymo tarp programos ir „Common Data Service“.
 + Esamiems „Common Data Service“ duomenims netrukus bus teikiama administratoriaus vadovaujama įkėlimo patirtis.
+
+
+## <a name="autopopulate-company-name-in-customer-engagement-apps"></a>Automatinis įmonės pavadinimo įvedimas „Customer engagement” programoms
+
+Yra keli būdai automatiškai įvesti įmonės pavadinimą „Customer Engagement” programose.
+
++ Jei esate sistemos administratorius, galite nustatyti numatytąją įmonę eidami į **Išplėstiniai nustatymai > Sistema > Sauga > Vartotojai**. Atidarykite formą **Vartotojas** ir skyriuje **Organizacijos informacija** nustatykite **Įmonė kaip numatytoji formose** reikšmę.
+
+    :::image type="content" source="media/autopopulate-company-name-1.png" alt-text="Numatytosios įmonės nustatymas skyriuje Organizacijos informacija.":::
+
++ Jei turite **Rašymo** prieigą prie **SystemUser** objekto **Verslo vieneto** lygiu, tada galite pakeisti numatytąją įmonę bet kurioje formoje pasirinkdami įmonę iš išplečiamojo meniu **Įmonė**.
+
+    :::image type="content" source="media/autopopulate-company-name-2.png" alt-text="Įmonės vardo keitimas naujoje paskyroje.":::
+
++ Jei turite **Rašymo** prieigą prie daugiau nei vienos įmonės duomenų, tada galite keisti numatytąją įmonę pasirinkdami įrašą, priklausantį kitai įmonei.
+
+    :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Įrašo pasirinkimas pakeičia numatytąją įmonę.":::
+
++ Jeigu esate sistemos konfigūratorius arba administratorius ir norite įvesti įmonės pavadinimą automatiškai pasirinktinėje formoje, galite naudoti [formų įvykius](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Pridėkite JavaScript nuorodą į **msdyn_/DefaultCompany.js** ir naudokite šiuos įvykius. Galite naudoti bet kurią visiškai parengtą formą, pavyzdžiui **Paskyra** formą.
+
+    + **OnLoad** įvykis formai: nustatykite **defaultCompany** lauką.
+    + **OnChange** įvykis **Įmonės** laukui: nustatykite **updateDefaultCompany** lauką.
+
+## <a name="apply-filtering-based-on-the-company-context"></a>Filtravimo, paremto įmonės kontekstu, taikymas
+
+Norėdami taikyti filtravimą, paremtą įmonės kontekstu Jūsų pasirinktinėse formose arba pasirinktiniuose peržvalgos laukuose, pridėtuose standartinėse formose, atidarykite formą ir naudokite skyrių **Susijusių įrašų filtravimas** įmonės filtro taikymui. Turite tai nustatyti kiekvienam peržvalgos laukui, kuriam reikalingas filtravimas, paremtas esančia įmone pasirinktame įraše. Parametras rodomas dalyje **Paskyra** šioje iliustracijoje.
+
+:::image type="content" source="media/apply-company-context.png" alt-text="Įmonės konteksto taikymas":::
+
