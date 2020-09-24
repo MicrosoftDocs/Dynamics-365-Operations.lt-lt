@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2020\_m. rugsėjo 3\_d."
+          href: hr-whats-new-2020-09-03.md
         - name: "2020\_m. rugpjūčio 20\_d."
           href: hr-whats-new-2020-08-20.md
         - name: "2020\_m. rugpjūčio 6\_d."
@@ -23,12 +25,12 @@
           href: hr-whats-new-2020-05-14.md
         - name: 2020 m. gegužės 1 d.
           href: hr-whats-new-2020-05-01.md
-        - name: 2020 m. balandžio 13 d.
-          href: hr-whats-new-2020-04-13.md
-        - name: 2020 m. balandžio 3 d.
-          href: hr-whats-new-2020-04-03.md
         - name: Skyriaus Kas nauja 2020 m. archyvai
           items:
+            - name: 2020 m. balandžio 13 d.
+              href: hr-whats-new-2020-04-13.md
+            - name: 2020 m. balandžio 3 d.
+              href: hr-whats-new-2020-04-03.md
             - name: "2020\_m. kovo 24\_d."
               href: hr-whats-new-2020-03-24.md
             - name: "2020\_m. kovo 19\_d."

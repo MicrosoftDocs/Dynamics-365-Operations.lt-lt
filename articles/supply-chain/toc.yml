@@ -70,12 +70,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: „Supply Chain Management“ 10.0.13 (2020 m. spalio mėn.)
+                    - name: „Supply Chain Management 10.0.14“ (2020 m. lapkričio mėn.)
+                      href: get-started/whats-new-scm-10-0-14.md
+                    - name: „Supply Chain Management 10.0.13“ (2020 m. spalio mėn.)
                       href: get-started/whats-new-scm-10-0-13.md
                     - name: „Supply Chain Management 10.0.12“ (2020 m. rugpjūčio mėn.)
                       href: get-started/whats-new-scm-10-0-12.md
-                    - name: „Supply Chain Management 10.0.11“ (2020 m. liepos mėn.)
-                      href: get-started/whats-new-scm-10-0-11.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -333,7 +333,7 @@
                   href: asset-management/work-orders/automatic-update-of-asset-counters.md
                 - name: Prižiūrimo turto kontroliniai sąrašai
                   href: asset-management/work-orders/maintenance-checklists.md
-                - name: Prižiūrimo turto prastova
+                - name: Darbo užsakymų prižiūrimo turto prastova
                   href: asset-management/work-orders/maintenance-downtime.md
                 - name: Gedimo įtraukimas į darbo užsakymą
                   href: asset-management/work-orders/add-fault-to-work-order.md
@@ -367,13 +367,13 @@
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-schedule-cost.md
                 - name: Darbo užsakymų kūrimas
                   href: asset-management/preventive-and-reactive-maintenance/creating-work-orders.md
-                - name: Prižiūrimo turto prastova
+                - name: Prižiūrimo turto prastovos veiklos
                   href: asset-management/preventive-and-reactive-maintenance/maintenance-stop.md
             - name: Pajėgumo planavimas
               items:
                 - name: Pajėgumo skaičiavimas
                   href: asset-management/capacity-planning/calculate-capacity-load.md
-                - name: Elemento prognozės apskaičiavimas
+                - name: Elemento prognozės atskaičiavimas
                   href: asset-management/capacity-planning/calculate-item-forecast.md
             - name: Darbo užsakymo planavimas
               items:
@@ -671,7 +671,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Vietinių visuotinių diegimų SSRS konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Spausdinama
+                - name: Spausdinimas
                   items:
                     - name: Dokumento spausdinimo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/supply-chain/toc.json
@@ -1119,7 +1119,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
+            - name: Apskaičiuotojo lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
               href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/supply-chain/toc.json
             - name: Konfigūracijos ciklas
               items:
@@ -1345,8 +1345,6 @@
               items:
                 - name: Planavimo optimizavimo apžvalga
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Planavimas su neigiamais turimais kiekiais
-                  href: master-planning/planning-optimization/negative-on-hand.md
                 - name: Darbo su planavimo optimizavimu pradžia
                   href: master-planning/planning-optimization/get-started.md
                 - name: Planavimo optimizavimo tinkamumo analizė
@@ -1355,16 +1353,22 @@
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Bendrasis planavimas su įsigijimo prekybos sutartimis
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
-                - name: Plano retrospektyvos ir planavimo žurnalų peržiūra
-                  href: master-planning/planning-optimization/plan-history-logs.md
+                - name: Laiko rezervai
+                  href: master-planning/planning-optimization/safety-margins.md
+                - name: Suplanuotų užsakymų tvirtinimas
+                  href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Automatinis patvirtinimas naudojant planavimo optimizavimo funkciją
                   href: master-planning/planning-optimization/planning-optimization-auto-firming.md
+                - name: Planavimas su neigiamais turimais kiekiais
+                  href: master-planning/planning-optimization/negative-on-hand.md
+                - name: Plano retrospektyvos ir planavimo žurnalų peržiūra
+                  href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Planavimo užduoties atšaukimas
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Planavimo optimizavimo išplečiamumas
-                  href: master-planning/planning-optimization/extensibility.md
                 - name: Planavimo optimizavimo trikčių diagnostika
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
+                - name: Planavimo optimizavimo išplečiamumas
+                  href: master-planning/planning-optimization/extensibility.md
             - name: Bendrieji planai
               items:
                 - name: Bendrųjų planų apžvalga
@@ -2621,6 +2625,8 @@
                   items:
                     - name: Klasterio paėmimo nustatymas
                       href: warehousing/set-up-cluster-picking.md
+                    - name: Klasterio pareigos pilnos
+                      href: warehousing/cluster-position-full.md
                     - name: Sistemos nukreiptas klasterio paėmimas
                       href: warehousing/system-directed-cluster-pick.md
                     - name: Krovimo į konteinerius nustatymas
