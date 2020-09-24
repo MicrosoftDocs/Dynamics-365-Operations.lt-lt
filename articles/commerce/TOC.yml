@@ -92,6 +92,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce 10.0.14“ (2020 m. lapkričio mėn.)
+                      href: get-started/whats-new-commerce-10-0-14.md
                     - name: „Commerce“ 10.0.13 (2020 m. spalio mėn.)
                       href: get-started/whats-new-commerce-10-0-13.md
                     - name: „Commerce 10.0.12“ (2020 m. rugpjūčio mėn.)
@@ -242,7 +244,7 @@
                   href: retail-hardware-station-configuration-installation.md
                 - name: Masinis savitarnos komponentų diegimas
                   href: dev-itpro/retail-mass-deployment.md
-                - name: „Retail“ komponentų įvykiai triktims diagnozuoti ir šalinti
+                - name: „Commerce“ komponentų įvykiai triktims diagnozuoti ir šalinti
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
                 - name: Visuotinai diegiamo paketo taikymas
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
@@ -526,6 +528,8 @@
                       href: omni-channel-payments.md
                     - name: Daugiakanaliai „Commerce“ užsakymų mokėjimai
                       href: dev-itpro/commerce-payments.md
+                    - name: Kredito kortelių apdorojimas be aparatūros stoties
+                      href: dev-itpro/cnp-pos.md
                     - name: DUK apie mokėjimus
                       href: dev-itpro/payments-retail.md
                 - name: „Bing“ žemėlapių valdymas jūsų organizacijoje
@@ -700,7 +704,7 @@
           items:
             - name: Kliento užsakymai
               items:
-                - name: Kliento MPOS užsakymai
+                - name: Kliento užsakymai elektroniniame kasos aparate (EKA)
                   href: customer-orders-overview.md
                 - name: Hibridiniai kliento užsakymai
                   href: hybrid-customer-orders.md
@@ -736,7 +740,7 @@
                   href: orderexchanges.md
                 - name: Grąžinimo mokėjimo metodų be kvito apribojimas
                   href: payment-methods-restrictions.md
-                - name: Kelių klientų užsakymų ir SF grąžinamos prekės
+                - name: Kelių klientų užsakymų ir sąskaitų faktūrų grąžinamos prekės
                   href: multireturn.md
                 - name: Kanalo prekių ir pinigų grąžinimų strategijos kūrimas ir naujinimas
                   href: refund_policy_returns.md
@@ -824,8 +828,10 @@
                   href: set-up-B2C-tenant.md
                 - name: Vartotojo registracijos pasirinktinių puslapių sąranka
                   href: custom-pages-user-logins.md
-                - name: „Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas
+                - name: „Commerce” aplinkos kelių B2C nuomotojų konfigūravimas
                   href: configure-multi-B2C-tenants.md
+                - name: „Dynamics 365 Commerce“ esantys domenai
+                  href: domains-commerce.md
                 - name: Turinio pateikimo tinklo (CDN) palaikymo įtraukimas
                   href: add-cdn-support.md
                 - name: Parduotuvės nustatymo pagal vietą įgalinimas
@@ -990,6 +996,8 @@
                       href: media-gallery-module.md
                     - name: Įvertinimų ir apžvalgų moduliai
                       href: ratings-reviews-modules.md
+                    - name: Bendrinimo socialiniuose tinkluose modulis
+                      href: social-share-module.md
                 - name: Pirkimo moduliai
                   items:
                     - name: Krepšelio modulis
@@ -1026,7 +1034,13 @@
                   items:
                     - name: Naršymo kelio modulis
                       href: add-breadcrumb.md
-            - name: Ieška
+                    - name: Naršymo meniu modulis
+                      href: nav-menu-module.md
+                - name: Atitikties moduliai
+                  items:
+                    - name: Sutikimo dėl slapukų modulis
+                      href: cookie-consent-module.md
+            - name: Ieškoti
               items:
                 - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
                   href: category-search-page-overview.md
@@ -1172,7 +1186,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/supported-fonts.md?toc=/dynamics365/commerce/toc.json
                 - name: Vietinių visuotinių diegimų SSRS konfigūravimas
                   href: ../fin-ops-core/dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/dynamics365/commerce/toc.json
-                - name: Spausdinama
+                - name: Spausdinimas
                   items:
                     - name: Dokumento spausdinimo apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/print-documents.md?toc=/dynamics365/commerce/toc.json
@@ -1620,7 +1634,7 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md?toc=/dynamics365/commerce/toc.json
             - name: Sugeneruotų XML failų skaidymas pagal failo dydį ir turinio kiekį
               href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
-            - name: Apskaičiuoto lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
+            - name: Apskaičiuotojo lauko tipo ER duomenų šaltinių parametrizuotų skambučių palaikymas
               href: ../fin-ops-core/dev-itpro/analytics/er-calculated-field-type.md?toc=/dynamics365/commerce/toc.json
             - name: Konfigūracijos ciklas
               items:
@@ -1652,9 +1666,9 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/commerce/toc.json
                 - name: ER formato elementų vykdymo atidėjimas
                   items:
-                    - name: Sekos elemento vykdymo atidėjimas
+                    - name: Sekos elementų ER formatais vykdymo atidėjimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md
-                    - name: XML elemento vykdymo atidėjimas
+                    - name: XML elementų ER formatais vykdymo atidėjimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md
             - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
               items:
