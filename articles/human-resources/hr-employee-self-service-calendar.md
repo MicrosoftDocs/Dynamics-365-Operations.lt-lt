@@ -3,7 +3,7 @@ title: Komandos kalendoriaus kūrimas
 description: Peržiūrėti ir kurti komandų kalendorius „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/03/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2862c98014f91c5500ec11119d04d15bd050c89c
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f7d11b11864f73d4405a4e3629e6873b8cd13e8d
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712213"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796474"
 ---
 # <a name="view-team-and-company-calendars"></a>Komandos ir įmonių kalendorių peržiūra
 
@@ -50,6 +50,22 @@ Vadovai taip pat gali turėti prieigą prie komandos kalendoriaus skirtukuose **
 2. Pasirinkite **Atostogų ir neatvykimų kalendorius**.
 
 Turintys vaidmenį Personalas taip pat gali turėti prieigą prie įmonės kalendoriaus skirtukuose **Prašymai dėl atostogų ir leidimo neatvykti**, **Patvirtintos atostogos** ir **Atostogų užklausos**. 
+
+[!include [banner](includes/preview-feature.md)]
+
+Dabar kalendoriuose yra papildomi filtrai ir parinktys. Visuose kalendoriuose yra peržiūros parinktys, skirtos:
+
+- Patvirtinti prašymai
+- Laukiantys prašymai
+- Darbuotojai, turintys atostogų prašymų
+- Darbuotojai, neturintys atostogų prašymų
+- Darbuotojų gimtadieniai
+- Prašymus išleisti iš darbo 
+- Prašymai dėl atostogų laiko
+
+Kalendoriaus konfigūravimas atostogų ir neatvykimų parametruose nustato galimas peržiūros parinktis.
+
+Taip pat galite filtruoti kalendorius pagal vadovą arba padalinį. Pagrindinis pareigų priskyrimas nustato darbuotojus, rodomus nustačius šiuos filtrus. 
 
 Informacijos apie kalendoriaus parametrus žr. skyriuje [Kalendoriaus parametrų konfigūravimas](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

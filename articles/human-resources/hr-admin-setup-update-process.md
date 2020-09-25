@@ -3,7 +3,7 @@ title: Atnaujinimo procesas
 description: „Microsoft Dynamics 365 Human Resources“ yra tipiška programinės įrangos nuomos paslauga („SaaS“), teikianti nepertraukiamus, bekontakčius paslaugų naujinimus, skirtus programai ir platformai keisti.
 author: andreabichsel
 manager: AnnBe
-ms.date: 02/27/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 006f3c7218436c1c70e29e51f8b1b784ae36b2dd
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: be9be5509f933ecbda5bf6d040027a7bac8b666d
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431181"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759964"
 ---
 # <a name="update-process"></a>Atnaujinimo procesas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3431181"
 
 Naujinimai išleidžiami reguliariais intervalais visoms aplinkoms. „Human Resources“ palaikoma atsižvelgiant į [„Microsoft Lifecycle“ strategiją](https://support.microsoft.com/hub/4095338/microsoft-lifecycle-policy), kuri numato nuoseklias ir prognozuojamas palaikymo pasiekiamumo gaires.
 
-## <a name="release-cadence"></a>Leidimo intervalai
+## <a name="release-cadence"></a>Leidimo intervalai 
 
 „Human Resources“ naujinimai taikomi visoms aplinkoms automatiškai. „Human Resources“ teikia dviejų tipų leidimus:
 
@@ -56,14 +56,12 @@ Leidimai yra peržiūrimi, tikrinami ir patvirtinami vidinėje aplinkoje. Kai at
 
 ## <a name="release-cadence-exceptions-in-2020"></a>Numatomi išleidimo intervalai 2020 m.
 
-Šiomis datomis numatomos išimtys įprastame leidimų grafike:
+Norint atsiskaityti už atostogas, toliau pateiktas 2020 m. lapkričio ir gruodžio mėn. leidimų grafikas.
 
-| Data | aprašymas |
-| --- | --- |
-| Lapkričio 23 d. savaitė | Nėra naujinimų |
-| Gruodžio 14 d. savaitė | Tik smulkūs naujinimai |
-| Gruodžio 21 d. savaitė | Nėra naujinimų |
-| Gruodžio 28 d. savaitė | Nėra naujinimų |
+- Lapkričio mėn. leidimas: lapkričio 2 d. – lapkričio 13 d.
+- Gruodžio mėn. leidimas: lapkričio 30 d. – gruodžio 11 d.
+ 
+Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2021 m. sausio 11 d.
 
 ## <a name="communications"></a>Kontaktai
 

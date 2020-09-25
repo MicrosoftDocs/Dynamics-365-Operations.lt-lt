@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 415e8268c504487f2b66afc2ac9a50de1b538911
-ms.sourcegitcommit: a8201e0b9033c2afc2b1702b0337facaf7ad4b92
+ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "3628914"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759940"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Produktų ir klientų paieška elektroniniame kasos aparate (EKA)
 
@@ -93,7 +93,7 @@ Atliekant nuotolinę klientų iešką, kitų juridinių subjektų klientų ID ne
 
 ### <a name="enhancements-to-local-customer-search"></a>Vietinių klientų ieškos patobulinimai
 
-Ieška pagal telefono numerį supaprastinta. Atliekant tokią iešką dabar ignoruojami specialieji simboliai, pvz., tarpai, brūkšneliai ir skliausteliai, kurie galėjo būti pridėti sukūrus klientą. Todėl informacijos ieškantiems kasininkams nereikia nerimauti dėl telefono numerio formato. Jie taip pat gali ieškoti klientų įvesdami dalinį telefono numerį. Jei telefono numeryje yra specialių simbolių, jį taip pat galima surasti ieškant skaitmenų, kurie pateikti po specialiųjų simbolių. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **123**, **456**, **7890** arba **1234567890**, arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
+Ieška pagal telefono numerį supaprastinta. Atliekant tokią iešką dabar ignoruojami specialieji simboliai, pvz., tarpai, brūkšneliai ir skliausteliai, kurie galėjo būti pridėti sukūrus klientą. Todėl informacijos ieškantiems kasininkams nereikia nerimauti dėl telefono numerio formato. Pavyzdžiui, jei kliento telefono numeris buvo įvestas kaip **123-456-7890**, kasininkas kliento gali ieškoti įvesdamas **1234567890** arba įvesdamas pirmuosius keletą telefono numerio skaitmenų.
 
 > [!NOTE]
 > Klientas gali turėti daugybę telefono numerių ir elektroninio pašto adresų. Kliento paieškos algoritmas taip pat ieško šiuose antriniuose elektroniniuose paštuose ir telefono numeriuose, tačiau kliento paieškos rezultatų puslapis tik rodo pirminį elektroninį paštą ir telefono numerį. Tai gali sukelti tam tikrą sąmyšį, nes grįžę kliento rezultatai nerodys ieškoto elektroninio pašto ar telefono numerio. Ateities leidimuose planuojame pagerinti kliento ieškos rezultatų ekraną, kad jis rodytų šią informaciją.

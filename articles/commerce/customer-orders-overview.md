@@ -1,12 +1,12 @@
 ---
-title: Klientų užsakymai naudojant „Modern POS“ (MPOS)
-description: Šioje temoje pateikiama informacija apie klientų užsakymus naudojant „Modern POS“ (MPOS). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
+title: Kliento užsakymai elektroniniame kasos aparate (EKA)
+description: Šioje temoje pateikta informacija apie kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
 author: josaw1
 manager: AnnBe
-ms.date: 08/17/2020
+ms.date: 09/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
+ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,90 +18,154 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a6fdc7b8d7ad65c9e4bf1d3b932b62918dea6e77
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.dyn365.ops.version: Release 10.0.14
+ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
+ms.sourcegitcommit: 30e4dc0a45f7de5f0a7178b1e88f7c3d61a7395e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710264"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763706"
 ---
-# <a name="customer-orders-in-modern-pos-mpos"></a>Klientų užsakymai naudojant „Modern POS“ (MPOS)
+# <a name="customer-orders-in-point-of-sale-pos"></a>Kliento užsakymai elektroniniame kasos aparate (EKA)
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama informacija apie klientų užsakymus naudojant „Modern POS“ (MPOS). Kliento užsakymai dar vadinami specialiais užsakymais. Šioje temoje pateikta susijusių parametrų ir operacijų srautų apžvalga.
+Šioje temoje pateikta informacija apie tai, kaip kurti ir valdyti kliento užsakymus elektroniniame kasos aparate (EKA). Kliento užsakymai gali būti naudojami pardavimams užfiksuoti, kai pirkėjai nori pasiimti produktus vėliau, pasiimti produktus iš kitos vietos arba kad prekės jiems būtų atsiųstos. 
 
 Integruotų kanalų prekyboje dauguma pardavėjų suteikia galimybę kurti klientų užsakymus (arba specialius užsakymus) įvairiems produktų ir vykdymo reikalavimams įvykdyti. Toliau nurodomi įprasti scenarijai.
 
 - Klientas nori, kad produktai būtų pristatyti konkrečią dieną konkrečiu adresu.
 - Klientas nori atsiimti produktus parduotuvėje arba vietoje, kuri nėra parduotuvė arba vieta, kurioje klientas tuos produktus nusipirko.
-- Klientas nori, kad kas nors kitas paimtų jo nupirktus produktus.
+- Parduotuvėje esantis klientas nori užsisakyti produktus šiandien ir vėliau juos paimti iš tos pačios parduotuvės.
 
 Pardavėjai taip pat naudoja kliento užsakymus, norėdami sumažinti prarasto pardavimo kiekius, kuriuos gali lemti atsargų stygius, kadangi prekes galima pristatyti arba atsiimti kitu laiku arba kitoje vietoje.
 
 ## <a name="set-up-customer-orders"></a>Kliento užsakymų nustatymas
+Prieš pradėdami naudoti kliento užsakymų funkciją EKA, įsitikinkite, kad atlikote visas būtinas konfigūracijas „Commerce Headquarters“.
 
-Toliau pateikiama keletas parametrų, kuriuos galima nustatyti puslapyje **Prekybos parametrai** ir kurie nurodo, kaip kliento užsakymai yra vykdomi.
+### <a name="configure-modes-of-delivery"></a>Pristatymo būdų konfigūravimas
 
-- **Numatytasis depozito procentas** – nurodykite sumą, kurią klientas turi sumokėti kaip depozitą prieš patvirtinant užsakymą. Numatytoji depozito suma apskaičiuojama kaip užsakymo vertės procentas. Atsižvelgiant į teises, parduotuvės atstovas gali perrašyti sumą naudodamas parinktį **Depozito perrašymas**.
-- **Atšaukimo mokesčio procentais** – jei atšaukiant kliento užsakymą taikomas mokestis, nurodykite to mokesčio sumą.
-- **Atšaukimo mokesčio kodas** – jei atšaukiant kliento užsakymą taikomas mokestis, tas mokestis bus nurodytas pardavimo užsakymo išlaidų kode. Naudokite šį parametrą, kad nurodytumėte atšaukimo mokesčio kodą.
-- **Siuntimo mokesčio kodas** – pardavėjai gali taikyti papildomą mokestį už prekių siuntimą klientui. To siuntimo mokesčio suma bus nurodyta pardavimo užsakymo išlaidų kode. Naudokite šį parametrą, kad siuntimo mokesčio kodą susietumėte su siuntimo išlaidomis kliento užsakyme.
-- **Grąžinti siuntimo išlaidas** – nurodykite, ar siuntimo išlaidos, susietos su kliento užsakymų, yra grąžinamos.
-- **Maksimali suma, kuriai nereikia gauti patvirtinimo** – jei siuntimo išlaidos yra grąžinamos, nurodykite didžiausią visų grąžinimo užsakymų siuntimo išlaidų grąžinimo sumą. Jei ši suma viršijama, vadovas turi ją perrašyti, kad būtų galima tęsti grąžinimo operaciją. Toliau nurodytais scenarijais siuntimo išlaidų grąžinimo suma gali viršyti anksčiau sumokėtą sumą.
+Norėdami naudoti kliento užsakymus, turite sukonfigūruoti pristatymo būdus, kuriuos gali naudoti parduotuvės kanalas. Turite apibrėžti bent vieną pristatymo būdą, kurį galima naudoti, kai užsakymo eilutės siunčiamos klientui iš parduotuvės. Taip pat turite apibrėžti bent vieną pristatymo paėmimo būdą, kurį galima naudoti, kai užsakymo eilutės paimamos iš parduotuvės. Pristatymo būdai apibrėžiami „Commerce Headquarters“ puslapyje **Pristatymo būdai**. Daugiau informacijos apie tai, kaip nustatyti „Commerce“ kanalų pristatymo būdus, žr. [Pristatymo būdų apibrėžimas](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
 
-    - Išlaidos taikomos pardavimo užsakymo antraštės lygyje ir, kai tam tikras produkto eilutės kiekis yra grąžinamas, didžiausios leidžiamos produktų ir kiekio siuntimo išlaidų grąžinimo sumos negalima nustatyti tokiu būdu, kuris tiktų visiems klientams.
-    - Siuntimo išlaidos patiriamos kiekvieną kartą siunčiant prekes. Jei klientas kelis kartus grąžina produktus, o pardavėjo strategijoje nurodyta, kad pardavėjas padengs grąžinimo siuntimo išlaidų sumą, grąžinimo siuntimo išlaidų suma bus didesnė nei faktinės siuntimo išlaidos.
-    
+![Puslapis pristatymo būdai](media/customer-order-modes-of-delivery.png)
 
-## <a name="disable-option-to-pay-later"></a>Išjungti pasirinktį „mokėti vėliau”
 
-„Commerce” versijoje 10.0.12 ir vėlesnėje, prekybininkai gali pašalinti pasirinktį „mokėti vėliau”, kai yra sukurtas kliento užsakymas EKA. Norėdami išjungti pasirinktį, atsidarykite **Funkcijų šabloną** kanalui, kur mokėjimas vėliau neleidžiamas, o tada pasirinkite **Redaguoti**. Skirtuke **Bendra** iš išplečiamojo sąrašo pasirinkite **Reikalauti mokėjimo įvykdymo**. Jeigu mokėjimas vėliau negali būti leistinas EKA, pasirinkite **Reikiama kortelė** ir pasirinkite **Išsaugoti**. Paleiskite **1070** paskirstymo grafiką, kad sinchronizuotumėte šį pakeitimą kanale. 
+### <a name="set-up-fulfillment-groups"></a>Įvykdymo grupių nustatymas
 
-## <a name="transaction-flow-for-customer-orders"></a>Kliento užsakymų operacijų srautas
+Kai kurios parduotuvės ar sandėlių vietos gali neįvykdyti klientų užsakymų. Konfigūruodama įvykdymo grupes, organizacija gali nurodyti, kurios parduotuvės ir sandėlio vietos rodomos kaip parinktys vartotojams, kuriantiems kliento užsakymus EKA. Įvykdymo grupės konfigūruojamos puslapyje **Įvykdymo grupės**. Organizacijos gali sukurti tiek įvykdymo grupių, kiek joms reikia. Apibrėžus įvykdymo grupę, ji susiejama su parduotuve naudojant mygtuką puslapio **Parduotuvės** veiksmų srities skirtuke **Nustatymas**.
 
-### <a name="create-a-customer-order-in-modern-pos"></a>Kliento užsakymo kūrimas naudojant „Modern POS“
+„Commerce” versijoje 10.0.14 ir vėlesnėje organizacijos gali nurodyti, ar sandėlio arba sandėlio / parduotuvės deriniai, apibrėžti įvykdymo grupėse, gali būti naudojami siuntimui, paėmimui, ar ir siuntimui, ir paėmimui. Todėl parduotuvė turi papildomo lankstumo valdydama sandėlio ir parduotuvės parinktis, rodomas vartotojams, kuriantiems paėmimo užsakymą, o ne siuntimo užsakymą. Norėdami pasinaudoti šiomis konfigūravimo parinktimis, turite įjungti funkciją **Galimybė nurodyti vietas kaip „Siuntimas“ arba „Paėmimas“, įjungta įvykdymo grupėje**. Jei sandėlis, susietas su įvykdymo grupe, nėra parduotuvė, jį galima sukonfigūruoti tik kaip siuntimo vietą. Jo negalima naudoti, kai paėmimo užsakymai yra sukonfigūruoti EKA.
 
-1. Įtraukite į operaciją klientą.
+![Puslapis Įvykdymo grupės](media/customer-order-fulfillment-group.png)
+
+### <a name="configure-channel-settings"></a>Kanalo parametrų konfigūravimas
+
+Kai dirbate su kliento užsakymais EKA, turite atsižvelgti į kai kuriuos parduotuvės kanalo parametrus. Šiuos parametrus galima rasti „Commerce Headquarters“ puslapyje **Parduotuvės**.
+
+- **Sandėlis** – šiame lauke nurodomas sandėlis, naudojamas užsakymams, sukonfigūruotiems siuntimui iš parduotuvės, įvykdyti.
+- **Įvykdymo grupės priskyrimas** – pasirinkite šį mygtuką (veiksmų srities skirtuke **Nustatymas**), norėdami susieti įvykdymo grupes, kuriomis nurodomos paėmimo vietų ar siuntimo kilmės parinktys, kai klientų užsakymai sukurti EKA.
+- **Naudoti paskirties vietos mokesčius** – ši parinktis nurodo, ar siuntimo adresas naudojamas mokesčių grupei, taikomai užsakymo eilutėms, siunčiamoms kliento adresu, nustatyti.
+- **Naudoti kliento mokesčius** – ši parinktis nurodo, ar mokesčių grupė, apibrėžta kliento pristatymo adresui, naudojama apmokestinti klientų užsakymus, sukurtus EKA, siuntimui į kliento namus.
+
+![Parduotuvės kanalo nustatymas puslapyje Parduotuvės](media/customer-order-all-stores.png)
+
+### <a name="set-up-customer-order-parameters"></a>Kliento užsakymo parametrų nustatymas
+
+Prieš pradėdami kurti kliento užsakymus EKA, turite sukonfigūruoti tinkamus parametrus „Commerce Headquarters“. Šiuos parametrus galima rasti puslapio **„Commerce” parametrai** skirtuke **Kliento užsakymai**.
+
+- **Numatytasis užsakymo tipas** – galite nurodyti užsakymo tipą, kuris pagal numatytuosius nustatymus priskiriamas klientų užsakymams, sukurtiems EKA. Šie klientų užsakymai gali būti pardavimo arba pasiūlymo užsakymai. Nepaisant numatytojo užsakymo tipo, vartotojai vis tiek gali kurti pardavimo ir kliento užsakymus EKA.
+- **Numatytasis įmokos procentas** – nurodykite visos užsakymo sumos procentą, kurį klientas turi sumokėti kaip įmoką, kad būtų galima patvirtinti užsakymą. Priklausomai nuo parduotuvės partnerių teisių, jie gali pakeisti sumą naudodami operaciją **Įmokos keitimas** EKA, jei ši operacija sukonfigūruota operacijos ekrano išdėstymui.
+- **Paėmimo pristatymo būdas** – nurodykite pristatymo būdą, kuris turėtų būti taikomas pardavimo užsakymų eilutėms, sukonfigūruotoms paėmimui EKA.
+- **Išsivežimo pristatymo būdas** – nurodykite pristatymo būdą, kuris turėtų būti taikomas pardavimo užsakymų eilutėms, kurios laikomos išsivežimo užsakymo eilutėmis, kai sukuriamas mišrus krepšelis, kuriame kai kurios eilutės bus paimtos ar išsiųstos, o kitas eilutes klientas išsiveš nedelsdamas.
+- **Atšaukimo mokesčio procentas** – jei atšaukus kliento užsakymą turėtų būti taikomas mokestis, nurodykite to mokesčio sumą.
+- **Atšaukimo mokesčio kodas** – nurodykite gautinų sumų mokesčio kodą, kuris turėtų būti naudojamas, kai atšauktiems kliento užsakymams EKA taikomas atšaukimo mokestis. Mokesčio kodas apibrėžia atšaukimo mokesčio finansų registravimo logiką.
+- **Siuntimo mokesčio kodas** – jei parinktis **Naudoti išplėstinius automatinius mokesčius** nustatyta į **Taip**, šis parametro nustatymas neturi jokios įtakos. Jei parinktis nustatyta į **Ne**, vartotojai bus raginami rankiniu būdu įvesti siuntimo mokestį, kai jie sukurs kliento užsakymus EKA. Naudokite šį parametrą norėdami susieti gautinų sumų mokesčio kodą, kuris bus taikomas užsakymams, kai vartotojai įves siuntimo mokestį. Mokesčio kodas apibrėžia siuntimo mokesčio finansų registravimo logiką.
+- **Naudoti išplėstinius automatinius mokesčius** – nustatykite šią parinktį į **Taip**, norėdami naudoti sistemos apskaičiuotus automatinius mokesčius, kai klientų užsakymai kuriami EKA. Šie automatiniai mokesčiai gali būti naudojami apskaičiuojant siuntimo mokesčius ar kitus užsakymo ar prekės mokesčius. Norėdami gauti daugiau informacijos apie tai, kaip nustatyti ir naudoti išplėstinius automatinius mokesčius, žr. [Daugiakanaliai išplėstiniai automatiniai mokesčiai](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+
+![Skirtukas Kliento užsakymai „Commerce” parametrų puslapyje](media/customer-order-parameters.png)
+
+### <a name="update-transaction-screen-layouts-in-pos"></a>Operacijų ekrano išdėstymo EKA naujinimas
+
+Įsitikinkite, kad EKA [ekrano išdėstymas](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) sukonfigūruotas palaikyti klientų užsakymų kūrimą bei valdymą ir kad visos reikalingos EKA operacijos yra sukonfigūruotos. Toliau nurodytos kelios EKA operacijos, rekomenduojamos siekiant tinkamai palaikyti klientų užsakymų kūrimą ir valdymą.
+- **Siųsti visus produktus** – ši operacija naudojama norint nurodyti, kad visos operacijos krepšelio eilutės bus išsiųstos į paskirties vietą.
+- **Siųsti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktos operacijos krepšelio eilutės bus išsiųstos į paskirties vietą.
+- **Paimti visus produktus** – ši operacija naudojama norint nurodyti, kad visos operacijos krepšelio eilutės bus paimtos iš pasirinktos parduotuvės.
+- **Paimti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktos operacijos krepšelio eilutės bus paimtos iš pasirinktos parduotuvės.
+- **Išsivežti visus produktus** – ši operacija naudojama norint nurodyti, kad visos operacijos krepšelio eilutės bus išsivežtos. Jei ši operacija naudojama EKA, kliento užsakymas bus konvertuotas į atsiskaitymo grynaisiais ir išsivežimo operaciją.
+- **Išsivežti pasirinktus produktus** – ši operacija naudojama norint nurodyti, kad pasirinktas operacijos krepšelio eilutes klientas išsiveš pirkimo metu. Ši operacija naudinga tik [mišraus užsakymo](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders) atveju.
+- **Atšaukti užsakymą** – ši operacija naudojama klientų užsakymams ieškoti ir gauti, kad EKA vartotojai galėtų redaguoti, atšaukti ar atlikti su jais susijusias operacijas pagal poreikį.
+- **Keisti pristatymo būdą** – ši operacija gali būti naudojama norint greitai pakeisti eilučių, kurios jau sukonfigūruotos siuntimui, pristatymo būdą, nereikalaujant, kad vartotojai vėl pereitų srautus „Siųsti visus produktus“ arba „Siųsti pasirinktus produktus“.
+- **Įmokos keitimas** – šią operaciją galima naudoti norint pakeisti įmokos sumą, kurią klientas sumokės už pasirinktą kliento užsakymą.
+
+![Operacijos EKA operacijų ekrane](media/customer-order-screen-layout.png)
+
+## <a name="working-with-customer-orders-in-pos"></a>Darbas su klientų užsakymais EKA
+
+### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Kliento užsakymo kūrimas produktams, kurie bus išsiųsti klientui
+
+1. EKA operacijų ekrane įtraukite klientą į operaciją.
 2. Įtraukite produktų į krepšelį.
-3. Spustelėkite **Kurti kliento užsakymą** ir tada pasirinkite užsakymo tipą. Užsakymo tipas gali būti **Kliento užsakymas** arba **Pasiūlymas**.
-4. Spustelėkite **Siųsti pasirinktus** arba **Siųsti viską**, norėdami siųsti produktus kliento sąskaitoje nurodytu adresu, nurodykite pageidaujamą siuntimą datą ir siuntimo išlaidas.
-5. Spustelėkite **Paimti pasirinktus** arba **Paimti viską**, norėdami pasirinkti produktus, kurie nurodytą dieną bus paimti iš dabartinės parduotuvės arba kitos parduotuvės.
-6. Surinkite depozito sumą, jei depozitas reikalingas.
+3. Pasirinkite **Siųsti pasirinktus** arba **Siųsti visus**, norėdami išsiųsti produktus kliento abonemente nurodytu adresu.
+4. Šią parinktį pasirinkite, norėdami sukurti kliento užsakymą.
+5. Patvirtinkite arba pakeiskite „Siųsti iš“ vietą, siuntimo adresą ir pasirinkite siuntimo būdą.
+6. Įveskite kliento pageidaujamą užsakymo siuntimo datą.
+7. Naudokite mokėjimo funkcijas, kad sumokėtumėte visas apskaičiuotas mokėtinas sumas, arba naudokite operaciją **Įmokos keitimas**, norėdami pakeisti mokėtinas sumas, tada taikykite mokėjimą.
+8. Jei visa užsakymo suma nebuvo sumokėta, įveskite kredito kortelę, kuri bus naudojama užfiksuoti mokėtinam užsakymo balansui, kai pateikiama sąskaita faktūra.
+
+### <a name="create-a-customer-order-for-products-that-the-customer-will-pick-up"></a>Kliento užsakymo kūrimas produktams, kuriuos klientas pasiims
+
+1. EKA operacijų ekrane įtraukite klientą į operaciją.
+2. Įtraukite produktų į krepšelį.
+3. Pasirinkite **Paimti pasirinktus** arba **Paimti visus**, norėdami inicijuoti užsakymo paėmimo konfigūraciją.
+4. Pasirinkite parduotuvės vietą, kur klientas paims pasirinktus produktus.
+5. Pasirinkite paėmimo datą.
+6. Naudokite mokėjimo funkcijas, kad sumokėtumėte visas apskaičiuotas mokėtinas sumas, arba naudokite operaciją **Įmokos keitimas**, norėdami pakeisti mokėtinas sumas, tada taikykite mokėjimą.
+7. Jei visa užsakymo suma nebuvo sumokėta, pasirinkite, ar klientas mokėjimą pateiks vėliau (paėmimo metu), ar kredito kortelė bus nurodyta dabar, o tada naudojama fiksavimui paėmimo metu.
 
 ### <a name="edit-an-existing-customer-order"></a>Esamo kliento užsakymo redagavimas
 
-1. Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
-2. Raskite ir pasirinkite užsakymą, kurį norite redaguoti. Puslapio apačioje spustelėkite **Redaguoti**.
+Mažmeninės prekybos užsakymus, sukurtus internetiniame arba parduotuvės kanale, galima atšaukti ir redaguoti naudojant EKA, jei reikia.
 
-### <a name="pick-up-an-order"></a>Užsakymo paėmimas
+> [!IMPORTANT]
+> Užsakymų, sukurtų skambučių centro kanale, negalima redaguoti naudojant EKA, jei parametras [Įjungti užsakymų užbaigimą](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) įjungtas skambučių centro kanalui. Norint užtikrinti teisingą mokėjimų apdorojimą, užsakymus, gautus iš skambučių centro kanalo ir naudojančius funkciją Įjungti užsakymų užbaigimą, reikia redaguoti naudojant skambučių centro programą, esančią „Commerce Headquarters“.
 
-1. Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
-2. Pasirinkite paimtiną užsakymą. Puslapio apačioje spustelėkite **Paėmimas ir pakavimas**.
-3. Spustelėkite **Paimti**.
+„Commerce” versijoje 10.0.13 ir ankstesnėje vartotojai gali redaguoti palaikomus klientų užsakymus naudodami EKA tik tada, jei užsakymai yra visiškai atidaryti. Jei kuri nors užsakymo eilutė jau buvo apdorota iki įvykdymo (paėmimo, pakavimo ir pan.), užsakymas užrakinamas redagavimui EKA.
 
-### <a name="cancel-an-order"></a>Užsakymo atšaukimas
+> [!NOTE]
+> „Commerce” versijos 10.0.14 [viešojoje peržiūroje](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) išleista funkcija leidžia EKA vartotojams redaguoti klientų užsakymus naudojant EKA, net jei dalis užsakymo jau įvykdyta. Tačiau užsakymų, kurių visos SF išrašytos, vis tiek negalima redaguoti naudojant EKA. Norėdami patikrinti šią peržiūros funkciją ir pateikti papildomų atsiliepimų, įjunkite funkciją **(Peržiūra) Redaguoti dalinai įgyvendintus užsakymus elektroniniame kasos aparate** darbo srityje **Funkcijų valdymas**. Klientų užsakymai, gauti iš skambučių centro kanalo ir naudojantys funkciją Įjungti užsakymų užbaigimą, negali būti redaguojami net ir įgalinus šią funkciją.
 
-1. Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
-2. Pasirinkite atšauktiną užsakymą. Puslapio apačioje spustelėkite **Atšaukti**.
+1. Pažymėkite **Atšaukti užsakymą**.
+2. Naudokite **Ieška**, norėdami įvesti filtrus ir rasti užsakymą, tada pasirinkite **Taikyti**.
+3. Rezultatų sąraše pažymėkite užsakymą, tada pasirinkite **Redaguoti**. Jei mygtukas **Redaguoti** nepasiekiamas, užsakymas yra būsenos, kurios negalima redaguoti.
+4. Operacijų krepšelyje atlikite visus būtinus kliento užsakymo pakeitimus. Kai kurie pakeitimai gali būti draudžiami redagavimo metu.
+5. Užbaikite redagavimo procesą pasirinkdami mokėjimo operaciją.
+6. Norėdami išeiti iš redagavimo proceso neišsaugodami pakeitimų, galite naudoti operaciją **Anuliavimo operacija**.
 
-### <a name="create-a-return-order"></a>Grąžinimo užsakymo kūrimas
 
-1. Pagrindiniame puslapyje spustelėkite **Rasti užsakymą**.
-2. Pasirinkite grąžintiną užsakymą, pasirinkite užsakymo SF ir tada pasirinkite grąžintinų prekių produkto eilutę.
-3. Puslapio apačioje spustelėkite **Grąžinimo užsakymas**.
+
+### <a name="cancel-a-customer-order"></a>Kliento užsakymo atšaukimas
+
+1. Pažymėkite **Atšaukti užsakymą**.
+2. Naudokite **Ieška**, norėdami įvesti filtrus ir rasti užsakymą, tada pasirinkite **Taikyti**.
+3. Rezultatų sąraše pažymėkite užsakymą, tada pasirinkite **Atšaukti**. Jei mygtukas **Atšaukti** nepasiekiamas, užsakymas yra būsenos, kurios nebegalima atšaukti.
+4. Jei sukonfigūruoti atšaukimo mokesčiai, patvirtinkite juos. Prieš patvirtindami, galite pakoreguoti atšaukimo mokesčius pagal poreikį. 
+5. Operacijų krepšelyje užbaikite atšaukimo procesą pasirinkdami mokėjimo operaciją. Jei sumokėtos įmokos viršija atšaukimo mokestį, gali būti sumokėti grąžinimo mokėjimai.
+6. Norėdami išeiti iš atšaukimo proceso neišsaugodami pakeitimų, galite naudoti operaciją **Anuliavimo operacija**.
+
+## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Kliento užsakymo siuntimo ar paėmimo EKA užbaigimas
+
+Sukūrus užsakymą, prekes klientas paims iš parduotuvės arba jos bus išsiųstos, atsižvelgiant į užsakymo konfigūraciją. Daugiau informacijos apie šį procesą žr. dokumentaciją [Parduotuvės užsakymo įvykdymas](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Kliento užsakymų asinchroninių operacijų srautas
 
-Klientų užsakymus galima kurti iš elektroninio kasos aparato (EKA) kliento sinchroniniu arba asinchroniniu režimu.
+Klientų užsakymus galima kurti EKA sinchroniniu arba asinchroniniu režimu. Jei kurdami klientų užsakymus EKA pastebite našumo problemų ar vartotojų uždelsimų, apsvarstykite galimybę įjungti asinchroninį užsakymų kūrimą.
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Kliento užsakymų kūrimo asinchroniniu režimu funkcijos įjungimas
 
-1. Spustelėkite **Mažmeninė prekyba ir prekyba** &gt; **Kanalo sąranka** &gt; **EKA sąranka** &gt; **EKA šablonas** &gt; **Funkcijų šablonai**.
+1. „Commerce Headquarters“ puslapyje **Funkcijų profiliai** pasirinkite funkcijos profilį, atitinkantį norimą sukonfigūruoti parduotuvę.
 2. „FastTab“ **Bendra** nustatykite parinktį **Kurti kliento užsakymą asinchroniniu režimu** į **Taip**.
 
-Kai parinktis **Kurti kliento užsakymą asinchroniniu režimu** nustatyta į **Taip**, kliento užsakymai visada kuriami asinchroniniu režimu, net jei galima naudoti „Retail Transaction Service“ (RTS). Jei šią parinktį nustatysite į **Ne**, kliento užsakymai bus visada kuriami sinchroniniu režimu naudojant RTS. Kai kliento užsakymai kuriami asinchroniniu režimu, jie perkeliami ir įterpiami į „Commerce“ naudojant perkėlimo (P) užduotis. Atitinkami pardavimo užsakymai sukuriami, kai parinktis **Sinchronizuoti užsakymus** paleidžiama neautomatiškai arba paketinio vykdymo metu.
+Kai parinktis **Kurti kliento užsakymą asinchroniniu režimu** nustatyta į **Taip**, kliento užsakymai visada kuriami asinchroniniu režimu, net jei galima naudoti „Retail Transaction Service“ (RTS). Jei šią parinktį nustatysite į **Ne**, kliento užsakymai bus visada kuriami sinchroniniu režimu naudojant RTS. Kai klientų užsakymai kuriami asinchroniniu režimu, jie įtraukiami ir kuriami kaip mažmeninės prekybos operacijos „Commerce Headquarters“ iš „Commerce“ įtraukimo (P) užduočių. Atitinkami mažmeninės prekybos operacijų pardavimo užsakymai sukuriami, kai funkcija **Sinchronizuoti užsakymus** vykdoma rankiniu būdu arba paketinio proceso metu.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

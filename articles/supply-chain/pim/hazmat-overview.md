@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 227111f4703d9dc381270382dcb796874d7de937
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699641"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802754"
 ---
 # <a name="hazardous-materials-overview"></a>Pavojingų medžiagų apžvalga
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Jog atitiktų siuntimo ir transportavimo nuostatas, organizacijos, siunčiančios medžiagas, klasifikuojamas kaip pavojingos prekės, į savo siuntas privalo įtraukti papildomus popierinius dokumentus. Pavojingų medžiagų funkcija leidžia klientams saugoti informaciją, susijusią su paleistomis prekėmis. Ši informacija gali būti naudojama ruošiant siuntimo dokumentus. Organizacija, siunčianti pavojingas prekes, privalo turėti savo siuntimo proceso valdymo procesus ir procedūras. „Microsoft Dynamics 365 Supply Chain Management” yra tik įrankis, galintis padėti generuoti reikalingus dokumentus.
 
@@ -47,8 +48,8 @@ Produkto informacijos valdymas pateikia nustatymo lentelių diapazoną, kuriame 
 Į šias bendrąsias nuostatas buvo atsižvelgta kuriant šią funkciją:
 
 - **ADR** – nuostatos, susijusios su tarptautiniu pavojingų krovinių vežimu keliais
-- **CFR 49** – pavojingų prekių gabenimo Jungtinėse Valstijose nuostatos
-- **IMDG** – Tarptautinis pavojingų krovinių vežimo jūra (IMDG) kodeksas
+- **CFR 49** – pavojingų krovinių gabenimo Jungtinėse Valstijose nuostatos
+- **IMDG** – Tarptautinis jūra gabenamų pavojingų krovinių (IMDG) kodeksas
 - **IATA** – Tarptautinės oro transporto asociacijos (IATA) pavojingų prekių gabenimo nuostatos
 
 Kiekvienas nuostatų rinkinys pateikia standartizuotus pavojingų prekių sąrašus ir nuorodų kodus. Taigi, Supply Chain Management pateikia tų sąrašų bendrųjų kodų nuorodų lentelę. Kiekvienas sąrašas turi kelius unikalius kodus, kuriuos Jūs galite apibrėžti.

@@ -3,7 +3,7 @@ title: Atostogų ir neatvykimų plano kūrimas
 description: Atostogų planų, skirtų skirtingoms atostogų rūšims, kūrimas programoje „Dynamics 365 Human Resources“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/01/2020
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 75a70c5784e7032cfebbe58c1d173923a3023507
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: cb42860292c5e3e654917cf2f62b525993aa795a
+ms.sourcegitcommit: 1edd3d4642f8fdc801b43b981b7c1a1c36ae0645
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428714"
+ms.lasthandoff: 09/11/2020
+ms.locfileid: "3796502"
 ---
 # <a name="create-a-leave-and-absence-plan"></a>Atostogų ir neatvykimų plano kūrimas
 
@@ -43,7 +43,15 @@ Taip pat galite kurti pareigomis grindžiamas atostogų išmokas, pvz., tik vado
 
 2. Dalyje **Išsami informacija**, įveskite plano **pavadinimą**, **pradžios datą**, **aprašą** ir **atostogų tipą**.
 
-Jei funkcija **Konfigūruoti kelis atostogų tipus, skirtus vienam atostogų ir neatvykimų planui** įjungta, atostogų tipai bus konfigūruojami skirtuke **Kaupimo grafikas**, o ne dalyje **Išsami informacija**. Galite nustatyti atostogų tipą kiekvienam kaupimo grafiko lentelės įrašui.
+Jei funkcija **Konfigūruoti kelis atostogų tipus, skirtus vienam atostogų ir neatvykimų planui** įjungta, atostogų tipai bus konfigūruojami skirtuke **Kaupimo grafikas**, o ne dalyje **Išsami informacija**. Galite nustatyti atostogų tipą kiekvienam kaupimo grafiko lentelės įrašui. Be to, kai ši funkcija įjungta, reikia naudoti naujus duomenų objektus, skirtus integravimams ar kitiems scenarijams, kai reikia naudoti objektus. 
+
+Naujieji objektai:
+
+- Atostogų ir neatvykimo banko operacija V2
+- Atostogų ir neatvykimų registracijos V2
+- Atostogų ir neatvykimų plano pakopos V2
+- Atostogų ir neatvykimų plano V2
+- Prašymo išleisti iš darbo prašymas V2
 
  > [!IMPORTANT]
    > Įgalinę šią funkciją, negalėsite jos išjungti.
