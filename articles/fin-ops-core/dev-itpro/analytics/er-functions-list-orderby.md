@@ -18,53 +18,53 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a6b5cddc325625dc5b3d677ffcc1da1f8b829cd
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 6ff280d66fd2c418984f2d7fd31a32609932e89c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041957"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745014"
 ---
-# <span data-ttu-id="4bd1e-103"><a name="ORDERBY">ER ORDERBY funkcija</a></span><span class="sxs-lookup"><span data-stu-id="4bd1e-103"><a name="ORDERBY">ORDERBY ER function</a></span></span>
+# <a name="orderby-er-function"></a><span data-ttu-id="f9e00-103">ER ORDERBY funkcija</span><span class="sxs-lookup"><span data-stu-id="f9e00-103">ORDERBY ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4bd1e-104">`ORDERBY` funkcija nurodytą sąrašą pateikia kaip tipo *Įrašų sąrašas* reikšmę, jį surikiavus pagal nurodytus argumentus.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-104">The `ORDERBY` function returns the specified list as a *Record list* value after it has been sorted according to the specified arguments.</span></span> <span data-ttu-id="4bd1e-105">Šiuos argumentus galima apibrėžti kaip išraiškas.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-105">These arguments can be defined as expressions.</span></span>
+<span data-ttu-id="f9e00-104">`ORDERBY` funkcija nurodytą sąrašą pateikia kaip tipo *Įrašų sąrašas* reikšmę, jį surikiavus pagal nurodytus argumentus.</span><span class="sxs-lookup"><span data-stu-id="f9e00-104">The `ORDERBY` function returns the specified list as a *Record list* value after it has been sorted according to the specified arguments.</span></span> <span data-ttu-id="f9e00-105">Šiuos argumentus galima apibrėžti kaip išraiškas.</span><span class="sxs-lookup"><span data-stu-id="f9e00-105">These arguments can be defined as expressions.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4bd1e-106">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="4bd1e-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f9e00-106">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="f9e00-106">Syntax</span></span>
 
 ```vb
 ORDERBY (list , expression 1[, expression 2, …, expression N])
 ```
 
-## <a name="arguments"></a><span data-ttu-id="4bd1e-107">Argumentai</span><span class="sxs-lookup"><span data-stu-id="4bd1e-107">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="f9e00-107">Argumentai</span><span class="sxs-lookup"><span data-stu-id="f9e00-107">Arguments</span></span>
 
-<span data-ttu-id="4bd1e-108">`list`: *Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="4bd1e-108">`list`: *Record list*</span></span>
+<span data-ttu-id="f9e00-108">`list`: *Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="f9e00-108">`list`: *Record list*</span></span>
 
-<span data-ttu-id="4bd1e-109">Tinkamas *Įrašų sąrašo* duomenų tipo duomenų šaltinio elemento maršrutas.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-109">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="f9e00-109">Tinkamas *Įrašų sąrašo* duomenų tipo duomenų šaltinio elemento maršrutas.</span><span class="sxs-lookup"><span data-stu-id="f9e00-109">The valid path of a data source of the *Record list* data type.</span></span>
 
-<span data-ttu-id="4bd1e-110">`expression 1`: *Laukas*</span><span class="sxs-lookup"><span data-stu-id="4bd1e-110">`expression 1`: *Field*</span></span>
+<span data-ttu-id="f9e00-110">`expression 1`: *Laukas*</span><span class="sxs-lookup"><span data-stu-id="f9e00-110">`expression 1`: *Field*</span></span>
 
-<span data-ttu-id="4bd1e-111">Tinkamas duomenų šaltinio lauko kelias, kurį nurodo iškviestos funkcijos `list` argumentas.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-111">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="4bd1e-112">Nurodytas laukas turi būti primityviojo duomenų tipo.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-112">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="4bd1e-113">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-113">This argument is required.</span></span>
+<span data-ttu-id="f9e00-111">Tinkamas duomenų šaltinio lauko kelias, kurį nurodo iškviestos funkcijos `list` argumentas.</span><span class="sxs-lookup"><span data-stu-id="f9e00-111">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="f9e00-112">Nurodytas laukas turi būti primityviojo duomenų tipo.</span><span class="sxs-lookup"><span data-stu-id="f9e00-112">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="f9e00-113">Šis argumentas yra būtinas.</span><span class="sxs-lookup"><span data-stu-id="f9e00-113">This argument is required.</span></span>
 
-<span data-ttu-id="4bd1e-114">`expression N`: *Laukas*</span><span class="sxs-lookup"><span data-stu-id="4bd1e-114">`expression N`: *Field*</span></span>
+<span data-ttu-id="f9e00-114">`expression N`: *Laukas*</span><span class="sxs-lookup"><span data-stu-id="f9e00-114">`expression N`: *Field*</span></span>
 
-<span data-ttu-id="4bd1e-115">Tinkamas duomenų šaltinio lauko kelias, kurį nurodo iškviestos funkcijos `list` argumentas.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-115">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="4bd1e-116">Nurodytas laukas turi būti primityviojo duomenų tipo.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-116">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="4bd1e-117">Šie papildomi argumentai yra pasirinktiniai.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-117">These additional arguments are optional.</span></span>
+<span data-ttu-id="f9e00-115">Tinkamas duomenų šaltinio lauko kelias, kurį nurodo iškviestos funkcijos `list` argumentas.</span><span class="sxs-lookup"><span data-stu-id="f9e00-115">The valid path of a field of the data source that is referenced by the `list` argument of the called function.</span></span> <span data-ttu-id="f9e00-116">Nurodytas laukas turi būti primityviojo duomenų tipo.</span><span class="sxs-lookup"><span data-stu-id="f9e00-116">The referenced field must be a field of the primitive data type.</span></span> <span data-ttu-id="f9e00-117">Šie papildomi argumentai yra pasirinktiniai.</span><span class="sxs-lookup"><span data-stu-id="f9e00-117">These additional arguments are optional.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="4bd1e-118">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="4bd1e-118">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f9e00-118">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="f9e00-118">Return values</span></span>
 
-<span data-ttu-id="4bd1e-119">*Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="4bd1e-119">*Record list*</span></span>
+<span data-ttu-id="f9e00-119">*Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="f9e00-119">*Record list*</span></span>
 
-<span data-ttu-id="4bd1e-120">Gautas įrašų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-120">The resulting list of records.</span></span>
+<span data-ttu-id="f9e00-120">Gautas įrašų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="f9e00-120">The resulting list of records.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="4bd1e-121">1 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="4bd1e-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="f9e00-121">1 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="f9e00-121">Example 1</span></span>
 
-<span data-ttu-id="4bd1e-122">Jei įvedate tipo *Apskaičiuotasis laukas* duomenų šaltinį **DS** ir jame yra reiškinys `SPLIT ("C|B|A", "|")`, reiškinys `FIRST( ORDERBY( DS, DS. Value)).Value` pateikia teksto reikšmę **„A“**.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-122">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("C|B|A", "|")`, the expression `FIRST( ORDERBY( DS, DS. Value)).Value` returns the text value **"A"**.</span></span>
+<span data-ttu-id="f9e00-122">Jei įvedate tipo *Apskaičiuotasis laukas* duomenų šaltinį **DS** ir jame yra reiškinys `SPLIT ("C|B|A", "|")`, reiškinys `FIRST( ORDERBY( DS, DS. Value)).Value` pateikia teksto reikšmę **„A“**.</span><span class="sxs-lookup"><span data-stu-id="f9e00-122">If you enter data source **DS** of the *Calculated field* type, and it contains the expression `SPLIT ("C|B|A", "|")`, the expression `FIRST( ORDERBY( DS, DS. Value)).Value` returns the text value **"A"**.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="4bd1e-123">2 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="4bd1e-123">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="f9e00-123">2 pavyzdys</span><span class="sxs-lookup"><span data-stu-id="f9e00-123">Example 2</span></span>
 
-<span data-ttu-id="4bd1e-124">Jei **Tiekėjas** sukonfigūruotas kaip modulio Elektroninės ataskaitos (ER) duomenų šaltinis, nurodantis lentelę VendTable, reiškinys `ORDERBY (Vendors, Vendors.'name()')` pateikia tiekėjų sąrašą, surikiuotą pagal pavadinimą didėjančia tvarka.</span><span class="sxs-lookup"><span data-stu-id="4bd1e-124">If **Vendor** is configured as an Electronic reporting (ER) data source that refers to the VendTable table, the expression `ORDERBY (Vendors, Vendors.'name()')` returns a list of vendors that is sorted by name in ascending order.</span></span>
+<span data-ttu-id="f9e00-124">Jei **Tiekėjas** sukonfigūruotas kaip modulio Elektroninės ataskaitos (ER) duomenų šaltinis, nurodantis lentelę VendTable, reiškinys `ORDERBY (Vendors, Vendors.'name()')` pateikia tiekėjų sąrašą, surikiuotą pagal pavadinimą didėjančia tvarka.</span><span class="sxs-lookup"><span data-stu-id="f9e00-124">If **Vendor** is configured as an Electronic reporting (ER) data source that refers to the VendTable table, the expression `ORDERBY (Vendors, Vendors.'name()')` returns a list of vendors that is sorted by name in ascending order.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="4bd1e-125">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="4bd1e-125">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="f9e00-125">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="f9e00-125">Additional resources</span></span>
 
-[<span data-ttu-id="4bd1e-126">Sąrašo funkcijos</span><span class="sxs-lookup"><span data-stu-id="4bd1e-126">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="f9e00-126">Sąrašo funkcijos</span><span class="sxs-lookup"><span data-stu-id="f9e00-126">List functions</span></span>](er-functions-category-list.md)

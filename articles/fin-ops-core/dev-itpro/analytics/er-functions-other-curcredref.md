@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6e684a8e063cb3c049d13005cbcf6ebbe688af00
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 95e90289f43896b83ba98a6edefe0cd6028f4043
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041497"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744196"
 ---
-# <span data-ttu-id="8c8d6-103"><a name="CURCREDREF">CURCREDREF ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="8c8d6-103"><a name="CURCREDREF">CURCREDREF ER function</a></span></span>
+# <a name="curcredref-er-function"></a><span data-ttu-id="8416b-103">CURCREDREF ER funkcija</span><span class="sxs-lookup"><span data-stu-id="8416b-103">CURCREDREF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="8c8d6-104">`CURCREDREF` funkcija grąžina *Eilutės* reikšmę, kuri nurodo kreditoriaus nuorodą pagal nurodyto sąskaitos faktūros numerio skaitmenis.</span><span class="sxs-lookup"><span data-stu-id="8c8d6-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="8416b-104">`CURCREDREF` funkcija grąžina *Eilutės* reikšmę, kuri nurodo kreditoriaus nuorodą pagal nurodyto sąskaitos faktūros numerio skaitmenis.</span><span class="sxs-lookup"><span data-stu-id="8416b-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8c8d6-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="8c8d6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8416b-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="8416b-105">Syntax</span></span>
 
 ```vb
 CURCREDREF (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="8c8d6-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="8c8d6-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="8416b-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="8416b-106">Arguments</span></span>
 
-<span data-ttu-id="8c8d6-107">`invoice number digits`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8c8d6-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="8416b-107">`invoice number digits`: *Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8416b-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="8c8d6-108">Tekstinė reikšmė, nurodanti sąskaitos faktūros numerio skaitmenis.</span><span class="sxs-lookup"><span data-stu-id="8c8d6-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="8416b-108">Tekstinė reikšmė, nurodanti sąskaitos faktūros numerio skaitmenis.</span><span class="sxs-lookup"><span data-stu-id="8416b-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="8c8d6-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="8c8d6-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8416b-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="8416b-109">Return values</span></span>
 
-<span data-ttu-id="8c8d6-110">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8c8d6-110">*String*</span></span>
+<span data-ttu-id="8416b-110">*Eilutė*</span><span class="sxs-lookup"><span data-stu-id="8416b-110">*String*</span></span>
 
-<span data-ttu-id="8c8d6-111">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="8c8d6-111">The resulting text value.</span></span>
+<span data-ttu-id="8416b-111">Gaunama tekstinė reikšmė.</span><span class="sxs-lookup"><span data-stu-id="8416b-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8c8d6-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="8c8d6-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8416b-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="8416b-112">Example</span></span>
 
-<span data-ttu-id="8c8d6-113">`CURCredRef ("VEND-200002")` grąžina **„2200002“**.</span><span class="sxs-lookup"><span data-stu-id="8c8d6-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
+<span data-ttu-id="8416b-113">`CURCredRef ("VEND-200002")` grąžina **„2200002“**.</span><span class="sxs-lookup"><span data-stu-id="8416b-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="8c8d6-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="8c8d6-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="8416b-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="8416b-114">Additional resources</span></span>
 
-[<span data-ttu-id="8c8d6-115">Kitos (konkrečios verslo srities) funkcijos</span><span class="sxs-lookup"><span data-stu-id="8c8d6-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="8416b-115">Kitos (konkrečios verslo srities) funkcijos</span><span class="sxs-lookup"><span data-stu-id="8416b-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
