@@ -3,7 +3,7 @@ title: Atvirkštinio mokesčio PVM
 description: Šioje temoje paaiškinama, kaip nustatyti atvirkštinio mokesčio pridėtinės vertės mokestį (PVM) Europos šalyse ir Saudo Arabijoje.
 author: epodkolz
 manager: AnnBe
-ms.date: 07/16/2019
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,24 +11,25 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore
+ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Saudi Arabia, Spain, Sweden, United Kingdom, Singapore, Bahrain, Kuwait, Oman, Qatar
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 530ff52abb1dd36c473ae436d61ea925c5696a30
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 9a58ae689a6185316854bf8f01d1237a487d3981
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183769"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760236"
 ---
 # <a name="reverse-charge-vat"></a>Atvirkštinio mokesčio PVM
 
-
 [!include [banner](../includes/banner.md)]
 
+Šioje temoje aprašomas bendrasis atvirkštinio apmokestinimo pridėtinės vertės mokesčiu (PVM) nustatymo metodas ES ir GCC šalyse bei Singapūre.
 
-Šioje temoje aprašomas bendrasis atvirkštinio apmokestinimo pridėtinės vertės mokesčiu (PVM) nustatymo metodas Saudo Arabijoje ir Europos šalyse.
+> [!NOTE]                                                                                  
+> Bahreine, Kuveite, Omane ir Katare funkcija **Atvirkštinis apmokestinimo pasiekiamumas papildomose šalyse** turėtų būti įjungta darbo srityje **Funkcijų valdymas**. 
 
 Atvirkštinis apmokestinimas yra mokesčio schema, kuri atsakomybę už apskaitą ir PVM ataskaitas perkelia nuo pardavėjo prekių ir (arba) paslaugų pirkėjui. Todėl savo PVM išraše prekių ir (arba) paslaugų gavėjai praneša ir mokėtiną PVM (atlikdami pardavėjo vaidmenį), ir gautiną PVM (atlikdami pirkėjo vaidmenį).
 
@@ -85,7 +86,7 @@ Puslapyje **Atvirkštinio apmokestinimo prekių grupės** (**Mokestis** &gt; **S
 Puslapyje **Atvirkštinio apmokestinimo taisyklės** (**Mokestis** &gt; **Sąranka** &gt; **PVM** &gt; **Atvirkštinio apmokestinimo taisyklės**) galite nustatyti pirkimo ir pardavimo tikslais naudojamas tinkamumo taisykles. Galite sukonfigūruoti atvirkštinio mokesčio taikymo taisyklių rinkinį. Nustatykite šiuos kiekvienos taisyklės laukus:
 
 - **Dokumento tipas** – pasirinkite **Pirkimo užsakymas**, **Tiekėjo SF žurnalas**, **Pardavimo užsakymas**, **Laisvos formos SF**, **Kliento SF žurnalas** ir (arba) **Tiekėjo SF**.
-- **Partnerio šalies / regiono tipas** – pasirinkite **Vietinis**, **ES** arba **Užsienio**. Arba, jeigu taisyklė gali būti taikoma visiems prekybos partneriams, nepriklausomai nuo jų šalies ar regiono adreso, pasirinkite **Visi**.
+- **Partnerio šalies / regiono tipas** – pasirinkite **Vietinis**, **ES**, **GCC** arba **Užsienio**. Arba, jeigu taisyklė gali būti taikoma visiems prekybos partneriams, nepriklausomai nuo jų šalies ar regiono adreso, pasirinkite **Visi**.
 - **Vietinis pristatymo adresas** – pažymėkite šį žymės langelį, jei norite taikyti taisyklę visoms į tą pačią šalį ar regioną pristatomoms prekėms. Pasirinkus dokumentų tipus **Tiekėjo SF žurnalas** ir **Kliento SF žurnalas** šio žymės langelio pažymėti negalima.
 - **Atvirkštinio apmokestinimo prekių grupė** – pasirinkite grupę, kuriai gali būti taikoma taisyklė.
 - **Ribinės vertės suma** – SF atvirkštinio apmokestinimo schema taikoma tik tada, jei prekių ir (arba) paslaugų, kurios įtrauktos į atvirkštinio apmokestinimo prekių grupę vertė viršija limitą, kurį nurodote čia.
@@ -98,13 +99,16 @@ Be to, galite nurodyti, ar, jei bus patenkinta tos dokumento eilutės sąlyga, b
 - **Raginti** – rodomas pranešimas, raginantis patvirtinti, kad galima taikyti atvirkštinio apmokestinimo mokestį.
 - **Nustatyti** – dokumento eilutė atnaujinama be papildomų pranešimų.
 
+## <a name="set-up-countryregion-properties"></a>Šalies / regiono ypatybių nustatymas
+Puslapio **Užsienio prekybos parametrai** (**Mokesčiai** &gt; **Sąranka** &gt; **PVM** &gt; **Užsienio prekyba** &gt; **Užsienio prekybos parametrai**) skirtuke **Šalies / regiono ypatybės** nustatykite dabartinio juridinio subjekto šalį / regioną į *Vietinis*. ES šalių / regionų, dalyvaujančių ES prekyboje su dabartiniu juridiniu subjektu, **šalies / regiono tipą** nustatykite į *ES*. GCC šalių / regionų, dalyvaujančių GCC prekyboje su dabartiniu juridiniu subjektu, **šalies / regiono tipą** nustatykite į *GCC*.
+
 ## <a name="set-up-default-parameters"></a>Numatytųjų parametrų nustatymas
 Norėdami įgalinti atvirkštinio mokesčio PVM funkciją, puslapio **DK parametrai** skirtuke **Atvirkštinis apmokestinimas** nustatykite funkcijos **Įgalinti atvirkštinį apmokestinimą** parinktį **Taip**. Laukuose **Pirkimo užsakymų PVM grupė** ir **Pardavimo užsakymų PVM grupė** pasirinkite numatytąsias PVM grupes. Kai patenkinama atvirkštinio mokesčio taikymo sąlyga, pardavimo arba pirkimo užsakymo eilutės atnaujinamos nurodant šias PVM grupes.
 
 ## <a name="reverse-charge-on-a-sales-invoice"></a>Pardavimo SF atvirkštinis apmokestinimas
 Pagal atvirkštinio apmokestinimo schemą atliekamiems pardavimamas pardavėjas PVM mokesčio netaiko. Tačiau SF nurodomos abi prekės, kurioms taikytinas atvirkštinio apmokestinimo PVM, bei bendra atvirkštinio PVM suma.
 
-Užregistravus atvirkštinio apmokestinimo pardavimo SF, PVM operacijos pažymimos mokesčių nuoroda **Mokėtinas PVM** bei nulinio PVM mokesčio nuoroda ir pažymimas žymės langelis **Atvirkštinis apmokestinimas**.
+Užregistravus atvirkštinio apmokestinimo pardavimo SF, PVM operacijos pažymimos mokesčių nuoroda **Mokėtinas PVM** bei nulinio PVM mokesčio nuoroda ir pažymimi žymės langeliai **Atvirkštinis apmokestinimas** bei **Neapmokestinama**.
 
 ## <a name="reverse-charge-on-a-purchase-invoice"></a>Pirkimo SF atvirkštinis apmokestinimas
 Kai pirkimai atliekami pagal atvirkštinio apmokestinimo schemą, atvirkštinio apmokestinimo SF gavęs pirkėjas PVM apskaitos tikslais yra ir pirkėjas, ir pardavėjas.

@@ -1,6 +1,6 @@
 ---
-title: IoT analizės scenarijaus sąranka
-description: Šioje temoje aprašoma, kaip konfigūruoti IoT analizės scenarijų programoje „Supply Chain Management“.
+title: IoT įžvalgų scenarijaus sąranka
+description: Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”.
 author: robinarh
 manager: tfehr
 ms.date: 08/16/2019
@@ -10,46 +10,47 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: ''
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: ''
+ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5633741fcd9c04b68e5b174447d7ead3c521ccd7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
+ms.sourcegitcommit: 8adc65e26d78e229271eb427659a87ee5f371319
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597173"
+ms.lasthandoff: 09/15/2020
+ms.locfileid: "3814064"
 ---
-# <a name="scenario-setup-for-iot-intelligence"></a>IoT analizės scenarijaus sąranka
+# <a name="scenario-setup-for-iot-intelligence"></a>IoT įžvalgų scenarijaus sąranka
 
 [!include [banner](../../includes/banner.md)]
 
-Šioje temoje aprašoma, kaip konfigūruoti IoT analizės scenarijų programoje „Supply Chain Management“. Prieš konfigūruodami scenarijus turite [sukonfigūruoti LCS](iot-lcs-setup.md).
+Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”. Prieš nustatant scenarijus pirmiausia reikia [nustatyti „Microsoft Dynamics Lifecycle Services” (LCS)](iot-lcs-setup.md).
 
-Šioje temoje konfigūruosite scenarijų **Įrangos prastovos**, kad įrenginiui sugedus, programoje „Supply Chain Management“ būtų sugeneruotas pranešimas.
+Šioje temoje konfigūruosite scenarijų **Įrangos prastovos**, kad įrenginiui sugedus, programoje „Supply Chain Management“ būtų sugeneruotas pranešimas. Temoje taip pat rodoma, kaip konfigūruoti scenarijų **Produkto kokybė**, kad būtų sugeneruotas pranešimas, jei prekės atributas yra už nurodyto intervalo ribų, ir kaip konfigūruoti scenarijų **Gamybos atidėjimai**, kad būtų sugeneruotas pranešimas, jei gamybos našumas yra mažesnis už ribinę vertę.
 
-## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Scenarijaus **Įrangos prastovos** konfigūravimas programoje „Supply Chain Management“
+## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a>Scenarijaus Įrangos prastovos konfigūravimas programoje „Supply Chain Management“
 
-Scenarijus **Įrangos prastovos** susieja dalinio išjungimo signalą su įrenginio įspėjimo ribine verte. Įrenginys stebimas tik tada, kai jis pasirinktas scenarijuje ir nustatytas veikti programoje „Supply Chain Management“. Jeigu laikas nuo įrengino paskutinio gauto dalinio išjungimo signalo yra didesnis už įspėjimo ribinę vertę, suaktyvinamas pranešimas **Įrenginys neveikia**. Jeigu įrenginys vis dar veikia, kai gaunamas kitas **Dalinio išjungimo** signalas, suaktyvinamas pranešimas **Įrenginys veikia**. Jei įrenginys neveikia 30 min., suaktyvinamas naujas pranešimas **Įrenginys neveikia**.
+Scenarijus **Įrangos prastovos** susieja signalą **PartOut** su įrenginio įspėjimo ribine verte. Įrenginys stebimas tik tada, kai jis pasirinktas scenarijuje ir nustatytas į **Vykdomas** programoje „Supply Chain Management“. Jeigu laikas nuo įrenginio paskutinio gauto signalo **PartOut** yra didesnis už įspėjimo ribinę vertę, suaktyvinamas pranešimas **Įrenginys neveikia**. Jeigu įrenginys vis dar veikia, kai gaunamas kitas signalas **PartOut**, suaktyvinamas pranešimas **Įrenginys veikia**. Jei įrenginys neveikia 30 min., suaktyvinamas naujas pranešimas **Įrenginys neveikia**.
 
 Scenarijus **Įrangos prastovos** turi toliau nurodytas priklausomybes.
 
 + Norint suaktyvinti įspėjimą, susietame įrenginyje turi būti paleistas gamybos užsakymas.
-+ Signalas, atitinkantis susieto įrenginio dalinio išjungimo signalą, turi būti išsiųstas į „IoT Hub“ su unikaliu ypatybės pavadinimu.
-+ „IoT Hub“ pranešime turi būti „Unix“ milisekundžių laiko žymos ypatybė.
++ Signalas, atitinkantis susieto įrenginio signalą **PartOut**, turi būti išsiųstas į „IoT Hub“ ir turi būti įtrauktas unikalus ypatybės pavadinimas.
++ „UNIX” **laiko žymos** ypatybė, kurioje vertė išreiškiama milisekundėmis (ms), turi būti „Azure IoT Hub” pranešime.
 
 Norėdami konfigūruoti scenarijų, atlikite toliau nurodytus veiksmus.
 
 1. Prisijunkite prie „Supply Chain Management“.
-2. Įgalinkite IoT analizės funkcijos vėliavėlę. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+2. Įgalinkite IoT analizės funkcijos vėliavėlę. Daugiau informacijos žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
 3. Sukonfigūruokite metriką. Daugiau informacijos žr. [Kaip sukonfigūruoti metriką](iot-metrics-setup.md#configure-metrics).
-4. Eikite į **Gamybos kontrolė**.
-5. Eikite į **Sąranka \> IoT analizė \> Scenarijaus valdymas**.
-6. Plytelėje **Įrangos prastovos** spustelėkite **Konfigūruoti**. Konfigūracijos vedlys prasideda puslapiu **Įrangos jutiklio schemos apibrėžimas**. Tikslas – programoje „Supply Chain Management“ nustatyti schemą, kuri atitiktų IoT pranešimų JSON formatą. Galima apibrėžti kelias pranešimų schemas. Daugiau informacijos, žr. [Pranešimų schemų formatai, skirti „IoT Hub“](iot-schema-format.md). Šiame pavyzdyje pranešimų apkrovoje yra pranešimų su šiuo formatu paketas:
+4. Eikite į **Gamybos kontrolė \> Sąranka \> IoT įžvalgos \> Scenarijaus valdymas** .
+6. Plytelėje **Įrangos prastovos** pasirinkite **Konfigūruoti**, kad būtų atidarytas konfigūravimo vedlys.
+
+   Konfigūracijos vedlys prasideda puslapiu **Įrangos jutiklio schemos apibrėžimas**. Šiame puslapyje jūsų tikslas yra nustatyti schemą „Supply Chain Management”, kad ji atitiktų „IoT Hub” pranešimų „JavaScript Object Notation” (JSON) formatą. Galima apibrėžti kelias pranešimų schemas. Daugiau informacijos, žr. [Schemų formatai, skirti „IoT Hub“ pranešimams](iot-schema-format.md). Šiame pavyzdyje pranešimų apkrovoje yra pranešimų su toliau pateiktu formatu paketas.
 
     ```json
     {
@@ -69,75 +70,76 @@ Norėdami konfigūruoti scenarijų, atlikite toliau nurodytus veiksmus.
     }
     ```
 
-7. Įtraukite į lentelę eilutę.
+7. Įtraukite į lentelę eilutę ir nustatykite toliau pateiktas reikšmes.
 
-    1. Nustatykite **Schemos pavadinimas** reikšmę kaip **ID**.
-    2. Nustatykite **Schemos kelias** reikšmę kaip **/payload[\*]/id**.
-    3. Nustatykite **Aprašas** reikšmę kaip **Pranešimo ID**.
+    1. Nustatykite lauką **Schemos pavadinimas** į **ID**.
+    2. Nustatykite lauką **Schemos kelias** į **/payload\[\*\]/id**.
+    3. Nustatykite lauką **Aprašas** į **Pranešimo ID**.
 
-8. Įtraukite į lentelę eilutę.
+8. Įtraukite kitą eilutę į lentelę ir nustatykite toliau pateiktas reikšmes.
 
-    1. Nustatykite **Schemos pavadinimas** reikšmę kaip **Laiko žyma**.
-    2. Nustatykite **Schemos kelias** reikšmę kaip **/payload[\*]/timestamp**.
-    3. Nustatykite **Aprašas** reikšmę kaip **Pranešimo laiko žyma**.
+    1. Nustatykite lauką **Schemos pavadinimas** į **Laiko žyma**.
+    2. Nustatykite lauką **Schemos kelias** į **/payload\[\*\]/timestamp**.
+    3. Nustatykite lauką **Aprašas** į **Pranešimo laiko žyma**.
 
-9. Įtraukite į lentelę eilutę.
+9. Įtraukite kitą eilutę į lentelę ir nustatykite toliau pateiktas reikšmes.
 
-    1. Nustatykite **Schemos pavadinimas** reikšmę kaip **Reikšmė**.
-    2. Nustatykite **Schemos kelias** reikšmę kaip **/payload[\*]/value**.
-    3. Nustatykite **Aprašas** reikšmę kaip **Pranešimo reikšmė**.
+    1. Nustatykite lauką **Schemos pavadinimas** į **Reikšmė**.
+    2. Nustatykite lauką **Schemos kelias** į **/payload\[\*\]/value**.
+    3. Nustatykite lauką **Aprašas** į **Pranešimo reikšmė**.
 
-    Jums nebūtina pranešime apibrėžti visų ypatybių. Apibrėžkite tik tas, kurios jums reikalingos. Šiame pavyzdyje nesukūrėte eilutės **Šakninė laiko žyma**. **Šakninė laiko žyma** kelias bus **/timestamp**.
-  
-10. Norėdami eiti į puslapį **Įrangos jutiklio schemos susiejimas** spustelėkite **Pirmyn**.
-11. Eilutėje **Įrangos išteklių ID** nustatykite **Schemos pavadinimas** reikšmę kaip **ID**. Leistinos reikšmės rodomos išplėčiamojoje lentelėje.
-12. Eilutėje **UTC laikas** nustatykite **Schemos pavadinimas** reikšmę kaip **Laiko žyma**. Leistinos reikšmės rodomos išplėčiamojoje lentelėje.
-13. Eilutėje **Dalinai sugeneruotas signalas** nustatykite **Schemos pavadinimas** reikšmę kaip **Reikšmė**. Leistinos reikšmės rodomos išplėčiamojoje lentelėje.
-14. Norėdami atidaryti puslapį **Įrangos išteklių ID konfigūracija** spustelėkite **Pirmyn**.
-15. Atlikdami šį veiksmą galite susieti „IoT Hub“ pranešimų reikšmes su „Supply Chain Management“ ištekliais.
+    > [!NOTE]
+    > Nereikia nurodyti visų pranešimo ypatybių. Nustatykite tik reikalingas ypatybes. Atlikdami ankstesnius veiksmus, nesukūrėte eilutės **Šakninė laiko žyma** . **Šakninė laiko žyma** kelias bus **/timestamp**.
 
-    1. Lentelėje **Signalo duomenų reikšmės** įtraukite naują eilutę ir stulpelyje **Reikšmė** įveskite **IoTInt.Machine1225.PartOut**. Reikšmė **IoTInt.Machine1225.PartOut** gaunama iš JSON ypatybės **id** „IoT Hub“ pranešime.
-    2. Spustelėkite **Įrašyti**.
-    3. Lentelėje **Verslo įrašo susiejimas** spustelėkite **Naujas**. Numatytoji ypatybės **Verslo įrašo tipas** reikšmė yra įvesta automatiškai, ir jums jos keisti nereikia.
-    4. Stulpelyje **Verslo įrašas** pasirinkite „Supple Chain Management“ įrenginio išteklių, iš kurio siunčiama ši signalo reikšmė.
-    5. Spustelėkite **Įrašyti**.
-    6. Kartokite šiuos veiksmus įtraukdami naujo verslo įrašo **Machine1226** susiejimą. Su vienu „Supply Chain Management“ įrašu galite susieti kelias signalo duomenų reikšmes.
+10. Norėdami eiti į puslapį **Įrangos jutiklio schemos susiejimas** pasirinkite **Pirmyn**.
+11. Eilutės **Įrangos išteklių ID** lauke **Schemos pavadinimas** pasirinkite **ID**.
+12. Eilutės **UTC laikas** lauke **Schemos pavadinimas** pasirinkite **Laiko žyma**.
+13. Eilutės **Dalinai sugeneruotas signalas** lauke **Schemos pavadinimas** pasirinkite **Reikšmė**.
+14. Norėdami atidaryti puslapį **Įrangos išteklių ID konfigūracija** pasirinkite **Pirmyn**.
+15. Atlikite toliau pateiktus veiksmus, norėdami susieti „IoT Hub“ pranešimų reikšmes su „Supply Chain Management“ ištekliais.
+
+    1. Lentelėje **Signalo duomenų reikšmės** įtraukite naują eilutę. Lauke **Reikšmė** įveskite **IoTInt.Machine1225.PartOut**. Ši reikšmė gaunama iš JSON ypatybės **id** „IoT Hub“ pranešime.
+    2. Pasirinkite **Įrašyti**.
+    3. Lentelėje **Verslo įrašo susiejimas** pasirinkite **Naujas**. Numatytoji lauko **Verslo įrašo tipas** reikšmė yra įvesta automatiškai ir jums jos keisti nereikia.
+    4. Lauke **Verslo įrašas** pasirinkite „Supply Chain Management“ įrenginio išteklių, iš kurio siunčiama ši signalo reikšmė.
+    5. Pasirinkite **Įrašyti**.
+    6. Kartokite šiuos veiksmus, norėdami įtraukti naujo verslo įrašo **Machine1226** susiejimą. Su vienu „Supply Chain Management“ įrašu galite susieti kelias signalo duomenų reikšmes.
 
 16. Norėdami pasirinkti, kuriuos įrenginius apdoroti, naudokite stulpelį **Pasirinkta**. Jums nebūtina apibrėžti visų signalų reikšmių ir pasirinkti visų įrenginių.
-17. Spustelėkite **Pirmyn**, jei norite pereiti į puslapį **Dalinai sugeneruoto signalo konfigūravimas**.
-18. Lentelėje **Signalo duomenų reikšmės** įtraukite eilutę ir nustatykite ypatybės **Reikšmė** reikšmę kaip **Teisinga**. Reikšmė **Teisinga** gaunama iš JSON ypatybės **value** „IoT Hub“ pranešime. Savo scenarijuje galite pridėti tiek reikšmių, kiek reikia.
-19. Spustelėkite **Įrašyti**.
-20. Norėdami eiti į puslapį **Įrangos prastovos ribinė vertė** spustelėkite **Pirmyn**. Nurodyti įrenginiai yra anksčiau su signalo reikšmėmis susieti įrenginiai. Šiame veiksme apibrėžiate ribinę vertę, kad nustatytumėte, ar įrenginys sugedo. Pavyzdžiui, jei nustatysite ribinę vertę 10, „Supply Chain Management“ sugeneruos pranešimą, jei 10 minučių iš įrenginio nebus gautas dalinio išjungimo pranešimas.
-21. Norėdami pereiti puslapį **Įgalinti scenarijų**, spustelėkite **Pirmyn**. Norėdami įgalinti scenarijų, perjunkite slankiklį.
-22. Spustelėkite **Baigti**.
+17. Pasirinkite **Pirmyn**, jei norite pereiti į puslapį **Dalinai sugeneruoto signalo konfigūravimas**.
+18. Lentelėje **Signalo duomenų reikšmės** įtraukite eilutę ir nustatykite lauką **Reikšmė** į **Teisinga**. Ši reikšmė gaunama iš JSON ypatybės **value** „IoT Hub“ pranešime. Savo scenarijuje galite pridėti tiek reikšmių, kiek reikia.
+19. Pasirinkite **Įrašyti**.
+20. Norėdami eiti į puslapį **Įrangos prastovos ribinė vertė** pasirinkite **Pirmyn**. Nurodyti įrenginiai yra anksčiau su signalo reikšmėmis susieti įrenginiai. Šiame puslapyje apibrėžiate ribinę vertę, kad nustatytumėte, ar įrenginys sugedo. Pavyzdžiui, jei nustatysite ribinę vertę į **10**, „Supply Chain Management“ sugeneruos pranešimą, jei 10 minučių iš įrenginio nebus gautas pranešimas **PartOut**.
+21. Norėdami pereiti puslapį **Įgalinti scenarijų**, pasirinkite **Pirmyn**. Pasirinkite parinktį, norėdami įgalinti scenarijų.
+22. Pasirinkite **Baigti**.
 
-Scenarijaus sąranka baigta. IoT analizės papildinys pradės automatiškai apdoroti „IoT Hub“ pranešimus.
+Scenarijaus sąranka baigta. IoT įžvalgų papildinys pradės automatiškai apdoroti „IoT Hub“ pranešimus.
 
-## <a name="configure-the-product-quality-scenario-in-supply-chain-management"></a>Scenarijaus **Produkto kokybė** konfigūravimas programoje „Supply Chain Management“
+## <a name="configure-the-product-quality-scenario-in-supply-chain-management"></a>Scenarijaus Produkto kokybė konfigūravimas programoje „Supply Chain Management“
 
-Scenarijus **Produkto kokybė** sugeneruoja pranešimą, jei prekės atributas nepatenka į nurodytą diapazoną. Pavyzdžiui, jutiklis galėtų siųsti kiekvienos prekės svorį į „IoT Hub“. Jei prekė per sunki arba per lengva, programoje „Supply Chain Management“ būtų sugeneruotas pranešimas.
+Scenarijus **Produkto kokybė** sugeneruoja pranešimą, jei prekės atributas nepatenka į nurodytą diapazoną. Pavyzdžiui, jutiklis siųs kiekvienos prekės svorį į „IoT Hub“. Jei prekė per sunki arba per lengva, „Supply Chain Management“ sugeneruojamas pranešimas.
 
-Scenarijus turi toliau nurodytas priklausomybes.
+Scenarijus **Produkto kokybė** turi toliau nurodytas priklausomybes.
 
-+ Tam, kad būtų suaktyvintas įspėjimas, gamybos užsakymas turi būti vykdomas susietame įrenginyje ir generuoti produktą su susieto paketo atributu.
-+ Signalas, atitinkantis paketo atributą, turi būti išsiųstas į „IoT Hub“ su unikaliu ypatybės pavadinimu.
-+ „IoT Hub“ pranešime turi būti „Unix“ milisekundžių laiko žymos ypatybė.
++ Tam, kad būtų suaktyvintas įspėjimas, gamybos užsakymas turi būti vykdomas susietame įrenginyje ir generuoti produktą, kuriame yra susieto paketo atributas.
++ Signalas, atitinkantis paketo atributą, turi būti išsiųstas į „IoT Hub“ ir turi būti įtrauktas unikalus ypatybės pavadinimas.
++ „UNIX” **laiko žymos** ypatybė, kurioje vertė išreiškiama milisekundėmis, turi būti „Azure IoT Hub” pranešime.
 
-## <a name="configure-the-production-delays-scenario-in-supply-chain-management"></a>Scenarijaus **Gamybos atidėjimai** konfigūravimas programoje „Supply Chain Management“
+## <a name="configure-the-production-delays-scenario-in-supply-chain-management"></a>Scenarijaus Gamybos atidėjimai konfigūravimas programoje „Supply Chain Management“
 
-Scenarijus **Gamybos atidėjimai** generuoja pranešimą, jei gamybos našumas yra mažesnis už ribinę vertę. Šiame scenarijuje signalas **PartOut** siunčiamas į „IoT Hub“ kiekvienai pagamintai prekei. Programoje „Supply Chain Management“ užsakymo atidėjimas apskaičiuojamas pagal tai, kiek laiko suplanuota vykdyti gamybos užsakymą, kiek prekių turėtų būti pagaminta, kaip ilgai vykdoma užduotis ir kiek signalų **PartOut** gauta. Perspėjimas dėl atidėjimo būtų sugeneruotas, jei užduoties signalų **PartOut** skaičius yra mažesnis už numatytos reikšmės ribinę vertę.
+Scenarijus **Gamybos atidėjimai** generuoja pranešimą, jei gamybos našumas yra mažesnis už ribinę vertę. Šiame scenarijuje signalas **PartOut** siunčiamas į „IoT Hub“ kiekvienai pagamintai prekei. Programoje „Supply Chain Management” užsakymo atidėjimas apskaičiuojamas pagal planuojamą gamybos užsakymo vykdymo laiką, prekių, kurias reikia pagaminti, skaičių, užduoties vykdymo laiką ir gautų signalų **PartOut** skaičių. Perspėjimas dėl atidėjimo sugeneruojamas, jei užduoties signalų **PartOut** skaičius yra mažesnis už ribinę vertę.
 
-Scenarijus turi toliau nurodytas priklausomybes.
+Scenarijus **Gamybos atidėjimai** turi toliau nurodytas priklausomybes.
 
 + Norint suaktyvinti įspėjimą, susietame įrenginyje turi būti paleistas gamybos užsakymas.
-+ Signalas, atitinkantis susieto įrenginio dalinio išjungimo signalą, turi būti išsiųstas į „IoT Hub“ su unikaliu ypatybės pavadinimu.
-+ „IoT Hub“ pranešime turi būti „Unix“ milisekundžių laiko žymos ypatybė.
++ Signalas, atitinkantis susieto įrenginio signalą **PartOut**, turi būti išsiųstas į „Azure IoT Hub“ ir turi būti įtrauktas unikalus ypatybės pavadinimas.
++ „UNIX” **laiko žymos** ypatybė, kurioje vertė išreiškiama milisekundėmis, turi būti „Azure IoT Hub” pranešime.
 
-## <a name="how-to-disable-a-scenario"></a>Kaip išjungti scenarijų
+## <a name="disable-a-scenario"></a>Scenarijaus išjungimas
 
 Norėdami išjungti scenarijų, atlikite toliau nurodytus veiksmus.
 
-1. Programoje „Supply Chain Management“ eikite į **Gamybos kontrolė \> Sąranka \> IoT analizė \> Scenarijaus valdymas**.
-2. Scenarijuje spustelėkite **Konfigūruoti**.
-3. Norėdami pereiti į paskutinį vedlio skirtuką spustelėkite **Pirmyn**.
-4. Norėdami išjungti scenarijų, perjunkite slankiklį.
+1. Programoje „Supply Chain Management“ eikite į **Gamybos kontrolė \> Sąranka \> IoT įžvalgos \> Scenarijaus valdymas**.
+2. Scenarijaus plytelėje pasirinkite **Konfigūruoti** .
+3. Norėdami pereiti į paskutinį vedlio puslapį, pasirinkite **Pirmyn**.
+4. Pasirinkite parinktį, norėdami išjungti scenarijų.
