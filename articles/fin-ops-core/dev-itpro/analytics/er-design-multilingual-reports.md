@@ -3,7 +3,7 @@ title: Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 description: Šioje temoje paaiškinama, kaip galite naudoti Elektroninės ataskaitos (angl. Electronic Reporting (ER)) žymas kurti ir generuoti daugiakalbius pranešimus.
 author: NickSelin
 manager: AnnBe
-ms.date: 04/24/2020
+ms.date: 09/14/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 65efb8dbec925b5238acaa5d6769f3085e9715b9
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3444626"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810672"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Daugiakalbių pranešimų Elektroninėse ataskaitose kūrimas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3444626"
 
 Verslo vartotojai naudoja [Elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemą, kad konfigūruotų siunčiamų dokumentų formatus, kurie turi būti sugeneruoti pagal įvairių šalių ar regionų teisinius reikalavimus. Šiuos reikalavimuose nurodoma, kad siunčiami dokumentai būtų generuojami skirtingomis kalbomis skirtingoms šalims ar regionams, galite konfigūruoti vieną ar kelis ER [formatus](general-electronic-reporting.md#FormatComponentOutbound), kuriuose yra nuo kalbos priklausančių išteklių. Tokiu būdu galite pakartotinai naudoti formatą, kad sugeneruotumėte siunčiamus dokumentus įvairioms šalims ir regionams. Taip pat galite naudoti vieną ER formatą, kad sugeneruotumėte siunčiamą dokumentą skirtingomis kalbomis atitinkamiems klientams, tiekėjams, filialams ar kitoms šalims.
 
-Galite konfigūruoti ER duomenų modelius ir modelio susiejimus kaip konfigūruotų ER formatų duomenų šaltinius, kad apibrėžtume duomenų srautą, nurodantį, kokie programos duomenys įdedami į generuojamus dokumentus. Kaip ER konfigūracijos [teikėjas](general-electronic-reporting.md#Provider), galite [publikuoti ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-configuration-into-lcs)sukonfigūruotus [duomenų modelius](general-electronic-reporting.md#data-model-and-model-mapping-components), [modelių susiejimus ](general-electronic-reporting.md#data-model-and-model-mapping-components)ir [formatus](general-electronic-reporting.md#FormatComponentOutbound) kaip ER sprendimo komponentus, kad sugeneruotumėte konkrečius siunčiamus dokumentus. Taip pat galite leisti klientams [įkelti](general-electronic-reporting-manage-configuration-lifecycle.md) publikuotą ER sprendimą, kad jį būtų galima naudoti ir tinkinti. Jei tikitės, kad klientai kalba kitomis kalbomis, galite sukonfigūruoti ER komponentus, kad juose būtų nuo kalbos priklausantys ištekliai. Tokiu būdu redaguojamo ER komponento turinys gali būti pateiktas kliento vartotojo pageidaujama kalba projektavimo metu.
+Galite konfigūruoti ER duomenų modelius ir modelio susiejimus kaip konfigūruotų ER formatų duomenų šaltinius, kad apibrėžtume duomenų srautą, nurodantį, kokie programos duomenys įdedami į generuojamus dokumentus. Kaip ER konfigūracijos [teikėjas](general-electronic-reporting.md#Provider), galite [publikuoti ](tasks/er-upload-configuration-into-lifecycle-services.md#upload-a-configuration-into-lcs)sukonfigūruotus [duomenų modelius](general-electronic-reporting.md#data-model-and-model-mapping-components), [modelių susiejimus ](general-electronic-reporting.md#data-model-and-model-mapping-components)ir [formatus](general-electronic-reporting.md#FormatComponentOutbound) kaip ER sprendimo komponentus, kad sugeneruotumėte konkrečius siunčiamus dokumentus. Taip pat galite leisti klientams [įkelti](general-electronic-reporting-manage-configuration-lifecycle.md) publikuotą ER sprendimą, kad jį būtų galima naudoti ir tinkinti. Jei tikitės, kad klientai kalba kitomis kalbomis, galite sukonfigūruoti ER komponentus, kad juose būtų nuo kalbos priklausantys ištekliai. Tokiu būdu redaguojamo ER komponento turinys gali būti pateiktas kliento vartotojo pageidaujama kalba projektavimo metu.
 
 Galite konfigūruoti nuo kalbos priklausančius išteklius kaip ER žymas. Tada galite naudoti šias žymas, kad sukonfigūruotumėte ER komponentus šiais tikslais:
 
@@ -101,7 +101,7 @@ Kai taip sukonfigūruojate ER formatą, jo formato turinys bus pateiktas „ER O
 
 Dėl to, kad ER formatas pagrįstas ER duomenų modeliu, nurodytos žymos duomenų modelio elementuose pateikiamos ER formato kūrimo įrankyje vartotojo pageidaujama kalba.
 
-Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yra susietas su ER žyma, laukas, atitinkantis parametrą vartotojo dialogo lange apdorojimo metu, pateikiamas vartotojui kaip paraginimas.  Toliau pateiktoje iliustracijose rodoma, kaip galima susieti **Žyma** atributą **Vartotojo įvesties parametras** duomenų šaltinį kūrimo metu su ER žyma, kad vartotojai būtų raginami įvesti parametrą skirtingose vartotojo pageidaujamose kalbose (rodoma anglų (Jungtinių Valstijų (EN-ES) ir DE-AT kalbomis) vykdymo metu.
+Kai **Žyma** atributas **Vartotojo įvesties parametras** duomenų šaltinio yra susietas su ER žyma, laukas, atitinkantis parametrą vartotojo dialogo lange apdorojimo metu, pateikiamas vartotojui kaip paraginimas.  Toliau pateiktoje iliustracijose rodoma, kaip galima susieti **Žyma** atributą **Vartotojo įvesties parametras** duomenų šaltinį kūrimo metu su ER žyma, kad vartotojai būtų raginami įvesti parametrą skirtingose vartotojo pageidaujamose kalbose rodoma anglų (Jungtinių Valstijų (EN-ES) ir DE-AT kalbomis) vykdymo metu.
 
 ![Vartotojo įvesties parametro atributų vertimo pateikimas „ER Operation” kūrimo įrankyje ](./media/er-multilingual-labels-refer-format.png)
 

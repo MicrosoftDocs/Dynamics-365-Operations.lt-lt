@@ -3,7 +3,7 @@ title: Poraštės modulis
 description: Šioje temoje aprašomi poraštės moduliai ir tai, kaip juos kurti programoje „Dynamics 365 Commerce“.
 author: anupamar
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar-ms
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e81617979a945274500c9f4ceaa8078d8dfd79e8
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 6dd9f214fbeeeaabadac4853916363c20a3288ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686723"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761206"
 ---
 # <a name="footer-module"></a>Poraštės modulis  
 
@@ -51,7 +51,7 @@ Kaip ir dauguma konteinerių, poraštės modulis palaiko antraštės ir pločio 
 ## <a name="create-a-footer-module"></a>Kurti poraštės modulį
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
-1. **Naujo puslapio fragmento** teksto laukelyje pasirinkite **Talpyklos** modulį, įveskite puslapio fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Konteinerio** modulį, įveskite fragmento pavadinimą ir pasirinkite **Gerai**.
 1. Vietoje **Numatytasis konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Poraštės kategorija** ir **Gerai**.
 1. Vietoje **Poraštės kategorija** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
@@ -68,7 +68,7 @@ Norėdami padėti užtikrinti, kad antraštė būtų rodoma kiekviename puslapyj
 1. Modulio **Numatytasis puslapis** vietoje **Poraštė** įtraukite jūsų sukurtą poraštės fragmentą.
 1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
-Puslapio fragmentą įtraukdami į puslapio šablonus, padedate užtikrinti, kad poraštė bus vaizduojama kiekviename puslapyje.
+Fragmentą įtraukdami į puslapio šablonus padedate užtikrinti, kad poraštė bus vaizduojama kiekviename puslapyje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

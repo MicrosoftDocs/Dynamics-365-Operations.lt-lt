@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a23e445fa6a3133c5248aef1e5dc9fdf5aeb162
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: d38490e9155106d09c432fd965c95ad45f707b41
+ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209219"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3813839"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Įsigijimo ir šaltinio pasirinkimo pagrindinis puslapis
 
@@ -55,7 +55,7 @@ ms.locfileid: "3209219"
 -   [Tiekėjo bendradarbiavimas su klientais](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md)
 -   [Tiekėjo bendradarbiavimo nustatymas ir tvarkymas](set-up-maintain-vendor-collaboration.md)
--   [Gaunamos konsignacijos atsargų demonstracinis scenarijus, skirtas „Microsoft Dynamics 365 for Finance and Operations“](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations) (techninė dokumentacija)
+-   [Gaunamos konsignacijos atsargų demonstracinis scenarijus, skirtas „Microsoft Dynamics 365 for Finance and Operations“](https://www.microsoft.com/download/details.aspx?id=101945) (techninė dokumentacija)
 -   [Konsignacinių atsargų stebėjimas naudojant tiekėjo bendradarbiavimą](../inventory/tasks/monitor-consignment-inventory-vendor-collaboration.md)
 -   [Bendradarbiavimas su tiekėjais naudojant tiekėjų portalą](collaborate-vendors-vendor-portal.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Dynamics AX“ versijoms)
 -   [Tiekėjų portalo vartotojų sauga](configure-security-vendor-portal-users.md) (skirta tik 2016 m. vasario mėn. ir 2016 m. gegužės mėn. „Finance and Operations“ versijoms)
@@ -98,7 +98,7 @@ ms.locfileid: "3209219"
 -   [Paraiškų darbo eigos](procurement-sourcing-workflows.md)
 -   [Įrašyti prekių gavimą pirkimo užsakyme](tasks/record-receipt-goods-purchase-order.md)
 -   [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
--   [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions) (techninė dokumentacija)
+-   [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://www.microsoft.com/download/details.aspx?id=101821) (techninė dokumentacija)
 -   [Pirkimo strategijų apžvalga](purchase-policies.md)
 -   [Pirkimo strategijų kūrimas](tasks/create-purchasing-policies.md)
 

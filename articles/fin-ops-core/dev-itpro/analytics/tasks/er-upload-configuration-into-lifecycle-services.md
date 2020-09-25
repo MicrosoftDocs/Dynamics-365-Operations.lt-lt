@@ -1,9 +1,9 @@
 ---
-title: 'ER: konfigūracijos nusiuntimas į „Lifecycle Services‟'
-description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Lifecycle Services‟ (LCS).
+title: Konfigūracijos nusiuntimas į „Lifecycle Services‟
+description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Dynamics Lifecycle Services‟ (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,82 +16,133 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5def757de8fb9d347f5fd0f828039dad5c989c19
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: c43bad3ee2530a454de718a0a7da4d1e468a4af4
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143296"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810696"
 ---
-# <a name="er-upload-a-configuration-into-lifecycle-services"></a>ER: konfigūracijos nusiuntimas į „Lifecycle Services‟
+# <a name="upload-a-configuration-into-lifecycle-services"></a>Konfigūracijos nusiuntimas į „Lifecycle Services‟
 
 [!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo pareigas einantis vartotojas gali sukurti naują elektroninių ataskaitų (ER) konfigūraciją ir ją nusiųsti į „Microsoft Lifecycle Services‟ (LCS).
+Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali sukurti naują [elektroninių ataskaitų (ER) konfigūraciją](../general-electronic-reporting.md#Configuration) ir ją nusiųsti į [projekto lygio turto biblioteką](../../lifecycle-services/asset-library.md) „Microsoft Dynamics Lifecycle Services‟ (LCS).
 
-Šiame pavyzdyje sukursite pavyzdinės įmonės „Litware, Inc“ konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti veiksmus, nurodytus procedūroje „Konfigūracijos teikėjo kūrimas ir pažymėjimas aktyviu“. Norint atlikti šiuos veiksmus, taip pat reikia prieigos prie LCS.
+Šiame pavyzdyje sukursite pavyzdinės įmonės pavadinimu „Litware, Inc“ konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norint atlikti šiuos veiksmus, pirmiausia reikia atlikti veiksmus, nurodytus [Sukurti konfigūracijų teikėjus ir juos pažymėti kaip aktyvius](er-configuration-provider-mark-it-active-2016-11.md). Taip pat reikia prieigos prie LCS.
 
-1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-2. Pasirinkite „Litware, Inc.“ ir nustatykite kaip aktyvią.
-3. Spustelėkite „Konfigūracijos“.
+1. Prisijunkite prie programos naudodami vieną iš tolesnių vaidmenų.
+
+    - Elektroninės ataskaitos kūrėjas
+    - Sistemos administratorius
+
+2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+3. Pasirinkite **„Litware, Inc.‟** ir nustatykite į **Aktyvi**.
+4. Pasirinkite **Konfigūracijos**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Įsitikinkite, kad dabartinis „Dynamics 365 Finance” vartotojas yra LCS projekto, kuriame yra [turto biblioteka](../../lifecycle-services/asset-library.md#asset-library-support), naudojama ER konfigūracijoms importuoti, narys.
+>
+> Negalima pasiekti LCS projekto iš ER saugyklos, kuri nurodo domeną, kuris skiriasi nuo domeno, naudojamo „Finance”. Jei bandysite, bus rodomas tuščias LCS projektų sąrašas, o jūs negalėsite importuoti ER konfigūracijų iš projekto lygio turto bibliotekos, esančios LCS. Norėdami pasiekti projekto lygio turto bibliotekas iš ER saugyklos, naudojamos importuoti ER konfigūracijas, prisijunkite prie „Finance” naudodami vartotojo, priklausančio nuomotojui (domenui), kuriam sukonfigūruotas dabartinis „Finance” egzempliorius, kredencialus.
 
 ## <a name="create-a-new-data-model-configuration"></a>Sukurti naują duomenų modelio konfigūraciją
-1. Spustelėdami Kurti konfigūraciją, atidarykite išplečiamąjį dialogo langą.
-    * Sukursite konfigūraciją, apimančią elektroninių dokumentų duomenų modelio pavyzdį. Ši duomenų modelio konfigūracija vėliau bus nusiųsta į LCS.  
-2. Lauke Pavadinimas įveskite „Modelio konfigūracijos pavyzdys“.
-    * Modelio konfigūracijos pavyzdys  
-3. Lauke Aprašas įveskite „Modelio konfigūracijos pavyzdys“.
-    * Modelio konfigūracijos pavyzdys  
-4. Spustelėkite Sukurti konfigūraciją.
-5. Spustelėkite „Modelių kūrimo įrankis“.
-6. Spustelėkite Naujas.
-7. Lauke Pavadinimas įveskite „Įvesties vieta“.
-    * Įvesties taškas  
-8. Spustelėkite Pridėti.
-9. Spustelėkite Įrašyti.
-10. Uždarykite puslapį.
-11. Spustelėkite keisti būseną.
-12. Spustelėkite Baigti.
-13. Spustelėkite GERAI.
 
-## <a name="register-a-new--repository"></a>Naujos saugyklos registravimas
-1. Uždarykite puslapį.
-2. Spustelėkite Saugyklos.
-    * Taip galima atidaryti „Litware, Inc‟ konfigūracijos teikėjo saugyklų sąrašą.  
-3. Spustelėdami Įtraukti atidarykite išplečiamąjį dialogo langą.
-    * Taip galima įtraukti naują saugyklą.  
-4. Lauke Konfigūracijų saugyklos tipas pasirinkite LCS.
-5. Spustelėkite Kurti saugyklą.
-6. Lauke Projektas įveskite arba pasirinkite vertę.
-    * Pasirinkite norimą LCS projektą. Turite turėti prieigos prie projekto teisę.  
-7. Spustelėkite GERAI.
-    * Baikite naują saugyklos įrašą.  
-8. Sąraše pažymėkite pasirinktą eilutę.
-    * Pasirinkite LCS saugyklos įrašą.  
-    * Atkreipkite dėmesį, kad registruotą saugyklą pažymėjo dabartinis teikėjas, todėl perkelti į šią saugyklą ir vėliau nusiųsti į pasirinktą LCS projektą galima tik tam tiekėjui priklausančias konfigūracijas.  
-9. Spustelėkite Atidaryti.
-    * Atidarę saugyklą galėsite peržiūrėti ER konfigūracijų sąrašą. Jei šis projektas dar nenaudotas bendrinant ER konfigūracijas, sąrašas bus tuščias.  
-10. Uždarykite puslapį.
+1. Eikite į **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijos**.
+2. Puslapyje **Konfigūracijos** pasirinkite **Kurti konfigūraciją**, kad atidarytumėte išplečiamąjį dialogo langą.
+
+    Šiame pavyzdyje sukursite konfigūraciją, apimančią elektroninių dokumentų duomenų modelio pavyzdį. Ši duomenų modelio konfigūracija vėliau bus nusiųsta į LCS.
+
+3. Lauke **Pavadinimas** įveskite **Modelio konfigūracijos pavyzdys**.
+4. Lauke **Aprašas** įveskite **Modelio konfigūracijos pavyzdys**.
+5. Pasirinkite **Kurti konfigūraciją**.
+6. Pasirinkite **Modelio dizaino įrankis**.
+7. Pasirinkite **Naujas**.
+8. Lauke **Pavadinimas** įveskite **Įvesties taškas**.
+9. Pasirinkite **Įtraukti**.
+10. Pasirinkite **Įrašyti**.
 11. Uždarykite puslapį.
+12. Pasirinkti **Keisti būseną**.
+13. Pasirinkite **Baigti**.
+14. Pasirinkite **Gerai**.
+15. Uždarykite puslapį.
 
-## <a name="upload-configuration-into-lcs"></a>Konfigūracijos nusiuntimas į LCS
-1. Spustelėkite „Konfigūracijos“.
-2. Medyje pasirinkite „Modelio konfigūracijos pavyzdys‟.
-    * Pasirinkite sukurtą, jau baigtą konfigūraciją.  
+## <a name="register-a-new-repository"></a>Naujos saugyklos registravimas
+
+1. Eikite į **Organizacijos administravimas \> Darbo sritys \> Elektroninės ataskaitos**.
+
+2. Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Litware, Inc.”**.
+
+3. Plytelėje **„Litware, Inc.”** pasirinkite **Saugyklos**.
+
+    Dabar galite atidaryti „Litware, Inc‟ konfigūracijos teikėjo saugyklų sąrašą.
+
+4. Pažymėkite **Įtraukti**, kad atidarytumėte išplečiamąjį dialogo langą.
+
+    Dabar galite įtraukti naują saugyklą.
+
+5. Lauke **Konfigūracijų saugykla** pasirinkite **LCS**.
+6. Pasirinkite **Kurti saugyklą**.
+7. Lauke **Projektas** įveskite arba pasirinkite vertę.
+
+    Šiame pavyzdyje pasirinkite norimą LCS projektą. Turite turėti [prieigą](#accessconditions) prie projekto.
+
+8. Pasirinkite **Gerai**.
+
+    Baikite naują saugyklos įrašą.
+
+9. Sąraše pažymėkite pasirinktą eilutę.
+
+    Šiame pavyzdyje pasirinkite **LCS** saugyklos įrašą.
+
+    Atkreipkite dėmesį, kad registruotą saugyklą pažymėjo dabartinis teikėjas. Kitaip tariant, perkelti į šią saugyklą ir vėliau nusiųsti į pasirinktą LCS projektą galima tik tam tiekėjui priklausančias konfigūracijas.
+
+10. Pasirinkite **Atidaryti**.
+
+    Atidarę saugyklą galėsite peržiūrėti ER konfigūracijų sąrašą. Jei pasirinktas projektas dar nenaudotas bendrinant ER konfigūracijas, sąrašas bus tuščias.
+
+11. Uždarykite puslapį.
+12. Uždarykite puslapį.
+
+## <a name="upload-a-configuration-into-lcs"></a>Konfigūracijos nusiuntimas į LCS
+
+1. Eikite į **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijos**.
+2. Puslapio **Konfigūracijos** konfigūracijų medyje pasirinkite **Modelio konfigūracijos pavyzdys**.
+
+    Turite pasirinkti sukurtą, jau baigtą konfigūraciją.
+
 3. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite pasirinktos konfigūracijos versiją, kurios būsena – „Baigta“.  
-4. Spustelėkite keisti būseną.
-5. Spustelėkite Bendrinti.
-    * Kai konfigūracija bus publikuota LCS portale, jos būsena iš „Baigta“ pasikeis į „Bendrai naudojama“.  
-6. Spustelėkite Gerai.
-7. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite konfigūracijos versiją, kurios būsena – „Bendrai naudojama‟.  
-    * Atkreipkite dėmesį, kad pasirinktos versijos būsena pasikeitė iš „Baigta‟ į „Bendrai naudojama‟.  
-8. Uždarykite puslapį.
-9. Spustelėkite Saugyklos.
-    * Taip galima atidaryti „Litware, Inc‟ konfigūracijos teikėjo saugyklų sąrašą.  
-10. Spustelėkite Atidaryti.
-    * Pasirinkite LCS saugyklą ir ją atidarykite.  
-    * Atkreipkite dėmesį, kad pasirinkta konfigūracija rodoma kaip pasirinkto LCS projekto turtas.  
-    * LCS galite atidaryti adresu https://lcs.dynamics.com. Atidarykite projektą, kuris buvo ankščiau naudotas registruojant saugyklas, atidarykite šio projekto „Turto biblioteka“ ir išskleiskite turto tipo „GER konfigūracija‟ turinį – bus galima naudoti įkeltą ER konfigūraciją. Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.  
 
+    Šiame pavyzdyje pasirinkite pasirinktos konfigūracijos versiją, kurios būsena – **Baigta**.
+
+4. Pasirinkti **Keisti būseną**.
+5. Pasirinkite **Bendrinti**.
+
+    Konfigūracijos būsena pasikeičia iš **Baigta** į **Bendrinama**, kai konfigūracija publikuojama LCS.
+
+6. Pasirinkite **Gerai**.
+7. Sąraše raskite ir pasirinkite norimą įrašą.
+
+    Šiame pavyzdyje pasirinkite konfigūracijos versiją, kurios būsena – **Bendrinama**.
+
+    Atkreipkite dėmesį, kad pasirinktos versijos būsena pasikeitė iš **Baigta** į **Bendrinama**.
+
+8. Uždarykite puslapį.
+9. Pasirinkite **Saugyklos**.
+
+    Dabar galite atidaryti „Litware, Inc‟ konfigūracijos teikėjo saugyklų sąrašą.
+
+10. Pasirinkite **Atidaryti**.
+
+    Šiame pavyzdyje pasirinkite **LCS** saugyklą ir atidarykite.
+
+    Atkreipkite dėmesį, kad pasirinkta konfigūracija rodoma kaip pasirinkto LCS projekto turtas.
+
+11. Atidarykite LCS nuėję į <https://lcs.dynamics.com>.
+12. Atidarykite projektą, kuris buvo naudojamas anksčiau saugyklos registracijai.
+13. Atidarykite projekto turto biblioteką.
+14. Pasirinkite turto tipą **GER konfigūracija**.
+
+    Turi būti nurodyta ER konfigūracija, kurią nusiuntėte.
+
+    Atkreipkite dėmesį, kad, jei tiekėjai turi prieigą prie šio LCS projekto, nusiųstąją LCS konfigūraciją galima importuoti į kitą egzempliorių.

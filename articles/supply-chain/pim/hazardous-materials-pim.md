@@ -19,16 +19,17 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 079c8d23250368c92e5d79f0e2624f8340db2077
-ms.sourcegitcommit: c009ec75f53872272f11c92a1ce81a391e3845a2
+ms.openlocfilehash: 54e5dca38b31c9310d44bdda5f5af14ca1515541
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "3699541"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3802706"
 ---
 # <a name="hazardous-materials"></a>Pavojingos medžiagos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Informacija apie pavojingas medžiagas nustatoma produkto informacijos valdyme. Be to, šiame modulyje pateikiami dokumentai, kuriuos galima atspausdinti per sandėlio valdymą.
 
@@ -49,8 +50,8 @@ Produkto informacijos valdyme yra sąrankos lentelių, kuriose galite pridėti n
 Čia pateiktos kai kurios dažnai nurodomos nuostatos:
 
 - **ADR** – nuostatos, susijusios su tarptautiniu pavojingų krovinių vežimu keliais
-- **CFR 49** – pavojingų prekių gabenimo Jungtinėse Valstijose nuostatos
-- **IMDG** – Tarptautinis pavojingų krovinių vežimo jūra (IMDG) kodeksas
+- **CFR 49** – pavojingų krovinių gabenimo Jungtinėse Valstijose nuostatos
+- **IMDG** – Tarptautinis jūra gabenamų pavojingų krovinių (IMDG) kodeksas
 - **IATA** – Tarptautinės oro transporto asociacijos (IATA) pavojingų prekių gabenimo nuostatos
 
 Kiekviena iš šių nuostatų turi pavojingų prekių sąrašą, kuriame pateikiami nuorodų kodai. Kiekvienos transportavimo rūšies sąrašai sujungiami į bendrai naudojamas tarptautines klasifikacijas. „Supply Chain Management“ pateikia tų sąrašų bendrai naudojamų kodų nuorodų lentelę. Kiekviename sąraše taip pat yra keli unikalūs kodai, kuriuos galima apibrėžti.

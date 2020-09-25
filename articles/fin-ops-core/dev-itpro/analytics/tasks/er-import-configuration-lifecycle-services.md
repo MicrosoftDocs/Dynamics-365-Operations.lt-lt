@@ -1,14 +1,14 @@
 ---
-title: 'ER: konfigūracijos importavimas iš „Lifecycle Services‟'
-description: Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo rolę turintis vartotojas gali importuoti naują elektroninių ataskaitų (ER) versiją iš „Microsoft Lifecycle Services‟ (LCS).
+title: Konfigūracijos importavimas iš „Lifecycle Services‟
+description: Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali importuoti naują elektroninių ataskaitų (ER) konfigūracijos versiją iš „Microsoft Dynamics Lifecycle Services‟ (LCS).
 author: NickSelin
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 09/14/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,57 +16,91 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 67e09e3187ac49e12727116f55066b64a386e2de
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 59dbbf820f7a3de1e5fb31f781943320b8b1a60a
+ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142391"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3810648"
 ---
-# <a name="er-import-a-configuration-from-lifecycle-services"></a>ER: konfigūracijos importavimas iš „Lifecycle Services‟
+# <a name="import-a-configuration-from-lifecycle-services"></a>Konfigūracijos importavimas iš „Lifecycle Services‟
 
 [!include [banner](../../includes/banner.md)]
 
-Šie veiksmai paaiškina, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo rolę turintis vartotojas gali importuoti naują elektroninių ataskaitų (ER) versiją iš „Microsoft Lifecycle Services‟ (LCS).
+Šioje temoje aiškinama, kaip sistemos administratoriaus arba elektroninių ataskaitų kūrėjo vaidmenį turintis vartotojas gali importuoti naują [elektroninių ataskaitų (ER) konfigūracijos](../general-electronic-reporting.md#Configuration) versiją iš [projekto lygio turto bibliotekos](../../lifecycle-services/asset-library.md) „Microsoft Dynamics Lifecycle Services” (LCS).
 
-Šiame pavyzdyje pasirinksite pavyzdinės įmonės „Litware, Inc“ pageidaujamą ER konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti procedūros „ER konfigūracijos įkėlimas į „Lifecycle Services“ veiksmus. Norint atlikti šiuos veiksmus, taip pat reikia prieigos prie LCS.
+Šiame pavyzdyje pasirinksite pavyzdinės įmonės pavadinimu „Litware, Inc“ pageidaujamą ER konfigūraciją ir nusiųsite į LCS. Šiuos veiksmus galima atlikti bet kurioje įmonėje, nes ER konfigūracijas visos įmonės naudoja bendrai. Norėdami atlikti šiuos veiksmus, pirmiausia turite atlikti [Konfigūracijos įkėlimas į „Lifecycle Services”](er-upload-configuration-into-lifecycle-services.md) veiksmus. Taip pat reikia prieigos prie LCS.
 
-1. Pasirinkite Organizacijos administravimas > Darbo sritys > Elektroninės ataskaitos.
-2. Spustelėkite „Konfigūracijos“.
+1. Prisijunkite prie programos naudodami vieną iš tolesnių vaidmenų.
 
-## <a name="delete-a-shared-version-of-data-model-configuration"></a>Duomenų modelio konfigūracijos bendrai naudojamos versijos naikinimas
-1. Medyje pasirinkite „Modelio konfigūracijos pavyzdys‟.
-    * Pirmoji modelio konfigūracijos pavyzdžio versija sukurta ir publikuota LCS portale atliekant procedūrą „ER konfigūracijos įkėlimas į „Lifecycle Services“. Atlikdami šią procedūrą, šią ER konfigūracijos versiją panaikinsite. Ši pavyzdžio duomenų modelio konfigūracijos versija bus importuota vėliau iš LCS.  
+    - Elektroninės ataskaitos kūrėjas
+    - Sistemos administratorius
+
+2. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
+3. Pasirinkite **Konfigūracijos**.
+
+<a name="accessconditions"></a>
+> [!NOTE]
+> Įsitikinkite, kad dabartinis „Dynamics 365 Finance” vartotojas yra LCS projekto, kuriame yra turto biblioteka, kurią vartotojas nori [pasiekti](../../lifecycle-services/asset-library.md#asset-library-support), naudojama ER konfigūracijoms importuoti, narys.
+>
+> Negalima pasiekti LCS projekto iš ER saugyklos, kuri nurodo domeną, kuris skiriasi nuo domeno, naudojamo „Finance”. Jei bandysite, bus rodomas tuščias LCS projektų sąrašas, o jūs negalėsite importuoti ER konfigūracijų iš projekto lygio turto bibliotekos, esančios LCS. Norėdami pasiekti projekto lygio turto bibliotekas iš ER saugyklos, naudojamos importuoti ER konfigūracijas, prisijunkite prie „Finance” naudodami vartotojo, priklausančio nuomotojui (domenui), kuriam sukonfigūruotas dabartinis „Finance” egzempliorius, kredencialus.
+
+## <a name="delete-a-shared-version-of-a-data-model-configuration"></a>Duomenų modelio konfigūracijos bendrai naudojamos versijos naikinimas
+
+1. Puslapio **Konfigūracijos** konfigūracijų medyje pasirinkite **Modelio konfigūracijos pavyzdys**.
+
+    Sukūrėte pirmąją modelio konfigūracijos pavyzdžio versiją ir publikavote ją LCS atlikę [Konfigūracijos įkėlimas į „Lifecycle Services“](er-upload-configuration-into-lifecycle-services.md) veiksmus. Atlikdami šią procedūrą, šią ER konfigūracijos versiją panaikinsite. Tada versiją importuosite iš LCS, kaip aprašyta toliau šioje temoje.
+
 2. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite šios konfigūracijos versiją, kurios būsena – „Bendrai naudojama‟. Ši būsena nurodo, kad konfigūracija publikuota LCS portale.  
-3. Spustelėkite keisti būseną.
-4. Spustelėkite Nebenaudoti.
-    * Kad galėtumėte pasirinktą versiją panaikinti, jos būseną pakeiskite iš „Bendrai naudojama" į „Nebenaudojama‟.  
-5. Spustelėkite Gerai.
+
+    Šiame pavyzdyje pasirinkite konfigūracijos versiją, kurios būsena – **Bendrinama**. Ši būsena nurodo, kad konfigūracija publikuota LCS portale.
+
+3. Pasirinkti **Keisti būseną**.
+4. Pasirinkite **Nebenaudoti**.
+
+    Kad galėtumėte versiją panaikinti, jos būseną pakeiskite iš **Bendrinama** į **Nebenaudojama**.
+
+5. Pasirinkite **Gerai**.
 6. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite šios konfigūracijos versiją, kurios būsena – „Nebenaudojama‟.  
-7. Spustelėkite Naikinti.
-8. Spustelėkite Taip.
-    * Atkreipkite dėmesį, kad galima naudoti tik 2 pasirinktos duomenų modelio konfigūracijos juodraščio versiją.  
+
+    Šiame pavyzdyje pasirinkite konfigūracijos versiją, kurios būsena – **Nebenaudojama**.
+
+7. Pasirinkite **Naikinti**.
+8. Pasirinkite **Taip**.
+
+    Atkreipkite dėmesį, kad dabar galima naudoti tik 2 pasirinktos duomenų modelio konfigūracijos juodraščio versiją.
+
 9. Uždarykite puslapį.
 
-## <a name="import-a-shared-version-of-data-model-configuration-from-lcs"></a>Duomenų modelio konfigūracijos bendrai naudojamos versijos importavimas iš LCS
-1. Sąraše pažymėkite pasirinktą eilutę.
-    * „Litware, Inc.‟ saugyklų sąrašo atidarymas saugyklų sąrašą.  
-2. Spustelėkite Saugyklos.
-3. Spustelėkite Atidaryti.
-    * Pasirinkite LCS saugyklą ir ją atidarykite.  
-4. Sąraše pažymėkite pasirinktą eilutę.
-    * Versijų sąraše pasirinkite pirmąją modelio konfigūracijos pavyzdžio versiją.  
-5. Spustelėkite Importuoti.
-6. Spustelėkite Taip.
-    * Patvirtinkite pasirinktos versijos importavimą iš LCS.  
-    * Atkreipkite dėmesį, kad informaciniu pranešimu (virš formos) patvirtinamas sėkmingas pasirinktos versijos importavimas.  
-7. Uždarykite puslapį.
-8. Uždarykite puslapį.
-9. Spustelėkite „Konfigūracijos“.
-10. Medyje pasirinkite „Modelio konfigūracijos pavyzdys‟.
-11. Sąraše raskite ir pasirinkite norimą įrašą.
-    * Pasirinkite šios konfigūracijos versiją, kurios būsena – „Bendrai naudojama‟.  
-    * Atkreipkite dėmesį, kad dabar taip pat galima naudoti ir 1 pasirinktos duomenų modelio konfigūracijos bendrai naudojamą versiją.  
+## <a name="import-a-shared-version-of-a-data-model-configuration-from-lcs"></a>Duomenų modelio konfigūracijos bendrai naudojamos versijos importavimas iš LCS
 
+1. Eikite į **Organizacijos administravimas \> Darbo sritys \> Elektroninės ataskaitos**.
+
+2. Dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Litware, Inc.”**.
+
+3. Plytelėje **„Litware, Inc.”** pasirinkite **Saugyklos**.
+
+    Dabar galite atidaryti „Litware, Inc‟ konfigūracijos teikėjo saugyklų sąrašą.
+
+4. Pasirinkite **Atidaryti**.
+
+    Šiame pavyzdyje pasirinkite **LCS** saugyklą ir atidarykite. Turite turėti [prieigą](#accessconditions) prie LCS projekto ir turto bibliotekos, kuri pasiekiama naudojant pasirinktą ER saugyklą.
+
+5. Sąraše pažymėkite pasirinktą eilutę.
+
+    Šiame pavyzdyje versijų sąraše pasirinkite pirmąją **Modelio konfigūracijos pavyzdys** versiją.
+
+6. Pasirinkite **Importuoti**.
+7. Pasirinkite **Taip**, norėdami patvirtinti pasirinktos versijos importavimą iš LCS.
+
+    Informacinis pranešimas patvirtina, kad pasirinkta versija buvo sėkmingai importuota.
+
+8. Uždarykite puslapį.
+9. Uždarykite puslapį.
+10. Pasirinkite **Konfigūracijos**.
+11. Medyje pasirinkite **Modelio konfigūracijos pavyzdys**.
+12. Sąraše raskite ir pasirinkite norimą įrašą.
+
+    Šiame pavyzdyje pasirinkite konfigūracijos versiją, kurios būsena – **Bendrinama**.
+
+    Atkreipkite dėmesį, kad dabar taip pat galima naudoti ir 1 pasirinktos duomenų modelio konfigūracijos bendrai naudojamą versiją.

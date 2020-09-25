@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 128083b22bb14d9b445863a0ba1217f723727ee4
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 7b17df2afee22dde1af5c44de31c585069daa349
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597511"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775179"
 ---
 # <a name="warehouse-location-status"></a>Sandėlio vietos būsena
 
@@ -76,6 +76,9 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
     Šios pasirinktys kontroliuoja, ar nuorodos laukai vietoje yra aktyvūs.
 
 1. Pakartokite 3-4 veiksmus, skirtus **PAĖMIMAS-06** profiliui.
+
+> [!NOTE]
+> Kai vietos šablono parametrai (**Įgalinti prekę vietoje**, **Įgalinti vietos veiklą**, **Įgalinti vietos būseną**) nustatyti į *Taip*, sistema iš karto atnaujina atitinkamas vietas, vykdydama užduotį *Sandėlio vietos būsenos nuolatinis tikrinimas*.
 
 ### <a name="scenario"></a>Scenarijus
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 64626ebdd7fbad3d47a4b4c6bbc45bf3bc0c8277
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 8957065bcadc3f33adb60c2a8f2be78710289631
+ms.sourcegitcommit: d03f301633175b15d46690fc97067820bf21579f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172789"
+ms.lasthandoff: 09/08/2020
+ms.locfileid: "3775152"
 ---
 # <a name="dual-write-overview"></a>Dvigubo rašymo apžvalga
 
@@ -34,7 +34,7 @@ ms.locfileid: "3172789"
 
 ## <a name="what-is-dual-write"></a>Kas yra dvigubas rašymas?
 
-Dvigubas rašymas yra parengta naudoti infrastruktūra, kuri beveik realiuoju laiku teikia sąveiką tarp „Microsoft Dynamics 365” esančių modeliu pagrįstų programų ir „Finance and Operations” programų. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
+Dvigubas rašymas yra parengta naudoti infrastruktūra, kuri beveik realiuoju laiku teikia sąveiką tarp klientų įtraukimo programų ir „Finance and Operations” programų. Kai duomenys apie klientus, produktus, žmones ir operacijas siunčiami už programos ribų, visiems organizacijos padaliniams suteikiami įgaliojimai.
 
 Dvigubu rašymu pateikiama glaudžiai susieta, dvikryptė integracija tarp „Finance and Operations” programų ir „Common Data Service”. Bet kokie duomenų keitimai, vykdomi „Finance and Operations” programose, taip pat įrašomi į „Common Data Service”, o bet kokie „Common Data Service” duomenų keitimai yra įrašomi  „Finance and Operations” programose. Šis automatizuotas duomenų srautas suteikia integruotą vartotojo patirtį susietose programose.
 
@@ -49,7 +49,7 @@ Dvigubo rašymo infrastruktūra yra išplėstinė ir patikima, joje yra šios pa
 + Sinchroninis ir dvikryptis duomenų srautas tarp programų
 + Sinchronizavimas, kartu su atkūrimo, pristabdymo ir papildymo režimais, siekiant palaikyti sistemą internetiniu ir autonominiu / asinchroniniu režimais.
 + Galimybė sinchronizuoti pradinius duomenis tarp programų
-+ Konsoliduotas veiklos rodinys ir duomenų administratorių klaidų žurnalas
++ Jungtinis veiklos rodinys ir duomenų administratorių klaidų žurnalas
 + Galimybė konfigūruoti pasirinktinius įspėjimus ir ribines vertes bei prenumeruoti pranešimus
 + Intuityviosios vartotojo sąsajos (UI) filtravimas ir transformacijos
 + Galimybė nustatyti ir peržiūrėti objekto priklausomybes ir ryšius
@@ -59,7 +59,7 @@ Dvigubo rašymo infrastruktūra yra išplėstinė ir patikima, joje yra šios pa
 
 ### <a name="application"></a>Programos
 
-Dvigubu rašymu sukuriamas susiejimas tarp sąvokų, esančių „Finance and Operations” programose, ir sąvokų, esančių „Dynamics 365” modeliu pagrįstų programų. Ši integracija palaiko šiuos scenarijus:
+Dvigubu rašymu sukuriamas susiejimas tarp sąvokų, esančių „Finance and Operations” programose, ir sąvokų, esančių klientų įtraukimo programose. Ši integracija palaiko šiuos scenarijus:
 
 + Bendrieji integruoto kliento duomenys
 + Prieiga prie kliento lojalumo kortelių ir atlygio taškų
@@ -86,23 +86,25 @@ Dvigubu rašymu sukuriamas susiejimas tarp sąvokų, esančių „Finance and Op
 Dvigubu rašymu pateikiama duomenų integracija „Microsoft Dynamics 365” programose. Ši patikima sistema susieja aplinkas ir įgalina skirtingas verslo programas dirbti kartu. Čia pateikiamos pagrindinės priežastys, kodėl reikia naudoti dvigubą rašymą:
 
 + Dvigubas rašymas suteikia glaudžiai susietą, beveik realiuoju laiku ir dvikryptę integraciją tarp „Finance and Operations” programų ir „Dynamics 365” modeliu pagrįstų programų. Su šiuo integravimu „Microsoft Dynamics 365“ tampa ypač daugialype visiems jūsų verslo sprendimams. Klientai, kurie naudoja „Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”, bet kurie naudoja ne „Microsoft” sprendimus kliento ryšių valdymui (CRM), ilgainiui renkasi dažniau „Dynamics 365” dėl jame palaikomo dvigubo rašymo.
-+ Duomenys iš klientų, produktų, operacijų, projektų ir internetu sąveikaujančių įrenginių („IoT”) automatiškai siunčiami į „Common Data Service” naudojant dvigubą rašymą. Šis ryšys yra labai naudingas verslo įmonėms, kurios domisi „Microsoft Power Platform” plėtiniais.
++ Duomenys iš klientų, produktų, operacijų, projektų ir internetu sąveikaujančių įrenginių („IoT”) automatiškai siunčiami į „Common Data Service” naudojant dvigubą rašymą. Šis ryšys yra naudingas verslo įmonėms, kurios domisi „Microsoft Power Platform” plėtiniais.
 + Dvigubo rašymo infrastruktūra atitinka kodo nereikalavimo / automatizuoto kodavimo principą. Reikia minimalių inžinerinių pastangų, kad būtų galima išplėsti standartinius tarpusavy susietų lentelių žemėlapius ir į juos įterpti pasirinktinius žemėlapius.
 + Dvigubas rašymas palaiko ir internetinį režimą, ir autonominį režimą. „Microsoft” yra vienintelė įmonė, teikianti palaikymą internetiam ir autonominiam režimams.
 
-## <a name="what-does-dual-write-mean-for-users-and-architects-of-crm-products"></a>Kuo vartotojui ir CRM produktų architektams naudingas dvigubas rašymas?
+## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Kuo dvigubas rašymas naudingas klientų įtraukimo programų kūrėjams ir architektams?
 
-Dvigubas rašymas automatizuoja duomenų srautą tarp „Finance and Operations” programų ir „Common Data Service”. Būsimuose leidimuose sąvokos, esančios „Dynamics 365” modeliu pagrįstose programose, (pvz., klientas, kontaktas, pasiūlymas ir užsakymas) bus pritaikytos vidutinių įmonių ir didesnių nei vidutinės įmonių klientams.
+Dvigubas rašymas automatizuoja duomenų srautą tarp „Finance and Operations” programų ir klientų įtraukimo programų. Dvigubas rašymas susideda iš dviejų „AppSource” sprendimų, įdiegtų „Common Data Service”. Sprendimai išplečia „Common Data Service” objektų schemą, priedus ir darbo eigas, kad jie galėtų pritaikyti mastelį prie ERP dydžio. Kad diegimas būtų sėkmingas, klientų įtraukimo programų kūrėjai ir architektai turi suprasti šiuos keitimus ir bendradarbiauti su kolegomis „Finance and Operations” programose.
 
-Pirmuoju leidimu didžioji dalis automatizavimo valdoma dvigubo rašymo sprendimų. Būsimuose leidimuose šie sprendimai taps „Common Data Service“ dalimi. Suprasdami būsimų keitimų, kurie bus vykdomi „Common Data Service”, naudą ilgainiui galėsite sutaupyti pastangų. Štai keletas esminių keitimų:
+Norint sukurti atitikimą su „Finance and Operations” programomis, dvigubas rašymas įvykdo keletą esminių pakeitimų „Common Data Service” schemoje. Jei suprantate planą, galite išvengti kai kurių kūrimo ir tobulinimo perdarymo veiksmų ateityje.
 
-+ „Common Data Service” bus naujų sąvokų, tokių kaip įmonė ir šalis. Šios sąvokos paveiks visas programas, kurios yra sukurtos platformoje „Common Data Service”, pvz., „Dynamics 365 Sales”, „Dynamics 365 Marketing”, „Dynamics 365 Customer Service” ir „Dynamics 365 Field Service”.
++ Įdiegus dvigubo rašymo „AppSource” paketą, „Common Data Service” bus naujų sąvokų, tokių kaip įmonė ir šalis. Šios sąvokos padeda programoms, sukurtoms remiantis „Common Data Service”, įskaitant „Dynamics 365 Sales”, „Dynamics 365 Marketing”, „Dynamics 365 Customer Service” ir „Dynamics 365 Field Service”, sklandžiai sąveikauti su „Finance and Operations” programomis.
+
 + Veiklos ir pastabos yra suvienodintos ir išplėstos, kad būtų palaikomi ir C1 (sistemos vartotojai), ir C2 (sistemos klientai).
-+ Štai keletas būsimų „Common Data Service” keitimų:
 
-    - Dešimtainių duomenų tipas pakeis pinigų duomenų tipą.
-    - Datos galiojime bus palaikomi ankstesni, dabartiniai ir būsimi duomenys toje pačioje vietoje.
-    - Bus išplėstas valiutos ir valiutos kursų palaikymas, o programos programavimo sąsaja (API) **Valiutos kursas** bus peržiūrėta.
-    - Bus palaikomi vienetų konvertavimai.
++ Norėdami neprarasti duomenų atliekant valiutos perdavimą tarp „Finance and Operations” programų ir „Common Data Service”, padidinkite klientų įtraukimo programų valiutos duomenų tipo skaitmenų po kablelio skaičių. Funkcija automatiškai paverčia esamus įrašus nauja išplėstine būsena metaduomenų sluoksnyje. Šio proceso metu valiutos vertė yra paverčiama dešimtainiais duomenimis, o ne pinigų duomenimis, ir valiutos vertė palaiko 10 skaitmenų po kablelio. Ši funkcija pasirenkama, todėl organizacijoms, kurioms nereikia daugiau nei 4 skaitmenų po kablelio tikslumo, nereikia naudoti funkcijos. Daugiau informacijos žr. [Dvigubo rašymo valiutos duomenų tipo perkėlimas](currrency-decimal-places.md).
 
-Norėdami gauti daugiau informacijos apie būsimus keitimus, žr. [Duomenys platformoje „Common Data Service” – 1 ir 2 etapai](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/finance-operations-crossapp-capabilities/data-common-data-service-phase-1).
++ [Datos galiojimas](../../dev-tools/date-effectivity.md) bus įtrauktas į „Common Data Service”. Jame bus palaikomi ankstesni, dabartiniai ir būsimi duomenys tame pačiame objekte.
+
++ Produkto [vienetų konvertavimai](../../../../supply-chain/pim/tasks/manage-unit-measure.md) palaikomi produktuose, pasiūlymuose, užsakymuose ir SF.
+
+Daugiau informacijos apie būsimus keitimus žr. [Kas nauja ar pasikeitė dvigubo rašymo integravime](whats-new-dual-write.md).
+
