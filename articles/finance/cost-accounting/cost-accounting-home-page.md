@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace, CAMAXCostAccountingSetupWizard
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -18,38 +18,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 78b3b20ed56cbb6404f5526e90fdcefcaec9bf3f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2281c3222ff8c38a66e799fc8bf4a5d29a9c6072
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771966"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759501"
 ---
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="724c9-103">Savikainos apskaitos pagrindinis puslapis</span><span class="sxs-lookup"><span data-stu-id="724c9-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="03460-103">Savikainos apskaitos pagrindinis puslapis</span><span class="sxs-lookup"><span data-stu-id="03460-103">Cost accounting home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="724c9-104">Mokymo planas</span><span class="sxs-lookup"><span data-stu-id="724c9-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="03460-104">Mokymo planas</span><span class="sxs-lookup"><span data-stu-id="03460-104">Learning map</span></span> 
 
-<span data-ttu-id="724c9-105">Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudarančios modulio Kaštų apskaita sistemą.</span><span class="sxs-lookup"><span data-stu-id="724c9-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="724c9-106">Norėdami sužinoti, kaip naudoti modulį, spustelėkite skyriuje [Spartieji saitai](#quick-links) pateiktus saitus.</span><span class="sxs-lookup"><span data-stu-id="724c9-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="03460-105">Tolesniame mokymo plane parodytos pagrindinės sąvokos ir užduotys, sudarančios modulio Kaštų apskaita sistemą.</span><span class="sxs-lookup"><span data-stu-id="03460-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="03460-106">Norėdami sužinoti, kaip naudoti modulį, spustelėkite skyriuje [Spartieji saitai](#quick-links) pateiktus saitus.</span><span class="sxs-lookup"><span data-stu-id="03460-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="724c9-107">[![Kaštų apskaitos mokymo planas](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="724c9-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="03460-107">[![Kaštų apskaitos mokymo planas](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="03460-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="724c9-108">Spartieji saitai</span><span class="sxs-lookup"><span data-stu-id="724c9-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="03460-108">Spartieji saitai</span><span class="sxs-lookup"><span data-stu-id="03460-108">Quick links</span></span>
 
 |      |   |
 |------|---|
-|  <span data-ttu-id="724c9-109">[Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia „CustomerSource“ paskyros)</span><span class="sxs-lookup"><span data-stu-id="724c9-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="724c9-110">Savikainos elemento dimensijos</span><span class="sxs-lookup"><span data-stu-id="724c9-110">Cost element dimensions</span></span>](cost-elements.md)  |
-|  [<span data-ttu-id="724c9-111">Dimensijų hierarchija</span><span class="sxs-lookup"><span data-stu-id="724c9-111">Dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="724c9-112">savikainos kontrolės įtaisų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="724c9-112">Define cost control units</span></span>](./tasks/define-cost-control-units.md)| 
-| [<span data-ttu-id="724c9-113">Paskirstymo bazės</span><span class="sxs-lookup"><span data-stu-id="724c9-113">Allocation bases</span></span>](allocation-bases.md)|[<span data-ttu-id="724c9-114">Savikainos paskirstymo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui</span><span class="sxs-lookup"><span data-stu-id="724c9-114">Create and assign a cost allocation policy to a cost control unit</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
-| [<span data-ttu-id="724c9-115">Tvarkyti savikainos apskaitos didžiosios knygos duomenų šaltinį</span><span class="sxs-lookup"><span data-stu-id="724c9-115">Manage a data source for the cost accounting ledger</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="724c9-116">Šaltinio duomenų apdorojimas ir sekimas</span><span class="sxs-lookup"><span data-stu-id="724c9-116">Process and trace source data</span></span>](./tasks/process-trace-source-data.md)     | 
-|[<span data-ttu-id="724c9-117">Pridėtinių išlaidų skaičiavimas</span><span class="sxs-lookup"><span data-stu-id="724c9-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="724c9-118">Savikainos kontrolės darbo sritis</span><span class="sxs-lookup"><span data-stu-id="724c9-118">Cost control workspace</span></span>](cost-control-workspace.md)   |
+|  <span data-ttu-id="03460-109">[Pagrindinių objektų konfigūravimas (el. mokymasis)](https://mbspartner.microsoft.com/Home) (reikia „CustomerSource“ paskyros)</span><span class="sxs-lookup"><span data-stu-id="03460-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="03460-110">Savikainos elemento dimensijos</span><span class="sxs-lookup"><span data-stu-id="03460-110">Cost element dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="03460-111">Dimensijų hierarchija</span><span class="sxs-lookup"><span data-stu-id="03460-111">Dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="03460-112">savikainos kontrolės įtaisų apibrėžimas</span><span class="sxs-lookup"><span data-stu-id="03460-112">Define cost control units</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="03460-113">Paskirstymo bazės</span><span class="sxs-lookup"><span data-stu-id="03460-113">Allocation bases</span></span>](allocation-bases.md)|[<span data-ttu-id="03460-114">Savikainos paskirstymo strategijos kūrimas ir priskyrimas savikainos kontrolės įtaisui</span><span class="sxs-lookup"><span data-stu-id="03460-114">Create and assign a cost allocation policy to a cost control unit</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="03460-115">Tvarkyti savikainos apskaitos didžiosios knygos duomenų šaltinį</span><span class="sxs-lookup"><span data-stu-id="03460-115">Manage a data source for the cost accounting ledger</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="03460-116">Šaltinio duomenų apdorojimas ir sekimas</span><span class="sxs-lookup"><span data-stu-id="03460-116">Process and trace source data</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="03460-117">Pridėtinių išlaidų skaičiavimas</span><span class="sxs-lookup"><span data-stu-id="03460-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="03460-118">Savikainos kontrolės darbo sritis</span><span class="sxs-lookup"><span data-stu-id="03460-118">Cost control workspace</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="724c9-119">Darbo pradžios vaizdo įrašai</span><span class="sxs-lookup"><span data-stu-id="724c9-119">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="03460-119">Darbo pradžios vaizdo įrašai</span><span class="sxs-lookup"><span data-stu-id="03460-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
-| [<span data-ttu-id="724c9-120">Darbo su moduliu Kaštų apskaita pradžia</span><span class="sxs-lookup"><span data-stu-id="724c9-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="724c9-121">Kaštų apskaitos mobilioji darbo sritis</span><span class="sxs-lookup"><span data-stu-id="724c9-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="724c9-122">„Excel“ naudojimas kaštų apskaitos analizei</span><span class="sxs-lookup"><span data-stu-id="724c9-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
+| [<span data-ttu-id="03460-120">Darbo su moduliu Kaštų apskaita pradžia</span><span class="sxs-lookup"><span data-stu-id="03460-120">Get started with cost accounting</span></span>](https://www.youtube.com/watch?v=1pUDtJQZ8FU&t=35s)  | [<span data-ttu-id="03460-121">Kaštų apskaitos mobilioji darbo sritis</span><span class="sxs-lookup"><span data-stu-id="03460-121">Cost accounting mobile workspace</span></span>](https://www.youtube.com/watch?v=imsuTg8rUVk&t=7s)  |   [<span data-ttu-id="03460-122">„Excel“ naudojimas kaštų apskaitos analizei</span><span class="sxs-lookup"><span data-stu-id="03460-122">Use Excel for cost accounting analysis</span></span>](https://www.youtube.com/watch?v=-HKHYdClvx8)  |
 
 
 
