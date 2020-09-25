@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cd48732280c9af0b89129a32b42285207f97fb7
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 069ec0c6d5578ca6ab68814adf325bd79e73b9e8
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041980"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3745062"
 ---
-# <span data-ttu-id="9bd07-103"><a name="LISTOFFIRSTITEM">ER LISTOFFIRSTITEM funkcija</a></span><span class="sxs-lookup"><span data-stu-id="9bd07-103"><a name="LISTOFFIRSTITEM">LISTOFFIRSTITEM ER function</a></span></span>
+# <a name="listoffirstitem-er-function"></a><span data-ttu-id="445c6-103">ER LISTOFFIRSTITEM funkcija</span><span class="sxs-lookup"><span data-stu-id="445c6-103">LISTOFFIRSTITEM ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9bd07-104">`LISTOFFIRSTITEM` funkcija pateikia tipo *Įrašų sąrašas* reikšmę, kurią sudaro tik pirmasis nurodyto sąrašo įrašas.</span><span class="sxs-lookup"><span data-stu-id="9bd07-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
+<span data-ttu-id="445c6-104">`LISTOFFIRSTITEM` funkcija pateikia tipo *Įrašų sąrašas* reikšmę, kurią sudaro tik pirmasis nurodyto sąrašo įrašas.</span><span class="sxs-lookup"><span data-stu-id="445c6-104">The `LISTOFFIRSTITEM` function returns a *Record list* value that consists of only the first record of the specified list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9bd07-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="9bd07-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="445c6-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="445c6-105">Syntax</span></span>
 
 ```vb
 LISTOFFIRSTITEM (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="9bd07-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="9bd07-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="445c6-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="445c6-106">Arguments</span></span>
 
-<span data-ttu-id="9bd07-107">`list`: *Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="9bd07-107">`list`: *Record list*</span></span>
+<span data-ttu-id="445c6-107">`list`: *Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="445c6-107">`list`: *Record list*</span></span>
 
-<span data-ttu-id="9bd07-108">Tinkamas *Įrašų sąrašo* duomenų tipo duomenų šaltinio elemento maršrutas.</span><span class="sxs-lookup"><span data-stu-id="9bd07-108">The valid path of a data source of the *Record list* data type.</span></span>
+<span data-ttu-id="445c6-108">Tinkamas *Įrašų sąrašo* duomenų tipo duomenų šaltinio elemento maršrutas.</span><span class="sxs-lookup"><span data-stu-id="445c6-108">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="9bd07-109">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="9bd07-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="445c6-109">Pateikiamos reikšmės</span><span class="sxs-lookup"><span data-stu-id="445c6-109">Return values</span></span>
 
-<span data-ttu-id="9bd07-110">*Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="9bd07-110">*Record list*</span></span>
+<span data-ttu-id="445c6-110">*Įrašų sąrašas*</span><span class="sxs-lookup"><span data-stu-id="445c6-110">*Record list*</span></span>
 
-<span data-ttu-id="9bd07-111">Gautas įrašų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="9bd07-111">The resulting list of records.</span></span>
+<span data-ttu-id="445c6-111">Gautas įrašų sąrašas.</span><span class="sxs-lookup"><span data-stu-id="445c6-111">The resulting list of records.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9bd07-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="9bd07-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="445c6-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="445c6-112">Example</span></span>
 
-<span data-ttu-id="9bd07-113">Reiškinys `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` pateikia teksto reikšmę **„A“**.</span><span class="sxs-lookup"><span data-stu-id="9bd07-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
+<span data-ttu-id="445c6-113">Reiškinys `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` pateikia teksto reikšmę **„A“**.</span><span class="sxs-lookup"><span data-stu-id="445c6-113">The expression `FIRST( LISTOFFIRSTITEM ( SPLIT ("ABC",1))).Value` returns the text value **"A"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="9bd07-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="9bd07-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="445c6-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="445c6-114">Additional resources</span></span>
 
-[<span data-ttu-id="9bd07-115">Sąrašo funkcijos</span><span class="sxs-lookup"><span data-stu-id="9bd07-115">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="445c6-115">Sąrašo funkcijos</span><span class="sxs-lookup"><span data-stu-id="445c6-115">List functions</span></span>](er-functions-category-list.md)

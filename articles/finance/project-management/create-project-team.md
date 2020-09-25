@@ -1,0 +1,64 @@
+---
+title: Projekto komandos kūrimas
+description: Šioje temoje pateikiama informacija apie tai, kaip kurti ir valdyti projekto komandas.
+author: Yowelle
+manager: AnnBe
+ms.date: 09/01/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ProjProjectsListPage
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: 82022
+ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
+ms.search.region: Global
+ms.author: knelson
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 834a6c0a4fcc32a955c1feddf0a6cbbb1f16b869
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760614"
+---
+# <a name="create-a-project-team"></a><span data-ttu-id="dc3d4-103">Projekto komandos kūrimas</span><span class="sxs-lookup"><span data-stu-id="dc3d4-103">Create a project team</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="dc3d4-104">Norėdamas naudoti vaidmenis, kurie buvo anksčiau nustatyti projekte, projekto vadovas tuos vaidmenis turi susieti su projektu.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-104">To use the roles that were previously set up in a project, a project manager must associate the roles with the project.</span></span> <span data-ttu-id="dc3d4-105">Projektui galima priskirti kelis vaidmenis.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-105">Multiple roles can be assigned for a project.</span></span> <span data-ttu-id="dc3d4-106">Kad būtų išvengta painiavos, rezervavimo metu šie vaidmenys automatiškai pažymimi.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-106">To prevent confusion, these roles are automatically labeled during reservation.</span></span> <span data-ttu-id="dc3d4-107">Pavyzdžiui, jei projekto vadovui reikia trijų programinės įrangos inžinierių, automatiškai sugeneruojami trys programinės įrangos inžinieriaus vaidmenys, kurių žymos – **1 programinės įrangos inžinierius**, **2 programinės įrangos inžinierius** ir **3 programinės įrangos inžinierius**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-107">For example, if the project manager requires three software engineers, three Software engineer roles that have **software engineer 1**, **software engineer 2**, and **software engineer 3** as their labels are automatically generated.</span></span> <span data-ttu-id="dc3d4-108">Jei anksčiau buvo nustatytos vaidmenų charakteristikos, ieškant ištekliaus jos taikomos kaip filtras.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-108">If role characteristics were previously set for the role, they are applied as a filter during searches for a resource.</span></span> <span data-ttu-id="dc3d4-109">Pagal poreikį galima pridėti papildomų charakteristikų ir taip dar patikslinti iešką.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-109">Additional characteristics can be added as required to further refine the search.</span></span>
+
+<span data-ttu-id="dc3d4-110">Taip pat galima tinkinti rodinio parametrus, kad būtų galima geriau matyti išteklių prieinamumą.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-110">View settings can also be customized to give a better view of resource availability.</span></span> <span data-ttu-id="dc3d4-111">Parinktimis galima nustatyti valandos, dienos, savaitės, mėnesio, ketvirčio ir metų prieinamumo rodymą.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-111">There are options to show hourly, daily, weekly, monthly, quarterly, and annual availability.</span></span> <span data-ttu-id="dc3d4-112">Taip pat galima parinktis rodyti turimą ir likusį išteklių pajėgumą.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-112">There is also an option to show available and remaining capacity on resources.</span></span> <span data-ttu-id="dc3d4-113">Ši parinktis naudinga valdant laiką, kai vertinamas turimas veikloms skirtas laikas ar išteklių prieinamumas.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-113">This option is useful for time management, when you're estimating available time for activities or resource availability.</span></span>
+
+<span data-ttu-id="dc3d4-114">Projekto vadovas puslapyje gali pasirinkti vaidmenį ir, jei turimas reikalavimą atitinkantis išteklius, pasirinkti rezervuoti išteklių vaidmeniui užimti.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-114">The project manager can select a role on the page and then, if there is an available resource that fits the requirement, select to reserve a resource to fill the role.</span></span> <span data-ttu-id="dc3d4-115">Atkreipkite dėmesį, kad šiame planavimo etape išteklių rezervuoti nereikia.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-115">Note that the resources don't have to be reserved at this point in the planning stage.</span></span> <span data-ttu-id="dc3d4-116">Kai kuriate WBS, vaidmenis galite pakeisti darbuotojams priskirtais projekto ištekliais.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-116">When you create a WBS, you can replace roles with staffed resources for the project.</span></span> <span data-ttu-id="dc3d4-117">Jei WBS vaidmenys pakeičiami darbuotojams priskirtais ištekliais, nustatant išteklius automatiškai atnaujinamas projekto komandos sąrašas ir planavimas.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-117">If roles are replaced with staffed resources in the WBS, the resource setup automatically updates the project team listing and scheduling.</span></span>
+
+<span data-ttu-id="dc3d4-118">[![Projekto komandos sąrašas tiek su vaidmenimis, tiek su faktiniais ištekliais](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span><span class="sxs-lookup"><span data-stu-id="dc3d4-118">[![Project team listing that includes both roles and actual resources](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg)</span></span> 
+
+<span data-ttu-id="dc3d4-119">Projekto vadovas turi įvairių projekto ištekliaus rezervavimo parinkčių, pvz., **Likęs pajėgumas**, **Visas pajėgumas**, **Pajėgumo procentas** ir **Nurodyti valandas**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-119">The project manager has various options for booking a resource for a project, such as **Remaining capacity**, **Full capacity**, **Capacity percentage**, and **Specify hours**.</span></span> <span data-ttu-id="dc3d4-120">Pakitus išteklių priskyrimams, šias rezervavimo parinktis galima bet kuriuo metu atšaukti.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-120">These booking options can be canceled at any time if resource assignments change.</span></span> <span data-ttu-id="dc3d4-121">Palaikomi du tolesni rezervavimo tipai.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-121">Two types of booking are supported:</span></span>
+
+- <span data-ttu-id="dc3d4-122">**Tikslus rezervavimas** – išteklių rezervavimas buvo patvirtintas įtraukimo darbui nurodytą trukmę.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-122">**Hard Book** – The resource reservation was approved and confirmed to work on the engagement for the specified duration.</span></span>
+- <span data-ttu-id="dc3d4-123">**Apytikslis rezervavimas** – išteklių rezervavimas buvo preliminariai nustatytas įtraukimo darbui nurodytą trukmę.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-123">**Soft book** – The resource reservations was tentatively set to work on the engagement for the specified duration.</span></span>
+
+<span data-ttu-id="dc3d4-124">Tolesne procedūra paaiškinama, kaip sukurti projekto komandą.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-124">The following procedure explains how to create a project team.</span></span>
+
+## <a name="create-a-project-team"></a><span data-ttu-id="dc3d4-125">Projekto komandos kūrimas</span><span class="sxs-lookup"><span data-stu-id="dc3d4-125">Create a project team</span></span>
+
+1. <span data-ttu-id="dc3d4-126">Sąrašo puslapyje **Visi projektai** pasirinkite projektą ir pasirinkite **Redaguoti**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-126">On the **All projects** list page, select a project, and then select **Edit**.</span></span>
+2. <span data-ttu-id="dc3d4-127">Skirtuke **Projekto komanda ir planavimas**, lauke **Grafiko pabaigos data** įveskite grafiko pradžios datą ir pridėkite vieną mėnesį.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-127">On the **Project team and scheduling** tab, in the **Schedule end date** field, enter the schedule start date plus one month.</span></span> <span data-ttu-id="dc3d4-128">Pavyzdžiui, jei grafiko pradžios data yra 2017 m. birželio 24 d. (2017-06-24), įveskite **2017-07-24**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-128">For example, if the schedule start date is June 24, 2017 (24/06/2017), enter **24/07/2017**.</span></span>
+3. <span data-ttu-id="dc3d4-129">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-129">Select **Add**.</span></span>
+4. <span data-ttu-id="dc3d4-130">Srityje **Į projektą įtraukti vaidmenų**, lauke **Vaidmuo** pasirinkite **Vyresnysis projektų vadovas**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-130">In the **Add roles to the project** pane, in the **Role** field, select **Senior Project Manager**.</span></span>
+5. <span data-ttu-id="dc3d4-131">Pasirinkite **Būtinosios kompetencijos**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-131">Select **Required competencies**.</span></span>
+6. <span data-ttu-id="dc3d4-132">Puslapyje **Pasirinkti charakteristikas** pagal numatytuosius parametrus pasirenkamos anksčiau jūsų nustatytos vyresniojo projektų vadovo vaidmens charakteristikos.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-132">On the **Choose characteristics** page, the characteristics that you previously set for the Senior project manager role are selected by default.</span></span> <span data-ttu-id="dc3d4-133">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-133">Select **OK**.</span></span>
+7. <span data-ttu-id="dc3d4-134">Puslapyje **Į projektą įtraukti vaidmenų**, lauke **Išteklių skaičius** įveskite **1**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-134">On the **Add roles to project** page, in the **Number of resources** field, enter **1**.</span></span>
+8. <span data-ttu-id="dc3d4-135">Lauke **Išteklius** peržvalga rodo visus išteklius, turinčius reikiamas kompetencijas.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-135">In the **Resource** field, the lookup shows all resources that have the required competencies.</span></span> <span data-ttu-id="dc3d4-136">Pasirinkite **Danielis Goldschmidtas**, tada – **Kurti**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-136">Select **Daniel Goldschmidt**, and then select **Create**.</span></span>
+9. <span data-ttu-id="dc3d4-137">Puslapyje **Projektas** pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-137">On the **Project** page, select **Add**.</span></span>
+10. <span data-ttu-id="dc3d4-138">Srityje **Į projektą įtraukti vaidmenų**, lauke **Vaidmuo** pasirinkite **Komandos narys**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-138">In the **Add roles to the project** pane, in the **Role** field, select **Team member**.</span></span> <span data-ttu-id="dc3d4-139">Lauke **Išteklių skaičius** įveskite **5**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-139">In the **Number of resources** field, enter **5**.</span></span>
+11. <span data-ttu-id="dc3d4-140">Pasirinkite **Kurti**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-140">Select **Create**.</span></span>
+12. <span data-ttu-id="dc3d4-141">Puslapyje **Projektai** pasirinkite **Panaudoti išteklių**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-141">On the **Projects** page, select **Fulfill resource**.</span></span>
+
+## <a name="monitor-project-teams"></a><span data-ttu-id="dc3d4-142">Projekto komandų stebėjimas</span><span class="sxs-lookup"><span data-stu-id="dc3d4-142">Monitor project teams</span></span>
+1. <span data-ttu-id="dc3d4-143">Puslapyje **Visi projektai** pasirinkite projekto **XYZ atnaujinimas, 2 etapas** saitą **Projekto ID**.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-143">On the **All projects** page, select the **Project ID** link for the **XYZ Upgrade Phase 2** project.</span></span>
+2. <span data-ttu-id="dc3d4-144">„FastTab‟ **Projekto komanda ir planavimas** patikrinkite, ar išvardyti projekto ištekliai yra teisingi.</span><span class="sxs-lookup"><span data-stu-id="dc3d4-144">On the **Project team and scheduling** FastTab, verify that the project resources that are listed are correct.</span></span>

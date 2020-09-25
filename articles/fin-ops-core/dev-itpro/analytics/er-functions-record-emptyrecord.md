@@ -18,46 +18,46 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a02cdd085a236065bb3622b36f7d3284144d96e5
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: 2e46fcef3d53483b782ac39a0661fc0edc8d861c
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041290"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3743955"
 ---
-# <span data-ttu-id="4108e-103"><a name="EMPTYRECORD">EMPTYRECORD ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="4108e-103"><a name="EMPTYRECORD">EMPTYRECORD ER function</a></span></span>
+# <a name="emptyrecord-er-function"></a><span data-ttu-id="bc6b9-103">EMPTYRECORD ER funkcija</span><span class="sxs-lookup"><span data-stu-id="bc6b9-103">EMPTYRECORD ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="4108e-104">`EMPTYRECORD` funkcija grąžina nulinę *konteinerio (įrašo)* reikšmę, kurios struktūra yra tokia pati kaip nurodyto įrašų sąrašo arba įrašo.</span><span class="sxs-lookup"><span data-stu-id="4108e-104">The `EMPTYRECORD` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
+<span data-ttu-id="bc6b9-104">`EMPTYRECORD` funkcija grąžina nulinę *konteinerio (įrašo)* reikšmę, kurios struktūra yra tokia pati kaip nurodyto įrašų sąrašo arba įrašo.</span><span class="sxs-lookup"><span data-stu-id="bc6b9-104">The `EMPTYRECORD` function returns a null *Container (record)* value that has the same structure as the specified record list or record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4108e-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="4108e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc6b9-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="bc6b9-105">Syntax</span></span>
 
 ```vb
 EMPTYRECORD (list)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="4108e-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="4108e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="bc6b9-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="bc6b9-106">Arguments</span></span>
 
-<span data-ttu-id="4108e-107">`list`: *Įrašų sąrašas* arba *Konteineris (įrašas)*</span><span class="sxs-lookup"><span data-stu-id="4108e-107">`list`: *Record list* or *Container (record)*</span></span>
+<span data-ttu-id="bc6b9-107">`list`: *Įrašų sąrašas* arba *Konteineris (įrašas)*</span><span class="sxs-lookup"><span data-stu-id="bc6b9-107">`list`: *Record list* or *Container (record)*</span></span>
 
-<span data-ttu-id="4108e-108">Tinkamas *Įrašų sąrašo* arba *Konteinerio (įrašo)* tipo duomenų šaltinio maršrutas.</span><span class="sxs-lookup"><span data-stu-id="4108e-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
+<span data-ttu-id="bc6b9-108">Tinkamas *Įrašų sąrašo* arba *Konteinerio (įrašo)* tipo duomenų šaltinio maršrutas.</span><span class="sxs-lookup"><span data-stu-id="bc6b9-108">The valid path of a data source of either the *Record list* or *Container (record)* type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="4108e-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="4108e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bc6b9-109">Grįžties vertės</span><span class="sxs-lookup"><span data-stu-id="bc6b9-109">Return values</span></span>
 
-<span data-ttu-id="4108e-110">*Konteineris (įrašas)*</span><span class="sxs-lookup"><span data-stu-id="4108e-110">*Container (record)*</span></span>
+<span data-ttu-id="bc6b9-110">*Konteineris (įrašas)*</span><span class="sxs-lookup"><span data-stu-id="bc6b9-110">*Container (record)*</span></span>
 
-<span data-ttu-id="4108e-111">Gauta įrašo reikšmė.</span><span class="sxs-lookup"><span data-stu-id="4108e-111">The resulting record value.</span></span>
+<span data-ttu-id="bc6b9-111">Gauta įrašo reikšmė.</span><span class="sxs-lookup"><span data-stu-id="bc6b9-111">The resulting record value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="4108e-112">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="4108e-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="bc6b9-112">Naudojimo pastabos</span><span class="sxs-lookup"><span data-stu-id="bc6b9-112">Usage notes</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="4108e-113">Neapibrėžtas įrašas yra toks, kurio visų laukų reikšmės yra tuščios.</span><span class="sxs-lookup"><span data-stu-id="4108e-113">A null record is a record where all fields have an empty value.</span></span> <span data-ttu-id="4108e-114">Tuščia skaičių reikšmė yra **0** (nulis), eilučių – tuščia eilutė ir t. t.</span><span class="sxs-lookup"><span data-stu-id="4108e-114">An empty value is **0** (zero) for numbers, an empty string for strings, and so on.</span></span>
+> <span data-ttu-id="bc6b9-113">Neapibrėžtas įrašas yra toks, kurio visų laukų reikšmės yra tuščios.</span><span class="sxs-lookup"><span data-stu-id="bc6b9-113">A null record is a record where all fields have an empty value.</span></span> <span data-ttu-id="bc6b9-114">Tuščia skaičių reikšmė yra **0** (nulis), eilučių – tuščia eilutė ir t. t.</span><span class="sxs-lookup"><span data-stu-id="bc6b9-114">An empty value is **0** (zero) for numbers, an empty string for strings, and so on.</span></span>
 
-## <a name="example"></a><span data-ttu-id="4108e-115">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="4108e-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="bc6b9-115">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="bc6b9-115">Example</span></span>
 
-<span data-ttu-id="4108e-116">`EMPTYRECORD (SPLIT ("abc", 1))` grąžina naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį grąžina `SPLIT` funkcija.</span><span class="sxs-lookup"><span data-stu-id="4108e-116">`EMPTYRECORD (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="4108e-117">Daugiau informacijos žr. [SPLIT](er-functions-list-split.md).</span><span class="sxs-lookup"><span data-stu-id="4108e-117">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
+<span data-ttu-id="bc6b9-116">`EMPTYRECORD (SPLIT ("abc", 1))` grąžina naują tuščią įrašą, kuris yra tokios pačios struktūros kaip ir sąrašas, kurį grąžina `SPLIT` funkcija.</span><span class="sxs-lookup"><span data-stu-id="bc6b9-116">`EMPTYRECORD (SPLIT ("abc", 1))` returns a new empty record that has the same structure as the list that is returned by the `SPLIT` function.</span></span> <span data-ttu-id="bc6b9-117">Daugiau informacijos žr. [SPLIT](er-functions-list-split.md).</span><span class="sxs-lookup"><span data-stu-id="bc6b9-117">For more information, see [SPLIT](er-functions-list-split.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="4108e-118">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="4108e-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bc6b9-118">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="bc6b9-118">Additional resources</span></span>
 
-[<span data-ttu-id="4108e-119">Įrašo funkcijos</span><span class="sxs-lookup"><span data-stu-id="4108e-119">Record functions</span></span>](er-functions-category-record.md)
+[<span data-ttu-id="bc6b9-119">Įrašo funkcijos</span><span class="sxs-lookup"><span data-stu-id="bc6b9-119">Record functions</span></span>](er-functions-category-record.md)

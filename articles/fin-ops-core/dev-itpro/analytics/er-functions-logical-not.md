@@ -18,41 +18,41 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a518f255a4488c5ed6e007b1787e678fd88aff36
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: af588c3714069040fa339d3121e6eb404b9be979
+ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3041727"
+ms.lasthandoff: 09/01/2020
+ms.locfileid: "3744652"
 ---
-# <span data-ttu-id="6746d-103"><a name="NOT">NOT ER funkcija</a></span><span class="sxs-lookup"><span data-stu-id="6746d-103"><a name="NOT">NOT ER function</a></span></span>
+# <a name="not-er-function"></a><span data-ttu-id="984d3-103">NOT ER funkcija</span><span class="sxs-lookup"><span data-stu-id="984d3-103">NOT ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6746d-104">`NOT` funkcija grąžina nurodytos sąlygos atvirkštinės reikšmės loginę reikšmę kaip *Bulio logikos* reikšmę.</span><span class="sxs-lookup"><span data-stu-id="6746d-104">The `NOT` function returns the reversed logical value of the specified condition as a *Boolean* value.</span></span>
+<span data-ttu-id="984d3-104">`NOT` funkcija grąžina nurodytos sąlygos atvirkštinės reikšmės loginę reikšmę kaip *Bulio logikos* reikšmę.</span><span class="sxs-lookup"><span data-stu-id="984d3-104">The `NOT` function returns the reversed logical value of the specified condition as a *Boolean* value.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6746d-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="6746d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="984d3-105">Sintaksė</span><span class="sxs-lookup"><span data-stu-id="984d3-105">Syntax</span></span>
 
 ```vb
 NOT (condition)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="6746d-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="6746d-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="984d3-106">Argumentai</span><span class="sxs-lookup"><span data-stu-id="984d3-106">Arguments</span></span>
 
-<span data-ttu-id="6746d-107">`condition`: *Bulio logika*</span><span class="sxs-lookup"><span data-stu-id="6746d-107">`condition`: *Boolean*</span></span>
+<span data-ttu-id="984d3-107">`condition`: *Bulio logika*</span><span class="sxs-lookup"><span data-stu-id="984d3-107">`condition`: *Boolean*</span></span>
 
-<span data-ttu-id="6746d-108">Tinkama sąlyginė išraiška, kuri turi būti atvirkščiai perdaryta.</span><span class="sxs-lookup"><span data-stu-id="6746d-108">A valid conditional expression that must be reversed.</span></span>
+<span data-ttu-id="984d3-108">Tinkama sąlyginė išraiška, kuri turi būti atvirkščiai perdaryta.</span><span class="sxs-lookup"><span data-stu-id="984d3-108">A valid conditional expression that must be reversed.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="6746d-109">Grįžimo vertės</span><span class="sxs-lookup"><span data-stu-id="6746d-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="984d3-109">Grįžimo vertės</span><span class="sxs-lookup"><span data-stu-id="984d3-109">Return values</span></span>
 
-<span data-ttu-id="6746d-110">*Būlio logika*</span><span class="sxs-lookup"><span data-stu-id="6746d-110">*Boolean*</span></span>
+<span data-ttu-id="984d3-110">*Būlio logika*</span><span class="sxs-lookup"><span data-stu-id="984d3-110">*Boolean*</span></span>
 
-<span data-ttu-id="6746d-111">Gaunama *Bulio logikos* reikšmė.</span><span class="sxs-lookup"><span data-stu-id="6746d-111">The resulting *Boolean* value.</span></span>
+<span data-ttu-id="984d3-111">Gaunama *Bulio logikos* reikšmė.</span><span class="sxs-lookup"><span data-stu-id="984d3-111">The resulting *Boolean* value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6746d-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="6746d-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="984d3-112">Pavyzdys</span><span class="sxs-lookup"><span data-stu-id="984d3-112">Example</span></span>
 
-<span data-ttu-id="6746d-113">`NOT (TRUE)` grąžina **KLAIDINGA**.</span><span class="sxs-lookup"><span data-stu-id="6746d-113">`NOT (TRUE)` returns **FALSE**.</span></span>
+<span data-ttu-id="984d3-113">`NOT (TRUE)` grąžina **KLAIDINGA**.</span><span class="sxs-lookup"><span data-stu-id="984d3-113">`NOT (TRUE)` returns **FALSE**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6746d-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="6746d-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="984d3-114">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="984d3-114">Additional resources</span></span>
 
-[<span data-ttu-id="6746d-115">Loginės funkcijos</span><span class="sxs-lookup"><span data-stu-id="6746d-115">Logical functions</span></span>](er-functions-category-logical.md)
+[<span data-ttu-id="984d3-115">Loginės funkcijos</span><span class="sxs-lookup"><span data-stu-id="984d3-115">Logical functions</span></span>](er-functions-category-logical.md)
