@@ -3,7 +3,7 @@ title: Įtraukti parankinių piktogramą
 description: Šioje temoje paaiškinama, kaip į savo svetainę įtraukti parankinių piktogramą.
 author: bicyclingfool
 manager: annbe
-ms.date: 04/27/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 198927e3391bdb577ebc845ff41d49ca798251ff
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 262e478d426fd913130b21a3434331c7d27b54b2
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686795"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761158"
 ---
 # <a name="add-a-favicon"></a>Įtraukti parankinių piktogramą
 
@@ -58,30 +58,30 @@ Norėdami sukurti parankinių piktogramos HTML, naudokite tolesnę HTML eilutę.
 
 `<link rel="shortcut icon" href="Public_URL_for_your_favicon">`
 
-## <a name="create-a-page-fragment-that-contains-a-metatag-for-your-favicon"></a>Puslapio fragmento, kuriame yra jūsų parankinių piktogramos metažymių, kūrimas
+## <a name="create-a-fragment-that-contains-a-metatag-for-your-favicon"></a>Fragmento, kuriame yra jūsų parankinių piktogramos metažymių, kūrimas
 
-Norėdami sukurti puslapio fragmentą, kuriame yra jūsų parankinių piktogramos metažymių, atlikite tolesnius veiksmus.
+Norėdami sukurti fragmentą, kuriame yra jūsų parankinių piktogramos metažymių, atlikite tolesnius veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
-1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Meta skirtukai**, kaip modulį, kuriuo remiasi puslapio fragmentas.
-1. Įveskite puslapio fragmento pavadinimą, tada pasirinkite **Gerai**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Meta skirtukai**, kaip modulį, kuriuo remiasi fragmentas.
+1. Įveskite fragmento pavadinimą, tada pasirinkite **Gerai**.
 1. Fragmento hierarchijos medyje pasirinkite antrinį elementą **Numatytosios metažymės**.
 1. Dešiniosios srities dalyje **Metažymės** pasirinkite **Įtraukti** ir įveskite anksčiau sukurtą HTML eilutę, skirtą parankinių piktogramai. 
-1. Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte puslapio fragmentą.
+1. Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte fragmentą.
 
-## <a name="add-the-metatag-page-fragment-to-the-html-head-section-of-your-pages"></a>Metažymės puslapio fragmento įtraukimas į jūsų puslapių HTML antraštės sekciją
+## <a name="add-the-metatag-fragment-to-the-html-head-section-of-your-pages"></a>Metažymės fragmento įtraukimas į jūsų puslapių HTML antraštės sekciją
 
-Norėdami įtraukti metažymės puslapio fragmentą į jūsų puslapių HTML **antraštės** sekciją, atlikite tolesnius veiksmus.
+Norėdami įtraukti metažymės fragmentą į jūsų puslapių HTML **antraštės** sekciją, atlikite tolesnius veiksmus.
 
 1. Eikite į **Šablonai**, atidarykite puslapių, į kuriuos norite įtraukti parankinių piktogramą, šabloną ir pasirinkite **Redaguoti**.
-1. Šablonų hierarchijos medyje pasirinkite daugtaškio (**...**) mygtuką, esantį dešinėje konteinerio **HTML antraštė** pusėje, ir pasirinkite **Įtraukti puslapio fragmentą**.
-1. **Pasirinkti puslapio fragmentą** teksto laukelyje, pasirinkite meta skirtuko puslapio fragmentą, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
+1. Šablonų hierarchijos medyje pasirinkite daugtaškio (**...**) mygtuką, esantį dešinėje konteinerio **HTML antraštė** pusėje, ir pasirinkite **Įtraukti fragmentą**.
+1. Dialogo lange **Pasirinkti fragmentą** pasirinkite meta skirtuko fragmentą, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
 1. Pasirinkite **Baigti redagavimą**, o tada pasirinkite **Publikuoti**, kad publikuotumėte šabloną.
 
 > [!NOTE]
-> Jei jūsų svetainė naudoja daugiau nei vieną šabloną, turite įtraukti metažymės puslapio fragmentą į visus juos.
+> Jei jūsų svetainė naudoja daugiau nei vieną šabloną, turite įtraukti metažymės fragmentą į visus juos.
 
-Kai peržiūrite puslapius, pagrįstus šablonu, į kurį įtraukėte metažymės puslapio fragmentą, matysite parankinių piktogramą naršyklės skirtuke.
+Kai peržiūrite puslapius, pagrįstus šablonu, į kurį įtraukėte metažymės fragmentą, matysite parankinių piktogramą naršyklės skirtuke.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

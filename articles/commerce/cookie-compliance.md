@@ -3,7 +3,7 @@ title: Slapukų atitiktis
 description: Šioje temoje apžvelgiama slapukų atitiktis ir numatytosios strategijos, įtrauktos į „Microsoft Dynamics 365 Commerce“.
 author: BrianShook
 manager: annbe
-ms.date: 06/12/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1fa016dc9f46b048220f0f83e4b0783087de91e
-ms.sourcegitcommit: c66c4c67a21e7d7d3a94a3fd766c3184b6e65c4e
+ms.openlocfilehash: 4f54b9b8130a167dbecdb13fccd7039f827f6ed0
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3446918"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761326"
 ---
 # <a name="cookie-compliance"></a>Slapukų atitiktis
 
@@ -56,12 +56,20 @@ Toliau pateikiamoje lentelėje rodomas dabartinis slapukų nuorodų sąrašas, k
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Naudojama SSO seansui tvarkyti.                        |
 | x-ms-cpim-trans                             | Naudojama operacijoms stebėti (atidarytų skirtukų skaičius, kuriais autentifikuojama lyginant su įmonė–vartotojui (B2C) svetaine), įskaitant dabartinę operaciją. |
 
+## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Svetainės vartotojo sutikimas dėl slapukų „e-Commerce” svetainėje 
+
+Jei „e-Commerce” svetainės funkcija ar modulis naudoja nepagrindinius slapukus, prieš naudojant juos reikia gauti svetainės vartotojo sutikimą. Norint leisti svetainės vartotojams pateikti sutikimą dėl slapukų „e-Commerce” svetainėje, svetainės autorius turi įtraukti ir konfigūruoti sutikimo dėl slapukų modulį puslapio antraštės modulyje, kad būtų užtikrinta, jog sutikimo reikalaujama ir jis gaunamas. Svetainės vartotojo sutikimas turi būti suteiktas prieš funkcijos arba modulio, naudojančio nepagrindinius slapukus, atvaizdavimą svetainės puslapyje.
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Pritaikymo neįgaliesiems funkcijos ir galimybės](accessibility.md)
 
 [Atitikties peržiūra](compliance-overview.md)
 
-[Įtraukti privatumo strategijos puslapį](add-privacy-page.md)
+[Privatumo strategijos puslapio įtraukimas](add-privacy-page.md)
 
 [Su sekamais turinio pakeitimais susietų vartotojo ID keitimas](replace-IDs-tracked-changes.md)
+
+[Sutikimo dėl slapukų modulis](cookie-consent-module.md) 
+ 
+[Antraštės modulis](author-header-module.md)

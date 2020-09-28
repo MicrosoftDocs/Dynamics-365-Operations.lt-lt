@@ -3,7 +3,7 @@ title: Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikom
 description: Šioje temoje aprašoma, kaip į savo svetainės puslapius įtraukti kliento scenarijaus kodą, kad būtų palaikoma kliento telemetrijos rinkimo galimybė.
 author: bicyclingfool
 manager: annbe
-ms.date: 03/20/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f26ed5b6674566f579e801f4b7be63c2d0dc38d
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: a88f4f920154aafaa15a48af67365152e21111f7
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686819"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761254"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija
 
@@ -37,48 +37,48 @@ ms.locfileid: "3686819"
 > [!NOTE]
 > Šioje temoje pateiktos instrukcijos taikomos ir kitoms pasirinktinėms kliento funkcijoms, kurių „Microsoft Dynamics 365 Commerce“ pati nesiūlo.
 
-## <a name="create-a-reusable-page-fragment-for-your-script-code"></a>Pakartotinai galimo naudoti puslapio fragmento sukūrimas scenarijaus kodui
+## <a name="create-a-reusable-fragment-for-your-script-code"></a>Pakartotinai galimo naudoti fragmento sukūrimas scenarijaus kodui
 
-Puslapio fragmentas leidžia jums pakartotinai naudoti įdėtojo ar išorinio scenarijaus kodą visuose jūsų svetainės puslapiuose, neatsižvelgiant į jų naudojamą šabloną.
+Fragmentas leidžia jums pakartotinai naudoti įdėtojo ar išorinio scenarijaus kodą visuose jūsų svetainės puslapiuose, neatsižvelgiant į jų naudojamą šabloną.
 
-### <a name="create-a-reusable-page-fragment-for-your-inline-script-code"></a>Pakartotinai galimo naudoti puslapio fragmento sukūrimas įdėtojo scenarijaus kodui
+### <a name="create-a-reusable-fragment-for-your-inline-script-code"></a>Pakartotinai galimo naudoti fragmento sukūrimas įdėtojo scenarijaus kodui
 
-Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti puslapio fragmentą įdėtojo scenarijaus kodui, atlikite šiuos veiksmus.
+Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti fragmentą įdėtojo scenarijaus kodui, atlikite šiuos veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
-1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Linijinis scenarijus**.
-1. **Puslapio fragmento pavadinimo** skyriuje įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
-1. Sukurto puslapio fragmento dalyje pasirinkite modulį **Numatytasis įdėtasis scenarijaus**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Linijinis scenarijus**.
+1. Dalyje **Fragmento pavadinimas** įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
+1. Sukurto fragmento dalyje pasirinkite modulį **Numatytasis įdėtasis scenarijaus**.
 1. Dešinėje esančios ypatybių srities dalyje **Įdėtasis scenarijus** įveskite kliento scenarijų. Tada konfigūruokite kitas parinktis, kaip jums reikia.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Pasirinkite **Publikuoti**.
 
-### <a name="create-a-reusable-page-fragment-for-your-external-script-code"></a>Pakartotinai galimo naudoti puslapio fragmento sukūrimas išorinio scenarijaus kodui
+### <a name="create-a-reusable-fragment-for-your-external-script-code"></a>Pakartotinai galimo naudoti fragmento sukūrimas išorinio scenarijaus kodui
 
-Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti puslapio fragmentą išorinio scenarijaus kodui, atlikite šiuos veiksmus.
+Norėdami svetainių daryklėje sukurti pakartotinai galimą naudoti fragmentą išorinio scenarijaus kodui, atlikite šiuos veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
-1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Išorinis scenarijus**.
-1. **Puslapio fragmento pavadinimo** skyriuje įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
-1. Sukurto puslapio fragmento dalyje pasirinkite modulį **Numatytasis išorinis scenarijaus**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Išorinis scenarijus**.
+1. Dalyje **Fragmento pavadinimas** įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
+1. Sukurto fragmento dalyje pasirinkite modulį **Numatytasis išorinis scenarijaus**.
 1. Dešinėje esančios ypatybių srities dalyje **Scenarijaus šaltinis** pridėkite išorinį arba santykinį išorinio scenarijaus šaltinio URL. Tada konfigūruokite kitas parinktis, kaip jums reikia.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Pasirinkite **Publikuoti**.
 
-## <a name="add-a-page-fragment-that-includes-script-code-to-a-template"></a>Puslapio fragmento, kuriame yra scenarijaus kodas, įtraukimas į šabloną
+## <a name="add-a-fragment-that-includes-script-code-to-a-template"></a>Fragmento, kuriame yra scenarijaus kodas, įtraukimas į šabloną
 
-Norėdami svetainių daryklėje į šabloną įtraukti puslapio fragmentą, kuriame yra scenarijaus kodas, atlikite šiuos veiksmus.
+Norėdami svetainių daryklėje į šabloną įtraukti fragmentą, kuriame yra scenarijaus kodas, atlikite šiuos veiksmus.
 
 1. Nueikite į **Šablonai** ir atidarykite puslapių, į kuriuos norite įtraukti scenarijaus kodą, šabloną.
 1. Kairiojoje srityje išplėskite šablonų hierarchiją, kad būtų rodoma vieta **HTML antraštė**.
-1. Vietoje **HTML antraštė** pasirinkite daugtaškio mygtuką (**...**), tada – **Įtraukti puslapio fragmentą**.
+1. Vietoje **HTML antraštė** pasirinkite daugtaškio mygtuką (**...**), tada – **Įtraukti fragmentą**.
 1. Pasirinkite fragmentą, kurį sukūrėte savo scenarijaus kodui.
 1. Pasirinkite **Įrašyti**, tada – **Baigti redagavimą**.
 1. Pasirinkite **Publikuoti**.
 
 ## <a name="add-an-external-script-or-inline-script-directly-to-a-template"></a>Išorinio scenarijaus arba įdėtojo scenarijaus įtraukimas tiesiai į šabloną
 
-Jeigu norite įterpti įdėtąjį arba išorinį scenarijų tiesiai į vieno šablono valdomų puslapių rinkinį, jums nereikia iš pradžių kurti puslapio fragmento.
+Jeigu norite įterpti įdėtąjį arba išorinį scenarijų tiesiai į vieno šablono valdomų puslapių rinkinį, jums nereikia iš pradžių kurti fragmento.
 
 ### <a name="add-an-inline-script-directly-to-a-template"></a>Įdėtojo scenarijaus įtraukimas tiesiai į šabloną
 

@@ -1,6 +1,6 @@
 ---
 title: Spartieji klavišai
-description: Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai ir efektyviai.
+description: Šioje temoje pateikiama sparčiųjų klavišų derinių, kuriuos galite naudoti dirbdami su „Finance and Operations” programomis, peržiūra.
 author: jasongre
 manager: AnnBe
 ms.date: 10/02/2019
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aa35037b435bafa3f22013e41f0692f836e99a14
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
+ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811560"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761626"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
 [!include [banner](../includes/banner.md)]
 
-Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai ir efektyviai.
+Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai ir efektyviai „Finance and Operations” programose.
 
 > [!NOTE]
 > Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
@@ -236,6 +236,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perkelti eilute aukštyn / žemyn peržvalgoje                                                                                        | Rodyklė aukštyn / rodyklė žemyn            |
 | Perkelti puslapiu aukštyn / žemyn peržvalgoje                                                                                       | „Page up“ / „Page down“              |
 | Perkelti į peržvalgos viršų / apačią                                                                                    | Home / End                       |
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Klaviatūros spartieji klavišai trūkstamų sąskaitų analizei atlikti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)

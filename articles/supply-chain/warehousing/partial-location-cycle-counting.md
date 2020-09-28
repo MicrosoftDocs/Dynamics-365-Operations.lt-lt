@@ -3,7 +3,7 @@ title: Dalinis vietos ciklų skaičiavimas
 description: Faktinės skaičiavimo operacijos valdomos pagal ciklo skaičiavimo planus. Galite reikalauti, kad būtų skaičiuojamos ne visos vietoje turimos atsargos, o tik konkretūs produktai ir produkto variantai.
 author: perlynne
 manager: tfehr
-ms.date: 11/02/2017
+ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f07c7754dbe36334e8972d49edf9fb84a78f5d0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 46365f618b13c2bcaef9a45d2a835fda27019857
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215682"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760012"
 ---
 # <a name="partial-location-cycle-counting"></a>Dalinis vietos ciklų skaičiavimas
 
@@ -45,7 +45,7 @@ Jei susiesite ciklo skaičiavimo planus su darbo šablonais naudodami parinktį 
 
 Prieš apdorojant dalinį ciklo skaičiavimo darbą, turite bent jau pasirinkti **Rodyti prekės numerį** mobiliojo įrenginio meniu elementui skaičiavimo sąrankos metu. Sandėlio operatorius bus paprašytas įrašyti tik skaičiavimo informaciją, susijusią su inventorizacijos eilutėmis (prekių numeriai ir produkto dimensijos). Šio skaičiavimo proceso metu visų kitų turimų atsargų bus nepaisoma. 
 
-Dalinio ciklo skaičiavimo proceso atveju vietos **paskutinio ciklo skaičiavimo** data / laikas nebus atnaujinami.
+Dalinio ciklo skaičiavimo proceso atveju vietos **paskutinio ciklo skaičiavimo** data / laikas nebus atnaujinami, net jei bus suskaičiuotos visos konkrečios vietos turimos prekės. Dalinis ciklo skaičiavimas neatsižvelgia į parametrą **Dienos tarp ciklo skaičiavimų** puslapyje **Ciklo skaičiavimo planai**. Dalinis ciklo skaičiavimas nepalaiko tuo pačiu metu atliekamų kelių prekių skaičiavimų toje pačioje vietoje. Dalinio ciklo skaičiavimo funkcijos gali lemti tai, kad vykdant **Apdoroti ciklo skaičiavimo planą** prekė bus suskaičiuota kelis kartus toje pačioje vietoje. Norėdami išvengti šio scenarijaus, lauke **Pasirinkti vietas** nurodykite filtrus.
 
 ## <a name="example"></a>Pavyzdys
 Pavyzdžiui, 61 sandėlyje turi būti skaičiuojamas tik prekės numeris A0001.

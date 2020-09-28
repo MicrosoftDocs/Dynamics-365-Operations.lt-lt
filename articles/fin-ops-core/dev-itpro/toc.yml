@@ -14,12 +14,12 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: "„Platform” naujinimai, skirti 10.0.14 (2020\_m. lapkričio mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: "„Platform” naujinimai, skirti 10.0.13 (2020\_m. spalio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-13.md
                 - name: "„Platform“ naujinimai, skirti 10.0.12 (2020\_m. rugpjūčio mėn.)"
                   href: get-started/whats-new-platform-update-10-0-12.md
-                - name: "„Platform“ naujinimai, skirti 10.0.11 (2020\_m. liepos mėn.)"
-                  href: get-started/whats-new-platform-update-35.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos platformos funkcijos
@@ -606,6 +606,14 @@
                   href: dev-tools/pipeline-create-deployable-package.md
                 - name: X++ modelių versijos „Azure Pipelines“
                   href: dev-tools/pipeline-model-version.md
+                - name: Turto atsisiuntimas naudojant „Azure Pipelines“
+                  href: dev-tools/pipeline-asset-download.md
+                - name: Turto nusiuntimas naudojant „Azure Pipelines“
+                  href: dev-tools/pipeline-asset-upload.md
+                - name: Turto diegimas naudojant „Azure Pipelines“
+                  href: dev-tools/pipeline-deploy-asset.md
+                - name: „Lifecycle Services“ (LCS) ryšio kūrimas „Azure Pipelines“
+                  href: dev-tools/pipeline-lcs-connection.md
             - name: Transporto parko valdymo programos pavyzdys
               items:
                 - name: Tiesioginis transporto parko valdymo programos pavyzdžio scenarijus

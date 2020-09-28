@@ -3,7 +3,7 @@ title: Privatumo strategijos puslapio įtraukimas
 description: Šioje temoje aprašoma, kaip programoje „Microsoft Dynamics 365 Commerce“ į svetainę įtraukti privatumo strategijos puslapį.
 author: v-chgri
 manager: annbe
-ms.date: 04/14/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2ee361c2e99b79e503e8d94c12602f9427f1ed5c
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: ce6491d176f90717877f084b11546010084c5f3b
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686700"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761278"
 ---
 # <a name="add-a-privacy-policy-page"></a>Privatumo strategijos puslapio įtraukimas
 
@@ -89,8 +89,8 @@ Saitą su privatumo strategijos puslapiu galite įtraukti į fragmentą. Tokiu b
 Norėdami į poraštės fragmentą įtraukti saitą, atlikite toliau nurodytus veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte puslapio fragmentą.
-1. **Naujo puslapio fragmento** teksto laukelyje pasirinkite **Poraštės** modulį.
-1. **Puslapio fragmento pavadinimo** skyriuje įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Poraštės** modulį.
+1. Dalyje **Fragmento pavadinimas** įveskite fragmento pavadinimą ir tuomet pasirinkite **Gerai**.
 1. Dalyje **Poraštės kategorija** įtraukite modulį **Poraštės elementas**.
 1. Dešinėje esančioje ypatybių srityje pasirinkite **Saito tekstas**.
 1. Dialogo lange **Saito tekstas** įveskite privatumo strategijos puslapio saito tekstą ir paskirtį, tada spustelėkite **Gerai**.

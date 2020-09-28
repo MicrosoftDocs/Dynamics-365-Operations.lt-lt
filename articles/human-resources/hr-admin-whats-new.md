@@ -1,9 +1,9 @@
 ---
 title: Kas nauja ar pasikeitė „Human Resources”
-description: Kiekvieną savaitę išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Čia nurodytuose straipsniuose išsamiai pateikiami kiekvieną savaitę atlikti keitimai.
+description: Kiekvieną savaitę išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Čia nurodytose temose išsamiai pateikiami kiekvieną savaitę atlikti keitimai.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/06/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,26 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 34e80ace6a0676e5702f633554a5f241cc8b00a7
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: f814395405003464e9f101fb0f46b64e64971b68
+ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712183"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760306"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Kas nauja ar pasikeitė „Human Resources”
 
-Kas dvi savaites išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Šio skyriaus straipsniuose išsamiai pateikiami kiekviename leidime atlikti keitimai.
+Kas dvi savaites išleidžiame naują „Microsoft Dynamics 365 Human Resources“ leidimą. Čia nurodytose temose išsamiai pateikiami kiekviename leidime atlikti keitimai.
 
-Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcijas arba naujinimo procesą, žr. tolesnius straipsnius.
+>[!NOTE]
+>Norint atsiskaityti už atostogas, toliau pateiktas 2020 m. lapkričio ir gruodžio mėn. leidimų grafikas.
+>
+>- Lapkričio mėn. leidimas: lapkričio 2 d. – lapkričio 13 d.
+>- Gruodžio mėn. leidimas: lapkričio 30 d. – gruodžio 11 d.
+> 
+>Dviejų savaičių išleidimo intervalai bus tęsiami kaip įprasta 2021 m. sausio 11 d.
+
+Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcijas arba naujinimo procesą, žr. tolesnius straipsnius. 
 
 - [„Dynamics 365 Human Resources“ 2019 m. leidimo 2 bangos apžvalga](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)
 
@@ -41,6 +49,7 @@ Norėdami gauti daugiau informacijos apie būsimas „Human Resources” funkcij
 
 Norėdami sužinoti, kas nauja ar pasikeitė kiekviename kas dvi savaites leidžiamame „Human Resources” leidime, žr. tolesnius straipsnius.
 
+[2020 m. rugsėjo 3 d.](hr-whats-new-2020-09-03.md)</br>
 [2020 m. rugpjūčio 20 d.](hr-whats-new-2020-08-20.md)</br>
 [2020 m. rugpjūčio 6 d.](hr-whats-new-2020-08-06.md)</br>
 [2020 m. liepos 23 d.](hr-whats-new-2020-07-23.md)</br>

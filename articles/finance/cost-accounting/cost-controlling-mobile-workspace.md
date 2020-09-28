@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: CAMMobileCostObjectOverviewDetailsCurrentPeriod, CAMMobileCostObjectList, CAMMobileCostObjectOverviewDetailsPreviousPeriod, CAMMobileCostObjectOverview, CAMMobileCostObjectOverviewDetailsYearToDate, CAMMobileCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
@@ -17,12 +18,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 27381a408df64b8f11323b2f164d242bb2c4b6c5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 22acdcfbecc1efe78a1b1be87e40b2e7d23506fc
+ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2249706"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3759453"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobilioji darbo sritis Išlaidų kontrolė
 
@@ -30,9 +31,9 @@ ms.locfileid: "2249706"
 
 Šioje temoje pateikiama informacija apie mobiliąją darbo sritį **Savikainos kontrolė**. Ši darbo sritis išlaidų centro vadovams suteikia galimybę peržiūrėti informaciją apie išlaidų centro efektyvumą bet kuriuo metu ir bet kurioje vietoje.
 
-Ši mobilioji darbo sritis skirta naudoti kartu su mobiliąja programa „Finance and Operations“.
+Ši mobili darbo sritis skirta naudoti kartu su mobiliųjų įrenginių programėle „Finance and Operations“.
 
-## <a name="overview"></a>Apžvalga
+## <a name="overview"></a>Peržiūra
 Mobilioji darbo sritis **Išlaidų kontrolė** suteikia esamo išlaidų centrų efektyvumo momentinį rodinį, palygindama faktines išlaidas ir biudžeto išlaidas. Galite detalizuoti atskirų išlaidų elementų būseną.
 
 Pavyzdžiui, darbuotojas gauna kvietimą į tarptautinę konferenciją, bet organizacija turi padengti visas kelionės išlaidas. Darbuotojas klausia savo vadovo, ar jis gali dalyvauti konferencijoje. Vadovas greitai atidaro mobiliąją darbo sritį **Išlaidų kontrolė** savo mobiliajame įrenginyje, kad peržiūrėtų biudžetą ir nuspręstų, ar darbuotojas gali dalyvauti konferencijoje.
@@ -115,7 +116,7 @@ Jei jūsų organizacijoje visuotinai įdiegta 1611 versija su 3 platformos nauji
 
 
 ## <a name="download-and-install-the-mobile-app"></a>Mobiliosios programos atsisiuntimas ir diegimas
-Atsisiųskite ir įdiekite mobiliąją programą „Finance and Operations”.
+Mobiliosios programos „Finance and Operations“ atsisiuntimas ir diegimas.
 
 -   [„Android“ telefonams](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [„iPhone“ telefonams](https://go.microsoft.com/fwlink/?linkid=850663)

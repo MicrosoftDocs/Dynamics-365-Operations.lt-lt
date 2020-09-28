@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdc3fe95ec0917c09128997e254f29ce863dcc38
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
+ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208022"
+ms.lasthandoff: 09/14/2020
+ms.locfileid: "3803168"
 ---
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šiame straipsnyje pateikta informacija apie pirkimo sutartis. Pirkimo sutartis yra sutartis, kurią pasirašiusi organizacija įsipareigoja per tam tikrą laiką keliais pirkimo užsakymais įsigyti nurodytą kiekį arba sumą. Už šį įsipareigojimą pirkėjas gauna specialias kainas ir nuolaidas. 
 
@@ -42,8 +41,13 @@ Jei nenorite, kad jūsų pirkimo sutartis būtų naudojama ir patvirtinama, nust
 
 ## <a name="responsible-workers-on-purchase-agreements"></a>Atsakingi darbininkai pirkimo sutartyse
 
-Galite nurodyti pirminį atsakingą darbininką ir antrinį atsakingą darbininką pirkimo sutarties klasifikacijoje. Šios vertės bus perkeltos į gautą pirkimo sutartį. Neprivalote įtraukti atsakingų darbininkų į pirkimo sutartį; juos galima keisti tiesiogiai kiekvienu konkrečiu atveju pačioje pirkimo sutartyje. Negalite nurodyti antrinio atsakingo darbininko nenurodę pirminio atsakingo darbininko, tačiau antrinio atsakingo darbininko nurodyti nebūtina. Negalima nurodyti to paties darbininko ir kaip pirminio, ir kaip antrinio atsakingo darbininko. 
+Galite nurodyti pirminį atsakingą darbininką ir antrinį atsakingą darbininką pirkimo sutarties klasifikacijoje. Šios vertės bus perkeltos į gautą pirkimo sutartį. Neprivalote įtraukti atsakingų darbininkų į pirkimo sutartį; juos galima keisti tiesiogiai kiekvienu konkrečiu atveju pačioje pirkimo sutartyje. Negalite nurodyti antrinio atsakingo darbininko nenurodę pirminio atsakingo darbininko, tačiau antrinio atsakingo darbininko nurodyti nebūtina. Negalima nurodyti to paties darbininko ir kaip pirminio, ir kaip antrinio atsakingo darbininko.
 
+> [!IMPORTANT]
+> Prieš naudodami atsakingos šalies funkciją, turite ją įjungti savo sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+> 
+> - **Modulis:** *Paraiškos*
+> - **Funkcijos pavadinimas:** *Už pirkimo sutartį atsakinga šalis*
 
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pirkimo sutarties eilutė įpareigoja ką nors pirkti. Galite naudoti kelių pirkimo užsakymų (PU) eilutes, norėdami įvykdyti įsipareigojimą. Yra keturi įsipareigojimų tipai:

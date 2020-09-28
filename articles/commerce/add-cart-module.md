@@ -3,7 +3,7 @@ title: Krepšelio modulis
 description: Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d485012bfc93c957b3dc42e3b0ed62e761dee1
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686771"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761134"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
@@ -77,8 +77,8 @@ Vežimėlio modulis produkto informaciją gauna naudodamas „Commerce Scale Uni
 Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
-1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Vežimėlis** modulį.
-1. **Puslapio fragmento pavadinime** įveskite pavadinimą **Vežimėlio fragmentas** ir tuomet pasirinkite **Gerai**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Krepšelio** modulį.
+1. Dalyje **Fragmento pavadinimas** įveskite pavadinimą **Krepšelio fragmentas** ir pasirinkite **Gerai**.
 1. Pasirinkite vietą **Krepšelis**.
 1. Dešinėje pusėje esančioje ypatybių srityje pasirinkite pieštuko simbolį, į laukelį įveskite antraštės tekstą ir pasirinkite varnelės simbolį.
 1. Vietoje **Krepšelis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
@@ -86,8 +86,8 @@ Norėdami į naują puslapį įtraukti krepšelio modulį ir nustatyti reikiamas
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
 1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite šablono pavadinimą.
-1. Išorės medyje pasirinkite **Kūno** vietą ir pasirinkite elipsę (**...**), tuomet pasirinkite **Įtraukti puslapio fragmentą**.
-1. **Pasirinkite puslapio fragmentą** teksto laukelyje, pasirinkite **Vežimėlio fragmentas** fragmentą ir tuomet pasirinkite **Gerai**.
+1. Struktūros medyje pasirinkite vietą **Pagrindinė dalis**, pasirinkite daugtaškį (**...**), tada – **Įtraukti fragmentą**.
+1. Dialogo lange **Pasirinkti fragmentą** pasirinkite **Krepšelio fragmentas** fragmentą ir pasirinkite **Gerai**.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
 1. Dialogo lange **Pasirinkti šabloną** pasirinkite anksčiau sukurtą šabloną, įveskite puslapio pavadinimą ir pasirinkite **Gerai**.

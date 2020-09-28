@@ -3,7 +3,7 @@ title: Pirkimo užbaigimo modulis
 description: Šioje temoje aprašoma, kaip į puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d913fdc9ab9a3dbf7d5534fba38add7f942652a
-ms.sourcegitcommit: 81f162f2d50557d7afe292c8d326618ba0bc3259
+ms.openlocfilehash: 389e3e9d631574eac499f7c6146e2776b8126a52
+ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "3686747"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3761110"
 ---
 # <a name="checkout-module"></a>Pirkimo užbaigimo modulis
 
@@ -97,8 +97,8 @@ Didžioji dalis pirkimo užbaigimo informacijos, pvz., siuntimo adresas ir siunt
 Norėdami į naują puslapį įtraukti pirkimo užbaigimo modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
-1. **Naujo puslapio fragmentas** teksto laukelyje, pasirinkite **Užbaigimo** modulį.
-1. **Puslapio fragmento pavadinime** įveskite pavadinimą **Užbaigimo fragmentas** ir tuomet pasirinkite **Gerai**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Pirkimo užbaigimo** modulį.
+1. Dalyje **Fragmento pavadinimas** įveskite pavadinimą **Pirkimo užbaigimo fragmentas** ir pasirinkite **Gerai**.
 1. Pasirinkite vietą **Pirkimo užbaigimas**.
 1. Dešinėje pusėje esančioje ypatybių srityje pasirinkite pieštuko simbolį, į laukelį įveskite antraštės tekstą ir pasirinkite varnelės simbolį.
 1. Vietoje **Pirkimo užbaigimo informacija** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.

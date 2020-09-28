@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6585e44701160bf31c107c07226f992b12cf035e
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 207783f5a44d5c6432539ac27a8c491bca811da4
+ms.sourcegitcommit: 5472005274f2f94fba82dda90de128f39d8b8390
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2550653"
+ms.lasthandoff: 09/02/2020
+ms.locfileid: "3760036"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
 
@@ -101,7 +101,7 @@ Tarkime, kad jau pradėjau kurti naują ER sprendimą, kad būtų sugeneruota na
 
 Tarkime, kad baigėte kurti pirmąją ER sprendimo versiją. Dabar norite ją patikrinti naudodami savo egzempliorių ir išanalizuoti vykdymo našumą.
 
-### <a id='import-configuration'></a>ER konfigūracijos importavimas iš RCS į „Finance and Operations“
+### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>ER konfigūracijų importavimas iš RCS į „Finance and Operations”
 
 1. Prisijunkite prie programos egzemplioriaus.
 2. Dirbdami su šia mokymo programa, konfigūracijas importuosite iš savo RCS egzemplioriaus (kuriame kuriate savo ER komponentus) į savo egzempliorių (kuriame jas tikrinate ir galiausiai naudojate). Todėl turite įsitikinti, kad paruošti visi reikiami artefaktai. Instrukcijas rasite procedūroje [Elektroninių ataskaitų (ER) konfigūracijų importavimas iš „Regulatory Configuration Services“ (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
@@ -146,7 +146,7 @@ Atitinkamų versijų duomenų modeliai ir modelio susiejimo konfigūracijos auto
 
     ![Vartotojo parametrų dialogo langas](./media/GER-PerfTrace-GER-UserParameters.png)
 
-### <a id='run-format'></a>ER formato vykdymas
+### <a name="run-the-er-format"></a><a id='run-format'></a>ER formato vykdymas
 
 1. Pasirinkite įmonę **DEMF**.
 2. Eikite į **Organizacijos administravimas \> Elektroninės ataskaitos \> Konfigūracijos**.
@@ -157,7 +157,7 @@ Atkreipkite dėmesį, kad sugeneruotame faile pateikiama informacijos apie 265 �
 
 ## <a name="review-the-execution-trace"></a>Vykdymo sekimo peržiūra
 
-### <a id='export-trace'></a>Sugeneruotos sekimo programos eksportavimas iš programos
+### <a name="export-the-generated-trace-from-the-application"></a><a id='export-trace'></a>Sugeneruotos sekimo programos eksportavimas iš programos
 
 Našumo sekimai atsiejami nuo šaltinio ER formato ir gali būti išdėstyti eilutėmis išoriniame ZIP faile.
 
@@ -176,7 +176,7 @@ Našumo sekimai atsiejami nuo šaltinio ER formato ir gali būti išdėstyti eil
 
 Atkreipkite dėmesį, kad ryšys tarp įvykdyto ER formatui sugeneruoto našumo sekimo ir ER modelio susiejimo paremtas naudotu šakniniu aprašu ir bendru duomenų modeliu. Į formato ir modelio susiejimo versijos numeravimą neatsižvelgiama. Taip pat neatsižvelgiama į modelio susiejimo žymę **Numatytasis modelių susiejimui**.
 
-### <a id='import-trace'></a>Sugeneruoto sekimo importavimas į RCS
+### <a name="import-the-generated-trace-into-rcs"></a><a id='import-trace'></a>Sugeneruoto sekimo importavimas į RCS
 
 1. RCS darbo srityje **Elektroninės ataskaitos** pasirinkite plytelę **Ataskaitų konfigūracijos**.
 2. Puslapio **Konfigūracijos** konfigūracijų medyje išplėskite elementą **Našumo sekimo modelis** ir pasirinkite elementą **Našumo sekimo formatas**.
@@ -201,7 +201,7 @@ Atkreipkite dėmesį, kad ryšys tarp įvykdyto ER formatui sugeneruoto našumo 
 
 2. Uždarykite puslapį **Formato dizaino įrankis**.
 
-### <a id='use-trace'></a>Našumo sekimo naudojimas analizei naudojantis RCS – Modelio susiejimas
+### <a name="use-the-performance-trace-for-analysis-in-rcs--model-mapping"></a><a id='use-trace'></a>Našumo sekimo naudojimas analizei naudojantis RCS – Modelio susiejimas
 
 1. RCS puslapio **Konfigūracijos** konfigūracijų medyje pasirinkite elementą **Našumo sekimo susiejimas**.
 2. Veiksmų srityje pasirinkite **Dizaino įrankis**.
@@ -301,7 +301,7 @@ Pakartokite veiksmus, aprašytus ankstesniame šios temos skyriuje [ER konfigūr
 
 Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) nurodytus veiksmus sugeneruokite naują našumo sekimą.
 
-## <a name="review-the-execution-trace"></a>Vykdymo sekimo peržiūra
+## <a name="work-with-the-execution-trace"></a>Darbas su vykdymo sekimu
 
 ### <a name="export-the-generated-trace-from-the-application"></a>Sugeneruotos sekimo eksportavimas iš programos
 
@@ -347,7 +347,7 @@ Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) 
 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą.
 
-![Įvykdyto ER formato informacijos sekimas naudojant „PerfView“](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Našumo sekimo informacija „PerfView” formatu](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Norėdami peržiūrėti vykdymo sekimą, apimantį duomenų bazės užklausas, naudokite išorinius įrankius
 
@@ -363,7 +363,7 @@ Dėl patobulinimų, atliktų ER sistemoje, efektyvumo sekimo duomenys, sugeneruo
     - Nustatykite parinkties **Rinkti užklausų statistiką** reikšmę **Taip**.
     - Nustatykite parinkties **Įjungti profilį** reikšmę **Taip**.
 
-    ![Vartotojo parametrų dialogo langas](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Skyrius Vykdymo sekimas, dialogo langas Vartotojo parametrai](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>ER formato vykdymas
 
@@ -372,3 +372,8 @@ Pakartoję ankstesniame šios temos skyriuje [ER formato vykdymas](#run-format) 
 Atkreipkite dėmesį, kad interneto naršyklėje siūloma atsisiųsti ZIP failą. Šiame faile pateikiamas našumo sekimas PerfView formatu. Naudodamiesi PerfView našumo analizės įrankiu galite išanalizuoti informaciją apie ER formato vykdymą. Dabar šis sekimas apims informaciją apie SQL duomenų bazės prieigą vykdant ER formatą.
 
 ![Įvykdyto ER formato informacijos sekimas naudojant „PerfView“](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Elektroninių ataskaitų apžvalga](general-electronic-reporting.md)
+- [ER sprendimų našumo didinimas įtraukiant parametrizuotų duomenų šaltinių APSKAIČIUOTAS LAUKAS](er-calculated-field-ds-performance.md)

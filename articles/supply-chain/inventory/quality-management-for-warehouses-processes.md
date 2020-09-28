@@ -14,13 +14,13 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 3469c8936dd2eaa53e541f0ea684ea1eb12db4cb
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.dyn365.ops.version: Release 10.0.10
+ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
+ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530126"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "3763484"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
@@ -111,7 +111,7 @@ Kai funkcija _Sandėlio procesų kokybės valdymas_ įjungta, taikomas sandėlio
 | 3 grupė | Kiekvienam kokybės susiejimui patikrinkite laukų **Sąskaitos kodas** ir **Ištekliaus kodas** reikšmes pagal prekę. Pritaikyta logika panaši į logiką, kuri taikoma reikšmei **Prekės kodas**. |
 | 4 grupė | Kiekvienam kokybės susiejimui patikrinkite lauko **Taikomas sandėlio tipas** reikšmę (_Tik sandėlio procesų kokybės valdymas_ arba _Visi_) pagal prekę. Jei šaltinio dokumente esančio sandėlio parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Taip_, o šaltinio dokumento eilutėje nurodyta prekė yra nustatyta kaip _Naudoti sandėlio valdymo procesus_, abu susiejimai, kai yra atitiktis _Tik sandėlio procesų kokybės valdymas_, ir susiejimai, kai yra atitiktis _Visi_, taikomi lygiagrečiai, jei abu yra. Jei šaltinio dokumente esančiam sandėliui parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Ne_, o šaltinio dokumento eilutėje nurodyta prekė nustatyta kaip _Naudoti sandėlio valdymo procesus_, bus taikomas tik kokybės valdymas. |
 
-Pavyzdžiui, jūs nurodėte sandėlį, kur parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Taip_, ir turite du kokybės susiejimus, kurie apibrėžti nuorodos tipui *Pirkimas*: vienas skirtas visoms prekėms ir vienas įvykio tipui *Registracija*. Vienintelis skirtumas tarp dviejų kokybės susiejimų yra lauko **Taikomas sandėlio tipas** reikšmė: vienam kokybės susiejimui ji nustatyta kaip _Visi_, o kitam – kaip _Tik sandėlio procesų kokybės valdymas*_. Šiuo atveju abu kokybės susiejimai yra vienodai apibrėžti ir bus taikomi abu.
+Pavyzdžiui, jūs nurodėte sandėlį, kur parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Taip_, ir turite du kokybės susiejimus, kurie apibrėžti nuorodos tipui *Pirkimas*: vienas skirtas visoms prekėms ir vienas įvykio tipui *Registracija*. Vienintelis skirtumas tarp dviejų kokybės susiejimų yra lauko **Taikomas sandėlio tipas** reikšmė: vienam kokybės susiejimui ji nustatyta kaip _Visi_, o kitam – kaip _Tik sandėlio procesų kokybės valdymas_. Šiuo atveju abu kokybės susiejimai yra vienodai apibrėžti ir bus taikomi abu.
 
 Kokybės susiejimų lauko **Bandymų grupė** reikšmė taip pat yra veiksnys. Šis laukas apibrėžia bandymo procedūrą, kuri turi būti taikoma. Jei lauko **Bandymų grupė** reikšmė yra tokia pati abiems susiejimams, bus sukurtas tik vienas kokybės užsakymas – kokybės susiejimui, kur lauko **Taikomas sandėlio tipas** reikšmė yra _Tik sandėlio procesų kokybės valdymas_. Jei abiejų susiejimų lauko **Bandymų grupė** reikšmė nėra vienoda, bus sukurti du kokybės užsakymai. Pirmasis kokybės užsakymas bus sukurtas kokybės susiejimui, kur lauko **Taikomas sandėlio tipas** reikšmė yra _Tik sandėlio procesų kokybės valdymas_. Antrasis kokybės užsakymas bus sukurtas kokybės susiejimui, kur lauko **Taikomas sandėlio tipas** reikšmė yra _Visi_.
 

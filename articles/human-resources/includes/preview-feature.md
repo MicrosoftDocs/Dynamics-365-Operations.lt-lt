@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Šiame straipsnyje nurodytos funkcijos prieinamos kaip viešoji peržiūros versija visose smėlio dėžės arba bandomosios versijos aplinkose. Gamybos aplinkose jos neprieinamos. Turinys ir funkcijos gali būti keičiami. Daugiau informacijos apie peržiūros versijos funkcijas žr. [Funkcijų valdymas](../hr-admin-manage-features.md).
+> Kai kurios arba visos funkcijos prieinamos kaip viešoji peržiūros versija visose smėlio dėžės arba bandomosios versijos aplinkose. Gamybos aplinkose jos neprieinamos. Turinys ir funkcijos gali būti keičiami. Daugiau informacijos apie peržiūros versijos funkcijas žr. [Funkcijų valdymas](../hr-admin-manage-features.md).
