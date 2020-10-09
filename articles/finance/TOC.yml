@@ -72,12 +72,10 @@
                       href: get-started/whats-new-home-page.md
                     - name: „Finance 10.0.14“ (2020 m. lapkričio mėn.)
                       href: get-started/whats-new-changed-10-0-14.md
-                    - name: „Finance“ 10.0.13 (2020 m. spalio mėn.)
+                    - name: „Finance 10.0.13“ (2020 m. spalio mėn.)
                       href: get-started/whats-new-changed-10-0-13.md
-                    - name: „Finance“ 10.0.12 (2020 m. rugpjūčio mėn.)
+                    - name: „Finance 10.0.12“ (2020 m. rugpjūčio mėn.)
                       href: get-started/whats-new-changed-10-0-12.md
-                    - name: „Finance“ 10.0.11 (2020 m. liepos mėn.)
-                      href: get-started/whats-new-changed-10-0-11.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
@@ -160,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
-                - name: Įdėtoji „Microsoft Power Apps“
+                - name: Drobės programėlių įterpimas iš „Power Apps“
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
                 - name: Informacijos ieška naudojant peržvalgas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/finance/toc.json
@@ -1228,6 +1226,22 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Reglamentavimo naujinimai
               href: localizations/regulatory-updates.md
+            - name: Elektroninių SF išrašymo priedas
+              items:
+                - name: Elektroninių SF išrašymo priedo apžvalga
+                  href: localizations/e-invoicing-service-overview.md
+                - name: „Azure“ saugyklos paskyros ir „Key Vault“ kūrimas
+                  href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
+                - name: Darbo su elektroninių SF priedu pradžia
+                  href: localizations/e-invoicing-get-started.md
+                - name: Darbo su elektroninių SF priedu Brazilijai pradžia
+                  href: localizations/e-invoicing-bra-get-started.md
+                - name: Darbo su elektroninių SF priedu Italijai pradžia
+                  href: localizations/e-invoicing-ita-get-started.md
+                - name: Darbo su elektroninių SF priedu Meksikai pradžia
+                  href: localizations/e-invoicing-mex-get-started.md
+                - name: Elektroninių SF priedo nustatymas
+                  href: localizations/e-invoicing-setup.md
             - name: Australija
               items:
                 - name: Australijos apžvalga
@@ -1268,6 +1282,8 @@
                   href: localizations/emea-bel-coda-bank-statement-import.md
                 - name: Operacijų kūrimas ir perkėlimas į BLWI
                   href: localizations/tasks/be-00011-create-transfer-blwi.md
+                - name: DK operacijų eksportavimas
+                  href: localizations/emea-bel-export-ledger-transactions.md
                 - name: INTERVAT mokesčių deklaracija
                   href: localizations/emea-bel-intervat-tax-declaration.md
                 - name: Suderinimo ataskaitos
@@ -2036,6 +2052,8 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Mokesčių gražinimų GSTR ataskaitos duomenų generavimas
                       href: localizations/apac-ind-GST-tax-returns.md
+                    - name: Kelių paketų apdorojimo GSTR ataskaitoms įgalinimas
+                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Mokesčių užklausa
                       href: localizations/apac-ind-GST-tax-inquiry.md
                 - name: Mokesčių mechanizmas
@@ -3560,6 +3578,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
                     - name: Ataskaitų keliomis kalbomis kūrimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Didelių siunčiamų dokumentų glaudinimas
+                      href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: Duomenų susiejimo santykinis kelias
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
