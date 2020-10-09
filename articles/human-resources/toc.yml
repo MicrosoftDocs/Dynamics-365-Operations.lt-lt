@@ -5,6 +5,8 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
+        - name: "2020\_m. rugsėjo 16\_d."
+          href: hr-whats-new-2020-09-16.md
         - name: "2020\_m. rugsėjo 3\_d."
           href: hr-whats-new-2020-09-03.md
         - name: "2020\_m. rugpjūčio 20\_d."
@@ -201,7 +203,7 @@
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
             - name: Pasirinktinių laukų kūrimas ir naudojimas
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
-            - name: „PowerApps“ programų įdėjimas
+            - name: Drobės programėlių įterpimas iš „Power Apps“
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
             - name: Informacijos ieška naudojant peržvalgas
               href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/human-resources/toc.json

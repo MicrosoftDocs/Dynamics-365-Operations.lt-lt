@@ -158,7 +158,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Pasirinktinių laukų kūrimas ir naudojimas
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Įdėtoji „Microsoft Power Apps“
+                - name: Drobės programėlių įterpimas iš „Power Apps“
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Informacijos ieška naudojant peržvalgas
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/supply-chain/toc.json
@@ -1655,6 +1655,8 @@
               href: procurement/procurement-sourcing-overview.md
             - name: Įsigijimo ir šaltinio pasirinkimo darbo eiga
               href: procurement/procurement-sourcing-workflows.md
+            - name: Įsigijimo ir šaltinio pasirinkimo darbo eigų trikčių diagnostika
+              href: procurement/troubleshoot-procurementworkflows.md
             - name: Įsigijimo katalogai
               items:
                 - name: Įsigijimo katalogų apžvalga
@@ -1695,6 +1697,8 @@
                   href: procurement/purchase-order-mobile-workspace.md
                 - name: Prekių gavimo įrašymas pirkimo užsakyme
                   href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                - name: Pirkimo užsakymų trikčių diagnostika
+                  href: procurement/troubleshoot-purchaseorders.md
             - name: Pirkimo užsakymo kūrimas
               items:
                 - name: Pirkimo užsakymų kūrimas rankiniu būdu
@@ -1725,6 +1729,8 @@
                   href: procurement/tasks/create-purchase-agreement.md
                 - name: Tiekėjo grąžinimai
                   href: procurement/vendor-rebates.md
+                - name: 'Kainų, nuolaidų, sutarčių ir grąžinimų trikčių šalinimas'
+                  href: procurement/troubleshooting-pricediscountagreements.md
             - name: Pirkimo strategijos
               items:
                 - name: Pirkimo strategijų apžvalga
@@ -1739,6 +1745,8 @@
                   href: procurement/product-receipt-against-purchase-orders.md
                 - name: Tiekėjo SF apžvalga
                   href: ../finance/accounts-payable/vendor-invoices-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Produkto gavimo dokumentų ir SF išrašymo trikčių šalinimas
+                  href: procurement/troubleshooting-productreceiptinvoicing.md
             - name: Tiekėjų valdymas ir bendradarbiavimas
               items:
                 - name: Tiekėjo bendradarbiavimo nustatymas ir tvarkymas
@@ -1765,6 +1773,8 @@
                   href: procurement/vendor-catalogs-import.md
                 - name: Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
                   href: procurement/set-up-external-catalog-for-punchout.md
+                - name: Pirkimo „cXML“ patobulinimai
+                  href: procurement/purchasing-cxml-enhancements.md
                 - name: Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti
                   href: procurement/use-external-catalogs-for-punchout.md
                 - name: Tiekėjo bendradarbiavimo mobilioji darbo sritis
@@ -2261,6 +2271,8 @@
                   href: sales-marketing/tasks/manage-order-holds.md
                 - name: Pardavimo užsakymų tvirtinimas
                   href: sales-marketing/tasks/confirm-sales-orders.md
+                - name: Pardavimo užsakymų trikčių šalinimas
+                  href: sales-marketing/troubleshooting-sales.md
             - name: Pardavimo sutartys
               items:
                 - name: Pardavimo sutarčių apžvalga
@@ -2279,10 +2291,12 @@
               items:
                 - name: Kainos modeliavimas
                   href: sales-marketing/price-simulation.md
-                - name: Masinis pardavimo pasiūlymų kūrimas
+                - name: Pardavimo pasiūlymų masinis kūrimas
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Pardavimo pasiūlymų kūrimas ir redagavimas
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+                - name: Pardavimo pasiūlymų trikčių šalinimas
+                  href: sales-marketing/troubleshooting-salesquotation.md
             - name: Grąžinimai
               items:
                 - name: Pardavimo grąžinimai
@@ -2807,18 +2821,20 @@
                   items:
                     - name: Sandėlio programos diegimas ir prijungimas
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
+                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Laukų pavadinimų konfigūravimas sandėlio programoje
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
                       href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Brūkšninių kodų nuskaitymas sandėlio programėle naudojant kamerą
-                      href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Su sandėlio programa gaunama numerio lentelė
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas
                       href: warehousing/tasks/set-up-mobile-device-menu.md
                     - name: Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
                       href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: 'Mobiliojo įrenginio meniu elemento nustatymas, norint pateikti paėmimo eilučių apžvalgą'
+                      href: warehousing/pick-line-overview.md
                     - name: Mobiliojo įrenginio meniu elemento numerių lentelėms konsoliduoti kūrimas
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Mišrių numerių lentelių gavimas mobiliajame įrenginyje

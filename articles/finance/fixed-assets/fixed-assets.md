@@ -1,6 +1,6 @@
 ---
-title: Ilgalaikio turto pagrindinis puslapis
-description: Ilgalaikis turtas yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai.
+title: Ilgalaikių išteklių pagrindinis puslapis
+description: Ilgalaikiai ištekliai yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfa6dcbd8d75c1a6c40896311ed367a835eccc7f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: e761283057ff71fb10d4a5333a0b0dd4b6b6149e
+ms.sourcegitcommit: 71a7fb9e7133d872790ec25def5453bbbb17c627
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770763"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3888089"
 ---
-# <a name="fixed-assets-home-page"></a>Ilgalaikio turto pagrindinis puslapis
+# <a name="fixed-assets-home-page"></a>Ilgalaikių išteklių pagrindinis puslapis
 
 [!include [banner](../includes/banner.md)]
 
-Ilgalaikis turtas yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai. 
+Ilgalaikiai ištekliai yra vertingos prekės, pvz., pastatai, transporto priemonės, žemė bei įranga, priklausančios asmeniui ar organizacijai. 
 
-Galite nustatyti ir įvesti ilgalaikio turto informaciją ir turtą valdyti jį nudėvėdami bei nustatydami ribinę kapitalizacijos reikšmę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikio turto koregavimus bei jo atsikratyti. Kai su ilgalaikiu turtu naudojate didžiąją knygą, galite peržiūrėti dabartinę viso ilgalaikio turto vertę. Ilgalaikio turto valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek ir apskaitos įstatymus kiekvienoje šalyje / regione. Į reikalavimus gali būti įtrauktos ilgalaikio turto gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikio turto funkcijose yra dauguma šių standartų ir taisyklių.
+Galite nustatyti ir įvesti ilgalaikių išteklių informaciją ir valdyti juos nudėvėdami bei nustatydami ribinę kapitalizacijos reikšmę nusidėvėjimui nustatyti. Galite skaičiuoti ilgalaikių išteklių koregavimus bei jo atsikratyti. Kai su ilgalaikiais ištekliais naudojate didžiąją knygą, galite peržiūrėti dabartinę visų ilgalaikių išteklių vertę. Ilgalaikių išteklių valdymas turi atitikti tiek tarptautinius apskaitos standartus, tiek ir apskaitos įstatymus kiekvienoje šalyje / regione. Į reikalavimus gali būti įtrauktos ilgalaikių išteklių gavimo įrašymo ir likvidavimo operacijų, nusidėvėjimo, naudojimo trukmės ir didinimų bei mažinimų taisyklės. Ilgalaikių išteklių funkcijose yra dauguma šių standartų ir taisyklių.
 
 [![Verslo procesas](./media/FA-process.PNG)](./media/FA-process.PNG)
 
@@ -47,7 +47,7 @@ Norėdami pamatyti, kokios naujos funkcijos suplanuotos, eikite į tinklalapį [
 
 Galite rasti nuomonių, naujienų ir kitos informacijos [„Microsoft Dynamics 365“ tinklaraštyje](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) ir [„Microsoft Dynamics 365 Finance and Operations“ – finansai“ tinklaraštyje](https://community.dynamics.com/365/financeandoperations/b/financials).
 
-„[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „MBS Operations“ tendencijos.
+„[Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog) – tai vienas išteklius, kuriame „Microsoft Dynamics‟ partneriai gali sužinoti, kas nauja ir kokios yra „Dynamics 365“ tendencijos.
 
 #### <a name="task-guides"></a>Užduočių vedliai
 Papildoma pagalba prieinama kaip užduočių vedliai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
