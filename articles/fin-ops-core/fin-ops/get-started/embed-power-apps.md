@@ -1,9 +1,9 @@
 ---
-title: „Power Apps“ įdėjimas
-description: Šioje temoje aprašoma, kaip įdėti „Power Apps“ klientą, siekiant padidinti produkto funkcijų skaičių.
+title: Drobės programų įdėjimas iš „Power Apps”
+description: Šioje temoje aiškinama, kaip įdėti drobės programas iš „Microsoft Power Apps“ į klientą, siekiant padidinti produkto funkcijų skaičių.
 author: jasongre
 manager: AnnBe
-ms.date: 12/02/2019
+ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,36 +16,39 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 90422a34499dab7302ad7722cf84d40e1815991c
-ms.sourcegitcommit: 3c1eb3d89c6ab9bd70b806ca42ef9df74cf850bc
+ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "3042947"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893112"
 ---
-# <a name="embed-microsoft-power-apps"></a>„Microsoft Power Apps“ įdėjimas
+# <a name="embed-canvas-apps-from-power-apps"></a>Drobės programų įdėjimas iš „Power Apps”
 
 [!include [banner](../includes/banner.md)]
 
-„Finance and Operations“ palaiko integravimą su „Microsoft Power Apps“, kūrėjams ir įprastiems vartotojams skirta paslauga, kurią naudojant galima kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui nerašant kodo. „Power Apps”, kurias sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti į „Finance and Operations“ programas ir padidinti produkto funkcijų skaičių. Pavyzdžiui, „Power Apps“ pagrindu galite sukurti programą, kad papildytumėte programą „Finance and Operations“ informacija, gauta iš kitos sistemos.
+„Microsoft Power Apps“ yra paslauga, leidžianti kūrėjams ir įprastiems vartotojams kurti pasirinktines verslo programas, skirtas mobiliesiems įrenginiams, planšetiniams kompiuteriams ir žiniatinkliui, nerašant kodo. „Finance and Operations” programos palaiko integravimą su „Power Apps”. Drobės programas, kurias sukūrėte jūs, jūsų organizacija arba platesnė bendruomenė, galima įdėti į „Finance and Operations“ programas ir padidinti produkto funkcijų skaičių. Pavyzdžiui, „Power Apps“ pagrindu galite sukurti drobės programą, kad papildytumėte „Finance and Operations“ programą informacija, gauta iš kitos sistemos.
 
 Norėdami daugiau sužinoti apie „Power Apps“ įdėjimą, peržiūrėkite trumpą vaizdo įrašą [Kaip įdėti „Power Apps“](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
-## <a name="adding-an-embedded-app-from-power-apps-to-a-page"></a>Įdėtosios „Power Apps“ programos įtraukimas į puslapį
+## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Įdėtosios „Power Apps“ drobės programos įtraukimas į puslapį
 
-### <a name="overview"></a>Peržiūrėti
+### <a name="overview"></a>Peržiūra
 
-Prieš įdedant programą iš „Power Apps“ į klientą, pirmiausia reikia rasti arba sukurti programą su norimais vaizdiniais elementais ir (arba) funkcijomis. Čia nepateiksime išsamaus programų kūrimo proceso aprašo. Jei esate naujas „Power Apps“ naudotojas, gera vieta pradėti – tema [„Power Apps“ pristatymas](https://docs.microsoft.com/powerapps/getting-started).
+Prieš įdedant drobės programą iš „Power Apps“ į klientą, reikia rasti arba sukurti programą su norimais vaizdiniais elementais arba funkcijomis. Šioje temoje nėra išsamaus programų kūrimo proceso aprašo. Jei naudojate „Power Apps” pirmą kartą, žr. [„Power Apps” dokumentaciją](https://docs.microsoft.com/powerapps/).
 
-Kai būsite pasirengę įdėti konkrečią programą, galite pasirinkti sau tinkamesnį vieną iš dviejų būdų, kaip pasiekti programą puslapyje. Pirmasis prieigos būdas yra mygtukas „Power Apps“, kuris įtrauktas į standartinę veiksmų sritį. Naudojant šį mechanizmą įtrauktos programos bus rodomos kaip meniu mygtuko „Power Apps“ meniu elementai. Pasirinkus bet kurį iš šių meniu elementų, atsidarys šoninė sritis, kurioje bus pateikta įdėtoji programa. Taip pat galite pasirinkti įdėti programą į puslapį tiesiogiai kaip naują skirtuką, „FastTab“, mentę arba naują skiltį darbo srityje.
+Yra du būdai, kaip pasiekti konkrečią drobės programą puslapyje, kai esate pasiruošę įdėti programą. Galite pasirinkti, kuris būdas geriau atitinka jūsų scenarijų. Pirmasis būdas naudoja mygtuką **„Power Apps“**, kuris įtrauktas į standartinę veiksmų sritį. Programos, kurias įtraukiate naudodami šį būdą , rodomos kaip meniu mygtuko **„Power Apps”** elementai. Pasirinkus bet kurį iš šių elementų, pasirodys šoninė sritis, kurioje bus pateikta įdėtoji programa. Taip pat galite įdėti programą į puslapį tiesiogiai kaip naują skirtuką, „FastTab“, mentę arba naują skiltį darbo srityje.
 
-Konfigūruodami savo įdėtąją programą, galite pasirinkti vieną lauką, kurį norite siųsti kaip kontekstą į programą. Tai programai suteikia galimybę reaguoti pagal duomenis, kuriuos tuo metu peržiūrite.
+Konfigūruodami savo įdėtąją drobės programą, galite pasirinkti vieną lauką, kurį norite siųsti kaip kontekstą į programą. Šis veiksmas programai suteikia galimybę reaguoti pagal duomenis, kuriuos tuo metu peržiūrite.
 
-### <a name="details"></a>Išsami informacija
+> [!NOTE]
+> Šiuo metu negalima naudoti šio mechanizmo modeliuotoms programos įdėti.  
 
-Toliau pateiktose instrukcijose parodyta, kaip įdėti programą iš „Power Apps“ į žiniatinklio klientą.
+### <a name="details"></a>Išsamiai
 
-1. Atidarykite puslapį, kuriame norite įdėti programą. Tai bus puslapis su duomenimis, kuriuos reikia kaip įvestį perduoti programai.
+Toliau pateiktoje procedūroje parodyta, kaip įdėti drobės programą iš „Power Apps“ į žiniatinklio klientą.
+
+1. Atidarykite puslapį, kuriame norite įdėti drobės programą. Tai bus puslapis su duomenimis, kuriuos reikia kaip įvestį perduoti programai.
 2. Atidarykite sritį **Įtraukti programą iš „Power Apps“**, atlikę tolesnius veiksmus.
 
     - Spustelėkite **Parinktys** ir tada pasirinkite **Pritaikyti šį puslapį asmeniniams poreikiams**. Meniu **Įterpti** pasirinkite **„Power Apps“**. Galiausiai pasirinkite regioną, kuriame norite įtraukti programą. Jei norite įdėti programą į meniu mygtuką „Power Apps“, pasirinkite veiksmų sritį. Jei norite įdėti programą tiesiai į puslapį, pasirinkite atitinkamą skirtuką, „FastTab“, mentę arba skyrių (jei naudojate darbo sritį).
@@ -54,8 +57,8 @@ Toliau pateiktose instrukcijose parodyta, kaip įdėti programą iš „Power Ap
 3. Konfigūruokite įdėtąją programą, atlikę tolesnius veiksmus.
 
     - Lauke **Pavadinimas** nurodomas mygtuke arba skirtuke, kuriame bus įdėtoji programa, rodomas tekstas. Daugeliu atveju patartina pakartoti programos pavadinimą šiame lauke.
-    - **Programos ID** yra programos, kurią norite įdėti, GUID. Norėdami gauti šią reikšmę, raskite programą puslapyje [web.powerapps.com](https://web.powerapps.com) ir raskite lauką **Programos ID**, pateiktą dalyje **Informacija**.
-    - Dalyje **Programos įvesties kontekstas** galite pasirinktinai pasirinkti lauką su duomenimis, kuriuos kaip įvestį norite perduoti programai. Informacijos apie tai, kaip programa gali pasiekti duomenis, išsiųstus iš „Finance and Operations“ programų, žr. šios temos skyriuje [Programos, naudojančios „Finance and Operations“ programų siųstus duomenis, kūrimas](#building-an-app-that-leverages-data-sent-from-finance-and-operations-apps).
+    - Laukas **Programos ID** nurodo globaliai unikalų identifikatorių (GUID), skirtą drobės programai, kurią norite įdėti. Norėdami gauti šią reikšmę, raskite programą puslapyje [web.powerapps.com](https://web.powerapps.com) ir raskite lauką **Programos ID**, pateiktą dalyje **Informacija**.
+    - Dalyje **Programos įvesties kontekstas** galite pasirinktinai pasirinkti lauką su duomenimis, kuriuos kaip įvestį norite perduoti programai. Informacijos apie tai, kaip programa gali pasiekti duomenis, išsiųstus iš „Finance and Operations“ programų, žr. šios temos skyriuje [Programos, naudojančios „Finance and Operations“ programų siųstus duomenis, kūrimas](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps).
     - Pasirinkite parinktį **Programos dydis**, atitinkančią įdedamos programos tipą. Jei kuriate mobiliesiems įrenginiams skirtas programas, pasirinkite parinktį **Plona**, o jei kuriate planšetiniams kompiuteriams skirtas programas, pasirinkite **Plati**. Taip užtikrinama, kad įdėtajai programai bus skirta pakankamai vietos.
     - „FastTab“ **Juridiniai subjektai** pateikiama galimybė rinktis, kuriems juridiniams subjektams suteikiama programa. Pagal numatytuosius parametrus programa suteikiama visiems juridiniams subjektams. Ši parinktis galima tik tada, kai funkcija [Įrašyti rodiniai](saved-views.md) yra išjungta. 
 
@@ -63,16 +66,23 @@ Toliau pateiktose instrukcijose parodyta, kaip įdėti programą iš „Power Ap
 
 ## <a name="sharing-an-embedded-app"></a>Įdėtosios programos bendrinimas
 
-Įdėję programą į puslapį ir įsitikinę, kad ji veikia tinkamai ir visas duomenų kontekstas perduodamas iš puslapio, galite šią programą bendrinti su kitais sistemos vartotojais. Tai galima atlikti toliau nurodytais dviem skirtingais būdais, naudojant produkto personalizavimo galimybes.
+Įdėję drobės programą į puslapį ir įsitikinę, kad ji veikia tinkamai su bet kokiu duomenų kontekstu, perduotu iš to puslapio, galite programą bendrinti su kitais sistemos vartotojais. Norėdami bendrinti įdėtąją drobės programą, atlikite toliau pateiktus veiksmus.
 
-- Rekomenduojamas atvejis – kreiptis į sistemos administratorių, kuris asmeniniams poreikiams pritaikytą elementą gali perduoti visiems vartotojams arba vartotojų subrinkiniui.
-- Taip pat savo puslapio asmeniniams poreikiams pritaikytus elementus galite eksportuoti, siųsti vienam ar keliems vartotojams, kad kiekvienas iš jų jūsų tuos keitimus importuotų. Eksportuoti ir importuoti personalizavimus galite pasirinkę personalizavimo įrankių juostos veiksmus.
+1. [Bendrinkite drobės programą](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) su tinkamais vartotojais, kad jie galėtų pasiekti programą, esančią „Power Apps”. 
+
+2. Įsitikinkite, kad nustatytas atitinkamas tikslinių vartotojų personalizavimas, kad įdėtoji programa būtų rodoma šiems vartotojams peržiūrint puslapį. Galite naudoti bet kurį iš toliau nurodytų būdų.
+
+    - Rekomenduojama naudoti funkciją [Įrašyti rodiniai](saved-views.md), kad būtų sukurtas ir publikuotas rodinys, įtraukiantis įdėtąją programą. Šis būdas užtikrina, kad visi vartotojai, turintys saugos vaidmenis, kuriems skirtas publikuotas rodinys, matys programą „Finance and Operations” programose. 
+    - Jei nesate įjungę funkcijos Įrašyti rodiniai, sistemos administratorius gali skirti personalizavimą, įtraukiantį įdėtąją programą visiems vartotojams arba vartotojų pogrupiui. Taip pat galite eksportuoti jūsų puslapio personalizavimus ir siųsti juos vienam ar keliems vartotojams. Tada kiekvienas iš šių vartotojų gali importuoti personalizavimus. Eksportuoti ir importuoti personalizavimus galite pasirinkę personalizavimo įrankių juostos veiksmus. 
+    
+> [!NOTE]
+> Jei drobės programa bendrinama su išoriniais vartotojais, šie vartotojai negali naudoti įdėtosios programos „Finance and Operations” programose. Tačiau jie gali pasiekti programą tiesiogiai programoje „Power Apps”. Išoriniai vartotojai įtraukia svečių ir vartotojų, nepriklausančių „Microsoft 365 Azure Directory”, kur įdiegta „Finance and Operations” programa.
 
 Informacijos apie produkto pritaikymo galimybes ir kaip jas naudoti žr. temoje [Vartotojo patirties pritaikymas asmeniniams poreikiams](personalize-user-experience.md).
 
-## <a name="building-an-app-that-leverages-data-sent-from-finance-and-operations-apps"></a>Programos, kuri naudoja duomenis, siunčiamus iš „Finance and Operations“ programų, kūrimas
+## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Drobės programos, naudojančios iš „Finance and Operations” programų siunčiamus duomenis, kūrimas
 
-Kuriant programą iš „Power Apps“, kuri bus įdėta į „Finance and Operations“ programą, svarbu naudojant įvesties duomenis iš tos programos. „Power Apps“ kūrimo patirtyje iš „Finance and Operations“ programos perkeliamus įvesties duomenis galima pasiekti naudojant kintamąjį Param("EntityId") .
+Kai kuriate drobės programą, kuri bus įdėta į „Finance and Operations” programą, svarbi naudoti įvesties duomenis iš tos „Finance and Operations” programos. „Power Apps“ kūrimo patirtyje iš „Finance and Operations“ programos perkeliamus įvesties duomenis galima pasiekti naudojant kintamąjį **Param("EntityId")**.
 
 Pvz., programos funkcijoje „OnStart“ galite nustatyti „Finance and Operations“ programų įvesties duomenis į kintamąjį toliau nurodytu būdu.
 
@@ -80,9 +90,9 @@ Pvz., programos funkcijoje „OnStart“ galite nustatyti „Finance and Operati
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
 ```
 
-## <a name="viewing-an-app"></a>Programos peržiūra
+## <a name="viewing-a-canvas-app"></a>Drobė programos peržiūra
 
-Norėdami įdėtąją programą peržiūrėti „Finance and Operations“ programų puslapyje, tiesiog atidarykite puslapį, kuriame yra įdėtoji programa. Atminkite, kad programas galima pasiekti naudojant mygtuką „Power Apps“ standartinėje veiksmų srityje arba jos gali būti tiesiogiai pateikiamos puslapyje kaip naujas skirtukas, „FastTab“, mentė arba naujas skyrius darbo srityje. Kai vartotojas pirmą kartą bando įkelti programą į puslapį, jis bus paragintas prisijungti, siekiant užtikrinti, kad vartotojas turi tinkamas programos naudojimo teises.
+Norėdami įdėtąją drobės programą peržiūrėti „Finance and Operations“ programų puslapyje, tiesiog atidarykite puslapį, kuriame yra įdėtoji programa. Atminkite, kad programas galima pasiekti naudojant mygtuką **„Power Apps”**, esantį standartinėje veiksmų srityje. Taip pat jos gali atsirasti puslapyje tiesiogiai kaip naujas skirtukas, „FastTab“, mentė arba nauja skiltis darbo srityje. Vartotojams pirmą kartą bandant įkelti programą į puslapį, jie bus paraginti prisijungti. Šis veiksmas užtikrina, kad vartotojai turėtų atitinkamas teises programėlei naudoti.
 
 ## <a name="editing-an-embedded-app"></a>Įdėtosios programos redagavimas
 
@@ -106,7 +116,7 @@ Atlikite toliau nurodytus veiksmus norėdami redaguoti įdėtosios programos kon
 
 ## <a name="appendix"></a>Priedas
 
-### <a name="developer-control-over-where-an-app-can-be-embedded"></a>Kūrėjo valdymas, kurioje vietoje galima įdėti programą
+### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Kūrėjas] Nurodymas, kurioje vietoje galima įdėti programą
 
 Pagal numatytuosius parametrus vartotojai gali įdėti programas bet kuriame puslapyje – į meniu mygtuką „Power Apps“ arba tiesiogiai į puslapį kaip skirtuką, „FastTab“, mentę ar naują skyrių darbo srityje. Tačiau, jei reikia, kūrėjai gali taip pat sukonfigūruoti šią funkciją, kad programas būtų galima įdėti tik tam tikruose puslapiuose, naudodami toliau pateiktus būdus.
 

@@ -3,7 +3,7 @@ title: Kurkite ER konfigūracijas RCS ir įkelkite jas į bendrąją saugyklą
 description: Šioje temoje aiškinama, kaip sukurti elektroninių ataskaitų (ER) konfigūraciją „Microsoft Regulatory Configuration Service“ (RCS) ir nusiųsti ją į bendrąją saugyklą.
 author: JaneA07
 manager: AnnBe
-ms.date: 05/05/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 0e194a8b777f984412d81e315f92ab4bb8a3b0c9
-ms.sourcegitcommit: 204cec8ca2a6c4474d21dbcd408e369131a47856
+ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3371259"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834238"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER konfigūracijų kūrimas „Regulatory Configuration Service“ (RCS) ir įkėlimas į bendrąją saugyklą
 
@@ -54,7 +54,7 @@ Jei RCS aplinka jūsų įmonei jau parengta, pasiekite ją naudodami puslapio UR
 5. Įveskite pavadinimą ir aprašą, tada pasirinkite **Kurti konfigūraciją**, kad sukurtumėte naują išvestinę versiją.
 6. Pasirinkite naujai išvestą konfigūraciją, įtraukite versijos aprašą, tada pasirinkite **Gerai**. Konfigūracijos būsena pakeičiama į **Baigta**.
 
-![Nauja konfigūracijos versija RCS](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_CompleteConfig.JPG)
+![Nauja konfigūracijos versija RCS](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Pakeitus konfigūracijos būseną, galite gauti tikrinimo klaidos pranešimą, susijusį su prijungtomis programomis. Norėdami išjungti tikrinimą, veiksmų srities skirtuke **Konfigūracijos** pasirinkite **Vartotojo parametrai** ir nustatykite parinkties **Praleisti tikrinimą konfigūracijos būsenos keitimo ir pritaikymo kitoje vietoje metu** reikšmę kaip **Taip**. 
@@ -66,7 +66,7 @@ Norėdami bendrinti naują arba išvestinę konfigūraciją su savo organizacija
 1. Pasirinkite užbaigtą konfigūracijos versiją, tada pasirinkite **Nusiųsti į saugyklą**.
 2. Pasirinkite parinktį **Bendroji („Microsoft“)**, tada – **Nusiųsti**.
 
-    ![Nusiuntimo į saugyklą parinktys](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Nusiuntimo į saugyklą parinktys](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Patvirtinimo pranešimo lange pasirinkite **Taip**. 
 4. Jei reikia, atnaujinkite versijos aprašą ir pasirinkite **Gerai**. 
@@ -74,6 +74,27 @@ Norėdami bendrinti naują arba išvestinę konfigūraciją su savo organizacija
 Konfigūracijos būsena atnaujinama į **Bendrinama**, o konfigūracija nusiunčiama į bendrąją saugyklą. Čia ją galite naudoti toliau nurodytais būdais.
 
 - Importuoti į savo „Dynamics 365“ egzempliorių. Daugiau informacijos žr. [(ER) Konfigūracijų importavimas iš RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md).
-- Bendrinti su trečiąja šalimi arba su išorine organizacija; žr. [RCS elektroninių ataskaitų (arba) konfigūracijų bendrinimas su išorinėmis organizacijomis](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/rcs-global-share-configuration.md)
+- Bendrinti su trečiąja šalimi arba su išorine organizacija; žr. [RCS elektroninių ataskaitų (arba) konfigūracijų bendrinimas su išorinėmis organizacijomis](rcs-global-repo-share-configuration.md)
 
-![Išvestinė „Intrastat Contoso“ konfigūracijos versija bendrojoje saugykloje](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Išvestinė „Intrastat Contoso“ konfigūracijos versija bendrojoje saugykloje](media/RCS_Config_upload_GlobalRepo.JPG)
+
+## <a name="delete-a-configuration-from-the-global-repository"></a>Konfigūracijos naikinimas iš bendrosios saugyklos
+Norėdami panaikinti konfigūraciją, kurią sukūrė jūsų organizacija, atlikite šiuos veiksmus.
+
+1. Darbo srityje **Elektroninės ataskaitos** patvirtinkite, kad jūsų konfigūracijos teikėjo yra **Aktyvus**. Daugiau informacijos žr. [Konfigūracijos teikėjų kūrimas, pažymint juos kaip aktyvius](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. Prie savo aktyvaus konfigūracijos teikėjo pasirinkite **saugykla**.
+3. Pasirinkite **Visuotinį** saugyklos tipą ir tada pasirinkite **Atidaryti**.
+4. „FastTab ”skirtuke **Filtras** suraskite konfigūraciją, kurią norite naikinti, naudodami **Filtro** funkciją.
+5. „FastTab” **Versija** pasirinkite norimos naikinti konfigūracijos versiją ir pasirinkite **Naikinti**:
+
+    ![Naikinti konfigūraciją iš bendrosios saugyklos](media/RCS_Delete_from_GlobalRepo.JPG)
+
+6. Patvirtinimo pranešimo lange pasirinkite **Taip**.
+
+    ![Konfigūracijos versijos patvirtinimo pranešimo naikinimas](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+ 
+Konfigūracijos versija panaikinama ir parodomas patvirtinimo pranešimas. 
+
+> [!NOTE]
+> Konfigūracijas panaikinti gali tik jas sukūręs konfigūracijos teikėjas. Jei konfigūracija buvo bendrai naudojama su kita organizacija, turėsite atsieti konfigūraciją, prieš ją naikindami.
+ 
