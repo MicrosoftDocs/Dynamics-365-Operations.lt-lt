@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanQuantityPolicy, KanbanRules
+ms.search.form: KanbanQuantityPolicy, KanbanRules, KanbanQuantityCalculation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 19f563379a10bbe42681a5f61779fb9e72d1f60c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 039c4aaa355cf2b850ded06913e8e39ee8cac543
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211013"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826641"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Į „kanban“ taisyklę įtraukti „kanban“ kiekio skaičiavimo strategiją
 
@@ -47,7 +47,7 @@ ms.locfileid: "3211013"
 10. Lauke „Dienų į priekį“ įveskite „30‟.
     * Tai yra dienų skaičius prieš „kanban“ kiekio skaičiavimo datą, įtrauktas į poreikio skaičiavimą.  
 11. Lauke „Dienų atgal“ įveskite „30‟.
-    * Tai yra dienų skaičius nuo „kanban“ kiekio skaičiavimo datos, įtrauktas į poreikio skaičiavimą.  Skaičiavimui naudojama formulė rodoma su faktinėmis reikšmėmis. Pvz., „kanban“ kiekis = ((vidutinis kasdienis poreikis x gamybos laikas x 2.00 / produkto kiekis sandėliavimo vienetui) + 1  
+    * Tai yra dienų skaičius nuo „kanban“ kiekio skaičiavimo datos, įtrauktas į poreikio skaičiavimą.  Skaičiavimui naudojama formulė rodoma su faktinėmis reikšmėmis. Pvz., „kanban“ kiekis = ((vidutinis kasdienis poreikis x gamybos laikas x 2.00) / produkto kiekis sandėliavimo vienetui) + 1  
 12. Uždarykite puslapį.
 
 ## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Į „kanban“ taisyklę įtraukti „kanban“ kiekio skaičiavimo strategiją

@@ -3,7 +3,7 @@ title: Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ krepšelio valdymo puslapių apžvalga.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c879b90cf49dcab9cf069e4f3613602bd6673aa9
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: e932be31a301ef5aacb68fa4e710d8a9137b7263
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527571"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817783"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Krepšelio ir pirkimo užbaigimo puslapių apžvalga
 
@@ -40,7 +40,7 @@ El. prekybos svetainės pirkimo užbaigimo puslapyje pateikiamas nuoseklus sraut
 
 Krepšelio puslapis naudojamas kaip pirkinių krepšelis ir apima visas prekes, kurios buvo įdėtos į krepšelį.
 
-Toliau pateiktame paveikslėlyje parodytas krepšelio puslapio pavyzdys, kuris buvo sukurtas naudojant internetinį darbo pradžios rinkinį ir „Fabrikam“ temą.
+Toliau pateiktame paveikslėlyje parodytas krepšelio puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką ir „Fabrikam“ temą.
 
 ![Krepšelio puslapio pavyzdys](./media/cart2.PNG)
 
@@ -56,7 +56,7 @@ Informacijos apie tai, kaip kurti krepšelio puslapį, žr. [Krepšelio modulio 
 
 Pirkimo užbaigimo puslapis yra vieta, kurioje klientai įveda informaciją, reikalingą užsakymui pateikti.
 
-Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapio pavyzdys, kuris buvo sukurtas naudojant internetinį darbo pradžios rinkinį.
+Toliau pateiktame paveikslėlyje parodytas pirkimo užbaigimo puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką.
 
 ![Pirkimo užbaigimo puslapio pavyzdys](./media/Checkout.PNG)
 
@@ -66,7 +66,7 @@ Pagrindinė pirkimo užbaigimo puslapio struktūra yra vieta, kur renkama visa u
 
 Siuntimo adresas yra būtinas, jei prekės turi būti išsiųstos. Galima konfigūruoti kiekvienos lokalės siuntimo adresų formatą sprendime „Dynamics 365 Commerce“. Pavyzdžiui, jei prekės bus išsiųstos į Jungtines Amerikos Valstijas, siuntimo adrese turi būti gatvės adresas, valstija ir pašto indeksas. Siuntimo adreso laukams atliekamas tam tikras pagrindinis įvesties patvirtinimas, pvz., tikrinami raidiniai ir skaitmenų simboliai, maksimalus ilgis ir numeriai. Nors pats adreso galiojimas nepatvirtintas, šį tikrinimą galima atlikti naudojant pritaikytas trečiosios šalies tarnybas.
 
-Siuntimo adresas taikomas visoms krepšelio prekėms, kurių parinkta parinktis Siųsti. Jei naudojate pirkimo užbaigimo srautą, kuris pateikiamas internetiniame darbo pradžios rinkinyje, atskiros krepšelio prekės negali būti išsiųstos į skirtingus adresus. Jei norite, kad ši funkcija būtų galima, ji gali būti įgyvendinta naudojant pirkimo užbaigimo modulių tinkinimą.
+Siuntimo adresas taikomas visoms krepšelio prekėms, kurių parinkta parinktis Siųsti. Jei naudojate pirkimo užbaigimo srautą, kuris pateikiamas modulių bibliotekoje, atskiros krepšelio prekės negali būti išsiųstos į skirtingus adresus. Jei norite, kad ši funkcija būtų galima, ji gali būti įgyvendinta naudojant pirkimo užbaigimo modulių tinkinimą.
 
 Kai pateikiamas siuntimo adresas, bus rodomi siuntimo būdai, galimi „Dynamics 365 Commerce“ internetinėje parduotuvėje. Siuntimo būdus ir adresus, kuriuos jie palaiko, galima sukonfigūruoti „Commerce“.
 
@@ -80,7 +80,7 @@ Atliekant pirkimo užbaigimo seką, klientas, kuris yra lojalumo programos narys
 
 #### <a name="gift-cards"></a>Dovanų kortelės
 
-Internetimis pradžios rinkinys leidžia užsakyme vidines dovanų korteles išpirkti. Norint taikyti vidinę dovanų kortelę, klientas turi būti prisijungęs. Siekiant užtikrinti papildomą saugą, rekomenduojame tinkinti eigą, naudojant asmeninį identifikavimo numerį (PIN) vidinėms dovanų kortelėms.
+Modulių biblioteka leidžia užsakyme vidines dovanų korteles išpirkti. Norint taikyti vidinę dovanų kortelę, klientas turi būti prisijungęs. Siekiant užtikrinti papildomą saugą, rekomenduojame tinkinti eigą, naudojant asmeninį identifikavimo numerį (PIN) vidinėms dovanų kortelėms.
 
 ### <a name="signed-in-and-guest-users"></a>Prisijungę ir svečių vartotojai
 

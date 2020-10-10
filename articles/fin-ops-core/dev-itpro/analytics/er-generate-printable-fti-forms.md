@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 0bb817de583c231aa55fa81b9e28d788505e0a1f
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 4412fb08c8548c8ebe8455db0547618578e5e5b4
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771288"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893368"
 ---
 # <a name="generate-printable-fti-forms"></a>Spausdintinų LFSF formų generavimas
 
@@ -111,7 +111,7 @@ LFSF formas taip pat sugeneruoti galite LFSF registravimo metu, parinktį **Spau
 ER sistemoje šiuo metu palaikomos toliau nurodytos sugeneruotų dokumentų paskirties vietos.
 
 - **Atsisiųstas failas** – sugeneruotos formos siūlomos kaip atsisiuntimai, kuriuos galite įrašyti naudodami naršyklę.
-- **Ekranas** – sugeneruotoms LFSF formoms „Excel“ formatu peržiūrėti naudojama programa „Microsoft Office 365 Excel“.
+- **Ekranas** – sugeneruotoms laisvos formos sąskaitoms faktūroms „Excel“ formatu peržiūrėti naudojama programa „Microsoft Office 365 Excel“.
 - **„SharePoint“ aplankas** – sugeneruotos formos saugomos kaip nurodyta Dokumentų valdymo sistemos parametruose.
 - **Programos archyvas** – sugeneruotos formos saugomos kaip vykdymo žurnalo įrašų priedai „Microsoft Azure“ saugykloje.
 - **El. paštas** – sugeneruotos formos siunčiamos kaip el. laiškų priedai.

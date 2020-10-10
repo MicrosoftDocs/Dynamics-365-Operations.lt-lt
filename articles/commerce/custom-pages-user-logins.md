@@ -3,7 +3,7 @@ title: Vartotojo registracijos pasirinktinių puslapių sąranka
 description: Šioje temoje aprašoma, kaip sukurti tinkintus „Microsoft Dynamics 365 Commerce“ puslapius, kuriuose galima valdyti pritaikytus „Azure Active Directory“ („Azure AD“) verslo ir vartotojų (B2C) nuomotojų vartotojų prisijungimus.
 author: brianshook
 manager: annbe
-ms.date: 07/02/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e9e78a4d6dc4189c927d9ef321f1eb5a6c120ee2
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533464"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817311"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Vartotojo registracijos pasirinktinių puslapių sąranka
 
@@ -181,13 +181,13 @@ Atnaujinti strategiją „Slaptažodžio nustatymas iš naujo“ naudokite pasir
 
 ## <a name="customize-default-text-strings-for-labels-and-descriptions"></a>Etikečių ir aprašų numatytųjų teksto eilučių tinkinimas
 
-Darbo pradžios rinkinyje prisijungimo moduliai yra iš anksto užpildyti etikečių ir aprašų numatytomis teksto eilutėmis. Galite pritaikyti šias eilutes programinės įrangos kūrimo rinkinyje (SDK), atnaujindami reikšmes, esančias prisijungimo modulio global.json faile.
+Modulių bibliotekoje prisijungimo moduliai yra iš anksto užpildyti etikečių ir aprašų numatytomis teksto eilutėmis. Galite pritaikyti šias eilutes programinės įrangos kūrimo rinkinyje (SDK), atnaujindami reikšmes, esančias prisijungimo modulio global.json faile.
 
 Pavyzdžiui, numatytasis pamiršto slaptažodžio saito tekstas **Pamiršote slaptažodį?**. Šiame prisijungimo puslapyje pateikiamas šis numatytasis tekstas.
 
 ![Numatytasis pamiršto slaptažodžio saito, esančio prisijungimo puslapyje, tekstas](./media/B2C_SignUp_ModuleFace.png)
 
-Tačiau darbo pradžios rinkinio, esančio prisijungimo modulyje, global.json faile galite redaguoti tekstą į **Pamiršai slaptažodį?**, kaip parodyta šioje iliustracijoje.
+Tačiau modulių bibliotekos, esančios prisijungimo modulyje, global.json faile galite redaguoti tekstą į **Pamiršote slaptažodį?**, kaip parodyta šioje iliustracijoje.
 
 ![Atnaujintas saito tekstas prisijungimo modulio global.json faile](./media/B2C_CustomizingStringsForModule.png)
 

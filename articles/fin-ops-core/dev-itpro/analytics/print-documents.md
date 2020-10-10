@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9acc4c26febacf4ec7647cf436ac678e52df3973
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 25996cbccf3e9eec6fc29b80b8241e89b5b6b4a5
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772563"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893284"
 ---
 # <a name="document-printing-overview"></a>Dokumento spausdinimo apžvalga
 
@@ -52,10 +52,10 @@ Naudodami specialiai tam skirtą pagrindinį kompiuterį ir vykdydami šiuos len
 Kadangi sprendimas priklauso nuo scenarijaus, programos suteikia integruotas tarnybas ir įrankius, kad vartotojai galėtų lengviau pasiekti savo tikslus.
 
 - **1 scenarijų** palaiko HTML5 kliento naršyklės atvaizdavimas.
-- **2 scenarijų** naudoja kliento programos ir „Microsoft Office 365“ tarnybos.
+- **2 scenarijus** naudoja kliento programas ir „Microsoft 365“ tarnybas.
 - **3 scenarijui** būtinas palaikymas iš kliento programų ir paslaugų, kurios nuomojamos „Microsoft Azure“.
 
-Be platformos, kuri yra įdiegta „Azure“ prenumeratoje, „Finance and Operations“ programos suteikia klientams integruotą „Azure“ programą, kuri jiems padeda lengviau naudoti domene nuomojamus įrenginius dokumentams spausdinti.
+Be platformos, kuri yra įdiegta „Azure“ prenumeratoje, Finance and Operations programos suteikia klientams integruotą „Azure“ programą, kuri jiems padeda lengviau naudoti domene nuomojamus įrenginius dokumentams spausdinti.
 
 ## <a name="service-overview"></a>Tarnybos apžvalga
 Nors nuomojamų programų sukuriami dokumentai turi būti spausdinami per tinklą prijungtame įrenginyje, jie saugomi „Azure“ dvejetainio didelio objekto saugykloje. [Dokumento maršruto planavimo agento diegimas siekiant įjungti tinklo spausdinimą](install-document-routing-agent.md) naudoja „Azure“ autentifikavimą, kad sukurtų saugų prieigos prie „Azure“ tarnybų kanalą.
