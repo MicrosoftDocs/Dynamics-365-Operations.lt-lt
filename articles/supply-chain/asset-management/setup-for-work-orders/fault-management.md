@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetFaultArea, EntAssetFaultDesigner, EntAssetFaultCopyFromObjectType, EntAssetFaultRemedy, EntAssetObjectFaultRelationRequestInfoPart, EntAssetObjectFaultRelationWorkOrderInfoPart, EntAssetFaultCreateCombinations, EntAssetObjectFaultSymptom, EntAssetObjectFaultSymptomListPage, EntAssetFaultType, EntAssetFaultSymptom, EntAssetFaultCause
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,118 +18,118 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6665e80342af1baa7176aee92693b77e83b368f0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 72d6c8d750a5a0903017b4c77b3ce5d9521cf99b
+ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205925"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3889366"
 ---
-# <a name="fault-management"></a><span data-ttu-id="40b68-103">Gedimų valdymas</span><span class="sxs-lookup"><span data-stu-id="40b68-103">Fault management</span></span>
+# <a name="fault-management"></a><span data-ttu-id="73e30-103">Gedimų valdymas</span><span class="sxs-lookup"><span data-stu-id="73e30-103">Fault management</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="40b68-104">Modulyje Turto valdymas gedimų dizaino įrankiu galite nustatyti turto tipų gedimų požymius, gedimų sritis ir gedimų tipus.</span><span class="sxs-lookup"><span data-stu-id="40b68-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="40b68-105">Taip galite valdyti rastus turto gedimus.</span><span class="sxs-lookup"><span data-stu-id="40b68-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="40b68-106">Be to, gedimų priežastis ir pasiūlymus dėl gedimų pašalinimo galima užregistruoti darbo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="40b68-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
+<span data-ttu-id="73e30-104">Modulyje Turto valdymas gedimų dizaino įrankiu galite nustatyti turto tipų gedimų požymius, gedimų sritis ir gedimų tipus.</span><span class="sxs-lookup"><span data-stu-id="73e30-104">In Asset Management, you can use the fault designer to set up fault symptoms, fault areas, and fault types on asset types.</span></span> <span data-ttu-id="73e30-105">Taip galite valdyti rastus turto gedimus.</span><span class="sxs-lookup"><span data-stu-id="73e30-105">In this way, you can manage faults that are detected on assets.</span></span> <span data-ttu-id="73e30-106">Be to, gedimų priežastis ir pasiūlymus dėl gedimų pašalinimo galima užregistruoti darbo užsakyme.</span><span class="sxs-lookup"><span data-stu-id="73e30-106">Additionally, fault causes and suggestions for fixing faults can be registered on a work order.</span></span>
 
-<span data-ttu-id="40b68-107">Gedimų registravimo ir valdymo procesą sudaro toliau pateikiami veiksmai.</span><span class="sxs-lookup"><span data-stu-id="40b68-107">The process for fault registration and management consists of these steps.</span></span>
+<span data-ttu-id="73e30-107">Gedimų registravimo ir valdymo procesą sudaro toliau pateikiami veiksmai.</span><span class="sxs-lookup"><span data-stu-id="73e30-107">The process for fault registration and management consists of these steps.</span></span>
 
-1. <span data-ttu-id="40b68-108">Sukurkite turto tipų galimus gedimų požymius, gedimų sritis ir gedimų tipus.</span><span class="sxs-lookup"><span data-stu-id="40b68-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
-2. <span data-ttu-id="40b68-109">Gedimų dizaino įrankiu nustatykite turto tipų gedimų požymius, gedimų sritis ir gedimų tipus.</span><span class="sxs-lookup"><span data-stu-id="40b68-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
+1. <span data-ttu-id="73e30-108">Sukurkite turto tipų galimus gedimų požymius, gedimų sritis ir gedimų tipus.</span><span class="sxs-lookup"><span data-stu-id="73e30-108">Create a list of fault symptoms, fault areas, and fault types that might occur on your asset types.</span></span>
+2. <span data-ttu-id="73e30-109">Gedimų dizaino įrankiu nustatykite turto tipų gedimų požymius, gedimų sritis ir gedimų tipus.</span><span class="sxs-lookup"><span data-stu-id="73e30-109">In the fault designer, set up symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="40b68-110">Toliau pateikiama pavyzdžių, padėsiančių suprasti skirtumą tarp gedimų požymių, gedimų sričių ir gedimų tipų.</span><span class="sxs-lookup"><span data-stu-id="40b68-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
+<span data-ttu-id="73e30-110">Toliau pateikiama pavyzdžių, padėsiančių suprasti skirtumą tarp gedimų požymių, gedimų sričių ir gedimų tipų.</span><span class="sxs-lookup"><span data-stu-id="73e30-110">Here are some examples to help you understand the difference between fault symptoms, fault areas, and fault types.</span></span>
 
-<span data-ttu-id="40b68-111">**Gedimų požymiai.**</span><span class="sxs-lookup"><span data-stu-id="40b68-111">**Fault symptoms:**</span></span>
+<span data-ttu-id="73e30-111">**Gedimų požymiai.**</span><span class="sxs-lookup"><span data-stu-id="73e30-111">**Fault symptoms:**</span></span>
 
-- <span data-ttu-id="40b68-112">Įtampų disbalansas</span><span class="sxs-lookup"><span data-stu-id="40b68-112">Unbalanced voltages</span></span>
-- <span data-ttu-id="40b68-113">Trumpasis jungimas</span><span class="sxs-lookup"><span data-stu-id="40b68-113">Short circuit</span></span>
-- <span data-ttu-id="40b68-114">Triukšmas</span><span class="sxs-lookup"><span data-stu-id="40b68-114">Noise</span></span>
-- <span data-ttu-id="40b68-115">Nuotėkis</span><span class="sxs-lookup"><span data-stu-id="40b68-115">Leak</span></span>
-- <span data-ttu-id="40b68-116">Vibracija</span><span class="sxs-lookup"><span data-stu-id="40b68-116">Vibrations</span></span>
+- <span data-ttu-id="73e30-112">Įtampų disbalansas</span><span class="sxs-lookup"><span data-stu-id="73e30-112">Unbalanced voltages</span></span>
+- <span data-ttu-id="73e30-113">Trumpasis jungimas</span><span class="sxs-lookup"><span data-stu-id="73e30-113">Short circuit</span></span>
+- <span data-ttu-id="73e30-114">Triukšmas</span><span class="sxs-lookup"><span data-stu-id="73e30-114">Noise</span></span>
+- <span data-ttu-id="73e30-115">Nuotėkis</span><span class="sxs-lookup"><span data-stu-id="73e30-115">Leak</span></span>
+- <span data-ttu-id="73e30-116">Vibracija</span><span class="sxs-lookup"><span data-stu-id="73e30-116">Vibrations</span></span>
 
-<span data-ttu-id="40b68-117">**Gedimų sritys.**</span><span class="sxs-lookup"><span data-stu-id="40b68-117">**Fault areas:**</span></span>
+<span data-ttu-id="73e30-117">**Gedimų sritys.**</span><span class="sxs-lookup"><span data-stu-id="73e30-117">**Fault areas:**</span></span>
 
-- <span data-ttu-id="40b68-118">Elektra</span><span class="sxs-lookup"><span data-stu-id="40b68-118">Electrical</span></span>
-- <span data-ttu-id="40b68-119">Mechanika</span><span class="sxs-lookup"><span data-stu-id="40b68-119">Mechanical</span></span>
-- <span data-ttu-id="40b68-120">Hidraulika</span><span class="sxs-lookup"><span data-stu-id="40b68-120">Hydraulic</span></span>
-- <span data-ttu-id="40b68-121">Pneumatika</span><span class="sxs-lookup"><span data-stu-id="40b68-121">Pneumatic</span></span>
+- <span data-ttu-id="73e30-118">Elektra</span><span class="sxs-lookup"><span data-stu-id="73e30-118">Electrical</span></span>
+- <span data-ttu-id="73e30-119">Mechanika</span><span class="sxs-lookup"><span data-stu-id="73e30-119">Mechanical</span></span>
+- <span data-ttu-id="73e30-120">Hidraulika</span><span class="sxs-lookup"><span data-stu-id="73e30-120">Hydraulic</span></span>
+- <span data-ttu-id="73e30-121">Pneumatika</span><span class="sxs-lookup"><span data-stu-id="73e30-121">Pneumatic</span></span>
 
-<span data-ttu-id="40b68-122">**Gedimų tipai.**</span><span class="sxs-lookup"><span data-stu-id="40b68-122">**Fault types:**</span></span>
+<span data-ttu-id="73e30-122">**Gedimų tipai.**</span><span class="sxs-lookup"><span data-stu-id="73e30-122">**Fault types:**</span></span>
 
-- <span data-ttu-id="40b68-123">Sugedusi pagrindinė statoriaus apvija</span><span class="sxs-lookup"><span data-stu-id="40b68-123">Faulty main stator winding</span></span>
-- <span data-ttu-id="40b68-124">Sugedęs diodas</span><span class="sxs-lookup"><span data-stu-id="40b68-124">Faulty diode</span></span>
-- <span data-ttu-id="40b68-125">Nešvarios apvijos</span><span class="sxs-lookup"><span data-stu-id="40b68-125">Dirty windings</span></span>
-- <span data-ttu-id="40b68-126">Sugedęs generatorius</span><span class="sxs-lookup"><span data-stu-id="40b68-126">Defective generator</span></span>
-- <span data-ttu-id="40b68-127">Sugedęs jutiklis</span><span class="sxs-lookup"><span data-stu-id="40b68-127">Defective sensor</span></span>
+- <span data-ttu-id="73e30-123">Sugedusi pagrindinė statoriaus apvija</span><span class="sxs-lookup"><span data-stu-id="73e30-123">Faulty main stator winding</span></span>
+- <span data-ttu-id="73e30-124">Sugedęs diodas</span><span class="sxs-lookup"><span data-stu-id="73e30-124">Faulty diode</span></span>
+- <span data-ttu-id="73e30-125">Nešvarios apvijos</span><span class="sxs-lookup"><span data-stu-id="73e30-125">Dirty windings</span></span>
+- <span data-ttu-id="73e30-126">Sugedęs generatorius</span><span class="sxs-lookup"><span data-stu-id="73e30-126">Defective generator</span></span>
+- <span data-ttu-id="73e30-127">Sugedęs jutiklis</span><span class="sxs-lookup"><span data-stu-id="73e30-127">Defective sensor</span></span>
 
-## <a name="create-fault-symptoms"></a><span data-ttu-id="40b68-128">Gedimų požymių kūrimas</span><span class="sxs-lookup"><span data-stu-id="40b68-128">Create fault symptoms</span></span>
+## <a name="create-fault-symptoms"></a><span data-ttu-id="73e30-128">Gedimų požymių kūrimas</span><span class="sxs-lookup"><span data-stu-id="73e30-128">Create fault symptoms</span></span>
 
-<span data-ttu-id="40b68-129">Atlikite toliau pateikiamus veiksmus, norėdami sukurti požymių sąrašą, kurį galima naudoti gedimų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="40b68-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
+<span data-ttu-id="73e30-129">Atlikite toliau pateikiamus veiksmus, norėdami sukurti požymių sąrašą, kurį galima naudoti gedimų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="73e30-129">Follow these steps to create a list of symptoms that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="40b68-130">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų požymiai**.</span><span class="sxs-lookup"><span data-stu-id="40b68-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
-2. <span data-ttu-id="40b68-131">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="40b68-131">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="40b68-132">Lauke **Gedimo požymis** įveskite gedimo požymio pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="40b68-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
-4. <span data-ttu-id="40b68-133">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="40b68-133">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="40b68-134">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="40b68-134">Select **Save**.</span></span>
+1. <span data-ttu-id="73e30-130">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų požymiai**.</span><span class="sxs-lookup"><span data-stu-id="73e30-130">Select **Asset management** \> **Setup** \> **Fault** \> **Fault symptoms**.</span></span>
+2. <span data-ttu-id="73e30-131">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="73e30-131">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="73e30-132">Lauke **Gedimo požymis** įveskite gedimo požymio pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="73e30-132">In the **Fault symptom** field, enter a name for the fault symptom.</span></span>
+4. <span data-ttu-id="73e30-133">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="73e30-133">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="73e30-134">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="73e30-134">Select **Save**.</span></span>
 
-## <a name="create-fault-areas"></a><span data-ttu-id="40b68-135">Gedimų sričių kūrimas</span><span class="sxs-lookup"><span data-stu-id="40b68-135">Create fault areas</span></span>
+## <a name="create-fault-areas"></a><span data-ttu-id="73e30-135">Gedimų sričių kūrimas</span><span class="sxs-lookup"><span data-stu-id="73e30-135">Create fault areas</span></span>
 
-<span data-ttu-id="40b68-136">Atlikite toliau pateikiamus veiksmus, norėdami sukurti sričių arba vietų sąrašą, kurį galima naudoti gedimų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="40b68-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
+<span data-ttu-id="73e30-136">Atlikite toliau pateikiamus veiksmus, norėdami sukurti sričių arba vietų sąrašą, kurį galima naudoti gedimų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="73e30-136">Follow these steps to create a list of areas or locations that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="40b68-137">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų sritys**.</span><span class="sxs-lookup"><span data-stu-id="40b68-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
-2. <span data-ttu-id="40b68-138">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="40b68-138">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="40b68-139">Lauke **Gedimo sritis** įveskite gedimo srities pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="40b68-139">In the **Fault area** field, enter a name for the fault area.</span></span>
-4. <span data-ttu-id="40b68-140">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="40b68-140">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="40b68-141">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="40b68-141">Select **Save**.</span></span>
+1. <span data-ttu-id="73e30-137">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų sritys**.</span><span class="sxs-lookup"><span data-stu-id="73e30-137">Select **Asset management** \> **Setup** \> **Fault** \> **Fault areas**.</span></span>
+2. <span data-ttu-id="73e30-138">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="73e30-138">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="73e30-139">Lauke **Gedimo sritis** įveskite gedimo srities pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="73e30-139">In the **Fault area** field, enter a name for the fault area.</span></span>
+4. <span data-ttu-id="73e30-140">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="73e30-140">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="73e30-141">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="73e30-141">Select **Save**.</span></span>
 
-## <a name="create-fault-types"></a><span data-ttu-id="40b68-142">Gedimų tipų kūrimas</span><span class="sxs-lookup"><span data-stu-id="40b68-142">Create fault types</span></span>
+## <a name="create-fault-types"></a><span data-ttu-id="73e30-142">Gedimų tipų kūrimas</span><span class="sxs-lookup"><span data-stu-id="73e30-142">Create fault types</span></span>
 
-<span data-ttu-id="40b68-143">Atlikite toliau pateikiamus veiksmus, norėdami sukurti gedimų tipų sąrašą, kurį galima naudoti gedimų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="40b68-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
+<span data-ttu-id="73e30-143">Atlikite toliau pateikiamus veiksmus, norėdami sukurti gedimų tipų sąrašą, kurį galima naudoti gedimų dizaino įrankyje.</span><span class="sxs-lookup"><span data-stu-id="73e30-143">Follow these steps to create a list of fault types that can be used in the fault designer.</span></span>
 
-1. <span data-ttu-id="40b68-144">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų tipai**.</span><span class="sxs-lookup"><span data-stu-id="40b68-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
-2. <span data-ttu-id="40b68-145">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="40b68-145">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="40b68-146">Lauke **Gedimo tipas** įveskite gedimo tipo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="40b68-146">In the **Fault type** field, enter a name for the fault type.</span></span>
-4. <span data-ttu-id="40b68-147">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="40b68-147">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="40b68-148">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="40b68-148">Select **Save**.</span></span>
+1. <span data-ttu-id="73e30-144">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų tipai**.</span><span class="sxs-lookup"><span data-stu-id="73e30-144">Select **Asset management** \> **Setup** \> **Fault** \> **Fault types**.</span></span>
+2. <span data-ttu-id="73e30-145">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="73e30-145">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="73e30-146">Lauke **Gedimo tipas** įveskite gedimo tipo pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="73e30-146">In the **Fault type** field, enter a name for the fault type.</span></span>
+4. <span data-ttu-id="73e30-147">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="73e30-147">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="73e30-148">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="73e30-148">Select **Save**.</span></span>
 
-## <a name="set-up-the-fault-designer"></a><span data-ttu-id="40b68-149">Gedimų dizaino įrankio nustatymas</span><span class="sxs-lookup"><span data-stu-id="40b68-149">Set up the fault designer</span></span>
+## <a name="set-up-the-fault-designer"></a><span data-ttu-id="73e30-149">Gedimų dizaino įrankio nustatymas</span><span class="sxs-lookup"><span data-stu-id="73e30-149">Set up the fault designer</span></span>
 
-<span data-ttu-id="40b68-150">Gedimų dizaino įrankiu nustatomi turto tipų gedimų duomenys.</span><span class="sxs-lookup"><span data-stu-id="40b68-150">In the fault designer, you set up fault data on asset types.</span></span>
+<span data-ttu-id="73e30-150">Gedimų dizaino įrankiu nustatomi turto tipų gedimų duomenys.</span><span class="sxs-lookup"><span data-stu-id="73e30-150">In the fault designer, you set up fault data on asset types.</span></span>
 
-1. <span data-ttu-id="40b68-151">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų dizaino įrankis**.</span><span class="sxs-lookup"><span data-stu-id="40b68-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
-2. <span data-ttu-id="40b68-152">Kairiojoje srityje pasirinkite turto tipą, kuriam norite sukurti gedimų įrašą.</span><span class="sxs-lookup"><span data-stu-id="40b68-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
-3. <span data-ttu-id="40b68-153">FastTab **Gedimo požymis** pasirinkite **Įtraukti eilutę**, paskui lauke **Gedimo požymis** pasirinkite gedimo požymį.</span><span class="sxs-lookup"><span data-stu-id="40b68-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
-4. <span data-ttu-id="40b68-154">FastTab **Gedimo sritis** pasirinkite **Įtraukti eilutę**, paskui lauke **Gedimo sritis** pasirinkite gedimo sritį.</span><span class="sxs-lookup"><span data-stu-id="40b68-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
-5. <span data-ttu-id="40b68-155">FastTab **Gedimo tipas** pasirinkite **Įtraukti eilutę**, paskui lauke **Gedimo tipas** pasirinkite gedimo tipą.</span><span class="sxs-lookup"><span data-stu-id="40b68-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
-6. <span data-ttu-id="40b68-156">Greitai sukurkite pasirinkto turto tipo visų esamų gedimų požymių, sričių ir tipų derinius, pasirinkę **Kurti gedimų derinius**.</span><span class="sxs-lookup"><span data-stu-id="40b68-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="40b68-157">Ši funkcija naudinga, jei įtraukėte daug gedimų požymių, sričių ir tipų.</span><span class="sxs-lookup"><span data-stu-id="40b68-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="40b68-158">Paprasčiau panaikinti turto tipui neaktualias derinių eilutes, nei rankiniu būdu sukurti naujų eilučių.</span><span class="sxs-lookup"><span data-stu-id="40b68-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
+1. <span data-ttu-id="73e30-151">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų dizaino įrankis**.</span><span class="sxs-lookup"><span data-stu-id="73e30-151">Select **Asset management** \> **Setup** \> **Fault** \> **Fault designer**.</span></span>
+2. <span data-ttu-id="73e30-152">Kairiojoje srityje pasirinkite turto tipą, kuriam norite sukurti gedimų įrašą.</span><span class="sxs-lookup"><span data-stu-id="73e30-152">In the left pane, select the type of asset to set up a fault record for.</span></span>
+3. <span data-ttu-id="73e30-153">FastTab **Gedimo požymis** pasirinkite **Įtraukti eilutę**, paskui lauke **Gedimo požymis** pasirinkite gedimo požymį.</span><span class="sxs-lookup"><span data-stu-id="73e30-153">On the **Fault symptom** FastTab, select **Add line**, and then, in the **Fault symptom** field, select a fault symptom.</span></span>
+4. <span data-ttu-id="73e30-154">FastTab **Gedimo sritis** pasirinkite **Įtraukti eilutę**, paskui lauke **Gedimo sritis** pasirinkite gedimo sritį.</span><span class="sxs-lookup"><span data-stu-id="73e30-154">On the **Fault area** FastTab, select **Add line**, and then, in the **Fault area** field select a fault area.</span></span>
+5. <span data-ttu-id="73e30-155">FastTab **Gedimo tipas** pasirinkite **Įtraukti eilutę**, paskui lauke **Gedimo tipas** pasirinkite gedimo tipą.</span><span class="sxs-lookup"><span data-stu-id="73e30-155">On the **Fault type** FastTab, select **Add line**, and then, in the **Fault type** field, select a fault type.</span></span>
+6. <span data-ttu-id="73e30-156">Greitai sukurkite pasirinkto turto tipo visų esamų gedimų požymių, sričių ir tipų derinius, pasirinkę **Kurti gedimų derinius**.</span><span class="sxs-lookup"><span data-stu-id="73e30-156">To quickly create combinations of all existing fault symptoms, areas, and types for the selected asset type, select **Create fault combinations**.</span></span> <span data-ttu-id="73e30-157">Ši funkcija naudinga, jei įtraukėte daug gedimų požymių, sričių ir tipų.</span><span class="sxs-lookup"><span data-stu-id="73e30-157">This function is useful if you've added many fault symptoms, areas, and types.</span></span> <span data-ttu-id="73e30-158">Paprasčiau panaikinti turto tipui neaktualias derinių eilutes, nei rankiniu būdu sukurti naujų eilučių.</span><span class="sxs-lookup"><span data-stu-id="73e30-158">It's easier to delete the lines for any combinations that aren't relevant to the asset type than to create new lines manually.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="40b68-159">Nukopijuokite gedimų požymių, sričių ir tipų sąranką iš vieno turto tipo į pasirinktą turto tipą, pasirinkę **Kopijuoti iš turto tipo**.</span><span class="sxs-lookup"><span data-stu-id="40b68-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
+    > <span data-ttu-id="73e30-159">Nukopijuokite gedimų požymių, sričių ir tipų sąranką iš vieno turto tipo į pasirinktą turto tipą, pasirinkę **Kopijuoti iš turto tipo**.</span><span class="sxs-lookup"><span data-stu-id="73e30-159">To copy the setup of fault symptoms, areas, and types from one asset type to the selected asset type, select **Copy from asset type**.</span></span>
 
-7. <span data-ttu-id="40b68-160">Pasirinkite **Įrašyti**, kad įrašytumėte pakeitimus.</span><span class="sxs-lookup"><span data-stu-id="40b68-160">Select **Save** to save your changes.</span></span>
+7. <span data-ttu-id="73e30-160">Pasirinkite **Įrašyti**, kad įrašytumėte pakeitimus.</span><span class="sxs-lookup"><span data-stu-id="73e30-160">Select **Save** to save your changes.</span></span>
 
 ![Gedimų dizaino įrankio puslapis](media/21-setup-for-work-orders.png)
 
-## <a name="create-fault-causes"></a><span data-ttu-id="40b68-162">Gedimų priežasčių kūrimas</span><span class="sxs-lookup"><span data-stu-id="40b68-162">Create fault causes</span></span>
+## <a name="create-fault-causes"></a><span data-ttu-id="73e30-162">Gedimų priežasčių kūrimas</span><span class="sxs-lookup"><span data-stu-id="73e30-162">Create fault causes</span></span>
 
-<span data-ttu-id="40b68-163">Atlikite toliau pateikiamus veiksmus, norėdami sukurti žinomų gedimų priežasčių sąrašą, kurį galima įtraukti į darbo užsakymą arba priežiūros užklausą.</span><span class="sxs-lookup"><span data-stu-id="40b68-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="73e30-163">Atlikite toliau pateikiamus veiksmus, norėdami sukurti žinomų gedimų priežasčių sąrašą, kurį galima įtraukti į darbo užsakymą arba priežiūros užklausą.</span><span class="sxs-lookup"><span data-stu-id="73e30-163">Follow these steps to create a list of known fault causes that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="40b68-164">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų priežastys**.</span><span class="sxs-lookup"><span data-stu-id="40b68-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
-2. <span data-ttu-id="40b68-165">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="40b68-165">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="40b68-166">Lauke **Gedimo priežastis** įveskite gedimo priežasties pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="40b68-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
-4. <span data-ttu-id="40b68-167">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="40b68-167">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="40b68-168">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="40b68-168">Select **Save**.</span></span>
+1. <span data-ttu-id="73e30-164">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų priežastys**.</span><span class="sxs-lookup"><span data-stu-id="73e30-164">Select **Asset management** \> **Setup** \> **Fault** \> **Fault causes**.</span></span>
+2. <span data-ttu-id="73e30-165">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="73e30-165">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="73e30-166">Lauke **Gedimo priežastis** įveskite gedimo priežasties pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="73e30-166">In the **Fault cause** field, enter a name for the fault cause.</span></span>
+4. <span data-ttu-id="73e30-167">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="73e30-167">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="73e30-168">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="73e30-168">Select **Save**.</span></span>
 
-## <a name="create-fault-remedies"></a><span data-ttu-id="40b68-169">Gedimų šalinimo priemonių kūrimas</span><span class="sxs-lookup"><span data-stu-id="40b68-169">Create fault remedies</span></span>
+## <a name="create-fault-remedies"></a><span data-ttu-id="73e30-169">Gedimų šalinimo priemonių kūrimas</span><span class="sxs-lookup"><span data-stu-id="73e30-169">Create fault remedies</span></span>
 
-<span data-ttu-id="40b68-170">Atlikite toliau pateikiamus veiksmus, norėdami sukurti pasiūlymų dėl gedimų šalinimo ir remonto sąrašą, kurį galima įtraukti į darbo užsakymą arba priežiūros užklausą.</span><span class="sxs-lookup"><span data-stu-id="40b68-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
+<span data-ttu-id="73e30-170">Atlikite toliau pateikiamus veiksmus, norėdami sukurti pasiūlymų dėl gedimų šalinimo ir remonto sąrašą, kurį galima įtraukti į darbo užsakymą arba priežiūros užklausą.</span><span class="sxs-lookup"><span data-stu-id="73e30-170">Follow these steps to create a list of suggestions for remedy and repair that can be added to a work order or a maintenance request.</span></span>
 
-1. <span data-ttu-id="40b68-171">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų šalinimo priemonės**.</span><span class="sxs-lookup"><span data-stu-id="40b68-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
-2. <span data-ttu-id="40b68-172">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="40b68-172">Select **New** to create a record.</span></span>
-3. <span data-ttu-id="40b68-173">Lauke **Gedimo šalinimo priemonė** įveskite gedimo šalinimo priemonės pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="40b68-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
-4. <span data-ttu-id="40b68-174">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="40b68-174">In the **Description** field, enter a description.</span></span>
-5. <span data-ttu-id="40b68-175">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="40b68-175">Select **Save**.</span></span>
+1. <span data-ttu-id="73e30-171">Pasirinkite **Turto valdymas** \> **Sąranka** \> **Gedimas** \> **Gedimų šalinimo priemonės**.</span><span class="sxs-lookup"><span data-stu-id="73e30-171">Select **Asset management** \> **Setup** \> **Fault** \> **Fault remedies**.</span></span>
+2. <span data-ttu-id="73e30-172">Pasirinkite **Naujas** pranešimui sukurti.</span><span class="sxs-lookup"><span data-stu-id="73e30-172">Select **New** to create a record.</span></span>
+3. <span data-ttu-id="73e30-173">Lauke **Gedimo šalinimo priemonė** įveskite gedimo šalinimo priemonės pavadinimą.</span><span class="sxs-lookup"><span data-stu-id="73e30-173">In the **Fault remedy** field, enter a name for the fault remedy.</span></span>
+4. <span data-ttu-id="73e30-174">Lauke **Aprašas** įveskite aprašą.</span><span class="sxs-lookup"><span data-stu-id="73e30-174">In the **Description** field, enter a description.</span></span>
+5. <span data-ttu-id="73e30-175">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="73e30-175">Select **Save**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="40b68-176">Jei reikia, galite pakeisti gedimų požymių, sričių, tipų, priežasčių ir šalinimo priemonių pavadinimus.</span><span class="sxs-lookup"><span data-stu-id="40b68-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="40b68-177">Pavadinimo pakeitimai automatiškai fiksuojami atitinkamo gedimo registracijos įrašuose.</span><span class="sxs-lookup"><span data-stu-id="40b68-177">The name changes are automatically reflected in the related fault registrations.</span></span>
+> <span data-ttu-id="73e30-176">Jei reikia, galite pakeisti gedimų požymių, sričių, tipų, priežasčių ir šalinimo priemonių pavadinimus.</span><span class="sxs-lookup"><span data-stu-id="73e30-176">You can change the names of your fault symptoms, areas, types, causes, and remedies as you require.</span></span> <span data-ttu-id="73e30-177">Pavadinimo pakeitimai automatiškai fiksuojami atitinkamo gedimo registracijos įrašuose.</span><span class="sxs-lookup"><span data-stu-id="73e30-177">The name changes are automatically reflected in the related fault registrations.</span></span>

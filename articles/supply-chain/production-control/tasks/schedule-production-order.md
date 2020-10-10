@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
+ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum, ProdRouteJobSched, ProductionOrderScheduleDetails
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,41 +17,41 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: daaf7a593f8ae5185333c33b9e475dfd62358eb8
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 8b3fe8f6890c7d8ac8835503091642faa773f7f6
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210438"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826051"
 ---
-# <a name="schedule-a-production-order"></a><span data-ttu-id="55354-103">Suplanuoti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="55354-103">Schedule a production order</span></span>
+# <a name="schedule-a-production-order"></a><span data-ttu-id="da342-103">Suplanuoti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="da342-103">Schedule a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="55354-104">Šioje procedūroje nurodoma, kaip planuoti gamybos užsakymą.</span><span class="sxs-lookup"><span data-stu-id="55354-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="55354-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="55354-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="55354-106">Tai yra trečioji procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.</span><span class="sxs-lookup"><span data-stu-id="55354-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="da342-104">Šioje procedūroje nurodoma, kaip planuoti gamybos užsakymą.</span><span class="sxs-lookup"><span data-stu-id="da342-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="da342-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="da342-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="da342-106">Tai yra trečioji procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.</span><span class="sxs-lookup"><span data-stu-id="da342-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="schedule-a-production-order"></a><span data-ttu-id="55354-107">Suplanuoti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="55354-107">Schedule a production order</span></span>
-1. <span data-ttu-id="55354-108">Pasirinkite Gamybos kontrolė > Gamybos užsakymai > Visi gamybos užsakymai.</span><span class="sxs-lookup"><span data-stu-id="55354-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="55354-109">Pasirinkite gamybos užsakymą, kurio būsena yra Įvertintas.</span><span class="sxs-lookup"><span data-stu-id="55354-109">Select a production order that has the Estimated status.</span></span>  
-2. <span data-ttu-id="55354-110">Veiksmų srityje spustelėkite Grafikas.</span><span class="sxs-lookup"><span data-stu-id="55354-110">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="55354-111">Spustelėkite Planuoti užduotis.</span><span class="sxs-lookup"><span data-stu-id="55354-111">Click Schedule jobs.</span></span>
-    * <span data-ttu-id="55354-112">Šiame puslapyje nustatomi planavimo parametrai.</span><span class="sxs-lookup"><span data-stu-id="55354-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="55354-113">Galite nustatyti konkrečių arba visų vartotojų parametrus.</span><span class="sxs-lookup"><span data-stu-id="55354-113">You can set up the parameters for specific users or all users.</span></span>  
-4. <span data-ttu-id="55354-114">Lauke Planavimo kryptis pasirinkite „Pirmyn nuo šiandien‟.</span><span class="sxs-lookup"><span data-stu-id="55354-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
-5. <span data-ttu-id="55354-115">Lauke Planavimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="55354-115">In the Scheduling date field, enter a date.</span></span>
-6. <span data-ttu-id="55354-116">Pažymėkite arba panaikinkite žymės langelio Ribotas pajėgumas žymėjimą.</span><span class="sxs-lookup"><span data-stu-id="55354-116">Select or clear the Finite capacity check box.</span></span>
-7. <span data-ttu-id="55354-117">Pažymėkite arba panaikinkite žymės langelio Ribotas medžiagos žymėjimą.</span><span class="sxs-lookup"><span data-stu-id="55354-117">Select or clear the Finite material check box.</span></span>
-8. <span data-ttu-id="55354-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="55354-118">Click OK.</span></span>
+## <a name="schedule-a-production-order"></a><span data-ttu-id="da342-107">Suplanuoti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="da342-107">Schedule a production order</span></span>
+1. <span data-ttu-id="da342-108">Pasirinkite Gamybos kontrolė > Gamybos užsakymai > Visi gamybos užsakymai.</span><span class="sxs-lookup"><span data-stu-id="da342-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="da342-109">Pasirinkite gamybos užsakymą, kurio būsena yra Įvertintas.</span><span class="sxs-lookup"><span data-stu-id="da342-109">Select a production order that has the Estimated status.</span></span>  
+2. <span data-ttu-id="da342-110">Veiksmų srityje spustelėkite Grafikas.</span><span class="sxs-lookup"><span data-stu-id="da342-110">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="da342-111">Spustelėkite Planuoti užduotis.</span><span class="sxs-lookup"><span data-stu-id="da342-111">Click Schedule jobs.</span></span>
+    * <span data-ttu-id="da342-112">Šiame puslapyje nustatomi planavimo parametrai.</span><span class="sxs-lookup"><span data-stu-id="da342-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="da342-113">Galite nustatyti konkrečių arba visų vartotojų parametrus.</span><span class="sxs-lookup"><span data-stu-id="da342-113">You can set up the parameters for specific users or all users.</span></span>  
+4. <span data-ttu-id="da342-114">Lauke Planavimo kryptis pasirinkite „Pirmyn nuo šiandien‟.</span><span class="sxs-lookup"><span data-stu-id="da342-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
+5. <span data-ttu-id="da342-115">Lauke Planavimo data įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="da342-115">In the Scheduling date field, enter a date.</span></span>
+6. <span data-ttu-id="da342-116">Pažymėkite arba panaikinkite žymės langelio Ribotas pajėgumas žymėjimą.</span><span class="sxs-lookup"><span data-stu-id="da342-116">Select or clear the Finite capacity check box.</span></span>
+7. <span data-ttu-id="da342-117">Pažymėkite arba panaikinkite žymės langelio Ribotas medžiagos žymėjimą.</span><span class="sxs-lookup"><span data-stu-id="da342-117">Select or clear the Finite material check box.</span></span>
+8. <span data-ttu-id="da342-118">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="da342-118">Click OK.</span></span>
 
-## <a name="view-the-scheduling-results"></a><span data-ttu-id="55354-119">Peržiūrėti planavimo rezultatus</span><span class="sxs-lookup"><span data-stu-id="55354-119">View the scheduling results</span></span>
-1. <span data-ttu-id="55354-120">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="55354-120">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="55354-121">Spustelėkite Visos užduotys.</span><span class="sxs-lookup"><span data-stu-id="55354-121">Click All jobs.</span></span>
-    * <span data-ttu-id="55354-122">Šiame puslapyje rodomos suplanuotos užduotys, kurias ką tik sukūrėte.</span><span class="sxs-lookup"><span data-stu-id="55354-122">This page displays the scheduled jobs that you have just generated.</span></span>  
-3. <span data-ttu-id="55354-123">Išplėskite arba sutraukite sekciją Planavimas.</span><span class="sxs-lookup"><span data-stu-id="55354-123">Expand or collapse the Scheduling section.</span></span>
-    * <span data-ttu-id="55354-124">„Fasttab“ Planavimas galite peržiūrėti suplanuotus datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="55354-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
-4. <span data-ttu-id="55354-125">Spustelėkite Užklausos.</span><span class="sxs-lookup"><span data-stu-id="55354-125">Click Inquiries.</span></span>
-5. <span data-ttu-id="55354-126">Spustelėkite Pajėgumas.</span><span class="sxs-lookup"><span data-stu-id="55354-126">Click Capacity load.</span></span>
-    * <span data-ttu-id="55354-127">Puslapyje Pajėgumas rodomi užduočių planavimo metu rezervuotas pajėgumas, bendras šiuo metu rezervuotų ištekliaus valandų skaičius ir likusių ištekliaus valandų, kurias galima vykdyti užduočių planavimą, skaičius.</span><span class="sxs-lookup"><span data-stu-id="55354-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
-6. <span data-ttu-id="55354-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="55354-128">Close the page.</span></span>
-7. <span data-ttu-id="55354-129">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="55354-129">Close the page.</span></span>
+## <a name="view-the-scheduling-results"></a><span data-ttu-id="da342-119">Peržiūrėti planavimo rezultatus</span><span class="sxs-lookup"><span data-stu-id="da342-119">View the scheduling results</span></span>
+1. <span data-ttu-id="da342-120">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="da342-120">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="da342-121">Spustelėkite Visos užduotys.</span><span class="sxs-lookup"><span data-stu-id="da342-121">Click All jobs.</span></span>
+    * <span data-ttu-id="da342-122">Šiame puslapyje rodomos suplanuotos užduotys, kurias ką tik sukūrėte.</span><span class="sxs-lookup"><span data-stu-id="da342-122">This page displays the scheduled jobs that you have just generated.</span></span>  
+3. <span data-ttu-id="da342-123">Išplėskite arba sutraukite sekciją Planavimas.</span><span class="sxs-lookup"><span data-stu-id="da342-123">Expand or collapse the Scheduling section.</span></span>
+    * <span data-ttu-id="da342-124">„Fasttab“ Planavimas galite peržiūrėti suplanuotus datą ir laiką.</span><span class="sxs-lookup"><span data-stu-id="da342-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
+4. <span data-ttu-id="da342-125">Spustelėkite Užklausos.</span><span class="sxs-lookup"><span data-stu-id="da342-125">Click Inquiries.</span></span>
+5. <span data-ttu-id="da342-126">Spustelėkite Pajėgumas.</span><span class="sxs-lookup"><span data-stu-id="da342-126">Click Capacity load.</span></span>
+    * <span data-ttu-id="da342-127">Puslapyje Pajėgumas rodomi užduočių planavimo metu rezervuotas pajėgumas, bendras šiuo metu rezervuotų ištekliaus valandų skaičius ir likusių ištekliaus valandų, kurias galima vykdyti užduočių planavimą, skaičius.</span><span class="sxs-lookup"><span data-stu-id="da342-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
+6. <span data-ttu-id="da342-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="da342-128">Close the page.</span></span>
+7. <span data-ttu-id="da342-129">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="da342-129">Close the page.</span></span>
 
