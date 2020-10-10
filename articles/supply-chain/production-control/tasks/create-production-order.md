@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute
+ms.search.form: ProdTableListPage, ProdTableCreate, ProdTable, ProdBOM, ProdRoute, ProdJournalCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,57 +17,57 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c16413b25a8d2a11b478b148cb3e96c3a677c6eb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: ce08532b8281d730cd5fae4ebd634a08c5baeedd
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210898"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826555"
 ---
-# <a name="create-a-production-order"></a><span data-ttu-id="51b00-103">Kurti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="51b00-103">Create a production order</span></span>
+# <a name="create-a-production-order"></a><span data-ttu-id="40359-103">Kurti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="40359-103">Create a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="51b00-104">Šioje procedūroje nurodoma, kaip kurti gamybos užsakymą.</span><span class="sxs-lookup"><span data-stu-id="51b00-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="51b00-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="51b00-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="51b00-106">Tai yra pirmoji procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.</span><span class="sxs-lookup"><span data-stu-id="51b00-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="40359-104">Šioje procedūroje nurodoma, kaip kurti gamybos užsakymą.</span><span class="sxs-lookup"><span data-stu-id="40359-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="40359-105">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="40359-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="40359-106">Tai yra pirmoji procedūra iš septynių, kurioje paaiškinamas gamybos užsakymo ciklas.</span><span class="sxs-lookup"><span data-stu-id="40359-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="create-a-production-order"></a><span data-ttu-id="51b00-107">Kurti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="51b00-107">Create a production order</span></span>
-1. <span data-ttu-id="51b00-108">Pasirinkite Gamybos kontrolė > Gamybos užsakymai > Visi gamybos užsakymai.</span><span class="sxs-lookup"><span data-stu-id="51b00-108">Go to Production control > Production orders > All production orders.</span></span>
-2. <span data-ttu-id="51b00-109">Spustelėkite Naujas gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="51b00-109">Click New production order.</span></span>
-3. <span data-ttu-id="51b00-110">Lauke „Prekės numeris“ įveskite „D0001“.</span><span class="sxs-lookup"><span data-stu-id="51b00-110">In the Item number field, type 'D0001'.</span></span>
-4. <span data-ttu-id="51b00-111">Lauke Pristatymas įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="51b00-111">In the Delivery field, enter a date.</span></span>
-    * <span data-ttu-id="51b00-112">Pristatymo data nurodo, kada turėtų baigtis gamybos užsakymas, kad būtų pristatyta laiku.</span><span class="sxs-lookup"><span data-stu-id="51b00-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="51b00-113">Šią datą galima naudoti planavimo procese.</span><span class="sxs-lookup"><span data-stu-id="51b00-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="51b00-114">Pavyzdžiui, užsakymą galite planuoti atgal nuo pristatymo datos.</span><span class="sxs-lookup"><span data-stu-id="51b00-114">For example, you can schedule the order backward from the delivery date.</span></span>  
-5. <span data-ttu-id="51b00-115">Nustatykite kiekį – 20.</span><span class="sxs-lookup"><span data-stu-id="51b00-115">Set Quantity to '20'.</span></span>
-    * <span data-ttu-id="51b00-116">Pastaba: KS skaičiaus lauke automatiškai rodomas visų aktyvių dabartinės prekės KS skaičius, tačiau gamybos užsakymo KS galite keisti iš patvirtintų KS versijų sąrašo pasirinkdami aktyvią KS.</span><span class="sxs-lookup"><span data-stu-id="51b00-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="51b00-117">Lauke Maršrutų skaičius automatiškai rodomas visų aktyvių dabartinės prekės maršrutų skaičius, tačiau gamybos užsakymo maršrutą galite keisti iš patvirtintų maršrutų versijų sąrašo pasirinkdami aktyvų maršrutą.</span><span class="sxs-lookup"><span data-stu-id="51b00-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
-6. <span data-ttu-id="51b00-118">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="51b00-118">Click Create.</span></span>
+## <a name="create-a-production-order"></a><span data-ttu-id="40359-107">Kurti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="40359-107">Create a production order</span></span>
+1. <span data-ttu-id="40359-108">Pasirinkite Gamybos kontrolė > Gamybos užsakymai > Visi gamybos užsakymai.</span><span class="sxs-lookup"><span data-stu-id="40359-108">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="40359-109">Spustelėkite Naujas gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="40359-109">Click New production order.</span></span>
+3. <span data-ttu-id="40359-110">Lauke „Prekės numeris“ įveskite „D0001“.</span><span class="sxs-lookup"><span data-stu-id="40359-110">In the Item number field, type 'D0001'.</span></span>
+4. <span data-ttu-id="40359-111">Lauke Pristatymas įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="40359-111">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="40359-112">Pristatymo data nurodo, kada turėtų baigtis gamybos užsakymas, kad būtų pristatyta laiku.</span><span class="sxs-lookup"><span data-stu-id="40359-112">The delivery date indicates when the production order should end in order to deliver on time.</span></span> <span data-ttu-id="40359-113">Šią datą galima naudoti planavimo procese.</span><span class="sxs-lookup"><span data-stu-id="40359-113">This date can be used in the scheduling process.</span></span> <span data-ttu-id="40359-114">Pavyzdžiui, užsakymą galite planuoti atgal nuo pristatymo datos.</span><span class="sxs-lookup"><span data-stu-id="40359-114">For example, you can schedule the order backward from the delivery date.</span></span>  
+5. <span data-ttu-id="40359-115">Nustatykite kiekį – 20.</span><span class="sxs-lookup"><span data-stu-id="40359-115">Set Quantity to '20'.</span></span>
+    * <span data-ttu-id="40359-116">Pastaba: KS skaičiaus lauke automatiškai rodomas visų aktyvių dabartinės prekės KS skaičius, tačiau gamybos užsakymo KS galite keisti iš patvirtintų KS versijų sąrašo pasirinkdami aktyvią KS.</span><span class="sxs-lookup"><span data-stu-id="40359-116">Note: The BOM number field automatically displays the number of any active BOM for the current item, but you can change the BOM for the production order by selecting an active BOM from the list of approved BOM versions.</span></span>    <span data-ttu-id="40359-117">Lauke Maršrutų skaičius automatiškai rodomas visų aktyvių dabartinės prekės maršrutų skaičius, tačiau gamybos užsakymo maršrutą galite keisti iš patvirtintų maršrutų versijų sąrašo pasirinkdami aktyvų maršrutą.</span><span class="sxs-lookup"><span data-stu-id="40359-117">The Route number field automatically displays the number of any active Route for the current item, but you can change the Route for the production order by selecting an active Route from the list of approved Route versions.</span></span>  
+6. <span data-ttu-id="40359-118">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="40359-118">Click Create.</span></span>
 
-## <a name="validate-the-production-order"></a><span data-ttu-id="51b00-119">Tikrinti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="51b00-119">Validate the production order</span></span>
-1. <span data-ttu-id="51b00-120">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="51b00-120">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="51b00-121">Spustelėkite gamybos užsakymo numerio, kurį ką tik sukūrėte, saitą.</span><span class="sxs-lookup"><span data-stu-id="51b00-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="51b00-122">Bus atidarytas užsakymo informacijos puslapis.</span><span class="sxs-lookup"><span data-stu-id="51b00-122">This will open the details page for the order.</span></span>  
-2. <span data-ttu-id="51b00-123">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="51b00-123">Click Edit.</span></span>
-3. <span data-ttu-id="51b00-124">Lauke Pristatymas įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="51b00-124">In the Delivery field, enter a date.</span></span>
-    * <span data-ttu-id="51b00-125">Pavyzdžiui, galite keisti gamybos užsakymo pristatymo datą.</span><span class="sxs-lookup"><span data-stu-id="51b00-125">For example, you can change the delivery date for the production order.</span></span>  
-4. <span data-ttu-id="51b00-126">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="51b00-126">Click Save.</span></span>
-5. <span data-ttu-id="51b00-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="51b00-127">Close the page.</span></span>
+## <a name="validate-the-production-order"></a><span data-ttu-id="40359-119">Tikrinti gamybos užsakymą</span><span class="sxs-lookup"><span data-stu-id="40359-119">Validate the production order</span></span>
+1. <span data-ttu-id="40359-120">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="40359-120">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="40359-121">Spustelėkite gamybos užsakymo numerio, kurį ką tik sukūrėte, saitą.</span><span class="sxs-lookup"><span data-stu-id="40359-121">Click the link for the production order number that you have just created.</span></span> <span data-ttu-id="40359-122">Bus atidarytas užsakymo informacijos puslapis.</span><span class="sxs-lookup"><span data-stu-id="40359-122">This will open the details page for the order.</span></span>  
+2. <span data-ttu-id="40359-123">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="40359-123">Click Edit.</span></span>
+3. <span data-ttu-id="40359-124">Lauke Pristatymas įveskite datą.</span><span class="sxs-lookup"><span data-stu-id="40359-124">In the Delivery field, enter a date.</span></span>
+    * <span data-ttu-id="40359-125">Pavyzdžiui, galite keisti gamybos užsakymo pristatymo datą.</span><span class="sxs-lookup"><span data-stu-id="40359-125">For example, you can change the delivery date for the production order.</span></span>  
+4. <span data-ttu-id="40359-126">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="40359-126">Click Save.</span></span>
+5. <span data-ttu-id="40359-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="40359-127">Close the page.</span></span>
 
-## <a name="update-the-bom"></a><span data-ttu-id="51b00-128">Naujinti KS</span><span class="sxs-lookup"><span data-stu-id="51b00-128">Update the BOM</span></span>
-1. <span data-ttu-id="51b00-129">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="51b00-129">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="51b00-130">Spustelėkite KS.</span><span class="sxs-lookup"><span data-stu-id="51b00-130">Click BOM.</span></span>
-    * <span data-ttu-id="51b00-131">Atidarykite KS puslapį, kad patikrintumėte KS duomenis, nukopijuotus iš numatytųjų duomenų kuriant gamybos užsakymą.</span><span class="sxs-lookup"><span data-stu-id="51b00-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="51b00-132">Atliekant šią procedūrą, reikia atnaujinti KS kiekį.</span><span class="sxs-lookup"><span data-stu-id="51b00-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
-3. <span data-ttu-id="51b00-133">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="51b00-133">Click Edit.</span></span>
-4. <span data-ttu-id="51b00-134">Lauke Kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="51b00-134">In the Quantity field, enter a number.</span></span>
-    * <span data-ttu-id="51b00-135">Kiekio KS eilutėje keitimas turi įtakos gamybos užsakymo medžiagų suvartojimo išlaidų įvertinimui.</span><span class="sxs-lookup"><span data-stu-id="51b00-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
-5. <span data-ttu-id="51b00-136">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="51b00-136">Click Save.</span></span>
-6. <span data-ttu-id="51b00-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="51b00-137">Close the page.</span></span>
+## <a name="update-the-bom"></a><span data-ttu-id="40359-128">Naujinti KS</span><span class="sxs-lookup"><span data-stu-id="40359-128">Update the BOM</span></span>
+1. <span data-ttu-id="40359-129">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="40359-129">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="40359-130">Spustelėkite KS.</span><span class="sxs-lookup"><span data-stu-id="40359-130">Click BOM.</span></span>
+    * <span data-ttu-id="40359-131">Atidarykite KS puslapį, kad patikrintumėte KS duomenis, nukopijuotus iš numatytųjų duomenų kuriant gamybos užsakymą.</span><span class="sxs-lookup"><span data-stu-id="40359-131">Open the BOM page to validate the BOM data that was copied from the default data when the production order was created.</span></span> <span data-ttu-id="40359-132">Atliekant šią procedūrą, reikia atnaujinti KS kiekį.</span><span class="sxs-lookup"><span data-stu-id="40359-132">In this procedure, you need to update the quantity for a BOM.</span></span>  
+3. <span data-ttu-id="40359-133">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="40359-133">Click Edit.</span></span>
+4. <span data-ttu-id="40359-134">Lauke Kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="40359-134">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="40359-135">Kiekio KS eilutėje keitimas turi įtakos gamybos užsakymo medžiagų suvartojimo išlaidų įvertinimui.</span><span class="sxs-lookup"><span data-stu-id="40359-135">Changing the quantity on the BOM line affects the cost estimate of material consumption for the production order.</span></span>  
+5. <span data-ttu-id="40359-136">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="40359-136">Click Save.</span></span>
+6. <span data-ttu-id="40359-137">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="40359-137">Close the page.</span></span>
 
-## <a name="update-the-production-route"></a><span data-ttu-id="51b00-138">Naujinti gamybos maršrutą</span><span class="sxs-lookup"><span data-stu-id="51b00-138">Update the production route</span></span>
-1. <span data-ttu-id="51b00-139">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="51b00-139">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="51b00-140">Spustelėkite Maršrutas.</span><span class="sxs-lookup"><span data-stu-id="51b00-140">Click Route.</span></span>
-    * <span data-ttu-id="51b00-141">Atidarykite puslapį Maršrutas, kad patikrintumėte gamybos maršruto duomenis, nukopijuotus iš numatytųjų duomenų kuriant užsakymą.</span><span class="sxs-lookup"><span data-stu-id="51b00-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="51b00-142">Atliekant šią procedūrą, reikia atnaujinti vienos iš gamybos maršruto operacijų kiekį.</span><span class="sxs-lookup"><span data-stu-id="51b00-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
-3. <span data-ttu-id="51b00-143">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="51b00-143">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="51b00-144">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="51b00-144">Click Edit.</span></span>
-5. <span data-ttu-id="51b00-145">Lauke Apdorojamas kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="51b00-145">In the Process qty. field, enter a number.</span></span>
-    * <span data-ttu-id="51b00-146">Vykdymo laiko keitimas turi įtakos gamybos užsakymo apskaičiuotam maršruto suvartojimui ir išlaidoms.</span><span class="sxs-lookup"><span data-stu-id="51b00-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
-6. <span data-ttu-id="51b00-147">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="51b00-147">Click Save.</span></span>
-7. <span data-ttu-id="51b00-148">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="51b00-148">Close the page.</span></span>
+## <a name="update-the-production-route"></a><span data-ttu-id="40359-138">Naujinti gamybos maršrutą</span><span class="sxs-lookup"><span data-stu-id="40359-138">Update the production route</span></span>
+1. <span data-ttu-id="40359-139">Veiksmų srityje spustelėkite Gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="40359-139">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="40359-140">Spustelėkite Maršrutas.</span><span class="sxs-lookup"><span data-stu-id="40359-140">Click Route.</span></span>
+    * <span data-ttu-id="40359-141">Atidarykite puslapį Maršrutas, kad patikrintumėte gamybos maršruto duomenis, nukopijuotus iš numatytųjų duomenų kuriant užsakymą.</span><span class="sxs-lookup"><span data-stu-id="40359-141">Open the Route page to validate the data of the production route that was copied from the default data when the order was created.</span></span> <span data-ttu-id="40359-142">Atliekant šią procedūrą, reikia atnaujinti vienos iš gamybos maršruto operacijų kiekį.</span><span class="sxs-lookup"><span data-stu-id="40359-142">In this procedure, you need to update the quantity for one of the operations in the production route.</span></span>  
+3. <span data-ttu-id="40359-143">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="40359-143">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="40359-144">Spustelėkite Redaguoti.</span><span class="sxs-lookup"><span data-stu-id="40359-144">Click Edit.</span></span>
+5. <span data-ttu-id="40359-145">Lauke Apdorojamas kiekis įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="40359-145">In the Process qty. field, enter a number.</span></span>
+    * <span data-ttu-id="40359-146">Vykdymo laiko keitimas turi įtakos gamybos užsakymo apskaičiuotam maršruto suvartojimui ir išlaidoms.</span><span class="sxs-lookup"><span data-stu-id="40359-146">Changing the process time affects the estimated route consumption and the cost of the production order.</span></span>  
+6. <span data-ttu-id="40359-147">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="40359-147">Click Save.</span></span>
+7. <span data-ttu-id="40359-148">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="40359-148">Close the page.</span></span>
 
