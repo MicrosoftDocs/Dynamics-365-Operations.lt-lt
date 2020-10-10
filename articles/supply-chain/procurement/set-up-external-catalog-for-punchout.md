@@ -1,6 +1,6 @@
 ---
 title: Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
-description: Šioje temoje aprašoma, kaip naudojant išorinį arba „PunchOut‟ katalogą galima iš tiekėjo rinkti pasiūlymų informaciją ir ją įtraukti į paraišką.
+description: Šioje temoje aprašoma, kaip naudojant išorinį arba išėjimo katalogą galima iš tiekėjo rinkti pasiūlymo informaciją ir ją įtraukti į paraišką.
 author: mkirknel
 manager: tfehr
 ms.date: 11/02/2017
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28c9152996b7efc84b4259bd7323411df0b62258
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7aecc2c4786a1912bf5ae44f3949428c778f1df9
+ms.sourcegitcommit: b281ac04157f6ccbd159fc89f58910b430a3b6a9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207812"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826833"
 ---
-# <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
+# <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,7 +33,7 @@ Naudodami išorinį katalogą galite užtikrinti, kad produktų ir kainų inform
 
 Kai išorinis katalogo nustatytas ir darbuotojas rengia paraišką, bus galima pasirinkti ją nukreipti į išorinę svetainę, išorinį katalogą ir grąžinti išorinėje svetainėje sukurtą pirkinių krepšelį. Šis ryšys paremtas cXML protokolu ir jį reikia nustatyti tarp pirkimo ir pardavimo organizacijų sistemų.
 
-Kad būtų galima ryšį nustatyti, jūsų tiekėjas turi pateikti informacijos, kurią naudosite konfigūruodami išorinį katalogą, pvz., tapatybę, pirkėjo įmonės domeną, pavyzdžiui, DUNS ir DUNS numerį, kredencialus ir URL, kuriuo galima pasiekti tiekėjo katalogą.
+Kad būtų galima nustatyti ryšį, jūsų tiekėjas turi pateikti informaciją, kurią naudosite konfigūruodami išorinį katalogą, pvz., tapatybę, pirkėjo įmonės domeną, pavyzdžiui, duomenų universalios numeracijos sistemą (DUNS) ir DUNS numerį, kredencialus ir URL, kuriuo galima pasiekti tiekėjo katalogą.
 
 ## <a name="setting-up-an-external-catalog"></a>Išorinio katalogo nustatymas
 
@@ -45,7 +45,7 @@ Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreip
 2. Užregistruokite tiekėją Tiekimo grandinės valdyme. Kad galėtumėte nustatyti konfigūracijas, kurias naudodami pasieksite išorinį tiekėjo katalogą, tiekėją ir jo kontaktą turite nustatyti tarnyboje „Microsoft Dynamics 365“. Išorinio katalogo tiekėją taip pat reikia įtraukti į pasirinktą įsigijimo kategoriją. Norėdami gauti daugiau informacijos apie tiekėjų registravimą, žr. [Tiekėjo bendradarbiavimo vartotojų valdymas](manage-vendor-collaboration-users.md). Norėdami gauti informacijos apie tai, kaip tiekėjus priskirti įsigijimo kategorijai, žr. [Tiekėjų tvirtinimas konkrečioms įsigijimo kategorijoms](tasks/approve-vendors-specific-procurement-categories.md).
 3. Įsitikinkite, kad nustatyti tiekėjo naudojami matavimo vienetai ir valiuta. Norėdami gauti informacijos apie tai, kaip sukurti matavimo vienetą, žr. [Matavimo vienetų tvarkymas](../pim/tasks/manage-unit-measure.md).
 4. Naudodami tiekėjo išorinio katalogo svetainės reikalavimus sukonfigūruokite išorinį tiekėjo katalogą. Daugiau informacijos apie šią užduotį žr. [Tiekėjo išorinio katalogo konfigūravimas](#configure-the-external-vendor-catalog).
-5. Išbandykite tiekėjo išorinio katalogo konfigūracijas, kad patikrintumėte, ar parametrai yra tinkami, ir ar išorinį tiekėjo katalogą galite pasiekti. Naudodami veiksmą **Tikrinti parametrus** patikrinkite savo nustatytą užklausos sąrankos pranešimą. Dėl šio pranešimo išorinio tiekėjo katalogo svetainė turi būti atidaryta naršyklės lange. Tikrindami iš tiekėjo negalite užsakyti prekių ir paslaugų. Norėdami užsakyti prekes ir paslaugas, tiekėjo katalogą turite pasiekti iš pirkimo paraiškos.
+5. Išbandykite tiekėjo išorinio katalogo konfigūracijas, kad patikrintumėte, ar parametrai yra tinkami, ir ar galite pasiekti išorinį tiekėjo katalogą. Naudodami veiksmą **Tikrinti parametrus** patikrinkite savo nustatytą užklausos nustatymo pranešimą. Dėl šio pranešimo išorinio tiekėjo katalogo svetainė turi būti atidaryta naršyklės lange. Tikrinimo metu negalite iš tiekėjo užsakyti prekių ir paslaugų. Norėdami užsakyti prekes ir paslaugas, tiekėjo katalogą turite pasiekti iš pirkimo paraiškos.
 6. Naudodami puslapyje **Išoriniai katalogai** esantį mygtuką **Aktyvinti katalogą** išorinį katalogą suaktyvinkite. Darbuotojai išorinį katalogą galės naudoti tik jį suaktyvinus. Bet kuriuo metu galite išjungti išorinio katalogo suaktyvinimą.
 
 
@@ -53,11 +53,11 @@ Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreip
 
 Šiame skyriuje pateikiama daugiau informacijos apie ankstesniame skyriuje nurodytą 4 užduotį.
 
-1. Įveskite tiekėjo išorinio katalogo pavadinimą ir aprašą. Jūsų įvestas pavadinimas bus rodomas ant krepšelio, nurodančio išorinį katalogą ir rodomo paraišką sukūrusiems darbuotojams. Spustelėję krepšelį darbuotojai katalogą gali atidaryti tiekėjo išorinio katalogo svetainėje.
-2. Naudodami veiksmą **Išorinio katalogo vaizdas** įtraukite vaizdą. Vaizdas bus rodomas ant krepšelio, nurodančio išorinį katalogą ir rodomo paraišką sukūrusiems darbuotojams. Atkreipkite dėmesį, kad turi būti lygūs vaizdo plotis ir aukštis. Kitaip vaizdas nebus rodomas tinkamai.
+1. Įveskite tiekėjo išorinio katalogo pavadinimą ir aprašą. Jūsų įvestas pavadinimas bus rodomas ant krepšelio, nurodančio išorinį katalogą ir rodomo paraišką sukūrusiems darbuotojams. Spustelėję krepšelį darbuotojai gali atidaryti katalogą tiekėjo išorinio katalogo svetainėje.
+2. Naudodami veiksmą **Išorinio katalogo vaizdas** įtraukite vaizdą. Vaizdas bus rodomas ant krepšelio, nurodančio išorinį katalogą ir rodomo paraišką sukūrusiems darbuotojams. Atkreipkite dėmesį, kad vaizdo plotis ir aukštis turi būti lygūs. Kitaip vaizdas nebus rodomas tinkamai.
 3. Pasirinkite, ar tiekėjo išorinio katalogo svetainė turi būti rodoma tame pačiame naršyklės lange, kuriame darbuotojas sukūrė paraišką, ar ji turi būti atidaroma naujame lange.
-4. Pasirinkite katalogo tiekėją. Sąraše **Juridiniai subjektai** eilutėmis pateikti visi juridiniai subjektai, kuriuose nustatytas tiekėjas. Norėdami, kad vartotojai produktų užklausas teikti tiesiogiai tiekėjo kataloge galėtų tik kai kuriuose juridiniuose subjektuose, prie kiekvieno juridinio subjekto, kuriame norite nustatyti katalogo pasiekiamumą, galite naudoti mygtukus **Neleisti prieigos** arba **Leisti prieigą**.
-5. Lauke **Numatytoji galiojimo pabaiga (dienomis)** įveskite skaičių dienų, kurių metu galioja iš išorinio katalogo gautas pasiūlymas ir kurį naudojant galima pirkti iš išorinio tiekėjo. Sukūrus pasiūlymą ir jį gavus iš tiekėjo išorinio katalogo svetainės, pasiūlymas galioja nuo esamos sistemos datos ir galioja tokį dienų skaičių, kurį įrašėte šiame lauke.
+4. Pasirinkite katalogo tiekėją. Sąraše **Juridiniai subjektai** eilutėmis pateikti visi juridiniai subjektai, kuriuose nustatytas tiekėjas. Norėdami, kad vartotojai produktų užklausas galėtų teikti tiesiogiai tiekėjo kataloge tik kai kuriuose juridiniuose subjektuose, prie kiekvieno juridinio subjekto, kuriame norite nustatyti katalogo pasiekiamumą, galite naudoti mygtukus **Neleisti prieigos** arba **Leisti prieigą**.
+5. Lauke **Numatytoji galiojimo pabaiga (dienomis)** įveskite skaičių dienų, kurių metu galioja iš išorinio katalogo gautas pasiūlymas ir kurį naudojant galima pirkti iš išorinio tiekėjo. Sukūrus pasiūlymą ir jį gavus iš tiekėjo išorinio katalogo svetainės, pasiūlymas galioja nuo dabartinės sistemos datos ir galioja tokį dienų skaičių, kurį įrašėte šiame lauke.
 6. Spustelėkite mygtuką **Įtraukti**, kad įsigijimo kategorijas pradėtumėte sieti su išoriniu katalogu.Tada sąraše Kategorijos pavadinimas pasirinkite kategoriją. Kategorijų sąrašas yra įsigijimo kategorijų, su kuriomis tiekėjas susietas visuose nustatytuose jo juridiniuose subjektuose, antaibis.
 
     > [!NOTE]
@@ -79,14 +79,15 @@ Toliau galite rasti į šabloną įtrauktų žymių aprašą.
 |< Header >< To >< Credential>< Identity >< /Identity> | Tiekėjo įmonės tapatybė.|
 |< Header >< Sender >< Credential domain=”” > | Pirkėjo įmonės domenas.|
 |< Header >< Sender >< Credential >< Identity >< /Identity> | Pirkėjo įmonės tapatybė.|
-|< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Bendrinama pirkėjo įmonės paslaptis.|
+|< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|Pirkėjo įmonės bendrinamas slaptasis raktas.|
 |< Request deploymentMode=”” >|Visuotinė bandomoji arba gamybos įdiegtis.|
 |< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|Tiekėjo išėjimo galinio punkto URL.|
 
 ### <a name="extrinsic-elements"></a>Neesminiai elementai
 
-Neesminis elementas yra papildoma informacija, pvz., išeinančio vartotojo vardas. Neesminis elementas nustatomas išeinant ir jį galima siųsti užklausos sąrankos pranešime.
-Jūsų tiekėjas gali reikalauti neesminį elementą gauti sąrankos užklausoje. Tokiu atveju neesminį elementą turite įtraukti į neesminių elementų sąrašą, esantį puslapio **Išorinis katalogas** skyriuje **Pranešimo formatas**. Nurodykite neesminio elemento pavadinimą, kurį galėtų atpažinti tiekėjas, ir susiekite jį su reikšme. Reikšmių parinktys: Vartotojo vardas, Vartotojo el. pašto adresas arba Atsitiktinė reikšmė.
+Išorinis elementas yra papildoma informacija, pvz., išeinančio vartotojo vardas. Išorinis elementas nustatomas išeinant ir jį galima siųsti užklausos nustatymo pranešime.
+Jūsų tiekėjas gali reikalauti neesminį elementą gauti sąrankos užklausoje. Tokiu atveju neesminį elementą turite įtraukti į neesminių elementų sąrašą, esantį puslapio **Išorinis katalogas** skyriuje **Pranešimo formatas**.
+Nurodykite neesminio elemento pavadinimą, kurį galėtų atpažinti tiekėjas, ir susiekite jį su reikšme. Reikšmių parinktys: Vartotojo vardas, Vartotojo el. pašto adresas arba Atsitiktinė reikšmė.
 Daugiau informacijos apie cXML protokolą rasite [cXML.org svetainėje](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Grįžtamojo registravimo pranešimas
@@ -107,5 +108,9 @@ Grįžtamojo registravimo pranešimas – tai iš tiekėjo gaunamas pranešimas,
 ## <a name="delete-an-external-catalog"></a>Išorinio katalogo naikinimas
 Panaikinti išorinį katalogą galite naudodami puslapyje esantį veiksmą Naikinti.
 
-Jei pateikta produkto iš tiekėjo išorinio katalogo užklausa, tiekėjo išorinio katalogo panaikinti negalima. Vietoj to tiekėjo išorinio katalogo būsena nustatoma kaip neaktyvi. Jei norite pašalinti prieigą prie tiekėjo išorinio katalogo svetainės, tačiau jos nepanaikinti, išorinio katalogo būseną pakeiskite į Neaktyvus.
+Jei pateikta produkto iš tiekėjo išorinio katalogo užklausa, tiekėjo išorinio katalogo panaikinti negalima. Vietoj to tiekėjo išorinio katalogo būsena nustatoma kaip neaktyvi. Jei norite pašalinti prieigą prie tiekėjo išorinio katalogo svetainės, tačiau nenorite jos panaikinti, išorinio katalogo būseną pakeiskite į Neaktyvus.
 
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- [Pirkimo „cXML“ patobulinimai](purchasing-cxml-enhancements.md)
+- [Išorinių katalogų naudojimas el. įsigijimų išėjimo laikui žymėti](use-external-catalogs-for-punchout.md)

@@ -3,7 +3,7 @@ title: „Iframe“ modulis
 description: Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0616a772a416a7c9d9756a840c93b8601c08c3d0
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3647001"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818203"
 ---
 # <a name="iframe-module"></a>„Iframe“ modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šis skyrius aprašo „iframe“ modulį ir tai, kaip įtraukti jį į vietos puslapius „Microsoft Dynamics 365 Commerce“.
 
@@ -37,6 +36,9 @@ ms.locfileid: "3647001"
 „iframe“ modulis suteikia „iframe“ (rėmelį pagal liniją), kuris apima išorės turinį svetainėje. Pavyzdžiui, jis gali būti naudojamas „YouTube“ vaizdo įrašo ar PDF failo peržiūros patalpinimui bet kuriame svetainės puslapyje. 
 
 „iframe“ modulis reikalauja galutinio URL. Tuomet jis patalpina galutinio puslapio turinį HTML **„iframe“** elemente. Išoriniai URSL turi būti leistinų sąraše (taip pat žinomas kaip „whitelist“) svetainės turinio saugumo politikoje (CSP) gairėse. „iframe“ turinui, URL turi būti leidžiami naudojant **rėmelio protėvio** gairę. - Norėdami gauti daugiau informacijos, žr. [turinio saugumo politikos valdymas (CSP)](manage-csp.md).
+
+> [!NOTE]
+> „iframe“ modulį galima naudoti „Dynamics 365 Commerce“ 10.0.13 leidime.
 
 Toliau pateiktas paveikslėlis rodo „iframe“ modulių pavyzdžius, kurie iliustruoja išorės vaizdo įrašus svetainės puslapiuose.
 
@@ -72,6 +74,6 @@ Siekiant įtraukti „iframe“ modulį į puslapį ir parodyti išorinį vaizdo
  
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Turinio saugos strategijos (CSP) tvarkymas](manage-csp.md)

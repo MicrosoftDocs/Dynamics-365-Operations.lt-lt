@@ -3,7 +3,7 @@ title: Išmokų valdymo apžvalga
 description: Išmokų valdymo funkcijos programoje „Dynamics 365 Human Resources“ apžvalga. Siūlykite savo darbuotojams išplėstines išmokų parinktis naudodami paprastas naudoti internetines funkcijas.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/16/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1043fb18c33e5ec0cde13008b168fd317c7c7be6
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599385"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819770"
 ---
 # <a name="benefits-management-overview"></a>Išmokų valdymo apžvalga
 
@@ -41,15 +41,9 @@ Norėdami išlikti konkurencingi, turite pasiūlyti gausų išmokų rinkinį, ka
 
 Jei norite gauti prieigą prie demonstracinių duomenų, turite iš naujo įdiegti savo smėlio dėžės aplinką.
 
-## <a name="benefits-management-known-issues"></a>Išmokų valdymo žinomos problemos
-
-### <a name="flex-credit-programs"></a>Lanksčiųjų kreditų programos
-
-Bendra kreditų vertė, nustatyta lanksčiųjų kreditų programai, nėra rodoma formoje **Darbininkų išmokų planai**. Be to, jei lanksčiųjų kreditų programoje esančią proporcingumo taisyklę nustatysite į **Nėra**, formoje **Darbininkų išmokų planai** pasirenkant ir patvirtinant planus gali kilti klaida.
-
 ## <a name="enable-benefits-management"></a>Išmokų valdymo įjungimas
 
-Šiame straipsnyje aprašoma, kaip įjungti „Human Resources“ funkcijas. Jame taip pat nurodoma, kurios esamos „Human Resources“ funkcijos išmokų valdyme pakeičiamos arba kurios yra išjungiamos, kai įjungiate išmokų valdymą.
+Šioje temoje aprašoma, kaip įjungti personalo valdymo funkcijas. Jame taip pat nurodoma, kurios esamos personalo valdymo funkcijos išmokų valdyme pakeičiamos arba kurios yra išjungiamos, kai įjungiate išmokų valdymą.
 
 > [!IMPORTANT]
 > Po to, kai **gamybos** aplinkoje įgalinate išmokų valdymą, jo išjungti negalima. Rekomenduojame įjungti ir testuoti išmokų valdymą **smėlio dėžės** aplinkoje prieš įjungiant jį **gamybos** aplinkoje. Yra reikšmingų skirtumų tarp pasenusių išmokų funkcijų ir naujų išmokų valdymo funkcijų – joms reikalingi papildomi nustatymai ir tikrinimai prieš įtraukiant į gamybos procesą.

@@ -1,9 +1,9 @@
 ---
 title: Darbas su moduliais
 description: Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
-author: v-chgri
+author: phinneyridge
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,20 +14,19 @@ ms.reviewer: v-chgri
 ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: phinneyridge
+ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: da430857801d8007244c04aadd325e99c0b882c5
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 301eb6206fb9e02c3aa7d3c07cf368ba800a1ab9
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646020"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818427"
 ---
 # <a name="work-with-modules"></a>Darbas su moduliais
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašoma, kaip ir kada naudoti modulius programoje „Microsoft Dynamics 365 Commerce“.
 
@@ -35,7 +34,7 @@ ms.locfileid: "3646020"
 
 Moduliai yra loginiai kūrimo blokai, kurie sudaro puslapio struktūrą, o jų paskirtis ir taikymo sritys yra įvairios. Kai kurie moduliai yra aukšto lygio konteineriai, o jų vienintelė paskirtis – laikyti ir organizuoti kitus modulius (antrinius modulius). Kitų modulių, pvz., paprasto vaizdų išdėstymo modulio, paskirtis yra labai konkreti. Kiti moduliai, pvz., karuselės modulis, patenka tarp šių dviejų kategorijų.
 
-Pagal numatytuosius nustatymus jūsų „Dynamics 365 Commerce“ svetainėje yra darbo pradžios rinkinio modulių biblioteka, kuri leidžia įgyvendinti pagrindinius el. prekybos scenarijus. Tiesiog naudodami šiuos modulius greičiausiai galėsite sukurti visapusišką el. prekybos svetainę. Tačiau galbūt norėsite šiuos modulius tinkinti arba kurti naujus pasirinktinius modulius konkretiems poreikiams. Jei norite kurti pasirinktinius modulius, galite naudoti modulių kūrimo programinės įrangos kūrimo rinkinį (SDK), kuris padės sukurti pasirinktinių modulių biblioteką.
+Pagal numatytuosius nustatymus jūsų „Dynamics 365 Commerce“ svetainėje yra modulių biblioteka, kuri leidžia įgyvendinti pagrindinius el. prekybos scenarijus. Tiesiog naudodami šiuos modulius greičiausiai galėsite sukurti visapusišką el. prekybos svetainę. Tačiau galbūt norėsite šiuos modulius tinkinti arba kurti naujus pasirinktinius modulius konkretiems poreikiams. Jei norite kurti pasirinktinius modulius, galite naudoti modulių kūrimo programinės įrangos kūrimo rinkinį (SDK), kuris padės sukurti pasirinktinių modulių biblioteką.
 
 ## <a name="container-modules-and-slots"></a>Konteinerio moduliai ir vietos
 

@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3b9a1485d37da614eea2427735e0e1323897682d
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
+ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621333"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3835859"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
@@ -91,7 +91,7 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 
 ![Produktų duomenų modelis](media/dual-write-product.png)
 
-Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Jie pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinio subjekto, kuriame produktas išleidžiamas programoje „Finance and Operations“, valiutą. 
+Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinio subjekto, kuriame produktas išleidžiamas programoje „Finance and Operations“, valiutą. 
 
 Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**. 
 

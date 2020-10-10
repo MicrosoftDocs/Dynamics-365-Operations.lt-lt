@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a6a1fc294bb212481dd2a2d24c108cf7a665a546
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ed7ac72d47d5efd60b8a705e7ab0fa7e4edd96a4
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793206"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821138"
 ---
 # <a name="dynamics-365-commerce-learning-catalog"></a>„Dynamics 365 Commerce“ mokymosi katalogas 
 
@@ -123,11 +123,7 @@ Raskite tinkamą internetinį mokymą, seminarus grupėse ir renginius, skirtus 
 
     [„Microsoft“ pardavimo ir rinkodaros partnerių mokymosi katalogas](learning-catalog-partner-sales.md)
 
-    [Pradžia](learning-catalog-partner-sales.md#get-started)
-
-    [„Commerce“](learning-catalog-partner-sales.md#commerce)
-
-    [El. prekyba](learning-catalog-partner-sales.md#e-commerce)
+    [Pradėta](learning-catalog-partner-sales.md#get-started)
 
     :::column-end:::
 
