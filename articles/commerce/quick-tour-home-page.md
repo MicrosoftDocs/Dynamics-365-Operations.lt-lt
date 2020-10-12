@@ -3,7 +3,7 @@ title: Pagrindinio puslapio apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ pagrindinio puslapio apžvalga.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c51c5af38f4ba50bbad124de4ac7f66be4001fa6
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527589"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817759"
 ---
 # <a name="home-page-overview"></a>Pagrindinio puslapio apžvalga
 
@@ -34,7 +34,7 @@ ms.locfileid: "3527589"
 
 Pagrindinis puslapis yra numatytasis puslapis, į kurį pirkėjai įeina, kai apsilanko el. prekybos svetainėje. Paprastai šiame puslapyje pateikiami produktai ir akcijos naudojant rinkodaros modulių derinį. Pagrindiniame puslapyje turėtų būti daug vaizdų ir teksto pirkėjams sudominti.
 
-Toliau pateiktoje iliustracijoje parodytas pagrindinio puslapio pavyzdys, sukurtas naudojant internetinį darbo pradžios rinkinį ir „Fabrikam“ temą.
+Toliau pateiktame paveikslėlyje rodomas pagrindinio puslapio pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką ir „Fabrikam“ temą.
 
 ![Pagrindinio puslapio pavyzdys](./media/Homepage2.PNG)
 

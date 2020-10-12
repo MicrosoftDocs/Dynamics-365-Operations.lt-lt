@@ -3,7 +3,7 @@ title: Reklaminės juostos modulis
 description: Šioje temoje aprašomi reklaminės juostos moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 05/28/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dae824cdbaaf56f85f125c5f36aaa56171bbd6bc
-ms.sourcegitcommit: b52477b7d0d52102a7ca2fb95f4ebfa30ecd9f54
+ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3411370"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817259"
 ---
 # <a name="promo-banner-module"></a>Reklaminės juostos modulis
 
@@ -87,7 +87,7 @@ Norėdami į puslapį įtraukti reklaminės juostos modulį ir nustatyti reikiam
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Karuselės modulis](add-carousel.md)
 

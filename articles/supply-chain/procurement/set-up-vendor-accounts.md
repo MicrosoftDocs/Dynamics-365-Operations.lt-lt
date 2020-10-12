@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2ea87e4147757a584e38b819faa8a0423ec0028
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3216092"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893166"
 ---
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
@@ -66,7 +66,7 @@ Galite kurti tiekėjo kontaktus nuo pradžių. Taip pat galite kopijuoti informa
 
 Kontaktinio asmens įrašo naikinti negalima, jei kontaktas yra nuorodas dokumente. Tačiau kontaktą galima inaktyvinti.  
 
-Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft Office 365“. Tačiau pirmiausia turite nustatyti Tiekimo grandinės valdymo ir „Office 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavime, tiek „Microsoft Outlook“ nustatymo vedlyje.
+Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft 365“. Tačiau pirmiausia turite nustatyti „Supply Chain Management“ ir „Microsoft 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavime, tiek „Microsoft Outlook“ nustatymo vedlyje.
 
 ## <a name="vendors-in-different-legal-entities"></a>Skirtingų juridinių subjektų tiekėjai
 Jei tiekėjas jūsų organizacijoje registruotas tik vienam juridiniam subjektui ir kiti juridiniai subjektai turi registruoti tą patį tiekėją, galite naudoti puslapį **Įtraukti tiekėją į kitą juridinį subjektą**, norėdami sukonfigūruoti tiekėją vykdyti verslo veiklą su kitu juridiniu subjektu. Pasirinktame juridiniame subjekte turite pasirinkti tiekėjų grupę, valiutą ir tiekėjo sulaikymo būseną.  

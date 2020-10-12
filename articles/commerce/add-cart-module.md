@@ -17,17 +17,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 07d121d5a68970dd29f0e77babda735de12871ca
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: d9a15f85838849796d6ce4674712636251c75bf3
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761134"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818280"
 ---
 # <a name="cart-module"></a>Krepšelio modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi krepšelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
@@ -41,11 +40,11 @@ Krepšelio modulis generuoja duomenis pagal krepšelio ID, kuris yra naršyklės
 
 Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys.
 
-![Krepšelio modulio pavyzdys](./media/cart2.PNG)
+![Krepšelio modulio, esančio „Fabrikam” svetainėje, pavyzdys](./media/cart2.PNG)
 
-Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys. Šiame pavyzdyje, nėra jokio eilutės prekės paėmimo mokesčio.
+Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ svetainėje esančio krepšelio puslapio pavyzdys. Šiame pavyzdyje yra eilutės prekės paėmimo mokestis.
 
-![Krepšelio modulio pavyzdys](./media/ecommerce-handling-fee.png)
+![Krepšelio modulio su eilutės prekės tvarkymo mokesčiu pavyzdys](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Krepšelio modulio ypatybės ir vietos
 

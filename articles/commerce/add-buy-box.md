@@ -3,7 +3,7 @@ title: Pirkimo langelio modulis
 description: Šioje temoje aprašomi pirkimo langelio moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6556ee8acf1e24a9f6ceddb622960cb3ac891852
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: e07bf02f10c943947fdf9ed3333373b859ff5b6c
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761302"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817090"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
@@ -75,9 +75,12 @@ Dalyje **Svetainės parametrai \> Plėtiniai** galima konfigūruoti toliau patei
 - **Atsargos** – norėdami gauti informacijos apie atsargų parametrų taikymą, žr. [Atsargų parametrų taikymas](inventory-settings.md).
 - **Įtraukti į krepšelį** – ši ypatybė naudojama nurodyti veikimo būdą po to, kai prekė įtraukiama į krepšelį. Galimos vertės yra **Pereiti į krepšelį**, **Nepereiti į krepšelį** ir **Rodyti pranešimus**. Kai nustatyta vertė **Pereiti į krepšelį**, po to, kai įtraukia prekę, vartotojai nukreipiami į krepšelio puslapį. Kai nustatyta vertė **Nepereiti į krepšelį**, po to, kai įtraukia prekę, vartotojai nenukreipiami į krepšelio puslapį. Kai nustatyta vertė **Rodyti pranešimus**, vartotojams parodomas patvirtinimo pranešimas ir jie gali toliau naršyti produkto informacijos puslapyje. 
 
-    Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ puslapyje esančio patvirtinimo pranešimo „Įtraukta į krepšelį“ pavyzdys.
+> [!IMPORTANT]
+> Svetainės **Įtraukti į krepšelį** parametrai pasiekiami „Dynamics 365 Commerce” 10.0.11 leidime. Jei atnaujinate iš senesnės „Dynamics 365 Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Instrukcijų, kaip atnaujinti failą appsettings.json, žr. [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
-    ![Pranešimo modulio pavyzdys](./media/ecommerce-addtocart-notifications.PNG)
+Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ puslapyje esančio patvirtinimo pranešimo „Įtraukta į krepšelį“ pavyzdys.
+
+![Pranešimo modulio pavyzdys](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>„Commerce Scale Unit“ sąveika
 
@@ -111,7 +114,7 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Parduotuvės išrinkiklio modulis](store-selector.md)
 
@@ -129,6 +132,8 @@ Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti rei
 
 [Poraštės modulis](author-footer-module.md)
 
-[„Social Share” modulis](social-share-module.md)
+[Bendrinimo socialiniuose tinkluose modulis](social-share-module.md)
 
 [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md)
+
+[SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)

@@ -3,7 +3,7 @@ title: Integruotų kanalų mokėjimų apžvalga
 description: Šioje temoje pateikiama informacija apie „Dynamics 365 Commerce“ integruoto kanalo mokėjimus.
 author: rubendel
 manager: AnnBe
-ms.date: 07/21/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 2127eb60a82bef8c6b5f5e9a917160331c483649
-ms.sourcegitcommit: 59fb179c770c799918f624cf345848fd4202bbdd
+ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/22/2020
-ms.locfileid: "3613182"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819818"
 ---
 # <a name="omni-channel-payments-overview"></a>Integruotų kanalų mokėjimų apžvalga
 
@@ -92,6 +92,9 @@ Palaikomi toliau nurodyti integruoto kanalo mokėjimo scenarijai.
 - Pirkimas skambučių centre, atsiėmimas parduotuvėje
 - Pirkimas A parduotuvėje, atsiėmimas B parduotuvėje
 - Pirkimas A parduotuvėje, siuntimas klientui
+
+    > [!NOTE]
+    > Skambučio centre esantys mokėjimai, kuriuos susieti su „įprasta“ mokėjimo funkcija, turi būti pažymėti kaip **Išankstinis mokėjimas** = **Taip**, kad būtų atspindėta suma, kuri turi būti sumokėta, kai atšaukiamas užsakymas EKA. Ne išankstinio mokėjimo „įprasto“ tipo mokėjimai yra neatpažįstami, kai atšaukiamas mokėjimas EKA. 
 
 Taip pat palaikomi šių scenarijų variantai. Pavyzdžiui, internetiniame užsakyme gali būti ir eilučių, kurios bus išsiųstos klientui, ir eilučių, kurios bus paimtos parduotuvėje. Visos užsakymo vykdymo parinktys palaikomos naudojant integruoto kanalo mokėjimus. 
 
@@ -190,8 +193,8 @@ Norėdami vykdyti scenarijų atlikite toliau nurodytus veiksmus.
 2. Puslapyje **Operacija** įtraukite Karen Berg į operaciją naudodami skaitmenų klaviatūrą, kad įvestumėte **2001.**
 3. Į operaciją įtraukite vieną ar daugiau eilučių.
 4. Pasirinkite **Užsakymai**, kad peržiūrėtumėte užsakymo parinktis.
-5. Pasirinkite **Paimti viską**, tada, kai jus paragins, pasirinkite **Kliento užsakymas**.
-6. Ieškos juostoje įveskite **Seattle**, tada pasirinkite paėmimo parduotuvę **Seattle**. 
+5. Pasirinkite **Siųsti viską**, tada, kai jus paragins, pasirinkite **Kliento užsakymas**.
+6. Siuntimo metodo puslapyje pasirinkite **Standartinis pristatymas per naktį**, o tada pasirinkite **Gerai**, kad patvirtintumėte šios dienos datą, kaip siuntimo datą. 
 7. Pasirinkite **OK**, kad esamą datą patvirtintumėte kaip paėmimo datą.
 8. Pasirinkite **Mokėti kortele,** kad inicijuotumėte mokėjimą.
 9. Naudodami kortelę įmokėkite mokėtiną depozito sumą. 
@@ -233,5 +236,5 @@ Kai paimamas užsakymas, kuriame yra kelios mokėjimo priemonės ir kelios eilut
 
 - [DUK apie mokėjimus](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
 - [„Dynamics 365“ mokėjimo jungtis, skirta sprendimui „Adyen“](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](https://docs.microsoft.com/en-us/dynamics365/commerce/cpe-bopis)
+- [Sukonfigūruokite „BOPIS“ „Dynamics 365 Commerce“ vertinamoje aplinkoje](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 

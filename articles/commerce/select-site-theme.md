@@ -3,7 +3,7 @@ title: Pasirinkti svetainės temą
 description: Šioje temoje aprašoma, kaip nustatyti arba pakeisti svetainės temą naudojant „Microsoft Dynamics 365 Commerce“.
 author: bicyclingfool
 manager: annbe
-ms.date: 12/12/2019
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,25 +17,24 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 45184c7b0e29d1258b26368fbc7221df91013cc3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002756"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817711"
 ---
 # <a name="select-a-site-theme"></a>Pasirinkti svetainės temą
-
 
 [!include [banner](includes/banner.md)]
 
 Šioje temoje aprašoma, kaip nustatyti arba pakeisti svetainės temą naudojant „Microsoft Dynamics 365 Commerce“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 
 Svetainės maketas ir stilius (pavyzdžiui, šriftai, dydžiai ir spalvos) nustatomi pagal temą, kurią pasirenkate ir taikote svetainei. Temą sukuria ir įdiegia jūsų įmonėje dirbantis kūrėjas. Temų apžvalgą rasite puslapyje [Temų apžvalga](http://). Daugiau informacijos apie tai, kaip kurti ir diegti temas, žr. [Naujos temos kūrimas](http://).
 
-Pagal numatytuosius nustatymus, kai pirmą kartą kuriate svetainę, joje naudojama tema **Fabrikam**. Ši numatytoji tema pateikiama kartu su darbo pradžios rinkiniu. Kai įdiegsite papildomas svetainei skirtas temas, galėsite konfigūruoti svetainę, kad joje būtų naudojama viena iš šių temų.
+Pagal numatytuosius nustatymus, kai pirmą kartą kuriate svetainę, joje naudojama tema **Fabrikam**. Ši numatytoji tema pateikiama kartu su „Commerce“ modulių biblioteka. Kai įdiegsite papildomas svetainei skirtas temas, galėsite konfigūruoti svetainę, kad joje būtų naudojama viena iš šių temų.
 
 ## <a name="select-the-site-theme"></a>Svetainės temos pasirinkimas
 

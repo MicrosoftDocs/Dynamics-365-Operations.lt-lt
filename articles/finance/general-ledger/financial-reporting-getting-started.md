@@ -3,7 +3,7 @@ title: Finansinių ataskaitų apžvalga
 description: Šioje temoje paaiškinama, kur galima pasiekti „Microsoft Dynamics 365 Finance“ finansines ataskaitas ir kaip naudoti finansinių ataskaitų galimybes.
 author: aprilolson
 manager: AnnBe
-ms.date: 08/14/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1944eda5fe933ff9fdf2b9a837eb2336e8b3a0d5
-ms.sourcegitcommit: 1322b94f10470e1728cf330d2d64f1471838c055
+ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3696693"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835115"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -148,9 +148,7 @@ Trikdis 1: „Report Designer“ neįsijungia jums pasirinkus **Naujas** ar **Re
 * „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines ir pasirinkite **Svetainės**. **Įtraukti šią interneto svetainę į sritį** įveskite "\*\.dynamics.com" (be kabučių) ir tuomet pasirinkite **Įtraukti**. 
 * „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines. Srityje pavadintoje Saugumo lygis šiai sričiai, pakeiskite parinktį į **Vidutinis-Žemas**.
 * Išjunkite iššokančių langų blokavimo programą savo naršyklėje.
-* Darbo stotyse būtina įdiegti „Visual Studio“ .NET 4.6.2 ar aukštesnę versiją.
-
-Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345).
+* Darbo stotyse būtina įdiegti „Microsoft .NET Framework“ 4.6.2 ar aukštesnę versiją. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345).
 * Jei naudojate „Chrome“ naršyklę, turi įdiegti „ClickOnce“ plėtinį, kad atsisiųstumėte „Report Designer“ klientą. Jei dirbate neatpažintu režimu, įsitikinkite, kad „ClickOnce“ plėtinys yra įjungtas neatpažintu režimu. Jei negalite prisijungti naudodami „Chrome“, pabandykite atlikti šiuos nustatymo žingsnius aprašytus Triktyje 1 naudodami „Internet Explorer“ ar „Edge“. 
 
 Triktis 2: Vartotojui nebuvo priskirti būtini leidimai naudoti „Financial Reporting“. 

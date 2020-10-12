@@ -150,7 +150,7 @@
           href: modular-app-tech-faq.md
         - name: Duomenų eksportavimas iš „Attract“ ir „Onboard“
           href: attract-onboard-export-data.md
-        - name: Įdėtoji „Microsoft Power Apps“
+        - name: Drobės programėlių įterpimas iš „Power Apps“
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Pagalba dėl „Talent“
           href: talent-support.md
@@ -252,3 +252,5 @@
           href: user-access-core-hr.md
         - name: „Azure Active Directory“ vartotojų žmonių parinkiklyje nerasta
           href: people-picker-user-not-found.md
+        - name: Programos „Attract“ vartotojai negali kandidatuoti į darbus iš karjeros portalo
+          href: attract-troubleshoot-career-portal.md

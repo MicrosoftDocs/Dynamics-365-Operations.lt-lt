@@ -3,7 +3,7 @@ title: Parduotuvės parinkiklio modulis
 description: Šioje temoje paaiškinamas parduotuvės parinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
 manager: annbe
-ms.date: 07/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1531b27dad4188dca96cf5728a9858f94001977c
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
+ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646140"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3818255"
 ---
 # <a name="store-selector-module"></a>Parduotuvės parinkiklio modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje paaiškinamas parduotuvės parinkiklio modulis ir aprašoma, kaip pridėti jį prie svetainių puslapių, esančių „Microsoft Dynamics 365 Commerce“.
 
@@ -65,7 +64,7 @@ Parduotuvės selektoriaus modulis gali būti įtrauktas siekiant įsigyti dėžu
 
 Toliau pateiktame paveikslėlyje vaizduojamas išsamios produkto informacijos puslapyje (PDP) naudojamo parduotuvių parinkiklio modulio pavyzdys.
 
-![Parduotuvės parinkiklio modulio pavyzdys](./media/BOPIS.PNG)
+![Parduotuvės parinkiklio modulio pavyzdys, naudojamas PDP.](./media/BOPIS.PNG)
 
 ## <a name="find-stores-mode"></a>Surasti parduotuvių režimą
 
@@ -73,7 +72,7 @@ Parduotuvės selektoriaus režimas taip pat palaiko **Rasti parduotuves** režim
 
 Toliau pateiktas paveikslėlis rodo parduotuvės selektoriaus modulio pavyzdį, kuris yra naudojamas kartu su žemėlapio moduliu parduotuvės vietos puslapyje.
 
-![Parduotuvės parinkiklio modulio pavyzdys](./media/ecommerce-Storelocator.PNG)
+![Parduotuvės parinkiklio modulio ir žemėlapių modulio pavyzdys parduotuvės vietų puslapyje.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Žemėlapio kūrimas
 
@@ -127,7 +126,7 @@ Tam, kad sukonfigūruotumėte selektoriaus modulį ir jis rodytų esamas parduot
  
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Pirkimo langelio modulis](add-buy-box.md)
 

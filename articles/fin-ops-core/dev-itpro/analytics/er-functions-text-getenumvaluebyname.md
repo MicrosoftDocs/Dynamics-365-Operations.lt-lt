@@ -3,7 +3,7 @@ title: GETENUMVALUEBYNAME ER funkcija
 description: Šioje temoje pateikiama informacija apie tai, kaip naudojama GETENUMVALUEBYNAME elektroninių ataskaitų (ER) funkcija.
 author: NickSelin
 manager: kfend
-ms.date: 12/12/2019
+ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 33ccf358dc5355cd00d5ff41ebd8148a334cba38
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 722ea8ea233d617b0584e21e98073428f16c0801
+ms.sourcegitcommit: ad5b7676fc1213316e478afcffbfaee7d813f3bb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743860"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3885232"
 ---
 # <a name="getenumvaluebyname-er-function"></a>GETENUMVALUEBYNAME ER funkcija
 
@@ -61,11 +61,11 @@ Gaunama išvardijimo reikšmė.
 
 Nėra pateikiama jokia išimtis, jei reikšmė *Enum* nerasta naudojant išvardijimo reikšmę, nurodytą kaip *Eilutės* reikšmė.
 
-## <a name="example"></a>Pavyzdys
+## <a name="example-1"></a>1 pavyzdys
 
 Tolesnėje iliustracijoje duomenų modelyje įvestas išvardijimas **ReportDirection**. Atkreipkite dėmesį, kad išvardijimo reikšmėms nurodytos žymos.
 
-<p><a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for a data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Galimos duomenų modelio išvardijimo vertės](./media/ER-data-model-enumeration-values.PNG)
 
 Tolesnėje iliustracijoje parodyta tolesnė išsami informacija.
 
@@ -73,8 +73,48 @@ Tolesnėje iliustracijoje parodyta tolesnė išsami informacija.
 - Išraiška `$IsArrivals` sukurta naudoti modelių išvardijime veikiantį duomenų šaltinį **$Direction** kaip šios funkcijos parametrą.
 - Šios lyginamosios išraiškos reikšmė yra **TEISINGA**.
 
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+![Duomenų modelio išvardijimo pavyzdys](./media/ER-data-model-enumeration-usage.PNG)
+
+## <a name="example-2"></a>2 pavyzdys
+
+`GETENUMVALUEBYNAME` ir [`LISTOFFIELDS`](er-functions-list-listoffields.md) funkcijos leidžia kaip teksto vertes iškviesti vertes ir palaikomų išvardijimų žymes. (Palaikomi išvardijimai yra prašymų išvardijimai, duomenų modelio išvardijimai ir formato išvardijimai.)
+
+Tolesnėje iliustracijoje **TransType** duomenų šaltinis pristatytas duomenų modelio susiejime. Šis duomenų šaltinis nurodo **LedgerTransType** prašymo išvardijimą.
+
+![Duomenų modelio susiejimo, kuris nurodo prašymo išvardijimą, duomenų šaltinis](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+
+Tolesnė iliustracija rodo **TransTypeList** duomenų šaltinį, konfigūruotą duomenų modelio susiejime. Šis duomenų šaltinis yra sukonfigūruotas pagal **TransType** prašymo išvardijimą. `LISTOFFIELDS` funkcija naudojama norint grąžinti visas išvardijimo vertes kaip įrašų, kuriuose yra laukų, sąrašą. Tokiu būdu informacija apie kiekvieną išvardijimo vertę yra rodoma.
+
+> [!NOTE]
+> Laukas **EnumValue** yra sukonfigūruotas **TransTypeList** duomenų šaltiniui, naudojant `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)` išraišką. Šis laukas grąžina kiekvieno šio sąrašo įrašo išvardijimo vertę.
+
+![Duomenų modelio išdėstymo duomenų šaltinis, kuris grąžina visas pasirinkto išvardijimo vertes kaip įrašų sąrašą](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+
+Tolesnė iliustracija rodo **VendTrans** duomenų šaltinį, konfigūruotą duomenų modelio susiejime. Šis duomenų šaltinis grąžina tiekėjo operacijų įrašus iš **VendTrans** programos lentelės. Kiekvienos operacijos didžiosios knygos tipas apibrėžiamas **TransType** lauko verte.
+
+> [!NOTE]
+> Laukas **TransTypeTitle** yra sukonfigūruotas **VendTrans** duomenų šaltiniui, naudojant `FIRSTORNULL(WHERE(TransTypeList, TransTypeList.EnumValue = @.TransType)).Label` išraišką. Šis laukas grąžina esamos operacijos, kaip teksto, išvardijimo vertės žymę, jei ši išvardijimo vertė yra galima. Kitu atveju, jis pateikia tuščią eilutės vertę.
+>
+> Laukas **TransTypeTitle** yra susietas su duomenų modelio, kuris įgalina šią informaciją naudoti kiekvienu ER formatu, kuris naudoja duomenų modelį kaip duomenų šaltinį, **LedgerType** lauku.
+
+![Duomenų modelio susiejimo, kuris grąžina tiekėjo operacijas, duomenų šaltinis](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+
+Toliau pateiktoje iliustracijoje parodyta, kaip galite naudoti [duomenų šaltinio derintuvę](er-debug-data-sources.md), kad galėtumėte patikrinti sukonfigūruotą duomenų modelio susiejimą.
+
+![Duomenų šaltinio derintuvės naudojimas, norint patikrinti sukonfigūruotą duomenų modelio susiejimą](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+
+**LedgerType** duomenų modelio laukas rodo operacijų tipų žymas numatytu būdu.
+
+Jei planuojate naudoti šį metodą dideliam operacijų duomenų kiekiui, turite apsvarstyti vykdymo efektyvumą. Daugiau informacijos, žr. [ER formatų vykdymo sekimas, siekiant pašalinti našumo problemas](trace-execution-er-troubleshoot-perf.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Tekstinės funkcijos](er-functions-category-text.md)
+
+[ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas](trace-execution-er-troubleshoot-perf.md)
+
+[ER LISTOFFIELDS funkcija](er-functions-list-listoffields.md)
+
+[ER FIRSTORNULL funkcija](er-functions-list-firstornull.md)
+
+[WHERE ER funkcija](er-functions-list-where.md)

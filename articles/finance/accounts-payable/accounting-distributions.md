@@ -1,9 +1,9 @@
 ---
 title: Apskaitos paskirstymai
-description: Šiame straipsnyje pateikiama informacija apie apskaitos paskirstymus ir aprašomos pasirinktys, kurias galima apdoroti. Apskaitos paskirstymai naudojami šaltinio dokumento piniginėms sumoms paskirstyti į konkrečias DK sąskaitas.
+description: Šioje temoje pateikiama informacija apie apskaitos paskirstymus ir aprašomos pasirinktys, kurias galima apdoroti.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e9f185ac95371bb841e55184650b8089040676c
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772265"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819844"
 ---
 # <a name="accounting-distributions"></a>Apskaitos paskirstymai
 
 [!include [banner](../includes/banner.md)]
 
-Šiame straipsnyje pateikiama informacija apie apskaitos paskirstymus ir aprašomos pasirinktys, kurias galima apdoroti. Apskaitos paskirstymai naudojami šaltinio dokumento piniginėms sumoms paskirstyti į konkrečias DK sąskaitas. 
+Šioje temoje pateikiama informacija apie apskaitos paskirstymus ir aprašomos pasirinktys, kurias galima apdoroti. Apskaitos paskirstymai naudojami šaltinio dokumento piniginėms sumoms paskirstyti į konkrečias DK sąskaitas. 
 
 Apskaitos paskirstymai yra visą programą apimantis pajėgumas, kurį naudoja ir išplečia kiekvienas šaltinio dokumentas, pvz., pirkimo užsakymas, tiekėjo SF, išlaidų ataskaita ir laisvos formos SF. Pagal numatytuosius nustatymus, numatytasis apskaitos paskirstymas generuojamas kiekvienai šaltinio dokumento eilutei ir piniginei sumai, ir tam tikromis sąlygomis jį galima modifikuoti. 
 
-> [!Note] 
+> [!NOTE] 
 > Tam tikri dokumentai taip pat palaiko antraštės dokumento pinigines sumas, pvz., užsakymų ir SF išlaidas. 
 
 Bendrosios apskaitos paskirstymo galimybės suteikia tokias apskaitos paskirstymų apdorojimo parinktis:
@@ -44,17 +44,16 @@ Bendrosios apskaitos paskirstymo galimybės suteikia tokias apskaitos paskirstym
     -   Paskirstymai rodo apskaitos datą ir apskaitos įvykį. Paprastai apskaitos įvykiui būna nustatyta reikšmė **Nėra**, kol dokumentas dar neužregistruotas / neįtrauktas į žurnalą. Tuo metu apskaitos įvykis tampa **Pradinis**. Užregistravę paskirstymus, jų modifikuoti negalėsite.
     -   Pirminiams paskirstymams gali būti įgalintas mygtukas **Skaidyti**. **Skaidyti** sugeneruoja naujus apskaitos paskirstymus, o skaidymas gali būti atliekamas pagal procentinę išraišką, sumą arba kiekį.
     -   Mygtuką**Paskirstyti tolygiai** galima naudoti kartu su **Skaidyti**, kad suma būtų automatiškai tolygiai paskirstyta tarp visų paskirstymų.
-    -   Gali būti įgalintas pirminių paskirstymų mygtukas **Nustayti iš naujo**, kai yra daugiau nei vienas paskirstymas. **Nustatyti iš naujo** atšaukia rankiniu būdu padarytas paskirstymo modifikacijas panaikindamas visus esamus paskirstymus ir iš naujo sugeneruodamas numatytuosius paskirstymus.
+    -   Gali būti įgalintas pirminių paskirstymų mygtukas **Nustatyti iš naujo**, kai yra daugiau nei vienas paskirstymas. **Nustatyti iš naujo** atšaukia rankiniu būdu padarytas paskirstymo modifikacijas panaikindamas visus esamus paskirstymus ir iš naujo sugeneruodamas numatytuosius paskirstymus.
     -   Bet koks antrinis paskirstymas, pvz., nuolaida, mokestis ir PVM, visada atliekamas po pirminio paskirstymo. Pirminį ir antrinį ryšį galite peržiūrėti pasirinkę **Nuoroda** &gt; **Pirminė informacija**.
-    -   Gali būti redaguojama ir antrinių paskirstymų pagrindinė sąskaita ir finansinė dimensija.
-    -   Apskaitos paskirstymų finansinės dimensijos atitinka numatytąjį modelį, kad dokumentą galima išplėsti. Jei norite sužinoti daugiau, žr. susijusius straipsnius.
+    -   Gali būti redaguojama ir antrinių paskirstymų pagrindinė sąskaita, ir finansinė dimensija.
+    -   Apskaitos paskirstymų finansinės dimensijos atitinka numatytąjį modelį, kad dokumentą galima išplėsti.
     -   Nuokrypių paskirstymai gali būti generuojami gretinimo scenarijuose, pvz., tiekėjo SF gretinimas su pirkimo užsakymu. Gretinimo ryšius tarp apskaitos paskirstymo galite peržiūrėti pasirinkę **Nuoroda** &gt; **Dokumento informacija**.
     -   Pasirodo mygtukas **Taisyti** ir jis yra įgalintas dokumentams, palaikantiems taisymus. **Taisyti** sukuria naujus paskirstymus. Pirma, sukuriami paskirstymai, kurie atšaukia pradinius paskirstymus. Šių paskirstymų modifikuoti negalima. Tada sukuriami nauji teisingo apskaitos paskirstymai. Šiuos paskirstymus galima modifikuoti, jei modifikuoti galima pradinius paskirstymus.
     -   Mygtukas**Projekto informacija** įgalinamas kaip plėtinys, kai eilutė yra susijusi su projektu. Projekto apskaitos paskirstymai leidžia modifikuoti tokią informaciją, kaip lėšų skyrimo šaltinis ir eilutės ypatybė.
     -   Galite peržiūrėti dabartinio dokumento apskaitos būseną – **Nuoroda**. Būsena yra viso dokumento ir nurodo, ar dokumentas yra nebaigtas ar baigtas.
 -   **Peržiūrėti paskirstymus** – peržiūrėkite visų dokumento eilučių ir piniginių sumų apskaitos paskirstymus. Negalite modifikuoti apskaitos paskirstymų iš šio rodinio.
 
+10.0.13 versijoje įtraukta funkcija, tikrinanti apskaitos paskirstymo lentelę, siekiant užtikrinti, kad nauji laukai būtų tinkamai nustatyti. Ši funkcija vadinama **Įjungti papildomą dokumentų, naudojančių šaltinio dokumento apskaitos sistemą, duomenų tikrinimą**. Norėdami naudoti šią funkciją, turite įjungti ją naudodami darbo sritį **Funkcijų valdymas**. Norėdami įjungti funkciją, ieškokite funkcijos pavadinimo puslapio **Funkcijų valdymas** lauke **Ieška**, tada pasirinkite **Įjungti dabar**.
 
 Daugiau informacijos žr. dalyje [Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF](accounting-distributions-subledger-journal-entries-vendor-invoices.md)
-
-

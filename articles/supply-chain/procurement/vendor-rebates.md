@@ -16,14 +16,15 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: 44c8f3ed76698bb4b70d767d9c8881024699552f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: acf7df09b467e0b0b0463946be018ff199d7153e
+ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203461"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3834265"
 ---
 # <a name="vendor-rebates"></a>Tiekėjo grąžinimai
+
 [!include [banner](../includes/banner.md)]
 
 Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų grąžinimo programas – automatizuojamos užduotys, reikalingos norint gautus grąžinimus administruoti, sekti ir teikti jų paraiškas.
@@ -50,6 +51,7 @@ Tiekėjų grąžinimų funkcija įmonėms padeda geriau valdyti savo tiekėjų g
 - Kiekybiškai pagrįsti vykstančias ir būsimas derybas su tiekėjais dėl grąžinimų.
 
 ## <a name="review-details-of-a-vendor-rebate-agreement"></a>Tiekėjo grąžinimo sutarties informacijos peržiūra
+
 Tiekėjo grąžinimo sutartis yra sutarties su tiekėju įrašas, kuriame nurodytos suderėtos sąlygos, taikomos įmonei bandant gauti piniginį atlygį už pasiektus iš anksto nustatytus pirkimo tikslus. Tiekėjų grąžinimo sutartys įrašomos puslapyje **Grąžinimo sutartys**.
 
 Norėdami atidaryti puslapį **Tiekėjų grąžinimo sutartys**, pasirinkite **Paraiškos** &gt; **Tiekėjų grąžinimai** &gt; **Grąžinimo sutartys**.
@@ -58,9 +60,11 @@ Norėdami atidaryti puslapį **Tiekėjų grąžinimo sutartys**, pasirinkite **P
 
 Puslapyje **Tiekėjų grąžinimo sutartys** galite peržiūrėti išsamią informaciją apie suderėtas tiekėjo sutarties sąlygas.
 
-Sutarties antraštėje nurodytos bendrosios sąlygos, taikomos įmonei norint teikti grąžinimo paraišką. Iš esmės antraštės informacijoje nurodoma, kad, nupirkus konkretų konkretaus produkto kiekį, tiekėjas grąžina dalį pinigų. Antraštėje taip pat nurodoma matavimo vieneto grąžinimo parinktis ir skaičiavimo datos tipas.
+Sutarties antraštėje nurodytos bendrosios sąlygos, kurios taikomos įmonei norint teikti grąžinimo paraišką. Iš esmės antraštės informacijoje nurodoma, kad, nupirkus konkretų konkretaus produkto kiekį, tiekėjas grąžina dalį pinigų. Antraštėje taip pat nurodoma matavimo vieneto grąžinimo parinktis ir skaičiavimo datos tipas.
 
-- Skirtuko **Bendra** lauke **Matavimo vieneto grąžinimo parinktis** galite apibrėžti, ar matavimo vienetas turi būti sąlyga pirkimo užsakymo eilutei, kad būtų galima pateikti grąžinimo paraišką. 
+- Jeigu skirtuke **Apžvalga** turite eilučių, kurių **Prekės kodas** yra nustatytas į *Lentelę* prekės nurodymui, sutartis yra tai tam tikrai prekei. Jeigu turite eilučių, kurių **Prekės kodas** nustatytas kaip *Grupė* arba *Visi*, kad nurodytumėte prekes, tiekėjo grąžinimo sutartis bus apdorota atskirai pagal prekę, kuriai taikomas prekės kodas, o ne visoms prekėms, kurioms taikomas prekės kodas.
+
+- Skirtuko **Bendra** lauke **Matavimo vieneto grąžinimo parinktis** galite apibrėžti, ar matavimo vienetas turi būti sąlyga pirkimo užsakymo eilutei, kad būtų galima pateikti grąžinimo paraišką.
 
     - **Konvertuoti** – pagal grąžinimo sutartį galima pateikti tiekėjo grąžinimo paraišką dėl pirkimo užsakymo eilutės. Grąžinimą gausite neatsižvelgiant į eilutėje taikomą matavimo vienetą.
     - **Tikslus atitikimas** – kad būtų galima teikti grąžinimo paraišką, pirkimo eilutėje turi būti taikomas toks pats matavimo vienetas, koks nurodytas sutartyje.
@@ -97,6 +101,7 @@ Sutarties eilutėse tiekėjo grąžinimo sutartį galite išdėstyti išsamiau.
 Kai pirkimo užsakymai vyksta su tiekėju, su kuriuo įmonė turi grąžinimo sutartį, programa identifikuoja visus būsimus tiekėjo kredito mokėjimus. Jei už pirkimo užsakymus galima gauti grąžinimą, kai tik užregistruojama pirkimo sąskaita faktūra, generuojama grąžinimo paraiška už kiekvieną užsakymo eilutę. Šis procesas yra automatinis. Vėliau numatomus grąžinimus galite peržiūrėti ir galite matyti, kokios įtakos jie turi produkto savikainai bei pelno maržai.
 
 ### <a name="view-details-of-rebates-that-are-applied-to-a-purchase-order-line-per-the-vendor-rebate-agreement"></a>Informacijos apie grąžinimus, pagal tiekėjo grąžinimo sutartį taikomus pirkimo užsakymo eilutei, peržiūra
+
 1. Puslapyje **Pirkimo užsakymas** pasirinkite užsakymo eilutę, tada – **Pirkimo užsakymo eilutė** &gt; **Peržiūrėti** &gt; **Kainos informacija**.
 2. Puslapyje **Kainos informacija** pasirinkite „FastTab“ skirtuką **Grąžinimai**.
 
@@ -106,15 +111,18 @@ Grąžinimo informacija taip pat rodoma puslapio **Kainos informacija** skyriaus
 > Įsitikinkite, kad puslapio **Paraiškų parametrai** skirtuke **Kainos** parinktis **Įjungti kainų informaciją** nustatyta kaip **Taip**. Jei parinktis nustatyta kaip **Ne**, grąžinimų peržiūrėti negalėsite.
 
 ## <a name="review-and-approve-claims"></a>Paraiškų peržiūra ir tvirtinimas
+
 Sugeneruotos grąžinimo paraiškos – tai būsimi mokėjimai, kurių galima tikėtis iš tiekėjo. Kol tiekėjui dar neišduota kredito pažyma, sutarties savininkas paprastai nori paraiškas peržiūrėti ir patvirtinti. Tačiau atkreipkite dėmesį, kad paraiškos būsena nustato, ar paraiška paruošta tvirtinimo procesui.
 
 ### <a name="the-status-of-claims-and-the-effect-on-the-approval-process"></a>Paraiškų būsena ir kaip ji lemia tvirtinimo procesą
+
 Generuojant paraišką jos būsena nustatoma kaip **Apskaičiuotina** (jei grąžinimai kaupiami) arba **Apskaičiuota** (jei grąžinama už kiekvieną sąskaitą faktūrą). Jei paraiškos būsena yra **Apskaičiuotina**, paraiška turi pereiti skaičiavimo procesą, kurį apdoroja funkcija Kaupti. Į tvirtinimo procesą galima įtraukti tik tas paraiškas, kurių būsena yra **Apskaičiuota**.
 
 > [!NOTE]
 > Jei tiekėjo grąžinimo sutarties parinktis **Reikia patvirtinimo** nustatyta kaip **Ne**, sugeneruotų paraiškų būsena bus **Patvirtinta**. Paraiškas, kurių grąžinimai kaupiami, patvirtinti yra privaloma.
 
 ### <a name="approve-claims-and-view-postings-and-invoice-details"></a>Paraiškų tvirtinimas ir registravimų bei sąskaitų faktūrų informacijos peržiūra
+
 Paraiškas patvirtinus, jas galima apdoroti modulyje Mokėtinos sumos (A/P). Grąžinimo paraiškos sumai automatiškai sugeneruojama kredito pažyma (tiekėjo sąskaita faktūra). Kreditą tada galima įtraukti į tiekėjo balansą, o A/P komanda jį gali įtraukti į įprastą sudengimo procesą.
 
 1. Norėdami atidaryti paraišką, pasirinkite **Paraiškos** &gt; **Tiekėjų grąžinimai** &gt; **Grąžinimo paraiškos**.
@@ -153,6 +161,7 @@ Paraiškas patvirtinus, jas galima apdoroti modulyje Mokėtinos sumos (A/P). Gr�
 9. Puslapyje **Visi tiekėjai** pasirinkite tiekėją, iš kurio gavote grąžinimą, tada veiksmų srityje pasirinkite **Operacijos**. Suraskite sąskaitos faktūros eilutę. Grąžinimo suma dabar įtraukta į tiekėjo balansą.
 
 ## <a name="summary"></a>Suvestinė
+
 Tiekėjo grąžinimų tvarkymo procesas apima kelias rankines sekimo užduotis, kurios dažnai yra varginančios. Šias užduotis automatizuodama, tiekėjų grąžinimų valdymo funkcija gali padėti atlikti tolesnius procesus.
 
 - Generuoti tikslias grąžinimo paraiškas

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a67e5e3aea33e874f225a6af606fc8cde2bdc6bf
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
+ms.sourcegitcommit: 7537aa8ef619eea6c48467a3ca86e3372415f8a7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771850"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3823460"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Finansinių konsolidacijų ir valiutos konvertavimo apžvalga
 
@@ -103,6 +103,7 @@ Norėdami peržiūrėti konsolidavimo rezultatus, turite rinktis iš kelių pari
     ![Konsolidavimo operacijos konsolidavimų puslapyje](./media/managing-consolidation-transactions.png "Konsolidavimo operacijos konsolidavimų puslapyje")
 
 Norėdami vykdyti konsolidavimą dar kartą, galite tiesiog apdoroti konsolidaciją. Taip pat galite pirmiausia pasirinkti **Pašalinti operacijas** puslapyje **Konsolidavimas**.
+Tuo atveju, konsoliduotos sąskaitos balansai nėra tikslūs, šie balansai gali būti koreguojami naudojant **Uždarymo laikotarpio koregavimų** puslapį.
 
 ## <a name="consolidate-with-import"></a>Konsoliduoti su importu
 Konsolidavimas naudojant importavimo funkciją vykdomas taip, kaip konsolidavimo tinkle funkcija. Kai pasirenkate juridinius subjektus, galite naršyti šaltinio failą, kuriame yra duomenų.
@@ -156,6 +157,7 @@ Daugiau informacijos apie tai, kaip vykdomas valiutos kurso pasikeitimas modulyj
 - Pašalinimo žurnalus galima registruoti tik dabartiniame sluoksnyje.
 - Konsoliduojami tik valdymo balansai. Todėl, norėdami matyti pradžios balansus, vis tiek vykdyti metų pabaigos uždarymą konsolidavimo įmonėje.
 - Galite registruoti kasdienį žurnalą pašalinimo įmonėje, bet ne konsolidavimo įmonėje.
+- Konsolidacijos įmonės balansų koregavimus galima atlikti tik naudojant **Uždarymo laikotarpio koregavimų** puslapį. 
 
 ## <a name="benefits-of-using-financial-reporting-for-financial-consolidations-and-currency-translation-or-to-complement-consolidate-online-for-consolidated-reporting"></a>Finansinių ataskaitų privalumai vykdant finansinį konsolidavimą ir valiutos konvertavimą arba privalumai, naudingi vykdant konsolidavimo ataskaitų konsolidavimą tinkle
 Klientai gali pasinaudoti finansinių ataskaitų privalumais vykdant finansinį konsolidavimą ir valiutos konvertavimą arba privalumais, naudingais vykdant konsolidavimo ataskaitų konsolidavimą tinkle.

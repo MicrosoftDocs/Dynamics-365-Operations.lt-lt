@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae7587fc46d2907241a5da3b6329465d77b3555
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: e6a3330b0123605d4c7b86cedcb8bc95b3cf6de8
+ms.sourcegitcommit: a52a789044ca66c6771224a6cf0be8749bc99e5a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383095"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "3837268"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -399,6 +399,9 @@ Pateiktoje lentelėje aprašomos šios pasirinktys.
 <tr class="odd">
 <td>Darbo šablono kodas</td>
 <td>Pasirinkite darbo šabloną, kuris sukurs proceso darbą. Pavyzdžiui, jei gaunate pirkimo užsakymo prekę, atidėjimo darbas bus sukurtas remiantis darbo šablonu. Jei nepasirinksite darbo šablono, „Supply Chain Management“ priskirs šabloną pagal užklausos kriterijus. Daugiau informacijos apie darbo šablonus, žr. <a href="control-warehouse-location-directives.md">Sandėlio darbo kontroliavimas darbo šablonais ir vietų nurodymais</a>.</td>
+<tr class="even">
+<td>Rodyti darbo eilučių sąrašą</td>
+<td>Pasirinkite parinktį, nurodančią, kaip darbuotojai galės peržiūrėti ir sąveikauti su šiuo metu pasirinkto paėmimo darbo eilutėmis. Daugiau informacijos apie šią parinktį žr. <a href="pick-line-overview.md">Mobiliojo įrenginio meniu elemento nustatymas paėmimo eilučių peržiūrai pateikti</a>.</td>
 </tr>
 </tbody>
 </table>

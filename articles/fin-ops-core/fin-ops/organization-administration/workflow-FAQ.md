@@ -3,7 +3,7 @@ title: DUK apie darbo eigas
 description: Šioje temoje atsakoma į dažnai užduodamus klausimus apie darbo eigos sistemą.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 02/18/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7408424ff9344b3dcd054106f3f10b0dc1d687b
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 4ba60c832b1f1ac5f514baef4cc0a9c36dd85af9
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3076091"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826195"
 ---
 # <a name="workflow-faq"></a>DUK apie darbo eigas
 
@@ -58,3 +58,5 @@ Kai darbo eigos rengyklė veikia naudojant „Active Directory“ susiejimo tarn
 ## <a name="why-am-i-getting-sql-deadlocks-on-workflow-processing"></a>Kodėl apdorojant darbo eigą atsiranda SQL aklaviečių? 
 Puslapyje **Darbo eigos parametrai** esančio lauko **Darbo eigos elementų skaičius vienoje paketinėje** numatytoji reikšmė yra 0. Jei reikšmė yra 0, numatytoji reikšmė keičiasi į 20 elementų vienoje paketinėje. Būkite atsargūs, koreguodami šią reikšmę, nes dėl didelio elementų skaičiaus vienoje paketinėje (> 40) gali atsirasti SQL aklaviečių.
 
+## <a name="what-is-the-workflow-enhanced-error-feature"></a>Kas yra patobulinta darbo eigos klaidos funkcija?
+Darbo eigos patobulinta klaidos funkcija, esanti versijoje 10.0.13, įtraukia klaidų kodus, kad būtų galima atskirti skirtingas darbo eigos klaidų klases. Klaidos pranešimai, apie kuriuos pranešama, dažniausiai bus panašūs su nedideliais skirtumais, kad jie būtų aiškesni.

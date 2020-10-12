@@ -3,7 +3,7 @@ title: Tinklelio charakteristikos
 description: Šioje temoje aprašomos kelios galingos tinklelio valdiklio funkcijos. Norint turėti prieigą prie šių charakteristikų, turi būti įjungta nauja tinklelio funkcija.
 author: jasongre
 manager: AnnBe
-ms.date: 08/31/2020
+ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b4efad8423ab42bf6f7f6e2d1054307c11d31d2c
-ms.sourcegitcommit: 241ada0945c72d769eaa70ae35aedbb6a3233fdf
+ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
+ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3760404"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3835091"
 ---
 # <a name="grid-capabilities"></a>Tinklelio charakteristikos
 
@@ -33,6 +33,7 @@ Naujas tinklelio valdiklis suteikia daug naudingų ir galingų charakteristikų,
 -  Rašymas anksčiau sistemos
 -  Matematinių išraiškų vertinimas 
 -  Lentelės duomenų grupavimas (įjungta atskirai naudojant funkciją **(Peržiūra) Grupavimas tinkleliuose**)
+-  Prisegti sistemos stulpeliai
 
 ## <a name="calculating-totals"></a>Skaičiuojamos sumos
 „Finance and Operations“ programose vartotojai gali matyti bendrąsias sumas, esančias tinkleliuose, skaitinių stulpelių apačioje. Šios bendrosios sumos rodomos tinklelio apačioje esančiame poraštės skyriuje. 
@@ -119,12 +120,19 @@ Lygiai taip pat, kaip galite pažymėti visas tinklelio eilutes (arba panaikinti
 ### <a name="hiding-column-names"></a>Stulpelių pavadinimų slėpimas
 Grupuojant duomenis numatytasis veikimas yra rodyti stulpelio pavadinimą grupės antraštės eilutėje. Pradedant nuo versijos 10.0.14 / 38 platformos naujinimo, galite pasirinkti nerodyti stulpelio pavadinimo grupės antraštės eilutėse pasirinkdami **Tinklelio parinktys** > **Slėpti grupės stulpelio pavadinimą**.
 
+## <a name="pinned-system-columns"></a>Prisegti sistemos stulpeliai
+Naujame tinklelyje esantys eilutės pasirinkimo ir būsenos stulpeliai yra prisegti arba užšaldyti ant kairiausios tinklelio dalies. Todėl, kai šie stulpeliai yra įtraukti į tinklelį, jie visada bus matomi vartotojui, neatsižvelgiant į horizontaliosios slinkties padėtį tinklelyje.   
+
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Kaip įjungti naują tinklelio valdiklį mano aplinkoje? 
 
-**10.0.9 / 33 ar naujesnis platformos atnaujinimas** Funkcija **Naujas tinklelio valdiklis** yra prieinama funkcijų valdyme bet kurioje aplinkoje. Įgalinant šią funkciją, kaip ir visas kitas funkcijas, gamyboje taikoma [Papildomų naudojimo sąlygų sutartis](https://go.microsoft.com/fwlink/?linkid=2105274).  
+**10.0.9 / Platformos atnaujinimas 33 ir vėlesnis**
 
-**10.0.8 / 32 platformos atnaujinimas ir 10.0.7 / 31 platformos atnaujinimas** Funkciją **Naujas tinklelio valdiklis** galima įjungti 1 pakopos (kūrėjų / testavimo) ir 2 pakopos (smėlio dėžė) aplinkoje, kad, sekant toliau nurodytus veiksmus, būtų galima atlikti papildomus bandymus ir projektavimo pakeitimus.
+Funkcija **Naujo tinklelio valdymas** yra prieinama tiesiogiai funkcijų valdyme bet kurioje aplinkoje. Įgalinant šią funkciją, kaip ir visas kitas funkcijas, gamyboje taikoma [Papildomų naudojimo sąlygų sutartis](https://go.microsoft.com/fwlink/?linkid=2105274).  
+
+**10.0.8 / Platformos atnaujinimas 32 ir 10.0.7 / Platformos atnaujinimas 31**
+
+Funkcija **Naujo tinklelio valdymas** gali būti įjungta Tier 1 (Dev/Test) ir Tier 2 (smėlio dėžėje) aplinkose tam, kad būtų pateiktas papildomas testavimas ir suprojektuoti tolesnių žingsnių pakeitimai.
 
 1.  **Įgalinti testuojamą variantą**: vykdykite šį SQL teiginį: 
 
@@ -139,11 +147,14 @@ Grupuojant duomenis numatytasis veikimas yra rodyti stulpelio pavadinimą grupė
 Visi vėlesni vartotojo seansai prasidės įjungus naują tinklelio valdiklį.
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Kūrėjas] Individualių puslapių pasirinkimas naudojant naują tinklelį 
-Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudodama naują tinklelį, API yra prieinama tam, kad leistų individualiai formuoti naudojant ankstesnio tinklelio valdymą ir leidžiant jūsų sistemos likusiai daliai naudoti naujo tinklelio valdymą. Individualaus puslapio rodymui iš naujojo tinklelio, įtraukite tolesnius skambinimo viešinimus `super()` formos `run()` metode.
+Jei jūsų organizacija atranda puslapį, kuris turi tam tikrų problemų naudodama naują tinklelį, API yra prieinama nuo 10.0.13 versijos/ Platformos atnaujinimo 37, tam, kad leistų individualiai formuoti naudojant ankstesnio tinklelio valdymą ir leidžiant jūsų sistemos likusiai daliai naudoti naujo tinklelio valdymą. Individualaus puslapio rodymui iš naujojo tinklelio, į formą įtraukite tolesnius skambinimo viešinimus `super()` naudodami `run()` metodą.
 
  ```this.forceLegacyGrid();```
 
-API bus palaikoma iki 2021 m. spalio mėn. išleidimo, kai naujo tinklelio valdymas taps privalomas. Prašome pranešti visas problemas „Microsoft“, kurios reikalauja naudoti šį API. 
+Ši API bus palaikoma iki 2021 m. spalio išleidimo, kai naujo tinklelio valdymas taps privalomas. Jei sprendžiant tam tikras problemas reikia naudoti šią API, praneškite apie jas „Microsoft”.
+
+## <a name="developer-size-to-available-width-columns"></a>[Kūrėjas] Iki galimo pločio dydžio stulpeliai
+Jei kūrėjas nustato **WidthMode** ypatybę į **SizeToAvailable** stulpeliams naujame tinklelyje, tie stulpeliai iš pradžių turi tokį plotį, kokį jie turėtų, jei ypatybė būtų nustatyta į **SizeToContent**. Tačiau jie ištempiami, norint tinklelyje naudoti bet kokį galimą papildomą plotį. Jei ypatybė nustatyta į **SizeToAvailable** keliems stulpeliams, visi šie stulpeliai bendrai naudoja bet kokį galimą papildomą plotį tinklelyje. Tačiau, jei vartotojas rankiniu būdu keičia vieno iš šių stulpelių dydį, stulpelis tampa statiniu. Jis išliks tokio pločio ir nebebus ištempiamas, kad būtų galima naudoti galimą papildomą tinklelio plotį.  
 
 ## <a name="known-issues"></a>Žinomos problemos
 Šiame skyriuje pateikimas žinomų problemų, susijusių su nauju tinklelio valdikliu, kai funkcija yra peržiūros būsenoje, sąrašas.  

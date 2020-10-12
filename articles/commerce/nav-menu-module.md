@@ -3,7 +3,7 @@ title: Naršymo meniu modulis
 description: Šioje temoje aprašomi naršymo meniu moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/31/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9f66bbe7bf436ab6360dda7d92d6d51e47eedf16
-ms.sourcegitcommit: 420b9e538f706178f8e1f2786e02f4f400bf2336
+ms.openlocfilehash: 91239bd1db3f5819b7ad8d45ccfd8ab0d88b1b41
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761409"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817879"
 ---
 # <a name="navigation-menu-module"></a>Naršymo meniu modulis
 
@@ -58,7 +58,7 @@ Daugiau informacijos apie tai, kaip įtraukti naršymo meniu modulį į antrašt
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Pirkimo langelio modulis](add-buy-box.md)
 

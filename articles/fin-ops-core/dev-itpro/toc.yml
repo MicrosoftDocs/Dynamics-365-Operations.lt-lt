@@ -86,6 +86,8 @@
               href: data-entities/integration-overview.md
             - name: Prioritetu grindžiamas ribojimas
               hreF: data-entities/priority-based-throttling.md
+            - name: Prioritetu grindžiamo ribojimo DUK
+              href: data-entities/throttling-faq.md
             - name: Duomenų integravimo API sąsajos
               items:
                 - name: Duomenų valdymo paketo REST API
@@ -154,6 +156,8 @@
                                   href: data-entities/dual-write/enable-entity-map.md
                             - name: Dvigubo rašymo valiutos duomenų tipo perkėlimas
                               href: data-entities/dual-write/currrency-decimal-places.md
+                            - name: Pardavimo užsakymo būsenos laukų susiejimo nustatymas
+                              href: data-entities/dual-write/sales-status-map.md
                         - name: Dvigubo rašymo valdymas
                           items:
                             - name: Objektų ir laukų susiejimo tinkinimas
@@ -522,7 +526,7 @@
                       href: deployment/onprem-reuseadfs.md
                 - name: Vietos agentas
                   items:
-                    - name: „AD FS Office 365“ suderinamumas
+                    - name: AD FS „Microsoft 365“ suderinamumas
                       href: deployment/onprem-adfscompatibility.md
                     - name: Vietinio agento išankstinio ir vėlesnio visuotinio diegimo scenarijai
                       href: lifecycle-services/pre-post-scripts.md
@@ -627,14 +631,12 @@
                 - name: Kūrimo įrankių mokymo programa
                   href: dev-tools/introduction-visual-studio.md
                 - name: Programų tikrintuvas
-                  items:
-                    - name: „BaseX” programų tikrintuvui diegimas
-                      href: dev-tools/install-basex.md
+                  href: dev-tools/application-checker.md
                 - name: Programų naršyklė
                   href: dev-tools/application-explorer.md
                 - name: Projektų kūrimas ir derinimas
                   href: dev-tools/build-debug-project.md
-                - name: Kūrimo operacijos
+                - name: Versijos operacijos
                   href: dev-tools/build-operations.md
                 - name: Kodo rengyklės funkcijos
                   href: dev-tools/code-editor.md
@@ -1368,7 +1370,25 @@
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
                     - name: ValueMetadata tipas
                       href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-        - name: „Regression suite automation tool”
+        - name: Proceso automatizavimo sistema
+          items:
+            - name: Proceso automatizavimo sistemos kūrimas
+              href: process-automation/process-automation-framework.md
+            - name: Tipo registravimas
+              href: process-automation/type-registration.md
+            - name: Serijų registravimas
+              href: process-automation/series-registration.md
+            - name: Proceso parametrai
+              href: process-automation/process-parameters.md
+            - name: Vartotojo konfigūruojamos užklausos
+              href: process-automation/user-queries.md
+            - name: Proceso vykdymas
+              href: process-automation/run-process.md
+            - name: Žurnalo rezultatai ir pranešimai
+              href: process-automation/log-results.md
+            - name: Vartotojo sąsajos tinkinimas
+              href: process-automation/ui-customization.md
+        - name: Regression suite automation tool
           items:
             - name: „Regression Suite Automation Tool“ apžvalga
               href: perf-test/rsat/rsat-overview.md
@@ -1395,7 +1415,7 @@
             - name: Kūrimas ir išleidimas
               href: lcs-solutions/lcs-solutions-app-source.md
             - name: Paruošimas ir publikavimas
-              href: lcs-solutions/marketing-content-lcs-solutions.md
+              href: /azure/marketplace/partner-center-portal/create-new-operations-offer
             - name: Metodikų įtraukimas
               href: lcs-solutions/methodologies-lcs-solutions.md
             - name: Verslo procesų modeliavimo įrankio bibliotekų nustatymas

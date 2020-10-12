@@ -3,7 +3,7 @@ title: Paskyrų tvarkymo puslapių apžvalga
 description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ paskyros valdymo puslapių apžvalga.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/30/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 03a2ebd07c2a95198f506df3fd94c967ad0315e8
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: d0e066428e8c4717b5a50144f63e59b87089d286
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527613"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817807"
 ---
 # <a name="account-management-pages-overview"></a>Paskyrų tvarkymo puslapių apžvalga
 
@@ -46,7 +46,7 @@ Toliau pateikiamoje iliustracijoje rodomas paskyros valdymo nukreipimo puslapio 
 
 Puslapyje **Mano profilis** pateikiama kliento paskyros informacija, pvz., jo vardas ir telefono numeris. Klientas šiame puslapyje gali atnaujinti savo profilio informaciją. Šis puslapis gali būti tinkintas taip, kad apimtų papildomas kliento paskyros nuostatas, pvz., galimybę sutikti gauti rinkodaros el. laiškus.
 
-Toliau pateiktame paveikslėlyje parodytas puslapio **Mano profilis** pavyzdys, kuris buvo sukurtas naudojant darbo pradžios rinkinį.
+Toliau pateiktame paveikslėlyje parodytas puslapio **Mano profilis** pavyzdys, kuris buvo sukurtas naudojant modulių biblioteką.
 
 ![Puslapio Mano profilis pavyzdys](./media/Account-Management-MyProfile.PNG)
 

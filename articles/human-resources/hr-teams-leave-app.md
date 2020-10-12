@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0fbf44fe35af3147fd5fb478b6cbfc5a5d0b109d
-ms.sourcegitcommit: 5b620f670ac0f403a0fdcdeb9c3f970b163191ee
+ms.openlocfilehash: c7b74983cbddf661456b0a65939e272078d59f6d
+ms.sourcegitcommit: e27510ba52623c801353eed4853f8c0aeea3bb2d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/04/2020
-ms.locfileid: "3766765"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3828949"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
 [!include [banner](includes/preview-feature.md)]
 
-„Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Norėdami prašyti informacijos, galite bendrauti su robotu. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija.
+„Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Galite sąveikauti su robotu, kad prašytumėte informacijos ir pradėtumėte atostogų užklausą. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Be to, galite siųsti žmonėms informaciją apie savo būsimą ne darbo laiką skiltyse „Komandos” ir „Pokalbiai” už „Human Resources” programėlės ribų.
 
 ## <a name="install-the-app"></a>Programos diegimas
 
@@ -56,8 +56,8 @@ Jei programa automatiškai jūsų neprijungia, norėdami prisijungti pasirinkite
 
 Jei turite prieigą prie daugiau nei vieno „Human Resources“ egzemplioriaus, galite pasirinkti, kurią aplinką norite prijungti prie skirtuko **Parametrai**.
 
-> [!WARNING]
-> Programa šiuo metu nepalaiko sistemos administratoriaus saugos vaidmens ir rodys klaidos pranešimą, jei prisijungsite naudodami sistemos administratoriaus paskyrą. Norėdami prisijungti su kita paskyra, skirtuke **Parametrai** pasirinkite mygtuką **Perjungti paskyras**, tada prisijunkite naudodami vartotojo paskyrą, kuri neturi sistemos administratoriaus teisių.
+> [!NOTE]
+> Programėlė dabar palaiko sistemos administratoriaus saugos vaidmenį.
  
 ## <a name="use-the-bot"></a>Roboto naudojimas
 
@@ -130,13 +130,33 @@ Skirtuke **Ne darbo laikas** galite peržiūrėti:
 
    ![„Human Resources Teams“ atostogų programos juodraščio redagavimas](./media/hr-teams-leave-app-drafts-edit.png)
    
-### <a name="teams-notifications"></a>„Teams” pranešimai
+### <a name="respond-to-teams-notifications"></a>Atsakyti į „Teams” pranešimus
 
 Kai jūs arba darbuotojas, kurio tvirtintojas esate jūs, pateikiate atostogų užklausą, gausite pranešimą „Human Resources“ programoje „Teams“. Galite pasirinkti pranešimą, norėdami jį peržiūrėti. Pranešimai taip pat rodomi **pokalbių** srityje.
 
 Jei esate tvirtintojas, pranešime galite pasirinkti **Patvirtinti** arba **Atmesti**. Taip pat galite pateikti pasirinktinį pranešimą.
 
 ![Atostogų užklausos pranešimas programoje „Human Resources Teams“](./media/hr-teams-leave-app-notification.png)
+
+## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Siųsti būsimo ne darbo laiko informaciją savo bendradarbiams
+
+Įdiegę „Human Resources” programėlę, pritaikytą „Teams”, galite lengvai siųsti informaciją apie savo būsimą ne darbo laiką savo bendradarbiams skiltyje „Komandos” arba „Pokalbiai”.
+
+1. „Komandos” arba „Pokalbiai” skiltyje, esančiose programėlėje „Teams”, pasirinkite „Human Resources” mygtuką, esantį po pokalbio langu.
+
+   ![„Human Resources” mygtukas, esantis po pokalbio langu](./media/hr-teams-leave-app-chat-button.png)
+
+2. Pasirinkite atostogų užklausą, kurią norite bendrinti. Jei norite bendrinti juodraštinę atostogų užklausą, pirmiausia pasirinkite **Juodraščiai**.
+
+   ![Pasirinkite būsimą atostogų užklausą bendrinimui](./media/hr-teams-leave-app-chat-search.png)
+
+Jūsų atostogų užklausa bus rodoma pokalbiuose.
+
+![„Human Resources” atostogų užklausos kortelė](./media/hr-teams-leave-app-chat-card.png)
+
+Jei bendrinote juodraštinę užklausą, ji bus rodomas kaip juodraštis:
+
+![„Human Resources” juodraštinės atostogų užklausos kortelė](./media/hr-teams-leave-app-chat-draft-card.png)
 
 ## <a name="view-your-teams-leave-calendar"></a>Peržiūrėti komandos atostogų kalendorių
 
@@ -164,9 +184,15 @@ Vartotojo užklausų ir pranešimų turinys saugomas LUIS sistemoje ne ilgiau ne
 
 Jei norite programų administravimo parametrus valdyti platformoje „Microsoft Teams“, eikite į [„Microsoft Teams“ administravimo centrą](https://admin.teams.microsoft.com/).
 
-### <a name="microsoft-azure-event-grid-and-microsoft-teams"></a>„Microsoft Azure” įvykių tinklelis ir „Microsoft Teams”
+### <a name="microsoft-teams-azure-event-grid-and-azure-cosmos-db"></a>„Microsoft Teams”, „Azure” įvykių tinklelis ir „Azure Cosmos DB”
 
-Naudojant pranešimų funkciją, skirtą „Dynamics 365 Human Resources” programai „Teams”, tam tikri kliento duomenys bus naudojami už geografinio regiono, kuriame įdiegta jūsų nuomotojo „Human Resources“ paslauga, ribų. „Dynamics 365 Human Resources” perduoda darbuotojo atostogų užklausą ir darbo eigos užduoties informaciją į „Microsoft Azure Event Grid” ir „Microsoft Teams”. Šie duomenys gali būti saugomi iki 24 val. ir apdorojami Jungtinėse Valstijose, jie yra užšifruojami tranzito bei neaktyvioje būsenose ir „Microsoft” arba jos antriniai procesoriai jų nenaudoja mokymui ar paslaugų tobulinimui.
+Naudojant „Dynamics 365 Human Resources” programą, esančią „Microsoft Teams”, tam tikri kliento duomenys gali būti naudojami už geografinio regiono, kuriame įdiegta Jūsų nuomotojo „Human Resources“ paslauga, ribų.
+
+„Dynamics 365 Human Resources” perduoda darbuotojo atostogų užklausą ir darbo eigos užduoties informaciją į „Microsoft Azure” įvykių tinklelį ir „Microsoft Teams”. Šie duomenys gali būti saugomi iki 24 valandų „Microsoft Azure” įvykių tinklelyje ir apdorojami Jungtinėse Valstijose, užšifruojami transportuojant bei neaktyvioje būsenoje, o „Microsoft” arba jo pagalbiniai duomenų tvarkytojai jų nenaudoja mokymui ar paslaugų tobulinimui. Norėdami suprasti, kur saugomi Jūsų duomenys programoje „Teams”, žr.: [Saugyklos vieta „Microsoft Teams”](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+
+Bendraudami su pokalbių robotu „Human Resources” programėlėje, pokalbio turinys gali būti saugomas „Azure Cosmos DB” ir perduodamas „Microsoft Teams”. Šie duomenys gali būti saugomi „Azure Cosmos DB” iki 24 valandų ir gali būti apdorojami už geografinio regiono, kur įdiegta Jūsų nuomotojo „Human Resources” paslauga, ribų, užšifruojama transportuojant bei neaktyvioje būsenoje, o „Microsoft” arba jo pagalbiniai duomenų tvarkytojai jos nenaudoja mokymui ar paslaugų tobulinimui. Norėdami suprasti, kur saugomi Jūsų duomenys programoje „Teams”, žr.: [Saugyklos vieta „Microsoft Teams”](https://docs.microsoft.com/microsoftteams/location-of-data-in-teams?view=o365-worldwide&preserve-view=true).
+ 
+Norėdami apriboti prieigą prie „Human Resources” programėlės, esančios „Microsoft Teams”, Jūsų organizacijai arba Jūsų organizacijos vartotojams, žr. [Programos teisių strategijų valdymas „Microsoft Teams”](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

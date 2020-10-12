@@ -3,7 +3,7 @@ title: Atsargų parametrų taikymas
 description: Šioje temoje aptariami atsargų parametrai ir aprašoma, kaip juos taikyti programoje „Microsoft Dynamics 365 Commerce“.
 author: anupamar-ms
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 737e71dc73750bf151629fd904081924ac15b91e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.openlocfilehash: d7d25fd62efca52dd2d60ed3435104c3507a1d19
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621226"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817614"
 ---
 # <a name="apply-inventory-settings"></a>Atsargų parametrų taikymas
 
@@ -38,6 +38,9 @@ Atsargų parametrai nurodo, ar atsargos turi būti patikrintos prieš įtraukian
 „Dynamics 365 Commerce“ pateikiamas turimų produktų atsargų kiekis. Norėdami gauti daugiau informacijos apie tai, kaip apskaičiuojamas turimų atsargų pasiekiamumas, žr [Mažmeninės prekybos kanalų atsargų pasiekiamumo apskaičiavimas](calculated-inventory-retail-channels.md).
 
 Svetainės kūrimo priemonėje „Commerce“ galima nustatyti produkto ar kategorijos atsargų ribines vertes ir diapazonus. Jos nustato, ar atsargos gali būti klasifikuojamos kaip „yra atsargų“, „mažai atsargų“ arba „nebėra atsargų“. Jei reikia išsamios informacijos, žr. [Atsargų buferių ir atsargų lygių konfigūravimas](inventory-buffers-levels.md).
+
+> [!NOTE]
+> Atsargų ribų ir diapazonų palaikymas yra prieinamas „Dynamics 365 Commerce“ 10.0.12 leidime.
 
 ## <a name="inventory-settings"></a>Atsargų parametrai
 
@@ -55,6 +58,9 @@ Programoje „Commerce“ atsargų parametrai apibrėžiami **Svetainės paramet
     - Pasirinkus **Nėra atsargų**, bus rodomas tik pranešimas „Nėra atsargų“.
 
 - **Pasibaigusių atsargų slenkstis** – Šis senas skaitinis parametras įsigalios tik tada, jei reikšmė **Pasibaigusių atsargų slenkstis** pasirenkama parametrui **Atsargų lygio pagrindas**.
+
+> [!IMPORTANT] 
+> Šie parametrai galimi „Dynamics 365 Commerce” 10.0.12 leidime. Jei atnaujinate iš senesnės „Dynamics 365 Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Instrukcijų, kaip atnaujinti failą appsettings.json, žr. [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 ## <a name="modules-that-use-inventory-settings"></a>Moduliai, kurie naudoja atsargų parametrus
 
@@ -74,7 +80,7 @@ Toliau pateiktame paveikslėlyje rodomas krepšelis, kuriame pateikiamas praneš
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Darbo pradžios rinkinio apžvalga](starter-kit-overview.md)
+[Modulių bibliotekos apžvalga](starter-kit-overview.md)
 
 [Atsargų buferių ir atsargų lygių konfigūravimas](inventory-buffers-levels.md)
 
@@ -85,3 +91,5 @@ Toliau pateiktame paveikslėlyje rodomas krepšelis, kuriame pateikiamas praneš
 [Sąskaitos valdymo puslapiai ir moduliai](account-management.md)
 
 [Parduotuvės išrinkiklio modulis](store-selector.md)
+
+[SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md)

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db9365f25c1d3e387870dd9d173077d864b3d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 44dc059f7bfc3ba83a375c197ce67f1378a9bc9b
+ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141527"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3899354"
 ---
 # <a name="base-price-and-trade-agreements"></a> Bazinė kaina ir prekybos sutartys
 
@@ -58,7 +58,7 @@ ms.locfileid: "3141527"
 26. Lauke **Pavadinimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 27. Sąraše pasirinkite **Prekyba**. Demonstraciniuose duomenyse žurnalo pavadinimo **Prekyba** numatytasis ryšys yra **Prekė (pardavimas)**. Tai reiškia, kad visos naujos sukurtos eilutės bus taikomos pardavimo kainos prekybos sutartims kaip numatytosios.  
 28. **Veiksmų srityje** spustelėkite **Eilutės**.
-29. Lauke **Kliento kodas** pažymėkite Grupė.
+29. Lauke **Šalies kodo tipas** pasirinkite Grupė.
 30. Lauke **Sąskaitos pasirinkimas** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 31. Sąraše raskite ir pasirinkite norimą įrašą. Tokiu būdu bus baigtas kanalo susiejimas su kainų grupe arba prekybos sutartimi.  
 32. Lauke **Elemento ryšiai** įveskite reikšmę.

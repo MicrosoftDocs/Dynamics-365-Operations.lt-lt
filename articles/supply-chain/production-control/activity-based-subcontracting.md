@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
+ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule, PlanActivityServiceDetails, PlanActivityServiceWizard
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 949fe3cc4f79c383fa357d2c7a0d110d90852a28
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2681c5db757ffb916520222e3062964937b1aef5
+ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203393"
+ms.lasthandoff: 09/21/2020
+ms.locfileid: "3826651"
 ---
 # <a name="activity-based-subcontracting"></a>Veikla pagrįsta subranga
 
@@ -43,7 +43,7 @@ Pvz., subrangovas dirba subrangovo vietoje esančiame prekybos centre. Kai subra
 
 Subrangovą galima naudoti norint subalansuoti bendrą gamybos eigos pajėgumą. Pvz., gamybos eiga modeliuojama naudojant suplanuotas „kanban“ taisykles. Planavimo priemonė naudoja „kanban“ planavimo lentą, kad suplanuotų ir paskirstytų poreikio apkrovą abiejuose darbo elementuose. Planavimo priemonė taip pat stebi prekybos centro konsoliduotą tiekimo grafiką puslapyje **Tiekimo grafikas**. Vienoje arba keliose gamybos eigose galima modeliuoti kelis subrangovus ir galima nustatyti kelias „kanban“ taisykles, kurios būtų naudojamos tam pačiam produktui į tą pačią vietą tiekti per skirtingas veiklas. Planavimo priemonė gali konvertuoti „kanban“ į alternatyvią „kanban“ taisyklę, kad perplanuotų pradžioje sukurtą vidinės gamybos „kanban“ alternatyviame procese. Tiesa sakant, darbo elemento subrangos savybės gamybos eigai įtakos neturi. Tas pats darbo principas taikomas dviem paraleliems vidiniams darbo elementams arba dviem subrangos elementams.   
 
-Kaip ir kiekvieną kitą gamybos eigos veiklą, subrangos veiklas galima vartoti ir tiekti kaip inventorizuotas, neinventorizuotas (nebaigtos gamybos \[NG\] ir pusiau baigtas medžiagas bei produktus. Visais atvejais subrangos veiklų planavimas ir vykdymas atliekami taip pat. Be to, šie procesai atitinka vidinio darbo procesus.
+Kaip ir kiekvieną kitą gamybos eigos veiklą, subrangos veiklas galima vartoti ir tiekti kaip inventorizuotas, neinventorizuotas (nebaigtos gamybos \[NG\]) ir pusiau baigtas medžiagas bei produktus. Visais atvejais subrangos veiklų planavimas ir vykdymas atliekami taip pat. Be to, šie procesai atitinka vidinio darbo procesus.
 
 ## <a name="purchase-process-for-subcontracted-activities-services"></a>Subrangos veiklų pirkimo procesas (paslaugos)
 Subrangos veiklų pirkimo procesas paremtas faktinių medžiagų srautu, kuris užregistruotas „kanban“ taisyklės eigoje, pvz., Pradėti arba Baigti. Pvz., finansų srauto išlaidos už subrangos darbą yra antrinis srautas, kuris seka faktinį srautą. Tuo pat metu pirkimo procesas yra atskiras procesas, suteikiantis galimybę atliekant kiekvieną veiksmą neautomatiškai koreguoti pirkimo dokumentus. Toliau nurodomas subrangos veiklų pirkimo procesas.
@@ -67,7 +67,7 @@ Veikla pagrįstoje subrangoje naudojama mokėjimo prekė turi būti produktas, t
 -   **Produkto tipas:** paslauga
 -   **Atsargų modelių grupė:** nelaikomas
 
-Dėl šio reikalavimo reikia naudoti „pirmasis į, pirmasis iš“ FIFO) atsargų modelį. **Pastaba.** Produktų išlaidų skaičiavimui atlikti reikia nurodyt standartinę paslaugos savikainą. Reikia sudaryti pirkimo sutartį su tiekėju. Kitaip paslaugos negalima naudoti veikla pagrįstoje subrangoje.
+Dėl šio reikalavimo reikia naudoti „pirmasis į, pirmasis iš“ (FIFO) atsargų modelį. **Pastaba.** Produktų išlaidų skaičiavimui atlikti reikia nurodyt standartinę paslaugos savikainą. Reikia sudaryti pirkimo sutartį su tiekėju. Kitaip paslaugos negalima naudoti veikla pagrįstoje subrangoje.
 
 ### <a name="subcontracted-process-activities"></a>Subrangos proceso veiklos
 

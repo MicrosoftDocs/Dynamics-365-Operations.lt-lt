@@ -1,12 +1,12 @@
 ---
 title: Gaukite programų „Finance and Operations“ arba „Lifecycle Services“ (LCS) palaikymą
 description: Šioje temoje pateikiama informacija, kaip gauti pagalbos naudojant programas „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS).
-author: kfend
+author: EricMoos
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: sericks
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ac2cf0c2b78dd3456c5c1a69981a4e498b115ae
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: e839c6e29a76d7f08f23e007c1e7b8c4699c7580
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005521"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817903"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Gaukite programų „Finance and Operations“ arba „Lifecycle Services“ (LCS) palaikymą
 
@@ -30,66 +30,42 @@ ms.locfileid: "3005521"
 
 Šioje temoje pateikiama informacija, kaip gauti pagalbos naudojant programas „Finance and Operations“ arba „Microsoft Dynamics Lifecycle Services“ (LCS). 
 
-## <a name="contact-support"></a>Kreiptis į pagalbos tarnybą
-
-Naudodamiesi straipsnyje pateikta informacija kreipkitės į „Microsoft“, jeigu turite techninių klausimų arba reikia pagalbos pasiekiant „Microsoft Dynamics Lifecycle Services“ (LCS).
-
-### <a name="finance-and-operations-apps-support"></a>Programų „Finance and Operations“ palaikymas
-
-Norėdami gauti palaikymą, naudokite toliau pateiktoje lentelėje nurodytus išteklius. Šie ištekliai išvardyti tvarka, į kurią rekomenduojame atsižvelgti šalinant nesklandumus.
-
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Užduotis</th>
 <th>Daugiau informacijos</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Klauskite bendruomenės.</td>
-<td>Atidarykite <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">bendruomenės puslapį</span></a>, kad gautumėte atsakymų į savo klausimus iš „Dynamics“ bendruomenės.</td>
+<td>Eikite į <a href="https://community.dynamics.com/">„Dynamics 365“ bendruomenės</a> puslapį, jei norite rasti atsakymus į klausimus, susijusius su „Microsoft Dynamics” bendruomene.</td>
 </tr>
-<tr class="even">
-<td>Naudokite problemų ieškos įrankį.</td>
-<td><a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> naudokite problemų iešką, kad greitai rastumėte „Microsoft“ žinių bazės (KB) straipsnius, karštąsias pataisas ir problemų sprendimus. Galite matyti, kurios iš pateiktų konkrečių funkcinių sričių problemų yra sprendžiamos arba jau yra išspręstos. Daugiau informacijos žr. <a href="issue-search-lcs.md"><span style="color: #0066cc;">Problemų ieška („Lifecycle Services“, LCS)</span></a>.</td>
+<tr>
+<td>Pagalba iškilus klausimų apie licencijavimą.</td>
+<td>Susisiekite jūsų partneriu ar „Microsoft“ pardavimo atstovu.</td>
 </tr>
-<tr class="odd">
-<td>Naudokite incidentų atkūrimo debesies aplinkoje įrankį.</td>
-<td><a href="https://lcs.dynamics.com/"><span style="color: #0066cc;">LCS</span></a> plytelė <strong>Palaikymas</strong> yra įrankis, padedantis tvarkyti palaikymo incidentus. Norėdami pateikti klausimus tiesiogiai „Microsoft“, eikite į plytelę <strong>Palaikymas</strong> savo LCS projekte. Iš ten problemas galima pateikti dviem būdais:
+<tr>
+<td>Naudokite <strong>problemų ieškos</strong> įrankį.</td>
+<td><a href="https://lcs.dynamics.com/">LCS</a> naudokite <strong>problemų ieškos</strong> įrankį, kad greitai surastumėte „Microsoft“ žinių bazės (KB) straipsnius, karštąsias pataisas ir praneštų problemų sprendimo būdus. Galite matyti, kurios iš pateiktų konkrečių funkcinių sričių problemų yra sprendžiamos ir, kurios jau yra išspręstos. Daugiau informacijos žr. <a href="issue-search-lcs.md">Problemų ieška („Lifecycle Services“, LCS)</a>.</td>
+</tr>
+<tr>
+<td>Gaukite palaikymą programoje.</td>
+<td>Pasirinkite mygtuką <strong>Žinynas</strong> (<strong>?</strong>) viršutiniame dešiniajame programos kampe, tada pasirinkite <strong>Palaikymas</strong>. Klausimai registruojami LCS skirtuke <strong>Aktyvios problemos</strong>. Ten administratoriai gali nuspręsti, ar jie turėtų teikti vidaus pagalbą, ar problemas pateikti „Microsoft“.</td>
+</tr>
+<tr>
+<td>Sukurkite „Microsoft“ palaikymo komandai pateikiamą aptarnavimo bilietą.</td>
+<td><a href="https://lcs.dynamics.com/">LCS</a> plytelė <strong>Palaikymas</strong> atidaro įrankį, padedantį tvarkyti palaikymo incidentus. Norėdami pateikti klausimus tiesiogiai „Microsoft“, pasirinkite plytelę <strong>Palaikymas</strong> savo LCS projekte. Tada galite pateikti problemas dviem būdais:
 <ul>
-<li>Skirtuke <strong>Aktyvi problema</strong> pasirinkite problemą, tada spustelėkite <strong>Pateikti „Microsoft“</strong>.</li>
-<li>Skirtuke <strong>Pateikta „Microsoft“</strong> spustelėkite <strong>Pateikti naują incidentą</strong>, kad pateiktumėte problemą.</li>
+<li>Skirtuke <strong>Aktyvi problema</strong> pasirinkite problemą, tada pasirinkite <strong>Pateikti „Microsoft“</strong>.</li>
+<li>Skirtuke <strong>Pateikta „Microsoft“</strong> pasirinkite <strong>Pateikti incidentą</strong>, o tada vykdykite ekrane pateikiamus nurodymus ir pateikite incidentą. Pateikę incidentą, gausite el. laišką iš „Microsoft“ palaikymo inžinieriaus, kuriam yra priskirtas jūsų atvejis.</li>
 </ul>
-Pastaba: „Microsoft“ „Premier“ klientai ir partneriai taip pat gali pateikti „Premier“ bilietus naudodami pirmiau nurodytus veiksmus.</td>
+</td>
 </tr>
-<tr class="even">
-<td>Sukurkite aptarnavimo komandai pateikiamą aptarnavimo bilietą.</td>
-<td>Jei kilo problemų bandant pateikti bilietą „Microsoft“ iš plytelės <strong>Palaikymas</strong> LCS, žr. <a href="https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/global_support_contacts_eng"><span style="color: #0066cc;">Kreiptis į „Microsoft Business Solutions“ palaikymo centrą</span></a>, kad gautumėte daugiau informacijos apie pagalbą iš „Microsoft Dynamics“ regioninio operacijų centro. Palaikymo komanda gali padėti išspręsti toliau nurodytų tipų techninius klausimus:
-<ul>
-<li>Klaidos, kurios įvyksta naudojant LCS, arba problemos, kurios kyla bandant pasiekti LCS.</li>
-<li>Klaidos, atsirandančios naudojant programas „Finance and Operations“.</li>
-</ul>
-Dėl techninių klausimų, susijusių su prisijungimu ir prieiga prie „CustomerSource“, el. mokymosi, ieškos, žinių bazės, failų atsisiuntimo ir puslapio arba sistemos klaidų, eikite į <a href="https://mbs2.microsoft.com/members/VoiceSupport/VoiceSupportInternal.aspx"><span style="color: #0066cc;">Svetainės palaikymas</span></a>.</td>
-</tr>
-<tr class="odd">
-<td>Gaukite atsakymus į klausimus, susijusius su programų „Finance and Operations“ licencijavimu.</td>
-<td>Susisiekite su partneriu, stambių paskyrų pardavėju (LAR) ar „Microsoft“ pardavimo atstovu.</td>
-</tr>
-<tr class="even">
-<td>Naudokite LCS atvejų stebėjimo skelbimų lentą.</td>
-<td>Norėdami peržiūrėti dabartinę platformos ir tarnybų būseną, eikite į savo LCS projekto skyrių <strong>Aplinkos</strong>.</td>
+<tr>
+<td>Prašymas naudotis naujomis savybėmis ir funkcijomis.</td>
+<td>Apsilankykite <a href="https://experience.dynamics.com/ideas/">„Dynamics 365“ programų idėjos</a>, kad peržiūrėtumėte, rastumėte arba balsuotumėte už esamas idėjas arba pridėtumėte naujų idėjų.</td>
 </tr>
 </tbody>
 </table>
-
-
-## <a name="additional-resources"></a>Papildomi ištekliai
-- [„Dynamics 365 Retail“ palaikymo gavimas](../../../retail/retail-support.md)
-- [Palaikymo dėl „Microsoft Dynamics 365 Human Resources“ gavimas](../../../human-resources/hr-admin-troubleshooting-support.md)
-- Norėdami gauti daugiau informacijos apie „Microsoft Dynamics“ palaikymą, žr. [Tvarkyti palaikymo patirtis programoms „Finance and Operations“](cloud-powered-support-lcs.md).
-

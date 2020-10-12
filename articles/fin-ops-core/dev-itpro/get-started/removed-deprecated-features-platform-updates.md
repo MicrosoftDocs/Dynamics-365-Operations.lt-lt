@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b2d54cfaddc1697eda543952831e745182df2753
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
+ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803144"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3819894"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -35,6 +35,22 @@ ms.locfileid: "3803144"
 
 Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
 
+## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.14 versijos platformos naujinimai
+
+> [!NOTE]
+> Versija 10.0.14 yra peržiūros leidimas. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [Paslaugų naujinimų pasiekiamumas](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
+
+
+### <a name="online-users-page"></a>Prisijungusių vartotojų puslapis 
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Tai yra ankstesnio kliento/serverio architektūroje sukurtas senstelėjęs puslapis. Šiame puslapyje pateikta informacija ne visada tiksli ir dėl to gali būti paini ir klaidinanti. |
+| **Pakeitė kita funkcija?**   | Sekančiame atnaujinime pateiksime naują puslapį.|
+| **Paveiktos produkto sritys**         | Sistemos administravimas |
+| **Visuotinio diegimo parinktis**              | Visos |
+| **Būsena**                         | Iki 2021 m. spalio ši forma bus pašalinta.   |
+
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.13 versijos platformos naujinimai
 
 
@@ -42,7 +58,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 |   |  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
+| **Nebenaudojimo/pašalinimo priežastis** | Bendrai, tinkintas kodas siūlo apribotas naudas ir tuo pat metu reikalauja reikšmingų šaltinių papildymų ir paramos skyrimo. Tinkintas kodas daugiausiai naudojamas ataskaitų autorių siekiant iškviesti viešus metodus iš tinkinto kodo surinkimo. Nepaisant to, debesyje patalpintos paslaugos nepalaiko sąsajų su tinkintais susirinkimais SSRS ataskaitoms. |
 | **Pakeitė kita funkcija?**   | Ataskaitų autoriai gali pasirinkti, ar tęsti susiejimą su viešomis .NET API matematikos, pavertimo ir formato veiksmams iš bet kurios teksto laukelio išraiškos. Dėl išsamesnės informacijos, žr. [Įtraukti kodą į ataskaitą (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Paveiktos produkto sritys**         | Programos ataskaitos projektavimo papildomas rinkinys turi tinkintą kodą. |
 | **Visuotinio diegimo parinktis**              | Visos |

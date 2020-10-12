@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5a57b96387ca5746a30b2e438d6b5f0ce3040f54
-ms.sourcegitcommit: 728cd7f723ee821337eee315a27977e99a44d9d3
+ms.openlocfilehash: 65874e5ca73c18c3df7b94b8abb6eb15491482bf
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "3258562"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893140"
 ---
 # <a name="business-document-management-overview"></a>Verslo dokumentų valdymo apžvalga
 
@@ -31,7 +31,7 @@ ms.locfileid: "3258562"
 
 Verslo vartotojai naudoja [elektroninių ataskaitų (ER)](general-electronic-reporting.md) sistemą, kad konfigūruotų siunčiamų dokumentų formatus pagal įvairių šalių / regionų teisinius reikalavimus. Vartotojai taip pat gali apibrėžti duomenų srautą, kad nurodytų kokie programos duomenys išdėstyti sugeneruotuose dokumentuose. ER sistema generuoja išsiunčiamus dokumentus „Microsoft Office“ formatais („Excel“ darbaknygėmis arba „Word“ dokumentais) naudojant iš anksto nustatytus šablonus. Šablonai yra užpildomi reikiama informacija pagal sukonfigūruotą duomenų srautą, kol reikalingi dokumentai yra generuojami. Kiekvienas sukonfigūruotas formatas gali būti publikuojamas kaip ER sprendimo dalis tam tikriems išsiunčiamiems dokumentams generuoti. Tai parodo ER formato konfigūracija, kurioje yra šablonų, kuriuos galite naudoti skirtingiems išsiunčiamiems dokumentams generuoti. Verslo vartotojai gali naudoti šią sistemą reikalingiems verslo dokumentams valdyti.
 
-**Verslo dokumentų valdymas** sukurtas papildant ER sistemą ir leidžia verslo vartotojams redaguoti verslo dokumentų šablonus naudojant „Microsoft Office 365“ paslaugą arba atitinkamą „Microsoft Office“ darbalaukio programą. Dokumentų redagavimai gali apimti verslo dokumento dizaino keitimą ir vietos rezervavimo ženklų pridėjimą prie papildomų duomenų be šaltinio kodo keitimo ir naujų diegimų. Verslo dokumentų šablonų naujinimui nereikalingas joks ER sistemos išmanymas.
+**Verslo dokumentų valdymas** sukurtas papildant ER sistemą ir leidžia verslo vartotojams redaguoti verslo dokumentų šablonus naudojant „Microsoft 365“ paslaugą arba atitinkamą „Microsoft Office“ darbalaukio programą. Dokumentų redagavimai gali apimti verslo dokumento dizaino keitimą ir vietos rezervavimo ženklų pridėjimą prie papildomų duomenų be šaltinio kodo keitimo ir naujų diegimų. Verslo dokumentų šablonų naujinimui nereikalingas joks ER sistemos išmanymas.
 
 > [!NOTE]
 > Atminkite, kad verslo dokumentų valdymas leidžia jums modifikuoti šablonus, kurie naudojami verslo dokumentų, pvz., užsakymų, sąskaitų-faktūrų ir kt., kūrimui. Nors šablonas buvo modifikuotas ir buvo išleista nauja versija, ši versija naudojama reikalingiems verslo dokumentams generuoti. Verslo dokumentų valdymas negali būti naudojamas jau sugeneruotų verslo dokumentų modifikavimui.
@@ -170,7 +170,7 @@ Atlikite toliau nurodytą procedūrą, kad nustatytumėte pagrindinius parametru
 Pasirinktas dokumento tipas yra būdingas įmonei ir bus naudojamas, kai vartotojas dirba su verslo dokumentų valdymu įmonėje, kuriai sukonfigūruotas pasirinktas dokumento tipas. Kai vartotojas dirba su verslo dokumentų valdymu kitoje įmonėje, tas pats pasirinktas dokumento tipas bus naudojamas jei jis nebuvo sukonfigūruotas šiai įmonei. Kai dokumento tipas sukonfigūruotas, jis bus naudojamas vietoje to, kuris pasirinktas lauke **„SharePoint“ dokumento tipas**.
 
 > [!NOTE]
-> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šis parametras gali būti tuščias, jei planuojate modifikuoti šabloną naudodami tik „Office 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Office 365“](#EditInOffice365).
+> Parametre **„SharePoint“ dokumento tipas** „SharePoint“ aplankas apibrėžiamas kaip laikina šablonų, kuriuos galima redaguoti naudojant „Microsoft Excel“ arba „Word“, saugykla. Turite nustatyti šį parametrą, jei planuojate naudoti šias „Office“ darbalaukio programas šablonams redaguoti. Norėdami gauti daugiau informacijos, žr. [Šablono redagavimas „Office“ darbalaukio programoje](#EditInOfficeDesktopApp). Šis parametras gali būti tuščias, jei planuojate modifikuoti šabloną naudodami tik „Microsoft 365“ funkcijas. Daugiau informacijos žr. [Šablono redagavimas naudojant „Microsoft 365“](#EditInOffice365).
 
 ## <a name="configure-access-permissions"></a>Prieigos teisių konfigūravimas
 
@@ -295,13 +295,13 @@ Parinktis **Naujas dokumentas** visada pasiekiama ER formato konfigūracijos ša
 
 5. Pasirinkite **Gerai**, kad patvirtintumėte redagavimo proceso pradžią.
 
-Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus galima redaguoti internetu naudojant „Office 365“.
+Bus atidarytas puslapis **BDM šablono redaktorius**. Pasirinktą šabloną bus galima redaguoti internetu naudojant „Microsoft 365“.
 
 ![Verslo dokumentų valdymo darbo srities puslapis](./media/BDM-Overview-EditingLayout1.png)
 
-### <a name=""></a><a name="EditInOffice365">Šablono redagavimas naudojant „Office 365“</a>
+### <a name=""></a><a name="EditInOffice365">Šablono redagavimas naudojant „Microsoft 365“</a>
 
-Šabloną galima modifikuoti naudojant „Office 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai išsaugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
+Šabloną galima modifikuoti naudojant „Microsoft 365“. Pavyzdžiui, programoje „Office Online“ pakeiskite lauko raginimų šablono antraštėje šriftą iš **Paprastasis** į **Paryškintasis**. Šie pakeitimai automatiškai išsaugomi redaguojamame šablone, kuris saugomas pirminėje šablono saugykloje (pagal numatytuosius nustatymus – „Azure“ didelių dvejetainių objektų saugykloje). Ji konfigūruojama ER sistemai.
 
 ![Verslo dokumentų valdymo šablonų redaktoriaus puslapis](./media/BDM-Overview-EditingLayout2.png)
 
@@ -398,10 +398,10 @@ Kai redaguojate šabloną iš ER formato, priklausančio dabartiniam aktyviam ti
 
 ## <a name="frequently-asked-questions"></a>Dažnai užduodami klausimai
 
-#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-office-365-web-page"></a>Pasirinkau **Redaguoti dokumentą**, tačiau vietoj puslapio **BDM šablonų rengyklė**, atsidarančio programoje „Finance and Operations“, atsidarė „Office 365“ tinklalapis.
-Tai žinoma problema su „Office 365“ peradresavimu. Tai atsitinka, kai pirmą kartą prisijungiate prie „Office 365“. Norėdami išspręsti šią problemą, pasirinkite naršyklės mygtuką **Atgal**, kad grįžtumėte atgal.
+#### <a name="i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page"></a>Pasirinkau **Redaguoti dokumentą**, tačiau vietoj puslapio **BDM šablonų rengyklė**, atsidarančio programoje „Finance and Operations“, atsidarė „Microsoft 365“ tinklalapis.
+Tai žinoma problema su „Microsoft 365“ peradresavimu. Tai atsitinka, kai pirmą kartą prisijungiate prie „Microsoft 365“. Norėdami išspręsti šią problemą, pasirinkite naršyklės mygtuką **Atgal**, kad grįžtumėte atgal.
 
-#### <a name="i-understand-how-to-edit-a-template-by-using-office-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Office 365“ pirmame programos seanse ir kaip naudoti šabloną antrame programos seanse koreguojant šabloną, kad pamatyčiau, kaip pakeitimai paveikia sugeneruotą verslo dokumentą. Ar galiu tai atlikti naudojant „Office“ darbalaukio programą?
+#### <a name="i-understand-how-to-edit-a-template-by-using-microsoft-365-in-the-first-application-session-and-how-to-use-the-template-in-the-second-application-session-adjusting-the-template-to-see-how-my-changes-affect-the-generated-business-document-can-i-do-this-using-the-office-desktop-application"></a>Aš suprantu, kaip redaguoti šabloną naudojant „Microsoft 365“ pirmame programos seanse ir kaip naudoti šabloną antrame programos seanse koreguojant šabloną, kad pamatyčiau, kaip pakeitimai paveikia sugeneruotą verslo dokumentą. Ar galiu tai atlikti naudojant „Office“ darbalaukio programą?
 Taip, galite. Pirmame programos seanse pasirinkite **Atidaryti darbalaukio programoje**. Jūsų šablonas bus išsaugotas laikinoje failų saugykloje ir atidarytas „Office“ darbalaukio programoje. Tada atlikite toliau nurodytus veiksmus, kad peržiūrėtumėte jūsų šablono pakeitimus sugeneruotame verslo dokumente:
 
 1. Atlikite šablono pakeitimus naudojant „Office“ darbalaukio programą.

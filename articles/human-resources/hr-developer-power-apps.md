@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5bc0776174960af6cb8a62f00e3fd7d56b1676
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: b28480ff584870e931fdc288a2652a5649268576
+ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793616"
+ms.lasthandoff: 09/25/2020
+ms.locfileid: "3893082"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Išplėtimas su „Power Apps“ ir „Power Automate“
 
@@ -37,13 +37,13 @@ ms.locfileid: "3793616"
 - Norėdami importuoti paketus, vartotojai privalo turėti teisę **Aplinkos kūrėjas**.
 - Norėdami eksportuoti arba importuoti programas, vartotojai privalo turėti „Power Apps“ 2 plano licenciją arba bandomąją „Power Apps“ 2 plano licenciją.
 
-## <a name="integration-with-office-365-power-automate"></a>Integravimas su „Office 365“, „Power Automate“
+## <a name="integration-with-microsoft-365-power-automate"></a>Integravimas su „Microsoft 365“, „Power Automate”
 
-Naudojantis programa **Integravimas su „Office 365“**, iš „Microsoft Office 365“ galima gauti prisijungusių vartotojų komandos informaciją. Nurodomi „Human Resources“ darbuotojai, kurių darbuotojų identifikacijos tipai bus gaunami. Vadybininkai gali patikrinti darbuotojų ID tipų galiojimo pabaigos datas. Jie taip pat gali nusiųsti priminimą el. paštu, jei darbuotojo ID tipo galiojimas greitai pasibaigs. „Power Automate“ integruojama su „Power Apps“, kad būtų galima išsiųsti šį priminimą. Nusiuntus priminimą, patvirtinimas bus atsiųstas atgal į „Power Apps“ iš „Power Automate“. Identifikavimo tipai yra vairuotojo pažymėjimas, pasas ir kitos priimtinos tapatybės nustatymo formos.
+Naudojantis programa **Integravimas su „Microsoft 365”** galima gauti komandos informacija prisijungusiems „Microsoft 365” vartotojams. Nurodomi „Human Resources“ darbuotojai, kurių darbuotojų identifikacijos tipai bus gaunami. Vadybininkai gali patikrinti darbuotojų ID tipų galiojimo pabaigos datas. Jie taip pat gali nusiųsti priminimą el. paštu, jei darbuotojo ID tipo galiojimas greitai pasibaigs. „Power Automate“ integruojama su „Power Apps“, kad būtų galima išsiųsti šį priminimą. Nusiuntus priminimą, patvirtinimas bus atsiųstas atgal į „Power Apps“ iš „Power Automate“. Identifikavimo tipai yra vairuotojo pažymėjimas, pasas ir kitos priimtinos tapatybės nustatymo formos.
 
 Galite naudoti šią programą ir kituose scenarijuose. Pavyzdžiui, galite ją naudoti, kad būtų rodoma komandos atostogų informaciją, kalendoriaus įvykiai ir visi konkrečios komandos įvykiai.
 
-Norėdami atsisiųsti **integravimo su „Office 365“ programą „Power Automate“**, „Microsoft“ atsisiuntimo centre eikite į skyrių [Integravimas su „Office 365“](https://go.microsoft.com/fwlink/?linkid=2081787).
+Norėdami atsisiųsti **Integravimo su Microsoft 365, „Power Automate”** programą, eikite į skyrių [Integravimas su „Microsoft 365”](https://go.microsoft.com/fwlink/?linkid=2081787) „Microsoft“ atsisiuntimo centre.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>„Power Automate – SQL prisijungimas ir vykdymas“
 

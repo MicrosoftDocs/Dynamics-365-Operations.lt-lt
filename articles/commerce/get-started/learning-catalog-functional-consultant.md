@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8e029c128140b5773f6ceef882d3f6cd0c0dd750
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: 504433fba95893bc0af651d74f43dd112238e8c1
+ms.sourcegitcommit: ea335b4536342e496e8b61847b1ae6da3924f94c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793302"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "3821185"
 ---
 # <a name="learning-catalog-for-dynamics-365-commerce-functional-consultants"></a>Mokymosi katalogas „Dynamics 365 Commerce“ funkcijų konsultantams
 
@@ -31,10 +31,12 @@ Kalbant apie funkcijų konsultantus, mūsų užduočių analizės tyrimai parod�
 
 Dėl mokymosi apie funkcijas bendrintas su kitomis „Finance and Operations“ programomis, žr. „[Dynamics 365 Finance“ mokymosi katalogą](../../finance/get-started/learning-catalog-functional-consultant.md).
 
-## <a name="get-started"></a>Pradėta<a name="get-started"></a>
+## <a name="get-started"></a>Pradžia<a name="get-started"></a>
 
 | Turinys| aprašymas  | Formatuoti  | Ilgis  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|
+| [Sužinokite apie „Microsoft Dynamics 365“ ir „Power Platform“ naudą verslui](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Šis mokymosi patirtis bus tarsi kelionė, kuri prasidės parodant, kaip skaitmeninė transformacija ir verslo programų galia gali pakeisti jūsų verslą. Mes apžvelgsime, kaip „Dynamics 365“ ir „Power Platform“ padeda priimti pagrįstus sprendimus, paremtus jūsų organizacijos poreikiais ir tikslais, pasitelkiant keturis skaitmeninės transformacijos blokus – modernų, vieningą, išmanų ir prisitaikantį. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 6.5 valandos |
+| [Darbo su „Dynamics 365 Commerce“ pradžia](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/) | „Dynamics 365 Commerce“, paremtas patikrintomis „Dynamics 365 Retail“ galimybėmis, pristato išsamų daugiakanalį sprendimą, vienijantį operacijų skyrių, parduotuvę, skambučių centrą ir skaitmeninę patirtį. Programoje „Dynamics 365 Commerce“ galite formuoti lojalumą prekės ženklui, naudojant suasmenintus kliento įtraukimo būdus, didinti įplaukas, siekiant pagerinti darbuotojų produktyvumą, optimizuoti operacijas, siekiant sumažinti išlaidas ir valdyti tiekimo grandinės efektyvumą, galiausiai užtikrinti geresnius verslo rezultatus. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 2 valandos |
 | [Darbo su „Dynamics 365 Fraud Protection“ pradžia](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| „Dynamics 365 Fraud Protection“ yra debesimi pagrįstas sprendimas sukurtas el. prekybai, plytų ir skiedinio parduotuvėms ir vieno kanalo prekeiviams siekiant padėti apsaugoti jų pajamas ir reputaciją suteikiant įrankius ir galimybes mažinti apgaulę ir piktnaudžiavimą, sumažinti operacines išlaidas ir padidinti priimamus mokesčius, taip apsaugant naudotojų paskyras nuo apgaulės poveikio. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 35 minučių |
 
 ## <a name="commerce"></a>„Commerce“<a name="commerce"></a>

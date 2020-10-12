@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 275d24d8f32fd1d2d15356d14c5c6591e8503c65
-ms.sourcegitcommit: ec4df354602c20f48f8581bfe5be0c04c66d2927
+ms.openlocfilehash: b4f69e7933bc5a50cccad6911c99cf08d2768578
+ms.sourcegitcommit: b3df62842e62234e8eaa16992375582518976131
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "3706257"
+ms.lasthandoff: 09/17/2020
+ms.locfileid: "3818601"
 ---
 # <a name="supported-scenarios-for-dual-write-setup"></a>Palaikomi dvigubo rašymo nustatymo scenarijai
 
@@ -42,7 +42,7 @@ Galite nustatyti dvigubo rašymo ryšį tarp „Finance and Operations“ aplink
 
 Nustatymo mechanizmas skiriasi, atsižvelgiant į jūsų prenumeratą ir aplinką.
 
-+ Naudojant naujus „Finance and Operations“ programų egzempliorius, dvigubo rašymo ryšio nustatymas pradedamas „Microsoft Dynamics“ aplinkoje „Lifecycle Services“ (LCS). Jei turite licenciją, skirtą „Microsoft Power Platform“, gausite naują „Common Data Service“ aplinką, jei jūsų nuomotojas neturi aplinkos.
++ Naudojant naujus „Finance and Operations“ programų egzempliorius, dvigubo rašymo ryšio nustatymas pradedamas „Microsoft Dynamics“ aplinkoje „Lifecycle Services“ (LCS). Jei turite licenciją, skirtą „Power Platform“, gausite naują „Common Data Service“ aplinką, jei jūsų nuomotojas neturi aplinkos.
 + Esamose egzempliorių „Finance and Operations“ programose dvigubo rašymo ryšio nustatymas pradedamas „Finance and Operations“ aplinkoje.
 
 Palaikomi toliau nurodyti nustatymo scenarijai:

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c46c4c060d61503779726c68d32449c87b441f1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
+ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207907"
+ms.lasthandoff: 09/22/2020
+ms.locfileid: "3830754"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkimo strategijų apžvalga
 
@@ -102,9 +102,9 @@ Pirkimo paraiškos taisyklės nurodo kriterijus, pagal kuriuos reikalaujama pirk
 
 ### <a name="purchase-requisition-control-rule"></a>Pirkimo paraiškos kontrolės taisyklė
 
-Pirkimo paraiškos kontrolės taisyklė yra pasirinktinė taisyklė. Kuriant šio tipo taisykles, parinktis galima nustatyti įvairiuose toliau nurodytuose skirtukuose.
+Pirkimo paraiškos kontrolės taisyklė, kuri taikoma **suvartojimo** tipo paraiškoms yra pasirenkama taisyklė. Kuriant šio tipo taisykles, parinktis galima nustatyti įvairiuose toliau nurodytuose skirtukuose.
 
--   Skirtuke **Darbo eigos pateikimas** galite konfigūruoti laukus, kurie turi būti įvesti paraiškos eilutėje, kad paraiška būtų pateikta patvirtinti, kai paraiškos paskirtis yra **Suvartojimas**.
+-   Skirtuke **Darbo eigos pateikimas** galite konfigūruoti laukus, kurie turi būti įvesti paraiškos eilutėje, kad paraiška būtų pateikta patvirtinti.
 -   Skirtuke **Užsakymo kiekiai** galite konfigūruoti laukus, kurie pirkimo paraiškoje reikalingi esant tam tikroms sąlygoms. Taip pat galite nustatyti užsakymo kiekius.
 -   Skirtuke **Datos** galite konfigūruoti, ar apskaitos data turi būti ta pati, kaip pareikalauta data
 -   Skirtuke **Adresas** galite nurodyti, ar vartotojas sistemoje gali kurti naujų adresų ir taikyti juos pirkimo paraiškai.

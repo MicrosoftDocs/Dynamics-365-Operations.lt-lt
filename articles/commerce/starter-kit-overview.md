@@ -1,9 +1,9 @@
 ---
-title: Darbo pradžios rinkinio apžvalga
-description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ darbo pradžios rinkinio apžvalga.
+title: Modulių bibliotekos apžvalga
+description: Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ modulių bibliotekos apžvalga.
 author: anupamar-ms
 manager: annbe
-ms.date: 01/23/2020
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,29 +18,28 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1960e1354744fe1034783177ba331f5877d0bee7
-ms.sourcegitcommit: 829329220475ed8cff5a5db92a59dd90c22b04fa
+ms.openlocfilehash: dfc52dd8e14bb2e9f2f9c026ee0e058aee4cedcb
+ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3025907"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "3817831"
 ---
-# <a name="starter-kit-overview"></a>Darbo pradžios rinkinio apžvalga
-
+# <a name="module-library-overview"></a>Modulių bibliotekos apžvalga
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ darbo pradžios rinkinio apžvalga.
+Šioje temoje pateikiama „Microsoft Dynamics 365 Commerce“ modulių bibliotekos apžvalga.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Apžvalga
 
-„Dynamics 365 Commerce“ darbo pradžios rinkinys – tai modulių, kuriuos galima naudoti el. prekybos svetainei kurti, rinkinys. Moduliuose yra ir vartotojo sąsajos (UI) aspektų, ir funkcinio veikimo aspektų.
+„Dynamics 365 Commerce“ modulių biblioteka – tai modulių, kuriuos galima naudoti el. prekybos svetainės kūrimui, rinkinys. Moduliuose yra ir vartotojo sąsajos (UI) aspektų, ir funkcinio veikimo aspektų.
 
-Darbo pradžios rinkinio moduliams galima taikyti temas, kad būtų pakeistas šių modulių vaizdas. Temose naudojami pakopinio stiliaus aprašai (CSS). Kartu su darbo pradžios rinkiniu pateikiama išgalvotai el. prekybos svetainei „Fabrikam“ skirta tema, kurią galima naudoti kaip nuorodą.
+Modulių bibliotekos moduliams galima taikyti temas, kad būtų pakeistas šių modulių vaizdas. Temose naudojami pakopinio stiliaus aprašai (CSS). Kartu su modulių biblioteka pateikiama išgalvotai el. prekybos svetainei „Fabrikam“ skirta tema, kurią galima naudoti kaip nuorodą.
 
-## <a name="starter-kit-modules"></a>Darbo pradžios rinkinio moduliai
+## <a name="module-library-modules"></a>Modulių bibliotekos moduliai
 
-Darbo pradžios rinkinyje pateikiami toliau nurodytų tipų moduliai.
+Modulių bibliotekoje pateikiami toliau nurodytų tipų moduliai.
 
 - **Konteinerio modulis** – konteinerio modulis yra paprastas modulis, kuris kitų modulių atžvilgiu veikia kaip pagrindinis modulis. Šis modulis valdo jame esančių modulių maketą.
 - **Rinkodaros moduliai** – rinkodaros moduliai apima pagrindinės turinio bloko, teksto bloko, vaizdo įrašų leistuvo ir karuselės modulius. Visus šiuos modulius galima naudoti turiniui parodyti. Šie moduliai grindžiami turinio valdymo sistemos (CMS) duomenimis ir jų galima įdėti bet kuriame puslapyje.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage, GanttColorTable, GanttReqExplosionColor, GanttReqExplosionSetup, GanttTable, GanttTimescaleSetup, GanttWrkCtr, GanttWrkCtrColor, GanttWrkCtrJobInfo, GanttWrkCtrLoadResources, GanttWrkCtrMoveJob, GanttWrkCtrSetup, GanttWrkCtrView
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430a012fbc198b90df0c0bf4084705037c95f7be
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: e194f379d118ee174095229d38ba5b0a679f49ac
+ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3210162"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "3887245"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Ganto diagramos naudojimas užduotims planuoti
 
@@ -38,7 +38,7 @@ Ganto diagramoje yra pavaizduota apibrėžto laiko intervalo suplanuota veikla. 
 -   Užduotys iš suplanuotų gamybos užsakymų.
 -   Suplanuota projekto užduočių veikla, kurios tipas Valandų prognozės.
 
-Ganto diagramą galima atidaryti dviem skirtingais būdais, naudojant rodinius **Užsakymo rodinys** ir **Išteklių rodinys**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). Rodinyje **Užsakymo rodinys** veikla grupuojama pagal gamybos užsakymus Tai gali būti naudinga, pvz., jei norite tvarkyti visų užduočių, priklausančių tiems patiems užsakymams, apžvalgą. **Išteklių rodinyje** visos užduotys yra grupuojamos pagal atskirus išteklius. Šis rodinys gali būti naudingas optimizuojant planą išteklių lygiu, pvz., įrenginio arba įrenginių grupės. Tolesniuose paveikslėliuose pateiktos Ganto diagramos rodo **Užsakymo rodinį** ir **Išteklių rodinį** su šiais pagrindiniais elementais:
+Ganto diagramą galima atidaryti dviem skirtingais būdais, **Užsakymo rodinys** ir **Išteklių rodinys**. Rodinyje **Užsakymo rodinys** veikla grupuojama pagal gamybos užsakymus Tai gali būti naudinga, pvz., jei norite tvarkyti visų užduočių, priklausančių tiems patiems užsakymams, apžvalgą. **Išteklių rodinyje** visos užduotys yra grupuojamos pagal atskirus išteklius. Šis rodinys gali būti naudingas optimizuojant planą išteklių lygiu, pvz., įrenginio arba įrenginių grupės. Tolesniuose paveikslėliuose pateiktos Ganto diagramos rodo **Užsakymo rodinį** ir **Išteklių rodinį** su šiais pagrindiniais elementais:
 
 1.  Ganto diagramos veikla
 2.  Medžiagų trūkumo piktograma
