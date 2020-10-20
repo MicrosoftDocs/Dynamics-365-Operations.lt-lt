@@ -3,7 +3,7 @@ title: Mažmeninės prekybos operacijų vientisumo tikrintuvas
 description: Šioje temoje aprašomos operacijų vientisumo tikrintuvo funkcijos „Dynamics 365 Commerce“.
 author: josaw1
 manager: AnnBe
-ms.date: 10/14/2019
+ms.date: 10/07/2020
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: eb5c7389ba29d50232f9321e40bccceecd5f5fc6
-ms.sourcegitcommit: 02640a0f63daa9e509146641824ed623c4d69c7f
+ms.openlocfilehash: 3c7ca41b9e8a4c3127c98c756348959530a87996
+ms.sourcegitcommit: 1631296acce118c51c182c989e384e4863b03f10
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "3265623"
+ms.lasthandoff: 10/07/2020
+ms.locfileid: "3968777"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Mažmeninės prekybos operacijų vientisumo tikrintuvas
 
@@ -47,12 +47,12 @@ Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina prekybos operaci
 
 - **Kliento kodas** – tikrinama, ar kliento kodas, nurodytas operacijų lentelėse, yra HQ kliento bendruosiuose duomenyse.
 - **Eilučių skaičius** – tikrinama, ar eilučių skaičius, nurodytas operacijos antraštės lentelėje, sutampa su pardavimo operacijų lentelių eilučių skaičiumi.
-- **Į kainą įtrauktas mokestis** – tikrinama, ar parametras **Į kainą įtrauktas mokestis** yra nuoseklus visose operacijos eilutėse.
-- **Mokėjimo suma** – tikrinama, ar mokėjimo įrašai atitinka antraštėje nurodytą mokėjimo sumą.
-- **Bendra suma** – tikrinama, ar antraštėje nurodyta bendra suma yra eilutėse nurodytų grynųjų sumų ir mokesčio sumos suma.
-- **Grynoji suma** – tikrinama, ar antraštėje nurodyta grynoji suma yra eilutėse nurodytų grynųjų sumų suma.
-- **Nepriemoka / permoka** – tikrinama, ar antraštėje nurodytos bendros sumos ir mokėjimo sumos skirtumas neviršija didžiausios nepriemokos / permokos konfigūracijos.
-- **Nuolaidos suma** – tikrinama, ar nuolaidos suma nuolaidos lentelėse ir nuolaidos suma operacijų eilučių lentelėse yra nuoseklios, ir ar antraštėje nurodyta nuolaidos suma yra eilutėse nurodytų nuolaidos sumų suma.
+- **Į kainą įtrauktas mokestis** – tikrinama, ar parametras **Į kainą įtrauktas mokestis** yra nuoseklus visose operacijos eilutėse ir pardavimo eilutėje nurodyta kaina atitinka į kainą įtraukto mokesčio ir neapmokestinimo konfigūraciją.
+- **Mokėjimo suma** – tikrinama, ar mokėjimo įrašai atitinka antraštėje nurodytą mokėjimo sumą, ir taip pat konfigūracijoje skaidoma daugikliais, kad didžiojoje knygoje būtų apvalinama centais.
+- **Bendra suma** – tikrinama, ar antraštėje nurodyta bendra suma yra eilutėse nurodytų grynųjų sumų ir mokesčio sumos suma, ir taip pat konfigūracijoje skaidoma daugikliais, kad didžiojoje knygoje būtų apvalinama centais.
+- **Grynoji suma** – tikrinama, ar antraštėje nurodyta grynoji suma yra eilutėse nurodytų grynųjų sumų suma, ir taip pat konfigūracijoje skaidoma daugikliais, kad didžiojoje knygoje būtų apvalinama centais.
+- **Nepriemoka / permoka** – tikrinama, ar antraštėje nurodytos bendros sumos ir mokėjimo sumos skirtumas neviršija didžiausios nepriemokos / permokos konfigūracijos, ir taip pat konfigūracijoje skaidoma daugikliais, kad didžiojoje knygoje būtų apvalinama centais.
+- **Nuolaidos suma** – tikrinama, ar nuolaidos suma nuolaidos lentelėse ir nuolaidos suma operacijų eilučių lentelėse yra nuoseklios, bei ar antraštėje nurodyta nuolaidos suma yra eilutėse nurodytų nuolaidos sumų suma, ir taip pat konfigūracijoje skaidoma daugikliais, kad didžiojoje knygoje būtų apvalinama centais.
 - **Eilutės nuolaida** – tikrinama, ar operacijos eilutėje nurodyta eilutės nuolaida yra visų nuolaidų lentelėje, atitinkančioje operacijos eilutę, esančių eilučių suma.
 - **Dovanų kortelės prekė** – prekyba dovanų kortelių prekių grąžinimo nepalaiko. Tačiau dovanų kortelės likutį galima išgryninti. Bet kokiai dovanų kortelės prekei, kuri yra apdorojama ne kaip išgryninimo eilutė, o kaip grąžinimo eilutė, išrašo registravimo proceso vykdyti nepavyksta. Dovanų kortelių prekių tikrinimo procesas padeda užtikrinti, kad operacijų lentelėse būtų tik tos grąžinamos dovanų kortelių eilučių prekės, kurios yra dovanų kortelių išgryninimo eilutės.
 - **Neigiama kaina** – tikrinama, ar nėra neigiamos kainos operacijų eilučių.
@@ -61,10 +61,11 @@ Paketinis vykdymas **Tikrinti parduotuvės operacijas** tikrina prekybos operaci
 - **Serijos numeris** – tikrina, ar serijos numerio kontroliuojamų prekių operacijų eilutėse yra serijos numeris.
 - **Ženklas** – tikrina, ar kiekio ir grynosios sumos ženklas yra toks pat visose operacijų eilutėse.
 - **Verslo data** – tikrinama, ar visų operacijų verslo datų finansiniai laikotarpiai yra atidaryti.
+- **Mokesčiai** – tikrinama, ar antraštės ir eilutės mokesčių suma atitinka kainą, įskaitant mokesčio ir neapmokestinimo konfigūraciją.
 
 ## <a name="set-up-the-consistency-checker"></a>Vientisumo tikrintuvo nustatymas
 
-Sukonfigūruokite, kad paketinis vykdymas Tikrinti parduotuvės operacijas būtų paleidžiamas periodiškai, įėję į **Mažmeninė prekyba ir prekyba \> Mažmeninės prekybos ir prekybos IT \> EKA registravimas**. Paketinė užduotis gali būtu suplanuota pagal parduotuvės organizacijos hierarchiją, panašiai kaip nustatyti procesai Skaičiuoti išrašus pakete ir Registruoti išrašus pakete. Rekomenduojame sukonfigūruoti šį paketinį vykdymą, kad jis būtų paleistas keletą kartų per dieną, ir suplanuoti taip, kad jis būtų vykdomas kiekvienos P užduoties pabaigoje.
+Sukonfigūruokite, kad paketinis vykdymas Tikrinti parduotuvės operacijas būtų paleidžiamas periodiškai, įėję į **„Retail“ ir „Commerce“ \> „Retail“ ir „Commerce“ IT \> EKA registravimas**. Paketinė užduotis gali būtu suplanuota pagal parduotuvės organizacijos hierarchiją, panašiai kaip nustatyti procesai Skaičiuoti išrašus pakete ir Registruoti išrašus pakete. Rekomenduojame sukonfigūruoti šį paketinį vykdymą, kad jis būtų paleistas keletą kartų per dieną, ir suplanuoti taip, kad jis būtų vykdomas kiekvienos P užduoties pabaigoje.
 
 ## <a name="results-of-validation-process"></a>Tikrinimo proceso rezultatai
 
