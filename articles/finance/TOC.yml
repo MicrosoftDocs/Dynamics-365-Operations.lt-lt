@@ -70,6 +70,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Finance 10.0.15“ (2021 m. sausio mėn.)
+                      href: get-started/whats-new-changed-10-0-15.md
                     - name: „Finance 10.0.14“ (2020 m. lapkričio mėn.)
                       href: get-started/whats-new-changed-10-0-14.md
                     - name: „Finance 10.0.13“ (2020 m. spalio mėn.)
@@ -194,6 +196,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/finance/toc.json
                 - name: LCS diegimo projektų perkėlimas į skirtingus „Azure AD“ nuomotojus
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/finance/toc.json
+                - name: LCS diegimo projektų perkėlimas iš vietinių aplinkų į debesį
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/finance/toc.json
                 - name: Keli LCS projektai ir gamybos aplinkos viename „Azure AD“ nuomotojuje
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/finance/toc.json
         - name: Mokėtinos sumos
@@ -226,6 +230,16 @@
                   href: accounts-payable/accounts-payable-invoice-matching.md
                 - name: Mokėtinų sumų SF gretinimo patvirtinimo nustatymas
                   href: accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
+            - name: Tiekėjo SF automatizavimas
+              items:
+                - name: Automatizuotų tiekėjo SF išrašymo procesų apžvalga
+                  href: accounts-payable/auto-vendr-invc-process.md
+                - name: Tiekėjo SF automatizavimo sąrankos parinktys
+                  href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Sąskaitų faktūrų pateikimas darbo eigos sistemai ir produkto gavimo kvito eilučių sugretinimas
+                  href: accounts-payable/submit-invoice-workflow-automatically.md
+                - name: Tiekėjo SF automatizavimo rezultatų peržiūra
+                  href: accounts-payable/view-automated-vendor-invoice.md
             - name: 'Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF'
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: SF gretinimas ir vidinės įmonės pirkimo užsakymai
@@ -254,11 +268,11 @@
               href: accounts-payable/vendor-posting-profiles.md
             - name: Mokėtinų sumų ir gautinų sumų užsienio valiutos kurso pasikeitimas
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
-            - name: SF patvirtinimai mobiliąja programa
+            - name: Sąskaitos faktūros patvirtinimai mobiliąja programa
               href: accounts-payable/mobile-invoice-approvals.md
-            - name: Tiekėjo bendradarbiavimo SF išrašymo darbo sritis
+            - name: Tiekėjo bendradarbiavimo sąskaitų faktūrų išrašymo darbo sritis
               href: accounts-payable/vendor-portal-invoicing-workspace.md
-            - name: Tiekėjo sąskaitų faktūrų automatizavimas
+            - name: Nuskaitytų dokumentų sąskaitų faktūrų automatizavimas
               href: accounts-payable/vendor-invoice-automation.md
             - name: Brokerių sutarčių valdymas
               href: accounts-payable/broker-contract.md
@@ -450,6 +464,8 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Gautinų sumų skirstymo pagal terminus informacijos nustatymas ir generavimas
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Klientų skirstymo pagal terminus ataskaita
+              href: accounts-receivable/customer-aging.md
             - name: Kliento nurašymo žurnalo kūrimas
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Išplėstinis pastabų valdymas
@@ -792,6 +808,10 @@
                   href: fixed-assets/straight-line-life-remaining-depreciation.md
                 - name: Tiesiogiai proporcingas nusidėvėjimas
                   href: fixed-assets/straight-line-service-life-depreciation.md
+        - name: Turto nuoma
+          items:
+            - name: Turto nuomos darbo pradžia
+              href: asset-leasing/asset-leasing-quick-start.md
         - name: Didžioji knyga
           items:
             - name: Didžiosios knygos apžvalga
@@ -1476,7 +1496,7 @@
                       href: localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
             - name: Kanada
               items:
-                - name: GST / HST interneto failo perdavimas
+                - name: PPM / HST interneto failo perdavimas
                   href: localizations/can-gst-hst-internet-file-transfer.md
             - name: Kinija
               items:
@@ -1878,13 +1898,13 @@
                       href: localizations/tasks/apac-ind-set-up-depreciation.md
                     - name: 'Turto grupės nusidėvėjimo, skirto nusidėvėjimo knygoms, nustatymas'
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
-                    - name: Kapitalo prekių perkėlimas į ilgalaikį turtą
+                    - name: Kapitalo prekių perkėlimas į ilgalaikius išteklius
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: Indijos GST
+                - name: Indijos PPM
                   items:
-                    - name: Indijos GST apžvalga
+                    - name: Indijos PPM apžvalga
                       href: localizations/apac-ind-gst.md
-                    - name: Kas nauja ar pasikeitė APAC Indijos GST lokalizavimo klausimu
+                    - name: Kas nauja ar pasikeitė Indijos PPM lokalizavimo klausimu
                       items:
                         - name: Kas nauja ar pasikeitė 10.0.0
                           href: localizations/apac-ind-news-letter-10-0-00.md
@@ -1912,9 +1932,11 @@
                           href: localizations/apac-ind-news-letter-10-0-11.md
                         - name: Kas nauja ar pasikeitė 10.0.12
                           href: localizations/apac-ind-news-letter-10-0-12.md
-                    - name: Indijos GST kontrolinės grupės
+                        - name: Kas nauja ar pasikeitė 10.0.13
+                          href: localizations/ind-news-letter-10-0-13.md
+                    - name: Indijos PPM kontrolinės grupės
                       href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Kasos aparatų GST integravimas
+                    - name: Kasos aparatų PPM integravimas
                       href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
                     - name: Bendrųjų duomenų nustatymas
                       items:
@@ -1930,7 +1952,7 @@
                           href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
                         - name: Kurti mokesčio tarifo tipą
                           href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: GST registravimo tipo pagrindinių sąskaitų kūrimas
+                        - name: PPM registravimo tipo pagrindinių sąskaitų kūrimas
                           href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
                         - name: Mokesčių sudengimo laikotarpio kūrimas
                           href: localizations/apac-ind-GST-create-tax-settlement-period.md
@@ -1960,7 +1982,7 @@
                           href: localizations/apac-ind-GST-purchase-exempted-goods.md
                         - name: Nulinio tarifo prekių pirkimas
                           href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: Ne GST prekių pirkimai
+                        - name: Ne PPM prekių pirkimai
                           href: localizations/apac-ind-GST-purchase-non-gst-goods.md
                         - name: Pirkimai iš kelių prekybos agentų
                           href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
@@ -1994,7 +2016,7 @@
                           href: localizations/apac-ind-GST-sales-exempted-item.md
                         - name: Nulinio tarifo prekių pardavimai
                           href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: Ne GST prekių pardavimai
+                        - name: Ne PPM prekių pardavimai
                           href: localizations/apac-ind-GST-sell-non-gst-goods.md
                         - name: 'Apmokestinamų prekių, kurioms pritaikyta nuolaida ir kurios turi laikinąjį įvertinimą, pardavimai'
                           href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
@@ -2012,9 +2034,9 @@
                           href: localizations/apac-ind-GST-return-order-form.md
                     - name: Užsienio operacijos
                       items:
-                        - name: 'Prekių, kurioms taikomas GST, importavimas'
+                        - name: 'Prekių, kurioms taikomas PPM, importavimas'
                           href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: 'Paslaugų, kurioms taikomas GST, importavimas'
+                        - name: 'Paslaugų, kurioms taikomas PPM, importavimas'
                           href: localizations/apac-ind-import-services-gst.md
                         - name: 'Prekių, kurioms taikomas nulinio tarifo mokestis, eksportavimas'
                           href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
@@ -2022,6 +2044,8 @@
                           href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
                     - name: Atsargų operacija
                       items:
+                        - name: Atsargų perkėlimo užsakymai
+                          href: localizations/apac-ind-stock-transfer.md
                         - name: 'Atsargų perkėlimo užsakymai, kurių perkėlimo kainai taikomas mokestis'
                           href: localizations/apac-ind-GST-stock-transfer-transactions.md
                     - name: Kliento mokėjimo operacija
@@ -2040,9 +2064,9 @@
                           href: localizations/apac-ind-GST-customer-payment-refund.md
                     - name: Tiesioginių mokesčių operacija
                       items:
-                        - name: Įtraukti GST skaičiuojant mokesčių atskaitas
+                        - name: Įtraukti PPM skaičiuojant mokesčių atskaitas
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: Įtraukti GST skaičiuojant mokesčių surinkimus
+                        - name: Įtraukti PPM skaičiuojant mokesčių surinkimus
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                     - name: Mokesčių sumos koregavimas
                       href: localizations/apac-ind-GST-tax-adjustments.md
@@ -2050,9 +2074,9 @@
                       href: localizations/apac-ind-GST-tax-settlement.md
                     - name: Mokesčių žurnalo kūrimas
                       href: localizations/apac-ind-GST-tax-journal.md
-                    - name: Mokesčių gražinimų GSTR ataskaitos duomenų generavimas
+                    - name: Mokesčių gražinimų PPMR ataskaitos duomenų generavimas
                       href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Kelių paketų apdorojimo GSTR ataskaitoms įgalinimas
+                    - name: Kelių paketų apdorojimo PPMR ataskaitoms įgalinimas
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Mokesčių užklausa
                       href: localizations/apac-ind-GST-tax-inquiry.md
@@ -2072,12 +2096,10 @@
                       href: general-ledger/tax-engine-integration.md
                     - name: Mokesčių mechanizmo plėtimas
                       href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Šalinti triktis GTE
+                    - name: GTE trikčių šalinimas
                       href: localizations/tax-engine-trouble-shooting.md
                 - name: DUK apie ribines mokesčių reikšmes
                   href: localizations/apac-ind-tax-thresholds.md
-                - name: Atsargų perkėlimai
-                  href: localizations/apac-ind-stock-transfer.md
             - name: Italija
               items:
                 - name: Italijos apžvalga
@@ -2334,21 +2356,21 @@
                   href: localizations/tasks/my-00011-03-customer-credit-note-project-sales.md
                 - name: Projekto pardavimo kliento debeto generavimas
                   href: localizations/tasks/my-00011-02-customer-debit-note-project-sales-2016-11.md
-                - name: Prekių ir paslaugų mokestis (GST)
+                - name: Prekių ir paslaugų mokestis (PPM)
                   href: localizations/apac-mys-gst.md
-                - name: GST – GAF failų generavimas reikiamu formatu
+                - name: PPM – GAF failų generavimas reikiamu formatu
                   href: localizations/tasks/my-00010-gst-gaf-files-required-format.md
-                - name: Klientų GST debeto ir kredito valdymas
+                - name: Klientų PPM debeto ir kredito valdymas
                   href: localizations/tasks/my-00003-manage-customer-debit-note-credit-note-gst.md
-                - name: Tiekėjų GST debeto ir kredito valdymas
+                - name: Tiekėjų PPM debeto ir kredito valdymas
                   href: localizations/tasks/my-00004-manage-vendor-debit-note-credit-note-gst.md
-                - name: GST kliento sąskaitų faktūrų su nuolaidos sąlyga spausdinimas
+                - name: PPM kliento sąskaitų faktūrų su nuolaidos sąlyga spausdinimas
                   href: localizations/tasks/my-00006-02-print-gst-customer-invoices-relief-clause.md
-                - name: GST mokesčio sąskaitų faktūrų spausdinimas
+                - name: PPM mokesčio sąskaitų faktūrų spausdinimas
                   href: localizations/tasks/my-00005-print-gst-tax-invoices.md
                 - name: Sau išrašytos sąskaitos faktūros
                   href: localizations/tasks/my-00007-self-billed-invoices.md
-                - name: GST nuolaidos sąlygų nustatymas
+                - name: PPM nuolaidos sąlygų nustatymas
                   href: localizations/tasks/my-00006-01-gst-relief-clauses.md
                 - name: Malaizijos SST-02 deklaracija
                   href: localizations/apac-mys-sst-declaration.md
@@ -2692,7 +2714,7 @@
               items:
                 - name: Singapūro apžvalga
                   href: localizations/singapore.md
-                - name: GST-05 ataskaitos generavimas
+                - name: PPM-05 ataskaitos generavimas
                   href: localizations/apac-sgp-generate-gst-05-report.md
             - name: Ispanija
               items:
