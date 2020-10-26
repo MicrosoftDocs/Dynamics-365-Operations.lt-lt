@@ -15,30 +15,30 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe535f9646600ce60a5cfc39c11777a712175531
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 90054b17283a9e081f9993e76a6860404dadac0f
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203140"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978850"
 ---
-# <a name="accrue-subscription-revenue"></a><span data-ttu-id="41d58-103">Kaupti abonemento įplaukas</span><span class="sxs-lookup"><span data-stu-id="41d58-103">Accrue subscription revenue</span></span> 
+# <a name="accrue-subscription-revenue"></a><span data-ttu-id="32b2a-103">Kaupti abonemento įplaukas</span><span class="sxs-lookup"><span data-stu-id="32b2a-103">Accrue subscription revenue</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="41d58-104">Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Aptarnavimo abonementai** \> **Kaupti abonemento įplaukas**.</span><span class="sxs-lookup"><span data-stu-id="41d58-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
+1.  <span data-ttu-id="32b2a-104">Spustelėkite **Aptarnavimo valdymas** \> **Periodinis** \> **Aptarnavimo abonementai** \> **Kaupti abonemento įplaukas**.</span><span class="sxs-lookup"><span data-stu-id="32b2a-104">Click **Service management** \> **Periodic** \> **Service subscriptions** \> **Accrue subscription revenue**.</span></span>
 
-2.  <span data-ttu-id="41d58-105">Lauke **Laikotarpio kodas** pasirinkite laikotarpio kodą.</span><span class="sxs-lookup"><span data-stu-id="41d58-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="41d58-106">Įplaukos registruojamos visoms abonemento mokesčio operacijoms, kurioms pasirinktas laikotarpio kodas.</span><span class="sxs-lookup"><span data-stu-id="41d58-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
+2.  <span data-ttu-id="32b2a-105">Lauke **Laikotarpio kodas** pasirinkite laikotarpio kodą.</span><span class="sxs-lookup"><span data-stu-id="32b2a-105">In the **Period code** field, select a period code.</span></span> <span data-ttu-id="32b2a-106">Įplaukos registruojamos visoms abonemento mokesčio operacijoms, kurioms pasirinktas laikotarpio kodas.</span><span class="sxs-lookup"><span data-stu-id="32b2a-106">Revenue is posted for all subscription fee transactions that have the selected period code.</span></span>
 
-3.  <span data-ttu-id="41d58-107">Lauke **Registravimo data** įveskite registravimo datą ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="41d58-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
+3.  <span data-ttu-id="32b2a-107">Lauke **Registravimo data** įveskite registravimo datą ir spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="32b2a-107">In the **Posting date** field, enter a posting date, and then click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="41d58-108">Sukauptų įplaukų negalima registruoti tol, kol neišrašytos mokesčio operacijų SF.</span><span class="sxs-lookup"><span data-stu-id="41d58-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
+> <P><span data-ttu-id="32b2a-108">Sukauptų įplaukų negalima registruoti tol, kol neišrašytos mokesčio operacijų SF.</span><span class="sxs-lookup"><span data-stu-id="32b2a-108">You cannot post accrued revenue until the fee transactions are invoiced.</span></span><P>
 
 
   
