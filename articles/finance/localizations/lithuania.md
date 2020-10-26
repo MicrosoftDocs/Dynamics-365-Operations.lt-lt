@@ -13,15 +13,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Lithuania
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb2a754f29b3856fcebe1aa4a52c4cf2f82bbd60
-ms.sourcegitcommit: c0929ebda9dfb7affe2a187336abf980ce2009a6
+ms.openlocfilehash: 9036bb371150054508acfa24d2c0a3415006d892
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "2994107"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986908"
 ---
 # <a name="lithuania-overview"></a>Lietuvos apžvalga
 

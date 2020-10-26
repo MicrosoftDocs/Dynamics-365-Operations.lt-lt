@@ -19,12 +19,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4bb2f340afffc5f62c200b4daac311db435d796e
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.openlocfilehash: adf890f5305f4e6a62c2d7527ff3b593ed61eff3
+ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895382"
+ms.lasthandoff: 10/12/2020
+ms.locfileid: "3989246"
 ---
 # <a name="routes-and-operations"></a>Maršrutai ir operacijos
 
@@ -37,10 +37,10 @@ ms.locfileid: "3895382"
 
 Maršrute aprašyta operacijų tvarka, kuri reikalinga norint pagaminti produktą arba produkto variantą. Maršrute taip pat apibrėžti kiekvienai operacijai reikalingi operacijų ištekliai, operacijai nustatyti ir atlikti reikalingas laikas ir būdas, kaip apskaičiuoti išlaidas. Galite naudoti tą patį maršrutą norėdami pagaminti kelis produktus, arba galite apibrėžti unikalų maršrutą kiekvienam produktui ar produkto variantui. Net galite turėti kelis maršrutus tam pačiam produktui. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant į tam tikrus veiksnius, pvz., kiekį, kurį reikia pagaminti. Maršruto apibrėžimą „Supply Chain Management“ sudaro keturi skirtingi elementai, kurie visi kartu apibūdina gamybos procesą.
 
--   **Maršrutas** – maršrutas apibrėžia gamybos proceso struktūrą. Kitaip tariant, jis apibūdina operacijų seką.
--   **Operacija** – operacija identifikuoja įvardintą veiksmą, pvz., **Surinkimas**. Ta pati operacija gali atsirasti keliuose maršrutuose ir gali turėti skirtingus operacijos numerius,
--   **Operacijos ryšys** – operacijos ryšis apibrėžia operacijos veiklos ypatybes, pvz., nustatymo laiką ir vykdymo laiką, savikainos kategorijas, suvartojimo parametrus ir išteklių reikalavimus. Operacijos ryšys įgalina operacijos veiklos ypatybių kitimą, atsižvelgiant į maršrutą, kuriame operacija naudojama, arba į gaminamus produktus.
--   **Maršruto versija** – maršruto versija apibrėžia maršrutą, kuris naudojamas produktui arba produkto variantui pagaminti. Maršrutų versijos leidžia maršrutus tarp produktų naudoti pakartotinai arba laikui bėgant keisti. Jie taip pat įgalina skirtingų maršrutų naudojimą tam pačiam produktui pagaminti. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant tam tikrus veiksnius, pvz., vietą arba kiekį, kurį reikia pagaminti.
+- **Maršrutas** – maršrutas apibrėžia gamybos proceso struktūrą. Kitaip tariant, jis apibūdina operacijų seką.
+- **Operacija** – operacija identifikuoja įvardintą veiksmą, pvz., **Surinkimas**. Ta pati operacija gali atsirasti keliuose maršrutuose ir gali turėti skirtingus operacijos numerius,
+- **Operacijos ryšys** – operacijos ryšis apibrėžia operacijos veiklos ypatybes, pvz., nustatymo laiką ir vykdymo laiką, savikainos kategorijas, suvartojimo parametrus ir išteklių reikalavimus. Operacijos ryšys įgalina operacijos veiklos ypatybių kitimą, atsižvelgiant į maršrutą, kuriame operacija naudojama, arba į gaminamus produktus.
+- **Maršruto versija** – maršruto versija apibrėžia maršrutą, kuris naudojamas produktui arba produkto variantui pagaminti. Maršrutų versijos leidžia maršrutus tarp produktų naudoti pakartotinai arba laikui bėgant keisti. Jie taip pat įgalina skirtingų maršrutų naudojimą tam pačiam produktui pagaminti. Tokiu atveju naudojamas maršrutas kinta atsižvelgiant tam tikrus veiksnius, pvz., vietą arba kiekį, kurį reikia pagaminti.
 
 ## <a name="routes"></a>Maršrutai
 Maršrute aprašyta operacijų tvarka, kuri naudojama norint pagaminti produktą arba produkto variantą. Kiekvienai operacijai priskiriamas operacijos numeris ir vėlesnė operacija. Operacijų tvarka suformuoja maršruto tinklą, kurį galima parodyti kaip nurodytą diagramą, turinčią vieną ar daugiau pradžios taškų ir vienas pabaigos taškas. Tiekimo grandinės valdyme maršrutai skiriami pagal struktūros tipą. Yra du maršrutų tipai – paprasti maršrutai ir maršrutų tinklai. Gamybos kontrolės parametruose galite nurodyti, ar galima naudoti tik paprastus maršrutus, ar galima naudoti ir sudėtingesnius maršrutų tinklus.
@@ -60,9 +60,9 @@ Jei gamybos kontrolės parametruose įgalinsite sudėtingesnius maršrutų tinkl
 [![Maršrutų tinklas](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
-> -   Kiekviena operacija gali turėti tik vieną vėlesnę operaciją, o visas maršrutas turi baigtis viena operacija.
-> -   Nėra garantijos, kad kelios operacijos, kurios turi tą pačią vėlesnę operaciją (pvz., 30 ir 40 operacijos ankstesnėje iliustracijoje), iš tikro bus vykdomos lygiagrečiai. Pasiekiamumas ir išteklių pajėgumai gali apriboti būdą, kaip operacijos planuojamos.
-> -   Negalima naudoti 0 (nulio) kaip operacijos numerio. Šis numeris rezervuotas ir yra naudojamas nurodyti tai, kad paskutinė maršruto operacija neturi vėlesnės operacijos.
+> - Kiekviena operacija gali turėti tik vieną vėlesnę operaciją, o visas maršrutas turi baigtis viena operacija.
+> - Nėra garantijos, kad kelios operacijos, kurios turi tą pačią vėlesnę operaciją (pvz., 30 ir 40 operacijos ankstesnėje iliustracijoje), iš tikro bus vykdomos lygiagrečiai. Pasiekiamumas ir išteklių pajėgumai gali apriboti būdą, kaip operacijos planuojamos.
+> - Negalima naudoti 0 (nulio) kaip operacijos numerio. Šis numeris rezervuotas ir yra naudojamas nurodyti tai, kad paskutinė maršruto operacija neturi vėlesnės operacijos.
 
 ### <a name="parallel-operations"></a>Lygiagrečios operacijos
 
@@ -99,12 +99,12 @@ Operacijos veiklos ypatybės, pvz., operacijos nustatymo laikas ir vykdymo laika
 ## <a name="operation-relations"></a>Operacijų ryšiai
 Toliau nurodytos operacijos veiklos ypatybės prižiūrimos operacijos ryšyje:
 
--   Išlaidų kategorijos
--   Suvartojimo parametrai
--   Apdorojimo laikas
--   Apdorojimo kiekiai
--   Išteklių reikalavimai
--   Pastabos ir instrukcijos
+- Išlaidų kategorijos
+- Suvartojimo parametrai
+- Apdorojimo laikas
+- Apdorojimo kiekiai
+- Išteklių reikalavimai
+- Pastabos ir instrukcijos
 
 Tai pačiai operacijai galite nustatyti kelis operacijų ryšius. Tačiau kiekvienas operacijos ryšys yra būdingas vienai operacijai ir parduotuvės ypatybėms, būdingoms maršrutui, išleistam produktui ar išleistų produktų, susijusių su prekės grupe, rinkiniui. Todėl tą pačią operaciją galima naudoti keliuose maršrutuose, turinčiuose skirtingas operacijos veiklos ypatybes. Be to, galite lengviau prižiūrėti savo bendruosius duomenis, jei naudojate standartines operacijas, turinčias tas pačias operacijos veiklos ypatybes, nepaisant to, koks maršrutas naudojamas ir koks produktas gaminamas. Operacijų ryšio aprėptis apibrėžiama ypatybėmis **Prekės kodas**, **Prekės ryšys**, **Maršruto kodas** ir **Maršruto ryšys**, kaip parodyta toliau pateikiamoje lentelėje.
 
@@ -166,12 +166,13 @@ Kai Tiekimo grandinės valdymas ieško išleisto produkto labiausiai susijusių 
 Todėl operacija turėtų būti naudojama tik vieną kartą kiekviename maršrute. Jei tame pačiame maršrute operacija atsiras kelis kartus, visi tos pačios operacijos pasikartojimai turės tą patį operacijos ryšį ir nebus galimos skirtingos kiekvieno pasikartojimo ypatybės (pvz., apdorojimo laikai).
 
 ## <a name="route-versions"></a>Maršruto versijos
+
 Maršruto versijos naudojamos, jei norima taikyti variacijas produktų gamybai arba suteikti galimybę labiau kontroliuoti gamybos procesą. Jos apibrėžia, kuris maršrutas turi būti naudojamas, kai gaminamas tam tikras produktas arba išleisto produkto variantas. Galite naudoti šiuos apribojimus norėdami nustatyti, kuris maršrutas naudojamas išleistam produktui:
 
--   Produkto dimensijos (dydis, spalva, stilius arba konfigūracija)
--   Gamybos kiekis
--   Gamybos svetainė
--   Gamybos data
+- Produkto dimensijos (dydis, spalva, stilius arba konfigūracija)
+- Gamybos kiekis
+- Gamybos svetainė
+- Gamybos data
 
 Kai produktą gaminate tam tikroje svetainėje, tam tikrą jo kiekį arba tam tikru laikotarpiu, galite priskirti tam tikrą maršruto versiją kaip numatytąją maršruto versiją. Tačiau, atkreipkite dėmesį, kad nurodytam išleistam produktui leidžiamas tik vienas maršrutas ir nurodytas apribojimų rinkinys.  
 
@@ -194,6 +195,7 @@ Jei turite saugoti žurnalą, kuriame užrašyta, kas patvirtino ir suaktyvino k
 Produkto keitimo atvejis, skirtas tvirtinti ir aktyvinti naujiems ar pakeistiems maršrutams ir maršrutų versijoms, suteikia lengvą būdą apžvelgti maršruto versijos apribojimus. Be to, galite patvirtinti ir suaktyvinti visus maršrutus, susijusius su konkrečiu vienos operacijos pakeitimu, ir dokumentuoti rezultatus produkto keitimo atvejyje.
 
 ## <a name="maintaining-routes"></a>Maršrutų priežiūra
+
 Atsižvelgiant į jūsų verslo reikalavimus, galbūt galėsite sumažinti pastangų, kurios reikalingos norint prižiūrėti proceso apibrėžimus.
 
 ### <a name="making-routes-independent-of-resources"></a>Maršrutų ir išteklių priklausomumo atsiejimas
@@ -224,10 +226,10 @@ Naudojant šį būdą, puslapis **Operacijų ryšiai** tampa pirmine vykdymo lai
 
 Jei nenurodysite operacijų ištekliaus arba išteklių grupės kaip operacijos išteklių reikalavimų dalies, taikomi ištekliai gali veikti skirtingu greičiu. Todėl laikas, reikalingas operacijai apdoroti, gali skirtis. Norėdami išspręsti šią problemą, naudokite operacijos ryšio lauką **Formulė** nurodyti, kaip apskaičiuojamas apdorojimo laikas. Galimos toliau nurodytos pasirinktys:
 
--   **Standartinė** – (numatytoji parinktis) skaičiuojant naudojami tik laukai iš operacijos ryšio, ir vykdymo laikas padauginamas iš užsakymo kiekio.
--   **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuoajamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**.
--   **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
--   **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
+- **Standartinė** – (numatytoji parinktis) skaičiuojant naudojami tik laukai iš operacijos ryšio, ir vykdymo laikas padauginamas iš užsakymo kiekio.
+- **Pajėgumas** – skaičiavimas apima lauką **Pajėgumas** iš operacijos ištekliaus. Taigi, laikas priklauso nuo išteklių. Vertė, kuri nurodyta operacijos ištekliuje, yra pajėgumas per valandą. **Proceso laikas** apskaičiuoajamas kaip **Užsakymo kiekis** padalintas iš **Pajėgumo**.
+- **Paketas** – paketo pajėgumas apskaičiuojamas naudojant informaciją iš operacijos ryšio. Paketų skaičius, žinoma, ir apdorojimo laikas apskaičiuojami pagal užsakymo kiekį.
+- **Išteklių paketas** – ši parinktis iš esmės tokia pat kaip ir parinktis **Paketas**. Tačiau skaičiavimas apima lauką **Paketo pajėgumas** iš operacijų ištekliaus. Taigi, laikas priklauso nuo išteklių.
 
 ### <a name="set-up-route-groups"></a>Nustatyti maršrutų grupes
 
