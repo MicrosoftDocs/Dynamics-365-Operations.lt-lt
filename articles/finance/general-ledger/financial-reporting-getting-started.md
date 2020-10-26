@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a7cc238c573a319073b451063782762c19a80017
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835115"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967263"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -149,7 +149,12 @@ Trikdis 1: „Report Designer“ neįsijungia jums pasirinkus **Naujas** ar **Re
 * „Internet Explorer“ pasirinkite **Nustatymai** ir tuomet pasirinkite **Interneto parinktys**. Pasirinkite **Saugos** skirtuką. Pasirinkite patikimas svetaines. Srityje pavadintoje Saugumo lygis šiai sričiai, pakeiskite parinktį į **Vidutinis-Žemas**.
 * Išjunkite iššokančių langų blokavimo programą savo naršyklėje.
 * Darbo stotyse būtina įdiegti „Microsoft .NET Framework“ 4.6.2 ar aukštesnę versiją. Šią „Microsoft .NET Framework“ versiją galima atsisiųsti ir įdiegti apsilankius puslapyje [„Microsoft“ atsisiuntimo centras](https://www.microsoft.com/download/details.aspx?id=53345).
-* Jei naudojate „Chrome“ naršyklę, turi įdiegti „ClickOnce“ plėtinį, kad atsisiųstumėte „Report Designer“ klientą. Jei dirbate neatpažintu režimu, įsitikinkite, kad „ClickOnce“ plėtinys yra įjungtas neatpažintu režimu. Jei negalite prisijungti naudodami „Chrome“, pabandykite atlikti šiuos nustatymo žingsnius aprašytus Triktyje 1 naudodami „Internet Explorer“ ar „Edge“. 
+* Jei „Microsoft Edge“ naudojate kartu su „Chrome“ naršykle, turite įdiegti „ClickOnce“ plėtinį, kad atsisiųstumėte „Report Designer“ klientą. Jei dirbate neatpažintu režimu, įsitikinkite, kad „ClickOnce“ plėtinys yra įjungtas neatpažintu režimu. 
+     1. Atidarykite naują naršyklę „Microsoft Edge“.
+     2. Įveskite **edge://flags** ir pasirinkite **Įvesti**.
+     3. Suraskite parinktį **„ClickOnce“ pagalba** arba naudokite šią tiesioginę nuorodą: **edge://flags/#edge-click-once**.
+     4. Nustatykite išplečiamojo meniu pasirinktį **Įjungta**.
+     5. Pasirinkite **Iš naujo paleisti naršyklę**.
 
 Triktis 2: Vartotojui nebuvo priskirti būtini leidimai naudoti „Financial Reporting“. 
 

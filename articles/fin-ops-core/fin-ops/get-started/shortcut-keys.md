@@ -3,7 +3,7 @@ title: Spartieji klavišai
 description: Šioje temoje pateikiama sparčiųjų klavišų derinių, kuriuos galite naudoti dirbdami su „Finance and Operations” programomis, peržiūra.
 author: jasongre
 manager: AnnBe
-ms.date: 10/02/2019
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d5fb270e7b01effc650b24626b81ced647a399
-ms.sourcegitcommit: 95d06006142e6bf83351fb075b413fdc2074d5ee
+ms.openlocfilehash: 982fbef1af504ad70aa0e7c4ecf19f09fb599d16
+ms.sourcegitcommit: ebb110b0b73c99929636d26811a6f9c186080ddb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3761626"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3962525"
 ---
 # <a name="keyboard-shortcuts"></a>Spartieji klavišai
 
@@ -32,6 +32,8 @@ Naudodami toliau pateikiamus sparčiuosius klavišus, duomenis įvesite greitai 
 
 > [!NOTE]
 > Čia aprašyti spartieji klavišai pagrįsti amerikietišku klaviatūros išdėstymu. Kitokio klaviatūros išdėstymo klaviatūrų klavišai gali nevisiškai atitikti JAV klaviatūros klavišus.
+
+Kai kurie šio puslapio spartieji klavišai yra *pagrindiniai deriniai*, o tai reiškia, kad norint suaktyvinti reikiamą veiksmą reikia vieną po kito atskirai nuspausti du klavišų derinius (atskirtus kableliais). Pavyzdžiui, sparčiųjų klavišų derinys „Alt+M, A“ reiškia, kad vartotojas pirmiausia turi paspausti „Alt+M“, atleisti klavišus, o tada paspausti „A“. 
 
 ## <a name="finding-a-shortcut"></a>Sparčiųjų klavišų radimas
 
@@ -193,7 +195,7 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Pereiti į pagrindinio puslapio turinį (kai įvesties vieta yra kitoje srityje)                    | „Alt“ + M, M                    |
 | Pereiti į „FactBox“ sritį (ji taip pat gali būti atidaroma)                       | „Alt“ + M, B arba „Ctrl“ + F2         |
 
-## <a name="personalization-shortcuts"></a>Personalizavimo spartieji klavišai
+## <a name="personalization-shortcuts"></a>[Personalizavimo](personalize-user-experience.md) spartieji klavišai 
 
 | Norėdami tai padaryti                                                                                                             | Spausti                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -237,7 +239,20 @@ Nuo platformos 11 naujinimo vartotojai gali rasti šiuo metu galimus sparčiuosi
 | Perkelti puslapiu aukštyn / žemyn peržvalgoje                                                                                       | „Page up“ / „Page down“              |
 | Perkelti į peržvalgos viršų / apačią                                                                                    | Home / End                       |
 
+## <a name="task-recordershortcuts"></a>[Užduočių įrašymo priemonės](../../dev-itpro/user-interface/task-recorder.md) spartieji klavišai 
+
+| Norėdami tai padaryti                                                                    | Paspauskite                       |
+|-------------------------------------------------------------------------------|----------------------------|
+| Stabdyti įrašymą (įrašant)                                          | Alt+R,S                    |
+| Keisti užduočių įrašymo priemonės srities matomumą (įrašant)             | Alt+R,T                    |
+| Perjungti bėgių režimą (leidžiant užduočių vedlį)                                | Alt+R,L                    |
+| Eiti į ankstesnį veiksmą (leidžiant užduočių vedlį)                          | Alt+R,P                    |
+| Eiti į tolesnį veiksmą (leidžiant užduočių vedlį)                              | Alt+R,N                    |
+| Perjungti fokusavimo sritį iš puslapio į animuotą iššokantįjį raginimą ir atvirkščiai (leidžiant užduoties vadovą) | Alt+R,F               |
+| Išplėsti / sutraukti animuotą iššokantįjį raginimą (leidžiant užduoties vadovą)              | Alt+R,C                    |
+| Rodyti daugiau / mažiau informacijos animuotame iššokančiajame raginime (leidžiant užduoties vadovą) | Alt+R,M                    |
+
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-- [Klaviatūros spartieji klavišai trūkstamų sąskaitų analizei atlikti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
+[Klaviatūros spartieji klavišai trūkstamų sąskaitų analizei atlikti](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
