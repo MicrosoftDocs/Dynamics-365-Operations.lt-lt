@@ -1,7 +1,7 @@
 ---
 title: El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 description: Šioje temoje aprašoma, kaip kurti, įkelti ir konfigūruoti operacijų įvykių el. laiškų šablonus „Microsoft Dynamics 365 Commerce”.
-author: stuharg
+author: bicyclingfool
 manager: annbe
 ms.date: 06/01/2020
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a02839088addfa9b405af486f3b795eace1671cc
-ms.sourcegitcommit: 4db8c30c2f26af1896938dd3ece3756577374ecb
+ms.openlocfilehash: ea484bfc1e9b293c53d7293c50630c4955000131
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3416584"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983162"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>El. laiškų šablonų, skirtų operacijų įvykiams, kūrimas
 
@@ -64,7 +64,7 @@ El. laiško tekstas sudarytas HTML formatu. Galite naudoti bet kurį maketą, st
 
 ## <a name="add-placeholders-to-the-email-message-body"></a>Vietos rezervavimo ženklų įtraukimas į el. laiško tekstą
 
-El. laiške gali būti vietos rezervavimo ženklų, kurie pakeičiami konkretaus kliento ir konkrečių operacijų reikšmėmis, kai el. laiškas sugeneruojamas. Vietos rezervavimo ženklai (abiejose jų pusėse visada yra procento ženklai (%) įterpiami tiesiai į HTML dokumentą.
+El. laiške gali būti vietos rezervavimo ženklų, kurie pakeičiami konkretaus kliento ir konkrečių operacijų reikšmėmis, kai el. laiškas sugeneruojamas. Vietos rezervavimo ženklai abiejose jų pusėse visada yra procento ženklai (%) įterpiami tiesiai į HTML dokumentą.
 
 Toliau pateikiamas pavyzdys.
 
