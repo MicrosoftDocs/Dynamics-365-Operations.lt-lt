@@ -13,43 +13,43 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 41a60a20c1d425f7ef39e9e81143d34075cf3a29
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c3e5cd2677480b14739f963cf4a74efaa7f2bd2a
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213336"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986244"
 ---
-# <a name="create-dimension-based-configurations"></a><span data-ttu-id="cbb25-103">Kurti konfigūravimus pagal dimensijas</span><span class="sxs-lookup"><span data-stu-id="cbb25-103">Create dimension-based configurations</span></span>
+# <a name="create-dimension-based-configurations"></a><span data-ttu-id="27e88-103">Kurti konfigūravimus pagal dimensijas</span><span class="sxs-lookup"><span data-stu-id="27e88-103">Create dimension-based configurations</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="cbb25-104">Šia procedūra rodoma, kaip apibrėžti dimensijomis paremto produkto konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="cbb25-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="cbb25-105">Tai yra paskutinioji serijos, kuria paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas, procedūra.</span><span class="sxs-lookup"><span data-stu-id="cbb25-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="cbb25-106">Šios procedūros vykdymas priklauso nuo ankstesniuose septyniuose įrašuose sukurtų duomenų.</span><span class="sxs-lookup"><span data-stu-id="cbb25-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="cbb25-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="cbb25-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="27e88-104">Šia procedūra rodoma, kaip apibrėžti dimensijomis paremto produkto konfigūraciją.</span><span class="sxs-lookup"><span data-stu-id="27e88-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="27e88-105">Tai yra paskutinioji serijos, kuria paaiškinama, kaip kurti konfigūravimo pagal dimensijas kombinacijas, procedūra.</span><span class="sxs-lookup"><span data-stu-id="27e88-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="27e88-106">Šios procedūros vykdymas priklauso nuo ankstesniuose septyniuose įrašuose sukurtų duomenų.</span><span class="sxs-lookup"><span data-stu-id="27e88-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="27e88-107">Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.</span><span class="sxs-lookup"><span data-stu-id="27e88-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="find-the-dimension-based-product-master"></a><span data-ttu-id="cbb25-108">Dimensijomis paremto bendrojo produkto radimas</span><span class="sxs-lookup"><span data-stu-id="cbb25-108">Find the dimension-based product master</span></span>
-1. <span data-ttu-id="cbb25-109">Spustelėkite Patvirtinto produkto priežiūra.</span><span class="sxs-lookup"><span data-stu-id="cbb25-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="cbb25-110">Spustelėkite Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="cbb25-110">Click Released products.</span></span>
-3. <span data-ttu-id="cbb25-111">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="cbb25-112">Pasirinkite dimensijomis paremtą bendrąjį produktą, kurį sukūrėte pirmajame šios 8 įrašų sekos įraše.</span><span class="sxs-lookup"><span data-stu-id="cbb25-112">Select the dimension-based product master that you created in the first recording in this sequence of 8 recordings.</span></span>  
+## <a name="find-the-dimension-based-product-master"></a><span data-ttu-id="27e88-108">Dimensijomis paremto bendrojo produkto radimas</span><span class="sxs-lookup"><span data-stu-id="27e88-108">Find the dimension-based product master</span></span>
+1. <span data-ttu-id="27e88-109">Spustelėkite Patvirtinto produkto priežiūra.</span><span class="sxs-lookup"><span data-stu-id="27e88-109">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="27e88-110">Spustelėkite Patvirtinti produktai.</span><span class="sxs-lookup"><span data-stu-id="27e88-110">Click Released products.</span></span>
+3. <span data-ttu-id="27e88-111">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="27e88-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="27e88-112">Pasirinkite dimensijomis paremtą bendrąjį produktą, kurį sukūrėte pirmajame šios 8 įrašų sekos įraše.</span><span class="sxs-lookup"><span data-stu-id="27e88-112">Select the dimension-based product master that you created in the first recording in this sequence of 8 recordings.</span></span>  
 
-## <a name="create-configurations"></a><span data-ttu-id="cbb25-113">Konfigūracijų kūrimas</span><span class="sxs-lookup"><span data-stu-id="cbb25-113">Create configurations</span></span>
-1. <span data-ttu-id="cbb25-114">Veiksmų srityje Inžinerija spustelėkite Prižiūrėti konfigūracijas.</span><span class="sxs-lookup"><span data-stu-id="cbb25-114">On the Engineering Action Pane, click Maintain configurations.</span></span>
-2. <span data-ttu-id="cbb25-115">Spustelėkite Konfigūruoti.</span><span class="sxs-lookup"><span data-stu-id="cbb25-115">Click Configure.</span></span>
-3. <span data-ttu-id="cbb25-116">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-116">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="cbb25-117">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-117">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="cbb25-118">Pasirinkite bet kurias pirmosios konfigūracijos grupės prekes.</span><span class="sxs-lookup"><span data-stu-id="cbb25-118">Select any of the items in the first configuration group.</span></span>  
-5. <span data-ttu-id="cbb25-119">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="cbb25-119">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="cbb25-120">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-120">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="cbb25-121">Pasirinkite bet kurią antrosios konfigūracijos grupės prekę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-121">Select any item from the second configuration group.</span></span>  
-7. <span data-ttu-id="cbb25-122">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cbb25-122">Click OK.</span></span>
-8. <span data-ttu-id="cbb25-123">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-123">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="cbb25-124">Lauke Konfigūracija įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-124">In the Configuration field, type a value.</span></span>
-    * <span data-ttu-id="cbb25-125">Įveskite konfigūracijos pavadinimą, kad būtų lengviau tą konfigūraciją identifikuoti.</span><span class="sxs-lookup"><span data-stu-id="cbb25-125">Enter a configuration name that will make it easy to identify the configuration.</span></span>  
-10. <span data-ttu-id="cbb25-126">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="cbb25-126">In the Description field, type a value.</span></span>
-    * <span data-ttu-id="cbb25-127">Įveskite konfigūracijos aprašą, paaiškinantį, kas joje yra.</span><span class="sxs-lookup"><span data-stu-id="cbb25-127">Enter a description of the configuration to explain what it contains.</span></span>  
-11. <span data-ttu-id="cbb25-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="cbb25-128">Click OK.</span></span>
+## <a name="create-configurations"></a><span data-ttu-id="27e88-113">Konfigūracijų kūrimas</span><span class="sxs-lookup"><span data-stu-id="27e88-113">Create configurations</span></span>
+1. <span data-ttu-id="27e88-114">Veiksmų srityje Inžinerija spustelėkite Prižiūrėti konfigūracijas.</span><span class="sxs-lookup"><span data-stu-id="27e88-114">On the Engineering Action Pane, click Maintain configurations.</span></span>
+2. <span data-ttu-id="27e88-115">Spustelėkite Konfigūruoti.</span><span class="sxs-lookup"><span data-stu-id="27e88-115">Click Configure.</span></span>
+3. <span data-ttu-id="27e88-116">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="27e88-116">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="27e88-117">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="27e88-117">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="27e88-118">Pasirinkite bet kurias pirmosios konfigūracijos grupės prekes.</span><span class="sxs-lookup"><span data-stu-id="27e88-118">Select any of the items in the first configuration group.</span></span>  
+5. <span data-ttu-id="27e88-119">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="27e88-119">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="27e88-120">Lauke Prekės numeris įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="27e88-120">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="27e88-121">Pasirinkite bet kurią antrosios konfigūracijos grupės prekę.</span><span class="sxs-lookup"><span data-stu-id="27e88-121">Select any item from the second configuration group.</span></span>  
+7. <span data-ttu-id="27e88-122">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="27e88-122">Click OK.</span></span>
+8. <span data-ttu-id="27e88-123">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="27e88-123">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="27e88-124">Lauke Konfigūracija įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="27e88-124">In the Configuration field, type a value.</span></span>
+    * <span data-ttu-id="27e88-125">Įveskite konfigūracijos pavadinimą, kad būtų lengviau tą konfigūraciją identifikuoti.</span><span class="sxs-lookup"><span data-stu-id="27e88-125">Enter a configuration name that will make it easy to identify the configuration.</span></span>  
+10. <span data-ttu-id="27e88-126">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="27e88-126">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="27e88-127">Įveskite konfigūracijos aprašą, paaiškinantį, kas joje yra.</span><span class="sxs-lookup"><span data-stu-id="27e88-127">Enter a description of the configuration to explain what it contains.</span></span>  
+11. <span data-ttu-id="27e88-128">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="27e88-128">Click OK.</span></span>
 
