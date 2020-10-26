@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 671caf1feeb7ac9e7d5a166c5de12540ab9b9792
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: b3e3299388190f03e761591a0c23164b705db9e8
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818355"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961663"
 ---
 # <a name="work-with-fragments"></a>Darbas su fragmentais 
 
@@ -61,8 +61,8 @@ Galite sukurti naują fragmentą arba kaip fragmentą įrašyti esamą modulio k
 Norėdami anksčiau sukonfigūruotą modulį konvertuoti į daugkartinio naudojimo fragmentą, atlikite šiuos veiksmus.
 
 1. Atidarykite puslapį arba šabloną, kuriame yra modulis, kurį norite konvertuoti į fragmentą.
-1. Išorinėje juostoje kairėje arba tiesiai pagrindinėje drobėje pasirinkite anksčiau konfigūruotą modulį.
-1. Pasirinkite elipsę (**...**) šalia modulio pavadinimo išorės juostoje arba pasirinkto modulio įrankių juostoje drobėje. 
+1. Struktūros srities kairėje arba tiesiai vizualinėje puslapio daryklėje pasirinkite anksčiau konfigūruotą modulį.
+1. Struktūros srityje arba pasirinkto modulio įrankių juostoje vizualinėje puslapio daryklėje pasirinkite daugtaškį (**...**), esantį šalia modulio pavadinimo. 
 1. Pasirinkite **Bendrinti puslapio fragmentą**. 
 1. **Įrašyti kaip puslapio fragmentą** teksto laukelyje įveskite fragmento pavadinimą.
 1. Pasirinkite **Gerai**, kad modulių konfigūraciją įrašytumėte kaip fragmentą, kurį galima įtraukti į kitus puslapius.
@@ -94,8 +94,8 @@ Tolesnėse procedūrose aprašoma, kaip įtraukti fragmentų, juos pašalinti ir
 
 Norėdami į puslapį įtraukti fragmentą, atlikite toliau nurodytus veiksmus.
 
-1. Išorinėje juostoje kairėje arba tiesiai pagrindinėje drobėje pasirinkite talpyklą ar vietą, į kurią galima įtraukti vaikų modulius.
-1. Interneto juostoje pasirinkite elipsę (**...**) šalia talpyklos ar vietos pavadinimo.  Kitų atveju, jei naudojate pagrindinę drobę, pasirinkite pliuso simbolį (**+**).  
+1. Struktūros juostoje kairėje arba tiesiai vizualinėje puslapio daryklėje pasirinkite konteinerį arba vietą, kur būtų galima įtraukti antrinius modulius.
+1. Interneto juostoje pasirinkite elipsę (**...**) šalia talpyklos ar vietos pavadinimo.  Arba, jei naudojate vizualinę puslapio daryklę, pasirinkite pliuso simbolį (**+**).  
 1. Pasirinkite **Įtraukti fragmentą**.
 
     ![Ekrano vaizdas, kuriame parodyta, kaip įtraukti esamą fragmentą į vietą arba konteinerį](./media/add-fragment.png)
@@ -115,7 +115,7 @@ Norėdami į puslapį įtraukti fragmentą, atlikite toliau nurodytus veiksmus.
 
 Norėdami fragmentą pašalinti iš vietos arba konteinerio puslapyje, atlikite šiuos veiksmus.
 
-1. Išorinėje jusotoje lairėje, pasirinkite elipsę (**...**) šalia šalinamo fragmento pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį.  Kitu atveju, galite pasirinkite fragmentą drobėje ir pasirinkti šiukšlių dėžės simbolį fragmento įrankių juostoje.
+1. Išorinėje jusotoje lairėje, pasirinkite elipsę (**...**) šalia šalinamo fragmento pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį.  Arba galite pasirinkite fragmentą vizualinėje puslapio daryklėje ir pasirinkti šiukšlių dėžės simbolį fragmento įrankių juostoje.
 1. Kai būsite paraginti patvirtinti, kad norite pašalinti fragmentą, pasirinkite **Gerai**.
 
 > [!NOTE]

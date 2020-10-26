@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: baa8207f9f3a3de071033c4c70f60a339ec5e083
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
+ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677343"
+ms.lasthandoff: 09/29/2020
+ms.locfileid: "3900991"
 ---
 # <a name="shipment-auto-updates"></a>Automatiniai siuntos atnaujinimai
 
@@ -39,7 +39,7 @@ Automatinio siuntos atnaujinimo funkcija taikoma ir pardavimo užsakymo eilutėm
 
 Automatinio siuntos atnaujinimo funkcija pirmiausia priklauso nuo siuntos būsenos, kad būtų galima nustatyti, ar kiekis krovinio eilutėje turi būti pakeistas, kai atliekami pakeitimai pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje. Ji taip pat pirmiausia priklauso nuo siuntos būsenos, kad būtų galima nustatyti, kada nauja krovinio eilutė turi būti automatiškai įtraukiama į esamą krovinį. Kai siuntos būsena yra **Bangos** arba aukštesnė, automatiškai nenaujinama.
 
-Taip pat automatiniuose naujinimuose atsižvengiama į bangos būseną. Kai su krovinio eilute susijusios bangos būsena yra **Sulaikyta**, **Vykdoma**, **Išleista**, **Paimta** arba **Išsiųsta** ir vartotojas bando sumažinti kiekį krovinio eilutėje (kiekis sumažinamas pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje), rodomas šis klaidos pranešimas: „Rezervacijų šalinti negalima, nes sukurtas šiomis rezervacijomis grindžiamas darbas”. Be to, kai bangos būsena yra viena iš anksčiau minėtų ir vartotojas bando netiesiogiai padidinti krovinio eilutės kiekį sumažindamas kiekį pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje, krovinio eilutėje nurodytas kiekis automatiškai nepadidėja. Tokiu atveju krovinio eilutę reikia atnaujinti rankiniu būdu.
+Taip pat automatiniuose naujinimuose atsižvengiama į bangos būseną. Kai su krovinio eilute susijusios bangos būsena yra **Sulaikyta**, **Vykdoma**, **Išleista**, **Paimta** arba **Išsiųsta** ir vartotojas bando sumažinti kiekį krovinio eilutėje (kiekis sumažinamas pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje), rodomas šis klaidos pranešimas: „Rezervacijų šalinti negalima, nes sukurtas šiomis rezervacijomis grindžiamas darbas”. Be to, kai bangos būsena yra viena iš anksčiau minėtų ir vartotojas bando netiesiogiai padidinti krovinio eilutės kiekį padidindamas kiekį pardavimo užsakymo eilutėje arba perkėlimo užsakymo eilutėje, krovinio eilutėje nurodytas kiekis automatiškai nepadidėja. Tokiu atveju krovinio eilutę reikia atnaujinti rankiniu būdu.
 
 ## <a name="scenarios"></a>Scenarijai
 

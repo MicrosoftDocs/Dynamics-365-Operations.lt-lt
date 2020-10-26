@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87c90ed6ee62a094fe44f549c827cf9de2bf5b2f
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 8ca23dcf568cb0df6934f0d6201e4aafba5f9ba1
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3270009"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961639"
 ---
 # <a name="modify-an-existing-site-page"></a>Modifikuoti esamą svetainės puslapį
 
@@ -47,7 +47,7 @@ Kitas veiksmas – atlikti faktinius keitimus. Dažnai naudosite puslapio strukt
 Tačiau jūsų keitimai kartais gali apimti modelių ar fragmentų pridėjimą arba pašalinimą. Norėdami įtraukti fragmentą ar modulį, naudokite puslapio struktūros medį, kad rastumėte atkarpą, į kurią norite įtraukti modulį arba fragmentą, ir tada pasirinkite daugtaškio mygtuką (**...**) tai atkarpai. Pasirodys meniu, kuriame yra komandų, skirtų pridėti modulį ar fragmentą. Norėdami pašalinti modulį arba fragmentą, suraskite ir pasirinkite jį puslapio struktūros medyje, pasirinkite daugtaškio mygtuką ir pasirinkite komandą, kad panaikintumėte modulį ar fragmentą.
 
 > [!TIP]
-> Taip pat galite peržiūrėti ir redaguoti bet kurio modulio, kuris matomas „ką matote, tą ir gaunate“ (WYSIWYG) peržiūoje, ypatybes, pasirinkdami jas tiesiogiai.
+> Taip pat galite peržiūrėti ir redaguoti bet kurio modulio, kuris matomas puslapio daryklės peržiūroje, ypatybes, pasirinkdami jas tiesiogiai.
 
 Atlikę keitimus ir peržiūrėję jų efektyvumą, turite puslapį įrašyti ir atrakinti, pasirinkdami komandų juostoje **Baigti redagavimą**. 
 

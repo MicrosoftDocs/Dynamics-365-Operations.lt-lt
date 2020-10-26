@@ -3,7 +3,7 @@ title: Įspėjimo taisyklių kūrimas
 description: Šioje temoje pateikiama informacija apie įspėjimus ir paaiškinama, kaip kurti įspėjimo taisyklę, kad būtumėte įspėti apie įvykius, pvz., atėjusią tam tikrą dieną arba konkretų įvykusį pasikeitimą.
 author: tjvass
 manager: AnnBe
-ms.date: 02/19/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 85d4774bc710f0c48b384601e5505f11394cf5d5
-ms.sourcegitcommit: a688c864fc609e35072ad8fd2c01d71f6a5ee7b9
+ms.openlocfilehash: 94b68138066867fad641c70a1674c9292920ec6a
+ms.sourcegitcommit: d540998ad6f9c894ca99498c045ae4b86b779806
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3075929"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3970684"
 ---
 # <a name="create-alert-rules"></a>Įspėjimo taisyklių kūrimas
 
@@ -92,3 +92,14 @@ Dialogo lango **Įspėjimo taisyklės kūrimas** „FastTab“ **Įspėti mane i
 7. „FastTab“**Įspėti mane ir** lauke **Tema** pasirinkite numatytąją el. laiško antraštės temą arba įveskite naują temą. Tekstas yra naudojamas kaip temos antraštė el. laiške, kurį gausite, kai bus suaktyvintas įspėjimas. Jei norite siųsti įspėjimą kaip verslo įvykį, nustatykite **Siųsti į išorę** kaip **Taip**.
 8. Lauke **Pranešimas** įveskite pasirinktinį pranešimo tekstą. Tekstas yra naudojamas kaip pranešimas, kurį gausite, kai bus suaktyvintas įspėjimas.
 9. Pasirinkite **Gerai** norėdami išsaugoti parametrus ir sukurti įspėjimo taisyklę.
+
+## <a name="limitations-and-workarounds"></a>Apribojimai ir problemų sprendimai
+
+### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Įspėjimų kūrimo formos antriniuose duomenų šaltiniuose problemos sprendimas
+Įspėjimų negalima kurti kai kuriuose formų antrinių duomenų šaltiniuose. Pavyzdžiui, kuriant įspėjimus kliento arba tiekėjo registravimo šablonų formoje, galimi tik antraštės laukai (CustLedger arba VendLedger), o ne dimensijų sąskaitos. Šio apribojimo problemos sprendimas yra naudoti **SysTableBrowser**, kad ši lentelė būtų atidaryta kaip pirminis duomenų šaltinis. 
+1. Atidarykite lentelę formoje **SysTableBrowser**.
+    ```
+        https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
+    ```
+2. Sukurkite įspėjimą iš formos SysTableBrowser.
+

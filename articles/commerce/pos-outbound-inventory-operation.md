@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 026d25717dec8c5633f19fe63c6d6f64284d322d
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646164"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971550"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -164,7 +164,7 @@ Prieš paskutinį komercijos biuro įsipareigojimą, galite naudoti **Peržiūro
 - **Vieta nenustatyta** – vieta nėra nustatyta vietos kontroliuojamam elementui, kuriame vieta negali būti tuščia.
 - **Panaikinti eilutes** – užsakymas turi komercijos štabo (HQ) naudotojo panaikintų eilučių, kurios yra nežinomos POS programai.
 
-Jei nustatote **Įjungti automatinio patvirtinimo** parametrą į **Taip** **Komercijos parametruose** > **Inventorius** > **Parduotuvės inventorius**, patvirtinimas yra atliekamas automatiškai, kai jūs pasirenkate **Pabaigti įgyvendinimą** funkciją.
+Jei **Komercijos parametrai** > **Atsargos** > **Saugoti atsargų operacijas** nustatysite parametro **Įjungti automatinį patvirtinimą** reikšmę **Taip**, pasirinkus funkciją **Baigti įvykdymą** patvirtinimas bus vykdomas automatiškai.
 
 ### <a name="finish-fulfillment"></a>Baigti įvykdymą
 
