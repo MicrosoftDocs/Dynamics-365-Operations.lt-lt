@@ -3,7 +3,7 @@ title: Planavimo optimizavimo tinkamumo analizė
 description: Šioje temoje paaiškinama, kaip patikrinti dabartinę sąranką ir duomenis, atsižvelgiant į „Planning Optimization“ funkcijos galimybes.
 author: ChristianRytt
 manager: tfehr
-ms.date: 09/23/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,22 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 73549097eed6d9418d5ff73e108d1dbae7ed66b3
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
+ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3887143"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3973457"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Planavimo optimizavimo tinkamumo analizė
 
 [!include [banner](../../includes/banner.md)]
 
-Norėdami pamatyti, kaip suderinama dabartinė sąranka ir duomenys „Planning Optimization“, eikite į **Bendrasis planavimas** \> **Sąranka** \> **„Planning Optimization“ tinkamumo analizė** ir pasirinkite **Atlikti analizę**. Jei atlikus analizę randama neatitikimų, jie pateikiami tame pačiame puslapyje. (Analizė gali užtrukti kelias minutes.)
+Kaip perkėlimo proceso dalį turite analizuoti planavimo optimizavimo tinkamumo analizės rezultatą. Atkreipkite dėmesį, kad planavimo optimizavimo aprėptis nesutampa su dabartine integruota bendrojo planavimo funkcija. Ruošiantis perkėlimui, rekomenduojame tai aptarti kartu su partneriu ir perskaityti dokumentus. 
+
+Planavimo optimizavimo tinkamumo analizė padeda nustatyti atvejus, kai integruotos bendrojo planavimo funkcijos ir „Planning Optimization“ rezultatas gali skirtis. Ši analizė atliekama remiantis dabartine jūsų sąranka ir duomenimis. 
+
+Norėdami peržiūrėti planavimo optimizavimo tinkamumo analizės rezultatą, eikite į **Bendrasis planavimas** \> **Sąranka** \> **Planavimo optimizavimo tinkamumo analizė** ir pasirinkite **Atlikti analizę**. Jei atlikus analizę randama neatitikimų, jie pateikiami tame pačiame puslapyje. (Analizė gali užtrukti kelias minutes.)
 
 > [!NOTE]
 > Jei randama neatitikimų, vis tiek galite naudoti „Planning Optimization“ funkciją. Tinkamumo analizės rezultatai rodo tik tas vietas, kuriose planavimo paslauga neatsižvelgs į dabartinę sąranką. Kitaip tariant, rodomos vietos, kuriose gali būti nepaisoma kai kurių procesų arba jie gali būti nepalaikomi.
@@ -63,7 +67,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Patvirtinimas | Bendrieji planai su nustatytu automatiniu patvirtinimu: _\#_ | 10.0.7 ar vėlesnėje versijoje automatinis patvirtinimas palaikomas kaip atskira patvirtinimo paketinė užduotis po to, kai bendrasis planavimas yra baigtas (jei [funkcijų valdyme](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) įjungta funkcija _Automatinis planavimo optimizavimo patvirtinimas_). Atkreipkite dėmesį, kad automatinis planavimo optimizavimo patvirtinimas yra pagrįstas užsakymo data (pradžios data), o ne poreikio data (pabaigos data). Taip užtikrinama, kad suplanuotų užsakymų patvirtinimas įvyktų laiku, tačiau į patvirtinimo laiko ribą nereikia įterpti gamybos laiko. | Palaikoma |
 | FitAnalysisPlanningItems | Planuojamos prekės: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu planuojamos prekės yra tvarkomos kaip įprastos prekės, kai įjungtas planavimo optimizavimas. | Spalio 2021 d. |
 | Prognozė | Padengimo grupės su įjungta funkcija „Įtraukti vidinės įmonės užsakymus”: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į bendrąjį planavimą neįtraukiamas proceso pabaigos suplanuotas poreikis, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. Atkreipkite dėmesį, kad išleisti / patvirtinti užsakymai vis dar veikia su įprastomis vidinės įmonės funkcijomis ir apima daugelį scenarijų. | 2020 m. spalio mėn. |
-| Prognozė | Padengimo grupės, kurių parametras „Prognozę sumažina” nustatytas į reikšmę, kuri skiriasi nuo reikšmės „Užsakymai”: _\#_ | Pagal numatytuosius parametrus planavimo optimizavimas naudoja parametrą „Prognozę sumažina” užsakymams, neatsižvelgiant į šį nustatymą. | 2020 m. spalio mėn. |
+| Prognozė | Padengimo grupės, kurių parametras „Prognozę sumažina” nustatytas į reikšmę, kuri skiriasi nuo reikšmės „Užsakymai”: _\#_ | Pagal numatytuosius parametrus planavimo optimizavimas naudoja parametrą „Prognozę sumažina” užsakymams, neatsižvelgiant į šį nustatymą. | 2020 m. lapkričio mėn. |
 | Prognozė | Prognozės modeliai su antriniais modeliais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu prognozės, naudojančios antrinius modelius, nepalaikomos, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | 2021 m. balandžio mėn. |
 | Prognozė | Bendrieji planai su įjungta funkcija „Įtraukti tiekimo prognozę”: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu tiekimo prognozės nepalaikomos, kai įjungtas planavimo optimizavimas. Jų bus nepaisoma, neatsižvelgiant į šį nustatymą. | Spalio 2021 d. |
 | Blokavimo laiko ribos | Padengimo grupės su nustatyta blokavimo laiko riba: _\#_ | Blokavimo laiko riba nėra dažnai naudojama, o šiuo metu nėra planų, į kuriuos būtų galima ją įtraukti planavimo optimizavimui. Šiuo metu blokavimo laiko ribos nustatymo nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | Netaikoma |
@@ -72,7 +76,7 @@ Tolesnėje lentelėje pateikiami skirtingi rezultatai, rodomi po tinkamumo anali
 | Vidinė įmonė | Bendrieji planai, įskaitant proceso pabaigoje suplanuotą poreikį: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu į bendrąjį planavimą neįtraukiamas proceso pabaigos suplanuotas poreikis, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. Atkreipkite dėmesį, kad išleisti/patvirtinti užsakymai vis dar veikia su įprastomis vidinės įmonės funkcijomis ir apima daugelį scenarijų. | 2020 m. spalio mėn. |
 | Kanban | Prekės padengimo įrašai su suplanuoto užsakymo tipu „kanban“: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu prekės padengimo, nustatyto į „kanban”, bus nepaisoma, kai įjungtas planavimo optimizavimas. Suplanuoto užsakymo tipas „kanban” bendrojo planavimo metu sukurs įspėjimą, o suplanuoti pirkimo užsakymai bus sukurti padengti susijusį poreikį. | Spalio 2021 d. |
 | Kanban | Prekės su numatytojo užsakymo tipu „kanban“: _\#_ | Šiuo metu numatytojo užsakymo tipo, nustatyto į „kanban”, bus nepaisoma, kai įjungtas planavimo optimizavimas. Numatytojo užsakymo tipas „kanban” bendrojo planavimo metu sukurs įspėjimą, o suplanuoti pirkimo užsakymai bus sukurti padengti susijusį poreikį. | Spalio 2021 d. |
-| Produkto ciklo būsena   | Produkto ciklų būsenos nesuaktyvintos planavimui: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu produkto ciklo būsenos nepaisoma, kai įjungtas planavimo optimizavimas. Galite koreguoti plano lygio produkto filtrą, kad nereikėtų įtraukti produktų, kuriuose išjungta planavimo produkto ciklo būsena. | 2020 m. spalio mėn. |
+| Produkto ciklo būsena   | Produkto ciklų būsenos nesuaktyvintos planavimui: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu produkto ciklo būsenos nepaisoma, kai įjungtas planavimo optimizavimas. Galite koreguoti plano lygio produkto filtrą, kad nereikėtų įtraukti produktų, kuriuose išjungta planavimo produkto ciklo būsena. | 2020 m. lapkričio mėn. |
 | Gamyba | KS eilutės su apvalinimu arba keliais nustatymais: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS eilutėse esančio apvalinimo ir kelių nustatymų nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | 2021 m. balandžio mėn. |
 | Gamyba | KS / formulės eilutės su formulės matavimo vienetu: _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS ir formulės eilutėse esančio formulės matavimo vieneto nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | Spalio 2021 d. |
 | Gamyba | KS / formulės eilutės su prekės pakeitimu (planavimo grupės): _\#_ | Ši funkcija laukia patvirtinimo. Šiuo metu KS ir formulės eilutėse esančio prekės pakeitimo (planavimo grupių) nepaisoma, kai įjungtas planavimo optimizavimas, neatsižvelgiant į šį parametrą. | Spalio 2021 d. |

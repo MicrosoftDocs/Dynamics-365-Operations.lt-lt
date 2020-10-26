@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos platformos funkcijos
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias planuojama šalinti iš „Finance and Operations“ programų platformos naujinių.
 author: sericks007
 manager: AnnBe
-ms.date: 09/17/2020
+ms.date: 09/24/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 0b78401f4c1cf289247cd2d600f097ecdf6a712c
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819894"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971450"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Pašalintos arba nebenaudojamos platformos funkcijos
 
@@ -34,6 +34,22 @@ ms.locfileid: "3819894"
 Šis sąrašas skirtas suteikti jums informacijos apie pašalintas ir nebenaudojamas funkcijas, kad galėtumėte geriau planuoti savo darbą. 
 
 Išsamios informacijos apie „Finance and Operations“ programų objektus rasite skyriuje [Techninės informacijos ataskaitos](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Galite palyginti skirtingas šių ataskaitų versijas, kad sužinotumėte apie objektus, kurie buvo pakeisti ar pašalinti kiekvienoje iš „Finance and Operations“ programų versijų.
+
+## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.15 versijos platformos naujinimai
+
+> [!NOTE]
+> Versija 10.0.15 yra peržiūros leidimas. Turinys ir funkcijos gali būti keičiami. Norėdami apie peržiūros leidimus gauti daugiau informacijos, žr. [DUK apie vienos versijos paslaugų naujinimus](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>„Visual Studio“ papildinys, skirtas metaduomenų karštųjų pataisų pritaikymui
+
+|   |  |
+|------------|--------------------|
+| **Nebenaudojimo/pašalinimo priežastis** | Metaduomenų karštosios pataisos nepalaikomos pristačius [vienos versijos](../../fin-ops/get-started/one-version.md) paslaugų naujinimus, kurie buvo pateikti 2018 m. liepą kartu su 8.1 versija. |
+| **Pakeitė kita funkcija?**   | Nėra atskirų metaduomenų karštųjų pataisų, kurios būtų skirtos palaikomoms versijoms. Vietoje jų taikomi kaupiamieji kokybiniai naujinimai. |
+| **Paveiktos produkto sritys**         | „Visual Studio“ papildiniai |
+| **Visuotinio diegimo parinktis**              | Kūrimo virtualieji įrenginiai |
+| **Būsena**                         | 10.0.15 versijoje papildinys nebėra įtrauktas į „Visual Studio“ įrankius. |
+
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.14 versijos platformos naujinimai
 
@@ -50,6 +66,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 | **Paveiktos produkto sritys**         | Sistemos administravimas |
 | **Visuotinio diegimo parinktis**              | Visos |
 | **Būsena**                         | Iki 2021 m. spalio ši forma bus pašalinta.   |
+
 
 ## <a name="platform-updates-for-version-10013-of-finance-and-operations-apps"></a>„Finance and Operations” programų 10.0.13 versijos platformos naujinimai
 

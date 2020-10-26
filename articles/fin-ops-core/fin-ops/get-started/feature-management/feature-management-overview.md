@@ -3,7 +3,7 @@ title: Funkcijų valdymo apžvalga
 description: Šioje temoje aprašoma funkcijų valdymo priemonė ir kaip ją naudoti.
 author: ChrisGarty
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: ae2c7a0d089c81a62932c415eed5f752e7fb4ffa
-ms.sourcegitcommit: 17a8e3d48da4354ba74e35031c320a16369bfcd5
+ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
+ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/23/2020
-ms.locfileid: "3499624"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "3967339"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -179,3 +179,24 @@ Testuojamos funkcijos yra „Microsoft” valdomi realiojo laiko įjungimo/išju
 
 ### <a name="do-features-ever-get-flighted-off-without-the-customer-knowing-about-it"></a>Ar funkcijų testavimas kada nors yra išjungiamas be kliento žinios? 
 Taip, jei funkcija veikia aplinkos funkcionalumą, jei ji nedaro įtakos, ji gali būti įjungta pagal numatytuosius nustatymus.
+
+### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kaip galima patikrinti, ar funkcija yra įjungta, naudojant kodą?
+Naudokite metodą **isFeatureEnabled**, priklausantį klasei **FeatureStateProvider**, ir perduokite funkcijos klasės egzempliorių. Pavyzdys: 
+
+    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+
+### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Kaip galima patikrinti, ar funkcija yra įjungta, naudojant metaduomenis?
+Nustatyti, kad kai kurie metaduomenis yra susiję su funkcija, galima naudojant ypatybę **FeatureClass**. Turi būti naudojamas klasės pavadinimas, kuris yra naudojamas funkcijai, pvz., **BatchContentionPreventionFeature**. Šie metaduomenys matomi tik toje funkcijoje. Ypatybę **FeatureClass** gali turėti meniu, meniu elementai, sąrašo reikšmės ir lentelės / peržiūros laukai.
+
+### <a name="what-is-a-feature-class"></a>Kas yra funkcijos klasė?
+Funkcijų valdymo funkcijos apibrėžiamos kaip *funkcijų klasės*. Funkcijų klasė realizuoja **IFeatureMetadata** ir naudoja funkcijų klasės atributą, kad galėtų identifikuoti save funkcijų valdymo darbo srityje. Yra daug galimų funkcijų klasių pavyzdžių, kurių įjungimą kode galima patikrinti naudojant ypatybę **FeatureStateProvider** API, o metaduomenyse – naudojant ypatybę **FeatureClass**. Pavyzdys: 
+
+    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+    
+### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Kas yra IFeatureLifecycle, realizuotas kai kurių funkcijų klasių?
+IFeatureLifecycle yra „Microsoft“ vidinis mechanizmas, skirtas nurodyti funkcijos ciklo etapą. Funkcijos gali būti:
+- PrivatePreview – reikia, aktyvinti, kad būtų matoma.
+- PublicPreview – rodoma pagal numatytuosius parametrus, bet su perspėjimu, kad funkcijos versija yra peržiūros.
+- Paskelbta – visiškai paskelbta.
+

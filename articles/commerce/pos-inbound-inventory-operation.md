@@ -3,7 +3,7 @@ title: Gaunamų atsargų operacijos EKA
 description: Šioje temoje aprašomos gaunamų atsargų operacijų elektroniniame kasos aparate (EKA) galimybės.
 author: hhaines
 manager: annbe
-ms.date: 08/18/2020
+ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 16a786a4b3ca1bcbd202f6753bdf3bf7233a4333
-ms.sourcegitcommit: 7061a93f9f2b54aec4bc4bf0cc92691e86d383a6
+ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3710314"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971502"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Gaunamų atsargų operacijos EKA
 
@@ -133,6 +133,18 @@ Rodinyje **Gaunama dabar** vartotojams suteikiama galimybė pamatyti gaunamus pr
 Tikrinimas vykdomas dokumento eilučių gavimo proceso metu. Jis apima pristatymo perviršio tikrinimą. Jei vartotojas bando gauti daugiau atsargų, nei buvo užsakyta pirkimo užsakyme, bet pristatymo perviršis nesukonfigūruotas arba gauta suma viršija pirkimo užsakymo eilutėje sukonfigūruotą leistiną pristatymo perviršio nuokrypį, vartotojas gauna klaidą ir jam neleidžiama gauti perteklinio kiekio.
 
 Gavimo viršijimas neleidžiamas perkėlimo užsakymų dokumentuose. Vartotojai visada gaus klaidų, jei mėgins gauti daugiau, nei buvo išsiųsta pagal perkėlimo užsakymo eilutę.
+
+### <a name="close-purchase-order-lines"></a>Pirkimo užsakymo eilučių uždarymas
+
+Jei siuntėjas patvirtino, kad negali išsiųsti viso pageidauto kiekio, gavimo proceso metu galite uždaryti likusį gaunamą pirkimo užsakymo kiekį. Norint tai padaryti, įmonė turi būti sukonfigūruota leisti pirkimo užsakymų pristatymo trūkumą. Be to, turi būti nurodytas pirkimo užsakymo eilutės leistino pristatymo trūkumo procentas.
+
+Norėdami sukonfigūruoti įmonę, kad būtų leidžiamas pirkimo užsakymo pristatymo trūkumas, „Commerce“ pagrindiniame komponente eikite į **Įsigijimas ir šaltinio pasirinkimas** > **Sąranka** > **Įsigijimo ir šaltinio pasirinkimo parametrai**. Skirtuke **Pristatymas** įjunkite parametrą **Priimti pristatymo trūkumą**. Tada paleiskite paskirstymo grafiko užduotį **1070** (**Kanalo konfigūracija**), kad sinchronizuotumėte parametro pakeitimus tarp kanalų.
+
+Pirkimo užsakymo eilutės pristatymo trūkumo nuokrypio procentai gali būti iš anksto nustatyti produktams kaip produkto konfigūracijos „Commerce“ pagrindiniame komponente dalis. Jie taip pat gali būti nustatyti arba perrašyti konkrečiame pirkimo užsakyme „Commerce“ pagrindiniame komponente.
+
+Po to, kai organizacija užbaigia konfigūruoti pirkimo užsakymo pristatymo trūkumą, EKA vartotojai matys naują parinktį **Uždaryti likusį kiekį** srityje **Išsami informacija**, kai pasirinks operacijos **Gaunamos atsargos** gaunamo pirkimo užsakymo eilutę. Jei vartotojas uždaro likusį kiekį, EKA atlieka patvirtinimą, kad patikrintų, ar uždaromas kiekis yra mažesnis nei pristatymo trūkumo nuokrypio procentas, nurodytas pirkimo užsakymo eilutėje. Jei viršytas pristatymo trūkumo nuokrypio procentas, rodomas klaidos pranešimas ir vartotojas negalės uždaryti likusio kiekio, kol anksčiau gautas kiekis ir **Gaunama dabar** kiekis neatitiks arba viršys minimalų kiekį, kurį reikia gauti remiantis pristatymo trūkumo nuokrypio procentu. 
+
+Kai pirkimo užsakymo eilutėje įjungta parinktis **Uždaryti likusį kiekį**, vartotojui užbaigus gavimą atliekant veiksmą **Baigti gavimą**, uždarymo užklausa taip pat siunčiama į „Commerce“ pagrindinį komponentą, o bet koks negautas šios užsakymo eilutės kiekis bus atšauktas. Šiuo metu laikoma, kad eilutė yra visiškai gauta. 
 
 ### <a name="receiving-location-controlled-items"></a>Pagal vietą kontroliuojamų prekių gavimas
 

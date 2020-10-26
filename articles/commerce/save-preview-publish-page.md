@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e1e19594327c0042915bfae87f480434a7fcb159
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: db4866b22060b764fdde3e4a44e99e969133c0a0
+ms.sourcegitcommit: f16db76c1c235dfa445b50614bcee9219782d6dc
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269986"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3961615"
 ---
 # <a name="save-preview-and-publish-a-page"></a>Įrašyti, peržiūrėti ir publikuoti puslapį
 
@@ -38,9 +38,9 @@ Norėdami įrašyti puslapį, turite jį paimti ir užrakinti ir atidaryti pusla
 
 ## <a name="preview-a-page"></a>Puslapio peržiūra
 
-Kūrimo įrankyje galimos dvi peržiūros funkcijos: „ką matote, tą ir gaunate“ (WYSIWYG) peržiūros sritis puslapio rengyklėje ir atskiras peržiūros langas.
+Kūrimo įrankyje galimos dvi peržiūros funkcijos: vizualinė puslapio daryklė, t. y. „ką matote, tą ir gaunate“ (WYSIWYG) peržiūros sritis puslapio rengyklėje ir atskiras peržiūros langas.
 
-Kai naudojate puslapio rengyklę, „ką matote, tą ir gaunate“ (WYSIWYG) peržiūra rodoma centrinėje srityje. Ši peržiūra automatiškai atnaujinama kiekvieną kartą įrašius puslapį. Taip pat galite ją atnaujinti rankiniu būdu pasirinkdami komandų juostoje **Atnaujinti**. WYSIWYG peržiūra atvaizduoja puslapį, kaip svetainės vartotojai jį matys, tačiau kūrimo pagelbikliai sugeneruojami jo viršuje.
+Kai naudojate puslapio rengyklę, „ką matote, tą ir gaunate“ (WYSIWYG) peržiūra rodoma centrinėje srityje. Ši peržiūra automatiškai atnaujinama kiekvieną kartą įrašius puslapį. Taip pat galite ją atnaujinti rankiniu būdu pasirinkdami komandų juostoje **Atnaujinti**. Peržiūra atvaizduoja puslapį, kaip svetainės vartotojai jį matys, tačiau virš jo generuojami kūrimo pagalbiniai įrankiai.
 
 Modifikavę puslapį, galbūt norėsite peržiūrėti jį, kad pamatytumėte, ką klientai matys. Norėdami peržiūrėti puslapį, komandų juostoje pasirinkite **Peržiūra**. Peržiūra bus rodoma atskirame naršyklės lange. Peržiūros lango puslapis generuojamas taip, kaip svetainės vartotojas jį matys. Galite keisti lango dydį, kad įsitikintumėte, jog tinkamai atvaizduojami adaptyvieji moduliai visuose peržiūros prievaduose.
 

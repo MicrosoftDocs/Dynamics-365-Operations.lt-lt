@@ -1,9 +1,9 @@
 ---
 title: Įvertinimų ir atsiliepimų tvarkymas
-description: Šioje temoje paaiškinama, kaip tvarkyti įvertinimus ir apžvalgas naudojant „Microsoft Dynamics 365 Commerce“ įvertinimų ir apžvalgų moderavimo įrankį.
+description: Šioje temoje paaiškinama, kaip valdyti įvertinimus ir apžvalgas „Microsoft Dynamics 365 Commerce“ svetainių daryklėje.
 author: gvrmohanreddy
 manager: annbe
-ms.date: 01/30/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,38 +18,30 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a7fa2ae3124a0a68b3890987c5dce2730e5c2183
-ms.sourcegitcommit: 1e6c8163da5818196769eb278afb3a2335d0cbe3
+ms.openlocfilehash: 3fc88bc5a5868dce7c0539bf3f0ddc5b751e7b75
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027247"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974011"
 ---
 # <a name="manage-ratings-and-reviews"></a>Įvertinimų ir atsiliepimų tvarkymas
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje paaiškinama, kaip tvarkyti įvertinimus ir apžvalgas naudojant „Microsoft Dynamics 365 Commerce“ įvertinimų ir apžvalgų moderavimo įrankį.
+Šioje temoje paaiškinama, kaip valdyti įvertinimus ir apžvalgas „Microsoft Dynamics 365 Commerce“ svetainių daryklėje.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-„Dynamics 365 Commerce“ naudojama „Microsoft Azure“ pažinimo tarnyba automatiškai moderuoti atsiliepimo tekstą pašalinant keiksmažodžius. Be to, moderatoriai gali naudoti įvertinimų ir apžvalgų moderavimo įrankį šioms neautomatinėms užduotims:
+„Dynamics 365 Commerce“ naudojama „Microsoft Azure“ pažinimo tarnyba automatiškai moderuoti atsiliepimo tekstą pašalinant keiksmažodžius. Be to, moderatoriai gali naudoti „Dynamics 365 Commerce“ svetainių daryklę vykdyti šioms rankiniu būdu atliekamoms užduotims.
 
 - Moderuokite apžvalgas atsakydami į juos arba juos pašalindami.
 - Panaikinkite kliento apžvalgas klientui pateikus dėl to užklausą.
 - Visų produktų masinio importo įvertinimų ir apžvalgų duomenys į „Microsoft Power BI“ šabloną, kad įvertinimų ir atsiliepimų tendencijos galėtų būti analizuojamos.
 
-## <a name="access-ratings-and-reviews-moderation-features"></a>Įvertinimų ir apžvalgų valdymo funkcijų prieiga
-
-Norėdami pasiekti įvertinimų ir apžvalgų valdymo funkcijas „e-Commerce“ svetainės valdymo įrankyje, atlikite toliau nurodytus veiksmus.
-
-1. Prisijunkite prie [„Microsoft Lifecycle Services“ (LCS)](https://lcs.dynamics.com).
-1. Atidarykite projektą, kuriame yra aplinka, kurioje norima paleisti el. prekybą.
-1. Skyriuje **Aplinkos** pasirinkite aplinką.
-1. Skyriuje **Aplinkos funkcijos** pasirinkite **Mažmeninės prekybos valdymas**.
-1. Skirtuke **„e-Commerce“**, esančiame **Nuorodos**, pasirinkite **„e-Commerce“ svetainės valdymo įrankis**.
-
 ## <a name="read-a-review"></a>Apžvalgos skaitymas 
+
+Norėdami perskaityti atsiliepimą „Commerce“ svetainių daryklėje, atlikite tolesnius veiksmus.
 
 1. Eikite į **Pagrindinis \> Apžvalgos \>Moderavimas**.
 1. Norėdami filtruotiapžvalgas, kurios rodomos produkto ID, produkto pavadinime arba apžvalgos tekste, naudokite ieškos lauką, esantį viršutiniame dešiniajame puslapio kampe.
@@ -62,7 +54,7 @@ Papildomais filtrais galima riboti apžvalgas pagal laikotarpį, vertinimą, kan
 
 Kartais klientai, kurie pirko produktą, pareiškia savo pasitenkinimą ar nepasitenkinimą, arba nesupranta, kaip naudoti produktą. Kaip moderatorius galite paskelbti atsakymą į apžvalgą. Šis atsakymas rodomas kartu su apžvalga svetainėje. 
 
-Norėdami atsakyti į apžvalgą, atlikite šiuos veiksmus.
+Norėdami atsakyti į atsiliepimą „Commerce“ svetainių daryklėje, atlikite tolesnius veiksmus.
 
 1. Eikite į **Pagrindinis \> Apžvalgos \>Moderavimas**.
 1. Suraskite ir pasirinkite apžvalgą, į kurį reikia atsakyti.
@@ -76,17 +68,17 @@ Norėdami atsakyti į apžvalgą, atlikite šiuos veiksmus.
 
 Kartais dėl verslo priežasčių moderatoriai turi pašalinti klientų apžvalgas. 
 
-Norėdami pašalinti apžvalgą, atlikite šiuos veiksmus.
+Norėdami pašalinti atsiliepimą „Commerce“ svetainių daryklėje, atlikite tolesnius veiksmus.
 
 1. Eikite į **Pagrindinis \> Apžvalgos \>Moderavimas**.
 1. Suraskite ir pasirinkite apžvalgą, kurią reikia pašalinti.
-1. Dešinėje pusėje esančioje ypatybių srityje pasirinkite pašalinimo priežastį ir pasirinkite **Pašalinti**.
+1. Dešinėje pusėje esančioje ypatybių srityje, dalyje **Šalinti apžvalgą**, pasirinkite pašalinimo priežastį, o tada pasirinkite **Pašalinti**.
     
 ## <a name="delete-a-customers-reviews-at-the-customers-request"></a>Kliento apžvalgų naikinimas klientui pateikus užklausą 
 
 Kartais klientai nori, kad jų įvertinimų ir apžvalgų duomenys būtų visam laikui panaikinti iš el. prekybos svetainės. Moderatorius, gavęs pašalinimo užklausą iš kliento, gali pašalinti kliento duomenis naudodamas apžvalgos naikinimo funkciją. Norint surasti ir panaikinti kliento duomenis, moderatoriui reikia el. pašto adreso, kurį klientas naudojo prisijungdamas ir pateikdamas apžvalgas. 
 
-Norėdami rasti ir panaikinti kliento duomenis, atlikite šiuos veiksmus.
+Norėdami rasti ir panaikinti kliento duomenis „Commerce“ svetainių daryklėje, atlikite šiuos veiksmus.
 
 1. Eikite į **Pagrindinis \> Apžvalgos \>Naikinti**.
 1. Lauke **Ieškoti vartotojų pagal el. pašto adresą** įveskite kliento el. pašto adresą ir pasirinkite **Ieškoti**.
@@ -101,18 +93,18 @@ Norėdami rasti ir panaikinti kliento duomenis, atlikite šiuos veiksmus.
 
 ## <a name="download-ratings-and-reviews-data"></a>Įvertinimų ir apžvalgų duomenų atsisiuntimas
 
-Įvertinimų ir apžvalgų moderavimo įrankiu moderatoriai gali importuoti įvertinimų ir atsiliepimų duomenis masiškai, kad jie galėtų analizuoti tendencijas. Galimas „Power BI“ šablonas, kuriame yra pagrindinė metrika. Moderatoriai gali naudoti šį šabloną masiškai importuotiems duomenims sujungti ir peržiūrėti ataskaitų sritį. Jiems nebūtina sukurti tinkintą ataskaitų sritį. Moderatoriai taip pat gali tinkinti „Power BI“ šabloną, kad patenkintų konkrečius poreikius. 
+Naudodami „Commerce“ svetainių daryklę, moderatoriai gali importuoti įvertinimų ir atsiliepimų duomenis masiškai, kad galėtų analizuoti tendencijas. Galimas „Power BI“ šablonas, kuriame yra pagrindinė metrika. Moderatoriai gali naudoti šį šabloną masiškai importuotiems duomenims sujungti ir peržiūrėti ataskaitų sritį. Jiems nebūtina sukurti tinkintą ataskaitų sritį. Moderatoriai taip pat gali tinkinti „Power BI“ šabloną, kad patenkintų konkrečius poreikius. 
 
-Norėdami atsisiųsti įvertinimų ir apžvalgų duomenis, atlikite šiuos veiksmus.
+Norėdami atsisiųsti įvertinimų ir atsiliepimų duomenis „Commerce“ svetainių daryklėje, atlikite šiuos veiksmus.
 
 1. Eikite į **Pagrindinis \>Apžvalgos \> Pranešimas**.
-1. Norėdami atsisiųsti įvertinimų ir apžvalgų duomenis kableliais atskirtų reikšmių (CSV) formatu, pasirinkite **Atsisiųsti apžvalgų duomenis**.
+1. Norėdami atsisiųsti įvertinimų ir atsiliepimų duomenis kableliais atskirtų reikšmių (CSV) formatu, pasirinkite **Atsisiųsti atsiliepimų duomenis**.
 
 ## <a name="view-ratings-and-reviews-trends"></a>Įvertinimų ir apžvalgų tendencijų peržiūra
 
 Moderatoriai gali atsisiųsti „Power BI“ šabloną, kad galėtų peržiūrėti tendencijas ataskaitų srityje.
 
-Norėdami peržiūrėti įvertinimų ir apžvalgų tendencijas, atlikite šiuos veiksmus.
+Norėdami peržiūrėti įvertinimų ir atsiliepimų tendencijas „Commerce“ svetainių daryklėje, atlikite šiuos veiksmus.
 
 1. Eikite į **Pagrindinis \>Apžvalgos \> Pranešimas**.
 1. Pasirinkite **„PowerBI“ šablonas**, kad atsisiųstumėte šabloną.
