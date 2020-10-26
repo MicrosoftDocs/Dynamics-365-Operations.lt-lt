@@ -16,69 +16,69 @@ ms.custom: 19451
 ms.assetid: ec776b98-813a-490d-848f-468452d98fac
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: shylaw
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50849a173e74ad88dd10c6a30ea66c91b936e165
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 85e590322c75cfb2ad21236af56656061037a4b7
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201783"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3983530"
 ---
-# <a name="cost-objects"></a><span data-ttu-id="d54db-105">Savikainos objektai</span><span class="sxs-lookup"><span data-stu-id="d54db-105">Cost objects</span></span>
+# <a name="cost-objects"></a><span data-ttu-id="79610-105">Savikainos objektai</span><span class="sxs-lookup"><span data-stu-id="79610-105">Cost objects</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d54db-106">Šiame straipsnyje pateikiama informacija apie savikainos objektus ir paaiškinama, kaip kaupiamos savikainos ir kiekiai.</span><span class="sxs-lookup"><span data-stu-id="d54db-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="d54db-107">Savikainos objektas yra objektas, kuriam kaupiamos išlaidos ir kiekiai.</span><span class="sxs-lookup"><span data-stu-id="d54db-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="d54db-108">Savikainos objekto objektas gali būti produktas arba produkto variantas, pvz., stiliaus ir spalvos variantai.</span><span class="sxs-lookup"><span data-stu-id="d54db-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
+<span data-ttu-id="79610-106">Šiame straipsnyje pateikiama informacija apie savikainos objektus ir paaiškinama, kaip kaupiamos savikainos ir kiekiai.</span><span class="sxs-lookup"><span data-stu-id="79610-106">This article provides information about costs objects, and explains how costs and quantities are accumulated.</span></span> <span data-ttu-id="79610-107">Savikainos objektas yra objektas, kuriam kaupiamos išlaidos ir kiekiai.</span><span class="sxs-lookup"><span data-stu-id="79610-107">A cost object is an entity that costs and quantities are accumulated for.</span></span> <span data-ttu-id="79610-108">Savikainos objekto objektas gali būti produktas arba produkto variantas, pvz., stiliaus ir spalvos variantai.</span><span class="sxs-lookup"><span data-stu-id="79610-108">A cost object entity can be either a product or product variants, such as variants for style and color.</span></span>  
 
-## <a name="cost-objects"></a><span data-ttu-id="d54db-109">Savikainos objektai</span><span class="sxs-lookup"><span data-stu-id="d54db-109">Cost objects</span></span>
+## <a name="cost-objects"></a><span data-ttu-id="79610-109">Savikainos objektai</span><span class="sxs-lookup"><span data-stu-id="79610-109">Cost objects</span></span>
 
-<span data-ttu-id="d54db-110">**Išlaidų objektų** puslapyje išvardyti visi registruoti produkto išlaidų objektai.</span><span class="sxs-lookup"><span data-stu-id="d54db-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="d54db-111">Išlaidų objektai apibrėžiami pagal duomenis iš tolesnių šaltinių.</span><span class="sxs-lookup"><span data-stu-id="d54db-111">The cost objects are defined by data from the following sources:</span></span>
+<span data-ttu-id="79610-110">**Išlaidų objektų** puslapyje išvardyti visi registruoti produkto išlaidų objektai.</span><span class="sxs-lookup"><span data-stu-id="79610-110">The **Cost objects** page lists all cost objects that are registered on a product.</span></span> <span data-ttu-id="79610-111">Išlaidų objektai apibrėžiami pagal duomenis iš tolesnių šaltinių.</span><span class="sxs-lookup"><span data-stu-id="79610-111">The cost objects are defined by data from the following sources:</span></span>
 
--   <span data-ttu-id="d54db-112">Produktas</span><span class="sxs-lookup"><span data-stu-id="d54db-112">Product</span></span>
--   <span data-ttu-id="d54db-113">Produkto dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="d54db-113">Product dimension group</span></span>
--   <span data-ttu-id="d54db-114">Saugojimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="d54db-114">Storage dimension group</span></span>
--   <span data-ttu-id="d54db-115">Sekimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="d54db-115">Tracking dimension group</span></span>
+-   <span data-ttu-id="79610-112">Produktas</span><span class="sxs-lookup"><span data-stu-id="79610-112">Product</span></span>
+-   <span data-ttu-id="79610-113">Produkto dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="79610-113">Product dimension group</span></span>
+-   <span data-ttu-id="79610-114">Saugojimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="79610-114">Storage dimension group</span></span>
+-   <span data-ttu-id="79610-115">Sekimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="79610-115">Tracking dimension group</span></span>
 
-<span data-ttu-id="d54db-116">**Pastaba.** Išlaidų objektas atitinka tik **Tiesioginės medžiagos** tipo išlaidų elementą.</span><span class="sxs-lookup"><span data-stu-id="d54db-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="d54db-117">Išlaidų objektas ir atsargų objektas skiriasi tuo, kad išlaidų objektas apibrėžiamas pagal pasirinktas finansinių atsargų dimensijas.</span><span class="sxs-lookup"><span data-stu-id="d54db-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="d54db-118">Pavyzdžiui, prekės konfigūracija yra tokia, kokia pateikta toliau.</span><span class="sxs-lookup"><span data-stu-id="d54db-118">For example, an item has the following configuration:</span></span>
+<span data-ttu-id="79610-116">**Pastaba.** Išlaidų objektas atitinka tik **Tiesioginės medžiagos** tipo išlaidų elementą.</span><span class="sxs-lookup"><span data-stu-id="79610-116">**Note:** A cost object represents a cost element of the **Direct material** type only.</span></span> <span data-ttu-id="79610-117">Išlaidų objektas ir atsargų objektas skiriasi tuo, kad išlaidų objektas apibrėžiamas pagal pasirinktas finansinių atsargų dimensijas.</span><span class="sxs-lookup"><span data-stu-id="79610-117">A cost object and an inventory object differ in the way that a cost object is defined by the inventory dimensions that are selected for financial inventory.</span></span> <span data-ttu-id="79610-118">Pavyzdžiui, prekės konfigūracija yra tokia, kokia pateikta toliau.</span><span class="sxs-lookup"><span data-stu-id="79610-118">For example, an item has the following configuration:</span></span>
 
--   <span data-ttu-id="d54db-119">**Teritorija:** fizinės atsargos = taip, finansinės atsargos = taip</span><span class="sxs-lookup"><span data-stu-id="d54db-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
--   <span data-ttu-id="d54db-120">**Sandėlis:** fizinės atsargos = taip, finansinės atsargos = ne</span><span class="sxs-lookup"><span data-stu-id="d54db-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
--   <span data-ttu-id="d54db-121">**Paketo Nr.:** fizinės atsargos = taip, finansinės atsargos = ne</span><span class="sxs-lookup"><span data-stu-id="d54db-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="79610-119">**Teritorija:** fizinės atsargos = taip, finansinės atsargos = taip</span><span class="sxs-lookup"><span data-stu-id="79610-119">**Site:** Physical inventory = Yes, Financial inventory = Yes</span></span>
+-   <span data-ttu-id="79610-120">**Sandėlis:** fizinės atsargos = taip, finansinės atsargos = ne</span><span class="sxs-lookup"><span data-stu-id="79610-120">**Warehouse:** Physical inventory = Yes, Financial inventory = No</span></span>
+-   <span data-ttu-id="79610-121">**Paketo Nr.:** fizinės atsargos = taip, finansinės atsargos = ne</span><span class="sxs-lookup"><span data-stu-id="79610-121">**Batch No.:** Physical inventory = Yes, Financial inventory = No</span></span>
 
-<span data-ttu-id="d54db-122">Toliau pateikiamoje lentelėje parodyta, kas yra išlaidų objektas ir kas yra atsargų objektas.</span><span class="sxs-lookup"><span data-stu-id="d54db-122">The following table shows what is a cost object and what is an inventory object.</span></span>
+<span data-ttu-id="79610-122">Toliau pateikiamoje lentelėje parodyta, kas yra išlaidų objektas ir kas yra atsargų objektas.</span><span class="sxs-lookup"><span data-stu-id="79610-122">The following table shows what is a cost object and what is an inventory object.</span></span>
 
-| <span data-ttu-id="d54db-123">Objekto tipas</span><span class="sxs-lookup"><span data-stu-id="d54db-123">Object type</span></span>      | <span data-ttu-id="d54db-124">Prekės numeris</span><span class="sxs-lookup"><span data-stu-id="d54db-124">Item number</span></span> | <span data-ttu-id="d54db-125">Svetainė</span><span class="sxs-lookup"><span data-stu-id="d54db-125">Site</span></span> | <span data-ttu-id="d54db-126">Sandėlis</span><span class="sxs-lookup"><span data-stu-id="d54db-126">Warehouse</span></span> | <span data-ttu-id="d54db-127">Paketo nr.</span><span class="sxs-lookup"><span data-stu-id="d54db-127">Batch No.</span></span> |
+| <span data-ttu-id="79610-123">Objekto tipas</span><span class="sxs-lookup"><span data-stu-id="79610-123">Object type</span></span>      | <span data-ttu-id="79610-124">Prekės numeris</span><span class="sxs-lookup"><span data-stu-id="79610-124">Item number</span></span> | <span data-ttu-id="79610-125">Svetainė</span><span class="sxs-lookup"><span data-stu-id="79610-125">Site</span></span> | <span data-ttu-id="79610-126">Sandėlis</span><span class="sxs-lookup"><span data-stu-id="79610-126">Warehouse</span></span> | <span data-ttu-id="79610-127">Paketo nr.</span><span class="sxs-lookup"><span data-stu-id="79610-127">Batch No.</span></span> |
 |------------------|-------------|------|-----------|-----------|
-| <span data-ttu-id="d54db-128">Išlaidų objektas</span><span class="sxs-lookup"><span data-stu-id="d54db-128">Cost object</span></span>      | <span data-ttu-id="d54db-129">x</span><span class="sxs-lookup"><span data-stu-id="d54db-129">x</span></span>           | <span data-ttu-id="d54db-130">x</span><span class="sxs-lookup"><span data-stu-id="d54db-130">x</span></span>    |           |           |
-| <span data-ttu-id="d54db-131">Atsargų objektas</span><span class="sxs-lookup"><span data-stu-id="d54db-131">Inventory object</span></span> | <span data-ttu-id="d54db-132">x</span><span class="sxs-lookup"><span data-stu-id="d54db-132">x</span></span>           | <span data-ttu-id="d54db-133">x</span><span class="sxs-lookup"><span data-stu-id="d54db-133">x</span></span>    |  <span data-ttu-id="d54db-134">x</span><span class="sxs-lookup"><span data-stu-id="d54db-134">x</span></span>        | <span data-ttu-id="d54db-135">x</span><span class="sxs-lookup"><span data-stu-id="d54db-135">x</span></span>         |
+| <span data-ttu-id="79610-128">Išlaidų objektas</span><span class="sxs-lookup"><span data-stu-id="79610-128">Cost object</span></span>      | <span data-ttu-id="79610-129">x</span><span class="sxs-lookup"><span data-stu-id="79610-129">x</span></span>           | <span data-ttu-id="79610-130">x</span><span class="sxs-lookup"><span data-stu-id="79610-130">x</span></span>    |           |           |
+| <span data-ttu-id="79610-131">Atsargų objektas</span><span class="sxs-lookup"><span data-stu-id="79610-131">Inventory object</span></span> | <span data-ttu-id="79610-132">x</span><span class="sxs-lookup"><span data-stu-id="79610-132">x</span></span>           | <span data-ttu-id="79610-133">x</span><span class="sxs-lookup"><span data-stu-id="79610-133">x</span></span>    |  <span data-ttu-id="79610-134">x</span><span class="sxs-lookup"><span data-stu-id="79610-134">x</span></span>        | <span data-ttu-id="79610-135">x</span><span class="sxs-lookup"><span data-stu-id="79610-135">x</span></span>         |
 
-## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="d54db-136">Išlaidų ir kiekių kaupimas</span><span class="sxs-lookup"><span data-stu-id="d54db-136">Accumulation of costs and quantities</span></span>
--   <span data-ttu-id="d54db-137">Reikšmė **Vertės** lauke yra tolesnių reikšmių suma.</span><span class="sxs-lookup"><span data-stu-id="d54db-137">The value in the **Value** fieldis a sum of the following values:</span></span>
-    -   <span data-ttu-id="d54db-138">Fakt. išlaidų suma</span><span class="sxs-lookup"><span data-stu-id="d54db-138">Physical cost amount</span></span>
-    -   <span data-ttu-id="d54db-139">Fin. išlaidų suma</span><span class="sxs-lookup"><span data-stu-id="d54db-139">Financial cost amount</span></span>
-    -   <span data-ttu-id="d54db-140">Koregavimai</span><span class="sxs-lookup"><span data-stu-id="d54db-140">Adjustments</span></span>
--   <span data-ttu-id="d54db-141">Reikšmė **Kiekio** lauke yra tolesnių reikšmių suma.</span><span class="sxs-lookup"><span data-stu-id="d54db-141">The value in the **Quantity** field is a sum of the following values:</span></span>
-    -   <span data-ttu-id="d54db-142">Gauta</span><span class="sxs-lookup"><span data-stu-id="d54db-142">Received</span></span>
-    -   <span data-ttu-id="d54db-143">Išskaičiuota</span><span class="sxs-lookup"><span data-stu-id="d54db-143">Deducted</span></span>
-    -   <span data-ttu-id="d54db-144">Užregistruotas kiekis</span><span class="sxs-lookup"><span data-stu-id="d54db-144">Posted quantity</span></span>
--   <span data-ttu-id="d54db-145">**Vidutinės vieneto savikainos** laukas yra apskaičiuotasis laukas.</span><span class="sxs-lookup"><span data-stu-id="d54db-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="d54db-146">Reikšmė apskaičiuojama **Vertės** reikšmę padalijus iš **Kiekio** reikšmės.</span><span class="sxs-lookup"><span data-stu-id="d54db-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
+## <a name="accumulation-of-costs-and-quantities"></a><span data-ttu-id="79610-136">Išlaidų ir kiekių kaupimas</span><span class="sxs-lookup"><span data-stu-id="79610-136">Accumulation of costs and quantities</span></span>
+-   <span data-ttu-id="79610-137">Reikšmė **Vertės** lauke yra tolesnių reikšmių suma.</span><span class="sxs-lookup"><span data-stu-id="79610-137">The value in the **Value** fieldis a sum of the following values:</span></span>
+    -   <span data-ttu-id="79610-138">Fakt. išlaidų suma</span><span class="sxs-lookup"><span data-stu-id="79610-138">Physical cost amount</span></span>
+    -   <span data-ttu-id="79610-139">Fin. išlaidų suma</span><span class="sxs-lookup"><span data-stu-id="79610-139">Financial cost amount</span></span>
+    -   <span data-ttu-id="79610-140">Koregavimai</span><span class="sxs-lookup"><span data-stu-id="79610-140">Adjustments</span></span>
+-   <span data-ttu-id="79610-141">Reikšmė **Kiekio** lauke yra tolesnių reikšmių suma.</span><span class="sxs-lookup"><span data-stu-id="79610-141">The value in the **Quantity** field is a sum of the following values:</span></span>
+    -   <span data-ttu-id="79610-142">Gauta</span><span class="sxs-lookup"><span data-stu-id="79610-142">Received</span></span>
+    -   <span data-ttu-id="79610-143">Išskaičiuota</span><span class="sxs-lookup"><span data-stu-id="79610-143">Deducted</span></span>
+    -   <span data-ttu-id="79610-144">Užregistruotas kiekis</span><span class="sxs-lookup"><span data-stu-id="79610-144">Posted quantity</span></span>
+-   <span data-ttu-id="79610-145">**Vidutinės vieneto savikainos** laukas yra apskaičiuotasis laukas.</span><span class="sxs-lookup"><span data-stu-id="79610-145">The **Average unit cost** field is a calculated field.</span></span> <span data-ttu-id="79610-146">Reikšmė apskaičiuojama **Vertės** reikšmę padalijus iš **Kiekio** reikšmės.</span><span class="sxs-lookup"><span data-stu-id="79610-146">The value is calculated by dividing the **Value** value by the **Quantity** value.</span></span>
 
-<span data-ttu-id="d54db-147">**Pastaba.** Ankstesniems skaičiavimams parametras **Įtraukti fizinę vertę** įtakos neturi.</span><span class="sxs-lookup"><span data-stu-id="d54db-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
+<span data-ttu-id="79610-147">**Pastaba.** Ankstesniems skaičiavimams parametras **Įtraukti fizinę vertę** įtakos neturi.</span><span class="sxs-lookup"><span data-stu-id="79610-147">**Note:** The \*\*Include physical value \*\*parameter has no effect on the preceding calculations.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="d54db-148">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="d54db-148">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="79610-148">Papildomi ištekliai</span><span class="sxs-lookup"><span data-stu-id="79610-148">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="d54db-149">Produkto dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="d54db-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
+[<span data-ttu-id="79610-149">Produkto dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="79610-149">Product dimension group</span></span>](https://technet.microsoft.com/library/aa499382.aspx)
 
-[<span data-ttu-id="d54db-150">Saugojimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="d54db-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
+[<span data-ttu-id="79610-150">Saugojimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="79610-150">Storage dimension group</span></span>](https://technet.microsoft.com/library/hh209317.aspx)
 
-[<span data-ttu-id="d54db-151">Sekimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="d54db-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
+[<span data-ttu-id="79610-151">Sekimo dimensijų grupė</span><span class="sxs-lookup"><span data-stu-id="79610-151">Tracking dimension group</span></span>](https://technet.microsoft.com/library/hh209465.aspx)
 
-[<span data-ttu-id="d54db-152">Kas nauja ar pasikeitė</span><span class="sxs-lookup"><span data-stu-id="d54db-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
+[<span data-ttu-id="79610-152">Kas nauja ar pasikeitė</span><span class="sxs-lookup"><span data-stu-id="79610-152">What's new or changed</span></span>](../../fin-and-ops/get-started/whats-new-changed.md)
 
-[<span data-ttu-id="d54db-153">Savikainos įrašai</span><span class="sxs-lookup"><span data-stu-id="d54db-153">Cost entries</span></span>](cost-entries.md)
+[<span data-ttu-id="79610-153">Savikainos įrašai</span><span class="sxs-lookup"><span data-stu-id="79610-153">Cost entries</span></span>](cost-entries.md)
 
 
 
