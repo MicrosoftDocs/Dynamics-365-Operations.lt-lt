@@ -15,35 +15,35 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 25f3468838054ae6fbfefc399d59652081986ece
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c0d12e6b392156931ae2681d2804236305278811
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202312"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976848"
 ---
-# <a name="invoice-subscription-transactions"></a><span data-ttu-id="c0a5e-103">Abonementinės operacijos, kurioms išrašyta SF</span><span class="sxs-lookup"><span data-stu-id="c0a5e-103">Invoice subscription transactions</span></span> 
+# <a name="invoice-subscription-transactions"></a><span data-ttu-id="f8048-103">Abonementinės operacijos, kurioms išrašyta SF</span><span class="sxs-lookup"><span data-stu-id="f8048-103">Invoice subscription transactions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
 
-1.  <span data-ttu-id="c0a5e-104">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo abonementai** \> **Visi aptarnavimo abonementai**.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
+1.  <span data-ttu-id="f8048-104">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo abonementai** \> **Visi aptarnavimo abonementai**.</span><span class="sxs-lookup"><span data-stu-id="f8048-104">Click **Service management** \> **Common** \> **Service subscriptions** \> **All service subscriptions**.</span></span>
 
-2.  <span data-ttu-id="c0a5e-105">Pasirinkite paslaugos abonementą, tada spustelėkite **Redaguoti** arba **Abonementas**, kad sukurtumėte paslaugos abonementą.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-105">Select a service subscription and then click **Edit** or click **Subscription** to create a service subscription.</span></span>
+2.  <span data-ttu-id="f8048-105">Pasirinkite paslaugos abonementą, tada spustelėkite **Redaguoti** arba **Abonementas**, kad sukurtumėte paslaugos abonementą.</span><span class="sxs-lookup"><span data-stu-id="f8048-105">Select a service subscription and then click **Edit** or click **Subscription** to create a service subscription.</span></span>
 
-3.  <span data-ttu-id="c0a5e-106">Spustelėkite **Analizuoti** \> **Mokesčių operacijos**.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-106">Click **Analyze** \> **Fee transactions**.</span></span>
+3.  <span data-ttu-id="f8048-106">Spustelėkite **Analizuoti** \> **Mokesčių operacijos**.</span><span class="sxs-lookup"><span data-stu-id="f8048-106">Click **Analyze** \> **Fee transactions**.</span></span>
 
-4.  <span data-ttu-id="c0a5e-107">Pasirinkite vieną ar keletą mokesčio operacijų, kurių SF norite išrašyti, ir spustelėkite **Funkcijos** \> **SF pasiūlymas**, kad atidarytumėte formą **SF pasiūlymai**.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-107">Select the fee transaction or fee transactions to invoice, and then click **Functions** \> **Invoice proposal** to open the **Invoice proposals** form.</span></span>
+4.  <span data-ttu-id="f8048-107">Pasirinkite vieną ar keletą mokesčio operacijų, kurių SF norite išrašyti, ir spustelėkite **Funkcijos** \> **SF pasiūlymas**, kad atidarytumėte formą **SF pasiūlymai**.</span><span class="sxs-lookup"><span data-stu-id="f8048-107">Select the fee transaction or fee transactions to invoice, and then click **Functions** \> **Invoice proposal** to open the **Invoice proposals** form.</span></span>
 
-5.  <span data-ttu-id="c0a5e-108">Spustelėkite **Kurti SF** ir formoje **Kurti SF** įveskite tinkamus parametrus</span><span class="sxs-lookup"><span data-stu-id="c0a5e-108">Click **Create invoice** and enter the appropriate parameters in the **Create invoice** form</span></span>
+5.  <span data-ttu-id="f8048-108">Spustelėkite **Kurti SF** ir formoje **Kurti SF** įveskite tinkamus parametrus</span><span class="sxs-lookup"><span data-stu-id="f8048-108">Click **Create invoice** and enter the appropriate parameters in the **Create invoice** form</span></span>
 
-6.  <span data-ttu-id="c0a5e-109">Spustelėkite **Gerai**, kad formoje **SF pasiūlymai** sukurtumėte SF pasiūlymą.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-109">Click **OK** to create the invoice proposal in the **Invoice proposals** form.</span></span>
+6.  <span data-ttu-id="f8048-109">Spustelėkite **Gerai**, kad formoje **SF pasiūlymai** sukurtumėte SF pasiūlymą.</span><span class="sxs-lookup"><span data-stu-id="f8048-109">Click **OK** to create the invoice proposal in the **Invoice proposals** form.</span></span>
 
-7.  <span data-ttu-id="c0a5e-110">Patvirtinkite SF turinį, norėdami registruoti SF spustelėkite **Registruoti SF**, kad atidarytumėte formą **Registruoti SF**.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-110">Verify the contents of the invoice, click **Post invoice** to open the **Post invoice** form to post the invoice.</span></span> <span data-ttu-id="c0a5e-111">Be to, SF galima išspausdinti iš formos **Registruoti SF**.</span><span class="sxs-lookup"><span data-stu-id="c0a5e-111">You can also print the invoice from the **Post invoice** form.</span></span>
+7.  <span data-ttu-id="f8048-110">Patvirtinkite SF turinį, norėdami registruoti SF spustelėkite **Registruoti SF**, kad atidarytumėte formą **Registruoti SF**.</span><span class="sxs-lookup"><span data-stu-id="f8048-110">Verify the contents of the invoice, click **Post invoice** to open the **Post invoice** form to post the invoice.</span></span> <span data-ttu-id="f8048-111">Be to, SF galima išspausdinti iš formos **Registruoti SF**.</span><span class="sxs-lookup"><span data-stu-id="f8048-111">You can also print the invoice from the **Post invoice** form.</span></span>
 
   
 

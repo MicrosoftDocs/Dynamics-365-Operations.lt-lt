@@ -15,42 +15,42 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5911a3c48d7ddd7dc705cb90fd72b821a2ae1921
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 5aef889641a677838dcebe97451e057f2bfbeada
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3202220"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3978215"
 ---
-# <a name="move-service-order-lines"></a><span data-ttu-id="b4a6e-103">Perkelti aptarnavimo užsakymo eilutes</span><span class="sxs-lookup"><span data-stu-id="b4a6e-103">Move service order lines</span></span> 
+# <a name="move-service-order-lines"></a><span data-ttu-id="7b061-103">Perkelti aptarnavimo užsakymo eilutes</span><span class="sxs-lookup"><span data-stu-id="7b061-103">Move service order lines</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="b4a6e-104">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="7b061-104">Spustelėkite **Aptarnavimo valdymas** \> **Bendra** \> **Aptarnavimo užsakymai** \> **Aptarnavimo užsakymai**.</span><span class="sxs-lookup"><span data-stu-id="7b061-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="b4a6e-105">Dukart spustelėkite aptarnavimo užsakymą, kuriame yra eilutės, kurias norite perkelti į kitą aptarnavimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
+2.  <span data-ttu-id="7b061-105">Dukart spustelėkite aptarnavimo užsakymą, kuriame yra eilutės, kurias norite perkelti į kitą aptarnavimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="7b061-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
 
-3.  <span data-ttu-id="b4a6e-106">Veiklos srityje esančioje formoje **Aptarnavimo užsakymai** spustelėkite mygtuką **Perkelti eilutes**.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
+3.  <span data-ttu-id="7b061-106">Veiklos srityje esančioje formoje **Aptarnavimo užsakymai** spustelėkite mygtuką **Perkelti eilutes**.</span><span class="sxs-lookup"><span data-stu-id="7b061-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
 
-4.  <span data-ttu-id="b4a6e-107">Formos **Perkelti aptarnavimo užsakymo eilutes** lauke **Aptarnavimo užsakymas** pasirinkite aptarnavimo užsakymą, į kurį norite perkelti eilutes.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
+4.  <span data-ttu-id="7b061-107">Formos **Perkelti aptarnavimo užsakymo eilutes** lauke **Aptarnavimo užsakymas** pasirinkite aptarnavimo užsakymą, į kurį norite perkelti eilutes.</span><span class="sxs-lookup"><span data-stu-id="7b061-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
 
-5.  <span data-ttu-id="b4a6e-108">Pažymėkite žymės langelį **Naikinti tuščią aptarnavimo užsakymą**, jei norite naikinti tą aptarnavimo užsakymą, iš kurio perkėlėte aptarnavimo užsakymo eilutes.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
+5.  <span data-ttu-id="7b061-108">Pažymėkite žymės langelį **Naikinti tuščią aptarnavimo užsakymą**, jei norite naikinti tą aptarnavimo užsakymą, iš kurio perkėlėte aptarnavimo užsakymo eilutes.</span><span class="sxs-lookup"><span data-stu-id="7b061-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
 
-6.  <span data-ttu-id="b4a6e-109">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-109">Click **OK**.</span></span>
+6.  <span data-ttu-id="7b061-109">Spustelėkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="7b061-109">Click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="b4a6e-110">Aptarnavimo užsakymo eilutes galite perkelti tik tuose aptarnavimo užsakymuose, kurie pridėti prie tos pačios aptarnavimo sutarties.</span><span class="sxs-lookup"><span data-stu-id="b4a6e-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
+> <P><span data-ttu-id="7b061-110">Aptarnavimo užsakymo eilutes galite perkelti tik tuose aptarnavimo užsakymuose, kurie pridėti prie tos pačios aptarnavimo sutarties.</span><span class="sxs-lookup"><span data-stu-id="7b061-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="b4a6e-111">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="b4a6e-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7b061-111">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="7b061-111">See also</span></span>
 
-[<span data-ttu-id="b4a6e-112">Aptarnavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="b4a6e-112">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="7b061-112">Aptarnavimo užsakymai</span><span class="sxs-lookup"><span data-stu-id="7b061-112">Service orders</span></span>](service-orders.md)
 
   
 

@@ -12,29 +12,29 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7ac02bfc0e9981e3dff6bba350b0748946862b4
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b0339b3c90817540f7ae58b903c8b5e6383eb938
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142345"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3976168"
 ---
-# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="50e72-103">Kurti savikainos apskaitos didžiąją knygą</span><span class="sxs-lookup"><span data-stu-id="50e72-103">Create a cost accounting ledger</span></span>
+# <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="9009e-103">Kurti savikainos apskaitos didžiąją knygą</span><span class="sxs-lookup"><span data-stu-id="9009e-103">Create a cost accounting ledger</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="50e72-104">Išlaidų apskaitos didžioji knyga atitinka visą atsiskaitantį vienetą.</span><span class="sxs-lookup"><span data-stu-id="50e72-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="50e72-105">Apibrėžia išlaidų elemento dimensija, statistikos dimensija, finansinis kalendorius ir valiuta.</span><span class="sxs-lookup"><span data-stu-id="50e72-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="50e72-106">Sąvoka juridiniai subjektai nesuprantama.</span><span class="sxs-lookup"><span data-stu-id="50e72-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="50e72-107">Juridinis subjektas ir jo duomenys gali būti susieti su daugeliu savikainos apskaitos didžiųjų knygų.</span><span class="sxs-lookup"><span data-stu-id="50e72-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="50e72-108">Šiame įraše naudojama demonstracinių duomenų įmonė USP2.</span><span class="sxs-lookup"><span data-stu-id="50e72-108">This recording uses the USP2 demo data company.</span></span>
+<span data-ttu-id="9009e-104">Išlaidų apskaitos didžioji knyga atitinka visą atsiskaitantį vienetą.</span><span class="sxs-lookup"><span data-stu-id="9009e-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="9009e-105">Apibrėžia išlaidų elemento dimensija, statistikos dimensija, finansinis kalendorius ir valiuta.</span><span class="sxs-lookup"><span data-stu-id="9009e-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="9009e-106">Sąvoka juridiniai subjektai nesuprantama.</span><span class="sxs-lookup"><span data-stu-id="9009e-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="9009e-107">Juridinis subjektas ir jo duomenys gali būti susieti su daugeliu savikainos apskaitos didžiųjų knygų.</span><span class="sxs-lookup"><span data-stu-id="9009e-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="9009e-108">Šiame įraše naudojama demonstracinių duomenų įmonė USP2.</span><span class="sxs-lookup"><span data-stu-id="9009e-108">This recording uses the USP2 demo data company.</span></span>
 
-1. <span data-ttu-id="50e72-109">Eikite į Savikainos apskaita > Didžiosios knygos nustatymas > Savikainos apskaitos didžiosios knygos.</span><span class="sxs-lookup"><span data-stu-id="50e72-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
-2. <span data-ttu-id="50e72-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="50e72-110">Click New.</span></span>
-3. <span data-ttu-id="50e72-111">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="50e72-111">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="50e72-112">Lauke Savikainos elementų dimensija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="50e72-112">In the Cost element dimension field, enter or select a value.</span></span>
-5. <span data-ttu-id="50e72-113">Lauke Finansinis kalendorius įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="50e72-113">In the Fiscal calendar field, enter or select a value.</span></span>
-6. <span data-ttu-id="50e72-114">Lauke Apskaitos valiuta įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="50e72-114">In the Accounting currency field, enter or select a value.</span></span>
-7. <span data-ttu-id="50e72-115">Lauke Keitimo kurso tipas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="50e72-115">In the Exchange rate type field, enter or select a value.</span></span>
-8. <span data-ttu-id="50e72-116">Lauke Statistikos dimensija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="50e72-116">In the Statistical dimension field, enter or select a value.</span></span>
-9. <span data-ttu-id="50e72-117">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="50e72-117">Click Save.</span></span>
+1. <span data-ttu-id="9009e-109">Eikite į Savikainos apskaita > Didžiosios knygos nustatymas > Savikainos apskaitos didžiosios knygos.</span><span class="sxs-lookup"><span data-stu-id="9009e-109">Go to Cost accounting > Ledger setup > Cost accounting ledgers.</span></span>
+2. <span data-ttu-id="9009e-110">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="9009e-110">Click New.</span></span>
+3. <span data-ttu-id="9009e-111">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9009e-111">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="9009e-112">Lauke Savikainos elementų dimensija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9009e-112">In the Cost element dimension field, enter or select a value.</span></span>
+5. <span data-ttu-id="9009e-113">Lauke Finansinis kalendorius įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9009e-113">In the Fiscal calendar field, enter or select a value.</span></span>
+6. <span data-ttu-id="9009e-114">Lauke Apskaitos valiuta įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9009e-114">In the Accounting currency field, enter or select a value.</span></span>
+7. <span data-ttu-id="9009e-115">Lauke Keitimo kurso tipas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9009e-115">In the Exchange rate type field, enter or select a value.</span></span>
+8. <span data-ttu-id="9009e-116">Lauke Statistikos dimensija įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="9009e-116">In the Statistical dimension field, enter or select a value.</span></span>
+9. <span data-ttu-id="9009e-117">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="9009e-117">Click Save.</span></span>
 

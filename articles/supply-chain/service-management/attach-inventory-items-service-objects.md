@@ -15,38 +15,38 @@ ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: ShylaThompson
+ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4be7d686f8157307f4b89f03a082446533a866a1
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: c606d784b52b09578e09243c3ecc07ca05f16755
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203071"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3980464"
 ---
-# <a name="attach-inventory-items-to-service-objects"></a><span data-ttu-id="0007f-103">Atsargų prekių pridėjimas prie aptarnavimo objektų</span><span class="sxs-lookup"><span data-stu-id="0007f-103">Attach inventory items to service objects</span></span>    
+# <a name="attach-inventory-items-to-service-objects"></a><span data-ttu-id="aaff6-103">Atsargų prekių pridėjimas prie aptarnavimo objektų</span><span class="sxs-lookup"><span data-stu-id="aaff6-103">Attach inventory items to service objects</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="0007f-104">Šioje temoje paaiškinama, kaip prie aptarnavimo objekto pridėti atsargų prekę.</span><span class="sxs-lookup"><span data-stu-id="0007f-104">This topic explains how to attach an inventory item to a service object.</span></span> <span data-ttu-id="0007f-105">Pridėdami prekę prie aptarnavimo objekto, galite kontroliuoti ir skelbti prekės aptarnavimo veiklas, kurios atliekamos prekei.</span><span class="sxs-lookup"><span data-stu-id="0007f-105">When you attach an item to a service object, you can control and report the service activities that are performed for the item.</span></span>
+<span data-ttu-id="aaff6-104">Šioje temoje paaiškinama, kaip prie aptarnavimo objekto pridėti atsargų prekę.</span><span class="sxs-lookup"><span data-stu-id="aaff6-104">This topic explains how to attach an inventory item to a service object.</span></span> <span data-ttu-id="aaff6-105">Pridėdami prekę prie aptarnavimo objekto, galite kontroliuoti ir skelbti prekės aptarnavimo veiklas, kurios atliekamos prekei.</span><span class="sxs-lookup"><span data-stu-id="aaff6-105">When you attach an item to a service object, you can control and report the service activities that are performed for the item.</span></span>
 
-<span data-ttu-id="0007f-106">Prieš pridėdami prekes prie aptarnavimo objekto, formoje **Patvirtinto produkto informacija** turite sukurti prekes.</span><span class="sxs-lookup"><span data-stu-id="0007f-106">Before you can attach items to service objects, you must create the items in the **Released product details** form.</span></span> 
+<span data-ttu-id="aaff6-106">Prieš pridėdami prekes prie aptarnavimo objekto, formoje **Patvirtinto produkto informacija** turite sukurti prekes.</span><span class="sxs-lookup"><span data-stu-id="aaff6-106">Before you can attach items to service objects, you must create the items in the **Released product details** form.</span></span> 
 
-<span data-ttu-id="0007f-107">Norėdami prie aptarnavimo objekto pridėti atsargų prekę, atlikite nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="0007f-107">Use the following steps to attach an inventory item to a service object:</span></span>
+<span data-ttu-id="aaff6-107">Norėdami prie aptarnavimo objekto pridėti atsargų prekę, atlikite nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="aaff6-107">Use the following steps to attach an inventory item to a service object:</span></span>
 
-1.  <span data-ttu-id="0007f-108">Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Aptarnavimo objektai**.</span><span class="sxs-lookup"><span data-stu-id="0007f-108">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+1.  <span data-ttu-id="aaff6-108">Spustelėkite **Aptarnavimo valdymas** \> **Sąranka** \> **Aptarnavimo objektai** \> **Aptarnavimo objektai**.</span><span class="sxs-lookup"><span data-stu-id="aaff6-108">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
 
-2.  <span data-ttu-id="0007f-109">Lauke **Prekės numeris** pasirinkite prekę, kurią norite pridėti prie aptarnavimo objekto.</span><span class="sxs-lookup"><span data-stu-id="0007f-109">In the **Item number** field, select the item to attach to the service object.</span></span>
+2.  <span data-ttu-id="aaff6-109">Lauke **Prekės numeris** pasirinkite prekę, kurią norite pridėti prie aptarnavimo objekto.</span><span class="sxs-lookup"><span data-stu-id="aaff6-109">In the **Item number** field, select the item to attach to the service object.</span></span>
 
-3.  <span data-ttu-id="0007f-110">Aptarnavimo objekto įrašymas.</span><span class="sxs-lookup"><span data-stu-id="0007f-110">Save the service object.</span></span>
+3.  <span data-ttu-id="aaff6-110">Aptarnavimo objekto įrašymas.</span><span class="sxs-lookup"><span data-stu-id="aaff6-110">Save the service object.</span></span>
 
-<span data-ttu-id="0007f-111">Prekė pridėta prie aptarnavimo objekto ir bet kokios atsargų dimensijos, nurodytos prekei, taip pat yra kopijuojamos į aptarnavimo objektą.</span><span class="sxs-lookup"><span data-stu-id="0007f-111">The item is now attached to the service object, and any inventory dimensions specified for the item are also copied to the service object.</span></span>
+<span data-ttu-id="aaff6-111">Prekė pridėta prie aptarnavimo objekto ir bet kokios atsargų dimensijos, nurodytos prekei, taip pat yra kopijuojamos į aptarnavimo objektą.</span><span class="sxs-lookup"><span data-stu-id="aaff6-111">The item is now attached to the service object, and any inventory dimensions specified for the item are also copied to the service object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0007f-112">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="0007f-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aaff6-112">Taip pat žiūrėkite</span><span class="sxs-lookup"><span data-stu-id="aaff6-112">See also</span></span>
 
-[<span data-ttu-id="0007f-113">Aptarnavimo objektų apžvalga</span><span class="sxs-lookup"><span data-stu-id="0007f-113">Service objects overview</span></span>](service-objects.md)
+[<span data-ttu-id="aaff6-113">Aptarnavimo objektų apžvalga</span><span class="sxs-lookup"><span data-stu-id="aaff6-113">Service objects overview</span></span>](service-objects.md)
 
   
 
