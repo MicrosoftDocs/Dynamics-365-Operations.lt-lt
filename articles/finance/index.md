@@ -14,15 +14,15 @@ ms.search.scope: Core, Operations
 ms.custom: 206434
 ms.assetid: 8a6238bd-9d6f-48d9-8752-3966836364a4
 ms.search.region: Global
-ms.author: shylaw
+ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 797c549623a727e92a3dbe5e3457e1ddc09a5b0a
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: c39d8ea92b5482b32e27d433b745151373553120
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000330"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3987519"
 ---
 # <a name="finance-home-page"></a>„Finance“ pagrindinis puslapis
 
@@ -60,7 +60,7 @@ Pasirinkite funkcijų sritį, apie kurią norite sužinoti daugiau.
 - [„Microsoft Dynamics Operations“ partnerių bendruomenės tinklaraštis](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
 
 ### <a name="task-guides"></a>Užduočių vedliai
-Programoje „Finance and Operations“ papildoma pagalba prieinama kaip užduočių vedliai. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
+Papildoma pagalba prieinama kaip užduočių vedliai programoje „Finance and Operations‟. Norėdami pasiekti užduočių vedlius, bet kuriame puslapyje spustelėkite mygtuką Žinynas.
 
 ### <a name="videos"></a>Vaizdo įrašai
 

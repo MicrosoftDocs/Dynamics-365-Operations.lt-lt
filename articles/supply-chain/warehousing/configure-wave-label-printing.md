@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: v-olbara
+ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 49e0ef1b3020cd1236203c0f243f145dd7a7c10d
-ms.sourcegitcommit: 137e2bd30f0a85bd2e1baf1cf16b993edd2094f9
+ms.openlocfilehash: e3b04eea7bd7dd689f8a918820ffdb4a72d813dc
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "3546450"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3986028"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Nustatykite ir naudokite bangos žymos spausdinimą
 
@@ -47,7 +47,7 @@ Bangos žymos spausdinimas siūlo šiuo pagerinimus:
 - Etikečių naujas spausdinimas mobiliame prietaise ir praturtintame kliente.
 - Panaikinkite žymes (pavyzdžiui, trumpo paėmimo scenarijuose) ir spausdinkite juos dar kartą.
 - Išvalykite bangos žymės istoriją.
-- Dokumento maršruto pagerinimais yra dalijimasi tarp dokumento maršruto maketų ir bangos žymos maketų. Dėl išsamesnės informacijos, žr. [Dokumento maršruto maketas licencijų numeriams](../warehousing/document-routing-layout-for-license-plates.md).)
+- Dokumento maršruto pagerinimais yra dalijimasi tarp dokumento maršruto maketų ir bangos žymos maketų. (Dėl išsamesnės informacijos, žr. [Dokumento maršruto maketas licencijų numeriams](../warehousing/document-routing-layout-for-license-plates.md).)
 
 Šie pagerinimai padaro žymos dėžes efektyvesnes prieš sudėjimą ant padėklų. Jie ypač pasitarnauja bendrovėms siunčiančioms dideliems prekybininkams, kurie automatiškai patvirtina užsakymo kvitą nuskaitydami kiekvieną dėžę atskirai.
 

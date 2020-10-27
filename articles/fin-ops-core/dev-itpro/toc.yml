@@ -14,6 +14,8 @@
               items:
                 - name: Kas nauja ar pasikeitė „Platform“ naujinimuose pagrindinis puslapis
                   href: get-started/whats-new-home-page.md
+                - name: "„Platform“ naujinimai, skirti 10.0.15 (2021\_m. sausio mėn.)"
+                  href: get-started/whats-new-platform-updates-10-0-15.md
                 - name: "„Platform” naujinimai, skirti 10.0.14 (2020\_m. lapkričio mėn.)"
                   href: get-started/whats-new-platform-updates-10-0-14.md
                 - name: "„Platform” naujinimai, skirti 10.0.13 (2020\_m. spalio mėn.)"
@@ -236,6 +238,8 @@
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Bendras problemų sprendimas
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Dažnai užduodami klausimai apie dvigubą rašymą
+                          href: data-entities/dual-write/dual-write-faq.md
                     - name: Integravimas su „Power Platform“
                       items:
                         - name: Potencialaus kliento pavertimo pinigais scenarijaus konfigūravimas
@@ -386,6 +390,8 @@
           items:
             - name: Apžvalga
               href: database/dbmovement-operations.md
+            - name: Duomenų bazės perkėlimo įrankių rinkinys
+              href: database/database-movement-toolkit.md
             - name: Greito pasirengimo darbui vadovai
               items:
                 - name: Duomenų bazės atnaujinimas
@@ -1564,6 +1570,8 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: AX 2012 versijos naujinimas – išankstinis duomenų naujinimo kontrolinis sąrašas
                   href: migration-upgrade/prepare-data-upgrade.md
+                - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose vykdant DACPAC procesą
+                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: AX 2012 versijos naujinimas – duomenų plėtojimas smėlio dėžės aplinkose
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: AX 2012 versijos naujinimas – vietinės aplinkos

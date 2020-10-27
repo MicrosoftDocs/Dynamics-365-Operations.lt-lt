@@ -14,15 +14,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 266884
 ms.search.region: Lithuania
-ms.author: v-elgolu
+ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 75ba2dd220282663f81c615cecdab894b96549df
-ms.sourcegitcommit: 0223e2d2276b9482f6ffdad643fc6a746f3b8469
+ms.openlocfilehash: d4f148c9ea5053384c2547ffc2a4d9cc362c11ef
+ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "3714653"
+ms.lasthandoff: 10/10/2020
+ms.locfileid: "3984684"
 ---
 # <a name="isaf-reporting-for-lithuania"></a>i.SAF ataskaitų pateikimas Lietuvoje
 

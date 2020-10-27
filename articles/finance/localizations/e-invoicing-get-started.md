@@ -3,7 +3,7 @@ title: Darbo su elektroninių SF išrašymo priedu pradžia
 description: Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu „Microsoft Dynamics 365 Finance” ir „Dynamics 365 Supply Chain Management”.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 10/08/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 61933bb846383932d7dd73e9c4d3c2db7a515a98
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
+ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836004"
+ms.lasthandoff: 10/08/2020
+ms.locfileid: "3971477"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Darbo su elektroninių SF išrašymo priedu pradžia
 
@@ -62,7 +62,7 @@ Elektroninių SF išrašymo priedą galite naudoti su jūsų dabartine licencija
 Prieš atlikdami šioje temoje esančius veiksmus, turite įvykdyti toliau nurodytas būtinąsias sąlygas.
 
 - Prieiga prie jūsų LCS abonemento.
-- LCS diegimo projektas, kuriame yra „Finance” arba „Supply Chain Management” 10.0.12 ar naujesnė versija.
+- LCS diegimo projektas, kuriame yra „Finance” arba „Supply Chain Management” 10.0.13 ar naujesnė versija.
 - Prieiga prie jūsų RCS abonemento.
 - Įjunkite jūsų RCS abonemento globalizacijos funkciją naudodami modulį **Funkcijų valdymas**. Daugiau informacijos žr. [„Regulatory Configuration Services“ (RCS) – globalizacijos funkcijos](rcs-globalization-feature.md)
 - Sukurkite raktų saugyklos išteklius ir saugyklos abonementą „Azure”. Daugiau informacijos žr. [„Azure” saugyklos abonemento ir „Key Vault” kūrimas](e-invoicing-create-azure-storage-account-key-vault.md).
@@ -85,16 +85,18 @@ Toliau pateiktame paveikslėlyje nurodyti penki pagrindiniai veiksmai, kuriuos a
 ## <a name="lcs-setup"></a>LCS sąranka
 
 1. Prisijunkite prie jūsų LCS abonemento.
-2. Pasirinkite LCS diegimo projektą. Kad galėtumėte pasirinkti projektą, jis turi būti nustatytas ir vykdomas.
-3. „FastTab” **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
-4. Pasirinkite **Verslo dokumentų pateikimas**.
-5. Dialogo lango **Papildinio nustatymas** lauke **AAD programos ID** įveskite **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Ši vertė yra fiksuota vertė.
-6. Lauke **AAD nuomotojo ID** įveskite jūsų „Azure” prenumeratos abonemento ID.
+2. Pasirinkite plytelę **Peržiūros funkcijų valdymas** ir laukų grupėje **Viešosios peržiūros funkcijos** pasirinkite **BusinessDocumentSubmission**.
+3. Pažymėkite lauką **Peržiūros funkcija įjungta**.
+4. Pasirinkite LCS diegimo projektą. Kad galėtumėte pasirinkti projektą, jis turi būti nustatytas ir vykdomas.
+5. „FastTab” **Aplinkos papildiniai** pasirinkite **Diegti naują papildinį**.
+6. Pasirinkite **Verslo dokumentų pateikimas**.
+7. Dialogo lango **Papildinio nustatymas** lauke **AAD programos ID** įveskite **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Ši vertė yra fiksuota vertė.
+8. Lauke **AAD nuomotojo ID** įveskite jūsų „Azure” prenumeratos abonemento ID.
 
     ![Dialogo langas Papildinio nustatymas, esantis LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
 
-7. Pažymėkite žymės langelį, kad sutiktumėte su sąlygomis.
-8. Pasirinkti **Diegti**.
+9. Pažymėkite žymės langelį, kad sutiktumėte su sąlygomis.
+10. Pasirinkti **Diegti**.
 
 ## <a name="rcs-setup"></a>RCS sąranka
 
@@ -124,7 +126,7 @@ RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
     ![„Key Vault” URI laukas](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
-7. „FastTab” **Sertifikatai** pasirinkite **Įtraukti** ir įveskite skaitmeninių sertifikatų pavadinimus bei raktų saugyklos slaptuosius raktus. Abu reikšmių rinkiniai yra sukonfigūruoti raktų saugyklos ištekliuose „Azure”.
+7. Norėdami įvesti visus skaitmeninių sertifikatų pavadinimus ir raktų saugyklos slaptuosius raktus, kurių reikia norint nustatyti patikimus ryšius, „FastTab” **Sertifikatai** pasirinkite **Įtraukti**. Stulpelyje **Tipas** galite nurodyti, ar tai sertifikatas, ar slaptasis raktas. Abu reikšmių rinkiniai yra sukonfigūruoti raktų saugyklos ištekliuose „Azure”.
 
     ![Sertifikatų įtraukimas](media/e-invoicing-services-get-started-add-digital-certificates.png)
 
@@ -132,9 +134,9 @@ RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
 ### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>RCS integravimo su elektroninių SF išrašymo priedo serveriu nustatymas
 
-1. Darbo srities **Globalizacijos funkcijos** dalyje **Susiję saitai** pasirinkite saitą **Elektroninių ataskaitų parametrai**.
+1. Darbo srities **Globalizacijos funkcijos** dalyje **Susiję parametrai** pasirinkite saitą **Elektroninių ataskaitų parametrai**.
 2. Pasirinkite **Spustelėkite čia, kad prisijungtumėte prie „Lifecycle Services”**. Jei nenorite prisijungti prie LCS, pasirinkite **Atšaukti**.
-3. Skirtuko **Elektroninių SF išrašymo priedas** lauke **Paslaugos galinio punkto URI** įveskite `https://businessdocumentsubmission.us.operations365.dynamics.com/`.
+3. Skirtuko **El. SF išrašymo paslaugos** lauke **Paslaugos galinio punkto URI** įveskite reikšmę, atsižvelgdami į galimus regionus: `https://businessdocumentsubmission.us.operations365.dynamics.com/` arba `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
 4. Lauke **Programos ID** patvirtinkite, kad nurodytas ID **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Ši vertė yra fiksuota vertė.
 5. Lauke **LCS aplinkos ID** įveskite jūsų LCS prenumeratos abonemento ID.
 

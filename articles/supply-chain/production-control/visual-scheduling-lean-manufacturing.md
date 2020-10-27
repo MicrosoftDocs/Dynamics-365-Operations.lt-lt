@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6710dcb1cb53e7221b03b35ceee5ac8e055b6dd2
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
+ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826411"
+ms.lasthandoff: 10/05/2020
+ms.locfileid: "3958746"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>„Lean manufacturing“ vaizdinis planavimas
 
@@ -61,7 +61,7 @@ Puslapyje **„Kanban“ grafiko sritis** yra septyni pagrindiniai elementai, ka
 
 ### <a name="view-the-time-scale"></a>Peržiūrėti laiko skalę
 
-Sritis yra padalyta į laikotarpius, iš kurių kiekvienas pateikiamas kaip mazgas (4). Laikotarpio mazgai yra išvardyti vertikalioje ašyje, o horizontali prieiga reiškia laiko skalę (7), kurioje pateikta laikotarpio trukmė. Laikotarpio ilgis yra viena diena arba savaitė. Laikotarpio ilgis priklauso nuo darbo elemento, kuris pasirinktas „Kanban“ grafiko srityje (2), konfigūracijos. Dėl kiekvieno laikotarpio mazgo „Kanban“ grafiko sritis nurodo, kiek laikotarpyje yra suplanuotų „kanban“ užduočių. Be to, nurodomas didžiausias laikotarpio našumas. Jei suplanuotas našumas viršija didžiausią našumą, laikotarpis laikomas perkrautu ir atsiranda raudonas įspėjimo simbolis. Suplanuota „kanban“ užduotis atsiranda laikotarpyje, kuris turi suplanuotą pradžios ir pabaigos laiką (5). Užduoties trukmė yra lygi veiklos laikui. „Kanban“ užduotys laikotarpyje rodomos kaip persidengiančios, jeigu jų veiklos laikas viršija darbo elemento vieneto gamybos laiką.
+Sritis yra padalyta į laikotarpius, iš kurių kiekvienas pateikiamas kaip mazgas (4). Laikotarpio mazgai pateikti vertikalioje ašyje, o horizontali ašis atitinka laiko skalę (7), kurioje pateikta laikotarpio trukmė. Laikotarpio ilgis yra viena diena arba savaitė. Laikotarpio ilgis priklauso nuo darbo elemento, kuris pasirinktas „Kanban“ grafiko srityje (2), konfigūracijos. Dėl kiekvieno laikotarpio mazgo „Kanban“ grafiko sritis nurodo, kiek laikotarpyje yra suplanuotų „kanban“ užduočių. Be to, nurodomas didžiausias laikotarpio našumas. Jei suplanuotas našumas viršija didžiausią našumą, laikotarpis laikomas perkrautu ir atsiranda raudonas įspėjimo simbolis. Suplanuota „kanban“ užduotis atsiranda laikotarpyje, kuris turi suplanuotą pradžios ir pabaigos laiką (5). Užduoties trukmė yra lygi veiklos laikui. „Kanban“ užduotys laikotarpyje rodomos kaip persidengiančios, jeigu jų veiklos laikas viršija darbo elemento užduoties laiką.
 
 ### <a name="view-job-status"></a>Peržiūrėti užduoties būseną
 

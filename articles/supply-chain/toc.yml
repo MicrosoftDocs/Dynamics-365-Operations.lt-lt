@@ -70,12 +70,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Supply Chain Management 10.0.15“ (2020 m. gruodžio mėn.)
+                      href: get-started/whats-new-scm-10-0-15.md
                     - name: „Supply Chain Management 10.0.14“ (2020 m. lapkričio mėn.)
                       href: get-started/whats-new-scm-10-0-14.md
                     - name: „Supply Chain Management 10.0.13“ (2020 m. spalio mėn.)
                       href: get-started/whats-new-scm-10-0-13.md
-                    - name: „Supply Chain Management 10.0.12“ (2020 m. rugpjūčio mėn.)
-                      href: get-started/whats-new-scm-10-0-12.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -194,6 +194,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/supply-chain/toc.json
                 - name: LCS diegimo projektų perkėlimas į skirtingus „Azure AD“ nuomotojus
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/supply-chain/toc.json
+                - name: LCS diegimo projektų perkėlimas iš vietinių aplinkų į debesį
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Keli LCS projektai ir gamybos aplinkos viename „Azure AD“ nuomotojuje
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/supply-chain/toc.json
         - name: Globalizacija
@@ -202,6 +204,10 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/supply-chain/toc.json
             - name: Reglamentavimo naujinimai
               href: ../finance/localizations/regulatory-updates.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Indija
+              items:
+                - name: Atsargų perkėlimo užsakymai
+                  href: ../finance/localizations/apac-ind-stock-transfer.md
             - name: Rusija
               items:
                 - name: Rusijos apžvalga
@@ -1407,6 +1413,8 @@
                   href: master-planning/supply-chain-calendars-master-planning.md
                 - name: Bendrojo planavimo efektyvumo patobulinimas
                   href: master-planning/master-planning-performance.md
+                - name: Planavimo mechanizmo našumo tobulinimas
+                  href: master-planning/scheduling-engine-performance.md
                 - name: Bendrieji planai ir kelių teritorijų funkcija
                   items:
                     - name: Bendrojo planavimo ir kelių teritorijų funkcijos apžvalga
@@ -1939,6 +1947,8 @@
                       href: pim/tasks/maintain-bom-product-configuration-model.md
                     - name: Produkto modelio maršruto tvarkymas
                       href: pim/tasks/maintain-route-product-model.md
+                    - name: Produktų konfigūravimo pagal apribojimus atributais pagrįstos pardavimo kainos
+                      href: pim/attribute-based-product-configurator.md
                     - name: Produkto konfigūracijos modelio tvirtinimas
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Produktų modelių duomenų perkėlimas
@@ -2031,10 +2041,12 @@
                       href: production-control/release-production-orders.md
                     - name: Gamybos užsakymų skelbimas baigtais
                       href: production-control/report-production-orders-as-finished.md
-                    - name: Įrenginių užduoties kortelės konfigūravimas
+                    - name: Įrenginių užduoties kortelių konfigūravimas
                       href: production-control/config-job-card-device.md
                     - name: Skelbimas baigtu iš užduoties kortelės įrenginio
                       href: production-control/report-finished-job-device.md
+                    - name: Mišriosios realybės vadovų teikimas vadovams gamybos metu
+                      href: production-control/instruction-guides-in-production-overview.md
                     - name: Gamybos užsakymo būsenos atšaukimas
                       href: production-control/reverse-production-order-status.md
                     - name: Medžiagų išimčių matomumas
@@ -2649,6 +2661,10 @@
                       href: warehousing/batch-and-license-plate-confirmation.md
                     - name: Numerio lentelės žymės spausdinimo įgalinimas
                       href: warehousing/tasks/license-plate-label-printing.md
+                    - name: Perkėlimo užsakymų kūrimas iš sandėlio programos
+                      href: warehousing/create-transfer-order-from-warehouse-app.md
+                    - name: Sandėlio programos įvykio apdorojimas
+                      href: warehousing/warehouse-app-events.md
                     - name: Vienetų paėmimo patvirtinimas
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakavimo medžiagos ir mokesčiai
@@ -2845,6 +2861,8 @@
                       href: warehousing/pick-oldest-batch.md
                     - name: Proceso vadovo sistema
                       href: warehousing/process-guide-framework.md
+                    - name: Sandėlio programos ryšio problemos šalinimas
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Plėtojimas ir perėjimas
                   items:
                     - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”

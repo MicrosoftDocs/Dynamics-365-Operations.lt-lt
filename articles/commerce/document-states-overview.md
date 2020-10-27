@@ -3,7 +3,7 @@ title: Dokumentų būsenos ir vykdymo ciklas
 description: Šioje temoje aptariamos įvairios „Microsoft Dynamics 365 Commerce“ puslapių elementų būsenos.
 author: phinneyridge
 manager: annbe
-ms.date: 04/13/2020
+ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,15 +17,14 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4a00f1c363e5ecb0e3e64637a8f487c48df2df72
-ms.sourcegitcommit: ac966ea3a6c557fb5f9634b187b0e788d3e82d4d
+ms.openlocfilehash: 8aad7ef8425e46182c669686710dfc178abc418f
+ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "3261518"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "3974035"
 ---
 # <a name="document-states-and-lifecycle"></a>Dokumentų būsenos ir vykdymo ciklas
-
 
 [!include [banner](includes/banner.md)]
 
@@ -52,6 +51,8 @@ Temoje [Puslapio elementai](page-elements-overview.md) pateikiama įvairių doku
 [Puslapio modelio žodynas](page-elements-overview.md)
 
 [Darbas su publikavimo grupėmis](publish-groups.md)
+
+[Kelių kanalų bendrinimo funkcijos įjungimas ir naudojimas](cross-channel-sharing.md)
 
 [Darbas su moduliais](work-with-modules.md)
 

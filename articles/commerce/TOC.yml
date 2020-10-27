@@ -74,8 +74,8 @@
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md?toc=/dynamics365/commerce/toc.json
                 - name: „Finance and Operations“ programos Prancūzijoje
                   href: ../fin-ops-core/dev-itpro/deployment/france-local-deployment.md?toc=/dynamics365/commerce/toc.json
-            - name: „Dynamics 365 Commerce“ palaikymo gavimas
-              href: retail-support.md
+            - name: Palaikymo gavimas
+              href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/commerce/toc.json
             - name: Plėtojimas ir N-1 palaikymas
               items:
                 - name: 'Plėtojimas ir N-1 palaikymas, skirtas „Commerce“'
@@ -92,6 +92,8 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Commerce“ pagrindiniame puslapyje
                       href: get-started/whats-new-home-page.md
+                    - name: „Commerce 10.0.15“ (2021 m. sausio mėn.)
+                      href: get-started/whats-new-commerce-10-0-15.md
                     - name: „Commerce 10.0.14“ (2020 m. lapkričio mėn.)
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: „Commerce 10.0.13“ (2020 m. spalio mėn.)
@@ -274,6 +276,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
                 - name: LCS diegimo projektų perkėlimas į skirtingus „Azure AD“ nuomotojus
                   href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS diegimo projektų perkėlimas iš vietinių aplinkų į debesį
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
                 - name: Keli LCS projektai ir gamybos aplinkos viename „Azure AD“ nuomotojuje
                   href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
                 - name: „Finance and Operations Commerce“ projektų diegimas
@@ -706,6 +710,8 @@
                   href: customer-orders-overview.md
                 - name: Hibridiniai kliento užsakymai
                   href: hybrid-customer-orders.md
+                - name: Užsakymo operacijos EKA atšaukimas
+                  href: enhancedorderrecall.md
             - name: Pardavimo užsakymai
               items:
                 - name: Skambučių centro užsakymo kūrimas
@@ -780,8 +786,6 @@
               href: statement-posting-eod.md
             - name: Patobulintas pagal paketą sekamų prekių tvarkymas
               href: batch.md
-            - name: '„Commerce“ parametrų, kurie paveikia išrašus, konfigūravimas'
-              href: tasks/parameter-configurations-retail-statements.md
             - name: 'Mokėjimo būdų parametrų, kurie paveikia mažmeninės prekybos išrašus, konfigūravimas'
               href: tasks/payment-configurations-retail-statements.md
             - name: Išrašų skaičiavimo užduoties konfigūravimas ir vykdymas
@@ -868,6 +872,8 @@
                   href: document-states-overview.md
                 - name: Darbas su publikavimo grupėmis
                   href: publish-groups.md
+                - name: Bendrinimo tarp kelių kanalų įjungimas
+                  href: cross-channel-sharing.md
                 - name: Pažymėkite savo svetainę prekės ženklu ir įtraukite parduotuvės informaciją
                   items:
                     - name: Įtraukti logotipą
@@ -1048,6 +1054,24 @@
               items:
                 - name: Generuoti interneto kanalo ataskaitas
                   href: generate-reports.md
+            - name: Eksperimentavimas
+              items:
+                - name: Eksperimentavimas „Dynamics 365 Commerce“
+                  href: experimentation-overview.md
+                - name: Hipotezės identifikavimas ir eksperimento metrikos nustatymas
+                  href: experimentation-identify.md
+                - name: Eksperimento nustatymas
+                  href: experimentation-setup.md
+                - name: Eksperimento prijungimas ir redagavimas
+                  href: experimentation-connect-edit.md
+                - name: Eksperimento peržiūra ir publikavimas
+                  href: experimentation-preview-publish.md
+                - name: Eksperimento vykdymas ir stebėjimas
+                  href: experimentation-run-monitor.md
+                - name: Variacijos perkėlimas į aukštesnį lygį ir eksperimento užbaigimas
+                  href: experimentation-review-complete.md
+                - name: Eksperimento būsenos peržiūra
+                  href: experimentation-status.md
             - name: Klaidos taisymas
               items:
                 - name: Kurti pasirinktinius 4xx/5xx būsenos kodo klaidų atsakymų puslapius
@@ -1076,13 +1100,19 @@
               href: localizations/fiscal-integration-for-retail-channel.md
             - name: „Commerce“ kanalo fiskalinės integracijos nustatymas
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+            - name: Vartotojo apibrėžti mažmeninės prekybos parduotuvių sertifikatų profiliai
+              href: localizations/certificate-profiles-for-retail-stores.md
             - name: Austrija
               items:
                 - name: 'Fiskalinės registracijos paslaugos integravimo pavyzdys, skirtas Austrijai'
                   href: localizations/emea-aut-fi-sample.md
+            - name: Brazilija
+              items:
+                - name: „Commerce“ lokalizavimas Brazilijai
+                  href: localizations/latam-bra-commerce-localization.md
             - name: Rytų Europa
               items:
-                - name: Bendra
+                - name: Bendroji
                   items:
                     - name: Išankstinės „Commerce“ sąskaitos faktūros (Rytų Europa)
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1114,7 +1144,7 @@
                   href: localizations/emea-deu-fi-sample.md
             - name: Indija
               items:
-                - name: Kasos aparatų prekių ir paslaugų mokesčio (GST) integravimas
+                - name: Kasos aparatų prekių ir paslaugų mokesčio (PPM) integravimas
                   href: localizations/apac-ind-cash-registers.md
                 - name: Kasos aparatų diegimo gairės
                   href: localizations/apac-ind-loc-deployment-guidelines.md
@@ -2052,6 +2082,8 @@
                       href: e-commerce-extensibility/theme-module-extensions.md
                     - name: Temos išplėtimas iš pagrindinės temos
                       href: e-commerce-extensibility/extend-theme.md
+                    - name: Pasirinktinių išteklių įtraukimas į tinkinimo kodą
+                      href: e-commerce-extensibility/add-custom-resources.md
                 - name: Scenarijaus įvedimas
                   items:
                     - name: Scenarijaus injektoriai
@@ -2164,6 +2196,8 @@
                   href: dev-itpro/retail-server-extension.md
                 - name: „Retail Typescript“ ir C# tarpiniai serveriai
                   href: dev-itpro/typescript-proxy-retail-pos.md
+                - name: „Retail Server“ API naudojimas išorinėse programose
+                  href: dev-itpro/consume-retail-server-api
             - name: „Commerce Runtime“ (CRT) išplečiamumas
               items:
                 - name: CRT architektūra ir konfigūravimas
