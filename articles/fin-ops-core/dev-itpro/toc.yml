@@ -142,8 +142,10 @@
                           items:
                             - name: Dvigubo rašymo sistemos reikalavimai
                               href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Dvigubo rašymo sąrankos palaikomi scenarijai
+                            - name: 'Nurodymai, kaip nustatyti dvigubą rašymą'
                               href: data-entities/dual-write/connection-setup.md
+                            - name: Pradinės sinchronizacijos aplinkybės
+                              href: data-entities/dual-write/initial-sync-guidance.md
                             - name: Dvigubo rašymo sąranka iš „Lifecycle Services“
                               href: data-entities/dual-write/lcs-setup.md
                             - name: Esamų „Finance and Operations“ programų dvigubo rašymo įjungimas
@@ -404,6 +406,8 @@
                   href: database/database-point-in-time-restore.md
                 - name: Gamybos duomenų bazės tam tikro taško atkūrimas į smėlio dėžės aplinką
                   href: database/database-pitr-prod-sandbox.md
+                - name: Prieigos prie duomenų bazės reikiamu laiku įgalinimas
+                  href: database/database-just-in-time-jit-access.md
             - name: Mokymo programos
               items:
                 - name: Atnaujinimas mokymo tikslais
@@ -480,6 +484,8 @@
                   href: deployment/Update-retail-channel.md
                 - name: „Commerce Scale Unit“ (debesyje) inicijavimas
                   href: deployment/Initialize-Retail-Channels.md
+                - name: Kanalų perkėlimas į kitą „Commerce Scale Unit“
+                  href: deployment/Reassign-CSU.md
                 - name: „Retail“ duomenų laikymo vieta
                   href: deployment/retail-data-residency.md
             - name: Vietinis visuotinis diegimas
@@ -1458,9 +1464,9 @@
               href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
             - name: '„Finance and Operations“, valdomos „21Vianet“ Kinijoje, pagalbos gavimas'
               href: lifecycle-services/21vianet-support.md
-            - name: „Finance and Operations“ techninio palaikymo nustatymas
+            - name: „Finance and Operations“ programų techninio palaikymo nustatymas
               href: lifecycle-services/support-experience.md
-            - name: „Finance and Operations“ palaikymo patirčių valdymas
+            - name: „Finance and Operations“ programų palaikymo patirčių valdymas
               href: lifecycle-services/cloud-powered-support-lcs.md
         - name: Sistemos administravimas
           items:

@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-14.md
                     - name: „Commerce 10.0.13“ (2020 m. spalio mėn.)
                       href: get-started/whats-new-commerce-10-0-13.md
-                    - name: „Commerce 10.0.12“ (2020 m. rugpjūčio mėn.)
-                      href: get-started/whats-new-commerce-10-0-12.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Finance and Operations“ funkcijos
@@ -1040,11 +1038,13 @@
                       href: add-breadcrumb.md
                     - name: Naršymo meniu modulis
                       href: nav-menu-module.md
+                    - name: Svetainės išrinkiklio modulis
+                      href: site-selector.md
                 - name: Atitikties moduliai
                   items:
                     - name: Sutikimo dėl slapukų modulis
                       href: cookie-consent-module.md
-            - name: Ieškoti
+            - name: Ieška
               items:
                 - name: Numatytojo kategorijos nukreipimo puslapio ir ieškos rezultatų puslapio apžvalga
                   href: category-search-page-overview.md
@@ -1986,7 +1986,9 @@
                       href: e-commerce-extensibility/cli-command-reference.md
                 - name: Modulio anatomija
                   items:
-                    - name: Modulio apibrėžimo failas
+                    - name: Modulių apžvalga
+                      href: e-commerce-extensibility/modules-overview.md
+                    - name: Modulio apibrėžties failas
                       href: e-commerce-extensibility/module-definition-file.md
                     - name: Modulio reagavimo komponento failas
                       href: e-commerce-extensibility/module-react-file.md
@@ -2028,18 +2030,24 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Programėlės parametrai
                       href: e-commerce-extensibility/app-settings.md
-                    - name: Modulio apibrėžimo išplėtimas
+                    - name: Modulio apibrėžties išplėtimas
                       href: e-commerce-extensibility/extend-module-definition.md
-                    - name: Slapukų API peržiūra
+                    - name: Slapukų API apžvalga
                       href: e-commerce-extensibility/cookie-api-overview.md
                     - name: Interaktyviųjų komponentų peržiūra
                       href: e-commerce-extensibility/interactive-components.md
-                    - name: Globalizuoti modulius naudojant klasę „CultureInfoFormatter”
+                    - name: Padaryti būsenos Prisijungęs maketą per vietinį kūrimą
+                      href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Globalizuoti modulius naudojant klasę CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
+                    - name: „Azure Key Vault“ nustatymas saugos raktui valdyti
+                      href: e-commerce-extensibility/set-up-key-vault.md
                 - name: Kurti veiksmus su duomenimis
                   items:
                     - name: Veiksmų su duomenimis apžvalga
                       href: e-commerce-extensibility/data-actions.md
+                    - name: Duomenų veiksmų talpyklos parinktys
+                      href: e-commerce-extensibility/data-action-cache.md
                     - name: 'Testuoti veiksmus su duomenimis, naudojant maketus'
                       href: e-commerce-extensibility/test-data-action-mocks.md
                     - name: Puslapio įkėlimo veiksmai su duomenimis
@@ -2080,6 +2088,8 @@
                       href: e-commerce-extensibility/theme-style-presets.md
                     - name: Temos išplėtimas modulio plėtiniams įtraukti
                       href: e-commerce-extensibility/theme-module-extensions.md
+                    - name: Modulių bibliotekos komponento keitimas temoje
+                      href: e-commerce-extensibility/override-theme-component.md
                     - name: Temos išplėtimas iš pagrindinės temos
                       href: e-commerce-extensibility/extend-theme.md
                     - name: Pasirinktinių išteklių įtraukimas į tinkinimo kodą
@@ -2102,7 +2112,11 @@
                       href: e-commerce-extensibility/package-deploy.md
                     - name: SDK ir modulių bibliotekos naujinimai
                       href: e-commerce-extensibility/sdk-updates.md
-            - name: Retail SDK
+                - name: Geriausia praktika
+                  items:
+                    - name: Geriausia „Dynamics 365 Commerce“ kūrimo praktika
+                      href: e-commerce-extensibility/best-practices-dev.md
+            - name: „Retail SDK“
               items:
                 - name: „Retail SDK“ architektūra
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
@@ -2197,7 +2211,7 @@
                 - name: „Retail Typescript“ ir C# tarpiniai serveriai
                   href: dev-itpro/typescript-proxy-retail-pos.md
                 - name: „Retail Server“ API naudojimas išorinėse programose
-                  href: dev-itpro/consume-retail-server-api
+                  href: dev-itpro/consume-retail-server-api.md
             - name: „Commerce Runtime“ (CRT) išplečiamumas
               items:
                 - name: CRT architektūra ir konfigūravimas
