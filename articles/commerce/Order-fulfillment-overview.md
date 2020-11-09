@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fb535b1f20d97042e6205b680de1cc687350f071
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975152"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107212"
 ---
 # <a name="store-order-fulfillment"></a>Parduotuvės užsakymų įvykdymas
 
@@ -38,9 +38,9 @@ Užsakymo įvykdymo operacija elektroniniame kasos aparate suteikia vieną darbo
 
 Užsakymų įvykdymas, [operacijos ID 928](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), gali būti naudojamas norint pasiekti parduotuvės užsakymų įvykdymo darbo sritį elektroniniame kasos aparate.
 
-Užsakymų įvykdymo operacija neturi savo parengtos naudoti teisės, tačiau ateityje vartotojai galės naudoti teisę **Leisti nuskaityti užsakymą**, kad būtų galima iškviesti operaciją iš elektroninio kasos aparato.
+Užsakymų įvykdymo operacija neturi savo parengtos naudoti teisės, tačiau ateityje vartotojai galės naudoti teisę **Leisti nuskaityti užsakymą** , kad būtų galima iškviesti operaciją iš elektroninio kasos aparato.
 
-Parduotuvės lygiu galima naudoti konfigūracijos parametrą norint nustatyti, ar užsakymo eilutė turi būti priimta neautomatiškai iš elektroninio kasos aparato. Jei ta konfigūracijos parinktis nenustatyta, užsakymo eilutės bus priimtos pagal numatytuosius parametrus. Jei ši konfigūracijos parinktis įjungta, elektroniniame kasos aparate vartotojai turėsi pasirinkti teisę **Leisti priimti užsakymą**, kad būtų galima priimti užsakymus iš elektroninio kasos aparato.
+Parduotuvės lygiu galima naudoti konfigūracijos parametrą norint nustatyti, ar užsakymo eilutė turi būti priimta neautomatiškai iš elektroninio kasos aparato. Jei ta konfigūracijos parinktis nenustatyta, užsakymo eilutės bus priimtos pagal numatytuosius parametrus. Jei ši konfigūracijos parinktis įjungta, elektroniniame kasos aparate vartotojai turėsi pasirinkti teisę **Leisti priimti užsakymą** , kad būtų galima priimti užsakymus iš elektroninio kasos aparato.
 
 Užsakymo eilutes taip pat galima atmesti iš elektroninio kasos aparato. Atmetant užsakymo eilutę nurodoma, kad ji nebus vykdoma parduotuvėje, ir užsakymo eilutė grąžinama, kad būtų perskirta kitai parduotuvei arba sandėliui. Užsakymo eilutės atmetimo teisė suteikiama naudojant teisę **Leisti atmesti užsakymą**.
 
@@ -64,15 +64,15 @@ Pasirinkus kelias eilutes, užsakymo eilutės iškeliamasis meniu rodys tik tai,
 
 ## <a name="pending-order-lines"></a>Laukiančios pardavimo eilutės
 
-Bendrasis užsakymų įvykdymas apima galimybę neautomatiškai priimti užsakymus. Pagal numatytuosius parametrus parduotuvėje įvykdytini užsakymai jau yra priimti. Tačiau, jei atsižvelgiant į verslo procesus reikia, kad darbuotojas priimtų užsakymus parduotuvės lygiu, galima įjungti neautomatinį priėmimą mažmeninės prekybos parduotuvės lygiu. Norėdami įjungti užsakymo priėmimą, eikite į **„Retail and Commerce“** \> **Kanalai** \> **Parduotuvės** \> **Visos parduotuvės**. Atidarykite norimą parduotuvę ir skirtuke **Bendra** raskite paantraštę **Užsakymų įvykdymas**. Šioje paantraštėje yra parinktis **Neautomatinis priėmimas**, pagal numatytuosius parametrus nustatyta į parametrą **Ne**. Nustatant šią parinktį į parametrą **Taip** ir sinchronizuojant kanalų duomenų bazės keitimus, užsakymo eilutėms galima taikyti priėmimo procesą.
+Bendrasis užsakymų įvykdymas apima galimybę neautomatiškai priimti užsakymus. Pagal numatytuosius parametrus parduotuvėje įvykdytini užsakymai jau yra priimti. Tačiau, jei atsižvelgiant į verslo procesus reikia, kad darbuotojas priimtų užsakymus parduotuvės lygiu, galima įjungti neautomatinį priėmimą mažmeninės prekybos parduotuvės lygiu. Norėdami įjungti užsakymo priėmimą, eikite į **„Retail and Commerce“** \> **Kanalai** \> **Parduotuvės** \> **Visos parduotuvės**. Atidarykite norimą parduotuvę ir skirtuke **Bendra** raskite paantraštę **Užsakymų įvykdymas**. Šioje paantraštėje yra parinktis **Neautomatinis priėmimas** , pagal numatytuosius parametrus nustatyta į parametrą **Ne**. Nustatant šią parinktį į parametrą **Taip** ir sinchronizuojant kanalų duomenų bazės keitimus, užsakymo eilutėms galima taikyti priėmimo procesą.
 
-Darbuotojai, kuriems priskirta teisė **Leisti priimti užsakymą**, gali atidaryti užsakymų įvykdymą ir pasirinkti priimtinas eilutes. Kai eilutės priimtos, jų būsena pasikeičia iš **Laukiama** į **Priimta** ir galima tęsti likusį užsakymo įvykdymo procesą. Kai įjungta parinktis **Neautomatinis priėmimas**, užsakymai nebus apdoroti, kol jie nebus priimti.
+Darbuotojai, kuriems priskirta teisė **Leisti priimti užsakymą** , gali atidaryti užsakymų įvykdymą ir pasirinkti priimtinas eilutes. Kai eilutės priimtos, jų būsena pasikeičia iš **Laukiama** į **Priimta** ir galima tęsti likusį užsakymo įvykdymo procesą. Kai įjungta parinktis **Neautomatinis priėmimas** , užsakymai nebus apdoroti, kol jie nebus priimti.
 
 Parduotuvėje paimtinų užsakymų būsena niekada nebūna **Laukiama**. Taip yra todėl, kad būtų išvengta atvejų, kai klientas atvyksta į parduotuvę ir užsakymo eilutės negalima apdoroti, nes nėra darbuotojo, turinčio atitinkamą teisę.
 
 ## <a name="accepted-order-lines"></a>Priimtos užsakymo eilutės
 
-Užsakymams, kurių eilučių būsena **Priimta**, galima taikyti likusį užsakymo įvykdymo procesą elektroniniame kasos aparate. Priėmus užsakymą visus likusius veiksmus galima taikyti užsakymo eilutei.
+Užsakymams, kurių eilučių būsena **Priimta** , galima taikyti likusį užsakymo įvykdymo procesą elektroniniame kasos aparate. Priėmus užsakymą visus likusius veiksmus galima taikyti užsakymo eilutei.
 
 Pvz., priimtą užsakymo eilutę galima pasirinkti ir tada paimti tiesiogiai, nevykdant paėmimo ir pakavimo procesų.
 
@@ -107,11 +107,11 @@ Jei pasirenkamos eilutės ir išspausdinamas tų eilučių išrinkimo dokumentas
 
 Atliktus faktinį paėmimo procesą, eilutes galima pažymėti kaip **Paimta**. Pasirenkant eilutę ir pažymint ją kaip **Paimta** atliekamas realiojo laiko iškvietimas atnaujinti užsakymo eilutę. Kai eilutė pažymėta kaip **Paimta** elektroniniame kasos aparate, tarnybiniame biure rodoma būsena taip pat atnaujinama į **Paimta** ir atsargų operacijos nurodo, kad nurodytas kiekis buvo sumažintas.
 
-Apdorojant užsakymus per tam tikrą laikotarpį galima apdoroti tam tikros eilutės dalinius kiekius. Jei pasirenkama eilutė ir atliekamas veiksmas **Pažymėti kaip paimta**, o kiekis yra didesnis nei vienas, vartotojas paraginamas nurodyti kiekį. Likęs paimtinas kiekis yra užpildomas automatiškai. Jei nurodomas mažesnis nei likęs kiekis, nustatoma eilutės būsena **Iš dalies paimta**. Atnaujinus užsakymo eilutę tarnybiniame biure, ji taip pat nurodo iš dalies paimtą būseną, o vartotojo įvestas kiekis naudojamas atsargoms atnaujinti.
+Apdorojant užsakymus per tam tikrą laikotarpį galima apdoroti tam tikros eilutės dalinius kiekius. Jei pasirenkama eilutė ir atliekamas veiksmas **Pažymėti kaip paimta** , o kiekis yra didesnis nei vienas, vartotojas paraginamas nurodyti kiekį. Likęs paimtinas kiekis yra užpildomas automatiškai. Jei nurodomas mažesnis nei likęs kiekis, nustatoma eilutės būsena **Iš dalies paimta**. Atnaujinus užsakymo eilutę tarnybiniame biure, ji taip pat nurodo iš dalies paimtą būseną, o vartotojo įvestas kiekis naudojamas atsargoms atnaujinti.
 
 Jei užsakymo eilutė paimama per klaidą, užsakymo eilutės paėmimo atsisakymo procesas turi būti atliktas tarnybiniame biure. Šiuo metu paėmimo atsisakymo veiksmo negalima naudoti elektroniniame kasos aparate.
 
-Užsakymų eilutes iš skirtingų užsakymų galima pasirinkti ir priskirti žymę **Paėmimas**, išspausdintą tame pačiame išrinkimo dokumente, arba pažymėti kaip **Paimta**.
+Užsakymų eilutes iš skirtingų užsakymų galima pasirinkti ir priskirti žymę **Paėmimas** , išspausdintą tame pačiame išrinkimo dokumente, arba pažymėti kaip **Paimta**.
 
 ### <a name="pack"></a>Pakuoti
 
@@ -129,7 +129,7 @@ Užsakymo eilutes galima supakuoti bet kada po to, kai užsakymo eilutė priimta
 - **Rodoma būsena:** Supakuota arba iš dalies supakuota
 - **Rodoma tarnybinio biuro būsena:** Pristatyta arba iš dalies pristatyta
 
-Veiksmą **Pažymėti kaip supakuotą** galima naudoti norit nurodyti, kad eilutės supakuotos neatspausdinus važtaraščio. Atlikus bet kurį iš veiksmų **Spausdinti važtaraštį** ir **Pažymėti kaip supakuotą**, tarnybiniame biure bus sugeneruotos atsargų operacijos. Supakavus eilutes elektroniniame kasos aparate, tarnybiniame biure bus sugeneruoti važtaraščių žurnalai.
+Veiksmą **Pažymėti kaip supakuotą** galima naudoti norit nurodyti, kad eilutės supakuotos neatspausdinus važtaraščio. Atlikus bet kurį iš veiksmų **Spausdinti važtaraštį** ir **Pažymėti kaip supakuotą** , tarnybiniame biure bus sugeneruotos atsargų operacijos. Supakavus eilutes elektroniniame kasos aparate, tarnybiniame biure bus sugeneruoti važtaraščių žurnalai.
 
 Jei užsakymo eilutė supakuojama per klaidą, važtaraščių žurnalą reikia pataisyti tarnybiniame biure.
 
@@ -180,7 +180,7 @@ Eilutes arba dalines eilutes galima atmesti. Tai suteikia galimybę jas iš nauj
 - **Rodoma būsena:** Atmesta
 - **Rodoma tarnybinio biuro būsena:** Be keitimų
 
-Atmestas užsakymo eilutes galima peržiūrėti darbo srityje **Pardavimo užsakymo apdorojimas ir užklausa**. Išvalykite asmens filtrą darbo srityje, norėdami peržiūrėti visas atmestas užsakymo eilutes visose parduotuvėse. Skirtuke **Atmestos užsakymo eilutės**, dalyje **Užsakymai ir parankiniai**, rodoma užsakymo eilučių informaciją. Be to, vartotojai gali spustelėti mygtuką **Atmesti užsakymo eilutės**, pateiktą dalyje **Suvestinė**, kad atidarytų į pardavimo užsakymo rodinį. Jame rodomi visi užsakymai, kurių viena ar daugiau užsakymo eilučių atmestos. Jei įjungtas paskirstytas užsakymų valdymas (DOM), tada šie atmesti užsakymai bus automatiškai iš naujo priskirti atitinkamoms parduotuvėms įvykdyti, tačiau šias užsakymų eilutes taip pat galima priskirti iš naujo neautomatiškai. Norėdami tai padaryti, pasirinkite eilutę, kurios **Įvykdymo būsena** nustatyta kaip **Atmesta**, ir pagal poreikį pakeiskite vietovę / sandėlį. Spustelėkite išplečiamąjį meniu **Atnaujinti eilutę** ir spustelėkite **Iš naujo nustatyti įvykdymo būseną**, kad pakeistumėte įvykdymo būseną iš **Atmesta** į **Priimta** arba **Laukiama**, priklausomai nuo užsakymo įvykdymo nustatymo. Iš naujo nustačius įvykdymo būseną, parduotuvės darbuotojai galės peržiūrėti užsakymo eilutes EKA.
+Atmestas užsakymo eilutes galima peržiūrėti darbo srityje **Pardavimo užsakymo apdorojimas ir užklausa**. Išvalykite asmens filtrą darbo srityje, norėdami peržiūrėti visas atmestas užsakymo eilutes visose parduotuvėse. Skirtuke **Atmestos užsakymo eilutės** , dalyje **Užsakymai ir parankiniai** , rodoma užsakymo eilučių informaciją. Be to, vartotojai gali spustelėti mygtuką **Atmesti užsakymo eilutės** , pateiktą dalyje **Suvestinė** , kad atidarytų į pardavimo užsakymo rodinį. Jame rodomi visi užsakymai, kurių viena ar daugiau užsakymo eilučių atmestos. Jei įjungtas paskirstytas užsakymų valdymas (DOM), tada šie atmesti užsakymai bus automatiškai iš naujo priskirti atitinkamoms parduotuvėms įvykdyti, tačiau šias užsakymų eilutes taip pat galima priskirti iš naujo neautomatiškai. Norėdami tai padaryti, pasirinkite eilutę, kurios **Įvykdymo būsena** nustatyta kaip **Atmesta** , ir pagal poreikį pakeiskite vietovę / sandėlį. Spustelėkite išplečiamąjį meniu **Atnaujinti eilutę** ir spustelėkite **Iš naujo nustatyti įvykdymo būseną** , kad pakeistumėte įvykdymo būseną iš **Atmesta** į **Priimta** arba **Laukiama** , priklausomai nuo užsakymo įvykdymo nustatymo. Iš naujo nustačius įvykdymo būseną, parduotuvės darbuotojai galės peržiūrėti užsakymo eilutes EKA.
 
 ## <a name="line-quantity-tracking"></a>Eilutės kiekio sekimas
 
@@ -192,10 +192,10 @@ Pasitelkiant tą patį pirmiau nurodytą pavyzdį, jei 200 lentų pažymėtos ka
 
 ## <a name="line-statuses"></a>Eilučių būsenos
 
-Naudojamos kelios užsakymo eilučių būsenos elektroniniame kasos aparate, norint nurodyti užsakymo eilutės būseną. Būsenos elektroniniame kasos aparate ne visada atitinka tarnybiniame biure nurodytas būsenas. Užsakymo eilučių būsenas galima peržiūrėti elektroniniame kasos aparate naudojant užsakymų įvykdymo operacijas. Tarnybiniame biure užsakymo eilutes galima peržiūrėti užsakymo informacijoje. Užsakymo informaciją galite peržiūrėti eidami į **„Retail and Commerce“** \> **Klientai** \> **Visų klientų užsakymai**. Pasirinkite **Užsakymo ID**, kad peržiūrėtumėte užsakymo informaciją. Užsakymo informacijoje pasirinkite skirtuką **Pardavimo užsakymas**, tada pasirinkite parinktį **Išsami būsena**, pateiktą paantraštėje **Rodinys**.
+Naudojamos kelios užsakymo eilučių būsenos elektroniniame kasos aparate, norint nurodyti užsakymo eilutės būseną. Būsenos elektroniniame kasos aparate ne visada atitinka tarnybiniame biure nurodytas būsenas. Užsakymo eilučių būsenas galima peržiūrėti elektroniniame kasos aparate naudojant užsakymų įvykdymo operacijas. Tarnybiniame biure užsakymo eilutes galima peržiūrėti užsakymo informacijoje. Užsakymo informaciją galite peržiūrėti eidami į **„Retail and Commerce“** \> **Klientai** \> **Visų klientų užsakymai**. Pasirinkite **Užsakymo ID** , kad peržiūrėtumėte užsakymo informaciją. Užsakymo informacijoje pasirinkite skirtuką **Pardavimo užsakymas** , tada pasirinkite parinktį **Išsami būsena** , pateiktą paantraštėje **Rodinys**.
 
 - **Laukiama** – peržiūrint elektroniniame kasos aparate užsakymo eilučių, kurios priskirtos parduotuvei, bet dar nėra priimtos, būsena yra **Laukiama**. Eilučių, laukiančių priėmimo elektroniniame kasos aparate, tarnybiniame biure rodoma būsena bus **Užsakymas apdorojamas**.
-- **Priimtina** – peržiūrint elektroniniame kasos aparate užsakymo eilučių, kurios buvo neautomatiškai arba automatiškai patvirtintos, būsena yra **Priimta**. Eilučių, kurių būsena **Priimta**, tarnybiniame biure rodoma būsena yra **Užsakymas apdorojamas**.
+- **Priimtina** – peržiūrint elektroniniame kasos aparate užsakymo eilučių, kurios buvo neautomatiškai arba automatiškai patvirtintos, būsena yra **Priimta**. Eilučių, kurių būsena **Priimta** , tarnybiniame biure rodoma būsena yra **Užsakymas apdorojamas**.
 - **Paėmimas** – eilučių, kurios šiuo metu paimamos parduotuvės lygiu, būsena yra **Paėmimas**. Tų pačių eilučių, peržiūrimų tarnybiniame biure, rodoma būsena yra **Užsakymas apdorojamas**.
 - **Paimta** ir **Iš dalies paimta** – eilučių, kurios buvo paimtos arba iš dalies paimtos, elektroniniame kasos aparate rodoma būsena yra **Paimta** arba **Iš dalies paimta**. Tų pačių eilučių, peržiūrimų tarnybiniame biure, rodoma būsena taip pat yra **Paimta** arba **Iš dalies paimta**.
 - **Supakuota** ir **Iš dalies supakuota** – eilučių, kurios buvo supakuotos arba iš dalies supakuotos, elektroniniame kasos aparate rodoma būsena yra **Supakuota** arba **Iš dalies supakuota**. Tų pačių eilučių, peržiūrimų tarnybiniame biure, rodoma būsena taip pat yra **Pristatyta** arba **Iš dalies pristatyta**.
@@ -204,7 +204,7 @@ Naudojamos kelios užsakymo eilučių būsenos elektroniniame kasos aparate, nor
 
 ## <a name="order-fulfillment-filtering"></a>Užsakymų įvykdymo filtravimas
 
-Užsakymų įvykdymas elektroniniame kasos aparate apima filtravimą, kad vartotojai galėtų lengvai rasti, ko reikia. Filtrus galima keisti ekrano **Elektroninis kasos aparatas** apačioje esančioje veiksmų srityje. Pagal numatytuosius parametrus taikomas filtras **Pristatymo tipas**, atsižvelgiant į tai, kaip nustatyta operacija. Jei nustatytas operacijos parametras **Visi užsakymai**, tada tas filtras taikomas atidarant užsakymų įvykdymo funkciją. Tas pats taikoma parametrams **Paėmimas parduotuvėje** ir **Siųsti iš parduotuvės**. Toliau nurodyti kiti filtrai, kuriuos galima taikyti užsakymų įvykdymo rodiniui.
+Užsakymų įvykdymas elektroniniame kasos aparate apima filtravimą, kad vartotojai galėtų lengvai rasti, ko reikia. Filtrus galima keisti ekrano **Elektroninis kasos aparatas** apačioje esančioje veiksmų srityje. Pagal numatytuosius parametrus taikomas filtras **Pristatymo tipas** , atsižvelgiant į tai, kaip nustatyta operacija. Jei nustatytas operacijos parametras **Visi užsakymai** , tada tas filtras taikomas atidarant užsakymų įvykdymo funkciją. Tas pats taikoma parametrams **Paėmimas parduotuvėje** ir **Siųsti iš parduotuvės**. Toliau nurodyti kiti filtrai, kuriuos galima taikyti užsakymų įvykdymo rodiniui.
 
 - Kliento numeris
 - Kliento vardas

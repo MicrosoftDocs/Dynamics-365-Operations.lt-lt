@@ -1735,6 +1735,8 @@
                   href: procurement/purchase-agreements.md
                 - name: Pirkimo sutarties kūrimas
                   href: procurement/tasks/create-purchase-agreement.md
+                - name: Automatinis išlaidų paskirstymas
+                  href: procurement/automatic-charges-allocation.md
                 - name: Tiekėjo grąžinimai
                   href: procurement/vendor-rebates.md
                 - name: 'Kainų, nuolaidų, sutarčių ir grąžinimų trikčių šalinimas'
@@ -2041,6 +2043,14 @@
                       href: production-control/release-production-orders.md
                     - name: Gamybos užsakymų skelbimas baigtais
                       href: production-control/report-production-orders-as-finished.md
+                    - name: Gamybos vietos vykdymo sąsajos nustatymas ir naudojimas
+                      items:
+                        - name: Gamybos vietos vykdymo sąsajos konfigūravimas
+                          href: production-control/production-floor-execution-configure.md
+                        - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
+                          href: production-control/production-floor-execution-setup.md
+                        - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
+                          href: production-control/production-floor-execution-use.md
                     - name: Įrenginių užduoties kortelių konfigūravimas
                       href: production-control/config-job-card-device.md
                     - name: Skelbimas baigtu iš užduoties kortelės įrenginio
@@ -2275,6 +2285,8 @@
                   href: sales-marketing/tasks/ship-orders-direct-deliveries.md
                 - name: Pardavimo užsakymų siuntimas be sandėliavimo
                   href: sales-marketing/tasks/ship-sales-orders-without-warehousing.md
+                - name: Automatinis išlaidų paskirstymas
+                  href: procurement/automatic-charges-allocation.md
                 - name: Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą
                   href: sales-marketing/tasks/create-purchase-order-sales-order.md
                 - name: Pardavimo užsakymų kūrimas
@@ -2663,8 +2675,6 @@
                       href: warehousing/tasks/license-plate-label-printing.md
                     - name: Perkėlimo užsakymų kūrimas iš sandėlio programos
                       href: warehousing/create-transfer-order-from-warehouse-app.md
-                    - name: Sandėlio programos įvykio apdorojimas
-                      href: warehousing/warehouse-app-events.md
                     - name: Vienetų paėmimo patvirtinimas
                       href: warehousing/piece-picking-confirmation.md
                     - name: Pakavimo medžiagos ir mokesčiai
@@ -2843,6 +2853,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiliųjų įrenginių nustatymas darbui sandėlyje
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Sandėlio programos įvykio apdorojimas
+                      href: warehousing/warehouse-app-events.md
                     - name: Su sandėlio programa gaunama numerio lentelė
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Mobiliojo įrenginio meniu elemento pirkimo užsakymo darbui atlikti nustatymas

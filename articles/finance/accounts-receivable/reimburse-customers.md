@@ -1,9 +1,9 @@
 ---
 title: Kompensacija klientams
 description: Šiame straipsnyje paaiškinta, kaip kurti klientų grupės kompensavimo operacijas. Jei klientas turi kredito balansą, galite kompensuoti klientui balanso sumą.
-author: ShivamPandey-msft
+author: JodiChristiansen
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 14191
 ms.assetid: 53533ee3-470e-458a-ac8b-3815aa4cb502
 ms.search.region: Global
-ms.author: shpandey
+ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97982dec140ed440682ae507f40557670ebccd3e
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179080"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022548"
 ---
 # <a name="reimburse-customers"></a>Kompensacija klientams
 
@@ -35,8 +35,8 @@ Pateiktoje lentelėje parodytos būtinosios sąlygos, kurias reikia įvykdyti pr
 
 | Būtinoji sąlyga                                                            | Prekės/Paslaugos pavadinimas                                                                                                                                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nurodykite mažiausią kompensacijos sumą juridiniam subjektui.          | Puslapyje **Gautinų sumų parametrai**, srityje **Bendra**, lauke **Mažiausia kompensacija** įveskite mažiausią sumą, kurią galima kompensuoti dėl klientų permokėjimo. |
-| Pasirinktinai: įtraukite tiekėjo sąskaitą kiekvienam klientui, kuriam galima kompensuoti. | Puslapyje **Klientai**, „FastTab“ skirtuke **Įvairi informacija**, lauke **Tiekėjo sąskaita** pasirinkite kliento tiekėjo sąskaitą.                                           |
+| Nurodykite mažiausią kompensacijos sumą juridiniam subjektui.          | Puslapyje **Gautinų sumų parametrai** , srityje **Bendra** , lauke **Mažiausia kompensacija** įveskite mažiausią sumą, kurią galima kompensuoti dėl klientų permokėjimo. |
+| Pasirinktinai: įtraukite tiekėjo sąskaitą kiekvienam klientui, kuriam galima kompensuoti. | Puslapyje **Klientai** , „FastTab“ skirtuke **Įvairi informacija** , lauke **Tiekėjo sąskaita** pasirinkite kliento tiekėjo sąskaitą.                                           |
 
 Kuriant kompensavimo operacijas, kredito balanso sumai sukuriama tiekėjo SF. Kompensacijos procesas pašalina kliento sąskaitos kredito balansą ir sukuria mokėtiną balanso sumą tiekėjo sąskaitai, kuri atitinka klientą.
 

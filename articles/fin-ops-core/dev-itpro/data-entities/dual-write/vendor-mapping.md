@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 8d531ed4e46d8ee5d2b0937b6efc480e051fe708
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3173113"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997653"
 ---
 # <a name="integrated-vendor-master"></a>Bendrieji integruoto tiekėjo duomenys
 
@@ -32,17 +31,17 @@ ms.locfileid: "3173113"
 
 
 
-Terminas *tiekėjas* reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Nors *tiekėjas* yra nusistovėjusi „Microsoft Dynamics 365 Supply Chain Management“ sąvoka, „Dynamics 365“ modeliuose veikiančiose programose nėra tiekėjo sąvokos. Tačiau galite perkrauti objektą **Klientas / Kontaktas**, kad galėtumėte saugoti informaciją apie tiekėją. Integruotas tiekėjas pristato aiškią tiekėjo sąvoką modeliais paremtose programose, esančiose „Dynamics 365“. Galite naudoti naują tiekėjo dizainą arba saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**. Dvejopas rašymas palaiko abu būdus.
+Terminas *tiekėjas* reiškia tiekėjų organizaciją arba individualų savininką, kuris tiekia prekes ar teikia paslaugas verslui. Nors *tiekėjas* yra nusistovėjusi „Microsoft Dynamics 365 Supply Chain Management“ sąvoka, „Dynamics 365“ modeliuose veikiančiose programose nėra tiekėjo sąvokos. Tačiau galite perkrauti objektą **Klientas / Kontaktas** , kad galėtumėte saugoti informaciją apie tiekėją. Integruotas tiekėjas pristato aiškią tiekėjo sąvoką modeliais paremtose programose, esančiose „Dynamics 365“. Galite naudoti naują tiekėjo dizainą arba saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**. Dvejopas rašymas palaiko abu būdus.
 
 Abiem būdais tiekėjo duomenys yra integruoti tarp „Dynamics 365 Supply Chain Management“, „Dynamics 365 Sales“, „Dynamics 365 Field Service“ ir „Power Apps“ portalų. „Supply Chain Management“ yra duomenų apie tokias darbo eigas, kaip pirkimo paraiškos ir pirkimo užsakymai.
 
 ## <a name="vendor-data-flow"></a>Tiekėjo duomenų srautas
 
-Jei nenorite saugoti tiekėjo duomenų objekte **Klientas / Kontaktas**, esančiame „Common Data Service“, galite naudoti naują tiekėjo dizainą.
+Jei nenorite saugoti tiekėjo duomenų objekte **Klientas / Kontaktas** , esančiame „Common Data Service“, galite naudoti naują tiekėjo dizainą.
 
 ![Tiekėjo duomenų srautas](media/dual-write-vendor-data-flow.png)
 
-Jei norite ir toliau saugoti tiekėjo duomenis objekte **Klientas / Kontaktas**, galite naudoti išplėstinį tiekėjo dizainą. Norėdami naudoti išplėstinį tiekėjo dizainą, turite sukonfigūruoti tiekėjo darbo eigas dvejopo rašymo sprendimų pakete. Daugiau informacijos rasite [„Tiekėjo dizaino keitimas“](vendor-switch.md).
+Jei norite ir toliau saugoti tiekėjo duomenis objekte **Klientas / Kontaktas** , galite naudoti išplėstinį tiekėjo dizainą. Norėdami naudoti išplėstinį tiekėjo dizainą, turite sukonfigūruoti tiekėjo darbo eigas dvejopo rašymo sprendimų pakete. Daugiau informacijos rasite [„Tiekėjo dizaino keitimas“](vendor-switch.md).
 
 ![Išplėstas tiekėjo duomenų srautas](media/dual-write-vendor-detail.jpg)
 

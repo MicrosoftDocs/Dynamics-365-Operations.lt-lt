@@ -14,15 +14,15 @@ ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anupamar-ms
+ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5876b953a3b3d960c106acf37731fde13b93f8e7
-ms.sourcegitcommit: ae0843763a8b6b232bb71db326fab28605ac6c53
+ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "3661177"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015185"
 ---
 # <a name="order-details-module"></a>Išsamios užsakymo informacijos modulis
 
@@ -38,7 +38,7 @@ Išsamios užsakymo informacijos modulis pateikia užsakymo patvirtinimo informa
 
 | Ypatybės pavadinimas  | Reikšmės | aprašymas |
 |----------------|--------|-------------|
-| Antraštė        | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Užsakymo išsamios informacijos modulis gali turėti antraštę. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
+| Antraštė        | Antraštės tekstas ir antraštės žymė ( **H1** , **H2** , **H3** , **H4** , **H5** arba **H6** ) | Užsakymo išsamios informacijos modulis gali turėti antraštę. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
 | Kontaktinis numeris | Tekstas | Galite pateikti su užsakymais susijusių klausimų kontaktinį numerį. |
 
 ## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduliai, kuriuos galima naudoti užsakymo informacijos puslapyje
@@ -52,22 +52,22 @@ Kurdami išsamios užsakymo informacijos puslapį, prie užsakymo informacijos m
 
 Norėdami pridėti užsakymo išsamios informacijos modulį naujame puslapyje ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
-1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas** , kad sukurtumėte naują šabloną.
 1. **Naujas šablonas** dialogo lange po **Šablono pavadinimas** įveskite pavadinimą **Užsakymo išsamios informacijos šablonas** ir pasirinkite **Gerai**.
-1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
-1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį ( **...** ), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis** , tada pasirinkite **Gerai**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį ( **...** ) ir **Įtraukti modulį**.
 1. Dialogo lange **Pridėti modulį** pasirinkite **Užsakymo išsami informacija** modulį, tada pasirinkite **Gerai**.
-1. Pasirinkite **Įrašyti** ir tada pasirinkite **Peržiūrėti**, kad peržiūrėtumėte šabloną. Užsakymo informacijos modulis nebus atvaizduotas, nes tam reikalingas užsakymo patvirtinimo numerio kontekstas.
-1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
-1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
-1. Dialogo lange **Pasirinkti šabloną** pasirinkite **Užsakymo išsamios informacijos šablonas**. Po **Puslapio pavadinimas** įveskite **Užsakymo išsamios informacijos puslapis**, tada pasirinkite **Gerai**.
-1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Pasirinkite **Įrašyti** ir tada pasirinkite **Peržiūrėti** , kad peržiūrėtumėte šabloną. Užsakymo informacijos modulis nebus atvaizduotas, nes tam reikalingas užsakymo patvirtinimo numerio kontekstas.
+1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas** , kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite **Užsakymo išsamios informacijos šablonas**. Po **Puslapio pavadinimas** įveskite **Užsakymo išsamios informacijos puslapis** , tada pasirinkite **Gerai**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį ( **...** ) ir **Įtraukti modulį**.
 1. Dialogo lange **Pridėti modulį** pasirinkite **Užsakymo išsami informacija** modulį, tada pasirinkite **Gerai**.
 1. Užsakymo išsamios informacijos modulio ypatybių srityje, šalia pieštuko simbolio, pasirinkite **Antraštė**.
 1. **Antraštės tekstas** lauke **Antraštė** dialogo lango įveskite antraštės tekstą **Užsakymo išsami informacija** ir pasirinkite **Gerai**.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
-1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

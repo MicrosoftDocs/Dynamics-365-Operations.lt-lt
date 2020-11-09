@@ -1,6 +1,6 @@
 ---
-title: Kurti ilgalaikį turtą
-description: Šiame užduočių vadove naudojama demonstracinė įmonė USMF.
+title: Ilgalaikių išteklių kūrimas
+description: Šioje temoje paaiškinama, kaip sukurti naują ilgalaikio turto įrašą sąrašo puslapyje Ilgalaikis turtas.
 author: saraschi2
 manager: AnnBe
 ms.date: 07/01/2019
@@ -16,27 +16,36 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db1a372414a38446b7e55d94a3e6a8a22a889d0a
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 2b7d65a047251fa036242fb456725bc8cba957b9
+ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142805"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4000248"
 ---
-# <a name="create-a-fixed-asset"></a>Kurti ilgalaikį turtą
+# <a name="create-a-fixed-asset"></a>Ilgalaikių išteklių kūrimas
 
 [!include [banner](../../includes/banner.md)]
 
-Šiame užduočių vadove naudojama demonstracinė įmonė USMF.  Naudojant puslapį Ilgalaikio turto sąrašas, bus sukurtas naujas ilgalaikis turtas.
+Šioje temoje paaiškinama, kaip sukurti naują ilgalaikio turto įrašą sąrašo puslapyje **Ilgalaikis turtas**.
 
-1. Eikite į **Naršymo sritis > Moduliai > Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas**.
-2. **Veiksmų sritis** spustelėkite **Naujas**.
-3. Lauke **Ilgalaikio turto grupė** įveskite arba pasirinkite reikšmę. Laukas **Numeris** bus numatytasis, jei įjungėte **Automatiškai sunumeruotas ilgalaikio turto funkcionalumas** parinktyse **Ilgalaikio turto parametrai** ir **Ilgalaikio turto grupė**.  Jei neįgalinote, turite įvesti unikalų numerį, kad identifikuotumėte ilgalaikį turtą.  
-4. Lauke **Pavadinimas** įveskite reikšmę. Įveskite papildomą šio turto informaciją, kurios reikia jūsų verslui.  
-5. **Veiksmų sritis** spustelėkite **Knygelės**.
+Sistema priskiria turto numerį, pagrįstą numeracija, priskirta ilgalaikio turto grupei. Jei naudojate ilgalaikio turto šabloną turto importavimo naudojant „Microsoft Excel” papildinį metu arba jei naudojate kitą importavimo užduotį, sistema automatiškai sukuria ilgalaikio turto įrašus ir padidina turto numerį.
+
+Norėdami rankiniu būdu sukurti turto įrašą, atlikite toliau pateiktus veiksmus.
+
+1. Eikite į **Naršymo sritis \> Moduliai \> Ilgalaikis turtas \> Ilgalaikis turtas \> Ilgalaikis turtas**.
+2. **Veiksmų srityje** pasirinkite **Naujas**.
+3. Lauke **Ilgalaikio turto grupė** įveskite arba pasirinkite reikšmę. Laukas **Numeris** bus numatytasis, jei įjungėte **Automatiškai sunumeruotas ilgalaikio turto funkcionalumas** parinktyse **Ilgalaikio turto parametrai** ir **Ilgalaikio turto grupė**. Jei neįgalinote, turite įvesti unikalų numerį, kad identifikuotumėte ilgalaikį turtą.
+4. Lauke **Pavadinimas** įveskite reikšmę. Įveskite papildomą šio turto informaciją, kurios reikia jūsų verslui.
+5. **Veiksmų srityje** pasirinkite **Knygos**.
 6. Lauke **Įsigijimo data** įveskite datą.
 7. Lauke **Įsigijimo kaina** įveskite skaičių.
-    - Įveskite papildomą šios knygos informaciją, kurios reikia jūsų verslui.  
-    - Įveskite papildomą likusių knygų informaciją, kurios reikia jūsų verslui.  
+
+    - Įveskite papildomą šios knygos informaciją, kurios reikia jūsų verslui.
+    - Įveskite papildomą likusių knygų informaciją, kurios reikia jūsų verslui.
+
 8. Uždarykite puslapį.
 
+Taip pat galite importuoti ilgalaikį turtą naudodami „Excel” papildinį arba vykdydami importavimo užduotį iš darbo srities **Duomenų valdymas**. Prieš paleisdami importavimą, įveskite reikiamų šablono laukų vertes.
+
+Jei nenurodėte ilgalaikio turto numerio „Excel” papildinio šablone arba duomenų valdyme, sistema sukuria kiekvieno importuoto turto ilgalaikio turto numerį ir automatiškai padidina kiekvieno numeraciją. Tačiau, jei importuojate turtą ir nurodote turto numerius šablone, sistema automatiškai **nepadidina** numeracijos. Tokiu atveju administratoriui gali tekti rankiniu būdu atnaujinti numeraciją. Jei nurodėte ilgalaikio turto numerį „Excel” papildinio šablone, sistema naudoja nurodytą ilgalaikio turto numerį ir padidina numeraciją.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: smmContactPerson, VendBankAccounts, VendTable
+ms.search.form: smmContactPerson, VendBankAccounts, VendTable, VendOnHoldUpdate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59c8071ed20740f81854d29e21f87b2e8650d10f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893166"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018080"
 ---
 # <a name="set-up-vendor-accounts"></a>Tiekėjų sąskaitų nustatymas
 
@@ -69,7 +69,7 @@ Kontaktinio asmens įrašo naikinti negalima, jei kontaktas yra nuorodas dokumen
 Tiekėjo kontaktus galite įtraukti į savo asmeninius kontaktus „Microsoft 365“. Tačiau pirmiausia turite nustatyti „Supply Chain Management“ ir „Microsoft 365“ sinchronizavimą tiek „Microsoft Exchange Server“ sinchronizavime, tiek „Microsoft Outlook“ nustatymo vedlyje.
 
 ## <a name="vendors-in-different-legal-entities"></a>Skirtingų juridinių subjektų tiekėjai
-Jei tiekėjas jūsų organizacijoje registruotas tik vienam juridiniam subjektui ir kiti juridiniai subjektai turi registruoti tą patį tiekėją, galite naudoti puslapį **Įtraukti tiekėją į kitą juridinį subjektą**, norėdami sukonfigūruoti tiekėją vykdyti verslo veiklą su kitu juridiniu subjektu. Pasirinktame juridiniame subjekte turite pasirinkti tiekėjų grupę, valiutą ir tiekėjo sulaikymo būseną.  
+Jei tiekėjas jūsų organizacijoje registruotas tik vienam juridiniam subjektui ir kiti juridiniai subjektai turi registruoti tą patį tiekėją, galite naudoti puslapį **Įtraukti tiekėją į kitą juridinį subjektą** , norėdami sukonfigūruoti tiekėją vykdyti verslo veiklą su kitu juridiniu subjektu. Pasirinktame juridiniame subjekte turite pasirinkti tiekėjų grupę, valiutą ir tiekėjo sulaikymo būseną.  
 
 Jei keli jūsų organizacijos juridiniai subjektai bendradarbiauja su tuo pačiu tiekėju ir kiekvienas juridinis subjektas turi atskirą tam tiekėjui skirtą sąskaitą, galite sulieti to tiekėjo kodų šalies ID. Tokiu būdu informaciją, pvz., adresą ir darbuotojų skaičių, galima bendrinti, kad ją naujinti reikėtų tik vienoje vietoje.  
 
@@ -114,7 +114,7 @@ Jei mokėjimus turite atlikti į tiekėjo banko sąskaitą, galite įvesti infor
 ## <a name="ledger-accounts"></a>DK sąskaitos
 Galite nurodyti numatytąsias sąskaitas, kurios bus automatiškai rodomos nurodyto tiekėjo SF žurnaluose. Ši funkcija gali būti naudinga, jei paprastai mokate už tos pačios rūšies prekes arba paslaugas iš tų pačių tiekėjų. Kai nurodote numatytąją sąskaitą, SF žurnale galite greitai ir efektyviai įvesti žurnalo įrašus. Jūsų nurodytos numatytosios sąskaitos nėra naudojamos pirkimo užsakymuose arba tiekėjo SF, kurias įvedate puslapyje **Tiekėjo SF**.  
 
-Numatytąsias sąskaitas galite pasirinkti puslapyje **Numatytosios sąskaitos nustatymas**, kurį galite atidaryti naudodami tiekėjo įrašo skirtuką **SF**. Čia pasirinktos sąskaitos rodomos filtruotame tiekėjo sąskaitų sąraše, kai įvedate žurnalo įrašą. Vieną iš sąskaitų galite nustatyti kaip numatytąją sąskaitą.
+Numatytąsias sąskaitas galite pasirinkti puslapyje **Numatytosios sąskaitos nustatymas** , kurį galite atidaryti naudodami tiekėjo įrašo skirtuką **SF**. Čia pasirinktos sąskaitos rodomos filtruotame tiekėjo sąskaitų sąraše, kai įvedate žurnalo įrašą. Vieną iš sąskaitų galite nustatyti kaip numatytąją sąskaitą.
 
 
 

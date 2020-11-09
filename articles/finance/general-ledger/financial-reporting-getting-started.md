@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 363ce16b31a199e519c969746c4f10430d9d7497
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
+ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967263"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3999554"
 ---
 # <a name="get-started-with-financial-reporting"></a>Pradėkite su „Financial reporting“ 
 
@@ -85,12 +85,12 @@ Pridėjus naudotoją ar pakeitus vaidmenį, naudotojas finansines ataskaitas tur
 > Sistemos administratoriaus vaidmuo yra įtraukiamas į visus finansinių ataskaitų rengimo vaidmenis.
 
 ## <a name="report-deletions-and-expirations"></a>Ataskaitų naikinimai ir galiojimo pabaiga
-Vartotojai, kurie sugeneruoja ataskaitą, gali panaikinti savo ataskaitas. Vartotojai, kurių pareiga **Prižiūrėti finansinių ataskaitų saugą**, gali panaikinti kitų ataskaitas. 
+Vartotojai, kurie sugeneruoja ataskaitą, gali panaikinti savo ataskaitas. Vartotojai, kurių pareiga **Prižiūrėti finansinių ataskaitų saugą** , gali panaikinti kitų ataskaitas. 
 
 Pradedant nuo 10.0.8 versijoje buvo pristatytas galiojimo pabaigos terminų konceptas. Nauja būtina savybė bus įjungta savybės **Visi** puslapyje per funkcijos valdymo darbo sritį. Funkcijoje **Finansinių ataskaitų saugojimo strategijos** yra toliau pateikti keitimai.
 * Naujai sukurtos ataskaitos bus automatiškai sužymėtos kaip turinčios 90 dienų galiojimo laiko pabaigą nuo jų sukūrimo momento.
 * Visoms esamoms ataskaitoms, buvusioms iki įdiegiant funkciją, bus suteiktas 90 dienų galiojimo laikotarpis. Data gali būti rodoma kaip tuščia trumpam laikotarpiui, kol bus paleista finansinių ataskaitų tarnyba, kai sugeneruojama ataskaita, tarnyba atlieka naujinimą esamoms ataskaitoms su tuščia galiojimo data. 
-* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą**, turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra prieinamos dvi sulaikymo parinktys: 
+* Vartotojai, turintys **Prižiūrėti finansinių ataskaitų saugą** , turi prieigą prie šios funkcijos. Bet kuris vartotojas, turintis pareigą **Prižiūrėti finansines ataskaitas** pagal suteiktą teisę **Prižiūrėti finansinių ataskaitų galiojimo pabaigą** taip pat turės galimybę keisti galiojimo laikotarpį. Šiuo metu yra prieinamos dvi sulaikymo parinktys: 
   * 90 dienų galiojimo laikotarpis.
   * Galimybė nustatyti, kad ataskaita niekada nebaigtų galioti.
   

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench
+ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench, WHSBillOfLadingCarrier, WHSBillOfLadingOrder
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05ad5d4b49f1fa50bde7df9c835ee99a981420c4
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: bd014f5804681936920b47e999709f153def11bc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3206316"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016683"
 ---
 # <a name="create-a-bill-of-lading"></a>Kurti važtaraštį
 
@@ -36,10 +36,10 @@ Važtaraštis yra teisinis dokumentas, kurį pasirašo prekes siunčianti įmon�
   -   Kurkite ataskaitą neautomatiniu būdu, naudodami puslapį **Važtaraštis**.
   -   Generuokite ataskaitą iš **Krovinio planavimo darbo sritis**.
 
-Jei važtaraštį generuojate iš **Krovinio planavimo darbo sritis**, krovinio būsena turi būti **Išsiųsta.** Jei krovinyje yra daugiau nei viena siunta, sukuriamas kiekvienos siuntos važtaraštis. Sukūrus važtaraštį, jį galima keisti puslapyje **Važtaraštis**.
+Jei važtaraštį generuojate iš **Krovinio planavimo darbo sritis** , krovinio būsena turi būti **Išsiųsta.** Jei krovinyje yra daugiau nei viena siunta, sukuriamas kiekvienos siuntos važtaraštis. Sukūrus važtaraštį, jį galima keisti puslapyje **Važtaraštis**.
 
 ## <a name="master-bill-of-lading"></a>Pagrindinis važtaraštis
-Jei krovinyje yra daugiau nei viena siunta, galite generuoti bendrąjį važtaraštį. Jo maketas ir informacija yra tokie pat kaip važtaraščio, bet juose pateikiamas apibendrintas visų siuntų turinys. Kai puslapyje **Transportavimo valdymo parametrai** parinktis **Kurti bendrąjį važtaraštį, kai krovinyje yra daugiau nei viena siunta** nustatyta į **Taip**, bendrasis važtaraštis sugeneruojamas automatiškai, jei važtaraštį kuriate iš **Krovinio planavimo darbo sritis** ir jei yra daugiau nei viena siunta. Taip pat galite gauti važtaraščių sąrašą, spustelėdami **Susijusi informacija** &gt; **Važtaraštis**. Jei važtaraščius kuriate neautomatiniu būdu, bendrąjį važtaraštį galite kurti puslapyje **Važtaraštis**.
+Jei krovinyje yra daugiau nei viena siunta, galite generuoti bendrąjį važtaraštį. Jo maketas ir informacija yra tokie pat kaip važtaraščio, bet juose pateikiamas apibendrintas visų siuntų turinys. Kai puslapyje **Transportavimo valdymo parametrai** parinktis **Kurti bendrąjį važtaraštį, kai krovinyje yra daugiau nei viena siunta** nustatyta į **Taip** , bendrasis važtaraštis sugeneruojamas automatiškai, jei važtaraštį kuriate iš **Krovinio planavimo darbo sritis** ir jei yra daugiau nei viena siunta. Taip pat galite gauti važtaraščių sąrašą, spustelėdami **Susijusi informacija** &gt; **Važtaraštis**. Jei važtaraščius kuriate neautomatiniu būdu, bendrąjį važtaraštį galite kurti puslapyje **Važtaraštis**.
 
 
 

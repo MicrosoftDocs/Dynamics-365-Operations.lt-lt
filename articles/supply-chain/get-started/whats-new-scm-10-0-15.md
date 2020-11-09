@@ -1,9 +1,9 @@
 ---
-title: Kas naujo „Dynamics 365 Supply Chain Management“ 10.0.15 peržiūros versijoje (2020 m. gruodis)
+title: 10.0.15 versijos „Dynamics 365 Supply Chain Management” peržiūra (2021 m. sausio mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.15 versijos funkcijos.
 author: kamaybac
 manager: tfehr
-ms.date: 10/09/2020
+ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,35 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7c7ac0e795ec085584be9cfdef65333969255ed6
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989316"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012280"
 ---
-# <a name="whats-new-in-the-dynamics-365-supply-chain-management-preview-of-release-10015-december-2020"></a>Kas naujo „Dynamics 365 Supply Chain Management“ 10.0.15 peržiūros versijoje (2020 m. gruodis)
+# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>10.0.15 versijos „Dynamics 365 Supply Chain Management” peržiūra (2021 m. sausio mėn.)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje pristatomos funkcijos, kurios yra naujos arba pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.15 peržiūros versijoje. Šios versijos komponavimo numeris yra 10.0.644 ir jis pasiekiamas tokius būdu:
 
-- **10.0.15 peržiūros versija:** 2020 m. spalis
-- **10.0.15 versijos bendras pasiekiamumas (rankinis naujinimas):** 2020 m. lapkritis
-- **10.0.15 versijos bendras pasiekiamumas (automatinis naujinimas):** 2020 m. gruodis
+- **Leidimo peržiūra:** 2020 m. spalio mėn.
+- **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2020 m. lapkričio mėn.
+- **Bendras leidimo pasiekiamumas (automatinis naujinimas):** 2021 m. sausio mėn.
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomos nuorodos rodo į papildomus dokumentus, kurie šiuo metu yra prieinami tai funkcijai. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti paskelbimo datas, sekite nuorodomis arba eikite į [„Dynamics 365 Supply Chain Management“ naujienos ir planai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features), kad pamatytumėte visų paskelbtų ir dabartinei leidimo bangai suplanuotų funkcijų datas. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Kai kurios išvardytos funkcijos vis dar yra peržiūros versijos, o kitos funkcijos jau gali būti prieinamos bendrai. Norėdami peržiūrėti kiekvienos funkcijos oficialią leidimo datą, vadovaukitės saitais su [leidimų planu](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features).
 
-- Debesų ir paskirstytų modulių valdymas su gamybos ir sandėlio vykdymo darbo krūviais
+- Debesų ir paskirstytų modulių valdymas su gamybos ir sandėlio vykdymo darbo krūviais<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+
 - [Kurti ir apdoroti perkėlimo užsakymus naudojant sandėlio programą](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](../warehousing/create-transfer-order-from-warehouse-app.md).
+
 - [Numatytieji RFQ atsakymo laukai tiekėjo kainos pasiūlymui](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Norėdami gauti daugiau informacijos, žr. [Pasiūlymų patvirtinimų (RFQ) apžvalga](../procurement/request-quotations.md).
+
 - [„Dynamics 365 Supply Chain Management“ inžinierinių pokyčių valdymo papildinys](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+
 - [Mišriosios realybės vadovai gamybai](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Norėdami gauti daugiau informacijos, žr. [Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams](../production-control/instruction-guides-in-production-overview.md).
-- [Nauja vartotojo vykdymo ceche patirtis](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<!-- <br> - For more information, see [How workers use the production floor execution interface](../production-control/production-floor-execution-use.md).-->
+
+- [Nauja vartotojo vykdymo ceche patirtis](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Daugiau informacijos žr. [Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają](../production-control/production-floor-execution-use.md).
+
 - [Apdoroti sandėlio programos įvykius](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Daugiau informacijos žr. [Sandėlio programos įvykių apdorojimas](../warehousing/warehouse-app-events.md).
+
+Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

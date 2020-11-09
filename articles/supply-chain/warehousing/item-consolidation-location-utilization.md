@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5e4172a8d3f82e6eeb8868aac87abd183a94c088
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598790"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017189"
 ---
 # <a name="item-consolidation---location-utilization"></a>Elemento konsolidavimas - vietos naudojimas
 
@@ -64,7 +65,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 
     Nauja eilutė pridedama prie tinklelio. **Elemento skaičiaus** laukelis nustatomas iš naujo.
 
-1. **Padalinio** laukelyje pasirinkite*ea*. Likę laukeliai linijoje yra nustatomi automatiškai.
+1. **Padalinio** laukelyje pasirinkite *ea*. Likę laukeliai linijoje yra nustatomi automatiškai.
 1. Pasirinkite **Išsaugoti** ir uždarykite puslapį.
 
 ### <a name="location-profile"></a>Vietos profilis
@@ -72,7 +73,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Sandėlys \> Vietos profiliai**.
 1. Vietų profilių sąraše, pasirinkite **FLOOR-05**.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
-1. **Bendri** „FastTab“, įsitikinkite, kad abi toliau pateiktos parinktys yra nustatytos į *Taip*:
+1. **Bendri** „FastTab“, įsitikinkite, kad abi toliau pateiktos parinktys yra nustatytos į *Taip* :
 
     - Įgalinti prekę vietoje
     - Įgalinti vietos būseną
@@ -80,7 +81,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 1. Pasirinkite **Įrašyti**.
 
     > [!IMPORTANT]
-    > Jei**Įjungti elementą vietoje** ir **Įjungti vietos būseną** parinktys jau buvo nustatytos į *Taip*, praleiskite laukiančias instrukcijas **Matmenų** nustatymui „FastTab“ 10 žingsnyje. Jei parinktys dar nėra nustatytos į *Taip*, turite vykdyti nuolatinį **Sandėlio valdymo** modulio tikrinimą po rankinio jų nustatymo. Šiuo atveju, atlikite kitą žingsnį.
+    > Jei **Įjungti elementą vietoje** ir **Įjungti vietos būseną** parinktys jau buvo nustatytos į *Taip* , praleiskite laukiančias instrukcijas **Matmenų** nustatymui „FastTab“ 10 žingsnyje. Jei parinktys dar nėra nustatytos į *Taip* , turite vykdyti nuolatinį **Sandėlio valdymo** modulio tikrinimą po rankinio jų nustatymo. Šiuo atveju, atlikite kitą žingsnį.
 
 1. Nuolatinio tikrinimo vykdymui, eikite į **Sistemos administravimas \> Periodinės užduotys \> Duomenš bazę \> Periodinis tikrinimas**.
 1. **Nuolatinio tikrinimo** teksto laukelyje, nustatykite šias vertes:
@@ -97,7 +98,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
     >
     > Jei žinutė dėl nuolatinio tikrinimo sako „Netinkamas vietos būsenos informacija rasta XXXX vietai XX sandėlyje“, privalote vykdyti nuolatinį tikrinimą dar kartą. Šįkart, nustatykite **Tikrinti/Taisyti** laukelį į *Taisyti klaidą*. Peržiūrėkite žinutes, kad įsitikintumėte, jog nebuvo rasta jokių klaidų.
 
-1. Dabar galite užbaigti profilio vietos nustatymą. Eikite atgal į **Sandėlio valdymas \> Sąranka \> Sandėlis \> Vietos profiliai**, pasirinkite vietos profilį **FLOOR-05** ir tuomet veiksmų juostoje pasirinkite **Redaguoti**.
+1. Dabar galite užbaigti profilio vietos nustatymą. Eikite atgal į **Sandėlio valdymas \> Sąranka \> Sandėlis \> Vietos profiliai** , pasirinkite vietos profilį **FLOOR-05** ir tuomet veiksmų juostoje pasirinkite **Redaguoti**.
 1. **Matmenys** „FastTab“, nustatykite šias vertes:
 
     - **Tūrio panaudojimo procentas:** *100*
@@ -149,7 +150,7 @@ Prieš pradedant naudoti šiame skyriuje aprašytas savybes, privalote įjungti 
 
 ## <a name="example-scenario"></a>Pavyzdinis scenarijus
 
-Tolesnis scenarijus naudoja sandėlio programą mobiliame prietaise tam, kad sukurtų inventorių *reguliavimą viduje*dvejose sandėlio vietose.
+Tolesnis scenarijus naudoja sandėlio programą mobiliame prietaise tam, kad sukurtų inventorių *reguliavimą viduje* dvejose sandėlio vietose.
 
 ### <a name="add-inventory-to-locations"></a>Įtraukti inventorių į vietas
 

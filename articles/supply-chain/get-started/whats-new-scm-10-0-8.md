@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-01-31
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 756924c87ced7cd2d5fc4e7c2a01b571558d3550
-ms.sourcegitcommit: 06f64550b2043582de4018bdd3924fcc1fd5d310
+ms.openlocfilehash: 1b18965b41822c6ae6c263948c6605a229277165
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3801463"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012326"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1008-february-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.8 (2020 m. vasario mėn.)
 
@@ -36,13 +36,14 @@ ms.locfileid: "3801463"
 
 ## <a name="features-included-in-this-release"></a>Funkcijos, įtrauktos į šį leidimą
 
-Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Kai kurios iš šių funkcijų taip pat galėjo būti įtrauktos į ankstesnį papildantįjį leidimą, bet nebuvo paskelbtos ankstesnėje temoje *Kas nauja*, todėl jas pridedame čia. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
+Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Kai kurios iš šių funkcijų taip pat galėjo būti įtrauktos į ankstesnį papildantįjį leidimą, bet nebuvo paskelbtos ankstesnėje temoje *Kas nauja* , todėl jas pridedame čia. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 - [Papildomos vietos zona](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/additional-location-zone)
+
 - [Turto valdymas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/dynamics-365-asset-management)<br> - Norėdami gauti daugiau informacijos, žr. [Turto valdymo apžvalgą](../asset-management/index.md).
 - [Atšaukti darbą](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cancel-work)<br> - Dėl platesnės informacijos, žr. [Darbo sandėlyje atšaukimas dėl išimčių tvarkymo](../warehousing/cancel-warehouse-work.md).
 - [Darbo telkinio keitimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/change-work-pool-work)<br> - Daugiau informacijos žr. [Darbo telkinio keitimas](../warehousing/change-work-pool-on-work.md).
-- [Klasterio padėtis pilna](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full) – daugiau informacijos žr. [Klasterio padėtis pilna](../warehousing/cluster-position-full.md).
+- [Klasterio padėtis pilna](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/cluster-position-full)<br> - Daugiau informacijos žr. [Klasterio padėtis pilna](../warehousing/cluster-position-full.md).
 - [Tvirtinimas ir perkėlimas](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/confirm-transfer)<br> - Daugiau informacijos žr. [Tvirtinimas ir perkėlimas](../warehousing/confirm-and-transfer.md).
 - [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-directive-inventory-picking-aging)<br> - Daugiau informacijos žr. [Vietos nurodymo atsargų paėmimo skirstymas pagal terminus](../warehousing/location-directive-inventory-picking-aging.md).
 - [Vietos būsena](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/location-status)

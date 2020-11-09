@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c78752aa1544b12f61071fa06617af4ac2809233
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: f49eba1748861af6ee3353a6c58005ee84ccae23
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172997"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3998113"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Dvigubo rašymo sąranka iš „Lifecycle Services“
 
@@ -46,7 +45,7 @@ Norėdami nustatyti dvigubo rašymo ryšį, turite turėti administratoriaus sta
 Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.
 
 1. Nueikite į savo projektą, esantį LCS.
-2. Pasirinkite **Konfigūruoti**, kad įdiegtumėte naują aplinką.
+2. Pasirinkite **Konfigūruoti** , kad įdiegtumėte naują aplinką.
 3. Pasirinkite versiją. 
 4. Pasirinkite topologiją. Jei galima tik viena topologija, ji pasirenkama automatiškai.
 5. Atlikite pirmuosius veiksmus vedlyje **Diegimo parametrai**.
@@ -75,11 +74,11 @@ Norėdami nustatyti dvigubo rašymo ryšį, atlikite toliau nurodytus veiksmus.
         ![Skirtukas Common Data Service, kai jūsų nuomotojas dar neturi Common Data Service aplinkos](../dual-write/media/lcs_setup_2.png)
 
 7. Atlikite likusius veiksmus vedlyje **Diegimo parametrai**.
-8. Kai aplinka įgyja statusą **Įdiegta**, atidarykite aplinkos išsamios informacijos puslapį. Skyriuje **Common Data Service aplinkos informacija** pateikiami susietų Finance and Operations ir Common Data Service aplinkų pavadinimai.
+8. Kai aplinka įgyja statusą **Įdiegta** , atidarykite aplinkos išsamios informacijos puslapį. Skyriuje **Common Data Service aplinkos informacija** pateikiami susietų Finance and Operations ir Common Data Service aplinkų pavadinimai.
 
     ![Common Data Service aplinkos informacijos skyrius](../dual-write/media/lcs_setup_3.png)
 
-9. Finance and Operations aplinkos administratorius turi prisijungti prie LCS ir pasirinkti **Programėlių CDS saitas**, kad susiejimas būtų užbaigtas. Aplinkos informacijos puslapyje pateikiama administratoriaus kontaktinė informacija.
+9. Finance and Operations aplinkos administratorius turi prisijungti prie LCS ir pasirinkti **Programėlių CDS saitas** , kad susiejimas būtų užbaigtas. Aplinkos informacijos puslapyje pateikiama administratoriaus kontaktinė informacija.
 
     Susiejimą užbaigus, būsena atnaujinama į **Aplinkos siejimas sėkmingai užbaigtas**.
 

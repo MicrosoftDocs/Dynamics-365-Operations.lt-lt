@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 57081b9e737373641cd9d884919d03dcf62a2ffe
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140660"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107403"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Mažmeninės prekybos išrašų parduotuvės konfigūracijos
 
@@ -30,11 +30,11 @@ ms.locfileid: "3140660"
 
 Ši procedūra nurodo parduotuvės konfigūracijas, kurios turi įtakos, kaip kuriami ir registruojami prekybos išrašai. Parduotuvių finansiniai aspektai aprašyti kitoje procedūroje. Šioje procedūroje naudojama demonstracinė įmonė USRT.
 
-1. Pasirinkę **Naršymo sritis** eikite į **Moduliai > Mažmeninė prekyba ir prekyba > Kanalai > Parduotuvės > Visos parduotuvės**.
+1. **Naršymo sritis** eikite į **Moduliai > Mažmeninė prekyba ir prekyba > Kanalai > Parduotuvės > Visos parduotuvės**.
 2. Sąraše raskite ir pasirinkite norimą įrašą.
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 4. Spustelėkite **Redaguoti**.
-5. „fastTab“ **Išrašas / uždarymas** parametrai taikomi kuriant, tikrinant ir skelbiant parduotuvės išrašus. Išplėskite „fastTab“ **Išrašas / uždarymas**.  
+5. „FastTab“ **Išrašas / uždarymas** parametrai taikomi kuriant, tikrinant ir skelbiant parduotuvės išrašus. Išplėskite „FastTab“ **Išrašas / uždarymas**.  
 6. Lauke **Išrašo metodas** pasirinkite metodą, kurį norite naudoti išrašo eilutėms grupuoti.  
 7. Lauke **Vienas išrašas per dieną** pasirinkite Taip, jei kuriant išrašus pagal išrašų kūrimo paketinę užduotį per dieną turėtų būti sukuriamas tik vienas išrašas.  
 8. Lauke **Mokėjimo priemonių deklaravimo skaičiavimas** nustatyta, ar mokėjimo priemonių deklaracijos turėtų būti sudedamos kartu, ar turėtų būti naudojama paskutinė deklaracija.  
@@ -46,6 +46,6 @@ ms.locfileid: "3140660"
 14. Lauke **Uždarymo metodas** nustatykite, ar operacijos, kurios bus įtrauktos į išrašą, turėtų priklausyti uždarytai pamainai, ar tai gali būti bet kokios operacijos nustatytu datos ir (arba) laiko intervalu.  
 15. Lauke **Darbo dienos pabaiga** įveskite laiką, jei operacijos, įvykusios po vidurnakčio, turėtų būti registruojamos ankstesnę dieną.  
 16. Pasirinkite parinkties **Registruoti kaip darbo dieną** nuostatą Taip, jei operacijos, įvykusios po vidurnakčio, turėtų būti registruojamos ankstesnę dieną.  
-17. Pasirinkite parinkties **Skaidyti pagal išrašo metodą** nuostatą Taip, kad išrašai būtų sukurti pagal kiekvieną nustatytą išrašų metodą. Tai gali būti naudinga, jei registravimo efektyvumą reikia tobulinti parduotuvėse, kuriose atliekama daug operacijų, nes tokiu atveju būtų sukurta daug mažesnių išrašų, kuriuos galima apdoroti lygiagrečiai.  
-18. „fastTab“ **Bendra**, lauke **Numatytasis klientas**, galite pasirinkti kliento sąskaitą, skirtą naudoti pardavimui atėjusiems klientams.  
+17. Pasirinkite parinkties **Skaidyti pagal išrašo metodą** nuostatą Taip, kad išrašai būtų sukurti pagal kiekvieną nustatytą išrašų metodą. Šis veiksmas gali būti naudingas, jei registravimo efektyvumą reikia tobulinti parduotuvėse, kuriose atliekama daug operacijų, nes tokiu atveju būtų sukurta daug mažesnių išrašų, kuriuos galima apdoroti lygiagrečiai.  
+18. „FastTab“ **Bendra** , lauke **Numatytasis klientas** , galite pasirinkti kliento sąskaitą, skirtą naudoti pardavimui atėjusiems klientams.  
 

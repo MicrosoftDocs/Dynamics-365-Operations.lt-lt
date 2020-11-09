@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d719c3ba68458130d415c50319fdcdeafcfc783e
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836002"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039827"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Darbo su Meksikos elektroninių SF išrašymo priedu pradžia
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 > [!IMPORTANT]
 > Meksikos elektroninių SF išrašymo priedas šiuo metu gali nepalaikyti visų funkcijų, pasiekiamų „Comprobante Fiscal Digital por Internet” (CFDI) dokumente ir susijusiame integravime, įtaisytame „Microsoft Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management”.
@@ -55,7 +54,7 @@ RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
 1. Prisijunkite prie jūsų RCS abonemento.
 2. Darbo srities **Globalizacijos funkcijos** dalyje **Funkcijos** pasirinkite plytelę **El. SF išrašymas**.
-3. Puslapyje **El. SF išrašymo funkcijos** pasirinkite **Importuoti**, norėdami importuoti funkciją **CFDI SF (MX)** iš visuotinės saugyklos.
+3. Puslapyje **El. SF išrašymo funkcijos** pasirinkite **Importuoti** , norėdami importuoti funkciją **CFDI SF (MX)** iš visuotinės saugyklos.
 
     > [!NOTE]
     > Jei sąraše nematote funkcijos, pasirinkite **Sinchronizuoti** ir pakartokite 3 veiksmą.
@@ -74,7 +73,7 @@ Galite sukurti naują versiją, jei, pavyzdžiui, reikia atnaujinti URL. Daugiau
 
 ### <a name="update-the-configuration-version"></a>Konfigūracijos versijos naujinimas
 
-1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Konfigūracijos** pasirinkite **Įtraukti** arba **Naikinti**, norėdami valdyti konfigūracijos versijas (ER failo formato konfigūracijas).
+1. Puslapio **El. SF išrašymo funkcijos** skirtuke **Konfigūracijos** pasirinkite **Įtraukti** arba **Naikinti** , norėdami valdyti konfigūracijos versijas (ER failo formato konfigūracijas).
 
     ![El. SF išrašymo funkcijos konfigūracijų valdymas](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
@@ -86,7 +85,7 @@ Galite sukurti naują versiją, jei, pavyzdžiui, reikia atnaujinti URL. Daugiau
     - CFDI atšaukimo užklausa (MX) (BusinessDocumentService)
     - CFDI SF (BusinessDocumentService)
 
-2. Sąraše pasirinkite konfigūracijos versiją, tada pasirinkite **Redaguoti** arba **Peržiūrėti**, kad būtų atidarytas puslapis **Formato dizaino įrankis**, kuriame galite redaguoti arba peržiūrėti konfigūraciją.
+2. Sąraše pasirinkite konfigūracijos versiją, tada pasirinkite **Redaguoti** arba **Peržiūrėti** , kad būtų atidarytas puslapis **Formato dizaino įrankis** , kuriame galite redaguoti arba peržiūrėti konfigūraciją.
 
     ![Puslapio Formato dizaino įrankis atidarymas](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
@@ -96,7 +95,7 @@ Galite sukurti naują versiją, jei, pavyzdžiui, reikia atnaujinti URL. Daugiau
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>El. SF išrašymo funkcijos nustatymų valdymas
 
-- Puslapio **El. SF išrašymo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti**, **Naikinti** arba **Redaguoti**, norėdami valdyti el. SF išrašymo funkcijos nustatymus.
+- Puslapio **El. SF išrašymo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti** , **Naikinti** arba **Redaguoti** , norėdami valdyti el. SF išrašymo funkcijos nustatymus.
 
 ![El. SF išrašymo funkcijos nustatymų valdymas](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
@@ -107,11 +106,11 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Pardavimo SF funkcijos nustatymo konfigūravimas
 
 1. Puslapio **El. SF išrašymo funkcijos** skirtuko **Nustatymai** stulpelyje **Funkcijos nustatymas** pasirinkite **Pardavimo SF**.
-2. Pasirinkite **Redaguoti**, norėdami konfigūruoti veiksmus, taikymo taisykles ir kintamuosius.
+2. Pasirinkite **Redaguoti** , norėdami konfigūruoti veiksmus, taikymo taisykles ir kintamuosius.
 
     ![El. SF išrašymo funkcijos nustatymo redagavimas](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
-3. Puslapyje **Funkcijos versijos nustatymas** pasirinkite skirtuką **Veiksmai**, norėdami valdyti veiksmų sąrašą. Skirtukas Veiksmai nurodo operacijų, kurios turi būti vykdomos eilės tvarka siekiant visiškai įvykdyti įvykį, sąrašą.
+3. Puslapyje **Funkcijos versijos nustatymas** pasirinkite skirtuką **Veiksmai** , norėdami valdyti veiksmų sąrašą. Skirtukas Veiksmai nurodo operacijų, kurios turi būti vykdomos eilės tvarka siekiant visiškai įvykdyti įvykį, sąrašą.
 
     ![Skirtukas Veiksmai](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
@@ -150,8 +149,8 @@ Norint pateikti CFDI SF atšaukimą, reikalingi funkcijų **Atšaukimas** ir **A
 
 ## <a name="publish-the-e-invoicing-feature"></a>El. SF išrašymo funkcijos publikavimas
 
-1. Puslapyje **El. SF išrašymo funkcijos** pasirinkite skirtuką **Versijos**, norėdami valdyti funkcijos **CFDI SF (MX)** būseną.
-2. Pasirinkite **Keisti būseną**, norėdami pakeisti funkcijos būseną.
+1. Puslapyje **El. SF išrašymo funkcijos** pasirinkite skirtuką **Versijos** , norėdami valdyti funkcijos **CFDI SF (MX)** būseną.
+2. Pasirinkite **Keisti būseną** , norėdami pakeisti funkcijos būseną.
 
 ![El. SF išrašymo funkcijos būsenos keitimas](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
@@ -165,10 +164,10 @@ Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite 
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>ER duomenų modelio, ER duomenų modelio susiejimo ir konteksto konfigūracijų, reikalingų CFDI SF, importavimas
 
 1. Prisijunkite prie „Finance“.
-2. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus**, žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus** , žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Pasirinkite **Saugyklos**.
 4. Pasirinkite **Visuotiniai ištekliai \> Atidaryti**.
-5. Importuokite **SF modelis**, **SF modelio susiejimas**, **CFDI SF formatas (MX)**, **CFDI SF atšaukimo užklausos formatas (MX)** ir **CFDI SF atšaukimo formatas (MX)**.
+5. Importuokite **SF modelis** , **SF modelio susiejimas** , **CFDI SF formatas (MX)** , **CFDI SF atšaukimo užklausos formatas (MX)** ir **CFDI SF atšaukimo formatas (MX)**.
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>CFDI SF apdorojimo funkcijos įjungimas
 
@@ -184,7 +183,7 @@ Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite 
 1. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**.
 3. Pasirinkite **Saugyklos**.
 4. Pasirinkite **Visuotiniai ištekliai \> Atidaryti**.
-5. Importuokite **Atsakymo pranešimo modelis**, **CFDI klaidų žurnalo importavimas (MX)**, **CFDI klaidų žurnalo importavimas (MX)** ir **CFDI atsakymo pranešimo importavimas (MX)**.
+5. Importuokite **Atsakymo pranešimo modelis** , **CFDI klaidų žurnalo importavimas (MX)** , **CFDI klaidų žurnalo importavimas (MX)** ir **CFDI atsakymo pranešimo importavimas (MX)**.
 
 #### <a name="set-up-the-response-types"></a>Atsakymų tipų nustatymas
 
@@ -196,12 +195,12 @@ Norėdami nustatyti elektroninių SF išrašymo priedą „Finance”, atlikite 
     - Dalyje **Kliento SF žurnalas** įveskite **Kliento SF kontekstas**.
     - Dalyje **Projekto SF** įveskite **Projekto SF kontekstas**.
 
-4. Pasirinkite **Atsakymų tipai**, norėdami sukonfigūruoti atsakymų tipus, kuriuos galima grąžinti iš elektroninių SF išrašymo priedo ir įtraukti į kliento SF žurnalą ar projekto SF.
-5. Pasirinkite **Naujas**, tada lauke **Atsakymo tipas** pasirinkite **Atsakymas**.
+4. Pasirinkite **Atsakymų tipai** , norėdami sukonfigūruoti atsakymų tipus, kuriuos galima grąžinti iš elektroninių SF išrašymo priedo ir įtraukti į kliento SF žurnalą ar projekto SF.
+5. Pasirinkite **Naujas** , tada lauke **Atsakymo tipas** pasirinkite **Atsakymas**.
 6. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
 7. Lauke **Modelio susiejimas** pasirinkite **Atsakymo pranešimo importavimo formatas – modelio susiejimas iš atsakymo pranešimo**.
 8. Pasirinkite **Įrašyti**.
-9. Pasirinkite **Naujas**, tada lauke **Atsakymo tipas** pasirinkite **Atsakymo duomenys**.
+9. Pasirinkite **Naujas** , tada lauke **Atsakymo tipas** pasirinkite **Atsakymo duomenys**.
 10. Lauke **Pateikimo būsena** pasirinkite **Laukiama**.
 11. Lauke **Modelio susiejimas** pasirinkite **CFDI atsakymo duomenų importavimo formatas (informacija) – atsakymo duomenų importavimas**.
 12. Pasirinkite **Įrašyti**.
@@ -216,14 +215,14 @@ CFDI SF apdorojimo metu „Finance” naudodami elektroninių SF išrašymo prie
 
 ### <a name="submit-cfdi-invoices"></a>CFDI SF pateikimas
 
-Po to, kai įjungiate funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, proceso **Elektroninės SF eksportavimas / importavimas** (**Gautinos sumos \> SF \> El. SF**), skirto CFDI SF pateikti, nebegalima naudoti. Jis pakeičiamas nauju procesu pavadinimu **Pateikti elektroninius dokumentus**.
+Po to, kai įjungiate funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas** , proceso **Elektroninės SF eksportavimas / importavimas** ( **Gautinos sumos \> SF \> El. SF** ), skirto CFDI SF pateikti, nebegalima naudoti. Jis pakeičiamas nauju procesu pavadinimu **Pateikti elektroninius dokumentus**.
 
 > [!NOTE]
-> Prieš pradėdami naudoti naują procesą **Pateikti elektroninius dokumentus**, įsitikinkite, kad atliktas reikiamas Meksikos el. SF nustatymas. Daugiau informacijos žr. [CFDI 3.3 maketo versija](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Prieš pradėdami naudoti naują procesą **Pateikti elektroninius dokumentus** , įsitikinkite, kad atliktas reikiamas Meksikos el. SF nustatymas. Daugiau informacijos žr. [CFDI 3.3 maketo versija](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
 2. Pirmą kartą pateikę bet kokį dokumentą, visada nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.
-3. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti**, kad būtų atidarytas dialogo langas **Užklausa**, kuriame galite kurti užklausą, norėdami pasirinkti dokumentus pateikimui.
+3. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti** , kad būtų atidarytas dialogo langas **Užklausa** , kuriame galite kurti užklausą, norėdami pasirinkti dokumentus pateikimui.
 
 ![CFDI dokumento pateikimas](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
@@ -236,10 +235,10 @@ Galite peržiūrėti visų pateiktų dokumentų arba tik vieno pateikto dokument
 
 #### <a name="view-all-submission-logs"></a>Visų pateikimo žurnalų peržiūra
 
-Įjungus funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, galima naudoti naują puslapį, leidžiantį sekti dokumento pateikimo procesą. Galite naudoti šį puslapį norėdami peržiūrėti visų pateiktų dokumentų pateikimo žurnalus.
+Įjungus funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas** , galima naudoti naują puslapį, leidžiantį sekti dokumento pateikimo procesą. Galite naudoti šį puslapį norėdami peržiūrėti visų pateiktų dokumentų pateikimo žurnalus.
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
-2. Lauke **Dokumento tipas** pasirinkite **Kliento SF žurnalas**, norėdami filtruoti pagal reikiamus elektroninius dokumentus.
+2. Lauke **Dokumento tipas** pasirinkite **Kliento SF žurnalas** , norėdami filtruoti pagal reikiamus elektroninius dokumentus.
 
     ![Dokumento tipo pasirinkimas norint peržiūrėti pateikimo žurnalus](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
@@ -250,14 +249,14 @@ Galite peržiūrėti visų pateiktų dokumentų arba tik vieno pateikto dokument
 Pateikimo žurnalų informacija suskirstyta į tris toliau pateiktus „FastTab”.
 
 - **Apdorojimo veiksmai** – šis „FastTab” nurodo veiksmų, sukonfigūruotų funkcijos versijoje, nustatytoje RCS, vykdymo žurnalą. Stulpelyje **Būsena** nurodoma, ar veiksmas sėkmingai įvykdytas.
-- **Veiksmų failai** – šis „FastTab” nurodo tarpinius failus, sugeneruotus veiksmų vykdymo metu. Galite pasirinkti **Peržiūrėti**, norėdami atsisiųsti failą ir jį peržiūrėti.
+- **Veiksmų failai** – šis „FastTab” nurodo tarpinius failus, sugeneruotus veiksmų vykdymo metu. Galite pasirinkti **Peržiūrėti** , norėdami atsisiųsti failą ir jį peržiūrėti.
 - **Apdorojimo veiksmų žurnalas** – šis „FastTab” nurodo ryšio tarp elektroninių SF išrašymo priedo ir tikslinės žiniatinklio tarnybos rezultatus. Taip pat rodoma, ką pateikė žiniatinklio tarnybos apdorojimas. Stulpelyje **Klaidos kodas** rodomas grąžinimo kodas, kurį pateikė autorizavimo žiniatinklio tarnyba.
 
 Kai pateikta CFDI SF patvirtinama, jos būsena atnaujinama į **Patvirtinta**.
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Pateikimo žurnalų peržiūra iš CFDI SF
 
-Įjungę funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, taip pat galite peržiūrėti pateikimo žurnalus iš CFDI SF.
+Įjungę funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas** , taip pat galite peržiūrėti pateikimo žurnalus iš CFDI SF.
 
 1. Eikite į **Gautinos sumos \> Užklausos ir ataskaitos \> CFDI (elektroninės SF)**.
 2. Pasirinkite CFDI SF, kuri buvo pateikta po to, kai buvo įjungta funkcija **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**.
@@ -270,10 +269,10 @@ Kai pateikta CFDI SF patvirtinama, jos būsena atnaujinama į **Patvirtinta**.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>CFDI SF atšaukimo pateikimas
 
-Įjungus funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas**, nebegalima naudoti senojo CFDI SF atšaukimo proceso. Jis pakeičiamas nauju atšaukimo procesu, kuris įdėtas puslapyje **Elektroninių dokumentų pateikimo žurnalas**.
+Įjungus funkciją **Konfigūruojamas elektroninių SF išrašymo priedo integravimas** , nebegalima naudoti senojo CFDI SF atšaukimo proceso. Jis pakeičiamas nauju atšaukimo procesu, kuris įdėtas puslapyje **Elektroninių dokumentų pateikimo žurnalas**.
 
 1. Eikite į **Gautinos sumos \> Užklausos ir ataskaitos \> CFDI (elektroninės SF)**.
-2. Jei CFDI SF būsena yra **Patvirtinta**, pasirinkite **Funkcijos \> Atšaukti CFDI**.
+2. Jei CFDI SF būsena yra **Patvirtinta** , pasirinkite **Funkcijos \> Atšaukti CFDI**.
 3. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
 4. Pasirinkite CFDI SF, tada pasirinkite **Funkcijos \> Siųsti susijusius pateikimus**.
 5. Įveskite susijusio pateikimo aprašą ir pasirinkite **Gerai**.
@@ -281,7 +280,7 @@ Kai pateikta CFDI SF patvirtinama, jos būsena atnaujinama į **Patvirtinta**.
 #### <a name="view-cancellation-submission-logs"></a>Atšaukimo pateikimo žurnalų peržiūra
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Elektroninio dokumento pateikimo žurnalas**.
-2. Lauke **Dokumento tipas** pasirinkite **Kliento SF žurnalas**, norėdami filtruoti tik pagal kliento SF žurnalo dokumentus.
+2. Lauke **Dokumento tipas** pasirinkite **Kliento SF žurnalas** , norėdami filtruoti tik pagal kliento SF žurnalo dokumentus.
 3. Pasirinkite CFDI SF, tada veiksmų srityje pasirinkite **Užklausos \> Susijęs pateikimas**.
 
     Puslapyje **Susiję pateikimai** rodomi visi susiję pateikimai ir konkrečių CFDI SF pateikimo būsenos. Toliau pateiktoje iliustracijoje pirmoji eilutė nurodo pateikimą, kuris pateikė CFDI SF patvirtinimo užklausą. Antroji eilutė nurodo pateikimą, atšaukusį CFDI SF.
@@ -293,7 +292,7 @@ Kai pateikta CFDI SF patvirtinama, jos būsena atnaujinama į **Patvirtinta**.
     ![Atšaukimo pateikimo žurnalų informacijos peržiūra](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
-Įgalinant funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas) gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas), nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Pasirinkite skirtuką **Funkcijos**, pasirinkite eilutes, kuriose yra funkcijos MX-00010 ir MX-00016, tada atlikite reikiamą žymėjimą. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
+Įgalinant funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas) gali reikėti siųsti ribotus duomenis, įskaitant organizacijos mokesčių registracijos ID. Jie bus persiųsti mokesčių inspekcijos patvirtintoms trečiųjų šalių agentūroms, kad būtų galima siųsti elektronines SF šiai mokesčių inspekcijai iš anksto nustatytu formatu, reikalingu integravimui su vyriausybės žiniatinklio tarnyba. Administratorius gali įjungti ir išjungti funkcijas MX-00010 ir MX-00016 (CFDI SF ir CFDI atšaukimas), nuėjęs į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**. Pasirinkite skirtuką **Funkcijos** , pasirinkite eilutes, kuriose yra funkcijos MX-00010 ir MX-00016, tada atlikite reikiamą žymėjimą. Duomenims, importuotiems iš šių išorinių sistemų į šią „Dynamics 365” internetinę paslaugą, taikomos [privatumo nuostatos](https://go.microsoft.com/fwlink/?LinkId=512132). Daugiau informacijos ieškokite skyriuose Privatumo pranešimas, esančiuose konkrečios šalies funkcijos dokumentacijoje.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ae6b36c40d2f2f9e5266dfb3e2d1cbbb57755222
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803096"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4014940"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>IoT analizės papildinio diegimas LCS
 
@@ -34,7 +34,7 @@ ms.locfileid: "3803096"
 
 1. Atidarykite LCS ir eikite į savo „Microsoft Dynamics 365 Supply Chain Management“ aplinką.
 2. Slinkite iki dalies **Aplinkos papildiniai**.
-3. Pasirinkite **Diegti naują papildinį**, kad būtų rodomas aplinkoje įgalintų papildinių sąrašas.
+3. Pasirinkite **Diegti naują papildinį** , kad būtų rodomas aplinkoje įgalintų papildinių sąrašas.
 4. Dialogo lange **Diegiamo papildinio pasirinkimas** pasirinkite **IoT analizė**.
 5. Dialogo lange **Papildinio sąranka** pateikite savo „IoT Hub“ ir „Redis“ talpyklos informaciją. Reikiamas reikšmes galite rasti raktų saugykloje, kurią sukūrėte dalyje [„Azure“ išteklių kūrimas](iot-azure-setup.md).
 
@@ -52,7 +52,7 @@ LCS sąranka dabar baigta. Kitas veiksmas – [nustatyti scenarijus](iot-scenari
 
 ## <a name="uninstall-the-add-in"></a><a id="uninstall-addin"></a>Papildinio šalinimas
 
-1. Programoje „Supply Chain Management“ [išjunkite scenarijus](iot-scenario-setup.md#how-to-disable-a-scenario).
+1. Programoje „Supply Chain Management“ [išjunkite scenarijus](iot-scenario-setup.md#disable-a-scenario).
 2. LCS eikite į „Supply Chain Management” aplinkos informaciją.
 3. Slinkite iki dalies **Aplinkos papildiniai**.
 4. Prie IoT analizės papildinio pasirinkite **Šalinti**.

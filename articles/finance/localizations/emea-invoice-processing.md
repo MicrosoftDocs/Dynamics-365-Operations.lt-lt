@@ -3,7 +3,7 @@ title: SF apdorojimas
 description: Šioje temoje pateikiama informacijos apie sąskaitų faktūrų apdorojimą Rytų Europoje.
 author: v-kikozl
 manager: AnnBe
-ms.date: 07/21/2017
+ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -12,16 +12,16 @@ ms.search.form: CustParameters, VendParameters
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia
+ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, Russia, Italy
 ms.author: v-kikozl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 945b082528109f6f8c9292d2388749bebd4cfba4
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 87a06e1b17e9c0bdb4147f49b2dacb74236360fa
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175805"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039809"
 ---
 # <a name="invoice-processing"></a>SF apdorojimas
 
@@ -38,7 +38,7 @@ ms.locfileid: "2175805"
 </thead>
 <tbody>
 <tr>
-<td> PVM gautinų sumų ir mokėtinų sumų datos</td>
+<td>PVM gautinų sumų ir mokėtinų sumų datos</td>
 <td>Čekija, Lenkija</td>
 <td>
 <p>Prekes perkant iš Europos Sąjungos (ES) šalių, taikomas įsipareigojimas PVM įvertinti patiems.</p>
@@ -68,9 +68,10 @@ ms.locfileid: "2175805"
 </tr>
 <tr>
 <td>Valiutų kursų dokumento data</td>
-<td>Lenkija, Vengrija, Čekija</td>
+<td>Lenkija, Vengrija, Čekijos Respublika, Italija</td>
 <td>
 <p>Teisės aktuose nurodytos skirtingos taisyklės, taikomos renkantis verslo operacijoms tinkamus valiutų kursus. Puslapiuose <strong>Gautinų sumų parametrai</strong> ir <strong>Mokėtinų sumų parametrai</strong> esančiame lauke <strong>Valiutos kurso data</strong> galite pasirinkti datą, kurią reikia naudoti su sumomis skaičiuojant apskaitos valiutą pirkimo ir pardavimo dokumentuose. Kai įvedami duomenys, sistema pagal šį parametrą gauna operacijos valiutos kursą.</p>
+<blockquote>[!NOTE]<br>Italijoje ši funkcija taikoma tik modulyje Mokėtinos sumos. Mokėtinų sumų parametruose vartotojas gali pasirinkti <strong>registravimo datą</strong> arba <strong>dokumento datą</strong> lauke <strong>Valiutos kurso data</strong>.   </blockquote>
 <blockquote>[!NOTE]<br>Kai lauką <strong>Valiutos kurso data</strong> nustatote kaip <strong>Dokumento data (tik ES prekybai)</strong>, sistema naudoja PVM grupę. PVM grupės skirtuke <strong>Bendra</strong> yra parametras <strong>ES prekyba</strong>. Jei PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Taip</strong> ir jei ši PVM grupė nurodyta dokumento antraštėje, sistema valiutos kursą gauna pagal dokumento datą. Jei šios PVM grupės parinktis <strong>ES prekyba</strong> nustatyta kaip <strong>Ne</strong>, sistema valiutos kursą gauna pagal dokumento registravimo datą.</blockquote>
 </td>
 </tr>
@@ -112,7 +113,7 @@ ms.locfileid: "2175805"
 </td>
 </tr>
 <tr>
-<td> Privaloma PVM data</td>
+<td>Privaloma PVM data</td>
 <td>Lenkija</td>
 <td>
 <p>Galite reikalauti, kad PVM registro data būtų įtraukta į pirkimo ir pardavimo operacijų įrašus. Todėl PVM registro datą galima užfiksuoti prieš užregistruojant operaciją. Naudojant šią funkciją galima išvengti situacijos, kai laikotarpio pabaigoje reikia tvarkyti kelias operacijas.</p>

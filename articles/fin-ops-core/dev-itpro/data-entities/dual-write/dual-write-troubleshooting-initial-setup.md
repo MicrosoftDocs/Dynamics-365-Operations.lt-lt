@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 76e104c9ebd7db7ebcbaf214e84be6c4353e8a73
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275446"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997355"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Trikčių šalinimas pradinės sąrankos metu
 
@@ -51,11 +50,11 @@ Jei norite susieti „Finance and Operations” ir „Common Data Service” apl
 
 **Reikiami kredencialai, norint išspręsti problemą:** „Azure AD” nuomotojo administratorius
 
-Kai „Finance and Operations” programoje atidarote puslapį „**Susiejimo su „Common Data Service”** sąranka“, galite gauti tokį klaidos pranešimą:
+Kai „Finance and Operations” programoje atidarote puslapį „ **Susiejimo su „Common Data Service”** sąranka“, galite gauti tokį klaidos pranešimą:
 
 *Atsakymo būsenos kodas nenurodo sėkmės: 404 (nerasta).*
 
-Ši klaida įvyksta, kai sutikimo veiksmas neužbaigtas. Norėdami patikrinti, ar sutikimo veiksmas užbaigtas, prisijunkite prie portal.Azure.com, naudodami „Azure AD” nuomotojo administratoriaus paskyrą, ir patikrinkite, ar trečiosios šalies programa, kurios ID yra **33976c19-1db5-4c02-810e-c243db79efde**, atsiranda „Azure AD” sąraše **„Enterprise“ programos**. Jei neatsiranda, turite suteikti programos sutikimą.
+Ši klaida įvyksta, kai sutikimo veiksmas neužbaigtas. Norėdami patikrinti, ar sutikimo veiksmas užbaigtas, prisijunkite prie portal.Azure.com, naudodami „Azure AD” nuomotojo administratoriaus paskyrą, ir patikrinkite, ar trečiosios šalies programa, kurios ID yra **33976c19-1db5-4c02-810e-c243db79efde** , atsiranda „Azure AD” sąraše **„Enterprise“ programos**. Jei neatsiranda, turite suteikti programos sutikimą.
 
 Norėdami suteikti programos sutikimą, atlikite šiuos veiksmus.
 
@@ -70,7 +69,7 @@ Norėdami suteikti programos sutikimą, atlikite šiuos veiksmus.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Patikrinkite, ar susiejimo metu yra tinkamai nustatyti įmonės duomenys ir dvigubo rašymo komandos
 
-Siekiant užtikrinti, kad dvigubas rašymas veiktų tinkamai, įmonės, kurias pasirenkate konfigūravimo metu, yra kuriamos „Common Data Service” aplinkoje. Pagal numatytuosius parametrus, šios įmonės yra tik skaitomas, o ypatybė **IsDualWriteEnable** yra nustatyta kaip **Teisinga**. Be to, sukuriami numatytasis verslo struktūros vieneto savininkas ir komanda ir įtraukiamas įmonės pavadinimas. Prieš įgalindami schemas, patikrinkite, ar nurodytas numatytasis komandos savininkas. Norėdami rasti objektą **Įmonės (CDM\_įmonė)**, atlikite šiuos veiksmus.
+Siekiant užtikrinti, kad dvigubas rašymas veiktų tinkamai, įmonės, kurias pasirenkate konfigūravimo metu, yra kuriamos „Common Data Service” aplinkoje. Pagal numatytuosius parametrus, šios įmonės yra tik skaitomas, o ypatybė **IsDualWriteEnable** yra nustatyta kaip **Teisinga**. Be to, sukuriami numatytasis verslo struktūros vieneto savininkas ir komanda ir įtraukiamas įmonės pavadinimas. Prieš įgalindami schemas, patikrinkite, ar nurodytas numatytasis komandos savininkas. Norėdami rasti objektą **Įmonės (CDM\_įmonė)** , atlikite šiuos veiksmus.
 
 1. Modeliu grįstos „Dynamics 365” programos viršutiniame dešiniajame kampe pasirinkite filtrą.
 2. Išplečiamajame sąraše pasirinkite **Įmonė**.

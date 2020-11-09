@@ -16,15 +16,15 @@ ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: roxanad
+ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18a9b7ed4cd26a806002fb1b4684de1e84f39889
-ms.sourcegitcommit: c55fecae96b4bb27bc313ba10a97eddb9c91350a
+ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3989285"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015072"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Planavimo mechanizmo efektyvumo didinimas
 
@@ -180,7 +180,7 @@ Sprendimo su apribojimais priemonė nėra susijusi su planavimo algoritmo detal�
 
 Didelė mechanizmo (vidinių) apribojimų dalis kontroliuoja darbo laiką ir ištekliaus pajėgumą. Iš esmės tikslas yra išnagrinėti ištekliaus darbo laiko intervalus nuo nurodyto taško nurodyta kryptimi ir rasti pakankamai ilgą intervalą, į kurį galėtų tilpti reikalaujamas užduočių pajėgumas (laikas).
 
-Norint tai padaryti, mechanizmui reikia žinoti ištekliaus darbo laikus. Skirtingai nuo pagrindinių modelio duomenų, darbo laikai yra *įkeliami atidėtai*, o tai reiškia, kad jie įkeliami į mechanizmą pagal poreikį. Priežastis taikyti tokį metodą yra ta, kad dažnai „Supply Chain Management“ darbo laikai yra iš labai ilgo laikotarpio kalendoriaus ir dažniausiai yra daug kalendorių, todėl įkeliamų duomenų apimtis gali būti gana didelė.
+Norint tai padaryti, mechanizmui reikia žinoti ištekliaus darbo laikus. Skirtingai nuo pagrindinių modelio duomenų, darbo laikai yra *įkeliami atidėtai* , o tai reiškia, kad jie įkeliami į mechanizmą pagal poreikį. Priežastis taikyti tokį metodą yra ta, kad dažnai „Supply Chain Management“ darbo laikai yra iš labai ilgo laikotarpio kalendoriaus ir dažniausiai yra daug kalendorių, todėl įkeliamų duomenų apimtis gali būti gana didelė.
 
 Mechanizmo reikalaujama kalendoriaus informacija įkeliama dalimis, naudojant X++ klasės metodą `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. Užklausa yra skirta tam tikram kalendoriaus ID ir konkrečiam laiko intervalui. Atsižvelgiant į „Supply Chain Management“ serverio atmintinės būseną, kiekvienos iš šių užklausų rezultatas gali būti keli duomenų bazės kvietimai, kurie gali užtrukti (lyginant su gryno skaičiavimo laiku). Be to, jei kalendoriuje yra labai sudėtingų darbo laiko apibrėžimų, apimančių daugelį darbo laiko intervalų per dieną, tai ilgina įkėlimo laiką.
 
@@ -188,7 +188,7 @@ Kai darbo laiko duomenys įkeliami į planavimo mechanizmą, jie saugomi konkret
 
 ### <a name="finite-capacity"></a>Ribotas pajėgumas
 
-Esant ribotam pajėgumui, darbo laiko intervalai iš kalendoriaus yra padalijami ir sutrumpinami atsižvelgiant į esamus pajėgumų rezervavimus. Šie rezervavimai taip pat yra įkeliami naudojant tą pačią klasę `WrkCtrSchedulingInteropDataProvider`, kurią naudoja kalendoriai, tačiau šiuo atveju naudojamas metodas `getCapacityReservations`. Atliekant planavimą bendrojo planavimo metu, nagrinėjami konkretaus bendrojo plano rezervavimai ir, jei suaktyvinta puslapyje **Bendrojo planavimo parametrai**, taip pat įtraukiami rezervavimai iš patvirtintų gamybos užsakymų. Analogiškai, planuojant gamybos užsakymą, taip pat yra galimybė įtraukti rezervavimus iš esamų suplanuotų užsakymų, nors ši galybė nėra naudojama taip dažnai kaip priešingu atveju.
+Esant ribotam pajėgumui, darbo laiko intervalai iš kalendoriaus yra padalijami ir sutrumpinami atsižvelgiant į esamus pajėgumų rezervavimus. Šie rezervavimai taip pat yra įkeliami naudojant tą pačią klasę `WrkCtrSchedulingInteropDataProvider`, kurią naudoja kalendoriai, tačiau šiuo atveju naudojamas metodas `getCapacityReservations`. Atliekant planavimą bendrojo planavimo metu, nagrinėjami konkretaus bendrojo plano rezervavimai ir, jei suaktyvinta puslapyje **Bendrojo planavimo parametrai** , taip pat įtraukiami rezervavimai iš patvirtintų gamybos užsakymų. Analogiškai, planuojant gamybos užsakymą, taip pat yra galimybė įtraukti rezervavimus iš esamų suplanuotų užsakymų, nors ši galybė nėra naudojama taip dažnai kaip priešingu atveju.
 
 Naudojant ribotą pajėgumą, planavimas gali užtrukti ilgiau dėl kelių priežasčių:
 
@@ -216,7 +216,7 @@ Kai planavimas yra atliekamas kaip bendrojo planavimo dalis, kuriai naudojami pa
 
 Vykdant MRP, visi duotos komplektavimo specifikacijos (KS) lygio gamybos užsakymai yra planuojami pagal poreikio datų seką, t. y. tie užsakymai, kurių poreikio data yra anksčiausia, turi būti suplanuoti pirmiausia ir tokiu būdu turėti didžiausią galimybę gauti atitinkamą ištekliaus pajėgumą. Tačiau tada, kai keli mechanizmai vykdo atranką iš nesuplanuotų užsakymų sąrašo, sekos nebegalima užtikrinti, nes vienas mechanizmas darbą gali baigti greičiau už kitą.
 
-Be to, kai planavimas atliekamas naudojant ribotą pajėgumą ir kai keli mechanizmo egzemplioriai bando suplanuoti užsakymus, kurie potencialiai gali naudoti tuos pačius išteklius tą patį laikotarpį, gali prasidėti konkuravimas. Tokių konkuravimo sąlygų skaičius rodomas lauke **Planavimo konfliktai**, kuris yra bendrojo planavimo retrospektyvos puslapyje. Konfliktų sprendimo logika yra tokia:
+Be to, kai planavimas atliekamas naudojant ribotą pajėgumą ir kai keli mechanizmo egzemplioriai bando suplanuoti užsakymus, kurie potencialiai gali naudoti tuos pačius išteklius tą patį laikotarpį, gali prasidėti konkuravimas. Tokių konkuravimo sąlygų skaičius rodomas lauke **Planavimo konfliktai** , kuris yra bendrojo planavimo retrospektyvos puslapyje. Konfliktų sprendimo logika yra tokia:
 
 - Suplanuokite užsakymą (be blokavimo) ir gaukite pajėgumo rezervavimus.
 - Užblokuokite.
@@ -238,11 +238,7 @@ Pavyzdžiui, jei išteklių grupės darbo laikas tam tikrą dieną yra nuo 8:00 
 
 Skaičiuojant galimą tos pačios dienos išteklių grupės pajėgumą, vertinama visų išteklių, priklausančių išteklių grupei, užduoties planavimo apkrova duotą dieną. Kiekvienai dienai skaičiavimas atliekamas taip:
 
-> Galimas išteklių grupės pajėgumas =  
-> (pajėgumas grupės ištekliams remiantis kalendoriumi) -  
-> (suplanuotos užduoties apkrova grupės ištekliams) -  
-> (suplanuotų operacijų apkrova grupės ištekliams) -  
-> (suplanuotų operacijų apkrova išteklių grupei) -
+*Galimas išteklių grupės pajėgumas = Grupės išteklių pajėgumas pagal jų kalendorių &ndash; Grupės išteklių užduoties suplanuota apkrova &ndash; Grupės išteklių operacijų suplanuota apkrova &ndash; Išteklių grupės operacijų suplanuota apkrova*
 
 Skirtuke **Išteklių reikalavimai** maršruto operacijai galima nurodyti išteklių reikalavimus. Tam galima naudoti konkretų išteklių (tokiu atveju operacija bus planuojama naudojant šį išteklių), išteklių grupę, ištekliaus tipą arba vieną ar kelias galimybes, įgūdžius, kursą ar sertifikatą. Nors naudojant visas šias pasirinktis maršruto kūrimas tampa lankstesnis, tai taip pat apsunkina planavimą mechanizmui, nes pajėgumas turi būti vertinamas pagal „ypatybę“ (abstraktus pavadinimas, mechanizme naudojamas galimybėms, įgūdžiams ir pan.).
 
@@ -252,11 +248,7 @@ Atliekant operacijų planavimą, galimas išteklių grupės tam tikros galimybė
 
 Kiekvienai dienai reikalingas skaičiavimas atliekamas taip:
 
-> Galimas galimybės pajėgumas =  
-> (galimybės pajėgumas) -  
-> (suplanuotos užduoties apkrova ištekliams, įtrauktiems į išteklių grupę, su tam tikra galimybe) -  
-> (suplanuotos operacijos apkrova ištekliams, įtrauktiems į išteklių grupę, su tam tikra galimybe) -  
-> (suplanuotos operacijos apkrova išteklių grupei, kuriai reikia tam tikros galimybės)
+*Galimas galimybės pajėgumas = Galimybės pajėgumas &ndash; Išteklių ir konkrečios galimybės, įtrauktos į išteklių grupę, užduoties suplanuota apkrova &ndash; Išteklių ir konkrečios galimybės, įtrauktos į išteklių grupę, operacijų suplanuota apkrova &ndash; Išteklių grupės, kuriai reikia konkrečios galimybės, operacijų suplanuota apkrova*
 
 Tai reiškia, kad, jei yra tam tikro ištekliaus apkrova, apkrova įtraukiama į išteklių grupės galimo pajėgumo pagal galimybę skaičiavimą, nes tam tikro ištekliaus apkrova sumažina įnašą į išteklių grupės pajėgumą pagal galimybę, neatsižvelgiant į tai, ar tam tikro ištekliaus apkrova yra susijusi su konkrečia galimybe. Jei apkrova yra išteklių grupės lygyje, ji yra įtraukiama į išteklių grupės galimo pajėgumo pagal galimybę skaičiavimą tik tada, kai apkrova kyla iš operacijos, kuriai reikia konkrečios galimybės.
 
@@ -313,7 +305,7 @@ Norint naudoti ribotą pajėgumą, reikia, kad mechanizmas iš duomenų bazės �
 
 ### <a name="setting-hard-links"></a>Kietųjų saitų nustatymas
 
-Įprastas maršruto saito tipas yra *minkštasis*, o tai reiškia, kad tarp vienos operacijos pabaigos laiko ir kitos operacijos pradžios laiko leidžiamas laiko tarpas. Tokiu būdu gali susidaryti nepageidaujama situacija, kai vienai iš operacijų labai ilgą laiką neturint medžiagų arba pajėgumų, gamyba kurį laika gali vykti tuščiąja eiga, o tai gali reikšti atliekamo darbo apimties padidėjimą. Tai negali įvykti naudojant kietuosius saitus, nes pabaigos ir pradžios laikai turi visiškai sutapti. Tačiau nustačius kietuosius saitus planavimo problema tampa sudėtingesnė, nes dviem operacijų ištekliams reikia skaičiuoti darbo laiko ir pajėgumų sankirtas. Jei kartu atliekamos lygiagrečios operacijos, tai žymiai padidina skaičiavimo laiką. Jei dviejų operacijų ištekliai turi skirtingus kalendorius, kurie iš viso nepersidengia, problema yra neišsprendžiama.
+Įprastas maršruto saito tipas yra *minkštasis* , o tai reiškia, kad tarp vienos operacijos pabaigos laiko ir kitos operacijos pradžios laiko leidžiamas laiko tarpas. Tokiu būdu gali susidaryti nepageidaujama situacija, kai vienai iš operacijų labai ilgą laiką neturint medžiagų arba pajėgumų, gamyba kurį laika gali vykti tuščiąja eiga, o tai gali reikšti atliekamo darbo apimties padidėjimą. Tai negali įvykti naudojant kietuosius saitus, nes pabaigos ir pradžios laikai turi visiškai sutapti. Tačiau nustačius kietuosius saitus planavimo problema tampa sudėtingesnė, nes dviem operacijų ištekliams reikia skaičiuoti darbo laiko ir pajėgumų sankirtas. Jei kartu atliekamos lygiagrečios operacijos, tai žymiai padidina skaičiavimo laiką. Jei dviejų operacijų ištekliai turi skirtingus kalendorius, kurie iš viso nepersidengia, problema yra neišsprendžiama.
 
 Kietuosius saitus rekomenduojame naudoti tik tada, kai tai yra neišvengiama – kiekvienai maršruto operacijai įvertinkite, ar tai yra būtina.
 
@@ -329,7 +321,7 @@ Kadangi mechanizmas veikia po vieną pagal pajėgumą nagrinėdamas laiko interv
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Ilgas (arba jokio) planavimo skirtasis laikas
 
-Planavimo mechanizmo efektyvumą galima optimizuoti naudojant parametrus, pateiktus puslapyje **Planavimo parametrai**. Parametrų **Planavimo skirtasis laikas įjungtas** ir **Planavimo optimizavimo skirtasis laikas įjungtas** reikšmė visada turi būti **Taip**. Jei reikšmė yra **Ne**, planavimas gali vykti be galo, jei sukurtas prastas maršrutas su daugeliu galimybių.
+Planavimo mechanizmo efektyvumą galima optimizuoti naudojant parametrus, pateiktus puslapyje **Planavimo parametrai**. Parametrų **Planavimo skirtasis laikas įjungtas** ir **Planavimo optimizavimo skirtasis laikas įjungtas** reikšmė visada turi būti **Taip**. Jei reikšmė yra **Ne** , planavimas gali vykti be galo, jei sukurtas prastas maršrutas su daugeliu galimybių.
 
 **Maksimalus planavimo laikas sekai** reikšmė nurodo, kiek sekundžių gali būti skirta bandymui rasti vienos sekos sprendimą (daugeliu atvejų seka atitinka vieną užsakymą). Čia pateikta reikšmė labai priklauso nuo maršruto sudėtingumo ir tokių parametrų kaip ribotas pajėgumas, tačiau maksimali 30 sekundžių reikšmė gali būti geras pradinis pasirinkimas.
 

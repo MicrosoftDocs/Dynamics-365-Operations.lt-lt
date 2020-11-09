@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37c378a424d89a884d1f3f0f14e1d544b3af178b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: f9ae9218a85c50582c8c4999da463833fc91d260
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2179099"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006120"
 ---
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Sudengiamas dalinis kliento mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
 
@@ -48,7 +48,7 @@ Puslapyje **Klientas** arba **Kliento operacijos** Arnie gali atidaryti puslapį
 
 Nuolaidos informacija rodoma pažymėtos sąskaitos faktūros puslapio **Sudengti operacijas** apačioje.
 
-|                              |           |
+|    &nbsp;                    |  &nbsp;   |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 10,00     |
@@ -71,15 +71,15 @@ Arnie spusteli skirtuką **Mokėjimo nuolaida** ir peržiūri nuolaidos sumą.
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Dalinis mokėjimas naudojant žurnalo eilutes
-Vietoj to, kad atidarytų puslapį **Įvesti kliento mokėjimus** mokėjimo žurnale, Arnie gali spustelėti **Eilutės** ir įvesti mokėjimą. Rodomas mokėjimo žurnalas, kur Eglė gali įvesti eilutę 4028 klientui. Tada Arnas atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sudengtiną SF. Arnie pažymi sąskaitą faktūrą ir pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vėlgi, jis mato, kad lauko **Mokėjimo nuolaidos suma** vertė yra **10,00** visai sąskaitai faktūrai, o lauko **Taikytinos mokėjimo nuolaidos suma** vertė yra **5,05**. Todėl šios sąskaitos faktūros suma, kurią Arnie sudengia, yra 505,05.
+Vietoj to, kad atidarytų puslapį **Įvesti kliento mokėjimus** mokėjimo žurnale, Arnie gali spustelėti **Eilutės** ir įvesti mokėjimą. Rodomas mokėjimo žurnalas, kur Eglė gali įvesti eilutę 4028 klientui. Tada Arnas atidaro puslapį **Sudengti operacijas** , kad galėtų pažymėti sudengtiną SF. Arnie pažymi sąskaitą faktūrą ir pakeičia lauko **Sudengtina suma** vertę į **500,00**. Vėlgi, jis mato, kad lauko **Mokėjimo nuolaidos suma** vertė yra **10,00** visai sąskaitai faktūrai, o lauko **Taikytinos mokėjimo nuolaidos suma** vertė yra **5,05**. Todėl šios sąskaitos faktūros suma, kurią Arnie sudengia, yra 505,05.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10010 | 4028    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | 500,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+|        &nbsp;                | &nbsp;    |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 10,00     |
@@ -93,9 +93,9 @@ Jei klientas nori sudengti lygiai pusę sąskaitos faktūros, klientas pateikia 
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10010 | 4028    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | 495,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+|     &nbsp;                   | &nbsp;    |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 10,00     |
@@ -112,9 +112,9 @@ Arnie uždaro puslapį **Sudengti operacijas**. Žurnale sukuriama mokėjimo eil
 | NUOL-10010 |  Mokėjimo nuolaida   | 2015-07-01  |         |                                      | 5,00                                  | 0,00    | USD      |
 
 ## <a name="payment-for-the-remaining-amount"></a>Likusios sumos mokėjimas
-Klientas 4028 sumoka likusią 495,00 sumą liepos 8 d., kuri patenka į mokėjimo nuolaidos laikotarpį. Arnie sukuria mokėjimo žurnalą liepos 8 d. ir pažymi operaciją sudengti. Jis mato, kad suma, kurią reikia sudengti, yra 495,00. Lauko **Įvertinta mokėjimo nuolaida** vertė yra **5,00**, nes anksčiau buvo pritaikyta 5,00 nuolaida.
+Klientas 4028 sumoka likusią 495,00 sumą liepos 8 d., kuri patenka į mokėjimo nuolaidos laikotarpį. Arnie sukuria mokėjimo žurnalą liepos 8 d. ir pažymi operaciją sudengti. Jis mato, kad suma, kurią reikia sudengti, yra 495,00. Lauko **Įvertinta mokėjimo nuolaida** vertė yra **5,00** , nes anksčiau buvo pritaikyta 5,00 nuolaida.
 
-|                         |        |
+|   &nbsp;                | &nbsp; |
 |-------------------------|--------|
 | Pažymėta bendroji suma            | 495,00 |
 | Įvertinta mokėjimo nuolaida | 5,00   |
@@ -125,9 +125,9 @@ Informacija apie pažymėtą operaciją rodoma puslapio **Sudengti atviras opera
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10010 | 4028    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | 495,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 10,00     |

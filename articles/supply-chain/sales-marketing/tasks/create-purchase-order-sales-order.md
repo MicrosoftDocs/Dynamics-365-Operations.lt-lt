@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 914400d2e8acff0bfa762708ba421812c31be32b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982094"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018703"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą
 
@@ -63,9 +63,9 @@ ms.locfileid: "3982094"
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Peržiūrėti pirkimo užsakymus, sukurtus pagal pardavimo užsakymus
 1. **Veiksmų sritis** spustelėkite **Bendra**.
 2. Spustelėkite **Susiję užsakymai**. Puslapyje **Susiję užsakymai** pateikiami visi užsakymai, sukurti iš pardavimo užsakymo. Šiame pavyzdyje yra du pirkimo užsakymai, sugeneruoti atitinkamai dviem skirtingiems tiekėjams. 
-3. Spustelėkite norėdami sekti saitą lauke **Pirkimo užsakymas**. Kiekviena pirkimo užsakymo eilutė susieta su pardavimo užsakymo eilute, dėl kurios buvo sukurtas pirkimas. Ryšys su pardavimo užsakymu nurodytas **skirtuke Produktas**, esančiame „FastTab“ konteineryje **Eilutės informacija**, laukuose **Nuorodos tipas**, **Nuorodos numeris** ir **Nuoroda į partiją**.  
+3. Spustelėkite norėdami sekti saitą lauke **Pirkimo užsakymas**. Kiekviena pirkimo užsakymo eilutė susieta su pardavimo užsakymo eilute, dėl kurios buvo sukurtas pirkimas. Ryšys su pardavimo užsakymu nurodytas **skirtuke Produktas** , esančiame „FastTab“ konteineryje **Eilutės informacija** , laukuose **Nuorodos tipas** , **Nuorodos numeris** ir **Nuoroda į partiją**.  
 4. Išplėskite arba sutraukite dalį **Išsami eilučių informacija**.
 5. Spustelėkite skirtuką **Produktas**.
     - **Nuoroda į partiją** užtikrina, kad esamo pirkimo išlaidos bus įtrauktos į pridėtą pardavimo užsakymą.  
-    - Atidarę saitą lauke **Nuorodos numeris**, galite pereiti į pradinį pardavimo užsakymą.  
+    - Atidarę saitą lauke **Nuorodos numeris** , galite pereiti į pradinį pardavimo užsakymą.  
 

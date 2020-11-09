@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
+ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage, PurchReqControlRule, RequisitionReplenishCatAccessPolicyRule, PurchReApprovalPolicyRule, RequisitionReplenishControlRule, PurchReqControlRFQRule
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f170fc501e995bf9497d86501f4e086e486d0fb
-ms.sourcegitcommit: 8fe59d216154dbed1208274f44707465b668a8e0
+ms.openlocfilehash: 00200bc79f83e9d072ff8220c89a6aaa70cb07a5
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3830754"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018726"
 ---
 # <a name="purchasing-policies-overview"></a>Pirkimo strategijų apžvalga
 
@@ -81,9 +81,9 @@ Katalogo strategijos taisyklė nurodo, kurį įsigijimo katalogą vartotojai mat
 
 Kategorijos prieigos strategijos taisyklė nurodo, prie kurių kategorijų vartotojai turės prieigą kurdami pirkimo paraiškas. Jei nenurodyta jokia taisyklė, į pirkimo paraišką galima įtraukti visas įsigijimo kategorijas.
 
-1.  Pasirinkite parinktį **Įtraukti pirminę taisyklę**, norėdami kategorijai taikyti pirminės organizacijos kategorijos prieigos strategijos taisyklę.
+1.  Pasirinkite parinktį **Įtraukti pirminę taisyklę** , norėdami kategorijai taikyti pirminės organizacijos kategorijos prieigos strategijos taisyklę.
 2.  Srityje **Galimos kategorijos** pasirinkite kategorijas, kurioms taikoma taisyklė. Kai pasirenkate kategoriją, visos hierarchijoje aukščiau esančios kategorijos taip pat įtraukiamos į sąrašą **Pasirinktos kategorijos**.
-3.  Pasirinkite parinktį **Įtraukti subkategorijas**, norėdami taisyklę taikyti visoms pasirinktos kategorijos subkategorijoms.
+3.  Pasirinkite parinktį **Įtraukti subkategorijas** , norėdami taisyklę taikyti visoms pasirinktos kategorijos subkategorijoms.
 
 ### <a name="category-policy-rule"></a>Kategorijos strategijos taisyklė
 
@@ -130,9 +130,9 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
     -   **Tik jei prekybos sutarties nėra** – kainos ir nuolaidos perkeliamos iš pirkimo paraiškos tik jei nėra taikomos prekybos sutarties arba bazinės kainos. Jei yra prekės arba tiekėjo prekybos sutartis arba bazinė kaina, kainos ir nuolaidos yra perskaičiuojamos pagal prekybos sutartį arba bazinę kainą ir taikomos pirkimo užsakymui. Jei nenurodyta kitaip, tai yra numatytasis veikimo būdas.
     -   **Visada** – kainos ir nuolaidos visada perkeliamos iš pirkimo paraiškos.
 
-    Taip pat galite leisti prašytojui keisti atskirų pirkimo paraiškos eilučių kainų ir nuolaidų perkėlimo metodą, nepaisant kainų/nuolaidų perkėlimo taisyklės, kuri yra nurodyta. Pasirinkite parinktį **Leisti rankiniu būdu perrašyti pirkimo paraiškos eilutę**, jei norite įgalinti šią galimybę.
+    Taip pat galite leisti prašytojui keisti atskirų pirkimo paraiškos eilučių kainų ir nuolaidų perkėlimo metodą, nepaisant kainų/nuolaidų perkėlimo taisyklės, kuri yra nurodyta. Pasirinkite parinktį **Leisti rankiniu būdu perrašyti pirkimo paraiškos eilutę** , jei norite įgalinti šią galimybę.
 -   Skirtuke **Prekės aprašo perkėlimas** galite prekės aprašą perkelti iš paraiškos, jei ji yra kilusi iš RFQ.
--   Skirtuke **Leistinas kainos nuokrypis** galite nustatyti taisykles, kurios naudojamos siekiant patvirtintas pirkimo paraiškas nukreipti atgal į peržiūros procesą, kai padidėja įsigijimo katalogo prekės kaina. Nustatykite didžiausią sumą, kuria pirkimo paraiškos eilutės prekės grynoji suma gali būti padidinta nuo pirkimo paraiškos patvirtinimo ir pirkimo užsakymo sukūrimo laiko. Grynoji suma apskaičiuojama pagal šią formulę: (\[Kiekis × (Vieneto kaina – Nuolaida) ÷ Kainos vienetas\] + Papildomos pirkimo išlaidos) × (100 – nuolaidos procentas) ÷ 100. Jūsų nustatytą kainos nuokrypį viršijančios pirkimo paraiškos eilutės apdorojamos neautomatiškai. Taisyklės, kurias galite konfigūruoti skirtuke **Klaidų apdorojimas**, nustato, kaip apdorojamos pirkimo paraiškos eilutės.
+-   Skirtuke **Leistinas kainos nuokrypis** galite nustatyti taisykles, kurios naudojamos siekiant patvirtintas pirkimo paraiškas nukreipti atgal į peržiūros procesą, kai padidėja įsigijimo katalogo prekės kaina. Nustatykite didžiausią sumą, kuria pirkimo paraiškos eilutės prekės grynoji suma gali būti padidinta nuo pirkimo paraiškos patvirtinimo ir pirkimo užsakymo sukūrimo laiko. Grynoji suma apskaičiuojama pagal šią formulę: (\[Kiekis × (Vieneto kaina – Nuolaida) ÷ Kainos vienetas\] + Papildomos pirkimo išlaidos) × (100 – nuolaidos procentas) ÷ 100. Jūsų nustatytą kainos nuokrypį viršijančios pirkimo paraiškos eilutės apdorojamos neautomatiškai. Taisyklės, kurias galite konfigūruoti skirtuke **Klaidų apdorojimas** , nustato, kaip apdorojamos pirkimo paraiškos eilutės.
 -   Skirtuke **Klaidų apdorojimas** galite konfigūruoti apdorojimo taisyklę, taikomą pirkimo paraiškai, jei jos patvirtinimas pirkimo užsakymo kūrimo metu nepavyksta dėl tiekėjo klaidos arba kainos nuokrypio klaidos. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Veiksmų nėra** – pirkimo paraiškos eilutės lieka puslapyje **Išleisti patvirtintas pirkimo paraiškas**. Pirkimo paraiškos eilučių būsena lieka **Patvirtinta**. Tačiau klaidos turi būti išspręstos, kad pirkimo užsakymas galėtų būti generuojamas pirkimo paraiškos eilutėms.
     -   **Atšaukti pirkimo paraiškos eilutę** – atšaukiamos pirkimo paraiškos eilutės. Prašytojas gali sukurti naują pirkimo paraišką atšauktoms eilutėms, jei jis ar ji vis dar nori prašyti eilutės elementų.
@@ -140,13 +140,13 @@ Pirkimo užsakymo kūrimo ir poreikio konsolidavimo taisyklė nurodo, kurias str
 -   Skirtuke **Neautomatinis pirkimo užsakymo kūrimas** galite nurodyti parametrus, kurie nustato, ar pirkimo paraiška turi būti apdorojama neautomatiniu būdu, ar ji gali būti automatiškai konvertuojama į pirkimo užsakymą. Parametrus galite taikyti vidaus katalogo prekėms, išorės katalogo prekėms arba ne katalogo prekėms. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Kurti pirkimo užsakymus neautomatiškai** – visų pirkimo paraiškų pirkimo užsakymus kurkite neautomatiškai.
     -   **Kurti pirkimo užsakymus automatiškai** – visų patvirtintų pirkimo paraiškų pirkimo užsakymus kurkite automatiškai. Jokios pirkimo paraiškos nelaikomos pirkimo užsakymo kūrimui rankiniu būdu.
-    -   **Automatiškai kurti pirkimo užsakymus, išskyrus šių sąlygų susidarymo atvejais** – neautomatiškai kurkite pirkimo paraiškų, atitinkančių jūsų nustatytus kriterijus, pirkimo užsakymus. Visos kitos pirkimo paraiškos, kurios yra patvirtintos, bus automatiškai konvertuojamos į pirkimo užsakymus. Jei pasirinksite **Automatiškai kurti pirkimo užsakymus, išskyrus šių sąlygų susidarymo atvejais**, galite pridėti įsigijimo kategorijas ir tiekėjus norėdami nurodyti, kurios patvirtintos pirkimo paraiškos eilutės yra skirtos apdoroti neautomatiniu būdu. Šią parinktį galite taikyti vidaus katalogo prekėms, išorės katalogo prekėms ir ne katalogo prekėms. Kai pasirenkate įsigijimo kategoriją, bet kokios tos įsigijimo kategorijos subkategorijos taip pat pasirenkamos. Pasirinkite parinktį **Visos** tam tikro tipo pirkimo paraiškos eilutei, jei norite, kad visos to eilutės tipo eilutės būtų apdorojamos neautomatiniu būdu.
+    -   **Automatiškai kurti pirkimo užsakymus, išskyrus šių sąlygų susidarymo atvejais** – neautomatiškai kurkite pirkimo paraiškų, atitinkančių jūsų nustatytus kriterijus, pirkimo užsakymus. Visos kitos pirkimo paraiškos, kurios yra patvirtintos, bus automatiškai konvertuojamos į pirkimo užsakymus. Jei pasirinksite **Automatiškai kurti pirkimo užsakymus, išskyrus šių sąlygų susidarymo atvejais** , galite pridėti įsigijimo kategorijas ir tiekėjus norėdami nurodyti, kurios patvirtintos pirkimo paraiškos eilutės yra skirtos apdoroti neautomatiniu būdu. Šią parinktį galite taikyti vidaus katalogo prekėms, išorės katalogo prekėms ir ne katalogo prekėms. Kai pasirenkate įsigijimo kategoriją, bet kokios tos įsigijimo kategorijos subkategorijos taip pat pasirenkamos. Pasirinkite parinktį **Visos** tam tikro tipo pirkimo paraiškos eilutei, jei norite, kad visos to eilutės tipo eilutės būtų apdorojamos neautomatiniu būdu.
 
-    Jei norite, kad pirkimo užsakymai būtų automatiškai generuojami iš patvirtintų pirkimo užklausų paleidus pirkimo užsakymo generavimo paketinę užduotį, pasirinkite parinktį **Vykdyti automatinį pirkimo užsakymo kūrimą kaip paketinę užduotį**. Ši parinktis taikoma tik pirkimo paraiškoms, kurių nereikia apdoroti neautomatiniu būdu. Vykdydami automatinį pirkimo užsakymo generavimą kaip paketinę užduotį, galite planuoti šią veiklą tuo metu, kai ištekliai yra mažiau riboti. Jei pirkimo paraiškos eilutėse pasirinkta parinktis **Būtinas išankstinis apmokėjimas**, pasirinkite parinktį **Kada paraiška nustatoma išankstiniam mokėjimui atlikti**, jei norite, kad patvirtintos pirkimo paraiškos būtų apdorojamos neautomatiniu būdu. Pirkimo paraiškos, kurios skirtos apdoroti neautomatiniu būdu, gali būti filtruojamos, kad jūs galėtumėte peržiūrėti tik tas pirkimo paraiškos eilutes, kurios reikalauja išankstinio apmokėjimo.
+    Jei norite, kad pirkimo užsakymai būtų automatiškai generuojami iš patvirtintų pirkimo užklausų paleidus pirkimo užsakymo generavimo paketinę užduotį, pasirinkite parinktį **Vykdyti automatinį pirkimo užsakymo kūrimą kaip paketinę užduotį**. Ši parinktis taikoma tik pirkimo paraiškoms, kurių nereikia apdoroti neautomatiniu būdu. Vykdydami automatinį pirkimo užsakymo generavimą kaip paketinę užduotį, galite planuoti šią veiklą tuo metu, kai ištekliai yra mažiau riboti. Jei pirkimo paraiškos eilutėse pasirinkta parinktis **Būtinas išankstinis apmokėjimas** , pasirinkite parinktį **Kada paraiška nustatoma išankstiniam mokėjimui atlikti** , jei norite, kad patvirtintos pirkimo paraiškos būtų apdorojamos neautomatiniu būdu. Pirkimo paraiškos, kurios skirtos apdoroti neautomatiniu būdu, gali būti filtruojamos, kad jūs galėtumėte peržiūrėti tik tas pirkimo paraiškos eilutes, kurios reikalauja išankstinio apmokėjimo.
 -   Skirtuke **Poreikio konsolidavimas** galite nurodyti parametrus, kurie nustato, ar neautomatiniu būdu apdorojamos pirkimo paraiškos gali būti naudojamos pirkimo paraiškai konsoliduoti. Parametrus galite taikyti vidaus katalogo prekėms, išorės katalogo prekėms arba ne katalogo prekėms. Pasirinkite vieną iš toliau pateiktų pasirinkčių:
     -   **Neleisti poreikio konsolidacijos** – negalima konsoliduoti jokių patvirtintų pirkimo paraiškos eilučių poreikio. Ši parinktis yra įjungta pagal numatytuosius parametrus ir taikoma tik pirkimo paraiškos eilutėms, kurioms reikalingas pirkimo užsakymo kūrimo neautomatinis apdorojimas.
-    -   **Visada leisti poreikio konsolidaciją** – galima konsoliduoti visų patvirtintų pirkimo paraiškos eilučių poreikį. **Pastaba:** jei skirtuke **Poreikio konsolidavimas** pasirinksite parinktį **Visada leisti poreikio konsolidaciją**, o skirtuke **Neautomatinis pirkimo užsakymo kūrimas** pasirinksite parinktį **Automatiškai kurti pirkimo užsakymus**, visos pirkimo paraiškos bus apdorojamos neautomatiniu būdu.
-    -   **Leisti poreikio konsolidaciją esant šioms sąlygoms** – nurodykite kriterijus, pagal kuriuos nustatoma, ar galima konsoliduoti patvirtintų pirkimo paraiškos eilučių poreikį. Kiekvienos rūšies pirkimo paraiškos eilutei galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją. Jei pasirenkate **Leisti poreikio konsolidaciją esant šioms sąlygoms**, galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją kiekvienos rūšies pirkimo paraiškos eilutei. Kai pasirenkate įsigijimo kategoriją, bet kokios tos įsigijimo kategorijos subkategorijos taip pat pasirenkamos. Jei pasirenkate parinktį **Visos** konkrečiam eilutės tipui, galima konsoliduoti visų to eilutės tipo pirkimo paraiškos eilučių poreikį.
+    -   **Visada leisti poreikio konsolidaciją** – galima konsoliduoti visų patvirtintų pirkimo paraiškos eilučių poreikį. **Pastaba:** jei skirtuke **Poreikio konsolidavimas** pasirinksite parinktį **Visada leisti poreikio konsolidaciją** , o skirtuke **Neautomatinis pirkimo užsakymo kūrimas** pasirinksite parinktį **Automatiškai kurti pirkimo užsakymus** , visos pirkimo paraiškos bus apdorojamos neautomatiniu būdu.
+    -   **Leisti poreikio konsolidaciją esant šioms sąlygoms** – nurodykite kriterijus, pagal kuriuos nustatoma, ar galima konsoliduoti patvirtintų pirkimo paraiškos eilučių poreikį. Kiekvienos rūšies pirkimo paraiškos eilutei galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją. Jei pasirenkate **Leisti poreikio konsolidaciją esant šioms sąlygoms** , galite nustatyti kriterijus pagal įsigijimo kategoriją ir tiekėją kiekvienos rūšies pirkimo paraiškos eilutei. Kai pasirenkate įsigijimo kategoriją, bet kokios tos įsigijimo kategorijos subkategorijos taip pat pasirenkamos. Jei pasirenkate parinktį **Visos** konkrečiam eilutės tipui, galima konsoliduoti visų to eilutės tipo pirkimo paraiškos eilučių poreikį.
 
 
 

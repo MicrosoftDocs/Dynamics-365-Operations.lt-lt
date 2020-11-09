@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountThreshold, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSParameters, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1503ef3646657a4b7bb7e240144af2ac559a62d0
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: a8b7f39fc9a91d9fe219445e409d000266e24775
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383026"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016153"
 ---
 # <a name="define-cycle-counting"></a>Apibrėžti ciklo skaičiavimą  
 
@@ -63,7 +64,7 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 2. Spustelėkite **Naujas**.
 3. Lauke **Ciklo skaičiavimo ribinės vertės ID** įveskite reikšmę.
 4. Nustatykite parinktį **Nedelsiant apdoroti ciklo skaičiavimą** į Taip
-5. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Lauke **Aprašo laukas** surinkite reikšmę.
 6. Spustelėkite **Įrašyti**.
 7. Spustelėkite **Pasirinkti vietas**.
 8. Sąraše pažymėkite pasirinktą eilutę.
@@ -75,7 +76,7 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 1. Parinktyje **Naršymo sritis** eikite į **Moduliai > Sandėlio valdymas > Sąranka > Ciklo skaičiavimas > Ciklo skaičiavimo planai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Ciklo skaičiavimo plano ID** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Lauke **Maksimalus ciklo skaičiavimų skaičius** įveskite skaičių.
 6. Spustelėkite **Įrašyti**.
 7. Spustelėkite **Pasirinkti vietas**.
@@ -87,7 +88,7 @@ Ciklo skaičiavimas yra sandėlio procesas, kurį galite naudoti norėdami audit
 13. Spustelėkite **Naujas**.
 14. Lauke **Sekos skaičius** įveskite skaičių. Rūšiuojama yra nuo mažiausio iki didžiausio skaičiaus. Reikšmė turi būti didesnė už 0 (nulį).  
 15. Sąraše pažymėkite pasirinktą eilutę.
-16. Lauke **Aprašo laukas**surinkite reikšmę.
+16. Lauke **Aprašo laukas** surinkite reikšmę.
 17. Spustelėkite **Įrašyti**.
 18. Spustelėkite užklausą **Apibrėžti produktą**.
 19. Sąraše pažymėkite pasirinktą eilutę.

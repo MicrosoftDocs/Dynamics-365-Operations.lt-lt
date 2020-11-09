@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4df62d7b2c8b0463ca6e9564e167f9060e811a24
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975421"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016222"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijų konfigūravimas
 
@@ -36,7 +36,7 @@ Siuntos konsolidacijos procesas, naudojantis siuntos konsolidacijos strategijas,
 > [!IMPORTANT]
 > Pagal [pirmąjį scenarijų](#scenario-1), aprašytą šioje temoje, pirmiausia nustatysite sandėlį, kad jis naudotų ankstesnę siuntos konsolidacijos funkciją. Tada padarysite siuntos konsolidacijos strategijas pasiekiamomis. Tokiu būdu galite išbandyti naujinimo scenarijaus veikimą. Jeigu planuojate naudoti demonstracinių duomenų aplinką pirmojo scenarijaus vykdyme, neįjunkite funkcijos prieš scenarijaus vykdymą.
 
-Kad galėtumėte naudoti funkciją *Siuntos konsolidacijos strategijos*, turite ją įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Kad galėtumėte naudoti funkciją *Siuntos konsolidacijos strategijos* , turite ją įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Konsoliduoti siuntą*
@@ -66,7 +66,7 @@ Atlikite tolesnius veiksmus, norėdami nustatyti numatytąsias siuntos konsolida
 1. Uždarykite puslapį.
 1. Naudokite [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkciją *Siuntos konsolidacijos strategijos*. **Funkcijų valdymo** darbo srityje ši funkcija pavadinta *Konsoliduoti siuntą*.
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**. Jums gali reikėti atnaujinti naršyklę, kad, įjungę funkciją, matytumėte naują meniu elementą **Siuntos konsolidacijos strategijos**.
-1. Veiksmų srityje pasirinkite **Kurti numatytąją sąranką**, kad sukurtumėte tolesnes strategijas.
+1. Veiksmų srityje pasirinkite **Kurti numatytąją sąranką** , kad sukurtumėte tolesnes strategijas.
 
     - **CrossOrder** strategija, skirta *pardavimo užsakymų* strategijos tipui (jei turite bent vieną sandėlį, nustatytą naudoti ankstesnę konsolidacijos funkciją)
     - **Numatytoji** strategija, skirta *pardavimo užsakymų* strategijos tipui
@@ -84,9 +84,9 @@ Atlikite tolesnius veiksmus, norėdami nustatyti numatytąsias siuntos konsolida
 
 Atlikite tolesnius veiksmus, norėdami nustatyti numatytąsias siuntos konsolidacijos strategijas visiškai naujoje aplinkoje.
 
-1. Naudokite [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkciją *Siuntos konsolidacijos strategijos*, jei jos dar neįjungėte. **Funkcijų valdymo** darbo srityje ši funkcija pavadinta *Konsoliduoti siuntą*.
+1. Naudokite [funkcijų valdymą](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad įjungtumėte funkciją *Siuntos konsolidacijos strategijos* , jei jos dar neįjungėte. **Funkcijų valdymo** darbo srityje ši funkcija pavadinta *Konsoliduoti siuntą*.
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
-1. Veiksmų srityje pasirinkite **Kurti numatytąją sąranką**, kad sukurtumėte tolesnes strategijas.
+1. Veiksmų srityje pasirinkite **Kurti numatytąją sąranką** , kad sukurtumėte tolesnes strategijas.
 
     - **Numatytoji** strategija, skirta *pardavimo užsakymų* strategijos tipui
     - **Numatytoji** strategija, skirta *perkėlimo išdavimo* strategijos tipui
@@ -147,7 +147,7 @@ Norėdami įjungti funkciją, naudokite funkcijų valdymą, jei jos dar neįjung
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
     > [!NOTE]
-    > Kai įrašote naują vežėją, naujos tinklelio **Paslaugos** eilutės laukas **Pristatymo būdas** automatiškai nustatomas į *Airwa-Air*. Kai naudojate pardavimo užsakymo pristatymo būdą *Airwa-Air*, transportavimo būdas *Oro keliai* bus naudojamas susijusioms siuntoms.
+    > Kai įrašote naują vežėją, naujos tinklelio **Paslaugos** eilutės laukas **Pristatymo būdas** automatiškai nustatomas į *Airwa-Air*. Kai naudojate pardavimo užsakymo pristatymo būdą *Airwa-Air* , transportavimo būdas *Oro keliai* bus naudojamas susijusioms siuntoms.
 
 #### <a name="create-an-order-pool"></a>Užsakymų telkinio kūrimas
 
@@ -164,9 +164,9 @@ Norėdami įjungti funkciją, naudokite funkcijų valdymą, jei jos dar neįjung
 
 ### <a name="create-example-policy-1"></a>1 strategijos pavyzdžio kūrimas
 
-Šiame pavyzdyje sukursite strategiją *Klientas + Būdas*, kuri galės būti naudojama tolesniais verslo atvejais.
+Šiame pavyzdyje sukursite strategiją *Klientas + Būdas* , kuri galės būti naudojama tolesniais verslo atvejais.
 
-- Strategija pateiks užklausą konkrečiai kliento sąskaitai (*US-001*) ir konkrečiam pristatymo būdui (*Airwa-Air*).
+- Strategija pateiks užklausą konkrečiai kliento sąskaitai ( *US-001* ) ir konkrečiam pristatymo būdui ( *Airwa-Air* ).
 - Konsolidacija su atviromis siuntomis yra išjungta.
 - Konsolidacija atliekama pagal užsakymo ID. (Kitaip tariant, bus atskiros siuntos pagal užsakymą, sandėlį ir t. t.)
 
@@ -174,7 +174,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
-1. Veiksmų srityje pasirinkite **Naujas**, norėdami sukurti strategiją, turinčią tolesnius parametrus.
+1. Veiksmų srityje pasirinkite **Naujas** , norėdami sukurti strategiją, turinčią tolesnius parametrus.
 
     - **Strategijos pavadinimas:** *CustomerMode*
     - **Strategijos aprašymas:** *kliento sąskaita ir pristatymo būdas*
@@ -184,24 +184,24 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. „FastTab” **Konsolidavimo laukai** sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
 1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Užklausos rengyklės dialogo lango skirtuko **Diapazonas** tinklelyje raskite eilutę, kurioje laukas **Laukas** nustatytas į *Kliento sąskaita*, ir nustatykite tos eilutės lauką **Kriterijai** į *US-001*.
-1. Pasirinkite **Įtraukti**, norėdami įtraukti eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
+1. Užklausos rengyklės dialogo lango skirtuko **Diapazonas** tinklelyje raskite eilutę, kurioje laukas **Laukas** nustatytas į *Kliento sąskaita* , ir nustatykite tos eilutės lauką **Kriterijai** į *US-001*.
+1. Pasirinkite **Įtraukti** , norėdami įtraukti eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
 
     - **Lentelė:** *užsakymo eilutės*
     - **Išvestinė lentelė:** *užsakymo eilutės*
     - **Laukas:** *pristatymo būdas*
     - **Kriterijai:** *Airwa-Air*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 
 > [!NOTE]
-> Šiuo verslo atveju kliento *US-001* užsakymo eilutės, naudojančios pristatymo būdą *Airwa-Air*, nebus konsoliduojamos užsakymuose. Ši strategija turi būti pirmiausia naudojama eilės tvarka tais atvejais, kai šio kliento visų kitų pristatymo būdų siuntos yra konsoliduojamos.
+> Šiuo verslo atveju kliento *US-001* užsakymo eilutės, naudojančios pristatymo būdą *Airwa-Air* , nebus konsoliduojamos užsakymuose. Ši strategija turi būti pirmiausia naudojama eilės tvarka tais atvejais, kai šio kliento visų kitų pristatymo būdų siuntos yra konsoliduojamos.
 
 ### <a name="create-example-policy-2"></a>2 strategijos pavyzdžio kūrimas
 
-Šiame pavyzdyje sukursite strategiją *Pavojingos prekės*, kuri galės būti naudojama tolesniais verslo atvejais.
+Šiame pavyzdyje sukursite strategiją *Pavojingos prekės* , kuri galės būti naudojama tolesniais verslo atvejais.
 
-- Strategija pateiks užklausą konkrečiam filtro kodui (*pavojingas*) ir konkrečiam pristatymo būdui (*Airwa-Air*).
+- Strategija pateiks užklausą konkrečiam filtro kodui ( *pavojingas* ) ir konkrečiam pristatymo būdui ( *Airwa-Air* ).
 - Konsolidacija su atviromis siuntomis yra įjungta.
 - Konsolidacija atliekama užsakymuose. (Kitaip tariant, bus atskiros siuntos pagal sąskaitą, sandėlį ir t. t., bet tik užklausoje nurodytoje prekių grupėje.)
 
@@ -209,7 +209,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
-1. Veiksmų srityje pasirinkite **Naujas**, norėdami sukurti strategiją, turinčią tolesnius parametrus.
+1. Veiksmų srityje pasirinkite **Naujas** , norėdami sukurti strategiją, turinčią tolesnius parametrus.
 
     - **Strategijos pavadinimas:** *Prekės tipas*
     - **Strategijos aprašymas:** *konsoliduoti to pačio tipo prekę užsakymuose*
@@ -221,22 +221,22 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
 1. Užklausos rengyklės dialogo lango skirtuko **Sujungimai** medyje išplėskite ir pasirinkite **Lentelės \> Krovinio informacija**.
 1. Pasirinkite **Įtraukti lentelės sujungimą**.
-1. Atsiradusiame ryšių tinklelyje raskite ir pasirinkite eilutę, kurioje laukas **Ryšys** nustatytas į *Sandėlio prekės numeris (prekės numeris)*, tada pasirinkite **Pasirinkti**. 
-1. Skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
+1. Atsiradusiame ryšių tinklelyje raskite ir pasirinkite eilutę, kurioje laukas **Ryšys** nustatytas į *Sandėlio prekės numeris (prekės numeris)* , tada pasirinkite **Pasirinkti**. 
+1. Skirtuke **Diapazonas** pasirinkite **Įtraukti** , kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
 
     - **Lentelė:** *sandėlio prekės numeris*
     - **Išvestinė lentelė:** *sandėlio prekės numeris*
     - **Laukas:** *4 kodas*
     - **Kriterijai:** *degus*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 
 > [!NOTE]
-> Šiuo verslo atveju visos užsakymo eilutės, kuriose prekės turi konkretų filtro kodą (t. y. filtro kodą, kuriame laukas **4 kodas** nustatytas į *Degus*), bus konsoliduojamos su kitomis to paties tipo prekėmis užsakymuose. Jei toje pačioje sąskaitoje, sandėlyje ir prekių grupėje yra atvira siunta, prie jos bus pridėtos naujos eilutės.
+> Šiuo verslo atveju visos užsakymo eilutės, kuriose prekės turi konkretų filtro kodą (t. y. filtro kodą, kuriame laukas **4 kodas** nustatytas į *Degus* ), bus konsoliduojamos su kitomis to paties tipo prekėmis užsakymuose. Jei toje pačioje sąskaitoje, sandėlyje ir prekių grupėje yra atvira siunta, prie jos bus pridėtos naujos eilutės.
 
 ### <a name="create-example-policy-3"></a>3 strategijos pavyzdžio kūrimas
 
-Šiame pavyzdyje sukursite strategiją *Klientų reikalavimai*, kuri galės būti naudojama tolesniais verslo atvejais.
+Šiame pavyzdyje sukursite strategiją *Klientų reikalavimai* , kuri galės būti naudojama tolesniais verslo atvejais.
 
 - Strategija pateiks užklausą konkrečiai kliento sąskaitai.
 - Konsolidacija su atviromis siuntomis yra įjungta.
@@ -246,7 +246,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
-1. Veiksmų srityje pasirinkite **Naujas**, norėdami sukurti strategiją, turinčią tolesnius parametrus.
+1. Veiksmų srityje pasirinkite **Naujas** , norėdami sukurti strategiją, turinčią tolesnius parametrus.
 
     - **Strategijos pavadinimas:** *CustomerOrderNo*
     - **Strategijos aprašymas:** *konsoliduoti eilutes pagal kliento PU*
@@ -258,19 +258,19 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. Sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
 1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** raskite eilutę, kurioje laukas **Laukas** nustatytas į *Kliento sąskaita*, ir nustatykite tos eilutės lauką **Kriterijai** į *US-001*.
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** raskite eilutę, kurioje laukas **Laukas** nustatytas į *Kliento sąskaita* , ir nustatykite tos eilutės lauką **Kriterijai** į *US-001*.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 
 > [!NOTE]
 > Šiuo verslo atveju visos užsakymo eilutės, kuriose pardavimo užsakymai turi tą patį kliento paraiškos numerį, bus konsoliduojamos į vieną siuntą, neatsižvelgiant į pardavimo užsakymo numerį. (Kliento paraiškos numeris naudojamas kaip kliento pirkimo užsakymo \[PU\] numeris.) Jei toje pačioje sąskaitoje, sandėlyje ir kliento paraiškoje yra atvira siunta, prie jos bus pridėtos naujos eilutės. Ši strategija gali būti naudojama, jei klientas kelis kartus per dieną siunčia papildomas užsakymo eilutes, turinčias tą patį PU numerį, ir nori visas eilutes sugrupuoti į vieną siuntą. (Kitaip tariant, bus vienas važtaraštis (bill of lading) ir vienas važtaraštis (packing slip).)
 
 ### <a name="create-example-policy-4"></a>4 strategijos pavyzdžio kūrimas
 
-Šiame pavyzdyje sukursite strategiją *Klientai, leidžiantys konsolidaciją*, kuri galės būti naudojama tolesniais verslo atvejais.
+Šiame pavyzdyje sukursite strategiją *Klientai, leidžiantys konsolidaciją* , kuri galės būti naudojama tolesniais verslo atvejais.
 
 - Strategija pateiks užklausą konkrečiam užsakymų telkiniui, kad galėtų nustatyti klientus, priimančius konsoliduotas siuntas.
 - Konsolidacija su atviromis siuntomis yra išjungta.
-- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį**).
+- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį** ).
 
 - Galite nepaisyti pardavimo užsakymo taisyklės pasirinkdami kitą užsakymų telkinį.
 
@@ -278,7 +278,7 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
-1. Veiksmų srityje pasirinkite **Naujas**, norėdami sukurti strategiją, turinčią tolesnius parametrus.
+1. Veiksmų srityje pasirinkite **Naujas** , norėdami sukurti strategiją, turinčią tolesnius parametrus.
 
     - **Strategijos pavadinimas:** *Užsakymų telkinys*
     - **Strategijos aprašymas:** *konsoliduoti užsakymuose pagal užsakymų telkinį*
@@ -288,31 +288,31 @@ Atlikite šiuos veiksmus, norėdami sukurti šio verslo atvejo siuntos konsolida
 1. „FastTab” **Konsolidavimo laukai** sąraše **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
 1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
+1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti** , kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
 
     - **Lentelė:** *pardavimo užsakymai*
     - **Išvestinė lentelė:** *pardavimo užsakymai*
     - **Laukas:** *telkinys*
     - **Kriterijai:** *ShipCons*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 
 > [!NOTE]
 > Šiuo verslo atveju visos užsakymo eilutės, kuriose pardavimo užsakymai priklauso tam pačiam užsakymų telkiniui, bus konsoliduojamos į vieną siuntą toje pačioje sąskaitoje, sandėlyje ir pristatymo transportavimo būde pardavimo užsakymuose. Vietoj užsakymų telkinio galite naudoti bet kurį kitą lauką, norėdami atskirti klientų grupes ir pagal numatytuosius nustatymus naudoti pardavimo užsakymo antraštę. Galite naudoti šį būdą, jei klientas, o ne sandėlis, reiškia konsolidavimo poreikį. (Ankstesnėje konsolidacijos logikoje sandėlis reiškė konsolidavimo poreikį.)
 
 ### <a name="create-example-policy-5"></a>5 strategijos pavyzdžio kūrimas
 
-Šiame pavyzdyje sukursite strategiją *Sandėliai, leidžiantys konsolidaciją*, kuri galės būti naudojama tolesniais verslo atvejais.
+Šiame pavyzdyje sukursite strategiją *Sandėliai, leidžiantys konsolidaciją* , kuri galės būti naudojama tolesniais verslo atvejais.
 
 - Strategija pateiks užklausą konkrečiam užsakymų telkiniui, kad galėtų nustatyti sandėlius, galinčius konsoliduoti siuntas.
 - Konsolidacija su atviromis siuntomis yra išjungta.
-- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį**).
+- Konsolidacija atliekama užsakymuose naudojant laukus, pasirinktus pagal numatytąją „CrossOrder“ strategiją (kad būtų dubliuotas pirmiau naudotas žymės langelis **Konsoliduoti siuntą išleidžiant ją į sandėlį** ).
 
 Paprastai šis verslo atvejis gali būti sprendžiamas naudojant numatytąsias strategijas, kurias sukūrėte [1 scenarijuje](#scenario-1). Tačiau taip pat galite rankiniu būdu sukurti panašias strategijas atlikdami tolesnius veiksmus.
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
-1. Veiksmų srityje pasirinkite **Naujas**, norėdami sukurti strategiją, turinčią tolesnius parametrus.
+1. Veiksmų srityje pasirinkite **Naujas** , norėdami sukurti strategiją, turinčią tolesnius parametrus.
 
     - **Strategijos pavadinimas:** *Keli užsakymai*
     - **Strategijos aprašymas:** *konkrečių sandėlių kelių užsakymų konsolidacija*
@@ -322,8 +322,8 @@ Paprastai šis verslo atvejis gali būti sprendžiamas naudojant numatytąsias s
 1. „FastTab” **Konsolidavimo laukai** lauke **Likę laukai** pasirinkite eilutę, kurioje laukas **Lauko pavadinimas** nustatytas į *Pristatymo būdas*.
 1. Pasirinkite mygtuką **Įtraukti** ![Rodyklė dešinėn](media/forward-button.png), kad perkeltumėte lauką į sąrašą **Pasirinkti laukai**.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** raskite eilutę, kurioje laukas **Laukas** nustatytas į *Sandėlis*, ir nustatykite tos eilutės lauką **Kriterijai** į *61, 63*.
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** raskite eilutę, kurioje laukas **Laukas** nustatytas į *Sandėlis* , ir nustatykite tos eilutės lauką **Kriterijai** į *61, 63*.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 
 ### <a name="set-the-order"></a>Užsakymo nustatymas
 
@@ -331,7 +331,7 @@ Dabar, kai sukūrėte visas strategijas, turite nustatyti tvarką, kuria jos bus
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Išleidimas į sandėlį \> Siuntos konsolidacijos strategijos**.
 1. Nustatykite lauką **Strategijos tipas** į *Pardavimo užsakymai*.
-1. Pasirinkite kiekvieną strategiją, nurodytą kairiajame stulpelyje, tada veiksmų srityje naudokite mygtukus **Perkelti aukštyn** ir **Perkelti žemyn**, kad strategijos būtų išdėstytos tolesne tvarka.
+1. Pasirinkite kiekvieną strategiją, nurodytą kairiajame stulpelyje, tada veiksmų srityje naudokite mygtukus **Perkelti aukštyn** ir **Perkelti žemyn** , kad strategijos būtų išdėstytos tolesne tvarka.
 
     1. CustomerMode
     1. Prekės tipas

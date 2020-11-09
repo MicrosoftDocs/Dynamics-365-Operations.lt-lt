@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34d941c3806ccc9d2b8baa29eef45fbd4216686e
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967315"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006146"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Sudengiamas dalinis tiekėjo mokėjimas ir visas paskutinis mokėjimas prieš nuolaidos datą
 
@@ -40,15 +40,15 @@ Birželio 25 d. Eglė 3064 tiekėjui įveda ir užregistruoja sąskaitą faktūr
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | SF-10010 | 2015-06-25 | 10010   |                                      | 1000,00                              | –1.000,00 | USD      |
 
-Iš **Tiekėjų** puslapio April atidaro puslapį **Sudengti operacijas**. Ji gali naudoti puslapį **Sudengti operacijas**, norėdama peržiūrėti mokėjimo nuolaidų datas ir sumas. Terminas yra liepos 25 d., o –10.00 mokėjimo nuolaida taikoma, jei SF apmokama iki liepos 9 d..
+Iš **Tiekėjų** puslapio April atidaro puslapį **Sudengti operacijas**. Ji gali naudoti puslapį **Sudengti operacijas** , norėdama peržiūrėti mokėjimo nuolaidų datas ir sumas. Terminas yra liepos 25 d., o –10.00 mokėjimo nuolaida taikoma, jei SF apmokama iki liepos 9 d..
 
 | Žymėti | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | Įprastas            | SF-10010 | 3064    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | 990,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas** apačioje.
 
-|                              |           |
+|       &nbsp;                 | &nbsp;    |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | –10,00    |
@@ -56,7 +56,7 @@ Nuolaidos informacija rodoma puslapio **Sudengti atviras operacijas**apačioje.
 | Pritaikyta mokėjimo nuolaida          | 0,00      |
 | Taikytinos mokėjimo nuolaidos suma | –10,00    |
 
-Eglė spusteli skirtuką **Mokėjimo nuolaida**, norėdama peržiūrėti nuolaidos sumą.
+Eglė spusteli skirtuką **Mokėjimo nuolaida** , norėdama peržiūrėti nuolaidos sumą.
 
 | Mokėjimo nuolaidos data | Mokėjimo nuolaidos suma | Suma operacijos valiuta |
 |--------------------|----------------------|--------------------------------|
@@ -64,15 +64,15 @@ Eglė spusteli skirtuką **Mokėjimo nuolaida**, norėdama peržiūrėti nuolaid
 | 2015-07-25          | 0,00                 | 1000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Dalinis mokėjimas liepos 1 d. naudojant puslapį Sudengti operacijas
-Eglė gali kurti šio mokėjimo mokėjimų žurnalą, dalyje Mokėtinos sumos atidarydama puslapį **Mokėjimų žurnalas**. Ji sukuria naują žurnalą ir įveda eilutę 3064 tiekėjui. Tada ji atidaro puslapį **Sudengti operacijas**, kad galėtų pažymėti sąskaitą faktūrą sudengti. Eglė pažymi SF ir pakeičia lauko **Sudengtina suma** reikšmę į **–500,00**. Ji mato, kad visos SF lauko **Mokėjimo nuolaidos suma** reikšmė yra **–10,00**, o lauko **Taikytinos mokėjimo nuolaidos suma** reikšmė yra **–5,05**. Todėl SF suma, kurią Eglė sudengia, yra –505,05.
+Eglė gali kurti šio mokėjimo mokėjimų žurnalą, dalyje Mokėtinos sumos atidarydama puslapį **Mokėjimų žurnalas**. Ji sukuria naują žurnalą ir įveda eilutę 3064 tiekėjui. Tada ji atidaro puslapį **Sudengti operacijas** , kad galėtų pažymėti sąskaitą faktūrą sudengti. Eglė pažymi SF ir pakeičia lauko **Sudengtina suma** reikšmę į **–500,00**. Ji mato, kad visos SF lauko **Mokėjimo nuolaidos suma** reikšmė yra **–10,00** , o lauko **Taikytinos mokėjimo nuolaidos suma** reikšmė yra **–5,05**. Todėl SF suma, kurią Eglė sudengia, yra –505,05.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas   | Paskyra | Data      | Terminas  | PVM sąskaita faktūra | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10010 | 4028    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | –500,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | –10,00    |
@@ -86,9 +86,9 @@ Eglė nori sudengti lygiai pusę SF sumos. Todėl ji pakeičia lauko **Sudengtin
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10010 | 4028    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | –495,00          |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+|  &nbsp;                      |  &nbsp;   |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | –10,00    |
@@ -105,9 +105,9 @@ Eglė uždaro puslapį **Sudengti operacijas**. Žurnale sukuriama mokėjimo eil
 | NUOL-10010 | Mokėjimo nuolaida    | 2015-07-01  |         | 5,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>Likusi suma, sumokama liepos 8 d.
-Eglė sumoka likusią 3064 tiekėjo SF sumą liepos 8 d., kuri patenka į mokėjimo nuolaidos laikotarpį. Eglė sukuria mokėjimo žurnalą liepos 8 d. ir pažymi operaciją sudengti. Ji mato, kad suma, kurią reikia sudengti, yra 495,00. Lauko **Įvertinta mokėjimo nuolaida** reikšmė yra **–5,00**, nes anksčiau buvo pritaikyta 5,00 nuolaida.
+Eglė sumoka likusią 3064 tiekėjo SF sumą liepos 8 d., kuri patenka į mokėjimo nuolaidos laikotarpį. Eglė sukuria mokėjimo žurnalą liepos 8 d. ir pažymi operaciją sudengti. Ji mato, kad suma, kurią reikia sudengti, yra 495,00. Lauko **Įvertinta mokėjimo nuolaida** reikšmė yra **–5,00** , nes anksčiau buvo pritaikyta 5,00 nuolaida.
 
-|                         |        |
+|  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|
 | Pažymėta bendroji suma            | 495,00 |
 | Įvertinta mokėjimo nuolaida | –5,00  |
@@ -118,9 +118,9 @@ Informacija apie pažymėtą operaciją rodoma puslapio **Sudengti atviras opera
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10010 | 4028    | 2015-06-25 | 2015-07-25 | 10010   | 1000,00                       | USD      | 495,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti atidarytas operacijas** apačioje.
 
-|                              |           |
+|  &nbsp;                      | &nbsp;    |
 |------------------------------|-----------|
 | Mokėjimo nuolaidos data           | 2015-07-09 |
 | Mokėjimo nuolaidos suma         | 10,00     |

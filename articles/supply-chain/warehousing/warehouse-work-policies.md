@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5ea93324547ed81df120db3412ee41fce2a93f4a
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 08c04caeace7b8ced40915ace1561d817426cba3
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652010"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017672"
 ---
 # <a name="work-policies"></a>Darbo strategijos
 
@@ -112,7 +113,7 @@ Mobilaus prietaiso meniu elemento nustatymui, kuris palaiko gaunamą tinkintą v
 
 ## <a name="example-scenario-warehouse-receiving"></a>Pavyzdinis scenarijus: Sandėlio gavimas
 
-Visi produktai gauti *Prekybos užsakymo prekės gavime (ir atidėti)* procesu turi būti registruoti vietoje *FL-001* ir jie turi būti prieinami sandėlyje*24*. Nepaisant to, darbas neturi būti kuriamas. Visais kitais procesais gauti produktai (tai yra, naudojant kito mobilaus prietaiso meniu elementus) turi būti registruojami nustatytame sandėlyje gaunant vietą (*RECV*) ir darbas turi būti kuriamas kaip įprasta. (Šis scenarijus nerodo nustatytojo gauto nustatymo.)
+Visi produktai gauti *Prekybos užsakymo prekės gavime (ir atidėti)* procesu turi būti registruoti vietoje *FL-001* ir jie turi būti prieinami sandėlyje *24*. Nepaisant to, darbas neturi būti kuriamas. Visais kitais procesais gauti produktai (tai yra, naudojant kito mobilaus prietaiso meniu elementus) turi būti registruojami nustatytame sandėlyje gaunant vietą ( *RECV* ) ir darbas turi būti kuriamas kaip įprasta. (Šis scenarijus nerodo nustatytojo gauto nustatymo.)
 
 Šis scenarijus reikalauja tolesnių elementų:
 
@@ -196,17 +197,17 @@ Pavyzdys šiame skyriuje rodo, kaip gauti prekybos užsakymo elementą be kūrim
 1. Lauke **Kiekis** įveskite *1*.
 1. Pasirinkite **Gerai**.
 
-Įsigijimo užsakymas dabar yra gaunamas, tačiau joks darbas su juo nesusiejamas. Turimos atsargos buvo atnaujintos ir kiekis*1* elemento *A0001* dabar yra prieinamas vietoje *FL-001*.
+Įsigijimo užsakymas dabar yra gaunamas, tačiau joks darbas su juo nesusiejamas. Turimos atsargos buvo atnaujintos ir kiekis *1* elemento *A0001* dabar yra prieinamas vietoje *FL-001*.
 
 ## <a name="example-scenario-manufacturing"></a>Pavyzdinis scenarijus: gamyba
 
-Tolesniame pavyzdyje, esama dviejų gamybos užsakymų, *PRD-001* ir *PRD-002*. Gamybos užsakymas *PRD-001* turi operaciją pavadintą *Surinkimas*, kurioje gaminys *SC1* yra nusiunčiamas kaip baigtas į vietą *001*. Gamybos užsakymas *PRD-002* turi operaciją pavadintą *Dažymas* ir naudoja gaminį *SC1* iš vietos *001*. Gamybos užsakymas *PRD-002* taip pat naudoja žaliavas *RM1* iš vietos *001*. Žaliavos *RM1*yra laikomos sandėlio vietoje *BULK-001* ir bus paimtos į vietą *001* sandėlio darbui žaliavos medžiagos paėmimui. Paėmimo darbas yra generuojamas, kai produkcija *PRD-002* išleidžiama.
+Tolesniame pavyzdyje, esama dviejų gamybos užsakymų, *PRD-001* ir *PRD-002*. Gamybos užsakymas *PRD-001* turi operaciją pavadintą *Surinkimas* , kurioje gaminys *SC1* yra nusiunčiamas kaip baigtas į vietą *001*. Gamybos užsakymas *PRD-002* turi operaciją pavadintą *Dažymas* ir naudoja gaminį *SC1* iš vietos *001*. Gamybos užsakymas *PRD-002* taip pat naudoja žaliavas *RM1* iš vietos *001*. Žaliavos *RM1* yra laikomos sandėlio vietoje *BULK-001* ir bus paimtos į vietą *001* sandėlio darbui žaliavos medžiagos paėmimui. Paėmimo darbas yra generuojamas, kai produkcija *PRD-002* išleidžiama.
 
 [![Sandėlio darbo strategijos](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Jums planuojant konfigūruoti sandėlio darbo politiką šiame scenarijui, turėtumėte apsvarstyti tolesnius aspektus:
 
-- Sandėlio darbas baigtų prekių atidėjimui nereikalaujamas, kai jūs darote ataskaitą apie *SC1* produktą kaip baigtą iš prekybos užsakymo *PRD-001* į vietą *001*. Tai yra dėl to, kad *Dažymo* veiksmas gamybos užsakymui *PRD-002* vartoja produktą*SC1* toje pačioje vietoje.
+- Sandėlio darbas baigtų prekių atidėjimui nereikalaujamas, kai jūs darote ataskaitą apie *SC1* produktą kaip baigtą iš prekybos užsakymo *PRD-001* į vietą *001*. Tai yra dėl to, kad *Dažymo* veiksmas gamybos užsakymui *PRD-002* vartoja produktą *SC1* toje pačioje vietoje.
 - Sandėlio darbas žaliavos medžiagos paėmimui būtinas tam, kad būtų judinamos žaliavų medžiagos *RM1* iš sandėlio vietos *BULK-001* į vietą *001*.
 
 Toliau pateikiamas darbo politikos pavyzdys, kurį galite nustatyti pagal šiuos apsvarstymus:
@@ -253,7 +254,7 @@ Tolesnis pavyzdinis scenarijus pateikia žingsnis po žingsnio instrukciją nust
 
 1. **Produktai** „FastTab“, nustatykite **Produkto pasirinkimas** laukelį į *Pasirinkti*.
 1. **Produktai** „FastTab“, pasirinkite **Įtraukti** tam, kad įtrauktumėte eilutę į tinklelį.
-1. Naujoje eilutėje, nustatykite**Elemento numerio** laukelį į *L0101*.
+1. Naujoje eilutėje, nustatykite **Elemento numerio** laukelį į *L0101*.
 1. Veiksmų srityje pasirinkite **Įrašyti**.
 
 ### <a name="set-up-an-output-location"></a>Išeigos vietos nustatymas
@@ -284,12 +285,12 @@ Tolesnis pavyzdinis scenarijus pateikia žingsnis po žingsnio instrukciją nust
 1. Veiksmų juostoje, **Gamybos užsakymas** skirtuke, **Procesas** grupėje pasirinkite **Apskaičiuoti**.
 1. **Apskaičiavimo** teksto laukelyje perskaitykite apskaičiavimą ir tuomet pasirinkite **Gerai** teksto laukelio uždarymui.
 1. Veiksmų juostoje, **Gamybos užsakymas** skirtuke, **Procesas** grupėje pasirinkite **Pradėti**.
-1. **Pradėti** teksto laukelyje, **Bendra** skirtuke nustatykite**Automatinis BOM vartojimas** laukelį į *Niekada*.
+1. **Pradėti** teksto laukelyje, **Bendra** skirtuke nustatykite **Automatinis BOM vartojimas** laukelį į *Niekada*.
 1. Pasirinkite **Gerai** tam, kad įrašytumėte savo nustatymus ir uždarytumėte teksto laukelį.
 1. Veiksmų juostoje, **Gamybos užsakymas** skirtuke, **Procesas** grupėje pasirinkite **Raportuoti kaip baigtą**.
-1. **Raportuoti kaip baigą** teksto laukelyje, **Bendra** skirtuke nustatykite**Priimti klaidą** parinktį į *Taip*.
+1. **Raportuoti kaip baigą** teksto laukelyje, **Bendra** skirtuke nustatykite **Priimti klaidą** parinktį į *Taip*.
 1. Pasirinkite **Gerai** tam, kad įrašytumėte savo nustatymus ir uždarytumėte teksto laukelį.
-1. Veiksmų srityje, skirtuke **Sandėlis**, grupėje **Bendra** pasirinkite **Darbo informacija**.
+1. Veiksmų srityje, skirtuke **Sandėlis** , grupėje **Bendra** pasirinkite **Darbo informacija**.
 
 Kai gamybos užsakymas yra raportuojamas kaip baigtas, joks darbas atidėjimui nėra sukuriamas. Toks elgesys atsitinka, nes darbo politika yra apibrėžiama taip, kad apsaugotų darbą nuo sukūrimo, kai produktas *L0101* raportuojamas kaip baigtas į vietą *001*.
 

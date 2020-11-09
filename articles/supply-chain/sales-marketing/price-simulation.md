@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 336fb51dc5fb66dfbe14091d121e0a4471b9662b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978898"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006264"
 ---
 # <a name="price-simulation"></a>Kainos modeliavimas
 
@@ -53,7 +53,7 @@ Siekdami garantuoti, kad nuolaidos ir kainos būtų apskaičiuotos teisingai, vy
 
 Tiekimo grandinės valdymo prekybos sutartyse gali būti keturių tipų kainų nuolaidos. Šios nuolaidos gali būti nustatytos skirtingoms prekėms, klientams ar prekių grupėms ir jos gali būti apribotos data. Siekiant išvengti skaičiavimo klaidų, vykdant kainų modeliavimą reikia atsižvelgti į prekybos sutartis. Toliau pateikti keturi prekybos sutartyse esančių nuolaidų tipai.
 
--   **Pardavimo kaina**– gali būti nurodytos kelios prekių pardavimo kainos. Kai sukuriamos pasiūlymo eilutės, programa ieško teisingos prekės pardavimo kainos ir ją perkelia į pasiūlymo eilutes. Todėl prekybos sutartis, kurioje yra tokia nuolaida, neturi įtakos kainų modeliavimui. Pardavimo kaina, kuri naudojama pasiūlymo eilutėje, atspindi prekybos sutartį.
+-   **Pardavimo kaina** – gali būti nurodytos kelios prekių pardavimo kainos. Kai sukuriamos pasiūlymo eilutės, programa ieško teisingos prekės pardavimo kainos ir ją perkelia į pasiūlymo eilutes. Todėl prekybos sutartis, kurioje yra tokia nuolaida, neturi įtakos kainų modeliavimui. Pardavimo kaina, kuri naudojama pasiūlymo eilutėje, atspindi prekybos sutartį.
 -   **Eilutės nuolaida** – pagal užsakytą kiekį nurodomos specialios prekių nuolaidos. Prieš vykdant kainų modeliavimą, eilučių sumos paprastai sumažinamos pagal eilutės nuolaidą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.
 -   **Kelių eilučių nuolaida** – jei bendras kiekis viršija apibrėžtą ribą, iš anksto apibrėžti užsakytų prekių deriniai suaktyvina nuolaidą visam užsakymui. Prieš vykdant kainų modeliavimą, eilučių sumos paprastai sumažinamos pagal eilutės nuolaidą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.
 -   **Bendra nuolaida** – jei bendrosios sumos viršija apibrėžtą ribą, iš anksto apibrėžtos užsakytos prekės suaktyvina nuolaidą visam užsakymui. Bendrąją nuolaidą generuoja pasiūlymo eilutės. Tačiau kadangi bendroji nuolaida pasiūlymui taikoma kaip nuolaida, ji sumažina bendrąją pasiūlymo sumą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.
@@ -74,7 +74,7 @@ Kuriate pasiūlymą, kuriame yra tokios eilutės:
 
 Lentelėje pateiktos pasiūlymo eilutės.
 
-|                            | Skaičiavimas                          | Rezultatas   |
+|    &nbsp;                  | Skaičiavimas                          | Rezultatas   |
 |----------------------------|--------------------------------------|----------|
 | Pardavimo kiekis             | 10 vienetų + 12 vienetų                  | 22 vienetai |
 | Pardavimo vertė USD         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
@@ -84,7 +84,7 @@ Lentelėje pateiktos pasiūlymo eilutės.
 
 Galite vykdyti kainos modeliavimą ir taikyti 15 procentų bendrą nuolaidą visam pasiūlymui ar pasiūlymo antraštei. Lentelėje pateiktos naujos pasiūlymo bendrosios sumos po kainos modeliavimo vykdymo.
 
-|                                                      | Skaičiavimas                               | Rezultatas   |
+|     &nbsp;                                           | Skaičiavimas                               | Rezultatas   |
 |------------------------------------------------------|-------------------------------------------|----------|
 | Pardavimo kiekis                                       | 10 vienetų + 12 vienetų                       | 22 vienetai |
 | Senoji pardavimo vertė USD                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
@@ -105,7 +105,7 @@ Kuriate pasiūlymą, kuriame yra tokios eilutės:
 
 Lentelėje pateiktos pasiūlymo eilutės.
 
-|                                      | Skaičiavimas                          | Rezultatas   |
+|      &nbsp;                          | Skaičiavimas                          | Rezultatas   |
 |--------------------------------------|--------------------------------------|----------|
 | Pardavimo kiekis                       | 10 vienetų + 12 vienetų                  | 22 vienetai |
 | Pardavimo vertė USD už BR-12         | 10 × 15,32                           | 153,20   |
@@ -123,7 +123,7 @@ Lentelėje pateiktos pasiūlymo eilutės.
 
 Vykdote kainos modeliavimą ir taikote 10 procentų bendrą nuolaidą BR-12 vienetams. Lentelėje pateiktos naujos pasiūlymo bendrosios sumos po atskiro eilutės elemento kainos modeliavimo vykdymo.
 
-|                                                   | Skaičiavimas                             | Rezultatas   |
+|    &nbsp;                                         | Skaičiavimas                             | Rezultatas   |
 |---------------------------------------------------|-----------------------------------------|----------|
 | Pardavimo kiekis                                    | 10 vienetų + 12 vienetų                     | 22 vienetai |
 | Senoji pardavimo vertė USD už BR-12                  | 10 × 15,32                              | 153,20   |

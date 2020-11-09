@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 20847ea4651b816fc95135ca03667ae297cde5be
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
+ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188492"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4097191"
 ---
 # <a name="bank-management-workspace"></a>Banko valdymo darbo sritis
 
@@ -43,9 +43,9 @@ Kortelėje taip pat nurodoma, kada paskutinį kartą suderinta banko sąskaita. 
 
 ### <a name="balance"></a>Likutis
 
-Diagramoje **Likutis** nurodoma buvusio banko sąskaitos likučio informacija, kuri pasirinkta dalyje **Banko sąskaitos**, arba visų juridinio subjekto banko sąskaitų informacijos suvestinė. Ši informacija pateikiama įvairiems laikotarpiams: dabartinei savaitei, dabartiniam mėnesiui, dabartiniams metams, paskutiniams penkeriems metams ir visiems laikotarpiams (visa banko sąskaitos informacija). 
+Diagramoje **Likutis** nurodoma buvusio banko sąskaitos likučio informacija, kuri pasirinkta dalyje **Banko sąskaitos** , arba visų juridinio subjekto banko sąskaitų informacijos suvestinė. Ši informacija pateikiama įvairiems laikotarpiams: dabartinei savaitei, dabartiniam mėnesiui, dabartiniams metams, paskutiniams penkeriems metams ir visiems laikotarpiams (visa banko sąskaitos informacija). 
 
-Jei peržiūrite vienos banko sąskaitos diagramą **Likutis**, ankstesni likučiai rodomi banko sąskaitos valiuta. Jei peržiūrite visų juridinio subjekto banko sąskaitų diagramą, ankstesni likučiai rodomi apskaitos valiuta.
+Jei peržiūrite vienos banko sąskaitos diagramą **Likutis** , ankstesni likučiai rodomi banko sąskaitos valiuta. Jei peržiūrite visų juridinio subjekto banko sąskaitų diagramą, ankstesni likučiai rodomi apskaitos valiuta.
 
 Informacija apie tai, kada paskutinį kartą atnaujinti duomenys, rodoma diagramos viršuje. Galite atnaujinti duomenis pagal tai, ko jums reikia.
 
@@ -63,4 +63,4 @@ Puslapyje **Analizė** pateikiamos svarbios dabartinės įmonės banko sąskait�
 -   Likutis pagal banko sąskaitą
 -   Balansas pagal valiutą
 
-Darbo srityje **Grynųjų pinigų peržiūra – visos įmonės** galite peržiūrėti visų įmonių banko analizės informaciją.
+Darbo srityje **Grynųjų pinigų peržiūra – visos įmonės** galite peržiūrėti visų įmonių banko analizės informaciją. Daugiau informacijos žr. [„Power BI“ turinys Grynųjų pinigų apžvalga](Cash-Overview-Power-BI-content.md).

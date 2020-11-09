@@ -6,7 +6,7 @@ manager: PJacobse
 ms.date: 07/09/2020
 ms.topic: reprint-and-void-wave-labels
 ms.service: dynamics-ax-applications
-ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate
+ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
 ms.reviewer: PJacobse
 ms.search.scope: Core, Operations
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 0b831361631aa66712813706eaa4ff3339683868
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986652"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016659"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Atspausdinkite iš naujo ir panaikinkite bangos žymes
 
@@ -61,7 +61,7 @@ Bangos žymės naujam spausdinimui žiniatinklio kliente, atlikite šiuos veiksm
     - Žymės atnaujinimui, pasirinkite **Atnaujinti bangos žymės informaciją** žymimą laukelį. (Palikite tuščią šį žymimą laukelį, jei tik norite iš naujo atspausdinti ankstenę žymę.)
 
     > [!NOTE]
-    > Kas kartą, kai bangos žymė yra atspausdinama ar spausdinama iš naujo, jos duomenys yra konvertuojami per atitinkamą bangos žymės planą ir rezervuotos vietos yra pakeičiamos realiomis vertėmis. Pasirodžiusi juosta yra laikoma kaip įrašas bangos žymės istorijoje. **Atnaujinti bangos žymės informaciją** žymimas laukelis yra išvalytas, laikomi „Zebra Programming Language“ (ZPL) duomenys yra naudojami žymės naujo spausdinimo metu. Jei**Bangos žymės informacijos atnaujinimo** žymimas laukelis yra pasirinktas, naujoji juosta yra sukuriama. Esančios bangos žymės taip pat yra perskaičiuojamos ir per didelis jų kiekis (pavyzdžiui, jei susijės su darbo eilutemės, kurios buvo atšauktos ar pakeistos) yra pažymimos kaip **Panaikintos** ir atspausdintos iš naujo.
+    > Kas kartą, kai bangos žymė yra atspausdinama ar spausdinama iš naujo, jos duomenys yra konvertuojami per atitinkamą bangos žymės planą ir rezervuotos vietos yra pakeičiamos realiomis vertėmis. Pasirodžiusi juosta yra laikoma kaip įrašas bangos žymės istorijoje. **Atnaujinti bangos žymės informaciją** žymimas laukelis yra išvalytas, laikomi „Zebra Programming Language“ (ZPL) duomenys yra naudojami žymės naujo spausdinimo metu. Jei **Bangos žymės informacijos atnaujinimo** žymimas laukelis yra pasirinktas, naujoji juosta yra sukuriama. Esančios bangos žymės taip pat yra perskaičiuojamos ir per didelis jų kiekis (pavyzdžiui, jei susijės su darbo eilutemės, kurios buvo atšauktos ar pakeistos) yra pažymimos kaip **Panaikintos** ir atspausdintos iš naujo.
 
 1. Pasirinkite **OK** pasirinkimo patvirtinimui.
 
@@ -118,7 +118,7 @@ Atlikite šiuos žingsnius tam, kad sukurtumėte naują meniu elementų kolekcij
     - **Sistemos grupavimo žymę:** *Siuntimo identifikavimo kodas*
     - **Spausdinimo režimas:** *E-žymėjimas*
 
-1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas*, *Žymės elemento pavadinimas*, *Inventoriaus kiekis*, *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius*).
+1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas* , *Žymės elemento pavadinimas* , *Inventoriaus kiekis* , *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius* ).
 1. Uždarykite puslapį.
 1. Sukurkite ketvirtą meniu elementą ir nustatykite šias vertes:
 
@@ -131,7 +131,7 @@ Atlikite šiuos žingsnius tam, kad sukurtumėte naują meniu elementų kolekcij
     - **Sistemos grupavimo žymę:** *Siuntimo identifikavimo kodas*
     - **Spausdinimo režimas:** *Paskutinės prekės bangos žymės identifikavimo numeris*
 
-1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas*, *Žymės elemento pavadinimas*, *Inventoriaus kiekis*, *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius*).
+1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas* , *Žymės elemento pavadinimas* , *Inventoriaus kiekis* , *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius* ).
 1. Uždarykite puslapį.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Nustatykite mobilaus prietaiso meniu

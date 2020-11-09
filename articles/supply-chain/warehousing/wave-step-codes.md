@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: WHSWaveTableListPage, WHSWaveStepCode, WHSReplenishmentTemplates, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 251e9982451c888424589e0f0d6fce48aab42df1
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323582"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017810"
 ---
 # <a name="wave-step-codes"></a>Bangos veiksmo kodai
 
@@ -59,7 +59,7 @@ Vykdant įgalinimą, patvirtinimas atliekamas per duomenų atnaujinimą. Jei atn
 
 Pašalinę visus patvirtinimo metu nustatytus nesuderinamumus, galite vėl bandyti įjungti funkciją.
 
-Įgalinus funkciją, atsiranda puslapis **Bangos veiksmo kodai** (**Sandėlio valdymas \> Sąranka \> Bangos \> Bangos veiksmo kodai**). Šiame puslapyje pateikiami bangos veiksmo kodai, kurie buvo atnaujinti, kai buvo įgalinta funkcija Visos organizacijos bangos veiksmo kodas.
+Įgalinus funkciją, atsiranda puslapis **Bangos veiksmo kodai** ( **Sandėlio valdymas \> Sąranka \> Bangos \> Bangos veiksmo kodai** ). Šiame puslapyje pateikiami bangos veiksmo kodai, kurie buvo atnaujinti, kai buvo įgalinta funkcija Visos organizacijos bangos veiksmo kodas.
 
 ### <a name="create-new-wave-step-codes"></a>Naujų bangos veiksmo kodų kūrimas
 
@@ -88,7 +88,7 @@ Norėdami taikyti bangos veiksmo kodus, pereikite prie tinkamo tikslinio šablon
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Bangos \> Bangos veiksmo kodai** ir sukurkite bangos veiksmo kodą tipui **Papildymas**.
 2. Eikite į **Sandėlio valdymas \> Sąranka \> Papildymas \> Papildymo šablonai** ir sukurkite papildymo šabloną.
 3. Papildymo šablone pasirinkite bangos veiksmo kodą, kurį sukūrėte tipui **Papildymas**.
-4. Eikite į **Sandėlio valdymas \>Sąranka \> Bangos \>Bangos šablonai**ir pasirinkite norimą naudoti bangos šabloną.
+4. Eikite į **Sandėlio valdymas \>Sąranka \> Bangos \>Bangos šablonai** ir pasirinkite norimą naudoti bangos šabloną.
 5. Šablono FastTab **Metodai** pasirinkite metodą **Papildymas**.
 6. Lauke **Bangos veiksmo kodas** pasirinkite bangos veiksmo kodą, kurį pasirinkote papildymo šablone.
 

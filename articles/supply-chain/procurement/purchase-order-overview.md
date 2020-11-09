@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart, PurchLineOpenOrder, PurchConfirmationRequestJournal
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d4792cf982b9d5be3b30755483a5185a6d5a5a21
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: cfb35d6db74f965911329dbd6215d1108149fa6c
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207930"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018772"
 ---
 # <a name="purchase-order-overview"></a>Pirkimo užsakymo apžvalga
 
@@ -33,11 +33,11 @@ ms.locfileid: "3207930"
 
 Pirkimo užsakymas (PU) yra dokumentas, kuris nurodo sutartį su tiekėju, pagal kurią perkamos prekės arba paslaugos. Dokumentas taip pat suteikia galimybę sekti užsakymo produkto gavimo kvitus, sukurtus pagal užsakymą, ir vėliau sekti tiekėjo SF, kurias tiekėjas išrašo pagal užsakymą, apskaitą.  
 
-Puslapyje **Pirkimo užsakymai** pateikiama galimų užsakymų apžvalga ir jame tuos užsakymus keisti. Kai atidarote PU, galite pasirinkti rodinį **Antraštė**, kuriame yra tik vieną kartą nurodyta kiekvieno PU informacija, pvz., tiekėjo duomenis. Taip pat galite pasirinkti rodinį **Eilutės**, kuriame galite keisti užsakymo eilutes. Paprastai modifikuojant PU perjungiami abu rodiniai. Mokesčiai nėra pateikiami tiesiogiai puslapyje **Pirkimo užsakymai**, bet juos galima pasiekiami naudojant užsakymo antraščių ir eilučių meniu.  
+Puslapyje **Pirkimo užsakymai** pateikiama galimų užsakymų apžvalga ir jame tuos užsakymus keisti. Kai atidarote PU, galite pasirinkti rodinį **Antraštė** , kuriame yra tik vieną kartą nurodyta kiekvieno PU informacija, pvz., tiekėjo duomenis. Taip pat galite pasirinkti rodinį **Eilutės** , kuriame galite keisti užsakymo eilutes. Paprastai modifikuojant PU perjungiami abu rodiniai. Mokesčiai nėra pateikiami tiesiogiai puslapyje **Pirkimo užsakymai** , bet juos galima pasiekiami naudojant užsakymo antraščių ir eilučių meniu.  
 
 Pateikiama daug ataskaitų, kuriose galite peržiūrėti informaciją apie PU, produkto gavimo kvitus ir tiekėjo SF. Šias ataskaitas galima rasti moduliuose **Įsigijimas ir šaltinio pasirinkimas** ir **Mokėtinos sumos**.  
 
-Darbo srityse **Pirkimo užsakymo rengimas** ir **Pirkimo užsakymo gavimas ir apdorojimas** galima peržiūrėti PU ir įvairių jų esamų būsenų sąrašus. Jose taip pat pateikiama veiksmų, kuriuose reikia atlikti, suvestinė. Darbo sritis **Pirkimo užsakymo rengimas** yra orientuota į PU kūrimą ir peržiūrą, užsakymo apdorojimą, siekiant jį patvirtinti, ir patvirtinimą iš tiekėjo. Darbo sritis **Pirkimo užsakymų gavimas ir apdorojimas** yra orientuota į prekių ir paslaugų gavimo apdorojimą pagal PU. Joje pateikiami sąrašai, kuriuose pateikiama informacijos apie uždelstus gavimo kvitus arba kvitus, kurių prekes netrukus turi pristatyti tiekėjas. Šios darbo sritys nėra skirtos atlikti su gavimais susijusias veiklas, kurios atliekamos sandėlyje. Tos veiklos atliekamos naudojant modulių **Atsargų valdymas** ir **Sandėlio valdymas** puslapius. Tiekėjo SF turėtų būti apdorotos naudojant darbo sritį **Tiekėjo SF įrašas**, o mokėjimai turėtų būti apdoroti naudojant darbo sritį **Tiekėjo mokėjimai**.  
+Darbo srityse **Pirkimo užsakymo rengimas** ir **Pirkimo užsakymo gavimas ir apdorojimas** galima peržiūrėti PU ir įvairių jų esamų būsenų sąrašus. Jose taip pat pateikiama veiksmų, kuriuose reikia atlikti, suvestinė. Darbo sritis **Pirkimo užsakymo rengimas** yra orientuota į PU kūrimą ir peržiūrą, užsakymo apdorojimą, siekiant jį patvirtinti, ir patvirtinimą iš tiekėjo. Darbo sritis **Pirkimo užsakymų gavimas ir apdorojimas** yra orientuota į prekių ir paslaugų gavimo apdorojimą pagal PU. Joje pateikiami sąrašai, kuriuose pateikiama informacijos apie uždelstus gavimo kvitus arba kvitus, kurių prekes netrukus turi pristatyti tiekėjas. Šios darbo sritys nėra skirtos atlikti su gavimais susijusias veiklas, kurios atliekamos sandėlyje. Tos veiklos atliekamos naudojant modulių **Atsargų valdymas** ir **Sandėlio valdymas** puslapius. Tiekėjo SF turėtų būti apdorotos naudojant darbo sritį **Tiekėjo SF įrašas** , o mokėjimai turėtų būti apdoroti naudojant darbo sritį **Tiekėjo mokėjimai**.  
 
 Toliau nurodytuose straipsniuose pateikiama įvairių PU etapų apžvalga.
 
@@ -56,11 +56,11 @@ Yra trys PU tipai: Kurdami PU turite nurodyti tipą. Numatytąjį naujų užsaky
 | Grąžintas užsakymas | Naudokite šį tipą, kai tiekėjui grąžinate prekes. Kuriant šio tipo užsakymą reikia nurodyti grąžinamų medžiagų autorizavimo (RMA) numerį, kurį jums suteikia tiekėjas. RMA numeris nurodomas PU skirtuke **Bendra**. Užsakymo eilutėse turi būti neigiami kiekiai. |
 
 ## <a name="purchase-order-statuses"></a>Pirkimo užsakymo būsenos
-PU naudojami keli būsenos laukai, kurie nurodo apie užsakymo eigą. Visi šie laukai yra rodomi užsakymo rodinyje **Antraštė**, o keli iš jų taip pat rodomi visų užsakymų tinklelio peržiūroje. Lauke **Būsena** rodoma užsakymo kiekių būsena. Galimos šios vertės:
+PU naudojami keli būsenos laukai, kurie nurodo apie užsakymo eigą. Visi šie laukai yra rodomi užsakymo rodinyje **Antraštė** , o keli iš jų taip pat rodomi visų užsakymų tinklelio peržiūroje. Lauke **Būsena** rodoma užsakymo kiekių būsena. Galimos šios vertės:
 
 -   **Atviras užsakymas** – užsakymas yra sukurtas ir jame nurodyti kiekiai.
 -   **Gautas** -kai kurie kiekiai gauti, bet jiems SF dar nebuvo išrašyta.
--   **SF išrašyta** – SF išrašyta visam užsakymo kiekiui. **Pastaba.** Jei užsakymo SF išrašyta *iš dalies*, netinka nei būsena **Gautas**, nei būsena **SF išrašyta**. Todėl užsakymo būsena vis dar bus **Atviras užsakymas**.
+-   **SF išrašyta** – SF išrašyta visam užsakymo kiekiui. **Pastaba.** Jei užsakymo SF išrašyta *iš dalies* , netinka nei būsena **Gautas** , nei būsena **SF išrašyta**. Todėl užsakymo būsena vis dar bus **Atviras užsakymas**.
 -   **Atšauktas** – užsakymas buvo patvirtintas, bet vėliau atšauktas. Todėl ši būsena nurodo, kad užsakyme nebėra jokių atvirų kiekių.
 
 Lauke **Dokumento būsena** galima greitai peržiūrėti užsakymo eigos būseną pagal apdorotus dokumentus. Jame rodoma vėliausiai baigto užsakymo dokumento būsena. Galimos šios vertės:
@@ -73,7 +73,7 @@ Lauke **Dokumento būsena** galima greitai peržiūrėti užsakymo eigos būsen�
 
 Laukas **Patvirtinimo būsena** naudojamas, kai naudojamas PU peržiūros procesas arba darbo eiga. Galimos šios vertės:
 
--   **Juodraštis**, **Peržiūrima** ir **Atmesta** – šios būsenos taikomos tik tada, kai naudojama PU patvirtinimo darbo eiga.
+-   **Juodraštis** , **Peržiūrima** ir **Atmesta** – šios būsenos taikomos tik tada, kai naudojama PU patvirtinimo darbo eiga.
 -   **Patvirtinta** – ši būsena yra priskiriama užsakymams, kurių patvirtinimo darbo eiga baigta. Užsakymų, sukurtų nenaudojant patvirtinimo darbo eigos, būsena iš karto nustatoma į **Patvirtinta**.
 -   **Išorinė peržiūra** – ši būsena naudojama, kai tiekėjui siunčiama pirkimo užklausa, kad tiekėjas galėtų patvirtinti PU sąlygas. Ši būsena taip pat naudojamas vykdant procesą, inicijuotą veiksmu **Patvirtinimo užklausa**. Šio proceso metu tiekėjo prašoma patvirtinti PU sąlygas prisijungiant prie jūsų sistemos ir užregistruojant užsakymo patvirtinimą arba atmetimą.
 -   **Patvirtinta** – ši būsena yra priskiriama patvirtinus užsakymą. Paprastai ši būsena yra paskutinė užsakymui priskiriama patvirtinimo būsena.

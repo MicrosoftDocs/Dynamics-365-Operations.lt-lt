@@ -3,7 +3,7 @@ title: Darbo su Turto nuoma pradžia
 description: Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją.
 author: moaamer
 manager: Ann Beebe
-ms.date: 09/24/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5f8f86861f65f3da71843f6fd4a64e4199e86627
-ms.sourcegitcommit: 9668af8d918faec37abe1881e550872cd6b73259
+ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3970013"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022572"
 ---
 # <a name="asset-leasing-get-started"></a>Darbo su Turto nuoma pradžia
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma funkcija Turto nuoma ir nurodomi veiksmai, reikalingi norint sukurti turto nuomą ir peržiūrėti tos nuomos informaciją. Temoje taip pat apibrėžiami terminai, naudojami vartotojo sąsajoje ir dokumentacijoje. Turto nuoma yra išplėstinė funkcija, skirta nuomojamo turto finansinių operacijų valdymui, sekimui ir automatizavimui „Microsoft Dynamics 365 Finance”. Turto nuoma atitinka tarptautinius apskaitos standartus (IFRS 16) ir JAV GAAP standartus (ASC 842). Turto nuoma fiksuoja ir apdoroja nuomos informaciją ir padeda generuoti mėnesinius nuomos ciklo žurnalo įrašus – nuo pradinio pripažinimo iki nuomos pablogėjimo ir nutraukimo. Turto nuoma sklandžiai integruojama su kitais „Dynamics 365 Finance” komponentais, įskaitant modulius Ilgalaikis turtas, Mokėtinos sumos ir Didžioji knyga.
 
@@ -72,7 +71,7 @@ Toliau pateiktoje diagramoje vaizduojama nuomos knyga, nuoma, apskaičiuotas mok
 
 - **Sudėjimo intervalas** – jis nurodo laikotarpių, kurių metu skaičiuojamos palūkanos, skaičių per metus. Jis gali būti mėnesinis (12 laikotarpių per metus), ketvirtinis (4 laikotarpiai per metus), pusmetinis (2 laikotarpiai per metus) arba metinis (1 laikotarpis per metus). Į laikotarpių skaičių bus atsižvelgiama dabartinės vertės skaičiavime.
 
-- **Pradžios data** – tai data, kai nuomotojas leidžia nuomininkui naudoti turtą. Visi nuomos skaičiavimai ir operacijos bus pagrįsti pradžios data. Pradžios data turi būti laikotarpio pradžioje (pirmą mėnesio dieną), siekiant užtikrinti vėlesnių skaičiavimų tikslumą. Galite naudoti lauką **Sutarties pasirašymo data**, norėdami įvesti faktinę datą, kai sutartis buvo pasirašyta.
+- **Pradžios data** – tai data, kai nuomotojas leidžia nuomininkui naudoti turtą. Visi nuomos skaičiavimai ir operacijos bus pagrįsti pradžios data. Pradžios data turi būti laikotarpio pradžioje (pirmą mėnesio dieną), siekiant užtikrinti vėlesnių skaičiavimų tikslumą. Galite naudoti lauką **Sutarties pasirašymo data** , norėdami įvesti faktinę datą, kai sutartis buvo pasirašyta.
 
 - **Nuomos terminas** – tai nuomos laikotarpio trukmė mėnesiais.
 
@@ -204,12 +203,12 @@ Nurodo naudojimo teise valdomo turto perkėlimo balanso sumažinimą. Nustatykit
 >[!NOTE]
 > Jei nuoma yra susieta su ilgalaikiu turtu, nuomos nuvertėjimas turi būti užregistruotas naudojant Ilgalaikis turtas, nes turto nusidėvėjimas vykdomas modulyje Ilgalaikis turtas.
 
-**Dvi valiutos** – nuomos operacijas galima registruoti kita valiuta nei apskaitos ir ataskaitų valiuta. Valiutos keitimo kursas apibrėžiamas modulyje Didžioji knyga pradžios dieną. Galite keisti valiutos kursus, nustatydami lauką **Fiksuotas kursas** į **Taip**, kai kuriate nuomą. Įvedus nuomos operacijas, pradinio pripažinimo ir vėlesnės nusidėvėjimo operacijos naudos valiutos kursą nuo pradžios datos. Vėlesnės mokėjimo ir palūkanų operacijos naudos dabartinį aktyvų valiutos kursą. 
+**Dvi valiutos** – nuomos operacijas galima registruoti kita valiuta nei apskaitos ir ataskaitų valiuta. Valiutos keitimo kursas apibrėžiamas modulyje Didžioji knyga pradžios dieną. Galite keisti valiutos kursus, nustatydami lauką **Fiksuotas kursas** į **Taip** , kai kuriate nuomą. Įvedus nuomos operacijas, pradinio pripažinimo ir vėlesnės nusidėvėjimo operacijos naudos valiutos kursą nuo pradžios datos. Vėlesnės mokėjimo ir palūkanų operacijos naudos dabartinį aktyvų valiutos kursą. 
 
 ## <a name="create-an-asset-lease"></a>Turto nuomos kūrimas
 Norėdami sukurti naują nuomą, atlikite toliau nurodytus veiksmus. 
 
-1. Norėdami naudoti funkciją **Turto nuoma**, turite įjungti ją darbo srityje **Funkcijų valdymas**. Darbo srityje **Funkcijų valdymas** pasirinkite **Visi**, kad visos funkcijos būtų pateiktos puslapyje. Pasirinkite **Turto nuoma** ir tada pasirinkite **Įjungti dabar**.
+1. Norėdami naudoti funkciją **Turto nuoma** , turite įjungti ją darbo srityje **Funkcijų valdymas**. Darbo srityje **Funkcijų valdymas** pasirinkite **Visi** , kad visos funkcijos būtų pateiktos puslapyje. Pasirinkite **Turto nuoma** ir tada pasirinkite **Įjungti dabar**.
 2. Eikite į **Turto nuoma > Bendra > Nuomos suvestinė**. „FastTab“ **Bendra** užpildykite reikiamus laukus. 
    - **Nuomos informacija**
    - **Turto naudingo naudojimo laikas (mėnesiais)**
@@ -226,19 +225,19 @@ Norėdami sukurti naują nuomą, atlikite toliau nurodytus veiksmus.
 
 5. Pereikite prie „FastTab” **Bendra**. Apskaičiuojamas **pradinis naudojimo teise valdomas turtas** ir **nuomos įsipareigojimas**. 
 
-6. Pereikite į „FastTab” **Nuomos klasifikacijos testas**, kad patikrintumėte vertę, esančią lauke **Nuomos tipas**. 
+6. Pereikite į „FastTab” **Nuomos klasifikacijos testas** , kad patikrintumėte vertę, esančią lauke **Nuomos tipas**. 
 
    Automatinis **nuomos tipas** klasifikuojamas pagal kriterijus, kurie apibrėžti puslapyje **Knygos**.
 
 7.  Eikite į **Mokėjimo grafikas** dalyje **Funkcija**.  
 
-   Puslapyje **Mokėjimo grafikas** pateikiami būsimi nuomos ID mokesčių grafikai. Pasirinkite **Patvirtinti grafiką**, kad būtų galima registruoti **pradinio pripažinimo** operacijas. 
+   Puslapyje **Mokėjimo grafikas** pateikiami būsimi nuomos ID mokesčių grafikai. Pasirinkite **Patvirtinti grafiką** , kad būtų galima registruoti **pradinio pripažinimo** operacijas. 
 
 [![Pradinio pripažinimo funkcija](./media/overview-13.png)](./media/overview-13.png)
 
-8. Pasirinkite **Pradinis pripažinimas**, norėdami sukurti pradinio pripažinimo žurnalą. 
+8. Pasirinkite **Pradinis pripažinimas** , norėdami sukurti pradinio pripažinimo žurnalą. 
 
-9. Pasirinkite **Turto nuomos žurnalai**, norėdami užregistruoti pradinio pripažinimo operaciją. 
+9. Pasirinkite **Turto nuomos žurnalai** , norėdami užregistruoti pradinio pripažinimo operaciją. 
 
    Iš mokėjimo grafiko galite atidaryti išsamų puslapį, kuriame pateikiamos naudojimo teise valdomo turto operacijos. 
  

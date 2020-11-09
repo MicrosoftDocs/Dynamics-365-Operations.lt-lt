@@ -18,17 +18,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 5052957a2f4e59791ef02c12bc2aef5ed36e95c7
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
+ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3816942"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022086"
 ---
 # <a name="social-share-module"></a>„Social Share” modulis
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Šioje temoje aprašomi „Social Share” moduliai ir tai, kaip jų įtraukti į „Microsoft Dynamics 365 Commerce“ svetainių puslapius.
 
@@ -54,27 +53,27 @@ Toliau pateiktoje iliustracijoje pabrėžiamas „Social Share” modulio, naudo
 ## <a name="social-share-item-module-properties"></a>„Social Share” elementų modulio ypatybės
 | Ypatybės pavadinimas             | Reikšmė                 | aprašymas |
 |---------------------------|-----------------------|-------------|
-| Socialinė medija              | **„Facebook”**, **„Twitter”**, **„Pinterest”**, **„LinkedIn”**, **„Mail“** | Išskleidžiamasis meniu, kuriame yra socialinės medijos platformų sąrašas. |
+| Socialinė medija              | **„Facebook”** , **„Twitter”** , **„Pinterest”** , **„LinkedIn”** , **„Mail“** | Išskleidžiamasis meniu, kuriame yra socialinės medijos platformų sąrašas. |
 | Piktograma |Nuotrauka    | Tai bus atitinkamos socialinės medijos rodomas vaizdas. Geriausia būtų kiekvienos platformos vaizdo ieškoti socialinės medijos platformos SDK. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>„Social Share” modulio įtraukimas į pirkimo langelio modulį
 
 Norėdami įtraukti „Social Share” modulį į pirkimo langelio modulį, atlikite toliau pateiktus veiksmus.
 
-1. „Fabrikam” svetainėje pasirinkite **Puslapiai**, tada – puslapį **DefaultPDP**, kad būtų atidarytas produkto informacijos puslapis. 
-1. Vietoje **Pirkimo langelis (būtina)** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **„Social Share”**, tada pasirinkite **Gerai**.
-1. Vietoje **„Social Share”** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **SocialShare**, tada pasirinkite **Gerai**.
+1. „Fabrikam” svetainėje pasirinkite **Puslapiai** , tada – puslapį **DefaultPDP** , kad būtų atidarytas produkto informacijos puslapis. 
+1. Vietoje **Pirkimo langelis (būtina)** pasirinkite daugtaškį ( **...** ), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **„Social Share”** , tada pasirinkite **Gerai**.
+1. Vietoje **„Social Share”** pasirinkite daugtaškį ( **...** ), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **SocialShare** , tada pasirinkite **Gerai**.
 1. Modulio **SocialShare** ypatybių srities dalyje **Padėtis** pasirinkite **Horizontali**. Jei reikia, įtraukite antraštę.
-1. Vietoje **SocialShare** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **SocialShareItem**, tada pasirinkite **Gerai**.
+1. Vietoje **SocialShare** pasirinkite daugtaškį ( **...** ), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **SocialShareItem** , tada pasirinkite **Gerai**.
 1. Modulio **SocialShareItem** ypatybių srities dalyje **Socialinė medija** pasirinkite **„Facebook”**.
 1. Modulio **SocialShareItem** ypatybių srities dalyje **Piktograma** pasirinkite **+ Įtraukti vaizdą**.
-1. Dialogo lange **Medijos parinkiklis** pasirinkite „Facebook” logotipo vaizdą, tada pasirinkite **Gerai**. Jei nėra „Facebook” logotipo vaizdo, pasirinkite **Įkelti naują medijos elementą**, kad įkeltumėte.
+1. Dialogo lange **Medijos parinkiklis** pasirinkite „Facebook” logotipo vaizdą, tada pasirinkite **Gerai**. Jei nėra „Facebook” logotipo vaizdo, pasirinkite **Įkelti naują medijos elementą** , kad įkeltumėte.
 1. Įtraukite ir konfigūruokite papildomus modulius **SocialShareItem** pagal poreikį.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**. Puslapyje bus rodomas „Social Share” modulis.
-1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

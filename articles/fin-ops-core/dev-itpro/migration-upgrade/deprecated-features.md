@@ -3,7 +3,7 @@ title: Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 description: Šioje temoje aprašomos funkcijos, kurios buvo pašalintos arba kurias buvo numatyta pašalinti iš „Dynamics 365 for Finance and Operations“ ir ankstesnių šio produkto leidimų.
 author: sericks007
 manager: AnnBe
-ms.date: 07/31/2020
+ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bccc9a0a2b0abfdeba248007cfdb2bd599e35f48
-ms.sourcegitcommit: 074fe7e77feb795148c3daf2e6ccbb8a88679343
+ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3645394"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040127"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Pašalintos arba nebenaudojamos funkcijos ankstesniuose leidimuose
 
@@ -43,7 +43,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 ## <a name="finance-1007-with-platform-update-31"></a>„Finance“ 10.0.7 su „Platform update 31“
 
 ### <a name="chinese-voucher-types-without-account-groups-selection"></a>Kinijos kvitų tipai be sąskaitų grupių pasirinkimo
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeista į funkciją su sąskaitų grupių pasirinkimu. |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -56,7 +56,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="dimensionhashgethashstr-_message"></a>DimensionHash.getHash(str _message)
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Windows“ nebenaudoja SHA1, kaip dokumentuota [„Windows“ sprendimas dėl SHA1 sertifikatų](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -66,7 +66,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="hashcomputesha1hashstring-message"></a>Hash.ComputeSHA1Hash(string message)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Windows“ nebenaudoja SHA1, kaip dokumentuota [„Windows“ sprendimas dėl SHA1 sertifikatų](https://social.technet.microsoft.com/wiki/contents/articles/32288.windows-enforcement-of-sha1-certificates.aspx).  |
 | **Pakeitė kita funkcija?**   | Taip |
@@ -77,9 +77,9 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="formdatetimecontrolsetutcstring"></a>FormDateTimeControl.setUtcString()
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Mes panaikiname metodą **setUtcString()**, nes galimas geresnis pakeitimo metodas. |
+| **Nebenaudojimo / pašalinimo priežastis** | Mes panaikiname metodą **setUtcString()** , nes galimas geresnis pakeitimo metodas. |
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Platforma |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -87,7 +87,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="blacklist-report-it--feature-reference-it-00001"></a>Juodojo sąrašo ataskaita (IT) – funkcijos nuoroda IT-00001
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
 | **Pakeitė kita funkcija?**   | Ne |
@@ -97,7 +97,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Vietinių mokesčių ataskaita – funkcijos nuoroda IT-00003
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Nėra teisiškai reikalaujama. |
 | **Pakeitė kita funkcija?**   | Ne |
@@ -110,17 +110,20 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="us-payroll-tax-updates"></a>JAV algalapių mokesčių atnaujinimai
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mes šaliname JAV algalapių mokesčių atnaujinimus dėl mažo naudojimo ir patobulintos funkcijos, kuri dabar siūloma per strateginę integraciją.  |
 | **Pakeitė kita funkcija?**   | Taip |
-| **Paveiktos produkto sritys**         | Algalapis |
+| **Paveiktos produkto sritys**         | Payroll |
 | **Visuotinio diegimo parinktis**              | Visos |
-| **Būsena**                         | Nebenaudojama. Nebenaudojama: iki 2021 m. spalio 1 planuojame daugiau nebeteikti mokesčių atnaujinimų JAV algalapių klientams. Funkcija išliks produkte, tačiau patobulinimai daugiau nebeatnaujins šios funkcijos ir bet kokie produkto defektai bus vertinami kiekvienu konkrečiu atveju. Norėdami gauti daugiau informacijos žr. [„Mokesčių atnaujinimai šalinami iš JAV algalapių funkcijos“ temoje Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq). |
+| **Būsena**                         | Nebenaudojama: iki 2024 m. liepos 31 d. planuojame daugiau nebeteikti mokesčių atnaujinimų JAV algalapių klientams. Funkcija išliks produkte, tačiau patobulinimai daugiau nebeatnaujins šios funkcijos ir bet kokie produkto defektai bus vertinami kiekvienu konkrečiu atveju. |
+
+>[!NOTE]
+> Tai nurodo pradinės 2021 m. spalio 1 d. nutraukimo datos pakeitimą. Norėdami gauti daugiau informacijos žr. [„Mokesčių atnaujinimai šalinami iš JAV algalapių funkcijos“ temoje Microsoft Dynamics 365 for Finance and Operations](https://aka.ms/financepayrollfaq).
 
 
 ### <a name="data-management-staging-clean-up"></a>Duomenų valdymo išdėstymo valymas
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Neatitinka pagrindinių reikalavimų, kurių reikia planuojant periodinį valymą. |
 | **Pakeitė kita funkcija?**   | Taip, užduočių retrospektyvos valymo funkcija yra įtraukiama, kad holistiškai atitiktų scenarijus. |
@@ -132,9 +135,9 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="france-fec-accounting-data-export-in-xml"></a>Prancūzija: FEC apskaitos duomenų eksportavimas XML formatu
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | **Prancūzijos FEC audito failas**, kuris pakeistas TXT formatu, pasiekiamas pasirinkus **Didžioji knyga** \> **Periodinės užduotys** \> **Duomenų eksportavimas**.
+| **Nebenaudojimo / pašalinimo priežastis** | **Prancūzijos FEC audito failas** , kuris pakeistas TXT formatu, pasiekiamas pasirinkus **Didžioji knyga** \> **Periodinės užduotys** \> **Duomenų eksportavimas**.
 | **Pakeitė kita funkcija?**   | Taip |
 | **Paveiktos produkto sritys**         | Didžioji knyga |
 | **Visuotinio diegimo parinktis**              | Visos |
@@ -143,7 +146,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="legacy-navigation-bar"></a>Senesnių funkcijų naršymo juosta
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Antraštės lygiavimas su kitais „Dynamics“ ir „Office“ produktais. Norėdami daugiau informacijos žr. [Atnaujinta naršymo juosta, sulygiuota su „Office“ antrašte](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Pakeitė kita funkcija?**   | Į 24 ir vėlesnius platformos naujinius įtraukta perkurta naršymo juosta, kurioje pateikta ieškos funkcija. |
@@ -157,7 +160,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="legacy-default-action-behavior"></a>Senesnis numatytųjų veiksmų veikimas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Dėl senesnio tinklelių numatytųjų veiksmų veikimo numatytasis veiksmo saitas personalizuojant pertvarkius tinklelio stulpelius atsiranda nenumatytame stulpelyje. Tai ištaiso naujoji „priklijuojamųjų“ numatytųjų veiksmų funkcija. Norėdami gauti daugiau informacijos, žr. [„Priklijuojamieji“ numatytieji veiksmai tinkleliuose](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Pakeitė kita funkcija?**   | Nuo „Platform Update 21“ buvo įdiegta „priklijuojamųjų” numatytųjų veiksmų funkcija. Šią funkciją galima įjungti puslapyje **Kliento našumo parinktys**. |
@@ -167,7 +170,7 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 
 ### <a name="legacy-is-one-of-filtering-experience"></a>Senesnė filtravimo patirtis „vienas iš“
 
-|   |  |
+|&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naujinime „Platform Update 22“ filtravimo patirtis „vienas iš“ buvo pertvarkyta; planuojama, kad ilgainiui ji bus vienintelė tokia filtravimo patirtis. |
 | **Pakeitė kita funkcija?**   | Nuo „Platform Update 22“ puslapyje **Kliento našumo parinktys** galima naudoti patobulintą filtravimo patirtį „vienas iš“. Norėdami gauti daugiau informacijos, žr. [Optimizuota filtravimo patirtis „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
@@ -178,17 +181,17 @@ Išsamios informacijos apie „Finance and Operations“ programų objektus rasi
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parametras, kuriuo įjungiami pardavimo užsakymai su keliais projekto sutarties lėšų skyrimo šaltiniais
 Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų skyrimo šaltinius, palaikymas įjungiamas puslapio **Projektų valdymo parametrai** parametru **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus**. Pagal numatytuosius parametrus šis parametras nėra įjungtas. 
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Parametrą pašalinus, ši funkcija visada bus įjungta. |
 | **Pakeitė kita funkcija?**   | Nr. Projektinių pardavimo užsakymų su keliais lėšų skyrimo šaltiniais palaikymo funkcija visada bus įjungta.   |
-| **Paveiktos produkto sritys**         |Parametras **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus** bus pašalintas. Pašalinus parametrą bus modifikuoti šie metodai: klasės **ProjStatusType** metodas **ctrlSalesOrderTable**, lauko **ProjId** metodas **validate** ir formos **SalescreateOrder** metodas **run**. Pašalinus parametrą, šie metodai bus nerekomenduojami: **IsSalesOrderAllowedForMultipleFundingSources** lentelės faile **ProjTable**, lentelės failo **ProjTable** metodas **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled**, formos **ProjParameters** ir failų **ProjParameterEntity** duomenų laukas **AllowSalesOrdersForMultipleFundingSources**, lentelės failo **ProjTable** privatusis metodas **IsAssociatedToMultipleFundingSourcesContract**. |
+| **Paveiktos produkto sritys**         |Parametras **Leisti projekto su keliais lėšų skyrimo šaltiniais pardavimo užsakymus** bus pašalintas. Pašalinus parametrą bus modifikuoti šie metodai: klasės **ProjStatusType** metodas **ctrlSalesOrderTable** , lauko **ProjId** metodas **validate** ir formos **SalescreateOrder** metodas **run**. Pašalinus parametrą, šie metodai bus nerekomenduojami: **IsSalesOrderAllowedForMultipleFundingSources** lentelės faile **ProjTable** , lentelės failo **ProjTable** metodas **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** , formos **ProjParameters** ir failų **ProjParameterEntity** duomenų laukas **AllowSalesOrdersForMultipleFundingSources** , lentelės failo **ProjTable** privatusis metodas **IsAssociatedToMultipleFundingSourcesContract**. |
 | **Visuotinio diegimo parinktis**              | Visos  |
 | **Būsena**                         | Planuojama, kad šie metodai nebebus rekomenduojami nuo 2020 m. balandžio mėn. leidimų bangos. |
 
 ### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>Senesnės sekimo ir egzempliorių būsenos darbo eigų ataskaitos
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Senesnės sekimo ir egzempliorių būsenos darbo eigų ataskaitos neberekomenduojamos, nes jos nebenurodomos naršant. Ataskaitos vadinasi WorkflowWorkflowInstanceByStatusReport ir WorkflowWorkflowTrackingReport. |
 | **Pakeitė kita funkcija?**   | Vietoj jų galima naudoti darbo eigos retrospektyvos formą. |
@@ -203,7 +206,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>Išvedimas iš vidinių klasių nebenaudojamas
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima sukurti klasę arba lentelę, kuri išvedama iš vidinės klasės / lentelės, apibrėžtos kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
 | **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ kompiliatoriaus įspėjimas bus pakeistas į klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui.|
@@ -213,7 +216,7 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>Vidinių metodų perrašymas nebenaudojamas
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Iki „Platform Update 25“ buvo galima vidinį metodą perrašyti išvestoje klasėje, kuri apibrėžta kitame pakete / modulyje. Tai nėra saugi kodavimo praktika. Nuo „Platform Update 25” kompiliatorius rodys įspėjimą. |
 | **Pakeitė kita funkcija?**   | Naujinime „Platform Update 26“ šis įspėjimas bus pakeistas į kompiliavimo klaidą. Paleidimo metu šis pakeitimas yra suderinamas su ankstesnėmis sistemomis, o tai reiškia, kad „Platform Update 25“ ar naujesnį naujinimą galima įdiegti bet kurioje smėlio dėžėje arba gamybos aplinkoje – pasirinktinio kodo keisti nereikia. Šis pakeitimas taikomas tik programavimo ir kompiliavimo laikui. |
@@ -224,9 +227,9 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 ## <a name="finance-and-operations-1000-with-platform-update-24"></a>„Finance and Operations 10.0.0“ su „Platform Update 24“
 
 ### <a name="renaming-released-products"></a>Išleistų produktų pervardijimas 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Kai naudojate funkciją **Pervadinti pirminį raktą**, kad pakeistumėte išleisto produkto „ItemId“, atnaujinamos tik tiesioginės išorinio rakto nuorodos. Visos kitos išleisto produkto nuorodos, pvz., iš gamybos užsakymų, išlaikys seną „ItemId“. Dėl to duomenys gali būti nenuoseklūs, o tai ilgainiui gali blokuoti verslo procesus. |
+| **Nebenaudojimo / pašalinimo priežastis** | Kai naudojate funkciją **Pervadinti pirminį raktą** , kad pakeistumėte išleisto produkto „ItemId“, atnaujinamos tik tiesioginės išorinio rakto nuorodos. Visos kitos išleisto produkto nuorodos, pvz., iš gamybos užsakymų, išlaikys seną „ItemId“. Dėl to duomenys gali būti nenuoseklūs, o tai ilgainiui gali blokuoti verslo procesus. |
 | **Pakeitė kita funkcija?**   | Nr. |
 | **Paveiktos produkto sritys**         | Produkto informacijos valdymas |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas  |
@@ -238,9 +241,9 @@ Projektinių pardavimo užsakymų, kuriuose projekto sutartis turi kelis lėšų
 ### <a name="sql-server-reporting-services-reportviewer-control"></a>„SQL Server Reporting Services“ valdiklis ReportViewer
 Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL „Server Reporting Services“ (SSRS) valdiklis „ReportViewer“, kad atsisiųstumėte dokumentus, kuriuos sugeneravo „Finance and Operations“ programos. Ši HTML pagrįsta ataskaitos pateiktis vartotojams siūlo nesunumeruotą dokumento peržiūrą.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūra **ne**užtikrina tikslumo su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo dokumentų formatą ir kurdami programų ataskaitas vartotojai gali išnaudoti šiuolaikiškas peržiūros galimybes ir būti našesni. |
+| **Nebenaudojimo / pašalinimo priežastis** | HTML pagrįsta nesunumeruota peržiūra **ne** užtikrina tikslumo su faktiniais dokumentais, kuriuos galiausiai sugeneruoja „Finance and Operations“. Naudodami PDF kaip standartinį verslo dokumentų formatą ir kurdami programų ataskaitas vartotojai gali išnaudoti šiuolaikiškas peržiūros galimybes ir būti našesni. |
 | **Pakeitė kita funkcija?**   | Ateityje PDF dokumentai bus numatytasis „Finance and Operations“ generuojamų ataskaitų formatas.   |
 | **Paveiktos produkto sritys**         | Šis pakeitimas **netaikomas** klientų scenarijuose, kai ataskaitos paskirstomos elektroniniu būdu arba siunčiamos tiesiogiai į spausdintuvus.    |
 | **Visuotinio diegimo parinktis**              | Visos  |
@@ -249,7 +252,7 @@ Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL �
 ### <a name="client-kpi-controls"></a>Kliento KPI valdikliai
 Įdėtuosius pagrindinius efektyvumo indikatorius (KPI) sistemoje „Visual Studio“ gali modeliuoti kūrėjas ir toliau tinkinti galutinis vartotojas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Vietinius kliento valdiklius, naudojamus KPI apibrėžti, klientai naudoja retai, ir kūrėjai turi įtraukti sekamą metriką. |
 | **Pakeitė kita funkcija?**   | PowerBI.com paslauga pristato aukštos klasės įrankius, skirtus nustatyti ir valdyti KPI, remiantis duomenimis iš išorinių šaltinių.  Būsimame leidime planuojame suteikti galimybę įdėti sprendimus, nuomojamus PowerBI.com, į programos darbo sritis.   |
@@ -261,9 +264,9 @@ Klientai gali naudotis **Eksportuoti** veiksmu, kurį suteikia įdėtasis SQL �
 
 #### <a name="field-groups-containing-invalid-field-references"></a>Laukų grupės, kuriose pateiktos netinkamos laukų nuorodos
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas*, o ne *klaida*, o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
+| **Nebenaudojimo / pašalinimo priežastis** | Lentelės metaduomenų aprašuose gali būti laukų grupių, kuriose yra netinkamų laukų nuorodų. Įdiegus gali kiti leidimo laiko gedimų finansinėse ataskaitose ir „SQL Server Reporting Services“ (SSRS). Šiuo metu ši problema klasifikuojama kaip *kompiliatoriaus įspėjimas* , o ne *klaida* , o tai reiškia, kad diegiamo paketo kūrimą ir diegimą galima tęsti neištaisius problemos. Kaip išspręsti šią problemą<br><br>1. Pašalinkite netinkamą lauko nuorodą iš lentelės lauko grupės aprašo.<br><br>2. Perkompiliuokite.<br><br>3. Įsitikinkite, kad pašalinti visi įspėjimai arba klaidos. |
 | **Pakeitė kita funkcija?**   | Ateityje šis įspėjimas bus pakeistas į kompiliavimo klaidą. |
 | **Paveiktos produkto sritys**         | „Visual Studio“ kūrimo įrankiai |
 | **Visuotinio diegimo parinktis**              | Visi / Viskas |
@@ -277,7 +280,7 @@ Norėdami pasiekti visą nebenaudojamų API sąrašą, žr. [Metodų ir metaduom
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Papildomos knygos žurnalo sąskaitų įrašų paketo perkėlimo taisyklės
 DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas pakeičiamas nesinchroniniu ir skirtu tik suplanuotam paketui, o šios parinktys jau naudojamos perkeliant. Norėdami gauti papildomos informacijos, žr. tinklaraštį [Didžiosios knygos parametrai – paketų perkėlimo taisyklės](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Sinchroninę parinktį pašalinsime, kadangi ji gali turėti įtakos sistemos efektyvumui. |
 | **Pakeitė kita funkcija?**   | Vietoje sinchroninės parinkties naudojamos nasinchroninė ir suplanuoto paketo parinktys.   |
@@ -288,7 +291,7 @@ DK parametruose sinchroninio perkėlimo režimas nebenaudojamas.  Šis režimas 
 ### <a name="electronic-reporting-for-russia"></a>Rusijos elektroninės ataskaitos
 Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeista elektroninėmis ataskaitomis. |
 | **Pakeitė kita funkcija?**   | Taip. |
@@ -299,7 +302,7 @@ Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus.
 ### <a name="financial-reports-generator-for-russia"></a>Rusijos finansinių ataskaitų generatorius
 Įrankis, skirtas apskaitos ir mokesčių ataskaitų duomenų rinkiniui nustatyti ir duomenims į XLS ir DOC ataskaitų šablonus eksportuoti. Funkcinės dalys: duomenų eksportavimas į XLS ir DOC ataskaitų šablonus, užklausos, fiksuotieji rekvizitai pašalinami. 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pašalintos dalys pakeičiamos elektroninėmis ataskaitomis. |
 | **Pakeitė kita funkcija?**   | Taip. Finansinių ataskaitų sąrankos vartotojo sąsaja turėtų būti naudojama norint nustatyti DK sąskaitų ir mokesčių registrų duomenų rinkimo taisykles. Duomenų eksportavimo į įvairių tipų failus, fiksuotųjų rekvizitų ir į užklausas panašių duomenų rinkimo taisyklės turėtų būti konfigūruojamos elektroninėse ataskaitose. |
@@ -310,7 +313,7 @@ Funkcija, skirta konfigūruoti deklaracijų .txt ir .xml failų formatus.
 ### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integravimas su išoriniais tiekėjais siekiant elektronines ataskaitas siųsti Rusijos ryšio kanalais
 Eksportuojant funkciją aplanke sukurti elektroniniai deklaracijų failai, kad vėliau juos būtų galima išsiųsti oficialiems elektroninių ataskaitų teikėjams, taip pat importuoti būseną.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeista konfigūruojama elektroninių pranešimų funkcija. |
 | **Pakeitė kita funkcija?**   | Taip.  |
@@ -322,7 +325,7 @@ Eksportuojant funkciją aplanke sukurti elektroniniai deklaracijų failai, kad v
 ### <a name="profit-tax-register-wizard"></a>Pelno mokesčio registro vedlys
 Funkcija, skirta naujiems pelno mokesčio registrų šablonams kurti. Ši funkcija sukuria naujų registrų X++ objektus, kurie vėliau kuriami kaip šablonai su įtraukta atitinkama skaičiavimo logika.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcija nesuderinama su „Finance and Operations“ išplėtimo modeliu. |
 | **Pakeitė kita funkcija?**   | nr. |
@@ -339,7 +342,7 @@ Iš šio leidimo nebuvo pašalintos jokios funkcijos ir visos jos yra tebenaudoj
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
 Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Išsamesnės informacijos žr. [Produktų rekomendacijų apžvalga](../../../commerce/product-recommendations.md).  
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pašalinsime dabartinę produktų rekomendavimo paslaugos versiją ir šią funkciją pertvarkysime, suteikdami jai geresnį algoritmą ir naujesnes į mažmeninę prekybą orientuotas galimybes.  |
 | **Pakeitė kita funkcija?**   | Nr. Tačiau po 2018 m. pavasario planuojame šią funkciją sugrąžinti su nauja rekomendacijų paslauga.   |
@@ -350,19 +353,19 @@ Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produ
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas
 Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugiau informacijos žr. [Elektroninių ataskaitų (ER) funkcijų sąrašo išplėtimas](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)) nebegalima. Pasikeitus ER API, API, skirti įtaisytąsias funkcijas iš ER išraiškos daryklės iškviesti, tapo vidiniais ir jų nebegalima išplėsti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Kodo antspaudavimo iniciatyva  |
-| **Pakeitė kita funkcija?**   | Nėra. Kai reikalinga nauja įtaisytoji funkcija, naują išplėtimo užklausą reikia skirti ER sistemos komandai.<br><br>Kol ER komanda kuria pageidaujamą funkciją, šią problemą galima laikinai išspręsti – reikalingą logiką galima suprogramuoti kaip pasirinktinės programos klasės metodą. Šį metodą galima pasiekti ER išraiškoje kaip įtraukto ER duomenų šaltinio, kurio tipas **Programa \ klasė**, ypatybę, nurodančią tą pasirinktinę programos klasę.  |
+| **Pakeitė kita funkcija?**   | Nėra. Kai reikalinga nauja įtaisytoji funkcija, naują išplėtimo užklausą reikia skirti ER sistemos komandai.<br><br>Kol ER komanda kuria pageidaujamą funkciją, šią problemą galima laikinai išspręsti – reikalingą logiką galima suprogramuoti kaip pasirinktinės programos klasės metodą. Šį metodą galima pasiekti ER išraiškoje kaip įtraukto ER duomenų šaltinio, kurio tipas **Programa \ klasė** , ypatybę, nurodančią tą pasirinktinę programos klasę.  |
 | **Paveiktos produkto sritys**         | Elektroninių ataskaitų sistema                                                      |
 | **Visuotinio diegimo parinktis**              | Visos                                                                                      |
 | **Būsena**                         | Pašalinta iš „Finance and Operations, Enterprise Edition 7.3“.    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>Atsargos pagal prekių grupę ir atsargos pagal atsargų dimensijų skirstymo pagal terminus ataskaitas
 
-Šios dvi ataskaitos nebepalaikomos programoje „Finance and Operations“. Vietoje to galima naudoti ataskaitą **Atsargų skirstymas pagal terminus**, norint pagerinti vartotojų patirtį.
+Šios dvi ataskaitos nebepalaikomos programoje „Finance and Operations“. Vietoje to galima naudoti ataskaitą **Atsargų skirstymas pagal terminus** , norint pagerinti vartotojų patirtį.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |--------------|-----------------------|
 | **Nebenaudojimo priežastis**       | Besidubliuojančios funkcijos  |
 | **Pakeitė kita funkcija?** | Taip. Abi ataskaitas pakeitė ataskaita **Atsargų skirstymas pagal terminus**.     |
@@ -371,12 +374,12 @@ Pasirinktinių funkcijų įtraukti norint naudoti ER išraiškos daryklė (daugi
 | **Būsena**                       | Nebenaudojama: abiejų ataskaitų meniu elementai buvo pašalinti iš 7.3 versijos. Tačiau į produktą vis dar įtrauktas ataskaitų kodas. Kodą planuojama pašalinti iš būsimo leidimo. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>„Power BI“ turinio paketai, prieinami „AppSource“
-Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat nebenaudojamos programoje „Finance and Operations“.
+Turinio paketai **Išlaidų valdymas** , **Finansinė veikla** ir **Retail Channel Performance** , prieinami svetainėje [Microsoft AppSource](https://appsource.microsoft.com), yra nebenaudojami dėl „Microsoft Power BI“ produkto naujinių. Sistemos administravimo formos, naudojamos šiems turinio paketams PowerBI.com diegti, taip pat nebenaudojamos programoje „Finance and Operations“.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Power BI“ produkto naujiniai. |
-| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channel Performance**, prieinami svetainėje [AppSource](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Pakeitė kita funkcija?**   | Turinio paketai **Išlaidų valdymas** , **Finansinė veikla** ir **Retail Channel Performance** , prieinami svetainėje [AppSource](https://appsource.microsoft.com), keičiami analizės programomis, kurios suteikia galimybę integruoti sprendimą duomenų bazės lygiu. Daugiau informacijos apie analizės programas žr. [Įdėtosios „Power BI“ darbo sritys](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Paveiktos produkto sritys**         | Išlaidų valdymas, „Finance“ ir „Retail“                                                                                               |
 | **Visuotinio diegimo parinktis**              | Tik debesyje (integravimas su PowerBI.com nepalaikomas vietinėse įdiegtyse.)                                                                                                            |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2018 m. antrasis ketvirtis.    |
@@ -385,10 +388,10 @@ Turinio paketai **Išlaidų valdymas**, **Finansinė veikla** ir **Retail Channe
 
 Standartinė duomenų valdymo vartotojo sąsaja yra senesnė vartotojo sąsaja, kuri yra numatytoji vartotojo sąsaja, vartotojams rodoma, kai jie apsilanko duomenų valdymo darbo srityje.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------------|-------------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Investuojame į naujas vartotojo patirtis naujoje vartotojo sąsajoje.             |
-| **Pakeitė kita funkcija?**   | Naujoji vartotojo sąsaja, vadinama *Patobulinti rodiniai*, keičia senąją vartotojo sąsają.            |
+| **Pakeitė kita funkcija?**   | Naujoji vartotojo sąsaja, vadinama *Patobulinti rodiniai* , keičia senąją vartotojo sąsają.            |
 | **Paveiktos produkto sritys**         | Duomenų valdymo darbo sritis                                                     |
 | **Visuotinio diegimo parinktis**              | Visos                                                                           |
 | **Būsena**                         | Nebenaudojama: tikslinis funkcijos pašalinimo laikotarpis – 2018 m. antrasis ketvirtis. |
@@ -397,7 +400,7 @@ Standartinė duomenų valdymo vartotojo sąsaja yra senesnė vartotojo sąsaja, 
 
 Šie mokesčiai įtraukti į Indijos GST.
 
-|                                             |                                                                         |
+|  &nbsp;                                           |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Pašalinimo arba nebenaudojimo priežastis**       | Šie mokesčiai įtraukti į Indijos GST.                          |
 | **Pakeitė kita funkcija?**            | Indijos GST                                                              |
@@ -407,7 +410,7 @@ Standartinė duomenų valdymo vartotojo sąsaja yra senesnė vartotojo sąsaja, 
 
 ### <a name="file-validation-utility-fvu-for-india"></a>Failo tikrinimo priemonė (FVU), Indija
 
-|                                             |                                                                         |
+|              &nbsp;                               |      &nbsp;                                                                   |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Pašalinimo arba nebenaudojimo priežastis**       | Naudojo mažai klientų                                                  |
 | **Pakeitė kita funkcija?**            | Nr.                                                                      |
@@ -419,7 +422,7 @@ Standartinė duomenų valdymo vartotojo sąsaja yra senesnė vartotojo sąsaja, 
 
 Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 
-|                                             |                                                                         |
+|             &nbsp;                                |    &nbsp;                                                                     |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Pašalinimo arba nebenaudojimo priežastis**       | Naudojo mažai klientų                                                  |
 | **Pakeitė kita funkcija?**            | Nr.                                                                      |
@@ -430,7 +433,7 @@ Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 ### <a name="exportimport-exim-incentive-scheme-for-india"></a>Indijos eksportavimo / importavimo (EXIM) paskatinimo schema
 
 
-|                                             |                                                                         |
+|              &nbsp;                               |        &nbsp;                                                                 |
 |---------------------------------------------|-------------------------------------------------------------------------|
 | **Pašalinimo arba nebenaudojimo priežastis**       | Naudojo mažai klientų                                                  |
 | **Pakeitė kita funkcija?**            | Nr.                                                                      |
@@ -444,7 +447,7 @@ Vartotojai gali tai atsisiųsti iš vyriausybės portalo.
 ### <a name="personalized-product-recommendations"></a>Personalizuotų produktų rekomendacijos 
 Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produktų rekomendacijų elektroninio kasos aparato (EKA) įrenginyje. Išsamesnės informacijos žr. [Produktų rekomendacijų apžvalga](../../../commerce/product-recommendations.md).  
 
-|   |  |
+|  &nbsp; |  &nbsp;|
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pašalinsime dabartinę produktų rekomendavimo paslaugos versiją ir šią funkciją pertvarkysime, suteikdami jai geresnį algoritmą ir naujesnes į mažmeninę prekybą orientuotas galimybes.  |
 | **Pakeitė kita funkcija?**   | Nr. Tačiau po 2018 m. pavasario planuojame šią funkciją sugrąžinti su nauja rekomendacijų paslauga.   |
@@ -459,7 +462,7 @@ Nuo 2018 m. vasario 15 d. mažmenininkai nebegalės rodyti personalizuotų produ
 
 Valiutos konvertavimas, skirtas apskaitai ir ataskaitų valiutoms, buvo įdiegtas įvedus eurą.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Ribotas funkcijos Kopijuoti juridinį subjektą naudojimas ir įtraukimas kaip pakaitalas.      |
 | **Pakeitė kita funkcija?**   | Ne, bet funkcijos Kopijuoti juridinį subjektą ir Konfigūracijos buvo įtrauktos tam, kad būtų lengviau perkelti į įmonę, kuri pakeitė pagrindinius reikalavimus. |
@@ -471,7 +474,7 @@ Valiutos konvertavimas, skirtas apskaitai ir ataskaitų valiutoms, buvo įdiegta
 
 Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kuris buvo skirtas vietiniam savarankiškam diegimui. Šis komponentas nebepalaikomas programoje „Finance and Operations“. Vietinė vartotojo patirtį pagerinanti programa pakeitė WMDP funkcijas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos.       |
 | **Pakeitė kita funkcija?**   | Taip. Šią funkciją pakeitė „Finance and Operations“ – sandėliavimas. Norėdami gauti daugiau informacijos apie sąranką ir būtinąsias sąlygas, žr. [Sandėliavimo programos diegimo ir konfigūravimo apžvalga](../../../supply-chain/warehousing/install-configure-warehousing-app.md). |
@@ -483,7 +486,7 @@ Sandėlio mobiliųjų įrenginių portalas (WMDP) buvo atskiras komponentas, kur
 
 Gretinimo taisyklė buvo naudojama norint pasirinkti ir pažymėti banko dokumentą rankiniu būdu gretinant dokumentus suderinimo darbalapyje.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Ribotas naudojimas.                                                                         |
 | **Pakeitė kita funkcija?**   | Nr. Stulpelio filtravimo galimybės turėtų būti naudojamos norint surasti suderinimui skirtus dokumentus. |
@@ -497,7 +500,7 @@ Gretinimo taisyklė buvo naudojama norint pasirinkti ir pažymėti banko dokumen
 
 Consejo Superior Bancario mokėjimo formatai buvo naudojami siunčiant kliento ir tiekėjo mokėjimų pavedimo failus į banką. Šių formatų turinį nustatė Asociación Española de Banca. Ji apima Cuaderno 19, 32, 58, 34.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                                  |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito pervedimo ir tiesioginio debeto mokėjimo formatai, skirti Ispanijai |
@@ -508,7 +511,7 @@ Consejo Superior Bancario mokėjimo formatai buvo naudojami siunčiant kliento i
 
 Banko mokėjimų pervedimai buvo generuojami ir spausdinami naudojant Lietuvos mokėjimo pervedimo (LT) eksportavimo formatą. Lietuvos rinkoje 2005 m. pradėta naudoti LITAS, suvienodinta elektroninės bankininkystės sistema.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                        |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito perkėlimo mokėjimo formatas, skirtas Lietuvai     |
@@ -519,7 +522,7 @@ Banko mokėjimų pervedimai buvo generuojami ir spausdinami naudojant Lietuvos m
 
 BBS „Direkte Remittering“ mokėjimo formatai apima kliento mokėjimų rinkinio eksportavimą (tiesioginis debetas) ir grąžinimo pranešimo importavimą.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.  |
 | **Pakeitė kita funkcija?**   | „AvtaleGiro“ kliento mokėjimų formatą, skirtą Norvegijai, galima naudoti norint generuoti tiesioginio debeto pranešimus. Grąžinimo pranešimo importavimo funkciją bus galima naudoti būsimuose leidimuose. |
@@ -530,7 +533,7 @@ BBS „Direkte Remittering“ mokėjimo formatai apima kliento mokėjimų rinkin
 
 Šis įrankis naudojama, kai sąskaitų plane, skirtame Ispanijai, reikia atlikti didelių keitimų. Vartotojai gali importuoti naują sąskaitų planą, naudodami „Microsoft Excel“ arba teksto formatu, ir taip pat gali importuoti finansines ataskaitas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Ribotas naudojimas                                                  |
 | **Pakeitė kita funkcija?**   | Nr.                                                             |
@@ -541,7 +544,7 @@ BBS „Direkte Remittering“ mokėjimo formatai apima kliento mokėjimų rinkin
 
 Senesnės versijos Belgijos mokėjimų rinkinio mokėjimo formatas (tiesioginis debetas).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                          |
 | **Pakeitė kita funkcija?**   | Taip, ISO 20022 tiesioginio debeto mokėjimo formatas, skirtas Belgijai         |
@@ -552,7 +555,7 @@ Senesnės versijos Belgijos mokėjimų rinkinio mokėjimo formatas (tiesioginis 
 
 ATM / EZAG formatai yra integruoti į ESR sistemą, nes jie turi nuorodos numerius. Nuorodos numeriai nėra būtini, todėl naudojant šiuos formatus galima apdoroti bet kurį tiekėjo mokėjimą. Šiuos formatus naudoja įmonės, turinčios ne „Postfinance“ esančias banko sąskaitas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                        |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito perkėlimo mokėjimo formatas, skirtas Šveicarijai   |
@@ -563,7 +566,7 @@ ATM / EZAG formatai yra integruoti į ESR sistemą, nes jie turi nuorodos numeri
 
 EDIFACT-DIRDEB mokėjimų rinkinio mokėjimo formatas (tiesioginis debetas).
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                          |
 | **Pakeitė kita funkcija?**   | Taip, ISO 20022 tiesioginio debeto mokėjimo formatas, skirtas Austrijai         |
@@ -574,7 +577,7 @@ EDIFACT-DIRDEB mokėjimų rinkinio mokėjimo formatas (tiesioginis debetas).
 
 EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu standartas. „Dynamics AX 2012“ lieka tik skaitymo sprendimas, kad būtų galima prieiga prie retrospektyvos duomenų.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcija nebenaudojama.                           |
 | **Pakeitė kita funkcija?**   | Nr.                                                             |
@@ -585,7 +588,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 
 „eGiro“ yra pagrįstas tarptautiniu JT standartu EDIFACT CREMUL (pakartotinis kredito pažymų pranešimas), kuris naudojamas automatiškai registruojant kliento mokėjimus. „Dynamics AX“ „eGiro“ naudojamas kaip kliento mokėjimo importavimo formatas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                                                     |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.054 pranešimų importavimas. |
@@ -596,7 +599,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 
 Įrodymas, kad iš tiekėjo paimtos parduotinos prekės be pirkimo. Prekės, tvarkomos išorinėse atsargose, neturi įtakos standartinėms atsargoms ir gali būti parduotos bei automatiškai nupirktos. Šiuo procesu sukuriami tikri atsargų perkėlimai.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeitė kita funkcija                                    |
 | **Pakeitė kita funkcija?**   | Taip, pagrindinė gaunamos konsignacijos funkcija                |
@@ -607,7 +610,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 
 Įrankis yra skirtas apskaitos ir mokesčių ataskaitų duomenų rinkiniui nustatyti ir duomenims į XLS ir DOC ataskaitų šablonus eksportuoti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Ribotas naudojimas                                                                            |
 | **Pakeitė kita funkcija?**   | Nr. Būsimuose leidimuose įrankį pakeis elektroninių ataskaitų konfigūracijos. |
@@ -618,7 +621,7 @@ EDIVAT yra pasenęs Belgijos elektroninių deklaracijų teikimo saugiu paštu st
 
 Galite pasirinkti Suomijos mokėjimų importavimo formatą, kurį naudojant kliento mokėjimo operacijos importuojamos iš išorinio banko pateikto failo.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                                                     |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.054 pranešimų importavimas. |
@@ -629,7 +632,7 @@ Galite pasirinkti Suomijos mokėjimų importavimo formatą, kurį naudojant klie
 
 Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                                                     |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.053 banko išrašo importavimas naudojant pažangų banko suderinimą. |
@@ -640,7 +643,7 @@ Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 
 „Isabel“ yra elektroninės bankininkystės sistema Europoje ir de facto standartinė sistema Belgijoje.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Integravimas su „Isabel“ klientu nebepalaikomas.   |
 | **Pakeitė kita funkcija?**   | Nr. Mokėjimo formatai nebenaudojami, juos pakeitė ISO20022 kredito pervedimo mokėjimo formatas, skirtas Belgijai. |
@@ -651,7 +654,7 @@ Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 
 Ši funkcija naudojama Ispanijos sąskaitų plano ir apskaitos taisyklių keitimams atlikti. Ji sąskaitas susieja ir padeda seną sąskaitų planą paversti nauju sąskaitų planu bei palygina ankstesnius finansinius metus su naujais finansiniais metais, net jei jie buvo užregistruotu kituose sąskaitos numeriuose.
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Ribotas naudojimas                                                  |
 | **Pakeitė kita funkcija?**   | Nr.                                                             |
@@ -662,7 +665,7 @@ Suomijai būdingas formatas naudojamas apskaitos operacijoms į DK importuoti.
 
 Senesnės versijos Italijos kredito perkėlimų mokėjimo formatas.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatas nebenaudojamas.                          |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito perkėlimo mokėjimo formatas, skirtas Italijai         |
@@ -673,7 +676,7 @@ Senesnės versijos Italijos kredito perkėlimų mokėjimo formatas.
 
 „Telehansa“ ir „Teleservice“ formatai naudojami banko mokėjimams eksportuoti.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                        |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito perkėlimo mokėjimo formatas, skirtas Estijai       |
@@ -684,7 +687,7 @@ Senesnės versijos Italijos kredito perkėlimų mokėjimo formatas.
 
 Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus sukurtus failus, įskaitant net anksčiau rašytus ar skaitytis failus.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeitė kita funkcija                                        |
 | **Pakeitė kita funkcija?**   | Taip, suarchyvuotos elektroninių ataskaitų užduotys                            |
@@ -695,7 +698,7 @@ Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus s
 
 „Telehansa“ ir „TeleTeenus“ formatai naudojami banko mokėjimams importuoti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                                                    |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 CAMT.054 banko pranešimų importavimas. |
@@ -706,10 +709,10 @@ Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus s
 
 Žmogiškųjų išteklių Algalapio informacija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė pagrindiniai puslapiai Algalapis ir Žmogiškieji ištekliai.  |
-| **Pakeitė kita funkcija?**   | **Išmokų**, **Pajamų** ir kiti susiję puslapiai, kurie anksčiau buvo JAV algalapyje, perkonfigūruoti ir dabar yra pagrindinės Žmogiškųjų išteklių konfigūracijos dalis, siekiant padėti teikti palaikymą išoriniam algalapių apdorojimui. Ši funkcija pasiekiama naudojant konfigūracijos raktą **1 žmogiškieji ištekliai** \> **Algalapis**. |
+| **Pakeitė kita funkcija?**   | **Išmokų** , **Pajamų** ir kiti susiję puslapiai, kurie anksčiau buvo JAV algalapyje, perkonfigūruoti ir dabar yra pagrindinės Žmogiškųjų išteklių konfigūracijos dalis, siekiant padėti teikti palaikymą išoriniam algalapių apdorojimui. Ši funkcija pasiekiama naudojant konfigūracijos raktą **1 žmogiškieji ištekliai** \> **Algalapis**. |
 | **Paveiktos produkto sritys**         | Žmogiškieji ištekliai, Algalapis   |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos.    |
 
@@ -717,7 +720,7 @@ Generuojant mokėjimo failus, failų archyvas automatiškai suarchyvuoja visus s
 
 Efektyvumo valdymas apima tikslų valdymą ir integravimą su efektyvumo apžvalgomis.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Efektyvumo valdymas buvo atnaujintas ir tikslo puslapių skaičius buvo sumažintas siekiant supaprastinti procesą.                 |
 | **Pakeitė kita funkcija?**   | Nr. Tikslus gali vadovai mato naudodami portalą Vadovų savitarna ir vadovas gali juos keisti bei peržiūrėti. |
@@ -728,7 +731,7 @@ Efektyvumo valdymas apima tikslų valdymą ir integravimą su efektyvumo apžval
 
 „Postgirot“ ir „Postgirot Utland“ mokėjimo formatai, skirti Švedijai.
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                        |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito perkėlimo mokėjimo formatas, skirtas Švedijai        |
@@ -739,7 +742,7 @@ Efektyvumo valdymas apima tikslų valdymą ir integravimą su efektyvumo apžval
 
 Radijo dažnio identifikavimas (RFID) yra duomenų surinkimo technologija, naudojanti elektronines žymes identifikavimo duomenims saugoti ir tiesioginio matymo skaitytuvą jiems gauti.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų ir ribotas funkcijų rinkinys.   |
 | **Pakeitė kita funkcija?**   | Nr.                                              |
@@ -750,7 +753,7 @@ Radijo dažnio identifikavimas (RFID) yra duomenų surinkimo technologija, naudo
 
 Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės. Ši funkcija suteikia galimybę pardavimo SF priskirti konkrečius numerius pagal vartotoją arba vartotojų grupę. Tada galima generuoti ataskaitą arba XML failą. Taip pat galite spausdinti naudojamų SF numerių ataskaitą.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Valstybinių SF numeravimo tvarkyti nebereikia. Anksčiau naudota SF numerių ataskaita nebereikalinga. |
 | **Pakeitė kita funkcija?**   | Nr.       |
@@ -761,7 +764,7 @@ Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės
 
 Įmonės vadovo ir vyriausiojo buhalterio vardus galima nurodyti įmonės informacijoje ir naudoti skirtinguose vietos ataskaitų spaudiniuose.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeitė kita funkcija                                     |
 | **Pakeitė kita funkcija?**   | Taip, tarnautojų nustatymo funkciją galima naudoti tais pačiais tikslais.   |
@@ -770,7 +773,7 @@ Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės
 
 ### <a name="shipping-carrier-interface"></a>Vežėjo sąsaja
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos   |
 | **Pakeitė kita funkcija?**   | Iš dalies pakeitė transportavimo valdymas |
@@ -781,7 +784,7 @@ Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės
 
 „Telepay“ mokėjimo formatai apima tiekėjo mokėjimo eksportavimą (kredito pervedimas) ir kliento mokėjimo surinkimą (tiesioginis debetas).
 
-|   |  |
+|&nbsp;   |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                                                        |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kreditų perkėlimo formatas ir „AvtaleGiro” kliento mokėjimo formatas, skirtas Norvegijai, taip pat pain.002 ir camt.054 banko pranešimų grąžinamų failų importavimas. |
@@ -792,7 +795,7 @@ Pagal Latvijos įstatymus galioja konkrečios pardavimo SF numeravimo taisyklės
 
 Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietiniams mokėjimams, o LUM2 (FI) naudojamas užsienio mokėjimams.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mokėjimo formatai nebenaudojami.                        |
 | **Pakeitė kita funkcija?**   | Taip, ISO20022 kredito perkėlimo mokėjimo formatas, skirtas Suomijai       |
@@ -801,10 +804,10 @@ Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietin
 
 ### <a name="warehouse-management-ii"></a>II sandėlio valdymas
 
-|   |  |
+|  &nbsp; |&nbsp;  |
 |------------|--------------------|
-| **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas**, dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas**, kuris buvo išleistas programoje „Dynamics AX 2012 R3“.                                                                         |
-| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas**, kuris buvo išleistas programoje „AX 2012 R3“, „Dynamics AX 2012 R3 CU8“ ir „Dynamics AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
+| **Nebenaudojimo / pašalinimo priežastis** | Sandėlio valdymo II sprendimas (WMS II), kuris buvo prieinamas modulyje **Atsargų valdymas** , dubliuoja funkcijas, kurios yra modulyje **Sandėlio valdymas** , kuris buvo išleistas programoje „Dynamics AX 2012 R3“.                                                                         |
+| **Pakeitė kita funkcija?**   | Modulis **Sandėlio valdymas** , kuris buvo išleistas programoje „AX 2012 R3“, „Dynamics AX 2012 R3 CU8“ ir „Dynamics AX 2012 R3 CU9“, pakeičia II sandėlio valdymo funkcijas. Naujasis modulis turi daugiau išplėstinių funkcijų ir lankstesnių sandėlio valdymo procesų nei tie, kurie buvo II sandėlio valdyme. |
 | **Paveiktos produkto sritys**         | Atsargų valdymas, Pardavimas ir rinkodara, Įsigijimas ir šaltinio parinkimas   |
 | **Būsena**                         | Pašalinta iš „Dynamics 365 for Operations“ 1611 versijos.    |
 
@@ -812,7 +815,7 @@ Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietin
 
 Žmogiškųjų išteklių Algalapio informacija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mažai naudojama                                                           |
 | **Pakeitė kita funkcija?**   | Nr.                                                                  |
@@ -823,7 +826,7 @@ Suomijai skirti du mokėjimų eksportavimo formatai. LM02 (FI) naudojamas vietin
 
 Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių darbo eigų, kurias buvo galima naudoti norint geriau koordinuoti efektyvumo valdymo procesą.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Finance and Operations“ efektyvumo valdymas buvo visiškai perkurtas.     |
 | **Pakeitė kita funkcija?**   | Perkurta efektyvumo valdymo funkcija suteikia galimybę geriau kontroliuoti tikslų turinį, matavimus, naudojamus eigai sekti, ir patvirtinamųjų dokumentų pridėjimą. Tikslai gali būti saugomi kaip šablonai ir naudojami pakartotinai. Naudodami šią funkciją galite greičiau nustatyti papildomus darbuotojų tikslus. |
@@ -835,7 +838,7 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="ability-to-cancel-changes-to-a-vendor-invoice"></a>Galimybė atšaukti tiekėjo SF pakeitimus
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Našumo padidinimas        |
 | **Pakeitė kita funkcija?**   | Nr.                             |
@@ -844,9 +847,9 @@ Darbo eiga, skirta darbuotojų tikslų kūrimui valdyti, yra viena iš kelių da
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF, AxD ir AxBC integracijos
 
-Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui*, kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
+Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis galima keistis naudojant verslo logiką, rodomą kaip paslaugas. „Dynamics AX“ apima paslaugas, paremtas dokumentais ir „.NET Business Connector“ (AxBC). Dokumentas sukuriamas naudojant XML. XML yra antraštės informacija, kuri pridedama sukurti *pranešimui* , kuris gali būti perkeliamas į „Dynamics AX“ arba iš jos. Dokumentų pavyzdžiai apima pardavimo užsakymus ir pirkimo užsakymus. Tačiau dokumentas gali atstoti beveik visus objektus, pvz., klientą. Paslaugos, paremtos dokumentais, naudoja **Axd \<Document\>** klases.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | AIF ir AxDs architektūros dydžio negalima keisti pagal debesies tarnybą. Atliekant masinį importą, buvo našumo problemų.                                        |
 | **Pakeitė kita funkcija?**   | Šią funkciją pakeitė Duomenų importavimo / eksportavimo sistema, kuri palaiko pasikartojantį masinį importavimą / eksportavimą. Su AxBC rekomenduojame naudoti faktines lenteles. |
@@ -857,7 +860,7 @@ Programos integravimo sistemoje (AIF) duomenimis su išorinėmis sistemomis gali
 
 Atsiskaitymo scenarijai buvo naudojami atsiskaitymo kodų atsiskaitymo tarifams apskaičiuoti. Šiems scenarijams reikėjo pasirinktinio kodo „C Sharp“ arba „Visual Basic“ programavimo kalba. Dabartinėje „Dynamics AX“ versijoje **atsiskaitymo kodų tarifų scenarijai** nėra palaikomi.
 
-|   |  |
+| &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pasirinktinių „C Sharp“ arba „Visual Basic“ scenarijų palaikymas į „Dynamics AX 7.0“ nebuvo įtrauktas. |
 | **Pakeitė kita funkcija?**   | Ne                                                                                      |
@@ -868,7 +871,7 @@ Atsiskaitymo scenarijai buvo naudojami atsiskaitymo kodų atsiskaitymo tarifams 
 
 Kai **KS versijų** konfigūracijos raktas buvo išjungtas, komplektavimo specifikacijų (KS) versijos buvo paslėptos visose formose, ir sistema tarp išleistų produktų ir KS priverstinai taikė ryšį 1:1. Dabartinėje „Dynamics AX“ versijoje konfigūracijos rakto **KS versijos** išjungti negalima.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naudojant konfigūracijos raktą KS versijoms kontroliuoti, dydžio keisti debesies aplinkoje negalima. |
 | **Pakeitė kita funkcija?**   | Nr.                                                                                      |
@@ -879,7 +882,7 @@ Kai **KS versijų** konfigūracijos raktas buvo išjungtas, komplektavimo specif
 
 Konkretus mokėjimo būdas, skirtas Brazilijos įmonėms
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Brazilijos „Bordero“ mokėjimo būdo lokalizavimas nebepalaikomas |
 | **Pakeitė kita funkcija?**   | Nr.   |
@@ -890,7 +893,7 @@ Konkretus mokėjimo būdas, skirtas Brazilijos įmonėms
 
 ICMS mokesčio federalinių mokesčių ataskaita
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šis išrašas kai kuriose Brazilijos apskrityse nebetaikomas. |
 | **Pakeitė kita funkcija?**   | Nr. Vartotojai gali naudoti įrankį Bendrosios elektroninės ataskaitos, norėdami konfigūruoti išrašą, jei to reikalaujama konkrečiose situacijose. |
@@ -901,7 +904,7 @@ ICMS mokesčio federalinių mokesčių ataskaita
 
 (SCAN) atsakomųjų priemonių režimas naudojamas norint generuoti, eksportuoti ir importuoti „Nota Fiscal eletrônica“ (NF-e) būseną, kai „Secretaria da Fazenda“ (SEFAZ) režimo naudoti negalima.
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šis atsakomųjų priemonių metodas nebetaikomas nė vienoje Brazilijos apskrityje |
 | **Pakeitė kita funkcija?**   | Nr.                                                                          |
@@ -912,7 +915,7 @@ ICMS mokesčio federalinių mokesčių ataskaita
 
 Ši mobilioji programa naudotojams leidžia peržiūrėti pagrindinę verslo metriką.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė kita funkcija.   |
 | **Pakeitė kita funkcija?**   | „Microsoft Power BI“ turinio pakete Stebėti finansinį našumą bus įtraukta pagrindinė finansų metrika, kuri anksčiau buvo prieinama programoje „Business Analyzer“. |
@@ -923,7 +926,7 @@ ICMS mokesčio federalinių mokesčių ataskaita
 
 Verslo statistikos užklausų, galinčių padėti analizuoti organizacijos efektyvumą, sąranka
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Senesnės verslo įžvalgų (BI) versijos, mažas klientų naudojimas ir ribotas funkcijų rinkinys |
 | **Pakeitė kita funkcija?**   | Nauji dabartinės „Dynamics AX“ versijos BI sprendimai                                      |
@@ -932,7 +935,7 @@ Verslo statistikos užklausų, galinčių padėti analizuoti organizacijos efekt
 
 ### <a name="change-document-date-function-in-invoice-approval-journal"></a>Keisti dokumento datos funkciją SF patvirtinimo žurnale
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mažai naudojama                                                               |
 | **Pakeitė kita funkcija?**   | Taip. Užregistruotos tiekėjo operacijos dokumento datą galima keisti. |
@@ -941,7 +944,7 @@ Verslo statistikos užklausų, galinčių padėti analizuoti organizacijos efekt
 
 ### <a name="clieop03-payment-format-for-the-netherlands"></a>Nyderlandų mokėjimo formatas ClieOp03
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Formatas Nyderlanduose nebetaikomas, nes jį pakeitė (SEPA) funkcija. |
 | **Pakeitė kita funkcija?**   | SEPA mokėjimų eksportas  |
@@ -952,7 +955,7 @@ Verslo statistikos užklausų, galinčių padėti analizuoti organizacijos efekt
 
 Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties iniciatyvų, susijusių su Sarbanes-Oxley įstatymu, dokumentų reikalavimams.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų. „Microsoft SharePoint“ apima tuos pačius pajėgumus, kurie buvo prieinami atitikties centre. |
 | **Pakeitė kita funkcija?**   | Nr.   |
@@ -963,7 +966,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 Šis įrankis buvo naudojamas integruoti pagrindiniams duomenims iš „Microsoft Dynamics CRM“ į „Dynamics ERP“ programas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė kita funkcija. |
 | **Pakeitė kita funkcija?**   | Common Data Service                                      |
@@ -972,7 +975,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 ### <a name="container-unit-and-multi-dimension-on-hand"></a>Turimas konteinerių vienetas ir kelios dimensijos
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos |
 | **Pakeitė kita funkcija?**   | Taip. Nuo „AX 2012“ šią funkciją pakeitė konsoliduotųjų paketinius užsakymų funkcijų rinkinys. Šis funkcijų rinkinys apima konsoliduotąjį turimų objektų rodinį. |
@@ -981,7 +984,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 ### <a name="cue-group-metadata"></a>Eilių grupės metaduomenys
 
-|   |  |
+|  &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Eilių grupės buvo naudojamos rodyti vienai ar kelioms Eilėms „FactBox‟ srityje. Naudojimas buvo ribotas, taip pat buvo našumo klausimų, kadangi pirminės formos įrašo pakeitimas lėmė vieną Eilės užklausą Eilių grupėje. |
 | **Pakeitė kita funkcija?**   | Nr.      |
@@ -990,7 +993,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 ### <a name="cue-metadata"></a>Eilių metaduomenys
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Eilių metaduomenys buvo apriboti skaičių ar sumos informacija.    |
 | **Pakeitė kita funkcija?**   | Plytelių metaduomenys buvo įdiegti siekiant suteikti daugiau modeliavimo lankstumo. Pavyzdžiui, galite modeliuoti dabartinius skaičiavimus, naršymą ir pagrindinius našumo indikatorius (KPI). Skaičiavimo plytelių metaduomenys tiesiogiai pakeičia Eilių metaduomenis. |
@@ -999,7 +1002,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 ### <a name="danish-check-format"></a>Daniška čekio forma
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Danijos čekio formato maketo palaikymas nutrauktas, o ataskaita pašalinta iš DK lokalizacijos. |
 | **Pakeitė kita funkcija?**   | Nr.    |
@@ -1010,7 +1013,7 @@ Atitikties centras buvo įmonės portalo svetainė, skirta valdyti atitikties in
 
 Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Dynamics AX“ duomenų bazėje.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Duomenų skaidiniai pristatyti „Dynamics AX 2012 R2“, kad būtų galima duomenis atskirti. Įprastu scenarijumi įmonė turi dukterinių įmonių ir vienos dukterinės įmonės duomenų kita dukterinė įmonė neturėtų matyti, nors abi dukterinės įmonės valdomos to paties IT skyriaus. Tačiau visoje programoje buvo reikalingi papildomi scenarijai ir pridėtinės valdymo išlaidos, siekiant sukurti naujus skaidinius ir užpildyti juos duomenimis bei sukurti skaidinio duomenų atsarginę kopiją. Debesyje teikiama prieiga prie paslauginės platformos duomenų bazės tarnybų („Microsoft Azure“ SQL duomenų bazės), todėl tai yra daug efektyvesnis būdas duomenų bazę naudoti kaip atskirtą konteinerį negu atskyrimą atlikti programoje. Nesvarbu, ar duomenų skaidymas reikalingas filialams, keliems nuomotojams, ar tiesiog dėl masto, manome, kad scenarijus galima tvarkyti geriau naudojant kelis „Finance and Operations“ egzempliorius. |
 | **Pakeitė kita funkcija?**   | Klientai, naudojantys duomenų skaidinius, turi naudoti kelis „Finance and Operations“ egzempliorius, jei duomenų bazės lygių atskyrimas yra didelė problema.    |
@@ -1022,7 +1025,7 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Dynamics AX“ du
 
 „Dynamics AX 2012“ leidžiamas priedų saugyklos duomenų bazėje ir bendrai naudojamuose failuose kiekis. Abejos parinktys nebepalaikomos.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Bendrai naudojamų failų saugykla nebepalaikoma, nes aplinkos diegimo debesyje įrankis nesusijungia su vietiniais bendrai naudojamais failais. Duomenų bazė nebenaudojama „Azure“ didelių dvejetainių objektų saugyklos naudai. „Azure“ didelių dvejetainių objektų saugykla yra tokia pati kaip ir duomenų bazės saugykla, nes dokumentus galima pasiekti tik per „Finance and Operations“ kliento formas. Tai tarnauja kaip papildomas pranašumas teikiant saugyklą, neturinčią neigiamo poveikio duomenų bazės efektyvumui. Didelių dvejetainių objektų saugykla yra numatytoji dokumentų valdymo mechanizmo saugykla ir veikia nedelsiant. |
 | **Pakeitė kita funkcija?**   | Duomenų bazė nebenaudojama „Azure“ didelių dvejetainių objektų saugyklos naudai.   |
@@ -1031,7 +1034,7 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Dynamics AX“ du
 
 ### <a name="delimitation"></a>Apribojimas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcijomis nesinaudota. |
 | **Pakeitė kita funkcija?**   | Nr.                                     |
@@ -1040,7 +1043,7 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Dynamics AX“ du
 
 ### <a name="desktop-client"></a>Darbalaukio klientas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Dynamics AX“ kliento patirtis perkurta, siekiant pagerinti naudojimą keliose platformose ir įrenginiuose.                      |
 | **Pakeitė kita funkcija?**   | Naujasis žiniatinklio klientas paremtas darbalaukio formos metaduomenimis ir programavimo modeliu, kurie modifikuoti siekiant suteikti turiningą žiniatinklio platformą. |
@@ -1051,7 +1054,7 @@ Naudojant duomenų skaidinius duomenys logiškai suskaidomi „Dynamics AX“ du
 
 Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai prisijungti prie kanalo duomenų bazės panašiai kaip įmonės EKA. Tai yra papildomas ryšio metodas, teikiamas kartu su standartiniu „Retail Modern POS“ ryšio per „Retail Server“ metodu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Tiesioginiam duomenų bazės ryšiui reikia žemesnio lygio saugos protokolų ir jis daugiausia buvo naudojamas siekiant aukščiausio lygio efektyvumo. Dėl „Finance and Operations‟ įdiegtų efektyvumo ir saugos patobulinimų dabar ši funkcija sukelia daugiau problemų, negu jų išsprendžia. |
 | **Pakeitė kita funkcija?**   | Nr. Dabar palaikomas tik standartinis „Retail Server“ ryšys.  |
@@ -1060,7 +1063,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 ### <a name="dutch-swift-mt940"></a>Nyderlandų SWIFT MT940
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Vietoj lokalizuotų funkcijų dabar naudojamos bendrosios funkcijos.                    |
 | **Pakeitė kita funkcija?**   | Taip, šią funkciją pakeitė funkcija Išplėstinis banko suderinimas. |
@@ -1071,7 +1074,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 Ši funkcija teikė išplėstinės verslo ataskaitų kalbos (XBRL) išeigą, kuri skirta konkrečiai Vokietijos „eBilanz‟ taksonomijai.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų  |
 | **Pakeitė kita funkcija?**   | Ši funkcija nėra pakeista kita funkcija, o Vokietijos rinkai prieinami keli specializuoti XBRL paketai, kurie teikia XBRL funkcijas. |
@@ -1080,7 +1083,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 ### <a name="enterprise-portal-client"></a>Įmonės portalo klientas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Suteikta viena kliento platforma.  |
 | **Pakeitė kita funkcija?**   | Naujasis žiniatinklio klientas paremtas darbalaukio formos metaduomenimis ir programavimo modeliu, kurie modifikuoti siekiant suteikti turiningą žiniatinklio platformą. |
@@ -1089,7 +1092,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 ### <a name="environmental-sustainability"></a>Aplinkos tvarumas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų ir ribotas funkcijų rinkinys  |
 | **Pakeitė kita funkcija?**   | Nr.              |
@@ -1098,7 +1101,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 ### <a name="form-activex-and-managed-host-controls"></a>Forma „ActiveX‟ ir Tvarkomo pagrindinio kompiuterio valdikliai
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „ActiveX‟ ir Tvarkomo pagrindinio kompiuterio valdikliai paremti pasenusiu darbalaukio klientu. |
 | **Pakeitė kita funkcija?**   | Išplečiamoji valdymo sistema palaiko naujų valdiklių, paremtų HTML, CSS ir „JavaScript“, kūrimą ir yra aukščiausios klasės valdiklis „Microsoft Visual Studio“ įrankių aplinkoje. |
@@ -1109,7 +1112,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Modern POS“ gali tiesiogiai pri
 
 Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį vis dar gali atlikti naudotojas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Nėra jokios formos, kurioje išliktų ir būtų rodomas gautas išankstinis pranešimas, kai jis generuojamas naudojant paketą. |
 | **Pakeitė kita funkcija?**   | Išankstiniai pranešimai vis dar gali būti generuojami, ir naudotojas gali kontroliuoti vietą, kur failas įrašomas.   |
@@ -1118,7 +1121,7 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 
 ### <a name="german-dtaus-payment-export-and-account-statement-import-totals-and-transactions"></a>Vokietijos DTAUS mokėjimo eksportas ir sąskaitos išrašo importas (bendrosios sumos ir operacijos)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Formatas Vokietijoje nebetaikomas, nes jį pakeitė bendros mokėjimų eurais erdvės (SEPA) funkcija.                    |
 | **Pakeitė kita funkcija?**   | Taip, šią funkciją pakeitė SEPA mokėjimo eksportavimo ir išplėstinio banko suderinimo funkcija, skirta importuoti sąskaitų išrašams. |
@@ -1127,7 +1130,7 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 
 ### <a name="german-dtazv-payment-format-in-domestic-currency"></a>Vokietijos DTAZV mokėjimo formatas nacionaline valiuta
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Formatas Vokietijoje nebetaikomas, nes jį pakeitė (SEPA) funkcija. |
 | **Pakeitė kita funkcija?**   | SEPA mokėjimų eksportas    |
@@ -1136,7 +1139,7 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 
 ### <a name="german-mt940-import"></a>Vokietijos MT940 importas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Vietoj lokalizuotų funkcijų dabar naudojamos bendrosios funkcijos.                    |
 | **Pakeitė kita funkcija?**   | Taip, šią funkciją pakeitė funkcija Išplėstinis banko suderinimas. |
@@ -1145,7 +1148,7 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 
 ### <a name="german-xml-eu-sales-list"></a>Vokietijos XML ES pardavimo sąrašas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | XML formatas, skirtas Vokietijos ES pardavimo sąrašo ataskaitoms, nebepalaikomas. Galima naudoti tik ELMA5 teksto failo formatą, ES pardavimo sąrašo ataskaitai pateikti Vokietijos mokesčių inspekcijai. |
 | **Pakeitė kita funkcija?**   | Nr.         |
@@ -1154,18 +1157,18 @@ Išankstinių pranešimų generavimo negalima atlikti naudojant paketą, bet jį
 
 ### <a name="gl-ssrs-reports"></a>DK SSRS ataskaitos
 
-Ataskaitos, kurios apima šiuos meniu elementus, pašalintos: **Bandomojo balanso suvestinė**, **Išsamus bandomasis balansas**, **Sąskaitų planas**, **Audito sekimas**, **Balansai** ir **Balansų sąrašas**.
+Ataskaitos, kurios apima šiuos meniu elementus, pašalintos: **Bandomojo balanso suvestinė** , **Išsamus bandomasis balansas** , **Sąskaitų planas** , **Audito sekimas** , **Balansai** ir **Balansų sąrašas**.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Finansines „Microsoft SQL Server“ serverio ataskaitų tarnybų (SSRS) ataskaitas pakeitė „Management Reporter“ galimybės ir numatytosios ataskaitos. |
-| **Pakeitė kita funkcija?**   | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta **Finansinės ataskaitos**)    |
+| **Pakeitė kita funkcija?**   | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta **Finansinės ataskaitos** )    |
 | **Paveiktos produkto sritys**         | Didžioji knyga   |
 | **Būsena**                         | Pašalinta iš „Dynamics AX 7.0“.   |
 
 ### <a name="infopart-and-formpart-metadata"></a>„InfoPart‟ ir „FormPart‟ metaduomenys
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „InfoPart‟ ir „FormPart‟ metaduomenys įgalino „FactBox‟ kūrimą dviem skirtingiems klientams. |
 | **Pakeitė kita funkcija?**   | „InfoPart‟ metaduomenys, kurie buvo supaprastinta formos apibrėžtis, konvertuojami į formą naudojant naujinimo įrankius. „FormPart‟ metaduomenis, kurie nurodė į formą, pakeičia labiau tiesioginė nuoroda, kuri sukurta naudojant naujinimo įrankius. |
@@ -1176,7 +1179,7 @@ Ataskaitos, kurios apima šiuos meniu elementus, pašalintos: **Bandomojo balans
 
 Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Balanso informacija pagal sąskaitą ir dimensiją prieinama **Bandomojo balanso** sąrašo puslapyje.  |
 | **Pakeitė kita funkcija?**   | **Pagrindinėse sąskaitose** yra tas pats sąskaitų sąrašas, kuris buvo **Pagrindinės sąskaitos** sąrašo puslapyje. **Pagrindinių sąskaitų** tinklelio rodinyje taip pat rodomas dar mažesnis, tinklelio vaizdas. |
@@ -1187,7 +1190,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 
 Ši funkcija naudotojui leidžia spausdinti pinigų srauto ataskaitą, kurioje rodomos pasirinktų banko sąskaitų operacijos ir išsami pinigų įplaukų bei išmokų informacija tam tikru laikotarpiu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Tą pačią informaciją galima gauti iš Užklausos apie banko operaciją. |
 | **Pakeitė kita funkcija?**   | Užklausa apie banko operaciją                                            |
@@ -1198,7 +1201,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 
 Ši funkcija leido generuoti Meksikos elektronines SF naudojant „Comprobante Fiscal Digital‟ (CFD) metodą, kai įmonė pasirašo SF reikalaudama susijusio autorizavimo iš vyriausybės. Ši funkcija taip pat pateikia mėnesio ataskaitą, kurioje įtrauktos visos elektroninės SF, išduotos tuo laikotarpiu.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šis metodas nebetaikomas. Elektroninių sąskaitų faktūrų generavimas naudojant CFD metodą nebenaudojamas, nes mokesčių institucijos jį pakeitė Comprobante Fiscal Digital a través de Internet (CFDI) metodu, kuriuo pasirašymas perduodamas trečiosios šalies teikėjui (PAC). Mėnesio ataskaita pašalinta, o užklausos parinktis naudotojams leidžia paklausti apie praeities operacijas. |
 | **Pakeitė kita funkcija?**   | Nr.    |
@@ -1209,7 +1212,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 
 „Dynamics AX 2012“ nesumokėtą pridėtinės vertės mokestį (PVM) valdė naudodama tik Meksikai skirtas nesumokėto mokesčio funkcijas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Besidubliuojančios funkcijos  |
 | **Pakeitė kita funkcija?**   | Taip, šią funkciją pakeitė standartinė sąlyginio PVM funkcija, kurią teikia „Core‟. |
@@ -1219,7 +1222,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 ### <a name="microsoft-outlook-integration"></a>„Microsoft Outlook“ integravimas
 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Šią funkciją pakeitė „Microsoft Exchange Server“ integracija. |
 | **Pakeitė kita funkcija?**   | Taip                                                                            |
@@ -1230,7 +1233,7 @@ Juridinio subjekto sąskaitų ir susijusios balanso informacijos sąrašas
 
 Atsargų ir sandėlio žurnalai nebepalaiko galimybės pasirinkto naudotojo žurnalą pažymėti kaip privatų. Palaikomas tik naudotojų grupių privačių žurnalų blokavimo procesas ir blokavimas redaguojant.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Funkcijomis nesinaudota. |
 | **Pakeitė kita funkcija?**   | Nr.                                     |
@@ -1241,7 +1244,7 @@ Atsargų ir sandėlio žurnalai nebepalaiko galimybės pasirinkto naudotojo žur
 
 Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš pardavimo užsakymo, pirkimo užsakymo, gamybos užsakymo, pardavimo pasiūlymo, projekto pasiūlymo ar prekės reikalavimo. Pagal produkto modelį, turintį modeliavimo kintamųjų, naudotojas galėdavo pasirinkti reikšmes, kurios atitikdavo kliento reikalavimus ir gauti unikalų produkto variantą, turintį KS ir maršrutą.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Produkto generatorius X++ kodą rodydavo galutiniams naudotojams ir dabartinėje „Dynamics AX“ versijoje nėra palaikomas. Jis pašalintas siekiant išvengti besidubliuojančių priežiūros darbų sutampančiose, keičiamo dydio kodų bazėse.  |
 | **Pakeitė kita funkcija?**   | Taip. Konfigūravimas pagal apribojimus buvo pristatytas ir įtrauktas į „Dynamics AX 2012“, kai jau buvo paskelbta, kad produkto generatorius būsimose versijose nebebus naudojamas. Konfigūravimo pagal apribojimus technologija pasirenkama bendruosiuose produktuose, siekiant įjungti konfigūraciją. Norėdami sužinoti daugiau, žr. [Produkto konfigūracijos modelio apžvalga](../../../supply-chain/pim/build-product-configuration-model.md). |
@@ -1251,7 +1254,7 @@ Produkto generatorius buvo naudojamas dinamiškai konfigūruoti prekėms iš par
 ### <a name="production-floor-app"></a>Gamybos vietos programa
 Tai programa, skirta planšetiniams įrenginiams, kuriuose veikia „Windows 8.1 RT“ ir „Windows 8.1 Pro“.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Pakeitus žiniatinklio klientą, panašias funkcijas galima teikti naudojant vietinę „Dynamics AX 7.0“ kliento programą. Užduoties kortelės įrenginyje pateikiama gamybos vietos vartotojo sąsaja, kuri optimizuota lietimui, o jos išvaizda pritaikyta prie planšetinių kompiuterių. |
 | **Pakeitė kita funkcija?**   | Taip. Užduoties kortelės įrenginys, kuris yra „Dynamics AX 7.0“ vietinė dalis.                                                                           |
@@ -1263,7 +1266,7 @@ Tai programa, skirta planšetiniams įrenginiams, kuriuose veikia „Windows 8.1
 
 Ši funkcija leidžia pakeisti vienos iš trijų standartinių produktų dimensijų (dydžio, spalvos arba stiliaus) pavadinimą į tokį, kuris geriau tinka jūsų verslo poreikiams. Pervardijimas apėmė visas etiketes, kuriose buvo naudojamas produkto dimensijos pavadinimas.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Dabartinė „Dynamics AX“ versija nepalaiko etikečių keitimo vykdymo metu. |
 | **Pakeitė kita funkcija?**   | Nr.                                                                            |
@@ -1274,7 +1277,7 @@ Tai programa, skirta planšetiniams įrenginiams, kuriuose veikia „Windows 8.1
 
 Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojant HTTP ryšį (nesaugų). Tai buvo papildomas metodas, teikiamas kartu su standartiniu ryšiu naudojant HTTPS.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Dėl naujų saugos reikalavimuų dabar palaikomas tik saugus ryšys naudojant TLS 1.2 (arba naujesnę versiją, jei yra). Savitarnos diegimo programa automatiškai sukonfigūruos kompiuterį šiam ryšiui užmegzti. |
 | **Pakeitė kita funkcija?**   | Nr. Dabar palaikomas tik standartinis HTTPS ryšys. |
@@ -1283,7 +1286,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="role-center-pages"></a>Vaidmenų centrų puslapiai
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Vaidmenų centrų puslapiai buvo sukurti pasenusioje įmonės portalo platformoje, kurią dabartinėje „Dynamics AX“ versijoje pakeitė naujoji žiniatinklio kliento programa. |
 | **Pakeitė kita funkcija?**   | Naujasis Darbo srities formos modelis naudotojams pateikia į procesą orientuotą dizainą, kuris suteikia lengvą prieigą prie dažniausiai naudojamų užduočių tame procese.                       |
@@ -1292,7 +1295,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="sales-tax-jurisdictions"></a>PVM jurisdikcijos
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naudojo mažai klientų ir ribotas funkcijų rinkinys |
 | **Pakeitė kita funkcija?**   | Nr.                                           |
@@ -1303,7 +1306,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 „Sites Services“ leidžia kurti svetaines, išplečiančias jūsų verslo procesus į internetą be IT palaikymo.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Microsoft Azure“ infrastruktūra, kurią naudoja „Dynamics AX“, turi naujų galimybių, kurias galima naudoti vietoje jų (pvz., „Azure“ svetainės). |
 | **Pakeitė kita funkcija?**   | Nr.   |
@@ -1312,7 +1315,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="ssas-demand-forecasting-strategy"></a>SSAS poreikio prognozės strategija
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Naujoje debesies architektūroje funkcijos dizainas nepalaikomas. |
 | **Pakeitė kita funkcija?**   | „Azure“ mašininio mokymo poreikio prognozės strategija                           |
@@ -1321,7 +1324,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 ### <a name="vendor-invoice-pool-excluding-posting-details"></a>Tiekėjo SF telkinys be registravimo informacijos
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mažai naudotasi. Ši funkcija buvo pakeista SF žurnalu, kuriame yra darbo eigos funkcija. |
 | **Pakeitė kita funkcija?**   | SF žurnalo darbo eigos galimybės.     |
@@ -1333,7 +1336,7 @@ Programoje „Dynamics AX 2012 R3“ „Retail Server“ galėjo veikti naudojan
 
 Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtualių įmonių funkcija naudotojams leidžia nustatyti lenteles, kurias gali bendrai naudoti įmonių grupė. Funkcijos aprašo žr.: [Įmonių sąskaitos ir Virtualių įmonių sąskaitos](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). Funkcija veikia grupuodama lenteles į rinkinius, kurie yra priskiriami virtualioms įmonėms, kurios yra esamų „tikrų‟ įmonių grupės. Užklausos kuriamos taip, kad visos įmonės virtualioje įmonėje galėtų prieiti prie lentelių duomenų, susietų lentelių rinkiniuose.
 
-|   |  | 
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | - Prieš lentelėse saugant duomenis, reikia nustatyti virtualias įmones. Virtualias įmones pertvarkyti į esamą diegimą yra labai sunku.<br><br>- Kadangi dabartinėje „Dynamics AX“ versijoje buvo tiek daug duomenų normalizavimo, pasidarė sudėtinga sužinoti, ką įtraukti į lentelių rinkinius. Pvz., sunku žinoti, kurias lenteles bendrai naudoti. Taip pat reikia pridėti visas lenteles, į kurias nurodoma iš lentelių, esančių virtualioje įmonėje. Dėl lentelių normalizavimo net paprasti bendrieji duomenys, paskirstyti daugybėje lentelių, turi būti virtualios įmonės dalis. Bet kokia čia padaryta klaida sukels funkcinių problemų.<br><br>- Kai lentelė yra virtualios įmonės dalis, ji praranda informaciją apie duomenų šaltinį, ir įrašoma tik virtuali įmonė.   |
 | **Pakeitė kita funkcija?** | Kad lentelės būtų pasiekiamos iš visų įmonių, gali būti naudojamos visuotinės lentelės. Šiuo metu nėra pakeitimo. |   
@@ -1344,7 +1347,7 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 
 „Windows 8“ planšetinių kompiuterių programėlė turėdavo išlaidų pateikimo ir patvirtinimo funkciją.
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | „Finance and Operations“ suderinamas su planšetiniais kompiuteriais. Planšetinių kompiuterių programėlės nebereikia.    |
 | **Pakeitė kita funkcija?**   | Nr.          |
@@ -1353,16 +1356,16 @@ Virtualių įmonių funkcija programoje „Dynamics AX“ nebepalaikoma. Virtual
 
 ### <a name="workplanner"></a>Darbo planuotuvas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Nebenaudojimo / pašalinimo priežastis** | Mažai naudojama |
-| **Pakeitė kita funkcija?**   | Ne, bet puslapis **Šablono ryšys**, kuris atidaromas iš puslapio **Šablonų grupės**, palaiko tą patį verslo scenarijų kaip ir pasenęs puslapis **Darbo planuotuvas**. |
+| **Pakeitė kita funkcija?**   | Ne, bet puslapis **Šablono ryšys** , kuris atidaromas iš puslapio **Šablonų grupės** , palaiko tą patį verslo scenarijų kaip ir pasenęs puslapis **Darbo planuotuvas**. |
 | **Paveiktos produkto sritys**         | Laikas ir buvimas darbe     |
 | **Būsena**                         | Kodas bevyvo pašalintas. Tačiau forma JmgWorkPlanner nebuvo perkelta.    |
 
 ### <a name="x-financial-statements"></a>X++ finansinės ataskaitos
 
-|                                                 |                                                                                                          |
+| &nbsp;  | &nbsp; |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>Nebenaudojimo / pašalinimo priežastis</strong> |                         Šią funkciją pakeitė kita funkcija.                         |
 |  <strong>Pakeitė kita funkcija?</strong>  | „Management Reporter“ (dabartinėje „Dynamics AX“ versijoje pažymėta <strong>Finansinės ataskaitos</strong>) |

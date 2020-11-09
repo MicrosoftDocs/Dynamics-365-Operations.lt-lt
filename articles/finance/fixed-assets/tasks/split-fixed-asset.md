@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85ccf187e77faf338ac29452d823c3652b806a21
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
+ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138120"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4000298"
 ---
 # <a name="split-a-fixed-asset"></a>Ilgalaikio turto skaidymas
 
@@ -29,17 +29,20 @@ ms.locfileid: "3138120"
 
 Šioje temoje paaiškinta, kaip vienos turto knygos procentinę dalį padalinti naujai turto knygai. Jis naudoja vaidmenį Buhalteris ir USMF demonstracinius duomenis.
 
-
 ## <a name="create-a-new-fixed-asset"></a>Kurti naują ilgalaikį turtą
-1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Ilgalaikis turtas > Ilgalaikis turtas**.
+
+1. Naršymo srityje eikite į **Moduliai \> Ilgalaikis turtas \> Ilgalaikis turtas \> Ilgalaikis turtas**.
 2. Pasirinkite **Naujas**.
-3. Lauke **Ilgalaikio turto grupė** įveskite arba pasirinkite reikšmę. Pasižymėkite ilgalaikio turto numerį, kuris bus vėliau naudojamas skaidymo procese.  
+3. Lauke **Ilgalaikio turto grupė** įveskite arba pasirinkite reikšmę. Pasižymėkite ilgalaikio turto numerį, kuris bus vėliau naudojamas skaidymo procese.
 4. Lauke **Pavadinimas** įveskite reikšmę.
 5. Uždarykite formą.
 
 ## <a name="split-a-fixed-asset"></a>Ilgalaikio turto skaidymas
+
+Prieš suskaidant visiškai nusidėvusį turtą, turto knygos būseną reikia rankiniu būdu pakeisti iš **Uždaryta** į **Atidaryta**. Šis veiksmas būtinas, nes knygos būsena turi būti **Atidaryta** , jei turite užregistruoti turto operacijas (pvz., likvidavimo pardavimo). Pakeitę turto knygos būseną, atlikite toliau pateiktus veiksmus, norėdami skaidyti turtą.
+
 1. Sąraše raskite ir pasirinkite ilgalaikio turto, kurį norite skaidyti, nuorodą.
-2. Pasirinkite **Knygos**. Pasirinkite, kurią knygą padalinti naujajam turtui.  
+2. Pasirinkite **Knygos**. Pasirinkite, kurią knygą padalinti naujajam turtui.
 3. Pasirinkite **Funkcijos**.
 4. Pasirinkite **Skaidyti ilgalaikį turtą**.
 5. Lauke **Į ilgalaikį turtą** įveskite arba pasirinkite reikšmę.
@@ -50,13 +53,13 @@ ms.locfileid: "3138120"
 10. Pasirinkite **Gerai**.
 
 ## <a name="post-the-journal-transaction"></a>Registruoti žurnalo operaciją
-1. Naršymo srityje eikite į **Moduliai > Ilgalaikis turtas > Žurnalo įrašai > Ilgalaikio turto žurnalas**.
+
+1. Naršymo srityje eikite į **Moduliai \> Ilgalaikis turtas \> Žurnalo įrašai \> Ilgalaikio turto žurnalas**.
 2. Sąraše pasirinkite žurnalą, sukurtą skaidymo procesu.
 3. Pasirinkite **Eilutės**.
 
-    - Patikrinkite sukurtas žurnalo eilutes.  
-    - Sukuriama pradinio turto įsigijimo koregavimo operacija, kad būtų galima sumažinti reikšmę procentine dalimi, nurodyta skaidymo proceso metu.  
-    - Sukuriama tos pačios sumos naujojo turto įsigijimo operacija.  
+    - Patikrinkite sukurtas žurnalo eilutes.
+    - Sukuriama pradinio turto įsigijimo koregavimo operacija, kad būtų galima sumažinti reikšmę procentine dalimi, nurodyta skaidymo proceso metu.
+    - Sukuriama tos pačios sumos naujojo turto įsigijimo operacija.
 
 4. Pasirinkite **Registruoti**.
-

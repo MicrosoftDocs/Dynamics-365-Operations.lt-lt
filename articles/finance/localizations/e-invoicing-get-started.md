@@ -18,17 +18,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e7f58b8a449e056c4718ac6db30dcd0f0623d2a4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971477"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039851"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Darbo su elektroninių SF išrašymo priedu pradžia
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Šioje temoje pateikiama informacija, kuri padės jums pradėti naudotis elektroninių SF išrašymo priedu. Pirmiausia ši tema padės atlikti konfigūracijos veiksmus, esančius „Microsoft Dynamics Lifecycle Services” (LCS), „Regulatory Configuration Services” (RCS) ir „Dynamics 365 Finance”. Taip pat joje aprašytas dokumentų pateikimo per paslaugą naudojant „Dynamics 365 Finance” arba „Dynamics 365 Supply Chain Management” procesas. Taip pat sužinosite, kaip interpretuoti pateikimo žurnalus.
 
@@ -121,8 +120,8 @@ RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 
     ![„Key Vault” parametro pasirinkimas](media/e-invoicing-services-get-started-select-key-vault-parameters.png)
 
-5. Veiksmų srityje pasirinkite **Naujas**, norėdami įtraukti raktų saugyklą.
-6. Lauke **Raktų saugyklos URI** įveskite raktų saugyklos išteklių, kuriuos sukonfigūravote „Azure”, atributo reikšmę **DNS pavadinimas**. Informacijos apie tai, kur rasti reikšmę **DNS pavadinimas**, žr. [„Azure” saugyklos abonemento ir „Key Vault” kūrimas](e-invoicing-create-azure-storage-account-key-vault.md).
+5. Veiksmų srityje pasirinkite **Naujas** , norėdami įtraukti raktų saugyklą.
+6. Lauke **Raktų saugyklos URI** įveskite raktų saugyklos išteklių, kuriuos sukonfigūravote „Azure”, atributo reikšmę **DNS pavadinimas**. Informacijos apie tai, kur rasti reikšmę **DNS pavadinimas** , žr. [„Azure” saugyklos abonemento ir „Key Vault” kūrimas](e-invoicing-create-azure-storage-account-key-vault.md).
 
     ![„Key Vault” URI laukas](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
 
@@ -147,16 +146,16 @@ RCS nustatymo metu galėsite atlikti toliau pateiktas užduotis.
 Galite sukurti skirtingas elektroninių SF išrašymo priedo aplinkas, pvz., kūrimo, tikrinimo ar gamybos aplinkas.
 
 1. Darbo srities **Globalizacijos funkcijos** dalyje **Aplinkos** pasirinkite plytelę **El. SF išrašymas**.
-2. Pasirinkite **Nauja**, kad sukurtumėte aplinką.
+2. Pasirinkite **Nauja** , kad sukurtumėte aplinką.
 3. Lauke **Saugyklos SAS atpažinimo ženklo abonementas** įveskite raktų saugyklos slaptojo rakto, kurį sukonfigūravote RCS raktų saugykloje, pavadinimą.
 
     ![Laukas Saugyklos SAS atpažinimo ženklo abonementas](media/e-invoicing-services-get-started-enter-sas-token-secret.png)
 
-4. „FastTab” **Vartotojai** pasirinkite **Naujas**, kad suteiktumėte vartotojams prieigą prie šios aplinkos.
+4. „FastTab” **Vartotojai** pasirinkite **Naujas** , kad suteiktumėte vartotojams prieigą prie šios aplinkos.
 
     ![Paslaugos vartotojų įtraukimas](media/e-invoicing-services-get-started-enter-service-users.png)
 
-5. Veiksmų srityje pasirinkite **Publikuoti**, kad publikuotumėte aplinką elektroninių SF išrašymo priedo serveryje.
+5. Veiksmų srityje pasirinkite **Publikuoti** , kad publikuotumėte aplinką elektroninių SF išrašymo priedo serveryje.
 
     ![Mygtukas Publikuoti](media/e-invoicing-services-get-started-publish-service-environment.png)
 
@@ -206,7 +205,7 @@ Elektroninių SF integravimo funkcija įjungiama naudojant testavimą. Testavima
 
 Norėdami įgalinti verslo duomenis, kad jie būtų renkami ir siunčiami į elektroninių SF išrašymo priedą, turite importuoti ER duomenų modelį ir ER duomenų modelio konfigūraciją, susijusius su konkrečių šalių / regionų el. SF išrašymo funkcija, kurią norite naudoti.
 
-1. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus**, žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+1. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**. Įsitikinkite, kad šis konfigūracijos teikėjas nustatytas kaip **Aktyvus**. Daugiau informacijos apie tai, kaip nustatyti teikėją į **Aktyvus** , žr. [Konfigūracijų teikėjų kūrimas ir jų pažymėjimas kaip aktyviais](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Pasirinkite **Saugyklos**.
 4. Pasirinkite **Visuotiniai ištekliai** ir pasirinkite **Atidaryti**.
 5. Dialogo lange **Prisijungti prie „Lifecycle Services”** pasirinkite **Spustelėkite čia, kad prisijungtumėte prie „Lifecycle Services”**.
@@ -218,7 +217,7 @@ Norėdami įgalinti verslo duomenis, kad jie būtų renkami ir siunčiami į ele
 Norėdami įjungti konkrečių šalių / regionų el. SF išrašymo funkcijas, kad jos veiktų kartu su elektroninių SF išrašymo priedu, turite įjungti funkciją kiekviename juridiniame subjekte, kuriame norite ją naudoti. Po to seno elektroninių SF išrašymo integravimo nebebus galima naudoti, o integravimas su nauju elektroninių SF išrašymo priedu bus įjungtas.
 
 1. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
-2. Skirtuke **Funkcijos**, esančiame funkcijos, susijusios su jūsų konkrečių šalių / regionų el. SF išrašymo funkcija, stulpelyje, pažymėkite žymės langelį, esantį stulpelyje **Įjungta**. Daugiau informacijos apie tai, kurią funkciją turėtumėte įjungti, žr. konkrečių šalių / regionų temą „Darbo su elektroninių SF išrašymo priedu pradžia”.
+2. Skirtuke **Funkcijos** , esančiame funkcijos, susijusios su jūsų konkrečių šalių / regionų el. SF išrašymo funkcija, stulpelyje, pažymėkite žymės langelį, esantį stulpelyje **Įjungta**. Daugiau informacijos apie tai, kurią funkciją turėtumėte įjungti, žr. konkrečių šalių / regionų temą „Darbo su elektroninių SF išrašymo priedu pradžia”.
 
 ![Elektroninių SF išrašymo funkcijos įjungimas](media/e-invoicing-services-get-started-enable-invoicing-feature.png)
 
@@ -232,17 +231,17 @@ Jei pateiktą SF dokumentą reikia atnaujinti po pateikimo į vyriausybės autor
 1. Darbo srities **Elektroninės ataskaitos** dalyje **Konfigūracijų teikėjai** pasirinkite plytelę **„Microsoft”**.
 2. Pasirinkite **Saugyklos**.
 3. Pasirinkite **Visuotiniai ištekliai** ir pasirinkite **Atidaryti**.
-4. Importuokite **Atsakymo pranešimo modelis**, **Atsakymo pranešimo importavimo formatas**, **Atsakymo pranešimo modelio susiejimas su paskirties vieta** ir **Failo turinio importavimo formatas**.
+4. Importuokite **Atsakymo pranešimo modelis** , **Atsakymo pranešimo importavimo formatas** , **Atsakymo pranešimo modelio susiejimas su paskirties vieta** ir **Failo turinio importavimo formatas**.
 5. Eikite į **Organizacijos administravimas \> Nustatymas \> Elektroninių dokumentų parametrai**.
-6. Skirtuke **Elektroninis dokumentas** pasirinkite **Įtraukti**, kad įvestumėte lentelės, susijusios su jūsų konkrečių šalių / regionų SF dokumentu, pavadinimą. Daugiau informacijos apie tai, kuriuos lentelių pavadinimus pasirinkti, žr. konkrečių šalių / regionų temą „Darbo su elektroninių SF išrašymo priedu pradžia”.
-7. Pasirinkite **Atsakymų tipai**, kad sukonfigūruotumėte atsakymų tipus. Daugiau informacijos apie tai, kuriuos lentelių pavadinimus pasirinkti, žr. konkrečių šalių / regionų temą „Darbo su elektroninių SF išrašymo priedu pradžia”.
+6. Skirtuke **Elektroninis dokumentas** pasirinkite **Įtraukti** , kad įvestumėte lentelės, susijusios su jūsų konkrečių šalių / regionų SF dokumentu, pavadinimą. Daugiau informacijos apie tai, kuriuos lentelių pavadinimus pasirinkti, žr. konkrečių šalių / regionų temą „Darbo su elektroninių SF išrašymo priedu pradžia”.
+7. Pasirinkite **Atsakymų tipai** , kad sukonfigūruotumėte atsakymų tipus. Daugiau informacijos apie tai, kuriuos lentelių pavadinimus pasirinkti, žr. konkrečių šalių / regionų temą „Darbo su elektroninių SF išrašymo priedu pradžia”.
 
 ![Atsakymų tipų nustatymas](media/e-invoicing-services-get-started-set-up-response-types.png)
 
 ## <a name="e-invoicing-feature-names-by-country"></a>El. SF išrašymo funkcijų pavadinimai pagal šalį 
 Toliau pateiktoje lentelėje aprašomos kitos el. SF išrašymo funkcijos, kurias galima atsisiųsti iš elektroninių ataskaitų visuotinės saugyklos siekiant generuoti elektronines SF.
 RCS galite atsisiųsti toliau pateiktoje lentelėje nurodytas el. SF išrašymo funkcijas, ER konfigūracijas ir galimus el. SF išrašymo funkcijų nustatymus.
-„Finance” galite įjungti susijusias funkcijų nuorodas puslapyje **Elektroninių dokumentų parametrai**, kad būtų galima išduoti elektronines SF toliau pateiktoms šalims. Daugiau informacijos žr. šios temos ankstesniame skyriuje [Konkrečių šalių / regionų el. SF išrašymo funkcijų įjungimas](#region-specific).
+„Finance” galite įjungti susijusias funkcijų nuorodas puslapyje **Elektroninių dokumentų parametrai** , kad būtų galima išduoti elektronines SF toliau pateiktoms šalims. Daugiau informacijos žr. šios temos ankstesniame skyriuje [Konkrečių šalių / regionų el. SF išrašymo funkcijų įjungimas](#region-specific).
 
 | Funkcijos pavadinimas                      | aprašymas                                 | ER konfigūracijos                                                                                                  | Nustatymai                                                                                                                                                         | Šalis/regionas  | Funkcijos nuoroda      |
 |-----------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
@@ -278,19 +277,19 @@ Verslo dokumentus galite pateikti neautomatiniu būdu arba pagal jūsų grafiko 
 
 1. Eikite į **Organizacijos administravimas \> Laikotarpio \> Elektroniniai dokumentai \> Pateikti elektroninius dokumentus**.
 2. Pirmą kartą pateikę bet kokį dokumentą, visada nustatykite parinktį **Iš naujo pateikti dokumentus** į **Ne**. Jei turite iš naujo pateikti dokumentą naudodami paslaugą, nustatykite šią parinktį į **Taip**.
-3. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti**, kad būtų atidarytas dialogo langas **Užklausa**, kuriame galite kurti užklausą, norėdami pasirinkti dokumentus pateikimui.
+3. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti** , kad būtų atidarytas dialogo langas **Užklausa** , kuriame galite kurti užklausą, norėdami pasirinkti dokumentus pateikimui.
 
 ![Dialogo langas Pateikti elektroninius dokumentus](media/e-invoicing-services-get-started-submission-form.png)
 
 ### <a name="filter-query"></a>Filtro užklausa
 
-1. Dialogo lango **Užklausa** skirtuke **Diapazonas** įveskite filtro kriterijus, naudodami laukus **Lentelė**, **Išvestinė lentelė**, **Laukas** ir **Kriterijai**.
-2. Pasirinkite **Įtraukti**, norėdami įtraukti tiek papildomų kriterijų, kiek reikia verslo dokumentų pasirinkimui.
+1. Dialogo lango **Užklausa** skirtuke **Diapazonas** įveskite filtro kriterijus, naudodami laukus **Lentelė** , **Išvestinė lentelė** , **Laukas** ir **Kriterijai**.
+2. Pasirinkite **Įtraukti** , norėdami įtraukti tiek papildomų kriterijų, kiek reikia verslo dokumentų pasirinkimui.
 
     ![Pateikimo filtro kriterijų nustatymas](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
 
-3. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą **Užklausa**.
-4. Pasirinkite **Gerai**, norėdami pateikti pasirinktus verslo dokumentus elektroninių SF išrašymo priedui.
+3. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą **Užklausa**.
+4. Pasirinkite **Gerai** , norėdami pateikti pasirinktus verslo dokumentus elektroninių SF išrašymo priedui.
 
     > [!NOTE]
     > Pirmą kartą bandant pateikti dokumentą naudojant paslaugą, būsite paraginti patvirtinti ryšį su elektroninių SF išrašymo priedu. Pasirinkite **Spustelėkite čia, kad prisijungtumėte prie elektroninių dokumentų pateikimo paslaugos**.
@@ -325,7 +324,7 @@ Užuot pateikę dokumentus neautomatiniu būdu, galite automatizuoti pateikimo p
     ![Dokumento tipo pasirinkimas norint peržiūrėti pateikimo žurnalus](media/e-invoicing-services-get-started-select-document-type-for-viewing-submission-log.png)
 
     > [!IMPORTANT]
-    > Stulpelyje **Pateikimo būsena** rodoma reikšmė nurodo būseną, kuri susijusi su pateikimo proceso baigimu. Ji nurodo, ar veiksmų srautas, sukonfigūruotas RCS, buvo vykdomas iki pabaigos, neatsižvelgiant į tai, ar elektroninis dokumentas buvo patvirtintas ar atmestas. Stulpelyje **Pateikimo būsena** esanti reikšmė neatspindi pateikto dokumento būsenos. Pateikto dokumento būseną (t. y., ar dokumentas buvo patvirtintas, ar atmestas) galite peržiūrėti pateikimo žurnalo informacijos „FastTab” **Apdorojimo veiksmų žurnalas**, kaip aprašyta toliau.
+    > Stulpelyje **Pateikimo būsena** rodoma reikšmė nurodo būseną, kuri susijusi su pateikimo proceso baigimu. Ji nurodo, ar veiksmų srautas, sukonfigūruotas RCS, buvo vykdomas iki pabaigos, neatsižvelgiant į tai, ar elektroninis dokumentas buvo patvirtintas ar atmestas. Stulpelyje **Pateikimo būsena** esanti reikšmė neatspindi pateikto dokumento būsenos. Pateikto dokumento būseną (t. y., ar dokumentas buvo patvirtintas, ar atmestas) galite peržiūrėti pateikimo žurnalo informacijos „FastTab” **Apdorojimo veiksmų žurnalas** , kaip aprašyta toliau.
 
 3. Veiksmų srityje pasirinkite **Užklausos \> Pateikimo informacija**.
 4. Peržiūrėkite pateikimo žurnalo informaciją.
@@ -335,7 +334,7 @@ Užuot pateikę dokumentus neautomatiniu būdu, galite automatizuoti pateikimo p
 Rezultatai, rodomi pateikimo žurnale, priklauso nuo to, kaip el. SF išrašymo funkcija buvo nustatyta RCS. Tačiau, neatsižvelgiant į nustatymą, pateikimo žurnale visuomet yra trys toliau pateikti „FastTab”.
 
 - **Apdorojimo veiksmai** – šis „FastTab” nurodo veiksmų, sukonfigūruotų funkcijos versijoje, nustatytoje RCS, vykdymo žurnalą. Stulpelyje **Būsena** nurodoma, ar veiksmas sėkmingai įvykdytas.
-- **Veiksmų failai** – šis „FastTab” nurodo tarpinius failus, sugeneruotus veiksmų vykdymo metu. Galite pasirinkti **Peržiūrėti**, norėdami atsisiųsti failą ir peržiūrėti jo turinį.
+- **Veiksmų failai** – šis „FastTab” nurodo tarpinius failus, sugeneruotus veiksmų vykdymo metu. Galite pasirinkti **Peržiūrėti** , norėdami atsisiųsti failą ir peržiūrėti jo turinį.
 - **Apdorojimo veiksmų žurnalas** – šis „FastTab” nurodo ryšio tarp elektroninių SF išrašymo priedo ir tikslinės žiniatinklio tarnybos rezultatus. Taip pat rodoma, ką pateikė žiniatinklio tarnybos apdorojimas.
 
 ## <a name="related-topics"></a>Susijusios temos

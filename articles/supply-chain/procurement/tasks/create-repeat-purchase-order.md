@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b478e4cd5cf1eb88517bb923c377c6121d92fd0
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3204774"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018034"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Pasikartojančio pirkimo užsakymo kūrimas
 
@@ -43,9 +43,9 @@ ms.locfileid: "3204774"
     - Laukas **Invertuoti ženklą** taip pat palaiko užsakyto kiekio keitimą keičiant užsakymo eilučių, kurios buvo įtrauktos, kiekio ženklą. Tai gali būti naudinga, jei norite atšaukti operaciją, kurdami užsakymo eilutes, kurios paneigia operaciją. Ši parinktis automatiškai pasirenkama, kai puslapis atidaromas iš veiksmo **Kurti kredito pastabą**.  
     - Parinktis **Kopijuoti mokesčius** leidžia kopijuoti mokesčius į naują užsakymą iš dokumento, iš kurio kopijuojate užsakymo eilutes.  
     - Parinktis **Perskaičiuoti kainas** naudoja esamas kainas ir nuolaidas, o ne kopijuoja jas iš dokumento, iš kurio kopijuojate kitą informaciją.  
-    - Parinktis **Kopijuoti tiksliai** sukuria tikslią verčių visuose užsakymo dokumento antraštės ir eilučių laukuose kopijas. Jei ši parinktis nepasirinkta, daugelyje su tiekėju ir produktais susijusių laukų naudojamos numatytosios reikšmės – lyg kurtumėte naują užsakymą neautomatiniu būdu. Pvz., jei užsakymas, iš kurio kopijuojate, perrašė numatytąją tiekėjo SF sąskaitą, ta pati SF sąskaita bus kopijuojama į jūsų užsakymą. Jei nepažymėsite parinkties **Kopijuoti tiksliai**, jūsų užsakymui bus naudojama numatytoji tiekėjui skirta sąskaitos faktūros sąskaita.  
+    - Parinktis **Kopijuoti tiksliai** sukuria tikslią verčių visuose užsakymo dokumento antraštės ir eilučių laukuose kopijas. Jei ši parinktis nepasirinkta, daugelyje su tiekėju ir produktais susijusių laukų naudojamos numatytosios reikšmės – lyg kurtumėte naują užsakymą neautomatiniu būdu. Pvz., jei užsakymas, iš kurio kopijuojate, perrašė numatytąją tiekėjo SF sąskaitą, ta pati SF sąskaita bus kopijuojama į jūsų užsakymą. Jei nepažymėsite parinkties **Kopijuoti tiksliai** , jūsų užsakymui bus naudojama numatytoji tiekėjui skirta sąskaitos faktūros sąskaita.  
     - Parinktis **Naikinti pirkimo eilutes** panaikina visas pirkimo užsakymo eilutes, kurios jau yra pirkimo užsakyme, į kurį kopijuojate, prieš naudojant naujas eilutes. Naudokite šią parinktį atsargiai, nes ji be perspėjimo panaikina visas esamas eilutes.  
-    - Jei naudojate parinktį **Kopijuoti užsakymo antraštę**, nereikia rankiniu būdu sukurti naujo užsakymo antraštės informacijos. Atkreipkite dėmesį, kad naudojant šią parinktį su tiekėju susijusiuose laukuose bus naudojamos numatytosios reikšmės. Jei dokumente, iš kurio kopijuojate, įvestos ne numatytosios reikšmės, taip pat naudokite parinktį **Kopijuoti tiksliai**.   
+    - Jei naudojate parinktį **Kopijuoti užsakymo antraštę** , nereikia rankiniu būdu sukurti naujo užsakymo antraštės informacijos. Atkreipkite dėmesį, kad naudojant šią parinktį su tiekėju susijusiuose laukuose bus naudojamos numatytosios reikšmės. Jei dokumente, iš kurio kopijuojate, įvestos ne numatytosios reikšmės, taip pat naudokite parinktį **Kopijuoti tiksliai**.   
     - Galima kopijuoti iš skirtingų dokumentų šaltinių ir kiekvienam jų šiame puslapyje skirta atskira sekcija. Pavyzdžiui, skyriuje **Pirkimo užsakymai** galite kopijuoti iš esamų pirkimo užsakymų.  
 
 8. Skyriuje **Pirkimo užsakymai** pažymėkite eilutes, kurias norite nukopijuoti į mainų sritį. Taip pat galima pasirinkti papildomas pirkimo užsakymų eilutes iš kitų pirkimo užsakymų ir nukopijuoti juos į užsakymą. Taip pat galima įtraukti eilutes iš kitų tipų pirkimo dokumentų. Toliau pateiktuose keliuose veiksmuose apžvelgiamos skirtingos parinktys.  

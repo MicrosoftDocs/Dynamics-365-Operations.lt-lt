@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: dce4b6310e2f6d31a115302efa7fbc132799e48f
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829290"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997679"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Konvertavimo nustatymas pardavimo užsakymo būsenos laukams
 
@@ -45,7 +44,7 @@ Laukai, kurie nurodo pardavimo užsakymo būseną, turi skirtingas išvardijimo 
 - Išrašyta SF
 - Atšaukta
 
-**Dokumento būsenos** išvardijimas nurodo vėliausią dokumentą, sugeneruotą užsakymui. Pavyzdžiui, jei užsakymas patvirtintas, šis dokumentas yra pardavimo užsakymo patvirtinimas. Jei pardavimo užsakymas yra dalinai išrašyta SF, o tada likusi eilutė patvirtinama, dokumento būsena lieka **SF**, nes vėliau vykstančiame procese SF sugeneruojama.
+**Dokumento būsenos** išvardijimas nurodo vėliausią dokumentą, sugeneruotą užsakymui. Pavyzdžiui, jei užsakymas patvirtintas, šis dokumentas yra pardavimo užsakymo patvirtinimas. Jei pardavimo užsakymas yra dalinai išrašyta SF, o tada likusi eilutė patvirtinama, dokumento būsena lieka **SF** , nes vėliau vykstančiame procese SF sugeneruojama.
 
 **Dokumento būsenos** išvardijimas turi šias reikšmes:
 
@@ -130,7 +129,7 @@ Norėdami įgalinti **IsSOPIntegravimasĮjungtas** atributą, atlikite toliau pa
 
 Norėdami įgalinti **isVartotojoIntegravimas** atributą, atlikite toliau pateiktus veiksmus.
 
-1. Dalyje Pardavimai eikite į **Parametras \> Tinkinimas \> Tinkinti sistemą**, pasirinkite **Vartotojo objektas** ir tada atidarykite **Forma \> Vartotojas**.
+1. Dalyje Pardavimai eikite į **Parametras \> Tinkinimas \> Tinkinti sistemą** , pasirinkite **Vartotojo objektas** ir tada atidarykite **Forma \> Vartotojas**.
 
     ![Vartotojo formos atidarymas](media/sales-map-user.png)
 

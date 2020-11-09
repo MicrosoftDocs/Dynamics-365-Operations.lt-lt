@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFSystemDirectedWorkSequenceQuery, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 2884c480d20090266f7cffb5e7d0aca58c1174f0
-ms.sourcegitcommit: edb46dce498df42b09e8f5ad6de00f86c8022dfa
+ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "3534855"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017034"
 ---
 # <a name="system-directed-work-sequencing"></a>Sistemos nurodyta darbo seka
 
@@ -129,7 +130,7 @@ Norėdami dirbti su scenarijumi naudojant šioje temoje pristatytas reikšmes, t
     - **Kriterijai:** *!ETAPAS*
 
         > [!IMPORTANT]
-        > Įsitikinkite, kad šauktukas (*!*) yra prieš *ETAPĄ*.
+        > Įsitikinkite, kad šauktukas ( *!* ) yra prieš *ETAPĄ*.
 
 1. Pasirinkite **Gerai** norėdami išsaugoti ir uždaryti užklausą.
 1. Pasirinkite **Įrašyti**.
@@ -173,7 +174,7 @@ Tada išleisite kiekvieną pardavimo užsakymą į sandėlį siuntimo darbui suk
     - „FastTab” skirtuke **Klientas** lauką **Kliento paskyra** nustatykite į *US–004*.
     - Skirtuke **Bendra** lauką **Sandėlis** nustatykite į *51*.
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
 1. Įtraukite eilutę į naują pardavimo užsakymą ir nustatykite šias reikšmes:
 
     - **Prekės numeris:** *M9200*
@@ -194,7 +195,7 @@ Tada išleisite kiekvieną pardavimo užsakymą į sandėlį siuntimo darbui suk
     - **Kliento sąskaita:** *US-007*
     - **Sandėlis:** *51*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
 1. Įtraukite eilutę į naują pardavimo užsakymą ir nustatykite šias reikšmes:
 
     - **Prekės numeris:** *M9200*
@@ -216,7 +217,7 @@ Tada išleisite kiekvieną pardavimo užsakymą į sandėlį siuntimo darbui suk
     - **Kliento sąskaita:** *US-009*
     - **Sandėlis:** *51*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
 1. Įtraukite eilutę į naują pardavimo užsakymą ir nustatykite šias reikšmes:
 
     - **Prekės numeris:** *M9200*
@@ -238,7 +239,7 @@ Tada išleisite kiekvieną pardavimo užsakymą į sandėlį siuntimo darbui suk
     - **Kliento sąskaita:** *US-010*
     - **Sandėlis:** *51*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą. Pasižymėkite pardavimo užsakymo numerį.
 1. Įtraukite eilutę į naują pardavimo užsakymą ir nustatykite šias reikšmes:
 
     - **Prekės numeris:** *M9200*

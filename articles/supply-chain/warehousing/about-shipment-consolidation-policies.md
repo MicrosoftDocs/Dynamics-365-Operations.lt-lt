@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,16 +16,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 4afa037ce9e446402128e4908a61ed32a30ebd59
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016360"
 ---
 # <a name="shipment-consolidation-policies"></a>Siuntos konsolidacijos strategijos
 
-Siuntos konsolidacijos procesas, naudojantis siuntos konsolidacijos strategijas, sudaro galimybę automatizuotai siuntos konsolidacijai automatizuoto ir rankinio paleidimo į sandėlį metu. Automatizuota konsolidacija, kuri buvo prieinama iki šios funkcijos įvedimo, turėjo užprogramuotų laukų ir buvo pagrįsta lauku **Konsoliduoti siuntą išleidžiant ją į sandėlį**, nustatytu sandėliui.
+Siuntos konsolidacijos procesas, naudojantis siuntos konsolidacijos strategijas, sudaro galimybę automatizuotai siuntos konsolidacijai automatizuoto ir rankinio paleidimo į sandėlį metu. Automatizuota konsolidacija, kuri buvo prieinama iki šios funkcijos įvedimo, turėjo užprogramuotų laukų ir buvo pagrįsta lauku **Konsoliduoti siuntą išleidžiant ją į sandėlį** , nustatytu sandėliui.
 
 Siuntos konsolidacijos strategijos naudojamos tolesnėms funkcijoms.
 
@@ -37,15 +37,15 @@ Siuntos konsolidacijos strategijos naudojamos tolesnėms funkcijoms.
 
 Prieš įvedant siuntos konsolidacijos strategijas, konsolidacijos funkcija egzistavo kaip parametras sandėlio lygiu. Visi visų vieno sandėlio klientų užsakymai buvo laikomi taip, tarsi jiems būtų taikomi tokie patys konsolidacijos reikalavimai. Siuntos konsolidacijos strategijos įtraukia scenarijų, kuriuose skirtingoms organizacijoms taikomi skirtingi siuntos konsolidacijos reikalavimai, palaikymą.
 
-Užklausos naudojamos norint nustatyti taikomą siuntos konsolidacijos strategiją, o tada redaguojamas laukų rinkinys nurodo, kaip krovinio eilutės sugrupuojamos siuntos lygiu. (Šis šablonas panašus į šabloną, pagal kurį veikia bangos šablonai.) Be to, į kiekvieną strategiją įtraukta parinktis **Konsoliduoti su esamomis siuntomis**. Įjungus šią parinktį, procedūra *Išleisti į sandėlį* randa siuntas konsolidavimui ieškodama esamose siuntose, sukurtose pagal tą pačią konsolidacijos strategiją. Tokiu atveju sistema pasirinks esamą siuntą arba krovinį, o ne kurs naują. Tačiau sistema vykdys konsolidaciją tik su esamomis siuntomis, kurių būsena yra *Atvira*; siuntos, kurios priklauso bangos išleidimui ir kurių būsena yra *Išleista* arba aukštesnė, nebus laikomos konsolidacijos tikslais.
+Užklausos naudojamos norint nustatyti taikomą siuntos konsolidacijos strategiją, o tada redaguojamas laukų rinkinys nurodo, kaip krovinio eilutės sugrupuojamos siuntos lygiu. (Šis šablonas panašus į šabloną, pagal kurį veikia bangos šablonai.) Be to, į kiekvieną strategiją įtraukta parinktis **Konsoliduoti su esamomis siuntomis**. Įjungus šią parinktį, procedūra *Išleisti į sandėlį* randa siuntas konsolidavimui ieškodama esamose siuntose, sukurtose pagal tą pačią konsolidacijos strategiją. Tokiu atveju sistema pasirinks esamą siuntą arba krovinį, o ne kurs naują. Tačiau sistema vykdys konsolidaciją tik su esamomis siuntomis, kurių būsena yra *Atvira* ; siuntos, kurios priklauso bangos išleidimui ir kurių būsena yra *Išleista* arba aukštesnė, nebus laikomos konsolidacijos tikslais.
 
-Kai siuntos konsolidacijos strategijos prieinamos, parametras **Konsoliduoti siuntą išleidžiant ją į sandėlį**, kuris anksčiau buvo pasiekiamas nustatymo puslapyje **Sandėliai**, paslepiamas. Kad būtų lengviau pereiti prie naujos siuntos konsolidacijos funkcijos, funkcija puslapyje **Siuntos konsolidacijos strategijos** sukuria numatytąją strategiją, kuri automatiškai įtraukia seną esamų sandėlių parametrą. Sukūrus numatytąją strategiją, į parametrą **Konsoliduoti siuntą išleidžiant ją į sandėlį** nustatymo puslapyje **Sandėliai** nebebus atsižvelgiama.
+Kai siuntos konsolidacijos strategijos prieinamos, parametras **Konsoliduoti siuntą išleidžiant ją į sandėlį** , kuris anksčiau buvo pasiekiamas nustatymo puslapyje **Sandėliai** , paslepiamas. Kad būtų lengviau pereiti prie naujos siuntos konsolidacijos funkcijos, funkcija puslapyje **Siuntos konsolidacijos strategijos** sukuria numatytąją strategiją, kuri automatiškai įtraukia seną esamų sandėlių parametrą. Sukūrus numatytąją strategiją, į parametrą **Konsoliduoti siuntą išleidžiant ją į sandėlį** nustatymo puslapyje **Sandėliai** nebebus atsižvelgiama.
 
-Galite naudoti puslapį **Išleisti į sandėlį**, kad galėtumėte neautomatiniu būdu perrašyti taikomą konsolidacijos strategiją taip pat, kaip perrašomos įvykdymo strategijos.
+Galite naudoti puslapį **Išleisti į sandėlį** , kad galėtumėte neautomatiniu būdu perrašyti taikomą konsolidacijos strategiją taip pat, kaip perrašomos įvykdymo strategijos.
 
 Norėdami kurti siunčiamus krovinius, pagrįstus pardavimo arba perkėlimo užsakymo eilutėmis, prieš atliekant išleidimą į sandėlį, galite naudoti komandą **Išleidimas \> Išleidimas į sandėlį** puslapyje **Krovinio planavimo darbo sritis**. Šie kroviniai naudoja tą pačią konsolidacijos logiką, įvestą kartu su siuntos konsolidacijos strategijomis.
 
-Galite naudoti puslapį **Siuntos konsolidacijos darbo sritis**, norėdami konsoliduoti dar nepatvirtintas, bet jau išleistas į sandėlį, esamas siuntas. Ši funkcija palaiko scenarijus, kuriuose automatizuotas paleidimo procesas, turintis savo siuntos konsolidaciją, vykdomas kelis kartus per dieną, bet galimos papildomos konsolidacijos rankiniu būdu nustatomos prieš išsiunčiant siuntą vežėjams patvirtinimo proceso metu. Ši funkcija leidžia konsoliduoti siunčiamas siuntas, sukurtas pagal pardavimo ar perkėlimo užsakymo eilutes, bet kuriuo metu po siuntų išleidimo į sandėlį, bet prieš jų patvirtinimą.
+Galite naudoti puslapį **Siuntos konsolidacijos darbo sritis** , norėdami konsoliduoti dar nepatvirtintas, bet jau išleistas į sandėlį, esamas siuntas. Ši funkcija palaiko scenarijus, kuriuose automatizuotas paleidimo procesas, turintis savo siuntos konsolidaciją, vykdomas kelis kartus per dieną, bet galimos papildomos konsolidacijos rankiniu būdu nustatomos prieš išsiunčiant siuntą vežėjams patvirtinimo proceso metu. Ši funkcija leidžia konsoliduoti siunčiamas siuntas, sukurtas pagal pardavimo ar perkėlimo užsakymo eilutes, bet kuriuo metu po siuntų išleidimo į sandėlį, bet prieš jų patvirtinimą.
 
 Puslapis **Siuntos konsolidacijos darbo sritis** naudojamas taip, kaip krovinio kūrimo darbo sritis, kurioje vienu metu galima įvertinti kelias siuntas ir priskirti nekonsoliduotąjį užsakymą konkrečiai siuntai. Galite taikyti siuntos konsolidacijos šablonus, kad galėtumėte įvertinti siūlomas konsolidacijas kelis kartus ir jas patvirtinti. Kai kurios taisyklės yra taikomos siekiant išvengti neteisėtos konsolidacijos ir įspėti apie galimas klaidas.
 
@@ -121,7 +121,7 @@ Tolesnėje lentelėje apibendrinama, kaip veikia siuntos konsolidacija, kai nena
 
 | Kai siuntos konsolidacijos strategijos nenaudojamos | Kai siuntos konsolidacijos strategijos naudojamos |
 |---|----|
-| Netaikoma | Pardavimo arba perkėlimo siuntoms, kurios pasirinktos konsolidacijai, turi būti taikoma ta pati konsolidacijos strategija kaip ir kuriamai siuntai arba jos turi būti priskirtos atidarytai siuntai (kai įjungta parinktis **Konsoliduoti su esamomis siuntomis**). |
+| Netaikoma | Pardavimo arba perkėlimo siuntoms, kurios pasirinktos konsolidacijai, turi būti taikoma ta pati konsolidacijos strategija kaip ir kuriamai siuntai arba jos turi būti priskirtos atidarytai siuntai (kai įjungta parinktis **Konsoliduoti su esamomis siuntomis** ). |
 | Procedūra *Išleisti į sandėlį* neieško siuntos konsolidacijai esamose siuntose. Siekiant rasti siuntą konsolidacijai, naudojamos tik siuntos, kurias sukūrė dabartinis procedūros *Išleisti į sandėlį* egzempliorius. | Jei parinktis **Konsoliduoti su esamomis siuntomis** įjungta konsolidacijos strategijai, kuri šiuo metu naudojama, procedūra *Išleisti į sandėlį* ieško siuntos konsolidacijai esamose siuntose, sukurtose pagal tą pačią konsolidacijos strategiją. Todėl, jei turite dvi strategijas, pagal 2 strategiją kuriama siunta niekada nebus konsoliduojama su siunta, sukurta pagal 1 strategiją. |
 | Netaikoma | Jei konsolidacijos strategijos laukų sąrašas tuščias arba jei strategijos nepavyksta rasti, kiekvienai pardavimo ar perkėlimo užsakymo eilutei sukuriama nauja siunta. |
 | Tolesnis konsolidacijos laukas apibrėžia unikalų reikšmių derinį, naudojamą konsoliduoti *perkėlimo eilutės* siuntas. (Visų kitų laukų nepaisoma.)<ul><li>Užsakymo numeris (OrderNum)</li></ul> | Tolesni konsolidacijos laukai apibrėžia unikalų reikšmių derinį, naudojamą konsoliduoti *perkėlimo eilutės* siuntas. (Visų kitų laukų nepaisoma.)<ul><li>Užsakymo numeris (OrderNum)</li><li>Pristatymo gavėjas (DeliveryName)</li><li>Pašto adresas (DeliveryPostalAddress)</li><li>ISO šalies kodas (CountryRegionISOCode)</li><li>Adresas (Address)</li><li>Vieta (InventSiteId)</li><li>Sandėlis (InventLocationId)</li><li>Siuntos vežėjas (CarrierCode)</li><li>Vežėjo paslauga (CarrierServiceCode)</li><li>Pristatymo būdas (ModeCode)</li><li>Vežėjų grupė (CarrierGroupCode)</li><li>Pristatymo sąlygos (DlvTermId)</li></ul>Šie laukai yra vieninteliai laukai, kurie galimi ir inicijuojami, kai sukuriama nauja siunta. |

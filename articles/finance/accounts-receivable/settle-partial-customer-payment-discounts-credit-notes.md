@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1a37b7c5aea22711938133d43b552eec9260f0a
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188975"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015012"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Sudenkite dalinį kliento mokėjimą, kuriam taikomos kredito pažymų nuolaidos
 
@@ -42,22 +42,20 @@ ms.locfileid: "2188975"
 | CCRN-10050 | Kredito pažyma      | 2015-06-28 | CR-10050 |                                      | 100,00                                | -100.00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Kredito pažymos sudengimas naudojant SF
-Puslapyje **Kliento operacijos** Arnas atidaro puslapį **Sudengti operacijas**. Naudodamas puslapį **Sudengti operacijas** jis gali sudengti SF ir kredito pažymą. Vykdydamas sudengimo procesą jis peržiūri mokėjimo nuolaidos datas ir sumas. Jis pažymi du dokumentus ir spusteli **Registruoti**, kad sudengtų operacijas. Kredito pažymoje taikoma –1,00 nuolaida, nes „Fabrikam“ leidžia nuolaidas kredito pažymose.
+Puslapyje **Kliento operacijos** Arnas atidaro puslapį **Sudengti operacijas**. Naudodamas puslapį **Sudengti operacijas** jis gali sudengti SF ir kredito pažymą. Vykdydamas sudengimo procesą jis peržiūri mokėjimo nuolaidos datas ir sumas. Jis pažymi du dokumentus ir spusteli **Registruoti** , kad sudengtų operacijas. Kredito pažymoje taikoma –1,00 nuolaida, nes „Fabrikam“ leidžia nuolaidas kredito pažymose.
 
 | Žymėti     | Naudokite mokėjimo nuolaidą | Kvitas    | Paskyra | Data      | Terminas  | PVM sąskaita faktūra  | Suma operacijos valiuta | Valiuta | Sudengtina suma |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|
 | Pasirinkta | Įprastas            | LFSF-10050  | 4035    | 2015-06-28 | 2015-07-28 | 10050    | 1000,00                       | USD      | 990,00           |
 | Pasirinkta | Įprastas            | CCRN-10050 | 4035    | 2015-06-28 | 2015-07-28 | CR-10050 | -100.00                        | USD      | –99,00           |
 
-Nuolaidos informacija rodoma puslapio **Sudengti operacijas**apačioje.
+Nuolaidos informacija rodoma puslapio **Sudengti operacijas** apačioje.
 
-|                              |           |
-|------------------------------|-----------|
-| Mokėjimo nuolaidos data           | 2015-07-12 |
-| Mokėjimo nuolaidos suma         | –1,00     |
-| Naudokite mokėjimo nuolaidą            | Įprastas    |
-| Pritaikyta mokėjimo nuolaida          | 0,00      |
-| Taikytinos mokėjimo nuolaidos suma | –1,00     |
+- **Mokėjimo nuolaidos data** : 2015-07-12 
+- **Mokėjimo nuolaidos suma** : -1,00     
+- **Naudokite mokėjimo nuolaidą** : įprasta    
+- **Pritaikyta mokėjimo nuolaida** : 0,00      
+- **Taikytinos mokėjimo nuolaidos suma** : -1,00     
 
 Bus sudengiama 100,00 suma, įskaitant 99,00 mokėjimą ir 1,00 nuolaidą.
 

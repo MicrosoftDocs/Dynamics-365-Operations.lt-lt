@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7f84701f5b82ece1806d289dd6aea370bbd8c750
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018241"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkimo užsakymo su pristatymo grafiku kūrimas
 
@@ -40,13 +40,13 @@ ms.locfileid: "3383256"
 8. Pasirinkite **„Pristatymo grafikas“**.
 - Puslapyje **„Pristatymo grafikas“** galima nurodyti siuntų, kurių visas užsakymo eilutės kiekis bus pristatytas iš tiekėjo, skaičių.  
 - Pagal numatytąsias nuostatas sistema visą pradinės pirkimo eilutės kiekį ir kitą pristatymo informaciją kopijuoja į pirmąją pristatymo grafiko eilutę. Šiame pavyzdyje sukursime dviejų siuntų grafiką, antrosios siuntos datą paslinkdami per savaitę nuo pirmosios.  
-9. Lauke **Kiekis**pakeiskite kiekį į `4`.
+9. Lauke **Kiekis** pakeiskite kiekį į `4`.
 10. Pasirinkite **Naujas**.
-11. Lauke **Kiekis**įveskite `6` kaip likusį kiekį.
+11. Lauke **Kiekis** įveskite `6` kaip likusį kiekį.
 - Lauke Pristatymo data pasirinkite datą, kuri yra viena savaite vėliau nei pirmosios pristatymo eilutės data.  
 - Sekti visą kiekį, paskirstytą pristatymo grafiko eilutėms, galite pažvelgę į laukus **Iš viso** ir **Liko**. Kai likęs kiekis yra nulis, grafikui paskirstytas visas pradinės eilutės kiekis.  
 12. Išplėskite skyrių **Išlaidų konvertavimas**.
-- Ši parinktis suteikia galimybę kontroliuoti, kaip norite išlaidas paskirstyti pristatymo grafiko eilutėse. Jei pasirenkate **Kopijuoti bendras sumas**, pradinės užsakymo eilutės išlaidų suma kopijuojama į kiekvieną pristatymo eilutę. Parinktis **Paskirstyti į pristatymo eilutes** pradinės eilutės išlaidas padalija pagal kiekį kiekvienoje pristatymo eilutėje.  
+- Ši parinktis suteikia galimybę kontroliuoti, kaip norite išlaidas paskirstyti pristatymo grafiko eilutėse. Jei pasirenkate **Kopijuoti bendras sumas** , pradinės užsakymo eilutės išlaidų suma kopijuojama į kiekvieną pristatymo eilutę. Parinktis **Paskirstyti į pristatymo eilutes** pradinės eilutės išlaidas padalija pagal kiekį kiekvienoje pristatymo eilutėje.  
 13. Suskleiskite sekciją **Išlaidų konvertavimas**.
 14. Pasirinkite **Gerai**.
 - Pristatymo grafikas dabar yra pritaikytas užsakymui.  
@@ -72,5 +72,5 @@ Pirkimo užsakymas turi būti patvirtintas, kad produkto gavimą būtų galima a
 5. Išplėskite skyrių **Eilutės**.
 - Atkreipkite dėmesį, kad kuriamas dviejų pristatymo eilučių, o ne pradinės užsakymo eilutės produkto gavimo kvitas. Jei gavimas užregistruotas sandėlyje, jis bus taip pat užregistruotas pristatymo grafiko eilutėse.  
 6. Sutraukite sekciją **Eilutės**.
-7. Spustelėkite **Gerai**, kad registruotumėte gavimą.
+7. Spustelėkite **Gerai** , kad registruotumėte gavimą.
 

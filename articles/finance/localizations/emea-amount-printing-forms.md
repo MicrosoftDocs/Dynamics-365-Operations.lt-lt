@@ -17,12 +17,12 @@ ms.search.region: Czech Republic, Estonia, Hungary, Latvia, Lithuania, Poland, R
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d78ae1d7a827a0062f93a883f310b8168ee78634
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: dd42a64bb384561cc0c4a8c9baf1213860691849
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981861"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015084"
 ---
 # <a name="update-how-amounts-are-displayed-on-reports-and-documents"></a>Sumų rodymo ataskaitose ir dokumentuose būdo naujinimas
 
@@ -40,9 +40,8 @@ Norėdami nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus be
 3. Veiksmų srityje pasirinkite **Linksniavimas**.
 4. Norėdami įtraukti pilną ir trumpą kalbos pavadinimus, pasirinkite **Naujas** ir įveskite informaciją toliau nurodytuose laukuose.
 
-   |                                                                        |                                                                                                                                                                                                                                                                        |
+   |             Laukas                                                           |                        aprašymas                                                                                                                                                                                                                                                |
    |------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                         <strong>Laukas</strong>                         |                                                                                                                      <strong>Aprašas</strong>                                                                                                                      |
    |                       <strong>Kalba</strong>                        |                                                                                                               Pasirinkti šio teksto kalbą.                                                                                                                |
    |    <strong>Vienaskaitos vardininkas (laukų grupė Vienetų pavadinimas)</strong>    |                                                                                       Įveskite valiutos pavadinimą vienaskaitos forma. Pvz., valiutos litas vienaskaitos forma yra litas.                                                                                       |
    |     <strong>Daugiskaitos vardininkas (laukų grupė Vienetų pavadinimas)</strong>     | Įveskite valiutos pavadinimą daugiskaitos forma. Pavyzdžiui, įveskite litai. <strong>Pastaba</strong>: laukai <strong>Vienaskaitos kilmininkas</strong> ir <strong>Daugiskaitos kilmininkas</strong> rodomi atsižvelgiant į lauke <strong>Kalba</strong> pasirinktą kalbą. |
@@ -51,7 +50,7 @@ Norėdami nustatyti valiutos vienetų ir antrinių vienetų visus pavadinimus be
    |    <strong>Trumpas vienetų pavadinimas (laukų grupė Trumpas pavadinimas)</strong>    |                                                                                         Įveskite ISO kodą, kad identifikuotumėte valiutą. Pavyzdžiui, įveskite LTL identifikuoti litui..                                                                                         |
    |   <strong>Trumpas dalių pavadinimas (laukų grupė Trumpas pavadinimas)</strong>    |                                                                                               Įveskite valiutos antrinio vieneto nominaliąją vertę. Pavyzdžiui, įveskite centas.                                                                                               |
    |       <strong>Jungtukas „ir“ tarp vienetų ir dalių</strong>       |                                     Pažymėkite, jei norite spausdinti jungtuką „ir“ tarp valiutos vienetų ir vieneto dalių. Pvz., SF ir ataskaitose 100,20 LTL suma rodoma kaip 100 litų ir 20 centų.                                      |
-   |       <strong>Giminė</strong>       |  Pasirinkite **Vyriška**, **Moteriška** arba **Neutrali**. Šis parametras gali turėti įtakos vietinės sumos linksniavimo, rodomo vietinės kalbos tekste grynųjų pinigų užsakyme, tekstui. Pavyzdžiui, nustatydami parametrą **Giminė** EUR valiutai į **Neutrali**, suma 1,01 EUR užrašoma grynųjų pinigų užsakyme čekų kalba kaip *„Edno euro 01 cent“*.  |
+   |       <strong>Giminė</strong>       |  Pasirinkite **Vyriška** , **Moteriška** arba **Neutrali**. Šis parametras gali turėti įtakos vietinės sumos linksniavimo, rodomo vietinės kalbos tekste grynųjų pinigų užsakyme, tekstui. Pavyzdžiui, nustatydami parametrą **Giminė** EUR valiutai į **Neutrali** , suma 1,01 EUR užrašoma grynųjų pinigų užsakyme čekų kalba kaip *„Edno euro 01 cent“*.  |
 
 5. Pasirinkite **Įrašyti**.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
+ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8e7790fa8ab8d60d0e5fd8eb470d86d6728091b
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3530034"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017096"
 ---
 # <a name="manage-warehouse-workers"></a>Sandėlio darbuotojų valdymas
 
@@ -35,7 +35,7 @@ Jei naudojate sandėlio valdymo funkcijas, visos sandėlio darbuotojų operacijo
 
 Norėdami kurti naują darbo vartotoją, puslapio **Darbuotojai** skirtuko **Bendra** lauke **Sandėliai** spustelėkite **Darbuotojas**. Turite nurodyti vartotojo ID, vartotojo vardą, numatytąjį sandėlį ir meniu pavadinimą. Šis meniu įkeliamas, kai vartotojas prisijungia prie sandėlio mobiliųjų įrenginių portalo, ir jį naudojant galima pasirinkti, prie kurių meniu elementų vartotojas turės prieigą. 
 
-Konkrečios darbo eigos taip pat gali būti nurodytos kaip kiekvieno darbo vartotojo sąrankos dalis. Pavyzdžiui, galite naudoti lauką **Yra ciklų skaičiavimo prižiūrėtojas**, norėdami nurodyti, ar skaičiavimo operacijos metu vartotojas gali apdoroti ciklo skaičiavimo nesutapimų koregavimus, ar šiuos koregavimus pirmiausia turi peržiūrėti kitas asmuo.
+Konkrečios darbo eigos taip pat gali būti nurodytos kaip kiekvieno darbo vartotojo sąrankos dalis. Pavyzdžiui, galite naudoti lauką **Yra ciklų skaičiavimo prižiūrėtojas** , norėdami nurodyti, ar skaičiavimo operacijos metu vartotojas gali apdoroti ciklo skaičiavimo nesutapimų koregavimus, ar šiuos koregavimus pirmiausia turi peržiūrėti kitas asmuo.
 
 ## <a name="defining-labor-standards"></a>Darbo standartų nustatymas
 Puslapyje **Darbo standartai** galima nustatyti skaičiavimo metodus, sistema naudoja numatomam laikui, kurį tam tikro tipo darbas turėtų trukti, apskaičiuoti. Šį aprašą galima nustatyti bendrame arba konkrečiame lygyje. Pavyzdžiui, galite nurodyti laiką, reikalingą konkretaus vieneto aprašo pardavimo užsakymo išrinkimui pagal svorį apdoroti, kai naudojamas konkretus išrinkimo procesas. Taip pat išrenkamų turimų atsargų padėjimo operacijos laiką galite įrašyti naudodami kitą skaičiavimo metodą. 
@@ -45,7 +45,7 @@ Norėdami suaktyvinti jūsų nustatytus darbo standartus, kiekviename sandėlyje
 ## <a name="monitoring-and-controlling-warehouse-work"></a>Sandėlio darbo stebėjimas ir valdymas
 Puslapyje **Visi darbai** galima stebėti ir prižiūrėti visus suplanuotus, vykdomus ir baigtus darbus. Šiame puslapyje galima naujinti įvairius procesus, pavyzdžiui, sandėlio darbo vartotojų priskyrimus ir darbo prioritetus. Taip pat galima detalizuoti informaciją, susijusią su darbo antrašte ir darbo eilutėmis, siekiant suprasti numatytus arba baigtus darbo procesus. 
 
-Jei įjungsite parinktį **Darbo standartai**, galėsite peržiūrėti apskaičiuotą numatytą darbo laiką. Tada, vykdant darbą, taip pat bus rodomas kiekvienos darbo operacijos faktinis laikas. Tokiu būdu galima palyginti numatomo laiko skaičiavimus su faktiniu laiku. 
+Jei įjungsite parinktį **Darbo standartai** , galėsite peržiūrėti apskaičiuotą numatytą darbo laiką. Tada, vykdant darbą, taip pat bus rodomas kiekvienos darbo operacijos faktinis laikas. Tokiu būdu galima palyginti numatomo laiko skaičiavimus su faktiniu laiku. 
 
 Be to, numatomą laiką galite naudoti taisyklėse, skirtose darbui automatiškai skaidyti, kai darbas kuriamas. Tokiu būdu galima paskirstyti darbo apkrovą, atsižvelgiant į numatytą užduočių atlikimo laiką. 
 

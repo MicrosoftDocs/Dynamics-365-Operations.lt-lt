@@ -240,6 +240,8 @@
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Tiekėjo SF automatizavimo rezultatų peržiūra
                   href: accounts-payable/view-automated-vendor-invoice.md
+                - name: Tiekėjo SF įrašo darbo sritis
+                  href: accounts-payable/vendor-invoices-workspace.md
             - name: 'Apskaitos paskirstymai ir papildomos knygos žurnalo įrašai, skirti tiekėjo SF'
               href: accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: SF gretinimas ir vidinės įmonės pirkimo užsakymai
@@ -922,6 +924,8 @@
                   href: general-ledger/open-lines-excel-journals-documents.md
                 - name: Žurnalo įrašų ir operacijų peržiūra
                   href: general-ledger/view-journal-entries-transactions.md
+                - name: Bandomasis balansas su operacijos informacijos ataskaita
+                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Registruotų žurnalo įrašų įtraukimas į žurnalą
                   href: general-ledger/tasks/journalize-posted-journal-entries.md
                 - name: Valiutos kurso pasikeitimas konsoliduotoje įmonėje
@@ -1170,8 +1174,6 @@
                   href: public-sector/advanced-ledger-entries-public-sector.md
                 - name: Viešojo sektoriaus išplėstinio didžiosios knygos įrašo kūrimas
                   href: public-sector/tasks/create-advanced-ledger-entry-public-sector.md
-                - name: Bandomasis balansas su operacijos informacijos ataskaita
-                  href: public-sector/general-ledger-public-sector-trial-balance.md
                 - name: Grynųjų pinigų kontrolės limitų naudojimas
                   href: public-sector/cash-control.md
                 - name: Metų pabaigos apdorojimas viešajame sektoriuje
@@ -1398,6 +1400,8 @@
                       href: localizations/tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md
                     - name: NF-e sertifikatai
                       href: localizations/latam-bra-nfe-certs.md
+                    - name: NF-e pasirinktinio sertifikato patvirtinimas
+                      href: localizations/nf-e-custom-certificate-validation.md
                     - name: 'NF-e XML dokumentų ir DANFE nustatymas, importavimas bei tikrinimas'
                       href: localizations/latam-bra-set-up-import-nfe.md
                     - name: NF-e federalinių parametrų nustatymas
@@ -2076,15 +2080,17 @@
                       href: localizations/apac-ind-GST-tax-journal.md
                     - name: Mokesčių gražinimų PPMR ataskaitos duomenų generavimas
                       href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Kelių paketų apdorojimo PPMR ataskaitoms įgalinimas
+                    - name: Kelių paketų apdorojimo GSTR ataskaitoms įgalinimas
                       href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
                     - name: Mokesčių užklausa
                       href: localizations/apac-ind-GST-tax-inquiry.md
+                    - name: Lentelės TaxDocumentJSON valymas
+                      href: localizations/gte-clean-up-tax-document-json-table.md
                 - name: Mokesčių mechanizmas
                   items:
                     - name: Mokesčių mechanizmo apžvalga
                       href: general-ledger/tax-engine.md
-                    - name: Konfigūracijos importavimas
+                    - name: Importuoti konfigūraciją
                       href: general-ledger/tax-engine-import-configuration.md
                     - name: Išplėstinis formulių konstruktorius
                       href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
@@ -2651,7 +2657,7 @@
                         - name: Atsargų šablono apžvalga
                           href: localizations/rus-inventory-profile-overview.md
                         - name: Atsargų šablono nustatymas
-                          hreF: localizations/rus-set-up-inventory-profile.md
+                          href: localizations/rus-set-up-inventory-profile.md
                         - name: Atsargų šablono naudojimas dokumentuose ir užklausose
                           href: localizations/rus-use-inventory-profile-documents-queries.md
                 - name: Ataskaitos

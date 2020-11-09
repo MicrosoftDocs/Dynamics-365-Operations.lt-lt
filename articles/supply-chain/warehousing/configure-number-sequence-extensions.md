@@ -8,7 +8,7 @@ ms.topic: configure-number-sequence-extensions
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSNumberSequenceExtension
+ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 2512fc9b530530a9f82995a9eefcd59bbd518d96
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: cee5047a8c80aa850d9dd1bb872188a822ba8328
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975397"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016130"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Konfigūruokite sekų numerį sandėlio srautams
 
@@ -59,7 +59,7 @@ Numerio sekos plėtinių savo sistemoje nustatymui, atlikite šiuos žingsnius.
     > Šis žymimas laukelis yra prieinamas tik jei funkcija [bangos etiketės spausdinimas](configure-wave-label-printing.md) yra įjungta.
 
 1. Eikite į  **Sandėlio tvarkymas** \> **Sąranka** \> **Skaičiaus sekos plėtiniai**
-1. Veiksmų juostoje pasirinkite**Sukurti nustatytąją sąranką**. Sukuriama GS1 atitinkanti BOL numerio seka ir trijų tipų SSCC numerio sekos. Visos šios skaičių sekos apima jūsų bendrovės GS1 priešdėlį.
+1. Veiksmų juostoje pasirinkite **Sukurti nustatytąją sąranką**. Sukuriama GS1 atitinkanti BOL numerio seka ir trijų tipų SSCC numerio sekos. Visos šios skaičių sekos apima jūsų bendrovės GS1 priešdėlį.
 
     Dėl išsamesnės informacijos, kaip tinkinti šiuos nustatytąsias skaičių sekas ir (arba) įtraukit naujas sekas, žiūrėkite kitą skyrių. Galite taip pat pašalinti bet kurias iš šių sekų, jei jų jums nebereikia.
 
@@ -85,10 +85,10 @@ Sukurkite ir redaguokite skaičių sekas atlikdami šiuos žingsnius.
     | Segmento tipas | aprašymas |
     |---|---|
     | Pastovus | Šis segmento tipas įtraukia tokį patį teksto turinį kiekvienam sukurtam skaičiui sekoje. **Vertės** laukelyje įveskite norimą tekstą. **Ilgio** laukelis yra automatiškai atnaujinamas pagal jūsų įvesto teksto ilgį **Vertės** laukelyje. |
-    | Numeravimas | **Vertės** laukelyje, įveskite skaičiaus ženklą (*\#*) kiekvienam ženklui, kuris turi būti rodomas sukurtoje sekoje. Skaičiaus seka gali sukurti ilgesnius skaičius, tačiau bus rodomi tik labiausiai dešinėje esantys ženklai. **Ilgio** laukelis yra automatiškai atnaujinamas pagal jūsų įvesto skaičiaus ženklus, kuriuos įvedėte **Vertės** laukelyje.<p>Tam, kad atitiktumėte GS1 reikalavimams SSCC-18 skaičiams, įsitikinkite, kad šio segmento ilgis yra 16 atėmus GS1 priešdėlio ilgį.</p> |
+    | Numeravimas | **Vertės** laukelyje, įveskite skaičiaus ženklą ( *\#* ) kiekvienam ženklui, kuris turi būti rodomas sukurtoje sekoje. Skaičiaus seka gali sukurti ilgesnius skaičius, tačiau bus rodomi tik labiausiai dešinėje esantys ženklai. **Ilgio** laukelis yra automatiškai atnaujinamas pagal jūsų įvesto skaičiaus ženklus, kuriuos įvedėte **Vertės** laukelyje.<p>Tam, kad atitiktumėte GS1 reikalavimams SSCC-18 skaičiams, įsitikinkite, kad šio segmento ilgis yra 16 atėmus GS1 priešdėlio ilgį.</p> |
     | GS1 prefiksas | Segmento tipas įtraukia vertę, kurią nustatėte **GS1 bendrovės priešdėlio** laukelyje **Sandėlio valdymo parametrų** puslapyje. **Vertės** laukelis rodo vertę, kuri yra nustatyta **Sandėlio valdymo parametrų** puslapyje ir **Ilgio** laukelis rodo ženklų skaičių vertėje. **Vertės** laukelis ir **Ilgio** laukelis yra skirti tik skaityti. |
     | Programos identifikatorius | **Vertės** laukelyje, įveskite taikomą identifikavimo kodą, nurodytą GS1 politikoje šio tipo skaičiaus sekai. Pavyzdžiui, įveskite *00* SSCC arba *420* BOL. **Ilgio** laukelis yra automatiškai atnaujinamas pagal jūsų įvesto identifikavimo kodo ilgį **Vertės** laukelyje. |
-    | Pakuotės tipas | Elementams, kurie gali būti aiškiai atpažįstami, šio segmento įvestis įtraukia laukelio vertę iš atitinkamos sekos padailinio grupės(iš **Padalinio seko grupės** puslapio). (Toks elgesys atitinka esančią licencijos numerio identifikavimo kodų logiką). Licencijos numeriai turintys daugelį akcijų laikymo prietaisų (SKU), šiame laukelyje įveda *0* (nulį) pagal nutylėjimą. Šiam segmento tipui, **Vertės** laukelis yra visuomet nustatytas ties *P*, o **Ilgio** laukelis yra nustatytas ties *1*.|
-    | Tikrinti skaitmenį | Šis segmento tipas įtraukia tikrinamą skaitmenį, kuris yra apskaičiuotas modulyje 10. (Toks elgesys atitinka esamą logiką licencijos numerio identifikavimo kodams) Šio segmento tipui, **Vertės** laukelis visuomet nustatytas ženklais (*^*), o **Ilgio** laukelis visuomet nustatytas *1*. |
+    | Pakuotės tipas | Elementams, kurie gali būti aiškiai atpažįstami, šio segmento įvestis įtraukia laukelio vertę iš atitinkamos sekos padailinio grupės(iš **Padalinio seko grupės** puslapio). (Toks elgesys atitinka esančią licencijos numerio identifikavimo kodų logiką). Licencijos numeriai turintys daugelį akcijų laikymo prietaisų (SKU), šiame laukelyje įveda *0* (nulį) pagal nutylėjimą. Šiam segmento tipui, **Vertės** laukelis yra visuomet nustatytas ties *P* , o **Ilgio** laukelis yra nustatytas ties *1*.|
+    | Tikrinti skaitmenį | Šis segmento tipas įtraukia tikrinamą skaitmenį, kuris yra apskaičiuotas modulyje 10. (Toks elgesys atitinka esamą logiką licencijos numerio identifikavimo kodams) Šio segmento tipui, **Vertės** laukelis visuomet nustatytas ženklais ( *^* ), o **Ilgio** laukelis visuomet nustatytas *1*. |
 
 1. Galutinio jūsų skaičiaus formato pavyzdžio peržiūrai, patikrinkite **Formato** laukelį **Segmentų** „FastTab“ apačioje.
