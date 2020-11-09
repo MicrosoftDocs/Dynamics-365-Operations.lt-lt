@@ -8,6 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSRFMenuItemCycleCount, WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -15,60 +16,60 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb5c8e615302cba05fbd14a47af6578bca7bc16e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 39a256a5a88a6d70373d6e23f1f380da6791f418
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976955"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016083"
 ---
-# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="8a316-103">Nustatyti dalinį vietos ciklų skaičiavimo procesą </span><span class="sxs-lookup"><span data-stu-id="8a316-103">Define partial location cycle counting process</span></span> 
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="416c1-103">Nustatyti dalinį vietos ciklų skaičiavimo procesą </span><span class="sxs-lookup"><span data-stu-id="416c1-103">Define partial location cycle counting process</span></span> 
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8a316-104">Kai naudojate ciklo skaičiavimo planus skaičiavimo darbui sukurti, galite nukreipti faktines skaičiavimo operacijas, nurodydami, kad būtų skaičiuojami tik konkretūs produktai ir produkto variantai vietoj visų turimų atsargų vietoje inventorizavimo.</span><span class="sxs-lookup"><span data-stu-id="8a316-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="8a316-105">Filtruodamas konkrečius produktus, sandėlio vadovas gali sumažinti peržiūros pridėtines išlaidas, padėti išvengti konsolidavimo klaidų ir sutaupyti laiko.</span><span class="sxs-lookup"><span data-stu-id="8a316-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="8a316-106">Sąrankos užduotis paprastai atlieka sandėlio vadovas.</span><span class="sxs-lookup"><span data-stu-id="8a316-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="8a316-107">Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.</span><span class="sxs-lookup"><span data-stu-id="8a316-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
+<span data-ttu-id="416c1-104">Kai naudojate ciklo skaičiavimo planus skaičiavimo darbui sukurti, galite nukreipti faktines skaičiavimo operacijas, nurodydami, kad būtų skaičiuojami tik konkretūs produktai ir produkto variantai vietoj visų turimų atsargų vietoje inventorizavimo.</span><span class="sxs-lookup"><span data-stu-id="416c1-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="416c1-105">Filtruodamas konkrečius produktus, sandėlio vadovas gali sumažinti peržiūros pridėtines išlaidas, padėti išvengti konsolidavimo klaidų ir sutaupyti laiko.</span><span class="sxs-lookup"><span data-stu-id="416c1-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="416c1-106">Sąrankos užduotis paprastai atlieka sandėlio vadovas.</span><span class="sxs-lookup"><span data-stu-id="416c1-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="416c1-107">Šią procedūrą galite atlikti naudodami demonstracinių duomenų įmonę USMF arba savo duomenis.</span><span class="sxs-lookup"><span data-stu-id="416c1-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="8a316-108">Sukurkite ciklo skaičiavimo darbo šabloną</span><span class="sxs-lookup"><span data-stu-id="8a316-108">Create a cycle counting work template</span></span>
-1. <span data-ttu-id="8a316-109">Pasirinkite Sandėlio valdymas > Nustatymas > Darbas > Darbo šablonai.</span><span class="sxs-lookup"><span data-stu-id="8a316-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
-2. <span data-ttu-id="8a316-110">Lauke Darbo užsakymo tipas pasirinkite „Ciklo skaičiavimas“.</span><span class="sxs-lookup"><span data-stu-id="8a316-110">In the Work order type field, select 'Cycle counting'.</span></span>
-3. <span data-ttu-id="8a316-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8a316-111">Click New.</span></span>
-4. <span data-ttu-id="8a316-112">Lauke Sekos numeris įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="8a316-112">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="8a316-113">Rūšiavimo tvarka yra nuo mažiausio iki didžiausio skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="8a316-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="8a316-114">Reikšmė turi būti didesnė už 0 (nulį).</span><span class="sxs-lookup"><span data-stu-id="8a316-114">The value must be more than 0 (zero).</span></span>  
-5. <span data-ttu-id="8a316-115">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="8a316-115">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="8a316-116">Lauke „Darbo šablonas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-116">In the Work template field, type a value.</span></span>
-7. <span data-ttu-id="8a316-117">Lauke Darbo šablonas įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="8a316-117">In the Work template description field, type a value.</span></span>
-8. <span data-ttu-id="8a316-118">Lauke Darbo telkinio ID įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-118">In the Work pool ID field, enter or select a value.</span></span>
-9. <span data-ttu-id="8a316-119">Lauke Darbo prioritetas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="8a316-119">In the Work priority field, enter a number.</span></span>
-10. <span data-ttu-id="8a316-120">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="8a316-120">Click Save.</span></span>
-11. <span data-ttu-id="8a316-121">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8a316-121">Click New.</span></span>
-12. <span data-ttu-id="8a316-122">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="8a316-122">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="8a316-123">Lauke Darbo tipas pasirinkite „Skaičiavimas‟.</span><span class="sxs-lookup"><span data-stu-id="8a316-123">In the Work type field, select 'Counting'.</span></span>
-14. <span data-ttu-id="8a316-124">Lauke Darbo klasės ID įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-124">In the Work class ID field, enter or select a value.</span></span>
-15. <span data-ttu-id="8a316-125">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="8a316-125">Click Save.</span></span>
-16. <span data-ttu-id="8a316-126">Spustelėkite Darbo eilučių lūžiai.</span><span class="sxs-lookup"><span data-stu-id="8a316-126">Click Work line breaks.</span></span>
-17. <span data-ttu-id="8a316-127">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8a316-127">Click New.</span></span>
-18. <span data-ttu-id="8a316-128">Lauke Sekos numeris įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="8a316-128">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="8a316-129">Rūšiavimo tvarka yra nuo mažiausio iki didžiausio skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="8a316-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="8a316-130">Reikšmė turi būti didesnė už 0 (nulį).</span><span class="sxs-lookup"><span data-stu-id="8a316-130">The value must be more than 0 (zero).</span></span>  
-19. <span data-ttu-id="8a316-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="8a316-131">Click Save.</span></span>
-20. <span data-ttu-id="8a316-132">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8a316-132">Close the page.</span></span>
-21. <span data-ttu-id="8a316-133">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8a316-133">Close the page.</span></span>
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="416c1-108">Sukurkite ciklo skaičiavimo darbo šabloną</span><span class="sxs-lookup"><span data-stu-id="416c1-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="416c1-109">Pasirinkite Sandėlio valdymas > Nustatymas > Darbas > Darbo šablonai.</span><span class="sxs-lookup"><span data-stu-id="416c1-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="416c1-110">Lauke Darbo užsakymo tipas pasirinkite „Ciklo skaičiavimas“.</span><span class="sxs-lookup"><span data-stu-id="416c1-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="416c1-111">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="416c1-111">Click New.</span></span>
+4. <span data-ttu-id="416c1-112">Lauke Sekos numeris įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="416c1-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="416c1-113">Rūšiavimo tvarka yra nuo mažiausio iki didžiausio skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="416c1-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="416c1-114">Reikšmė turi būti didesnė už 0 (nulį).</span><span class="sxs-lookup"><span data-stu-id="416c1-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="416c1-115">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="416c1-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="416c1-116">Lauke „Darbo šablonas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="416c1-117">Lauke Darbo šablonas įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="416c1-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="416c1-118">Lauke Darbo telkinio ID įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="416c1-119">Lauke Darbo prioritetas įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="416c1-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="416c1-120">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="416c1-120">Click Save.</span></span>
+11. <span data-ttu-id="416c1-121">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="416c1-121">Click New.</span></span>
+12. <span data-ttu-id="416c1-122">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="416c1-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="416c1-123">Lauke Darbo tipas pasirinkite „Skaičiavimas‟.</span><span class="sxs-lookup"><span data-stu-id="416c1-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="416c1-124">Lauke Darbo klasės ID įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="416c1-125">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="416c1-125">Click Save.</span></span>
+16. <span data-ttu-id="416c1-126">Spustelėkite Darbo eilučių lūžiai.</span><span class="sxs-lookup"><span data-stu-id="416c1-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="416c1-127">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="416c1-127">Click New.</span></span>
+18. <span data-ttu-id="416c1-128">Lauke Sekos numeris įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="416c1-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="416c1-129">Rūšiavimo tvarka yra nuo mažiausio iki didžiausio skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="416c1-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="416c1-130">Reikšmė turi būti didesnė už 0 (nulį).</span><span class="sxs-lookup"><span data-stu-id="416c1-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="416c1-131">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="416c1-131">Click Save.</span></span>
+20. <span data-ttu-id="416c1-132">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="416c1-132">Close the page.</span></span>
+21. <span data-ttu-id="416c1-133">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="416c1-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="8a316-134">Sukurkite ciklo skaičiavimo planą</span><span class="sxs-lookup"><span data-stu-id="8a316-134">Create a cycle counting plan</span></span>
-1. <span data-ttu-id="8a316-135">Pasirinkite Sandėlio valdymas > Nustatymai > Ciklo skaičiavimas > Ciklų skaičiavimo planai.</span><span class="sxs-lookup"><span data-stu-id="8a316-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
-2. <span data-ttu-id="8a316-136">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8a316-136">Click New.</span></span>
-3. <span data-ttu-id="8a316-137">Lauke Ciklo skaičiavimo plano ID įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="8a316-137">In the Cycle counting plan ID field, type a value.</span></span>
-4. <span data-ttu-id="8a316-138">Lauke Aprašas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-138">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="8a316-139">Lauke Maksimalus ciklų skaičiavimo skaičius įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="8a316-139">In the Maximum number of cycle counts field, enter a number.</span></span>
-6. <span data-ttu-id="8a316-140">Lauke Darbo šablonas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-140">In the Work template field, enter or select a value.</span></span>
-7. <span data-ttu-id="8a316-141">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8a316-141">Click New.</span></span>
-8. <span data-ttu-id="8a316-142">Lauke Sekos numeris įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="8a316-142">In the Sequence number field, enter a number.</span></span>
-    * <span data-ttu-id="8a316-143">Rūšiavimo tvarka yra nuo mažiausio iki didžiausio skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="8a316-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="8a316-144">Reikšmė turi būti didesnė už 0 (nulį).</span><span class="sxs-lookup"><span data-stu-id="8a316-144">The value must be more than 0 (zero).</span></span>  
-9. <span data-ttu-id="8a316-145">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-145">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="8a316-146">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="8a316-146">Click Save.</span></span>
-11. <span data-ttu-id="8a316-147">Spustelėkite Apibrėžti produkto užklausą.</span><span class="sxs-lookup"><span data-stu-id="8a316-147">Click Define product query.</span></span>
-12. <span data-ttu-id="8a316-148">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="8a316-148">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="8a316-149">Lauke Kriterijai įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8a316-149">In the Criteria field, enter or select a value.</span></span>
-14. <span data-ttu-id="8a316-150">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="8a316-150">Click OK.</span></span>
-15. <span data-ttu-id="8a316-151">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8a316-151">Close the page.</span></span>
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="416c1-134">Sukurkite ciklo skaičiavimo planą</span><span class="sxs-lookup"><span data-stu-id="416c1-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="416c1-135">Pasirinkite Sandėlio valdymas > Nustatymai > Ciklo skaičiavimas > Ciklų skaičiavimo planai.</span><span class="sxs-lookup"><span data-stu-id="416c1-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="416c1-136">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="416c1-136">Click New.</span></span>
+3. <span data-ttu-id="416c1-137">Lauke Ciklo skaičiavimo plano ID įveskite vertę.</span><span class="sxs-lookup"><span data-stu-id="416c1-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="416c1-138">Lauke Aprašas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="416c1-139">Lauke Maksimalus ciklų skaičiavimo skaičius įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="416c1-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="416c1-140">Lauke Darbo šablonas įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="416c1-141">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="416c1-141">Click New.</span></span>
+8. <span data-ttu-id="416c1-142">Lauke Sekos numeris įveskite skaičių.</span><span class="sxs-lookup"><span data-stu-id="416c1-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="416c1-143">Rūšiavimo tvarka yra nuo mažiausio iki didžiausio skaičiaus.</span><span class="sxs-lookup"><span data-stu-id="416c1-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="416c1-144">Reikšmė turi būti didesnė už 0 (nulį).</span><span class="sxs-lookup"><span data-stu-id="416c1-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="416c1-145">Lauke Aprašas įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="416c1-146">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="416c1-146">Click Save.</span></span>
+11. <span data-ttu-id="416c1-147">Spustelėkite Apibrėžti produkto užklausą.</span><span class="sxs-lookup"><span data-stu-id="416c1-147">Click Define product query.</span></span>
+12. <span data-ttu-id="416c1-148">Sąraše pažymėkite pasirinktą eilutę.</span><span class="sxs-lookup"><span data-stu-id="416c1-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="416c1-149">Lauke Kriterijai įveskite arba pasirinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="416c1-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="416c1-150">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="416c1-150">Click OK.</span></span>
+15. <span data-ttu-id="416c1-151">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="416c1-151">Close the page.</span></span>
 

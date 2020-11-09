@@ -17,42 +17,42 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141435"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107357"
 ---
-# <a name="create-call-center-orders"></a><span data-ttu-id="6b5fb-103"> Skambučių centro užsakymų kūrimas</span><span class="sxs-lookup"><span data-stu-id="6b5fb-103">Create call center orders</span></span>
+# <a name="create-call-center-orders"></a><span data-ttu-id="50bae-103"> Skambučių centro užsakymų kūrimas</span><span class="sxs-lookup"><span data-stu-id="50bae-103">Create call center orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6b5fb-104">Ši procedūra padeda ieškoti kliento, kurti naują užsakymą, ieškoti produkto ir surinkti mokėjimą iš kliento.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="6b5fb-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT ir ji yra skirta pardavimo užsakymo klerkui.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="6b5fb-106">Išankstinės sąlygos: vartotojas, vykdantis procedūrą, yra nustatomas kaip skambučių centro vartotojas ir skelbiamas Fabrikam pusės metų katalogas su bent vienu šaltinio kodu jame.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
+<span data-ttu-id="50bae-104">Ši procedūra padeda ieškoti kliento, kurti naują užsakymą, ieškoti produkto ir surinkti mokėjimą iš kliento.</span><span class="sxs-lookup"><span data-stu-id="50bae-104">This procedure walks through looking up a customer, creating a new order, searching for a product, and collecting payment from the customer.</span></span> <span data-ttu-id="50bae-105">Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT ir ji yra skirta pardavimo užsakymo klerkui.</span><span class="sxs-lookup"><span data-stu-id="50bae-105">This procedure uses demo data company USRT and is intended for the Sales Order Clerk.</span></span> <span data-ttu-id="50bae-106">Išankstinės sąlygos: vartotojas, vykdantis procedūrą, yra nustatomas kaip skambučių centro vartotojas ir skelbiamas Fabrikam pusės metų katalogas su bent vienu šaltinio kodu jame.</span><span class="sxs-lookup"><span data-stu-id="50bae-106">Pre-requisites:  The user who completes the procedure is set up as a Call center user and the Fabrikam Semi-Annual Catalog is published with at least one Source code on it.</span></span>
 
-1. <span data-ttu-id="6b5fb-107">Eikite į Mažmeninė prekyba ir prekyba > Klientai > Klientų aptarnavimas.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="6b5fb-108">Lauke Ieškos tekstas įveskite kliento ieškos kriterijus.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-108">In the SearchText field, enter the search criteria to look up the customer.</span></span>
-    * <span data-ttu-id="6b5fb-109">Atlikdami šio pavyzdžio procedūrą įveskite „karen“ ir paspauskite skirtuką.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-109">For this example procedure type in 'karen' and press tab.</span></span>  
-3. <span data-ttu-id="6b5fb-110">Spustelėkite Ieškoti.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-110">Click Search.</span></span>
-    * <span data-ttu-id="6b5fb-111">Kadangi demonstraciniuose duomenyse tik yra tik vienas klientas vardu Karen, jis bus automatiškai pažymėtas.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-111">Since there is only one customer named Karen in demo data they will be automatically selected.</span></span>  
-4. <span data-ttu-id="6b5fb-112">Spustelėkite Naujas pardavimo užsakymas.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-112">Click New sales order.</span></span>
-5. <span data-ttu-id="6b5fb-113">Išplėskite arba sutraukite sekciją Pardavimo užsakymo antraštė.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-113">Expand or collapse the Sales order header section.</span></span>
-6. <span data-ttu-id="6b5fb-114">Pasirinkite katalogo šaltinio kodą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-114">Select the source code for the catalog.</span></span>
-    * <span data-ttu-id="6b5fb-115">Jei nėra jokių aktyvių šaltinio kodų, galite uždaryti lauką Šaltinis ir praleisti šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-115">If there are no active Source codes you can close the Source field and skip this step.</span></span>  
-7. <span data-ttu-id="6b5fb-116">Spustelėkite Pridėti eilutę.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-116">Click Add line.</span></span>
-8. <span data-ttu-id="6b5fb-117">Lauke Prekės numeris įveskite prekės ieškos terminą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-117">In the Item number field, enter the item search term.</span></span>
-    * <span data-ttu-id="6b5fb-118">Atlikdami šio pavyzdžio procedūrą, įveskite dalinį prekės numerį „8111“ ir paspauskite skirtuką. Pasirodys prekės ieškos langas.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-118">For this sample procedure enter a partial item number of '8111' and press tab. This will pop up the item search window.</span></span>  
-9. <span data-ttu-id="6b5fb-119">Pasirinkti produktą įtraukti į pardavimo užsakymą</span><span class="sxs-lookup"><span data-stu-id="6b5fb-119">Select the product to add to the sales order</span></span>
-10. <span data-ttu-id="6b5fb-120">Įveskite pardavimo kiekį.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-120">Enter the sales quantity.</span></span>
-11. <span data-ttu-id="6b5fb-121">Spustelėkite Kurti.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-121">Click Create.</span></span>
-12. <span data-ttu-id="6b5fb-122">Spustelėkite Baigti, kad užfiksuotumėte kliento mokėjimą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-122">Click Complete to capture the customer payment.</span></span>
-13. <span data-ttu-id="6b5fb-123">Spustelėkite Pridėti.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-123">Click Add.</span></span>
-    * <span data-ttu-id="6b5fb-124">Parinktis Įtraukti saitą yra skirtuke Mokėjimai. Išplėskite skirtuką Mokėjimai, jei jis sutrauktas.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
-14. <span data-ttu-id="6b5fb-125">Pasirinkite mokėjimo būdą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-125">Select the payment method.</span></span>
-    * <span data-ttu-id="6b5fb-126">Atlikdami šią procedūrą, parinkite grynųjų pinigų mokėjimo metodą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-126">For this procedure, select the cash payment method.</span></span>  
-15. <span data-ttu-id="6b5fb-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-127">Close the page.</span></span>
-16. <span data-ttu-id="6b5fb-128">Įveskite sumą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-128">Enter the amount.</span></span>
-    * <span data-ttu-id="6b5fb-129">Atlikdami šią procedūrą, įveskite sumą, lygią užsakymo balansui, kuris rodomas puslapyje Pardavimo užsakymo suvestinė, kairėje sumos lauko pusėje.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-129">For this procedure enter an amount equal to the order balance which can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="6b5fb-130">Bus galima įvykdyti užsakymą kaip visiškai apmokėtą.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-130">This will allow you to complete the order as fully paid.</span></span>  
-17. <span data-ttu-id="6b5fb-131">Spustelėkite GERAI.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-131">Click OK.</span></span>
-18. <span data-ttu-id="6b5fb-132">Spustelėkite Pateikti.</span><span class="sxs-lookup"><span data-stu-id="6b5fb-132">Click Submit.</span></span>
+1. <span data-ttu-id="50bae-107">Eikite į **Mažmeninė prekyba ir prekyba \> Klientai \> Klientų aptarnavimas**.</span><span class="sxs-lookup"><span data-stu-id="50bae-107">Go to **Retail and Commerce \> Customers \> Customer service**.</span></span>
+2. <span data-ttu-id="50bae-108">Lauke **Ieškos tekstas** įveskite kliento ieškos kriterijus.</span><span class="sxs-lookup"><span data-stu-id="50bae-108">For **SearchText** , enter the search criteria to look up the customer.</span></span>
+    * <span data-ttu-id="50bae-109">Atlikdami šio pavyzdžio procedūrą įveskite „Karen“ ir pasirinkite **skirtuką**.</span><span class="sxs-lookup"><span data-stu-id="50bae-109">For this example procedure, enter "Karen" and select **Tab**.</span></span>  
+3. <span data-ttu-id="50bae-110">Pasirinkite Ieškoti.</span><span class="sxs-lookup"><span data-stu-id="50bae-110">Select Search.</span></span>
+    * <span data-ttu-id="50bae-111">Kadangi demonstraciniuose duomenyse tik yra tik vienas klientas vardu Karen, šis rezultatas bus automatiškai pažymėtas.</span><span class="sxs-lookup"><span data-stu-id="50bae-111">Since there is only one customer named "Karen" in demo data, the result will be automatically selected.</span></span>  
+4. <span data-ttu-id="50bae-112">Pasirinkite **Naujas pardavimo užsakymas**.</span><span class="sxs-lookup"><span data-stu-id="50bae-112">Select **New sales order**.</span></span>
+5. <span data-ttu-id="50bae-113">Išplėskite arba sutraukite antraštės sekciją **Pardavimo užsakymas**.</span><span class="sxs-lookup"><span data-stu-id="50bae-113">Expand or collapse the **Sales order** header section.</span></span>
+6. <span data-ttu-id="50bae-114">Pasirinkite katalogo šaltinio kodą.</span><span class="sxs-lookup"><span data-stu-id="50bae-114">Select the source code for the catalog.</span></span>
+    * <span data-ttu-id="50bae-115">Jei nėra jokių aktyvių šaltinio kodų, galite praleisti šį veiksmą.</span><span class="sxs-lookup"><span data-stu-id="50bae-115">If there are no active source codes you can skip this step.</span></span>  
+7. <span data-ttu-id="50bae-116">Pasirinkite **Pridėti eilutę**.</span><span class="sxs-lookup"><span data-stu-id="50bae-116">Select **Add line**.</span></span>
+8. <span data-ttu-id="50bae-117">Lauke **Prekės numeris** įveskite prekės ieškos terminą.</span><span class="sxs-lookup"><span data-stu-id="50bae-117">For **Item number** , enter the item search term.</span></span>
+    * <span data-ttu-id="50bae-118">Atlikdami šio pavyzdžio procedūrą, įveskite dalinį prekės numerį „8111“ ir paspauskite skirtuką. Pasirodys prekės ieškos langas.</span><span class="sxs-lookup"><span data-stu-id="50bae-118">For this sample procedure, enter a partial item number of '8111' and press tab. This action will bring up the item search window.</span></span>  
+9. <span data-ttu-id="50bae-119">Pasirinkite produktą, kurį norite įtraukti į pardavimo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="50bae-119">Select the product to add to the sales order.</span></span>
+10. <span data-ttu-id="50bae-120">Įveskite pardavimo kiekį.</span><span class="sxs-lookup"><span data-stu-id="50bae-120">Enter the sales quantity.</span></span>
+11. <span data-ttu-id="50bae-121">Pasirinkite **Kurti**.</span><span class="sxs-lookup"><span data-stu-id="50bae-121">Select **Create**.</span></span>
+12. <span data-ttu-id="50bae-122">Pasirinkite **Baigti** , norėdami užfiksuoti kliento mokėjimą.</span><span class="sxs-lookup"><span data-stu-id="50bae-122">Select **Complete** to capture the customer payment.</span></span>
+13. <span data-ttu-id="50bae-123">Pasirinkite **Įtraukti**.</span><span class="sxs-lookup"><span data-stu-id="50bae-123">Select **Add**.</span></span>
+    * <span data-ttu-id="50bae-124">Parinktis Įtraukti saitą yra skirtuke Mokėjimai. Išplėskite skirtuką Mokėjimai, jei jis sutrauktas.</span><span class="sxs-lookup"><span data-stu-id="50bae-124">The Add link is in the Payments tab. Expand the Payments tab if it is collapsed.</span></span>  
+14. <span data-ttu-id="50bae-125">Pasirinkite mokėjimo būdą.</span><span class="sxs-lookup"><span data-stu-id="50bae-125">Select the payment method.</span></span>
+    * <span data-ttu-id="50bae-126">Atlikdami šią procedūrą, parinkite grynųjų pinigų mokėjimo metodą.</span><span class="sxs-lookup"><span data-stu-id="50bae-126">For this procedure, select the cash payment method.</span></span>  
+15. <span data-ttu-id="50bae-127">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="50bae-127">Close the page.</span></span>
+16. <span data-ttu-id="50bae-128">Įveskite sumą.</span><span class="sxs-lookup"><span data-stu-id="50bae-128">Enter the amount.</span></span>
+    * <span data-ttu-id="50bae-129">Atlikdami šią procedūrą, įveskite sumą, lygią užsakymo balansui, kuris rodomas puslapyje Pardavimo užsakymo suvestinė, kairėje sumos lauko pusėje.</span><span class="sxs-lookup"><span data-stu-id="50bae-129">For this procedure, enter an amount equal to the order balance that can be seen in the Sales order summary page to the left of the amount field.</span></span> <span data-ttu-id="50bae-130">Šis veiksmas leis įvykdyti užsakymą kaip visiškai apmokėtą.</span><span class="sxs-lookup"><span data-stu-id="50bae-130">This action will allow you to complete the order as fully paid.</span></span>  
+17. <span data-ttu-id="50bae-131">Pasirinkite **Gerai**.</span><span class="sxs-lookup"><span data-stu-id="50bae-131">Select **OK**.</span></span>
+18. <span data-ttu-id="50bae-132">Pasirinkite **Pateikti**.</span><span class="sxs-lookup"><span data-stu-id="50bae-132">Select **Submit**.</span></span>
 

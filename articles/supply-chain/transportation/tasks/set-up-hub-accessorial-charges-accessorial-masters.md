@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSHubAccessorial,TMSAccessorialMaster
+ms.search.form: TMSHubAccessorial, TMSAccessorialMaster, TMSCarrierAccessorial
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -17,40 +17,40 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82cd18c7109b5a0287ee2eb8b7adf901c97ec7c7
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: f728339ed9a0c6fffa8f6d8171976aafc41fc75e
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982629"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016544"
 ---
-# <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="8bc30-103">Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus</span><span class="sxs-lookup"><span data-stu-id="8bc30-103">Set up hub accessorial charges and accessorial masters</span></span>
+# <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="d5310-103">Nustatyti tranzito punktų papildomų paslaugų išlaidas ir papildomų paslaugų šablonus</span><span class="sxs-lookup"><span data-stu-id="d5310-103">Set up hub accessorial charges and accessorial masters</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="8bc30-104">Ši procedūra nurodo, kaip sukurti tranzito punkto papildomų paslaugų šabloną ir jį panaudoti tranzito punkto papildomų paslaugų mokesčiui sukurti.</span><span class="sxs-lookup"><span data-stu-id="8bc30-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="8bc30-105">Procedūra naudoja USMF duomenų rinkinį.</span><span class="sxs-lookup"><span data-stu-id="8bc30-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="8bc30-106">Šį nustatymą paprastai atlieka transportavimo koordinatorius.</span><span class="sxs-lookup"><span data-stu-id="8bc30-106">This set up will typically be done by a transportation coordinator.</span></span>
+<span data-ttu-id="d5310-104">Ši procedūra nurodo, kaip sukurti tranzito punkto papildomų paslaugų šabloną ir jį panaudoti tranzito punkto papildomų paslaugų mokesčiui sukurti.</span><span class="sxs-lookup"><span data-stu-id="d5310-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="d5310-105">Procedūra naudoja USMF duomenų rinkinį.</span><span class="sxs-lookup"><span data-stu-id="d5310-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="d5310-106">Šį nustatymą paprastai atlieka transportavimo koordinatorius.</span><span class="sxs-lookup"><span data-stu-id="d5310-106">This set up will typically be done by a transportation coordinator.</span></span>
 
 
-## <a name="set-up-a-hub-master"></a><span data-ttu-id="8bc30-107">Pagrindinio tranzito punkto nustatymas</span><span class="sxs-lookup"><span data-stu-id="8bc30-107">Set up a hub master</span></span>
-1. <span data-ttu-id="8bc30-108">Pasirinkite Transportavimo valdymas > Nustatymas > Vertinimas > Papildomų paslaugų šablonai.</span><span class="sxs-lookup"><span data-stu-id="8bc30-108">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
-2. <span data-ttu-id="8bc30-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8bc30-109">Click New.</span></span>
-3. <span data-ttu-id="8bc30-110">Lauke „Papildomų paslaugų šablonas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8bc30-110">In the Accessorial master field, type a value.</span></span>
-4. <span data-ttu-id="8bc30-111">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8bc30-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="8bc30-112">Lauke „Papildomų paslaugų tipas“ pasirinkite „Tranzito punktas“.</span><span class="sxs-lookup"><span data-stu-id="8bc30-112">In the Accessorial type field, select 'Hub'.</span></span>
-6. <span data-ttu-id="8bc30-113">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="8bc30-113">Click Save.</span></span>
-7. <span data-ttu-id="8bc30-114">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8bc30-114">Close the page.</span></span>
+## <a name="set-up-a-hub-master"></a><span data-ttu-id="d5310-107">Pagrindinio tranzito punkto nustatymas</span><span class="sxs-lookup"><span data-stu-id="d5310-107">Set up a hub master</span></span>
+1. <span data-ttu-id="d5310-108">Pasirinkite Transportavimo valdymas > Nustatymas > Vertinimas > Papildomų paslaugų šablonai.</span><span class="sxs-lookup"><span data-stu-id="d5310-108">Go to Transportation management > Setup > Rating > Accessorial masters.</span></span>
+2. <span data-ttu-id="d5310-109">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="d5310-109">Click New.</span></span>
+3. <span data-ttu-id="d5310-110">Lauke „Papildomų paslaugų šablonas“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d5310-110">In the Accessorial master field, type a value.</span></span>
+4. <span data-ttu-id="d5310-111">Lauke Pavadinimas surinkite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d5310-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="d5310-112">Lauke „Papildomų paslaugų tipas“ pasirinkite „Tranzito punktas“.</span><span class="sxs-lookup"><span data-stu-id="d5310-112">In the Accessorial type field, select 'Hub'.</span></span>
+6. <span data-ttu-id="d5310-113">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="d5310-113">Click Save.</span></span>
+7. <span data-ttu-id="d5310-114">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="d5310-114">Close the page.</span></span>
 
-## <a name="set-up-a-hub-accessorial-charge"></a><span data-ttu-id="8bc30-115">Nustatyti tranzito punkto papildomų paslaugų mokestį</span><span class="sxs-lookup"><span data-stu-id="8bc30-115">Set up a hub accessorial charge</span></span>
-1. <span data-ttu-id="8bc30-116">Pasirinkite Transportavimo valdymas > Nustatymas > Vertinimas > Tranzito punkto papildomų paslaugų mokesčiai.</span><span class="sxs-lookup"><span data-stu-id="8bc30-116">Go to Transportation management > Setup > Rating > Hub accessorial charges.</span></span>
-2. <span data-ttu-id="8bc30-117">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="8bc30-117">Click New.</span></span>
-3. <span data-ttu-id="8bc30-118">Lauke „Tranzito punkto papildomų paslaugų ID“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="8bc30-118">In the Hub accessorial ID field, type a value.</span></span>
-4. <span data-ttu-id="8bc30-119">Lauke „Tranzito punktas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="8bc30-119">In the Hub field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="8bc30-120">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="8bc30-120">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="8bc30-121">Lauke „Tranzito punkto padėtis“ pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="8bc30-121">In the Hub position field, select an option.</span></span>
-    * <span data-ttu-id="8bc30-122">Galite sukurti mokestį už paėmimą arba atidavimą.</span><span class="sxs-lookup"><span data-stu-id="8bc30-122">You can either create the charge as a pickup or drop-off.</span></span> <span data-ttu-id="8bc30-123">Atsižvelgiant į jūsų pasirinkimą, mokestis bus taikomas atitinkamam transportavimo segmentui jūsų maršrute.</span><span class="sxs-lookup"><span data-stu-id="8bc30-123">Depending on your selection the charge will be applied to the corresponding transportation segment on your route.</span></span>  
-7. <span data-ttu-id="8bc30-124">Lauke „Papildomų paslaugų šablonas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="8bc30-124">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="8bc30-125">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="8bc30-125">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="8bc30-126">Pasirinkite šabloną, kurį ką tik sukurėte.</span><span class="sxs-lookup"><span data-stu-id="8bc30-126">Select the master you just created.</span></span>  
-9. <span data-ttu-id="8bc30-127">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="8bc30-127">Click Save.</span></span>
-10. <span data-ttu-id="8bc30-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="8bc30-128">Close the page.</span></span>
+## <a name="set-up-a-hub-accessorial-charge"></a><span data-ttu-id="d5310-115">Nustatyti tranzito punkto papildomų paslaugų mokestį</span><span class="sxs-lookup"><span data-stu-id="d5310-115">Set up a hub accessorial charge</span></span>
+1. <span data-ttu-id="d5310-116">Pasirinkite Transportavimo valdymas > Nustatymas > Vertinimas > Tranzito punkto papildomų paslaugų mokesčiai.</span><span class="sxs-lookup"><span data-stu-id="d5310-116">Go to Transportation management > Setup > Rating > Hub accessorial charges.</span></span>
+2. <span data-ttu-id="d5310-117">Spustelėkite Naujas.</span><span class="sxs-lookup"><span data-stu-id="d5310-117">Click New.</span></span>
+3. <span data-ttu-id="d5310-118">Lauke „Tranzito punkto papildomų paslaugų ID“ įveskite reikšmę.</span><span class="sxs-lookup"><span data-stu-id="d5310-118">In the Hub accessorial ID field, type a value.</span></span>
+4. <span data-ttu-id="d5310-119">Lauke „Tranzito punktas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="d5310-119">In the Hub field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="d5310-120">Sąraše raskite ir pasirinkite norimą įrašą.</span><span class="sxs-lookup"><span data-stu-id="d5310-120">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="d5310-121">Lauke „Tranzito punkto padėtis“ pasirinkite parinktį.</span><span class="sxs-lookup"><span data-stu-id="d5310-121">In the Hub position field, select an option.</span></span>
+    * <span data-ttu-id="d5310-122">Galite sukurti mokestį už paėmimą arba atidavimą.</span><span class="sxs-lookup"><span data-stu-id="d5310-122">You can either create the charge as a pickup or drop-off.</span></span> <span data-ttu-id="d5310-123">Atsižvelgiant į jūsų pasirinkimą, mokestis bus taikomas atitinkamam transportavimo segmentui jūsų maršrute.</span><span class="sxs-lookup"><span data-stu-id="d5310-123">Depending on your selection the charge will be applied to the corresponding transportation segment on your route.</span></span>  
+7. <span data-ttu-id="d5310-124">Lauke „Papildomų paslaugų šablonas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.</span><span class="sxs-lookup"><span data-stu-id="d5310-124">In the Accessorial master field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="d5310-125">Sąraše spustelėkite saitą pasirinktoje eilutėje.</span><span class="sxs-lookup"><span data-stu-id="d5310-125">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="d5310-126">Pasirinkite šabloną, kurį ką tik sukurėte.</span><span class="sxs-lookup"><span data-stu-id="d5310-126">Select the master you just created.</span></span>  
+9. <span data-ttu-id="d5310-127">Spustelėkite Įrašyti.</span><span class="sxs-lookup"><span data-stu-id="d5310-127">Click Save.</span></span>
+10. <span data-ttu-id="d5310-128">Uždarykite puslapį.</span><span class="sxs-lookup"><span data-stu-id="d5310-128">Close the page.</span></span>
 
