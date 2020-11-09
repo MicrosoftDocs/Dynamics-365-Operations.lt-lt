@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c240e11394582ad1af563ee4a8e58632babfff3a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b02bfd83cfc4f1585c9044ebca8b20413042124a
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976384"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006171"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Savikainos sumavimo strategija ir pridėtinių išlaidų skaičiavimas 
 
@@ -76,7 +76,7 @@ Organizacijos ataskaitoms keliamus reikalavimus atitinkančią dimensijos hierar
 
 **Dimensijų hierarchija**
 
-|              | Dimensijos narių intervalai |                     |
+|    &nbsp;    | Dimensijos narių intervalai | &nbsp;              |
 |--------------|-------------------------|---------------------|
 | **Mazgai**        | **Iš dimensijos nario**   | **Į dimensijos narį** |
 | Organizacija |                         |                     |
@@ -97,7 +97,7 @@ Strategijai keliamą reikalavimą atitinkančią dimensijos hierarchiją galima 
 
 **Dimensijų hierarchija**
 
-|                         | Dimensijos narių intervalai |                     |
+|      &nbsp;             | Dimensijos narių intervalai |      &nbsp;         |
 |-------------------------|-------------------------|---------------------|
 | Mazgai                   | Iš dimensijos nario   | Į dimensijos narį |
 | Pelno ir nuostolio išrašas |                         |                     |
@@ -105,7 +105,7 @@ Strategijai keliamą reikalavimą atitinkančią dimensijos hierarchiją galima 
 
 Apdorojus DK įrašus išlaidų įrašo likutis pagal išlaidų objektą atrodo taip.
 
-|                      | **Išlaidų objektas** |           |           |           | **Bendroji suma**     |
+|      &nbsp;          | **Išlaidų objektas** | &nbsp;    |  &nbsp;   |  &nbsp;   | **Bendroji suma**     |
 |----------------------|-----------------|-----------|-----------|-----------|---------------|
 | **Savikainos elementas**     | **CC001**       | **CC002** | **CC003** | **CC004** |               |
 | **1001 Elektros energija** | 100,00          | 200,00    | 6.000,00  | 2.000,00  | **8.300,00**  |
@@ -159,7 +159,7 @@ Jei norite sužinoti, kaip vyksta išlaidų srautas tarp organizacijos išlaidų
 
 Išlaidų elemento dimensijos narius galima nustatyti toliau nurodytu būdu.
 
-| Savikainos elementai | Tipas          |               |
+| Savikainos elementai | Tipas          |     &nbsp;    |
 |---------------|---------------|---------------|
 | 1001          | Elektros energija   | Pagrindinis       |
 | 1002          | Atlyginimai      | Pagrindinis       |
@@ -179,14 +179,14 @@ Atsiradus nujiems dimensijos nariams dimensijų hierarchiją **Pelno ir nuostoli
 
 **Dimensijų hierarchija**
 
-|                         | Dimensijos narių intervalai |                     |
+|      &nbsp;             | Dimensijos narių intervalai |  &nbsp;             |
 |-------------------------|-------------------------|---------------------|
 | Mazgai                   | Iš dimensijos nario   | Į dimensijos narį |
 | Pelno ir nuostolio išrašas |                         |                     |
 | &nbsp;&nbsp;&nbsp;&nbsp;Pirminės išlaidos                        | 10001                   | 10003               |
 | &nbsp;&nbsp;&nbsp;&nbsp;Antrinė savikaina                         | **SC-CC001**            | **SC-CC004**        |
 
-Sukurkite **Savikainos sumavimo strategiją**, kurioje kiekvienas išlaidų centras susietas su atitinkamu išlaidų elementu, kurio tipas **Antrinis**.
+Sukurkite **Savikainos sumavimo strategiją** , kurioje kiekvienas išlaidų centras susietas su atitinkamu išlaidų elementu, kurio tipas **Antrinis**.
 
 **Savikainos sumavimo strategijos**
 
@@ -225,7 +225,7 @@ Dabar sukūrusi **Išlaidų objekto likučio žurnalo įrašus** sistema taikys 
 > [!NOTE]
 > Jeigu esama strategijos, žurnalo įrašai sukuriami pagal **Išlaidų sumavimo strategijoje** nurodytas taisykles. Rodomas likutis yra pridėtinių išlaidų skaičiavimo likutis.
 
-Puslapyje **Išlaidų objekto išlaidų likučio žurnalo įrašo informacija**, kuris pasiekiamas peržiūrint žurnalo įrašus, rodoma, kaip gaunamas likutis.
+Puslapyje **Išlaidų objekto išlaidų likučio žurnalo įrašo informacija** , kuris pasiekiamas peržiūrint žurnalo įrašus, rodoma, kaip gaunamas likutis.
 
 **Pavyzdys: išlaidų objekto CC002 Finansai žurnalo įrašas**
 
@@ -258,7 +258,7 @@ Naudodami dimensijų hierarchijas galite peržiūrėti skirtingų telkimo lygių
 
 Toliau pateikiamas „Power Pivot“ ataskaitų kūrimo naudojant „Excel“ pavyzdys.
 
-| **Pelno ir nuostolio išrašas** | **Išlaidų objektas** |                |               |               |  **Bendroji suma**    |
+| **Pelno ir nuostolio išrašas** | **Išlaidų objektas** |      &nbsp;    |   &nbsp;      |     &nbsp;    |  **Bendroji suma**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **Pirminės išlaidos**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -276,7 +276,7 @@ Naudodami **Išlaidų sumavimo strategiją** ir **Antrinio tipo išlaidų elemen
 
 Jeigu toks pats pavyzdys būtų buvęs atliktas nesukuriant **Išlaidų sumavimo strategijos,** ataskaitų rezultatas būtų parodytas toliau. Išlaidų srautas teisingas, bet atsekamumo ir įžvalgų, kaip vyksta išlaidų srautas iš vieno išlaidų centro į kitą, nebėra.
 
-| **Pelno ir nuostolio išrašas** | **Išlaidų objektas** |           |               |               |          **Bendroji suma**  |
+| **Pelno ir nuostolio išrašas** | **Išlaidų objektas** |   &nbsp;  |    &nbsp;     |  &nbsp;       |          **Bendroji suma**  |
 |-----------------------------|-----------------|-----------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002** | **CC003**     | **CC004**     |               |
 | **Pirminės išlaidos**            | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |

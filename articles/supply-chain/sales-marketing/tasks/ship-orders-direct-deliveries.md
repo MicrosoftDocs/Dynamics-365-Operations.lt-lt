@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchTablePart, PurchEditLines, PurchTable, PurchTableReferences, MCRDropShipWorkbench, SalesShippingLine
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 98ce5584f869fef57b542e6aa364045554ef0fde
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984183"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018519"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Užsakymų siuntimas kaip tiesioginių pristatymų
 
@@ -33,8 +33,8 @@ ms.locfileid: "3984183"
 1. Eikite į **Valdymo skiltį > Moduliai > Gautinos sumos > Užsakymai > Visi pardavimo užsakymai**.
 2. Pasirinkite **Naujas**.
 3. Lauke **Kliento sąskaita** įveskite arba pasirinkite reikšmę ir tada pasirinkite **Gerai**.
-4. Įveskite arba pasirinkite vertes laukuose **Prekės numeris** ir **Svetainė**, tada spustelėkite **Įrašyti**.
-5. Tada veiksmų srityje, skirtuke **Pardavimo užsakymas**, pasirinkite **Tiesioginis pristatymas**. Puslapyje Kurti pristatymą išvardytos visos atvirų pardavimo užsakymų eilutės taip, kaip nukopijuota iš pardavimo užsakymo. Galite peržiūrėti užsakymo informaciją ir, jei reikia, galite modifikuoti informaciją, pvz., pirkimo kiekį ir kainų nustatymo sąlygas, prieš kurdami tiesioginį pristatymą.  
+4. Įveskite arba pasirinkite vertes laukuose **Prekės numeris** ir **Svetainė** , tada spustelėkite **Įrašyti**.
+5. Tada veiksmų srityje, skirtuke **Pardavimo užsakymas** , pasirinkite **Tiesioginis pristatymas**. Puslapyje Kurti pristatymą išvardytos visos atvirų pardavimo užsakymų eilutės taip, kaip nukopijuota iš pardavimo užsakymo. Galite peržiūrėti užsakymo informaciją ir, jei reikia, galite modifikuoti informaciją, pvz., pirkimo kiekį ir kainų nustatymo sąlygas, prieš kurdami tiesioginį pristatymą.  
 6. Lauke **Įtraukti viską** pasirinkite **Taip**.
     - Jei tiesioginį pristatymą norite sugeneruoti tik pardavimo užsakymo eilučių pogrupiui, pažymėkite jas atskirai.  
     - Lauke **Tiekėjo sąskaita** gali būti įvestas arba dar nebūti įvestas tiekėjo numeris. Jei yra nustatytas produkto numatytasis tiekėjas (susietame Prekės padengime), šis tiekėjas bus nukopijuotas į eilutę. Priešingu atveju, tiekėją turite įvesti rankiniu būdu. Šiame pavyzdyje, kitame veiksme pasirinksime naują tiekėją, net jei jis jau yra įvestas.   

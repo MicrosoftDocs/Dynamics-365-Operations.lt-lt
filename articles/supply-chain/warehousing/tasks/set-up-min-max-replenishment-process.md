@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence
+ms.search.form: WHSInventFixedLocation, InventItemIdLookupSimple, WMSLocationIdLookup, WHSLocDirTable, InventLocationIdLookup, SysQueryForm, WHSWorkTemplateTable, WHSReplenishmentTemplates, UnitOfMeasureLookup, SysQueryTableLookUp, SysQueryFieldLookUp, SysRecurrence, WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2997a39311e371443de3bc11ace17ab36be20e8
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383578"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016729"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.–maks. papildymo proceso nustatymas
 
@@ -82,15 +82,15 @@ ms.locfileid: "3383578"
 1. Eikite į **Sandėlio valdymas > Sąranka > Papildymas > Papildymo šablonai**. Papildymo šablonas naudojamas apibrėžti, kurias prekes, kiekius ir vietą reikia papildyti.
 2. **Veiksmų srityje** spustelėkite **Nauja**.
 3. Lauke **Papildymo šablonas** įveskite reikšmę. Sukurkite šablono pavadinimą, nurodantį, kad jis yra skirtas „min / maks“ papildymams.  
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Pažymėkite žymės langelį **Leisti poreikio bangai naudoti nerezervuotus kiekius**. Jei pasirenkate šią parinktį, atliekant bangos bangos paklausos papildymą galima vartoti kiekius, kurie yra susiję su min. / maks. papildymu. Pavyzdžiui, tai gali būti naudinga, jei „min / maks“ papildymo darbai neapdorojami iš karto, kad būtų išvengta papildomo ir nereikalingo papildymo.
 6. Dalyje **Darbo šablono informacija** spustelėkite **Naujas**.
 7. Lauke **Sekos skaičius** įveskite skaičių.
-8. Lauke **Aprašo laukas**surinkite reikšmę.
+8. Lauke **Aprašo laukas** surinkite reikšmę.
 9. Sąraše pažymėkite pasirinktą eilutę.
 10. Lauke **Papildymo vienetas** įveskite arba pasirinkite reikšmę. Pvz., pasirinkite vnt. Šis parametras yra privalomas. Juo galima nurodyti papildymo darbo matavimo vienetą, kuris skiriasi nuo nurodyto šio šablono mažiausio ir didžiausio atsargų lygio vieneto.
 11. Lauke **Darbo šablonas** įveskite arba pasirinkite reikšmę. Pasirinkite darbo šabloną, kurį sukūrėte anksčiau.  
-12. Lauke **Mažiausias kiekis** įveskite skaičių. Pasirinkite mažiausią kiekį, kuris turėtų paleisti papildymą. Pavyzdžiui, nustatykite 50. Jei papildote fiksuotą vietą ir parinktis **Papildyti tuščias fiksuotas vietas** nustatyta į „Taip“, šį nustatymą galite palikti nustatytą į 0. Taip pat rekomenduojame pasirinkti parinktį **Papildyti atsargas tik fiksuotose vietose**, kad procesas būtų našesnis.
+12. Lauke **Mažiausias kiekis** įveskite skaičių. Pasirinkite mažiausią kiekį, kuris turėtų paleisti papildymą. Pavyzdžiui, nustatykite 50. Jei papildote fiksuotą vietą ir parinktis **Papildyti tuščias fiksuotas vietas** nustatyta į „Taip“, šį nustatymą galite palikti nustatytą į 0. Taip pat rekomenduojame pasirinkti parinktį **Papildyti atsargas tik fiksuotose vietose** , kad procesas būtų našesnis.
 13. Lauke **Didžiausias kiekis** įveskite skaičių. Pavyzdžiui, nustatykite 100.  
 14. Lauke **Vienetas** įveskite arba pasirinkite reikšmę. Priskirkite mažiausio ir didžiausio kiekių vienetą. Pavyzdžiui, nustatykite „vnt.‟.  
 15. Pažymėkite žymės langelį **Papildyti tuščias fiksuotas vietas**. Pažymėkite šį žymės langelį, kad fiksuotas vietas papildytumėte, kai jos tuščios. Kitu atveju bus papildytos tik vietos, kuriose yra turimas kiekis.

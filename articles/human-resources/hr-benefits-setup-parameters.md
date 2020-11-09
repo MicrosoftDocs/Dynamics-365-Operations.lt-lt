@@ -2,7 +2,7 @@
 title: Nustatyti išmokų valdymo parametrus
 description: Išmokų valdymo parametrų konfigūravimas programoje „Microsoft Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 85bbe5d3b422f2f29f1d1fe8ee269b407da691c2
-ms.sourcegitcommit: 9dc5c7dd5877cc6e7cd0059d173bcd8052ba13bc
+ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
+ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3599361"
+ms.lasthandoff: 10/20/2020
+ms.locfileid: "4057033"
 ---
 # <a name="set-benefits-management-parameters"></a>Išmokų valdymo parametrų nustatymas
 
@@ -43,7 +43,7 @@ Jeigu norite nustatyti atostogų planus programoje „Microsoft Dynamics 365 Hum
    | **Pakartotinai atidaryti priežasties kodą** | Priežasties kodas, naudojamas pakartotinai atidarant darbuotojo išmokų planą. Jis rodomas dialogo lange vykdant atšaukimo procesą. Jei reikia, vartotojai gali keisti **pakartotinio atidarymo priežasties kodą**. | 
    | **Gyvenimo įvykio priežasties kodas** | Priežasties kodas, kuris bus naudojamas įvykus gyvenimo įvykiui. |
    | **Tarifo pakeitimo priežasties kodas** | Priežasties kodas, kuris bus naudojamas atšaukiant ir iš naujo atidarant darbuotojo išmokų planą tarifo keitimo atnaujinimo proceso metu. Jis nurodo, kokie įrašai buvo pakeisti vykdant tarifo keitimo atnaujinimo procesą. |
-   | **Metinis išmokų atlyginimas** | Leidžia jums nustatyti **Metinės išmokos naudos** sumą darbuotojui.  Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatant padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. |
+   | **Metinis išmokų atlyginimas** | Leidžia jums nustatyti **Metinės išmokos naudos** sumą darbuotojui. Žmogiškieji ištekliai naudos **Metinės algos išmokos** sumą nustatant padengiamas sumas, o ne fiksuotą metinio atlyginimo sumą. |
    | **Nauja samda tinkama** | Nurodo, ar naujos samdos yra tinkamos. |
    | **Naujos samdos registracijos laikotarpis** | Laikotarpis, kuriuo leidžiama naujos samdos registracija.</br></br>**Pastaba**. Šiuo parametru perrašomas bet koks naujas registracijos laikotarpis, kurį nustatėte plano tinkamumo taisyklėje. |
    | **Numatytasis mokėjimo dažnumas** | Nustatytasis mokėjimo dažnumas naudotinas, kai yra įtraukiami nauji darbuotojai. |
@@ -56,9 +56,9 @@ Jeigu norite nustatyti atostogų planus programoje „Microsoft Dynamics 365 Hum
 
 1. **Išmokų valdymo** darbo srityje, **Nustatymo** skyriuje, pasirinkite **Žmogiškųjų išteklių pasidalyti parametrai**.
 
-2. Skirtuke **Darbuotojų savitarna** įveskite šių laukų reikšmes:
+2. Skirtuke **Išmokų valdymas** įveskite toliau pateiktų laukų reikšmes.
 
-   | Laukas | Aprašymas |
+   | Laukas | Aprašas |
    | --- | --- |
    | **Išmokos patvirtinimas** | Patvirtinimo tekstas, naudojamas išsiregistruojant iš savitarnos išmokų dalies. |
    | **Automatiškai parinkti gavėjus** | Nurodoma, ar automatiškai pasirenkami priklausomieji ir išmokų gavėjai atsižvelgiant į tinkamumą plano parinktims. |

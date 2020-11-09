@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e72249e26fb8f291f804cf5f2e4ce98bf88cd5bf
-ms.sourcegitcommit: 70d0b4e6bdacc15ec75935550ae55fc02cb79624
+ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/15/2020
-ms.locfileid: "3596256"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017695"
 ---
 # <a name="outbound-sorting"></a>Siunčiamas rūšiavimas
 
@@ -46,7 +47,7 @@ Dėl šio scenarijaus, privalote naudoti standartinius **USMF** demo duomenis ir
 Ši sąranka automatiškai apdoroja bangą ir sukuria darbą, kai sandėliui yra išduodama linija.
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
-1. Šabloniniame sąraše pasirinkite**Sandėlis 62**.
+1. Šabloniniame sąraše pasirinkite **Sandėlis 62**.
 1. „FastTab“ **Bendra** įsitikinkite, kad **Bangos apdorojimas išleidžiant į sandėlį** parinktis yra nustatyta ties *Taip* padėtimi.
 
 ### <a name="set-up-a-worker"></a>Nustatykite darbuotoją
@@ -69,7 +70,7 @@ Pakavimo stotis yra laikoma vieta. Sandėlio darbuotojai, pasirašantys pakavimo
     - **Meniu pavadinimas:** *Pagrindinis*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. Pasirodo**Slaptažodžio nustatymas** teksto laukelis, kuriame galit sukurti paprastą slaptažodį, kurį vartotojas galės naudoti prisijungdamas prie mobilios programos. Nustatykite toliau nurodytas reikšmes.
+1. Pasirodo **Slaptažodžio nustatymas** teksto laukelis, kuriame galit sukurti paprastą slaptažodį, kurį vartotojas galės naudoti prisijungdamas prie mobilios programos. Nustatykite toliau nurodytas reikšmes.
 
     - **Slaptažodis:** Įveskite paprastą slaptažodį.
     - **Patvirtinti slaptažodį:** Įveskite tą patį slaptažodį dar kartą.
@@ -145,11 +146,11 @@ Esant šiam scenarijui, sukursite siunčiamo rūšiavimo šabloną tam, kad suku
     - **Rūšiavimo patvirtinimas:** *Padėties nuskaitymas*
     - **Sukurkite veiksmą vietos uždaryme:** *Taip*
 
-        Jei ši parinktis nustatyta *Taip*, vietos uždarymo metu, veiksmas bus sukuriamas inventoriaus nugabenimui į galutinę siuntimo vietą. Jei ši parinktis nustatyta *Ne*, inventorius bus nedelsiant paimtas į užsakymą, kai padėtis bus uždaryta.
+        Jei ši parinktis nustatyta *Taip* , vietos uždarymo metu, veiksmas bus sukuriamas inventoriaus nugabenimui į galutinę siuntimo vietą. Jei ši parinktis nustatyta *Ne* , inventorius bus nedelsiant paimtas į užsakymą, kai padėtis bus uždaryta.
 
     - **Padėties priskyrimas:** *Automatinis*
 
-        Jei šis laukelis nustatytas į *Rankinį*, vartotojas privalo visuomet nurodyti padėtį, kurioje inventorius turi būti rūšiuojamas. Jei jis nustatytas į *Automatinį*, sistema automatiškai ves inventorių į bet kurią jai prieinamą padėtį pagal rūšiavimo šablono pertrūkius.
+        Jei šis laukelis nustatytas į *Rankinį* , vartotojas privalo visuomet nurodyti padėtį, kurioje inventorius turi būti rūšiuojamas. Jei jis nustatytas į *Automatinį* , sistema automatiškai ves inventorių į bet kurią jai prieinamą padėtį pagal rūšiavimo šablono pertrūkius.
 
 1. Pasirinkite **Išsaugoti** tam, kad **Redaguoti užklausą** mygtuką pastatytumėte į Veiksmų juostą.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
@@ -208,7 +209,7 @@ Sukurkite naują pakavimo profilį, kuris bus naudojamas kartu su rūšiavimo fu
     - **Konteinerio pakavimo politika:** *Rūšiuoti*
     - **Talpyklos identifikavimo numerio režimas:** *Automatinis*
     - **Talpyklos tipas:** *Plati dėžė*
-    - **Automatinis talpyklos sukūrimas jam esant uždarytam:** Išvalyta (= *Ne*)
+    - **Automatinis talpyklos sukūrimas jam esant uždarytam:** Išvalyta (= *Ne* )
 
 1. Pasirinkite **Įrašyti**.
 
@@ -244,11 +245,11 @@ Sukurkite mobilaus prietaiso meniu elementus padėklų rūšiavimo metu sukūrim
 
     - **Veiksmo kodas:** *Siunčiamas rūšiavimas*
 
-        Kai laukelis nustatytas į *Siunčiamą rūšiavimą*, rodomas **Siunčiamo rūšiavimo šablono identifikavimo kodo** laukelis.
+        Kai laukelis nustatytas į *Siunčiamą rūšiavimą* , rodomas **Siunčiamo rūšiavimo šablono identifikavimo kodo** laukelis.
 
     - **Naudoti proceso gidą:** *Taip*
 
-        Kai **Veiksmo kodo** laukelis yra nustatytas į *Siunčiamą rūšiavimą*, ši parinktis automatiškai nustatoma į *Taip*.
+        Kai **Veiksmo kodo** laukelis yra nustatytas į *Siunčiamą rūšiavimą* , ši parinktis automatiškai nustatoma į *Taip*.
 
     - **Siunčiamo rūšiavimo šablono identifikavimo kodas:** *Automatinis veiksmas*
 
@@ -295,7 +296,7 @@ Privalote dabar pridėti naujus meniu elementus į mobilaus prietaiso meniu.
 #### <a name="set-up-a-single-sku-directive"></a>Nustatykite vieną SKU direktyvą
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Vietų nurodymai**.
-1. Kairėje jusotoje pakeiskite **Darbo tvarkos tipo**laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
+1. Kairėje jusotoje pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
 1. Antraštėje nustatykite šias vertes:
 
@@ -330,7 +331,7 @@ Privalote dabar pridėti naujus meniu elementus į mobilaus prietaiso meniu.
 #### <a name="set-up-a-multiple-sku-directive"></a>Nustatykite kelių SKU direktyvų
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Vietų nurodymai**.
-1. Kairėje jusotoje pakeiskite **Darbo tvarkos tipo**laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
+1. Kairėje jusotoje pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
 1. Antraštėje nustatykite šias vertes:
 
@@ -365,7 +366,7 @@ Privalote dabar pridėti naujus meniu elementus į mobilaus prietaiso meniu.
 ### <a name="set-up-work-templates"></a>Nustatyti darbo šablonus
 
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Darbas \> Darbo šablonai**.
-1. Pakeiskite **Darbo tvarkos tipo**laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
+1. Pakeiskite **Darbo tvarkos tipo** laukelio vertę į *Rūšiuoto inventoriaus paėmimas*.
 1. Veiksmų juostoje pasirinkite **Naujas** tam, kad sukurtumėte darbo šabloną.
 1. **Peržiūros** skirtuke, nustatykite šias vertes:
 
@@ -401,12 +402,12 @@ Scenarijus simuliuoja situaciją, kai paimtos talpyklos turėtų automatiškai b
     - **Kliento sąskaita:** *US-005*
     - **Sandėlis:** *62*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 
     Naujas pardavimo užsakymas yra atidarytas.
 
 1. Perjunkite **Antraštės** rodinį.
-1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas**, nustatykite šias vertes:
+1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas** , nustatykite šias vertes:
 
     - **Siuntos vežėjas:** *Oro transportas*
     - **Vežėjo paslauga:** *oro*
@@ -433,7 +434,7 @@ Scenarijus simuliuoja situaciją, kai paimtos talpyklos turėtų automatiškai b
     - **Kliento sąskaita:** *US-006*
     - **Sandėlis:** *62*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 1. Naujas pardavimo užsakymas yra atidarytas. Jame turi būti nauja tuščia eilutė, esanti **Pardavimo užsakymo eilutės** „FastTab” skirtuko tinklelyje. Nustatykite šias vertes užsakymo linijoje:
 
     - **Prekė:** *A0001*
@@ -446,10 +447,10 @@ Scenarijus simuliuoja situaciją, kai paimtos talpyklos turėtų automatiškai b
     - **Kiekis:** *1*
 
 1. **Linijos informacijoje** „FastTab“, **Pristatymo** skirtuke, pakeiskite **Pristatymo būdo** laukelio vertę į *Air C-Air*.
-1. **Prekybos užsakymo linijos** „FastTab“, pasirinkite pirmojo užsakymo liniją. Vėliau,**Inventorius** meniu virš tinklelio, pasirinkite **Rezervavimas**.
+1. **Prekybos užsakymo linijos** „FastTab“, pasirinkite pirmojo užsakymo liniją. Vėliau, **Inventorius** meniu virš tinklelio, pasirinkite **Rezervavimas**.
 1. **Rezervavimo** puslapyje, pasirinkite **Rezervuoti vietą** viso pasirinktos linijos sandėlyje kiekio rezervavimui.
 1. Uždarykite **Rezervavimo** puslapį, kad sugrįžtumėte į pardavimo užsakymą.
-1. **Prekybos užsakymo linijos** „FastTab“, pasirinkite antrojo užsakymo liniją. Vėliau,**Inventorius** meniu virš tinklelio, pasirinkite **Rezervavimas**.
+1. **Prekybos užsakymo linijos** „FastTab“, pasirinkite antrojo užsakymo liniją. Vėliau, **Inventorius** meniu virš tinklelio, pasirinkite **Rezervavimas**.
 1. **Rezervavimo** puslapyje, pasirinkite **Rezervuoti vietą** viso pasirinktos linijos sandėlyje kiekio rezervavimui.
 1. Uždarykite **Rezervavimo** puslapį, kad sugrįžtumėte į pardavimo užsakymą.
 1. Veiksmų srities skirtuke **Sandėlis** grupėje **Veiksmai** pasirinkite **Išleisti į sandėlį**.
@@ -469,7 +470,7 @@ Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite eleme
 1. **Siunčiama** meniu pasirinkite **Prekybos paėmimas**.
 1. **identifikavimo kodo** laukelyje įveskite darbo identifikavimo kodą, kuris buvo sukurtas prekybos užsakymui 1.
 1. Pasirinkite **Gerai**.
-1. **Prekybos užsakymai - Paėmimas** puslapyje įveskite paskirties LP, kuris buvo sukurtas prekybos užsakymui 1. Atkreipkite dėmesį, kad yra rodoma paėmimo vieta (*bulk-001*), elementas (*A0001*) ir kokybė (*2 vnt.*).
+1. **Prekybos užsakymai - Paėmimas** puslapyje įveskite paskirties LP, kuris buvo sukurtas prekybos užsakymui 1. Atkreipkite dėmesį, kad yra rodoma paėmimo vieta ( *bulk-001* ), elementas ( *A0001* ) ir kokybė ( *2 vnt.* ).
 1. Pasirinkite **Gerai**.
 1. Peržiūrėkite informaciją **Prekybos užsakymai - Paėmimas** puslapyje. **Loc** laukelis turi rodyti, kad paimti elementai bus *Pakavimo* vietoje.
 1. Pasirinkite **Gerai**.
@@ -480,7 +481,7 @@ Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite eleme
 
 1. **identifikavimo kodo** laukelyje įveskite darbo identifikavimo kodą, kuris buvo sukurtas prekybos užsakymui 2, kuriame linija 1 turi elementą *A0001*.
 1. Pasirinkite **Gerai**.
-1. **Prekybos užsakymai - Paėmimas** puslapyje įveskite paskirties LP. Atkreipkite dėmesį, kad yra rodoma paėmimo vieta (*bulk-001*), elementas (*A0001*) ir kokybė (*1 vnt.*).
+1. **Prekybos užsakymai - Paėmimas** puslapyje įveskite paskirties LP. Atkreipkite dėmesį, kad yra rodoma paėmimo vieta ( *bulk-001* ), elementas ( *A0001* ) ir kokybė ( *1 vnt.* ).
 1. Pasirinkite **Gerai**.
 1. Peržiūrėkite informaciją **Prekybos užsakymai - Paėmimas** puslapyje. **Loc** laukelis turi rodyti, kad paimti elementai bus *Pakavimo* vietoje.
 1. Pasirinkite **Gerai**.
@@ -489,7 +490,7 @@ Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite eleme
 
 1. **identifikavimo kodo** laukelyje įveskite darbo identifikavimo kodą, kuris buvo sukurtas prekybos užsakymui 2, kuriame linija 2 turi elementą *A0002*.
 1. Pasirinkite **Gerai**.
-1. **Prekybos užsakymai - Paėmimas** puslapyje įveskite paskirties LP. Atkreipkite dėmesį, kad yra rodoma paėmimo vieta (*bulk-002*), elementas (*A0001*) ir kokybė (*1 vnt.*).
+1. **Prekybos užsakymai - Paėmimas** puslapyje įveskite paskirties LP. Atkreipkite dėmesį, kad yra rodoma paėmimo vieta ( *bulk-002* ), elementas ( *A0001* ) ir kokybė ( *1 vnt.* ).
 1. Pasirinkite **Gerai**.
 1. Peržiūrėkite informaciją **Prekybos užsakymai - Paėmimas** puslapyje. **Loc** laukelis turi rodyti, kad paimti elementai bus *Pakavimo* vietoje.
 1. Pasirinkite **Gerai**.
@@ -502,7 +503,7 @@ Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite eleme
 
 1. Eikite į **Sandėlio tvarkymas \> Pakavimas ir dėjimas į talpyklas \> Pakavimas**.
 
-    Pasirodo**Pasirinkit pakavimo stotį** teksto laukelis. Pagal nutylėjimą, **Darbuotojo** laukelis turi būti nustatytas į darbuotojo vardą, kurį nustatėte anksčiau.
+    Pasirodo **Pasirinkit pakavimo stotį** teksto laukelis. Pagal nutylėjimą, **Darbuotojo** laukelis turi būti nustatytas į darbuotojo vardą, kurį nustatėte anksčiau.
 
 1. Nustatykite tolesnes vertes tam, kad peržiūrėtumėte ir dirbtumėte su siuntimais ir talpyklomis, kuriuos yra planuojamos konkrečioje pakavimo vietoje:
 
@@ -511,53 +512,53 @@ Užbaigite sukurtą darbą naudodami mobilų prietaisą, kuriuo perkelsite eleme
     - **Vieta:** *Pakavimas*
     - **Pakavimo profilio identifikavimo numeris:** *Rūšiuoti*
 
-1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
 1. **Pakavimo** puslapyje, **Licencijos numeris ar siuntimas** laukelyje įveskite paskirties LP prekybos užsakymui 1. Tuomet pasirinkite **Skirtuką** ar **Įvesties** raktą savo klaviatūroje, kad išeitumėte iš laukelio.
-1. Veiksmų juostoje pasirinkite**Naujas talpykla**.
+1. Veiksmų juostoje pasirinkite **Naujas talpykla**.
 1. Priimkite visus nustatytuosius nustatymus ir pasirinkite **OK**. Užsirašykite talpyklos identifikavimo kodą.
 1. **Elemento pakavimo** „FastTab“, nustatykite šias vertes:
 
     - **Kiekis:** *1*
     - **Identifikavimo kodo:** Elementas *A0001*
 
-1. Veiksmų juostoje pasirinkite**Uždaryti talpyklą**.
-1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį**tam, kad sistema atnaujintų **Bendro svorio** laukelį.
+1. Veiksmų juostoje pasirinkite **Uždaryti talpyklą**.
+1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį** tam, kad sistema atnaujintų **Bendro svorio** laukelį.
 1. Pasirinkite **Gerai**. Talpykla turi būti perkelta į *SORT* vietą ir parengta rūšiavimui.
 1. Sukurkite antrą talpyklą tam, kad įtrauktumėte antrą elementą iš LP prekybos užsakymo 1 į naują talpyklą.
-1. Veiksmų juostoje pasirinkite**Naujas talpykla**.
+1. Veiksmų juostoje pasirinkite **Naujas talpykla**.
 1. Priimkite visus nustatytuosius nustatymus ir pasirinkite **OK**. Užsirašykite talpyklos identifikavimo kodą.
 1. **Elemento pakavimo** „FastTab“, nustatykite šias vertes:
 
     - **Kiekis:** *1*
     - **Identifikavimo kodo:** Elementas *A0001*
 
-1. Veiksmų juostoje pasirinkite**Uždaryti talpyklą**.
-1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį**tam, kad sistema atnaujintų **Bendro svorio** laukelį.
+1. Veiksmų juostoje pasirinkite **Uždaryti talpyklą**.
+1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį** tam, kad sistema atnaujintų **Bendro svorio** laukelį.
 1. Pasirinkite **Gerai**. Talpykla turi būti perkelta į *SORT* vietą ir parengta rūšiavimui.
 
 #### <a name="pack-sales-order-2-into-containers"></a>Prekybos užsakymo 2 pakavimas į talpyklas
 
 1. **Pakavimo** puslapyje, **Licencijos numeris ar siuntimas** laukelyje įveskite paskirties LP prekybos užsakymui 2. Tuomet pasirinkite **Skirtuką** ar **Įvesties** raktą savo klaviatūroje, kad išeitumėte iš laukelio.
-1. Veiksmų juostoje pasirinkite**Naujas talpykla**.
+1. Veiksmų juostoje pasirinkite **Naujas talpykla**.
 1. Priimkite visus nustatytuosius nustatymus ir pasirinkite **OK**. Užsirašykite talpyklos identifikavimo kodą.
 1. **Elemento pakavimo** „FastTab“, nustatykite šias vertes:
 
     - **Kiekis:** *1*
     - **Identifikavimo kodo:** Elementas *A0001*
 
-1. Veiksmų juostoje pasirinkite**Uždaryti talpyklą**.
-1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį**tam, kad sistema atnaujintų **Bendro svorio** laukelį.
+1. Veiksmų juostoje pasirinkite **Uždaryti talpyklą**.
+1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį** tam, kad sistema atnaujintų **Bendro svorio** laukelį.
 1. Pasirinkite **Gerai**. Talpykla turi būti perkelta į *SORT* vietą ir parengta rūšiavimui.
 1. **Licencijos numeris ar siuntimas** laukelyje įveskite paskirties LP prekybos užsakymui 2. Tuomet pasirinkite **Skirtuką** ar **Įvesties** raktą savo klaviatūroje, kad išeitumėte iš laukelio.
-1. Veiksmų juostoje pasirinkite**Naujas talpykla**.
+1. Veiksmų juostoje pasirinkite **Naujas talpykla**.
 1. Priimkite visus nustatytuosius nustatymus ir pasirinkite **OK**. Užsirašykite talpyklos identifikavimo kodą.
 1. **Elemento pakavimo** „FastTab“, nustatykite šias vertes:
 
     - **Kiekis:** *1*
     - **Identifikavimo laukelis:** Elementas *A0002*
 
-1. Veiksmų juostoje pasirinkite**Uždaryti talpyklą**.
-1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį**tam, kad sistema atnaujintų **Bendro svorio** laukelį.
+1. Veiksmų juostoje pasirinkite **Uždaryti talpyklą**.
+1. **Talpyklos uždarymo** teksto laukelyje, pasirinkite **Gauti sistemos svorį** tam, kad sistema atnaujintų **Bendro svorio** laukelį.
 1. Pasirinkite **Gerai**. Talpykla turi būti perkelta į *SORT* vietą ir parengta rūšiavimui.
 
 Talpyklos informacijso peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas ir dėjimas į talpyklas \> Talpyklos** ir ieškokite talpyklos identifikavimo kodo, kuris buvo sukurtas pakavimo metu.
@@ -577,7 +578,7 @@ Talpyklos informacijso peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas 
 1. **LP/Con** laukelyje įveskite pirmosios talpyklos identifikavimo kodą, kuris yra susietas su prekybos užsakymu 1.
 1. Pasirinkite **Gerai**.
 1. Kadangi šiuo metu nėra jokių rūšiavimo padėčių, turite bent vieną nurodyti. **Rūšiavimo padėties identififikavimo kodo** laukelyje įveskite *SP01*.
-1. Kadangi šiuo metu nėra susieto jokio LP su esama padėtimi *SP01*, turite bent vieną nurodyti. **LP** laukelyje įveskite *PLP01*.
+1. Kadangi šiuo metu nėra susieto jokio LP su esama padėtimi *SP01* , turite bent vieną nurodyti. **LP** laukelyje įveskite *PLP01*.
 1. Pasirinkite **Gerai**.
 1. Kadangi rūšiavimo padėties patvirtinimas yra įjungtas, privalo įvesti rūšiavimo padėties identifikavimo kodą dar kartą. **Rūšiavimo padėties identififikavimo kodo** laukelyje įveskite *SP01*.
 1. Pasirinkite **Gerai**.
@@ -585,7 +586,7 @@ Talpyklos informacijso peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas 
     Matysite „Darbas baigtas“ pranešimą.
 
 > [!TIP]
-> Rūšiuotos padėties peržiūrai ir LP joje peržiūrai, eikite į**Sandėlio valdymas \> Pakavimas ir dėjimas į konteinerius \> Siunčiamo rūšiavimo padėties priskyrimai**.
+> Rūšiuotos padėties peržiūrai ir LP joje peržiūrai, eikite į **Sandėlio valdymas \> Pakavimas ir dėjimas į konteinerius \> Siunčiamo rūšiavimo padėties priskyrimai**.
 >
 > **Siunčiamo rūšiavimo padėties priskyrimai** langas rodo visas rūšiavimo padėtis, kurios šiuo metu yra įjungtos. **Rūšiavimo padėties pervedimai** laukelis rodo LP, kuris yra susietas su kiekviena rūšiavimo padėtimi ir rūšiavimo padėtyje nesančiomis talpyklomis. Atkreipkite dėmesį, kad viena rūšiavimo padėtis šiuo metu egzistuoja ir **Padėties rūšiavimo kriterijų** „FastTab“ rodo **Siuntimo – Vežėjo paslaugų - Oro** kriterijų.
 
@@ -635,7 +636,7 @@ Kai inventorius yra rūšiuotas, padėtis turi būti uždaryti prieš darbo suk�
 
 1. Eikite į **Sandėlio valdymas \> Pakavimas ir dėjimas į konteinerius \> Siunčiamo rūšiavimo padėties priskyrimai**.
 1. Kairiame stulpelyje pasirinkite **SP02**. Ši siunčiamo rūšiavimo padėties eilutė yra ta, kurią uždarėte.
-1. Veiksmų juostoje pasirinkite**Uždaryti padėtį**. Rūšiavimo padėties įrašas yra uždarytas ir neberodomas.
+1. Veiksmų juostoje pasirinkite **Uždaryti padėtį**. Rūšiavimo padėties įrašas yra uždarytas ir neberodomas.
 
     > [!TIP]
     > Visų uždarytų padėčių įrašų rodymui, pasirinkite **Rodyti uždarytus** žymimą laukelį.

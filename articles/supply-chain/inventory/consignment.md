@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
+ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchTablePart, PurchVendorPortalConfirmedOrders, DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: af30938929677ad0e1388760e6b7a992a8718240
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212899"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018381"
 ---
 # <a name="set-up-consignment"></a>Konsignacijos nustatymas
 
@@ -40,7 +40,7 @@ Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vie
 2.  Tiekėjas informuojamas apie numatomą pristatymą. Tai gali įvykti vienu iš trijų būdų:
     -   Kas nors dirbantis USMF tiekėjui nusiunčia užsakymo informaciją.
     -   Tiekėjas gali stebėti numatomas turimas atsargas naudodamas tiekėjo bendradarbiavimo sąsają.
-    -   Kas nors dirbantis USMF filtruoja puslapio **Turimos atsargos** duomenis, kad būtų rodomi tik tiekėjo US-104 įrašai, kurių gavimo būsena **Užsakyta**, o po to siunčia šią informaciją tiekėjui.
+    -   Kas nors dirbantis USMF filtruoja puslapio **Turimos atsargos** duomenis, kad būtų rodomi tik tiekėjo US-104 įrašai, kurių gavimo būsena **Užsakyta** , o po to siunčia šią informaciją tiekėjui.
 3.  Atsargas pristato tiekėjas US-104 įmonei USMF.
 4.  Kai medžiagos atvyksta į USMF, konsignacijos papildymo užsakymas atnaujinamas pateikiant gavimo dokumentą. Įrašomas tik faktinis tiekėjo turimų atsargų kiekis. Didžiosios knygos operacijos nesukuriamos, nes atsargos vis dar priklauso tiekėjui.
 5.  Tiekėjas stebi faktinių turimų atsargų atnaujinimus naudodamas puslapį **Turimos konsignacijos atsargos**.
@@ -53,7 +53,7 @@ Konsignacijos atsargos yra tiekėjo turimos atsargos, kurios laikomos jūsų vie
 USMF atlieka papildomus periodinius procesus:
 
 -   Faktinis tiekėjui priklausančių atsargų judėjimas tarp skirtingų sandėlių apdorojamas naudojant perkėlimo žurnalą.
--   Faktinės turimos atsargos atnaujinamos naudojant žurnalą**Prekių skaičiavimas**. Tiekėjas taip pat gali naudoti skaičiavimą norėdamas atnaujinti turimas atsargas, jeigu turi leidimą tai daryti.
+-   Faktinės turimos atsargos atnaujinamos naudojant žurnalą **Prekių skaičiavimas**. Tiekėjas taip pat gali naudoti skaičiavimą norėdamas atnaujinti turimas atsargas, jeigu turi leidimą tai daryti.
 
 Tiekėjas US-104 gali stebėti naujinimus naudodamas puslapį **Turimos konsignacijos atsargos**.
 
@@ -67,7 +67,7 @@ Dimensija **Savininkas** naudojama norint atskirti informaciją apie tai, kurios
 ## <a name="inventory-ownership-change-journal"></a>Atsargų nuosavybės pakeitimo žurnalas
 Atsargų savininko keitimo iš tiekėjo į gaunantį juridinį subjektą procesas atliekamas naudojant atsargų nuosavybės pakeitimo žurnalą. Žurnale numatomų atsargų operacijos nekuriamos. Kuriamos tik tos atsargų operacijos, kurios susijusios su užregistruotu žurnalu. Kada žurnalas buvo užregistruotas:
 
--   Tiekėjui priklausančios atsargos išduodamos naudojant nuorodą **Nuosavybės keitimas**, kurios būsena **Parduota**.
+-   Tiekėjui priklausančios atsargos išduodamos naudojant nuorodą **Nuosavybės keitimas** , kurios būsena **Parduota**.
 -   Turimas atsargas jas naudojantis juridinis subjektas gauna pirkimo užsakyme naudodamas gavimo dokumento atnaujintą atsargų operaciją. Taip nustatoma užsakymo būsena **Gauta**. Nustatoma konsignacijoms naudojamų pirkimo užsakymų lauko **Kilmė** nuostata **Konsignacija**.
 
 Sukūrus užsakymą konsignacijos pirkimo užsakymo eilučių skaičiaus atnaujinti neįmanoma.
@@ -77,7 +77,7 @@ Sukūrus užsakymą konsignacijos pirkimo užsakymo eilučių skaičiaus atnauji
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Tiekėjų bendradarbiavimas konsignacijos procesuose
 Tiekėjo bendradarbiavimo sąsajoje yra trys su gaunamu konsignacijos procesu susiję puslapiai:
 
--   **Pirkimo užsakymai**, **naudojantys konsignacijos atsargas** – rodoma išsami pirkimo užsakymo informacija, susijusi su nuosavybės pakeitimu iš konsignacijos proceso.
+-   **Pirkimo užsakymai** , **naudojantys konsignacijos atsargas** – rodoma išsami pirkimo užsakymo informacija, susijusi su nuosavybės pakeitimu iš konsignacijos proceso.
 -   **Produktai, gauti iš konsignacijos atsargų** – rodoma informacija apie prekes ir kiekius, kurių gavimo dokumentai atnaujinti nuosavybės pakeitimo proceso metu.
 -   **Turimos konsignacijos atsargos** – rodoma informacija apie konsignacijos prekes, kurias numatoma pristatyti, ir prekes, kurias jau faktiškai galima įsigyti kliento vietoje.
 
@@ -87,12 +87,12 @@ Norėdami įrašyti faktines gaunamos konsignacijos atsargas, turite nurodyti ti
 [![atsargų savininkai](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Sekimo dimensijų grupė
-Konsignacijos procesuose ketinamus naudoti elementus būtina susieti su **Sekimo dimensijų grupe**, kurios dimensijos **Savininkas** nuostata **Aktyvi**. Visada pažymėtos dimensijos Savininkas parinktys **Faktinės atsargos** ir **Finansinės atsargos**. Parinktis **Padengimo planas pagal dimensiją** niekada nepažymimas.
+Konsignacijos procesuose ketinamus naudoti elementus būtina susieti su **Sekimo dimensijų grupe** , kurios dimensijos **Savininkas** nuostata **Aktyvi**. Visada pažymėtos dimensijos Savininkas parinktys **Faktinės atsargos** ir **Finansinės atsargos**. Parinktis **Padengimo planas pagal dimensiją** niekada nepažymimas.
 
 [![sekimo dimensijų grupė](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Atsargų nuosavybės pakeitimo žurnalas
-Žurnalas **Atsargų nuosavybės pakeitimas**naudojamas norint įrašyti konsignacijos atsargų savininko pakeitimą iš tiekėjo į jį naudojantį juridinį subjektą. Kaip ir bet kuriame atsargų žurnale, jame turi būti nurodytas atsargų žurnalo pavadinimas. Šie pavadinimai sukuriami puslapyje **Atsargų žurnalo pavadinimai** ir turi būti nustatyta dalies **Žurnalo tipas** parinktis **Nuosavybės pakeitimas**.
+Žurnalas **Atsargų nuosavybės pakeitimas** naudojamas norint įrašyti konsignacijos atsargų savininko pakeitimą iš tiekėjo į jį naudojantį juridinį subjektą. Kaip ir bet kuriame atsargų žurnale, jame turi būti nurodytas atsargų žurnalo pavadinimas. Šie pavadinimai sukuriami puslapyje **Atsargų žurnalo pavadinimai** ir turi būti nustatyta dalies **Žurnalo tipas** parinktis **Nuosavybės pakeitimas**.
 
 [![atsargų nuosavybės pakeitimo žurnalas](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

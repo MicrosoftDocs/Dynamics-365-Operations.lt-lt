@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSInventFixedLocation, WHSSlotDemandLocated, WHSSlotDemand, WHSSlotUOMTier, WHSSlotTemplate, WHSLocDirHint, WHSLocDirTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,18 +16,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f6764f8bc082962af37d4775b6fe53d8704658eb
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597463"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017419"
 ---
 # <a name="warehouse-slotting"></a>Sandėlio intervalas
 
 [!include [banner](../includes/banner.md)]
 
-Sandėlio intervalas leidžia konsoliduoti poreikį pagal prekę ir matavimo vienetą iš užsakymų, kurių būsena yra *Užsakytas*, *Rezervuotas* arba *Išleistas*. Sugeneruota paklausa gali būti taikoma vietoms, kurios bus naudojamos paėmimui, atsižvelgiant į kiekį, vienetą, faktines dimensijas, fiksuotas vietas ir kita. Po to, kai buvo sukurtas intervalo planas, papildymo darbas gali būti sukurtas tam, kad būtų galima pasiekti reikiamą atsargų kiekį kiekvienoje vietoje.
+Sandėlio intervalas leidžia konsoliduoti poreikį pagal prekę ir matavimo vienetą iš užsakymų, kurių būsena yra *Užsakytas* , *Rezervuotas* arba *Išleistas*. Sugeneruota paklausa gali būti taikoma vietoms, kurios bus naudojamos paėmimui, atsižvelgiant į kiekį, vienetą, faktines dimensijas, fiksuotas vietas ir kita. Po to, kai buvo sukurtas intervalo planas, papildymo darbas gali būti sukurtas tam, kad būtų galima pasiekti reikiamą atsargų kiekį kiekvienoje vietoje.
 
 Ši funkcija padeda sandėlio vadovams sumaniai planuoti paėmimų vietas dar prieš tai, kai jos išleidžia užsakymus į sandėlį ir sukuria paėmimų darbą.
 
@@ -60,21 +61,21 @@ Matavimo vienetų pakopos įgalina sugrupuoti kelis matavimo vienetus, kad juos 
     - **Aprašymas** – palikite šį lauką tuščią. Jis bus užpildytas automatiškai, kai įrašysite pakeitimus.
     - **Vieneto klasė:** *Kiekis*
 
-1. Pasirinkite **Nauja**, kad įtrauktumėte antrą eilutę į tinklelį.
+1. Pasirinkite **Nauja** , kad įtrauktumėte antrą eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias reikšmes:
 
     - **Vienetas:** *ea*
     - **Aprašymas** – palikite šį lauką tuščią. Jis bus užpildytas automatiškai, kai įrašysite pakeitimus.
     - **Vieneto klasė:** *Kiekis*
 
-1. Pasirinkite **Nauja**, kad įtrauktumėte trečią eilutę į tinklelį.
+1. Pasirinkite **Nauja** , kad įtrauktumėte trečią eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias reikšmes:
 
     - **Vienetas:** *PL*
     - **Aprašymas** – palikite šį lauką tuščią. Jis bus užpildytas automatiškai, kai įrašysite pakeitimus.
     - **Vieneto klasė:** *Kiekis*
 
-1. Pasirinkite **Įrašyti**, kad įrašytumėte pakopą.
+1. Pasirinkite **Įrašyti** , kad įrašytumėte pakopą.
 
 ### <a name="create-a-directive-code-for-slotting"></a>Kurti nurodymo kodą, skirtą intervalui
 
@@ -90,7 +91,7 @@ Turite pasirinkti nurodymo kodą, kuris turi būti susietas su šablonu.
 Kiekvienas intervalo šablonas kontroliuoja atsargų priskyrimui tam tikroms sandėlio vietoms. Kiekviename šablone turi būti eilutė kiekvieno intervalo specifikacijai. Norėdami nustatyti intervalo šablonus, naudokite šiame skyriuje nurodytas procedūras.
 
 1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Papildymas \> Intervalo šablonai**.
-1. Pasirinkite **Naujas**, kad sukurtumėte šabloną.
+1. Pasirinkite **Naujas** , kad sukurtumėte šabloną.
 
 Toliau turite nustatyti šablono antraštę, intervalo specifikacijas ir vietos nurodymus, kaip paaiškinta šiuose poskyriuose.
 
@@ -158,7 +159,7 @@ Kiekvienam sukurtam šablonui atlikite šiuos veiksmus, kad pridėtumėte eilut�
 
     - **Leisti** _taip_
 
-        Jei ši parinktis nustatyta kaip *Taip*, jei bet koks reikalavimas negali būti įvykdytas, perkėlimo darbas bus sukurtas, kad būtų galima paimti atsargas iš vietų, kuriose yra atsargų, tačiau kur niekas nebuvo paimta. Tada šablonas paleidžiamas iš naujo. Šiuo metu nepaisoma vietų atsargų. Ši funkcija veikia geriausiai, kai laukas **Priskirti intervalo kriterijų** nustatomas į _Atsižvelgti į kiekį_.
+        Jei ši parinktis nustatyta kaip *Taip* , jei bet koks reikalavimas negali būti įvykdytas, perkėlimo darbas bus sukurtas, kad būtų galima paimti atsargas iš vietų, kuriose yra atsargų, tačiau kur niekas nebuvo paimta. Tada šablonas paleidžiamas iš naujo. Šiuo metu nepaisoma vietų atsargų. Ši funkcija veikia geriausiai, kai laukas **Priskirti intervalo kriterijų** nustatomas į _Atsižvelgti į kiekį_.
 
     - **Fiksuotos vietos naudojimas:** _Galima naudoti tik fiksuotas produkto vietas_
 
@@ -169,7 +170,7 @@ Kiekvienam sukurtam šablonui atlikite šiuos veiksmus, kad pridėtumėte eilut�
         - **Tik fiksuotos produkto varianto vietos** – Sistema veikia tik tose vietose, kurios yra fiksuotos produkto varianto vietos.
 
 1. Pasirinkite **Įrašyti**.
-1. Pasirinkite **Naujas**, kad sukurtumėte antrą šablono eilutę.
+1. Pasirinkite **Naujas** , kad sukurtumėte antrą šablono eilutę.
 1. Naujoje eilutėje nustatykite šias reikšmes:
 
     - **Seka:** _2_
@@ -188,7 +189,7 @@ Kiekvienam sukurtam šablonui atlikite šiuos veiksmus, kad pridėtumėte eilut�
 
 1. Pasirinktie eilutę, kurios **Seka** yra nustatyta į *2*.
 1. Pasirinkite **Redaguoti užklausą**.
-1. Skirtuke **Diapazonas** pasirinkite **Pridėti**, kad įtrauktumėte naują eilutę į tinklelį.
+1. Skirtuke **Diapazonas** pasirinkite **Pridėti** , kad įtrauktumėte naują eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias reikšmes:
 
     - **Lentelė:** *Vietos*
@@ -200,12 +201,12 @@ Kiekvienam sukurtam šablonui atlikite šiuos veiksmus, kad pridėtumėte eilut�
 
 #### <a name="set-up-location-directives"></a>Nustatyti vietos nurodymus
 
-Reikia nustatyti bent vieną vietos nurodymą, kad būtų palaikomi intervalo paėmimai. Naudokite šiame skyriuje nurodytas procedūras, kad nustatytumėte naują *papildymo vietos nurodymą*, skirtą paėmimams.
+Reikia nustatyti bent vieną vietos nurodymą, kad būtų palaikomi intervalo paėmimai. Naudokite šiame skyriuje nurodytas procedūras, kad nustatytumėte naują *papildymo vietos nurodymą* , skirtą paėmimams.
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Vietų nurodymai**.
 1. Kairinės srities lauke **Darbo užsakymo tipas** pasirinkite *Papildymas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
-1. Naujo vietos nurodymo antraštės lauke **Pavadinimas**, įveskite *61 intervalo paėmimas*.
+1. Naujo vietos nurodymo antraštės lauke **Pavadinimas** , įveskite *61 intervalo paėmimas*.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Konfigūruokite vietų nurodymus „FastTab“ skirtuke
 
@@ -236,12 +237,12 @@ Reikia nustatyti bent vieną vietos nurodymą, kad būtų palaikomi intervalo pa
     - **Pavadinimas:** _Bulk_
     - **Strategija:** _Nėra_
 
-1. Pasirinkite **Įrašyti**, kad būtų galima naudoti mygtuką **Redaguoti užklausą**.
+1. Pasirinkite **Įrašyti** , kad būtų galima naudoti mygtuką **Redaguoti užklausą**.
 
 ##### <a name="edit-the-query"></a>Redaguoti užklausą
 
 1. „FastTab“ **Vietos nurodymų veiksmai** pasirinkite **Redaguoti užklausą**.
-1. Skirtuke **Diapazonas** pasirinkite **Pridėti**, kad įtrauktumėte naują eilutę į tinklelį.
+1. Skirtuke **Diapazonas** pasirinkite **Pridėti** , kad įtrauktumėte naują eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias reikšmes:
 
     - **Lentelė:** *Vietos*
@@ -266,7 +267,7 @@ Norėdami dirbti pagal šį scenarijų, naudojant nurodytus įrašų ir reikšmi
 Atlikite šiuos veiksmus, kad sukurtumėte paklausą, kuriai taikysite intervalą.
 
 1. Pasirinkite **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
-1. Pasirinkite **Naujas**, kad sukurtumėte pardavimo užsakymą.
+1. Pasirinkite **Naujas** , kad sukurtumėte pardavimo užsakymą.
 1. Dialogo lango **Kurti pardavimo užsakymą** lauke **Kliento sąskaita** pasirinkite _US-007_.
 1. Lauke **Sandėlis** pasirinkite _61_.
 1. Pasirinkite **Gerai**.
@@ -281,7 +282,7 @@ Atlikite šiuos veiksmus, kad sukurtumėte paklausą, kuriai taikysite interval�
     - **Kiekis:** _8_
 
 1. Pasirinkite **Įrašyti**.
-1. Pasirinkite **Naujas**, kad antrą pardavimo užsakymą.
+1. Pasirinkite **Naujas** , kad antrą pardavimo užsakymą.
 1. Dialogo lango **Kurti pardavimo užsakymą** lauke **Kliento sąskaita** pasirinkite _US-008_.
 1. Lauke **Sandėlis** pasirinkite _61_.
 1. Naujas pardavimo užsakymas yra atidarytas. Jis apima naują tuščią eilutę **Pardavimo užsakymo eilučių** „FastTab“. Šioje eilutėje nustatykite šias reikšmes:
@@ -323,7 +324,7 @@ Intervalo planas nurodo vietą, kurioje buvo priskirta kiekviena prekė/kiekis, 
 
 #### <a name="create-replenishment"></a>Sukurkite papildymą
 
-Sukūrę planą, turite sukurti *Papildymo darbą*, pagrįstą planu.
+Sukūrę planą, turite sukurti *Papildymo darbą* , pagrįstą planu.
 
 - Veiksmų srityje pasirinkite **Vykdyti papildymą**. Kai procesas baigiamas, atsiranda informacinis pranešimas. Šis pranešimas nurodo antraščių, sukurtų darbo kūrimo ID, skaičių.
 
@@ -343,9 +344,9 @@ Po to, kai visi reikiami elementai yra, galite nustatyti automatinį valdymą, a
     - Kurti papildymo darbą
 
     > [!NOTE]
-    > Intervalo veiksmai yra progresyvūs. Jei norite pasirinkti *Surasti paklausą*, pirmiausia turite pasirinkti *Generuoti paklausą*.
+    > Intervalo veiksmai yra progresyvūs. Jei norite pasirinkti *Surasti paklausą* , pirmiausia turite pasirinkti *Generuoti paklausą*.
 
 1. Nurodyti naudotiną šabloną.
 1. Jei norėsite, pakartojimas paleidžiamas automatiškai.
 
-Norėdami atlikti scenarijų pratimus, **ne**nustatykite automatinio intervalo.
+Norėdami atlikti scenarijų pratimus, **ne** nustatykite automatinio intervalo.

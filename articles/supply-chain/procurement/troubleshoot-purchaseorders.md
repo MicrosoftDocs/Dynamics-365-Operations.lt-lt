@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e55974f65577170880e60095f1ba74ea7366e592
-ms.sourcegitcommit: 91e101d7a51a8b63bd196ec80e9224e5e6e6fc95
+ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3834398"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018565"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Pirkimo užsakymų trikčių diagnostika
 
@@ -34,7 +34,7 @@ ms.locfileid: "3834398"
 
 Ši problema gali atsirasti dėl pirkimo užsakymo paskirstymų nenuoseklumo.
 
-Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis*, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis* , eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Kai pirkimo užsakymai importuojami naudojant duomenų valdymą, pirkimo užsakymo eilučių numeriai neatitinka sistemos parametruose nurodyto padidėjimo.
 
@@ -58,7 +58,7 @@ Toks veikimo būdas yra numatytas. Numatytosios mokesčių grupės vertės, mok�
 
 Ši problema gali atsirasti dėl pirkimo užsakymo paskirstymų nenuoseklumo.
 
-Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis*, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis* , eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Vienas ar daugiau apskaitos paskirstymų yra paskirstytas per daug arba per mažai.
 
@@ -70,7 +70,7 @@ Jūs gaunate šią klaidą: „Vienas ar daugiau apskaitos paskirstymų yra pask
 
 Ši problema gali atsirasti dėl pirkimo užsakymo paskirstymų nenuoseklumo.
 
-Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis*, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis* , eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>Ar galima rodyti tik savo sukurtus pirkimo užsakymus?
 
@@ -80,7 +80,7 @@ Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą �
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Net kai pirkimo užsakymo prekių būsena yra *Registruota*, jūs vis tiek galite rezervuoti atsargas. Kitaip tariant, galite sukurti operacijas su užregistruotomis atsargomis.
+Net kai pirkimo užsakymo prekių būsena yra *Registruota* , jūs vis tiek galite rezervuoti atsargas. Kitaip tariant, galite sukurti operacijas su užregistruotomis atsargomis.
 
 ### <a name="reproduce-the-issue"></a>Problemos atkūrimas
 
@@ -118,7 +118,7 @@ Toks veikimo būdas yra numatytas. Pirkimo užsakymuose produktas visada rodomas
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Produktas turi patvirtintą tiekėją, kurio įsigaliojimo data, pavyzdžiui, yra 2018 m. sausio mėn. 11 d. (*11/01/2018*) ir galiojimo data yra *Niekada*. Jeigu bandysite pakeisti įsigaliojimo datą iki 2018 m. sausio mėn 10 d. (*10/01/2018*) arba 2018 m. sausio mėn. 12 d., (*12/01/2018*), gausite šią klaidą:
+Produktas turi patvirtintą tiekėją, kurio įsigaliojimo data, pavyzdžiui, yra 2018 m. sausio mėn. 11 d. ( *11/01/2018* ) ir galiojimo data yra *Niekada*. Jeigu bandysite pakeisti įsigaliojimo datą iki 2018 m. sausio mėn 10 d. ( *10/01/2018* ) arba 2018 m. sausio mėn. 12 d., ( *12/01/2018* ), gausite šią klaidą:
 
 > Negalima sukurti įrašo patvirtintame tiekėjų sąraše (PdsApproveVendorList). Vertė „Galiojimas” turi būti didesnė arba lygi vertei „Įsigaliojimas”.
 

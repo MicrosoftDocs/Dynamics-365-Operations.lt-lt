@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5591af5fce4eb3fc901919b98f654faa5e160c54
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652252"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016613"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -131,7 +132,7 @@ Papildymo šablonai yra taisyklių rinkiniai, valdantys kada ir kaip vieta yra p
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Bangos \> Bangų šablonai**.
 1. Kairiojoje juostoje nustatykite **Bangos šablono tipo** laukelį į *Siuntimas*.
-1. Pasirinkite šabloną**61 siuntimas** sąraše.
+1. Pasirinkite šabloną **61 siuntimas** sąraše.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
 1. **Bendras** „FastTab“, nustatykite **Automatizuoti papildymo darbo leidimo** parinktį į *Taip*.
 
@@ -227,8 +228,8 @@ Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir
 1. **Peržiūros** skyriuje filtruokite **Sandėlio** stulpelį sandėliui *61*.
 1. Turėtumėte matyti, kad septynių darbų ID buvo sukurti trims prekybos užsakymų reikalavimams.
 
-    - Tris iš septynių darbo ID turi **Darbo užsakymo tipo** vertę *Papildymas*, o keturi turi**Darbo užsakymo tipo** vertę *Prekybos užsakymai*.
-    - Visi trys darbo ID turintys**Darbo užsakymo tipo** vertę *Papildymas* turi tas pačias *Paėmimo* ir *Padėjimo* vietas **Eilučių** skyriuje:
+    - Tris iš septynių darbo ID turi **Darbo užsakymo tipo** vertę *Papildymas* , o keturi turi **Darbo užsakymo tipo** vertę *Prekybos užsakymai*.
+    - Visi trys darbo ID turintys **Darbo užsakymo tipo** vertę *Papildymas* turi tas pačias *Paėmimo* ir *Padėjimo* vietas **Eilučių** skyriuje:
 
         - **Paimti:** *02A01R5S1B*
         - **Padėti:** *06A01R2S1B*
@@ -254,9 +255,9 @@ Tam, kad rastumėte vėliau jums reikalingų licencijos numerių ID, atlikite š
 
 1. Pasirinkite **Taikyti**.
 1. Veiksmų juostoje, pasirinkite **Dimensijos**.
-1.  **Dimensijos rodymo** teksto laukelyje,**Dimensijų talpinimas** skyriuje pasirinkite visas vertes.
+1.  **Dimensijos rodymo** teksto laukelyje, **Dimensijų talpinimas** skyriuje pasirinkite visas vertes.
 1. **Perlaidos** skyriuje pasirinkite **Elemento numerį** ir **Kiekį \<\> 0**.
-1. Kai pabaigsite pasirinkite**Gerai** tam, kad uždarytumėte teksto laukelį.
+1. Kai pabaigsite pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį.
 1. **Turimas** tinklelis rodo licencijos numerio numerius elementui *T0100* kiekvienoje vietoje. Atkreipkite dėmesį į licencijos numerį esantį kiekvienoje vietoje, nes jums šios informacijos reikės vėliau.
 1. Uždarykite puslapį.
 
@@ -280,7 +281,7 @@ Atliksite sandėlio vietos papildymą pirmiems dviems darbo ID. Dirbas su treči
 
     Rodomas paėmimo darbas, kuris naudotojui rodo padėti galutinį licencijos numerį į papildymo vietą. *Padėjimo* vieta turi būti **06A01R2S1B**.
 
-1. Patvirtinkite padėjimo informaciją ir pasirinkite**Gerai**.
+1. Patvirtinkite padėjimo informaciją ir pasirinkite **Gerai**.
 
     Gausite „Darbas baigtas“ pranešimą ir yra rodoma informacija apie kitą paėmimo papildymo darbą: elemento numeris, kiekis ir vieta, iš kurios paimama. Paėmimo vieta bus ta pati, kaip pirmoji papildymo vieta. Dėl to, licencijos numeris turės tą patį licencijos numerio ID, kuris buvo naudojamas pirmajai papildymo darbo užduočiai.
 
@@ -360,7 +361,7 @@ Prekybos užsakymas 2 yra užblokuotas dėl paėmimo, nes su juo susieta papildy
 
 Kai tik turimų atsargų kiekio paėmimo vietoje ir papildymo suma yra žemiau slenksčio, jūs galėsite apdoroti likusį papildymo darbą.
 
-Grįžkite į **Darbo išsamios informacijos** puslapį ir atkreipkite dėmesį, kad papildymo darbo prieinamumas galutinei papildymo daliai (prekybos užsakymui 2) yra *Atviras*, nes dabar yra pakankamai vietos vietoje, kad ji priimtų papildymą.
+Grįžkite į **Darbo išsamios informacijos** puslapį ir atkreipkite dėmesį, kad papildymo darbo prieinamumas galutinei papildymo daliai (prekybos užsakymui 2) yra *Atviras* , nes dabar yra pakankamai vietos vietoje, kad ji priimtų papildymą.
 
 Galite apdoroti šį papildymo darbą per mobilųjį įrenginį.
 
@@ -377,7 +378,7 @@ Galite apdoroti šį papildymo darbą per mobilųjį įrenginį.
 
     Rodomas paėmimo darbas, kuris naudotojui rodo padėti galutinį licencijos numerį į papildymo vietą. *Padėjimo* vieta turi būti **06A01R2S1B**.
 
-1. Patvirtinkite padėjimo informaciją ir pasirinkite**Gerai**.
+1. Patvirtinkite padėjimo informaciją ir pasirinkite **Gerai**.
 
     Gausite „Darbas baigtas“ ir „Nėra esamo darbo“ pranešimus.
 

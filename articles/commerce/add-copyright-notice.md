@@ -3,7 +3,7 @@ title: Įtraukti informaciją apie autorių teises
 description: Šioje temoje aprašoma, kaip į el. prekybos svetainę įtraukti informaciją apie autorių teises.
 author: psimolin
 manager: AnnBe
-ms.date: 04/13/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a2ed52dbd19508e07fcced92a7fad831180b1d1d
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
+ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269595"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4019546"
 ---
 # <a name="add-a-copyright-notice"></a>Įtraukti informaciją apie autorių teises
 
@@ -41,21 +41,21 @@ Kad į svetainę būtų galima įtraukti informaciją apie autorių teises, reik
 
 Norėdami kiekvieno puslapio, kuriame naudojamas konkretus šablonas, apačioje įtraukti informaciją apie autorių teises, atlikite tolesnius veiksmus.
 
-1. Nueikite į **Fragmentai** ir pasirinkite **Naujas puslapio fragmentas**.
-1. Dialogo lange pasirinkite modulį **Poraštė** ir pavadinkite fragmentą. Pavyzdžiui, įveskite **Poraštė-autorių teisės**.
+1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas**.
+1. Dialogo lange **Naujas fragmentas** pasirinkite **Poraštės** modulį ir suteikite fragmentui pavadinimą. Pavyzdžiui, įveskite **Poraštė-autorių teisės**.
 1. Pasirinkite **Gerai**.
-1. Naršymo srityje pasirinkite prie elemento **Poraštė** esantį daugtaškio mygtuką (**...**), tada – **Įtraukti modulį**.
+1. Naršymo srityje pasirinkite prie elemento **Poraštė** esantį daugtaškio mygtuką ( **...** ), tada – **Įtraukti modulį**.
 1. Dialogo lange pasirinkite **Poraštės kategorija** ir **Gerai**.
 1. Naršymo srityje pasirinkite prie elemento **Poraštės kategorija** esantį daugtaškio mygtuką, tada – **Įtraukti modulį**.
 1. Dialogo lange pasirinkite **Teksto blokas** ir **Gerai**.
 1. Naršymo srityje pasirinkite **Teksto blokas**.
 1. Dešinėje esančios ypatybių srities lauke **Pastraipa** įtraukite pranešimą apie autorių teises. Pavyzdžiui, įveskite **Autorių teisės priklauso „Fabrikam“, 2019 m.**
-1. Pasirinkite **Įrašyti**, **Baigti redagavimą**, tada – **Publikuoti**.
-1. Eikite į **Šablonai**, pasirinkite šabloną, tada – **Redaguoti**.
-1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas**, tada – **Numatytasis puslapis**.
+1. Pasirinkite **Įrašyti** , **Baigti redagavimą** , tada – **Publikuoti**.
+1. Eikite į **Šablonai** , pasirinkite šabloną, tada – **Redaguoti**.
+1. Dalyje **Puslapio struktūa** išplėskite **Pagrindinis tekstas** , tada – **Numatytasis puslapis**.
 1. Pasirinkite prie elemento **Poraštės vieta** esantį daugtaškio mygtuką, tada – **Įtraukti fragmentą**.
 1. Pasirinkite anksčiau sukurtą fragmentą, tada – **Pasirinkti**.
-1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
 
 Poraštė su informacija apie autorių teises automatiškai atsiranda visų puslapių, kuriuose naudojamas pasirinktas šablonas, apačioje.
 

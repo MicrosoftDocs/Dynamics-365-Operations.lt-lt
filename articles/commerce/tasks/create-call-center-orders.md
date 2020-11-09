@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ec10e0f79e4eca7f51ba48c679dcf6fe745eb29
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141435"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107357"
 ---
 # <a name="create-call-center-orders"></a> Skambučių centro užsakymų kūrimas
 
@@ -30,29 +30,29 @@ ms.locfileid: "3141435"
 
 Ši procedūra padeda ieškoti kliento, kurti naują užsakymą, ieškoti produkto ir surinkti mokėjimą iš kliento. Šioje procedūroje naudojama demonstracinių duomenų įmonė USRT ir ji yra skirta pardavimo užsakymo klerkui. Išankstinės sąlygos: vartotojas, vykdantis procedūrą, yra nustatomas kaip skambučių centro vartotojas ir skelbiamas Fabrikam pusės metų katalogas su bent vienu šaltinio kodu jame.
 
-1. Eikite į Mažmeninė prekyba ir prekyba > Klientai > Klientų aptarnavimas.
-2. Lauke Ieškos tekstas įveskite kliento ieškos kriterijus.
-    * Atlikdami šio pavyzdžio procedūrą įveskite „karen“ ir paspauskite skirtuką.  
-3. Spustelėkite Ieškoti.
-    * Kadangi demonstraciniuose duomenyse tik yra tik vienas klientas vardu Karen, jis bus automatiškai pažymėtas.  
-4. Spustelėkite Naujas pardavimo užsakymas.
-5. Išplėskite arba sutraukite sekciją Pardavimo užsakymo antraštė.
+1. Eikite į **Mažmeninė prekyba ir prekyba \> Klientai \> Klientų aptarnavimas**.
+2. Lauke **Ieškos tekstas** įveskite kliento ieškos kriterijus.
+    * Atlikdami šio pavyzdžio procedūrą įveskite „Karen“ ir pasirinkite **skirtuką**.  
+3. Pasirinkite Ieškoti.
+    * Kadangi demonstraciniuose duomenyse tik yra tik vienas klientas vardu Karen, šis rezultatas bus automatiškai pažymėtas.  
+4. Pasirinkite **Naujas pardavimo užsakymas**.
+5. Išplėskite arba sutraukite antraštės sekciją **Pardavimo užsakymas**.
 6. Pasirinkite katalogo šaltinio kodą.
-    * Jei nėra jokių aktyvių šaltinio kodų, galite uždaryti lauką Šaltinis ir praleisti šį veiksmą.  
-7. Spustelėkite Pridėti eilutę.
-8. Lauke Prekės numeris įveskite prekės ieškos terminą.
+    * Jei nėra jokių aktyvių šaltinio kodų, galite praleisti šį veiksmą.  
+7. Pasirinkite **Pridėti eilutę**.
+8. Lauke **Prekės numeris** įveskite prekės ieškos terminą.
     * Atlikdami šio pavyzdžio procedūrą, įveskite dalinį prekės numerį „8111“ ir paspauskite skirtuką. Pasirodys prekės ieškos langas.  
-9. Pasirinkti produktą įtraukti į pardavimo užsakymą
+9. Pasirinkite produktą, kurį norite įtraukti į pardavimo užsakymą.
 10. Įveskite pardavimo kiekį.
-11. Spustelėkite Kurti.
-12. Spustelėkite Baigti, kad užfiksuotumėte kliento mokėjimą.
-13. Spustelėkite Pridėti.
+11. Pasirinkite **Kurti**.
+12. Pasirinkite **Baigti** , norėdami užfiksuoti kliento mokėjimą.
+13. Pasirinkite **Įtraukti**.
     * Parinktis Įtraukti saitą yra skirtuke Mokėjimai. Išplėskite skirtuką Mokėjimai, jei jis sutrauktas.  
 14. Pasirinkite mokėjimo būdą.
     * Atlikdami šią procedūrą, parinkite grynųjų pinigų mokėjimo metodą.  
 15. Uždarykite puslapį.
 16. Įveskite sumą.
-    * Atlikdami šią procedūrą, įveskite sumą, lygią užsakymo balansui, kuris rodomas puslapyje Pardavimo užsakymo suvestinė, kairėje sumos lauko pusėje. Bus galima įvykdyti užsakymą kaip visiškai apmokėtą.  
-17. Spustelėkite GERAI.
-18. Spustelėkite Pateikti.
+    * Atlikdami šią procedūrą, įveskite sumą, lygią užsakymo balansui, kuris rodomas puslapyje Pardavimo užsakymo suvestinė, kairėje sumos lauko pusėje. Šis veiksmas leis įvykdyti užsakymą kaip visiškai apmokėtą.  
+17. Pasirinkite **Gerai**.
+18. Pasirinkite **Pateikti**.
 

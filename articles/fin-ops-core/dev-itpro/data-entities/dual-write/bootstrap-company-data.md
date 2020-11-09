@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 1ed97d7c388347eb5afe101f51173b6d48b18fcd
-ms.sourcegitcommit: 68f1485de7d64a6c9eba1088af63bd07992d972d
+ms.openlocfilehash: a2adf284111f2ccc9a830635ab3fb8f4731c84d9
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "3172928"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997581"
 ---
 # <a name="bootstrap-with-company-data-faq"></a>DUK apie perkrovimą naudojant įmonės duomenis
  
@@ -52,16 +51,16 @@ Galbūt turite „Common Data Service“ ar kitos „Dynamics 365“ programos e
 ## <a name="how-to-i-use-the-code-sample"></a>Kaip naudoti kodo pavyzdį?
 Pavyzdžio kodas yra C# programa, kurią galite įkelti į „Visual Studio“. Pasitelkiamos „NuGet“ paketo „Common Data Service“ SDK priklausomybės, kurias galite atnaujinti naudodami standartinius „Visual Studio“ įrankius. 
 
-Sprendimą išskleidę ir atidarę „Visual Studio“ aplinkoje bei atkūrę „NuGet“ paketus, kode ieškokite **TODO**. Kiekvienas turimas priimti sprendimas dėl įmonės informacijos perkrovimo būdo pažymėtas fraze **TODO**; taip pat pateiktas kodo pavyzdys, skirtas įdiegti kanoniškai. 
+Sprendimą išskleidę ir atidarę „Visual Studio“ aplinkoje bei atkūrę „NuGet“ paketus, kode ieškokite **TODO**. Kiekvienas turimas priimti sprendimas dėl įmonės informacijos perkrovimo būdo pažymėtas fraze **TODO** ; taip pat pateiktas kodo pavyzdys, skirtas įdiegti kanoniškai. 
 
 Kodo pavyzdžiu parodytas tik vienas iš daugybės būdų, kuriuos naudodami objektų įrašus galite suskirstyti pagal įmonę. Keisdami skyriuose **TODO** pateiktą logiką, galite sukurti savo pasirinktinį suskirstymą. 
  
 ## <a name="what-should-i-expect"></a>Ko reikėtų tikėtis?
-Pagal numatytuosius parametrus pavyzdžio programoje galite pateikti verslo struktūros vienetų ir įmonės kodo sąsajų žodyną. Bet kuris objektas, kurį perkraunate naudodami lauką **OwningBusinessUnit**, automatiškai nustatomas naudoti nurodytą įmonę. Objektui be lauko **OwningBusinessUnit**, pvz., produktui, įmonė bus nustatoma pagal sąsają su tuščia verslo struktūros vieneto reikšme.
+Pagal numatytuosius parametrus pavyzdžio programoje galite pateikti verslo struktūros vienetų ir įmonės kodo sąsajų žodyną. Bet kuris objektas, kurį perkraunate naudodami lauką **OwningBusinessUnit** , automatiškai nustatomas naudoti nurodytą įmonę. Objektui be lauko **OwningBusinessUnit** , pvz., produktui, įmonė bus nustatoma pagal sąsają su tuščia verslo struktūros vieneto reikšme.
 
-Konsolės programa tikisi vieno parametro – **–simulate** arba **–apply**. Jei naudojate komandų eilutės parametrą **–simulate**, neatnaujinami jokie duomenys. Tame pačiame kataloge, kaip įrankis, generuojami tik **simulation_<entityname>.csv** failai, po vieną kiekvienam objektui, kuris būtų buvęs atnaujintas. Dirbdami šiuos failus galite pakartotinai peržiūrėti, kad užtikrintumėte, jog kodas įmonės reikšmes atnaujina taip, kaip tikimasi. 
+Konsolės programa tikisi vieno parametro – **–simulate** arba **–apply**. Jei naudojate komandų eilutės parametrą **–simulate** , neatnaujinami jokie duomenys. Tame pačiame kataloge, kaip įrankis, generuojami tik **simulation_<entityname>.csv** failai, po vieną kiekvienam objektui, kuris būtų buvęs atnaujintas. Dirbdami šiuos failus galite pakartotinai peržiūrėti, kad užtikrintumėte, jog kodas įmonės reikšmes atnaujina taip, kaip tikimasi. 
 
-Baigę dirbti su modeliuojamais naujinimais, naudokite parametrą **–apply**. Taip atnaujinami visi įrašai, kuriuose šiuo metu yra neteisinga įmonės reikšmė – paketais po 1000 įrašų vienu metu (pagal numatytuosius parametrus). Kodas pateikiamas su unikalumo patikrinimo funkcija – tai reiškia, kad galite jį vykdyti pakartotinai ir bus atnaujintos tik neteisingai priskirtos įmonės. Vykdomas su **–apply**, kodas generuoja atliktų pakeitimų CSV failus, kurie pavadinti **applied_<entityname>.csv**, 
+Baigę dirbti su modeliuojamais naujinimais, naudokite parametrą **–apply**. Taip atnaujinami visi įrašai, kuriuose šiuo metu yra neteisinga įmonės reikšmė – paketais po 1000 įrašų vienu metu (pagal numatytuosius parametrus). Kodas pateikiamas su unikalumo patikrinimo funkcija – tai reiškia, kad galite jį vykdyti pakartotinai ir bus atnaujintos tik neteisingai priskirtos įmonės. Vykdomas su **–apply** , kodas generuoja atliktų pakeitimų CSV failus, kurie pavadinti **applied_<entityname>.csv** , 
 
  ```csharp
  using Microsoft.Crm.Sdk.Messages;

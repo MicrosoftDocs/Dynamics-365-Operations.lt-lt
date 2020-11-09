@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa67cdc7ad07c1384c4a0bad453447a464adf144
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.openlocfilehash: 52090645b0bb00399a88926c0b48a3cee8fcd114
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3652088"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012303"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.11 versijoje (2020 m. liepos mėn.)?
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ apžvalgos 10.0.11 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.464 ir jis pasiekiamas tokius būdu:
+Šioje temoje nurodomos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.11 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.464 ir jis pasiekiamas tokius būdu:
 
 - **Vertinimo versijos leidimas:** 2020 m. balandžio mėn.
 - **Bendras pasiekiamumas (automatinis naujinimas):** 2020 m. gegužės mėn.
@@ -39,10 +39,15 @@ ms.locfileid: "3652088"
 Toliau nurodytos funkcijos yra įtrauktos į šį leidimą. Funkcijų pavadinimai susieti su papildoma informacija svetainėje [Leidimų planai](https://docs.microsoft.com/dynamics365/release-plans/). Papildomi saitai nurodo papildomus dokumentus arba vaizdo įrašus, kurie šiuo metu galimi šiai funkcijai. Daugumą šių funkcijų reikia įjungti naudojant [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), kad galėtumėte jomis naudotis.
 
 - [Turimų atsargų ataskaitos saugykla](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+
 - [Su sandėlio programa gaunami numerio lentelės papildymai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Dėl išsamesnės informacijos, žr. [Licencijos ženklas gaunamas per sandėlio programą](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md)
+
 - [Linijos rezervavimo papildymai pakuotės numerio rezervavimo formai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Dėl daugiau informacijos, žr.[To paties pardavimo užsakymo paketo rezervavimas](../sales-marketing/reserve-same-batch-sales-order.md).
+
 - [Nauji gamybos srities duomenų objektai](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+
 - [Krovinio kiekių perviršis](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Dėl daugiau informacijos, žr.[Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas](../warehousing/inbound-load-handling.md).
+
 - [Skelbimas apie paketų numerių, esančių užduoties kortelės įrenginyje, baigimą](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Dėl daugiau informacijos, žr. [Skelbimas baigtu iš užduoties kortelės įrenginio](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Papildomi ištekliai

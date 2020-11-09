@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: BOMTable
+ms.search.form: BOMTable, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 555c76651609718aeed11230b4de4fec3bb39ce9
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3203347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016890"
 ---
 # <a name="batch-balancing"></a>Paketo balansavimas
 
@@ -97,7 +97,7 @@ Pagrindinis B ingrediento atributas yra X, o tikslinis lygis – 30, ir ingredie
 
 ### <a name="none"></a>None
 
-Paketų balansavimo procesą pritaikius tada, kai ingrediento tipas yra **Nėra**, paketinio užsakymo formulės eilutėje įvertintas kiekis ir subalansuotas kiekis sutampa.
+Paketų balansavimo procesą pritaikius tada, kai ingrediento tipas yra **Nėra** , paketinio užsakymo formulės eilutėje įvertintas kiekis ir subalansuotas kiekis sutampa.
 
 **Pavyzdys**
 
@@ -115,7 +115,7 @@ Ryšys tarp aktyviojo ingrediento ir kompensuojamojo ingrediento nustatomas pusl
 
 Norėdami nustatyti ryšius tarp ingredientų, atlikite tolesnius veiksmus.
 
-1.  Pasirinkite **Produkto informacijos valdymas** \> **Komplektavimo specifikacijos ir formulės** \> **Formulės**, atidarykite formulės eilutę ir pasirinkite **Ingredientai**, kad atidarytumėte puslapį **Kompensavimo principas**.
+1.  Pasirinkite **Produkto informacijos valdymas** \> **Komplektavimo specifikacijos ir formulės** \> **Formulės** , atidarykite formulės eilutę ir pasirinkite **Ingredientai** , kad atidarytumėte puslapį **Kompensavimo principas**.
 
 2.  Pasirinkite eilutę su kompensavimo principu, tada pasirinkite norimą kompensuoti aktyvųjį ingredientą.
 
@@ -156,7 +156,7 @@ Subalansuotas papildomo ingrediento kiekis apskaičiuojamas kaip skirtumas tarp 
 ---------------------------
 
 Paketų balansavimo procesas atliekamas puslapyje **Paketų balansavimas**.
-Pasirinkite **Kaštų valdymas** \> **Paketiniai užsakymai**, tada skirtuke **Procesas** pasirinkite **Paketų balansavimas**. Paketų balansavimo funkciją galima naudoti su paketiniais užsakymais, kurių būsena yra **Pradėtas**.
+Pasirinkite **Kaštų valdymas** \> **Paketiniai užsakymai** , tada skirtuke **Procesas** pasirinkite **Paketų balansavimas**. Paketų balansavimo funkciją galima naudoti su paketiniais užsakymais, kurių būsena yra **Pradėtas**.
 
 Apskritai paketų balansavimo funkciją paketiniams užsakymams galima taikyti, jei formulėje yra bent viena formulės eilutė, kurioje ingrediento tipas yra **Aktyvusis**. (Norėdami sužinoti apie šios taisyklės išimtį, žr. toliau šioje temoje pateiktą skyrių „Paketiniai užsakymai, kuriems paketų balansavimo funkcijos taikyti negalima“.)
 
@@ -171,7 +171,7 @@ Paketų balansavimo procesą galima išskaidyti į du antrinius procesus.
 Vykdant procesą Paketų ingredientų balansavimas, gamybos pakete naudotinas ingredientų kiekis apskaičiuojamas pagal pasirinktus paketus su aktyviaisiais ingredientais. Paprastai apskaičiuoti galima, tik jei visiškai aprėpiami visi ingredientai. Negalite balansuoti tik tos paketo dalies, kurią pagaminti nustatytas paketinis užsakymas.
 
 [!NOTE]
-Negalite įrašyti skaičiavimo ir paketų balansavimo proceso baigti vėliau. Jei uždarote puslapį **Paketų balansavimas**, norėdami baigti procesą turite pakartoti skaičiavimą.
+Negalite įrašyti skaičiavimo ir paketų balansavimo proceso baigti vėliau. Jei uždarote puslapį **Paketų balansavimas** , norėdami baigti procesą turite pakartoti skaičiavimą.
 
 ### <a name="confirm-and-release-the-formula"></a>Formulės patvirtinimas ir išleidimas
 
@@ -188,7 +188,7 @@ Vienoje formulėje galite sujungti produktus, su kuriais vykdyti sandėlio valdy
 
 ### <a name="batch-orders-that-arent-applicable-for-batch-balancing"></a>Paketiniai užsakymai, kuriems paketų balansavimo funkcijos taikyti negalima
 
-Taisyklė, kad paketiniams užsakymams galima taikyti paketų balansavimo funkciją, jei formulėje yra bent viena formulės eilutė, kurioje ingrediento tipas yra **Aktyvusis**, turi vieną išimtį.
+Taisyklė, kad paketiniams užsakymams galima taikyti paketų balansavimo funkciją, jei formulėje yra bent viena formulės eilutė, kurioje ingrediento tipas yra **Aktyvusis** , turi vieną išimtį.
 
 Jei formulėje yra produkto, su kuriuo galima vykdyti sandėlio valdymo procesus, aktyvusis ingredientas, tačiau rezervavimo hierarchijoje reikšmė Paketo numeris yra žemiau reikšmės Vieta, paketiniam užsakymui paketų balansavimo funkcijos taikyti negalima.
 

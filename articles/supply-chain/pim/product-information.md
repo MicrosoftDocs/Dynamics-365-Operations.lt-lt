@@ -1,7 +1,7 @@
 ---
 title: Produktų informacijos peržiūra
 description: Šioje temoje pateikiama informacijos apie produktų informacijos valdymą. Valdant produktų informaciją, dirbama su bendrinama produkto apibrėžtimi, kategorizacija ir identifikatoriais visuose juridiniuose subjektuose bei konkrečiomis produkto konfigūracijomis, kad būtų galima prisiderinti prie verslo procesų.
-author: benebotg
+author: t-benebo
 manager: tfehr
 ms.date: 06/01/2017
 ms.topic: article
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c118bc37a26d6d3a65905f2fd955ceb3554e9557
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980893"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015134"
 ---
 # <a name="product-information-overview"></a>Produktų informacijos peržiūra
 
@@ -72,7 +72,7 @@ Bendrasis produktas susiejamas su produktų dimensijų grupe ir konfigūravimo t
 Galite rinktis iš trijų konfigūravimo technologijų:
 
 - Iš anksto apibrėžtus variantus apibrėžia iš anksto apibrėžtos produktų dimensijos. Į varianto apibrėžtį įeina konkretaus tinkamo dimensijų, pvz., Spalva, Stilius ir Dydis, derinio apibrėžtis. Kiekvienas derinys sukuria išskirtojo produkto variantą.
-- Konfigūravimo pagal dimensijas funkcija paprastai naudojama gamybos situacijose ir apibrėžiant komplektavimo specifikacijas (KS) ji leidžia naudoti dimensiją Konfigūracija. Pasirinkus konkrečią konfigūraciją sistema naudoja tai konfigūracijai tinkamų planavimo ir gamybos KS eilučių pogrupį. Ši sąvoka taip pat vadinama *visuotine KS*, nes viena bendrai naudojama KS naudojama visoms produkto konfigūracijoms.
+- Konfigūravimo pagal dimensijas funkcija paprastai naudojama gamybos situacijose ir apibrėžiant komplektavimo specifikacijas (KS) ji leidžia naudoti dimensiją Konfigūracija. Pasirinkus konkrečią konfigūraciją sistema naudoja tai konfigūracijai tinkamų planavimo ir gamybos KS eilučių pogrupį. Ši sąvoka taip pat vadinama *visuotine KS* , nes viena bendrai naudojama KS naudojama visoms produkto konfigūracijoms.
 - Konfigūravimo pagal apribojimus funkcija naudoja produkto konfigūracijos modelį ir apibūdina visus galimus atributus ir komponentus, kurių reikia norint viename modelyje apibūdinti visus galimus produkto variantus. Atributų derinių apribojimus galima apibūdinti naudojant reguliariuosius reiškinius ar apribojimus pagal lenteles. Valdant produktų informaciją konfigūracijų modeliai ir konfigūratoriai tampa vis svarbesni ir yra naudojami visose pramonės šakose.
 
 Planuojant diegti Tiekimo grandinės valdymą, labai svarbu verslo procesui parinkti tinkamą konfigūravimo technologiją. Įdiegus produkto negalima konvertuoti iš vieno modelio į kitą.
@@ -89,7 +89,7 @@ Konkrečiam juridiniam subjektui pateikti produktai vadinami *pateiktais produkt
 
 Darbo sritį **Pateiktų produktų priežiūra** galite konfigūruoti pasirinkę meniu elementą **Konfigūruoti mano darbo sritį**. Pasirinkite kategorijų hierarchiją ir kategoriją, pagal kurias reikia filtruoti darbo sritį. Norėdami darbo srityje koreguoti aktualius produktų duomenis, taip pat galite dienomis apibrėžti **neseniai pateiktų produktų** ir **sustabdytų pateiktų produktų** laiko ribas.
 
-Darbo sritį sudaro plytelių ir dviejų sąrašų suvestinė. Sąraše **Atviri atvejai** rodomi produktų keitimo atvejai, kai pasirinktos produktų kategorijų hierarchijos produktai nėra baigti ir uždaryti. Sąraše **Neseniai pateikti** rodomi produktai, pateikti laiko ribose, nustatytose darbo srities konfigūracijoje. Tikrinamas kiekvienas sąrašo elementas ir rodoma tikrinimo būsena. Ši būsena gali nurodyti, kad nebaigta būtina juridinio subjekto konfigūracija. Sąraše galite tiesiogiai pasiekti puslapius **Išsami pateiktų produktų informacija**, **Produktų atributų priežiūra**, **Produktų kategorijų priežiūra**, **Numatytieji užsakymų parametrai** ir **Teksto vertimai** bei baigti būtiną produkto konfigūraciją.
+Darbo sritį sudaro plytelių ir dviejų sąrašų suvestinė. Sąraše **Atviri atvejai** rodomi produktų keitimo atvejai, kai pasirinktos produktų kategorijų hierarchijos produktai nėra baigti ir uždaryti. Sąraše **Neseniai pateikti** rodomi produktai, pateikti laiko ribose, nustatytose darbo srities konfigūracijoje. Tikrinamas kiekvienas sąrašo elementas ir rodoma tikrinimo būsena. Ši būsena gali nurodyti, kad nebaigta būtina juridinio subjekto konfigūracija. Sąraše galite tiesiogiai pasiekti puslapius **Išsami pateiktų produktų informacija** , **Produktų atributų priežiūra** , **Produktų kategorijų priežiūra** , **Numatytieji užsakymų parametrai** ir **Teksto vertimai** bei baigti būtiną produkto konfigūraciją.
 
 ### <a name="manually-creating-a-new-released-product"></a>Naujo pateikto produkto kūrimas rankiniu būdu
 

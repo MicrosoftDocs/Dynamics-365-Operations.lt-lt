@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: InventOnhandItem, InventOnHandItemListPage
+ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 275a37cd76715ab9909e057ec759c66c4f9c617b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829854"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017396"
 ---
 # <a name="inventory-on-hand-list"></a>Turimų atsargų sąrašas
 
@@ -61,7 +61,7 @@ Kiekvienam sutinkančiam elementui, **Turimas** tinklelis pateikia tolesnius ats
 Naudokite **Filtrų** juostą tam, kad filtruotumėte turimų atsargų sąrašą taip, kad jis apimtų tik įrašus, kuriuose laukelio vertės atitinka filtravimo kriterijus. Filtro nustatymui, atlikite šiuos žingsnius.
 
 1.  **Filtrai** juostoje, suraskite laukelį, kurį norite filtruoti.
-2. Tolesniame laukelyje galutinio laukelio pavadinime, pasirinkite loginį operatorių (pavyzdžiui, *prasideda su*, *lygus* arba *didesnis nei*).
+2. Tolesniame laukelyje galutinio laukelio pavadinime, pasirinkite loginį operatorių (pavyzdžiui, *prasideda su* , *lygus* arba *didesnis nei* ).
 3. Įveskite ar pasirinkite vertę, kurios ieškote.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Naudokite **Filtrų** juostą tam, kad filtruotumėte turimų atsargų sąrašą
 
 Galite modifikuoti filtrų nustatymą, kuris yra prieinamas **Filtrų** juostoje tolesniais žingsniais.
 
-- Siekiant pašalinti filtrą iš juostos, pasirinkite jos **Uždarymo** mygtuką (**X**).
+- Siekiant pašalinti filtrą iš juostos, pasirinkite jos **Uždarymo** mygtuką ( **X** ).
 - Filtro įtraukimui, pasirinkite **Įtraukti** **Filtrų** juostos viršuje. **Įtraukti filtro laukelius** teksto laukelyje, kuris pasirodo, yra rodomas esamų laukelių sąrašas. Jis taip pat rodo informaciją apie duomenų tipą ir lentelę kiekvienam laukeliui. Naudokite stulpelio antraštę tam, kad filtruotumėte ir rūšiuotumėte sąrašą kaip reikia ir tuomet pasirinkite žymimą laukelį kiekvienam laukeliui, kurį norite įtraukti į **Filtro** juostą. Kai baigėte, pasirinkite **Įvesti** jūsų keitimų taikymui.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Pasirinkite rodomas dimensijas
@@ -87,12 +87,12 @@ Tam, kad tinkintumėte rodomų inventoriaus dimensijų pasirinkimą, atlikite š
     **Dimensijos rodymas** teksto laukelyje, kuris pasirodo, rodomos visos dimensijos.
 
 2. Pasirinkite žymimą laukelį kiekvienai dimensijai, kurią norite įtraukti į tinklelį.
-3. Jei norite, kad jūsų pasirinkimas būtų naudojamas kaip iš anksto nustatytas, kitą kartą kai atidarote **Turimų sąrašas** puslapį, nustatykite **Nustatymų įrašymo** parinktį į **Taip**. Jei nustatote šią parinktį į **Ne**, jūsų pasirinkimas bus naudojamas esamos sesijos metu. Kitą kartą, kai atidarote puslapį, bus naudojamas esamas nustatytasis pasirinkimas.
+3. Jei norite, kad jūsų pasirinkimas būtų naudojamas kaip iš anksto nustatytas, kitą kartą kai atidarote **Turimų sąrašas** puslapį, nustatykite **Nustatymų įrašymo** parinktį į **Taip**. Jei nustatote šią parinktį į **Ne** , jūsų pasirinkimas bus naudojamas esamos sesijos metu. Kitą kartą, kai atidarote puslapį, bus naudojamas esamas nustatytasis pasirinkimas.
 4. Pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį ir pritaikytumėte savo pakeitimus.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtruokite turimų atsargų sąrašo išorėje
 
-Galite pasirinkti bet kurio stulpelio antraštę**Turimo** tinklelio rūšiavime arba filtruoti pagal to stulpelio vertes. Greitas filtravimas tinklelio viršuje suteikia papildomą filtravimo parinktį. Šie filtrai taikomi rezultatams, tačiau ne šaltinio lentelėms. Dėl informacijos apie tai, kaip šis elgesys gali paveikti jūsų rezultatus, žr. [pavyzdžiai](#examples) toliau šiame skyriuje.
+Galite pasirinkti bet kurio stulpelio antraštę **Turimo** tinklelio rūšiavime arba filtruoti pagal to stulpelio vertes. Greitas filtravimas tinklelio viršuje suteikia papildomą filtravimo parinktį. Šie filtrai taikomi rezultatams, tačiau ne šaltinio lentelėms. Dėl informacijos apie tai, kaip šis elgesys gali paveikti jūsų rezultatus, žr. [pavyzdžiai](#examples) toliau šiame skyriuje.
 
 > [!NOTE]
 > Negalite filtruoti ir rūšiuoti pagal visus stulpelius. Didžioji dalis stulpelių neįtraukia rūšiavimo ir filtravimo valdiklių, nes jie yra apskaičiuoti laukeliai. **Užsakyme** stulpelis yra išimtis.
@@ -109,7 +109,7 @@ Jūsų sistema apima išsamią (neapibendrintą) atsargų lentelę, kuri rodo to
 
 ### <a name="scenario-1"></a>1 scenarijus
 
-**Turimas sąrašas**puslapis yra nustatytas rodyti tolesnes galutines dimensijas:
+**Turimas sąrašas** puslapis yra nustatytas rodyti tolesnes galutines dimensijas:
 
 - Prekės Nr.
 - Vieta
@@ -129,7 +129,7 @@ Jūsų sistema apima išsamią (neapibendrintą) atsargų lentelę, kuri rodo to
 
 ### <a name="scenario-2"></a>2 scenarijus
 
-**Turimas sąrašas**puslapis yra nustatytas rodyti tolesnes galutines dimensijas:
+**Turimas sąrašas** puslapis yra nustatytas rodyti tolesnes galutines dimensijas:
 
 - Prekės Nr.
 - Vieta
@@ -145,4 +145,4 @@ Jūsų sistema apima išsamią (neapibendrintą) atsargų lentelę, kuri rodo to
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Atkreipkite dėmesį, kad nustatymai **Filtrų** juostoje taikomi išsamiai (neapibendrintai) atsargų lentelei, kuri yra rodoma šio skyriaus pradžioje. Dėl to, kriterijus **Faktiškai turima** \| **mažiau arba lygu** \| _1_ randa dvi eilutes iš tos lentelės (pirmąją ir trečiąją eilutę, kurių kiekviena rodo **Faktiškai turima** _1_ vertę). Nepaisant to, šiame scenarijuje **Turimo sąrašo** puslapis nėra nustatytas taip, kad rodytų **Sandėlio** dimensiją. Dėl to, jis apibendrina dvi originalias reilutes į vietą rezultatų eilutę, nes abi eilutės turi identiškas vetes visose rodomose dimensijose. Ši eilutė pasirodo pažeisdama filtravimo kriterijus, nes**Faktiškai turima** vertė rodoma kaip _2_. Nepaisant to, rezultatas yra teisingas, nes nustatymai**Filtrų** juostoje taikomi šaltinio lentelei, o ne apibendrintai lentelei, kuri yra rodoma **Turimo sąrašo** puslapyje.
+Atkreipkite dėmesį, kad nustatymai **Filtrų** juostoje taikomi išsamiai (neapibendrintai) atsargų lentelei, kuri yra rodoma šio skyriaus pradžioje. Dėl to, kriterijus **Faktiškai turima** \| **mažiau arba lygu** \| _1_ randa dvi eilutes iš tos lentelės (pirmąją ir trečiąją eilutę, kurių kiekviena rodo **Faktiškai turima** _1_ vertę). Nepaisant to, šiame scenarijuje **Turimo sąrašo** puslapis nėra nustatytas taip, kad rodytų **Sandėlio** dimensiją. Dėl to, jis apibendrina dvi originalias reilutes į vietą rezultatų eilutę, nes abi eilutės turi identiškas vetes visose rodomose dimensijose. Ši eilutė pasirodo pažeisdama filtravimo kriterijus, nes **Faktiškai turima** vertė rodoma kaip _2_. Nepaisant to, rezultatas yra teisingas, nes nustatymai **Filtrų** juostoje taikomi šaltinio lentelei, o ne apibendrintai lentelei, kuri yra rodoma **Turimo sąrašo** puslapyje.

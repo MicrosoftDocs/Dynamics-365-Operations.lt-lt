@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0848b7556100fba38fcab0aa2a1a109e2e055fc9
-ms.sourcegitcommit: b89baab13e530b5b1f079231619c628309a4742d
+ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
+ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3959580"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4058159"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>„Common Data Service“ virtualių objektų konfigūravimas
 
@@ -62,13 +62,13 @@ Pirmiausia turite užregistruoti programą „Azure“ portale, kad „Microsoft
 
 3. Pasirinkite **Nauja registracija**.
 
-4. Lauke **Pavadinimas** įveskite apibūdinantį programos pavadinimą. Pavyzdžiui, „**Dynamics 365 Human Resources“ virtualūs objektai**.
+4. Lauke **Pavadinimas** įveskite apibūdinantį programos pavadinimą. Pavyzdžiui, „ **Dynamics 365 Human Resources“ virtualūs objektai**.
 
 5. Lauke **Nukreipimo URI** įveskite „Human Resources“ objekto vardų srities URL.
 
 6. Pasirinkite **Registruotis**.
 
-7. Baigus registraciją, „Azure“ portale rodoma programos registracijos sritis **Apžvalga**, kurioje nurodytas **Programos (kliento) ID**. Pasižymėkite **Programos (kliento) ID**. Šią informaciją turėsite įvesti, kai vykdysite [virtualaus objekto duomenų šaltinio konfigūravimą](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
+7. Baigus registraciją, „Azure“ portale rodoma programos registracijos sritis **Apžvalga** , kurioje nurodytas **Programos (kliento) ID**. Pasižymėkite **Programos (kliento) ID**. Šią informaciją turėsite įvesti, kai vykdysite [virtualaus objekto duomenų šaltinio konfigūravimą](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-entity-data-source).
 
 8. Kairiojoje naršymo srityje pasirinkite **Sertifikatai ir slaptieji raktai**.
 
@@ -93,7 +93,7 @@ Pirmiausia turite užregistruoti programą „Azure“ portale, kad „Microsoft
 
 4. Pasirinkite veiksmą **Įdiegti programą**.
 
-5. Pasirinkite **Dynamics 365 HR Virtual Entity**, o tada pasirinkite **Pirmyn**.
+5. Pasirinkite **Dynamics 365 HR Virtual Entity** , o tada pasirinkite **Pirmyn**.
 
 6. Peržiūrėkite ir pažymėkite, kad sutinkate su paslaugų teikimo sąlygomis.
 
@@ -113,9 +113,9 @@ Kitas veiksmas yra sukonfigūruoti virtualaus objekto duomenų šaltinį „Powe
 
 3. Puslapio srityje **Informacija** pasirinkite **Aplinkos URL**.
 
-4. Srityje **Spendimo būklės telkinys** pasirinkite piktogramą **Išplėstinė paieška**, esančią programos viršutiniame dešiniajame kampe.
+4. Srityje **Spendimo būklės telkinys** pasirinkite piktogramą **Išplėstinė paieška** , esančią programos viršutiniame dešiniajame kampe.
 
-5. Puslapyje **Išplėstinė paieška**, išskleidžiamajame sąraše **Ieškoti**, pasirinkite „**Finance and Operations“ virtualaus duomenų šaltinio konfigūracijos**.
+5. Puslapyje **Išplėstinė paieška** , išskleidžiamajame sąraše **Ieškoti** , pasirinkite „ **Finance and Operations“ virtualaus duomenų šaltinio konfigūracijos**.
 
 6. Pasirinkite **Rezultatai**.
 
@@ -123,10 +123,10 @@ Kitas veiksmas yra sukonfigūruoti virtualaus objekto duomenų šaltinį „Powe
 
 8. Įveskite reikiamą duomenų šaltinio konfigūracijos informaciją.
 
-   - **Paskirties URL**: jūsų „Human Resources“ vardų srities URL.
-   - **Nuomotojo ID**: „Azure Active Directory“ („Azure AD“) nuomotojo ID.
-   - **AAD programos ID**: programos (kliento) ID, sukurtas programai, užregistruotai „Microsoft Azure“ portale. Šią informaciją gavote anksčiau, atlikdami veiksmą [Užregistruokite programą „Microsoft Azure“](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **AAD programos slaptasis raktas**: kliento slaptasis raktas, sukurtas programai, užregistruotai „Microsoft Azure“ portale. Šią informaciją gavote anksčiau, atlikdami veiksmą [Užregistruokite programą „Microsoft Azure“](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **Paskirties URL** : jūsų „Human Resources“ vardų srities URL.
+   - **Nuomotojo ID** : „Azure Active Directory“ („Azure AD“) nuomotojo ID.
+   - **AAD programos ID** : programos (kliento) ID, sukurtas programai, užregistruotai „Microsoft Azure“ portale. Šią informaciją gavote anksčiau, atlikdami veiksmą [Užregistruokite programą „Microsoft Azure“](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
+   - **AAD programos slaptasis raktas** : kliento slaptasis raktas, sukurtas programai, užregistruotai „Microsoft Azure“ portale. Šią informaciją gavote anksčiau, atlikdami veiksmą [Užregistruokite programą „Microsoft Azure“](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
 9. Pasirinkite **Įrašyti ir uždaryti**.
 
@@ -141,47 +141,48 @@ Kitas veiksmas yra sukonfigūruoti virtualaus objekto duomenų šaltinį „Powe
 
 1. „Human Resources“ atidarykite puslapį **„Azure Active Directory“ programos**.
 
-2. Pasirinkite **Nauja**, kad sukurtumėte naują programos įrašą:
+2. Pasirinkite **Nauja** , kad sukurtumėte naują programos įrašą:
 
     - Lauke **Kliento ID** įveskite programos, kurią užregistravote „Microsoft Azure“ portale, kliento ID.
     - Lauke **Pavadinimas** įveskite programos, kurią užregistravote „Microsoft Azure“ portale, pavadinimą.
     - Lauke **Vartotojo ID** pasirinkite vartotojo, kuriam suteiktos „Human Resources“ ir „Power Apps“ aplinkos administravimo teisės, vartotojo ID.
 
-3. Pasirinkite **Nauja**, kad sukurtumėte antrą programos įrašą:
+3. Pasirinkite **Nauja** , kad sukurtumėte antrą programos įrašą:
 
-    - **Kliento ID**: f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Pavadinimas**: Dynamics 365 HR Virtual Entity
+    - **Kliento ID** : f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Pavadinimas** : Dynamics 365 HR Virtual Entity
     - Lauke **Vartotojo ID** pasirinkite vartotojo, kuriam suteiktos „Human Resources“ ir „Power Apps“ aplinkos administravimo teisės, vartotojo ID.
 
 ## <a name="generate-virtual-entities"></a>Generuokite virtualius objektus
 
 Baigus nustatymą, galite pasirinkti virtualius objektus, kuriuos norite generuoti ir įjungti savo „Common Data Service“ egzemplioriuje.
 
-1. Atidarykite [„Power Platform“ administravimo centrą](https://admin.powerplatform.microsoft.com).
+1. „Human Resources“ atidarykite puslapį **„Common Data Service“ (CDS) integravimas**.
 
-2. Sąraše **Aplinkos** pasirinkite „Power Apps“ aplinką, susijusią su „Human Resources“ egzemplioriumi.
-
-3. Puslapio srityje **Informacija** pasirinkite **Aplinkos URL**.
-
-4. Srityje **Spendimo būklės telkinys** pasirinkite piktogramą **Išplėstinė paieška**, esančią puslapio viršutiniame dešiniajame kampe.
-
-5. Puslapyje **Išplėstinė paieška**, išskleidžiamajame sąraše **Ieškoti** pasirinkite **Galimi HR objektai**.
-
-6. Norėdami rasti objektą ar objektus, kuriuos norite įjungti, naudokite filtro pasirinktis.
-
-7. Sąraše pasirinkite objektą.
-
-8. Objekto puslapyje pakeiskite objekto ypatybės **Buvo sugeneruota** reikšmę į **Taip**.
-
-9. Įrašykite ir uždarykite objekto puslapį.
+2. Pasirinkite skirtuką **Virtualūs objektai**.
 
 > [!NOTE]
-> Naudodami puslapį **Keisti kelis įrašus** galite sugeneruoti kelis virtualius objektus iš karto. Puslapyje pasirinkite kelis įrašus ir juostoje pasirinkite **Redaguoti**. Tada galite pakeisti visų pasirinktų įrašų ypatybę **Buvo sugeneruota**.
+> Perjungiklis **Įgalinti virtualų objektą** bus automatiškai nustatytas į **Taip** , baigus visus būtinus nustatymus. Jei perjungiklis nustatytas į **Ne** , peržiūrėkite ankstesniuose šio dokumento skyriuose aprašytus veiksmus, norėdami užtikrinti, kad visi būtinieji nustatymo veiksmai yra baigti.
 
-![Galimi HR objektai](./media/hr-admin-integration-virtual-entities-available.jpg)
+3. Pasirinkti objektą ar objektus, kuriuos norite generuoti „Common Data Service”.
 
-> [!NOTE]
-> Tam, kad būtų galima supaprastinti virtualių objektų gamybos procesus būsimose versijose, apdorojimas bus vykdomas „Human Resources“ puslapyje.
+4. Pasirinkite **Generuoti / atnaujinti**.
+
+![„Common Data Service“ integravimas](./media/hr-admin-integration-common-data-service-integration.jpg)
+
+## <a name="check-entity-generation-status"></a>Objekto generavimo būsenos tikrinimas
+
+Virtualūs objektai generuojami „Common Data Service” naudojant asinchroninį fone vykstantį procesą. Proceso atnaujinimai rodomi veiksmų centre. Išsami informacija apie procesą, įskaitant klaidos žurnalus, rodoma puslapyje **Proceso automatizavimai**.
+
+1. „Human Resources“ atidarykite puslapį **Proceso automatizavimai**.
+
+2. Pasirinkite skirtuką **Fone vykstantys procesai**.
+
+3. Pasirinkite **Virtualaus objekto apklausos asinchroninės operacijos fone vykstantį procesą**.
+
+4. Pasirinkite **Peržiūrėti naujausius rezultatus**.
+
+Išslenkančioje srityje rodomi naujausi proceso vykdymo rezultatai. Galite peržiūrėti proceso žurnalą, įskaitant visas iš „Common Data Service” grąžintas klaidas.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

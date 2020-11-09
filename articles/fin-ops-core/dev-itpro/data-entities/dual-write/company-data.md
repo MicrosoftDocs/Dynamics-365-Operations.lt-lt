@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 444bfc1698a206ca34e67f742df63431a3b02649
-ms.sourcegitcommit: 7da8811f1a7db858efb76edb0bdf857a47d07600
+ms.openlocfilehash: 46a6ed9763781de8e05cff7adadf75fe2a931fdc
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/27/2020
-ms.locfileid: "3728418"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997531"
 ---
 # <a name="company-concept-in-common-data-service"></a>Įmonės koncepcija „Common Data Service“
 
@@ -33,7 +32,7 @@ ms.locfileid: "3728418"
 
 „Finance and Operations“ *įmonės* koncepcija yra tiek teisinis, tiek verslo konstruktas. Ji taip pat apibrėžia duomenų saugos ir matomumo ribas. Vartotojai visada dirba vienos įmonės kontekste, o dauguma duomenų yra įmonės suskirstyti.
 
-„Common Data Service“ nenaudojama lygiavertė koncepcija. Artimiausia koncepcija yra *verslo struktūros vienetas*, kuris pirmiausia apima vartotojo duomenų saugos ir matomumo ribas. Ši koncepcija neturi tokios pačios teisinės ar verslo reikšmės kaip įmonės koncepcija.
+„Common Data Service“ nenaudojama lygiavertė koncepcija. Artimiausia koncepcija yra *verslo struktūros vienetas* , kuris pirmiausia apima vartotojo duomenų saugos ir matomumo ribas. Ši koncepcija neturi tokios pačios teisinės ar verslo reikšmės kaip įmonės koncepcija.
 
 Verslo struktūros vienetas ir įmonė nėra lygiavertės koncepcijos, todėl „Common Data Service“ integracijos tikslais negalima taikyti jų vienas su vienu (1:1) susiejimo. Tačiau vartotojai turi, kaip numatyta, galėti peržiūrėti tuos pačius įrašus programoje ir „Common Data Service“, todėl „Microsoft“ pristatė naują subjektą „Common Data Service”, kuris pavadintas cdm\_Company. Šis objektas yra lygiavertis įmonės objektui programoje. Siekiant užtikrinti įrašų matomumo lygiavertiškumą pradėjus naudoti programą ir „Common Data Service“, rekomenduojame toliau pateiktus „Common Data Service“ duomenų nustatymus.
 

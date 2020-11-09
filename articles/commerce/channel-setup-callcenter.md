@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bdaabad39484cb12537bc5f94c34dcb2575a5b2f
-ms.sourcegitcommit: ef27189efc15ce79c3c31ce2e41ef8a606fc5429
+ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
+ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410418"
+ms.lasthandoff: 10/24/2020
+ms.locfileid: "4107189"
 ---
 # <a name="set-up-a-call-center-channel"></a>Skambučių centro kanalo nustatymas
 
@@ -67,7 +67,7 @@ Toliau pateiktame vaizde parodytas skambučių centro kanalo pavyzdys.
 
 Papildomos užduotys, reikalingos skambučių centro kanalo sąrankai, apima mokėjimo metodų ir pristatymo būdų nustatymą.
 
-Toliau pateiktame atvaizde rodomos sąrankos parinktys **Pristatymo būdai** ir **Mokėjimo metodai**, esančios skirtuke **Nustatyti**.
+Toliau pateiktame atvaizde rodomos sąrankos parinktys **Pristatymo būdai** ir **Mokėjimo metodai** , esančios skirtuke **Nustatyti**.
 
 ![Papildomi skambučių centro kanalo nustatymo veiksmai](media/channel-setup-callcenter-3.png)
 
@@ -75,7 +75,7 @@ Toliau pateiktame atvaizde rodomos sąrankos parinktys **Pristatymo būdai** ir 
 
 Atlikite toliau nurodytus veiksmus, norėdami nustatyti kiekvieno mokėjimo tipo, palaikomo šiame kanale, mokėjimo metodus. Vartotojams reikės pasirinkti iš anksto nustatytų mokėjimo metodų, kuriuos reikia susieti su skambučių centro kanalu. Prieš nustatydami savo skambučių centro mokėjimo metodus, pirmiausia nustatykite savo pagrindinius atsiskaitymo būdus dalyje **Mažmeninė prekyba ir prekyba \>Kanalų sąranka \> Mokėjimo metodai \> Mokėjimo metodai**.
 
-1. Veiksmų srityje pasirinkite skirtuką **Sąranka**, tada pasirinkite **Mokėjimo metodai**.
+1. Veiksmų srityje pasirinkite skirtuką **Sąranka** , tada pasirinkite **Mokėjimo metodai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Naršymo srityje pasirinkite mokėjimo metodą iš anksto nustatytų galimų mokėjimų.
 1. Konfigūruokite visus papildomus parametrus, kurių reikia mokėjimo tipui. Kredito kortelėms, dovanų kortelėms ar lojalumo kortelėms reikalingi papildomi parametrai pasirenkant funkciją **Kortelės sąranka**. 
@@ -88,14 +88,14 @@ Toliau pateiktame vaizde parodytas mokėjimas grynaisiais pinigais pavyzdys.
 
 ### <a name="set-up-modes-of-delivery"></a>Nustatyti pristatymo būdus
 
-Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas**, esančiame **Veiksmų sritis**.  
+Galite peržiūrėti sukonfigūruotus pristatymo būdus pasirikdami **Pristatymo būdai** skirtuke **Nustatymas** , esančiame **Veiksmų sritis**.  
 
 Norėdami pakeisti arba pridėti pristatymo būdą, kuris bus susietas su skambučių centro kanalu, atlikite šiuos veiksmus.
 
 1. Skambučių centro pristatymo būdo parinktyse pasirinkite **Valdyti pristatymo būdus**
-1. Veiksmų srityje pasirinkite **Naujas**, kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
-1. Skyriuje **Mažmeninės prekybos kanalai** spustelėkite **Įtraukti eilutę**, kad galėtumėte įtraukti skambučių centro kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
-1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“**Produkai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
+1. Veiksmų srityje pasirinkite **Naujas** , kad sukurtumėte naują pristatymo režimą, arba pasirinkite esamą režimą.
+1. Skyriuje **Mažmeninės prekybos kanalai** spustelėkite **Įtraukti eilutę** , kad galėtumėte įtraukti skambučių centro kanalą. Kanalų įtraukimas naudojant organizacijos mazgus, užuot įtraukus kiekvieną kanalą atskirai, gali racionalizuoti kanalų įtraukimą.
+1. Įsitikinkite, kad pristatymo būdas sukonfigūruotas su duomenimis, nurodytais „FastTab“ **Produkai** ir „FastTab“ **Adresai**. Jei pristatymo būdui nėra tinkamų prekių ar pristatymo adresų, pasirenkant jį užsakymo įvedimo metu atsiras klaidų.
 1. Po to, kai buvo atlikti bet kokie skambučių centro pristatymo būdo konfigūracijų keitimai, užduotis **Apdoroti pristatymo būdus** turi būti vykdoma, kad išskleistumėte keitimo matricą. Šią užduotį galima surasti pereinant į **Mažmeninė prekyba ir prekyba \>Mažmeninės prekybos ir prekybos IT \>Apdoroti pristatymo būdus**.
 
 Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
@@ -106,7 +106,7 @@ Toliau pateiktame vaizde parodytas pristatymo būdo pavyzdys.
 
 Norėdamas sukurti pardavimo užsakymą, kuris yra susietas su skambučių centro kanalu iš „Commerce Headquarters”, pardavimo užsakymą kuriantis vartotojas turi būti susietas su skambučių centro kanalu. Vartotojas rankiniu būdu negali susieti pardavimo užsakymo, sukurto „Commerce Headquarters”, su skambučių centro kanalu. Saitas yra sistemingas, jis paremtas vartotoju ir vartotojo ryšiu su skambučių centro kanalu. Vartotojas gali būti susietas tik su vienu skambučių centro kanalu.
 
-1. Veiksmų srityje pasirinkite skirtuką **Kanalas**, tada pasirinkite **Kanalo vartotojai**.
+1. Veiksmų srityje pasirinkite skirtuką **Kanalas** , tada pasirinkite **Kanalo vartotojai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Pasirinkite esamą **Vartotojo ID** iš išplečiamojo pasirinkimo sąrašo, jei norite susieti šį vartotoją su skambučių centro kanalu
 
@@ -115,11 +115,11 @@ Kai kanalo vartotojų sąranka baigta ir vartotojas sukūrė naują pardavimo u�
 
 ### <a name="set-up-price-groups"></a>Nustatyti kainų grupes
 
-Kainos grupės yra pasirinktinės, tačiau, jei jos naudojamos, galima kontroliuoti, kurios pardavimo kainos bus siūlomos klientams, pateikiantiems užsakymus skambučių centro kanale. Jei kainos grupė nesukonfigūruota klientui, arba jei katalogo kainos grupės nėra taikomos pardavimo užsakymui (skambučių centro užsakymo antraštėje naudojant lauką **Šaltinio kodo ID**), tada kanalo kainos grupė naudojama prekių kainoms rasti. Jei kainos grupė skambučių centro kanale nerasta, naudojamos numatytosios pagrindinės prekės kainos. 
+Kainos grupės yra pasirinktinės, tačiau, jei jos naudojamos, galima kontroliuoti, kurios pardavimo kainos bus siūlomos klientams, pateikiantiems užsakymus skambučių centro kanale. Jei kainos grupė nesukonfigūruota klientui, arba jei katalogo kainos grupės nėra taikomos pardavimo užsakymui (skambučių centro užsakymo antraštėje naudojant lauką **Šaltinio kodo ID** ), tada kanalo kainos grupė naudojama prekių kainoms rasti. Jei kainos grupė skambučių centro kanale nerasta, naudojamos numatytosios pagrindinės prekės kainos. 
 
 Norėdami nustatyti kainos grupę, atlikite šiuos veiksmus.
 
-1. Veiksmų srityje spustelėkite skirtuką **Kanalas**, tada pasirinkite **Kainos grupės**.
+1. Veiksmų srityje spustelėkite skirtuką **Kanalas** , tada pasirinkite **Kainos grupės**.
 1. Veiksmų srityje spustelėkite **Naujas**.
 1. Išplečiamajame pasirinkimo sąraše pažymėkite **Mažmeninės kainos grupė**.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: f4d095456435a3401daa173d79b80b81176a3c17
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987123"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016867"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Siuntų konsolidacija, kai jos išleidžiamos į sandėlį naudojant automatinį pardavimo užsakymų išleidimą
 
@@ -56,7 +56,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 #### <a name="sales-order-1-2"></a>1-2 pardavimo užsakymas
@@ -68,7 +68,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 #### <a name="sales-order-1-3"></a>1-3 pardavimo užsakymas
@@ -80,12 +80,12 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 1. Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0002* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0002* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
     - **Pristatymo būdas:** *Airwa-Air*
 
@@ -99,12 +99,12 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus*)
+    - **Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus* )
     - **Kiekis:** *1.00*
 
 1. Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus*)
+    - **Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus* )
     - **Kiekis:** *1.00*
     - **Pristatymo būdas:** *Airwa-Air*
 
@@ -118,12 +118,12 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus*)
+    - **Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus* )
     - **Kiekis:** *1.00*
 
 1. Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus*)
+    - **Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus* )
     - **Kiekis:** *1.00*
     - **Pristatymo būdas:** *Airwa-Air*
 
@@ -141,7 +141,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 ### <a name="create-order-set-5"></a>5 užsakymų rinkinio kūrimas
@@ -155,7 +155,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 #### <a name="sales-order-5-3"></a>5-3 pardavimo užsakymas
@@ -167,7 +167,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 ### <a name="create-order-set-6"></a>6 užsakymų rinkinio kūrimas
@@ -181,7 +181,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 #### <a name="sales-orders-6-3-and-6-4"></a>6-3 ir 6-4 pardavimo užsakymai
@@ -193,7 +193,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 #### <a name="sales-orders-6-5-and-6-6"></a>6-5 ir 6-6 pardavimo užsakymai
@@ -207,7 +207,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 #### <a name="sales-orders-6-7-and-6-8"></a>6-7 ir 6-8 pardavimo užsakymai
@@ -221,7 +221,7 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
     - **Kiekis:** *1.00*
 
 ## <a name="automatic-release-of-sales-orders-to-the-warehouse"></a>Automatinis pardavimo užsakymų išleidimas į sandėlį
@@ -244,16 +244,16 @@ Kiekvienam anksčiau sukurtam pardavimo užsakymų rinkiniui atliksite tris proc
 
 1. Eikite į **Sandėlio valdymas \> Išleidimas į sandėlį \> Automatinis pardavimo užsakymų išleidimas**.
 1. Nustatykite lauką **Išleistinas kiekis** į *Visi*.
-1. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti**, kad būtų atidarytas užklausos dialogo langas.
-1. Skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
+1. „FastTab” **Įtrauktini įrašai** pasirinkite **Filtruoti** , kad būtų atidarytas užklausos dialogo langas.
+1. Skirtuke **Diapazonas** pasirinkite **Įtraukti** , kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
 
     - **Lentelė:** *pardavimo užsakymas*
     - **Išvestinė lentelė:** *pardavimo užsakymas*
     - **Laukas:** *pardavimo užsakymas*
     - **Kriterijai:** įveskite kableliais atskirtų norimo užsakymo rinkinio pardavimo užsakymų numerių sąrašą.
 
-1. Pasirinkite **Gerai**, kad užklausa būtų įrašyta.
-1. Pasirinkite **Gerai**, kad pradėtumėte procedūrą *Automatinis išleidimas į sandėlį*.
+1. Pasirinkite **Gerai** , kad užklausa būtų įrašyta.
+1. Pasirinkite **Gerai** , kad pradėtumėte procedūrą *Automatinis išleidimas į sandėlį*.
 
 #### <a name="review-the-shipment-that-is-created-or-updated"></a>Sukurtos arba atnaujintos siuntos peržiūra
 
@@ -268,7 +268,7 @@ Sekite [pagrindinę išleidimo į sandėlį procedūrą](#release-procedure), ka
 Baigę turėtumėte matyti, kad buvo sukurtos dvi siuntos.
 
 - Pirmoje siuntoje yra trys eilutės ir ji buvo sukurta naudojant *CustomerMode* siuntos konsolidacijos strategiją.
-- Antroji siunta, nenaudojanti pristatymo transportavimo būdo *Oro keliai*, buvo sukurta naudojant *CustomerOrderNo* siuntos konsolidacijos strategiją.
+- Antroji siunta, nenaudojanti pristatymo transportavimo būdo *Oro keliai* , buvo sukurta naudojant *CustomerOrderNo* siuntos konsolidacijos strategiją.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>2 užsakymų rinkinio pardavimo užsakymų išleidimas
 
@@ -292,7 +292,7 @@ Baigę turėtumėte matyti, kad įvyko tolesni veiksmai.
 
 Sekite [pagrindinę išleidimo į sandėlį procedūrą](#release-procedure), kad išleistumėte 4 užsakymų rinkinio pardavimo užsakymus.
 
-Baigę turėtumėte matyti, kad buvo atnaujinta viena esama siunta (kurioje laukas **Kliento paraiška** nustatytas į *1*). Į ją buvo įtraukta viena nauja eilutė.
+Baigę turėtumėte matyti, kad buvo atnaujinta viena esama siunta (kurioje laukas **Kliento paraiška** nustatytas į *1* ). Į ją buvo įtraukta viena nauja eilutė.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>5 užsakymų rinkinio pardavimo užsakymų išleidimas
 
@@ -300,7 +300,7 @@ Sekite [pagrindinę išleidimo į sandėlį procedūrą](#release-procedure), ka
 
 Baigę turėtumėte matyti, kad įvyko tolesni veiksmai.
 
-- Buvo atnaujinta viena esama siunta (kurioje laukas **Kliento paraiška** nustatytas į *1*). Į ją buvo įtraukta 5-3 pardavimo užsakymo (kuriame laukas **Kliento paraiška** nustatytas į *1*) eilutė.
+- Buvo atnaujinta viena esama siunta (kurioje laukas **Kliento paraiška** nustatytas į *1* ). Į ją buvo įtraukta 5-3 pardavimo užsakymo (kuriame laukas **Kliento paraiška** nustatytas į *1* ) eilutė.
 - Buvo sukurta viena nauja siunta, kurioje 5-1 ir 5-2 pardavimo užsakymų eilutės sugrupuojamos į vieną siuntą.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>6 užsakymų rinkinio pardavimo užsakymų išleidimas

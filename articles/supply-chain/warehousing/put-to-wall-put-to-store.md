@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 10eb32f75ccfe1521af9ebfe1e73ef08ea4238f7
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597553"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017833"
 ---
 # <a name="put-to-wall---put-to-store"></a>Dėjimas prie sienos - dėjimas į parduotuvę
 
@@ -155,7 +156,7 @@ Rūšiavimo pavyzdys kontroliuoja, ar rūšiavimo padėtys yra sukurtos, kokie k
 
     - **Sukurkite veiksmą vietos uždaryme:** *Taip*
 
-        Jei ši parinktis nustatyta *Taip*, vietos uždarymo metu, veiksmas bus sukuriamas inventoriaus nugabenimui į galutinę siuntimo vietą. Jei ši parinktis nustatyta *Ne*, inventorius bus nedelsiant paimtas į užsakymą, kai padėtis bus uždaryta.
+        Jei ši parinktis nustatyta *Taip* , vietos uždarymo metu, veiksmas bus sukuriamas inventoriaus nugabenimui į galutinę siuntimo vietą. Jei ši parinktis nustatyta *Ne* , inventorius bus nedelsiant paimtas į užsakymą, kai padėtis bus uždaryta.
 
     - **Padėties priskyrimas:** *Rankinis*
 
@@ -173,11 +174,11 @@ Rūšiavimo pavyzdys kontroliuoja, ar rūšiavimo padėtys yra sukurtos, kokie k
 
     - **Bangos žingsnio kodas:** *Rūšiuoti*
 
-        Jei*Plačios bangos žingsnio kodo organizavimo* funkcija yra įjungta, *Rūšiavimo* bangos žingsnio kodas turi taip pat būti nustatytas bangos žingsnio koduose.
+        Jei *Plačios bangos žingsnio kodo organizavimo* funkcija yra įjungta, *Rūšiavimo* bangos žingsnio kodas turi taip pat būti nustatytas bangos žingsnio koduose.
 
     - **Automatinio uždarymo rūšiavimo padėtis:** *Taip*
 
-        Jei ši parinktis nustatyta *Taip*, vietos rūšiavimas bus automatiškai uždaromas, kai visi darbai ateinantys į padėtį bus užbaigti.
+        Jei ši parinktis nustatyta *Taip* , vietos rūšiavimas bus automatiškai uždaromas, kai visi darbai ateinantys į padėtį bus užbaigti.
 
     - **Rūšiuotų padėčių skaičius:** *3*
 
@@ -189,7 +190,7 @@ Rūšiavimo pavyzdys kontroliuoja, ar rūšiavimo padėtys yra sukurtos, kokie k
 
     - **Automatinio pakavimo rūšiavimo padėtis:** *Taip*
 
-        Jei ši parinktis nustatyta *Taip*, inventorius rūšiavimo padėtyje bus supakuotas į talpyklą, kai padėtis bus uždaroma.
+        Jei ši parinktis nustatyta *Taip* , inventorius rūšiavimo padėtyje bus supakuotas į talpyklą, kai padėtis bus uždaroma.
 
     - **Pakavimo profilio identifikavimo numeris:** *Rūšiuoti*
 
@@ -209,7 +210,7 @@ Rūšiavimo pavyzdys kontroliuoja, ar rūšiavimo padėtys yra sukurtos, kokie k
     **Siunčiamo rūšiavimo šablono pertrūkio** mygtukas pasirodo veiksmų juostoje.
 
 1. Veiksmų juostoje pasirinkite **Siunčiamo rūšiavimo šablono pertrūkiai**.
-1. Pasirinkite**Grupavimas laukeliais:** žymimą laukelį tam, kad sugrupuotumėte pagal siuntimo identifikavimo kodą.
+1. Pasirinkite **Grupavimas laukeliais:** žymimą laukelį tam, kad sugrupuotumėte pagal siuntimo identifikavimo kodą.
 
     Šis nustatymas sukurs vieną padėtį siuntimui, kuris yra talpykla bangoje.
 
@@ -277,7 +278,7 @@ Redaguokite bangos šabloną, naudojamą bangos poreikio rūšiavimui.
 Privalote sukurti vietos direktyvas, kurios vestų sukurtą darbą po to, kai rūšiavimas yra užbaigtas.
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Vietų nurodymai**.
-1. **Darbo tvarkos tipo**laukelyje pasirinkite *Rūšiuoto inventoriaus paėmimas*.
+1. **Darbo tvarkos tipo** laukelyje pasirinkite *Rūšiuoto inventoriaus paėmimas*.
 1. Veiksmų srityje pasirinkite **Naujas**.
 1. Antraštėje nustatykite šias vertes:
 
@@ -329,9 +330,9 @@ Privalote sukurti vietos direktyvas, kurios vestų sukurtą darbą po to, kai r�
 1. Tinklelyje, pasirinkite **62 pasirinkite pakuoti** darbo šabloną.
 1. Veiksmų juostoje pasirinkite **Darbo antraštės tarpai**.
 1. Veiksmų srityje pasirinkite **Redaguoti**.
-1. Linijoje, kurioje **Laukelio pavadinimas** laukelė nustatykite *Siuntimo identifikavimo kodas*, ištrinkite **Grupuoti pagal šį laukelį** žymimą laukelį.
+1. Linijoje, kurioje **Laukelio pavadinimas** laukelė nustatykite *Siuntimo identifikavimo kodas* , ištrinkite **Grupuoti pagal šį laukelį** žymimą laukelį.
 1. Pasirinkite **Įrašyti** ir tuomet uždarykite **Darbo antraštės tarpai** teksto laukelį.
-1. **Darbo tvarkos tipo**laukelyje pasirinkite *Rūšiuoto inventoriaus paėmimas*.
+1. **Darbo tvarkos tipo** laukelyje pasirinkite *Rūšiuoto inventoriaus paėmimas*.
 1. Pasirinkite **Naujas** tam, kad sukurtumėte darbo šabloną.
 1. **Peržiūros** skyriuje, nustatykite šias vertes. Priimkite nustatytąsias vertes visiems kitiems laukeliams.
 
@@ -342,13 +343,13 @@ Privalote sukurti vietos direktyvas, kurios vestų sukurtą darbą po to, kai r�
 1. **Darbo šablono informacijos** skyriuje sukursti dvi eilutes. Pasirinkite **Naujas** ir tuomet nustatykite tolesnes vertes eilutei 1:
 
     - **Darbo tipas:** *Paėmimas*
-    - **Privaloma:** Pasirinkite (= *Taip*)
+    - **Privaloma:** Pasirinkite (= *Taip* )
     - **Darbo klasės identifikavimo numeris:** *Rūšiavimas*
 
-1. Pasirinkite **Naujas**dar kartą ir tuomet nustatykite tolesnes vertes eilutei 2:
+1. Pasirinkite **Naujas** dar kartą ir tuomet nustatykite tolesnes vertes eilutei 2:
 
     - **Darbo tipas:** *Padėjimas*
-    - **Privaloma:** Pasirinkite (= *Taip*)
+    - **Privaloma:** Pasirinkite (= *Taip* )
     - **Darbo klasės identifikavimo numeris:** *Rūšiavimas*
 
 1. Pasirinkite **Įrašyti**.
@@ -440,11 +441,11 @@ Pabaikite tolesnias procedūras tam, kad paleistumėte visus prekybos užsakymus
 
 1. Pakartokite ankstesnius žingsnius prekybos užsakymų 2 ir 3 išleidimui į sandelį. Atkreipkite dėmesį, kad jūsų gautas informacinis pranešimas nurodo, kad siuntimas buvo įtrauktas į bangą sukurtą jūsų išleistam prekybos užsakymui 1.
 1. Eikite į **Sandėlio valdymas \> Siuntimo bangos \> Siuntos bangos \> Visos bangos**.
-1. Pasirinkite bangos identifikavimo kodą, kuris buvo sukurtas iš prekybos užsakymui tam, kad atidarytumėte **Bangų** puslapį. Puslapis rodo bangos informaciją. **Bangos eilučių**„FastTab“ rodo sukurtus siuntimus.
+1. Pasirinkite bangos identifikavimo kodą, kuris buvo sukurtas iš prekybos užsakymui tam, kad atidarytumėte **Bangų** puslapį. Puslapis rodo bangos informaciją. **Bangos eilučių** „FastTab“ rodo sukurtus siuntimus.
 
     Privalote dabar sukurti darbą objektų nusiuntimui į paėmimo vietas rūšiavimo vietoje.
 
-1. Veiksmų juostoje pasirinkite**Apdoroti**.
+1. Veiksmų juostoje pasirinkite **Apdoroti**.
 
     Bangos apdorojimo metu, rūšiavimo metodas naudos rūšiavimo šabloną priskirdamas inventorių rūšiavimo padėtims. Kai banga yra apdorota, gausite informacinį pranešimą sakantį, kad banga buvo publikuota ir darbas buvo sukurtas.
 
@@ -513,7 +514,7 @@ Dabar, kai visas inventorius buvo įdėtas į rūšiavimo vietą, jis turi būti
     - Jei padėtys yra uždaromos automatiškai, pasirinkite **Rodyti uždarytas** tam, kad rodytumėte uždarytas padėtis.
     - Atkreipkite dėmesį, kad yra rodomi rūšiavimo padėties pervedimai. Apdorotas objektas ir kiekis yra apdorojami per rodomas padėtis.
 
-    Kai nustatote siunčiamo rūšiavimo šabloną, nustatote **Automatinio uždarymo rūšiavimo padėties**parinktį į *Taip*. Dėl to, padėtis yra automatiškai uždaroma po to, kai paskutinis tikėtinas intventorius yra patalpintas. Rūšiavimo padėtyes yra **Uždarytos** būsenoje ir darbas buvo sukurtas tam, kad perkeltų rūšiuotą inventorių į *Baydoor* vietą.
+    Kai nustatote siunčiamo rūšiavimo šabloną, nustatote **Automatinio uždarymo rūšiavimo padėties** parinktį į *Taip*. Dėl to, padėtis yra automatiškai uždaroma po to, kai paskutinis tikėtinas intventorius yra patalpintas. Rūšiavimo padėtyes yra **Uždarytos** būsenoje ir darbas buvo sukurtas tam, kad perkeltų rūšiuotą inventorių į *Baydoor* vietą.
 
 1. Pabaikite rūšiuoto inventoriaus paėmimo darbą tam, kad perkeltumėte inventorių į siuntimo vietą. Kai inventorius yra paruoštas, patvirtinkite jo siuntimą.
 

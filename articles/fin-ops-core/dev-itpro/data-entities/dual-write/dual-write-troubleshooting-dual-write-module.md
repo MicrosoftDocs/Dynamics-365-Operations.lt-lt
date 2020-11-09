@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 853791d5ffc1d92b9fbafa2acc13cd5543c38196
-ms.sourcegitcommit: e06da171b9cba8163893e30244c52a9ce0901146
+ms.openlocfilehash: f99f3760e75ec1bbf2ccdea497cf2eec3e28e233
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3275538"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997379"
 ---
 # <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Trikčių, susijusių su dvigubo rašymo moduliu „Finance and Operations” programose, šalinimas
 
@@ -37,7 +36,7 @@ ms.locfileid: "3275538"
 
 ## <a name="you-cant-load-the-dual-write-module-in-a-finance-and-operations-app"></a>Negalite įkelti dvigubo rašymo modulio „Finance and Operations” programoje
 
-Jeigu negalite atidaryti **dvigubo rašymo** puslapio darbo srityje **Duomenų valdymas** pasirinkdami plytelę **Dvigubas rašymas**, tikriausiai duomenų integravimo paslauga neveikia. Norėdami paprašyti iš naujo paleisti duomenų integravimo paslaugą, sukurkite palaikymo bilietą.
+Jeigu negalite atidaryti **dvigubo rašymo** puslapio darbo srityje **Duomenų valdymas** pasirinkdami plytelę **Dvigubas rašymas** , tikriausiai duomenų integravimo paslauga neveikia. Norėdami paprašyti iš naujo paleisti duomenų integravimo paslaugą, sukurkite palaikymo bilietą.
 
 ## <a name="error-when-you-try-to-create-a-new-entity-map"></a>Bandant sukurti naują objekto schemą įvyko klaida
 
@@ -50,7 +49,7 @@ Kai bandote konfigūruoti naują dvigubo rašymo objektą, galite gauti toliau p
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Atidarant dvigubo rašymo vartotojo sąsają įvyko klaida
 
-Kai bandote pasiekti dvigubą rašymą iš darbo srities **Duomenų valdymas**, galbūt gausite tokį klaidos pranešimą:
+Kai bandote pasiekti dvigubą rašymą iš darbo srities **Duomenų valdymas** , galbūt gausite tokį klaidos pranešimą:
 
 *Nepavyko užmegzti ryšio su login.microsoftonline.com*.
 
@@ -62,7 +61,7 @@ Norėdami išspręsti šią problemą, prisijunkite, naudodami „Microsoft Edge
 
 Kai susiejate arba kuriate schemas, gali įvykti tokia klaida:
 
-*Atsakymo būsenos kodas nenurodo sėkmės: 403 (tokenexchange).<br> Seanso ID: \<jūsų seanso id\><br> Šakninės veiklos ID: \<jūsų šakninės veiklos id\>*
+*Atsakymo būsenos kodas nenurodo sėkmės: 403 (tokenexchange).<br> Seanso ID: \<your session id\><br> Šakninės veiklos ID: \<your root activity id\>*
 
 Ši klaida gali įvykti, jei neturite pakankamai teisių susieti dvigubą rašymą arba kurti schemas. Ši klaida taip pat gali įvykti, jei „Common Data Service” aplinka buvo nustatyta iš naujo neatsiejus dvigubo rašymo. Bet kuris vartotojas, kuriam priskirtas sistemos administratorius vaidmuo „Finance and Operations” programose ir „Common Data Service”, gali susieti aplinkas. Tik vartotojas, nustatęs dvigubo rašymo ryšį, gali įtraukti naujų objektų schemų. Atlikus nustatymą, bet kuris vartotojas, kuriam priskirtas sistemos administratorius vaidmuo, gali stebėti būseną ir redaguoti susiejimus.
 
@@ -78,11 +77,11 @@ Norėdami išspręsti šią problemą, sukurkite duomenų integravimo komandai s
 
 ## <a name="error-while-trying-to-start-an-entity-mapping"></a>Bandant pradėti objektų susiejimą įvyko klaida
 
-Bandydami nustatyti susiejimo būseną į **Vykdoma**, galite gauti klaidos pranešimą, panašų į pateiktą toliau:
+Bandydami nustatyti susiejimo būseną į **Vykdoma** , galite gauti klaidos pranešimą, panašų į pateiktą toliau:
 
 *Nepavyko baigti pradinių duomenų sinchronizavimo. Klaida: dvigubo rašymo triktis – nepavyko registruoti priedo. Nepavyko sukurti dvigubo rašymo peržvalgos metaduomenų. Klaidos objekto nuoroda nenustatyta kaip objekto egzempliorius.*
 
 Šios klaidos sprendimas priklauso nuo klaidos priežasties.
 
 + Jei susiejime yra priklausomieji susiejimai, įsitikinkite, kad įgalinote šio objekto susiejimo priklausomuosius susiejimus.
-+ Gali trūkti susiejimo šaltinio arba paskirties laukų. Jei „Finance and Operations” programoje trūksta lauko, atlikite veiksmus, aprašytus skyriuje [Trūkstamų objektų laukų problema schemose](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Jei „Common Data Service” trūksta lauko, spustelėkite susiejimo mygtuką **Atnaujinti objektus**, kad laukai būtų automatiškai įvesti į susiejimą.
++ Gali trūkti susiejimo šaltinio arba paskirties laukų. Jei „Finance and Operations” programoje trūksta lauko, atlikite veiksmus, aprašytus skyriuje [Trūkstamų objektų laukų problema schemose](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Jei „Common Data Service” trūksta lauko, spustelėkite susiejimo mygtuką **Atnaujinti objektus** , kad laukai būtų automatiškai įvesti į susiejimą.

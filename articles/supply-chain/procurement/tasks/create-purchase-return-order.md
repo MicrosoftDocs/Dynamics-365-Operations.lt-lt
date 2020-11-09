@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
+ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4587c9d64c2456e5f9f27cdb19625d9537f1e29
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383210"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018195"
 ---
 # <a name="create-a-purchase-return-order"></a>Kurti pirkimo grąžinimo užsakymą
 
@@ -30,7 +30,7 @@ ms.locfileid: "3383210"
 Šioje procedūroje parodoma, kaip kurti pirkimo grąžinimo užsakymą, naudojant veiksmą Kredito pažyma siekiant eilutes iš tiekėjo SF dokumento kopijuoti į naują pirkimo užsakymą. Joje taip pat parodoma, kaip patvirtinti užsakymą ir apdoroti prekių siuntą atgal tiekėjui. Šioje procedūroje pateikiamą pavyzdį galima naudoti demonstracinių duomenų įmonėje USMF. Šią užduotį paprastai atlieka pirkimo agentas.
 
 ## <a name="create-a-new-purchase-return-order"></a>Kurti naują pirkimo grąžinimo užsakymą
-1. Pasirinkite**Naršymo sritis > Moduliai > Įsigijimas ir šaltinio pasirinkimas > Pirkimo užsakymai > Visi pirkimo užsakymai**. Pirmuoju veiksmu sukuriamas naujas pirkimo užsakymas, kuris bus naudojamas kaip pirkimo grąžinimo užsakymas.  
+1. Pasirinkite **Naršymo sritis > Moduliai > Įsigijimas ir šaltinio pasirinkimas > Pirkimo užsakymai > Visi pirkimo užsakymai**. Pirmuoju veiksmu sukuriamas naujas pirkimo užsakymas, kuris bus naudojamas kaip pirkimo grąžinimo užsakymas.  
 2. Spustelėkite **Naujas**.
 3. Lauke **Tiekėjo kodas** įveskite „US-102”.
 4. Spustelėkite **Gerai**.

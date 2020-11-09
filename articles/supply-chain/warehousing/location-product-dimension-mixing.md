@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 968777b918d59b810a189139fbf4d6fee1b5d3f5
-ms.sourcegitcommit: a7a7303004620d2e9cef0642b16d89163911dbb4
+ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3529988"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4017166"
 ---
 # <a name="location-product-dimension-mixing"></a>Vietos produkto dimensijos maišymas
 
@@ -136,10 +137,10 @@ Su kiekviena sandėlio vieta turi būti susietas vietos profilis, nurodantis vie
     - **Kriterijai:** *BULK*
 
 1. Pasirinkite **Gerai**.
-1. Veiksmų srities puslapyje **Vietos nurodymai** pasirinkite**Įrašyti**.
+1. Veiksmų srities puslapyje **Vietos nurodymai** pasirinkite **Įrašyti**.
 
 > [!NOTE]
-> Jei skirtuko **Vietos nurodymai**„FastTab“ lauke **Strategija** pasirinkta vietos strategija yra *Konsolidavimas* nustatymo **Leidžiamų produktų dimensijos maišymas** **Vietos profiliuose** nebus paisoma, o prekės bus pridėtos į tą pačią vietą, net jei šis veiksmas neleidžiamas pagal nustatymą.
+> Jei skirtuko **Vietos nurodymai** „FastTab“ lauke **Strategija** pasirinkta vietos strategija yra *Konsolidavimas* nustatymo **Leidžiamų produktų dimensijos maišymas** **Vietos profiliuose** nebus paisoma, o prekės bus pridėtos į tą pačią vietą, net jei šis veiksmas neleidžiamas pagal nustatymą.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Mobiliojo įrenginio meniu elemento kūrimas
 
@@ -215,7 +216,7 @@ Jūs sukursite pirkimo užsakymas, turintį tris eilutes: dvi eilutės yra to pa
 1. Patvirtinkite savo įrašą pasirinkdami mygtuką patvirtinti (✔) puslapio apačioje.
 1. Įveskite eilutės numerį iš gaunamo pirkimo užsakyme. Pasirinkite lauką **Eilutės numeris** ir naudodami skaičių klaviatūrą, įveskite *1*.
 1. Patvirtinkite savo įrašą.
-1. Įvesti gaunamą kiekį. Pasirinkite pliuso ženklo (**+**) mygtuką du kartus, kad padidintumėte vertę lauke **Kiekis** į *2*.
+1. Įvesti gaunamą kiekį. Pasirinkite pliuso ženklo ( **+** ) mygtuką du kartus, kad padidintumėte vertę lauke **Kiekis** į *2*.
 1. Užregistruokite savo įrašą pasirinkdami mygtuką (✔) puslapio apačioje ir patvirtinkite savo įrašą pasirinkdami mygtuką (✔) dar kartą.
 1. Peržiūrėkite informaciją **Pirkimo užsakymus: Paėmimas** puslapyje. Šiame puslapyje rodomas darbas, sukurtas prekių paėmimui (1 darbas).
 
@@ -228,7 +229,7 @@ Jūs sukursite pirkimo užsakymas, turintį tris eilutes: dvi eilutės yra to pa
 
 1. Pakartokite 4-11 žingsnius dar sykį 2 pirkimo užsakymo eilutei. 8 žingsnyje nustatykite likusį kiekį į *1*.
 
-    Naujas paėmimo darbas (3 darbas) yra sukuriamas toje pačioje vietoje kaip 1 darbas ir 2 darbas. Taip atsitinka, nes yra naudojama *Konsolidavimo* vietos nurodymo strategija, o „FastTab“ skirtuko **Leidžiamo produkto dimensijos maišymas**, esančio *Krovinys* **Vietos profiliai**, nustatymas leidžia vietoje maišyti **Dydžio** variantą.
+    Naujas paėmimo darbas (3 darbas) yra sukuriamas toje pačioje vietoje kaip 1 darbas ir 2 darbas. Taip atsitinka, nes yra naudojama *Konsolidavimo* vietos nurodymo strategija, o „FastTab“ skirtuko **Leidžiamo produkto dimensijos maišymas** , esančio *Krovinys* **Vietos profiliai** , nustatymas leidžia vietoje maišyti **Dydžio** variantą.
 
 1. Pakartokite 4-11 žingsnius 3 pirkimo užsakymo eilutei. 8 žingsnyje nustatykite kiekį į *1,* skirtą prekės numeriui *A0001*.
 
@@ -237,4 +238,4 @@ Jūs sukursite pirkimo užsakymas, turintį tris eilutes: dvi eilutės yra to pa
 1. Puslapio viršuje pasirinkite meniu mygtuką (kartais jis vadinamas Hamburger arba Hamburger mygtuku) ir tada pasirinkite **Atšaukti,** kad išeitumėte iš **PU eilutės gavimo**.
 
 > [!TIP]
-> Galite pakartoti šį scenarijų, bet šį kartą nustatykite *KROVINYS* **Vietos profiliai** „FastTab“ skirtuko **Leisti produkto dimensijos maišymą** **Dydį** - *Ne*, kad nebūtų galima maišyti nė vienos produkto dimensijos. Tokiu atveju, kai gausite pirkimo užsakymą, kiekvienas produkto variantas bus įtrauktas į naują vietą.
+> Galite pakartoti šį scenarijų, bet šį kartą nustatykite *KROVINYS* **Vietos profiliai** „FastTab“ skirtuko **Leisti produkto dimensijos maišymą** **Dydį** - *Ne* , kad nebūtų galima maišyti nė vienos produkto dimensijos. Tokiu atveju, kai gausite pirkimo užsakymą, kiekvienas produkto variantas bus įtrauktas į naują vietą.

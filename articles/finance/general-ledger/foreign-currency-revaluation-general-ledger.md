@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0bf61aa839d4d59b2c93eee9931eef0e6c51d4ac
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
+ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2178989"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4006218"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>DK užsienio valiutos kurso pasikeitimas
 
@@ -61,13 +61,13 @@ Reikšmės **Pradžios data** ir **Pabaigos data** nurodo perkainojamo užsienio
 
 Naudojant parinktį **Kurso data** galima nurodyti datą, kurią turi būti nustatytas numatytasis valiutos kursas. Pvz., galite perkainoti balansus nuo sausio 1 d. iki sausio 31 d., bet naudoti valiutos kursą, nustatytą vasario 1 d. 
 
-Pasirinkite, kurias pagrindines sąskaitas perkainoti: visas, balanso arba pelno ir nuostolio. Bus perkainojamos tik pažymėtos perkainoti (puslapyje Pagrindinės sąskaitos) pagrindinės sąskaitos. Jei norite dar labiau sumažinti pagrindinių sąskaitų diapazoną, naudokite skirtuką **Įtrauktini įrašai**, norėdami nustatyti pagrindinių sąskaitų diapazoną arba atskiras pagrindines sąskaitas. 
+Pasirinkite, kurias pagrindines sąskaitas perkainoti: visas, balanso arba pelno ir nuostolio. Bus perkainojamos tik pažymėtos perkainoti (puslapyje Pagrindinės sąskaitos) pagrindinės sąskaitos. Jei norite dar labiau sumažinti pagrindinių sąskaitų diapazoną, naudokite skirtuką **Įtrauktini įrašai** , norėdami nustatyti pagrindinių sąskaitų diapazoną arba atskiras pagrindines sąskaitas. 
 
 Perkainojimo procesą galima taikyti vienam arba daugiau juridinių subjektų. Peržiūroje bus rodomos tik juridiniai subjektai, prie kurių turite prieigą. Pasirinkite juridinius subjektus, kuriems norite taikyti perkainojimo procesą. 
 
 Perkainojimo procesą galima taikyti vienai arba daugiau užsienio valiutų. Peržvalgoje bus rodomos visos pasirinktos perkainoti juridinių subjektų valiutos, kurios buvo registruotos atitinkamo pagrindinės sąskaitos tipo (Balansas arba Pelnas ir nuostolis) laikotarpiu. Apskaitos valiuta bus įtraukta į sąrašą, bet niekas nebus perkainojama pasirinkus apskaitos valiutą. 
 
-Nustatykite parinktį **Peržiūrėti prieš registruojant** į **Taip**, jei norite peržiūrėti DK perkainojimo rezultatą. DK peržiūra skiriasi nuo AR ir AP užsienio valiutos kurso pasikeitimo modeliavimo. AR ir AP modeliavimas yra ataskaita, o DK pateikiama peržiūra, kurią galima registruoti nepaleidus perkainojimo proceso dar kartą. Peržiūros rezultatus galima eksportuoti į „Microsoft Excel“, norint išsaugoti sumų skaičiavimo retrospektyvą. Negalite naudoti paketinio apdorojimo, jei norite peržiūrėti perkainojimo rezultatus. Naudodamas peržiūrą vartotojas turi galimybę registruoti visų juridinių subjektų rezultatus, naudodamas mygtuką **Registruoti**. Jei kilo problema dėl juridinio subjekto rezultatų, vartotojas taip pat gali registruoti juridinių subjektų pogrupį, naudodamas mygtuką **Pasirinkti registruotinus juridinius subjektus**. 
+Nustatykite parinktį **Peržiūrėti prieš registruojant** į **Taip** , jei norite peržiūrėti DK perkainojimo rezultatą. DK peržiūra skiriasi nuo AR ir AP užsienio valiutos kurso pasikeitimo modeliavimo. AR ir AP modeliavimas yra ataskaita, o DK pateikiama peržiūra, kurią galima registruoti nepaleidus perkainojimo proceso dar kartą. Peržiūros rezultatus galima eksportuoti į „Microsoft Excel“, norint išsaugoti sumų skaičiavimo retrospektyvą. Negalite naudoti paketinio apdorojimo, jei norite peržiūrėti perkainojimo rezultatus. Naudodamas peržiūrą vartotojas turi galimybę registruoti visų juridinių subjektų rezultatus, naudodamas mygtuką **Registruoti**. Jei kilo problema dėl juridinio subjekto rezultatų, vartotojas taip pat gali registruoti juridinių subjektų pogrupį, naudodamas mygtuką **Pasirinkti registruotinus juridinius subjektus**. 
 
 Kai užsienio valiutos kurso pasikeitimo procesas baigtas, bus sukurtas įrašas, skirtas sekti kiekvieno vykdymo retrospektyvą.  Bus sukurtas atskiras kiekvieno juridinio subjekto ir registravimo sluoksnio įrašas.
 
@@ -76,38 +76,33 @@ Neauto pelno / nuostolio operacijos DK perkainojimo bei AR ir AP perkainojimo pr
 
 **Pavyzdys** Toliau pateikiami pagrindinės sąskaitos 110110 balansai.
 
-|            |                    |                        |                       |
+| Data   | DK sąskaita| Operacijos suma | Apskaitos suma |
 |------------|--------------------|------------------------|-----------------------|
-| **Data**   | **DK sąskaita** | **Operacijos suma** | **Apskaitos suma** |
 | Sausio 20 | 110110 (grynieji pinigai)      | 500 EUR (debetas)        | 1000 USD (debetas)      |
 
 Pagrindinė sąskaita perkainojama sausio 31 d.  Negautas pelnas / nuostolis skaičiuojamas toliau nurodytu būdu.
 
-|                                             |                                            |                                  |                                    |                             |
+| Dabartinis balansas operacijos valiuta | Dabartinis balansas apskaitos valiuta | Valiutos kursas perkainojimo metu | Nauja apskaitos valiutos suma | Negautas pelnas / nuostolis    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Dabartinis balansas operacijos valiuta** | **Dabartinis balansas apskaitos valiuta** | **Valiutos kursas perkainojimo metu** | **Nauja apskaitos valiutos suma** | **Negautas pelnas / nuostolis**    |
 | 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | 166,67 nuostolis (833,33 – 1000) |
 
 Sukuriamas toliau nurodytas apskaitos įrašas.
 
-|            |                          |           |            |
+| Data   | DK sąskaita       | Debetas | Kreditas |
 |------------|--------------------------|-----------|------------|
-| **Data**   | **DK sąskaita**       | **Debetas** | **Kreditas** |
 | Sausio 31 | 110110 (grynieji pinigai)            |           | 166.67     |
 | Sausio 31 | 801400 (nepatirtas nuostolis) | 166.67    |            |
 
 Naujų vasario mėn. operacijų neregistruojama.  Pagrindinė sąskaita yra perkainojama vasario 28 d.
 
-|                                             |                                            |                                  |                                    |                             |
+| Dabartinis balansas operacijos valiuta | Dabartinis balansas apskaitos valiuta | Valiutos kursas perkainojimo metu | Nauja apskaitos valiutos suma | Negautas pelnas / nuostolis    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| **Dabartinis balansas operacijos valiuta** | **Dabartinis balansas apskaitos valiuta** | **Valiutos kursas perkainojimo metu** | **Nauja apskaitos valiutos suma** | **Negautas pelnas / nuostolis**    |
 | 500 EUR                                     | 833,33 USD (1000 – 166,67)                 | 250.0000                         | 1250 USD (500 x 2,5)               | 416,67 pelnas (1250 – 833,33) |
 
 Sukuriamas toliau nurodytas apskaitos įrašas.
 
-|             |                          |           |            |
+| Data    | DK sąskaita       | Debetas | Kreditas |
 |-------------|--------------------------|-----------|------------|
-| **Data**    | **DK sąskaita**       | **Debetas** | **Kreditas** |
 | Vasario 28 | 110110 (grynieji pinigai)            | 416.67    |            |
 | Vasario 28 | 801600 (negautas pelnas) |           | 416.67     |
 

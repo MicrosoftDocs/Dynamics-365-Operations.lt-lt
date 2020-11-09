@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: PurchTable
+ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations, Retail
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16e6170bdc8f0adcefbe310fcbf61c06aa68f02d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207976"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018795"
 ---
 # <a name="create-purchase-orders"></a>Pirkimo užsakymų sukūrimas
 
@@ -63,21 +63,21 @@ Galite patikrinti laikomų produktų atsargų operacijos būsenos informaciją. 
 
 PU eilutėje, kuri naudojama siekiant produktą grąžinti tiekėjui, kiekis bus neigiamas. Galite pasirinkti grąžinti konkrečią partiją, naudodami veiksmą **Rezervavimas**.  
 
-Kartais galite norėti padalinti užsakytą kiekį, kad skirtingos jų dalys būtų pristatomos skirtingu laiku. Šiuos pristatymus galite nustatyti naudodami veiksmą **Pristatymo grafikas**, kurį galima rasti rodinio **Eilutės** meniu **pirkimo užsakymo eilutė**.  
+Kartais galite norėti padalinti užsakytą kiekį, kad skirtingos jų dalys būtų pristatomos skirtingu laiku. Šiuos pristatymus galite nustatyti naudodami veiksmą **Pristatymo grafikas** , kurį galima rasti rodinio **Eilutės** meniu **pirkimo užsakymo eilutė**.  
 
 Mokesčius galima automatiškai įtraukti į PU eilutes, jei buvo nustatyti tiekėjo arba tiekėjo mokesčių grupės ir prekės arba prekės mokesčių grupės automatinio mokesčiai. Tačiau labiau įprasta mokesčius įtraukti užsakymo eilutės lygiu neautomatiniu būdu. Norėdami įtraukti mokestį, atidarykite puslapį **Prižiūrėti išlaidas** naudodami rodinio **Eilutės** meniu **Finansai** veiksmą **Prižiūrėti išlaidas**. Mokesčių įtraukimo tiesiogiai užsakymo eilutės lygiu privalumas yra tai, kad mokestį galima paskirstyti kaip atsargų savikainą. Norėdami nustatyti sąskaitos produkto savikainos mokesčių kodus, naudokite debeto parinktį **Prekė**. Šių tipų mokesčiai turi būti paskirstyti iš PU antraštės į eilutes, kad būtų galima patvirtinti užsakymą. Pavyzdžiui, galite mokesčius paskirstyti pagal kiekį kiekvienoje eilutėje. Mokesčių kategorijai taip pat turi įtakos, kaip mokesčiai yra apskaitomi. Pvz., fiksuoti mokesčiai nurodo fiksuotą sumą, o mokesčių procentinė dalis apskaičiuojami kaip užsakymo eilutės grynosios sumos procentinė dalis. PU galima priskirti kroviniui, o krovinys gali apimti transportavimo išlaidų numatomų išlaidų įvertinimą. Šias išlaidas galite iš krovinio paskirstyti atgal į PU eilutes.
 
 ## <a name="purchase-order-actions"></a>Pirkimo užsakymo veiksmai
 Įtraukę antraštę ir eilutes į PU, dažnai turėsite atlikti papildomus veiksmus, kad galėtumėte užsakymą patvirtinti. Kadangi galima naudoti daug parinkčių, gali būti naudinga naudoti funkciją [Veiksmo ieška](../../fin-and-ops/get-started/action-search.md), norint surasti atitinkamą meniu elementą.  
 
-Galite konfigūruoti užsakymo produktus, kad jie turėtų papildomas prekes. Papildomos prekės yra produktai, kuriuos privaloma arba galima nupirkti kartu su kitais produktais. Papildomus produktus galima nemokamai pridėti kaip susijusius produktus arba galite turėti galimybę nuspręsti, ar juos įtraukti į užsakymą, ar ne. Papildomas prekes galite peržiūrėti įtraukę kiekvieną užsakymo eilutę. Tačiau tikriausiai patogiau bus peržiūrėti ir įtraukti visų užsakymo eilučių atitinkamas papildomas prekes, naudojant puslapį **Papildomos prekės**, kurį galima atidaryti iš veiksmų srities.  
+Galite konfigūruoti užsakymo produktus, kad jie turėtų papildomas prekes. Papildomos prekės yra produktai, kuriuos privaloma arba galima nupirkti kartu su kitais produktais. Papildomus produktus galima nemokamai pridėti kaip susijusius produktus arba galite turėti galimybę nuspręsti, ar juos įtraukti į užsakymą, ar ne. Papildomas prekes galite peržiūrėti įtraukę kiekvieną užsakymo eilutę. Tačiau tikriausiai patogiau bus peržiūrėti ir įtraukti visų užsakymo eilučių atitinkamas papildomas prekes, naudojant puslapį **Papildomos prekės** , kurį galima atidaryti iš veiksmų srities.  
 
 Nuolaidos paprastai įtraukiamos į eilutes, jas kuriant. Tačiau keletas nuolaidų taikomos visam užsakymui.
 
 -   Veiksmu **Bendra nuolaida** apskaičiuojamas visam užsakymui taikytinas bendros nuolaidos procentinis dydis. Nepainiokite šios nuolaidos su mokėjimo nuolaidos procentiniu dydžiu. Mokėjimo nuolaidos taikomos, kai SF yra apmokėta, ir jos priklauso nuo mokėjimo sudengimo iki tam tikros datos.
--   Jei kelių eilučių nuolaida taikoma, turite naudoti veiksmą **Kelių eilučių nuolaida**, norėdami ją apskaičiuoti ir priskirti užsakymui. Kelių eilučių nuolaidos yra nuolaidos, kurias galima siūlyti, jei įvairūs užsakymo produktai viršija bendrąją ribinę reikšmę. Šio tipo nuolaidą naudoja tik keletas įmonių.
+-   Jei kelių eilučių nuolaida taikoma, turite naudoti veiksmą **Kelių eilučių nuolaida** , norėdami ją apskaičiuoti ir priskirti užsakymui. Kelių eilučių nuolaidos yra nuolaidos, kurias galima siūlyti, jei įvairūs užsakymo produktai viršija bendrąją ribinę reikšmę. Šio tipo nuolaidą naudoja tik keletas įmonių.
 
-Mokesčiai, kurių mokesčių tipas naudoja debeto tipą **Prekė**, turi būti priskirti eilutės lygiu, kad užsakymą būtų galima patvirtinti. Šiuos mokesčius gali būti patogu priskirti užsakymo antraštės lygiu, kad būtų galima nurodyti mokesčio bendrąją sumą. Tačiau šiuo atveju mokestis turi būti paskirstytas kiekvienoje eilutėje, kad būtų užsakymą būtų galima patvirtinti. Galite naudoti veiksmą **Paskirstyti išlaidas**, norėdami sumas atskirti nuo mokesčių, kurie antraštės lygiu priskirti užsakymo eilutėms. Mokesčiai gali būti skaidomi pagal kiekvienos eilutės grynąją sumą, pagal užsakytą kiekį arba tolygiai užsakymo eilutėse. Paskirsčius mokesčius į eilutes, mokestis yra pašalintas iš užsakymo antraštės.  
+Mokesčiai, kurių mokesčių tipas naudoja debeto tipą **Prekė** , turi būti priskirti eilutės lygiu, kad užsakymą būtų galima patvirtinti. Šiuos mokesčius gali būti patogu priskirti užsakymo antraštės lygiu, kad būtų galima nurodyti mokesčio bendrąją sumą. Tačiau šiuo atveju mokestis turi būti paskirstytas kiekvienoje eilutėje, kad būtų užsakymą būtų galima patvirtinti. Galite naudoti veiksmą **Paskirstyti išlaidas** , norėdami sumas atskirti nuo mokesčių, kurie antraštės lygiu priskirti užsakymo eilutėms. Mokesčiai gali būti skaidomi pagal kiekvienos eilutės grynąją sumą, pagal užsakytą kiekį arba tolygiai užsakymo eilutėse. Paskirsčius mokesčius į eilutes, mokestis yra pašalintas iš užsakymo antraštės.  
 
 PU galima sukonfigūruoti taip, kad biudžeto lėšas būtų privaloma paskirstyti užsakymui, kad norint jį apdoroti. Šiuo atveju galite naudoti veiksmą **Biudžeto patikra** biudžetui paskirstyti.  
 

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 6fe42f43277448dc5918597ed8bb1b68f2266b6a
-ms.sourcegitcommit: 4ba10abe5be8a21b95370cd970a622e954970984
+ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829217"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997405"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Potencialių klientų pavertimas grynaisiais pinigais dvigubo rašymo funkcijoje
 
@@ -57,15 +56,15 @@ Pardavimuose eikite į **Parametrai \> Administravimas \> Sistemos parametrai \>
 
 Numeracijos, skirtos „Supply Chain Management“ ir „Sales“, neprijungtos, kai pasiūlymai ir užsakymai sukuriami ir sinchronizuojami „Sales“ ir „Supply Chain Management“ programose. Jei pardavimo užsakymas, sukurtas „Sales“ programoje, sinchronizuojamas į „Supply Chain Management“, jis turės tokį patį pardavimo užsakymo numerį „Supply Chain Management“ programoje. Norėdami užtikrinti, kad pardavimo užsakymo numeris nebūtų dubliuojamas, dviejose programose turite naudoti skirtingas numeravimo sistemas.
 
-Pavyzdžiui, numeracija „Supply Chain Management“ programoje yra **1, 2, 3, 4, 5, ...**, o numeracija „Sales“ programoje yra **100, 99, 98, ...**. Jei kuriate 100 pardavimo užsakymų „Sales“ programoje, pardavimo numeris galiausiai bus sugeneruotas tas, kuris jau yra „Supply Chain Management“ programoje. Kitaip tariant, dvi numeracijos galiausiai sutaps su pardavimo užsakymais, sukurtais „Supply Chain Management“ ir „Sales“. Vietoje to galite naudoti numeraciją **F1, F2, F3, ...** „Supply Chain Management“ programoje, o numeraciją **C1, C2, C3, ...** „Sales“ programoje. Šios numeracijos niekada nepateiks pasikartojančių pardavimo užsakymų numerių.
+Pavyzdžiui, numeracija „Supply Chain Management“ programoje yra **1, 2, 3, 4, 5, ...** , o numeracija „Sales“ programoje yra **100, 99, 98, ...**. Jei kuriate 100 pardavimo užsakymų „Sales“ programoje, pardavimo numeris galiausiai bus sugeneruotas tas, kuris jau yra „Supply Chain Management“ programoje. Kitaip tariant, dvi numeracijos galiausiai sutaps su pardavimo užsakymais, sukurtais „Supply Chain Management“ ir „Sales“. Vietoje to galite naudoti numeraciją **F1, F2, F3, ...** „Supply Chain Management“ programoje, o numeraciją **C1, C2, C3, ...** „Sales“ programoje. Šios numeracijos niekada nepateiks pasikartojančių pardavimo užsakymų numerių.
 
 ## <a name="sales-quotations"></a>Pardavimo pasiūlymai
 
 Pardavimo pasiūlymai gali būti kuriami programose „Sales“ arba „Supply Chain Management“. Jei kuriate pasiūlymą „Sales“ programoje, jis bus sinchronizuojamas su „Supply Chain Management“ realiuoju laiku. Taip pat jei kuriate pasiūlymą „Supply Chain Management“ programoje, jis bus sinchronizuojamas su „Sales“ realiuoju laiku. Atkreipkite dėmesį į toliau nurodytus punktus.
 
-+ Pasiūlyme galite pridėti nuolaidą produktui. Šiuo atveju nuolaida bus sinchronizuojama su „Supply Chain Management“. Antraštės laukus **Nuolaida**, **Išlaidos** ir **Mokesčiai** valdo Tiekimo grandinės valdymo sąranka. Šioje sąrankoje nepalaikomas integravimo susiejimas. Vietoje to, laukai **Kaina**, **Nuolaida**, **Išlaidos** ir **Mokesčiai** išlaikyti ir tvarkomi „Supply Chain Management“ programoje.
-+ Laukai **Nuolaidos %**, **Nuolaida** ir **Transportavimo suma**, esantys pardavimo pasiūlymo antraštėje yra skirti tik skaitymui.
-+ Laukai **Transportavimo sąlygos**, **Pristatymo sąlygos** **Siuntimo būdas** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
++ Pasiūlyme galite pridėti nuolaidą produktui. Šiuo atveju nuolaida bus sinchronizuojama su „Supply Chain Management“. Antraštės laukus **Nuolaida** , **Išlaidos** ir **Mokesčiai** valdo Tiekimo grandinės valdymo sąranka. Šioje sąrankoje nepalaikomas integravimo susiejimas. Vietoje to, laukai **Kaina** , **Nuolaida** , **Išlaidos** ir **Mokesčiai** išlaikyti ir tvarkomi „Supply Chain Management“ programoje.
++ Laukai **Nuolaidos %** , **Nuolaida** ir **Transportavimo suma** , esantys pardavimo pasiūlymo antraštėje yra skirti tik skaitymui.
++ Laukai **Transportavimo sąlygos** , **Pristatymo sąlygos** **Siuntimo būdas** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
 
 Jei taip pat naudojate sprendimą „Field Service”, nepamirškite iš naujo įjungti parametro **Kainos linijos greitasis kūrimas**. Iš naujo įgalinus parametrą galima toliau kurti pasiūlymo eilutes naudojant greitojo kūrimo funkciją.
 1. Pereikite į „Dynamics 365 Sales” programą.
@@ -102,7 +101,7 @@ Jeigu sinchronizuojate „Supply Chain Management“ su „Sales“, gausite tok
 Į objektą **Užsakymas** buvo įtraukti nauji laukai, rodomi puslapyje. Dauguma šių laukų rodomi „Sales“ skirtuke **Integravimas**. Daugiau informacijos apie tai, kaip susieti būsenos laukai, žr. dokumentacijos temoje [Pardavimo užsakymo būsenos laukų susiejimo nustatymas](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
 
 + Mygtukai **Kurti sąskaitą faktūrą** ir **Atšaukti užsakymą** puslapyje **Pardavimų užsakymai** yra paslėpti „Sales“.
-+ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi**, kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[Būsena\]** reikšmę nustatykite į **Aktyvi**.
++ Reikšmė **Pardavimų užsakymo būsena** išliks **Aktyvi** , kad padėtų užtikrinti, jog „Supply Chain Management“ keitimai galėtų būti perkelti į „Sales“ pardavimų užsakymą. Norėdami valdyti šią veikimo būdą, numatytąją **Būsenos kodas \[Būsena\]** reikšmę nustatykite į **Aktyvi**.
 
 ## <a name="invoices"></a>Sąskaitos faktūros
 
@@ -110,8 +109,8 @@ Pardavimo sąskaitos faktūros kuriamos „Supply Chain Management“ programoje
 
 + Į objektą **Sąskaita faktūra** įtrauktas ir puslapyje rodomas laukas **Sąskaitos faktūros numeris**.
 + Puslapyje **Pardavimo užsakymas** esantis mygtukas **Kurti sąskaitą faktūrą** yra paslėptas, nes sąskaitos faktūros bus kuriamos „Supply Chain Management“ programoje ir sinchronizuojamos su „Sales“. Puslapio **Sąskaita faktūra** redaguoti negalima, nes sąskaitos faktūros bus sinchronizuojamos iš „Supply Chain Management“.
-+ **Pardavimų užsakymo būsenos** reikšmė automatiškai keičiama į **Išrašyta sąskaita faktūra**, kai susijusi „Supply Chain Management“ sąskaita faktūra sinchronizuojama į „Sales“. Be to, pardavimo užsakymo, iš kurio buvo sukurta sąskaita faktūra, savininkas priskiriamas sąskaitos faktūros savininku. Todėl pardavimo užsakymo savininkas gali peržiūrėti sąskaitą faktūrą.
-+ Laukai **Transportavimo sąlygos**, **Pristatymo sąlygos** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
++ **Pardavimų užsakymo būsenos** reikšmė automatiškai keičiama į **Išrašyta sąskaita faktūra** , kai susijusi „Supply Chain Management“ sąskaita faktūra sinchronizuojama į „Sales“. Be to, pardavimo užsakymo, iš kurio buvo sukurta sąskaita faktūra, savininkas priskiriamas sąskaitos faktūros savininku. Todėl pardavimo užsakymo savininkas gali peržiūrėti sąskaitą faktūrą.
++ Laukai **Transportavimo sąlygos** , **Pristatymo sąlygos** ir **Pristatymo būdas** neįtraukti į numatytuosius susiejimus. Norėdami susieti šiuos laukus, turite nustatyti reikšmių susiejimą, kuris atitinka organizacijų, tarp kurių objektas sinchronizuojamas, duomenis.
 
 ## <a name="templates"></a>Šablonai
 

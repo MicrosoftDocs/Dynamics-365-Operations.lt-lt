@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 03face220fd63962f645b4fe91f20aec2f19b1ef
-ms.sourcegitcommit: 14b554b43b9d86152ef27fdde6141589bcaf1161
+ms.openlocfilehash: 6d6880e258510a79cdd5937f96af28e5ae148292
+ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3598063"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4040058"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>„Power BI“ Kredito ir mokėjimų priežiūros valdymas
 
@@ -51,6 +51,9 @@ Kad duomenys būtų rodomi **Klientų kredito ir mokėjimų priežiūra** „Pow
 3. Eikite į **Didžioji knyga > Sąranka > Didžioji knyga** ir nustatykite **Apskaitos valiuta** ir **Valiutos kurso tipas**.
 4. Nustatykite valiutų keitimo kursus tarp perlaidų valiutų ir apskaitos valiutos, apskaitos valiutą ir sistemos valiutą. Norėdami tai padaryti, eikite į **Didžioji knyga > Valiutos > Valiutų kursai**.
 5. Eikite į **Sistemos administravimas > Sąranka > Objektų saugykla** ir atnaujinkite agreguotą matavimo vienetą **CustCollectionsBIMeasurementsV2**.
+
+>[!NOTE] 
+> Skirstymo pagal terminus laikotarpio apibrėžimai turi būti nustatyti dalyje **Gautinų sumų parametrai > Mokėjimų priežiūra > Numatytoji mokėjimų peržiūra** , kad būtų įgalinti „Power BI” turinio skirstymo pagal terminus duomenys.
 
 ## <a name="accessing-the-power-bi-content"></a>Prieiga prie „Power BI“ turinio
 

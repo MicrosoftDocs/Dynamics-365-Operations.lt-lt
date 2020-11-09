@@ -3,7 +3,7 @@ title: Brūkšninių kodų vaizdams generuoti brūkšninio kodo duomenų šaltin
 description: Šioje temoje paaiškinama, kaip naudoti brūkšninio kodo duomenų šaltinius brūkšninio kodo vaizdams generuoti.
 author: NickSelin
 manager: AnnBe
-ms.date: 06/05/2020
+ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: fdb70c7e72647de4c6cd977b286c19c906559438
-ms.sourcegitcommit: a56b22729fbbb941471e927e2f932acaf624cf5e
+ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
+ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/08/2020
-ms.locfileid: "3435470"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "4088202"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Brūkšninių kodų vaizdams generuoti brūkšninio kodo duomenų šaltinių naudojimas
 
@@ -54,16 +54,17 @@ Naudodami **Brūkšninis kodas** duomenų šaltinį, galite generuoti brūkšnin
     - EAN-8
     - EAN-13
     - ITF-14
+    - „Intelligent Mail”
+    - MSI
+    - Plessey
     - PDF417
     - UPC-A
     - UPC-E
-    - MSI
-    - Plessey
 
 - Dviejų dimensijų brūkšniniai kodai:
 
     - Aztec
-    - DataMatrix
+    - Duomenų matrica
     - QR kodas
 
 Konfigūruodami **Brūkšninis kodas** duomenų šaltinį, galite nurodyti konkrečius vaizdų generavimo parametrus, kurie naudojami vaizdui generuoti:
@@ -71,13 +72,13 @@ Konfigūruodami **Brūkšninis kodas** duomenų šaltinį, galite nurodyti konkr
 - **Plotis** – nurodykite brūkšninio kodo plotį pikseliais. Vertė **0** (nulis) nurodo, kad naudojamas numatytasis plotis. Reikšmė skirtingiems formatams gali skirtis.
 - **Aukštis** – nurodykite brūkšninio kodo aukštį pikseliais. Vertė **0** (nulis) nurodo, kad naudojamas numatytasis aukštis. Reikšmė skirtingiems formatams gali skirtis.
 - **Paraštė** – nurodykite brūkšninio kodo maržos dydį pikseliais. Paraštė yra kiekvienos brūkšninio kodo pusės sritis, kuri turi būti švari (rami zona). Vertė **0** (nulis) nurodo, kad naudojama numatytoji paraštė. Reikšmė skirtingiems formatams gali skirtis.
-- **Išeigos turinys** – nustatykite reikšmę į **Taip**, kad sugeneruotumėte brūkšninio kodo vaizdą, kuriame yra užkoduota informacija, kaip tekstas. Numatytoji reikšmė yra **Ne**.
+- **Išeigos turinys** – nustatykite reikšmę į **Taip** , kad sugeneruotumėte brūkšninio kodo vaizdą, kuriame yra užkoduota informacija, kaip tekstas. Numatytoji reikšmė yra **Ne**.
 - **Kodavimas** – nurodykite simbolių, užkoduotų sugeneruotame brūkšninio kodo vaizde, tipą. Pagal numatytuosius nustatymus, naudojamas **UTF-8** kodavimas.
 
 > [!IMPORTANT]
-> Kai pridedate naują **Brūkšninis kodas**duomenų šaltinį, turite jį įdėti į kitą prekę (konteinerį) kaip įdėtąjį elementą.
+> Kai pridedate naują **Brūkšninis kodas** duomenų šaltinį, turite jį įdėti į kitą prekę (konteinerį) kaip įdėtąjį elementą.
 >
-> Kai susiejate **Brūkšninis kodas**duomenų šaltinį su langelio elementu formate, o langelio elementas atspindi „Word” turinio valdiklį arba „Excel” paveikslėlį, duomenų šaltinis pateikiamas kaip siejanti funkcija, turinti vieną **Eilutė** tipo parametrą. Turite naudoti šį parametrą, kad nurodytumėte tekstą, kuris turi būti paverstas brūkšninio kodo vaizdu ir perskaitytas, kai nuskaitomas sugeneruotas brūkšninis kodas.
+> Kai susiejate **Brūkšninis kodas** duomenų šaltinį su langelio elementu formate, o langelio elementas atspindi „Word” turinio valdiklį arba „Excel” paveikslėlį, duomenų šaltinis pateikiamas kaip siejanti funkcija, turinti vieną **Eilutė** tipo parametrą. Turite naudoti šį parametrą, kad nurodytumėte tekstą, kuris turi būti paverstas brūkšninio kodo vaizdu ir perskaitytas, kai nuskaitomas sugeneruotas brūkšninis kodas.
 
 Norėdami sužinoti daugiau apie šią funkciją, atlikite šioje temoje esančius pavyzdžius.
 
@@ -138,15 +139,15 @@ Be to, atsisiųskite nurodytą „Excel” failą, kuriame yra modifikuotas pate
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos** dalyje pasirinkite plytelę **Konfigūracijų ataskaitos**.
-3. Puslapyje **Konfigūracijos**, jei **Čekių šablonas** konfigūracija negalima konfigūracijos medyje, atlikite šiuos veiksmus, kad importuokite ER duomenų modelio konfigūraciją:
+3. Puslapyje **Konfigūracijos** , jei **Čekių šablonas** konfigūracija negalima konfigūracijos medyje, atlikite šiuos veiksmus, kad importuokite ER duomenų modelio konfigūraciją:
 
     1. Veiksmų srityje pasirinkite **Pakeisti** \> **Įkelti iš XML failo**.
-    2. Dialogo lange pasirinkite **Naršyti**, suraskite ir pasirinkite failą **Šablonas cheques.xml**, tada pasirinkite **Gerai**.
+    2. Dialogo lange pasirinkite **Naršyti** , suraskite ir pasirinkite failą **Šablonas cheques.xml** , tada pasirinkite **Gerai**.
 
 4. Jei konfigūracijos medyje **Čekių spausdinimo formatas** konfigūracija negalima, atlikite šiuos veiksmus, kad importuotumėte ER formato konfigūraciją:
 
     1. Veiksmų srityje pasirinkite **Pakeisti** \> **Įkelti iš XML failo**.
-    2. Dialogo lange pasirinkite **Naršyti**, suraskite ir pasirinkite failą **Kvitų spausdinimo format.xml**, tada pasirinkite **Gerai**.
+    2. Dialogo lange pasirinkite **Naršyti** , suraskite ir pasirinkite failą **Kvitų spausdinimo format.xml** , tada pasirinkite **Gerai**.
 
 5. Konfigūracijos medyje išplėskite **Čekių šablonas**.
 6. Peržiūrėkite importuotų ER konfigūracijų sąrašą konfigūracijos medyje.
@@ -160,7 +161,7 @@ Be to, atsisiųskite nurodytą „Excel” failą, kuriame yra modifikuotas pate
 5. **Bendra** „FastTab” skirtuke nustatykite parinktį **Bendrasis elektroninis eksportavimo formatas** į **Taip**.
 6. **Eksportuoti formato konfigūraciją** lauke pasirinkite **Čekių spausdinimo formatas** jūsų anksčiau importuotą ER formatą.
 7. Veiksmų srityje pasirinkite **Spausdinimo bandymas**.
-8. Dialogo lange nustatykite **Perduodamo čekio formato** pasirinktį į **Taip**, tada pasirinkite **Gerai**.
+8. Dialogo lange nustatykite **Perduodamo čekio formato** pasirinktį į **Taip** , tada pasirinkite **Gerai**.
 
     ![Čekio maketas – spausdinimo bandymo dialogo langas](./media/er-barcode-data-source-check-layout.png)
 
@@ -191,9 +192,9 @@ Dabar turite modifikuoti ER sprendimą ir tada [iš naujo pritaikyti](modify-ele
     ![Langelio formato elementų susiejimas su duomenų šaltiniais „ER Operations” kūrimo įrankyje](./media/er-barcode-data-source-cells-bound.png)
 
 7. Pasirinkite **Formatuoti** skirtuką dešinėje puslapio pusėje.
-8. Veiksmų srityje pasirinkite daugtaškį ( **...**) ir pasirinkite **Importuoti**.
+8. Veiksmų srityje pasirinkite daugtaškį ( **...** ) ir pasirinkite **Importuoti**.
 9. **Importavimas** grupėje pasirinkite **Naujinti iš „Excel”** ir pasirinkite **Naujinti šabloną**.
-10. Dialogo lange pereikite prie **Čekio šablono Excel.xlsx** failo, kuris įrašytas jūsų kompiuteryje, pasirinkite jį ir tada pasirinkite **Gerai**, kad patvirtintumėte taikyti pasirinktą šabloną.
+10. Dialogo lange pereikite prie **Čekio šablono Excel.xlsx** failo, kuris įrašytas jūsų kompiuteryje, pasirinkite jį ir tada pasirinkite **Gerai** , kad patvirtintumėte taikyti pasirinktą šabloną.
 11. Pasirinkite **Susiejimas** skirtuką dešinėje puslapio pusėje, tada formato medžio srityje kairėje pasirinkite **Plėsti/sutraukti**.
 12. Atkreipkite dėmesį, kad **SumosBrūkšninisKodas** langelio elementas buvo pridėtas prie formato. Šis elementas yra susietas su **SumosBrūkšninisKodas** pridėtu į modifikuotą „Excel” šabloną elementu kaip vietos rezervavimo ženklas brūkšninio kodo vaizdui.
 
@@ -204,12 +205,12 @@ Dabar turite modifikuoti ER sprendimą ir tada [iš naujo pritaikyti](modify-ele
 Tada turite pridėti naują **Brūkšninis kodas** tipo duomenų šaltinis.
 
 1. „ER Operations” kūrimo įrankyje **Susiejimas** skirtuke, dešinėje puslapio pusėje, pasirinkite **spausdinti** duomenų šaltinį.
-2. Pasirinkite **Pridėto**, tada **Funkcijos** grupėje pasirinkite **Brūkšninis kodas** duomenų šaltinio tipą.
+2. Pasirinkite **Pridėto** , tada **Funkcijos** grupėje pasirinkite **Brūkšninis kodas** duomenų šaltinio tipą.
 
     ![Brūkšninio kodo duomenų šaltinio tipo pasirinkimas](./media/er-barcode-data-source-add.png)
 
 3. Dialogo lango lauke **Pavadinimas** įveskite **Brūkšninis kodas**.
-4. **Brūkšninis formatas**, pasirinkite **Kodas 128**.
+4. **Brūkšninis formatas** , pasirinkite **Kodas 128**.
 5. **Plotis** lauke įveskite **500**.
 6. Pasirinkite **Gerai**.
 
@@ -261,8 +262,8 @@ Dabartinės versijos būsena pakeista iš **Juodraštis** į **Baigta** ir sukur
 
 1. Eikite į **Organizacijos administravimas** \> **Darbo sritys** \> **Elektroninės ataskaitos**.
 2. **Lokalizavimo konfigūracijos** puslapyje **Konfigūracijos** dalyje pasirinkite plytelę **Konfigūracijų ataskaitos**.
-3. Puslapyje **Konfigūracijos**, veiksmų srityje, **Konfigūracijos** skirtyje, grupėje **Išankstiniai parametrai** pasirinkite **Vartotojo parametrai**.
-4. Dialogo lange nustatykite **Leisti parametrą** pasirinktis į **Taip**, tada pasirinkite **Gerai**.
+3. Puslapyje **Konfigūracijos** , veiksmų srityje, **Konfigūracijos** skirtyje, grupėje **Išankstiniai parametrai** pasirinkite **Vartotojo parametrai**.
+4. Dialogo lange nustatykite **Leisti parametrą** pasirinktis į **Taip** , tada pasirinkite **Gerai**.
 5. Konfigūracijų medyje išplėskite **Čekių šablonas** ir pasirinkite **Čekių spausdinimo formatas**.
 6. Nustatykite **Leist juodraštį** parinktį į **Taip**.
 7. Pasirinkite **Įrašyti**.
@@ -274,7 +275,7 @@ Pasirinkto formato juodraštinė versija pažymėta kaip galima naudoti, kai pal
 1. Eikite į **Grynųjų ir banko valdymas** \> **Banko sąskaitos** \> **Banko sąskaitos**.
 2. **Banko sąskaitos** puslapyje pasirinkite **USMF OPER** paskyrą.
 3. Banko sąskaitos informacijos puslapyje, veiksmų srityje, **Nustatyti** skirtuke, **Maketas** grupėje, pasirinkite **Čekis**.
-4. Puslapyje **Čekio maketas**, esančiame Veiksmų srityje, pasirinkite **Spausdinimo bandymas**.
+4. Puslapyje **Čekio maketas** , esančiame Veiksmų srityje, pasirinkite **Spausdinimo bandymas**.
 5. Dialogo lange nustatykite **Perduodamas čekio formatas** parinktį į **Taip**.
 6. Pasirinkite **Gerai**.
 7. Peržiūrėti sugeneruotą čekį. Atkreipkite dėmesį, kad brūkšninis kodas buvo sugeneruotas užkoduoti čekio mokėtiną sumą.

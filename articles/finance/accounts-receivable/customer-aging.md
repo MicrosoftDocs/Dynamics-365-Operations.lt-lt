@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 062e8972c879d770cc4106c2811cd4c16fff0446
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
+ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974866"
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4013058"
 ---
 # <a name="customer-aging-report"></a>Klientų skirstymo pagal terminus ataskaita 
 
@@ -115,8 +115,9 @@ Kai generuojate šią ataskaitą, rodomi toliau pateikti numatytieji parametrai.
 <tr class="even">
 <td><p><strong>Spausdinimo kryptis</strong></p></td>
 <td><p>Pasirinkite, kokių laikotarpių balansus skaičiuoti ir skirstymo pagal terminus ataskaitą spausdinti – buvusių ar būsimų. Datos įvertinamos atsižvelgiant į datą, kuri pasirinkta lauke <strong>Balansas nuo</strong>. Pasirinkite <strong>Atgal</strong>, kad būtų rodoma buvusių laikotarpių informacija. Pasirinkite <strong>Pirmyn</strong>, kad būtų rodoma būsimų laikotarpių informacija.</p>
-
-**Pastaba:** jūsų šiame lauke įvesta informacija naudojama tik jei nesate pasirinkę skirstymo pagal terminus laikotarpio apibrėžimo.</P>
+<div class="alert">
+  
+<STRONG>Pastaba:</STRONG> jūsų šiame lauke įvesta informacija naudojama tik jei nesate pasirinkę skirstymo pagal terminus laikotarpio apibrėžimo.</P>
 
 
 </div></td>

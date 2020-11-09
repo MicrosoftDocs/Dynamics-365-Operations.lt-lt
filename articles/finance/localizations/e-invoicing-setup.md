@@ -18,17 +18,17 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 92ffd2076497325fb986478328c4b2584929881d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 7e631f1bf64b47b5f3e85d4f98c6edafe67d627a
+ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3836003"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4039897"
 ---
 # <a name="set-up-the-electronic-invoicing-add-on"></a>Elektroninių SF išrašymo priedo nustatymas
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Elektroninių SF išrašymo priedo funkcijos nustatymas yra procesas, kurio metu reikia sukurti reikiamą konfigūraciją naudojant „Regulatory Configuration Services” (RCS) aplinką ir publikuoti šią konfigūraciją elektroninių SF išrašymo priedo serveryje. Nustatymas leidžia kurti konfigūruojamas taisykles, įjungiančias elektroninių SF išrašymo priedą, kad būtų galima naudoti saugų protokolą internete siekiant palaikyti ryšį ir keistis duomenimis su trečiosios šalies objektu žiniatinklio tarnybose.
 
@@ -50,8 +50,8 @@ Nustatymo procesas turi būti atliktas jūsų RCS aplinkoje. Atlikite toliau pat
 
 1. Prisijunkite prie jūsų RCS aplinkos.
 2. Darbo srities **Globalizacijos funkcijos** dalyje **Funkcijos** pasirinkite plytelę **Elektroninių SF išrašymo priedas**.
-3. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** pasirinkite **Importuoti**, norėdami importuoti ER duomenų modelio konfigūraciją iš visuotinės saugyklos.
-4. Pasirinkite **Įtraukti**, norėdami sukurti elektroninių SF išrašymo priedo funkciją. Šią funkciją galite kurti nuo pradžių arba išvesti ją iš esamos elektroninių SF išrašymo priedo funkcijos.
+3. Puslapyje **Elektroninių SF išrašymo priedo funkcijos** pasirinkite **Importuoti** , norėdami importuoti ER duomenų modelio konfigūraciją iš visuotinės saugyklos.
+4. Pasirinkite **Įtraukti** , norėdami sukurti elektroninių SF išrašymo priedo funkciją. Šią funkciją galite kurti nuo pradžių arba išvesti ją iš esamos elektroninių SF išrašymo priedo funkcijos.
 
     ![Elektroninių SF išrašymo priedo funkcijos įtraukimas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
@@ -64,14 +64,14 @@ Konfigūracijos saugo ER formato konfigūracijas, kurių reikia transformacijoms
 
 Atlikite toliau pateiktus veiksmus, norėdami įtraukti ER formatų į elektroninių SF išrašymo priedo funkciją.
 
-1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Konfigūracijos** pasirinkite **Įtraukti**, kad įtrauktumėte ER failo formato konfigūracijas, skirtas elektroninių SF išrašymo priedo funkcijai.
+1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Konfigūracijos** pasirinkite **Įtraukti** , kad įtrauktumėte ER failo formato konfigūracijas, skirtas elektroninių SF išrašymo priedo funkcijai.
 
     ![Elektroninių SF išrašymo priedo funkcijos konfigūracijų įtraukimas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Kurdami elektroninių SF išrašymo priedo funkciją nuo pradžių, turite neautomatiniu būdu įtraukti visas ER failo formato konfigūracijas. Kai išvedate elektroninių SF išrašymo priedo funkciją iš esamos funkcijos, ER failo formato konfigūracijos sukuriamos automatiškai, nes jos perduodamos iš pradinės elektroninių SF išrašymo priedo funkcijos.
 
-2. Pasirinkite **Redaguoti**, kad būtų atidarytas puslapis **Formato dizaino įrankis**, kuriame galite redaguoti ER failo formato konfigūraciją.
+2. Pasirinkite **Redaguoti** , kad būtų atidarytas puslapis **Formato dizaino įrankis** , kuriame galite redaguoti ER failo formato konfigūraciją.
 
     ![Elektroninių SF išrašymo priedo funkcijos konfigūracijų redagavimas](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
@@ -88,14 +88,14 @@ Funkcijos nustatymai apima trečiosios šalies žiniatinklio tarnybos ryšių ir
 
 Atlikite toliau pateiktus veiksmus, norėdami įtraukti funkcijos nustatymų į elektroninių SF išrašymo priedo funkciją.
 
-1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti**, kad įtrauktumėte funkcijos nustatymų į elektroninių SF išrašymo priedo funkciją.
+1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Nustatymai** pasirinkite **Įtraukti** , kad įtrauktumėte funkcijos nustatymų į elektroninių SF išrašymo priedo funkciją.
 
     ![Elektroninių SF išrašymo priedo funkcijos nustatymų įtraukimas](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Kurdami elektroninių SF išrašymo priedo funkciją nuo pradžių, turite neautomatiniu būdu įtraukti visus reikiamus funkcijos nustatymus. Kai išvedate elektroninių SF išrašymo priedo funkciją iš esamos funkcijos, visi funkcijos nustatymai sukuriami automatiškai, nes jie perduodami iš pradinės elektroninių SF išrašymo priedo funkcijos.
 
-2. Pasirinkite **Redaguoti**, norėdami redaguoti funkcijos versijos nustatymą.
+2. Pasirinkite **Redaguoti** , norėdami redaguoti funkcijos versijos nustatymą.
 
     ![Elektroninių SF išrašymo priedo funkcijos nustatymų redagavimas](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
@@ -111,10 +111,10 @@ Kiekviename veiksme yra iš anksto nustatytas parametrų, būtinų veiksmui įvy
 
 #### <a name="actions-fasttab"></a>„FastTab“ Veiksmai
 
-Puslapio **Funkcijos versijų nustatymas** skirtuko **Veiksmai** „FastTab“ **Veiksmai**, atlikite vieną ar abu toliau pateiktus veiksmus, skirtus veiksmams valdyti.
+Puslapio **Funkcijos versijų nustatymas** skirtuko **Veiksmai** „FastTab“ **Veiksmai** , atlikite vieną ar abu toliau pateiktus veiksmus, skirtus veiksmams valdyti.
 
 - Pasirinkite **Naujas** ar **Naikinti** , norėdami įtraukti naujų veiksmų arba panaikinti esamus.
-- Pasirinkite **Aukštyn** arba **Žemyn**, norėdami perkelti pažymėtus veiksmus tinklelyje aukštyn arba žemyn ir pakeisti tvarką, kuria jie vykdomi. Veiksmai vykdomi tokia tvarka, kokia jie rodomi tinklelyje – iš viršaus į apačią.
+- Pasirinkite **Aukštyn** arba **Žemyn** , norėdami perkelti pažymėtus veiksmus tinklelyje aukštyn arba žemyn ir pakeisti tvarką, kuria jie vykdomi. Veiksmai vykdomi tokia tvarka, kokia jie rodomi tinklelyje – iš viršaus į apačią.
 
 ![Veiksmų valdymas](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
@@ -130,7 +130,7 @@ Toliau pateikta lentelė aprašo laukus, pasiekiamus „FastTab” **Veiksmai**.
 
 #### <a name="parameters-fasttab"></a>„FastTab” Parametrai
 
-„FastTab” **Parametrai** pateikia veiksmo, pasirinkto „FastTab” **Veiksmai**, parametrus.
+„FastTab” **Parametrai** pateikia veiksmo, pasirinkto „FastTab” **Veiksmai** , parametrus.
 
 ![„FastTab” Parametrai](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
@@ -194,7 +194,7 @@ Pasiekiami parametrai skiriasi, atsižvelgiant į veiksmą, pasirinktą „FastT
 |-----------------------------|-------------|
 | Tinklo tarnybos URL             | URL, į kurį siunčiamos užklausos. |
 | Žiniatinklio užklausos skirtasis laikas         | Maksimalus laikas (milisekundėmis), per kurį laukiama žiniatinklio tarnybos atsakymo. |
-| Užklausos operacijos tipas      | HTTP užklausos operacijos tipas (pvz., **GAUTI**, **REGISTRUOTI** arba **NAIKINTI**). |
+| Užklausos operacijos tipas      | HTTP užklausos operacijos tipas (pvz., **GAUTI** , **REGISTRUOTI** arba **NAIKINTI** ). |
 | Sertifikatų pavadinimai           | Sertifikatų pavadinimai. |
 | Atsakymo teksto kodavimas      | Numatomas HTTP atsakymo teksto kodavimas, kad būtų galima tinkamai iššifruoti. |
 | HTTP užklausos turinio tipas   | HTTP užklausos turinio tipo antraštės įvestis. |
@@ -260,7 +260,7 @@ Pritaikymo taisyklės leidžia kurti logines taisykles, apibrėžiančias funkci
 
 #### <a name="set-up-applicability-rules"></a>Taikymo taisyklių nustatymas
 
-1. Puslapio **Funkcijos versijos nustatymas** skirtuke **Taikymo taisyklės** pasirinkite **Nauja**, kad įtrauktumėte taikymo taisyklę.
+1. Puslapio **Funkcijos versijos nustatymas** skirtuke **Taikymo taisyklės** pasirinkite **Nauja** , kad įtrauktumėte taikymo taisyklę.
 
     ![Taikymo taisyklių valdymas](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
@@ -295,7 +295,7 @@ Galite kurti kintamuosius ir juos naudoti kaip konkretaus veiksmo parametro įve
 
 #### <a name="set-up-variables"></a>Nustatyti kintamuosius
 
-- Puslapio **Funkcijos versijos nustatymas** skirtuke **Kintamieji** pasirinkite **Naujas** arba **Naikinti**, norėdami valdyti kintamuosius.
+- Puslapio **Funkcijos versijos nustatymas** skirtuke **Kintamieji** pasirinkite **Naujas** arba **Naikinti** , norėdami valdyti kintamuosius.
 
     ![Kintamųjų valdymas](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
@@ -311,7 +311,7 @@ Toliau pateikta lentelė aprašo laukus, pasiekiamus skirtuke **Kintamieji**.
 
 ### <a name="validate-the-feature-setup"></a>Funkcijos nustatymo tikrinimas
 
-- Puslapio **Funkcijos versijos nustatymas**  veiksmų srityje pasirinkite **Tikrinti**, norėdami tikrinti funkcijos versijos nustatymą.
+- Puslapio **Funkcijos versijos nustatymas**  veiksmų srityje pasirinkite **Tikrinti** , norėdami tikrinti funkcijos versijos nustatymą.
 
    ![Mygtuko Tikrinti pasirinkimas](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
@@ -323,7 +323,7 @@ Elektroninių SF išrašymo priedo aplinka turi būti susieta su elektroninių S
 
 Atlikite toliau pateiktus veiksmus, norėdami įjungti elektroninių SF išrašymo priedo funkcijos elektroninių SF išrašymo priedo aplinką.
 
-1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Aplinkos** pasirinkite **Įjungti**, kad įtrauktumėte elektroninių SF išrašymo priedo aplinką.
+1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Aplinkos** pasirinkite **Įjungti** , kad įtrauktumėte elektroninių SF išrašymo priedo aplinką.
 2. Lauke **Galioja nuo** įveskite datą, kada nauja aplinka įsigalioja.
 
 ![Elektroninių SF išrašymo priedo aplinkos įjungimas](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
@@ -332,18 +332,18 @@ Atlikite toliau pateiktus veiksmus, norėdami įjungti elektroninių SF išrašy
 
 Elektroninių SF išrašymo priedo funkciją galima bendrinti keliose organizacijose.
 
-- Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Organizacijos** pasirinkite **Bendrinti su**, kad įtrauktumėte organizaciją, su kuria norite bendrinti elektroninių SF išrašymo priedo funkciją.
+- Puslapio **Elektroninių SF išrašymo priedo funkcijos** skirtuke **Organizacijos** pasirinkite **Bendrinti su** , kad įtrauktumėte organizaciją, su kuria norite bendrinti elektroninių SF išrašymo priedo funkciją.
 
 Norėdami nustoti bendrinti elektroninių SF išrašymo priedo funkciją su organizacija, pasirinkite **Atšaukti bendrinimą**.
 
 ## <a name="versions"></a>Versijos
 
-Versijos padeda valdyti elektroninių SF išrašymo priedo funkcijos ciklą valdant jos būseną. Galite sukurti naują esamos elektroninių SF išrašymo priedo funkcijos versiją arba, kai visa elektroninių SF išrašymo priedo funkcijos konfigūracija baigta, galite pakeisti šios funkcijos būseną į **Baigta**, o tada į **Publikuoti**.
+Versijos padeda valdyti elektroninių SF išrašymo priedo funkcijos ciklą valdant jos būseną. Galite sukurti naują esamos elektroninių SF išrašymo priedo funkcijos versiją arba, kai visa elektroninių SF išrašymo priedo funkcijos konfigūracija baigta, galite pakeisti šios funkcijos būseną į **Baigta** , o tada į **Publikuoti**.
 
 ### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Naujos esamos elektroninių SF išrašymo priedo funkcijos versijos kūrimas
 
 1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** kairėje pusėje esančiame tinklelyje pasirinkite elektroninių SF išrašymo priedo funkciją.
-2. Skirtuke **Versijos** pasirinkite **Nauja**, kad įtrauktumėte naują elektroninių SF išrašymo priedo funkcijos versiją.
+2. Skirtuke **Versijos** pasirinkite **Nauja** , kad įtrauktumėte naują elektroninių SF išrašymo priedo funkcijos versiją.
 
 ### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>Elektroninių SF išrašymo priedo funkcijos būsenos keitimas
 
@@ -351,13 +351,13 @@ Atlikite toliau pateiktus veiksmus, norėdami valdyti elektroninių SF išrašym
 
 1. Puslapio **Elektroninių SF išrašymo priedo funkcijos** kairėje pusėje esančiame tinklelyje pasirinkite elektroninių SF išrašymo priedo funkciją.
 2. Skirtuke **Versijos** pasirinkite **Keisti būseną** ir pakeiskite būseną iš **Juodraštis** į **Baigta**.
-3. Esate paraginami patvirtinti, kad norite užbaigti elektroninių SF išrašymo priedo funkcijos ir visų jos komponentų konfigūraciją. Pasirinkite **Taip**, norėdami patvirtinti veiksmą, arba **Ne**, norėdami atšaukti.
+3. Esate paraginami patvirtinti, kad norite užbaigti elektroninių SF išrašymo priedo funkcijos ir visų jos komponentų konfigūraciją. Pasirinkite **Taip** , norėdami patvirtinti veiksmą, arba **Ne** , norėdami atšaukti.
 
     > [!NOTE]
-    > Pasirinkus **Taip**, konfigūracijos versijų, kurios yra elektroninių SF išrašymo priedo funkcijos komponentai, būsena automatiškai pasikeičia iš **Juodraštis** į **Baigta**.
+    > Pasirinkus **Taip** , konfigūracijos versijų, kurios yra elektroninių SF išrašymo priedo funkcijos komponentai, būsena automatiškai pasikeičia iš **Juodraštis** į **Baigta**.
 
 4. Pasirinkite **Keisti būseną** ir pakeiskite būseną iš **Baigta** į **Publikuoti**.
-5. Esate paraginami patvirtinti, kad norite publikuoti elektroninių SF išrašymo priedo funkciją ir visus jos komponentus visuotinėje saugykloje. Pasirinkite **Taip**, norėdami patvirtinti veiksmą, arba **Ne**, norėdami atšaukti.
+5. Esate paraginami patvirtinti, kad norite publikuoti elektroninių SF išrašymo priedo funkciją ir visus jos komponentus visuotinėje saugykloje. Pasirinkite **Taip** , norėdami patvirtinti veiksmą, arba **Ne** , norėdami atšaukti.
 
     > [!NOTE]
-    > Pasirinkus **Taip**, konfigūracijos versijų būsena automatiškai pasikeičia iš **Baigta** į **Bendrinama**.
+    > Pasirinkus **Taip** , konfigūracijos versijų būsena automatiškai pasikeičia iš **Baigta** į **Bendrinama**.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSRFMenuItem
+ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12f1c405566561661fe7c13db5bfca70114b1618
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988351"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4016199"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiliųjų įrenginių nustatymas darbui sandėlyje
 
@@ -38,13 +38,13 @@ ms.locfileid: "3988351"
 - Kurti darbą, kuris bus atliekamas kitame procese. Pavyzdžiui, pirkimo užsakymo prekės gavimas gali sukurti atidėjimo darbą kitam darbuotojui.
 - Atlikti darbą, kuris buvo sukurtas kito proceso (esamą darbą), pvz., atidėjimo darbo, sukurto gavus prekę pagal pirkimo užsakymą.
 
-Norėdami kurti veiklos ar užklausos meniu elementą, nustatykite lauko **Režimas** vertę į **Netiesioginis**. Tada tampa galimas parinkčių **Veiklos kodas** sąrašas, kad galėtumėte pasirinkti užklausą arba veiklą, kuriai skirtas meniu elementas. Norėdami sukurti meniu elementą sandėlio darbui generuoti, nustatykite lauko **Režimas** vertę į **Darbas**. Taps galimas parinkčių **Darbo kūrimo procesas** sąrašas. Norėdami sukurti meniu elementą siekiant apdoroti esamą sandėlio darbą, nustatykite lauko **Režimas** vertę į **Darbas**, tada nustatykite parinkties **Naudoti esamą darbą** vertę **Taip**. 
+Norėdami kurti veiklos ar užklausos meniu elementą, nustatykite lauko **Režimas** vertę į **Netiesioginis**. Tada tampa galimas parinkčių **Veiklos kodas** sąrašas, kad galėtumėte pasirinkti užklausą arba veiklą, kuriai skirtas meniu elementas. Norėdami sukurti meniu elementą sandėlio darbui generuoti, nustatykite lauko **Režimas** vertę į **Darbas**. Taps galimas parinkčių **Darbo kūrimo procesas** sąrašas. Norėdami sukurti meniu elementą siekiant apdoroti esamą sandėlio darbą, nustatykite lauko **Režimas** vertę į **Darbas** , tada nustatykite parinkties **Naudoti esamą darbą** vertę **Taip**. 
 
 > [!NOTE]
 > Gali būti galimi papildomi meniu elementų laukai, atsižvelgiant į pasirinktą meniu elementą ir tai, ar meniu elementas naudojamas norint atlikti esamą darbą. Informacijos apie papildomų laukų pasirinktis žr. šios temos skyriuje „Papildomos meniu elementų parinktys“.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Veiklų ir užklausų meniu elementų konfigūravimas
-Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite sukurti meniu elementą, kad būtų galima atlikti bendrą veiklą arba užklausą, kuri nekuria darbo. Tokios veiklos pavyzdžiai gali būti pakartotinis numerio lentelių žymių spausdinimas ir užklausa dėl vietoje esančių prekių. Toliau pateiktoje lentelėje nurodytos galimos parinktys.
+Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis** , galite sukurti meniu elementą, kad būtų galima atlikti bendrą veiklą arba užklausą, kuri nekuria darbo. Tokios veiklos pavyzdžiai gali būti pakartotinis numerio lentelių žymių spausdinimas ir užklausa dėl vietoje esančių prekių. Toliau pateiktoje lentelėje nurodytos galimos parinktys.
 
 | Parinktis | Prekės/Paslaugos pavadinimas |
 |---|---|
@@ -55,7 +55,7 @@ Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite
 | Numerio lentelės užklausa | Peržiūrėkite prekių kiekį numerio lentelėje ir numerio lentelės vietą. |
 | Pradėti gamybos užsakymą | Paleiskite gamybos užsakymą. |
 | Gamybos nurašymas | Įveskite atliekų, sukurtų vykdant kiekvienos komplektavimo specifikacijos (KS) eilutės gamybą, kiekį. |
-| Paskutinis produkcijos padėklas | Nurodykite, kad gamybos užsakymui buvo pagamintas paskutinis prekių padėklas ir kad reikia atnaujinti gamybos užsakymo būseną nurodant ją kaip **Paskelbta, kad užbaigta**. Grąžinama gamybos metu nepanaudotų žaliavų būsena iš **Paimta** į **Užsakyta**, o prekes galima grąžinti į atsargas. |
+| Paskutinis produkcijos padėklas | Nurodykite, kad gamybos užsakymui buvo pagamintas paskutinis prekių padėklas ir kad reikia atnaujinti gamybos užsakymo būseną nurodant ją kaip **Paskelbta, kad užbaigta**. Grąžinama gamybos metu nepanaudotų žaliavų būsena iš **Paimta** į **Užsakyta** , o prekes galima grąžinti į atsargas. |
 | Prekės užklausa | Nuskaitykite prekę ir nustatykite, kurioje sandėlio vietoje ji yra. Ši užklausa pateikia visas nuskaitytos prekės vietas ir kiekius. |
 | Spausdinti žymą iš naujo | Perspausdinkite numerio lentelės žymę. |
 | Numerio lentelės versija | Kurkite pirminę numerio lentelę sujungdami kelias toje pačioje vietoje esančias numerių lenteles. Ši parinktis naudinga perkeliant kelias numerių lenteles vienu metu. Kai perkeliama pirminė numerio lentelė, prieš išrenkant prekes iš kiekvienos numerio lentelės reikia suskaidyti numerio lentelę. <p></p>**Patarimas.** Norėdami perkelti pirminę numerio lentelę, turite naudoti mobilųjį įrenginį, konfigūruotą kurti perkėlimo darbus. |
@@ -64,8 +64,8 @@ Jei meniu elemento laukas **Režimas** nustatytas kaip **Netiesioginis**, galite
 | Vairuotojo išregistravimas | Užregistruokite, kad vairuotojas baigė savo paskyrą. |
 | Valyti numeravimo talpyklą | Naikinkite numeracijos numerius iš numeracijos talpyklos. Šią veiklą paprastai atlieka sistemos administratorius šalindamas kaupimo talpykloje problemas, kai naudojami mobilieji įrenginiai. |
 | Keisti paketo perdavimą | Leiskite darbuotojui nurodyti prekės paketo perdavimo kodą ir paketą. Ši pasirinktis atnaujina nurodytą paketo perdavimo kodą. |
-| Rodyti atidarytą užduočių sąrašą | Rodyti galimų darbų sąrašą tam tikram vartotojui. Tada vartotojas galės pasirinkti atliktiną darbą ir bus nukreiptas į jį. Šis sąrašas skirtas žiūrėti planšetiniuose įrenginiuose, kurių ekrano įstrižainė – 7 coliai ar daugiau. Jums pasirinkus šią parinktį, tampa galimi meniu elementai **Redaguoti užklausą** ir **Laukų sąrašas**. Puslapyje **Redaguoti užklausą** galima nustatyti darbo, rodomo sąraše, kriterijus. Puslapyje **Laukų sąrašas** galima pasirinkti darbų sąraše rodomus laukus. Pavyzdžiui, galima sumažinti rodomų laukų skaičių, kad vartotojas galėtų greičiau pažymėti tinkamiausią darbo elementą. „FastTab“ skirtuko **Bendra** lauke **Įrašų puslapyje** taip pat galima pasirinkti, kiek darbo įrašų rodoma viename puslapyje. Jei pažymėta parinktis **Leisti vartotojams filtruoti darbą pagal operacijos tipą**, darbų sąraše bus rodomas valdiklis **Filtruoti darbą**, kurį naudodamas vartotojas gali filtruoti darbą pagal operacijos tipą. Vartotojas darbų sąraše matys tik tuos darbus, prie kurių prieiti jis turi teisę. Reikia įsitikinti, kad vartotojai turi teisę prieiti prie vieno ar daugiau vartotojo nurodytų meniu elementų, kurie palaiko konkrečius darbo klasės tipus, prie kurių jie galėtų prieiti. Teisės taip pat patikrinamos, kai vartotojas mėgina atlikti darbą iš sąrašo.|
-| Kurti perkėlimo užsakymą iš numerio lentelių | Tai leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio programos. Sandėlio darbuotojai pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą**, paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms. Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](create-transfer-order-from-warehouse-app.md)
+| Rodyti atidarytą užduočių sąrašą | Rodyti galimų darbų sąrašą tam tikram vartotojui. Tada vartotojas galės pasirinkti atliktiną darbą ir bus nukreiptas į jį. Šis sąrašas skirtas žiūrėti planšetiniuose įrenginiuose, kurių ekrano įstrižainė – 7 coliai ar daugiau. Jums pasirinkus šią parinktį, tampa galimi meniu elementai **Redaguoti užklausą** ir **Laukų sąrašas**. Puslapyje **Redaguoti užklausą** galima nustatyti darbo, rodomo sąraše, kriterijus. Puslapyje **Laukų sąrašas** galima pasirinkti darbų sąraše rodomus laukus. Pavyzdžiui, galima sumažinti rodomų laukų skaičių, kad vartotojas galėtų greičiau pažymėti tinkamiausią darbo elementą. „FastTab“ skirtuko **Bendra** lauke **Įrašų puslapyje** taip pat galima pasirinkti, kiek darbo įrašų rodoma viename puslapyje. Jei pažymėta parinktis **Leisti vartotojams filtruoti darbą pagal operacijos tipą** , darbų sąraše bus rodomas valdiklis **Filtruoti darbą** , kurį naudodamas vartotojas gali filtruoti darbą pagal operacijos tipą. Vartotojas darbų sąraše matys tik tuos darbus, prie kurių prieiti jis turi teisę. Reikia įsitikinti, kad vartotojai turi teisę prieiti prie vieno ar daugiau vartotojo nurodytų meniu elementų, kurie palaiko konkrečius darbo klasės tipus, prie kurių jie galėtų prieiti. Teisės taip pat patikrinamos, kai vartotojas mėgina atlikti darbą iš sąrašo.|
+| Kurti perkėlimo užsakymą iš numerio lentelių | Tai leidžia sandėlio darbuotojams kurti ir apdoroti perkėlimo užsakymus tiesiai iš sandėlio programos. Sandėlio darbuotojai pirmiausia pasirenka paskirties sandėlį, o tada gali nuskaityti vieną ar daugiau numerio lentelių naudodami programą. Kai sandėlio darbuotojas pasirenka **Užbaigti užsakymą** , paketinė užduotis sukuria reikiamą perkėlimo užsakymą ir užsakymo eilutes pagal turimas atsargas, užregistruotas toms numerio lentelėms. Daugiau informacijos žr. [Perkėlimo užsakymų kūrimas iš sandėlio programos](create-transfer-order-from-warehouse-app.md)
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Meniu elementų konfigūravimas siekiant kurti darbą kitam darbuotojui ar procesui

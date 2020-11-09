@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: e4ee3bf07a1df445875197f38f655464cc9b44d3
-ms.sourcegitcommit: cf709f1421a0bf66ecea493088ecb4eb08004187
+ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
+ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/12/2020
-ms.locfileid: "3443854"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "3997331"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Trikčių šalinimas pradinio sinchronizavimo metu
 
@@ -37,7 +36,7 @@ ms.locfileid: "3443854"
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Patikrinkite, ar nėra pradinio sinchronizavimo klaidų „Finance and Operations” programoje
 
-Įgalinus susiejimo šablonus, schemų būsena turi būti **Vykdoma**. Jei būsena yra **Nevykdoma**, pradinio sinchronizavimo metu įvyko klaidų. Norėdami peržiūrėti klaidas, pasirinkite skirtuką **Pradinio sinchronizavimo informacija** puslapyje **Dvigubas rašymas**.
+Įgalinus susiejimo šablonus, schemų būsena turi būti **Vykdoma**. Jei būsena yra **Nevykdoma** , pradinio sinchronizavimo metu įvyko klaidų. Norėdami peržiūrėti klaidas, pasirinkite skirtuką **Pradinio sinchronizavimo informacija** puslapyje **Dvigubas rašymas**.
 
 ![Pradinio sinchronizavimo informacijos skirtuko klaida](media/initial_sync_status.png)
 
@@ -73,7 +72,7 @@ Jei šį klaida įvyksta nuolat ir negalite užbaigti pradinio sinchronizavimo, 
 
 1. Prisijunkite prie „Finance and Operations” programos virtualiosios mašinos.
 2. Atidarykite „Microsoft“ valdymo konsolę.
-3. Eidami į sritį **Paslaugos**, įsitikinkite, kad veikia „Microsoft Dynamics 365” duomenų importavimo / eksportavimo sistemos paslauga. Jeigu ji buvo sustabdyta, paleiskite ją iš naujo, nes ji yra reikalinga pradiniam sinchronizavimui atlikti.
+3. Eidami į sritį **Paslaugos** , įsitikinkite, kad veikia „Microsoft Dynamics 365” duomenų importavimo / eksportavimo sistemos paslauga. Jeigu ji buvo sustabdyta, paleiskite ją iš naujo, nes ji yra reikalinga pradiniam sinchronizavimui atlikti.
 
 ## <a name="initial-synchronization-error-403-forbidden"></a>Pradinio sinchronizavimo klaida: 403 draudžiama
 
@@ -97,7 +96,7 @@ Jeigu bet kurie iš jūsų susiejimų turi nuorodų į save ar ciklinių nuorod�
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Išspręsti problemas Tiekėjuose V2–to–msdyn_tiekėjai objekto susiejimas
 
-Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Tiekėjai V2** su **msdyn\_tiekėjai**, jei objektai turi egzistuojančius įrašus, kai yra verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** yra nuorodos į save laukas, o **PirminioKontaktinioAsmensId** yra ciklinė nuoroda tiekėjo susiejime.
+Gali atsirasti pradinės sinchronizacijos klaidų susiejant **Tiekėjai V2** su **msdyn\_tiekėjai** , jei objektai turi egzistuojančius įrašus, kai yra verčių **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** yra nuorodos į save laukas, o **PirminioKontaktinioAsmensId** yra ciklinė nuoroda tiekėjo susiejime.
 
 Gauti klaidos pranešimai bus šios formos.
 
@@ -112,8 +111,8 @@ Jei įrašai tiekėjo objekte turi verčių **PirminioKontaktinioAsmensId** ir *
 
 1. „Finance and Operations” programoje panaikinkite **PirminioKontaktinioAsmensId** ir **SąskaitosFaktūrosTiekėjoPaskyrosNumeris** laukus iš susiejimo ir tada jį įrašykite.
 
-    1. Dvigubo rašymo susiejimo puslapyje **Tiekėjai V2 (msdyn\_tiekėjai)**, **Objekto susiejimai** skirtuke, kairiajame filtre pasirinkite **„Finance and Operations” programos.Tiekėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
-    2. Paieškoje įveskite **pirminiskontaktinisasmuo**, kad surastumėte **PirminioKontaktinioAsmensId** šaltinio lauką.
+    1. Dvigubo rašymo susiejimo puslapyje **Tiekėjai V2 (msdyn\_tiekėjai)** , **Objekto susiejimai** skirtuke, kairiajame filtre pasirinkite **„Finance and Operations” programos.Tiekėjai V2**. Dešiniajame filtre pasirinkite **Pardavimai.Tiekėjas**.
+    2. Paieškoje įveskite **pirminiskontaktinisasmuo** , kad surastumėte **PirminioKontaktinioAsmensId** šaltinio lauką.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
         ![PirminioKontaktinioAsmensId lauko naikinimas](media/vend_selfref3.png)
@@ -128,7 +127,7 @@ Jei įrašai tiekėjo objekte turi verčių **PirminioKontaktinioAsmensId** ir *
 
     1. **Duomenų valdymas** darbo srityje pasirinkite **Duomenų objektai** plytelę.
     2. Pasirinkite objektą **Tiekėjai V2**.
-    3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
+    3. Veiksmų srityje pasirinkite **Parinktys** , tada – **Keitimų sekimas**.
 
         ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
 
@@ -144,7 +143,7 @@ Jei įrašai tiekėjo objekte turi verčių **PirminioKontaktinioAsmensId** ir *
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>„Klientai V3 į Paskyras objekto susiejimą” klaidų šalinimas
 
-Galite atsirasti pradinės sinchronizacijos klaidų susiejant **Klientai V3** su **Paskyros**, jei objektuose yra įrašų, kuriuose yra verčių **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosPaskyra** yra nuorodos į save laukas, o **KontaktinioAsmensID** yra ciklinė nuoroda tiekėjo susiejime.
+Galite atsirasti pradinės sinchronizacijos klaidų susiejant **Klientai V3** su **Paskyros** , jei objektuose yra įrašų, kuriuose yra verčių **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukuose. Šios klaidos atsiranda, nes **SąskaitosFaktūrosPaskyra** yra nuorodos į save laukas, o **KontaktinioAsmensID** yra ciklinė nuoroda tiekėjo susiejime.
 
 Gauti klaidos pranešimai bus šios formos.
 
@@ -160,7 +159,7 @@ Jei įrašai kliento objekte turi verčių **KontaktinioAsmensId** ir **Sąskait
 1. „Finance and Operations“ programoje panaikinkite laukus **KontaktinioAsmensID** ir **SąskaitosFaktūrosPaskyra** laukus iš **Klientai V3 (paskyros)** susiejimo ir tada jį įrašykite.
 
     1. Dvigubo rašymo susiejimo puslapyje, skirtame **Klientai V3 (paskyros)** **Objektų susiejimai** skirtuke kairiajame filtre pasirinkite **Finance and Operations programa.Klientai V3**. Dešiniajame filtre pasirinkite **Common Data Service.Paskyra**.
-    2. Paieškoje įveskite **kontaktinisasmuo**, kad surastumėte **KontaktinioAsmensID** šaltinio lauką.
+    2. Paieškoje įveskite **kontaktinisasmuo** , kad surastumėte **KontaktinioAsmensID** šaltinio lauką.
     3. Pasirinkite **Veiksmai** ir pasirinkite **Naikinti**.
 
         ![KonatktinioAsmensId lauko naikinimas](media/cust_selfref3.png)
@@ -175,7 +174,7 @@ Jei įrašai kliento objekte turi verčių **KontaktinioAsmensId** ir **Sąskait
 
     1. **Duomenų valdymas** darbo srityje pasirinkite **Duomenų objektai** plytelę.
     2. Pasirinkite objektą **Klientai V3**.
-    3. Veiksmų srityje pasirinkite **Parinktys**, tada – **Keitimų sekimas**.
+    3. Veiksmų srityje pasirinkite **Parinktys** , tada – **Keitimų sekimas**.
 
         ![Keitimų sekimo parinkties pasirinkimas](media/selfref_options.png)
 
@@ -203,7 +202,7 @@ Jei įrašai kliento objekte turi verčių **KontaktinioAsmensId** ir **Sąskait
 
         > [PASTABA] Jei filtro mygtuko nėra, sukurkite palaikymo kvitą, kad paprašytumėte duomenų integravimo komandos įjungti filtro funkciją jūsų nuomotojui.
 
-        Jei neįvesite filtro užklausos, skirtos **\_msdyn\_įmonės\_vertė**, visi įrašai bus sinchronizuoti.
+        Jei neįvesite filtro užklausos, skirtos **\_msdyn\_įmonės\_vertė** , visi įrašai bus sinchronizuoti.
 
         ![Filtro užklausos pridėjimas](media/cust_selfref7.png)
 

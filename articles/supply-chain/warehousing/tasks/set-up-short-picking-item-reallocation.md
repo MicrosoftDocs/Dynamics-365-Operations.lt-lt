@@ -8,7 +8,7 @@ ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSWorkException, WHSWorker
+ms.search.form: WHSWorkException, WHSWorker, WHSLocationWithWorkException
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e14a4fc72d256bea31296bff80d5b5818b95ea9d
-ms.sourcegitcommit: ce397c2759f642c595e30fef58a770b50360b2bd
+ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
+ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "3527424"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015969"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Prekių perskirstymo nustatymas nevisiško paėmimo atveju
 
@@ -46,7 +46,7 @@ Kuriant šią procedūrą naudota demonstracinių duomenų įmonė yra USMF.
 1. **Naršymo srityje** eikite į **Sandėlio valdymas > Sąranka > Užduotys > Užduočių išimtys**.
 2. Spustelėkite **Naujas** 
 3. Lauke **Užduoties išimties kodas** įveskite reikšmę. Tai bus šios išimties pavadinimas. Pavyzdžiui, Neautomatinis nevisiškas paėmimas.
-4. Lauke **Aprašo laukas**surinkite reikšmę. Tai bus trumpas šios išimties naudojimo aprašas. Pavyzdžiui, „Trumpalaikis išrinkimas“ – prekė yra nepasiekiama.
+4. Lauke **Aprašo laukas** surinkite reikšmę. Tai bus trumpas šios išimties naudojimo aprašas. Pavyzdžiui, „Trumpalaikis išrinkimas“ – prekė yra nepasiekiama.
 5. **Išimties** tipo lauke pasirinkite **Trumpalaikis išrinkimas**.
 6. Pažymėkite žymės langelį **Koreguoti atsargas**. Ši parinktis automatiškai nustatys atsargų lygį į 0 toje vietoje, iš kurios bus vykdomas trumpalaikis išrinkimas.
 7. Lauke **Numatytojo koregavimo tipo kodas** įveskite arba pasirinkite reikšmę. Pavyzdžiui, programoje USMF galite pasirinkti **Pašalinti rezervacijas Adj Out**. Kiekviename koregavimo tipo kode yra keturios charakteristikos: pavadinimas, aprašas, atsargų žurnalo pavadinimas ir **Pašalinti rezervacijas**. Jei funkcija **Pašalinti rezervacijas** yra įjungta, trumpalaikio išrinkimo eilutės rezervacijos bus pašalintos.  
@@ -62,5 +62,5 @@ Kuriant šią procedūrą naudota demonstracinių duomenų įmonė yra USMF.
 4. Pasirinkite darbuotoją iš sąrašo. Pavyzdžiui, Julija Funderburk.
 5. Išplėskite „FastTab“ skirtuką **Vartotojai**.
 6. Pasirinkite **Vartotojo ID** iš sąrašo. Pavyzdžiui, 24.
-7. Išplėskite „FastTab“ skirtuką**Užduotys**.
+7. Išplėskite „FastTab“ skirtuką **Užduotys**.
 8. Lauke **Leisti neautomatinį prekių perskirstymą** pasirinkite **Taip**.

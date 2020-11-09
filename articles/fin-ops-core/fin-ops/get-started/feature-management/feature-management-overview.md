@@ -18,12 +18,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 22e5333859d37ad33f5806d63fc874b1b5a52831
-ms.sourcegitcommit: 165e082e59ab783995c16fd70943584bc3ba3455
+ms.openlocfilehash: 46095e4ec21aac7cbf98dc1265ea7c8de27148ab
+ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967339"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4015048"
 ---
 # <a name="feature-management-overview"></a>Funkcijų valdymo apžvalga
 
@@ -43,7 +43,7 @@ Funkcijų sąraše pateikiama toliau nurodyta informacija.
 - **Funkcija įtraukta** – data, kai funkcija buvo įdėta į jūsų aplinką. Ši data automatiškai įvedama, kai atnaujinate savo aplinką mėnesio išleidimo ciklais.
 - **Modulis** – modulis, kurį paveikė nauja funkcija.
 
-Pasirinkus funkciją, išsamios informacijos srityje rodoma papildoma informacija funkcijų sąrašo dešinėje. Srities viršuje matysite funkcijos pavadinimą, datą, kada funkcija buvo papildyta, modulį, kuris yra paveiktas funkcijos ir saitą **Sužinoti daugiau**. Pasirinkite šį saitą norėdami peržiūrėti funkcijos dokumentaciją. Jei dokumentacija nepasiekiama, būsite nukreipti į laikiną puslapį. Informacijos srityje taip pat yra laukas **Komentarai**, į kurį galite įtraukti savo komentarus apie funkciją.
+Pasirinkus funkciją, išsamios informacijos srityje rodoma papildoma informacija funkcijų sąrašo dešinėje. Srities viršuje matysite funkcijos pavadinimą, datą, kada funkcija buvo papildyta, modulį, kuris yra paveiktas funkcijos ir saitą **Sužinoti daugiau**. Pasirinkite šį saitą norėdami peržiūrėti funkcijos dokumentaciją. Jei dokumentacija nepasiekiama, būsite nukreipti į laikiną puslapį. Informacijos srityje taip pat yra laukas **Komentarai** , į kurį galite įtraukti savo komentarus apie funkciją.
 
 Darbo srityje **Funkcijų valdymas** taip pat yra keli skirtukai ir kiekviename iš jų pateikiamas funkcijų sąrašas.
 
@@ -58,9 +58,9 @@ Jei funkcija neįjungta, informacijos srityje rodomas mygtukas **Įjungti dabar*
 
 - Pasirinkite norimą įjungti funkciją, tada informacijos srityje pasirinkite **Įjungti dabar**. Funkcija įjungta.
 
-Įjungus kai kurias funkcijas, jų išjungti negalima. Jei funkcija, kurią mėginate įjungti, negali būti išjungta, gausite įspėjimą. Šiuo metu galite pasirinkti **Atšaukti**, norėdami atšaukti operaciją ir palikti funkciją išjungtą. Tačiau, jei pasirinksite **Įjungti** ir įjungsite funkciją, negalėsite jos išjungti vėliau.
+Įjungus kai kurias funkcijas, jų išjungti negalima. Jei funkcija, kurią mėginate įjungti, negali būti išjungta, gausite įspėjimą. Šiuo metu galite pasirinkti **Atšaukti** , norėdami atšaukti operaciją ir palikti funkciją išjungtą. Tačiau, jei pasirinksite **Įjungti** ir įjungsite funkciją, negalėsite jos išjungti vėliau.
 
-Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informacija, prieš jas įjungiant. Šios funkcijos nurodomos geltonu įspėjamuoju simboliu. Turėtumėte atidžiai perskaityti papildomą informaciją, kad geriau suprastumėte, kas įvyks, kai funkcija bus įjungta. Tačiau vis tiek galite pasirinkti **Įjungti**, kad įjungtumėte funkciją.
+Kai kurios funkcijos rodys pranešimą, kuriame bus pateikta papildoma informacija, prieš jas įjungiant. Šios funkcijos nurodomos geltonu įspėjamuoju simboliu. Turėtumėte atidžiai perskaityti papildomą informaciją, kad geriau suprastumėte, kas įvyks, kai funkcija bus įjungta. Tačiau vis tiek galite pasirinkti **Įjungti** , kad įjungtumėte funkciją.
 
 Kai kurios funkcijos rodys pranešimą, kad funkcija negali būti įjungta, kol nebus imtasi veiksmų. Šios funkcijos nurodomos raudonu „X“ simboliu. Prieš įgalindami funkciją, turite atlikti apraše aprašytus veiksmus. Pavyzdžiui, jei negalite naudoti funkcijos, kol konfigūracijos raktas nebus išjungtas, pirmiausia turite išjungti konfigūracijos raktą, o tada grįžti į funkcijos valdymą, kad įgalintumėte funkciją.
 
@@ -74,7 +74,7 @@ Jei funkcija suplanuota įjungti ateityje, informacijos srityje atsiranda mygtuk
 
 1. Pasirinkite suplanuotą funkciją, kurią norite perplanuoti, tada informacijos srityje pasirinkite **Planuoti**.
 2. Pasirodžiusio dialogo lango lauke **Įjungimo data** nurodykite naują funkcijos įjungimo datą.
-3. Pasirinkite **Įgalinti**, jei norite perplanuoti priemonę **Išjungti**, kad atšauktumėte planą.
+3. Pasirinkite **Įgalinti** , jei norite perplanuoti priemonę **Išjungti** , kad atšauktumėte planą.
 
 ## <a name="turn-off-a-feature"></a>Funkcijos išjungimas
 
@@ -92,8 +92,8 @@ Kartais įtraukiama svarbi funkcija, kurią būtina įjungti automatiškai, kai 
 
 Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Galite įjungti visas funkcijas pažymėdami mygtuką **Įjungti viską**. 
 
-Kai pasirenkate **„Įjungti viską“**, parinktis pasirodys ten, kur jums reikia pateikti šią informaciją:
-- Visų funkcijų, kurias reikia patvirtinti prieš jas įjungiant, sąrašas. Jei norite įjungti sąraše esančias funkcijas, pasirinkite parinktį **Taip**, skirtą mygtukui **Įjungti funkcijas, reikalaujančias patvirtinimo**.
+Kai pasirenkate **„Įjungti viską“** , parinktis pasirodys ten, kur jums reikia pateikti šią informaciją:
+- Visų funkcijų, kurias reikia patvirtinti prieš jas įjungiant, sąrašas. Jei norite įjungti sąraše esančias funkcijas, pasirinkite parinktį **Taip** , skirtą mygtukui **Įjungti funkcijas, reikalaujančias patvirtinimo**.
 - Pasirodys visų funkcijų, kurių negalima įjungti, sąrašas. Šios funkcijos nebus įjungtos.
 
 Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukciją įjungti ateityje, grafikas nepasikeis. 
@@ -102,8 +102,8 @@ Visos funkcijos, kurias galima įjungti, bus įjungtos. Jei jau planuojama fukci
 
 Pagal numatytuosius nustatymus visos į jūsų aplinką įtrauktos funkcijos yra išjungtos, nebent jos yra privalomos funkcijos. Tačiau, jei norite automatiškai įjungti visas naujas funkcijas, galite naudoti išplečiamąjį sąrašą, esantį darbo srities pavadinime, kad pakeistumėte tai, kas atsitinka, kai įtraukiamos naujos funkcijos.
 
-- Pasirinkite **Įjungti naujas funkcijas automatiškai**, kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
-- Pasirinkite **Neįjungti naujų funkcijų automatiškai**, kad pagal numatytuosius parametrus visos naujos į jūsų aplinką įtraukiamos funkcijos būtų išjungtos.
+- Pasirinkite **Įjungti naujas funkcijas automatiškai** , kad automatiškai įjungtumėte visas naujas į jūsų aplinką įtraukiamas funkcijas.
+- Pasirinkite **Neįjungti naujų funkcijų automatiškai** , kad pagal numatytuosius parametrus visos naujos į jūsų aplinką įtraukiamos funkcijos būtų išjungtos.
 
 
 Kai įjungiate visas funkcijas automatiškai, tai įgalins visas funkcijas, kurios būtų įjungtos spustelėjus mygtuką **Įjungti viską**. Tai neįjungs funkcijų, kurioms reikia patvirtinimo arba kurių negalima įjungti, kol nebus imtasi veiksmų.
@@ -130,12 +130,12 @@ Duomenų objektas pavadinimu **Funkcijų valdymas** suteikia galimybę eksportuo
 
 Toliau pateikiami pavyzdžiai apibūdina, kas atsitinka, kai duomenis importuojami naudojant objektą **Funkcijų valdymas**.
 
-- Jei lauko **Įjungta** vertę pakeisite į **Taip**, ši funkcija bus įjungta, o lauke **Įjungimo data** bus nustatyta esama data.
+- Jei lauko **Įjungta** vertę pakeisite į **Taip** , ši funkcija bus įjungta, o lauke **Įjungimo data** bus nustatyta esama data.
 - Jei lauko **Įjungta** vertę pakeisite į **Ne** paliksite lauką **Įjungimo data** tuščią, funkcija bus išjungta, o laukas **Įjungimo data** – išvalytas. Negalite išjungti privalomos funkcijos arba funkcijos, kurios negalima išjungti ją įjungus.
 - Jei lauko **Įjungimo data** vertę pakeisite į būsimą datą, funkcija bus suplanuota įjungti tą dieną.
-- Jei lauko **Įjungta** vertę pakeisite į **Taip**, o lauko **Įjungimo data** vertę pakeisite į būsimą datą, ši funkcija bus įjungti tą dieną. 
-- Jei lauko **Įjungta** vertę pakeisite į **Ne**, o lauko **Įjungimo data** vertę pakeisite į būsimą datą, ši funkcija bus įjungti tą dieną.
-- Jei funkcija įjungta, o jūs įtraukiate lauką **Įjungimo data**, kuris nustatytas į būsimą datą, funkcija lieka įjungta. Norėdami perplanuoti funkciją, turite pakeisti lauko **Įjungta** vertę į **Ne**.
+- Jei lauko **Įjungta** vertę pakeisite į **Taip** , o lauko **Įjungimo data** vertę pakeisite į būsimą datą, ši funkcija bus įjungti tą dieną. 
+- Jei lauko **Įjungta** vertę pakeisite į **Ne** , o lauko **Įjungimo data** vertę pakeisite į būsimą datą, ši funkcija bus įjungti tą dieną.
+- Jei funkcija įjungta, o jūs įtraukiate lauką **Įjungimo data** , kuris nustatytas į būsimą datą, funkcija lieka įjungta. Norėdami perplanuoti funkciją, turite pakeisti lauko **Įjungta** vertę į **Ne**.
 
 ## <a name="feature-management-and-flighting"></a>Funkcijų valdymas ir versijos
 
@@ -181,9 +181,11 @@ Testuojamos funkcijos yra „Microsoft” valdomi realiojo laiko įjungimo/išju
 Taip, jei funkcija veikia aplinkos funkcionalumą, jei ji nedaro įtakos, ji gali būti įjungta pagal numatytuosius nustatymus.
 
 ### <a name="how-can-feature-enablement-be-checked-in-code"></a>Kaip galima patikrinti, ar funkcija yra įjungta, naudojant kodą?
-Naudokite metodą **isFeatureEnabled**, priklausantį klasei **FeatureStateProvider**, ir perduokite funkcijos klasės egzempliorių. Pavyzdys: 
+Naudokite metodą **isFeatureEnabled** , priklausantį klasei **FeatureStateProvider** , ir perduokite funkcijos klasės egzempliorių. Pavyzdys: 
 
-    if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```xpp
+if (FeatureStateProvider::isFeatureEnabled(BatchContentionPreventionFeature::instance()))
+```
 
 ### <a name="how-can-feature-enablement-be-checked-in-metadata"></a>Kaip galima patikrinti, ar funkcija yra įjungta, naudojant metaduomenis?
 Nustatyti, kad kai kurie metaduomenis yra susiję su funkcija, galima naudojant ypatybę **FeatureClass**. Turi būti naudojamas klasės pavadinimas, kuris yra naudojamas funkcijai, pvz., **BatchContentionPreventionFeature**. Šie metaduomenys matomi tik toje funkcijoje. Ypatybę **FeatureClass** gali turėti meniu, meniu elementai, sąrašo reikšmės ir lentelės / peržiūros laukai.
@@ -191,9 +193,11 @@ Nustatyti, kad kai kurie metaduomenis yra susiję su funkcija, galima naudojant 
 ### <a name="what-is-a-feature-class"></a>Kas yra funkcijos klasė?
 Funkcijų valdymo funkcijos apibrėžiamos kaip *funkcijų klasės*. Funkcijų klasė realizuoja **IFeatureMetadata** ir naudoja funkcijų klasės atributą, kad galėtų identifikuoti save funkcijų valdymo darbo srityje. Yra daug galimų funkcijų klasių pavyzdžių, kurių įjungimą kode galima patikrinti naudojant ypatybę **FeatureStateProvider** API, o metaduomenyse – naudojant ypatybę **FeatureClass**. Pavyzdys: 
 
-    [ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
-    internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
-    
+```xpp
+[ExportAttribute(identifierStr(Microsoft.Dynamics.ApplicationPlatform.FeatureExposure.IFeatureMetadata))]
+internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMetadata
+```
+
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Kas yra IFeatureLifecycle, realizuotas kai kurių funkcijų klasių?
 IFeatureLifecycle yra „Microsoft“ vidinis mechanizmas, skirtas nurodyti funkcijos ciklo etapą. Funkcijos gali būti:
 - PrivatePreview – reikia, aktyvinti, kad būtų matoma.

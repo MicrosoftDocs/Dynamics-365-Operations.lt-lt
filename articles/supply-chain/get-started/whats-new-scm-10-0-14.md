@@ -1,5 +1,5 @@
 ---
-title: „Dynamics 365 Supply Chain Management” 10.0.14 versijos funkcijų peržiūra (2020 m. spalio mėn.)
+title: Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.14 versijoje (2020 m. spalio mėn.)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.14 versijos funkcijos.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 22d0dfb44bb999f466eca216e7390488fef33618
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.openlocfilehash: 584ea00c64df5e31d47e40aa32d7b266ff842de6
+ms.sourcegitcommit: de159549da9ff8cbcdb69ae0e3131cd1726bc323
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763578"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "4038114"
 ---
-# <a name="preview-features-in-dynamics-365-supply-chain-management-10014-november-2020"></a>„Dynamics 365 Supply Chain Management” 10.0.14 funkcijų peržiūra (2020 m. lapkričio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Supply Chain Management“ 10.0.14 (2020 m. lapkritis)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ apžvalgos 10.0.14 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.605 ir jis pasiekiamas tokius būdu:
+Šioje temoje pateikiamos naujos ir pakeistos „Microsoft Dynamics 365 Supply Chain Management“ 10.0.14 versijos funkcijos. Šios versijos komponavimo numeris yra 10.0.605 ir jis pasiekiamas tokius būdu:
 
 - **Peržiūros leidimas:** 2020 m. rugsėjo mėn.
 - **Bendras pasiekiamumas (automatinis naujinimas):** 2020 m. spalio mėn.

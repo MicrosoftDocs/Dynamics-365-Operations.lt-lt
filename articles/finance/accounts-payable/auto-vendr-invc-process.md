@@ -3,7 +3,7 @@ title: Automatizuotų tiekėjo SF išrašymo procesų apžvalga
 description: Šioje temoje aprašoma jūsų tiekėjo SF apdorojimo automatizavimo funkcija ir automatizuoto proceso naudojimo privalumai.
 author: abruer
 manager: AnnBe
-ms.date: 08/30/2020
+ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 187b3c4f1a8b2c9ec6df95c19b261756ec4562dc
-ms.sourcegitcommit: 6ffbae02de2eee1f3be9bab2da37a3771aae8bec
+ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
+ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/30/2020
-ms.locfileid: "3905025"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4022501"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Automatizuotų tiekėjo SF išrašymo procesų apžvalga
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Šioje temoje aprašoma jūsų tiekėjo SF apdorojimo automatizavimo funkcija ir automatizuoto proceso naudojimo privalumai. Šią funkciją sudaro funkcijos, įjungtos funkcijų valdyme. Šios funkcijos taikomos tik tiekėjo SF, o ne SF, kurios apdorojamos naudojant puslapius **SF žurnalas** arba **SF registro žurnalas**.
 
@@ -47,7 +46,7 @@ Automatizavimo procesai gali būti naudojami norint atlikti toliau nurodytas už
 
 Bekontakčio modulio Mokėtinos sumos SF išrašymo proceso metu sistema gali automatiškai pateikti importuotą SF darbo eigos sistemai. Procesas bus vykdomas fone tokiu dažnumu, kokį nurodysite (kas valandą ar kas dieną). Norint automatiškai pateikti importuotas SF darbo eigos sistemai, reikia, kad jūsų procesas prasidėtų importuota SF. Norint užtikrinti, kad SF gali būti apdorota nuo pradžios iki pabaigos be rankinio įsikišimo, automatizuotos registravimo užduotys turi būti įtrauktos į darbo eigos konfigūraciją.
 
-SF, susijusios su pirkimo užsakymais (PU), ir SF, kuriose yra ne PU įsigijimo kategorija ir nekaupiamų prekių eilučių, gali būti automatiškai pateiktos darbo eigos sistemai. SF, kurios yra įvedamos neautomatiniu būdu, ir SF, sukurtos naudojant darbo sritį **Tiekėjo bendradarbiavimo SF išrašymas**, turi būti pateiktos neautomatiniu būdu darbo eigos sistemai.
+SF, susijusios su pirkimo užsakymais (PU), ir SF, kuriose yra ne PU įsigijimo kategorija ir nekaupiamų prekių eilučių, gali būti automatiškai pateiktos darbo eigos sistemai. SF, kurios yra įvedamos neautomatiniu būdu, ir SF, sukurtos naudojant darbo sritį **Tiekėjo bendradarbiavimo SF išrašymas** , turi būti pateiktos neautomatiniu būdu darbo eigos sistemai.
 
 Automatizavimo funkcija suteikia lanksčią sistemą, leidžiančią nustatyti įmonei būdingas taikomas taisykles, skirtas pateikti importuotas tiekėjo SF darbo eigos sistemai ir gretinti produktų gavimo kvitų eilutes su patvirtinimo laukiančiomis tiekėjo SF eilutėmis.
 

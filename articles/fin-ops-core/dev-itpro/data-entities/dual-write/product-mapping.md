@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: ed8f0351d1e16cceb6c9749f434a8980ef2be29d
-ms.sourcegitcommit: 025561f6a21fe8705493daa290f3f6bfb9f1b962
+ms.openlocfilehash: 3c564d580d2743d8a80cdf5667b1f95e00736d60
+ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "3835859"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "4000769"
 ---
 # <a name="unified-product-experience"></a>Bendrosios produkto funkcijos
 
 [!include [banner](../../includes/banner.md)]
-
-
 
 Kai verslo ekosistema sudaryta iš „Dynamics 365“ programų, pvz., „Finance“, „Supply Chain Management“ ir „Sales“, natūralu, įmonės šias programas dažnai naudoja kaip produktų duomenų šaltinį. Taip yra todėl, kad šios programos sudaro patikimą produktų infrastruktūrą, papildytą sudėtingomis kainodaros koncepcijomis ir tiksliais turimų atsargų duomenimis. Įmonės, kurios produkto duomenims gauti naudoja Produkto ciklo tapatybės valdymo sistemą, gali nukreipti produktus iš programų „Finance and Operations“ į kitas „Dynamics 365“ programas. Bendroji produkto funkcija leidžia integruoti produktų duomenų modelį į „Common Data Service“, kad visi programų vartotojai, įskaitant „Power Platform“ vartotojus, galėtų naudotis išsamiais produktų, gaunamų iš „Finance and Operations“ programų, duomenimis.
 
@@ -81,7 +78,7 @@ Produktų kategorijos priskyrimai | msdyn_productcategoryassignments | Norint pr
 
 ## <a name="integration-of-products"></a>Produktų integravimas
 
-Šiame modelyje produktą atitinka dviejų objektų kombinacija „Common Data Service“: **Produktas** ir **msdyn\_sharedproductdetails**, kombinacija. Pirmasis objektas apima produkto apibrėžtį (unikalų produkto identifikatorių, produkto pavadinimą ir aprašą), o antrasis objektas apima laukus, saugomus produkto lygyje. Šių dviejų objektų kombinacija naudojama produktui apibrėžti pagal sandėliavimo vieneto (SKU) koncepciją. Kiekvieno išleisto produkto informacija bus įrašyta minėtuose objektuose (produkto ir bendrai naudojamo produkto informacija). Visiems produktams (išleistiems ir neišleistiems) sekti naudojamas objektas **Visuotiniai produktai**. 
+Šiame modelyje produktą atitinka dviejų objektų kombinacija „Common Data Service“: **Produktas** ir **msdyn\_sharedproductdetails** , kombinacija. Pirmasis objektas apima produkto apibrėžtį (unikalų produkto identifikatorių, produkto pavadinimą ir aprašą), o antrasis objektas apima laukus, saugomus produkto lygyje. Šių dviejų objektų kombinacija naudojama produktui apibrėžti pagal sandėliavimo vieneto (SKU) koncepciją. Kiekvieno išleisto produkto informacija bus įrašyta minėtuose objektuose (produkto ir bendrai naudojamo produkto informacija). Visiems produktams (išleistiems ir neišleistiems) sekti naudojamas objektas **Visuotiniai produktai**. 
 
 Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir produkto variantų koncepcijas „Common Data Service“ galima gauti tokiu būdu:
 
@@ -93,7 +90,7 @@ Kadangi produktą atitinka SKU, išskirtųjų produktų, bendrųjų produktų ir
 
 Įgalinus dvigubo rašymo funkciją, „Finance and Operations“ programos bus sinchronizuojamos kituose „Dynamics 365“ produktuose, būsenoje **Juodraštis**. Jie pridedami prie pirmo kainoraščio su ta pačia valiuta. Kitaip tariant, jie pridedami prie pirmojo „Dynamics 365“ programos kainoraščio, atitinkančio jūsų juridinio subjekto, kuriame produktas išleidžiamas programoje „Finance and Operations“, valiutą. 
 
-Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus**, kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**. 
+Pagal numatytuosius nustatymus produktai, esantys programoje „Finance and Operations“, sinchronizuojami kitose „Dynamics 365“ programose, būsenoje **Juodraštis**. Norint sinchronizuoti produktą, jam esant būsenos **Aktyvus** , kad jį, pavyzdžiui, galėtumėte tiesiogiai naudoti pardavimo užsakymų pasiūlymuose, reikia pasirinkti šį parametrą: skirtuke **Sistema > Administravimas > Sistemos administravimas > Sistemos parametrai > Pardavimas** pasirinkite **Kurti aktyvios būsenos produktus = taip**. 
 
 Atminkite, kad produktai sinchronizuojami iš programų „Finance and Operations“ į „Common Data Service“. Tai reiškia, kad produkto objekto laukų vertes galima pakeisti „Common Data Service“, tačiau suaktyvinus sinchronizavimą (kai produkto laukas modifikuojamas programoje „Finance and Operations“), bus perrašytos „Common Data Service“ esančios vertės. 
 
@@ -109,7 +106,7 @@ Atminkite, kad produktai sinchronizuojami iš programų „Finance and Operation
 
 Produkto dimensijos – tai charakteristikos, identifikuojančios produkto variantą. Keturios produkto dimensijos (spalva, dydis, stilius ir konfigūracija) taip pat yra susietos su „Common Data Service“ ir apibrėžia produkto variantus. Toliau pateiktame paveikslėlyje parodytas produkto spalvos dimensijos duomenų modelis. Tas pats modelis taikomas dydžiams, stiliams ir konfigūracijoms. 
 
-![Produktų duomenų modelis](media/dual-write-product-two.png)
+![Produkto dimensijų duomenų modelis](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -145,7 +142,7 @@ Numatytuose užsakymo parametruose nurodyta vieta ir sandėlys, iš kurių bus p
 
 Matavimo vienetai ir atitinkamas konvertavimas tarnyboje „Common Data Service“ pasiekiami pagal diagramoje pavaizduotą duomenų modelį.
 
-![Produktų duomenų modelis](media/dual-write-product-three.png)
+![Matavimo vieneto duomenų modelis](media/dual-write-product-three.png)
 
 Matavimo vieneto koncepcija yra integruota tarp programų „Finance and Operations“ ir kitų „Dynamics 365“ programų. Kiekvienai programos „Finance and Operations“ vienetų klasei „Dynamics 365“ programoje sukuriama vienetų grupė, kurioje yra vienetų klasei priklausantys vienetai. Kiekvienai vieneto grupei taip pat sukuriamas numatytasis pradinis vienetas. 
 
@@ -203,9 +200,9 @@ Produktų strategijos yra strategijų rinkiniai, naudojami produktams apibrėžt
 
 Siekiant unikaliai identifikuoti „Dynamics 365 for Finance and Operations“ ir „Common Data Service“ produktus, naudojami integravimo raktai. Tarnyboje „Common Data Service“ produktas identifikuojamas unikaliu raktu **(productnumber)**. Jį sudaro jungtinis elementas **(company, msdyn_productnumber)**. **Įmonė** nurodo juridinį subjektą, esantį „Finance and Operations“, ir **„msdyn_productnumber“** nurodo konkretaus produkto „Finance and Operations“ produkto numerį. 
 
-Kitų „Dynamics 365“ programų vartotojams produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad lauko žyma yra **Produkto numeris**). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau laukas (productnumber) – unikalus produkto raktas – nerodomas. 
+Kitų „Dynamics 365“ programų vartotojams produktas vartotojo sąsajoje identifikuojamas kaip **msdyn_productnumber** (atkreipkite dėmesį, kad lauko žyma yra **Produkto numeris** ). Produkto formoje rodoma ir company, ir msydn_productnumber. Tačiau laukas (productnumber) – unikalus produkto raktas – nerodomas. 
 
-Jei kuriate programas, naudodami „Common Data Service“, turėtumėte atkreipti dėmesį į **productnumber** (unikalaus produkto ID) naudojimą kaip integravimo kodą. Nenaudokite **msdyn_productnumber**, nes jis nėra unikalus. 
+Jei kuriate programas, naudodami „Common Data Service“, turėtumėte atkreipti dėmesį į **productnumber** (unikalaus produkto ID) naudojimą kaip integravimo kodą. Nenaudokite **msdyn_productnumber** , nes jis nėra unikalus. 
 
 ## <a name="initial-synchronization-of-products-and-migration-of-data-from-common-data-service-to-finance-and-operations"></a>Pradinis produktų ir duomenų perkėlimo iš „Common Data Service“ į „Finance and Operations“ sinchronizavimas
 
@@ -223,4 +220,4 @@ Kai vyksta sinchronizacija, „Finance and Operations“ produktai sinchronizuoj
 
 ### <a name="migration-of-product-data-from-other-dynamics-365-apps-to-finance-and-operations"></a>Produktų duomenų perkėlimas iš kitų „Dynamics 365“ programų į „Finance and Operations.“
 
-Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity**, importuodamas tuos produktus į „Finance and Operations“. Taip pat suderinkite „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta aukščiau. 
+Jei kitose „Dynamics 365“ programose yra produktų, kurių nėra „Finance and Operations“, administratorius pirmiausia gali naudoti **EcoResReleasedProductCreationV2Entity** , importuodamas tuos produktus į „Finance and Operations“. Taip pat suderinkite „Finance and Operations“ ir kitų „Dynamics 365“ programų produktų duomenis, kaip aprašyta aukščiau. 
