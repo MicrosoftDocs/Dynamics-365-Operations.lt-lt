@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
+ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal, PurchLine, AgreementLines
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 253177103435c765bfe45daffeae0c436617af21
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
+ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3803168"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4018841"
 ---
 # <a name="purchase-agreements"></a>Pirkimo sutartys
 
@@ -52,10 +52,10 @@ Galite nurodyti pirminį atsakingą darbininką ir antrinį atsakingą darbinink
 ## <a name="commitment-types"></a>Įsipareigojimo tipai
 Kiekviena pirkimo sutarties eilutė įpareigoja ką nors pirkti. Galite naudoti kelių pirkimo užsakymų (PU) eilutes, norėdami įvykdyti įsipareigojimą. Yra keturi įsipareigojimų tipai:
 
--   **Produkto kiekio įsipareigojimas**– įsigyjate konkretų produkto kiekį.
--   **Produkto vertės įsipareigojimas**– įsigyjate konkrečią produkto valiutos sumą.
--   **Produktų kategorijos vertės įsipareigojimas**– įsigyjate konkrečią valiutos sumą įsigijimo kategorijoje. Suma gali būti katalogo prekių arba prekių ne iš katalogo.
--   **Vertės įsipareigojimas**– įsigyjate konkrečią bet kurio produkto ar produktų bet kurioje įsigijimo kategorijoje valiutos sumą.
+-   **Produkto kiekio įsipareigojimas** – įsigyjate konkretų produkto kiekį.
+-   **Produkto vertės įsipareigojimas** – įsigyjate konkrečią produkto valiutos sumą.
+-   **Produktų kategorijos vertės įsipareigojimas** – įsigyjate konkrečią valiutos sumą įsigijimo kategorijoje. Suma gali būti katalogo prekių arba prekių ne iš katalogo.
+-   **Vertės įsipareigojimas** – įsigyjate konkrečią bet kurio produkto ar produktų bet kurioje įsigijimo kategorijoje valiutos sumą.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Pirkimo sutarčių kainodaros sąlygos
 Kainodaros sąlygos gali skirtis, atsižvelgiant į įsipareigojimo tipą. Pirkimo sutarčių kainodaros sąlygos turi pirmenybę prieš bet kurias kitas kainodaros sąlygas, nustatytas prekybos sutartyse. Toliau pateikiamoje lentelėje aprašomi kainos laukai, kuriuos paveikia kiekvienas įsipareigojimo tipas. Laukuose, kuriuose yra **Taip** užsakymo eilutę galima atnaujinti.
@@ -70,7 +70,7 @@ Kainodaros sąlygos gali skirtis, atsižvelgiant į įsipareigojimo tipą. Pirki
 ## <a name="policies-for-purchase-agreements"></a>Pirkimo sutarčių strategijos
 Toliau nurodytos strategijos turi įtakos tam, kaip veikia ryšys tarp įsipareigojimo pirkimo sutartimi ir atitinkamos PU eilutės.
 
--   **Maksimaliai vykdoma**– bendras kiekis arba visų užsakymo eilučių suma negali viršyti susijusiame įsipareigojime nurodyto kiekio arba sumos.
+-   **Maksimaliai vykdoma** – bendras kiekis arba visų užsakymo eilučių suma negali viršyti susijusiame įsipareigojime nurodyto kiekio arba sumos.
 -   **Kaina ir nuolaida fiksuotos** – užsakymo eilutės kaina ir susijusio įsipareigojimo kaina turi būti tokia pati. Jei kaina užsakymo eilutėje pakeičiama, nutraukiama sąsaja su įsipareigojimu. Jei sąsaja su įsipareigojimu nutraukiama, užsakymo eilutė nebepridedama prie įsipareigojimo vykdymo.
 -   **Minimali išduodama suma ir Maksimali išduodama suma** – jei suma nurodyta, gaunate pranešimą apie tai, ar galite atlikti kokius pokyčius užsakymo eilutėje, kuriuos atlikus užsakymo eilutė skirtųsi nuo susijusio įsipareigojimo.
 
@@ -93,7 +93,7 @@ Pasirinkti pirkimo sutartį galite tik tada, kai kuriate PU. Kai PU sukurtas, pi
 Kai kuriose situacijose, kuriose PU kuriami netiesiogiai, galite valdyti, ar Tiekimo grandinės valdymas turi automatiškai ieškoti taikytinų pirkimo sutarčių. Pavyzdžiui, galite tai atlikti automatiškai patvirtindami suplanuotus PU arba kurdami PU pagal pirkimo užsakymus.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Pirkimo sutarčių atitikimo strategija
-Galite apibrėžti eilutės atitikimo strategiją pirkimo sutarties antraštėje. Ši eilutės atitikimo strategija atsižvelgs į mokėtinų sumų parametrų eilutės atitikimo strategiją, kai lauke **Leisti perrašyti atitikimo strategiją** puslapyje **Mokėtinų sumų parametrai** („FastTab“ **Kainos ir kiekio atitikimas**) nustatyta **Aukštesniame nei įmonės strategija lygyje**. Dokumentuose, kuriuose nurodoma pirkimo sutartis, bus naudojama eilutės atitikimo strategija, kuri apibrėžta pirkimo sutarties antraštėje, išskyrus atvejus, kai ji kitaip apibrėžta atitinkamos prekės, prekės ir tiekėjo ar kategorijos pirkimo strategijoje.
+Galite apibrėžti eilutės atitikimo strategiją pirkimo sutarties antraštėje. Ši eilutės atitikimo strategija atsižvelgs į mokėtinų sumų parametrų eilutės atitikimo strategiją, kai lauke **Leisti perrašyti atitikimo strategiją** puslapyje **Mokėtinų sumų parametrai** („FastTab“ **Kainos ir kiekio atitikimas** ) nustatyta **Aukštesniame nei įmonės strategija lygyje**. Dokumentuose, kuriuose nurodoma pirkimo sutartis, bus naudojama eilutės atitikimo strategija, kuri apibrėžta pirkimo sutarties antraštėje, išskyrus atvejus, kai ji kitaip apibrėžta atitinkamos prekės, prekės ir tiekėjo ar kategorijos pirkimo strategijoje.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Pirkimo sutartys ir vidinės įmonės prekyba
 Vidinės įmonės prekybiniai ryšiai gali būti sukurti tarp tiekėjo ir kliento sąskaitų, esančių skirtinguose juridiniuose subjektuose. Kai sukuriamas vienos iš šalių pardavimo užsakymas arba PU, sukuriama vidinės kompanijos užsakymų grandinė. Užsakymų grandinėje pardavimo užsakymas ir PU yra sukuriami atitinkamuose teisiniuose subjektuose.  

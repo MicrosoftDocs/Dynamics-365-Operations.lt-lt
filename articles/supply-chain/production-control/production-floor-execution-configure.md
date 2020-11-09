@@ -1,0 +1,90 @@
+---
+title: Gamybos cecho vykdymo sąsajos konfigūravimas
+description: Šioje temoje aprašoma, kaip sukurti vieną ar daugiau gamybos cecho vykdymo sąsajos konfigūracijų. Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą konfigūraciją ir užduoties filtrą, būdingus naršyklei ir įrenginiui. Konfigūracijoje nustatote strategijas, kurios turi būti taikomos konkrečiam naudojimui.
+author: johanhoffmann
+manager: tfehr
+ms.date: 10/05/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: johanho
+ms.search.validFrom: 2020-10-05
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: cf58a7d851577854d08bad70cff69794c3841a2d
+ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 10/15/2020
+ms.locfileid: "4012495"
+---
+# <a name="configure-the-production-floor-execution-interface"></a>Gamybos cecho vykdymo sąsajos konfigūravimas
+
+[!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
+Cecho darbuotojai naudoja gamybos cecho vykdymo sąsają savo kasdieniams darbams registruoti, pvz., užduočių pradžios laikui fiksuoti, atsiliepimams apie užduotis pateikti, netiesioginėms veikloms registruoti ir pranešti apie neatvykimą į darbą. Šios registracijos yra itin svarbios stebint eigą bei išlaidas gamybos užsakymams ir darbuotojų atlyginimo dydžio skaičiavimo pagrindas.
+
+Atidarius gamybos cecho vykdymo sąsają, ji automatiškai įkelia pasirinktą konfigūraciją ir užduoties filtrą, būdingus naršyklei ir įrenginiui. Konfigūracijoje nustatote strategijas, kurios turi būti taikomos konkrečiam naudojimui. Štai keletas panaudojimo pavyzdžių.
+
+- Naudodami įmonės salėje esantį įrenginį darbuotojai registruojasi atėję į biurą ir išeidami iš jo.
+- Naudodami ceche esantį įrenginį mašinų operatoriai registruojasi pradedami ir užbaigdami užduotis. Jie taip pat registruoja pertraukas ir netiesioginę veiklą.
+
+Šioje temoje aprašomos įvairios užduoties kortelės įrenginių konfigūravimo parinktys.
+
+## <a name="turn-on-new-features-in-feature-management"></a>Naujų funkcijų įjungimas funkcijų valdyme
+
+Norėdami naudoti kai kuriuos šioje temoje aprašytus parametrus, juos turite įjungti jūsų sistemoje. Naudokite puslapį [Funkcijų valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md), norėdami įjungti bet kurias arba visas toliau išvardytas funkcijas.
+
+### <a name="generate-license-plate"></a>Generuoti numerio lentelę
+
+Tam, kad šioje temoje aprašyta funkcija būtų prieinama jūsų sistemoje, įjunkite tolesnes funkcijas [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)(tokia tvarka):
+
+1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
+1. Įgalinkite automatinį numerio lentelės numerio generavimą, kai Užduoties kortelės įrenginyje pranešama apie pabaigimą
+
+### <a name="print-label"></a>Spausdinti žymą
+
+Tam, kad šioje temoje aprašyta funkcija būtų prieinama jūsų sistemoje, įjunkite tolesnes funkcijas [Funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)(tokia tvarka):
+
+1. Užbaigtos ataskaitos numerio lentelė įtraukta į užduoties kortelės įrenginį
+1. Spausdinti etiketę iš užduoties kortelės įrenginio
+
+### <a name="allow-locking-the-touch-screen"></a>Leisti užrakinti jutiklinį ekraną
+
+Norėdami naudoti šią funkciją, įjunkite toliau nurodytą funkciją [funkcijų valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+- (Peržiūra) Funkcija, skirta užrakinti užduoties kortelės įrenginį ir užduoties kortelės terminalą, kad juos būtų galima dezinfekuoti
+
+## <a name="work-with-production-floor-execution-configurations"></a>Darbas su gamybos cecho vykdymo konfigūracijomis
+
+Norėdami kurti ir tvarkyti įrenginio konfigūracijas, eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**. Puslapyje **Gamybos cecho vykdymo konfigūravimas** rodomas esamų konfigūracijų sąrašas. Šiame puslapyje galite atlikti toliau pateiktus veiksmus.
+
+- Pasirinkite bet kurią gamybos cecho konfigūraciją, nurodytą kairiajame stulpelyje, ir ją peržiūrėkite bei redaguokite.
+- Norėdami į sąrašą įtraukti naują įrenginio konfigūraciją, veiksmų srityje pasirinkite **Nauja**. Tada įveskite pavadinimą lauke **Konfigūracija** , kad identifikuotumėte naują konfigūraciją. Jūsų įvestas pavadinimas negali sutapti su bet kokios kitos įrenginio konfigūracijos pavadinimu ir vėliau jo redaguoti negalėsite.
+
+Tada konfigūruokite įvairius pasirinktos įrenginio konfigūracijos parametrus. Galimi šie laukai:
+
+- **Teikti kiekio ataskaitą išeinant iš darbo** – nustatykite šią parinktį į *Taip* , kad darbuotojai būtų paraginti pateikti atsiliepimų apie vykdomas užduotis prieš išeidami iš darbo. Kai parinktis nustatyta į *Ne* , darbuotojai nebus raginami.
+- **Užrakinti darbuotoją** – kai ši parinktis nustatyta į *Ne* , darbuotojai bus atjungiami iš karto jiems pateikus registraciją (pvz., naujos užduoties). Tada įrenginys pereis prie prisijungimo puslapio. Kai ši parinktis nustatyta į *Taip* , darbuotojai liks prisijungę prie užduoties kortelės įrenginio. Tačiau darbuotojas gali atsijungti rankiniu būdu, kad kitas darbuotojas galėtų prisijungti, jei užduoties kortelės įrenginys vykdomas naudojant tą pačią sistemos vartotojo paskyrą. Daugiau informacijos apie šių tipų paskyras žr. [Priskirti vartotojai](config-job-card-device.md#assigned-users).
+- **Naudoti faktinį registravimo laiką** – nustatykite šią parinktį į *Taip* , norėdami nustatyti kiekvienos naujos registracijos laiką į laiką, kada darbuotojas pateikė registraciją. Jei ši parinktis nustatyta į *Ne* , naudojamas prisijungimo laikas. Paprastai norėsite nustatyti šią parinktį į *Taip* , jei nustatėte parinktis **Užrakinti darbuotoją** ir (arba) **Vienas darbuotojas** į *Taip* ir jei darbuotojai dažnai būna prisijungę ilgesnį laikotarpį.
+- **Vienas darbuotojas** – nustatykite šią pasirinktį į *Taip* , jei tik vienas darbuotojas naudoja kiekvieną užduoties kortelės įrenginį, kuriame ši konfigūracija yra aktyvi. Nustačius šią parinktį į *Taip* , parinktis **Užrakinti darbuotoją** automatiškai nustatoma į *Taip*. Be to, pasirinkus šį parametrą pašalinamas darbuotojo reikalavimas (ir galimybė) prisijungti naudojant ženklo ID (arba kitą panašų ID). Vietoje to, darbuotojas prisijungia prie „Microsoft Dynamics 365 Supply Chain Management“ naudodamas sistemos vartotojo paskyrą, kuri susieta su *registruojamo laiko darbuotoju* (iš *darbuotojų* lentelės), ir tuo pačiu metu prijungiamas prie užduoties kortelės įrenginio kaip tas darbuotojas.
+- **Leisti užrakinti jutiklinį ekraną** – nustatykite šią pasirinktį į *Taip* , norėdami leisti darbuotojams užrakinti užduoties kortelės įrenginio jutiklinį ekraną, kad būtų galima jį nuvalyti. Nustačius šią parinktį į *Taip* , į įrenginio prisijungimo puslapį įtraukiamas mygtukas **Užrakinti ir valyti ekraną**. Kai darbuotojas pasirenka šį mygtuką, jutiklinis ekranas laikinai užrakinamas, kad būtų išvengta netyčinių įvesčių. Taip pat rodomas skaičiavimo atgal laikmatis. Tada darbuotojas gali saugiai nuvalyti įrenginį ir ekraną. Kai atgalinis skaičiavimas baigiasi, jutiklinis ekranas vėl automatiškai atrakinamas.
+- **Ekrano užrakto trukmė** – kai parinktis **Leisti užrakinti jutiklinį ekraną** nustatyta į *Taip* , naudokite šią parinktį norėdami nurodyti, kiek sekundžių jutiklinis ekranas bus išjungtas, kad būtų galima jį nuvalyti. Trukmė turi būti nuo 5 iki 120 sekundžių.
+- **Generuoti numerio lentelę** – nustatykite šią pasirinktį į *Taip* , norėdami generuoti naują numerio lentelę kiekvieną kartą, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Numerio lentelėje nurodytas numeris generuojamas naudojant skaičių seką, kuri nustatyta puslapyje **Sandėlio valdymo parametrai**. Kai ši parinktis nustatyta į *Ne* , darbuotojai turi nurodyti esamą numerio lentelę pranešdami apie baigtą užduotį.
+- **Spausdinti žymą** – nustatykite šią parinktį į *Taip* , kad būtų spausdinama numerio lentelės žyma, kai darbuotojas naudoja užduoties kortelės įrenginį, kad praneštų apie baigtą užduotį. Žymos konfigūracija nustatoma dokumento maršruto planavimo dalyje, kaip nurodyta [Numerio lentelės žymų dokumentų maršrutų planavimo maketas](../warehousing/document-routing-layout-for-license-plates.md).
+
+## <a name="clean-up-job-configurations"></a>Užduočių konfigūracijų valymas
+
+Kai cecho prižiūrėtojas nustato gamybos cecho vykdymo sąsają, jis pasirenka konfigūraciją ir užduoties filtrą. Šie pasirinkimai saugomi „Supply Chain Management” nuorodų lentelėje, o naršyklė naudoja ID, saugomą vietiniame slapuke, kad būtų galima rasti teisingą tos lentelės eilutę. Be to, lentelė registruoja datą ir laiką, kada darbuotojas paskutinį kartą prisijungė prie kiekvieno įrenginio.
+
+Paketinė užduotis periodiškai išvalo įrenginių, neužregistravusių veiklos per pastarąsias 60 dienų, nuorodų lentelės įrašus. Taip pat galite bet kada rankiniu būdu valyti įrašus, atlikdami toliau pateiktus veiksmus.
+
+1. Eikite į **Gamybos kontrolė \> Sąranka \> Gamybos vykdymas \> Gamybos cecho vykdymo konfigūravimas**.
+1. Veiksmų srityje pasirinkite **Valyti kliento konfigūracijas**.
+1. Dialogo lange **Valyti kliento konfigūracijas** nustatykite lauką **Dienų skaičius** į neaktyvumo dienų skaičių (iki šios dienos), į kurį reikia atsižvelgti. Pašalinsite visas įrenginių, kurie nebuvo aktyvūs tuo metu, konfigūracijas ir prisijungimo įrašus.
+1. Pasirinkite **Gerai** , norėdami išvalyti atitinkamas konfigūracijas pagal parametrą **Dienų skaičius**.
