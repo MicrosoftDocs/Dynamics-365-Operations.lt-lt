@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7a03e6149d3677ac4f35522e4898e1f62da329
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 8a910aa7f54905f305ed69e9dd9eea0909e5558d
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975273"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528550"
 ---
 # <a name="budgeting-home-page"></a>Pagrindinis biudžeto sudarymo puslapis
 
@@ -64,7 +64,7 @@ Norėdami gauti informacijos, kaip planavimo duomenis iš kitų modulių perkelt
 ## <a name="user-interface-and-reporting-capabilities"></a>Vartotojo sąsajos ir ataskaitų galimybės
 Vartotojai biudžeto planus gali kurti tiesiai kliente (naudodami konfigūruojamą biudžeto plano dokumento puslapį) arba naudodami „Excel“. „Excel‟ suteikia keletą papildomų galimybių. Pavyzdžiui, kaip biudžeto plano šaltinį galite naudoti išorinius duomenis, atlikti pasirinktinius skaičiavimus ir naudoti „Microsoft PivotTable“ bei diagramas. Galima konfigūruoti daugumą biudžeto planavimo proceso kintamųjų. 
 
-Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biudžetą ir kaip šis procesas atrodo. Nors biudžetams planuoti galite naudoti „Excel“, programa lieka vieninteliu tiesos šaltiniu ir padeda išvengti biudžeto kontrolės problemų. Naudojant periodinius procesus, pradinius biudžeto sudarymo duomenis galima perkelti į biudžeto planą. Kuriant ataskaitas, programa siūlo keletą standartinių užklausų puslapių, kuriuose galima peržiūrėti ir analizuoti biudžeto sudarymo duomenis. Biudžetų planų duomenis galima pasiekti naudojant „Management Reporter‟, o „Management Reporter‟ ataskaitoje kaip stulpeliai gali būti rodomi atskiri biudžetų planų scenarijai.
+Pavyzdžiui, galite apibrėžti, kas sudaro biudžetus, kas įtraukiama į biudžetą ir kaip šis procesas atrodo. Nors biudžetams planuoti galite naudoti „Excel“, programa lieka vieninteliu tiesos šaltiniu ir padeda išvengti biudžeto kontrolės problemų. Naudojant periodinius procesus, pradinius biudžeto sudarymo duomenis galima perkelti į biudžeto planą. Kuriant ataskaitas, programa siūlo keletą standartinių užklausų puslapių, kuriuose galima peržiūrėti ir analizuoti biudžeto sudarymo duomenis. Biudžetų planų duomenis galima pasiekti naudojant [finansines ataskaitas](../general-ledger/financial-reporting-getting-started.md), o finansinėje ataskaitoje kaip stulpeliai gali būti rodomi atskiri biudžetų planų scenarijai.
 
 
 

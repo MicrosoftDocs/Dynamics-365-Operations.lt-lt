@@ -1,6 +1,6 @@
 ---
-title: „Finance and Operations“ programų dokumentacija
-description: Dokumentacija, skirta „Finance and Operations“programoms.
+title: „Finance and Operations“ programos dokumentacija
+description: „Finance and Operations“ programų dokumentacija.
 author: robinarh
 manager: AnnBe
 ms.date: 07/25/2019
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4249f2ec09e6742c843122c189cc7db7f72d1146
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: a44324a14a78174ad4d68e6686c523c49d7aa3bd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005545"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694391"
 ---
-# <a name="finance-and-operations-application-documentation"></a>„Finance and Operations“ programų dokumentacija
+# <a name="finance-and-operations-application-documentation"></a>„Finance and Operations“ programos dokumentacija
 
 [!include [banner](includes/banner.md)]
 
@@ -44,10 +43,10 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 <h3><a href="get-started/before-you-buy.md">Prieš perkant</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Registravimasis peržiūros versijos prenumeratai gauti</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Visuotinio diegimo parinkties pasirinkimas</a></p>
- <p><a href="get-started/purchase-on-premises.md">„Finance and Operations (on-premises)“ pirkimas</a></p>
+ <p><a href="get-started/purchase-on-premises.md">„Finance and Operations (on-premises)‟ pirkimas</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Diegimo ciklas</a></h3>
-<p><a href="get-started/fasttrack-dynamics-365-overview.md">„FastTrack for Dynamics 365“</a></p>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Projekto parengimas</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Rengimasis įgyvendinimo pradžiai</a></p>
 
@@ -120,8 +119,8 @@ Didžioji šio turinio dalis taikoma ir susijusiems produktams: „Dynamics 365 
 <p><a href="get-started/demo-data.md">Demonstraciniai duomenys</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administravimas</h3>
-<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Visuotinis debesies diegimas</a></p>
-<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Vietinis visuotinis diegimas</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Visuotinė debesies įdiegtis</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Vietinė visuotinė įdiegtis</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Versijos naujinimas</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Aptarnavimas</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">„Lifecycle Services“</a></p>

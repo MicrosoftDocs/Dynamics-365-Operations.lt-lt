@@ -16,6 +16,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/supply-chain/toc.json
                 - name: DUK apie vienos versijos paslaugų naujinimus
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/supply-chain/toc.json
+                - name: 'Naujinimų ir pasirinktinio kodo ciklo, įskaitant „Dynamics 365 Commerce“, valdymas'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Programinės įrangos ciklo strategija – debesies leidimai
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Programinės įrangos ciklo strategija – vietinės versijos leidimai
@@ -70,12 +72,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Supply Chain Management“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
-                    - name: „Supply Chain Management 10.0.15“ (2020 m. gruodžio mėn.)
+                    - name: „Supply Chain Management 10.0.16“ (2021 m. vasario mėn.)
+                      href: get-started/whats-new-scm-10-0-16.md
+                    - name: „Supply Chain Management 10.0.15“ (2021 m. sausio mėn.)
                       href: get-started/whats-new-scm-10-0-15.md
                     - name: „Supply Chain Management 10.0.14“ (2020 m. lapkričio mėn.)
                       href: get-started/whats-new-scm-10-0-14.md
-                    - name: „Supply Chain Management 10.0.13“ (2020 m. spalio mėn.)
-                      href: get-started/whats-new-scm-10-0-13.md
                 - name: Pašalintos arba nebenaudojamos funkcijos
                   items:
                     - name: Pašalintos arba nebenaudojamos „Dynamics 365 Supply Chain Management“ funkcijos
@@ -84,8 +86,6 @@
                       href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Atidėtos AX 2012 funkcijos
                   href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Vietinėse įdiegtyse neįdiegtos funkcijos
-                  href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/supply-chain/toc.json
                 - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
                   href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/supply-chain/toc.json
             - name: Dokumentacijos ištekliai
@@ -216,12 +216,20 @@
                   items:
                     - name: Tiekėjo tranzito prekės
                       href: ../finance/localizations/rus-goods-transit-vendor.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Debesis ir briauna
+          items:
+            - name: Gamybos ir sandėlio valdymo darbo krūvių debesies ir briaunos skalės vienetas
+              href: cloud-edge/cloud-edge-landing-page.md
+            - name: 'Gamybos vykdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams'
+              href: cloud-edge/cloud-edge-workload-manufacturing.md
+            - name: 'Sandėlio valdymo darbo krūviai, skirti debesies ir briaunos skalės vienetams'
+              href: cloud-edge/cloud-edge-workload-warehousing.md
         - name: Turto valdymas
           items:
-            - name: Turto valdymo apžvalga
+            - name: Išteklių valdymo apžvalga
               href: asset-management/index.md
               items:
-                - name: Funkcinės vietos ir turtas
+                - name: Funkcinės vietos ir ištekliai
                   href: asset-management/overview/functional-locations-and-objects.md
                 - name: Turtas ir darbo užsakymai
                   href: asset-management/overview/objects-and-work-orders.md
@@ -230,9 +238,9 @@
                 - name: Funkcinės vietos ciklo būsenos
                   href: asset-management/setup-for-functional-locations/functional-location-stages.md
                 - name: Priežiūros atributų tipai
-                  href: asset-management/setup-for-functional-locations/functional-location-types.md
-                - name: Funkcinių vietų tipai
                   href: asset-management/setup-for-functional-locations/specification-types.md
+                - name: Funkcinių vietų tipai
+                  href: asset-management/setup-for-functional-locations/functional-location-types.md
             - name: Funkcinės vietos
               items:
                 - name: Funkcinių vietų pristatymas
@@ -633,6 +641,8 @@
                   href: cost-management/amortize-constant-costs-manufactured-item.md
             - name: Kaštų valdymo „Power BI“ turinio paketas
               href: ../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md?toc=/dynamics365/supply-chain/toc.json
+            - name: Kaštų valdymo trikčių šalinimas
+              href: cost-management/troubleshoot-costmanagement.md
         - name: Ataskaitų ir „Power BI“ integravimai
           items:
             - name: Ataskaitos ir analizė naudojant „Power BI“
@@ -1327,6 +1337,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Atsargų dimensijos einamosios vidutinės kainos sekimas
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Atsargų matomumo papildinys
+              href: inventory/inventory-visibility.md
         - name: IoT įžvalgos
           items:
             - name: Pagrindinis IoT įžvalgų puslapis
@@ -1347,6 +1359,8 @@
           items:
             - name: Pagrindinis bendrojo planavimo puslapis
               href: master-planning/master-planning-home-page.md
+            - name: 'Perkėlimas į planavimo optimizavimą, skirtą bendrajam planavimui'
+              href: master-planning/new-master-planning-engine.md
             - name: Planavimo optimizavimas
               items:
                 - name: Planavimo optimizavimo apžvalga
@@ -1357,10 +1371,18 @@
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Filtrų taikymas planui
                   href: master-planning/planning-optimization/plan-filters.md
+                - name: Bendrasis planavimas su poreikio prognoze
+                  href: master-planning/planning-optimization/demand-forecast.md
                 - name: Bendrasis planavimas su įsigijimo prekybos sutartimis
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Laiko rezervai
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Atsargų žymėjimas naudojant planavimo optimizavimą
+                  href: master-planning/planning-optimization/marking.md
+                - name: Vidinės įmonės planavimas
+                  href: master-planning/planning-optimization/Intercompany-planning.md
+                - name: Produktų su tam tikromis produkto ciklo būsenomis neįtraukimas
+                  href: master-planning/planning-optimization/product-lifecycle-state.md
                 - name: Suplanuotų užsakymų tvirtinimas
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Automatinis patvirtinimas naudojant planavimo optimizavimo funkciją
@@ -1463,9 +1485,11 @@
                   href: master-planning/tasks/create-baseline-forecast.md
                 - name: Poreikio prognozės modifikavimas rankiniu būdu
                   href: master-planning/tasks/modify-demand-forecast-manually.md
-        - name: Mobilioji programa
+            - name: Bendrojo planavimo trikčių šalinimas
+              href: master-planning/troubleshoot-masterplanning.md
+        - name: Mobiliųjų įrenginių programėlė
           items:
-            - name: Mobiliosios programos pagrindinis puslapis
+            - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/supply-chain/toc.json
             - name: Mobiliosios darbo sritys
               items:
@@ -1895,6 +1919,8 @@
                   href: pim/tasks/set-up-attribute-based-pricing-configurable-products.md
                 - name: KS skaičiavimai
                   href: cost-management/bom-calculations.md
+                - name: Produkto informacijos trikčių šalinimas
+                  href: pim/troubleshooting-productinformation.md
             - name: Produkto konfigūracija
               items:
                 - name: Produkto konfigūracijos apžvalga
@@ -1955,11 +1981,39 @@
                       href: pim/tasks/approve-product-configuration-model.md
                     - name: Produktų modelių duomenų perkėlimas
                       href: pim/tasks/transfer-data-product-models.md
+                - name: Produkto konfigūravimo priemonės trikčių šalinimas
+                  href: pim/troubleshooting-productconfigurator.md
+        - name: Inžinerinių pakeitimų valdymas
+          items:
+            - name: Inžinerinių pakeitimų valdymo apžvalga
+              href: engineering-change-management/product-engineering-overview.md
+            - name: Inžinerinių pakeitimų valdymo funkcijos nuosekli peržiūra
+              href: engineering-change-management/engineering-scenarios.md
+            - name: Inžinierinių pakeitimų valdymo parametrai
+              href: engineering-change-management/engineering-parameters.md
+            - name: Bendrosios inžinierinių pakeitimų valdymo vertės nustatymas
+              href: engineering-change-management/engineering-change-management-setup.md
+            - name: Inžinierių organizacijos ir duomenų nuosavybės taisyklės
+              href: engineering-change-management/engineering-org-data-ownership-rules.md
+            - name: Produkto savininkas
+              href: engineering-change-management/product-owner.md
+            - name: Inžinerijos atributai ir inžinerinių atributų ieška
+              href: engineering-change-management/engineering-attributes-and-search.md
+            - name: Inžinerinės versijos ir inžinerinių produktų kategorijos
+              href: engineering-change-management/engineering-versions-product-category.md
+            - name: Produkto ciklo būsena ir operacijos
+              href: engineering-change-management/product-lifecycle-state-transactions.md
+            - name: Inžinierinių produktų keitimų valdymas
+              href: engineering-change-management/engineering-change-management.md
+            - name: Produkto parengtis
+              href: engineering-change-management/product-readiness.md
+            - name: Išleisto produkto struktūra
+              href: engineering-change-management/release-product-structure.md
         - name: Gamybos kontrolė
           items:
             - name: Gamybos procesų apžvalga
               href: production-control/production-process-overview.md
-            - name: 'Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir „lean“ tiekimo suderinimas'
+            - name: 'Įvairių režimų planavimas: prekių surinkimo, apdirbamosios gamybos ir pažangiosios gamybos tiekimo suderinimas'
               href: production-control/mixed-mode-plan.md
             - name: Subrangos darbo valdymas gamybos metu
               href: production-control/manage-subcontract-work-production.md
@@ -2047,6 +2101,8 @@
                       items:
                         - name: Gamybos vietos vykdymo sąsajos konfigūravimas
                           href: production-control/production-floor-execution-configure.md
+                        - name: Gamybos vietos vykdymo sąsajos kūrimas
+                          href: production-control/production-floor-execution-tabs.md
                         - name: 'Įrenginio, skirto paleisti gamybos vietos vykdymo sąsają, nustatymas'
                           href: production-control/production-floor-execution-setup.md
                         - name: Kaip darbuotojai naudoja gamybos vietos vykdymo sąsają
@@ -2105,9 +2161,11 @@
                       href: production-control/absence-registration-in-time-and-attendance.md
                     - name: Nukrypimų grupės
                       href: production-control/time-attendance-flex-groups.md
-            - name: „Lean manufacturing“
+                - name: Atskiros gamybos trikčių šalinimas
+                  href: production-control/troubleshoot-discretemanufacturing.md
+            - name: LEAN gamyba
               items:
-                - name: „Lean manufacturing“ apžvalga
+                - name: LEAN gamybos apžvalga
                   href: production-control/lean-manufacturing-overview.md
                 - name: Subranga pagal veiklą
                   href: production-control/activity-based-subcontracting.md
@@ -2257,6 +2315,8 @@
                       href: production-control/consumption.md
                     - name: Gamybos registravimas
                       href: cost-management/production-posting.md
+                - name: Apdirbamosios gamybos trikčių šalinimas
+                  href: production-control/troubleshoot-processmanufacturing.md
         - name: Pardavimas ir rinkodara
           items:
             - name: Pardavimo ir rinkodaros apžvalga
@@ -2589,6 +2649,8 @@
               href: transportation/create-new-transportation-management-engine.md
             - name: Kuro indekso susiejimas su vežėju kaip mokesčio už papildomas paslaugas
               href: transportation/tasks/associate-fuel-index-carrier-accessorial-charge.md
+            - name: USMCA kilmės sertifikatas
+              href: transportation/usmca-certification-of-origin.md
             - name: Važtaraščio kūrimas
               href: transportation/create-bill-of-lading.md
             - name: Krovinio transportavimo maršrutų planavimas
@@ -2607,11 +2669,31 @@
               href: transportation/reconcile-freight-transportation-management.md
             - name: Vairuotojo paskyros įregistravimas ir išregistravimas
               href: transportation/tasks/register-driver-check-check-out-appointment.md
-            - name: Nustatyti vežėjo degalų indeksus
+            - name: Nuolaidos
+              href: transportation/transportation-management-discount.md
+            - name: Papildomos išlaidos
+              href: transportation/transportation-management-misc-charge.md
+            - name: Režimai ir metodai
+              href: transportation/transportation-management-modes-methods.md
+            - name: Numeracijos
+              href: transportation/transportation-management-number-sequence.md
+            - name: Būsena
+              href: transportation/transportation-management-status.md
+            - name: Pagrindinė zona
+              href: transportation/transportation-management-zone-master.md
+            - name: Vežėjų grupės
+              href: transportation/tasks/carrier-groups.md
+            - name: Krovinio kūrimo darbo sritis
+              href: transportation/tasks/load-building-workbench.md
+            - name: Krovinių šablonai
+              href: transportation/tasks/load-template.md
+            - name: Vertinimo šablonai
+              href: transportation/tasks/setup-a-rating-profile.md
+            - name: Vežėjo degalų indekso nustatymas
               href: transportation/tasks/set-up-carrier-fuel-index.md
-            - name: Nustatyti transportavimo mokėjimo priemonę
+            - name: Transportavimo mokėjimo priemonės nustatymas
               href: transportation/tasks/set-up-transportation-tender.md
-            - name: Nustatyti papildomų paslaugų priskyrimus
+            - name: Papildomų paslaugų priskyrimų nustatymas
               href: transportation/tasks/set-up-accessorial-assignments.md
             - name: Apkrovos paskyros nustatymas
               href: transportation/tasks/set-up-appointment-load.md
@@ -2645,20 +2727,28 @@
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
                 - name: Vietos produkto dimensijos maišymas
                   href: warehousing/location-product-dimension-mixing.md
+                - name: Atidėjimo klasteriai
+                  href: warehousing/putaway-clusters.md
                 - name: Kokybės patikra
                   href: warehousing/quality-check.md
+                - name: Sandėlio gavimo operacijų trikčių šalinimas
+                  href: warehousing/troubleshoot-warehouse-inbound.md
             - name: Sandėlio siuntimo operacijos
               items:
                 - name: 'Rezervavimai, atliekami valdant sandėlį'
                   items:
                     - name: Lanksti sandėlio dimensijų rezervavimo strategija
                       href: warehousing/flexible-warehouse-level-dimension-reservation.md
+                    - name: 'Rezervavimų, atliekamų valdant sandėlį, trikčių šalinimas'
+                      href: warehousing/troubleshoot-warehouse-reservations.md
                 - name: Dalinis išleidimas ir dalinis siuntimas
                   items:
                     - name: Dalinis transportuojamo krovinio siuntimas
                       href: warehousing/partial-shipping-of-transport-loads.md
                     - name: Iš dalies rezervuotų perkėlimo užsakymų paketinis išleidimas
                       href: warehousing/batch-release-of-partially-reserved-transfer-orders.md
+                    - name: Dalinių išleidimų ir dalinių siuntimų trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-partial-release-shipment.md
                 - name: Paėmimas ir pakavimas
                   items:
                     - name: Klasterio paėmimo nustatymas
@@ -2697,6 +2787,10 @@
                       href: warehousing/outbound-sorting.md
                     - name: Padėti prie sienos / padėti parduotuvėje
                       href: warehousing/put-to-wall-put-to-store.md
+                    - name: Siunčiamo darbo krūvio vizualizavimas
+                      href: warehousing/outbound-workload-visualization.md
+                    - name: Paėmimo ir pakavimo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-picking-packing.md
                 - name: Papildymas
                   items:
                     - name: Papildymo apžvalga
@@ -2709,8 +2803,12 @@
                       href: warehousing/tasks/set-up-min-max-replenishment-process.md
                     - name: Papildymo pagal zoną ribinės vertės
                       href: warehousing/zone-threshold-replenishment.md
+                    - name: Papildymo strategijos
+                      href: warehousing/replenishment-strategies.md
                     - name: Papildymas pagal vietos erdvę
                       href: warehousing/replenishment-over-location-capacity.md
+                    - name: Sandėlio papildymo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-replenishment.md
                 - name: Krovinio kūrimas ir siuntos
                   items:
                     - name: Tvirtinimas ir perkėlimas
@@ -2725,6 +2823,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Pakartotinis bangos žymų spausdinimas ir anuliavimas
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Krovinio kūrimo ir siuntų trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Siuntos konsolidacijos strategijos
                   items:
                     - name: Siuntos konsolidacijos strategijos
@@ -2741,6 +2841,8 @@
                       href: warehousing/consolidate-shipments-manual-workbench.md
                     - name: 5 scenarijus – konsoliduoti siuntas rankiniu būdu naudojant siuntų konsolidavimo puslapį
                       href: warehousing/consolidate-shipments-manual-form.md
+                - name: Sandėlio siuntimo operacijų trikčių šalinimas
+                  href: warehousing/troubleshoot-warehouse-outbound.md
             - name: Visose sandėlio operacijose
               items:
                 - name: Sandėlio darbo strategijos
@@ -2797,6 +2899,10 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Prekės konsolidacija – vietos naudojimas
                       href: warehousing/item-consolidation-location-utilization.md
+                    - name: Sandėlio darbo trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-work.md
+                    - name: Darbo skaidymas
+                      href: warehousing/work-split.md
             - name: Sandėlio nustatymas
               items:
                 - name: Sandėlio konfigūracija
@@ -2807,8 +2913,10 @@
                       href: inventory/warehouse-template.md
                     - name: Darbo kontrolė naudojant darbo šablonus ir vietos nurodymus
                       href: warehousing/control-warehouse-location-directives.md
-                    - name: Vietos nurodymo kūrimas
+                    - name: Darbas su vietos nurodymais
                       href: warehousing/create-location-directive.md
+                    - name: Sandėliavimo limitų vieta
+                      href: warehousing/location-stocking-limits.md
                     - name: Bangos veiksmo kodai
                       href: warehousing/wave-step-codes.md
                     - name: Bangos apdorojimo konfigūravimas
@@ -2843,6 +2951,8 @@
                       href: warehousing/mobile-barcode-support.md
                     - name: Sandėlių perkėlimo užsakymų nustatymas
                       href: warehousing/transfer-orders-warehouse.md
+                    - name: Sandėlio konfigūracijos trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Sandėlio programos diegimas ir konfigūravimas
                   items:
                     - name: Sandėlio programos diegimas ir prijungimas
@@ -2879,6 +2989,10 @@
                   items:
                     - name: Sandėlio valdymo procesų plėtojimas iš „Microsoft Dynamics AX 2012“ į „Finance and Operations”
                       href: warehousing/upgrade-migration-warehouse-management-processes.md
+                    - name: Plėtojimo ir perėjimo į išplėstinio sandėlio valdymo funkciją trikčių šalinimas
+                      href: warehousing/troubleshoot-warehouse-upgrade-migration.md
+                - name: Sandėlio nustatymo trikčių šalinimas
+                  href: warehousing/troubleshoot-warehouse-setup.md
         - name: „Supply Chain Management“ kūrimas
           items:
             - name: Ganto valdiklio kūrimo vadovas

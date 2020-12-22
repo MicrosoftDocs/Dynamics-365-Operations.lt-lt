@@ -16,6 +16,8 @@
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md?toc=/dynamics365/finance/toc.json
                 - name: DUK apie vienos versijos paslaugų naujinimus
                   href: ../fin-ops-core/fin-ops/get-started/one-version.md?toc=/dynamics365/finance/toc.json
+                - name: 'Naujinimų ir pasirinktinio kodo ciklo, įskaitant „Dynamics 365 Commerce“, valdymas'
+                  href: ../fin-ops-core/dev-itpro/migration-upgrade/update-guide.md?toc=/dynamics365/finance/toc.json
                 - name: Programinės įrangos ciklo strategija – debesies leidimai
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md?toc=/dynamics365/finance/toc.json
                 - name: Programinės įrangos ciklo strategija – vietinės versijos leidimai
@@ -70,14 +72,12 @@
                   items:
                     - name: Kas nauja ar pasikeitė „Finance“ pagrindinis puslapis
                       href: get-started/whats-new-home-page.md
+                    - name: „Finance 10.0.16“ (2021 m. vasario mėn.)
+                      href: get-started/whats-new-changed-10-0-16.md
                     - name: „Finance 10.0.15“ (2021 m. sausio mėn.)
                       href: get-started/whats-new-changed-10-0-15.md
                     - name: „Finance 10.0.14“ (2020 m. lapkričio mėn.)
                       href: get-started/whats-new-changed-10-0-14.md
-                    - name: „Finance 10.0.13“ (2020 m. spalio mėn.)
-                      href: get-started/whats-new-changed-10-0-13.md
-                    - name: „Finance 10.0.12“ (2020 m. rugpjūčio mėn.)
-                      href: get-started/whats-new-changed-10-0-12.md
             - name: Pašalintos arba nebenaudojamos funkcijos
               items:
                 - name: Pašalintos arba nebenaudojamos „Dynamics 365 Finance“ funkcijos
@@ -86,8 +86,6 @@
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: Atidėtos AX 2012 funkcijos
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
-            - name: Vietinėse įdiegtyse neįdiegtos funkcijos
-              href: ../fin-ops-core/fin-ops/get-started/features-not-implemented-on-prem.md?toc=/dynamics365/finance/toc.json
             - name: 2009 m. ir 2012 m. „Microsoft Dynamics AX” standartinio palaikymo pabaiga
               href: ../fin-ops-core/fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/finance/toc.json
             - name: Dokumentacijos ištekliai
@@ -724,6 +722,8 @@
               href: fixed-assets/fixed-asset-value-model-depreciation-book-merge.md
             - name: Registravimas su išvestinėmis knygomis
               href: fixed-assets/post-derived-value-models.md
+            - name: Vieno žurnalo knygų skaičius
+              href: fixed-assets/number-books-per-journal.md
             - name: Ilgalaikio turto operacijų registravimas registravimo sluoksniuose
               href: fixed-assets/post-fixed-asset-transactions-posting-layers.md
             - name: Ilgalaikio turto operacijų parinktys
@@ -732,6 +732,8 @@
               href: fixed-assets/tasks/transfer-fixed-asset.md
             - name: Ilgalaikio turto skaidymas
               href: fixed-assets/tasks/split-fixed-asset.md
+            - name: Mažėjančios vertės nusidėvėjimas po skaidymo
+              href: fixed-assets/reduce-balance-depreciation-after-split.md
             - name: Ilgalaikio turto grupių nustatymas
               href: fixed-assets/tasks/set-up-fixed-asset-groups.md
             - name: Ilgalaikio turto grupės keitimas
@@ -812,8 +814,72 @@
                   href: fixed-assets/straight-line-service-life-depreciation.md
         - name: Turto nuoma
           items:
-            - name: Turto nuomos darbo pradžia
+            - name: Turto nuomos pagrindinis puslapis
+              href: asset-leasing/asset-leasing-homepage.md
+            - name: Darbo su turto nuoma pradžia
               href: asset-leasing/asset-leasing-quick-start.md
+            - name: Turto nuomos nustatymas
+              items:
+                - name: Turto nuomos parametrų konfigūravimas
+                  href: asset-leasing/config-lease-parameters.md
+                - name: Nuomos knygų nustatymas
+                  href: asset-leasing/set-up-lease-books.md
+                - name: Nuomos grupės kūrimas
+                  href: asset-leasing/create-lease-group.md
+                - name: Indeksuojamos palūkanų normos nustatymas
+                  href: asset-leasing/set-up-index-rate-types.md
+                - name: Išlaidų tipų nustatymas
+                  href: asset-leasing/set-up-expense-types.md
+                - name: Nuomos žurnalo pavadinimų nustatymas
+                  href: asset-leasing/set-up-lease-journal-names.md
+                - name: Nuomos registravimo sąskaitų nustatymas
+                  href: asset-leasing/set-up-lease-posting-accts.md
+                - name: Numeracijų priskyrimas
+                  href: asset-leasing/leasing-number-sequences.md
+                - name: Vartotojo vaidmenų priskyrimas
+                  href: asset-leasing/lease-user-roles.md
+            - name: Turto nuomų valdymas
+              items:
+                - name: Nuomos įtraukimas arba kopijavimas
+                  href: asset-leasing/add-lease.md
+                - name: Mokėjimo sąskaitų faktūrų kūrimas
+                  href: asset-leasing/create-payment-invoice.md
+                - name: Naudojimo teise valdomo turto nusidėvėjimo įrašymas
+                  href: asset-leasing/record-rou-asset-depreciation.md
+                - name: Užregistruotų nuomos operacijų atšaukimas
+                  href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Nuomos koregavimas
+                  href: asset-leasing/adjust-lease.md
+                - name: Naudojimo teise valdomo turto sumažinimas
+                  href: asset-leasing/impair-rou-asset.md
+                - name: Nuomos susiejimas su ilgalaikiu turtu
+                  href: asset-leasing/associate-lease-with-fixed-asset.md
+                - name: Nuomų įrašymas užsienio valiutomis
+                  href: asset-leasing/record-leases-foreign-currency.md
+                - name: 'Nuomos mokesčių, susietų su indeksuojama palūkanų norma, pervertinimas'
+                  href: asset-leasing/revalue-payments-tied-2-index-rate.md
+                - name: Trumpalaikės nuomos įsipareigojimo dalies perklasifikavimas
+                  href: asset-leasing/reclassify-st-lease-liability.md
+                - name: 'Įsipareigojimo, turto ir išlaidų operacijų peržiūra'
+                  href: asset-leasing/view-asset-transactions.md
+                - name: Sudėtinio intervalo funkcijos
+                  href: asset-leasing/compound-interval-functionality.md
+                - name: Mokėjimo grafikų patvirtinimas paketiniu režimu
+                  href: asset-leasing/confirm-payment-schedules-in-batch.md
+                - name: Mėnesinių įrašų žurnale kūrimas paketiniu režimu
+                  href: asset-leasing/create-monthly-journals-batch.md
+                - name: Nuomos registravimo tipai
+                  href: asset-leasing/lease-posting-types.md
+                - name: Dvigubos ataskaitos
+                  href: asset-leasing/dual-reporting.md
+                - name: Nuomos darbo eigos nustatymas
+                  href: asset-leasing/set-up-lease-wrkflw.md
+                - name: Nuomos patvirtinimo darbo eigų naudojimas
+                  href: asset-leasing/use-create-lease-wrkflw.md
+                - name: Nuomų valdymas per nuomos importavimo sistemą
+                  href: asset-leasing/manage-leases-thru-imprt-framewrk.md
+            - name: Turto nuomos ataskaitos
+              href: asset-leasing/asset-leasing-rprts.md
         - name: Didžioji knyga
           items:
             - name: Didžiosios knygos apžvalga
@@ -906,8 +972,10 @@
                   href: general-ledger/tasks/create-advanced-rules-journals.md
                 - name: Išplėstinių taisyklių struktūrų kūrimas ir priskyrimas
                   href: general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: DK žurnalų tipai
+                - name: Didžiosios knygos žurnalų tipai
                   href: general-ledger/ledger-journal-types.md
+                - name: Didžiųjų knygų konfigūravimas
+                  href: general-ledger/configure-ledger.md
                 - name: Žurnalų kūrimas ir tvirtinimas
                   href: general-ledger/tasks/create-validate-journals.md
                 - name: Žurnalų įrašų ar operacijų peržiūra
@@ -1002,6 +1070,44 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Šaltinio dokumentų audito strategijų apibrėžimas
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: „Finance“ įžvalgos
+          items:
+            - name: „Finance“ įžvalgų pagrindinis puslapis
+              href: finance-insights/finance-insights-home-page.md
+            - name: Konfigūravimas ir administravimas
+              items:
+                - name: „Finance“ įžvalgų konfigūravimas
+                  href: finance-insights/configure-for-fin-insites.md
+                - name: Kliento mokėjimo prognozių įjungimas
+                  href: finance-insights/enable-cust-paymnt-prediction.md
+                - name: Grynųjų pinigų srautų prognozavimo įjungimas
+                  href: finance-insights/enable-cash-flow-forecasting.md
+                - name: Biudžeto pasiūlymų įjungimas
+                  href: finance-insights/enable-budget-proposal.md
+                - name: Duomenų integravimo priemonės projekto kūrimas
+                  href: finance-insights/create-data-integrate-project.md
+            - name: „Finance“ įžvalgų naudojimas
+              items:
+                - name: Biudžeto pasiūlymai
+                  href: finance-insights/budget-proposals.md
+                - name: Grynųjų pinigų pozicija
+                  href: finance-insights/cash-position.md
+                - name: Pinigų srautų prognozė
+                  href: finance-insights/cash-flow-forecast-intro.md
+                - name: Išorinių duomenų naudojimas prognozuojant grynųjų pinigų srautus
+                  href: finance-insights/external-data-in-cash-flow.md
+                - name: Kliento mokėjimo prognozės
+                  href: finance-insights/payment-insights-overview.md
+                - name: Kliento mokėjimo prognozių naudojimas
+                  href: finance-insights/use-customer-payment-predictions.md
+                - name: Momentinių kopijų apžvalga
+                  href: finance-insights/payment-snapshots.md
+                - name: Mašininio mokymo modelių rezultatai
+                  href: finance-insights/confusion-matrix.md
+                - name: Pradinio kliento mokėjimo prognozės modelio įvertinimas
+                  href: finance-insights/evaluate-payment-prediction.md
+                - name: Prognozės modelio tobulinimas
+                  href: finance-insights/improve-model.md
         - name: Projektų valdymas ir apskaita
           items:
             - name: Projektų valdymo ir apskaitos apžvalga
@@ -1408,6 +1514,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Finansinio padalinio NF-e parametrų nustatymas
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: 'NT2019.001 – mokesčių lengvatų ir atleidimo nuo mokesčių taisyklės, skirtos NF-e / NFC-e'
+                      href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
                 - name: „SPED-Reinf“ mokesčių ataskaita
@@ -1500,7 +1608,7 @@
                       href: localizations/tasks/br-00061-withholding-taxes-vendors-payments.md
             - name: Kanada
               items:
-                - name: PPM / HST interneto failo perdavimas
+                - name: GST / HST interneto failo perdavimas
                   href: localizations/can-gst-hst-internet-file-transfer.md
             - name: Kinija
               items:
@@ -1686,13 +1794,13 @@
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Sąskaitų faktūrų išdavimo terminai
                   href: localizations/emea-invoice-issue-deadline.md
-                - name: SF apdorojimas
+                - name: Sąskaitų faktūrų apdorojimas
                   href: localizations/emea-invoice-processing.md
                 - name: ES įrašo sertifikato išdavimas
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
-                - name: OIOUBL standartai
+                - name: Elektroninių sąskaitų faktūrų išrašymo palaikomi standartai
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
-                - name: Originali SF nuoroda (Rytų Europa)
+                - name: Originali sąskaitos faktūros nuoroda (Rytų Europa)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
                 - name: Šalies ieška naudojant PVM ID
                   href: localizations/tasks/eur-00015-party-search-vat-id.md
@@ -1836,6 +1944,8 @@
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
                 - name: Vokietijos PVM deklaracija
                   href: localizations/emea-de-vat-declaration.md
+                - name: Kliento elektroninių sąskaitų faktūrų ataskaita
+                  href: localizations/emea-deu-e-invoices.md
                 - name: Žurnalų sąrašo ataskaita
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektroninių mokesčių deklaracijų nustatymas
@@ -1938,9 +2048,11 @@
                           href: localizations/apac-ind-news-letter-10-0-12.md
                         - name: Kas nauja ar pasikeitė 10.0.13
                           href: localizations/ind-news-letter-10-0-13.md
-                    - name: Indijos PPM kontrolinės grupės
+                        - name: Kas nauja ar pasikeitė 10.0.14
+                          href: localizations/apac-ind-news-letter-10-0-14.md
+                    - name: Indijos GST kontrolinės grupės
                       href: localizations/apac-ind-gst-reference-groups.md
-                    - name: Kasos aparatų PPM integravimas
+                    - name: Kasos aparatų GST integravimas
                       href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
                     - name: Bendrųjų duomenų nustatymas
                       items:
@@ -2164,11 +2276,13 @@
                   href: localizations/emea-ita-exil-tax-plafond.md
                 - name: Kliento elektroninės sąskaitos faktūros
                   href: localizations/emea-ita-e-invoices.md
+                - name: Kasmetinių mokesčių ryšys
+                  href: localizations/emea-ita-yearly-tax-communication.md
             - name: Japonija
               items:
                 - name: Japonijos apžvalga
                   href: localizations/japan.md
-                - name: Ilgalaikio turto įsigijimas ir paraiškos vyriausybės subsidijai gauti teikimas
+                - name: Ilgalaikių išteklių įsigijimas ir paraiškos vyriausybės subsidijai gauti teikimas
                   href: localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md
                 - name: Įsigyti ilgalaikį turtą su turto grąžinimo įsipareigojimais
                   href: localizations/tasks/acquire-fixed-asset-asset-retirement-obligations.md
@@ -2450,6 +2564,8 @@
                   href: localizations/emea-nor-sales-tax-payment-report.md
                 - name: Norvegijai skirtas standartinis mokesčio audito failas (SAF-T)
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
+                - name: Kliento elektroninės sąskaitos faktūros Norvegijoje
+                  href: localizations/emea-nor-e-invoices.md
             - name: Lenkija
               items:
                 - name: Lenkijos apžvalga
@@ -2482,6 +2598,8 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: AP / AR valiutų keitimo kursų skaidymas
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: 'PVM deklaracija su registrais (JPK_V7M, VDEK)'
+                  href: localizations/emea-pol-vdek.md
             - name: Kataras
               items:
                 - name: Kataro apžvalga
@@ -2716,11 +2834,13 @@
                   href: localizations/apac-sau-sales-tax.md
                 - name: Saudo Arabijos zakato ataskaitos
                   href: localizations/emea-sau-zakat-reporting.md
+                - name: 'Banko dokumentų mokesčių, taikomų siuntimui, paskirstymas'
+                  href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
             - name: Singapūras
               items:
                 - name: Singapūro apžvalga
                   href: localizations/singapore.md
-                - name: PPM-05 ataskaitos generavimas
+                - name: GST-05 ataskaitos generavimas
                   href: localizations/apac-sgp-generate-gst-05-report.md
             - name: Ispanija
               items:
@@ -2994,6 +3114,13 @@
               href: ../fin-ops-core/dev-itpro/analytics/bi-reporting-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Prieiga prie informacijos ir ataskaitos
               href: ../fin-ops-core/dev-itpro/analytics/information-access-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Personalizavimo parinktys naudojantis Power BI.com
+              items:
+                - name: 'Funkcijos, galimos naudojant Power BI.com integravimą'
+                  href: ../fin-ops-core/dev-itpro/analytics/power-bi-integration.md?toc=/dynamics365/finance/toc.json
+                - name: Power BI.com turinio prisegimas
+                  href: ../fin-ops-core/dev-itpro/analytics/pin-power-bi-reports.md?toc=/dynamics365/finance/toc.json
+                - name: Analizės darbo srities pasirinkimas iš Power BI.com
             - name: Personalizavimo parinktys naudojantis „Power BI“
               items:
                 - name: 'Funkcijos, galimos naudojant „Power BI“ integravimą'
@@ -3112,7 +3239,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/finance/toc.json
                 - name: Finansinių dimensijų įtraukimas į agreguotus matavimo vienetus
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/finance/toc.json
-                - name: Analizės ataskaitų kūrimas naudojant „PowerBI Desktop“
+                - name: Analizės ataskaitų kūrimas naudojant „Power BI Desktop“
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Analizės įtraukimas į darbo sritis naudojant „Power BI Embedded“
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/finance/toc.json
@@ -3532,6 +3659,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start2-customize-report.md?toc=/dynamics365/finance/toc.json
                 - name: 'Naujo ER sprendimo, skirto spausdinti pasirinktinę ataskaitą, kūrimas'
                   href: ../fin-ops-core/dev-itpro/analytics/er-quick-start1-new-solution.md?toc=/dynamics365/finance/toc.json
+                - name: ER sprendimo koregavimas pasirinktiniam elektroniniam dokumentui sugeneruoti
+                  href: ../fin-ops-core/dev-itpro/analytics/er-quick-start3-customize-report.md?toc=/dynamics365/finance/toc.json
             - name: Mokymo programos
               items:
                 - name: 'Sužinokite, kaip naudoti duomenų šaltinius'
@@ -3608,6 +3737,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Didelių siunčiamų dokumentų glaudinimas
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
+                - name: Sukonfigūruotų ER komponentų tikrinimas
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
                 - name: Duomenų susiejimo santykinis kelias
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
             - name: Elektroninių ataskaitų sprendimų „Finance and Operations“ naudojimas
@@ -3662,27 +3793,39 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
                 - name: ER formatų vykdymo sekimas siekiant diagnozuoti našumo problemas
                   href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
-                - name: Verslo dokumentų valdymas
+                - name: Verslo dokumentų valdymas (BDM)
                   items:
-                    - name: Verslo dokumentų valdymo apžvalga
+                    - name: BDM apžvalga
                       href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management.md?toc=/dynamics365/finance/toc.json
-                    - name: Nauja dokumento vartotojo sąsaja verslo dokumentų valdyme
-                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md
-                    - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
-                      href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                    - name: Nauja dokumento vartotojo sąsaja BDM
+                      href: ../fin-ops-core/dev-itpro/analytics/er-business-document-management-new-template-ui.md?toc=/dynamics365/finance/toc.json
+                    - name: Verslo dokumentų šablonų redagavimas BDM
+                      items:
+                        - name: Naujų laukų įtraukimas į verslo dokumento šabloną „Microsoft Excel“
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-add-field-to-excel-template.md?toc=/dynamics365/finance/toc.json
+                        - name: Verslo dokumento šablono struktūros naujinimas
+                          href: ../fin-ops-core/dev-itpro/analytics/er-bdm-update-structure.md?toc=/dynamics365/finance/toc.json
             - name: ER sistemos API
               items:
                 - name: Įtaisytųjų funkcijų sąrašo išplėtimas
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
-                - name: „Application update 10.0.11“ API pakeitimai
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
-                - name: „Application update 7.3“ API pakeitimai
-                  href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                - name: API keitimai
+                  items:
+                    - name: „Application update 7.3“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
+                    - name: „Application update 10.0.11“
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                 - name: Pasirinktinės saugyklos vietos sugeneruotiems dokumentams nurodymas
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
-        - name: Mobilioji programa
+                  items:
+                    - name: 'Įvykio prenumeravimas, kad prenumeratos apdorojimo programai galima būtų pateikti užklausą dėl atsakymo'
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
+                    - name: ER paskirties vietos kūrimo perdavimas pasirinktinės paskirties vietos gamyklai
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                - name: VARTOTOJO ĮVESTIES PARAMETRO tipo duomenų šaltinio verčių inicijavimas iš šaltinio kodo
+                  href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
+        - name: Mobiliųjų įrenginių programėlė
           items:
-            - name: Mobiliosios programos pagrindinis puslapis
+            - name: Mobiliųjų įrenginių programėlės pagrindinis puslapis
               href: ../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/dynamics365/finance/toc.json
             - name: Mobiliosios darbo sritys
               items:

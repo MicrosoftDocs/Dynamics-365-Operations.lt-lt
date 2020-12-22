@@ -5,7 +5,9 @@
       items:
         - name: Kas nauja ar pasikeitė „Human Resources”
           href: hr-admin-whats-new.md
-        - name: "2002\_m. spalio 22\_d."
+        - name: "2020\_m. gruodžio 2\_d."
+          href: hr-whats-new-2020-12-02.md
+        - name: "2020\_m. spalio 22\_d."
           href: hr-whats-new-2020-10-22.md
         - name: "2020\_m. spalio 6\_d."
           href: hr-whats-new-2020-10-06.md
@@ -477,6 +479,8 @@
               href: hr-personnel-define-jobs.md
             - name: Darbo laikų kalendoriaus kūrimas
               href: hr-personnel-create-working-time-calendar.md
+            - name: Kandidatų į darbo vietas įdarbinimas
+              href: hr-personnel-recruit.md
             - name: DUK apie personalo veiksmus
               href: hr-personnel-actions-faq.md
             - name: Darbo eigų naudojimas darbuotojų informacijai valdyti
@@ -533,7 +537,9 @@
                   href: hr-benefits-management-overview.md
                 - name: Išmokų valdymo konfigūravimas
                   items:
-                    - name: Išmokų valdymo parametrų nustatymas
+                    - name: Išmokų valdymo parametrų konfigūravimas įmonei
+                      href: hr-benefits-setup-parameters-per-company.md
+                    - name: Išmokų valdymo ir darbuotojų savitarnos parametrų nustatymas visoms įmonėms
                       href: hr-benefits-setup-parameters.md
                     - name: Tinkamumo taisyklių ir parinkčių konfigūravimas
                       href: hr-benefits-setup-eligibility-rules.md

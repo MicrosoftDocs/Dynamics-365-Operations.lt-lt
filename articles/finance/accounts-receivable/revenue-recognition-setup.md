@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: d37fb09101c30858bcb975931b3d8f947d72017b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "2570338"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4459549"
 ---
 # <a name="revenue-recognition-setup"></a>Įplaukų pripažinimo nustatymai
 [!include [banner](../includes/banner.md)]
@@ -100,7 +100,7 @@ Jei įplaukas pripažįstate etapais, rekomenduojame sudaryti įplaukų pripaži
 
     - **Faktinė pradžios data** – grafikas sukuriamas naudojant sutarties pradžios datą (\[PCS\] prekių palaikymui pasibaigus sutarčiai) arba SF datą (pagrindinėms ir nepagrindinėms prekėms).
     - **Mėnesio 1 d.** – data pirmoje grafiko eilutėje yra sutarties pradžios data (arba SF data). Tačiau visos tolesnės grafikų eilutės yra sukuriamos mėnesio 1 d.
-    - **Mėnesio vidurio padalijimas** – data pirmoje grafiko eilutėje priklauso nuo SF datos. Jei SF yra užregistruota pirmą-penkioliktą mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą mėnesio dieną. Jei SF yra užregistruota šešioliktą ar vėlesnę mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą kito mėnesio dieną.
+    - **Mėnesio vidurio padalijimas** – data pirmoje grafiko eilutėje priklauso nuo SF datos. Jei SF yra užregistruota pirmą–penkioliktą mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą mėnesio dieną. Jei SF yra užregistruota šešioliktą ar vėlesnę mėnesio dieną, įplaukų grafikas sukuriamas naudojant pirmą kito mėnesio dieną.
     - **Kito mėnesio 1 d.** – grafiko data yra pirma kito mėnesio diena.
 
 Pasirinkite mygtuką **Įplaukų grafiko išsami informacija**, norėdami peržiūrėti bendruosius laikotarpius ir procentinius dydžius, pripažįstamus kiekvienu laikotarpiu. Pagal numatytuosius nustatymus **Pripažinti procentinį dydį** reikšmė padalijama po lygiai laikotarpių skaičiui. Jei pripažinimo pagrindas nustatytas į **Kas mėnesį** arba **Pasikartojimai**, pripažinimo procentinę dalį galima keisti. Keičiant pripažinimo procentinę dalį, įspėjimas praneša, kad suma „Iš viso“ nelygi 100 procentų. Gavę pranešimą galite toliau redaguoti eilutes. Tačiau prieš uždarant puslapį procentinė dalis „Iš viso“ turi būti lygi 100 proc.
