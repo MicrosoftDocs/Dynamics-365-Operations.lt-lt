@@ -1,0 +1,256 @@
+- name: „Dynamics 365 for Talent”
+  href: talent-welcome.md
+  items:
+    - name: Pradžia
+      items:
+        - name: Darbo su „Talent“ pradžia
+          href: talent-get-started.md
+        - name: Kas nauja ar pasikeitė „Talent”
+          href: whats-new.md
+          items:
+            - name: "2020\_m. rugsėjo 1\_d."
+              href: whats-new-talent-september-01-2020.md
+            - name: "2020\_m. sausio 21\_d."
+              href: whats-new-talent-january-21-2020.md
+            - name: "2020\_m. sausio 14\_d."
+              href: whats-new-talent-january-14-2020.md
+            - name: "2020\_m. sausio 7\_d."
+              href: whats-new-talent-january-7-2020.md
+            - name: "2019\_m. gruodžio 17\_d."
+              href: whats-new-talent-december-17-2019.md
+            - name: "2019\_m. gruodžio 12\_d."
+              href: whats-new-talent-december-12-2019.md
+            - name: "2019\_m. gruodžio 3\_d."
+              href: whats-new-talent-december-3-2019.md
+            - name: "2019\_m. lapkričio 19\_d."
+              href: whats-new-talent-november-19-2019.md
+            - name: "2019\_m. lapkričio 12\_d."
+              href: whats-new-talent-november-12-2019.md
+            - name: "2019\_m. lapkričio 5\_d."
+              href: whats-new-talent-november-5-2019.md
+            - name: "2019\_m. spalio 29\_d."
+              href: whats-new-talent-oct-29-2019.md
+            - name: "2019\_m. spalio 23\_d."
+              href: whats-new-talent-october-23-2019.md
+            - name: "2019\_m. spalio 8\_d."
+              href: whats-new-talent-october-8-2019.md
+            - name: "2019\_m. spalio 1\_d."
+              href: whats-new-talent-october-1-2019.md
+            - name: Skyriaus Kas nauja 2019 m. archyvai
+              items:
+                - name: "2019\_m. rugsėjo 17\_d."
+                  href: whats-new-talent-september-17-2019.md
+                - name: "2019\_m. rugsėjo 10\_d."
+                  href: whats-new-talent-september-12-2019.md
+                - name: "2019\_m. rugpjūčio 27\_d."
+                  href: whats-new-talent-august-28-2019.md
+                - name: "2019\_m. rugpjūčio 22\_d."
+                  href: whats-new-talent-august-21-2019.md
+                - name: 2019 m. rugpjūčio 13 d.
+                  href: whats-new-talent-august-15-2019.md
+                - name: 2019 m. rugpjūčio 6 d.
+                  href: whats-new-talent-august-7-2019.md
+                - name: "2019\_m. liepos 30\_d."
+                  href: whats-new-talent-july-31-2019.md
+                - name: "2019\_m. liepos 23\_d."
+                  href: whats-new-talent-july-24-2019.md
+                - name: 2019 m. liepos 16 d.
+                  href: whats-new-talent-july-16-2019.md
+                - name: 2019 m. liepos 9 d.
+                  href: whats-new-talent-july-9-2019.md
+                - name: "2019\_m. liepos 2\_d."
+                  href: whats-new-talent-july-2-2019.md
+                - name: 2019 m. birželio 25 d.
+                  href: whats-new-talent-june-25-2019.md
+                - name: 2019 m. birželio 18 d.
+                  href: whats-new-talent-june-18-2019.md
+                - name: 2019 m. birželio 11 d.
+                  href: whats-new-talent-june-11-2019.md
+                - name: 2019 m. birželio 4 d.
+                  href: whats-new-talent-june-4-2019.md
+                - name: 2019 m. gegužės 28 d.
+                  href: whats-new-talent-may-28-2019.md
+                - name: 2019 m. gegužės 21 d.
+                  href: whats-new-talent-may-21-2019.md
+                - name: 2019 m. gegužės 13 d.
+                  href: whats-new-talent-may-13-2019.md
+                - name: 2019 m. gegužės 6 d.
+                  href: whats-new-talent-may-6-2019.md
+                - name: 2019 m. balandžio 30 d.
+                  href: whats-new-talent-april-30-2019.md
+                - name: 2019 m. balandžio 25 d.
+                  href: whats-new-talent-april-25-2019.md
+                - name: 2019 m. balandžio 16 d.
+                  href: whats-new-talent-april-16-2019.md
+                - name: 2019 m. balandžio 9 d.
+                  href: whats-new-talent-april-9-2019.md
+                - name: 2019 m. balandžio 2 d.
+                  href: whats-new-talent-april-2-2019.md
+                - name: "2019\_m. kovo 26\_d."
+                  href: whats-new-talent-march-26-2019.md
+                - name: "2019\_m. kovo 20\_d."
+                  href: whats-new-talent-march-20.md
+                - name: "2019\_m. kovo 14\_d."
+                  href: whats-new-talent-march-14.md
+                - name: "2019\_m. kovo 5\_d."
+                  href: whats-new-talent-march-5.md
+                - name: "2019\_m. vasario 27\_d."
+                  href: whats-new-talent-feb-27.md
+                - name: "2019\_m. vasario 14\_d."
+                  href: whats-new-talent-feb14.md
+                - name: "2019\_m. vasario 7\_d."
+                  href: whats-new-talent-february-7.md
+                - name: "2019\_m. sausio 31\_d."
+                  href: whats-new-talent-january-29.md
+                - name: "2019\_m. sausio 23\_d."
+                  href: whats-new-talent-january-23.md
+                - name: "2019\_m. sausio 17\_d."
+                  href: whats-new-talent-january-17.md
+                - name: "2019\_m. sausio 11\_d."
+                  href: whats-new-talent-january-11.md
+            - name: 2018 m. skyriaus „Kas nauja“ archyvai
+              items:
+                - name: "2018\_m. gruodžio 14\_d."
+                  href: whats-new-talent-december-14.md
+                - name: "2018\_m. gruodžio 6\_d."
+                  href: whats-new-talent-december-6.md
+                - name: "2018\_m. lapkričio 27\_d."
+                  href: whats-new-talent-november-27.md
+                - name: "2018\_m. lapkričio 15\_d."
+                  href: whats-new-talent-november-15.md
+                - name: "2018\_m. spalio 31\_d."
+                  href: whats-new-talent-october-31.md
+                - name: "2018\_m. spalio 19\_d."
+                  href: whats-new-talent-october-19.md
+                - name: "2018\_m. spalio 15\_d."
+                  href: whats-new-talent-october-11.md
+                - name: "2018\_m. spalio 8\_d."
+                  href: whats-new-talent-october-8.md
+                - name: "2018\_m. spalio 1\_d."
+                  href: whats-new-talent-october-01.md
+                - name: "2018\_m. rugsėjo 24\_d."
+                  href: whats-new-talent-september-24.md
+                - name: "2018\_m. rugsėjo 17\_d."
+                  href: whats-new-talent-september-17-2018.md
+                - name: "2018\_m. rugsėjo 10\_d."
+                  href: whats-new-talent-september-10.md
+                - name: "2018\_m. rugpjūčio mėn."
+                  href: whats-new-talent-august2018.md
+                - name: "2018\_m. liepos mėn."
+                  href: whats-new-talent-july2018.md
+        - name: Sistemos reikalavimai
+          href: talent-versions-update-policy.md
+        - name: „Talent“ naujinimai
+          href: talent-updates.md
+        - name: „Talent“ parengimas
+          href: provisioning-talent.md
+        - name: Funkcijų valdymas
+          href: access-preview-feature.md
+        - name: „Onboard” parengimas
+          href: modular-app-tech-faq.md
+        - name: Duomenų eksportavimas iš „Attract“ ir „Onboard“
+          href: attract-onboard-export-data.md
+        - name: Drobės programėlių įterpimas iš „Power Apps“
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Pagalba dėl „Talent“
+          href: talent-support.md
+    - name: Organizacijos aprūpinimas personalu naudojant „Attract“
+      items:
+        - name: Pasirinkite „Attract“ versiją
+          href: attract-comprehensive-hiring.md
+        - name: „Attract“ funkcijos ir galimybės
+          href: attract-overview.md
+        - name: Sistemos parametrų konfigūravimas
+          items:
+            - name: Įmonės informacijos konfigūravimas
+              href: admin-settings-attract.md
+            - name: Vartotojo teisių nustatymas
+              href: security-attract.md
+            - name: Karjeros svetainės nustatymas
+              href: career-site.md
+            - name: „Broadbean“ integravimo įjungimas
+              href: attract-admin-job-board-settings.md
+            - name: El. pašto parametrų konfigūravimas
+              href: attract-configure-email-settings.md
+            - name: „LinkedIn“ integravimo nustatymas
+              href: attract-admin-linkedin.md
+            - name: DUK apie „LinkedIn‟ integravimą
+              href: attract-linkedin-faq.md
+        - name: Samdos proceso kūrimas
+          items:
+            - name: Samdos proceso šablono kūrimas
+              href: process-templates-attract.md
+            - name: Veiklų įtraukimas į samdos procesą
+              href: activities-attract.md
+            - name: El. laiškų šablonų kūrimas
+              href: email-templates.md
+            - name: Analizės ataskaitų naudojimas
+              href: analytic-reports.md
+        - name: Darbo skelbimų kūrimas ir registravimas
+          items:
+            - name: Darbo skelbimo kūrimas
+              href: creating-jobs-attract.md
+            - name: Darbo skelbimų registravimas „LinkedIn“
+              href: attract-post-jobs-to-linkedin.md
+            - name: Darbo skelbimų registravimas „Broadbean“
+              href: posting-jobs-external.md
+            - name: Darbo vietos uždarymas
+              href: attract-close-job.md
+        - name: Kandidatų ieška
+          items:
+            - name: Kandidatų ieška naudojant talentų telkinius
+              href: attract-talent-pools.md
+            - name: Kandidatų ieška naudojant „LinkedIn Recruiter“
+              href: attract-linkedin-recruiter.md
+            - name: Kandidatų šaltinių sekimas
+              href: source-tracking.md
+            - name: Sumaniosios rekomendacijos
+              href: intelligent-recommendations.md
+        - name: Pokalbių nustatymas
+          items:
+            - name: Pokalbių planavimas
+              href: interview-scheduling-feedback.md
+        - name: Pasiūlymo pateikimas
+          items:
+            - name: Pasiūlymų valdymo nustatymas
+              href: offer-setup.md
+            - name: 'Pasiūlymų kūrimas, tvirtinimas ir pasirašymas'
+              href: creating-offers.md
+        - name: „Attract“ išplečiamumas
+          href: extensibility-attract.md
+    - name: Naujų samdinių sveikinimas naudojant „Onboard“
+      items:
+        - name: Darbo su „Onboard“ pradžia
+          href: create-onboarding-experience.md
+        - name: Gauti programą „Onboard“
+          href: onboard-get-app.md
+        - name: Supažindinimo vadovo kūrimas ir siuntimas
+          href: onboard-create-guide.md
+        - name: Supažindinimo šablono kūrimas
+          href: onboard-create-template.md
+        - name: Vadovų ir šablonų redagavimas
+          href: onboard-edit-guides-templates.md
+        - name: Turinio bendrinimas
+          href: onboard-share-template.md
+        - name: Būsenos peržiūra
+          href: onboard-view-status.md
+        - name: Samdos komandos kūrimas
+          href: onboard-create-team.md
+    - name: Išplečiamumas
+      items:
+        - name: Įdarbinimo duomenų pakeitimų sekimas
+          href: process-auditing.md
+        - name: „Attract“ išplečiamumas
+          href: extensibility-attract.md
+        - name: „Talent“ išplėtimas su „Power Apps“ ir „Power Automate“
+          href: extensibility-examples.md
+    - name: „Attract“ ir „Onboard“ trikčių šalinimas
+      items:
+        - name: Darbo skelbimų publikavimo „LinkedIn“ trikčių šalinimas
+          href: attract-troubleshoot-linkedin.md
+        - name: 'Vartotojas gali pasiekti „Human Resources“, bet ne programas „Onboard“ ar „Attract“'
+          href: user-access-core-hr.md
+        - name: „Azure Active Directory“ vartotojų žmonių parinkiklyje nerasta
+          href: people-picker-user-not-found.md
+        - name: Programos „Attract“ vartotojai negali kandidatuoti į darbus iš karjeros portalo
+          href: attract-troubleshoot-career-portal.md
