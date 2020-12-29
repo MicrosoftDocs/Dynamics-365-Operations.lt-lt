@@ -1,0 +1,145 @@
+---
+title: IoT įžvalgų scenarijaus sąranka
+description: Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”.
+author: robinarh
+manager: tfehr
+ms.date: 08/16/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User
+ms.reviewer: rhaertle
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.search.region: Global
+ms.author: rhaertle
+ms.search.validFrom: 2020-04-04
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: d1deaa2130b63272da39a42315c6a1bc4b7ccb8a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433843"
+---
+# <a name="scenario-setup-for-iot-intelligence"></a><span data-ttu-id="f7f76-103">IoT įžvalgų scenarijaus sąranka</span><span class="sxs-lookup"><span data-stu-id="f7f76-103">Scenario setup for IoT Intelligence</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="f7f76-104">Šioje temoje paaiškinama, kaip konfigūruoti IoT įžvalgų scenarijus „Microsoft Dynamics 365 Supply Chain Management”.</span><span class="sxs-lookup"><span data-stu-id="f7f76-104">This topic explains how to configure scenarios for IoT Intelligence in Microsoft Dynamics 365 Supply Chain Management.</span></span> <span data-ttu-id="f7f76-105">Prieš nustatant scenarijus pirmiausia reikia [nustatyti „Microsoft Dynamics Lifecycle Services” (LCS)](iot-lcs-setup.md).</span><span class="sxs-lookup"><span data-stu-id="f7f76-105">Before you can set up the scenarios, you must [set up Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).</span></span>
+
+<span data-ttu-id="f7f76-106">Šioje temoje konfigūruosite scenarijų **Įrangos prastovos**, kad įrenginiui sugedus, programoje „Supply Chain Management“ būtų sugeneruotas pranešimas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-106">In this topic, you will configure the **Equipment downtime** scenario so that a notification is generated in Supply Chain Management when a machine goes down.</span></span> <span data-ttu-id="f7f76-107">Temoje taip pat rodoma, kaip konfigūruoti scenarijų **Produkto kokybė**, kad būtų sugeneruotas pranešimas, jei prekės atributas yra už nurodyto intervalo ribų, ir kaip konfigūruoti scenarijų **Gamybos atidėjimai**, kad būtų sugeneruotas pranešimas, jei gamybos našumas yra mažesnis už ribinę vertę.</span><span class="sxs-lookup"><span data-stu-id="f7f76-107">The topic also shows how to configure the **Product quality** scenario so that a notification is generated if an attribute of an item is outside a specified range, and how to configure the **Production delays** scenario so that a notification is generated if the production throughput falls below a threshold value.</span></span>
+
+## <a name="configure-the-equipment-downtime-scenario-in-supply-chain-management"></a><span data-ttu-id="f7f76-108">Scenarijaus Įrangos prastovos konfigūravimas programoje „Supply Chain Management“</span><span class="sxs-lookup"><span data-stu-id="f7f76-108">Configure the Equipment downtime scenario in Supply Chain Management</span></span>
+
+<span data-ttu-id="f7f76-109">Scenarijus **Įrangos prastovos** susieja signalą **PartOut** su įrenginio įspėjimo ribine verte.</span><span class="sxs-lookup"><span data-stu-id="f7f76-109">The **Equipment downtime** scenario maps a **PartOut** signal to a machine alert threshold.</span></span> <span data-ttu-id="f7f76-110">Įrenginys stebimas tik tada, kai jis pasirinktas scenarijuje ir nustatytas į **Vykdomas** programoje „Supply Chain Management“.</span><span class="sxs-lookup"><span data-stu-id="f7f76-110">The machine is monitored only when it's selected for the scenario and when is set to **Running** in Supply Chain Management.</span></span> <span data-ttu-id="f7f76-111">Jeigu laikas nuo įrenginio paskutinio gauto signalo **PartOut** yra didesnis už įspėjimo ribinę vertę, suaktyvinamas pranešimas **Įrenginys neveikia**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-111">If the time since a **PartOut** signal was last received from the machine exceeds the alert threshold, a **Machine down** notification is triggered.</span></span> <span data-ttu-id="f7f76-112">Jeigu įrenginys vis dar veikia, kai gaunamas kitas signalas **PartOut**, suaktyvinamas pranešimas **Įrenginys veikia**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-112">If the machine is still running, a **Machine up** notification is triggered when the next **PartOut** signal is received.</span></span> <span data-ttu-id="f7f76-113">Jei įrenginys neveikia 30 min., suaktyvinamas naujas pranešimas **Įrenginys neveikia**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-113">If a machine stays down for 30 minutes, a new **Machine down** notification is triggered.</span></span>
+
+<span data-ttu-id="f7f76-114">Scenarijus **Įrangos prastovos** turi toliau nurodytas priklausomybes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-114">The **Equipment downtime** scenario has the following dependencies:</span></span>
+
++ <span data-ttu-id="f7f76-115">Norint suaktyvinti įspėjimą, susietame įrenginyje turi būti paleistas gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-115">An alert can be triggered only if a production order is running on a mapped machine.</span></span>
++ <span data-ttu-id="f7f76-116">Signalas, atitinkantis susieto įrenginio signalą **PartOut**, turi būti išsiųstas į „IoT Hub“ ir turi būti įtrauktas unikalus ypatybės pavadinimas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-116">A signal that represents a mapped machine's **PartOut** signal must be sent to the IoT hub, and a unique property name must be included.</span></span>
++ <span data-ttu-id="f7f76-117">„UNIX” **laiko žymos** ypatybė, kurioje vertė išreiškiama milisekundėmis (ms), turi būti „Azure IoT Hub” pranešime.</span><span class="sxs-lookup"><span data-stu-id="f7f76-117">A UNIX **timestamp** property, where the value is expressed in milliseconds (ms), must be present in the Azure IoT Hub message.</span></span>
+
+<span data-ttu-id="f7f76-118">Norėdami konfigūruoti scenarijų, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="f7f76-118">To configure the scenario, follow these steps.</span></span>
+
+1. <span data-ttu-id="f7f76-119">Prisijunkite prie „Supply Chain Management“.</span><span class="sxs-lookup"><span data-stu-id="f7f76-119">Sign in to Supply Chain Management.</span></span>
+2. <span data-ttu-id="f7f76-120">Įgalinkite IoT analizės funkcijos vėliavėlę.</span><span class="sxs-lookup"><span data-stu-id="f7f76-120">Enable the IoT Intelligence feature flag.</span></span> <span data-ttu-id="f7f76-121">Daugiau informacijos žr. [Funkcijų valdymo apžvalga](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).</span><span class="sxs-lookup"><span data-stu-id="f7f76-121">For more information, see [Feature management overview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).</span></span>
+3. <span data-ttu-id="f7f76-122">Sukonfigūruokite metriką.</span><span class="sxs-lookup"><span data-stu-id="f7f76-122">Configure the metrics.</span></span> <span data-ttu-id="f7f76-123">Daugiau informacijos žr. [Kaip sukonfigūruoti metriką](iot-metrics-setup.md#configure-metrics).</span><span class="sxs-lookup"><span data-stu-id="f7f76-123">For more information, see [How to configure metrics](iot-metrics-setup.md#configure-metrics).</span></span>
+4. <span data-ttu-id="f7f76-124">Eikite į **Gamybos kontrolė \> Sąranka \> IoT įžvalgos \> Scenarijaus valdymas** .</span><span class="sxs-lookup"><span data-stu-id="f7f76-124">Go to **Production control \> Setup \> IoT Intelligence \> Scenario management**.</span></span>
+6. <span data-ttu-id="f7f76-125">Plytelėje **Įrangos prastovos** pasirinkite **Konfigūruoti**, kad būtų atidarytas konfigūravimo vedlys.</span><span class="sxs-lookup"><span data-stu-id="f7f76-125">On the **Equipment downtime** tile, select **Configure** to open the configuration wizard.</span></span>
+
+   <span data-ttu-id="f7f76-126">Konfigūracijos vedlys prasideda puslapiu **Įrangos jutiklio schemos apibrėžimas**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-126">The first page in the wizard is the **Equipment sensor schema definition** page.</span></span> <span data-ttu-id="f7f76-127">Šiame puslapyje jūsų tikslas yra nustatyti schemą „Supply Chain Management”, kad ji atitiktų „IoT Hub” pranešimų „JavaScript Object Notation” (JSON) formatą.</span><span class="sxs-lookup"><span data-stu-id="f7f76-127">On this page, your goal is to set up the schema in Supply Chain Management so that it matches the JavaScript Object Notation (JSON) format of the IoT Hub messages.</span></span> <span data-ttu-id="f7f76-128">Galima apibrėžti kelias pranešimų schemas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-128">Multiple message schemas can be defined.</span></span> <span data-ttu-id="f7f76-129">Daugiau informacijos, žr. [Schemų formatai, skirti „IoT Hub“ pranešimams](iot-schema-format.md).</span><span class="sxs-lookup"><span data-stu-id="f7f76-129">For more information, see [Schema formats for IoT Hub messages](iot-schema-format.md).</span></span> <span data-ttu-id="f7f76-130">Šiame pavyzdyje pranešimų apkrovoje yra pranešimų su toliau pateiktu formatu paketas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-130">In this example, the message payload contains a batch of messages that has the following format.</span></span>
+
+    ```json
+    {
+        "timestamp": 1576016821614,
+        "payload": [
+            {
+                "id": "IoTInt.Machine1225.PartOut",
+                "timestamp": 1576016821614,
+                "value": True
+            },
+            {
+                "id": "IoTInt.Machine1226.PartOut",
+                "timestamp": 1576016991616,
+                "value": True
+            }
+        ]
+    }
+    ```
+
+7. <span data-ttu-id="f7f76-131">Įtraukite į lentelę eilutę ir nustatykite toliau pateiktas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-131">Add a row to the table, and set the following values:</span></span>
+
+    1. <span data-ttu-id="f7f76-132">Nustatykite lauką **Schemos pavadinimas** į **ID**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-132">Set the **Schema name** field to **ID**.</span></span>
+    2. <span data-ttu-id="f7f76-133">Nustatykite lauką **Schemos kelias** į **/payload\[\*\]/id**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-133">Set the **Schema path** field to **/payload\[\*\]/id**.</span></span>
+    3. <span data-ttu-id="f7f76-134">Nustatykite lauką **Aprašas** į **Pranešimo ID**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-134">Set the **Description** field to **Message ID**.</span></span>
+
+8. <span data-ttu-id="f7f76-135">Įtraukite kitą eilutę į lentelę ir nustatykite toliau pateiktas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-135">Add another row to the table, and set the following values:</span></span>
+
+    1. <span data-ttu-id="f7f76-136">Nustatykite lauką **Schemos pavadinimas** į **Laiko žyma**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-136">Set the **Schema name** field to **Timestamp**.</span></span>
+    2. <span data-ttu-id="f7f76-137">Nustatykite lauką **Schemos kelias** į **/payload\[\*\]/timestamp**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-137">Set the **Schema path** field to **/payload\[\*\]/timestamp**.</span></span>
+    3. <span data-ttu-id="f7f76-138">Nustatykite lauką **Aprašas** į **Pranešimo laiko žyma**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-138">Set the **Description** field to **Message timestamp**.</span></span>
+
+9. <span data-ttu-id="f7f76-139">Įtraukite kitą eilutę į lentelę ir nustatykite toliau pateiktas reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-139">Add another row to the table, and set the following values:</span></span>
+
+    1. <span data-ttu-id="f7f76-140">Nustatykite lauką **Schemos pavadinimas** į **Reikšmė**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-140">Set the **Schema name** field to **Value**.</span></span>
+    2. <span data-ttu-id="f7f76-141">Nustatykite lauką **Schemos kelias** į **/payload\[\*\]/value**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-141">Set the **Schema path** field to **/payload\[\*\]/value**.</span></span>
+    3. <span data-ttu-id="f7f76-142">Nustatykite lauką **Aprašas** į **Pranešimo reikšmė**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-142">Set the **Description** field to **Message value**.</span></span>
+
+    > [!NOTE]
+    > <span data-ttu-id="f7f76-143">Nereikia nurodyti visų pranešimo ypatybių.</span><span class="sxs-lookup"><span data-stu-id="f7f76-143">You don't have to define all the properties in the message.</span></span> <span data-ttu-id="f7f76-144">Nustatykite tik reikalingas ypatybes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-144">Define only the properties that you require.</span></span> <span data-ttu-id="f7f76-145">Atlikdami ankstesnius veiksmus, nesukūrėte eilutės **Šakninė laiko žyma** .</span><span class="sxs-lookup"><span data-stu-id="f7f76-145">In the preceding steps, you didn't create a row for **Root timestamp**.</span></span> <span data-ttu-id="f7f76-146">**Šakninė laiko žyma** kelias bus **/timestamp**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-146">The path of **Root timestamp** would be **/timestamp**.</span></span>
+
+10. <span data-ttu-id="f7f76-147">Norėdami eiti į puslapį **Įrangos jutiklio schemos susiejimas** pasirinkite **Pirmyn**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-147">Select **Next** to go to the **Equipment sensor schema map** page.</span></span>
+11. <span data-ttu-id="f7f76-148">Eilutės **Įrangos išteklių ID** lauke **Schemos pavadinimas** pasirinkite **ID**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-148">In the row for **Equipment resource ID**, in the **Schema name** field, select **ID**.</span></span>
+12. <span data-ttu-id="f7f76-149">Eilutės **UTC laikas** lauke **Schemos pavadinimas** pasirinkite **Laiko žyma**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-149">In the row for **UTC time**, in the **Schema name** field, select **Timestamp**.</span></span>
+13. <span data-ttu-id="f7f76-150">Eilutės **Dalinai sugeneruotas signalas** lauke **Schemos pavadinimas** pasirinkite **Reikšmė**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-150">In the row for **Part produced signal**, in the **Schema name** field, select **Value**.</span></span>
+14. <span data-ttu-id="f7f76-151">Norėdami atidaryti puslapį **Įrangos išteklių ID konfigūracija** pasirinkite **Pirmyn**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-151">Select **Next** to go to the **Equipment resource ID configuration** page.</span></span>
+15. <span data-ttu-id="f7f76-152">Atlikite toliau pateiktus veiksmus, norėdami susieti „IoT Hub“ pranešimų reikšmes su „Supply Chain Management“ ištekliais.</span><span class="sxs-lookup"><span data-stu-id="f7f76-152">Follow these steps to map the values in the IoT Hub message to the Supply Chain Management resources:</span></span>
+
+    1. <span data-ttu-id="f7f76-153">Lentelėje **Signalo duomenų reikšmės** įtraukite naują eilutę.</span><span class="sxs-lookup"><span data-stu-id="f7f76-153">In the **Signal Data Values** table, add a new row.</span></span> <span data-ttu-id="f7f76-154">Lauke **Reikšmė** įveskite **IoTInt.Machine1225.PartOut**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-154">In the **Value** field, enter **IoTInt.Machine1225.PartOut**.</span></span> <span data-ttu-id="f7f76-155">Ši reikšmė gaunama iš JSON ypatybės **id** „IoT Hub“ pranešime.</span><span class="sxs-lookup"><span data-stu-id="f7f76-155">This value  comes from the JSON **id** property in the IoT Hub message.</span></span>
+    2. <span data-ttu-id="f7f76-156">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-156">Select **Save**.</span></span>
+    3. <span data-ttu-id="f7f76-157">Lentelėje **Verslo įrašo susiejimas** pasirinkite **Naujas**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-157">In the **Business Record Mapping** table, select **New**.</span></span> <span data-ttu-id="f7f76-158">Numatytoji lauko **Verslo įrašo tipas** reikšmė yra įvesta automatiškai ir jums jos keisti nereikia.</span><span class="sxs-lookup"><span data-stu-id="f7f76-158">A default value for the **Business record type** field is automatically filled in, and you don't have to change it.</span></span>
+    4. <span data-ttu-id="f7f76-159">Lauke **Verslo įrašas** pasirinkite „Supply Chain Management“ įrenginio išteklių, iš kurio siunčiama ši signalo reikšmė.</span><span class="sxs-lookup"><span data-stu-id="f7f76-159">In the **Business record** field, select the Supply Chain Management machine resource that the signal value is being sent from.</span></span>
+    5. <span data-ttu-id="f7f76-160">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-160">Select **Save**.</span></span>
+    6. <span data-ttu-id="f7f76-161">Kartokite šiuos veiksmus, norėdami įtraukti naujo verslo įrašo **Machine1226** susiejimą.</span><span class="sxs-lookup"><span data-stu-id="f7f76-161">Repeat these steps to add a new business record mapping for **Machine1226**.</span></span> <span data-ttu-id="f7f76-162">Su vienu „Supply Chain Management“ įrašu galite susieti kelias signalo duomenų reikšmes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-162">You can map multiple signal data values to a single record in Supply Chain Management.</span></span>
+
+16. <span data-ttu-id="f7f76-163">Norėdami pasirinkti, kuriuos įrenginius apdoroti, naudokite stulpelį **Pasirinkta**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-163">Use the **Selected** column to select the machines that you want to process.</span></span> <span data-ttu-id="f7f76-164">Jums nebūtina apibrėžti visų signalų reikšmių ir pasirinkti visų įrenginių.</span><span class="sxs-lookup"><span data-stu-id="f7f76-164">You don't have to define all signal values, and you don't have to select all machines.</span></span>
+17. <span data-ttu-id="f7f76-165">Pasirinkite **Pirmyn**, jei norite pereiti į puslapį **Dalinai sugeneruoto signalo konfigūravimas**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-165">Select **Next** to go to the **Part produced signal configuration** page.</span></span>
+18. <span data-ttu-id="f7f76-166">Lentelėje **Signalo duomenų reikšmės** įtraukite eilutę ir nustatykite lauką **Reikšmė** į **Teisinga**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-166">In the **Signal Data Values** table, add a row, and set the **Value** field to **True**.</span></span> <span data-ttu-id="f7f76-167">Ši reikšmė gaunama iš JSON ypatybės **value** „IoT Hub“ pranešime.</span><span class="sxs-lookup"><span data-stu-id="f7f76-167">This value comes from the JSON **value** property in the IoT Hub message.</span></span> <span data-ttu-id="f7f76-168">Savo scenarijuje galite pridėti tiek reikšmių, kiek reikia.</span><span class="sxs-lookup"><span data-stu-id="f7f76-168">You can add as many values as you require for your scenario.</span></span>
+19. <span data-ttu-id="f7f76-169">Pasirinkite **Įrašyti**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-169">Select **Save**.</span></span>
+20. <span data-ttu-id="f7f76-170">Norėdami eiti į puslapį **Įrangos prastovos ribinė vertė** pasirinkite **Pirmyn**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-170">Select **Next** to go to the **Equipment downtime threshold** page.</span></span> <span data-ttu-id="f7f76-171">Nurodyti įrenginiai yra anksčiau su signalo reikšmėmis susieti įrenginiai.</span><span class="sxs-lookup"><span data-stu-id="f7f76-171">The machines that are listed are the machines that were previously mapped to signal values.</span></span> <span data-ttu-id="f7f76-172">Šiame puslapyje apibrėžiate ribinę vertę, kad nustatytumėte, ar įrenginys sugedo.</span><span class="sxs-lookup"><span data-stu-id="f7f76-172">On this page, you will define a threshold to determine whether a machine is down.</span></span> <span data-ttu-id="f7f76-173">Pavyzdžiui, jei nustatysite ribinę vertę į **10**, „Supply Chain Management“ sugeneruos pranešimą, jei 10 minučių iš įrenginio nebus gautas pranešimas **PartOut**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-173">For example, if you set the threshold to **10**, Supply Chain Management will generate a notification if no **PartOut** signal is received from a machine for 10 minutes.</span></span>
+21. <span data-ttu-id="f7f76-174">Norėdami pereiti puslapį **Įgalinti scenarijų**, pasirinkite **Pirmyn**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-174">Select **Next** to go to the **Enable scenario** page.</span></span> <span data-ttu-id="f7f76-175">Pasirinkite parinktį, norėdami įgalinti scenarijų.</span><span class="sxs-lookup"><span data-stu-id="f7f76-175">Set the option to enable the scenario.</span></span>
+22. <span data-ttu-id="f7f76-176">Pasirinkite **Baigti**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-176">Select **Finish**.</span></span>
+
+<span data-ttu-id="f7f76-177">Scenarijaus sąranka baigta.</span><span class="sxs-lookup"><span data-stu-id="f7f76-177">The scenario setup is now completed.</span></span> <span data-ttu-id="f7f76-178">IoT įžvalgų papildinys pradės automatiškai apdoroti „IoT Hub“ pranešimus.</span><span class="sxs-lookup"><span data-stu-id="f7f76-178">IoT Intelligence will automatically start to process the IoT Hub messages.</span></span>
+
+## <a name="configure-the-product-quality-scenario-in-supply-chain-management"></a><span data-ttu-id="f7f76-179">Scenarijaus Produkto kokybė konfigūravimas programoje „Supply Chain Management“</span><span class="sxs-lookup"><span data-stu-id="f7f76-179">Configure the Product quality scenario in Supply Chain Management</span></span>
+
+<span data-ttu-id="f7f76-180">Scenarijus **Produkto kokybė** sugeneruoja pranešimą, jei prekės atributas nepatenka į nurodytą diapazoną.</span><span class="sxs-lookup"><span data-stu-id="f7f76-180">The **Product quality** scenario generates a notification if an attribute of an item is outside a specified range.</span></span> <span data-ttu-id="f7f76-181">Pavyzdžiui, jutiklis siųs kiekvienos prekės svorį į „IoT Hub“.</span><span class="sxs-lookup"><span data-stu-id="f7f76-181">For example, a sensor sends the weight of each item to IoT Hub.</span></span> <span data-ttu-id="f7f76-182">Jei prekė per sunki arba per lengva, „Supply Chain Management“ sugeneruojamas pranešimas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-182">If an item is too heavy or too light, a notification is generated in Supply Chain Management.</span></span>
+
+<span data-ttu-id="f7f76-183">Scenarijus **Produkto kokybė** turi toliau nurodytas priklausomybes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-183">The **Product quality** scenario has the following dependencies:</span></span>
+
++ <span data-ttu-id="f7f76-184">Tam, kad būtų suaktyvintas įspėjimas, gamybos užsakymas turi būti vykdomas susietame įrenginyje ir generuoti produktą, kuriame yra susieto paketo atributas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-184">An alert can be triggered only if a production order is running on a mapped machine and producing a product that has a mapped batch attribute.</span></span>
++ <span data-ttu-id="f7f76-185">Signalas, atitinkantis paketo atributą, turi būti išsiųstas į „IoT Hub“ ir turi būti įtrauktas unikalus ypatybės pavadinimas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-185">A signal that represents the batch attribute must be sent to the IoT hub, and a unique property name must be included.</span></span>
++ <span data-ttu-id="f7f76-186">„UNIX” **laiko žymos** ypatybė, kurioje vertė išreiškiama milisekundėmis, turi būti „Azure IoT Hub” pranešime.</span><span class="sxs-lookup"><span data-stu-id="f7f76-186">A UNIX **timestamp** property, where the value is expressed in ms, must be present in the IoT Hub message.</span></span>
+
+## <a name="configure-the-production-delays-scenario-in-supply-chain-management"></a><span data-ttu-id="f7f76-187">Scenarijaus Gamybos atidėjimai konfigūravimas programoje „Supply Chain Management“</span><span class="sxs-lookup"><span data-stu-id="f7f76-187">Configure the Production delays scenario in Supply Chain Management</span></span>
+
+<span data-ttu-id="f7f76-188">Scenarijus **Gamybos atidėjimai** generuoja pranešimą, jei gamybos našumas yra mažesnis už ribinę vertę.</span><span class="sxs-lookup"><span data-stu-id="f7f76-188">The **Production delays** scenario generates a notification if the production throughput falls below a threshold value.</span></span> <span data-ttu-id="f7f76-189">Šiame scenarijuje signalas **PartOut** siunčiamas į „IoT Hub“ kiekvienai pagamintai prekei.</span><span class="sxs-lookup"><span data-stu-id="f7f76-189">In this scenario, a **PartOut** signal is sent to IoT Hub for each item that is produced.</span></span> <span data-ttu-id="f7f76-190">Programoje „Supply Chain Management” užsakymo atidėjimas apskaičiuojamas pagal planuojamą gamybos užsakymo vykdymo laiką, prekių, kurias reikia pagaminti, skaičių, užduoties vykdymo laiką ir gautų signalų **PartOut** skaičių.</span><span class="sxs-lookup"><span data-stu-id="f7f76-190">In Supply Chain Management, the order delay is calculated based on the amount of time that the production order is scheduled to run, the number of items that should be produced, the amount of time that the job has been running, and the number of **PartOut** signals that are received.</span></span> <span data-ttu-id="f7f76-191">Perspėjimas dėl atidėjimo sugeneruojamas, jei užduoties signalų **PartOut** skaičius yra mažesnis už ribinę vertę.</span><span class="sxs-lookup"><span data-stu-id="f7f76-191">A delay notification is generated if the number of **PartOut** signals for the job falls below the threshold value.</span></span>
+
+<span data-ttu-id="f7f76-192">Scenarijus **Gamybos atidėjimai** turi toliau nurodytas priklausomybes.</span><span class="sxs-lookup"><span data-stu-id="f7f76-192">The **Production delays** scenario has the following dependencies:</span></span>
+
++ <span data-ttu-id="f7f76-193">Norint suaktyvinti įspėjimą, susietame įrenginyje turi būti paleistas gamybos užsakymas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-193">An alert can be triggered only if a production order is running on a mapped machine.</span></span>
++ <span data-ttu-id="f7f76-194">Signalas, atitinkantis susieto įrenginio signalą **PartOut**, turi būti išsiųstas į „Azure IoT Hub“ ir turi būti įtrauktas unikalus ypatybės pavadinimas.</span><span class="sxs-lookup"><span data-stu-id="f7f76-194">A signal that represents a mapped machine's **PartOut** signal must be sent to the Azure IoT hub, and a unique property name must be included.</span></span>
++ <span data-ttu-id="f7f76-195">„UNIX” **laiko žymos** ypatybė, kurioje vertė išreiškiama milisekundėmis, turi būti „Azure IoT Hub” pranešime.</span><span class="sxs-lookup"><span data-stu-id="f7f76-195">A UNIX **timestamp** property, where the value is expressed in ms, must be present in the IoT Hub message.</span></span>
+
+## <a name="disable-a-scenario"></a><span data-ttu-id="f7f76-196">Scenarijaus išjungimas</span><span class="sxs-lookup"><span data-stu-id="f7f76-196">Disable a scenario</span></span>
+
+<span data-ttu-id="f7f76-197">Norėdami išjungti scenarijų, atlikite toliau nurodytus veiksmus.</span><span class="sxs-lookup"><span data-stu-id="f7f76-197">To disable a scenario, follow these steps.</span></span>
+
+1. <span data-ttu-id="f7f76-198">Programoje „Supply Chain Management“ eikite į **Gamybos kontrolė \> Sąranka \> IoT įžvalgos \> Scenarijaus valdymas**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-198">In Supply Chain Management, go to **Production control \> Setup \> IoT Intelligence \> Scenario management**.</span></span>
+2. <span data-ttu-id="f7f76-199">Scenarijaus plytelėje pasirinkite **Konfigūruoti** .</span><span class="sxs-lookup"><span data-stu-id="f7f76-199">On the tile for the scenario, select **Configure**.</span></span>
+3. <span data-ttu-id="f7f76-200">Norėdami pereiti į paskutinį vedlio puslapį, pasirinkite **Pirmyn**.</span><span class="sxs-lookup"><span data-stu-id="f7f76-200">Select **Next** to go to the last wizard page.</span></span>
+4. <span data-ttu-id="f7f76-201">Pasirinkite parinktį, norėdami išjungti scenarijų.</span><span class="sxs-lookup"><span data-stu-id="f7f76-201">Set the option to disable the scenario.</span></span>

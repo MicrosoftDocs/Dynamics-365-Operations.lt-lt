@@ -1,0 +1,103 @@
+---
+title: Prognozės, darbo užsakymai ir projektai
+description: Šioje temoje aiškinamas prognozių ir darbo užsakymo integravimas su moduliu Projektų valdymas ir apskaita modulyje Turto valdymas.
+author: josaw1
+manager: tfehr
+ms.date: 08/29/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: EntAssetWorkOrderProjCostInfoPart
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.author: mkirknel
+ms.search.validFrom: 2019-08-31
+ms.dyn365.ops.version: 10.0.5
+ms.openlocfilehash: 9e6d20d1538ea68570d6dcc49da001ad76b8042b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433481"
+---
+# <a name="forecasts-work-orders-and-projects"></a><span data-ttu-id="9e002-103">Prognozės, darbo užsakymai ir projektai</span><span class="sxs-lookup"><span data-stu-id="9e002-103">Forecasts, work orders, and projects</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+ 
+
+<span data-ttu-id="9e002-104">Modulyje Turto valdymas integracija su moduliu **Projektų valdymas ir apskaita** padeda optimizuoti išlaidų kontrolę, kad vartotojai galėtų sekti priežiūros užduočių tipo prognozių ir darbo užsakymo užduočių išlaidas.</span><span class="sxs-lookup"><span data-stu-id="9e002-104">In Asset Management, integration with the **Project management and accounting** module helps optimize cost control, so that users can track costs on maintenance job type forecasts and work order jobs.</span></span>
+
+<span data-ttu-id="9e002-105">Priežiūros užduočių tipo prognozių sekimui būtina nustatyti du parametrus.</span><span class="sxs-lookup"><span data-stu-id="9e002-105">Tracking of maintenance job type forecasts requires two settings:</span></span>
+
+1. <span data-ttu-id="9e002-106">Pasirinkite projektą **Turto valdymas** > **Sąranka** > **Turto valdymo parametrai**, o tada kortelėje **Turtas** > FastTab **Projektas**, lauke **Priežiūros prognozės projektas** pasirinkite projektą.</span><span class="sxs-lookup"><span data-stu-id="9e002-106">Select a project in **Asset management** > **Setup** > **Asset management parameters**, and then, on the **Assets** tab > on the **Project** FastTab, in the **Maintenance forecast project** field, select a project.</span></span>
+
+2. <span data-ttu-id="9e002-107">Kai sukuriate priežiūros užduoties tipo numatytąją eilutę, automatiškai sukuriamas tos eilutės veiklos numeris puslapyje **Priežiūros užduočių tipų numatytosios reikšmės** (**Turto valdymas** > **Sąranka** > **Užduotys** > **Priežiūros užduočių tipo numatytieji parametrai**).</span><span class="sxs-lookup"><span data-stu-id="9e002-107">When you create a maintenance job type default line, an activity number is automatically created for the line on the **Maintenance job type defaults** page (**Asset management** > **Setup** > **Jobs** > **Maintenance job type defaults**).</span></span>
+
+<span data-ttu-id="9e002-108">Priežiūros užduoties tipo prognozės naudojamos dviem tikslams.</span><span class="sxs-lookup"><span data-stu-id="9e002-108">Maintenance job type forecasts serve two purposes:</span></span> 
+
+- <span data-ttu-id="9e002-109">Galite stebėti priežiūros užduoties tipo prognozių išlaidas modulyje **Projektų valdymas ir apskaita**.</span><span class="sxs-lookup"><span data-stu-id="9e002-109">You can track costs on maintenance job type forecasts in the **Project management and accounting** module.</span></span> 
+- <span data-ttu-id="9e002-110">Prognozės automatiškai perkeliamos į darbo užsakymo užduoties projektą, kai darbo užsakymo užduotyje pasirenkate priežiūros užduoties tipą.</span><span class="sxs-lookup"><span data-stu-id="9e002-110">Forecasts are automatically transferred to a work order job project when you select a maintenance job type on a work order job.</span></span>
+
+<span data-ttu-id="9e002-111">Norėdami sekti darbo užsakymų užduočių išlaidas, pirma turite nustatyti darbo užsakymų projektus. </span><span class="sxs-lookup"><span data-stu-id="9e002-111">To track costs on work order jobs, you must first set up work order projects.</span></span> <span data-ttu-id="9e002-112">Daugiau informacijos rasite [Darbo užsakymo projekto sąranka](../setup-for-work-orders/work-order-project-setup.md).</span><span class="sxs-lookup"><span data-stu-id="9e002-112">For more information, see [Work order project setup](../setup-for-work-orders/work-order-project-setup.md).</span></span>
+
+## <a name="work-order-job-projects"></a><span data-ttu-id="9e002-113">Darbo užsakymo užduočių projektai</span><span class="sxs-lookup"><span data-stu-id="9e002-113">Work order job projects</span></span>
+
+<span data-ttu-id="9e002-114">Kai darbo užsakyme sukuriate darbo užsakymo užduotį, darbo užsakymo projektą apibrėžia darbo užsakymų pirminio projekto sąranka puslapyje **Darbo užsakymo projekto sąranka** (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Projekto sąranka**).</span><span class="sxs-lookup"><span data-stu-id="9e002-114">When you create a work order job on a work order, the work order project is determined by the setup of the parent project for work orders on the **Work order project setup** page (**Asset management** > **Setup** > **Work orders** > **Project setup**).</span></span>
+
+<span data-ttu-id="9e002-115">Darbo užsakymų užduočių projektai sukuriami naudojant toliau pateikiamų darbo užsakymų duomenų derinį.</span><span class="sxs-lookup"><span data-stu-id="9e002-115">Work order job projects are created by using a combination of the following work order information:</span></span>
+
+- <span data-ttu-id="9e002-116">Darbo užsakyme pasirinktas darbo užsakymo tipas</span><span class="sxs-lookup"><span data-stu-id="9e002-116">The work order type selected on the work order</span></span> 
+- <span data-ttu-id="9e002-117">Su darbo užsakymo užduotyje esančiu turtu susijusi funkcinė vieta</span><span class="sxs-lookup"><span data-stu-id="9e002-117">The functional location related to the asset on the work order job</span></span>
+- <span data-ttu-id="9e002-118">Su darbo užsakymo užduotyje esančiu turtu susijęs turto tipas</span><span class="sxs-lookup"><span data-stu-id="9e002-118">The asset type that is related to the asset on the work order job</span></span>  
+- <span data-ttu-id="9e002-119">Darbo užsakyme nustatyti numatomi pradžios ir pabaigos laikai</span><span class="sxs-lookup"><span data-stu-id="9e002-119">The expected start and end times that are set on the work order</span></span>  
+
+<span data-ttu-id="9e002-120">Kai kurios informacijos darbo užsakyme nėra.</span><span class="sxs-lookup"><span data-stu-id="9e002-120">Some of this information might not be found on a work order.</span></span> <span data-ttu-id="9e002-121">Todėl, darbo užsakymo pirminis projektas ieškomas naudojant turimą duomenų derinį ir pasirenkant projekto ID, atitinkantį darbo užsakymo duomenis.</span><span class="sxs-lookup"><span data-stu-id="9e002-121">Therefore, the search for a work order parent project is done by using the available combination of data and selecting the project ID that corresponds to work order data.</span></span>
+
+<span data-ttu-id="9e002-122">Pavyzdžiui, toliau esančiame pavyzdyje dėl to, kaip nustatytas turto tipas **Sunkvežimio variklis**, kiekviena darbo užsakymo užduotis, sukurta naudojant turto tipą **Sunkvežimio variklis**, bus projekto ID 000186 subprojektas.</span><span class="sxs-lookup"><span data-stu-id="9e002-122">For example, in the following illustration, because of the way that the **Truck Engine** asset type is set up, every work order job that is created with the **Truck Engine** asset type will be a sub-project of project ID 000186.</span></span>
+
+![1 pav.](media/01-integration-to-pma.png)
+
+<span data-ttu-id="9e002-124">Projekto ID darbo užsakymo užduotyje ir susijusio veiklos numerio paskirtis yra sekti išlaidas, susijusias su darbo užsakymo užduotimi ir pasirinktu turtu modulyje **Projektų valdymas ir apskaita**.</span><span class="sxs-lookup"><span data-stu-id="9e002-124">The purpose of the project ID on the work order job, and the related activity number, is to track costs that are related to the work order job, and the asset that is selected on it, in the **Project management and accounting** module.</span></span> <span data-ttu-id="9e002-125">(Norėdami peržiūrėti projekto ID ir veiklos numerį, pasirinkite **Turto valdymas** > **Bendras** > **Darbo užsakymai** > **Visi darbo užsakymai** ir pasirinkite darbo užsakymą.</span><span class="sxs-lookup"><span data-stu-id="9e002-125">(To view the project ID and activity number, select **Asset management** > **Common** > **Work orders** > **All work orders**, and then select the work order.</span></span> <span data-ttu-id="9e002-126">„FastTab“ **Eilutės informacija**, lauke **Projekto ID** rodomas projekto ID, o lauke **Veiklos numeris** rodomas veiklos numeris.) Norėdami gauti daugiau informacijos apie turto valdymo išlaidų kontrolę, žr. [Kaštų ir datos kontrolė](../controlling-and-reporting/cost-and-date-control.md).</span><span class="sxs-lookup"><span data-stu-id="9e002-126">On the **Line details** FastTab, the **Project ID** field shows the project ID, and the **Activity number** field shows the activity number.) For more information about cost control in Asset Management, see [Cost and date control](../controlling-and-reporting/cost-and-date-control.md).</span></span>
+
+<span data-ttu-id="9e002-127">Toliau pateiktame paveikslėlyje matote grafinę darbo užsakymų projektų ir susijusių projektų veiklų apžvalgą.</span><span class="sxs-lookup"><span data-stu-id="9e002-127">The following illustration shows a graphical overview of work order projects and related project activities.</span></span>
+
+![2 paveikslėlis](media/02-integration-to-pma.png)
+
+<span data-ttu-id="9e002-129">Kai darbo užsakyme sukuriama nauja darbo užsakymo užduotis, automatiškai sukuriamas šios užduoties darbo užsakymo projektas.</span><span class="sxs-lookup"><span data-stu-id="9e002-129">When a new work order job is created on a work order, a work order project is automatically created for the job.</span></span> <span data-ttu-id="9e002-130">Su darbo užsakymo užduotimi susijusio turto finansinės dimensijos automatiškai perkeliamos į darbo užsakymo užduoties projektą.</span><span class="sxs-lookup"><span data-stu-id="9e002-130">The financial dimensions for the asset that is related to the work order job are automatically transferred to the work order project.</span></span>
+
+<span data-ttu-id="9e002-131">Projekto veiklos, sukurtos darbo užsakymo užduočiai, turi susietos informacijos.</span><span class="sxs-lookup"><span data-stu-id="9e002-131">The project activity that is created for a work order job has related information attached to it.</span></span> <span data-ttu-id="9e002-132">Tai informacija apie priežiūros užduoties tipą, priežiūros užduoties tipo variantą ir prekybą.</span><span class="sxs-lookup"><span data-stu-id="9e002-132">This information is about the maintenance job type, maintenance job type variant, and trade.</span></span> <span data-ttu-id="9e002-133">Ji naudinga jei, pavyzdžiui, kuriate darbo užsakymo pirkimo užsakymą (žr. skyrių [Įsigijimas](../work-orders/procurement.md)) arba jei naudojate modulį **Projektų valdymas ir apskaita** laikui registruoti.</span><span class="sxs-lookup"><span data-stu-id="9e002-133">It's useful if, for example, you create a purchase order from a work order (see [Procurement](../work-orders/procurement.md)), or if you use the **Project management and accounting** module for time registration.</span></span>
+
+<span data-ttu-id="9e002-134">Jei turtas buvo įdiegtas funkcinėje vietoje, bet vėliau įdiegtas kitoje funkcinėje vietoje, turto finansinės dimensijos, susijusios su nauja funkcine vieta, automatiškai atnaujinamos.</span><span class="sxs-lookup"><span data-stu-id="9e002-134">If the asset was installed on a functional location but is later installed on a different functional location, the financial dimensions that are related to the new functional location are automatically updated on the asset.</span></span> <span data-ttu-id="9e002-135">Tada, kai sukuriate turto darbo užsakymo užduotį, į darbo užsakymo užduoties darbo užsakymo projektą automatiškai perkeliamos finansinės dimensijos, kurios dabar yra susijusios su turtu.</span><span class="sxs-lookup"><span data-stu-id="9e002-135">Then, when you create a work order job for the asset, the work order project for the work order job automatically gets the financial dimensions that are now related to the asset.</span></span> <span data-ttu-id="9e002-136">Todėl, kai naudojate funkcines vietas, išlaidas visada galima sekti funkcinėse vietose, kuriose turtas buvo įdiegtas bet kuriuo laikotarpiu.</span><span class="sxs-lookup"><span data-stu-id="9e002-136">Therefore, when you use functional locations, costs can always be tracked on the functional locations that an asset was installed on at any given time.</span></span> <span data-ttu-id="9e002-137">Automatinis finansinių dimensijų naujinimas padeda užtikrinti visišką išlaidų atsekamumą kontroliuojant projektus ir rengiant ataskaitas.</span><span class="sxs-lookup"><span data-stu-id="9e002-137">The automatic update of financial dimensions helps guarantee complete traceability of costs for project control and reporting.</span></span>
+
+## <a name="work-order-projects-work-order-lifecycle-states-project-stages-and-project-types"></a><span data-ttu-id="9e002-138">Darbo užsakymų projektai, darbo užsakymų ciklo būsenos, projekto etapai ir projektų tipai</span><span class="sxs-lookup"><span data-stu-id="9e002-138">Work order projects, work order lifecycle states, project stages, and project types</span></span>
+
+<span data-ttu-id="9e002-139">Siekiant užtikrinti, kad darbo užsakymų ciklo būsenos ir susijusių projektų etapai darbo užsakymuose būtų naudojami tinkamai, išnagrinėkite priklausomybes, susijusias su moduliu **Projektų valdymas ir apskaita**.</span><span class="sxs-lookup"><span data-stu-id="9e002-139">To help guarantee that work order lifecycle states and related project stages on work orders are used correctly, consider the dependencies in relation to the **Project management and accounting** module:</span></span>
+
+- <span data-ttu-id="9e002-140">Dirbant su moduliu **Projektų valdymas ir apskaita**, puslapyje **Projektų valdymo ir apskaitos parametrai** nustatomi projektų tipų projektų etapai.</span><span class="sxs-lookup"><span data-stu-id="9e002-140">In the **Project management and accounting** module, project stages are set up on project types on the **Project management and accounting parameters** page.</span></span>  
+- <span data-ttu-id="9e002-141">Puslapyje **Projektų valdymo ir apskaitos parametrai** pasirinkite atitinkamų projektų etapų žymės langelius visuose projektų tipuose, kuriuos naudosite.</span><span class="sxs-lookup"><span data-stu-id="9e002-141">On the **Project management and accounting parameters** page, use the check boxes to select relevant project stages for all the project types that you will use.</span></span> <span data-ttu-id="9e002-142">Toliau esančiuose paveikslėliuose penki etapai (**Sukurta**, **Numatoma**, **Suplanuota**, **Vykdoma** ir **Baigta**) buvo parinkti projektų tipams **Laikas ir medžiaga** bei **Vidinis**.</span><span class="sxs-lookup"><span data-stu-id="9e002-142">In the following illustrations, five stages (**Created**, **Estimated**, **Scheduled**, **In process**, and **Finished**) have been selected for the **Time and material** and **Internal** project types.</span></span> <span data-ttu-id="9e002-143">Šie penki etapai yra susiję ir su vidinės priežiūros užduotimis ir su aptarnavimo priežiūros užduotimis.</span><span class="sxs-lookup"><span data-stu-id="9e002-143">Those five stages are relevant to both internal maintenance jobs and service maintenance jobs.</span></span>
+- <span data-ttu-id="9e002-144">Modulyje **Turto valdymas** projektų tipai nurodomi pagal projektų grupes, kurias nurodėte puslapyje **Darbo užsakymo projekto sąranka** > kortelėje **Projektų grupė** (**Turto valdymas** > **Sąranka** > **Darbo užsakymai** > **Projekto sąranka**).</span><span class="sxs-lookup"><span data-stu-id="9e002-144">In the **Asset Management** module, project types are defined by the project groups that you set up on the **Work order project setup** page > **Project group** tab (**Asset management** > **Setup** > **Work orders** > **Project setup**).</span></span>  
+- <span data-ttu-id="9e002-145">Projektų grupės, nustatytos puslapyje **Darbo užsakymų projektų sąranka**, naudojamos kuriant darbo užsakymus.</span><span class="sxs-lookup"><span data-stu-id="9e002-145">The project groups that are set up on the **Work order project setup** page are used when you create work orders.</span></span> <span data-ttu-id="9e002-146">Kai sukuriamas naujas darbo užsakymas, automatiškai sukuriamas darbo užsakymo darbo.</span><span class="sxs-lookup"><span data-stu-id="9e002-146">When a work order is created, a work order project is automatically created for the work order.</span></span>  
+- <span data-ttu-id="9e002-147">Kiekviena darbo užsakymo ciklo būsena turi būti susijusi su projekto etapu.</span><span class="sxs-lookup"><span data-stu-id="9e002-147">Every work order lifecycle state must have a related project stage.</span></span>  
+- <span data-ttu-id="9e002-148">Projekto etapas, susijęs su darbo užsakymo ciklo būsena, turi būti apibrėžtas kaip projektų grupės, apibrėžtos darbo užsakymo projekte, aktyvusis etapas.</span><span class="sxs-lookup"><span data-stu-id="9e002-148">The project stage that is related to a work order lifecycle state must be defined as an active stage for the project group that is defined in the work order project.</span></span> <span data-ttu-id="9e002-149">Automatiškai sukuriamas darbo užsakymo projektas.</span><span class="sxs-lookup"><span data-stu-id="9e002-149">The work order project is automatically created on a work order.</span></span>
+- <span data-ttu-id="9e002-150">Kai sukuriate naują darbo užsakymą, darbo užsakymo projektas automatiškai priskiriamas pagal sąranką puslapyje **Darbo užsakymų projektų sąranka**.</span><span class="sxs-lookup"><span data-stu-id="9e002-150">When you create a new work order, the automatic allocation of a work order project is based on the setup on the **Work order project setup** page.</span></span>  
+
+<span data-ttu-id="9e002-151">Toliau esančiuose paveikslėliuose pavaizduotos sąsajos tarp darbo užsakymų projektų grupių, susijusių projektų tipų, projektų etapų ir darbo užsakymų ciklų būsenų.</span><span class="sxs-lookup"><span data-stu-id="9e002-151">The following illustrations show the associations between work order project groups, related project types, project stages, and work order lifecycle states.</span></span>
+
+![3 pav.](media/03-integration-to-pma.png)
+
+![4 pav.](media/04-integration-to-pma.png)
+
+![5 pav.](media/05-integration-to-pma.png)
+
+<span data-ttu-id="9e002-155">Norėdami gauti informacijos apie tai, kaip nustatyti darbo užsakymų projektus, žr. [Darbo užsakymo projekto sąranka](../setup-for-work-orders/work-order-project-setup.md).</span><span class="sxs-lookup"><span data-stu-id="9e002-155">For information about how to set up work order projects, see [Work order project setup](../setup-for-work-orders/work-order-project-setup.md).</span></span> <span data-ttu-id="9e002-156">Daugiau informacijos apie darbo užsakymo ciklo būsenų kūrimą žr. [Darbo užsakymo ciklo būsenos](../setup-for-work-orders/work-order-lifecycle-states.md).</span><span class="sxs-lookup"><span data-stu-id="9e002-156">For information about how to create work order lifecycle states, see [Work order lifecycle states](../setup-for-work-orders/work-order-lifecycle-states.md).</span></span>
+
+<span data-ttu-id="9e002-157">Toliau esančiame paveikslėlyje pavaizduoti įvairūs projektai, sukurti modulyje **Turto valdymas** ir leidžiant integraciją su moduliu **Projektų valdymas ir apskaita**.</span><span class="sxs-lookup"><span data-stu-id="9e002-157">The following illustration shows a graphical overview of the various projects that are created in the **Asset management** module to enable integration with the **Project management and accounting** module.</span></span> <span data-ttu-id="9e002-158">Be to, čia pavaizduoti su projektais susiję darbo procesai.</span><span class="sxs-lookup"><span data-stu-id="9e002-158">It also shows the work processes that the projects are related to.</span></span>
+
+![6 pav.](media/06-integration-to-pma.png)
+
