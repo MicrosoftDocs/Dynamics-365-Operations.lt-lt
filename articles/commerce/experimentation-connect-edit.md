@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096972"
+ms.locfileid: "4414487"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Eksperimento prijungimas ir variacijų redagavimas
 
@@ -41,7 +41,7 @@ Prieš prijungdami jūsų eksperimentą „Commerce”, turite priimti tam tikru
 
 ### <a name="determine-the-scope-of-your-experiment"></a>Jūsų eksperimento aprėpties nustatymas
 Kai prijungiate eksperimentą, esate raginami nustatyti eksperimento aprėptį. Eksperimentai nustatomi kaip **dalinės** aprėpties arba **visos** aprėpties.
-- Pasirinkite **dalinę** , jei norite atlikti konkrečios puslapio dalies eksperimentą. Jei pasirinksite šią parinktį, turite nurodyti, kurie moduliai yra įtraukti į eksperimentą. Keitimai, atliekami numatytojo puslapio arba fragmento dalims, kurios nėra susijusios su eksperimentu, automatiškai sinchronizuojami skirtingose variacijose.
+- Pasirinkite **dalinę**, jei norite atlikti konkrečios puslapio dalies eksperimentą. Jei pasirinksite šią parinktį, turite nurodyti, kurie moduliai yra įtraukti į eksperimentą. Keitimai, atliekami numatytojo puslapio arba fragmento dalims, kurios nėra susijusios su eksperimentu, automatiškai sinchronizuojami skirtingose variacijose.
 - Pasirinkite **visą** aprėptį, jei norite atlikti viso puslapio ar fragmento eksperimentą. Sukuriamos atskiros numatytojo puslapio arba fragmento kopijos. Jums nereikės pasirinkti, kuriuos modulius įtraukti į eksperimentą, nes galima keisti visą redagavimo paviršių. Jei reikia, galite įtraukti, naikinti arba pertvarkyti modulius. Tačiau, jei atliekami bet kokie numatytojo puslapio arba fragmento, su kuriuo susietas eksperimentas, keitimai, šiuos keitimus reikia sinchronizuoti neautomatiniu būdu visose variacijose.
 
 <!-- not to editors, we're adding an image here to illustrate the difference. it will help.) -->
@@ -60,13 +60,13 @@ Norėdami prijungti eksperimentą, paleiskite vedlį **Eksperimento prijungimas*
 
 Norėdami pradėti jūsų eksperimento prijungimą „Commerce” svetainių daryklėje, atlikite toliau pateiktus veiksmus.
 
-1. Norėdami paleisti vedlį **Prijungti eksperimentą** , kairiojoje naršymo srityje pasirinkite **Eksperimentai** , tada pasirinkite **Prijungti**. Taip pat galite pasiekti vedlį iš puslapio arba fragmento rengyklės redaguodami eksperimentą ir komandų juostoje pasirinkdami **Prijungti eksperimentą**.
+1. Norėdami paleisti vedlį **Prijungti eksperimentą**, kairiojoje naršymo srityje pasirinkite **Eksperimentai**, tada pasirinkite **Prijungti**. Taip pat galite pasiekti vedlį iš puslapio arba fragmento rengyklės redaguodami eksperimentą ir komandų juostoje pasirinkdami **Prijungti eksperimentą**.
 
     > [!NOTE]
     > Puslapį galima prijungti tik prie vieno eksperimento vienu metu. Norėdami prijungti puslapį prie kito eksperimento, pirmiausia panaikinkite eksperimentą, prie kurio puslapis šiuo metu prijungtas.
 
 1. Pasirinkite puslapį arba fragmentą, kurio eksperimentą norite vykdyti.
-1. Nustatykite eksperimento aprėptį į **dalinę** arba **visą** , atsižvelgdami į pasirinkimą, kurį atlikote pirmesniame skyriuje [Jūsų eksperimento aprėpties nustatymas](#determine-the-scope-of-your-experiment).
+1. Nustatykite eksperimento aprėptį į **dalinę** arba **visą**, atsižvelgdami į pasirinkimą, kurį atlikote pirmesniame skyriuje [Jūsų eksperimento aprėpties nustatymas](#determine-the-scope-of-your-experiment).
     > [!NOTE]
     > Jei norite vykdyti viso puslapio ar fragmento eksperimentą, turite įjungti funkcijos vėliavėlę **Puslapių ar fragmentų eksperimentų vykdymas**. Daugiau informacijos ieškokite temoje [Eksperimentavimas „Dynamics 365 Commerce”](experimentation-overview.md).
     
@@ -84,7 +84,7 @@ Atlikite toliau pateiktus veiksmus, jei nurodėte **dalinę** jūsų eksperiment
 1. Pasirinkite modulį, su kuriuo bus eksperimentuojama, pasirinkite elipsę (...) ir tada pasirinkite **Įtraukti į eksperimentą**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Eksperimentų, kurių aprėptis visa, variacijų redagavimas
-Jei nurodėte **visą** jūsų eksperimento aprėptį vedlyje **Eksperimento prijungimas** , rengyklės rodinyje naudokite variacijų išplečiamąjį meniu, esantį po komandų juosta, norėdami redaguoti kiekvieną variaciją pagal jūsų pradinę hipotezę. 
+Jei nurodėte **visą** jūsų eksperimento aprėptį vedlyje **Eksperimento prijungimas**, rengyklės rodinyje naudokite variacijų išplečiamąjį meniu, esantį po komandų juosta, norėdami redaguoti kiekvieną variaciją pagal jūsų pradinę hipotezę. 
 
 > [!NOTE]
 > Bet kuriuo atveju galite nustatyti kontrolinę arba bazinę variaciją, palikdami vieną iš variacijų nepakeistą.

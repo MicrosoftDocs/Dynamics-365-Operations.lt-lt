@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: b034f3bac7264ff96100396cbb45e5b869765ce8
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712357"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419790"
 ---
 # <a name="request-time-off"></a>Atostogų užklausa
 
@@ -33,7 +33,7 @@ Galite pateikti atostogų užklausą, peržiūrėti atostogų ir neatvykimų bal
 
 1. Darbo srityje **Darbuotojo savitarna** plytelėje **Atostogų balansai** pasirinkite **Atostogų užklausa**.
 
-2. Įveskite **atostogų tipo**, **priežasties kodo**, **pradžios datos**ir **pabaigos datos** informaciją.
+2. Įveskite **atostogų tipo**, **priežasties kodo**, **pradžios datos** ir **pabaigos datos** informaciją.
 
 3. Dalyje **Datos** pasirinkite atostogų užklausos datas.
 

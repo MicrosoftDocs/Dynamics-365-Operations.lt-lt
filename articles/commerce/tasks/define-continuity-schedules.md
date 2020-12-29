@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 06fd1e23ad84fdc5e94e309717d5a96fbff45035
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140904"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414392"
 ---
 # <a name="define-continuity-schedules"></a> Nustatyti tęstinumo grafikus
 
@@ -36,7 +36,7 @@ ms.locfileid: "3140904"
 2. Spustelėkite Naujas.
 3. Lauke Grafiko ID įveskite tęstinumo grafiko ID.
 4. Lauke Užsakymo pradžia pasirinkite Pirmasis įvykis.
-    * Jei klientas pateikia naują užsakymą tęstinumo programai, yra dvi parinktys, kuris produktas bus siunčiamas: 1. Pirmas įvykis: bus siunčiamas pirmas tęstinumo programos produktas.  2. Dabartinis įvykis: bus siunčiamas pirmasis tęstinumo programos produktas. 2) Dabartinis įvykis: bus siunčiamas dabartinis produktas. Pavyzdys: praėjus trims mėnesiams nuo programos pradžios, klientas gaus trečiąjį programos produktą.  
+    * Jei klientas pateikia naują užsakymą tęstinumo programai, yra dvi parinktys, kuris produktas bus siunčiamas: 1. Pirmas įvykis: bus siunčiamas pirmas tęstinumo programos produktas.  2. Dabartinis įvykis: bus siunčiamas pirmasis tęstinumo programos produktas. Pavyzdys:  praėjus trims mėnesiams nuo programos pradžios, klientas gaus trečiąjį programos produktą.  
 5. Pasirinkite Taip, norite paraginti nurodyti užsakymo pradžios datą.
 6. Spustelėkite Pridėti eilutę.
 7. Lauke Prekės numeris įveskite pirmojo produkto (0013) prekės numerį.

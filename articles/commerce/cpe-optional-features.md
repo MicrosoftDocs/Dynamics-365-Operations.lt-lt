@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599825"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414242"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Konfigūruokite pasirinktas savybes „Dynamics 365 Commerce“ vertinimo aplinkoje
 
@@ -46,7 +46,7 @@ Jei norite įvertinti operacines el. pašto funkcijas, turi būti įvykdytos ši
 
 1. Prisijunkite prie komercijos svetainės kūrėjo naudodami URL, kurį užsirašėte pradėdami „e-Commerce“ parengimo metu (žr. [Pradėti „e-Commerce“](provisioning-guide.md#initialize-e-commerce)).
 1. Atidarykite **„Fabrikam“** svetainę.
-1. Meniu kairėje pasirinkite**Medijos biblioteka**.
+1. Meniu kairėje pasirinkite **Medijos biblioteka**.
 1. Pasirinkite bet kurį vieną vaizdo išteklių.
 1. Dešinėje esančiame ypatybių inspektoriuje suraskite ypatybę **Viešasis URL**. Jos reikšmė yra URL. Toliau pateikiamas pavyzdys.
 
@@ -75,7 +75,7 @@ Jei norite įvertinti operacines el. pašto funkcijas, turi būti įvykdytos ši
 > SMTP serveris arba el. pašto paslauga, kuriuos čia įvedate, turi būti pasiekiami „Azure“ prenumeratoje, kurią naudojate aplinkoje.
 
 1. Prisijunkite prie komercijos būstinės.
-1. Naudokite meniu kairėje ir eikite į**Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Elektroninio pašto parametrai**.
+1. Naudokite meniu kairėje ir eikite į **Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Elektroninio pašto parametrai**.
 1. Skirtuko **SMTP parametrai** lauke **Siunčiamo pašto serveris** įveskite savo SMTP serverio ar el. pašto tarnybos FQDN arba IP adresą.
 1. Lauke **SMTP prievado numeris** įveskite prievado numerį. (Jei nenaudojate saugiųjų jungčių lygmens \[SSL\], numatytasis prievado numeris yra **25**.)
 1. Jei reikalinga autentifikacija, įveskite reikšmes laukuose **Vartotojo vardas** ir **Slaptažodis**.
@@ -90,7 +90,7 @@ Jei norite įvertinti operacines el. pašto funkcijas, turi būti įvykdytos ši
 Kiekvieno operacinio įvykio, dėl kurio norite siųsti el. laiškus, el. laiškų šabloną turite atnaujinti galiojančiu siuntėjo el. pašto adresu.
 
 1. Prisijunkite prie komercijos būstinės.
-1. Naudokite meniu kairėje ir eikite į**Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Organizaciniai elektroninio pašto šablonai**.
+1. Naudokite meniu kairėje ir eikite į **Moduliai \> Mažmena ir komercija \> Būstinės sąranka \> Parametrai \> Organizaciniai elektroninio pašto šablonai**.
 1. Pasirinkite **Rodyti sąrašą**.
 1. Su kiekvienu sąraše esančiu šablonu atlikite toliau nurodytus veiksmus.
 

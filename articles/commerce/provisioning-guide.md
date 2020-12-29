@@ -3,7 +3,7 @@ title: „Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 description: Ši tema paaiškina, kaip galite parengti „Microsoft Dynamics 365 Commerce“ vertinimo aplinką.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599855"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4414502"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>„Dynamics 365 Commerce“ vertinimo aplinkos parengimas
 
@@ -48,6 +48,7 @@ Dėl informacijos, kaip konfigūruoti savo Komercijos vertinimo aplinką po jos 
 
 Toliau pateikti būtinieji komponentai privalo būti pritaikyti prieš jūsų Komercijos vertinimo aplinkos nustatymo:
 
+- Buvote priimtas į vertinimo programą ir jums suteiktos galimybės vertinimo aplinkoje.
 - Turite prieigą prie „Microsoft Dynamics Lifecycle Services“ (LCS) portalo.
 - Esate „Microsoft Dynamics“ 365 partneris ar klientas ir galite sukurti „Dynamics 365 Commerce“ projektą.
 - Jūs turite administratoriaus prieigą prie savo „Microsoft Azure“ prenumeratos ir galite susisiekti su jos administratoriumi, kuris pagelbės jums esant poreikiui.
@@ -91,7 +92,7 @@ Atlikite toliau pateikiamus veiksmus, norėdami įdiegti aplinką.
 
 1. Viršutiniame meniu pasirinkite **Aplinkos diegimo debesyje įrankis**.
 1. Pasirinkite **Įtraukti**, kad įtrauktumėte aplinką.
-1. Lauke **Programos versija** pasirinkite naujausią versiją. Jei norite pasirinkti ne naujausią programos versiją, nesirinkite versijos, ankstesnės nei versija **10.0.8**.
+1. Lauke **Programos versija** pasirinkite naujausią versiją. Jei norite pasirinkti ne naujausią programos versiją, nesirinkite versijos, ankstesnės nei versija **10.0.14**.
 1. Lauke **Platformos versija** naudokite platformos versiją, kuri automatiškai parenkama jūsų pasirinktai programos versijai. 
 
     ![Programos ir platformos versijų pasirinkimas](./media/project1.png)
@@ -123,7 +124,7 @@ Norėdami inicijuoti CSU, atlikite toliau nurodytus veiksmus.
 1. Dalyje **Aplinkos funkcijos** pasirinkite **Valdyti**.
 1. Skirtuke **„Commerce“** pasirinkite **Inicijuoti**. Rodomas CSU inicijavimo parametrų rodinys.
 1. **Regiono** laukelyje pasirinkite tą patį regioną arba artimą regioną, kuriame įdiegėte savo aplinką.
-1. Palikite**Versija** laukelį tokį, koks yra.
+1. Palikite **Versija** laukelį tokį, koks yra.
 1. Pasirinkite **Inicijuoti**.
 1. Diegimo patvirtinimo puslapyje patikrinkite, ar išsami informacija yra tiksli, ir pasirinkite **Taip**. Vėl rodomas rodinys **„Commerce“ valdymas**, kuriame pasirinktas skirtukas **„Commerce“**. Jūsų CSU jau buvo rengimo eilėje.
 1. Prieš tęsdami įsitikinkite, kad jūsų CSU būsena yra **Pavyko**. Inicijavimas trunka maždaug dvi–penkias valandas.
@@ -134,7 +135,7 @@ Jei negalite surasti **Tvarkyti** nuorodos aplinkos informacijos peržiūroje, s
 
 Norėdami inicijuoti „e-Commerce“, atlikite toliau nurodytus veiksmus.
 
-1. **e-Commerce** skirtuke peržiūrėkite vertinimo sutikimą ir tuomet pasirinkite**Sąranka**.
+1. **e-Commerce** skirtuke peržiūrėkite vertinimo sutikimą ir tuomet pasirinkite **Sąranka**.
 1. **„e-Commerce“ aplinkos pavadinimas** laukelyje, įveskite pavadinimą. Būkite atsargūs, nes šis pavadinimas bus rodomas kai kuriuose URL nuorodose, kurios veda į jūsų „e-Commerce“ objektą.
 1. Lauke **„Commerce Scale Unit“ pavadinimas** iš sąrašo pasirinkite savo CSU. (Sąraše turėtų būti tik viena parinktis.)
 

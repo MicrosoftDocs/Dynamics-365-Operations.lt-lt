@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014891"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4414503"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>„Modern POS“ (MPOS) ir „Cloud POS“ demonstracinių duomenų ekrano maketai
 
@@ -64,6 +64,7 @@ Ekrano maketo ID gali būti sudaryti iš ne daugiau nei 10 simbolių. ID yra eil
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | Pagrindinė versija, kurioje palaikomi įvairių įrenginių kelių ekranų dydžiai ir proporcijos |
 | 3.1            | Pagrindinė versija, kurioje teikiamas papildomas skydo **Rekomenduojami produktai** palaikymas        |
+| 4              | Išplėsta versija išplėstam „Fabrikam“ atnaujintam išdėstymui                                  |
 
 ### <a name="persona"></a>Asmenys
 
@@ -75,9 +76,9 @@ Ekrano maketo ID gali būti sudaryti iš ne daugiau nei 10 simbolių. ID yra eil
 
 ### <a name="example-layout"></a>Maketo pavyzdys
 
-Toliau pateikiamas įmonės „Fabrikam“ ekrano maketo ID, 3 maketo versijos ir parduotuvės vadovo asmenų pavyzdys.
+Toliau pateikiamas įmonės „Fabrikam“ ekrano maketo ID, 4 maketo versijos ir parduotuvės vadovo asmenų pavyzdys.
 
-F3MGR
+F4MGR
 
 Toliau pateiktoje iliustracijoje pavaizduotas „Fabrikam“ parduotuvės vadovo ekrano Darbo pradžia pavyzdys.
 
@@ -102,7 +103,8 @@ Toliau pateiktoje lentelėje nurodyti įprasto ekrano skiriamosios gebos maketo 
 | Didelė        | 1024 × 768 | 4:3          | Planšetiniai kompiuteriai                 |
 | Didelė\*      | 1280 × 720 | 16:9         | Planšetiniai kompiuteriai                 |
 | Didelė        | 1366 × 768 | 16:9         | Planšetiniai kompiuteriai, didesni ekranai |
-| Didelė        | 1440 × 960 | 3:2          | Planšetiniai kompiuteriai, didesni ekranai |
+| Pilnas        | 1440 × 960 | 3:2          | Planšetiniai kompiuteriai, didesni ekranai |
+| Pilnas\*      | 1536 × 864 | 16:9         | Planšetiniai kompiuteriai, didesni ekranai |
 
 \* Šie papildomi maketų dydžiai pasiekiami tik „Adventure Works“ ir „Fabrikam“ maketuose.
 
@@ -119,9 +121,9 @@ Kiekviena fiktyvi įmonė yra priskiriama atskiram mažmeninės prekybos segment
 
 | Įmonė         | Buvimo vieta | Segmentas        | Pabrėžti | Tema |
 |-----------------|----------|----------------|--------|-------|
-| Adventure Works | Sietlas  | Sporto prekės | Mėlyna   | Tamsu  |
-| Fabrikam        | Hiustonas  | Madingos prekės        | Žalia  | Light |
-| „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsu  |
+| Adventure Works | Sietlas  | Sporto prekės | Mėlyna   | Tamsus  |
+| „Fabrikam“        | San Franciskas  | Madingos prekės        | Žalia  | Šviesus |
+| „Contoso“         | Bostonas   | Elektronika    | Raudona    | Tamsus  |
 
 > [!NOTE]
 > „Adventure Works“ ir „Fabrikam“ yra du pagrindiniai prekių ženklai. „Contoso“ yra pasiekiamas, bet pateikti ne visi maketai.
@@ -153,9 +155,9 @@ Vartotojams pateikiami įvairūs ekrano maketai. Naudodamiesi toliau pateikta le
 | Adventure Works | A3MGR            | Parduotuvės vadovas | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Kasa       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Sandėliavimo tarnautojas   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Parduotuvės vadovas | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Kasa       | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |
+| „Fabrikam“        | F4MGR            | Parduotuvės vadovas | 000160, 000713         |
+| „Fabrikam“        | F3CSH            | Kasa       | 000161, 000113, 000114 |
+| „Fabrikam“        | F3STK            | Sandėliavimo tarnautojas   | 000164, 000112, 000123 |
 | „Contoso“         | C3MGR            | Parduotuvės vadovas | 000100, 000111         |
 | „Contoso“         | C3CSH            | Kasa       | 000110, 000120         |
 | „Contoso“         | Netaikoma   | Sandėliavimo tarnautojas   | Netaikoma         |

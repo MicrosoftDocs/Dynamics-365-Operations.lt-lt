@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3092019"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419650"
 ---
 # <a name="submit-a-leave-request-to-workflow"></a>Prašymo išeiti atostogų pateikimas darbo eigai
 
@@ -68,7 +68,7 @@ Naudodami šį metodą, nepateikite užklausos teksto.
 
 Sėkmingas atsakymas visuomet yra atsakymas **204 nėra turinio**.
 
-Neautorizuotos kvietyklės gaus atsakymą **401 neautorizuota** arba **403 draudžiama**.
+Neautorizuotos kvietyklės gaus atsakymą **401 neautorizuota **arba** 403 draudžiama**.
 
 Jei pateikti nepavyko (pvz., dėl patvirtinimo), atsakymas bus **500 serverio klaida**, o atsakymo tekste bus JSON objektas ir daugiau informacijos.
 

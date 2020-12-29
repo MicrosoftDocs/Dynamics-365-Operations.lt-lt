@@ -1,9 +1,9 @@
 ---
-title: Išsamios užsakymo informacijos modulis
-description: Šioje temoje aprašomi išsamios užsakymo informacijos moduliai ir jų naudojimas „Microsoft Dynamics 365 Commerce“.
-author: anupamar
+title: Užsakymo patvirtinimo modulis
+description: Šioje temoje aprašomi užsakymo patvirtinimo modeliai ir jis aprašo, kaip juos naudoti „Microsoft Dynamics 365 Commerce“.
+author: anupamar-ms
 manager: annbe
-ms.date: 06/18/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -17,57 +17,58 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6610d2abe0a1b03ddd763f9a65fc1dab42f1da1b
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: bf33ebf9c0c5136f40fcd7e1012988d186c4169b
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015185"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4414510"
 ---
-# <a name="order-details-module"></a>Išsamios užsakymo informacijos modulis
+# <a name="order-confirmation-module"></a>Užsakymo patvirtinimo modulis
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašomi išsamios užsakymo informacijos moduliai ir jų naudojimas „Microsoft Dynamics 365 Commerce“.
+Šioje temoje aprašomi užsakymo patvirtinimo modeliai ir jis aprašo, kaip juos naudoti „Microsoft Dynamics 365 Commerce“.
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-Išsamios užsakymo informacijos modulis pateikia užsakymo patvirtinimo informaciją. Pateikiamas užsakymo patvirtinimo ID, užsakymo kontaktinė informacija ir kita išsami informacija apie užsakymą, kaip pvz., įsigytos prekės, mokėjimo informacija ir pristatymo būdas.
+Užsakymo patvirtinimo modulis yra naudojamas siekiant parodyti užsakymo patvirtinimo išsamią informaciją padarius užsakymą. Jis rodo užsakymo patvirtinimo ID, užsakymo kontaktinę informaciją ir kitą išsamią užsakymo informaciją, tokią kaip įsigytos prekės, mokėjimo informacijas, paėmimo parinktys ir siuntimo metodas.
 
-## <a name="order-details-module-properties"></a>Užsakymo išsamios informacijos modulio ypatybės
+## <a name="order-confirmation-module-properties"></a>Užsakymo patvirtinimo modulio ypatybės
 
-| Ypatybės pavadinimas  | Reikšmės | aprašymas |
+| Ypatybės pavadinimas  | Reikšmės | Aprašymas |
 |----------------|--------|-------------|
-| Antraštė        | Antraštės tekstas ir antraštės žymė ( **H1** , **H2** , **H3** , **H4** , **H5** arba **H6** ) | Užsakymo išsamios informacijos modulis gali turėti antraštę. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
+| Antraštė        | Antraštės tekstas ir antraštės žymė (**H1**, **H2**, **H3**, **H4**, **H5** arba **H6**) | Užsakymo patvirtinimo modulyje gali būti antraštė. Numatyta, kad naudojama antrašės žymė **H2**. Tačiau žymę galima pakeisti, kad ji atitiktų pritaikymo neįgaliesiems reikalavimus. |
 | Kontaktinis numeris | Tekstas | Galite pateikti su užsakymais susijusių klausimų kontaktinį numerį. |
+| Rodyti paėmimo laiko vietos informaciją | Teisinga arba klaidinga | Ši ypatybės yra prieinama „Dynamics 365 Commerce“ 10.0.15 ir vėlesnėse versijose. Kai jis teisingas, jis rodo paėmimo laiko vietos informaciją, jei pateikta paėmimo prekei|
 
-## <a name="modules-that-can-be-used-on-an-order-details-page"></a>Moduliai, kuriuos galima naudoti užsakymo informacijos puslapyje
+## <a name="modules-that-can-be-used-on-an-order-confirmation-page"></a>Moduliai gali būti naudojami užsakymo patvirtinimo puslapyje
 
-Kurdami išsamios užsakymo informacijos puslapį, prie užsakymo informacijos modulio galite pridėti ir kitus svarbius modulius. Štai keletas pavyzdžių:
+Jums sukūrus užsakymo patvirtinimo puslapį, galite įtraukti kitus būtinus modulius kartu su užsakymo patvirtinimo moduliu. Štai keletas pavyzdžių:
 
-- **Rekomendacijų modulis** – jis gali būti pridėtas prie išsamios užsakymo informacijos puslapio, kad klientui būtų pasiūlyti kiti produktai.
-- **Rinkodaros moduliai** – prie išsamios užsakymo informacijos puslapio galima pridėti bet kurį rinkodaros modulį, kad būtų parodytas rinkodaros turinys.
+- **Rekomendacijų modulis** – Rekomendacijų modulis gali būti įtrauktas į užsakymo patvirtinimo puslapį siekiant patarti kitus produktus klientui.
+- **Reklamos moduliai** – Bet kuris reklamos modulis gali būti įtrauktas į užsakymo patvirtinimo puslapį, kad rodytų reklamos turinį.
 
-## <a name="add-an-order-details-module-to-a-page"></a>Pridėkite užsakymo išsamios informacijos modulį prie puslapio
+## <a name="add-an-order-confirmation-module-to-a-page"></a>Įtraukti užsakymo patvirtinimo modulį į puslapį
 
-Norėdami pridėti užsakymo išsamios informacijos modulį naujame puslapyje ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
+Norėdami įtraukti užsakymo patvirtinimo modulį į naują puslapį ir nustatyti reikiamas ypatybes, atlikite šiuos žingsnius.
 
-1. Eikite į **Šablonai** ir pasirinkite **Naujas** , kad sukurtumėte naują šabloną.
-1. **Naujas šablonas** dialogo lange po **Šablono pavadinimas** įveskite pavadinimą **Užsakymo išsamios informacijos šablonas** ir pasirinkite **Gerai**.
-1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį ( **...** ), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis** , tada pasirinkite **Gerai**.
-1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį ( **...** ) ir **Įtraukti modulį**.
-1. Dialogo lange **Pridėti modulį** pasirinkite **Užsakymo išsami informacija** modulį, tada pasirinkite **Gerai**.
-1. Pasirinkite **Įrašyti** ir tada pasirinkite **Peržiūrėti** , kad peržiūrėtumėte šabloną. Užsakymo informacijos modulis nebus atvaizduotas, nes tam reikalingas užsakymo patvirtinimo numerio kontekstas.
-1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
-1. Eikite į **Puslapiai** ir pasirinkite **Naujas** , kad sukurtumėte naują puslapį.
-1. Dialogo lange **Pasirinkti šabloną** pasirinkite **Užsakymo išsamios informacijos šablonas**. Po **Puslapio pavadinimas** įveskite **Užsakymo išsamios informacijos puslapis** , tada pasirinkite **Gerai**.
-1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį ( **...** ) ir **Įtraukti modulį**.
-1. Dialogo lange **Pridėti modulį** pasirinkite **Užsakymo išsami informacija** modulį, tada pasirinkite **Gerai**.
-1. Užsakymo išsamios informacijos modulio ypatybių srityje, šalia pieštuko simbolio, pasirinkite **Antraštė**.
-1. **Antraštės tekstas** lauke **Antraštė** dialogo lango įveskite antraštės tekstą **Užsakymo išsami informacija** ir pasirinkite **Gerai**.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
+1. Teksto laukelyje **Naujas šablonas** skyriuje **Šablono pavadinimas**, įtveskite pavadinimą **Užsakymo patvirtinimo šablonas** ir tada pasirinkite **Gerai**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Teksto laukelyje **Įtraukite modulį** pasirinkite **Užsakymo patvirtinimo** modulis ir tada rinkitės **Gerai**.
+1. Pasirinkite **Įrašyti** ir tada pasirinkite **Peržiūrėti**, kad peržiūrėtumėte šabloną. Užsakymo patvirtinimo modulis nebus sukurtas, nes jam reikia užsakymo patvirtinimo skaičiaus konteksto.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Teksto laukelyje **Pasirinkti šabloną** rinkitės **Užsakymo patvirtinimo šablonas**. Skyriuje **Puslapio pavadinimas**, įveskite **Užsakymo patvirtinimo puslapis** ir tada pasirinkite **Gerai**.
+1. Modulio **Numatytasis puslapis** vietoje **Pagrindinis** pasirinkite daugtaškį (**...**) ir **Įtraukti modulį**.
+1. Teksto laukelyje **Įtraukite modulį** pasirinkite **Užsakymo patvirtinimo** modulis ir tada rinkitės **Gerai**.
+1. Ypatybių juostoje užsakymo patvirtinimo moduliui, pasirinkite **Antraštė** šalia pieštuko simbolio.
+1. Laukelyje **Antraštės tekstas** skyriuje **Antraštės** teksto laukelyje, įtveskite antraštės tekstą **Užsakymo patvirtinimas** ir tada pasirinkite **Gerai**.
 1. Norėdami peržiūrėti puslapį, pasirinkite **Įrašyti** ir **Peržiūrėti**.
-1. Pasirinkite **Baigti redagavimą** , kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
+1. Pasirinkite **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
@@ -82,5 +83,7 @@ Norėdami pridėti užsakymo išsamios informacijos modulį naujame puslapyje ir
 [Siuntimo adreso modulis](ship-address-module.md)
 
 [Pristatymo parinkčių modulis](delivery-options-module.md)
+
+[Paėmimo informacijos modulis](pickup-info-module.md)
 
 [Dovanų kortelės modulis](add-giftcard.md)

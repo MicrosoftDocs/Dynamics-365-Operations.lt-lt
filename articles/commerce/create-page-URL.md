@@ -18,11 +18,11 @@ ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 588cbedb077fab0663d3d62fc4a8b8ed915635b3
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3001926"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414304"
 ---
 # <a name="create-a-page-url"></a>Kurti puslapio URL
 
@@ -89,7 +89,7 @@ Norėdami URL peradresuoti į kitą URL, atlikite tolesnius veiksmus.
 1. Pasirinkite peradresavimo paskirties vietą.
 
     - Norėdami nurodyti į kitą svetainės puslapį, pasirinkite **Vidinis URL**, daugtaškio mygtuką (**...**) ir URL, į kurį norite peradresuoti.
-    - Norėdami nukreipti į puslapį išorinėje svetainėje, pasirinkite **Išorinis URL**ir įveskite visą to puslapio URL. Būtinai įtraukite protokolą. Pavyzdžiui, įveskite `https://domain.com/new/page`. Jei URL jau peradresuoja į vidinį URL, įvesti išorinį URL galėsite tik pasirinkę **Valyti pasirinkimą**.
+    - Norėdami nukreipti į puslapį išorinėje svetainėje, pasirinkite **Išorinis URL** ir įveskite visą to puslapio URL. Būtinai įtraukite protokolą. Pavyzdžiui, įveskite `https://domain.com/new/page`. Jei URL jau peradresuoja į vidinį URL, įvesti išorinį URL galėsite tik pasirinkę **Valyti pasirinkimą**.
 
 1. Pasirinkite vieną iš tolesnių peradresavimo tipų.
 

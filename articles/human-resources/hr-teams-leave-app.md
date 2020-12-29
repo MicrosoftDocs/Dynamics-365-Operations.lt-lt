@@ -3,7 +3,7 @@ title: Atostogų prašymų valdymas „Teams“
 description: Šioje temoje parodyta, kaip prašyti išleisti iš darbo programoje „Dynamics 365 Human Resources“ naudojant „Microsoft Teams“.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929998"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4419806"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Atostogų prašymų valdymas „Teams“
 
 [!include [banner](includes/preview-feature.md)]
 
-„Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Galite sąveikauti su robotu, kad prašytumėte informacijos ir pradėtumėte atostogų užklausą. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Be to, galite siųsti žmonėms informaciją apie savo būsimą ne darbo laiką skiltyse „Komandos” ir „Pokalbiai” už „Human Resources” programėlės ribų.
+„Microsoft Teams“ veikianti programa „Microsoft Dynamics 365 Human Resources“ leidžia greitai prašyti išleisti iš darbo ir peržiūrėti savo ne darbo laiko balanso informaciją programoje „Microsoft Teams“. Galite sąveikauti su robotu, kad prašytumėte informacijos ir pradėtumėte atostogų užklausą. Skirtuke **Ne darbo laikas** pateikiama išsamesnė informacija. Galite taip pat nusiųsti asmenų informacija apie jūsų ateinantį nebuvimo laiką komandose ir pokalbius ne žmogiškųjų išteklių programoje.
 
 ## <a name="install-the-app"></a>Programos diegimas
 
@@ -182,11 +182,25 @@ Jei negalite prisijungti prie programos, gali būti, kad paskyra, kurią naudoja
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Klaida tvirtinant atostogų prašymus „Teams“ programoje „Human Resources“
 
-Jei gaunate klaidą bandydami patvirtinti atostogų prašymą programoje „Teams“, atlikite šiuos trikčių šalinimo veiksmus:
+Jei gaunate klaidą, kai bandote patvirtinti atostogų užklausas „Teams“ programoje, pabandykite tolesnius trikčių šalinimo žingsnius:
 
 1. Patikrinkite, ar paskyra, kurią naudojate prisijungimui prie „Microsoft Teams“, yra ta pati, kurią naudojate prieigai prie „Dynamics 365 Human Resources“.
 
 2. Patikrinkite, ar jus galite patvirtinti prašymą, patikrindami atostogų patvirtinimo darbo eigos parametrus. Norėdami gauti daugiau informacijos apie atostogų prašymo darbo eigas, žr. [Atostogų užklausos darbo eigos kūrimas](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Sužinokite prieinamumo problemas
+
+Žmogiškųjų išteklių programa „Teams“ turi tolesnes prieinamumo problemas, dėl kurių dirbame siekdami sutaisyti ateities versijose.
+
+| Išdavimas | Apėjimas ir paaiškiniams |
+| --- | --- |
+| Priartiniams iki 400% darbastalyje paskelpia kai kuriuos mygtukų veiksmus iš rodinio. | Rekomenduojame naudoti didinamąjį stiklą, kol palaikysime šį priartinimo lygį. |
+| Skirtuke **Nebuvimo laikas** perėmimas praneša mygtuko veiksmą skaitant antraštę iš nebuvimo tinklelio. | Antraštė ir elementai tinklelyje yra sugrupuoti pagal metus ir jie gali pradingti. Perėmimas interpretuoja tai kaip įjungiamą prekę, bet taip nėra. |
+| Jei paslinksite, kai iššokantis langas ar meniu yra atidarytas, perėmimas neperskaitys iššokusio lango ar meniu turinio. | Naršykite turinyje naudodami piršto nuskaitymą. |
+| Skirtuke **Nebuvimas** yra papildomas paslinkimo gestas naršant į **Priežasties kodą** naujame prašyme. | Nėra jokio paslėpto valdiklio, kurį bando gauti paslinkimo naršymas. |
+| Skirtuke **Nebuvimas** jums paslinkus, kai yra atidarytas kalendorius, baigsite ne valdiklyje, o naujos užklausos viršuje arba redaguodami užklausą. | Jums pasiekus **Eiti šiandien**, pagalvokite apie valdiklio pabaigą ir paslinkite atgaline kryptimi, kad grįžtumėte į viršų. |
+| Perėmimas nenuskaito datų žymų. | Datos yra skaitomos poromis ir visada yra **Pradžios data** ir **Pabaigos data**. |
+| Skirtuke **Pokalbis** koncentravimasis nušoka atgal į viršų jums įvedant datą ir naudojant padedantį įrankį ar klaviatūros naršymą. | Naudokite skirtuką, kol pasieksite savo įvesties sritį dar kartą. |
 
 ## <a name="privacy-notice"></a>Privatumo pranešimas
 

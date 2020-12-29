@@ -20,11 +20,11 @@ ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
 ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 21943fa91c35f063a5bd064290bf2c005394df52
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "3456512"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414342"
 ---
 # <a name="clienteling-overview"></a>Ryšių su klientais apžvalga
 
@@ -69,7 +69,7 @@ Naudodami programą Dynamics 365 Customer Insights, mažmenininkai gali rinkti d
 
 Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodytus veiksmus.
 
-1. Darbo srityje **Funkcijų valdymas**atlikite funkcijų filtravimą pagal modulį **Mažmeninė prekyba ir prekyba**.
+1. Darbo srityje **Funkcijų valdymas** atlikite funkcijų filtravimą pagal modulį **Mažmeninė prekyba ir prekyba**.
 
     ![Klientavimas funkcijų sąraše, skirtame „Commerce“ moduliui](./media/Enable_clienteling.png "Klientavimas funkcijų sąraše, skirtame prekybai ir mažmeninei prekybai")
 
@@ -93,7 +93,7 @@ Norėdami savo aplinkoje įjungti klientavimo funkciją, atlikite toliau nurodyt
     > [!NOTE]
     > Veiklos tipus iškviečia „Commerce Scale Unit“, kai jis pirmą kartą atlieka realiojo laiko iškvietimą. Iškvietus veiklas, jos laikomos talpykloje kelias valandas. Jei pakeitėte veiklos tipus, palaukite, kol talpykla nebegalios. Jei dirbama ne gamybinėje aplinkoje, „Commerce Scale Unit“ tarnybą paleiskite iš naujo.
 
-8. Prie reikiamo EKA ekrano išdėstymo pridėkite du mygtukus, kad pardavimo darbuotojai galėtų peržiūrėti savo klientų knygą ir parduotuvės klientų knygą. (Parduotuvės klientų knygos apima klientus iš visų kiekvieno darbuotojo klientų knygų, jei jie dalijasi adresų knygele su parduotuve.) Atitinkamų operacijų pavadinimai – **Žr. klientus klientų knygoje** ir **Žr. klientus iš parduotuvės klientų knygų**. Galimos trys papildomos operacijos, susijusios su klientų knygomis. Šiomis operacijomis nustatoma, kurie darbuotojai gali įtraukti, šalinti ir iš naujo priskirti klientus į klientų knygą. Jos pavadintos **Įtraukti klientą į klientų knygą**, **Pašalinti klientus iš klientų knygos**ir **Iš naujo priskirti klientus prie klientų knygos**.
+8. Prie reikiamo EKA ekrano išdėstymo pridėkite du mygtukus, kad pardavimo darbuotojai galėtų peržiūrėti savo klientų knygą ir parduotuvės klientų knygą. (Parduotuvės klientų knygos apima klientus iš visų kiekvieno darbuotojo klientų knygų, jei jie dalijasi adresų knygele su parduotuve.) Atitinkamų operacijų pavadinimai – **Žr. klientus klientų knygoje** ir **Žr. klientus iš parduotuvės klientų knygų**. Galimos trys papildomos operacijos, susijusios su klientų knygomis. Šiomis operacijomis nustatoma, kurie darbuotojai gali įtraukti, šalinti ir iš naujo priskirti klientus į klientų knygą. Jos pavadintos **Įtraukti klientą į klientų knygą**, **Pašalinti klientus iš klientų knygos** ir **Iš naujo priskirti klientus prie klientų knygos**.
 9. Vykdykite šias paskirstymo grafiko užduotis: 1040, 1150, 1110 ir 1090.
 
 Jums atlikus šią procedūrą, pardavimo darbuotojai gali atidaryti kliento informacijos puslapį EKA ir įtraukti klientus į savo klientų knygą, peržiūrėti ir fiksuoti klientų veiklas bei pastabas ir rasti tikslinius klientus, naudodami kliento ir klientų knygos atributus, kad filtruotų kliento knygą. Toliau pateikiamoje iliustracijoje vaizduojamas klientų knygos pavyzdys.

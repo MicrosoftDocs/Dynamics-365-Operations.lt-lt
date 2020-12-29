@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097144"
+ms.locfileid: "4414486"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Eksperimentavimas „Dynamics 365 Commerce”
 Naudokite „Dynamics 365 Commerce” eksperimentavimą, norėdami patvirtinti jūsų „e-Commerce” puslapių efektyvumo hipotezes ir priimti patikimus, duomenimis pagrįstus sprendimus. „Commerce” palaiko A / B tikrinimą puslapiuose, moduliuose ir fragmentuose bei leidžia įvertinti siūlomų svetainės pakeitimų poveikį.
@@ -33,9 +33,9 @@ Naudokite „Dynamics 365 Commerce” eksperimentavimą, norėdami patvirtinti j
 ## <a name="set-up-prerequisites"></a>Būtinųjų sąlygų nustatymas
 1. **Gaukite tinkamą „Commerce” versiją** – atnaujinkite jūsų modulių biblioteką, interneto kanalo išplečiamumo programinės įrangos kūrimo rinkinį (SDK) ir „Commerce Scale Unit” į „Commerce” 10.0.13 arba naujesnę versiją.
 1. **Nustatykite eksperimento jungtį** – eksperimento jungtis leidžia „Commerce” prisijungti prie trečiųjų šalių paslaugų ir gauti eksperimentų sąrašą siekiant nustatyti, kada vartotojui parodyti eksperimentą. Galite įsigyti trečiosios šalies jungtį iš [„AppSource”](https://appsource.microsoft.com). Sekite leidėjo pateiktas nustatymo instrukcijas. Taip pat galite naudoti „Commerce” bandymo jungtį, norėdami patikrinti eksperimento darbo eigą, nekonfigūruodami išorinės paslaugos. Daugiau informacijos žr. [Jungčių konfigūravimas ir įjungimas](e-commerce-extensibility/connectors.md). 
-1. **Įjunkite eksperimentavimo funkcijų vėliavėles „Commerce”** – galite įjungti eksperimentavimą nuomotojo lygiu, nuėję į **Nuomotojo parametrai > Funkcijos** , arba svetainės lygiu, nuėję į **Svetainės parametrai > Funkcijos**.
-    - Įjunkite vėliavėlę **Eksperimentavimas** , norėdami sukurti puslapyje esančių modulių eksperimento variacijas, nepaveikdami ar nekopijuodami kito turinio, kuris nėra eksperimento dalis. Tai užtikrina, kad vykdomi turinio naujinimai ne eksperimente liks sinchronizuoti eksperimento ciklo metu. Išjungus šią vėliavėlę, sustabdomas visų eksperimentų rodymas vartotojams ir pašalinamos visos svetainių daryklės redagavimo funkcijos.
-    - Įjunkite vėliavėlę **Puslapių ar fragmentų eksperimentų vykdymas** , norėdami vykdyti puslapio ar fragmento eksperimentus. Tai sukuria visą visų modulių, esančių puslapyje arba fragmente, puslapio arba fragmento egzemplioriaus kopiją. Naudokite šį režimą, kai norite tikrinti išsamius turinio keitimus arba kai vykdomų turinio pakeitimų sinchronizavimas egzemplioriuose nėra problema. Išjungus šią vėliavėlę, neleidžiama kurti ir redaguoti naujų puslapių ir fragmentų eksperimentų.
+1. **Įjunkite eksperimentavimo funkcijų vėliavėles „Commerce”** – galite įjungti eksperimentavimą nuomotojo lygiu, nuėję į **Nuomotojo parametrai > Funkcijos**, arba svetainės lygiu, nuėję į **Svetainės parametrai > Funkcijos**.
+    - Įjunkite vėliavėlę **Eksperimentavimas**, norėdami sukurti puslapyje esančių modulių eksperimento variacijas, nepaveikdami ar nekopijuodami kito turinio, kuris nėra eksperimento dalis. Tai užtikrina, kad vykdomi turinio naujinimai ne eksperimente liks sinchronizuoti eksperimento ciklo metu. Išjungus šią vėliavėlę, sustabdomas visų eksperimentų rodymas vartotojams ir pašalinamos visos svetainių daryklės redagavimo funkcijos.
+    - Įjunkite vėliavėlę **Puslapių ar fragmentų eksperimentų vykdymas**, norėdami vykdyti puslapio ar fragmento eksperimentus. Tai sukuria visą visų modulių, esančių puslapyje arba fragmente, puslapio arba fragmento egzemplioriaus kopiją. Naudokite šį režimą, kai norite tikrinti išsamius turinio keitimus arba kai vykdomų turinio pakeitimų sinchronizavimas egzemplioriuose nėra problema. Išjungus šią vėliavėlę, neleidžiama kurti ir redaguoti naujų puslapių ir fragmentų eksperimentų.
     > [!NOTE]
     > Vėliavėlė **Eksperimentavimas** turi būti įjungta, kad veiktų funkcija **Puslapių ar fragmentų eksperimentų vykdymas**.
     

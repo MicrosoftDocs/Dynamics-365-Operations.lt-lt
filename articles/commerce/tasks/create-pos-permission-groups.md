@@ -18,11 +18,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 2ffc64fd39a390af3ca7110178ef0999527106dc
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141389"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414397"
 ---
 # <a name="create-pos-permission-groups"></a>EKA teisių grupių kūrimas
 
@@ -33,7 +33,7 @@ ms.locfileid: "3141389"
 1. Naršymo srityje eikite į **Moduliai > Mažmeninė prekyba ir prekyba > Darbuotojai > Teisių grupės**.
 2. Pasirinkite **Naujas**.
 3. Lauke **POS teisių grupės ID** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Pažymėkite **Taip** lauke **Peržiūrėti laiko laikrodžio įrašus**. Dabar galite įjungti arba uždrausti įvairias savo EKA teisių grupės teises. Galite nustatyti kai kurių teisių reikšmę, kuri bus naudojama siekiant įvertinti, ar EKA vartotojas gali atlikti veiksmą. Šiame užduočių vadove įjungiamos kelios teisės, kurias galima suteikti kasininkui.  
 6. Pažymėkite **Taip** lauke **Leisti kurti užsakymą**.
 7. Pažymėkite **Taip** lauke **Leisti redaguoti užsakymą**.

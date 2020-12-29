@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3009899"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419666"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Našumo optimizavimas naudojant automatinio valymo užduotis
 
@@ -52,11 +52,11 @@ Suplanuokite automatinę užduotį, kad išvalytumėte paketinių užduočių re
 
    ![Pasikartojimo nustatymas](media/talent-batch-history-cleanup-recurrence.png)
 
-5. Dalyje **Nurodyti pasikartojimą**nustatykite parinktis **Pradžios data** ir **Pradžios laikas**, kad valymas būtų vykdomas po darbo arba savaitgalį, paskui pasirinkite **NĖRA PABAIGOS DATOS**. 
+5. Dalyje **Nurodyti pasikartojimą** nustatykite parinktis **Pradžios data** ir **Pradžios laikas**, kad valymas būtų vykdomas po darbo arba savaitgalį, paskui pasirinkite **NĖRA PABAIGOS DATOS**. 
 
    ![Pasikartojimo pradžios datos ir laiko nurodymas](media/talent-batch-history-cleanup-define-recurrence.png)
 
-6. Dalyje **KARTOJIMAS**pasirinkite **Dienos** ir nustatykite parinkties **PAKARTOTI PO NURODYTO INTERVALO** reikšmę **7**.
+6. Dalyje **KARTOJIMAS** pasirinkite **Dienos** ir nustatykite parinkties **PAKARTOTI PO NURODYTO INTERVALO** reikšmę **7**.
 
    ![Nustatymas, kad valymas būtų kartojamas kas savaitę](media/talent-batch-history-cleanup-recurrence-pattern.png)
 

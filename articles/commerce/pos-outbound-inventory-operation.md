@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 1f74df94b1647520880ff994581872b9d9f8e067
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971550"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414233"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Siunčiamų atsargų operacija EKA
 
@@ -60,7 +60,7 @@ Norėdami sukonfigūruoti nesinchroninę dokumentų sistemą, atlikite toliau pa
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Dviejų paketinių užduočių, skirtų dokumentų apdorojimo ir stebėjimo užduotims, kūrimas ir planavimas
 
 > [!NOTE]
-> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti pakeitinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite**Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui
+> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti pakeitinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite **Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui
 
 Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko sukurti arba kurių kūrimui skirtas laikas baigėsi, apdoroti. Taip pat jos bus naudojamos, kai aktyvių atsargų dokumentų, apdorojamų EKA, skaičius viršys sistemos sukonfigūruotą vertę.
 
@@ -184,7 +184,7 @@ Po to, kai eilutės buvo įrašytos į išorės perdavimo užsakymą, turite pas
 
 Jei dokumentas įrašomas vietoje, jį rasite skirtuke **Juodraščiai** dokumentų sąraše **Gaunamos operacijos**. Kol dokumento būsena yra **Juodraštis**, galite jį redaguoti pasirinkdami **Redaguoti**. Pagal poreikį galite atnaujinti, įtraukti ar naikinti eilutes. Be to, galite panaikinti visą dokumentą, kurio būsena yra **Juodraštis**, pasirinkę **Naikinti** skirtuke **Juodraščiai**.
 
-Po to, kai projektinis dokumentais buvo sėkmingai pateiktas komercijos štabe (HQ), jis pasirodo **Aktyvieji**skirtukte ir turi **Reikalaujamų** statusą. Nuo šiol dokumentą gali redaguoti tik siuntimo sandėlio vartotojai, EKA programoje pasirinkę **Siuntimo operacija**. Gavimo sandėlio vartotojai gali peržiūrėti perkėlimo užsakymą skirtuke **Aktyvieji**, esančiame dokumentų sąraše **Gaunamos operacijos**, tačiau jie negali jo redaguoti arba naikinti. Redagavimo užraktu užtikrinama, kad nekiltų konfliktų gaunančiam prašytojui pakeitus perkėlimo užsakymą tuo pačiu metu, kai siunčiantis siuntėjas aktyviai paima ir siunčia užsakymą. Jei, pateikus perkėlimo užsakymą, gaunanti parduotuvė arba sandėlis turi pateikti pakeitimų, reikia susisiekti su siunčiančiu siuntėju ir paprašyti įvesti pakeitimus.
+Po to, kai projektinis dokumentais buvo sėkmingai pateiktas komercijos štabe (HQ), jis pasirodo **Aktyvieji** skirtukte ir turi **Reikalaujamų** statusą. Nuo šiol dokumentą gali redaguoti tik siuntimo sandėlio vartotojai, EKA programoje pasirinkę **Siuntimo operacija**. Gavimo sandėlio vartotojai gali peržiūrėti perkėlimo užsakymą skirtuke **Aktyvieji**, esančiame dokumentų sąraše **Gaunamos operacijos**, tačiau jie negali jo redaguoti arba naikinti. Redagavimo užraktu užtikrinama, kad nekiltų konfliktų gaunančiam prašytojui pakeitus perkėlimo užsakymą tuo pačiu metu, kai siunčiantis siuntėjas aktyviai paima ir siunčia užsakymą. Jei, pateikus perkėlimo užsakymą, gaunanti parduotuvė arba sandėlis turi pateikti pakeitimų, reikia susisiekti su siunčiančiu siuntėju ir paprašyti įvesti pakeitimus.
 
 Dokumentui įgijus būseną **Pageidaujama**, jis yra paruoštas įvykdymo apdorojimui, vykdomam siuntimo sandėlyje. Kai siunta apdorojama naudojant siunčiamą operaciją, perkėlimo užsakymo dokumentų būsena pakeičiama iš **Pageidaujama** į **Visiškai išsiųsta** arba **Iš dalies išsiųsta**. Dokumentams įgijus būseną **Visiškai išsiųsta** arba **Iš dalies išsiųsta**, gaunanti parduotuvė arba sandėlis gali pagal juos registruoti gavimus, naudodami gaunamų operacijų gavimo procesą.
 

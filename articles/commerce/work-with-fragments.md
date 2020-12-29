@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019569"
+ms.locfileid: "4414475"
 ---
 # <a name="work-with-fragments"></a>Darbas su fragmentais 
 
@@ -62,10 +62,10 @@ Norėdami anksčiau sukonfigūruotą modulį konvertuoti į daugkartinio naudoji
 
 1. Atidarykite puslapį arba šabloną, kuriame yra modulis, kurį norite konvertuoti į fragmentą.
 1. Struktūros srities kairėje arba tiesiai vizualinėje puslapio daryklėje pasirinkite anksčiau konfigūruotą modulį.
-1. Struktūros srityje arba pasirinkto modulio įrankių juostoje vizualinėje puslapio daryklėje pasirinkite daugtaškį ( **...** ), esantį šalia modulio pavadinimo. 
+1. Struktūros srityje arba pasirinkto modulio įrankių juostoje vizualinėje puslapio daryklėje pasirinkite daugtaškį (**...**), esantį šalia modulio pavadinimo. 
 1. Pasirinkite **Bendrinti kaip fragmentą**. 
 1. Dialogo lange **Įrašyti kaip fragmentą** įveskite fragmento pavadinimą.
-1. Pasirinkite **Gerai** , kad modulių konfigūraciją įrašytumėte kaip fragmentą, kurį galima įtraukti į kitus puslapius.
+1. Pasirinkite **Gerai**, kad modulių konfigūraciją įrašytumėte kaip fragmentą, kurį galima įtraukti į kitus puslapius.
 <!-- The following image shows how to save a module configuration as a fragment.-->
 <!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
 
@@ -74,7 +74,7 @@ Norėdami anksčiau sukonfigūruotą modulį konvertuoti į daugkartinio naudoji
 Norėdami sukurti naują fragmentą „Commerce” svetainių daryklėje, atlikite toliau pateiktus veiksmus.
 
 1. Kairėje naršymo srityje pasirinkite **Fragmentai**.
-1. Pasirinkite **Naujas**. Pasirodys dialogo langas **Naujas fragmentas** , kuriame rodomi visi galimi modulių tipai. Kaip minėta anksčiau, fragmentai gali būti kuriami naudojant bet kokį modulio tipą.
+1. Pasirinkite **Naujas**. Pasirodys dialogo langas **Naujas fragmentas**, kuriame rodomi visi galimi modulių tipai. Kaip minėta anksčiau, fragmentai gali būti kuriami naudojant bet kokį modulio tipą.
 1. Pasirinkite fragmento modulio tipą.
 
 <!-- The following image shows where to create a new fragment.-->
@@ -91,7 +91,7 @@ Tolesnėse procedūrose aprašoma, kaip įtraukti fragmentų, juos pašalinti ir
 Norėdami įtraukti fragmentą „Commerce” svetainių daryklės puslapį, atlikite toliau pateiktus veiksmus.
 
 1. Struktūros juostoje kairėje arba tiesiai vizualinėje puslapio daryklėje pasirinkite konteinerį arba vietą, kur būtų galima įtraukti antrinius modulius.
-1. Pasirinkite daugtaškį ( **...** ) šalia talpyklos ar vietos pavadinimo.  Arba, jei naudojate vizualinę puslapio daryklę, pasirinkite pliuso simbolį ( **+** ).  
+1. Pasirinkite daugtaškį (**...**) šalia talpyklos ar vietos pavadinimo.  Arba, jei naudojate vizualinę puslapio daryklę, pasirinkite pliuso simbolį (**+**).  
 1. Pasirinkite **Įtraukti fragmentą**.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
@@ -109,7 +109,7 @@ Norėdami įtraukti fragmentą „Commerce” svetainių daryklės puslapį, atl
 
 Norėdami pašalinti fragmentą iš „Commerce” svetainių daryklės puslapio vietos ar konteinerio, atlikite toliau pateiktus veiksmus.
 
-1. Išorinėje jusotoje lairėje, pasirinkite elipsę ( **...** ) šalia šalinamo fragmento pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį.  Arba galite pasirinkite fragmentą vizualinėje puslapio daryklėje ir pasirinkti šiukšlių dėžės simbolį fragmento įrankių juostoje.
+1. Išorinėje jusotoje lairėje, pasirinkite elipsę (**...**) šalia šalinamo fragmento pavadinimo ir tuomet pasirinkite šiukšlių dėžės simbolį.  Arba galite pasirinkite fragmentą vizualinėje puslapio daryklėje ir pasirinkti šiukšlių dėžės simbolį fragmento įrankių juostoje.
 1. Kai būsite paraginti patvirtinti, kad norite pašalinti fragmentą, pasirinkite **Gerai**.
 
 > [!NOTE]

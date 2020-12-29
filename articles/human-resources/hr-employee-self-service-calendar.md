@@ -2,8 +2,8 @@
 title: Komandos kalendoriaus kūrimas
 description: Peržiūrėti ir kurti komandų kalendorius „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3969003"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419807"
 ---
 # <a name="view-team-and-company-calendars"></a>Komandos ir įmonių kalendorių peržiūra
 
@@ -64,6 +64,11 @@ Dabar kalendoriuose yra papildomi filtrai ir parinktys. Visuose kalendoriuose yr
 Kalendoriaus konfigūravimas atostogų ir neatvykimų parametruose nustato galimas peržiūros parinktis.
 
 Taip pat galite filtruoti kalendorius pagal vadovą arba padalinį. Pagrindinis pareigų priskyrimas nustato darbuotojus, rodomus nustačius šiuos filtrus. 
+
+>[!IMPORTANT]
+>Atostogų ir nebuvo darbe peržiūra visose įmonėse šiuo metu yra išankstinėje peržiūroje. Jums reikia jį įjungti savo **Smėlio dėžės** aplinkoje. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. [Funkcijų valdymas](hr-admin-manage-features.md).<br><br>
+>Tuomet turite įjungti funkciją **Žmogiškųjų išteklių bendrintuose parametruose** tam, kad jie rodytų juridinio asmens filtą kalendoriuose. Dėl daugiau informacijos, žr. [Konfigūruoti atostogų ir nebuvimo parametrus](hr-leave-and-absence-parameters.md).<br><br>
+>Galite filtruoti kalendorių pagal juridinį asmenį. Jei norite matyti visus darbuotojus nepriklausomai nuo juridinio asmens, pašalinkite filtro laukelį ir pasirinkite įvesti. 
 
 Informacijos apie kalendoriaus parametrus žr. skyriuje [Kalendoriaus parametrų konfigūravimas](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 

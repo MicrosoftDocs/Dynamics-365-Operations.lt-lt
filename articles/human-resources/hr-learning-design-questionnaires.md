@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429571"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419783"
 ---
 # <a name="design-questionnaires"></a>Klausimynų sudarymas
 
@@ -91,7 +91,7 @@ Numeracijos kodai naudojami tvarkyti klausimams ir atsakymams. Pagal šiuos nume
 Prieš pradėdami kurti savo duomenis, turėtumėte apibrėžti visus parametrus. Klausimyno parametrų nuostatas modifikuoti galite bet kuriuo metu.
 
 ## <a name="questionnaire-components"></a>Klausimynų komponentai
-Klausimynus sudaro trys pagrindiniai elementai: atsakymų grupės, kuriose pateikiami atsakymai į klausimus su keliais pasirinkimas, klausimai ir pats klausimynas.Neprivaloma: klausimyno klausimus galite grupuoti į rezultatų grupes. Rezultatų grupės leidžia kategorizuoti klausimus ir pateikti išsamesnę klausimyno analizę. 
+Klausimynus sudaro trys pagrindiniai elementai: atsakymų grupės, kuriose pateikiami atsakymai į klausimus su keliais pasirinkimas, klausimai ir pats klausimynas. Neprivaloma: klausimyno klausimus galite grupuoti į rezultatų grupes. Rezultatų grupės leidžia kategorizuoti klausimus ir pateikti išsamesnę klausimyno analizę. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 

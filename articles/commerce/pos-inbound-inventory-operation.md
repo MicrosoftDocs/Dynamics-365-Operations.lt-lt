@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971502"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414374"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Gaunamų atsargų operacijos EKA
 
@@ -59,7 +59,7 @@ Norėdami sukonfigūruoti nesinchroninę dokumentų sistemą, atlikite toliau pa
 ### <a name="create-and-schedule-two-batch-jobs-for-the-document-processing-and-monitoring-tasks"></a>Dviejų paketinių užduočių, skirtų dokumentų apdorojimo ir stebėjimo užduotims, kūrimas ir planavimas
 
 > [!NOTE]
-> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti šių paketinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite**Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui.
+> Komercinėje versijoje 10.0.13 ir velesnėje, neprivalote konfigūruoti šių paketinių užduočių per paketinės užduotės sistemą. Paketiniai procesai gali būti konfigūruojami per **Mažmeninė prekyba ir Komercija > Mažmeninės prekybos ir Komercijos IT** meniu. Naudokite **Mažmeninės prekybos dokumento operacijų stebėjimą** ir **Mažmeninės prekybos dokumento operacijos apdorojimo** meniu parinktis paketinių užduočių konfigūravimui.
 
 Jūsų sukurtos paketinės užduotys bus naudojamos dokumentams, kurių nepavyko sukurti arba kurių kūrimui skirtas laikas baigėsi, apdoroti. Taip pat jos bus naudojamos, kai aktyvių atsargų dokumentų, apdorojamų EKA, skaičius viršys sistemos sukonfigūruotą vertę.
 
@@ -168,7 +168,7 @@ Funkcija, įgalinanti pridėti eilutes, negali būti naudojama kaip apėjimo bū
 
 Jeigu funkcija **Pridėti eilutes į pirkimo užsakymą EKA gavimo metu** yra įgalinta ir vartotojas gauna kartu su EKA **Grįžtama operacija**, jeigu vartotojas nuskaito ar įveda prekės brūkšninį kodą ar numerį, kuris nėra atpažintas kaip prekė, esanti dabartiniame pirkimo užsakyme, bet yra atpažintas kaip tinkama prekė, tuomet vartotojas gauna pranešimą apie prekės įtraukimą į pirkimo užsakymą. Jei vartotojas prideda prekę į pirkimo užsakymą, kiekis įvestas į **Gaunama dabar** laikomas pirkimo užsakymo eilutei užsakytu kiekiu.
 
-Kai pirkimo užsakymo kvitas yra užbaigtas ir pateiktas HQ apdorojimui, yra sukuriamos įtrauktos eilutės pirkimo užsakymo pagrindiniame dokumente. Pirkimo užsakymo eilutėje, esančioje HQ, bus **Įtraukė EKA** žymė ant pirkimo užsakymo eilutės skirtuko **Bendra**. **Įtraukė EKA**žymė nurodo, kad pirkimo užsakymo eilutė buvo pridėta EKA gavimo proceso metu ir tai nebuvo eilutė ant pirkimo užsakymo prieš EKA gavimą.
+Kai pirkimo užsakymo kvitas yra užbaigtas ir pateiktas HQ apdorojimui, yra sukuriamos įtrauktos eilutės pirkimo užsakymo pagrindiniame dokumente. Pirkimo užsakymo eilutėje, esančioje HQ, bus **Įtraukė EKA** žymė ant pirkimo užsakymo eilutės skirtuko **Bendra**. **Įtraukė EKA** žymė nurodo, kad pirkimo užsakymo eilutė buvo pridėta EKA gavimo proceso metu ir tai nebuvo eilutė ant pirkimo užsakymo prieš EKA gavimą.
 
 ### <a name="cancel-receiving"></a>Atšaukti gavimą
 

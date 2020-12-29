@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: da9e4fb146b9ede8036c07aede8c7584e41923ad
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430721"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419769"
 ---
 # <a name="create-employment-categories"></a>Įdarbinimo kategorijų kūrimas
 
@@ -33,6 +33,6 @@ ms.locfileid: "3430721"
 
 2. Pasirinkite **Naujas**.
 
-3. Nurodykite dalių **Darbuotojo tipas**, **Įdarbinimo kategorija**ir **Aprašas** vertes.
+3. Nurodykite dalių **Darbuotojo tipas**, **Įdarbinimo kategorija** ir **Aprašas** vertes.
 
 4. Pasirinkite **Įrašyti**. 

@@ -1,9 +1,9 @@
 ---
 title: Darbuotojų atostogų valdymas
-description: Žmogiškųjų išteklių parametrų, skirtų atostogoms ir neatvykimams, nustatymas programoje „Dynamics 365 Human Resources“.
+description: Valdyti darbuotojų atsotogas „Dynamics 365 Human Resources“.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712138"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4419808"
 ---
 # <a name="manage-employee-leave"></a>Darbuotojų atostogų valdymas
 
@@ -44,6 +44,13 @@ Darbuotojo atostogas galite tvarkyti pagal atostogų tipą. Tai apima baigianči
 6. Jei norite, galite pasirinkti **datą**. 
 
 Koreguodami darbuotojo atostogų balansą galite nurodyti priežasties kodą ir komentarą. 
+
+>[!IMPORTANT]
+>Papildomos informacijos apie atostogų balansus peržiūrėjimas yra išankstinis. Jums reikia jį įjungti savo **Smėlio dėžės** aplinkoje. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. [Funkcijų valdymas](hr-admin-manage-features.md).<br>
+>Kai su pele užeinate ant atostogų balanso, dabar matysite:<br>
+>- **Prieinamas**: Bendrai už šiuos metus - Paimta šiais metais
+>- **Bendrai per šiuso metus**: Visi priskaičiavimai, pakeitimai ir sukauptas kiekis per metus
+>- **Paimta šiais metais**: Visas patvirtintas nebuvimo laikas
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

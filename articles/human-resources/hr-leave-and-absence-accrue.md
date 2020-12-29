@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 43c16c5d0de91bf1f433f4fde36e7d13775f44a0
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712174"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419778"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Sukauptų atostogų ir neatvykimų planai
 
@@ -33,7 +33,7 @@ ms.locfileid: "3712174"
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-2. Dalyje **Valdyti atostogų laiką**pasirinkite **Atostogų ir neatvykimų kaupimo planai**.
+2. Dalyje **Valdyti atostogų laiką** pasirinkite **Atostogų ir neatvykimų kaupimo planai**.
 
 3. Atsiranda dialogo langas **Atostogų ir neatvykimų kaupimo planai**. lauke **Kaupti nuo** pasirinkite **Šios dienos data** arba pasirinkite **Pasirinktinė data** ir įveskite pasirinktinę datą.
 
@@ -75,7 +75,7 @@ Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data tu
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-2. Dalyje **Valdyti atostogų laiką**pasirinkite **Naikinti atostogų ir neatvykimo planų kaupimus**.
+2. Dalyje **Valdyti atostogų laiką** pasirinkite **Naikinti atostogų ir neatvykimo planų kaupimus**.
 
 3. Dialogo lange **Naikinti atostogų ir neatvykimo planų kaupimus** pasirinkite **Atostogų planas**. 
 
@@ -105,7 +105,7 @@ Naikinkite konkretaus plano ir datų intervalo kaupimo įrašus. Kaupimo data tu
 
 1. Puslapyje **Atostogos ir neatvykimai** pasirinkite skirtuką **Saitai**.
 
-2. Dalyje **Valdyti atostogų laiką**pasirinkite **Naikinti atostogų kaupimo auditą**.
+2. Dalyje **Valdyti atostogų laiką** pasirinkite **Naikinti atostogų kaupimo auditą**.
 
 ## <a name="see-also"></a>Taip pat žiūrėkite
 

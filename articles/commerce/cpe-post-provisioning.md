@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6a1ae960f0f530104af7bdea9a8fcb78b01571f5
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414240"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Sukonfigūruokite „Dynamics 365 Commerce“ vertinimo aplinką
 
@@ -55,7 +55,7 @@ Tam, kad susietumėte darbuotoją su savo tapatybe, atlikite šiuos veiksmus Kom
 
 1. Naudodami kairėje esantį meniu, nueikite į **Moduliai \> Mažmeninė prekyba ir prekyba \> Darbuotojai \> Darbininkai**.
 1. Sąraše raskite ir pasirinkite šį įrašą **000713 - Andrew Collette**.
-1. Veiksmų juostoje pasirinkite**Komercija**.
+1. Veiksmų juostoje pasirinkite **Komercija**.
 1. Pasirinkite **Susieti esamą tapatybę**.
 1. Lauko **Ieškoti naudojant el. paštą** dešinėje esančiame lauke **El. paštas** įveskite savo el. pašto adresą.
 1. Pasirinkite **Ieškoti**.
@@ -71,10 +71,10 @@ Tam, kad susietumėte darbuotoją su savo tapatybe, atlikite šiuos veiksmus Kom
 1. Sąraše pasirinkite savo aplinką.
 1. Aplinkos informacijoje dešinėje, pasirinkite **Prisijungti prie debesies prekybos taško**.
 1. Pasirinkite **Kitas** tam, kad atvertumėte **Prieš pradžią** teksto laukelį.
-1. Palikite**Serverio URL** laukelį tokį, koks yra. Pasirinkite **Toliau**.
+1. Palikite **Serverio URL** laukelį tokį, koks yra. Pasirinkite **Toliau**.
 1. Prisijunkite naudodami savo „Microsoft Azure Active Directory“ („Azure AD“) paskyrą.
 1. **Parduotuvės pavadinimo** laukelyje pasirinkite **San Franciskas** ir tuomet pasirinkite **Kitas**.
-1. Dalyje **Registras ir įrenginys**pasirinkite **SANFRAN-1**.
+1. Dalyje **Registras ir įrenginys** pasirinkite **SANFRAN-1**.
 1. Pasirinkite **Aktyvinti**. Esate atjungiami ir nukreipiami į EKA prisijungimo puslapį.
 1. Dabar galite prisijungti prie debesies EKA funkcijų naudodami operatoriaus ID **000713** ir slaptažodį **123**.
 

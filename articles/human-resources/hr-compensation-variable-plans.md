@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: 85e64c4186c7782391a3db6dc4deb3fab0ea9f4f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3430537"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4419661"
 ---
 # <a name="create-variable-compensation-plans"></a>Kintamosios atlyginimo dalies planų kūrimas
 
@@ -34,7 +34,7 @@ Jūsų darbuotojų kintamosios atlyginimo dalies sumų skaičiavimas gali būti 
 ## <a name="variable-compensation-components"></a>Kintamosios atlyginimo dalies komponentai
 ### <a name="create-compensation-types"></a>kompensacijos tipų sukūrimas
 
-**Kintamosios atlyginimo dalies tipai**yra būtinas komponentas. Kintamosios atlyginimo dalies tipai leidžia aprašyti jūsų organizacijos teikiamas kintamosios atlyginimo dalies rūšis. Jie taip pat leidžia nurodyti, ar kompensacija bus mokama grynaisiais pinigais, ar nepinigine forma, pvz., akcijomis.
+**Kintamosios atlyginimo dalies tipai** yra būtinas komponentas. Kintamosios atlyginimo dalies tipai leidžia aprašyti jūsų organizacijos teikiamas kintamosios atlyginimo dalies rūšis. Jie taip pat leidžia nurodyti, ar kompensacija bus mokama grynaisiais pinigais, ar nepinigine forma, pvz., akcijomis.
 
 ### <a name="describe-vesting-rules"></a>Paskirstymo taisyklių aprašymas
 
@@ -49,17 +49,17 @@ Pasirinktinai įmonės gali nustatyti **paskirstymo taisykles**. Paskirstymo tai
 Kintamosios dalies premijos sumą gali sudaryti procentas nuo darbuotojo reguliaraus pagrindinio darbo užmokesčio arba nustatytas vienetų skaičius.
 
 -   Pasirinkite parinktį **Pagrindo procentas**, kad įvestumėte numatytąjį procentą, ir nurodykite, ar pagrindas turi būti darbuotojo fiksuotas darbo užmokesčio tarifas, ar darbuotojo kompensacijos lygio kontrolinis taškas. Kompensacijos lygis nustatytas pagal darbuotojo užduotį. Vienas iš kompensacijos struktūros atskaitos taškų gali būti nustatytas kaip pastoviosios atlyginimo dalies plano kontrolinis taškas. Sistema naudos darbuotojo užduoties kompensacijos lygį ir jį sutikrins su kontroliniu tašku, kuris įtrauktas į darbuotojo pastoviosios atlyginimo dalies planą, kad nustatytų darbuotojo kompensacijos lygio kontrolinio taško sumą. Tada kontrolinio taško suma bus naudojama vietoj darbuotojo fiksuoto darbo užmokesčio tarifo kaip premijos pagrindas.
--   Pasirinkite parinktį**Vienetų skaičius**, kad įvestumėte numatytąjį vienetų skaičių, kiekvieno vieneto vertę ir vieneto vertės valiutą, jei kompensacijos plano premija mokama ne grynaisiais pinigais (pvz., 200 akcijų, kurių kiekvienos vertė 40 USD), arba tiesiog vienetų skaičių, jei kompensacijos plano premija mokama grynaisiais pinigais. Grynaisiais pinigais mokamos premijos atveju darbuotojas gaus nurodytą skaičių vienetų valiutos, kuri naudojama jo pastoviosios atlyginimo dalies plane (pvz., 500 vienetų po 1 USD). Galima naudoti tiesioginio ryšio valdymą nurodant, ar yra tiesioginis ryšys tarp vienetų skaičiaus ir vieneto vertės. Kuriant grynaisiais pinigais pagrįstą kintamosios atlyginimo dalies planą pagal vienetų skaičių, automatiškai užfiksuojama šios parinkties reikšmė **Taip**, o vieneto vertė yra **1,0000**.
+-   Pasirinkite parinktį **Vienetų skaičius**, kad įvestumėte numatytąjį vienetų skaičių, kiekvieno vieneto vertę ir vieneto vertės valiutą, jei kompensacijos plano premija mokama ne grynaisiais pinigais (pvz., 200 akcijų, kurių kiekvienos vertė 40 USD), arba tiesiog vienetų skaičių, jei kompensacijos plano premija mokama grynaisiais pinigais. Grynaisiais pinigais mokamos premijos atveju darbuotojas gaus nurodytą skaičių vienetų valiutos, kuri naudojama jo pastoviosios atlyginimo dalies plane (pvz., 500 vienetų po 1 USD). Galima naudoti tiesioginio ryšio valdymą nurodant, ar yra tiesioginis ryšys tarp vienetų skaičiaus ir vieneto vertės. Kuriant grynaisiais pinigais pagrįstą kintamosios atlyginimo dalies planą pagal vienetų skaičių, automatiškai užfiksuojama šios parinkties reikšmė **Taip**, o vieneto vertė yra **1,0000**.
 
 Nustatymas **Samdos taisyklė** leidžia nurodyti, ar visi darbuotojai turi gauti tokį patį padidėjimą, neatsižvelgiant į jų pasamdymo dieną(**Samdos taisyklė**  =  **Nėra**), ar darbuotojai turi gauti procentą nuo premijos, atsižvelgiant į jų darbo trukmę per ciklą (**Samdos taisyklė** =  **Procentas**). 
 
 **Svertas** leidžia koreguoti darbuotojo premiją pagal darbuotojo padalinio rezultatus. Kiekvieno padalinio rezultatų matavimą galima nustatyti puslapyje **Padaliniai** srityje **Susijusios formos** &gt; **Kompensacija** &gt; **Rezultatai**. Premija, kurią gauna to padalinio darbuotojai, priklauso nuo lauko **Pasiekto tikslo procentas** reikšmės, kuri rodo padalinio rezultatus.
 
--   Jei departamento rezultatai siekia 100 procentų, to padalinio darbuotojams skiriama premija apskaičiuojama pagal procentą, nurodytą lauke**Išmoka 100 %**.
+-   Jei departamento rezultatai siekia 100 procentų, to padalinio darbuotojams skiriama premija apskaičiuojama pagal procentą, nurodytą lauke **Išmoka 100 %**.
 -   Jei padalinio rezultatai viršija 100 procentų, sistema prideda procentą, nurodytą lauke **Po 1 % virš tikslo**, prie procento, nurodyto lauke **Išmoka 100 %**, kol bus pasiekta lauke **Didžiausia leistina išmoka** nurodyta reikšmė.
 -   Jei padalinio rezultatai nesiekia 100 procentų, sistema atima procentą, nurodytą lauke **Po 1 % žemiau tikslo**, iš procento, nurodyto lauke **Išmoka 100 %**, kol bus pasiekta lauke **Mažiausia leistina išmoka** nurodyta reikšmė.
 
-Galite nustatyti procentų ribinių reikšmių**leistinų nuokrypių lygius**, kad pasirodytų įspėjamasis pranešimas, jei dėl sverto procentas nebepatektų į ribinių reikšmių intervalą. 
+Galite nustatyti procentų ribinių reikšmių **leistinų nuokrypių lygius**, kad pasirodytų įspėjamasis pranešimas, jei dėl sverto procentas nebepatektų į ribinių reikšmių intervalą. 
 
 Pagal numatytuosius parametrus sistema ieško padalinio, kuris priskirtas prie darbuotojo pareigų. Tačiau kai kurių darbuotojų premijos gali priklausyti nuo keleto padalinių rezultatų. Tokiu atveju skirtingus padalinius ir premijos, kuri priskiriama kiekvieno padalinio rezultatams, procentą galima nustatyti registruojant darbuotoją kintamosios atlyginimo dalies kompensacijai. Daugiau informacijos ieškokite kitame skyriuje „Kintamosios atlyginimo dalies registravimas“. 
 

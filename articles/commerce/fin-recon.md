@@ -19,11 +19,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 5d0520f35391f76b52fd8a333033b0d7ba4f7fe1
-ms.sourcegitcommit: 1e6a7b50596eaf9d965e0155f3f2c50f7f50747e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3498018"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414236"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Finansinis suderinimas mažmeninės prekybos parduotuvėse
 
@@ -42,7 +42,7 @@ Be to, „Commerce” 10.0.10 ir ankstesnėse versijose, parduotuvių vadovai ga
 
 Atlikite šiuos veiksmus norėdami naudotis finansinio suderinimo funkcija.
 
-1. **Funkcijų valdymas**darbo srityje įjunkite **Mažmeninės prekybos ataskaitos – Informacijos santrauka mažais etapais** funkciją.
+1. **Funkcijų valdymas** darbo srityje įjunkite **Mažmeninės prekybos ataskaitos – Informacijos santrauka mažais etapais** funkciją.
 1. EKA funkcijų profilį, skirtą atitinkamai parduotuvei, nustatykite **Įjungti finansinį derinimą parduotuvėje** parinktį į **Taip**.
 
 ## <a name="more-information-about-financial-reconciliation"></a>Daugiau informacijos apie finansinį suderinimą

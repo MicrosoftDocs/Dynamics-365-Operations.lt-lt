@@ -18,11 +18,11 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e255c58997ed1c0ad5614b15867f14714a8bcfc8
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107403"
+ms.locfileid: "4414500"
 ---
 # <a name="store-configurations-for-retail-statements"></a> Mažmeninės prekybos išrašų parduotuvės konfigūracijos
 
@@ -47,5 +47,5 @@ ms.locfileid: "4107403"
 15. Lauke **Darbo dienos pabaiga** įveskite laiką, jei operacijos, įvykusios po vidurnakčio, turėtų būti registruojamos ankstesnę dieną.  
 16. Pasirinkite parinkties **Registruoti kaip darbo dieną** nuostatą Taip, jei operacijos, įvykusios po vidurnakčio, turėtų būti registruojamos ankstesnę dieną.  
 17. Pasirinkite parinkties **Skaidyti pagal išrašo metodą** nuostatą Taip, kad išrašai būtų sukurti pagal kiekvieną nustatytą išrašų metodą. Šis veiksmas gali būti naudingas, jei registravimo efektyvumą reikia tobulinti parduotuvėse, kuriose atliekama daug operacijų, nes tokiu atveju būtų sukurta daug mažesnių išrašų, kuriuos galima apdoroti lygiagrečiai.  
-18. „FastTab“ **Bendra** , lauke **Numatytasis klientas** , galite pasirinkti kliento sąskaitą, skirtą naudoti pardavimui atėjusiems klientams.  
+18. „FastTab“ **Bendra**, lauke **Numatytasis klientas**, galite pasirinkti kliento sąskaitą, skirtą naudoti pardavimui atėjusiems klientams.  
 

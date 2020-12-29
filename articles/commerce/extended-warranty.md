@@ -19,11 +19,11 @@ ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621198"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414238"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Prailgintų garantijų kūrimas ir konfigūravimas
 
@@ -125,7 +125,7 @@ Norėdami sukonfigūruoti kanalui būdingą parametrą „Commerce”, atlikite 
     - Pažymėkite šį žymės langelį, jei garantinės prekės raginimas turėtų būti rodomas EKA, kai garantinė prekė pridedama į krepšelį.
     - Atžymėkite žymės langelį, jei nenorite, kad būtų rodomas garantinės prekės raginimas EKA, kai garantinė prekė pridedama į krepšelį.
 
-1. Paleiskite **1070**užduotį sinchronizuoti duomenis su kanalu.
+1. Paleiskite **1070** užduotį sinchronizuoti duomenis su kanalu.
 
 ## <a name="configure-a-number-sequence-for-warranty-policies"></a>Konfigūruokite garantinių strategijų numeraciją
 
@@ -153,7 +153,7 @@ Norėdami nustatyti garantijų grupę „Commerce”, atlikite šiuos veiksmus.
 1. **Taikytini kanalai** „FastTab” skirtuke pasirinkite **Pridėti eilutę**, kad galėtumėte pridėtumėte kanalą, kuriame norite parduoti garantinę prekę.
 1. Pasirinkite **Įrašyti**, kad įrašytumėte konfigūraciją.
 1. Pasirinkite **Publikuoti**, kad publikuotumėte garantijų grupę.
-1. Paleiskite **1040**užduotį sinchronizuoti duomenis kanale.
+1. Paleiskite **1040** užduotį sinchronizuoti duomenis kanale.
 
 ## <a name="sell-warranty-items-at-the-pos"></a>Garantinių prekių pardavimas EKA
 

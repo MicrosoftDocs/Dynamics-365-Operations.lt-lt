@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 250f2386cefee8bef45df66c4eef31b4e7fc2686
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621276"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4414415"
 ---
 # <a name="work-with-style-presets"></a>Darbas su išankstinėmis stilių parinktimis
 
@@ -71,7 +71,7 @@ Norėdami sukurti pasirinktiną išankstinę stiliaus parinktį svetainėje svet
 1. Įveskite naujos išankstinės parinkties pavadinimą ir aprašą ir pasirinkite **Įrašyti**. Sukuriama nauja tinkinama išankstinė parinktis, kuri naudoja numatytąsias temos vertes kaip pradžios tašką.
 
 > [!NOTE]
-> Taip pat galite kurti naują pasirinktinę išankstinę stiliaus parinktį pagal esamą parinktį pažymėję elipsės mygtuką ( **...**) tai parinkčiai ir tada pasirinkdami **Įrašyti kaip**. Kitu atveju galite pasirinkti **Įrašyti kaip**esamo doroklio komandų juostoje.
+> Taip pat galite kurti naują pasirinktinę išankstinę stiliaus parinktį pagal esamą parinktį pažymėję elipsės mygtuką ( **...**) tai parinkčiai ir tada pasirinkdami **Įrašyti kaip**. Kitu atveju galite pasirinkti **Įrašyti kaip** esamo doroklio komandų juostoje.
 
 ## <a name="modify-global-and-module-type-style-values"></a>Visuotino ir modulio tipo stiliaus verčių modifikavimas
 
