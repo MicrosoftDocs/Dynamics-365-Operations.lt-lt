@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898924"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527295"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 5 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Talent“ funkcijos.
 
@@ -76,5 +78,5 @@ Terminas, iki kurio galima naujovinti į „Common Data Service“, sparčiai ar
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Išplėstinės kompensacijos sauga (fiksuota ir kintama)
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali pasiekti tik tam tikrus kompensacijų įrašus, pvz., vadovams arba tam tikrų regionų darbuotojams skirtus įrašus. Atlikus šį pakeitimą, galite valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Fiksuotam ir kintamam planams galima priskirti saugos vaidmenis – tokiu būdu nustatysite prieigą prie planų ir darbuotojų duomenų, susijusių su planais, pvz., pajamų arba premijų įrašai. Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations“ platformos 24 naujinimas
-Papildomos informacijos apie „Finance and Operations“ platformos 24 naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ platformos 24 naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations” platformos 24 naujinimas
+Dėl papildomos išsamios informacijos apie „Platform“ naujinimą 24 „Finance and Operations“, žr. [Kas yra nauja ar pakeista „Finance and Operations“ platformos naujinime 24 (2019 m. kovo mėnesį)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897700"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529167"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. gruodžio 6 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **8.1.2071 versija**
 
 Šioje temoje aprašomos naujos ir pakeistos „Core HR“ funkcijos.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>„Finance and Operations“ platformos 22 naujinimas
+## <a name="platform-update-22-for-finance-and-operations"></a>„Finance and Operations” platformos 22 naujinimas
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Eksportuoti iki 1 mln. eilučių į „Excel“
 
@@ -40,7 +42,7 @@ Dabar eksportavimo į „Excel“ funkciją galima sukonfigūruoti taip, kad var
 
 ### <a name="restyled-personalization-toolbar"></a>Patobulinta personalizavimo įrankių juosta
 
-Personalizavimo įrankių juosta buvo patobulinta įdiegus „Finance and Operations“ platformos 22 naujinimą siekiant padėti vartotojams lengviau pritaikyti savo patirtį naudojant „Talent“. Atlikti toliau nurodyti pakeitimai. 
+Suasmeninmo įrankių juosta buvo suprojektuota naujai „Platform“ atnaujinime 22 „Finance and Operations“ siekiant padėti vartotojams paprasčiau išdirbti jų turimas patirtis „Talent“. Atlikti toliau nurodyti pakeitimai. 
 
 -  Kiekvieno personalizavimo įrankio pavadinimas dabar rodomas kartu su piktograma, kuri padeda vartotojams greitai atpažinti įrankį, kuriuo jie suinteresuoti naudotis.
 -  Dabar rodomas ir dabartinio įrankio naudojimo aprašymas, kuris padeda vartotojams suprasti, kaip atlikti reikalingą personalizavimą.  
@@ -48,13 +50,13 @@ Personalizavimo įrankių juosta buvo patobulinta įdiegus „Finance and Operat
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Optimizuota filtravimo patirtis „viena iš“
 
-Daugelyje laukų galimas filtravimo operatorius „vienas iš“ naudojant filtro sritį ir tinklelio antraštės išplečiamuosius sąrašus. Šis operatorius leidžia vartotojui filtruoti lauką pagal kelias vertes. Nauja ir patobulinta operatoriaus „vienas iš“ patirtis pateikiama įdiegus „Finance and Operations“ platformos 22 naujinimą. Norėdami sužinoti daugiau, žr. [Optimizuota filtravimo patirtis „viena iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+Daugelyje laukų galimas filtravimo operatorius „vienas iš“ naudojant filtro sritį ir tinklelio antraštės išplečiamuosius sąrašus. Šis operatorius leidžia vartotojui filtruoti lauką pagal kelias vertes. Nauja ir pagerinta patirtis yra „viena iš“ esamų „Platform“ naujinimų 22 „Finance and Operations“. Norėdami sužinoti daugiau, žr. [Optimizuota filtravimo patirtis „viena iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Sąrašų įklijavimas iš „Excel“ į filtro laukus naudojant operatorių „vienas iš“
 
 Atlikdami tam tikras užduotis vartotojai gali turėti „Excel“ verčių sąrašą, kurį norėtų naudoti „Talent“ duomenims filtruoti. Pavyzdžiui, žmogiškųjų išteklių vartotojas galėjo nustatyti darbuotojų grupę iš ataskaitos, kuriai reikia papildomų tyrimų sistemoje, ir būtų geriausia, kad šis vartotojas galėtų tiesiogiai kopijuoti sąrašą iš „Excel“ į „Talent“ filtro lauką.
 
-Pradedant nuo „Finance and Operations“ platformos 22 naujinimo, operatorius „vienas iš“ filtro srityje ir tinklelio stulpelių filtravimo metu dabar atpažįsta iš „Excel“ nukopijuotus sąrašus, kad juos būtų galima tiesiogiai įklijuoti į filtro lauką. Tai apima verčių, nukopijuotų iš skirtingų „Excel“ eilučių ir stulpelių, rinkinį. Norėdami sužinoti daugiau apie šią funkciją, žr. [Sąrašų įklijavimas iš „Excel“ į filtro laukus naudojant operatorių „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+Pradedant su „Platform“ naujinime 22 „Finance and Operations“, „vienas iš" operatorių filtravimo juostoje ir tinklelio stulpelio filtravime dabar atpažinta sąrašus nukopijuotus iš „Excel“ tam, kad juos galima būtų tiesiogiai perkelti į filtruojamą laukelį. Tai apima verčių, nukopijuotų iš skirtingų „Excel“ eilučių ir stulpelių, rinkinį. Norėdami sužinoti daugiau apie šią funkciją, žr. [Sąrašų įklijavimas iš „Excel“ į filtro laukus naudojant operatorių „vienas iš“](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Peržiūros režimu
 
@@ -133,7 +135,7 @@ Darbuotojų, skirtų darbui, užduočiai reikia atnaujinti šiuos susiejimus.
 
 Taip pat reikia atnaujinti lyties lauko transformaciją. Pasirinkite lyties susiejimo tipą **fn** (funkcija) ir atnaujinkite šiuos vertės susiejimus.
 
-| „Common Data Service“ vertė   | „Finance and Operations“ vertė | | ------------|------------------ -----------| | 75440000    | Vyras                         | | 75440001    | Moteris                       | | 75440002    | Nėra                         | | 75440003    | Neapibrėžta                  |
+| „Common Data Service“ vertė   | „Finance and Operations“ vertė | | ------------|------------------ -----------| | 75440000    | Vyras                         | | 75440001    | Moteris                       | | 75440002    | Nėra                         | | 75440003    | Nenurodyta                  |
 
 Atnaujinti susiejimai turėtų atrodyti taip.
 

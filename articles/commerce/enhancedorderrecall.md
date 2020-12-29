@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974843"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665303"
 ---
 # <a name="recall-order-operation-in-pos"></a>EKA operacija Atšaukti užsakymą
 
 [!include [banner](includes/banner.md)]
 
-Operacija Atšaukti užsakymą „Commerce” elektroniniame kasos aparate (EKA) teikia atnaujintas užsakymų ieškos ir filtravimo funkcijas bei konkrečių užsakymų informaciją. Ši funkcija pasiekiama 10.0.15 arba vėlesnės versijos „Commerce“.
+**Užsakymo atšaukimo** veiksmas komercijos prekybos taške (POS) leidžia naujinti užsakymo paiešką ir filtravimo funkcijas bei su konkrečiu užsakymu susijusią informaciją. Ši funkcija pasiekiama 10.0.15 arba vėlesnės versijos „Commerce“.
 
 Norėdami įgalinti šią funkciją, įjunkite funkciją **Patobulinta EKA operacija Atšaukti užsakymą** „Commerce Headquarters“ darbo srityje **Funkcijų valdymas**. Įjungę funkciją, apsvarstykite galimybę atnaujinti jūsų [ekrano maketus](pos-screen-layouts.md) EKA, kad pasinaudotumėte kai kuriomis pakitusiomis galimybėmis.
 

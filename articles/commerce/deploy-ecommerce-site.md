@@ -1,6 +1,6 @@
 ---
-title: Naujo el. prekybos nuomotojo diegimas
-description: Šioje temoje aprašoma, kaip įdiegti naują el. prekybos nuomininką naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
+title: Talpinkite naują e-komercijos nuomotoją
+description: Šiame skyriuje aprašoma, kaip talpinti naują „Dynamics 365 Commerce“ e-komercijos svetainę naudojant „Microsoft Dynamics  Lifecycle Services“ (LCS).
 author: psimolin
 manager: annbe
 ms.date: 07/02/2020
@@ -17,40 +17,40 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533280"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517287"
 ---
-# <a name="deploy-a-new-e-commerce-tenant"></a>Naujo el. prekybos nuomotojo diegimas
+# <a name="deploy-a-new-e-commerce-tenant"></a>Talpinkite naują e-komercijos nuomotoją
 
 
 [!include [banner](includes/banner.md)]
 
-Šioje temoje aprašoma, kaip įdiegti naują el. prekybos svetainę naudojant „Microsoft Dynamics“ „Lifecycle Services“ (LCS).
+Šiame skyriuje aprašoma, kaip talpinti naują „Dynamics 365 Commerce“ e-komercijos svetainę naudojant „Microsoft Dynamics  Lifecycle Services“ (LCS).
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-„Microsoft Dynamics“ „Lifecycle Services“ (LCS) yra debesiu pagrįsta bendradarbiavimo darbo sritis, kurią partneriai ir klientai gali naudoti savo projektams ir aplinkoms tvarkyti, peržiūrėti naujausią informaciją apie „Microsoft Dynamics“ produktus ir funkcijas bei kurti, sekti ir naršyti palaikymo incidentus. El. prekybos valdymo funkcijos integruotos į LCS.
+„Microsoft Dynamics“ „Lifecycle Services“ (LCS) yra debesiu pagrįsta bendradarbiavimo darbo sritis, kurią partneriai ir klientai gali naudoti savo projektams ir aplinkoms tvarkyti, peržiūrėti naujausią informaciją apie „Microsoft Dynamics“ produktus ir funkcijas bei kurti, sekti ir naršyti palaikymo incidentus. E-komercijos valdymo funkcijos yra integruotos į LCS.
 
 Norėdami sužinoti daugiau apie LCS, žr. [„Lifecycle Services“ vartotojo vadovą](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide).
     
-## <a name="get-started"></a>Darbo pradžia
+## <a name="get-started"></a>Pradėta
 
-Kad galėtumėte paleisti el. prekybą, turite paleisti projektą, aplinką ir „Retail Cloud Scale Unit“ (RCSU). Norėdami atlikti LCS inicijavimą, turite turėti teises, skirtas projekto savininko arba aplinkos administratoriaus vaidmeniui. Palaikomos gamybos ir smėlio dėžės aplinkos topologijos.
+Prieš tai kai pradėsite e-komerciją, turite pradėti projektą, aplinką ir Retail Cloud Scale Unit (RCSU). Norėdami atlikti LCS inicijavimą, turite turėti teises, skirtas projekto savininko arba aplinkos administratoriaus vaidmeniui. Palaikomos gamybos ir smėlio dėžės aplinkos topologijos.
 
 Daugiau informacijos apie aplinkas ieškokite [aplinkos planavime](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/imp-lifecycle/environment-planning). Daugiau informacijos apie RCSU, žr. [„Retail Cloud Scale Unit“ inicijavimas](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/initialize-retail-channels).
 
-## <a name="initialize-e-commerce"></a>El. prekybos inicijavimas
+## <a name="initialize-e-commerce"></a>Pradėkite e-komerciją
 
-Naudokite šią procedūrą paleisti el. prekybos funkciją esamoje aplinkoje.
+Naudokite šią procedūrą siekiant pradėti e-komercijos funkciją esančioje aplinkoje.
 
 Prieš pradėdami įsitikinkite, kad turite tokią reikalingą informaciją:
 
 - RSCU, kuris bus naudojamas.
-- „Microsoft Azure Active Directory“ saugos grupė, kuri bus naudojama el. prekybos sistemos administratoriams.
+- „Microsoft Azure Active Directory“ saugos grupė, kuri bus naudojama e-komercijos sistemos administratorių.
 - „Microsoft Azure Active Directory“ saugos grupė, kuri bus naudojama įvertinimų ir apžvalgų moderatoriams.
 - Domenai, kurie bus susieti su aplinka.
 
@@ -69,10 +69,10 @@ Be to, galite rinkti tokią pasirinktinę informaciją:
 > [!NOTE]
 > Šią informaciją galima įtraukti vėliau, naudojant paslaugos užklausą.
 
-Surinkę reikiamą informaciją, atlikite šiuos veiksmus, norėdami paleisti el. prekybą.
+Jums surinkus reikiamą informaciją, atlikite šiuos žingsnius, kad pradėtumėte e-komerciją.
 
 1. Prisijunkite prie [LCS](https://lcs.dynamics.com).
-1. Atidarykite projektą, kuriame yra aplinka, kurioje norima paleisti el. prekybą.
+1. Atidarykite projektą, kuriame yra aplinka, kurioje norite pradėti e-komerciją.
 1. Skyriuje **Aplinkos** pasirinkite aplinką.
 1. Dalyje **Aplinkos funkcijos** pasirinkite saitą **„Retail“ valdymas**.
 1. Skirtuke **El. prekyba** pasirinkite **Sąranka**. Atsiranda dialogo langas, kuriame reikia įvesti informaciją, reikalingą kuriant.
@@ -80,26 +80,26 @@ Surinkę reikiamą informaciją, atlikite šiuos veiksmus, norėdami paleisti el
 1. Kitame puslapyje įveskite reikiamą informaciją ir pateikite formą. Jūs grąžinami į skirtuką **El. prekyba**, kur turėtumėte matyti, kad inicijavimas pradėtas.
 1. Norėdami peržiūrėti inicijavimo būseną, **atnaujinkite** arba grįžkite į skirtuką **El. prekyba**.
     
-Paleidus el. prekybą iš LCS, sistema sukuria keletą komponentų, kurie būtini el. prekybai ir susieja juos su aplinka. Pasibaigus parengimui, skirtukas **El. prekyba** puslapyje **„Retail“ valdymas** atnaujinamas, kad atsispindėtų parengimą. Puslapyje pateikiami naujausi tinkinimo diegimai ir bet kurių kitų vykdomų diegimų būsena. Jame taip pat yra saitų į El. prekybos svetainę ir El. prekybos svetainių daryklę, kurioje kuriamos svetainės.
+Kai e-komercija yra pradėta iš LCS, sistemos suteikia keletą komponentų, kurie yra būtini e-komercijai ir susieja juos su aplinka. Pasibaigus parengimui, skirtukas **El. prekyba** puslapyje **„Retail“ valdymas** atnaujinamas, kad atsispindėtų parengimą. Puslapyje pateikiami naujausi tinkinimo diegimai ir bet kurių kitų vykdomų diegimų būsena. Ji taip pat apima nuorodas į e-komercijos saitą ir komercijos saitos kūrimo įrankį, kuriame saitai yra leidžiami.
 
-## <a name="access-site-builder"></a>Prieiga prie svetainių daryklės
+## <a name="access-commerce-site-builder"></a>Prieiga prie komercijos saito kūrimo įrankio
 
-Norėdami pasiekti svetainių daryklę, eikite į skirtuką **El. prekyba** LCS puslapyje **„Retail“ valdymas** ir pasirinkite saitą **El. prekybos svetainių valdymo įrankis**. Svetainių daryklės nukreipimo puslapyje rodomas nuomotojo lygio rodinys. Šiame puslapyje galite atlikti tolesnius veiksmus.
+Norėdami patekti į komercijos saito kūrimo įrankį, eikite į **e-komercijos** skirtuką  **Mažmeninis valdymas** puslapį LCS ir pasirinkite **e-komercijos saito valdymo įrankio** nuorodą. Svetainių daryklės nukreipimo puslapyje rodomas nuomotojo lygio rodinys. Šiame puslapyje galite atlikti tolesnius veiksmus.
 
 - Modifikuoti nuomotojo lygio parametrus.
 - Pereiti į bet kurią sukurtą svetainę, kurią turite teisę peržiūrėti. 
 - Naudotis peržiūros funkcijomis, pvz., priežiūra ir ataskaitų pateikimu.
-- Sukurkite naują svetainę. Daugiau informacijos apie tai, kaip sukurti naują svetainę, žr. [El. prekybos svetainės kūrimas](create-ecommerce-site.md). 
+- Sukurkite naują svetainę. Dėl daugiau informacijos apie tai, kaip sukurti naują saitą, žr. [Sukurit e-komercijos saitą](create-ecommerce-site.md) . 
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[El. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

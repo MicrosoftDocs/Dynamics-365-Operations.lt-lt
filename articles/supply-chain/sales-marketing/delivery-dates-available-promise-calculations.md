@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979432"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666775"
 ---
 # <a name="order-promising"></a>Užsakymų vykdymo perspektyva
 
@@ -37,6 +37,12 @@ Užsakymų žadėjimas apskaičiuoja anksčiausias siuntimo ir gavimo datas ir y
 -   **ATP (prieinamos atsargos)** – ATP yra prieinamas kiekis, kurį galima klientui pažadėti pristatyti konkrečią dieną. Skaičiuojant ATP, apimamos nefiksuotos atsargos, vykdymo laikai, suplanuoti gavimai ir išdavimai.
 -   **ATP ir išdavimo laiko rezervas** – siuntimo data yra tokia pati, kaip ir ATP data ir prekės išdavimo laiko rezervas. Išdavimo laiko rezervas yra laikas, reikalingas prekes paruošti siuntimui.
 -   **CTP (galimos pažadėti atsargos)** – prieinamumas skaičiuojamas naudojant išskleidimą.
+
+> [!NOTE]
+> Atnaujinus prekybos užsakymą, užsakymo prognozės informacija yra tik naujinama, jei esantys užsakymo prognozės duomenys negali būt įgyvendinti kaip parodyta tolesniuose pavyzdžiuose:
+> 
+> - **Pavyzdys 1**: Esamo užsakymo prognozavimo data yra liepos 20, bet dėl padidinto kiekio negalėsite pristatyti iki liepos 25. Kadangi esama data nebegalioja, užsakymo prognozavimas yra įjungiamas.
+> -  **Pavyzdys 2**: Esamo užsakymo prognozavimo data yra liepos 20, bet dėl sumažinto kiekio, dabar galima pristatyti liepos 15. Nepaisant to, kadangi esama data gali galioti, užsakymo prognozavimas nėra įjungiamas ir liepos 20 lieka užsakymo prognozavimo data.
 
 ## <a name="atp-calculations"></a>ATP skaičiavimai
 ATP kiekis apskaičiuojamas naudojant „kaupiamojo ATP žvelgiant į ateitį“ būdą. Pagrindinis šio ATP skaičiavimo būdo privalumas yra tai, kad juo galima tvarkyti atvejus, kai gavimų išdavimų suma yra didesnė už vėliausią gavimą (pavyzdžiui, kai, norint patenkinti poreikį, naudojamas ankstesnio gavimo kiekis). „Kaupiamojo ATP žvelgiant į ateitį‟ skaičiavimo būdas apima visus išdavimus, kol kaupiamasis gautinas kiekis viršija kaupiamąjį išduotiną kiekį. Todėl šis ATP skaičiavimo būdas įvertina, ar kokį nors ankstesnio laikotarpio kiekį galima naudoti vėlesniu laikotarpiu.  

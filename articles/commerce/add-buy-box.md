@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022034"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517093"
 ---
 # <a name="buy-box-module"></a>Pirkimo langelio modulis
 
@@ -56,7 +56,7 @@ Temos gali būti naudojamos norint pašalinti arba pakeisti pirkimo langelio pro
 
 ## <a name="module-properties"></a>Modulio ypatybės
 
-- **Antraštės skirtukas** – ši ypatybė nurodo produkto pavadinimo antraštės skirtuką. Jei pirkimo langelis yra puslapio viršuje, ši ypatybė turi būti nustatyta kaip **h1** , kad atitiktų pritaikymo neįgaliesiems standartus. 
+- **Antraštės skirtukas** – ši ypatybė nurodo produkto pavadinimo antraštės skirtuką. Jei pirkimo langelis yra puslapio viršuje, ši ypatybė turi būti nustatyta kaip **h1**, kad atitiktų pritaikymo neįgaliesiems standartus. 
 
 - **Įjungti „apsipirkti panašia mada“ rekomendacijas** – ši ypatybė leidžia pirkimo langelį, kad būtų rodomi saitai su produktus, kurie panašūs į šiuo metu peržiūrimą prekę. Ši funkcija pasiekiama 10.0.13 arba vėlesnio leidimo „Commerce“.
 
@@ -72,10 +72,10 @@ Dalyje **Svetainės parametrai \> Plėtiniai** galima konfigūruoti toliau patei
 
 - **Krepšelio eilutės kiekio riba** – ši ypatybė yra naudojama nurodyti maksimalų kiekvienos prekės skaičių, kurį galima įtraukti į krepšelį. Pavyzdžiui, pardavėjas gali nuspręsti, kad vienos operacijos metu galima parduoti tik 10 kiekvieno produkto vienetų.
 - **Atsargos** – norėdami gauti informacijos apie atsargų parametrų taikymą, žr. [Atsargų parametrų taikymas](inventory-settings.md).
-- **Įtraukti į krepšelį** – ši ypatybė naudojama nurodyti veikimo būdą po to, kai prekė įtraukiama į krepšelį. Galimos vertės yra **Pereiti į krepšelį** , **Nepereiti į krepšelį** ir **Rodyti pranešimus**. Kai nustatyta vertė **Pereiti į krepšelį** , po to, kai įtraukia prekę, vartotojai nukreipiami į krepšelio puslapį. Kai nustatyta vertė **Nepereiti į krepšelį** , po to, kai įtraukia prekę, vartotojai nenukreipiami į krepšelio puslapį. Kai nustatyta vertė **Rodyti pranešimus** , vartotojams parodomas patvirtinimo pranešimas ir jie gali toliau naršyti produkto informacijos puslapyje. 
+- **Įtraukite produktą į vežimėlį** - Ši ypatybė yra naudojama nurodyti elgesį po to, kai objektas yra įtrauktas į vežimėlį. Galimos vertė yra **Naršyti vežimėlio puslapyje**, **Nenaršyti vežimėlio puslapyje** ir **Rodyti pranešimą**. Kai vertė yra nustatyta į **Naršyti vežimėlio puslapyje**, vartotojai yra siunčiami į vežimėlio puslapį jiems įtraukus objektą. Kai vertė yra nustatyta į **Nenaršyti vežimėlio puslapyje**, vartotojai nėra siunčiami į vežimėlio puslapį jiems įtraukus objektą. Kai vertė yra nustatyta į **Rodyti pranešimą**, vartotojams yra rodomas pranešimo patvirtinimas ir jie gali tęsti naršyti produkto išsamios informacijos puslapyje. 
 
 > [!IMPORTANT]
-> Svetainės **Įtraukti į krepšelį** parametrai pasiekiami „Dynamics 365 Commerce” 10.0.11 leidime. Jei atnaujinate iš senesnės „Dynamics 365 Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Instrukcijų, kaip atnaujinti failą appsettings.json, žr. [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> **Įtraukti produktą į vežimėlį** saito nustatymai yra prieinami „Dynamics 365 Commerce“ 10.0.11 leidime. Jei atnaujinate iš senesnės „Dynamics 365 Commerce” versijos, turite rankiniu būdu atnaujinti failą appsettings.json. Instrukcijų, kaip atnaujinti failą appsettings.json, žr. [SDK ir modulių bibliotekos naujinimai](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
 Toliau pateiktame paveikslėlyje parodytas „Fabrikam“ puslapyje esančio patvirtinimo pranešimo „Įtraukta į krepšelį“ pavyzdys.
 
@@ -90,26 +90,26 @@ Pirkimo langelio modulis produkto informaciją gauna naudodamas „Commerce Scal
 Norėdami į naują puslapį įtraukti pirkimo langelio modulį ir nustatyti reikiamas ypatybes, atlikite tolesnius veiksmus.
 
 1. Eikite į **Fragmentai** ir tuomet pasirinkite **Naujas** tam, kad sukurtumėte naują fragmentą.
-1. Dialogo lange **Naujas fragmentas** pasirinkite **Pirkimo langelio** modulį.
-1. Dalyje **Fragmento pavadinimas** įveskite pavadinimą **Pirkimo langelio fragmentas** , tada pasirinkite **Gerai**.
-1. Pirkimo langelio modulio vietoje **Medijos galerija** pasirinkite daugtaškį ( **...** ) ir pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Medijos galerija** , tada pasirinkite **Gerai**.
-1. Pirkimo langelio modulio vietoje **Parduotuvės parinkiklis** pasirinkite daugtaškį ( **...** ) ir pasirinkite **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Parduotuvės parinkiklis** , tada pasirinkite **Gerai**.
-1. Pasirinkite **Išsaugoti** , tada – **Baigti redagavimą** , kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
-1. Eikite į **Šablonai** ir pasirinkite **Naujas** , kad sukurtumėte naują šabloną.
+1. **Naujas fragmentas** teksto laukelyje pasirinkite **Pirkite dėžę** modulį.
+1. Dalyje **Fragmento pavadinimas** įveskite pavadinimą **Pirkimo langelio fragmentas**, tada pasirinkite **Gerai**.
+1. Pirkimo langelio modulio vietoje **Medijos galerija** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Medijos galerija**, tada pasirinkite **Gerai**.
+1. Pirkimo langelio modulio vietoje **Parduotuvės parinkiklis** pasirinkite daugtaškį (**...**) ir pasirinkite **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Parduotuvės parinkiklis**, tada pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte fragmentą, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eikite į **Šablonai** ir pasirinkite **Naujas**, kad sukurtumėte naują šabloną.
 1. Dialogo lango **Naujas šablonas** dalyje **Šablono pavadinimas** įveskite **PDP šablonas** ir pasirinkite **Gerai**.
-1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį ( **...** ), tada – **Įtraukti modulį**.
-1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis** , tada pasirinkite **Gerai**.
-1. Numatytojo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką ( **...** ) ir **Įtraukti fragmentą**.
-1. Dialogo lange **Pasirinkti fragmentą** pasirinkite fragmentą **Pirkimo langelio fragmentas** , kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
-1. Pasirinkite **Išsaugoti** , tada – **Baigti redagavimą** , kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį.
-1. Eikite į **Puslapiai** ir pasirinkite **Naujas** , kad sukurtumėte naują puslapį.
-1. Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną **PDP šablonas**. Dalyje **Puslapio pavadinimas** įveskite **PDP puslapis** , tada pasirinkite **Gerai**.
-1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką ( **...** ) ir **Įtraukti fragmentą**.
-1. Dialogo lange **Pasirinkti fragmentą** pasirinkite fragmentą **Pirkimo langelio fragmentas** , kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
+1. Vietoje **Pagrindinė dalis** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
+1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Numatytasis puslapis**, tada pasirinkite **Gerai**.
+1. Numatytojo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti fragmentą**.
+1. Dialogo lange **Pasirinkti fragmentą** pasirinkite fragmentą **Pirkimo langelio fragmentas**, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte šabloną, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.
+1. Eikite į **Puslapiai** ir pasirinkite **Naujas**, kad sukurtumėte naują puslapį.
+1. Dialogo lange **Pasirinkti šabloną** pasirinkite šabloną **PDP šablonas**. Dalyje **Puslapio pavadinimas** įveskite **PDP puslapis**, tada pasirinkite **Gerai**.
+1. Naujo puslapio vietoje **Pagrindinis** pasirinkite daugtaškio mygtuką (**...**) ir **Įtraukti fragmentą**.
+1. Dialogo lange **Pasirinkti fragmentą** pasirinkite fragmentą **Pirkimo langelio fragmentas**, kurį sukūrėte anksčiau ir tuomet pasirinkite **Gerai**.
 1. Puslapį įrašykite ir peržiūrėkite. Į peržiūros puslapio URL įtraukite užklausos eilutės parametrą **?productid=&lt;product id&gt;**. Taip peržiūros puslapis įkeliamas ir vaizduojamas naudojant produkto kontekstą.
-1. Pasirinkite **Išsaugoti** , tada – **Baigti redagavimą** , kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti** , kad publikuotumėte jį. Produkto išsamios informacijos puslapyje turėtų būti rodomas pirkimo langelis.
+1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį. Produkto išsamios informacijos puslapyje turėtų būti rodomas pirkimo langelis.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 

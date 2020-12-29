@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209127"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528904"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 „Supply Chain Management“ leidžia sinchronizuoti verslo procesus tarp „Dynamics 365 Supply Chain Management“ ir „Dynamics 365 Field Service“. Integravimo scenarijai sukonfigūruojami naudojant išplečiamuosius duomenų integratoriaus šablonus ir „Common Data Service“, kad būtų galima sinchronizuoti verslo procesus.
 Standartiniai šablonai gali būti naudojami, siekiant sukurti pasirinktinius integravimo projektus, kuriuose papildomus standartinius ir pasirinktinius laukus bei objektus būtų galima susieti norint pakoreguoti integravimą ir atitikti specifinius verslo reikalavimus. 
@@ -62,12 +64,12 @@ Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnav
 ![Verslo procesų sinchronizavimas tarp „Supply Chain Management“ ir „Field Service“](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>Antrame integravimo tarp „Field Service“ ir „Supply Chain Management“ etape galima sinchronizuoti su toliau nurodytais šablonais:
-- Sandėliai („Supply Chain Management“ su „Field Service“) – sandėliai iš „Supply Chain Management“ su „“Field Service [Išplėstinė užklausa] 
-- Produkto atsargos („Supply Chain Management“ su „Field Service“) – produkto lygio informacija iš „Supply Chain Management“ su „“Field Service [Išplėstinė užklausa] 
-- Atsargų koregavimas („Field Service“ su „Supply Chain Management“) – atsargų koregavimai iš „Field Service“ su „Supply Chain Management“ [Išplėstinė užklausa] 
-- Atsargų perkėlimas („Field Service“ su „Supply Chain Management“) – atsargų perkėlimai iš „Field Service“ su „Supply Chain Management“ [Išplėstinė užklausa] 
+- Sandėliai („Supply Chain Management“ į „Field Service“) - Sandėliai iš „Supply Chain Management“ į „Field Service“ [Papildoma užklausa] 
+- Produkto inventorius („Supply Chain Management“ į „Field Service“) - Inventoriaus lygio informacija iš „Supply Chain Management“ į „Field Service“ [Papildoma užklausa] 
+- Produkto derinimas („Field Service“ į „Supply Chain Management“) - Inventoriaus keitimai iš „Field Service“ į „Supply Chain Management“ [Papildoma užklausa] 
+- Produkto perdavimai („Field Service“ į „Supply Chain Management“) - Inventoriaus perdavimai iš „Field Service“ į „Supply Chain Management“ [Papildoma užklausa] 
 - Projektai („Supply Chain Management“ su „Field Service“) – projektų sąrašas iš „Supply Chain Management“ su „Field Service“ 
-- Darbo užsakymai su projektu („Field Service“ su „Supply Chain Management“) – darbo užsakymai, esantys „Field Service“ su pardavimo užsakymais, esančiais „Supply Chain Management“; palaikomas projektas [išplėstinė užklausa] 
+- Darbo užsakymai su projektu („Field Service“ į „Supply Chain Management“) - Darbo užsakymai  iš „Field Service“ į Pardavimo užsakymus „Supply Chain Management“ su pagalba Projektui[Papildoma užklausa] 
 - „Field Service“ produktai su atsargų vienetu („Supply Chain Management“ su „Sales“) – „Supply Chain Management“ „Parduotini išleisti produktai“ su pardavimo „produktais“, skirtais „Field Service“, įskaitant atsargų vienetą. 
 
 ## <a name="system-requirements"></a>Sistemos reikalavimai

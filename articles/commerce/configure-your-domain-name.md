@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: afc8c7fffbded82be32357bdeb30546afc8b0957
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: ac1b0c8baaddd6ca62cc49657fff364df21c14f2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533303"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517132"
 ---
 # <a name="configure-your-domain-name"></a>Jūsų domeno vardo konfigūravimas
 
@@ -33,23 +33,23 @@ ms.locfileid: "3533303"
 
 Šioje temoje paaiškinama, kaip sukonfigūruoti „Microsoft Dynamics 365“ el. prekybos svetainės domeno pavadinimą. 
 
-## <a name="add-domains-during-e-commerce-initialization"></a>Domenų įtraukimas inicijuojant el. prekybą
+## <a name="add-domains-during-e-commerce-initialization"></a>Įtraukite domenus e-komercijos pradžiai
 
-Norėdami domenus susieti su savo el. prekybos aplinka, inicijuokite el. prekybą, kaip aprašyta temoje [Naujos el. prekybos svetainės diegimas](deploy-ecommerce-site.md). Inicijavimo metu jūsų paprašoma pateikti informaciją, kuri bus naudojama konfigūruojant jūsų el. prekybos aplinką. Lauke **Palaikomi pagrindinių kompiuterių vardai** įtraukite visus domenus, kuriuos planuojate naudoti su šia aplinka. Domenus reikia atskirti kabliataškiu. Taip domenai sukonfigūruojami visuose būtinuose el. prekybos komponentuose ir yra paruošti naudoti, kai perjungiate srautą iš savo turinio pristatymo tinklo (CDN) arba žiniatinklio serverio ir nukreipiate į el. prekybos sąsajos serverius.
+Norėdami susieti domenus su savo „Dynamics 365 Commerce“ e-komercijos aplinka, pradėkite e-komerciją kaip aprašyta [Talpinti naują e-komercijos nuomotoją](deploy-ecommerce-site.md). Pradžios metu jūsų bus prašoma pateikti informaciją, kuri bus naudojama siekiant suteikti e-komercijos aplinką. Lauke **Palaikomi pagrindinių kompiuterių vardai** įtraukite visus domenus, kuriuos planuojate naudoti su šia aplinka. Domenus reikia atskirti kabliataškiu. Tokiu būdu, domenai yra konfigūruojami visuose būtinuose komercijos komponentuose ir jie yra pasirengę būti naudojami jums perjungiant eismą iš jūsų turinio pristatymo tinklo (CDN) ar žiniatinklio serverio ir nukreipti jį į e-komercijos priekines linijas.
 
-## <a name="add-domains-after-e-commerce-initialization"></a>Domenų įtraukimas inicijavus el. prekybą
+## <a name="add-domains-after-e-commerce-initialization"></a>Įtraukite domenus po e-komercijos pradžios
 
-Norėdami naujus domenus su savo el. prekybos aplinka susieti inicijavę el. prekybą, turite pateikti aptarnavimo užklausą.
+Norėdami susieti naujus domenus su savo e-komercijos aplinka po to, kai e-komercija pradėta, privalote pateikti paslaugų prašymą.
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

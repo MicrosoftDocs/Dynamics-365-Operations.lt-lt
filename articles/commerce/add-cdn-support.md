@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646044"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517213"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Turinio pristatymo tinklo (CDN) palaikymo įtraukimas
 
@@ -31,11 +31,11 @@ ms.locfileid: "3646044"
 
 Šioje temoje aprašoma, kaip į savo „Microsoft Dynamics 365 Commerce“ aplinką įtraukti turinio pristatymo tinklą (CDN).
 
-## <a name="overview"></a>Peržiūrėti
+## <a name="overview"></a>Peržiūra
 
-Programoje „Dynamics 365 Commerce“ nustatydami el. prekybos aplinką, galite sukonfigūruoti, kad ji veiktų su CDN tarnyba. 
+Jums nustatant e-komercijos aplinką „Dynamics 365 Commerce“, galite konfigūruoti ją darbui su jūsų CDN paslaugomis. 
 
-Jūsų pasirinktinį domeną galima įjungti konfigūruojant el. prekybos aplinką. Jį taip pat galite nustatyti naudodami aptarnavimo užklausą, kai konfigūravimo procesas baigtas. Konfigūruojant el. prekybos aplinką sugeneruojamas su aplinka susietas pagrindinio kompiuterio vardas. Pagrindinio kompiuterio pavadinimas yra šio formato, kuriame \<*e-commerce-tenant-name*\> yra jūsų aplinkos pavadinimas:
+Jūsų tinkintas domenas gali būti įjungtas jūsų e-komercijos aplinkos suteikimo proceso metu. Jį taip pat galite nustatyti naudodami aptarnavimo užklausą, kai konfigūravimo procesas baigtas. E-komercijos aplinkos suteikimo procesas sukuria šeimininko pavadinimą, susijusį su aplinka. Pagrindinio kompiuterio pavadinimas yra šio formato, kuriame \<*e-commerce-tenant-name*\> yra jūsų aplinkos pavadinimas:
 
 &lt;el.prekybos-numotojo-vardas&gt;.commerce.dynamics.com
 
@@ -97,8 +97,8 @@ Norėdami sprendime „Azure Front Door Service“ nustatyti maršruto parinkimo
 1. Lauke **Pavadinimas** įveskite **numatytoji**.
 1. Lauke **Pripažįstamas protokolas** pasirinkite **HTTP ir HTTPS**.
 1. Lauke **Sąsajos serverio pagrindiniai kompiuteriai** įveskite **dynamics-el.prek-nuomotojo-vardas.azurefd.net**.
-1. Viršutiniame dalies **Gretintini šablonai** lauke įveskite **/\***.
-1. Dalyje **Išsami maršruto informacija** parinktį **Maršruto tipas** nustatykite kaip **Pirmyn**.
+1. Skyriuje **Atitinkančios iškarpos**, viršutiniame laukelyje įveskite **/\** _.
+1. Skyriuje **Maršruto išsami informacija**, nustatykite **Maršruto tipo** parinktį į **Pirmyn**.
 1. Lauke **Vidinio serverio telkinys** pasirinkite **el.prek-vidinisserveris**.
 1. Laukų grupėje **Persiuntimo protokolas** pasirinkite parinktį **Gretinimo užklausa**. 
 1. Parinktį **URL perrašymas** nustatykite kaip **Išjungta**.
@@ -110,8 +110,8 @@ Norėdami sprendime „Azure Front Door Service“ nustatyti kaupimo talpykloje 
 1. Lauke **Pavadinimas** įveskite **statika**.
 1. Lauke **Pripažįstamas protokolas** pasirinkite **HTTP ir HTTPS**.
 1. Lauke **Sąsajos serverio pagrindiniai kompiuteriai** įveskite **dynamics-el.prek-nuomotojo-vardas.azurefd.net**.
-1. Viršutiniame dalies **Gretintini šablonai** lauke įveskite **/\_msdyn365/\_scnr/\***.
-1. Dalyje **Išsami maršruto informacija** parinktį **Maršruto tipas** nustatykite kaip **Pirmyn**.
+1. Skyriuje **Atitinkančios iškarpos**, viršutiniame laukelyje **/\_msdyn365/\_scnr/\** _.
+1. Skyriuje **Maršruto išsami informacija**, nustatykite **Maršruto tipo** parinktį į **Pirmyn**.
 1. Lauke **Vidinio serverio telkinys** pasirinkite **el.prek-vidinisserveris**.
 1. Laukų grupėje **Persiuntimo protokolas** pasirinkite parinktį **Gretinimo užklausa**.
 1. Parinktį **URL perrašymas** nustatykite kaip **Išjungta**.
@@ -146,13 +146,13 @@ Dabar jūsų CDN turėtų būti tinkamai sukonfigūruotas, kad jį būtų galima
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

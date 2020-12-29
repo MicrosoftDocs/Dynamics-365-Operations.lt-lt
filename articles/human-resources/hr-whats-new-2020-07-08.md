@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2f542195693e825391b85efc4a7e91fdfea3944
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711897"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528478"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources” (2020 m. liepos 8 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos arba pasikeitusios „Dynamics 365 Human Resources” funkcijos. Pakeitimai taikomi 8.1.3382 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo LCS palaikymo numerius informaciniais tikslais.
 
@@ -63,7 +65,7 @@ Eksportuojant **PayrollWorkerEnrolledBenefitDetailEntity** objektą, eksportavim
  
 ## <a name="the-workcalendaremployment-table-doesnt-have-the-created-and-modified-system-fields-enabled-460171"></a>WorkCalendarEmployment lentelė neturi sukurtų ir pakeistų įjungtų sistemos laukelių (460171)
 
-Sukurti ir pakeisti sistemos laukeliai dabar yra įjungti**WorkCalendarEmployment** lentelėje Žmogiškuosiuose ryšiuose.
+Sukurti ir pakeisti sistemos laukeliai dabar yra įjungti **WorkCalendarEmployment** lentelėje Žmogiškuosiuose ryšiuose.
  
 ## <a name="null-reference-exception-for-hire-and-add-details-for-future-employee-455475"></a>Nulinė ataskaitos išimtis Samdymui ir informacijos įtraukimas ateities darbuotojams (455475)
 
@@ -80,7 +82,7 @@ Toliau pateiktų laukelių pakeitimai **Darbutoojas** objekte „Common Data Ser
 
 ## <a name="correct-compensation-level-doesnt-default-based-on-the-job-assigned-to-the-position-394136"></a>Tinkamas užmokesčio lygis nėra nustatytasis pagal pareigoms priskirtą darbą (394136)
 
-Šiuo pakeitimu tinkamas užmokesčio lygis yra nustatytasis pagal**Įsigaliojimo datą** ir įrašomas **Pareigų informacij** ir **Pradžios data** esančius **Užmokesčio planavimo priskyrime**.
+Šiuo pakeitimu tinkamas užmokesčio lygis yra nustatytasis pagal **Įsigaliojimo datą** ir įrašomas **Pareigų informacij** ir **Pradžios data** esančius **Užmokesčio planavimo priskyrime**.
 
 ## <a name="in-preview"></a>Peržiūros režimu
 

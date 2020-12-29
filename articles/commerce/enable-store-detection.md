@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533395"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517311"
 ---
 # <a name="enable-location-based-store-detection"></a>Įgalinti parduotuvės nustatymą pagal vietą
 
@@ -52,13 +52,13 @@ Norėdami įjungti parduotuvės nustatymą pagal vietą programoje „Commerce�
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

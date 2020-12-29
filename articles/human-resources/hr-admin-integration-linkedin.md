@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056102"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527890"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integravimas su „LinkedIn Talent Hub“
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [„LinkedIn Talent Hub”](https://business.linkedin.com/talent-solutions/talent-hub) yra pretendentų sekimo sistemos (ATS) platforma. Ji leidžia vykdyti darbuotojų iešką bei valdyti ir samdyti darbuotojus vienoje vietoje. Integruodami „Microsoft Dynamics 365 Human Resources” su „LinkedIn Talent Hub” galite lengvai sukurti pretendentų, pasamdytų pareigoms, darbuotojų įrašus „Human Resources”.
 
@@ -41,7 +43,7 @@ Sistemos administratorius turi užbaigti sąrankos užduotis, kad būtų galima 
 
 2. Vartotojo išplečiamajame meniu pasirinkite **Produkto parametrai**.
 
-3. Kairiojoje naršymo srityje, dalyje **Išplėstiniai nustatymai** , pasirinkite **Integravimas**.
+3. Kairiojoje naršymo srityje, dalyje **Išplėstiniai nustatymai**, pasirinkite **Integravimas**.
 
 4. Pasirinkite „Microsoft Dynamics 365 Human Resources” integravimo parinktį **Įgalioti**.
 
@@ -99,7 +101,7 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
     1. Pakeiskite lauko **Vartotojo tipas** reikšmę į **Programos vartotojas**.
     2. Nustatykite lauką **Vartotojo vardas** į **„Dynamics365 HR LinkedIn” HRIS integravimas**.
     3. Nustatykite lauką **Programos ID** į **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Įveskite reikšmes laukuose **Vardas** , **Pavardė** ir **Pagrindinis el. pašto adresas**.
+    4. Įveskite reikšmes laukuose **Vardas**, **Pavardė** ir **Pagrindinis el. pašto adresas**.
     5. Įrankių juostoje pasirinkite **Įrašyti ir uždaryti** (Save \& Close).
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Saugos vaidmens priskyrimas naujam vartotojui
@@ -121,9 +123,9 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
 1. „Dynamics 365 Human Resources“ atidarykite puslapį **„Azure Active Directory“ programos**.
 2. Įtraukite naują įrašą į sąrašą ir nustatykite toliau pateiktus laukus.
 
-    - **Kliento ID** : įveskite **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    - **Pavadinimas** : įveskite „Power Apps” saugos vaidmens, kurį sukūrėte anksčiau, pavadinimą, pvz., **„LinkedIn Talent Hub” HRIS integravimas**.
-    - **Vartotojo ID** : pasirinkite vartotoją, kuris turi teises įrašyti duomenis personalo valdyme.
+    - **Kliento ID**: įveskite **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
+    - **Pavadinimas**: įveskite „Power Apps” saugos vaidmens, kurį sukūrėte anksčiau, pavadinimą, pvz., **„LinkedIn Talent Hub” HRIS integravimas**.
+    - **Vartotojo ID**: pasirinkite vartotoją, kuris turi teises įrašyti duomenis personalo valdyme.
 
 ### <a name="create-the-entity-in-common-data-service"></a>Objekto kūrimas „Common Data Service”
 
@@ -140,7 +142,7 @@ Reikia sukurti „LinkedIn Talent Hub” adapterio programos vartotoją, kad ada
 
 ## <a name="exporting-candidate-records"></a>Kandidatų įrašų eksportavimas
 
-Baigus sąranką, darbdaviai ir „Human resources” (HR) specialistai gali naudoti funkciją **Eksportuoti į HRIS** , esančią „LinkedIn Talent Hub”, norėdami eksportuoti pasamdyto kandidato įrašus iš „LinkedIn Talent Hub” į „Human Resources”.
+Baigus sąranką, darbdaviai ir „Human resources” (HR) specialistai gali naudoti funkciją **Eksportuoti į HRIS**, esančią „LinkedIn Talent Hub”, norėdami eksportuoti pasamdyto kandidato įrašus iš „LinkedIn Talent Hub” į „Human Resources”.
 
 ### <a name="export-records-from-linkedin-talent-hub"></a>Įrašų eksportavimas iš „LinkedIn Talent Hub”
 
@@ -152,7 +154,7 @@ Kai kandidatas pereina įdarbinimo procesą ir yra pasamdomas, galima eksportuot
 
 3. Pasirinkite **Keisti etapą** ir pasirinkite **Pasamdytas**.
 
-4. Kandidato daugtaškio meniu ( **...** ) pasirinkite **Eksportuoti į HRIS**.
+4. Kandidato daugtaškio meniu (**...**) pasirinkite **Eksportuoti į HRIS**.
 
 5. Srityje **Eksportuoti į HRIS** įveskite informaciją, kurią reikia eksportuoti.
 

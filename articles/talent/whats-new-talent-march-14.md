@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 79bb8c0ed3c3f3bee62a8bc384a9d3a15cfe881a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: a3bb5792e6395e6fe593691f050cae03362cf659
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897608"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528626"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-14-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. kovo 14 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Talent“ funkcijos.
 
@@ -44,8 +46,8 @@ ms.locfileid: "2897608"
 ### <a name="mass-assign-checklists-to-workers"></a>Masinis kontrolinių sąrašų priskyrimas darbininkams
 Atlikus šį pakeitimą galėsite pasirinkti kelis darbuotojus ir jiems masiškai priskirti vieną ar kelis kontrolinius sąrašus. 
 
-### <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations“ platformos 24 naujinimas
-Papildomos informacijos apie „Finance and Operations“ platformos 24 naujinimą žr. [Kas nauja arba pakeista „Finance and Operations“ platformos 24 naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Toliau nurodyti reikšmingi 24 platformos pakeitimai. 
+### <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations” platformos 24 naujinimas
+Dėl papildomos išsamios informacijos apie „Platform“ naujinimą 24 „Finance and Operations“, žr. [Kas yra nauja ar pakeista „Finance and Operations“ platformos naujinime 24 (2019 m. kovo mėnesį)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24). Toliau nurodyti reikšmingi 24 platformos pakeitimai. 
 
 - Įspėjimai yra įjungti „Talent“.
 - Atnaujinta naršymo juosta dabar yra sulygiuota su „Office“ antrašte.
@@ -65,7 +67,7 @@ Pareigų priskyrimo pabaigos datos dabar rodomos tinkamai pagal vartotojo pageid
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Fiksuotam ir kintamam planams galima priskirti saugos vaidmenis – tokiu būdu nustatysite prieigą prie planų ir darbuotojų duomenų, susijusių su planais, pvz., pajamų arba premijų įrašai. Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-Įdiegę „Finance and Operations“ platformos 24 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.
+Su „Platform“ naujinimu 24 „Finance and Operations“, naudotojai gali sukurti pranešimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus į kontaktus, kai įvykis juos įjungia.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Darbuotojų dublikatų patikra: sąsajos pakeitimai
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.

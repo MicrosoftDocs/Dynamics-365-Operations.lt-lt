@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976021"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517133"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Kelių B2C nuomotojų konfigūravimas „Commerce“ aplinkoje
 
@@ -114,13 +114,13 @@ Dabar jūsų naujas „Azure AD“ B2C nuomotojas turi pasirodyti sąraše po **
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

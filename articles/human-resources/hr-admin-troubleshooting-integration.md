@@ -17,16 +17,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a3389d6ce5f1985f7515e777a2bafae4eae5f0c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
+ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431112"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4589068"
 ---
 # <a name="integration-with-finance-faq"></a>Integravimo su „Finance“ DUK
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Ši tema atsako į dažnai užduodamus klausimus apie tai, kokie duomenys sinchronizuojami, kai „Dynamics 365 Human Resources“ integruojama su „Dynamics 365 Finance“.
+
+## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Ar galiu redaguoti „Dynamics 365 Talent“ programos naudotoją „Power Apps“?
+
+Nr. Jei redaguojate „Talent“ programos naudtoją, integravimas tarp žmogiškųjų išteklių ir „Common Data Service“ gali nepavykti. Tolesnė lentelė rodo nustatytuosius nustatymus „Talent“ programos naudotojui.
+
+| Vardas, pavardė | Programos ID | „Azure AD“ objekto ID | Programos ID URI |
+| --- | --- | --- | --- |
+| „Dynamics365“ skirtas „Talent“ | „f9be0c49-aa22-4ec6-911a-c5da515226ff“ | „27fd8129-4b3c-43f7-b1bf-47495d3a049b“ | „f9be0c49-aa22-4ec6-911a-c5da515226ff“ |
+
+![Nustatytieji nustatymai „Talent“ programos naudotojui](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Ar visi dokumentai sinchronizuojami, ar tik tam tikri duomenų objektai?
 

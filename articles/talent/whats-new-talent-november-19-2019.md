@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896732"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527149"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. lapkričio 19 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šiame straipsnyje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
@@ -41,9 +43,9 @@ ms.locfileid: "2896732"
 
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2621 komponavimo versijai. Kai kurių antraščių skaičiai skliausteliuose nurodo palaikymo numerius „Microsoft Dynamics Lifecycle Services“ (LCS).
 
-### <a name="platform-update-31-for-finance-and-operations-apps"></a>„Finance and Operations“ programų platformos 31 naujinimas
+### <a name="platform-update-31-for-finance-and-operations-apps"></a>„Finance and Operations” programų 31 platformos naujinimas
 
-Daugiau informacijos žr. [„Finance and Operations“ peržiūros funkcijos „Platform" 31 naujinime (2020 m. sausis)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
+Dėl daugiau informacijos, žr. [Peržiūrėjimo funkcijos platformos naujinime 31 „Finance and Operations“ programoms (2020 m. sausis)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 
 ### <a name="feature-management-workspace-383856"></a>Funkcijos valdymo darbo sritis (383856)
 

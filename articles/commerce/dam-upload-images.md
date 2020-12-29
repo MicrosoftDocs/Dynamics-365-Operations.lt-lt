@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8571c52b98a87751400dab9482168ee370834bcc
-ms.sourcegitcommit: 567132f4e4f7a1d76dccf762068209a42c788b52
+ms.openlocfilehash: f562d3376fde6a24e6a1e1a3f7f4192cf290ae90
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "3097055"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594289"
 ---
 # <a name="upload-images"></a>Įkelti vaizdus
 
@@ -88,10 +88,12 @@ Norėdami masiškai įkelti vaizdų aplanką svetainės generatoriuje, atlikite 
 
 [Skaitmeninių išteklių valdymo apžvalga](dam-overview.md)
 
-[Įkelti vaizdo įrašą](dam-upload-video.md)
+[Vaizdo įrašų nusiuntimas](dam-upload-video.md)
 
 [Įkelti failus](dam-upload-files.md)
 
-[Apkarpyti vaizdai](dam-crop-images.md)
+[Vaizdų apkarpymas](dam-crop-images.md)
 
-[Tinkinti centrinius vaizdo taškus](dam-custom-focal-point.md)
+[Vaizdų centro tinkinimas](dam-custom-focal-point.md)
+
+[Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)

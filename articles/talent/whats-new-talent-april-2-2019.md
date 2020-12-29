@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896939"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528224"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 2 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
@@ -54,8 +56,8 @@ Skirtuko **Dokumentai** patobulinimai – dabar prašymų ir talentų telkinių 
 ## <a name="changes-in-core-hr"></a>„Core HR“ pakeitimai
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2216 komponavimo versijai.
 
-### <a name="platform-update-25-for-finance-and-operations"></a>„Finance and Operations“ platformos 25 naujinimas
-Daugiau informacijos apie platformos 25  naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 for Finance and Operations“ platformos 25 naujinime (2019 m. balandžio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+### <a name="platform-update-25-for-finance-and-operations"></a>„Finance and Operations” platformos 25 naujinimas
+Dėl daugiau informacijos apie „Platform“ naujinimą 25 „Finance and Operations“, žr. [Peržiūrėti funkcijas „Dynamics 365 for Finance and Operations“ platformos naujinime 25 (2019 m. balandžio mėnesį)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Išplėstinės kompensacijos sauga (fiksuota ir kintama)
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo skyrius gali valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Saugos vaidmenis galite priskirti fiksuota, ir kintamam planams. Šie saugos vaidmenys nustato prieigą prie planų ir susijusių darbuotojų duomenų, pvz., darbo užmokesčio arba premijų įrašų, kad tik šiuos vaidmenis turintys asmenys galėtų apdoroti darbuotojų grupių kompensacijas.
@@ -77,4 +79,4 @@ Organizacijos gali norėti priežasčių kodus priskirti tam tikriems nedarbo la
 Atlikus šį pakeitimą dublikatai aptinkami, kai įvedate laukų pavadinimus, o būsena rodo, kiek dublikatų rasta. Galite pasirinkti pateiktą nuorodą, kad atidarytumėte naują puslapį ir įvertintumėte, ar naudoti aptiktą dublikatą. Dublikatų forma nėra atidaroma automatiškai, kad nebūtų trukdoma įvesti duomenis.
 
 ###  <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
-Įdiegę „Finance and Operations“ platformos 25 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai. 
+25 platformos naujinį, skirtą „Finance and Operations”, įdiegę vartotojai gali kurti įspėjimo taisykles, kurios automatiškai išsiunčia el. pašto pranešimus kontaktams, kai jas suaktyvina įvykis. 

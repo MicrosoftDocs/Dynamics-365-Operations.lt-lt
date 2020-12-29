@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-30
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 38c30a878ada9ed0b63ade3d0f234aeffce0ad12
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 2539baba84bffeb21d351cc307191eea3e940515
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897895"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528200"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-30-2019"></a>Kas nauja arba pasikeitė „Dynamics 365 Talent” (2019 m. balandžio 30 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
@@ -98,4 +100,4 @@ Galimybė sekti darbuotojų nedarbo laiką ir suprasti, kaip skaičiuojamas neda
 
 ### <a name="email-support-for-alerts"></a>Įspėjimų el. pašto palaikymas
 
-Įdiegę „Finance and Operations“ platformos 26 naujinimą, vartotojai gali kurti įspėjimo taisykles, pagal kurias įvykus tam tikram su pranešimu susijusiam įvykiui kontaktams el. paštu bus automatiškai siunčiami pranešimai.
+Platformos 26 naujinime „Finance and Operations“, naudotojai gali sukurti pranešimo taisykles, kurios automatiškai siunčia el. pašto pranešimus į kontaktus, kai įvykis įjungia pranešimus.

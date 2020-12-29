@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817711"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556434"
 ---
 # <a name="select-a-site-theme"></a>Pasirinkti svetainės temą
 
@@ -32,7 +32,7 @@ ms.locfileid: "3817711"
 
 ## <a name="overview"></a>Apžvalga
 
-Svetainės maketas ir stilius (pavyzdžiui, šriftai, dydžiai ir spalvos) nustatomi pagal temą, kurią pasirenkate ir taikote svetainei. Temą sukuria ir įdiegia jūsų įmonėje dirbantis kūrėjas. Temų apžvalgą rasite puslapyje [Temų apžvalga](http://). Daugiau informacijos apie tai, kaip kurti ir diegti temas, žr. [Naujos temos kūrimas](http://).
+Svetainės maketas ir stilius (pavyzdžiui, šriftai, dydžiai ir spalvos) nustatomi pagal temą, kurią pasirenkate ir taikote svetainei. Temą sukuria ir įdiegia jūsų įmonėje dirbantis kūrėjas. Temų apžvalgą rasite puslapyje [Temų apžvalga](e-commerce-extensibility/theming.md). Daugiau informacijos apie tai, kaip kurti ir diegti temas, žr. [Naujos temos kūrimas](e-commerce-extensibility/create-theme.md).
 
 Pagal numatytuosius nustatymus, kai pirmą kartą kuriate svetainę, joje naudojama tema **Fabrikam**. Ši numatytoji tema pateikiama kartu su „Commerce“ modulių biblioteka. Kai įdiegsite papildomas svetainei skirtas temas, galėsite konfigūruoti svetainę, kad joje būtų naudojama viena iš šių temų.
 
@@ -63,3 +63,8 @@ Norėdami pasirinkti svetainei taikomą temą, atlikite toliau nurodytus veiksmu
 [Kalbų įtraukimas į savo svetainę](add-languages-to-site.md)
 
 [Įtraukite scenarijaus kodą į svetainės puslapius, kad būtų palaikoma telemetrija](add-telemetry.md)
+
+[Temų apžvalga](e-commerce-extensibility/theming.md)
+
+[Sukurkite naują temą](e-commerce-extensibility/create-theme.md)
+

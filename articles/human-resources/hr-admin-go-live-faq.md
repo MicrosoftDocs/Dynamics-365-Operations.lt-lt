@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 64a85840be328702a06779390fe383fd1896fd04
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011430"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668950"
 ---
 # <a name="go-live-faq"></a>DUK apie įgyvendinimo pradžią 
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje pateikiami dažnai užduodami klausimai apie tai, kaip įgyvendinti „Dynamics 365 Human Resources” diegimo projektą. 
 
@@ -76,7 +78,7 @@ Duomenų bazių atsarginės kopijos kuriamos automatiškai toliau pateiktu dažn
 | Diferencinės duomenų bazės atsarginė kopija | Kas 12-24 val. |
 | Operacijų žurnalo atsarginė kopija | Kas 5-10 min. |
 
-„Microsoft” saugo pakankamai atsarginių kopijų, kad leistų tam tikro taško atkūrimą (PITR) per pastarąsias septynias dienas. 
+„Microsoft“ saugo pakankamai atsarginių kopijų taško laike atkūrimui (PITR) per paskutiniąsias 14 dienų. 
 
 Daugiau informacijos žr.  [Sužinokite apie automatiškai sukurtas SQL duomenų bazės atsargines kopijas](https://docs.microsoft.com/azure/azure-sql/database/automated-backups-overview?tabs=single-database). 
 

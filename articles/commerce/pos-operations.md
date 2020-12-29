@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081344"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594118"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Elektroninio kasos aparato (EKA) operacijos, prisijungus ir neprisijungus prie interneto
 
@@ -197,6 +197,8 @@ Toliau pateiktuose stulpeliuose nurodoma, kur galima iškviesti operacijas.
 | 500 | Anuliuoti operaciją | Anuliuokite dabartinę operaciją. | Taip | Taip | Nr. | Taip | Nr. |
 | 916 | „Windows“ darbo eigos programavimo platforma | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Nr. |
 | 924 | Banko kortelių X ataskaita | Ši operacija nepalaikoma. | Netaikoma | Netaikoma | Netaikoma | Netaikoma | Taip |
+| 311 | Pašalinkite sistemos nuolaidas iš perlaidų | Pašalinkite visas sistemos taikomas nuolaidas, įskaitant kuponu pagrįstas nuolaidas iš perlaidos. Tai nepašalina rankinių nuolaidų. | Taip | Taip | Taip | Taip | nr. |
+| 312 | Pakartotinio taikymo sistemos nuolaidos | Pakartotinio taikymo sistemos nuolaidos perlaidoje, jei jos yra pašalintos naudojant **Pašalinti sistemos nuolaidas iš perlaidos** operacijos. | Taip | Taip | Taip | Taip | nr. |
 
 \* Ši operacija pasiekiama tik veikiant autonominiam režimui, kai sukuriamas kliento užsakymas arba pardavimo pasiūlymas, ir tik tada, jei EKA funkcijų profilyje sukonfigūruotas kliento užsakymų ir pardavimo pasiūlymų kūrimas. Šios operacijos atlikti negalima, kai užsakymai kuriami naudojant „Real-time Service“ arba kai užsakymai yra atšaukiami ar redaguojami.
 

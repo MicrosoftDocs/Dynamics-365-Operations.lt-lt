@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: af922e857e6bd7a58c0b9891939c8265568b549b
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: b20fbc20f18243c712595795a0b16ae417e755e6
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269526"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594337"
 ---
 # <a name="customize-image-focal-points"></a>Tinkinti centrinius vaizdo taškus
 
@@ -49,12 +49,14 @@ Norėdami nustatyti pasirinktą centrinį vaizdo tašką, atlikite šiuos veiksm
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
-[Skaitmeninių išteklių valdymo apžvalga](dam-overview.md)
+[Skaitmeninio turto valdymo apžvalga](dam-overview.md)
 
-[Įkelti paveikslėlius](dam-upload-images.md)
+[Vaizdų nusiuntimas](dam-upload-images.md)
 
-[Įkelti vaizdo įrašą](dam-upload-video.md)
+[Vaizdo įrašų nusiuntimas](dam-upload-video.md)
 
 [Įkelti failus](dam-upload-files.md)
 
-[Apkarpyti vaizdai](dam-crop-images.md)
+[Vaizdų apkarpymas](dam-crop-images.md)
+
+[Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)

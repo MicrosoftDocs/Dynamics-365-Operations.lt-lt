@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017327"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654177"
 ---
 # <a name="zone-threshold-replenishment"></a>Papildymo pagal zoną ribinės vertės
 
@@ -64,13 +64,13 @@ Norėdami peržiūrėti arba redaguoti savo nurodymų kodus, eikite į **Sandėl
 
 1. Pasirinkite **USMF** juridinį subjektą dirbti su demonstraciniais duomenimis.
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Nurodymų kodai**.
-1. Veiksmų srityje pasirinkite **Nauja** , kad pridėtumėte eilutę į tinklelį.
+1. Veiksmų srityje pasirinkite **Nauja**, kad pridėtumėte eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias vertes:
 
     - **Nurodymo kodas:** _Zone replen_
     - **Nurodymo aprašas:** _Papildymas pagal zoną_
 
-1. Pasirinkite **Įrašyti** , kad įrašytumėte naują kodą.
+1. Pasirinkite **Įrašyti**, kad įrašytumėte naują kodą.
 
 ### <a name="set-up-replenishment-templates"></a>Nustatyti papildymo šablonus
 
@@ -102,7 +102,7 @@ Papildymo šablonas yra taisyklės, kuriomis remiantis kontroliuojama, kada ir k
     - **Aprašas:** Įveskite _Paėmimo zonos papildymas_.
     - **Papildymo vienetas:** Pasirinkite _EA_.
     - **Užklausos tipas** – palikite šį lauką tuščią.
-    - **Nurodymo kodas:** Šis laukas susieja papildymo šabloną su vietos nurodymu. Pasirinkite demonstracinių duomenų nuorodos kodą, kurį sukūrėte anksčiau ( _Zone replen_ ).
+    - **Nurodymo kodas:** Šis laukas susieja papildymo šabloną su vietos nurodymu. Pasirinkite demonstracinių duomenų nuorodos kodą, kurį sukūrėte anksčiau (_Zone replen_).
     - **Darbo šablonas** – Palikite šį lauką tuščią.
     - **Minimalus kiekis:** Šis laukas nustato kiekį, kuris suaktyvins papildymą. Įveskite _50_.
     - **Maksimalus kiekis:** Šis laukas nustato maksimalų prekės kiekį, kurį galima pristatyti zonoje. Sugeneruotas papildymo darbas padidins atsargų kiekį. Įveskite _150_.
@@ -123,7 +123,7 @@ Papildymo šablonas yra taisyklės, kuriomis remiantis kontroliuojama, kada ir k
     - **Laukas:** _Prekės numeris_
     - **Kriterijai:** _A0001_
 
-1. Pasirinkite **Gerai** , kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
 1. Pasirinkite **Pasirinkit papildymo produktus** virš **Papildymo šablono informacijos** tinklelio.
 1. Dialogo lango **Zonos užklausa** skirtuke **Diapazonas** pridėkite eilutei į tinklelį.
 1. Naujoje eilutėje nustatykite šias vertes:
@@ -133,7 +133,7 @@ Papildymo šablonas yra taisyklės, kuriomis remiantis kontroliuojama, kada ir k
     - **Laukas:** _Zonos ID_
     - **Kriterijai:** _AUKŠTAS_
 
-1. Pasirinkite **Gerai** , kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
 
 ### <a name="set-up-location-directives"></a>Nustatyti vietos nurodymus
 
@@ -192,7 +192,7 @@ Norėdami paruošti demonstracinius duomenis taip, kad juos būtų galima naudot
 
 1. Pasirinkite **Įrašyti** naujam veiksmui įrašyti.
 1. Kol vis dar pasirinktas naujas veiksmas, virš **Vietos nurodymų veiksmų tinklelio** pasirinkite **Redaguoti užklausą**.
-1. Atsiranda užklausos dialogo langas, kuriame galite pasirinkti vietas, kurias norite papildyti. Skirtuke **Diapazonas** pasirinkite **Pridėti** , kad įtrauktumėte naują eilutę į tinklelį.
+1. Atsiranda užklausos dialogo langas, kuriame galite pasirinkti vietas, kurias norite papildyti. Skirtuke **Diapazonas** pasirinkite **Pridėti**, kad įtrauktumėte naują eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias vertes:
 
     - **Lentelė:** _Vietos_
@@ -200,8 +200,8 @@ Norėdami paruošti demonstracinius duomenis taip, kad juos būtų galima naudot
     - **Laukas:** _Zonos ID_
     - **Kriterijai:** _BULK_
 
-1. Pasirinkite **Gerai** , kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
-1. Pasirinkite **Įrašyti** , kad įrašytumėte vietos nurodymą.
+1. Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
+1. Pasirinkite **Įrašyti**, kad įrašytumėte vietos nurodymą.
 
 ##### <a name="create-a-replenishment-put-directive"></a>Papildymo padėjimo vietos nurodymo kūrimas
 
@@ -244,7 +244,7 @@ Norėdami paruošti demonstracinius duomenis taip, kad juos būtų galima naudot
 
 1. Pasirinkite **Įrašyti** naujam veiksmui įrašyti.
 1. Kol vis dar pasirenkamas naujas veiksmas, pasirinkite **Redaguoti užklausą** virš **Vietos nurodymų veiksmų** tinklelio.
-1. Atsiranda užklausos dialogo langas, kuriame galite pasirinkti zonas, kurias norite papildyti. Ši zona turi būti ta pati zona, kuri nurodyta papildymo šablone. Skirtuke **Diapazonas** pasirinkite **Pridėti** , kad įtrauktumėte naują eilutę į tinklelį.
+1. Atsiranda užklausos dialogo langas, kuriame galite pasirinkti zonas, kurias norite papildyti. Ši zona turi būti ta pati zona, kuri nurodyta papildymo šablone. Skirtuke **Diapazonas** pasirinkite **Pridėti**, kad įtrauktumėte naują eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias vertes:
 
     - **Lentelė:** _Vietos_
@@ -252,8 +252,8 @@ Norėdami paruošti demonstracinius duomenis taip, kad juos būtų galima naudot
     - **Laukas:** _Zonos ID_
     - **Kriterijai:** _AUKŠTAS_
 
-1. Pasirinkite **Gerai** , kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
-1. Pasirinkite **Įrašyti** , kad įrašytumėte vietos nurodymą.
+1. Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
+1. Pasirinkite **Įrašyti**, kad įrašytumėte vietos nurodymą.
 
 ## <a name="scenario"></a>Scenarijus
 
@@ -275,8 +275,8 @@ Pasirinkę **USMF** juridinį subjektą, pridėkite papildomus pavyzdinius duome
 
 Atlikite šiuos veiksmus, norėdami įsitikinti, kad jūsų sistemoje yra pakankamai atsargų, kad būtų įvykdomas pavyzdinis scenarijus.
 
-1. Įsitikinkite, kad yra prekės *A0001* turimos atsargos, esančios dvejose skirtingose paėmimo zonos ( *AUKŠTAS* ) vietose, yra nurodytos papildymo šablone. Tačiau bendroji atsargų suma turėtų būti mažesnė nei būtinas minimalus kiekis ( *50* ), nurodytas papildymo šablone. Tokiu būdu galite modeliuoti, kaip skaičiuoti visą zoną, o ne tik vieną vietą. **Naudokite bet kurį sandėlio procesą atsargų koregavimui koreguoti kaip reikia.**
-1. Įsitikinkite, kad yra pakankamai prekės *A0001* atsargų masinėje vietoje, kuri yra nurodyta zonos paėmimo vietos nurodyme, kur papildymo darbas turėtų paimti prekes iš zonos ID *BULK*. Tačiau bendroji atsargų suma turėtų būti mažesnė nei būtinas maksimalus kiekis ( *150* ), nurodytas papildymo šablone.
+1. Įsitikinkite, kad yra prekės *A0001* turimos atsargos, esančios dvejose skirtingose paėmimo zonos (*AUKŠTAS*) vietose, yra nurodytos papildymo šablone. Tačiau bendroji atsargų suma turėtų būti mažesnė nei būtinas minimalus kiekis (*50*), nurodytas papildymo šablone. Tokiu būdu galite modeliuoti, kaip skaičiuoti visą zoną, o ne tik vieną vietą. **Naudokite bet kurį sandėlio procesą atsargų koregavimui koreguoti kaip reikia.**
+1. Įsitikinkite, kad yra pakankamai prekės *A0001* atsargų masinėje vietoje, kuri yra nurodyta zonos paėmimo vietos nurodyme, kur papildymo darbas turėtų paimti prekes iš zonos ID *BULK*. Tačiau bendroji atsargų suma turėtų būti mažesnė nei būtinas maksimalus kiekis (*150*), nurodytas papildymo šablone.
 1. Nebūtina, bet rekomenduojama: Vykdydami šiuos veiksmus sukursite atsargų koregavimo žurnalą:
 
     1. Eikite į **Atsargų valdymas \> Žurnalo įrašai \> Prekės \> Atsargų koregavimas**.
@@ -320,7 +320,7 @@ Atlikite šiuos veiksmus, norėdami įsitikinti, kad jūsų sistemoje yra pakank
 Kai visi būtinųjų sąlygų pavyzdžio duomenys yra vietoje, galite suaktyvinti papildymą atlikdami šiuos veiksmus.
 
 1. Eikite į **Sandėlio valdymas \> Papildymas \> Papildymai**.
-1. Dialogo lango **Papildymas** „FastTab” skirtuke **Įtrauktini įrašai** Pasirinkite **Filtruoti**.
+1. Dialogo lango **Papildymas**„FastTab” skirtuke **Įtrauktini įrašai** Pasirinkite **Filtruoti**.
 1. Dialogo lango **Užklausa** skirtuke **Diapazonas** redaguokite numatytąją lentelės eilutę taip:
 
     - **Lentelė:** Pasirinkti _Papildymo šablonai_.

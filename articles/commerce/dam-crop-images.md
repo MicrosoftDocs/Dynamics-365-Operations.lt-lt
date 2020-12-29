@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9496a1f96e2d0e18eb477a9743927b2076c5548a
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.openlocfilehash: a8f52c22a57d465ce1c2bedac6e8f13db3e856c0
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269572"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594483"
 ---
 # <a name="crop-images"></a>Apkarpyti vaizdai
 
@@ -57,10 +57,12 @@ Baigus pasirinktinį apkarpymą, vaizdo pakeitimai įsigalios beveik iš karto.
 
 [Skaitmeninių išteklių valdymo apžvalga](dam-overview.md)
 
-[Įkelti paveikslėlius](dam-upload-images.md)
+[Vaizdų nusiuntimas](dam-upload-images.md)
 
-[Įkelti vaizdo įrašą](dam-upload-video.md)
+[Vaizdo įrašų nusiuntimas](dam-upload-video.md)
 
 [Įkelti failus](dam-upload-files.md)
 
-[Tinkinti centrinius vaizdo taškus](dam-custom-focal-point.md)
+[Vaizdų centro tinkinimas](dam-custom-focal-point.md)
+
+[Naujinti ir aptarnauti statinius failus](upload-serve-static-files.md)

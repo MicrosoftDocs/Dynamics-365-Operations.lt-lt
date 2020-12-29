@@ -15,20 +15,22 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3ab79bc9203309c0cfa1ff18f75580297ae1001
-ms.sourcegitcommit: 713b5dfc76a6875d0ba6d86c5cbd585ea502cf9d
+ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 06/01/2020
-ms.locfileid: "3413992"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527368"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Kliento portalo tinkinimas ir naudojimas
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomi skirtingi kliento portalo puslapiai, kurie iš karto palaikomi. Joje aiškinama, kokia yra šių puslapių paskirtis ir kaip juos galima tinkinti.
 
 Kliento portale iš karto yra pasiekiami keli tinklalapiai ir veiksmai. Toliau pateiktoje svetainės struktūroje pateikiama šių tinklalapių ir veiksmų apžvalga, taip pat vaidmenys, kurie gali atlikti veiksmus.
 
-![![Kliento portalo svetainės struktūra](media/customer-portal-site-map.png "Kliento portalo svetainės struktūra")](media/customer-portal-site-map.png "Customer portal site map")
+![Kliento portalo svetainės struktūra](media/customer-portal-site-map.png "Kliento portalo svetainės struktūra")
 
 ## <a name="typical-customizations"></a>Įprasti tinkinimai
 
@@ -62,12 +64,12 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
     - **Paraiškos numeris** – įveskite užsakymo paraiškos numerį. Šis laukas nėra privalomas.
     - **Siuntimo šalis / regionas** – įveskite šalį arba regioną, į kurį bus pristatomos prekės. Šis laukas nustatomas automatiškai vartotojams, kurie nėra administratoriai.
 
-    ![![Užsakymo informacijos puslapis](media/customer-portal-order-information.png "Užsakymo informacijos puslapis")](media/customer-portal-order-information.png "Order Information page")
+    ![Užsakymo informacijos puslapis](media/customer-portal-order-information.png "Užsakymo informacijos puslapis")
 
 1. Pasirinkite **Toliau**.
 1. Puslapyje **Prekės** pasirinkite **Įtraukti prekę**.
 
-    ![![Prekių puslapis](media/customer-portal-items.png "Prekių puslapis")](media/customer-portal-items.png "Items page")
+    ![Prekių puslapis](media/customer-portal-items.png "Prekių puslapis")
 
 1. Dialogo lange **Prekės informacija** nustatykite toliau nurodytus laukus.
 
@@ -76,14 +78,14 @@ Kai vartotojas pateikia užsakymą naudodamas kliento portalą, užsakymas autom
     - **Vienetas** – nurodykite matavimo vienetą (pavyzdžiui, **vnt.**, **kg** arba **pakuotė**).
     - **Įvertinta grynoji suma** – ši vertė skaičiuojama kaip įvertinta prekės kaina × pasirinkto vieneto kiekis.
 
-    ![![Prekės informacijos dialogo langas](media/customer-portal-item-information.png "Prekės informacijos dialogo langas")](media/customer-portal-item-information.png "Item Information dialog box")
+    ![Prekės informacijos dialogo langas](media/customer-portal-item-information.png "Prekės informacijos dialogo langas")
 
 1. Pasirinkite **Pateikti**, kad įtrauktumėte prekę į užsakymą.
 1. Pakartokite 4–6 veiksmus, kol įtrauksite visas norimas prekes į užsakymą.
 1. Baigę įtraukti prekes, puslapyje **Prekės** pasirinkite **Pirmyn**.
 1. Puslapyje **Užsakymo informacija** pateikiama užsakymo suvestinė. Peržiūrėkite užsakymo turinį ir pristatymo informaciją. Jei viskas įvesta teisingai, pasirinkite **Pateikti**, kad pateiktumėte užsakymą.
 
-    ![![Užsakymo informacijos puslapis](media/customer-portal-order-submit.png "Užsakymo informacijos puslapis")](media/customer-portal-order-submit.png "Order Information page")
+    ![Užsakymo informacijos puslapis](media/customer-portal-order-submit.png "Užsakymo informacijos puslapis")
 
 ### <a name="standard-data-setup"></a>Standartinių duomenų nustatymas
 
@@ -148,19 +150,19 @@ Visi kliento portale esantys valdikliai yra įtaisytieji „Power Apps“ portal
 
 Vienintelis pasirinktinis valdiklis, įtrauktas į kliento portalo šabloną, naudojamas kuriant plyteles pagrindiniame puslapyje.
 
-![![Plytelės pagrindiniame puslapyje](media/customer-portal-home-page-tiles.png "Plytelės pagrindiniame puslapyje")](media/customer-portal-home-page-tiles.png "Tiles on the home page")
+![Plytelės pagrindiniame puslapyje](media/customer-portal-home-page-tiles.png "Plytelės pagrindiniame puslapyje")
 
 Norėdami modifikuoti plyteles, atlikite toliau pateiktus veiksmus.
 
 1. Atidarykite [portalo valdymo programėlę](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
 1. Kairėje esančioje naršymo srityje pasirinkite **Puslapio šablonai**.
 
-    ![![Portalo valdymo naršymo sritis](media/customer-portal-nav.png "Portalo valdymo naršymo sritis")](media/customer-portal-nav.png "Portal Management navigation pane")
+    ![Portalo valdymo naršymo sritis](media/customer-portal-nav.png "Portalo valdymo naršymo sritis")
 
 1. Pasirinkite puslapio šabloną su pavadinimu **Pagrindinis**.
 1. Lauke **Žiniatinklio šablonas** pasirinkite saitą **Pagrindinis**, kad atidarytumėte to puslapio šaltinio kodą.
 
-    ![![Žiniatinklio šablono laukas](media/customer-portal-web-template.png "Žiniatinklio šablono laukas")](media/customer-portal-web-template.png "Web Template field")
+    ![Žiniatinklio šablono laukas](media/customer-portal-web-template.png "Žiniatinklio šablono laukas")
 
 1. Dabar turėtumėte matyti visą pagrindinio puslapio šaltinio kodą, kuri galite modifikuoti pagal poreikį.
 

@@ -3,7 +3,7 @@ title: Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurody
 description: Šioje temoje aprašoma, kaip naudoti darbo šablonus ir vietos nurodymus, siekiant nustatyti, kaip ir kur sandėlyje atliekamas darbas.
 author: perlynne
 manager: tfehr
-ms.date: 02/05/2020
+ms.date: 10/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,14 +16,14 @@ ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e000f2779c50d3216a38d55df659bd683cadf6eb
-ms.sourcegitcommit: ecad92c9cb7e9e57688e678f79f747673c921df5
+ms.openlocfilehash: 21f6240b247433c7448a9aa5543996f19b3a25dd
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "3692167"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517433"
 ---
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus
 
@@ -39,17 +39,22 @@ Puslapyje **Darbo šablonai** galima apibrėžti darbo operacijas, kurį reikia 
 
 Darbo šablonus sudaro antraštė ir susietos eilutės. Kiekvienas darbo šablonas yra skirtas konkrečiam *darbo užsakymo tipui*. Daugelis darbo užsakymų tipų yra susieti su šaltinio dokumentais, pvz., pirkimo arba pardavimo užsakymais. Tačiau kiti darbo užsakymų tipai nurodo atskirus sandėlio procesus, pavyzdžiui, ciklo skaičiavimą. *Darbo telkinio ID* leidžia skirstyti darbą į grupes. 
 
-Darbo antraštės aprašo parametrus galima naudoti norint nustatyti, kada turi būti sukurtas naujas darbas. Pavyzdžiui, galite nustatyti didžiausią paėmimo eilučių skaičių ir didžiausią numatomą paėmimo laiką. Tada, jei pardavimo užsakymo išrinkimo proceso darbas viršija vieną iš šių reikšmių, tas darbas yra padalijamas į du darbus. 
+Naudokite nustatymus darbo antraštęs sąvokoje siekiant nustatyti, kai nauja darbo dalis turi būti sukurta. Pavyzdžiui, galite nustatyti didžiausią paėmimo eilučių skaičių ir didžiausią numatomą paėmimo laiką. Tada, jei pardavimo užsakymo išrinkimo proceso darbas viršija vieną iš šių reikšmių, tas darbas yra padalijamas į du darbus.
 
-Darbo eilutės nurodo faktines užduotis, kurių reikia norint vykdyti darbą. Pvz., viena siuntimo sandėlio proceso darbo eilutė gali būti skirta prekes paimti sandėlyje, o kita eilutė – tas prekes padėti į išdėstymo sritį. Taip pat gali būti papildoma eilutė prekėms iš išdėstymo srities paimti ir dar viena eilutė prekėms į sunkvežimį pakrauti (tai yra krovimo proceso dalis). *Krypties kodas* gali būti nustatytas darbo šablono eilutėse. Krypties kodas yra susietas su vietos nurodymu ir todėl padeda užtikrinti, kad sandėlio darbas yra vykdomas tinkamoje sandėlio vietoje. 
+Naudokite **Darbo antraštės pertrūkiai** mygtuką, kad nustatytumėte, kada sistema turi sukurti naują darbo antraštę. Pavyzdžiui, norėdami sukurti darbo antraštę kiekvienam _užsakymo numeriui_, pasirinkite **Redaguoti užklausą** veiksmų juostoje ir tada įtraukite **Užsakymo numerį** laukelį į **Rūšiavimo** skirtuką užklausos redaktoriuje. Laukeliai yra įtraukti į **Rūšiavimo** skirtuką ir yra prieinami pasirinkimui kaip *laukelių grupavimas*. Norėdami nustatyto savo grupavimo laukelius rinkitės **Darbo antraštės pertraukimas** veiksmų juostoje ir tada kiekvienam laukeliui, kurį norite naudoti kaip laukelių grupavimą, pasirinkite žumimą laukelį **Grupuoti šį laukelį** stulpelyje.
 
-Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus darbo šablonas naudojamas. Pavyzdžiui, galite nustatyti apribojimą, kad konkretus šablonas būtų naudojamas tik atliekant darbą konkrečiame sandėlyje. Taip pat galite nustatyti kelis šablonus, kurie būtų naudojami siuntimo pardavimo užsakymo apdorojimo darbui kurti, atsižvelgiant į pardavimo šaltinį. Sistema naudoja lauką **Sekos numeris**, kad nustatytų galimų darbo šablonų vertinimo tvarką. Todėl, jei turite labai konkrečią užklausą dėl konkretaus darbo šablono, turėtumėte jai priskirti žemą sekos numerį. Tada ta užklausa bus vertinama anksčiau nei kitos, bendresnės užklausos. 
+Darbo eilutės rodo fizines užduotis, kurių reikia darbo procesui. Pavyzdžiui, išvesties sandėlio procesui gali būti viena paėmimo eilutę prekėms sandėlyje ir kita eilutę padėjimui šių prekių parengimo srityje. Gali tuomet būti papildoma eilutė prekių paėmimui iš parengimo vietos ir kita eilutė prekių padėjimui ant sunkvežimio kaip krovinio proceso dalis. *Krypties kodas* gali būti nustatytas darbo šablono eilutėse. Krypties kodas yra susiejamas su vietos kryptimi ir dėl to padeda užtikrinti, kad sandėlio darbas yra apdorojamas tinkamoje vietoje sandėlyje.
+
+Galite nustatyti užklausą, norėdami kontroliuoti, kada konkretus darbo šablonas naudojamas. Pavyzdžiui, galite nustatyti apribojimą, kad konkretus šablonas būtų naudojamas tik atliekant darbą konkrečiame sandėlyje. Kitu atveju, jums gali reikėti kelių šablonų, kad sukurtumėte darbą išprės pardavimo užsakymo apdorojimui priklausomai nuo pardavimo kilmės. Sistema naudoja lauką **Sekos numeris**, kad nustatytų galimų darbo šablonų vertinimo tvarką. Todėl, jei turite labai konkrečią užklausą dėl konkretaus darbo šablono, turėtumėte jai priskirti žemą sekos numerį. Ta užklausa tuomet bus vertinama prieš kitą, bendresnę užklausą.
+
+> [!NOTE]
+> Siekiant apsaugoti sistemą nuo automatinio užrašymo darbo šablone *sekos skaičiai* po to, kai šablonas buvp panaikintas, įjunkite *Išsaugoti darbo šablono sekos skaičius naikinimui* funkciją [Funkcijos valdyme](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Norėdami darbo procesą sustabdyti arba pristabdyti, galite naudoti darbo eilutės parametrą **Stabdyti darbą**. Tokiu atveju darbą atliekančio darbuotojo nebus prašoma atlikti kitą darbo eilutės veiksmą. Norėdamas pereiti prie kito veiksmo, tas arba kitas darbuotojas turi pasirinkti darbą dar kartą. Taip pat galite atskirti darbo užduotis, darbo šablono eilutėse naudodami kitą *darbo klasės ID*.
 
 ## <a name="location-directives"></a>Vietos nurodymai
 
-Vietos nurodymai yra taisyklės, kurios padeda identifikuoti atsargų judėjimo paėmimo ir padėjimo vietas. Pvz., pardavimo užsakymo operacijoje vietos nurodymas nustato, kur prekės bus paimtos ir kur bus padėtos. Vietos nurodymus sudaro antraštė ir susietos eilutės, o jie kuriami puslapyje **Vietos nurodymai**. 
+Vietos nurodymai yra taisyklės, kurios padeda identifikuoti atsargų judėjimo paėmimo ir padėjimo vietas. Pvz., pardavimo užsakymo operacijoje vietos nurodymas nustato, kur prekės bus paimtos ir kur bus padėtos. Vietos nurodymus sudaro antraštė ir susietos eilutės, o jie kuriami puslapyje **Vietos nurodymai**.
 
 Kiekvienas antraštės vietos nurodymas turi būti susietas su *darbo užsakymo tipu*, nurodančiu, kuriam atsargų operacijos tipui nurodymas bus skirtas, pvz., pardavimo užsakymas, papildymas arba žaliavų paėmimas. *Darbo tipas* nurodo, ar vietos nurodymas bus skirtas išrinkimo darbui, padėjimo darbui, ar kažkuriam kitam sandėlio procesui, pvz., skaičiavimui arba atsargų būsenos keitimams. Taip pat turi būti nurodyta *teritorija* ir *sandėlis*. Antraštėje nurodytas *krypties kodas* gali būti naudojamas vietos nurodymui su vienu ar daugiau darbo šablonų susieti. 
 
@@ -60,3 +65,15 @@ Vietos nurodymo eilutės nustato papildomus vietos ieškos taisyklių taikymo ap
 Vietos nurodymams priskiriamas vienas papildomas informacijos lygis: *vietos nurodymo veiksmai*. Galite nurodyti kelis kiekvienos eilutės vietos nurodymo veiksmus. Primename, kad sekos numeris yra naudojamas veiksmų vertinimo tvarkai nustatyti. Šiame lygyje galite nustatyti užklausą, norėdami nurodyti, kaip rasti geriausią vietą sandėlyje. Taip pat galite naudoti iš anksto nustatytus **strategijos** parametrus optimaliausiai vietai rasti.
 
 Dėl daugiau informacijos, kaip sukurti ir konfigūruoti direktyvas, žr. [Sukurti vietos direktyvą](create-location-directive.md).
+
+### <a name="how-location-directives-work"></a>Kaip vietos kryptys veikia
+
+Vietos kryptys nustato *ar* prekės turi būti paimamos ir *kur* jos turi būti padėtos. Sistema įvertina vietos kryptį lyginant su kiekvieno darbo eilute ir tada pasirenka vietą priklausomai nuo darbo eilutės išsamios informacijos. Sistema pirmiausia suranda visas vietos kryptis, kurios atitinak konkrečią darbo eilutę (pavyzdžiui, jos yra tinkamam sandėliui ir atitinka užklausą). Ji vėliau įvertina rastą kryptį.
+
+> [!NOTE]
+> Esama konkrečių atvejų, kai paėmimo vieta ar padėjimo vieta pasirenkama iš anksto. Pavyzdžiui, _įsigijimo registracija_, pirmasis paėmimas visada yra iš vietos, kurioje registracija įvyksta. Kitas pavyzdys yra *inventoriaus judėjimas pagal šabloną*, kai sandėlio darbuotojas pasirenka paėmimo vietą ir tik padėjimo vietos yra randamos per vietos kryptis.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+- Vaizdo įrašas: [Sandėlio valdymo konfigūravimo gili analizė](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
+- Pagalbos tema: [Sukurkite vietos kryptis](create-location-directive.md)

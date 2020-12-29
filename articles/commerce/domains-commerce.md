@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3765006"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517360"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>„Dynamics 365 Commerce” domenai
 
@@ -34,26 +34,26 @@ Domenai yra interneto adresai, naudojami pereiti į „Dynamics 365 Commerce” 
 
 ## <a name="provisioning-and-supported-host-names"></a>Parengimas ir palaikomi pagrindinių kompiuterių vardai
 
-Kuriant „e-Commerce” aplinką [„Microsoft Dynamics Lifecycle Services” (LCS)](https://lcs.dynamics.com/), „e-Commerce” parengimo ekrane rodomas laukas **Palaikomi pagrindinių kompiuterių vardai** naudojamas domenams, kurie bus susieti su įdiegta „Commerce” aplinka, įvesti. Šie domenai bus kliento domenų vardų serverio (DNS) vardai, kur bus nuomojamos „e-Commerce” svetainės. Šio etapo metu įvedus domeną nepradedama nukreipti domeno srauto į „Dynamics 365 Commerce”. Domeno srautas bus nukreiptas į „Commerce” galinį punktą, tik kai atnaujinamas DNS CNAME įrašas, kad „Commerce” galinis punktas būtų naudojamas su domenu.
+Suteikiant e-komercijos aplinką [„Microsoft Dynamics  Lifecycle Services“ (LCS)](https://lcs.dynamics.com/), **Palaikomi šeimininko vardai** tiek e-komercijos suteikimo ekrane yra naudojami siekiant įvesti domenus, kurie bus susieti su talpinta „Commerce“ aplinka. Šie domenai bus klientui rodomi domeno pavadinimo serverio (DNS) pavadinimai, kuriame e-komercijos interneto svetainės bus patalpintos. Šio etapo metu įvedus domeną nepradedama nukreipti domeno srauto į „Dynamics 365 Commerce”. Domeno srautas bus nukreiptas į „Commerce” galinį punktą, tik kai atnaujinamas DNS CNAME įrašas, kad „Commerce” galinis punktas būtų naudojamas su domenu.
 
 > [!NOTE]
 > Kelis domenus galima įvesti į langelį **Palaikomi pagrindinių kompiuterių vardai** atskiriant juos kabliataškiais.
 
-Toliau pateiktoje iliustracijoje parodytas LCS „e-Commerce” parengimo ekranas, kuriame paryškintas langelis **Palaikomi pagrindinių kompiuterių vardai**. 
+Tolesnis paveikslėlis rodo LCS e-komercijos suteikimo ekraną su pabrėžtu **Palaikomais šeimininko pavadinimais** laukeliu. 
 
-![LCS „e-Commerce” parengimo ekranas, kuriame paryškintas langelis **Palaikomi pagrindinių kompiuterių vardai**](./media/Domains_ProvisioningeCommerceScreen.png)
+![LCS e-komercijos suteikimo ekranas su **Palaikomi talpinimo pavadinimiai** pabrėžtas laukelis](./media/Domains_ProvisioningeCommerceScreen.png)
 
 Galite sukurti paslaugos užklausą, norėdami įtraukti papildomus domenus į aplinką, jei parengimas jau įvyko. Norėdami sukurti paslaugos užklausą LCS, jūsų aplinkoje eikite į **Palaikymas \> Palaikymo problemos** ir pasirinkite **Pateikti incidentą**.
 
 ## <a name="commerce-generated-urls"></a>„Commerce” sugeneruoti URL
 
-Rengiant „e-Commerce” aplinką, „Commerce” sugeneruos URL, kuris bus aplinkos darbo adresas. Šis URL nurodomas „e-Commerce” svetainės saite, kuris rodomas LCS po to, kai aplinka sukonfigūruota. „Commerce” sugeneruoto URL formatas yra `https://<e-Commerce tenant name>.commerce.dynamics.com`, kuriame „e-Commerce” nuomotojo pavadinimas yra LCS įvestas „Commerce” aplinkos pavadinimas.
+Suteikiant „Dynamics 365 Commerce“ e-komercijos aplinką, „Commerce“ sukurs URL, kuris bus veikiantis aplinkos adresas. Šis URL yra nukreiptas į e-komercijos saito nuorodą rodomą LCS suteikus aplinką. „Commerce“ sukurtas URL yra šio formato `https://<e-commerce tenant name>.commerce.dynamics.com`, kuriame e-komercijos nuomotojo pavadinimas yra pavadinimas įvestas į LCS „Commerce“ aplinkoje.
 
 Taip pat galite naudoti gamybos svetainės pagrindinių kompiuterių vardus smėlio dėžės aplinkoje. Ši parinktis puikiai tinka, kai kopijuojate svetainę iš smėlio dėžės aplinkos į gamybos aplinką.
 
 ## <a name="site-setup"></a>Svetainės sąranka
 
-Kai parengta jūsų „e-Commerce” aplinka, turite nustatyti jūsų svetainę „Commerce” svetainių daryklėje ir susieti jūsų svetainę su darbo URL.
+Kai jūsų e-komercijos aplinka yra suteikta, turite nustatyti jūsų saitą „Commerce“ saito kūrimo įrankyje, kad jūsų saitas būtų susietas su veikiančiu URL.
 
 Pirmą kartą nustačius svetainę svetainių daryklėje, bus rodomas dialogo langas **Jūsų svetainės nustatymas**.
 
@@ -68,7 +68,7 @@ Langelis **Kelias** gali būti paliktas tuščias arba galima įtraukti papildom
 > [!NOTE]
 > Šis kelias dar žinomas kaip **Kelio atitikmuo**, kai įtraukiamas kanalas svetainės daryklės konfigūracijos skyriuje **Svetainės parametrai \> Kanalai**.
 
-Pvz., jei svetainių daryklės „e-Commerce” nuomotojuje pavadinimu „xyz“ turite svetainę pavadinimu „fabrikam“ ir nustatėte svetainę tuščiu keliu, tada turėtumėte prieigą prie paskelbto svetainės turinio žiniatinklio naršyklėje eidami tiesiai į pagrindinį „Commerce” sugeneruotą URL.
+Pavyzdžiui, jei turite saito saito kūrimo įrankyje pavadinimu „fabrikam“ e-komercijos nuomotojo pavadinime „xyz“ ir nustatėte saitą su tuščių maršrutu, tuomet prieisite prie publikuoto saito turinio žiniatinklio naršyklėje patekę tiesiogiai į pagrindinį „Commerce“ sukurtą URL:
 
 `https://xyz.commerce.dynamics.com`
 
@@ -102,9 +102,9 @@ Kai domeno užklausos eilutė nenurodyta aplinkoje su keliais domenais, „Comme
 
 ## <a name="traffic-forwarding-in-production"></a>Srauto perdavimas gamybos metu
 
-Galite imituoti kelis domenus naudodami domeno užklausos eilutės parametrus, esančius commerce.dynamics.com galiniame punkte. Tačiau kai reikia įgyvendinti gamybos metu, turite persiųsti jūsų pasirinktinio domeno srautą į `<e-Commerce tenant name>.commerce.dynamics.com` galinį punktą.
+Galite imituoti kelis domenus naudodami domeno užklausos eilutės parametrus, esančius commerce.dynamics.com galiniame punkte. Tačiau kai reikia įgyvendinti gamybos metu, turite persiųsti jūsų pasirinktinio domeno srautą į `<e-commerce tenant name>.commerce.dynamics.com` galinį punktą.
 
-`<e-Commerce tenant name>.commerce.dynamics.com` galinis punktas nepalaiko pasirinktinio domeno saugiųjų jungčių lygmenų (SSL), todėl reikia nustatyti pasirinktinius domenus naudojant „Front Door Service“ arba turinio pristatymo tinklą (CDN). 
+`<e-commerce tenant name>.commerce.dynamics.com` galinis punktas nepalaiko pasirinktinio domeno saugiųjų jungčių lygmenų (SSL), todėl reikia nustatyti pasirinktinius domenus naudojant „Front Door Service“ arba turinio pristatymo tinklą (CDN). 
 
 Norėdami nustatyti pasirinktinius domenus naudodami „Front Door Service“ arba CDN, turite dvi toliau pateiktas parinktis.
 
@@ -115,7 +115,7 @@ Informacijos apie tai, kaip nustatyti CDN paslaugą tiesiogiai, žr. [Turinio pr
 
 Norėdami naudoti „Commerce” teikiamą „Azure Front Door” egzempliorių, turite sukurti paslaugos užklausą, kad gautumėte CDN nustatymo pagalbos iš „Commerce” supažindinimo komandos. 
 
-- Jums reikės nurodyti jūsų įmonės pavadinimą, gamybos domeną, aplinkos ID ir gamybos „e-Commerce” nuomotojo pavadinimą. 
+- Jums reikės pateikti jūsų įmonės pavadinimą, gamybos domeną, aplinkos ID ir gamybos e-komercijos nuomotojo vardą. 
 - Jums reikės patvirtinti, ar tai esamas domenas (naudojamas šiuo metu aktyvioje svetainėje), ar naujas domenas. 
 - Jei tai naujas domenas, domeno tikrinimas ir SSL sertifikatas gali būti pasiektas vienu veiksmu. 
 - Jei tai esamos svetainės domenas, yra kelių veiksmų procesas, kurio reikia norint nustatyti domeno tikrinimą ir SSL sertifikatą. Šis procesas turi 7 darbo dienų aptarnavimo lygio sutartį (SLA), skirtą domenui, kad jis būtų įgyvendintas, nes procesas apima kelis nuoseklius veiksmus.
@@ -152,15 +152,15 @@ Jei domenai esami / aktyvūs, bus atlikti toliau pateikti veiksmai.
 
   ## <a name="additional-resources"></a>Papildomi ištekliai
 
-  [Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+  [Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
   [Interneto parduotuvės kanalo integravimas](online-stores.md)
 
-  [El. prekybos svetainės kūrimas](create-ecommerce-site.md)
+  [Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-  [Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+  [Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-  [„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+  [„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
   [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

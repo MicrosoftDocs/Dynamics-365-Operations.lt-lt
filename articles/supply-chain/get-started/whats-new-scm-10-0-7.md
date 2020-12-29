@@ -1,5 +1,5 @@
 ---
-title: Kas nauja ir pasikeitė „Dynamics 365 Supply Chain Management” 10.0.7 (2020 m. sausio mėn.)
+title: Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.7 (2020 m. sausio mėnesį)
 description: Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Supply Chain Management“ 10.0.7 funkcijos.
 author: josaw1
 manager: tfehr
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: 81fea8cb5be4d99247da5f6f373aa4250859fcda
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: a91f7b0ed715c383930db319de08fa37e6bbca37
+ms.sourcegitcommit: ce34e1ac6ce3a7033618bb9fd2983b11d63d3112
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802876"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4597111"
 ---
-# <a name="whats-new-and-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Kas nauja ir pasikeitė „Dynamics 365 Supply Chain Management” 10.0.7 (2020 m. sausio mėn.)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1007-january-2020"></a>Kas naujo ar pasikeitusio „Dynamics 365 Supply Chain Management“ 10.0.7 (2020 m. sausio mėnesį)
 
 [!include [banner](../includes/banner.md)]
 
@@ -48,7 +48,7 @@ Funkcijų valdymas dabar leidžia įjungti visas naujas funkcijas pagal numatytu
 Norėdami gauti daugiau informacijos apie klaidų ištaisymus, įtrauktus į kiekvieną iš naujinimų, kurie yra 10.0.7 dalis, prisijunkite prie „Lifecycle Services“ (LCS) ir peržiūrėkite [KB straipsnį](https://fix.lcs.dynamics.com/Issue/Details?kb=4528173&bugId=386529&dbType=3&qc=d6f5cd3ead06907477eae511043a52c1d4290a12bf52374dd55faf0d28ae732e).
 
 ### <a name="platform-update-31"></a>Platformos „update 31“
-„Microsoft Dynamics 365 Supply Chain Management“ 10.0.7 sudaro platformos 31 naujinimas. Norėdami daugiau sužinoti apie platformos 31 naujinimą, žr. [Kas nauja ir pakeista platformos 31 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
+„Microsoft Dynamics 365 Supply Chain Management“ 10.0.7 sudaro platformos 31 naujinimas. Norėdami daugiau sužinoti apie platformos 31 naujinimą, žr. [Kas nauja ar pakeista platformos 31 naujinime](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31.md).
 
 ### <a name="dynamics-365-2019-release-wave-2-plan"></a>„Dynamics 365“: 2019 m. 2-os leidimo bangos planas
 Norite sužinoti apie būsimas ir neseniai išleistas mūsų verslo programų ar platformos galimybes?

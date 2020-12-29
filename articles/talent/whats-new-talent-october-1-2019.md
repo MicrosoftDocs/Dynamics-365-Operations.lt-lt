@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6bfe8a60b8c7eb9b7542a6ef3be6094144b06b3c
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 69c0a805027f215b2a2a42d826ee7a346cfdd511
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897424"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529665"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-october-1-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. spalio 1 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
@@ -43,7 +45,7 @@ ms.locfileid: "2897424"
 
 ### <a name="streamlined-employee-entry-and-navigation"></a>Supaprastintas darbuotojo įrašo sukūrimas ir naršymas
 
-Ši funkcija dabar yra visose aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbuotojo forma ir naršymas**. Tai įgalina šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
+Ši funkcija dabar yra visose aplinkose. Norėdami įjungti šią funkciją, pereikite prie **Sistemos administravimas > Saitai > Sąranka > Sistemos parametrai > Peržiūros funkcijos**. Pasirinkite **Patobulintoji darbininko forma ir naršymas**. Tai įgalina šiuos pakeitimus visiems vartotojams. Šią parinktį galite bet kuriuo metu išjungti.
 
 Daugiau informacijos žr. [Supaprastintas darbuotojų įrašas ir naršymas](./streamlined-employee-entry.md). Norėdami peržiūrėti vaizdo įrašą apie šiuos keitimus, žr. [„Dynamics 365 for Talent“  2019 išleidimo bangos 2 apžvalga](https://aka.ms/ROGT19RW2ROV).
 

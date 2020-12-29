@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5c66d8695ee0ff41e81c699a5d5a37075470059
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107541"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529987"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Kas nauja ar pasikeitė „Dynamics 365 Human Resources“ 2020 m. spalio 22 d.
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -56,14 +58,14 @@ Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 | --- | --- | --- |
 | 437922 | Importuojant FMLA valandas naudojant DMF objektą pateikiama tik skaitoma klaida. | Naudojant objektą FMLA valandos nepavyko importuoti valandų, susietų su FMLA atveju. Įtraukėme logiką, siekdami užtikrinti, kad importuotos valandos neviršytų likusių atvejo valandų. |
 | 512019 | Netinkama **paskutinio perkeliamo balanso** suma. | Puslapyje **Ne darbo laikas** pakeitus lauką **Nuo datos** į pirmą ataskaitinio laikotarpio dieną rodoma netinkama tipo **Metinės atostogos** **paskutinio perkeliamo balanso** suma. Dabar rodoma tinkama suma. |
-| 458639 | Objektas **Darbuotojo kontaktai** nepalaiko keitimų sekimo režimo. | Atnaujinome objektą **Darbuotojo kontaktai** , kad jį galėtumėte naudoti savo duomenų bazės naudojimo (BYOD) scenarijuose.|
+| 458639 | Objektas **Darbuotojo kontaktai** nepalaiko keitimų sekimo režimo. | Atnaujinome objektą **Darbuotojo kontaktai**, kad jį galėtumėte naudoti savo duomenų bazės naudojimo (BYOD) scenarijuose.|
 | 505347 | Mokymo vadovai galėjo pateikti darbuotojo atostogų užklausą, kai buvo įjungta supaprastinta darbuotojo funkcija. | Visi vaidmenys, išskyrus personalo asistentą ir personalo vadovą, negali pateikti darbuotojų prašymų išleisti iš darbo. |
 | 513490 | Išmokų valdymo registravimas: įtraukite planų be padengimo parinkčių registravimą. | Įjungėme **planų be padengimo parinkčių** rezultatų registravimą. Dabar jie rodomi lentelėje **Proceso rezultatai** ir tinkamai rikiuojami, kad būtų rodomi viršuje. |
 | 517021 | Negalima pasirinkti kelių planų, kurių **plano tipo** kodas yra tas pats, jei nustatyta viena **plano tipo** registracija vienam tipui. | Pakeitėme planų pasirinkimo apribojimus, kai leidžiama tik viena registracija. Šie apribojimai dabar pateikiami **plano tipo kodo** lygiu, o ne **plano tipo** lygiu. Šis pakeitimas leidžia HSA ir FSA planus, kurių tipai yra vienodi, tačiau galite jiems suteikti atskirą **plano tipo kodą**. Tokiu būdu galite pasirinkti abu to paties registracijos laikotarpio planus. |
-| 444791 | Negalima peržiūrėti kompensacijos darbuotojų savitarnos paslaugoje, kai kompensacijos plane įjungta **Apriboti prieigą**. | Darbuotojo savitarnos paslaugos kortelėje **Kompensacija** dabartinės kompensacijos suma ir padidėjimo procentas rodomas kaip „0”, jei darbuotojas buvo užregistruotas plane, kuriame įjungta parinktis **Apriboti prieigą** , ir priskirtas konkretiems vaidmenims. Mes išsprendėme šią problemą, kad darbuotojas ir vadovas visada galėtų peržiūrėti jų ir jų tiesioginių pavaldinių kompensacijų informaciją. |
+| 444791 | Negalima peržiūrėti kompensacijos darbuotojų savitarnos paslaugoje, kai kompensacijos plane įjungta **Apriboti prieigą**. | Darbuotojo savitarnos paslaugos kortelėje **Kompensacija** dabartinės kompensacijos suma ir padidėjimo procentas rodomas kaip „0”, jei darbuotojas buvo užregistruotas plane, kuriame įjungta parinktis **Apriboti prieigą**, ir priskirtas konkretiems vaidmenims. Mes išsprendėme šią problemą, kad darbuotojas ir vadovas visada galėtų peržiūrėti jų ir jų tiesioginių pavaldinių kompensacijų informaciją. |
 | 457542 | Atnaujinus kurso informaciją po to, kai kursas uždarytas, ta pati informacija neatnaujinama kursą atlikusiam darbuotojui. | Darbuotojo informacija dabar atnaujinama tinkamai, kai keičiate kurso informaciją po to, kai kursas uždarytas ir atidarytas iš naujo. |
-| 515342 | Negalima įterpti duomenų naudojant **CDSLeaveRequestDetailEntity**. Įmonė nerandama arba jos nėra. | Dabar galite naudoti **CDSLeaveRequestDetailEntity** , norėdami įterpti duomenis. |
-| 514743 | **El. pašto parametro** formoje įvyksta klaida naudojant „Microsoft Exchange”. | Pranešimas „Nepavyko įkelti failų arba rinkinio...” rodomas puslapyje **El. pašto parametrai** , kai el. pašto teikėjas nustatytas į **„Exchange”**. Ši pataisa taip pat leidžia įkelti ir įrašyti puslapį **El. pašto parametrai** kaip tikėtasi. |
+| 515342 | Negalima įterpti duomenų naudojant **CDSLeaveRequestDetailEntity**. Įmonė nerandama arba jos nėra. | Dabar galite naudoti **CDSLeaveRequestDetailEntity**, norėdami įterpti duomenis. |
+| 514743 | Klaida **El. pašto parametro** formoje naudojant „Microsoft Exchange“. | Pranešimas „Nepavyko įkelti failų arba rinkinio...” rodomas puslapyje **El. pašto parametrai**, kai el. pašto teikėjas nustatytas į **„Exchange”**. Ši pataisa taip pat leidžia įkelti ir įrašyti puslapį **El. pašto parametrai** kaip tikėtasi. |
 
 
 ## <a name="in-preview"></a>Peržiūros režimu

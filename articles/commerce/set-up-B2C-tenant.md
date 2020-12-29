@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980969"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517385"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>„Commerce” B2C nuomotojo sąranka
 
@@ -117,7 +117,7 @@ Norėdami sukurti prisiregistravimo ir prisijungimo vartotojo srauto strategiją
 1. Dalyje **Pavadinimas** įveskite strategijos pavadinimą. Šis pavadinimas bus rodomas su prievardžiu, kurį priskyrė portalas (pavyzdžiui, „B2C_1_“).
 1. Dalyje **Tapatybės teikimo įrankiai** pažymėkite atitinkamą žymės langelį.
 1. Dalyje **Kelių faktorių autentifikavimas** atlikite pasirinkimą pagal savo įmonę. 
-1. Dalyje **Vartotojo atributai ir pretenzijos**pasirinkite pasirinktis, kad būtų galima rinkti atributus arba grąžinti pretenzijas, kaip tinkama. „Commerce“ reikia nustatyti tolesnes numatytąsias parinktis:
+1. Dalyje **Vartotojo atributai ir pretenzijos** pasirinkite pasirinktis, kad būtų galima rinkti atributus arba grąžinti pretenzijas, kaip tinkama. „Commerce“ reikia nustatyti tolesnes numatytąsias parinktis:
 
     | **Rinkti atributą** | **Grąžinti pretenziją** |
     | ---------------------- | ----------------- |
@@ -208,7 +208,7 @@ Norėdami įtraukti ir nustatyti socialinės tapatybės teikimo įrankį, atliki
 
 1. „Azure“ portale eikite į **Tapatybės teikimo įrankiai**.
 1. Pasirinkite **Įtraukti**. Rodomas langas **Įtraukti tapatybės teikimo įrankį**.
-1. Dalyje **Pavadinimas**įveskite pavadinimą, kuris bus rodomas vartotojams prisijungimo ekrane.
+1. Dalyje **Pavadinimas** įveskite pavadinimą, kuris bus rodomas vartotojams prisijungimo ekrane.
 1. Dalyje **Tapatybės teikimo įrankio tipas** iš sąrašo pasirinkite tapatybės teikimo įrankį.
 1. Pasirinkite **Gerai**.
 1. Pasirinkite **Nustatyti šį tapatybės teikimo įrankį**, kad būtų atidarytas ekranas **Nustatyti socialinės tapatybės teikimo įrankį**.
@@ -345,19 +345,19 @@ Pasirinktinio antrinio administratoriaus sąskaita gali būti įtraukta į jūs�
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
-[Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
+[Įkelkite URL nukreipimus bendrai](upload-bulk-redirects.md) Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu
 
 [Vartotojo prisijungimo pasirinktinių puslapių sąranka](custom-pages-user-logins.md)
 
-[„Commerce” aplinkos kelių B2Ck nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
+[„Commerce” aplinkos kelių B2C nuomotojų konfigūravimas](configure-multi-B2C-tenants.md)
 
 [Turinio pristatymo tinklo (CDN) palaikymo įtraukimas](add-cdn-support.md)
 

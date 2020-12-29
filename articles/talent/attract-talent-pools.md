@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078048"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527698"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Kandidatų ieška naudojant talentų telkinius programoje „Attract“
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Įdarbintojai ir samdos vadovai gali sutvarkyti kandidatų informaciją naudodami „Attract“ talentų telkinių funkciją. Talentų telkiniai gali padėti sekti ir bendrauti su kandidatais, kurie kreipiasi dėl darbo jūsų įmonėje.
 
@@ -113,7 +115,7 @@ Visi vartotojai gali peržiūrėti bendrąjį kandidatų profilių rodinį. Skir
 
 - Skirtuke **Dokumentai** rodomi visi dokumentai, kuriuos kandidatas įtraukė iš savo profilio arba teikdamas prašymus įdarbinti. Naudodami šį skirtuką galite tvarkyti kandidato CV, motyvacinius laiškus, darbų portfelį ir t. t. Taip pat galite naudoti šį skirtuką norėdami įtraukti dokumentų.
 
-    Norėdami peržiūrėti dokumentą, pasirinkite dokumento pavadinimą dokumentų sąraše. Prašyme galite peržiūrėti „Microsoft Word“ dokumentus naudodami „Microsoft Office 365“. Taip pat galite atsisiųsti dokumentus į vietinį kompiuterį naudodami parinktį **Atsisiųsti**, pateiktą šalia kiekvieno dokumento.
+    Norėdami peržiūrėti dokumentą, pasirinkite dokumento pavadinimą dokumentų sąraše. Galite peržiūrėti „Microsoft Word“ dokumentus programoje naudodami „Microsoft 365“. Taip pat galite atsisiųsti dokumentus į vietinį kompiuterį naudodami parinktį **Atsisiųsti**, pateiktą šalia kiekvieno dokumento.
 
 - Skirtuke **LinkedIn** rodoma kandidato „LinkedIn“ informacija. Norėdami naudoti šį skirtuką, savo „LinkedIn“ paskyrą turite susieti vartotojo parametrų srityje, taip pat nustatyti savo aplinkos „LinkedIn Recruiter“ ryšį. Norėdami gauti daugiau informacijos, žr. [Kandidatų ieška su LinkedIn Recruiter programoje „Microsoft Dynamics 365 Talent - Attract“](./attract-linkedin-recruiter.md).
 

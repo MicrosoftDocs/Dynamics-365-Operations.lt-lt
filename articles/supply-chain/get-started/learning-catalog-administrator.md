@@ -14,12 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4b0c8a265971c4a3f0b83ac1d6404b7d4aa82660
-ms.sourcegitcommit: 58d7133ae9909fa205730e3cf4c7fd5a1d5d0b75
+ms.openlocfilehash: ba93bdcb64237af627c5a6d5adb834583f08f768
+ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "3793808"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4516624"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Mokymosi katalogas „Dynamics 365 Supply Chain Management“ administratoriams
 
@@ -46,7 +46,7 @@ Toliau pateiktas katalogas yra sutvarkytas taip, kad žinios būtų išdėstytos
 | [„Finance and Operations” diegimo projekto valdymas](https://docs.microsoft.com/learn/paths/implement-finance-operations/) | Susipažinkite su svarbiausiais elementais ir geriausiais praktikos pavyzdžiais, kad valdytumėte sėkmingą „Finance and Operations” diegimo projektą. Nuo pirmo žingsnio, kurio metu planuojate ir kuriate projekto metodiką, naudojatės „FastTrack” paslaugomis, vystymo strategija, duomenų valdymu ir kt., iki geriausių būdų tvarkyti ir valdyti operacijas po įgyvendinimo pradžios. | Laisvai pasirenkamas neribotos trukmės internetinis mokymosi scenarijus | 11.5 valandos |
 | [Sistemos administravimo pagrindinis puslapis](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/system-administration-home-page) | Šioje temoje pateiktas „Microsoft Dynamics 365 for Finance and Operations“ sistemos administratoriams skirtas turinys. Šis turinys jiems padės jums sistemą sukonfigūruoti taip, kad ji jūsų organizacijoje veiktų sklandžiai bei efektyviai. | Dokumentacija | |
 | [Finance and Operations: parengimas pereiti į „Dynamics 365“ (DYN542PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-onboarding-to-dynamics-365-1-10-19) | „FastTrack“ teikia supažindinimo paslaugą kiekvienam „Dynamics 365 for Finance and Operations“ projektui. Šioje techninėje kalboje mes paaiškinsime supažindinimo procesą, kartu su jumis apžvelgsime supažindinimo seanso turinį ir atskleisime, kaip mes planuojame padaryti supažindinimą efektyvesnį ir patogesnį artimiausioje ateityje. Šis seansas yra ypač svarbus tiems, kurie dirba su klientais ankstyvosiose projekto stadijose tarp licencijos sutarties sudarymo ir diegimo projekto inicijavimo. | Nemokamas internetinės konferencijos įrašymas | 62 minutės |
-| [Vietinis (vietinių verslo duomenų) diegimas (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Norėdami susipažinti su „Dynamics 365 for Finance and Operations, Enterprise Edition“ vietinio diegimo galimybę, prisijunkite prie šios techninės kalbos. Šiame seanse mes apžvelgsime vietinio diegimo sprendimo architektūrą, ALM aspektus, sistemos reikalavimus ir kaip parengti „Life Cycle Services“ projektą. | Nemokamas internetinės konferencijos įrašymas | 48 minutės |
+| [Vietinis (vietinių verslo duomenų) diegimas (DYN382PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/on-premises-local-business-data-deployment-october-19-2017) | Prašome prijungti šį techninį pokalbį apžvalgai patalpų talpinimo parinktyje „Dynamics 365 for Finance and Operations“, „Enterprise Edition“. Šiame seanse pažvelgsime į sprendimo architektūrą patalpų talpinime, ALM aspektus, sistemos reikalavimus ir tai, kaip suteikti gyvenimo ciklo paslaugų projektą. | Nemokamas internetinės konferencijos įrašymas | 48 minutės |
 | [Kopijuoti į juridinį subjektą (DYN383PAL) ](https://community.dynamics.com/365/b/techtalks/posts/copy-into-legal-entity-october-24-2017) | Šiame seanse mes aptarsime naują duomenų valdymo sistemos funkciją „Kopijuoti į juridinį subjektą“. Pirmiausia trumpai apžvelgsime naujas funkcijas, pridėtas prie duomenų valdymo sistemos 8 platformoje ir skirtas darbo sričiai, šablonams bei duomenų projektams, o tada aptarsime papildomas funkcijas, pridėtas prie „Kopijuoti į juridinį subjektą“. | Nemokamas internetinės konferencijos įrašymas | 54 minučių |
 
 ## <a name="core-development"></a>Pagrindinis kūrimas<a name="core-development"></a>

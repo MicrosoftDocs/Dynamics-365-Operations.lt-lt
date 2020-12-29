@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818255"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665277"
 ---
 # <a name="store-selector-module"></a>Parduotuvės parinkiklio modulis
 
@@ -47,11 +47,11 @@ Parduotuvės selektoriaus modulis leidžia vartotojui įvesti veitą (miestą, v
 
 Parduotuvės selektoriaus modulis yra integruojamas su [„Bing Maps REST“ programa programavimo sąsajomis (API)](https://docs.microsoft.com/bingmaps/rest-services/) siekiant naudoti „Bing Geocoding and Autosuggest“ funkcijomis. „Bing Maps“ API raktas yra reikalaujamas ir turi būti įtrauktas į bendrinamus parametrus komercijos štabo puslapyje „Geocoding API“ yra naudojamas konvertuoti vietą į ilgumos ir platumo vertes. Integravimas su „Autosuggest API“ yra naudojamas rodyti ieškos pasiūlymus, kai vartotojai įveda vietas paieškos lauke.
 
-„Autosuggest REST“ API turite užtikrinti, kad toliau pateikti URL yra leidžiami (taip pat žinomi kaip „whitelisted“) jūsų svetainės turinio saugos politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas CSP gaires svetainei (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
+Dėl automatinio„REST API“, privalote užtikrinti, kad tolesni URL yra leidžiami savo saito turinio saugumo politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas CSP gaires svetainei (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
 
-- Į**connect-src** direktyvą, įtraukite **&#42;.bing.com**.
-- Į**img-src** direktyvą, įtraukite **&#42;.virtualearth.net**.
-- Į**script-src** direktyvą, **įtraukite &#42;.bing.com, &#42;.virtualearth.net**.
+- Į **connect-src** direktyvą, įtraukite **&#42;.bing.com**.
+- Į **img-src** direktyvą, įtraukite **&#42;.virtualearth.net**.
+- Į **script-src** direktyvą, **įtraukite &#42;.bing.com, &#42;.virtualearth.net**.
 - Į **script style-src** direktyvą, įtraukite **&#42;.bing.com**.
  
 ## <a name="pickup-in-store-mode"></a>Paėmimas parduotuvės režime
@@ -65,6 +65,9 @@ Parduotuvės selektoriaus modulis gali būti įtrauktas siekiant įsigyti dėžu
 Toliau pateiktame paveikslėlyje vaizduojamas išsamios produkto informacijos puslapyje (PDP) naudojamo parduotuvių parinkiklio modulio pavyzdys.
 
 ![Parduotuvės parinkiklio modulio pavyzdys, naudojamas PDP.](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Versijoje 10.0.16 ir vėlesnėje versijoje, naujoji funkcija gali būti įjungta, kuri leidžia organizacijai nustatyti keletą paėmimo pristatymo būdų parinkčių klientams.  Jei ši funkcija įjungta, parduotuvės parinkėjas ir kiti e-komercijos moduliai bus pagerinti siekiant leisti klientui pasirinkti iš potencialiai kelių paėmimo pristatymo parinkčių, jei sukonfigūruota.  Norėdami sužinoti daugiau apie šią funkciją, žiūrėkite [šiuos dokumentus](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Surasti parduotuvių režimą
 
@@ -109,17 +112,17 @@ Tam, kad sukonfigūruotumėte selektoriaus modulį ir jis rodytų esamas parduot
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Konteineris**, tada pasirinkite **Gerai**.
 1. Vietoje **Konteineris** pasirinkite daugtaškį (**...**), tada – **Įtraukti modulį**.
 1. **Modulio įtraukimo** teksto laukelyje pasirinkite **Konteineris su dviem stulpeliais** modulį ir tuomet pasirinkite **Gerai**.
-1. Modulio ypatybių juostoje, nustatykite**Pločio** vertę į **Užpildyti konteinerį**.
+1. Modulio ypatybių juostoje, nustatykite **Pločio** vertę į **Užpildyti konteinerį**.
 1. Nustatykite **X-Small peržiūros prievado stulpelio konfigūravimo** vertę į **100%**.
 1. Nustatykite **X-Small peržiūros prievado stulpelio konfigūravimo** vertę į **100%**.
 1. Nustatykite **Medium peržiūros prievado stulpelio konfigūravimo** vertę į **33% 67%**.
 1. Nustatykite **Didelio peržiūros prievado stulpelio konfigūravimo** vertę į **33% 67%**.
-1. **Konteinerio su dviem stulpeliais** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite**Įtraukti modulį**.
+1. **Konteinerio su dviem stulpeliais** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite **Įtraukti modulį**.
 1. Dialogo lange **Įtraukti modulį** pasirinkite modulį **Parduotuvės parinkiklis**, tada pasirinkite **Gerai**.
-1. Modulio ypatybių juostoje, nustatykite**Režimo** vertę į **Rasti parduotuves**.
+1. Modulio ypatybių juostoje, nustatykite **Režimo** vertę į **Rasti parduotuves**.
 1. Nustatykite **Paieškos spindulio** vertę į mylias.
 1. Nustatykite kitas ypatybes, tokias kaip **Nustatyti pirmenybinę parduotuvę**, **Rodyti visas parduotuves** ir **Įjungti automatinį siūlymą**, kaip norite.
-1. **Konteinerio su dviem stulpeliais** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite**Įtraukti modulį**.
+1. **Konteinerio su dviem stulpeliais** vietoje pasirinkite elipsę (**...**), ir tuomet pasirinkite **Įtraukti modulį**.
 1. **Modulio įtraukimo** teksto laukelyje pasirinkite **Žemėlapio** modulį ir tuomet pasirinkite **Gerai**.
 1. Modulio ypatybių juostoje, nustatykite bet kurias papildomas ypatybes, kurias norite.
 1. Pasirinkite **Išsaugoti**, tada – **Baigti redagavimą**, kad užregistruotumėte puslapį, o tada pasirinkite **Publikuoti**, kad publikuotumėte jį.

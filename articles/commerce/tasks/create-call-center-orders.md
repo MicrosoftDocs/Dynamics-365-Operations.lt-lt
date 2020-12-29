@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107357"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594241"
 ---
 # <a name="create-call-center-orders"></a> Skambučių centro užsakymų kūrimas
 
@@ -45,7 +45,7 @@ ms.locfileid: "4107357"
 9. Pasirinkite produktą, kurį norite įtraukti į pardavimo užsakymą.
 10. Įveskite pardavimo kiekį.
 11. Pasirinkite **Kurti**.
-12. Pasirinkite **Baigti** , norėdami užfiksuoti kliento mokėjimą.
+12. Pasirinkite **Baigti**, norėdami užfiksuoti kliento mokėjimą.
 13. Pasirinkite **Įtraukti**.
     * Parinktis Įtraukti saitą yra skirtuke Mokėjimai. Išplėskite skirtuką Mokėjimai, jei jis sutrauktas.  
 14. Pasirinkite mokėjimo būdą.
@@ -55,4 +55,10 @@ ms.locfileid: "4107357"
     * Atlikdami šią procedūrą, įveskite sumą, lygią užsakymo balansui, kuris rodomas puslapyje Pardavimo užsakymo suvestinė, kairėje sumos lauko pusėje. Šis veiksmas leis įvykdyti užsakymą kaip visiškai apmokėtą.  
 17. Pasirinkite **Gerai**.
 18. Pasirinkite **Pateikti**.
+
+## <a name="additional-resources"></a>Papildomi ištekliai
+
+[Tinkinti perlaidų el. paštus pagal pristatymo būdą](../customize-email-delivery-mode.md)
+
+[Pristatymo režimo keitimas EKA](../pos-change-delivery-mode.md)
 

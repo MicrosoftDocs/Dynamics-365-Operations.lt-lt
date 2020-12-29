@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d27104a08cdc899f12942d80e693f3495d90a6ec
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040081"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527415"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Human Resources“ 2020 m. rugsėjo 26 d.
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos, pasikeitusios ar netrukus pasirodysiančios „Dynamics 365 Human Resources“ funkcijos. Daugiau informacijos apie mūsų atnaujinimo procesą ir grafiką žr. [Atnaujinimo procesas](hr-admin-setup-update-process.md).
 
@@ -39,7 +41,7 @@ Daugiau informacijos apie naujas funkcijas ir jų numatomas bendro pasiekiamumo 
 
 Šiame leidime bendrai prieinama toliau pateikta funkcija.
 
-- **Dabar pasiekiamas 10.0.13 versijos platformos naujinimas** : daugiau informacijos apie naujinimą žr. [„Finance and Operations” programų 10.0.13 versijos platformos naujinimai (2020 m. spalio mėn.)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
+- **Dabar pasiekiamas 10.0.13 versijos platformos naujinimas**: daugiau informacijos apie naujinimą žr. [„Finance and Operations” programų 10.0.13 versijos platformos naujinimai (2020 m. spalio mėn.)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-13).
 
 ### <a name="bug-fixes"></a>Klaidų ištaisymai
 
@@ -55,8 +57,8 @@ Toliau nurodyti klaidų ištaisymai įtraukti į šį leidimą.
 | 474962 | Atostogų ir neatvykimų parametrų objekte yra laukų su nesuderinamomis žymomis | Atostogų ir neatvykimų parametrų objekto žymos atnaujintos, kad būtų aiškesnės. |
 | 481401 | Kaupimo apdorojimas pakimba, kai kaupimo datos pagrindas yra po kaupimo pradžios datos ir mėnesio pabaigoje | Kaupimo apdorojimas atnaujintas, kad nebūtų delsos, jei kaupimo datos pagrindas yra po kaupimo pradžios datos ir mėnesio pabaigoje. |
 | 447167 | Baigiančių galioti įrašų sąrašuose yra neaktyvių darbuotojų | **Personalo valdymo** skirtuke **Baigiantys galioti įrašai** yra neaktyvių darbuotojų. Dabar jame yra tik aktyvūs darbuotojai. |
-| 486840 | Sąraše **Man priskirti darbo elementai** atidaromas netinkamas atostogų prašymas | Pasirinkus atostogų prašymą iš sąrašo **Man priskirti darbo elementai** , daugiau neatidaromas naujausias dabartiniam vartotojui priskirtas atostogų prašymas. |
-| 506868 | „Common Data Service” objekto **Pareigos** laukas **Pavadinimas** nenustatytas | Laukas **Pavadinimas** , esantis objektuose **Darbas** ir **Pareigos** , buvo rodomas kaip nenustatytas. Dabar laukas **Pavadinimas** rodomas. |
+| 486840 | Sąraše **Man priskirti darbo elementai** atidaromas netinkamas atostogų prašymas | Pasirinkus atostogų prašymą iš sąrašo **Man priskirti darbo elementai**, daugiau neatidaromas naujausias dabartiniam vartotojui priskirtas atostogų prašymas. |
+| 506868 | „Common Data Service” objekto **Pareigos** laukas **Pavadinimas** nenustatytas | Laukas **Pavadinimas**, esantis objektuose **Darbas** ir **Pareigos**, buvo rodomas kaip nenustatytas. Dabar laukas **Pavadinimas** rodomas. |
 | 430359 | Nepavyksta pasiekti atleidimo kontrolinio sąrašo užduočių, kai priskirti vadovo ir darbuotojo vaidmenys | Darbuotojai, kurių atleidimo data ateityje, negalėjo pasiekti jų kontrolinio sąrašo užduočių, jei jie buvo tik darbuotojo ar vadovo vaidmens vartotojai. Dabar tik darbuotojo ar vadovo vaidmens vartotojai, kurių atleidimo data ateityje, gali pasiekti atleidimo užduotis. |
 | 458102 | Sukurtas naujas darbuotojas neatsiranda objekte **Darbuotojo algalapio informacija** | Nauji darbuotojai įtraukiami į darbuotojo algalapio informacijos objektą neatidarant tų darbuotojų algalapių informacijos prieš eksportuojant objektą. |
 

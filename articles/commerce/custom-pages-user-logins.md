@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817311"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517237"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Vartotojo registracijos pasirinktinių puslapių sąranka
 
@@ -52,7 +52,7 @@ Norėdami sukonfigūruoti strategiją „Registruotis ir prisijungti“, atlikit
 1. Pasirinkite **Naujas vartotojo srautas**, tada skirtuke **Rekomenduojama** pasirinkite strategiją **Registruotis ir prisijungti**.
 1. Įveskite strategijos pavadinimą (pavyzdžiui **B2C\_1\_SignInSignUp**).
 1. Skyriuje **Tapatybės teikimo įrankiai** pasirinkite, kokius tapatybės teikimo įrankius naudoti strategijoje. Turi būti pažymėta bent **El. pašto registracija**.
-1. Stulpelyje **Rinkti atributą** pasirinkite žymės laukelius **El. pašto adresas**, **Vardas**ir **Pavardė**.
+1. Stulpelyje **Rinkti atributą** pasirinkite žymės laukelius **El. pašto adresas**, **Vardas** ir **Pavardė**.
 1. Stulpelyje **Grįžties pareiškimas** pažymėkite žymės langelius **El. pašto adresai**, **Vardas**, **Tapatybės teikimo įrankis**, **Pavardė** ir **Vartotojo objekto ID**.
 
     ![Pasirinkti atributai ir pareiškimai](./media/B2C_SignInSignUp_Attributes.png)
@@ -93,7 +93,7 @@ Norėdami sukonfigūruoti „Slaptažodžio nustatymo iš naujo“ strategiją, 
 
 1. Įveskite strategijos pavadinimą (pavyzdžiui **B2C\_1\_ForgetPassword**).
 1. Skyriuje **Tapapybės teikimo įrankis** pasirinkite **Iš naujo nustatyti slaptažodį naudojant el. pašto adresą**.
-1. Stulpelyje **Grįžties pareiškimas** pažymėkite žymės langelius **El. pašto adresas**, **Vardas**, **Pavardė**ir **Vartotojo objekto ID**.
+1. Stulpelyje **Grįžties pareiškimas** pažymėkite žymės langelius **El. pašto adresas**, **Vardas**, **Pavardė** ir **Vartotojo objekto ID**.
 
     ![Pasirinkti pareiškimai](./media/B2C_ForgetPassword_Attributes.png)
 
@@ -110,8 +110,8 @@ Norėdami sukurti tinkintus puslapius, skirtus valdyti vartotojų prisijungimus,
 1. „Commerce“ kūrimo įrankiuose eikite į savo svetainę.
 1. Sukurkite šiuos penkis šablonus ir penkis puslapius:
 
-    - **Prisijungimo**šabloną ir puslapį, kuriuose naudojamas prisijungimo modulis.
-    - **Registravimosi**šabloną ir puslapė, kuriuose naudojamas registravimosi modulis.
+    - **Prisijungimo** šabloną ir puslapį, kuriuose naudojamas prisijungimo modulis.
+    - **Registravimosi** šabloną ir puslapė, kuriuose naudojamas registravimosi modulis.
     - **Slaptažodžio nustatymo iš naujo** šabloną ir puslapį, kuriuose naudojamas slaptažodžio nustatymo iš naujo modulis.
     - **Slaptažodžio nustatymo iš naujo tikrinimo** šabloną ir puslapį, kuriuose naudojamas slaptažodžio nustatymo iš naujo tikrinimo modulis.
     - **Profilio redagavimo** šabloną ir puslapį, kuriuose naudojamas paskyros profilio redagavimo modulis
@@ -197,13 +197,13 @@ Atnaujinus global.json failą ir publikavus keitimus, naujas saito tekstas atsir
 
 [Jūsų domeno vardo konfigūravimas](configure-your-domain-name.md)
 
-[Naujos e. prekybos svetainės visuotinis diegimas](deploy-ecommerce-site.md)
+[Talpinkite naują e-komercijos nuomotoją](deploy-ecommerce-site.md)
 
-[E. prekybos svetainės kūrimas](create-ecommerce-site.md)
+[Sukurkite e-komercijos saitą](create-ecommerce-site.md)
 
-[Interneto svetainės susiejimas su kanalu](associate-site-online-store.md)
+[Susiekite „Dynamics 365 Commerce“ saitą su interneto kanalu](associate-site-online-store.md)
 
-[„Robots.txt” failų tvarkymas](manage-robots-txt-files.md)
+[„robots.txt” failų tvarkymas](manage-robots-txt-files.md)
 
 [Masinis URL peradresavimų nusiuntimas](upload-bulk-redirects.md)
 

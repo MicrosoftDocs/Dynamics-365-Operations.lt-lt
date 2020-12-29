@@ -3,7 +3,7 @@ title: Pasirinktinių saitų kūrimas vadovų savitarnoje
 description: Šioje temoje aprašoma, kaip kurti pasirinktinius saitus „Dynamics 365 Human Resources” vadovų savitarnoje.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/21/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-human-resources
@@ -18,22 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8f6f0d2d8de2e74060cc86143a91620f42810e3
-ms.sourcegitcommit: ee643d651d57560bccae2f99238faa39881f5c64
+ms.openlocfilehash: 4c9197ee124f53ff8d4acc90cb490113d35e80b4
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088562"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654294"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Pasirinktinių saitų kūrimas vadovų savitarnoje
 
-[!include [banner](includes/preview-feature.md)]
-
 Galite įtraukti pasirinktinius saitus į vadovų savitarnos skirtuką **Mano komanda**. Ši funkcija suteikia galimybę greitai pasiekti svarbią informaciją. Ji panaši į pasirinktinių saitų įtraukimo į darbuotojų savitarnos skirtuką **Mano informacija** funkciją.
 
-## <a name="enable-the-preview-feature"></a>Peržiūros versijos funkcijos įjungimas
+## <a name="enable-the--feature"></a>Įjungti funkciją
 
-Norėdami naudoti šią funkciją, įjunkite **(Peržiūra) Pasirinktiniai saitai vadovų savitarnoje** darbo srityje **Funkcijų valdymas**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. [Funkcijų valdymas](hr-admin-manage-features.md).
+Norėdami naudoti šią funkciją, įjunkite **Tinkintos nuorodos vadovo savitarnos paslaugose** darbo aplinkoje **Funkcijų valdymas**. Daugiau informacijos apie peržiūros versijos funkcijų įjungimą žr. [Funkcijų valdymas](hr-admin-manage-features.md).
 
 ## <a name="set-up-custom-links"></a>Pasirinktinių saitų nustatymas
 

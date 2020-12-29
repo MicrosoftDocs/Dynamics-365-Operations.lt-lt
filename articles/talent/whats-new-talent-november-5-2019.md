@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 48de07178acfaccf11e0a02b2848bf24e6ccc117
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: c4068cf81782d2f9559179b91da31e049c006059
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896778"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527125"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-5-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. lapkričio 5 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Dynamics 365 Talent“ funkcijos.
 
@@ -71,7 +73,7 @@ atlikus šį keitimą, priežasčių kodai iš 30 simbolių bus atnaujinti „Co
 
 ### <a name="address-integration-from-talent-to-finance-and-operations-351961"></a>Adreso integravimas iš „Talent“ į „Finance and Operations“ (351961)
 
-Šis leidimas išsprendžia problemą, kai adresas, atnaujintas „Talent“, nebuvo atnaujintas „Finance and Operations“. Adresų bloko keitimai dar bus atnaujinti.
+Šis leidimas ištaiso problemą, kai adresai yra naujinami „Talent“ ir nebuvo naujinti „Finance and Operations“. Adresų bloko keitimai dar bus atnaujinti.
 
 ## <a name="coming-soon"></a>Jau greitai
 

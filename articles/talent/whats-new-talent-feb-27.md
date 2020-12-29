@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897677"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529143"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent“ (2019 m. vasario 27 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
@@ -75,9 +77,9 @@ Dabar pasirinktinius laukus galima įtraukti į darbuotojų pastoviosios atlygin
 
 Daugelyje organizacijų kompensacijų ir išmokų vadovai gali turėti prieigą tik prie konkrečių kompensacijų įrašų. Šie įrašai gali būti skirti vadovams arba regionų darbuotojams. Atlikus šį pakeitimą, personalo (HR) skyrius galės valdyti ir tvarkyti kompensacijų planus, skirtus skirtingoms darbuotojų grupėms jūsų organizacijoje. Saugos vaidmenys, kuriuos galima priskirti fiksuotam ir kintamam planams, nustatys prieigą prie tų planų ir darbuotojų duomenų, susijusių su jais, (pvz., pajamų informacija arba premijų įrašai). Tik asmenys, kuriems priskirti reikiami vaidmenys, galės apdoroti tų darbuotojų kompensaciją.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations“ platformos 24 naujinimas
+### <a name="platform-update-24-for-finance-and-operations"></a>„Finance and Operations” platformos 24 naujinimas
 
-Daugiau informacijos apie „Microsoft Dynamics 365 Finance and Operations“ platformos 24 naujinimą (2019 m. kovo mėn.) žr. [Peržiūros funkcijos „Finance and Operations“ platformos 24 naujinime (2019 m. kovo mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Dėl daugiau informacijos apie „Platform“ naujinimą 24 „Microsoft Dynamics 365 Finance and Operations“, žr. [Peržiūrėti funkcijas „Finance and Operations“ platformos naujinime 24 (2019 m. kovo mėnesį)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Būsimų pareigų priskyrimų darbuotojų pastoviosios atlyginimo dalies įjungimas
 
@@ -98,19 +100,19 @@ Norėdami naujinti esamą šabloną, atlikite tolesnius veiksmus.
 
     - **Darbo pareigos su pareigomis:** pašalinkite šį susiejimą.
     - **Darbo pareigos su pareigų pirminiu darbo priskyrimu:** pašalinkite šį susiejimą.
-    - **Darbo pareigos su pagrindinėmis pareigomis:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pagrindinės pareigos**. Perkelkite jį į 7 pareigas sekoje.
+    - **Darbo vietos pagrindinei vietai:** Įtraukite naują žemėlapį iš **Darbo vietų** „Common Data Service“ objekto į **Pagrindinę vietą** „Finance and Operations“ objekte. Perkelkite jį į 7 pareigas sekoje.
 
         [![Darbo pareigų susiejimas su pagrindinėmis pareigomis](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Darbo pareigos su pareigų informacija:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pareigų informacija**. Perkelkite jį į 8 pareigas sekoje.
+    - **Darbo vietos vietos išsamiai informacijai:** Įtraukite naują žemėlapį iš **Darbo vietų** „Common Data Service“ objekto į **Vietos išsamios informacijos** „Finance and Operations“ objektą. Perkelkite jį į 8 pareigas sekoje.
 
         [![Darbo pareigų susiejimas su pareigų informacija](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Darbo pareigos su pareigų trukme:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pareigų trukmė**.
+    - **Darbo vietos į vietos laikotarpius:** Įtraukite naują žemėlapį iš **Darbo vietų** „Common Data Service“ objekto į **Vietos laikotarpių** „Finance and Operations“ objektą.
 
         [![Darbo pareigų susiejimas su pareigų trukme](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Darbo pareigos su pareigų hierarchijomis:** įtraukite naują susiejimą iš „Common Data Service“ objekto **Darbo pareigos** į „Finance and Operations“ objektą **Pareigų hierarchijos**. Pasirinkite **Išplėstinė užklausa**, kad išplėstinę užklausą būtų galima naudoti jūsų projekte.
+    - **Darbo vietos į vietos hierarchiją:** Įtraukite naują žemėlapį iš **Darbo vietų** „Common Data Service“ objekto į **Vietos hierarchijų** „Finance and Operations“ objektą. Pasirinkite **Išplėstinė užklausa**, kad išplėstinę užklausą būtų galima naudoti jūsų projekte.
 
        [![Išplėstinės užklausos mygtukas](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Norėdami naujinti esamą šabloną, atlikite tolesnius veiksmus.
         [![Komanda Įtraukti sąlyginį stulpelį](./media/Add-column.png)](./media/Add-column.png)
 
     6. Dialogo lange **Įtraukti sąlyginį stulpelį** įveskite **HIERARCHYTYPENAME** kaip naujo stulpelio pavadinimą.
-    7. Sąlygos dalye **If** pasirinkite bet kurį lauką, naudokite **lygu** kaip ryšį ir įveskite bet kokią reikšmę. Sąlygų dalyse **Then** ir **Otherwise** nurodykite, kokia turėtų būti numatytoji reikšmė. Šiuo atveju abiejose dalyse įveskite **Eilutė**.
+    7. Sąlygos dalye **If** pasirinkite bet kurį lauką, naudokite **lygu** kaip ryšį ir įveskite bet kokią reikšmę. Skyriuje **_Tuomet_* ir **Kitos** sąlygos dalys, nurodykite, kokia nustatytoji vertė turi būti. Šiuo atveju abiejose dalyse įveskite **Eilutė**.
 
         [![Dialogo langas Įtraukti sąlyginį stulpelį](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

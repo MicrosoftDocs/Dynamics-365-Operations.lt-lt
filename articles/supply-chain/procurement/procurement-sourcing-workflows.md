@@ -3,7 +3,7 @@ title: Įsigijimo ir šaltinio pasirinkimo darbo eigos
 description: Kai kurios organizacijos reikalauja, kad pirkimo paraiškas ir pirkimo užsakymus patvirtintų ne operaciją įvedęs vartotojas. Jei norite nustatyti patvirtinimo procesą, galite sukurti darbo eigą.
 author: mkirknel
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c757779d60147748e305d85fbc2b0bf6b0eedaf3
-ms.sourcegitcommit: 9c694772e1484df10afd72ea1a717fda0861627e
+ms.openlocfilehash: 22602911fa5d395d439242746f2fe8a27c656bcf
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3813917"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654153"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Paraiškų darbo eigos
 
@@ -32,25 +32,34 @@ ms.locfileid: "3813917"
 Kai kurios organizacijos reikalauja, kad pirkimo paraiškas ir pirkimo užsakymus patvirtintų ne operaciją įvedęs vartotojas. Jei norite nustatyti patvirtinimo procesą, galite sukurti darbo eigą.
 
 Darbo eiga rodo verslo procesą. Ji nustato dokumento kelią sistemoje ir parodo, kas turi atlikti užduotį arba patvirtinti dokumentą. Darbo eigos sistemos naudojimas jūsų organizacijoje duoda keleriopos naudos:
--   **Procesų nuoseklumas** — galite nustatyti konkrečių dokumentų, pvz., pirkimo paraiškų ir išlaidų ataskaitų, patvirtinimo procesą. Darbo eigos sistemos naudojimas padeda užtikrinti, kad dokumentai bus apdoroti ir patvirtinti nuosekliai ir veiksmingai.
--   **Proceso matomumas** — galite sekti konkretaus darbo eigos egzemplioriaus efektyvumo metriką. Tai padeda nustatyti, ar reikia atlikti darbo eigos pokyčius, siekiant gerinti efektyvumą.
--   **Centralizuotas darbų sąrašas**– vartotojai norėdami sužinoti darbo eigos užduotis ir patvirtinimus, jiems priskirtus visose darbo eigose, kuriose jie dalyvauja, gali peržiūrėti centralizuotų darbų sąrašą. Tai galima padaryti puslapyje Darbo elementai.
+
+- **Procesų nuoseklumas** — galite nustatyti konkrečių dokumentų, pvz., pirkimo paraiškų ir išlaidų ataskaitų, patvirtinimo procesą. Darbo eigos sistemos naudojimas padeda užtikrinti, kad dokumentai bus apdoroti ir patvirtinti nuosekliai ir veiksmingai.
+- **Proceso matomumas** — galite sekti konkretaus darbo eigos egzemplioriaus efektyvumo metriką. Tai padeda nustatyti, ar reikia atlikti darbo eigos pokyčius, siekiant gerinti efektyvumą.
+- **Centralizuotas darbų sąrašas**– vartotojai norėdami sužinoti darbo eigos užduotis ir patvirtinimus, jiems priskirtus visose darbo eigose, kuriose jie dalyvauja, gali peržiūrėti centralizuotų darbų sąrašą. Tai galima padaryti puslapyje Darbo elementai.
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a> Darbo eigų tipai, kuriuos galite sukurti
+
 Įsigijimo ir šaltinio pasirinkimo procese galima naudoti toliau išvardintų tipų darbo eigas.
 
-|                                  |                                                               |
-|----------------------------------|---------------------------------------------------------------|
-| **Tipas**                         | **Naudokite šį tipą norėdami**                                          |
-| Pirkimo paraiškos peržiūra      | Kurkite pirkimo paraiškų peržiūros ir patvirtinimo darbo eigas.            |
-| Pirkimo paraiškos eilutės peržiūra | Kurkite pirkimo paraiškų eilučių peržiūros ir patvirtinimo darbo eigas.       |
-| Pirkimo užsakymo darbo eiga          | Kurkite peržiūros ir patvirtinimo darbo eigas pirkimo užsakymams.     |
-| Pirkimo užsakymo eilutės darbo eiga     | Kurkite peržiūros ir patvirtinimo darbo eigas pirkimo užsakymų eilutėms. |
-| Tiekėjo įtraukimo prašymo darbo eiga  | Kurkite naujų tiekėjų įtraukimo naudojant tiekėjo užklausas peržiūros ir patvirtinimo darbo eigas. |
+| Tipas | Naudokite šį tipą norėdami |
+|---|---|
+| Pirkimo paraiškos peržiūra | Kurkite pirkimo paraiškų peržiūros ir patvirtinimo darbo eigas. |
+| Pirkimo paraiškos eilutės peržiūra | Kurkite pirkimo paraiškų eilučių peržiūros ir patvirtinimo darbo eigas. |
+| Pirkimo užsakymo darbo eiga | Kurkite peržiūros ir patvirtinimo darbo eigas pirkimo užsakymams. |
+| Pirkimo užsakymo eilutės darbo eiga | Kurkite peržiūros ir patvirtinimo darbo eigas pirkimo užsakymų eilutėms. |
+| Tiekėjo įtraukimo prašymo darbo eiga | Kurkite naujų tiekėjų įtraukimo naudojant tiekėjo užklausas peržiūros ir patvirtinimo darbo eigas. |
+
+> [!IMPORTANT]
+> Jums įtraukiant naują darbo ėiga, galite taip pat matyti tolesnes nebeveikiančias darbo eigas sąraše **Sukurti darbo eigą** teksto laukelyje. Jos yra susijusios su *gavimo patvirtinimo* funkcija, kuri buvo prieinama [„Dynamics AX“ 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), bet dabar nebegalioja. Šios darbo eigos dabar jau nebepalaikomos.
+> 
+> - Pristatymo termino pranešimo darbo eiga
+> - Pranešimo apie SF gavimą darbo eiga
+> - Gavimo dokumentas neatitiko pranešimo darbo eigos.
+> - Pranešimo apie nepatvirtinto gavimo dokumento atmetimą darbo eiga
 
 ## <a name="creating-a-workflow"></a>Darbo eigos kūrimas
 
-Norėdami kurti darbo eigą, pasirinkite Įsigijimas ir šaltinio pasirinkimas &gt; Nustatymas &gt; Įsigijimo ir šaltinio pasirinkimo darbo eigos ir sukurkite naują darbo eigą, pasirinkdami norimą darbo eigos tipą.  
+Norėdami kurti darbo eigą, pasirinkite Įsigijimas ir šaltinio pasirinkimas &gt; Nustatymas &gt; Įsigijimo ir šaltinio pasirinkimo darbo eigos ir sukurkite naują darbo eigą, pasirinkdami norimą darbo eigos tipą. 
 
 Darbo eigos srityje darbo eigos elementus galite nuvilkti į kūrimo priemonę ir susieti elementus su eiga. Darbo eigos elementai turi būti sukonfigūruoti. Konfigūruodami patvirtinimo ir užduoties darbo eigos elementus galite nustatyti, kuris dalyvis turėtų atlikti veiksmą.
 
@@ -58,21 +67,16 @@ Darbo eigos srityje darbo eigos elementus galite nuvilkti į kūrimo priemonę i
 
 Galite priskirti patvirtinimo veiksmą toliau nurodytoms dalyvių grupėms.
 
-| Vartotojų grupė    | Prekės/Paslaugos pavadinimas                                                               |
-|---------------|---------------------------------------------------------------------------|
-| Dalyvis   | Priskirkite patvirtinimo veiksmą grupės arba vaidmens nariams.                   |
-| Hierarchija     | Priskirkite patvirtinimo veiksmą konkrečios organizacijos hierarchijos vartotojams. |
-| Darbo eigos vartotojas | Priskirkite patvirtinimo veiksmą šios darbo eigos vartotojams.                       |
-| Darbo grupė         | Priskirti patvirtinimo veiksmą darbo elementų eilei.                            |
-| Vartotojas          | Priskirkite patvirtinimo veiksmą konkretiems vartotojams.                               |
-
-
+| Vartotojų grupė | Prekės/Paslaugos pavadinimas |
+|---|---|
+| Dalyvis | Priskirkite patvirtinimo veiksmą grupės arba vaidmens nariams. |
+| Hierarchija | Priskirkite patvirtinimo veiksmą konkrečios organizacijos hierarchijos vartotojams. |
+| Darbo eigos vartotojas | Priskirkite patvirtinimo veiksmą šios darbo eigos vartotojams. |
+| Darbo grupė | Priskirti patvirtinimo veiksmą darbo elementų eilei. |
+| Vartotojas | Priskirkite patvirtinimo veiksmą konkretiems vartotojams. |
 
 ## <a name="additional-resources"></a>Papildomi ištekliai
 
 - [Pirkimo paraiškų verslo procesų darbo eigų nustatymas](https://www.microsoft.com/download/details.aspx?id=101821)
-
 - [Pirkimo paraiškos darbo eiga](purchase-requisitions-workflow.md)
-
 - [Tiekėjų supažindinimas](vendor-onboarding.md)
-

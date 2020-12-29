@@ -3,7 +3,7 @@ title: Kandidatų ieška naudojant LinkedIn Recruiter programoje „Attract“
 description: Naudojant „LinkedIn Recruiter”, kandidatų ieškai naudokite „LinkedIn” integravimą, kurį teikia „Microsoft Dynamics 365 Talent - Attract”.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833051"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528274"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Kandidatų ieška naudojant LinkedIn Recruiter programoje „Attract“
 
@@ -34,6 +34,9 @@ ms.locfileid: "2833051"
 
 Jei neturite šios galimybės, kreipkitės į savo administratorių. Kad galėtumėte pasinaudoti „LinkedIn Recruiter” iš „Attract”, jūsų administratorius turi [nustatyti integravimą su „LinkedIn”](./attract-admin-linkedin.md). Tada galite nustatyti ryšį su „LinkedIn Recruiter” ir pradėti ieškoti kandidatų.
 
+>[!IMPORTANT]
+>Nuo 2020 m. liepos 1 dienos „LinkedIn“ nebepalaiko „Internet Explorer“ 11. Naudotojai vis dar gali prieiti prie „LinkedIn“ su „Internet Explorer“ 11, bet bus raginami naujinti ar naudoti kitą naršyklę. Dėl išsamesnės informacijos, žr. [Palaikomos interneto naršyklės „LinkedIn“](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Nustatykite ryšį su „LinkedIn Recruiter”
 
 Kad galėtumėte pradėti dirbti su „LinkedIn Recruiter” naudodami „Attract”, turite nustatyti ryšį su „LinkedIn Recruiter”. Šiam žingsniui jums reikia savo „LinkedIn Recruiter” kredencialų.
@@ -42,22 +45,38 @@ Kad galėtumėte pradėti dirbti su „LinkedIn Recruiter” naudodami „Attrac
 2. Pasirinkite **Vartotojo parametrai**.
 3. Skirtuke **Ryšiai** pasirinkite **Prisijungti** šalia **„LinkedIn”**. Vykdykite instrukcijas, kurias pateikė „LinkedIn”.
 
-    ![[Nustatyti ryšį su „LinkedIn Recruiter” iš „Attract”](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Nustatykite jungtį su „LinkedIn Recruiter“ iš „Attract“](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Peržiūrėti „LinkedIn” kandidatus programoje „Attract”
 
 Kai prisijungsite prie „LinkedIn Recruiter”, galėsite peržiūrėti kandidatų „LinkedIn” profilius programoje „Attract”.
 
+>[!NOTE]
+>Jei turite jums priskirtą „Recruiter“ vietą, galite matyti kandidatus visai informacijai.<br><br>
+>Jei turite „Hiring Manager“ vietą ar neturite jokios jums priskirtos vietos, įsitikinkite, kad atsijungėte nuo „LinkedIn“ ar „LinkedIn Recruiter“ prieš naršydami „LinkedIn“ skirtuke kandidatui „Attract“. Galite stebėti kandidato pagrindinius viešojo profilio duomenis, tokius kaip vardas ir pavardė.
+
 1. Programoje „Attract” kairėje pasirinkite **Darbo vietos** arba **Talentų telkiniai**, tada pasirinkite pretendentą.
 
     ![[Peržiūrėti „LinkedIn” kandidatus programoje „Attract”](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. Kandidato profilyje pasirinkite skirtuką **LinkedIn**. Galite peržiūrėti kandidato profilį kartu su „InMail” retrospektyva ir „LinkedIn” pastabų retrospektyva.
+2. Kandidato profilyje pasirinkite **„LinkedIn“** skirtuką. Galite peržiūrėti kandidato profilį ir „InMail“ istoriją.
 
-Iš čia galite įrašyti kandidatą „LinkedIn Recruiter” projekte, siųsti „inMail” arba naudoti funkciją „Naujinti Mane” įspėjimui „LinkedIn Recruiter” nustatyti.
+   ![Peržiūrėti kandidato „LinkedIn“ informaciją](./media/attract-candidate-linkedin-tab.png)
+
+Dabar galite atlikti šiuos veiksmus:
+
+- Pasirinkite **Įdarbinimo veiklų** skirtuką, kad peržiūrėtumėte:
+   
+   - Įdarbintojo pastabos (viešojo ir privataus). Pagal nutylėjimą, pastabos yra privačios ir matomos tik jų savininkui.
+   - „InMail“ veiklą (bet ne „InMail“ turinys). Eikite žemyn puslapyje, kad peržiūrėtumėte „InMail“ apsikeitimo su jūsų įdarbinamu asmeniu ir peržiūrėkite kitus vartotojus savo organizacijoje, kurie sąveikauja su jūsų įdarbinamu asmeniu.
+   - Kandidato atšaukimo veiksmas
+
+- Pasirinkite **Siųsti „InMail“** siekiant nusiųsti „InMail“ nepalikus „Attract“.
+
+- Pasirinkite **Įrašyti į darbą** tam, kad įrašytumėte darbą nepalikę „Attract“.
 
 > [!NOTE]
-> Kandidato „LinkedIn” profilis bus rodomas „Attract”, kai kandidato informacija „Attract” atitiks informaciją „LinkedIn”. Toliau nurodytos naudojamos gretinimo taisyklės.
+> Kandidato „LinkedIn“ profilis bus rodomas „Attract“ kai kandidato „Attract“ informacija atitinka „LinkedIn“ informaciją. Toliau nurodytos naudojamos gretinimo taisyklės.
 > 
 > 1. Kandidato profilis rodomas, jei el. pašto adresas ir „LinkedIn” nario ID sutampa „Attract” ir „LinkedIn”. Kandidatai vis tiek turi galimybę susieti arba atsieti savo „LinkedIn” profilį iš „Attract”.
 > 2. Jei el. pašto adresas arba „LinkedIn” nario ID nesutampa, pamatysite galimų kandidatų sąrašą. Tada galite pasirinkti kandidatą iš sąrašo ir susieti profilį.
@@ -87,7 +106,7 @@ Taip pat turite įsitikinti, kad darbo etapas yra „Potencialus klientas”. Da
     - **Pokalbio atsiliepimas** – pamatykite atsiliepimą, kurį kalbintojai pateikė „Attract“.
     - **Pastabos** – pamatykite bet kokias pastabas, kurios buvo įvestos apie šį kandidatą programoje „Attract“.
 
-    ![[„Attract“ informacijos peržiūra „LinkedIn Recruiter”](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Peržiūrėti „Attract“ informaciją iš „LinkedIn Recruiter“](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Jei kandidatas etapo „Potencialus klientas” nepereis, kandidatas ir prašymo duomenys su „LinkedIn Recruiter“ sinchronizuojami nebus.

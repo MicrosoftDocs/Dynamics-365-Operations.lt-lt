@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817211"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665425"
 ---
 # <a name="map-module"></a>Žemėlapio modulis
 
@@ -58,11 +58,11 @@ Toliau pateiktas paveikslėlis rodo parduotuvės žemėlapio modulio pavyzdį, k
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Įtraukti leidžiamą žemėlapio kūrimo URL į sveitainės turinio apsaugos politikos gaires
 
-Žemėlapių moduliui sąveikauti su „Bing Maps“, privalote užtikrinti, kad tolesni žemėlapių kūrimo URL yra leidžiami (žinomi taip pat kaip „whitelisted“) jūsų svetainės turinio saugumo politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas svateinės CSP gaires svetainei (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
+Tam, kad žemėlapių modulis sąveikatų su „Bing Maps“, turite užtikrinti, kad tolesni žemėlapio URL yra leidžiami jūsų saito turinio saugos politikoje (CSP). Šis nustatymas yra atliekamas komercijos svetainės kūrimo įrankyje įtraukiant leidžiamus URL į skirtingas svateinės CSP gaires svetainei (pavyzdžiui, **img-src**). Dėl platesnės informacijos, žr. [Turinio saugos politika](manage-csp.md). 
 
-- Į**connect-src** direktyvą, įtraukite **&#42;.bing.com**.
-- Į**img-src** direktyvą, įtraukite **&#42;.virtualearth.net**.
-- Į **script-src**direktyvą, įtraukite **&#42;.bing.com, &#42;.virtualearth.net**.
+- Į **connect-src** direktyvą, įtraukite **&#42;.bing.com**.
+- Į **img-src** direktyvą, įtraukite **&#42;.virtualearth.net**.
+- Į **script-src** direktyvą, įtraukite **&#42;.bing.com, &#42;.virtualearth.net**.
 - Į **script style-src** direktyvą, įtraukite **&#42;.bing.com**.
 
 ## <a name="add-a-map-module-to-a-page"></a>Įtraukti žemėlapio modulį į puslapį

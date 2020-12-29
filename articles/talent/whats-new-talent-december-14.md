@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897746"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529761"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Kas nauja ar pasikeitė sistemoje „Dynamics 365 Talent – Core HR“ (2018 m. gruodžio 14 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **8.1.2085 versija**
 
@@ -137,11 +139,11 @@ Darbuotojų, skirtų darbui, užduočiai reikia atnaujinti šiuos susiejimus.
 
 Taip pat reikia atnaujinti lyties lauko transformaciją. Pasirinkite lyties susiejimo tipą **fn** (funkcija) ir atnaujinkite šiuos vertės susiejimus.
 
-| „Common Data Service“ vertė                   | „Finance and Operations“ vertė                     |
+| Common Data Service reikšmė                   | Finance and Operations reikšmė                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Vyras                                             |
 | 75440001                    | Moteris                                           |
-| 75440002                    | Joks                                             | 
+| 75440002                    | None                                             | 
 | 75440003                    | Neapibrėžta                                      |
 
 Atnaujinti susiejimai turėtų atrodyti taip, kaip toliau parodytuose paveikslėliuose.

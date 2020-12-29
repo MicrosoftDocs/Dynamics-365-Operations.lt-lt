@@ -3,7 +3,7 @@ title: Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojam
 description: Šioje temoje paaiškinta, kaip susieti „Microsoft Dynamics 365 Supply Chain Management“ gamybos valdymo modulį su „Dynamics 365 Guides“.
 author: cabeln
 manager: tfehr
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
-ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000983"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645149"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Mišrios realybės vadovų pateikimas į gamybą įtrauktiems darbuotojams
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Į gamybos procesus įtrauktiems darbuotojams bus pateikiami atitinkamos instrukcijos, kurios bus rodomos tinkamu laiku, atsižvelgiant į atliekamą darbą. *Instrukcijos* taikomos kelioms darbo sritims, įskaitant surinkimą, aptarnavimą, operacijas, sertifikavimą ir saugą. Kalbant apie visas šios pagrindines verslo veiklas, pateikiamos mokymo instrukcijos gali padėti darbuotojams daugiau pasiekti ir geriau dirbti.
 
@@ -124,10 +126,9 @@ Norėdami sukonfigūruoti, kaip vadovai bus rodomi ceche, eikite į **Mišrioji 
 
 Užpildykite toliau nurodytus laukus:
 
-- **„Common Data Service” posritis** – šiame lauke jau turi būti reikšmė. Šiame lauke nurodyta „Common Data Service“ aplinkos posritis, kurioje kuriate vadovus. Posritis yra pirmoji URL dalis, ir įprastai sutampa su jūsų organizacijos pavadinimu. Pavyzdžiui, jei jūsų „Common Data Service“ URL yra „contoso.crm4.dynamics.com“, čia turite įvesti *contoso*. Ši reikšmė naudojama vadovuose adresams sudaryti ir bus užkoduota QR koduose.
+- **„Microsoft Dataverse“ URL** - Nurodykite URL „Microsoft Dataverse“ aplinkai, kurioje kuriate savo „Guides“. Formatas yra „contoso.crm4.dynamics.com", kuriame pirmoji dalis URL dažniausiai pavadinta organizacijos vardu (tokiu kaip „contoso."), antroji dalis yra duomenų regiono jūsų aplinka (tokia kaip „crm4."), o paskutinė dalis - domenas (toks kaip „dynamics.com"). Vienas būdas surasti reikiamą URL yra eiti į [home.dynamics.com](https://home.dynamics.com/) ir tada atverti savo „Guides“ programą. Atvėrus „Guides“ programą, matysite URL adreso juostoje savo naršyklėje (imkite tik pagrindinį URL, kuris parodytas ankstesniame pavyzdyje). Ši vertė naudojama sudaryti adresus jūsų gairėse ir bus koduojama į QR kodus."
 - **QR kodo dydis** – nurodykite sugeneruoto QR kodo dydį. Rekomenduojame pasirinkti dydį, kuris didžiąją ekrano dalį, bet ne didesnį. Įprastai tinkama reikšmė yra *15*.
 - **QR kodo klaidų taisymo lygis** – nurodykite QR kodo detalumo lygį. Didesnis detalumas gali padėti užtikrinti didesnį kodo patikimumą, bet **QR kodo dydis** turi būti pakankamai didelis, kad būtų užtikrintas detalumo lygis, kurio reikia pasirinktam koregavimo lygiui.
-
 
 > [!TIP]
 > - QR kodai, kurie yra per dideli jūsų monitoriui, gali būti generuojami šiek tiek ilgiau, o po to jie bus sumažinami, kad atitiktų ekraną. Tai nesuteikia kokių nors pranašumų.
@@ -221,7 +222,7 @@ Norėdami pridėti vadovą prie formulės:
 
 1. Eikite į **Gamybos informacijos valdymas \> KS ir formulės \> Formulės**.
 1. Atidarykite formulę, kuriai norite priskirti vadovą.
-1. Atidarykite skirtuką **Antraštė** , esantį virš viršutinio „FastTab“.
+1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
@@ -247,7 +248,7 @@ Norėdami pridėti vadovą prie formulės versijos:
 
 1. Eikite į **Gamybos informacijos valdymas \> KS ir formulės \> Formulės**.
 1. Atidarykite formulę, prie kurios versijos norite priskirti vadovą.
-1. Atidarykite skirtuką **Antraštė** , esantį virš viršutinio „FastTab“.
+1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. „FastTab“ **Formulės versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **Formulės versijos** pasirinkite **Susiję vadovai**.
     ![Su pasirinkta formulės versija susijusių vadovų atidarymas](media/instruction-guides-FormulaVersion.png "Su pasirinkta formulės versija susijusių vadovų atidarymas")
@@ -273,7 +274,7 @@ Norėdami pridėti vadovą prie KS:
 
 1. Eikite į **Gamybos informacijos valdymas \> KS ir formulės \> Komplektavimo specifikacijos**.
 1. Atidarykite KS, kuriai norite priskirti vadovą.
-1. Atidarykite skirtuką **Antraštė** , esantį virš viršutinio „FastTab“.
+1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. Išplėskite „FastTab“ **Susiję vadovai**.
 1. Įrankių juostoje **Susiję vadovai** pasirinkite **Įtraukti**. Nauja eilutė pridedama prie tinklelio.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti.
@@ -296,7 +297,7 @@ Norėdami pridėti vadovą prie KS versijos:
 
 1. Eikite į **Gamybos informacijos valdymas \> KS ir formulės \> Komplektavimo specifikacijos**.
 1. Atidarykite KS, prie kurios versijos norite priskirti vadovą.
-1. Atidarykite skirtuką **Antraštė** , esantį virš viršutinio „FastTab“.
+1. Atidarykite skirtuką **Antraštė**, esantį virš viršutinio „FastTab“.
 1. „FastTab“ **KS versijos** pasirinkite versiją, kuriai norite priskirti vadovą.
 1. Įrankių juostoje **KS versijos** pasirinkite **Susiję vadovai**.
     ![Su pasirinkta KS versija susijusių vadovų atidarymas](media/instruction-guides-BOMVersion.png "Su pasirinkta KS versija susijusių vadovų atidarymas")
@@ -368,10 +369,10 @@ Norėdami pridėti vadovą prie maršruto operacijų ryšio:
 1. Veiksmų srityje atidarykite skirtuką **Maršrutas** ir grupėje **Tvarkyti** pasirinkite **Maršruto informacija**.
 1. Atidaromas pasirinkto maršruto puslapis **Maršruto informacija**.
 1. Viršutiniame tinklelyje pasirinkite operaciją, su kuria susijusias rekomendacijas norite teikti.
-1. Apatiniame tinklelyje pasirinkite konkretų ryšį (arba bendrąjį ryšį **Visi** ).
+1. Apatiniame tinklelyje pasirinkite konkretų ryšį (arba bendrąjį ryšį **Visi**).
     ![Pasirinkite operaciją, o tada ryšį](media/instruction-guides-RouteOperationRelation.png "Pasirinkite operaciją, o tada ryšį")
 1. Virš apatinio tinklelio atsidarykite skirtuką **Susiję vadovai**.  ![Skirtukas Susiję vadovai](media/instruction-guides-RouteOperationRelation-AddGuide.png "Skirtukas Susiję vadovai")
-1. Apatinio tinklelio viršuje pasirinkite **Įtraukti** , kad į tinklelį įtrauktumėte naują liniją.
+1. Apatinio tinklelio viršuje pasirinkite **Įtraukti**, kad į tinklelį įtrauktumėte naują liniją.
 1. Naujoje eilutėje naudokite stulpelio **Pavadinimas** išskleidžiamąjį sąrašą, kad pasirinktumėte vadovą, kurį norite priskirti. Likusioje eilutės dalyje pažymėkite kiekvieno konteksto, kuriame turi būti prieinamas pasirinktas vadovas, žymės langelį.
 
 > [!NOTE]
@@ -406,6 +407,6 @@ Kai „Supply Chain Management“ generuoja gamybos cecho užduotis, iš šių �
 
 - Jei prie maršruto ar gamybos užsakymo pridedate KS versiją arba formulės versiją, tada užduotyje bus rodomi visi vadovai, pridėti prie šios versijos, ir vadovai, pridėti prie pirminės KS arba versijos formulės.
 - Jei prie gamybos užsakymo pridedate maršruto versiją, tada užduotyje bus rodomi visi vadovai, pridėti prie šios versijos, ir vadovai, pridėti prie pirminio versijos maršruto.
-- Jei nurodysite kelis maršruto operacijų ryšius, apimančius ryšį *Visi* , ir jiems priskirsite vadovus, užduotyje bus rodomi tik labiausiai specifinio ryšio vadovai.  
+- Jei nurodysite kelis maršruto operacijų ryšius, apimančius ryšį *Visi*, ir jiems priskirsite vadovus, užduotyje bus rodomi tik labiausiai specifinio ryšio vadovai.  
 
 ![Atitinkamų vadovų sprendimo diagrama](media/instruction-guides-Resolve.png "Atitinkamų vadovų sprendimo diagrama")

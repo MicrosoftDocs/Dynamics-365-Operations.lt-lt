@@ -3,7 +3,7 @@ title: Kainų koregavimas ir nuolaidos
 description: Šiame straipsnyje pateikiama informacija apie kainų koregavimus ir nuolaidas „Dynamics 365 Commerce“.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dfaacfa7681258e3b2273083017c0c398d566651
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3023465"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584320"
 ---
 # <a name="price-adjustments-and-discounts"></a>Kainų koregavimas ir nuolaidos
 
@@ -41,11 +41,13 @@ Kainų koregavimą ir nuolaidos galima taikyti produktams, variantams arba kateg
 
 ## <a name="types-of-discounts"></a>Nuolaidų tipai
 
-Yra keturių rūšių nuolaidos:
+Yra daug tipų nuolaidų:
 
 - **Paprasta nuolaida** – vienas procentinis dydis arba suma.
 - **Kiekio nuolaida** – nuolaida, taikoma perkant du ar daugiau produktų.
 - **Nuolaida prekių rinkiniui** – nuolaida, suteikiama perkant tam tikrą produktų derinį.
 - **Ribinė nuolaida** – nuolaida, taikoma, kai operacijos bendroji suma yra didesnė nei nurodyta suma.
+- **Nuomotoju pagrįsta nuolaida** – Nuolaida, kuri yra taikoma, kai perlaidos bendra suma yra didesnė nei nurodyta suma ir konkretus apmokėjimo tipas (pavyzdžiui, grynieji, kredito ar debeto kortelė) naudojama apmokėjimui.
+- **Siuntimo nuolaida** – Nuolaida, kuri yra taikoma, kai perlaidos bendra suma yra didesnė nei nurodyta suma ir konkretus pristatymo būdas (pavyzdžiui, dviejų dienų siuntimas ar siuntimas per naktį) naudojamas užsakyme.
 
 Tiek kainų korekcijas, tiek nuolaidas galima susieti su kainų grupėmis. Kainų grupės gali būti susietos su kanalais, katalogais, priskyrimais ir lojalumo programomis.

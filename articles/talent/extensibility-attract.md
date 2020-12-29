@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9d12a4d48aa369884804c2a0bce9834534b1bec6
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: ddc6593431585ed79cc15f7ede5daf856f11b959
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832866"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527247"
 ---
 # <a name="extensibility-in-attract"></a>„Attract“ išplečiamumas
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 „Microsoft Dynamics 365 Talent“ sukurta kaip „Common Data Service“ papildas ir ją galima išplėsti naudojantis „Microsoft Power Platform“ ir „Common Data Service“ siūlomomis galimybėmis. Todėl sistemą galite konfigūruoti ir pritaikyti asmeniniam poreikiams naudodami „Microsoft Power Apps“ ir „Microsoft Power Automate“. Taip pat naudodamiesi „Microsoft Power BI“ galite gauti papildomų analitinių duomenų apie žmones. Be to, naudojantis naujomis pasirinktinėmis veiklomis, pvz., „Power Apps“ ir interneto turinio („iframe“) veiklomis, samdos procesas gali būti daug lengviau pritaikomas nei bet kada. Naudodamiesi šiomis veiklomis samdos procesą galite pritaikyti pagal savo verslo poreikius ir procesus, taip pat galite būti tikri, kad samdos komanda ir kandidatai turi atitinkamos nuoseklios patirties.
 

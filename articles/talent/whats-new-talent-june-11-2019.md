@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-06-11
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: f2ee23733d686480cd4323cab952ae12eceaf142
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 20dc0768463d9a5d6762cb062deb0bdbe4d53fe3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897585"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528674"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-june-11-2019"></a>Kas nauja ar pasikeitė „Dynamics 365 Talent” (2019 m. birželio mėn. 11 d.)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Šioje temoje aprašomos naujos ir pakeistos „Microsoft Dynamics 365 Talent“ funkcijos.
 
@@ -54,9 +56,9 @@ Patvirtinimai rodomi ataskaitų srities skyriuje **Patvirtinimai**. Tvirtintojai
 
 Šiame skyriuje aprašyti pakeitimai taikomi 8.1.2337 komponavimo versijai.
 
-### <a name="platform-update-27-for-finance-and-operations"></a>„Finance and Operations“ platformos 27 naujinimas
+### <a name="platform-update-27-for-finance-and-operations"></a>„Finance and Operations” platformos 27 naujinimas
 
-Daugiau informacijos apie „Finance and Operations“ platformos 27 naujinimą žr. [Peržiūros funkcijos programos „Dynamics 365 Finance and Operations“ platformos 27 naujinime (2019 m. birželio mėn.)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
+Dėl daugiau išsamios informacijos apie „Platform“ naujinimą 27 „Finance and Operations“, žr. [Peržiūrėti funkcijas „Dynamics 365 Finance and Operations“ platformos naujinime 27 (2019 m. birželio mėnesį)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-27).
 
 ### <a name="feature-management-workspace-in-talent"></a>„Talent“ funkcijų valdymo darbo sritis
 

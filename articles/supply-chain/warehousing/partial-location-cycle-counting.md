@@ -19,12 +19,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d69b1e9444785058a2b3e62b9a76cb6e70abf03
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: a541818a72f5c24db8784071f447c83a2aa4edfd
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017603"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666751"
 ---
 # <a name="partial-location-cycle-counting"></a>Dalinis vietos ciklų skaičiavimas
 
@@ -35,29 +35,30 @@ Faktinės skaičiavimo operacijos valdomos pagal ciklo skaičiavimo planus. Gali
 Naudodami ciklo skaičiavimo planus skaičiavimo darbui sukurti, galite valdyti faktines skaičiavimo operacijas. Galite reikalauti, kad būtų skaičiuojamos ne visos vietoje turimos atsargos, o tik konkretūs produktai ir produkto variantai. Filtruodamas konkrečius produktus, sandėlio vadovas gali sumažinti peržiūros pridėtines išlaidas, išvengti konsolidavimo klaidų ir sutaupyti laiko.
 
 ## <a name="how-to-configure-partial-location-cycle-counting"></a>Kaip konfigūruoti dalinį vietos ciklo skaičiavimą
-Skaičiavimo operacijoms naudojant sandėlio darbo procesą, kiekvienai vietai sukuriama darbo antraštė. Kai nustatote ciklo skaičiavimo planą, galite naudoti užklausą **Pasirinkti vietas** , kad apribotumėte sukurtą ciklo skaičiavimo darbą. Kai pasirenkate ciklo skaičiavimo plano produktus, galite pasirinkti produkto ir produkto varianto užklausas, kad patikslintumėte, kas yra skaičiuojama. 
 
-**Darbo šabloną** galite susieti su ciklo skaičiavimo planu, kad nurodytumėte, kaip turi būti sukurtas ciklo skaičiavimo darbas. Tiesioginė nuoroda į skaičiavimo operacijoms skirtą darbo šabloną pateikta ciklo skaičiavimo plane. 
+Skaičiavimo operacijoms naudojant sandėlio darbo procesą, kiekvienai vietai sukuriama darbo antraštė. Kai nustatote ciklo skaičiavimo planą, galite naudoti užklausą **Pasirinkti vietas**, kad apribotumėte sukurtą ciklo skaičiavimo darbą. Kai pasirenkate ciklo skaičiavimo plano produktus, galite pasirinkti produkto ir produkto varianto užklausas, kad patikslintumėte, kas yra skaičiuojama.
 
-Kai apibrėžiate darbo šablono informaciją, galite naudoti parinktį **Darbo eilučių lūžiai** , kad nurodytumėte, ar skaičiavimo darbo eilutės turi būti grupuojamos pagal prekės numerį ar produkto varianto numerį. Ši sąranka būtina, jei norite skaičiuoti tik vietoje turimas konkrečių produktų atsargas. Sukurtos ciklo skaičiavimo darbo eilutės turės čia nustatytą informacijos lygį, ir valdomos skaičiavimo operacijos bus vykdomos pagal šį lygį. 
+**Darbo šabloną** galite susieti su ciklo skaičiavimo planu, kad nurodytumėte, kaip turi būti sukurtas ciklo skaičiavimo darbas. Tiesioginė nuoroda į skaičiavimo operacijoms skirtą darbo šabloną pateikta ciklo skaičiavimo plane.
 
-Jei susiesite ciklo skaičiavimo planus su darbo šablonais naudodami parinktį **Darbo eilučių lūžiai** , sukurtam ciklo skaičiavimo darbui bus pasirinktas laukas **Dalinis ciklo skaičiavimas** , ir bus sukurtos kelios ciklo skaičiavimo darbo eilutės pagal darbo šablono aprašą. 
+Kai apibrėžiate darbo šablono informaciją, galite naudoti parinktį **Darbo eilučių lūžiai**, kad nurodytumėte, ar skaičiavimo darbo eilutės turi būti grupuojamos pagal prekės numerį ar produkto varianto numerį. Ši sąranka būtina, jei norite skaičiuoti tik vietoje turimas konkrečių produktų atsargas. Sukurtos ciklo skaičiavimo darbo eilutės turės čia nustatytą informacijos lygį, ir valdomos skaičiavimo operacijos bus vykdomos pagal šį lygį.
 
-Prieš apdorojant dalinį ciklo skaičiavimo darbą, turite bent jau pasirinkti **Rodyti prekės numerį** mobiliojo įrenginio meniu elementui skaičiavimo sąrankos metu. Sandėlio operatorius bus paprašytas įrašyti tik skaičiavimo informaciją, susijusią su inventorizacijos eilutėmis (prekių numeriai ir produkto dimensijos). Šio skaičiavimo proceso metu visų kitų turimų atsargų bus nepaisoma. 
+Jei susiesite ciklo skaičiavimo planus su darbo šablonais naudodami parinktį **Darbo eilučių lūžiai**, sukurtam ciklo skaičiavimo darbui bus pasirinktas laukas **Dalinis ciklo skaičiavimas**, ir bus sukurtos kelios ciklo skaičiavimo darbo eilutės pagal darbo šablono aprašą.
+
+Prieš apdorojant dalinį ciklo skaičiavimo darbą, turite bent jau pasirinkti **Rodyti prekės numerį** mobiliojo įrenginio meniu elementui skaičiavimo sąrankos metu. Sandėlio operatorius bus paprašytas įrašyti tik skaičiavimo informaciją, susijusią su inventorizacijos eilutėmis (prekių numeriai ir produkto dimensijos). Šio skaičiavimo proceso metu visų kitų turimų atsargų bus nepaisoma.
 
 Dalinio ciklo skaičiavimo proceso atveju vietos **paskutinio ciklo skaičiavimo** data / laikas nebus atnaujinami, net jei bus suskaičiuotos visos konkrečios vietos turimos prekės. Dalinis ciklo skaičiavimas neatsižvelgia į parametrą **Dienos tarp ciklo skaičiavimų** puslapyje **Ciklo skaičiavimo planai**. Dalinis ciklo skaičiavimas nepalaiko tuo pačiu metu atliekamų kelių prekių skaičiavimų toje pačioje vietoje. Dalinio ciklo skaičiavimo funkcijos gali lemti tai, kad vykdant **Apdoroti ciklo skaičiavimo planą** prekė bus suskaičiuota kelis kartus toje pačioje vietoje. Norėdami išvengti šio scenarijaus, lauke **Pasirinkti vietas** nurodykite filtrus.
 
+> [!NOTE]
+> Sandėlio programa nesuteikia **Įtraukti LP ar prekę** mygtuko, kai naudojate dalinio ciklo skaičiavimo procesą.
+
 ## <a name="example"></a>Pavyzdys
+
 Pavyzdžiui, 61 sandėlyje turi būti skaičiuojamas tik prekės numeris A0001.
 
-1.  Sukuriamas naujas ciklo skaičiavimo darbo šablonas. Parinktis **Darbo eilučių lūžiai** naudojama skaičiavimo darbo eilutėms grupuoti pagal prekės numerį. Todėl sukurtas ciklo skaičiavimo darbas turės eilutes pagal prekės numerį. Eilutes taip pat galite grupuoti pagal produkto varianto numerį.
-2.  Sukuriamas naujo ciklo skaičiavimo planas, kuriame pateikiama nuoroda į naujai sukurtą darbo šabloną. Ciklo skaičiavimo planas apima visas 61 sandėlyje esančias vietas (užklausa **Pasirinkti vietas** ), kuriose yra atsargų pagal prekės numerį A0001. Konkrečių produktų pasirinkimas nurodytas skyriuje **Ciklo skaičiavimo produktų pasirinkimas**.
-3.  Galite pasirinkti ciklo skaičiavimo planų produktus, nustatydami lauką **Tuščios vietos** į **Neįtraukti tuščių**. Apdorojus ciklo skaičiavimo planą, sukuriamas dalinis ciklo skaičiavimo darbas prekės numeriui A0001. Faktinis skaičiavimo procesas gali būti atliekamas naudojant mobiliojo įrenginio meniu elementą, skirtą valdomam ciklo skaičiavimui.
+1. Sukuriamas naujas ciklo skaičiavimo darbo šablonas. Parinktis **Darbo eilučių lūžiai** naudojama skaičiavimo darbo eilutėms grupuoti pagal prekės numerį. Todėl sukurtas ciklo skaičiavimo darbas turės eilutes pagal prekės numerį. Eilutes taip pat galite grupuoti pagal produkto varianto numerį.
+1. Sukuriamas naujo ciklo skaičiavimo planas, kuriame pateikiama nuoroda į naujai sukurtą darbo šabloną. Ciklo skaičiavimo planas apima visas 61 sandėlyje esančias vietas (užklausa **Pasirinkti vietas**), kuriose yra atsargų pagal prekės numerį A0001. Konkrečių produktų pasirinkimas nurodytas skyriuje **Ciklo skaičiavimo produktų pasirinkimas**.
+1. Galite pasirinkti ciklo skaičiavimo planų produktus, nustatydami lauką **Tuščios vietos** į **Neįtraukti tuščių**. Apdorojus ciklo skaičiavimo planą, sukuriamas dalinis ciklo skaičiavimo darbas prekės numeriui A0001. Faktinis skaičiavimo procesas gali būti atliekamas naudojant mobiliojo įrenginio meniu elementą, skirtą valdomam ciklo skaičiavimui.
 
-
-
-<a name="additional-resources"></a>Papildomi ištekliai
---------
+## <a name="additional-resources"></a>Papildomi ištekliai
 
 [Ciklų skaičiavimas](cycle-counting.md)
-
