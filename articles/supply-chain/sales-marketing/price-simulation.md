@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 18214ae3801b5fb0f927020041e997b7ea4f0df4
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006264"
+ms.locfileid: "4433895"
 ---
 # <a name="price-simulation"></a>Kainos modeliavimas
 
@@ -35,7 +35,7 @@ Pasiūlymo kainos modeliavimas parodo naują bendrąją sumą remiantis nauja si
 
 Kainų modeliavimas nekeičia pasiūlymo kainos. Jei kainų modeliavimas taikomas visam pasiūlymui, jis laikomas specialia nuolaida pasiūlymo antraštėje. Jei kainų modeliavimas taikomas konkrečioms prekėms, jis laikomas specialia nuolaida pasiūlymo eilutėse. Vieneto pardavimo kaina sukurtoje pasiūlymo eilutėje nesikeičia pritaikius kainos modeliavimą. Vietoje to, taikomas nuolaidos procentas, atitinkantis pasiūlymo eilutės kainos sumažinimą. Kai pritaikomas kainų modeliavimas, vieneto pardavimo kaina ir nuolaidos procentas yra perkeliami į pasiūlymo eilutę arba pasiūlymo antraštę.  
 
->[Pastaba!] Atliekant kainos modeliavimą, modeliui kurti naudojama tik dabartinė pardavimo valiuta. Tačiau, kai peržiūrite bendrąsias pasiūlymo sumas, matote įmonės valiutos ir pardavimo valiutos derinį.  
+>[Pastaba!] Vykdant kainų simuliaciją, tik valiutos pardavimo valiuta yra naudojama siekiant ją sukurti. Tačiau, kai peržiūrite bendrąsias pasiūlymo sumas, matote įmonės valiutos ir pardavimo valiutos derinį.  
 
 Papildomos prekės, pridėtos į pasiūlymo eilutes, gali paleisti eilutės nuolaidas arba kelių eilučių nuolaidas. Jos taip pat gali paleisti bendrąsias nuolaidas, keičiančias pasiūlymo eilučių ir visos nuolaidos pelningumo maržas ir pelningumo koeficientą.  
 
@@ -53,7 +53,7 @@ Siekdami garantuoti, kad nuolaidos ir kainos būtų apskaičiuotos teisingai, vy
 
 Tiekimo grandinės valdymo prekybos sutartyse gali būti keturių tipų kainų nuolaidos. Šios nuolaidos gali būti nustatytos skirtingoms prekėms, klientams ar prekių grupėms ir jos gali būti apribotos data. Siekiant išvengti skaičiavimo klaidų, vykdant kainų modeliavimą reikia atsižvelgti į prekybos sutartis. Toliau pateikti keturi prekybos sutartyse esančių nuolaidų tipai.
 
--   **Pardavimo kaina** – gali būti nurodytos kelios prekių pardavimo kainos. Kai sukuriamos pasiūlymo eilutės, programa ieško teisingos prekės pardavimo kainos ir ją perkelia į pasiūlymo eilutes. Todėl prekybos sutartis, kurioje yra tokia nuolaida, neturi įtakos kainų modeliavimui. Pardavimo kaina, kuri naudojama pasiūlymo eilutėje, atspindi prekybos sutartį.
+-   **Pardavimo kaina**– gali būti nurodytos kelios prekių pardavimo kainos. Kai sukuriamos pasiūlymo eilutės, programa ieško teisingos prekės pardavimo kainos ir ją perkelia į pasiūlymo eilutes. Todėl prekybos sutartis, kurioje yra tokia nuolaida, neturi įtakos kainų modeliavimui. Pardavimo kaina, kuri naudojama pasiūlymo eilutėje, atspindi prekybos sutartį.
 -   **Eilutės nuolaida** – pagal užsakytą kiekį nurodomos specialios prekių nuolaidos. Prieš vykdant kainų modeliavimą, eilučių sumos paprastai sumažinamos pagal eilutės nuolaidą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.
 -   **Kelių eilučių nuolaida** – jei bendras kiekis viršija apibrėžtą ribą, iš anksto apibrėžti užsakytų prekių deriniai suaktyvina nuolaidą visam užsakymui. Prieš vykdant kainų modeliavimą, eilučių sumos paprastai sumažinamos pagal eilutės nuolaidą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.
 -   **Bendra nuolaida** – jei bendrosios sumos viršija apibrėžtą ribą, iš anksto apibrėžtos užsakytos prekės suaktyvina nuolaidą visam užsakymui. Bendrąją nuolaidą generuoja pasiūlymo eilutės. Tačiau kadangi bendroji nuolaida pasiūlymui taikoma kaip nuolaida, ji sumažina bendrąją pasiūlymo sumą. Todėl prekybos sutartis, kurioje yra tokia nuolaida, turi įtakos kainų modeliavimui.

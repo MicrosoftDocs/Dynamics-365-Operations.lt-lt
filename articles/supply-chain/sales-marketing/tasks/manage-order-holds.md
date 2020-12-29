@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9caf6651813f0111b873db1769140d973f1a2e3b
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981975"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433687"
 ---
 # <a name="manage-order-holds"></a>Valdyti užsakymų sulaikymą
 
@@ -36,7 +36,7 @@ ms.locfileid: "3981975"
 1. Eikite į **Naršymo sritis > Moduliai > Pardavimas ir rinkodara > Sąranka > Pardavimo užsakymai > Užsakymo sulaikymo kodai**.
 2. Spustelėkite **Naujas**.
 3. Lauke **Sulaikymo kodas** įveskite reikšmę. Pavyzdžiui, įveskite „Perskambinti“.  
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
     - Pavyzdžiui, užsakymas sulaikomas, nes laukiama kliento perskambinimo.  
     - Norėdami iš užsakymo pašalinti visus faktinius rezervavimus, kai pridėtas šis sulaikymo kodas, pasirinktinai pažymėkite žymės langelį **Pašalinti rezervavimus**.  
 5. Spustelėkite **Įrašyti**.

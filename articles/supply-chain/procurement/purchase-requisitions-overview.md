@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a14ae2771890085308b560cea59240556c6a55a3
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018680"
+ms.locfileid: "4434029"
 ---
 # <a name="purchase-requisition-overview"></a>Pirkimo paraiškos apžvalga
 
@@ -174,7 +174,7 @@ Konsolidavimo galimybė yra rinkinys pirkimo paraiškos eilučių, kurios yra su
 Įtraukę paraiškos eilutes į konsolidavimo galimybę ir atlikę reikiamus pakeitimus, galite sukurti pirkimo užsakymą pagal konsoliduotas pirkimo paraiškos eilutes.  
 
 > [!NOTE]
-> Pakeitimai, atlikti pirkimo paraiškos eilutėje, puslapyje **Pirkimo paraiškos konsolidacija** , matomi jūsų sukurtame pirkimo užsakyme. Tačiau pirkimo paraiškoje eilutė lieka nepakeista, kad būtų galima peržiūrėti retrospektyvos informaciją.  
+> Pakeitimai, atlikti pirkimo paraiškos eilutėje, puslapyje **Pirkimo paraiškos konsolidacija**, matomi jūsų sukurtame pirkimo užsakyme. Tačiau pirkimo paraiškoje eilutė lieka nepakeista, kad būtų galima peržiūrėti retrospektyvos informaciją.  
 
 Norėdami sukurti pirkimo užsakymą pagal pirkimo paraiškos eilutes, kurios neatitinka poreikio konsolidavimo arba kurios nepasirinktos įtraukti į konsolidavimo galimybę, turite šias eilutes apdoroti neautomatiniu būdu.
 

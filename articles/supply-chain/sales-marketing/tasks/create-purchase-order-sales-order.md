@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018703"
+ms.locfileid: "4433992"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Pirkimo užsakymo kūrimas naudojant pardavimo užsakymą
 
@@ -63,9 +63,9 @@ ms.locfileid: "4018703"
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Peržiūrėti pirkimo užsakymus, sukurtus pagal pardavimo užsakymus
 1. **Veiksmų sritis** spustelėkite **Bendra**.
 2. Spustelėkite **Susiję užsakymai**. Puslapyje **Susiję užsakymai** pateikiami visi užsakymai, sukurti iš pardavimo užsakymo. Šiame pavyzdyje yra du pirkimo užsakymai, sugeneruoti atitinkamai dviem skirtingiems tiekėjams. 
-3. Spustelėkite norėdami sekti saitą lauke **Pirkimo užsakymas**. Kiekviena pirkimo užsakymo eilutė susieta su pardavimo užsakymo eilute, dėl kurios buvo sukurtas pirkimas. Ryšys su pardavimo užsakymu nurodytas **skirtuke Produktas** , esančiame „FastTab“ konteineryje **Eilutės informacija** , laukuose **Nuorodos tipas** , **Nuorodos numeris** ir **Nuoroda į partiją**.  
+3. Spustelėkite norėdami sekti saitą lauke **Pirkimo užsakymas**. Kiekviena pirkimo užsakymo eilutė susieta su pardavimo užsakymo eilute, dėl kurios buvo sukurtas pirkimas. Ryšys su pardavimo užsakymu nurodytas **skirtuke Produktas**, esančiame „FastTab“ konteineryje **Eilutės informacija**, laukuose **Nuorodos tipas**, **Nuorodos numeris** ir **Nuoroda į partiją**.  
 4. Išplėskite arba sutraukite dalį **Išsami eilučių informacija**.
 5. Spustelėkite skirtuką **Produktas**.
     - **Nuoroda į partiją** užtikrina, kad esamo pirkimo išlaidos bus įtrauktos į pridėtą pardavimo užsakymą.  
-    - Atidarę saitą lauke **Nuorodos numeris** , galite pereiti į pradinį pardavimo užsakymą.  
+    - Atidarę saitą lauke **Nuorodos numeris**, galite pereiti į pradinį pardavimo užsakymą.  
 

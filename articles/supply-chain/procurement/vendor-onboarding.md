@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018657"
+ms.locfileid: "4433994"
 ---
 # <a name="onboard-vendors"></a>Tiekėjų supažindinimas
 
@@ -103,7 +103,7 @@ Daugiau informacijos apie tiekėjo užklausos konfigūraciją žr. [Tiekėjo ben
 | Informacija apie tiekėją         | Šiame puslapyje pateiktas tiekėjo pavadinimas, kuris automatiškai įvedamas iš pradinės galimo tiekėjo registravimo užklausos. Jame taip pat nurodyti organizacijos numeris, tiekėjo telefono numeris, fakso numeris ir el. pašto adresas, taip pat – tiekėjo adresų (įvairioms paskirtims). |
 | Informacija apie kontaktinį asmenį | Šiame puslapyje pateikti kontaktinio asmens vardas ir pavardė, kurie automatiškai įvedami iš pradinės galimo tiekėjo registravimo užklausos. Jame taip pat pateikiami kontaktinio asmens telefono numeris ir el. pašto adresas, taip pat – kontaktinio asmens adresai (įvairioms paskirtims). |
 | Verslo informacija       | Šiame puslapyje pateikiami mokesčių mokėtojo kodai (skirti įvairioms šalims arba regionams) ir darbuotojų skaičius. Jame taip pat nurodoma, ar verslas priklauso mažumų atstovams. |
-| Įsigijimo kategorijos     | Šiame puslapyje nurodomos įsigijimo kategorijos, kurių patvirtinimo tiekėjas prašo. Vartotojas gali pasirinkti kategorijas įsigijimo kategorijų hierarchijoje. Galite konfigūruoti, kiek lygių rodoma pasirinkus **Paraiškų parametrai** &gt; **Tiekėjo bendradarbiavimas** , dalyje **Paraiškos** &gt; **Sąranka**. |
+| Įsigijimo kategorijos     | Šiame puslapyje nurodomos įsigijimo kategorijos, kurių patvirtinimo tiekėjas prašo. Vartotojas gali pasirinkti kategorijas įsigijimo kategorijų hierarchijoje. Galite konfigūruoti, kiek lygių rodoma pasirinkus **Paraiškų parametrai** &gt; **Tiekėjo bendradarbiavimas**, dalyje **Paraiškos** &gt; **Sąranka**. |
 | Klausimynai             | Vedlys gali apimti tiekėjui skirtų klausimynų rinkinį. Vedlyje rodomi klausimynai konfigūruojami tiekėjo užklausoje arba pagal įsigijimo kategoriją. Jei klausimynai konfigūruojami pagal įsigijimo kategoriją, nuo įsigijimo kategorijų, kurių patvirtinimo tiekėjas prašo, priklauso, kurie klausimynai rodomi vedlyje. Puslapyje **Įsigijimo kategorijos** galite įtraukti klausimyną į atitinkamą kategoriją ir nustatyti veiklos tipą į parinktį **Tiekėjo supažindinimas**. |
 
 Kai su galimu tiekėju susijęs vartotojas įvykdo tiekėjo registravimo vedlį, sukuriama tiekėjo užklausa.
@@ -112,7 +112,7 @@ Kai su galimu tiekėju susijęs vartotojas įvykdo tiekėjo registravimo vedlį,
 
 Tiekėjo užklausą galima kurti kaip juodraštį ir neautomatiškai pateikti į darbo eigą. Taip pat tiekėjo užklausą galima automatiškai pateikti į darbo eigą, kai tiekėjo registravimo vedlys įvykdytas. Užklausą galima pateikti neautomatiškai, jei, pavyzdžiui, įsigijimo specialistas nori įvertinti, ar užklausą reikia nukreipti į patvirtinimo procesą prieš ją pateikiant į darbo eigą.
 
-- Pasirinkite **Paraiškų parametrai** &gt; **Tiekėjo bendradarbiavimas** , tada pasirinkite **Į darbo eigą automatiškai pateikti galimų tiekėjų registraciją** , norėdami sukonfigūruoti tiekėjo užklausą, kad ji būtų automatiškai pateikiama į darbo eigą, kai tiekėjo registravimo vedlys įvykdytas.
+- Pasirinkite **Paraiškų parametrai** &gt; **Tiekėjo bendradarbiavimas**, tada pasirinkite **Į darbo eigą automatiškai pateikti galimų tiekėjų registraciją**, norėdami sukonfigūruoti tiekėjo užklausą, kad ji būtų automatiškai pateikiama į darbo eigą, kai tiekėjo registravimo vedlys įvykdytas.
 
 ## <a name="vendor-requests"></a>Tiekėjo užklausos
 
@@ -140,11 +140,11 @@ Toliau pateikiamoje lentelėje parodomos galimos tiekėjo užklausų būsenos.
 
 Patvirtinus tiekėjo užklausą, sukuriama tiekėjo paskyra ir būsena **Patvirtinta** rodoma tiek pradinėje galimo tiekėjo registravimo užklausoje, tiek tiekėjo užklausoje.
 
-Prieš patvirtindami tiekėjo užklausą, puslapio **Naujo tiekėjas** „FastTab“ **Bendra** pasirinkite **Tiekėjų grupės** , kad pasirinktumėte tiekėjų grupę.
+Prieš patvirtindami tiekėjo užklausą, puslapio **Naujo tiekėjas** „FastTab“ **Bendra** pasirinkite **Tiekėjų grupės**, kad pasirinktumėte tiekėjų grupę.
 
 Jei su galimu tiekėju susijusiam vartotojui reikia suteikti prieigą prie Tiekimo grandinės valdymo kaip tiekėjo bendradarbiavimo vartotojui, kuris atstovauja tiekėjui, nustatykite tiekėjo bendradarbiavimo prieigos teisę į parinktį **Taip**. Norėdami išjungti vartotojo paskyrą, kurią naudodamas galimas tiekėjas užsiregistravo, nustatykite šią teisę į parinktį **Ne**.
 
-Jei tiekėjo bendradarbiavimo prieigos teisė nustatyta į parinktį **Taip** , kai tiekėjo užklausa patvirtinama, užklausa pateikiama modifikuoti vartotojo vaidmenis, kad vartotojui būtų priskirti vaidmenys, dalyje **Išoriniai vaidmenys** nurodyti kaip tipo **Tiekėja** vaidmenys. Jei ši teisė nustatyta į parinktį **Ne** , kai tiekėjo užklausa patvirtinama, užklausa pateikiama išjungtam vartotojui. Tokiu atveju reikia nustatyti vartotojo užklausos išjungimo darbo eigą.
+Jei tiekėjo bendradarbiavimo prieigos teisė nustatyta į parinktį **Taip**, kai tiekėjo užklausa patvirtinama, užklausa pateikiama modifikuoti vartotojo vaidmenis, kad vartotojui būtų priskirti vaidmenys, dalyje **Išoriniai vaidmenys** nurodyti kaip tipo **Tiekėja** vaidmenys. Jei ši teisė nustatyta į parinktį **Ne**, kai tiekėjo užklausa patvirtinama, užklausa pateikiama išjungtam vartotojui. Tokiu atveju reikia nustatyti vartotojo užklausos išjungimo darbo eigą.
 
 Norint tiekėjo paskyrą kurti patvirtinus tiekėjo užklausą, tiekėjų kūrimo iš tiekėjų užklausų numeracija turi būti nustatyta į parinktį **Automatiškai**.
 
@@ -162,7 +162,7 @@ Atmetus tiekėjo užklausą, būsena **Atmesta** rodoma tiek pradinėje galimo t
 
 Įvairios galimo tiekėjo registravimo užklausos būsenos suteikia užklausos patvirtinimo proceso apžvalgą.
 
-Naudodami galimo tiekėjo registravimo užklausos veiksmą **Naikinti** , galite išvalyti ir pašalinti sukurtą įrašų tinklą ir išjungti vartotojo paskyrą. Veiksmo **Naikinti** rezultatas priklauso nuo galimo tiekėjo registravimo užklausos būsenos, kaip parodyta toliau pateiktoje lentelėje.
+Naudodami galimo tiekėjo registravimo užklausos veiksmą **Naikinti**, galite išvalyti ir pašalinti sukurtą įrašų tinklą ir išjungti vartotojo paskyrą. Veiksmo **Naikinti** rezultatas priklauso nuo galimo tiekėjo registravimo užklausos būsenos, kaip parodyta toliau pateiktoje lentelėje.
 
 
 |          Būsena          |                                                                                     Būsenos aprašas                                                                                      |                                                                                                                                                            Veiksmo Naikinti rezultatas                                                                                                                                                             |

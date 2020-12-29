@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ec91174f291bcfa7027a93ca344823561cc29e3f
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018164"
+ms.locfileid: "4433987"
 ---
 # <a name="create-a-purchase-order"></a>Pirkimo užsakymo kūrimas
 
@@ -45,7 +45,7 @@ ms.locfileid: "4018164"
 ## <a name="add-a-purchase-order-line"></a>Pirkimo užsakymo eilutės įtraukimas
 1. Pasirinkite **„Pirkimo užsakymo eilutė“**.
 2. Pasirinkite **Dimensijos**. Gali būti produktų variantų, skiriamų pagal dimensijas, pvz., spalvą, dydį ar stilių. Taip pat galima nustatyti, kad produktai naudotų saugojimo dimensijas, pvz., vietą ir sandėlį. Taip pat yra neprivalomų sekimo dimensijų, pvz., paketo ir serijos numeriai. Norėdami pagerinti užsakymų įvedimo efektyvumą, dažnai naudojamus dimensijų laukus galite įtraukti tiesiai į užsakymo tinklelį.  
-3. Pažymėkite žymės langelį **Spalva**. Arba, jei pažymite lauką **Įrašyti sąranką** , pasirinkti matmenys taip pat bus rodomi užsakymo eilutės tinklelyje, kai kitą kartą atidarysite pirkimo užsakymo puslapį.  
+3. Pažymėkite žymės langelį **Spalva**. Arba, jei pažymite lauką **Įrašyti sąranką**, pasirinkti matmenys taip pat bus rodomi užsakymo eilutės tinklelyje, kai kitą kartą atidarysite pirkimo užsakymo puslapį.  
 4. Pasirinkite **Gerai**.
 5. Lauke **Prekės numeris** pasirinkite **T0004**.
 
@@ -60,7 +60,7 @@ ms.locfileid: "4018164"
     - Lauke **Vieneto kaina** paprastai nurodyta vertė arba iš pirkimo sutarties, arba iš prekybos sutarties. Atskirų užsakymo eilučių vieneto kainą galima keisti, pvz., jei su tiekėju suderama dėl unikalios kainos.  
     - Lauke **Nuolaida** pateikiama vieneto nuolaidos suma. Taigi ši nuolaida savo reikšme sumažina vieneto kainą. Paprastai ši nuolaida automatiškai pateikiama pirkimo sutartyse ar prekybos sutartyse, tačiau, jei su tiekėju suderėta dėl unikalių nuolaidų, jas atskirose eilutėse galima perrašyti.  
     - Galima įvesti nuolaidos procentą, kuriuo atitinkamai sumažinama grynoji eilutės suma. Dažnai nuolaidos procentas automatiškai pateikiamas pirkimo sutartyse ar prekybos sutartyse, tačiau, jei su tiekėju suderėta dėl unikalaus nuolaidos procento, jį atskirose eilutėse galima perrašyti.  
-    - Reikšmė lauke **Neto suma** apskaičiuojama iš kitų eilutės laukų, įskaitant kiekio, vieneto kainos, nuolaidos ir nuolaidos procento. Galima keisti neto sumą, tačiau tada laukai **Vieneto kaina** , **Nuolaida** ir **Nuolaidos kodas** bus tušti ir kai registruosite eilutę, užregistruota suma bus proporcinga neto sumai. Paprastai, laukas **Neto suma** naudojamas rodyti neto sumos eilutę.  
+    - Reikšmė lauke **Neto suma** apskaičiuojama iš kitų eilutės laukų, įskaitant kiekio, vieneto kainos, nuolaidos ir nuolaidos procento. Galima keisti neto sumą, tačiau tada laukai **Vieneto kaina**, **Nuolaida** ir **Nuolaidos kodas** bus tušti ir kai registruosite eilutę, užregistruota suma bus proporcinga neto sumai. Paprastai, laukas **Neto suma** naudojamas rodyti neto sumos eilutę.  
 
 8. Išplėskite skyrių **Eilutės informacija** section.
 9. Pažymėkite skirtuką **Pristatymas**. Kiekvienai užsakymo eilutei galima priskirti unikalią pristatymo datą. Ši data paveldima iš pirkimo užsakymo antraštės lauko, tačiau ją galite pakeisti.  
@@ -68,9 +68,9 @@ ms.locfileid: "4018164"
 ## <a name="review-order-totals"></a>Užsakymo bendrųjų sumų peržiūra
 1. Pasirinkite **Bendrosios sumos**.
 
-    - Jei nematote veiksmo **Bendrosios sumos** , veiksmų srityje pažymėkite skirtuką **Pirkimo užsakymas**.  
+    - Jei nematote veiksmo **Bendrosios sumos**, veiksmų srityje pažymėkite skirtuką **Pirkimo užsakymas**.  
     - Šiame dialogo lange rodomos viso užsakymo bendrosios sumos.  
-    - Laukas **Pasirinkimas** leidžia keisti pagrindą, pagal kurį skaičiuojamos bendrosios sumos. Pavyzdžiui, galite pasirinkti **Produkto gavimo kiekis** , kad būtų rodomos bendrosios sumos, susijusios su gauto (-ų) produkto (-ų) kiekiu, arba **Užsakytas kiekis** , kad būtų rodomas užsakytas produkto kiekis.  
+    - Laukas **Pasirinkimas** leidžia keisti pagrindą, pagal kurį skaičiuojamos bendrosios sumos. Pavyzdžiui, galite pasirinkti **Produkto gavimo kiekis**, kad būtų rodomos bendrosios sumos, susijusios su gauto (-ų) produkto (-ų) kiekiu, arba **Užsakytas kiekis**, kad būtų rodomas užsakytas produkto kiekis.  
 
 2. Pasirinkite **Gerai**.
 

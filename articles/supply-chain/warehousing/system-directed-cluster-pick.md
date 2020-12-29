@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016038"
+ms.locfileid: "4433984"
 ---
 # <a name="system-directed-cluster-picking"></a>Sistemos nukreiptas klasterio paėmimas
 
@@ -69,10 +69,10 @@ Klasterių šablonai kontroliuoja, kaip sistema sukuria kiekvieną klasterį. Je
 5. **Bendra** „FastTab” skirtuke įveskite šią informaciją:
 
     - **Generuoti klasterio ID** – pasirinkite **Taip**. Ši pasirinktis nustato, ar sistema automatiškai sukuria klasterio ID, ar vartotojas jį sukuria paėmimo pradžioje. 
-    - **Aktyvuoti pozicijas** – pasirinkite **Taip**. Ši pasirinktis nustato, ar vietų pavadinimai generuojami automatiškai, atsižvelgiant į vietų pavadinimų sąranką. Jei nustatyta šios parinkties vertė **Ne** , naudojamas vietos numerio lentelės ID.
+    - **Aktyvuoti pozicijas** – pasirinkite **Taip**. Ši pasirinktis nustato, ar vietų pavadinimai generuojami automatiškai, atsižvelgiant į vietų pavadinimų sąranką. Jei nustatyta šios parinkties vertė **Ne**, naudojamas vietos numerio lentelės ID.
     - **Pozicijų skaičius** – pasirinkite **2**. Šiame lauke nustatomas didžiausias vietų, kurias galima įtraukti į klasterį, skaičius (t. y., didžiausias dėžių, krepšių ir t. t. skaičius).
-    - **Pozicijos pavadinimas** – pasirinkite **Skaitinis** , kad pozicijos būtų pavadintos naudojant ištisinius skaičius. Jei pasirinksite **Abėcėlė** , vietoms bus suteikiami pavadinimai abėcėlės tvarka.
-    - **Skaidyti klasterį:** – pasirinkite **Dėti**. Šiame lauke nustatoma, kada klasteris skaidomas. 
+    - **Pozicijos pavadinimas** – pasirinkite **Skaitinis**, kad pozicijos būtų pavadintos naudojant ištisinius skaičius. Jei pasirinksite **Abėcėlė**, vietoms bus suteikiami pavadinimai abėcėlės tvarka.
+    - **Skaidyti klasterį:**– pasirinkite **Dėti**. Šiame lauke nustatoma, kada klasteris skaidomas. 
     - **Rūšiavimo patikros tipas:** – pasirinkite **Pozicijos nuskaitymas**. Šiame lauke nustatoma, ar tikrinamas dėjimo į vietą veiksmas.
         
 6. **Klasterių rūšiavimas** „FastTab“ galite nustatyti rūšiavimo kriterijus sukurdami naują eilutę ir įvesdami šią informaciją:
@@ -109,13 +109,13 @@ Norėdami sukurti naują mobiliojo įrenginio meniu elementą sistemos nukreipta
 
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**
 1. Pasirinkite skirtuką **Rūšiavimas**
-1. Pasirinkite **Pridėti** , kad pridėtumėte naują eilutę, tada įveskite šią informaciją:
-    - **Lentelė** – Darbas
+1. Pasirinkite **Pridėti**, kad pridėtumėte naują eilutę, tada įveskite šią informaciją:
+    - **Lentelė**– Darbas
     - **Išvestinė lentelė** – Darbas
     - **Laukas** – Darbo prioritetas
     - **Ieškos kryptis** – Didėjanti tvarka
-1. Pasirinkite **Pridėti** , kad pridėtumėte antrą eilutę, tada įveskite šią informaciją:
-    - **Lentelė** – Darbas
+1. Pasirinkite **Pridėti**, kad pridėtumėte antrą eilutę, tada įveskite šią informaciją:
+    - **Lentelė**– Darbas
     - **Išvestinė lentelė** – Darbas
     - **Laukas** – Darbo ID
     - **Ieškos kryptis** – Didėjanti tvarka
@@ -129,7 +129,7 @@ Norėdami sukurti naują mobiliojo įrenginio meniu elementą sistemos nukreipta
 1. Pasirinkite **Siunčiama** meniu.
 1. Pasirinkite **Redaguoti** iš Veiksmų srities.
 1. Slinkite, kol rasite **SD klasteris**.
-1. Pasirinkite **SD klasteris** , rodyklė, rodanti į **Meniu struktūra** sąrašą, bus įjungta.
+1. Pasirinkite **SD klasteris**, rodyklė, rodanti į **Meniu struktūra** sąrašą, bus įjungta.
 1. Pasirinkite **rodyklė** mygtuką, kad perkeltumėte **SD klasteris** meniu elementą į **Siunčiama** meniu struktūrą.
 1. Pasirinkite **SD klasteris** iš **Meniu struktūra** sąrašo, tada pasirinkite **Į VIRŠŲ** arba **Į APAČIĄ** rodykles, kad perkeltumėte meniu elementą į pageidaujamą poziciją mobiliojo įrenginio meniu.
 
@@ -144,11 +144,11 @@ Prieš nustatant sistemos nukreiptą klasterio paėmimą, turite sukurti tinkam�
     - Atsivėrus **Sukurti pardavimo užsakymą** meniu, įveskite šią informaciją:
         - **Klientas** „FastTab”, įveskite **Kliento paskyra** - **JAV-004**.
         - **Bendra** „FastTab” įveskite **Sandėlis** - **62**.
-        - Pasirinkite **Gerai** , kad uždarytumėte meniu ir sukurtumėte pardavimo užsakymą.
-    - **Pardavimo užsakymo eilutės** „FastTab” pasirinkite **Pridėti eilutę** , jei nauja eilutė nėra automatiškai pridedama, ir įveskite šią informaciją:
+        - Pasirinkite **Gerai**, kad uždarytumėte meniu ir sukurtumėte pardavimo užsakymą.
+    - **Pardavimo užsakymo eilutės** „FastTab” pasirinkite **Pridėti eilutę**, jei nauja eilutė nėra automatiškai pridedama, ir įveskite šią informaciją:
         - **Prekės numeris** – A0001
         - **Kiekis** – 1
-        - Pasirinkite **Įtraukti eilutę** , kad įtrauktumėte antrą eilutę.
+        - Pasirinkite **Įtraukti eilutę**, kad įtrauktumėte antrą eilutę.
         - **Prekės numeris** – A0002
         - **Kiekis** – 3
     - Rezervuokite atsargas, skirtas abiems jūsų ką tik sukurtoms eilutėms.
@@ -161,11 +161,11 @@ Prieš nustatant sistemos nukreiptą klasterio paėmimą, turite sukurti tinkam�
     - Atsivėrus **Sukurti pardavimo užsakymą** meniu, įveskite šią informaciją:
         - **Klientas** „FastTab” įveskite **Kliento paskyra** - **JAV-005**.
         - **Bendra** „FastTab” įveskite **Sandėlis** - **62**.
-        - Pasirinkite **Gerai** , kad uždarytumėte meniu ir sukurtumėte pardavimo užsakymą
-    - **Pardavimo užsakymo eilutės** „FastTab” pasirinkite **Pridėti eilutę** , jei nauja eilutė nėra automatiškai pridedama, ir įveskite šią informaciją:
+        - Pasirinkite **Gerai**, kad uždarytumėte meniu ir sukurtumėte pardavimo užsakymą
+    - **Pardavimo užsakymo eilutės** „FastTab” pasirinkite **Pridėti eilutę**, jei nauja eilutė nėra automatiškai pridedama, ir įveskite šią informaciją:
         - **Prekės numeris** – A0001
         - **Kiekis** – 4
-        - Pasirinkite **Įtraukti eilutę** , kad įtrauktumėte antrą eilutę.
+        - Pasirinkite **Įtraukti eilutę**, kad įtrauktumėte antrą eilutę.
         - **Prekės numeris** – A0002
         - **Kiekis** – 2
     - Rezervuokite atsargas, skirtas abiems jūsų ką tik sukurtoms eilutėms.
@@ -177,22 +177,22 @@ Prieš nustatant sistemos nukreiptą klasterio paėmimą, turite sukurti tinkam�
     - Uždarykite pardavimo užsakymą ir grįžkite į **Visi pardavimų užsakymai** sąrašo puslapį.
 1. Raskite du jūsų ką tik sukurtus pardavimų užsakymus (gali prireikti atnaujinti puslapį). Lentelėje pasirinkite abu pardavimo užsakymus naudodami sekcijos žymės langelį.
     - **Visi pardavimų užsakymai** Veiksmų srityje pasirinkite **Sandėlis** skirtuką.
-    - **Veiksmai** grupėje pasirinkite **Išleisti į sandėlį** , kad išleistumėte abu pardavimų užsakymus į sandėlį.
+    - **Veiksmai** grupėje pasirinkite **Išleisti į sandėlį**, kad išleistumėte abu pardavimų užsakymus į sandėlį.
 1. Kai išleidimo į sandėlį procesas baigtas, bus rodomas informacinis pranešimas.
     - Bus sukurtos kiekvieno pardavimo užsakymo siuntos.
     - Banga bus sukurta ir abi siuntos bus priskirtos bangai. Pasižymėkite **Bangos ID**.
 1. Eikite į **Sandėlio valdymas > Siunčiamos bangos > Siuntų bangos > Visos bangos**.
-    - **Visos bangos** sąraše raskite ir pasirinkite **Bangos ID** , kurią sukūrėte ankstesniame veiksme.
+    - **Visos bangos** sąraše raskite ir pasirinkite **Bangos ID**, kurią sukūrėte ankstesniame veiksme.
     - Veiksmų srityje pasirinkite skirtuką **Banga**.
-    - **Banga** grupėje pasirinkite **Procesas** , kad apdorotumėte bangą ir sukurtumėte **Darbas**.
+    - **Banga** grupėje pasirinkite **Procesas**, kad apdorotumėte bangą ir sukurtumėte **Darbas**.
     - Pasibaigus apdorojimui, bus rodomi informaciniai pranešimai, rodantys, kad darbas sukurtas ir banga užregistruota.
-1. **Pasirinktina** : eikite į **Sandėlio valdymas > Darbas > Darbo informacija** , kad peržiūrėtumėte sukurtą darbą. Sukuriami du skirtingi darbo ID. Kiekviename darbo ID yra dvi paėmimo eilutės.
+1. **Pasirinktina** : eikite į **Sandėlio valdymas > Darbas > Darbo informacija**, kad peržiūrėtumėte sukurtą darbą. Sukuriami du skirtingi darbo ID. Kiekviename darbo ID yra dvi paėmimo eilutės.
 
 ### <a name="run-the-mobile-device-flow"></a>Mobiliojo įrenginio srauto vykdymas
 
 1. Prisijunkite prie vartotojo mobiliojo įrenginio sandėlyje **62**.
 1. **Pagrindinis meniu** pasirinkite **Siunčiama**.
-1. **Siunčiama** meniu pasirinkite **SD klasteris** , kad pradėtumėte paėmimą.
+1. **Siunčiama** meniu pasirinkite **SD klasteris**, kad pradėtumėte paėmimą.
     - Sukuriamas klasteris ir prie jo pridedami jūsų anksčiau sukurti du darbo ID. Jei sukūrėte daugiau kaip du darbo ID, į klasterį įtraukiami tik pirmieji du. Atkreipkite dėmesį, kad darbo ID įtraukiami į klasterį didėjimo tvarka, kaip nurodyta užklausos sąrankoje.
 
     > [!NOTE]

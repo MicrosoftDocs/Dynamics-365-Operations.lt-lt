@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: c4a1480cf96a4ba753b436c04eb8f7b01379da48
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759669"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433570"
 ---
 # <a name="inventory-aging-report-storage"></a>Atsargų skirstymo pagal terminus ataskaitos saugykla
 
@@ -56,4 +56,4 @@ Kad galėtumėte naudoti šią funkciją, turite ją įjungti savo sistemoje. Ad
     > [!NOTE]
     > Formoje nebus įtrauktos tarpinės sumos, kurios nurodytos ataskaitos makete.
 
-Duomenų objektas**Atsargų skirstymo pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitą taikant filtrą **Proceso identifikatorius – pavadinimas** bet kokiam formatui, kurį palaiko duomenų valdymas.
+Duomenų objektas **Atsargų skirstymo pagal terminus ataskaita** leidžia eksportuoti **Atsargų skirstymo pagal terminus ataskaitos saugykla** ataskaitą taikant filtrą **Proceso identifikatorius – pavadinimas** bet kokiam formatui, kurį palaiko duomenų valdymas.

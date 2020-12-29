@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 2b1ea016817462269a13e450c8c7576546c7f0eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984207"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433518"
 ---
 # <a name="set-up-sales-commission-rules"></a>Nustatyti pardavimo komisinių taisykles
 
@@ -63,7 +63,7 @@ ms.locfileid: "3984207"
 28. Lauke **Prekės ryšys** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 29. Sąraše raskite ir pasirinkite anksčiau sukurtą grupę.
 30. Lauke **Kliento kodas** pasirinkite Grupė.
-31. Lauke**Kliento ryšys** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+31. Lauke **Kliento ryšys** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 32. Sąraše raskite ir pasirinkite anksčiau nustatytą grupę.
 33. Lauke **Pard. atst. ryšys** spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
 34. Sąraše raskite ir pasirinkite norimą įrašą.

@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: c3aa800c1a996a062bcb737afa23f00a9e52bb48
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895601"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433886"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Numatytieji dimensijų ir produkto variantų užsakymų parametrai
 
@@ -38,8 +38,8 @@ Tam, kad nustatytumėte iš anksto nustatytus užsakymo nustatymus produktui, at
 1. Pasirinkite tinkamą produktą tinklelyje.
 1. Veiksmų juostoje atlikite vieną iš šių žingsnių tam, kad atvertumėte **Nustatytųjų užsakymo nustatymų** puslapį pasirinktam produktui:
 
-    - **Plano** skirtuke, **Užsakymo nustatymai** grupėje pasirinkite**Nustatytieji užsakymo nustatymai**.
-    - **Valdyti atsargas** skirtuke, **Užsakymo nustatymai** grupėje pasirinkite**Nustatytieji užsakymo nustatymai**.
+    - **Plano** skirtuke, **Užsakymo nustatymai** grupėje pasirinkite **Nustatytieji užsakymo nustatymai**.
+    - **Valdyti atsargas** skirtuke, **Užsakymo nustatymai** grupėje pasirinkite **Nustatytieji užsakymo nustatymai**.
 
 1. Konfigūruokite nustatymus kaip aprašyta šios temos likusioje dalyje.
 
@@ -104,11 +104,11 @@ Numatytieji užsakymo parametrai turi rangus. Kuo aukštesnis rangas, tuo svarbe
 
 ### <a name="default-order-settings-for-released-products"></a>Išleistiems produktams taikomi numatytieji užsakymo parametrai
 
-Dėl atskirai leidžiamų produktų, galite nuspresti bendrus užsakymo nustatymus ar vietos specifinius užsakymo nustatymus. Bendrųjų užsakymo parametrų rangas visada nulis. Jei nustatote naujus prekybos, įsigijimo ir inventoriaus užsakymo nustatymus vienu metu, rekomenduojame jums naudoti **Išsamios informacijso peržiūrą** **Nustatytieji užsakymo nustatymai** puslapyje. Tam, kad pakeistumėte išsamios informacijos peržiūrą, eikite į**Parinktys** &gt; **Puslapio parinktys** &gt; **Keisti peržiūrą** &gt; **Išsamios informacijos peržiūra**.
+Dėl atskirai leidžiamų produktų, galite nuspresti bendrus užsakymo nustatymus ar vietos specifinius užsakymo nustatymus. Bendrųjų užsakymo parametrų rangas visada nulis. Jei nustatote naujus prekybos, įsigijimo ir inventoriaus užsakymo nustatymus vienu metu, rekomenduojame jums naudoti **Išsamios informacijso peržiūrą** **Nustatytieji užsakymo nustatymai** puslapyje. Tam, kad pakeistumėte išsamios informacijos peržiūrą, eikite į **Parinktys** &gt; **Puslapio parinktys** &gt; **Keisti peržiūrą** &gt; **Išsamios informacijos peržiūra**.
 
 ### <a name="site-specific-order-settings"></a>Nuo vietos priklausomi užsakymo parametrai
 
-Tam, kad sukurtumėte vietos specifinius užsakymo nustatymus, pasirinkite **Naujas**. **Išsaiomes informacijos peržiūroje**, įveskite vietą **Vietos** laukelyje **Nustatymuose taikomuose** skyriui. **Tinklelio peržiūroje**, įveskite vietą**Vietos** stulpelyje. Nauja taisyklė automatiškai priskiriama naujo reitingo vertei, kuri yra didesnė nei 0 (nulis). Galite sukurti tiek vietos konkrečių taisyklių, kiek jums reikia. Tam, kad parodytumėte, jog jos yra vienodai svarbios, galite priskirti tą pačią reitingo vertę visoms su vieta susijusioms taisyklėms.
+Tam, kad sukurtumėte vietos specifinius užsakymo nustatymus, pasirinkite **Naujas**. **Išsaiomes informacijos peržiūroje**, įveskite vietą **Vietos** laukelyje **Nustatymuose taikomuose** skyriui. **Tinklelio peržiūroje**, įveskite vietą **Vietos** stulpelyje. Nauja taisyklė automatiškai priskiriama naujo reitingo vertei, kuri yra didesnė nei 0 (nulis). Galite sukurti tiek vietos konkrečių taisyklių, kiek jums reikia. Tam, kad parodytumėte, jog jos yra vienodai svarbios, galite priskirti tą pačią reitingo vertę visoms su vieta susijusioms taisyklėms.
 
 Jei esate dalyje **Informacijos rodinys**, negalite peržiūrėti prekei sukurtų taisyklių. Naudokite **Rodyti/slėpti sąrašą** mygtuką tam, kad peržiūrėtumėte informaciją. Sukūrus bet kokio tipo užsakymo eilutę, kurioje nėra nurodyta vieta, „Supply Chain Management“ ieško taisyklės, kurioje nenurodyta vieta. Tai padeda nustatyti iš anksto nustatytąją vietą užsakymo eilutėje. Ši vieta po to yra naudojama ieškoti nuo vietos priklausomų taisyklių, į kurias iš anksto nustatytas sandėlis gali būti nusiunčiamas. Šis sandėlis taikomas užsakymo eilutei.
 
@@ -201,6 +201,6 @@ Prieš tai, kai galite naudoti griežtą patvirtinimo parinktį, ji turi būti �
 Patvirtinimo parinkties nustatymui:
 
 1. Eikite į  **Produkto informacijos valdymas \> Nustatymai \> Produkto informacijos valdymo parametrai**.
-1. **Bendra** skirtuke, nustatykite**Nustatytojo užsakymo kiekių tvirtinimas** į vieną iš šių verčių:
+1. **Bendra** skirtuke, nustatykite **Nustatytojo užsakymo kiekių tvirtinimas** į vieną iš šių verčių:
     - **Griežtas** - Pasirinkite šią parinktį siekiant užtikrinti, kad visos **Standartinio užsakymo kiekio** vertės bus dauginamos iš **Daugelio** verčių kiekvienam „FastTab“ (**Įsigijimo užsakymas**, **Inventorius** ir **Prekybos užsakymas**).
     - **Standartinis** - Pasirinkite šią parinktį tam, kad naudotumėte standartinį patvirtinimą (jis veikia tuo pačiu būdu, kai ši funkcija yra neįjungta).

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e451b419da59817ccf397fbb231a1cd112fd45ca
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018450"
+ms.locfileid: "4434025"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Bendradarbiavimas su tiekėjais naudojant tiekėjo portalą
 
@@ -38,7 +38,7 @@ Tiekėjo portalas skirtas tiekėjams, kurie neturi elektroninių duomenų mainų
 Procesą galima sukonfigūruoti taip, kad tiekėjo patvirtinimas automatiškai patvirtintų užsakymą. Tokiu atveju užsakymą neautomatiškai vykdyti reikia tik kai užsakymas yra atmetamas arba kai tiekėjo patvirtinimas yra užregistruojamas kaip atsakymas, bet PU būsena neatnaujinama kaip **Patvirtinta** dėl patvirtinimo proceso problemos.
 
 ## <a name="po-confirmation-and-rejection"></a>PU patvirtinimas ir atmetimas
-PU rengiami programoje „Dynamics AX“. Kai turite PU, kurio būsena yra **Patvirtinta** , jį siųsti tiekėjui galite generuodami patvirtinimo užklausą. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą. PU rodomas Tiekėjo portale su galimybe tiekėjui jį patvirtinti arba atmesti. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus.  
+PU rengiami programoje „Dynamics AX“. Kai turite PU, kurio būsena yra **Patvirtinta**, jį siųsti tiekėjui galite generuodami patvirtinimo užklausą. Jei norite atkreipti tiekėjo dėmesį į naują PU, taip pat galite jį siųsti el. paštu, naudodami spausdinimo valdymo sistemą. PU rodomas Tiekėjo portale su galimybe tiekėjui jį patvirtinti arba atmesti. Tiekėjas taip pat gali įtraukti komentarų ir taip paskelbti informaciją, pvz., PO keitimus.  
 
 Tiekėjo portale tiekėjas gali matyti užsakymų eilutes. Šios eilutės apima tokią informaciją kaip išorinis produkto numeris, dimensijos, kainos informacija, kiekis, pristatymo data ir pristatymo adresas. Tiekėjas gali generuoti ataskaitą, kurioje būtų rodoma PU informacija bei bendra kaina. Tiekėjui aktualios išlaidos rodomos tiekėjui antraštėje arba eilutėse spustelėjus mygtuką **Išlaidos**. Tiekėjai gali importuoti pirkimo užsakymo informaciją į savo sistemą naudodami funkciją **Eksportuoti į „Excel“**.  
 
@@ -46,8 +46,8 @@ Toliau pateikiamoje lentelėje parodomas įprastas keitimasis informacija, atsi�
 
 | Atsakymo tipas                                                                                                  | Rezultatas                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tiekėjas patvirtina užsakymą. Sistema sukonfigūruota automatiškai patvirtinti PU, kai juos patvirtina tiekėjas.    | Užsakymo būsena atnaujinama į **Patvirtinta**. Jei dėl kokios nors priežasties užsakymo patvirtinti nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip **Patvirtinta** , tačiau PU būsena lieka **Peržiūrima išorėje**.                                                                       |
-| Tiekėjas patvirtina užsakymą. Sistema nesukonfigūruota automatiškai patvirtinti PU, kai juos patvirtina tiekėjas. | Tiekėjo atsakymas įrašomas kaip **Patvirtinta** , bet PU būsena lieka **Peržiūrima išorėje**.                                                                                                                                                                                      |
+| Tiekėjas patvirtina užsakymą. Sistema sukonfigūruota automatiškai patvirtinti PU, kai juos patvirtina tiekėjas.    | Užsakymo būsena atnaujinama į **Patvirtinta**. Jei dėl kokios nors priežasties užsakymo patvirtinti nepavyksta, tiekėjo atsakymas vis tiek įrašomas kaip **Patvirtinta**, tačiau PU būsena lieka **Peržiūrima išorėje**.                                                                       |
+| Tiekėjas patvirtina užsakymą. Sistema nesukonfigūruota automatiškai patvirtinti PU, kai juos patvirtina tiekėjas. | Tiekėjo atsakymas įrašomas kaip **Patvirtinta**, bet PU būsena lieka **Peržiūrima išorėje**.                                                                                                                                                                                      |
 | Tiekėjas atmeta užsakymą.                                                                                     | Tiekėjo atsakymas įrašomas kaip **Atmesta** ir PU būsena lieka **Peržiūrima išorėje**. Atmetimas gaunamas kartu su priežastimi ir keitimo siūlymu, pvz., alternatyvia pristatymo data. Atnaujinate PU ir siunčiate patvirtinti naują versiją. |
 
 ## <a name="changes-to-a-po"></a>PU keitimai
@@ -56,7 +56,7 @@ Kai reikia pakeisti PU, kuris jau buvo patvirtintas, naują PU tiekėjui galite 
 Kai atšaukiate PU, jo būsena vėl pakeičiama į **Patvirtinta**. PU turite siųsti atgal tiekėjui naudodami Tiekėjo portalą, kad tiekėjas galėtų atšaukimą patvirtinti arba atmesti. Patvirtinus atšaukimą, PU tiekėjo patvirtintų PU sąraše rodomas kaip **Atšaukta**.
 
 ## <a name="versions-status-transitions-and-change-management"></a>Versijos, būsenų pasikeitimai ir keitimų valdymas
-Kai PU išsiunčiamas tiekėjui, sistemoje jis užregistruojamas kaip konkreti PU versija ir jo būsena iš **Patvirtinta** pakeičiama į **Peržiūrima išorėje**. Jei PU pakeičiamas vėliau, sukuriama nauja PU versija, o būsena grąžinama į **Patvirtinta** (arba **Juodraštis** , jei įjungtas keitimų valdymas).  
+Kai PU išsiunčiamas tiekėjui, sistemoje jis užregistruojamas kaip konkreti PU versija ir jo būsena iš **Patvirtinta** pakeičiama į **Peržiūrima išorėje**. Jei PU pakeičiamas vėliau, sukuriama nauja PU versija, o būsena grąžinama į **Patvirtinta** (arba **Juodraštis**, jei įjungtas keitimų valdymas).  
 
 Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būsenos ir versijos keitimai.
 
@@ -70,7 +70,7 @@ Toliau pateikiamoje lentelėje rodomas pavyzdys, kaip gali būti vykdomi PU būs
 
 Norėdami pamatyti tiekėjui išsiųstų PU versijas ir tiekėjų atsakymus, pirkimo užsakyme spustelėkite **Žurnalai** &gt; **Patvirtinimo užklausos**.  
 
-Užsakymai, kurie buvo išsiųsti tiekėjui patvirtinti ir kurių būsena yra **Peržiūrima išorėje** , rodomi sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; laukiama atsako** arba sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; kad būtų pateiktas atsakas, reikia atlikti veiksmą**. Kai užsakymą, kuris buvo išsiųstas tiekėjui, pakeičiate taip, kad jo būsena grąžinama į **Patvirtinta** , užsakymas šiuose sąrašuose neberodomas. Norėdami pamatyti, ar anksčiau būta tiekėjo pateiktų atsakymų dėl užsakymo, spustelėkite **Žurnalai** &gt; **Patvirtinimo užklausos**.  
+Užsakymai, kurie buvo išsiųsti tiekėjui patvirtinti ir kurių būsena yra **Peržiūrima išorėje**, rodomi sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; laukiama atsako** arba sąraše **Į tiekėjo portalą išsiųsti pirkimo užsakymai; kad būtų pateiktas atsakas, reikia atlikti veiksmą**. Kai užsakymą, kuris buvo išsiųstas tiekėjui, pakeičiate taip, kad jo būsena grąžinama į **Patvirtinta**, užsakymas šiuose sąrašuose neberodomas. Norėdami pamatyti, ar anksčiau būta tiekėjo pateiktų atsakymų dėl užsakymo, spustelėkite **Žurnalai** &gt; **Patvirtinimo užklausos**.  
 
 Tiekėjams Tiekėjo portale PU patvirtinti nereikia. Jie taip pat gali nusiųsti el. laišką arba apie PU patvirtinimą paskelbti kitais kanalais. Tada užsakymą rankiniu būdu galite patvirtinti programoje „Dynamics AX“. Tokiu atveju gaunate įspėjimą, kad užsakymas patvirtinamas, nors nėra jokio atsakymo iš tiekėjo. PU tada rodomas Tiekėjo portalo patvirtinimo istorijoje, kaip atidarytas patvirtintas užsakymas, neturintis jokių atsakymų. Be to, tiekėjas nebegali PU patvirtinti arba atmesti.  
 

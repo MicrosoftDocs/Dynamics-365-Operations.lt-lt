@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018634"
+ms.locfileid: "4434018"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Gavimo dokumentų ir sąskaitos faktūros (SF) išrašymo trikčių šalinimas
 
@@ -38,7 +38,7 @@ Kiekis yra privalomas, jei norite registruoti SF. Todėl, jei visam eilutės kie
 
 Ši problema gali atsirasti dėl pirkimo užsakymo paskirstymų nenuoseklumo.
 
-Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis* , eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis*, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Negaliu konsoliduoti kelių gavimo dokumentų į vieną pirkimo užsakymą.
 
@@ -58,7 +58,7 @@ Jei gavimo dokumentas yra atšauktas, sistema leidžia operacijas užregistruoti
 
 Toliau aprašyta procedūra pateikia vieną būdą, kaip atkurti problemą.
 
-1. **Mokėtinų sumų parametrai** puslapyje, skirtuke **Bendra** , įsitikinkite, kad parinktis **Gavimo dokumentą registruoti DK** nustatyta kaip *Taip*.
+1. **Mokėtinų sumų parametrai** puslapyje, skirtuke **Bendra**, įsitikinkite, kad parinktis **Gavimo dokumentą registruoti DK** nustatyta kaip *Taip*.
 1. Sukurkite pirkimo užsakymą ir pridėkite užsakymo eilutę, kurioje yra kiekis lygus *1000* vienam produktui.
 1. Patvirtinkite pirkimo užsakymą.
 1. Užregistruokite gavimo dokumentą ir patikrinkite kvitus.
@@ -72,15 +72,15 @@ Operacijos gali būti registruojamos laikinai sustabdytose DK sąskaitose, kai a
 
 ## <a name="a-product-receipt-voucher-number-is-consumed-even-if-no-financial-voucher-is-generated-during-product-receipt"></a>Produkto gavimo kvito numeris sunaudotas, net jei produkto gavimo metu nesukuriamas joks fin. kvitas.
 
-Jei pasirinktis **Sukaupti įsipareigojimus gavimo dokumente** prekės modelių grupei nustatyta kaip *Ne* , didžiojoje knygoje nebus vykdomi jokie registravimai. Tačiau faktinis įvykis bus įrašytas papildomos knygos apskaitos tikslais, o tam įvykiui būtinas kvito numeris. Šis kvito numeris yra numeris, nurodomas atsargų operacijose.
+Jei pasirinktis **Sukaupti įsipareigojimus gavimo dokumente** prekės modelių grupei nustatyta kaip *Ne*, didžiojoje knygoje nebus vykdomi jokie registravimai. Tačiau faktinis įvykis bus įrašytas papildomos knygos apskaitos tikslais, o tam įvykiui būtinas kvito numeris. Šis kvito numeris yra numeris, nurodomas atsargų operacijose.
 
-Rekomenduojame nustatyti pasirinktį **Sukaupti įsipareigojimus gavimo dokumente** kaip *Taip* , kaip ir aprašyta šiame tinklaraščio įraše: [Registruoti pap. išlaidas produkto gavimo metu](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Rekomenduojame nustatyti pasirinktį **Sukaupti įsipareigojimus gavimo dokumente** kaip *Taip*, kaip ir aprašyta šiame tinklaraščio įraše: [Registruoti pap. išlaidas produkto gavimo metu](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>„Registruoti DK mokesčių sąskaitoje” parametras nėra įjungtas.
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Ši problema atsiranda, kai pirkimo užsakymui išrašoma SF, jei pasirinktis **Registruoti DK mokesčių sąskaitoje** yra nustatyta kaip *Taip* skirtuke **SF** , esančiame **Mokėtinų sumų parametrai** puslapyje.
+Ši problema atsiranda, kai pirkimo užsakymui išrašoma SF, jei pasirinktis **Registruoti DK mokesčių sąskaitoje** yra nustatyta kaip *Taip* skirtuke **SF**, esančiame **Mokėtinų sumų parametrai** puslapyje.
 
 ### <a name="reproduce-the-issue"></a>Problemos atkūrimas
 
@@ -99,10 +99,10 @@ Toliau aprašyta procedūra pateikia vieną būdą, kaip atkurti problemą.
     - **Sandėlis:** *11*
     - **Kiekis:** *4*
 
-1. Veiksmų srities skirtuke **Pirkimas** , grupėje **Veiksmas** , pasirinkite **Patvirtinti**.
-1. Veiksmų srities skirtuke **Gauti** , grupėje **Generuoti** , pasirinkite **Gavimo dokumentas**.
-1. Dialogo lange **Registruojamas gavimo dokumentas** , lauke **Gavimo dokumentas** , įveskite pasirinktinį numerį ir pasirinkite **Gerai**.
-1. Veiksmų srities skirtuke **SF** , esančiame grupėje **Generuoti** , pasirinkite **SF**.
+1. Veiksmų srities skirtuke **Pirkimas**, grupėje **Veiksmas**, pasirinkite **Patvirtinti**.
+1. Veiksmų srities skirtuke **Gauti**, grupėje **Generuoti**, pasirinkite **Gavimo dokumentas**.
+1. Dialogo lange **Registruojamas gavimo dokumentas**, lauke **Gavimo dokumentas**, įveskite pasirinktinį numerį ir pasirinkite **Gerai**.
+1. Veiksmų srities skirtuke **SF**, esančiame grupėje **Generuoti**, pasirinkite **SF**.
 1. Lauke **Numeris** įveskite pasirinktinį numerį kaip SF numerį.
 1. Atnaujinkite gretinimo būseną ir registruokite.
 1. Atkreipkite dėmesį, kad kai generuojate SF iš pirkimo užsakymo, dabar gausite šią klaidą: „Produkto pirkimo išlaidų operacijos tipui sąskaitos numerio nėra.”

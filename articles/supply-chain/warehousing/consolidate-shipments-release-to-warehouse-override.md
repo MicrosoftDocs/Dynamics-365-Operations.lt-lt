@@ -17,17 +17,17 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016798"
+ms.locfileid: "4433934"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Siuntų konsolidacija, kai siuntos konsolidacijos strategijos nepaisoma puslapyje Išleisti į sandėlį
 
 [!include [banner](../includes/banner.md)]
 
-Šioje temoje pateikiamas scenarijus, kai viena ar daugiau pardavimo eilučių turi būti rankiniu būdu išleistos į sandėlį iš puslapio **Išleisti į sandėlį** , o sistemos nustatyta siuntos konsolidacijos strategija turi būti perrašyta prieš išleidimą. Gali reikėti perrašyti siuntos konsolidacijos strategiją, jei, pvz., užsakymas, kuris paprastai nėra konsoliduojamas su atviromis siuntomis, turi būti konsoliduojamas su atviromis siuntomis.
+Šioje temoje pateikiamas scenarijus, kai viena ar daugiau pardavimo eilučių turi būti rankiniu būdu išleistos į sandėlį iš puslapio **Išleisti į sandėlį**, o sistemos nustatyta siuntos konsolidacijos strategija turi būti perrašyta prieš išleidimą. Gali reikėti perrašyti siuntos konsolidacijos strategiją, jei, pvz., užsakymas, kuris paprastai nėra konsoliduojamas su atviromis siuntomis, turi būti konsoliduojamas su atviromis siuntomis.
 
 Scenarijaus metu sukursite pardavimo užsakymų rinkinį, o tada perrašysite numatytąją siuntos konsolidacijos strategiją prieš užsakymų išleidimą į sandėlį.
 
@@ -47,10 +47,10 @@ Scenarijaus metu sukursite pardavimo užsakymų rinkinį, o tada perrašysite nu
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 ## <a name="release-the-sales-orders-from-the-release-to-warehouse-page"></a>Pardavimo užsakymų išleidimas iš puslapio Išleisti į sandėlį
 
@@ -58,12 +58,12 @@ Atlikite tolesnius veiksmus, norėdami perrašyti siuntos konsolidacijos strateg
 
 1. Eikite į **Sandėlio valdymas \> Išleidimas į sandėlį \> Išleidimas į sandėlį**.
 1. Viršutinėje srityje pasirinkite pirmąjį šiame scenarijuje sukurtą pardavimo užsakymą.
-1. Pasirinkite **Įtraukti** , kad įtrauktumėte eilutę į išleidimą į sandėlį. Atkreipkite dėmesį, kad *numatytoji* siuntos konsolidacijos strategija taikoma apatinėje srityje.
+1. Pasirinkite **Įtraukti**, kad įtrauktumėte eilutę į išleidimą į sandėlį. Atkreipkite dėmesį, kad *numatytoji* siuntos konsolidacijos strategija taikoma apatinėje srityje.
 1. Apatinėje srityje pasirinkite **Pasirinkti naują siuntos konsolidacijos strategiją**.
 1. Pasirinkite strategiją, leidžiančią konsoliduoti su kitomis tos pačios strategijos atidarytomis siuntomis. Pavyzdžiui, pasirinkite strategiją *CustomerOrderNo*.
 1. Pasirinkite **Išleisti į sandėlį**.
 1. Pasirinkite antrąjį ir trečiąjį šiame scenarijuje sukurtus pardavimo užsakymus.
-1. Pasirinkite **Įtraukti** , kad įtrauktumėte eilutes į išleidimą į sandėlį. Atkreipkite dėmesį, kad *numatytoji* strategija taikoma apatinėje srityje.
+1. Pasirinkite **Įtraukti**, kad įtrauktumėte eilutes į išleidimą į sandėlį. Atkreipkite dėmesį, kad *numatytoji* strategija taikoma apatinėje srityje.
 1. Pasirinkite antrą eilutę, tada lauke **Pasirinkti naują siuntos konsolidacijos strategiją** pasirinkite strategiją *CustomerOrderNo*.
 1. Abiejose eilutėse pasirinkite **Išleisti į sandėlį**.
 

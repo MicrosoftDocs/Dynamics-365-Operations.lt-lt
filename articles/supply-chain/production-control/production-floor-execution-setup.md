@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012496"
+ms.locfileid: "4433902"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Įrenginio, skirto paleisti gamybos cecho vykdymo sąsają, nustatymas
 
@@ -45,8 +45,8 @@ Norėdami nustatyti įrenginio konfigūraciją ir užduočių filtrus, prisijunk
 1. Pasirinkite vieną ar kelis filtrus, kuriuos taikysite dabartiniame įrenginyje. Šie filtrai padės užtikrinti, kad įrenginyje būtų rodomos tik tinkamos užduotys. Norėdami nustatyti filtrą, pasirinkite filtro tipą, kad būtų atidarytas reikšmių sąrašas, o tada pasirinkite reikšmę, kurią norite filtruoti. Galimi toliau pateikti filtrai.
 
     - **Gamybos vienetas** – šis filtras yra aukščiausio lygio filtras. Paprastai jis nurodo didelę darbo vietą, kurioje yra kelios išteklių grupės ir atskiri ištekliai jose.
-    - **Išteklių grupė** – šis filtras yra vidurinio lygio filtras. Paprastai jis nurodo susijusių išteklių rinkinį ribotoje darbo srities vietoje. Jei pirmiausia pasirenkate filtrą **Gamybos vienetas** , išteklių grupių sąraše rodomos tik to vieneto grupės. Kitu atveju jame rodomos visos galimos išteklių grupės.
-    - **Ištekliai** – šis filtras yra konkrečiausias filtras. Paprastai jis nurodo konkretų įrenginį arba kitus pavienius išteklius. Jei pirmiausia pasirenkate filtrą **Išteklių grupė** ir (arba) **Gamybos vienetas** , išteklių sąraše rodomi tik tos grupės ar vieneto ištekliai. Kitu atveju jame rodomos visi galimi ištekliai.
+    - **Išteklių grupė** – šis filtras yra vidurinio lygio filtras. Paprastai jis nurodo susijusių išteklių rinkinį ribotoje darbo srities vietoje. Jei pirmiausia pasirenkate filtrą **Gamybos vienetas**, išteklių grupių sąraše rodomos tik to vieneto grupės. Kitu atveju jame rodomos visos galimos išteklių grupės.
+    - **Ištekliai** – šis filtras yra konkrečiausias filtras. Paprastai jis nurodo konkretų įrenginį arba kitus pavienius išteklius. Jei pirmiausia pasirenkate filtrą **Išteklių grupė** ir (arba) **Gamybos vienetas**, išteklių sąraše rodomi tik tos grupės ar vieneto ištekliai. Kitu atveju jame rodomos visi galimi ištekliai.
 
 1. Pasirinkite **Gerai**.
 1. Atsiranda prisijungimo puslapis ir jūsų įrenginys parengtas naudoti.

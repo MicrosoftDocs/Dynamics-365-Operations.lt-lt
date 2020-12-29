@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 04346363070fff4dc3110a620c3d9bc9b1016d1e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017856"
+ms.locfileid: "4433988"
 ---
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planuoti krovinių transportavimo maršrutus su keliomis stotelėmis
 
@@ -43,7 +43,7 @@ Maršruto planą sudaro maršruto segmentai su informacija apie maršruto stotel
 Kiekvienas maršruto planas turi būti sugretintas su maršruto vadovu.
 
 ## <a name="route-guides"></a>Maršruto vadovai
-Maršruto vadovas apibrėžia krovinio gretinimo su konkrečiu maršruto planu kriterijus. Pavyzdžiui, galite nurodyti pradinio tranzito punkto ir paskirties vietos tranzito punkto konteinerio tūrį arba svorį ir siuntimo vežėją, tarnybą arba grupę. Maršruto vadovą galite rasti puslapyje **Tarifo ir maršruto darbo sritis** , kuriame krovinius galima sugretinti su maršrutais neautomatiniu arba automatiniu būdu. Jei maršruto vadovas skirtas suplanuotam maršrutui, jį taip pat galima rasti puslapyje **Krovinio kūrimo darbo sritis**.
+Maršruto vadovas apibrėžia krovinio gretinimo su konkrečiu maršruto planu kriterijus. Pavyzdžiui, galite nurodyti pradinio tranzito punkto ir paskirties vietos tranzito punkto konteinerio tūrį arba svorį ir siuntimo vežėją, tarnybą arba grupę. Maršruto vadovą galite rasti puslapyje **Tarifo ir maršruto darbo sritis**, kuriame krovinius galima sugretinti su maršrutais neautomatiniu arba automatiniu būdu. Jei maršruto vadovas skirtas suplanuotam maršrutui, jį taip pat galima rasti puslapyje **Krovinio kūrimo darbo sritis**.
 
 ## <a name="scheduled-routes"></a>Suplanuoti maršrutai
 Suplanuotas maršrutas yra iš anksto nustatytas maršruto planas, kuriame nurodytas pristatymo datų grafikas. Suplanuoti ir nesuplanuoti maršrutai skiriasi tuo, kaip jiems priskiriami kroviniai. Jei nesuplanuotą maršrutą priskiriate naudodami tarifo ir maršruto darbo sritį, patvirtinami tik krovinys ir maršruto vadovas. Jei priskiriate suplanuotą maršrutą, taip pat atsižvelgiama į užsakymų ir tranzito punktų datas bei adresus ir maršruto plano datą. Jums nereikia naudoti puslapio Tarifo ir maršruto darbo sritis, norint neautomatiniu būdu krovinius priskirti suplanuotam maršrutui. Galite naudoti puslapį Krovinio kūrimo darbo sritis, norėdami nurodyti, kad pasirinkto suplanuoto maršruto kroviniai būtų sudaromi pagal pardavimo užsakymų klientų adresus ir pristatymo datas. Suplanuotų maršrutų maršruto plane nurodomi fiksuoti pradinis ir paskirties tranzito punktai. Paprastai nurodomi tie patys visų segmentų siuntimo vežėjas ir tarnyba, tačiau jie gali skirtis. Paskirties vietos tranzito punktai sudaromi naudojant klientų, kurie yra aplankomi maršruto metu, pašto kodus. Galima nurodyti kelis vieno maršruto plano maršruto grafikus. Maršruto planas turi būti sugretintas su maršruto vadovu. Tačiau suplanuotų maršrutų planą galima susieti tik su vienu maršruto vadovu. Maršruto grafikas yra naudojamas tik faktiniams maršrutams puslapyje **Maršruto grafikas** kurti. Nurodydami krovinius puslapyje Krovinio kūrimo darbo sritis, galite naudoti numatytąjį krovinių šabloną.

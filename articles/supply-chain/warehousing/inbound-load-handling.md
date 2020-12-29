@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017626"
+ms.locfileid: "4433919"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Pirkimo užsakymų gaunamų krovinių sandėlio tvarkymas
 
@@ -75,11 +75,11 @@ Kai gaunamas krovinys pirmą kartą atvyksta į sandėlį, sandėlio darbuotojai
     - Mišrių numerių lentelių gavimas ir padėjimas, kai mobiliojo įrenginio meniu elemento laukas **Šaltinio dokumento eilutės identifikavimo metodas** nustatytas kaip _Krovinio prekės gavimas_. Daugiau informacijos žr. [Mišrių numerio lentelių gavimas](mixed-license-plate-receiving.md).
 
     > [!NOTE]
-    > Nepriklausomai nuo proceso sistema sugeneruos darbą paimti kiekius, užregistruotus priimančioje vietoje, ir padėti juos į įprastą saugojimo vietą. Kai naudojamas procesas _Krovinio prekės gavimas ir padėjimas_ arba _Mišrių numerio lentelių gavimas ir padėjimas_ , krovinio kiekį užregistravusiam darbuotojui įrenginys taip pat paves atlikti padėjimo darbą, kuris yra registravimo užduoties dalis. Priešingai, procesų _Krovinio prekės gavimas_ ir _Mišrių numerio lentelių gavimas_ atveju, daroma prielaida, kad padėjimo darbas bus atliktas atskirai nuo registravimo užduoties.
+    > Nepriklausomai nuo proceso sistema sugeneruos darbą paimti kiekius, užregistruotus priimančioje vietoje, ir padėti juos į įprastą saugojimo vietą. Kai naudojamas procesas _Krovinio prekės gavimas ir padėjimas_ arba _Mišrių numerio lentelių gavimas ir padėjimas_, krovinio kiekį užregistravusiam darbuotojui įrenginys taip pat paves atlikti padėjimo darbą, kuris yra registravimo užduoties dalis. Priešingai, procesų _Krovinio prekės gavimas_ ir _Mišrių numerio lentelių gavimas_ atveju, daroma prielaida, kad padėjimo darbas bus atliktas atskirai nuo registravimo užduoties.
 
 - **Darbo šablonas, apibrėžiantis gaunamų krovinių paėmimo ir padėjimo darbus**
 
-    Ši prekė susieta su ankstesnėmis prekėmis. Turite turėti bent vieną darbo šabloną, kurio darbo užsakymo tipas būtų _Pirkimo užsakymas_ , ir jame turi būti paėmimo / padėjimo darbų tipų rinkinys.
+    Ši prekė susieta su ankstesnėmis prekėmis. Turite turėti bent vieną darbo šabloną, kurio darbo užsakymo tipas būtų _Pirkimo užsakymas_, ir jame turi būti paėmimo / padėjimo darbų tipų rinkinys.
 
 Mobilusis įrenginys pateikia už gavimą atsakingam sandėlio klerkui nuorodas, padedančias atlikti krovinio kiekio registravimą. Šiame registravimo operacijų sraute turi būti mažiausiai tiek veiksmų, kuriuos reikia atlikti su kiekvieno krovinio ID, kiek nurodyta toliau.
 
@@ -101,14 +101,14 @@ Atkreipkite dėmesį, kad sandėlio darbuotojai gali užregistruoti pirkimo užs
 
 - **Mobiliajame įrenginyje:** naudokite procesus _Pirkimo užsakymo gavimo eilutė_ ir _Pirkimo užsakymo gavimo ir padėjimo eilutė_. (Jei pirkimo užsakymo eilutės kiekis susijęs su daugiau nei vienu kroviniu, darbuotojas negali naudoti proceso _Pirkimo užsakymo gavimo eilutė_. Vietoj to, darbuotojui bus pavesta naudoti įrenginio veiksmą, susietą su procesu _Krovinio prekės gavimas_.)
 - **Kliento programoje:** naudokite prekių gavimo žurnalą.
-- **Kliento programoje:** naudokite veiksmą **Registracija** , kurį galima pasiekti iš pirkimo užsakymo eilutės.
+- **Kliento programoje:** naudokite veiksmą **Registracija**, kurį galima pasiekti iš pirkimo užsakymo eilutės.
 
 > [!NOTE]
-> Jei pirkimo užsakymo gavimas užregistruojamas naudojant bet kurį iš anksčiau nurodytų metodų, ryšys tarp pirkimo užsakymo atsargų operacijos ir krovinio nesukuriamas, net kai įjungta funkcija _Susieti pirkimo užsakymo atsargų operacijas su kroviniu_. Viena šios taisyklės išimtis yra tada, kai naudojate parinktį **Pirkimo užsakymo gavimo eilutė** , ir tik vieno krovinio būsena užsakymo eilutėje yra ne _Gauta_.
+> Jei pirkimo užsakymo gavimas užregistruojamas naudojant bet kurį iš anksčiau nurodytų metodų, ryšys tarp pirkimo užsakymo atsargų operacijos ir krovinio nesukuriamas, net kai įjungta funkcija _Susieti pirkimo užsakymo atsargų operacijas su kroviniu_. Viena šios taisyklės išimtis yra tada, kai naudojate parinktį **Pirkimo užsakymo gavimo eilutė**, ir tik vieno krovinio būsena užsakymo eilutėje yra ne _Gauta_.
 
 ### <a name="handle-discrepancies-during-registration-of-inbound-load-quantities"></a>Gaunamo krovinio kiekių registravimo metu atsiradusių nesutapimų tvarkymas
 
-Sandėlių darbuotojai gali atlikti dalinio krovinio kiekio gavimo registravimą. Kiekvienas dalinis krovinio kiekio gavimas sukuria atskirą atsargų operaciją, kurios užregistruoto kiekio gavimo būsena yra _Užregistruota_ , o partijos ID nurodo pradinės pirkimo užsakymo eilutės kilmę.
+Sandėlių darbuotojai gali atlikti dalinio krovinio kiekio gavimo registravimą. Kiekvienas dalinis krovinio kiekio gavimas sukuria atskirą atsargų operaciją, kurios užregistruoto kiekio gavimo būsena yra _Užregistruota_, o partijos ID nurodo pradinės pirkimo užsakymo eilutės kilmę.
 
 #### <a name="load-under-receiving"></a>Per mažo krovinio gavimas
 
@@ -122,8 +122,8 @@ Norėdami kontroliuoti, kas atsitinka, kaip sandėlio darbuotojas bando užregis
 
 - Krovinio prekės gavimas
 - Krovinio prekės gavimas ir atidėjimas
-- Mišrių numerių lentelių gavimas (kai lauko **Šaltinio dokumento eilutės identifikavimo metodas** reikšmė nustatyta kaip _Krovinio prekės gavimas_ )
-- Mišrių numerių lentelių gavimas ir padėjimas (kai lauko **Šaltinio dokumento eilutės identifikavimo metodas** reikšmė nustatyta kaip _Krovinio prekės gavimas_ )
+- Mišrių numerių lentelių gavimas (kai lauko **Šaltinio dokumento eilutės identifikavimo metodas** reikšmė nustatyta kaip _Krovinio prekės gavimas_)
+- Mišrių numerių lentelių gavimas ir padėjimas (kai lauko **Šaltinio dokumento eilutės identifikavimo metodas** reikšmė nustatyta kaip _Krovinio prekės gavimas_)
 
 Toliau pateikiamoje lentelėje paaiškinamos laukui **Per didelio krovinio gavimas** galimos parinktys.
 
@@ -155,40 +155,40 @@ Po to, kai gauti produktų kiekiai yra užregistruojami sistemoje, jie tampa pri
 Norėdami atidaryti puslapį, kuriame galima užregistruoti produkto gavimą, operacijų komandos nariai gali atlikti bet kurį _vieną_ iš toliau nurodytų veiksmų.
 
 - Atidarykite susijusį krovinio įrašą, tada pasirinkite veiksmą **Produkto gavimas**.
-- Eikite į **Sandėlio valdymas \> Periodinės užduotys \> Atnaujinti produktų gavimus** , tada lauke **Krovinio ID** nurodykite norimą užregistruoti krovinį.
+- Eikite į **Sandėlio valdymas \> Periodinės užduotys \> Atnaujinti produktų gavimus**, tada lauke **Krovinio ID** nurodykite norimą užregistruoti krovinį.
 - Atidarykite susijusį pirkimo užsakymą, tada pasirinkite veiksmą **Produkto gavimas**.
 - Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Produktų gavimas \> Produkto gavimo užduoties registravimas**.
 
-Veiksmas **Produkto gavimas** , kurį galima rasti puslapyje **Krovinys** (ir atitinkamame atnaujinimo užduoties puslapyje – **Atnaujinti produktų gavimus** ), gali atnaujinti produktų gavimo kiekius tik pirkimo užsakymo kiekiuose, kurių būsena yra _Užregistruota_. Tačiau veiksmas **Produkto gavimas** , kurį galima rasti puslapyje **Pirkimo užsakymas** , gali įtraukti abiejų apdorojimo būsenų kiekius ( _Užsakyta_ ir _Užregistruota_ ). Jis taip pat gali valdyti produkto gavimo registravimo apimtį, panaudodamas tokius papildomus parametrus, kaip _Dabartinio gavimo kiekis_ ir _Užregistruotas kiekis ir paslaugos_.
+Veiksmas **Produkto gavimas**, kurį galima rasti puslapyje **Krovinys** (ir atitinkamame atnaujinimo užduoties puslapyje – **Atnaujinti produktų gavimus**), gali atnaujinti produktų gavimo kiekius tik pirkimo užsakymo kiekiuose, kurių būsena yra _Užregistruota_. Tačiau veiksmas **Produkto gavimas**, kurį galima rasti puslapyje **Pirkimo užsakymas**, gali įtraukti abiejų apdorojimo būsenų kiekius (_Užsakyta_ ir _Užregistruota_). Jis taip pat gali valdyti produkto gavimo registravimo apimtį, panaudodamas tokius papildomus parametrus, kaip _Dabartinio gavimo kiekis_ ir _Užregistruotas kiekis ir paslaugos_.
 
 Gali būti užregistruoti tik tų užsakymų produktų gavimai, kurių būsena yra _Patvirtinta_. Nepatvirtintų pirkimo užsakymų veiksmas **Produkto gavimas** bus rodomas kaip negalimas.
 
 ### <a name="post-registered-quantities-from-the-load-page"></a>Užregistruotų kiekių iš krovinio puslapio registravimas
 
-Norint registruoti užregistruotus produktų kiekius iš puslapio **Krovinys** , turi būti įvykdytos toliau nurodytos būtinosios sąlygos.
+Norint registruoti užregistruotus produktų kiekius iš puslapio **Krovinys**, turi būti įvykdytos toliau nurodytos būtinosios sąlygos.
 
 - Krovinys turi turėti bent vieną kiekio vienetą, kurio būsena yra _Užregistruota_.
 - Krovinio būsena turi būti _Išsiųsta_.
 - Su kroviniu susieto pirkimo užsakymo būsena turi būti _Patvirtinta_.
 
 > [!NOTE]
-> Jei krovinio būsena nebuvo nustatyta kaip _Išsiųsta_ , sistema automatiškai patvirtins krovinį prieš paleisdama produkto gavimo atnaujinimą. (Krovinio būsena yra nustatyta kaip _Išsiųsta_ , kai vartotojas užregistruoja krovinio gaunamą siuntą.)
+> Jei krovinio būsena nebuvo nustatyta kaip _Išsiųsta_, sistema automatiškai patvirtins krovinį prieš paleisdama produkto gavimo atnaujinimą. (Krovinio būsena yra nustatyta kaip _Išsiųsta_, kai vartotojas užregistruoja krovinio gaunamą siuntą.)
 
 Norėdamas užregistruoti produktų gavimo registracijas, susietas su pasirinktu kroviniu, darbuotojas pasirenka veiksmą **Produkto gavimas** puslapyje **Krovinys**. Atidarytame puslapyje yra toliau nurodyta pagrindinė informacija.
 
-- Lauke **Kiekis** , esančiame dalyje **Parametrai** skirtuke **Nustatymai** , rodomas _užregistruotas kiekis_. Kitų parinkčių čia nėra.
+- Lauke **Kiekis**, esančiame dalyje **Parametrai** skirtuke **Nustatymai**, rodomas _užregistruotas kiekis_. Kitų parinkčių čia nėra.
 - „FastTab“ konteineryje **Apžvalga** esančiame tinklelyje pateikiami visi pirkimo užsakymai, kurie yra įtraukti į pasirinktą krovinį.
 - „FastTab“ konteineryje **Eilutės** esančiame tinklelyje pateikiamos visos užsakymo eilutės, kurios turi registruotą kiekį.
 
 > [!NOTE]
-> Užsakymo eilučių, rodomų skirtuke **Eilutė** , kiekiai apskaičiuojami skirtingai, atsižvelgiant į tai, ar jūsų „Supply Chain Management“ versijoje pasiekiama ir įjungta funkcija _Leisti kelis vieno krovinio produktų gavimus_.
+> Užsakymo eilučių, rodomų skirtuke **Eilutė**, kiekiai apskaičiuojami skirtingai, atsižvelgiant į tai, ar jūsų „Supply Chain Management“ versijoje pasiekiama ir įjungta funkcija _Leisti kelis vieno krovinio produktų gavimus_.
 >
 > | Versija | Skaičiavimas |
 > |---|---|
 > | Versijos iki 10.0.10 versijos ir naujesnės versijos, kuriose funkcija _Leisti kelis vieno krovinio produktų gavimus_ neįjungta | Eilutės kiekis yra visų užregistruotų _tos pirkimo užsakymo eilutės_ kiekių suma, neatsižvelgiant į tai, ar buvo atliktas kelių krovinių registravimas, registravimas atliktas nepriklausomai nuo krovinio, iš mobiliojo įrenginio ar iš kliento programos. |
-> | 10.0.10 versija ir naujesnės versijos, kuriose funkcija _Leisti kelis vieno krovinio produktų gavimus_ įjungta | Eilutės kiekis yra visų _krovinio įrašo_ , iš kurio buvo inicijuotas veiksmas **Produkto gavimo registravimas** , užregistruotų kiekių suma. |
+> | 10.0.10 versija ir naujesnės versijos, kuriose funkcija _Leisti kelis vieno krovinio produktų gavimus_ įjungta | Eilutės kiekis yra visų _krovinio įrašo_, iš kurio buvo inicijuotas veiksmas **Produkto gavimo registravimas**, užregistruotų kiekių suma. |
 
-Kai vartotojas pasirenka **Gerai** , kad patvirtintų produkto gavimo registravimą, sistema atlieka toliau nurodytus pagrindinius atitinkamų objektų atnaujinimus.
+Kai vartotojas pasirenka **Gerai**, kad patvirtintų produkto gavimo registravimą, sistema atlieka toliau nurodytus pagrindinius atitinkamų objektų atnaujinimus.
 
 | Objektas | Atnaujinimas |
 |---|---|
@@ -207,27 +207,27 @@ Toliau pateiktoje lentelėje apibendrinamas nustatymo **Leisti kelis vieno krovi
 |---|---|---|---|
 | Kai šio lauko nėra (versijos iki 10.0.10) | <p>Krovinio kiekis nustatomas taip, kad jis būtų lygus užregistruotam kiekiui.</p><p>Jei krovinio kiekis atnaujinamas į 0 (nulį) (o tai reiškia, kad jokia registracija neatlikta), krovinio eilutė panaikinama.</p><p>Jei krovinio eilučių nėra, krovinys panaikinamas.</p> | _Gauta_ | Jei yra keli kroviniai užsakymo eilutės užregistruotam kiekiui, atnaujinama tik krovinio, iš kurio buvo užregistruotas gavimas, būsena į _Gauta_. |
 | nr. | <p>Krovinio kiekis nustatomas taip, kad jis būtų lygus užregistruotam kiekiui, susijusiam su krovinio ID.</p><p>Jei atsargų operacijai neįrašomas joks krovinio ID, veiksmas atitinka veiksmą versijose iki 10.0.10.</p> | _Gauta_ | |
-| Taip | Nėra naujinimų | _Gauta_ , jei bendras užregistruotas krovinio kiekis yra lygus arba viršija krovinio kiekį | |
-| Taip | Nėra naujinimų | _Išsiųsta_ arba _Vykdoma_ , jei bendras užregistruotas krovinio kiekis yra mažesnis už krovinio kiekį | |
+| Taip | Nėra naujinimų | _Gauta_, jei bendras užregistruotas krovinio kiekis yra lygus arba viršija krovinio kiekį | |
+| Taip | Nėra naujinimų | _Išsiųsta_ arba _Vykdoma_, jei bendras užregistruotas krovinio kiekis yra mažesnis už krovinio kiekį | |
 
-Po to, kai lauko **Krovinio būsena** reikšmė nustatoma kaip _Gauta_ , tam kroviniui daugiau nebegalima atlikti produkto gavimo registravimų. Tačiau darbuotojas gali užregistruoti likusį užsakymo kiekį su gautu kroviniu, esant toliau nurodytoms sąlygoms. (Daugiau informacijos žr. ankstesniame šios temos skyriuje [Per didelio krovinio gavimas](#load-over-receiving).)
+Po to, kai lauko **Krovinio būsena** reikšmė nustatoma kaip _Gauta_, tam kroviniui daugiau nebegalima atlikti produkto gavimo registravimų. Tačiau darbuotojas gali užregistruoti likusį užsakymo kiekį su gautu kroviniu, esant toliau nurodytoms sąlygoms. (Daugiau informacijos žr. ankstesniame šios temos skyriuje [Per didelio krovinio gavimas](#load-over-receiving).)
 
 - „Supply Chain Management“ versija yra senesnė nei 10.0.11 versija.
-- Funkcija _Krovinių kiekiai gauti per dideli_ yra įjungta, o mobiliojo įrenginio meniu elemento laukas **Krovinio eilutės kiekis pagal gavimą** , skirtas krovinio prekės gavimo veiksmui, nustatytas į _Leisti_.
+- Funkcija _Krovinių kiekiai gauti per dideli_ yra įjungta, o mobiliojo įrenginio meniu elemento laukas **Krovinio eilutės kiekis pagal gavimą**, skirtas krovinio prekės gavimo veiksmui, nustatytas į _Leisti_.
 
-Norėdamas užregistruoti papildomų užregistruotų krovinio kiekių produkto gavimą su kroviniu, kurio būsena yra _Gauta_ , vartotojas turi atlikti registravimo veiksmą iš susieto pirkimo užsakymo.
+Norėdamas užregistruoti papildomų užregistruotų krovinio kiekių produkto gavimą su kroviniu, kurio būsena yra _Gauta_, vartotojas turi atlikti registravimo veiksmą iš susieto pirkimo užsakymo.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Užregistruotų kiekių iš pirkimo užsakymo puslapio registravimas
 
 Norėdamas registruoti užregistruotus kiekius iš puslapio **Pirkimo užsakymas** puslapio, vartotojas prieš pasirinkdamas veiksmą **Produkto gavimas** užbaigia toliau nurodytas užduotis.
 
-- Lauką **Kiekis** , esantį dalyje **Parametrai** skirtuke **Nustatymai** , nustatykite į _Užregistruotas kiekis_.
+- Lauką **Kiekis**, esantį dalyje **Parametrai** skirtuke **Nustatymai**, nustatykite į _Užregistruotas kiekis_.
 - Lauke **Produkto gavimas** įveskite į registravimą įtrauktų pirkimo užsakymų numerius.
 
 > [!NOTE]
 > Eilutės kiekis, kuris bus įtrauktas į registravimo apimtį, yra visų užregistruotų tos užsakymo eilutės kiekių suma, neatsižvelgiant į tai, ar buvo atliktas kelių krovinių kiekių registravimas, registravimas atliktas nepriklausomai nuo krovinio, iš mobiliojo įrenginio ar iš kliento programos. Ta pati taisyklė taikoma, kai produkto gavimo registravimas vykdomas iš krovinio, jei tai atliekama, kai lauko **Leisti kelis vieno krovinio produktų gavimus** nėra arba jis neįgalintas.
 
-Kai vartotojas pasirenka **Gerai** , kad patvirtintų produkto gavimo registravimą, sistema atlieka toliau nurodytus pagrindinius atitinkamų objektų atnaujinimus.
+Kai vartotojas pasirenka **Gerai**, kad patvirtintų produkto gavimo registravimą, sistema atlieka toliau nurodytus pagrindinius atitinkamų objektų atnaujinimus.
 
 | Objektas | Atnaujinimas |
 |---|---|
@@ -238,7 +238,7 @@ Toliau pateiktoje lentelėje apibendrinamas nustatymo **Leisti kelis vieno krovi
 
 | Leisti vieno krovinio kelis produkto gavimo kvitus | Krovinio kiekis | Krovinio būsena | Banknotas |
 |---|---|---|---|
-| Kai šis laukas yra išjungtas arba nepasiekiamas (versijose iki 10.0.10) | Nėra naujinimų | Jokie atnaujinimai neatlikti. (Būsena lieka _Atidaryta_ , _Išsiųsta_ arba _Vykdoma_.) | Produkto gavimo registravimas inicijuojamas iš pirkimo užsakymo, todėl atnaujinimo logikoje nėra informacijos apie jo aprėptyje esančių užregistruotų kiekių ir krovinių, su kuriais buvo įrašyta registracija, ryšį. Todėl jis negali pasirinkti krovinio būsenos atnaujinimui. |
+| Kai šis laukas yra išjungtas arba nepasiekiamas (versijose iki 10.0.10) | Nėra naujinimų | Jokie atnaujinimai neatlikti. (Būsena lieka _Atidaryta_, _Išsiųsta_ arba _Vykdoma_.) | Produkto gavimo registravimas inicijuojamas iš pirkimo užsakymo, todėl atnaujinimo logikoje nėra informacijos apie jo aprėptyje esančių užregistruotų kiekių ir krovinių, su kuriais buvo įrašyta registracija, ryšį. Todėl jis negali pasirinkti krovinio būsenos atnaujinimui. |
 | Įgalintos | Nėra naujinimų | <p>Įvyksta vienas iš toliau nurodytų veiksmų.</p><ul><li>Būsena keičiama į <i>Gauta</i>, jei bendra pirkimo užsakymo atsargų operacijų gautų ir nupirktų kiekių suma yra didesnė už krovinio, su kuriuo jie susieti, kiekį arba yra jam lygi.</li><li>Būsena lieka <i>Atidaryta</i>, <i>Išsiųsta</i> arba <i>Vykdoma</i>, jei ankstesnė sąlyga neįvykdoma visoms krovinio eilutėms.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Tinkamos produkto gavimo registravimo parinkties pasirinkimas logistikos operacijoms
@@ -251,7 +251,7 @@ Kaip buvo aprašyta ankščiau, sistema siūlo dvi produkto gavimo registravimo 
 Įmonėms, kurios naudoja krovinius savo gaunamų užsakymų transportavimui ir sandėlio tvarkymui planuoti bei valdyti, patariama naudoti šias funkcijas, kurios yra skirtos dirbti su kroviniais:
 
 - veiksmus **Krovinio prekės gavimas** savo sandėlio mobiliuosiuose įrenginiuose, kurie skirti gautam produkto kiekiui pagal krovinį užregistruoti;
-- veiksmus **Produkto gavimo registravimas** , kurie yra inicijuojami iš krovinio, siekiant atnaujinti atsargų didžiąją knygą.
+- veiksmus **Produkto gavimo registravimas**, kurie yra inicijuojami iš krovinio, siekiant atnaujinti atsargų didžiąją knygą.
 
 > [!NOTE]
 > Kitas kiekio registravimo ir produkto gavimo registravimo funkcijas galima naudoti atitinkamiems gavimo operaciniams procesams palaikyti. Tačiau jei naudosite jas pakaitomis su skirtosiomis į krovinį orientuotomis funkcijomis arba vietoj jų, galite pažeisti krovinio įrašų tikslumą, o dėl to gali sutrikti krovinių valdymo srautų sklandumas.
@@ -268,12 +268,12 @@ Norėdami peržiūrėti šiame skyriuje aprašytus pavyzdinius scenarijus, pirmi
 
 1. Atidarykite parinkties **Funkcijos valdymas** darbo sritį. (Norėdami gauti išsamią informaciją apie tai, kaip rasti ir naudoti šią darbo sritį, žr. [Funkcijų valdymo apžvalga](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).)
 
-1. Įjunkite funkciją _Susieti pirkimo užsakymo atsargų operacijas su kroviniu_ , kuri pateikiama taip:
+1. Įjunkite funkciją _Susieti pirkimo užsakymo atsargų operacijas su kroviniu_, kuri pateikiama taip:
 
     - **Modulis:** _sandėlio valdymas_
     - **Funkcijos pavadinimas:** _Susieti pirkimo užsakymo atsargų operacijas su kroviniu_
 
-1. Įjunkite funkciją _Keli produkto gavimo registravimai krovinyje_ , kuri pateikiama taip:
+1. Įjunkite funkciją _Keli produkto gavimo registravimai krovinyje_, kuri pateikiama taip:
 
     - **Modulis:** _sandėlio valdymas_
     - **Funkcijos pavadinimas:** _Keli produkto gavimo registravimai krovinyje_
@@ -313,7 +313,7 @@ Atlikdami šią procedūrą jūs neautomatiniu būdu sukursite pirkimo užsakym�
 1. Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Visi pirkimo užsakymai**.
 1. Pasirinkite **Naujas**.
 1. Dialogo lange **Kurti pirkimo užsakymą** lauko **Tiekėjo sąskaita** reikšmę nustatykite į _1001_.
-1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą ir sukurtumėte pirkimo užsakymą.
+1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą ir sukurtumėte pirkimo užsakymą.
 1. Naujajame pirkimo užsakyme jau yra eilutė dalyje **Pirkimo užsakymo eilutės**. Nustatykite tokias šios eilutės reikšmes:
 
     - **Prekės numeris:** _A0001_
@@ -324,12 +324,12 @@ Atlikdami šią procedūrą jūs neautomatiniu būdu sukursite pirkimo užsakym�
 1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Veiksmai \> Krovinio planavimo darbo sritis**.
 1. Puslapio **Krovinio planavimo darbo sritis** veiksmų srities skirtuke **Pasiūla ir paklausa** pasirinkite **Įtraukti \> Į naują krovinį**.
 1. Dialogo lange **Krovinio šablono priskyrimas** lauko **Krovinio šablono ID** reikšmę nustatykite į _20' konteineris_.
-1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą ir grįžtumėte į darbo sritį.
-1. Dalyje **Kroviniai** pasirinkite **Krovinio ID** , kad būtų atidarytas naujai sukurtas krovinys.
+1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą ir grįžtumėte į darbo sritį.
+1. Dalyje **Kroviniai** pasirinkite **Krovinio ID**, kad būtų atidarytas naujai sukurtas krovinys.
 1. Peržiūrėkite krovinio antraštės ir eilutės informaciją ir atkreipkite dėmesį į toliau nurodytus punktus.
 
     - „FastTab“ konteineryje **Krovinys** lauko **Krovinio būsena** reikšmė nustatyta kaip _Atidaryta_.
-    - Salyje **Krovinio eilutės** yra viena eilutė, kurioje lauko **Kiekis** reikšmė nustatyta kaip _10_ , o lauko **Darbo sukurtas kiekis** reikšmė nustatyta kaip _0_ (nulis).
+    - Salyje **Krovinio eilutės** yra viena eilutė, kurioje lauko **Kiekis** reikšmė nustatyta kaip _10_, o lauko **Darbo sukurtas kiekis** reikšmė nustatyta kaip _0_ (nulis).
 
     ![Krovinio informacija](media/inbound-load-details.png "Krovinio informacija")
 
@@ -340,12 +340,12 @@ Atlikdami šią procedūrą jūs neautomatiniu būdu sukursite pirkimo užsakym�
 
 Kai į sandėlio priėmimo rampą atvyksta krovinys, priimantis darbuotojas užregistruoja krovinio kiekius mobiliajame įrenginyje.
 
-1. Norėdami prisijungti prie sandėlio 24, naudokitės mobiliuoju įrenginiu. (Standartiniuose demonstraciniuose duomenyse prisijunkite kaip vartotojo ID naudodami _24_ , o kaip slaptažodį – _1_.)
-1. Pasirinkite meniu elementą _Krovinio prekės gavimas_ , kurį sukūrėte šiam scenarijui.
+1. Norėdami prisijungti prie sandėlio 24, naudokitės mobiliuoju įrenginiu. (Standartiniuose demonstraciniuose duomenyse prisijunkite kaip vartotojo ID naudodami _24_, o kaip slaptažodį – _1_.)
+1. Pasirinkite meniu elementą _Krovinio prekės gavimas_, kurį sukūrėte šiam scenarijui.
 1. Norėdami įvesti šias reikšmės, vadovaukitės ekrane pateikiamomis duomenų įvedimo instrukcijomis. (Užsakymas gali skirtis priklausomai nuo naudojamo mobiliojo įrenginio arba emuliatoriaus.)
 
     - **Krovinys** – įveskite krovinio ID, kurį sukūrėte ankstesnėje procedūroje.
-    - **Prekė** – įveskite _A0001_ , kuri yra prekė, kurios tikimasi šiame krovinyje.
+    - **Prekė** – įveskite _A0001_, kuri yra prekė, kurios tikimasi šiame krovinyje.
     - **Kiekis** – įveskite _9_ kaip faktinį kiekį, kuris yra krovinyje. Atkreipkite dėmesį, kad šis kiekis yra mažesnis nei numatytas.
 
 1. Eikite toliau per darbo eigą, palikdami visus kitus laukus tuščius arba nustatydami jų numatytąsias reikšmes, kol jūsų įrenginys informuos, kad darbas baigtas.
@@ -353,31 +353,31 @@ Kai į sandėlio priėmimo rampą atvyksta krovinys, priimantis darbuotojas užr
 Krovinio gavimo užduotis dabar baigta, o priimantis darbuotojas gali pereiti prie kitos savo užduoties. Tačiau sandėlio priimantis personalas galiausiai peržiūrės krovinio įrašą ir pamatys, kad gautas kiekis buvo mažesnis nei numatytas. Tada, naudodami žiniatinklio kliento programą jie atliks toliau nurodytą procedūrą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
-1. Sąraše raskite ką tik gautą krovinį. (Jums gali tekti pažymėti žymės langelį **Rodyti uždarytą** , kad būtų įtraukti gaunami kroviniai, kurių krovinio būsena yra _Išsiųsta_.) Tada stulpelyje **Krovinio ID** pasirinkite saitą, kad būtų galima atidaryti krovinį.
-1. Krovinio įraše atkreipkite dėmesį, kad lauko **Krovinio būsena** reikšmė lieka _Išsiųsta_ , tačiau krovinio eilutėje esančio lauko **Darbo sukurtas kiekis** reikšmė pasikeitė į _9_.
+1. Sąraše raskite ką tik gautą krovinį. (Jums gali tekti pažymėti žymės langelį **Rodyti uždarytą**, kad būtų įtraukti gaunami kroviniai, kurių krovinio būsena yra _Išsiųsta_.) Tada stulpelyje **Krovinio ID** pasirinkite saitą, kad būtų galima atidaryti krovinį.
+1. Krovinio įraše atkreipkite dėmesį, kad lauko **Krovinio būsena** reikšmė lieka _Išsiųsta_, tačiau krovinio eilutėje esančio lauko **Darbo sukurtas kiekis** reikšmė pasikeitė į _9_.
 1. Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Visi pirkimo užsakymai**.
 1. Sąraše raskite ką tik gautą pirkimą, tada stulpelyje **Pirkimo užsakymas** pasirinkite saitą, kad būtų atidarytas užsakymas.
 \
 1. „FastTab“ konteineryje **Pirkimo užsakymo eilutės** pasirinkite **Atsargos \> Rodinys \> Operacijos**.
-1. Peržiūrėkite dviejų pirkimo užsakymo operacijų informaciją. (Jums gali tekti individualizuoti puslapį **Atsargų operacijos** , kad tinklelyje pamatytumėte lauką **Krovinio ID**.) Turėtumėte matyti dvi operacijas.
+1. Peržiūrėkite dviejų pirkimo užsakymo operacijų informaciją. (Jums gali tekti individualizuoti puslapį **Atsargų operacijos**, kad tinklelyje pamatytumėte lauką **Krovinio ID**.) Turėtumėte matyti dvi operacijas.
 
-    - Operacija, kurios gavimo būsena yra _Registruota_ , rodo registravimo kiekį _9_ , kuris buvo vykdomas pagal konkretų krovinį naudojant mobilųjį įrenginį. **Krovinio ID** susietas su svarstoma operacija.
-    - Operacija, kurio gavimo būsena _Užsakyta_ , atspindi likusį neregistruotą užsakymo eilutės kiekį _1_.
+    - Operacija, kurios gavimo būsena yra _Registruota_, rodo registravimo kiekį _9_, kuris buvo vykdomas pagal konkretų krovinį naudojant mobilųjį įrenginį. **Krovinio ID** susietas su svarstoma operacija.
+    - Operacija, kurio gavimo būsena _Užsakyta_, atspindi likusį neregistruotą užsakymo eilutės kiekį _1_.
 
 #### <a name="product-receiptpost-the-registered-load-quantities-against-purchase-orders"></a>Užregistruotų krovinio kiekių produktų gavimo registravimas pagal pirkimo užsakymus
 
 Šioje procedūroje užregistruosite produkto gavimo atsargas, kurias registravote kroviniui. Todėl gautos atsargos ir su jomis susijusi savikaina bus įtraukta į įmonės didžiąją knygą.
 
 1. Eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
-1. Sąraše raskite gautą krovinį. (Jums gali tekti pažymėti žymės langelį **Rodyti uždarytą** , kad būtų įtraukti gaunami kroviniai, kurių krovinio būsena yra _Išsiųsta_.) Tada stulpelyje **Krovinio ID** pasirinkite saitą, kad būtų galima atidaryti krovinį.
+1. Sąraše raskite gautą krovinį. (Jums gali tekti pažymėti žymės langelį **Rodyti uždarytą**, kad būtų įtraukti gaunami kroviniai, kurių krovinio būsena yra _Išsiųsta_.) Tada stulpelyje **Krovinio ID** pasirinkite saitą, kad būtų galima atidaryti krovinį.
 1. Veiksmų srities skirtuke **Siuntimas ir gavimas** pasirinkite **Gauti \> Produkto gavimas**. Jei būsite paraginti patvirtinti veiksmą, pasirinkite **Taip**.
 1. Dialogo lango **Produkto gavimo registravimas** „FastTab“ konteineryje **Eilutės** patikrinkite tinklelį. Turėtumėte matyti pirkimo užsakymo eilutę, kuriai buvo užregistruotas kiekis pagal pasirinktą krovinį.
 
     > [!NOTE]
-    > Versijose, kur nėra funkcijos _Keli produkto gavimo registravimai krovinyje_ arba ji neįgalinta, numatytasis kiekis, rodomas tinklelyje **Krovinio eilutės** , bus bendras kiekis, užregistruotas visuose su pirkimo užsakymo eilute susietuose kroviniuose.
+    > Versijose, kur nėra funkcijos _Keli produkto gavimo registravimai krovinyje_ arba ji neįgalinta, numatytasis kiekis, rodomas tinklelyje **Krovinio eilutės**, bus bendras kiekis, užregistruotas visuose su pirkimo užsakymo eilute susietuose kroviniuose.
 
 1. „FastTab“ konteinerio **Apžvalga** tinklelyje patikrinkite lauką **Produkto gavimas**. Atkreipkite dėmesį, kad jo nustatyta reikšmė yra numeris, rodantis pasirinkto krovinio ID.
-1. Pasirinkite **Gerai** , kad užregistruotumėte produkto gavimą ir uždarytumėte dialogo langą **Produkto gavimo registravimas**.
+1. Pasirinkite **Gerai**, kad užregistruotumėte produkto gavimą ir uždarytumėte dialogo langą **Produkto gavimo registravimas**.
 1. Grįžote į krovinio informaciją. Atkreipkite dėmesį į toliau nurodytus punktus.
 
     - Lauko **Krovinio būsena** reikšmė dabar nustatyta kaip _Gauta_.
@@ -385,7 +385,7 @@ Krovinio gavimo užduotis dabar baigta, o priimantis darbuotojas gali pereiti pr
 
 Jei pirkimo komanda nesitiki, kad tiekėjas pristatys likusį 1 užsakymo kiekį, ji galės uždaryti užsakymą, atnaujindama eilutės pristatymo likutį į _0_. Tačiau jei greitai nustatoma, kad trūkstama dalis atvyko su pradiniu kroviniu, sandėlio personalas gali atlikti vieną iš toliau nurodytų veiksmų.
 
-- Užregistruokite kiekį su tuo pačiu kroviniu. Šiuo atveju lauko **Krovinio būsena** reikšmė bus iš naujo nustatyta kaip _Išsiųsta_ , o lauko **Darbo sukurtas kiekis** reikšmė bus atnaujinta į _10_. Šis pasirinkimas galimas tik toliau nurodytais atvejais.
+- Užregistruokite kiekį su tuo pačiu kroviniu. Šiuo atveju lauko **Krovinio būsena** reikšmė bus iš naujo nustatyta kaip _Išsiųsta_, o lauko **Darbo sukurtas kiekis** reikšmė bus atnaujinta į _10_. Šis pasirinkimas galimas tik toliau nurodytais atvejais.
 
     - Funkcijos _Krovinių kiekiai gauti per dideli_ nėra arba ji neįgalinta.
     - Funkcija _Krovinių kiekiai gauti per dideli_ yra ir įgalinta, o lauko **Krovinio eilutės kiekis pagal gavimą** reikšmė nustatyta kaip _Leisti_.
@@ -414,7 +414,7 @@ Taip pat sužinosite, kaip nustatyti pirkimo užsakymo eilutę, kad galėtumėte
 
 1. Eikite į **Pirkimas ir tiekėjų parinkimas \> Pirkimo užsakymai \> Visi pirkimo užsakymai**.
 1. Pasirinkite **Naujas**.
-1. „FastTab“ konteineryje **Tiekėjas** nustatykite lauko **Tiekėjo kodas** reikšmę kaip _1001_ , tada pasirinkite **Gerai**.
+1. „FastTab“ konteineryje **Tiekėjas** nustatykite lauko **Tiekėjo kodas** reikšmę kaip _1001_, tada pasirinkite **Gerai**.
 1. Jūsų naujas pirkimo užsakymas atidaromas, ir tinklelyje **Pirkimo užsakymo eilutės** yra tuščia eilutė. Nustatykite tokias šios užsakymo eilutės reikšmes:
 
     - **Prekės numeris:** _A0001_
@@ -425,7 +425,7 @@ Taip pat sužinosite, kaip nustatyti pirkimo užsakymo eilutę, kad galėtumėte
 1. Veiksmų srities skirtuke **Pirkimas** pasirinkite **Veiksmai \> Patvirtinti**. Užsakymo būsena dabar yra _Patvirtinta_.
 1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Veiksmai \> Krovinio planavimo darbo sritis**.
 1. Puslapio **Krovinio planavimo darbo sritis** veiksmų srities skirtuke **Pasiūla ir paklausa** pasirinkite **Įtraukti \> Į naują krovinį**.
-1. Dialogo lange **Krovinio šablono priskyrimas** lauko **Krovinio šablono ID** reikšmę nustatykite į _20' konteineris_. Skirtuke **Informacija** pakeiskite lauko **Kiekis** reikšmę iš _10_ į _5_ , kad iš dalies įtrauktumėte pirkimo užsakymo eilutės kiekį.
+1. Dialogo lange **Krovinio šablono priskyrimas** lauko **Krovinio šablono ID** reikšmę nustatykite į _20' konteineris_. Skirtuke **Informacija** pakeiskite lauko **Kiekis** reikšmę iš _10_ į _5_, kad iš dalies įtrauktumėte pirkimo užsakymo eilutės kiekį.
 1. Norėdami pritaikyti nustatymus ir uždaryti dialogo langą, pasirinkite **Gerai**.
 1. Norėdami sukurti antrą krovinį, pakartokite 8–10 veiksmus. Šį kartą lauko **Kiekis** reikšmė jau turėtų būti nustatyta kaip _5_.
 1. Puslapio **Krovinio planavimo darbo sritis** tinklelyje **Kroviniai** pasirinkite lauko **Krovinio ID** reikšmę pirmam sukurtam kroviniui. Atidaromas puslapis **Krovinio informacija** ir rodomas pasirinktas krovinys. Atlikite šiuos veiksmus.
@@ -443,17 +443,17 @@ Kai į sandėlio priėmimo rampą atvyksta kroviniai, priimantis darbuotojas už
 
 Ši procedūra rodo, kaip priimantis darbuotojas užregistruos krovinio kiekius mobiliajame įrenginyje.
 
-1. Norėdami prisijungti prie sandėlio 24, naudokitės mobiliuoju įrenginiu. (Standartiniuose demonstraciniuose duomenyse prisijunkite kaip vartotojo ID naudodami _24_ , o kaip slaptažodį – _1_.)
-1. Pasirinkite meniu elementą _Krovinio prekės gavimas_ , kurį sukūrėte šiam scenarijui.
+1. Norėdami prisijungti prie sandėlio 24, naudokitės mobiliuoju įrenginiu. (Standartiniuose demonstraciniuose duomenyse prisijunkite kaip vartotojo ID naudodami _24_, o kaip slaptažodį – _1_.)
+1. Pasirinkite meniu elementą _Krovinio prekės gavimas_, kurį sukūrėte šiam scenarijui.
 1. Norėdami įvesti šias reikšmės, vadovaukitės ekrane pateikiamomis duomenų įvedimo instrukcijomis. (Užsakymas gali skirtis priklausomai nuo naudojamo mobiliojo įrenginio arba emuliatoriaus.)
 
     - **Krovinys** – įveskite pirmojo krovinio ID, kurį sukūrėte ankstesnėje procedūroje.
-    - **Prekė** – įveskite _A0001_ , kuri yra prekė, kurios tikimasi šiame krovinyje.
+    - **Prekė** – įveskite _A0001_, kuri yra prekė, kurios tikimasi šiame krovinyje.
     - **Kiekis** – įveskite _3_. Atkreipkite dėmesį, kad šis kiekis yra mažesnis nei numatytas. Šiame scenarijuje įsivaizduokite, kad jūs, priimantis darbuotojas, neturite laiko užregistruoti visų šio krovinio kiekių. Vėliau šioje procedūroje užregistruosite likusius vienetus pakartodami šį veiksmą ir nustatydami lauko **Kiekis** reikšmę į _2_.
 
 1. Eikite toliau per darbo eigą, palikdami visus kitus laukus tuščius arba nustatydami jų numatytąsias reikšmes, kol jūsų įrenginys informuos, kad darbas baigtas.
 1. Žiniatinklio kliente eikite į **Sandėlio valdymas \> Kroviniai \> Visi kroviniai**.
-1. Sąraše suraskite ką tik gautą krovinį ir pasirinkite **Krovinio ID** reikšmę, kad būtų galima atidaryti krovinį. Atkreipkite dėmesį, kad lauko **Krovinio būsena** reikšmė lieka _Išsiųsta_ , tačiau krovinio eilutėje esančio lauko **Darbo sukurtas kiekis** reikšmė pasikeitė į _3_.
+1. Sąraše suraskite ką tik gautą krovinį ir pasirinkite **Krovinio ID** reikšmę, kad būtų galima atidaryti krovinį. Atkreipkite dėmesį, kad lauko **Krovinio būsena** reikšmė lieka _Išsiųsta_, tačiau krovinio eilutėje esančio lauko **Darbo sukurtas kiekis** reikšmė pasikeitė į _3_.
 1. Veiksmų srities skirtuke **Siuntimas ir gavimas** pasirinkite **Gauti \> Produkto gavimas**. Jei būsite paraginti patvirtinti veiksmą, pasirinkite **Taip**.
 1. Dialogo lange **Produkto gavimo registravimas** peržiūrėkite, bet nekeiskite rodomų reikšmių, ir tada pasirinkite **Gerai**.
 1. Jūs esate grąžinami į savo pasirinkto krovinio puslapį **Krovinio informacija**. Atkreipkite dėmesį į toliau nurodytus punktus.
@@ -469,12 +469,12 @@ Pirmojo krovinio gavimo užduotis dabar baigta. Buvo sukurti du produkto gavimo 
 
 Šiame scenarijuje priimantis darbuotojas užregistruos gautą kiekį, kuris viršija krovinio kiekį. Bus leidžiama priimti perviršį, nes sistema nustatyta taip, kad būtų leidžiamas pristatymo perteklius.
 
-1. Norėdami prisijungti prie sandėlio 24, naudokitės mobiliuoju įrenginiu. (Standartiniuose demonstraciniuose duomenyse prisijunkite kaip vartotojo ID naudodami _24_ , o kaip slaptažodį – _1_.)
-1. Pasirinkite meniu elementą _Krovinio prekės gavimas_ , kurį sukūrėte šiam scenarijui.
+1. Norėdami prisijungti prie sandėlio 24, naudokitės mobiliuoju įrenginiu. (Standartiniuose demonstraciniuose duomenyse prisijunkite kaip vartotojo ID naudodami _24_, o kaip slaptažodį – _1_.)
+1. Pasirinkite meniu elementą _Krovinio prekės gavimas_, kurį sukūrėte šiam scenarijui.
 1. Norėdami įvesti šias reikšmės, vadovaukitės ekrane pateikiamomis duomenų įvedimo instrukcijomis. (Užsakymas gali skirtis priklausomai nuo naudojamo mobiliojo įrenginio arba emuliatoriaus.)
 
     - **Krovinys** – įveskite antrojo anksčiau sukurto krovinio ID.
-    - **Prekė** – įveskite _A0001_ , kuri yra prekė, kurios tikimasi šiame krovinyje.
-    - **Kiekis** – įveskite reikšmę _7_ , kuri reiškia likusį kiekį, kurį tiekėjas turi teisę pristatyti kaip bendro pirkimo užsakymo kiekio (12) dalį (kur 10 yra pradinis užsakymo kiekis, o 2 yra leidžiamas 20 procentų pristatymo pertekliaus kiekis). Atminkite, kad 5 vienetai jau buvo užregistruoti su pirmuoju kroviniu.
+    - **Prekė** – įveskite _A0001_, kuri yra prekė, kurios tikimasi šiame krovinyje.
+    - **Kiekis** – įveskite reikšmę _7_, kuri reiškia likusį kiekį, kurį tiekėjas turi teisę pristatyti kaip bendro pirkimo užsakymo kiekio (12) dalį (kur 10 yra pradinis užsakymo kiekis, o 2 yra leidžiamas 20 procentų pristatymo pertekliaus kiekis). Atminkite, kad 5 vienetai jau buvo užregistruoti su pirmuoju kroviniu.
 
 Antrojo krovinio kiekis dabar atnaujintas į 7, ir pagal šį kieki gali būti atnaujintas produkto gavimas.

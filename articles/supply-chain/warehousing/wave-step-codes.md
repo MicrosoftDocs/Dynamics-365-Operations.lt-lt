@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017810"
+ms.locfileid: "4434002"
 ---
 # <a name="wave-step-codes"></a>Bangos veiksmo kodai
 
@@ -59,7 +59,7 @@ Vykdant įgalinimą, patvirtinimas atliekamas per duomenų atnaujinimą. Jei atn
 
 Pašalinę visus patvirtinimo metu nustatytus nesuderinamumus, galite vėl bandyti įjungti funkciją.
 
-Įgalinus funkciją, atsiranda puslapis **Bangos veiksmo kodai** ( **Sandėlio valdymas \> Sąranka \> Bangos \> Bangos veiksmo kodai** ). Šiame puslapyje pateikiami bangos veiksmo kodai, kurie buvo atnaujinti, kai buvo įgalinta funkcija Visos organizacijos bangos veiksmo kodas.
+Įgalinus funkciją, atsiranda puslapis **Bangos veiksmo kodai** (**Sandėlio valdymas \> Sąranka \> Bangos \> Bangos veiksmo kodai**). Šiame puslapyje pateikiami bangos veiksmo kodai, kurie buvo atnaujinti, kai buvo įgalinta funkcija Visos organizacijos bangos veiksmo kodas.
 
 ### <a name="create-new-wave-step-codes"></a>Naujų bangos veiksmo kodų kūrimas
 

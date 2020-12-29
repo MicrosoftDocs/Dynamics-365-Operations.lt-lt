@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998881"
+ms.locfileid: "4433893"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatinis išlaidų paskirstymas
 
@@ -39,13 +39,13 @@ Norėdami paskirstyti išlaidas, pirmiausia turite nurodyti išlaidų kodus.
     - Dirbdami su pirkimo užsakymais, eikite į **Mokėtinos sumos \> Išlaidų sąranka \> Išlaidų kodas**.
     - Dirbdami su pardavimo užsakymais, eikite į **Gautinos sumos \> Išlaidų sąranka \> Išlaidų kodas**.
 
-1. Veiksmų srityje pasirinkite **Naujas** , norėdami sukurti išlaidų kodą.
+1. Veiksmų srityje pasirinkite **Naujas**, norėdami sukurti išlaidų kodą.
 1. Naujojo įrašo antraštėje nustatykite toliau pateiktus laukus.
 
     - **Išlaidų kodas** – įveskite išlaidų kodą.
     - **Aprašas** – įveskite išlaidų aprašą.
     - **Prekės PVM grupė** – pasirinkite prekės PVM grupę, jei taikoma.
-    - **Paskirstyti proporcingai** – nustatykite šią parinktį į *Taip* , norėdami proporcingai paskirstyti jūsų išlaidas. Šią parinktį galima naudoti tik dirbant su pardavimo užsakymais.
+    - **Paskirstyti proporcingai** – nustatykite šią parinktį į *Taip*, norėdami proporcingai paskirstyti jūsų išlaidas. Šią parinktį galima naudoti tik dirbant su pardavimo užsakymais.
     - **Didžiausia suma** – įveskite didžiausią leistiną išlaidų kodo sumą. Šis laukas naudojamas tiekėjo SF išlaidoms tikrinti. Jis taikomas tik pirkimo užsakymuose.
 
         > [!NOTE]
@@ -53,8 +53,8 @@ Norėdami paskirstyti išlaidas, pirmiausia turite nurodyti išlaidų kodus.
 
 1. „FastTab” **Registravimas** apima dalis **Debetas** ir **Kreditas**. Nustatyti toliau pateiktus laukus, atsižvelgdami į didžiąją knygą, kurioje norite registruoti išlaidas.
 
-    - **Tipas** – pasirinkite sąskaitos, kurioje registruojate, tipą ( *Didžioji knyga* , *Klientas* arba *Prekė* ).
-    - **Registravimas** – pasirinkite kuriamų registravimų tipą (pvz., *Brokerio mokestis* arba *Kliento sudengimas* ).
+    - **Tipas** – pasirinkite sąskaitos, kurioje registruojate, tipą (*Didžioji knyga*, *Klientas* arba *Prekė*).
+    - **Registravimas** – pasirinkite kuriamų registravimų tipą (pvz., *Brokerio mokestis* arba *Kliento sudengimas*).
     - **Sąskaita** – pasirinkite sąskaitą, kurioje norite registruoti išlaidas.
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
@@ -68,7 +68,7 @@ Išlaidų grupės automatiškai paskirsto konkrečias klientų arba tiekėjų gr
 Norėdami sukurti pirkimo užsakymų mokesčių grupes, atlikite toliau pateiktus veiksmus.
 
 1. Eikite į **Mokėtinos sumos \> Išlaidų sąranka \> Tiekėjo išlaidų grupė**.
-1. Veiksmų srityje pasirinkite **Naujas** , norėdami įtraukti eilutę į tinklelį ir nustatyti toliau pateiktus laukus.
+1. Veiksmų srityje pasirinkite **Naujas**, norėdami įtraukti eilutę į tinklelį ir nustatyti toliau pateiktus laukus.
 
     - **Išlaidų grupė** – įveskite išlaidų grupės pavadinimą.
     - **Aprašas** – įveskite išlaidų grupės aprašą.
@@ -82,7 +82,7 @@ Norėdami sukurti pirkimo užsakymų mokesčių grupes, atlikite toliau pateiktu
 Norėdami sukurti pardavimo užsakymų mokesčių grupes, atlikite toliau pateiktus veiksmus.
 
 1. Pasirinkite **Gautinos sumos \> Išlaidų sąranka \> Klientų išlaidų grupės**.
-1. Veiksmų srityje pasirinkite **Naujas** , norėdami įtraukti eilutę į tinklelį ir nustatyti toliau pateiktus laukus.
+1. Veiksmų srityje pasirinkite **Naujas**, norėdami įtraukti eilutę į tinklelį ir nustatyti toliau pateiktus laukus.
 
     - **Išlaidų grupė** – įveskite išlaidų grupės pavadinimą.
     - **Aprašas** – įveskite išlaidų grupės aprašą.
@@ -105,28 +105,28 @@ Nustatę jūsų išlaidų kodus, atlikite toliau pateiktus veiksmus, norėdami n
     - *Pagrindinis* – pritaikyti išlaidas užsakymo antraštei.
     - *Eilutės* – pritaikyti išlaidas užsakymo eilutėms.
 
-1. Pasirinkite esamas automatines išlaidas, kurias norite redaguoti, arba pasirinkite **Naujas** , norėdami nustatyti naujas automatines išlaidas.
+1. Pasirinkite esamas automatines išlaidas, kurias norite redaguoti, arba pasirinkite **Naujas**, norėdami nustatyti naujas automatines išlaidas.
 1. Sąraše **Sąskaitos kodas** pasirinkite vieną iš toliau pateiktų reikšmių, norėdami nurodyti sąskaitų, kurios bus paveiktos, aprėptį.
 
     - *Lentelė* – priskirti išlaidas konkrečiam klientui arba tiekėjui.
     - *Grupė* – priskirti išlaidas papildomų mokesčių grupei.
     - *Visi* – priskirti išlaidas visiems klientams arba tiekėjams.
 
-1. Lauke **Kliento ryšys** arba **Tiekėjo ryšys** pasirinkite konkretų klientą arba klientų grupę, jei nustatėte lauką **Sąskaitos kodas** į *Lentelė*. Jei nustatėte lauką **Sąskaitos kodas** į *Grupė* , pasirinkite kliento arba tiekėjo išlaidų grupę.
+1. Lauke **Kliento ryšys** arba **Tiekėjo ryšys** pasirinkite konkretų klientą arba klientų grupę, jei nustatėte lauką **Sąskaitos kodas** į *Lentelė*. Jei nustatėte lauką **Sąskaitos kodas** į *Grupė*, pasirinkite kliento arba tiekėjo išlaidų grupę.
 1. Lauke **Prekės kodas** pasirinkite vieną iš toliau pateiktų reikšmių, norėdami nurodyti prekių, kurios bus paveiktos, aprėptį. Prekės kodą galite pasirinkti tik tada, jei automatines išlaidas nustatote eilutės lygiu.
 
     - *Lentelė* – priskirti išlaidas konkrečiai prekei.
     - *Grupė* – priskirti išlaidas prekės išlaidų grupei.
     - *Visi* – priskirti išlaidas visoms prekėms.
 
-1. Lauke **Prekės ryšys** pasirinkite konkrečią prekę, jei nustatėte lauką **Prekės kodas** į *Lentelė*. Jei nustatėte lauką **Prekės kodas** į *Grupė* , pasirinkite prekės išlaidų grupę.
+1. Lauke **Prekės ryšys** pasirinkite konkrečią prekę, jei nustatėte lauką **Prekės kodas** į *Lentelė*. Jei nustatėte lauką **Prekės kodas** į *Grupė*, pasirinkite prekės išlaidų grupę.
 1. **Tik dirbant su pardavimo užsakymais:** lauke **Pristatymo būdo kodas** pasirinkite vieną iš toliau pateiktų reikšmių, norėdami nurodyti pristatymo būdų, kurie bus paveikti, aprėptį.
 
     - *Lentelė* – priskirti išlaidas konkrečiam pristatymo būdui.
     - *Grupė* – priskirti išlaidas pristatymo būdų grupei.
     - *Visi* – priskirti išlaidas visiems pristatymo būdams.
 
-1. **Tik dirbant su pardavimo užsakymais:** lauke **Pristatymo būdo ryšys** pasirinkite konkretų pristatymo būdą, jei nustatėte lauką **Pristatymo būdo kodas** į *Lentelė*. Jei nustatėte lauką **Pristatymo būdo kodas** į *Grupė* , pasirinkite pristatymo būdų grupę.
+1. **Tik dirbant su pardavimo užsakymais:** lauke **Pristatymo būdo ryšys** pasirinkite konkretų pristatymo būdą, jei nustatėte lauką **Pristatymo būdo kodas** į *Lentelė*. Jei nustatėte lauką **Pristatymo būdo kodas** į *Grupė*, pasirinkite pristatymo būdų grupę.
 1. „FastTab“ **Eilutės** nustatykite išlaidas ir išlaidų tarifus, kurie bus naudojami, kai bus taikomos dabartinės automatinės išlaidos. Galite naudoti šiame „FastTab” eančią įrankių juostą, kad įtrauktumėte tiek eilučių, kiek jums reikia. Nustatykite toliau pateiktus laukus kiekvienoje eilutėje.
 
     - **Valiuta** – pasirinkite valiutą, kuri turėtų būti naudojama apskaičiuojant išlaidas.
@@ -171,9 +171,9 @@ Toliau pateikta procedūra nurodo, kaip paskirstyti antraštės lygio išlaidas 
     - **Paskirstyti viską** – pasirinkite šį žymės langelį, norėdami paskirstyti išlaidas užsakymo eilutėse, net jei išlaidų kodo debeto tipas yra ne *Prekė*.
     - **Gauta** – pasirinkite šį žymės langelį, jei norite paskirstyti išlaidas tik gautų užsakymų eilutėse.
     - **Laikoma** – pasirinkite šį žymės langelį, jei norite paskirstyti išlaidas tik inventorizuotų užsakymų eilutėse.
-    - **Rodyti pasirinkimus ir išvalyti konkrečias eilutes** – pažymėkite šį žymės langelį, norėdami pašalinti konkrečias eilutes iš šio paskirstymo. Pažymėjus šį žymės langelį, atidaromas tinklelis **Pasirinkti eilutes, kurias reikia pašalinti iš paskirstymo**. Šis tinklelis apima tik tas eilutes, kurios atitinka parametrų **Paskirstyti išlaidas eilutėse** ir **Laikoma** nustatytus kriterijus. Pavyzdžiui, jei nustatote lauką **Paskirstyti išlaidas eilutėse** į *Teigiamos eilutės* ir pažymite žymės langelį **Laikoma** , tinklelyje rodomos tik tos eilutės, kurios yra teigiamos ir inventorizuotos. Be to, tinklelis automatiškai filtruoja visas eilutes, kurių visas kiekis jau gautas. Kol tinklelis atidarytas, išvalykite kiekvienos eilutės, kuri turi būti pašalinta iš paskirstymo, žymės langelį **Įtraukti**. 
+    - **Rodyti pasirinkimus ir išvalyti konkrečias eilutes** – pažymėkite šį žymės langelį, norėdami pašalinti konkrečias eilutes iš šio paskirstymo. Pažymėjus šį žymės langelį, atidaromas tinklelis **Pasirinkti eilutes, kurias reikia pašalinti iš paskirstymo**. Šis tinklelis apima tik tas eilutes, kurios atitinka parametrų **Paskirstyti išlaidas eilutėse** ir **Laikoma** nustatytus kriterijus. Pavyzdžiui, jei nustatote lauką **Paskirstyti išlaidas eilutėse** į *Teigiamos eilutės* ir pažymite žymės langelį **Laikoma**, tinklelyje rodomos tik tos eilutės, kurios yra teigiamos ir inventorizuotos. Be to, tinklelis automatiškai filtruoja visas eilutes, kurių visas kiekis jau gautas. Kol tinklelis atidarytas, išvalykite kiekvienos eilutės, kuri turi būti pašalinta iš paskirstymo, žymės langelį **Įtraukti**. 
 
         > [!IMPORTANT]
-        > Kai dirbate su tinkleliu **Pasirinkti eilutes, kurias reikia pašalinti iš paskirstymo** , įsitikinkite, kad tinklelis lieka atidarytas jums pasirinkus **Paskirstyti**. Jei prieš pasirinkdami **Paskirstyti** tinklelį uždarysite, tinklelio nustatymai bus prarasti. Todėl išlaidos bus paskirstytos pagal jūsų anksčiau apibrėžtus kriterijus.
+        > Kai dirbate su tinkleliu **Pasirinkti eilutes, kurias reikia pašalinti iš paskirstymo**, įsitikinkite, kad tinklelis lieka atidarytas jums pasirinkus **Paskirstyti**. Jei prieš pasirinkdami **Paskirstyti** tinklelį uždarysite, tinklelio nustatymai bus prarasti. Todėl išlaidos bus paskirstytos pagal jūsų anksčiau apibrėžtus kriterijus.
 
-1. Pasirinkite **Paskirstyti** , norėdami pritaikyti jūsų nustatymus ir uždaryti dialogo langą.
+1. Pasirinkite **Paskirstyti**, norėdami pritaikyti jūsų nustatymus ir uždaryti dialogo langą.

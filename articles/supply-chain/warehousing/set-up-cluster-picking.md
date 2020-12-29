@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017580"
+ms.locfileid: "4434011"
 ---
 # <a name="set-up-cluster-picking"></a>Klasterio paėmimo nustatymas
 
@@ -58,18 +58,18 @@ Norėdami nustatyti klasterio šabloną atlikite šiuos veiksmus:
 
 1. Norėdami sukurti naują šabloną spustelėkite **Naujas**.
 
-1. Spustelėję **Sukurti klasterį** , o po to srityje **Klasterio rūšiavimas** spustelėję **Naujas** nustatykite klasterio rūšiavimo kriterijus. Rūšiavimo kriterijai valdo tvarką, kuria darbuotojas atliks paėmimo darbą. Galite įtraukti tiek kriterijų, kiek reikia.
+1. Spustelėję **Sukurti klasterį**, o po to srityje **Klasterio rūšiavimas** spustelėję **Naujas** nustatykite klasterio rūšiavimo kriterijus. Rūšiavimo kriterijai valdo tvarką, kuria darbuotojas atliks paėmimo darbą. Galite įtraukti tiek kriterijų, kiek reikia.
 
 1. Lauke **Eilės numeris** įveskite skaičių norėdami apibrėžti rūšiavimo kriterijų apdorojimo tvarką.
 
-1. Lauke **Lauko pavadinimas** pasirinkite lauką, kuris nustatys rūšiavimą. Pavyzdžiui, jei pasirenkate lauką **WMSLocationId** , darbas bus rūšiuojamas pagal vietą.
+1. Lauke **Lauko pavadinimas** pasirinkite lauką, kuris nustatys rūšiavimą. Pavyzdžiui, jei pasirenkate lauką **WMSLocationId**, darbas bus rūšiuojamas pagal vietą.
 
 1. Lauke **Rūšiavimas** pasirinkite vieną iš toliau nurodytų pasirinkčių.
 
 | **Parinktis**     | **Aprašas**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Didėjančiai**  | Paėmimo darbo seka nustatoma didėjimo tvarka remiantis rūšiavimo kriterijais. Pavyzdžiui, jei kaip rūšiavimo kriterijus naudojate lauką **WMSLocationId** , o jūsų vietos ID yra 1, 2, 3 ir 4, pirmiausia bus imama iš 4 vietos. |
-| **Mažėjančiai** | Paėmimo darbo seka nustatoma mažėjimo tvarka remiantis rūšiavimo kriterijais. Pavyzdžiui, jei kaip rūšiavimo kriterijus naudojate lauką **WMSLocationId** , o jūsų vietos ID yra 1, 2, 3 ir 4, pirmiausia bus imama iš 1 vietos. |
+| **Didėjančiai**  | Paėmimo darbo seka nustatoma didėjimo tvarka remiantis rūšiavimo kriterijais. Pavyzdžiui, jei kaip rūšiavimo kriterijus naudojate lauką **WMSLocationId**, o jūsų vietos ID yra 1, 2, 3 ir 4, pirmiausia bus imama iš 4 vietos. |
+| **Mažėjančiai** | Paėmimo darbo seka nustatoma mažėjimo tvarka remiantis rūšiavimo kriterijais. Pavyzdžiui, jei kaip rūšiavimo kriterijus naudojate lauką **WMSLocationId**, o jūsų vietos ID yra 1, 2, 3 ir 4, pirmiausia bus imama iš 1 vietos. |
 
 ## <a name="item-confirmation"></a>Prekės patvirtinimas
 

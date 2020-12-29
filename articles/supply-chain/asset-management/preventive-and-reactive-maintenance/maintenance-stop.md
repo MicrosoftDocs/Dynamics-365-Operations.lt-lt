@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889990"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433625"
 ---
 # <a name="maintenance-downtime-activities"></a>Prižiūrimo turto prastovos veiklos
 
@@ -71,7 +71,7 @@ Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos 
 
 8. **Visos prižiūrimo turto prastovos veiklos** > **Prižiūrimo turto prastovos veiklos** > pasirinkite prižiūrimo turto prastovos veiklą iš sąrašo ir spustelėkite **Pajėgumas**, kad būtų galima atidaryti dialogo langą **Skaičiuoti pajėgumą**. Naudokite šį dialogo langą, jei norite peržiūrėti pajėgumą, pvz., datą, turtą, turto tipus ir priežiūros užduočių tipus. Atkreipkite dėmesį, kad datos, rodomos dialogo lange, yra pradžios ir pabaigos datos, pasirinktos iš **Prižiūrimo turto prastovos veiklos**. Šis skaičiavimas apima turtą, susijusį su prižiūrimo turto prastovos veikla.
 
-9. Jei reikia, dialogo lange **Apskaičiuoti pajėgumą**redaguokite pradžios ir pabaigos laikus ir pasirinkite, ar norite į skaičiavimą įterpti darbo užsakymus ir priežiūros grafikus. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti skaičiuojant pajėgumą. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, tai visas turtas, skirtas funkcinei vietai ir pasirinktas prižiūrimo turto prastovos veiklai, bus rodomas viršuje, todėl valandas į eilutę galėsite įtraukti iš žemiau esančių funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, pajėgumo eilutes.
+9. Jei reikia, dialogo lange **Apskaičiuoti pajėgumą** redaguokite pradžios ir pabaigos laikus ir pasirinkite, ar norite į skaičiavimą įterpti darbo užsakymus ir priežiūros grafikus. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti skaičiuojant pajėgumą. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, tai visas turtas, skirtas funkcinei vietai ir pasirinktas prižiūrimo turto prastovos veiklai, bus rodomas viršuje, todėl valandas į eilutę galėsite įtraukti iš žemiau esančių funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, pajėgumo eilutes.
 
 10. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**. Bendras valandų skaičius rodomas apžvalgoje **Pajėgumas**. Skirtuke **Pajėgumas** > veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, norėdami gauti išsamesnę prognozuojamų valandų paskirstymo apžvalgą. Toliau pateiktame paveikslėlyje pateikiami **Pajėgumo** skaičiavimo rezultatai.
 
@@ -88,7 +88,7 @@ Paveikslėlyje pavaizduotas informacijos rodinio **Prižiūrimo turto prastovos 
 
 14. **Visos prižiūrimo turto prastovos veiklos** > **Prižiūrimo turto prastovos veiklos** > pasirinkite prižiūrimo turto prastovos veiklą iš sąrašo ir spustelėkite **Elemento prognozė**, kad būtų galima atidaryti dialogo lange **Skaičiuoti elemento prognozę**. Naudokite šį dialogo langą apskaičiuoti prekių (atsarginių dalių ir kitų būtinų elementų) prognozes ir jas sugrupuoti, kad būtų galima peržiūrėti, pvz., pagal datą, turtą, turto tipą ir priežiūros užduoties tipą. Atkreipkite dėmesį, kad datos, rodomos dialogo lange, yra pradžios ir pabaigos datos, pasirinktos iš **Prižiūrimo turto prastovos veiklos**. Šis skaičiavimas apima atsargines dalis ir prekes, susijusias su turtu, pasirinktu prižiūrimo turto prastovos veikloje.
 
-15. Jei reikia, dialogo lange **Apskaičiuoti elemento prognozę**redaguokite pradžios ir pabaigos laikus ir pasirinkite, ar norite į skaičiavimą įterpti darbo užsakymus ir priežiūros grafikus. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti skaičiuojant pajėgumą. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, tai visas turtas, skirtas funkcinei vietai ir pasirinktas prižiūrimo turto prastovos veiklai, bus rodomas viršuje, todėl valandas į eilutę galėsite įtraukti iš žemiau esančių funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, pajėgumo eilutes.
+15. Jei reikia, dialogo lange **Apskaičiuoti elemento prognozę** redaguokite pradžios ir pabaigos laikus ir pasirinkite, ar norite į skaičiavimą įterpti darbo užsakymus ir priežiūros grafikus. Galite naudoti lauką **Lygis**, kad nurodytumėte, kiek išsamios informacijos, susijusios su funkcinėmis vietomis, turi būti skaičiuojant pajėgumą. Pavyzdžiui, jei į lauką įvesite skaičių „1“, o funkcinės vietos struktūra yra kelių lygių, tai visas turtas, skirtas funkcinei vietai ir pasirinktas prižiūrimo turto prastovos veiklai, bus rodomas viršuje, todėl valandas į eilutę galėsite įtraukti iš žemiau esančių funkcinių vietų. Jei lauke **Lygis** įvesite skaičių „0“, matysite išsamų rezultatą, rodantį visų funkcinių vietų lygių, su kuriais jos yra susijusios, pajėgumo eilutes.
 
 16. Norėdami pradėti skaičiavimą, spustelėkite **Gerai**. Bendras elemento prognozių skaičius, rodomas apžvalgoje **Elemento prognozė**. Skirtuke **Elemento prognozė** > veiksmų srities grupėse **Grupuoti pagal...** spustelėkite atitinkamus mygtukus, norėdami gauti išsamesnę prognozuojamų elementų paskirstymo apžvalgą. Toliau esančiame paveikslėlyje pavaizduoti **Elemento prognozė** rezultatai.
 

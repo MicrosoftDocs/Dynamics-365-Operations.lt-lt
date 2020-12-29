@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1f961dc379ceeeae9bbceec1baaa9b9be21316f3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017787"
+ms.locfileid: "4433924"
 ---
 # <a name="set-up-containerization"></a>Krovimo į konteinerius nustatymas
 
@@ -75,7 +75,7 @@ ms.locfileid: "4017787"
 5. Lauke **Bangos veiksmo kodas** įveskite reikšmę.
 6. Pažymėkite žymės langelį **Leisti skaidyti paėmimus**.
 7. Pasirinkite **Įrašyti**.
-8. Pasirinkite **Konteinerio maišymo apribojimai**. Maišymo logikos skaidymais galima nustatyti paskirstymo eilučių pakavimo konteineriuose taisykles. Pavyzdžiui, jei įtrauksite **Laukas Prekės numeris** , prekes priskiriant konteineriams ir esant naujam prekės numeriui, bus sukurtas naujas konteineris. Taip darbininkai tame pačiame konteineryje nesupakuos paskirstymo eilučių dviem skirtingiems klientams.  
+8. Pasirinkite **Konteinerio maišymo apribojimai**. Maišymo logikos skaidymais galima nustatyti paskirstymo eilučių pakavimo konteineriuose taisykles. Pavyzdžiui, jei įtrauksite **Laukas Prekės numeris**, prekes priskiriant konteineriams ir esant naujam prekės numeriui, bus sukurtas naujas konteineris. Taip darbininkai tame pačiame konteineryje nesupakuos paskirstymo eilučių dviem skirtingiems klientams.  
 9. Pasirinkite **Naujas**.
 10. Lauke **Lentelė** pasirinkite parinktį.
 11. Lauke **Laukų pasirinkimas** įveskite arba pasirinkite reikšmę.

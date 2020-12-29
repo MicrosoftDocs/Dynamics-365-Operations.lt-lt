@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 26f4ce073528bf102a951d6fa002aeb0da9e380c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201921"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433480"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Moduliuose Gamybos kontrolė ir Projektų valdymo apskaita naudojamos išlaidų kategorijos
 
@@ -40,7 +40,7 @@ Kai kurių tipų gamybos darbą galima taikyti projekto laiko įvertinimui ir at
 -   Eilutės ypatybė nurodo numatytąją informaciją apie tai, kaip galima apmokestinti nurodytą projekto laiką.
 -   Paprastai DK sąskaitos, susijusios su išlaidomis ir pardavimu, įprastai nurodomos pagal kategorijų grupę, kuri priskiriama išlaidų kategorijai. Tačiau specialios sąskaitos gali būti nurodytos pagal atskirą išlaidų kategoriją.
 
-Papildomi puslapio **Išlaidų kategorijos**mygtukai suteikia prieigą prie su projektu susijusios informacijos apie pasirinktą išlaidų kategoriją. Pavyzdžiui, galite peržiūrėti su projektu susijusias operacijas, apibrėžti darbuotojus ar projektus, apibrėžti valandines išlaidas ir pardavimo kainas bei peržiūrėti ataskaitas.
+Papildomi puslapio **Išlaidų kategorijos** mygtukai suteikia prieigą prie su projektu susijusios informacijos apie pasirinktą išlaidų kategoriją. Pavyzdžiui, galite peržiūrėti su projektu susijusias operacijas, apibrėžti darbuotojus ar projektus, apibrėžti valandines išlaidas ir pardavimo kainas bei peržiūrėti ataskaitas.
 
 
 

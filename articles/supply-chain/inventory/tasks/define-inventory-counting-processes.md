@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9df5db0e71f550e82820e15b1597d9e287071f83
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214003"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433856"
 ---
 # <a name="define-inventory-counting-processes"></a>Atsargų skaičiavimo procesų apibrėžimas
 
@@ -51,7 +51,7 @@ ms.locfileid: "3214003"
 1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Žurnalų pavadinimai > Atsargos**.
 2. Pasirinkite **Naujas**.
 3. Lauke **Pavadinimas** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Lauke **Žurnalo tipas** pasirinkite **Inventorizacija**. Neprivaloma: jei norite, kad, kuriant inventorizacijos žurnalus, būtų generuojama konkreti kvito ID numeracija, galite pasirinkti kitą kvitų serijos ID. Kvitų serijos sukuriamos puslapyje **Numeracijos**.  
 6. Lauke **Detalumo lygis** pasirinkite parinktį.  
 

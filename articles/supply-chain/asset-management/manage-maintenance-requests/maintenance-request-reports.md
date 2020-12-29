@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5abb62e7f92f62d4635309625d765e1c081052eb
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205143"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433651"
 ---
 # <a name="maintenance-request-reports"></a>Priežiūros užklausų ataskaitos
 
@@ -37,7 +37,7 @@ Modulyje Turto valdymas galite generuoti dvi ataskaitas, susijusias su priežiū
 
 Ataskaitoje **Išsami priežiūros užklausos informacija** rodoma įvairi informacija, susijusi su priežiūros užklausoms.
 
-1. Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausos informacija**.
+1. Pasirinkite **Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausos informacija**.
 2. FastTab **Įtrauktini įrašai** galite pasirinkti konkrečias į ataskaitą įtrauktinas priežiūros užklausas.
 3. Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.
 4. Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.
@@ -50,7 +50,7 @@ Toliau pateikiamoje iliustracijoje pavaizduotas ataskaitos **Išsami priežiūro
 
 Ataskaitoje **Priežiūros užklausų sąrašas** rodomas visų to paties užklausos tipo priežiūros užklausų sąrašas.
 
-1. Pasirinkite**Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausų sąrašas**.
+1. Pasirinkite **Turto valdymas** \> **Ataskaitos** \> **Tvarkymo užklausos** \> **Tvarkymo užklausų sąrašas**.
 2. FastTab **Įtrauktini įrašai** galite pasirinkti į ataskaitą įtrauktinas priežiūros užklausas.
 3. Jei reikia, FastTab **Vykdyti fone** galite nustatyti ataskaitų generavimo paketinę užduotį.
 4. Pasirinkite **Gerai**, kad sugeneruotumėte šią ataskaitą.

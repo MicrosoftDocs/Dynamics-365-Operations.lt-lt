@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 28c00b5a2485ffcc01a316d2a39e7259fb563d1d
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889054"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433628"
 ---
 # <a name="maintenance-plans"></a>Priežiūros planai
 
@@ -112,7 +112,7 @@ Jei pridėsite priežiūros planą prie turto tipų arba funkcinės vietos tipų
 
 25. Įterpti laikotarpio pabaigos datą, kuri bus kartojama lauke **Sezonas iki**.
 
-26. Lauke **Numatytasis laikotarpis**rodomas dabartinis kartotinas laikotarpis. Kai dabartinis laikotarpis pasibaigs ir prasidės kiti metai, šiame lauke rodomas laikotarpis bus atnaujintas, kad atitiktų kitą pasikartojančios sekos laikotarpį.
+26. Lauke **Numatytasis laikotarpis** rodomas dabartinis kartotinas laikotarpis. Kai dabartinis laikotarpis pasibaigs ir prasidės kiti metai, šiame lauke rodomas laikotarpis bus atnaujintas, kad atitiktų kitą pasikartojančios sekos laikotarpį.
 
 27. „FastTab“ **Turtas** pasirinkite turtą, kuris turėtų būti susietas su priežiūros planu:
 
@@ -168,8 +168,8 @@ Toliau rasite laiku ir skaitikliu grindžiamų priežiūros plano eilučių sąr
 ![5 pav.](media/06-preventive-maintenance.png)
 
 - Kai sukuriate naują turtą ir šis turtas naudoja turto tipą, susijusį su techninės priežiūros planu, priežiūros planas automatiškai įterpiamas į **Visi objektai** > **Turto priežiūros planai** „FastTab“. Be to, lauke **Numatytasis turto tipas**, „FastTab“ **Priežiūros planai**, bus automatiškai įterpti į susijusius priežiūros planus.  
-- Jei į **Priežiūros planai**įtraukiate arba pašalinate turto tipus arba funkcinių vietų tipus, šis keitimas bus skirtas tik naujam turtui, sukurtam atlikus pakeitimą.  
-- Jei į **Priežiūros planai**įtraukiate arba pašalinate turtą arba funkcines vietas, šis keitimas bus automatiškai atnaujintas **Visas turtas** > **Turto priežiūros planai** „FastTab“ arba **Visos funkcinės vietos** > **Priežiūros planai** „FastTab“.  
+- Jei į **Priežiūros planai** įtraukiate arba pašalinate turto tipus arba funkcinių vietų tipus, šis keitimas bus skirtas tik naujam turtui, sukurtam atlikus pakeitimą.  
+- Jei į **Priežiūros planai** įtraukiate arba pašalinate turtą arba funkcines vietas, šis keitimas bus automatiškai atnaujintas **Visas turtas** > **Turto priežiūros planai** „FastTab“ arba **Visos funkcinės vietos** > **Priežiūros planai** „FastTab“.  
 
 Toliau pateiktame paveikslėlyje pateiktas priežiūros plano „Sunkvežimio priežiūra“ pavyzdys puslapyje **Priežiūros planai**.
 

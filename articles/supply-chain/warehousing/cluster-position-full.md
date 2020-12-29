@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016176"
+ms.locfileid: "4433953"
 ---
 # <a name="cluster-position-full"></a>Klasterio padėtis pilna
 
@@ -201,9 +201,9 @@ Turėjo būti sukurti du darbo ID, kurių kiekviename yra dvi paėmimo eilutės.
 1. Tinklelyje **Apžvalga** ieškokite dviejų pardavimo užsakymų, kuriuos sukūrėte, stulpelio **Užsakymo numeris**. Pasižymėkite kiekvieno pardavimo užsakymo atitinkamą darbo ID.
 1. Pasirinkite kiekvieno pardavimo užsakymo eilutę, kad tinklelyje **Eilutės** būtų rodoma susijusi informacija. Pasižymėkite kiekvienos prekės vietą, kur ji bus paimta.
 1. Eikite į **Atsargų valdymas \> Užklausos ir ataskaitos \> Turimas sąrašas**.
-1. Veiksmų srityje pasirinkite **Dimensijos** , kad būtų atidarytas dialogo langas **Dimensijų rodymas**.
-1. Patikrinkite, ar pažymėti žymės langeliai **Numerio lentelė** , **Sandėlis** ir **Prekės numeris** , tada pasirinkite **Gerai**.
-1. Srityje **Filtras** , nustatykite toliau nurodytus filtrus.
+1. Veiksmų srityje pasirinkite **Dimensijos**, kad būtų atidarytas dialogo langas **Dimensijų rodymas**.
+1. Patikrinkite, ar pažymėti žymės langeliai **Numerio lentelė**, **Sandėlis** ir **Prekės numeris**, tada pasirinkite **Gerai**.
+1. Srityje **Filtras**, nustatykite toliau nurodytus filtrus.
 
     - **Prekės numeris** – **vienas iš dviejų** – *L0101* arba *T100*
     - **Sandėlis** – **prasideda** – *61*
@@ -228,19 +228,19 @@ Turėjo būti sukurti du darbo ID, kurių kiekviename yra dvi paėmimo eilutės.
 
 Kadangi klasterio profilyje padėčių skaičius nustatytas į 2, sistema automatiškai nukreipia į pirmą konsoliduotąjį paėmimą: du prekės *L0101* padėklai (PL).
 
-Bet kuriuo toliau pateiktų veiksmų metu galite pasirinkti skirtuką **Išsami informacija** , norėdami peržiūrėti informaciją apie užduotį, pvz., paėmimo vietą.
+Bet kuriuo toliau pateiktų veiksmų metu galite pasirinkti skirtuką **Išsami informacija**, norėdami peržiūrėti informaciją apie užduotį, pvz., paėmimo vietą.
 
-1. Nustatykite lauką **PREKĖ** į *L0101*. Tai patvirtina prekės numerį, reikalingą šiam meniu elementui (tai sukonfigūravote anksčiau, pasirinkę **Darbo patvirtinimo sąranka** puslapyje **Mobiliojo įrenginio meniu elementas** , kurdami šį meniu elementą).
+1. Nustatykite lauką **PREKĖ** į *L0101*. Tai patvirtina prekės numerį, reikalingą šiam meniu elementui (tai sukonfigūravote anksčiau, pasirinkę **Darbo patvirtinimo sąranka** puslapyje **Mobiliojo įrenginio meniu elementas**, kurdami šį meniu elementą).
 1. Įveskite numerio lentelės numerį, susietą su preke, jos paėmimo vietoje. Pasiimsite du padėklus.
 1. Nustatykite lauką **LP** į *LP\_PAĖMIMAS\_01*.
 1. Pasirinkite **Gerai** (varnelės simbolis).
 
     Atidaromas puslapis **UŽDUOTIS. Rūšiavimas. Klasterio paėmimo kūrimas**. Jame rūšiuosite du paimamus padėklus į paėmimo padėtį. Ši padėtis gali būti krepšys ar konteineris, naudojamas atskirti paimamas atsargas pagal pardavimo užsakymą.
 
-1. Peržiūrėkite rodomą prekės ( *L0101* ) ir kiekio ( *20* vnt.) išsamią informaciją, kuri bus rūšiuojama į 1 padėtį (1 pardavimo užsakymo).
+1. Peržiūrėkite rodomą prekės (*L0101*) ir kiekio (*20* vnt.) išsamią informaciją, kuri bus rūšiuojama į 1 padėtį (1 pardavimo užsakymo).
 1. Nustatykite lauką **PADĖTIES PAVADINIMAS** į *1*.
 1. Pasirinkite **Gerai** (varnelės simbolis).
-1. Peržiūrėkite rodomą prekės ( *L0101* ) ir kiekio ( *20* vnt.) išsamią informaciją, kuri bus rūšiuojama į 2 padėtį (2 pardavimo užsakymo).
+1. Peržiūrėkite rodomą prekės (*L0101*) ir kiekio (*20* vnt.) išsamią informaciją, kuri bus rūšiuojama į 2 padėtį (2 pardavimo užsakymo).
 1. Nustatykite lauką **PADĖTIES PAVADINIMAS** į *2*.
 1. Pasirinkite **Gerai** (varnelės simbolis).
 
@@ -259,10 +259,10 @@ Pagal šį scenarijų 1 padėtis negali priimti viso prekių, kurias reikia paim
 1. Pasirinkite **Gerai** (varnelės simbolis).
 1. Įveskite numerio lentelę, iš kur prekė paimama, nustatydami lauką **LP** į *LPREPL04*.
 1. Pasirinkite **Gerai** (varnelės simbolis).
-1. Peržiūrėkite rodomą prekės ( *T0100* ) ir kiekio ( *2* vnt.) išsamią informaciją, kuri bus rūšiuojama į 2 padėtį (2 pardavimo užsakymo).
+1. Peržiūrėkite rodomą prekės (*T0100*) ir kiekio (*2* vnt.) išsamią informaciją, kuri bus rūšiuojama į 2 padėtį (2 pardavimo užsakymo).
 1. Nustatykite lauką **PADĖTIES PAVADINIMAS** į *2*.
 1. Pasirinkite **Gerai** (varnelės simbolis).
-1. Peržiūrėkite rodomą prekės ( *T0100* ) ir kiekio ( *2* vnt.) išsamią informaciją, kuri bus rūšiuojama į 1 padėtį (1 pardavimo užsakymo).
+1. Peržiūrėkite rodomą prekės (*T0100*) ir kiekio (*2* vnt.) išsamią informaciją, kuri bus rūšiuojama į 1 padėtį (1 pardavimo užsakymo).
 1. Nustatykite lauką **PADĖTIES PAVADINIMAS** į *1*.
 1. Pasirinkite **Gerai** (varnelės simbolis).
 
@@ -270,9 +270,9 @@ Pagal šį scenarijų 1 padėtis negali priimti viso prekių, kurias reikia paim
 
 Pagal šį scenarijų klasterio paėmimas užbaigiamas ir vartotojas nukreipiamas padėti paimamas 1 padėties ir 2 padėties prekes į surinkimo vietą *STAGE01*.
 
-1. Peržiūrėkite puslapio informaciją. Rodoma, kad bendras kiekis, kuris yra *44* , bus padėtas į surinkimo vietą.
+1. Peržiūrėkite puslapio informaciją. Rodoma, kad bendras kiekis, kuris yra *44*, bus padėtas į surinkimo vietą.
 1. Pasirinkite **Gerai** (varnelės simbolis).
 
     Bus pateiktas pranešimas „Klasteris užbaigtas”.
 
-Dabar galite naudoti meniu elementą **Pardavimo paėmimas** , norėdami paimti likusį kiekį. Tada galite naudoti meniu elementą **Pardavimo krovimas** , norėdami perkelti prekes iš surinkimo vietos į krovimo rampą.
+Dabar galite naudoti meniu elementą **Pardavimo paėmimas**, norėdami paimti likusį kiekį. Tada galite naudoti meniu elementą **Pardavimo krovimas**, norėdami perkelti prekes iš surinkimo vietos į krovimo rampą.

@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016267"
+ms.locfileid: "4433954"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Esamo svorio produktų apdorojimas naudojant sandėlio valdymą
 
@@ -30,7 +30,7 @@ ms.locfileid: "4016267"
 
 ## <a name="feature-exposure"></a>Funkcijos įjungimas
 
-Norėdami naudoti sandėlio valdymą esamo svorio produktams apdoroti, turite naudoti licencijos konfigūracijos raktą, kad įjungtumėte funkciją. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**. Tada skirtuke **Konfigūracijos raktai** išplėskite **Prekyba \> Sandėlio ir transportavimo valdymas** , tada pasirinkite žymės langelį **Esamas svoris sandėlyje**.
+Norėdami naudoti sandėlio valdymą esamo svorio produktams apdoroti, turite naudoti licencijos konfigūracijos raktą, kad įjungtumėte funkciją. Eikite į **Sistemos administravimas \> Sąranka \> Licencijos konfigūracija**. Tada skirtuke **Konfigūracijos raktai** išplėskite **Prekyba \> Sandėlio ir transportavimo valdymas**, tada pasirinkite žymės langelį **Esamas svoris sandėlyje**.
 
 > [!NOTE]
 > Licencijos konfigūracijos raktas **Sandėlio ir transportavimo valdymas** ir licencijos konfigūracijos raktai **Apdoroti paskirstymą \> Esamas svoris** turi būti įjungti. Norėdami nustatyti esamo svorio konfigūracijos raktus, taip pat turite įjungti funkciją naudodami darbo sritį **Funkcijų valdymas**. Pagrindinė funkcija, kurią reikia įjungti, yra **Esamo svorio produktų apdorojimas naudojant sandėlio valdymą**. Dvi susijusios, bet papildomos funkcijos, kurias galbūt norėsite įjungti, yra **Esamo svorio produktų atsargų būsenos keitimai** ir **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**.
@@ -97,21 +97,21 @@ Esamo svorio žymių sekimo procesas gali būti taikomas prekėms, kurių svoris
 
 Kitas svarbus parametras, susijęs su esamo svorio žymių apdorojimu, yra **Esamo svorio žymės dimensijos sekimo metodas**. Žymės gali būti iš dalies sekamos arba visiškai sekamos. Jei žymė yra iš dalies sekama, joje sekamos produkto dimensijos, sekimo dimensijos ir atsargų būsena. Jei žymė yra visiškai sekama, joje sekamos produkto dimensijos, sekimo dimensijos ir **visos** saugojimo dimensijos.
 
-Be to, kai prekė yra sekama pagal žymę, yra parametras **Siunčiamo žymės fiksavimo metodas**. Šį parametrą galima nustatyti taip, kad visada būtumėte įspėti apie siuntimo operacijų žymę mobiliajame įrenginyje. Taip pat galite nustatyti parametrą, kad būtumėte įspėti apie žymes tik tada, kai jų reikia. Pavyzdžiui, atsargose duotoje numerio lentelėje yra penkios esamo svorio žymės ir nurodėte, kad iš numerio lentelės norite paimti visas penkias žymes. Tokiu atveju, jei parametras **Siunčiamo žymės fiksavimo metodas** nustatytas kaip **Įspėti apie žymę, kai reikia** , penkios žymės automatiškai paimamos. Nereikia nuskaityti kiekvienos žymės. Jei parametras nustatytas kaip **Visada įspėti apie žymę** , turite nuskaityti kiekvieną žymę, net jei paimtos visos penkios žymės.
+Be to, kai prekė yra sekama pagal žymę, yra parametras **Siunčiamo žymės fiksavimo metodas**. Šį parametrą galima nustatyti taip, kad visada būtumėte įspėti apie siuntimo operacijų žymę mobiliajame įrenginyje. Taip pat galite nustatyti parametrą, kad būtumėte įspėti apie žymes tik tada, kai jų reikia. Pavyzdžiui, atsargose duotoje numerio lentelėje yra penkios esamo svorio žymės ir nurodėte, kad iš numerio lentelės norite paimti visas penkias žymes. Tokiu atveju, jei parametras **Siunčiamo žymės fiksavimo metodas** nustatytas kaip **Įspėti apie žymę, kai reikia**, penkios žymės automatiškai paimamos. Nereikia nuskaityti kiekvienos žymės. Jei parametras nustatytas kaip **Visada įspėti apie žymę**, turite nuskaityti kiekvieną žymę, net jei paimtos visos penkios žymės.
 
 > [!NOTE]
 > Paprastai, žymės fiksuojamos ir atnaujinamos tik iš mobiliojo įrenginio meniu elementų. Nepaisant to, yra keli scenarijai, pagal kuriuos žymės fiksuojamos kur nors kitur (pavyzdžiui, iš rankinio pakavimo stoties). Tačiau paprastai, mobiliojo įrenginio meniu elementai turėtų būti naudojami visose sandėlio veiklose, jei naudojamos žymės.
 
 ### <a name="how-to-capture-catch-weight"></a>Kaip užfiksuoti esamą svorį
 
-**Kai naudojamas esamo svorio žymės sekimas** ,, žymė visada turi būti sukurta ir priskirta kiekvienam gaunamam esamo svorio vienetui, o kiekviena žymė visada turi būti susieta su svoriu.
+**Kai naudojamas esamo svorio žymės sekimas**,, žymė visada turi būti sukurta ir priskirta kiekvienam gaunamam esamo svorio vienetui, o kiekviena žymė visada turi būti susieta su svoriu.
 
 Pvz., **Dėžė** yra esamo svorio vienetas ir jūs gaunate vieną aštuonių dėžių padėklą. Šiuo atveju turi būti sukurtos aštuonios unikalios esamo svorio žymės, o svoris turi būti susietas su kiekviena žyme. Priklausomai nuo gaunamų prekių esamo svorio žymės, galima užfiksuoti visų aštuonių dėžių svorį ir paskirstyti vidutinį svorį kiekvienai dėžei arba galima užfiksuoti unikalų kiekvienos dėžės svorį.
-Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti** , atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėlio programa neragina užfiksuoti esamo svorio žymių duomenis, priklausančius gamybos ataskaitai kaip užbaigtą operaciją.
+Mobiliojo įrenginio meniu elemente su įjungtu procesu naudojant funkciją **Naudoti esamas esamo svorio žymes pranešant, kad gamybos užsakymai yra baigti**, atsargos atnaujinamos atsižvelgiant į esamą esamo svorio žymės informaciją. Todėl sandėlio programa neragina užfiksuoti esamo svorio žymių duomenis, priklausančius gamybos ataskaitai kaip užbaigtą operaciją.
 
-**Kai esamo svorio žymės sekimas nenaudojamas** , svorį galima užfiksuoti kiekviename dimensijų rinkinyje (pvz., ir kiekvienoje numerio lentelėje ir sekimo dimensijoje). Taip pat svoris gali būti užfiksuotas sujungtu lygiu, pvz., kaip penkių numerių lentelių (padėklų) svoris.
+**Kai esamo svorio žymės sekimas nenaudojamas**, svorį galima užfiksuoti kiekviename dimensijų rinkinyje (pvz., ir kiekvienoje numerio lentelėje ir sekimo dimensijoje). Taip pat svoris gali būti užfiksuotas sujungtu lygiu, pvz., kaip penkių numerių lentelių (padėklų) svoris.
 
-Taikant metodus, skirtus fiksuoti siuntimo svorį, parinktis **Pagal esamo svorio vienetą** leidžia nurodyti, kad svėrimas turi būti atliktas su kiekvienu esamo svorio vienetu (pavyzdžiui, kiekviena dėže). Parinktis **Pagal paėmimo vienetą** leidžia nustatyti, kad svoris turi būti fiksuojamas pagal kiekį, kuris bus paimtas (pavyzdžiui, trys dėžės). Atkreipkite dėmesį, kad, jei bus naudojama parinktis **Neužfiksuotas** , gamybos eilutės išrinkimo ir vidinio judėjimo procesų metu bus naudojamas vidutinis svoris.
+Taikant metodus, skirtus fiksuoti siuntimo svorį, parinktis **Pagal esamo svorio vienetą** leidžia nurodyti, kad svėrimas turi būti atliktas su kiekvienu esamo svorio vienetu (pavyzdžiui, kiekviena dėže). Parinktis **Pagal paėmimo vienetą** leidžia nustatyti, kad svoris turi būti fiksuojamas pagal kiekį, kuris bus paimtas (pavyzdžiui, trys dėžės). Atkreipkite dėmesį, kad, jei bus naudojama parinktis **Neužfiksuotas**, gamybos eilutės išrinkimo ir vidinio judėjimo procesų metu bus naudojamas vidutinis svoris.
 
 Keli svorio fiksavimo metodai apibrėžiami pagal esamo svorio prekių tvarkymo strategiją. Kiekvieną svorio fiksavimo metodo parametrą naudoja įvairios operacijos. Šioje lentelėje apibendrinama, kuriuos parametrus naudoja operacijos.
 
@@ -124,7 +124,7 @@ Keli svorio fiksavimo metodai apibrėžiami pagal esamo svorio prekių tvarkymo 
 | Skaičiuojamo svorio fiksavimo metodas           | Inventorizacija                                   |
 | Sandėlio perdavimo svorio fiksavimo metodas | Perkėlimas sandėlyje                         |
 
-Siekiant apsaugoti sandėlio valdymo išrinkimo procesus, kad, fiksuojant svorius, nereikėtų koreguoti esamo svorio pelno / nuostolio, galite naudoti siunčiamo svorio nuokrypio metodą. Siunčiamo svorio nuokrypio metodas taikomas naudojant šiuos mobiliojo įrenginio procesus: pardavimo paėmimas, perdavimo paėmimas, gamybos paėmimas, judėjimas, skaičiavimas ir sandėlio perdavimai. Galite naudoti parinktį **Apriboti svorio nuokrypį** , jei esamo svorio prekės, kai ji saugoma sandėlyje, svoris svyruoja, ir jeigu nereikia koreguoti esamo svorio pelno / nuostolio. Galite naudoti parinktį **Leisti svorio nuokrypį** , jei svoris gali svyruoti ir jei reikia pakoreguoti esamo svorio pelną / nuostolius, kai įrašomas svorio svyravimas.
+Siekiant apsaugoti sandėlio valdymo išrinkimo procesus, kad, fiksuojant svorius, nereikėtų koreguoti esamo svorio pelno / nuostolio, galite naudoti siunčiamo svorio nuokrypio metodą. Siunčiamo svorio nuokrypio metodas taikomas naudojant šiuos mobiliojo įrenginio procesus: pardavimo paėmimas, perdavimo paėmimas, gamybos paėmimas, judėjimas, skaičiavimas ir sandėlio perdavimai. Galite naudoti parinktį **Apriboti svorio nuokrypį**, jei esamo svorio prekės, kai ji saugoma sandėlyje, svoris svyruoja, ir jeigu nereikia koreguoti esamo svorio pelno / nuostolio. Galite naudoti parinktį **Leisti svorio nuokrypį**, jei svoris gali svyruoti ir jei reikia pakoreguoti esamo svorio pelną / nuostolius, kai įrašomas svorio svyravimas.
 
 ## <a name="unsupported-scenarios"></a>Nepalaikomi scenarijai
 
@@ -209,4 +209,4 @@ Be apribojimų, kurie šiuo metu taikomi esamo svorio produktams, pažymėti esa
 - Atšaukimo darbo funkcija nepalaikoma esamo svorio prekėms, kurios sekamos pagal žymės numerį.
 
 > [!NOTE]
-> Ankstesnė informacija apie esamo svorio žymes galioja, tik jei esamo svorio produktui taikomas esamo svorio žymės dimensijos sekimo metodas, pagal kurį visiškai sekama (tai yra, jei parametras **Esamo svorio žymės dimensijos sekimo metodas** esamo svorio prekių tvarkymo strategijoje nustatytas kaip **Produkto dimensijos, sekimo dimensijos ir visos saugojimo dimensijos** ). Jei esamo svorio prekė tik iš dalies sekama pagal žymę (tai yra, parametras **Esamo svorio žymės dimensijos sekimo metodas** esamo svorio prekių tvarkymo strategijoje nustatytas kaip **Produkto dimensijos, sekimo dimensijos ir atsargų būsena** ), taikomi papildomi apribojimai Kadangi šiuo atveju prarastas matomumas tarp žymės ir atsargų, kai kurie papildomi scenarijai nepalaikomi.
+> Ankstesnė informacija apie esamo svorio žymes galioja, tik jei esamo svorio produktui taikomas esamo svorio žymės dimensijos sekimo metodas, pagal kurį visiškai sekama (tai yra, jei parametras **Esamo svorio žymės dimensijos sekimo metodas** esamo svorio prekių tvarkymo strategijoje nustatytas kaip **Produkto dimensijos, sekimo dimensijos ir visos saugojimo dimensijos**). Jei esamo svorio prekė tik iš dalies sekama pagal žymę (tai yra, parametras **Esamo svorio žymės dimensijos sekimo metodas** esamo svorio prekių tvarkymo strategijoje nustatytas kaip **Produkto dimensijos, sekimo dimensijos ir atsargų būsena**), taikomi papildomi apribojimai Kadangi šiuo atveju prarastas matomumas tarp žymės ir atsargų, kai kurie papildomi scenarijai nepalaikomi.

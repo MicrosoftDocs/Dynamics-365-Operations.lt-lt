@@ -17,11 +17,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 8f2b738fd87219be383b103eaf5fafeb971fc702
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895478"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433792"
 ---
 # <a name="dual-use-goods"></a>Dvigubo naudojimo prekės
 
@@ -68,7 +68,7 @@ Dvigubo panaudojimo prekės turi būti dažnai suskirstytos į kategorijas pagal
 
 Dviguvo panaudojimo kategorijų nustatymui, atlikite šiuos žingsnius.
 
-1. Eikite į**Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Dvigubo panaudojimo produktai \> Dvigubo panaudojimo kategorijos**.
+1. Eikite į **Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Dvigubo panaudojimo produktai \> Dvigubo panaudojimo kategorijos**.
 2. Pasirinkite esančią šalies kategoriją jos redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujos šalies kategoriją.
 3. Naujoje kategorije ar pasirinktoje kategorijoje nustatykite šias vertes:
 
@@ -94,7 +94,7 @@ Produkto kaip dvigubo panaudojimo prekės nustatymui ir dvigubo panaudojimo kate
 
 Naudojate **Dvigubo panaudojimo sertifikatų** puslapį, kad nustatytumėte ir valdytumėte būtinus dvigubo panaudojimo sertifikatus kiekvienam produktui ir šaliai. Galite sekti visų sertifikatų informaciją, tokių kaip šalies ir duomenų galiojimą. Galite taip pat nustatyti pasirinkimus tam, kad nurodytumėte, kur ši informacija turi būti atspausdinta. Pavyzdžiui, informacija gali būti atspausdinta sąskaitoje, pakavimo lipduke ir (arba) prekybos užsakyme. Šis nustatymas yra tikrinamas, kai kuriate prekybos užsakymą.
 
-1. Eikite į**Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Dvigubo panaudojimo produktai \> Dvigubo panaudojimo sertifikatai**.
+1. Eikite į **Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Dvigubo panaudojimo produktai \> Dvigubo panaudojimo sertifikatai**.
 2. Pasirinkite esančią sertifikato sąranką jos redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujo sertifikato sąranką.
 3. Naujam ar pasirinktam sertifikatui nustatykite šias vertes.
 

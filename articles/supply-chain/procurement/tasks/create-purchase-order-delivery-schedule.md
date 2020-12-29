@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9c4e8dca93fdf9ee605ffeb63f259389b58a4b36
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018241"
+ms.locfileid: "4433990"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Pirkimo užsakymo su pristatymo grafiku kūrimas
 
@@ -46,7 +46,7 @@ ms.locfileid: "4018241"
 - Lauke Pristatymo data pasirinkite datą, kuri yra viena savaite vėliau nei pirmosios pristatymo eilutės data.  
 - Sekti visą kiekį, paskirstytą pristatymo grafiko eilutėms, galite pažvelgę į laukus **Iš viso** ir **Liko**. Kai likęs kiekis yra nulis, grafikui paskirstytas visas pradinės eilutės kiekis.  
 12. Išplėskite skyrių **Išlaidų konvertavimas**.
-- Ši parinktis suteikia galimybę kontroliuoti, kaip norite išlaidas paskirstyti pristatymo grafiko eilutėse. Jei pasirenkate **Kopijuoti bendras sumas** , pradinės užsakymo eilutės išlaidų suma kopijuojama į kiekvieną pristatymo eilutę. Parinktis **Paskirstyti į pristatymo eilutes** pradinės eilutės išlaidas padalija pagal kiekį kiekvienoje pristatymo eilutėje.  
+- Ši parinktis suteikia galimybę kontroliuoti, kaip norite išlaidas paskirstyti pristatymo grafiko eilutėse. Jei pasirenkate **Kopijuoti bendras sumas**, pradinės užsakymo eilutės išlaidų suma kopijuojama į kiekvieną pristatymo eilutę. Parinktis **Paskirstyti į pristatymo eilutes** pradinės eilutės išlaidas padalija pagal kiekį kiekvienoje pristatymo eilutėje.  
 13. Suskleiskite sekciją **Išlaidų konvertavimas**.
 14. Pasirinkite **Gerai**.
 - Pristatymo grafikas dabar yra pritaikytas užsakymui.  
@@ -72,5 +72,5 @@ Pirkimo užsakymas turi būti patvirtintas, kad produkto gavimą būtų galima a
 5. Išplėskite skyrių **Eilutės**.
 - Atkreipkite dėmesį, kad kuriamas dviejų pristatymo eilučių, o ne pradinės užsakymo eilutės produkto gavimo kvitas. Jei gavimas užregistruotas sandėlyje, jis bus taip pat užregistruotas pristatymo grafiko eilutėse.  
 6. Sutraukite sekciją **Eilutės**.
-7. Spustelėkite **Gerai** , kad registruotumėte gavimą.
+7. Spustelėkite **Gerai**, kad registruotumėte gavimą.
 

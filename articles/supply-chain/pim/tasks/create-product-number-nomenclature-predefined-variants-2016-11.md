@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6871765a450295a3f308ec7e706f1b126071585f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986052"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433589"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Iš anksto nustatytų produkto variantų produkto numerių nomenklatūros kūrimas
 
@@ -35,7 +35,7 @@ ms.locfileid: "3986052"
 2. Pažymėkite **Produkto nomenklatūra**.
 3. Pasirinkite **Naujas**.
 4. Lauke **Pavadinimas** įveskite nomenklatūros pavadinimą, kuris padės identifikuoti tikslinę produkto matmenų grupę, pavyzdžiui, `ColorSize`.
-5. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Lauke **Aprašo laukas** surinkite reikšmę.
 6. Pasirinkite **Įtraukti**.
 7. Pažymėkite **Produkto pagrindinį** numerį.
 8. Pasirinkite **Įtraukti**.

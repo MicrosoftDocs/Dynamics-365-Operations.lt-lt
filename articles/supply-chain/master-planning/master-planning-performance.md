@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323651"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433811"
 ---
 # <a name="improve-master-planning-performance"></a>Bendrojo planavimo efektyvumo patobulinimas
 
@@ -40,7 +40,7 @@ ms.locfileid: "3323651"
 
 ### <a name="number-of-threads"></a>Gijų skaičius
 
-Parametru **Gijų skaičius**galite koreguoti bendrojo planavimo procesą, kad pagerintumėte konkretaus duomenų rinkinio našumą. Šis parametras nurodo bendrą gijų skaičių, kuris bus naudojamas vykdant bendrąjį planavimą. Jis sukelia bendrojo planavimo vykdymo lygiagretumą, o tai padeda sutrumpinti vykdymo laiką. 
+Parametru **Gijų skaičius** galite koreguoti bendrojo planavimo procesą, kad pagerintumėte konkretaus duomenų rinkinio našumą. Šis parametras nurodo bendrą gijų skaičių, kuris bus naudojamas vykdant bendrąjį planavimą. Jis sukelia bendrojo planavimo vykdymo lygiagretumą, o tai padeda sutrumpinti vykdymo laiką. 
 
 Parametrą **Gijų skaičius** galite nustatyti dialogo lange **Bendrojo planavimo vykdymas**. Norėdami atidaryti šį dialogo langą, pasirinkite **Bendrasis planavimas \> Bendrasis planavimas \> Vykdyti \> Bendrasis planavimas** arba pasirinkite **Vykdyti** darbo srityje **Bendrasis planavimas**. Norėdami nustatyti tinkamiausią šio parametro reikšmę, turite pasikliauti bandymų ir klaidų procesu. Tačiau, norėdami apskaičiuoti pradinę vertę, galite naudoti toliau nurodytas formules.
 

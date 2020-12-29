@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018542"
+ms.locfileid: "4434019"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Įsigijimo trikčių diagnostika ir šaltinio pasirinkimo darbo eigos
 
@@ -32,7 +32,7 @@ ms.locfileid: "4018542"
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Klaida iš naujo pateikiant pirkimo užsakymą darbo eigai po pakeitimo: „Pirkimo užsakymo X pakeitimai yra leidžiami tik juodraštyje, kai suaktyvinamas keitimų valdymas”
 
-Ši problema kyla tik tada, kai pirkimo užsakymo būsena buvo *Patvirtinta* dar prieš tai, kai pareikalavote pakeitimų. Jei pareikalaujate pakeitimų, kai pirkimo užsakymo būsena yra *Patvirtinta* , tada darbo eigą pavyks sėkmingai apdoroti.
+Ši problema kyla tik tada, kai pirkimo užsakymo būsena buvo *Patvirtinta* dar prieš tai, kai pareikalavote pakeitimų. Jei pareikalaujate pakeitimų, kai pirkimo užsakymo būsena yra *Patvirtinta*, tada darbo eigą pavyks sėkmingai apdoroti.
 
 ### <a name="error-description"></a>Klaidos aprašas
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Ši problema gali atsirasti dėl pirkimo užsakymo paskirstymų nenuoseklumo.
 
-Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis* , eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis*, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 Problema bus išspręsta naudojant [šį „Microsoft” žinių bazės (KB) straipsnį](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ Problema bus išspręsta naudojant [šį „Microsoft” žinių bazės (KB) str
 
 Ši problema gali atsirasti dėl pirkimo užsakymo paskirstymų nenuoseklumo.
 
-Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis* , eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Norėdami atblokuoti šią problemą ir iš naujo nustatyti pirkimo užsakymą į būseną *Juodraštis*, eikite į **Įsigijimas ir šaltinio pasirinkimas \> Periodinės užduotys \> Valymas \> Pirkimo užsakymo paskirstymo nustatymas iš naujo**. Norėdami gauti daugiau informacijos, peržiūrėkite šį tinklaraščio įrašą: [Pašalinti PO paskirstymo klaidas „Dynamics 365 Supply Chain Management”](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Jei pristatymo likutis atšaukiamas pirkimo užsakyme, kur įjungtas keitimų valdymas, pirkimo užsakymo būsena yra patvirtinta.
 
@@ -74,7 +74,7 @@ Jei tai turi atsispindėti pirkimo užsakymo patvirtinime, kiekis turi būti pak
 
 ### <a name="issue-description"></a>Problemos aprašas
 
-Atšaukus pirkimo užsakymus, kurių būsena buvo *Patvirtinta* , atšaukti pirkimo užsakymai vis dar rodomi **Pirkimo užsakymo paruošimo** darbo srities pirkimo užsakymų juodraščių sąraše.
+Atšaukus pirkimo užsakymus, kurių būsena buvo *Patvirtinta*, atšaukti pirkimo užsakymai vis dar rodomi **Pirkimo užsakymo paruošimo** darbo srities pirkimo užsakymų juodraščių sąraše.
 
 ### <a name="issue-resolution"></a>Problemos paaiškinimas
 

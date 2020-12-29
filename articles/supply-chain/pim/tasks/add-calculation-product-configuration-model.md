@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e703c6d505f1e2e77f454732301de7a6c130c58a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3986508"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433608"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>Įtraukti skaičiavimą į produktų konfigūravimo modelį
 
@@ -34,7 +34,7 @@ ms.locfileid: "3986508"
 
 ## <a name="create-calculation-expression"></a>Kurti skaičiavimo išraišką
 1. Spustelėkite Redaguoti išraišką.
-2. Lauke „ConstraintBody“ įveskite 'If[CabinetFinish=="White", 10, 15]'.
+2. Apribojimo teksto laukelyje įveskite „Jei[CabinetFinish=="White", 10, 15]'.
 3. Spustelėkite Tikrinti.
 4. Spustelėkite Uždaryti.
 5. Spustelėkite GERAI.

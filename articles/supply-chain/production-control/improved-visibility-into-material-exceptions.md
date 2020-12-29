@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016590"
+ms.locfileid: "4433940"
 ---
 # <a name="visibility-into-material-exceptions"></a>Medžiagų išimčių matomumas
 
@@ -34,7 +34,7 @@ Darbo srities **Gamybos vietos valdymas** trys plytelės suteikia galimybę geri
 - Neapdorotos bangos, į kurias reikia atkreipti dėmesį
 - Atidarytas sandėlio darbas, į kurį reikia atkreipti dėmesį
 
-Visose trijose plytelėse komplektavimo specifikacijos (KS) eilučių ir formulės eilučių žaliavų data lyginama su darbo srities data, taip pat su parinkčių **Gamybos vienetas** , **Išteklių grupė** ir **Išteklius** filtrais, kurie nustatyti meniu **Mano darbo vietos konfigūravimas**. Pagal numatytuosius parametrus darbo srities data yra nustatyta į dabartinę datą, bet ją galite koreguoti.
+Visose trijose plytelėse komplektavimo specifikacijos (KS) eilučių ir formulės eilučių žaliavų data lyginama su darbo srities data, taip pat su parinkčių **Gamybos vienetas**, **Išteklių grupė** ir **Išteklius** filtrais, kurie nustatyti meniu **Mano darbo vietos konfigūravimas**. Pagal numatytuosius parametrus darbo srities data yra nustatyta į dabartinę datą, bet ją galite koreguoti.
 
 Neišleistai KS eilutei arba formulės eilutei reikia skirti dėmesio, jei eilutės žaliavų data yra tokia pati arba ankstesnė nei darbo srities data, taip pat jei ji atitinka kriterijus, kurie nustatyti darbo srityje naudojant filtrus.
 

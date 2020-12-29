@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5849e3a8c3c619916c718032579d4fe6444fa49b
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889126"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433889"
 ---
 # <a name="maintenance-request-lifecycle-states"></a>Priežiūros užklausos ciklo būsenos
 
@@ -32,7 +32,7 @@ ms.locfileid: "3889126"
  
 
 
-Priežiūros užklausos ciklo būsenos nurodo etapus, kuriuose gali būti užklausa. Pavyzdžiui, **Sukurta**, **Aktyvi**ir **Baigta**. Kai priežiūros užklausa konvertuojama į darbo užsakymą, priežiūros užklausos ciklo būsena turėtų būti atnaujinta į **Baigta** arba **Uždaryta**, siekiant nurodyti, kad priežiūros užklausa yra nebeaktyvi. Sąrašo puslapyje **Visos priežiūros užklausos** galite matyti visas priežiūros užklausas, neatsižvelgiant į jų ciklo būseną.
+Priežiūros užklausos ciklo būsenos nurodo etapus, kuriuose gali būti užklausa. Pavyzdžiui, **Sukurta**, **Aktyvi** ir **Baigta**. Kai priežiūros užklausa konvertuojama į darbo užsakymą, priežiūros užklausos ciklo būsena turėtų būti atnaujinta į **Baigta** arba **Uždaryta**, siekiant nurodyti, kad priežiūros užklausa yra nebeaktyvi. Sąrašo puslapyje **Visos priežiūros užklausos** galite matyti visas priežiūros užklausas, neatsižvelgiant į jų ciklo būseną.
 
 ## <a name="set-up-maintenance-request-lifecycle-states"></a>Priežiūros užklausos ciklo būsenų nustatymas
 

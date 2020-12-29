@@ -17,11 +17,11 @@ ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017396"
+ms.locfileid: "4434009"
 ---
 # <a name="inventory-on-hand-list"></a>Turimų atsargų sąrašas
 
@@ -61,7 +61,7 @@ Kiekvienam sutinkančiam elementui, **Turimas** tinklelis pateikia tolesnius ats
 Naudokite **Filtrų** juostą tam, kad filtruotumėte turimų atsargų sąrašą taip, kad jis apimtų tik įrašus, kuriuose laukelio vertės atitinka filtravimo kriterijus. Filtro nustatymui, atlikite šiuos žingsnius.
 
 1.  **Filtrai** juostoje, suraskite laukelį, kurį norite filtruoti.
-2. Tolesniame laukelyje galutinio laukelio pavadinime, pasirinkite loginį operatorių (pavyzdžiui, *prasideda su* , *lygus* arba *didesnis nei* ).
+2. Tolesniame laukelyje galutinio laukelio pavadinime, pasirinkite loginį operatorių (pavyzdžiui, *prasideda su*, *lygus* arba *didesnis nei*).
 3. Įveskite ar pasirinkite vertę, kurios ieškote.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Naudokite **Filtrų** juostą tam, kad filtruotumėte turimų atsargų sąrašą
 
 Galite modifikuoti filtrų nustatymą, kuris yra prieinamas **Filtrų** juostoje tolesniais žingsniais.
 
-- Siekiant pašalinti filtrą iš juostos, pasirinkite jos **Uždarymo** mygtuką ( **X** ).
+- Siekiant pašalinti filtrą iš juostos, pasirinkite jos **Uždarymo** mygtuką (**X**).
 - Filtro įtraukimui, pasirinkite **Įtraukti** **Filtrų** juostos viršuje. **Įtraukti filtro laukelius** teksto laukelyje, kuris pasirodo, yra rodomas esamų laukelių sąrašas. Jis taip pat rodo informaciją apie duomenų tipą ir lentelę kiekvienam laukeliui. Naudokite stulpelio antraštę tam, kad filtruotumėte ir rūšiuotumėte sąrašą kaip reikia ir tuomet pasirinkite žymimą laukelį kiekvienam laukeliui, kurį norite įtraukti į **Filtro** juostą. Kai baigėte, pasirinkite **Įvesti** jūsų keitimų taikymui.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Pasirinkite rodomas dimensijas
@@ -87,7 +87,7 @@ Tam, kad tinkintumėte rodomų inventoriaus dimensijų pasirinkimą, atlikite š
     **Dimensijos rodymas** teksto laukelyje, kuris pasirodo, rodomos visos dimensijos.
 
 2. Pasirinkite žymimą laukelį kiekvienai dimensijai, kurią norite įtraukti į tinklelį.
-3. Jei norite, kad jūsų pasirinkimas būtų naudojamas kaip iš anksto nustatytas, kitą kartą kai atidarote **Turimų sąrašas** puslapį, nustatykite **Nustatymų įrašymo** parinktį į **Taip**. Jei nustatote šią parinktį į **Ne** , jūsų pasirinkimas bus naudojamas esamos sesijos metu. Kitą kartą, kai atidarote puslapį, bus naudojamas esamas nustatytasis pasirinkimas.
+3. Jei norite, kad jūsų pasirinkimas būtų naudojamas kaip iš anksto nustatytas, kitą kartą kai atidarote **Turimų sąrašas** puslapį, nustatykite **Nustatymų įrašymo** parinktį į **Taip**. Jei nustatote šią parinktį į **Ne**, jūsų pasirinkimas bus naudojamas esamos sesijos metu. Kitą kartą, kai atidarote puslapį, bus naudojamas esamas nustatytasis pasirinkimas.
 4. Pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį ir pritaikytumėte savo pakeitimus.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtruokite turimų atsargų sąrašo išorėje

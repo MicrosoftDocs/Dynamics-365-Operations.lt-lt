@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017083"
+ms.locfileid: "4433909"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Papildymas išėmimų „kanban“
 
@@ -54,7 +54,7 @@ Toliau pateiktame scenarijuje parodyta atgalinio planavimo papildymo sistema, ku
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Sandėlio darbo konfigūravimas „kanban“ paėmimui, skirtam išėmimo„kanban“
 
-Norėdami įgalinti žaliavų paėmimą išėmimo „kanban“, sukonfigūruokite bangos šablonus, darbo šablonus ir vietos nurodymus darbo užsakymo tipui **„Kanban“ paėmimas**. Šis darbo užsakymo tipas palaiko ne tik paėmimo procesą išėmimo „kanban“. Jis taip pat palaiko paėmimo procesą gamybos „kanban“. Tačiau galite konfigūruoti atskirą paėmimo procesą kiekvieno tipo „kanban“, atskirdami bangos šablonus, darbo šablonus ir vietos nurodymus. Norėdami atskirti bangos šablonus, darbo šablonus ir vietos nurodymus, nustatykite veiklos tipo kriterijus ( **Apdoroti** arba **Perkelti** ) šių objektų užklausose.
+Norėdami įgalinti žaliavų paėmimą išėmimo „kanban“, sukonfigūruokite bangos šablonus, darbo šablonus ir vietos nurodymus darbo užsakymo tipui **„Kanban“ paėmimas**. Šis darbo užsakymo tipas palaiko ne tik paėmimo procesą išėmimo „kanban“. Jis taip pat palaiko paėmimo procesą gamybos „kanban“. Tačiau galite konfigūruoti atskirą paėmimo procesą kiekvieno tipo „kanban“, atskirdami bangos šablonus, darbo šablonus ir vietos nurodymus. Norėdami atskirti bangos šablonus, darbo šablonus ir vietos nurodymus, nustatykite veiklos tipo kriterijus (**Apdoroti** arba **Perkelti**) šių objektų užklausose.
 
 ## <a name="configure-the-withdrawal-kanban"></a>Išėmimo „kanban“ konfigūravimas
 

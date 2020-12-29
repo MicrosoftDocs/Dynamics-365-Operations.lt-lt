@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015900"
+ms.locfileid: "4433971"
 ---
 # <a name="work-line-details"></a>Darbo eilutės informacija
 
@@ -68,7 +68,7 @@ Jei dirbate su **USMF** demonstraciniais duomenimis, pirmiausia turite įsitikin
 
 Atlikite šiuos veiksmus, norėdami patikrinti, ar yra pakankamai pasiekiamų atsargų ir visi reikalingi koregavimai yra atlikti.
 
-1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Vietos nurodymai** , sužinoti, kurios prekių paėmimų vietos yra naudojamos pardavimo užsakymo paėmimui 51 sandėlyje. (Daugiau informacijos rasite [Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus](control-warehouse-location-directives.md).)
+1. Pasirinkite **Sandėlio valdymas \> Nustatymas \> Vietos nurodymai**, sužinoti, kurios prekių paėmimų vietos yra naudojamos pardavimo užsakymo paėmimui 51 sandėlyje. (Daugiau informacijos rasite [Sandėlio darbo kontroliavimas naudojant darbo šablonus ir vietų nurodymus](control-warehouse-location-directives.md).)
 1. Tikrinti atsargų lygius atitinkamose vietose.
 1. Koreguoti atsargas kaip reikalinga. Jei reikia koreguoti atsargas, galite sukurti rankinius perkėlimus, naudoti papildymą arba pritaikyti bet kurį kitą srautą.
 
@@ -82,7 +82,7 @@ Norėdami sukurti paėmimo darbo užduotį, atlikite toliau nurodytus veiksmus.
 1. Pasirinkite **Nauja** dialogo langui **Sukurti pardavimų užsakymą** atidaryti.
 1. Dialogo lange **Sukurti pardavimo užsakymą** nustatykite šias vertes:
 
-    - „FastTab” skirtuke **Klientas** , nustatykite lauką **Kliento paskyra** į _US–001_.
+    - „FastTab” skirtuke **Klientas**, nustatykite lauką **Kliento paskyra** į _US–001_.
     - „FastTab“ skirtuke **Bendra** nustatykite lauką **Sandėlis** į _51_.
 
 1. Pasirinkite **Gerai** pirkimo užsakymui sukurti ir dialogo langui uždaryti.
@@ -98,8 +98,8 @@ Norėdami sukurti paėmimo darbo užduotį, atlikite toliau nurodytus veiksmus.
 1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Išleisti į sandėlį**. Sistema sukuria siuntą, įtraukia ją į naują krovinį ir sukuria reikiamą darbo užduotį.
 1. Sukurkite antrą pardavimo užsakymą, skirtą tai pačiai kliento sąskaitai ir sandėliui, kurį naudojote pirmajam užsakymui. Įtraukite šias dvi užsakymo eilutes į šį užsakymą:
 
-    - **1 eilutė:** Nustatykite lauką **Prekės numeris** į _M9200_ , lauką **Kiekis** į _25_ ir lauką **Vienetas** į _EA_.
-    - **2 eilutė:** Nustatykite lauką **Prekės numeris** į _M9202_ , lauką **Kiekis** į _10_ ir **Vienetas** lauką į _EA_.
+    - **1 eilutė:** Nustatykite lauką **Prekės numeris** į _M9200_, lauką **Kiekis** į _25_ ir lauką **Vienetas** į _EA_.
+    - **2 eilutė:** Nustatykite lauką **Prekės numeris** į _M9202_, lauką **Kiekis** į _10_ ir **Vienetas** lauką į _EA_.
 
 1. Pakartokite 6-8 veiksmus norėdami rezervuoti atsargas kiekvienai užsakymo eilutei (po vieną), tada pakartokite 9 veiksmą, užsakymui į sandėlį paleisti.
 
@@ -118,10 +118,10 @@ Norėdami sukurti paėmimo darbo užduotį, atlikite toliau nurodytus veiksmus.
 
 1. Pasirinkite **Sandėlio valdymas \> Darbas \> Darbo eilutės informacija**.
 1. Suraskite ir pasirinkite vieną iš darbo eilučių, kurias sukūrėte šiai parodomajai versijai. Atkreipkite dėmesį, kad galite atšaukti arba pakeisti tik tas darbo eilutes, kurių darbo tipas yra _paėmimas_.
-1. Pasirinkite **Atšaukti darbo eilutę** , kad būtų atidarytas dialogo langas **Atšaukti kiekį**.
+1. Pasirinkite **Atšaukti darbo eilutę**, kad būtų atidarytas dialogo langas **Atšaukti kiekį**.
 1. Dialogo lango **Atšaukiamas kiekis** lauke **Kiekis** nurodykite kiekį, kuris turi būti *atimamas iš* kiekio, šiuo metu nurodyto eilutėje. Pagal numatytuosius nustatymus lauke **Kiekis** rodomas visas kiekis.
 
-    - Jei atšaukiate visą kiekį, **Darbo būsenos** vertė bus pakeista į _Atšaukta_ , tačiau lauke **Darbo kiekis** vis tiek bus rodoma pradinė vertė.
+    - Jei atšaukiate visą kiekį, **Darbo būsenos** vertė bus pakeista į _Atšaukta_, tačiau lauke **Darbo kiekis** vis tiek bus rodoma pradinė vertė.
     - Jei atšaukiate tik dalį kiekio, laukas **Darbo kiekis** bus rodoma atnaujinta reikšmė,, tačiau laukas **Darbo statusas** nepasikeis.
 
 1. Norėdami pritaikyti pakeitimus ir uždaryti dialogo langą, pasirinkite **Gerai**.

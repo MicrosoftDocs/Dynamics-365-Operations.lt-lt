@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889846"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433700"
 ---
 # <a name="asset-management-parameters"></a>Turto valdymo parametrai
 
@@ -52,7 +52,7 @@ Turto valdymo srityje būtina nustatyti bendruosius parametrus, susijusius su tu
 
 - **Numatytasis darbo užsakymo tipas** apibrėžia standartinius parametrus kuriant darbo užsakymą.  
 - **Prevencinis darbo užsakymo tipas** apibrėžia darbo užsakymo tipą, naudojamą kuriant darbo užsakymus iš priežiūros planų. Jei šis laukas paliekamas tuščias, naudojamas lauke **Numatytasis darbo užsakymo tipas** esantis darbo užsakymo tipas.  
-- Lauke **Susijęs darbo užsakymo šablonas** nurodomas maksimalus darbo užsakymų, kurie gali būti susieti su darbo užsakymu, skaičius. Pavyzdžiui, ## leidžia naudoti iki 99 susietų darbo užsakymų. Jei apibrėžiate šabloną, kaip aprašyta čia, susiję darbo užsakymai bus sunumeruoti [darbo užsakymo, su kuriuo susietas darbo užsakymas, ID]-01, -02, -03 ir t. t. Jei šiame lauke neapibrėžiate šablono, susijęs darbo užsakymas gaus kitą nuoseklų darbo užsakymo ID.  
+- Lauke **Susijęs darbo užsakymo šablonas** nurodomas maksimalus darbo užsakymų, kurie gali būti susieti su darbo užsakymu, skaičius. Pavyzdžiui, ## leidžia naudoti iki 99 susietų darbo užsakymų. Jei nustatote kaip kaukę aprašytą čią, susiję darbų užsakymai bus suskaityti [darbo užsakymo ID darbo užsakymas, su kuriuo susijęs darbo užsakymas] -01, -02, -03 ir taip toliau. Jei šiame lauke neapibrėžiate šablono, susijęs darbo užsakymas gaus kitą nuoseklų darbo užsakymo ID.  
 - Mygtuke **Kopijuoti gedimus** pasirinkite **Taip**, jei norite automatiškai nukopijuoti klaidas, užregistruotas darbo užsakymuose, į susijusias priežiūros užklausas. 
 - Lauke **Lygis** galite apibrėžti funkcinės vietos lygį, kuris automatiškai įterpiamas į darbo užsakymą, jei visos susijusios darbo užsakymo užduotys nurodo tą pačią funkcinę vieta. Jei darbo užsakymo užduotys ne visos susijusios su ta pačia funkcine vieta apibrėžtame lygyje, darbo užsakymo laukas **Funkcinė vieta** paliekamas tuščias. Pavyzdžiui, jei šiame lauke įterpiate skaičių „1“, jis nurodo aukščiausią funkcinės vietos struktūros lygį. Jei šiame lauke įterpiate skaičių „0“, vadinasi nesate apibrėžę konkretaus funkcinės vietos lygio, o tik tai, kad visos darbo užsakymo užduotys turi būti susietos su ta pačia funkcine vieta, kurioje ta funkcinė vieta turi būti pridėta prie darbo užsakymo.  
 - Žurnalai, naudojami registruojant suvartojimą darbo užsakyme, gali būti pasirinkti FastTab **Bendra** laukuose **Valanda**, **Prekė** ir **Išlaidos**.  

@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7a71ea3983018b136d4fe3b22eadc0c332d2a698
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016452"
+ms.locfileid: "4433963"
 ---
 # <a name="set-up-shipping-carriers"></a>Siuntų vežėjų nustatymas
 
@@ -42,7 +42,7 @@ ms.locfileid: "4016452"
 1. Perjunkite skyriaus **Apžvalga** išplėtimą.
 2. Pažymėkite arba atžymėkite žymės langelį **Aktyvinti siuntų vežėją**.
 3. Lauke **Tiekėjo sąskaita** išplečiamajame meniu pažymėkite parinktį. Pasirinkite tiekėjo sąskaitą, kad priskirtumėte siuntų vežėjui.  
-4. Lauke **Transportavimo mokėjimo priemonės tipas** pažymėkite parinktį. Norėdami naudoti transportavimo mokėjimo priemonės puslapį pasirinkite **Neautomatinis** , o norėdami atnaujinti mokėjimo priemonę naudojant elektroninius duomenų mainus (EDI), pasirinkite **EDI**.  
+4. Lauke **Transportavimo mokėjimo priemonės tipas** pažymėkite parinktį. Norėdami naudoti transportavimo mokėjimo priemonės puslapį pasirinkite **Neautomatinis**, o norėdami atnaujinti mokėjimo priemonę naudojant elektroninius duomenų mainus (EDI), pasirinkite **EDI**.  
 5. Pažymėkite arba atžymėkite žymės langelį **Aktyvinti vežėjų vertinimą**.
 
 ## <a name="create-the-necessary-services-for-the-shipping-carrier"></a>Sukurti siuntų vežėjui būtinas paslaugas

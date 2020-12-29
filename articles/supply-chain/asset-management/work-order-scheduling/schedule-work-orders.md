@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888910"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433696"
 ---
 # <a name="schedule-work-orders"></a>Planuoti darbo užsakymus
 
@@ -88,7 +88,7 @@ Toliau pateiktuose pavyzdžiuose svarbos rezultatas yra „2“, o aptarnavimo l
 | WO-00010817   | Dvi dienos nuo dabar   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | „\- 15.75“   |
 | WO-00010818   | Dvi dienos nuo dabar   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | „\- 13“      |
 
-Darbo užsakymai bus suplanuoti šia tvarka: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+Darbo užsakymai bus suplanuoti šia tvarka: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **2 pavyzdys:**
 
@@ -98,7 +98,7 @@ Darbo užsakymai bus suplanuoti šia tvarka: WO-000108**16**, WO-000108**18**, W
 | WO-00010817   | Dvi dienos nuo dabar   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | „\- 11“    |
 | WO-00010818   | Dvi dienos nuo dabar   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Jei aptarnavimo lygio rezultatas padidinamas iki „100“ vietoje „5“, planavimo tvarka bus: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Jei aptarnavimo lygio rezultatas padidinamas iki „100“ vietoje „5“, planavimo tvarka bus: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 Vertinimo rezultatai, susiję su apskaičiavimu, kurie priežiūros darbuotojai turėtų dirbti vykdant darbo užsakymus, yra nustatyti kaip skaičiai, kurie įtraukiami į kiekvieną priežiūros darbuotojo skaičiavimą planuojant darbo užsakymą. Darbo užsakyme pasirenkamas priežiūros darbuotojas, kurio rezultatas yra didžiausias. Toliau pateiktas trumpas priežiūros darbuotojo rezultatų aprašas.
 

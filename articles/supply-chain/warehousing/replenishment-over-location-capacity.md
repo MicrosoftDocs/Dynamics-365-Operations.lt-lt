@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016613"
+ms.locfileid: "4433983"
 ---
 # <a name="replenishment-over-location-capacity"></a>Papildymas pagal vietos erdvę
 
@@ -228,7 +228,7 @@ Po to, kai atliksite visus anksčiau aprašytus pavyzdžio duomenis esančius ir
 1. **Peržiūros** skyriuje filtruokite **Sandėlio** stulpelį sandėliui *61*.
 1. Turėtumėte matyti, kad septynių darbų ID buvo sukurti trims prekybos užsakymų reikalavimams.
 
-    - Tris iš septynių darbo ID turi **Darbo užsakymo tipo** vertę *Papildymas* , o keturi turi **Darbo užsakymo tipo** vertę *Prekybos užsakymai*.
+    - Tris iš septynių darbo ID turi **Darbo užsakymo tipo** vertę *Papildymas*, o keturi turi **Darbo užsakymo tipo** vertę *Prekybos užsakymai*.
     - Visi trys darbo ID turintys **Darbo užsakymo tipo** vertę *Papildymas* turi tas pačias *Paėmimo* ir *Padėjimo* vietas **Eilučių** skyriuje:
 
         - **Paimti:** *02A01R5S1B*
@@ -255,7 +255,7 @@ Tam, kad rastumėte vėliau jums reikalingų licencijos numerių ID, atlikite š
 
 1. Pasirinkite **Taikyti**.
 1. Veiksmų juostoje, pasirinkite **Dimensijos**.
-1.  **Dimensijos rodymo** teksto laukelyje, **Dimensijų talpinimas** skyriuje pasirinkite visas vertes.
+1.  **Dimensijos rodymo** teksto laukelyje,**Dimensijų talpinimas** skyriuje pasirinkite visas vertes.
 1. **Perlaidos** skyriuje pasirinkite **Elemento numerį** ir **Kiekį \<\> 0**.
 1. Kai pabaigsite pasirinkite **Gerai** tam, kad uždarytumėte teksto laukelį.
 1. **Turimas** tinklelis rodo licencijos numerio numerius elementui *T0100* kiekvienoje vietoje. Atkreipkite dėmesį į licencijos numerį esantį kiekvienoje vietoje, nes jums šios informacijos reikės vėliau.
@@ -361,7 +361,7 @@ Prekybos užsakymas 2 yra užblokuotas dėl paėmimo, nes su juo susieta papildy
 
 Kai tik turimų atsargų kiekio paėmimo vietoje ir papildymo suma yra žemiau slenksčio, jūs galėsite apdoroti likusį papildymo darbą.
 
-Grįžkite į **Darbo išsamios informacijos** puslapį ir atkreipkite dėmesį, kad papildymo darbo prieinamumas galutinei papildymo daliai (prekybos užsakymui 2) yra *Atviras* , nes dabar yra pakankamai vietos vietoje, kad ji priimtų papildymą.
+Grįžkite į **Darbo išsamios informacijos** puslapį ir atkreipkite dėmesį, kad papildymo darbo prieinamumas galutinei papildymo daliai (prekybos užsakymui 2) yra *Atviras*, nes dabar yra pakankamai vietos vietoje, kad ji priimtų papildymą.
 
 Galite apdoroti šį papildymo darbą per mobilųjį įrenginį.
 

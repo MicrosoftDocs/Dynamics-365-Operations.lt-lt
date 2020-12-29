@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 948db1f7308896209e195613d50b1d66b807b1bf
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016844"
+ms.locfileid: "4433941"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Prekių skirstymas iš gamybos užsakymų į pakrovimo rampas
 
@@ -36,7 +36,7 @@ ms.locfileid: "4016844"
 
 Prekių skirstymas nuo gamybos iki siunčiamų prekių transportavimo vietos svarbus gamintojams, gaminantiems didelius kiekius prekių, kurie nori išsiųsti pabaigtus produktus iš karto, kai tik iš gamybos linijų gaunamas pranešimas, kad jie baigti. Tikslas yra išsiųsti produktus paskirstymo centrams, kurie įsikūrę netoli kliento poreikio, o ne kaupti atsargas gamybos vietoje.
 
-Jei nėra tiesioginės produkto paklausos, jis turi būti atidedamas gamybos vietos sandėlio vietose. Šis procesas taip pat vadinamas *Prekių skirstymas pagal aplinkybes* , kuris reiškia, kad, jei yra paklausa siųsti produktą, reikėtų pasinaudoti šia galimybe, o ne atidėti produktą saugoti vidinėje atmintyje.
+Jei nėra tiesioginės produkto paklausos, jis turi būti atidedamas gamybos vietos sandėlio vietose. Šis procesas taip pat vadinamas *Prekių skirstymas pagal aplinkybes*, kuris reiškia, kad, jei yra paklausa siųsti produktą, reikėtų pasinaudoti šia galimybe, o ne atidėti produktą saugoti vidinėje atmintyje.
 
 Toliau pateikiamame pavyzdyje nurodomi trys srauto, prasidedančio gamybos linijos (2) pabaigoje, variantai.
 
@@ -90,14 +90,14 @@ Nustatant prakių skirstymo strategiją taip pat nustatomas perkėlimo tvarkos p
 
 ### <a name="cross-docking-demand-requires-location"></a>Būtina nurodyti prekių skirstymo poreikio vietą
 
-Prekių skirstymo strategijoje galite nustatyti kriterijų, pagal kurį būtų reikalaujama, kad perkėlimo užsakymuose būtų nurodyta priskirta vieta, kad būtų galima atlikti prekių skirstymą. Šis kriterijus nustatytas lauke **Būtina nurodyti prekių skirstymo poreikio vietą**. Su kroviniu susietame paskyros grafike nurodyta vieta naudojama kaip galutinė skirstomų prekių vieta. Galutinė skirstomų prekių vieta nustatoma pagal darbo užsakymo tipo **Padėjimas** dalies **Perkėlimo išdavimas** vietos nurodymą. Gali būti naudinga nustatyti scenarijaus lauką **Būtina nurodyti prekių skirstymo poreikio vietą** , kuriame baigtos prekės turėtų būti skirstomos tik tada, jei įlankos durims priskirta priekaba. Tokiu atveju prekės perkeliamos tiesiogiai iš gamybos eilutės į priekabą. Įlankos durims priskyręs priekabą naudotojas priskirs paskyros grafiko vietą, todėl toje vietoje bus galima atlikti prekių skirstymą. Tolesniuose skyriuose išsamiai paaiškinami du pavyzdžiai.
+Prekių skirstymo strategijoje galite nustatyti kriterijų, pagal kurį būtų reikalaujama, kad perkėlimo užsakymuose būtų nurodyta priskirta vieta, kad būtų galima atlikti prekių skirstymą. Šis kriterijus nustatytas lauke **Būtina nurodyti prekių skirstymo poreikio vietą**. Su kroviniu susietame paskyros grafike nurodyta vieta naudojama kaip galutinė skirstomų prekių vieta. Galutinė skirstomų prekių vieta nustatoma pagal darbo užsakymo tipo **Padėjimas** dalies **Perkėlimo išdavimas** vietos nurodymą. Gali būti naudinga nustatyti scenarijaus lauką **Būtina nurodyti prekių skirstymo poreikio vietą**, kuriame baigtos prekės turėtų būti skirstomos tik tada, jei įlankos durims priskirta priekaba. Tokiu atveju prekės perkeliamos tiesiogiai iš gamybos eilutės į priekabą. Įlankos durims priskyręs priekabą naudotojas priskirs paskyros grafiko vietą, todėl toje vietoje bus galima atlikti prekių skirstymą. Tolesniuose skyriuose išsamiai paaiškinami du pavyzdžiai.
 
 #### <a name="scenario-1--cross-docking-from-production-to-transfer-orders"></a>1 scenarijus – Prekių skirstymas iš gamybos užsakymų į perkėlimo užsakymus
 
 Po to, kai produktas gamybos eilutėje paskeliamas baigtu, jis perkeliamas į įlankos durų vietą ir ten yra įkeliamas į sunkvežimį ir nugabenamas į paskirstymo centrą. Naudokite įmonės USMF.
 
 1.  Įgalinkite naują prekių skirstymo skaičių seką. Eikite į puslapį **Numeracijos** ir paspauskite mygtuką **Generuoti** . Vedlys padės jums atlikti šį procesą.
-2.  Sukurkite prekių skirstymo strategiją. Eikite į puslapį **Prekių skirstymo strategija** ir sukurkite naują strategiją pavadinimu **Perkėlimo užsakymo prekių skirstymas**. Atkreipkite dėmesį, kad galite pasirinkti tik vieną darbo užsakymo tipą – **Perkėlimo išdavimas** , o vienintelė galima prekių skirstymo strategija yra **Data ir laikas**.
+2.  Sukurkite prekių skirstymo strategiją. Eikite į puslapį **Prekių skirstymo strategija** ir sukurkite naują strategiją pavadinimu **Perkėlimo užsakymo prekių skirstymas**. Atkreipkite dėmesį, kad galite pasirinkti tik vieną darbo užsakymo tipą – **Perkėlimo išdavimas**, o vienintelė galima prekių skirstymo strategija yra **Data ir laikas**.
 3.  Sukurkite darbo strategiją. Eikite į puslapį **Darbo strategijos** ir sukurkite naują darbo strategiją pavadinimu **Paskirstymas L0101**.
 4.  Nustatykite, kad perkėlimo užsakymų kroviniai būtų kuriami automatiškai. Naudodami sandėlio parametrus nustatykite, kad sukūrus perkėlimo užsakymus kroriniai būtų kuriami automatiškai. Krovinys yra būtinoji sąlyga, kad perkėlimo užsakymą būtų galima naudoti prekių skirstymui.
 5.  Nustatykite prekių krovinio susiejimą. Eikite į puslapį **Prekių krovinio siejimas** ir nustatykite standartinį prekių grupės **CarAudio** krovinio šabloną. Atliekant šį susiejimą sukūrus perkėlimo užsakymą krovinio šablonas į krovinį bus įterpiamas automatiškai.
@@ -106,7 +106,7 @@ Po to, kai produktas gamybos eilutėje paskeliamas baigtu, jis perkeliamas į į
 8.  Sukurkite gamybos užsakymą. Eikite į sąrašo puslapį **Gamybos užsakymas** ir sukurkite produkto L0101 gamybos užsakymą. Kiekis = 20. Įvertinkite padėtį ir pradėkite vykdyti gamybos užsakymą. Atkreipkite dėmesį, kad ir toliau naudojama lauko **Registruoti išrinkimo dokumentą dabar** parinktis **Ne**.
 9.  Naudodamiesi mobiliuoju įrenginiu praneškite, kad baigta. Eikite į mobiliojo įrenginio portalą ir pasirinkite meniu elementą **Skelbimas baigtu ir atidėjimas**. Dabar naudodamiesi rankiniu įrenginiu praneškite, kad prekė L0101 baigta. Kiekis = 10. Atkreipkite dėmesį, kad padėjimo vieta yra **BAYDOOR**. Šią vietą galima naudojant darbo užsakymo tipo **Padėjimas** vietos direktyvą **Perkėlimo išdavimas**. Taip pat atkreipkite dėmesį, kad sukurtas ir užbaigtas darbas, kurio tipas **Perkėlimo išdavimas**. Detalizuodami perkėlimo užsakymo darbo informaciją patvirtinkite darbą.
 10. Dabar iš mobiliojo įrenginio praneškite apie papildomus 10 vienetų. Atkreipkite dėmesį, kad padėjimo vieta vėl yra **BAYDOOR**. Taip pat atkreipkite dėmesį, kad sukurtas naujas darbas, skirtas papildomiems 10 vienetų, kurio tipas **Perkėlimo išdavimas**.
-11. Dabar naudodami gamybos užsakymą pabandykite paleisti dar 20 vienetų, o po to naudodami rankinį įrenginį praneškite, kad 20 ae baigtas. Šį kartą vietą **LP-001** siūloma naudoti kaip atidavimo vietą. Šią vietą galima rasti naudojant dalies **Baigtų prekių atidėjimas** vietos nurodymą. Šis vietos nurodymas naudojamas todėl, kad nėra kitos prekių skirstymo galimybės. Prekės LP-001 perkėlimo užsakymas buvo visiškai įvykdytas atlikus dvi prekių skirstymo veiklas, nurodytas 9 ir 10 veiksmuose. Atkreipkite dėmesį, kad darbas, kurio tipas **Baigtų prekių atidėjimas** , buvo sukurtas ir apdorotas.
+11. Dabar naudodami gamybos užsakymą pabandykite paleisti dar 20 vienetų, o po to naudodami rankinį įrenginį praneškite, kad 20 ae baigtas. Šį kartą vietą **LP-001** siūloma naudoti kaip atidavimo vietą. Šią vietą galima rasti naudojant dalies **Baigtų prekių atidėjimas** vietos nurodymą. Šis vietos nurodymas naudojamas todėl, kad nėra kitos prekių skirstymo galimybės. Prekės LP-001 perkėlimo užsakymas buvo visiškai įvykdytas atlikus dvi prekių skirstymo veiklas, nurodytas 9 ir 10 veiksmuose. Atkreipkite dėmesį, kad darbas, kurio tipas **Baigtų prekių atidėjimas**, buvo sukurtas ir apdorotas.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>2 scenarijus – prekių skirstymas nuo gamybos iki perkėlimo užsakymų, kuriuose nurodytas paskyros grafikas
 
@@ -117,7 +117,7 @@ Po to, kai gamybos eilutėje pranešama, kad produktas yra baigtas, jis perkelia
 3.  Atidarykite dalį **Krovinio planavimo darbo sritis**.
 4.  Iš krovinio planavimo darbo srities eikite į skyrių **Kroviniai** ir meniu **Transportavimas** pasirinkę **Paskyros grafikas** sukurkite naują paskyros grafiką. Atkeipkite dėmesį, kad paskyros grafike yra nuoroda į lauke **Užsakymo numeris** nurodytą perkėlimo užsakymą. Lauke **Suplanuota pradžios data / laikas vietoje** galite nustatyti paskyros datą ir laiką. Šie data ir laikas bus naudojami, kai atliekant prekių skirstymo procesą prekių skirstymo poreikis tampa prioritetiniu. Pagal šiame lauke nustatytus datą ir laiką bus atnaujintas atitinkamo krovinio laukas **Suplanuota krovinio siuntimo data ir laikas**. Nuo „FastTab“ skirtuke **Siuntimo informacija** nurodytos vietos priklauso tai, į kokią vietą bus siunčiamas tas perkėlimo užsakymas.
 5.  Dalyje **Krovinio planavimo darbo sritis** paleiskite į sandėlį.
-6.  Sukurkite gamybos užsakymą, skirtą prekei, kurios numeris **L0101** , ir nustatykite būseną **Pradėta** , nurodydami kiekį 20.
+6.  Sukurkite gamybos užsakymą, skirtą prekei, kurios numeris **L0101**, ir nustatykite būseną **Pradėta**, nurodydami kiekį 20.
 7.  Naudodamiesi mobiliuoju įrenginiu praneškite, kad baigta.
 8.  Eikite į mobiliojo įrenginio portalą ir pasirinkite meniu elementą **Skelbimas baigtu ir atidėjimas**.
 9.  Naudodamiesi rankiniu įrenginiu paskelbkite, kad prekė **L0101** baigta. Atkreipkite dėmesį, kad dabar padėjimo vieta yra **BAYDOOR 2**. Šią vietą galima rasti paskyros grafike, o ne vietos nurodyme **Perkėlimo kvitas**.

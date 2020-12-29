@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6d0de588d54948d89f636cadeb66c3d9e6878015
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982874"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433837"
 ---
 # <a name="demand-forecasting-setup"></a>Poreikio prognozių nustatymas
 
@@ -84,8 +84,8 @@ Skirtuke **Paskirstymo raktai** galite nustatyti **prognozės algoritmo parametr
 - **Patikimumo lygis procentais**. Patikimumo intervalą sudaro reikšmės, kurios nurodo tinkamus poreikio prognozės įvertinimus. 95 procentų patikimumo lygio procentas nurodo 5 procentų tikimybę, kad ateities poreikis nepateks į patikimumo intervalo diapazoną.
 - **Priverstinis sezoniškumas**. Nurodo, ar reikia priverstinai naudoti modelį, kad būtų naudojamas tam tikras sezoniškumas. Tai taikoma tik pasirinktims ARIMA ir ETS. Pasirinktys: AUTO (numatytoji), NONE, ADDITIVE, MULTIPLICATIVE.
 - **Prognozės modelis**. Pasirinktys: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALL. Norėdami pasirinkti tinkamiausią modelį, naudokite pasirinktį **ALL**.
-- **Didžiausia prognozuota vertė**. Nurodo didžiausią vertę, kurią reikia naudoti prognozėje. Formatas: +1E[n] arba skaitinė konstanta.
-- **Mažiausia prognozuota vertė**. Nurodo mažiausią vertę, kurią reikia naudoti prognozėje. Formatas: ‑1E[n] arba skaitinė konstanta.
+- **Didžiausia prognozuota vertė**. Nurodo didžiausią vertę, kurią reikia naudoti prognozėje. Formatas: +1E[n] ar skaitinė konstanta.
+- **Mažiausia prognozuota vertė**. Nurodo mažiausią vertę, kurią reikia naudoti prognozėje. Formatas: -1E[n] ar skaitinė konstanta.
 - **Trūkstamos vertės pakaitalai**. Nurodo, kaip užpildomos praeities duomenų spragos. Pasirinktys: skaitinė vertė, MEAN, PREVIOUS, INTERPOLATE LINEAR, INTERPOLATE POLYNOMIAL.
 - **Trūkstamos vertės pakaitalų apimtis**. Nurodo, ar vertės keitimas taikomas tik kiekvienam atskiram duomenų diapazono detalumo atributui ar visam duomenų rinkiniui. Pasirinktys: GRANULARITY_ATTRIBUTE (numatytoji), GLOBAL.
 - **Užuomina apie sezoniškumą**. Jei naudojate sezoninius duomenis, pateikite prognozės modeliui užuominą, kad pagerintumėte prognozės tikslumą. Formatas: sveikasis skaičius, nurodantis poreikio kartojimosi šabloną. Pavyzdžiui, įvesdami 6 nurodykite duomenis, kurie kartojasi kas 6 mėnesius.

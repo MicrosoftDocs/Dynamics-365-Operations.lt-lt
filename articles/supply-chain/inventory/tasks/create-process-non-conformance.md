@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8bf20ed737707b7cf99023e3c78489caf4a68eab
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383624"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433857"
 ---
 # <a name="create-and-process-a-conformance"></a>Atitikimo kūrimas ir apdorojimas
 
@@ -54,7 +54,7 @@ ms.locfileid: "3383624"
 5. Pažymėkite **Pridėti**. Sukurkite pastabą apie koregavimą. Šiuo atveju veiksmas yra susisiekti su tiekėju ir aptarti neatitikties atvejį.  
 6. Pasirinkite **Naujas**.
 7. Pažymėkite **Pastaba**. Atsižvelgiant į ataskaitos sąranką, galima atspausdinti skirtingus ataskaitų, kurios susijusios su neatitikimų valdymu, dokumentų tipus.  
-8. Lauke **Aprašo laukas**surinkite reikšmę.
+8. Lauke **Aprašo laukas** surinkite reikšmę.
 9. Uždarykite puslapį.
 
 ## <a name="maintain-a-correction"></a>Koregavimo tvarkymas

@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015992"
+ms.locfileid: "4433932"
 ---
 # <a name="cycle-counting"></a>Ciklo skaičiavimas
 
@@ -110,7 +110,7 @@ Ciklo skaičiavimo darbą galima kurti tada, kai prekių skaičius neviršija ko
 Ciklo skaičiavimo planus galite nustatyti norėdami ciklo skaičiavimo darbą kurti nedelsiant arba reguliariai. Nustatydami ciklo skaičiavimo planus, galite valdyti darbo telkinį, kuriam sukurtas ciklo skaičiavimo darbas, maksimalų sukurtų skirtingose vietose esančių prekių ciklo skaičiavimų skaičių ir dienų skaičių, po kurio vėl skaičiuojama sandėlio vieta. Pavyzdžiui, prekė yra trijose sandėlio vietose ir maksimalus ciklo skaičiavimų skaičius nustatytas į **2**. Šiuo atveju, kai paleidžiate ciklo skaičiavimo planą, sukuriami du tų dviejų vietų, kuriose yra prekė, ciklo skaičiavimai. Kitas pavyzdys – dienų tarp ciklo skaičiavimų skaičių nustatote į **5**. Tokiu atveju ciklo skaičiavimo darbas sukuriamas kas penkias dienas. Tačiau jei ciklo skaičiavimo darbas apdorojamas 3 dieną, kitas ciklo skaičiavimo darbas bus sukurtas po penkių dienų nuo paskutinio ciklo skaičiavimo – 8 dieną.
 
 ## <a name="create-cycle-counting-work-manually"></a>Ciklo skaičiavimo darbo kūrimas rankiniu būdu
-Norėdami ciklo skaičiavimo darbą sukurti rankiniu būdu, galite naudoti puslapį **Ciklo skaičiavimo darbas pagal prekę** arba **Ciklo skaičiavimo darbas pagal vietą**. Galite nurodyti maksimalų kurtiną ciklo skaičiavimų skaičių. Pavyzdžiui, jei sandėlio vadovas nurodo reikšmę, lygią **5** , sukuriamas penkių vietų ciklo skaičiavimo darbas, net jei prekė yra 10-yje skirtingų vietų. Taip pat galite pasirinkti darbo telkinio ID ir jam priskirti sukurtus ciklo skaičiavimo darbo ID. Kai apdorojamas ciklo skaičiavimo darbo telkinio ID, šiam darbo telkiniui priskirti ciklo skaičiavimo darbo ID apdorojami kaip grupė.
+Norėdami ciklo skaičiavimo darbą sukurti rankiniu būdu, galite naudoti puslapį **Ciklo skaičiavimo darbas pagal prekę** arba **Ciklo skaičiavimo darbas pagal vietą**. Galite nurodyti maksimalų kurtiną ciklo skaičiavimų skaičių. Pavyzdžiui, jei sandėlio vadovas nurodo reikšmę, lygią **5**, sukuriamas penkių vietų ciklo skaičiavimo darbas, net jei prekė yra 10-yje skirtingų vietų. Taip pat galite pasirinkti darbo telkinio ID ir jam priskirti sukurtus ciklo skaičiavimo darbo ID. Kai apdorojamas ciklo skaičiavimo darbo telkinio ID, šiam darbo telkiniui priskirti ciklo skaičiavimo darbo ID apdorojami kaip grupė.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Ciklo skaičiavimo atlikimas naudojant mobilųjį įrenginį
 Ciklo skaičiavimo darbo apdorojimo naudojant „Supply Chain Management“ mobiliajame įrenginyje metodai yra keli.
@@ -124,13 +124,13 @@ Toliau pateiktu pavyzdžiu parodoma, kaip galima atlikti ciklo skaičiavimą vie
 
 1.  Mobiliajame įrenginyje pasirinkite meniu elementą, kad apdorotumėte ciklo skaičiavimo vietoje darbą.
 2.  Užregistruokite vietą, kurios ciklo skaičiavimą reikia atlikti.
-3.  Užregistruokite ir patvirtinkite prekės numerį ir suskaičiuotą prekės kiekį. **Pastaba.** Ciklo skaičiavimo darbo būsena atnaujinama į **Laukiama peržiūros** arba **Uždarytas** (puslapyje **Visi darbai** ), atsižvelgiant į puslapyje **Darbuotojas** nustatytus parametrus.
+3.  Užregistruokite ir patvirtinkite prekės numerį ir suskaičiuotą prekės kiekį. **Pastaba.** Ciklo skaičiavimo darbo būsena atnaujinama į **Laukiama peržiūros** arba **Uždarytas** (puslapyje **Visi darbai**), atsižvelgiant į puslapyje **Darbuotojas** nustatytus parametrus.
 4.  Pasirenkama: kartokite 3 veiksmą su likusiomis vietos prekėmis ir patvirtinkite, kad nėra papildomų prekių, kurias reikėtų suskaičiuoti.
 
 ## <a name="resolve-cycle-counting-differences"></a>Ciklo skaičiavimo skirtumų pašalinimas
-Jei darbo vartotojo ID parinktis **Yra ciklo skaičiavimo prižiūrėtojas** nustatyta į **Ne** , ciklo skaičiavimo skirtumas atsiranda toliau nurodytais atvejais.
+Jei darbo vartotojo ID parinktis **Yra ciklo skaičiavimo prižiūrėtojas** nustatyta į **Ne**, ciklo skaičiavimo skirtumas atsiranda toliau nurodytais atvejais.
 
--   Apskaičiuota reikšmė nėra nuokrypio ribose, nurodytose lauke **Maksimali procentinė riba** arba **Maksimali kiekio riba** (puslapyje **Darbo vartotojai** ). Pavyzdžiui, vietoje turimų atsargų kiekis yra 50, o darbo vartotojo nuokrypio riba yra 10. Jei darbo vartotojas įveda reikšmę, kuri nėra nuo 40 iki 60, fiksuojamas skirtumas.
+-   Apskaičiuota reikšmė nėra nuokrypio ribose, nurodytose lauke **Maksimali procentinė riba** arba **Maksimali kiekio riba** (puslapyje **Darbo vartotojai**). Pavyzdžiui, vietoje turimų atsargų kiekis yra 50, o darbo vartotojo nuokrypio riba yra 10. Jei darbo vartotojas įveda reikšmę, kuri nėra nuo 40 iki 60, fiksuojamas skirtumas.
 -   Apskaičiuota reikšmė skiriasi nuo turimų atsargų kiekio, o nuokrypio ribų nenustatyta.
 
 Koreguoti apskaičiuotos reikšmės skirtumus ir patvirtinti apskaičiuotą reikšmę galite puslapyje **Laukiantis peržiūros ciklo skaičiavimas**. Modifikuotą prekės kiekio skaičių patikrinti galite puslapyje **Turimos atsargos pagal vietą**. Apskaičiuota reikšmė atmetama, jei skirtumo patvirtinti negalima.

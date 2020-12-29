@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 20966291ce6297561514ce9d9f7e945859997351
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3205873"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433537"
 ---
 # <a name="create-a-procurement-catalog"></a>Įsigijimo katalogo kūrimas
 
@@ -40,7 +40,7 @@ ms.locfileid: "3205873"
 3. Lauke **Pavadinimas** įveskite reikšmę.
 4. Pasirinkite **Gerai**.
 5. Medyje išplėskite **CORP ĮSIGIJIMO KATEGORIJOS**.
-6. Medyje išplėskite**BIURO MAŠINOS**.
+6. Medyje išplėskite **BIURO MAŠINOS**.
 7. Medyje pasirinkite **Kompiuteriai**.
 
   - Sąraše rodomi įsigijimo kategorijos produktai. Jei į kategoriją norite įtraukti produktą, tai turite atlikti puslapyje **Įsigijimo kategorijų hierarchija** arba puslapyje **Prekės informacija**.  

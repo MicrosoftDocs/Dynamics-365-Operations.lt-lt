@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979507"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433639"
 ---
 # <a name="bom-designer-functionality"></a>KS kūrimo įrankio funkcija
 
@@ -96,7 +96,7 @@ KS konstruktoriaus antraštėje rodomas filtras, taikomas KS ir maršrutui. Gali
 Naudojant KS konstruktorių KS, kurias sudaro vieno ar kelių lygių fiktyvios eilutės, peržiūrėti arba redaguoti, maršrutas, susietas su aukšto lygio preke, paprastai apima visą KS hierarchiją. Norėdami supaprastinti peržiūrą galite užblokuoti aukščiausio lygio maršrutą ekrane spustelėdami **Peržiūra** &gt; **Blokuoti maršrutą**. Norėdami atblokuoti maršrutą, spustelėkite **Peržiūra** &gt; **Atblokuoti maršrutą**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>KS ir KS eilučių pridėjimas ir redagavimas
-KS eilutėms arba KS modifikuoti naudokite funkciją **KS eilutės**arba **KS**. Pasirinkus medžio mazgą, mazgo tipas nustato galimas funkcijas.
+KS eilutėms arba KS modifikuoti naudokite funkciją **KS eilutės** arba **KS**. Pasirinkus medžio mazgą, mazgo tipas nustato galimas funkcijas.
 
 | Funkcija                            | aprašymas                                                                                               | Mazgo tipas ir sąlygas                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

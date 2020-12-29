@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012494"
+ms.locfileid: "4433903"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Kaip darbuotojai naudoja gamybos cecho vykdymo sąsają
 
@@ -41,7 +41,7 @@ Likę šios temos skyriai apibūdina, kaip darbuotojai naudoja sąsają.
 
 ## <a name="all-jobs-tab"></a>Skirtukas Visos užduotys
 
-Skirtuke **Visos užduotys** pateikiamas užduočių sąrašas, kuriame nurodytos visos gamybos užduotys, kurių būsena yra *Nepradėta* , *Sustabdyta* arba *Pradėta*.
+Skirtuke **Visos užduotys** pateikiamas užduočių sąrašas, kuriame nurodytos visos gamybos užduotys, kurių būsena yra *Nepradėta*, *Sustabdyta* arba *Pradėta*.
 
 ![Skirtukas Visos užduotys](media/pfei-all-jobs-tab.png "Skirtukas Visos užduotys")
 
@@ -75,29 +75,29 @@ Skirtuko **Aktyvios užduotys** užduočių sąraše yra toliau pateikti stulpel
 
 ## <a name="starting-and-completing-production-jobs"></a>Gamybos užduočių pradžia ir pabaiga
 
-Darbuotojai pradeda gamybos užduotį, pasirinkdami užduotį skirtuke **Visos užduotys** ir tada pasirinkdami **Pradėti užduotį** , kad būtų atidarytas dialogo langas **Pradėti užduotį**.
+Darbuotojai pradeda gamybos užduotį, pasirinkdami užduotį skirtuke **Visos užduotys** ir tada pasirinkdami **Pradėti užduotį**, kad būtų atidarytas dialogo langas **Pradėti užduotį**.
 
 ![Dialogo langas Pradėti užduotį](media/pfei-start-job-dialog.png "Dialogo langas Pradėti užduotį")
 
-Darbuotojai naudoja dialogo langą **Pradėti užduotį** , kad patvirtintų gamybos kiekį ir pradėtų užduotį. Darbuotojai gali koreguoti kiekį pasirinkdami lauką **Kiekis** ir naudodami atsiradusią skaičių klaviatūrą. Tada darbuotojai pasirenka **Pradėti** , kad pradėtų dirbti su užduotimi. Dialogo langas **Pradėti užduotį** uždaromas, o užduotis įtraukiama į skirtuką **Aktyvios užduotys**.
+Darbuotojai naudoja dialogo langą **Pradėti užduotį**, kad patvirtintų gamybos kiekį ir pradėtų užduotį. Darbuotojai gali koreguoti kiekį pasirinkdami lauką **Kiekis** ir naudodami atsiradusią skaičių klaviatūrą. Tada darbuotojai pasirenka **Pradėti**, kad pradėtų dirbti su užduotimi. Dialogo langas **Pradėti užduotį** uždaromas, o užduotis įtraukiama į skirtuką **Aktyvios užduotys**.
 
-Darbuotojai gali pradėti bet kokios būsenos užduotį. Kai darbuotojas pradeda užduotį, kurios būsena yra *Nepradėta* , dialogo lango **Pradėti užduotį** lauke **Kiekis** iš pradžių rodomas visas kiekis. Kai darbuotojas pradeda užduotį, kurios būsena yra *Pradėta* arba *Sustabdyta* , lauke **Kiekis** iš pradžių rodomas likęs kiekis.
+Darbuotojai gali pradėti bet kokios būsenos užduotį. Kai darbuotojas pradeda užduotį, kurios būsena yra *Nepradėta*, dialogo lango **Pradėti užduotį** lauke **Kiekis** iš pradžių rodomas visas kiekis. Kai darbuotojas pradeda užduotį, kurios būsena yra *Pradėta* arba *Sustabdyta*, lauke **Kiekis** iš pradžių rodomas likęs kiekis.
 
 ## <a name="reporting-good-quantities"></a>Prekių kiekių ataskaitos
 
-Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti prekių kiekių, kurie buvo pagaminti, ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie eigą**. Tada dialogo lange **Teikti ataskaitą apie eigą** darbuotojas įveda prekių kiekį naudodamas skaičių klaviatūrą. Kiekio laukas pagal numatytuosius nustatymus yra tuščias. Įvedęs kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma* , *Sustabdyta* arba *Baigta*.
+Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti prekių kiekių, kurie buvo pagaminti, ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie eigą**. Tada dialogo lange **Teikti ataskaitą apie eigą** darbuotojas įveda prekių kiekį naudodamas skaičių klaviatūrą. Kiekio laukas pagal numatytuosius nustatymus yra tuščias. Įvedęs kiekį, darbuotojas gali atnaujinti užduoties būseną į *Vykdoma*, *Sustabdyta* arba *Baigta*.
 
 ![Dialogo langas Teikti ataskaitą apie eigą](media/pfei-report-progress-dialog.png "Dialogo langas Teikti ataskaitą apie eigą")
 
 ## <a name="reporting-scrap"></a>Atliekų ataskaitos
 
-Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti atliekų ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie atliekas**. Tada dialogo lange **Teikti ataskaitą apie atliekas** darbuotojas įveda atliekų kiekį naudodamas skaičių klaviatūrą. Darbuotojas taip pat pasirenka priežastį ( *Nėra* , *Įrenginys* , *Operatorius* arba *Medžiagos* ).
+Kai darbuotojas užbaigia arba iš dalies užbaigia užduotį, jis gali pateikti atliekų ataskaitą, pasirinkdamas užduotį skirtuke **Aktyvios užduotys** ir tada – **Teikti ataskaitą apie atliekas**. Tada dialogo lange **Teikti ataskaitą apie atliekas** darbuotojas įveda atliekų kiekį naudodamas skaičių klaviatūrą. Darbuotojas taip pat pasirenka priežastį (*Nėra*, *Įrenginys*, *Operatorius* arba *Medžiagos*).
 
 ![Dialogo langas Teikti ataskaitą apie atliekas](media/pfei-report-scrap-dialog.png "Dialogo langas Teikti ataskaitą apie atliekas")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Užduoties užbaigimas ir naujos užduoties pradėjimas
 
-Paprastai darbuotojai užbaigia užduotį pasirinkdami vieną ar daugiau dabartinių užduočių skirtuke **Aktyvios užduotys** ir tada pasirinkdami **Teikti ataskaitą apie eigą**. Tada jie įveda pagamintą kiekį (prekių kiekį) ir nustato būseną į *Baigta*. Jei pasirinkta daugiau nei viena užduotis, darbuotojas naudoja mygtukus **Ankstesnis** ir **Sekantis** , norėdamas pereiti nuo vienos prie kitos užduoties. Norėdamas sukurti naują užduotį, darbuotojas ją pasirenka skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**.
+Paprastai darbuotojai užbaigia užduotį pasirinkdami vieną ar daugiau dabartinių užduočių skirtuke **Aktyvios užduotys** ir tada pasirinkdami **Teikti ataskaitą apie eigą**. Tada jie įveda pagamintą kiekį (prekių kiekį) ir nustato būseną į *Baigta*. Jei pasirinkta daugiau nei viena užduotis, darbuotojas naudoja mygtukus **Ankstesnis** ir **Sekantis**, norėdamas pereiti nuo vienos prie kitos užduoties. Norėdamas sukurti naują užduotį, darbuotojas ją pasirenka skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**.
 
 Darbuotojas taip pat gali pradėti naują užduotį, kol ankstesnė užduotis vis dar atidaryta. Vėlgi, darbuotojas pasirenka naują užduotį skirtuke **Visos užduotys** ir tada pasirenka **Pradėti užduotį**. Tačiau šiuo atveju dialogo langas **Pradėti užduotį** praneša darbuotojui, kad jie šiuo metu dirba su užduotimi, todėl jie turi sustabdyti arba užbaigti tą užduotį prieš pradedami naują užduotį.
 
@@ -119,8 +119,8 @@ Netiesioginės veiklos yra veiklos, kurios nėra tiesiogiai susijusios su gamybo
 
 Pavyzdžiui, „Contoso” cecho darbuotoja Shannon nori dalyvauti įmonės susitikime, o susitikimai laikomi netiesiogine veikla. Taikomas vienas iš toliau pateiktų dviejų scenarijų.
 
-- **Shannon dirba su viena ar daugiau aktyvių užduočių.** Shannon pasirenka **Veikla** , nurodo veiklą (susitikimas) ir patvirtina pasirinkimą. Pasirodo pranešimas, kuriame pranešama, kad ji turi nebaigtų užduočių. Shannon gali pasirinkti užbaigti arba sustabdyti užduotis, su kuriomis ji dirba, prieš eidama į susitikimą.
-- **Shannon neturi aktyvių užduočių.** Shannon pasirenka **Veikla** , nurodo veiklą (susitikimas) ir patvirtina pasirinkimą. Dabar ji užregistruota kaip dalyvaujanti susitikime.
+- **Shannon dirba su viena ar daugiau aktyvių užduočių.** Shannon pasirenka **Veikla**, nurodo veiklą (susitikimas) ir patvirtina pasirinkimą. Pasirodo pranešimas, kuriame pranešama, kad ji turi nebaigtų užduočių. Shannon gali pasirinkti užbaigti arba sustabdyti užduotis, su kuriomis ji dirba, prieš eidama į susitikimą.
+- **Shannon neturi aktyvių užduočių.** Shannon pasirenka **Veikla**, nurodo veiklą (susitikimas) ir patvirtina pasirinkimą. Dabar ji užregistruota kaip dalyvaujanti susitikime.
 
 Abiem atvejais, kai Shannon patvirtina jos pasirinkimą, ji pereina prie prisijungimo puslapio arba puslapio, laukiančio, kol ji patvirtins, kad sugrįžo po netiesioginės veiklos. Atsiradęs puslapis priklauso nuo gamybos cecho vykdymo sąsajos konfigūracijos. (Daugiau informacijos žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).)
 
@@ -128,18 +128,18 @@ Abiem atvejais, kai Shannon patvirtina jos pasirinkimą, ji pereina prie prisiju
 
 Darbuotojai gali registruoti pertraukas. Pertraukas galima lanksčiai apibrėžti, kaip aprašyta [Apmokėjimas pagal registracijas](pay-based-on-registrations.md).
 
-Darbuotojas užregistruoja pertrauką pasirinkdamas **Pertrauka** , tada pasirinkdamas kortelę, vaizduojančią pertraukos tipą (pvz., pietūs). Darbuotojui patvirtinus pasirinkimą, įrenginys rodo prisijungimo puslapį arba puslapį, laukiantį, kol darbuotojas patvirtins, kad grįžo po pertraukos. Atsiradęs puslapis priklauso nuo gamybos cecho vykdymo sąsajos konfigūracijos. (Daugiau informacijos žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).)
+Darbuotojas užregistruoja pertrauką pasirinkdamas **Pertrauka**, tada pasirinkdamas kortelę, vaizduojančią pertraukos tipą (pvz., pietūs). Darbuotojui patvirtinus pasirinkimą, įrenginys rodo prisijungimo puslapį arba puslapį, laukiantį, kol darbuotojas patvirtins, kad grįžo po pertraukos. Atsiradęs puslapis priklauso nuo gamybos cecho vykdymo sąsajos konfigūracijos. (Daugiau informacijos žr. [Gamybos cecho vykdymo sąsajos konfigūravimas](production-floor-execution-configure.md).)
 
 ## <a name="opening-instructions"></a>Instrukcijų atidarymas
 
-Darbuotojai gali atidaryti dokumentą, pridėtą prie užduoties, pasirinkdami **Instrukcijos**. Mygtukas **Instrukcijos** pasiekiamas, jei dokumentas susietas su užduotimi bendruosiuose duomenyse. Pavyzdžiui, dokumentą, pridėtą prie produkto „Supply Chain Management” puslapyje **Išleisti produktai** , darbuotojai galės atidaryti cecho vykdymo sąsajoje.
+Darbuotojai gali atidaryti dokumentą, pridėtą prie užduoties, pasirinkdami **Instrukcijos**. Mygtukas **Instrukcijos** pasiekiamas, jei dokumentas susietas su užduotimi bendruosiuose duomenyse. Pavyzdžiui, dokumentą, pridėtą prie produkto „Supply Chain Management” puslapyje **Išleisti produktai**, darbuotojai galės atidaryti cecho vykdymo sąsajoje.
 
 ## <a name="opening-mixed-reality-guides-for-hololens"></a>„HoloLens” mišriosios realybės vadovų atidarymas
 
 [„Dynamics 365 Guides”](https://dynamics.microsoft.com/mixed-reality/guides/) gali padėti darbuotojams suteikdama praktinį mokymąsi, kurio metu naudojama mišrioji realybė. Galite apibrėžti standartinius procesus su nuosekliomis instrukcijomis, kurios padės jūsų darbuotojams naudoti reikalingus įrankius ir dalis bei suteiks informacijos, kaip naudoti šiuos įrankius realiose darbo situacijose. Toliau pateikta proceso apžvalga.
 
 1. Kiekvieną kartą, kai darbuotojas atidaro užduočių sąrašą cecho vykdymo sąsajoje, sąsaja randa visus atitinkamus vadovus rodomoms užduotims.
-1. Darbuotojas pasirenka **Vadovai** , norėdamas peržiūrėti vadovų sąrašą.
+1. Darbuotojas pasirenka **Vadovai**, norėdamas peržiūrėti vadovų sąrašą.
 1. Darbuotojas pasirenka atitinkamą vadovą sąraše.
 1. Cecho vykdymo sąsajoje rodomas pasirinkto vadovo QR kodas.
 1. Darbuotojas užsideda „HoloLens” ir žvilgteli į QR kodą, kad vadovas būtų pradėtas.

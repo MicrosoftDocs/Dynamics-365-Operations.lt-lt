@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982725"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433839"
 ---
 # <a name="coverage-settings"></a>Padengimo parametrai
 
@@ -40,7 +40,7 @@ Galite nurodyti padengimo parametrus keliais būdais:
 
 - Nurodykite produkto padengimo parametrus.
 
-    Galite sukurti konkretaus produkto padengimo parametrus. Eikite į **Produkto informacijos valdymas &gt; Produktai &gt; Patvirtinti produktai**. Pasirinkite produktą ir Veiksmų srities skirtuko **Planas** lauke **Padengimo** grupėje pasirinkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje**Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
+    Galite sukurti konkretaus produkto padengimo parametrus. Eikite į **Produkto informacijos valdymas &gt; Produktai &gt; Patvirtinti produktai**. Pasirinkite produktą ir Veiksmų srities skirtuko **Planas** lauke **Padengimo** grupėje pasirinkite **Prekės padengimas**, kad būtų atidarytas puslapis **Prekės padengimas**. Jei produktas jau susietas su padengimo grupe, galite nepaisyti padengimo grupės parametrų, naudodami lauką **Nepaisyti**. Padengimo parametrams puslapyje **Prekės padengimas** teikiama pirmenybė prieš parametrus puslapyje **Padengimo grupė**.
 
 - Nurodykite produkto padengimo parametrus naudodami vedlį.
 

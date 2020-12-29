@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017121"
+ms.locfileid: "4433915"
 ---
 # <a name="location-license-plate-positioning"></a>Vietos numerio lentelės padėtis
 
@@ -60,11 +60,11 @@ Funkcija turi būti įjungta kiekviename vietos, kurioje ji bus naudojama, profi
 
     - **Įjungti numerio lentelės padėtį:** *Taip*
 
-        Kai ši parinktis nustatyta į *Taip* , numerio lentelės pozicija bus išlaikyta vietos numerių lentelėse.
+        Kai ši parinktis nustatyta į *Taip*, numerio lentelės pozicija bus išlaikyta vietos numerių lentelėse.
 
     - **Rodyti mobiliojo įrenginio LP padėtį:** *Taip*
 
-        Kai parinktis nustatyta į *Taip* , numerio lentelės pozicija bus rodoma mobiliojo įrenginio vartotojams koreguojant ir skaičiuojant. Šią pasirinktį galima pakeisti tik tada, kai funkcija įjungta.
+        Kai parinktis nustatyta į *Taip*, numerio lentelės pozicija bus rodoma mobiliojo įrenginio vartotojams koreguojant ir skaičiuojant. Šią pasirinktį galima pakeisti tik tada, kai funkcija įjungta.
 
 1. Pasirinkite **Įrašyti**.
 
@@ -87,15 +87,15 @@ Funkcija turi būti įjungta kiekviename vietos, kurioje ji bus naudojama, profi
 1. Išplėskite **Vietos** lentelę sujungimą, kad parodytų sujungimą prie **Atsargų dimensijos** lentelės.
 1. Išplėskite **Atsargų dimensijos** lentelę sujungimą, kad parodytų sujungimą prie **Turimos atsargos** lentelės.
 1. Pasirinkite **Atsargų dimensijos** ir pasirinkite **Pridėti lentelės sujungimą**.
-1. Pasirodančiame lentelių sąraše **Ryšys** stulpelyje pasirinkite **Numerio lentelė (numerio lentelė)**. Tada pasirinkite **Pasirinkti** , kad į **Numerio lentelė** pridėtumėte **Atsargų dimensijos** lentelės sujungimą.
+1. Pasirodančiame lentelių sąraše **Ryšys** stulpelyje pasirinkite **Numerio lentelė (numerio lentelė)**. Tada pasirinkite **Pasirinkti**, kad į **Numerio lentelė** pridėtumėte **Atsargų dimensijos** lentelės sujungimą.
 1. Kol **Numerio lentelė** vis dar pasirinkta, pasirinkite **Pridėti lentelės sujungimą**.
-1. Pasirodančiame lentelių sąraše **Ryšys** stulpelyje pasirinkite **Vietos numerio lentelės nustatymas (numerio lentelė)**. Tada pasirinkite **Pasirinkti** , kad į **Vietos numerio lentelės nustatymas** pridėtumėte **Atsargų dimensijos** lentelės sujungimą.
+1. Pasirodančiame lentelių sąraše **Ryšys** stulpelyje pasirinkite **Vietos numerio lentelės nustatymas (numerio lentelė)**. Tada pasirinkite **Pasirinkti**, kad į **Vietos numerio lentelės nustatymas** pridėtumėte **Atsargų dimensijos** lentelės sujungimą.
 
     ![Lentelių sujungimai](media/LpTableJoin.png "Lentelių sujungimai")
 
-1. Pasirinkite **Gerai** , kad patvirtintumėte atnaujintus sujungtas lenteles ir uždarytumėte užklausos rengyklę.
-1. „FastTab“ skirtuke **Vietos nurodymų veiksmai** vėl pasirinkite **Redaguoti užklausą** , kad iš naujo atidarytumėte užklausos rengyklę.
-1. Skirtuke **Diapazonas** pasirinkite **Pridėti** , kad įtrauktumėte naują eilutę į tinklelį.
+1. Pasirinkite **Gerai**, kad patvirtintumėte atnaujintus sujungtas lenteles ir uždarytumėte užklausos rengyklę.
+1. „FastTab“ skirtuke **Vietos nurodymų veiksmai** vėl pasirinkite **Redaguoti užklausą**, kad iš naujo atidarytumėte užklausos rengyklę.
+1. Skirtuke **Diapazonas** pasirinkite **Pridėti**, kad įtrauktumėte naują eilutę į tinklelį.
 1. Naujoje eilutėje nustatykite šias reikšmes:
 
     - **Lentelė:** *Vietos numerio lentelės nustatymas*
@@ -105,11 +105,11 @@ Funkcija turi būti įjungta kiekviename vietos, kurioje ji bus naudojama, profi
 
     ![Naujas diapazonas](media/LpPositionCriteria.png "Naujas diapazonas")
 
-1. Pasirinkite **Gerai** , kad patvirtintumėte pakeitimus ir uždarytumėte užklausų rengyklę.
+1. Pasirinkite **Gerai**, kad patvirtintumėte pakeitimus ir uždarytumėte užklausų rengyklę.
 
 ### <a name="set-up-sample-data-for-this-scenario"></a>Nustatykite duomenų pavyzdį šiam scenarijui
 
-Šiam scenarijui vartotojas turi prisijungti prie sandėliavimo mobiliosios programėlės naudodamas darbuotoją, nustatytą sandėliui *61* , kad atliktų darbą. Vartotojas taip pat turi atlikti operacijas.
+Šiam scenarijui vartotojas turi prisijungti prie sandėliavimo mobiliosios programėlės naudodamas darbuotoją, nustatytą sandėliui *61*, kad atliktų darbą. Vartotojas taip pat turi atlikti operacijas.
 
 Kadangi *Vietos numerio lentelės nustatymas* funkcija prideda naują identifikatorių, skirtą numerių lentelių pozicijoms, vietoje, iš pradžių turite sukurti duomenų, kad šis scenarijus veiktų.
 
@@ -122,7 +122,7 @@ Kadangi *Vietos numerio lentelės nustatymas* funkcija prideda naują identifika
 
     Puslapyje rodoma jūsų įvesta vieta. Taip pat rodomas šis pranešimas: „vieta baigta, pridėti naują LP arba prekę?”
 
-1. Pasirinkite **Atnaujinti** , kad pridėtumėte vietą.
+1. Pasirinkite **Atnaujinti**, kad pridėtumėte vietą.
 1. **Ciklų skaičius: pridėti naują LP arba prekę** puslapyje pasirinkite **Prekė** lauką ir įveskite vertę *A0001*.
 1. Pasirinkite **Gerai**.
 1. **Ciklo skaičius: pridėti naują LP arba prekę** puslapyje pasirinkite **LP** lauką ir įveskite vertę *LP1001* (arba kitą jūsų pasirinktą numerio lentelės numerį).
@@ -138,7 +138,7 @@ Kadangi *Vietos numerio lentelės nustatymas* funkcija prideda naują identifika
 
     Puslapyje rodoma jūsų įvesta vieta. Taip pat rodomas šis pranešimas: „vieta baigta, pridėti naują LP arba prekę?”
 
-1. Pasirinkite **Atnaujinti** , kad pridėtumėte dar vieną skaičių vietoje.
+1. Pasirinkite **Atnaujinti**, kad pridėtumėte dar vieną skaičių vietoje.
 1. **Ciklų skaičius: pridėti naują LP arba prekę** puslapyje pasirinkite **Prekė** lauką ir įveskite vertę *A0002*.
 1. Pasirinkite **Gerai**.
 1. **Ciklų skaičius: pridėti naują LP arba prekę** puslapyje pasirinkite **LP** lauką ir įveskite vertę *LP1002* (arba bet kokį kitą savo pasirinktą numerio lentelės numerį, tik jei jis skiriasi nuo anksčiau nurodyto numerio lentelės numerio).
@@ -160,7 +160,7 @@ Dabar darbas baigtas.
 
     Puslapyje rodoma jūsų įvesta vieta. Taip pat rodomas šis pranešimas: „vieta baigta, pridėti naują LP arba prekę?”
 
-1. Pasirinkite **Atnaujinti** , kad pridėtumėte vietą.
+1. Pasirinkite **Atnaujinti**, kad pridėtumėte vietą.
 1. **Ciklų skaičius: pridėti naują LP arba prekę** puslapyje pasirinkite **Prekė** lauką ir įveskite vertę *A0002*.
 1. Pasirinkite **Gerai**.
 1. **Ciklų skaičius: pridėti naują LP arba prekę** puslapyje pasirinkite **LP** lauką ir įveskite vertę *LP1003* (arba bet kokį kitą savo pasirinktą numerio lentelės numerį, tik jei jis skiriasi nuo numerio lentelių numerių, anksčiau nurodytų ankstesnėje procedūroje).
@@ -193,13 +193,13 @@ Dabar darbas baigtas.
     Šioms eilutėms buvo sukurti du darbo ID. Reikia priimti abiejų šių darbų ID skaičiavimus.
 
 1. Tinklelyje pasirinkite pirmo darbo ID, skirtą *Ciklo skaičiavimas* darbo užsakymo tipui.
-1. Veiksmų srityje skirtuke **Darbas** , **Bendra** grupėje, pasirinkite **Ciklo skaičiavimas**.
+1. Veiksmų srityje skirtuke **Darbas**, **Bendra** grupėje, pasirinkite **Ciklo skaičiavimas**.
 
-    Rodomos dvi eilutės, po vieną kiekvienai prekei ir numerio lentelei. **Suskaičiuotas kiekis** vertės **Vieta** , **Numerio lentelė** ir **Prekė** laukų vertės turi sutapti su jūsų mobiliajame įrenginyje sukurtais skaičiavimų įrašais. Jei kuris nors iš šių laukų nematomas, pasirinkite **Rodyti dimensijas** Veiksmų srityje, kad pridėtumėte į tinklelį.
+    Rodomos dvi eilutės, po vieną kiekvienai prekei ir numerio lentelei. **Suskaičiuotas kiekis** vertės **Vieta**, **Numerio lentelė** ir **Prekė** laukų vertės turi sutapti su jūsų mobiliajame įrenginyje sukurtais skaičiavimų įrašais. Jei kuris nors iš šių laukų nematomas, pasirinkite **Rodyti dimensijas** Veiksmų srityje, kad pridėtumėte į tinklelį.
 
 1. Pasirinkite abi eilutes.
 1. Veiksmų srityje spustelėkite **Pridėti skaičiavimą**.
-1. Gaunate pranešimą „Registravimas – žurnalas”. Pasirinkite **Pranešimo išsami informacija** , kad peržiūrėtumėte užregistruotą žurnalo numerį.
+1. Gaunate pranešimą „Registravimas – žurnalas”. Pasirinkite **Pranešimo išsami informacija**, kad peržiūrėtumėte užregistruotą žurnalo numerį.
 1. Uždarykite pranešimo išsamią informaciją.
 1. Atnaujinkite **Darbas** puslapį.
 
@@ -211,13 +211,13 @@ Dabar darbas baigtas.
     Dabar priimsite darbą, skirtą numerio lentelei, esantį *01A01R1S2B* vietoje.
 
 1. **Apžvalga** skirtuke pasirinkite antrojo darbo ID, skirto *Ciklo skaičiavimas* darbo užsakymo tipui.
-1. Veiksmų srityje skirtuke **Darbas** , **Bendra** grupėje, pasirinkite **Ciklo skaičiavimas**.
+1. Veiksmų srityje skirtuke **Darbas**, **Bendra** grupėje, pasirinkite **Ciklo skaičiavimas**.
 
-    Rodoma prekės ir numerio lentelės viena eilutė. **Suskaičiuotas kiekis** vertės **Vieta** , **Numerio lentelė** ir **Prekė** laukų vertės turi sutapti su jūsų mobiliajame įrenginyje sukurtais skaičiavimų įrašais.
+    Rodoma prekės ir numerio lentelės viena eilutė. **Suskaičiuotas kiekis** vertės **Vieta**, **Numerio lentelė** ir **Prekė** laukų vertės turi sutapti su jūsų mobiliajame įrenginyje sukurtais skaičiavimų įrašais.
 
 1. Pasirinkite eilutę.
 1. Veiksmų srityje spustelėkite **Pridėti skaičiavimą**.
-1. Gaunate pranešimą „Registravimas – žurnalas”. Pasirinkite **Pranešimo išsami informacija** , kad peržiūrėtumėte užregistruotą žurnalo numerį.
+1. Gaunate pranešimą „Registravimas – žurnalas”. Pasirinkite **Pranešimo išsami informacija**, kad peržiūrėtumėte užregistruotą žurnalo numerį.
 1. Uždarykite pranešimo išsamią informaciją.
 1. Atnaujinkite **Darbas** puslapį.
 
@@ -237,12 +237,12 @@ Dabar darbas baigtas.
 
 1. Atkreipkite dėmesį, kad vieta *01A01R1S1B* turi dvi numerio lenteles:
 
-    - **A0001** , kur **LP pozicija** laukas nustatytas į *1*
-    - **A0002** , kur **LP pozicija** laukas nustatytas į *2*
+    - **A0001**, kur **LP pozicija** laukas nustatytas į *1*
+    - **A0002**, kur **LP pozicija** laukas nustatytas į *2*
 
 1. Atkreipkite dėmesį, kad vieta *01A01R1S2B* turi vieną numerio lentelę:
 
-    - **A0002** , kur **LP pozicija** laukas nustatytas į *1*
+    - **A0002**, kur **LP pozicija** laukas nustatytas į *1*
 
 ### <a name="sales-order-scenario"></a>Pardavimo užsakymo scenarijus
 
@@ -262,13 +262,13 @@ Dabar, kai *Vietos numerio lentelės nustatymas* funkcija nustatyta, o atsargos 
     - **Kiekis:** *1*
 
 1. Virš tinklelio esančiame meniu **Atsargos** pasirinkite **Rezervavimas**.
-1. **Rezervavimas** puslapyje, Veiksmų srityje, pasirinkite **Rezervuoti partiją** , kad užrezervuotumėte atsargas užsakymų eilutei.
+1. **Rezervavimas** puslapyje, Veiksmų srityje, pasirinkite **Rezervuoti partiją**, kad užrezervuotumėte atsargas užsakymų eilutei.
 1. Uždarykite **Rezervavimas** puslapį.
 1. Veiksmų srities skirtuke **Sandėlis** grupėje **Veiksmai** pasirinkite **Išleisti į sandėlį**.
 
     Gausite informacinį pranešimą, nurodantį bangos ID ir siuntos ID, sukurtus šiam užsakymui.
 
-1. **Pardavimo užsakymo eilutės** „FastTab” skirtuke, virš tinklelio esančiame meniu **Sandėlis** , pasirinkite **Darbo išsami informacija**.
+1. **Pardavimo užsakymo eilutės** „FastTab” skirtuke, virš tinklelio esančiame meniu **Sandėlis**, pasirinkite **Darbo išsami informacija**.
 1. **Darbas** puslapis pasirodo ir parodo pardavimų eilutei sukurtą darbą. Pasižymėkite rodomo darbo ID.
 
 ### <a name="sales-picking-scenario"></a>Pardavimo paėmimo scenarijus

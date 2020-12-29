@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018887"
+ms.locfileid: "4433920"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Įsigijimo ir šaltinio pasirinkimo apžvalga
 
@@ -35,15 +35,15 @@ ms.locfileid: "4018887"
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Produktų ir paslaugų poreikio nustatymas
 
-Produktų ar paslaugų poreikį gali lemti *paraiškos* , pvz., kai darbuotojui reikia produkto. Gali būti nustatyti *Produktų katalogai* , kad jiems padėtų pasirinkti galimus produktus, arba gali būti teikiamos produktų, kurių kataloge dar nėra, užklausos, tokiu būdu leidžiant padaliniui apsvarstyti produkto tiekimo galimybes.  
+Produktų ar paslaugų poreikį gali lemti *paraiškos*, pvz., kai darbuotojui reikia produkto. Gali būti nustatyti *Produktų katalogai*, kad jiems padėtų pasirinkti galimus produktus, arba gali būti teikiamos produktų, kurių kataloge dar nėra, užklausos, tokiu būdu leidžiant padaliniui apsvarstyti produkto tiekimo galimybes.  
 
 *Išlaidų limitai* gali būti naudojami paraiškos išlaidoms apriboti, o *pirkimo darbo eiga* suteikia galimybę prieš užsakymo vykdymą reikalauti patvirtinimo. Taip pat galima nurodyti biudžeto lėšų paskirstymą, jei reikia.  
 
 Įsigijimo padalinys identifikuoja reikiamų produktų ir paslaugų tiekėjus, o tai gali apimti *pasiūlymo patvirtinimo* siuntimą keliems potencialiems tiekėjams. Galima bendrai naudoti prašomo produkto specifikacijas ir tiekėjai gali jas matyti bei įvertinti, ar jie gali pristatyti produktą, atsižvelgdami į tas specifikacijas. Tiekėjai pateikia savo pasiūlymus, kuriuos įsigijimo padalinys tada peržiūri, o tada pasirenkamas tiekėjas, iš kurio norima įsigyti.  
 
-Pirkimo užsakymuose yra galimybė *pirkimo užklausą* tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas** , pirkimo užklausos funkcija išjungta. Užsakymas yra bendrai naudojamas portale **Tiekėjas** , todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  
+Pirkimo užsakymuose yra galimybė *pirkimo užklausą* tiekėjui siųsti kaip išsamesnio pirkimo pasiūlymo proceso alternatyvą. Pirkimo užklausą galima naudoti siekiant nustatyti sąlygas, pvz., kainas, nuolaidas ir užsakymo pristatymo datą. Jei nustatyta, kad tiekėjai gali naudoti portalą **Tiekėjas**, pirkimo užklausos funkcija išjungta. Užsakymas yra bendrai naudojamas portale **Tiekėjas**, todėl išsiuntus *patvirtinimo užklausą* tiekėjas gali tiesiogiai užsakymą patvirtinti.  
 
-*Tiekėjų katalogai* gali būti naudojami informacijai apie produktų asortimentą, kurį tiekėjai gali teikti, surinkti. Tiekėjai gali publikuoti savo katalogą, todėl katalogą naujinti lengviau. Prie produkto galima pridėti *patvirtintų tiekėjų sąrašą* , kuris atidarant naujus pirkimo užsakymus padėtų pasirinkti tiekėjus ir neleistų naudoti nepageidaujamų tiekėjų.
+*Tiekėjų katalogai* gali būti naudojami informacijai apie produktų asortimentą, kurį tiekėjai gali teikti, surinkti. Tiekėjai gali publikuoti savo katalogą, todėl katalogą naujinti lengviau. Prie produkto galima pridėti *patvirtintų tiekėjų sąrašą*, kuris atidarant naujus pirkimo užsakymus padėtų pasirinkti tiekėjus ir neleistų naudoti nepageidaujamų tiekėjų.
 
 ## <a name="procurement"></a>Įsigijimas
 
@@ -54,7 +54,7 @@ Pirkimo užsakymuose yra galimybė *pirkimo užklausą* tiekėjui siųsti kaip i
 - apdorojant pirkimo sutartis, kai pirkimo užsakymai kuriami kaip iš sutarčių išleisti užsakymai. Tai būdinga tada, kai bendrieji užsakymai sudaromi naudojant pirkimo sutartis;
 - neautomatiniu būdu, kai sukurtas pirkimo užsakymas nėra pagrįstas kitu dokumentu.
 
-Pirkimo užsakymai, sukonfigūruoti naudojant *pirkimo patvirtinimo darbo eigas* , turi būti patvirtinti prieš juos užregistruojant kaip patvirtintus, o tai reikia atlikti norint tęsti užsakymo apdorojimą.
+Pirkimo užsakymai, sukonfigūruoti naudojant *pirkimo patvirtinimo darbo eigas*, turi būti patvirtinti prieš juos užregistruojant kaip patvirtintus, o tai reikia atlikti norint tęsti užsakymo apdorojimą.
 
 Pirkimo užsakymai yra *patvirtinti* siekiant nustatyti, kad su tiekėju buvo sudaryta sutartis. Tada pirkimo užsakymas bus padorojamas palaipsniui keliais etapais, kol galiausiai bus išrašyta jo SF arba jis bus atšauktas.  
 
@@ -66,7 +66,7 @@ Kainos ir nuolaidos apima informaciją apie kainas, nuolaidas ir siūlomas grą�
 
 ### <a name="delivery-options"></a>Pristatymo parinktys
 
-Galima naudoti įvairias su pirkimo užsakymu susieto pristatymo proceso parinktis. Užsakytus produktus galima skaidyti į *pristatymo* grafikus, kai dalį užsakyto kiekio gali būti planuojama pristatyti skirtingu laiku. Pristatymas taip pat galia apimti pardavimo užsakymo inicijuojamą *tiesioginį pristatymą* ; pardavimo užsakyme generuojamas važtaraštis tuo pat metu, kai pardavimo užsakyme registruojamas produkto gavimo kvitas. Pirkimo užsakymai taip pat gali būti *vidinės įmonės užsakymų* grandinės dalis, dar vadinama vidinės įmonės pirkimo užsakymais, kai produktai yra užsakomi iš atitinkamo vidinės įmonės pardavimo užsakymo. Šiuo atveju kai kurie abiejų susijusių vidinės įmonės užsakymų veiksmai yra atliekami automatiškai.
+Galima naudoti įvairias su pirkimo užsakymu susieto pristatymo proceso parinktis. Užsakytus produktus galima skaidyti į *pristatymo* grafikus, kai dalį užsakyto kiekio gali būti planuojama pristatyti skirtingu laiku. Pristatymas taip pat galia apimti pardavimo užsakymo inicijuojamą *tiesioginį pristatymą*; pardavimo užsakyme generuojamas važtaraštis tuo pat metu, kai pardavimo užsakyme registruojamas produkto gavimo kvitas. Pirkimo užsakymai taip pat gali būti *vidinės įmonės užsakymų* grandinės dalis, dar vadinama vidinės įmonės pirkimo užsakymais, kai produktai yra užsakomi iš atitinkamo vidinės įmonės pardavimo užsakymo. Šiuo atveju kai kurie abiejų susijusių vidinės įmonės užsakymų veiksmai yra atliekami automatiškai.
 
 ### <a name="supplementary-items"></a>Papildomos prekės
 
@@ -84,7 +84,7 @@ Kai kurie pirkimo užsakymai apima produktus, kurie yra paslaugos arba kiti nefi
 
 Produktų gavimas gali lemti automatinį konkretaus tikslo suvartojimą. Tai apima netiesioginį suvartojimą ir tiesioginį pristatymą, į projektą orientuotą suvartojimą arba produkto kaip ilgalaikio turto apskaitą.  
 
-Iš tiekėjo gavus *tiekėjo SF* , pirmiausia ją galima įrašyti į *SF registrą* , nepriklausomai nuo pirkimo užsakymo, o vėliau pagal pirkimo užsakymą patvirtinti kaip įrašą. Tiekėjo SF su pirkimo užsakymu registravimas apima produkto gavimo kvito ir SF gretinimą.  
+Iš tiekėjo gavus *tiekėjo SF*, pirmiausia ją galima įrašyti į *SF registrą*, nepriklausomai nuo pirkimo užsakymo, o vėliau pagal pirkimo užsakymą patvirtinti kaip įrašą. Tiekėjo SF su pirkimo užsakymu registravimas apima produkto gavimo kvito ir SF gretinimą.  
 
 *Apskaitos paskirstymus* gali būti nustatyti pirkimo užsakyme, siekiant nurodyti, kaip vykdyti DK apskaitą, ir jie taip pat gali nurodyti, kaip gaunamas biudžeto lėšų paskirstymas, kai jis yra įtrauktas į jūsų konfigūraciją.  
 
@@ -92,4 +92,4 @@ Pirkimo užsakymai, kurių SF išrašytos, mokėtinų sumų įsipareigojimą įr
 
 ## <a name="vendor-performance"></a>Tiekėjo darbo našumas
 
-Pirkimo veikla ir peržiūra yra palaikoma naudojant *įsigijimo ir mokėtinų sumų ataskaitas* , kurios apima išlaidų analizę ir tiekėjo efektyvumo analizę.
+Pirkimo veikla ir peržiūra yra palaikoma naudojant *įsigijimo ir mokėtinų sumų ataskaitas*, kurios apima išlaidų analizę ir tiekėjo efektyvumo analizę.

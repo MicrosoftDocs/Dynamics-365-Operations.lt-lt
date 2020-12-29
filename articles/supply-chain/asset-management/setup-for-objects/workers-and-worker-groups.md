@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889894"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433497"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Priežiūros darbuotojai ir darbuotojų grupės
 
@@ -47,7 +47,7 @@ Taip pat galite kurti priežiūros darbuotojų grupes ir su jais susieti prieži
 
 5. „FastTab“ skirtuke **Grupės** pasirinkite **Pridėti**, tada darbuotojui parinkite priežiūros darbuotojų grupę. Pardavimo grupėje gali būti daugiau nei vienas darbuotojas.
 6. Naudojant standartinę konfigūraciją, darbuotojo narystė grupėje įsigalios ir niekada nebaigs galioti nuo tos dienos, kai pridėsite grupę. Ši data rodoma lauke **Galioja**. Norėdami matyti lauką **Galioja** pasirinkite **Peržiūrėti** \> **Visi**. Jei darbuotojo narystė grupėje turėtų būti apribota tam tikram laikotarpiui, norėdami nustatyti periodą, naudokite laukus **Galiojantis** ir **Galiojimo pabaiga**.
-7. „FastTab“ skirtuke **Funkcinės vietovės** pasirinkite **Pridėti**ir pasirinkite priežiūros darbuotojo funkcinę grupę. Taip pat nurodykite, kuri vietovė yra pirminė darbuotojo funkcinė vietovė.
+7. „FastTab“ skirtuke **Funkcinės vietovės** pasirinkite **Pridėti** ir pasirinkite priežiūros darbuotojo funkcinę grupę. Taip pat nurodykite, kuri vietovė yra pirminė darbuotojo funkcinė vietovė.
 
     > [!NOTE]
     > Kai darbuotojui pridedate funkcinę vietovę, visas aktyvus turtas, kuris yra susijęs su tomis funkcinėmis vietovėmis, rodomas įvairiuose meniu elementuose, tokiuose kaip **Mano aktyvus turtas** ir **Mano aktyvios funkcinės vietovės**. Jie taip pat rodomi turto peržvalgose, atsirandančiose kuriant naują turtą, priežiūros užklausą arba darbo užsakymą.
@@ -60,7 +60,7 @@ Taip pat galite kurti priežiūros darbuotojų grupes ir su jais susieti prieži
 2. Spustelėkit **Naujas**, norėdami į sąrašą įtraukti naują darbuotoją.
 3. Lauke **Priežiūros darbuotojų grupė** įveskite grupės ID.
 4. Tada lauke **Pavadinimas** įveskite pavadinimą.
-5. „FastTab“ skirtuke **Darbuotojai** pasirinkite **Pridėti**ir darbuotojų grupei pasirinkite priežiūros darbuotoją. Norėdami sužinoti apie laukus **Galiojantis** ir **Galiojimo pabaiga**, žiūrėkite ankstesnės procedūros 6 veiksmą.
+5. „FastTab“ skirtuke **Darbuotojai** pasirinkite **Pridėti** ir darbuotojų grupei pasirinkite priežiūros darbuotoją. Norėdami sužinoti apie laukus **Galiojantis** ir **Galiojimo pabaiga**, žiūrėkite ankstesnės procedūros 6 veiksmą.
 6. Jei išteklių grupė turėtų būti susieta su pasirinkta priežiūros darbuotojų grupe, pasirinkite **Kopijuoti iš išteklių grupės**. Lauke **Grupė** pasirinkite išteklių grupę, iš kurios kopijuosite kalendoriaus parametrus. Po to, lauke **Darbuotojų grupė** pasirinkite darbuotojų grupę, kad į ją nukopijuotumėte išteklių grupės kalendoriaus parametrus. Šis veiksmas svarbus tik tada, kai norite, kad planuojant darbo užsakymą, priežiūros darbuotojai galėtų naudoti su ištekliumi (darbo centru) susijusį kalendorių.
 
     „FastTab“ skirtuko **Informacija** lauke nurodomas priežiūros darbuotojų, kurie buvo pridėti į pasirinktą darbuotojų grupę, skaičius.

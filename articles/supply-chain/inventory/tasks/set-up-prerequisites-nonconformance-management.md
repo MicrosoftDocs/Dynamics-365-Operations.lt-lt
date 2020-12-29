@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8c4de822dcda604241416165a961e4b0bacaeb5b
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3213945"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433850"
 ---
 # <a name="set-up-prerequisites-for-nonconformance-management"></a>Neatitikimo valdymo būtinųjų sąlygų nustatymas
 
@@ -50,25 +50,25 @@ ms.locfileid: "3213945"
 1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Diagnozės tipai**. Naudodami puslapį **Diagnozės tipai** nurodykite diagnostikos veiksmų klasifikaciją. Koregavimu identifikuojama, kurio diagnostinio veiksmo turi būti imtasi, atsiradus patvirtintai neatitikčiai, kas turėtų jį atlikti bei pageidaujamą ir planuojamą baigimo datą.  
 2. Pasirinkite **Naujas**.
 3. Lauke **Diagnostika** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 
 ## <a name="define-quality-charges-for-nonconformance-processing"></a>Neatitikčių apdorojimo kokybės išlaidų apibrėžimas
 1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Kokybės išlaidos**. Norėdami nustatyti išlaidų klasifikaciją, kuri bus naudojama su neatitikimais susijusiose operacijose, naudokite puslapį **Kokybės išlaidos**.  
 2. Pasirinkite **Naujas**.
 3. Lauke **Kokybės išlaidos** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 
 ## <a name="define-the-operations-for-nonconformance-processing"></a>Neatitikčių apdorojimo operacijų apibrėžimas
 1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Operacijos**. Norėdami nustatyti darbo, kuris gali būti atliekamas dėl patvirtinto neatitikimo, klasifikaciją, naudokite puslapį **Operacijos**. Susiję operaciją su neatitiktimi galite nurodyti informaciją apie susijusią medžiagą, darbo valandas ir papildomas išlaidas, būtinas atliekant operaciją. Šia informacija bus remiamasi skaičiuojant operacijos atlikimo numatytas išlaidas.  
 2. Pasirinkite **Naujas**.
 3. Lauke **Operacija** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 
 ## <a name="define-problem-types-for-nonconformance-processing"></a>Neatitikčių apdorojimo problemų tipų apibrėžimas
 1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Problemų tipai**. Norėdami nustatyti kokybės problemų, su kuriomis susiduriama esant įvairių tipų neatitikimams, klasifikaciją, naudokite puslapį **Problemų tipai**. Neatitikimų tipai gali būti: **Vidaus**, **Klientas**, **Tiekėjas**, **Aptarnavimo užklausa**, **Gamyba** ir **Sudėtinio produkto gamyba**. Vieną problemos tipą galima susieti su keliais neatitikčių tipais.  
 2. Pasirinkite **Naujas**.
 3. Lauke **Problemos tipas** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Pasirinkite **Neatitikimų tipai**. Naudokite puslapį **Neatitikimų tipai**, kad problemos tipą leistumėte naudoti vienam arba daugiau neatitikimų tipų. Pavyzdžiui, problemos, susijusios su defekto kodu, tipas gali būti taikomas visiems neatitikimų tipams, tuo tarpu problemos, susijusios su klientų skundais, tipas gali būti taikomas tik klientų ir aptarnavimo užklausų neatitikimų tipams.  
 6. Pasirinkite **Naujas**.
 7. Naujos eilutės lauke **Neatitikimo tipas** pasirinkite parinktį.
@@ -77,6 +77,6 @@ ms.locfileid: "3213945"
 1. Naršymo srityje eikite į **Moduliai > Atsargų valdymas > Sąranka > Kokybės valdymas > Sulaikymo zonos**.
 2. Pasirinkite **Naujas**.
 3. Lauke **Sulaikymo zona** įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Uždarykite puslapį.
 

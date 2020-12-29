@@ -3,12 +3,12 @@ title: Pagrindinių tarifų nustatymas
 description: Ši procedūra nurodo, kaip nustatyti pagrindinį tarifą.
 author: ShylaThompson
 manager: tfehr
-ms.date: 11/11/2016
+ms.date: 10/16/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: TMSRouteWorkbench, TMSRateMaster, TMSRateBaseType
+ms.search.form: TMSBreakMaster,TMSRateMaster,TMSRateMasterBase,TMSRateBaseType, TMSRouteWorkbench
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Operations
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72d71aa15f8cec532980f412ff1cb48e142c4cb1
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: b4cca9fd47a5d8c81d7b8a913d0a467bc113b584
+ms.sourcegitcommit: fe7ac653efcb1ac6318083f482394b96ed82b4c7
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016475"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4434055"
 ---
 # <a name="set-up-rate-masters"></a>Pagrindinių tarifų nustatymas
 
@@ -30,58 +30,70 @@ ms.locfileid: "4016475"
 
 Ši procedūra nurodo, kaip nustatyti pagrindinį tarifą. Pagrindinius tarifus paprastai nustato logistikos vadovas atsižvelgdamas į su vežėjais pasirašytas sutartis. Šiame scenarijuje nustatysite pagrindinį tarifą oro vežėjui. Kuriant šią procedūrą naudojama demonstracinių duomenų įmonė yra USMF.
 
+## <a name="set-up-break-master"></a>Nustatykite pertrūkio pagrindinius duomenis
+
+1. Eikite į **Gabenimo valdymas > Nustatymai > Reitingavimas > Pagrindinių duomenų pertraukimas**. Bendrosios ribos naudojamos kainodaros struktūrai ir jos ribiniams taškams apibrėžti. Kainodaros struktūra naudoja pakopinę kainodarą, paremtą faktiniais matmenimis.  
+1. Pasirinkite **Naujas**.
+1. Laukelyje **Pagrindinių duomenų pertraukimas** įveskite vertę.
+1. Lauke **Pavadinimas** įveskite reikšmę.
+1. Laukelyje **Duomenų tipas** pasirinkite duomenų tipą.
+1. Laukelyje **Palyginimas** įveskite būtiną palyginimo tipą (naudodami operatorius).
+1. Laukelyje **Pertraukimo vienetas** įveskite pertraukimo vienetą.
+1. Skyriuje **Išsami informacija** sukurkite tiek pertraukimų kiek reikia kainų struktūrai.
+1. Pasirinkite **Įrašyti**.
 
 ## <a name="set-up-rate-master"></a>Nustatyti pagrindinį tarifą
-1. Pasirinkite Transportavimo valdymas > Nustatymas > Vertinimas > Pagrindinis tarifas.
-2. Spustelėkite Naujas.
-3. Lauke „Pagrindinis tarifas“ įveskite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-5. Lauke „Vertinimo metaduomenų ID“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-    * Vertinimo metaduomenų ID nulemia pagrindiniam tarifui reikalingus duomenis, nes jis apibrėžia metaduomenis, kurie skirti šį pagrindinį tarifą naudojančiam TMS mechanizmui.  
-6. Šiam pavyzdžiui pasirinkite parinktį P2P
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Spustelėkite Įrašyti.
+
+1. Eikite į **Gabenimo valdymas > Nustatymai > Reitingavimas > Pagrindinių duomenų reitingavimas**.
+1. Pasirinkite **Naujas**.
+1. Laukelyje **Pagrindinių duomenų reitingavimas** įveskite vertę.
+1. Lauke **Pavadinimas** įveskite reikšmę.
+1. Laukelyje **Reitingavimo metaduomenų ID** pasirinkite iškrentantį mygtuką, kad atvertumėte paiešką. Reitingavimo metaduomenų ID nustatys duomenis būtinus pagrindinių duomenų reitingui, nes jie nustato tikėtinus metaduomenis gabenimo valdymo varikliui, kuris reitinguoja pagrindinius duomenis.  
+1. Šiam pavyzdžiui, rinkitės P2P parinktį. Ją jau nustato demontraciniai duomenys.
+1. Šiame sąraše pasirinkite nuorodą pasirinktoje eilutėje.
+1. Pasirinkite **Įrašyti**.
 
 ## <a name="set-up-rate-base"></a>Nustatyti tarifo pagrindą
-1. Spustelėkite „Tarifo pagrindas“.
+
+1. Rinkitės **Reitinguoti pagrindinius**.
     * Tarifo pagrindas nulemia vežėjo tarifą ir gali būti naudojamas tarifų struktūrai nustatyti, nes jis nustato tarifų ribinius taškus, apibrėžtus bendrosiose ribose.  
-2. Spustelėkite Naujas.
-3. Lauke „Tarifo pagrindas“ įveskite reikšmę.
-4. Lauke Pavadinimas surinkite reikšmę.
-5. Lauke „Bendrosios ribos“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
+2. Pasirinkite **Naujas**.
+3. Laukelyje **Reitinguoti pagrindinius** įveskite vertę.
+4. Lauke **Pavadinimas** įveskite reikšmę.
+5. Laukelyje **Pagrindinių duomenų pertraukimo** pasirinkite iškrentantį mygtuką, kad atvertumėte paiešką.
     * Bendrosios ribos naudojamos kainodaros struktūrai ir jos ribiniams taškams apibrėžti. Kainodaros struktūra naudoja pakopinę kainodarą, paremtą faktiniais matmenimis.  
-6. Šiam pavyzdžiui naudoti svorį
-7. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-8. Perjunkite skyriaus „Išsami informacija“ išplėtimą.
-9. Spustelėkite Naujas.
-10. Lauke „Pašto kodas atidavimui iš“ įveskite „30301“.
-11. Lauke „Pašto kodas atidavimui į“ įveskite „30318“.
-12. Lauke „Atidavimo šalis, regionas“ įveskite „JAV“.
-13. Lauke „<1,00 Lbs“ įveskite „100“.
-    * Įterpkite vieno lbs tarifą, jeigu bendrasis krovinio svoris mažesnis nei 1 svaras.  
-14. Lauke „< 5,00 Lbs“ įveskite „300“.
-    * Įterpkite vieno lbs tarifą, jeigu bendrasis krovinio svoris mažesnis nei 5 svarai.  
-15. Lauke „< 20,00 Lbs“ įveskite „500“.
-    * Įterpkite vieno lbs tarifą, jeigu bendrasis krovinio svoris mažesnis nei 20 svarų.  
-16. Lauke „< 100,00 Lbs“ įveskite „1000“.
-    * Įterpkite vieno lbs tarifą, jeigu bendrasis krovinio svoris mažesnis nei 100 svarų.  
-17. Lauke „< 1.000,00 Lbs“ įveskite „3000“.
-    * Įterpkite vieno lbs tarifą, jeigu bendrasis krovinio svoris mažesnis nei 1000 svarų.  
-18. Spustelėkite Įrašyti.
+6. Šiam pavyzdžiui, naudokite svorį. Ją jau nustato demontraciniai duomenys.
+7. Šiame sąraše pasirinkite nuorodą pažymėtoje eilutėje.
+8. Išpėskite **Išsamios informacijos** skyrių.
+9. Pasirinkite **Naujas**.
+10. Laukelyje **Pašto kodo rikiavimas pagal**, įveskite „30301".
+11. Laukelyje **Pašto kodo rikiavimas į**, įveskite „30318".
+12. Laukelyje **Šalies regiono rikiavimas**, įveskite „USA".
+13. Laukelyje **<1 00 svarai** įveskite „100".
+    * Įveskite vertę pagal svarus, jei bendras krovinio svoris yra mažesnis nei 1 svaras.  
+14. Laukelyje **<5 00 svarai** įveskite „300".
+    * Įveskite vertę pagal svarus, jei bendras krovinio svoris yra mažesnis nei 5 svarai.  
+15. Laukelyje **<20 00 svarai** įveskite „500".
+    * Įveskite vertę pagal svarus, jei bendras krovinio svoris yra mažesnis nei 20 svarų.  
+16. Laukelyje **<100 00 svarai** įveskite „1000".
+    * Įveskite vertę pagal svarus, jei bendras krovinio svoris yra mažesnis nei 100 svarų.  
+17. Laukelyje **<1 000 00 svarai** įveskite „3000".
+    * Įveskite vertę pagal svarus, jei bendras krovinio svoris yra mažesnis nei 1000 svarų.  
+18. Pasirinkite **Įrašyti**.
 19. Uždarykite puslapį.
 
 ## <a name="assign-rate-base"></a>Priskirti tarifo pagrindą
-1. Perjunkite skyriaus „Tarifo pagrindo priskyrimai“ išplėtimą.
-2. Spustelėkite Naujas.
-    * Kiekvienam pagrindiniam tarifui galite priskirti keletą tarifų pagrindų. Tai sudaro galimybę kiekvienam vežėjui sukurti keletą skirtingų kainos apvalinimo taisyklių, atsižvelgiant į paskirties vietas, paslaugas ar skirtingus tarifų pagrindus. Šioje procedūroje sukursite tik vieną tarifo pagrindo priskyrimą.  
-3. Lauke Pavadinimas surinkite reikšmę.
-4. Lauke „Tarifo pagrindas“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-5. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-6. Lauke „Paslauga“ spustelėkite išplečiamąjį mygtuką, kad atidarytumėte peržvalgą.
-7. Sąraše raskite ir pasirinkite norimą įrašą.
-8. Sąraše spustelėkite saitą pasirinktoje eilutėje.
-9. Lauke „Paėmimo pašto kodas“ įveskite „98052“.
-    * Nurodykite, nuo kurio pašto kodo galios šis tarifo pagrindo priskyrimas.    
-10. Lauke „Paėmimo šalis, regionas“ įveskite „JAV“.
-11. Spustelėkite Įrašyti.
 
+1. Išplėskite **Reitinguoti pagrindinius priskyrimus** skyrių.
+2. Pasirinkite **Naujas**.
+    * Kiekvienam pagrindiniam tarifui galite priskirti keletą tarifų pagrindų. Tai sudaro galimybę kiekvienam vežėjui sukurti keletą skirtingų kainos apvalinimo taisyklių, atsižvelgiant į paskirties vietas, paslaugas ar skirtingus tarifų pagrindus. Šioje procedūroje sukursite tik vieną tarifo pagrindo priskyrimą.  
+3. Lauke **Pavadinimas** įveskite reikšmę.
+4. Laukelyje **Reitinguoti pagrindinius duomenis** pasirinkite iškrentantį mygtuką, kad atvertumėte paiešką.
+5. Šiame sąraše pasirinkite nuorodą pažymėtoje eilutėje.
+6. Laukelyje **Paslaugos** pasirinkite iškrentantį mygtuką, kad atvertumėte paiešką.
+7. Sąraše raskite ir pasirinkite norimą įrašą.
+8. Šiame sąraše pasirinkite nuorodą pažymėtoje eilutėje.
+9. Laukelyje **Paėmimo pašto kodas**, įveskite „98052".
+    * Nurodykite, nuo kurio pašto kodo galios šis tarifo pagrindo priskyrimas.
+10. Laukelyje **Paėmimo regiono rikiavimas**, įveskite „USA".
+11. Pasirinkite **Įrašyti**.

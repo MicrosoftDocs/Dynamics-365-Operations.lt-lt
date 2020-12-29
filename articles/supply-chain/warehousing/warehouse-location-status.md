@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
 ms.openlocfilehash: 31216c24f54f22ec928eb143d4a913aabcd50cf8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016015"
+ms.locfileid: "4433974"
 ---
 # <a name="warehouse-location-status"></a>Sandėlio vietos būsena
 
@@ -78,7 +78,7 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
 1. Pakartokite 3-4 veiksmus, skirtus **PAĖMIMAS-06** profiliui.
 
 > [!NOTE]
-> Kai vietos šablono parametrai ( **Įgalinti prekę vietoje** , **Įgalinti vietos veiklą** , **Įgalinti vietos būseną** ) nustatyti į *Taip* , sistema iš karto atnaujina atitinkamas vietas, vykdydama užduotį *Sandėlio vietos būsenos nuolatinis tikrinimas*.
+> Kai vietos šablono parametrai (**Įgalinti prekę vietoje**, **Įgalinti vietos veiklą**, **Įgalinti vietos būseną**) nustatyti į *Taip*, sistema iš karto atnaujina atitinkamas vietas, vykdydama užduotį *Sandėlio vietos būsenos nuolatinis tikrinimas*.
 
 ### <a name="scenario"></a>Scenarijus
 
@@ -94,14 +94,14 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
 
 1. Dalyje Veiksmų sritis, skirtuko **Pirkimas** grupėje **Veiksmai** pasirinkite **Patvirtinti** pirkimo užsakymų patvirtinimui.
 1. Mobiliajame įrenginyje eikite į **Gaunami \> Gautas pirkimas**.
-1. Pasirinkite lauką **PU numeris** , įveskite ir patvirtinkite PU numerį.
+1. Pasirinkite lauką **PU numeris**, įveskite ir patvirtinkite PU numerį.
 1. Pasirinkite lauką **PREKĖ** įveskite prekės numerį *A0002* ir jį patvirtinkite.
 1. Puslapyje **Kiekis** įveskite kiekį *5* ir patvirtinkite.
 
     Įvesti kiekį galima vienu iš šių būdų:
 
-    - Pasirinkite pliuso ( **+** ) arba minuso ( **–** ) ženklo mygtuką norėdami pridėti arba atimti skaitinę reikšmę.
-    - Pasirinkite tuščią lauką tarp pliuso ( **+** ) ir minuso ( **–** ) ženklų mygtukų, kad būtų galima atidaryti skaičių klaviatūrą.
+    - Pasirinkite pliuso (**+**) arba minuso (**–**) ženklo mygtuką norėdami pridėti arba atimti skaitinę reikšmę.
+    - Pasirinkite tuščią lauką tarp pliuso (**+**) ir minuso (**–**) ženklų mygtukų, kad būtų galima atidaryti skaičių klaviatūrą.
 
 1. Patvirtinkite prekės numerio *A0002* ir kiekio *5* pasirinkimą. Puslapio apačioje atsiranda pranešimas "Baigtas darbas".
 1. Pasirinkite meniu mygtuką (kartais vadinamą Hamburger arba Hamburger mygtuku) viršutiniame dešiniajame kampe, tada pasirinkite **Atšaukti,** kad išeitumėte iš **Gauto pirkimo** ir grįžtumėte į **Gaunami** meniu.
@@ -109,7 +109,7 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
 1. Skirtuke **Bendra** atkreipkite dėmesį į **Darbo ID** ir **Tikslinės numerio lentelės ID** vertes, kurios buvo sukurtos.
 1. Skyriuje **Eilutės** atkreipkite dėmesį į **Vietos** reikšmes *Paėmimo* ir *Padėjimo* darbų tipams.
 1. Mobiliajame įrenginyje eikite į **Gavimas \> Gautas padėjimas**.
-1. Pasirinkite lauką **ID** , įveskite ir patvirtinkite darbo ID.
+1. Pasirinkite lauką **ID**, įveskite ir patvirtinkite darbo ID.
 1. Patvirtinkite dar kartą, kad užbaigtumėte *Paėmimo* užklausą.
 1. Paspauskite viršutiniame dešiniajame puslapio kampe esantį meniu mygtuką, o paskui pasirinkite **Atlikta** *Paėmimo* darbui užbaigti.
 1. Pasižymėkite padėjimo vietą ir patvirtinkite. Puslapio apačioje atsiranda pranešimas "Baigtas darbas".
@@ -119,7 +119,7 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
 1. Filtruoti **Vietą** ir įvesti padėjimo vietą iš pirkimo užsakymo darbo. Turėtumėte matyti šiuos rezultatus:
 
     - Stulpelyje **Vietos būsena** pateikiama *Saugyklos* reikšmė, nes paskutinė šios vietos operacija buvo padėjimas.
-    - Stulpelyje **Prekės numeris** pateikiama reikšmė *A0002* , nes ta prekė buvo gauta ir įvesta į vietą.
+    - Stulpelyje **Prekės numeris** pateikiama reikšmė *A0002*, nes ta prekė buvo gauta ir įvesta į vietą.
     - Stulpelyje **Paskutinės veiklos data ir laikas** pateikiama datos ir laiko, kada darbas buvo baigtas vietoje, laiko žyma.
 
 1. Mobiliajame įrenginyje eikite į **Kokybė \> Perkėlimas**.
@@ -130,7 +130,7 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
 1. Viršutiniame dešiniajame kampe pasirinkite meniu mygtuką, tada pasirinkite **Atšaukti,** jei norite išeiti iš **Perkėlimas** ir sugrįžti į **Kokybės valdymas** meniu.
 1. Pasirinkite **Grįžti** norėdami sugrįžti į pagrindinį meniu.
 1. „Dynamics 365 Supply Chain Management“ eikite į **Sandėlio tvarkymas \> Nustatymas \> Sandėlis  \> Vietos**.
-1. Atnaujinkite **Vietos** puslapį ir iš naujo peržiūrėkite pradinę padėjimo vietą. Atkreipkite dėmesį, kad **Vietos būsenos** laukas dabar nustatytas kaip *Tuščias* , o **Prekės numerio** stulpelis yra tuščias.
+1. Atnaujinkite **Vietos** puslapį ir iš naujo peržiūrėkite pradinę padėjimo vietą. Atkreipkite dėmesį, kad **Vietos būsenos** laukas dabar nustatytas kaip *Tuščias*, o **Prekės numerio** stulpelis yra tuščias.
 1. Peržiūrėkite vietos *06A07R2S1B* įrašą ir atkreipkite dėmesį, kad **Būsenos** reikšmė buvo pakeista į *Saugyklą* ir laukai **Prekės numeris** ir **Paskutinės veiklos data ir laikas** atsinaujino.
 1. Pasirinkite **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
 1. Pasirinkite **Naujas**.
@@ -143,29 +143,29 @@ Pavyzdiniame scenarijuje reikia paruošti du vietos šablonus.
     - **Kiekis:** _1_
 
 1. „FastTab“ skirtuke **Pardavimo užsakymo eilutės** meniu **Atsargos** pasirinkite **rezervavimas**.
-1. Puslapyje **Rezervavimas** pasirinkite **Rezervuoti partiją** užsakymo eilutės rezervavimui. Tada spustelėkite **Uždarymo** mygtuką ( **X** ) viršutiniame dešiniajame kampe puslapiui uždarykite.
+1. Puslapyje **Rezervavimas** pasirinkite **Rezervuoti partiją** užsakymo eilutės rezervavimui. Tada spustelėkite **Uždarymo** mygtuką (**X**) viršutiniame dešiniajame kampe puslapiui uždarykite.
 1. Veiksmų srities skirtuke **Sandėlis** grupėje **Veiksmai** pasirinkite **Išleisti į sandėlį**.
 1. **Pardavimo užsakymo eilutės** skirtuke, virš tinklelio esančiame meniu **Sandėlis** pasirinkite **Darbo išsami informacija**.
 1. Nukopijuokite **Darbo ID** vertę, kuri buvo sukurta.
 1. Mobiliajame įrenginyje eikite į **Siuntimas \> Pardavimų išrinkimas**.
-1. Pasirinkite lauką **ID** , įveskite ir patvirtinkite anksčiau nukopijuotą darbo ID.
+1. Pasirinkite lauką **ID**, įveskite ir patvirtinkite anksčiau nukopijuotą darbo ID.
 1. Puslapyje **Pardavimo užsakymai: Paėmimas** laukas **LOC** pasiūlo paėmimo vietą kaip padėjimo vietą, kuri buvo sukurta anksčiau. Pasižymėkite vietą.
-1. Pasirinkite lauką **Vieta** , įveskite ir patvirtinkite vietą.
+1. Pasirinkite lauką **Vieta**, įveskite ir patvirtinkite vietą.
 1. Pasirinkite **LP** lauką, įveskite ir patvirtinkite numerio lentelės numerį, kurį pasižymėjote perkėlimo veiklos vykdymo metu.
 1. Pasirinkite lauką **Prekė** įveskite prekės numerį *A0002* ir jį patvirtinkite.
 1. Puslapyje **Kiekis** įveskite kiekį *1* ir jį patvirtinkite.
 
     Įvesti kiekį galima vienu iš šių būdų:
 
-    - Pasirinkite pliuso ( **+** ) arba minuso ( **–** ) ženklo mygtuką norėdami pridėti arba atimti skaitinę reikšmę.
-    - Pasirinkite tuščią lauką tarp pliuso ( **+** ) ir minuso ( **–** ) ženklų mygtukų, kad būtų galima atidaryti skaičių klaviatūrą.
+    - Pasirinkite pliuso (**+**) arba minuso (**–**) ženklo mygtuką norėdami pridėti arba atimti skaitinę reikšmę.
+    - Pasirinkite tuščią lauką tarp pliuso (**+**) ir minuso (**–**) ženklų mygtukų, kad būtų galima atidaryti skaičių klaviatūrą.
 
-1. Pasirinkite lauką **Tikslinės LP** , įveskite vartotojo nustatytą tikslinės numerio lentelės ID ir patvirtinkite.
+1. Pasirinkite lauką **Tikslinės LP**, įveskite vartotojo nustatytą tikslinės numerio lentelės ID ir patvirtinkite.
 1. Patvirtinkite dar kartą, kad užbaigtumėte paėmimo darbą. Puslapio apačioje atsiranda pranešimas "Baigtas darbas".
 1. Viršutiniame dešiniajame kampe pasirinkite meniu mygtuką, tada pasirinkite **Atšaukti** paėmimo užduočiai atšauti ir sugrįžti į **Siuntimas** meniu.
 1. „Dynamics 365 Supply Chain Management“ eikite į **Sandėlio tvarkymas \> Nustatymas \> Sandėlis  \> Vietos**.
 1. Filtruoti **Vietą** ir įvesti paėmimo vietą iš pardavimo užsakymo darbo.
-1. Atkreipkite dėmesį, kad laukas **Vietos būsena** vietai, iš kurios paimtas pardavimo užsakymo darbas, dabar nustatytas kaip *Paėmimas* , o **Paskutinės veiklos datos ir laiko** laukas buvo atnaujintas.
+1. Atkreipkite dėmesį, kad laukas **Vietos būsena** vietai, iš kurios paimtas pardavimo užsakymo darbas, dabar nustatytas kaip *Paėmimas*, o **Paskutinės veiklos datos ir laiko** laukas buvo atnaujintas.
 
 > [!NOTE]
 > Vietos laukus atnaujina tik sandėlio operacijos. Jei atsargas perkeliate naudodami žurnalą ar kitus ne WHS procesus, laukai nebus atnaujinti.

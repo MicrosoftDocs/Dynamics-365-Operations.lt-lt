@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015831"
+ms.locfileid: "4434003"
 ---
 # <a name="wave-template-grouping"></a>Bangos šablonų grupavimas
 
@@ -66,12 +66,12 @@ Norėdami, kad būtų galima naudoti bangos šablono grupavimą, atlikite šiuos
 
     - **Ieškos kryptis:** *Didėjanti*
 
-1. Pasirinkite **Gerai** , kad išsaugotumėte pakeitimus ir uždarykite užklausos dialogo langą.
+1. Pasirinkite **Gerai**, kad išsaugotumėte pakeitimus ir uždarykite užklausos dialogo langą.
 1. Veiksmų srityje pasirinkite **Bangos šablonų grupavimas**.
 1. Puslapyje **Bangos šablonų grupavimas** pasirinkite **Grupuoti pagal** žymės langelį kiekvienai eilutei, kurią norite naudoti, kad būtų galima grupuoti užsakymų eilutes į bangą, kaip reikalinga. Jei ruošiatės dirbti per scenarijų naudojant demonstracinius duomenis, pasirinkite žymės langelį **Grupuoti pagal** *Vežėjo paslaugos* eilutėje.
 1. Pasirinkite **Įrašyti**.
 1. Uždarykite **Bangos šablono grupavimo** puslapį.
-1. Pasirinkite **Įrašyti** , kad įrašytumėte šabloną.
+1. Pasirinkite **Įrašyti**, kad įrašytumėte šabloną.
 
 ## <a name="scenario"></a>Scenarijus
 
@@ -92,16 +92,16 @@ Prieš pradėdami, paruoškite savo bangos šabloną, kaip aprašyta ankstesniam
 #### <a name="create-sales-order-1"></a>Pardavimo užsakymo 1 sukūrimas
 
 1. Pasirinkite **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
-1. Pasirinkite **Naujas** , kad sukurtumėte pardavimo užsakymą.
+1. Pasirinkite **Naujas**, kad sukurtumėte pardavimo užsakymą.
 1. Dialogo lange **Sukurti pardavimo užsakymą** nustatykite šias vertes:
 
-    - „FastTab” skirtuke **Klientas** , nustatykite lauką **Kliento paskyra** į *US–004*.
+    - „FastTab” skirtuke **Klientas**, nustatykite lauką **Kliento paskyra** į *US–004*.
     - „FastTab“ skirtuke **Bendra** nustatykite lauką **Sandėlis** į *62*.
 
 1. Pasirinkite **Gerai** naujam pardavimo užsakymui sukurti ir uždarykite **Kurti pardavimo užsakymą** dialogo langą.
 1. Naujas pardavimo užsakymas atidaromas **Eilučių** rodinyje. Pasižymėkite pardavimo užsakymo numerį.
 1. Perjunkite **Antraštės** rodinį.
-1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas** , nustatykite šias vertes:
+1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas**, nustatykite šias vertes:
 
     - **Siuntos vežėjas:** *Oro transportas*
     - **Vežėjo paslauga:** *oro*
@@ -129,16 +129,16 @@ Prieš pradėdami, paruoškite savo bangos šabloną, kaip aprašyta ankstesniam
 #### <a name="create-sales-order-2"></a>Pardavimo užsakymo 2 sukūrimas
 
 1. Pasirinkite **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
-1. Pasirinkite **Naujas** , kad sukurtumėte pardavimo užsakymą.
+1. Pasirinkite **Naujas**, kad sukurtumėte pardavimo užsakymą.
 1. Dialogo lange **Sukurti pardavimo užsakymą** nustatykite šias vertes:
 
-    - „FastTab” skirtuke **Klientas** , nustatykite lauką **Kliento paskyra** į *US–005*.
+    - „FastTab” skirtuke **Klientas**, nustatykite lauką **Kliento paskyra** į *US–005*.
     - „FastTab“ skirtuke **Bendra** nustatykite lauką **Sandėlis** į *62*.
 
 1. Pasirinkite **Gerai** naujam pardavimo užsakymui sukurti ir uždarykite **Kurti pardavimo užsakymą** dialogo langą.
 1. Naujas pardavimo užsakymas atidaromas **Eilučių** rodinyje. Pasižymėkite pardavimo užsakymo numerį.
 1. Perjunkite **Antraštės** rodinį.
-1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas** , nustatykite šias vertes:
+1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas**, nustatykite šias vertes:
 
     - **Siuntimo vežėjas:** *„Flower moving“*
     - **Vežėjo paslauga:** *Std*
@@ -168,16 +168,16 @@ Buvo sukurta nauja šios siuntos banga, nes ji naudoja kitą vežėjo paslaugą 
 #### <a name="create-sales-order-3"></a>Pardavimo užsakymo 3 sukūrimas
 
 1. Pasirinkite **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
-1. Pasirinkite **Naujas** , kad sukurtumėte pardavimo užsakymą.
+1. Pasirinkite **Naujas**, kad sukurtumėte pardavimo užsakymą.
 1. Dialogo lange **Sukurti pardavimo užsakymą** nustatykite šias vertes:
 
-    - „FastTab” skirtuke **Klientas** , nustatykite lauką **Kliento paskyra** į *US–006*.
+    - „FastTab” skirtuke **Klientas**, nustatykite lauką **Kliento paskyra** į *US–006*.
     - „FastTab“ skirtuke **Bendra** nustatykite lauką **Sandėlis** į *62*.
 
 1. Pasirinkite **Gerai** naujam pardavimo užsakymui sukurti ir uždarykite **Kurti pardavimo užsakymą** dialogo langą.
 1. Naujas pardavimo užsakymas atidaromas **Eilučių** rodinyje. Pasižymėkite pardavimo užsakymo numerį.
 1. Perjunkite **Antraštės** rodinį.
-1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas** , nustatykite šias vertes:
+1. „FastTab“ skirtuko **Pristatymas** dalyje **Transportavimas**, nustatykite šias vertes:
 
     - **Siuntos vežėjas:** *Oro transportas*
     - **Vežėjo paslauga:** *oro*

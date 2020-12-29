@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3119b6e93bc1f09c068fa599ec5ea2d0b23906a1
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016729"
+ms.locfileid: "4433923"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Min.–maks. papildymo proceso nustatymas
 
@@ -90,7 +90,7 @@ ms.locfileid: "4016729"
 9. Sąraše pažymėkite pasirinktą eilutę.
 10. Lauke **Papildymo vienetas** įveskite arba pasirinkite reikšmę. Pvz., pasirinkite vnt. Šis parametras yra privalomas. Juo galima nurodyti papildymo darbo matavimo vienetą, kuris skiriasi nuo nurodyto šio šablono mažiausio ir didžiausio atsargų lygio vieneto.
 11. Lauke **Darbo šablonas** įveskite arba pasirinkite reikšmę. Pasirinkite darbo šabloną, kurį sukūrėte anksčiau.  
-12. Lauke **Mažiausias kiekis** įveskite skaičių. Pasirinkite mažiausią kiekį, kuris turėtų paleisti papildymą. Pavyzdžiui, nustatykite 50. Jei papildote fiksuotą vietą ir parinktis **Papildyti tuščias fiksuotas vietas** nustatyta į „Taip“, šį nustatymą galite palikti nustatytą į 0. Taip pat rekomenduojame pasirinkti parinktį **Papildyti atsargas tik fiksuotose vietose** , kad procesas būtų našesnis.
+12. Lauke **Mažiausias kiekis** įveskite skaičių. Pasirinkite mažiausią kiekį, kuris turėtų paleisti papildymą. Pavyzdžiui, nustatykite 50. Jei papildote fiksuotą vietą ir parinktis **Papildyti tuščias fiksuotas vietas** nustatyta į „Taip“, šį nustatymą galite palikti nustatytą į 0. Taip pat rekomenduojame pasirinkti parinktį **Papildyti atsargas tik fiksuotose vietose**, kad procesas būtų našesnis.
 13. Lauke **Didžiausias kiekis** įveskite skaičių. Pavyzdžiui, nustatykite 100.  
 14. Lauke **Vienetas** įveskite arba pasirinkite reikšmę. Priskirkite mažiausio ir didžiausio kiekių vienetą. Pavyzdžiui, nustatykite „vnt.‟.  
 15. Pažymėkite žymės langelį **Papildyti tuščias fiksuotas vietas**. Pažymėkite šį žymės langelį, kad fiksuotas vietas papildytumėte, kai jos tuščios. Kitu atveju bus papildytos tik vietos, kuriose yra turimas kiekis.

@@ -4,7 +4,7 @@ description: Šioje temoje aprašytas bangos žymos spausdinimas ir paaiškinta,
 author: GarmMSFT
 manager: PJacobse
 ms.date: 05/01/2020
-ms.topic: configure-wave-label-printing
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016960"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4434034"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Nustatykite ir naudokite bangos žymos spausdinimą
 
@@ -134,7 +134,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę.
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius** , **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -391,7 +391,7 @@ Bangos šablonas leidžia jums susieti konkrečius bangų metodų atvejus pagal 
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę.
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius** , **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -583,7 +583,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę. 
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius** , **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
 
 
     ```plaintext
@@ -695,7 +695,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 
 1. Jei norite galėti atspausdinti važtaraščio identifikavimo kodą **Sujungimai** skirtuke, pasirinkite **Darbo linijų** lentelę ir prijunkite prie jo **Siuntimai** lentelę.
 1. Uždarykite užklausos tvarkylės teksto laukelį.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius** , **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Pavyzdžiui, jei naudojate „Zebra“ spaudintuvus, galite naudoti šį kodą.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -733,7 +733,7 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
     - **Aprašas:** *Tarpo žymė*
 
 1. Veiksmų srityje pasirinkite **Įrašyti**.
-1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius** , **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Toliau pateikiamas pavyzdys.
+1. **Spausdintuvo teksto maketas** „FastTab“ turi tris skyrius, kuriuose galite rašyti spausdintuvo kodą: **Antraštės skyrius**, **Vidurinės dalies skyrius** ir **Poraštės skyrius**. **Antraštės skyrius** skyriuje, **Žymos antraštė** laukelyje įveskite ZPL kodą būtinai antraštei. Toliau pateikiamas pavyzdys.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -818,13 +818,13 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 1. Pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
 1. Pranšimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
 1. Veiksmų juostoje pasirinkite **bangos žymos šablono grupė**.
-1. **Bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Siuntimo identifikavimo kodas* , nustatykite šias vertes:
+1. **Bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Siuntimo identifikavimo kodas*, nustatykite šias vertes:
 
     - **Spausdinimo tarpo žymė:** Pasirinkite šį žymimą laukelį.
     - **Žymos maketo identifikavimo kodas:** Pasirinkite tarpo žymę. (Pavyzdžiui, pasirinkite *Tarpo* žymos maketą, kurį sukūrėte anksčiau šiame scnarijuje.)
     - **Spausdintuvo pavadinimas:** Pasirinkite spausdintuvą tarpo žymei. (Dažniausiai, dėl žymių ritinių skaidymo tikslų, turite pasirinkti tą patį spausdintuvą, kuris pasirinktas **Bangos žymos šablono informacijos** „FastTab“. Nepaisant to, kiti scenarijai yra galimi.)
 
-1. Eilutėje, kurioje **Nuorodos žymos pavadinimas** laukelis nustatytas *Nuorodos krovimo linijos identifikavimo kodas* , pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį.
+1. Eilutėje, kurioje **Nuorodos žymos pavadinimas** laukelis nustatytas *Nuorodos krovimo linijos identifikavimo kodas*, pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį.
 
     > [!NOTE]
     > Šie nustatyimai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymos seka gali būti atspausdinta viename žymos makete. Taip pat, žymos skirtingiems siuntimams bus atskirtos pasirinkta tarpo žyme.
@@ -872,13 +872,13 @@ Pagrindinis skirtumas tarp šio scenarijaus konfigūravimo ir scenarijus 1 konfi
 1. Pasirinkite **OK** užklausos tvarkyklės teksto langui uždaryti.
 1. Pranšimo laukelis paskatins jus patvirtinti grupavimo perkrovimo veiksmą. Pasirinkite **taip** tam, kad tęstumėte.
 1. Veiksmų juostoje pasirinkite **bangos žymos šablono grupė**.
-1. **Bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Siuntimo identifikavimo kodas* , nustatykite šias vertes:
+1. **Bangos žymos šablono grupės** teksto laukelyje, pasirinkite eilutę, kurioje **Nuorodos laukelio pavadinimas** laukelis nustatytas į *Siuntimo identifikavimo kodas*, nustatykite šias vertes:
 
     - **Spausdinimo tarpo žymė:** Pasirinkite šį žymimą laukelį.
     - **Žymos maketo identifikavimo kodas:** Pasirinkite tarpo žymę. (Pavyzdžiui, pasirinkite *Tarpo* žymos maketą, kurį sukūrėte anksčiau šiame scnarijuje.)
     - **Spausdintuvo pavadinimas:** Pasirinkite spausdintuvą tarpo žymei. (Dažniausiai, dėl žymių ritinių skaidymo tikslų, turite pasirinkti tą patį spausdintuvą, kuris pasirinktas **Bangos žymos šablono informacijos** „FastTab“. Nepaisant to, kiti scenarijai yra galimi.)
 
-1. Eilutėje, kurioje **Nuorodos žymos pavadinimas** laukelis nustatytas *Nuorodos krovimo linijos identifikavimo kodas* , pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį.
+1. Eilutėje, kurioje **Nuorodos žymos pavadinimas** laukelis nustatytas *Nuorodos krovimo linijos identifikavimo kodas*, pasirinkite **Žymos kūrėjo identifikavimo kodas** žymimą laukelį.
 
     > [!NOTE]
     > Šie nustatyimai sukurs vieną žymos seką („Dėžė 1 X“) vienai krovimo linijai bangoje nepriklausomai nuo darbo grupės nustatymų. Ši žymos seka gali būti atspausdinta viename žymos makete. Taip pat, žymos skirtingiems siuntimams bus atskirtos pasirinkta tarpo žyme.

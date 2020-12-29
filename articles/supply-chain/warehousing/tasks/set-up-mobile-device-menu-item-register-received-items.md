@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f636a1f3d598a069c3922160eedbe05b68bc91eb
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017442"
+ms.locfileid: "4433949"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Mobiliojo įrenginio meniu elemento gautoms prekėms registruoti nustatymas
 
@@ -41,19 +41,19 @@ ms.locfileid: "4017442"
 5. Lauke **Režimas** pasirinkite **Darbas**. Užregistravus turimus kiekius, gautus pirkimo užsakymo eilutei, bus sukuriamas darbas, kad būtų galima perkelti prekes iš gavimo skyriaus į atsargas. Darbas sukuriamas tik tada, kai prekės užregistruotos. Todėl palikite parinkties **Naudoti esamą darbą** nuostatą **Ne**. 
 6. Skyriaus **Bendra** lauke **Darbo kūrimo procesas** pasirinkite **Pirkimo užsakymo prekės gavimas**.
     - Norint užregistruoti turimą kiekį sandėlyje, pirkimo užsakymo eilutė turi būti unikaliai identifikuota. Šiuo atveju mobilusis įrenginys užregistruos pirkimo užsakymo numerį ir prekės numerį ir taip sistema galės identifikuoti PO eilutę. Bus sukurtas atidėjimo laikas ir galės išrinkti kitas darbuotojas. Nuo pasirinkto darbo kūrimo metodo priklauso, kurie laukai bus pasiekiami „FastTab“ **Bendra**.  
-    - Jei pažymėsite parinktį **Naudoti numatytuosius duomenis** , bus įjungtas mygtukas **Numatytieji duomenys**. Čia galite pasirinkti laukus, kuriuose bus rodomi duomenys, paprastai reikalingi darbuotojui kasdieniame jo darbe, kad šios reikšmės būtų rodomos mobiliajame įrenginyje.  
+    - Jei pažymėsite parinktį **Naudoti numatytuosius duomenis**, bus įjungtas mygtukas **Numatytieji duomenys**. Čia galite pasirinkti laukus, kuriuose bus rodomi duomenys, paprastai reikalingi darbuotojui kasdieniame jo darbe, kad šios reikšmės būtų rodomos mobiliajame įrenginyje.  
     - **Numerio lentelės grupavimo** parametras veikia kartu su vienetų sekų grupe, kuri priskiriama gaunamai prekei. Galite nurodyti, ar gavimus, mažesnius arba didesnius nei vienas padėklas, reikia grupuoti į vieną numerio lentelę, ar skaidyti į atskiras numerio lenteles kiekvienam vienetui.  
-    - Jei pažymėsite parinktį **Generuoti numerio lentelę** , remiantis pasirinkta numeracija bus sugeneruotas unikalus numerio lentelės numeris.  
+    - Jei pažymėsite parinktį **Generuoti numerio lentelę**, remiantis pasirinkta numeracija bus sugeneruotas unikalus numerio lentelės numeris.  
     - Galite pasirinkti šabloną, kuris bus naudojamas kuriant darbą. Pavyzdžiui, jei registruojate pirkimo užsakymo prekę, atidėjimo darbas bus sugeneruotas remiantis darbo šablonu. Jei čia nepasirinksite darbo šablono, sistema paskirs šabloną pagal užklausos kriterijus, kurie yra susieti su šablonais.  
     - Jei perdavimo kodai rodomi mobiliajame įrenginyje, darbuotojai gali įvertinti prekių būseną arba kokybę ir pasirinkti tinkamą kodą. Perdavimo kodo taisyklėse nurodoma, ar prekės bus pasiekiamos kitiems sandėlio procesams. Taisyklėse taip pat nurodoma, kuris vietos nustatymas naudojamas sukurtam darbui.   
-    - Jei pažymėsite parinktį **Paketo perdavimo kodai** , darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti tinkamą perdavimo kodą. Nustatytos paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams.  
-    - Jei pažymėsite parinktį **Spausdinti žymes** , gavus prekes automatiškai bus atspausdinta numerio lentelės žymė.  
+    - Jei pažymėsite parinktį **Paketo perdavimo kodai**, darbuotojai gali įvertinti paketo būseną arba kokybę ir pasirinkti tinkamą perdavimo kodą. Nustatytos paketo perdavimo kodo taisyklės lemia, ar paketas bus pasiekiamas kitiems sandėlio procesams.  
+    - Jei pažymėsite parinktį **Spausdinti žymes**, gavus prekes automatiškai bus atspausdinta numerio lentelės žymė.  
 7. Pasirinkite **Įrašyti**.
 8. Uždarykite puslapį.
 
 ## <a name="add-the-menu-item-to-a-mobile-device-menu"></a>Meniu elemento įtraukimas į mobiliojo įrenginio meniu
 1. Naršymo srityje eikite į **Moduliai > Sandėlio valdymas > Sąranka > Mobilusis įrenginys > Mobiliojo įrenginio meniu**.
-2. Naudokite **spartųjį filtrą** , kad filtruotumėte lauką **Pavadinimas** pagal reikšmę `inbound`.
+2. Naudokite **spartųjį filtrą**, kad filtruotumėte lauką **Pavadinimas** pagal reikšmę `inbound`.
 3. Pasirinkite **Redaguoti**.
 4. Galimų meniu ir elementų medyje pasirinkite anksčiau sukurtą meniu elementą.
 5. Pasirinkite rodyklę, kuri rodo į dešinę.

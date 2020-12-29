@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016706"
+ms.locfileid: "4433931"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Atidėtas sandėlio darbo apdorojimas
 
@@ -44,8 +44,8 @@ Strategijos konfigūruojamos puslapyje **Darbo apdorojimo strategijos**. Toliau 
 | Darbo apdorojimo strategijos pavadinimas     | Darbo apdorojimo strategijos pavadinimas. |
 | Darbo užsakymo tipas                 | Darbo užsakymo tipas, kuriam taikoma strategija. |
 | Operacija                       | Operacija, kuri apdorojama naudojant strategiją. |
-| Darbo apdorojimo metodas          | Metodas, naudojamas darbo eilutei apdoroti. Jei metodas nustatytas į **Nedelsiant** , elgesys primena elgesį, kai eilučių apdorojimui nėra naudojamos jokios darbo apdorojimo strategijos. Jei metodas nustatytas į **Atidėtas** , naudojamas atidėtas apdorojimas, kuris naudoja paketinę sistemą. |
-| Atidėto apdorojimo riba   | Vertė **0** (nulis) nurodo, kad nėra ribinės reikšmės. Tokiu atveju naudojamas aidėtas apdorojimas, jei jis gali būti naudojamas. Jei konkrečios ribinės reikšmės skaičiavimas yra žemesnis už ribinę reikšmę, naudojamas metodas Nedelsiant. Priešingu atveju naudojamas atidėtasis metodas, jei jį galima naudoti. Su pardavimu ir perkėlimu susijusiam darbui, ribinė reikšmė apskaičiuojama kaip susieto šaltinio įkėlimo eilučių, kurios apdorojamos darbui, skaičius. Papildymo darbams ribinė reikšmė apskaičiuojama kaip darbo eilučių, kurias papildo darbas, skaičius. Nustatydami ribinę reikšmę, pvz., **5** , pardavimams, mažesniems darbams, kuriuose yra mažiau nei penkios pradinio šaltinio įkėlimo eilutės, nebus naudojamas atidėtas apdorojimas, tačiau jį naudos didesni darbai. Ribinė reikšmė taikoma tik tada, kai darbo apdorojimo metodas nustatytas į **Atidėtas**. |
+| Darbo apdorojimo metodas          | Metodas, naudojamas darbo eilutei apdoroti. Jei metodas nustatytas į **Nedelsiant**, elgesys primena elgesį, kai eilučių apdorojimui nėra naudojamos jokios darbo apdorojimo strategijos. Jei metodas nustatytas į **Atidėtas**, naudojamas atidėtas apdorojimas, kuris naudoja paketinę sistemą. |
+| Atidėto apdorojimo riba   | Vertė **0** (nulis) nurodo, kad nėra ribinės reikšmės. Tokiu atveju naudojamas aidėtas apdorojimas, jei jis gali būti naudojamas. Jei konkrečios ribinės reikšmės skaičiavimas yra žemesnis už ribinę reikšmę, naudojamas metodas Nedelsiant. Priešingu atveju naudojamas atidėtasis metodas, jei jį galima naudoti. Su pardavimu ir perkėlimu susijusiam darbui, ribinė reikšmė apskaičiuojama kaip susieto šaltinio įkėlimo eilučių, kurios apdorojamos darbui, skaičius. Papildymo darbams ribinė reikšmė apskaičiuojama kaip darbo eilučių, kurias papildo darbas, skaičius. Nustatydami ribinę reikšmę, pvz., **5**, pardavimams, mažesniems darbams, kuriuose yra mažiau nei penkios pradinio šaltinio įkėlimo eilutės, nebus naudojamas atidėtas apdorojimas, tačiau jį naudos didesni darbai. Ribinė reikšmė taikoma tik tada, kai darbo apdorojimo metodas nustatytas į **Atidėtas**. |
 | Atidėto apdorojimo paketų grupė |Paketų grupė, naudojama apdorojimui. |
 
 Atidėtam padėjimo apdorojimui palaikomi šie darbo užsakymo tipai: pardavimo užsakymas, perkėlimo užsakymo išdavimas ir papildymas.

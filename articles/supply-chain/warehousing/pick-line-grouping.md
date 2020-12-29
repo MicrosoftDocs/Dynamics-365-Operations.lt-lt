@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017741"
+ms.locfileid: "4433927"
 ---
 # <a name="pick-line-grouping"></a>Paėmimo eilutės grupavimas
 
@@ -52,7 +52,7 @@ Vykdant paėmimo eilutės grupavimą, keletą darbo eilučių, kuriose yra ta pa
 4. „FastTab“ **Darbo klasės** atlikite toliau pateikiamus veiksmus, kad sukonfigūruotumėte mobiliojo įrenginio meniu elemento tinkamas darbo klases.
 
     1. Pasirinkite **Naujas**.
-    2. Lauke **Darbo klasės ID** pasirinkite **Pardavimas** arba **PrdU paėmimas** , atsižvelgiant į sandėlį, kurį naudosite.
+    2. Lauke **Darbo klasės ID** pasirinkite **Pardavimas** arba **PrdU paėmimas**, atsižvelgiant į sandėlį, kurį naudosite.
     3. Lauke **Darbo užsakymo tipas** pasirinkite **Pardavimo užsakymai**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Mobiliojo įrenginio meniu nustatymas
@@ -65,7 +65,7 @@ Vykdant paėmimo eilutės grupavimą, keletą darbo eilučių, kuriose yra ta pa
 1. Eikite į **Sandėlio valdymas \> Sąranka \> Darbas \> Darbo šablonai**.
 1. Raskite darbo šabloną, kuris turėtų būti naudojamas atliekant šią funkciją. Šiame pavyzdyje pasirinkite standartinį **51 Paimti į etapą** „Contoso“ darbo šabloną.
 1. Meniu pasirinkite **Redaguoti užklausą**.
-1. Skirtuke **Rūšiavimas** pasirinkite **Įtraukti** , tada nustatykite toliau pateikiamas vertes.
+1. Skirtuke **Rūšiavimas** pasirinkite **Įtraukti**, tada nustatykite toliau pateikiamas vertes.
 
     - Lauke **Lentelė** pasirinkite **Laikinos darbo operacijos**.
     - Lauke **Išvestinė lentelė** pasirinkite **Laikinos darbo operacijos**.
@@ -82,7 +82,7 @@ Vykdant paėmimo eilutės grupavimą, keletą darbo eilučių, kuriose yra ta pa
 Kad galėtumėte nustatyti paėmimo eilutės grupavimą, turite sukurti tinkamą siuntimo darbą.
 
 1. Eikite į **Pardavimas ir rinkodara \> Pardavimo užsakymai \> Visi pardavimo užsakymai**.
-2. Pasirinkite **Naujas** , kad sukurtumėte pardavimo užsakymą. 
+2. Pasirinkite **Naujas**, kad sukurtumėte pardavimo užsakymą. 
 3. Lauke **Kliento sąskaita** pasirinkite bet kurį klientą. 
 4. „FastTab“ **Bendra** lauke **Sandėlis** pasirinkite **51**. Tada pasirinkite **Gerai**.
 5. Dalyje **Pardavimo užsakymo eilutės** įtraukite toliau pateikiamas šešias eilutes.
@@ -100,7 +100,7 @@ Kad galėtumėte nustatyti paėmimo eilutės grupavimą, turite sukurti tinkamą
     - **Prekė M9201:** 3 vienetai
     - **Prekė M9202:** 9 vienetai
 
-6. Prieš perduodami užsakymus į sandėlį, turite įsitikinti, kad paėmimo vietose pakanka atsargų visoms prekėms visuose užsakymuose pateikti. Patikrinkite parametrą **Vietos nurodymas** , kad nustatytumėte paėmimo vietas, naudojamas pardavimo užsakymo paėmimui atlikti.
+6. Prieš perduodami užsakymus į sandėlį, turite įsitikinti, kad paėmimo vietose pakanka atsargų visoms prekėms visuose užsakymuose pateikti. Patikrinkite parametrą **Vietos nurodymas**, kad nustatytumėte paėmimo vietas, naudojamas pardavimo užsakymo paėmimui atlikti.
 7. Rezervuokite atsargas ir pateikite jas į sandėlį. Sukuriamas darbo ID, kuriame yra šešios eilutės. Eilutės rūšiuojamos pagal prekės numerį.
 
 ### <a name="run-the-mobile-device-flow"></a>Mobiliojo įrenginio srauto vykdymas

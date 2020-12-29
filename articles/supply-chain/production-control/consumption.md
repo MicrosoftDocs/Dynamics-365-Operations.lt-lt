@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f58365278200344169b93658e9c92dea2bc4f18f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211644"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433660"
 ---
 # <a name="calculate-material-consumption"></a>Medžiagų suvartojimo apskaičiavimas
 
@@ -63,7 +63,7 @@ Laikoma, kad kiekvieniems penkiems gabalams sunaudojamo vamzdžio 0,5 metrų vam
 
 ### <a name="consumption"></a>Sunaudojimas
 
-Paprastai kaip suapvalinimo mechanizmas pasirenkamas**Suvartojimas** kai žaliava konkretaus gaminio gamybai imama sveikais kiekiais. Pavyzdžiui, vienam gaminiui pagaminti sunaudojamos 2 kvortos dažų, o dažai yra 25 kvortų skardinėse. Šiuo atveju gali būti naudojamas **Suvartojimo** apvalinimo mechanizmas suapvalinti suvartojimą iki sveikų 25 kvortų skardinių skaičių. Štai kaip apskaičiuojamas dažų kiekis, kurio reikia pagaminti 180 vienetų gatavų gaminių:
+Paprastai kaip suapvalinimo mechanizmas pasirenkamas **Suvartojimas** kai žaliava konkretaus gaminio gamybai imama sveikais kiekiais. Pavyzdžiui, vienam gaminiui pagaminti sunaudojamos 2 kvortos dažų, o dažai yra 25 kvortų skardinėse. Šiuo atveju gali būti naudojamas **Suvartojimo** apvalinimo mechanizmas suapvalinti suvartojimą iki sveikų 25 kvortų skardinių skaičių. Štai kaip apskaičiuojamas dažų kiekis, kurio reikia pagaminti 180 vienetų gatavų gaminių:
 
 1.  Reikalingi dažai, išskyrus atliekas: 180 × 2 = 360 kvortų
 2.  Skardinių skaičius: 360 ÷ 25 = 14,4, kuris apvalinamas iki 15

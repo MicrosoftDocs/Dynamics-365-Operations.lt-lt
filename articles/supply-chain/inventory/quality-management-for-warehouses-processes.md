@@ -16,11 +16,11 @@ ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763484"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433869"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Sandėlio procesų kokybės valdymas
 
@@ -107,7 +107,7 @@ Kai funkcija _Sandėlio procesų kokybės valdymas_ įjungta, taikomas sandėlio
 | Ieškos grupė | aprašymas |
 |---|---|
 | 1 grupė | Kiekvienam kokybės susiejimui patikrinkite laukų **Nuorodos tipas**, **Įvykio tipą** ir **Vykdymo atitikmuo** reikšmes pagal prekę. Jei yra atitikmuo su šaltinio dokumento eilute, perkelkite į 2 grupę. |
-| 2 grupė | Kiekvienam kokybės susiejimui patikrinkite lauko **Prekės kodas** reikšmę (_Lentelė_, _Grupė_arba _Visi_) pagal prekę. Reikšmė _Lentelė_ yra labiau apibrėžta nei _Grupė_, o reikšmė _Grupė_ yra labiau apibrėžta nei _Visi_. Jei yra atitiktis su reikšme _Lentelė_ (konkreti prekė), perkelkite į 3 grupę. Jei atitikties su reikšme _Lentelė_ nėra, ieškokite atitikties reikšmei _Grupė_. Jeigu nėra atitikties reikšmei _Grupė_, taikoma _Visi_. Jei atitiktis yra, perkelkite į 3 grupę. |
+| 2 grupė | Kiekvienam kokybės susiejimui patikrinkite lauko **Prekės kodas** reikšmę (_Lentelė_, _Grupė_ arba _Visi_) pagal prekę. Reikšmė _Lentelė_ yra labiau apibrėžta nei _Grupė_, o reikšmė _Grupė_ yra labiau apibrėžta nei _Visi_. Jei yra atitiktis su reikšme _Lentelė_ (konkreti prekė), perkelkite į 3 grupę. Jei atitikties su reikšme _Lentelė_ nėra, ieškokite atitikties reikšmei _Grupė_. Jeigu nėra atitikties reikšmei _Grupė_, taikoma _Visi_. Jei atitiktis yra, perkelkite į 3 grupę. |
 | 3 grupė | Kiekvienam kokybės susiejimui patikrinkite laukų **Sąskaitos kodas** ir **Ištekliaus kodas** reikšmes pagal prekę. Pritaikyta logika panaši į logiką, kuri taikoma reikšmei **Prekės kodas**. |
 | 4 grupė | Kiekvienam kokybės susiejimui patikrinkite lauko **Taikomas sandėlio tipas** reikšmę (_Tik sandėlio procesų kokybės valdymas_ arba _Visi_) pagal prekę. Jei šaltinio dokumente esančio sandėlio parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Taip_, o šaltinio dokumento eilutėje nurodyta prekė yra nustatyta kaip _Naudoti sandėlio valdymo procesus_, abu susiejimai, kai yra atitiktis _Tik sandėlio procesų kokybės valdymas_, ir susiejimai, kai yra atitiktis _Visi_, taikomi lygiagrečiai, jei abu yra. Jei šaltinio dokumente esančiam sandėliui parinkties **Įgalinti sandėlio procesų kokybės užsakymą** reikšmė yra nustatyta kaip _Ne_, o šaltinio dokumento eilutėje nurodyta prekė nustatyta kaip _Naudoti sandėlio valdymo procesus_, bus taikomas tik kokybės valdymas. |
 

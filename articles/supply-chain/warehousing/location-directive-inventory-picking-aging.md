@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017142"
+ms.locfileid: "4433914"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Vietos nurodymo atsargų paėmimo skirstymas pagal terminus
 
@@ -85,7 +85,7 @@ Demonstraciniai duomenys reikalauja nustatymo ir inventoriaus pakeitimų tam, ka
 
 1. Pasirinkite **OK** tam, kad pritiakytumėte savo nustatymus uždarytumėte teksto laukelį.
 1. Pasirinkite **Įrašyti** tam, kad išsaugotumėte pakeitimus vietos direktyvoje.
-1. Moviliame prietaise arba „ *Dynamics 365 for Finance and Operations“ - Sandėliavimas* programoje savo kompiuteryje atlikite šiuos žingsnius ir pašalinkite esantį inventorių iš sandėlio vietos tam, kad palaikytumėte scenarijus:
+1. Moviliame prietaise arba „*Dynamics 365 for Finance and Operations“ - Sandėliavimas* programoje savo kompiuteryje atlikite šiuos žingsnius ir pašalinkite esantį inventorių iš sandėlio vietos tam, kad palaikytumėte scenarijus:
 
     1. Prisijunkite prie sandėlio *63* naudodami būtiną vartotojo identifikavimo kodą ir slaptažodį.
     1. Pagrindiniame meniu pasirinkite **Kokybė**.
@@ -98,7 +98,7 @@ Demonstraciniai duomenys reikalauja nustatymo ir inventoriaus pakeitimų tam, ka
 
     Šie žingsniai palieka inventorių dvejose demonstracijos duomenų vietose. Visos vietos turi skirtingus amžiaus duomenis. Vieta *FL-001* turi amžiaus duomenis pradedant 2017 m. balandžio 15 d. ir vieta *FL-002* turi amžiaus duomenis pradedant 2017 m. sausio 29 d. Abi vietos turi elementą *A0001*.
 
-    Šių duomenų peržiūrai eikite į **Inventoriaus valdymas \> Užklausos ir ataskaitos \> Esamas sąrašas** ir tuomet filtruokite sandėlį *63* ir elementą *A0001*. Eilutėse, kuriose **Vietos** laukas nustatytas į *FL-001* ar *FL-002* , pasirinkite eilutę su teigiama **Fizinio inventoriaus** verte ir tuomet veiksmų juostoje pasirinkite **Pervedimai**. **Fiziniai duomenys** laukelyje bus rodomi duomenis atitinkantys vieną iš prieš tai paminėtų amžiaus duomenų.
+    Šių duomenų peržiūrai eikite į **Inventoriaus valdymas \> Užklausos ir ataskaitos \> Esamas sąrašas** ir tuomet filtruokite sandėlį *63* ir elementą *A0001*. Eilutėse, kuriose **Vietos** laukas nustatytas į *FL-001* ar *FL-002*, pasirinkite eilutę su teigiama **Fizinio inventoriaus** verte ir tuomet veiksmų juostoje pasirinkite **Pervedimai**. **Fiziniai duomenys** laukelyje bus rodomi duomenis atitinkantys vieną iš prieš tai paminėtų amžiaus duomenų.
 
 ### <a name="scenario-1-set-up-and-use-fifo-location-aging"></a><a name="fifo-demo"></a>Scenarijus 1: Nustatykite ir naudokite FIFO vietos amžių
 
@@ -109,7 +109,7 @@ FIFO strategija suranda vietą, turinčią seniausius amžiaus duomenis ir prisk
 1. Pasirinkite **Naujas**.
 1. Dialogo lange **Sukurti pardavimo užsakymą** nustatykite šias vertes:
 
-    - „FastTab” skirtuke **Klientas** , nustatykite lauką **Kliento paskyra** į *US–001*.
+    - „FastTab” skirtuke **Klientas**, nustatykite lauką **Kliento paskyra** į *US–001*.
     - „FastTab“ skirtuke **Bendra** nustatykite lauką **Sandėlis** į *63*.
 
 1. Pasirinkite **Gerai** pirkimo užsakymui sukurti ir dialogo langui uždaryti.
@@ -118,7 +118,7 @@ FIFO strategija suranda vietą, turinčią seniausius amžiaus duomenis ir prisk
 1. **Rezervavimo** puslapyje, pasirinkite **Rezervuoti vietą** tam, kad rezervuotumėte užsakytą kiekį šiam elementui iš pasirinktame sandelyje esančio inventoriaus.
 1. Uždarykite **Rezervavimas** puslapį.
 1. **Prekybos užsakymo** puslapyje, veiksmų juostoje **Sandėlio** skirtuke, **Veiksmai** grupėje, pasirinkite **Paleisti į sandėlį**. Gausite informacinį pranešimą. Sistema sukuria siuntą, įtraukia ją į naują krovinį ir sukuria reikiamą darbo užduotį.
-1. **Prekybos užsakymo eilučių** „FastTab“,  **Sandėlio** meniu, pasirinkite **Darbo informacija** tam, kad atidarytumėte šiam prekybos užsakymui sukurtą darbą. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti* , rodo **Vietos** vertę *FL-002*. Ši vieta apima licencijos numerį, kuris turi seniausius amžiaus duomenis (FIFO).
+1. **Prekybos užsakymo eilučių** „FastTab“,  **Sandėlio** meniu, pasirinkite **Darbo informacija** tam, kad atidarytumėte šiam prekybos užsakymui sukurtą darbą. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-002*. Ši vieta apima licencijos numerį, kuris turi seniausius amžiaus duomenis (FIFO).
 1. Pasirinkite **Sandėlis \> Siuntimo informacija**.
 1. **Bendri** „FastTab“, užsirašykite bangos identifikavimo numerį, kad galėtumėte jį naudoji scenarijaus 2 metu.
 
@@ -134,9 +134,9 @@ LIFO strategija suranda vietą, turinčią naujausius amžiaus duomenis ir prisk
 1. Eikite į **Sandėlio valdymas \> Siuntimo bangos \> Siuntos bangos \> Visos bangos**.
 1. Pasirinkite ir atidarykite bangą turinčia užsakymą, kurį sukūrėte FIFO scenarijui.
 1. Veiksmų juostoje, **Darbas** skirtuke, pasirinkite **Atšaukti** tam, kad atšauktumėte jūsų FIFO scenarijuje sukurtą darbą.
-1. Veiksmų srities skirtuke **Banga** , grupėje **Banga** pasirinkite **Vykdyti**.
+1. Veiksmų srities skirtuke **Banga**, grupėje **Banga** pasirinkite **Vykdyti**.
 1. Kai apdorojimas yra baigtas, veiksmų juostoje, **Bangos** skirtuke, **Susijusios informacijos** grupėje, pasirinkite **Darbas** tam, kad atidarytumėte šiai bangą sukurtą darbą.
 1. **Darbo** puslapyje, **Peržiūros** skirtuke, turėtų būti dvi eilutės. Pasirinkite eilutę, kurioje **Darbo būsenos** laukelis nustatytas į *Atvirą*.
-1. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti* , rodo **Vietos** vertę *FL-001*. Ši vieta apima licencijos numerį, kuris turi naujausius amžiaus duomenis (LIFO).
+1. Atkreipkite dėmesį, kad eilutė, kurioje **Darbo tipo** vertė yra *Paimti*, rodo **Vietos** vertę *FL-001*. Ši vieta apima licencijos numerį, kuris turi naujausius amžiaus duomenis (LIFO).
 
 Šiuose scenarijuose, jūs matėte, kaip vietos amžiaus strategija valdo darbą inventoriaus vietoje, kuri turi seniausią arba naujausią inventorių priklausomai nuo pasirinktos strategijos.

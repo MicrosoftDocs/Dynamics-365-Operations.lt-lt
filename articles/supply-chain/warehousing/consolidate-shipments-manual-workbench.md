@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 1eec1a8e3a9a2a0f95302e1d6ea68eb90b9a3b93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016821"
+ms.locfileid: "4433935"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 
@@ -39,7 +39,7 @@ ms.locfileid: "4016821"
 
 ## <a name="turn-on-the-manual-shipment-consolidation-feature"></a>Neautomatinės siuntos konsolidacijos funkcijos įjungimas
 
-Kad galėtumėte naudoti funkciją *Neautomatinė siuntos konsolidacija* , turite ją įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
+Kad galėtumėte naudoti funkciją *Neautomatinė siuntos konsolidacija*, turite ją įjungti jūsų sistemoje. Administratoriai gali naudoti [funkcijos valdymas](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) parametrus, norėdami sužinoti funkcijos būseną ir įjungti ją. Darbo srityje **Funkcijų valdymas** ši funkcija yra nurodyta toliau pateikiamu būdu.
 
 - **Modulis:** *sandėlio valdymas*
 - **Funkcijos pavadinimas:** *Neautomatinė siuntos konsolidacija*
@@ -63,10 +63,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 #### <a name="sales-order-1-3"></a>1-3 pardavimo užsakymas
 
@@ -77,17 +77,17 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 1. Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0002* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0002* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
     - **Pristatymo būdas:** *Airwa-Air*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad būtų rezervuota antroji užsakymo eilutė.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad būtų rezervuota antroji užsakymo eilutė.
 
 ### <a name="create-order-set-2"></a>2 užsakymų rinkinio kūrimas
 
@@ -100,17 +100,17 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus* )
+    - **Prekės numeris:** *M9200* (prekė, kurios filtras **4 kodas** nustatytas į *Degus*)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 1. Įtraukite antrą pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus* )
+    - **Prekės numeris:** *M9201* (prekė, kurios filtras **4 kodas** nustatytas į *Sprogus*)
     - **Kiekis:** *1.00*
     - **Pristatymo būdas:** *Airwa-Air*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad būtų rezervuota antroji užsakymo eilutė.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad būtų rezervuota antroji užsakymo eilutė.
 
 ### <a name="create-order-set-3"></a>3 užsakymų rinkinio kūrimas
 
@@ -123,10 +123,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 #### <a name="sales-orders-3-3-and-3-4"></a>3-3 ir 3-4 pardavimo užsakymai
 
@@ -137,10 +137,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 ### <a name="create-order-set-4"></a>4 užsakymų rinkinio kūrimas
 
@@ -152,10 +152,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 #### <a name="sales-orders-4-3-and-4-4"></a>4-3 ir 4-4 pardavimo užsakymai
 
@@ -165,10 +165,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 #### <a name="sales-orders-4-5-and-4-6"></a>4-5 ir 4-6 pardavimo užsakymai
 
@@ -181,10 +181,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 #### <a name="sales-orders-4-7-and-4-8"></a>4-7 ir 4-8 pardavimo užsakymai
 
@@ -197,10 +197,10 @@ Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai** ir sukur
 
 1. Įtraukite pardavimo užsakymo eilutę, kuriai nustatyti tolesni parametrai.
 
-    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas** )
+    - **Prekės numeris:** *A0001* (prekė, kuriai nepriskirtas filtras **4 kodas**)
     - **Kiekis:** *1.00*
 
-1. Pasirinkite **Atsargos \> Rezervavimas** , tada veiksmų srityje pasirinkite **Rezervuoti partiją** , kad užsakymo eilutė būtų rezervuota.
+1. Pasirinkite **Atsargos \> Rezervavimas**, tada veiksmų srityje pasirinkite **Rezervuoti partiją**, kad užsakymo eilutė būtų rezervuota.
 
 ## <a name="release-the-orders-to-the-warehouse"></a>Užsakymų išleidimas į sandėlį
 
@@ -208,20 +208,20 @@ Atlikite tolesnius veiksmus, kad išleistumėte kiekvieną šiame scenarijuje su
 
 1. Eikite į **Gautinos sumos \> Užsakymai \> Visi pardavimo užsakymai**.
 1. Raskite ir pasirinkite pardavimo užsakymą, kurį norite išleisti.
-1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Veiksmai \> Išleisti į sandėlį** , kad būtų išleistas pasirinktas pardavimo užsakymas.
+1. Veiksmų srities skirtuke **Sandėlis** pasirinkite **Veiksmai \> Išleisti į sandėlį**, kad būtų išleistas pasirinktas pardavimo užsakymas.
 1. Kartokite šią procedūrą kiekvienam kitam šiame scenarijuje sukurtam pardavimo užsakymui.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Siuntų konsolidacija naudojant siuntų konsolidacijos darbo sritį
 
 1. Eikite į **Sandėlio valdymas \> Išleidimas į sandėlį \> Siuntos konsolidacijos darbo sritis**.
 1. Veiksmų srityje pasirinkite **Redaguoti užklausą**.
-1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti** , kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
+1. Užklausos rengyklės dialogo lango skirtuke **Diapazonas** pasirinkite **Įtraukti**, kad įtrauktumėte eilutę, kuriai nustatyti tolesni parametrai, į tinklelį.
 
     - **Lentelė:** *pardavimo užsakymai*
     - **Laukas:** *pardavimo užsakymas*
     - **Kriterijai:** įveskite kableliais atskirtų pardavimo užsakymų numerių sąrašą kiekvienam užsakymų rinkiniui, sukurtam šiam scenarijui.
 
-1. Pasirinkite **Gerai** , kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
+1. Pasirinkite **Gerai**, kad įrašytumėte jūsų užklausą ir uždarytumėte dialogo langą.
 1. Veiksmų srityje pasirinkite **Konsoliduoti siuntas**.
 1. Pasirinkite visas siuntas, tada veiksmų srityje pasirinkite **Konsoliduoti**.
 
@@ -238,7 +238,7 @@ Tolesnė procedūra leidžia tikrinti siuntas, sukurtas arba atnaujintas dėl si
 Turėtų būti sukurtos dvi siuntos.
 
 - Pirmoje siuntoje yra trys eilutės ir ji buvo sukurta naudojant *CustomerMode* siuntos konsolidacijos strategiją.
-- Antroji siunta, nenaudojanti pristatymo transportavimo būdo *Oro keliai* , buvo sukurta naudojant *CustomerOrderNo* siuntos konsolidacijos strategiją.
+- Antroji siunta, nenaudojanti pristatymo transportavimo būdo *Oro keliai*, buvo sukurta naudojant *CustomerOrderNo* siuntos konsolidacijos strategiją.
 
 ### <a name="related-shipments-for-order-set-2"></a>2 užsakymo rinkinio susijusios siuntos
 

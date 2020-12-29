@@ -4,7 +4,7 @@ description: Šioje temoje paaiškinama, kaip panaikinti ir iš naujo atspausdin
 author: GarmMSFT
 manager: PJacobse
 ms.date: 07/09/2020
-ms.topic: reprint-and-void-wave-labels
+ms.topic: article
 ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016659"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4434036"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Atspausdinkite iš naujo ir panaikinkite bangos žymes
 
@@ -118,7 +118,7 @@ Atlikite šiuos žingsnius tam, kad sukurtumėte naują meniu elementų kolekcij
     - **Sistemos grupavimo žymę:** *Siuntimo identifikavimo kodas*
     - **Spausdinimo režimas:** *E-žymėjimas*
 
-1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas* , *Žymės elemento pavadinimas* , *Inventoriaus kiekis* , *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius* ).
+1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas*, *Žymės elemento pavadinimas*, *Inventoriaus kiekis*, *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius*).
 1. Uždarykite puslapį.
 1. Sukurkite ketvirtą meniu elementą ir nustatykite šias vertes:
 
@@ -131,7 +131,7 @@ Atlikite šiuos žingsnius tam, kad sukurtumėte naują meniu elementų kolekcij
     - **Sistemos grupavimo žymę:** *Siuntimo identifikavimo kodas*
     - **Spausdinimo režimas:** *Paskutinės prekės bangos žymės identifikavimo numeris*
 
-1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas* , *Žymės elemento pavadinimas* , *Inventoriaus kiekis* , *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius* ).
+1. Veiksmų juostoje pasirinkite **Laukelio sąrašas** ir tuomet naudokite iškrentantį meniu tam, kad pasirinktumėte laukelius, kurie bus rodomi padedant darbuotojams nustatyti tinkamą žymės ritinį (pavyzdžiui *Žymės elemento identifikavimo kodas*, *Žymės elemento pavadinimas*, *Inventoriaus kiekis*, *Žymės padalinio identifikavimo kodas* ir *Žymių skaičius*).
 1. Uždarykite puslapį.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Nustatykite mobilaus prietaiso meniu

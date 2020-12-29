@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ad0659a86e75dc4a5a204ebc05405f62abf2ca1e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017465"
+ms.locfileid: "4433972"
 ---
 # <a name="warehouse-management-overview"></a>Sandėlio valdymo apžvalga
 
@@ -32,7 +32,7 @@ Sandėlio valdymo modulis leidžia valdyti sandėlio procesus gamybos, platinimo
 ## <a name="get-started"></a>Pradžia
 Norėdami pradėti dirbti su moduliu Sandėlio valdymas, turite nustatyti bendruosius sandėlio parametrus, kad būtų galima palaikyti jūsų įmonės verslo procesus.
 
-- Norėdami nustatyti bendruosius sandėlio parametrus, eikite į puslapį **Sandėlio valdymo parametrai** , esantį dalyje **Sandėlio valdymas** > **Sąranka**.
+- Norėdami nustatyti bendruosius sandėlio parametrus, eikite į puslapį **Sandėlio valdymo parametrai**, esantį dalyje **Sandėlio valdymas** > **Sąranka**.
 
 Pagal verslo poreikius turite sukonfigūruoti sandėlio gavimo ir siuntimo procesų darbo eigų komponentus. Svarbiausi komponentai, kuriuos turite sukonfigūruoti, yra bangos šablonai, darbo šablonai, darbo telkiniai ir vietų nurodymai.
 

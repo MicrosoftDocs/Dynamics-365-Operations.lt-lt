@@ -17,11 +17,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 6ba5d8bc0c22f97e6d2ce61c636090e04fae5abd
-ms.sourcegitcommit: 27233e0fda61dac541c5210ca8d94ab4ba74966f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3651621"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433525"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Pranešti kaip baigtą iš užduoties kortelės įrenginio
 
@@ -103,7 +103,7 @@ Norėdami pateikti iš anksto nustatytų paketo numerių sąrašą, atlikite ši
 1. Eikite į **Atsargų valdymas \> Sąranka > Dimensijos \> Sekimo numerių grupės**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Taip**.
-1. Naudokite**Kiekiui** laukelį, kad išskirstytumėte paketo numerius pagal kiekį pagal jūsų įvedamą vertę. Pavyzdžiui, turite produkto užsakymą dešimčiai veinetų, o **Kiekio** laukelis yra nustatytas į *2*. Šiuo atveju, sukurti penki paketo numerius bus priskirti gamybos užsakymui.
+1. Naudokite **Kiekiui** laukelį, kad išskirstytumėte paketo numerius pagal kiekį pagal jūsų įvedamą vertę. Pavyzdžiui, turite produkto užsakymą dešimčiai veinetų, o **Kiekio** laukelis yra nustatytas į *2*. Šiuo atveju, sukurti penki paketo numerius bus priskirti gamybos užsakymui.
 
     ![Sekimo numeris iš anksto nustatyto paketo numerių grupei](media/tracking-number-group-predefined.png "Sekimo numeris iš anksto nustatyto paketo numerių grupei")
 
@@ -186,7 +186,7 @@ Tam, kad pateiktumėte iš anksto nustatytą serijinių numerių sąrašą, atli
 1. Eikite į **Atsargų valdymas \>Nustatymas \>Dimensijos \>Sekimo numerių grupes**.
 1. Sukurkite arba pasirinkite sekimo numerių grupę, kurią norite nustatyti.
 1. **Bendra** skirtuke „FastTab” nustatykite **Tik atsargų operacijos** pasirinktį į **Taip**.
-1. Naudokite**Kiekiui** laukelį, kad išskirstytumėte serijinius numerius kiekiams po vieną.
+1. Naudokite **Kiekiui** laukelį, kad išskirstytumėte serijinius numerius kiekiams po vieną.
 
     ![Sekimo numeris iš anksto nustatyto serijinių numerių grupei](media/tracking-number-group-predefined-sn.png "Sekimo numeris iš anksto nustatyto serijinių numerių grupei")
 

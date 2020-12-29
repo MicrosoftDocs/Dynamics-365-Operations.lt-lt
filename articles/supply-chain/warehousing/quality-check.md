@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: dfb71f74732d65409003c4f6f74145442a1efa3f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016636"
+ms.locfileid: "4433991"
 ---
 # <a name="quality-check"></a>Kokybės patikra
 
@@ -91,7 +91,7 @@ Kokybės tikrinimo šablonas nustato taisykles dėl greitos taško kokybės pati
 Darbo klasės yra naudojamos valdyti ir (arba) apriboti darbo tvarkos tipo eilutes, kurias sandėlio darbuotojai gali apdoroti mobiliame prietaise.
 
 1. Eikite į **Sandėlio valdymas \> Nustatymas \> Darbas \> Darbo klasės**.
-1. Pasirinkite **Naujas** , kad sukurtumėte darbo klasę.
+1. Pasirinkite **Naujas**, kad sukurtumėte darbo klasę.
 1. Antraštėje nustatykite šias vertes:
 
     - **Darbo klasės ID:** *QC patikra*
@@ -132,7 +132,7 @@ Darbo šablonai leidžia jums nustatyti darbo operacijas, kurios turi būti atli
 
         Pasirinkite unikalųjį darbo klasės ID. Galite naudodami šią reikšmę konfigūruoti meniu elementus mobiliajame įrenginyje ir darbų, kuriuos tie meniu elementai gali apdoroti, tipus.
 
-1. Veiksmų juostoje pasirinkite **Įrašyti** , kad įrašytumėte savo darbą iki dabar.
+1. Veiksmų juostoje pasirinkite **Įrašyti**, kad įrašytumėte savo darbą iki dabar.
 
     Gausite informacinį pranešimą sakantį „Negalima - kokybės patikra turi eiti iškart po paėmimo.“ Dėl to, privalote pakeisti **Eilutės numerio** vertę eilutei, kuri buvo kątik įtraukta.
 
@@ -218,8 +218,8 @@ Vietos nurodymai yra taisyklės, kurios padeda identifikuoti atsargų judėjimo 
 
     *QMS* vieta yra sandėlio vietoje kokybei.
 
-1. Pasirinkite **Gerai** , kad uždarytumėte dialogo langą.
-1. Privalote pakeisti įsigijimo užsakymo vietos seką sandėlio direktyvoms *51*. Pasirinkite naują *51 į kokybę* vietos direktyvą, atnaujinkite puslapį ir tuomet pasirinkite vietos direktyvą sąraše. Tuomet naudokite **Judinimo aukštyn** ir **Judinimo žemyn** mygtukus veiksmų juostoje, kad padėtumėte vietos direktyvą sandėliui *51* tokia tvarka. (Prieš pasirinkdami **Judėjimą aukštyn** ar **Judėjimą žemyn** , privalote pasirinkti vietos direktyvą sąraše.)
+1. Pasirinkite **Gerai**, kad uždarytumėte dialogo langą.
+1. Privalote pakeisti įsigijimo užsakymo vietos seką sandėlio direktyvoms *51*. Pasirinkite naują *51 į kokybę* vietos direktyvą, atnaujinkite puslapį ir tuomet pasirinkite vietos direktyvą sąraše. Tuomet naudokite **Judinimo aukštyn** ir **Judinimo žemyn** mygtukus veiksmų juostoje, kad padėtumėte vietos direktyvą sandėliui *51* tokia tvarka. (Prieš pasirinkdami **Judėjimą aukštyn** ar **Judėjimą žemyn**, privalote pasirinkti vietos direktyvą sąraše.)
 
     1. 51 į kokybę
     2. 51 PO Direct
@@ -308,10 +308,10 @@ Po to, kai įsigijimo užsakymas buvo sukurtas, jis gali būti gaunamas naudojan
 1. Patvirtinkite įsigijimo užsakymo numerį.
 1. **LINENUM** laukelyje įveskite įsigijimo užsakymo eilutės numerį, kuris yra gaunamas. Kadangi užsakymas turi tik vieną eilutę šiame scenarijuje, jūs taip pat įvesite *1* **LINENUM** laukelyje kiekvienam gavimo žingsniui.
 1. Patvirtinkite eilutės numerį.
-1. **QTY** laukelyje įveskite gaunamą kiekį. Kadangi įsigijimo užsakymas yra trims padėklams ( *PL* ) šiame scenarijuje ir esama trijų gavimo žingsnių, įvesite *1* **QTY** laukelyje kiekvienam gavimo žingsniui.
+1. **QTY** laukelyje įveskite gaunamą kiekį. Kadangi įsigijimo užsakymas yra trims padėklams (*PL*) šiame scenarijuje ir esama trijų gavimo žingsnių, įvesite *1* **QTY** laukelyje kiekvienam gavimo žingsniui.
 1. Patvirtinkite kiekį.
 
-    **Kokybės tikrinimo** puslapis pasirodo neturintis jokių įrašų laukelių. Jis turi tik patvirtinimą (žymimos žymės) mygtuką meniu mygtuko apačioje ( **≡** ) viršuje. (Meniu mygtukas kartais vadinamas mėsainiu ar mėsainio mygtuku.) Jis skirtas tirti kokybės tikrinimo procesą, kai padėklai praeina kokybės tikrinimą, vartotojas tik patvirtina **Kokybės tikrinimo** puslapį.
+    **Kokybės tikrinimo** puslapis pasirodo neturintis jokių įrašų laukelių. Jis turi tik patvirtinimą (žymimos žymės) mygtuką meniu mygtuko apačioje (**≡**) viršuje. (Meniu mygtukas kartais vadinamas mėsainiu ar mėsainio mygtuku.) Jis skirtas tirti kokybės tikrinimo procesą, kai padėklai praeina kokybės tikrinimą, vartotojas tik patvirtina **Kokybės tikrinimo** puslapį.
 
     ![Kokybės patikros puslapis](media/quality-check.png "Kokybės patikros puslapis")
 
@@ -342,7 +342,7 @@ Po to, kai įsigijimo užsakymas buvo sukurtas, jis gali būti gaunamas naudojan
 
     **Kokybės patikra** puslapis pasirodo. Dėl šio kvito, padėklas bus atmestas dėl kokybės ir bus padėtas į *QMS* kokybės vietą.
 
-1. Pasirinkite meniu mygtuką ( **≡** ) puslapio viršuje ir tuomet meniu pasirinkite **Atsisakyti** grįžimui į meniu.
+1. Pasirinkite meniu mygtuką (**≡**) puslapio viršuje ir tuomet meniu pasirinkite **Atsisakyti** grįžimui į meniu.
 1. **Užduoties** pasirodančiame puslapyje įveskite **QMS** kaip *Padėta* vietoje tam, kad siųstumėte padėklą tolesnei patikrai.
 
     **Kokybė kokybės patikroje: Padėti** puslapis, kuris rodo informaciją apie paėjimo darbą:
@@ -394,6 +394,6 @@ Dėl išsamesnės informacijos apie kokybės valdymą, žr. [Kokybės valdymo pe
 
     **Užduoties** puslapyje įsigijimo užsakymo linijos gavime, matysite „Darbas užbaigtas“ pranešimą. **LINENUM** laukelis yra prieinamas, todėl galite pradėti gauti kitą padėklą.
 
-1. Pasirinkite meniu mygtuką ( **≡** ) puslapio viršuje ir tuomet meniu pasirinkite **Atšaukti** grįžimui į meniu.
+1. Pasirinkite meniu mygtuką (**≡**) puslapio viršuje ir tuomet meniu pasirinkite **Atšaukti** grįžimui į meniu.
 
 Dabar galite uždaryti mobiliąją programą.

@@ -16,11 +16,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e45c80718c73ad785643c2a5fc0e712b291104d5
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383118"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433887"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Nustatyti įsigijimo kategorijų hierarchiją
 
@@ -34,7 +34,7 @@ ms.locfileid: "3383118"
 2. Veiksmų srityje pasirinkite **Redaguoti kategorijų hierarchiją**. Kairiojoje puslapio pusėje rodoma dabartinė įsigijimo kategorijų hierarchija. Ketinate pakeisti hierarchiją.  
 3. Veiksmų srityje pasirinkite **Naujas kategorijos mazgas**. Sistema pasirenka viršutinį mazgą pagal numatytuosius nustatymus. Jei vykdote šią procedūrą kaip užduoties vadovą, galite spustelėti mygtuką „Atrakinti“ ir pasirinkti kitą pirminį mazgą, į kurį galėsite įterpti savo naująjį mazgą. Tai atlikę, vėl užrakinkite užduoties vadovą, o tada spustelėkite „Nauja kategorijos mazgas“.  
 4. Lauke **Pavadinimas** įveskite reikšmę.
-5. Lauke **Aprašo laukas**surinkite reikšmę.
+5. Lauke **Aprašo laukas** surinkite reikšmę.
 6. Lauke **Patogus pavadinimas** įveskite reikšmę. Pasirinktinai galite įvesti patogų pavadinimą. Jis bus rodomas kategorijos peržvalgose kartu su kategorijos pavadinimu.  
 7. Pasirinkite **Įrašyti**.
 

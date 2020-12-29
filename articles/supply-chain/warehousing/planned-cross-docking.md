@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017764"
+ms.locfileid: "4433993"
 ---
 # <a name="planned-cross-docking"></a>Suplanuotas prekių skirstymas
 
@@ -93,7 +93,7 @@ Suplanuotas prekių skirstymas yra įgyvendinamas kaip krovinio registravimo met
 
     - **Patikrinti laiko langą:** *Taip*
 
-        Ši pasirinktis nurodo, ar maksimalaus laiko langas turi būti įvertintas, kai pasirinktas tiekimo šaltinis. Jei ši pasirinktis nustatyta kaip *Taip* , laukai, susiję su maksimalaus ir minimalaus laiko langais, bus prieinami.
+        Ši pasirinktis nurodo, ar maksimalaus laiko langas turi būti įvertintas, kai pasirinktas tiekimo šaltinis. Jei ši pasirinktis nustatyta kaip *Taip*, laukai, susiję su maksimalaus ir minimalaus laiko langais, bus prieinami.
 
     - **Maksimalus laiko langais:** *5*
 
@@ -281,7 +281,7 @@ Antroji sukurta darbo ID yra **Darbo užsakymo tipo** *Pirkimo užsakymas* reik�
 1. Pasirinkite **Gerai**.
 1. Kitame puslapyje nustatykite lauką **Prekė** į *A0001*.
 1. Pasirinkite **Gerai**.
-1. Kitame puslapyje patvirtinkite **PU numerio** , **Prekės** ir **Kiekio** reikšmes pasirinkdami **Gerai**.
+1. Kitame puslapyje patvirtinkite **PU numerio**, **Prekės** ir **Kiekio** reikšmes pasirinkdami **Gerai**.
 
     Gaunate Pabaigtas darbas pranešimą.
 
@@ -294,7 +294,7 @@ Antroji sukurta darbo ID yra **Darbo užsakymo tipo** *Pirkimo užsakymas* reik�
 1. Mobiliajame įrenginyje eikite į **Gavimas \> Pirkimo padėjimas** ir įveskite tikslinę darbo numerio lentelę.
 1. Lauke **ID** įveskite tikslinės numerio lentelės ID iš darbo informacijos.
 
-    Prekių skirstymo paėmimo puslapyje pateikiama paėmimo vieta ( *RECV* ), tikslinė numerio lentelė ( *numerio lentelė* ), prekė ( *A0001* ) ir kiekis ( *3* ).
+    Prekių skirstymo paėmimo puslapyje pateikiama paėmimo vieta (*RECV*), tikslinė numerio lentelė (*numerio lentelė*), prekė (*A0001*) ir kiekis (*3*).
 
 1. Pasirinkite **Gerai**.
 1. Lauke **Tikslinė LP** įveskite tikslinės numerio lentelės ID, kuri turi būti įtraukta (perskirstyta) į siuntimo vietą. Galite pasirinkti bet kurį savo pasirinktą numerio lentelės ID.

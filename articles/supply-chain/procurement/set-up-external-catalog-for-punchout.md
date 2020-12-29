@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018264"
+ms.locfileid: "4433970"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Išorinio katalogo nustatymas el. įsigijimų išėjimo laikui žymėti
 
@@ -58,7 +58,7 @@ Išorinis katalogas turi leisti pirkimo paraišką įvedusį darbuotoją nukreip
 3. Pasirinkite, ar tiekėjo išorinio katalogo svetainė turi būti rodoma tame pačiame naršyklės lange, kuriame darbuotojas sukūrė paraišką, ar ji turi būti atidaroma naujame lange.
 4. Pasirinkite katalogo tiekėją. Sąraše **Juridiniai subjektai** eilutėmis pateikti visi juridiniai subjektai, kuriuose nustatytas tiekėjas. Norėdami, kad vartotojai produktų užklausas galėtų teikti tiesiogiai tiekėjo kataloge tik kai kuriuose juridiniuose subjektuose, prie kiekvieno juridinio subjekto, kuriame norite nustatyti katalogo pasiekiamumą, galite naudoti mygtukus **Neleisti prieigos** arba **Leisti prieigą**.
 5. Lauke **Numatytoji galiojimo pabaiga (dienomis)** įveskite skaičių dienų, kurių metu galioja iš išorinio katalogo gautas pasiūlymas ir kurį naudojant galima pirkti iš išorinio tiekėjo. Sukūrus pasiūlymą ir jį gavus iš tiekėjo išorinio katalogo svetainės, pasiūlymas galioja nuo dabartinės sistemos datos ir galioja tokį dienų skaičių, kurį įrašėte šiame lauke.
-6. Spustelėkite mygtuką **Įtraukti** , kad įsigijimo kategorijas pradėtumėte sieti su išoriniu katalogu.Tada sąraše Kategorijos pavadinimas pasirinkite kategoriją. Kategorijų sąrašas yra įsigijimo kategorijų, su kuriomis tiekėjas susietas visuose nustatytuose jo juridiniuose subjektuose, antaibis.
+6. Spustelėkite mygtuką **Įtraukti**, kad įsigijimo kategorijas pradėtumėte sieti su išoriniu katalogu.Tada sąraše Kategorijos pavadinimas pasirinkite kategoriją. Kategorijų sąrašas yra įsigijimo kategorijų, su kuriomis tiekėjas susietas visuose nustatytuose jo juridiniuose subjektuose, antaibis.
 
     > [!NOTE]
     > Įsigijimo strategijos naudojamos leidžiant arba ribojant perkančio juridinio subjekto arba priimančio valdymo vieneto prieigą prie kategorijų.Norint išeiti į išorinį katalogą, reikia leisti prieigą prie bent vienos su katalogu susietos įsigijimo kategorijos.

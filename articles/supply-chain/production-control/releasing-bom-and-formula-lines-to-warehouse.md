@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: lt-LT
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017235"
+ms.locfileid: "4433938"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>KS ir formulių eilučių išdavimas į sandėlį
 
@@ -46,7 +46,7 @@ Trumpa demonstracija, kaip išleisti KS ir formulės eilutes į gamybą naudojan
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>KS ir formulės eilučių išdavimas naudojant paketinę užduotį
 
-Paketinė užduotis **Automatinis KS ir formulės eilučių išdavimas** apdoroja pasirinktas KS ir formulės eilutes, turinčias likusio kiekio, kurį reikia išduoti. Užduotis tikrina tik užsakymus, kurių būsena yra **Išduota** , **Pradėta** arba **Paskelbta baigtu**. Jei KS arba formulės eilutėje yra likusio kiekio, kurį reikia išduoti, užduotis išduoda kiekį, kurį gali padengti jau faktiškai rezervuotas kiekis ir faktiškai turimas kiekis.
+Paketinė užduotis **Automatinis KS ir formulės eilučių išdavimas** apdoroja pasirinktas KS ir formulės eilutes, turinčias likusio kiekio, kurį reikia išduoti. Užduotis tikrina tik užsakymus, kurių būsena yra **Išduota**, **Pradėta** arba **Paskelbta baigtu**. Jei KS arba formulės eilutėje yra likusio kiekio, kurį reikia išduoti, užduotis išduoda kiekį, kurį gali padengti jau faktiškai rezervuotas kiekis ir faktiškai turimas kiekis.
 
 ### <a name="example-of-a-batch-job-release"></a>Paketinės užduoties išdavimo pavyzdys
 
@@ -68,7 +68,7 @@ Tolesniame pavyzdyje rodomas gamybos užsakymas, kuriame yra dvi užduotys, 10 i
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Medžiagos išdavimas pagal operacijos numerį arba proporcingai baigtų prekių kiekiui
 
-Jei medžiagas išduosite naudodami parametro nustatymą **Išduodant gamybos užsakymą** , vykdydami neautomatinį išdavimą galėsite pasirinkti iš dviejų medžiagų išdavimo valdymo parinkčių, nurodytų toliau.
+Jei medžiagas išduosite naudodami parametro nustatymą **Išduodant gamybos užsakymą**, vykdydami neautomatinį išdavimą galėsite pasirinkti iš dviejų medžiagų išdavimo valdymo parinkčių, nurodytų toliau.
 
 - Išduoti medžiagą pagal operacijos numerį.
 - Išduoti medžiagą proporcingai baigtų prekių kiekiui.
@@ -77,7 +77,7 @@ Jei medžiagas išduosite naudodami parametro nustatymą **Išduodant gamybos u�
 
 Norėdami valdyti operacijas, į kurias medžiagos turi būti išduotos, naudokite puslapį **Išduoti į sandėlį**.
 
-- Pasirinkite **Gamybos valdymas** \> **Gamybos užsakymai** \> **Visi gamybos užsakymai** , pasirinkite gamybos užsakymą, tada skirtuke **Sandėlis** pasirinkite **Išduoti į sandėlį**. Tada naudokite laukus **Nuo Oper. nr.** ir **iki Oper. nr.** , kad nurodytumėte operacijos numerių intervalą.
+- Pasirinkite **Gamybos valdymas** \> **Gamybos užsakymai** \> **Visi gamybos užsakymai**, pasirinkite gamybos užsakymą, tada skirtuke **Sandėlis** pasirinkite **Išduoti į sandėlį**. Tada naudokite laukus **Nuo Oper. nr.** ir **iki Oper. nr.**, kad nurodytumėte operacijos numerių intervalą.
 
 Tolesniame pavyzdyje parodytas gamybos užsakymas, kuriame yra dvi operacijos, 10 ir 20. Šiame pavyzdyje, jei išdavimą į operaciją apribosite iki 10, bus išduota tik medžiaga M9203.
 
@@ -89,11 +89,11 @@ Trumpa demonstracija, kaip išduoti medžiagą proporcingai baigtų prekių kiek
 
 Galite išduoti dalinio baigtų prekių kiekio arba konkretaus vieneto žaliavas.
 
-- Norėdami išduoti dalinio baigtų prekių kiekio žaliavas, pasirinkite **Gamybos valdymas** \> **Gamybos užsakymai** \> **Visi gamybos užsakymai** , pasirinkite gamybos užsakymą, tada skirtuke **Sandėlis** pasirinkite **Išduoti į sandėlį**. Tada įveskite kiekį lauke **Kiekis**.
+- Norėdami išduoti dalinio baigtų prekių kiekio žaliavas, pasirinkite **Gamybos valdymas** \> **Gamybos užsakymai** \> **Visi gamybos užsakymai**, pasirinkite gamybos užsakymą, tada skirtuke **Sandėlis** pasirinkite **Išduoti į sandėlį**. Tada įveskite kiekį lauke **Kiekis**.
 
-    Pvz., sukuriamas gamybos užsakymas ir numatoma pagaminti 1 000 vienetų (vnt.). Cecho prižiūrėtojas planuoja 100 vnt. gamybą, skirtą kitai pamainai, ir nori, kad būtų išduotos tik tai pamainai skirtos medžiagos. Tokiu atveju prižiūrėtojas gali naudoti lauką **Kiekis** , kad išduotų medžiagas, skirtas 100 vnt., kuriuos planuojama pagaminti per kitą pamainą.
+    Pvz., sukuriamas gamybos užsakymas ir numatoma pagaminti 1 000 vienetų (vnt.). Cecho prižiūrėtojas planuoja 100 vnt. gamybą, skirtą kitai pamainai, ir nori, kad būtų išduotos tik tai pamainai skirtos medžiagos. Tokiu atveju prižiūrėtojas gali naudoti lauką **Kiekis**, kad išduotų medžiagas, skirtas 100 vnt., kuriuos planuojama pagaminti per kitą pamainą.
 
-- Norėdami išduoti konkretaus vieneto žaliavas, pasirinkite **Gamybos valdymas** \> **Gamybos užsakymai** \> **Visi gamybos užsakymai** , pasirinkite gamybos užsakymą, tada skirtuke **Sandėlis** pasirinkite **Išduoti į sandėlį**. Tada naudokite lauką **Vienetas** ir pasirinkite baigtos prekės medžiagos išdavimo vienetą.
+- Norėdami išduoti konkretaus vieneto žaliavas, pasirinkite **Gamybos valdymas** \> **Gamybos užsakymai** \> **Visi gamybos užsakymai**, pasirinkite gamybos užsakymą, tada skirtuke **Sandėlis** pasirinkite **Išduoti į sandėlį**. Tada naudokite lauką **Vienetas** ir pasirinkite baigtos prekės medžiagos išdavimo vienetą.
 
     Galimi vienetai yra nustatyti baigtos prekės vienetų sekų grupėje.
 

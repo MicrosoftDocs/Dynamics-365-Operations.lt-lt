@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: a7239bf5f8e53e61c4259abbcbf2ff740f4cef55
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889942"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433652"
 ---
 # <a name="inbound-and-outbound-assets"></a>Gaunamas ir siunčiamas turtas
 
@@ -40,7 +40,7 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 
 ## <a name="register-assets-as-inbound"></a>Gaunamo turto registravimas
 
-1. Pasirinkite**Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Aktyvios priežiūros užklausos**.
+1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Aktyvios priežiūros užklausos**.
 2. Pasirinkite priežiūros užklausą.
 3. Pasirinkite **Atnaujinti priežiūros užklausos būseną**.
 4. Pasirinkite **Gaunamas** (arba kitą sukurtą gaunamo turto ciklo būseną), tada pasirinkite **Gerai**.
@@ -60,7 +60,7 @@ Turto valdymo konfigūracija nulemia, ar galite dirbti su gaunamu ir siunčiamu 
 
 Atlikę priežiūros arba remonto užduotį, galite užregistruoti turtą kaip grąžintą.
 
-1. Pasirinkite**Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Aktyvios priežiūros užklausos**.
+1. Pasirinkite **Turto valdymas** \> **Bendra** \> **Priežiūros užklausos** \> **Aktyvios priežiūros užklausos**.
 2. Pasirinkite priežiūros užklausą.
 3. Pasirinkite **Atnaujinti priežiūros užklausos būseną**.
 4. Pasirinkite **Siunčiamas** (arba kitą sukurtą siunčiamo turto ciklo būseną), tada pasirinkite **Gerai**.
