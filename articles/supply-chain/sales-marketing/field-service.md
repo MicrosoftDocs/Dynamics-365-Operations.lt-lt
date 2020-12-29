@@ -1,0 +1,87 @@
+---
+title: Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga
+description: Šioje temoje pateikiama integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga.
+author: ChristianRytt
+manager: tfehr
+ms.date: 07/25/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User, IT Pro
+ms.reviewer: kamaybac
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: global
+ms.search.industry: ''
+ms.author: crytt
+ms.dyn365.ops.version: July 2017 update
+ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.translationtype: HT
+ms.contentlocale: lt-LT
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528904"
+---
+# <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a><span data-ttu-id="32004-103">Integravimo su „Microsoft Dynamics 365 Field Service“ apžvalga</span><span class="sxs-lookup"><span data-stu-id="32004-103">Integration with Microsoft Dynamics 365 Field Service overview</span></span>
+
+[!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+<span data-ttu-id="32004-104">„Supply Chain Management“ leidžia sinchronizuoti verslo procesus tarp „Dynamics 365 Supply Chain Management“ ir „Dynamics 365 Field Service“.</span><span class="sxs-lookup"><span data-stu-id="32004-104">Supply Chain Management enables synchronization of business processes between Dynamics 365 Supply Chain Management and Dynamics 365 Field Service.</span></span> <span data-ttu-id="32004-105">Integravimo scenarijai sukonfigūruojami naudojant išplečiamuosius duomenų integratoriaus šablonus ir „Common Data Service“, kad būtų galima sinchronizuoti verslo procesus.</span><span class="sxs-lookup"><span data-stu-id="32004-105">The integration scenarios are configured by using extensible Data integrator templates and Common Data Service to enable the synchronization of business processes.</span></span>
+<span data-ttu-id="32004-106">Standartiniai šablonai gali būti naudojami, siekiant sukurti pasirinktinius integravimo projektus, kuriuose papildomus standartinius ir pasirinktinius laukus bei objektus būtų galima susieti norint pakoreguoti integravimą ir atitikti specifinius verslo reikalavimus.</span><span class="sxs-lookup"><span data-stu-id="32004-106">Standard templates can be used to create custom integration projects, where additional standard and custom fields and entities can be mapped to adjust the integration and meet specific business needs.</span></span> 
+
+<span data-ttu-id="32004-107">Vietinių aptarnavimo darbuotojų integracija remiasi esamomis kliento pavertimo pinigais funkcijomis.</span><span class="sxs-lookup"><span data-stu-id="32004-107">The field service integration builds on top of the existing prospect-to-cash functionality.</span></span>
+
+![Verslo procesų sinchronizavimas tarp „Supply Chain Management“ ir „Field Service“](./media/field-service-integration.png)
+
+<span data-ttu-id="32004-109">Pirmasis integravimo tarp „Field Service“ ir „Supply Chain Management“ etapas orientuotas į darbo užsakymų ir sutarčių įgalinimą „Field Service“, kad „Supply Chain Management“ būtų galima išrašyti SF.</span><span class="sxs-lookup"><span data-stu-id="32004-109">The first phase  of the integration between Field Service and Supply Chain Management is focused on enabling work orders and agreements in Field Service to be invoiced in Supply Chain Management.</span></span> <span data-ttu-id="32004-110">Palaikomas srautas pradedamas „Field Service“, kai darbo užsakymų informacija su „Supply Chain Management“ būtų sinchronizuojama kaip pardavimo užsakymai.</span><span class="sxs-lookup"><span data-stu-id="32004-110">The supported flow starts in Field Service, where information from work orders is synchronized to Supply Chain Management as sales orders.</span></span> <span data-ttu-id="32004-111">Dirbant su „Supply Chain Management“ išrašomos pardavimo užsakymų SF dokumentams generuoti.</span><span class="sxs-lookup"><span data-stu-id="32004-111">In Supply Chain Management, the sales orders are invoiced to generate invoice documents.</span></span> <span data-ttu-id="32004-112">Be to, „Field Service“ pateikiama sutarčių SF informacija sinchronizuojama su „Supply Chain Management“.</span><span class="sxs-lookup"><span data-stu-id="32004-112">In addition, the information from Field Service agreement invoices is synchronized to Supply Chain Management.</span></span> <span data-ttu-id="32004-113">„Microsoft Dynamics 365“ duomenų integratorius sinchronizuoja duomenis panaudodamas pritaikomus projektus.</span><span class="sxs-lookup"><span data-stu-id="32004-113">The Microsoft Dynamics 365 Data integrator synchronizes data by using customizable projects.</span></span> <span data-ttu-id="32004-114">Standartiniai šablonai gali būti naudojami, siekiant sukurti pasirinktinius integravimo projektus, kuriuose papildomus standartinius ir pasirinktinius laukus bei objektus būtų galima susieti norint pakoreguoti integravimą ir atitikti specifinius reikalavimus.</span><span class="sxs-lookup"><span data-stu-id="32004-114">Standard templates can be used to create custom integration projects where additional standard and custom fields, and also entities, can be mapped to adjust the integration and meet specific requirements.</span></span>
+
+<span data-ttu-id="32004-115">Pirmame integravimo tarp „Field Service“ ir „Supply Chain Management“ etape galima sinchronizuoti toliau nurodytus elementus.</span><span class="sxs-lookup"><span data-stu-id="32004-115">The first phase of the integration between Field Service and Supply Chain Management enables synchronization of the following items:</span></span>
+
+- [<span data-ttu-id="32004-116">Tiesioginis „Supply Chain Management“ produktų sinchronizavimas su „Field Service“ produktais</span><span class="sxs-lookup"><span data-stu-id="32004-116">Synchronize products in Supply Chain Management to products in Field Service</span></span>](field-service-product.md)
+- [<span data-ttu-id="32004-117">„Field Service“ darbo užsakymų sinchronizavimas su „Supply Chain Management“ pardavimo užsakymais</span><span class="sxs-lookup"><span data-stu-id="32004-117">Synchronize work orders in Field Service to sales orders in Supply Chain Management</span></span>](field-service-work-order.md)
+- [<span data-ttu-id="32004-118">Sinchronizuokite „Field Service“ sutarčių SF su „Supply Chain Management“ laisvos formos SF</span><span class="sxs-lookup"><span data-stu-id="32004-118">Synchronize agreement invoices in Field Service to free text invoices in Supply Chain Management</span></span>](field-service-invoice.md)
+
+<span data-ttu-id="32004-119">Norėdami pamatyti pavyzdį, kaip galima sinchronizuoti darbo užsakymą tarp „Field Service“ ir „Supply Chain Management“, peržiūrėkite trumpą „YouTube“ vaizdo įrašą [Kaip sinchronizuoti darbo užsakymą su „Microsoft Dynamics 365 Integration“](https://www.youtube.com/watch?v=46ylO7raZAo).</span><span class="sxs-lookup"><span data-stu-id="32004-119">To see an example of how you can synchronize a work order between Field Service and Supply Chain Management, watch the short YouTube video [How to synchronize a work order with Microsoft Dynamics 365 Integration](https://www.youtube.com/watch?v=46ylO7raZAo).</span></span>
+
+## <a name="integration-with-field-service-including-inventory-and-project-information"></a><span data-ttu-id="32004-120">Integravimas su „Field Service“, įskaitant atsargų ir projekto informaciją</span><span class="sxs-lookup"><span data-stu-id="32004-120">Integration with Field Service, including inventory and project information</span></span>
+
+<span data-ttu-id="32004-121">Papildomos funkcijos šiame antrajame etape skirtos suteikti vietiniams aptarnavimo darbuotojams įžvalgų apie atsargų informaciją iš „Supply Chain Management“, todėl jie gali atnaujinti atsargų lygius ir atlikti medžiagų perkėlimus.</span><span class="sxs-lookup"><span data-stu-id="32004-121">The additional functionality in this second phase focused on giving field technicians insight about the inventory information from Supply Chain Management, allowing them to update inventory levels and do material transfers.</span></span> <span data-ttu-id="32004-122">Be to, įmonės, montuojančios ar aptarnaujančios parduotas prekes, galės geriau kontroliuoti ir matyti visą pardavimo ir aptarnavimo procesą, naudodamosios projektų integracija.</span><span class="sxs-lookup"><span data-stu-id="32004-122">In addition, companies installing or servicing sold goods will benefit from better control and visibility to the full sales and service process with integration from projects.</span></span>
+
+### <a name="functionality-includes-integration-of"></a><span data-ttu-id="32004-123">Funkcijos apima šių aspektų integravimą:</span><span class="sxs-lookup"><span data-stu-id="32004-123">Functionality includes integration of:</span></span>
+- <span data-ttu-id="32004-124">Sandėlių informacija</span><span class="sxs-lookup"><span data-stu-id="32004-124">Warehouse information</span></span>
+- <span data-ttu-id="32004-125">Informacija apie turimas atsargas</span><span class="sxs-lookup"><span data-stu-id="32004-125">On-hand inventory information</span></span>
+- <span data-ttu-id="32004-126">Atsargų perkėlimas</span><span class="sxs-lookup"><span data-stu-id="32004-126">Inventory transfers</span></span>
+- <span data-ttu-id="32004-127">Atsargų koregavimas</span><span class="sxs-lookup"><span data-stu-id="32004-127">Inventory adjustments</span></span>
+- <span data-ttu-id="32004-128">„Supply Chain Management“ projektai, susiję su „Dynamics 365 Field Service“ darbo užsakymais</span><span class="sxs-lookup"><span data-stu-id="32004-128">Supply Chain Management projects connected with Dynamics 365 Field Service work orders</span></span>
+- <span data-ttu-id="32004-129">„Dynamics 365 Field Service“ darbo užsakymai, su nuoroda į „Supply Chain Management“ projektus, naudoja šį projekto numerį pardavimo užsakymui, kad būtų galima išrašyti projekto SF.</span><span class="sxs-lookup"><span data-stu-id="32004-129">Dynamics 365 Field Service work orders with link to Supply Chain Management projects, apply this project number to the sales order to allow invoicing from the project.</span></span> 
+
+![Verslo procesų sinchronizavimas tarp „Supply Chain Management“ ir „Field Service“](./media/FSv2overview.png)
+
+### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a><span data-ttu-id="32004-131">Antrame integravimo tarp „Field Service“ ir „Supply Chain Management“ etape galima sinchronizuoti su toliau nurodytais šablonais:</span><span class="sxs-lookup"><span data-stu-id="32004-131">The second phase of the integration between Field Service and Supply Chain Management enables synchronization with the following templates:</span></span>
+- <span data-ttu-id="32004-132">Sandėliai („Supply Chain Management“ į „Field Service“) - Sandėliai iš „Supply Chain Management“ į „Field Service“ [Papildoma užklausa]</span><span class="sxs-lookup"><span data-stu-id="32004-132">Warehouses (Supply Chain Management to Field Service) - Warehouses from Supply Chain Management to Field Service [Advanced Query]</span></span> 
+- <span data-ttu-id="32004-133">Produkto inventorius („Supply Chain Management“ į „Field Service“) - Inventoriaus lygio informacija iš „Supply Chain Management“ į „Field Service“ [Papildoma užklausa]</span><span class="sxs-lookup"><span data-stu-id="32004-133">Product Inventory (Supply Chain Management to Field Service) - Inventory level information from Supply Chain Management to Field Service [Advanced Query]</span></span> 
+- <span data-ttu-id="32004-134">Produkto derinimas („Field Service“ į „Supply Chain Management“) - Inventoriaus keitimai iš „Field Service“ į „Supply Chain Management“ [Papildoma užklausa]</span><span class="sxs-lookup"><span data-stu-id="32004-134">Inventory Adjustment (Field Service to Supply Chain Management) - Inventory adjustments from Field Service to Supply Chain Management [Advanced Query]</span></span> 
+- <span data-ttu-id="32004-135">Produkto perdavimai („Field Service“ į „Supply Chain Management“) - Inventoriaus perdavimai iš „Field Service“ į „Supply Chain Management“ [Papildoma užklausa]</span><span class="sxs-lookup"><span data-stu-id="32004-135">Inventory Transfers (Field Service to Supply Chain Management) - Inventory transfers from Field Service to Supply Chain Management [Advanced Query]</span></span> 
+- <span data-ttu-id="32004-136">Projektai („Supply Chain Management“ su „Field Service“) – projektų sąrašas iš „Supply Chain Management“ su „Field Service“</span><span class="sxs-lookup"><span data-stu-id="32004-136">Projects (Supply Chain Management to Field Service) - Project list from Supply Chain Management to Field Service</span></span> 
+- <span data-ttu-id="32004-137">Darbo užsakymai su projektu („Field Service“ į „Supply Chain Management“) - Darbo užsakymai  iš „Field Service“ į Pardavimo užsakymus „Supply Chain Management“ su pagalba Projektui[Papildoma užklausa]</span><span class="sxs-lookup"><span data-stu-id="32004-137">Work Orders with Project (Field Service to Supply Chain Management) - Work orders in Field Service to Sales orders  in Supply Chain Management, with support for Project [Advanced Query]</span></span> 
+- <span data-ttu-id="32004-138">„Field Service“ produktai su atsargų vienetu („Supply Chain Management“ su „Sales“) – „Supply Chain Management“ „Parduotini išleisti produktai“ su pardavimo „produktais“, skirtais „Field Service“, įskaitant atsargų vienetą.</span><span class="sxs-lookup"><span data-stu-id="32004-138">Field Service Products with Inventory unit (Supply Chain Management to Sales) - Supply Chain Management 'Sellable released products' to Sales 'Products' for Field Service, including Inventory unit</span></span> 
+
+## <a name="system-requirements"></a><span data-ttu-id="32004-139">Sistemos reikalavimai</span><span class="sxs-lookup"><span data-stu-id="32004-139">System requirements</span></span>
+
+### <a name="system-requirements-for-supply-chain-management"></a><span data-ttu-id="32004-140">„Supply Chain Management“ sistemos reikalavimai</span><span class="sxs-lookup"><span data-stu-id="32004-140">System requirements for Supply Chain Management</span></span>
+<span data-ttu-id="32004-141">„Field Service“ integravimas palaikomas toliau nurodytose versijose.</span><span class="sxs-lookup"><span data-stu-id="32004-141">Field Service integration supports the following versions:</span></span>
+
+- <span data-ttu-id="32004-142">„Dynamics 365 for Finance and Operations“ 8.1.2 versija (2018 m. gruodžio mėn.) išleista 2018 m. gruodį ir jos programos versijos numeris yra 8.1.195, o platformos atnaujinimas – 22 (7.0.5095).</span><span class="sxs-lookup"><span data-stu-id="32004-142">Dynamics 365 for Finance and Operations version 8.1.2 (December 2018) was released in December 2018 and has an application build number 8.1.195 with Platform update 22 (7.0.5095).</span></span> 
+
+### <a name="system-requirements-for-field-service"></a><span data-ttu-id="32004-143">„Field Service“ sistemos reikalavimai</span><span class="sxs-lookup"><span data-stu-id="32004-143">System requirements for Field Service</span></span>
+<span data-ttu-id="32004-144">Norėdami naudoti sprendimą „Field Service“, turite įdiegti toliau nurodytus komponentus.</span><span class="sxs-lookup"><span data-stu-id="32004-144">To use the Field Service integration solution, you must install the following components:</span></span>
+
+- <span data-ttu-id="32004-145">„Field Service“ (8.2.0.286 versija) arba naujesnė versija programoje „Dynamics 365 9.1.x“ – išleista 2018 m. lapkričio mėn.</span><span class="sxs-lookup"><span data-stu-id="32004-145">Field Service (version 8.2.0.286) or a later version on Dynamics 365 9.1.x - Released November 2018</span></span>
+- <span data-ttu-id="32004-146">„Dynamics 365“ skirtą sprendimą „Potencialūs klientai ir grynieji pinigai“ (P2C), 1.15.0.1 arba naujesnė versija.</span><span class="sxs-lookup"><span data-stu-id="32004-146">Prospect to Cash (P2C) solution for Dynamics 365, version 1.15.0.1 or a later version.</span></span> <span data-ttu-id="32004-147">Sprendimą galima atsisiųsti iš [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).</span><span class="sxs-lookup"><span data-stu-id="32004-147">The solution is available for download from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).</span></span>
+- <span data-ttu-id="32004-148">„Dynamics 365“ skirtas „Field Service“ integravimo, projekto ir atsargų sprendimas, 2.0.0.0 arba naujesnė versija.</span><span class="sxs-lookup"><span data-stu-id="32004-148">'Field Service Integration, Project and Inventory' solution for Dynamics 365, version 2.0.0.0 or a later version.</span></span> <span data-ttu-id="32004-149">Sprendimą galima atsisiųsti iš [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).</span><span class="sxs-lookup"><span data-stu-id="32004-149">The solution is available for download from [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).</span></span>
