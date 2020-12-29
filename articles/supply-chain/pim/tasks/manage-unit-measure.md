@@ -17,11 +17,11 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d8d9b6f18fdc1c47d6a695ca6a2330f6f02fc1bd
-ms.sourcegitcommit: cde71bc7d14ea6cdff2c4e991057d39a6a0473d9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/24/2020
-ms.locfileid: "3886997"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433449"
 ---
 # <a name="manage-unit-of-measure"></a>Tvarkyti matavimo vienetą
 
@@ -35,7 +35,7 @@ ms.locfileid: "3886997"
 ## <a name="create-a-unit-of-measure"></a>Kurti matavimo vienetą
 1. Spustelėkite **Naujas**.
 2. Lauke **Vienetas** įveskite reikšmę. Įveskite ID arba simbolį, naudojamą nurodant matavimo vienetą.  
-3. Lauke **Aprašymas įveskite**surinkite reikšmę. Įveskite matavimo vieneto aprašomąjį pavadinimą sistemos kalba.  
+3. Lauke **Aprašymas įveskite** surinkite reikšmę. Įveskite matavimo vieneto aprašomąjį pavadinimą sistemos kalba.  
 4. Lauke **Vieneto klasė** pasirinkite parinktį. Vieneto klasė apibrėžia, kokiai loginei grupei, pvz., plotui, masei ar kiekiui, priklauso matavimo vienetas.  
 5. Lauke **Dešimtainis tikslumas** įveskite skaičių. Nurodykite dešimtainių dalių skaičių, iki kurio turi būti apvalinamas konvertuojamas matavimo vienetas atlikus skaičiavimą su šiuo matavimo vienetu.  
 6. Spustelėkite **Įrašyti**.
@@ -50,7 +50,7 @@ ms.locfileid: "3886997"
 7. **Veiksmų srityje** spustelėkite **Išversti vienetų aprašai**.
 8. Spustelėkite **Naujas**. Nurodykite matavimo vieneto aprašus konkrečia kalba.  
 9. Lauke **Kalba** įveskite arba pasirinkite reikšmę.
-10. Lauke **Aprašymas įveskite**surinkite reikšmę.
+10. Lauke **Aprašymas įveskite** surinkite reikšmę.
 11. Spustelėkite **Įrašyti**.
 12. Uždarykite puslapį.
 

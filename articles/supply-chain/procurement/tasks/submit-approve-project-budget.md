@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 14683554c45db72061ecbbf4a528656df3132692
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207457"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433406"
 ---
 # <a name="submit-and-approve-project-budget"></a>Teikti ir tvirtinti projekto biudžetą
 
@@ -39,7 +39,7 @@ Kai kuriate projekto biudžetą, galite įvesti įvertintas projekto įplaukas i
 3. Sąraše spustelėkite saitą pasirinktoje eilutėje.
 4. Parinktyje **Veiksmų sritis** spustelėkite **Planas**.
 5. Spustelėkite **Projekto biudžetas**.
-6. Lauke **Aprašo laukas**surinkite reikšmę.
+6. Lauke **Aprašo laukas** surinkite reikšmę.
 7. Išplėskite „fastTab“ **Išlaidos**.
 8. Spustelėkite **Naujas**.
 9. Lauke **Operacijos tipas** pažymėkite parinktį.

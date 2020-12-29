@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
 ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895454"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433366"
 ---
 # <a name="product-dimensions"></a>Produktų dimensijos
 
@@ -99,7 +99,7 @@ Jums bandant jūsų sprendimą suderinamumui su versijos matmenimis, ieškokite 
     - API skambučiai išplėstomis klasėmis
     - Visos ataskaitos į konkrečių atsargų matmenis plėtinio kode (Šis kodas turi tekėti kartu su versijos matmenimis ir stiliumi, spalva ir dydžio matmenimis.).
 
-1. **Nuorodos į pasenusius API skambučius:** Savo versijos matmenų įžangoje „Microsoft“ bandė sukurti kuo mažiau pasenusių API. Keli pasenę API atsiųs perspėjimo pranešimą jums įjungus **Produkto matmenų - versijos**konfigūravimo raktą. Iškviečia tuose API, kurie turi būti sutaisyti jūsų plėtinio sprendimuose prieš jums įjungiant versijos matmenims gamybos sistemoje. Čia pateikta versijos konkretūs pasenę API:
+1. **Nuorodos į pasenusius API skambučius:** Savo versijos matmenų įžangoje „Microsoft“ bandė sukurti kuo mažiau pasenusių API. Keli pasenę API atsiųs perspėjimo pranešimą jums įjungus **Produkto matmenų - versijos** konfigūravimo raktą. Iškviečia tuose API, kurie turi būti sutaisyti jūsų plėtinio sprendimuose prieš jums įjungiant versijos matmenims gamybos sistemoje. Čia pateikta versijos konkretūs pasenę API:
 
     - RetailTransactionServiceInventory::getProductRecordId
     - EcoResProductNumberIdentifiedProductVariantEntity::find

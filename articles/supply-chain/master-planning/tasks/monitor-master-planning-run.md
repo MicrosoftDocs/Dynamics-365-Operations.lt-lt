@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 045b82af6f65b22e1c683f8de47a6df282711e6a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978135"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433369"
 ---
 # <a name="monitor-a-master-planning-run"></a>Bendrojo planavimo vykdymo stebėjimas
 
@@ -36,7 +36,7 @@ Puslapyje **Peržiūrėti bendrojo planavimo eigą** galite peržiūrėti istori
 Norėdami naudoti šią funkciją, atlikite toliau nurodytus veiksmus.
 
 1. Darbo srityje **Funkcijos valdymas** skirtuke **Naujas** iš sąrašo pasirinkite **Pagrindinio planavimo eigos vizualizavimas**. Jei funkcija neatsiranda skirtuke **Naujas**, žiūrėkite skirtukus **Neįjungta** ir **Visi**.
-1. Pasirinkite **Įjungti dabar**. Arba pasirinkite **Grafikas**ir pasirinkite laiką, kada norite, kad funkcija būtų įjungta.
+1. Pasirinkite **Įjungti dabar**. Arba pasirinkite **Grafikas** ir pasirinkite laiką, kada norite, kad funkcija būtų įjungta.
 
 Puslapyje **Bendrojo planavimo eiga** puslapyje gali būti rodomos istorinės planavimo užduotys ir aktyvios planavimo užduotys. 
 

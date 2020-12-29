@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 57e3b95cb1f4a13b49ddcd336efaeabb12e5defc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979531"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433420"
 ---
 # <a name="register-sales-commissions"></a>Pardavimo komisinių registravimas
 
@@ -37,7 +37,7 @@ Atkreipkite dėmesį į savo pasirinktus komisinių proceso kliento ir prekės n
 2. Pasirinkite **Naujas**.
 3. Lauke **Kliento sąskaita** išplečiamajame meniu pasirinkite norimą įrašą.
 4. Pasirinkite **Gerai**.
-5. Veiksmų srityje pasirinkite**Parinktys**.
+5. Veiksmų srityje pasirinkite **Parinktys**.
 6. Pasirinkite **Keisti rodinį**.
 7. Pasirinkite **Antraštės rodinys**.
 8. Išplėskite skyrių **Sąranka**.
@@ -48,7 +48,7 @@ Atkreipkite dėmesį į savo pasirinktus komisinių proceso kliento ir prekės n
     - Lauko **Komisinių grupė** reikšmė nurodo grupę, kurią sukūrėte dėl vieno arba daugiau klientų, kad galėtumėte sekti komisinius.   
     - Reikšmė kopijuojama iš dalies Kliento kortelė, tačiau, jei norite, galite ją pakeisti.   
 
-9. Veiksmų srityje pasirinkite**Parinktys**.
+9. Veiksmų srityje pasirinkite **Parinktys**.
 10. Pasirinkite **Keisti rodinį**.
 11. Pasirinkite **Eilutės rodinys**.
 12. Lauko **Prekės numeris** išplečiamajame meniu pasirinkite prekę, kurios komisinius nustatėte. 

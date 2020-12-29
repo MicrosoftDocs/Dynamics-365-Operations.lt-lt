@@ -17,11 +17,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 0471785991a307de11147e9773d9abe1e02941d6
-ms.sourcegitcommit: 97d4a9bd442fe20f90605d8154c3a947c7645b37
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3895553"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433257"
 ---
 # <a name="country-of-origin"></a>Kilmės šalis / regionas
 
@@ -41,7 +41,7 @@ Kad galėtumėte naudoti šią funkciją, ji turi būti įjungta jūsų sistemoj
 
 Prieš jums išduodant sertifikatą gaminiui privalo susieti jį su jo paskirties šalimi ir kilmės šalimi.
 
-1. Eikite į**Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Kilmės šalis \> Kilmės šalies taisyklės**.
+1. Eikite į **Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Kilmės šalis \> Kilmės šalies taisyklės**.
 2. Pasirinkite esančią šalies sąranką redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujos šalies sąranką.
 3. Naujosios politikos antraštėje, nustatykite šias vertes:
 
@@ -61,7 +61,7 @@ Privalote nuspręsti, kuriuos sertifikato dokumentus išduodate ir kaip apie juo
 
 Sertifikato informacijos nustatymui, atlikite šiuos žingsnius.
 
-1. Eikite į**Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Kilmės šalis \> Pardavėjo kilmės šalies sertifikatai**.
+1. Eikite į **Gaminio informacijas tvarkymas \> Sąranka \> Gaminio atitiktis \> Kilmės šalis \> Pardavėjo kilmės šalies sertifikatai**.
 2. Pasirinkite esančią sertifikato sąranką redagavimui arba pasirinkite **Naujas** veiksmų juostoje, kad sukurtumėte naujo sertifikato sąranką.
 3. Naujam ar pasirinktam sertifikatui nustatykite šiuose nustatymus.
 

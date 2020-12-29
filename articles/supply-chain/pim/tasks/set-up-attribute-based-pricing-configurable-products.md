@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3a75f3afcf4761ac6a9575eae9a620a1e9f01c8e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981043"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433442"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Atributais pagrįstos konfigūruojamų produktų kainodaros nustatymas
 
@@ -38,7 +38,7 @@ ms.locfileid: "3981043"
 5. Pasirinkite **Kainų modeliai**.
 6. Pasirinkite **Naujas**.
 7. Lauke **Kainos modelio pavadinimas** įveskite reikšmę. Naudokite pavadinimą, pagal kurį modelį būtų lengva identifikuoti.  
-8. Lauke **Aprašo laukas**surinkite reikšmę.
+8. Lauke **Aprašo laukas** surinkite reikšmę.
 9. Pasirinkite **Įrašyti**.
 
 ## <a name="add-price-elements"></a>Kainos elementų įtraukimas

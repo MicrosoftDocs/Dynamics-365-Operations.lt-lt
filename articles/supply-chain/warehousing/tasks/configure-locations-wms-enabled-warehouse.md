@@ -18,11 +18,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 31f016c4c8b8b08139836336ac38196fbd1fba6f
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217200"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433460"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Sandėlio, kuriame veikia WMS, vietų konfigūravimas
 
@@ -67,7 +67,7 @@ ms.locfileid: "3217200"
 1. Eikite į **Naršymo sritis > Moduliai > Sandėlio valdymas > Sąranka > Sandėlis > Vietų tipai**. Vietų tipus galima naudoti kaip filtravimo parinktis, kad būtų galima kontroliuoti skirtingus sandėlio valdymo procesus. Tam, kad galėtumėte apibrėžti siuntimo sandėlio valdymo procesą, turite sukurti bent jau išdėstymo ir galutinės siuntimo vietos tipus. 
 2. Spustelėkite **Naujas**.
 3. Lauke **Vietos** tipas įveskite reikšmę.
-4. Lauke **Aprašo laukas**surinkite reikšmę.
+4. Lauke **Aprašo laukas** surinkite reikšmę.
 5. Uždarykite puslapį.
 
 ## <a name="define-location-profile"></a>Vietos šablono nustatymas

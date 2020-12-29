@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981516"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433434"
 ---
 # <a name="moving-average"></a>Slankusis vidurkis
 
@@ -141,7 +141,7 @@ Jei po operacijos naujas turimas kiekis teigiamas, operacija padalinama į dvi d
 
 ## <a name="inventory-value-report"></a>Atsargų vertės ataskaita
 
-Šiame slankiojo vidurkio pavyzdyje atsargų vertės ataskaita spausdinama siekiant palaikyti esamą produkto slankiojo vidurkio skaičiavimą. Naudojant atsargų vertės ataskaitą operacijas galima spausdinti chronologine tvarka, kartu su savikaina, kad būtų palaikomas produkto slankiojo vidurkio savikainos skaičiavimas. Ataskaitoje rodoma produkto slankiojo vidurkio savikaina. Dialogo lange **Atsargų vertės ataskaitos** datos intervalas leidžia pasirinkti **Operacijos laikas** arba **Registravimo data** ir pagal tai rūšiuoti ataskaitą. Paprastai ataskaita spausdinama nustačius parinktį **Registravimo data**. Parinktis **operacijos laikas** yra faktinė data, kurią pranešama apie operaciją ir atnaujinama produkto slankiojo vidurkio savikaina. Atsargų vertės ataskaitą galite spausdinti naudodami parinktį**Rūšiavimas pagal operacijos laiką**, jei norite pamatyti slankiojo vidurkio savikainos apskaičiavimą per tam tikrą laiką. Toliau pateiktoje lentelėje rodomos produktų operacijos, kurioms spausdinama ataskaita, kai naudojama parinktis **Rūšiavimas pagal operacijos laiką**.
+Šiame slankiojo vidurkio pavyzdyje atsargų vertės ataskaita spausdinama siekiant palaikyti esamą produkto slankiojo vidurkio skaičiavimą. Naudojant atsargų vertės ataskaitą operacijas galima spausdinti chronologine tvarka, kartu su savikaina, kad būtų palaikomas produkto slankiojo vidurkio savikainos skaičiavimas. Ataskaitoje rodoma produkto slankiojo vidurkio savikaina. Dialogo lange **Atsargų vertės ataskaitos** datos intervalas leidžia pasirinkti **Operacijos laikas** arba **Registravimo data** ir pagal tai rūšiuoti ataskaitą. Paprastai ataskaita spausdinama nustačius parinktį **Registravimo data**. Parinktis **operacijos laikas** yra faktinė data, kurią pranešama apie operaciją ir atnaujinama produkto slankiojo vidurkio savikaina. Atsargų vertės ataskaitą galite spausdinti naudodami parinktį **Rūšiavimas pagal operacijos laiką**, jei norite pamatyti slankiojo vidurkio savikainos apskaičiavimą per tam tikrą laiką. Toliau pateiktoje lentelėje rodomos produktų operacijos, kurioms spausdinama ataskaita, kai naudojama parinktis **Rūšiavimas pagal operacijos laiką**.
 
 | Operacijos laikas | Data         | Operacijos tipas           | Kiekis | Suma | Vidutinė vieneto savikaina |
 |------------------|--------------|----------------------------|----------|--------|-------------------|

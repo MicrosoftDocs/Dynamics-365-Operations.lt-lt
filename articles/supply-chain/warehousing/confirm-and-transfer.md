@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677415"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433360"
 ---
 # <a name="confirm-and-transfer"></a>Tvirtinimas ir perkėlimas
 
@@ -227,6 +227,6 @@ Taip pat galite patvirtinti, kad operacijų ryšiai atnaujinti šiais būdais:
 ## <a name="notes-and-tips"></a>Pastabos ir patarimai
 
 - Taip pat galite įjungti **Leisti krovinio išskaidymą siuntos patvirtinimo metu** parametrą po krovinio sukūrimo, tuo tarpu kai **Krovinio šablonas** parametras yra išjungtas, bet prieš pradedant pakrovimą. Pereikite į pageidaujamą krovinį, tada antraštės rodinyje įjunkite parametrą.
-- **Išskaidytas kiekis į naują krovinį**pasirinktis taip pat veikia, kai kai kurių likusių darbo antraščių būsena yra *vykdoma*. Todėl vis dar galite naudoti funkcijas, net jei darbuotojai jau vykdo paėmimo užsakymus.
+- **Išskaidytas kiekis į naują krovinį** pasirinktis taip pat veikia, kai kai kurių likusių darbo antraščių būsena yra *vykdoma*. Todėl vis dar galite naudoti funkcijas, net jei darbuotojai jau vykdo paėmimo užsakymus.
 - Jei pasirinksite **Atšaukti neįvykdytą kiekį**, kai yra likęs darbas, kurio būsena yra *Atviras* arba *Vykdomas*, gaunate tokį klaidos pranešimą: „Nepavyko atšaukti likusio krovinio kiekio. Yra krovinio darbas.“
 - Jei pasirinksite **Atšaukti neįvykdytą kiekį**, kai nėra likusio darbo, bet yra neišleistų krovinio eilučių kroviniui, gausite tokį klaidos pranešimą: „Krovinio siuntos nepavyksta patvirtinti, nes prekės kiekis viršija procentinę dalį, kuri nurodyta pristatymo metu.“ Norėdami išvengti šios klaidos, galite nustatyti, kad **Pristatymo metu** neišleistos krovinio eilutės procentus į 100 procentų. Neišleistos eilutės nebus perkeltos į naują krovinį, bet dabartinis krovinys bus patvirtintas kaip pristatymo trūkumas. Tokiu atveju negalėsite iš naujo paleisti pradinio užsakymo. Todėl jums reikės kitaip išspręsti šią problemą.

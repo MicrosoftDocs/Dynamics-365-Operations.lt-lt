@@ -17,11 +17,11 @@ ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
 ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 8cbaeb6443ce47a4c4bc02b5e1a1212eb0056b38
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: lt-LT
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3829830"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4433351"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Atsargų žurnalų patvirtinimo darbo eigos
 
@@ -40,7 +40,7 @@ Darbo srautai palaiko versijos kontroliavimą ir kiekvienas darbo srautas turi I
 
 Siekiant sukurti savo atsargų žurnalo tvirtinimo darbo srautus:
 
-1. Eikite į**Atsargų valdymas \> Nustatymas\> Atsargų valdymo darbo srautai**.
+1. Eikite į **Atsargų valdymas \> Nustatymas\> Atsargų valdymo darbo srautai**.
 1. Veiksmų srityje pasirinkite **Nauja**.
 1. Pasirinkite atsargų žurnalo tipą, kuriam norite nustatyti darbo srautą:
     - **Atsargų žymės skaičiavimo žurnalas**
@@ -95,7 +95,7 @@ Jei esate tvirtintojas, turėtumėte gauti žinutę kas kartą, kai jūsų tvirt
 
 1. Naršymo juostoje, išplėskite **Atsargų valdymas \> Žurnalo įrašai \> Elementai** ir tuomet pasirinkite atsargų žurnalo tipą.
 1. Atidarykite atitinkamą žurnalą jo peržiūrai.
-1. Pasirinkite**Darbo srauto** mygtuką veiksmų juostoje, kurią norite atidaryti iškrentančiame teksto lauke. Pasirinkite vieną iš toliau pateiktų:
+1. Pasirinkite **Darbo srauto** mygtuką veiksmų juostoje, kurią norite atidaryti iškrentančiame teksto lauke. Pasirinkite vieną iš toliau pateiktų:
     - **Patvirtinti** - Prašymo patvirtinimui.
     - **Atmesti** - Užklausos atmetimui.
     - **Daugiau \> Užklausos keitimas** - Žinutės nusiuntimui į užklausą, prašantį juos pakeisti kai ką konkretaus ir tuomet pateikti dar kartą.
@@ -111,4 +111,4 @@ Tam, kad peržiūrėtumėte žurnalo darbo srauto istoriją:
 
 1. Naršymo juostoje, išplėskite **Atsargų valdymas \> Žurnalo įrašai \> Elementai** ir tuomet pasirinkite atsargų žurnalo tipą.
 1. Atidarykite atitinkamą žurnalą.
-1. Pasirinkite**Darbo srauto** mygtuką veiksmų juostoje, kurią norite atidaryti iškrentančiame teksto lauke. Pasirinkite **Darbo srauto**. - Norėdami gauti daugiau informacijos, žr. [Peržiūrėti darbo srauto istoriją](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+1. Pasirinkite **Darbo srauto** mygtuką veiksmų juostoje, kurią norite atidaryti iškrentančiame teksto lauke. Pasirinkite **Darbo srauto**. - Norėdami gauti daugiau informacijos, žr. [Peržiūrėti darbo srauto istoriją](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
